@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34884707",
+  "title": "A Lumenal Loop Associated with Catalytic Asymmetry in Plant Vacuolar H(+)-Translocating Pyrophosphatase.",
+  "authors": "Anashkin, Viktor A; Baykov, Alexander A",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-12-11",
+  "window": {
+    "start": "2021-12-06",
+    "end": "2021-12-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用MD模拟研究植物液泡焦磷酸酶二聚体的催化不对称性，涉及膜蛋白构象变化，但对象非无序蛋白/IDR/相分离，且无PPI结合机制建模，仅部分方法可迁移。",
+  "abstract": "Membrane-integral inorganic pyrophosphatases (mPPases) couple pyrophosphate hydrolysis with H(+) and Na(+) pumping in plants and microbes. mPPases are homodimeric transporters with two catalytic sites facing the cytoplasm and demonstrating highly different substrate-binding affinities and activities. The structural aspects of the functional asymmetry are still poorly understood because the structure of the physiologically relevant dimer form with only one active site occupied by the substrate is unknown. We addressed this issue by molecular dynamics (MD) simulations of the H(+)-transporting mPPase of Vigna radiata, starting from its crystal structure containing a close substrate analog (imidodiphosphate, IDP) in both active sites. The MD simulations revealed pre-existing subunit asymmetry, which increased upon IDP binding to one subunit and persisted in the fully occupied dimer. The most significant asymmetrical change caused by IDP binding is a 'rigid body'-like displacement of the lumenal loop connecting alpha-helices 2 and 3 in the partner subunit and opening its exit channel for water. This highly conserved 14-19-residue loop is found only in plant vacuolar mPPases and may have a regulatory function, such as pH sensing in the vacuole. Our data define the structural link between the loop and active sites and are consistent with the published structural and functional data.",
+  "abstract_zh": "膜整合无机焦磷酸酶（mPPases）在植物和微生物中偶联焦磷酸水解与H(+)和Na(+)泵送。mPPases是同源二聚体转运蛋白，具有两个面向细胞质的催化位点，并表现出显著不同的底物结合亲和力和活性。功能不对称性的结构方面仍知之甚少，因为仅一个活性位点被底物占据的生理相关二聚体形式的结构尚不清楚。我们通过分子动力学（molecular dynamics, MD）模拟研究了绿豆（Vigna radiata）的H(+)转运mPPase，从其晶体结构出发，该结构在两个活性位点均含有紧密底物类似物（亚氨基二磷酸，IDP）。MD模拟揭示了预先存在的亚基不对称性，这种不对称性在IDP结合至一个亚基后增加，并在完全占据的二聚体中持续存在。由IDP结合引起的最显著不对称变化是伴侣亚基中连接α-螺旋2和3的腔环发生类似“刚体”的位移，并打开其水分子出口通道。这个高度保守的14-19残基环仅存在于植物液泡mPPases中，可能具有调节功能，如液泡中的pH感应。我们的数据定义了该环与活性位点之间的结构联系，并与已发表的结构和功能数据一致。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34884707/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34884707/",
+  "paper_page_path": "papers/pubmed/34884707/index.html"
+}

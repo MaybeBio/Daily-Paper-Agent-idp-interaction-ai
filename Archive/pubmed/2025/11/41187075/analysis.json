@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41187075",
+  "title": "Molecular drivers of RNA phase separation.",
+  "authors": "Ramachandran, Vysakh; Potoyan, Davit A",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2025-11-04",
+  "window": {
+    "start": "2025-11-03",
+    "end": "2025-11-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用原子模拟系统解析RNA凝聚体相分离的序列、离子与温度依赖性机制，虽对象为RNA而非蛋白IDR，但其无序凝聚体互作机制建模思路对IDP介导的相分离PPI研究有直接启发。",
+  "abstract": "RNA molecules play central roles in the assembly and regulation of biomolecular condensates, often in concert with proteins containing low complexity RNA-binding domains. Recently, it has been shown that RNA can phase-separate in the absence of any proteins. Unlike protein-based condensates, RNAs condensates are strongly influenced by magnesium ions which play crucial roles in their dynamics and thermodynamics, giving rise to base-specific lower critical solution temperatures (LCSTs). The molecular basis and functional significance of sequence and ion-dependent LCST behavior RNA condensates have yet to be elucidated. Here, we use atomistic simulations to systematically dissect the driving forces underlying the sequence-, ion-, and temperature-dependent phase behaviors of RNA condensates. By choosing RNA tetranucleotides alongside their ssDNA counterpart and chemically modified analogs, we map equilibrium thermodynamic profiles and structural ensembles across various external conditions. Our results show that magnesium ions promote LCST behavior by inducing local disorder-order transitions within RNA structures. Additionally, the base chemistry and the 2'hydroxyl group of the ribose sugar further modulate this LCST response. In agreement with experiments, we find that the thermal stability of RNA condensates follows the order G(n) > A(n) > C(n) > U(n), governed by the balance of base stacking and hydrogen bonding interactions. Moreover, our simulations reveal that posttranslational nucleotide modifications can fine-tune the threshold of RNA self-assembly and the resulting condensate structures.",
+  "abstract_zh": "RNA分子在生物分子凝聚体的组装和调控中发挥核心作用，通常与含有低复杂度RNA结合结构域的蛋白质协同作用。近期研究表明，RNA在无任何蛋白质存在的情况下也能发生相分离 (phase separation)。与基于蛋白质的凝聚体不同，RNA凝聚体受镁离子强烈影响，镁离子在其动力学和热力学中起关键作用，从而产生碱基特异性的较低临界溶解温度 (lower critical solution temperatures, LCSTs)。序列和离子依赖性LCST行为的分子基础及功能意义尚未阐明。在此，我们使用原子模拟 (atomistic simulations) 系统剖析RNA凝聚体序列、离子和温度依赖性相行为背后的驱动力。通过选择RNA四核苷酸及其单链DNA对应物和化学修饰类似物，我们绘制了各种外部条件下的平衡热力学谱和结构系综。我们的结果表明，镁离子通过诱导RNA结构内的局部无序-有序转变来促进LCST行为。此外，碱基化学性质和核糖糖的2'羟基进一步调节这种LCST响应。与实验一致，我们发现RNA凝聚体的热稳定性遵循G(n) > A(n) > C(n) > U(n)的顺序，这由碱基堆叠和氢键相互作用的平衡所决定。此外，我们的模拟揭示，翻译后核苷酸修饰可微调RNA自组装的阈值及由此产生的凝聚体结构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41187075/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41187075/",
+  "paper_page_path": "papers/pubmed/41187075/index.html"
+}

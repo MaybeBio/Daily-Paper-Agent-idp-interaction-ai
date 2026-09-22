@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that microsecond-order all-atom molecular dynamics simulations of a crowded system of FUS-LC-cores with multiple ATP molecules show that the adenine group of ATP frequently contacts the FUS-LC-core, while the phosphoric acid group is exposed to solvent, promoting hydration and solubilization of FUS, thereby explaining ATP-mediated dissolution of FUS droplets.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, convergence metrics, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field validation, system composition, simulation length and replicates, analysis protocols, and all figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis for ATP-mediated solubilization of FUS based on all-atom MD simulations. However, the evidence base is severely limited by the absence of methodological detail and quantitative results. The central claim that ATP promotes hydration and solubilization through a specific contact pattern is not verifiable from the supplied material. The work may be of interest to the IDP and LLPS community, but the case is currently not established.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, intrinsically disordered proteins, and the molecular mechanisms of ATP as a biological hydrotrope. The findings could inform understanding of FUS-related pathologies and general principles of IDP solubilization.
+- **Major strengths** The study addresses a timely and important question regarding the role of ATP in modulating FUS phase behavior. The use of all-atom MD simulations at microsecond timescales in a crowded system is ambitious and potentially valuable. The proposed mechanism, involving distinct roles for the adenine and phosphate groups, is mechanistically specific and testable.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that microsecond-order all-atom MD simulations were performed for a crowded system of FUS-LC-cores in the presence of multiple ATP molecules, and that analysis revealed specific contact patterns.
+  - **Evidence pointer** Abstract, methods not provided
+  - **Concern** No methodological details are provided regarding the simulation system, including the number of FUS-LC-core copies, ATP concentration, box size, water model, force field parameters, temperature and pressure coupling, or equilibration protocol. Without these details, the validity and reproducibility of the simulations cannot be assessed.
+  - **Why it matters** All-atom MD results are highly sensitive to system setup and force field choice, particularly for intrinsically disordered proteins and nucleotide interactions. The absence of this information precludes evaluation of whether the observed contact patterns are physically meaningful or artifacts of the simulation conditions.
+  - **Resolution test** Provide full simulation methods, including system composition, force field parameters, and validation against experimental data. Demonstrate that the results are robust to reasonable variations in system setup.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The abstract claims that the adenine group of ATP frequently contacted the FUS-LC-core and the phosphoric acid group was exposed to solvent, promoting hydration and solubilization.
+  - **Evidence pointer** Abstract, no quantitative data provided
+  - **Concern** No quantitative results are presented, such as contact frequencies, residence times, radial distribution functions, or hydration numbers. The claim of "frequent" contact and "promoted" hydration is qualitative and unsupported by any numerical evidence in the abstract.
+  - **Why it matters** The central mechanistic conclusion rests on these specific molecular interactions. Without quantitative measures and appropriate statistical analysis, the claim cannot be distinguished from stochastic fluctuations or simulation artifacts.
+  - **Resolution test** Provide quantitative metrics for ATP-FUS contacts and hydration changes, with error estimates and comparison to control simulations without ATP.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract implies that the simulations were performed and analyzed in a manner sufficient to support the conclusions.
+  - **Evidence pointer** Abstract, no simulation details provided
+  - **Concern** No information is given on the number of independent simulations, simulation length per replicate, convergence criteria, or statistical sampling. Microsecond-order simulations of crowded systems are computationally demanding, and a single trajectory may not provide adequate sampling of the conformational space.
+  - **Why it matters** Without evidence of convergence and replicate sampling, the observed contact patterns may not be representative of the equilibrium ensemble. This is critical for a study making mechanistic claims.
+  - **Resolution test** Report the number of replicates, total simulation time, and convergence analysis. Show that key observables are stable over time and consistent across replicates.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "crowded system of FUS-LC-cores" is ambiguous regarding the number of protein copies and the degree of crowding.
+  - **Required correction** Specify the number of FUS-LC-core copies and the effective protein concentration in the simulation box.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state whether the simulations included control conditions, such as FUS-LC-cores without ATP or with ATP analogs, which would strengthen the mechanistic interpretation.
+  - **Required correction** State whether control simulations were performed and, if so, summarize the key comparative results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Mechanistic claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The claim that ATP promotes "solubilization" is inferred from simulation observables, but the abstract does not define how solubilization is operationalized in the simulation context.
+  - **Required correction** Define the specific simulation observable used to assess solubilization, such as reduced protein-protein contacts or increased protein-solvent interactions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed mechanism, with distinct roles for adenine and phosphate groups, is potentially original, but the abstract does not provide sufficient context to establish novelty relative to prior computational studies of ATP and IDPs.
+  - Scientific importance: The question of ATP-mediated FUS dissolution is of high importance to the LLPS field, but the current evidence is insufficient to support a definitive mechanistic claim.
+  - Interdisciplinary readership: The topic bridges biophysics, computational chemistry, and cell biology, and would appeal to a broad readership if the evidence were robust.
+  - Technical soundness: Not assessable from the abstract alone. The absence of methodological detail and quantitative results is a critical deficiency.
+  - Readability for nonspecialists: The abstract is concise and generally accessible, but the lack of context on simulation methodology may limit comprehension for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The study addresses a significant question and the proposed mechanism is plausible, but the abstract alone does not provide sufficient methodological or quantitative support. A full manuscript with detailed methods, validation, and quantitative results would be required to assess the case.
+
+## Risk / unsupported claims
+- The claim that ATP promotes hydration and solubilization of FUS through the described contact pattern is unsupported by quantitative evidence in the abstract.
+- The claim that microsecond-order all-atom MD simulations were performed is not verifiable without methodological details.
+- The mechanistic distinction between adenine and phosphate group roles is not supported by any numerical data in the supplied material.
+- Any implication that the simulations accurately represent experimental ATP-mediated FUS dissolution is not assessable from the abstract.

@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusion, and materials and methods.
+- **Assessment boundary** Scientific soundness, technical rigor, and clarity of the claims presented. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors propose that a non-canonical, phosphorylation-dependent ABBA-like motif in the intrinsically disordered protein CDCA3 mediates binding to the APC/C coactivator Cdh1. They combine co-immunoprecipitation (Co-IP) experiments and molecular dynamics (MD) simulations to characterize the roles of specific residues, proposing that phosphorylation at S222 and S229, along with hydrophobic interactions, are critical for efficient binding. They also suggest that alanine mutants (2X, 4X) may bind to an alternate site on Cdh1, resembling a D2-box-like interaction.
+- **Visible evidence base** Co-IP data (Figure 2a), MM-GBSA binding free energies (Table 1), representative MD structures (Table 2, Figure 2b), pair-wise energy decomposition (Figures 2c,d, S3-S5), RMSF analysis (Figure 4a,b), unbiased MD clustering (Table 3, Figure 5a,b), AlphaFold2 multimer predictions (Figure S6), and sequence alignments (Figure 5c).
+- **Missing materials affecting confidence** The manuscript does not provide the full MM-GBSA energy component tables (only summarized in Table 1), the detailed parameters for the unbiased MD simulations (e.g., box size, ion concentration, equilibration protocol), the AlphaFold2 confidence metrics (e.g., pLDDT or PAE scores), and the raw Co-IP blot images. The supplementary figures are referenced but not fully described in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in cell cycle regulation, specifically the molecular determinants of CDCA3 recognition by Cdh1. The combination of experimental and computational approaches is appropriate and potentially informative. However, the current evidence does not fully establish the central claims. The Co-IP data are semi-quantitative and lack statistical rigor. The MD simulations, while extensive, are based on a homology model and the discrepancy between the in silico and in vitro results for the 2X and 4X mutants is not resolved convincingly. The proposal of an alternate binding site is intriguing but is based on simulations of truncated peptides and AlphaFold2 predictions that are not experimentally validated. The manuscript would be strengthened by more rigorous quantitative binding assays, clearer presentation of the computational data, and a more cautious interpretation of the alternate binding mode hypothesis.
+- **Who would be interested in the results, and why** Researchers studying APC/C biology, ubiquitin ligase substrate recognition, intrinsically disordered proteins, and the molecular basis of phosphorylation-dependent protein-protein interactions. The findings could also be of interest to computational biologists developing methods for modeling post-translational modifications and protein-peptide docking.
+- **Major strengths** The study combines in vitro and in silico approaches to address a specific mechanistic question. The identification of a non-canonical ABBA-like motif in CDCA3 and the focus on phosphorylation-dependent regulation is a timely and relevant topic. The use of long MD simulations and MM-GBSA free energy calculations is a standard and appropriate approach for this type of analysis. The authors are transparent about the limitations of their computational model, such as the use of a truncated CDCA3 construct.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Experimental evidence
+    - **Claim pointer** The claim that specific residues (e.g., S222, S229, E226, E230) are "required for efficient binding" is based on Co-IP data.
+    - **Evidence pointer** Figure 2a
+    - **Concern** The Co-IP experiments are presented as the primary experimental evidence for the functional importance of the identified residues. However, the data are shown as a single representative blot with densitometry, and no statistical analysis (e.g., mean ± SD from multiple independent experiments, p-values) is provided. The conclusion that a mutation "markedly impaired" or "enhanced" binding is not supported by quantitative evidence. Furthermore, the Co-IP is an end-point assay that does not provide binding affinities or kinetics. The claim of "efficient binding" is therefore not rigorously established.
+    - **Why it matters** The central hypothesis of the paper rests on the functional significance of these residues. Without quantitative and statistically robust binding data, the conclusions drawn from the Co-IP experiments are not reliable. This is a fundamental issue that undermines the experimental foundation of the study.
+    - **Resolution test** The authors should provide quantitative binding data, such as from isothermal titration calorimetry (ITC), surface plasmon resonance (SPR), or a quantitative pull-down assay with purified proteins, for the WT and key mutant CDCA3 peptides. The data should be presented as mean ± SD from at least three independent experiments with appropriate statistical tests (e.g., one-way ANOVA with post-hoc test).
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Computational methodology and interpretation
+    - **Claim pointer** The claim that the 2X and 4X mutants bind to an "alternate binding site" on Cdh1, similar to the D2-box of Cyclin A2.
+    - **Evidence pointer** Figure 5a,b, Table 3, Figure S6
+    - **Concern** The unbiased MD simulations were performed on truncated CDCA3 peptides (2X-Truncated and 4X-Truncated) in complex with Cdh1. The initial binding pose for these simulations is not clearly described. If the peptides were placed near the D2-box site, the simulations would be biased towards finding that site. The AlphaFold2 predictions are used to support this claim, but AlphaFold2 is not designed to predict the effect of post-translational modifications or to reliably distinguish between different binding modes of a short, disordered peptide. The experimental Co-IP data (Figure 2a) show that the 4X mutant has enhanced binding, which is interpreted as binding to an alternate site. However, this is speculative and not directly tested. The discrepancy between the in silico binding free energies (which show no change for 4X) and the experimental data (which show enhanced binding) is acknowledged but not resolved.
+    - **Why it matters** The proposal of an alternate binding mode is a novel and significant claim. If true, it would have implications for understanding substrate recognition by APC/C. However, the current evidence is circumstantial and based on computational methods that are not validated for this specific question. The claim is not supported by the data presented.
+    - **Resolution test** To support this claim, the authors would need to provide direct experimental evidence for the alternate binding site. This could be done through mutagenesis of the proposed D2-box site on Cdh1 and testing its effect on binding to the 4X mutant, or through a cross-linking/mass spectrometry approach. For the computational part, the authors should clearly state the initial conditions of the unbiased simulations and provide a more detailed analysis of the binding pathway. They should also present the AlphaFold2 confidence metrics to assess the reliability of the predictions.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Computational methodology
+    - **Claim pointer** The claim that the di-phosphorylated CDCA3 has a stronger binding affinity for Cdh1 than the unphosphorylated form, based on MM-GBSA calculations.
+    - **Evidence pointer** Table 1
+    - **Concern** The MM-GBSA method is known to be sensitive to the choice of parameters (e.g., the dielectric constant, the solvation model) and can have large errors. The manuscript reports a single value for the total binding free energy for each system, without any error estimates (e.g., standard deviation across the trajectory or across multiple runs). The energy components are discussed, but the statistical significance of the differences between systems is not assessed. The conclusion that the di-phosphorylated system binds more strongly is based on a single, potentially noisy, calculation.
+    - **Why it matters** The MM-GBSA results are used to support the experimental findings and to provide a mechanistic explanation for the role of phosphorylation. If the calculations are not robust, the mechanistic conclusions are weakened.
+    - **Resolution test** The authors should provide the standard deviation of the MM-GBSA energy components across the simulation trajectory. They should also consider performing multiple independent simulations for each system to assess the reproducibility of the results. A more rigorous free energy method, such as thermodynamic integration or free energy perturbation, could be used to validate the key findings.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity and reproducibility
+    - **Affected element** Methods section
+    - **Evidence pointer** Materials and Methods, "Unbiased enhanced molecular dynamics simulation"
+    - **Issue** The description of the unbiased MD simulations is insufficient. The initial coordinates for the peptide-Cdh1 complex are not described. How was the peptide placed near the proposed alternate site? What was the box size? What was the total simulation time for the unbiased runs (the text mentions 2 μs, but it is unclear if this is per system)?
+    - **Required correction** Provide a detailed description of the system setup, including the source of the initial coordinates, the method for placing the peptide, the box dimensions, the ion concentration, and the total simulation time for each system.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Data presentation
+    - **Affected element** Figure 2a
+    - **Evidence pointer** Figure 2a
+    - **Issue** The Co-IP blot is shown as a single representative image. The densitometry data are presented as a bar graph, but the units and the normalization method are not clear. It is also unclear if the "input" lanes are shown.
+    - **Required correction** Clarify the figure legend. State the number of independent experiments (n). Show the input controls. Present the densitometry as mean ± SD with individual data points overlaid.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Interpretation
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion section
+    - **Issue** The authors state that "the results of MD simulations of various systems suggest that the CDCA3 C-terminal domain bound to Cdh1 is a fuzzy complex." This is a strong statement. The evidence for "fuzziness" is not clearly presented. The RMSF analysis (Figure 4) shows flexibility, but this is not a direct measure of a "fuzzy complex" in the sense of multiple, interconverting bound conformations.
+    - **Required correction** Soften the language or provide more direct evidence for the "fuzzy complex" model, such as a detailed analysis of the conformational ensemble of the bound peptide.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract
+    - **Evidence pointer** Abstract
+    - **Issue** The abstract states that "Upon alanine mutation, the structure of this region is lost, leading to higher flexibility, and alteration in affinities due to binding to alternate sites on Cdh1." This is a very condensed summary of the results. It is not clear from the abstract which specific mutations are being referred to and what the "alternate sites" are.
+    - **Required correction** Rephrase to be more specific, e.g., "Mutation of the phosphorylation sites (S222A, S229A) led to a loss of helical structure and increased flexibility in the linker region. For the double mutant (2X), MD simulations suggest binding to an alternate site on Cdh1, which may explain the enhanced binding observed in vitro."
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative binding data (R1-M1) is a critical failing. The evidence for the alternate binding site (R1-M2) is not convincing. The MM-GBSA calculations (R1-M3) lack error analysis.
+- **Assessment against Nature-style criteria**
+    - **Originality** The concept of a phosphorylation-dependent, non-canonical ABBA-like motif in CDCA3 is somewhat novel, but the general principle of phosphorylation-dependent degron regulation is well-established. The proposed alternate binding mode is original but not well-supported.
+    - **Scientific importance** The work addresses a specific interaction in a well-studied pathway. The findings are of moderate importance to the APC/C and cell cycle fields, but the impact is limited by the lack of definitive experimental evidence.
+    - **Interdisciplinary readership** The topic is primarily of interest to cell biologists and structural biologists. The computational methods are standard and would be accessible to a computational audience, but the paper is unlikely to attract a broad interdisciplinary readership.
+    - **Technical soundness** The experimental and computational methods are generally sound, but the execution and interpretation have significant weaknesses, as detailed in the major concerns.
+    - **Readability for nonspecialists** The manuscript is clearly written and the concepts are explained well. The figures are generally informative, but the main message is somewhat obscured by the conflicting results between the in vitro and in silico data.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims are not sufficiently supported. Major revisions are required to provide quantitative binding data, to strengthen the evidence for the alternate binding site, and to address the robustness of the computational results.
+
+## Risk / unsupported claims
+- The claim that the 2X and 4X mutants bind to an alternate site on Cdh1 is unsupported by direct experimental evidence and is based on simulations that may be biased by the initial setup.
+- The claim that the linker region "adopts a well-defined structure when bound to Cdh1 in the presence of phosphorylation" is based on MD simulations of a model and is not confirmed by experimental structural data.
+- The statement that the CDCA3-Cdh1 complex is a "fuzzy complex" is an interpretation of the simulation data that is not directly supported by the presented analysis.
+- The functional significance of the "alternate binding site" for the regulation of CDCA3 protein levels in a cellular context is not tested.

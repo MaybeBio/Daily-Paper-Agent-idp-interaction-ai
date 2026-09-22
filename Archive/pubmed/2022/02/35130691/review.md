@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusion) without supplementary material
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence consistency as presented in the main text; supplementary figures and tables referenced but not independently evaluated
+- **Shared manuscript claim summary** The authors report long-time-scale MD simulations of the small-molecule drug fasudil binding to monomeric α-synuclein, an intrinsically disordered protein. They claim that simulated contact probabilities correlate with NMR chemical shift perturbations, that binding is driven by charge–charge and aromatic π-stacking interactions near the C terminus, that a "dynamic shuttling" mechanism describes the temporal sequence of weak interactions, and that prospective simulations of 49 analogs with NMR validation support the predictive utility of their approach.
+- **Visible evidence base** Main text figures (Figures 1–4), referenced supplementary figures and tables (Figures S1–S11, Tables S1–S3), simulation methods described in text, NMR experimental procedures described in text
+- **Missing materials affecting confidence** Supplementary figures and tables not provided; force field parameter details for GAFF not fully specified; NMR experimental parameters (temperature, buffer, concentration series) not detailed in main text; statistical analysis methods for correlation coefficients not described; no error estimates or convergence metrics for simulation observables
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious and potentially valuable application of long-time-scale MD simulations to a challenging problem, namely small-molecule binding to an intrinsically disordered protein. The retrospective agreement with NMR data is encouraging, and the prospective testing of analogs is a commendable design. However, the central claims rest on correlational evidence and simulation-derived quantities whose uncertainties are not fully characterized. The "dynamic shuttling" mechanism is qualitatively described but lacks a rigorous statistical or kinetic framework. The manuscript would benefit from clearer presentation of convergence, error analysis, and the relationship between simulated observables and experimental measurements.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, molecular dynamics simulation method development, and early-stage drug discovery targeting disordered targets. The work may also interest biophysicists studying weak multivalent interactions and those developing computational approaches for targets that resist conventional structure-based design.
+- **Major strengths** The use of millisecond-scale unbiased MD simulations is state-of-the-art and appropriate for the problem. The retrospective correlation with NMR CSPs provides a meaningful validation of the simulation model. The prospective design, including a library of analogs and subsequent NMR testing, is a strong feature that goes beyond purely retrospective analysis. The identification of specific residue-level interactions (D135, E137, Y133, Y136) offers testable hypotheses for future experimental work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that simulated contact probabilities correlate with NMR CSPs (r = 0.67) and that this supports the accuracy of the simulation model.
+  - **Evidence pointer** Figure 1, Figure S1, Results and Discussion section
+  - **Concern** The correlation coefficient is presented without confidence intervals, significance testing, or discussion of whether the correlation is driven by a few residues or is robust across the sequence. The comparison between a simulated contact probability (a geometric criterion) and an NMR CSP (a chemical shift change) is indirect, and the manuscript does not establish a quantitative relationship between these observables beyond the reported correlation.
+  - **Why it matters** The central claim that the simulations accurately describe the molecular basis of binding rests on this correlation. Without statistical rigor, the reader cannot assess whether the agreement is meaningful or could arise from chance or from a small number of influential data points.
+  - **Resolution test** Provide a scatter plot with per-residue labels, report the correlation with confidence intervals (e.g., bootstrap), and discuss whether the correlation holds when excluding the most highly perturbed residues. Alternatively, provide a direct comparison of simulated and experimental observables that are more directly related, such as per-residue binding probabilities versus CSP-derived saturation values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the "dynamic shuttling" mechanism, in which one interaction breaks before another forms nearby, explains the binding affinity and specificity of fasudil and ligand 47.
+  - **Evidence pointer** Figure 2D, Figure 3B, Results and Discussion section
+  - **Concern** The dynamic shuttling mechanism is inferred from temporal correlations in simulation trajectories, but the manuscript does not provide a quantitative definition of the mechanism, a statistical test for the significance of the observed temporal correlations, or a comparison to a null model (e.g., independent binding events). The claim that this mechanism explains affinity differences is not supported by a free energy or kinetic analysis.
+  - **Why it matters** The mechanism is a central conceptual contribution of the paper. If the temporal correlations are not statistically robust or if the mechanism does not quantitatively account for the observed affinity differences, the claim is overstated.
+  - **Resolution test** Define the shuttling mechanism operationally (e.g., transition rates between interaction states), compare observed transition frequencies to a Markov model with independent interactions, and show that the mechanism quantitatively reproduces the relative affinities of fasudil and ligand 47.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the relative affinities of the five experimentally tested ligands estimated from NMR titration slopes are in line with the affinities predicted from MD simulations.
+  - **Evidence pointer** Figure 4, Table S3, Results and Discussion section
+  - **Concern** The comparison between simulated KD values and experimental NMR titration slopes is indirect. The manuscript does not report the simulated KD values for the experimentally tested ligands in the main text, nor does it provide a quantitative comparison (e.g., rank order correlation, error bars on simulated KD). The statement "in line with" is vague and does not allow the reader to assess the strength of the agreement.
+  - **Why it matters** The prospective validation is a key strength of the paper. If the agreement is only qualitative or if the uncertainties are large, the claim of predictive utility is weakened.
+  - **Resolution test** Report the simulated KD values with uncertainties for all experimentally tested ligands, provide a quantitative comparison (e.g., Spearman rank correlation) between simulated KD and experimental slope, and discuss any outliers.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their results "suggest potential strategies for the rational design of molecules that bind disordered protein sequences with higher affinity and greater specificity."
+  - **Evidence pointer** Conclusion section
+  - **Concern** The manuscript demonstrates retrospective and prospective agreement for a small set of analogs, but does not provide evidence that the proposed design principles (e.g., targeting YE pairs, interspersing charged and aromatic residues) can be generalized or that they lead to improved binders beyond the tested set. The claim of "rational design" is speculative.
+  - **Why it matters** The broader significance of the work depends on its implications for drug discovery. If the design principles are not validated or are only applicable to this specific system, the claim is overstated.
+  - **Resolution test** Either temper the claim to reflect the specific system studied, or provide additional evidence, such as design and testing of new analogs based on the proposed principles.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Results and Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript assumes familiarity with MD simulation terminology and NMR CSP analysis. Terms such as "contact probability," "bound ensemble," and "chemical shift perturbation" are used without brief definitions.
+  - **Required correction** Add brief definitions or a glossary for these terms to improve accessibility for readers outside the immediate simulation or NMR communities.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results and Discussion, Figure 2C
+  - **Evidence pointer** Figure 2C, Table S1
+  - **Issue** The analysis of π-stacking orientation distributions is described qualitatively, and the statistical significance of the observed asymmetries is not reported.
+  - **Required correction** Provide a statistical test (e.g., chi-square or bootstrap) for the asymmetry of orientation distributions, and report p-values or confidence intervals.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results and Discussion, Figure 4
+  - **Evidence pointer** Figure 4, Table S3
+  - **Issue** The NMR titration experiments are described as measuring "slopes" of CSPs, but the exact fitting procedure and the number of titration points are not specified in the main text.
+  - **Required correction** Briefly describe the fitting procedure and the number of titration points in the main text or refer to the Methods section with specific details.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion section
+  - **Issue** The speculation about fasudil inhibiting aggregation by hindering dimerization is presented without direct experimental or simulation evidence for the aggregation process.
+  - **Required correction** Clearly label this as speculation and consider moving it to a "Discussion" section rather than the conclusion, or provide supporting evidence from simulations of dimerization.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (correlation without statistical rigor), R1-M2 (dynamic shuttling without quantitative definition or statistical test), R1-M3 (indirect comparison of simulated and experimental affinities without quantitative metrics)
+- **Assessment against Nature-style criteria** Originality: The application of millisecond-scale MD to small-molecule binding of an IDP is novel and represents a methodological advance. Scientific importance: The work addresses a significant challenge in drug discovery for disordered proteins, but the generalizability of the findings is not yet established. Interdisciplinary readership: The work will appeal to biophysicists, computational chemists, and structural biologists, but may be less accessible to a broader chemistry or biology audience without additional context. Technical soundness: The simulation methodology is state-of-the-art, but the statistical analysis of key claims is insufficient. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with specialized techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core approach is promising and the prospective validation is commendable, but the manuscript currently does not provide sufficient statistical rigor to fully support the central claims. Addressing the concerns above, particularly around correlation analysis, the dynamic shuttling mechanism, and the quantitative comparison of affinities, would strengthen the case.
+
+## Risk / unsupported claims
+- The claim that the "dynamic shuttling" mechanism explains binding affinity is not quantitatively supported.
+- The claim that the simulations "suggest potential strategies for the rational design" of improved binders is speculative and not validated beyond the tested set.
+- The correlation between simulated contact probabilities and NMR CSPs is reported without statistical confidence.
+- The comparison of simulated KD values to experimental NMR slopes is not quantitatively established in the main text.
+- The speculation that fasudil inhibits aggregation by hindering dimerization is not supported by direct evidence in this manuscript.

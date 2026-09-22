@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "39092442",
+    "doi": "10.1039/d4cb00066h",
+    "title": "Site-directed allostery perturbation to probe the negative regulation of hypoxia inducible factor-1alpha."
+  },
+  "content": {
+    "abstract": "The interaction between the intrinsically disordered transcription factor HIF-1alpha and the coactivator proteins p300/CBP is essential in the fast response to low oxygenation. The negative feedback regulator, CITED2, switches off the hypoxic response through a very efficient irreversible mechanism. The negative cooperativity with HIF-1alpha relies on the formation of a ternary intermediate that leads to allosteric structural changes in p300/CBP, in which the cooperative folding/binding of the CITED2 sequence motifs plays a key role. Understanding the contribution of a binding motif to the structural changes in relation to competition efficiency provides invaluable insights into the molecular mechanism. Our strategy is to site-directedly perturb the p300-CITED2 complex's structure without significantly affecting binding thermodynamics. In this way, the contribution of a sequence motif to the negative cooperativity with HIF-1alpha would mainly depend on the induced structural changes, and to a lesser extent on binding affinity. Using biophysical assays and NMR measurements, we show here that the interplay between the N-terminal tail and the rest of the binding motifs of CITED2 is crucial for the unidirectional displacement of HIF-1alpha. We introduce an advantageous approach for evaluating the roles of the different sequence parts with the help of motif-by-motif backbone perturbations.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Petrovicz, Vencel L",
+        "Pasztuhov, Istvan",
+        "Martinek, Tamas A",
+        "Hegedus, Zsofia"
+      ],
+      "short_names": [
+        "Petrovicz VL",
+        "Pasztuhov I",
+        "Martinek TA",
+        "Hegedus Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5437-2462",
+        "ORCID: 0000-0003-3168-8066",
+        "ORCID: 0000-0002-5546-8167"
+      ],
+      "affiliations": [
+        "University of Szeged, Department of Medical Chemistry 8 Dom ter Szeged 6720 Hungary martinek.tamas@med.u-szeged.hu hegedus.zsofia@med.u-szeged.hu.",
+        "University of Szeged, Department of Medical Chemistry 8 Dom ter Szeged 6720 Hungary martinek.tamas@med.u-szeged.hu hegedus.zsofia@med.u-szeged.hu.",
+        "University of Szeged, Department of Medical Chemistry 8 Dom ter Szeged 6720 Hungary martinek.tamas@med.u-szeged.hu hegedus.zsofia@med.u-szeged.hu.",
+        "HUN-REN SZTE Biomimetic Systems Research Group 8 Dom ter Szeged 6720 Hungary.",
+        "University of Szeged, Department of Medical Chemistry 8 Dom ter Szeged 6720 Hungary martinek.tamas@med.u-szeged.hu hegedus.zsofia@med.u-szeged.hu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Petrovicz, Vencel L",
+        "short_name": "Petrovicz VL",
+        "identifiers": [
+          "0000-0002-5437-2462"
+        ],
+        "affiliations": [
+          "University of Szeged, Department of Medical Chemistry 8 Dóm tér Szeged 6720 Hungary martinek.tamas@med.u-szeged.hu hegedus.zsofia@med.u-szeged.hu."
+        ]
+      },
+      {
+        "full_name": "Pasztuhov, István",
+        "short_name": "Pasztuhov I",
+        "identifiers": [],
+        "affiliations": [
+          "University of Szeged, Department of Medical Chemistry 8 Dóm tér Szeged 6720 Hungary martinek.tamas@med.u-szeged.hu hegedus.zsofia@med.u-szeged.hu."
+        ]
+      },
+      {
+        "full_name": "Martinek, Tamás A",
+        "short_name": "Martinek TA",
+        "identifiers": [
+          "0000-0003-3168-8066"
+        ],
+        "affiliations": [
+          "University of Szeged, Department of Medical Chemistry 8 Dóm tér Szeged 6720 Hungary martinek.tamas@med.u-szeged.hu hegedus.zsofia@med.u-szeged.hu.",
+          "HUN-REN SZTE Biomimetic Systems Research Group 8 Dóm tér Szeged 6720 Hungary."
+        ]
+      },
+      {
+        "full_name": "Hegedüs, Zsófia",
+        "short_name": "Hegedüs Z",
+        "identifiers": [
+          "0000-0002-5546-8167"
+        ],
+        "affiliations": [
+          "University of Szeged, Department of Medical Chemistry 8 Dóm tér Szeged 6720 Hungary martinek.tamas@med.u-szeged.hu hegedus.zsofia@med.u-szeged.hu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "RSC chemical biology"
+    ],
+    "journal_abbrev": [
+      "RSC Chem Biol"
+    ],
+    "pub_date": "2024 Jul 31",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/02 06:42",
+    "fetched_at": "2026-09-21 09:09:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37665648",
+      "36170455",
+      "35656479",
+      "35012986",
+      "34520739",
+      "34472840",
+      "33106407",
+      "32942197",
+      "32242581",
+      "32123067",
+      "31940206",
+      "31930404",
+      "31525028",
+      "31521329",
+      "30775911",
+      "30563937",
+      "30025258",
+      "29777197",
+      "29634920",
+      "29272560",
+      "28878873",
+      "28273070",
+      "27390896",
+      "27055097",
+      "26851278",
+      "26317395",
+      "26245371",
+      "25531225",
+      "25285575",
+      "25207470",
+      "25071931",
+      "24821806",
+      "24773235",
+      "24740064",
+      "24739139",
+      "24533462",
+      "23783631",
+      "23307074",
+      "22548447",
+      "21483947",
+      "19946328",
+      "19706443",
+      "19386601",
+      "17192587",
+      "15783163",
+      "14594809",
+      "13130303",
+      "12778166",
+      "12778114",
+      "12639949",
+      "12381310",
+      "12213597",
+      "11959990",
+      "11959977",
+      "11839490",
+      "11292861",
+      "10887150",
+      "10625516",
+      "8917528"
+    ],
+    "similar": [
+      "39092442",
+      "35012986",
+      "28273070",
+      "34520739",
+      "14594809",
+      "12778114",
+      "31940206",
+      "33106407",
+      "21925214",
+      "30775911",
+      "36170455",
+      "32242581",
+      "9822602",
+      "32123067",
+      "12149478",
+      "17022961",
+      "25956243",
+      "32728529",
+      "17906695",
+      "35656479",
+      "11959977",
+      "9887100",
+      "22075993",
+      "27484627",
+      "23618863",
+      "20368990",
+      "22665973",
+      "17382325",
+      "30784357",
+      "23783631",
+      "15615775",
+      "23966271",
+      "19035510",
+      "23792300",
+      "11278891",
+      "15342390",
+      "20547241",
+      "27808477",
+      "19880525",
+      "26851278",
+      "22807441",
+      "19071119",
+      "23966163",
+      "15051727",
+      "37874694",
+      "12124396",
+      "15280364",
+      "29961792",
+      "24421387",
+      "16357535",
+      "21460102",
+      "14992692",
+      "30409902",
+      "21224490",
+      "22426420",
+      "10594042",
+      "24936238",
+      "10671489",
+      "19589782",
+      "35592530",
+      "36789561",
+      "24983504",
+      "22308296",
+      "12097158",
+      "15154850",
+      "15735682",
+      "9159130",
+      "17499866",
+      "22114151",
+      "24775564",
+      "24211325",
+      "26559940",
+      "16740701",
+      "31521236",
+      "15031665",
+      "30967472",
+      "25627682",
+      "27561725",
+      "17653093",
+      "22923450",
+      "20368827",
+      "34151583",
+      "21807114",
+      "23033253",
+      "27140429",
+      "21625218",
+      "36747531",
+      "25212031",
+      "25892103",
+      "31719609",
+      "12586840",
+      "18174379",
+      "11358837",
+      "35635894",
+      "8663540",
+      "17498666",
+      "11707426",
+      "25451029",
+      "31282018"
+    ],
+    "review": [
+      "39092442",
+      "32728529",
+      "27484627",
+      "26851278",
+      "35592530",
+      "31521236"
+    ],
+    "pmc": [
+      "11289882"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39092442/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d4cb00066h",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1240",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

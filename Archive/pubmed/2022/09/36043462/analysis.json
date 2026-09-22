@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36043462",
+  "title": "Conformational fluctuations in the molten globule state of alpha-lactalbumin.",
+  "authors": "Moulick, Abhik Ghosh; Chakrabarti, J",
+  "journal": "Physical chemistry chemical physics : PCCP",
+  "published_date": "2022-09-01",
+  "window": {
+    "start": "2022-08-29",
+    "end": "2022-09-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用CpHMD模拟和机器学习分析α-乳白蛋白熔球态构象波动，将其与IDP行为类比，虽对象非IDP但聚焦无序构象与结合位点暴露的机制建模，对IDR介导PPI研究有方法启发。",
+  "abstract": "A molten globule (MG) state is an intermediate state of a protein observed during the unfolding of the native structure. The MG state of the protein is induced by various denaturing agents (like urea), extreme pH, pressure, and heat. Experiments suggest that the MG state of some proteins is functionally relevant even if there is no well-defined tertiary structure. Earlier experimental and theoretical studies show that the MG state of a protein is dynamic in nature, where conformational states are interconverted on nanosecond time scales. These observations lead us to study and compare the conformational fluctuations of the MG state to those of intrinsic disordered proteins (IDPs). We consider a milk protein, alpha-lactalbumin (aLA), which shows an MG state at low pH upon removal of the calcium (Ca(2+)) ion. We use the constant pH molecular dynamics (CpHMD) simulation to maintain the protonation state of titratable residues at a low pH during the simulation. We use the dihedral principal component analysis, the density based clustering method, and the machine learning technique to identify the conformational fluctuations. We observe metastable states in the MG state. The residues containing the essential coordinates responsible for metastability belong to a stable helix in the crystal structure, but most of them prefer unstructured or bent conformation in the MG state. These residues control the exposure of the putative binding residues for fatty acids. Thus, the MG state of a protein behaves as an intrinsic disorder protein, although the disorder here is induced by external conditions.",
+  "abstract_zh": "熔融球状（molten globule, MG）态是蛋白质在天然结构去折叠过程中观察到的中间状态。蛋白质的MG态由多种变性剂（如尿素）、极端pH、压力和热诱导产生。实验表明，即使没有明确的三级结构，某些蛋白质的MG态在功能上仍具有相关性。早期的实验和理论研究显示，蛋白质的MG态本质上是动态的，其中构象状态在纳秒时间尺度上相互转换。这些观察促使我们研究并比较MG态的构象波动与固有无序蛋白质（intrinsically disordered proteins, IDPs）的构象波动。我们考虑一种乳蛋白——α-乳白蛋白（alpha-lactalbumin, aLA），其在低pH且去除钙离子（Ca(2+)）时表现出MG态。我们使用恒定pH分子动力学（constant pH molecular dynamics, CpHMD）模拟，以在模拟过程中维持可滴定残基在低pH下的质子化状态。我们采用二面角主成分分析、基于密度的聚类方法和机器学习技术来识别构象波动。我们在MG态中观察到亚稳态。包含负责亚稳态的必需坐标的残基在晶体结构中属于稳定螺旋，但在MG态中，它们大多倾向于无序或弯曲构象。这些残基控制着脂肪酸推定结合残基的暴露。因此，尽管这里的无序是由外部条件诱导的，蛋白质的MG态行为类似于固有无序蛋白质。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36043462/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36043462/",
+  "paper_page_path": "papers/pubmed/36043462/index.html"
+}

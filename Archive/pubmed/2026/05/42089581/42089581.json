@@ -1,0 +1,214 @@
+{
+  "identity": {
+    "pmid": "42089581",
+    "doi": "10.1063/5.0322356",
+    "title": "Decoupling of single-particle and collective dynamics in arrested phase-separating glassy mixtures."
+  },
+  "content": {
+    "abstract": "We investigate the structure and dynamics of a hard colloid-star polymer mixture in the range of its arrested phase separation, where an incipient demixing transition is interfering with a nearby vitrification line, focusing on the protein limit (smaller hard component). Soft-hard mixtures present a rich dynamics, influenced by different parameters, such as the concentration of the soft and hard components, the softness of the potential, and the size ratio between the two components. Using coarse-grained molecular dynamics simulations, we characterize the single-particle and collective dynamics of the hard colloidal tracers in the soft glassy matrix. The hard tracers show diffusive behavior of the mean squared displacement accompanied by non-exponential relaxation of the intermediate scattering functions at intermediate length scales and non-Gaussian displacement distributions. Moreover, we show that the system exhibits features compatible with arrested phase separation or a precursor of the same, leading to population splitting and decoupling between self- and collective dynamics of the hard colloids. Overall, we demonstrate that the interplay between arrested phase separation and glassiness leads to complex, multiscale phenomena that strongly influence the dynamics of the hard additives in the arrested matrix formed by the soft colloids.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Moser, Konstantin N",
+        "Likos, Christos N",
+        "Sposini, Vittoria"
+      ],
+      "short_names": [
+        "Moser KN",
+        "Likos CN",
+        "Sposini V"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-5439-9718",
+        "ORCID: 0000-0003-3550-4834",
+        "ORCID: 0000-0003-0915-4746"
+      ],
+      "affiliations": [
+        "Faculty of Physics, University of Vienna, Boltzmanngasse 5, 1090 Vienna, Austria.",
+        "University of Augsburg, Universitatsstrasse 1, 86159 Augsburg, Germany.",
+        "Faculty of Physics, University of Vienna, Boltzmanngasse 5, 1090 Vienna, Austria.",
+        "Faculty of Physics, University of Vienna, Boltzmanngasse 5, 1090 Vienna, Austria.",
+        "Dipartimento di Fisica e Astronomia \"G. Galilei\"-DFA, Sezione INFN, Universita di Padova, Via Marzolo 8, 35131 Padova, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Moser, Konstantin N",
+        "short_name": "Moser KN",
+        "identifiers": [
+          "0009-0002-5439-9718"
+        ],
+        "affiliations": [
+          "Faculty of Physics, University of Vienna, Boltzmanngasse 5, 1090 Vienna, Austria.",
+          "University of Augsburg, Universitätsstraße 1, 86159 Augsburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Likos, Christos N",
+        "short_name": "Likos CN",
+        "identifiers": [
+          "0000-0003-3550-4834"
+        ],
+        "affiliations": [
+          "Faculty of Physics, University of Vienna, Boltzmanngasse 5, 1090 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Sposini, Vittoria",
+        "short_name": "Sposini V",
+        "identifiers": [
+          "0000-0003-0915-4746"
+        ],
+        "affiliations": [
+          "Faculty of Physics, University of Vienna, Boltzmanngasse 5, 1090 Vienna, Austria.",
+          "Dipartimento di Fisica e Astronomia \"G. Galilei\"-DFA, Sezione INFN, Università di Padova, Via Marzolo 8, 35131 Padova, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2026 May 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/06 12:35",
+    "fetched_at": "2026-09-18 03:06:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42089581",
+      "26356800",
+      "34293891",
+      "24289711",
+      "14754213",
+      "37871235",
+      "35489997",
+      "33528485",
+      "30403250",
+      "32696798",
+      "22779678",
+      "29764136",
+      "37459253",
+      "26219628",
+      "21525551",
+      "19222297",
+      "21817260",
+      "29758608",
+      "29626910",
+      "16035820",
+      "31968977",
+      "12188725",
+      "23129616",
+      "39690901",
+      "26431020",
+      "11690033",
+      "41768839",
+      "32812728",
+      "17280071",
+      "23912807",
+      "17358145",
+      "34332413",
+      "21230280",
+      "31770981",
+      "17930260",
+      "23459962",
+      "39308410",
+      "19831349",
+      "16241430",
+      "28345703",
+      "41810779",
+      "12689758",
+      "17155053",
+      "24606367",
+      "25466776",
+      "34237714",
+      "20866622",
+      "41767823",
+      "36541408",
+      "19658507",
+      "25428843",
+      "23214607",
+      "18794859",
+      "32708547",
+      "18850324",
+      "24182077",
+      "24050366",
+      "22740596",
+      "18507408",
+      "23030210",
+      "31301719",
+      "29955749",
+      "16802938",
+      "31108620",
+      "12638854",
+      "29346732",
+      "19905547",
+      "18547074",
+      "36938509",
+      "12638864",
+      "17279914",
+      "16906848",
+      "30111140",
+      "20366915",
+      "39047528",
+      "42017592",
+      "21417311",
+      "22251587",
+      "16486412",
+      "21389454",
+      "36580685",
+      "41116381",
+      "15301516",
+      "34904609",
+      "15743267",
+      "11308841",
+      "17887876",
+      "29306301",
+      "24779432",
+      "29130090",
+      "34757286",
+      "27064930",
+      "24651991",
+      "26382368",
+      "11863531",
+      "15740403",
+      "27083747",
+      "36797956",
+      "35651190",
+      "18345923"
+    ],
+    "review": [
+      "42089581",
+      "34757286"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0322356",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

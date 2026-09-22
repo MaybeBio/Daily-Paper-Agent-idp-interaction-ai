@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "37790377",
+    "doi": "10.1101/2023.09.18.558337",
+    "title": "Glutamylation of Npm2 and Nap1 acidic disordered regions increases DNA charge mimicry to enhance chaperone efficiency."
+  },
+  "content": {
+    "abstract": "Histone chaperones-structurally diverse, non-catalytic proteins enriched with acidic intrinsically disordered regions (IDRs)-protect histones from spurious nucleic acid interactions and guide their deposition into and out of nucleosomes. Despite their conservation and ubiquity, the function of the chaperone acidic IDRs remains unclear. Here, we show that the Xenopus laevis Npm2 and Nap1 acidic IDRs are substrates for TTLL4 (Tubulin Tyrosine Ligase Like 4)-catalyzed post-translational glutamate-glutamylation. We demonstrate that, to bind, stabilize, and deposit histones into nucleosomes, chaperone acidic IDRs function as DNA mimetics. Our biochemical, computational, and biophysical studies reveal that glutamylation of these chaperone polyelectrolyte acidic stretches functions to enhance DNA electrostatic mimicry, promoting the binding and stabilization of H2A/H2B heterodimers and facilitating nucleosome assembly. This discovery provides insights into both the previously unclear function of the acidic IDRs and the regulatory role of post-translational modifications in chromatin dynamics.",
+    "keywords": [
+      "DNA replication",
+      "IDR",
+      "MD",
+      "N1",
+      "NAP1L1",
+      "NASP",
+      "NMR",
+      "Nap1",
+      "Npm2",
+      "TTLL4",
+      "acidic IDR",
+      "acidic stretch",
+      "chromatin",
+      "epigenetics",
+      "farnesylation",
+      "glutamate-glutamylation",
+      "glutamylation",
+      "histone chaperone",
+      "molecular dynamics",
+      "nuclear magnetic resonance",
+      "nucleosome",
+      "nucleus",
+      "polyelectrolyte"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lorton, Benjamin M",
+        "Warren, Christopher",
+        "Ilyas, Humaira",
+        "Nandigrami, Prithviraj",
+        "Hegde, Subray",
+        "Cahill, Sean",
+        "Lehman, Stephanie M",
+        "Shabanowitz, Jeffrey",
+        "Hunt, Donald F",
+        "Fiser, Andras",
+        "Cowburn, David",
+        "Shechter, David"
+      ],
+      "short_names": [
+        "Lorton BM",
+        "Warren C",
+        "Ilyas H",
+        "Nandigrami P",
+        "Hegde S",
+        "Cahill S",
+        "Lehman SM",
+        "Shabanowitz J",
+        "Hunt DF",
+        "Fiser A",
+        "Cowburn D",
+        "Shechter D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461.",
+        "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461.",
+        "Current address: Merck & Co., Inc., 2025 E Scott Ave., Rahway, NJ 07065.",
+        "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461.",
+        "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461.",
+        "Department of Systems & Computational Biology, Albert Einstein College of Medicine, Bronx, NY 10461.",
+        "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461.",
+        "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461.",
+        "Department of Chemistry, University of Virginia, Charlottesville, VA 22904.",
+        "GSK, Collegeville, Pennsylvania 19426.",
+        "Department of Chemistry, University of Virginia, Charlottesville, VA 22904.",
+        "Department of Chemistry, University of Virginia, Charlottesville, VA 22904.",
+        "Departments of Chemistry and Pathology, University of Virginia, Charlottesville, VA 22904.",
+        "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461.",
+        "Department of Systems & Computational Biology, Albert Einstein College of Medicine, Bronx, NY 10461.",
+        "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461.",
+        "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lorton, Benjamin M",
+        "short_name": "Lorton BM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461."
+        ]
+      },
+      {
+        "full_name": "Warren, Christopher",
+        "short_name": "Warren C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461.",
+          "Current address: Merck & Co., Inc., 2025 E Scott Ave., Rahway, NJ 07065."
+        ]
+      },
+      {
+        "full_name": "Ilyas, Humaira",
+        "short_name": "Ilyas H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461."
+        ]
+      },
+      {
+        "full_name": "Nandigrami, Prithviraj",
+        "short_name": "Nandigrami P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461.",
+          "Department of Systems & Computational Biology, Albert Einstein College of Medicine, Bronx, NY 10461."
+        ]
+      },
+      {
+        "full_name": "Hegde, Subray",
+        "short_name": "Hegde S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461."
+        ]
+      },
+      {
+        "full_name": "Cahill, Sean",
+        "short_name": "Cahill S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461."
+        ]
+      },
+      {
+        "full_name": "Lehman, Stephanie M",
+        "short_name": "Lehman SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Virginia, Charlottesville, VA 22904.",
+          "GSK, Collegeville, Pennsylvania 19426."
+        ]
+      },
+      {
+        "full_name": "Shabanowitz, Jeffrey",
+        "short_name": "Shabanowitz J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Virginia, Charlottesville, VA 22904."
+        ]
+      },
+      {
+        "full_name": "Hunt, Donald F",
+        "short_name": "Hunt DF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Virginia, Charlottesville, VA 22904.",
+          "Departments of Chemistry and Pathology, University of Virginia, Charlottesville, VA 22904."
+        ]
+      },
+      {
+        "full_name": "Fiser, Andras",
+        "short_name": "Fiser A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461.",
+          "Department of Systems & Computational Biology, Albert Einstein College of Medicine, Bronx, NY 10461."
+        ]
+      },
+      {
+        "full_name": "Cowburn, David",
+        "short_name": "Cowburn D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461."
+        ]
+      },
+      {
+        "full_name": "Shechter, David",
+        "short_name": "Shechter D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY 10461."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Sep 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/04 06:43",
+    "fetched_at": "2026-09-21 01:52:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37790377",
+      "38571760",
+      "28610839",
+      "27225933",
+      "36659983",
+      "25338502",
+      "37380014",
+      "23973327",
+      "37214964",
+      "25897082",
+      "28468903",
+      "31785324",
+      "25781491",
+      "26884462",
+      "15928086",
+      "28128545",
+      "29263320",
+      "33199628",
+      "21863821",
+      "35963897",
+      "27273866",
+      "20002496",
+      "16105835",
+      "31015382",
+      "16531623",
+      "35895815",
+      "29905837",
+      "36139412",
+      "14992573",
+      "21329878",
+      "15516689",
+      "37442235",
+      "31653339",
+      "32941645",
+      "26841755",
+      "23698368",
+      "27369377",
+      "36010552",
+      "35606827",
+      "20347425",
+      "28369616",
+      "37894874",
+      "36801613",
+      "23071745",
+      "26455391",
+      "12928440",
+      "24573675",
+      "28322915",
+      "28883625",
+      "27618665",
+      "33368779",
+      "7961785",
+      "35772497",
+      "22521324",
+      "25550164",
+      "35037657",
+      "25611318",
+      "15980199",
+      "21102655",
+      "27974641",
+      "17510629",
+      "26416482",
+      "27558753",
+      "29643509",
+      "25772360",
+      "19929865",
+      "22807669",
+      "24413069",
+      "26034280",
+      "2323341",
+      "19683001",
+      "33590780",
+      "33857403",
+      "16846601",
+      "21855802",
+      "19782028",
+      "37450495",
+      "22968912",
+      "16287874",
+      "31263230",
+      "10322140",
+      "8098530",
+      "10921904",
+      "27552915",
+      "16780375",
+      "15835307",
+      "36868228",
+      "37215040",
+      "31707537",
+      "26506534",
+      "17180700",
+      "17339334",
+      "30456370",
+      "20167597",
+      "17576589",
+      "34179096",
+      "36824771",
+      "38746434"
+    ],
+    "review": [
+      "37790377",
+      "28610839",
+      "36659983",
+      "25781491",
+      "31015382",
+      "32941645",
+      "35606827",
+      "33590780",
+      "22968912",
+      "10322140",
+      "8098530",
+      "15835307",
+      "31707537"
+    ],
+    "pmc": [
+      "10542154"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37790377/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37790377",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-411",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.09.18.558337",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

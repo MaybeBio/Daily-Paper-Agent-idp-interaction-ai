@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "39787272",
+    "doi": "10.1021/acsnano.4c12320",
+    "title": "Catalytic Assembly of Peptides Mediated by Complex Coacervates."
+  },
+  "content": {
+    "abstract": "The assembly of peptides is generally mediated by liquid-liquid phase separation, which enables control over assembly kinetics, final structure, and functions of peptide-based supramolecular materials. Modulating phase separation can alter the assembly kinetics of peptides by changing solvents or introducing external fields. Herein, we demonstrate that the assembly of peptides can be effectively catalyzed by complex coacervates. The negatively charged sodium alginate (SA) can form complex coacervates with the positively charged KLVFFAE (Abeta(16-22), abbreviated as KE) peptide, thereby lowering the nucleation barrier and promoting the assembly of the peptide. As the binding affinity of SA-KE and the dosage of SA decrease, the system shifts from a relatively inefficient template-induced assembly to a highly efficient catalytic assembly before ultimately reverting to slow spontaneous assembly. Therefore, both the affinity as well as the stoichiometry do not follow the intuitive rule that \"more is better\", but rather there exists an optimal value that maximizes the rate of assembly.",
+    "keywords": [
+      "catalytic assembly",
+      "complex coacervates",
+      "liquid-liquid phase separation",
+      "peptide",
+      "sodium alginate"
+    ],
+    "mesh_terms": [
+      "Catalysis",
+      "Alginates/chemistry",
+      "*Peptides/chemistry",
+      "Glucuronic Acid/chemistry",
+      "Kinetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Wang",
+        "Zhou, Yang",
+        "Tong, Tianyi",
+        "He, Sheng",
+        "Wang, Congsen",
+        "Zhang, Xinran",
+        "Cao, Xiao-Yu",
+        "Yang, Liulin",
+        "Tian, Zhong-Qun"
+      ],
+      "short_names": [
+        "Li W",
+        "Zhou Y",
+        "Tong T",
+        "He S",
+        "Wang C",
+        "Zhang X",
+        "Cao XY",
+        "Yang L",
+        "Tian ZQ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0219-1798",
+        "ORCID: 0000-0003-3342-8137",
+        "ORCID: 0000-0002-9775-8189"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China.",
+        "Jiangxi Engineering Laboratory of Waterborne Coating, School of Chemistry and Chemical Engineering, Jiangxi Science and Technology Normal University, Nanchang, Jiangxi 330013, P. R. China.",
+        "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China.",
+        "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China.",
+        "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China.",
+        "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China.",
+        "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China.",
+        "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China.",
+        "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China.",
+        "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Wang",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China.",
+          "Jiangxi Engineering Laboratory of Waterborne Coating, School of Chemistry and Chemical Engineering, Jiangxi Science and Technology Normal University, Nanchang, Jiangxi 330013, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yang",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Tong, Tianyi",
+        "short_name": "Tong T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "He, Sheng",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Congsen",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xinran",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Cao, Xiao-Yu",
+        "short_name": "Cao XY",
+        "identifiers": [
+          "0000-0003-0219-1798"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Yang, Liulin",
+        "short_name": "Yang L",
+        "identifiers": [
+          "0000-0003-3342-8137"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Tian, Zhong-Qun",
+        "short_name": "Tian ZQ",
+        "identifiers": [
+          "0000-0002-9775-8189"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Physical Chemistry of Solid Surface, Key Laboratory of Chemical Biology of Fujian Province, Collaborative Innovation Center of Chemistry for Energy Materials (iChEM), Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), College of Chemistry and Chemical Engineering, Xiamen University, Xiamen 361005, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS nano"
+    ],
+    "journal_abbrev": [
+      "ACS Nano"
+    ],
+    "pub_date": "2025 Jan 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/09 18:21",
+    "fetched_at": "2026-09-21 14:31:12"
+  },
+  "links": {
+    "cites": [
+      "41439334"
+    ],
+    "refs": [],
+    "similar": [
+      "39787272",
+      "29775708",
+      "33616129",
+      "39729549",
+      "28282150",
+      "38252962",
+      "39477955",
+      "36686257",
+      "15787964",
+      "25857972",
+      "38902961",
+      "39864072",
+      "16004462",
+      "38741285",
+      "34569680",
+      "39569841",
+      "23499072",
+      "30102985",
+      "20564024",
+      "16364576",
+      "39587774",
+      "40069227",
+      "11536218",
+      "26686144",
+      "25919690",
+      "15661490",
+      "37935871",
+      "25113823",
+      "19883045",
+      "31245536",
+      "21776699",
+      "31617663",
+      "25996388",
+      "26494612",
+      "14643615",
+      "18433165",
+      "33450601",
+      "32852935",
+      "24022896",
+      "28138672",
+      "24211358",
+      "18338908",
+      "24507361",
+      "19802839",
+      "14620996",
+      "23999016",
+      "36395941",
+      "26398329",
+      "29486848",
+      "25295485",
+      "23153372",
+      "33373232",
+      "15965743",
+      "26944663",
+      "24857469",
+      "39778854",
+      "25863712",
+      "29314832",
+      "23744745",
+      "18465312",
+      "27455656",
+      "40056119",
+      "25425053",
+      "24906734",
+      "25129772",
+      "26791895",
+      "28458387",
+      "34645986",
+      "15376189",
+      "38945709",
+      "34885846",
+      "33675271",
+      "26478335",
+      "30036790",
+      "7757217",
+      "18666793",
+      "17949036",
+      "27567962",
+      "39811981",
+      "39575590",
+      "29732529",
+      "25201397",
+      "24996335",
+      "29730575",
+      "37938522",
+      "17417904",
+      "39181884",
+      "18004897",
+      "26627600",
+      "37439740",
+      "38424154",
+      "16126296",
+      "15969928",
+      "33757284",
+      "18022667",
+      "25498679",
+      "27063489",
+      "25458289",
+      "27474605",
+      "29752096"
+    ],
+    "review": [
+      "39787272",
+      "33616129",
+      "36686257",
+      "39569841"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/ancac3/article-lookup/doi/10.1021/acsnano.4c12320",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

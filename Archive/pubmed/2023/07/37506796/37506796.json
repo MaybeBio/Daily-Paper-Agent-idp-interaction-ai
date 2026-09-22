@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "37506796",
+    "doi": "10.1016/j.ijbiomac.2023.126027",
+    "title": "Intrinsic disorder may drive the interaction of PROS1 and MERTK in uveal melanoma."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Class 2 uveal melanomas are associated with the inactivation of the BRCA1 ((breast cancer type 1 susceptibility protein)-associated protein 1 (BAP1)) gene. Inactivation of BAP1 promotes the upregulation of vitamin K-dependent protein S (PROS1), which interacts with the tyrosine-protein kinase Mer (MERTK) receptor on M2 macrophages to induce an immunosuppressive environment. METHODS: We simulated the interaction of PROS1 with MERTK with ColabFold. We evaluated PROS1 and MERTK for the presence of intrinsically disordered protein regions (IDPRs) and disorder-to-order (DOT) regions to understand their protein-protein interaction (PPI). We first evaluated the structure of each protein with AlphaFold. We then analyzed specific sequence-based features of the PROS1 and MERTK with a suite of bioinformatics tools. RESULTS: With high-resolution, moderate confidence, we successfully modeled the interaction between PROS1 and MERTK (predicted local distance difference test score (pDLLT) = 70.68). Our structural analysis qualitatively demonstrated IDPRs (i.e., spaghetti-like entities) in PROS1 and MERK. PROS1 was 23.37 % disordered, and MERTK was 23.09 % disordered, classifying them as moderately disordered and flexible proteins. PROS1 was significantly enriched in cysteine, the most order-promoting residue (p-value <0.05). Our IUPred analysis demonstrated that there are two disorder-to-order transition (DOT) regions in PROS1. MERTK was significantly enriched in proline, the most disorder-promoting residue (p-value <0.05), but did not contain DOT regions. Our STRING analysis demonstrated that the PPI network between PROS1 and MERTK is more complex than their assumed one-to-one binding (p-value <2.0 x 10(-6)). CONCLUSION: Our findings present a novel prediction for the interaction between PROS1 and MERTK. Our findings show that PROS1 and MERTK contain elements of intrinsic disorder. PROS1 has two DOT regions that are attractive immunotherapy targets. We recommend that IDPRs and DOT regions found in PROS1 and MERTK should be considered when developing immunotherapies targeting this PPI.",
+    "keywords": [
+      "Disorder-to-order transition",
+      "Immunotherapy",
+      "Intrinsically disordered protein",
+      "MERTK",
+      "PROS1",
+      "Uveal melanoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "c-Mer Tyrosine Kinase/genetics/metabolism",
+      "*Melanoma/genetics",
+      "*Uveal Neoplasms/genetics",
+      "Carrier Proteins/metabolism",
+      "Protein S/genetics/metabolism",
+      "Uveal Melanoma"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Djulbegovic, Mak",
+        "Taylor Gonzalez, David J",
+        "Antonietti, Michael",
+        "Uversky, Vladimir N",
+        "Shields, Carol L",
+        "Karp, Carol L"
+      ],
+      "short_names": [
+        "Djulbegovic M",
+        "Taylor Gonzalez DJ",
+        "Antonietti M",
+        "Uversky VN",
+        "Shields CL",
+        "Karp CL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA.",
+        "Ocular Oncology Service, Wills Eye Hospital, Thomas Jefferson University, Philadelphia, PA, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA. Electronic address: ckarp@med.miami.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Djulbegovic, Mak",
+        "short_name": "Djulbegovic M",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Taylor Gonzalez, David J",
+        "short_name": "Taylor Gonzalez DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Antonietti, Michael",
+        "short_name": "Antonietti M",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA."
+        ]
+      },
+      {
+        "full_name": "Shields, Carol L",
+        "short_name": "Shields CL",
+        "identifiers": [],
+        "affiliations": [
+          "Ocular Oncology Service, Wills Eye Hospital, Thomas Jefferson University, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Karp, Carol L",
+        "short_name": "Karp CL",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA. Electronic address: ckarp@med.miami.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2023 Oct 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/29 06:42",
+    "fetched_at": "2026-09-20 23:49:56"
+  },
+  "links": {
+    "cites": [
+      "42440653",
+      "42199731",
+      "41661679",
+      "40502063",
+      "40114711",
+      "39979561",
+      "39612024",
+      "39535659",
+      "38910419",
+      "38569991"
+    ],
+    "refs": [
+      "36967390",
+      "36334049",
+      "36292588",
+      "35954340",
+      "35637307",
+      "34838574",
+      "34791371",
+      "34681018",
+      "34265844",
+      "34048569",
+      "33806614",
+      "32881101",
+      "32828470",
+      "32722024",
+      "32403216",
+      "32273508",
+      "32237272",
+      "32227937",
+      "31960425",
+      "31667555",
+      "31657215",
+      "31336679",
+      "30476243",
+      "30395287",
+      "29860432",
+      "28710774",
+      "28448138",
+      "26549326",
+      "24939692",
+      "24830552",
+      "23203878",
+      "22702725",
+      "22521086",
+      "22190692",
+      "22174269",
+      "22135298",
+      "21761058",
+      "21748782",
+      "21732203",
+      "21704381",
+      "21062816",
+      "21051595",
+      "20855926",
+      "20100603",
+      "19594884",
+      "19412530",
+      "19151381",
+      "18573080",
+      "18354786",
+      "17578581",
+      "17567614",
+      "16618368",
+      "16344433",
+      "16187360",
+      "15955779",
+      "15763193",
+      "15751111",
+      "15697224",
+      "15034147",
+      "15019783",
+      "14681400",
+      "14578381",
+      "12381310",
+      "11700597",
+      "11093259",
+      "11025552",
+      "9254694",
+      "7723011",
+      "2231712"
+    ],
+    "similar": [
+      "37506796",
+      "37626310",
+      "35954340",
+      "36292588",
+      "33512463",
+      "38673989",
+      "33101282",
+      "35636929",
+      "31266785",
+      "29871951",
+      "36509738",
+      "29706963",
+      "38575045",
+      "21384080",
+      "33239426",
+      "39365866",
+      "34681018",
+      "28127639",
+      "36965901",
+      "33848267",
+      "29545796",
+      "28450389",
+      "33406854",
+      "32160519",
+      "38928335",
+      "38791148",
+      "37659731",
+      "38666935",
+      "31451482",
+      "28823399",
+      "38903495",
+      "25624460",
+      "21828049",
+      "23585477",
+      "32747017",
+      "32998369",
+      "32640697",
+      "33234246",
+      "30091033",
+      "35518197",
+      "37644281",
+      "26876698",
+      "32664510",
+      "23915344",
+      "38509595",
+      "25974357",
+      "25265470",
+      "31664482",
+      "30482852",
+      "36003399",
+      "30093568",
+      "23617806",
+      "38443968",
+      "35163068",
+      "24633195",
+      "32064597",
+      "23789915",
+      "36056187",
+      "29708510",
+      "30335822",
+      "27840905",
+      "38783191",
+      "37120511",
+      "23206928",
+      "31409087",
+      "30846565",
+      "29530782",
+      "29299721",
+      "32049051",
+      "29359540",
+      "34743410",
+      "28118606",
+      "34563964",
+      "33114206",
+      "31521236",
+      "32172658",
+      "33761885",
+      "34038857",
+      "33562150",
+      "32973744",
+      "34353217",
+      "29206651",
+      "38976507",
+      "30729671",
+      "31766614",
+      "29553850",
+      "35505173",
+      "34415994",
+      "38646649",
+      "31805065",
+      "20200160",
+      "30385715",
+      "36555321",
+      "31960425",
+      "29045015",
+      "38493215",
+      "29277773",
+      "35728303",
+      "30541554",
+      "36685506",
+      "37545504",
+      "26769193"
+    ],
+    "review": [
+      "37506796",
+      "32998369",
+      "33234246",
+      "31664482",
+      "27840905",
+      "31521236",
+      "33562150"
+    ],
+    "pmc": [
+      "11182630"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(23)02922-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37506796/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-916",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

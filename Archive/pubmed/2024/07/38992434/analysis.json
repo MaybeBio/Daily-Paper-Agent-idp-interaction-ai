@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38992434",
+  "title": "Regulatable assembly of synthetic microtubule architectures using engineered microtubule-associated protein-IDR condensates.",
+  "authors": "Chang, Chih-Chia; Coyle, Scott M",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2024-07-12",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文构建模块化MAP-IDR凝聚体(synMAPs)调控微管高阶组装，虽对象为微管而非蛋白互作，但通过IDR凝聚体介导的多价结合与桥接机制建模，对无序蛋白介导的互作机制研究具有可迁移启发。",
+  "abstract": "Microtubule filaments are assembled into higher-order structures using microtubule-associated proteins. However, synthetic MAPs that direct the formation of new structures are challenging to design, as nanoscale biochemical activities must be organized across micron length-scales. Here, we develop modular MAP-IDR condensates (synMAPs) that enable inducible assembly of higher-order microtubule structures for synthetic exploration in vitro and in mammalian cells. synMAPs harness a small microtubule-binding domain from oligodendrocytes (TPPP) whose activity we show can be rewired by interaction with unrelated condensate-forming IDR sequences. This combination is sufficient to allow synMAPs to self-organize multivalent structures that bind and bridge microtubules into higher-order architectures. By regulating the connection between the microtubule-binding domain and condensate-forming components of a synMAP, the formation of these structures can be triggered by small molecules or cell-signaling inputs. We systematically test a panel of synMAP circuit designs to define how the assembly of these synthetic microtubule structures can be controlled at the nanoscale (via microtubule-binding affinity) and microscale (via condensate formation). synMAPs thus provide a modular starting point for the design of higher-order microtubule systems and an experimental testbed for exploring condensate-directed mechanisms of higher-order microtubule assembly from the bottom-up.",
+  "abstract_zh": "微管丝通过微管相关蛋白组装成高阶结构。然而，引导新结构形成的合成MAPs设计起来颇具挑战，因为纳米尺度的生化活性必须在微米尺度上组织。在此，我们开发了模块化MAP-IDR凝聚体（synMAPs），能够实现高阶微管结构的诱导组装，用于体外和哺乳动物细胞中的合成探索。synMAPs利用少突胶质细胞中的一个小微管结合域（TPPP），我们证明其活性可通过与不相关的凝聚体形成IDR序列相互作用而被重新调控。这种组合足以使synMAPs自组织多价结构，结合并桥接微管形成高阶架构。通过调控synMAP中微管结合域与凝聚体形成组分之间的连接，这些结构的形成可由小分子或细胞信号输入触发。我们系统测试了一系列synMAP电路设计，以定义这些合成微管结构的组装如何在纳米尺度（通过微管结合亲和力）和微尺度（通过凝聚体形成）上被控制。因此，synMAPs为高阶微管系统的设计提供了模块化起点，并为从底层探索凝聚体引导的高阶微管组装机制提供了实验测试平台。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38992434/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38992434/",
+  "paper_page_path": "papers/pubmed/38992434/index.html"
+}

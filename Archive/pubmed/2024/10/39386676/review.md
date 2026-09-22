@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims based solely on the supplied material
+- **Shared manuscript claim summary** The authors report that the SARS-CoV-2 Nucleocapsid protein dimerization domain is partially disordered and expanded in its monomeric form, and that dimerization involves coupled folding and binding, yielding a high-affinity (low nanomolar KD) complex that retains conformational flexibility. They further propose that this flexibility facilitates RNA capture and relates to temperature-dependent phase separation behavior.
+- **Visible evidence base** Single-molecule FRET measurements (mean transfer efficiencies, lifetimes, stoichiometry analysis), denaturant and temperature titrations, all-atom Monte Carlo simulations for monomer and dimer ensembles, SVD analysis of titration data, Van't Hoff analysis, and comparisons to prior structural and biophysical data.
+- **Missing materials affecting confidence** Supplementary figures and tables (Fig. S1–S6, Table 5), full methods for simulations and labeling, raw data files, details of the binding model used for global fitting, and the extended methods section. These are referenced but not provided, limiting verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a careful and technically sophisticated single-molecule FRET study of the SARS-CoV-2 Nucleocapsid dimerization domain, with complementary simulations. The central claims, that the monomer is partially disordered and that dimerization involves coupled folding and binding with retained flexibility, are plausible and largely supported by the presented data. However, several quantitative claims (e.g., exact KD values, thermodynamic parameters) depend on modeling assumptions and missing supplementary details. The link to phase separation is speculative but appropriately framed. Overall, the work is of high quality and interest, but requires clarification of methods and some interpretive caution before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying SARS-CoV-2 biology, particularly nucleocapsid protein structure and function; biophysicists interested in coupled folding and binding, intrinsically disordered proteins, and single-molecule FRET methodologies; virologists investigating viral assembly and phase separation; and those interested in therapeutic targeting of protein-protein interactions in coronaviruses.
+- **Major strengths** The use of single-molecule FRET in the full-length protein context is a significant technical strength, allowing direct observation of conformational ensembles and binding equilibria at physiologically relevant low concentrations. The combination of experiments with all-atom simulations provides complementary perspectives. The temperature and denaturant dependence studies add thermodynamic depth. The authors are appropriately cautious in interpreting their data and acknowledge limitations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative claim support
+  - **Claim pointer** The manuscript reports a dissociation constant KD,L/U of 6 ± 2 nM and KD,U/U of 11 ± 3 nM, and a ΔH of −99 ± 6 kcal/mol with ΔS of 0.29 ± 0.02 kcal/mol K.
+  - **Evidence pointer** Results sections "Dimer formation induces folding of the DD domain" and "Temperature effect on dimer stability"; Supplementary Information referenced for the binding model and Van't Hoff fits
+  - **Concern** The KD values and thermodynamic parameters are derived from a global fit to a binding model described only in the Supplementary Information, which is not provided. The model must account for labeled-labeled, unlabeled-unlabeled, and labeled-unlabeled dimers, and the assumptions (e.g., equal activity of labeled and unlabeled species, effects of dye labeling on binding affinity) are not stated. Similarly, the Van't Hoff analysis assumes constant enthalpy over the fitted range, but the authors themselves note deviation from linearity at lower temperatures, and the reported ΔH and ΔS are from a limited range (37–47 °C). Without the full fitting details, error estimates, and model justification, these quantitative values cannot be independently assessed.
+  - **Why it matters** The quantitative KD and thermodynamic values are central to the claim of a "high affinity dynamic complex" and to the proposed mechanism. If the model assumptions are incorrect or the errors underestimated, the conclusions could be materially affected.
+  - **Resolution test** Provide the full binding model equations, fitting procedures, and residual analyses in the main text or supplement. Show that the model uniquely identifies the reported parameters and that alternative models (e.g., with different stoichiometries or activity coefficients) are excluded. For the Van't Hoff analysis, report fits with and without the heat capacity term and justify the temperature range used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The authors state: "We reason that the unfolding of the dimer domain and the large flexibility and disorder of the monomer can augment the multivalence of N protein and favor its phase separation and propensity to aggregate in the absence of RNA."
+  - **Evidence pointer** Discussion section; temperature-dependent dimer dissociation data (Fig. 5) and prior phase separation literature (refs 42, 43)
+  - **Concern** The connection between dimer dissociation at elevated temperatures and phase separation is correlative. The authors note that the temperature range where dimer dissociation occurs overlaps with the reported phase separation onset, but they do not directly test whether monomeric dimerization domain is required for or promotes phase separation. Alternative explanations (e.g., global protein unfolding, changes in solvation, or RNA contamination) are not excluded. The claim is presented as a "reason" rather than a tested hypothesis, but the wording could be read as a mechanistic conclusion.
+  - **Why it matters** The phase separation link is a potentially important biological implication, but if overstated, it could mislead readers about the causal relationship between dimer stability and condensation behavior.
+  - **Resolution test** Either soften the language to clearly indicate speculation, or add experiments (e.g., phase separation assays with dimerization-deficient mutants or at temperatures where dimer is stable) to directly test the proposed link.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation-experiment consistency
+  - **Claim pointer** The authors state: "All-atom simulations were performed for a subfragment of the N protein between residues 247 and 419... These simulations reveal a root-mean-squared distance between residues 247 and 363 of 4.40 ± 0.04 nm." They then discuss discrepancies with the experimental value of 5.70 ± 0.02 nm.
+  - **Evidence pointer** Results section "The Dimerization Domain is partially disordered in the monomer form"; Fig. 3
+  - **Concern** The simulations are for a subfragment (residues 247–419) that lacks the linker, RBD, and NTD, while the experiments are on the full-length protein. The authors offer three explanations for the discrepancy, but the simulations also constrain the folded region, which may not reflect the actual monomeric ensemble. The claim of "reasonable qualitative agreement" is subjective, and the simulation methodology (e.g., force field, sampling length, treatment of the constrained region) is not described in the provided text. Without these details, the reader cannot judge whether the simulations are a valid representation of the monomeric state.
+  - **Why it matters** The simulations are used to support the "molten globule" interpretation. If the simulation setup biases toward compact or specific conformations, the conclusion about heterogeneity could be an artifact.
+  - **Resolution test** Provide full simulation parameters, force field, equilibration and production lengths, and convergence checks. Show that the results are robust to initial conditions and that the constrained region does not unduly influence the sampled ensemble. Consider simulations of the full-length monomer or justification for why the subfragment is representative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract statement "a dissociation constant of ~ 12 nM at 23 °C"
+  - **Evidence pointer** Abstract; Results section "Dimer formation induces folding of the DD domain"
+  - **Issue** The abstract reports a single KD of ~12 nM, but the results report two values (KD,L/U = 6 ± 2 nM and KD,U/U = 11 ± 3 nM). The abstract value appears to be an average or a specific condition, but this is not clarified.
+  - **Required correction** Specify which KD is reported in the abstract (e.g., "between unlabeled species") or state that the value is an approximate average across labeling conditions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Labeling and sample preparation
+  - **Evidence pointer** Methods section "Single-molecule FRET"
+  - **Issue** The methods state that proteins were "sequentially labeled with Alexa Fluor 488 and 594" but do not specify the labeling efficiency, the positions of the cysteines relative to the dye attachment, or how the doubly labeled species was separated from singly labeled or unlabeled species. This is critical for interpreting FRET efficiencies.
+  - **Required correction** Add details on labeling efficiency, purification of doubly labeled species, and any corrections for incomplete labeling.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Error estimates for KD and thermodynamic parameters
+  - **Evidence pointer** Results sections on dimerization and temperature dependence
+  - **Issue** The reported uncertainties (e.g., ±2 nM, ±6 kcal/mol) are presumably from fits, but the number of independent measurements, replicates, and whether errors are standard deviations or confidence intervals are not stated.
+  - **Required correction** Report the number of replicates and the method for error estimation (e.g., bootstrap, Monte Carlo, or fit covariance).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Figure references
+  - **Evidence pointer** Results sections; Fig. 3, Fig. 4, Fig. 5
+  - **Issue** The text refers to Fig. 3A and 3B in different contexts (e.g., "Fig. 3A and S1" for expected transfer efficiency, and "Fig. 3B" for simulation distances), but the figure panels are not described in the provided text. It is unclear what each panel shows.
+  - **Required correction** Ensure figure legends are complete and that panel references in the text match the figure content.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretive clarity
+  - **Affected element** Statement "the addition of unlabeled protein stabilizes a folded dimer configuration"
+  - **Evidence pointer** Results section "Dimer formation induces folding of the DD domain"
+  - **Issue** This phrasing could be misread as implying the unlabeled protein actively stabilizes the dimer, whereas the data show that increasing total protein concentration shifts the equilibrium toward the dimer. Clarify that the effect is due to mass action.
+  - **Required correction** Rephrase to "increasing protein concentration shifts the equilibrium toward the folded dimer configuration."
+
+## Risk / unsupported claims
+- The specific KD values (6 ± 2 nM, 11 ± 3 nM) and thermodynamic parameters (ΔH = −99 ± 6 kcal/mol, ΔS = 0.29 ± 0.02 kcal/mol K) cannot be fully assessed without the binding model and fitting details in the Supplementary Information.
+- The claim that the dimer retains "conformational heterogeneity" is supported by denaturant-induced expansion, but the molecular basis (which regions expand) is speculative and not directly tested.
+- The proposed link between dimer dissociation and phase separation is correlative and not experimentally tested; it should be treated as a hypothesis.
+- The simulation results are presented as supporting the "molten globule" interpretation, but the simulation methodology and potential biases are not described in the provided text, limiting their evidentiary weight.
+- The statement that "the inherent flexibility of the monomer form is required to adopt the specific fold" is a mechanistic inference not directly tested by mutation or other perturbation experiments.

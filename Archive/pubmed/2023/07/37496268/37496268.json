@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "37496268",
+    "doi": "10.1016/j.bpj.2023.07.015",
+    "title": "Postsynaptic protein assembly in three and two dimensions studied by mesoscopic simulations."
+  },
+  "content": {
+    "abstract": "Recently, cellular biomolecular condensates formed via phase separation have received considerable attention. While they can be formed either in cytosol (denoted as 3D) or beneath the membrane (2D), the underlying difference between the two has not been well clarified. To compare the phase behaviors in 3D and 2D, postsynaptic density (PSD) serves as a model system. PSD is a protein condensate located under the postsynaptic membrane that influences the localization of glutamate receptors and thus contributes to synaptic plasticity. Recent in vitro studies have revealed the formation of droplets of various soluble PSD proteins via liquid-liquid phase separation. However, it is unclear how these protein condensates are formed beneath the membrane and how they specifically affect the localization of glutamate receptors in the membrane. In this study, focusing on the mixture of a glutamate receptor complex, AMPAR-TARP, and a ubiquitous scaffolding protein, PSD-95, we constructed a mesoscopic model of protein-domain interactions in PSD and performed comparative molecular simulations. The results showed a sharp contrast in the phase behaviors of protein assemblies in 3D and those under the membrane (2D). A mixture of a soluble variant of the AMPAR-TARP complex and PSD-95 in the 3D system resulted in a phase-separated condensate, which was consistent with the experimental results. However, with identical domain interactions, AMPAR-TARP embedded in the membrane formed clusters with PSD-95, but did not form a stable separated phase. Thus, the cluster formation behaviors of PSD proteins in the 3D and 2D systems were distinct. The current study suggests that, more generally, stable phase separation can be more difficult to achieve in and beneath the membrane than in 3D systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "Neuronal Plasticity",
+      "*Biomolecular Condensates",
+      "Nerve Tissue Proteins",
+      "*Receptors, Glutamate/chemistry",
+      "Cell Membrane/chemistry",
+      "Disks Large Homolog 4 Protein/chemistry",
+      "*Computer Simulation",
+      "Cytosol/chemistry",
+      "Phase Separation",
+      "Protein Interaction Maps",
+      "*Models, Chemical"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yamada, Risa",
+        "Takada, Shoji"
+      ],
+      "short_names": [
+        "Yamada R",
+        "Takada S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan. Electronic address: takada@biophys.kyoto-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yamada, Risa",
+        "short_name": "Yamada R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Takada, Shoji",
+        "short_name": "Takada S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan. Electronic address: takada@biophys.kyoto-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2023 Aug 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/27 06:42",
+    "fetched_at": "2026-09-20 23:49:56"
+  },
+  "links": {
+    "cites": [
+      "41811876",
+      "40985614",
+      "40475677"
+    ],
+    "refs": [
+      "36199253",
+      "34761188",
+      "34637756",
+      "34334791",
+      "34236318",
+      "34051266",
+      "33927400",
+      "33752045",
+      "33568666",
+      "33139563",
+      "33113350",
+      "32312191",
+      "32004381",
+      "31594803",
+      "31540706",
+      "31492534",
+      "31270472",
+      "30818351",
+      "30661665",
+      "30217894",
+      "30078712",
+      "29960369",
+      "27203110",
+      "25843401",
+      "24040218",
+      "23926273",
+      "22632720",
+      "22398450",
+      "22006304",
+      "19524523",
+      "19460965",
+      "18403705",
+      "17314308",
+      "17243894",
+      "16507876",
+      "16118638",
+      "16061821",
+      "15673659",
+      "15572359",
+      "15115789",
+      "15020595",
+      "14720225",
+      "13357542",
+      "12859214",
+      "12414671",
+      "11140673",
+      "10862698",
+      "10468014",
+      "10041989",
+      "9768841",
+      "9459448",
+      "9382931",
+      "7410481",
+      "2987929",
+      "1869508",
+      "1613552",
+      "786399"
+    ],
+    "similar": [
+      "37496268",
+      "34975543",
+      "40985614",
+      "31492534",
+      "14749436",
+      "31910298",
+      "38781377",
+      "38452102",
+      "30078712",
+      "35856091",
+      "34637756",
+      "33235361",
+      "37318128",
+      "37891164",
+      "27565345",
+      "40494974",
+      "27076426",
+      "12563010",
+      "36223737",
+      "40848728",
+      "9454832",
+      "14749431",
+      "22991141",
+      "16855097",
+      "39370692",
+      "19547699",
+      "15496675",
+      "30067114",
+      "23658184",
+      "20485563",
+      "30599311",
+      "35171623",
+      "23999870",
+      "38096828",
+      "26884267",
+      "31753031",
+      "28790172",
+      "32341099",
+      "11955437",
+      "34538002",
+      "29429936",
+      "21594948",
+      "16421296",
+      "10341223",
+      "26475861",
+      "28244171",
+      "40782375",
+      "29169997",
+      "16319306",
+      "34487789",
+      "17687028",
+      "16504338",
+      "27956638",
+      "21543610",
+      "10234023",
+      "21509195",
+      "35198873",
+      "11312293",
+      "21450454",
+      "25654436",
+      "12122038",
+      "14529722",
+      "23268962",
+      "19455133",
+      "27307232",
+      "7569905",
+      "21228448",
+      "14529713",
+      "40803326",
+      "12028359",
+      "18082335",
+      "21204482",
+      "11222640",
+      "12177200",
+      "12657676",
+      "24347167",
+      "10197530",
+      "18326622",
+      "27076425",
+      "29138001",
+      "17321751",
+      "28524815",
+      "23719161",
+      "10995758",
+      "19109503",
+      "34830481",
+      "37925283",
+      "30586380",
+      "11739567",
+      "32652058",
+      "24702501",
+      "40557772",
+      "41344417",
+      "24336472",
+      "36613848",
+      "9822767",
+      "29547062",
+      "15255944",
+      "38720027",
+      "31831623"
+    ],
+    "review": [
+      "37496268",
+      "34975543",
+      "38452102",
+      "22991141",
+      "30599311",
+      "23999870",
+      "26884267",
+      "21594948",
+      "29169997",
+      "34487789",
+      "16504338",
+      "21450454",
+      "21228448",
+      "17321751",
+      "34830481",
+      "37925283",
+      "40557772"
+    ],
+    "pmc": [
+      "10465727"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(23)00466-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37496268/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

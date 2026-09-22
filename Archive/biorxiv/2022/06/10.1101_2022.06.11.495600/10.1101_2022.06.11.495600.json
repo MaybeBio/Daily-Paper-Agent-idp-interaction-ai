@@ -1,0 +1,384 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.06.11.495600",
+  "title": "Biofunctional nanodot arrays in living cells uncover synergistic co-condensation of Wnt signalodroplets",
+  "doi": "10.1101/2022.06.11.495600",
+  "abstract": "Qualitative and quantitative analysis of transient signaling platforms in the plasma membrane has remained a key experimental challenge. Here, we have developed biofunctional nanodot arrays (bNDAs) to spatially control dimerization and clustering of cell surface receptors at nanoscale. High-contrast bNDAs with spot diameters of ∼300 nm were obtained by capillary nanostamping of BSA bioconjugates, which were subsequently biofunctionalized by reaction with tandem anti- GFP clamp fusions. We achieved spatially controlled assembly of active Wnt signalosomes at the nanoscale in the plasma membrane of live cells by capturing the co-receptor Lrp6 into bNDAs via an extracellular GFP tag. Strikingly, we observed co-recruitment of co-receptor Frizzled-8 as well as the cytosolic scaffold proteins Axin-1 and Disheveled-2 into Lrp6 nanodots in the absence of ligand. Density variation and the high dynamics of effector proteins uncover highly cooperative liquid-liquid phase separation (LLPS)-driven assembly of Wnt “signalodroplets” at the plasma membrane, pinpointing the synergistic effects of LLPS for Wnt signaling amplification. These insights highlight the potential of bNDAs for systematically interrogating nanoscale signaling platforms and condensation at the plasma membrane of live cells.",
+  "authors": [
+    "Philippi M",
+    "Richter CP",
+    "Kappen M",
+    "Watrinet I",
+    "Miao Y",
+    "Runge M",
+    "Jorde L",
+    "Korneev S",
+    "Holtmannspötter M",
+    "Kurre R",
+    "Holthuis JCM",
+    "Garcia KC",
+    "Plückthun A",
+    "Steinhart M",
+    "Piehler J",
+    "You C"
+  ],
+  "published_date": "2022-06-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.06.11.495600",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.06.11.495600.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR505603",
+    "raw_record": {
+      "id": "PPR505603",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR505603"
+        ]
+      },
+      "doi": "10.1101/2022.06.11.495600",
+      "title": "Biofunctional nanodot arrays in living cells uncover synergistic co-condensation of Wnt signalodroplets",
+      "authorString": "Philippi M, Richter CP, Kappen M, Watrinet I, Miao Y, Runge M, Jorde L, Korneev S, Holtmannspötter M, Kurre R, Holthuis JCM, Garcia KC, Plückthun A, Steinhart M, Piehler J, You C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Philippi M",
+            "lastName": "Philippi",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology/Chemistry and Center of Cellular Nanoanalytics (CellNanOs), Osnabrück University, 49076 Osnabrück, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Richter CP",
+            "lastName": "Richter",
+            "firstName": "Christian",
+            "initials": "CP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology/Chemistry and Center of Cellular Nanoanalytics (CellNanOs), Osnabrück University, 49076 Osnabrück, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kappen M",
+            "lastName": "Kappen",
+            "firstName": "Marie",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology/Chemistry and Center of Cellular Nanoanalytics (CellNanOs), Osnabrück University, 49076 Osnabrück, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Watrinet I",
+            "lastName": "Watrinet",
+            "firstName": "Isabelle",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology/Chemistry and Center of Cellular Nanoanalytics (CellNanOs), Osnabrück University, 49076 Osnabrück, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Miao Y",
+            "lastName": "Miao",
+            "firstName": "Yi",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0738-6041"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Cellular Physiology, Department of Structural Biology, Howard Hughes Medical Institute, Stanford University School of Medicine, Stanford, CA 94305, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Runge M",
+            "lastName": "Runge",
+            "firstName": "Mercedes",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology/Chemistry and Center of Cellular Nanoanalytics (CellNanOs), Osnabrück University, 49076 Osnabrück, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jorde L",
+            "lastName": "Jorde",
+            "firstName": "Lara",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology/Chemistry and Center of Cellular Nanoanalytics (CellNanOs), Osnabrück University, 49076 Osnabrück, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Korneev S",
+            "lastName": "Korneev",
+            "firstName": "Sergej",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology/Chemistry and Center of Cellular Nanoanalytics (CellNanOs), Osnabrück University, 49076 Osnabrück, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Holtmannspötter M",
+            "lastName": "Holtmannspötter",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology/Chemistry and Center of Cellular Nanoanalytics (CellNanOs), Osnabrück University, 49076 Osnabrück, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kurre R",
+            "lastName": "Kurre",
+            "firstName": "Rainer",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology/Chemistry and Center of Cellular Nanoanalytics (CellNanOs), Osnabrück University, 49076 Osnabrück, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Holthuis JCM",
+            "lastName": "Holthuis",
+            "firstName": "Joost",
+            "initials": "JCM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology/Chemistry and Center of Cellular Nanoanalytics (CellNanOs), Osnabrück University, 49076 Osnabrück, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garcia KC",
+            "lastName": "Garcia",
+            "firstName": "Christopher",
+            "initials": "KC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Cellular Physiology, Department of Structural Biology, Howard Hughes Medical Institute, Stanford University School of Medicine, Stanford, CA 94305, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Plückthun A",
+            "lastName": "Plückthun",
+            "firstName": "Andreas",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Steinhart M",
+            "lastName": "Steinhart",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5241-8498"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology/Chemistry and Center of Cellular Nanoanalytics (CellNanOs), Osnabrück University, 49076 Osnabrück, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Piehler J",
+            "lastName": "Piehler",
+            "firstName": "Jacob",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology/Chemistry and Center of Cellular Nanoanalytics (CellNanOs), Osnabrück University, 49076 Osnabrück, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "You C",
+            "lastName": "You",
+            "firstName": "Changjiang",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology/Chemistry and Center of Cellular Nanoanalytics (CellNanOs), Osnabrück University, 49076 Osnabrück, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5241-8498"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0738-6041"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2396-2627"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4191-5306"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Qualitative and quantitative analysis of transient signaling platforms in the plasma membrane has remained a key experimental challenge. Here, we have developed biofunctional nanodot arrays (bNDAs) to spatially control dimerization and clustering of cell surface receptors at nanoscale. High-contrast bNDAs with spot diameters of ∼300 nm were obtained by capillary nanostamping of BSA bioconjugates, which were subsequently biofunctionalized by reaction with tandem anti- GFP clamp fusions. We achieved spatially controlled assembly of active Wnt signalosomes at the nanoscale in the plasma membrane of live cells by capturing the co-receptor Lrp6 into bNDAs via an extracellular GFP tag. Strikingly, we observed co-recruitment of co-receptor Frizzled-8 as well as the cytosolic scaffold proteins Axin-1 and Disheveled-2 into Lrp6 nanodots in the absence of ligand. Density variation and the high dynamics of effector proteins uncover highly cooperative liquid-liquid phase separation (LLPS)-driven assembly of Wnt “signalodroplets” at the plasma membrane, pinpointing the synergistic effects of LLPS for Wnt signaling amplification. These insights highlight the potential of bNDAs for systematically interrogating nanoscale signaling platforms and condensation at the plasma membrane of live cells.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "646742",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/08/30/2022.06.11.495600.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.06.11.495600"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR505603"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR505603&type=FILE&fileName=EMS146025-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36266931",
+            "reference": "Small (Weinheim an der Bergstrasse, Germany). 2022 Dec;18(50):e2203723",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS146025",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-06-15",
+      "firstPublicationDate": "2022-06-13",
+      "firstIndexDate": "2022-06-15",
+      "fullTextReceivedDate": "2022-09-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

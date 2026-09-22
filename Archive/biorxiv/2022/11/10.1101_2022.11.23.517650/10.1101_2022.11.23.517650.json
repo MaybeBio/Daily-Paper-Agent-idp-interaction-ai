@@ -1,0 +1,209 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.23.517650",
+  "title": "The prolactin receptor scaffolds Janus kinase 2 via co-structure formation with phosphoinositide-4,5-bisphosphate",
+  "doi": "10.1101/2022.11.23.517650",
+  "abstract": "Class 1 cytokine receptors transmit signals through the membrane by a single transmembrane helix to an intrinsically disordered cytoplasmic domain that lacks kinase activity. While specific binding to phosphoinositides has been reported for the prolactin receptor (PRLR), the role of lipids in PRLR signalling is unclear. Using an integrative approach combining NMR spectroscopy, cellular signalling experiments, computational modelling and simulation, we demonstrate co-structure formation of the disordered intracellular domain of the human PRLR, the membrane constituent phosphoinositide-4,5-bisphosphate (PI(4,5)P 2 ) and the FERM-SH2 domain of the Janus kinase 2 (JAK2). We find that the complex leads to accumulation of PI(4,5)P 2 at the transmembrane helix interface and that mutation of residues identified to interact specifically with PI(4,5)P 2 negatively affects PRLR-mediated activation of signal transducer and activator of transcription 5 (STAT5). Facilitated by co-structure formation, the membrane-proximal disordered region arranges into an extended structure. We suggest that the co-structure formed between PRLR, JAK2 and PI(4,5)P 2 locks the juxtamembrane disordered domain of the PRLR in an extended structure, enabling signal relay from the extracellular to the intracellular domain upon ligand binding. We find that the co-structure exists in different states which we speculate could be relevant for turning signalling on and off. Similar co-structures may be relevant for other non-receptor tyrosine kinases and their receptors.",
+  "authors": [
+    "Araya-Secchi R",
+    "Bugge K",
+    "Seiffert P",
+    "Petry A",
+    "Haxholm GW",
+    "Lindorff-Larsen K",
+    "Pedersen SF",
+    "Arleth L",
+    "Kragelund BB"
+  ],
+  "published_date": "2022-11-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.23.517650",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.23.517650.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR575358",
+    "raw_record": {
+      "id": "PPR575358",
+      "source": "PPR",
+      "doi": "10.1101/2022.11.23.517650",
+      "title": "The prolactin receptor scaffolds Janus kinase 2 via co-structure formation with phosphoinositide-4,5-bisphosphate",
+      "authorString": "Araya-Secchi R, Bugge K, Seiffert P, Petry A, Haxholm GW, Lindorff-Larsen K, Pedersen SF, Arleth L, Kragelund BB.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Araya-Secchi R",
+            "lastName": "Araya-Secchi",
+            "firstName": "Raul",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4872-3553"
+            }
+          },
+          {
+            "fullName": "Bugge K",
+            "lastName": "Bugge",
+            "firstName": "Katrine",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6286-6243"
+            }
+          },
+          {
+            "fullName": "Seiffert P",
+            "lastName": "Seiffert",
+            "firstName": "Pernille",
+            "initials": "P"
+          },
+          {
+            "fullName": "Petry A",
+            "lastName": "Petry",
+            "firstName": "Amalie",
+            "initials": "A"
+          },
+          {
+            "fullName": "Haxholm GW",
+            "lastName": "Haxholm",
+            "firstName": "Gitte",
+            "initials": "GW"
+          },
+          {
+            "fullName": "Lindorff-Larsen K",
+            "lastName": "Lindorff-Larsen",
+            "firstName": "Kresten",
+            "initials": "K"
+          },
+          {
+            "fullName": "Pedersen SF",
+            "lastName": "Pedersen",
+            "firstName": "Stine",
+            "initials": "SF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3044-7714"
+            }
+          },
+          {
+            "fullName": "Arleth L",
+            "lastName": "Arleth",
+            "firstName": "Lise",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4694-4299"
+            }
+          },
+          {
+            "fullName": "Kragelund BB",
+            "lastName": "Kragelund",
+            "firstName": "Birthe",
+            "initials": "BB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7454-1761"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3044-7714"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4694-4299"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4872-3553"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6286-6243"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7454-1761"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Class 1 cytokine receptors transmit signals through the membrane by a single transmembrane helix to an intrinsically disordered cytoplasmic domain that lacks kinase activity. While specific binding to phosphoinositides has been reported for the prolactin receptor (PRLR), the role of lipids in PRLR signalling is unclear. Using an integrative approach combining NMR spectroscopy, cellular signalling experiments, computational modelling and simulation, we demonstrate co-structure formation of the disordered intracellular domain of the human PRLR, the membrane constituent phosphoinositide-4,5-bisphosphate (PI(4,5)P  2 ) and the FERM-SH2 domain of the Janus kinase 2 (JAK2). We find that the complex leads to accumulation of PI(4,5)P  2 at the transmembrane helix interface and that mutation of residues identified to interact specifically with PI(4,5)P  2 negatively affects PRLR-mediated activation of signal transducer and activator of transcription 5 (STAT5). Facilitated by co-structure formation, the membrane-proximal disordered region arranges into an extended structure. We suggest that the co-structure formed between PRLR, JAK2 and PI(4,5)P  2 locks the juxtamembrane disordered domain of the PRLR in an extended structure, enabling signal relay from the extracellular to the intracellular domain upon ligand binding. We find that the co-structure exists in different states which we speculate could be relevant for turning signalling on and off. Similar co-structures may be relevant for other non-receptor tyrosine kinases and their receptors.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/04/12/2022.11.23.517650.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.23.517650"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37232489",
+            "reference": "eLife. 2023 May;12:e84645",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-11-25",
+      "firstPublicationDate": "2022-11-23",
+      "firstIndexDate": "2022-11-25",
+      "hasEvaluations": "Y"
+    }
+  }
+}

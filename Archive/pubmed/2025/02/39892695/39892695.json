@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "39892695",
+    "doi": "10.1016/j.biosystems.2025.105405",
+    "title": "Fragile X mental retardation protein modulates translation of proteins with predicted tendencies for liquid-liquid phase separation."
+  },
+  "content": {
+    "abstract": "The Fragile X Mental Retardation Protein (FMRP) is an RNA-binding protein and a key regulator of translation in neurons, hence crucial for neural development and plasticity. FMRP loss, resulting from mutations in the Fmr1 gene, leads to Fragile X Syndrome (FXS) and Autism Spectrum Disorder (ASD), the most common inherited intellectual disabilities. Ribosome profiling in neurons consistently reveals that FMRP-knockout (FK) significantly down-regulates the translation of numerous lengthy genes, many of which are FMRP-binding targets and associated with ASD. Despite these findings, the functional explanation for FMRP's translation regulation of large neuronal proteins remains elusive. Our present study compiles data from published ribosome profiling studies, to identify genes with significantly decreased translation in FK neurons. Using bioinformatic analysis and machine-learning sequence-based tools, PSPredictor and FuzDrop, we found that the proteins encoded by these genes are predicted to be enriched in intrinsically disordered regions and are prone to liquid-liquid phase separation. These findings suggest that FMRP modulates the translation of proteins involved in the formation of biomolecular condensates. Our results can have significant implications for understanding the molecular mechanisms of FXS and ASD, adding complexity to FMRP's regulatory functions, thus offering avenues for further exploration and targeted therapeutic interventions in intellectual disability disorders.",
+    "keywords": [
+      "Autism",
+      "FMRP",
+      "Fragile X syndrome",
+      "Intrinsically disordered proteins",
+      "Liquid-liquid phase separation",
+      "Phase separation proteins",
+      "Ribosome profiling"
+    ],
+    "mesh_terms": [
+      "*Fragile X Messenger Ribonucleoprotein 1/genetics/metabolism",
+      "Humans",
+      "*Fragile X Syndrome/genetics/metabolism",
+      "*Protein Biosynthesis/genetics",
+      "Ribosomes/metabolism/genetics",
+      "Neurons/metabolism",
+      "Autism Spectrum Disorder/genetics/metabolism",
+      "Computational Biology/methods",
+      "Animals",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jurado, Omar",
+        "Jose, Marco V",
+        "Frixione, Eugenio"
+      ],
+      "short_names": [
+        "Jurado O",
+        "Jose MV",
+        "Frixione E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cell Biology, Centro de Investigacion y de Estudios Avanzados del Instituto Politecnico Nacional, Ciudad de Mexico, 07360, Mexico. Electronic address: omar.jurado@cinvestav.mx.",
+        "Theoretical Biology Group, Instituto de Investigaciones Biomedicas, Universidad Nacional Autonoma de Mexico, Ciudad de Mexico, 04510, Mexico. Electronic address: marcojose@biomedicas.unam.mx.",
+        "Department of Cell Biology, Centro de Investigacion y de Estudios Avanzados del Instituto Politecnico Nacional, Ciudad de Mexico, 07360, Mexico. Electronic address: frixione@cinvestav.mx."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jurado, Omar",
+        "short_name": "Jurado O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional, Ciudad de México, 07360, México. Electronic address: omar.jurado@cinvestav.mx."
+        ]
+      },
+      {
+        "full_name": "José, Marco V",
+        "short_name": "José MV",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Biology Group, Instituto de Investigaciones Biomédicas, Universidad Nacional Autónoma de México, Ciudad de México, 04510, México. Electronic address: marcojose@biomedicas.unam.mx."
+        ]
+      },
+      {
+        "full_name": "Frixione, Eugenio",
+        "short_name": "Frixione E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Centro de Investigación y de Estudios Avanzados del Instituto Politécnico Nacional, Ciudad de México, 07360, México. Electronic address: frixione@cinvestav.mx."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bio Systems"
+    ],
+    "journal_abbrev": [
+      "Biosystems"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/02 05:10",
+    "fetched_at": "2026-09-21 15:11:46"
+  },
+  "links": {
+    "cites": [
+      "41790295"
+    ],
+    "refs": [],
+    "similar": [
+      "39892695",
+      "36646274",
+      "30771457",
+      "35768828",
+      "16626504",
+      "38797434",
+      "26372002",
+      "25561520",
+      "30478144",
+      "36181660",
+      "31350260",
+      "23250915",
+      "36089189",
+      "36481269",
+      "33402421",
+      "26933487",
+      "38971316",
+      "33608673",
+      "22017584",
+      "38225196",
+      "37949069",
+      "31882402",
+      "26663181",
+      "27233938",
+      "27383586",
+      "31860442",
+      "22351071",
+      "16130171",
+      "25432536",
+      "27462983",
+      "23396537",
+      "22022567",
+      "21784246",
+      "23584741",
+      "26166728",
+      "30686771",
+      "21108954",
+      "32560791",
+      "28640668",
+      "11157796",
+      "31822816",
+      "34499526",
+      "33199649",
+      "30107092",
+      "34896112",
+      "37467965",
+      "27597551",
+      "38757694",
+      "31118285",
+      "19325170",
+      "28887386",
+      "38710511",
+      "25529181",
+      "33906942",
+      "30373821",
+      "24115651",
+      "39928301",
+      "22080836",
+      "31626382",
+      "24462888",
+      "36494616",
+      "38540415",
+      "25849048",
+      "28826631",
+      "18474609",
+      "33608547",
+      "37505982",
+      "9030614",
+      "17132937",
+      "26637167",
+      "29590342",
+      "27730449",
+      "32234480",
+      "37834379",
+      "16386219",
+      "33323119",
+      "35556144",
+      "38898700",
+      "23235829",
+      "19932134",
+      "25701550",
+      "23727436",
+      "26307763",
+      "17376973",
+      "37365192",
+      "29653083",
+      "30107516",
+      "39089568",
+      "26554012",
+      "15119819",
+      "30072797",
+      "35588990",
+      "26427907",
+      "24346713",
+      "31880363",
+      "32343993",
+      "17881561",
+      "20071534",
+      "34996816",
+      "30877790"
+    ],
+    "review": [
+      "39892695",
+      "16626504",
+      "33608673",
+      "22017584",
+      "22351071",
+      "23584741",
+      "21108954",
+      "32560791",
+      "31822816",
+      "37467965",
+      "27597551",
+      "19325170",
+      "25529181",
+      "24115651",
+      "24462888",
+      "28826631",
+      "38898700",
+      "25701550",
+      "23727436",
+      "29653083",
+      "15119819"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0303-2647(25)00015-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/fragilexsyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Fragile X Syndrome"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42395354",
+  "title": "HyRes: Accurate Physics-Based Simulation of Dynamic Protein Structures and Interactions in Complex Environments at Scale.",
+  "authors": "Li, Shanlong; Barethiya, Shrishti; Chen, Jianhan",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-07-03",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出混合分辨率物理模型HyRes，在规模上准确模拟IDP动态构象及多价互作（含凝聚相和淀粉样纤维模糊外壳），为无序蛋白互作机制建模提供高效可迁移的物理模拟方法，并生成大规模数据库支持深度学习。",
+  "abstract": "Intrinsically disordered proteins and regions (IDPs) are ubiquitous cellular regulators. Uncovering how their transient, multivalent interactions organize and fine-tune cellular processes requires transferable methods capable of deriving dynamic conformational ensembles across diverse environments at scale. Here, we present HyRes, a physics-based, hybrid-resolution protein model with atomistic backbones and intermediate-resolution sidechains that bridges the gap between atomistic accuracy and computational efficiency. Evaluated across ~100 IDPs, HyRes generates atomistic ensembles that match or outperform state-of-the-art all-atom force fields in reproducing experimental chain dimensions, transient tertiary contacts, and local secondary structures. Demonstrating exceptional transferability, HyRes accurately captures dynamic IDP interactions in dilute phases, condensed phases, and amyloid fibril fuzzy coats. Finally, we leverage HyRes' scalability to generate disordered ensembles for ~30,000 IDPs from the human proteome and DisProt, revealing strong correlation between residual structures and cellular function and localization. HyRes and this open-access database provide unprecedented resources for IDP biology and deep learning.",
+  "abstract_zh": "固有无序蛋白及区域（IDPs）是普遍存在的细胞调控因子。揭示其瞬时、多价相互作用如何组织并精细调控细胞过程，需要能够在多种环境中规模化推导动态构象系综的可转移方法。在此，我们提出HyRes，一种基于物理学的混合分辨率蛋白质模型，具有原子级主链和中间分辨率侧链，弥合了原子级精度与计算效率之间的差距。在约100个IDPs上评估，HyRes生成的原子系综在再现实验链尺寸、瞬时三级接触和局部二级结构方面，匹配或优于最先进的全原子力场。展示出卓越的可转移性，HyRes准确捕捉了稀相、凝聚相及淀粉样纤维模糊包被中的动态IDP相互作用。最后，我们利用HyRes的可扩展性，为来自人类蛋白质组和DisProt的约30,000个IDPs生成无序系综，揭示了残基结构与细胞功能和定位之间的强相关性。HyRes及这一开放获取数据库为IDP生物学和深度学习提供了前所未有的资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42395354/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42395354/",
+  "paper_page_path": "papers/pubmed/42395354/index.html"
+}

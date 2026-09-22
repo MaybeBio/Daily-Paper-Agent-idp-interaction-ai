@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "pmid": "39285530",
+    "doi": "10.1080/07391102.2024.2404531",
+    "title": "Conformational fluidity of intrinsically disordered proteins in crowded environment: a molecular dynamics simulation study."
+  },
+  "content": {
+    "abstract": "The class of intrinsically disordered proteins lacks stable three-dimensional structures. Their flexibility allows them to engage in a wide variety of interactions with other biomolecules thus making them biologically relevant and efficient. The intrinsic disorders of these proteins, which undergo binding-induced folding, allow alterations in their topologies while conserving their binding sites. Due to the lack of well-defined three-dimensional structures in the absence of their physiological partners, the folding and the conformational dynamics of these proteins remained poorly understood. Particularly, it is unclear how these proteins exist in the crowded intracellular milieu. In the present study, molecular dynamic simulations of two intrinsically unstructured proteins and two controls (folded proteins) were conducted in the presence and absence of molecular crowders to obtain an in-depth insight into their conformational flexibility. The present study revealed that polymer crowders stabilize the disordered proteins through enthalpic as well as entropic effects that are significantly more than their monomeric counterpart. Taken together, the study delves deep into crowding effects on intrinsically disordered proteins and provides insights into how molecular crowders induce a significantly diverse ensemble of dynamic scaffolds needed to carry out diverse functions.",
+    "keywords": [
+      "Intrinsically dynamic proteins",
+      "intrinsically disordered proteins",
+      "intrinsically flexible proteins",
+      "molecular crowding",
+      "molecular dynamic simulation"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*Protein Conformation",
+      "Protein Folding",
+      "Thermodynamics",
+      "Entropy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shult, Carolyn",
+        "Gunderson, Keegan",
+        "Coffey, Stephen J",
+        "McNally, Brenya",
+        "Brandt, Michael",
+        "Smith, Lucille",
+        "Steczynski, Joshua",
+        "Olerich, Ethan R",
+        "Schroeder, Sydney E",
+        "Severson, Nathaniel J",
+        "Hati, Sanchita",
+        "Bhattacharyay, Sudeep"
+      ],
+      "short_names": [
+        "Shult C",
+        "Gunderson K",
+        "Coffey SJ",
+        "McNally B",
+        "Brandt M",
+        "Smith L",
+        "Steczynski J",
+        "Olerich ER",
+        "Schroeder SE",
+        "Severson NJ",
+        "Hati S",
+        "Bhattacharyay S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7452-0872",
+        "ORCID: 0000-0002-3960-1239"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shult, Carolyn",
+        "short_name": "Shult C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Gunderson, Keegan",
+        "short_name": "Gunderson K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Coffey, Stephen J",
+        "short_name": "Coffey SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA."
+        ]
+      },
+      {
+        "full_name": "McNally, Brenya",
+        "short_name": "McNally B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Brandt, Michael",
+        "short_name": "Brandt M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Smith, Lucille",
+        "short_name": "Smith L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Steczynski, Joshua",
+        "short_name": "Steczynski J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Olerich, Ethan R",
+        "short_name": "Olerich ER",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Schroeder, Sydney E",
+        "short_name": "Schroeder SE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Severson, Nathaniel J",
+        "short_name": "Severson NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Hati, Sanchita",
+        "short_name": "Hati S",
+        "identifiers": [
+          "0000-0002-7452-0872"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Bhattacharyay, Sudeep",
+        "short_name": "Bhattacharyay S",
+        "identifiers": [
+          "0000-0002-3960-1239"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Eau Claire, Eau Claire, WI, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/17 10:45",
+    "fetched_at": "2026-09-21 10:27:51"
+  },
+  "links": {
+    "cites": [
+      "42437078",
+      "42374249",
+      "41141782"
+    ],
+    "refs": [
+      "37306152",
+      "37180871",
+      "37114769",
+      "36926275",
+      "36671509",
+      "36040300",
+      "35686856",
+      "35177069",
+      "34791371",
+      "34610267",
+      "34484303",
+      "34291085",
+      "34265844",
+      "32752662",
+      "32747754",
+      "31714774",
+      "31667345",
+      "31575057",
+      "31139718",
+      "30066087",
+      "29382046",
+      "28976219",
+      "28483149",
+      "28226222",
+      "26320411",
+      "24915485",
+      "24639500",
+      "24061923",
+      "24008243",
+      "23877564",
+      "23832629",
+      "22947858",
+      "22556167",
+      "22044150",
+      "21878896",
+      "21097776",
+      "19768526",
+      "18665616",
+      "18573087",
+      "18573083",
+      "18078545",
+      "17719556",
+      "17255293",
+      "16917862",
+      "16222654",
+      "15781864",
+      "15738986",
+      "15611513",
+      "15303830",
+      "12947056",
+      "12897146",
+      "12778136",
+      "12209156",
+      "12115316",
+      "12022860",
+      "10550212",
+      "9734359",
+      "8947520",
+      "8876165",
+      "8744570",
+      "8108382",
+      "7688609",
+      "7675086",
+      "7664346",
+      "1731198"
+    ],
+    "similar": [
+      "39285530",
+      "23912807",
+      "30066087",
+      "29990433",
+      "25387963",
+      "33587794",
+      "28914483",
+      "36542701",
+      "30420606",
+      "34845619",
+      "40042172",
+      "37348142",
+      "34929201",
+      "30528464",
+      "34509724",
+      "33567297",
+      "32020911",
+      "29885328",
+      "27819658",
+      "40726410",
+      "38892222",
+      "28970487",
+      "33355572",
+      "32654182",
+      "26195786",
+      "26138206",
+      "27111521",
+      "29925017",
+      "31756104",
+      "24671380",
+      "29539394",
+      "37716093",
+      "39499823",
+      "34358545",
+      "31552948",
+      "27844185",
+      "41129692",
+      "31136713",
+      "31441158",
+      "30840442",
+      "29719201",
+      "31375817",
+      "28111343",
+      "32323533",
+      "30527137",
+      "29753880",
+      "34576338",
+      "39947750",
+      "28425679",
+      "38996889",
+      "35357183",
+      "40172236",
+      "29716994",
+      "30855964",
+      "33909430",
+      "38294935",
+      "26030674",
+      "35204709",
+      "28834051",
+      "24278008",
+      "28226222",
+      "29634920",
+      "22429139",
+      "24604825",
+      "41053908",
+      "30708285",
+      "34473923",
+      "33337879",
+      "33574233",
+      "23754493",
+      "31617035",
+      "25631540",
+      "25207671",
+      "31548393",
+      "33747706",
+      "40671581",
+      "35298814",
+      "28095698",
+      "33810353",
+      "32487732",
+      "40907012",
+      "39093570",
+      "31978465",
+      "37341654",
+      "30813315",
+      "24446368",
+      "26742101",
+      "32579908",
+      "32623047",
+      "33779503",
+      "25544254",
+      "29735687",
+      "34504009",
+      "39952928",
+      "30058229",
+      "31951234",
+      "38739602",
+      "27548131",
+      "25871264",
+      "30184304"
+    ],
+    "review": [
+      "39285530",
+      "30066087",
+      "33567297",
+      "32020911",
+      "33355572",
+      "37716093",
+      "34358545",
+      "31441158",
+      "30840442",
+      "30527137",
+      "29753880",
+      "39947750",
+      "35204709",
+      "28226222",
+      "29634920",
+      "31617035",
+      "25631540",
+      "39093570",
+      "25544254"
+    ],
+    "pmc": [
+      "11910382"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2024.2404531?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39285530/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2024.2404531",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

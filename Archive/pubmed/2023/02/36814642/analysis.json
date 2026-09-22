@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36814642",
+  "title": "Editorial: From the hydrophobic core to the globular-disorder interface: New challenges and insights into protein design.",
+  "authors": "Basu, Sankar; Chakravarty, Devlina; Hou, Qingzhen; Uversky, Vladimir N",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2023-02-24",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 5,
+  "one_liner_zh": "这是一篇关于蛋白质设计的社论，聚焦从疏水核心到球状-无序界面的新挑战，虽涉及无序界面但无具体互作机制或AI/物理方法细节，仅提供方向性启发。",
+  "abstract": "",
+  "abstract_zh": "",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36814642/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36814642/",
+  "paper_page_path": "papers/pubmed/36814642/index.html"
+}

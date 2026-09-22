@@ -1,0 +1,158 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.22.426549",
+  "title": "Molecular basis of small-molecule binding to α-synuclein",
+  "doi": "10.1101/2021.01.22.426549",
+  "abstract": "Intrinsically disordered proteins (IDPs) are implicated in many human diseases. They have generally not been amenable to conventional structure-based drug design, however, because their intrinsic conformational variability has precluded an atomic-level understanding of their binding to small molecules. Here we present long-timescale, atomic-level molecular dynamics (MD) simulations of monomeric α-synuclein (an IDP whose aggregation is associated with Parkinson’s disease) binding the small-molecule drug fasudil in which the observed protein-ligand interactions were found to be in good agreement with previously reported NMR chemical shift data. In our simulations, fasudil, when bound, favored certain charge-charge and π-stacking interactions near the C terminus of α-synuclein, but tended not to form these interactions simultaneously, rather breaking one of these interactions and forming another nearby (a mechanism we term dynamic shuttling ). Further simulations with small molecules chosen to modify these interactions yielded binding affinities and key structural features of binding consistent with subsequent NMR experiments, suggesting the potential for MD-based strategies to facilitate the rational design of small molecules that bind with disordered proteins.",
+  "authors": [
+    "Robustelli P",
+    "Ibanez-de-Opakua A",
+    "Campbell-Bezat C",
+    "Giordanetto F",
+    "Becker S",
+    "Zweckstetter M",
+    "Pan AC",
+    "Shaw DE"
+  ],
+  "published_date": "2021-01-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.22.426549",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.22.426549.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR272671",
+    "raw_record": {
+      "id": "PPR272671",
+      "source": "PPR",
+      "doi": "10.1101/2021.01.22.426549",
+      "title": "Molecular basis of small-molecule binding to α-synuclein",
+      "authorString": "Robustelli P, Ibanez-de-Opakua A, Campbell-Bezat C, Giordanetto F, Becker S, Zweckstetter M, Pan AC, Shaw DE.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Robustelli P",
+            "lastName": "Robustelli",
+            "firstName": "Paul",
+            "initials": "P"
+          },
+          {
+            "fullName": "Ibanez-de-Opakua A",
+            "lastName": "Ibanez-de-Opakua",
+            "firstName": "Alain",
+            "initials": "A"
+          },
+          {
+            "fullName": "Campbell-Bezat C",
+            "lastName": "Campbell-Bezat",
+            "firstName": "Cecily",
+            "initials": "C"
+          },
+          {
+            "fullName": "Giordanetto F",
+            "lastName": "Giordanetto",
+            "firstName": "Fabrizio",
+            "initials": "F"
+          },
+          {
+            "fullName": "Becker S",
+            "lastName": "Becker",
+            "firstName": "Stefan",
+            "initials": "S"
+          },
+          {
+            "fullName": "Zweckstetter M",
+            "lastName": "Zweckstetter",
+            "firstName": "Markus",
+            "initials": "M"
+          },
+          {
+            "fullName": "Pan AC",
+            "lastName": "Pan",
+            "firstName": "Albert",
+            "initials": "AC"
+          },
+          {
+            "fullName": "Shaw DE",
+            "lastName": "Shaw",
+            "firstName": "David",
+            "initials": "DE"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Intrinsically disordered proteins (IDPs) are implicated in many human diseases. They have generally not been amenable to conventional structure-based drug design, however, because their intrinsic conformational variability has precluded an atomic-level understanding of their binding to small molecules. Here we present long-timescale, atomic-level molecular dynamics (MD) simulations of monomeric α-synuclein (an IDP whose aggregation is associated with Parkinson’s disease) binding the small-molecule drug fasudil in which the observed protein-ligand interactions were found to be in good agreement with previously reported NMR chemical shift data. In our simulations, fasudil, when bound, favored certain charge-charge and π-stacking interactions near the C terminus of α-synuclein, but tended not to form these interactions simultaneously, rather breaking one of these interactions and forming another nearby (a mechanism we term  dynamic shuttling ). Further simulations with small molecules chosen to modify these interactions yielded binding affinities and key structural features of binding consistent with subsequent NMR experiments, suggesting the potential for MD-based strategies to facilitate the rational design of small molecules that bind with disordered proteins.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/01/24/2021.01.22.426549.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.22.426549"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35130691",
+            "reference": "Journal of the American Chemical Society. 2022 Feb;144(6):2501-2510",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-01-25",
+      "firstPublicationDate": "2021-01-24",
+      "firstIndexDate": "2021-01-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40216579",
+  "title": "K(D)SAXS: A Tool for Analyzing Binding Equilibria With SAXS Data Using Explicit Models.",
+  "authors": "Gomes, Tiago; Ruiz, Lidia; Martin-Malpartida, Pau; Bernado, Pau; Baptista, Antonio M; Macias, Maria J; Cordeiro, Tiago N",
+  "journal": "Journal of molecular biology",
+  "published_date": "2025-04-12",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 7,
+  "one_liner_zh": "该文介绍K(D)SAXS工具，用SAXS滴定数据结合显式结构模型（含AlphaFold/MD）解析多物种结合平衡并估计解离常数，涵盖无序蛋白和多价互作，虽非直接建模IDR-PPI机制，但为无序蛋白参与的瞬态/多价互作提供了可迁移的平衡分析计算方法。",
+  "abstract": "K(D)SAXS is a computational tool for estimating dissociation constants (K(D)) from small-angle X-ray scattering (SAXS) titration experiments. By combining ensemble analysis with mass-balance equations, K(D)SAXS effectively models complex equilibria involving multiple species, ranging from simple oligomerization to transient and multivalent interactions, including intrinsically disordered proteins. For each species in equilibrium, the tool supports the integration of theoretical scattering profiles derived from ensemble structural models, X-ray crystallography, NMR, AlphaFold predictions, or molecular dynamics simulations. With its intuitive dashboard interface, K(D)SAXS enables researchers to input SAXS titration data, validate structural models and interactions, and compute species-specific scattering profiles. Additionally, it determines the relative populations of biomolecular species in equilibrium across user-defined Kᴅ ranges and concentrations. Applications of K(D)SAXS to systems such as beta-lactoglobulin oligomerization and the PCNA-p15PAF complex highlight its capacity to resolve complex equilibria and deliver accurate K(D) estimations. As an open-source platform, K(D)SAXS bridges computational and experimental methodologies, advancing SAXS-based analysis of macromolecular interactions and enhancing insights into dynamic biological systems. K(D)SAXS is freely accessible as a web server at https://kdsaxs.itqb.unl.pt.",
+  "abstract_zh": "K(D)SAXS是一种计算工具，用于从小角X射线散射（SAXS）滴定实验中估算解离常数（K(D)）。通过将系综分析与质量平衡方程相结合，K(D)SAXS有效模拟涉及多种物种的复杂平衡，范围从简单寡聚化到瞬态和多价相互作用，包括固有无序蛋白质。对于平衡中的每个物种，该工具支持整合来自系综结构模型、X射线晶体学、NMR、AlphaFold预测或分子动力学模拟的理论散射图谱。凭借其直观的仪表板界面，K(D)SAXS使研究人员能够输入SAXS滴定数据、验证结构模型和相互作用，并计算物种特异性散射图谱。此外，它还在用户定义的Kᴅ范围和浓度下，确定平衡中生物分子物种的相对群体。K(D)SAXS在β-乳球蛋白寡聚化和PCNA-p15PAF复合物等系统中的应用，突显了其解析复杂平衡并提供准确K(D)估算的能力。作为一个开源平台，K(D)SAXS连接了计算与实验方法，推进了基于SAXS的大分子相互作用分析，并增强了对动态生物系统的洞察。K(D)SAXS作为网络服务器可免费访问，网址为https://kdsaxs.itqb.unl.pt。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40216579/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40216579/",
+  "paper_page_path": "papers/pubmed/40216579/index.html"
+}

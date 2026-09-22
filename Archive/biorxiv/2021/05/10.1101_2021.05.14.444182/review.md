@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the supplied material
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered linker between two Rb-binding SLiMs in adenoviral E1A acts as an entropic tether whose spatial dimensions are conserved across evolution via compensatory sequence changes, a mechanism termed "conformational buffering," and that this conservation underlies functional selection for high-affinity Rb binding and E2F displacement.
+- **Visible evidence base** Biophysical binding assays (FP, ITC), NMR spectroscopy, SEC-SLS, SAXS with ensemble modeling, all-atom simulations of 24 natural and 140 synthetic linker sequences, and comparative sequence analysis across 110 E1A orthologs
+- **Missing materials affecting confidence** Extended Data figures and tables referenced but not provided; Source Data Files 1-4 not accessible; specific statistical test outputs and simulation convergence metrics not shown; details of FoldX matrix validation not fully described
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and well-integrated study combining biophysics, simulations, and evolutionary analysis to address a significant question in disordered protein biology. The central hypothesis, that conserved ensemble properties rather than sequence identity drive functional selection in IDRs, is timely and conceptually important. The evidence for tethering-mediated affinity enhancement is strong, and the "conformational buffering" concept is a valuable contribution. However, several technical aspects require clarification and additional validation before the case is fully established, particularly regarding the robustness of the simulation-derived conclusions and the statistical treatment of evolutionary data.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, molecular mechanisms of viral host manipulation, protein-protein interaction thermodynamics, and evolutionary biology of functional elements in poorly conserved sequences. The concept of conformational buffering will be of broad interest to the IDP community and to those interested in how function is encoded in disordered regions.
+- **Major strengths** 1) The combination of multiple orthogonal biophysical techniques (ITC, FP, NMR, SEC-SLS, SAXS) provides a robust experimental foundation. 2) The explicit testing of alternative models (direct binding vs. tethering) is well designed. 3) The evolutionary analysis across 110 E1A sequences adds a powerful dimension. 4) The "conformational buffering" concept is novel and likely generalizable. 5) The writing is clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of simulation-based conclusions
+  - **Claim pointer** The claim that "conformational buffering is achieved through compensatory covariations in sequence that preserve the mean end-to-end distances across linker sequences" and that this is "finely optimized" to maintain maximal affinity.
+  - **Evidence pointer** Methods section "All-atom simulations of E1A Linker sequences" and "Length titration Simulations"; Figure 4a-b; Extended Data Fig. 7b-c
+  - **Concern** The all-atom simulations are performed at 320 K, which is above physiological temperature. The authors state this "serves to improve sampling quality in a uniform way across all sequences," but this assumption requires validation. More critically, the comparison between natural sequences and random synthetic sequences (Extended Data Fig. 7c) is central to the claim of non-random sequence optimization. However, the random sequences are generated to match only the amino acid composition of one linker (HF_HAdV40), not the full sequence properties (e.g., patterning, charge distribution) of the natural set. This is an inadequate control. The appropriate null model should preserve additional sequence features (e.g., local amino acid composition, sequence complexity) to isolate the specific contribution of "patterning" that the authors claim is under selection.
+  - **Why it matters** The conclusion that natural sequences are "decidedly non-random" and specifically tuned to preserve dimensions depends entirely on this comparison. If the random sequences do not adequately represent the null distribution, the conclusion is not supported.
+  - **Resolution test** The authors should repeat the random sequence generation using a null model that preserves additional sequence features beyond composition (e.g., using a shuffling algorithm that maintains local composition or a Markov model trained on natural IDR sequences). The comparison should also be performed across multiple natural linkers, not just one. Additionally, the authors should demonstrate that the simulation results are robust to temperature by repeating key simulations at 298 K or 310 K.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor of evolutionary analysis
+  - **Claim pointer** The claim that "the predicted Ceff values for 110 E1A linkers covering the Mast adenovirus E1A phylogeny were distributed close to the maximum of the Ceff function" and that this indicates conservation of tethering function.
+  - **Evidence pointer** Results section "Evolutionary conservation of E1A tethering"; Extended Data Fig. 8a, c
+  - **Concern** The analysis appears to treat the 110 E1A sequences as independent data points. However, these sequences are phylogenetically related, and their Ceff values are not independent. The authors mention a phylogeny but do not describe any phylogenetic comparative methods (e.g., phylogenetic generalized least squares, independent contrasts) to account for non-independence. The permutation tests described in Methods also do not appear to account for phylogenetic structure.
+  - **Why it matters** Without accounting for phylogenetic non-independence, the statistical significance of the observed conservation pattern may be inflated, and the conclusion that Ceff is under selection is not rigorously established.
+  - **Resolution test** The authors should apply phylogenetic comparative methods to test whether Ceff values are more conserved than expected under Brownian motion or other null models of trait evolution. Alternatively, they should demonstrate that the observed pattern holds when accounting for phylogenetic relatedness.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence for the "maximal affinity" claim
+  - **Claim pointer** The claim that the linker is "finely optimized" to achieve "maximal affinity" and that this is the selective target.
+  - **Evidence pointer** Results section "Tethering is required for high affinity Rb binding and E2F displacement"; Figure 1c-e; Extended Data Table 1
+  - **Concern** The authors demonstrate that the wild-type linker provides a large affinity enhancement over individual motifs, and that the Ceff is near the theoretical maximum for the WLC model. However, they do not experimentally test whether linkers with different lengths or compositions that would alter Ceff actually reduce affinity in a functional assay. The claim of "maximal affinity" as the selective optimum is inferred from the WLC model, not directly tested. The evolutionary analysis shows conservation of Ceff, but this does not necessarily mean that the specific value is optimal; it could be conserved for other reasons.
+  - **Why it matters** The central claim of the paper is that conformational buffering maintains dimensions to preserve maximal affinity. Without direct experimental evidence that deviations from the optimal Ceff reduce function, the claim remains correlative.
+  - **Resolution test** The authors should generate E1A variants with linkers of different lengths (e.g., shorter and longer than optimal) and measure their Rb binding affinity and E2F displacement activity. If the wild-type linker indeed provides maximal affinity, these variants should show reduced function.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model presentation
+  - **Affected element** Figure 1f and associated text
+  - **Evidence pointer** Results section "Tethering is required for high affinity Rb binding and E2F displacement"
+  - **Issue** The three models (A, B, C) presented in Figure 1f are described in the text, but the figure itself is not provided. The distinction between Model B and Model C, particularly regarding the role of the linker in inducing conformational changes vs. providing entropic tethering, could be clearer.
+  - **Required correction** Provide the figure or a more detailed schematic in the text. Clarify the specific predictions of each model that distinguish them experimentally.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of NMR analysis
+  - **Affected element** Results section "The disordered E1A linker does not make additional stabilizing interactions with Rb"
+  - **Evidence pointer** Figure 2a-d
+  - **Issue** The NMR analysis shows that the linker remains disordered upon binding, but the quantitative analysis of chemical shift perturbations and intensity ratios is not fully described. The criteria for identifying "interacting residues" are not stated.
+  - **Required correction** Provide a more detailed description of the NMR data analysis, including how interacting residues were defined and how the absence of linker-Rb contacts was established.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability of conformational buffering
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, final paragraph
+  - **Issue** The authors suggest that conformational buffering "could be a general mechanism for functional selection within disordered protein regions." This is an interesting speculation, but no evidence is provided for generality beyond the E1A system.
+  - **Required correction** Either temper the claim or provide a brief discussion of other systems where similar mechanisms might operate, based on published data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation null model) is the most critical. The conclusion that natural sequences are specifically tuned to preserve dimensions is not adequately supported without a more appropriate null model. R1-M2 (phylogenetic non-independence) also needs to be addressed for the evolutionary claims to be statistically valid.
+- **Assessment against Nature-style criteria** Originality: High. The concept of conformational buffering as a mechanism for functional selection in IDRs is novel and will stimulate further work. Scientific importance: High. The work addresses a fundamental question about how function is encoded in disordered regions and has implications for viral evolution and IDR biology broadly. Interdisciplinary readership: Good. The work bridges biophysics, structural biology, and evolutionary biology, and should appeal to readers across these fields. Technical soundness: Generally strong experimental work, but the simulation and evolutionary analyses have weaknesses that need to be addressed (R1-M1, R1-M2). Readability for nonspecialists: The writing is clear and the concepts are well explained, though some familiarity with IDP biophysics and ensemble modeling is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core experimental findings are solid and the conceptual framework is valuable. However, the simulation-based claim of non-random sequence optimization and the statistical treatment of evolutionary data need to be strengthened before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that natural E1A linker sequences are "decidedly non-random" and specifically tuned to preserve dimensions is not adequately supported due to the inadequate null model in the random sequence comparison (R1-M1).
+- The claim that Ceff is conserved across E1A evolution is not rigorously established without accounting for phylogenetic non-independence (R1-M2).
+- The claim that the linker is "finely optimized" for "maximal affinity" is inferred from modeling rather than directly tested experimentally.
+- The generalizability of conformational buffering to other IDR systems is speculative and not supported by data presented in this manuscript.

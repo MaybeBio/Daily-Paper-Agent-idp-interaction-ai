@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35727989",
+  "title": "Aging can transform single-component protein condensates into multiphase architectures.",
+  "authors": "Garaizar, Adiran; Espinosa, Jorge R; Joseph, Jerelle A; Krainer, Georg; Shen, Yi; Knowles, Tuomas P J; Collepardo-Guevara, Rosana",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2022-06-22",
+  "window": {
+    "start": "2022-06-20",
+    "end": "2022-06-26"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过多尺度模拟（原子模拟+序列依赖粗粒化+非平衡老化模型）揭示单组分蛋白凝聚体老化可自发转变为多相结构，机制涉及朊病毒样域内无序到有序转变驱动的非保守互作增强，直接聚焦IDR介导的PPI与相分离机制建模。",
+  "abstract": "Phase-separated biomolecular condensates that contain multiple coexisting phases are widespread in vitro and in cells. Multiphase condensates emerge readily within multicomponent mixtures of biomolecules (e.g., proteins and nucleic acids) when the different components present sufficient physicochemical diversity (e.g., in intermolecular forces, structure, and chemical composition) to sustain separate coexisting phases. Because such diversity is highly coupled to the solution conditions (e.g., temperature, pH, salt, composition), it can manifest itself immediately from the nucleation and growth stages of condensate formation, develop spontaneously due to external stimuli or emerge progressively as the condensates age. Here, we investigate thermodynamic factors that can explain the progressive intrinsic transformation of single-component condensates into multiphase architectures during the nonequilibrium process of aging. We develop a multiscale model that integrates atomistic simulations of proteins, sequence-dependent coarse-grained simulations of condensates, and a minimal model of dynamically aging condensates with nonconservative intermolecular forces. Our nonequilibrium simulations of condensate aging predict that single-component condensates that are initially homogeneous and liquid like can transform into gel-core/liquid-shell or liquid-core/gel-shell multiphase condensates as they age due to gradual and irreversible enhancement of interprotein interactions. The type of multiphase architecture is determined by the aging mechanism, the molecular organization of the gel and liquid phases, and the chemical makeup of the protein. Notably, we predict that interprotein disorder to order transitions within the prion-like domains of intracellular proteins can lead to the required nonconservative enhancement of intermolecular interactions. Our study, therefore, predicts a potential mechanism by which the nonequilibrium process of aging results in single-component multiphase condensates.",
+  "abstract_zh": "含有多个共存相的相分离生物分子凝聚体在体外和细胞内广泛存在。当生物分子（如蛋白质和核酸）的多组分混合物中不同组分展现出足够的物理化学多样性（例如，在分子间力、结构和化学组成方面）以维持分离的共存相时，多相凝聚体便容易形成。由于这种多样性与溶液条件（如温度、pH值、盐浓度、组成）高度耦合，它可以在凝聚体形成的成核和生长阶段立即显现，因外部刺激自发发展，或随着凝聚体老化逐渐出现。在此，我们研究了能够解释单组分凝聚体在老化非平衡过程中渐进性内在转变为多相结构的热力学因素。我们开发了一个多尺度模型，整合了蛋白质的原子模拟、序列依赖的粗粒化凝聚体模拟，以及具有非保守分子间力的动态老化凝聚体的最小模型。我们对凝聚体老化的非平衡模拟预测，最初均匀且液态的单组分凝聚体，在老化过程中由于蛋白质间相互作用的逐渐且不可逆增强，可以转变为凝胶核/液壳或液核/凝胶壳的多相凝聚体。多相结构的类型由老化机制、凝胶和液相中的分子组织以及蛋白质的化学组成决定。值得注意的是，我们预测细胞内蛋白质朊病毒样结构域内的分子间无序到有序转变可能导致所需的非保守分子间相互作用增强。因此，我们的研究预测了一种潜在机制，通过该机制，非平衡老化过程导致单组分多相凝聚体的形成。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35727989/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35727989/",
+  "paper_page_path": "papers/pubmed/35727989/index.html"
+}

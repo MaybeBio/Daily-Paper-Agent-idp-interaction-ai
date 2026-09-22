@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "41299038",
+    "doi": "10.1038/s43856-025-01209-7",
+    "title": "A multimodal framework for comprehensive driver variant prediction in cancer."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Cancer genomes contain many mutations, but only a subset drive tumor development. Accurately pinpointing these driver variants remains challenging. We aim to build an accurate and interpretable model by combining DNA sequence, protein 3D structure, and cancer omics data. METHODS: We present ModVAR, a multimodal model that integrates DNA sequences, predicted protein tertiary structures, and cancer omics data to classify driver variants. The approach uses pre-trained models (DNAbert2 and ESMFold) and a self-supervised strategy for cancer omics profiles. We evaluate performance on clinically and experimentally validated driver variants with standard classification metrics, examine therapeutic relevance through molecular docking, assess modeling of variants in intrinsically disordered protein regions, and analyze modality contributions. RESULTS: Here we show that ModVAR achieves strong accuracy across benchmarks for identifying validated driver variants. It prioritizes variants with potential therapeutic actionability supported by docking analyses, and the inclusion of structural predictions enables effective modeling of variants in intrinsically disordered regions. Interpretation indicates that the protein structure modality contributes most to predictions. At scale, the method produces 3,971,946 publicly available variant annotations. CONCLUSIONS: ModVAR integrates sequence, structure, and cancer omics signals to aid driver-variant discovery. It provides robust performance across tasks, supports hypothesis generation and target discovery, and supplies a large-scale resource that advances cancer research and personalized therapy.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Hai",
+        "Chen, Yijia",
+        "Zhou, Tianyi",
+        "Wang, Yingzhuo",
+        "Zhou, Qin",
+        "Xiao, Ting",
+        "Zhang, Qian",
+        "Zhang, Jing",
+        "Li, Dongdong",
+        "Wang, Zhe"
+      ],
+      "short_names": [
+        "Yang H",
+        "Chen Y",
+        "Zhou T",
+        "Wang Y",
+        "Zhou Q",
+        "Xiao T",
+        "Zhang Q",
+        "Zhang J",
+        "Li D",
+        "Wang Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1161-4337",
+        "ORCID: 0000-0002-3759-2041"
+      ],
+      "affiliations": [
+        "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China.",
+        "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China.",
+        "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China.",
+        "The Electrical Engineering and Computer Science department, The University of Michigan, Ann Arbor, USA.",
+        "Faculty of Engineering, Imperial College London, London, UK.",
+        "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China.",
+        "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China.",
+        "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China.",
+        "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China.",
+        "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China.",
+        "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China.",
+        "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China.",
+        "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China.",
+        "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China.",
+        "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China.",
+        "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China. wangzhe@ecust.edu.cn.",
+        "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China. wangzhe@ecust.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Hai",
+        "short_name": "Yang H",
+        "identifiers": [
+          "0000-0002-1161-4337"
+        ],
+        "affiliations": [
+          "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China.",
+          "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yijia",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Tianyi",
+        "short_name": "Zhou T",
+        "identifiers": [],
+        "affiliations": [
+          "The Electrical Engineering and Computer Science department, The University of Michigan, Ann Arbor, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yingzhuo",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Engineering, Imperial College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Zhou, Qin",
+        "short_name": "Zhou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China.",
+          "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Ting",
+        "short_name": "Xiao T",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China.",
+          "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qian",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China.",
+          "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China.",
+          "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Dongdong",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China.",
+          "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhe",
+        "short_name": "Wang Z",
+        "identifiers": [
+          "0000-0002-3759-2041"
+        ],
+        "affiliations": [
+          "Key Laboratory of Smart Manufacturing in Energy Chemical Process Ministry of Education, East China University of Science and Technology, Shanghai, China. wangzhe@ecust.edu.cn.",
+          "Department of Computer Science and Engineering, East China University of Science and Technology, Shanghai, China. wangzhe@ecust.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications medicine"
+    ],
+    "journal_abbrev": [
+      "Commun Med (Lond)"
+    ],
+    "pub_date": "2025 Nov 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/27 00:27",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41299038",
+      "29329368",
+      "39700860",
+      "37649392",
+      "40806487",
+      "41000707",
+      "40766686",
+      "33085409",
+      "39708841",
+      "33441128",
+      "35620468",
+      "34068918",
+      "41311650",
+      "40169776",
+      "33488678",
+      "39430403",
+      "28381244",
+      "33001599",
+      "32281771",
+      "40971265",
+      "41127930",
+      "40359678",
+      "41276241",
+      "38875667",
+      "30704472",
+      "36377483",
+      "40654945",
+      "40251830",
+      "26269925",
+      "34750410",
+      "39678461",
+      "40183298",
+      "40199968",
+      "27357839",
+      "41310253",
+      "18831774",
+      "40795814",
+      "40814229",
+      "41278790",
+      "39040139",
+      "31245384",
+      "27797769",
+      "40982570",
+      "36582438",
+      "40462930",
+      "38048333",
+      "36321557",
+      "40221640",
+      "34286913",
+      "39489837",
+      "30649720",
+      "38254021",
+      "35593869",
+      "37813325",
+      "39662319",
+      "37817080",
+      "30212088",
+      "41278760",
+      "37550700",
+      "38941236",
+      "41357974",
+      "40670358",
+      "33575629",
+      "41462070",
+      "31075275",
+      "40730661",
+      "40474519",
+      "30841849",
+      "38225583",
+      "37201251",
+      "31888639",
+      "40840725",
+      "33859751",
+      "39869148",
+      "40258059",
+      "39573833",
+      "35885912",
+      "32809547",
+      "40740512",
+      "38992748",
+      "40534839",
+      "39223659",
+      "41163022",
+      "26191084",
+      "29738578",
+      "38365583",
+      "40056912",
+      "23912807",
+      "35069697",
+      "28945216",
+      "39761285",
+      "30768150",
+      "40894144",
+      "39962390",
+      "39085881",
+      "39522132",
+      "33240890",
+      "40723303",
+      "41347164",
+      "38904542"
+    ],
+    "review": [
+      "41299038",
+      "36321557"
+    ],
+    "pmc": [
+      "12657954"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s43856-025-01209-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41299038/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

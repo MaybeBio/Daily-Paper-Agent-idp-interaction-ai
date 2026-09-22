@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40894760",
+  "title": "Computational rheometry of viscoelastic networks: From random graphs to biomolecular condensates.",
+  "authors": "Zhang, Ruoyao; Mitra, Gaurav; Ghosh, Souradeep; Pappu, Rohit V",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-09-02",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用图网络模型与计算流变测量，从随机图到生物分子凝聚体，建模无序蛋白凝聚体的粘弹性响应，连接分子尺度互作与介观力学，虽非直接PPI结合机制，但为IDR凝聚体互作网络机制建模提供可迁移的物理模拟框架。",
+  "abstract": "Multivalent biomacromolecules including multi-domain and intrinsically disordered proteins form biomolecular condensates via reversible phase transitions. Condensates are viscoelastic materials that display composition-specific rheological properties and responses to mechanical forces. Graph-based descriptions of microstructures can be combined with computational rheometry to model the outcomes of passive and active mechanical measurements. We consider two types of network models for microstructures. In the Jeffreys model, each edge in the network is a Jeffreys element. In the Stokes-Maxwell model, each edge is a Maxwell element that is embedded in an incompressible viscous fluid that can undergo Stokes flow. We describe results from comparative assessments of the two models for individual elements, ordered lattices, random geometric graphs, structured graphs, and graphs for condensates that are extracted from coarse-grained simulations of disordered proteins. Results from deformation and relaxation tests and flow field analysis reveal how distinct length and time scales contribute to the responses of different types of networks. No single test provides definitive assessments of the connections between material properties and microstructures. Instead, a range of active and passive rheometric tests are essential for distinguishing the responses of different types of networks. Our work establishes computational rheometry as a framework for bridging disparate length and timescales to assess how molecular-scale interactions and dynamics give rise to viscoelastic responses on the mesoscale.",
+  "abstract_zh": "多价生物大分子，包括多结构域蛋白和 intrinsically disordered proteins（固有无序蛋白），通过可逆相变形成生物分子凝聚体。凝聚体是粘弹性材料，表现出组成特异性的流变学性质和对机械力的响应。基于图的微结构描述可与计算流变测量相结合，以模拟被动和主动机械测量的结果。我们考虑两种微结构的网络模型。在 Jeffreys 模型中，网络中的每条边是一个 Jeffreys 元素。在 Stokes-Maxwell 模型中，每条边是一个 Maxwell 元素，嵌入在可发生 Stokes 流的不可压缩粘性流体中。我们描述了对两种模型在单个元素、有序晶格、随机几何图、结构化图以及从无序蛋白粗粒化模拟中提取的凝聚体图上的比较评估结果。变形和松弛测试以及流场分析的结果揭示了不同长度和时间尺度如何贡献于不同类型网络的响应。没有单一测试能提供材料性质与微结构之间联系的确定性评估。相反，一系列主动和被动流变测量测试对于区分不同类型网络的响应至关重要。我们的工作确立了计算流变测量作为连接不同长度和时间尺度的框架，以评估分子尺度相互作用和动力学如何在介观尺度上产生粘弹性响应。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40894760/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40894760/",
+  "paper_page_path": "papers/pubmed/40894760/index.html"
+}

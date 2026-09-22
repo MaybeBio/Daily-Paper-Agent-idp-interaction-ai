@@ -1,0 +1,117 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.14.599027",
+  "title": "Heterogenous organization in condensates of multiple transcription factors in embryonic stem cells",
+  "doi": "10.1101/2024.06.14.599027",
+  "abstract": "Biomolecular condensates formed via liquid-liquid phase separation are ubiquitous in cells, especially in the nucleus. While condensates containing one or two kinds of biomolecules have been relatively well characterized, those with more heterogenous biomolecular components and interactions between biomolecules inside are largely unknown. This study used residue-resolution molecular dynamics simulations to investigate heterogeneous protein assemblies that include four master transcription factors in mammalian embryonic stem cells: Oct4, Sox2, Klf4, and Nanog. Simulations of the mixture systems showed highly heterogeneous and dynamic behaviors; the condensates mainly contained Sox2, Klf4, and Nanog, while Oct4 was dissolved into the dilute phase. Condensates consisted of loosely interacting clusters in which Klf4 was the most abundant in the cores. We suggest that Klf4 serves as a scaffold of the condensate where Sox2 and Nanog are bound to stabilize the condensate, whereas Oct4 is moderately recruited to the condensate, serving as a client mainly via its interaction with Sox2. <h4>Biological significance</h4> In eukaryotes, transcription is known to be regulated by many regulatory factors such as transcription factors, co-activators, and RNA polymerases, but precise molecular mechanisms of regulation remain obscured. A recently proposed model suggests that transcription-related proteins condense via liquid-liquid phase separation (LLPS) using their intrinsically disordered regions, which serves to control transcription. Master transcription factors in mammalian embryonic stem cells have been a model system. It was revealed that several master transcription factors exhibit LLPS by themselves, but dynamics and molecular structure of these proteins in their mixture have not been well addressed. In this study, we study molecular structures of condensates in a mixture of four master transcription factors, Oct4, Sox2, Klf4, and Nanog, via molecular dynamics simulation. We found that the three transcription factors Sox2, Klf4, and Nanog form mixed condensates, while Oct4 was largely dissolved. Klf4 mainly served as a scaffold of the condensate. The three proteins formed micelle-like structures as was recently found in the Nanog condensate. The condensates weakly recruited Oct4. Formation of heterogeneous condensates may provide fertile local environments in cells.",
+  "authors": [
+    "Mizutani A",
+    "Tan C",
+    "Sugita Y",
+    "Takada S"
+  ],
+  "published_date": "2024-06-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.14.599027",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.14.599027.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR868409",
+    "raw_record": {
+      "id": "PPR868409",
+      "source": "PPR",
+      "doi": "10.1101/2024.06.14.599027",
+      "title": "Heterogenous organization in condensates of multiple transcription factors in embryonic stem cells",
+      "authorString": "Mizutani A, Tan C, Sugita Y, Takada S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mizutani A",
+            "lastName": "Mizutani",
+            "firstName": "Azuki",
+            "initials": "A"
+          },
+          {
+            "fullName": "Tan C",
+            "lastName": "Tan",
+            "firstName": "Cheng",
+            "initials": "C"
+          },
+          {
+            "fullName": "Sugita Y",
+            "lastName": "Sugita",
+            "firstName": "Yuji",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9738-9216"
+            }
+          },
+          {
+            "fullName": "Takada S",
+            "lastName": "Takada",
+            "firstName": "Shoji",
+            "initials": "S"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9738-9216"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Biomolecular condensates formed via liquid-liquid phase separation are ubiquitous in cells, especially in the nucleus. While condensates containing one or two kinds of biomolecules have been relatively well characterized, those with more heterogenous biomolecular components and interactions between biomolecules inside are largely unknown. This study used residue-resolution molecular dynamics simulations to investigate heterogeneous protein assemblies that include four master transcription factors in mammalian embryonic stem cells: Oct4, Sox2, Klf4, and Nanog. Simulations of the mixture systems showed highly heterogeneous and dynamic behaviors; the condensates mainly contained Sox2, Klf4, and Nanog, while Oct4 was dissolved into the dilute phase. Condensates consisted of loosely interacting clusters in which Klf4 was the most abundant in the cores. We suggest that Klf4 serves as a scaffold of the condensate where Sox2 and Nanog are bound to stabilize the condensate, whereas Oct4 is moderately recruited to the condensate, serving as a client mainly via its interaction with Sox2. <h4>Biological significance</h4>  In eukaryotes, transcription is known to be regulated by many regulatory factors such as transcription factors, co-activators, and RNA polymerases, but precise molecular mechanisms of regulation remain obscured. A recently proposed model suggests that transcription-related proteins condense via liquid-liquid phase separation (LLPS) using their intrinsically disordered regions, which serves to control transcription. Master transcription factors in mammalian embryonic stem cells have been a model system. It was revealed that several master transcription factors exhibit LLPS by themselves, but dynamics and molecular structure of these proteins in their mixture have not been well addressed. In this study, we study molecular structures of condensates in a mixture of four master transcription factors, Oct4, Sox2, Klf4, and Nanog, via molecular dynamics simulation. We found that the three transcription factors Sox2, Klf4, and Nanog form mixed condensates, while Oct4 was largely dissolved. Klf4 mainly served as a scaffold of the condensate. The three proteins formed micelle-like structures as was recently found in the Nanog condensate. The condensates weakly recruited Oct4. Formation of heterogeneous condensates may provide fertile local environments in cells.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.14.599027"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-06-19",
+      "firstPublicationDate": "2024-06-17",
+      "firstIndexDate": "2024-06-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

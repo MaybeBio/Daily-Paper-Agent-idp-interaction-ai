@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35219215",
+  "title": "Protein assembly and crowding simulations.",
+  "authors": "Heo, Lim; Sugita, Yuji; Feig, Michael",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2022-02-27",
+  "window": {
+    "start": "2022-02-21",
+    "end": "2022-02-27"
+  },
+  "score": 6,
+  "one_liner_zh": "综述了蛋白质组装与分子拥挤效应的计算机模拟，涵盖病毒衣壳、淀粉样聚集及多价相互作用驱动的相分离，虽涉及无序蛋白相关互作机制，但以综述为主且未聚焦IDP/IDR或AI方法。",
+  "abstract": "Proteins encounter frequent molecular interactions in biological environments. Computer simulations have become an increasingly important tool in providing mechanistic insights into how such interactions in vivo relate to their biological function. The review here focuses on simulations describing protein assembly and molecular crowding effects as two important aspects that are distinguished mainly by how specific and long-lived protein contacts are. On the topic of crowding, recent simulations have provided new insights into how crowding affects protein folding and stability, modulates enzyme activity, and affects diffusive properties. Recent studies of assembly processes focus on assembly pathways, especially for virus capsids, amyloid aggregation pathways, and the role of multivalent interactions leading to phase separation. Also, discussed are technical challenges in achieving increasingly realistic simulations of interactions in cellular environments.",
+  "abstract_zh": "蛋白质在生物环境中会频繁发生分子相互作用。计算机模拟已成为提供关于体内这些相互作用如何与其生物学功能相关联的机制性见解的重要工具。本综述聚焦于模拟蛋白质组装和分子拥挤效应这两个重要方面，它们主要根据蛋白质接触的特异性和持久性来区分。在拥挤效应方面，最近的模拟为拥挤如何影响蛋白质折叠与稳定性、调节酶活性以及影响扩散性质提供了新见解。组装过程的最新研究集中于组装途径，特别是病毒衣壳、淀粉样蛋白聚集途径，以及导致相分离的多价相互作用的作用。此外，还讨论了在实现细胞环境中越来越逼真的相互作用模拟方面所面临的技术挑战。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35219215/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35219215/",
+  "paper_page_path": "papers/pubmed/35219215/index.html"
+}

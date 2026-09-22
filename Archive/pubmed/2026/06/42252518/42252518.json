@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "42252518",
+    "doi": "10.1002/pro.70675",
+    "title": "PolyProline Predictor: A web server for empirical sequence-based prediction of polyproline II helices."
+  },
+  "content": {
+    "abstract": "Polyproline II (PPII) helices are extended left-handed secondary structures increasingly recognized for their roles in molecular recognition, signaling and within intrinsically disordered regions of proteins. Despite their functional importance, predicting regions with propensity to form PPII helices from sequence alone remains challenging due to subtle sequence determinants and their frequent misclassification as random coil. Here, we present PolyProline Predictor (PPP), a user-friendly web server (https://rmni.iqf.csic.es/software/polypropre/) for empirical, sequence-based prediction of PPII helices. Unlike machine learning approaches, PPP aligns query sequences against a curated database of experimentally validated PPII helices, providing an interpretable, composition-, and position-sensitive similarity map. PPP successfully identified conserved PPII motifs in diverse proteins, and predicted the presence of similar motifs in regions lacking experimental structures but modeled by AlphaFold as extended PPII conformations, such as glycine-rich plant proteins, mycobacterial PE_PGRS virulence factors, and the \"disordered\" C-terminal tails of GroEL and its homologs, as well as the amyloid-flanking region of the necroptosis effector RIPK3. Molecular dynamics simulations further supported persistent PPII helical bundles in three glycine-rich mycobacterial proteins and more heterogeneous, transient PPII populations in plant proteins and RIPK3. Circular dichroism and nuclear magnetic resonance (NMR) spectroscopy validated these predictions for RIPK3, revealing partially populated PPII conformations flanking its amyloid core. Such motifs may regulate its amyloid assembly, offering structural insight into mechanisms of functional amyloid formation. By combining experimental evidence with interpretable prediction, PPP fills a critical gap in bioinformatics tools and enables systematic exploration of regions with propensity to form PPII helices across proteomes, redefining the structural landscape of low-complexity regions.",
+    "keywords": [
+      "CD spectroscopy",
+      "NMR spectroscopy",
+      "RIPK3",
+      "molecular dynamics",
+      "mycobacteria PE_PGRS",
+      "polyproline II helix",
+      "webserver"
+    ],
+    "mesh_terms": [
+      "*Peptides/chemistry",
+      "*Software",
+      "Internet",
+      "Protein Conformation, alpha-Helical",
+      "Protein Structure, Secondary",
+      "Prediction Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lopez-Sanchez, Ruben",
+        "Pantoja-Uceda, David",
+        "Mompean, Miguel",
+        "Laurents, Douglas V"
+      ],
+      "short_names": [
+        "Lopez-Sanchez R",
+        "Pantoja-Uceda D",
+        "Mompean M",
+        "Laurents DV"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4187-165X"
+      ],
+      "affiliations": [
+        "Departamento de Quimica Fisica Biologica, Instituto de Quimica Fisica \"Blas Cabrera\"-CSIC, Madrid, Spain.",
+        "Departamento de Quimica Fisica Biologica, Instituto de Quimica Fisica \"Blas Cabrera\"-CSIC, Madrid, Spain.",
+        "Departamento de Quimica Fisica Biologica, Instituto de Quimica Fisica \"Blas Cabrera\"-CSIC, Madrid, Spain.",
+        "Departamento de Quimica Fisica Biologica, Instituto de Quimica Fisica \"Blas Cabrera\"-CSIC, Madrid, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "López-Sánchez, Rubén",
+        "short_name": "López-Sánchez R",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Química Física Biológica, Instituto de Química Física \"Blas Cabrera\"-CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Pantoja-Uceda, David",
+        "short_name": "Pantoja-Uceda D",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Química Física Biológica, Instituto de Química Física \"Blas Cabrera\"-CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Mompeán, Miguel",
+        "short_name": "Mompeán M",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Química Física Biológica, Instituto de Química Física \"Blas Cabrera\"-CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Laurents, Douglas V",
+        "short_name": "Laurents DV",
+        "identifiers": [
+          "0000-0002-4187-165X"
+        ],
+        "affiliations": [
+          "Departamento de Química Física Biológica, Instituto de Química Física \"Blas Cabrera\"-CSIC, Madrid, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/08 06:35",
+    "fetched_at": "2026-09-18 04:01:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41543434",
+      "41162832",
+      "40671631",
+      "40615542",
+      "40239650",
+      "39215165",
+      "38718835",
+      "38593862",
+      "38194293",
+      "37899354",
+      "37536631",
+      "36870681",
+      "36656854",
+      "36060139",
+      "36048802",
+      "35750685",
+      "35648435",
+      "35534620",
+      "34982571",
+      "34819673",
+      "34791371",
+      "34648275",
+      "34646012",
+      "34265844",
+      "34057475",
+      "33934561",
+      "33794191",
+      "33790016",
+      "32317635",
+      "32218953",
+      "32170932",
+      "30735603",
+      "30430829",
+      "30302912",
+      "30244968",
+      "30001346",
+      "29681455",
+      "29404339",
+      "28193869",
+      "27819658",
+      "27562263",
+      "26978522",
+      "26501327",
+      "26175152",
+      "25505092",
+      "25380779",
+      "24970895",
+      "24872426",
+      "23507311",
+      "23372670",
+      "22817896",
+      "22801501",
+      "22398450",
+      "21436958",
+      "21234644",
+      "20556825",
+      "20231452",
+      "20014772",
+      "20009520",
+      "18598029",
+      "16321399",
+      "15526038",
+      "13272717",
+      "13265825",
+      "11911877",
+      "11790836",
+      "10657980",
+      "9634230",
+      "9260281",
+      "8980682",
+      "8297327",
+      "7787186",
+      "5704346",
+      "5669472"
+    ],
+    "similar": [
+      "42252518",
+      "27637571",
+      "7756993",
+      "33794191",
+      "8429558",
+      "23507311",
+      "10091661",
+      "12395395",
+      "28185014",
+      "25945573",
+      "23925889",
+      "25262612",
+      "11297408",
+      "42475469",
+      "12945050",
+      "41162832",
+      "33934561",
+      "25380779",
+      "15700296",
+      "22712805",
+      "20556825",
+      "11724549",
+      "12418106",
+      "39182198",
+      "30430829",
+      "17945257",
+      "31250908",
+      "27562438",
+      "38593862",
+      "32218953",
+      "41543434",
+      "17073732",
+      "31814404",
+      "20831224",
+      "9779789",
+      "15657931",
+      "14579303",
+      "21483785",
+      "35658951",
+      "28792212",
+      "34436909",
+      "39215165",
+      "26727467",
+      "41832603",
+      "20955581",
+      "19609932",
+      "19791741",
+      "27539882",
+      "36815707",
+      "30961476",
+      "16373476",
+      "34524800",
+      "29651716",
+      "22667692",
+      "25212635",
+      "23631686",
+      "17279623",
+      "17877396",
+      "30540171",
+      "24947982",
+      "19137603",
+      "32585206",
+      "22425601",
+      "31457269",
+      "9745898",
+      "38662570",
+      "11910041",
+      "34851647",
+      "32771522",
+      "28722183",
+      "37899354",
+      "42109171",
+      "19424961",
+      "40615542",
+      "20334378",
+      "36060139",
+      "25105554",
+      "27815983",
+      "33530506",
+      "25280367",
+      "40133791",
+      "16085707",
+      "25121643",
+      "31509121",
+      "28558910",
+      "20442863",
+      "17918837",
+      "16231310",
+      "38661017",
+      "17704165",
+      "15913361",
+      "32585849",
+      "31577299",
+      "11892787",
+      "24739176",
+      "23305370",
+      "21984897",
+      "14747311",
+      "18712913",
+      "19843462"
+    ],
+    "review": [
+      "42252518",
+      "23507311",
+      "12395395",
+      "28185014",
+      "33934561",
+      "15700296",
+      "12418106",
+      "39182198",
+      "38593862",
+      "41543434",
+      "27815983",
+      "33530506"
+    ],
+    "pmc": [
+      "13243192"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42252518/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/pro.70675",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HSPD1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

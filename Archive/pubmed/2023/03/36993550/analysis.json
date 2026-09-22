@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36993550",
+  "title": "Reduction of oligomer size modulates the competition between cluster formation and phase separation of the tumor suppressor SPOP.",
+  "authors": "Sabri, Nafiseh; Cuneo, Matthew J; Marzahn, Melissa R; Lee, Jihun; Bouchard, Jill J; Vaithiyalingam, Sivaraja; Borgia, Madeleine B; Schmit, Jeremy; Mittag, Tanja",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-03-31",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过癌症相关突变调控SPOP线性寡聚化，揭示寡聚体尺寸如何调节其与底物DAXX的凝聚体形成与酶活，直接涉及IDR/相分离介导的PPI机制建模，对无序蛋白互作调控有重要启发。",
+  "abstract": "Phase separation is a ubiquitous process that compartmentalizes many cellular pathways. Given that the same interactions that drive phase separation mediate the formation of complexes below the saturation concentration, the contribution of condensates vs complexes to function is not always clear. Here, we characterized several new cancer-associated mutations of the tumor suppressor Speckle-type POZ protein (SPOP), a substrate recognition subunit of the Cullin3-RING ubiquitin ligase (CRL3), which pointed to a strategy for generating separation-of-function mutations. SPOP self-associates into linear oligomers and interacts with multivalent substrates, and this mediates the formation of condensates. These condensates bear the hallmarks of enzymatic ubiquitination activity. We characterized the effect of mutations in the dimerization domains of SPOP on its linear oligomerization, binding to the substrate DAXX, and phase separation with DAXX. We showed that the mutations reduce SPOP oligomerization and shift the size distribution of SPOP oligomers to smaller sizes. The mutations therefore reduce the binding affinity to DAXX, but enhance the poly-ubiquitination activity of SPOP towards DAXX. This unexpectedly enhanced activity may be explained by enhanced phase separation of DAXX with the SPOP mutants. Our results provide a comparative assessment of the functional role of clusters versus condensates and support a model in which phase separation is an important factor in SPOP function. Our findings also suggest that tuning of linear SPOP self-association could be used by the cell to modulate its activity, and provide insights into the mechanisms underlying hypermorphic SPOP mutations. The characteristics of these cancer-associated SPOP mutations suggest a route for designing separation-of-function mutations in other phase-separating systems.",
+  "abstract_zh": "相分离 (phase separation) 是一种普遍过程，将许多细胞通路区室化。鉴于驱动相分离的相同相互作用在低于饱和浓度时介导复合物的形成，凝聚体与复合物对功能的贡献并不总是明确。在此，我们表征了肿瘤抑制因子斑点型POZ蛋白 (SPOP) 的几种新癌症相关突变，SPOP是Cullin3-RING泛素连接酶 (CRL3) 的底物识别亚基，这指向了一种生成功能分离突变的策略。SPOP自组装成线性寡聚体，并与多价底物相互作用，这介导了凝聚体的形成。这些凝聚体具有酶促泛素化活性的特征。我们表征了SPOP二聚化结构域突变对其线性寡聚化、与底物DAXX的结合以及与DAXX相分离的影响。我们显示，这些突变减少SPOP寡聚化，并将SPOP寡聚体的尺寸分布转向更小尺寸。因此，这些突变降低了对DAXX的结合亲和力，但增强了SPOP对DAXX的多聚泛素化活性。这种意外增强的活性可能通过DAXX与SPOP突变体的增强相分离来解释。我们的结果提供了簇与凝聚体功能作用的比较评估，并支持一个模型，其中相分离是SPOP功能的重要因素。我们的发现还表明，细胞可能利用SPOP线性自关联的调节来调控其活性，并为超形态SPOP突变背后的机制提供见解。这些癌症相关SPOP突变的特征提示了在其他相分离系统中设计功能分离突变的途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36993550/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36993550/",
+  "paper_page_path": "papers/pubmed/36993550/index.html"
+}

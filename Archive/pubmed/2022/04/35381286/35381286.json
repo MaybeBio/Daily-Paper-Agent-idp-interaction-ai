@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "35381286",
+    "doi": "10.1016/j.ijbiomac.2022.03.215",
+    "title": "In vitro characterization and molecular dynamics simulation reveal mechanism of 14-3-3zeta regulated phase separation of the tau protein."
+  },
+  "content": {
+    "abstract": "As a major microtubule-associated protein, tau is involved in the assembly of microtubules in the central nervous system. However, under pathological conditions tau assembles into amyloid filaments. Liquid droplets formed by liquid-liquid phase separation (LLPS) are a recently identified assembly state of tau and may have a major effect on the physiological function of tau and the formation of tau aggregates. 14-3-3 proteins are ubiquitously expressed in various tissues and regulate a wide variety of biological processes. In this work, we demonstrate that 14-3-3zeta is recruited into tau droplets and regulates tau LLPS by in vitro assays. While the mobility of tau molecules inside the droplets is not affected in the presence of 14-3-3zeta, the amount and size of droplets can vary significantly. Mechanistic studies reveal that 14-3-3zeta regulates tau LLPS by electrostatic interactions and hydrophobic interactions with the proline-rich domain and the microtubule-binding domain of tau. Surprisingly, the disordered C-terminal tail rather than the amphipathic binding groove of 14-3-3zeta plays a key role. Our findings not only provide a novel dimension to understand the interactions between 14-3-3 proteins and tau, but also suggest that 14-3-3 proteins may play an important role in regulating the LLPS of their binding partners.",
+    "keywords": [
+      "Liquid droplet",
+      "Neurodegenerative diseases",
+      "Protein aggregation",
+      "Protein-protein interaction"
+    ],
+    "mesh_terms": [
+      "*14-3-3 Proteins/genetics/metabolism",
+      "Amyloid/metabolism",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Protein Aggregation, Pathological/metabolism",
+      "*tau Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Han, Yue",
+        "Ye, Haiqiong",
+        "Li, Ping",
+        "Zeng, Yifan",
+        "Yang, Jing",
+        "Gao, Meng",
+        "Su, Zhengding",
+        "Huang, Yongqi"
+      ],
+      "short_names": [
+        "Han Y",
+        "Ye H",
+        "Li P",
+        "Zeng Y",
+        "Yang J",
+        "Gao M",
+        "Su Z",
+        "Huang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China.",
+        "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China.",
+        "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China.",
+        "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China.",
+        "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China.",
+        "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China. Electronic address: gaomeng@hbut.edu.cn.",
+        "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China.",
+        "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China. Electronic address: yqhuang@hbut.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Han, Yue",
+        "short_name": "Han Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Haiqiong",
+        "short_name": "Ye H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ping",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yifan",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jing",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Meng",
+        "short_name": "Gao M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China. Electronic address: gaomeng@hbut.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Su, Zhengding",
+        "short_name": "Su Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yongqi",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China; Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China; Department of Biological Engineering, Hubei University of Technology, Wuhan 430068, China. Electronic address: yqhuang@hbut.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2022 May 31",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/06 06:00",
+    "fetched_at": "2026-09-20 09:23:51"
+  },
+  "links": {
+    "cites": [
+      "42190015",
+      "40724961",
+      "39950286",
+      "38228169",
+      "38167731"
+    ],
+    "refs": [],
+    "similar": [
+      "35381286",
+      "36939323",
+      "31971365",
+      "31097543",
+      "33279579",
+      "27548710",
+      "29734651",
+      "34575888",
+      "37075845",
+      "29472250",
+      "32997736",
+      "37230179",
+      "39421885",
+      "28819146",
+      "36310207",
+      "33078207",
+      "23962087",
+      "31661961",
+      "33619090",
+      "33262278",
+      "19324008",
+      "33955104",
+      "36688583",
+      "35980344",
+      "34374536",
+      "31928729",
+      "33017094",
+      "40149872",
+      "28833749",
+      "31062171",
+      "38732197",
+      "37574035",
+      "30814253",
+      "36621842",
+      "34494046",
+      "35405154",
+      "10840038",
+      "31324714",
+      "33452693",
+      "32229582",
+      "39612640",
+      "15963640",
+      "28683104",
+      "28258221",
+      "17317006",
+      "38228169",
+      "32096048",
+      "29630971",
+      "38973194",
+      "36310206",
+      "33686854",
+      "30950394",
+      "34310938",
+      "39510192",
+      "33686711",
+      "36375666",
+      "38847095",
+      "36471564",
+      "35181198",
+      "39032487",
+      "38512667",
+      "19371722",
+      "29298892",
+      "40107109",
+      "33930220",
+      "40226980",
+      "36246407",
+      "27226637",
+      "36841957",
+      "32169484",
+      "36630781",
+      "32096047",
+      "19895707",
+      "38429335",
+      "36444977",
+      "39809798",
+      "38960272",
+      "39116032",
+      "38492709",
+      "34102212",
+      "39337433",
+      "36373666",
+      "34369377",
+      "39777699",
+      "38445984",
+      "39043267",
+      "26406374",
+      "33549703",
+      "38597222",
+      "36682493",
+      "25691742",
+      "35142991",
+      "34431665",
+      "29248553",
+      "33982369",
+      "34560101",
+      "36251053",
+      "32499559",
+      "30257460",
+      "36499553"
+    ],
+    "review": [
+      "35381286",
+      "37230179",
+      "33078207",
+      "35980344",
+      "31928729",
+      "28833749",
+      "31062171",
+      "38732197",
+      "39612640",
+      "32096048",
+      "35181198",
+      "33930220",
+      "36246407",
+      "32169484",
+      "32096047",
+      "39043267",
+      "33549703",
+      "38597222"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(22)00695-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

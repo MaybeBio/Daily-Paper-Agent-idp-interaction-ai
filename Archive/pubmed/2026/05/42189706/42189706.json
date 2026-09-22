@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "42189706",
+    "doi": "10.1002/anie.3738676",
+    "title": "Enzymatic Encoding of Topology in an Intrinsically Disordered Single-Chain Protein."
+  },
+  "content": {
+    "abstract": "Controlling the three-dimensional topology of single-chain nanoparticles (SCNPs) remains a central challenge in polymer and protein chemistry, particularly for intrinsically disordered systems lacking defined secondary structure. Here, we demonstrate that selective enzymatic intramolecular cross-linking can encode topologically biased interactions in an intrinsically disordered protein (IDP), yielding compact SCNPs with reproducible cavity architecture. Using beta-casein-rich sodium caseinate (betaNaCn) as a model surrogate for bovine beta-casein (beta-Cn), microbial transglutaminase (mTGase) introduces sparse, sequence-resolved glutamine-lysine isopeptide bonds that drive reproducible chain collapse without inducing secondary structure. Analyses by size exclusion chromatography with quintuple detection (SEC-D5), cross-linking mass spectrometry (XL-MS), molecular dynamics (MD) simulations, and SEC coupled to synchrotron small-angle x-ray scattering (SEC-SAXS) converge to reveal a topology combining a stable, compact, hydrophobic core with flexible, disordered loops. These cavities are probed using Nile red (NR) fluorescence and SEC-SAXS, which together provide topology information via guest-induced density redistribution after NR capture. This work establishes that sparse enzymatic constraint installation, combined with residue-resolved cross-link mapping and orthogonal structural analysis, can encode and validate topology in a disordered single chain, thereby placing IDP-like covalent folding in direct conceptual continuity with SCNP design.",
+    "keywords": [
+      "SEC-SAXS",
+      "enzymatic cross-linking",
+      "intrinsically disordered proteins",
+      "single-chain nanoparticles",
+      "topology encoding"
+    ],
+    "mesh_terms": [
+      "*Transglutaminases/metabolism/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Animals",
+      "Molecular Dynamics Simulation",
+      "Cattle",
+      "*Caseins/chemistry/metabolism",
+      "Nanoparticles/chemistry",
+      "Scattering, Small Angle"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Johani, Joshua",
+        "Eichelberger, Kristin",
+        "Guskova, Olga",
+        "Dunjwa, Simbulele Charlotte",
+        "Bolinsson, Hans",
+        "Borjesdotter, Anna-Maria",
+        "Nilsson, Lars",
+        "Jaros, Doris",
+        "Rohm, Harald",
+        "Lederer, Albena"
+      ],
+      "short_names": [
+        "Johani J",
+        "Eichelberger K",
+        "Guskova O",
+        "Dunjwa SC",
+        "Bolinsson H",
+        "Borjesdotter AM",
+        "Nilsson L",
+        "Jaros D",
+        "Rohm H",
+        "Lederer A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Leibniz-Institut Fur Polymerforschung Dresden e.V., Dresden, Germany.",
+        "Department of Chemistry and Polymer Science, Stellenbosch University, Private Bag X1, Stellenbosch, South Africa.",
+        "Chair of Food Engineering, Institute of Natural Materials Technology, Technische Universitat Dresden, Dresden, Germany.",
+        "Leibniz-Institut Fur Polymerforschung Dresden e.V., Dresden, Germany.",
+        "Department of Chemistry and Polymer Science, Stellenbosch University, Private Bag X1, Stellenbosch, South Africa.",
+        "CoSAXS Beamline, MAX IV Laboratory and Department of Process and Life Science Engineering, Faculty of Engineering LTH, Lund University, Lund, Sweden.",
+        "CoSAXS Beamline, MAX IV Laboratory and Department of Process and Life Science Engineering, Faculty of Engineering LTH, Lund University, Lund, Sweden.",
+        "CoSAXS Beamline, MAX IV Laboratory and Department of Process and Life Science Engineering, Faculty of Engineering LTH, Lund University, Lund, Sweden.",
+        "Chair of Food Engineering, Institute of Natural Materials Technology, Technische Universitat Dresden, Dresden, Germany.",
+        "Chair of Food Engineering, Institute of Natural Materials Technology, Technische Universitat Dresden, Dresden, Germany.",
+        "Leibniz-Institut Fur Polymerforschung Dresden e.V., Dresden, Germany.",
+        "Department of Chemistry and Polymer Science, Stellenbosch University, Private Bag X1, Stellenbosch, South Africa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Johani, Joshua",
+        "short_name": "Johani J",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz-Institut Für Polymerforschung Dresden e.V., Dresden, Germany.",
+          "Department of Chemistry and Polymer Science, Stellenbosch University, Private Bag X1, Stellenbosch, South Africa."
+        ]
+      },
+      {
+        "full_name": "Eichelberger, Kristin",
+        "short_name": "Eichelberger K",
+        "identifiers": [],
+        "affiliations": [
+          "Chair of Food Engineering, Institute of Natural Materials Technology, Technische Universität Dresden, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Guskova, Olga",
+        "short_name": "Guskova O",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz-Institut Für Polymerforschung Dresden e.V., Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Dunjwa, Simbulele Charlotte",
+        "short_name": "Dunjwa SC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Polymer Science, Stellenbosch University, Private Bag X1, Stellenbosch, South Africa."
+        ]
+      },
+      {
+        "full_name": "Bolinsson, Hans",
+        "short_name": "Bolinsson H",
+        "identifiers": [],
+        "affiliations": [
+          "CoSAXS Beamline, MAX IV Laboratory and Department of Process and Life Science Engineering, Faculty of Engineering LTH, Lund University, Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Börjesdotter, Anna-Maria",
+        "short_name": "Börjesdotter AM",
+        "identifiers": [],
+        "affiliations": [
+          "CoSAXS Beamline, MAX IV Laboratory and Department of Process and Life Science Engineering, Faculty of Engineering LTH, Lund University, Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Nilsson, Lars",
+        "short_name": "Nilsson L",
+        "identifiers": [],
+        "affiliations": [
+          "CoSAXS Beamline, MAX IV Laboratory and Department of Process and Life Science Engineering, Faculty of Engineering LTH, Lund University, Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Jaros, Doris",
+        "short_name": "Jaros D",
+        "identifiers": [],
+        "affiliations": [
+          "Chair of Food Engineering, Institute of Natural Materials Technology, Technische Universität Dresden, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Rohm, Harald",
+        "short_name": "Rohm H",
+        "identifiers": [],
+        "affiliations": [
+          "Chair of Food Engineering, Institute of Natural Materials Technology, Technische Universität Dresden, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Lederer, Albena",
+        "short_name": "Lederer A",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz-Institut Für Polymerforschung Dresden e.V., Dresden, Germany.",
+          "Department of Chemistry and Polymer Science, Stellenbosch University, Private Bag X1, Stellenbosch, South Africa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Angewandte Chemie (International ed. in English)"
+    ],
+    "journal_abbrev": [
+      "Angew Chem Int Ed Engl"
+    ],
+    "pub_date": "2026 Jul 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/26 23:33",
+    "fetched_at": "2026-09-18 03:38:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41768432",
+      "41657387",
+      "38322719",
+      "38194282",
+      "37852937",
+      "37459524",
+      "36917017",
+      "36646298",
+      "36440132",
+      "35617058",
+      "35590711",
+      "34797068",
+      "34242352",
+      "31458995",
+      "30715061",
+      "30382245",
+      "30291779",
+      "29735687",
+      "29377013",
+      "29026044",
+      "27406265",
+      "27357944",
+      "26320411",
+      "25714333",
+      "25515378",
+      "25227946",
+      "24918971",
+      "22984159",
+      "22468560",
+      "18952168",
+      "16027053",
+      "15493889",
+      "12702764",
+      "12600768",
+      "12563291",
+      "3442318"
+    ],
+    "similar": [
+      "42189706",
+      "30840442",
+      "29548755",
+      "36273550",
+      "32074499",
+      "23912807",
+      "26320411",
+      "32696361",
+      "26894933",
+      "41824503",
+      "34600655",
+      "40907012",
+      "35590711",
+      "36641212",
+      "32859072",
+      "40574713",
+      "37646172",
+      "42427316",
+      "24918971",
+      "31548393",
+      "29990433",
+      "30350984",
+      "38959296",
+      "39642200",
+      "40403529",
+      "30878202",
+      "36410960",
+      "41768432",
+      "32103094",
+      "39947749",
+      "32585849",
+      "33623120",
+      "32887242",
+      "31402649",
+      "32376479",
+      "30979035",
+      "29573987",
+      "41580952",
+      "32316569",
+      "29208936",
+      "25387963",
+      "28625737",
+      "29792674",
+      "38194282",
+      "31809054",
+      "39056166",
+      "39450994",
+      "40095314",
+      "29808548",
+      "26735936",
+      "30865820",
+      "29716994",
+      "26387110",
+      "36310204",
+      "41085093",
+      "34817999",
+      "29571687",
+      "31052346",
+      "25855872",
+      "29981536",
+      "33157097",
+      "34845619",
+      "41298416",
+      "29080468",
+      "41533746",
+      "29382046",
+      "41073429",
+      "26548662",
+      "24278008",
+      "25822629",
+      "29621630",
+      "24606139",
+      "33269926",
+      "38116756",
+      "39499823",
+      "42129207",
+      "40970748",
+      "29196701",
+      "26575776",
+      "39503309",
+      "39163306",
+      "40673718",
+      "27936491",
+      "21947276",
+      "25227946",
+      "33725442",
+      "26387105",
+      "30865832",
+      "35762718",
+      "32696370",
+      "33355572",
+      "39642180",
+      "39285530",
+      "38739602",
+      "33945530",
+      "30514761",
+      "27794210",
+      "31470695",
+      "25286318",
+      "37459524"
+    ],
+    "review": [
+      "42189706",
+      "30840442",
+      "26320411",
+      "39947749",
+      "30979035",
+      "28625737",
+      "26387110",
+      "29080468",
+      "29382046",
+      "24606139",
+      "21947276",
+      "26387105",
+      "33355572"
+    ],
+    "pmc": [
+      "13340486"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42189706/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/anie.3738676",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

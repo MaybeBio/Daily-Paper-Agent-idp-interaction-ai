@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "40552710",
+    "doi": "10.7554/eLife.101531",
+    "title": "The triad interaction of ULK1, ATG13, and FIP200 is required for ULK complex formation and autophagy."
+  },
+  "content": {
+    "abstract": "In mammals, autophagosome formation, a central event in autophagy, is initiated by the ULK complex comprising ULK1/2, FIP200, ATG13, and ATG101. However, the structural basis and mechanism underlying the ULK complex assembly have yet to be fully clarified. Here, we predicted the core interactions organizing the ULK complex using AlphaFold, which proposed that the intrinsically disordered region of ATG13 engages the bases of the two UBL domains in the FIP200 dimer via two phenylalanines and also binds the tandem microtubule-interacting and transport domain of ULK1, thereby yielding the 1:1:2 stoichiometry of the ULK1-ATG13-FIP200 complex. We validated the predicted interactions by point mutations and demonstrated direct triad interactions among ULK1, ATG13, and FIP200 in vitro and in cells, wherein each interaction was additively important for autophagic flux. These results indicate that the ULK1-ATG13-FIP200 triadic interaction is crucial for autophagosome formation and provides a structural basis and insights into the regulation mechanism of autophagy initiation in mammals.",
+    "keywords": [
+      "ATG13",
+      "AlphaFold",
+      "FIP200",
+      "ULK complex",
+      "autophagy",
+      "cell biology",
+      "human"
+    ],
+    "mesh_terms": [
+      "*Autophagy-Related Protein-1 Homolog/metabolism/genetics/chemistry",
+      "*Autophagy",
+      "*Autophagy-Related Proteins/metabolism/genetics/chemistry",
+      "Humans",
+      "*Intracellular Signaling Peptides and Proteins/metabolism/genetics/chemistry",
+      "Protein Binding",
+      "*Adaptor Proteins, Signal Transducing/metabolism/genetics",
+      "Animals",
+      "Autophagosomes/metabolism",
+      "HEK293 Cells"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hama, Yutaro",
+        "Fujioka, Yuko",
+        "Yamamoto, Hayashi",
+        "Mizushima, Noboru",
+        "Noda, Nobuo N"
+      ],
+      "short_names": [
+        "Hama Y",
+        "Fujioka Y",
+        "Yamamoto H",
+        "Mizushima N",
+        "Noda NN"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7190-4547",
+        "ORCID: 0000-0002-6905-0669",
+        "ORCID: 0000-0002-2831-1463",
+        "ORCID: 0000-0002-6258-6444",
+        "ORCID: 0000-0002-6940-8069"
+      ],
+      "affiliations": [
+        "Institute for Genetic Medicine, Hokkaido University, Sapporo, Japan.",
+        "Institute of Microbial Chemistry, Tokyo, Japan.",
+        "Department of Biochemistry and Molecular Biology, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Institute for Genetic Medicine, Hokkaido University, Sapporo, Japan.",
+        "Department of Biochemistry and Molecular Biology, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Department of Molecular Oncology, Nippon Medical School, Institute for Advanced Medical Sciences, Tokyo, Japan.",
+        "Department of Biochemistry and Molecular Biology, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+        "Institute for Genetic Medicine, Hokkaido University, Sapporo, Japan.",
+        "Institute of Microbial Chemistry, Tokyo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hama, Yutaro",
+        "short_name": "Hama Y",
+        "identifiers": [
+          "0000-0002-7190-4547"
+        ],
+        "affiliations": [
+          "Institute for Genetic Medicine, Hokkaido University, Sapporo, Japan.",
+          "Institute of Microbial Chemistry, Tokyo, Japan.",
+          "Department of Biochemistry and Molecular Biology, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Fujioka, Yuko",
+        "short_name": "Fujioka Y",
+        "identifiers": [
+          "0000-0002-6905-0669"
+        ],
+        "affiliations": [
+          "Institute for Genetic Medicine, Hokkaido University, Sapporo, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamamoto, Hayashi",
+        "short_name": "Yamamoto H",
+        "identifiers": [
+          "0000-0002-2831-1463"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan.",
+          "Department of Molecular Oncology, Nippon Medical School, Institute for Advanced Medical Sciences, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Mizushima, Noboru",
+        "short_name": "Mizushima N",
+        "identifiers": [
+          "0000-0002-6258-6444"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Graduate School of Medicine, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Noda, Nobuo N",
+        "short_name": "Noda NN",
+        "identifiers": [
+          "0000-0002-6940-8069"
+        ],
+        "affiliations": [
+          "Institute for Genetic Medicine, Hokkaido University, Sapporo, Japan.",
+          "Institute of Microbial Chemistry, Tokyo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2025 Jun 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/24 13:08",
+    "fetched_at": "2026-09-21 20:10:55"
+  },
+  "links": {
+    "cites": [
+      "42304162",
+      "42137849",
+      "42087557",
+      "41859356",
+      "41732089",
+      "41727664",
+      "41695472",
+      "41685593",
+      "41629496",
+      "41596419",
+      "41476282",
+      "40222412"
+    ],
+    "refs": [
+      "40442316",
+      "38342428",
+      "37758522",
+      "36791199",
+      "36198318",
+      "35938926",
+      "35637307",
+      "35108065",
+      "34369648",
+      "34265844",
+      "33692357",
+      "33053285",
+      "32909946",
+      "32516362",
+      "32372019",
+      "32025038",
+      "31606140",
+      "30615063",
+      "29173006",
+      "27938392",
+      "27404361",
+      "27059781",
+      "27046250",
+      "26921696",
+      "26213203",
+      "26030876",
+      "25052093",
+      "24879146",
+      "24793651",
+      "24563201",
+      "23950735",
+      "23295650",
+      "23219485",
+      "22826123",
+      "22743772",
+      "22275429",
+      "22078875",
+      "22024743",
+      "21690395",
+      "20056399",
+      "19258318",
+      "19225151",
+      "19211835",
+      "18443221",
+      "15659643",
+      "14585362",
+      "12840022",
+      "11689437",
+      "11309418"
+    ],
+    "similar": [
+      "40552710",
+      "32516362",
+      "30081750",
+      "31208283",
+      "19225151",
+      "39169022",
+      "19211835",
+      "33988678",
+      "29173006",
+      "40931865",
+      "19258318",
+      "19597335",
+      "36169801",
+      "26299944",
+      "32773036",
+      "27046250",
+      "29233870",
+      "19287211",
+      "22885598",
+      "18981720",
+      "29929428",
+      "40442316",
+      "24013547",
+      "23043107",
+      "22024743",
+      "41073433",
+      "39394942",
+      "18936157",
+      "39207901",
+      "31352862",
+      "29628370",
+      "26213203",
+      "24879146",
+      "40543587",
+      "34869056",
+      "33682133",
+      "34369648",
+      "28639909",
+      "27510922",
+      "26644405",
+      "33328309",
+      "31387948",
+      "31776979",
+      "31108943",
+      "32616830",
+      "18443221",
+      "30827897",
+      "31732843",
+      "32035621",
+      "19690328",
+      "23592174",
+      "27013233",
+      "40715440",
+      "32516310",
+      "24888590",
+      "21855797",
+      "34121209",
+      "30335599",
+      "28495679",
+      "30926605",
+      "27404361",
+      "33109685",
+      "33692357",
+      "30154410",
+      "28877469",
+      "27387056",
+      "41880641",
+      "23262492",
+      "35246531",
+      "39177530",
+      "24290141",
+      "41278708",
+      "29484365",
+      "33666137",
+      "39152217",
+      "33932238",
+      "21072212",
+      "21475306",
+      "24793651",
+      "25737544",
+      "30917996",
+      "24419107",
+      "34520329",
+      "31160490",
+      "39535169",
+      "28561066",
+      "29507183",
+      "34424124",
+      "29313410",
+      "38316984",
+      "40664084",
+      "28686223",
+      "38321366",
+      "35670107",
+      "31378785",
+      "26030876",
+      "36574691",
+      "30853401",
+      "37567770",
+      "35897149"
+    ],
+    "review": [
+      "40552710",
+      "29233870",
+      "24879146",
+      "40543587",
+      "41880641",
+      "28686223",
+      "37567770"
+    ],
+    "pmc": [
+      "12187132"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40552710/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40552710",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.101531",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://rrc.nbrp.jp/references/list?pubmed=40552710",
+        "provider": "National BioResource Project",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": "NBRP resources"
+      }
+    ],
+    "text_mined": []
+  }
+}

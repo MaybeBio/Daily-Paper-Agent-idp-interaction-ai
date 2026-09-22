@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "39896463",
+    "doi": "10.1101/2025.01.20.633842",
+    "title": "Molecular Drivers of RNA Phase Separation."
+  },
+  "content": {
+    "abstract": "RNA molecules are essential in orchestrating the assembly of biomolecular condensates and membraneless compartments in cells. Many condensates form via the association of RNA with proteins containing specific RNA binding motifs. However, recent reports indicate that low-complexity RNA sequences can self-assemble into condensate phases without protein assistance. Divalent cations significantly influence the thermodynamics and dynamics of RNA condensates, which exhibit base-specific lower-critical solution temperatures (LCST). The precise molecular origins of these temperatures remain elusive. In this study, we employ atomistic molecular simulations to elucidate the molecular driving forces governing the temperature-dependent phase behavior of RNA, providing new insights into the origins of LCST. Using RNA tetranucleotides and their chemically modified analogs, we map RNA condensates' equilibrium thermodynamic profiles and structural ensembles across various temperatures and ionic conditions. Our findings reveal that magnesium ions promote LCST behavior by inducing local order-disorder transitions within RNA structures. Consistent with experimental observations, we demonstrate that the thermal stability of RNA condensates follows the Poly(G) > Poly(A) > Poly(C) > Poly(U) order shaped by the interplay of base-stacking and hydrogen bonding interactions. Furthermore, our simulations show that ionic conditions and post-translational modifications can fine-tune RNA self-assembly and modulate condensate physical properties.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramachandran, V",
+        "Potoyan, D A"
+      ],
+      "short_names": [
+        "Ramachandran V",
+        "Potoyan DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5860-1699"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Iowa State University, Ames, IA 50011.",
+        "Department of Chemistry, Iowa State University, Ames, IA 50011.",
+        "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology.",
+        "Bioinformatics and Computational Biology Program, Iowa State University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramachandran, V",
+        "short_name": "Ramachandran V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011."
+        ]
+      },
+      {
+        "full_name": "Potoyan, D A",
+        "short_name": "Potoyan DA",
+        "identifiers": [
+          "0000-0002-5860-1699"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011.",
+          "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology.",
+          "Bioinformatics and Computational Biology Program, Iowa State University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jan 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/03 12:22",
+    "fetched_at": "2026-09-21 15:27:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39642205",
+      "39531035",
+      "39508447",
+      "39373474",
+      "39354131",
+      "39050887",
+      "38949285",
+      "38831645",
+      "38571310",
+      "38287096",
+      "37932412",
+      "37690652",
+      "37276412",
+      "37220590",
+      "37113055",
+      "36806460",
+      "36623192",
+      "36378781",
+      "36012216",
+      "35648610",
+      "35501484",
+      "35317575",
+      "35283696",
+      "34984429",
+      "34916619",
+      "34204536",
+      "33611339",
+      "31754043",
+      "31434954",
+      "31117592",
+      "30045872",
+      "29650702",
+      "28586329",
+      "28562589",
+      "28400719",
+      "27212236",
+      "25400877",
+      "21921995",
+      "19474339",
+      "18593145",
+      "17351000",
+      "14685175",
+      "12930962"
+    ],
+    "similar": [
+      "39896463",
+      "41187075",
+      "38949285",
+      "39605385",
+      "41129218",
+      "38571310",
+      "39432826",
+      "36883003",
+      "39386696",
+      "39042834",
+      "36993212",
+      "34573116",
+      "40102453",
+      "32405004",
+      "40203038",
+      "34241502",
+      "39005320",
+      "38416758",
+      "33982350",
+      "35727989",
+      "37735186",
+      "33672806",
+      "39636939",
+      "39377398",
+      "30926670",
+      "34706977",
+      "39928699",
+      "36191226",
+      "38181073",
+      "40782375",
+      "34304571",
+      "40381401",
+      "39356108",
+      "40944421",
+      "39937084",
+      "35325654",
+      "34507991",
+      "23912807",
+      "34862761",
+      "37932412",
+      "34762868",
+      "39591652",
+      "40531332",
+      "41342450",
+      "40291420",
+      "40954121",
+      "37131735",
+      "40521608",
+      "37205474",
+      "34179888",
+      "35333653",
+      "40804711",
+      "37252985",
+      "38360555",
+      "39824169",
+      "36755024",
+      "32004090",
+      "33307683",
+      "32426986",
+      "41279444",
+      "37720552",
+      "22296566",
+      "40672301",
+      "37019112",
+      "40093099",
+      "39168125",
+      "33302617",
+      "35293386",
+      "33597515",
+      "35364105",
+      "34767801",
+      "37115110",
+      "37684240",
+      "37295429",
+      "34772789",
+      "37449795",
+      "36227470",
+      "33650968",
+      "34648275",
+      "37470705",
+      "39670461",
+      "40690668",
+      "40664121",
+      "40172489",
+      "41191214",
+      "31199001",
+      "39227569",
+      "37239436",
+      "31790873",
+      "40455990",
+      "40305655",
+      "39807887",
+      "31009934",
+      "29279008",
+      "30471685",
+      "40058249",
+      "41415473",
+      "36175408",
+      "33081049",
+      "38656803"
+    ],
+    "review": [
+      "39896463",
+      "34573116",
+      "34706977",
+      "40381401",
+      "34179888",
+      "40804711",
+      "38360555",
+      "39824169",
+      "32004090",
+      "37720552",
+      "34767801",
+      "37115110",
+      "34772789",
+      "40664121",
+      "40172489",
+      "41191214",
+      "37239436",
+      "31790873"
+    ],
+    "pmc": [
+      "11785085"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39896463/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.01.20.633842",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

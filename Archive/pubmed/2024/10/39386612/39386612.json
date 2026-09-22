@@ -1,0 +1,206 @@
+{
+  "identity": {
+    "pmid": "39386612",
+    "doi": "10.1101/2024.09.24.614805",
+    "title": "Decoding Biomolecular Condensate Dynamics: An Energy Landscape Approach."
+  },
+  "content": {
+    "abstract": "A significant fraction of eukaryotic proteins contain low-complexity sequence elements with unknown functions. Many of these sequences are prone to form biomolecular condensates with unique material and dynamic properties. Mutations in low-complexity regions often result in abnormal phase transitions into pathological solid-like states. Therefore, understanding how the low-complexity sequence patterns encode the material properties of condensates is crucial for uncovering the cellular functions and evolutionary forces behind the emergence of low-complexity regions in proteins. In this work, we employ an alphabet-free energy landscape framework of the stickers and spacers to dissect how the low complexity patterns of proteins encode the material properties of condensates. We find a broad phase diagram of material properties determined by distinct energy landscape features, showing that periodic repeat motifs promote elastic-dominated while random sequences are viscous-dominated properties. We find that a certain degree of sticker periodicity is necessary to maintain the fluidity of condensates, preventing them from forming glassy or solid-like states. Finally, we show that the energy landscape framework captures viscoelastic trends seen in the recent experiments on prion domains and makes predictions for systematic variation of protein condensate viscoelasticity via altering the periodicity and strength of sticker motifs.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Biswas, Subhadip",
+        "Potoyan, Davit A"
+      ],
+      "short_names": [
+        "Biswas S",
+        "Potoyan DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5860-1699"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Biswas, Subhadip",
+        "short_name": "Biswas S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [
+          "0000-0002-5860-1699"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Sep 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/10 06:22",
+    "fetched_at": "2026-09-22 01:47:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39386612",
+      "39928699",
+      "39464253",
+      "39866835",
+      "37066350",
+      "39386700",
+      "38363841",
+      "39937084",
+      "32004090",
+      "37194953",
+      "38824391",
+      "40291420",
+      "36993212",
+      "39568893",
+      "36513655",
+      "38076908",
+      "39636939",
+      "37131735",
+      "36227469",
+      "34785657",
+      "37873097",
+      "37013374",
+      "39196681",
+      "39071339",
+      "34090478",
+      "39138204",
+      "33653957",
+      "39674888",
+      "36397514",
+      "39610751",
+      "39185151",
+      "37205474",
+      "37586369",
+      "35809564",
+      "33453924",
+      "34784177",
+      "39168125",
+      "40249817",
+      "34129687",
+      "39827079",
+      "34552246",
+      "38429263",
+      "39070659",
+      "34654286",
+      "37019112",
+      "39211102",
+      "40172489",
+      "40102453",
+      "37311001",
+      "38999934",
+      "37549257",
+      "37386790",
+      "37464880",
+      "31790873",
+      "35641495",
+      "39271032",
+      "39320949",
+      "37215004",
+      "38915678",
+      "39620362",
+      "38987300",
+      "38766065",
+      "37770423",
+      "37952770",
+      "32456986",
+      "35293386",
+      "33081049",
+      "36175408",
+      "34887356",
+      "39134696",
+      "40160200",
+      "38622120",
+      "40196628",
+      "31199001",
+      "34573116",
+      "37894933",
+      "34762868",
+      "37684240",
+      "36993636",
+      "37066349",
+      "34645832",
+      "38622124",
+      "34304571",
+      "34767801",
+      "39541973",
+      "36436394",
+      "37480229",
+      "36883003",
+      "39225536",
+      "31634364",
+      "39826710",
+      "36227477",
+      "36689740",
+      "38915484",
+      "39605385",
+      "37252985",
+      "38591689",
+      "39171763",
+      "39455581",
+      "30926670"
+    ],
+    "review": [
+      "39386612",
+      "32004090",
+      "39827079",
+      "40172489",
+      "37464880",
+      "31790873",
+      "39271032",
+      "32456986",
+      "39134696",
+      "40160200",
+      "34573116"
+    ],
+    "pmc": [
+      "11463539"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39386612/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.09.24.614805",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

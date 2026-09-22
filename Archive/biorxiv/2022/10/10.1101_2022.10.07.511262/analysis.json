@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.10.07.511262",
+  "title": "BUB-1 and CENP-C recruit PLK-1 to Control Chromosome Alignment and Segregation During Meiosis I in C. elegans Oocytes",
+  "authors": "Taylor SJ; Borja LB; Soubigou F; Houston J; Cheerambathur DK; Pelisch F",
+  "journal": "bioRxiv",
+  "published_date": "2022-10-07",
+  "window": {
+    "start": "2022-10-03",
+    "end": "2022-10-09"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究线虫卵母细胞减数分裂中PLK-1的招募机制，涉及BUB-1和CENP-C介导的蛋白互作，但对象为折叠蛋白、无无序蛋白/相分离背景，且方法为活体成像和生化分析，无AI或物理模拟建模，与本课题关联微弱。",
+  "abstract": "<h4>ABSTRACT</h4> Phosphorylation is a key post-translational modification that is utilised in many biological processes for the rapid and reversible regulation of protein localisation and activity. Polo-like kinase 1 (PLK-1) is essential for both mitotic and meiotic cell divisions, with key functions being conserved in eukaryotes. The roles and regulation of PLK-1 during mitosis have been well characterised. However, the discrete roles and regulation of PLK-1 during meiosis have remained obscure. Here, we used Caenorhabditis elegans (C. elegans) oocytes to show that PLK-1 plays distinct roles in meiotic spindle assembly and/or stability, chromosome alignment and segregation, and polar body extrusion during meiosis I. Furthermore, by a combination of live imaging and biochemical analysis we identified the chromosomal recruitment mechanisms of PLK-1 during C. elegans oocyte meiosis. The spindle assembly checkpoint kinase BUB-1 directly recruits PLK-1 to the kinetochore and midbivalent while the chromosome arm population of PLK-1 depends on a direct interaction with the centromeric-associated protein CENP-C HCP-4 . We found that perturbing both BUB-1 and CENP-C HCP-4 recruitment of PLK-1 leads to severe meiotic defects, resulting in highly aneuploid oocytes. Overall, our results shed light on the roles played by PLK-1 during oocyte meiosis and provide a mechanistic understanding of PLK-1 targeting to meiotic chromosomes.",
+  "abstract_zh": "<h4>摘要</h4> 磷酸化是一种关键的翻译后修饰，在许多生物过程中被用于快速且可逆地调节蛋白质的定位和活性。Polo样激酶1（PLK-1）对有丝分裂和减数分裂细胞分裂均至关重要，其关键功能在真核生物中保守。PLK-1在有丝分裂期间的作用和调控已被充分表征。然而，PLK-1在减数分裂期间的具体作用和调控仍不清楚。在此，我们使用秀丽隐杆线虫（C. elegans）卵母细胞来表明，PLK-1在减数分裂I期间对纺锤体组装和/或稳定性、染色体排列和分离以及极体挤出中发挥不同作用。此外，通过活体成像和生化分析相结合，我们鉴定了PLK-1在C. elegans卵母细胞减数分裂期间的染色体招募机制。纺锤体组装检查点激酶BUB-1直接将PLK-1招募至着丝粒和中间二价体，而PLK-1的染色体臂群体依赖于与着丝粒相关蛋白CENP-C HCP-4的直接相互作用。我们发现，干扰BUB-1和CENP-C HCP-4对PLK-1的招募会导致严重的减数分裂缺陷，从而产生高度非整倍体的卵母细胞。总体而言，我们的结果揭示了PLK-1在卵母细胞减数分裂中的作用，并为PLK-1靶向减数分裂染色体提供了机制性理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.10.07.511262",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.10.07.511262",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.10.07.511262/index.html"
+}

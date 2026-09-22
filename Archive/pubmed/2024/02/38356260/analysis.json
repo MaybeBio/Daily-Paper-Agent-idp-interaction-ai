@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38356260",
+  "title": "Coiled-coil domains are sufficient to drive liquid-liquid phase separation in protein models.",
+  "authors": "Ramirez, Dominique A; Hough, Loren E; Shirts, Michael R",
+  "journal": "Biophysical journal",
+  "published_date": "2024-02-15",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化模拟证明卷曲螺旋(CC)结构域本身足以驱动蛋白液-液相分离(LLPS)，并系统考察CC数目与多聚化状态对相分离倾向的影响，虽对象为CC而非典型IDR，但其相分离机制建模思路对无序蛋白介导的凝聚体PPI研究有直接启发。",
+  "abstract": "Liquid-liquid phase separation (LLPS) is thought to be a main driving force in the formation of membraneless organelles. Examples of such organelles include the centrosome, central spindle, and stress granules. Recently, it has been shown that coiled-coil (CC) proteins, such as the centrosomal proteins pericentrin, spd-5, and centrosomin, might be capable of LLPS. CC domains have physical features that could make them the drivers of LLPS, but it is unknown if they play a direct role in the process. We developed a coarse-grained simulation framework for investigating the LLPS propensity of CC proteins, in which interactions that support LLPS arise solely from CC domains. We show, using this framework, that the physical features of CC domains are sufficient to drive LLPS of proteins. The framework is specifically designed to investigate how the number of CC domains, as well as the multimerization state of CC domains, can affect LLPS. We show that small model proteins with as few as two CC domains can phase separate. Increasing the number of CC domains up to four per protein can somewhat increase LLPS propensity. We demonstrate that trimer-forming and tetramer-forming CC domains have a dramatically higher LLPS propensity than dimer-forming coils, which shows that multimerization state has a greater effect on LLPS than the number of CC domains per protein. These data support the hypothesis of CC domains as drivers of protein LLPS, and have implications in future studies to identify the LLPS-driving regions of centrosomal and central spindle proteins.",
+  "abstract_zh": "液-液相分离（LLPS）被认为是无膜细胞器形成的主要驱动力。此类细胞器的例子包括中心体、中央纺锤体和应激颗粒。近期研究表明，卷曲螺旋（CC）蛋白，如中心体蛋白pericentrin、spd-5和centrosomin，可能具备LLPS能力。CC结构域具有可能使其成为LLPS驱动因素的物理特征，但尚不清楚它们是否在该过程中直接发挥作用。我们开发了一个粗粒化模拟框架，用于研究CC蛋白的LLPS倾向，其中支持LLPS的相互作用仅来源于CC结构域。我们利用该框架表明，CC结构域的物理特征足以驱动蛋白质的LLPS。该框架专门设计用于研究CC结构域的数量以及CC结构域的多聚化状态如何影响LLPS。我们证明，仅含两个CC结构域的小型模型蛋白即可发生相分离。将每个蛋白质的CC结构域数量增加至四个，可略微提高LLPS倾向。我们进一步证明，形成三聚体和四聚体的CC结构域比形成二聚体的卷曲具有显著更高的LLPS倾向，这表明多聚化状态对LLPS的影响大于每个蛋白质中CC结构域的数量。这些数据支持CC结构域作为蛋白质LLPS驱动因素的假说，并对未来识别中心体和中央纺锤体蛋白中LLPS驱动区域的研究具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38356260/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38356260/",
+  "paper_page_path": "papers/pubmed/38356260/index.html"
+}

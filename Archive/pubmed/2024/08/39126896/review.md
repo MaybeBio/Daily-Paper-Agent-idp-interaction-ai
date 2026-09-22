@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract
+- **Shared manuscript claim summary** The authors claim that PQBP3, a polyglutamine tract binding protein, is an intrinsically disordered protein (IDP), based on bioinformatics predictions and high-speed atomic force microscopy (HS-AFM) observations of its N-terminal region.
+- **Visible evidence base** Bioinformatics predictions and HS-AFM imaging, as described in the abstract
+- **Missing materials affecting confidence** Full manuscript text, figures, methods, statistical analyses, and experimental details are not provided
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused hypothesis that PQBP3 is an IDP, supported by two lines of evidence: bioinformatics predictions and HS-AFM dynamic structural observations. The claim is plausible and consistent with the known IDP nature of related polyglutamine binding proteins. However, the abstract lacks quantitative details, controls, and methodological transparency, which limits the ability to fully evaluate the strength of the evidence. The conclusion that PQBP3 is an IDP appears reasonable but is not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, polyglutamine disease mechanisms, nucleolar proteins, and nuclear envelope stability would find these results relevant. The work also has potential interest for those using HS-AFM to study protein dynamics at the single-molecule level.
+- **Major strengths** The study addresses a clear and testable question. The use of complementary approaches, bioinformatics and HS-AFM, strengthens the argument. The connection to related IDPs in the same protein family provides biological context.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that HS-AFM reveals the N-terminal region of PQBP3 is dynamically changed in structure, consistent with bioinformatics predictions, and that these data support PQBP3 being an IDP.
+  - **Evidence pointer** Abstract, HS-AFM results section (location not provided)
+  - **Concern** The abstract does not provide any quantitative metrics from the HS-AFM data, such as conformational variability measures, persistence length, or comparison to a folded control protein. Without such data, it is unclear whether the observed dynamics are distinct from what would be expected for a partially folded or globular protein under the same conditions.
+  - **Why it matters** The central claim that PQBP3 is an IDP rests on demonstrating that its N-terminal region lacks stable tertiary structure. Qualitative descriptions of dynamic changes are insufficient to distinguish an IDP from a protein with conformational flexibility or experimental artifacts.
+  - **Resolution test** Provide quantitative HS-AFM parameters, such as height distributions, volume fluctuations, or end-to-end distance over time, and compare these to a known folded protein and a known IDP under identical conditions. Statistical significance of differences should be reported.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that multiple bioinformatics analyses predict the N-terminal region of PQBP3 is unstructured.
+  - **Evidence pointer** Abstract, bioinformatics analyses section (location not provided)
+  - **Concern** The abstract does not specify which bioinformatics tools were used, how many were applied, or whether predictions were concordant across all tools. It also does not state the length of the N-terminal region analyzed or the threshold criteria for classifying a region as disordered.
+  - **Why it matters** Bioinformatics disorder predictions vary by algorithm and parameter settings. Without specifying the tools and criteria, the robustness of the prediction cannot be assessed, and the claim of "multiple analyses" is not verifiable.
+  - **Resolution test** List the specific prediction tools, their versions, the sequence region analyzed, and the disorder score thresholds. Show that the majority or all tools agree on the disordered status of the region.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental validation
+  - **Claim pointer** The abstract implies that bioinformatics and HS-AFM together are sufficient to establish PQBP3 as an IDP.
+  - **Evidence pointer** Abstract, overall conclusion (location not provided)
+  - **Concern** The abstract does not mention any biochemical or biophysical validation, such as circular dichroism, nuclear magnetic resonance, or size exclusion chromatography, which are standard methods to confirm intrinsic disorder. The absence of such data weakens the conclusion.
+  - **Why it matters** IDP classification typically requires multiple independent experimental lines of evidence. HS-AFM provides structural dynamics but is not a standard standalone method for IDP identification. Additional orthogonal validation would substantially strengthen the claim.
+  - **Resolution test** Include at least one additional biophysical method, such as circular dichroism or NMR, showing absence of stable secondary or tertiary structure in the N-terminal region.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title states "PQBP3/NOL7 is an intrinsically disordered protein" as a definitive fact, but the abstract presents this as a supported conclusion rather than an established fact.
+  - **Required correction** Consider revising the title to reflect the evidence level, such as "Evidence that PQBP3/NOL7 is an intrinsically disordered protein."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Background
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract mentions PQBP3 binds polyglutamine tract sequences but does not explain why this is relevant to the IDP question beyond the analogy to other PQBP family members.
+  - **Required correction** Briefly state why polyglutamine binding proteins are expected to be IDPs, or why this connection is biologically meaningful.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Abstract, HS-AFM description
+  - **Issue** The abstract does not state the experimental conditions for HS-AFM, such as buffer, temperature, or whether the protein was full-length or a fragment.
+  - **Required correction** Specify the construct used and the imaging conditions in the abstract or indicate that these details are in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the current evidence, as described, is insufficient to establish the claim that PQBP3 is an IDP. R1-M3 is non-blocking but recommended for a stronger case.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The finding that another PQBP family member is an IDP is incremental given that related proteins are already known to be IDPs.
+  - Scientific importance: Moderate. The result has implications for understanding PQBP3 function in nuclear envelope stability and polyglutamine disease, but the conceptual advance is limited.
+  - Interdisciplinary readership: Limited. The topic is primarily of interest to structural biologists and researchers in neurodegeneration.
+  - Technical soundness: Not fully assessable from the abstract. The methods are appropriate in principle, but quantitative details and controls are missing.
+  - Readability for nonspecialists: The abstract is clear and accessible, though some terms such as HS-AFM and IDP are used without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The claim is plausible and the approach is reasonable, but the abstract lacks the quantitative and methodological detail needed to support the conclusion. The authors should address the blocking concerns before the case can be considered established.
+
+## Risk / unsupported claims
+- The claim that PQBP3 is an IDP is not fully supported by the abstract alone, as quantitative HS-AFM data and bioinformatics tool details are not provided.
+- The statement that HS-AFM results are "consistent with" bioinformatics predictions is not verifiable without specific comparison metrics.
+- The abstract implies that the N-terminal region is the disordered part, but it is unclear whether the full-length protein or a fragment was studied.
+- No information is provided on whether the observed dynamics are specific to PQBP3 or could be an artifact of the experimental setup.

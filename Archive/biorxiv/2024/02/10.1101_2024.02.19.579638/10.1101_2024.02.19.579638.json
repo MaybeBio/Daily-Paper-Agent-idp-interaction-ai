@@ -1,0 +1,157 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.19.579638",
+  "title": "Combining computational biology and experimental knowledge to draw a structural profile of the active membrane-assembled NADPH oxidase complex",
+  "doi": "10.1101/2024.02.19.579638",
+  "abstract": "The phagocyte NADPH oxidase complex (NOX2) is activated by various intracellular stimuli, resulting in the generation of reactive oxygen species, which are responsible for many physiological processes, including innate immune defense. Structures of the cytochrome b558, membrane catalytic core of the complex, in their resting state have been solved experimentally. Unfortunately, very little is known about the structure of the active complex, as it involves the assembly of modular proteins and disordered regions, that have been shown to be essential to the function of the enzyme. Here, we modelled the supra-structure of the active complex using Alphafold2 and taking into account experimental data as well as conformational analyses by SRCD. AF2 ability to generate complexes enabled us to visualize ways in which subunits could assemble together, and revealed the implications of intrinsically disordered regions in protein-protein and membrane-protein interactions. Additional Molecular Dynamics simulations of the membrane embedded complex bring further insight regarding the system dynamics. Altogether, our work provides evidence for a model of the structure of the active complex where disordered regions can enable multi-subunit assembly.",
+  "authors": [
+    "Aimeur SZ",
+    "Fas BA",
+    "Serfaty X",
+    "Santuz H",
+    "Sacquin-Mora S",
+    "Bizouarn T",
+    "Taly A",
+    "BACIOU L"
+  ],
+  "published_date": "2024-02-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.19.579638",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.19.579638.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR808304",
+    "raw_record": {
+      "id": "PPR808304",
+      "source": "PPR",
+      "doi": "10.1101/2024.02.19.579638",
+      "title": "Combining computational biology and experimental knowledge to draw a structural profile of the active membrane-assembled NADPH oxidase complex",
+      "authorString": "Aimeur SZ, Fas BA, Serfaty X, Santuz H, Sacquin-Mora S, Bizouarn T, Taly A, BACIOU L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Aimeur SZ",
+            "lastName": "Aimeur",
+            "firstName": "Sana Zineb",
+            "initials": "SZ"
+          },
+          {
+            "fullName": "Fas BA",
+            "lastName": "Fas",
+            "firstName": "Burcu Aykac",
+            "initials": "BA"
+          },
+          {
+            "fullName": "Serfaty X",
+            "lastName": "Serfaty",
+            "firstName": "Xavier",
+            "initials": "X"
+          },
+          {
+            "fullName": "Santuz H",
+            "lastName": "Santuz",
+            "firstName": "Hubert",
+            "initials": "H"
+          },
+          {
+            "fullName": "Sacquin-Mora S",
+            "lastName": "Sacquin-Mora",
+            "firstName": "Sophie",
+            "initials": "S"
+          },
+          {
+            "fullName": "Bizouarn T",
+            "lastName": "Bizouarn",
+            "firstName": "Tania",
+            "initials": "T"
+          },
+          {
+            "fullName": "Taly A",
+            "lastName": "Taly",
+            "firstName": "Antoine",
+            "initials": "A"
+          },
+          {
+            "fullName": "BACIOU L",
+            "lastName": "BACIOU",
+            "firstName": "LAURA",
+            "initials": "L"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3401-4844"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3842-731X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The phagocyte NADPH oxidase complex (NOX2) is activated by various intracellular stimuli, resulting in the generation of reactive oxygen species, which are responsible for many physiological processes, including innate immune defense. Structures of the cytochrome b558, membrane catalytic core of the complex, in their resting state have been solved experimentally. Unfortunately, very little is known about the structure of the active complex, as it involves the assembly of modular proteins and disordered regions, that have been shown to be essential to the function of the enzyme. Here, we modelled the supra-structure of the active complex using Alphafold2 and taking into account experimental data as well as conformational analyses by SRCD. AF2 ability to generate complexes enabled us to visualize ways in which subunits could assemble together, and revealed the implications of intrinsically disordered regions in protein-protein and membrane-protein interactions. Additional Molecular Dynamics simulations of the membrane embedded complex bring further insight regarding the system dynamics. Altogether, our work provides evidence for a model of the structure of the active complex where disordered regions can enable multi-subunit assembly.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/02/19/2024.02.19.579638.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.02.19.579638"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-02-21",
+      "firstPublicationDate": "2024-02-19",
+      "firstIndexDate": "2024-02-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

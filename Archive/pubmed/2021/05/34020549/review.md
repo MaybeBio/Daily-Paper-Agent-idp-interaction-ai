@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors define a phase-separated proteome by analyzing immunofluorescence images of 12,073 proteins from the Human Protein Atlas. They report that candidate phase-separated proteins have higher intrinsically disordered region (IDR) content, higher mean net charge, lower hydropathy, and preferential RNA binding. Kinases and transcription factors are enriched among candidates, and both groups show reduced substrate specificity. The authors propose that phase separation reduces the requirement for motif specificity and expands substrate repertoires.
+- **Visible evidence base** Abstract text only; no methodological details, statistical analyses, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, code documentation, and validation results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and large-scale approach to identifying phase-separated proteins from imaging data. However, the evidence base is limited to the abstract, and several critical methodological and interpretive issues cannot be evaluated. The central claim that phase separation reduces substrate specificity is an intriguing hypothesis but is not supported by the data described in the abstract alone. The work may be of interest to the cell biology and proteomics communities, but the current evidence is insufficient to establish the case.
+- **Who would be interested in the results, and why** Cell biologists studying phase separation and membraneless organelles, computational biologists developing proteome-scale prediction methods, and biochemists interested in kinase and transcription factor regulation. The proposed link between phase separation and substrate specificity could also attract researchers in signaling and gene regulation.
+- **Major strengths** The use of a large, publicly available imaging dataset (Human Protein Atlas) to define a phase-separated proteome is a novel and scalable approach. The integration of sequence features with imaging data is a reasonable strategy. The observation that kinases and transcription factors are enriched among candidates, and the suggestion of reduced substrate specificity, provides a testable hypothesis.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The authors claim to define a phase-separated proteome based on systematic analysis of immunofluorescence images of 12,073 proteins.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how phase separation is inferred from immunofluorescence images. No criteria, thresholds, or validation against known phase-separated proteins are provided. Without this, the definition of the "phase-separated proteome" is unverifiable.
+  - **Why it matters** The entire analysis rests on the reliability of the imaging-based classification. If the criteria are not robust or validated, all downstream conclusions about sequence features, functional enrichment, and substrate specificity are compromised.
+  - **Resolution test** Provide a clear description of the image analysis pipeline, including how puncta or other phase-separated patterns are distinguished from artifacts, and demonstrate validation against a curated set of known phase-separated proteins.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report that phase-separated candidate proteins exhibit higher IDR content, higher mean net charge, lower hydropathy, and preferential RNA binding, and that kinases and transcription factors are enriched.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No statistical details are given. It is unclear whether these differences are significant after controlling for confounding factors such as protein length, expression level, or cellular localization. Enrichment analyses also require appropriate background models.
+  - **Why it matters** Without proper statistical controls, the reported differences may reflect known biases in the dataset rather than true biological properties of phase-separated proteins.
+  - **Resolution test** Provide effect sizes, confidence intervals, and p-values for each comparison, and describe how confounders were addressed. For enrichment, specify the background set and the statistical test used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation
+  - **Claim pointer** The authors state that phase-separated kinases and transcription factors display significantly reduced substrate specificity, and that phase separation reduces the requirement for motif specificity.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not explain how substrate specificity was measured or compared. No data on kinase substrates or transcription factor binding motifs are shown. The causal claim that phase separation reduces specificity is speculative and not supported by the evidence described.
+  - **Why it matters** This is the central conceptual contribution of the work. If the specificity analysis is not rigorously defined and validated, the main conclusion is not established.
+  - **Resolution test** Describe the method for measuring substrate specificity, show the comparison between phase-separated and non-phase-separated proteins, and provide evidence that the observed difference is due to phase separation rather than other properties.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "phase-separated candidate proteins"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "candidate" is used but not defined. It is unclear whether these are predicted or experimentally confirmed phase-separated proteins.
+  - **Required correction** Clarify the status of the identified proteins and the confidence level of the classification.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions a GitHub repository, but no version, license, or documentation details are provided.
+  - **Required correction** Specify the repository version, provide a DOI or permanent identifier, and describe the data format and dependencies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The analysis is based on a single imaging dataset. It is unclear whether the findings generalize to other cell types or experimental conditions.
+  - **Required correction** Discuss the limitations of using a single dataset and, if possible, validate the findings in independent datasets.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - **Originality** The approach of using large-scale imaging data to define a phase-separated proteome is novel and could be considered original.
+  - **Scientific importance** The potential link between phase separation and substrate specificity is conceptually interesting, but the importance is not yet established given the lack of supporting evidence in the abstract.
+  - **Interdisciplinary readership** The topic bridges cell biology, proteomics, and computational biology, which could attract a broad audience.
+  - **Technical soundness** Not assessable from the abstract; the methodology is not described in sufficient detail.
+  - **Readability for nonspecialists** The abstract is concise and generally accessible, but the key claims are not explained in a way that a nonspecialist can evaluate their validity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a potentially powerful dataset, but the lack of methodological detail and statistical rigor prevents assessment of the core claims. The authors should be encouraged to provide the full methods and validation data.
+
+## Risk / unsupported claims
+- The claim that phase separation reduces substrate specificity is unsupported by the abstract evidence.
+- The definition of the phase-separated proteome is unverifiable without methodological details.
+- The reported sequence feature differences and functional enrichments are not statistically substantiated.
+- The generalizability of the findings beyond the Human Protein Atlas dataset is not addressed.

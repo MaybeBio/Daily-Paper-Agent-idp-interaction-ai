@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.02.691969",
+  "title": "Genetic rescue of disrupted synaptic protein interaction network dynamics following <i>SYNGAP1</i> reactivation",
+  "authors": "Vera Stamenkovic; Felicia Harsh; Breann Kniffen; Gavin Rumbaugh; Stephen Smith",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-04",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过定量共免疫沉淀实验考察SynGAP1再表达对突触蛋白互作网络的恢复，对象为折叠蛋白复合物而非无序蛋白/IDR，且无AI或物理模拟方法，仅实验性网络分析，与本课题机制建模关联弱。",
+  "abstract": "Synaptic protein interaction networks (PINs) dynamically translate neural activity into biochemical signals that regulate synaptic structure and plasticity. Disruption of these coordinated networks is a common feature of autism spectrum disorder (ASD) risk genes, yet it remains unclear whether the molecular organization of a perturbed network can be restored after development. Here, we examined how post-developmental re-expression of the synaptic Ras GTPase-activating protein SynGAP1 affects network structure and signaling dynamics in a conditional SynGAP1 haploinsufficient mouse. Quantitative multiplex co-immunoprecipitation (QMI) across development revealed that SynGAP haploinsufficiency selectively reduced SynGAP-containing complexes without broadly disrupting NMDA-dependent network responses. Tamoxifen-inducible re-expression of SynGAP at postnatal day 21 fully restored both steady-state and activity-dependent interactions within the SynGAP module in hippocampus, and additionally normalized secondary alterations in Shank–Homer scaffolding complexes in somatosensory cortex. These data demonstrate that biochemical restoration of a disrupted synaptic network is achievable, even after early developmental windows have closed. Our findings suggest that while critical periods may constrain functional recovery, molecular network normalization remains possible through genetic reactivation of haploinsufficient synaptic regulators.",
+  "abstract_zh": "突触蛋白相互作用网络（PINs）动态地将神经活动转化为调节突触结构和可塑性的生化信号。这些协调网络的破坏是自闭症谱系障碍（ASD）风险基因的常见特征，但尚不清楚受扰动网络的分子组织在发育后是否能够恢复。在此，我们研究了发育后重新表达突触Ras GTPase激活蛋白SynGAP1如何影响条件性SynGAP1单倍剂量不足小鼠的网络结构和信号动力学。跨发育阶段的定量多重共免疫沉淀（QMI）揭示，SynGAP单倍剂量不足选择性减少了含SynGAP的复合物，而未广泛破坏NMDA依赖性网络反应。他莫昔芬诱导的SynGAP在出生后第21天重新表达，完全恢复了海马中SynGAP模块内的稳态和活性依赖性相互作用，并额外使体感皮层中Shank–Homer支架复合物的次级改变正常化。这些数据表明，即使早期发育窗口已关闭，受扰动突触网络的生化恢复仍可实现。我们的发现提示，尽管关键期可能限制功能恢复，但通过单倍剂量不足突触调节因子的遗传再激活，分子网络正常化仍然可能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.02.691969",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.02.691969",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.02.691969/index.html"
+}

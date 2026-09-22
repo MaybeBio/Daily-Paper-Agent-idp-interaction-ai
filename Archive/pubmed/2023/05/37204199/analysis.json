@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37204199",
+  "title": "Graphene Quantum Dots Modulate Stress Granule Assembly and Prevent Abnormal Phase Transition of Fused in Sarcoma Protein.",
+  "authors": "Zhang, Hong; Gu, Jinge; Zhang, Yiling; Guo, Huazhang; Zhang, Shengnan; Song, Jie; Liu, Cong; Wang, Liang; Li, Dan; Dai, Bin",
+  "journal": "ACS nano",
+  "published_date": "2023-05-19",
+  "window": {
+    "start": "2023-05-15",
+    "end": "2023-05-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究探讨石墨烯量子点通过直接结合FUS蛋白调控其液-液相分离和异常相变，涉及无序蛋白FUS的互作机制，但方法以实验为主，缺乏AI或物理模拟建模，故综合评分为6。",
+  "abstract": "Protein liquid-liquid phase separation (LLPS) plays a crucial role in mediating dynamic assembly of different membraneless organelles such as stress granules (SGs). Dysregulation of dynamic protein LLPS leads to aberrant phase transition and amyloid aggregation which is closely associated with neurodegenerative diseases. In this study, we found that three types of graphene quantum dots (GQDs) exhibit potent activity in preventing SG formation and promoting SG disassembly. We next demonstrate that GQDs can directly interact with the SGs-containing protein fused in sarcoma (FUS), inhibit and reverse FUS LLPS, and prevent its abnormal phase transition. Moreover, GQDs display superior activity in preventing amyloid aggregation of FUS and disaggregating preformed FUS fibrils. Mechanistic study further demonstrates that GQDs with different edge-site exhibit distinct binding affinity to FUS monomers and fibrils, which accounts for their distinct activities in modulating FUS LLPS and fibrillation. Our work reveals the potent capability of GQDs in modulating SG assembly, protein LLPS, and fibrillation and sheds light on rational design of GQDs as effective modulators of protein LLPS for therapeutics application.",
+  "abstract_zh": "蛋白质液-液相分离（LLPS）在介导不同无膜细胞器（如应激颗粒（SGs））的动态组装中扮演关键角色。动态蛋白质LLPS的失调导致异常相变和淀粉样蛋白聚集，这与神经退行性疾病密切相关。在本研究中，我们发现三种类型的石墨烯量子点（GQDs）在阻止SG形成和促进SG解聚方面表现出强效活性。我们进一步证明，GQDs能直接与含SG的蛋白质——肉瘤融合蛋白（FUS）相互作用，抑制并逆转FUS的LLPS，并防止其异常相变。此外，GQDs在阻止FUS的淀粉样蛋白聚集和分解预形成的FUS纤维方面展现出优越活性。机制研究进一步表明，具有不同边缘位点的GQDs对FUS单体和纤维表现出不同的结合亲和力，这解释了它们在调节FUS LLPS和纤维化中的不同活性。我们的工作揭示了GQDs在调节SG组装、蛋白质LLPS和纤维化方面的强大能力，并为合理设计GQDs作为蛋白质LLPS的有效调节剂用于治疗应用提供了启示。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37204199/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37204199/",
+  "paper_page_path": "papers/pubmed/37204199/index.html"
+}

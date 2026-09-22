@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2606.26272v1",
+  "title": "Droplet Fusion as a Relaxation Process: Comparison with Shape Recovery of Newtonian and Viscoelastic Droplets",
+  "doi": "10.1016/j.bpj.2026.08.005",
+  "abstract": "Biomolecular condensates formed by phase separation often exhibit viscoelastic behavior, yet their shape recovery and fusion dynamics are frequently interpreted using purely viscous models. Here, we develop a unified theoretical and computational framework to quantify how viscoelasticity governs these two processes. We combine analytical theory for small-deformation shape recovery with axisymmetric finite-element simulations based on the Oldroyd-B constitutive model to systematically investigate both shape recovery and droplet fusion under comparable conditions. Our results show that, although both processes are driven by capillary forces, they are fundamentally distinct in their underlying physics. Shape recovery is governed by global viscocapillary relaxation of a single connected interface and follows single- or multi-exponential decay depending on the relative magnitude of the viscocapillary timescale and the stress relaxation time. In contrast, droplet fusion is intrinsically a multistage process involving localized curvature-driven neck formation, rapid bridge expansion, and a transition to global relaxation. We demonstrate that viscoelasticity introduces an additional intrinsic timescale that governs the competition between capillary driving and stress relaxation, characterized by the Deborah number. This leads to enhanced intermediate-stage fusion dynamics and modified relaxation behavior compared to Newtonian droplets. Furthermore, we show that the presence of an exterior fluid introduces additional hydrodynamic dissipation, significantly slowing the fusion process. Finally, we compare the computationally predicted droplet fusion in the Newtonian and viscoelastic cases with a stretched-exponential empirical formula. Deviations observed in viscoelastic regimes highlight the limitations of purely viscous descriptions and the need for models incorporating stress relaxation.",
+  "authors": [
+    "Mohammad Moein Naderi",
+    "Zhangli Peng",
+    "Huan-Xiang Zhou"
+  ],
+  "published_date": "2026-06-24T18:12:21Z",
+  "updated_date": "2026-06-24T18:12:21Z",
+  "journal": "",
+  "category": "physics.flu-dyn, cond-mat.soft, physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2606.26272v1",
+  "pdf_url": "https://arxiv.org/pdf/2606.26272v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "physics.flu-dyn",
+    "cond-mat.soft",
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2606.26272v1",
+    "raw_categories": [
+      "physics.flu-dyn",
+      "cond-mat.soft",
+      "physics.bio-ph"
+    ],
+    "journal_ref": ""
+  }
+}

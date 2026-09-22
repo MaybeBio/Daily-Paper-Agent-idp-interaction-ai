@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41257331",
+  "title": "Across (Conformational) Space and (Relaxation) Time: Using Coarse-Grain Simulations to Probe the Intra- and Interdomain Dynamics of the Tau Protein.",
+  "authors": "Marien, Jules; Prevost, Chantal; Sacquin-Mora, Sophie",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-11-19",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用CALVADOS粗粒化MD模拟研究Tau蛋白（IDP）的构象系综与域内/域间动态，通过STO和局部柔性指标连接NMR弛豫与结合特性，虽未直接建模PPI，但为IDP互作机制提供了可迁移的构象与动态建模框架。",
+  "abstract": "The biological importance of intrinsically disordered proteins (IDPs) has been established for over two decades, yet these systems remain difficult to characterize, as they are better described by conformational ensembles instead of a single reference structure for their folded counterparts. Tau is a prominent member of the IDP family, which sees its cellular function regulated by multiple phosphorylation sites and whose hyperphosphorylation is involved in neurodegenerative diseases such as Alzheimer's. We used coarse-grain MD simulations with the CALVADOS model to investigate the conformational landscape of tau without and with phosphorylations. Characterizing the local compactness of IDPs allows us to highlight how disorder comes in various flavors, as we can define different domains along the tau sequence. We define the IDP's Statistical Tertiary Organization (STO) as the average spatial arrangements of domains, which constitute an extension of the tertiary structure of folded proteins. We also use IDP-specific metrics to characterize the local curvature and flexibility of tau. Comparing the local flexibilities with T2 relaxation times from NMR experiments, we show how this metric is related to the protein dynamics. A curvature and flexibility pattern in the repeat domains can also be connected to tau binding properties, without having to explicitly model the protein's interaction partner. Finally, we rediscuss the original paperclip model that describes the spatial organization of tau and how phosphorylations impact it. The resulting changes in the protein intradomain and interdomain interaction pattern allow us to propose experimental setups to test our hypothesis.",
+  "abstract_zh": "intrinsically disordered proteins（IDPs）的生物学重要性已被确立超过二十年，然而这些系统仍难以表征，因为它们更适合用构象系综来描述，而非像折叠蛋白那样依赖单一参考结构。Tau是IDP家族中的显著成员，其细胞功能受多个磷酸化位点调控，而其过度磷酸化与阿尔茨海默病等神经退行性疾病相关。我们使用CALVADOS模型的粗粒化分子动力学（molecular dynamics）模拟，研究了无磷酸化和有磷酸化情况下tau的构象景观。通过表征IDPs的局部紧凑性，我们能够突出无序性如何以多种形式呈现，因为我们可以沿tau序列定义不同结构域。我们将IDP的统计三级组织（Statistical Tertiary Organization, STO）定义为结构域的平均空间排列，这构成了折叠蛋白三级结构的延伸。我们还使用IDP特异性指标来表征tau的局部曲率和柔性。通过将局部柔性与NMR实验中的T2弛豫时间进行比较，我们展示了该指标与蛋白质动力学的关联。重复结构域中的曲率和柔性模式也可与tau的结合特性联系起来，而无需显式建模蛋白质的相互作用伙伴。最后，我们重新讨论了描述tau空间组织的原始回形针模型，以及磷酸化如何影响它。由此产生的蛋白质结构域内和结构域间相互作用模式的变化，使我们能够提出实验方案来检验我们的假设。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41257331/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41257331/",
+  "paper_page_path": "papers/pubmed/41257331/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.06.20.496772",
+  "title": "Molecular complex detection in protein interaction networks through reinforcement learning",
+  "authors": "Meghana V. Palukuri; Ridhi S. Patil; Edward M. Marcotte",
+  "journal": "bioRxiv",
+  "published_date": "2022-06-21",
+  "window": {
+    "start": "2022-06-20",
+    "end": "2022-06-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用强化学习在PPI网络上检测蛋白复合物，虽涉及互作网络与AI方法，但对象非无序蛋白/IDR/相分离，且未关注互作机制建模，仅提供可迁移的社区检测思路。",
+  "abstract": "Many, if not most, proteins assemble into higher-order complexes to perform their biological functions. Such protein-protein interactions (PPI) are often experimentally measured for pairs of proteins and summarized in a weighted PPI network, to which community detection algorithms can be applied to define the various higher-order protein complexes. Current methods, which include both unsupervised and supervised approaches, often assume that protein complexes manifest only as dense subgraphs, and in the case of supervised approaches, focus only on learning which subgraphs correspond to complexes, not how to find them in a network, a task that is currently solved using heuristics. However, learning to walk trajectories on a network with the goal of finding protein complexes lends itself naturally to a reinforcement learning (RL) approach, a strategy that has not been extensively explored for community detection. Here, we evaluated the use of a reinforcement learning pipeline for community detection in weighted protein-protein interaction networks to detect new protein complexes. Using known complexes, the algorithm is trained to calculate the value of different possible subgraph densities in the process of walking on the network to find a protein complex. Then, a distributed prediction algorithm scales the RL pipeline to search for protein complexes on large PPI networks. The reinforcement learning pipeline applied to a human PPI network consisting of 8k proteins and 60k PPI results in 1,157 protein complexes and shows competitive accuracy with improved speed when compared to previous algorithms. We highlight protein complexes harboring minimally characterized proteins including C4orf19, C18orf21, and KIAA1522, suggest TMC04 to be a putative additional subunit of the KICSTOR complex, and confirm the participation of C15orf41 in a higher-order complex with CDAN1, ASF1A, and HIRA by 3D structural modeling. Reinforcement learning offers several distinct advantages for community detection, including scalability and knowledge of the walk trajectories defining those communities.",
+  "abstract_zh": "许多（即便不是大多数）蛋白质会组装成高阶复合物以执行其生物学功能。这类蛋白质-蛋白质相互作用（PPI）通常通过实验对蛋白质对进行测量，并汇总为加权PPI网络，可应用社区检测算法来定义各种高阶蛋白质复合物。现有方法包括无监督和有监督两种途径，通常假设蛋白质复合物仅表现为密集子图，而在有监督方法中，仅专注于学习哪些子图对应于复合物，而非如何在网络中寻找它们，这一任务目前通过启发式方法解决。然而，以寻找蛋白质复合物为目标在网络中学习行走轨迹，自然适合采用强化学习（RL）方法，这一策略在社区检测中尚未被广泛探索。在此，我们评估了在加权蛋白质-蛋白质相互作用网络中使用强化学习流程进行社区检测以发现新蛋白质复合物的可行性。利用已知复合物，算法被训练用于在网络行走过程中计算不同可能子图密度的价值，以寻找蛋白质复合物。随后，一种分布式预测算法将RL流程扩展到大型PPI网络上搜索蛋白质复合物。将该强化学习流程应用于包含8k个蛋白质和60k个PPI的人类PPI网络，产生了1,157个蛋白质复合物，并与先前算法相比，在提高速度的同时显示出具有竞争力的准确性。我们重点介绍了含有最少特征化蛋白质（包括C4orf19、C18orf21和KIAA1522）的蛋白质复合物，建议TMC04可能是KICSTOR复合物的推定额外亚基，并通过3D结构建模确认了C15orf41在含有CDAN1、ASF1A和HIRA的高阶复合物中的参与。强化学习为社区检测提供了若干独特优势，包括可扩展性和定义这些社区的行走轨迹知识。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.06.20.496772",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.06.20.496772",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.06.20.496772/index.html"
+}

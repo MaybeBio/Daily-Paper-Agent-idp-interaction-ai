@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that FMRP modulates translation of proteins with predicted tendencies for liquid-liquid phase separation (LLPS), based on reanalysis of published ribosome profiling data and machine-learning sequence-based predictions
+- **Visible evidence base** Abstract text only; no methodological details, dataset identifiers, statistical outputs, or prediction scores are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset accession numbers, prediction tool parameters, statistical analysis details, and any validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis linking FMRP-regulated translation to proteins with LLPS propensity. However, the evidence base visible in the abstract is insufficient to evaluate the robustness of the bioinformatic analysis, the statistical significance of the enrichment claims, or the biological relevance of the predictions. The hypothesis is plausible and could be of interest to the Fragile X and phase separation communities, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying Fragile X Syndrome and Autism Spectrum Disorder mechanisms, investigators working on FMRP translational regulation, and the biomolecular condensate and phase separation community. The potential link between FMRP targets and LLPS-prone proteins could inform both neurodevelopmental disorder biology and condensate biology.
+- **Major strengths** The hypothesis is novel and timely, connecting two active research areas. The use of published ribosome profiling data and machine-learning prediction tools is a reasonable approach for generating a testable hypothesis. The potential implications for FXS and ASD are clinically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that proteins encoded by genes with significantly decreased translation in FK neurons are predicted to be enriched in intrinsically disordered regions and prone to LLPS
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any quantitative details about the enrichment analysis. No effect sizes, confidence intervals, p-values, or multiple testing corrections are reported. The criteria for "significantly decreased translation" in the reanalyzed datasets are not stated. The prediction tools PSPredictor and FuzDrop have known limitations and their outputs are probabilistic, yet no thresholds or validation metrics are described.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the observed enrichment is robust or could arise from technical artifacts in the prediction tools or from the selection criteria for differentially translated genes. The core claim of the paper depends entirely on this enrichment being statistically and biologically meaningful.
+  - **Resolution test** Provide the full statistical analysis including the number of genes analyzed, the enrichment test used, effect sizes with confidence intervals, and appropriate multiple testing corrections. Report the prediction score distributions and thresholds used for both tools. Ideally, validate a subset of predictions experimentally or with orthogonal computational methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The study compiles data from published ribosome profiling studies to identify genes with decreased translation in FK neurons
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No dataset identifiers, study references, or analysis pipelines are mentioned. The abstract does not state how many datasets were used, whether they were from different laboratories, what species or cell types were examined, or how heterogeneity across datasets was handled. The criteria for inclusion and exclusion of datasets are not described.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational reanalysis studies. Without clear dataset provenance and analysis details, the results cannot be independently verified or compared with other studies. The choice of datasets could substantially influence the gene lists and therefore the enrichment results.
+  - **Resolution test** List all datasets with accession numbers, describe the processing pipeline, state inclusion and exclusion criteria, and provide code or a detailed analysis protocol. If multiple datasets were combined, describe how batch effects and technical differences were addressed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation
+  - **Claim pointer** The findings suggest that FMRP modulates the translation of proteins involved in the formation of biomolecular condensates
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract moves from a computational prediction of LLPS propensity to a functional claim about biomolecular condensate formation. Prediction of LLPS tendency does not demonstrate that these proteins actually form condensates in neurons, nor that FMRP regulation of their translation has functional consequences for condensate biology. The causal chain from FMRP loss to altered translation of LLPS-prone proteins to condensate-related pathophysiology is not established.
+  - **Why it matters** The stated implications for FXS and ASD mechanisms depend on this functional link. If the predicted LLPS propensity does not translate to actual condensate behavior in neurons, the biological significance of the enrichment finding remains unclear.
+  - **Resolution test** Provide experimental evidence or strong literature support that the identified proteins form condensates in relevant neuronal contexts. Discuss whether altered translation levels of these proteins would plausibly affect condensate formation or function. If experimental validation is not possible, clearly frame the findings as hypothesis-generating rather than mechanistic.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "key regulator of translation in neurons" is broad and could be more specific about the nature of FMRP's regulatory role, such as whether it primarily represses or activates translation.
+  - **Required correction** Specify the direction of translational regulation attributed to FMRP in the context of the cited ribosome profiling studies.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract methods description
+  - **Evidence pointer** Abstract, methods sentence
+  - **Issue** The abstract mentions "bioinformatic analysis and machine-learning sequence-based tools" but does not describe the nature of the bioinformatic analysis beyond the two named tools.
+  - **Required correction** Briefly describe what additional bioinformatic analyses were performed, such as gene ontology enrichment, pathway analysis, or comparison with known FMRP target lists.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that the results "offer avenues for further exploration and targeted therapeutic interventions" is speculative and not directly supported by the data presented.
+  - **Required correction** Soften the therapeutic implication or provide a brief rationale for how this finding could inform therapeutic development.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative enrichment statistics and the lack of dataset provenance and analysis details prevent evaluation of the core claims. R1-M3 is not blocking but requires reframing or additional support.
+- **Assessment against Nature-style criteria** Originality: The hypothesis linking FMRP-regulated translation to LLPS-prone proteins is novel and not previously established in the literature. Scientific importance: The potential connection between a well-studied neurodevelopmental disorder protein and condensate biology could be significant if validated. Interdisciplinary readership: The topic bridges RNA biology, neurodevelopmental disorders, and biophysics, which could attract broad interest. Technical soundness: Cannot be assessed from the abstract alone; the lack of statistical and methodological detail is a major concern. Readability for nonspecialists: The abstract is generally accessible, though terms like "ribosome profiling" and "liquid-liquid phase separation" are used without brief explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and worth pursuing, but the abstract does not provide sufficient methodological and statistical detail to support the claims. A revised version with full quantitative results, dataset descriptions, and appropriate framing of the findings as hypothesis-generating could change this assessment.

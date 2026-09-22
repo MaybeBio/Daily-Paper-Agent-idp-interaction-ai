@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "38895487",
+    "doi": "10.1101/2024.06.03.597104",
+    "title": "Direct prediction of intermolecular interactions driven by disordered regions."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) are critical for a wide variety of cellular functions, many of which involve interactions with partner proteins. Molecular recognition is typically considered through the lens of sequence-specific binding events. However, a growing body of work has shown that IDRs often interact with partners in a manner that does not depend on the precise order of the amino acid order, instead driven by complementary chemical interactions leading to disordered bound-state complexes. Despite this emerging paradigm, we lack tools to describe, quantify, predict, and interpret these types of structurally heterogeneous interactions from the underlying amino acid sequences. Here, we repurpose the chemical physics developed originally for molecular simulations to develop an approach for predicting intermolecular interactions between IDRs and partner proteins. Our approach enables the direct prediction of phase diagrams, the identification of chemically-specific interaction hotspots on IDRs, and a route to develop and test mechanistic hypotheses regarding IDR function in the context of molecular recognition. We use our approach to examine a range of systems and questions to highlight its versatility and applicability.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ginell, Garrett M",
+        "Emenecker, Ryan J",
+        "Lotthammer, Jeffrey M",
+        "Usher, Emery T",
+        "Holehouse, Alex S"
+      ],
+      "short_names": [
+        "Ginell GM",
+        "Emenecker RJ",
+        "Lotthammer JM",
+        "Usher ET",
+        "Holehouse AS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6511-5480",
+        "ORCID: 0000-0001-7055-2773",
+        "ORCID: 0000-0002-5022-7006",
+        "ORCID: 0000-0002-8303-9992",
+        "ORCID: 0000-0002-4155-5729"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ginell, Garrett M",
+        "short_name": "Ginell GM",
+        "identifiers": [
+          "0000-0001-6511-5480"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO."
+        ]
+      },
+      {
+        "full_name": "Emenecker, Ryan J",
+        "short_name": "Emenecker RJ",
+        "identifiers": [
+          "0000-0001-7055-2773"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO."
+        ]
+      },
+      {
+        "full_name": "Lotthammer, Jeffrey M",
+        "short_name": "Lotthammer JM",
+        "identifiers": [
+          "0000-0002-5022-7006"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO."
+        ]
+      },
+      {
+        "full_name": "Usher, Emery T",
+        "short_name": "Usher ET",
+        "identifiers": [
+          "0000-0002-8303-9992"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [
+          "0000-0002-4155-5729"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jun 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/19 06:42",
+    "fetched_at": "2026-09-21 08:00:23"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42150060",
+      "41688823",
+      "40131954",
+      "39937084",
+      "39322280",
+      "38718835",
+      "38553587",
+      "38503281",
+      "38362050",
+      "38316988",
+      "38301272",
+      "38297184",
+      "38297118",
+      "38153183",
+      "38056064",
+      "37980572",
+      "37957331",
+      "37932412",
+      "37645312",
+      "37540173",
+      "37462277",
+      "37099901",
+      "36938874",
+      "36599672",
+      "36408920",
+      "36215496",
+      "35977086",
+      "35948766",
+      "35939561",
+      "35795820",
+      "35767567",
+      "35317553",
+      "35120642",
+      "35112738",
+      "34931046",
+      "34863777",
+      "34826385",
+      "34718738",
+      "34716273",
+      "34598580",
+      "34480923",
+      "34282049",
+      "34265844",
+      "34101805",
+      "34074792",
+      "33934416",
+      "33904398",
+      "33629837",
+      "33616531",
+      "33582133",
+      "33307683",
+      "33139563",
+      "33078839",
+      "32747754",
+      "32613009",
+      "32416068",
+      "32393642",
+      "32302572",
+      "32029630",
+      "31874413",
+      "31681941",
+      "31653829",
+      "31362509",
+      "31264965",
+      "31139718",
+      "30873835",
+      "30340123",
+      "30217894",
+      "29961577",
+      "29759983",
+      "29525204",
+      "29466338",
+      "29425488",
+      "29397728",
+      "29301985",
+      "29064502",
+      "28924037",
+      "28894006",
+      "28790177",
+      "28597296",
+      "28483149",
+      "28167781",
+      "28094985",
+      "27545621",
+      "27392146",
+      "27219701",
+      "26997484",
+      "26496610",
+      "26488642",
+      "26455390",
+      "26412307",
+      "26406374",
+      "26344712",
+      "26226339",
+      "25747659",
+      "25531225",
+      "25414335",
+      "24706910",
+      "23901099",
+      "23892456",
+      "23880425",
+      "22579282",
+      "22579281",
+      "22195967",
+      "19940160",
+      "19157855",
+      "19056732",
+      "18630860",
+      "18576630",
+      "18288109",
+      "18054235",
+      "17187068",
+      "12368089",
+      "11910019",
+      "11381529",
+      "10550212"
+    ],
+    "similar": [
+      "38895487",
+      "40403066",
+      "42475469",
+      "23912807",
+      "36851914",
+      "33248138",
+      "36908253",
+      "40944448",
+      "40650026",
+      "41534519",
+      "38252962",
+      "39763873",
+      "33078839",
+      "42585785",
+      "39446390",
+      "34179096",
+      "35139468",
+      "32696395",
+      "18831774",
+      "40060677",
+      "33087759",
+      "42150060",
+      "41232529",
+      "32824743",
+      "39933697",
+      "31709918",
+      "38915483",
+      "31521235",
+      "33243935",
+      "37986812",
+      "40574713",
+      "36959451",
+      "40756902",
+      "38883712",
+      "31441158",
+      "39589885",
+      "36291695",
+      "36528065",
+      "32112804",
+      "38166858",
+      "37961106",
+      "24115198",
+      "41276815",
+      "31889261",
+      "34390736",
+      "36005688",
+      "32696354",
+      "37609146",
+      "26149687",
+      "39600309",
+      "33267376",
+      "39383002",
+      "25286318",
+      "28780862",
+      "30878482",
+      "34461937",
+      "39811792",
+      "27881680",
+      "42306853",
+      "40131954",
+      "38297184",
+      "27787828",
+      "33076213",
+      "42598852",
+      "42244740",
+      "25424537",
+      "23056474",
+      "38459060",
+      "35883444",
+      "35098694",
+      "39093570",
+      "38662765",
+      "40997106",
+      "32743159",
+      "41688823",
+      "33616531",
+      "37657994",
+      "41667449",
+      "42527600",
+      "36833360",
+      "21647374",
+      "34074792",
+      "36458437",
+      "37463458",
+      "41033554",
+      "33207556",
+      "37736816",
+      "38941236",
+      "38987470",
+      "36824878",
+      "31207240",
+      "39433443",
+      "29763584",
+      "29066345",
+      "38297118",
+      "39713372",
+      "35767567",
+      "34951585",
+      "39539017",
+      "34285781"
+    ],
+    "review": [
+      "38895487",
+      "36851914",
+      "33248138",
+      "40650026",
+      "33078839",
+      "35139468",
+      "31709918",
+      "31521235",
+      "33243935",
+      "36959451",
+      "31441158",
+      "34390736",
+      "39600309",
+      "39811792",
+      "42306853",
+      "35098694",
+      "39093570",
+      "37657994",
+      "36833360",
+      "33207556"
+    ],
+    "pmc": [
+      "11185574"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38895487/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38895487",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.06.03.597104",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

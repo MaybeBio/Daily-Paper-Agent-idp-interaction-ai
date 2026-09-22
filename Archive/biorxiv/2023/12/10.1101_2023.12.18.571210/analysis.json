@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.18.571210",
+  "title": "High-throughput structure determination of an intrinsically disordered protein using cell-free protein crystallization",
+  "authors": "Mariko Kojima; Satoshi Abe; Tadaomi Furuta; Kunio Hirata; Xinchen Yao; Ayako Kobayashi; Ririko Kobayashi; Takafumi Ueno",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-19",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用无细胞蛋白结晶高通量解析c-Myc无序片段与结合伴侣互作时的α-螺旋结构，并鉴定稳定构象的关键残基，虽对象为IDP且涉及PPI，但方法为实验结晶而非AI/物理模拟，机制深度有限。",
+  "abstract": "Intrinsically disordered proteins (IDPs) play a crucial role in various biological phenomena, dynamically changing their conformations in response to external environmental cues. To gain a deeper understanding of these proteins, it is essential to identify the determinants that fix their structures at the atomic level. Here, we developed a pipeline for rapid crystal structure analysis of IDP using a cell-free protein crystallization (CFPC) method. Through this approach, we successfully demonstrated the determination of the structure of an IDP to uncover the key determinants that stabilize its conformation. Specifically, we focused on the 11-residue fragment of c-Myc, which forms an α-helix through dimerization with a binding partner protein. This fragment was strategically fused with an in-cell crystallizing protein and was expressed in a cell-free system. The resulting crystal structures of the c-Myc fragment were successfully determined at a resolution of 1.92 Å and we confirmed that they are identical to the structures of the complex with the native binding partner protein. This indicates that the environment of the scaffold crystal can fix the structure of c-Myc. Significantly, these crystals were obtained directly from a small reaction mixture (30 μL) incubated for only 72 hours. Analysis of 8 crystal structures derived from 22 mutants revealed two hydrophobic residues as the key determinants responsible for stabilizing the α-helical structure. These findings underscore the power of our CFPC screening method as a valuable tool for determining the structures of challenging target proteins and elucidating the essential molecular interactions that govern their stability.",
+  "abstract_zh": "固有无序蛋白（IDPs）在多种生物现象中扮演关键角色，其构象随外部环境信号动态变化。为深入理解这些蛋白质，必须在原子层面识别固定其结构的决定因素。在此，我们开发了一种利用无细胞蛋白质结晶（CFPC）方法快速解析IDP晶体结构的流程。通过该方法，我们成功展示了IDP结构的测定，以揭示稳定其构象的关键决定因素。具体而言，我们聚焦于c-Myc的11残基片段，该片段通过与结合伴侣蛋白二聚化形成α-螺旋。此片段被策略性地与细胞内结晶蛋白融合，并在无细胞系统中表达。所得c-Myc片段的晶体结构成功解析至1.92 Å分辨率，并确认其与天然结合伴侣蛋白复合物中的结构一致。这表明支架晶体的环境能够固定c-Myc的结构。值得注意的是，这些晶体直接从仅孵育72小时的小体积反应混合物（30 μL）中获得。对来自22个突变体的8个晶体结构分析揭示，两个疏水残基是稳定α-螺旋结构的关键决定因素。这些发现强调了我们的CFPC筛选方法作为测定挑战性靶蛋白结构及阐明控制其稳定性的关键分子相互作用的宝贵工具的强大能力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.18.571210",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.18.571210",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.18.571210/index.html"
+}

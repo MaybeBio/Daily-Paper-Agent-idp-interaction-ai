@@ -1,0 +1,674 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.04.15.439979",
+  "title": "Parallel and sequential pathways of molecular recognition of a tandem-repeat protein and its intrinsically disordered binding partner",
+  "doi": "10.1101/2021.04.15.439979",
+  "abstract": "The Wnt signalling pathway plays an important role in cell proliferation, differentiation and fate decisions in embryonic development and in the maintenance of adult tissues, and the twelve Armadillo (ARM) repeat-containing protein β-catenin acts as the signal transducer in this pathway. Here we investigate the interaction between β-catenin and the intrinsically disordered transcription factor TCF7L2, comprising a very long nanomolar-affinity interface of approximately 4800 Å 2 that spans ten of the twelve ARM repeats of β-catenin. First, a fluorescence reporter system for the interaction was engineered and used to determine the kinetic rate constants for the association and dissociation. The association kinetics of TCF7L2 and β-catenin was monophasic and rapid (7.3 ± 0.1 ×10 7 M -1 s -1 ), whereas dissociation was biphasic and slow (5.7 ± 0.4 ×10 −4 s -1 , 15.2 ± 2.8 ×10 −4 s -1 ). This reporter system was then combined with site-directed mutagenesis to investigate the striking variability in the conformation adopted by TCF7L2 in the three different crystal structures of the TCF7L2-β-catenin complex. We found that mutation of the N- and C-terminal subdomains of TCF7L2 that adopt relatively fixed conformations in the crystal structures has a large effect on the dissociation kinetics, whereas mutation of the labile sub-domain connecting them has negligible effect. These results point to a two-site avidity mechanism of binding with the linker region forming a “fuzzy” complex involving transient contacts that are not site-specific. Strikingly, two mutations in the N-terminal subdomain that have the largest effects on the dissociation kinetics showed two additional phases, indicating partial flux through an alternative dissociation pathway that is inaccessible to the wild type. The results presented here provide insights into the kinetics of molecular recognition of a long intrinsically disordered region with an elongated repeat-protein surface, a process found to involve parallel routes with sequential steps in each.",
+  "authors": [
+    "Ben M. Smith",
+    "Pamela J. E. Rowling",
+    "Chris M. Dobson",
+    "Laura S. Itzhaki"
+  ],
+  "published_date": "2021-04-15",
+  "updated_date": "2021-04-15T19:18:39Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.04.15.439979",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.04.15.439979.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:04:17Z",
+        "timestamp": 1768493057090,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            15
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 83,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                15
+              ]
+            ],
+            "date-time": "2021-04-15T00:00:00Z",
+            "timestamp": 1618444800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n                  The Wnt signalling pathway plays an important role in cell proliferation, differentiation and fate decisions in embryonic development and in the maintenance of adult tissues, and the twelve Armadillo (ARM) repeat-containing protein β-catenin acts as the signal transducer in this pathway. Here we investigate the interaction between β-catenin and the intrinsically disordered transcription factor TCF7L2, comprising a very long nanomolar-affinity interface of approximately 4800 Å\n                  <jats:sup>2</jats:sup>\n                  that spans ten of the twelve ARM repeats of β-catenin. First, a fluorescence reporter system for the interaction was engineered and used to determine the kinetic rate constants for the association and dissociation. The association kinetics of TCF7L2 and β-catenin was monophasic and rapid (7.3 ± 0.1 ×10\n                  <jats:sup>7</jats:sup>\n                  M\n                  <jats:sup>-1</jats:sup>\n                  s\n                  <jats:sup>-1</jats:sup>\n                  ), whereas dissociation was biphasic and slow (5.7 ± 0.4 ×10\n                  <jats:sup>−4</jats:sup>\n                  s\n                  <jats:sup>-1</jats:sup>\n                  , 15.2 ± 2.8 ×10\n                  <jats:sup>−4</jats:sup>\n                  s\n                  <jats:sup>-1</jats:sup>\n                  ). This reporter system was then combined with site-directed mutagenesis to investigate the striking variability in the conformation adopted by TCF7L2 in the three different crystal structures of the TCF7L2-β-catenin complex. We found that mutation of the N- and C-terminal subdomains of TCF7L2 that adopt relatively fixed conformations in the crystal structures has a large effect on the dissociation kinetics, whereas mutation of the labile sub-domain connecting them has negligible effect. These results point to a two-site avidity mechanism of binding with the linker region forming a “fuzzy” complex involving transient contacts that are not site-specific. Strikingly, two mutations in the N-terminal subdomain that have the largest effects on the dissociation kinetics showed two additional phases, indicating partial flux through an alternative dissociation pathway that is inaccessible to the wild type. The results presented here provide insights into the kinetics of molecular recognition of a long intrinsically disordered region with an elongated repeat-protein surface, a process found to involve parallel routes with sequential steps in each.\n                </jats:p>",
+      "DOI": "10.1101/2021.04.15.439979",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            15
+          ]
+        ],
+        "date-time": "2021-04-15T19:18:39Z",
+        "timestamp": 1618514319000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Parallel and sequential pathways of molecular recognition of a tandem-repeat protein and its intrinsically disordered binding partner"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Ben M.",
+          "family": "Smith",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pamela J. E.",
+          "family": "Rowling",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chris M.",
+          "family": "Dobson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6504-2576",
+          "authenticated-orcid": false,
+          "given": "Laura S.",
+          "family": "Itzhaki",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.onc.1210056"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1012668108"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0702580104"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature25762"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41568-020-00307-z"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a007906"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2011.07.015"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M109.047928"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1172/JCI200215429"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.5b00548"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(02)00631-7"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C3CP54226B"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0959-440X(02)00289-0"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/20.22.6203"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2005.09.078"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1000070",
+          "DOI": "10.1371/journal.pcbi.1000070",
+          "article-title": "The Energy Landscapes of Repeat-Containing Proteins: Topology, Cooperativity, and the Folding Funnels of One-Dimensional Architectures",
+          "volume": "4",
+          "year": "2008",
+          "journal-title": "PLoS Comput Biol"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms21051664"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M410215200"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ceb.2017.10.008"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gasteiger, E. , Hoogland, C. , Gattiker, A. , Duvaud, S. , Wilkins, M.R. , Appel, R.D. , and Bairoch, A. (2005). The Proteomics Protocols Handbook - Chapter 52: Protein Identification and Analysis Tools on the ExPASy Server (Totowa, NJ: Humana Press).",
+          "DOI": "10.1385/1-59259-890-0:571"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(00)00192-6"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsb718"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(02)00637-8"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi000891n"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2004.08.010"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm2927"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10552-008-9164-3"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2005.08.036"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.onc.1210029"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-10356-0"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(01)00330-0"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(00)80352-9"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.5b07370"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "2449",
+          "DOI": "10.1021/ac3035025",
+          "article-title": "Single-Molecule Studies of Intrinsically Disordered Proteins Using Solid-State Nanopores",
+          "volume": "85",
+          "year": "2013",
+          "journal-title": "Anal. Chem"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2012.01.042"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.onc.1210055"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.2001.4463"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr400525m"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2007.01.008"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0604653104"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1996.0399"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.42",
+          "first-page": "105",
+          "article-title": "Protein Dynamics and Conformational Disorder in Molecular Recognition",
+          "volume": "23",
+          "year": "2009",
+          "journal-title": "J. Mol. Recognit"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm2654"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0033583506004185"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-017-2560-7"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/bbrc.1999.0379"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi980250g"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20084"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.cellbio.22.010305.104241"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gde.2006.12.007"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsb720"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja309527h"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja4125065"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "4039",
+          "DOI": "10.1021/acs.biochem.0c00479",
+          "article-title": "The 15-Amino Acid Repeat Region of Adenomatous Polyposis Coli Is Intrinsically Disordered and Retains Conformational Flexibility upon Binding β-Catenin",
+          "volume": "59",
+          "year": "2020",
+          "journal-title": "Biochemistry"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2006.09.001"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1007339"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/embj.201385358"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.58",
+          "first-page": "66",
+          "article-title": "Binding without folding-the biomolecular function of disordered polyelectrolyte complexes",
+          "volume": "2020",
+          "year": "2019",
+          "journal-title": "Curr. Opin. Struct. Biol"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2017.02.003"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.biochi.2006.11.003"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1055-9965.EPI-07-2687"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "519",
+          "DOI": "10.1016/j.jmb.2010.11.010",
+          "article-title": "Biochemical and structural characterization of β-catenin interactions with nonphosphorylated and CK2-phosphorylated Lef-1. J",
+          "volume": "405",
+          "year": "2011",
+          "journal-title": "Mol. Biol"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0804709105"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.REV120.012413"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2018.04.008"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2013.08.028"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c0cs00057d"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.68",
+          "first-page": "903",
+          "article-title": "Using Gene-network Landscape to Dissect Genotype Effects of TCF7L2 Genetic Variant on Diabetes and Cardiovascular Risk. Physiol",
+          "volume": "44",
+          "year": "2012",
+          "journal-title": "Genomics"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi962766a"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "5389",
+          "DOI": "10.1016/S0040-4039(03)01304-2",
+          "article-title": "One-pot labeling and purification of peptides and proteins with fluorescein maleimide",
+          "volume": "44",
+          "year": "2003",
+          "journal-title": "Tetrahedron Lett"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.71",
+          "doi-asserted-by": "crossref",
+          "first-page": "200267",
+          "DOI": "10.1098/rsob.200267",
+          "article-title": "Walking the tight wire between cell adhesion and WNT signalling: a balancing act for β-catenin",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Open Biol"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41388-020-1259-7"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0705300105"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.74",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wiggers, F. , Wohl, S. , Dubovetskyi, A. , Rosenblum, G. , Zheng, W. , and Hofmann, H. (2021). Diffusion of the disordered E-cadherin tail on β -catenin tail. BioRxiv.",
+          "DOI": "10.1101/2021.02.03.429507"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.1424006"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2008.12.003"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(03)00234-X"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.1142603"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2004.08.001"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2007.12.021"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jcs.013771"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.82",
+          "first-page": "513",
+          "article-title": "The Loss of E-cadherin, α-and β-catenin Expression is Associated with Metastasis and Poor Prognosis in Invasive Breast Cancer",
+          "volume": "18",
+          "year": "2001",
+          "journal-title": "Int. J. Oncol"
+        },
+        {
+          "key": "2024080520312082000_2021.04.15.439979v1.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/humupd/dmt013"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.04.15.439979",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:35:34Z",
+        "timestamp": 1768440934000
+      },
+      "score": 103.56311,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.04.15.439979"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            15
+          ]
+        ]
+      },
+      "references-count": 83,
+      "URL": "https://doi.org/10.1101/2021.04.15.439979",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

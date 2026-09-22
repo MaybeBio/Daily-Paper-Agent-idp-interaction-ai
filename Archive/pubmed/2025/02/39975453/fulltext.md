@@ -1,0 +1,5 @@
+# Condensate Size Control by Net Charge
+
+
+## Abstract
+  Biomolecular condensates are complex droplets comprising diverse molecules that interact using various mechanisms. Condensation is often driven by short-ranged attraction, but net charges can also mediate long-ranged repulsion. Using molecular dynamics simulations and an equilibrium field theory, we show that such opposing interactions can suppress coarsening so that many droplets of equal size coexist at equilibrium. This size control depends strongly on the charge asymmetry between constituents, while the strength of the short-ranged attractions has a weak influence. Essentially, droplets expel ions, so they cannot screen electrostatics effectively, implying droplets acquire a net charge and cannot grow indefinitely. Our work reveals how electrostatic effects control droplet size, which is relevant for understanding biomolecular condensates and creating synthetic patterns in chemical engineering.

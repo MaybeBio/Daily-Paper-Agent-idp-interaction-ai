@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "41043050",
+    "doi": "10.1002/smll.202503466",
+    "title": "All-Aqueous Phase Segregation Integrated Electrochemical Aptamer Biosensor Enables Picomolar Detection of SARS-CoV-2 Spike Protein."
+  },
+  "content": {
+    "abstract": "Electrochemical aptamer biosensors (E-ABs) are promising tools for rapid point-of-care (POC) diagnosis which utilize aptamers for the molecular recognition of specific disease biomarkers. However, E-AB sensitivity is typically limited by the binding affinity (K(D)) of the aptamer (often in the micromolar-nanomolar range), while biomarker concentrations in biofluids are often at the picomolar level or below. Liquid-liquid phase separation (LLPS) provides a robust framework to concentrate the target biomarker based on affinity-controlled partitioning within an all-aqueous environment. In this study, the integration of LLPS into E-AB is reported to overcome the sensitivity limitation and achieve picomolar Severe acute respiratory syndroome coronavirus 2 spike protein (SARS-CoV-2 S protein) detection. Preferential spike protein partition upon LLPS is verified by microscopic imaging and biochemical assays. The LLPS-integrated E-AB is developed by a peroxidase catalytic reaction to generate electrical signals in the presence of the S protein. The LLPS demonstrates successful protein concentration from synthetic human biofluids and leads to at least 100-fold sensitivity improvement to the picomolar level of the limit of detection (LOD) by altering the volume ratio (VR) of the two segregated phases. This is the first report of an LLPS-embedded E-AB application, advancing the sensitivity of aptamer electrochemical biosensing without a multi-step downstream signal amplification cascade.",
+    "keywords": [
+      "SARS-CoV-2 spike protein",
+      "aptamer",
+      "electrochemical biosensor",
+      "liquid-liquid phase separation"
+    ],
+    "mesh_terms": [
+      "*Spike Glycoprotein, Coronavirus/analysis",
+      "*Biosensing Techniques/methods",
+      "*Aptamers, Nucleotide/chemistry",
+      "*SARS-CoV-2/isolation & purification",
+      "Humans",
+      "*Electrochemical Techniques/methods",
+      "*COVID-19/diagnosis/virology",
+      "Limit of Detection"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Siu, Ryan Ho-Ping",
+        "Zhang, Yage",
+        "Liu, Sihan",
+        "Kinghorn, Andrew Brian",
+        "Guo, Wei",
+        "Shum, Ho Cheung",
+        "Tanner, Julian Alexander"
+      ],
+      "short_names": [
+        "Siu RH",
+        "Zhang Y",
+        "Liu S",
+        "Kinghorn AB",
+        "Guo W",
+        "Shum HC",
+        "Tanner JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4018-986X"
+      ],
+      "affiliations": [
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, 999077, China.",
+        "Guangdong Key Laboratory of Biomedical Measurements and Ultrasound Imaging, School of Biomedical Engineering, Shenzhen University Medical School, Shenzhen University, Shenzhen, 518060, China.",
+        "Department of Mechanical Engineering, The University of Hong Kong, Hong Kong SAR, 999077, China.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, 999077, China.",
+        "Guangdong Key Laboratory of Biomedical Measurements and Ultrasound Imaging, School of Biomedical Engineering, Shenzhen University Medical School, Shenzhen University, Shenzhen, 518060, China.",
+        "Department of Mechanical Engineering, The University of Hong Kong, Hong Kong SAR, 999077, China.",
+        "Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong SAR, 999077, China.",
+        "Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong SAR, 999077, China.",
+        "Department of Chemistry & Department of Biomedical Engineering, City University of Hong Kong, Hong Kong SAR, 999077, China.",
+        "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, 999077, China.",
+        "Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong SAR, 999077, China.",
+        "Materials Innovation Institute for Life Sciences and Energy (MILES), HKU-SIRI, Shenzhen, Guangdong, 518063, China.",
+        "School of Biomedical Engineering, The University of Hong Kong, Hong Kong SAR, 999077, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Siu, Ryan Ho-Ping",
+        "short_name": "Siu RH",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, 999077, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yage",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Key Laboratory of Biomedical Measurements and Ultrasound Imaging, School of Biomedical Engineering, Shenzhen University Medical School, Shenzhen University, Shenzhen, 518060, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Sihan",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical Engineering, The University of Hong Kong, Hong Kong SAR, 999077, China."
+        ]
+      },
+      {
+        "full_name": "Kinghorn, Andrew Brian",
+        "short_name": "Kinghorn AB",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, 999077, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Wei",
+        "short_name": "Guo W",
+        "identifiers": [
+          "0000-0002-4018-986X"
+        ],
+        "affiliations": [
+          "Guangdong Key Laboratory of Biomedical Measurements and Ultrasound Imaging, School of Biomedical Engineering, Shenzhen University Medical School, Shenzhen University, Shenzhen, 518060, China.",
+          "Department of Mechanical Engineering, The University of Hong Kong, Hong Kong SAR, 999077, China.",
+          "Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong SAR, 999077, China."
+        ]
+      },
+      {
+        "full_name": "Shum, Ho Cheung",
+        "short_name": "Shum HC",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong SAR, 999077, China.",
+          "Department of Chemistry & Department of Biomedical Engineering, City University of Hong Kong, Hong Kong SAR, 999077, China."
+        ]
+      },
+      {
+        "full_name": "Tanner, Julian Alexander",
+        "short_name": "Tanner JA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Sciences, Li Ka Shing Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, 999077, China.",
+          "Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong SAR, 999077, China.",
+          "Materials Innovation Institute for Life Sciences and Energy (MILES), HKU-SIRI, Shenzhen, Guangdong, 518063, China.",
+          "School of Biomedical Engineering, The University of Hong Kong, Hong Kong SAR, 999077, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Small (Weinheim an der Bergstrasse, Germany)"
+    ],
+    "journal_abbrev": [
+      "Small"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/03 18:28",
+    "fetched_at": "2026-09-17 20:40:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40009034",
+      "39772502",
+      "39703130",
+      "39260373",
+      "39171488",
+      "39094782",
+      "38808573",
+      "38470514",
+      "37992319",
+      "37728515",
+      "36966131",
+      "36855862",
+      "36640305",
+      "36520671",
+      "36239383",
+      "36205360",
+      "35626973",
+      "35446532",
+      "34866796",
+      "34719874",
+      "34632900",
+      "34464491",
+      "34328683",
+      "34298166",
+      "34234347",
+      "34045455",
+      "33771993",
+      "33441395",
+      "33174738",
+      "32857487",
+      "32551560",
+      "32144739",
+      "31522101",
+      "28723142",
+      "27807400",
+      "26556593",
+      "24733714",
+      "21752387",
+      "14670748"
+    ],
+    "similar": [
+      "41043050",
+      "39852074",
+      "41228803",
+      "39492217",
+      "39067931",
+      "41775871",
+      "34657424",
+      "39329806",
+      "39451684",
+      "39362419",
+      "38470514",
+      "39793516",
+      "38772664",
+      "33576354",
+      "40080450",
+      "40292706",
+      "40133717",
+      "38896979",
+      "40516427",
+      "35446532",
+      "39276574",
+      "33080785",
+      "33651173",
+      "33429915",
+      "35671548",
+      "39226699",
+      "38342787",
+      "35414399",
+      "38749283",
+      "41101206",
+      "34328683",
+      "39517771",
+      "34571481",
+      "34741650",
+      "35339949",
+      "39599072",
+      "39126905",
+      "39277919",
+      "34356695",
+      "33434777",
+      "39133199",
+      "38788383",
+      "38537348",
+      "38764376",
+      "38785705",
+      "40044551",
+      "34274624",
+      "39928060",
+      "38793970",
+      "34375076",
+      "38218729",
+      "39059417",
+      "37182264",
+      "33358057",
+      "39256966",
+      "37321043",
+      "42068939",
+      "35949145",
+      "36641419",
+      "39499970",
+      "36716516",
+      "34715586",
+      "36361926",
+      "38636317",
+      "40693866",
+      "37864614",
+      "38675595",
+      "36052711",
+      "42269600",
+      "39727857",
+      "33547323",
+      "35628622",
+      "38608761",
+      "39093722",
+      "41686152",
+      "38810381",
+      "35323412",
+      "33629859",
+      "35743208",
+      "34081452",
+      "36520671",
+      "40274335",
+      "41053637",
+      "33729260",
+      "37506519",
+      "41228960",
+      "35247355",
+      "34714580",
+      "34876524",
+      "41576434",
+      "39996977",
+      "25460883",
+      "35910791",
+      "38814245",
+      "38754196",
+      "41770397",
+      "34041585",
+      "38815461",
+      "40865200",
+      "40855107"
+    ],
+    "review": [
+      "41043050"
+    ],
+    "pmc": [
+      "12614154"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41043050/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/smll.202503466",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

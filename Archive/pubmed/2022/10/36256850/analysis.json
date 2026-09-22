@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36256850",
+  "title": "How Does Gecko Keratin Stick to Hydrophilic and Hydrophobic Surfaces in the Presence and Absence of Water? An Atomistic Molecular Dynamics Investigation.",
+  "authors": "Materzok, Tobias; Canestraight, Annabelle; Gorb, Stanislav N; Muller-Plathe, Florian",
+  "journal": "ACS nano",
+  "published_date": "2022-10-19",
+  "window": {
+    "start": "2022-10-17",
+    "end": "2022-10-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用原子级分子动力学模拟壁虎角蛋白中无序区域与亲/疏水表面的粘附机制，聚焦IDR直接接触表面并解析静电与范德华贡献，虽非典型PPI但为IDR介导界面互作机制建模提供了可迁移的物理模拟范式。",
+  "abstract": "We developed a united-atom model of gecko keratin to investigate the influence of electrostatic and van der Waals contributions to gecko adhesion in scenarios representing gecko's natural habitats. The keratin model assumes that only intrinsically disordered regions directly contact the surface. Contact angles of two generic substrate surfaces that we created match those previously used in AFM experiments on gecko adhesion. Force probe molecular dynamics simulations pulling the keratin from the surface show that the pull-off force increases with increased water content and is inversely related to the water contact angle of the surface. This matches experimental trends. We investigated the number and charge density of keratin and water at the surface, confirming a water-mediating effect and are able to show that keratin folds polar groups to the hydrophilic surface. We decomposed energetic contributions during pull-off, and our computational model shows that in contrast to popular hypotheses, long-range electrostatic interactions determine much of the pull-off process. The contribution of electrostatics to adhesion may be in the order of the van der Waals contributions.",
+  "abstract_zh": "我们开发了一个壁虎角蛋白的全原子模型，以研究在代表壁虎自然栖息地的场景中静电和范德华力对壁虎粘附的影响。该角蛋白模型假设仅 intrinsically disordered regions（内在无序区域）直接接触表面。我们创建的两个通用基底表面的接触角与先前在壁虎粘附的AFM实验中使用的接触角相匹配。从表面拉动角蛋白的力探针分子动力学模拟显示，拔出力随水分含量的增加而增加，并与表面的水接触角成反比。这与实验趋势相符。我们研究了表面处角蛋白和水的数量及电荷密度，确认了水介导效应，并能够证明角蛋白将极性基团折叠至亲水表面。我们分解了拔出过程中的能量贡献，我们的计算模型表明，与流行假设相反，长程静电相互作用决定了拔出过程的大部分。静电对粘附的贡献可能与范德华力贡献相当。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36256850/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36256850/",
+  "paper_page_path": "papers/pubmed/36256850/index.html"
+}

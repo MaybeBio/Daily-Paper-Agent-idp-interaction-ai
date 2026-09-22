@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "41026846",
+    "doi": "10.1021/acs.jpcb.5c01245",
+    "title": "Disaggregation at High Volume Exclusion: An \"Overcrowding\" Effect."
+  },
+  "content": {
+    "abstract": "Macromolecular crowding has an impact on any process in liquids of living systems like the cytoplasm or blood caused by the high solid contents in these liquids. Although interactions might occur in as many facets as there are components in the solid content, the impact of macromolecules, like proteins, RNA, and DNA, establishes a considerable part of the solids, which is likely dominated by volume exclusion. However, cells are not homogeneously crowded, and local spots with exceptional crowding density and volume exclusion, like it is the case in some biomolecular condensates, exist. Here, we study the effect of such conditions on self-assembly processes using two distinct types of highly water-soluble macromolecular crowders (Ficoll and silica nanoparticles) and pseudo isocyanine chloride (PIC) acting as probe species. PIC exhibits fibrillar aggregates in analogy to many self-assembling proteins, while forming hierarchical structures in fulfilling specific tasks. The sharp J-band in UV-vis spectroscopy of the fibrillar PIC aggregates allows for precise detection of its self-assembly in complex systems. As expected, both crowders promote the process of self-assembly by depletion interactions. However, we observed a reversal of this effect due to topological constraints at crowder concentrations high enough to reach the overlap or space filling concentration. The work is complemented by molecular dynamics simulations and a preliminary study of the self-assembly of fibrinogen, a key player in blood clotting, in the presence of Ficoll, thereby validating what has been observed with PIC as a synthetic probe. Experiments and simulations suggest that at highest crowding conditions, the effects on biomolecular self-assembly may be reversed compared to what is excepted from previous studies in the field, leading to the phenomenon that we term \"overcrowding\".",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nanoparticles/chemistry",
+      "Silicon Dioxide/chemistry",
+      "*Ficoll/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Koch, Leon",
+        "Baier, Dominik",
+        "Rajput, Satyendra",
+        "Konig, Benedikt",
+        "Tiemann, Michael",
+        "Ebbinghaus, Simon",
+        "Nayar, Divya",
+        "Huber, Klaus"
+      ],
+      "short_names": [
+        "Koch L",
+        "Baier D",
+        "Rajput S",
+        "Konig B",
+        "Tiemann M",
+        "Ebbinghaus S",
+        "Nayar D",
+        "Huber K"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1711-2722",
+        "ORCID: 0000-0001-9309-1279",
+        "ORCID: 0000-0001-8569-7633",
+        "ORCID: 0000-0001-7512-206X"
+      ],
+      "affiliations": [
+        "Physical Chemistry, Paderborn University, Paderborn 33098, Germany.",
+        "Inorganic Chemistry, Paderborn University, Paderborn 33098, Germany.",
+        "Department of Materials Science and Engineering, Indian Institute of Technology Delhi, New Delhi 110016, India.",
+        "Lehrstuhl fur Biophysikalische Chemie, Ruhr-Universitat Bochum and Research Center Chemical Sciences and Sustainability, Research Alliance Ruhr, Bochum 44780, Germany.",
+        "Inorganic Chemistry, Paderborn University, Paderborn 33098, Germany.",
+        "Lehrstuhl fur Biophysikalische Chemie, Ruhr-Universitat Bochum and Research Center Chemical Sciences and Sustainability, Research Alliance Ruhr, Bochum 44780, Germany.",
+        "Department of Materials Science and Engineering, Indian Institute of Technology Delhi, New Delhi 110016, India.",
+        "Physical Chemistry, Paderborn University, Paderborn 33098, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Koch, Leon",
+        "short_name": "Koch L",
+        "identifiers": [],
+        "affiliations": [
+          "Physical Chemistry, Paderborn University, Paderborn 33098, Germany."
+        ]
+      },
+      {
+        "full_name": "Baier, Dominik",
+        "short_name": "Baier D",
+        "identifiers": [],
+        "affiliations": [
+          "Inorganic Chemistry, Paderborn University, Paderborn 33098, Germany."
+        ]
+      },
+      {
+        "full_name": "Rajput, Satyendra",
+        "short_name": "Rajput S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Materials Science and Engineering, Indian Institute of Technology Delhi, New Delhi 110016, India."
+        ]
+      },
+      {
+        "full_name": "König, Benedikt",
+        "short_name": "König B",
+        "identifiers": [],
+        "affiliations": [
+          "Lehrstuhl für Biophysikalische Chemie, Ruhr-Universität Bochum and Research Center Chemical Sciences and Sustainability, Research Alliance Ruhr, Bochum 44780, Germany."
+        ]
+      },
+      {
+        "full_name": "Tiemann, Michael",
+        "short_name": "Tiemann M",
+        "identifiers": [
+          "0000-0003-1711-2722"
+        ],
+        "affiliations": [
+          "Inorganic Chemistry, Paderborn University, Paderborn 33098, Germany."
+        ]
+      },
+      {
+        "full_name": "Ebbinghaus, Simon",
+        "short_name": "Ebbinghaus S",
+        "identifiers": [
+          "0000-0001-9309-1279"
+        ],
+        "affiliations": [
+          "Lehrstuhl für Biophysikalische Chemie, Ruhr-Universität Bochum and Research Center Chemical Sciences and Sustainability, Research Alliance Ruhr, Bochum 44780, Germany."
+        ]
+      },
+      {
+        "full_name": "Nayar, Divya",
+        "short_name": "Nayar D",
+        "identifiers": [
+          "0000-0001-8569-7633"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, Indian Institute of Technology Delhi, New Delhi 110016, India."
+        ]
+      },
+      {
+        "full_name": "Huber, Klaus",
+        "short_name": "Huber K",
+        "identifiers": [
+          "0000-0001-7512-206X"
+        ],
+        "affiliations": [
+          "Physical Chemistry, Paderborn University, Paderborn 33098, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Oct 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/30 18:28",
+    "fetched_at": "2026-09-17 20:40:26"
+  },
+  "links": {
+    "cites": [
+      "41614783"
+    ],
+    "refs": [],
+    "similar": [
+      "41026846",
+      "23912807",
+      "32154954",
+      "40522687",
+      "34904892",
+      "37580997",
+      "28425679",
+      "27960328",
+      "36321557",
+      "37504118",
+      "31059260",
+      "38387073",
+      "30380875",
+      "35833511",
+      "28599107",
+      "33744250",
+      "26080429",
+      "37098073",
+      "41169547",
+      "30555686",
+      "31291087",
+      "34206440",
+      "26870947",
+      "29265152",
+      "30737628",
+      "38808573",
+      "40651157",
+      "32569469",
+      "29248550",
+      "19167312",
+      "32254643",
+      "26325080",
+      "41700767",
+      "31547256",
+      "40509898",
+      "38226816",
+      "40763242",
+      "34266250",
+      "26153709",
+      "31994240",
+      "34291085",
+      "27797534",
+      "34525155",
+      "37216308",
+      "42012824",
+      "40626943",
+      "38309959",
+      "32210191",
+      "24915485",
+      "31667164",
+      "22988239",
+      "23402619",
+      "30963769",
+      "25339438",
+      "27936623",
+      "39224956",
+      "21634433",
+      "34904889",
+      "31251033",
+      "35654414",
+      "41004010",
+      "24491335",
+      "27028423",
+      "28024644",
+      "41593006",
+      "28837344",
+      "37086776",
+      "30066087",
+      "25535704",
+      "42018536",
+      "21133453",
+      "12397675",
+      "34022233",
+      "32760995",
+      "40022308",
+      "41273252",
+      "31261873",
+      "26383885",
+      "37779215",
+      "39375435",
+      "28510161",
+      "35019457",
+      "25302571",
+      "27801849",
+      "35661170",
+      "41565776",
+      "38073154",
+      "34813337",
+      "34246856",
+      "27842220",
+      "41667469",
+      "40978344",
+      "22947858",
+      "25413029",
+      "34313292",
+      "26351910",
+      "37410958",
+      "31572730",
+      "40162127",
+      "37781612"
+    ],
+    "review": [
+      "41026846",
+      "36321557",
+      "40763242",
+      "25339438",
+      "41004010",
+      "30066087",
+      "12397675",
+      "40022308",
+      "28510161",
+      "27842220",
+      "26351910"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c01245",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

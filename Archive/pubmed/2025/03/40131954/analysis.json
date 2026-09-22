@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40131954",
+  "title": "Prediction of phase-separation propensities of disordered proteins from sequence.",
+  "authors": "von Bulow, Soren; Tesei, Giulio; Zaidi, Fatima Kamal; Mittag, Tanja; Lindorff-Larsen, Kresten",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2025-03-25",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合粗粒化分子动力学模拟与主动学习，构建了直接从序列预测无序蛋白相分离自由能和饱和浓度的机器学习模型，并应用于人类蛋白质组，属于IDP相分离对象、互作机制（多价相互作用）与AI/物理模拟方法三者齐备的机制建模工作。",
+  "abstract": "Phase separation is one possible mechanism governing the selective cellular enrichment of biomolecular constituents for processes such as transcriptional activation, mRNA regulation, and immune signaling. Phase separation is mediated by multivalent interactions of macromolecules including intrinsically disordered proteins and regions (IDRs). Despite considerable advances in experiments, theory, and simulations, the prediction of the thermodynamics of IDR phase behavior remains challenging. We combined coarse-grained molecular dynamics simulations and active learning to develop a fast and accurate machine learning model to predict the free energy and saturation concentration for phase separation directly from sequence. We validate the model using computational and previously measured experimental data, as well as new experimental data for six proteins. We apply our model to all 27,663 IDRs of chain length up to 800 residues in the human proteome and find that 1,420 of these (5%) are predicted to undergo homotypic phase separation with transfer free energies < -2 k(B)T. We use our model to understand the relationship between single-chain compaction and phase separation and find that changes from charge- to hydrophobicity-mediated interactions can break the symmetry between intra- and intermolecular interactions. We also provide proof of principle for how the model can be used in force field refinement. Our work refines and quantifies the established rules governing the connection between sequence features and phase-separation propensities, and our prediction models will be useful for interpreting and designing cellular experiments on the role of phase separation, and for the design of IDRs with specific phase-separation propensities.",
+  "abstract_zh": "相分离（phase separation）是调控生物分子组分选择性富集于细胞中的一种可能机制，涉及转录激活、mRNA调控和免疫信号传导等过程。相分离由大分子（包括 intrinsically disordered proteins 和 intrinsically disordered regions (IDRs)）的多价相互作用介导。尽管在实验、理论和模拟方面取得了显著进展，但预测 IDR 相行为的热力学仍具挑战性。我们结合粗粒化分子动力学（coarse-grained molecular dynamics）模拟和主动学习，开发了一种快速且准确的机器学习模型，可直接从序列预测相分离的自由能和饱和浓度。我们使用计算数据、先前测量的实验数据以及六种蛋白质的新实验数据验证了该模型。我们将模型应用于人类蛋白质组中所有 27,663 个链长不超过 800 个残基的 IDR，发现其中 1,420 个（5%）被预测会发生同型相分离，其转移自由能 < -2 k(B)T。我们利用该模型理解单链压缩与相分离之间的关系，并发现从电荷介导到疏水性介导的相互作用变化可打破分子内与分子间相互作用的对称性。我们还提供了该模型在力场优化中应用的原理验证。我们的工作细化并量化了控制序列特征与相分离倾向之间联系的既有规则，我们的预测模型将有助于解释和设计关于相分离作用的细胞实验，以及设计具有特定相分离倾向的 IDR。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40131954/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40131954/",
+  "paper_page_path": "papers/pubmed/40131954/index.html"
+}

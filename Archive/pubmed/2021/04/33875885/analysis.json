@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33875885",
+  "title": "Critical assessment of protein intrinsic disorder prediction.",
+  "authors": "Necci, Marco; Piovesan, Damiano; Tosatto, Silvio C E",
+  "journal": "Nature methods",
+  "published_date": "2021-04-21",
+  "window": {
+    "start": "2021-04-19",
+    "end": "2021-04-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文是CAID盲测评估，系统比较43种无序蛋白预测方法，发现深度学习方法最优，但无序结合区域预测仍困难；虽涉及IDR与结合残基预测，但属方法评估而非互作机制建模，对课题有方法参考价值。",
+  "abstract": "Intrinsically disordered proteins, defying the traditional protein structure-function paradigm, are a challenge to study experimentally. Because a large part of our knowledge rests on computational predictions, it is crucial that their accuracy is high. The Critical Assessment of protein Intrinsic Disorder prediction (CAID) experiment was established as a community-based blind test to determine the state of the art in prediction of intrinsically disordered regions and the subset of residues involved in binding. A total of 43 methods were evaluated on a dataset of 646 proteins from DisProt. The best methods use deep learning techniques and notably outperform physicochemical methods. The top disorder predictor has F(max) = 0.483 on the full dataset and F(max) = 0.792 following filtering out of bona fide structured regions. Disordered binding regions remain hard to predict, with F(max) = 0.231. Interestingly, computing times among methods can vary by up to four orders of magnitude.",
+  "abstract_zh": "本质上无序的蛋白质，挑战了传统的蛋白质结构-功能范式，给实验研究带来了难题。由于我们的大部分知识依赖于计算预测，因此确保其高准确性至关重要。蛋白质内在无序预测的关键评估（CAID）实验作为一个基于社区的盲测建立，旨在确定预测本质上无序区域及参与结合的残基子集的最新水平。共有43种方法在来自DisProt的646个蛋白质数据集上进行了评估。最佳方法采用深度学习技术，显著优于物理化学方法。顶级无序预测器在完整数据集上的F(max)为0.483，在过滤掉真正的结构化区域后，F(max)为0.792。无序结合区域的预测仍然困难，F(max)为0.231。有趣的是，不同方法之间的计算时间差异可达四个数量级。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33875885/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33875885/",
+  "paper_page_path": "papers/pubmed/33875885/index.html"
+}

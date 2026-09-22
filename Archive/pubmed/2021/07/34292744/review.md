@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report X-ray photon correlation spectroscopy (XPCS) measurements on a protein solution undergoing liquid-liquid phase separation (LLPS). They claim that in the early stage of spinodal decomposition (SD), the kinetics relaxation is up to 40 times slower than the microscopic dynamics, allowing decoupling of the two. The microscopic dynamics are described as hyper-diffusive ballistic motions with a relaxation time that grows exponentially in the early stage, followed by a power-law increase with fluctuations. The experimental results are stated to be supported by Cahn-Hilliard simulations. The framework is claimed to be applicable to other condensed matter and biological systems undergoing phase transitions.
+- **Visible evidence base** Abstract text only; no quantitative data, figures, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, sample preparation details, XPCS data and analysis, simulation parameters and code, error analysis, and any supporting figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting approach to decoupling kinetics and dynamics in spinodal decomposition of a protein solution using XPCS. The claim of a 40-fold separation between kinetics relaxation and microscopic dynamics is striking and, if well supported, would be of value to the soft matter and biophysics communities. However, the abstract alone provides insufficient evidence to assess the robustness of the analysis, the validity of the hyper-diffusive ballistic model, or the quality of the simulation support. The central claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in soft condensed matter physics, biophysics, and physical chemistry studying phase separation phenomena, particularly those interested in the early-stage dynamics of spinodal decomposition. The decoupling framework and the use of XPCS to probe microscopic dynamics during LLPS would also appeal to those working on protein aggregation, membraneless organelle formation, and the development of coherent X-ray scattering techniques.
+- **Major strengths** The use of XPCS to directly probe microscopic dynamics during LLPS is a technically sophisticated approach. The explicit attempt to decouple kinetics from dynamics in the early stage of SD addresses a recognized challenge in the field. The combination of experimental XPCS with Cahn-Hilliard simulations provides a complementary theoretical check. The claim of a 40-fold separation is a clear, quantitative statement that, if correct, would be a notable advance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "the kinetics relaxation is up to 40 times slower than the dynamics and thus can be decoupled" in the early stage of SD.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states a 40-fold difference between kinetics relaxation and dynamics but provides no quantitative definition of either quantity, no error bars, no time window over which this factor holds, and no comparison across different protein concentrations or temperatures. Without these details, the reader cannot judge whether the decoupling is robust or an artifact of the chosen analysis window.
+  - **Why it matters** The central novelty of the work rests on this decoupling. If the 40-fold factor is not consistently reproducible or is sensitive to analysis choices, the main conclusion would be substantially weakened.
+  - **Resolution test** Provide a figure showing kinetics relaxation times and dynamic relaxation times as functions of time or wavevector, with error bars, for at least two conditions, and demonstrate that the 40-fold separation holds across the early-stage SD window.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The claim that "the microscopic dynamics can be well described by hyper-diffusive ballistic motions with a relaxation time exponentially growing with time in the early stage followed by a power-law increase with fluctuations."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts a specific functional form for the relaxation time growth but provides no fitting details, no goodness-of-fit metrics, no comparison to alternative models (e.g., diffusive or sub-diffusive), and no discussion of the physical origin of the "fluctuations" in the power-law regime. The term "hyper-diffusive ballistic" is also not defined in the abstract.
+  - **Why it matters** The functional form of the relaxation time is a key quantitative output. Without evidence that this model outperforms alternatives, the claim is not established.
+  - **Resolution test** Show representative correlation functions, fits to the proposed model, residuals, and a comparison to at least one alternative model (e.g., stretched exponential or diffusive) with statistical metrics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation support
+  - **Claim pointer** The claim that "these experimental results are further supported by simulations based on the Cahn-Hilliard equation."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions Cahn-Hilliard simulations but provides no information on the simulation parameters, system size, boundary conditions, or how the simulated dynamics were compared to the experimental XPCS data. Without this, the statement of support is unverifiable.
+  - **Why it matters** The simulation support is presented as a key validation of the experimental findings. If the simulations are not quantitatively matched to the experimental conditions, the support is weak.
+  - **Resolution test** Provide a figure overlaying simulated and experimental relaxation times or correlation functions, with a clear description of simulation parameters and any fitting or scaling procedures used.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "hyper-diffusive ballistic motions" is used without definition. It is unclear whether this refers to a specific exponent in the mean-squared displacement or a particular form of the intermediate scattering function.
+  - **Required correction** Define the term explicitly in the abstract or refer to a specific equation in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Applicability claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the framework is "applicable to other condensed matter and biological systems undergoing phase transitions" but provides no argument or evidence for why the decoupling should hold beyond the specific protein system studied.
+  - **Required correction** Add a sentence in the abstract or main text explaining the physical basis for expecting general applicability, or soften the claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the protein, concentration, temperature, or ionic conditions used. This limits the reader's ability to contextualize the findings.
+  - **Required correction** Include the protein name and key solution conditions in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (decoupling factor not quantitatively supported), R1-M2 (model not validated against alternatives), R1-M3 (simulation support not documented)
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of using XPCS to decouple kinetics and dynamics in early-stage SD is not entirely new, but the specific application to protein LLPS and the reported 40-fold separation could be original. However, the abstract does not clearly position the work against prior XPCS studies of phase separation.
+  - Scientific importance: If the decoupling is robust, the work could provide a useful framework for studying early-stage dynamics in a range of systems. The importance is moderate to high, but the abstract does not articulate the broader implications beyond a general statement.
+  - Interdisciplinary readership: The topic sits at the intersection of soft matter physics, biophysics, and physical chemistry. The abstract is written in a way that is accessible to specialists in these fields, but the lack of definitions for key terms may limit accessibility to a broader readership.
+  - Technical soundness: Not assessable from the abstract alone. The claims require detailed experimental and simulation evidence that is not provided.
+  - Readability for nonspecialists: The abstract is concise and generally clear, but terms like "hyper-diffusive ballistic" and "kinetics relaxation" are not explained, which would hinder a nonspecialist reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting claims, but the lack of quantitative detail, model validation, and simulation documentation means the case is not made. I would be supportive if the full manuscript addresses the concerns raised, particularly R1-M1, R1-M2, and R1-M3.
+
+## Risk / unsupported claims
+- The 40-fold decoupling factor is unsupported without quantitative data and error analysis.
+- The hyper-diffusive ballistic model is unsupported without fitting details and comparison to alternatives.
+- The Cahn-Hilliard simulation support is unverifiable without simulation parameters and comparison methodology.
+- The general applicability of the framework to other systems is an assertion without supporting argument or evidence.

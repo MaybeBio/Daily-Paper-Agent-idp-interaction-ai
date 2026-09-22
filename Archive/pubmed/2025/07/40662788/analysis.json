@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40662788",
+  "title": "LoRA-DR-suite: adapted embeddings predict intrinsic and soft disorder from protein sequences.",
+  "authors": "Lombardi, Gianluca; Seoane, Beatriz; Carbone, Alessandra",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2025-07-15",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用LoRA适配器结合蛋白质语言模型预测内在无序和软无序区域，虽涉及IDR和AI方法，但未聚焦PPI或互作机制建模，故为中档。",
+  "abstract": "MOTIVATION: Intrinsic disorder regions (IDR) and soft disorder regions (SDR) provide crucial information on a protein structure to underpin its functioning, interaction with other molecules and assembly path. Circular dichroism experiments are used to identify intrinsic disorder residues, while SDRs are characterized using B-factors, missing residues, or a combination of both in alternative X-ray crystal structures of the same molecule. These flexible regions in proteins are particularly significant in diverse biological processes and are often implicated in pathological conditions. Accurate computational prediction of these disordered regions is thus essential for advancing protein research and understanding their functional implications. RESULTS: LoRA-DR-suite addresses the challenge and employs a simple adapter-based architecture that utilizes protein language models embeddings as protein sequence representations, enabling the precise prediction of IDRs and SDRs directly from primary sequence data. Alongside the fast LoRA-DR-suite implementation, we release SoftDis, a unique soft disorder database constructed for approximately 500 000 PDB chains. SoftDis is designed to facilitate new research, testing, and applications on soft disorder, advancing the study of protein dynamics and interactions. AVAILABILITY: LoRA-DR-suite and SoftDis database are available at https://huggingface.co/CQSB.",
+  "abstract_zh": "动机：内在无序区域（IDR）和软无序区域（SDR）为蛋白质结构提供了关键信息，以支撑其功能、与其他分子的相互作用及组装路径。圆二色谱实验用于识别内在无序残基，而SDR则通过B因子、缺失残基或两者在同一分子的替代X射线晶体结构中的组合来表征。蛋白质中的这些柔性区域在多种生物过程中尤为重要，并常与病理状态相关。因此，对这些无序区域进行准确的计算预测对于推进蛋白质研究及理解其功能意义至关重要。结果：LoRA-DR-suite解决了这一挑战，采用基于适配器的简单架构，利用蛋白质语言模型嵌入作为蛋白质序列表示，从而能够直接从初级序列数据中精确预测IDR和SDR。除了快速的LoRA-DR-suite实现外，我们还发布了SoftDis，这是一个为约500 000条PDB链构建的独特软无序数据库。SoftDis旨在促进软无序的新研究、测试和应用，推进蛋白质动力学和相互作用的研究。可用性：LoRA-DR-suite和SoftDis数据库可在https://huggingface.co/CQSB获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40662788/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40662788/",
+  "paper_page_path": "papers/pubmed/40662788/index.html"
+}

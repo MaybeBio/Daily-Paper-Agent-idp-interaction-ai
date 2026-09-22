@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33937250",
+  "title": "Membrane Interactions of the Peroxisomal Proteins PEX5 and PEX14.",
+  "authors": "Gaussmann, Stefan; Gopalswamy, Mohanraj; Eberhardt, Maike; Reuter, Maren; Zou, Peijian; Schliebs, Wolfgang; Erdmann, Ralf; Sattler, Michael",
+  "journal": "Frontiers in cell and developmental biology",
+  "published_date": "2021-05-04",
+  "window": {
+    "start": "2021-05-03",
+    "end": "2021-05-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究过氧化物酶体转运蛋白PEX5无序N端域与PEX14的膜上互作，结合NMR/ITC揭示膜对结合亲和力影响及机制，对象为IDR且涉及PPI机制，但方法为实验而非AI/物理模拟，故评7分。",
+  "abstract": "Human PEX5 and PEX14 are essential components of the peroxisomal translocon, which mediates import of cargo enzymes into peroxisomes. PEX5 is a soluble receptor for cargo enzymes comprised of an N-terminal intrinsically disordered domain (NTD) and a C-terminal tetratricopeptide (TPR) domain, which recognizes peroxisomal targeting signal 1 (PTS1) peptide motif in cargo proteins. The PEX5 NTD harbors multiple WF peptide motifs (WxxxF/Y or related motifs) that are recognized by a small globular domain in the NTD of the membrane-associated protein PEX14. How the PEX5 or PEX14 NTDs bind to the peroxisomal membrane and how the interaction between the two proteins is modulated at the membrane is unknown. Here, we characterize the membrane interactions of the PEX5 NTD and PEX14 NTD in vitro by membrane mimicking bicelles and nanodiscs using NMR spectroscopy and isothermal titration calorimetry. The PEX14 NTD weakly interacts with membrane mimicking bicelles with a surface that partially overlaps with the WxxxF/Y binding site. The PEX5 NTD harbors multiple interaction sites with the membrane that involve a number of amphipathic alpha-helical regions, which include some of the WxxxF/Y-motifs. The partially formed alpha-helical conformation of these regions is stabilized in the presence of bicelles. Notably, ITC data show that the interaction between the PEX5 and PEX14 NTDs is largely unaffected by the presence of the membrane. The PEX5/PEX14 interaction exhibits similar free binding enthalpies, where reduced binding enthalpy in the presence of bicelles is compensated by a reduced entropy loss. This demonstrates that docking of PEX5 to PEX14 at the membrane does not reduce the overall binding affinity between the two proteins, providing insights into the initial phase of PEX5-PEX14 docking in the assembly of the peroxisome translocon.",
+  "abstract_zh": "人PEX5和PEX14是过氧化物酶体转位子（peroxisomal translocon）的关键组分，该转位子介导货物酶向过氧化物酶体的输入。PEX5是货物酶的可溶性受体，由N端 intrinsically disordered domain (NTD) 和C端 tetratricopeptide (TPR) 结构域组成，后者识别货物蛋白中的过氧化物酶体靶向信号1 (PTS1) 肽基序。PEX5 NTD包含多个WF肽基序（WxxxF/Y或相关基序），这些基序被膜相关蛋白PEX14的NTD中的一个小球状结构域识别。PEX5或PEX14 NTD如何结合过氧化物酶体膜，以及这两种蛋白之间的相互作用在膜上如何被调节，目前尚不清楚。在此，我们通过膜模拟双分子层（bicelles）和纳米盘（nanodiscs），利用核磁共振波谱（NMR spectroscopy）和等温滴定量热法（isothermal titration calorimetry）在体外表征了PEX5 NTD和PEX14 NTD的膜相互作用。PEX14 NTD与膜模拟双分子层弱相互作用，其表面部分与WxxxF/Y结合位点重叠。PEX5 NTD包含多个与膜的相互作用位点，涉及多个两亲性α-螺旋区域，其中包括一些WxxxF/Y基序。这些区域的部分形成的α-螺旋构象在双分子层存在下得到稳定。值得注意的是，ITC数据显示，PEX5和PEX14 NTD之间的相互作用在很大程度上不受膜存在的影响。PEX5/PEX14相互作用表现出相似的自由结合焓，其中在双分子层存在下减少的结合焓被减少的熵损失所补偿。这表明，PEX5在膜上对接至PEX14并不降低两种蛋白之间的整体结合亲和力，为过氧化物酶体转位子组装中PEX5-PEX14对接的初始阶段提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33937250/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33937250/",
+  "paper_page_path": "papers/pubmed/33937250/index.html"
+}

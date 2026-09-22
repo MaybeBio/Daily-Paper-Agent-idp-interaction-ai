@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.31.428975",
+  "title": "Protein model accuracy estimation empowered by deep learning and inter-residue distance prediction in CASP14",
+  "authors": "Xiao Chen; Jian Liu; Zhiye Guo; Tianqi Wu; Jie Hou; Jianlin Cheng",
+  "journal": "bioRxiv",
+  "published_date": "2021-02-01",
+  "window": {
+    "start": "2021-02-01",
+    "end": "2021-02-07"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习预测残基间距离来估计蛋白质模型精度，对象是折叠蛋白结构而非无序蛋白，且不涉及PPI或互作机制，仅对模型排序有间接启发。",
+  "abstract": "The inter-residue contact prediction and deep learning showed the promise to improve the estimation of protein model accuracy (EMA) in the 13th Critical Assessment of Protein Structure Prediction (CASP13). During the 2020 CASP14 experiment, we developed and tested several EMA predictors that used deep learning with the new features based on inter-residue distance/contact predictions as well as the existing model quality features. The average global distance test (GDT-TS) score loss of ranking CASP14 structural models by three multi-model MULTICOM EMA predictors (MULTICOM-CONSTRUCT, MULTICOM-AI, and MULTICOM-CLUSTER) is 0.073, 0.079, and 0.081, respectively, which are ranked first, second, and third places out of 68 CASP14 EMA predictors. The single-model EMA predictor (MULTICOM-DEEP) is ranked 10th place among all the single-model EMA methods in terms of GDT_TS score loss. The results show that deep learning and contact/distance predictions are useful in ranking and selecting protein structural models.",
+  "abstract_zh": "残基间接触预测和深度学习在第13届蛋白质结构预测关键评估（CASP13）中显示出改善蛋白质模型准确性估计（EMA）的潜力。在2020年CASP14实验中，我们开发并测试了几种EMA预测器，这些预测器利用深度学习，结合基于残基间距离/接触预测的新特征以及现有的模型质量特征。通过三个多模型MULTICOM EMA预测器（MULTICOM-CONSTRUCT、MULTICOM-AI和MULTICOM-CLUSTER）对CASP14结构模型进行排序的平均全局距离测试（GDT-TS）分数损失分别为0.073、0.079和0.081，在68个CASP14 EMA预测器中分别排名第一、第二和第三。单模型EMA预测器（MULTICOM-DEEP）在GDT_TS分数损失方面，在所有单模型EMA方法中排名第10位。结果表明，深度学习和接触/距离预测在蛋白质结构模型的排序和选择中具有实用性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.31.428975",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.31.428975",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.31.428975/index.html"
+}

@@ -1,0 +1,42 @@
+{
+  "source": "arxiv",
+  "source_id": "2402.18379v1",
+  "title": "Embracing Disorder in Quantum Materials Design",
+  "doi": "10.1063/5.0203647",
+  "abstract": "Many of the most exciting materials discoveries in fundamental condensed matter physics are made in systems hosting some degree of intrinsic disorder. While disorder has historically been regarded as something to be avoided in materials design, it is often of central importance to correlated and quantum materials. This is largely driven by the conceptual and theoretical ease to handle, predict, and understand highly uniform systems that exhibit complex interactions, symmetries and band structures. In this perspective, we highlight how flipping this paradigm has enabled exciting possibilities in the emerging field of high entropy oxide (HEO) quantum materials. These materials host high levels of cation or anion compositional disorder while maintaining unexpectedly uniform single crystal lattices. The diversity of atomic scale interactions of spin, charge, orbital, and lattice degrees of freedom are found to emerge into coherent properties on much larger length scales. Thus, altering the variance and magnitudes of the atomic scale properties through elemental selection can open new routes to tune global correlated phases such as magnetism, metal-insulator transitions, ferroelectricity, and even emergent topological responses. The strategy of embracing disorder in this way provides a much broader pallet from which functional states can be designed for next-generation microelectronic and quantum information systems.",
+  "authors": [
+    "A. R. Mazza",
+    "J. Yan",
+    "S. Middey",
+    "J. S. Gardner",
+    "A. -H. Chen",
+    "M. Brahlek",
+    "T. Z. Ward"
+  ],
+  "published_date": "2024-02-28T15:00:25Z",
+  "updated_date": "2024-02-28T15:00:25Z",
+  "journal": "",
+  "category": "cond-mat.str-el, cond-mat.dis-nn, cond-mat.mtrl-sci, quant-ph",
+  "landing_url": "https://arxiv.org/abs/2402.18379v1",
+  "pdf_url": "https://arxiv.org/pdf/2402.18379v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.str-el",
+    "cond-mat.dis-nn",
+    "cond-mat.mtrl-sci",
+    "quant-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2402.18379v1",
+    "raw_categories": [
+      "cond-mat.str-el",
+      "cond-mat.dis-nn",
+      "cond-mat.mtrl-sci",
+      "quant-ph"
+    ],
+    "journal_ref": ""
+  }
+}

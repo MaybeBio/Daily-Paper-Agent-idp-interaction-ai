@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, author summary, introduction, results, discussion, methods, figure legends, and supplementary legends
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and presentation, based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors use AlphaFold2 multimer to predict protein-protein interactions (PPIs) in Drosophila melanogaster from STRING database associations, report that functional associations contribute to high-confidence predictions, and identify a prevalent role for intrinsically disordered regions (IDRs) in mediating these predicted interactions
+- **Visible evidence base** Main text figures (Figures 1-5), supplementary figures (S1-S6), supplementary tables (S1-S4), and supplementary appendices (S1-S5), all referenced but not directly viewable in the provided material
+- **Missing materials affecting confidence** All figures, tables, and appendices are referenced but not provided; no numerical data, statistical outputs, or model quality distributions are directly visible; the web interface is not assessed
+
+## Reviewer
+- **Overall assessment** This manuscript presents a large-scale structural prediction effort for Drosophila PPIs using AlphaFold2 multimer, with a focus on the contribution of functional associations and the role of IDRs. The topic is timely and the resource has potential utility for the Drosophila community. However, the current text does not provide sufficient quantitative detail to evaluate the robustness of the central claims. Key metrics, such as the distribution of pDockQ scores across evidence categories, the statistical significance of the IDR binding mode classifications, and the validation of predicted interfaces against experimental structures, are not presented in the visible text. The manuscript would benefit from a more rigorous comparative analysis against existing experimental PPI datasets and a clearer articulation of the novelty relative to prior AlphaFold-based interactome studies.
+- **Who would be interested in the results, and why** Drosophila geneticists and cell biologists interested in protein interaction networks, structural biologists studying IDR-mediated interactions, and computational biologists developing or applying deep learning methods for interactome prediction. The predicted interactome resource and web interface could serve as a hypothesis generation tool for experimental studies in Drosophila.
+- **Major strengths**
+  - The study addresses a significant gap in structural coverage of PPIs in a non-mammalian model organism
+  - The integration of functional association data with structural prediction is a sensible and potentially valuable approach
+  - The focus on IDR-mediated binding modes at scale is a novel angle that could inform future experimental work
+  - The provision of a web interface and public data deposition enhances the utility of the resource
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that "functional associations contribute significantly to high-confidence predictions" and that 81% of high-confidence predictions are supported by physical evidence in STRING
+  - **Evidence pointer** Results section, first subsection; Figure 1a; S2 Fig
+  - **Concern** The quantitative basis for this claim is not visible in the text. The proportions of high-confidence predictions across the five STRING evidence categories are stated, but no statistical comparison is provided to demonstrate that functional associations contribute "significantly" beyond what would be expected by chance. The overlap analysis with the STRING physical subnetwork is described only in percentage terms without confidence intervals or a null model. The claim that functional associations are important for prediction success requires a formal statistical framework, such as a comparison of prediction success rates between functional-only and physical-only evidence groups, or a regression model controlling for protein abundance, expression level, or other confounders.
+  - **Why it matters** The central methodological contribution of the paper is the inclusion of functional associations in structural PPI prediction. Without a rigorous statistical demonstration that these associations improve prediction performance, the core claim is not established. This is essential for justifying the approach to the community.
+  - **Resolution test** Provide a statistical comparison of pDockQ distributions or high-confidence prediction rates across evidence categories, with appropriate multiple testing correction. Include a null model or permutation test to show that the observed contribution of functional associations exceeds chance expectation. Report effect sizes and confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors classify 98.8% of predicted high-confidence PPIs as involving IDRs, with 51.7% classified as conditionally folded binding and 21.0% as coil-to-order binding
+  - **Evidence pointer** Results section, fourth subsection; Figure 3a; Methods section, "Infer disordered, coil, and conditionally folded regions"
+  - **Concern** The classification of binding modes relies on definitions that are not fully operationalized in the visible text. The threshold for IDR definition (ISD > 0.5 for five consecutive residues) and the conditionally folded definition (high pDockQ and high ISD) are stated, but the criteria for distinguishing "disordered binding" from "coil-to-order binding" are unclear. The use of a one-sided Fisher exact test to detect secondary structure changes between monomer and complex is described, but the multiple testing burden across thousands of interfaces is not addressed. The high proportion of IDR involvement (98.8%) is surprising and may reflect overly permissive definitions, which could inflate the perceived importance of IDRs.
+  - **Why it matters** The claim that IDRs are prevalent in PPI interfaces is a major finding of the paper. If the classification criteria are too permissive or the statistical thresholds are not properly controlled, the conclusion could be an artifact of the method rather than a biological property. This would mislead the field about the true prevalence of IDR-mediated interactions.
+  - **Resolution test** Provide a detailed description of the classification algorithm with explicit decision boundaries. Report the distribution of interface sizes and secondary structure changes. Apply a multiple testing correction (e.g., Benjamini-Hochberg) to the Fisher exact tests. Validate the classification on a set of experimentally determined complexes with known binding modes to demonstrate accuracy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that their predictions "offer a high-confidence resource for hypothesis generation" and that the study "highlights the importance of incorporating functional interactions in predicting physical interactions between proteins"
+  - **Evidence pointer** Discussion section, first and second paragraphs
+  - **Concern** The novelty of this work relative to prior AlphaFold-based interactome studies is not clearly articulated. Several large-scale structural interactome predictions have been published for human and yeast systems, and the methodological approach of combining STRING scores with AlphaFold2 multimer is not new. The authors do not compare their predictions with existing experimental Drosophila PPI datasets (e.g., from mass spectrometry or yeast two-hybrid) to demonstrate added value. The claim that functional associations are important is not benchmarked against a baseline using only physical evidence.
+  - **Why it matters** For a resource paper, the demonstration of added value over existing datasets and methods is critical. Without a clear benchmark or comparison, the contribution of this work to the field is unclear. The authors need to show what new biological insights or improved predictions their approach provides.
+  - **Resolution test** Include a comparison of the predicted interactome with existing experimental Drosophila PPI datasets, reporting recall and precision. Benchmark the prediction performance against a baseline using only physical evidence from STRING. Discuss explicitly how this resource differs from and complements prior AlphaFold interactome studies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract and Author Summary
+  - **Evidence pointer** Abstract, Author Summary
+  - **Issue** The abstract and author summary are somewhat redundant and do not clearly distinguish the key novel findings from the methodological details. The phrase "binding interference from intrinsically disordered regions" in the title is not directly supported by the visible text, which focuses on IDR involvement in binding rather than interference.
+  - **Required correction** Revise the title to reflect the actual findings, such as "widespread IDR-mediated binding" rather than "binding interference." Streamline the abstract to highlight the most novel and impactful results, such as the proportion of IDR-mediated interactions and the value of functional associations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section, "Extracting representative PPIs from the STRING database"
+  - **Evidence pointer** Methods section, first subsection
+  - **Issue** The clustering at 50% sequence identity using MMseqs2 is described, but the impact of this clustering on the final PPI set is not discussed. The reduction from 107,946 to 34,940 PPIs is substantial, and the authors do not state how many proteins were retained or whether the clustering introduced biases toward particular protein families.
+  - **Required correction** Report the number of protein clusters and the distribution of cluster sizes. Discuss potential biases introduced by clustering, such as the exclusion of paralogous interactions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section, "Predicted high-confidence D. melanogaster physical protein-protein interaction network"
+  - **Evidence pointer** Results section, first subsection
+  - **Issue** The text states that 52% of high-confidence predictions are supported by STRING physical evidence at score ≥ 0.9, and 81% at score ≥ 0.4. The relationship between these percentages and the total number of predictions is not immediately clear, and the reader must infer the counts.
+  - **Required correction** Provide the absolute numbers alongside the percentages to improve clarity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section, "Sequence conservation analysis"
+  - **Evidence pointer** Methods section, fifth subsection
+  - **Issue** The list of 15 genomes is mentioned in Table S4, but the criteria for selecting these genomes and the method for defining orthologs (reciprocal best hit) are not described in sufficient detail. The evolutionary analysis of IDR interfaces is a key part of the paper, but the methods are thin.
+  - **Required correction** Expand the methods to describe the genome selection criteria, the blastp parameters, and how orthology was confirmed. State how many orthologous groups were identified and how conservation was quantified.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion section, first paragraph
+  - **Evidence pointer** Discussion section, first paragraph
+  - **Issue** The discussion of the discrepancy between functional and physical interactions is useful but could be more concise. The three factors listed are reasonable but are not directly tested in the study.
+  - **Required correction** Consider moving some of this speculative discussion to a "Limitations" subsection and focus the discussion on the concrete findings and their implications.
+
+## Risk / unsupported claims
+- The claim that "functional associations contribute significantly to high-confidence predictions" is not statistically supported in the visible text
+- The claim that 98.8% of high-confidence PPIs involve IDRs is based on classification criteria that are not fully described or validated
+- The claim that the predicted interactome provides "widespread, structurally plausible interactions in vivo" is not supported by any experimental validation
+- The statement that "binding interference from intrinsically disordered regions" (from the title) is not addressed in the text
+- The claim that the web interface facilitates "comparative analysis" is not demonstrated with examples
+- The assertion that prediction failures were "largely random" (S6 Fig) is based on a permutation test that is not described in the main text methods

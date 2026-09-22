@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2607.23382v1",
+  "title": "Homeostatic Noise Buffering in Biomolecular Condensates Hinges on Phase Multiplicity Modulated by Interfacial and Droplet Size Effects",
+  "authors": "Jonas Wessén; Tanmoy Pal; Suman Das; Hue Sun Chan",
+  "journal": "",
+  "published_date": "2026-07-25",
+  "window": {
+    "start": "2026-07-20",
+    "end": "2026-07-26"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用RPA聚合物理论与MD模拟研究IDP序列电荷模式如何通过三元/二元LLPS决定凝聚体亚区室化及浓度波动缓冲，直接聚焦无序蛋白介导的相分离互作机制建模，方法兼具理论与物理模拟，高度契合课题。",
+  "abstract": "Specific mixing or demixing of molecular species is a characteristic feature of condensed intracellular membraneless compartments. How sequence patterns of intrinsically disordered proteins (IDPs) fundamentally impact subcompartmentalization of biomolecular condensates and their role in buffering against concentration fluctuations are hereby addressed by modeling liquid-liquid phase separation (LLPS) of polyampholytic sequence pairs using random phase approximation (RPA) polymer theory and molecular dynamics (MD). RPA theory predicts both binary and ternary LLPS in a temperature-sensitive manner. We observe demixing underpinned by ternary LLPS for pairs with dissimilar sequence charge patterns but not for pairs with similar sequence charge patterns. Notably, the predicted behaviors are corroborated by MD when RPA is augmented with interfacial tension and/or a finite-size formalism commensurating with the typical small sizes of MD model systems, supporting our stipulation that RPA theory is a useful sequence-specific modeling tool for biomolecular condensates with larger, more realistic sizes when finite-size effects are much less significant. In principle, when the condensate size is sufficiently large, ternary LLPS is superior to binary LLPS in noise buffering because the IDP compositions of the three coexisting phases in ternary LLPS remain unchanged over an extended two-dimensional concentration regime, whereas the two coexisting phases in binary LLPS are fixed only along a tieline. However, when condensate sizes are sufficiently small, the buffering capacities of ternary versus binary LLPSs are more complex as they are modulated differently by finite-size effects. Biophysical ramifications of this interplay are discussed in view of the size diversity of natural biomolecular condensates.",
+  "abstract_zh": "特定分子种类的混合或去混合是凝聚态细胞内无膜区室的典型特征。本文通过使用随机相位近似（random phase approximation, RPA）聚合物理论和分子动力学（molecular dynamics, MD）对多两性电解质序列对的液-液相分离（liquid-liquid phase separation, LLPS）进行建模，探讨了 intrinsically disordered proteins (IDPs) 的序列模式如何从根本上影响生物分子凝聚体的亚区室化及其在缓冲浓度波动中的作用。RPA理论预测了二元和三元LLPS，且具有温度敏感性。我们观察到，对于序列电荷模式不同的配对，去混合由三元LLPS支撑，而对于序列电荷模式相似的配对则不然。值得注意的是，当RPA辅以界面张力和/或与MD模型系统典型小尺寸相称的有限尺寸形式时，预测行为得到MD的证实，这支持了我们的论断，即RPA理论是一种有用的序列特异性建模工具，适用于尺寸更大、更现实且有限尺寸效应显著较小的生物分子凝聚体。原则上，当凝聚体尺寸足够大时，三元LLPS在噪声缓冲方面优于二元LLPS，因为三元LLPS中三个共存相的IDP组成在扩展的二维浓度范围内保持不变，而二元LLPS中两个共存相仅沿一条连接线固定。然而，当凝聚体尺寸足够小时，三元与二元LLPS的缓冲能力更为复杂，因为它们受有限尺寸效应的调节方式不同。鉴于天然生物分子凝聚体的尺寸多样性，本文讨论了这一相互作用的生物物理影响。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2607.23382v1",
+  "source_url": "https://arxiv.org/abs/2607.23382v1",
+  "paper_page_path": "papers/arxiv/2607.23382v1/index.html"
+}

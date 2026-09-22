@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methodology, thematic sections, tables, conclusion)
+- **Assessment boundary** Scientific content, evidence quality, internal consistency, and alignment with stated aims; no assessment of editorial fit or journal-specific policy
+- **Shared manuscript claim summary** The manuscript argues that RNA-protein complexes (RNPs) are central post-transcriptional regulators of plant secondary metabolism, operating through mechanisms such as mRNA stability control, translational regulation, and liquid-liquid phase separation, and that these mechanisms are distinct from and complementary to transcriptional control. It further claims that RNP-based engineering offers a promising route for metabolic manipulation in plants, particularly medicinal species.
+- **Visible evidence base** Narrative synthesis of published literature; three summary tables (Table 1, Table 2, Table 3, Table 4); three schematic figures (Fig. 1, Fig. 2, Fig. 3); no primary experimental data
+- **Missing materials affecting confidence** Supplementary Methods (search strings, database syntax) not provided; figure images not available for inspection; reference list not provided; no PRISMA-style flow diagram or study selection counts
+
+## Reviewer
+- **Overall assessment** This is a broad narrative review that surveys a plausible and timely topic: the intersection of RNP biology and plant specialised metabolism. The authors have organised the material into sensible thematic modules and have made a commendable effort to distinguish mechanistic from associative evidence. However, the manuscript is largely descriptive and programmatic. The central thesis, that RNPs are "key regulators" of plant secondary metabolism, is asserted more than it is demonstrated. The review relies heavily on extrapolation from model systems and from non-plant contexts, and the specific examples connecting RNP function to specialised metabolite outputs are often thin or indirect. The biophysical emphasis promised in the title is only partially delivered; the treatment of liquid-liquid phase separation is conceptual rather than quantitative or mechanistically detailed. The manuscript would benefit from a sharper focus, a more critical evaluation of the evidence base, and a clearer articulation of what is known versus what is hypothesised.
+- **Who would be interested in the results, and why** Researchers in plant RNA biology, post-transcriptional gene regulation, and specialised metabolism may find this a useful entry point to a fragmented literature. Those interested in metabolic engineering of medicinal plants might also read it for orientation. However, specialists in any of the constituent fields (e.g., miRNA biology, phase separation, RBP function) are unlikely to encounter new information or a sufficiently rigorous synthesis to change their thinking.
+- **Major strengths** The manuscript addresses a genuine gap: the interface between RNP biology and specialised metabolism is under-reviewed. The explicit evidence-strength framework (mechanistic vs. associative) is a useful organising principle and is applied with reasonable consistency. The tables are informative and well-structured, providing a quick reference for key RNP modules, RBP classes, and regulatory dimensions. The authors are appropriately cautious in many places, flagging when evidence is indirect or speculative. The section on experimental tools is competent and covers the major methods with their limitations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Central claim support
+  - **Claim pointer** The manuscript claims that RNPs are "key regulators" of plant secondary metabolism and that they "determine the fate of pathway-relevant RNAs after transcription" (Introduction).
+  - **Evidence pointer** Throughout; Tables 1-4; Sections "RNA protein complexes in plant cells", "Spatial and temporal regulation", "Interplay between noncoding RNAs and RBPs"
+  - **Concern** The central thesis is not supported by the evidence presented. Most of the specific examples cited are either from non-plant systems, from model plants without a demonstrated link to specialised metabolism, or are associative (co-localisation, expression correlation) without functional validation. For instance, the discussion of stress granules and processing bodies in the context of specialised metabolism is largely speculative; the manuscript itself acknowledges that links are "often associative unless metabolite output is directly tested" (Table 1). The miRNA examples (e.g., miR858-MYB) are better supported but are already well-reviewed elsewhere and do not establish a general principle of RNP-mediated control of specialised metabolism. The review would be more credible if it explicitly reframed its thesis as a hypothesis-generating synthesis rather than a demonstration of established regulatory roles.
+  - **Why it matters** If the central claim is overstated, the review risks misleading readers who are not specialists in both fields. The distinction between "key regulators" and "potentially important but under-validated regulators" is material for how the field should allocate research effort.
+  - **Resolution test** The authors should either (a) provide a systematic count of how many of the cited examples meet their own mechanistic evidence criteria (direct binding + functional perturbation + concordant metabolite changes) versus how many are associative, and adjust the language of the abstract and introduction accordingly, or (b) reframe the manuscript as a review of the *potential* for RNP-mediated regulation, with a clear statement that direct evidence in specialised metabolism is currently limited.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biophysical depth
+  - **Claim pointer** The title promises "Biophysical interactions" as a core focus, and the manuscript states that "the biophysical properties of RNPs particularly their capacity to form dynamic membraneless organelles via LLPS represent an additional layer of post-transcriptional regulation" (Biophysical properties section).
+  - **Evidence pointer** Section "Biophysical properties of RNA-protein complexes"; Fig. 3
+  - **Concern** The biophysical treatment is superficial. The section on LLPS describes the concept but does not engage with the quantitative or mechanistic literature on phase separation: there is no discussion of critical concentrations, valency, scaffold-client relationships, RNA length or secondary structure effects on phase behaviour, or the biophysical evidence for LLPS in plant cells specifically. The claim that IDRs "promote the weak, non-covalent interactions required for phase separation" is a simplification that does not capture the current understanding of sequence-encoded phase behaviour. For a review that advertises biophysics in its title, this is a significant shortfall.
+  - **Why it matters** The title and framing will attract readers interested in the biophysical basis of RNP function. If the biophysical content is not at a level that engages this audience, the manuscript will disappoint and may be seen as using "biophysical" as a buzzword rather than a substantive descriptor.
+  - **Resolution test** The authors should either (a) substantially expand the biophysical section to include quantitative parameters, specific examples of plant RBP phase behaviour (if any exist), and a critical discussion of how LLPS has been demonstrated (or not) in plant cells, or (b) revise the title to remove the biophysical emphasis, e.g., "RNA-protein complexes in plant secondary metabolism: regulatory mechanisms and functional significance".
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology transparency
+  - **Claim pointer** The methodology section states that a "structured literature search" was conducted in PubMed, Scopus, and Web of Science, with full search strings provided in Supplementary Methods.
+  - **Evidence pointer** Methodology section; Supplementary Methods (not provided)
+  - **Concern** The search strategy is described but the actual search strings, databases, date ranges, and screening outcomes are not visible. The statement that two reviewers independently screened studies is good, but there is no information on the number of records identified, screened, excluded, or included. For a narrative review this is not strictly required, but the authors have chosen to describe a structured process, and the absence of the underlying data makes the process unverifiable. More importantly, the selection criteria are vague: "prioritising peer-reviewed studies published from 2015 to 2025" does not explain how studies were chosen for inclusion or exclusion beyond this date filter.
+  - **Why it matters** Reproducibility and transparency of the search process are increasingly expected even for narrative reviews. Without the supplementary information, readers cannot assess whether the synthesis is comprehensive or selective.
+  - **Resolution test** Provide the Supplementary Methods with full search strings, database-specific syntax, and a brief description of the screening process (e.g., number of records screened, number included). If the supplementary material is already available, ensure it is accessible to reviewers and readers.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Overreach in biotechnological claims
+  - **Claim pointer** The manuscript states that modulating RNPs "may enable selective upregulation or repression of specific branches of secondary metabolism without broadly perturbing transcriptional programmes" and that this approach "could permit transient, signal-responsive regulation of metabolite concentrations" (Biotechnological implications; Conclusion).
+  - **Evidence pointer** Section "Biotechnological and synthetic biology implications"; Conclusion
+  - **Concern** The biotechnological claims are speculative and not grounded in demonstrated examples. The manuscript does not cite a single case where RNP engineering has been successfully used to alter specialised metabolite production in plants. The CRISPR/dCas13 approach is mentioned as a possibility, but no proof-of-concept in the context of secondary metabolism is provided. The claim that RNP-based approaches are "far better" than conventional genetic engineering (mentioned in the Conclusion) is explicitly flagged by the authors as lacking supporting evidence, which is commendable, but the surrounding text still presents these approaches as viable and promising without adequate caveats.
+  - **Why it matters** Overstated translational claims can mislead readers, particularly those in applied fields who may act on these suggestions. The review should clearly distinguish between established tools and hypothetical future applications.
+  - **Resolution test** Rewrite the biotechnological section to clearly separate (a) what has been demonstrated, (b) what is plausible based on first principles, and (c) what is speculative. Remove or heavily qualify the "far better" claim. Add a sentence noting that no RNP-based engineering strategy has yet been validated for specialised metabolism in plants.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion, first paragraph
+  - **Issue** The conclusion states that RNPs "regulate access to the translational machinery, influence the half-life of biosynthetic transcripts, and coordinate subcellular localisation of transcripts at sites of localised gene expression." This is presented as established fact, but the body of the review repeatedly notes that such roles in specialised metabolism are largely inferred or associative. The conclusion should mirror the cautious tone of the main text.
+  - **Required correction** Add qualifying language, e.g., "emerging evidence suggests that RNPs may regulate..." or "based on studies in model systems, RNPs are proposed to..."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Fig. 1, Fig. 2, Fig. 3
+  - **Evidence pointer** Figure legends; figures not visible in provided text
+  - **Issue** The figures are described in the text and legends but the actual images were not available for review. The legends suggest that the figures are schematic and conceptual. If the figures are not of publication quality, they will detract from the manuscript.
+  - **Required correction** Ensure figures are high-resolution, legible, and that all abbreviations are defined in the legends. Consider whether Fig. 3 adds sufficient information beyond what is in the text to justify its inclusion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Citation practice
+  - **Affected element** Tables 1-4
+  - **Evidence pointer** Table 1, Table 2, Table 3, Table 4
+  - **Issue** The tables cite "representative" references but the citation style is inconsistent (e.g., bracketed numbers vs. author-year). Some entries in Table 1 and Table 4 cite reviews rather than primary sources, which is acceptable for a narrative review but should be clearly indicated.
+  - **Required correction** Standardise citation format across all tables. Where a review is cited, consider adding "review" in the citation or in the table footnote.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract; Introduction; Conclusion
+  - **Issue** The term "secondary metabolism" is used interchangeably with "specialised metabolism." While both are used in the literature, the manuscript should pick one and use it consistently, or explicitly note that they are used synonymously.
+  - **Required correction** Choose one term (the authors seem to prefer "specialised metabolism" in the abstract) and use it throughout, or add a footnote stating that the terms are used interchangeably.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Missing discussion
+  - **Affected element** Section "Interplay between noncoding RNAs and RBPs"
+  - **Evidence pointer** Section text
+  - **Issue** The section on circRNAs is very brief and mostly speculative. The authors note that "pathway-directed cases remain sparse," which is honest, but the section could be shortened or merged with the miRNA discussion to avoid giving undue weight to a topic with so little direct evidence.
+  - **Required correction** Consider condensing the circRNA discussion to a few sentences and focusing the section on the better-supported miRNA and lncRNA examples.
+- **Technical failings that need to be addressed before the case is established** The central claim of RNP-mediated regulation of specialised metabolism is not established from the evidence presented; the manuscript should be reframed as a hypothesis-generating review. The biophysical content is too shallow to justify the title. The supplementary methods must be provided for the search process to be verifiable. The biotechnological claims need to be clearly separated into demonstrated, plausible, and speculative categories.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The topic is under-reviewed, but the manuscript does not offer a novel conceptual framework or a new synthesis that would distinguish it from existing reviews on plant RNA biology or on regulation of specialised metabolism. The evidence-strength framework is a useful contribution but is not developed with sufficient rigour to be a major intellectual advance.
+  - **Scientific importance** Moderate. The question of how post-transcriptional regulation shapes specialised metabolism is important, but the review does not provide a clear answer or a testable model. Its value is primarily as a survey of the landscape.
+  - **Interdisciplinary readership** Limited. The manuscript sits at the intersection of plant RNA biology and metabolomics, but the treatment of each field is at a level that will be familiar to specialists and not sufficiently deep to attract researchers from outside these areas. The biophysical angle, which could broaden the audience, is underdeveloped.
+  - **Technical soundness** The narrative synthesis is generally careful, and the authors are appropriately cautious in many places. However, the lack of a verifiable search strategy and the absence of any quantitative or systematic element weaken the technical foundation. The evidence-strength framework is applied inconsistently in places (e.g., the conclusion overstates what the body of the review supports).
+  - **Readability for nonspecialists** The manuscript is clearly written and the organisation is logical. The tables are helpful. However, the abstract and introduction may overstate the strength of the evidence, which could mislead nonspecialist readers. The biophysical sections assume familiarity with concepts like LLPS without sufficient explanation for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential as a useful narrative review, but it requires substantial revision to align its claims with its evidence base, to deepen the biophysical content or revise the title, and to provide the supplementary methods. I would be supportive of a revised version that addresses these concerns.
+
+## Risk / unsupported claims
+- The claim that RNPs are "key regulators" of plant secondary metabolism is not supported by the evidence presented; most examples are associative or from non-specialised-metabolism contexts.
+- The claim that RNP-based engineering could enable "selective upregulation or repression of specific branches of secondary metabolism without broadly perturbing transcriptional programmes" is speculative and unsupported by any cited example.
+- The claim that RNP-based approaches are "far better" than conventional genetic engineering is explicitly acknowledged by the authors as lacking supporting evidence.
+- The biophysical claims about LLPS in plant cells and its role in specialised metabolism are largely extrapolated from non-plant systems and are not critically evaluated.
+- The statement that "RNA-protein complexes orchestrate multiple post-transcriptional processes" in the context of specialised metabolism is presented as established but is not demonstrated by the cited literature.

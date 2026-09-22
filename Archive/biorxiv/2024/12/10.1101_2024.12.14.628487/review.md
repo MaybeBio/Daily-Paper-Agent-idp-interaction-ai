@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full text, figures, or methods
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to study the temperature-dependent phase behavior of the P1 domain (residues 36-42) of α-synuclein. They report that P1 assemblies phase separate above a lower critical solution temperature, driven by hydrophobic exclusion of water, with condensate density governed by weak multi-chain interactions, and that tyrosine Y39 forms the strongest inter-residue contacts in the dense phase.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system size and composition, equilibration procedures, finite-size analysis, order parameter definitions, error estimates, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study of a short peptide segment from α-synuclein, addressing a timely topic in biomolecular condensate research. However, the claims as stated cannot be adequately evaluated from the abstract alone. Several assertions, particularly regarding the lower critical solution temperature behavior and the molecular driving forces, require detailed methodological support and quantitative evidence that are not visible in the supplied material. The work may be of interest to the condensate and IDP community, but the current evidence base is insufficient to establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, intrinsically disordered proteins, and phase separation mechanisms would be interested. The focus on a specific domain of α-synuclein and its temperature-dependent behavior could also attract those working on neurodegeneration and the physical chemistry of protein aggregation. The methodological approach using all-atom simulations may appeal to computational biophysicists.
+- **Major strengths** The topic is relevant and timely. The focus on a specific short domain rather than the full-length protein is a tractable approach that may allow detailed mechanistic insight. The identification of a lower critical solution temperature behavior and the proposed role of hydrophobic effects and specific residue contacts are concrete and testable claims.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that P1 assemblies phase separate above a lower critical solution temperature.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that phase separation occurs above a lower critical solution temperature, but no quantitative data are provided to support this phase boundary. It is unclear how the phase transition was identified, what order parameter was used, how finite-size effects were handled, and over what temperature range the behavior was characterized. The distinction between a true lower critical solution temperature and a simulation artifact (e.g., due to force field artifacts or insufficient sampling) is not addressed.
+  - **Why it matters** The central claim of the paper is the thermo-responsive phase behavior. Without robust evidence for the phase boundary and its thermodynamic nature, the main conclusion is not established. Lower critical solution temperature behavior in simulations is sensitive to force field and water model choices, and this must be carefully validated.
+  - **Resolution test** Provide a phase diagram with clear order parameter definitions, error bars, system size dependence analysis, and evidence that the observed transition is not an artifact of the simulation setup. Comparison with multiple force fields or experimental data would strengthen the case.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that formation of the condensed phase is driven by exclusion of water molecules by the hydrophobic chains.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The molecular driving force is attributed to hydrophobic water exclusion, but no quantitative evidence is presented, such as water density profiles, hydration free energy calculations, or comparison of hydrophobic and hydrophilic contributions. The P1 domain is only seven residues long, and the relative contribution of hydrophobic versus other interactions (e.g., π-π, cation-π, hydrogen bonding) is not assessed.
+  - **Why it matters** The mechanistic claim is a key part of the paper's contribution. Without quantitative support, the statement remains speculative and does not distinguish this system from other possible driving forces.
+  - **Resolution test** Provide radial distribution functions of water around the peptide, water occupancy in the dense versus dilute phase, and a decomposition of interaction energies to demonstrate that hydrophobic water exclusion is the dominant driving force.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that P1 chain density in the condensate is determined by weak multi-chain interactions between the residues.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The statement that condensate density is determined by weak multi-chain interactions is vague. No quantitative measure of interaction strengths, cooperativity, or density dependence is provided. It is unclear how "weak" is defined and how these interactions were characterized in the simulations.
+  - **Why it matters** This claim is central to understanding the physical basis of condensate properties. Without quantitative interaction analysis, the statement is not falsifiable and does not advance mechanistic understanding.
+  - **Resolution test** Provide interaction energy decomposition per residue pair, contact probability maps, and a demonstration that density correlates with the identified weak interactions across different conditions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that tyrosine Y39 is involved in the formation of strongest contacts between residue pairs in the dense phase.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The specific claim about Y39 forming the strongest contacts is interesting but is presented without context. It is unclear whether this is a dominant interaction or merely the strongest among many weak ones, and whether this finding has functional implications for the full-length protein.
+  - **Why it matters** The relevance of this specific contact to the phase behavior of the full-length α-synuclein is not established. The abstract does not explain how this finding connects to the "master controller" role of P1.
+  - **Resolution test** Provide contact maps and interaction energy rankings, and discuss the potential functional relevance of Y39 in the context of known α-synuclein biology.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "lower critical solution temperature" and "master controller" without brief explanation, which may limit accessibility for readers outside the phase separation field.
+  - **Required correction** Provide a brief definition or context for these terms, or rephrase to make the abstract more self-contained.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state how the findings for the isolated P1 domain relate to the full-length protein or to experimental observations. The relevance to disease is implied but not articulated.
+  - **Required correction** Add a sentence connecting the simulation results to potential experimental validation or to the behavior of full-length α-synuclein.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the simulation length, system size, or number of replicas, which are important for assessing the reliability of the phase behavior conclusions.
+  - **Required correction** Include key simulation parameters in the abstract or indicate where they are described in the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central claims regarding the phase transition, the driving force, and the density-determining interactions are not supported by quantitative evidence in the supplied material. These must be addressed with detailed data and analysis.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work addresses a specific domain of α-synuclein, which is a relatively novel focus, but the general approach of simulating short IDP segments for phase behavior is not unprecedented. The originality is moderate.
+  - Scientific importance: The topic is important for understanding condensate formation in neurodegeneration, but the abstract does not demonstrate a significant advance beyond existing knowledge. The connection to the full-length protein and disease is not established.
+  - Interdisciplinary readership: The work may appeal to biophysicists, computational chemists, and neurobiologists, but the abstract is not framed to attract a broad interdisciplinary audience.
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological detail and quantitative evidence prevents evaluation of the technical quality.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific jargon without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses, but the central claims require substantial additional evidence and methodological detail. A supportive recommendation would be contingent on the full manuscript providing robust quantitative support for the phase behavior, driving forces, and interaction analysis.
+
+## Risk / unsupported claims
+- The claim of lower critical solution temperature phase behavior is unsupported without a phase diagram and transition characterization.
+- The claim that hydrophobic water exclusion drives condensation is unsupported without hydration analysis.
+- The claim that weak multi-chain interactions determine condensate density is unsupported without interaction energy decomposition.
+- The claim that Y39 forms the strongest contacts is unsupported without contact maps or energy rankings.
+- The relevance of the findings to full-length α-synuclein behavior is not assessable from the abstract.

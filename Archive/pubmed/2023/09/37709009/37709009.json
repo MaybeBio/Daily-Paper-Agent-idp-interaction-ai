@@ -1,0 +1,231 @@
+{
+  "identity": {
+    "pmid": "37709009",
+    "doi": "10.1016/j.jmb.2023.168272",
+    "title": "CoMemMoRFPred: Sequence-based Prediction of MemMoRFs by Combining Predictors of Intrinsic Disorder, MoRFs and Disordered Lipid-binding Regions."
+  },
+  "content": {
+    "abstract": "Molecular recognition features (MoRFs) are a commonly occurring type of intrinsically disordered regions (IDRs) that undergo disorder-to-order transition upon binding to partner molecules. We focus on recently characterized and functionally important membrane-binding MoRFs (MemMoRFs). Motivated by the lack of computational tools that predict MemMoRFs, we use a dataset of experimentally annotated MemMoRFs to conceptualize, design, evaluate and release an accurate sequence-based predictor. We rely on state-of-the-art tools that predict residues that possess key characteristics of MemMoRFs, such as intrinsic disorder, disorder-to-order transition and lipid-binding. We identify and combine results from three tools that include flDPnn for the disorder prediction, DisoLipPred for the prediction of disordered lipid-binding regions, and MoRFCHiBi(Light) for the prediction of disorder-to-order transitioning protein binding regions. Our empirical analysis demonstrates that combining results produced by these three methods generates accurate predictions of MemMoRFs. We also show that use of a smoothing operator produces predictions that closely mimic the number and sizes of the native MemMoRF regions. The resulting CoMemMoRFPred method is available as an easy-to-use webserver at http://biomine.cs.vcu.edu/servers/CoMemMoRFPred. This tool will aid future studies of MemMoRFs in the context of exploring their abundance, cellular functions, and roles in pathologic phenomena.",
+    "keywords": [
+      "intrinsic disorder",
+      "lipid-binding",
+      "membrane proteins",
+      "molecular recognition features",
+      "prediction"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Computational Biology/methods",
+      "Protein Binding",
+      "*Software",
+      "Binding Sites",
+      "Databases, Protein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Basu, Sushmita",
+        "Hegedus, Tamas",
+        "Kurgan, Lukasz"
+      ],
+      "short_names": [
+        "Basu S",
+        "Hegedus T",
+        "Kurgan L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, Virginia Commonwealth University, USA.",
+        "Department of Biophysics and Radiation Biology, Semmelweis University, Budapest, Hungary; ELKH-SE Biophysical Virology Research Group, Eotvos Lorand Research Network, Budapest, Hungary.",
+        "Department of Computer Science, Virginia Commonwealth University, USA. Electronic address: lkurgan@vcu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Basu, Sushmita",
+        "short_name": "Basu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, USA."
+        ]
+      },
+      {
+        "full_name": "Hegedűs, Tamás",
+        "short_name": "Hegedűs T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Radiation Biology, Semmelweis University, Budapest, Hungary; ELKH-SE Biophysical Virology Research Group, Eötvös Loránd Research Network, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Kurgan, Lukasz",
+        "short_name": "Kurgan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, USA. Electronic address: lkurgan@vcu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2023 Nov 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/15 00:42",
+    "fetched_at": "2026-09-21 01:19:29"
+  },
+  "links": {
+    "cites": [
+      "41689628",
+      "40728621",
+      "40728620",
+      "39952269",
+      "39811792",
+      "39383002",
+      "38540707"
+    ],
+    "refs": [],
+    "similar": [
+      "37709009",
+      "36458437",
+      "40728621",
+      "40728619",
+      "34290238",
+      "40441416",
+      "40728620",
+      "31870849",
+      "22689782",
+      "24093637",
+      "33119751",
+      "34487138",
+      "30099775",
+      "30298407",
+      "39237195",
+      "32696351",
+      "26109352",
+      "27787828",
+      "38048333",
+      "32621220",
+      "37140058",
+      "29042212",
+      "39789785",
+      "39576583",
+      "16935303",
+      "31007871",
+      "31521235",
+      "21152297",
+      "40031750",
+      "32860044",
+      "24573480",
+      "28365882",
+      "30717652",
+      "31889261",
+      "30866736",
+      "33291838",
+      "29360926",
+      "40944448",
+      "40133781",
+      "41419011",
+      "26651072",
+      "38866950",
+      "25391399",
+      "38166858",
+      "25637562",
+      "31504193",
+      "34415020",
+      "33875885",
+      "36851914",
+      "41534519",
+      "40133785",
+      "38079339",
+      "28369666",
+      "18831774",
+      "37740110",
+      "32019410",
+      "32696395",
+      "39576586",
+      "28589442",
+      "34894985",
+      "38812466",
+      "23798504",
+      "28155710",
+      "31510679",
+      "26090958",
+      "31894361",
+      "31660849",
+      "40867524",
+      "28934129",
+      "24727949",
+      "25424537",
+      "35507260",
+      "31642118",
+      "23328413",
+      "34905768",
+      "32173600",
+      "28381244",
+      "31616935",
+      "31207240",
+      "36519304",
+      "26366527",
+      "40244295",
+      "39571839",
+      "35883444",
+      "33267349",
+      "24739163",
+      "31521236",
+      "40859602",
+      "30324701",
+      "38540707",
+      "38701796",
+      "29080786",
+      "34391457",
+      "27307636",
+      "24573479",
+      "30135358",
+      "35367597",
+      "40577786",
+      "23534882",
+      "38747347"
+    ],
+    "review": [
+      "37709009",
+      "39789785",
+      "31007871",
+      "31521235",
+      "33291838",
+      "36851914",
+      "37740110",
+      "28589442",
+      "31616935",
+      "31521236"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(23)00383-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

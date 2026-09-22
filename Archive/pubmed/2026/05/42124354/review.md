@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, figure legends, and supplemental information references.
+- **Assessment boundary** Scientific content, methodological soundness, validity of conclusions, and clarity of presentation. Not assessed: editorial fit, formatting, or grammatical style.
+- **Shared manuscript claim summary** The authors present a computational model combining coarse-grained polymer simulations of the formin FH1 domain with a kinetic model of actin assembly to investigate how N-terminal dimerization of formins affects FH1 domain dynamics and actin polymerization rates. They report that N-terminal dimerization can either accelerate or decelerate polymerization depending on binding site location, FH1 length, and kinetic parameters, with deceleration dominating for realistic parameters. The model is fit to existing experimental data for the formin Bni1 and used to make predictions for other formin family members.
+- **Visible evidence base** Main text figures (Figures 1–8), supplemental figures (S1–S4), supplemental tables (S1–S4), supplemental videos (S1–S4), and equations (1)–(12).
+- **Missing materials affecting confidence** Experimental data used for model fitting (Courtemanche and Pollard 2004) is referenced but not fully reproduced in the manuscript; only a summary is shown in Figure S3. Details of the polymer simulation algorithm (e.g., Monte Carlo move set, acceptance criteria, equilibration protocol) are referenced to prior work (Bryant et al.) but not fully described here. The cryo-EM structure (Oosterheert et al.) used to justify the delivery site location is referenced but not discussed in detail.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a biologically important and understudied question: how N-terminal dimerization of formins affects FH1 domain dynamics and actin polymerization. The authors develop a multiscale computational model that combines polymer physics with kinetic modeling, and they demonstrate that N-terminal dimerization can have complex, position-dependent effects on polymerization rates. The work is conceptually interesting and the modeling framework is potentially useful for the community. However, several technical aspects of the model and its validation require clarification and strengthening before the conclusions can be fully accepted. In particular, the treatment of the dimerization constraint, the choice of delivery site geometry, and the interpretation of the model fitting results need more careful justification and sensitivity analysis.
+- **Who would be interested in the results, and why** Researchers studying formin-mediated actin polymerization, cytoskeletal dynamics, and intrinsically disordered proteins. The modeling framework may also be of interest to computational biologists working on polymer models of IDRs and to experimentalists studying formin regulation and disease-associated mutations.
+- **Major strengths** The manuscript addresses a gap in the field by explicitly modeling N-terminal dimerization, which is often omitted in experimental constructs. The multiscale approach (polymer simulations feeding into a kinetic model) is appropriate and well-motivated. The authors provide a clear mechanistic explanation for the observed effects, distinguishing between changes in binding site accessibility and local effective concentration. The model is fit to experimental data and used to generate testable predictions for multiple formins, which is a strength.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the polymer model
+  - **Claim pointer** The authors claim that N-terminal dimerization is modeled by adding a dimerization domain of length 1 Kuhn length connecting the N-termini of the two FH1 chains, and that this captures the effect of dimerization on polymer dynamics.
+  - **Evidence pointer** Materials and methods, "Coarse-grain polymer model" section; Figures 2 and 3.
+  - **Concern** The treatment of N-terminal dimerization as a rigid connection of 1 Kuhn length between the two N-termini is a significant simplification. Real dimerization domains (e.g., DID, coiled-coil) have finite size, flexibility, and orientation relative to the FH1 domains. The authors do not test the sensitivity of their results to this modeling choice. For example, how would the results change if the dimerization domain were longer, flexible, or oriented differently? The conclusion that N-terminal dimerization decreases local effective concentration for physiological FH2 widths may be an artifact of this specific geometric constraint. A sensitivity analysis varying the dimerization domain length and flexibility is essential to establish the robustness of the reported findings.
+  - **Why it matters** The central claim of the paper is that N-terminal dimerization impacts polymerization rates through changes in polymer dynamics. If this result is sensitive to the specific way dimerization is modeled, the conclusions may not be generalizable to real formins.
+  - **Resolution test** Perform additional polymer simulations with varying dimerization domain lengths (e.g., 0.5, 2, 5, 10 Kuhn lengths) and with a flexible hinge at the dimerization point. Show that the qualitative patterns in Figures 2 and 3 (ratios of local effective concentration and accessibility) are preserved, or explain how they change.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of the kinetic model fitting
+  - **Claim pointer** The authors state that the model can be fit to experimental data from single binding site Bni1 constructs and that the best-fit parameters fall in a regime where capture and delivery compete.
+  - **Evidence pointer** Results section "The model can be trained on experimental data..."; Figure 7; Figure S3.
+  - **Concern** The model fitting relies on data from Courtemanche and Pollard (2004), but the details of this fitting are not fully described. The posterior distribution shown in Figure 7A appears multimodal, suggesting that the data do not uniquely constrain the parameters. The authors do not report credible intervals for the best-fit parameters or assess whether the model is identifiable given the data. Furthermore, the model is fit to data from non-dimerized constructs, and the predictions for dimerized formins are made using these parameters. It is unclear whether the model would still fit the data if the parameters were constrained to a regime where dimerization has a different effect. The authors should provide a more thorough analysis of parameter identifiability and the uncertainty in their predictions.
+  - **Why it matters** The predictive power of the model for dimerized formins depends on the reliability of the parameter estimates. If the parameters are not well-constrained, the predictions in Figure 8 are not robust.
+  - **Resolution test** Provide a full description of the fitting procedure, including the likelihood function, prior distributions, and MCMC convergence diagnostics. Report credible intervals for all fitted parameters. Perform a sensitivity analysis by fitting the model to subsets of the data or by using different priors to assess the robustness of the conclusions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Justification of the delivery site geometry
+  - **Claim pointer** The authors assume that the delivery site is at the FH1-FH2 attachment point, citing the cryo-EM structure of the formin Cdc12 ring complex.
+  - **Evidence pointer** Materials and methods, "Coarse-grain polymer model" section; Figure 1.
+  - **Concern** The choice of the delivery site at the FH1-FH2 attachment point is a critical assumption. The cryo-EM structure referenced (Oosterheert et al.) is for a different formin (Cdc12) and may not be representative of all formins. Moreover, the delivery site may not be a single point but a region, and its location may vary during the polymerization cycle. The authors do not test the sensitivity of their results to the location of the delivery site. For example, if the delivery site were at the center of the FH2 domain or at the actin filament axis, would the conclusions change?
+  - **Why it matters** The local effective concentration is highly sensitive to the distance between the binding site and the delivery site. An incorrect assumption about the delivery site location could lead to incorrect predictions about the effects of N-terminal dimerization.
+  - **Resolution test** Repeat the polymer simulations and kinetic model calculations with alternative delivery site locations (e.g., center of FH2 domain, actin filament axis, or a distribution of locations). Show that the qualitative conclusions are robust to these changes, or discuss how they depend on the delivery site geometry.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5 and its legend.
+  - **Issue** The heatmaps in Figure 5 are described as showing the ratio of polymerization rates for a "fictitious single binding site formin." The parameters used to generate these heatmaps are given in the legend, but it is not clear how these parameters relate to the actual formins studied later. A brief explanation of the parameter choices would improve readability.
+  - **Required correction** Add a sentence to the Figure 5 legend explaining the rationale for the chosen parameter values and how they relate to the range of parameters explored in the model fitting.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Polymer simulation details
+  - **Evidence pointer** Materials and methods, "Coarse-grain polymer model" section.
+  - **Issue** The description of the polymer simulation algorithm is brief and refers to prior work for details. Key parameters such as the number of Monte Carlo steps, the move set, and the equilibration protocol are not stated. This makes it difficult to reproduce the simulations.
+  - **Required correction** Provide a more detailed description of the simulation algorithm, including the number of independent runs, the number of Monte Carlo steps per run, the move set, and the criteria for determining convergence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Discussion of effect 4
+  - **Evidence pointer** Results section "Multiscale model"; Figure 6.
+  - **Issue** The authors state that effect 4 (deceleration due to decreased local effective concentration) dominates for realistic parameters. However, the discussion of why this is the case is brief. A more detailed explanation of the physical mechanism underlying this dominance would strengthen the paper.
+  - **Required correction** Expand the discussion of effect 4, explaining in more detail why the decrease in local effective concentration outweighs the increase in accessibility for realistic FH2 domain sizes and binding site locations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (sensitivity of polymer model to dimerization treatment) and R1-M2 (identifiability of kinetic parameters) are the primary technical issues that need to be resolved. R1-M3 (delivery site geometry) is also important but may be addressed through additional discussion and sensitivity analysis.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The question of how N-terminal dimerization affects FH1 dynamics is novel and not well-studied. The multiscale modeling approach is a creative combination of existing methods.
+  - **Scientific importance** The results have implications for understanding formin regulation and disease-associated mutations. The finding that dimerization can either accelerate or decelerate polymerization depending on context is potentially important.
+  - **Interdisciplinary readership** The work will appeal to biophysicists, cell biologists, and computational biologists. The polymer physics and kinetic modeling are accessible to a broad audience.
+  - **Technical soundness** The modeling framework is reasonable, but the sensitivity of the results to key assumptions (dimerization treatment, delivery site location) is not adequately tested. The model fitting needs more rigorous analysis.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the concepts are explained clearly. The figures are helpful. However, some sections (e.g., the kinetic model derivation) may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a useful modeling framework, but the robustness of the conclusions needs to be established through additional sensitivity analysis and more rigorous model fitting.
+
+## Risk / unsupported claims
+- The claim that N-terminal dimerization decreases local effective concentration for physiological FH2 domain sizes is not robustly supported, as it may depend on the specific way dimerization is modeled (R1-M1).
+- The prediction that deceleration dominates for realistic parameters is based on a model fit that may not be identifiable from the available data (R1-M2).
+- The assumption that the delivery site is at the FH1-FH2 attachment point is not fully justified and may not be generalizable across formins (R1-M3).
+- The claim that the model can be used to make predictions for a variety of formin family members is not fully supported, as the predictions depend on uncertain parameters and assumptions about dimerization domain location.

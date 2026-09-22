@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "39434494",
+    "doi": "10.1093/bib/bbae528",
+    "title": "A two-task predictor for discovering phase separation proteins and their undergoing mechanism."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is one of the mechanisms mediating the compartmentalization of macromolecules (proteins and nucleic acids) in cells, forming biomolecular condensates or membraneless organelles. Consequently, the systematic identification of potential LLPS proteins is crucial for understanding the phase separation process and its biological mechanisms. A two-task predictor, Opt_PredLLPS, was developed to discover potential phase separation proteins and further evaluate their mechanism. The first task model of Opt_PredLLPS combines a convolutional neural network (CNN) and bidirectional long short-term memory (BiLSTM) through a fully connected layer, where the CNN utilizes evolutionary information features as input, and BiLSTM utilizes multimodal features as input. If a protein is predicted to be an LLPS protein, it is input into the second task model to predict whether this protein needs to interact with its partners to undergo LLPS. The second task model employs the XGBoost classification algorithm and 37 physicochemical properties following a three-step feature selection. The effectiveness of the model was validated on multiple benchmark datasets, and in silico saturation mutagenesis was used to identify regions that play a key role in phase separation. These findings may assist future research on the LLPS mechanism and the discovery of potential phase separation proteins.",
+    "keywords": [
+      "deep learning",
+      "partner-dependent",
+      "phase separation",
+      "self-assembly",
+      "sequence analysis"
+    ],
+    "mesh_terms": [
+      "*Proteins/chemistry/metabolism",
+      "*Neural Networks, Computer",
+      "Algorithms",
+      "Computational Biology/methods",
+      "Biomolecular Condensates/metabolism/chemistry",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Yetong",
+        "Zhou, Shengming",
+        "Bi, Yue",
+        "Zou, Quan",
+        "Jia, Cangzhi"
+      ],
+      "short_names": [
+        "Zhou Y",
+        "Zhou S",
+        "Bi Y",
+        "Zou Q",
+        "Jia C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6406-1142",
+        "ORCID: 0000-0002-4682-2881"
+      ],
+      "affiliations": [
+        "School of Science, Dalian Maritime University, 1 Linghai Road, Dalian, 116026, China.",
+        "College of Computer and Control Engineering, Northeast Forestry University, No. 26 Hexing Road, Xiangfang District, Harbin, 150040, China.",
+        "College of Life Science, Northeast Forestry University, No. 26 Hexing Road, Xiangfang District, Harbin, 150040, China.",
+        "Department of Biochemistry and Molecular Biology, Monash University, Melbourne, Victora 3800, Australia.",
+        "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, No. 2006, Xiyuan Ave, West Hi-Tech Zone, Chengdu, 611731, China.",
+        "School of Science, Dalian Maritime University, 1 Linghai Road, Dalian, 116026, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Yetong",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, 1 Linghai Road, Dalian, 116026, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Shengming",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computer and Control Engineering, Northeast Forestry University, No. 26 Hexing Road, Xiangfang District, Harbin, 150040, China.",
+          "College of Life Science, Northeast Forestry University, No. 26 Hexing Road, Xiangfang District, Harbin, 150040, China."
+        ]
+      },
+      {
+        "full_name": "Bi, Yue",
+        "short_name": "Bi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Monash University, Melbourne, Victora 3800, Australia."
+        ]
+      },
+      {
+        "full_name": "Zou, Quan",
+        "short_name": "Zou Q",
+        "identifiers": [
+          "0000-0001-6406-1142"
+        ],
+        "affiliations": [
+          "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, No. 2006, Xiyuan Ave, West Hi-Tech Zone, Chengdu, 611731, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Cangzhi",
+        "short_name": "Jia C",
+        "identifiers": [
+          "0000-0002-4682-2881"
+        ],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, 1 Linghai Road, Dalian, 116026, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Sep 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/22 06:28",
+    "fetched_at": "2026-09-21 11:41:05"
+  },
+  "links": {
+    "cites": [
+      "42184109",
+      "40867524",
+      "40794947",
+      "40421658"
+    ],
+    "refs": [
+      "38824664",
+      "38565952",
+      "38531854",
+      "37609923",
+      "37574757",
+      "37379327",
+      "37207400",
+      "36897030",
+      "36342186",
+      "36124686",
+      "36028355",
+      "35974095",
+      "35687670",
+      "35678521",
+      "35168563",
+      "35025997",
+      "34532736",
+      "34334791",
+      "33827920",
+      "33610793",
+      "33318217",
+      "32599617",
+      "32548680",
+      "32312191",
+      "31691822",
+      "31612960",
+      "31439799",
+      "31067315",
+      "30994888",
+      "30649179",
+      "30045872",
+      "29961577",
+      "29424691",
+      "28903538",
+      "28819146",
+      "28441621",
+      "28377034",
+      "28225081",
+      "28076807",
+      "27411231",
+      "27374333",
+      "27320918",
+      "25747659",
+      "25128566",
+      "24825614",
+      "23901099",
+      "22198341",
+      "22190692",
+      "20404210",
+      "20053844",
+      "17998252",
+      "16731699",
+      "16112549",
+      "11910019",
+      "7108955"
+    ],
+    "similar": [
+      "39434494",
+      "37609923",
+      "39067723",
+      "38063081",
+      "37735903",
+      "34334791",
+      "35687670",
+      "34371110",
+      "38322526",
+      "34767801",
+      "36920190",
+      "34624295",
+      "33517364",
+      "38593269",
+      "34129784",
+      "39116032",
+      "34716273",
+      "38262205",
+      "36350034",
+      "38804888",
+      "38322521",
+      "38547652",
+      "31911439",
+      "39037698",
+      "35802394",
+      "39227569",
+      "31612960",
+      "31941785",
+      "38781377",
+      "39178343",
+      "37925283",
+      "38380794",
+      "32405004",
+      "29511089",
+      "35628304",
+      "31691822",
+      "35168563",
+      "35142991",
+      "37496271",
+      "38773325",
+      "38205268",
+      "35883530",
+      "38808958",
+      "34522448",
+      "38231854",
+      "38971606",
+      "36702825",
+      "38614097",
+      "33809541",
+      "38356260",
+      "39133595",
+      "37685957",
+      "38722189",
+      "36310223",
+      "38526948",
+      "38446881",
+      "38971467",
+      "38621751",
+      "34759902",
+      "38941339",
+      "38588617",
+      "38811080",
+      "38885177",
+      "33827920",
+      "34772786",
+      "33930220",
+      "35325654",
+      "34206440",
+      "34916288",
+      "36657879",
+      "35575335",
+      "36524527",
+      "35596607",
+      "32726575",
+      "38251748",
+      "38481812",
+      "35803926",
+      "31252218",
+      "35108264",
+      "38588907",
+      "36642156",
+      "34585805",
+      "33334313",
+      "37464880",
+      "39194247",
+      "39342654",
+      "39196681",
+      "36279601",
+      "39038510",
+      "33081049",
+      "32312191",
+      "37029379",
+      "31444270",
+      "34606793",
+      "38446061",
+      "38245749",
+      "39033393",
+      "39257779",
+      "39121161",
+      "32824618"
+    ],
+    "review": [
+      "39434494",
+      "37735903",
+      "34334791",
+      "34371110",
+      "34767801",
+      "34129784",
+      "38262205",
+      "36350034",
+      "38322521",
+      "38547652",
+      "31911439",
+      "39037698",
+      "35802394",
+      "39178343",
+      "37925283",
+      "35628304",
+      "35142991",
+      "37496271",
+      "38773325",
+      "38808958",
+      "34522448",
+      "38971467",
+      "38621751",
+      "34759902",
+      "38811080",
+      "38885177",
+      "34772786",
+      "33930220",
+      "36524527",
+      "32726575",
+      "38481812",
+      "35803926",
+      "31252218",
+      "38588907",
+      "36642156",
+      "34585805",
+      "37464880",
+      "36279601",
+      "39038510",
+      "32312191",
+      "37029379",
+      "31444270",
+      "38245749",
+      "39033393"
+    ],
+    "pmc": [
+      "11492799"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39434494.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39434494/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39434494",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbae528",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

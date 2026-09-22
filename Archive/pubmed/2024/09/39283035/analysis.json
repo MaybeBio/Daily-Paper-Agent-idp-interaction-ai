@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39283035",
+  "title": "Features of heterogeneously charged systems at their liquid-liquid critical point.",
+  "authors": "Notarmuzi, Daniele; Bianchi, Emanuela",
+  "journal": "Soft matter",
+  "published_date": "2024-09-17",
+  "window": {
+    "start": "2024-09-16",
+    "end": "2024-09-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用粗粒化模型和蒙特卡洛模拟研究异质电荷胶体/蛋白质在液-液临界点的聚集行为，虽对象非IDP，但涉及电荷斑块驱动的相分离机制建模，对无序蛋白相分离的静电互作建模有方法迁移启发。",
+  "abstract": "Recently synthesized colloids and biological systems such as proteins, viruses and monoclonal antibodies are heterogeneously charged, i.e., different regions of their surfaces carry different amounts of positive or negative charge. Because of charge inhomogeneity, electrostatic interactions between these units through the surrounding medium are intrinsically anisotropic, meaning that they are characterized not only by the attraction between oppositely charged regions but also by the repulsion between like-charged areas. Recent experiments have shown that the liquid-liquid phase separation of these systems can be driven by anisotropic electrostatic interactions, but it is not clear how the emerging aggregates are affected by charge imbalance and charge patchiness. The ability to experimentally control these two quantities calls for a theoretical understanding of their interplay, which we address here at the critical point. We consider a coarse-grained model of anisotropically charged hard spheres whose interaction potential is grounded in a robust mean field theory and perform extensive numerical Monte Carlo simulations to understand the aggregation behavior of these units at the critical point. Stemming from the simplicity of the model, we address the interplay between charge imbalance and charge patchiness with the use of three parameters only and fully rationalize how these features impact the critical point of the model by means of thermodynamic-independent pair properties.",
+  "abstract_zh": "近期合成的胶体以及蛋白质、病毒和单克隆抗体等生物系统具有异质电荷分布，即其表面不同区域带有不同量的正电荷或负电荷。由于电荷不均匀性，这些单元通过周围介质产生的静电相互作用本质上是各向异性的，这意味着它们不仅表现为带相反电荷区域之间的吸引，还表现为带相同电荷区域之间的排斥。近期实验表明，这些系统的液-液相分离 (liquid-liquid phase separation) 可由各向异性静电相互作用驱动，但尚不清楚电荷不平衡和电荷斑块性如何影响形成的聚集体。实验上控制这两个量的能力要求对其相互作用的理论理解，我们在此于临界点处探讨这一问题。我们考虑一个各向异性带电硬球的粗粒化模型，其相互作用势基于稳健的平均场理论，并进行广泛的数值蒙特卡洛模拟 (Monte Carlo simulations) 以理解这些单元在临界点处的聚集行为。基于模型的简洁性，我们仅使用三个参数来探讨电荷不平衡与电荷斑块性之间的相互作用，并通过热力学无关的对性质全面合理化这些特征如何影响模型的临界点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39283035/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39283035/",
+  "paper_page_path": "papers/pubmed/39283035/index.html"
+}

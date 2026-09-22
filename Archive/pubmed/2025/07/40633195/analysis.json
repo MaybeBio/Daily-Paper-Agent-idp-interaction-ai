@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40633195",
+  "title": "Biallelic novel CCDC186 loss-of-function variant disrupting the gene function causes neurodevelopmental phenotype and review of the literature.",
+  "authors": "Gezdirici, Alper; Turk, Sultan Buse; Esen, Tuna Eren; Yavas, Cuneyd; Akbulut, Ekrem; Yilmaz, Halil Ibrahim; Dagdelen, Zeynep Oz; Arican, Pinar; Dogan, Mustafa",
+  "journal": "Brain & development",
+  "published_date": "2025-07-10",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文报道CCDC186基因LOF变异致神经发育表型，用RoseTTAFold和STRING预测突变对无序区域及蛋白互作的影响，但以临床遗传为主，互作机制建模较浅。",
+  "abstract": "BACKGROUND: Coiled-coil domain-containing protein 186 (CCDC186) is essential for the transport of secretory dense-core vesicles (DCVs), specialized organelles responsible for storing and releasing neurotransmitters and other modulatory molecules in neurons and endocrine cells, thereby playing a crucial role in physiological processes such as synaptic plasticity, neurotransmission, and hormonal regulation. Resent reports have suggested that biallelic loss-of-function (LOF) variants in CCDC186 may be associated with neurodevelopmental disorders and a range of systemic manifestations. METHODS: Whole exome sequencing (WES) was performed, and co-segregation analysis of the family was conducted using sanger sequencing. Additionally, five patients with CCDC186-associated phenotypes previously described in the literature were evaluated. Followed by cDNA synthesis and quantitative reverse transcription polymerase chain reaction (qRT-PCR) to analyze gene expression levels. Bioinformatics tools, including RoseTTAFold for protein modeling and STRING for protein-protein interaction networks, were employed to assess the structural and functional consequences of the mutation. RESULTS: We identified a homozygous NM_018017.4:c.535C>T (p.Arg179Ter) nonsense variant in the CCDC186 gene. This variant was associated with a marked downregulation of CCDC186 expression in the proband, with moderate reductions observed in heterozygous family members, suggesting dysregulated gene expression resulting from the mutation. Protein modeling indicated structural alterations, including a shift from intrinsically disordered regions to helix-loop-helix motifs in the mutant protein, as well as reduced binding probabilities for most interacting partners. CONCLUSION: In this study, we presented the comprehensive clinical and genetic profiles of a Turkish child with a novel CCDC186 variant, along with five previously reported patients from the literature. Our findings support that the homozygous LOF variants of the CCDC186 gene are associated with a novel neurodevelopmental phenotype.",
+  "abstract_zh": "背景：含卷曲螺旋结构域蛋白186（CCDC186）对于分泌性致密核心囊泡（DCVs）的运输至关重要，这些囊泡是神经元和内分泌细胞中负责储存和释放神经递质及其他调节分子的特化细胞器，从而在突触可塑性、神经传递和激素调节等生理过程中发挥关键作用。近期报告提示，CCDC186基因的双等位基因功能丧失（LOF）变异可能与神经发育障碍及一系列全身性表现相关。方法：进行了全外显子组测序（WES），并使用Sanger测序对家系进行了共分离分析。此外，评估了文献中先前描述的5例CCDC186相关表型患者。随后进行cDNA合成和定量逆转录聚合酶链反应（qRT-PCR）以分析基因表达水平。采用生物信息学工具，包括RoseTTAFold进行蛋白质建模和STRING进行蛋白质-蛋白质相互作用网络分析，以评估突变的结构和功能后果。结果：我们在CCDC186基因中鉴定出一个纯合NM_018017.4:c.535C>T（p.Arg179Ter）无义变异。该变异与先证者中CCDC186表达的显著下调相关，杂合家族成员中观察到中度降低，提示突变导致的基因表达失调。蛋白质建模显示结构改变，包括突变蛋白中从内在无序区域向螺旋-环-螺旋基序的转变，以及大多数相互作用伙伴的结合概率降低。结论：在本研究中，我们呈现了一名携带新型CCDC186变异的土耳其儿童的全面临床和遗传特征，以及文献中先前报道的5例患者。我们的发现支持CCDC186基因的纯合LOF变异与一种新型神经发育表型相关。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40633195/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40633195/",
+  "paper_page_path": "papers/pubmed/40633195/index.html"
+}

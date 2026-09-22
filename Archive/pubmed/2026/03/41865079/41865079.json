@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "41865079",
+    "doi": "10.1038/s42004-026-01974-z",
+    "title": "Dynamic yet well-defined organization of the FUS RGG3 dense phase."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered protein regions (IDRs) play a key role in the formation of biomolecular condensates, a ubiquitous mode of cellular compartmentalization, but the underlying microscopic details remain unclear. Here, microsecond-level molecular dynamics simulations and fractal formalism are employed to study at atomistic resolution a model dense phase composed of 24 copies of a C-terminal 73-residue arginine- and glycine-rich IDR (RGG3) of fused in sarcoma (FUS) protein in the absence of RNA. RGG3 displays a highly dynamic behavior in the dense phase with only a small configurational entropy loss and a minor slowdown in diffusion as compared to the dilute phase. Despite rapid mixing, short contact residence times and structurally heterogenous binding interfaces in the dense phase, RGG3 exhibits a distinct dynamic binding mode, with statistically defined interaction motifs and a robust multi-scale topology of self-associated protein clusters. An analysis of bound water suggests that solvent entropy may significantly contribute to the thermodynamics of condensate formation. Our results demonstrate how a well-defined organization of the disordered protein dense phase across scales emerges from highly heterogenous, transient interactions at the molecular level.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Polyansky, Anton A",
+        "Fruhbauer, Benjamin",
+        "Zagrovic, Bojan"
+      ],
+      "short_names": [
+        "Polyansky AA",
+        "Fruhbauer B",
+        "Zagrovic B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1011-2706",
+        "ORCID: 0000-0002-3235-7720",
+        "ORCID: 0000-0002-1616-6713"
+      ],
+      "affiliations": [
+        "Max Perutz Labs, Vienna BioCenter, 1030 Vienna, Austria. anton.polyansky@univie.ac.at.",
+        "University of Vienna, Vienna, Austria. anton.polyansky@univie.ac.at.",
+        "Institute of Biochemistry, ETH Zurich, Zurich, Switzerland.",
+        "Bringing Materials to Life Initiative, ETH Zurich, Zurich, Switzerland.",
+        "Max Perutz Labs, Vienna BioCenter, 1030 Vienna, Austria. bojan.zagrovic@univie.ac.at.",
+        "University of Vienna, Vienna, Austria. bojan.zagrovic@univie.ac.at."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Polyansky, Anton A",
+        "short_name": "Polyansky AA",
+        "identifiers": [
+          "0000-0002-1011-2706"
+        ],
+        "affiliations": [
+          "Max Perutz Labs, Vienna BioCenter, 1030 Vienna, Austria. anton.polyansky@univie.ac.at.",
+          "University of Vienna, Vienna, Austria. anton.polyansky@univie.ac.at."
+        ]
+      },
+      {
+        "full_name": "Frühbauer, Benjamin",
+        "short_name": "Frühbauer B",
+        "identifiers": [
+          "0000-0002-3235-7720"
+        ],
+        "affiliations": [
+          "Institute of Biochemistry, ETH Zurich, Zurich, Switzerland.",
+          "Bringing Materials to Life Initiative, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Žagrović, Bojan",
+        "short_name": "Žagrović B",
+        "identifiers": [
+          "0000-0002-1616-6713"
+        ],
+        "affiliations": [
+          "Max Perutz Labs, Vienna BioCenter, 1030 Vienna, Austria. bojan.zagrovic@univie.ac.at.",
+          "University of Vienna, Vienna, Austria. bojan.zagrovic@univie.ac.at."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications chemistry"
+    ],
+    "journal_abbrev": [
+      "Commun Chem"
+    ],
+    "pub_date": "2026 Mar 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/22 07:35",
+    "fetched_at": "2026-09-18 01:43:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39979996",
+      "39920231",
+      "39464253",
+      "39232584",
+      "39190324",
+      "38987300",
+      "38874418",
+      "38866950",
+      "38782886",
+      "38637545",
+      "38553587",
+      "38429263",
+      "38297184",
+      "38118365",
+      "38096754",
+      "37957331",
+      "37749095",
+      "37657994",
+      "37470705",
+      "37468629",
+      "36881934",
+      "36690068",
+      "36460640",
+      "36443315",
+      "36387274",
+      "36302916",
+      "35787038",
+      "35702028",
+      "35675815",
+      "35501371",
+      "35177069",
+      "34931046",
+      "34480923",
+      "33857479",
+      "33827920",
+      "33510441",
+      "33503380",
+      "33382616",
+      "33357399",
+      "33355572",
+      "33302617",
+      "33207556",
+      "33169001",
+      "32936641",
+      "32873929",
+      "32613009",
+      "32426986",
+      "32393642",
+      "32029630",
+      "31914313",
+      "31303975",
+      "31270472",
+      "31036655",
+      "30217894",
+      "30205960",
+      "29961577",
+      "29949750",
+      "29860432",
+      "29799751",
+      "29780404",
+      "29719674",
+      "29677515",
+      "29677514",
+      "29677513",
+      "29510047",
+      "29424691",
+      "29306779",
+      "29120326",
+      "28894006",
+      "28380257",
+      "28225081",
+      "28223518",
+      "27911701",
+      "27374333",
+      "27243806",
+      "26989950",
+      "26834559",
+      "26727894",
+      "26455390",
+      "26406374",
+      "26317470",
+      "25950237",
+      "25942753",
+      "25764013",
+      "25692597",
+      "25531225",
+      "24930020",
+      "24899704",
+      "24898547",
+      "24280224",
+      "22814390",
+      "22460799",
+      "22229789",
+      "20408171",
+      "19917239",
+      "19460965",
+      "18093918",
+      "16211538",
+      "15856483",
+      "9895674",
+      "8510758"
+    ],
+    "similar": [
+      "41865079",
+      "37470705",
+      "39486437",
+      "37735186",
+      "23912807",
+      "33302617",
+      "40766493",
+      "40654645",
+      "41415473",
+      "38915483",
+      "42475469",
+      "40842365",
+      "39589885",
+      "34648275",
+      "41169547",
+      "37043540",
+      "28924037",
+      "37468629",
+      "37134270",
+      "36004748",
+      "41337585",
+      "40693919",
+      "36798393",
+      "39495179",
+      "42230638",
+      "41360394",
+      "34737230",
+      "37231298",
+      "41933903",
+      "33307683",
+      "39232584",
+      "40981365",
+      "34487489",
+      "33982350",
+      "33515602",
+      "41524628",
+      "41238911",
+      "42585785",
+      "40455990",
+      "40848932",
+      "38260590",
+      "34074792",
+      "37961424",
+      "36348631",
+      "41023446",
+      "34862761",
+      "32936641",
+      "42266718",
+      "35297101",
+      "40781776",
+      "37986933",
+      "35930639",
+      "37399327",
+      "38252962",
+      "34090478",
+      "39537752",
+      "29677513",
+      "42095372",
+      "37668016",
+      "39398199",
+      "26455390",
+      "41053545",
+      "29800261",
+      "32426986",
+      "40009520",
+      "39568948",
+      "41867831",
+      "40970906",
+      "40291709",
+      "40321778",
+      "34598583",
+      "35709363",
+      "41789885",
+      "38279531",
+      "31630970",
+      "38591689",
+      "41700935",
+      "40748104",
+      "33200826",
+      "39225535",
+      "41571439",
+      "40794831",
+      "37307457",
+      "40196628",
+      "33076213",
+      "36412795",
+      "38942776",
+      "33139563",
+      "40034645",
+      "42106138",
+      "32822449",
+      "40521608",
+      "41637578",
+      "40574713",
+      "33453925",
+      "36945688",
+      "38492239",
+      "40386802",
+      "40690668",
+      "41535729"
+    ],
+    "review": [
+      "41865079",
+      "37399327"
+    ],
+    "pmc": [
+      "13172571"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42004-026-01974-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41865079/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

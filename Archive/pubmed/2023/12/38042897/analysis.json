@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38042897",
+  "title": "Programmable de novo designed coiled coil-mediated phase separation in mammalian cells.",
+  "authors": "Ramsak, Marusa; Ramirez, Dominique A; Hough, Loren E; Shirts, Michael R; Vidmar, Sara; Elersic Filipic, Kristina; Anderluh, Gregor; Jerala, Roman",
+  "journal": "Nature communications",
+  "published_date": "2023-12-03",
+  "window": {
+    "start": "2023-11-27",
+    "end": "2023-12-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究用从头设计的卷曲螺旋模块在哺乳动物细胞中构建可编程的液-液相分离凝聚体，结合粗粒化分子模拟揭示模块稳定性、数目和连接子对相分离行为的调控机制，虽对象为折叠卷曲螺旋而非IDP，但其模块化互作机制建模思路对无序蛋白介导的PPI与相分离研究有直接启发。",
+  "abstract": "Membraneless liquid compartments based on phase-separating biopolymers have been observed in diverse cell types and attributed to weak multivalent interactions predominantly based on intrinsically disordered domains. The design of liquid-liquid phase separated (LLPS) condensates based on de novo designed tunable modules that interact in a well-understood, controllable manner could improve our understanding of this phenomenon and enable the introduction of new features. Here we report the construction of CC-LLPS in mammalian cells, based on designed coiled-coil (CC) dimer-forming modules, where the stability of CC pairs, their number, linkers, and sequential arrangement govern the transition between diffuse, liquid and immobile condensates and are corroborated by coarse-grained molecular simulations. Through modular design, we achieve multiple coexisting condensates, chemical regulation of LLPS, condensate fusion, formation from either one or two polypeptide components or LLPS regulation by a third polypeptide chain. These findings provide further insights into the principles underlying LLPS formation and a design platform for controlling biological processes.",
+  "abstract_zh": "基于相分离生物聚合物的无膜液体区室已在多种细胞类型中被观察到，并归因于主要基于 intrinsically disordered domains（内在无序结构域）的弱多价相互作用。基于从头设计的可调模块（以可理解、可控的方式相互作用）来设计液-液相分离（LLPS）凝聚体，可能增进我们对这一现象的理解，并引入新功能。在此，我们报告了在哺乳动物细胞中构建的CC-LLPS，其基于设计的coiled-coil（CC）二聚体形成模块，其中CC对的稳定性、数量、连接子及顺序排列控制着扩散态、液态和固定凝聚体之间的转变，并通过粗粒化分子模拟得到验证。通过模块化设计，我们实现了多个共存凝聚体、LLPS的化学调控、凝聚体融合、由一种或两种多肽组分形成，或由第三种多肽链调控LLPS。这些发现为LLPS形成的原理提供了进一步见解，并提供了一个控制生物过程的设计平台。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38042897/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38042897/",
+  "paper_page_path": "papers/pubmed/38042897/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.09.544221",
+  "title": "Content-enriched fluorescence lifetime fluctuation spectroscopy to study bio-molecular condensate formation",
+  "authors": "Perego E; Zappone S; Castagnetti F; Mariani D; Vitiello E; Rupert J; Zacco E; Tartaglia GG; Bozzoni I; Slenders E; Vicidomini G",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-11",
+  "window": {
+    "start": "2023-06-05",
+    "end": "2023-06-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用荧光寿命涨落光谱研究活细胞中应激颗粒等生物分子凝聚体的形成与分子动力学，对象为相分离凝聚体且涉及蛋白互作，但方法为实验光谱技术而非AI或物理模拟，机制建模深度有限。",
+  "abstract": "Quantitative fluorescence microscopy is experiencing an important revolution thanks to single-photon array detectors. These detectors provide users with so far inaccessible specimen information: The distribution of the specimen’s fluorescence emission at single-photon level and high spatiotemporal sampling. In laser-scanning microscopy, this photon-resolved measurement has enabled robust fluorescence lifetime imaging at sub-diffraction spatial resolution, thus opening new perspectives for structural and functional imaging. Despite these significant advances in imaging, studying the time evolution of biological processes remains a considerable challenge. Here we present a com-prehensive framework of live-cell spectroscopy methodologies – compatible with imaging – to investigate bio-molecular processes at various spatiotemporal scales. We use photon-resolved spatial and temporal measurements granted by a single-photon array detector to boost the information content of a unified fluorescence fluctuation spectroscopy and fluorescence lifetime experiment. To demonstrate the potential of this approach, we investigate the phase transition of liquid-like condensates during oxidative stress inside living cells. These condensates are generally found in several cellular processes and exhibit substantial variations in molecular composition, size, and kinetics, posing a significant challenge for quantifying their underlying molecular dynamics. This study demonstrates how the pro-posed approach reveals the mutual dynamics of different RNA-binding proteins involved in the stress granules formation – inaccessible to imaging alone. We observe condensate formation by performing time-lapse super-resolved imaging of the cellular macro-environment while simultaneously monitoring the molecular mobility, the sub-diffraction environment organization, interactions, and nano-environment properties through fluorescence lifetime fluctuation spectroscopy. We are confident that our framework offers a versatile toolkit for investigating a broad range of bio-molecular processes – not limited to liquid-liquid phase transition – and we anticipate their widespread application in future life-science research.",
+  "abstract_zh": "定量荧光显微镜正经历着一场重要变革，这得益于单光子阵列探测器。这些探测器为用户提供了迄今无法获取的样本信息：在单光子水平和高速时空采样下的样本荧光发射分布。在激光扫描显微镜中，这种光子分辨测量已实现亚衍射空间分辨率下的稳健荧光寿命成像，从而为结构和功能成像开辟了新视角。尽管在成像方面取得了这些显著进展，研究生物过程的时间演化仍是一项相当大的挑战。在此，我们提出一个与成像兼容的活细胞光谱学方法综合框架，用于在不同时空尺度上研究生物分子过程。我们利用单光子阵列探测器提供的光子分辨空间和时间测量，来增强统一荧光波动光谱学和荧光寿命实验的信息含量。为展示该方法的潜力，我们研究了活细胞内氧化应激过程中液状凝聚体的相变。这些凝聚体通常出现在多种细胞过程中，并在分子组成、大小和动力学方面表现出显著变化，这对其潜在分子动力学的量化构成了重大挑战。本研究展示了所提方法如何揭示参与应激颗粒形成的不同RNA结合蛋白的相互动力学——这是仅靠成像无法实现的。我们通过延时超分辨成像观察细胞宏观环境的凝聚体形成，同时通过荧光寿命波动光谱学监测分子迁移率、亚衍射环境组织、相互作用和纳米环境特性。我们相信，我们的框架为研究广泛的生物分子过程（不仅限于液-液相变）提供了多功能工具包，并预期其在未来生命科学研究中得到广泛应用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.09.544221",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.09.544221",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.09.544221/index.html"
+}

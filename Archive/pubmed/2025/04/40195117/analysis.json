@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40195117",
+  "title": "Recent progress and future challenges in structure-based protein-protein interaction prediction.",
+  "authors": "Yuan, Rongqing; Zhang, Jing; Zhou, Jian; Cong, Qian",
+  "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+  "published_date": "2025-04-08",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 7,
+  "one_liner_zh": "综述基于结构的PPI预测方法进展，强调AI作用并指出IDR互作等挑战，虽非专门机制建模但对象与方法相关。",
+  "abstract": "Protein-protein interactions (PPIs) play a fundamental role in cellular processes, and understanding these interactions is crucial for advances in both basic biological science and biomedical applications. This review presents an overview of recent progress in computational methods for modeling protein complexes and predicting PPIs based on 3D structures, focusing on the transformative role of artificial intelligence-based approaches. We further discuss the expanding biomedical applications of PPI research, including the elucidation of disease mechanisms, drug discovery, and therapeutic design. Despite these advances, significant challenges remain in predicting host-pathogen interactions, interactions between intrinsically disordered regions, and interactions related to immune responses. These challenges are worthwhile for future explorations and represent the frontier of research in this field.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）在细胞过程中扮演基础性角色，理解这些相互作用对于基础生物科学和生物医学应用的进展至关重要。本综述概述了基于三维结构建模蛋白质复合物和预测PPIs的计算方法的最新进展，重点关注基于人工智能方法的变革性作用。我们进一步讨论了PPI研究不断扩展的生物医学应用，包括疾病机制的阐明、药物发现和治疗设计。尽管取得了这些进展，但在预测宿主-病原体相互作用、内在无序区域之间的相互作用以及与免疫反应相关的相互作用方面仍存在重大挑战。这些挑战值得未来探索，并代表了该领域研究的前沿。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40195117/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40195117/",
+  "paper_page_path": "papers/pubmed/40195117/index.html"
+}

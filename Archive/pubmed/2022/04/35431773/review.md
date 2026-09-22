@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (review article)
+- **Assessment boundary** Scientific content, technical soundness, clarity, and alignment with stated aims; no assessment of formatting or editorial policy
+- **Shared manuscript claim summary** The authors review experimental and computational methods for generating structural ensembles of dynamic misfolding proteins, discuss the impact of ensemble averaging on experimental restraints, and propose machine learning approaches to identify aggregation-relevant sub-ensembles, illustrated with examples from α-synuclein and β2-microglobulin.
+- **Visible evidence base** Abstract, Introduction, sections on misfolding proteins across the flexibility scale, experimental methods, ensemble averaging, computational conversion of restraints, machine learning example for α-synuclein, β2-microglobulin example, Conclusion, and funding statements
+- **Missing materials affecting confidence** Figures 1–5 are referenced but not provided; no supplementary data, code, or detailed methodological protocols; no quantitative performance metrics for the machine learning clustering examples
+
+## Reviewer
+- **Overall assessment** This is a well-written and timely review that addresses a challenging and important topic in protein misfolding research. The authors successfully synthesize a broad range of experimental and computational approaches, and the inclusion of two illustrative examples adds practical value. The discussion of ensemble averaging and its pitfalls is particularly useful. However, the review would benefit from a more critical and quantitative treatment of the machine learning methods, and the absence of figures limits the ability to fully evaluate the illustrative examples. The claims are generally supported by the cited literature, though some statements are presented without sufficient nuance or caveats.
+- **Who would be interested in the results, and why** Researchers in protein misfolding, amyloid aggregation, structural biology, and biophysics would find this review valuable. It is also relevant to computational chemists and bioinformaticians developing ensemble generation and machine learning tools for disordered proteins. The practical examples and discussion of method limitations make it a useful resource for experimentalists seeking to apply these approaches.
+- **Major strengths** The review provides a comprehensive and accessible overview of a complex field. The emphasis on the timescale of conformational exchange and its effect on experimental observables is a strong and often underappreciated point. The use of two well-chosen example systems (α-synuclein and β2-microglobulin) grounds the discussion in concrete cases. The forward-looking perspective on machine learning is timely and thought-provoking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that machine learning clustering methods can be used to "extract aggregation-relevant sub-ensembles" from dynamic ensembles, and present examples for α-synuclein and β2-microglobulin.
+  - **Evidence pointer** Section "Extracting Information About Misfolding/Aggregation Sub-Ensembles Using Machine Learning. An Example From α-Synuclein"; Figures 3 and 4 (not provided)
+  - **Concern** The machine learning examples are described as illustrative, but no quantitative validation is provided. It is unclear whether the identified clusters correspond to experimentally verified aggregation-relevant states, or whether the clustering results are robust to parameter choices (e.g., number of clusters, feature selection). The authors do not discuss potential overfitting or the risk of identifying spurious clusters in high-dimensional data.
+  - **Why it matters** The central claim of the review is that machine learning can help identify biologically meaningful sub-ensembles. Without validation or a discussion of limitations, this claim remains speculative and could mislead readers into overinterpreting clustering results.
+  - **Resolution test** Provide quantitative metrics (e.g., silhouette scores, cluster stability) or cross-validation with experimental data (e.g., mutation effects, aggregation kinetics) to support the biological relevance of the identified clusters. Alternatively, clearly state the limitations and the need for experimental validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "the vast diversity of protein structures of unrelated sequence and function that can form fibrillar aggregates suggests the presence of common, fundamental underlying mechanisms that are yet to be discovered and understood."
+  - **Evidence pointer** Section "Misfolding Proteins Across the Flexibility Scale"
+  - **Concern** This claim is presented as a general conclusion, but the review does not critically evaluate alternative viewpoints, such as the possibility that aggregation is driven by diverse, context-dependent mechanisms rather than a single common principle. The statement is somewhat speculative and would benefit from a more balanced discussion of competing hypotheses.
+  - **Why it matters** The review aims to provide a comprehensive perspective, and an uncritical acceptance of a unifying mechanism could bias readers toward a particular interpretation of the literature.
+  - **Resolution test** Add a brief discussion of alternative models (e.g., sequence-specific vs. generic driving forces) and cite evidence for and against a common mechanism.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "treating NMR-derived restraints as population-weighted averages over all ensemble members is able to capture the time averaging that happens in solution when exchange between these species is fast."
+  - **Evidence pointer** Section "Ensemble Averaging of Experimental Restraints"; Figure 2 (not provided)
+  - **Concern** The discussion of ensemble averaging is clear, but the authors do not address the practical challenges of determining whether the fast-exchange assumption holds for a given system. No guidance is provided on how to test this assumption or how to handle systems where exchange is intermediate or slow.
+  - **Why it matters** The validity of ensemble generation depends critically on this assumption. Without practical guidance, readers may apply the approach incorrectly.
+  - **Resolution test** Add a subsection or paragraph on how to assess exchange regimes (e.g., via relaxation dispersion, variable temperature experiments) and the consequences of violating the fast-exchange assumption.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Location not provided
+  - **Issue** The sentence "More than 40 proteins has been identified as the culprits of aggregation in human amyloid diseases" contains a grammatical error ("has" should be "have").
+  - **Required correction** Change "has" to "have".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Experimental Methods Used to Guide the Generation of Protein Ensembles"
+  - **Evidence pointer** Location not provided
+  - **Issue** The authors mention "hydrogen exchange (HX) monitored by NMR or mass spectrometry (MS)" but do not discuss the different timescales probed by these two methods, which is relevant to the subsequent discussion of ensemble averaging.
+  - **Required correction** Add a sentence noting that HX-NMR and HX-MS report on different timescales and that this must be considered when combining data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section "Ensembles of Transient Oligomeric Species Formed by Folded Precursors. An Example From β2M"
+  - **Evidence pointer** Location not provided
+  - **Issue** The β2-microglobulin example is described, but the connection to the machine learning theme of the previous section is not made explicit. It would strengthen the narrative to explain how clustering could be applied to the β2m oligomeric ensembles.
+  - **Required correction** Add a sentence linking the β2m example back to the machine learning discussion.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Extracting Information About Misfolding/Aggregation Sub-Ensembles Using Machine Learning. An Example From α-Synuclein"
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "Gaussian mixture models (GMM)" is introduced without a brief explanation of what it is, which may be unfamiliar to some readers.
+  - **Required correction** Add a brief parenthetical explanation, e.g., "a statistical model that assumes data are generated from a mixture of several Gaussian distributions."
+- **Technical failings that need to be addressed before the case is established** No fundamental technical failings identified. The main issues are the lack of quantitative validation for the machine learning examples and the absence of figures, which limits full evaluation. These are not blocking but should be addressed to strengthen the review.
+- **Assessment against Nature-style criteria**
+  - **Originality** The review is not highly original in its topic, but the specific focus on ensemble averaging and the use of machine learning to identify aggregation-relevant sub-ensembles provides a fresh perspective. The examples are illustrative rather than novel.
+  - **Scientific importance** The topic is of high importance given the central role of protein misfolding in numerous diseases and the technical challenges in characterizing dynamic ensembles. The review addresses a clear gap in the literature by connecting experimental and computational approaches.
+  - **Interdisciplinary readership** The review is relevant to structural biologists, biophysicists, computational chemists, and researchers in protein science. The writing is generally accessible, though some sections assume familiarity with NMR and MD methods.
+  - **Technical soundness** The technical content is accurate and well-referenced. The discussion of ensemble averaging is particularly strong. The machine learning section is less rigorous and would benefit from more detail and validation.
+  - **Readability for nonspecialists** The review is well-structured and clearly written, but some jargon is used without definition. The figures (not provided) would likely aid comprehension.
+- **Recommendation posture** Supportive if technical concerns are resolved. The review is a valuable contribution to the field, but the machine learning claims need to be tempered or validated, and the practical guidance on ensemble averaging should be expanded.
+
+## Risk / unsupported claims
+- The claim that machine learning clustering can identify "aggregation-relevant sub-ensembles" is not quantitatively supported; the examples are illustrative only and lack validation.
+- The statement that "the vast diversity of protein structures... suggests the presence of common, fundamental underlying mechanisms" is speculative and not critically evaluated.
+- The assertion that "fast exchange is usually a safe approximation" for NMR-derived restraints in IDPs is presented without discussing cases where this assumption fails.
+- The claim that "a large, high quality dataset of experimentally determined ensembles... is necessary to train accurate deep learning networks" is plausible but not substantiated with evidence or examples.

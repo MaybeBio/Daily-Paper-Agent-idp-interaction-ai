@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supporting information descriptions)
+- **Assessment boundary** Scientific claims, methodological soundness, statistical validity, and interpretation of results as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that flanking regions of short linear motifs (SLiMs) contain conserved physicochemical properties that are functionally important, despite high sequence diversity. They identify specific compositional restrictions in flanking regions across SLiM classes and categories, and suggest these findings could improve motif prediction.
+- **Visible evidence base** Results section with figures (Fig 1-5), tables (Table 1), supplementary tables (S1-S2), supplementary figures (S1 Fig), methods section
+- **Missing materials affecting confidence** Figures and tables referenced but not provided in full detail; supplementary appendices (S1-S2) not available; specific statistical outputs beyond p-values not shown; raw data not accessible
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in the SLiM field, namely whether flanking regions carry conserved physicochemical properties that contribute to motif function. The authors present a systematic bioinformatics analysis using established databases and a reasonable methodological framework. However, several technical and interpretive issues limit the strength of the conclusions. The statistical approach is simplistic, the threshold for "low variability" appears arbitrary, and the biological interpretation of the findings is speculative in places. The manuscript would benefit from more rigorous statistical controls, validation against negative controls, and a clearer articulation of how the findings translate into practical improvements for motif prediction.
+- **Who would be interested in the results, and why** Researchers studying short linear motifs, intrinsically disordered regions, protein-protein interactions, and molecular evolution. The findings could also be of interest to developers of motif prediction tools and those studying the role of sequence context in binding specificity and affinity.
+- **Major strengths** The study addresses a gap in the SLiM literature by systematically examining flanking region properties. The use of multiple physicochemical indices is appropriate. The comparison across SLiM categories (LIG, DOC, DEG) adds breadth. The identification of specific classes with conserved flanking properties (e.g., LIG_PROFILIN) provides concrete examples that could guide experimental follow-up.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that flanking regions show "significantly higher diversity" than motifs based on paired t-tests, and that certain classes show "low variability" in specific properties.
+  - **Evidence pointer** Results section, Fig 2, Table 1, S2 Table
+  - **Concern** The statistical framework is insufficient to support the claims. The paired t-test compares ranges of mean values across classes, but this approach does not account for multiple testing across 8 properties and multiple comparisons between regions. The threshold of 0.8 for "low variability" is introduced without clear justification. More critically, the analysis lacks a proper null model. The authors do not compare observed variability against what would be expected from randomly sampled disordered sequences with similar amino acid composition. Without such a control, it is unclear whether the "restrictions" identified are biologically meaningful or simply reflect general properties of disordered regions.
+  - **Why it matters** The central claim of the paper is that flanking regions contain conserved properties that are functionally important. If the statistical evidence for conservation is not robust, the entire premise is weakened. A proper null model and multiple testing correction are essential to establish that the observed patterns are non-random.
+  - **Resolution test** The authors should generate matched control datasets of disordered sequences with similar length and composition, compute the same property distributions, and demonstrate that the observed restrictions in SLiM flanking regions are significantly different from controls. They should also apply multiple testing corrections (e.g., Benjamini-Hochberg) and justify the 0.8 threshold with reference to the distribution of expected variability under the null.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that they "collected all the known experimentally validated ligand-binding motifs" and used a "nonredundant and nonbiased collection (1192 motifs)" for certain analyses.
+  - **Evidence pointer** Methods section, Dataset generation
+  - **Concern** The dataset generation is described but key details are missing. The authors state that motifs from ELM and LMPID were combined, but the reconciliation of motif classes and boundaries between the two databases is not described in sufficient detail. The criteria for "experimentally validated" are not specified. The redundancy filtering steps are described but the exact parameters and their rationale are unclear. The final dataset size (1297) versus the "nonbiased" subset (1192) is not explained. The exclusion of certain classes or instances is not justified.
+  - **Why it matters** Reproducibility is a core requirement for bioinformatics studies. Without a fully transparent description of dataset construction, filtering criteria, and the relationship between different dataset versions used in different analyses, readers cannot assess potential biases or reproduce the work.
+  - **Resolution test** The authors should provide a detailed step-by-step description of dataset construction, including exact database versions, retrieval dates, filtering thresholds, and the number of instances removed at each step. They should also clarify why the "nonbiased" subset differs from the full dataset and whether all analyses were performed on both.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The authors conclude that "some restrictions can be found regarding the composition of the flanking regions in several motif classes and in higher motif categories as well" and suggest these findings "hold potential for expanding and increasing the precision of current motif prediction methods."
+  - **Evidence pointer** Discussion section
+  - **Concern** The leap from descriptive observations of property distributions to claims about evolutionary constraint and predictive utility is not fully supported. The authors do not demonstrate that the identified properties are under selection, nor do they provide any validation that incorporating these features improves motif prediction. The discussion of evolutionary constraint is speculative, and the claim about prediction improvement is not tested.
+  - **Why it matters** The stated implications of the work are significant, but they are not substantiated by the presented analyses. Overstating implications can mislead readers and overstate the practical value of the findings.
+  - **Resolution test** The authors should either temper the conclusions to match the descriptive nature of the study, or add analyses that directly test the predictive value of flanking properties (e.g., using them as additional features in a motif prediction benchmark) and/or provide evolutionary evidence (e.g., comparison with orthologous sequences).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Results section, Fig 1
+  - **Issue** The description of Figure 1 is brief and does not clearly explain the workflow. The figure itself is not provided, making it difficult to assess whether the schematic adequately conveys the methodology.
+  - **Required correction** Expand the figure legend and the accompanying text to clearly describe each step of the workflow, including the specific analyses performed and the outputs generated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Paired t-tests
+  - **Evidence pointer** Methods section, Paired t-tests
+  - **Issue** The authors report p-values but do not provide effect sizes or confidence intervals. The statement "p-values were <1.23E-07 for all the 8 properties" is reported without context on the magnitude of the differences.
+  - **Required correction** Report effect sizes (e.g., mean differences with confidence intervals) alongside p-values to allow readers to assess the biological relevance of the findings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Compositional restrictions"
+  - **Evidence pointer** Title, Abstract, Results
+  - **Issue** The term "compositional restrictions" is used throughout but is not explicitly defined. It is unclear whether this refers to amino acid composition, property distributions, or both.
+  - **Required correction** Define the term clearly at first use and ensure consistent usage throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Discussion section
+  - **Issue** The manuscript does not discuss potential limitations of the approach, such as the reliance on currently known SLiMs (which may be biased toward well-studied systems), the choice of amino acid indices, or the potential confounding effects of sequence composition.
+  - **Required correction** Add a limitations paragraph acknowledging these issues and discussing how they might affect the interpretation of the results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor with null model and multiple testing correction) and R1-M2 (methodological transparency in dataset construction) are the primary technical issues. Without addressing these, the central claims of conserved flanking properties cannot be considered established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The question of whether flanking regions carry conserved physicochemical properties is relatively underexplored, and the systematic approach across multiple SLiM categories is a useful contribution. However, the conceptual framework is not entirely novel, as prior work has examined context effects in specific SLiM families.
+  - **Scientific importance** If the findings are robust, they could inform both our understanding of SLiM evolution and practical efforts to improve motif prediction. However, the current evidence does not yet establish the importance of the identified properties.
+  - **Interdisciplinary readership** The topic is relevant to molecular biology, bioinformatics, and evolutionary biology. The manuscript is written in a way that is largely accessible to these communities, though some methodological details are dense.
+  - **Technical soundness** The basic approach is reasonable, but the statistical framework and dataset construction have significant gaps that undermine confidence in the conclusions.
+  - **Readability for nonspecialists** The abstract and introduction are clear, but the results section assumes familiarity with SLiM biology and bioinformatics methods. The manuscript would benefit from more explicit explanations of key concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and has a reasonable conceptual framework, but the statistical and methodological issues described above prevent the conclusions from being supported. The authors should be encouraged to revise and resubmit after addressing the major concerns, particularly the need for a proper null model and more transparent dataset description.

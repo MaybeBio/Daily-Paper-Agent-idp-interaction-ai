@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41537055",
+  "title": "A prior-sampling conditional variational autoencoder for neuroimaging normative modelling: Benchmarking deep learning against statistical approaches.",
+  "authors": "Ho, Mai P; Song, Yang; Sachdev, Perminder S; Fan, Lei; Jiang, Jiyang; Wen, Wei",
+  "journal": "Imaging neuroscience (Cambridge, Mass.)",
+  "published_date": "2026-01-15",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究神经影像规范建模的深度学习变分自编码器方法，对象为脑影像表型与高血压，不涉及无序蛋白、PPI或相分离，且无互作机制建模，与本课题无关。",
+  "abstract": "Normative modelling in neuroimaging provides a powerful framework for quantifying individual deviations from expected brain measures as a function of relevant covariates. While earlier methods focused on analysing distinct variables in isolation, an increasing number of deep learning-based approaches are emerging to handle multiple response variables simultaneously. Conditional variational autoencoders (cVAEs) have previously been applied in this context and show promise for multivariate modelling. However, existing inference methods still face challenges in providing reliable probabilistic predictions, limiting their effectiveness as true normative models. In this study, we propose an enhanced cVAE-based framework that generates predictions directly from covariates through prior-sampling inference. This approach aligns with normative modelling principles while leveraging deep learning to handle high-dimensional data. We demonstrate the effectiveness of our approach using 195 imaging-derived phenotypes (IDPs), including morphometric features (cortical thickness, cortical volume, subcortical volume) and white matter hyperintensity (WMH) volumes, as a test case. Our dataset includes 8,551 normotensive and 18,180 hypertensive participants from the UK Biobank. We benchmarked our model against three well-established normative modelling techniques, including Generalised Additive Models for Location, Scale, and Shape (GAMLSS), Multivariate Fractional Polynomial Regression (MFPR), and Hierarchical Bayesian Regression (HBR), as well as the conventional posterior-sampling cVAE approach employed in existing autoencoder-based normative models. Through comparative analyses, our results show that the proposed cVAE-based framework achieves performance comparable with well-established normative models across various metrics, while appropriately capturing individual deviations associated with hypertension severity. Furthermore, our inference strategy demonstrates superior covariate sensitivity compared with those used in existing cVAE-based normative models, with deviations derived from our method showing better sensitivity to hypertension severity. Beyond predictive performance, our study also offers a comprehensive correlational mapping of the relationships between hypertension and brain structural damage. Taken together, this work highlights the promise of deep learning-based normative modelling for complex datasets such as neuroimaging, paving the way for personalised brain health assessment and early detection of neurological disorders.",
+  "abstract_zh": "神经影像学中的规范建模（normative modelling）提供了一个强大框架，用于量化个体相对于预期脑部测量值的偏差，该偏差作为相关协变量的函数。早期方法侧重于孤立分析不同变量，而越来越多的基于深度学习的方法正在涌现，以同时处理多个响应变量。条件变分自编码器（cVAEs）此前已在此背景下应用，并显示出多变量建模的潜力。然而，现有推断方法在提供可靠概率预测方面仍面临挑战，限制了其作为真正规范模型的有效性。在本研究中，我们提出了一种增强的基于cVAE的框架，通过先验采样推断直接从协变量生成预测。该方法与规范建模原则一致，同时利用深度学习处理高维数据。我们使用195个影像衍生表型（IDPs），包括形态测量特征（皮层厚度、皮层体积、皮层下体积）和白质高信号（WMH）体积，作为测试案例，证明了我们方法的有效性。我们的数据集包括来自英国生物银行（UK Biobank）的8,551名正常血压参与者和18,180名高血压参与者。我们将我们的模型与三种成熟的规范建模技术进行了基准比较，包括位置、尺度和形状广义加性模型（GAMLSS）、多元分数多项式回归（MFPR）和层次贝叶斯回归（HBR），以及现有基于自编码器的规范模型中采用的常规后验采样cVAE方法。通过比较分析，我们的结果表明，所提出的基于cVAE的框架在各种指标上达到了与成熟规范模型相当的性能，同时适当捕捉了与高血压严重程度相关的个体偏差。此外，我们的推断策略在协变量敏感性方面优于现有基于cVAE的规范模型，从我们的方法得出的偏差对高血压严重程度表现出更好的敏感性。除预测性能外，我们的研究还提供了高血压与脑结构损伤之间关系的全面相关性映射。综合来看，这项工作凸显了基于深度学习的规范建模在神经影像等复杂数据集上的潜力，为个性化脑健康评估和神经系统疾病的早期检测铺平了道路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41537055/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41537055/",
+  "paper_page_path": "papers/pubmed/41537055/index.html"
+}

@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the provided text; no external data or unpublished materials consulted
+- **Shared manuscript claim summary** The authors propose that lipid packing defects, rather than anionic lipid charge, are the primary driver of N-terminal acetylated α-synuclein (NTA-αSyn) membrane binding. They support this with fluorescence microscopy-based single-vesicle binding assays, circular dichroism spectroscopy, and all-atom molecular dynamics simulations across a range of lipid compositions, including synaptic vesicle mimics.
+- **Visible evidence base** Main text Figures 1–5 (described), Supplementary Figures S1–S10 (referenced), Supplementary Tables S1–S4 (referenced), Materials and Methods section
+- **Missing materials affecting confidence** Raw numerical data for binding curves and Kd values (only summarized in text), full simulation parameters and trajectory analyses (deferred to Supplementary Information), exact lipid compositions for CD experiments (tables referenced but not shown), statistical details for replicate measurements, and the PackMem algorithm validation for the specific lipid systems used
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially important challenge to the prevailing view that anionic lipids are required for α-synuclein membrane binding. The combination of experimental binding assays with molecular dynamics simulations is well conceived, and the observation that NTA-αSyn binds preferentially to neutral, defect-rich membranes over anionic membranes is striking and novel. However, the strength of the central claim, that packing defects are "necessary and sufficient" for binding, rests on a limited set of lipid compositions and a correlative relationship between simulated defect coverage and measured binding. The manuscript would be substantially strengthened by direct experimental manipulation of defect density independent of lipid headgroup chemistry, and by quantitative comparison of binding affinities across a wider parameter space. The work is likely to be of interest to the membrane biophysics and neurodegeneration communities, but the current evidence base does not fully establish the title claim as stated.
+- **Who would be interested in the results, and why** Researchers studying α-synuclein membrane interactions and aggregation mechanisms, particularly those focused on the role of lipid composition in Parkinson's disease pathology. The work also speaks to the broader membrane biophysics community interested in how lipid packing defects govern peripheral protein binding, and to those developing lipid-nanoparticle-based therapeutic strategies for sequestering α-synuclein.
+- **Major strengths** The study directly compares NTA-αSyn, the physiologically relevant form, with unmodified αSyn, addressing a gap in the literature. The use of two orthogonal experimental readouts (single-vesicle fluorescence and CD spectroscopy) with consistent trends is reassuring. The inclusion of synaptic vesicle mimic compositions with varying degrees of unsaturation provides a path toward physiological relevance. The observation of a linear relationship between simulated defect coverage and measured binding across multiple compositions is compelling and provides a quantitative framework for prediction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The title and abstract state that lipid packing defects are "necessary and sufficient" for NTA-αSyn membrane binding, and the Discussion asserts that "membrane packing defects are the primary driver of αSyn binding."
+  - **Evidence pointer** Figures 2C, 3B, 3E, 4D, 5D; Discussion section
+  - **Concern** The claim of sufficiency is not established by the data presented. The manuscript demonstrates a correlation between simulated defect coverage and binding across a set of compositions, but the lipid systems vary simultaneously in headgroup charge, tail saturation, and tail methylation. No experiment directly manipulates defect density while holding all other variables constant. The "sufficiency" claim would require demonstrating that a neutral membrane with high defect density binds NTA-αSyn at levels comparable to or exceeding anionic membranes, which is shown for DPhPC versus DOPC/DOPS, but this is a single comparison. The "necessity" claim is also not fully supported: the data show that low-defect membranes (DLPC) bind poorly, but the authors do not demonstrate that introducing defects into an otherwise low-defect anionic membrane rescues binding. The linear fits in Figures 4D and 5D are suggestive but are based on a small number of points and do not include error estimates for the x-intercepts.
+  - **Why it matters** The title and central conclusion make a strong mechanistic claim that goes beyond the correlative evidence. If the claim is overstated, it could mislead subsequent work in the field and therapeutic development efforts. The distinction between "defects are required" and "defects are the dominant factor among several" is scientifically important.
+  - **Resolution test** Provide direct experimental evidence that modulating defect density in a single lipid system (e.g., via temperature, pressure, or incorporation of a third lipid species with known packing effects) changes NTA-αSyn binding in the predicted manner. Alternatively, demonstrate that a low-defect anionic membrane with high surface charge does not bind NTA-αSyn, and that introducing defects into that same membrane restores binding. Report the x-intercept values with confidence intervals and show that the difference between the PC and PC/PS fits is statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology
+  - **Claim pointer** The manuscript states that "membrane packing defects are necessary and sufficient for NTA-αSyn binding" and uses simulated defect coverage as the quantitative predictor of binding.
+  - **Evidence pointer** Figure 2C, Supplementary Figure S5, Materials and Methods (All-Atom Molecular Dynamics Simulations)
+  - **Concern** The quantification of packing defects relies entirely on the PackMem algorithm applied to simulations of pure and mixed lipid bilayers. The manuscript does not provide validation that PackMem's definition of a "defect" corresponds to the physical feature that α-synuclein senses. The correlation between defect coverage and binding could be coincidental or driven by another correlated property (e.g., membrane fluidity, lateral pressure profile, or headgroup spacing). The authors do not report alternative metrics (e.g., free volume, order parameters, or water penetration depth) that could serve as independent checks.
+  - **Why it matters** The central quantitative claim of the paper depends on the fidelity of the defect metric. If the metric is not physically meaningful for protein binding, the correlation may not be mechanistically informative. The field would benefit from knowing whether the defect coverage is robust to the choice of analysis method.
+  - **Resolution test** Validate the defect metric against an independent experimental observable (e.g., fluorescence lifetime of a membrane-embedded probe sensitive to water penetration, or neutron scattering measurements of bilayer structure). Report at least one alternative simulation-based metric (e.g., area per lipid, chain order parameter, or free volume) and show that the correlation with binding is specific to defect coverage rather than a general property of the bilayers.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative analysis
+  - **Claim pointer** The manuscript reports apparent dissociation constants (Kd) for NTA-αSyn binding to different lipid compositions (Figure 3F, Table S4) and states that Kd was lowest for DPhPC membranes.
+  - **Evidence pointer** Figure 3E, Figure 3F, Table S4, Materials and Methods (Circular Dichroism Spectroscopy)
+  - **Concern** The Kd values are derived from CD spectroscopy-based binding curves fit to a Langmuir-Hill isotherm. The manuscript does not report the number of independent replicates, the uncertainty in the fitted Kd values, or the goodness-of-fit statistics. The statement that Kd "could not be determined" for DLPC and DLPC/DLPS systems due to "exceptionally low binding" is qualitative and not supported by a quantitative threshold. Additionally, the CD-based binding assay measures secondary structure change, which may not be linearly related to the fraction of bound protein if the helical content per bound protein varies with lipid composition.
+  - **Why it matters** The quantitative comparison of binding affinities across compositions is a key part of the evidence for the central claim. Without uncertainty estimates, it is not possible to assess whether the reported differences in Kd are statistically meaningful. The interpretation of the CD data relies on the assumption that the spectral change is proportional to bound fraction, which may not hold if the membrane-bound conformation differs between compositions.
+  - **Resolution test** Report Kd values with confidence intervals from at least three independent experiments. Provide a quantitative criterion for when Kd cannot be determined (e.g., binding does not reach 50% saturation at the highest lipid concentration tested). Validate the CD-based binding assay against an orthogonal method (e.g., the fluorescence-based assay) for at least one composition to confirm that the two methods report the same binding isotherm.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The manuscript states that "NTA-αSyn did not exhibit appreciable binding to anionic membranes until a critical threshold of packing defects was reached" and that "charge alone is not enough to regulate NTA-αSyn binding."
+  - **Evidence pointer** Figures 3B, 3E, 4D, Discussion section
+  - **Concern** The interpretation that charge is insufficient relies on the comparison between DOPC/DOPS and DPhPC membranes. However, these systems differ not only in charge but also in tail chemistry (dioleoyl versus diphytanoyl), which the authors attribute to defect density. The claim that charge is not sufficient would be more convincing if the authors compared anionic and neutral membranes with matched defect densities. The data in Figure 4D show that the anionic systems have a steeper slope, which the authors interpret as synergy, but this could also be explained by a different binding mechanism on anionic membranes (e.g., electrostatic steering followed by hydrophobic insertion).
+  - **Why it matters** The manuscript challenges a long-standing paradigm, and the interpretation has implications for how the field thinks about α-synuclein membrane targeting. If the conclusion is based on a confounded comparison, it may not hold under other conditions. The distinction between "charge is not sufficient" and "charge is not necessary" is important for mechanistic understanding.
+  - **Resolution test** Compare NTA-αSyn binding to anionic and neutral membranes with matched defect coverage (e.g., by adjusting tail unsaturation in both systems to achieve similar simulated defect densities). Alternatively, use a series of anionic lipids with different tail chemistries to separate the effects of charge and packing. Report the binding data for at least one anionic and one neutral composition with statistically indistinguishable defect coverage.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1E schematic
+  - **Evidence pointer** Figure 1E
+  - **Issue** The schematic in Figure 1E depicts αSyn as an extended helix on the membrane surface, but the manuscript does not directly measure the conformation of the membrane-bound protein. The Discussion acknowledges this uncertainty, but the figure may be interpreted as presenting a definitive structural model.
+  - **Required correction** Add a note in the figure legend indicating that the helical conformation is schematic and not directly determined in this work, or modify the schematic to be less structurally specific.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods, SUV preparation
+  - **Evidence pointer** Materials and Methods (SUV Preparation)
+  - **Issue** The exact lipid compositions for the CD spectroscopy experiments are referenced as tables but not shown in the main text. The compositions for the tethered vesicle assays are also not listed in the main text.
+  - **Required correction** Include the lipid composition tables in the main text or Supplementary Information with clear cross-referencing, so that readers can reproduce the experiments without accessing external databases.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Binding curves and Kd values
+  - **Evidence pointer** Figures 3B, 3E, 3F, Table S4
+  - **Issue** The number of replicate experiments and the error bars for the binding curves are not described in the main text. The figure legends reference Supplementary Information, but the level of replication is not stated.
+  - **Required correction** State the number of independent replicates for each binding experiment in the figure legends or Materials and Methods, and show error bars or confidence intervals on all binding curves.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The term "necessary and sufficient" is used in the title and abstract, but the evidence supports a correlative relationship. The Discussion uses "primary driver," which is more measured. The strong phrasing in the title may overstate the findings.
+  - **Required correction** Consider softening the title and abstract to reflect the correlative nature of the evidence, or provide the additional experimental support described in R1-M1 to justify the stronger claim.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript cites prior work on α-synuclein binding to anionic membranes and on the role of packing defects, but does not discuss recent studies that have examined the role of lipid oxidation or of specific gangliosides in α-synuclein binding, which may be relevant to the physiological context.
+  - **Required correction** Add a brief discussion of how the present findings relate to other proposed mechanisms of α-synuclein membrane binding, including lipid oxidation and ganglioside-mediated interactions, to place the work in a broader context.
+
+## Risk / unsupported claims
+- The title claim that lipid packing defects are "necessary and sufficient" for NTA-αSyn membrane binding is not fully supported by the correlative evidence presented; the claim of sufficiency in particular requires direct experimental manipulation of defect density.
+- The statement that "charge alone is not enough to regulate NTA-αSyn binding" is based on a limited comparison and may be confounded by differences in tail chemistry between the systems compared.
+- The claim that the linear relationship between defect coverage and binding indicates a direct proportionality is not supported by statistical analysis; the x-intercept values are reported without confidence intervals.
+- The assertion that "NTA-αSyn did not exhibit appreciable binding to anionic membranes until a critical threshold of packing defects was reached" is qualitative and not supported by a defined threshold or statistical test.
+- The interpretation that cholesterol "differentially regulates" NTA-αSyn binding is based on extrapolation from a limited number of compositions and is not directly tested.
+- The physiological relevance of the findings, particularly the link between polyunsaturated fatty acid content and α-synuclein pathology, is speculative and not directly tested in this work.
+- The manuscript states that "these observations reform the existing narrative" but does not provide a quantitative comparison of the present results with prior binding measurements under matched conditions, making the claim of reform difficult to assess.

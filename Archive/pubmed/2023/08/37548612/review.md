@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, experimental section, results and discussion, concluding remarks) as provided
+- **Assessment boundary** Scientific content, technical soundness, and internal consistency of the reported methods, data interpretation, and conclusions. No assessment of supplementary figures or tables beyond what is referenced in the text.
+- **Shared manuscript claim summary** The authors report that pressure-jump NMR spectroscopy can provide residue-specific structural information on the oligomeric state of amelotin, an intrinsically disordered protein. They measure chemical shifts, NOEs, relaxation rates, and proline cis/trans isomerization to characterize secondary and tertiary structure, oligomerization kinetics, and dynamics. They also compare experimental data with AlphaFold2 and AlphaFold-Multimer predictions.
+- **Visible evidence base** Abstract, Introduction, Experimental Section (protein expression, NMR spectroscopy, backbone assignments, cis-Pro assignments, relaxation measurements, oligomer chemical shifts), Results and Discussion (pressure dissociation, relaxation, secondary structure from chemical shifts, time dependence, NOE data, proline isomerization, AlphaFold modeling), Concluding Remarks. References to Figures 1–7, S1–S16, Tables S1, S7, S8 are made but not all are visible in the provided text.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S16, S1, S7, S8) are referenced but not provided. Pulse sequence details, full relaxation data, NOE assignment details, AlphaFold model quality metrics, and raw chemical shift tables are not available for independent verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically sophisticated application of pressure-jump NMR spectroscopy to study the oligomeric state of an intrinsically disordered protein, amelotin. The methodological innovations, particularly the stroboscopic measurement of chemical shifts and NOEs in an NMR-invisible oligomeric state, are notable and potentially of broad interest to the structural biology community. The combination of multiple NMR observables (chemical shifts, relaxation, NOEs, proline isomerization) to derive structural and dynamic information is commendable. However, several technical concerns and interpretive ambiguities need to be addressed before the central claims are fully established. The comparison with AlphaFold predictions is interesting but currently underdeveloped, and the lack of quantitative validation metrics weakens the conclusions drawn from it.
+- **Who would be interested in the results, and why** Structural biologists studying intrinsically disordered proteins, protein oligomerization, and amyloid-related aggregation processes would find this work highly relevant. NMR spectroscopists developing advanced methods for studying invisible or transient states would also be interested. Additionally, researchers using or benchmarking AlphaFold and AlphaFold-Multimer for disordered or oligomeric systems would benefit from the experimental constraints reported here.
+- **Major strengths**
+  - The pressure-jump NMR methodology is innovative and extends the accessible time window for studying oligomerization processes.
+  - The combination of multiple NMR observables provides a multi-faceted view of the oligomeric state, including secondary structure, dynamics, and long-range contacts.
+  - The use of proline cis/trans isomerization as a long-time-scale probe is a creative and potentially powerful approach.
+  - The study addresses a challenging and biologically relevant system (amelotin, involved in enamel mineralization and macular degeneration).
+  - The authors are transparent about limitations and the need for future iterative studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "NOE contacts that exist exclusively in the oligomeric NMR-invisible state" were measured and used to derive structural information, including an 11-residue α-helix and a small antiparallel β-sheet.
+  - **Evidence pointer** Results and Discussion, "Structural Information from Pressure-Jump NOE"; Figures 5 and 6
+  - **Concern** The manuscript states that NOEs were measured during the oligomeric state, but the text does not provide sufficient detail on how spin diffusion was controlled or quantified. The authors acknowledge "substantial spin diffusion" for the α-helix, which can lead to false-positive long-range contacts. The criteria for distinguishing genuine through-space contacts from spin-diffusion artifacts are not described. Additionally, the assignment of specific NOEs as intra- versus intermolecular relies on a mixed-isotopomer approach, but the quantitative analysis (e.g., expected attenuation ratios, error bars) is not presented in the visible text.
+  - **Why it matters** The structural conclusions (α-helix, β-sheet, intermolecular contacts) rest entirely on the reliability of these NOE measurements. If spin diffusion or incomplete labeling controls compromise the data, the derived secondary and tertiary structure models could be incorrect.
+  - **Resolution test** Provide a detailed description of spin-diffusion control experiments (e.g., variable mixing time studies, deuteration levels, quantitative attenuation analysis for mixed-isotopomer samples). Show that the observed NOEs scale linearly with mixing time in the oligomeric state and that the mixed-isotopomer attenuation ratios match theoretical predictions for intermolecular contacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the kinetics of oligomerization and dissociation were probed at the residue-specific level, revealing that the oligomerization process is initiated in the C-terminal half of the segment."
+  - **Evidence pointer** Results and Discussion, "Oligomerization and Dissociation Time Dependence"; Figure 4
+  - **Concern** The time-dependent chemical shift changes are reported as percentages of the 300 ms value, but the text does not describe how the kinetic curves were fit or whether a kinetic model was applied. The claim that oligomerization is "initiated" in the C-terminal half is based on qualitative inspection of early time points (15 ms vs 30 ms). No rate constants, uncertainties, or statistical comparisons between residues are provided. The possibility of differential exchange broadening or relaxation effects confounding the apparent time courses is not discussed.
+  - **Why it matters** The kinetic claim is a central finding of the paper and is used to propose a nucleation mechanism. Without quantitative analysis, the conclusion that the C-terminal half initiates oligomerization is not rigorously supported.
+  - **Resolution test** Provide fits of the time-dependent chemical shift changes to a kinetic model (e.g., single or double exponential), with reported rate constants and confidence intervals. Show that the differences between N-terminal and C-terminal residues are statistically significant. Discuss potential artifacts from relaxation or exchange.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors state that "subunits of a hexamer generated by AlphaFold-Multimer satisfied intramolecular NOE and chemical shift data and may provide a starting point for developing atomic models for the oligomeric state."
+  - **Evidence pointer** Results and Discussion, "Use of Pro Residues to Monitor Oligomerization on Long Time Scales" and "Exploration of AMTN25–130 Structural Models with AlphaFold"; Figures S15, S16
+  - **Concern** The text states that only one out of many AlphaFold-Multimer calculations yielded a model consistent with intramolecular NOEs, and that this model still violates several intermolecular NOEs. The criteria for "satisfied" and "consistent" are not defined quantitatively. No model quality metrics (e.g., pLDDT, PAE, Ramachandran statistics) are provided in the visible text. The statement that the hexamer "may provide a starting point" is vague and not supported by a clear assessment of how well the model reproduces the experimental restraints.
+  - **Why it matters** The AlphaFold comparison is presented as a validation of the experimental data and a potential path forward for model building. Without quantitative comparison metrics, the reader cannot judge whether the model is genuinely useful or merely not grossly inconsistent.
+  - **Resolution test** Provide a table or figure comparing the AlphaFold-Multimer hexamer model's predicted chemical shifts and NOE distances against the experimental values, with quantitative agreement metrics (e.g., RMSD, violation counts). State the selection criteria used to choose this model over others.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the degree of order in the oligomer at the sites of Pro residues was probed by monitoring changes in cis/trans equilibria relative to the IDP state after long-term equilibration under oligomerizing conditions."
+  - **Evidence pointer** Results and Discussion, "Use of Pro Residues to Monitor Oligomerization on Long Time Scales"; Figure 7, S14, Table S8
+  - **Concern** The interpretation of cis/trans ratios as a proxy for local order assumes that the cis/trans equilibrium in the oligomeric state is fully established and that the measured ratios reflect the oligomeric state rather than a mixture of oligomeric and monomeric species. The text does not describe how the authors ensured that the sample was fully oligomerized at the time of measurement, nor how they accounted for potential contributions from dissociated monomers. The statement that "about half the peptide chains were fully ordered in the vicinity of Pro34" is an interpretation that depends on a two-state model that is not explicitly justified.
+  - **Why it matters** The proline isomerization data are used to infer local order/disorder in the oligomer on long time scales. If the measurements are contaminated by monomeric species or if the two-state interpretation is not valid, the conclusions about local order could be incorrect.
+  - **Resolution test** Provide control experiments showing that the cis/trans ratios are stable over time and that the sample is fully oligomerized under the measurement conditions. Justify the two-state interpretation with additional data (e.g., relaxation measurements or chemical shift analysis) or discuss alternative models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Experimental Section, "15N Relaxation Measurements"
+  - **Evidence pointer** "15N Relaxation Measurements" section
+  - **Issue** The text states that "all relaxation measurements were based on the sampling of just two time points, with the assumption of exponential decay." This is a significant limitation that is mentioned only briefly.
+  - **Required correction** Provide a more detailed justification for the two-point sampling approach, including an estimate of the systematic error introduced by this assumption. If possible, show a comparison with a full relaxation curve for at least one residue.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and Discussion, "Oligomer Secondary Structure from Chemical Shifts"
+  - **Evidence pointer** Figure 3
+  - **Issue** The text states that secondary chemical shifts point to an α-helix and β-strands, but the specific residues involved are not listed in the visible text.
+  - **Required correction** Provide a residue-by-residue listing of the secondary structure elements derived from the chemical shift analysis, either in the main text or in a table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and Discussion, "Exploration of AMTN25–130 Structural Models with AlphaFold"
+  - **Evidence pointer** "Exploration of AMTN25–130 Structural Models with AlphaFold" section
+  - **Issue** The text mentions "many different oligomer sizes and protein segments explored by us" but does not specify which ones were tried.
+  - **Required correction** Provide a summary of the AlphaFold-Multimer calculations attempted (oligomer sizes, segments, and outcomes) to allow the reader to assess the thoroughness of the search.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Concluding Remarks
+  - **Evidence pointer** Concluding Remarks section
+  - **Issue** The concluding remarks are somewhat general and do not clearly summarize the specific new insights gained about amelotin oligomerization.
+  - **Required correction** Add a brief summary of the key structural and kinetic findings about amelotin, and how they relate to its biological function.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1 (NOE spin diffusion control and quantitative analysis)
+  - R1-M2 (Quantitative kinetic analysis of oligomerization time courses)
+  - R1-M3 (Quantitative comparison of AlphaFold models with experimental restraints)
+- **Assessment against Nature-style criteria**
+  - **Originality** The application of pressure-jump NMR to study oligomeric states of IDPs is not entirely new (the authors cite prior work on Aβ), but the combination of stroboscopic chemical shift, NOE, and proline isomerization measurements in a single system is a novel and creative extension. The use of proline cis/trans isomerization as a long-time-scale probe is particularly original.
+  - **Scientific importance** The work addresses a fundamental challenge in structural biology: characterizing transient, heterogeneous oligomeric states. The methods described could be broadly applicable to other IDPs and aggregation-prone proteins. The specific findings about amelotin are of interest to the enamel biology and mineralization communities.
+  - **Interdisciplinary readership** The work is primarily of interest to NMR spectroscopists and structural biologists. The biological implications for amelotin function are discussed but not developed in sufficient depth to attract a broader readership. The methodological advances could appeal to a wider audience if presented more accessibly.
+  - **Technical soundness** The NMR methodology appears sound in principle, but several technical details are missing (see Major Concerns). The lack of quantitative validation for the NOE and kinetic analyses is a significant weakness. The AlphaFold comparison is underdeveloped.
+  - **Readability for nonspecialists** The manuscript is clearly written for NMR specialists. The methods are described at a level of detail that assumes significant prior knowledge. The biological context is introduced adequately but could be expanded to make the work more accessible to a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core methodology is promising and the data are potentially valuable, but the current manuscript does not provide sufficient quantitative evidence to fully support the central claims about the structure and kinetics of the amelotin oligomer. The authors should address the concerns about NOE spin diffusion, kinetic analysis, and AlphaFold validation before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that an 11-residue α-helix and a small antiparallel β-sheet are present in the oligomeric state is based on chemical shifts and NOEs, but the quantitative analysis is not fully presented. This claim is currently only partially supported.
+- The claim that oligomerization is "initiated in the C-terminal half" is based on qualitative inspection of early time points and is not quantitatively supported.
+- The claim that the AlphaFold-Multimer hexamer "satisfied intramolecular NOE and chemical shift data" is not supported by quantitative metrics in the visible text.
+- The interpretation of proline cis/trans ratios as a measure of local order in the oligomer depends on assumptions about the two-state model and sample composition that are not fully justified.
+- The statement that "nearly the entire ordered part of the polypeptide chain is exposed to intermolecular contacts" is based on a single mixed-isotopomer experiment and lacks quantitative analysis.

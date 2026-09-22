@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34246632",
+  "title": "Intrinsically disordered electronegative clusters improve stability and binding specificity of RNA-binding proteins.",
+  "authors": "Zaharias, Steve; Zhang, Zihan; Davis, Kenneth; Fargason, Talia; Cashman, Derek; Yu, Tao; Zhang, Jun",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2021-07-12",
+  "window": {
+    "start": "2021-07-12",
+    "end": "2021-07-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究RNA结合蛋白中无序电负性簇(ENC)通过静电作用抑制非特异性RNA结合并增强特异性，涉及IDR功能与结合机制，但对象为RNA-蛋白互作而非PPI，且方法以生物信息学与实验为主，缺乏AI/物理模拟建模。",
+  "abstract": "RNA-binding proteins play crucial roles in various cellular functions and contain abundant disordered protein regions. The disordered regions in RNA-binding proteins are rich in repetitive sequences, such as poly-K/R, poly-N/Q, poly-A, and poly-G residues. Our bioinformatic analysis identified a largely neglected repetitive sequence family we define as electronegative clusters (ENCs) that contain acidic residues and/or phosphorylation sites. The abundance and length of ENCs exceed other known repetitive sequences. Despite their abundance, the functions of ENCs in RNA-binding proteins are still elusive. To investigate the impacts of ENCs on protein stability, RNA-binding affinity, and specificity, we selected one RNA-binding protein, the ribosomal biogenesis factor 15 (Nop15), as a model. We found that the Nop15 ENC increases protein stability and inhibits nonspecific RNA binding, but minimally interferes with specific RNA binding. To investigate the effect of ENCs on sequence specificity of RNA binding, we grafted an ENC to another RNA-binding protein, Ser/Arg-rich splicing factor 3. Using RNA Bind-n-Seq, we found that the engineered ENC inhibits disparate RNA motifs differently, instead of weakening all RNA motifs to the same extent. The motif site directly involved in electrostatic interaction is more susceptible to the ENC inhibition. These results suggest that one of functions of ENCs is to regulate RNA binding via electrostatic interaction. This is consistent with our finding that ENCs are also overrepresented in DNA-binding proteins, whereas underrepresented in halophiles, in which nonspecific nucleic acid binding is inhibited by high concentrations of salts.",
+  "abstract_zh": "RNA结合蛋白在多种细胞功能中发挥关键作用，并含有丰富的无序蛋白区域。RNA结合蛋白中的无序区域富含重复序列，如poly-K/R、poly-N/Q、poly-A和poly-G残基。我们的生物信息学分析识别出一个 largely 被忽视的重复序列家族，我们将其定义为电负性簇（electronegative clusters, ENCs），其中包含酸性残基和/或磷酸化位点。ENCs的丰度和长度超过其他已知的重复序列。尽管其丰度很高，但ENCs在RNA结合蛋白中的功能仍不明确。为了研究ENCs对蛋白质稳定性、RNA结合亲和力和特异性的影响，我们选择了一种RNA结合蛋白——核糖体生物发生因子15（Nop15）作为模型。我们发现，Nop15 ENC增强了蛋白质稳定性并抑制非特异性RNA结合，但对特异性RNA结合干扰极小。为了研究ENCs对RNA结合序列特异性的影响，我们将一个ENC移植到另一种RNA结合蛋白——Ser/Arg-rich剪接因子3上。利用RNA Bind-n-Seq技术，我们发现工程化的ENC对不同RNA基序的抑制程度不同，而非对所有RNA基序产生同等程度的削弱。直接参与静电相互作用的基序位点对ENC抑制更为敏感。这些结果表明，ENCs的功能之一是通过静电相互作用调节RNA结合。这与我们的发现一致，即ENCs在DNA结合蛋白中也过度表达，而在嗜盐菌中则表达不足，后者中非特异性核酸结合被高浓度盐抑制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34246632/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34246632/",
+  "paper_page_path": "papers/pubmed/34246632/index.html"
+}

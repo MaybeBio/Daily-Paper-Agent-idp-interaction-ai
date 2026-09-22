@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2406.13218v2",
+  "title": "Lipid membrane domains control actin network viscoelasticity",
+  "authors": "Daniel P. Arnold; Sho C. Takatori",
+  "journal": "",
+  "published_date": "2024-06-19",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究二维脂质凝聚体与肌动蛋白网络的力学耦合，涉及相分离但对象非无序蛋白/IDR，且无PPI机制建模或AI/物理模拟方法，仅提供材料力学层面的启发。",
+  "abstract": "The mammalian cell membrane is embedded with biomolecular condensates of protein and lipid clusters, which interact with an underlying viscoelastic cytoskeleton network to organize the cell surface and mechanically interact with the extracellular environment. However, the mechanical and thermodynamic interplay between the viscoelastic network and liquid-liquid phase separation of 2-dimensional (2D) lipid condensates remains poorly understood. Here, we engineer materials composed of 2D lipid membrane condensates embedded within a thin viscoelastic actin network. The network generates localized anisotropic stresses that deform lipid condensates into triangular morphologies with sharp edges and corners, shapes unseen in 3D composite gels. Kinetic coarsening of phase-separating lipid condensates accelerates the viscoelastic relaxation of the network, leading to an effectively softer composite material over intermediate timescales. We dynamically manipulate the membrane composition to control the elastic-to-viscous crossover of the network. Such viscoelastic composite membranes may enable the development of coatings, catalytic surfaces, separation membranes, and other interfaces with tunable spatial organization and plasticity mechanisms.",
+  "abstract_zh": "哺乳动物细胞膜内嵌有蛋白质和脂质簇的生物分子凝聚体，这些凝聚体与下方的粘弹性细胞骨架网络相互作用，以组织细胞表面并与细胞外环境进行机械互动。然而，粘弹性网络与二维（2D）脂质凝聚体的液-液相分离之间的机械和热力学相互作用仍知之甚少。在此，我们设计了由嵌入薄粘弹性肌动蛋白网络中的二维脂质膜凝聚体组成的材料。该网络产生局部各向异性应力，将脂质凝聚体变形为具有尖锐边缘和角落的三角形形态，这种形态在三维复合凝胶中未曾观察到。相分离脂质凝聚体的动力学粗化加速了网络的粘弹性松弛，导致在中间时间尺度上复合材料有效变软。我们通过动态操控膜组成来控制网络的弹性-粘性交叉。此类粘弹性复合膜可能促进具有可调空间组织和可塑性机制的涂层、催化表面、分离膜及其他界面的开发。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2406.13218v2",
+  "source_url": "https://arxiv.org/abs/2406.13218v2",
+  "paper_page_path": "papers/arxiv/2406.13218v2/index.html"
+}

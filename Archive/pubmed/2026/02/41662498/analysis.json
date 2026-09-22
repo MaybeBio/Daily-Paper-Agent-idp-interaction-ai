@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41662498",
+  "title": "Asymmetry in Hydrophobicity Induces Electric Potential in Non-Charged Biomolecular Condensates.",
+  "authors": "Yang, Leshan; Yu, Wen; Zeng, Xiangze; Dai, Yifan",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2026-02-09",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过非带电无序蛋白凝聚体实验与全原子分子动力学模拟，揭示疏水不对称性编码界面及相间电势并调控离子分配与反应性，直接以IDP凝聚体为对象、聚焦相分离中的物理化学机制，且方法含MD模拟，对无序蛋白介导互作的电化学机制建模有重要启发。",
+  "abstract": "The capacity of biomolecular condensates to establish and modulate electrochemical equilibria is emerging as an important functioning mechanism in cellular biochemistry. However, the physical chemistry basis of the electric potentials arising from biomacromolecular phase transitions remains unclear. Here, we show that asymmetry in hydrophobicity, which is a generalizable feature in a condensate system, can directly encode an electric potential gradient between the dilute and the dense phases. We demonstrate that using a non-charged intrinsically disordered protein, ion-dependent kosmotropic effect can encode measurable pH and interphase potential gradients into condensate. All-atom molecular dynamics simulations further reveal that the distinct intrinsic transfer free energy of ions defines the ion partitioning capability of condensates via favorable interactions with protein backbones. The simulation also shows the existence of both interfacial and interphase electric potentials. These built-in potentials modulate the partitioning and reactivity of charged solutes, enabling non-enzymatic, potential-dependent chemistry within condensates. Our findings identify hydrophobic asymmetry as a simple and generalizable mechanism for charging biological matter, linking water activity and ion energetics to the emergent electrochemistry of condensates.",
+  "abstract_zh": "生物分子凝聚体建立和调节电化学平衡的能力，正逐渐成为细胞生物化学中的一个重要功能机制。然而，由生物大分子相变产生的电势的物理化学基础仍不清楚。在此，我们表明疏水性不对称性——这是凝聚体系统中的一个普遍特征——可以直接在稀相和浓相之间编码电势梯度。我们证明，使用不带电荷的内在无序蛋白质，离子依赖性离液效应可以将可测量的pH和相间电势梯度编码到凝聚体中。全原子分子动力学 (molecular dynamics) 模拟进一步揭示，离子不同的内在转移自由能通过与其蛋白质骨架的有利相互作用定义了凝聚体的离子分配能力。模拟还显示了界面电势和相间电势的存在。这些内置电势调节带电溶质的分配和反应性，使得凝聚体内能够进行非酶促、电势依赖性的化学反应。我们的发现将疏水性不对称性确定为一种简单且普遍适用的生物物质充电机制，将水活性和离子能量学与凝聚体的涌现电化学联系起来。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41662498/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41662498/",
+  "paper_page_path": "papers/pubmed/41662498/index.html"
+}

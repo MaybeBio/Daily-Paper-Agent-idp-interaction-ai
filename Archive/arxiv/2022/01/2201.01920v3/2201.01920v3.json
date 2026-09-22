@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2201.01920v3",
+  "title": "Numerical Techniques for Applications of Analytical Theories to Sequence-Dependent Phase Separations of Intrinsically Disordered Proteins",
+  "doi": "10.1007/978-1-0716-2663-4_3",
+  "abstract": "Biomolecular condensates, physically underpinned to a significant extent by liquid-liquid phase separation (LLPS), are now widely recognized by numerous experimental studies to be of fundamental biological, biomedical, and biophysical importance. In the face of experimental discoveries, analytical formulations emerged as a powerful yet tractable tool in recent theoretical investigations of the role of LLPS in the assembly and dissociation of these condensates. The pertinent LLPS often involves, though not exclusively, intrinsically disordered proteins engaging in multivalent interactions that are governed by their amino acid sequences. For researchers interested in applying these theoretical methods, here we provide a practical guide to a set of computational techniques devised for extracting sequence-dependent LLPS properties from analytical formulations. The numerical procedures covered include those for the determinination of spinodal and binodal phase boundaries from a general free energy function with examples based on the random phase approximation in polymer theory, construction of tie lines for multiple-component LLPS, and field-theoretic simulation of multiple-chain heteropolymeric systems using complex Langevin dynamics. Since a more accurate physical picture often requires comparing analytical theory against explicit-chain model predictions, a commonly utilized methodology for coarse-grained molecular dynamics simulations of sequence-specific LLPS is also briefly outlined.",
+  "authors": [
+    "Yi-Hsuan Lin",
+    "Jonas Wessén",
+    "Tanmoy Pal",
+    "Suman Das",
+    "Hue Sun Chan"
+  ],
+  "published_date": "2022-01-06T04:56:50Z",
+  "updated_date": "2022-08-31T00:22:16Z",
+  "journal": "In: Phase-Separated Biomolecular Condensates, Methods and Protocols; edited by H.-X. Zhou, J.-H. Spille and P.R. Banerjee, Methods in Molecular Biology (Springer-Nature), Volume 2563, Chapter 3, pages 51-94 (2022)",
+  "category": "q-bio.BM, cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2201.01920v3",
+  "pdf_url": "https://arxiv.org/pdf/2201.01920v3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "3",
+  "keywords": [
+    "q-bio.BM",
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2201.01920v3",
+    "raw_categories": [
+      "q-bio.BM",
+      "cond-mat.soft"
+    ],
+    "journal_ref": "In: Phase-Separated Biomolecular Condensates, Methods and Protocols; edited by H.-X. Zhou, J.-H. Spille and P.R. Banerjee, Methods in Molecular Biology (Springer-Nature), Volume 2563, Chapter 3, pages 51-94 (2022)"
+  }
+}

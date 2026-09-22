@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41648378",
+  "title": "Biomolecular Condensates Dictate the Folding Landscape of Proteins.",
+  "authors": "Hess, Nathaniel; Joseph, Jerelle A",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-02-06",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用原子模拟与贝叶斯优化研究凝聚体内蛋白折叠景观重塑，聚焦疾病相关蛋白（含TDP43等含IDR蛋白）在相分离环境中的构象与互作耦合机制，对无序蛋白介导的PPI机制建模有直接启发。",
+  "abstract": "Protein structure is exquisitely sensitive to the surrounding chemical environment, and many proteins encounter complex environments within cells. Importantly, numerous proteins organize into biomolecular condensates-dense macromolecular assemblies with distinct physicochemical properties. This raises a fundamental question: how does condensation reshape protein structure and dynamics? Here, we investigate how protein folding landscapes are altered inside condensates, using the protein alpha -helix as a model folded domain. Atomistic simulations show that free energy surfaces within condensates differ markedly from those in dilute solution or in the presence of inert crowders. We then use Bayesian optimization to develop a chemically specific, near-atomistic model for quantification of alpha -helical folding and apply it to characterize diverse helices, including alpha -helical domains from the disease-associated proteins TDP43, Annexin A11, and the Androgen Receptor, within condensates of varying physicochemical properties. Our results support a framework in which multivalent interactions drive unfolding while crowding promotes folding, and protein conformational ensembles inside condensates emerge from this balance. Additionally, we show that folding transitions are kinetically frustrated inside condensates because they are coupled to the timescale of contact rearrangement with co-condensate proteins. As such, folding landscapes within condensates are dually sequence-dependent, informed by both the sequence of the folded domain and co-condensate proteins. Together, our work has implications for understanding condensate-mediated proteinopathies, targeting aberrant condensates, and designing condensates to program protein function across scales.",
+  "abstract_zh": "蛋白质结构对周围化学环境极为敏感，许多蛋白质在细胞内会遇到复杂环境。重要的是，众多蛋白质会组织成生物分子凝聚体——具有独特理化性质的致密大分子组装体。这引出一个基本问题：凝聚如何重塑蛋白质结构和动力学？在此，我们以蛋白质α-螺旋作为模型折叠结构域，研究蛋白质折叠景观在凝聚体内如何改变。原子级模拟显示，凝聚体内的自由能表面与稀溶液或存在惰性拥挤剂时显著不同。随后，我们利用贝叶斯优化开发了一种化学特异性、近原子级模型，用于定量α-螺旋折叠，并将其应用于表征多种螺旋，包括来自疾病相关蛋白TDP43、Annexin A11和雄激素受体的α-螺旋结构域，在具有不同理化性质的凝聚体中的行为。我们的结果支持一个框架，其中多价相互作用驱动去折叠，而拥挤促进折叠，凝聚体内的蛋白质构象系综源于这一平衡。此外，我们表明，凝聚体内的折叠转变在动力学上受到阻碍，因为它们与共凝聚体蛋白的接触重排时间尺度相耦合。因此，凝聚体内的折叠景观具有双重序列依赖性，既受折叠结构域序列影响，也受共凝聚体蛋白序列影响。总体而言，我们的工作对理解凝聚体介导的蛋白质病、靶向异常凝聚体以及设计凝聚体以跨尺度编程蛋白质功能具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41648378/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41648378/",
+  "paper_page_path": "papers/pubmed/41648378/index.html"
+}

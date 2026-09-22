@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41596327",
+  "title": "AI-Resolved Protein Energy Landscapes, Electrodynamics, and Fluidic Microcircuits as a Unified Framework for Predicting Neurodegeneration.",
+  "authors": "Pantu, Cosmin; Breazu, Alexandru; Oprea, Stefan; Serban, Matei; Covache-Busuioc, Razvan-Adrian; Munteanu, Octavian; Dobrin, Nicolaie; Costea, Daniel; Eva, Lucian",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2026-01-28",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出用AI整合蛋白能量景观、电动力学与流体微电路预测神经退行，虽涉及蛋白构象与AI建模，但对象非IDP/相分离，且无具体PPI机制建模，仅宏观综述性框架。",
+  "abstract": "Research shows that neurodegenerative processes do not develop from a single \"broken\" biochemistry process; rather, they develop when a complex multi-physics environment gradually loses its ability to stabilize the neuron via a collective action between the protein, ion, field and fluid dynamics of the neuron. The use of new technologies such as quantum-informed molecular simulation (QIMS), dielectric nanoscale mapping, fluid dynamics of the cell, and imaging of perivascular flow are allowing researchers to understand how the collective interactions among proteins, membranes and their electrical properties, along with fluid dynamics within the cell, form a highly interconnected dynamic system. These systems require fine control over the energetic, mechanical and electrical interactions that maintain their coherence. When there is even a small change in the protein conformations, the electric properties of the membrane, or the viscosity of the cell's interior, it can cause changes in the high dimensional space in which the system operates to lose some of its stabilizing curvature and become prone to instability well before structural pathologies become apparent. AI has allowed researchers to create digital twin models using combined physical data from multiple scales and to predict the trajectory of the neural system toward instability by identifying signs of early deformation. Preliminary studies suggest that deviations in the ergodicity of metabolic-mechanical systems, contraction of dissipative bandwidth, and fragmentation of attractor basins could be indicators of vulnerability. This study will attempt to combine all of the current research into a cohesive view of the role of progressive loss of multi-physics coherence in neurodegenerative disease. Through integration of protein energetics, electrodynamic drift, and hydrodynamic irregularities, as well as predictive modeling utilizing AI, the authors will provide mechanistic insights and discuss potential approaches to early detection, targeted stabilization, and precision-guided interventions based on neurophysics.",
+  "abstract_zh": "研究表明，神经退行性过程并非源于单一的“故障”生化过程；相反，它们是在一个复杂的多物理环境中，当蛋白质、离子、场和神经元的流体动力学之间的集体作用逐渐丧失稳定神经元的能力时发展起来的。利用诸如量子信息分子模拟 (quantum-informed molecular simulation, QIMS)、介电纳米尺度映射、细胞流体动力学以及血管周围流动成像等新技术，研究人员得以理解蛋白质、膜及其电学性质与细胞内流体动力学之间的集体相互作用如何形成一个高度互联的动态系统。这些系统需要对维持其连贯性的能量、力学和电学相互作用进行精细控制。即使蛋白质构象、膜电学性质或细胞内部粘度发生微小变化，也可能导致系统运行的高维空间失去部分稳定曲率，并在结构病理变得明显之前就倾向于不稳定。人工智能使研究人员能够利用多尺度的综合物理数据创建数字孪生模型，并通过识别早期变形迹象来预测神经系统走向不稳定的轨迹。初步研究表明，代谢-机械系统的遍历性偏差、耗散带宽的收缩以及吸引子盆地的碎片化可能是脆弱性的指标。本研究将尝试将所有当前研究整合为一个连贯的观点，探讨多物理连贯性逐渐丧失在神经退行性疾病中的作用。通过整合蛋白质能量学、电动力学漂移和流体动力学不规则性，以及利用人工智能的预测建模，作者将提供机制性见解，并讨论基于神经物理学的早期检测、靶向稳定和精准引导干预的潜在方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41596327/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41596327/",
+  "paper_page_path": "papers/pubmed/41596327/index.html"
+}

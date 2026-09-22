@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The study reports that the BRCA1 Arg866Cys variant, located in the central disordered region (residues 759-1064), increases conformational flexibility, reduces DNA binding affinity, and promotes amyloid-like fibril formation relative to wild-type protein, as assessed by CD spectroscopy, nano-DSF, MD simulations, TEM, and ThT fluorescence.
+- **Visible evidence base** Abstract text only; no figures, tables, or detailed methods provided
+- **Missing materials affecting confidence** Full methods, experimental replicates, statistical analyses, MD simulation parameters and convergence criteria, raw spectra, TEM images, ThT fluorescence data, DNA binding assay details, and any validation of the variant's pathogenicity
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting multidisciplinary characterization of a BRCA1 VUS, but the evidence as summarized is insufficient to establish the central claims. Several conclusions appear to be drawn from indirect or conflicting observations, and the lack of methodological detail prevents independent evaluation of the results' robustness. The work may be of interest to the BRCA1 functional genomics and protein misfolding communities, but the current abstract does not provide a convincing case for the mechanistic significance of Arg866Cys.
+- **Who would be interested in the results, and why** Researchers studying BRCA1 structure-function relationships, clinical geneticists interpreting VUS in BRCA1, and biophysicists interested in intrinsically disordered proteins and amyloid formation. The findings could inform variant classification efforts and provide a framework for studying other VUS in disordered regions.
+- **Major strengths** The use of multiple complementary biophysical techniques (CD, nano-DSF, MD, TEM, ThT) is commendable. The focus on a clinically relevant VUS in a poorly characterized disordered region addresses a real gap. The observation of differential aggregation behavior between wild-type and mutant is potentially novel.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the Arg866Cys mutant demonstrates "more flexibility and lesser affinity to DNA than the wild-type protein."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify how DNA binding affinity was measured, what the magnitude of the difference was, or whether the difference was statistically significant. Without these details, the claim of "lesser affinity" cannot be evaluated.
+  - **Why it matters** DNA binding is a core functional readout for BRCA1, and the claim directly supports the mechanistic interpretation. If the affinity difference is small or not reproducible, the central conclusion is weakened.
+  - **Resolution test** Provide quantitative binding data (e.g., Kd values from a defined assay) with replicates and statistical analysis, and specify the DNA substrate used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "increased ThT fluorescence indicated beta-rich composition and aggregation-prone behaviour for BRCA1 wild-type protein, while the fluorescence intensity was significantly quenched in the Arg866Cys mutant."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** This statement is internally inconsistent. If the wild-type shows increased ThT fluorescence (indicating beta-rich aggregates), and the mutant shows quenched fluorescence, then the mutant is less aggregation-prone by this assay. Yet the abstract also claims that TEM detected amyloid-like fibrils for the mutant but only amorphous aggregates for the wild-type. These two observations appear contradictory and are not reconciled.
+  - **Why it matters** The aggregation behavior is a key differentiator between wild-type and mutant. The apparent contradiction between ThT and TEM results undermines the reliability of the aggregation-related conclusions.
+  - **Resolution test** Provide side-by-side ThT and TEM data for both proteins under identical conditions, and explain the discrepancy (e.g., different aggregation kinetics, dye binding artifacts, or sample preparation differences).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "BRCA1(759-1064) wild-type protein was shown to be a betaII-rich protein with an induced D-O transition in the presence of DNA and 2,2,2-Trifluoroethanol (TFE)."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The term "D-O transition" is not defined in the abstract, and the basis for classifying the protein as "betaII-rich" is not explained. The claim that TFE does not significantly change alpha-helical content but increases beta-turns and loops is unusual, as TFE typically promotes helical structure. This requires clarification.
+  - **Why it matters** The secondary structure assignments are foundational to the structural interpretation. If the CD analysis is not rigorously described, the entire structural narrative is compromised.
+  - **Resolution test** Define "D-O transition," provide CD spectra with deconvolution methods, and explain the TFE effects in the context of established literature.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract implies that the findings help "comprehend the inherently disordered region of BRCA1 as well as the impact of missense mutations on folding patterns and binding to DNA for functional aspects."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not connect the biophysical observations to any functional or clinical consequence. No cellular assays, patient data, or variant classification implications are presented. The relevance of the observed structural changes to BRCA1 function remains speculative.
+  - **Why it matters** For a VUS, the ultimate goal is to inform clinical interpretation. Without functional validation, the study's significance is limited to a biophysical description.
+  - **Resolution test** Add functional assays (e.g., homologous recombination repair, cell viability, or transcriptional activity) or discuss how the biophysical changes might correlate with known pathogenic mechanisms.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses technical terms (e.g., "betaII-rich," "D-O transition," "nano-DSF") without definition or context, which may hinder comprehension for readers outside the biophysics field.
+  - **Required correction** Define these terms or provide brief explanatory phrases.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** MD simulation claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that "increased conformational flexibility in the Arg866Cys variant was observed by principal component analysis" but does not specify the simulation length, force field, or whether the results were validated by replicate simulations.
+  - **Required correction** Provide simulation details and convergence assessment in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Variant selection rationale
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not explain why Arg866Cys was chosen among many VUS in the region, or whether it has been reported in clinical databases with any frequency.
+  - **Required correction** Add a sentence on the variant's clinical context or selection criteria.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (DNA binding quantification), R1-M2 (ThT/TEM contradiction), R1-M3 (secondary structure assignment and TFE effects)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of multiple biophysical methods to a specific BRCA1 VUS is not entirely novel, but the focus on a disordered region is somewhat distinctive. Scientific importance: Limited as presented. The abstract does not establish functional or clinical relevance, which is essential for broad impact. Interdisciplinary readership: Potentially broad, but the abstract's technical density and lack of context may limit accessibility. Technical soundness: Not established. Key claims lack quantitative support and contain apparent inconsistencies. Readability for nonspecialists: Poor. The abstract assumes familiarity with specialized biophysical terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting observations but contains unresolved contradictions and insufficient methodological detail. I would be supportive if the technical concerns are resolved with rigorous quantitative data and functional context.
+
+## Risk / unsupported claims
+- The claim of "lesser affinity to DNA" is unsupported without quantitative binding data.
+- The aggregation behavior claims are internally inconsistent between ThT and TEM results.
+- The secondary structure classification ("betaII-rich," "D-O transition") is not defined or justified.
+- The functional or clinical relevance of the observed structural changes is not demonstrated.
+- The MD simulation results are not verifiable without simulation parameters and convergence metrics.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41097365",
+  "title": "A Hybrid UA-CG Force Field for Aggregation Simulation of Amyloidogenic Peptide via Liquid-like Intermediates.",
+  "authors": "Zheng, Hang; Li, Shu; Han, Wei",
+  "journal": "Molecules (Basel, Switzerland)",
+  "published_date": "2025-10-16",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 9,
+  "one_liner_zh": "该文开发混合UA-CG力场模拟淀粉样肽经液-液相分离中间体聚集为淀粉样纤维的机制，直接涉及无序肽互作、凝聚体与多尺度物理模拟，高度契合本课题。",
+  "abstract": "Elucidating amyloid formation inside biomolecular condensates requires models that resolve (i) local, chemistry specific contacts controlling beta registry and (ii) mesoscale phase behavior and cluster coalescence on microsecond timescales-capabilities beyond single resolution models. We present a hybrid united atom/coarse grained (UA-CG) force field coupling a PACE UA peptide model with the MARTINI CG framework. Cross resolution nonbonded parameters are first optimized against all atom side chain potentials of mean force to balance the relative strength between different types of interactions and then refined through universal parameter scaling by matching radius of gyration distributions for specific systems using. We applied this approach to simulate a recently reported model system comprising the LVFFAR(9) peptide that can co-assemble into amyloid fibrils via liquid-liquid phase separation. Our ten-microsecond simulations reveal rapid droplet formation populated by micelle like nanostructures with its inner core composed of LVFF clusters. The nanostructures can further fuse but the fusion is reaction-limited due to an electrostatic coalescence barrier. beta structures emerge once clusters exceed ~10 peptides, and the LVFFAR(9) fraction modulates amyloid polymorphism, reversing parallel versus antiparallel registry at lower LVFFAR(9). These detailed insights generated from long simulations highlight the promise of our hybrid UA-CG strategy in investigating the molecular mechanism of condensate aging.",
+  "abstract_zh": "阐明生物分子凝聚体内淀粉样蛋白的形成，需要能够解析（i）控制β-注册的局部、化学特异性接触，以及（ii）微秒时间尺度上的介观相行为和团簇聚并的模型——这些能力超出了单一分辨率模型的范畴。我们提出了一种混合全原子/粗粒化（UA-CG）力场，将PACE UA肽模型与MARTIN CG框架耦合。跨分辨率的非键参数首先针对全原子侧链平均力势进行优化，以平衡不同类型相互作用之间的相对强度，然后通过匹配特定系统的回旋半径分布，使用通用参数缩放进行细化。我们将此方法应用于模拟一个近期报道的模型系统，该系统包含LVFFAR(9)肽，可通过液-液相分离共组装成淀粉样纤维。我们的十微秒模拟揭示了快速液滴形成，其中充满胶束样纳米结构，其核心由LVFF簇组成。这些纳米结构可进一步融合，但由于静电聚并屏障，融合受反应限制。当簇超过约10个肽时，β结构出现，且LVFFAR(9)比例调节淀粉样蛋白多态性，在较低LVFFAR(9)下逆转平行与反平行注册。这些从长时间模拟中获得的详细见解，凸显了我们的混合UA-CG策略在探究凝聚体老化分子机制方面的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41097365/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41097365/",
+  "paper_page_path": "papers/pubmed/41097365/index.html"
+}

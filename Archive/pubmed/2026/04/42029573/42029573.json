@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "42029573",
+    "doi": "10.1002/cbic.202500568",
+    "title": "Rational Design of a Multivalent RNA Combining Structural Motifs Tailored to Multiple Domains of Fused in Sarcoma for Potent Inhibition of Aggregation."
+  },
+  "content": {
+    "abstract": "Fused in sarcoma (FUS) is an RNA-binding protein whose pathological aggregation, driven by aberrant phase separation, is implicated in amyotrophic lateral sclerosis (ALS). Although RNA molecules can modulate the FUS phase behavior, identifying highly effective sequences remains challenging because of FUS's multiple low-specificity RNA-binding domains. In this study, we rationally designed a 65-mer RNA, U1'+TERRA, by combining a stem-loop-GGU motif and a G-quadruplex (G4) structure, each known to interact with distinct FUS domains. U1'+TERRA exhibited strong binding affinity and effectively inhibited FUS aggregation in vitro. We introduced 2'-O-methyl modifications, generating (U1'+TERRA)-2'-OMe, which retained structural integrity and demonstrated resistance to nuclease degradation to enhance biological stability. Notably, (U1'+TERRA)-2'-OMe suppressed FUS aggregation even at a low concentration. These findings suggested that multivalent RNA constructs with rationally arranged motifs can serve as potent inhibitors of FUS aggregation. Our approach highlights the potential of structure-guided RNA engineering for the development of nucleic acid therapeutics targeting RNA-binding proteins involved in neurodegenerative diseases, such as ALS.",
+    "keywords": [
+      "G-quadruplex",
+      "aggregation",
+      "amyotrophic lateral sclerosis (ALS)",
+      "fused in sarcoma (FUS)",
+      "phase separation"
+    ],
+    "mesh_terms": [
+      "*RNA-Binding Protein FUS/metabolism/chemistry/antagonists & inhibitors",
+      "*RNA/chemistry/pharmacology/metabolism/chemical synthesis",
+      "Humans",
+      "G-Quadruplexes",
+      "Protein Aggregates/drug effects",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kuroiwa, Nobuaki",
+        "Sakaue, Fumika",
+        "Miura, Motoki",
+        "Go, Ayano",
+        "Iwase, Ryo",
+        "Iwata Hara, Rintaro",
+        "Sanjo, Nobuo",
+        "Ui-Tei, Kumiko",
+        "Yokota, Takanori"
+      ],
+      "short_names": [
+        "Kuroiwa N",
+        "Sakaue F",
+        "Miura M",
+        "Go A",
+        "Iwase R",
+        "Iwata Hara R",
+        "Sanjo N",
+        "Ui-Tei K",
+        "Yokota T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1364-8730",
+        "ORCID: 0000-0002-8115-7223",
+        "ORCID: 0000-0003-2399-3431",
+        "ORCID: 0000-0002-1226-2425",
+        "ORCID: 0000-0001-8695-9025",
+        "ORCID: 0000-0002-6490-3263"
+      ],
+      "affiliations": [
+        "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+        "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+        "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+        "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+        "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+        "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+        "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+        "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+        "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+        "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+        "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+        "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+        "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+        "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan.",
+        "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+        "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+        "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kuroiwa, Nobuaki",
+        "short_name": "Kuroiwa N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+          "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+          "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Sakaue, Fumika",
+        "short_name": "Sakaue F",
+        "identifiers": [
+          "0000-0003-1364-8730"
+        ],
+        "affiliations": [
+          "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+          "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+          "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Miura, Motoki",
+        "short_name": "Miura M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+          "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+          "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Go, Ayano",
+        "short_name": "Go A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+          "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+          "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Iwase, Ryo",
+        "short_name": "Iwase R",
+        "identifiers": [
+          "0000-0002-8115-7223"
+        ],
+        "affiliations": [
+          "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+          "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Iwata Hara, Rintaro",
+        "short_name": "Iwata Hara R",
+        "identifiers": [
+          "0000-0003-2399-3431"
+        ],
+        "affiliations": [
+          "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+          "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+          "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Sanjo, Nobuo",
+        "short_name": "Sanjo N",
+        "identifiers": [
+          "0000-0002-1226-2425"
+        ],
+        "affiliations": [
+          "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+          "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ui-Tei, Kumiko",
+        "short_name": "Ui-Tei K",
+        "identifiers": [
+          "0000-0001-8695-9025"
+        ],
+        "affiliations": [
+          "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Yokota, Takanori",
+        "short_name": "Yokota T",
+        "identifiers": [
+          "0000-0002-6490-3263"
+        ],
+        "affiliations": [
+          "Department of Neurology and Neurological Science, Institute of Science Tokyo, Tokyo, Japan.",
+          "Center for Brain Integration Research (CBIR), Institute of Science Tokyo, Tokyo, Japan.",
+          "NucleoTIDE and PepTIDE Drug Discovery Center, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chembiochem : a European journal of chemical biology"
+    ],
+    "journal_abbrev": [
+      "Chembiochem"
+    ],
+    "pub_date": "2026 Apr 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/24 12:36",
+    "fetched_at": "2026-09-18 02:46:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42029573",
+      "34624313",
+      "40516596",
+      "41029441",
+      "42363764",
+      "33269497",
+      "24013423",
+      "41794289",
+      "29547565",
+      "33547841",
+      "27731383",
+      "30581145",
+      "33311468",
+      "29434328",
+      "28790177",
+      "31022909",
+      "34681673",
+      "29897835",
+      "41512823",
+      "21856723",
+      "29203801",
+      "41656808",
+      "31479821",
+      "40693919",
+      "32877292",
+      "23041957",
+      "24251952",
+      "38029395",
+      "36690069",
+      "35320731",
+      "37009800",
+      "23867462",
+      "41772347",
+      "23521792",
+      "31171724",
+      "37211763",
+      "25173930",
+      "40413303",
+      "25192599",
+      "41645155",
+      "20541619",
+      "36261283",
+      "31188823",
+      "31368485",
+      "33947944",
+      "25912081",
+      "26455390",
+      "37890778",
+      "41033976",
+      "39403745",
+      "36361989",
+      "26603295",
+      "35943083",
+      "41504098",
+      "24842888",
+      "21327870",
+      "32691043",
+      "25625564",
+      "32422969",
+      "25792726",
+      "29677514",
+      "30205960",
+      "27033831",
+      "28094300",
+      "33159856",
+      "34654750",
+      "42335378",
+      "23048034",
+      "28575444",
+      "28924037",
+      "32687767",
+      "41535729",
+      "37158592",
+      "25009283",
+      "29677513",
+      "35445401",
+      "41278651",
+      "29800261",
+      "38632300",
+      "21810174",
+      "26317470",
+      "22724023",
+      "34156864",
+      "33446423",
+      "38593618",
+      "33262375",
+      "31262712",
+      "38311174",
+      "27381509",
+      "27015757",
+      "41238911",
+      "25735748",
+      "27600654",
+      "30455313",
+      "34487489",
+      "40285687",
+      "35709363",
+      "41279901",
+      "20400460",
+      "34375640"
+    ],
+    "review": [
+      "42029573",
+      "29547565",
+      "31022909",
+      "31479821",
+      "23041957",
+      "38029395",
+      "37009800",
+      "41772347",
+      "32422969",
+      "27033831",
+      "21810174",
+      "33446423",
+      "27015757",
+      "27600654"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/cbic.202500568",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/42029573",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

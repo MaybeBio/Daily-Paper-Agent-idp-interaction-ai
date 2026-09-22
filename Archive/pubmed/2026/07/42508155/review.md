@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that transcriptomic analysis of the Antarctic nematode *Plectus murrayi* identified a gene, *dur-1*, homologous to human *plin4*, and that overexpression of *plin4* in human 293T cells reduces apoptosis and enhances proliferation under low-temperature stress. They further report that molecular docking predicts binding between Plin4 and three *P. murrayi*-derived intrinsically disordered proteins (IDP1, IDP2, IDP3), and that these IDPs, individually or as a mixture, enhance viability of human skin cell lines under cold and freeze-dehydration stress, with the mixture showing more efficient cellular uptake and perinuclear localization.
+- **Visible evidence base** Abstract text only; no quantitative data, statistical details, experimental protocols, or supplementary information provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, statistical analyses, experimental methods, docking parameters, transcriptomic data, sequence alignments, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting concept, namely the use of bioinformatically predicted intrinsically disordered proteins from an extremophile as biomimetic cryoprotectants. However, the evidence as presented is largely qualitative and lacks the quantitative detail necessary to evaluate the strength of the claims. The link between the transcriptomic identification of *dur-1*, the functional validation of *plin4*, and the subsequent IDP experiments is not clearly established from the abstract alone. The reported instability of individual IDP effects and the claimed superiority of the mixture require more rigorous experimental support. The abstract is not sufficient to establish the case for a novel class of cryoprotectants.
+- **Who would be interested in the results, and why** Researchers in cryobiology, biobanking, and tissue engineering would be interested in novel cryoprotective agents. The cross-species conservation angle may also appeal to evolutionary biologists studying stress adaptation. The use of AI-derived predictions could interest computational biologists working on protein function prediction. However, the current abstract does not provide enough detail to fully engage these communities.
+- **Major strengths** The concept of using intrinsically disordered proteins from an extremophile as cryoprotectants is novel and potentially impactful. The study spans from transcriptomics to functional validation in human cells, suggesting a comprehensive approach. The identification of a cross-species conserved protective role for *plin4* is an interesting finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that *dur-1* is responsible for freezing tolerance in *P. murrayi* and is homologous to human *plin4*.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that transcriptomic analysis identified *dur-1* as responsible for freezing tolerance, but no evidence is provided to support this causal link. The homology to *plin4* is mentioned but no sequence identity or functional conservation data are shown.
+  - **Why it matters** This is the foundational claim of the study. Without evidence that *dur-1* is indeed the gene responsible for freezing tolerance, and that its homology to *plin4* is functionally relevant, the subsequent experiments lack a clear rationale.
+  - **Resolution test** Provide experimental evidence such as gene knockdown or knockout studies in *P. murrayi* showing loss of freezing tolerance, and sequence alignment or phylogenetic analysis demonstrating significant homology between *dur-1* and *plin4*.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** The claim that overexpression of *plin4* reduced apoptosis and enhanced proliferation significantly under low-temperature stress.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports "significant" effects but provides no quantitative data, such as cell viability percentages, apoptosis rates, or proliferation indices. No statistical tests or effect sizes are mentioned.
+  - **Why it matters** Without quantitative data and statistical analysis, the significance of the observed effects cannot be evaluated. The claim of "cross-species conservation of its protective role" is not supported by the evidence presented.
+  - **Resolution test** Provide quantitative data with appropriate statistical analysis, including means, standard deviations, and p-values or confidence intervals for all reported effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The claim that molecular docking predicted strong binding affinities between Plin4 and IDPs 1, 2, and 3, with IDP2 showing particular promise.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The docking methodology is not described. No docking scores, binding energies, or comparison thresholds are provided. The criteria for "strong binding affinity" and "particular promise" are undefined.
+  - **Why it matters** The docking results are used to justify the selection of IDPs for functional validation. Without clear methodology and quantitative results, the selection process is not reproducible or verifiable.
+  - **Resolution test** Provide detailed docking methods, including software, scoring functions, and validation steps. Report docking scores for all IDPs and define the threshold for "strong binding."
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data consistency
+  - **Claim pointer** The claim that IDP1 and IDP2 significantly enhanced cell viability under both 4 degrees C and -20 degrees C stresses, while IDP3 was effective specifically at 4 degrees C, but that the protective effect of individual IDPs was not stable over time.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports both significant protective effects and instability of these effects over time. These statements appear contradictory without additional context. The time points at which effects were measured and the duration of instability are not specified.
+  - **Why it matters** The instability of individual IDP effects undermines their practical utility and raises questions about the reliability of the reported protective effects. The contradiction needs to be resolved with clear temporal data.
+  - **Resolution test** Provide time-course data showing the protective effects of each IDP at multiple time points, with statistical analysis of the stability of these effects.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The claim that the mixture of three IDPs showed more efficient cellular uptake and perinuclear localization.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No data on cellular uptake or localization are presented. The methods used to assess these parameters are not described, and no comparison with individual IDPs is shown.
+  - **Why it matters** This claim is central to the proposed mechanism of action for the IDP mixture. Without evidence, the superiority of the mixture over individual IDPs is not established.
+  - **Resolution test** Provide quantitative data on cellular uptake and localization for individual IDPs and the mixture, with appropriate imaging or flow cytometry data and statistical analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Gene name *dur-1*
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The gene name *dur-1* is introduced without context. It is unclear if this is a standard gene name or a novel designation.
+  - **Required correction** Clarify the origin of the gene name and provide the full gene name or accession number.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "in-house" bioinformatic tool
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "in-house" is vague and does not provide sufficient information about the tool's nature or validation.
+  - **Required correction** Provide the name of the tool, its availability, and a brief description of its methodology or a citation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Cell lines and stress conditions
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions 4 degrees C and -20 degrees C as stress conditions but does not specify the duration of exposure or the exact experimental setup.
+  - **Required correction** Specify the duration of cold stress exposure and any other relevant experimental conditions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "freeze-dehydration (-20 degrees C)"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "freeze-dehydration" is used but not defined. It is unclear if this refers to a specific experimental condition or a general phenomenon.
+  - **Required correction** Define the term and describe the experimental conditions used to simulate freeze-dehydration.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. The abstract lacks quantitative data, methodological detail, and consistent evidence to support the central claims. The causal link between *dur-1* and freezing tolerance, the functional significance of *plin4* overexpression, the docking results, the stability of IDP effects, and the superiority of the mixture are all insufficiently supported.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of using AI-predicted IDPs from an extremophile as cryoprotectants is original and could be of interest. However, the abstract does not demonstrate how this approach differs from existing cryoprotectant strategies beyond the source of the molecules.
+  - **Scientific importance** The potential application in cryobiology and biobanking is significant, but the current evidence is too preliminary to establish importance. The instability of individual IDP effects and the lack of mechanistic insight limit the current impact.
+  - **Interdisciplinary readership** The topic bridges cryobiology, bioinformatics, and cell biology, which could attract a broad readership. However, the abstract is too technical in some places and lacks sufficient context for nonspecialists.
+  - **Technical soundness** The technical soundness cannot be assessed from the abstract alone. The lack of quantitative data and methodological detail prevents evaluation of the experimental rigor.
+  - **Readability for nonspecialists** The abstract is generally readable but uses terms like "intrinsically disordered proteins" and "perinuclear localization" without sufficient explanation. The flow from transcriptomics to functional validation is not clearly articulated.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting concept but lacks the quantitative and methodological detail necessary to support the claims. The authors should provide the full manuscript with complete experimental data, statistical analyses, and methodological descriptions to allow proper evaluation.
+
+## Risk / unsupported claims
+- The claim that *dur-1* is responsible for freezing tolerance in *P. murrayi* is unsupported without functional genetic evidence.
+- The claim of "cross-species conservation of its protective role" for *plin4* is unsupported without comparative functional data.
+- The claim of "strong binding affinities" from molecular docking is unsupported without docking scores or methodology.
+- The claim that IDP1 and IDP2 "significantly enhanced cell viability" is unsupported without quantitative data.
+- The claim that the mixture showed "more efficient cellular uptake and perinuclear localization" is unsupported without imaging or quantitative uptake data.
+- The overall claim of "significant potential for applications in cryobiology, biobanking, and the development of therapies" is not supported by the evidence presented in the abstract.

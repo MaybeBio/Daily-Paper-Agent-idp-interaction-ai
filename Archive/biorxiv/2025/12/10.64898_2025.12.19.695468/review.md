@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary data provided
+- **Shared manuscript claim summary** The authors report de novo designed globular protein domains that drive biomolecular condensation. A water-soluble monomeric protein is engineered into variants with identical amino-acid composition but different surface-charge distributions. The large-patch variant shows more attractive interprotein interactions, forms dynamic liquid condensates in vitro and in cells when dimerized via disordered linkers, and supports functionalization through fluorophore-binding sites and motor-protein manipulation.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or figure references
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, supplementary information, statistical analyses, and experimental protocols
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to biomolecular condensation using de novo designed globular proteins with controlled surface-charge patterning. The design strategy is elegant and the potential for functionalization is appealing. However, the abstract provides insufficient experimental detail to evaluate the robustness of the claims. Key quantitative outcomes, characterization methods, and controls are not described. The work could be significant if the evidence supports the stated conclusions, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Researchers in de novo protein design, biomolecular condensates and phase separation, synthetic biology, and cell biology. The work bridges protein engineering and intracellular organization, and the functionalization strategy could interest those developing tools for live-cell imaging and mechanobiology.
+- **Major strengths** The design concept is clear and potentially generalizable. Using surface-charge patterning on a single scaffold to control condensation is a simple and testable idea. The demonstration of functionalization without a GFP reporter and manipulation via motor proteins suggests practical utility. The comparison between large-patch and small-patch variants provides an internal control.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The individual domains form stable and discrete structures in solution, with the large-patch variant exhibiting more-attractive interprotein interactions."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that the domains form stable and discrete structures and that the large-patch variant has more attractive interactions, but no experimental method or quantitative data are given. It is unclear whether this is based on size-exclusion chromatography, dynamic light scattering, analytical ultracentrifugation, or simulation. The magnitude of the interaction difference is not reported.
+  - **Why it matters** This claim underpins the design rationale. Without evidence that the solution-state behavior differs as predicted, the link between surface-charge design and condensation is not established.
+  - **Resolution test** Provide characterization data (e.g., SEC-MALS, AUC, or SAXS) showing monodispersity and interaction parameters (e.g., second virial coefficient or Kd) for both variants, with statistical comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "When expressed in eukaryotic cells, the large-patch variant forms intracellular puncta, whereas that with small patches does not."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a qualitative difference in cellular behavior but provides no quantification, such as the fraction of cells with puncta, puncta size distribution, or time course. It is also unclear whether the small-patch variant was confirmed to be expressed at comparable levels.
+  - **Why it matters** Differential expression or misfolding could explain the absence of puncta in the small-patch variant. Without expression-level controls and quantification, the claim of design-dependent condensation is not robust.
+  - **Resolution test** Include immunoblot or fluorescence intensity measurements confirming equal expression, and quantify puncta formation (e.g., percentage of cells, number per cell) with appropriate statistics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The assemblies are dynamic, liquid condensates in vitro and in cells."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The term "liquid condensates" implies specific biophysical properties, such as spherical morphology, fusion, fluorescence recovery after photobleaching (FRAP), or sensitivity to dilution. None of these are described in the abstract.
+  - **Why it matters** The liquid-like nature is a central claim and distinguishes these assemblies from aggregates or solid-like structures. Without dynamic measurements, the classification is unsupported.
+  - **Resolution test** Provide FRAP data, fusion events, and/or rheological or dilution experiments in vitro, and FRAP or similar in cells, with representative images and quantification.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The structured domains facilitate functionalisation: we introduce fluorophore-binding sites to visualise fluorescent condensates directly in cells without a GFP reporter; and we manipulate the condensates using motor proteins."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The functionalization claims are intriguing but lack detail. It is unclear how fluorophore-binding sites were introduced without disrupting the domain structure, what fluorophore was used, and how motor proteins were attached or recruited. The outcome of motor-protein manipulation is not stated.
+  - **Why it matters** These features are presented as advantages, but their feasibility and effectiveness are not assessable from the abstract. If the functionalization compromises condensation or is inefficient, the utility claim weakens.
+  - **Resolution test** Show structural integrity of functionalized domains (e.g., crystal structure or biophysical characterization), demonstrate specific fluorophore binding and condensate visualization, and provide quantitative readouts of motor-protein-driven changes (e.g., movement, dispersion).
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "biomolecular condensation" is used broadly, but the abstract does not specify whether the condensates are membrane-less organelles, synthetic puncta, or phase-separated droplets with defined physical properties.
+  - **Required correction** Define the operational criteria for condensation used in the study (e.g., spherical puncta, FRAP recovery, sensitivity to 1,6-hexanediol) early in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Variant description
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions "large patches of surface charge" and "more-homogeneous charge distribution" but does not specify the number, size, or charge magnitude of the patches, nor the design method.
+  - **Required correction** Provide a brief quantitative description (e.g., patch size in residues, net charge difference) or refer to a figure that shows the design.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Linker design
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The disordered linkers joining the two copies are mentioned but not characterized. Linker length and sequence can affect valency and condensation behavior.
+  - **Required correction** State linker length and sequence properties, or cite a figure showing the construct design.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative biophysical and cellular data prevents verification of the central claims regarding interaction differences, cell-based condensation specificity, and liquid-like properties.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of using surface-charge patterning on a de novo globular scaffold to drive condensation is conceptually novel and distinct from existing IDP-based condensate designs. This is a potential strength.
+  - Scientific importance: If validated, the work could provide a new platform for synthetic condensates with tunable properties, which is of broad interest. However, the importance is not fully demonstrated in the abstract.
+  - Interdisciplinary readership: The topic bridges protein design, biophysics, and cell biology, which could attract a wide audience. The functionalization angle adds practical appeal.
+  - Technical soundness: Not assessable from the abstract. The claims require rigorous biophysical and cell-based validation that is not described.
+  - Readability for nonspecialists: The abstract is generally clear, but terms like "biomolecular condensation" and "dumbbell-like proteins" could be better explained for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The design concept is promising, but the abstract alone does not provide sufficient quantitative or methodological detail to support the central claims. A full manuscript with comprehensive characterization would be needed to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that the large-patch variant exhibits "more-attractive interprotein interactions" is unsupported without quantitative interaction data.
+- The claim that the large-patch variant forms intracellular puncta while the small-patch variant does not is unsupported without expression controls and quantification.
+- The claim that the assemblies are "dynamic, liquid condensates" is unsupported without FRAP, fusion, or other dynamic measurements.
+- The functionalization claims (fluorophore-binding and motor-protein manipulation) are not assessable without details on design, efficacy, and outcomes.
+- The general statement that "many targets remain inaccessible to current AI-based tools" is contextual and not directly supported by data in the abstract.

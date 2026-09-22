@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusions, methods, supplemental information description)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and alignment with stated conclusions based solely on the provided manuscript content
+- **Shared manuscript claim summary** The authors use Markov State Models (MSMs) built from long-timescale atomistic molecular dynamics simulations to show that the small molecule fasudil expands the conformational ensemble of monomeric α-synuclein (αS) via an "entropy expansion" mechanism, creating new metastable states that are both more compact and more extended than those in water. They further simulate αS dimerisation and propose that fasudil retards dimerisation by trapping monomers in aggregation-resistant conformations and screening inter-molecular contacts.
+- **Visible evidence base** MSM construction from existing simulation trajectories (1500 µs fasudil, 108 µs water); VAMP2 scoring; implied timescale analysis; contact probability maps; secondary structure content; dimerisation simulations (3 µs each, three replicates per condition); clustering of dimer ensembles; comparison of Rg distributions and contact maps between conditions
+- **Missing materials affecting confidence** No simulation trajectory files, no convergence metrics for the dimer simulations, no error bars or statistical tests for most quantitative comparisons, no experimental validation data, no force field validation against experimental observables for the fasudil system, no details on the clustering parameters for dimer analysis, no raw data for the Rg distributions or contact maps
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting computational analysis of how a small molecule modulates the conformational ensemble of an intrinsically disordered protein. The use of long-timescale simulations and MSM construction is appropriate and the authors address a relevant question in IDP drug discovery. However, the central claim of "entropy expansion" as a mechanism is not quantitatively established. The analysis relies heavily on qualitative comparisons of Rg distributions and contact maps without statistical rigor. The dimerisation simulations are short (3 µs) relative to the timescales of αS dimerisation and the interpretation of the results is speculative. The manuscript would benefit from clearer quantitative metrics for entropy changes, convergence assessment, and a more cautious interpretation of the simulation results.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, computational drug discovery, and neurodegenerative disease biology would be interested. The work addresses the challenge of targeting IDPs with small molecules and proposes a mechanistic framework (entropy expansion) that could inform future drug design strategies for α-synuclein and similar systems. The methodological approach using MSMs on long simulations is also of interest to the computational biophysics community.
+- **Major strengths** The use of exceptionally long simulation trajectories (1500 µs) for an IDP-small molecule system is a significant resource. The application of MSM methodology to dissect the conformational ensemble is appropriate and well-executed. The authors address the potential sampling bias by building MSMs on truncated trajectory segments. The connection between monomer ensemble modulation and dimerisation inhibition is a logical and important extension. The work is clearly written and the figures are informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for central claim
+  - **Claim pointer** The authors claim that fasudil induces "entropy expansion" in the αS monomer ensemble, broadening its structural repertoire.
+  - **Evidence pointer** Section 5, Figure 1, Figure 5
+  - **Concern** The term "entropy expansion" is used as a central mechanistic concept, but no quantitative measure of conformational entropy is provided. The authors infer entropy changes from the presence of additional metastable states in the MSM and from qualitative differences in Rg distributions. This is insufficient. A proper entropy calculation (e.g., via quasi-harmonic analysis, mutual information expansion, or the MSM-based entropy) is required to support the claim that conformational entropy increases in the presence of fasudil. Without this, the "entropy expansion" mechanism remains an interpretation rather than a demonstrated finding.
+  - **Why it matters** The central thesis of the manuscript rests on this mechanism. If the entropy change is not quantitatively demonstrated, the mechanistic claim is unsupported and the title of the manuscript is misleading.
+  - **Resolution test** Provide a quantitative estimate of conformational entropy (or a related free energy measure) for the αS ensemble in water versus fasudil solution, with appropriate error estimates. Alternatively, demonstrate that the population distribution across states is significantly different and that this difference corresponds to a measurable entropy change.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor of comparisons
+  - **Claim pointer** The authors compare Rg distributions, contact maps, and secondary structure content between water and fasudil conditions and between different metastable states.
+  - **Evidence pointer** Figures 1, 3, 6, 8, 9, 10, 11
+  - **Concern** The manuscript lacks any statistical analysis of the differences it reports. For example, the claim that the Rg distribution in fasudil is "broader" than in water is not supported by any quantitative measure of distribution width or a statistical test. Similarly, differences in contact probabilities between states are described qualitatively without error bars or significance testing. The dimerisation results (Figure 6) show overlapping distributions with no statistical comparison. This makes it impossible to assess whether the observed differences are meaningful or within statistical noise.
+  - **Why it matters** The conclusions depend on the significance of these differences. Without statistical support, the claims are not established from the provided evidence.
+  - **Resolution test** Provide error bars or confidence intervals for all quantitative comparisons, and perform appropriate statistical tests (e.g., bootstrap, permutation tests) to demonstrate that the observed differences are significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Adequacy of dimerisation simulations
+  - **Claim pointer** The authors claim that fasudil hinders the formation of stable dimer contacts and retards dimerisation.
+  - **Evidence pointer** Section 6, Figures 6, 7, 8
+  - **Concern** The dimerisation simulations are only 3 µs long, which is likely insufficient to capture the dimerisation equilibrium of αS, a process that occurs on much longer timescales experimentally. The authors do not demonstrate convergence of the dimerisation simulations or that the observed differences are not due to initial conditions. The use of only three replicates per condition is minimal. Furthermore, the clustering of dimer conformations into four states is not validated, and the interpretation that fasudil "traps" monomers in specific states is speculative without free energy calculations or longer simulations.
+  - **Why it matters** The claim that fasudil inhibits dimerisation is a key translational aspect of the work. If the simulations are not converged or are too short, the conclusions are not reliable.
+  - **Resolution test** Demonstrate convergence of the dimerisation simulations (e.g., block averaging, multiple independent starting configurations). Provide free energy profiles or potentials of mean force for dimerisation in water versus fasudil. Alternatively, extend the simulations or use enhanced sampling methods to ensure the dimerisation equilibrium is adequately sampled.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation against experimental data
+  - **Claim pointer** The authors state that their simulation results are consistent with experimental observations of fasudil's effect on αS aggregation.
+  - **Evidence pointer** Section 6, Introduction
+  - **Concern** The manuscript references experimental work showing fasudil reduces αS aggregation but does not directly compare simulation predictions with experimental observables. For example, the specific residues identified as key interaction sites (Y125, Y133, Y136) could be compared with experimental mutation or NMR data. The claim that the "entropy expansion" mechanism is relevant to the experimentally observed inhibition of aggregation is not directly supported by the simulations.
+  - **Why it matters** Direct comparison with experimental data would strengthen the translational relevance of the findings and help validate the computational predictions.
+  - **Resolution test** Compare predicted interaction sites and conformational changes with available experimental data (e.g., NMR chemical shift perturbations, mutagenesis studies). Discuss how the simulation results quantitatively relate to experimental observables.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** MSM construction details
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the MSM construction is brief. Details on the number of microstates, the clustering algorithm parameters, the validation of the Markov model (e.g., Chapman-Kolmogorov test), and the estimation of statistical uncertainties in the MSM are missing.
+  - **Required correction** Provide a more detailed description of the MSM construction and validation, including the number of microstates, the lag time selection procedure, and the results of model validation tests.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1, 3, 6, 8
+  - **Evidence pointer** Figures
+  - **Issue** Some figures are difficult to interpret. For example, Figure 1d and 1e show probability densities but the axes are not clearly labeled. Figure 6b shows overlapping distributions without clear visual distinction. Figure 8 lacks clear labels for the different states.
+  - **Required correction** Improve figure clarity by adding clear axis labels, legends, and annotations to guide the reader.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Entropy expansion"
+  - **Evidence pointer** Throughout
+  - **Issue** The term "entropy expansion" is not standard in the literature. The authors should clarify whether they mean an increase in conformational entropy, a broadening of the accessible conformational space, or something else. A more precise definition would help.
+  - **Required correction** Define the term clearly in the introduction and use it consistently throughout the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions section
+  - **Issue** The authors do not discuss the limitations of their approach, such as the accuracy of the force field for IDPs, the finite simulation time, and the lack of experimental validation.
+  - **Required correction** Add a paragraph discussing the limitations of the study and the potential impact on the conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative entropy measure), R1-M2 (statistical rigor), R1-M3 (dimerisation simulation convergence)
+- **Assessment against Nature-style criteria** Originality: The concept of "entropy expansion" as a mechanism for small molecule modulation of IDPs is somewhat novel, though related ideas exist in the literature. The application of MSMs to this specific system is a reasonable extension of existing methods. Scientific importance: The work addresses a relevant problem in IDP drug discovery, but the lack of experimental validation and quantitative rigor limits its impact. Interdisciplinary readership: The topic is of interest to computational chemists, biophysicists, and neurobiologists, but the presentation is heavily computational and may not be accessible to a broad audience. Technical soundness: The MSM methodology is appropriate, but the lack of statistical analysis and convergence assessment is a significant weakness. Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with MSM and simulation techniques, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The central mechanistic claim of "entropy expansion" is not quantitatively supported, and the dimerisation results lack statistical rigor and convergence assessment. The manuscript has potential but requires substantial revisions to address these concerns.
+
+## Risk / unsupported claims
+- The claim that fasudil induces "entropy expansion" in the αS monomer ensemble is unsupported without a quantitative entropy calculation.
+- The claim that fasudil "traps" αS in aggregation-resistant conformations is speculative and not directly demonstrated.
+- The claim that fasudil's interaction with specific residues (Y125, Y133, Y136) is responsible for the observed effects is not quantitatively supported.
+- The claim that the dimerisation simulations show fasudil hinders dimerisation is not statistically supported and may not be converged.
+- The statement that the "entropy expansion" mechanism is consistent with experimental observations is not directly validated.

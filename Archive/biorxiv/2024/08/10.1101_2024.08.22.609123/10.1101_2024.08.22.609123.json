@@ -1,0 +1,244 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.22.609123",
+  "title": "Enhancing Challenging Target Screening via Multimodal Protein-Ligand Contrastive Learning",
+  "doi": "10.1101/2024.08.22.609123",
+  "abstract": "Recent advancements in genomics and proteomics have identified numerous clinically significant protein targets, with notably 85% categorized as undruggable. These targets present widespread challenges due to their complex structures and dynamics, rendering conventional drug design strategies not always effective. In this study, we introduce Uni-Clip, a contrastive learning framework that incorporates multi-modal features of proteins (structure and residue) and ligands (conformation and graph). Optimized with a specifically designed CF-InfoNCE loss, Uni-Clip enhances the modeling of protein-ligand interactions for both undruggable and druggable proteins. Uni-Clip demonstrates superior performance in benchmark evaluations on widely acknowledged datasets, LIT-PCBA and DUD-E, achieving a 147% and 218% improvements in enrichment factors at 1% compared to baselines. Furthermore, Uni-Clip proves to be a practical tool for various drug discovery applications. In virtual screening for the challenging protein target GPX4 with flat surface, it identified non-covalent inhibitors with an IC 50 of 4.17 μM, in contrast to the predominantly covalent inhibitors currently known. Through target fishing for benzbromarone, Uni-Clip identified the intrinsically disordered protein c-Myc as a potential target, highlighting benzbromarone’s potential for repurposing in cancer therapy. Explainable analyses effectively identified binding sites consistent with molecular dynamics and experimental results, even for challenging undruggable targets.",
+  "authors": [
+    "Wang Z",
+    "Wang Z",
+    "Yang M",
+    "Pang L",
+    "Nie F",
+    "Liu S",
+    "Gao Z",
+    "Zhao G",
+    "Ji X",
+    "Huang D",
+    "Zhu Z",
+    "Li D",
+    "Yuan Y",
+    "Zheng H",
+    "Zhang L",
+    "Ke G",
+    "Wang D",
+    "Yu F"
+  ],
+  "published_date": "2024-08-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.22.609123",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.22.609123.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR899747",
+    "raw_record": {
+      "id": "PPR899747",
+      "source": "PPR",
+      "doi": "10.1101/2024.08.22.609123",
+      "title": "Enhancing Challenging Target Screening via Multimodal Protein-Ligand Contrastive Learning",
+      "authorString": "Wang Z, Wang Z, Yang M, Pang L, Nie F, Liu S, Gao Z, Zhao G, Ji X, Huang D, Zhu Z, Li D, Yuan Y, Zheng H, Zhang L, Ke G, Wang D, Yu F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang Z",
+            "lastName": "Wang",
+            "firstName": "Zhen",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Wang Z",
+            "lastName": "Wang",
+            "firstName": "Zhanfeng",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Yang M",
+            "lastName": "Yang",
+            "firstName": "Maohua",
+            "initials": "M"
+          },
+          {
+            "fullName": "Pang L",
+            "lastName": "Pang",
+            "firstName": "Long",
+            "initials": "L"
+          },
+          {
+            "fullName": "Nie F",
+            "lastName": "Nie",
+            "firstName": "Fangyuan",
+            "initials": "F"
+          },
+          {
+            "fullName": "Liu S",
+            "lastName": "Liu",
+            "firstName": "Siyuan",
+            "initials": "S"
+          },
+          {
+            "fullName": "Gao Z",
+            "lastName": "Gao",
+            "firstName": "Zhifeng",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Zhao G",
+            "lastName": "Zhao",
+            "firstName": "Guojiang",
+            "initials": "G"
+          },
+          {
+            "fullName": "Ji X",
+            "lastName": "Ji",
+            "firstName": "Xiaohong",
+            "initials": "X"
+          },
+          {
+            "fullName": "Huang D",
+            "lastName": "Huang",
+            "firstName": "Dandan",
+            "initials": "D"
+          },
+          {
+            "fullName": "Zhu Z",
+            "lastName": "Zhu",
+            "firstName": "Zhengdan",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Li D",
+            "lastName": "Li",
+            "firstName": "Dongdong",
+            "initials": "D"
+          },
+          {
+            "fullName": "Yuan Y",
+            "lastName": "Yuan",
+            "firstName": "Yannan",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Zheng H",
+            "lastName": "Zheng",
+            "firstName": "Hang",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2825-0576"
+            }
+          },
+          {
+            "fullName": "Zhang L",
+            "lastName": "Zhang",
+            "firstName": "Linfeng",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3341-183X"
+            }
+          },
+          {
+            "fullName": "Ke G",
+            "lastName": "Ke",
+            "firstName": "Guolin",
+            "initials": "G"
+          },
+          {
+            "fullName": "Wang D",
+            "lastName": "Wang",
+            "firstName": "Dongdong",
+            "initials": "D"
+          },
+          {
+            "fullName": "Yu F",
+            "lastName": "Yu",
+            "firstName": "Feng",
+            "initials": "F"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2825-0576"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3341-183X"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Recent advancements in genomics and proteomics have identified numerous clinically significant protein targets, with notably 85% categorized as undruggable. These targets present widespread challenges due to their complex structures and dynamics, rendering conventional drug design strategies not always effective. In this study, we introduce Uni-Clip, a contrastive learning framework that incorporates multi-modal features of proteins (structure and residue) and ligands (conformation and graph). Optimized with a specifically designed CF-InfoNCE loss, Uni-Clip enhances the modeling of protein-ligand interactions for both undruggable and druggable proteins. Uni-Clip demonstrates superior performance in benchmark evaluations on widely acknowledged datasets, LIT-PCBA and DUD-E, achieving a 147% and 218% improvements in enrichment factors at 1% compared to baselines. Furthermore, Uni-Clip proves to be a practical tool for various drug discovery applications. In virtual screening for the challenging protein target GPX4 with flat surface, it identified non-covalent inhibitors with an IC  50 of 4.17 μM, in contrast to the predominantly covalent inhibitors currently known. Through target fishing for benzbromarone, Uni-Clip identified the intrinsically disordered protein c-Myc as a potential target, highlighting benzbromarone’s potential for repurposing in cancer therapy. Explainable analyses effectively identified binding sites consistent with molecular dynamics and experimental results, even for challenging undruggable targets.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/08/22/2024.08.22.609123.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/08/22/2024.08.22.609123.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/08/22/2024.08.22.609123.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.08.22.609123"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-08-25",
+      "firstPublicationDate": "2024-08-22",
+      "firstIndexDate": "2024-08-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

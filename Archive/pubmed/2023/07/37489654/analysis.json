@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37489654",
+  "title": "Liquid state theory study of the phase behavior and macromolecular scale structure of model biomolecular condensates.",
+  "authors": "Shi, Guang; Schweizer, Kenneth S",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2023-07-25",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用聚合物积分方程理论（PRISM）对基于sticker-spacer模型的生物分子凝聚体进行相行为与介观结构建模，虽非AI/MD方法，但聚焦IDR/相分离的互作机制与序列依赖性，对无序蛋白PPI的物理建模有直接启发。",
+  "abstract": "Biomolecular condensates can form through the liquid-liquid phase separation (LLPS) of proteins and RNAs in cells. However, other states of organization, including mesostructured network microstructures and physical gels, have been observed, the physical mechanism of which are not well understood. We use the Polymer Reference Interaction Site Model liquid state integral equation theory to study the equilibrium behavior of (generally aperiodic in sequence) biomolecular condensates based on a minimal sticker-spacer associating polymer model. The role of polymer packing fraction, sequence, and the strength and range of intermolecular interactions on macromolecular scale spatial organization and phase behavior is studied for typical sticker-spacer sequences. In addition to the prediction of conventional LLPS, a sequence-dependent strongly fluctuating polymeric microemulsion homogeneous state is predicted at high enough concentrations beyond the so-called Lifshitz-like point, which we suggest can be relevant to the dense phase of microstructured biomolecular condensates. New connections between local clustering and the formation of mesoscopic microdomains, the influence of attraction range, compressibility, and the role of spatial correlations across scales, are established. Our results are also germane to understanding the polymer physics of dense solutions of nonperiodic and unique sequence synthetic copolymers and provide a foundation to create new theories for how polymer diffusion and viscosity are modified in globally isotropic and homogeneous dense polymeric microemulsions.",
+  "abstract_zh": "生物分子凝聚体可通过细胞中蛋白质和RNA的液-液相分离（liquid-liquid phase separation, LLPS）形成。然而，其他组织状态，包括介观结构网络微结构和物理凝胶，也已被观察到，其物理机制尚不明确。我们采用聚合物参考相互作用位点模型液态积分方程理论，基于最小贴纸-间隔物缔合聚合物模型，研究（通常序列非周期性的）生物分子凝聚体的平衡行为。针对典型贴纸-间隔物序列，研究了聚合物堆积分数、序列以及分子间相互作用的强度和范围对大分子尺度空间组织和相行为的影响。除了预测常规LLPS外，在超过所谓类Lifshitz点的高浓度下，预测了一种序列依赖的强波动聚合物微乳液均质态，我们认为这可能与微结构化生物分子凝聚体的致密相相关。我们建立了局部聚集与介观微域形成之间的新联系，以及吸引力范围、可压缩性和跨尺度空间相关性作用的影响。我们的结果也有助于理解非周期性和独特序列合成共聚物浓溶液的聚合物物理，并为建立关于聚合物扩散和粘度在全局各向同性且均质的致密聚合物微乳液中如何改变的新理论奠定了基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37489654/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37489654/",
+  "paper_page_path": "papers/pubmed/37489654/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41108566",
+  "title": "N3A motifs in RIbeta mediate allosteric crosstalk between cAMP and ATP in PKA activation.",
+  "authors": "Wu, Jian; Bruystens, Jessica G H; Sahoo, Puspashree; Bubis, Jose; Maillard, Rodrigo A; Taylor, Susan S; Ilouz, Ronit",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2025-10-18",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过晶体结构解析PKA RIbeta亚基中N3A基序介导的cAMP与ATP变构串扰，涉及无序linker在变构激活中的作用，但方法以结构生物学为主，缺乏AI或物理模拟建模。",
+  "abstract": "The RIbeta subunit of cAMP-dependent protein kinase (PKA) is highly expressed in the brain, yet it remains the least studied of the PKA regulatory subunits (R). As pathologic variants of its gene are increasingly implicated in neurodevelopmental disorders, neurodegeneration, and cancer, gaining more information about the structure/function of RIbeta, and how it differs from RIalpha, has become increasingly important. We previously reported the structure of the RIbeta(2)C(2) holoenzyme, which revealed a novel conformation where ATP binding was stabilized by a head-to-head anti-parallel packing of the C-tail wrapped around the N-lobe of the catalytic subunit (C). Although visible, the Dimerization/Docking Domain was poorly folded and reduced. Since RIbeta is oxidized in brain tissues, we asked if oxidation or binding of an A Kinase Anchoring Protein (AKAP) would affect the holoenzyme structure. Oxidation or addition of an AKAP peptide to crystals led to the release of nucleotide. To capture this at higher resolution we crystallized RIbeta(2)C(2) in the presence of an AKAP peptide. This new structure represents an RIbeta:C heterodimer. Density for the D/D domain was missing; ATP was absent, the kinase adopted an open conformation, and the C-terminus of the RIbeta subunit was no longer resolved. Because the crosstalk between ATP and cAMP in the R:C complex appears to be mediated by the two N3A motifs (N3A(A) and N3A(B)) as well as by the linker, which in free RIbeta is intrinsically disordered, we describe the conserved features of these two motifs as well as the linker and show how each contributes in a unique but coordinated way to allosteric activation of RIbeta holoenzymes by cAMP. A key difference in our RIbeta:C structure is the rotation of the side chain of W260 at the N-terminus of the alphaA Helix in N3A(B). W260, at the R:C interface in the holoenzyme, is also the capping residue for cAMP bound to CNB-A, so we may have actually captured the first step in cAMP activation.",
+  "abstract_zh": "cAMP依赖性蛋白激酶（PKA）的RIbeta亚基在大脑中高表达，但仍是PKA调节亚基（R）中研究最少的一个。随着其基因的病理变异越来越多地与神经发育障碍、神经退行性疾病和癌症相关联，获取更多关于RIbeta的结构/功能及其与RIalpha差异的信息变得日益重要。我们此前报道了RIbeta(2)C(2)全酶的结构，揭示了一种新构象，其中ATP结合通过C尾围绕催化亚基（C）N叶的头对头反平行堆积而稳定。尽管可见，二聚化/对接结构域折叠不良且减少。由于RIbeta在脑组织中氧化，我们探究氧化或A激酶锚定蛋白（AKAP）的结合是否会影响全酶结构。氧化或向晶体中添加AKAP肽导致核苷酸释放。为了在更高分辨率下捕获这一状态，我们在存在AKAP肽的情况下结晶了RIbeta(2)C(2)。这一新结构代表了一个RIbeta:C异二聚体。D/D结构域的密度缺失；ATP不存在，激酶采用开放构象，RIbeta亚基的C端不再可解析。由于R:C复合物中ATP和cAMP之间的串扰似乎由两个N3A基序（N3A(A)和N3A(B)）以及连接子介导，而连接子在游离RIbeta中本质上是无序的，我们描述了这两个基序及连接子的保守特征，并展示了它们各自如何以独特但协调的方式促进RIbeta全酶通过cAMP的变构激活。我们RIbeta:C结构中的一个关键差异是N3A(B)中alphaA螺旋N端W260侧链的旋转。W260在全酶中位于R:C界面，也是结合于CNB-A的cAMP的封端残基，因此我们可能实际上捕获了cAMP激活的第一步。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41108566/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41108566/",
+  "paper_page_path": "papers/pubmed/41108566/index.html"
+}

@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, database utility, and experimental validation as presented in the manuscript
+- **Shared manuscript claim summary** The authors present CARs-DB, a web-accessible database of precomputed predictions of cryptic amyloidogenic regions (CARs) in intrinsically disordered proteins (IDPs) from the DisProt database. They claim the database contains >8,900 unique CARs across 1,711 IDRs, that CARs are widespread in IDPs, that CARs are enriched in protein-protein interaction (PPI) regions, and that two novel CAR-derived peptides from titin and RPLP2 form amyloid fibrils in vitro.
+- **Visible evidence base** Full text including Methods, Results, Discussion, and figure references; no supplementary material was provided for review
+- **Missing materials affecting confidence** Supplementary Table S1, MIRRAGGE spreadsheet, and all figures (Figures 1-5) were not available for review; these are referenced for key results including database statistics, experimental validation data, and structural analyses
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful community resource for identifying non-canonical amyloidogenic regions in IDPs. The conceptual advance is modest, building directly on prior work by the same group (Santos et al., 2021), but the database itself may serve as a practical tool. The experimental validation of two predicted CARs is straightforward and supportive, though limited in scope. The main weaknesses are the lack of quantitative benchmarking against other prediction methods, the absence of any functional or biological validation beyond in vitro amyloid formation, and the reliance on a single prediction algorithm (Waltz) with modified thresholds. The manuscript is clearly written and accessible, but the scientific impact is incremental rather than transformative.
+- **Who would be interested in the results, and why** Researchers studying protein aggregation, amyloid formation, and intrinsically disordered proteins would find this database useful for identifying candidate amyloidogenic regions in IDPs. Those working on IDP-mediated protein-protein interactions may also benefit, as the authors demonstrate a statistical link between CARs and interaction sites. The resource could be of interest to the broader protein science community as a complementary tool to existing aggregation prediction servers.
+- **Major strengths** The database addresses a genuine gap, as conventional amyloid prediction tools are biased toward hydrophobic sequences and may miss polar amyloidogenic regions in IDPs. The web interface appears user-friendly and provides multiple access points (DisProt ID, UniProt ID, protein name, organism, sequence). The experimental validation, while limited to two peptides, uses a standard multi-assay approach (ThT, CR, FT-IR, TEM) that collectively supports amyloid formation. The authors also demonstrate practical applications by recovering known disease-associated amyloidogenic regions and identifying CARs overlapping with PPI interfaces.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The database contains >8,900 unique CARs identified in a total of 1,711 IDRs, and the statistics page illustrates the abundance and distribution of CARs.
+  - **Evidence pointer** Section 3.1.2, Figure 3, Supplementary Table S1
+  - **Concern** The manuscript reports different numbers of database entries at different points. The abstract states >8,900 unique CARs, while Section 3.1.2 reports 2,962, 4,347, and 6,681 entries for the three thresholds. The relationship between these numbers is unclear. Are the 8,900 unique CARs a union across thresholds, or a separate count? Additionally, the number of IDRs (1,711) is stated in the abstract but not derived or explained in the Methods. The statistics page and Supplementary Table S1 are referenced but were not available for review, making it impossible to verify these counts.
+  - **Why it matters** The core value of the database depends on accurate and clearly explained content statistics. Inconsistent or opaque reporting of entry counts undermines user confidence and makes the resource difficult to evaluate or cite accurately.
+  - **Resolution test** Provide a clear breakdown of the number of unique CARs per threshold, the overlap between thresholds, and the total number of IDRs scanned. Clarify whether the 8,900 figure is a union or an independent count. Make the statistics page and Supplementary Table S1 available for verification.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that CARs are widespread in IDPs, with 56-84% of IDRs exhibiting at least one region displaying amyloid propensity, depending on the applied threshold (from prior work, Santos et al., 2021).
+  - **Evidence pointer** Section 1, Introduction; Section 2.1, Methods
+  - **Concern** The manuscript relies on a single prediction algorithm, Waltz, with modified thresholds (85.0, 80.0, 73.5) to define CARs. No benchmarking against other amyloid prediction tools (e.g., AGGRESCAN, TANGO, AmylPred2) is provided. The choice of thresholds is justified only by reference to prior work, and the false-positive rate at these lower thresholds is not assessed. The authors also do not report any measures of prediction confidence or how the thresholds were optimized.
+  - **Why it matters** The biological relevance of the database depends on the reliability of the predictions. Without benchmarking or error analysis, users cannot assess the likelihood that a given CAR prediction is a true amyloidogenic region versus a false positive. This is particularly important because the authors argue that conventional tools miss CARs, implying that their modified approach is more sensitive, but sensitivity without specificity may produce many spurious hits.
+  - **Resolution test** Provide a benchmarking analysis comparing Waltz at the three thresholds against at least one or two other prediction methods on a validated dataset of amyloidogenic and non-amyloidogenic peptides. Report sensitivity, specificity, and area under the ROC curve. Alternatively, provide experimental validation for a larger, randomly selected set of predicted CARs to estimate the true positive rate.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that CARs are preferentially involved in establishing functional PPIs, and that CARs-DB can serve as an orthogonal tool to study disordered regions that undergo folding-upon-binding.
+  - **Evidence pointer** Section 3.3, Figure 4
+  - **Concern** The link between CARs and PPI regions is based on four illustrative examples (SARS-CoV-2 spike, tau, PIAS2, p27) and a prior statistical analysis referenced from Santos et al. (2021). No new quantitative analysis is presented in this manuscript to support the PPI enrichment claim. The four examples are anecdotal and may not be representative. The authors do not provide a systematic comparison of CAR frequency in known PPI regions versus non-PPI regions within the DisProt dataset.
+  - **Why it matters** The claim that CARs-DB can identify PPI-relevant regions is a key selling point of the database. If this claim is not quantitatively supported, the database's utility for this purpose is overstated, and users may be misled about the biological significance of their hits.
+  - **Resolution test** Perform a systematic analysis within the DisProt dataset, comparing the frequency of CARs in experimentally validated PPI regions versus non-PPI regions, controlling for sequence length and composition. Report odds ratios and statistical significance. Alternatively, temper the claim in the manuscript to reflect that the PPI link is suggestive and based on limited examples.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that two novel CAR-derived peptides from titin and RPLP2 display full amyloidogenic potential, based on ThT fluorescence, CR binding, FT-IR, and TEM.
+  - **Evidence pointer** Section 3.4, Figure 5
+  - **Concern** The experimental validation is limited to two peptides, both of which are short (9 and 8 residues). The authors do not provide negative controls (e.g., a known non-amyloidogenic peptide of similar length and composition) or a quantitative comparison of the ThT and CR signals against a positive control (e.g., Aβ or a known amyloid-forming peptide). The FT-IR data are described qualitatively, and the TEM images are not shown in the available text. The MIRRAGGE spreadsheet is referenced but was not provided.
+  - **Why it matters** The validation is intended to demonstrate that the database predictions correspond to real amyloid-forming sequences. Without appropriate controls and quantitative comparisons, the evidence is suggestive but not conclusive. This weakens the claim that the database identifies bona fide amyloidogenic regions.
+  - **Resolution test** Include negative and positive controls in the aggregation assays, provide quantitative ThT and CR data (e.g., fold-increase over background), show FT-IR spectra with peak assignments, and include TEM images with scale bars. If the MIRRAGGE spreadsheet contains these data, make it available for review.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states the database contains >8,900 unique CARs but does not mention the three thresholds or the number of IDRs scanned. This creates ambiguity about the database scope.
+  - **Required correction** Add a brief clarification in the abstract, such as "across three detection thresholds" or "from 1,711 IDRs in DisProt."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1, Methods
+  - **Evidence pointer** Section 2.1
+  - **Issue** The Methods state that IDRs longer than 20 amino acids were scanned, but no justification is given for this length cutoff. It is unclear whether shorter IDRs were excluded for a specific reason or for computational convenience.
+  - **Required correction** Provide a brief justification for the 20-residue cutoff, or note that shorter IDRs were excluded due to insufficient length for reliable amyloid prediction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2
+  - **Issue** The section on disease-associated regions lists several examples but does not provide a table or figure summarizing the search results. The reader must rely on the text to understand which regions were found and at which thresholds.
+  - **Required correction** Consider adding a summary table listing the disease-associated proteins, the CAR sequences, the thresholds at which they were detected, and the corresponding Waltz scores.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.2, Methods
+  - **Evidence pointer** Section 2.2
+  - **Issue** The database implementation section is brief and does not describe how the data are stored, whether the database is regularly updated, or how users can submit new sequences for prediction. This limits the perceived long-term utility of the resource.
+  - **Required correction** Add a paragraph describing the database architecture, update policy, and any plans for incorporating new DisProt releases or user submissions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Section 3.4
+  - **Issue** The text states that the titin CAR maps to the PEVK region, but the functional relevance of amyloid formation in this region is not discussed. The connection between the in vitro aggregation and any biological context is unclear.
+  - **Required correction** Add a sentence or two discussing the potential biological implications of amyloid formation in the titin PEVK region and the RPLP2 C-terminal domain, even if speculative.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (database entry counts are inconsistent and unverifiable without supplementary material), R1-M2 (no benchmarking or error analysis for the prediction approach), R1-M4 (experimental validation lacks controls and quantitative data)
+- **Assessment against Nature-style criteria** Originality: Moderate. The concept of CARs was introduced in prior work by the same group, and this manuscript extends it by providing a database. The idea of polar amyloidogenic regions in IDPs is not entirely new, but the systematic cataloging is a useful contribution. Scientific importance: Moderate. The database may be a practical resource for the IDP and aggregation communities, but the biological significance of CARs remains uncertain, and the manuscript does not substantially advance mechanistic understanding. Interdisciplinary readership: Limited. The work is primarily of interest to protein scientists and computational biologists; it is unlikely to attract readers from outside these fields. Technical soundness: Weak to moderate. The prediction approach is not benchmarked, the database statistics are unclear, and the experimental validation is limited. Readability for nonspecialists: Good. The manuscript is clearly written and the concepts are explained well, though some sections assume familiarity with amyloid prediction tools.
+- **Recommendation posture** Supportive if technical concerns are resolved. The database has potential utility, and the experimental validation, while limited, is consistent with the authors' claims. However, the inconsistencies in database statistics, the lack of benchmarking, and the absence of controls in the validation experiments must be addressed before the resource can be recommended with confidence.
+
+## Risk / unsupported claims
+- The claim that CARs are preferentially involved in PPIs is not quantitatively supported in this manuscript; it relies on prior work and four anecdotal examples.
+- The claim that CARs-DB contains >8,900 unique CARs is not verifiable from the provided text, as the numbers reported in Section 3.1.2 do not clearly reconcile with this figure.
+- The claim that the two validated peptides display "full amyloidogenic potential" is not fully supported without negative and positive controls and quantitative data.
+- The statement that CARs-DB allows access to a "previously unexplored amyloid sequence space" is somewhat overstated, as the authors themselves note that some disease-associated regions were already known to be amyloidogenic.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42323837",
+  "title": "Identification of human T lymphotropic virus type-1 p30 protein phosphorylations and computational analysis of their effect on intrinsically disordered nature of p30.",
+  "authors": "Nag, Krittika; Laxman Kumar, Lukkani; Shkriabai, Nikoloz; Kvaratskhelia, Mamuka; Murali, Ayaluru; Anupam, Rajaneesh",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2026-06-21",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过MD模拟分析HTLV-1 p30蛋白在不同磷酸化水平下的无序性及其与Rex蛋白的互作，聚焦IDP构象动态与结合机制，对象、互作、方法三者齐备且具机制深度。",
+  "abstract": "Human T-lymphotropic virus (HTLV-1), a delta retrovirus, encodes for accessory proteins in addition to structural and enzymatic proteins. p30, an HTLV-1 accessory protein, contributes to viral persistence and pathogenesis. p30 is a multifunctional protein and its intrinsically disordered protein (IDP) nature enables interactions with different host proteins. The phosphorylation drastically impacts the structure and function of IDPs. In this study, we analyzed the intrinsic disorderness of p30 protein under different levels of phosphorylation, dynamics and the interaction with the regulatory protein Rex. Through MD studies, the effect of phosphorylation on the IDP nature of p30 were examined. The analysis revealed that the p30 with phosphorylation at 10 predicted sites (p30-10site(-P)), exhibited more stable behavior and higher compactness compared to p30 with phosphorylation at 3 experimentally identified sites (p30-3site(-P)) and apo-protein. Rex is a regulatory protein encoded by HTLV-1. The interaction between p30 and Rex modulates the balance between viral replication and latency. Due to the presence of ID regions in p30 and Rex, a significant percentage of loops were observed in their secondary structure. The stability of p30 in the p30-Rex complex is also influenced by its binding partners (Rex protein), as the binding sites are located within the ID regions of p30. It can be concluded that the phosphorylation level and Rex modulate the conformational ensemble of p30. The limited phosphorylation together with Rex interaction may contribute to the structural stability of p30 which is required for its multifunctional role in HTLV-1 infection.",
+  "abstract_zh": "人类T淋巴细胞病毒（HTLV-1），一种δ逆转录病毒，除编码结构和酶蛋白外，还编码辅助蛋白。p30，一种HTLV-1辅助蛋白，有助于病毒持久性和致病性。p30是一种多功能蛋白，其固有无序蛋白（IDP）特性使其能够与不同宿主蛋白相互作用。磷酸化显著影响IDP的结构和功能。在本研究中，我们分析了p30蛋白在不同磷酸化水平下的固有无序性、动态性及其与调控蛋白Rex的相互作用。通过分子动力学（MD）研究，考察了磷酸化对p30 IDP特性的影响。分析显示，在10个预测位点磷酸化的p30（p30-10site(-P)）比在3个实验鉴定位点磷酸化的p30（p30-3site(-P)）和脱辅基蛋白表现出更稳定的行为和更高的紧凑性。Rex是HTLV-1编码的调控蛋白。p30与Rex之间的相互作用调节病毒复制与潜伏期之间的平衡。由于p30和Rex中存在ID区域，在其二级结构中观察到显著比例的环状结构。p30在p30-Rex复合物中的稳定性也受其结合伙伴（Rex蛋白）影响，因为结合位点位于p30的ID区域内。可以得出结论，磷酸化水平和Rex调节p30的构象集合。有限的磷酸化与Rex相互作用可能有助于p30的结构稳定性，这是其在HTLV-1感染中发挥多功能作用所必需的。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42323837/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42323837/",
+  "paper_page_path": "papers/pubmed/42323837/index.html"
+}

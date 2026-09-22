@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41807382",
+  "title": "Alzheimer's Abeta catalyzes Tau phase separation and aggregation via early nanocluster solubilization.",
+  "authors": "Sun, Xun; Tang, Yiming; Wang, Xue; Pereira Curia, Guadalupe; Sternke-Hoffmann, Rebecca; Morman, Cecilia; Gerez, Juan Atilio; Riek, Roland; Wei, Guanghong; Luo, Jinghui",
+  "journal": "Nature communications",
+  "published_date": "2026-03-11",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合实验与模拟，揭示Abeta通过早期溶解Tau纳米簇催化其相分离和纤维化，聚焦IDR介导的PPI与凝聚体机制建模，高度契合课题。",
+  "abstract": "Extracellular amyloid-beta (Abeta) plaques and intracellular neurofibrillary tangles (NFTs) composed of hyperphosphorylated Tau are the two main pathological hallmarks of Alzheimer's disease (AD). Although the co-occurrence and synergistic effects of Abeta and Tau are well established, the mechanisms underlying their interplay in a biomolecular condensate environment remain unclear. Here we show that Abeta40 does not undergo liquid-liquid phase separation (LLPS) but significantly enhances Tau phase separation and is recruited into Tau condensates. This recruitment alters condensate physicochemical properties, accelerates liquid-to-solid maturation, promotes Tau amyloid fibril formation, and increases Tau-mediated cytotoxicity. Notably, prior to condensate formation, Abeta40 transiently solubilizes Tau nanoclusters into smaller species. Simulations further indicate that early interactions are non-specific and mediated by Tau repeat domains, ultimately promoting pathogenic aggregation. These findings support a model wherein Abeta act as a catalyst for Tau condensation and fibrillation towards pathological aggregates by solubilizing Tau nanoclusters during early phase interactions.",
+  "abstract_zh": "细胞外淀粉样蛋白-β (amyloid-beta, Abeta) 斑块和由过度磷酸化Tau组成的细胞内神经原纤维缠结 (neurofibrillary tangles, NFTs) 是阿尔茨海默病 (Alzheimer's disease, AD) 的两大主要病理标志。尽管Abeta和Tau的共存及协同效应已被充分证实，但它们在生物分子凝聚体环境中相互作用的机制仍不清楚。在此，我们显示Abeta40不经历液-液相分离 (liquid-liquid phase separation, LLPS)，但显著增强Tau的相分离，并被招募进入Tau凝聚体。这种招募改变了凝聚体的物理化学性质，加速了液-固成熟过程，促进了Tau淀粉样纤维的形成，并增加了Tau介导的细胞毒性。值得注意的是，在凝聚体形成之前，Abeta40瞬时将Tau纳米簇溶解为更小的物种。模拟进一步表明，早期相互作用是非特异性的，并由Tau重复域介导，最终促进致病性聚集。这些发现支持一个模型，其中Abeta通过早期相相互作用中溶解Tau纳米簇，作为Tau凝聚和纤维化向病理聚集体的催化剂。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41807382/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41807382/",
+  "paper_page_path": "papers/pubmed/41807382/index.html"
+}

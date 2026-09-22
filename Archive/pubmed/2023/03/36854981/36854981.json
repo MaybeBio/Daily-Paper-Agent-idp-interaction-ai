@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "36854981",
+    "doi": "10.1007/s00294-023-01262-6",
+    "title": "Functional characterization and comparative analysis of gene repression-mediating domains interacting with yeast pleiotropic corepressors Sin3, Cyc8 and Tup1."
+  },
+  "content": {
+    "abstract": "Transcriptional corepressors Sin3, Cyc8 and Tup1 are important for downregulation of gene expression by recruiting various histone deacetylases once they gain access to defined genomic locations by interaction with pathway-specific repressor proteins. In this work we systematically investigated whether 17 yeast repressor proteins (Cti6, Dal80, Fkh1, Gal80, Mig1, Mot3, Nrg1, Opi1, Rdr1, Rox1, Sko1, Ume6, Ure2, Xbp1, Yhp1, Yox1 and Whi5) representing several unrelated regulatory pathways are able to bind to Sin3, Cyc8 and Tup1. Our results show that paired amphipathic helices 1 and 2 (PAH1 and PAH2) of Sin3 are functionally redundant for some regulatory pathways. WD40 domains of Tup1 proved to be sufficient for interaction with repressor proteins. Using length variants of selected repressors, we mapped corepressor interaction domains (CIDs) in vitro and assayed gene repression in vivo. Systematic comparison of CID minimal sequences allowed us to define several related positional patterns of hydrophobic amino acids some of which could be confirmed as functionally supported by site-directed mutagenesis. Although structural predictions indicated that certain CIDs may be alpha-helical, most repression domains appear to be randomly structured and must be considered as intrinsically disordered regions (IDR) adopting a defined conformation only by interaction with a corepressor.",
+    "keywords": [
+      "Corepressor",
+      "Cyc8",
+      "Gene repression",
+      "Interaction specificity",
+      "Saccharomyces cerevisiae",
+      "Sin3",
+      "Tup1"
+    ],
+    "mesh_terms": [
+      "Saccharomyces cerevisiae/genetics/metabolism",
+      "Co-Repressor Proteins/genetics",
+      "DNA-Binding Proteins/genetics/metabolism",
+      "*Saccharomyces cerevisiae Proteins/genetics/metabolism",
+      "Repressor Proteins/metabolism",
+      "Transcription, Genetic",
+      "Gene Expression Regulation, Fungal",
+      "Nuclear Proteins/genetics",
+      "Glutathione Peroxidase/genetics",
+      "*Prions/genetics",
+      "Phosphatidate Phosphatase/genetics/metabolism",
+      "Cell Cycle Proteins",
+      "Forkhead Transcription Factors",
+      "Basic-Leucine Zipper Transcription Factors",
+      "Carrier Proteins",
+      "GATA Transcription Factors",
+      "Transcription Factors"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lettow, Julia",
+        "Kliewe, Felix",
+        "Aref, Rasha",
+        "Schuller, Hans-Joachim"
+      ],
+      "short_names": [
+        "Lettow J",
+        "Kliewe F",
+        "Aref R",
+        "Schuller HJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Functional Genomics of Microbes, Abteilung Molekulare Genetik und Infektionsbiologie, Universitat Greifswald, Felix-Hausdorff-Str. 8, 17487, Greifswald, Germany.",
+        "Center for Functional Genomics of Microbes, Abteilung Molekulare Genetik und Infektionsbiologie, Universitat Greifswald, Felix-Hausdorff-Str. 8, 17487, Greifswald, Germany.",
+        "Institut fur Anatomie und Zellbiologie, Universitatsmedizin Greifswald, Friedrich-Loeffler-Str. 23c, 17489, Greifswald, Germany.",
+        "Center for Functional Genomics of Microbes, Abteilung Molekulare Genetik und Infektionsbiologie, Universitat Greifswald, Felix-Hausdorff-Str. 8, 17487, Greifswald, Germany.",
+        "Department of Genetics, Faculty of Agriculture, Ain Shams University, Shoubra El-Khaymah, Cairo, 11241, Egypt.",
+        "Center for Functional Genomics of Microbes, Abteilung Molekulare Genetik und Infektionsbiologie, Universitat Greifswald, Felix-Hausdorff-Str. 8, 17487, Greifswald, Germany. schuell@uni-greifswald.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lettow, Julia",
+        "short_name": "Lettow J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Functional Genomics of Microbes, Abteilung Molekulare Genetik und Infektionsbiologie, Universität Greifswald, Felix-Hausdorff-Str. 8, 17487, Greifswald, Germany."
+        ]
+      },
+      {
+        "full_name": "Kliewe, Felix",
+        "short_name": "Kliewe F",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Functional Genomics of Microbes, Abteilung Molekulare Genetik und Infektionsbiologie, Universität Greifswald, Felix-Hausdorff-Str. 8, 17487, Greifswald, Germany.",
+          "Institut für Anatomie und Zellbiologie, Universitätsmedizin Greifswald, Friedrich-Loeffler-Str. 23c, 17489, Greifswald, Germany."
+        ]
+      },
+      {
+        "full_name": "Aref, Rasha",
+        "short_name": "Aref R",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Functional Genomics of Microbes, Abteilung Molekulare Genetik und Infektionsbiologie, Universität Greifswald, Felix-Hausdorff-Str. 8, 17487, Greifswald, Germany.",
+          "Department of Genetics, Faculty of Agriculture, Ain Shams University, Shoubra El-Khaymah, Cairo, 11241, Egypt."
+        ]
+      },
+      {
+        "full_name": "Schüller, Hans-Joachim",
+        "short_name": "Schüller HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Functional Genomics of Microbes, Abteilung Molekulare Genetik und Infektionsbiologie, Universität Greifswald, Felix-Hausdorff-Str. 8, 17487, Greifswald, Germany. schuell@uni-greifswald.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current genetics"
+    ],
+    "journal_abbrev": [
+      "Curr Genet"
+    ],
+    "pub_date": "2023 Jun",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/02 06:00",
+    "fetched_at": "2026-09-20 19:50:04"
+  },
+  "links": {
+    "cites": [
+      "39558946",
+      "37511408"
+    ],
+    "refs": [
+      "34884456",
+      "34849878",
+      "34622331",
+      "34265844",
+      "33635403",
+      "32980916",
+      "32391601",
+      "30552170",
+      "30375428",
+      "28175933",
+      "23988124",
+      "22404999",
+      "22156212",
+      "21468892",
+      "21440557",
+      "20451393",
+      "20089039",
+      "19505602",
+      "18089292",
+      "17377789",
+      "16936817",
+      "16288918",
+      "16286007",
+      "16107689",
+      "15235594",
+      "14705930",
+      "14659697",
+      "14525981",
+      "12464633",
+      "12165425",
+      "12145211",
+      "12086627",
+      "12086626",
+      "11959975",
+      "11882665",
+      "11500510",
+      "11454208",
+      "11238941",
+      "11226276",
+      "11172717",
+      "11106735",
+      "11101889",
+      "11069890",
+      "10856245",
+      "10611226",
+      "10446242",
+      "9867831",
+      "9488431",
+      "9150136",
+      "9150134",
+      "8943325",
+      "8622676",
+      "8441414",
+      "8376332",
+      "8008070",
+      "8005436",
+      "7995523",
+      "7838736",
+      "7705659",
+      "7498787",
+      "3545494",
+      "2247069",
+      "2233725",
+      "2201901",
+      "1944290",
+      "1437546"
+    ],
+    "similar": [
+      "36854981",
+      "34622331",
+      "28175933",
+      "21104417",
+      "32980916",
+      "8008070",
+      "33635403",
+      "7705659",
+      "37566621",
+      "12086626",
+      "22543816",
+      "10982825",
+      "18201562",
+      "11454208",
+      "22156212",
+      "12086627",
+      "15031717",
+      "25106892",
+      "8943325",
+      "27842591",
+      "16107689",
+      "19219034",
+      "10722672",
+      "11238941",
+      "22156205",
+      "11399075",
+      "12136003",
+      "15254041",
+      "10924455",
+      "14665463",
+      "2038333",
+      "34849878",
+      "29121937",
+      "11563983",
+      "33175887",
+      "25304510",
+      "23733183",
+      "9867831",
+      "15133041",
+      "15788561",
+      "15240822",
+      "16936817",
+      "15821125",
+      "9858577",
+      "9150136",
+      "9730278",
+      "12637515",
+      "21536737",
+      "16914451",
+      "38529898",
+      "36542663",
+      "8816491",
+      "16835445",
+      "23468525",
+      "16329992",
+      "10567571",
+      "15075261",
+      "21552514",
+      "7724528",
+      "23124522",
+      "10849660",
+      "27743455",
+      "7889570",
+      "16288918",
+      "16354707",
+      "18089292",
+      "35123133",
+      "14530431",
+      "11784848",
+      "9073571",
+      "2247069",
+      "26546823",
+      "14525981",
+      "20820861",
+      "8441414",
+      "9415406",
+      "11283252",
+      "34952627",
+      "10022891",
+      "8056322",
+      "9560430",
+      "10705372",
+      "14587102",
+      "17704134",
+      "15024060",
+      "8754821",
+      "34075876",
+      "9832521",
+      "16024810",
+      "19523118",
+      "15598821",
+      "11058116",
+      "15819625",
+      "7768429",
+      "12694624",
+      "7565763",
+      "15235594",
+      "35341317",
+      "31009461",
+      "21512249",
+      "16314178",
+      "38097185",
+      "15277686",
+      "37918807",
+      "20618965",
+      "37748837"
+    ],
+    "review": [
+      "36854981",
+      "16936817",
+      "10849660"
+    ],
+    "pmc": [
+      "10163088"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36854981/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/36854981",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s00294-023-01262-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36854981",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXO1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

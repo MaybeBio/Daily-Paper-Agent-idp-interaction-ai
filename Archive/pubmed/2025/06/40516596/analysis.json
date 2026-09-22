@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40516596",
+  "title": "ATP as a Key Modulator of Fused-in-sarcoma Phase Separation and Aggregation: Insights into Amyotrophic Lateral Sclerosis Pathogenesis.",
+  "authors": "Kitamura, Keiji; Tsukui, Itta; Sasaki, Fuka; Shiramasa, Yutaro; Arayama, Miyu; Morishita, Manato; Oshima, Ayano; Kitazawa, Soichiro; Kameda, Tomoshi; Kitahara, Ryo",
+  "journal": "Journal of molecular biology",
+  "published_date": "2025-06-15",
+  "window": {
+    "start": "2025-06-09",
+    "end": "2025-06-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合实验与分子动力学模拟，揭示ATP通过双亲性破坏FUS无序蛋白相分离关键分子间相互作用并抑制其病理性聚集，直接聚焦IDR介导的相分离互作机制建模，对ALS发病机制及无序蛋白PPI调控建模有高度启发。",
+  "abstract": "Fused in sarcoma (FUS) is an RNA-binding protein, the aberrant aggregation of which is linked to amyotrophic lateral sclerosis (ALS). Liquid-liquid phase separation (LLPS) of FUS facilitates functional condensate formation and can drive pathological aggregation under certain conditions. The aggregation-inhibitory effects of ATP, a key cellular hydrotrope, have been reported for multiple proteins; however, how ATP, present at approximately 1-12 mM concentrations in cells, regulates LLPS and amyloid fibril formation remains unclear. Therefore, we investigated how ATP modulates the LLPS behavior and aggregation of FUS and its ALS-linked variants, R495X and P525L. ATP destabilized both normal LLPS and aberrant high-pressure LLPS (HP-LLPS), with a relatively strong inhibitory effect on HP-LLPS. Pressure-jump experiments demonstrated that ATP reduced the irreversible aggregation propensity of HP-LLPS, particularly in ALS variants that exhibited enhanced aggregation compared to that by wild-type FUS. Molecular dynamic simulations further revealed that the triphosphate and adenosine moieties of ATP synergistically disrupted intermolecular interactions that were crucial for phase separation, leveraging its amphipathic properties. Notably, ATP concentrations within the physiological range (1-12 mM) significantly inhibited FUS aggregation, suggesting a protective role in cellular environments. These results indicate that decreased intracellular ATP levels may exacerbate aberrant phase transitions of FUS, contributing to ALS onset. This study underscores the potential of ATP as a therapeutic modulator of protein phase separation and aggregation, providing valuable insights into the molecular mechanisms of ALS. Our findings open new avenues for targeting ATP-regulated pathways for treating neurodegenerative disorders.",
+  "abstract_zh": "肉瘤融合基因（FUS）是一种RNA结合蛋白，其异常聚集与肌萎缩侧索硬化症（ALS）相关。FUS的液-液相分离（LLPS）促进功能性凝聚体的形成，并在特定条件下可驱动病理性聚集。ATP作为细胞内的关键水溶助剂，其对多种蛋白质的聚集抑制作用已有报道；然而，ATP在细胞中浓度约为1-12 mM，其如何调控LLPS及淀粉样纤维形成仍不清楚。因此，我们研究了ATP如何调节FUS及其ALS相关变体R495X和P525L的LLPS行为和聚集。ATP使正常LLPS和异常高压LLPS（HP-LLPS）均不稳定，且对HP-LLPS的抑制作用相对较强。压力跳跃实验表明，ATP降低了HP-LLPS的不可逆聚集倾向，尤其是在与野生型FUS相比聚集增强的ALS变体中。分子动力学模拟进一步揭示，ATP的三磷酸和腺苷部分利用其两亲特性协同破坏了相分离所必需的分子的相互作用。值得注意的是，生理范围内的ATP浓度（1-12 mM）显著抑制了FUS聚集，表明其在细胞环境中具有保护作用。这些结果表明，细胞内ATP水平降低可能加剧FUS的异常相变，从而促进ALS的发生。本研究强调了ATP作为蛋白质相分离和聚集治疗调节剂的潜力，为ALS的分子机制提供了宝贵见解。我们的发现为靶向ATP调控通路治疗神经退行性疾病开辟了新途径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40516596/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40516596/",
+  "paper_page_path": "papers/pubmed/40516596/index.html"
+}

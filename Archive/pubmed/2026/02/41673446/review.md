@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary information descriptions
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors identify the STI1 domain of yeast Dsk2 as the primary driver of self-association and phase separation, mediated by interactions with three transient amphipathic helices in intrinsically disordered regions. They propose that these interactions resemble chaperone-client binding and regulate proteasome condensate formation in vivo.
+- **Visible evidence base** NMR spectroscopy (chemical shift assignments, relaxation, CSPs), SEC-MALS, SAXS, CALVADOS molecular dynamics simulations, in vitro phase separation assays, yeast genetics with CRISPR-Cas9, fluorescence microscopy, immunoblotting
+- **Missing materials affecting confidence** Full NMR spectra assignments table, SAXS data curves and fitting parameters, raw microscopy images, complete statistical analysis details, Appendix figures and tables referenced but not provided, Movie EV1 and EV2 content, Peer Review File
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive biophysical and cell biological characterization of Dsk2 phase separation, identifying the STI1 domain and three transient helices as key mediators. The combination of NMR, simulations, and in vivo validation is commendable and provides a detailed molecular model. However, several concerns regarding the quantitative interpretation of NMR data, the specificity of the proposed interactions, and the causal link between in vitro phase separation propensity and in vivo condensate formation need to be addressed to fully support the conclusions.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, ubiquitin-proteasome system, phase separation mechanisms, intrinsically disordered proteins, and STI1/co-chaperone domain functions. The work provides a molecular-level understanding of how a chaperone-binding domain can mediate self-association, which is relevant to understanding stress responses and protein quality control.
+- **Major strengths** 1) Residue-level NMR analysis of a full-length protein with >84% assignment coverage is technically impressive and provides detailed mechanistic insight. 2) The combination of in vitro biophysics, computational modeling, and in vivo genetics is powerful and mutually reinforcing. 3) The identification of transient helices as interaction partners for the STI1 domain is novel and suggests a general mechanism for STI1-containing proteins. 4) The in vivo validation with specific deletion strains and stress conditions adds physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for molecular interaction model
+  - **Claim pointer** "The STI1 domain interacts with three transient amphipathic helices within the intrinsically disordered regions of Dsk2" and "STI1-helix interactions... can be replaced by STI1-client interactions"
+  - **Evidence pointer** Figures 2, 3, 4; Appendix Figures S4, S5, S6
+  - **Concern** The evidence for specific STI1-helix interactions relies heavily on CSPs and relaxation data, but the manuscript does not provide quantitative binding affinities or stoichiometry. The claim that these are "interactions" rather than transient, non-specific contacts is not fully supported. The AlphaFold2 multimer models are presented as supportive but are not experimentally validated. The simulation data showing "increased preference" for helix occupancy in the STI1 groove lacks statistical rigor in the presented form.
+  - **Why it matters** The central mechanistic claim of the paper is that specific STI1-helix interactions drive phase separation. Without quantitative binding data or mutagenesis experiments that disrupt the proposed interface, the specificity of these interactions remains uncertain. This is critical for the proposed model and for the claim that these interactions resemble chaperone-client binding.
+  - **Resolution test** Provide quantitative binding data (e.g., ITC or NMR titration) for STI1 domain binding to each helix peptide. Include mutagenesis of the STI1 groove or helix hydrophobic faces that disrupts phase separation in vitro and in vivo. Show that the proposed interaction interface is supported by chemical shift mapping onto the AlphaFold model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between in vitro and in vivo observations
+  - **Claim pointer** "Deletion of the STI1 domain increased the percentage of yeast cells with at least one proteasome punctum under both stress conditions" and "our data are consistent with our hypothesis that removal of the transient helices reduces Dsk2 condensate formation in vitro and in vivo"
+  - **Evidence pointer** Figure 6; Appendix Figures S7-S9
+  - **Concern** The in vivo results are paradoxical: deletion of the STI1 domain, which is the major driver of phase separation in vitro, increases condensate formation in vivo. The authors attribute this to elevated Dsk2 protein levels, but this explanation is post hoc and not directly tested. The Δ3TH results are inconsistent between stress conditions, and the explanation for the discrepancy (elevated Dsk2 levels under prolonged growth) is speculative. The manuscript does not establish a causal link between the specific molecular interactions identified in vitro and the observed in vivo phenotypes.
+  - **Why it matters** The physiological relevance of the proposed mechanism depends on the in vivo data. If the in vitro and in vivo results are not directly correlated, the model that STI1-helix interactions drive condensate formation in cells is weakened. The current data could be explained by other factors, such as changes in protein stability, chaperone interactions, or stress response pathways.
+  - **Resolution test** Perform epistasis experiments where Dsk2 levels are normalized between strains (e.g., using different promoters or degradation tags). Test whether the ΔSTI1 phenotype is dependent on the proposed helix interactions by combining deletions. Measure Dsk2 protein half-life and mRNA levels to determine the mechanism of upregulation. Use a system where Dsk2 levels are controlled to directly compare phase separation propensity in vivo.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the proposed conserved mechanism
+  - **Claim pointer** "Our data suggest that the interaction between the STI1 domain and transient helices within Dsk2 represents a conserved feature among related UBQLNs and co-chaperone proteins containing STI1 domains"
+  - **Evidence pointer** Discussion section; Appendix Figure S1
+  - **Concern** The claim of conservation is based on sequence similarity and the chimeric experiment with UBQLN2 STI1-II domain. However, the manuscript does not provide direct evidence that the UBQLN2 STI1-II domain interacts with the Dsk2 helices in the same manner, or that the proposed mechanism applies to other STI1-containing proteins. The chimeric experiment is mentioned but not shown in detail.
+  - **Why it matters** The broader significance of the work depends on the generality of the proposed mechanism. If the interaction is specific to Dsk2, the impact is more limited. The claim of conservation needs direct experimental support.
+  - **Resolution test** Provide data on the chimeric construct showing that UBQLN2 STI1-II domain rescues Dsk2 phase separation. Test whether mutations in the proposed helix-binding groove of other STI1 proteins affect their function. Show sequence conservation of the helix-binding interface across species and proteins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** NMR assignment strategy
+  - **Evidence pointer** Methods section, NMR chemical shift assignments
+  - **Issue** The manuscript states that assignments were obtained for 84% of residues but does not describe the assignment strategy in detail or provide an assignment table.
+  - **Required correction** Include a description of the assignment strategy (e.g., triple-resonance experiments used, which constructs were used for assignment) and provide an assignment table as supplementary material.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Phase diagram measurements
+  - **Evidence pointer** Figure 1D, Figure 5A
+  - **Issue** The phase diagrams show mean values with SD, but the number of replicates and the statistical test used for comparing different constructs are not clearly stated.
+  - **Required correction** Clearly state the number of independent experiments and replicates for each phase diagram, and specify the statistical tests used for comparisons between constructs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of relaxation data
+  - **Affected element** Figure 2D
+  - **Evidence pointer** Figure 2D
+  - **Issue** The relaxation data are presented as evidence for transient helices, but the interpretation of intermediate hetNOE values as "transient helical character" is not quantitatively justified.
+  - **Required correction** Provide a more quantitative analysis of the relaxation data, such as comparison to model-free analysis or reference to known values for transient helices in other systems.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** In vivo imaging quantification
+  - **Affected element** Figure 6
+  - **Evidence pointer** Figure 6B, 6H
+  - **Issue** The quantification of proteasome puncta is based on manual scoring, which can be subjective. The criteria for a "punctum" are not defined.
+  - **Required correction** Provide clear criteria for what constitutes a punctum, and consider using automated image analysis to reduce subjectivity. Report inter-observer variability if manual scoring is retained.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Simulation validation
+  - **Affected element** CALVADOS simulations
+  - **Evidence pointer** Methods section, CALVADOS molecular dynamics simulations
+  - **Issue** The simulations are used to support the interaction model, but the force field parameters and the validation of the simulation against experimental data are not described in sufficient detail.
+  - **Required correction** Provide more details on the simulation parameters, including the specific CALVADOS3COM parameters used, and show a direct comparison between simulation predictions and experimental observables (e.g., Rg, CSPs).
+
+## Risk / unsupported claims
+- The claim that STI1-helix interactions are "reminiscent of chaperone STI1/DP2 domains interacting with client helices" is based on structural analogy and AlphaFold predictions, not on direct experimental evidence for functional mimicry.
+- The statement that "STI1-helix interactions important for Dsk2 condensate formation can be replaced by STI1-client interactions" is speculative and not directly tested in this manuscript.
+- The in vivo conclusion that ΔSTI1 increases condensate formation "in line with our in vitro results" is misleading, as the in vitro data show decreased phase separation for ΔSTI1, while in vivo data show increased condensates. The explanation involving elevated protein levels is not experimentally validated.
+- The claim of a "conserved feature among related UBQLNs and co-chaperone proteins" is not supported by direct experimental evidence for other family members.
+- The quantitative significance of the "50-, 75-, and 150-fold higher" probabilities for helix occupancy in simulations is not statistically validated with confidence intervals or error analysis.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40727659",
+  "title": "Integrating chemical artificial intelligence and cognitive computing for predictive analysis of biological pathways: a case for intrinsically disordered proteins.",
+  "authors": "Coskuner-Weber, Orkid; Gentili, Pier Luigi; Uversky, Vladimir N",
+  "journal": "Biophysical reviews",
+  "published_date": "2025-07-29",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文探讨将化学AI与认知计算整合用于生物通路预测，以无序蛋白(IDP)为案例，但主要聚焦概念框架与前景展望，缺乏具体的PPI机制建模或AI/物理模拟方法实现。",
+  "abstract": "Incorporating biological molecular interactions into cognitive computing through chemical artificial intelligence (AI) presents a transformative approach with far-reaching implications for various fields, such as protein engineering, drug discovery, bioinformatics, synthetic biology, and unconventional computing. Cognitive computing, designed to emulate human thought processes and enhance decision-making, utilizes technologies, such as machine learning, natural language processing, and speech recognition for better human-system interactions. Despite advancements, the integration of biological processes with cognitive computing remains fraught with challenges, particularly due to the complexity and scale of biological data. Here, we explore the possible benefits of connecting cognitive computing with biological knowledge, including more precise models of protein interactions, gene regulation, and metabolic pathways, which could lead to personalized treatments and early disease detection. Furthermore, we discuss the intersection of cognitive computing and biophysical research techniques, examining how analogies from neuroscience-like synaptic communication and neural plasticity-can inform the development of neuromorphic chips and enhance predictive models. Additionally, the study delves into intrinsically disordered proteins (IDPs) and their crucial roles in brain function and information processing. These insights are pivotal for advancing neuroinformatics and creating more adaptive, context-aware cognitive computing algorithms. By leveraging biophysical investigations and the unique properties of IDPs, the research aims to bridge the gap between the biological processes and their computational analogs, proposing novel methods, such as chemical AI implemented in liquid solutions as promising avenues for future advancements.",
+  "abstract_zh": "将生物分子相互作用通过化学人工智能（AI）融入认知计算，为蛋白质工程、药物发现、生物信息学、合成生物学及非传统计算等多个领域提供了一种变革性方法，具有深远影响。认知计算旨在模拟人类思维过程并增强决策能力，利用机器学习、自然语言处理及语音识别等技术，以改善人机交互。尽管取得了进展，生物过程与认知计算的整合仍面临诸多挑战，尤其是生物数据的复杂性和规模问题。在此，我们探讨了将认知计算与生物知识相连接的可能益处，包括更精确的蛋白质相互作用、基因调控及代谢通路模型，这些有望促进个性化治疗和早期疾病检测。此外，我们讨论了认知计算与生物物理研究技术的交汇点，考察了神经科学中的类比——如突触通信和神经可塑性——如何为神经形态芯片的开发提供启示，并增强预测模型。研究还深入探讨了固有无序蛋白（IDPs）及其在大脑功能和信息处理中的关键作用。这些见解对于推进神经信息学及开发更具适应性和情境感知的认知计算算法至关重要。通过利用生物物理研究及IDPs的独特性质，本研究旨在弥合生物过程与其计算模拟之间的鸿沟，提出诸如在液体溶液中实现的化学AI等新颖方法，作为未来发展的有前景途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40727659/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40727659/",
+  "paper_page_path": "papers/pubmed/40727659/index.html"
+}

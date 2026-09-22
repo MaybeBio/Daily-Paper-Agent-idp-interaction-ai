@@ -1,0 +1,319 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.12.01.470868",
+  "title": "DeepLPI: a novel deep learning-based model for protein-ligand interaction prediction for drug repurposing",
+  "doi": "10.1101/2021.12.01.470868",
+  "abstract": "The substantial cost of new drug research and development has consistently posed a huge burden for both pharmaceutical companies and patients. In order to lower the expenditure and development failure rate, repurposing existing and approved drugs by identifying interactions between drug molecules and target proteins based on computational methods have gained growing attention. Here, we propose the DeepLPI, a novel deep learning-based model that mainly consists of ResNet-based 1-dimensional convolutional neural network (1D CNN) and bi-directional long short term memory network (biLSTM), to establish an end-to-end framework for protein-ligand interaction prediction. We first encode the raw drug molecular sequences and target protein sequences into dense vector representations, which go through two ResNet-based 1D CNN modules to derive features, respectively. The extracted feature vectors are concatenated and further fed into the biLSTM network, followed by the MLP module to finally predict protein-ligand interaction. We downloaded the well-known BindingDB and Davis dataset for training and testing our DeepLPI model. We also applied DeepLPI on a COVID-19 dataset for externally evaluating the prediction ability of DeepLPI. To benchmark our model, we compared our DeepLPI with the state-of-the-art methods of DeepCDA and DeepDTA, and observed that our DeepLPI outperformed these methods, suggesting the high accuracy of the DeepLPI towards protein-ligand interaction prediction. The high prediction performance of DeepLPI on the different datasets displayed its high capability of protein-ligand interaction in generalization, demonstrating that the DeepLPI has the potential to pinpoint new drug-target interactions and to find better destinations for proven drugs.",
+  "authors": [
+    "Bomin Wei",
+    "Yue Zhang",
+    "Xiang Gong"
+  ],
+  "published_date": "2021-12-03",
+  "updated_date": "2021-12-03T13:35:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.12.01.470868",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.12.01.470868.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            13
+          ]
+        ],
+        "date-time": "2026-05-13T01:40:16Z",
+        "timestamp": 1778636416127,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            3
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 26,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            8,
+            28
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The substantial cost of new drug research and development has consistently posed a huge burden for both pharmaceutical companies and patients. In order to lower the expenditure and development failure rate, repurposing existing and approved drugs by identifying interactions between drug molecules and target proteins based on computational methods have gained growing attention. Here, we propose the DeepLPI, a novel deep learning-based model that mainly consists of ResNet-based 1-dimensional convolutional neural network (1D CNN) and bi-directional long short term memory network (biLSTM), to establish an end-to-end framework for protein-ligand interaction prediction. We first encode the raw drug molecular sequences and target protein sequences into dense vector representations, which go through two ResNet-based 1D CNN modules to derive features, respectively. The extracted feature vectors are concatenated and further fed into the biLSTM network, followed by the MLP module to finally predict protein-ligand interaction. We downloaded the well-known BindingDB and Davis dataset for training and testing our DeepLPI model. We also applied DeepLPI on a COVID-19 dataset for externally evaluating the prediction ability of DeepLPI. To benchmark our model, we compared our DeepLPI with the state-of-the-art methods of DeepCDA and DeepDTA, and observed that our DeepLPI outperformed these methods, suggesting the high accuracy of the DeepLPI towards protein-ligand interaction prediction. The high prediction performance of DeepLPI on the different datasets displayed its high capability of protein-ligand interaction in generalization, demonstrating that the DeepLPI has the potential to pinpoint new drug-target interactions and to find better destinations for proven drugs.</jats:p>",
+      "DOI": "10.1101/2021.12.01.470868",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            3
+          ]
+        ],
+        "date-time": "2021-12-03T13:35:13Z",
+        "timestamp": 1638538513000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "DeepLPI: a novel deep learning-based model for protein-ligand interaction prediction for drug repurposing"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0582-3984",
+          "authenticated-orcid": false,
+          "given": "Bomin",
+          "family": "Wei",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yue",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiang",
+          "family": "Gong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd.2018.168"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1001/jama.2020.1166"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4103/0975-7406.72130"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.ppat.1008341"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2016.10.008"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms22094435"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.7",
+          "unstructured": "I. Wallach , M. Dzamba , and A. Heifets , “AtomNet: a deep convolutional neural network for bioactivity prediction in structure-based drug discovery.” arXiv preprint arXiv:1510.02855 (2015)."
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fgene.2020.607824"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu626"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/bmj.324.7344.1018"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq112"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules200610947"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/IJCNN.2016.7727339"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty593"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa544"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00616"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cels.2021.05.017"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl999"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1990"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.21",
+          "unstructured": "Diamond Light Source, “Main protease structure and XChem fragment screen,” Online data source. https://www.diamond.ac.uk/covid-19/for-scientists/Main-protease-structure-and-XChem.html."
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.22",
+          "unstructured": "Huang, K. et al, “Therapeutics Data Commons: Machine Learning Datasets and Tasks for Drug Discovery and Development”, arXiv preprints, 2021. arXiv:2102.09548"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100050t"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2016.90"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.2015.123"
+        },
+        {
+          "key": "2022082912050558000_2021.12.01.470868v2.26",
+          "unstructured": "D. P. Kingma and J. Ba , “Adam: A Method for Stochastic Optimization,” arXiv preprint arXiv: 1412.6980 (2014)."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.12.01.470868",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:26:37Z",
+        "timestamp": 1768443997000
+      },
+      "score": 71.19469,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.12.01.470868"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            3
+          ]
+        ]
+      },
+      "references-count": 26,
+      "URL": "https://doi.org/10.1101/2021.12.01.470868",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41598-022-23014-1",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

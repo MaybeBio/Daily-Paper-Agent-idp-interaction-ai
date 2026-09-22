@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37740110",
+  "title": "Tutorial: a guide for the selection of fast and accurate computational tools for the prediction of intrinsic disorder in proteins.",
+  "authors": "Kurgan, Lukasz; Hu, Gang; Wang, Kui; Ghadermarzi, Sina; Zhao, Bi; Malhis, Nawar; Erdos, Gabor; Gsponer, Jorg; Uversky, Vladimir N; Dosztanyi, Zsuzsanna",
+  "journal": "Nature protocols",
+  "published_date": "2023-09-23",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该教程比较了23种无序蛋白预测工具，并推荐了用于IDR结合位点预测的ANCHOR2和MoRFchibi，虽涉及IDP和结合预测，但缺乏PPI机制建模和AI/物理模拟方法，属于工具综述。",
+  "abstract": "Intrinsic disorder is instrumental for a wide range of protein functions, and its analysis, using computational predictions from primary structures, complements secondary and tertiary structure-based approaches. In this Tutorial, we provide an overview and comparison of 23 publicly available computational tools with complementary parameters useful for intrinsic disorder prediction, partly relying on results from the Critical Assessment of protein Intrinsic Disorder prediction experiment. We consider factors such as accuracy, runtime, availability and the need for functional insights. The selected tools are available as web servers and downloadable programs, offer state-of-the-art predictions and can be used in a high-throughput manner. We provide examples and instructions for the selected tools to illustrate practical aspects related to the submission, collection and interpretation of predictions, as well as the timing and their limitations. We highlight two predictors for intrinsically disordered proteins, flDPnn as accurate and fast and IUPred as very fast and moderately accurate, while suggesting ANCHOR2 and MoRFchibi as two of the best-performing predictors for intrinsically disordered region binding. We link these tools to additional resources, including databases of predictions and web servers that integrate multiple predictive methods. Altogether, this Tutorial provides a hands-on guide to comparatively evaluating multiple predictors, submitting and collecting their own predictions, and reading and interpreting results. It is suitable for experimentalists and computational biologists interested in accurately and conveniently identifying intrinsic disorder, facilitating the functional characterization of the rapidly growing collections of protein sequences.",
+  "abstract_zh": "内在无序性在多种蛋白质功能中起着关键作用，对其分析利用从一级结构进行的计算预测，补充了基于二级和三级结构的方法。在本教程中，我们概述并比较了23个公开可用的计算工具，这些工具具有互补参数，适用于内在无序性预测，部分依赖于蛋白质内在无序性预测关键评估实验的结果。我们考虑了准确性、运行时间、可用性及功能洞察需求等因素。所选工具可作为网络服务器和可下载程序使用，提供最先进的预测，并支持高通量应用。我们提供了所选工具的示例和说明，以展示与预测提交、收集和解释相关的实际方面，以及时间安排和局限性。我们重点介绍了两个针对内在无序蛋白质的预测器，flDPnn以其准确和快速著称，IUPred则非常快速且中等准确，同时建议ANCHOR2和MoRFchibi作为内在无序区域结合预测中表现最佳的两个工具。我们将这些工具链接到额外资源，包括预测数据库和整合多种预测方法的网络服务器。总体而言，本教程提供了比较评估多个预测器、提交和收集自身预测以及阅读和解释结果的实践指南，适用于对准确便捷识别内在无序性感兴趣的实验学家和计算生物学家，有助于促进快速增长的蛋白质序列集合的功能表征。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37740110/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37740110/",
+  "paper_page_path": "papers/pubmed/37740110/index.html"
+}

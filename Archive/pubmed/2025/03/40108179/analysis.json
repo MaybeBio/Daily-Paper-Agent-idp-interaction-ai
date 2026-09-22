@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40108179",
+  "title": "Multiphasic condensates formed with mono-component of tetrapeptides via phase separation.",
+  "authors": "Zhou, Laicheng; Zhu, Longchen; Wang, Cong; Xu, Tengyan; Wang, Jing; Zhang, Bin; Zhang, Xin; Wang, Huaimin",
+  "journal": "Nature communications",
+  "published_date": "2025-03-20",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究四肽单组分经相分离形成的多相凝聚体，结合分子动力学模拟揭示核-壳结构机制，虽对象为短肽而非典型IDP，但相分离与MD模拟方法对本课题的凝聚体机制建模有可迁移启发。",
+  "abstract": "Biomolecular condensates, formed by liquid-liquid phase separation of biomacromolecules, play crucial roles in regulating physiological events in biological systems. While multiphasic condensates have been extensively studied, those derived from a single component of short peptides have not yet been reported. Here, we report the symmetrical core-shell structural biomolecular condensates formed with a programmable tetrapeptide library via phase separation. Our findings reveal that tryptophan is essential for core-shell structure formation due to its strongest homotypical pi-pi interaction, enabling us to modulate the structure of condensates from core-shell to homogeneous by altering the amino acid composition. Molecular dynamics simulation combined with cryogenic focused ion beam scanning electron microscopy and cryogenic electron microscopy show that the inner core of multiphasic tetrapeptide condensates is solid-like, consisting of ordered structures. The core is enveloped by a liquid-like shell, stabilizing the core structure. Furthermore, we demonstrate control over multiphasic condensate formation through intrinsic redox reactions or post-translational modifications, facilitating the rational design of synthetic multiphasic condensates for various applications on demand.",
+  "abstract_zh": "由生物大分子液-液相分离形成的生物分子凝聚体在调控生物系统生理事件中发挥关键作用。尽管多相凝聚体已被广泛研究，但由单一组分的短肽形成的凝聚体尚未见报道。在此，我们报道了通过相分离形成的具有对称核-壳结构的生物分子凝聚体，其基于可编程四肽库构建。我们的发现表明，色氨酸因具有最强的同型π-π相互作用而对核-壳结构的形成至关重要，这使我们能够通过改变氨基酸组成将凝聚体结构从核-壳型调控至均质型。分子动力学 (molecular dynamics) 模拟结合低温聚焦离子束扫描电子显微镜和低温电子显微镜显示，多相四肽凝聚体的内核呈类固态，由有序结构组成。内核被类液态外壳包裹，从而稳定核结构。此外，我们展示了通过内在氧化还原反应或翻译后修饰来控制多相凝聚体的形成，从而促进按需设计用于各种应用的合成多相凝聚体。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40108179/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40108179/",
+  "paper_page_path": "papers/pubmed/40108179/index.html"
+}

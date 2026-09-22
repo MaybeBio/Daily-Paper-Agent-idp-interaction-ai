@@ -1,0 +1,439 @@
+{
+  "identity": {
+    "pmid": "34168211",
+    "doi": "10.1038/s41598-021-92581-6",
+    "title": "Analysis of the dark proteome of Chandipura virus reveals maximum propensity for intrinsic disorder in phosphoprotein."
+  },
+  "content": {
+    "abstract": "Chandipura virus (CHPV, a member of the Rhabdoviridae family) is an emerging pathogen that causes rapidly progressing influenza-like illness and acute encephalitis often leading to coma and death of the human host. Given several CHPV outbreaks in Indian sub-continent, recurring sporadic cases, neurological manifestation, and high mortality rate of this infection, CHPV is gaining global attention. The 'dark proteome' includes the whole proteome with special emphasis on intrinsically disordered proteins (IDP) and IDP regions (IDPR), which are proteins or protein regions that lack unique (or ordered) three-dimensional structures within the cellular milieu. These proteins/regions, however, play a number of vital roles in various biological processes, such as cell cycle regulation, control of signaling pathways, etc. and, therefore, are implicated in many human diseases. IDPs and IPPRs are also abundantly found in many viral proteins enabling their multifunctional roles in the viral life cycles and their capability to highjack various host systems. The unknown abundance of IDP and IDPR in CHPV, therefore, prompted us to analyze the dark proteome of this virus. Our analysis revealed a varying degree of disorder in all five CHPV proteins, with the maximum level of intrinsic disorder propensity being found in Phosphoprotein (P). We have also shown the flexibility of P protein using extensive molecular dynamics simulations up to 500 ns (ns). Furthermore, our analysis also showed the abundant presence of the disorder-based binding regions (also known as molecular recognition features, MoRFs) in CHPV proteins. The identification of IDPs/IDPRs in CHPV proteins suggests that their disordered regions may function as potential interacting domains and may also serve as novel targets for disorder-based drug designs.",
+    "keywords": [],
+    "mesh_terms": [
+      "DNA-Directed RNA Polymerases/metabolism",
+      "Genome, Viral/genetics",
+      "Humans",
+      "Intrinsically Disordered Proteins/*metabolism",
+      "Nucleoproteins/genetics/metabolism",
+      "Phosphoproteins/metabolism",
+      "Proteome",
+      "Rhabdoviridae Infections/*metabolism/virology",
+      "Sequence Alignment",
+      "Vesiculovirus/genetics/*metabolism",
+      "Viral Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sharma, Nishi R",
+        "Gadhave, Kundlik",
+        "Kumar, Prateek",
+        "Saif, Mohammad",
+        "Khan, Md M",
+        "Sarkar, Debi P",
+        "Uversky, Vladimir N",
+        "Giri, Rajanish"
+      ],
+      "short_names": [
+        "Sharma NR",
+        "Gadhave K",
+        "Kumar P",
+        "Saif M",
+        "Khan MM",
+        "Sarkar DP",
+        "Uversky VN",
+        "Giri R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Interdisciplinary Studies, Jamia Hamdard-Institute of Molecular Medicine (JH-IMM), Jamia Hamdard, Hamdard Nagar, New Delhi, 110062, India. nrsharma@jamiahamdard.ac.in.",
+        "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Kamand, Himachal Pradesh, 175005, India.",
+        "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Kamand, Himachal Pradesh, 175005, India.",
+        "School of Interdisciplinary Studies, Jamia Hamdard-Institute of Molecular Medicine (JH-IMM), Jamia Hamdard, Hamdard Nagar, New Delhi, 110062, India.",
+        "School of Interdisciplinary Studies, Jamia Hamdard-Institute of Molecular Medicine (JH-IMM), Jamia Hamdard, Hamdard Nagar, New Delhi, 110062, India.",
+        "Department of Biochemistry, University of Delhi South Campus, New Delhi, 110021, India.",
+        "Department of Molecular Medicine and Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, 33620, USA. vuversky@usf.edu.",
+        "Institute for Biological Instrumentation of the Russian Academy of Sciences, Federal Research Center \"Pushchino Scientific Center for Biological Research of the Russian Academy of Sciences\", Pushchino, 142290, Moscow, Russia. vuversky@usf.edu.",
+        "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Kamand, Himachal Pradesh, 175005, India. rajanishgiri@iitmandi.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sharma, Nishi R",
+        "short_name": "Sharma NR",
+        "identifiers": [],
+        "affiliations": [
+          "School of Interdisciplinary Studies, Jamia Hamdard-Institute of Molecular Medicine (JH-IMM), Jamia Hamdard, Hamdard Nagar, New Delhi, 110062, India. nrsharma@jamiahamdard.ac.in."
+        ]
+      },
+      {
+        "full_name": "Gadhave, Kundlik",
+        "short_name": "Gadhave K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Kamand, Himachal Pradesh, 175005, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Prateek",
+        "short_name": "Kumar P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Kamand, Himachal Pradesh, 175005, India."
+        ]
+      },
+      {
+        "full_name": "Saif, Mohammad",
+        "short_name": "Saif M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Interdisciplinary Studies, Jamia Hamdard-Institute of Molecular Medicine (JH-IMM), Jamia Hamdard, Hamdard Nagar, New Delhi, 110062, India."
+        ]
+      },
+      {
+        "full_name": "Khan, Md M",
+        "short_name": "Khan MM",
+        "identifiers": [],
+        "affiliations": [
+          "School of Interdisciplinary Studies, Jamia Hamdard-Institute of Molecular Medicine (JH-IMM), Jamia Hamdard, Hamdard Nagar, New Delhi, 110062, India."
+        ]
+      },
+      {
+        "full_name": "Sarkar, Debi P",
+        "short_name": "Sarkar DP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Delhi South Campus, New Delhi, 110021, India."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, 33620, USA. vuversky@usf.edu.",
+          "Institute for Biological Instrumentation of the Russian Academy of Sciences, Federal Research Center \"Pushchino Scientific Center for Biological Research of the Russian Academy of Sciences\", Pushchino, 142290, Moscow, Russia. vuversky@usf.edu."
+        ]
+      },
+      {
+        "full_name": "Giri, Rajanish",
+        "short_name": "Giri R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Kamand, Himachal Pradesh, 175005, India. rajanishgiri@iitmandi.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2021 Jun 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/26 06:00",
+    "fetched_at": "2026-09-20 03:54:49"
+  },
+  "links": {
+    "cites": [
+      "42447497",
+      "41954393",
+      "41496948",
+      "41129557",
+      "40994246",
+      "40826091",
+      "40297516",
+      "39502324",
+      "39464728",
+      "39066190",
+      "38497081",
+      "38409704",
+      "36929465",
+      "36101469",
+      "35625559",
+      "35069491"
+    ],
+    "refs": [
+      "32473054",
+      "32455657",
+      "32007275",
+      "31894361",
+      "31739058",
+      "31733244",
+      "31521236",
+      "30976793",
+      "29788355",
+      "29643398",
+      "29425356",
+      "29080786",
+      "28589442",
+      "28232881",
+      "28188244",
+      "27911701",
+      "27867910",
+      "27509095",
+      "27461719",
+      "27387657",
+      "27174932",
+      "26912067",
+      "26578815",
+      "26201486",
+      "25944354",
+      "25803715",
+      "25784874",
+      "25568207",
+      "25391399",
+      "25105980",
+      "24823319",
+      "24753421",
+      "24702702",
+      "24288532",
+      "23826408",
+      "23553817",
+      "23404707",
+      "22721825",
+      "22689782",
+      "22559227",
+      "22485180",
+      "22272333",
+      "21748782",
+      "21501695",
+      "20889377",
+      "20727566",
+      "20522251",
+      "20450483",
+      "20360767",
+      "20107017",
+      "20100603",
+      "19717576",
+      "17913815",
+      "17610154",
+      "17420445",
+      "16876893",
+      "16840692",
+      "16627942",
+      "16618368",
+      "16487562",
+      "16363175",
+      "16275648",
+      "16172482",
+      "16013057",
+      "15955779",
+      "15951806",
+      "15751111",
+      "15738986",
+      "15705335",
+      "15614433",
+      "15351194",
+      "14610202",
+      "12667805",
+      "12477878",
+      "12016304",
+      "11809937",
+      "11447272",
+      "11413127",
+      "11106761",
+      "11093259",
+      "11069984",
+      "11024108",
+      "10877855",
+      "10438807",
+      "10399605",
+      "10026294",
+      "9465035",
+      "9426442",
+      "9343230",
+      "7831839",
+      "7494281",
+      "6874010",
+      "6300434",
+      "6297799",
+      "6268840",
+      "6261959",
+      "5528233",
+      "4970067",
+      "3773767",
+      "3550409",
+      "3029973",
+      "3026646",
+      "2839692",
+      "2741347",
+      "2555175",
+      "2548001",
+      "2422402",
+      "1321444",
+      "1309893"
+    ],
+    "similar": [
+      "34168211",
+      "24027318",
+      "28948956",
+      "22272333",
+      "22763614",
+      "36420436",
+      "29080786",
+      "31739058",
+      "29643398",
+      "31521236",
+      "31043529",
+      "24036128",
+      "15614433",
+      "39066190",
+      "22721825",
+      "20966517",
+      "25944354",
+      "28731002",
+      "27170753",
+      "34533641",
+      "33719450",
+      "26931456",
+      "28882516",
+      "30116984",
+      "36929465",
+      "27748295",
+      "31315998",
+      "36088077",
+      "31894361",
+      "32418904",
+      "17297040",
+      "19091082",
+      "32712910",
+      "17610154",
+      "23847124",
+      "24129026",
+      "19895867",
+      "38842318",
+      "36291645",
+      "32473054",
+      "31425549",
+      "23063516",
+      "29709979",
+      "24752801",
+      "25027088",
+      "27216928",
+      "22116291",
+      "23170892",
+      "28600653",
+      "30001342",
+      "15962804",
+      "38220424",
+      "10595413",
+      "31017674",
+      "29694866",
+      "37517577",
+      "37634152",
+      "30218496",
+      "32828463",
+      "29197511",
+      "30140745",
+      "37005771",
+      "27867910",
+      "19428894",
+      "34656333",
+      "27062995",
+      "29413001",
+      "34233673",
+      "25287424",
+      "32897148",
+      "31460093",
+      "39205298",
+      "26118540",
+      "33866372",
+      "26404759",
+      "34902539",
+      "35325330",
+      "35436286",
+      "35196007",
+      "25031324",
+      "27795419",
+      "23713779",
+      "25424537",
+      "28934129",
+      "20062542",
+      "35421114",
+      "35191833",
+      "34347206",
+      "31781935",
+      "18041027",
+      "27628855",
+      "24713200",
+      "28365882",
+      "28525284",
+      "32543712",
+      "30288194",
+      "34960638",
+      "36948302",
+      "34037421",
+      "16235730",
+      "7787887"
+    ],
+    "review": [
+      "34168211",
+      "31521236",
+      "22721825",
+      "28731002",
+      "27748295",
+      "17610154",
+      "22116291",
+      "23170892",
+      "28600653",
+      "38220424",
+      "32828463",
+      "29413001",
+      "25287424",
+      "39205298",
+      "23713779",
+      "34347206",
+      "24713200",
+      "30288194",
+      "34960638"
+    ],
+    "pmc": [
+      "8225862"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-021-92581-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34168211/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34168211",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.05.627008",
+  "title": "Unambiguous assignment of kinked beta sheets leads to insights into molecular grammar of reversibility in biomolecular condensates",
+  "authors": "Roy I; Appadurai R; Srivastavava A",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-06",
+  "window": {
+    "start": "2024-12-02",
+    "end": "2024-12-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用监督机器学习方法从坐标数据中明确识别无序蛋白/朊病毒样蛋白中的kinked-β片层（LARKS）基序，这些基序介导可逆淀粉样纤维和生物分子凝聚体形成，虽未直接研究PPI，但为相分离中互作的结构机制建模提供了可迁移的AI方法。",
+  "abstract": "Kinked- β sheets are short peptide motifs that appear as distortions in β -strands and often mediate formation of reversible amyloid fibrils in prion-like proteins. Standard methods for assigning secondary structures cannot distinguish these esoteric motifs. Here, we provide a supervised machine learning based structural quantification map to unambiguously characterize Kinked- β sheets from coordinate data. We find that these motifs, although deviating from standard β -strand region of the Ramachandran plot, scatter around the allowed regions. We also demonstrate the applicability of our technique in wresting out LARKS, which are kinked β -strands with designated sequence. Additionally, from our exhaustive simulation generated conformations, we create a repository of potential kinked peptide-segments that can be used as a screening-library for assigning beta-kinks in unresolved coordinate dataset. Overall, our map for Kinked- β provides a robust framework for detailed structural and kinetics investigation of these important motifs in prion-like proteins that lead to formation of amyloid fibrils.",
+  "abstract_zh": "Kinked-β sheets是短肽基序，表现为β-链中的扭曲，并常介导类朊病毒蛋白中可逆淀粉样纤维的形成。标准的二级结构分配方法无法区分这些深奥的基序。在此，我们提供了一种基于监督机器学习的结构量化图谱，以从坐标数据中明确表征Kinked-β sheets。我们发现，这些基序虽然偏离了Ramachandran图的标准β-链区域，但散布在允许区域周围。我们还展示了我们的技术在提取LARKS（即具有指定序列的kinked β-链）方面的适用性。此外，通过我们详尽的模拟生成构象，我们创建了一个潜在kinked肽段库，可用作未解析坐标数据集中分配β-kinks的筛选库。总体而言，我们的Kinked-β图谱为类朊病毒蛋白中这些导致淀粉样纤维形成的重要基序的详细结构和动力学研究提供了稳健框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.05.627008",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.05.627008",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.05.627008/index.html"
+}

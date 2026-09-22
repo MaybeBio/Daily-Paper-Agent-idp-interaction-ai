@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2312.02806v2",
+  "title": "Predicting the morphology of multiphase biomolecular condensates from protein interaction networks",
+  "authors": "Tianhao Li; William M. Jacobs",
+  "journal": "PRX Life 2, 023013 2024",
+  "published_date": "2023-12-05",
+  "window": {
+    "start": "2023-12-04",
+    "end": "2023-12-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用蛋白/RNA互作网络的最小模型结合蒙特卡洛模拟和密度泛函理论，预测多相凝聚体中共享蛋白调控界面润湿转变的形态机制，虽非直接IDP但聚焦相分离PPI网络与物理建模，高度可迁移启发本课题。",
+  "abstract": "Phase-separated biomolecular condensates containing proteins and RNAs can assemble into higher-order structures by forming thermodynamically stable interfaces between immiscible phases. Using a minimal model of a protein/RNA interaction network, we demonstrate how a \"shared\" protein species that partitions into both phases of a multiphase condensate can function as a tunable surfactant that modulates the interfacial properties. We use Monte Carlo simulations and free-energy calculations to identify conditions under which a low concentration of this shared species is sufficient to trigger a wetting transition. We also describe a numerical approach based on classical density functional theory to predict concentration profiles and surface tensions directly from the model protein/RNA interaction network. Finally, we show that the wetting phase diagrams that emerge from our calculations can be understood in terms of a simple model of selective adsorption to a fluctuating interface. Our work shows how a low-concentration protein species might function as a biological switch for regulating multiphase condensate morphologies.",
+  "abstract_zh": "含有蛋白质和RNA的相分离生物分子凝聚体可以通过在不相混溶的相之间形成热力学稳定的界面，组装成更高阶的结构。利用蛋白质/RNA相互作用网络的最小模型，我们展示了如何将一种“共享”蛋白质种类（其分配进入多相凝聚体的两相）作为可调表面活性剂，以调节界面性质。我们使用蒙特卡洛模拟和自由能计算，确定了在何种条件下，低浓度的这种共享种类足以触发润湿转变。我们还描述了一种基于经典密度泛函理论的数值方法，直接从模型蛋白质/RNA相互作用网络预测浓度分布和表面张力。最后，我们表明，从我们的计算中得出的润湿相图可以通过一个简单的选择性吸附到波动界面的模型来理解。我们的工作展示了低浓度蛋白质种类如何可能作为调节多相凝聚体形态的生物开关。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2312.02806v2",
+  "source_url": "https://arxiv.org/abs/2312.02806v2",
+  "paper_page_path": "papers/arxiv/2312.02806v2/index.html"
+}

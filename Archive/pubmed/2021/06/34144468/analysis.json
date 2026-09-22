@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34144468",
+  "title": "Biophysical studies of phase separation integrating experimental and computational methods.",
+  "authors": "Fawzi, Nicolas L; Parekh, Sapun H; Mittal, Jeetain",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2021-06-19",
+  "window": {
+    "start": "2021-06-14",
+    "end": "2021-06-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述整合NMR与粗粒化/全原子分子模拟等计算方法，探讨相分离凝聚体中分子与原子级相互作用机制，虽非聚焦特定PPI预测，但为无序蛋白介导的互作机制建模提供了可迁移的方法学框架。",
+  "abstract": "Biomolecular phase separation that contributes to the formation of membraneless organelles and biomolecular condensates has recently gained tremendous attention because of the importance of these assemblies in physiology, disease, and engineering applications. Understanding and directing biomolecular phase separation requires a multiscale view of the biophysical properties of these phases. Yet, many classic tools to characterize biomolecular properties do not apply in these condensed phases. Here, we discuss insights obtained from spectroscopic methods, in particular nuclear magnetic resonance and optical spectroscopy, in understanding the molecular and atomic interactions that underlie the formation of protein-rich condensates. We also review approaches closely coupling nuclear magnetic resonance data with computational methods especially coarse-grained and all-atom molecular simulations, which provide insight into molecular features of phase separation. Finally, we point to future methodolical developments, particularly visualizing biophysical properties of condensates in cells.",
+  "abstract_zh": "生物分子相分离（phase separation）有助于形成无膜细胞器和生物分子凝聚体，近年来因其在生理、疾病及工程应用中的重要性而受到极大关注。理解和调控生物分子相分离需要对这些相的生物物理特性进行多尺度观察。然而，许多用于表征生物分子特性的经典工具并不适用于这些凝聚相。在此，我们讨论了通过光谱方法，特别是核磁共振（nuclear magnetic resonance）和光学光谱，所获得的关于理解富含蛋白质凝聚体形成背后分子及原子相互作用的见解。我们还回顾了将核磁共振数据与计算方法，尤其是粗粒化和全原子分子模拟（molecular simulations）紧密耦合的方法，这些方法为相分离的分子特征提供了洞见。最后，我们指出了未来方法学发展的方向，特别是可视化细胞内凝聚体的生物物理特性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34144468/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34144468/",
+  "paper_page_path": "papers/pubmed/34144468/index.html"
+}

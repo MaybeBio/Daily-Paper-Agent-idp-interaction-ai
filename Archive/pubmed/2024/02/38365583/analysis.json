@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38365583",
+  "title": "Drug-target affinity prediction with extended graph learning-convolutional networks.",
+  "authors": "Qi, Haiou; Yu, Ting; Yu, Wenwen; Liu, Chenxi",
+  "journal": "BMC bioinformatics",
+  "published_date": "2024-02-17",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出GLCN-DTA模型，用图学习模块优化药物-靶标亲和力预测中的图卷积表示，虽涉及PPI相关亲和力预测和AI方法，但对象非IDP且未关注互作机制建模，仅对无序蛋白场景有潜在可迁移性。",
+  "abstract": "BACKGROUND: High-performance computing plays a pivotal role in computer-aided drug design, a field that holds significant promise in pharmaceutical research. The prediction of drug-target affinity (DTA) is a crucial stage in this process, potentially accelerating drug development through rapid and extensive preliminary compound screening, while also minimizing resource utilization and costs. Recently, the incorporation of deep learning into DTA prediction and the enhancement of its accuracy have emerged as key areas of interest in the research community. Drugs and targets can be characterized through various methods, including structure-based, sequence-based, and graph-based representations. Despite the progress in structure and sequence-based techniques, they tend to provide limited feature information. Conversely, graph-based approaches have risen to prominence, attracting considerable attention for their comprehensive data representation capabilities. Recent studies have focused on constructing protein and drug molecular graphs using sequences and SMILES, subsequently deriving representations through graph neural networks. However, these graph-based approaches are limited by the use of a fixed adjacent matrix of protein and drug molecular graphs for graph convolution. This limitation restricts the learning of comprehensive feature representations from intricate compound and protein structures, consequently impeding the full potential of graph-based feature representation in DTA prediction. This, in turn, significantly impacts the models' generalization capabilities in the complex realm of drug discovery. RESULTS: To tackle these challenges, we introduce GLCN-DTA, a model specifically designed for proficiency in DTA tasks. GLCN-DTA innovatively integrates a graph learning module into the existing graph architecture. This module is designed to learn a soft adjacent matrix, which effectively and efficiently refines the contextual structure of protein and drug molecular graphs. This advancement allows for learning richer structural information from protein and drug molecular graphs via graph convolution, specifically tailored for DTA tasks, compared to the conventional fixed adjacent matrix approach. A series of experiments have been conducted to validate the efficacy of the proposed GLCN-DTA method across diverse scenarios. The results demonstrate that GLCN-DTA possesses advantages in terms of robustness and high accuracy. CONCLUSIONS: The proposed GLCN-DTA model enhances DTA prediction performance by introducing a novel framework that synergizes graph learning operations with graph convolution operations, thereby achieving richer representations. GLCN-DTA does not distinguish between different protein classifications, including structurally ordered and intrinsically disordered proteins, focusing instead on improving feature representation. Therefore, its applicability scope may be more effective in scenarios involving structurally ordered proteins, while potentially being limited in contexts with intrinsically disordered proteins.",
+  "abstract_zh": "背景：高性能计算在计算机辅助药物设计中扮演着关键角色，这一领域在药物研究中具有巨大潜力。药物-靶点亲和力（DTA）的预测是该过程中的关键阶段，通过快速且广泛的初步化合物筛选，可能加速药物开发，同时最小化资源利用和成本。近年来，将深度学习融入DTA预测并提升其准确性已成为研究界关注的核心领域。药物和靶点可通过多种方法进行表征，包括基于结构、基于序列和基于图的方法。尽管基于结构和序列的技术取得了进展，但它们往往提供有限的特征信息。相反，基于图的方法已崭露头角，因其全面的数据表征能力而受到广泛关注。近期研究聚焦于利用序列和SMILES构建蛋白质和药物分子图，随后通过图神经网络（graph neural networks）获取表征。然而，这些基于图的方法受限于使用蛋白质和药物分子图的固定邻接矩阵进行图卷积。这一限制阻碍了从复杂化合物和蛋白质结构中学习全面特征表征的能力，从而抑制了基于图的特征表征在DTA预测中的全部潜力。这反过来又显著影响了模型在复杂药物发现领域中的泛化能力。结果：为应对这些挑战，我们引入了GLCN-DTA，一个专为DTA任务设计的模型。GLCN-DTA创新性地将图学习模块集成到现有图架构中。该模块旨在学习一个软邻接矩阵，有效且高效地细化蛋白质和药物分子图的上下文结构。这一进展使得通过图卷积从蛋白质和药物分子图中学习更丰富的结构信息成为可能，特别针对DTA任务定制，相较于传统的固定邻接矩阵方法。我们进行了一系列实验，以验证所提出的GLCN-DTA方法在不同场景下的有效性。结果表明，GLCN-DTA在鲁棒性和高准确性方面具有优势。结论：所提出的GLCN-DTA模型通过引入一个将图学习操作与图卷积操作协同作用的新框架，增强了DTA预测性能，从而实现更丰富的表征。GLCN-DTA不区分不同蛋白质类别，包括结构有序和内在无序蛋白质，而是专注于改进特征表征。因此，其适用范围可能在涉及结构有序蛋白质的场景中更为有效，而在涉及内在无序蛋白质的上下文中可能受限。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38365583/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38365583/",
+  "paper_page_path": "papers/pubmed/38365583/index.html"
+}

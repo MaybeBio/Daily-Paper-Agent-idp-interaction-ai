@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2509.24686v1",
+  "title": "Robust Majorana Platform Driven by a Meissner-Induced Anisotropic Doppler Shift",
+  "authors": "Xiao-Hong Pan; Si-Qi Yu; Li Chen; Fu-Chun Zhang; Xin Liu",
+  "journal": "",
+  "published_date": "2025-09-29",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究超导/拓扑绝缘体纳米线中的马约拉纳零模平台，与无序蛋白互作及AI/物理模拟方法无关，无可迁移启发。",
+  "abstract": "The realization of robust Majorana zero modes (MZMs), a cornerstone for fault-tolerant quantum computing, is hindered by the challenge of creating a platform that simultaneously offers a large topological gap, high tunability, and resilience to disorder. A system unifying these properties has remained elusive. Here, we propose and validate a novel platform that harnesses the Meissner effect in a topological insulator (TI) nanowire partially covered by a superconducting (SC) layer. Under an external magnetic field, Meissner screening currents in the SC induce a spatially varying Doppler shift on the TI surface. This effect generates a highly anisotropic effective g-factor, which selectively drives a topological phase transition localized on the nanowire's bottom surface. This mechanism is crucial as it spatially separates the topological phase from the SC/TI interface, permitting strong proximity-induced superconductivity while preventing detrimental band renormalization at the interface from closing the topological gap. Furthermore, by confining the topological superconducting phase to the gate-tunable bottom surface, our platform fully leverages the intrinsic disorder resilience of the TI's topologically protected surface states. Through a combination of supercurrent simulations, self-consistent Schrödinger-Poisson calculations, and large-scale tight-binding computations, we validate the platform's robustness. Our work establishes a practical pathway toward Meissner-mediated topological superconductivity for realizing robust MZMs in SC/TI hybrid systems.",
+  "abstract_zh": "鲁棒马约拉纳零模（MZMs）的实现是容错量子计算的基石，但其受到平台构建挑战的阻碍，该平台需同时具备大拓扑间隙、高可调性以及对无序的鲁棒性。一个统一这些特性的系统至今仍难以实现。在此，我们提出并验证了一种新型平台，该平台利用拓扑绝缘体（TI）纳米线部分覆盖超导（SC）层时的迈斯纳效应。在外加磁场下，超导中的迈斯纳屏蔽电流在TI表面诱导出空间变化的多普勒频移。这一效应产生高度各向异性的有效g因子，选择性地驱动纳米线底表面局域的拓扑相变。该机制至关重要，因为它将拓扑相与SC/TI界面在空间上分离，从而允许强近邻诱导超导性，同时防止界面处有害的能带重整化关闭拓扑间隙。此外，通过将拓扑超导相限制在栅极可调的底表面，我们的平台充分利用了TI拓扑保护表面态固有的无序鲁棒性。通过超流模拟、自洽薛定谔-泊松计算以及大规模紧束缚计算的结合，我们验证了该平台的鲁棒性。我们的工作为在SC/TI混合系统中实现鲁棒MZMs，建立了一条迈向迈斯纳介导拓扑超导性的实用路径。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2509.24686v1",
+  "source_url": "https://arxiv.org/abs/2509.24686v1",
+  "paper_page_path": "papers/arxiv/2509.24686v1/index.html"
+}

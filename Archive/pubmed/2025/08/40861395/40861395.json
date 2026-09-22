@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "40861395",
+    "doi": "10.1093/bioadv/vbaf142",
+    "title": "The TEMPO integrator: accelerating molecular simulations by temporally multiscale force prediction."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Molecular dynamics (MD) simulations enable the study of complex biomolecular processes by integrating system forces over time, but their computational inefficiency limits application at relevant scales. Enhanced sampling methods often sacrifice kinetic detail and require prior knowledge of the energy landscape. RESULTS: We developed the temporally multiscale prediction (TEMPO) Integrator, significantly reducing the number of force evaluations per simulated time unit by predicting forces at progressively larger intervals, thus boosting force-call efficiency. We incorporated the TEMPO integrator in a multiscale Brownian dynamics (MSBD) simulation tool. Compared with standard Brownian dynamics using the Euler-Maruyama integrator, our benchmarks of MSBD demonstrated 27- to 32-fold efficiency improvements for intrinsically disordered protein models and a seven-fold gain for nucleocytoplasmic transport through the nuclear pore complex (NPC), a critical cellular process in health and disease. Unlike conventional enhanced sampling, MSBD preserves kinetic properties, such as reaction rates, without relying on prior system knowledge or predefined reaction coordinates. By leveraging the inherently multiscale structure of energy landscapes, MSBD facilitates rapid molecular simulations while maintaining their accuracy. TEMPO's flexible framework is generalizable to various biomolecular systems and could complement existing enhanced sampling methods, facilitating efficient exploration of energy landscapes or complex dynamical processes. AVAILABILITY AND IMPLEMENTATION: https://github.com/ravehlab/tempo.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mintz, Reshef",
+        "Raveh, Barak"
+      ],
+      "short_names": [
+        "Mintz R",
+        "Raveh B"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-8987-4711"
+      ],
+      "affiliations": [
+        "School of Computer Science and Engineering, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel.",
+        "School of Computer Science and Engineering, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mintz, Reshef",
+        "short_name": "Mintz R",
+        "identifiers": [
+          "0009-0008-8987-4711"
+        ],
+        "affiliations": [
+          "School of Computer Science and Engineering, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel."
+        ]
+      },
+      {
+        "full_name": "Raveh, Barak",
+        "short_name": "Raveh B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics advances"
+    ],
+    "journal_abbrev": [
+      "Bioinform Adv"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/27 20:47",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [
+      "41288964"
+    ],
+    "refs": [
+      "39826544",
+      "39475712",
+      "39412378",
+      "37688551",
+      "37232497",
+      "37099395",
+      "36050301",
+      "35892075",
+      "35563535",
+      "34322491",
+      "33816053",
+      "32882859",
+      "32145944",
+      "31488660",
+      "31448259",
+      "31438687",
+      "30336018",
+      "30236283",
+      "29539637",
+      "29295994",
+      "28225081",
+      "27697925",
+      "27091992",
+      "24103070",
+      "22577825",
+      "22545654",
+      "21673865",
+      "19548767",
+      "18075575",
+      "17569554",
+      "16895325",
+      "16338415",
+      "15837197",
+      "15677316",
+      "12198485",
+      "12067655",
+      "10801360"
+    ],
+    "similar": [
+      "40861395",
+      "41288964",
+      "24387356",
+      "38688076",
+      "34624993",
+      "38018910",
+      "31680510",
+      "32145946",
+      "29204882",
+      "35026115",
+      "35679397",
+      "38039424",
+      "23912807",
+      "26389113",
+      "28870809",
+      "41310253",
+      "33382616",
+      "26441670",
+      "32696368",
+      "19754142",
+      "41427731",
+      "32914959",
+      "39913331",
+      "32145945",
+      "30134720",
+      "38023523",
+      "37823459",
+      "28510144",
+      "37131742",
+      "34064655",
+      "29667836",
+      "41191495",
+      "25176255",
+      "40193850",
+      "41165096",
+      "25450171",
+      "23754431",
+      "23249062",
+      "29732110",
+      "37854635",
+      "30368832",
+      "39085770",
+      "22411308",
+      "38506664",
+      "28330367",
+      "41001960",
+      "36610324",
+      "33961401",
+      "31241896",
+      "27586910",
+      "29141429",
+      "41129692",
+      "27279779",
+      "40544328",
+      "33577557",
+      "41045218",
+      "19508057",
+      "40823881",
+      "38718352",
+      "23215032",
+      "39124960",
+      "31547973",
+      "28389716",
+      "40575320",
+      "26269925",
+      "39475712",
+      "37671178",
+      "33376207",
+      "40339149",
+      "18412407",
+      "41252524",
+      "40568793",
+      "33574233",
+      "23819559",
+      "30840442",
+      "36109928",
+      "36719802",
+      "40962313",
+      "38865491",
+      "34520198",
+      "34680048",
+      "40372445",
+      "30530696",
+      "26613320",
+      "41210784",
+      "17212515",
+      "30250773",
+      "32199430",
+      "33629765",
+      "36260782",
+      "29113819",
+      "31541299",
+      "32315175",
+      "40397856",
+      "40179097",
+      "35051666",
+      "40314294",
+      "35968960",
+      "24184215",
+      "26575776"
+    ],
+    "review": [
+      "40861395",
+      "38688076",
+      "31680510",
+      "29204882",
+      "26389113",
+      "26441670",
+      "28510144",
+      "34064655",
+      "25450171",
+      "40544328",
+      "37671178",
+      "30840442",
+      "34680048",
+      "29113819",
+      "40179097"
+    ],
+    "pmc": [
+      "12377907"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40861395/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3993",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformaticsadvances/article-lookup/doi/10.1093/bioadv/vbaf142",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

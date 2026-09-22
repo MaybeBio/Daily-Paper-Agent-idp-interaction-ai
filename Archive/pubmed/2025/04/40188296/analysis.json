@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40188296",
+  "title": "Backbone-mediated weakening of pairwise interactions enables percolation in peptide-based mimics of protein condensates.",
+  "authors": "Zeng, Xiangze; Pappu, Rohit V",
+  "journal": "Communications chemistry",
+  "published_date": "2025-04-06",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用全原子MD模拟和blob模型，揭示肽骨架通过削弱致密相中成对相互作用实现渗流网络，为无序蛋白凝聚体中的互作机制建模提供了关键物理洞见。",
+  "abstract": "Biomolecular condensates formed by intrinsically disordered proteins (IDPs) are semidilute solutions. These can be approximated as solutions of blob-sized segments, which are peptide-sized motifs. We leveraged the blob picture and molecular dynamics simulations to quantify differences between inter-residue interactions in model compound and peptide-based mimics of dense versus dilute phases. The all-atom molecular dynamics simulations use a polarizable forcefield. In model compound solutions, the interactions between aromatic residues are stronger than interactions between cationic and aromatic residues. This holds in dilute and dense phases. Cooperativity within dense phases enhances pairwise interactions leading to finite-sized nanoscale clusters. The results for peptide-based condensates paint a different picture. Backbone amides add valence to the associating molecules. While this enhances pairwise inter-residue interactions in dilute phases, it weakens pair interactions in dense phases, doing so in a concentration-dependent manner. Weakening of pair interactions enables fluidization characterized by short-range order and long-range disorder. The higher valence afforded by the peptide backbone generates system-spanning networks. As a result, dense phases of peptides are best described as percolated network fluids. Overall, our results show how peptide backbones enhance pairwise interactions in dilute phases while weakening these interactions to enable percolation within dense phases.",
+  "abstract_zh": "由固有无序蛋白（IDPs）形成的生物分子凝聚体是半稀释溶液。这些可近似为由blob尺寸片段组成的溶液，这些片段是肽大小的基序。我们利用blob图像和分子动力学模拟来量化模型化合物和基于肽的模拟物中，致密相与稀释相之间残基间相互作用的差异。全原子分子动力学模拟使用极化力场。在模型化合物溶液中，芳香族残基之间的相互作用强于阳离子与芳香族残基之间的相互作用。这一结论在稀释相和致密相中均成立。致密相内的协同性增强了成对相互作用，导致形成有限尺寸的纳米级簇。基于肽的凝聚体结果呈现不同图景。主链酰胺为缔合分子增加了价态。虽然这增强了稀释相中的成对残基间相互作用，但在致密相中却削弱了成对相互作用，且这种削弱具有浓度依赖性。成对相互作用的减弱实现了以短程有序和长程无序为特征的流态化。肽主链提供的更高价态生成了系统跨越网络。因此，肽的致密相最好描述为渗流网络流体。总体而言，我们的结果表明，肽主链在稀释相中增强成对相互作用，同时在致密相中削弱这些相互作用以促进渗流。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40188296/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40188296/",
+  "paper_page_path": "papers/pubmed/40188296/index.html"
+}

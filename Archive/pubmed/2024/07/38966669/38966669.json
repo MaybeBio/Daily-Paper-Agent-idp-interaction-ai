@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "38966669",
+    "doi": "10.1039/d4cb00075g",
+    "title": "Insights into docking in megasynthases from the investigation of the toblerol trans-AT polyketide synthase: many alpha-helical means to an end."
+  },
+  "content": {
+    "abstract": "The fidelity of biosynthesis by modular polyketide synthases (PKSs) depends on specific moderate affinity interactions between successive polypeptide subunits mediated by docking domains (DDs). These sequence elements are notably portable, allowing their transplantation into alternative biosynthetic and metabolic contexts. Herein, we use integrative structural biology to characterize a pair of DDs from the toblerol trans-AT PKS. Both are intrinsically disordered regions (IDRs) that fold into a 3 alpha-helix docking complex of unprecedented topology. The C-terminal docking domain ((C)DD) resembles the 4 alpha-helix type (4HB) (C)DDs, which shows that the same type of DD can be redeployed to form complexes of distinct geometry. By carefully re-examining known DD structures, we further extend this observation to type 2 docking domains, establishing previously unsuspected structural relations between DD types. Taken together, these data illustrate the plasticity of alpha-helical DDs, which allow the formation of a diverse topological spectrum of docked complexes. The newly identified DDs should also find utility in modular PKS genetic engineering.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Scat, Serge",
+        "Weissman, Kira J",
+        "Chagot, Benjamin"
+      ],
+      "short_names": [
+        "Scat S",
+        "Weissman KJ",
+        "Chagot B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8976-0553",
+        "ORCID: 0000-0002-3012-2960",
+        "ORCID: 0000-0002-9153-0060"
+      ],
+      "affiliations": [
+        "Universite de Lorraine, CNRS, IMoPA F-54000 Nancy France kira.weissman@univ-lorraine.fr benjamin.chagot@univ-lorraine.fr.",
+        "Universite de Lorraine, CNRS, IMoPA F-54000 Nancy France kira.weissman@univ-lorraine.fr benjamin.chagot@univ-lorraine.fr.",
+        "Universite de Lorraine, CNRS, IMoPA F-54000 Nancy France kira.weissman@univ-lorraine.fr benjamin.chagot@univ-lorraine.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Scat, Serge",
+        "short_name": "Scat S",
+        "identifiers": [
+          "0000-0002-8976-0553"
+        ],
+        "affiliations": [
+          "Université de Lorraine, CNRS, IMoPA F-54000 Nancy France kira.weissman@univ-lorraine.fr benjamin.chagot@univ-lorraine.fr."
+        ]
+      },
+      {
+        "full_name": "Weissman, Kira J",
+        "short_name": "Weissman KJ",
+        "identifiers": [
+          "0000-0002-3012-2960"
+        ],
+        "affiliations": [
+          "Université de Lorraine, CNRS, IMoPA F-54000 Nancy France kira.weissman@univ-lorraine.fr benjamin.chagot@univ-lorraine.fr."
+        ]
+      },
+      {
+        "full_name": "Chagot, Benjamin",
+        "short_name": "Chagot B",
+        "identifiers": [
+          "0000-0002-9153-0060"
+        ],
+        "affiliations": [
+          "Université de Lorraine, CNRS, IMoPA F-54000 Nancy France kira.weissman@univ-lorraine.fr benjamin.chagot@univ-lorraine.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "RSC chemical biology"
+    ],
+    "journal_abbrev": [
+      "RSC Chem Biol"
+    ],
+    "pub_date": "2024 Jul 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/05 06:42",
+    "fetched_at": "2026-09-21 08:26:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36699409",
+      "36408920",
+      "36130947",
+      "36038728",
+      "35900023",
+      "35082289",
+      "34378565",
+      "34265844",
+      "34048569",
+      "33876501",
+      "33658492",
+      "33315308",
+      "32918646",
+      "32717326",
+      "32167274",
+      "31900404",
+      "31548674",
+      "31469555",
+      "31251384",
+      "30352491",
+      "30341296",
+      "29444491",
+      "29309054",
+      "29112783",
+      "27663422",
+      "27362945",
+      "26982529",
+      "26794349",
+      "26689670",
+      "25505092",
+      "24183970",
+      "24010715",
+      "23990168",
+      "23728592",
+      "22530732",
+      "21988835",
+      "21375717",
+      "21167176",
+      "20057044",
+      "19619887",
+      "19437523",
+      "19146481",
+      "18996896",
+      "18223641",
+      "18066054",
+      "18054235",
+      "17907798",
+      "17893358",
+      "17186527",
+      "16895337",
+      "16844787",
+      "16248604",
+      "16200636",
+      "16156658",
+      "15958783",
+      "15476259",
+      "12954331",
+      "12598647",
+      "12495031",
+      "12381784",
+      "12051947",
+      "11548049",
+      "10869041",
+      "10493868",
+      "10493861",
+      "9008363",
+      "7919956",
+      "2692701"
+    ],
+    "similar": [
+      "38966669",
+      "32717326",
+      "26982529",
+      "31469555",
+      "38908377",
+      "16470766",
+      "19360130",
+      "19437523",
+      "27362945",
+      "26549236",
+      "24183970",
+      "37272717",
+      "33640957",
+      "9729415",
+      "30394635",
+      "29309054",
+      "11404016",
+      "22803697",
+      "30682239",
+      "12954331",
+      "12824387",
+      "10662693",
+      "12691745",
+      "32167274",
+      "37403433",
+      "20444870",
+      "11755398",
+      "36917986",
+      "36130947",
+      "19146481",
+      "35020279",
+      "18066054",
+      "31504190",
+      "27007632",
+      "26769357",
+      "28211202",
+      "31218924",
+      "26420866",
+      "29218151",
+      "22639887",
+      "31115703",
+      "30341296",
+      "36711755",
+      "36899013",
+      "37057992",
+      "11162234",
+      "34760152",
+      "30173771",
+      "21183648",
+      "11137814",
+      "19362640",
+      "30787330",
+      "20332208",
+      "26611533",
+      "35602042",
+      "17907798",
+      "27266330",
+      "29040649",
+      "27548700",
+      "32146323",
+      "37216334",
+      "11251290",
+      "12515555",
+      "32327206",
+      "29925265",
+      "20666435",
+      "9375254",
+      "25757401",
+      "24048471",
+      "28238725",
+      "33876501",
+      "21775938",
+      "17071746",
+      "9331407",
+      "27245558",
+      "18283606",
+      "27791103",
+      "9195917",
+      "17764579",
+      "17893358",
+      "35501288",
+      "30022008",
+      "24557077",
+      "37218580",
+      "11048953",
+      "9710562",
+      "19362638",
+      "37074142",
+      "18613748",
+      "23912807",
+      "28694866",
+      "28484029",
+      "19619887",
+      "11774001",
+      "28240912",
+      "10508677"
+    ],
+    "review": [
+      "38966669",
+      "26549236",
+      "33640957",
+      "31218924",
+      "11162234",
+      "27266330",
+      "29925265",
+      "25757401",
+      "21775938",
+      "27245558",
+      "18283606",
+      "30022008",
+      "24557077",
+      "28694866",
+      "19619887"
+    ],
+    "pmc": [
+      "11221535"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38966669/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d4cb00075g",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1339",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

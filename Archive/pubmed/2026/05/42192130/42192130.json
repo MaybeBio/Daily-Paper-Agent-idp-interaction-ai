@@ -1,0 +1,538 @@
+{
+  "identity": {
+    "pmid": "42192130",
+    "doi": "10.1038/s44318-026-00814-z",
+    "title": "Phosphorylation tunes strain-specific protein condensation during rotavirus replication organelle assembly."
+  },
+  "content": {
+    "abstract": "In many viruses, intrinsically disordered proteins (IDPs) drive the formation of replicative organelles via liquid-liquid phase separation (LLPS). In species A rotaviruses, the disordered protein NSP5 forms condensates with NSP2, but its high sequence diversity raises questions about whether this mechanism is conserved across strains. Using a machine learning approach, we show that NSP5 variants differ significantly in LLPS propensity. We engineered an NSP5 variant with features derived from strains with low-LLPS propensity (low-LLPS). Despite lacking the ability to phase separate in vitro unless phosphorylated, this variant nevertheless supported condensate formation and viral replication in cells. We found that low-LLPS variants require phosphorylation to nucleate phase separation, whereas high-LLPS variants do not, suggesting distinct nucleation mechanisms between viral strains. Hydrogen-deuterium exchange mass spectrometry revealed a phosphorylation-driven allosteric switch that alters NSP2 interactions depending on the NSP5 variant. These findings suggest that phosphorylation plays a context-dependent role in condensate formation, tuning NSP5-NSP2 interactions in a strain-specific manner and highlighting the mechanistic diversity underpinning replicative organelle formation among viral strains.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Rotavirus/physiology/genetics",
+      "Phosphorylation",
+      "*Viral Nonstructural Proteins/metabolism/genetics/chemistry",
+      "*Virus Replication",
+      "Phase Separation",
+      "*Intrinsically Disordered Proteins/metabolism/genetics",
+      "*Organelles/metabolism",
+      "Animals",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Acker, Julia",
+        "Wang, Xinyu",
+        "Pardal, Alonso J",
+        "Desiro, Daniel",
+        "Agarwal, Tanushree",
+        "Colyer, Alice",
+        "Tollervey, Aidan",
+        "Scrutton, Rob",
+        "Haller, Cyril",
+        "Sherry, Lee",
+        "Saar, Kadi L",
+        "Fominykh, Ksenia",
+        "Johncock, Margaret L L Y",
+        "Chong, Sai Hou",
+        "Murray, Rosie",
+        "Terry, Jamie",
+        "Schmit, Jeremy D",
+        "Calabrese, Antonio N",
+        "Knowles, Tuomas P J",
+        "Borodavka, Alexander"
+      ],
+      "short_names": [
+        "Acker J",
+        "Wang X",
+        "Pardal AJ",
+        "Desiro D",
+        "Agarwal T",
+        "Colyer A",
+        "Tollervey A",
+        "Scrutton R",
+        "Haller C",
+        "Sherry L",
+        "Saar KL",
+        "Fominykh K",
+        "Johncock MLLY",
+        "Chong SH",
+        "Murray R",
+        "Terry J",
+        "Schmit JD",
+        "Calabrese AN",
+        "Knowles TPJ",
+        "Borodavka A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6422-6514",
+        "ORCID: 0009-0001-5270-9420",
+        "ORCID: 0000-0002-4367-772X",
+        "ORCID: 0000-0003-0788-514X",
+        "ORCID: 0000-0003-0643-1795",
+        "ORCID: 0009-0001-7137-5593",
+        "ORCID: 0000-0003-2437-7761",
+        "ORCID: 0000-0002-5729-2687"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+        "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+        "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+        "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+        "Robert Koch Institute, Berlin, Germany.",
+        "Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, UK.",
+        "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+        "The Sir William Dunn School of Pathology, University of Oxford, Oxford, UK.",
+        "Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+        "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+        "School of Infection & Immunity, University of Glasgow, Glasgow, UK.",
+        "Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+        "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+        "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+        "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+        "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+        "Department of Physics, Kansas State University, Manhattan, KS, USA.",
+        "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, UK.",
+        "Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK. alexander.borodavka@path.ox.ac.uk.",
+        "The Sir William Dunn School of Pathology, University of Oxford, Oxford, UK. alexander.borodavka@path.ox.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Acker, Julia",
+        "short_name": "Acker J",
+        "identifiers": [
+          "0000-0002-6422-6514"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinyu",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Pardal, Alonso J",
+        "short_name": "Pardal AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Desirò, Daniel",
+        "short_name": "Desirò D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+          "Robert Koch Institute, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Agarwal, Tanushree",
+        "short_name": "Agarwal T",
+        "identifiers": [
+          "0009-0001-5270-9420"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Colyer, Alice",
+        "short_name": "Colyer A",
+        "identifiers": [],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, UK."
+        ]
+      },
+      {
+        "full_name": "Tollervey, Aidan",
+        "short_name": "Tollervey A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+          "The Sir William Dunn School of Pathology, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Scrutton, Rob",
+        "short_name": "Scrutton R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Haller, Cyril",
+        "short_name": "Haller C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Sherry, Lee",
+        "short_name": "Sherry L",
+        "identifiers": [
+          "0000-0002-4367-772X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK.",
+          "School of Infection & Immunity, University of Glasgow, Glasgow, UK."
+        ]
+      },
+      {
+        "full_name": "Saar, Kadi L",
+        "short_name": "Saar KL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Fominykh, Ksenia",
+        "short_name": "Fominykh K",
+        "identifiers": [
+          "0000-0003-0788-514X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Johncock, Margaret L L Y",
+        "short_name": "Johncock MLLY",
+        "identifiers": [
+          "0000-0003-0643-1795"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Chong, Sai Hou",
+        "short_name": "Chong SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Murray, Rosie",
+        "short_name": "Murray R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Terry, Jamie",
+        "short_name": "Terry J",
+        "identifiers": [
+          "0009-0001-7137-5593"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Schmit, Jeremy D",
+        "short_name": "Schmit JD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Kansas State University, Manhattan, KS, USA."
+        ]
+      },
+      {
+        "full_name": "Calabrese, Antonio N",
+        "short_name": "Calabrese AN",
+        "identifiers": [
+          "0000-0003-2437-7761"
+        ],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, UK."
+        ]
+      },
+      {
+        "full_name": "Knowles, Tuomas P J",
+        "short_name": "Knowles TPJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Borodavka, Alexander",
+        "short_name": "Borodavka A",
+        "identifiers": [
+          "0000-0002-5729-2687"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Department of Chemical Engineering and Biotechnology, University of Cambridge, Cambridge, UK. alexander.borodavka@path.ox.ac.uk.",
+          "The Sir William Dunn School of Pathology, University of Oxford, Oxford, UK. alexander.borodavka@path.ox.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The EMBO journal"
+    ],
+    "journal_abbrev": [
+      "EMBO J"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/27 00:30",
+    "fetched_at": "2026-09-18 03:38:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40521608",
+      "39194242",
+      "38597606",
+      "38177504",
+      "38139191",
+      "38042897",
+      "37935659",
+      "37824531",
+      "37774136",
+      "37330280",
+      "37155880",
+      "37047451",
+      "37040799",
+      "36987846",
+      "36749077",
+      "36700549",
+      "36543777",
+      "36250941",
+      "36227469",
+      "35758692",
+      "35412617",
+      "35168563",
+      "34615715",
+      "34524703",
+      "34265844",
+      "33885785",
+      "33827920",
+      "33483232",
+      "33395293",
+      "32828463",
+      "32320662",
+      "32029630",
+      "32004090",
+      "31906602",
+      "31619556",
+      "30649183",
+      "30509975",
+      "30358807",
+      "30181255",
+      "29961577",
+      "29634920",
+      "29192926",
+      "28922109",
+      "28794037",
+      "28225081",
+      "27749929",
+      "27374333",
+      "26791895",
+      "26678709",
+      "25392756",
+      "25288112",
+      "24845231",
+      "24293817",
+      "24198401",
+      "23783631",
+      "23329690",
+      "22743772",
+      "22368248",
+      "21864538",
+      "21368180",
+      "21114853",
+      "20525638",
+      "20203666",
+      "20036292",
+      "19460965",
+      "18289986",
+      "17872534",
+      "17699573",
+      "17522259",
+      "17494761",
+      "17182692",
+      "16928740",
+      "15994560",
+      "15520389",
+      "14993647",
+      "14675554",
+      "12015608",
+      "11524371",
+      "11262942",
+      "11121414",
+      "10675420",
+      "10592235",
+      "10073692",
+      "9820143",
+      "9658080",
+      "8985332",
+      "6165991"
+    ],
+    "similar": [
+      "42192130",
+      "40475503",
+      "31619556",
+      "32461314",
+      "36749077",
+      "34524703",
+      "34372555",
+      "24198401",
+      "40521608",
+      "30509975",
+      "33053412",
+      "10073692",
+      "31915278",
+      "39194242",
+      "9820143",
+      "17872534",
+      "41524628",
+      "41264624",
+      "42383738",
+      "15010217",
+      "33260713",
+      "41085289",
+      "38322526",
+      "20200190",
+      "34569635",
+      "15831961",
+      "15914838",
+      "17182692",
+      "29511089",
+      "16928740",
+      "14993647",
+      "17825341",
+      "20036292",
+      "41363845",
+      "23193175",
+      "39494903",
+      "36768473",
+      "11967345",
+      "38793550",
+      "38446061",
+      "39194247",
+      "33923223",
+      "37796176",
+      "23970830",
+      "14581555",
+      "41457474",
+      "38526948",
+      "28794037",
+      "20335253",
+      "25165107",
+      "34951585",
+      "8985320",
+      "38252962",
+      "17699573",
+      "38932107",
+      "15520389",
+      "10466806",
+      "16873255",
+      "41535729",
+      "23926336",
+      "40588121",
+      "32174300",
+      "39987501",
+      "38356260",
+      "35191833",
+      "34291921",
+      "40515902",
+      "10675420",
+      "39947751",
+      "16439537",
+      "31375591",
+      "35142991",
+      "12951038",
+      "35883530",
+      "25231315",
+      "11884570",
+      "34379449",
+      "9645203",
+      "8551639",
+      "31444270",
+      "28924037",
+      "32371601",
+      "36350034",
+      "41544898",
+      "42106138",
+      "17072471",
+      "12525609",
+      "15483242",
+      "14699117",
+      "42159288",
+      "31739058",
+      "12376752",
+      "30258001",
+      "31941785",
+      "41206632",
+      "18032499",
+      "42214054",
+      "33081049",
+      "34076483",
+      "34984754"
+    ],
+    "review": [
+      "42192130",
+      "34372555",
+      "33053412",
+      "15010217",
+      "33260713",
+      "38793550",
+      "38932107",
+      "34291921",
+      "39947751",
+      "35142991",
+      "31444270",
+      "36350034",
+      "41544898"
+    ],
+    "pmc": [
+      "13324165"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s44318-026-00814-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42192130/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

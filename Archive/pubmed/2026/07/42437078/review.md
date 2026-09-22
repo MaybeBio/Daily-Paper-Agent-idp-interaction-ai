@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, tables, figure legend) as provided
+- **Assessment boundary** Scientific content, conceptual framing, internal consistency, support for stated claims, and alignment with review-article standards. Not assessed: language editing, reference formatting, or journal fit.
+- **Shared manuscript claim summary** The manuscript argues that intrinsically disordered proteins (IDPs) and regions (IDRs) fundamentally challenge the classical structure-function paradigm, and that their conformational plasticity enables essential regulatory functions. It claims to offer four conceptual contributions: (1) a cross-kingdom synthesis of disorder-based chromatin regulation with a conserved charge-regulatory logic; (2) integration of mechanistically related disease pathways (mitophagy, oxidative stress, neuroinflammation, aberrant phase separation) into a unified framework for neurodegeneration and cancer; (3) highlighting of underexplored regulatory dimensions (proline isomerization, ubiquitylation-driven condensate formation); and (4) critical evaluation of AI-assisted disorder prediction and hybrid experimental-computational ensemble characterization.
+- **Visible evidence base** Full text of the review, including Abstract, Introduction, sections on classification/structural features, molecular grammar, biological roles, biomolecular condensates, disease implications, evolutionary/proteomic insights, AI/ML prediction and design, and Conclusion. One table (Table 1: functional diversity; Table 2: comparative features) and one figure (Fig. 1: schematic comparison of globular vs. IDP interactions) are referenced. Reference list not provided.
+- **Missing materials affecting confidence** Reference list and full citations; figure images (only legends visible); any supplementary materials; information on whether the manuscript underwent prior peer review; details of the journal's scope and review criteria.
+
+## Reviewer
+- **Overall assessment** This is a broad, well-structured narrative review of intrinsically disordered proteins that covers a large territory: from biophysical principles and molecular grammar to disease mechanisms, evolution, and AI-based prediction and design. The writing is generally clear and the organization is logical. However, the manuscript's ambition exceeds its current execution. The four claimed "conceptual contributions" are not consistently developed with the depth or specificity that would distinguish this review from existing literature. The cross-kingdom synthesis (contribution 1) is asserted rather than systematically demonstrated; the unified disease framework (contribution 2) is largely a juxtaposition of known pathways without a genuinely new mechanistic integration; and the treatment of proline isomerization and ubiquitylation (contribution 3) is superficial. The AI section (contribution 4) is the most current and useful, but even here the critical evaluation is brief. The review would benefit from either narrowing its scope to develop fewer themes in depth, or substantially expanding the analysis to match the breadth of its claims. The manuscript is readable and will likely be of interest to newcomers to the field, but it does not yet provide the authoritative synthesis that the title and abstract promise.
+- **Who would be interested in the results, and why** Graduate students and early-career researchers entering the IDP field would find this a useful orientation. Researchers working on phase separation, chromatin biology, neurodegeneration, and computational protein prediction may find specific sections relevant. The AI/ML section, in particular, is timely and could interest computational biologists. However, specialists in any of these subfields are unlikely to encounter new information or a sufficiently critical synthesis to make this a primary reference.
+- **Major strengths** (1) The manuscript is clearly written and logically organized, making it accessible to a broad audience. (2) The emphasis on molecular grammar (stickers-and-spacers, charge patterning) provides a useful conceptual framework. (3) The inclusion of recent AI-based prediction tools and the discussion of their limitations is timely and relevant. (4) The authors make a commendable effort to connect biophysical principles to disease mechanisms and therapeutic strategies. (5) The acknowledgment of unresolved questions and the call for integrative approaches is appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Conceptual contribution / Originality
+  - **Claim pointer** The abstract states the review offers "a cross-kingdom synthesis of disorder-based chromatin regulation, demonstrating that bacterial nucleoid-associated proteins, plant transcription factors, and mammalian chromatin regulators share a conserved charge-regulatory logic."
+  - **Evidence pointer** Section "In signaling, transcription, and scaffolding"; Table 1
+  - **Concern** The claimed cross-kingdom synthesis is not systematically developed. The text discusses bacterial NAPs (H-NS, HupB, HupS), plant transcription factors, and mammalian regulators, but these are presented as separate examples rather than being compared and integrated into a coherent framework. The "conserved charge-regulatory logic" is asserted but not rigorously demonstrated. For instance, the manuscript does not provide a comparative analysis of the specific charge-patterning parameters, the functional consequences of charge modulation across these systems, or the evolutionary relationships that would substantiate a claim of conservation.
+  - **Why it matters** This is one of the four stated conceptual contributions of the review. If the synthesis is not convincingly developed, the review's central claim to novelty is weakened. A reader would not be able to determine from this text what precisely is conserved, how the conservation manifests mechanistically, or why it is significant beyond a general observation that charged residues matter in disordered regions.
+  - **Resolution test** The authors should either (a) provide a dedicated comparative section that systematically analyzes charge-related features (e.g., net charge, charge distribution, phosphorylation sites) across the three kingdoms, with a table or figure summarizing the comparison, and explicitly state what is conserved and what diverges; or (b) temper the claim to reflect that the review identifies convergent use of charge regulation, rather than a demonstrated conserved logic.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Conceptual contribution / Scientific importance
+  - **Claim pointer** The abstract states the review integrates "mechanistically related but frequently siloed disease pathways, including mitophagy dysfunction, oxidative stress signaling, neuroinflammation, and aberrant phase separation, into a unified framework linking IDP conformational dysregulation to neurodegeneration and cancer."
+  - **Evidence pointer** Section "Role in neurodegenerative diseases and cancer"
+  - **Concern** The "unified framework" is not presented as a framework. The section discusses each pathway in sequence (ER stress/UPR, oxidative stress/Keap1-Nrf2, mitophagy/optineurin, NF-κB, cysteine cathepsins) but does not articulate how these pathways interconnect mechanistically through IDP dysregulation. There is no diagram, no explicit statement of causal relationships, and no discussion of how these pathways might converge or diverge in different disease contexts. The section reads as a catalog of examples rather than an integration.
+  - **Why it matters** The claim of a "unified framework" is a significant part of the review's stated purpose. Without a clear articulation of the framework, the review does not provide the conceptual advance it promises. The reader is left with a list of known associations between IDPs and diseases, not a new way of understanding them.
+  - **Resolution test** The authors should either (a) construct an explicit framework, for example by proposing a central mechanism (e.g., loss of PTM-mediated charge regulation as a common trigger) and showing how each pathway fits into it, ideally with a schematic figure; or (b) revise the claim to state that the review highlights convergent themes across these pathways, rather than a unified framework.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Depth of analysis
+  - **Claim pointer** The abstract states the review "highlight[s] underexplored regulatory dimensions of IDP biology, including proline isomerization and ubiquitylation-driven condensate formation."
+  - **Evidence pointer** Section "Post-translational modifications regulate IDP functions"; Section "Biomolecular condensates and Liquid–Liquid phase separation"
+  - **Concern** The treatment of proline isomerization is limited to a brief mention without mechanistic detail, structural context, or discussion of specific examples. The discussion of ubiquitylation-driven condensate formation is similarly brief and does not engage with the mechanistic debates in the field (e.g., how ubiquitin chains of different topologies affect condensate properties, or how deubiquitinases regulate condensate dynamics). The claim that these are "underexplored" is not substantiated with a survey of the existing literature.
+  - **Why it matters** If the authors wish to claim that they are highlighting underexplored dimensions, they need to demonstrate both that these dimensions are indeed underexplored and that they are important. The current treatment does neither convincingly.
+  - **Resolution test** The authors should either (a) expand these sections with specific examples, mechanistic hypotheses, and a brief review of the state of the field to justify the "underexplored" claim; or (b) remove the claim of highlighting underexplored dimensions and instead present these as topics for future research.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Critical evaluation
+  - **Claim pointer** The abstract states the review "critically evaluate[s] recent advances in AI-assisted disorder prediction and hybrid experimental-computational ensemble characterization, emphasizing both their transformative potential and current limitations."
+  - **Evidence pointer** Section "Artificial intelligence and machine learning for prediction and design of IDPs/IDRs"
+  - **Concern** The AI section is informative but the "critical evaluation" is thin. The manuscript lists tools (Metapredict, flDPnn, SETH, AlphaFold, PScore, FuzDrop, DeePhase, PhaSePred, ALBATROSS, CALVADOS) and notes some limitations (e.g., AlphaFold's pLDDT caveats, training set biases), but does not systematically compare their performance, discuss validation strategies, or address the fundamental question of what "accuracy" means for disorder prediction when the ground truth is itself an ensemble. The section reads more as a survey than a critical evaluation.
+  - **Why it matters** The stated purpose of the review includes a critical evaluation. A survey of tools is available elsewhere; the value added would be a critical perspective on the field's assumptions, limitations, and future directions.
+  - **Resolution test** The authors should either (a) add a comparative analysis of tool performance, a discussion of validation challenges, and a clearer articulation of what the field needs next; or (b) revise the claim to state that the review surveys recent advances, rather than critically evaluates them.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "IDPs vs globular proteins"
+  - **Evidence pointer** Table 2
+  - **Issue** Table 2 lists "Thermodynamic Stability" as "Marginally unstable; sensitive to environmental changes" for IDPs. This is an oversimplification that could be misleading. Many IDPs are thermodynamically stable as disordered ensembles, and the concept of stability is different for IDPs than for folded proteins.
+  - **Required correction** Revise the wording to clarify that IDPs are marginally stable with respect to folding into a single structure, but can be thermodynamically stable as ensembles. Consider adding a note about the context-dependence of stability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Biomolecular condensates and Liquid–Liquid phase separation"
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript uses "liquid–liquid phase separation" and "LLPS" throughout but does not define the term at first use for nonspecialist readers. The concept is central to the review.
+  - **Required correction** Add a brief definition or explanation of LLPS at first mention.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Section "In signaling, transcription, and scaffolding"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states that "IDPs act as molecular hubs for cellular networks" and later that "hub proteins containing extensive IDRs act as central scaffolds." The relationship between "molecular hubs" and "scaffolds" is not clarified, and the terms are used somewhat interchangeably.
+  - **Required correction** Clarify the distinction or use the terms consistently.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Artificial intelligence and machine learning for prediction and design of IDPs/IDRs"
+  - **Evidence pointer** Location not provided
+  - **Issue** The section introduces many tool names and acronyms (Metapredict, flDPnn, SETH, PScore, FuzDrop, DeePhase, PhaSePred, ALBATROSS, CALVOS) without a summary table or a clear organizing principle. Nonspecialist readers may find this overwhelming.
+  - **Required correction** Consider adding a summary table of tools with their inputs, outputs, and intended use cases.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Role in neurodegenerative diseases and cancer"
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript states that "zinc ions accelerate alpha-synuclein aggregation by inducing conformational compaction of the monomeric IDP ensemble through electrostatic bridging of charged residues." This is presented as a general statement, but the effect of zinc on alpha-synuclein aggregation is likely concentration-dependent and may be more complex than stated.
+  - **Required correction** Add a qualifier such as "under certain conditions" or "at physiologically relevant concentrations" and consider citing the specific evidence.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Section "Classification and structural features of IDPs"
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript states that "nearly half of human protein-coding genes contain long disordered segments." This is a strong quantitative claim that should be supported by a specific citation. The reference list is not provided, so this cannot be verified.
+  - **Required correction** Ensure this claim is backed by a specific, citable source.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the gap between the manuscript's stated conceptual contributions and the depth of analysis provided. The claims of a "cross-kingdom synthesis" and a "unified framework" are not supported by the current text. This is not a matter of minor revision; it requires either substantial expansion of the analysis or revision of the claims. The AI section, while current, needs a more critical and comparative treatment to justify the claim of "critical evaluation."
+- **Assessment against Nature-style criteria** 
+  - **Originality**: The review does not present a fundamentally new perspective on IDPs. The topics covered (molecular grammar, phase separation, disease links, AI prediction) are all active areas with existing reviews. The claimed conceptual contributions, if developed, could provide originality, but in their current form they are not sufficiently distinct from existing literature.
+  - **Scientific importance**: The topic is of high importance. IDPs are central to many biological processes and diseases, and the field is rapidly evolving. A comprehensive, authoritative review would be valuable. However, the current manuscript does not fully deliver on this potential.
+  - **Interdisciplinary readership**: The review has the potential to appeal to a broad readership, including biophysicists, cell biologists, neurobiologists, and computational biologists. The writing is accessible. However, the lack of depth in some sections may limit its value for specialists.
+  - **Technical soundness**: The manuscript is generally technically sound in its descriptions, but the analytical depth is insufficient to support the stated claims. The lack of a reference list prevents full verification of the factual claims.
+  - **Readability for nonspecialists**: The manuscript is well-written and generally accessible. The use of tables and figures helps. However, some sections (e.g., the AI section) could be overwhelming for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has the makings of a useful review, but the central claims of conceptual contribution are not supported by the depth of analysis. Major revision is required, with a focus on either deepening the analysis to match the claims or revising the claims to match the analysis. The AI section, in particular, needs a more critical and comparative treatment. The manuscript would also benefit from a clearer articulation of its target audience and a more consistent level of detail across sections.

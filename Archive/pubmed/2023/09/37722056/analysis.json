@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37722056",
+  "title": "Combined prediction and design reveals the target recognition mechanism of an intrinsically disordered protein interaction domain.",
+  "authors": "Hu, Xiuhong; Xu, Yang; Wang, Chenchen; Liu, Yufeng; Zhang, Lu; Zhang, Jiahai; Wang, Wenning; Chen, Quan; Liu, Haiyan",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2023-09-18",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合AlphaFold2预测、深度学习序列设计与实验，解析了无序蛋白4.1G CTD与NuMA等靶标IDP互作的核心α/β结构模块及协同折叠识别机制，直接契合无序蛋白PPI机制建模主题。",
+  "abstract": "An increasing number of protein interaction domains and their targets are being found to be intrinsically disordered proteins (IDPs). The corresponding target recognition mechanisms are mostly elusive because of challenges in performing detailed structural analysis of highly dynamic IDP-IDP complexes. Here, we show that by combining recently developed computational approaches with experiments, the structure of the complex between the intrinsically disordered C-terminal domain (CTD) of protein 4.1G and its target IDP region in NuMA can be dissected at high resolution. First, we carry out systematic mutational scanning using dihydrofolate reductase-based protein complementarity analysis to identify essential interaction regions and key residues. The results are found to be highly consistent with an alpha/beta-type complex structure predicted by AlphaFold2 (AF2). We then design mutants based on the predicted structure using a deep learning protein sequence design method. The solved crystal structure of one mutant presents the same core structure as predicted by AF2. Further computational prediction and experimental assessment indicate that the well-defined core structure is conserved across complexes of 4.1G CTD with other potential targets. Thus, we reveal that an intrinsically disordered protein interaction domain uses an alpha/beta-type structure module formed through synergistic folding to recognize broad IDP targets. Moreover, we show that computational prediction and experiment can be jointly applied to segregate true IDP regions from the core structural domains of IDP-IDP complexes and to uncover the structure-dependent mechanisms of some otherwise elusive IDP-IDP interactions.",
+  "abstract_zh": "越来越多的蛋白质相互作用结构域及其靶标被发现是固有无序蛋白（IDPs）。由于对高度动态的IDP-IDP复合物进行详细结构分析面临挑战，相应的靶标识别机制大多难以捉摸。在此，我们展示了通过将近期开发的计算方法与实验相结合，可以高分辨率解析蛋白质4.1G的固有无序C末端结构域（CTD）与其在NuMA中的靶标IDP区域之间的复合物结构。首先，我们利用基于二氢叶酸还原酶的蛋白质互补分析进行系统性突变扫描，以识别关键相互作用区域和关键残基。结果与AlphaFold2（AF2）预测的α/β型复合物结构高度一致。随后，我们基于预测结构，使用深度学习蛋白质序列设计方法设计突变体。其中一个突变体的解析晶体结构呈现出与AF2预测相同的核心结构。进一步的计算预测和实验评估表明，这一明确的核心结构在4.1G CTD与其他潜在靶标的复合物中是保守的。因此，我们揭示了一个固有无序蛋白相互作用结构域通过协同折叠形成的α/β型结构模块来识别广泛的IDP靶标。此外，我们展示了计算预测与实验可以联合应用，以从IDP-IDP复合物的核心结构域中分离出真正的IDP区域，并揭示一些原本难以捉摸的IDP-IDP相互作用的结构依赖机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37722056/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37722056/",
+  "paper_page_path": "papers/pubmed/37722056/index.html"
+}

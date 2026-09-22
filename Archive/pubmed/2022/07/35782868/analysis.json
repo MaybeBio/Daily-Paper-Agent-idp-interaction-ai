@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35782868",
+  "title": "Plasticity of Membrane Binding by the Central Region of alpha-Synuclein.",
+  "authors": "Navarro-Paya, Carlos; Sanz-Hernandez, Maximo; De Simone, Alfonso",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2022-07-06",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用增强粗粒化分子动力学模拟研究α-突触核蛋白中心无序区域与膜结合的构象可塑性及双锚定机制，虽对象为膜而非蛋白互作，但无序蛋白区域结合机制建模方法对本课题有可迁移启发。",
+  "abstract": "Membrane binding by alpha-synuclein (alphaS), an intrinsically disordered protein whose aggregation is associated with Parkinson's disease, is a key step in determining its biological properties under both physiological and pathological conditions. Upon membrane interaction, alphaS retains a partial level of structural disorder despite acquiring alpha-helical content. In the membrane-bound state, the equilibrium between the helical-bound and disordered-detached states of the central region of alphaS (residues 65-97) has been involved in a double-anchor mechanism that promotes the clustering of synaptic vesicles. Herein, we investigated the underlying molecular bases of this equilibrium using enhanced coarse-grained molecular dynamics simulations. The results enabled clarifying the conformational dependencies of the membrane affinity by this protein region that, in addition to playing a role in physiological membrane binding, has key relevance for the aggregation of alphaS and the mechanisms of the toxicity of the resulting assemblies.",
+  "abstract_zh": "α-突触核蛋白（alphaS）是一种 intrinsically disordered protein（固有无序蛋白），其聚集与帕金森病相关，其膜结合是决定其在生理和病理条件下生物学特性的关键步骤。在与膜相互作用时，alphaS 尽管获得 α-螺旋含量，但仍保留部分结构无序性。在膜结合状态下，alphaS 中央区域（残基 65-97）的螺旋结合态与无序脱离态之间的平衡，已涉及一种促进突触囊泡聚集的双锚定机制。在此，我们通过增强的粗粒化分子动力学 (molecular dynamics) 模拟，研究了该平衡的潜在分子基础。结果阐明了该蛋白区域膜亲和力的构象依赖性，该区域除在生理膜结合中发挥作用外，还对 alphaS 的聚集及由此产生的组装体的毒性机制具有关键意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35782868/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35782868/",
+  "paper_page_path": "papers/pubmed/35782868/index.html"
+}

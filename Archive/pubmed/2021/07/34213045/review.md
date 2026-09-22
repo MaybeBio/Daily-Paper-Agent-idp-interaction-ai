@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Chemistry (Weinheim an der Bergstrasse, Germany), 2021
+- **Shared manuscript claim summary** The authors describe the synthesis of a library of chondroitin sulfate (CS) and CS/dermatan sulfate (DS) tetrasaccharides and their aromatic mimetics, and characterize their binding to the growth factor Midkine (MK). They report that the tetrasaccharide backbone adopts a high-pitched helix with four residues per turn, that this conformation is retained upon binding to MK, that the complexes are "fuzzy" with multiple orientations, and that aromatic substituents enhance binding affinity and biological activity.
+- **Visible evidence base** Full text including Abstract, Introduction, Results (Synthetic procedures, Binding affinities, 3D structure, MD simulations, 3D Midkine-tetrasaccharides complexes structure, Transfer NOESY, STD, Docking), Discussion, Conclusion, Experimental Section, Conflict of interest, Acknowledgements. Figures 1-12 and Tables 1-3 are referenced. Supporting Information is mentioned but not provided.
+- **Missing materials affecting confidence** Supporting Information (including detailed synthetic procedures, NMR spectra, MD simulation details, additional figures and tables referenced as Figure S1-S6, Tables S1-S2), raw NMR data, MD trajectory data, and full details of the biological assays. The absence of the Supporting Information limits verification of several key claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive study of the interaction between synthetic CS tetrasaccharides and the growth factor Midkine, with a focus on the role of aromatic interactions. The work combines organic synthesis, NMR spectroscopy, molecular dynamics simulations, docking studies, and biological assays. The topic is of interest to the glycoscience community, and the findings on the role of aromatic interactions in carbohydrate-protein recognition are potentially valuable. However, several technical concerns, particularly regarding the interpretation of STD NMR data, the convergence of docking results, and the statistical analysis of biological data, need to be addressed before the conclusions can be fully supported.
+- **Who would be interested in the results, and why** Researchers in glycoscience, specifically those studying glycosaminoglycan-protein interactions, will find this work relevant. The study also has implications for the design of glycomimetics as therapeutic agents targeting MK, which is implicated in cancer and inflammatory diseases. The methodological approach combining NMR, MD, and docking may be of interest to structural biologists and computational chemists working on carbohydrate-protein complexes.
+- **Major strengths** 1. The synthesis of a well-defined library of CS tetrasaccharides with varying sulfation patterns and aromatic substituents is a significant technical achievement. 2. The combination of multiple biophysical techniques (NMR, MD, docking) provides a multi-faceted view of the interaction. 3. The observation that the tetrasaccharide backbone conformation is retained upon binding is an interesting finding. 4. The correlation between aromatic substituents and increased binding affinity is clearly demonstrated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that STD NMR data indicate the ligand is "surrounded by MK" and that magnetization arises from all directions, supporting a "fuzzy" complex model.
+  - **Evidence pointer** Results, STD section, Figure 9, Table 3
+  - **Concern** The interpretation of STD NMR data to conclude that the ligand is surrounded by the protein and that the complex is "fuzzy" is not sufficiently supported. STD NMR provides information on ligand protons in close contact with the protein, but the claim that magnetization arises from "all directions" requires a more quantitative analysis, such as epitope mapping with competition experiments or comparison with a well-defined control. The authors state that attempts to fit the data to a single conformer using CORCEMA-ST were unsuccessful, but no details of these attempts or alternative models are provided.
+  - **Why it matters** The "fuzzy complex" model is a central conclusion of the paper. If this conclusion is not robustly supported, the interpretation of the binding mode and the role of aromatic interactions is weakened.
+  - **Resolution test** The authors should provide a more detailed analysis of the STD data, including a quantitative epitope map. They should also discuss alternative explanations for the failure of CORCEMA-ST fitting, such as the presence of multiple binding sites or conformational exchange on a different timescale. A control experiment with a non-binding tetrasaccharide would strengthen the interpretation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that docking studies confirm the participation of aromatic residues from MK in interactions with the tetrasaccharides.
+  - **Evidence pointer** Results, Docking section, Figure 11
+  - **Concern** The docking results are presented qualitatively. No scoring function values, cluster analysis, or comparison between the two docking programs (Glide and Autodock Vina) is provided. The claim that the results are "similar" between the two programs is not quantified. Furthermore, the choice of MK structures (models 2 and 8 from the NMR ensemble) is not justified.
+  - **Why it matters** Docking is used to support the structural model of the complex. Without quantitative data, the reader cannot assess the reliability of the docking predictions or the significance of the proposed aromatic interactions.
+  - **Resolution test** The authors should provide a table of docking scores for all tetrasaccharides with both programs, including a measure of the spread of the top poses. They should also justify their choice of MK structures and discuss the limitations of the docking approach for a protein with an intrinsically disordered region.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that tetrasaccharide 12 significantly increased MK-mediated stimulation of NIH3T3 cell growth.
+  - **Evidence pointer** Results, Biological activity section, Figure 12
+  - **Concern** The biological activity data are presented without any statistical analysis. It is unclear how many independent experiments were performed, what the error bars represent, and whether the observed differences are statistically significant. The figure legend is incomplete.
+  - **Why it matters** The biological activity is a key claim of the paper, supporting the potential therapeutic interest of the compounds. Without proper statistical analysis, the significance of the observed effects cannot be evaluated.
+  - **Resolution test** The authors should provide a clear description of the number of replicates, the statistical test used, and the p-values for the comparisons shown in Figure 12. The figure legend should be completed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes a high level of familiarity with glycosaminoglycan nomenclature and sulfation patterns. A brief explanation of the CS subtypes (E, T, etc.) and the significance of the sulfation patterns would make the paper more accessible.
+  - **Required correction** Add a brief explanation of CS subtypes and their biological relevance in the introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, 3D structure section
+  - **Evidence pointer** Results, 3D structure section, Figure 5
+  - **Concern** The statement that the "global geometry of the backbone of the non-substituted compounds 1-5 is notably similar" is based on a visual comparison of superimposed structures. A quantitative measure, such as root-mean-square deviation (RMSD) of the backbone atoms, would be more rigorous.
+  - **Required correction** Provide RMSD values for the backbone comparison of compounds 1-5.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Experimental Section, MD simulations
+  - **Evidence pointer** Experimental Section, MD simulations
+  - **Issue** The description of the MD simulations is brief. Details on the force field parameters for the non-carbohydrate substituents, the water model, the equilibration protocol, and the length of the production runs are missing.
+  - **Required correction** Provide a more detailed description of the MD simulation parameters, including the source of the parameters for the aromatic substituents.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Binding affinities
+  - **Evidence pointer** Results, Binding affinities, Table 1
+  - **Issue** The IC50 values are presented without error estimates. It is unclear how reproducible these measurements are.
+  - **Required correction** Provide standard deviations or confidence intervals for the IC50 values.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (STD NMR interpretation), R1-M2 (docking analysis), R1-M3 (statistical analysis of biological data).
+
+## Risk / unsupported claims
+- The claim that the "fuzzy" complex model is supported by STD NMR data is not fully supported by the presented evidence.
+- The claim that docking confirms the role of aromatic interactions is not quantitatively supported.
+- The claim that tetrasaccharide 12 significantly enhances MK-mediated cell growth is not supported by statistical analysis.
+- The claim that the 3D structures of the tetrasaccharides are "linear rigid high-pitched helices" is supported for the free state, but the claim that this is retained in the bound state relies on transfer NOE data that are only qualitatively described.
+- The stability of compound 11 in solution is questioned by the authors themselves, and the impact of hydrolysis products on the binding and activity data is not discussed.

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or methods
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to show that ATP binds to two intrinsically disordered proteins (FUS PLD and hnRNP G RGG domain) and inhibits their interactions. They propose a competitive binding mechanism, with Arg residues critical for the RGG domain and a weaker competition for FUS PLD due to residue abundance. They further report that ATP diffusion on the PLD surface is an order of magnitude faster than contact area evolution, which they argue enhances inhibition. They generalize this to a possible universal mechanism for ATP inhibition of IDP interactions at high physiological concentrations.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force fields, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field choices, system size and composition, simulation timescales, convergence and sampling assessments, quantitative binding free energies, contact area data, diffusion coefficients, statistical error analysis, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting mechanistic hypothesis for ATP-mediated inhibition of IDP interactions. However, the evidence base is entirely inaccessible from the abstract alone. No quantitative results, methodological details, or validation against experimental observations are provided. The claim of a general mechanism is speculative given the limited system scope and the absence of supporting data. The manuscript cannot be evaluated for technical soundness from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, intrinsically disordered proteins, biomolecular condensates, and the regulatory roles of small metabolites such as ATP. The work may also interest computational biophysicists focused on IDP simulations and molecular recognition mechanisms.
+- **Major strengths** The study addresses a timely and biologically relevant question regarding the mechanism of ATP inhibition of IDP phase separation. The choice of two representative IDP systems with distinct sequence features (Arg-rich RGG versus Gln/Ser/Tyr-rich PLD) provides a useful comparative framework. The proposed competitive binding mechanism is mechanistically coherent and testable.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "ATP exhibits a considerable tendency to bind to both IDPs and effectively inhibits their interactions."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No quantitative binding data, free energy estimates, or interaction strength metrics are presented. The claim of "considerable tendency" and "effectively inhibits" is unsupported without numerical values or statistical measures.  
+  - **Why it matters** The central conclusion depends on demonstrating a significant and reproducible binding and inhibitory effect. Without quantitative evidence, the claim cannot be assessed.  
+  - **Resolution test** Provide binding free energies, contact probabilities, or interaction energies with error bars, and show a clear reduction in IDP interaction metrics upon ATP addition.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "ATP undergoes considerable diffusion on the surface of PLD, which is an order of magnitude faster than the evolution of the contact area of PLDs."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The diffusion coefficient and contact area evolution timescales are not reported. The claim of an order of magnitude difference is unverifiable without numerical data and definitions of how these quantities were computed.  
+  - **Why it matters** This temporal separation is presented as a key mechanistic insight. Without quantitative support, the claim is speculative.  
+  - **Resolution test** Report diffusion coefficients and contact area correlation times with error estimates, and describe the computational methods used to derive them.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability  
+  - **Claim pointer** "Given the representativeness of these two IDPs, competitive binding may serve as a general mechanism underlying ATP inhibition on IDP interactions at high physiological levels."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The generalization from two IDP systems to a universal mechanism is not justified. The abstract provides no evidence that these systems are representative of the broader IDP landscape, nor does it address sequence diversity, interaction types, or environmental conditions.  
+  - **Why it matters** Overgeneralization could mislead the field if the mechanism is system-specific.  
+  - **Resolution test** Either temper the claim to the studied systems or provide additional simulations or experimental data across a wider range of IDPs.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Validation  
+  - **Claim pointer** "ATP at high physiological concentrations (>5 mM) can inhibit liquid-liquid phase separation driven by interactions between intrinsically disordered proteins."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract cites prior studies for this phenomenon but provides no experimental validation of the simulation predictions. No comparison with experimental binding or phase separation data is presented.  
+  - **Why it matters** Simulation results without experimental corroboration remain uncertain, especially for IDP systems where force field accuracy is a known challenge.  
+  - **Resolution test** Compare simulation-derived binding affinities or interaction changes with experimental measurements, or at least discuss force field limitations and sensitivity.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** "FUS PLD and RGG domain of hnRNP G"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not specify the exact constructs, residue ranges, or post-translational modifications used in the simulations.  
+  - **Required correction** Specify the sequence constructs and any modifications in the abstract or methods.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Simulation methodology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No information is given on force field, water model, salt concentration, temperature, or simulation length.  
+  - **Required correction** Include key simulation parameters in the abstract or refer to a methods section with full details.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** "competitive binding is rather modest due to the abundance of these residues"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The reasoning that residue abundance weakens competition is not self-evident and requires quantitative support.  
+  - **Required correction** Provide data on residue frequencies and binding site occupancy to substantiate this interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract lacks quantitative evidence, methodological detail, and validation, all of which are essential to establish the proposed mechanism.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of competitive binding as a mechanism for ATP inhibition is not entirely novel but the comparative analysis of two IDP types adds some originality.  
+  - Scientific importance: The question is relevant to the condensate field, but the importance of the specific mechanism remains unclear without broader validation.  
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and computational chemistry, which could attract a broad audience.  
+  - Technical soundness: Not assessable from the abstract; no methods or quantitative results are provided.  
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terms without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and worth pursuing, but the abstract alone does not provide sufficient quantitative or methodological support. A full review of the manuscript with complete data is required to assess whether the claims are substantiated.
+
+## Risk / unsupported claims
+- The claim that ATP "effectively inhibits" IDP interactions is unsupported without quantitative interaction metrics.
+- The claim of an order of magnitude difference between ATP diffusion and contact area evolution is unverifiable without numerical data.
+- The generalization to a "general mechanism" for ATP inhibition across IDPs is unsupported given the limited system scope.
+- The assertion that residue abundance explains modest competition is speculative without binding site occupancy data.
+- No experimental validation or comparison is provided, leaving the simulation predictions ungrounded.

@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "41991555",
+    "doi": "10.1038/s41467-026-71778-1",
+    "title": "Folded domains impose structural heterogeneity and attenuated dynamics in biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are widely studied using simplified analogues formed by purified low complexity domains (LCDs) or intrinsically disordered regions (IDRs). However, the exclusion of folded domains fails to capture natural molecular complexity and limits their physiological relevance. Here, we performed molecular dynamics simulations to systematically investigate the internal structure of condensates formed by full-length multidomain proteins (MDPs) in comparison to IDR-only systems. In contrast to uniformly expanded conformations observed in IDR-only condensates during tens of microseconds simulation, MDP-based systems exhibit significant heterogeneity. The heterogeneous microenvironment imposed by folded domains results in component-specific coupling and a wide range of conformations sampled by the IDRs. Strikingly, residue interaction specificity remains conserved between the condensed and solution states, even in the presence of MDPs. Finally, both local and global dynamics are attenuated in MDP-based condensates, opposing the heterogeneous retardation and unperturbed local dynamics observed in IDR-only systems. Our findings propose folded domains to act as architectural keystones in natural condensates, and enrich our understanding of their internal structural and dynamic properties.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Models, Chemical",
+      "Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Domains",
+      "Protein Folding",
+      "*Biomolecular Condensates/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Liguo",
+        "Marrink, Siewert J"
+      ],
+      "short_names": [
+        "Wang L",
+        "Marrink SJ"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-2953-3973",
+        "ORCID: 0000-0001-8423-5277"
+      ],
+      "affiliations": [
+        "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, The Netherlands.",
+        "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, The Netherlands. s.j.marrink@rug.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Liguo",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0009-0001-2953-3973"
+        ],
+        "affiliations": [
+          "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Marrink, Siewert J",
+        "short_name": "Marrink SJ",
+        "identifiers": [
+          "0000-0001-8423-5277"
+        ],
+        "affiliations": [
+          "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, The Netherlands. s.j.marrink@rug.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Apr 16",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/17 13:25",
+    "fetched_at": "2026-09-18 02:33:55"
+  },
+  "links": {
+    "cites": [
+      "42055532"
+    ],
+    "refs": [
+      "41263305",
+      "41207295",
+      "40842365",
+      "40172489",
+      "40131954",
+      "40128232",
+      "40058249",
+      "39920231",
+      "39827079",
+      "39568948",
+      "39568893",
+      "39412378",
+      "39366351",
+      "39271915",
+      "38987544",
+      "38961263",
+      "38811792",
+      "38720076",
+      "38649740",
+      "38614097",
+      "38492239",
+      "38363841",
+      "38049566",
+      "38035387",
+      "37968398",
+      "37890457",
+      "37853696",
+      "37774095",
+      "37770698",
+      "37770423",
+      "37684425",
+      "37468629",
+      "37261897",
+      "37146746",
+      "37145883",
+      "36881934",
+      "36662637",
+      "36657879",
+      "36513655",
+      "36483537",
+      "36459561",
+      "36004748",
+      "35974095",
+      "35803926",
+      "35802394",
+      "35795820",
+      "35675815",
+      "35501484",
+      "35149762",
+      "35119898",
+      "35013176",
+      "34716273",
+      "34588591",
+      "34265844",
+      "34221333",
+      "34106046",
+      "34099940",
+      "33890467",
+      "33826337",
+      "33782607",
+      "33579952",
+      "33577679",
+      "33510441",
+      "33333019",
+      "33308477",
+      "33302617",
+      "33169001",
+      "33139563",
+      "32312191",
+      "32302571",
+      "32015543",
+      "32004090",
+      "31270472",
+      "30449618",
+      "29930090",
+      "29677515",
+      "29425497",
+      "29364893",
+      "29120326",
+      "28854361",
+      "28225081",
+      "27819658",
+      "26574453",
+      "26455390",
+      "24128758",
+      "22398450",
+      "21500218",
+      "6667333"
+    ],
+    "similar": [
+      "41991555",
+      "39537752",
+      "34090478",
+      "39499823",
+      "41481439",
+      "39486437",
+      "41670285",
+      "23912807",
+      "33076213",
+      "41524628",
+      "41933903",
+      "39232584",
+      "38832749",
+      "40028898",
+      "39589885",
+      "36657879",
+      "40985078",
+      "34390736",
+      "39412378",
+      "39827079",
+      "34074792",
+      "41667469",
+      "42427316",
+      "34916288",
+      "39908323",
+      "34588591",
+      "42230638",
+      "29763584",
+      "35179885",
+      "40042172",
+      "42150060",
+      "40848932",
+      "41337585",
+      "41700935",
+      "40009520",
+      "32225071",
+      "41862773",
+      "34029402",
+      "42370432",
+      "37986933",
+      "41706900",
+      "28780862",
+      "24027208",
+      "29735687",
+      "36004748",
+      "42055532",
+      "42244740",
+      "32323533",
+      "40748104",
+      "31613621",
+      "40912879",
+      "31999450",
+      "39093570",
+      "38649740",
+      "35053240",
+      "40403066",
+      "41647538",
+      "37468629",
+      "41394673",
+      "39446390",
+      "40521608",
+      "40455990",
+      "34557680",
+      "31552948",
+      "42172735",
+      "42057657",
+      "32020911",
+      "40098319",
+      "40954121",
+      "38739602",
+      "38383656",
+      "34571015",
+      "40420812",
+      "37194953",
+      "28924037",
+      "40196628",
+      "31804089",
+      "31783068",
+      "40325419",
+      "42475469",
+      "38252962",
+      "38824391",
+      "41088757",
+      "32824743",
+      "42446225",
+      "41645509",
+      "40945576",
+      "42260147",
+      "39947751",
+      "28597880",
+      "41294805",
+      "32929427",
+      "40223218",
+      "40136009",
+      "41342450",
+      "33779503",
+      "31441158",
+      "39653037",
+      "39568893",
+      "38637545"
+    ],
+    "review": [
+      "41991555",
+      "34390736",
+      "39827079",
+      "35179885",
+      "24027208",
+      "40912879",
+      "39093570",
+      "41647538",
+      "42172735",
+      "42057657",
+      "32020911",
+      "40325419",
+      "39947751",
+      "41294805"
+    ],
+    "pmc": [
+      "13272642"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-71778-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41991555/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

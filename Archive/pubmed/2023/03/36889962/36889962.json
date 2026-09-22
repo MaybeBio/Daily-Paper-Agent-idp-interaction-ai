@@ -1,0 +1,252 @@
+{
+  "identity": {
+    "pmid": "36889962",
+    "doi": "10.1063/5.0137908",
+    "title": "N-WASP is competent for downstream signaling before full release from autoinhibition."
+  },
+  "content": {
+    "abstract": "Allosteric regulation of intrinsically disordered proteins (IDPs) is still vastly understudied compared to the counterpart of structured proteins. Here, we used molecular dynamics simulations to characterize the regulation of the IDP N-WASP by the binding of its basic region with inter- and intramolecular ligands (PIP(2) and an acidic motif, respectively). The intramolecular interactions keep N-WASP in an autoinhibited state; PIP(2) binding frees the acidic motif for interacting with Arp2/3 and thereby initiating actin polymerization. We show that PIP(2) and the acidic motif compete in binding with the basic region. However, even when PIP(2) is present at 30% in the membrane, the acidic motif is free of contact with the basic region (\"open\" state) in only 8.5% of the population. The very C-terminal three residues of the A motif are crucial for Arp2/3 binding; conformations where only the A tail is free are present at a much higher population than the open state (40- to 6-fold, depending on the PIP(2) level). Thus, N-WASP is competent for Arp2/3 binding before it is fully freed from autoinhibition.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Actins/chemistry",
+      "*Wiskott-Aldrich Syndrome Protein/metabolism",
+      "Signal Transduction",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dey, Souvik",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "Dey S",
+        "Zhou HX"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4366-5681",
+        "ORCID: 0000-0001-9020-0302"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois at Chicago, Chicago, Illinois 60607, USA.",
+        "Department of Chemistry, University of Illinois at Chicago, Chicago, Illinois 60607, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dey, Souvik",
+        "short_name": "Dey S",
+        "identifiers": [
+          "0000-0002-4366-5681"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Chicago, Chicago, Illinois 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [
+          "0000-0001-9020-0302"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Chicago, Chicago, Illinois 60607, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2023 Mar 7",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/09 06:00",
+    "fetched_at": "2026-09-20 20:06:47"
+  },
+  "links": {
+    "cites": [
+      "40631955",
+      "39952269",
+      "39838022",
+      "37920394",
+      "36863659"
+    ],
+    "refs": [
+      "36959324",
+      "36863659",
+      "36710643",
+      "36087777",
+      "33554215",
+      "32917641",
+      "30992509",
+      "29634920",
+      "28805312",
+      "26592383",
+      "26574453",
+      "25764013",
+      "22328159",
+      "20533885",
+      "17302440",
+      "15664188",
+      "14527680",
+      "14343300",
+      "11146629",
+      "11052943",
+      "10995436",
+      "10724160",
+      "10219243",
+      "9889097",
+      "9473482",
+      "9422512"
+    ],
+    "similar": [
+      "36889962",
+      "36863659",
+      "11432863",
+      "10563804",
+      "25615019",
+      "30104412",
+      "11747816",
+      "11952639",
+      "10781580",
+      "11459849",
+      "10724160",
+      "12872157",
+      "17302440",
+      "23290554",
+      "11157975",
+      "15066431",
+      "16275905",
+      "26554011",
+      "22250195",
+      "8895577",
+      "18995840",
+      "15834156",
+      "10339430",
+      "16403731",
+      "16293614",
+      "17085436",
+      "11184204",
+      "15579908",
+      "11283014",
+      "12200375",
+      "31514372",
+      "9889097",
+      "12814545",
+      "29386393",
+      "11792818",
+      "18448434",
+      "21676863",
+      "24962707",
+      "25342748",
+      "12237104",
+      "19272406",
+      "20071330",
+      "23707428",
+      "12600272",
+      "11058146",
+      "11052943",
+      "38847540",
+      "12769847",
+      "10480940",
+      "27325766",
+      "11943145",
+      "15169891",
+      "27911716",
+      "15534215",
+      "24117810",
+      "22992459",
+      "11598004",
+      "16006560",
+      "27637067",
+      "11340081",
+      "25160634",
+      "18462674",
+      "17251352",
+      "31786060",
+      "18650809",
+      "24133214",
+      "18923421",
+      "22847007",
+      "34673575",
+      "11146629",
+      "11842211",
+      "17092940",
+      "10878810",
+      "23684068",
+      "31269431",
+      "21571220",
+      "17467839",
+      "12176354",
+      "10766829",
+      "18728185",
+      "23337808",
+      "16922863",
+      "11714264",
+      "14561714",
+      "17711847",
+      "10973991",
+      "23577202",
+      "11213796",
+      "37898612",
+      "15260983",
+      "36907023",
+      "21376381",
+      "11395419",
+      "26323303",
+      "26555049",
+      "15592479",
+      "36650956",
+      "24402308"
+    ],
+    "review": [
+      "36889962",
+      "27911716",
+      "24117810",
+      "14561714",
+      "11213796",
+      "15260983"
+    ],
+    "pmc": [
+      "9995167"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36889962/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36889962",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0137908",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

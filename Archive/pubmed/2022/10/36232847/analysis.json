@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36232847",
+  "title": "REMD Simulations of Full-Length Alpha-Synuclein Together with Ligands Reveal Binding Region and Effect on Amyloid Conversion.",
+  "authors": "Semenyuk, Pavel I",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2022-10-15",
+  "window": {
+    "start": "2022-10-10",
+    "end": "2022-10-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用REMD模拟全长无序蛋白α-突触核蛋白与配体结合，预测结合位点及对淀粉样转化的影响，虽对象为IDP且用物理模拟方法，但互作对象是小分子配体而非蛋白-蛋白互作，故机制建模可迁移但非直接PPI。",
+  "abstract": "Alpha-synuclein is a key protein involved in the development and progression of Parkinson's disease and other synucleinopathies. The intrinsically disordered nature of alpha-synuclein hinders the computational screening of new drug candidates for the treatment of these neurodegenerative diseases. In the present work, replica exchange molecular dynamics simulations of the full-length alpha-synuclein together with low-molecular ligands were utilized to predict the binding site and effect on the amyloid-like conversion of the protein. This approach enabled an accurate prediction of the binding sites for three tested compounds (fasudil, phthalocyanine tetrasulfonate, and spermine), giving good agreement with data from experiments by other groups. Lots of information about the binding and protein conformational ensemble enabled the suggestion of a putative effect of the ligands on the amyloid-like conversion of alpha-synuclein and the mechanism of anti- and pro-amyloid activity of the tested compounds. Therefore, this approach looks promising for testing new drug candidates for binding with alpha-synuclein or other intrinsically disordered proteins and at the same time the estimation of the effect on protein behavior, including amyloid-like aggregation.",
+  "abstract_zh": "α-突触核蛋白（alpha-synuclein）是帕金森病及其他突触核蛋白病（synucleinopathies）发生和发展中的关键蛋白。α-突触核蛋白的内在无序特性阻碍了针对这些神经退行性疾病新药候选物的计算筛选。在本研究中，利用复制交换分子动力学（replica exchange molecular dynamics）模拟全长α-突触核蛋白与低分子量配体的相互作用，以预测结合位点及其对蛋白质淀粉样样转化的影响。该方法能够准确预测三种测试化合物（法舒地尔（fasudil）、酞菁四磺酸盐（phthalocyanine tetrasulfonate）和精胺（spermine））的结合位点，与其他实验组的数据高度一致。关于结合和蛋白质构象集合的大量信息，使得我们能够推测配体对α-突触核蛋白淀粉样样转化的潜在影响，以及测试化合物的抗淀粉样和促淀粉样活性机制。因此，该方法在测试与α-突触核蛋白或其他内在无序蛋白结合的新药候选物方面显示出前景，同时也能评估其对蛋白质行为（包括淀粉样样聚集）的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36232847/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36232847/",
+  "paper_page_path": "papers/pubmed/36232847/index.html"
+}

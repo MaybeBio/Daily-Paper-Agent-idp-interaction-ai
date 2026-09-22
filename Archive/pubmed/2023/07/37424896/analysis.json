@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37424896",
+  "title": "Anti-polyelectrolyte and polyelectrolyte effects on conformations of polyzwitterionic chains in dilute aqueous solutions.",
+  "authors": "Liu, Zening; Keum, Jong K; Li, Tianyu; Chen, Jihua; Hong, Kunlun; Wang, Yangyang; Sumpter, Bobby G; Advincula, Rigoberto; Kumar, Rajeev",
+  "journal": "PNAS nexus",
+  "published_date": "2023-07-10",
+  "window": {
+    "start": "2023-07-10",
+    "end": "2023-07-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文以聚两性电解质作为无序蛋白的合成类似物，结合散射实验与从头算分子动力学模拟研究盐对链构象的调控机制，虽非真实IDP/PPI，但构象建模思路对无序蛋白互作机制研究有可迁移启发。",
+  "abstract": "Polyzwitterions (PZs) are considered as model synthetic analogs of intrinsically disordered proteins. Based on this analogy, PZs in dilute aqueous solutions are expected to attain either globular (i.e. molten, compact) or random coil conformations. Addition of salt is expected to open these conformations. To the best of our knowledge, these hypotheses about conformations of PZs have never been verified. In this study, we test these hypotheses by studying effects of added salt [potassium bromide (KBr)] on gyration and hydrodynamic radii of poly(sulfobetaine methacrylate) in dilute aqueous solutions using dynamic light scattering and small-angle X-ray scattering, respectively. Effects of zwitteration are revealed by direct comparisons of the PZs with the polymers of the same backbone but containing (1) no explicit charges on side groups such as poly(2-dimethylaminoethyl methacrylate)s and (2) explicit cationic side groups with tertiary amino bromide pendants. Zeta-potential measurements, transmission electron microscopy, and ab initio molecular dynamics simulations reveal that the PZs acquire net positive charge in near salt-free conditions due to protonation but retain coiled conformations. Added KBr leads to nonmonotonic changes exhibiting an increase followed by a decrease in radius of gyration (and hydrodynamic radius), which are called antipolyelectrolyte and polyelectrolyte effects, respectively. Charge regulation and screening of charge-charge interactions are discussed in relation to the antipolyelectrolyte and polyelectrolyte effects, respectively, which highlight the importance of salt in affecting net charge and conformations of PZs.",
+  "abstract_zh": "聚两性离子（PZs）被视为 intrinsically disordered proteins（本质无序蛋白质）的模型合成类似物。基于这一类比，稀水溶液中的PZs预期会呈现球状（即熔融态、紧凑型）或随机卷曲构象。添加盐预期会展开这些构象。据我们所知，关于PZs构象的这些假设从未被验证。在本研究中，我们通过分别使用动态光散射和小角X射线散射，研究添加盐[溴化钾（KBr）]对稀水溶液中聚（磺基甜菜碱甲基丙烯酸酯）的回转半径和水动力学半径的影响，来检验这些假设。通过将PZs与具有相同主链但（1）侧基无显性电荷的聚合物如聚（2-二甲氨基乙基甲基丙烯酸酯）和（2）带有叔氨基溴化铵侧基的显性阳离子侧基聚合物进行直接比较，揭示了两性离子化的效应。Zeta电位测量、透射电子显微镜和从头算分子动力学模拟表明，在近无盐条件下，PZs因质子化而获得净正电荷，但保持卷曲构象。添加KBr导致非单调变化，表现为回转半径（和水动力学半径）先增加后减少，分别称为抗聚电解质效应和聚电解质效应。电荷调节和电荷-电荷相互作用的屏蔽分别与抗聚电解质效应和聚电解质效应相关讨论，这强调了盐在影响PZs净电荷和构象中的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37424896/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37424896/",
+  "paper_page_path": "papers/pubmed/37424896/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2501.08836v1",
+  "title": "Enhanced condensate fluidity in modified patchy particle models",
+  "authors": "Alena Taskina; Devika Magan; Simon Dannenberg; Stefan Klumpp",
+  "journal": "",
+  "published_date": "2025-01-15",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过改进patchy粒子模型加速生物分子凝聚体的粗粒化模拟，虽对象为通用模型而非特定IDP，但聚焦相分离凝聚体动力学与结构，其建模方法对无序蛋白介导的PPI机制研究具有可迁移启发。",
+  "abstract": "Biomolecular condensates are formed via liquid-liquid phase separation of proteins, often together with nucleic acids, typically driven by interactions between low-affinity binding sites. The computational study of such condensates that accounts both for the droplet-scale fluid behavior and the internal structure of the condensate requires coarse-grained models. Recently, patchy particle models, representing proteins as sphere with a repulsive core and directional attractive patches, have emerged as a powerful tool. However, these simulations are typically limited by slow dynamics and struggle to capture the full range of material properties of fluid-like condensates. Here we study modified patchy particle models to simulate the formation and dynamics of biomolecular condensates. By incorporating flexible patches and weak isotropic attractions between cores, our models preserve key equilibrium characteristics, including the phase behavior and the local structure of the condensate, while significantly accelerating the system dynamics. These modifications enable the simulation of larger, more complex systems previously inaccessible due to prohibitive relaxation times and provide a versatile tool for studying condensate dynamics.",
+  "abstract_zh": "生物分子凝聚体通过蛋白质的液-液相分离（liquid-liquid phase separation）形成，通常与核酸共同参与，主要由低亲和力结合位点之间的相互作用驱动。对这种凝聚体的计算研究，需同时考虑液滴尺度的流体行为及凝聚体内部结构，因此需要粗粒化模型。近年来，斑块粒子模型（patchy particle models）——将蛋白质表示为具有排斥核心和方向性吸引斑块的球体——已成为一种强大工具。然而，这些模拟通常受限于缓慢的动力学，难以捕捉流体状凝聚体的全部材料特性。在此，我们研究了改进的斑块粒子模型，以模拟生物分子凝聚体的形成与动力学。通过引入柔性斑块和核心间的弱各向同性吸引，我们的模型保留了关键平衡特性，包括相行为和凝聚体的局部结构，同时显著加速了系统动力学。这些改进使得模拟更大、更复杂的系统成为可能，这些系统此前因过长的弛豫时间而无法触及，并为研究凝聚体动力学提供了多功能工具。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2501.08836v1",
+  "source_url": "https://arxiv.org/abs/2501.08836v1",
+  "paper_page_path": "papers/arxiv/2501.08836v1/index.html"
+}

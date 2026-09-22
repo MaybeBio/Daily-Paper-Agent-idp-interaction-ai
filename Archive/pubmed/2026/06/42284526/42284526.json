@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "42284526",
+    "doi": "10.1021/acs.jpcb.6c01887",
+    "title": "CDK5-p25 Peptide Inhibitor Samples an Intrinsically Disordered Ensemble in Solution."
+  },
+  "content": {
+    "abstract": "The 24-residue peptide p5 (KEAFWDRCLSVINLMSSKMLQINA) selectively inhibits the pathological CDK5-p25 complex implicated in Alzheimer's disease and other neurodegenerative disorders, yet the structural basis for this selectivity remains poorly understood. In this study, replica exchange with solute tempering (REST2) molecular dynamics simulations with explicit solvent were performed over 350 ns using the CHARMM36m force field to extensively characterize the conformational landscape of p5 in aqueous solution at physiological temperature. Gaussian Mixture Variational Autoencoder (GMVAE) clustering identifies three dominant conformational states: a compact disordered state, an extended disordered state, and a partially beta-structured state featuring a transient antiparallel beta-hairpin between residues 5-8 (WDRC) and 16-19 (SSKM). The small free energy differences between states (DeltaDeltaG < 0.35 kcal/mol) enable rapid nanosecond-time scale interconversion, and multiple structural metrics are consistent with p5 exhibiting the hallmarks of an intrinsically disordered peptide in solution. Temperature-dependent free energy profiles confirm that the low-energy conformational basin is robust across a wide temperature range, validating the physiological relevance of the sampled ensemble. The absence of stable helical structure in the unbound state, combined with the peptide's backbone flexibility and transient beta-strand propensity, supports a coupled folding-and-binding mechanism upon CDK5 engagement. These findings provide a structural framework for understanding p5's selective inhibition of CDK5-p25 and lay the groundwork for future simulations of p5-CDK5 complexes and the design of optimized therapeutic CDK5 inhibitors.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "*Cyclin-Dependent Kinase 5/antagonists & inhibitors/chemistry/metabolism",
+      "Solutions",
+      "*Peptides/chemistry/pharmacology",
+      "Temperature",
+      "Thermodynamics",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Nerve Tissue Proteins/antagonists & inhibitors/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramamurthy, Adarsh",
+        "Mondal, Kinjal",
+        "Klauda, Jeffery B"
+      ],
+      "short_names": [
+        "Ramamurthy A",
+        "Mondal K",
+        "Klauda JB"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8725-1870"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biomolecular Engineering, University of Maryland, College Park, Maryland 20742, United States.",
+        "Institute for Physical Science and Technology, Biophysics Program, University of Maryland, College Park, Maryland 20742, United States.",
+        "Department of Chemical and Biomolecular Engineering, University of Maryland, College Park, Maryland 20742, United States.",
+        "Institute for Physical Science and Technology, Biophysics Program, University of Maryland, College Park, Maryland 20742, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramamurthy, Adarsh",
+        "short_name": "Ramamurthy A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Maryland, College Park, Maryland 20742, United States."
+        ]
+      },
+      {
+        "full_name": "Mondal, Kinjal",
+        "short_name": "Mondal K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Physical Science and Technology, Biophysics Program, University of Maryland, College Park, Maryland 20742, United States."
+        ]
+      },
+      {
+        "full_name": "Klauda, Jeffery B",
+        "short_name": "Klauda JB",
+        "identifiers": [
+          "0000-0001-8725-1870"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Maryland, College Park, Maryland 20742, United States.",
+          "Institute for Physical Science and Technology, Biophysics Program, University of Maryland, College Park, Maryland 20742, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 Jun 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 18:41",
+    "fetched_at": "2026-09-18 04:01:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42284526",
+      "39148280",
+      "21289072",
+      "26444778",
+      "20720012",
+      "40393181",
+      "20500023",
+      "19466465",
+      "21681969",
+      "27387995",
+      "38953497",
+      "20599546",
+      "35771127",
+      "31073393",
+      "34152264",
+      "27423742",
+      "30134733",
+      "42129207",
+      "16407256",
+      "28092832",
+      "25665755",
+      "20491486",
+      "21681968",
+      "23927974",
+      "20919750",
+      "27567857",
+      "33382616",
+      "30865832",
+      "41129692",
+      "26498066",
+      "20013135",
+      "37043533",
+      "36791464",
+      "25142337",
+      "28914483",
+      "37968421",
+      "40967163",
+      "35174713",
+      "38165434",
+      "17656579",
+      "25865311",
+      "28241387",
+      "23811057",
+      "27630261",
+      "30811210",
+      "12230554",
+      "34576338",
+      "17526058",
+      "33708792",
+      "31241933",
+      "27481520",
+      "29235155",
+      "20085382",
+      "39285530",
+      "24058495",
+      "29185737",
+      "30433786",
+      "19067513",
+      "27371933",
+      "17160145",
+      "31137734",
+      "30979035",
+      "18636751",
+      "28197405",
+      "23205890",
+      "23839056",
+      "11369854",
+      "15211514",
+      "22506277",
+      "21420204",
+      "25438765",
+      "18322105",
+      "26047365",
+      "27727496",
+      "32419254",
+      "33574233",
+      "25380651",
+      "20686908",
+      "29490247",
+      "32696368",
+      "40042172",
+      "40853068",
+      "29364151",
+      "15023357",
+      "24763499",
+      "15339816",
+      "24671380",
+      "33580600",
+      "34869581",
+      "11583627",
+      "15609350",
+      "15592431",
+      "33122085",
+      "30688165",
+      "19455415",
+      "37646172",
+      "30840442",
+      "35308859",
+      "30876367",
+      "24085300"
+    ],
+    "review": [
+      "42284526",
+      "40967163",
+      "17526058",
+      "17160145",
+      "30979035",
+      "29364151",
+      "15023357"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.6c01887",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

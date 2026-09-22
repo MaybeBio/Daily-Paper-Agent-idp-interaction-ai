@@ -1,0 +1,244 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.27.666075",
+  "title": "Centriolar satellites assemble via a hierarchical pathway driven by PCM1 multimerization",
+  "doi": "10.1101/2025.07.27.666075",
+  "abstract": "Centriolar satellites (CS) are ubiquitous, membrane-less organelles recognized for organelle crosstalk, plasticity, diverse functions and links to developmental and neuronal diseases. However, the molecular principles governing their assembly and regulation remain poorly understood. To address this, we developed cellular and in vitro biogenesis assays that allow spatiotemporal quantification of CS granule properties during assembly, remodeling and maintenance. Using these tools, we show that CS assemble via a hierarchical pathway initiated by PCM1 scaffold formation followed by regulated client recruitment. PCM1 intrinsically assembles into granules through multimerization, a process modulated by cytoskeleton. High-resolution imaging revealed that PCM1 and its clients occupy distinct subdomains with different compositions and dynamics, adding an additional layer of regulation. Perturbing PCM1 multimerization impaired ciliary signaling, underscoring its functional importance. Collectively, these findings define the molecular basis of CS biogenesis, establish new tools to probe their context-dependent functions, and provide a framework for understanding how CS deregulation contributes to disease. More broadly, the principles uncovered here may extend to other membrane-less organelles, explaining their specificity and plasticity.",
+  "authors": [
+    "Begar E",
+    "Seyrek E",
+    "Yilmaz-Karaoglu S",
+    "Arslanhan MD",
+    "Odabasi E",
+    "Firat-Karalar EN"
+  ],
+  "published_date": "2025-07-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.27.666075",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.27.666075.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1058072",
+    "raw_record": {
+      "id": "PPR1058072",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1058072"
+        ]
+      },
+      "doi": "10.1101/2025.07.27.666075",
+      "title": "Centriolar satellites assemble via a hierarchical pathway driven by PCM1 multimerization",
+      "authorString": "Begar E, Seyrek E, Yilmaz-Karaoglu S, Arslanhan MD, Odabasi E, Firat-Karalar EN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Begar E",
+            "lastName": "Begar",
+            "firstName": "Efe",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seyrek E",
+            "lastName": "Seyrek",
+            "firstName": "Ece",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yilmaz-Karaoglu S",
+            "lastName": "Yilmaz-Karaoglu",
+            "firstName": "Selin",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arslanhan MD",
+            "lastName": "Arslanhan",
+            "firstName": "Melis",
+            "initials": "MD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Odabasi E",
+            "lastName": "Odabasi",
+            "firstName": "Ezgi",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9660-3062"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Firat-Karalar EN",
+            "lastName": "Firat-Karalar",
+            "firstName": "Elif Nur",
+            "initials": "EN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , ,"
+                },
+                {
+                  "affiliation": "School of Medicine, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9660-3062"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Centriolar satellites (CS) are ubiquitous, membrane-less organelles recognized for organelle crosstalk, plasticity, diverse functions and links to developmental and neuronal diseases. However, the molecular principles governing their assembly and regulation remain poorly understood. To address this, we developed cellular and  in vitro biogenesis assays that allow spatiotemporal quantification of CS granule properties during assembly, remodeling and maintenance. Using these tools, we show that CS assemble via a hierarchical pathway initiated by PCM1 scaffold formation followed by regulated client recruitment. PCM1 intrinsically assembles into granules through multimerization, a process modulated by cytoskeleton. High-resolution imaging revealed that PCM1 and its clients occupy distinct subdomains with different compositions and dynamics, adding an additional layer of regulation. Perturbing PCM1 multimerization impaired ciliary signaling, underscoring its functional importance. Collectively, these findings define the molecular basis of CS biogenesis, establish new tools to probe their context-dependent functions, and provide a framework for understanding how CS deregulation contributes to disease. More broadly, the principles uncovered here may extend to other membrane-less organelles, explaining their specificity and plasticity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "acronym": "ERC_",
+            "grantId": "101078097",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Molecular Biology Organization",
+            "grantId": "3622",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/30/2025.07.27.666075.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.27.666075"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1058072"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1058072&type=FILE&fileName=EMS207728-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42274391",
+            "reference": "The Journal of cell biology. \n    2026 Aug;225(8):e202509238",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207728",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refseq",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-08-01",
+      "firstPublicationDate": "2025-07-30",
+      "firstIndexDate": "2025-08-01",
+      "fullTextReceivedDate": "2025-10-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

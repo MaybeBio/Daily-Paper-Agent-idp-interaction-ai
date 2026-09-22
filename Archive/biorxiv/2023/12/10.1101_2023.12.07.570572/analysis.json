@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.07.570572",
+  "title": "The cryoEM structure of the Hendra henipavirus nucleoprotein reveals insights into paramyxoviral nucleocapsid architectures",
+  "authors": "Passchier TC; White JBR; Maskell DP; Byrne MJ; Ranson NA; Edwards TA; Barr JN",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-07",
+  "window": {
+    "start": "2023-12-04",
+    "end": "2023-12-10"
+  },
+  "score": 3,
+  "one_liner_zh": "该文报道亨德拉病毒核蛋白-RNA复合物的冷冻电镜结构，聚焦病毒核衣壳组装，不涉及无序蛋白、蛋白-蛋白互作机制或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "We report the first cryoEM structure of the Hendra henipavirus nucleoprotein in complex with RNA, at 3.5 Å resolution, derived from single particle analysis of homotetradecameric RNA-bound N protein rings exhibiting D14 symmetry. The structure of the HeV N protein adopts the common bi-lobed paramyxoviral N protein fold; the N-terminal and C-terminal globular domains are bisected by an RNA binding cleft containing six RNA nucleotides and are flanked by the N-terminal and C-terminal arms, respectively. In common with other paramyxoviral nucleocapsids, the lateral interface between adjacent N and N +1 protomers involves electrostatic and hydrophobic interactions mediated primarily through the N-terminal arm and globular domains with minor contribution from the C-terminal arm. However, the HeV N multimeric assembly uniquely identifies an additional interaction between N +1 and N -1 protomers. The model presented here broadens the understanding of RNA-bound paramyxoviral nucleocapsid architectures and provides a platform for further insight into the molecular biology of HeV, as well as the development of antiviral interventions.",
+  "abstract_zh": "我们报告了亨德拉亨尼帕病毒核蛋白与RNA复合物的首个冷冻电镜结构，分辨率为3.5 Å，该结构来源于对展示D14对称性的同源十四聚体RNA结合N蛋白环状结构的单颗粒分析。HeV N蛋白的结构采用常见的双叶副粘病毒N蛋白折叠；N端和C端球状结构域被包含六个RNA核苷酸的RNA结合裂隙一分为二，并分别由N端和C端臂侧翼包围。与其他副粘病毒核衣壳类似，相邻N和N+1原体之间的侧向界面涉及主要通过N端臂和球状结构域介导的静电和疏水相互作用，C端臂贡献较小。然而，HeV N多聚组装体独特地识别出N+1和N-1原体之间的额外相互作用。此处提出的模型拓宽了对RNA结合副粘病毒核衣壳结构的理解，并为深入探究HeV的分子生物学以及抗病毒干预措施的开发提供了平台。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.07.570572",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.07.570572",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.07.570572/index.html"
+}

@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2307.11180v4",
+  "title": "Design principles of transcription factors with intrinsically disordered regions",
+  "doi": "10.7554/eLife.104956",
+  "abstract": "Transcription Factors (TFs) are proteins crucial for regulating gene expression. Effective regulation requires the TFs to rapidly bind to their correct target, enabling the cell to respond efficiently to stimuli such as nutrient availability or the presence of toxins. However, the search process is hindered by slow diffusive movement and the presence of `false' targets --DNA segments that are similar to the true target. In eukaryotic cells, most TFs contain an Intrinsically Disordered Region (IDR), which is commonly assumed to behave as a long, flexible polymeric tail composed of hundreds of amino acids. Recent experimental findings indicate that the IDR of certain TFs plays a pivotal role in the search process. However, the principles underlying the IDR's role remain unclear. Here, we reveal key design principles of the IDR related to TF binding affinity and search time. Our results demonstrate that the IDR significantly enhances both of these aspects. Furthermore, our model shows good agreement with experimental results, and we propose further experiments to validate the model's predictions.",
+  "authors": [
+    "Wencheng Ji",
+    "Ori Hachmo",
+    "Naama Barkai",
+    "Ariel Amir"
+  ],
+  "published_date": "2023-07-20T18:47:28Z",
+  "updated_date": "2025-06-11T11:00:23Z",
+  "journal": "",
+  "category": "physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2307.11180v4",
+  "pdf_url": "https://arxiv.org/pdf/2307.11180v4",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "4",
+  "keywords": [
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2307.11180v4",
+    "raw_categories": [
+      "physics.bio-ph"
+    ],
+    "journal_ref": ""
+  }
+}

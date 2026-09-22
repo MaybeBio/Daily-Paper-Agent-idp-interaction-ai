@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41209584",
+  "title": "High-resolution protein modeling through Cryo-EM and AI: current trends and future perspectives - a review.",
+  "authors": "Jeyaraj, Gnanaprakash; Rajendran, Anith Kumar; Sathishkumar, Kuppusamy; Almutairi, Bader O; Vadivelu, Aanand; Chokkakula, Santosh; Tu, Yanyang; Xie, Weimim",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2025-11-10",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 6,
+  "one_liner_zh": "综述了冷冻电镜与AI（如AlphaFold 2/3）在蛋白质结构建模中的互补进展，提及无序蛋白和柔性区域，但缺乏对IDR介导PPI机制建模的实质探讨。",
+  "abstract": "The structural elucidation of proteins is fundamental to understanding their biological functions and advancing drug discovery. Recent breakthroughs in cryo-electron microscopy (cryo-EM) and artificial intelligence (AI)-based structure prediction have revolutionized protein modeling by enabling near-atomic resolution visualization and highly accurate computational predictions from amino acid sequences. This review summarizes the latest advances that have transformed protein structural biology from a predominantly structure-solving endeavour to a discovery-driven science. We discuss the complementary roles of cryo-EM and AI, including developments in direct electron detectors, advanced image processing, and deep learning algorithms exemplified by AlphaFold 2 and the emerging AlphaFold 3. These technologies facilitate detailed insights into challenging protein targets such as membrane proteins, flexible and intrinsically disordered proteins, and large macromolecular complexes. Furthermore, we highlight applications of integrative approaches in drug design, enzymatic mechanism elucidation, and functional predictions, illustrated by examples including hemoglobin, which demonstrates both the strengths and current limitations of AI-cryo-EM integration, and cytochrome P450 enzymes, where AlphaFold predictions have been combined with cryo-EM maps to explore conformational diversity. The review also addresses ongoing challenges and promising future directions for integrating experimental and computational methods to accelerate the exploration of protein structure-function relationships, ultimately impacting biomedical research and therapeutic development.",
+  "abstract_zh": "蛋白质的结构解析是理解其生物学功能及推动药物发现的基础。近年来，冷冻电子显微镜（cryo-EM）和基于人工智能（AI）的结构预测方面的突破性进展，通过实现近原子分辨率可视化及从氨基酸序列进行高度准确的计算预测，彻底改变了蛋白质建模领域。本综述总结了将蛋白质结构生物学从以结构解析为主的工作转变为发现驱动科学的最新进展。我们讨论了cryo-EM和AI的互补作用，包括直接电子探测器、先进图像处理以及以AlphaFold 2和新兴AlphaFold 3为代表的深度学习算法的发展。这些技术促进了对具有挑战性的蛋白质靶标（如膜蛋白、柔性及 intrinsically disordered proteins，以及大型大分子复合物）的深入洞察。此外，我们强调了整合方法在药物设计、酶机制阐明和功能预测中的应用，并通过包括血红蛋白（其展示了AI-cryo-EM整合的优势及当前局限性）和细胞色素P450酶（其中AlphaFold预测与cryo-EM图谱结合以探索构象多样性）在内的实例加以说明。本综述还讨论了整合实验与计算方法以加速探索蛋白质结构-功能关系所面临的持续挑战和有前景的未来方向，最终影响生物医学研究和治疗开发。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41209584/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41209584/",
+  "paper_page_path": "papers/pubmed/41209584/index.html"
+}

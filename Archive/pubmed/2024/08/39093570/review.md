@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The abstract presents a review of experimental and computational methods for characterizing conformational ensembles of intrinsically disordered proteins and regions (IDP/IDRs), highlights recent computational advances enabling proteome-wide conformational scans, briefly evaluates selected computational methods using the disordered N-terminal region of human copper transporter 1 (hCtr1) as a test case, and outlines remaining challenges in IDP/IDR ensemble prediction.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, or comparative data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed method descriptions, the specific evaluation results for the hCtr1 test case, and any quantitative performance metrics
+
+## Reviewer
+- **Overall assessment** The abstract describes a timely and potentially useful review of IDP/IDR conformational ensemble prediction, with a novel element in the form of a computational method evaluation on a specific biological test case. However, the abstract alone provides insufficient detail to assess the rigor, depth, or novelty of the review content, the validity of the method evaluation, or the accuracy of the claims made. The scientific case for the review's value and the reliability of its conclusions cannot be established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists working on intrinsically disordered proteins, developers of molecular dynamics and machine learning methods for conformational sampling, and experimentalists seeking guidance on integrating computational predictions with biophysical measurements. The hCtr1 test case may also interest researchers studying copper homeostasis and membrane protein N-terminal domains.
+- **Major strengths** The topic is of high current relevance given the growing recognition of IDP/IDR functional importance. The abstract signals a practical orientation by including a concrete test case evaluation, which is uncommon in review articles and could provide useful benchmarking information. The scope from molecular dynamics to machine learning suggests broad coverage of the methodological landscape.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that selected computational methods are "briefly evaluated" using the disordered N-terminal of hCtr1 as a test case, implying that the review provides comparative performance information.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no information on which methods were evaluated, what criteria were used, what the outcomes were, or whether the evaluation was systematic or anecdotal. Without this information, the claim of an evaluation cannot be assessed for validity or usefulness.  
+  - **Why it matters** A key differentiator of this review appears to be the practical evaluation component. If the evaluation is not described with sufficient methodological transparency and quantitative detail, readers cannot judge whether the conclusions drawn from it are reliable or generalizable.  
+  - **Resolution test** The full manuscript must provide a clear description of the methods selected, the evaluation protocol, the metrics used, and the results obtained, ideally with quantitative comparisons and error estimates.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** The abstract states that recent computational advances "permit proteome-wide scans of IDP/IDRs conformations," implying that such scans are now feasible and reliable.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify which computational advances enable proteome-wide scans, what their limitations are, or whether such scans have been validated against experimental data. The claim is presented as a fact without supporting evidence.  
+  - **Why it matters** Proteome-wide conformational scanning is a strong claim that, if overstated, could mislead readers about the current state of the field. The review should critically assess the accuracy and limitations of such approaches rather than presenting them as established capabilities.  
+  - **Resolution test** The full manuscript must identify the specific methods, discuss their validation status, and provide a balanced assessment of their current accuracy, throughput, and remaining bottlenecks.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scope clarity  
+  - **Claim pointer** The abstract states that the review covers "experimental and computational methods devised to disentangle the conformational landscape of IDP/IDRs."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not indicate the depth of experimental method coverage, the selection criteria for included methods, or whether the review is intended to be comprehensive or selective. The balance between experimental and computational content is unclear.  
+  - **Why it matters** Readers need to know whether this is a comprehensive survey or a focused perspective to calibrate their expectations. An unclear scope can lead to misrepresentation of the field's breadth.  
+  - **Resolution test** The full manuscript should state the inclusion criteria for methods, the time frame covered, and the intended balance between experimental and computational approaches.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "ubiquitous across all domains of life" is a strong generalization that, while likely true, is stated without qualification or citation.  
+  - **Required correction** Provide a supporting reference or soften the claim to reflect current knowledge.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, description of IDP/IDR function  
+  - **Issue** The phrase "tunable interaction hubs" is evocative but not precisely defined. It is unclear what "tunable" refers to mechanistically.  
+  - **Required correction** Define the term or replace with a more precise description of how IDP/IDRs modulate interactions.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract content  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The abstract mentions "further challenges" but does not hint at what these challenges are, reducing the informative value of the abstract.  
+  - **Required correction** Briefly list one or two key challenges to give readers a preview of the review's forward-looking content.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The evaluation claim (R1-M1) requires full methodological transparency and quantitative results. The proteome-wide scanning claim (R1-M2) requires identification of specific methods and their validation status. Without addressing these, the review's core value proposition cannot be verified.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The inclusion of a practical method evaluation within a review is a potentially original contribution, but the abstract does not demonstrate that the evaluation is novel or that the review offers new insights beyond existing literature.  
+  - **Scientific importance** The topic is important, and a well-executed review with critical evaluation could be valuable. However, the abstract does not establish that the review fills a specific gap or provides a new synthesis.  
+  - **Interdisciplinary readership** The topic bridges computational chemistry, biophysics, and cell biology, and the abstract is written in accessible language. The hCtr1 test case adds a biological anchor that could broaden appeal.  
+  - **Technical soundness** Cannot be assessed from the abstract. The evaluation methodology and the accuracy of claims about computational advances are unverifiable without the full text.  
+  - **Readability for nonspecialists** The abstract is generally clear and avoids excessive jargon, though terms like "conformational ensembles" and "proteome-wide scans" may require some background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract signals a potentially useful review, but the core claims regarding method evaluation and proteome-wide scanning capabilities cannot be verified. A decision would require full manuscript access. If the full text provides rigorous evaluation details and balanced claims, the review could be supportive of publication in a specialized journal, though the scope and depth would need to match the standards of the target venue.
+
+## Risk / unsupported claims
+- The claim that recent computational advances "permit proteome-wide scans of IDP/IDRs conformations" is unsupported in the abstract and requires validation in the full text.
+- The claim that selected computational methods were "briefly evaluated" using hCtr1 is unverifiable without details on methods, criteria, and results.
+- The generalization that IDP/IDRs are "ubiquitous across all domains of life" is presented without citation or qualification.
+- The functional description of IDP/IDRs as "tunable interaction hubs" is asserted without mechanistic explanation or supporting evidence.

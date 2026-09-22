@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42084321",
+  "title": "A variational method for efficient estimation of diffusion and free-energy profiles along collective variables.",
+  "authors": "Hubman, Anze; Merzel, Franci",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2026-05-05",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 6,
+  "one_liner_zh": "提出一种变分方法，从投影分子动力学轨迹高效估计沿集体变量的扩散系数和自由能剖面，并应用于生物分子凝聚体界面的水扩散，虽对象为水而非无序蛋白PPI，但方法对IDR介导互作/相分离的机制建模有可迁移启发。",
+  "abstract": "An efficient variational method is presented for estimating the diffusion coefficients and free-energy profiles along selected collective variables from projected molecular dynamics trajectories under both equilibrium and non-equilibrium conditions. This method is based on the assumption that the short-time transition probability density of the coordinate moves can be approximated by a Gaussian form. Defining a loss function as the sum of Kullback-Leibler divergences between the analytical short-time propagators of an overdamped Langevin model and those estimated directly from the projected trajectories maximizes the agreement between the two and allows for its analytic evaluation. For cases where the Gaussian approximation is insufficient, we present a robust alternative. To efficiently minimize this loss function by varying diffusion and free-energy profiles along collective variables, we use an adaptive Monte Carlo scheme. The method is applied to two model systems exhibiting diffusive dynamics, as well as to water diffusion across the interface of a biomolecular condensate, demonstrating its robustness and accuracy.",
+  "abstract_zh": "提出了一种高效变分方法，用于从平衡和非平衡条件下的投影分子动力学轨迹中估计沿选定集体变量的扩散系数和自由能分布。该方法基于坐标运动的短时转移概率密度可近似为高斯形式的假设。将损失函数定义为过阻尼朗之万模型的解析短时传播子与直接从投影轨迹估计的传播子之间的Kullback-Leibler散度之和，最大化两者之间的一致性，并允许其解析评估。对于高斯近似不足的情况，我们提出了一种稳健的替代方案。为了通过沿集体变量变化扩散和自由能分布来高效最小化该损失函数，我们采用自适应蒙特卡洛方案。该方法应用于两个表现出扩散动力学的模型系统，以及生物分子凝聚体界面上的水扩散，展示了其稳健性和准确性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42084321/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42084321/",
+  "paper_page_path": "papers/pubmed/42084321/index.html"
+}

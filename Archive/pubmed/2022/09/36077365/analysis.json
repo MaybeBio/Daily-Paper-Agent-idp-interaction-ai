@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36077365",
+  "title": "Unusual Cytochrome c552 from Thioalkalivibrio paradoxus: Solution NMR Structure and Interaction with Thiocyanate Dehydrogenase.",
+  "authors": "Britikov, Vladimir V; Bocharov, Eduard V; Britikova, Elena V; Dergousova, Natalia I; Kulikova, Olga G; Solovieva, Anastasia Y; Shipkov, Nikolai S; Varfolomeeva, Larisa A; Tikhonova, Tamara V; Timofeev, Vladimir I; Shtykova, Eleonora V; Altukhov, Dmitry A; Usanov, Sergey A; Arseniev, Alexander S; Rakitina, Tatiana V; Popov, Vladimir O",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2022-09-10",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过NMR和对接方法解析了含无序末端区域的细胞色素c552与硫氰酸脱氢酶间的电子传递复合物结构，虽对象非典型IDP介导的相分离PPI，但其无序区域参与互作界面的机制建模思路对本课题有迁移价值。",
+  "abstract": "The search of a putative physiological electron acceptor for thiocyanate dehydrogenase (TcDH) newly discovered in the thiocyanate-oxidizing bacteria Thioalkalivibrio paradoxus revealed an unusually large, single-heme cytochrome c (CytC552), which was co-purified with TcDH from the periplasm. Recombinant CytC552, produced in Escherichia coli as a mature protein without a signal peptide, has spectral properties similar to the endogenous protein and serves as an in vitro electron acceptor in the TcDH-catalyzed reaction. The CytC552 structure determined by NMR spectroscopy reveals significant differences compared to those of the typical class I bacterial cytochromes c: a high solvent accessible surface area for the heme group and so-called \"intrinsically disordered\" nature of the histidine-rich N- and C-terminal regions. Comparison of the signal splitting in the heteronuclear NMR spectra of oxidized, reduced, and TcDH-bound CytC552 reveals the heme axial methionine fluxionality. The TcDH binding site on the CytC552 surface was mapped using NMR chemical shift perturbations. Putative TcDH-CytC552 complexes were reconstructed by the information-driven docking approach and used for the analysis of effective electron transfer pathways. The best pathway includes the electron hopping through His528 and Tyr164 of TcDH, and His83 of CytC552 to the heme group in accordance with pH-dependence of TcDH activity with CytC552.",
+  "abstract_zh": "对硫氰酸盐氧化细菌Thioalkalivibrio paradoxus中新发现的硫氰酸脱氢酶（TcDH）推定生理电子受体的搜索揭示了一种异常大的单血红素细胞色素c（CytC552），该蛋白与TcDH从周质中共同纯化。重组CytC552在大肠杆菌中作为无信号肽的成熟蛋白产生，其光谱特性与内源蛋白相似，并在TcDH催化的反应中作为体外电子受体。通过NMR光谱测定的CytC552结构显示，与典型的I类细菌细胞色素c相比存在显著差异：血红素基团具有高溶剂可及表面积，以及富含组氨酸的N端和C端区域具有所谓的“ intrinsically disordered”（内在无序）特性。氧化态、还原态及TcDH结合态CytC552的异核NMR光谱中信号分裂的比较揭示了血红素轴向甲硫氨酸的流动性。通过NMR化学位移扰动绘制了TcDH在CytC552表面的结合位点。利用信息驱动对接方法重建了推定的TcDH-CytC552复合物，并用于分析有效电子传递路径。最佳路径包括通过TcDH的His528和Tyr164以及CytC552的His83到血红素基团的电子跳跃，这与TcDH活性随pH变化及CytC552的依赖性一致。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36077365/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36077365/",
+  "paper_page_path": "papers/pubmed/36077365/index.html"
+}

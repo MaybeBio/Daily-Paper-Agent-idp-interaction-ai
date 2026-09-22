@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42407334",
+  "title": "Progress toward linking single-molecule behavior and condensate material properties.",
+  "authors": "Garcia, Pablo L; Chakravarti, Ananya; Joseph, Jerelle A",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2026-07-07",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 7,
+  "one_liner_zh": "综述了连接单分子行为与凝聚体材料性质的实验和模拟方法进展，聚焦分子性质如何塑造凝聚体行为，虽为综述且未深入具体PPI机制，但以IDR/相分离为对象并强调分子模拟桥接尺度，对本课题有方法学启发。",
+  "abstract": "Biomolecular condensates exhibit distinct material properties that are intimately linked to their functions. A major open question is how the properties of biomolecules shape emergent condensate behaviors. Experimental approaches have provided valuable insights into bulk material properties, yet direct observation of individual molecules within condensates remains challenging. Complementing experiments, molecular simulations have become indispensable in helping bridge scales from molecules to mesoscale assemblies. In this review, we discuss methodological advances in experiments and simulation that elucidate the relationships between molecular properties and condensate behavior and highlight frontiers in probing molecular ensembles within condensates. By integrating single-molecule perspectives with collective material properties, we outline emerging principles that connect microscopic interactions to macroscale condensate properties.",
+  "abstract_zh": "生物分子凝聚体展现出与其功能密切相关的独特材料特性。一个重要的未解问题是生物分子的性质如何塑造涌现性的凝聚体行为。实验方法已为整体材料特性提供了宝贵见解，但直接观察凝聚体内单个分子仍具挑战性。作为实验的补充，分子模拟在连接从分子到介观组装的尺度方面已成为不可或缺的工具。在本综述中，我们讨论了实验和模拟中的方法学进展，这些进展阐明了分子性质与凝聚体行为之间的关系，并强调了探测凝聚体内分子集合的前沿领域。通过整合单分子视角与集体材料特性，我们概述了将微观相互作用与宏观凝聚体特性联系起来的新兴原理。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42407334/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42407334/",
+  "paper_page_path": "papers/pubmed/42407334/index.html"
+}

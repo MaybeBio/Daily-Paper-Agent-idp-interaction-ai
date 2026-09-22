@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.07.723405",
+  "title": "Local aromatic interactions define temperature sensitivity of phase separation in an intrinsically disordered protein",
+  "authors": "Yumiko Ohhashi; Suguru Nishinami; Yoko Maruyama; Mao Fukuyama; Kentaro Shiraki; Eri Chatani; Hideki Taguchi",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-08",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过突变与实验揭示Sup35NM无序蛋白中酪氨酸芳香相互作用调控相分离温度敏感性的分子机制，虽以实验为主但聚焦IDP相分离的互作机制建模，对本课题有直接参考价值。",
+  "abstract": "Liquid–liquid phase separation (LLPS) of intrinsically disordered proteins is highly sensitive to environmental conditions, yet the molecular basis of sharp temperature responsiveness remains poorly understood. Here, we investigate a sequence-encoded mechanism underlying the pronounced temperature sensitivity of phase separation using Sup35NM, the intrinsically disordered domain of the yeast prion Sup35. We show that a tyrosine-rich local structural region within this domain encodes strong temperature responsiveness of droplet formation. Mutational analyses reveal that tyrosine residues mediate both intramolecular interactions that stabilize local structure and intermolecular interactions required for LLPS. Substitution of the tyrosine residues with alanine disrupts local structure and weakens intermolecular interactions, thereby diminishing temperature sensitivity. In contrast, substitution with phenylalanine promotes rapid droplet gelation, abolishes internal fluidity, suppresses amyloid formation, and confers resistance to temperature-induced dissolution. Based on these findings, we propose a molecular model in which finely tuned, moderately weak aromatic interactions among tyrosines enable reversible local compaction that is sensitive to temperature, thereby generating a sharp phase transition. These results suggest that amino acid sequences encode not only phase separation propensity but also the sensitivity of condensates to environmental perturbations, providing a framework for understanding how intrinsically disordered proteins act as molecular sensors of cellular conditions.",
+  "abstract_zh": "intrinsically disordered proteins（本质无序蛋白）的液-液相分离（liquid–liquid phase separation, LLPS）对环境条件高度敏感，然而尖锐温度响应性的分子基础仍知之甚少。在此，我们利用酵母朊病毒Sup35的本质无序结构域Sup35NM，研究相分离显著温度敏感性背后的序列编码机制。我们表明，该结构域内一个富含酪氨酸的局部结构区域编码了液滴形成的强温度响应性。突变分析揭示，酪氨酸残基同时介导稳定局部结构的分子内相互作用和LLPS所需的分子间相互作用。将酪氨酸残基替换为丙氨酸会破坏局部结构并削弱分子间相互作用，从而降低温度敏感性。相反，替换为苯丙氨酸则促进液滴快速凝胶化、消除内部流动性、抑制淀粉样蛋白形成，并赋予对温度诱导解离的抵抗性。基于这些发现，我们提出一个分子模型，其中酪氨酸间精细调节的、中等强度的芳香族相互作用实现了对温度敏感的可逆局部压缩，从而产生尖锐的相变。这些结果表明，氨基酸序列不仅编码相分离倾向，还编码凝聚体对环境扰动的敏感性，为理解本质无序蛋白如何作为细胞条件的分子传感器提供了框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.07.723405",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.07.723405",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.07.723405/index.html"
+}

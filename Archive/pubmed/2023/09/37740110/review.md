@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present a Tutorial that overviews and compares 23 publicly available computational tools for intrinsic disorder prediction, drawing partly on Critical Assessment of protein Intrinsic Disorder prediction (CAID) results. They evaluate tools on accuracy, runtime, availability, and functional insight needs, and provide practical guidance for submission, collection, and interpretation of predictions. They specifically recommend flDPnn as accurate and fast, IUPred as very fast and moderately accurate, and ANCHOR2 and MoRFchibi as top performers for disordered region binding prediction. They also link to additional resources and claim the Tutorial is suitable for experimentalists and computational biologists.
+- **Visible evidence base** Abstract text only; no methodological details, benchmark data, tool versions, or comparative statistics provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, tool descriptions, benchmark datasets, CAID experiment details, runtime measurements, and any validation or reproducibility data
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable tutorial for a broad audience, addressing a practical need in the field of intrinsic disorder prediction. However, the abstract alone provides insufficient evidence to evaluate the technical soundness, the basis for tool recommendations, or the reproducibility of the described workflows. The claims are plausible but not verifiable from the supplied material. The tutorial format is appropriate for Nature Protocols, but the strength of the recommendations and the completeness of the comparative analysis cannot be assessed without the full text.
+- **Who would be interested in the results, and why** Experimental biologists seeking to incorporate disorder predictions into protein characterization workflows, computational biologists developing or applying prediction tools, and educators or methodologists in structural bioinformatics. The tutorial's practical focus on tool selection and interpretation would appeal to nonspecialists who need accessible guidance.
+- **Major strengths** The abstract addresses a clear and timely need by consolidating 23 tools into a comparative framework. The inclusion of CAID-derived evidence, though partial, lends credibility. The emphasis on practical aspects such as runtime, availability, and interpretation is well aligned with user needs. The recommendation of specific tools provides actionable guidance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the selected tools "offer state-of-the-art predictions" and that specific tools are "accurate and fast" (flDPnn), "very fast and moderately accurate" (IUPred), and "best-performing" (ANCHOR2, MoRFchibi) for binding region prediction.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data, benchmark results, or statistical comparisons to support these performance claims. The basis for "state-of-the-art" and "best-performing" is not specified beyond a vague reference to CAID. Without access to the underlying comparisons, the recommendations cannot be independently verified.
+  - **Why it matters** The core value of this Tutorial depends on the reliability and transparency of its tool recommendations. If the performance claims are not substantiated with clear evidence, readers may make suboptimal tool choices, undermining the tutorial's practical utility.
+  - **Resolution test** The full text must include explicit benchmark data, such as accuracy metrics (e.g., AUC, Matthews correlation coefficient), runtime comparisons, and statistical significance tests, with clear references to CAID results and any additional evaluations. The recommendations should be traceable to these data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that the Tutorial provides "examples and instructions" for tool submission, collection, and interpretation, and that it is a "hands-on guide."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the nature of the examples, the input data used, or the expected outputs. There is no indication of whether the instructions are step-by-step, include troubleshooting, or address common pitfalls. The reproducibility of the workflows cannot be assessed.
+  - **Why it matters** For a protocol-oriented journal, reproducibility is paramount. Readers need to know that the instructions are complete, unambiguous, and tested. Without evidence of this, the tutorial's practical value is uncertain.
+  - **Resolution test** The full text must provide detailed, versioned instructions for each tool, including example inputs and outputs, expected runtimes, and notes on common errors. Ideally, the authors should state that the workflows were validated on test cases.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope justification
+  - **Claim pointer** The abstract claims the Tutorial covers "23 publicly available computational tools" and considers "accuracy, runtime, availability and the need for functional insights."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The criteria for tool selection are not stated. It is unclear why these 23 tools were chosen over others, whether the selection is exhaustive, or if it is biased toward certain methods. The abstract does not explain how "functional insights" are assessed or weighted.
+  - **Why it matters** A tutorial that claims to guide tool selection must justify its scope. If the selection criteria are arbitrary or incomplete, readers may question the comprehensiveness and applicability of the recommendations.
+  - **Resolution test** The full text should include a clear methodology for tool selection, including inclusion and exclusion criteria, and a rationale for the chosen tools. The assessment framework for each criterion should be defined.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Tool recommendation phrasing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "flDPnn as accurate and fast and IUPred as very fast and moderately accurate" is ambiguous regarding the trade-off between accuracy and speed. It is unclear whether "moderately accurate" is a limitation or acceptable for certain use cases.
+  - **Required correction** Clarify the intended use cases for each recommended tool, e.g., "flDPnn for high-accuracy needs, IUPred for rapid screening."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Resource linking
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "additional resources, including databases of predictions and web servers that integrate multiple predictive methods" but does not name any. This is vague and reduces the abstract's informativeness.
+  - **Required correction** Provide specific examples of these resources in the abstract, such as MobiDB or D2P2, to enhance utility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Audience alignment
+  - **Affected element** Suitability claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that the Tutorial is "suitable for experimentalists and computational biologists" is broad. The abstract does not indicate the required level of prior bioinformatics expertise, which may mislead potential readers.
+  - **Required correction** Specify the assumed background, e.g., "no prior experience with disorder prediction tools is required, but basic familiarity with protein sequences is assumed."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient evidence to validate the core performance claims or the reproducibility of the tutorial workflows. R1-M3 is non-blocking but should be addressed to strengthen the tutorial's credibility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract does not clearly differentiate this Tutorial from existing reviews or benchmarks in the field. The comparative approach is not novel, though the practical focus may add value. This is not fully assessable from the abstract.
+  - Scientific importance: The topic is important given the widespread use of disorder prediction, but the abstract does not demonstrate a significant advance over existing resources.
+  - Interdisciplinary readership: The abstract targets both experimentalists and computational biologists, which is appropriate, but the lack of technical detail limits its appeal to specialists.
+  - Technical soundness: Not assessable from the abstract; no methods or data are provided.
+  - Readability for nonspecialists: The abstract is clear and accessible, but the vague references to tools and resources may confuse readers unfamiliar with the field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful tutorial, but the absence of quantitative evidence and methodological detail prevents a supportive recommendation. I would be supportive if the full text provides robust benchmark data, transparent tool selection criteria, and reproducible instructions.
+
+## Risk / unsupported claims
+- The claim that the 23 tools "offer state-of-the-art predictions" is unsupported without benchmark data.
+- The specific performance rankings for flDPnn, IUPred, ANCHOR2, and MoRFchibi are unsupported without quantitative comparisons.
+- The claim that the Tutorial is a "hands-on guide" is unverifiable without evidence of detailed, tested instructions.
+- The suitability for "experimentalists and computational biologists" is not substantiated with clarity on required expertise.
+- The reference to "additional resources" is vague and cannot be evaluated.

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present PNAbind, a graph neural network-based method that predicts protein-nucleic acid (NA) binding from apo protein structures. The method uses global physicochemical encodings to predict overall binding function and DNA/RNA specificity, and local encodings to predict binding site residues. Predictions on AlphaFold2-modeled structures are claimed to provide mechanistic insight. Binding site predictions are reported with AUROC scores of 0.92-0.95, and application to APOBEC3G is stated to be consistent with experimental RNA binding data.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or benchmark descriptions were supplied
+- **Missing materials affecting confidence** Full manuscript, methods section, benchmark dataset definitions, model architecture details, training and validation procedures, AUROC calculation specifics, APOBEC3G experimental comparison details, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful computational tool for predicting protein-nucleic acid interactions from apo structures, with a plausible methodological approach based on graph neural networks and molecular surface encodings. However, the evidence provided in the abstract is insufficient to evaluate the validity, robustness, or generalizability of the claims. Key technical details and validation results are missing, and the reported performance metrics cannot be assessed without knowing the benchmark composition, data splitting, and comparison baselines. The claim of mechanistic insight from AlphaFold2-modeled structures is intriguing but unsupported in the abstract. The APOBEC3G application is mentioned but not described in sufficient detail to judge consistency with experimental data.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, structural biology researchers studying protein-nucleic acid interactions, and experimentalists seeking to prioritize binding site residues for mutagenesis or functional studies. The method could also interest developers of deep learning tools for structural biology and researchers using AlphaFold2 models for downstream functional annotation.
+- **Major strengths** The problem addressed is important and timely, given the relative scarcity of protein-NA complex structures compared to unbound protein structures. The use of graph neural networks on molecular surface properties is a modern and appropriate methodological choice. The dual focus on global function prediction and local binding site prediction is a useful combination. The application to a biologically relevant system (APOBEC3G) with experimental validation is a positive feature.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims binding site predictions were validated against benchmark datasets achieving AUROC scores in the range of 0.92-0.95.
+  - **Evidence pointer** "Binding site predictions were validated against benchmark datasets, achieving AUROC scores in the range of 0.92-0.95" (abstract, location not provided)
+  - **Concern** The AUROC values are reported without any information about the benchmark datasets used, the number of proteins tested, the definition of a true positive binding residue, the data splitting strategy (e.g., sequence or structure similarity-based splitting), or the comparison to existing methods. Without these details, the performance claims cannot be interpreted or reproduced.
+  - **Why it matters** High AUROC values can be misleading if benchmarks are small, biased, or if the task is trivially easy (e.g., if most residues are non-binding and the model predicts a large fraction as non-binding). The lack of methodological context prevents assessment of whether the reported performance is meaningful or competitive.
+  - **Resolution test** Provide full benchmark descriptions including dataset composition, size, splitting strategy, positive/negative residue definitions, and comparison to at least one existing method. Report precision-recall curves or other metrics less sensitive to class imbalance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that predictions made on AlphaFold2-modeled structures can be used to gain mechanistic understanding of chemical and structural features that determine NA recognition.
+  - **Evidence pointer** "We show that such predictions made on protein structures modeled with AlphaFold2 can be used to gain mechanistic understanding" (abstract, location not provided)
+  - **Concern** No specific examples, analyses, or validations are provided to support this claim. It is unclear what "mechanistic understanding" means in this context, how it was derived from the model predictions, or whether it was validated against independent experimental or structural data.
+  - **Why it matters** This claim extends beyond simple prediction accuracy to interpretability and biological insight. If unsupported, it overstates the utility of the method and could mislead potential users.
+  - **Resolution test** Provide a concrete case study with detailed analysis of which features the model identifies as important, how these relate to known binding mechanisms, and any experimental or structural validation of the proposed mechanistic insights.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims the models can discriminate between specificity for DNA or RNA binding.
+  - **Evidence pointer** "Our models predict the overall binding function of a protein and can discriminate between specificity for DNA or RNA binding" (abstract, location not provided)
+  - **Concern** No performance metrics, dataset descriptions, or evaluation procedures are provided for the DNA/RNA discrimination task. It is unclear how many proteins were tested, what the class balance was, or what accuracy was achieved.
+  - **Why it matters** DNA/RNA discrimination is a challenging classification problem, and the claim of success requires quantitative evidence. Without it, the reader cannot judge whether the discrimination is reliable or coincidental.
+  - **Resolution test** Report classification accuracy, confusion matrix, and dataset composition for the DNA/RNA discrimination task, including the number of DNA-binding, RNA-binding, and dual-specificity proteins tested.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims the application to APOBEC3G shows predictions consistent with experimental RNA binding data.
+  - **Evidence pointer** "We applied our models to the HIV-1 restriction factor APOBEC3G and show that our predictions are consistent with experimental RNA binding data" (abstract, location not provided)
+  - **Concern** The nature of the experimental data, the specific predictions made, and the method of comparison are not described. "Consistent" is vague and could range from qualitative overlap to quantitative correlation.
+  - **Why it matters** This is presented as a validation of the method on a biologically important system. Without details, the reader cannot assess the strength of the consistency or whether the comparison was appropriate.
+  - **Resolution test** Describe the experimental RNA binding data (e.g., which residues were identified as binding), the model predictions for those residues, and the statistical or qualitative method used to establish consistency.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** "PNAbind: Structure-based prediction of protein-nucleic acid binding using graph neural networks" (title, location not provided)
+  - **Issue** The abstract uses technical terms such as "graph neural networks," "physicochemical encodings," and "molecular surface" without brief explanations. Nonspecialist readers may struggle to understand the methodological novelty.
+  - **Required correction** Add one or two sentences in the abstract that briefly explain what graph neural networks do in this context and why molecular surface properties are relevant to nucleic acid binding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** "Structural models of protein-NA complexes provide insights into these properties but are scarce relative to models of unbound proteins" (abstract, location not provided)
+  - **Issue** The abstract does not explicitly state the potential impact of the method, such as enabling high-throughput functional annotation of uncharacterized proteins or guiding experimental studies.
+  - **Required correction** Add a sentence in the abstract or introduction that states the broader utility of the method, such as its applicability to proteome-wide screening or its value in prioritizing experimental validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** "Using local encodings, our models predict the location of NA binding sites at the level of individual binding residues" (abstract, location not provided)
+  - **Issue** The abstract does not specify whether the local encodings are derived from the same graph neural network architecture as the global encodings or whether a separate model is used.
+  - **Required correction** Clarify whether the global and local predictions come from the same model or from separate models, and briefly describe how the local encodings are generated.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** 
+  - **Originality** The approach of using graph neural networks on molecular surface properties for protein-NA binding prediction appears novel, but the abstract does not provide enough context to distinguish it from prior work in protein-ligand or protein-protein binding prediction. The originality claim is plausible but not fully established from the abstract alone.
+  - **Scientific importance** The problem of predicting protein-NA binding from apo structures is important, and the potential to use AlphaFold2 models is timely. However, the abstract does not articulate the broader impact or how the method advances the field beyond existing tools.
+  - **Interdisciplinary readership** The work bridges structural biology, machine learning, and molecular biology. The abstract is likely accessible to computational biologists but may be challenging for experimentalists without additional context.
+  - **Technical soundness** The technical soundness cannot be assessed from the abstract alone. The reported AUROC values lack context, and the claims of mechanistic insight and DNA/RNA discrimination are unsupported by quantitative evidence.
+  - **Readability for nonspecialists** The abstract is concise but uses specialized terminology without explanation. The structure is logical, but the lack of context for key claims reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable method, but the absence of methodological details, benchmark descriptions, and validation specifics prevents assessment of the core claims. The authors should provide the full manuscript with detailed methods and results before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim of achieving AUROC scores of 0.92-0.95 for binding site prediction is unsupported without benchmark details and comparison baselines.
+- The claim that predictions on AlphaFold2-modeled structures provide mechanistic understanding is unsupported without specific examples or validation.
+- The claim of discriminating between DNA and RNA binding specificity is unsupported without performance metrics and dataset descriptions.
+- The claim that APOBEC3G predictions are consistent with experimental RNA binding data is unsupported without details of the comparison.
+- The general claim that the method "predicts the overall binding function of a protein" is not quantified or validated in the abstract.

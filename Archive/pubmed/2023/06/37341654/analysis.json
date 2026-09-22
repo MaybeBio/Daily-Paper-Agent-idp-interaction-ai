@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37341654",
+  "title": "Binding-and-Folding Recognition of an Intrinsically Disordered Protein Using Online Learning Molecular Dynamics.",
+  "authors": "Herrera-Nieto, Pablo; Perez, Adria; De Fabritiis, Gianni",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2023-06-21",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用在线学习分子动力学(自适应采样)重建无序蛋白c-Myb与KIX的耦合折叠-结合过程，揭示初始接触与构象选择/诱导拟合机制，对象、PPI机制与物理模拟方法三者齐备。",
+  "abstract": "Intrinsically disordered proteins participate in many biological processes by folding upon binding to other proteins. However, coupled folding and binding processes are not well understood from an atomistic point of view. One of the main questions is whether folding occurs prior to or after binding. Here we use a novel, unbiased, high-throughput adaptive sampling approach to reconstruct the binding and folding between the disordered transactivation domain of c-Myb and the KIX domain of the CREB-binding protein. The reconstructed long-term dynamical process highlights the binding of a short stretch of amino acids on c-Myb as a folded alpha-helix. Leucine residues, especially Leu298-Leu302, establish initial native contacts that prime the binding and folding of the rest of the peptide, with a mixture of conformational selection on the N-terminal region with an induced fit of the C-terminal.",
+  "abstract_zh": "固有无序蛋白通过与其他蛋白质结合时折叠，参与许多生物过程。然而，从原子层面来看，偶联的折叠与结合过程尚未被充分理解。主要问题之一是折叠发生在结合之前还是之后。在此，我们采用一种新颖、无偏、高通量的自适应采样方法，重建c-Myb的无序反式激活域与CREB结合蛋白的KIX域之间的结合与折叠过程。重建的长期动态过程突显了c-Myb上短氨基酸序列以折叠的α-螺旋形式结合。亮氨酸残基，尤其是Leu298-Leu302，建立初始天然接触，为肽段其余部分的结合与折叠提供启动，其中N端区域呈现构象选择与C端诱导拟合的混合机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37341654/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37341654/",
+  "paper_page_path": "papers/pubmed/37341654/index.html"
+}

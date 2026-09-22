@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "42589701",
+    "doi": "10.3390/ijms27157052",
+    "title": "SASH1 as a Context-Dependent Multi-Docking Scaffold Linking Receptor Signaling to Cytoskeletal Dynamics."
+  },
+  "content": {
+    "abstract": "SASH1 (SAM [sterile alpha motif] and SH3 [SRC-homology-3] domain-containing protein 1) is a multidomain scaffold implicated in pigmentation, innate immunity, receptor signaling, cytoskeletal dynamics, vascular biology, and tumor suppression. Although genetic and expression studies link SASH1 dysfunction to diverse diseases, a unifying mechanistic framework has remained elusive. Here, we synthesize current knowledge of SASH1 structure, interaction networks, and biological functions across cell types and disease contexts. SASH1 contains an intrinsically disordered SPIDER (SLy Proteins Associated Disordered Region), an SH3 domain, two SAM domains, and multiple linear motifs; together, these elements mediate interactions with EphA8 (ephrin type-A receptor 8), beta-arrestin 1, TRAF6 (TNF receptor-associated factor 6), CRKL (CRK-like proto-oncogene), IQGAP1 (IQ-motif-containing GTPase-activating protein 1), cortactin, and TNKS2 (tankyrase-2). We propose that SASH1 functions as a context-dependent multi-docking scaffold that organizes signaling architecture. Its modular domains, intrinsically disordered regions, and dual SAM domains enable flexible, multivalent interactions with partners that can be grouped into three functional modules: receptor regulation, intracellular signaling, and cytoskeletal organization. Notably, many SASH1 partners are themselves scaffold or adaptor proteins, allowing integration into pre-existing networks in a hierarchical 'scaffold-of-scaffolds' manner. Through selective partner recruitment, SASH1 links cell-surface receptor inputs to downstream signaling pathways and cytoskeletal remodeling. This model provides a mechanistic framework for how SASH1 drives diverse, cell-type-specific outputs across physiology and disease, while revealing broader principles by which multidomain scaffolds encode cellular behavior.",
+    "keywords": [
+      "SASH1 (SAM and SH3 domain-containing protein 1)",
+      "SASH1-associated pigmentary diseases (SAPD)",
+      "SLy proteins associated disordered region (SPIDER)",
+      "SRC-homology-3 (SH3) domain",
+      "pigmentation disorders",
+      "scaffold protein",
+      "sterile alpha motif (SAM) domain",
+      "tankyrase",
+      "tumor suppressor"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cytoskeleton/metabolism",
+      "*Signal Transduction",
+      "Animals",
+      "*Tumor Suppressor Proteins/metabolism/chemistry/genetics",
+      "Proto-Oncogene Mas",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Clements, Christopher M",
+        "Roney, Md Saiful Islam",
+        "Shellman, Yiqun G"
+      ],
+      "short_names": [
+        "Clements CM",
+        "Roney MSI",
+        "Shellman YG"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3404-1797",
+        "ORCID: 0000-0003-3575-6281",
+        "ORCID: 0000-0003-0598-5753"
+      ],
+      "affiliations": [
+        "Department of Dermatology, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+        "Department of Dermatology, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+        "Department of Dermatology, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+        "Gates Institute, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+        "Rocky Mountain Regional VA Medical Center, Aurora, CO 80045, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Clements, Christopher M",
+        "short_name": "Clements CM",
+        "identifiers": [
+          "0000-0002-3404-1797"
+        ],
+        "affiliations": [
+          "Department of Dermatology, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+          "Department of Biochemistry and Molecular Genetics, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Roney, Md Saiful Islam",
+        "short_name": "Roney MSI",
+        "identifiers": [
+          "0000-0003-3575-6281"
+        ],
+        "affiliations": [
+          "Department of Dermatology, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA."
+        ]
+      },
+      {
+        "full_name": "Shellman, Yiqun G",
+        "short_name": "Shellman YG",
+        "identifiers": [
+          "0000-0003-0598-5753"
+        ],
+        "affiliations": [
+          "Department of Dermatology, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+          "Gates Institute, University of Colorado Anschutz Medical Campus, Aurora, CO 80045, USA.",
+          "Rocky Mountain Regional VA Medical Center, Aurora, CO 80045, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Aug 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/13 05:35",
+    "fetched_at": "2026-09-18 05:36:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41915355",
+      "41899638",
+      "41744791",
+      "41690666",
+      "41381542",
+      "41103766",
+      "41099090",
+      "40511878",
+      "40362257",
+      "40115815",
+      "39688081",
+      "39664191",
+      "39300116",
+      "38848986",
+      "38212557",
+      "38069287",
+      "37848535",
+      "37808724",
+      "37619706",
+      "37543808",
+      "37296980",
+      "37155029",
+      "37071417",
+      "36341956",
+      "36286186",
+      "36257935",
+      "34265844",
+      "33910596",
+      "33801580",
+      "33710696",
+      "33195233",
+      "33134379",
+      "33122723",
+      "32981204",
+      "32849825",
+      "32547092",
+      "32174800",
+      "32147820",
+      "31100995",
+      "31067462",
+      "30849620",
+      "30682370",
+      "30631134",
+      "30615611",
+      "30480076",
+      "30078712",
+      "29956681",
+      "29604130",
+      "29162307",
+      "28225081",
+      "27885802",
+      "27840890",
+      "27831555",
+      "27637080",
+      "26338675",
+      "26318107",
+      "26203640",
+      "25618329",
+      "25531225",
+      "25315659",
+      "25022754",
+      "24773235",
+      "23776175",
+      "23333244",
+      "23108792",
+      "23023727",
+      "22915266",
+      "22398450",
+      "22153077",
+      "21836019",
+      "21820526",
+      "21805519",
+      "21551057",
+      "21150874",
+      "20207744",
+      "19759537",
+      "19666031",
+      "19648646",
+      "17088907",
+      "16439662",
+      "15845844",
+      "15264254",
+      "15254296",
+      "12771949",
+      "12110184",
+      "11594764",
+      "11536050",
+      "11470164",
+      "9405336"
+    ],
+    "similar": [
+      "42589701",
+      "30480076",
+      "37155029",
+      "33710696",
+      "37619706",
+      "23994464",
+      "24263067",
+      "31067462",
+      "35685361",
+      "42475469",
+      "23776175",
+      "31527084",
+      "39942820",
+      "39688081",
+      "21879738",
+      "11069756",
+      "9843575",
+      "23669186",
+      "36341956",
+      "10781592",
+      "16766517",
+      "21296879",
+      "10092207",
+      "40511878",
+      "8643668",
+      "32060095",
+      "24333164",
+      "32582980",
+      "24018043",
+      "32708183",
+      "31138780",
+      "38657867",
+      "17065230",
+      "38240571",
+      "11314030",
+      "29892299",
+      "18165234",
+      "41099090",
+      "27885802",
+      "7782336",
+      "32523092",
+      "21820526",
+      "22745667",
+      "31952801",
+      "17380510",
+      "27178818",
+      "20603213",
+      "27178819",
+      "26722413",
+      "10359574",
+      "42146949",
+      "40889683",
+      "7516469",
+      "9614078",
+      "32241909",
+      "39300116",
+      "33724154",
+      "12771949",
+      "7799925",
+      "9674711",
+      "26935246",
+      "10648385",
+      "11557983",
+      "37296980",
+      "25625930",
+      "39113560",
+      "28104445",
+      "9351809",
+      "9788432",
+      "7797522",
+      "23108792",
+      "32238831",
+      "28188290",
+      "9566877",
+      "18654987",
+      "27769899",
+      "16982606",
+      "33539010",
+      "9820532",
+      "14766395",
+      "24825902",
+      "22543239",
+      "8662998",
+      "37626864",
+      "7929073",
+      "27385341",
+      "40409556",
+      "23912807",
+      "2236073",
+      "41915355",
+      "23333244",
+      "27831555",
+      "32586229",
+      "41284354",
+      "12522133",
+      "9480911",
+      "9295052",
+      "11309416",
+      "29025973",
+      "31318326"
+    ],
+    "review": [
+      "42589701",
+      "33710696",
+      "23994464",
+      "24263067",
+      "11069756",
+      "23669186",
+      "10092207",
+      "40511878",
+      "24333164",
+      "32708183",
+      "42146949",
+      "33724154",
+      "37296980",
+      "25625930",
+      "39113560",
+      "14766395"
+    ],
+    "pmc": [
+      "13467429"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27157052",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42589701/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3584",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

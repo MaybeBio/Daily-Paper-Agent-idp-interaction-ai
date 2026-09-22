@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "35762723",
+    "doi": "10.1002/pro.4375",
+    "title": "More is simpler: Decomposition of ligand-binding affinity for proteins being disordered."
+  },
+  "content": {
+    "abstract": "In statistical mechanics, it is well known that the huge number of degrees of freedom does not complicate the problem as it seems, but actually greatly simplifies the analysis (e.g., to give a Boltzmann distribution). Here, we reveal that the ensemble averaging from the vast conformations of intrinsically disordered proteins (IDPs) greatly simplifies the nature of binding affinity, which can be reliably decomposed into a sum of the ligandability of IDP and the capacity of ligand. Such an unexpected regularity is applied to facilitate the virtual screening upon IDPs. It also provides essential insight in understanding the specificity difference between IDPs and conventional ordered proteins since the specificity is caused by deviation from the baseline behavior of protein-ligand binding.",
+    "keywords": [
+      "affinity",
+      "druggability",
+      "druglikeness",
+      "intrinsically disordered proteins",
+      "leadlikeness",
+      "ligandability",
+      "molecular docking",
+      "specificity",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Ligands",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xiaohui",
+        "Chong, Bin",
+        "Sun, Zhaoxi",
+        "Ruan, Hao",
+        "Yang, Yingguang",
+        "Song, Pengbo",
+        "Liu, Zhirong"
+      ],
+      "short_names": [
+        "Wang X",
+        "Chong B",
+        "Sun Z",
+        "Ruan H",
+        "Yang Y",
+        "Song P",
+        "Liu Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8311-7797",
+        "ORCID: 0000-0001-5070-8048"
+      ],
+      "affiliations": [
+        "College of Chemistry and Molecular Engineering, and Beijing National Laboratory for Molecular Sciences (BNLMS), Peking University, Beijing, China.",
+        "School of Economics and Management, Tsinghua University, Beijing, China.",
+        "College of Chemistry and Molecular Engineering, and Beijing National Laboratory for Molecular Sciences (BNLMS), Peking University, Beijing, China.",
+        "College of Chemistry and Molecular Engineering, and Beijing National Laboratory for Molecular Sciences (BNLMS), Peking University, Beijing, China.",
+        "School of Cyberscience, University of Science and Technology of China, Hefei, China.",
+        "College of Chemistry and Molecular Engineering, and Beijing National Laboratory for Molecular Sciences (BNLMS), Peking University, Beijing, China.",
+        "College of Chemistry and Molecular Engineering, and Beijing National Laboratory for Molecular Sciences (BNLMS), Peking University, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xiaohui",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Molecular Engineering, and Beijing National Laboratory for Molecular Sciences (BNLMS), Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chong, Bin",
+        "short_name": "Chong B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Economics and Management, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Zhaoxi",
+        "short_name": "Sun Z",
+        "identifiers": [
+          "0000-0001-8311-7797"
+        ],
+        "affiliations": [
+          "College of Chemistry and Molecular Engineering, and Beijing National Laboratory for Molecular Sciences (BNLMS), Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ruan, Hao",
+        "short_name": "Ruan H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Molecular Engineering, and Beijing National Laboratory for Molecular Sciences (BNLMS), Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yingguang",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Cyberscience, University of Science and Technology of China, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Song, Pengbo",
+        "short_name": "Song P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry and Molecular Engineering, and Beijing National Laboratory for Molecular Sciences (BNLMS), Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhirong",
+        "short_name": "Liu Z",
+        "identifiers": [
+          "0000-0001-5070-8048"
+        ],
+        "affiliations": [
+          "College of Chemistry and Molecular Engineering, and Beijing National Laboratory for Molecular Sciences (BNLMS), Peking University, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2022 Jul",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/29 06:00",
+    "fetched_at": "2026-09-20 11:36:24"
+  },
+  "links": {
+    "cites": [
+      "41441193",
+      "36394776",
+      "36136209"
+    ],
+    "refs": [
+      "34164069",
+      "33812316",
+      "33724276",
+      "33305318",
+      "33246106",
+      "33148639",
+      "33054197",
+      "31458221",
+      "31043745",
+      "30803034",
+      "29655986",
+      "27939283",
+      "27356095",
+      "26931396",
+      "25625324",
+      "24845231",
+      "24811666",
+      "24773235",
+      "24551051",
+      "24532081",
+      "24174539",
+      "24098099",
+      "23436397",
+      "23082974",
+      "22270643",
+      "22148551",
+      "21927770",
+      "20598937",
+      "19499576",
+      "19434839",
+      "18573080",
+      "17687303",
+      "17288412",
+      "15701681",
+      "15566303",
+      "15183323",
+      "15109945",
+      "15031495",
+      "13679853",
+      "12596167",
+      "12197663",
+      "12084633",
+      "11259830",
+      "11025552",
+      "10550212",
+      "10468550"
+    ],
+    "similar": [
+      "35762723",
+      "25611056",
+      "34799573",
+      "37338049",
+      "38987470",
+      "35609776",
+      "34504009",
+      "31441158",
+      "30979035",
+      "24098099",
+      "32621228",
+      "37511544",
+      "35762718",
+      "23170892",
+      "33054197",
+      "26931396",
+      "27844185",
+      "31021441",
+      "24532081",
+      "30471688",
+      "34439840",
+      "24898547",
+      "30278223",
+      "24739176",
+      "36714997",
+      "28394890",
+      "24317797",
+      "30909517",
+      "35139468",
+      "26387110",
+      "30066087",
+      "35944496",
+      "32579908",
+      "26387104",
+      "29733855",
+      "35883018",
+      "31425549",
+      "26195786",
+      "35034725",
+      "36055623",
+      "32722166",
+      "33355572",
+      "34032235",
+      "26226419",
+      "23794453",
+      "34626492",
+      "32323533",
+      "32426975",
+      "28448138",
+      "25345588",
+      "38118365",
+      "29276882",
+      "39056166",
+      "21686180",
+      "29051952",
+      "26387102",
+      "27159632",
+      "32696381",
+      "37108059",
+      "26387101",
+      "24604825",
+      "36358915",
+      "36217309",
+      "33945530",
+      "34101805",
+      "25919886",
+      "30913885",
+      "30413085",
+      "31136713",
+      "34164069",
+      "29382046",
+      "24329095",
+      "21541066",
+      "24871565",
+      "28258312",
+      "32239382",
+      "26437245",
+      "25974317",
+      "32097582",
+      "38275091",
+      "30471705",
+      "33724276",
+      "32112084",
+      "30471704",
+      "36641212",
+      "34902817",
+      "32859072",
+      "25287424",
+      "30091924",
+      "38296708",
+      "31375817",
+      "27111521",
+      "28765603",
+      "35436286",
+      "30372613",
+      "32103094",
+      "24606139"
+    ],
+    "review": [
+      "35762723",
+      "31441158",
+      "30979035",
+      "23170892",
+      "31021441",
+      "24532081",
+      "30278223",
+      "30909517",
+      "35139468",
+      "26387110",
+      "30066087",
+      "26387104",
+      "33355572",
+      "26226419",
+      "23794453",
+      "38118365",
+      "21686180",
+      "26387102",
+      "26387101",
+      "36217309",
+      "34101805",
+      "30413085",
+      "29382046",
+      "32097582",
+      "30471705",
+      "34902817",
+      "25287424",
+      "38296708"
+    ],
+    "pmc": [
+      "9214758"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35762723.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35762723/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35762723",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4375",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

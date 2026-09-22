@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.10.675278",
+  "title": "The role of intrinsically disordered domains in regulating G protein coupled receptor signaling",
+  "authors": "Jun Xu; Ruoyi Qiu; Alexander M. Garces; Harald Hübner; Xinyu Xu; Dorothee Weikert; Peter Gmeiner; Michael T. Lerch; Brian K. Kobilka",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-11",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用单分子FRET研究α2A肾上腺素受体中无序区域(ECL2、ICL3)的构象动态及其对G蛋白偶联受体信号调控的作用，对象为IDR且涉及互作调控，但方法为实验而非AI/物理模拟，机制建模深度有限。",
+  "abstract": "The α 2A adrenergic receptor (α 2A AR) is a clinically important target for various diseases including hypertension, diabetes and chronic pain. Here, using single-molecule fluorescence resonance energy transfer imaging, we show how agonist-specific activation dynamics in both structured transmembrane domain (TMD) and intrinsically disorders regions (IDRs) of α 2A AR lead to diverse signaling profiles. Through seven pairs of strategically designed fluorophore labels, we systematically investigate the real-time conformational changes of α 2A AR. Our study reveals unique TM6 dynamics in α 2A AR, featured by a high energy barrier for agonist-induced outward movements essential for activation. In contrast, we identify agonist-specific conformational dynamics of a partially disordered extracellular loop (ECL2), highlighting its role as a dynamic regulatory module that controls receptor function. Moreover, we characterize the conformational landscapes of the long third intracellular loop (ICL3), revealing its compact structural features and membrane-proximal localization in the basal state, where it acts as a negative allosteric regulator in transducer coupling. Furthermore, we identify multiful functional sub-states of ICL3 that are dynamically modulated by both kinase phosphorylation and drug efficacy. These findings offer previously underappreciated structural and dynamic insights into α 2A AR function governed by both TMD and IDRs, and may open up new avenues for the development of better therapeutics.",
+  "abstract_zh": "α 2A 肾上腺素能受体（α 2A AR）是治疗高血压、糖尿病和慢性疼痛等多种疾病的重要临床靶点。本研究利用单分子荧光共振能量转移成像技术，揭示了α 2A AR 的结构化跨膜结构域（TMD）和 intrinsically disordered regions（IDRs）中激动剂特异性激活动力学如何导致多样化的信号传导谱。通过七对策略性设计的荧光标记，我们系统研究了α 2A AR 的实时构象变化。我们的研究揭示了α 2A AR 中独特的 TM6 动力学特征，其特点是激动剂诱导的外向运动具有高能垒，这对激活至关重要。相反，我们识别出部分无序的细胞外环（ECL2）的激动剂特异性构象动力学，强调其作为控制受体功能的动态调节模块的作用。此外，我们表征了长第三细胞内环（ICL3）的构象景观，揭示其在基础状态下的紧凑结构特征和膜近端定位，在此状态下，它作为转导子偶联中的负别构调节因子。进一步地，我们识别出 ICL3 的多种功能亚状态，这些状态受激酶磷酸化和药物效力的动态调节。这些发现为α 2A AR 功能提供了先前未被充分认识的结构和动力学见解，该功能由 TMD 和 IDRs 共同调控，并可能为开发更优治疗药物开辟新途径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.10.675278",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.10.675278",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.10.675278/index.html"
+}

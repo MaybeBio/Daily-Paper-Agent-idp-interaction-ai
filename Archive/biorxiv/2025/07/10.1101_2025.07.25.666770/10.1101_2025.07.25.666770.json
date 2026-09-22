@@ -1,0 +1,234 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.25.666770",
+  "title": "Molecular basis for the activation of Aurora A and Plk1 kinases during mitotic entry",
+  "doi": "10.1101/2025.07.25.666770",
+  "abstract": "The evolutionarily conserved, intrinsically disordered protein Bora is critical for initiating the activation of mitotic kinases. Once phosphorylated at Ser112 by Cyclin A-Cdk1 kinase, phospho-(p)Bora activates unphosphorylated Aurora A kinase (AURKA), directing it towards Polo-like kinase 1 (Plk1), thus promoting Cyclin B-Cdk1 activation and mitotic entry. Here, by combining structural modelling and in vitro assays, we provide evidence that Bora wraps around the N-terminal lobe of AURKA to position its phospho-Ser112 near AURKA’s T-loop, mimicking T-loop phosphorylation. Additionally, Bora transiently interacts with the Alpha C helix of the Plk1 kinase domain through a conserved motif, guiding AURKA activity towards the Plk1 T-loop, which is otherwise impervious to phosphorylation by AURKA. We highlight the importance of this motif for Bora function in vitro and during mitotic entry in Xenopus egg extracts. Our results reveal critical molecular details of mitotic kinase activation, which could lead to the development of pathway-specific inhibitors. <h4>Highlights</h4> MITOKINAC: a versatile approach that reconstitutes Bora and AURKA-dependent Plk1 T-loop phosphorylation in E. coli . AlphaFold 3 structural modeling of the phospho-Bora – AURKA complex tested by MITOKINAC using 39 Bora variants. Phospho-Bora wraps around the N-terminal lobe of AURKA to position its essential phospho-Serine 112 in the activation loop of AURKA. pBora delivers the AURKA activity to the Plk1 T-loop, which is otherwise impervious to AURKA phosphorylation.",
+  "authors": [
+    "Pillan A",
+    "Ormancey P",
+    "Ben Choug C",
+    "Orlicky S",
+    "Nicolas Tavernier N",
+    "Van Hove L",
+    "Ossareh-Nazari B",
+    "Joly N",
+    "Sicheri F",
+    "Lorca T",
+    "Pintard L"
+  ],
+  "published_date": "2025-07-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.25.666770",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.25.666770.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1056033",
+    "raw_record": {
+      "id": "PPR1056033",
+      "source": "PPR",
+      "doi": "10.1101/2025.07.25.666770",
+      "title": "Molecular basis for the activation of Aurora A and Plk1 kinases during mitotic entry",
+      "authorString": "Pillan A, Ormancey P, Ben Choug C, Orlicky S, Nicolas Tavernier N, Van Hove L, Ossareh-Nazari B, Joly N, Sicheri F, Lorca T, Pintard L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pillan A",
+            "lastName": "Pillan",
+            "firstName": "Anaïs",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0003-0254-6365"
+            }
+          },
+          {
+            "fullName": "Ormancey P",
+            "lastName": "Ormancey",
+            "firstName": "Philippine",
+            "initials": "P"
+          },
+          {
+            "fullName": "Ben Choug C",
+            "lastName": "Ben Choug",
+            "firstName": "Celia",
+            "initials": "C"
+          },
+          {
+            "fullName": "Orlicky S",
+            "lastName": "Orlicky",
+            "firstName": "Steve",
+            "initials": "S"
+          },
+          {
+            "fullName": "Nicolas Tavernier N",
+            "lastName": "Nicolas Tavernier",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7503-1758"
+            }
+          },
+          {
+            "fullName": "Van Hove L",
+            "lastName": "Van Hove",
+            "firstName": "Lucie",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8499-5396"
+            }
+          },
+          {
+            "fullName": "Ossareh-Nazari B",
+            "lastName": "Ossareh-Nazari",
+            "firstName": "Batool",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-5368-6735"
+            }
+          },
+          {
+            "fullName": "Joly N",
+            "lastName": "Joly",
+            "firstName": "Nicolas",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2731-3827"
+            }
+          },
+          {
+            "fullName": "Sicheri F",
+            "lastName": "Sicheri",
+            "firstName": "Frank",
+            "initials": "F"
+          },
+          {
+            "fullName": "Lorca T",
+            "lastName": "Lorca",
+            "firstName": "Thierry",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2007-8924"
+            }
+          },
+          {
+            "fullName": "Pintard L",
+            "lastName": "Pintard",
+            "firstName": "Lionel",
+            "initials": "L"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7503-1758"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8499-5396"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2007-8924"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2731-3827"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-0254-6365"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-4582-7271"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-5368-6735"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The evolutionarily conserved, intrinsically disordered protein Bora is critical for initiating the activation of mitotic kinases. Once phosphorylated at Ser112 by Cyclin A-Cdk1 kinase, phospho-(p)Bora activates unphosphorylated Aurora A kinase (AURKA), directing it towards Polo-like kinase 1 (Plk1), thus promoting Cyclin B-Cdk1 activation and mitotic entry. Here, by combining structural modelling and  in vitro assays, we provide evidence that Bora wraps around the N-terminal lobe of AURKA to position its phospho-Ser112 near AURKA’s T-loop, mimicking T-loop phosphorylation. Additionally, Bora transiently interacts with the Alpha C helix of the Plk1 kinase domain through a conserved motif, guiding AURKA activity towards the Plk1 T-loop, which is otherwise impervious to phosphorylation by AURKA. We highlight the importance of this motif for Bora function in vitro and during mitotic entry in Xenopus egg extracts. Our results reveal critical molecular details of mitotic kinase activation, which could lead to the development of pathway-specific inhibitors.  <h4>Highlights</h4>  MITOKINAC: a versatile approach that reconstitutes Bora and AURKA-dependent Plk1 T-loop phosphorylation in  E. coli .  AlphaFold 3 structural modeling of the phospho-Bora – AURKA complex tested by MITOKINAC using 39 Bora variants. Phospho-Bora wraps around the N-terminal lobe of AURKA to position its essential phospho-Serine 112 in the activation loop of AURKA. pBora delivers the AURKA activity to the Plk1 T-loop, which is otherwise impervious to AURKA phosphorylation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/25/2025.07.25.666770.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.25.666770"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41606196",
+            "reference": "The EMBO journal. 2026 Mar;45(5):1460-1495",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-07-28",
+      "firstPublicationDate": "2025-07-25",
+      "firstIndexDate": "2025-07-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

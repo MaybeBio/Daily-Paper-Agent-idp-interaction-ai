@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion) as provided
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the supplied text. Figures, tables, and supplementary materials are referenced but not directly examined.
+- **Shared manuscript claim summary** The authors investigate the kinetics of molecular recognition between the tandem-repeat protein β-catenin and its intrinsically disordered binding partner TCF7L2. They report rapid monophasic association, biphasic dissociation, identify N- and C-terminal subdomains as key kinetic determinants, propose a two-site avidity mechanism with a "fuzzy" linker region, and present evidence for alternative dissociation pathways in select mutants.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Discussion sections. References to Figures 1-8, Tables 1-3, and Supplementary Figures/Tables are made but not directly viewable.
+- **Missing materials affecting confidence** Figures 1-8, Tables 1-3, Supplementary Figures S1 and Table S1, raw kinetic traces, ITC data, and structural alignments are not provided. This limits verification of data quality, fit accuracy, and structural interpretations.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a thorough kinetic dissection of a biologically important protein-protein interaction involving an intrinsically disordered region. The experimental approach combining fluorescence-based kinetics with site-directed mutagenesis is sound and well-executed. The central claims regarding two-site avidity, a "fuzzy" linker, and alternative dissociation pathways are plausible and supported by the described data, though full verification requires access to the figures and supplementary materials. The work is of interest to the biophysics and molecular recognition communities, and the findings have potential implications for drug design targeting β-catenin. However, several concerns regarding data presentation, mechanistic interpretation, and generalizability need to be addressed.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and their binding mechanisms, biophysicists interested in protein-protein interaction kinetics, structural biologists working on repeat proteins, and those investigating Wnt signaling or β-catenin as a therapeutic target. The work provides a detailed case study of how a long disordered region recognizes an extended repeat-protein surface, which is relevant to understanding similar systems.
+- **Major strengths** The study addresses a significant and timely question about the molecular recognition of long disordered regions. The use of a fluorescence reporter system to dissect kinetics is appropriate and well-designed. The combination of alanine scanning with kinetic analysis is systematic and provides a clear structure-function map. The identification of distinct subdomain contributions and the proposal of alternative dissociation pathways are novel and thought-provoking. The discussion connecting findings to the energy landscape of repeat proteins and to potential therapeutic strategies is insightful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and mechanistic model
+  - **Claim pointer** The authors claim that the biphasic dissociation kinetics reflect a two-site avidity mechanism with sequential dissociation, and that the "variable region" forms a "fuzzy" complex with transient, non-specific contacts.
+  - **Evidence pointer** Results sections "The association of TCF7L2 binding with β-catenin is monophasic, and dissociation of the complex is biphasic" and "TCF7L2 mutants I19A and L21A display more complex dissociation kinetics"; Discussion section
+  - **Concern** The interpretation of biphasic dissociation as evidence for a specific two-site avidity mechanism is not uniquely supported by the data. Biphasic dissociation can arise from multiple sources, including conformational heterogeneity in the bound state, rebinding effects, or parallel dissociation pathways. The authors do not provide sufficient controls or alternative model testing to rule out these possibilities. Furthermore, the assignment of the "variable region" as a "fuzzy" complex is based primarily on the lack of kinetic effect upon mutation, which is an indirect inference. Direct evidence for dynamic disorder in the complex, such as NMR relaxation dispersion or molecular dynamics simulations, is not provided. The mechanistic model, while plausible, is not rigorously established from the presented kinetic data alone.
+  - **Why it matters** The central mechanistic claims of the paper rest on this interpretation. If the biphasic dissociation has an alternative explanation, the proposed avidity and "fuzzy" complex model would be weakened, and the conclusions about parallel and sequential pathways would be less well-supported.
+  - **Resolution test** The authors should provide additional evidence to support their model. This could include: (1) global fitting of association and dissociation data to competing mechanistic models (e.g., two-step vs. conformational selection) to demonstrate that the proposed model is statistically preferred; (2) mutation of residues in the proposed "fuzzy" region combined with a biophysical probe of dynamics (e.g., NMR or FRET) to directly demonstrate conformational exchange; (3) analysis of dissociation kinetics at different protein concentrations to rule out rebinding artifacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental design and data completeness
+  - **Claim pointer** The authors state that the S31C mutation and fluorescein labelling do not significantly affect binding, based on ITC comparisons with literature values.
+  - **Evidence pointer** Results section "The association of TCF7L2 binding with β-catenin is monophasic, and dissociation of the complex is biphasic"; Supplementary Table S1 and Figure S1
+  - **Concern** The validation of the labelled construct as a faithful proxy for the wild-type interaction relies on comparison with literature values rather than a direct side-by-side comparison with unlabelled wild-type TCF7L2(1-54) under identical conditions. The ITC data are referenced but not shown, and the statement that there is "no significant difference" is not supported by statistical analysis in the text. Additionally, the effect of the fluorophore on the kinetic parameters, particularly the dissociation rate, is not assessed. A fluorescent label can subtly alter binding kinetics even if the equilibrium constant is unchanged.
+  - **Why it matters** The entire kinetic analysis is performed with the labelled construct. If the label alters the kinetic mechanism or rate constants, all subsequent conclusions about the wild-type interaction would be compromised.
+  - **Resolution test** The authors should perform a direct comparison of binding kinetics (association and dissociation) between labelled and unlabelled TCF7L2(1-54) under identical conditions. If this is not feasible, they should at least provide a statistical comparison of their ITC data with a wild-type construct measured in the same experiment, and discuss the potential limitations of the labelled construct.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and scope of conclusions
+  - **Claim pointer** The authors generalize their findings to propose that the "parallel and sequential pathways" observed for TCF7L2-β-catenin reflect general principles of repeat protein-IDP recognition.
+  - **Evidence pointer** Discussion section
+  - **Concern** The study is limited to a single interaction pair. While the authors draw parallels to other systems (e.g., ACTR-NCBD, HPV E7-Rb), these comparisons are based on literature values and not on direct experimental evidence from this study. The claim that the observed phenomena "reflect the energy landscapes of the repeating architecture" is speculative and not directly tested. The authors do not vary the repeat protein or the IDP to demonstrate that the observed kinetic complexity is a general feature of such interactions.
+  - **Why it matters** The title and discussion imply broader significance beyond the specific system studied. If the findings are system-specific, the impact and general interest of the work would be reduced.
+  - **Resolution test** The authors should temper their generalizations in the discussion, clearly stating that the proposed model is specific to the TCF7L2-β-catenin system and that further studies on other repeat protein-IDP pairs are needed to establish generality. Alternatively, they could include preliminary data on a second system to support their claims.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Materials and Methods, "Fluorescent labelling of TCF7L2"
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The labelling protocol states that the reaction was incubated "at 37°C in the dark for hr." The incubation time is missing.
+  - **Required correction** Specify the exact incubation time (e.g., 1 hour, 2 hours) for the labelling reaction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section, "Alanine scanning of TCF7L2 reveals three distinct immune regions"
+  - **Evidence pointer** Results section, Table 1
+  - **Issue** The text states that "none had a significant effect on the association rate constant," but no statistical analysis or error bars are described for the kinetic parameters in Table 1. It is unclear how significance was determined.
+  - **Required correction** Provide a description of the statistical methods used to compare mutant and wild-type rate constants, and include appropriate error estimates and significance thresholds in Table 1.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of ionic strength effects
+  - **Affected element** Results section, "The variable region of TCF7L2 is very sensitive to ionic strength"
+  - **Evidence pointer** Results section, Figure 7 and Table 3
+  - **Issue** The interpretation of the ionic strength dependence is somewhat speculative. The authors propose a "shell of positively charged sodium ions" around the negatively charged variable region, but this is not directly tested. Alternative explanations, such as changes in protein conformation or hydration, are not discussed.
+  - **Required correction** Acknowledge the speculative nature of the ionic shell model and discuss alternative interpretations. Consider performing additional experiments (e.g., varying salt type) to test the specific ion effects.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability and terminology
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The term "fuzzy" complex is used without a clear operational definition. While the term is established in the IDP field, its usage here could be clarified to distinguish it from other types of dynamic complexes.
+  - **Required correction** Provide a brief definition or reference for "fuzzy" complex in the context of this work, and clarify what specific experimental evidence supports this designation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction and Discussion sections
+  - **Issue** The manuscript cites several relevant studies but does not discuss recent work on the kinetics of IDP interactions in detail, particularly studies that have used single-molecule approaches to dissect binding mechanisms.
+  - **Required correction** Add a brief discussion of recent single-molecule studies of IDP binding kinetics and how the present findings compare or contrast with those results.
+- **Technical failings that need to be addressed before the case is established** The missing incubation time in the labelling protocol (R1-m1) is a clear technical error. The lack of statistical analysis for kinetic parameters (R1-m2) is a technical deficiency that needs to be addressed. The absence of direct validation of the labelled construct against unlabelled wild-type (R1-M2) is a technical concern that affects the interpretation of all kinetic data.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its systematic kinetic dissection of a long IDP binding to a repeat protein, and the proposal of alternative dissociation pathways is novel. However, the conceptual framework of avidity and fuzzy complexes is not new, and the originality lies primarily in the specific system and the detailed kinetic analysis.
+  - **Scientific importance** The β-catenin-TCF7L2 interaction is biologically important in Wnt signaling and cancer. Understanding its binding mechanism has potential therapeutic implications. The work contributes to the growing understanding of IDP binding mechanisms, which is a topic of broad interest.
+  - **Interdisciplinary readership** The work will appeal to biophysicists, biochemists, structural biologists, and cell biologists interested in signaling. The kinetic and mechanistic focus may be less accessible to a broader biological audience, but the biological context is clearly presented.
+  - **Technical soundness** The experimental design is generally sound, with appropriate use of stopped-flow kinetics and mutagenesis. However, the lack of direct validation of the labelled construct, the missing statistical analysis, and the indirect nature of the "fuzzy" complex evidence are technical weaknesses that need to be addressed.
+  - **Readability for nonspecialists** The manuscript is well-written and logically organized. The introduction provides sufficient background, and the discussion is clear. However, the kinetic analysis and the discussion of alternative pathways may be challenging for nonspecialists. The abstract is accessible and conveys the main findings effectively.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are interesting and potentially significant, but the mechanistic model needs to be more rigorously supported, and the technical issues regarding construct validation and statistical analysis must be addressed.
+
+## Risk / unsupported claims
+- The claim that the "variable region" forms a "fuzzy" complex is not directly supported by the data; it is an inference from the lack of kinetic effect upon mutation.
+- The proposal of "parallel and sequential pathways" as a general principle for repeat protein-IDP recognition is not supported by evidence from multiple systems.
+- The interpretation of the ionic strength dependence as evidence for a specific ionic shell mechanism is speculative.
+- The statement that the S31C mutation and labelling have "no significant effect" on binding is not statistically substantiated in the text.
+- The claim that the dissociation kinetics of I19A comprise "at least three and likely four phases" is based on fitting of data not shown, and the robustness of this multi-exponential fitting is not demonstrated.

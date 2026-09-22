@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "36054284",
+    "doi": "10.1021/acs.jcim.2c00483",
+    "title": "Capturing the Recognition Dynamics of para-Sulfonato-calix[4]arenes by Cytochrome c: Toward a Quantitative Free Energy Assessment."
+  },
+  "content": {
+    "abstract": "Calix[n]arenes' selective recognition of protein surfaces covers a broad range of timely applications, from controlling protein assembly and crystallization to trapping partially disordered proteins. Here, the interaction of para-sulfonated calix-[4]-arenes with cytochrome c is investigated through all-atom, explicit water molecular dynamics simulations which allow characterization of two binding sites in quantitative agreement with experimental evidence. Free energy calculations based on the MM-PBSA and the attach-pull-release (APR) methods highlight key residues implicated in the recognition process and provide binding free energy results in quantitative agreement with isothermal titration calorimetry. Our study emphasizes the role of MD simulations to capture and describe the \"walk\" of sulfonated calix-[4]-arenes on the cytochrome c surface, with the arginine R13 as a pivotal interacting residue. Our MD investigation allows, through the quasi-harmonic multibasin (QHMB) method, probing an allosteric reinforcement of several per-residue interactions upon calixarene binding, which suggests a more complex mode of action of these supramolecular auxiliaries.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Cytochromes c/chemistry",
+      "*Proteins/chemistry",
+      "Binding Sites",
+      "Molecular Dynamics Simulation",
+      "Water/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bartocci, Alessio",
+        "Pereira, Gilberto",
+        "Cecchini, Marco",
+        "Dumont, Elise"
+      ],
+      "short_names": [
+        "Bartocci A",
+        "Pereira G",
+        "Cecchini M",
+        "Dumont E"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9413-0663",
+        "ORCID: 0000-0003-2671-1583",
+        "ORCID: 0000-0002-2359-111X"
+      ],
+      "affiliations": [
+        "Laboratoire de Chimie, Ecole Normale Superieure de Lyon, F-69342 Lyon, France.",
+        "Institut de Chimie de Strasbourg, UMR 7177, CNRS, Universite de Strasbourg, Strasbourg 67083, France.",
+        "Institut de Chimie de Strasbourg, UMR 7177, CNRS, Universite de Strasbourg, Strasbourg 67083, France.",
+        "Molecular Microbiology and Structural Biochemistry (MMSB, UMR 5086), CNRS & University of Lyon, 7 Passage du Vercors, 69007 Lyon, France.",
+        "Institut de Chimie de Strasbourg, UMR 7177, CNRS, Universite de Strasbourg, Strasbourg 67083, France.",
+        "Laboratoire de Chimie, Ecole Normale Superieure de Lyon, F-69342 Lyon, France.",
+        "Institut Universitaire de France, 5 rue Descartes, 75005 Paris, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bartocci, Alessio",
+        "short_name": "Bartocci A",
+        "identifiers": [
+          "0000-0001-9413-0663"
+        ],
+        "affiliations": [
+          "Laboratoire de Chimie, Ecole Normale Superieure de Lyon, F-69342 Lyon, France.",
+          "Institut de Chimie de Strasbourg, UMR 7177, CNRS, Université de Strasbourg, Strasbourg 67083, France."
+        ]
+      },
+      {
+        "full_name": "Pereira, Gilberto",
+        "short_name": "Pereira G",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Chimie de Strasbourg, UMR 7177, CNRS, Université de Strasbourg, Strasbourg 67083, France.",
+          "Molecular Microbiology and Structural Biochemistry (MMSB, UMR 5086), CNRS & University of Lyon, 7 Passage du Vercors, 69007 Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Cecchini, Marco",
+        "short_name": "Cecchini M",
+        "identifiers": [
+          "0000-0003-2671-1583"
+        ],
+        "affiliations": [
+          "Institut de Chimie de Strasbourg, UMR 7177, CNRS, Université de Strasbourg, Strasbourg 67083, France."
+        ]
+      },
+      {
+        "full_name": "Dumont, Elise",
+        "short_name": "Dumont E",
+        "identifiers": [
+          "0000-0002-2359-111X"
+        ],
+        "affiliations": [
+          "Laboratoire de Chimie, Ecole Normale Superieure de Lyon, F-69342 Lyon, France.",
+          "Institut Universitaire de France, 5 rue Descartes, 75005 Paris, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2022 Dec 26",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/03 06:00",
+    "fetched_at": "2026-09-20 12:57:36"
+  },
+  "links": {
+    "cites": [
+      "40115981"
+    ],
+    "refs": [],
+    "similar": [
+      "36054284",
+      "35666543",
+      "33270456",
+      "37381771",
+      "38465686",
+      "24032517",
+      "31254353",
+      "31808772",
+      "34054353",
+      "27638809",
+      "30864174",
+      "29753768",
+      "18673251",
+      "29125201",
+      "30109907",
+      "16758007",
+      "18045085",
+      "31163674",
+      "19376343",
+      "22392968",
+      "36499717",
+      "22717436",
+      "12617667",
+      "21280680",
+      "15231034",
+      "28958449",
+      "20690692",
+      "25833222",
+      "31880460",
+      "28407337",
+      "15451538",
+      "21822722",
+      "25696934",
+      "33411519",
+      "21570330",
+      "21731443",
+      "19026661",
+      "15612744",
+      "23912807",
+      "30204339",
+      "22129034",
+      "34124147",
+      "33022820",
+      "26014357",
+      "17718500",
+      "36678039",
+      "29331115",
+      "16482295",
+      "12785855",
+      "30389526",
+      "19562184",
+      "16042454",
+      "26342646",
+      "20959106",
+      "31682757",
+      "15010130",
+      "27266856",
+      "28564537",
+      "24515268",
+      "28318252",
+      "29889488",
+      "30835999",
+      "30681857",
+      "25599014",
+      "32189145",
+      "30047829",
+      "15649789",
+      "26931726",
+      "29308493",
+      "28689580",
+      "25207671",
+      "25764013",
+      "24078591",
+      "26918369",
+      "24148417",
+      "15356731",
+      "11666974",
+      "12596268",
+      "21648400",
+      "23493784",
+      "28010091",
+      "17444667",
+      "20658568",
+      "28735170",
+      "29414036",
+      "26714797",
+      "17700870",
+      "30259046",
+      "20711360",
+      "30843759",
+      "17323388",
+      "31490058",
+      "19043477",
+      "23224355",
+      "30628605",
+      "18431730"
+    ],
+    "review": [
+      "36054284",
+      "29753768",
+      "16758007",
+      "18045085"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1617",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.2c00483",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

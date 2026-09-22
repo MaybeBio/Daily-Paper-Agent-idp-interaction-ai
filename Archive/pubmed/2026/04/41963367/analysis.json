@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41963367",
+  "title": "Computational identification of conserved dengue virus envelope protein epitopes for vaccine design and immunodiagnostic platform.",
+  "authors": "da Silva, Maria Karolaynne; Fulco, Umberto Laino; Alqahtani, Taha; Sindi, Emad Rashad; Oliveira, Jonas Ivan Nobre; Zerihun, Yayesew Amlaku; Zaki, Magdi E A; Akter, Shahina",
+  "journal": "Scientific reports",
+  "published_date": "2026-04-11",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用免疫信息学与分子对接鉴定登革病毒包膜蛋白保守表位，虽分析了无序区域但非IDP介导的PPI机制建模，与本课题关联较弱。",
+  "abstract": "Dengue virus (DENV) remains a major global health challenge, with its incidence increasing sharply over the past two decades. More than 390 million infections occur annually, affecting nearly half of the world's population. Despite progress in vaccine research, the coexistence of four antigenically distinct dengue virus serotypes (DENV1-4) complicates vaccine and diagnostic development, emphasizing the urgent need for improved preventive and diagnostic strategies. Immunoinformatics and computational vaccinology are powerful tools to elucidate host-pathogen interactions and accelerate vaccine and diagnostic discovery. As vaccination remains the most effective strategy to reduce the dengue burden and accurate diagnostics are essential for surveillance, this study identified conserved and serotype-specific dengue epitopes to support vaccine and diagnostic development. We conducted a comprehensive in silico analysis of the DENV envelope (E) protein across all four serotypes to identify conserved and serotype-specific T-cell and B-cell epitopes. Molecular docking was performed to evaluate HLA-binding affinity between predicted epitopes and their corresponding alleles, and intrinsically disordered regions of the dengue envelope protein were analyzed to identify flexible segments potentially involved in immune recognition. Finally, normal mode analysis was carried out to assess the structural flexibility and stability of the resulting epitope-HLA complexes. Our analysis revealed highly conserved CD8+ (CD4 +) epitopes, such as E57, E135, E175, E313 and E417 (E133, E134, and E234) that remain antigenic despite sequence variation, suggesting their potential use in a universal dengue vaccine. We also identified distinct serotype-specific epitopes, which could serve as molecular signatures for precise immunodiagnostic assays (DENV-2: E236, E267, and E424; DENV-3: E204, E229, E274, E350, and E410; and DENV-4: E402, E403, E65, and E446). Population coverage analysis predicted a global reach of 66.87%, with high representation in East Asia, Europe, and the Americas. Molecular docking and normal mode analyses confirmed stable peptide-HLA interactions with favorable binding energies, particularly for LTDYGALTL-HLA-A01:01 and DTAWDFGSI-HLA-A26:01 complexes. Collectively, this integrative in silico framework identifies epitope candidates that can inform next-generation multivalent dengue vaccines and enhance serotype-specific diagnostic platforms.",
+  "abstract_zh": "登革病毒（DENV）仍是全球重大健康挑战，其发病率在过去二十年中急剧上升。每年发生超过3.9亿例感染，影响全球近一半人口。尽管疫苗研究取得进展，但四种抗原性不同的登革病毒血清型（DENV1-4）的共存使疫苗和诊断开发复杂化，凸显了改进预防和诊断策略的迫切需求。免疫信息学和计算疫苗学是阐明宿主-病原体相互作用并加速疫苗和诊断发现的强大工具。鉴于疫苗接种仍是减轻登革热负担的最有效策略，而准确诊断对监测至关重要，本研究鉴定了保守和血清型特异性的登革热表位，以支持疫苗和诊断开发。我们对所有四种血清型的DENV包膜（E）蛋白进行了全面的计算机模拟分析，以鉴定保守和血清型特异性的T细胞和B细胞表位。进行了分子对接 (molecular docking) 以评估预测表位与其对应等位基因之间的HLA结合亲和力，并分析了登革热包膜蛋白的内在无序区域，以识别可能参与免疫识别的柔性片段。最后，进行了简正模式分析 (normal mode analysis) 以评估所得表位-HLA复合物的结构柔性和稳定性。我们的分析揭示了高度保守的CD8+（CD4+）表位，如E57、E135、E175、E313和E417（E133、E134和E234），这些表位尽管存在序列变异仍保持抗原性，表明其在通用登革热疫苗中的潜在应用。我们还鉴定了独特的血清型特异性表位，可作为精确免疫诊断测定的分子标志（DENV-2：E236、E267和E424；DENV-3：E204、E229、E274、E350和E410；以及DENV-4：E402、E403、E65和E446）。群体覆盖率分析预测全球覆盖率为66.87%，在东亚、欧洲和美洲具有高代表性。分子对接和简正模式分析确认了稳定的肽-HLA相互作用，具有有利的结合能，特别是LTDYGALTL-HLA-A01:01和DTAWDFGSI-HLA-A26:01复合物。总体而言，这一整合的计算机模拟框架鉴定了表位候选物，可为下一代多价登革热疫苗提供信息，并增强血清型特异性诊断平台。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41963367/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41963367/",
+  "paper_page_path": "papers/pubmed/41963367/index.html"
+}

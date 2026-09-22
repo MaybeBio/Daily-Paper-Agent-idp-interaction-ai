@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36674958",
+  "title": "Effects of Sequence Composition, Patterning and Hydrodynamics on the Conformation and Dynamics of Intrinsically Disordered Proteins.",
+  "authors": "Vovk, Andrei; Zilman, Anton",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2023-01-22",
+  "window": {
+    "start": "2023-01-16",
+    "end": "2023-01-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用粗粒化聚合物模型研究IDP序列组成与模式对构象和动力学的影响，并映射到最小模型预测尺寸与弛豫时间，虽未直接研究PPI，但为IDP构象与动力学建模提供了可迁移的物理模拟方法，对理解IDR介导互作的结构基础有启发。",
+  "abstract": "Intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs) perform diverse functions in cellular organization, transport and signaling. Unlike the well-defined structures of the classical natively folded proteins, IDPs and IDRs dynamically span large conformational and structural ensembles. This dynamic disorder impedes the study of the relationship between the amino acid sequences of the IDPs and their spatial structures and dynamics, with different experimental techniques often offering seemingly contradictory results. Although experimental and theoretical evidence indicates that some IDP properties can be understood based on their average biophysical properties and amino acid composition, other aspects of IDP function are dictated by the specifics of the amino acid sequence. We investigate the effects of several key variables on the dimensions and the dynamics of IDPs using coarse-grained polymer models. We focus on the sequence \"patchiness\" informed by the sequence and biophysical properties of different classes of IDPs-and in particular FG nucleoporins of the nuclear pore complex (NPC). We show that the sequence composition and patterning are well reflected in the global conformational variables such as the radius of gyration and hydrodynamic radius, while the end-to-end distance and dynamics are highly sequence-specific. We find that in good solvent conditions highly heterogeneous sequences of IDPs can be well mapped onto averaged minimal polymer models for the purpose of prediction of the IDPs dimensions and dynamic relaxation times. The coarse-grained simulations are in a good agreement with the results of atomistic MD. We discuss the implications of these results for the interpretation of the recent experimental measurements, and for the further applications of mesoscopic models of FG nucleoporins and IDPs more broadly.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 和 intrinsically disordered regions (IDRs) 在细胞组织、运输和信号传导中执行多种功能。与经典天然折叠蛋白的明确结构不同，IDPs 和 IDRs 动态地跨越大的构象和结构集合。这种动态无序性阻碍了研究 IDPs 氨基酸序列与其空间结构和动力学之间的关系，不同实验技术往往提供看似矛盾的结果。尽管实验和理论证据表明，某些 IDP 特性可以基于其平均生物物理特性和氨基酸组成来理解，但 IDP 功能的其他方面则由氨基酸序列的细节决定。我们使用粗粒化聚合物模型研究几个关键变量对 IDPs 尺寸和动力学的影响。我们关注由不同类别 IDPs——特别是核孔复合体 (NPC) 的 FG nucleoporins——的序列和生物物理特性所决定的序列“斑块性”。我们表明，序列组成和模式在全局构象变量（如回转半径和水动力学半径）中得到良好反映，而端到端距离和动力学则高度序列特异性。我们发现，在良好溶剂条件下，高度异质的 IDP 序列可以很好地映射到平均化的最小聚合物模型上，以预测 IDPs 的尺寸和动态弛豫时间。粗粒化模拟与原子级分子动力学 (MD) 结果高度一致。我们讨论了这些结果对近期实验测量解释的意义，以及对 FG nucleoporins 和 IDPs 介观模型更广泛应用的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36674958/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36674958/",
+  "paper_page_path": "papers/pubmed/36674958/index.html"
+}

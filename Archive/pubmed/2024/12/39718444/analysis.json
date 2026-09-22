@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39718444",
+  "title": "Searching and Using MobiDB Resource 6 to Explore Predictions and Annotations for Intrinsically Disordered Proteins.",
+  "authors": "Aspromonte, Maria Cristina; Quaglia, Federica; Monzon, Alexander Miguel; Clementel, Damiano; Del Conte, Alessio; Piovesan, Damiano; Tosatto, Silvio C E",
+  "journal": "Current protocols",
+  "published_date": "2024-12-24",
+  "window": {
+    "start": "2024-12-23",
+    "end": "2024-12-29"
+  },
+  "score": 5,
+  "one_liner_zh": "介绍MobiDB 6数据库，用于查询和可视化无序蛋白预测与注释，虽涉及IDP和结合信息，但无PPI机制建模或AI/物理模拟方法，属资源工具类。",
+  "abstract": "Intrinsically disordered proteins (IDPs) make up around 30% of eukaryotic proteomes and play a crucial role in cellular processes and in pathological conditions such as neurodegenerative disorders and cancers. However, IDPs exhibit dynamic conformational ensembles and are often involved in the formation of biomolecular condensates. Understanding the function of IDPs is critical to research in many areas of science. MobiDB is a unique resource that serves as a comprehensive knowledgebase of IDPs and intrinsically disordered regions (IDRs), combining disorder annotations from experimental evidence and predictions for a broad range of protein sequences. Over the past decade, MobiDB has evolved with a focus on expanding annotation coverage, standardizing annotation provenance, and enhancing database accessibility. The latest MobiDB, version 6, released in July 2024, includes significant improvements, such as the integration of AlphaFoldDB predictions and a new homology transfer pipeline that has substantially increased the number of entries with high-quality annotations. The user interface has also been updated, highlighting annotation features, clarifying the entry page, and providing an immediate overview of disorder, binding, and disorder functions information in the protein sequence. This protocol guides the user through applications of the MobiDB, including disorder prediction, curated data analysis, and exploration of interaction data. This guide covers how to perform a search in MobiDB annotations using the web interface and the MobiDB REST API for programmatic access. The protocols use a step-by-step walkthrough using the human growth hormone receptor to demonstrate MobiDB's functions for visualization and interpretation of protein disorder data. (c) 2024 The Author(s). Current Protocols published by Wiley Periodicals LLC. Basic Protocol 1: Searching MobiDB query formats Basic Protocol 2: Searching MobiDB selected datasets and selected proteomes Basic Protocol 3: Performing a search on the Statistics page in MobiDB Support Protocol: Programmatic access with MobiDB REST API Basic Protocol 4: Visualizing and interpreting a MobiDB Entry: The GHR use case.",
+  "abstract_zh": "固有无序蛋白（IDPs）约占真核生物蛋白质组的30%，在细胞过程以及神经退行性疾病和癌症等病理状态中发挥关键作用。然而，IDPs表现出动态构象集合，并常参与生物分子凝聚体的形成。理解IDPs的功能对许多科学领域的研究至关重要。MobiDB是一个独特资源，作为IDPs和固有无序区域（IDRs）的综合知识库，结合了来自实验证据和预测的广泛蛋白质序列的无序注释。在过去十年中，MobiDB不断发展，重点在于扩展注释覆盖范围、标准化注释来源，以及增强数据库可访问性。最新版MobiDB（第6版）于2024年7月发布，包含显著改进，例如整合了AlphaFoldDB预测和新的同源转移流程，大幅增加了具有高质量注释的条目数量。用户界面也已更新，突出注释特征，澄清条目页面，并在蛋白质序列中提供无序、结合和无序功能的即时概览。本协议指导用户使用MobiDB的应用，包括无序预测、精选数据分析以及相互作用数据的探索。本指南涵盖如何使用网页界面和MobiDB REST API进行编程访问来搜索MobiDB注释。这些协议采用逐步演示，使用人生长激素受体来展示MobiDB在可视化和解释蛋白质无序数据方面的功能。(c) 2024作者。Current Protocols由Wiley Periodicals LLC出版。基础协议1：搜索MobiDB查询格式 基础协议2：搜索MobiDB选定数据集和选定蛋白质组 基础协议3：在MobiDB统计页面执行搜索 支持协议：使用MobiDB REST API进行编程访问 基础协议4：可视化和解释MobiDB条目：GHR用例。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39718444/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39718444/",
+  "paper_page_path": "papers/pubmed/39718444/index.html"
+}

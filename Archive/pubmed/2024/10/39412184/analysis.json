@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39412184",
+  "title": "Selective Glycan Presentation in Liquid-Ordered or -Disordered Membrane Phases and its Effect on Lectin Binding.",
+  "authors": "Blawitzki, Luca-Cesare; Monzel, Cornelia; Schmidt, Stephan; Hartmann, Laura",
+  "journal": "Angewandte Chemie (International ed. in English)",
+  "published_date": "2024-10-16",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过构建糖萼模型，探究糖脂在膜有序/无序相中的分布对凝集素结合的影响，涉及糖-蛋白互作但对象非无序蛋白/IDR，且无AI或物理模拟方法，仅实验观察，对IDP-PPI机制建模启发有限。",
+  "abstract": "Glycan-protein interactions play a key role in various biological processes from fertilization to infections. Many of these interactions take place at the glycocalyx-a heavily glycosylated layer at the cell surface. Despite its significance, studying the glycocalyx remains challenging due to its complex, dynamic, and heterogeneous nature. This study introduces a glycocalyx model allowing for the first time to control spatial organization and heterogeneity of the glycan moieties. Glycan-mimetics with lipid-moieties that partition into either liquid-ordered (Lo, lipid rafts) or liquid-disordered (Ld) phases of giant unilamellar vesicles (GUVs), which serve as simplified cell membrane models mimicking lipid rafts, are developed. This phase-specific allocation allows controlled placement of glycan motifs in distinct membrane environments, creating heteromultivalent systems that replicate the natural glycocalyx's complexity. We show that phase localization of glycan mimetics significantly influences recruitment of protein receptors to the membrane. Glycan-conjugates in the ordered phase demonstrate enhanced lectin binding, supporting the idea that raft-like domains facilitate stronger receptor interactions. This study provides a platform for systematically investigating spatial and dynamic presentation of glycans in biological systems and presents the first experimental evidence that glycan accumulation in lipid rafts enhances receptor binding affinity, offering deeper insights into the glycocalyx's functional mechanisms.",
+  "abstract_zh": "聚糖-蛋白质相互作用在从受精到感染的各种生物过程中发挥着关键作用。许多此类相互作用发生在糖萼（glycocalyx）——细胞表面一层高度糖基化的结构——上。尽管其重要性显著，但由于糖萼的复杂性、动态性和异质性，研究它仍具挑战性。本研究引入了一种糖萼模型，首次实现了对聚糖部分空间组织和异质性的控制。研究开发了带有脂质部分的聚糖模拟物，这些脂质部分可分配至巨型单层囊泡（giant unilamellar vesicles, GUVs）的液态有序（liquid-ordered, Lo，脂筏）或液态无序（liquid-disordered, Ld）相中，而GUVs作为模拟脂筏的简化细胞膜模型。这种相特异性分配允许将聚糖基序可控地置于不同的膜环境中，从而形成复制天然糖萼复杂性的异质多价系统。我们展示了聚糖模拟物的相定位显著影响蛋白质受体向膜的募集。有序相中的聚糖偶联物表现出增强的凝集素结合，支持了筏样结构域促进更强受体相互作用的观点。本研究为系统探究生物系统中聚糖的空间和动态展示提供了一个平台，并首次提供了实验证据表明脂筏中聚糖的积累增强受体结合亲和力，为糖萼的功能机制提供了更深入的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39412184/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39412184/",
+  "paper_page_path": "papers/pubmed/39412184/index.html"
+}

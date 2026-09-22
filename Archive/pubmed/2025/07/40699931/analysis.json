@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40699931",
+  "title": "Interfacial effects determine nonequilibrium phase behaviors in chemically driven fluids.",
+  "authors": "Cho, Yongick; Jacobs, William M",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2025-07-23",
+  "window": {
+    "start": "2025-07-21",
+    "end": "2025-07-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用微观模拟和第一性原理理论揭示化学驱动流体中界面效应决定非平衡相分离行为，虽对象非IDP，但其相分离/凝聚体机制建模思路对无序蛋白介导的PPI与凝聚体研究有可迁移启发。",
+  "abstract": "Coupling between chemical fuel consumption and phase separation can lead to condensation at a nonequilibrium steady state, resulting in phase behaviors that are not described by equilibrium thermodynamics. Theoretical models of such \"chemically driven fluids\" typically invoke near-equilibrium approximations at small length scales. However, because dissipation occurs due to both molecular-scale chemical reactions and mesoscale diffusive transport, it has remained unclear which properties of phase-separated reaction-diffusion systems can be assumed to be at an effective equilibrium. Here, we use microscopic simulations to show that mesoscopic fluxes are dependent on nonequilibrium fluctuations at phase-separated interfaces. We further develop a first-principles theory to predict nonequilibrium coexistence curves, localization of mesoscopic fluxes near phase-separated interfaces, and droplet size-scaling relations in good agreement with simulations. Our findings highlight the central role of interfacial properties in governing nonequilibrium condensation and have broad implications for droplet nucleation, coarsening, and size control in chemically driven fluids.",
+  "abstract_zh": "化学燃料消耗与相分离之间的耦合可以在非平衡稳态下导致凝聚，从而产生平衡热力学无法描述的相行为。这类“化学驱动流体”的理论模型通常在小尺度上采用近平衡近似。然而，由于耗散既源于分子尺度的化学反应，也源于介观尺度的扩散输运，因此尚不清楚相分离反应-扩散系统中哪些性质可以被视为处于有效平衡状态。在此，我们利用微观模拟表明，介观通量依赖于相分离界面处的非平衡涨落。我们进一步发展了一种第一性原理理论，用以预测非平衡共存曲线、介观通量在相分离界面附近的局域化以及液滴尺寸标度关系，这些预测与模拟结果高度一致。我们的发现突显了界面性质在控制非平衡凝聚中的核心作用，并对化学驱动流体中的液滴成核、粗化及尺寸控制具有广泛意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40699931/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40699931/",
+  "paper_page_path": "papers/pubmed/40699931/index.html"
+}

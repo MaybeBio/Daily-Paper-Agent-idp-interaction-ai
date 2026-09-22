@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a unified theoretical and computational framework combining analytical theory for small-deformation shape recovery with axisymmetric finite-element simulations using the Oldroyd-B constitutive model to quantify how viscoelasticity governs shape recovery and fusion of biomolecular condensates. They claim that shape recovery follows single- or multi-exponential decay depending on the relative magnitude of viscocapillary and stress relaxation timescales, that fusion is intrinsically multi-stage, that viscoelasticity introduces a Deborah-number-dependent intrinsic timescale enhancing intermediate-stage fusion, that exterior fluid viscosity slows fusion via two-phase coupling, and that deviations from a stretched-exponential empirical formula in viscoelastic regimes reveal limitations of purely viscous descriptions.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation parameters, validation data, or comparisons with experiments are visible
+- **Missing materials affecting confidence** Full manuscript, all figures, tables, methods details, simulation convergence criteria, parameter ranges, validation against experimental data, and any quantitative error analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially valuable framework for understanding viscoelastic effects on condensate dynamics. The distinction between shape recovery and fusion as fundamentally different processes is a useful conceptual contribution. However, the abstract alone provides no quantitative evidence, no validation against experimental or benchmark data, and no details on the parameter space explored. The claims are plausible but currently unverifiable from the supplied material. The work may be of interest to the biophysics and soft matter communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and intracellular organization would be interested because the work addresses a central question of how viscoelasticity, rather than pure viscosity, governs condensate dynamics. The soft matter physics community, particularly those working on droplet coalescence and rheology, would also find the framework relevant. Computational biophysicists developing models for condensate behavior would benefit from the proposed unified approach.
+- **Major strengths** The conceptual framing that shape recovery and fusion are governed by different physics is a valuable clarification. The use of the Deborah number to characterize the competition between capillary driving and stress relaxation is physically sound and provides a clear dimensionless framework. The explicit consideration of exterior fluid viscosity and two-phase coupling addresses a realistic aspect often neglected in simplified models. The comparison with a stretched-exponential empirical formula is a practical step toward connecting theory with commonly used phenomenological descriptions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that viscoelasticity enhances intermediate-stage fusion dynamics and modifies relaxation behavior compared to Newtonian droplets, and that exterior fluid viscosity significantly slows fusion.
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative results provided
+  - **Concern** The abstract states these findings but provides no numerical data, no simulation snapshots, no quantitative comparison between Newtonian and viscoelastic cases, and no parameter values. The magnitude of the claimed enhancement or slowing is not specified, and no error estimates or convergence checks are mentioned.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess the significance or robustness of the claimed effects. The central contribution of the paper appears to be the demonstration of these effects, but the abstract alone does not allow verification of their existence, magnitude, or parameter dependence.
+  - **Resolution test** Provide quantitative results, such as fusion time as a function of Deborah number, comparison of relaxation timescales, and the effect of exterior fluid viscosity, with clear error bars or convergence criteria.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation
+  - **Claim pointer** The authors claim that their framework systematically investigates shape recovery and droplet fusion under comparable physical conditions and that their computational predictions can be compared with a stretched-exponential empirical formula.
+  - **Evidence pointer** Abstract only; no validation data or benchmark comparisons provided
+  - **Concern** No validation of the Oldroyd-B simulations against analytical solutions, experimental data, or established numerical benchmarks is presented. The claim that the framework is "unified" and "systematic" requires demonstration that the simulations are accurate and that the analytical theory for small-deformation shape recovery is consistent with the numerical results in the appropriate limit.
+  - **Why it matters** Without validation, the reliability of the computational predictions is unknown. The comparison with the stretched-exponential formula is only meaningful if the underlying simulations are trustworthy. The absence of any validation undermines confidence in the conclusions.
+  - **Resolution test** Include validation of the finite-element simulations against known analytical solutions for Newtonian droplet fusion or shape recovery, and demonstrate consistency between the analytical theory and simulations in the small-deformation limit.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Parameter space and generality
+  - **Claim pointer** The authors claim that shape recovery follows single- or multi-exponential decay depending on the relative magnitude of the viscocapillary timescale and the stress relaxation time, and that fusion is intrinsically multi-stage.
+  - **Evidence pointer** Abstract only; no parameter ranges or regime maps provided
+  - **Concern** The abstract does not specify the range of Deborah numbers, viscosity ratios, or other dimensionless parameters explored. It is unclear whether the claimed behaviors are universal or limited to specific parameter regimes. The transition between single- and multi-exponential decay is stated but not quantified.
+  - **Why it matters** The generality of the conclusions depends on the breadth of the parameter space explored. If the findings are only valid for a narrow range of conditions, their relevance to real biological condensates, which vary widely in their material properties, would be limited.
+  - **Resolution test** Provide a phase diagram or regime map showing where single- versus multi-exponential decay occurs and where enhanced fusion is observed, with clear parameter ranges and biological relevance discussed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "purely viscous models" is used without specifying which models are being referred to. It would be helpful to name or cite specific examples.
+  - **Required correction** Clarify which existing models are considered "purely viscous" and briefly state their limitations in the context of condensate dynamics.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract mentions "axisymmetric finite-element simulations based on the Oldroyd-B constitutive model" but provides no details on the numerical implementation, such as the finite-element software, mesh resolution, or time-stepping scheme.
+  - **Required correction** In the full manuscript, provide sufficient numerical details to allow reproduction, including software, element types, mesh convergence studies, and time-step selection criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Biological relevance
+  - **Affected element** Discussion of implications
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract states that deviations from the stretched-exponential formula highlight limitations of purely viscous descriptions, but does not discuss what this means for interpreting experimental data on condensates.
+  - **Required correction** Add a brief statement on how the findings inform the interpretation of experimental measurements of condensate fusion or recovery, and what experimental observables would distinguish viscoelastic from purely viscous behavior.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and validation means the central claims cannot be assessed. R1-M3 is non-blocking but important for establishing generality.
+- **Assessment against Nature-style criteria** Originality: The conceptual distinction between shape recovery and fusion as governed by different physics is a useful and potentially original framing, though the underlying physics of viscoelastic droplet coalescence is not entirely new. Scientific importance: The topic is relevant to the growing field of biomolecular condensates, and a quantitative framework for viscoelastic effects would be valuable, but the importance is not demonstrated from the abstract alone. Interdisciplinary readership: The work bridges soft matter physics and cell biology, which could attract a broad audience, but the abstract is written in a way that is accessible to specialists in both fields. Technical soundness: Cannot be assessed from the abstract; the use of Oldroyd-B is standard, but the implementation and validation are not visible. Readability for nonspecialists: The abstract is reasonably clear, but terms like "Oldroyd-B" and "Deborah number" are used without definition, which may limit accessibility for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, and the work could be supportive if the full manuscript provides quantitative results, validation, and a clear parameter space analysis. The abstract alone does not provide sufficient evidence to assess the validity or significance of the claims.
+
+## Risk / unsupported claims
+- The claim that viscoelasticity enhances intermediate-stage fusion dynamics is unsupported without quantitative comparison data.
+- The claim that exterior fluid viscosity significantly slows fusion is unsupported without numerical results showing the magnitude of the effect.
+- The claim that shape recovery follows single- or multi-exponential decay depending on parameter values is unsupported without showing the decay curves or the transition criteria.
+- The claim that deviations from the stretched-exponential formula reveal limitations of purely viscous descriptions is unsupported without showing the actual fits and residuals.
+- The overall claim of a "unified" framework is not verifiable from the abstract alone, as the consistency between analytical theory and simulations is not demonstrated.

@@ -1,0 +1,255 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.24.634656",
+  "title": "Patching up the nucleus: a novel role for PMLII in nuclear envelope rupture repair",
+  "doi": "10.1101/2025.01.24.634656",
+  "abstract": "The nuclear envelope (NE) is important for cellular health as it protects and organizes the genome. NE dynamics is important for various cellular processes including cell growth, migration and removal of defective NE components. In extreme cases, the NE can rupture leading to exchange of material between the nuclear interior and the cytoplasm. Rapid repair of the NE is initiated to minimize the effect on the genome. While our understanding of the machinery involved in this repair process is increasing, a lot is still unknown about this process including events leading up to NE rupture. Interestingly, biomolecular condensates have recently been found to play important roles in membrane repair and remodelling in cells. Here, we found that promyelocytic leukemia protein isoform II (PMLII), a protein involved in nuclear PML body formation, forms condensates at the NE. These condensates specifically form at sites where the lamina is disrupted. We show that NE rupture often occurs at these sites and that PMLII stays present until rupture repair is initiated suggesting a role in stabilization of the site for effective repair.",
+  "authors": [
+    "Janssen AF",
+    "Knowles O",
+    "Britton S",
+    "Deane JE",
+    "Spruijt E",
+    "Larrieu D"
+  ],
+  "published_date": "2025-01-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.24.634656",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.24.634656.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR970227",
+    "raw_record": {
+      "id": "PPR970227",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR970227"
+        ]
+      },
+      "doi": "10.1101/2025.01.24.634656",
+      "title": "Patching up the nucleus: a novel role for PMLII in nuclear envelope rupture repair",
+      "authorString": "Janssen AF, Knowles O, Britton S, Deane JE, Spruijt E, Larrieu D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Janssen AF",
+            "lastName": "Janssen",
+            "firstName": "Anne F.J.",
+            "initials": "AF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1227-2006"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , ,"
+                },
+                {
+                  "affiliation": "Institute for Molecules and Materials, , Heyendaalseweg ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Knowles O",
+            "lastName": "Knowles",
+            "firstName": "Oliver",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Britton S",
+            "lastName": "Britton",
+            "firstName": "Sébastien",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7008-5316"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , CNRS, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Deane JE",
+            "lastName": "Deane",
+            "firstName": "Janet",
+            "initials": "JE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4863-0330"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, Department of Clinical Biochemistry, Cambridge Biomedical Campus, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spruijt E",
+            "lastName": "Spruijt",
+            "firstName": "Evan",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecules and Materials, , Heyendaalseweg ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Larrieu D",
+            "lastName": "Larrieu",
+            "firstName": "Delphine",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2335-9361"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2335-9361"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4863-0330"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7008-5316"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1227-2006"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The nuclear envelope (NE) is important for cellular health as it protects and organizes the genome. NE dynamics is important for various cellular processes including cell growth, migration and removal of defective NE components. In extreme cases, the NE can rupture leading to exchange of material between the nuclear interior and the cytoplasm. Rapid repair of the NE is initiated to minimize the effect on the genome. While our understanding of the machinery involved in this repair process is increasing, a lot is still unknown about this process including events leading up to NE rupture. Interestingly, biomolecular condensates have recently been found to play important roles in membrane repair and remodelling in cells. Here, we found that promyelocytic leukemia protein isoform II (PMLII), a protein involved in nuclear PML body formation, forms condensates at the NE. These condensates specifically form at sites where the lamina is disrupted. We show that NE rupture often occurs at these sites and that PMLII stays present until rupture repair is initiated suggesting a role in stabilization of the site for effective repair.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "206242/Z/17/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "219447/Z/19/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.01.24.634656"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.01.24.634656"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR970227"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR970227&type=FILE&fileName=EMS202906-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS202906",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "hpa",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-01-26",
+      "firstPublicationDate": "2025-01-24",
+      "firstIndexDate": "2025-01-28",
+      "fullTextReceivedDate": "2025-02-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

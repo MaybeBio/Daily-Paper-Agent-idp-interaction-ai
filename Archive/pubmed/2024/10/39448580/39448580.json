@@ -1,0 +1,426 @@
+{
+  "identity": {
+    "pmid": "39448580",
+    "doi": "10.1038/s41467-024-53305-2",
+    "title": "Sequence and structural determinants of RNAPII CTD phase-separation and phosphorylation by CDK7."
+  },
+  "content": {
+    "abstract": "The intrinsically disordered carboxy-terminal domain (CTD) of the largest subunit of RNA Polymerase II (RNAPII) consists of multiple tandem repeats of the consensus heptapeptide Y1-S2-P3-T4-S5-P6-S7. The CTD promotes liquid-liquid phase-separation (LLPS) of RNAPII in vivo. However, understanding the role of the conserved heptad residues in LLPS is hampered by the lack of direct biochemical characterization of the CTD. Here, we generated a systematic array of CTD variants to unravel the sequence-encoded molecular grammar underlying the LLPS of the human CTD. Using in vitro experiments and molecular dynamics simulations, we report that the aromaticity of tyrosine and cis-trans isomerization of prolines govern CTD phase-separation. The cis conformation of prolines and beta-turns in the SPXX motif contribute to a more compact CTD ensemble, enhancing interactions among CTD residues. We further demonstrate that prolines and tyrosine in the CTD consensus sequence are required for phosphorylation by Cyclin-dependent kinase 7 (CDK7). Under phase-separation conditions, CDK7 associates with the surface of the CTD droplets, drastically accelerating phosphorylation and promoting the release of hyperphosphorylated CTD from the droplets. Our results highlight the importance of conformationally restricted local structures within spacer regions, separating uniformly spaced tyrosine stickers of the CTD heptads, which are required for CTD phase-separation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phosphorylation",
+      "Humans",
+      "*RNA Polymerase II/metabolism/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*Cyclin-Dependent Kinases/metabolism/chemistry",
+      "*Cyclin-Dependent Kinase-Activating Kinase",
+      "Protein Domains",
+      "Amino Acid Sequence",
+      "Tyrosine/metabolism/chemistry",
+      "Proline/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Linhartova, Katerina",
+        "Falginella, Francesco Luca",
+        "Matl, Martin",
+        "Sebesta, Marek",
+        "Vacha, Robert",
+        "Stefl, Richard"
+      ],
+      "short_names": [
+        "Linhartova K",
+        "Falginella FL",
+        "Matl M",
+        "Sebesta M",
+        "Vacha R",
+        "Stefl R"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-0509-2059",
+        "ORCID: 0000-0002-7215-3386",
+        "ORCID: 0000-0001-9546-4921",
+        "ORCID: 0000-0001-7610-658X",
+        "ORCID: 0000-0003-0558-5952"
+      ],
+      "affiliations": [
+        "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czechia.",
+        "National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Brno, Czechia.",
+        "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czechia.",
+        "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czechia.",
+        "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czechia. marek.sebesta@ceitec.muni.cz.",
+        "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czechia. robert.vacha@ceitec.muni.cz.",
+        "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czechia. richard.stefl@ceitec.muni.cz.",
+        "National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Brno, Czechia. richard.stefl@ceitec.muni.cz."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Linhartova, Katerina",
+        "short_name": "Linhartova K",
+        "identifiers": [
+          "0009-0009-0509-2059"
+        ],
+        "affiliations": [
+          "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czechia.",
+          "National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Brno, Czechia."
+        ]
+      },
+      {
+        "full_name": "Falginella, Francesco Luca",
+        "short_name": "Falginella FL",
+        "identifiers": [],
+        "affiliations": [
+          "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czechia."
+        ]
+      },
+      {
+        "full_name": "Matl, Martin",
+        "short_name": "Matl M",
+        "identifiers": [
+          "0000-0002-7215-3386"
+        ],
+        "affiliations": [
+          "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czechia."
+        ]
+      },
+      {
+        "full_name": "Sebesta, Marek",
+        "short_name": "Sebesta M",
+        "identifiers": [
+          "0000-0001-9546-4921"
+        ],
+        "affiliations": [
+          "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czechia. marek.sebesta@ceitec.muni.cz."
+        ]
+      },
+      {
+        "full_name": "Vácha, Robert",
+        "short_name": "Vácha R",
+        "identifiers": [
+          "0000-0001-7610-658X"
+        ],
+        "affiliations": [
+          "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czechia. robert.vacha@ceitec.muni.cz."
+        ]
+      },
+      {
+        "full_name": "Stefl, Richard",
+        "short_name": "Stefl R",
+        "identifiers": [
+          "0000-0003-0558-5952"
+        ],
+        "affiliations": [
+          "CEITEC - Central European Institute of Technology, Masaryk University, Brno, Czechia. richard.stefl@ceitec.muni.cz.",
+          "National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Brno, Czechia. richard.stefl@ceitec.muni.cz."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Oct 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/25 06:23",
+    "fetched_at": "2026-09-21 11:41:05"
+  },
+  "links": {
+    "cites": [
+      "42370638",
+      "41902470",
+      "41877588",
+      "41820080",
+      "41752209",
+      "41610855",
+      "41354346",
+      "40724961",
+      "40480227"
+    ],
+    "refs": [
+      "39103332",
+      "39097586",
+      "38553587",
+      "38383656",
+      "38365945",
+      "38316988",
+      "38113378",
+      "37805934",
+      "37749095",
+      "37645312",
+      "37639607",
+      "37043540",
+      "36866851",
+      "36528418",
+      "36227469",
+      "36108633",
+      "36018855",
+      "35795820",
+      "35725906",
+      "35637421",
+      "35377637",
+      "34931046",
+      "34723319",
+      "34474085",
+      "34265844",
+      "34035521",
+      "33934416",
+      "33782607",
+      "33503539",
+      "33247146",
+      "32393642",
+      "32312191",
+      "32029630",
+      "31922743",
+      "31683043",
+      "31462772",
+      "31391587",
+      "31123063",
+      "31032510",
+      "30865832",
+      "30845191",
+      "30217894",
+      "30127355",
+      "29961577",
+      "29930094",
+      "29930091",
+      "29849146",
+      "29677508",
+      "29195049",
+      "29091028",
+      "29073019",
+      "29065286",
+      "28924037",
+      "28668116",
+      "28516008",
+      "28468956",
+      "28248323",
+      "28225081",
+      "26996941",
+      "26619985",
+      "26491883",
+      "26226559",
+      "25693130",
+      "25450176",
+      "25400877",
+      "25262299",
+      "24842994",
+      "24711388",
+      "24267890",
+      "24050178",
+      "24040939",
+      "23952966",
+      "23837720",
+      "23479654",
+      "23042580",
+      "22892239",
+      "22745433",
+      "22743772",
+      "22670809",
+      "22579282",
+      "22404626",
+      "22284676",
+      "22257322",
+      "21565702",
+      "21500218",
+      "21451735",
+      "21245143",
+      "21159777",
+      "20861839",
+      "20404210",
+      "20287819",
+      "19941815",
+      "19450536",
+      "18457900",
+      "17876319",
+      "17765922",
+      "17269487",
+      "17212484",
+      "17113106",
+      "17082456",
+      "16981200",
+      "16359707",
+      "16240095",
+      "16170799",
+      "15998457",
+      "15964991",
+      "15944695",
+      "15896740",
+      "12942140",
+      "12911293",
+      "12399455",
+      "11751637",
+      "11313498",
+      "11090625",
+      "11018013",
+      "10932246",
+      "10364545",
+      "10228556",
+      "10198643",
+      "9565027",
+      "9548941",
+      "9407025",
+      "9002523",
+      "8744570",
+      "7822103",
+      "7688608",
+      "708713",
+      "241393"
+    ],
+    "similar": [
+      "39448580",
+      "30127355",
+      "29849146",
+      "26799765",
+      "32568517",
+      "39097586",
+      "12049628",
+      "10023686",
+      "19136461",
+      "10886368",
+      "10704311",
+      "15009212",
+      "11278802",
+      "19901026",
+      "10974544",
+      "12114499",
+      "12185079",
+      "15380029",
+      "24611769",
+      "26515650",
+      "22547781",
+      "24122273",
+      "19667075",
+      "23027873",
+      "22670809",
+      "11003668",
+      "22982363",
+      "9228069",
+      "26275777",
+      "17502918",
+      "9488660",
+      "15665873",
+      "26687004",
+      "33958484",
+      "20952539",
+      "30971428",
+      "9057097",
+      "7533895",
+      "31553563",
+      "23900790",
+      "16306619",
+      "7504297",
+      "28497792",
+      "28497798",
+      "24997600",
+      "10866664",
+      "19450536",
+      "8029001",
+      "7566158",
+      "10036778",
+      "9665818",
+      "30139934",
+      "17376774",
+      "12527363",
+      "9840937",
+      "11807820",
+      "36979361",
+      "33707221",
+      "9311822",
+      "38821049",
+      "28768201",
+      "37749095",
+      "10385623",
+      "17242204",
+      "25429106",
+      "25047832",
+      "29523636",
+      "40158465",
+      "28924037",
+      "20624369",
+      "15530371",
+      "14749500",
+      "40315851",
+      "8668151",
+      "11387217",
+      "23478263",
+      "37141964",
+      "22960391",
+      "34216714",
+      "1989983",
+      "15047695",
+      "28468956",
+      "16327805",
+      "15514168",
+      "37858651",
+      "28771071",
+      "27503426",
+      "11447116",
+      "9334327",
+      "33055219",
+      "8106443",
+      "30901332",
+      "26876604",
+      "25416796",
+      "12052871",
+      "15282296",
+      "22284676",
+      "22391209",
+      "10438593",
+      "37944716"
+    ],
+    "review": [
+      "39448580",
+      "24122273",
+      "22982363",
+      "11807820",
+      "14749500",
+      "22960391",
+      "28771071"
+    ],
+    "pmc": [
+      "11502803"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-53305-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39448580/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A12-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

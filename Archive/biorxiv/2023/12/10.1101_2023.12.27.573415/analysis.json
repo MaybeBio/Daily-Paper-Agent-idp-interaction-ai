@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.27.573415",
+  "title": "p23-FKBP51 chaperone complex regulates tau aggregation",
+  "authors": "Chakraborty P; Zweckstetter M",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-27",
+  "window": {
+    "start": "2023-12-25",
+    "end": "2023-12-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过NMR、SAXS和分子对接揭示p23-FKBP51复合物结构，并阐明其通过p23无序C端尾部结合tau形成三聚体复合物抑制tau聚集的机制，涉及IDR介导的PPI且采用物理模拟方法，但未涉及相分离/凝聚体背景。",
+  "abstract": "The pathological deposition of tau into insoluble amyloid fibrils is a pathological hallmark of tauopathies. Molecular chaperones are important cellular factors contributing to the regulation of tau misfolding and aggregation. Here we reveal an Hsp90-independent modulation of tau aggregation by a molecular complex of the two Hsp90 co-chaperones p23 and FKBP51. Integrating NMR spectroscopy, SAXS, molecular docking, and site-directed mutagenesis we reveal the structural basis of the p23-FKBP51 complex. We show that p23 specifically recognizes the TPR domain of FKBP51 and interacts with tau through its C-terminal disordered tail. We further show that the p23-FKBP51 complex binds tau to form a dynamic p23-FKBP51-tau trimeric complex that inhibits tau aggregation and thus may counteract Hsp90-FKBP51 mediated toxicity. Taken together, our findings reveal a co-chaperone mediated Hsp90-independent chaperoning of tau protein.",
+  "abstract_zh": "tau蛋白病理性沉积为不溶性淀粉样原纤维是tau蛋白病的病理标志。分子伴侣是调控tau蛋白错误折叠和聚集的重要细胞因子。在此，我们揭示了由两个Hsp90共伴侣蛋白p23和FKBP51组成的分子复合物对tau蛋白聚集的Hsp90非依赖性调控。通过整合核磁共振波谱（NMR spectroscopy）、小角X射线散射（SAXS）、分子对接和定点突变技术，我们阐明了p23-FKBP51复合物的结构基础。我们证明p23特异性识别FKBP51的TPR结构域，并通过其C端无序尾部与tau蛋白相互作用。我们进一步表明，p23-FKBP51复合物结合tau蛋白，形成动态的p23-FKBP51-tau三聚体复合物，该复合物抑制tau蛋白聚集，从而可能对抗Hsp90-FKBP51介导的毒性。综上所述，我们的发现揭示了一种由共伴侣蛋白介导的、不依赖Hsp90的tau蛋白分子伴侣调控机制。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.27.573415",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.27.573415",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.27.573415/index.html"
+}

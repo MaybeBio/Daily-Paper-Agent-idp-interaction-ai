@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "38793558",
+    "doi": "10.3390/v16050676",
+    "title": "Investigating the Interactions of the Cucumber Mosaic Virus 2b Protein with the Viral 1a Replicase Component and the Cellular RNA Silencing Factor Argonaute 1."
+  },
+  "content": {
+    "abstract": "The cucumber mosaic virus (CMV) 2b protein is a suppressor of plant defenses and a pathogenicity determinant. Amongst the 2b protein's host targets is the RNA silencing factor Argonaute 1 (AGO1), which it binds to and inhibits. In Arabidopsis thaliana, if 2b-induced inhibition of AGO1 is too efficient, it induces reinforcement of antiviral silencing by AGO2 and triggers increased resistance against aphids, CMV's insect vectors. These effects would be deleterious to CMV replication and transmission, respectively, but are moderated by the CMV 1a protein, which sequesters sufficient 2b protein molecules into P-bodies to prevent excessive inhibition of AGO1. Mutant 2b protein variants were generated, and red and green fluorescent protein fusions were used to investigate subcellular colocalization with AGO1 and the 1a protein. The effects of mutations on complex formation with the 1a protein and AGO1 were investigated using bimolecular fluorescence complementation and co-immunoprecipitation assays. Although we found that residues 56-60 influenced the 2b protein's interactions with the 1a protein and AGO1, it appears unlikely that any single residue or sequence domain is solely responsible. In silico predictions of intrinsic disorder within the 2b protein secondary structure were supported by circular dichroism (CD) but not by nuclear magnetic resonance (NMR) spectroscopy. Intrinsic disorder provides a plausible model to explain the 2b protein's ability to interact with AGO1, the 1a protein, and other factors. However, the reasons for the conflicting conclusions provided by CD and NMR must first be resolved.",
+    "keywords": [
+      "RNA silencing suppressor regulation",
+      "intrinsically disordered protein",
+      "protein condensate",
+      "protein folding",
+      "protein phase separation"
+    ],
+    "mesh_terms": [
+      "Arabidopsis/metabolism/virology/genetics",
+      "*Arabidopsis Proteins/metabolism/genetics",
+      "*Argonaute Proteins/metabolism/genetics",
+      "Cucumovirus/metabolism/genetics/physiology",
+      "*Host-Pathogen Interactions",
+      "Methyltransferases",
+      "Plant Diseases/virology",
+      "Protein Binding",
+      "RNA-Dependent RNA Polymerase/metabolism/genetics/chemistry",
+      "*Viral Proteins/metabolism/genetics",
+      "Viral Replicase Complex Proteins/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Crawshaw, Sam",
+        "Murphy, Alex M",
+        "Rowling, Pamela J E",
+        "Nietlispach, Daniel",
+        "Itzhaki, Laura S",
+        "Carr, John P"
+      ],
+      "short_names": [
+        "Crawshaw S",
+        "Murphy AM",
+        "Rowling PJE",
+        "Nietlispach D",
+        "Itzhaki LS",
+        "Carr JP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2226-8759",
+        "ORCID: 0009-0009-5848-9594",
+        "ORCID: 0000-0003-4364-9291",
+        "ORCID: 0000-0001-6504-2576",
+        "ORCID: 0000-0002-5028-2160"
+      ],
+      "affiliations": [
+        "Department of Plant Sciences, University of Cambridge, Downing Street, Cambridge CB2 3EA, UK.",
+        "Department of Plant Sciences, University of Cambridge, Downing Street, Cambridge CB2 3EA, UK.",
+        "Department of Pharmacology, University of Cambridge, Tennis Court Rd., Cambridge CB2 1PD, UK.",
+        "Department of Biochemistry, University of Cambridge, Sanger Building, 80 Tennis Court Rd., Cambridge CB2 1GA, UK.",
+        "Department of Pharmacology, University of Cambridge, Tennis Court Rd., Cambridge CB2 1PD, UK.",
+        "Department of Plant Sciences, University of Cambridge, Downing Street, Cambridge CB2 3EA, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Crawshaw, Sam",
+        "short_name": "Crawshaw S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Sciences, University of Cambridge, Downing Street, Cambridge CB2 3EA, UK."
+        ]
+      },
+      {
+        "full_name": "Murphy, Alex M",
+        "short_name": "Murphy AM",
+        "identifiers": [
+          "0000-0002-2226-8759"
+        ],
+        "affiliations": [
+          "Department of Plant Sciences, University of Cambridge, Downing Street, Cambridge CB2 3EA, UK."
+        ]
+      },
+      {
+        "full_name": "Rowling, Pamela J E",
+        "short_name": "Rowling PJE",
+        "identifiers": [
+          "0009-0009-5848-9594"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of Cambridge, Tennis Court Rd., Cambridge CB2 1PD, UK."
+        ]
+      },
+      {
+        "full_name": "Nietlispach, Daniel",
+        "short_name": "Nietlispach D",
+        "identifiers": [
+          "0000-0003-4364-9291"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Cambridge, Sanger Building, 80 Tennis Court Rd., Cambridge CB2 1GA, UK."
+        ]
+      },
+      {
+        "full_name": "Itzhaki, Laura S",
+        "short_name": "Itzhaki LS",
+        "identifiers": [
+          "0000-0001-6504-2576"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of Cambridge, Tennis Court Rd., Cambridge CB2 1PD, UK."
+        ]
+      },
+      {
+        "full_name": "Carr, John P",
+        "short_name": "Carr JP",
+        "identifiers": [
+          "0000-0002-5028-2160"
+        ],
+        "affiliations": [
+          "Department of Plant Sciences, University of Cambridge, Downing Street, Cambridge CB2 3EA, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Viruses"
+    ],
+    "journal_abbrev": [
+      "Viruses"
+    ],
+    "pub_date": "2024 Apr 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/25 10:54",
+    "fetched_at": "2026-09-21 07:20:54"
+  },
+  "links": {
+    "cites": [
+      "41550334",
+      "41373899",
+      "40615422",
+      "39162432"
+    ],
+    "refs": [
+      "39162432",
+      "38096754",
+      "37553525",
+      "36528065",
+      "35890032",
+      "35860655",
+      "35637307",
+      "35081172",
+      "34543360",
+      "34355485",
+      "34282049",
+      "34048569",
+      "33517364",
+      "33270799",
+      "32393642",
+      "32204351",
+      "31270472",
+      "31252218",
+      "31192783",
+      "28894006",
+      "28059067",
+      "27392146",
+      "27114519",
+      "26727894",
+      "25979730",
+      "25883148",
+      "25822508",
+      "24633701",
+      "24492335",
+      "24349433",
+      "23782515",
+      "23232152",
+      "23143042",
+      "22682176",
+      "22665793",
+      "22357910",
+      "22247253",
+      "21622812",
+      "21305057",
+      "20121451",
+      "20096691",
+      "19717576",
+      "19596244",
+      "19460965",
+      "19445589",
+      "19309457",
+      "18600235",
+      "18477405",
+      "18177052",
+      "18054235",
+      "17984079",
+      "17601162",
+      "17444907",
+      "17158744",
+      "16768647",
+      "16218947",
+      "15215473",
+      "14719367",
+      "11533628",
+      "11112271",
+      "10597045",
+      "10550212",
+      "10328265",
+      "10026283",
+      "9697205",
+      "8755497",
+      "8291242",
+      "6551225",
+      "5432063",
+      "3713851",
+      "388439",
+      "271968"
+    ],
+    "similar": [
+      "38793558",
+      "39162432",
+      "33270799",
+      "17158744",
+      "24349433",
+      "23083401",
+      "23782515",
+      "24599997",
+      "26433748",
+      "21880078",
+      "21622812",
+      "20121451",
+      "25806948",
+      "27659495",
+      "28468686",
+      "28727810",
+      "25893424",
+      "32725725",
+      "22247253",
+      "17586651",
+      "21477206",
+      "23621279",
+      "28499009",
+      "33073913",
+      "17030879",
+      "28806733",
+      "34355485",
+      "21722297",
+      "34346768",
+      "22361475",
+      "34911561",
+      "21467580",
+      "25201959",
+      "19474248",
+      "27288723",
+      "21305057",
+      "23023169",
+      "24633701",
+      "21916556",
+      "21341985",
+      "30423959",
+      "34614168",
+      "40082396",
+      "39497360",
+      "28900084",
+      "27077230",
+      "19059248",
+      "28123063",
+      "20521947",
+      "34740306",
+      "23019378",
+      "18280529",
+      "18799732",
+      "22354861",
+      "34408020",
+      "22355702",
+      "17373696",
+      "19445589",
+      "18438704",
+      "28270624",
+      "10640561",
+      "25385769",
+      "31777194",
+      "20121454",
+      "32636339",
+      "27795417",
+      "27762650",
+      "24889248",
+      "22174881",
+      "31941092",
+      "27354557",
+      "12747833",
+      "19966292",
+      "17872541",
+      "39243759",
+      "29184028",
+      "20532888",
+      "19675191",
+      "22301966",
+      "34156752",
+      "25541532",
+      "30194279",
+      "32264933",
+      "26355083",
+      "21994448",
+      "29848768",
+      "29691336",
+      "39753176",
+      "20439431",
+      "17869110",
+      "36775660",
+      "26808923",
+      "23269841",
+      "19531599",
+      "21402113",
+      "29044170",
+      "15448377",
+      "21576511",
+      "38769059",
+      "40000658"
+    ],
+    "review": [
+      "38793558"
+    ],
+    "pmc": [
+      "11125589"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=v16050676",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38793558/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38793558",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

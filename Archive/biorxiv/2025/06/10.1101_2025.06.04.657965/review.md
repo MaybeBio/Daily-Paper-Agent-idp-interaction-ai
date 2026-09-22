@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present CGBack, a denoising diffusion probabilistic model-based framework for backmapping coarse-grained (CG) molecular representations to all-atom structures. The framework is claimed to accurately recover atomic coordinates across diverse protein systems, from small to large scales, including single-chain and multi-chain systems and densely packed intrinsically disordered proteins in condensates. The authors further claim that CGBack can serve as a powerful tool for multiscale molecular simulation pipelines and enable more efficient workflows for protein modelling and other biomolecules across different CG models.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, benchmark comparisons, or validation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark datasets, comparison baselines, computational details, and any statistical or error analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the field of multiscale molecular simulation, addressing a recognized bottleneck in backmapping CG representations. The use of a denoising diffusion probabilistic model is timely and aligns with current trends in generative modeling for structural biology. However, the abstract provides no quantitative evidence to support the central claims of accuracy, scalability, or generalizability. The claims regarding "accurate" reconstruction, handling of "densely packed" systems, and broad applicability across "different CG models" are not substantiated by any data presented in the abstract. The contribution cannot be evaluated for technical soundness or scientific impact from the supplied material alone.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists working on multiscale simulation methods, developers of coarse-grained force fields, and researchers studying intrinsically disordered proteins and biomolecular condensates would be interested. The work addresses a practical bottleneck in integrating CG and all-atom simulations, which is relevant to a broad community using molecular dynamics for biomolecular systems.
+- **Major strengths** The problem addressed is well-recognized and of practical importance. The choice of a diffusion-based generative model is methodologically current and plausible for the task. The stated scope, including multi-chain systems and condensates, targets challenging and biologically relevant cases beyond typical small-scale benchmarks.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that CGBack "accurately recovers atomic coordinates across diverse protein systems from small to large scales" and is "capable of accurately backmapping both single-chain and multi-chain molecular systems, including densely packed intrinsically disordered proteins in condensates."  
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative results provided  
+  - **Concern** The central claims of accuracy and capability are made without any supporting quantitative data. No metrics such as root-mean-square deviation, stereochemical validity, energy distributions, or comparison to existing backmapping methods are presented.  
+  - **Why it matters** Without quantitative validation, the reader cannot assess whether the method performs adequately, whether it improves upon existing approaches, or whether the claims of accuracy are justified. The abstract's assertions are therefore unsupported.  
+  - **Resolution test** Provide quantitative benchmarks comparing CGBack to established backmapping methods on standard test systems, including error metrics, stereochemical checks, and computational cost.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that CGBack "consists of backmapping and refinement procedures" and employs a "denoising diffusion probabilistic model."  
+  - **Evidence pointer** Abstract only; no methodological details provided  
+  - **Concern** No details are given on the model architecture, training data, feature representations, loss functions, or the nature of the refinement procedure. The reader cannot evaluate whether the approach is technically sound, reproducible, or appropriately designed for the task.  
+  - **Why it matters** Reproducibility and technical rigor are essential for a methods paper. The absence of any methodological detail prevents assessment of the approach's validity and novelty relative to existing diffusion-based backmapping methods.  
+  - **Resolution test** Include a detailed methods section describing the model architecture, training procedure, data preparation, and refinement steps, with sufficient specificity for replication.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability claim  
+  - **Claim pointer** The abstract claims that CGBack will "enable more efficient workflows for protein modelling, as well as for other biomolecules across different CG models."  
+  - **Evidence pointer** Abstract only; no evidence of cross-model or cross-molecule generalization  
+  - **Concern** The claim of applicability to "other biomolecules" and "different CG models" is speculative and not supported by any results in the abstract. The work appears to focus on proteins, and no evidence is provided for transferability to nucleic acids, lipids, or other CG representations.  
+  - **Why it matters** Overstated generalizability can mislead potential users and overstate the contribution's scope. The claim goes beyond the demonstrated system types.  
+  - **Resolution test** Provide results on at least one non-protein system or a different CG model, or temper the claim to reflect the demonstrated scope.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "CG models achieve it by discarding atomic information" is imprecise; CG models reduce degrees of freedom, which is not simply "discarding" information but a systematic coarse-graining process.  
+  - **Required correction** Rephrase to reflect that CG models reduce resolution by grouping atoms into interaction sites, rather than "discarding" information.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Specificity  
+  - **Affected element** Abstract, description of limitations of prior methods  
+  - **Evidence pointer** Abstract, "conventional backmapping pipelines often fail to preserve stereochemistry, induce high-energy configurations, or require extensive minimization"  
+  - **Issue** These limitations are stated without citation or quantification. It is unclear whether these are general observations or specific to certain methods.  
+  - **Required correction** Add citations to support these claims or specify the classes of methods to which they apply.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract, "densely packed intrinsically disordered proteins in condensates"  
+  - **Evidence pointer** Abstract, results statement  
+  - **Issue** The term "densely packed" is not defined. It is unclear what concentration or packing density is being referenced.  
+  - **Required correction** Provide a quantitative definition or context for "densely packed" in the relevant results section.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and evidence for generalizability means the central claims are not currently established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The use of diffusion models for backmapping is not entirely new, but the stated focus on large-scale and complex systems, including condensates, may represent a novel application. However, without methodological detail, the degree of novelty cannot be assessed.  
+  - **Scientific importance** The problem is important and timely. If the claims are substantiated, the work could have significant impact on multiscale simulation workflows.  
+  - **Interdisciplinary readership** The topic is relevant to computational biology, biophysics, and chemistry. The abstract is written in a way that is accessible to nonspecialists, though some terms (e.g., "denoising diffusion probabilistic model") may require familiarity with machine learning.  
+  - **Technical soundness** Cannot be evaluated from the abstract. No methodological or validation details are provided.  
+  - **Readability for nonspecialists** The abstract is generally clear and well-structured, but the lack of quantitative context limits its accessibility to readers who cannot assess the claims without data.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially valuable approach, but the absence of quantitative results, methodological detail, and evidence for generalizability means the claims cannot be evaluated. A full manuscript with detailed methods and benchmarks would be required to assess the contribution.
+
+## Risk / unsupported claims
+- The claim of "accurate" recovery of atomic coordinates is unsupported without quantitative metrics.
+- The claim of capability for "densely packed intrinsically disordered proteins in condensates" is unsupported without specific results or definitions.
+- The claim of applicability to "other biomolecules across different CG models" is speculative and not evidenced.
+- The stated limitations of "conventional backmapping pipelines" are presented without citations or quantification.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39871444",
+  "title": "Impact of Phosphorylation and O-GlcNAcylation on the Binding Affinity of R4 Tau Peptide to Microtubule and Its Conformational Preference upon Dissociation.",
+  "authors": "Dasari, Sathish; Kalyaanamoorthy, Subha",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-01-28",
+  "window": {
+    "start": "2025-01-27",
+    "end": "2025-02-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用经典MD和副本交换MD模拟研究Tau无序R4肽段磷酸化与O-GlcNAc修饰对微管结合亲和力及解离后构象偏好的影响，对象为IDP、聚焦PPI结合机制，方法为物理模拟，机制建模深度足，虽未涉及相分离但高度契合本课题。",
+  "abstract": "Tau is a microtubule (MT)-associated protein that binds to and stabilizes the MTs of neurons. Due to its intrinsically disordered nature, it undergoes several post-translational modifications (PTMs) that are intricately linked to both the physiological and pathophysiological roles of Tau. Prior research has shown phosphorylation and O-GlcNAcylation to have contrasting effects on Tau aggregation; however, the precise molecular mechanisms and potential synergistic effects of these modifications remain elusive. In this article, we study the impact of phosphorylation at S352, and S356, as well as the phosphorylation of O-GlcNAcylation at S356, individually and in combination, on the binding of the R4 (336-367) peptide with MTs by performing classical molecular dynamics (MD) simulations. By analyzing the binding free energies of the Tau-MT complex, we found that both individual and combined phosphorylation at S352 and S356 sites decreased the affinity of the R4 peptide toward MT. Surprisingly, O-GlcNAcylation, a likely neuroprotective modification, at S356 also decreased the binding affinity of Tau to MT similar to the single phosphorylation systems (pS352 or pS356) but was observed to maintain major interactions with MT comparable to unmodified R4. Additionally, we investigated the impact of phosphorylation at both sites and the interplay between phosphorylation at S352 and O-GlcNAcylation at S356, which showed that the latter preserved the interactions and affinity of the Tau with MT better than dual phosphorylation, though still not as effectively as single phosphorylation. These findings suggest that O-GlcNAcylation at residue S356 has a moderate destabilizing effect. We also performed replica-exchange MD simulations of the R4 peptide to understand the changes in conformational preferences upon phosphorylation, O-GlcNAcylation, and a combination of both modifications. Both individual and combined phosphorylation of R4 peptide at S352, and S356, sites induced salt-bridge interactions with positively charged side chains of lysine and arginine amino acids. However, O-GlcNAcylation at S356 induced secondary structural changes on the R4 peptide, leading to the formation of a beta-sheet structure, consistent with previous experimental observations. Interestingly, simultaneous phosphorylation at S352 and the phosphorylation of O-GlcNAcylation at S356 resulted in conformations promoting salt-bridges and beta-sheets. Thus, our study provides atomistic insights into the impact of PTMs on the binding of Tau peptide to MT and its conformational preferences upon dissociation.",
+  "abstract_zh": "Tau是一种微管（MT）相关蛋白，能够结合并稳定神经元的微管。由于其本质无序的特性，Tau经历多种翻译后修饰（PTMs），这些修饰与Tau的生理和病理生理作用密切相关。先前的研究表明，磷酸化和O-GlcNAc糖基化对Tau聚集具有相反的影响；然而，这些修饰的精确分子机制及其潜在协同效应仍不明确。在本文中，我们通过经典分子动力学（MD）模拟，研究了S352和S356位点的磷酸化，以及S356位点的O-GlcNAc糖基化磷酸化，单独及组合情况下对R4（336-367）肽与MT结合的影响。通过分析Tau-MT复合物的结合自由能，我们发现S352和S356位点的单独及组合磷酸化均降低了R4肽对MT的亲和力。令人惊讶的是，S356位点的O-GlcNAc糖基化（一种可能具有神经保护作用的修饰）也降低了Tau与MT的结合亲和力，其效果与单磷酸化系统（pS352或pS356）相似，但观察到其与MT的主要相互作用与未修饰的R4相当。此外，我们研究了两个位点磷酸化的影响以及S352磷酸化与S356 O-GlcNAc糖基化之间的相互作用，结果显示后者比双磷酸化更好地保留了Tau与MT的相互作用和亲和力，但仍不如单磷酸化有效。这些发现表明，S356残基的O-GlcNAc糖基化具有适度的去稳定效应。我们还对R4肽进行了副本交换MD模拟，以了解磷酸化、O-GlcNAc糖基化及两者组合修饰后构象偏好的变化。R4肽在S352和S356位点的单独及组合磷酸化均诱导了与赖氨酸和精氨酸氨基酸带正电荷侧链的盐桥相互作用。然而，S356位点的O-GlcNAc糖基化诱导了R4肽的二级结构变化，导致β-折叠结构的形成，这与先前的实验观察一致。有趣的是，S352的磷酸化与S356的O-GlcNAc糖基化同时发生时，产生了促进盐桥和β-折叠的构象。因此，我们的研究提供了关于PTMs对Tau肽与MT结合及其解离后构象偏好影响的原子级见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39871444/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39871444/",
+  "paper_page_path": "papers/pubmed/39871444/index.html"
+}

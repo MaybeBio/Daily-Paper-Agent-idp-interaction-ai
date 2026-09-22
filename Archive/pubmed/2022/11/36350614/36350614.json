@@ -1,0 +1,434 @@
+{
+  "identity": {
+    "pmid": "36350614",
+    "doi": "10.1093/nar/gkac950",
+    "title": "rG4detector, a novel RNA G-quadruplex predictor, uncovers their impact on stress granule formation."
+  },
+  "content": {
+    "abstract": "RNA G-quadruplexes (rG4s) are RNA secondary structures, which are formed by guanine-rich sequences and have important cellular functions. Existing computational tools for rG4 prediction rely on specific sequence features and/or were trained on small datasets, without considering rG4 stability information, and are therefore sub-optimal. Here, we developed rG4detector, a convolutional neural network to identify potential rG4s in transcriptomics data. rG4detector outperforms existing methods in both predicting rG4 stability and in detecting rG4-forming sequences. To demonstrate the biological-relevance of rG4detector, we employed it to study RNAs that are bound by the RNA-binding protein G3BP1. G3BP1 is central to the induction of stress granules (SGs), which are cytoplasmic biomolecular condensates that form in response to a variety of cellular stresses. Unexpectedly, rG4detector revealed a dynamic enrichment of rG4s bound by G3BP1 in response to cellular stress. In addition, we experimentally characterized G3BP1 cross-talk with rG4s, demonstrating that G3BP1 is a bona fide rG4-binding protein and that endogenous rG4s are enriched within SGs. Furthermore, we found that reduced rG4 availability impairs SG formation. Hence, we conclude that rG4s play a direct role in SG biology via their interactions with RNA-binding proteins and that rG4detector is a novel useful tool for rG4 transcriptomics data analyses.",
+    "keywords": [],
+    "mesh_terms": [
+      "DNA Helicases/genetics/metabolism",
+      "*G-Quadruplexes",
+      "Poly-ADP-Ribose Binding Proteins/genetics/metabolism",
+      "RNA/chemistry",
+      "RNA Helicases/genetics/metabolism",
+      "RNA Recognition Motif Proteins/genetics/metabolism",
+      "*RNA-Binding Proteins/metabolism",
+      "*Stress Granules"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Turner, Maor",
+        "Danino, Yehuda M",
+        "Barshai, Mira",
+        "Yacovzada, Nancy S",
+        "Cohen, Yahel",
+        "Olender, Tsviya",
+        "Rotkopf, Ron",
+        "Monchaud, David",
+        "Hornstein, Eran",
+        "Orenstein, Yaron"
+      ],
+      "short_names": [
+        "Turner M",
+        "Danino YM",
+        "Barshai M",
+        "Yacovzada NS",
+        "Cohen Y",
+        "Olender T",
+        "Rotkopf R",
+        "Monchaud D",
+        "Hornstein E",
+        "Orenstein Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5295-0487",
+        "ORCID: 0000-0001-9503-7348",
+        "ORCID: 0000-0002-3056-9295",
+        "ORCID: 0000-0002-3583-3112"
+      ],
+      "affiliations": [
+        "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Be'er-Sheva 8410501, Israel.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Molecular Neuroscience, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Be'er-Sheva 8410501, Israel.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Molecular Neuroscience, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Molecular Neuroscience, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Bioinformatics Unit, Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Institut de Chimie Moleculaire, ICMUB CNRS UMR 6302, UBFC Dijon, France.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Molecular Neuroscience, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Be'er-Sheva 8410501, Israel.",
+        "Department of Computer Science, Bar-Ilan University, Ramat-Gan 5290002, Israel.",
+        "The Mina & Everard Goodman Faculty of Life Sciences, Bar-Ilan University, Ramat-Gan 5290002, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Turner, Maor",
+        "short_name": "Turner M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Be'er-Sheva 8410501, Israel."
+        ]
+      },
+      {
+        "full_name": "Danino, Yehuda M",
+        "short_name": "Danino YM",
+        "identifiers": [
+          "0000-0001-5295-0487"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+          "Department of Molecular Neuroscience, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Barshai, Mira",
+        "short_name": "Barshai M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Be'er-Sheva 8410501, Israel."
+        ]
+      },
+      {
+        "full_name": "Yacovzada, Nancy S",
+        "short_name": "Yacovzada NS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+          "Department of Molecular Neuroscience, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Cohen, Yahel",
+        "short_name": "Cohen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+          "Department of Molecular Neuroscience, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Olender, Tsviya",
+        "short_name": "Olender T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Rotkopf, Ron",
+        "short_name": "Rotkopf R",
+        "identifiers": [
+          "0000-0001-9503-7348"
+        ],
+        "affiliations": [
+          "Bioinformatics Unit, Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Monchaud, David",
+        "short_name": "Monchaud D",
+        "identifiers": [
+          "0000-0002-3056-9295"
+        ],
+        "affiliations": [
+          "Institut de Chimie Moleculaire, ICMUB CNRS UMR 6302, UBFC Dijon, France."
+        ]
+      },
+      {
+        "full_name": "Hornstein, Eran",
+        "short_name": "Hornstein E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+          "Department of Molecular Neuroscience, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Orenstein, Yaron",
+        "short_name": "Orenstein Y",
+        "identifiers": [
+          "0000-0002-3583-3112"
+        ],
+        "affiliations": [
+          "School of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Be'er-Sheva 8410501, Israel.",
+          "Department of Computer Science, Bar-Ilan University, Ramat-Gan 5290002, Israel.",
+          "The Mina & Everard Goodman Faculty of Life Sciences, Bar-Ilan University, Ramat-Gan 5290002, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2022 Nov 11",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/10 06:00",
+    "fetched_at": "2026-09-20 16:35:03"
+  },
+  "links": {
+    "cites": [
+      "42474060",
+      "42094343",
+      "41964251",
+      "41712756",
+      "41688669",
+      "41674366",
+      "41266338",
+      "41022793",
+      "40877262",
+      "40598781",
+      "40575133",
+      "40503845",
+      "40339045",
+      "40304181",
+      "39936430",
+      "39847338",
+      "39615684",
+      "39554013",
+      "38828391",
+      "38341346",
+      "38278052",
+      "38151240",
+      "37513407",
+      "37503837",
+      "37069370"
+    ],
+    "refs": [
+      "36639366",
+      "36372875",
+      "35355287",
+      "35176431",
+      "35140410",
+      "34614161",
+      "34496257",
+      "34297914",
+      "33471508",
+      "33334306",
+      "33303320",
+      "32976590",
+      "32873317",
+      "32578417",
+      "32496517",
+      "32338139",
+      "32313204",
+      "32302572",
+      "32302571",
+      "32302570",
+      "31943112",
+      "31928844",
+      "31821414",
+      "31160600",
+      "30949698",
+      "30767771",
+      "30413703",
+      "30096311",
+      "30082464",
+      "29993783",
+      "29967010",
+      "29758260",
+      "29483269",
+      "29453903",
+      "29262335",
+      "29129640",
+      "29109402",
+      "29036425",
+      "28554731",
+      "28306503",
+      "28095315",
+      "27768896",
+      "27708011",
+      "27571552",
+      "27289443",
+      "27037575",
+      "26792894",
+      "26200754",
+      "24345950",
+      "24121682",
+      "24029419",
+      "23683360",
+      "23629963",
+      "23104886",
+      "21744844",
+      "19505943",
+      "19461665",
+      "18975896",
+      "16845096",
+      "12642610",
+      "7584402"
+    ],
+    "similar": [
+      "36350614",
+      "34614161",
+      "31481451",
+      "37059803",
+      "38821132",
+      "36692217",
+      "39079611",
+      "33199441",
+      "33133097",
+      "35798143",
+      "33945510",
+      "29463567",
+      "37503837",
+      "30944179",
+      "30006004",
+      "36279435",
+      "34779554",
+      "36827365",
+      "36534661",
+      "31500725",
+      "33547245",
+      "39387926",
+      "39007803",
+      "38734221",
+      "31462091",
+      "28972166",
+      "31091124",
+      "34739333",
+      "36124670",
+      "32692974",
+      "32302571",
+      "31560169",
+      "31956030",
+      "37219408",
+      "33131924",
+      "31964733",
+      "37479077",
+      "32451507",
+      "34904666",
+      "38284934",
+      "36639366",
+      "38039847",
+      "39120973",
+      "38690262",
+      "38521588",
+      "33065005",
+      "36394332",
+      "38593624",
+      "37471224",
+      "35150414",
+      "35395551",
+      "25653451",
+      "31199850",
+      "37379838",
+      "35689166",
+      "38262290",
+      "35176431",
+      "36806943",
+      "31941779",
+      "30804210",
+      "30595162",
+      "31981475",
+      "32406909",
+      "36179369",
+      "38778761",
+      "33349931",
+      "29717134",
+      "29588351",
+      "34115105",
+      "33000280",
+      "38750080",
+      "38200227",
+      "37349582",
+      "39408899",
+      "35738400",
+      "30510222",
+      "37028415",
+      "37917584",
+      "36243987",
+      "31704836",
+      "35652658",
+      "31772125",
+      "35902691",
+      "32235396",
+      "31069274",
+      "33579337",
+      "32663095",
+      "34517025",
+      "37161291",
+      "32165252",
+      "29626090",
+      "38126399",
+      "32668274",
+      "34967276",
+      "35085371",
+      "30893049",
+      "36256816",
+      "30943206",
+      "33479198",
+      "36511898",
+      "36611004",
+      "38973296",
+      "33497611",
+      "23279204",
+      "37468286",
+      "35977029",
+      "39222785"
+    ],
+    "review": [
+      "36350614",
+      "35176431",
+      "30595162",
+      "38778761",
+      "33349931"
+    ],
+    "pmc": [
+      "9723610"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36350614/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36350614",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-374",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac950",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

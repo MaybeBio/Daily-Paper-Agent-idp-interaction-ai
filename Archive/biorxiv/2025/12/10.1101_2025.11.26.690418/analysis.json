@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.26.690418",
+  "title": "FuzzAletheia: Mapping dynamic interaction landscapes of intrinsically disordered protein-ligand complexes to accelerate ligand optimization",
+  "authors": "Hanping Wang; Fanhao Wang; Ruoyao Xiong; Qi Sun; Luhua Lai",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-01",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发FuzzAletheia工具，通过分析IDP-配体复合物的MD模拟轨迹，聚类动态结合特征以指导配体优化，虽对象为IDP-小分子而非PPI，但聚焦无序蛋白动态互作机制建模，方法可迁移至IDR介导的PPI研究。",
+  "abstract": "Intrinsically disordered proteins (IDPs), representing more than 30% of human proteome, present great challenges in rational drug design due to their highly flexible conformations and dynamic interactions. Though their malfunction is linked to major diseases, IDPs are difficult to target. A critical roadblock lies in hit-to-lead optimization due to their dynamic interactions with hit compounds. Here we developed FuzzAletheia, an IDP-ligand dynamic binding pattern analyzer, to accelerate hit optimization. It analyzes the molecular dynamics simulation trajectories of IDP-ligand to cluster interactions into distinct spatiotemporal stable binding features, which are then visualized and quantified to provide insights into the dynamic binding orientation, strength, and stability. This analysis pinpoints modification sites on hit compounds for optimization. We applied FuzzAletheia to the disordered p53 transactivation domain 1 and its hit compound 1050. Guided by FuzzAletheia analysis, we designed and synthesized six derivatives of 1050 and the most potent compound achieved a 10-fold enhancement in activity, demonstrating its power to accelerate IDP hit optimization.",
+  "abstract_zh": "固有无序蛋白（IDPs）占人类蛋白质组的30%以上，由于其高度柔性的构象和动态相互作用，在合理药物设计中面临巨大挑战。尽管其功能失调与重大疾病相关，但IDPs难以靶向。一个关键障碍在于命中化合物与IDPs的动态相互作用导致命中至先导物优化困难。在此，我们开发了FuzzAletheia，一种IDP-配体动态结合模式分析器，以加速命中优化。它分析IDP-配体的分子动力学模拟轨迹，将相互作用聚类为不同的时空稳定结合特征，随后可视化和量化这些特征，以提供对动态结合方向、强度和稳定性的洞察。该分析定位命中化合物上的修饰位点以进行优化。我们将FuzzAletheia应用于无序p53反式激活结构域1及其命中化合物1050。在FuzzAletheia分析指导下，我们设计并合成了1050的六个衍生物，其中活性最强的化合物实现了10倍活性增强，展示了其加速IDP命中优化的能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690418",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690418",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.26.690418/index.html"
+}

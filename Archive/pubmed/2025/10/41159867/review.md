@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a heterogeneous worm-like chain model with Gaussian-distributed local persistence lengths to describe intrinsically disordered proteins (IDPs). They claim that such heterogeneous chains can be mapped to homogeneous chains with a single effective persistence length, and that coarse-grained simulations of IDPs show similar shapes to both homogeneous and heterogeneous worm-like chains, though IDPs are systematically larger than ideal worm-like chains and slightly more compact when excluded volume is included. These differences are attributed to non-bonded intramolecular interactions absent from the theoretical models.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or model parameters are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology, model parameterization, quantitative comparison metrics, and any statistical analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting extension of polymer theory to IDPs by incorporating local stiffness heterogeneity. The central idea, that heterogeneous chains can be represented by an effective homogeneous persistence length, is plausible and potentially useful. However, the abstract provides insufficient quantitative evidence to evaluate the strength of the claimed mapping or the fidelity of the comparison between simulated IDPs and worm-like chain models. The attribution of observed size differences to non-bonded interactions is reasonable but not substantiated with data. The work may be of interest to the IDP and polymer physics communities, but the current evidence base is too limited to assess technical soundness or establish the central claims.
+- **Who would be interested in the results, and why** Researchers in biophysics and polymer physics studying IDP conformational behavior, particularly those using coarse-grained models or seeking simplified theoretical descriptions of IDPs. The effective homopolymer mapping could be useful for interpreting experimental or simulation data on IDP dimensions without explicit sequence-level modeling.
+- **Major strengths** The conceptual framing is clear and addresses a relevant gap in IDP polymer theory, namely local stiffness heterogeneity. The proposed mapping to effective homopolymers is a potentially practical simplification. The use of multiple coarse-grained IDP models adds some breadth to the simulation comparison.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that heterogeneous chains can be effectively mapped to homogeneous chains with a single effective persistence length
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that the mapping is demonstrated, but no quantitative criteria are given for what constitutes an effective mapping. No metrics, error bounds, or comparison statistics are provided. It is unclear how the effective persistence length is defined or extracted, and whether the mapping holds across all chain lengths, stiffness distributions, or solvent conditions tested.
+  - **Why it matters** The central contribution of the work rests on the validity and generality of this mapping. Without quantitative evidence, the reader cannot assess whether the mapping is approximate or exact, or under what conditions it fails. This is essential for the paper's utility to the community.
+  - **Resolution test** Provide explicit definitions of the effective persistence length, quantitative measures of agreement between heterogeneous and homogeneous chain properties (e.g., end-to-end distance, radius of gyration, shape anisotropy), and demonstrate the mapping across a range of distribution widths, chain lengths, and interaction conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that simulated IDPs have similar shapes to the corresponding homogeneous and heterogeneous worm-like chains, yet are systematically larger than ideal worm-like chains and slightly more compact when excluded volume is considered
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports qualitative comparisons ("similar shapes", "systematically larger", "slightly more compact") without any numerical values, error estimates, or statistical significance. It is unclear how many IDP sequences were tested, which coarse-grained models were used, how the comparison was quantified, and whether the observed differences are within or beyond model uncertainty.
+  - **Why it matters** The comparison between simulated IDPs and theoretical chains is the empirical core of the paper. Without quantitative data, the claims are not verifiable, and the reader cannot judge whether the proposed mapping is practically useful for IDPs or only qualitatively suggestive.
+  - **Resolution test** Provide quantitative comparisons, such as ratios of radius of gyration or end-to-end distance between IDPs and worm-like chains, with error bars and statistical tests. Specify the number of sequences, models, and simulation conditions. State whether the observed differences are consistent across all tested cases.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation support
+  - **Claim pointer** The attribution of size differences between IDPs and worm-like chains to intramolecular interactions between non-bonded monomers
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract attributes the observed size differences to non-bonded intramolecular interactions, but no evidence is presented to support this interpretation. Alternative explanations, such as sequence-specific stiffness variations not captured by the Gaussian distribution, finite chain length effects, or model-specific artifacts, are not discussed.
+  - **Why it matters** The interpretation is plausible but not established. If the attribution is incorrect, the proposed mapping may be less general than claimed, and the theoretical model may require additional terms beyond a single effective persistence length.
+  - **Resolution test** Provide direct evidence, such as simulations with non-bonded interactions turned off, or systematic variation of interaction strengths, showing that the size differences scale with interaction strength. Alternatively, demonstrate that sequence-specific stiffness effects are negligible compared to non-bonded interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the local persistence length follows a Gaussian distribution, but does not specify whether this distribution is over chain segments, over sequences, or over an ensemble of chains. The physical meaning of a Gaussian-distributed persistence length is not immediately obvious.
+  - **Required correction** Clarify the interpretation of the Gaussian distribution, including whether it represents quenched disorder (fixed per chain) or annealed disorder (fluctuating), and specify the mean and variance parameters.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "various coarse-grained IDP models" but does not name them or indicate their resolution (e.g., one bead per residue, multiple beads per residue). This limits the reader's ability to assess the generality of the findings.
+  - **Required correction** List the specific coarse-grained models used and briefly describe their resolution and parameterization.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Effective homopolymers"
+  - **Evidence pointer** Title and abstract, location not provided
+  - **Issue** The term "effective homopolymers" is used in the title, but the abstract does not define what properties of the homopolymer are effective (e.g., persistence length only, or also excluded volume parameters). This could cause ambiguity.
+  - **Required correction** Define the scope of the effective homopolymer mapping, specifying which parameters are renormalized and which are kept fixed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of the mapping and the IDP comparison are not quantitatively supported in the provided material. R1-M3 is non-blocking but requires additional evidence to support the proposed interpretation.
+- **Assessment against Nature-style criteria** Originality: The idea of incorporating stiffness heterogeneity into worm-like chain models for IDPs is a reasonable extension of existing polymer theory, but the abstract does not demonstrate a conceptual leap beyond prior work on heterogeneous polymers. Scientific importance: The potential to simplify IDP descriptions to effective homopolymers is practically relevant, but the importance is not established without quantitative evidence of the mapping's accuracy. Interdisciplinary readership: The topic bridges polymer physics and biophysics, and the abstract is written in a way that is broadly accessible, though some polymer-specific terminology is used without definition. Technical soundness: Cannot be assessed from the abstract alone; no methodological details or quantitative results are provided. Readability for nonspecialists: The abstract is generally clear, but terms such as "persistence length" and "worm-like chain" are used without explanation, which may limit accessibility for a broader readership.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract lacks the quantitative detail necessary to evaluate the validity of the central claims. A full manuscript with detailed methods, results, and statistical analysis would be required to assess whether the mapping is robust and whether the IDP comparison supports the proposed interpretation.
+
+## Risk / unsupported claims
+- The claim that heterogeneous chains can be effectively mapped to homogeneous chains is unsupported without quantitative criteria or metrics.
+- The claim that simulated IDPs have similar shapes to worm-like chains is unsupported without numerical comparisons or error estimates.
+- The attribution of size differences to non-bonded intramolecular interactions is unsupported without direct evidence or alternative explanations ruled out.
+- The generality of the findings across IDP sequences and coarse-grained models is not assessable from the abstract alone.

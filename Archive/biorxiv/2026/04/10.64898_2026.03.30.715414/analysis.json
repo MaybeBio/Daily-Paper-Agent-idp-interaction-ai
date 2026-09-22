@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.30.715414",
+  "title": "emb2dis: a novel protein disorder prediction tool based on ResNets, dilated convolutions & protein language models",
+  "authors": "Duarte S; Mehdiabadi M; Bugnon L; Aspromonte M; Piovesan D; Milone D; Tosatto S; Stegmayer G",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-01",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于蛋白语言模型和ResNet/膨胀卷积的无序预测工具emb2dis，虽以IDP为对象且用AI方法，但仅预测无序残基，不涉及PPI或互作机制建模，故得分较低。",
+  "abstract": "Intrinsically disordered proteins (IDPs) play an important role in a wide range of biological functions and are linked to several diseases. Due to technical difficulties and the high cost of experimental determination of disorder in proteins, combined with the exponential increase of unannotated protein sequences, the development of computational methods for disorder prediction became an active area of research in the last few decades. In this work, we present emb2dis, a deep learning model that uses protein language models (pLMs) to predict disorder from sequence. The emb2dis tool is a pre-trained model that receives as input a protein sequence, calculates its pLM embedding and passes it to a deep learning model. In contrast to existing approaches, emb2dis integrates informative sequence representations with a novel architecture that combines residual networks (ResNets) and dilated convolutions. This design effectively enlarges the receptive field of the convolution operation, enabling the model to better capture an extended context of each amino acid. At the output, emb2dis assigns a disorder propensity score to each residue in the sequence. The model was evaluated on datasets from the latest CAID3 blind benchmark for disorder prediction, where it achieved first place in the Disorder-PDB category, exhibiting strong performance with high AUC and F max scores. Additionally, it ranked among the top ten methods on the Disorder-NOX dataset. We provide a freely available web-demo for emb2dis and a source code repository for local installation. <h4>Weblink for the tool</h4> https://sinc.unl.edu.ar/web-demo/emb2dis/ The importance of the emb2dis tool is that it provides a new deep learning approach and significant improvements in the prediction of protein disorder, with a simple web interface and graphical output detailing per-residue disorder.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在广泛的生物功能中扮演重要角色，并与多种疾病相关。由于实验测定蛋白质无序性的技术难度和高成本，加之未注释蛋白质序列的指数级增长，过去几十年中，开发用于无序性预测的计算方法成为活跃的研究领域。在本工作中，我们提出了emb2dis，一种利用蛋白质语言模型 (pLMs) 从序列预测无序性的深度学习模型。emb2dis工具是一个预训练模型，接收蛋白质序列作为输入，计算其pLM嵌入，并将其传递给深度学习模型。与现有方法相比，emb2dis将信息丰富的序列表示与一种结合残差网络 (ResNets) 和膨胀卷积的新颖架构相集成。这种设计有效扩大了卷积操作的感受野，使模型能够更好地捕捉每个氨基酸的扩展上下文。在输出端，emb2dis为序列中的每个残基分配一个无序倾向性评分。该模型在最新CAID3盲测基准数据集上进行了无序性预测评估，在Disorder-PDB类别中取得第一名，展现出高AUC和F max分数的强劲性能。此外，它在Disorder-NOX数据集上排名前十。我们提供了emb2dis的免费网络演示和用于本地安装的源代码仓库。<h4>工具网页链接</h4> https://sinc.unl.edu.ar/web-demo/emb2dis/ emb2dis工具的重要性在于，它提供了一种新的深度学习方法，并在蛋白质无序性预测方面取得了显著改进，具有简单的网络界面和详细显示每个残基无序性的图形输出。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.30.715414",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.30.715414",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.30.715414/index.html"
+}

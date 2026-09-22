@@ -1,0 +1,114 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, conclusions) as provided
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency of the manuscript as submitted; no external literature verification performed
+- **Shared manuscript claim summary** The author proposes that RNA-DNA triplexes (TRXs), a class of flipons, form through interactions of noncoding RNAs with genomic DNA and are recognized by a set of proteins including HNRNPU, TP53, AGO, PIWI, REL domain proteins, and others. Using AlphaFold V3 (AF3) structural predictions, the author models protein-TRX interactions and argues that TRXs play a central role in chromatin organization, retroelement suppression, and context-dependent gene regulation, collectively described as the "chromaverse."
+- **Visible evidence base** AF3 structural models (figures referenced but not provided in the submitted text); computational analysis of triplex-forming sequences using PATO/Triplexator/Triplex Domain Finder (Supplemental Data S1, S2); literature citations; no experimental validation data presented in the manuscript text
+- **Missing materials affecting confidence** Figures 1-11 (referenced but not included in the provided text); Supplemental Data Files S1, S2, S3; experimental datasets cited from prior work; details of AF3 model parameters, confidence scores, and validation metrics; sequence coordinates for modeled TRXs
+
+## Reviewer
+- **Overall assessment** This manuscript presents a broad, speculative synthesis proposing that RNA-DNA triplexes serve as central structural and regulatory elements in chromatin biology. The author leverages AF3 predictions to model interactions between TRXs and several protein families, extending prior work on flipons. While the conceptual framework is ambitious and potentially interesting to a niche audience, the manuscript is severely limited by the absence of experimental validation, reliance on unverified computational predictions, and a narrative style that often overreaches the evidence presented. The AF3 methodology is acknowledged by the author to have limitations, yet the conclusions are stated with considerable confidence. The manuscript would benefit from substantial revision, inclusion of model confidence metrics, and a more measured interpretation of computational predictions.
+
+- **Who would be interested in the results, and why** Researchers studying noncoding RNA function, chromatin architecture, retroelement biology, and structural biology of nucleic acid-protein interactions may find the conceptual framework of interest. The proposal that TRXs serve as scaffolds for protein complex assembly, particularly involving intrinsically disordered regions, could stimulate hypotheses for experimental testing. However, the audience is likely limited to specialists in these areas, and the lack of experimental data will reduce broader appeal.
+
+- **Major strengths** The manuscript addresses an underexplored area of nucleic acid structure-function relationships. The author integrates diverse literature on flipons, retroelements, chromatin organization, and RNA biology into a coherent conceptual framework. The use of AF3 to generate testable structural hypotheses is a forward-looking approach. The discussion of copolar versus apolar TRX conformations and their potential biological distinctions is intellectually stimulating.
+
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that AF3 models "reveal interactions" between TRXs and multiple proteins (HNRNPU, TP53, AGO, PIWI, REL domains, CHD4, SMARCA5, TOP2A, TOP3A, PRC1, PRC2), implying these models provide reliable structural evidence.
+  - **Evidence pointer** Section 2.4, 2.5, 2.6; Figures 3-10 (not provided)
+  - **Concern** The central evidence for the manuscript's claims consists entirely of AF3 predictions. The author acknowledges that AF3 is "not explicitly trained to recognize TRX nor their interactions with proteins" (Section 4), yet the results are presented as if they demonstrate genuine biological interactions. No experimental validation, biophysical measurements, or orthogonal computational methods are presented. The author notes that "manual inspection" was used to select models, which introduces substantial subjectivity and potential confirmation bias. No confidence scores, model metrics, or reproducibility data are provided.
+  - **Why it matters** Computational predictions, particularly from models not trained on the relevant structural class, cannot establish biological interactions. The manuscript's conclusions about TRX-mediated protein recruitment, chromatin organization, and regulatory functions rest entirely on these unvalidated predictions. Without experimental support or at minimum rigorous computational validation, the central claims are not established.
+  - **Resolution test** Provide AF3 confidence metrics (pLDDT, PAE), demonstrate reproducibility across seeds and input variations, validate at least one protein-TRX interaction experimentally (e.g., electrophoretic mobility shift assay, surface plasmon resonance, or isothermal titration calorimetry), and include negative controls showing that unrelated proteins do not bind TRXs under the same conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The manuscript states that "TRXs help set the boundaries of active chromatin, repressing the expression of most EREs" and that TRX formation "would also downregulate EREs, limiting the DNA damage they cause by transposing to other sites."
+  - **Evidence pointer** Abstract; Section 2.4.2; Section 3
+  - **Concern** The manuscript presents a dual narrative: TRXs repress EREs and protect genome integrity, yet also claims TRXs are formed by ERE-derived transcripts and are involved in establishing active chromatin structures. The relationship between TRX formation, ERE suppression, and chromatin activation is not clearly delineated. If TRXs repress EREs, how do ERE transcripts form TRXs in the first place? The manuscript does not resolve this apparent tension or provide a mechanistic model that reconciles these roles.
+  - **Why it matters** The central thesis of the manuscript depends on a coherent model of how TRXs function. The current presentation is internally inconsistent, making it difficult to evaluate the proposed framework or design experiments to test it.
+  - **Resolution test** Provide a clear, stepwise model of TRX biogenesis and function that explains how ERE-derived transcripts can both form TRXs and be suppressed by TRX-mediated mechanisms. Clarify the temporal and spatial relationships between TRX formation, ERE transcription, and chromatin state changes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The manuscript claims that "AF3 models revealed that all human REL domains docked as homodimers to the parallel, apolar A-rich TRX" and similar specific interaction claims for other proteins.
+  - **Evidence pointer** Section 2.4.3, 2.4.4, 2.5, 2.6; Figures 4-10 (not provided)
+  - **Concern** The AF3 methodology as described is insufficiently detailed to evaluate the reliability of the predictions. The author states that "by selecting a particular AF3 seed and a set of ion conditions, it was possible to explore the longer triplexes" and that "AF3 can be nudged by setting input conditions and specifying the model seed." This suggests that specific outputs were selected based on desired outcomes, which is a form of confirmation bias. The manuscript does not report how many models were generated, how many failed, what criteria were used for selection beyond "manual inspection," or whether the results are robust to changes in seed and conditions.
+  - **Why it matters** The reproducibility and objectivity of the computational predictions are fundamental to the manuscript's claims. If model outputs are selectively chosen based on the researcher's expectations, the results cannot be considered reliable evidence for the proposed interactions.
+  - **Resolution test** Provide a systematic description of the modeling protocol, including the number of seeds tested, the range of ion conditions explored, the success rate of TRX folding, quantitative selection criteria, and an analysis of how predictions vary across conditions. Ideally, provide blinded predictions that are then tested experimentally.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and focus
+  - **Claim pointer** The manuscript claims to present "a highly dynamic perspective of the genome" and discusses "the chromaverse" as a unifying concept.
+  - **Evidence pointer** Abstract; Section 1; Section 3; Section 5
+  - **Concern** The manuscript attempts to cover an extremely broad range of topics, including retroelement biology, chromatin architecture, noncoding RNA function, protein intrinsic disorder, nuclear organization, and evolutionary theory. While this breadth is ambitious, it results in a lack of depth in any single area. The discussion sections contain numerous speculative statements that are not directly supported by the presented data, and the connection between the AF3 models and the broader conceptual claims is often tenuous.
+  - **Why it matters** The manuscript's impact is diminished by its lack of focus. Readers interested in specific aspects (e.g., TP53-TRX interactions) will find insufficient detail, while those interested in the broader framework will find insufficient evidence. The manuscript would be more persuasive if it focused on a smaller set of claims with deeper analysis.
+  - **Resolution test** Narrow the scope to the most defensible claims, provide more detailed analysis of fewer protein-TRX interactions, and clearly distinguish between evidence-based conclusions and speculative hypotheses. Consider splitting the manuscript into separate publications for the structural predictions and the conceptual framework.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Literature integration
+  - **Claim pointer** The manuscript states that "many proteins have been proposed to bind triplexes, structural models of these interactions do not exist" and presents the AF3 models as filling this gap.
+  - **Evidence pointer** Abstract; Section 2.4
+  - **Concern** The manuscript does not provide a comprehensive review of existing experimental evidence for protein-TRX interactions. Several proteins have been studied in the context of triplex DNA and RNA-DNA triplexes, and the manuscript does not adequately compare the AF3 predictions with existing biochemical or structural data. The claim that "structural models do not exist" may be accurate for the specific complexes modeled, but the manuscript does not systematically survey what is known about the proteins' nucleic acid binding properties.
+  - **Why it matters** The novelty of the manuscript's contribution cannot be assessed without a thorough comparison to existing knowledge. If some of the proposed interactions have been previously characterized experimentally, the AF3 models should be evaluated against that data.
+  - **Resolution test** Provide a systematic review of experimental evidence for each protein's nucleic acid binding properties, compare AF3 predictions with any available experimental structures or biochemical data, and clearly state what is novel about the AF3 models relative to existing knowledge.
+
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Throughout
+  - **Issue** The term "chromaverse" is introduced without a precise definition. The relationship between this concept and existing terms such as "chromatin landscape" or "3D genome organization" is unclear.
+  - **Required correction** Provide an explicit definition of "chromaverse" early in the manuscript and explain how it differs from or encompasses existing concepts.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Section 4
+  - **Issue** The methods section does not specify the version of AF3 used, the input sequences for the TRX models, the length of the triplexes, or the exact protein constructs modeled. This information is essential for reproducibility.
+  - **Required correction** Provide complete details of all model inputs, including sequence coordinates, lengths, and any modifications. Specify the AF3 server version and date of access.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1-11
+  - **Evidence pointer** Referenced throughout
+  - **Issue** The figures are referenced extensively but were not available for review. The manuscript text alone is insufficient to evaluate the quality of the structural models.
+  - **Required correction** Ensure that all figures include clear labels, scale bars where appropriate, and annotations indicating key interaction interfaces. Provide confidence metrics (pLDDT, PAE) as heat maps or color coding on the structures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract; Section 3
+  - **Issue** The abstract states that the models "reveal interactions," which overstates the certainty of computational predictions. Similar language is used throughout the discussion.
+  - **Required correction** Use more cautious language such as "predict," "suggest," or "are consistent with" when describing AF3 model outputs.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Citation practice
+  - **Affected element** Section 1.2.1
+  - **Evidence pointer** Section 1.2.1
+  - **Issue** The claim that "EREs comprise over 30% of long non-coding RNAs expressed in humans" is presented without a specific citation in the text provided.
+  - **Required correction** Add appropriate citations for all quantitative claims about ERE contributions to the transcriptome.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Terminology
+  - **Evidence pointer** Section 2.4.1
+  - **Issue** The manuscript uses "HNPRNPU" in the title but "HNRNPU" in the text. This inconsistency is confusing.
+  - **Required correction** Use the correct gene/protein symbol consistently throughout, including the title.
+
+## Risk / unsupported claims
+- The claim that AF3 models "reveal" protein-TRX interactions is unsupported given the acknowledged limitations of the method and the absence of confidence metrics or experimental validation.
+- The claim that TRXs "help set the boundaries of active chromatin" is presented as a conclusion but is speculative and not directly tested.
+- The claim that TRX formation "would also downregulate EREs, limiting the DNA damage they cause" is presented as a mechanism without direct evidence.
+- The claim that "TRXs can act as chaperones to promote the assembly of cellular machinery" is an extrapolation from computational models without experimental support.
+- The claim that "flipons connect the early tinkers with the lifeforms that we see today" is a broad evolutionary speculation that cannot be evaluated from the presented data.
+- The claim that "each cell colors its chromaverse differently" and that "a subset of each clone will come to populate healthy tissues" is speculative and not supported by evidence presented in this manuscript.
+- The claim that "the models provide evidence for a central role of triplex-forming flipons in regulating cellular chromatin states" overstates what computational predictions can establish.
+- The manuscript's assertion that "the results are replicable and robust" based on using the same seed and varying only ion numbers is not an adequate demonstration of robustness.

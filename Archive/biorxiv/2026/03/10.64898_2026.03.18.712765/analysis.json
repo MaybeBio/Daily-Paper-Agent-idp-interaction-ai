@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.18.712765",
+  "title": "Disagreement among variant effect predictors guides experimental prioritization of target proteins",
+  "authors": "Jonsson NF; Marsh JA; Lindorff-Larsen K",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-20",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 3,
+  "one_liner_zh": "该文利用变异效应预测器间的分歧来优先选择实验表征的靶蛋白，虽涉及蛋白质预测但对象非无序蛋白、无PPI互作机制，且方法为预测器一致性分析而非AI/物理模拟建模，与本课题关联较弱。",
+  "abstract": "Interpreting the functional consequences of genetic variation, especially rare missense variants, remains a significant challenge in human genetics. Computational variant effect predictors (VEPs) and multiplexed assays of variant effects (MAVEs) provide complementary approaches, with VEPs offering scalable predictions and MAVEs delivering detailed empirical measurements. However, MAVEs are resource intensive and cannot yet be applied broadly across the proteome, making it important to identify proteins where experimental mapping will be most informative. We hypothesised that MAVEs should be particularly valuable for proteins where computational predictors disagree, as such disagreement may highlight mechanistic blind spots. To test this, we analysed predictions from ten distinct VEPs across more than 13,000 human proteins and quantified inter-predictor concordance. We observed substantial variability across proteins in the degree of agreement across predictors and investigated structural, functional and gene-level features associated with this variation. We find that inter-VEP concordance showed no relationship with agreement to experimental MAVE data. If predictor agreement reflected how intrinsically predictable a protein is, these quantities would be expected to correlate. Their decoupling instead suggests that MAVEs may provide orthogonal information to VEPs, supporting the use of inter-VEP disagreement to prioritise proteins where experimental data will be most informative. We therefore propose using inter-VEP disagreement as a practical strategy to prioritise proteins for experimental characterization. Focusing on proteins with low predictor concordance should maximise the informational value of new MAVEs, and improve variant interpretation in both research and clinical contexts.",
+  "abstract_zh": "解读遗传变异的功能后果，尤其是罕见错义变异，仍是人类遗传学中的重大挑战。计算变异效应预测器（VEPs）和变异效应多重测定（MAVEs）提供了互补的方法，其中VEPs提供可扩展的预测，而MAVEs提供详细的实验测量。然而，MAVEs资源密集，尚不能广泛应用于整个蛋白质组，因此识别哪些蛋白质的实验图谱最具信息量变得至关重要。我们假设，对于计算预测器存在分歧的蛋白质，MAVEs应特别有价值，因为这种分歧可能突显机制上的盲点。为验证此假设，我们分析了十种不同VEPs对超过13,000种人类蛋白质的预测，并量化了预测器间的一致性。我们观察到不同蛋白质在预测器间一致程度上存在显著变异，并研究了与此变异相关的结构、功能和基因水平特征。我们发现，VEP间一致性程度与实验MAVE数据的一致性无关联。如果预测器一致性反映了蛋白质内在的可预测性，这些量应预期相关。它们的解耦反而表明，MAVEs可能为VEPs提供正交信息，支持使用VEP间分歧来优先选择实验数据最具信息量的蛋白质。因此，我们提出将VEP间分歧作为优先选择蛋白质进行实验表征的实用策略。聚焦于预测器一致性低的蛋白质，应能最大化新MAVEs的信息价值，并改善研究和临床环境中的变异解读。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.18.712765",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.18.712765",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.18.712765/index.html"
+}

@@ -1,0 +1,255 @@
+{
+  "identity": {
+    "pmid": "39319382",
+    "doi": "10.1039/d4fd00099d",
+    "title": "Sequence determinants of protein phase separation and recognition by protein phase-separated condensates through molecular dynamics and active learning."
+  },
+  "content": {
+    "abstract": "Elucidating how protein sequence determines the properties of disordered proteins and their phase-separated condensates is a great challenge in computational chemistry, biology, and biophysics. Quantitative molecular dynamics simulations and derived free energy values can in principle capture how a sequence encodes the chemical and biological properties of a protein. These calculations are, however, computationally demanding, even after reducing the representation by coarse-graining; exploring the large spaces of potentially relevant sequences remains a formidable task. We employ an \"active learning\" scheme introduced by Yang et al. (bioRxiv, 2022, https://doi.org/10.1101/2022.08.05.502972) to reduce the number of labelled examples needed from simulations, where a neural network-based model suggests the most useful examples for the next training cycle. Applying this Bayesian optimisation framework, we determine properties of protein sequences with coarse-grained molecular dynamics, which enables the network to establish sequence-property relationships for disordered proteins and their self-interactions and their interactions in phase-separated condensates. We show how iterative training with second virial coefficients derived from the simulations of disordered protein sequences leads to a rapid improvement in predicting peptide self-interactions. We employ this Bayesian approach to efficiently search for new sequences that bind to condensates of the disordered C-terminal domain (CTD) of RNA Polymerase II, by simulating molecular recognition of peptides to phase-separated condensates in coarse-grained molecular dynamics. By searching for protein sequences which prefer to self-interact rather than interact with another protein sequence we are able to shape the morphology of protein condensates and design multiphasic protein condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Proteins/chemistry",
+      "Amino Acid Sequence",
+      "Bayes Theorem",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Changiarath, Arya",
+        "Arya, Aayush",
+        "Xenidis, Vasileios A",
+        "Padeken, Jan",
+        "Stelzl, Lukas S"
+      ],
+      "short_names": [
+        "Changiarath A",
+        "Arya A",
+        "Xenidis VA",
+        "Padeken J",
+        "Stelzl LS"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-4287-6953",
+        "ORCID: 0000-0001-7877-2471",
+        "ORCID: 0000-0002-5348-0277"
+      ],
+      "affiliations": [
+        "Institute of Physics, Johannes Gutenberg University (JGU) Mainz, Germany.",
+        "Institute of Physics, Johannes Gutenberg University (JGU) Mainz, Germany.",
+        "Department of Biology, Aristotle University of Thessaloniki, Greece.",
+        "Institute of Molecular Biology (IMB) Mainz, Germany.",
+        "Institute of Molecular Biology (IMB) Mainz, Germany.",
+        "Institute of Molecular Physiology, Johannes Gutenberg University (JGU) Mainz, Germany. lstelzl@uni-mainz.de.",
+        "KOMET1, Institute of Physics, Johannes Gutenberg University (JGU) Mainz, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Changiarath, Arya",
+        "short_name": "Changiarath A",
+        "identifiers": [
+          "0009-0005-4287-6953"
+        ],
+        "affiliations": [
+          "Institute of Physics, Johannes Gutenberg University (JGU) Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Arya, Aayush",
+        "short_name": "Arya A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, Johannes Gutenberg University (JGU) Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Xenidis, Vasileios A",
+        "short_name": "Xenidis VA",
+        "identifiers": [
+          "0000-0001-7877-2471"
+        ],
+        "affiliations": [
+          "Department of Biology, Aristotle University of Thessaloniki, Greece."
+        ]
+      },
+      {
+        "full_name": "Padeken, Jan",
+        "short_name": "Padeken J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB) Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Stelzl, Lukas S",
+        "short_name": "Stelzl LS",
+        "identifiers": [
+          "0000-0002-5348-0277"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB) Mainz, Germany.",
+          "Institute of Molecular Physiology, Johannes Gutenberg University (JGU) Mainz, Germany. lstelzl@uni-mainz.de.",
+          "KOMET1, Institute of Physics, Johannes Gutenberg University (JGU) Mainz, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Faraday discussions"
+    ],
+    "journal_abbrev": [
+      "Faraday Discuss"
+    ],
+    "pub_date": "2025 Jan 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/25 07:03",
+    "fetched_at": "2026-09-21 10:40:00"
+  },
+  "links": {
+    "cites": [
+      "42143038"
+    ],
+    "refs": [],
+    "similar": [
+      "39319382",
+      "40009520",
+      "23912807",
+      "38181073",
+      "32393642",
+      "36227468",
+      "39412378",
+      "40781776",
+      "30926670",
+      "41524628",
+      "41481439",
+      "40911789",
+      "38348795",
+      "40389455",
+      "38429263",
+      "39225535",
+      "40748104",
+      "37285890",
+      "33629837",
+      "38252962",
+      "40954121",
+      "33076213",
+      "39908323",
+      "40131954",
+      "41504268",
+      "38308651",
+      "37215004",
+      "34716273",
+      "41670285",
+      "35378855",
+      "34785657",
+      "38979955",
+      "33139563",
+      "40848932",
+      "35802394",
+      "40782375",
+      "41342450",
+      "33827920",
+      "33453922",
+      "38383656",
+      "34916288",
+      "33078839",
+      "32936641",
+      "36343363",
+      "40172489",
+      "37079924",
+      "37815389",
+      "39937084",
+      "36774359",
+      "38112495",
+      "34536913",
+      "38941236",
+      "33307683",
+      "38260590",
+      "38160320",
+      "26735936",
+      "36524527",
+      "41644540",
+      "33934416",
+      "32087632",
+      "39042834",
+      "40671581",
+      "40629690",
+      "28924037",
+      "37194953",
+      "37470705",
+      "38053335",
+      "40441156",
+      "33069007",
+      "40650026",
+      "37134270",
+      "36066390",
+      "41166416",
+      "34074792",
+      "38526948",
+      "40985078",
+      "40867524",
+      "40136009",
+      "26723608",
+      "41088757",
+      "40944421",
+      "35054543",
+      "35126984",
+      "38546977",
+      "38965780",
+      "39486437",
+      "41700935",
+      "38824391",
+      "41480717",
+      "30397688",
+      "35179885",
+      "40661423",
+      "40681718",
+      "25866611",
+      "40574501",
+      "40624892",
+      "30471685",
+      "39105804",
+      "29509422",
+      "40970906"
+    ],
+    "review": [
+      "39319382",
+      "38348795",
+      "38979955",
+      "35802394",
+      "33078839",
+      "40172489",
+      "34536913",
+      "36524527",
+      "33069007",
+      "40650026",
+      "41480717",
+      "35179885"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d4fd00099d",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

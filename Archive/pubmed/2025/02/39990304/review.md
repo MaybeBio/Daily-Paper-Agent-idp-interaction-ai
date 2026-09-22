@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use polymer physics simulations of a nucleus model, validated by micromechanical measurements and chromosome conformation capture data, to argue that peripheral heterochromatin tethering to the lamina is required for chromatin-based nuclear mechanical response. They further claim that heterochromatin levels increase nuclear rigidity through increased chromatin-lamina linkages, that HP1α crosslinks stiffen nuclei only when chromatin is peripherally tethered, that heterochromatin affinity interactions driving liquid-liquid phase separation do not contribute to rigidity, and that under stretch, gel-like peripheral heterochromatin bears stress while fluid-like euchromatin is less perturbed.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information
+- **Missing materials affecting confidence** Full manuscript, simulation details, validation data, parameter choices, quantitative results, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially important hypothesis about the mechanical role of peripheral heterochromatin tethering. The central claim that lamina attachment is required for chromatin-based nuclear elasticity is plausible and mechanistically appealing. However, the abstract alone provides no quantitative evidence, no description of the simulation model's assumptions, and no demonstration of how the validation data support the specific conclusions. The distinction between tethering-dependent and tethering-independent contributions to rigidity is asserted rather than evidenced. The work could be of interest to the mechanobiology and chromatin biophysics communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in nuclear mechanobiology, chromatin biophysics, and cell biophysics would be interested because the work addresses a fundamental question about how chromatin architecture translates into nuclear mechanical properties. The proposed mechanism linking heterochromatin-lamina tethering to force transmission could inform studies of nuclear mechanosensing, cell migration, and diseases involving nuclear envelope or chromatin defects. Computational biophysicists developing polymer models of chromosomes would also find the approach relevant.
+- **Major strengths** The abstract identifies a clear and testable mechanistic hypothesis. The distinction between tethering-dependent and tethering-independent contributions to nuclear rigidity is conceptually useful. The claim that liquid-liquid phase separation interactions do not contribute to rigidity is a potentially important counterpoint to current emphasis on phase-separated chromatin domains. The proposed link between peripheral heterochromatin mechanics and nuclear mechanosensing is forward-looking.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "the attachment of peripheral heterochromatin to the lamina is required to transmit forces directly to the chromatin and elicit its elastic response" and that "increases in heterochromatin levels increase nuclear rigidity by increasing the linkages between chromatin and the lamina."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data, no comparison of simulation outputs to experimental measurements, and no description of how the model was validated. The claim that tethering is "required" is a strong causal statement, but the abstract does not show what happens in the absence of tethering, how the model was perturbed, or what metrics were used to assess rigidity. The validation by "micromechanical measurements and chromosome conformation capture data" is mentioned but not described in any detail.
+  - **Why it matters** The central conclusion of the paper rests on the necessity of tethering for force transmission. Without visible evidence that the model without tethering fails to reproduce experimental behavior, or that tethering is the only parameter that can explain the data, the claim is unsupported. The distinction between "required" and "contributing" is critical for the paper's conceptual contribution.
+  - **Resolution test** Provide a figure or table showing nuclear stiffness or deformation response in models with and without peripheral tethering, with quantitative comparison to experimental measurements. Show that removal of tethering abolishes the chromatin-based elastic response while other perturbations do not.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validity
+  - **Claim pointer** The abstract states that the nucleus model was "validated by micromechanical measurements and chromosome conformation capture data."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given about the model construction, the parameters used, the nature of the validation, or the quality of the fit to experimental data. The abstract does not specify which experimental measurements were used, how many conditions were compared, or whether the validation was qualitative or quantitative. Without this information, the reader cannot assess whether the model is a reliable representation of the nucleus.
+  - **Why it matters** The conclusions are entirely derived from simulations. If the model is not convincingly validated, all downstream claims about heterochromatin tethering, crosslinks, and phase separation are built on an unverified foundation. The validation is the bridge between the model and biological reality.
+  - **Resolution test** Describe the model in sufficient detail in the main text, including polymer representation, interaction potentials, nuclear envelope and lamina treatment, and parameter values. Show quantitative agreement between simulated and experimental force-deformation curves or stiffness measurements, and between simulated and Hi-C-derived contact maps.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim precision
+  - **Claim pointer** The abstract claims that "heterochromatin affinity interactions that may drive liquid-liquid phase separation do not contribute to nuclear rigidity" and that "crosslinks within heterochromatin, such as HP1 α proteins, can also stiffen nuclei, but only if chromatin is peripherally tethered."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract distinguishes between affinity interactions and crosslinks, but does not explain how these are modeled differently. The claim that phase separation interactions do not contribute to rigidity is presented as a definitive negative result, but the abstract does not indicate the range of interaction strengths tested, whether physiologically relevant parameter regimes were explored, or how the model distinguishes between transient affinity interactions and stable crosslinks. The conditional claim about HP1α crosslinks is also stated without supporting data.
+  - **Why it matters** These claims distinguish the paper's contribution from existing literature on phase-separated chromatin. If the parameter space was not adequately explored, the negative result could be an artifact of the model rather than a biological finding. The distinction between crosslinks and affinity interactions is mechanistically important and needs to be clearly demonstrated.
+  - **Resolution test** Show a phase diagram or parameter sweep demonstrating that varying affinity interaction strength does not change nuclear stiffness, while varying crosslink density does, and that the crosslink effect requires tethering. Provide quantitative thresholds for what constitutes "no contribution."
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "governs how external forces affect chromosomes" is vague. It is unclear whether the nucleus actively regulates force transmission to chromosomes or simply responds passively.
+  - **Required correction** Clarify whether the nucleus is described as an active regulator or a passive mechanical structure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "gel-like" and "fluid-like" descriptors
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The terms "gel-like" and "fluid-like" are used without definition or quantitative basis. It is unclear what rheological properties these terms refer to in the model.
+  - **Required correction** Define these terms in the context of the model, or provide quantitative measures such as relaxation times or shear moduli that justify the descriptors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract, final claim
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that the work enables "external measurement of the nucleus' internal architecture" is speculative and not supported by anything in the abstract.
+  - **Required correction** Either remove this claim or provide a brief explanation of how the findings could lead to such measurements.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish the central causal claim, the model validation is not described, and the negative result on phase separation interactions is not supported by visible parameter exploration.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea that peripheral tethering, rather than heterochromatin content per se, is the key determinant of nuclear rigidity is a potentially original contribution. The distinction between tethering-dependent and tethering-independent mechanisms is conceptually fresh.
+  - Scientific importance: The question of how chromatin architecture determines nuclear mechanics is important for understanding mechanotransduction, nuclear organization, and diseases involving nuclear envelope defects. If the claims hold, the work would provide a mechanistic framework for interpreting experimental observations.
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and chromatin biology. The abstract is written in a way that is accessible to nonspecialists, though the lack of quantitative detail limits its usefulness to experts.
+  - Technical soundness: Cannot be assessed from the abstract. The model construction, validation, and parameter choices are not visible. The claims are plausible but unverified.
+  - Readability for nonspecialists: The abstract is clearly written and the main message is understandable. However, terms like "liquid-liquid phase separation" and "HP1 α" may require background knowledge, and the mechanistic claims are stated without supporting context.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is interesting and the hypothesis is testable, but the abstract alone does not provide the quantitative support needed to evaluate the claims. A full review of the manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that peripheral heterochromatin tethering is "required" for chromatin-based nuclear mechanical response is unsupported without visible evidence of tethering removal experiments.
+- The claim that heterochromatin levels increase rigidity specifically through increased chromatin-lamina linkages is unsupported without data showing that other mechanisms are excluded.
+- The claim that HP1α crosslinks stiffen nuclei only when chromatin is peripherally tethered is unsupported without visible conditional data.
+- The claim that heterochromatin affinity interactions driving liquid-liquid phase separation do not contribute to rigidity is unsupported without visible parameter sweeps or negative controls.
+- The claim that the work enables "external measurement of the nucleus' internal architecture" is speculative and unsupported.
+- The validation of the model by micromechanical measurements and chromosome conformation capture data is mentioned but not evidenced in the abstract.

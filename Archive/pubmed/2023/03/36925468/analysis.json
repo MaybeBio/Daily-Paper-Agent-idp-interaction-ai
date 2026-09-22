@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36925468",
+  "title": "Organization of the bacterial nucleoid by DNA-bridging proteins and globular crowders.",
+  "authors": "Joyeux, Marc",
+  "journal": "Frontiers in microbiology",
+  "published_date": "2023-03-18",
+  "window": {
+    "start": "2023-03-13",
+    "end": "2023-03-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用粗粒化布朗动力学模拟研究DNA桥接蛋白与球形拥挤剂对细菌拟核组织的协同作用，虽对象为DNA而非无序蛋白，但涉及蛋白介导的DNA交联与相分离样液滴/凝胶行为，其互作机制建模思路对IDR介导PPI与凝聚体研究有可迁移启发。",
+  "abstract": "The genomic DNA of bacteria occupies only a fraction of the cell called the nucleoid, although it is not bounded by any membrane and would occupy a volume hundreds of times larger than the cell in the absence of constraints. The two most important contributions to the compaction of the DNA coil are the cross-linking of the DNA by nucleoid proteins (like H-NS and StpA) and the demixing of DNA and other abundant globular macromolecules which do not bind to the DNA (like ribosomes). The present work deals with the interplay of DNA-bridging proteins and globular macromolecular crowders, with the goal of determining the extent to which they collaborate in organizing the nucleoid. In order to answer this question, a coarse-grained model was developed and its properties were investigated through Brownian dynamics simulations. These simulations reveal that the radius of gyration of the DNA coil decreases linearly with the effective volume ratio of globular crowders and the number of DNA bridges formed by nucleoid proteins in the whole range of physiological values. Moreover, simulations highlight the fact that the number of DNA bridges formed by nucleoid proteins depends crucially on their ability to self-associate (oligomerize). An explanation for this result is proposed in terms of the mean distance between DNA segments and the capacity of proteins to maintain DNA-bridging in spite of the thermal fluctuations of the DNA network. Finally, simulations indicate that non-associating proteins preserve a high mobility inside the nucleoid while contributing to its compaction, leading to a DNA/protein complex which looks like a liquid droplet. In contrast, self-associating proteins form a little deformable network which cross-links the DNA chain, with the consequence that the DNA/protein complex looks more like a gel.",
+  "abstract_zh": "细菌的基因组DNA仅占据细胞中称为拟核（nucleoid）的部分，尽管它不受任何膜包围，且在无约束条件下其体积会比细胞大数百倍。DNA线圈压缩的两个最重要贡献因素是：拟核蛋白（如H-NS和StpA）对DNA的交联，以及DNA与不结合DNA的其他丰富球状大分子（如核糖体）的分离。本研究探讨DNA桥接蛋白与球状大分子拥挤剂之间的相互作用，旨在确定它们在组织拟核中的协作程度。为回答此问题，开发了一个粗粒化模型，并通过布朗动力学 (Brownian dynamics) 模拟研究其性质。这些模拟揭示，DNA线圈的回转半径随球状拥挤剂的有效体积比和拟核蛋白形成的DNA桥数量在生理值范围内呈线性下降。此外，模拟强调，拟核蛋白形成的DNA桥数量关键取决于其自结合（寡聚化）能力。对此结果，提出了基于DNA片段间平均距离及蛋白在DNA网络热波动下维持DNA桥接能力的解释。最后，模拟表明，非结合蛋白在拟核内保持高流动性，同时促进其压缩，形成类似液滴的DNA/蛋白复合物。相比之下，自结合蛋白形成难以变形的网络，交联DNA链，导致DNA/蛋白复合物更类似于凝胶。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36925468/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36925468/",
+  "paper_page_path": "papers/pubmed/36925468/index.html"
+}

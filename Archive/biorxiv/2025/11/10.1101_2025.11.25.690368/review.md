@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report that RSV nucleoprotein N, phosphoprotein P, transcription factor M2-1, and RNA drive liquid-liquid phase separation (LLPS) in vitro. Using a microfluidic Phase Scan platform with biochemical and cellular assays, they identify optimal N oligomer to P tetramer stoichiometries, show that monomeric N inhibits LLPS, demonstrate that M2-1 enhances condensate formation via increased multivalency, and report that M2-1 preferentially binds 5' capped RNA while N binds uncapped RNA. They propose these findings explain RSV viral factory assembly and subcompartmentalisation and may inform antiviral strategies.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, statistical analyses, replicate information, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting set of observations on RSV protein and RNA driven LLPS, with a novel claim regarding M2-1 preferential binding to capped RNA. However, the evidence base available for review is limited to the abstract, which precludes verification of the experimental design, data quality, and statistical robustness. The stoichiometric claims and the inhibitory effect of monomeric N are stated without quantitative detail. The differential RNA binding specificity between M2-1 and N is the most distinctive claim but cannot be assessed without binding data. The link to viral factory subcompartmentalisation in cells is asserted rather than demonstrated from the supplied material.
+- **Who would be interested in the results, and why** Virologists studying RSV replication and viral factory formation, researchers in the phase separation and biomolecular condensate field, and those interested in RNA binding protein specificity. The potential antiviral angle targeting LLPS would also interest drug discovery groups focused on respiratory viruses.
+- **Major strengths** The use of a microfluidic Phase Scan platform for systematic characterisation is a technically sophisticated approach. The identification of a functional distinction between M2-1 and N in RNA cap preference is a potentially significant advance. The combination of in vitro biophysics with cellular assays is appropriate for the question.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that optimal stoichiometric ratios of N oligomers and P tetramers for condensate formation were identified, and that monomeric N inhibits LLPS.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states these findings without presenting any quantitative data, such as phase diagrams, saturation concentrations, or titration curves. The claim that monomeric N inhibits LLPS is particularly strong and would require careful controls to distinguish specific inhibition from a general crowding or non-specific effect.
+  - **Why it matters** Without quantitative phase behaviour data, the stoichiometric claims cannot be evaluated for accuracy or reproducibility. The inhibitory effect of monomeric N is mechanistically important and if incorrect would undermine the proposed model of viral factory assembly.
+  - **Resolution test** Provide phase diagrams or titration data showing condensate formation as a function of N oligomer and P tetramer concentrations, and demonstrate that monomeric N inhibition is specific and dose dependent with appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that M2-1 preferentially binds 5' capped RNA, distinguishing it from N, which binds uncapped RNA.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is the most novel claim in the abstract, yet no binding data, affinity measurements, or specificity controls are described. The distinction between capped and uncapped RNA binding is a strong mechanistic statement that requires direct biochemical evidence.
+  - **Why it matters** If this claim is not robustly supported, the proposed model of subcompartmentalisation within viral factories loses its central mechanistic basis. The claim also has implications for understanding M2-1 function beyond LLPS.
+  - **Resolution test** Provide binding assays (for example, fluorescence polarisation, isothermal titration calorimetry, or electrophoretic mobility shift assays) comparing M2-1 and N binding to capped versus uncapped RNA, with affinity constants and appropriate competition controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Translational claim
+  - **Claim pointer** The authors state that their findings provide insights into viral replication mechanisms and inform potential antiviral strategies targeting LLPS processes.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe any experiments testing whether disruption of LLPS affects viral replication or whether any compound targeting LLPS has antiviral activity. The translational claim appears to be extrapolated from in vitro observations.
+  - **Why it matters** Overstating translational relevance without direct evidence can mislead readers and is not consistent with the evidence presented.
+  - **Resolution test** Either temper the claim to reflect that the findings may inform future antiviral development, or include cellular or in vivo data demonstrating that modulating LLPS affects viral replication.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term "subcompartmentalisation" is used without definition or explanation of what subcompartments are being referred to.
+  - **Required correction** Define what subcompartments are observed or predicted, and clarify whether this refers to distinct regions within the viral factory or separate condensates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental description
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract mentions "biochemical and cellular assays" but does not specify which cellular system was used or whether the cellular observations recapitulate the in vitro findings.
+  - **Required correction** Specify the cell type and the nature of the cellular assays, and state whether the in vitro stoichiometric and RNA binding findings were confirmed in cells.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Stoichiometry statement
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "optimal stoichiometric ratios" but does not give the actual ratios or the range tested.
+  - **Required correction** Provide the specific ratios identified as optimal and the range of conditions tested.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The quantitative phase behaviour data and the RNA cap binding specificity data are essential to establish the core claims. Without these, the case for a mechanistic model of RSV viral factory assembly is not established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: the claim of M2-1 preferential binding to capped RNA is potentially original and of interest, but cannot be verified from the abstract. Scientific importance: the work addresses a relevant question in viral replication and phase separation biology, but the importance depends on the robustness of the novel claims. Interdisciplinary readership: the topic bridges virology and biophysics, which could attract a broad audience if the evidence is strong. Technical soundness: the microfluidic approach is promising, but soundness cannot be assessed without methods and data. Readability for nonspecialists: the abstract is concise and accessible, though terms such as "subcompartmentalisation" and "multivalency" may require context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses, but the blocking concerns regarding quantitative phase behaviour and RNA binding specificity must be resolved before the claims can be considered supported. A revised assessment would require access to the full manuscript.
+
+## Risk / unsupported claims
+- The claim that optimal stoichiometric ratios of N oligomers and P tetramers were identified is unsupported without quantitative data.
+- The claim that monomeric N inhibits LLPS is unsupported without dose response and control experiments.
+- The claim that M2-1 preferentially binds 5' capped RNA while N binds uncapped RNA is unsupported without binding data.
+- The claim that M2-1 enhances condensate formation by increasing multivalency is mechanistically plausible but not verifiable from the abstract.
+- The claim that the findings inform antiviral strategies targeting LLPS is not supported by any experimental evidence in the abstract.
+- The relevance of the in vitro findings to cellular viral factory assembly is asserted but not demonstrated in the supplied material.

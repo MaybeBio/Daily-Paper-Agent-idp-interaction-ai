@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "40654683",
+    "doi": "10.1101/2025.05.02.651562",
+    "title": "DIRseq: a method for predicting drug-interacting residues of intrinsically disordered proteins from sequences."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are now well-recognized as drug targets. Identifying drug-interacting residues is valuable for both optimizing compounds and elucidating the mechanism of action. Currently, NMR chemical shift perturbation and all-atom molecular dynamics (MD) simulations are the primary tools for this purpose. Here we present DIRseq, a fast method for predicting drug-interacting residues from the amino-acid sequence. All residues contribute to the propensity of a particular residue to be drug-interacting; the contributing factor of each residue has an amplitude that is determined by its amino-acid type and attenuates with increasing sequence distance from the particular residue. DIRseq predictions match well with drug-interacting residues identified by NMR chemical shift perturbation and other methods, including residues L(22)WK(24) and Q(52)WFT(55) in the tumor suppressor protein p53. These successes augur well for deciphering the sequence code for IDP-drug binding. DIRseq is available as a web server at https://zhougroup-uic.github.io/DIRseq/ and has many applications, such as virtual screening against IDPs and designing IDP fragments for in-depth NMR and MD studies.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "MacAinsh, Matthew",
+        "Qin, Sanbo",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "MacAinsh M",
+        "Qin S",
+        "Zhou HX"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9020-0302"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA.",
+        "Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA.",
+        "Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA.",
+        "Department of Physics, University of Illinois Chicago, Chicago, IL 60607, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "MacAinsh, Matthew",
+        "short_name": "MacAinsh M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Qin, Sanbo",
+        "short_name": "Qin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [
+          "0000-0001-9020-0302"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA.",
+          "Department of Physics, University of Illinois Chicago, Chicago, IL 60607, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Sep 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/14 12:28",
+    "fetched_at": "2026-09-21 21:02:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40068541",
+      "39475380",
+      "38885177",
+      "38686803",
+      "38424045",
+      "38251829",
+      "38170904",
+      "38049566",
+      "37645312",
+      "36969402",
+      "36302916",
+      "36084347",
+      "35210421",
+      "35200356",
+      "35130691",
+      "34716273",
+      "34278794",
+      "34130216",
+      "33579943",
+      "33148639",
+      "32786705",
+      "32593678",
+      "32029630",
+      "31679823",
+      "28841302",
+      "28435985",
+      "28054562",
+      "27356095",
+      "27101974",
+      "26931396",
+      "26507530",
+      "25436420",
+      "24845231",
+      "24372466",
+      "24098099",
+      "22393064",
+      "21873994",
+      "20707388",
+      "20545323",
+      "19948969",
+      "19432426",
+      "18511942",
+      "18442979",
+      "15235593",
+      "11872841",
+      "11746699"
+    ],
+    "similar": [
+      "40654683",
+      "41055109",
+      "42644463",
+      "41959284",
+      "39475380",
+      "36778236",
+      "41001635",
+      "27844185",
+      "28365882",
+      "36005688",
+      "36674958",
+      "24333248",
+      "21541066",
+      "30840442",
+      "31756456",
+      "40068541",
+      "39163306",
+      "32357776",
+      "32426975",
+      "37883249",
+      "30204435",
+      "39896485",
+      "41959048",
+      "26742101",
+      "32696367",
+      "29228892",
+      "30240067",
+      "32393642",
+      "22399317",
+      "25968230",
+      "35436286",
+      "32639157",
+      "24211251",
+      "41174305",
+      "24589355",
+      "38116756",
+      "34863777",
+      "25207671",
+      "32771522",
+      "40532196",
+      "33623120",
+      "33945530",
+      "23142703",
+      "32816485",
+      "34845619",
+      "36827446",
+      "35126984",
+      "23028280",
+      "38079339",
+      "28448138",
+      "27763708",
+      "32585849",
+      "34799573",
+      "33078950",
+      "26735936",
+      "21686180",
+      "41725507",
+      "32702119",
+      "36084124",
+      "37722056",
+      "42032810",
+      "28232888",
+      "21943426",
+      "27653629",
+      "41534519",
+      "37498545",
+      "41856929",
+      "23606624",
+      "36084347",
+      "26387100",
+      "40944448",
+      "37138579",
+      "32459331",
+      "35739160",
+      "25287424",
+      "39586094",
+      "23901099",
+      "37488093",
+      "25919886",
+      "30250773",
+      "35883018",
+      "30727987",
+      "34164069",
+      "35562983",
+      "34656328",
+      "32112084",
+      "32859072",
+      "32139510",
+      "33355572",
+      "28765603",
+      "38739602",
+      "29530795",
+      "35053175",
+      "34626492",
+      "30002402",
+      "30471686",
+      "27016210",
+      "40907012",
+      "23794453",
+      "34589183"
+    ],
+    "review": [
+      "40654683",
+      "30840442",
+      "40068541",
+      "22399317",
+      "21686180",
+      "41725507",
+      "28232888",
+      "26387100",
+      "25287424",
+      "37488093",
+      "33355572",
+      "35053175"
+    ],
+    "pmc": [
+      "12248004"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40654683/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.05.02.651562",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

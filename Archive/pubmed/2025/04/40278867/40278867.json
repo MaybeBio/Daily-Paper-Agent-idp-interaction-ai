@@ -1,0 +1,211 @@
+{
+  "identity": {
+    "pmid": "40278867",
+    "doi": "10.1021/acs.jctc.5c00212",
+    "title": "Temperature-Dependent Coarse-Grained Model for Simulations of Intrinsically Disordered Protein LCST and UCST Liquid-Liquid Phase Separations."
+  },
+  "content": {
+    "abstract": "Many intrinsically disordered proteins (IDPs) can undergo a liquid-liquid phase separation (LLPS) in water, depending on solution conditions (temperature, pH, and ionic strength). There are two types of LLPS that are controlled by temperature: those occurring above a lower critical solution temperature (LCST) and those occurring below an upper critical solution temperature (UCST). IDP coarse-grained (CG) models are particularly appropriate for investigating the physical and chemical factors that govern their LLPS and supramolecular organization. However, the development of CG models allowing simulations of both LCST and UCST behavior of temperature-sensitive IDPs is still in its infancy. In this context, we present here a novel temperature-dependent (TD) CG model for IDP simulations based on the MARTINI 3 force field. The model was developed by modifying the Lennard-Jones potentials between apolar or charged solute beads and water with a TD rescaling factor. It was parametrized to fit the TD potentials of mean force (PMF) between two apolar or two charged molecules computed using all-atom (AA) simulations. We show that the TD CG model is able to reproduce the experimentally known LLPS of both LCST and UCST low-complexity sequences and to estimate phase transition temperatures comparable to experimental measurements.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Temperature",
+      "*Molecular Dynamics Simulation",
+      "Water/chemistry",
+      "Phase Transition",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiang, Yingmin",
+        "Ha-Duong, Tap"
+      ],
+      "short_names": [
+        "Jiang Y",
+        "Ha-Duong T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0847-2948"
+      ],
+      "affiliations": [
+        "CNRS, BioCIS, Universite Paris-Saclay, Orsay 91400, France.",
+        "CNRS, BioCIS, Universite Paris-Saclay, Orsay 91400, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiang, Yingmin",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BioCIS, Université Paris-Saclay, Orsay 91400, France."
+        ]
+      },
+      {
+        "full_name": "Ha-Duong, Tâp",
+        "short_name": "Ha-Duong T",
+        "identifiers": [
+          "0000-0002-0847-2948"
+        ],
+        "affiliations": [
+          "CNRS, BioCIS, Université Paris-Saclay, Orsay 91400, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2025 May 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/25 13:47",
+    "fetched_at": "2026-09-21 18:15:44"
+  },
+  "links": {
+    "cites": [
+      "41131710",
+      "41013969"
+    ],
+    "refs": [],
+    "similar": [
+      "40278867",
+      "40066891",
+      "31667345",
+      "38362050",
+      "38979955",
+      "40128232",
+      "33934416",
+      "35944496",
+      "32393642",
+      "38546977",
+      "34716273",
+      "30091924",
+      "33453922",
+      "30217894",
+      "39947751",
+      "37815389",
+      "39105804",
+      "31139718",
+      "33139563",
+      "32859072",
+      "23406326",
+      "33684117",
+      "34845619",
+      "34259536",
+      "36030420",
+      "36227468",
+      "35883530",
+      "38928405",
+      "33076213",
+      "33555894",
+      "39225535",
+      "37662293",
+      "31756104",
+      "39797979",
+      "30865820",
+      "30397688",
+      "37189373",
+      "29186229",
+      "34081861",
+      "38112495",
+      "38950000",
+      "37290157",
+      "34428231",
+      "38862770",
+      "34909733",
+      "36066390",
+      "36350034",
+      "33411518",
+      "33260713",
+      "34680048",
+      "30933517",
+      "34984429",
+      "27591685",
+      "35377637",
+      "34598580",
+      "29397728",
+      "34101464",
+      "25375525",
+      "26325592",
+      "33876938",
+      "39833115",
+      "38407041",
+      "19603966",
+      "27526680",
+      "39466031",
+      "33302617",
+      "28448138",
+      "17949072",
+      "34984754",
+      "40093057",
+      "38698072",
+      "31911439",
+      "32087632",
+      "37222424",
+      "39980654",
+      "36343363",
+      "36641212",
+      "33448085",
+      "40053704",
+      "34006089",
+      "29511089",
+      "39987501",
+      "31259246",
+      "28805390",
+      "31009934",
+      "28217775",
+      "38526948",
+      "36444977",
+      "32579908",
+      "30865832",
+      "38965780",
+      "38356260",
+      "31396901",
+      "26052838",
+      "37452752",
+      "23912807",
+      "35074392",
+      "34598583",
+      "32816485",
+      "30840442"
+    ],
+    "review": [
+      "40278867",
+      "38979955",
+      "39947751",
+      "34909733",
+      "36350034",
+      "33260713",
+      "34680048",
+      "26325592",
+      "31911439",
+      "30840442"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.5c00212",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

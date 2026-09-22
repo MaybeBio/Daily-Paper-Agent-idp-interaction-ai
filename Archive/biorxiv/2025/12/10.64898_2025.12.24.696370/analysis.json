@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.24.696370",
+  "title": "Evolutionary dynamics of the arthropod moulting machinery",
+  "authors": "Campli G; Joye S; Volovych O; Novikov A; Chipman AD; Robinson-Rechavi M; Waterhouse RM",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-25",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究节肢动物蜕皮机制的进化基因组学，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Exoskeletons define arthropods, providing support for segmented bodies and appendages while protecting against environmental stress and predation. Although ubiquitous, this evolutionarily variable feature has enabled arthropods to occupy diverse lifestyles and ecological niches, contributing to their unrivalled diversity. Because the chitinous cuticle is rigid, exoskeletons must be periodically shed and replaced as animals grow. Arthropods therefore develop through discrete moults, with conserved phases that progress from pre-moult preparation to ecdysis and post-moult maturation. These are tightly regulated developmental transitions controlled by a molecular toolkit comprising neuropeptides, hormone-synthesising enzymes, receptors, and the early, fate, and late gene sets that activate and execute the moulting process. Although genetic studies in model species have identified many components, major knowledge gaps remain, especially in non-insect arthropods. Advances in genome sequencing now enable comparative genomic analyses across diverse, previously understudied arthropod lineages to begin to address these gaps. We present a comprehensive comparative genomic survey of arthropods, sampling all four subphyla: Chelicerata, Myriapoda, Crustacea, and Hexapoda. Orthology inference and gene copy-number analyses contrast stable and dynamic components of the moulting machinery across the phylum. Ancestral state reconstructions and phylogenetic reconciliations reveal gene duplication and loss dynamics and the evolutionary histories of key moulting gene families. The inclusion of newly generated myriapod genomes addresses a major taxonomic gap and enables inferences of gene repertoire changes in the Mandibulata ancestor. The broad taxonomic representation enables a phylum-wide assessment to systematically evaluate, refine, and revise current understanding of the evolutionary dynamics of the entire moulting genetic toolkit.",
+  "abstract_zh": "外骨骼定义了节肢动物，为分节的身体和附肢提供支撑，同时抵御环境压力和捕食。尽管普遍存在，这一进化上多变的特征使节肢动物能够占据多样化的生活方式和生态位，从而促成了它们无与伦比的多样性。由于几丁质角质层是刚性的，外骨骼必须在动物生长过程中定期蜕去并替换。因此，节肢动物通过离散的蜕皮过程发育，其保守阶段从蜕皮前准备进展到蜕皮（ecdysis）和蜕皮后成熟。这些是受分子工具包严格调控的发育转变，该工具包包括神经肽、激素合成酶、受体，以及激活和执行蜕皮过程的早期、命运和晚期基因集。尽管模式物种的遗传研究已识别出许多组分，但主要的知识空白仍然存在，尤其是在非昆虫节肢动物中。基因组测序的进展现在使得对多样且此前研究不足的节肢动物谱系进行比较基因组分析成为可能，以开始填补这些空白。我们呈现了一项全面的节肢动物比较基因组调查，采样了所有四个亚门：螯肢亚门 (Chelicerata)、多足亚门 (Myriapoda)、甲壳亚门 (Crustacea) 和六足亚门 (Hexapoda)。直系同源推断和基因拷贝数分析对比了该门中蜕皮机制的稳定和动态组分。祖先状态重建和系统发育调和揭示了基因复制和丢失动态以及关键蜕皮基因家族的进化历史。新生成的多足亚门基因组的纳入填补了一个主要的分类学空白，并使得对颚足亚门 (Mandibulata) 祖先中基因库变化的推断成为可能。广泛的分类代表性使得能够进行门级评估，以系统性地评价、精炼和修订当前对整个蜕皮遗传工具包进化动态的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.24.696370",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.24.696370",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.24.696370/index.html"
+}

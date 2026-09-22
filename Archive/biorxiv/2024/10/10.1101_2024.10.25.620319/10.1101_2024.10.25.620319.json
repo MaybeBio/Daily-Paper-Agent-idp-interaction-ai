@@ -1,0 +1,262 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.25.620319",
+  "title": "The phase separation landscape of genome-wide genetic perturbations",
+  "doi": "10.1101/2024.10.25.620319",
+  "abstract": "<h4>Summary</h4> Biomolecular organization is central to cell function. While phase separation is a key mechanism orchestrating this organization, we lack a comprehensive view of genes that can globally influence this process in vivo . To identify such genes, we combined functional genomics and synthetic biology. We developed a bioorthogonal system that can identify changes in the intracellular milieu that globally tune phase separation. We measured in vivo phase diagrams of a synthetic system across >25 million cells in 2,888 yeast knockouts, and identified 68 genes whose deletion alters the phase boundaries of the synthetic system, an unexpected result given the system’s bioorthogonal design. Genes involved in TORC1 signaling and metabolism, particularly carbohydrate-, amino acid- and nucleotide synthesis were enriched. The mutants that changed phase separation also showed high pleiotropy, suggesting that phase separation interrelates with many aspects of biology. <h4>Highlights</h4> - A synthetic protein system reveals the genetic and environmental tunability of protein phase separation - Genetic knockouts affecting phase separation are highly pleiotropic - Carbohydrate, amino acid, and nucleotide metabolism contribute to modulating phase separation potential - Protein phase separation is a globally tunable property of the intracellular environment",
+  "authors": [
+    "Heidenreich M",
+    "Mathur S",
+    "Shu T",
+    "Xie Y",
+    "Sriker D",
+    "Dubreuil B",
+    "Holt L",
+    "Levy ED"
+  ],
+  "published_date": "2024-10-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.25.620319",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.25.620319.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR931645",
+    "raw_record": {
+      "id": "PPR931645",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR931645"
+        ]
+      },
+      "doi": "10.1101/2024.10.25.620319",
+      "title": "The phase separation landscape of genome-wide genetic perturbations",
+      "authorString": "Heidenreich M, Mathur S, Shu T, Xie Y, Sriker D, Dubreuil B, Holt L, Levy ED.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Heidenreich M",
+            "lastName": "Heidenreich",
+            "firstName": "Meta",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Structural Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mathur S",
+            "lastName": "Mathur",
+            "firstName": "Saurabh",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Structural Biology, , , ,"
+                },
+                {
+                  "affiliation": "Department of Molecular and Cellular Biology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shu T",
+            "lastName": "Shu",
+            "firstName": "Tong",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6036-0057"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Systems Genetics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xie Y",
+            "lastName": "Xie",
+            "firstName": "Ying",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9992-3504"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Systems Genetics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sriker D",
+            "lastName": "Sriker",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Structural Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dubreuil B",
+            "lastName": "Dubreuil",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Structural Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Holt L",
+            "lastName": "Holt",
+            "firstName": "Liam",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4002-0861"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Systems Genetics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Levy ED",
+            "lastName": "Levy",
+            "firstName": "Emmanuel",
+            "initials": "ED",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Structural Biology, , , ,"
+                },
+                {
+                  "affiliation": "Department of Molecular and Cellular Biology, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6036-0057"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4002-0861"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9992-3504"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Summary</h4>  Biomolecular organization is central to cell function. While phase separation is a key mechanism orchestrating this organization, we lack a comprehensive view of genes that can globally influence this process  in vivo . To identify such genes, we combined functional genomics and synthetic biology. We developed a bioorthogonal system that can identify changes in the intracellular milieu that globally tune phase separation. We measured  in vivo phase diagrams of a synthetic system across >25 million cells in 2,888 yeast knockouts, and identified 68 genes whose deletion alters the phase boundaries of the synthetic system, an unexpected result given the system’s bioorthogonal design. Genes involved in TORC1 signaling and metabolism, particularly carbohydrate-, amino acid- and nucleotide synthesis were enriched. The mutants that changed phase separation also showed high pleiotropy, suggesting that phase separation interrelates with many aspects of biology.  <h4>Highlights</h4>  - A synthetic protein system reveals the genetic and environmental tunability of protein phase separation - Genetic knockouts affecting phase separation are highly pleiotropic - Carbohydrate, amino acid, and nucleotide metabolism contribute to modulating phase separation potential - Protein phase separation is a globally tunable property of the intracellular environment",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.10.25.620319"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.25.620319"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR931645"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR931645&type=FILE&fileName=EMS199736-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199736",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-10-30",
+      "firstPublicationDate": "2024-10-27",
+      "firstIndexDate": "2024-10-30",
+      "fullTextReceivedDate": "2024-11-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

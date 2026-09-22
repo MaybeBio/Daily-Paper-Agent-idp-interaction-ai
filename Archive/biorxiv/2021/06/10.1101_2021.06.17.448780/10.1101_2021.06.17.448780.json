@@ -1,0 +1,510 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.06.17.448780",
+  "title": "X-DPI: A structure-aware multi-modal deep learning model for drug-protein interactions prediction",
+  "doi": "10.1101/2021.06.17.448780",
+  "abstract": "Motivation Identifying the drug-protein interactions (DPIs) is crucial in drug discovery, and a number of machine learning methods have been developed to predict DPIs. Existing methods usually use unrealistic datasets with hidden bias, which will limit the accuracy of virtual screening methods. Meanwhile, most DPIs prediction methods pay more attention to molecular representation but lack effective research on protein representation and high-level associations between different instances. To this end, we presented here a novel structure-aware multi-modal DPIs prediction model, X-DPI, performing on a curated industry-scale benchmark dataset. Results We built a high-quality benchmark dataset named GalaxyDB for DPIs prediction. This industry-scale dataset along with an unbiased training procedure resulted in a more robust benchmark study. For informative protein representation, we constructed a structure-aware graph neural network method from the protein sequence by combining predicted contact maps and graph neural networks. Through further integration of structure-based representation and high-level pre-trained embeddings for molecules and proteins, our model captured more effectively the feature representation of the interactions between them. As a result, X-DPI outperformed state-of-the-art DPIs prediction methods and obtained 5.30% Mean Square Error (MSE) improved in the DAVIS dataset and 8.89% area under the curve (AUC) improved in GalaxyDB dataset. Moreover, our model is an interpretable model with the transformer-based interaction mechanism, which can accurately reveal the binding sites between molecule and protein.",
+  "authors": [
+    "Penglei Wang",
+    "Shuangjia Zheng",
+    "Yize Jiang",
+    "Chengtao Li",
+    "Junhong Liu",
+    "Chang Wen",
+    "Atanas Patronov",
+    "Dahong Qian",
+    "Hongming Chen",
+    "Yuedong Yang"
+  ],
+  "published_date": "2021-06-18",
+  "updated_date": "2021-06-18T12:50:19Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.06.17.448780",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.06.17.448780.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            13
+          ]
+        ],
+        "date-time": "2026-05-13T01:48:04Z",
+        "timestamp": 1778636884175,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            18
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 38,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Identifying the drug-protein interactions (DPIs) is crucial in drug discovery, and a number of machine learning methods have been developed to predict DPIs. Existing methods usually use unrealistic datasets with hidden bias, which will limit the accuracy of virtual screening methods. Meanwhile, most DPIs prediction methods pay more attention to molecular representation but lack effective research on protein representation and high-level associations between different instances. To this end, we presented here a novel structure-aware multi-modal DPIs prediction model, X-DPI, performing on a curated industry-scale benchmark dataset.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We built a high-quality benchmark dataset named GalaxyDB for DPIs prediction. This industry-scale dataset along with an unbiased training procedure resulted in a more robust benchmark study. For informative protein representation, we constructed a structure-aware graph neural network method from the protein sequence by combining predicted contact maps and graph neural networks. Through further integration of structure-based representation and high-level pre-trained embeddings for molecules and proteins, our model captured more effectively the feature representation of the interactions between them. As a result, X-DPI outperformed state-of-the-art DPIs prediction methods and obtained 5.30% Mean Square Error (MSE) improved in the DAVIS dataset and 8.89% area under the curve (AUC) improved in GalaxyDB dataset. Moreover, our model is an interpretable model with the transformer-based interaction mechanism, which can accurately reveal the binding sites between molecule and protein.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2021.06.17.448780",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            18
+          ]
+        ],
+        "date-time": "2021-06-18T12:50:19Z",
+        "timestamp": 1624020619000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 5,
+      "title": [
+        "X-DPI: A structure-aware multi-modal deep learning model for drug-protein interactions prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Penglei",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shuangjia",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yize",
+          "family": "Jiang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chengtao",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Junhong",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chang",
+          "family": "Wen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Atanas",
+          "family": "Patronov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Dahong",
+          "family": "Qian",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hongming",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6782-2813",
+          "authenticated-orcid": false,
+          "given": "Yuedong",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "2864",
+          "DOI": "10.1021/ci300415d",
+          "article-title": "Enumeration of 166 Billion Organic Small Molecules in the Chemical Universe Database GDB-17",
+          "volume": "52",
+          "year": "2012",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1072"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "134",
+          "DOI": "10.1038/s42256-020-0152-y",
+          "article-title": "Predicting drug–protein interaction using quasi-visual question answering system",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gao KY , Fokoue A , Luo H et al. Interpretable Drug Target Prediction Using Deep Neural Representation. In: IJCAI. 2018, p. 3371–3377.",
+          "DOI": "10.24963/ijcai.2018/468"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.6b00740"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "309",
+          "DOI": "10.1093/bioinformatics/bty535",
+          "article-title": "Compound–protein interaction prediction with end-to-end learning of neural networks for graphs and sequences",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "4406",
+          "DOI": "10.1093/bioinformatics/btaa524",
+          "article-title": "TransformerCPI: improving compound– protein interaction prediction by sequence-based deep learning with self-attention mechanism and label reversal experiments",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.9",
+          "year": "2020",
+          "journal-title": "MolTrans: Molecular Interaction Transformer for Drug Target Interaction Prediction"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nguyen T , Le H , Quinn TP et al. GraphDTA: Predicting drug–target binding affinity with graph neural networks, bioRxiv 2020:684662.",
+          "DOI": "10.1101/684662"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty593"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.12",
+          "article-title": "WideDTA: prediction of drug-target binding affinity",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm958"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm862"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv256"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.16",
+          "first-page": "947",
+          "volume": "59",
+          "year": "2019",
+          "journal-title": "In Need of Bias Control: Evaluating Chemical Data for Machine Learning in Structure-Based Virtual Screening, Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1238",
+          "DOI": "10.1093/bioinformatics/btw829",
+          "article-title": "SPOT-ligand 2: improving structure-based virtual screening by binding-homology search on an expanded structural template library",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "20701",
+          "DOI": "10.1039/D0RA02297G",
+          "article-title": "Drug–target affinity prediction using graph neural network and contact maps",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "RSC Advances"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty374"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.20",
+          "article-title": "AtomNet: a deep convolutional neural network for bioactivity prediction in structure-based drug discovery",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm020155c"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100050t"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1990"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "26",
+          "DOI": "10.1186/s13321-020-00428-5",
+          "article-title": "Industry-scale application and evaluation of deep learning for drug target prediction",
+          "volume": "12",
+          "year": "2020",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "7",
+          "DOI": "10.1186/s13321-021-00488-1",
+          "article-title": "Structure-aware protein solubility prediction from sequence through graph convolutional network and predicted contact map",
+          "volume": "13",
+          "year": "2021",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx218"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-15-1"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty481"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rao R , Bhattacharya N , Thomas N et al. Evaluating Protein Transfer Learning with TAPE, bioRxiv 2019:676825.",
+          "DOI": "10.1101/676825"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.32",
+          "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00616"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.34",
+          "unstructured": "Landrum G. RDKit: Open-source cheminformatics."
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.35",
+          "year": "2019",
+          "journal-title": "Lookahead Optimizer: k steps forward, 1 step back"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.36",
+          "year": "2019",
+          "journal-title": "On the Variance of the Adaptive Learning Rate and Beyond"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.37",
+          "year": "2018",
+          "journal-title": "How Powerful are Graph Neural Networks?"
+        },
+        {
+          "key": "2021062604001118000_2021.06.17.448780v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1004"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.06.17.448780",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:52:19Z",
+        "timestamp": 1768441939000
+      },
+      "score": 48.98176,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.06.17.448780"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            18
+          ]
+        ]
+      },
+      "references-count": 38,
+      "URL": "https://doi.org/10.1101/2021.06.17.448780",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            18
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

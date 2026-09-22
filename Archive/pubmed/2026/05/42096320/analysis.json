@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42096320",
+  "title": "Proximity of the Histone-Acetylation Site to the Termini Shapes Phase Behavior with DNA.",
+  "authors": "Mimura, Masahiro; Sugai, Hiroka; Kameda, Tomoshi; Kitahara, Ryo; Kitazawa, Soichiro; Shinkai, Yoichi; Ishihara, Sayaka; Kurita, Ryoji; Tomita, Shunsuke",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2026-05-07",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过实验与MD模拟研究组蛋白H3肽段乙酰化位点对H3肽与DNA液-液相分离行为的调控机制，聚焦IDR/无序肽段介导的凝聚体形成，虽非典型PPI但涉及互作网络与相分离机制建模，方法上结合物理模拟，对本课题有直接启发。",
+  "abstract": "Post-translational modifications (PTMs) of histones play a pivotal role in chromatin condensation, with increasingly more evidence pointing to the involvement of liquid-liquid phase separation (LLPS). Here, we report the significant impact of the acetylation site of the N-terminal histone H3 peptide on LLPS with nucleosomal-linker DNA. In our model system, wherein the synthesized H3 peptide and DNA undergo LLPS, acetylation of the H3 peptide significantly inhibits LLPS, with the effects varying markedly depending on the acetylation site; acetylation near the H3 peptide end more strongly inhibits LLPS than acetylation near the H3 peptide center. Through experiments and molecular dynamics (MD) simulations, we show that this phenomenon arises from multiple contributing factors, including differences in the thermal stability of DNA, hydrophobic effects, and charge distribution within the H3 peptide/DNA complexes, which together promote the formation of intercomplex networks. Our findings not only provide fundamental insights that link LLPS-mediated chromatin condensation to biological phenomena depending on the acetylation sites but also suggest novel avenues for site-specific chemical modulation to regulate LLPS, which may, in turn, inspire new strategies in biotechnological applications and materials design.",
+  "abstract_zh": "组蛋白的翻译后修饰（PTMs）在染色质凝缩中发挥关键作用，越来越多的证据表明液-液相分离（LLPS）参与其中。在此，我们报道了N端组蛋白H3肽的乙酰化位点对核小体连接DNA发生LLPS的显著影响。在我们的模型系统中，合成的H3肽与DNA经历LLPS，H3肽的乙酰化显著抑制LLPS，且其效果因乙酰化位点不同而显著变化；靠近H3肽末端的乙酰化比靠近H3肽中心的乙酰化更强地抑制LLPS。通过实验和分子动力学（MD）模拟，我们表明这一现象源于多种贡献因素，包括DNA热稳定性差异、疏水效应以及H3肽/DNA复合物内的电荷分布，这些因素共同促进复合物间网络的形成。我们的发现不仅提供了将LLPS介导的染色质凝缩与依赖于乙酰化位点的生物现象联系起来的基本见解，还提出了通过位点特异性化学调控来调节LLPS的新途径，这可能进而激发生物技术应用和材料设计中的新策略。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42096320/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42096320/",
+  "paper_page_path": "papers/pubmed/42096320/index.html"
+}

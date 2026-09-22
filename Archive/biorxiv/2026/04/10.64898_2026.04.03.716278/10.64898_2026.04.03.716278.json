@@ -1,0 +1,227 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.03.716278",
+  "title": "ProMaya: a hierarchical universal Deep Learning framework for accurate and interpretable Protein-Protein interaction identification",
+  "doi": "10.64898/2026.04.03.716278",
+  "abstract": "Protein-protein interactions (PPIs) are molecular lego which define the physical states of cells. Accurately identifying PPIs remains challenging due to the interplay of several factors ranging from electrostatic to molecular geometry, topology, and physics. Existing computational approaches capture only fragments of this orchestra, limiting their generalizability across protein families and interaction types. Here, we present ProMaya, a hierarchical multi-scale Graph-transformer framework that integrates 3D atomic geometry, electronic distribution, residue-level structure and disorder, surface mass-density signatures, and large protein language-model embeddings of interacting proteins. Highly comprehensively benchmarked across nine species and 47 GB experimentally validated data, ProMaya achieved consistently >95% average accuracy, outperforming state-of-the-art tools by >12%. As driven by its explainability, the first time introduced atomic and protein language information dramatically boosted it to an outstanding level for PPI discovery in any species, potent to even bypass costly experiments. ProMaya system is freely accessible at https://scbb.ihbt.res.in/ProMaya/",
+  "authors": [
+    "Umesh Bhati",
+    "Sagar Gupta",
+    "Veerbhan kesarwani",
+    "Ravi Shankar"
+  ],
+  "published_date": "2026-04-06",
+  "updated_date": "2026-04-07T06:25:26Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.03.716278",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.03.716278.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            8
+          ]
+        ],
+        "date-time": "2026-09-08T12:09:34Z",
+        "timestamp": 1788869374826,
+        "version": "build-2803163510"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            6
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                6
+              ]
+            ],
+            "date-time": "2026-04-06T00:00:00Z",
+            "timestamp": 1775433600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Protein-protein interactions (PPIs) are molecular lego which define the physical states of cells. Accurately identifying PPIs remains challenging due to the interplay of several factors ranging from electrostatic to molecular geometry, topology, and physics. Existing computational approaches capture only fragments of this orchestra, limiting their generalizability across protein families and interaction types. Here, we present ProMaya, a hierarchical multi-scale Graph-transformer framework that integrates 3D atomic geometry, electronic distribution, residue-level structure and disorder, surface mass-density signatures, and large protein language-model embeddings of interacting proteins. Highly comprehensively benchmarked across nine species and 47 GB experimentally validated data, ProMaya achieved consistently &gt;95% average accuracy, outperforming state-of-the-art tools by &gt;12%. As driven by its explainability, the first time introduced atomic and protein language information dramatically boosted it to an outstanding level for PPI discovery in any species, potent to even bypass costly experiments. ProMaya system is freely accessible at https://scbb.ihbt.res.in/ProMaya/</jats:p>",
+      "DOI": "10.64898/2026.04.03.716278",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            7
+          ]
+        ],
+        "date-time": "2026-04-07T06:25:26Z",
+        "timestamp": 1775543126000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "ProMaya: a hierarchical universal Deep Learning framework for accurate and interpretable Protein-Protein interaction identification"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Umesh",
+          "family": "Bhati",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "CSIR-IHBT, Palampur, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sagar",
+          "family": "Gupta",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "CSIR-IHBT, Palampur, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Veerbhan",
+          "family": "kesarwani",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "CSIR-IHBT, Palampur, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ravi",
+          "family": "Shankar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "CSIR-IHBT, Palampur, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.03.716278",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            8
+          ]
+        ],
+        "date-time": "2026-09-08T11:20:16Z",
+        "timestamp": 1788866416000
+      },
+      "score": 63.046,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.03.716278"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            6
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.64898/2026.04.03.716278",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract
+- **Shared manuscript claim summary** The authors propose that cancer dependencies can be mapped at the level of peptide-binding pockets rather than whole genes. They screened a library of 7152 genetically encoded peptides across nine cancer cell lines, identified common and selective pocket dependencies, observed divergent phenotypes between gene knockout and peptide-mediated inhibition, and highlight three specific findings: a therapeutic window for HCF1, a hidden dependency in TLE1-4 due to homolog redundancy, and cyclin D-targeting peptides that suppress leukemia proliferation and enhance CDK4/6 inhibitor potency.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods details, statistical analyses, cell line identities, peptide library design, validation experiments, and any control data.
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to mapping cancer dependencies at the level of peptide-binding pockets, which could complement existing genetic screening methods. The three highlighted findings are potentially significant, but the abstract alone does not provide sufficient evidence to evaluate the robustness of the screening platform, the specificity of the peptide effects, or the translational relevance of the claims. The claim that peptide-mediated inhibition and gene knockout drive divergent phenotypes is intriguing but requires careful validation to rule out off-target effects. The therapeutic window for HCF1 and the synergy with CDK4/6 inhibitors are clinically relevant if properly supported. However, the current evidence base is too limited to assess technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Cancer biologists studying oncogene addiction and therapeutic targets, chemical biologists developing peptide-based inhibitors, and translational researchers interested in precision oncology. The approach could also appeal to groups working on functional genomics and protein interaction networks, as it offers a complementary strategy to CRISPR-based screens.
+- **Major strengths** The conceptual framing is novel and timely, shifting the focus from gene-level to pocket-level dependencies. The scale of the screen (7152 peptides across nine cell lines) is substantial. The identification of a dependency hidden by homolog redundancy (TLE1-4) is a particularly compelling example of the platform's unique value. The potential clinical translation, especially the CDK4/6 inhibitor combination, is of high interest.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The screening platform identifies distinct cancer dependencies and therapeutic vulnerabilities by disrupting peptide-binding pockets.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe any validation of the screening platform, such as controls for peptide expression levels, localization, or off-target effects. It is unclear whether the observed phenotypes are due to specific pocket engagement or nonspecific peptide toxicity. The claim that the platform enables "data-driven prioritization of molecular pockets" requires evidence that the screen is reproducible and that hits are specific.
+  - **Why it matters** Without validation, the core premise of the platform is unsubstantiated. Off-target effects are a common confound in peptide-based screens, and if not addressed, the identified dependencies may not reflect true pocket-specific vulnerabilities.
+  - **Resolution test** Provide data showing that a subset of hits is validated by orthogonal methods (e.g., mutagenesis of the pocket, competitive inhibition, or rescue experiments). Include negative controls demonstrating that scrambled or mutated peptides do not phenocopy the effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** Gene knockout and peptide-mediated inhibition of pockets often drive divergent phenotypes.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is a central claim that challenges conventional genetic screening assumptions. However, the abstract provides no quantitative data, examples, or statistical analysis to support "often." It is unclear how many genes were compared, what fraction showed divergence, and whether the divergence is biologically meaningful or an artifact of incomplete knockout or peptide inefficacy.
+  - **Why it matters** If this claim is not robustly supported, the rationale for using peptide screens over genetic screens is weakened. The field needs to know the frequency and magnitude of divergence to assess the platform's added value.
+  - **Resolution test** Present a systematic comparison of gene knockout and peptide inhibition phenotypes for a defined gene set, with statistical measures of concordance/discordance. Include examples where the divergence is explained by pocket-specific functions or redundant domains.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Translational relevance
+  - **Claim pointer** Peptides inhibiting cyclin D drive specific suppression of leukemia cell proliferation and improve the potency of CDK4/6 inhibitors.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that cyclin D-targeting peptides suppress leukemia proliferation and enhance CDK4/6 inhibitor potency, but no data are shown. It is unclear whether the effect is specific to leukemia cells, what concentrations are required, whether the peptides are cell-permeable, and whether the combination effect is synergistic or additive.
+  - **Why it matters** This is the most clinically actionable claim. If the effect is not specific or the peptides are not drug-like, the translational potential is limited. The combination data need to be rigorously quantified to support the claim of improved potency.
+  - **Resolution test** Provide dose-response curves for the peptides alone and in combination with CDK4/6 inhibitors, with combination index analysis. Include specificity controls using non-leukemia cell lines and demonstrate on-target engagement in cells.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "therapeutic window" for HCF1
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The term "therapeutic window" is used without defining the parameters. It is unclear whether this refers to a concentration range, a selectivity index between cancer and normal cells, or a differential effect between HCF1-dependent and independent contexts.
+  - **Required correction** Define the therapeutic window explicitly and provide the quantitative basis for it.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** TLE1-4 dependency
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The claim that TLE1-4 reveal a dependency hidden by homolog redundancy is interesting, but the abstract does not specify which cancer types or cell lines this applies to, nor how the redundancy was overcome.
+  - **Required correction** Specify the cell line context and briefly describe the experimental approach that uncovered the redundancy.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Peptide library design
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The library is described as "proteome-wide" with 7152 peptides, but the design principles are not stated. It is unclear whether the peptides are derived from natural protein interaction motifs, are designed to compete with known binders, or are random sequences.
+  - **Required correction** Briefly describe the library design rationale and coverage in the abstract or refer to methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The platform's validity and the central claim of divergent phenotypes must be supported with rigorous data. R1-M3 is important but not blocking if the other concerns are resolved.
+- **Assessment against Nature-style criteria** Originality: High. The pocket-level screening concept is a fresh angle on dependency mapping. Scientific importance: Potentially high, as it could reveal new therapeutic targets and explain gene-level screening limitations. Interdisciplinary readership: Moderate to high, appealing to cancer biology, chemical biology, and functional genomics communities. Technical soundness: Not assessable from the abstract; the lack of validation details is a major gap. Readability for nonspecialists: The abstract is clear and accessible, though some terms (e.g., "pocket") could be defined more explicitly for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the findings are potentially significant, but the abstract alone does not provide sufficient technical validation or quantitative support. I would be supportive if the full manuscript addresses the blocking concerns with rigorous data.
+
+## Risk / unsupported claims
+- The claim that the screening platform facilitates "data-driven prioritization of molecular pockets" is unsupported without validation data.
+- The claim that gene knockout and peptide inhibition "often" drive divergent phenotypes is unsupported without quantitative comparison.
+- The therapeutic window for HCF1 is not defined or quantified.
+- The specificity of cyclin D-targeting peptides for leukemia cells is not demonstrated.
+- The synergy with CDK4/6 inhibitors is stated without dose-response or combination index data.
+- The TLE1-4 dependency hidden by homolog redundancy is not contextualized with specific cell lines or experimental evidence.

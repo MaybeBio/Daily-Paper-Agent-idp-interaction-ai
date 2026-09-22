@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "34014914",
+    "doi": "10.1371/journal.pcbi.1008593",
+    "title": "Conformational plasticity and dynamic interactions of the N-terminal domain of the chemokine receptor CXCR1."
+  },
+  "content": {
+    "abstract": "The dynamic interactions between G protein-coupled receptors (GPCRs) and their cognate protein partners are central to several cell signaling pathways. For example, the association of CXC chemokine receptor 1 (CXCR1) with its cognate chemokine, interleukin-8 (IL8 or CXCL8) initiates pathways leading to neutrophil-mediated immune responses. The N-terminal domain of chemokine receptors confers ligand selectivity, but unfortunately the conformational dynamics of this intrinsically disordered region remains unresolved. In this work, we have explored the interaction of CXCR1 with IL8 by microsecond time scale coarse-grain simulations, complemented by atomistic models and NMR chemical shift predictions. We show that the conformational plasticity of the apo-receptor N-terminal domain is restricted upon ligand binding, driving it to an open C-shaped conformation. Importantly, we corroborated the dynamic complex sampled in our simulations against chemical shift perturbations reported by previous NMR studies and show that the trends are similar. Our results indicate that chemical shift perturbation is often not a reporter of residue contacts in such dynamic associations. We believe our results represent a step forward in devising a strategy to understand intrinsically disordered regions in GPCRs and how they acquire functionally important conformational ensembles in dynamic protein-protein interfaces.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Computational Biology",
+      "Computer Simulation",
+      "Humans",
+      "Interleukin-8/chemistry/metabolism",
+      "Intrinsically Disordered Proteins/chemistry",
+      "Ligands",
+      "Magnetic Resonance Spectroscopy",
+      "Models, Molecular",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Protein Conformation",
+      "Protein Interaction Domains and Motifs",
+      "Protein Interaction Mapping",
+      "Receptors, Interleukin-8A/*chemistry/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kharche, Shalmali",
+        "Joshi, Manali",
+        "Chattopadhyay, Amitabha",
+        "Sengupta, Durba"
+      ],
+      "short_names": [
+        "Kharche S",
+        "Joshi M",
+        "Chattopadhyay A",
+        "Sengupta D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4255-2474",
+        "ORCID: 0000-0002-2618-2565",
+        "ORCID: 0000-0002-3138-1024"
+      ],
+      "affiliations": [
+        "CSIR-National Chemical Laboratory, Pune, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India.",
+        "Bioinformatics Centre, S. P. Pune University, Pune, India.",
+        "CSIR-Centre for Cellular and Molecular Biology, Hyderabad, India.",
+        "CSIR-National Chemical Laboratory, Pune, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kharche, Shalmali",
+        "short_name": "Kharche S",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR-National Chemical Laboratory, Pune, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      },
+      {
+        "full_name": "Joshi, Manali",
+        "short_name": "Joshi M",
+        "identifiers": [
+          "0000-0002-4255-2474"
+        ],
+        "affiliations": [
+          "Bioinformatics Centre, S. P. Pune University, Pune, India."
+        ]
+      },
+      {
+        "full_name": "Chattopadhyay, Amitabha",
+        "short_name": "Chattopadhyay A",
+        "identifiers": [
+          "0000-0002-2618-2565"
+        ],
+        "affiliations": [
+          "CSIR-Centre for Cellular and Molecular Biology, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Sengupta, Durba",
+        "short_name": "Sengupta D",
+        "identifiers": [
+          "0000-0002-3138-1024"
+        ],
+        "affiliations": [
+          "CSIR-National Chemical Laboratory, Pune, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2021 May",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/21 06:00",
+    "fetched_at": "2026-09-20 03:15:49"
+  },
+  "links": {
+    "cites": [
+      "41380116",
+      "39062768",
+      "38731899",
+      "38388460",
+      "37325483",
+      "37014931",
+      "35335203",
+      "35116032",
+      "34365520"
+    ],
+    "refs": [
+      "35544431",
+      "32851152",
+      "32610344",
+      "32036279",
+      "31866438",
+      "31520159",
+      "31506383",
+      "31471645",
+      "31266800",
+      "31163211",
+      "30479124",
+      "30384436",
+      "29885563",
+      "29685028",
+      "29249361",
+      "29143165",
+      "29075003",
+      "28939366",
+      "28532213",
+      "28230370",
+      "28188824",
+      "28165741",
+      "27552916",
+      "27535203",
+      "27459426",
+      "27106080",
+      "26689258",
+      "26617301",
+      "26616630",
+      "26589065",
+      "26580045",
+      "26574417",
+      "26265138",
+      "25708536",
+      "25531225",
+      "25501358",
+      "25205354",
+      "25198166",
+      "25130509",
+      "24705928",
+      "24655504",
+      "23832629",
+      "23407358",
+      "23311880",
+      "23166561",
+      "23086146",
+      "22935450",
+      "22037017",
+      "22019593",
+      "21448735",
+      "21075459",
+      "20226759",
+      "19681642",
+      "19458711",
+      "17630697",
+      "17569554",
+      "17212484",
+      "17024562",
+      "16211538",
+      "15563311",
+      "15133028",
+      "12209124",
+      "11910892",
+      "10368283",
+      "10206993",
+      "8744570",
+      "8702581",
+      "8626516",
+      "8621632",
+      "8304236",
+      "8140420",
+      "7737976",
+      "7548056",
+      "1918013"
+    ],
+    "similar": [
+      "34014914",
+      "30384436",
+      "24705928",
+      "24032673",
+      "22242662",
+      "20630874",
+      "24442768",
+      "19681642",
+      "15133028",
+      "29262362",
+      "23086146",
+      "17876799",
+      "25327289",
+      "28939366",
+      "17222184",
+      "28869519",
+      "22019593",
+      "26689258",
+      "29143165",
+      "27578214",
+      "23311880",
+      "30926935",
+      "30726064",
+      "8940121",
+      "24945570",
+      "24647967",
+      "18676678",
+      "20226759",
+      "15252057",
+      "19624188",
+      "21323370",
+      "26065367",
+      "19890050",
+      "27844185",
+      "32853623",
+      "26371375",
+      "26030674",
+      "17630697",
+      "14766805",
+      "33932879",
+      "19667085",
+      "11688722",
+      "16205979",
+      "17996233",
+      "11145710",
+      "29118271",
+      "33030907",
+      "16185062",
+      "9692902",
+      "27288992",
+      "9485384",
+      "25207671",
+      "24333436",
+      "15974585",
+      "19052917",
+      "12442335",
+      "18417470",
+      "17197447",
+      "15531763",
+      "10368283",
+      "21299226",
+      "30840442",
+      "25138014",
+      "34426905",
+      "28754019",
+      "26195786",
+      "16784240",
+      "17295203",
+      "12051749",
+      "15946947",
+      "25121556",
+      "15028716",
+      "31010851",
+      "35271688",
+      "23919527",
+      "12077146",
+      "28111343",
+      "22174759",
+      "33984364",
+      "16712933",
+      "26087179",
+      "22936990",
+      "28570817",
+      "32036279",
+      "24158800",
+      "22869904",
+      "22024025",
+      "17496166",
+      "9485196",
+      "26742101",
+      "9973513",
+      "18362895",
+      "25625937",
+      "28477575",
+      "15476666",
+      "15964828",
+      "26791948",
+      "30397651"
+    ],
+    "review": [
+      "34014914",
+      "27578214",
+      "30840442",
+      "34426905",
+      "32036279",
+      "24158800"
+    ],
+    "pmc": [
+      "8172051"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1008593",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34014914/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34014914",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/34014914",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

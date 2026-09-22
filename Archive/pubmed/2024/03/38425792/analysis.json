@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38425792",
+  "title": "Modeling bacterial microcompartment architectures for enhanced cyanobacterial carbon fixation.",
+  "authors": "Trettel, Daniel S; Pacheco, Sara L; Laskie, Asa K; Gonzalez-Esquer, C Raul",
+  "journal": "Frontiers in plant science",
+  "published_date": "2024-03-01",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 5,
+  "one_liner_zh": "综述利用分子动力学模拟研究细菌微区室（羧酶体）壳层通透性与组装机制，对象非IDP/相分离，但涉及蛋白复合物组装与底物扩散的机制建模，对无序蛋白介导的PPI机制研究有方法迁移启发。",
+  "abstract": "The carboxysome is a bacterial microcompartment (BMC) which plays a central role in the cyanobacterial CO(2)-concentrating mechanism. These proteinaceous structures consist of an outer protein shell that partitions Rubisco and carbonic anhydrase from the rest of the cytosol, thereby providing a favorable microenvironment that enhances carbon fixation. The modular nature of carboxysomal architectures makes them attractive for a variety of biotechnological applications such as carbon capture and utilization. In silico approaches, such as molecular dynamics (MD) simulations, can support future carboxysome redesign efforts by providing new spatio-temporal insights on their structure and function beyond in vivo experimental limitations. However, specific computational studies on carboxysomes are limited. Fortunately, all BMC (including the carboxysome) are highly structurally conserved which allows for practical inferences to be made between classes. Here, we review simulations on BMC architectures which shed light on (1) permeation events through the shell and (2) assembly pathways. These models predict the biophysical properties surrounding the central pore in BMC-H shell subunits, which in turn dictate the efficiency of substrate diffusion. Meanwhile, simulations on BMC assembly demonstrate that assembly pathway is largely dictated kinetically by cargo interactions while final morphology is dependent on shell factors. Overall, these findings are contextualized within the wider experimental BMC literature and framed within the opportunities for carboxysome redesign for biomanufacturing and enhanced carbon fixation.",
+  "abstract_zh": "羧基体是一种细菌微区室（BMC），在蓝藻CO(2)浓缩机制中发挥核心作用。这些蛋白质结构由外层蛋白质壳组成，将Rubisco和碳酸酐酶与细胞质其余部分隔开，从而提供一个有利的微环境以增强碳固定。羧基体结构的模块化特性使其在多种生物技术应用中具有吸引力，例如碳捕集与利用。分子动力学（molecular dynamics, MD）模拟等计算手段，能够超越体内实验的局限性，提供关于其结构和功能的新时空见解，从而支持未来羧基体的重新设计工作。然而，针对羧基体的具体计算研究较为有限。幸运的是，所有BMC（包括羧基体）在结构上高度保守，这使得不同类别之间可以进行实用的推断。在此，我们回顾了关于BMC架构的模拟研究，这些研究揭示了（1）通过壳层的渗透事件和（2）组装途径。这些模型预测了BMC-H壳亚基中心孔周围的生物物理特性，而这些特性又决定了底物扩散的效率。同时，关于BMC组装的模拟表明，组装途径主要由货物相互作用在动力学上决定，而最终形态则依赖于壳层因子。总体而言，这些发现被置于更广泛的实验性BMC文献背景中，并围绕羧基体重新设计在生物制造和增强碳固定方面的机遇进行阐述。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38425792/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38425792/",
+  "paper_page_path": "papers/pubmed/38425792/index.html"
+}

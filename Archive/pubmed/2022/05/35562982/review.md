@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, and methods sections. Figures and tables referenced but not provided in full detail.
+- **Assessment boundary** Evaluation of the scientific claims, methodology, and evidence presented in the manuscript. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered linker (IDL) of VRN1 regulates DNA binding affinity and phase separation behavior through an effective local concentration effect, and that charge-segregated IDL sequences confer robust liquid-liquid phase separation independent of linker length.
+- **Visible evidence base** Abstract, full text of introduction, results, discussion, and methods. Table 1 referenced but not shown. Figures 1-6 referenced but not shown. Figure S1 and Table S1 referenced but not shown.
+- **Missing materials affecting confidence** Figures 1-6, Table 1, Figure S1, and Table S1 are referenced but not provided. Experimental data from prior work (Wang et al., reference 44) is summarized but not directly accessible. Simulation parameters and code availability are not stated.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question regarding the role of intrinsically disordered linkers in phase separation, using a combination of polymer theory and coarse-grained simulations. The central hypothesis, that IDL length modulates binding affinity via effective local concentration and that charge segregation confers robust phase separation, is plausible and partially supported by the presented evidence. However, the absence of key figures and tables limits the ability to fully evaluate the claims. The methodological approach is sound in principle, but several technical details require clarification, particularly regarding the mapping between simulation parameters and experimental conditions, and the treatment of charged patches. The manuscript would benefit from a more rigorous comparison between simulation predictions and experimental data, and from a clearer articulation of the limitations of the coarse-grained model.
+- **Who would be interested in the results, and why** Researchers studying phase separation, intrinsically disordered proteins, and transcriptional regulation. The findings may also be relevant to those interested in the design of synthetic condensates or in understanding the evolutionary conservation of charge-segregated IDL sequences. The polymer model approach could be of interest to computational biophysicists.
+- **Major strengths** The manuscript addresses a mechanistically important question with a combination of analytical theory and simulation. The use of the effective local concentration concept to link IDL length to binding affinity is elegant and provides a clear physical picture. The systematic exploration of linker length and charge patch effects on phase diagrams is a valuable contribution. The qualitative agreement with prior experimental observations strengthens the credibility of the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that simulated phase diagrams "qualitatively reproduced the previous experimental results" (Section 2.2, Section 3).
+  - **Evidence pointer** Figures 4 and 5, Table 1, location not provided
+  - **Concern** The manuscript references Figures 4 and 5 as the primary evidence for the phase diagram simulations, and Table 1 for experimental binding affinities, but none of these are provided in the submitted material. Without these figures and table, the central claims regarding the correlation between simulation and experiment cannot be assessed. The reader cannot verify the phase boundaries, the UCST values, or the comparison with experimental data.
+  - **Why it matters** The core conclusion of the manuscript, that IDL length and charge pattern regulate phase separation in a manner consistent with experiments, rests entirely on the data presented in these missing figures and table. Without them, the evidence base is incomplete and the claims are unverifiable.
+  - **Resolution test** Provide Figures 4 and 5, Table 1, and any associated supplementary data. The phase diagrams should be clearly labeled with axes, simulation conditions, and experimental data points overlaid where applicable. The comparison between simulated and experimental phase behavior should be explicitly quantified or at least clearly described in the text.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the contact energy between protein-protein, protein-DNA and DNA-DNA are set to be 0.4kBT0, −0.4kBT0 and 10kBT0, respectively" (Section 2.2).
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Concern** The choice of contact energies, particularly the large positive value for DNA-DNA interactions (10kBT0), is not justified. A repulsive energy of 10kBT0 is extremely high and may dominate the simulation behavior, potentially leading to artifacts. The authors do not explain how these values were derived or whether they are based on experimental measurements or theoretical estimates. The sensitivity of the results to these parameters is not discussed.
+  - **Why it matters** The phase diagram predictions are directly dependent on the interaction energies. If the chosen values are not physically motivated or are not tested for robustness, the conclusions drawn from the simulations may be unreliable. The large DNA-DNA repulsion could artificially suppress DNA clustering, affecting the predicted phase behavior.
+  - **Resolution test** Provide a justification for the chosen contact energy values, citing relevant experimental or theoretical sources. Perform and report a sensitivity analysis showing how the phase diagrams change with variations in these parameters. If the DNA-DNA repulsion is intended to model a specific physical effect, this should be clearly explained.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors model charged patches as "explicit beads" connected by the "rest of the implicit linker" (Section 2.3, Section 4.2).
+  - **Evidence pointer** Section 2.3, Section 4.2, Table S1, location not provided
+  - **Concern** The treatment of charged patches as single beads is a significant simplification. A patch of +7 or −7 charged residues would span multiple amino acids and have a finite size and flexibility. Representing it as a single bead may not capture the electrostatic interactions accurately, particularly the orientation-dependent effects and the possibility of intra-linker interactions. The authors do not discuss the limitations of this representation or justify its adequacy.
+  - **Why it matters** The claim that charge-segregated IDLs confer robust phase separation depends on the accurate representation of these charged patches. If the single-bead model overestimates or underestimates the interaction strength, the conclusions about the role of charge segregation may be incorrect.
+  - **Resolution test** Provide a detailed description of how the charged patches are modeled, including the mapping between amino acid residues and beads. Discuss the limitations of this approach and, if possible, perform test simulations with a more detailed representation of the charged patches to confirm the robustness of the results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "the strongest phase separation occurs approximately between L = 40 and L = 60, which is close to the optimal linker length of L = 43, to achieve the highest affinity" (Section 2.2).
+  - **Evidence pointer** Section 2.2, Figure 4, location not provided
+  - **Concern** The biological relevance of the optimal linker length is not discussed. The authors do not compare this predicted optimum with the actual linker lengths found in natural VRN1 proteins or VRN1-like proteins. If natural linkers are significantly longer or shorter than the predicted optimum, the functional significance of this finding is unclear.
+  - **Why it matters** The manuscript aims to provide mechanistic insights into how IDL regulates VRN1 function. If the predicted optimal length does not correspond to naturally occurring sequences, the relevance of the finding to biological systems is diminished.
+  - **Resolution test** Provide an analysis of the linker lengths found in natural VRN1 and VRN1-like proteins, and discuss whether these lengths are consistent with the predicted optimal range. If there is a discrepancy, explain how the model predictions can be reconciled with biological observations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation 3
+  - **Evidence pointer** Section 4.1, location not provided
+  - **Issue** Equation 3 appears to have a formatting error. The term "1/2)3" is ambiguous and likely should be "1/2)^3" or similar. This makes the equation difficult to interpret.
+  - **Required correction** Correct the formatting of Equation 3 to ensure it is mathematically unambiguous.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation methods
+  - **Evidence pointer** Section 4.2, location not provided
+  - **Issue** The manuscript does not state whether the simulation code is publicly available or whether input files and analysis scripts are deposited in a repository. This limits the reproducibility of the results.
+  - **Required correction** Provide a statement on code and data availability, including a link to a repository if applicable.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The text states that "the predicted end-to-end distance is re= 31.6 Å for WLC, being close to the predicted re=24.9 Å for RMC." The difference between these values is approximately 27%, which may not be considered "close" depending on the context. The authors should clarify what criterion is used to judge closeness.
+  - **Required correction** Provide a more precise statement about the agreement between the two models, possibly including an estimate of the uncertainty in these values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 3, location not provided
+  - **Issue** The discussion mentions that "the cation-π interaction plays an important role in the VRN1-DNA LLPS should be analyzed in the future" but does not elaborate on why this interaction is expected to be relevant or how it could be tested.
+  - **Required correction** Expand the discussion of the potential role of cation-π interactions, including a brief rationale and possible experimental or computational approaches to test this hypothesis.
+- **Technical failings that need to be addressed before the case is established** The absence of Figures 4 and 5 and Table 1 is a critical gap that prevents verification of the central claims. The justification for the interaction energy parameters is insufficient. The treatment of charged patches as single beads requires further justification and robustness testing.
+- **Assessment against Nature-style criteria** Originality: The application of the effective local concentration concept to phase separation is a useful conceptual contribution, though not entirely novel. Scientific importance: The question of how IDL properties regulate phase separation is of broad interest, but the biological significance of the specific findings for VRN1 function is not fully established. Interdisciplinary readership: The work bridges polymer physics and cell biology, which could appeal to a broad audience, but the presentation is likely to be most accessible to computational biophysicists. Technical soundness: The theoretical framework is sound, but the missing data and insufficient parameter justification undermine confidence. Readability for nonspecialists: The manuscript is generally well-written, but the methods section assumes familiarity with polymer models and lattice simulations, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question and the approach is promising, but the missing figures and table, along with the technical concerns regarding simulation parameters, prevent a full evaluation of the claims. The authors should be encouraged to resubmit after addressing these issues.
+
+## Risk / unsupported claims
+- The claim that simulated phase diagrams "qualitatively reproduced the previous experimental results" is unsupported without the actual figures and data.
+- The claim that "charge segregation in the IDL ensures robust LLPS that does not depend on the IDL length" is based on simulations with a simplified single-bead model for charged patches, which may not capture the full complexity of electrostatic interactions.
+- The prediction of an optimal linker length for binding affinity is based on polymer models that neglect protein volume and fluctuations, which the authors acknowledge may be significant at short linker lengths. The biological relevance of this prediction is not established.

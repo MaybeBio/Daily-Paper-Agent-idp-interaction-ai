@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "40928249",
+    "doi": "10.1128/jvi.01275-25",
+    "title": "The leader proteins of Theiler's virus and Boone cardiovirus use a combination of short linear motifs (SLiMs) to target RSK kinases to the nuclear pore complex."
+  },
+  "content": {
+    "abstract": "Unrelated pathogens, including viruses and bacteria, use a common short linear motif (SLiM) to interact with cellular kinases of the RSK (p90 S6 ribosomal kinase) family. Such a \"DDVF\" (D/E-D/E-V-F) SLiM occurs in the leader (L) protein encoded by picornaviruses of the genus Cardiovirus, including Theiler's murine encephalomyelitis virus (TMEV), Boone cardiovirus (BCV), and Encephalomyocarditis virus (EMCV). The L-RSK complex is targeted to the nuclear pore, where RSK triggers FG-nucleoporins hyperphosphorylation, thereby causing nucleocytoplasmic trafficking disruption. In this work, we identified a second SLiM in the L proteins of TMEV and BCV, which enables the L-RSK complex to interact with RAE1 at the level of the nuclear pore complex. AlphaFold predictions suggest that the RAE1-interacting SLiM of L proteins is analogous to that found in unrelated viral proteins such as ORF6 of SARS-CoV-1/2, ORF10 of Kaposi sarcoma-associated herpes virus (KSHV), and the matrix (M) protein of vesicular stomatitis virus (VSV). Co-immunoprecipitations confirmed the interaction between BCV L and RAE1 and competition experiments revealed that L can compete with ORF6 for RAE1 binding, suggesting that BCV and TMEV L proteins interact with RAE1 via the same docking site as M, ORF6, or ORF10. This RAE1-binding SLiM, tentatively named \"M-acidic,\" is predicted to occur in other viral proteins such as Rift valley fever virus NSs as well as in cell proteins such as NXF1. BCV and TMEV L proteins use a combination of two independent SLiMs to hijack cellular kinases and retarget those kinases toward the nuclear pore complex.IMPORTANCEProtein-protein interactions are critical to regulate cell physiology. Short linear motifs (SLiMs) are unstructured protein sequences, which usually bind to structured domains of partner proteins. They typically mediate low affinity, transient interactions, which are particularly suitable for fine-tuning cell physiology or helping cells to react promptly to stress situations. Owing to their fast replication and to the high error rate of their polymerases, viruses, particularly RNA viruses are prone to acquire SLiMs that mimic cellular SLiMs and thereby interfere with host cell signaling. In this work, we show that the leader (L) protein expressed by some cardioviruses (Picornaviridae family) uses two SLiMs in combination, which are individually shared by other pathogens: the first one, described previously, enables the L protein to hijack cellular kinases named RSKs, and the second one described in this work enables the L-RSK complex to target proteins RAE1 and NUP98 in the nuclear pore complex.",
+    "keywords": [
+      "NUP98",
+      "ORF6",
+      "RAE1",
+      "RSK",
+      "SARS-CoV-2",
+      "SLiM",
+      "SLiM mimicry",
+      "TMEV",
+      "Theiler's murine encephalomyelitits virus",
+      "boone cardiovirus",
+      "nuclear pore complex",
+      "nucleocytoplasmic traffic",
+      "p90 ribosomal S6 kinase",
+      "picornavirus",
+      "short linear motif"
+    ],
+    "mesh_terms": [
+      "*Theilovirus/metabolism/genetics",
+      "*Viral Proteins/metabolism/chemistry/genetics",
+      "*Nuclear Pore/metabolism",
+      "Humans",
+      "Animals",
+      "Amino Acid Motifs",
+      "*Cardiovirus/metabolism/genetics",
+      "*Thogotovirus/metabolism/genetics",
+      "*Ribosomal Protein S6 Kinases, 90-kDa/metabolism",
+      "Protein Binding",
+      "Phosphorylation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lizcano-Perret, Belen",
+        "Wavreil, Fanny",
+        "Veinstein, Martin",
+        "Duflos, Camille",
+        "Milcamps, Romane",
+        "Sorgeloos, Frederic",
+        "Michiels, Thomas"
+      ],
+      "short_names": [
+        "Lizcano-Perret B",
+        "Wavreil F",
+        "Veinstein M",
+        "Duflos C",
+        "Milcamps R",
+        "Sorgeloos F",
+        "Michiels T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1962-1689",
+        "ORCID: 0000-0002-0571-5916",
+        "ORCID: 0009-0001-6934-1298",
+        "ORCID: 0000-0002-6492-8524",
+        "ORCID: 0000-0001-9615-8053"
+      ],
+      "affiliations": [
+        "Universite catholique de Louvain, de Duve Institute, Brussels, Belgium.",
+        "Universite catholique de Louvain, de Duve Institute, Brussels, Belgium.",
+        "Universite catholique de Louvain, de Duve Institute, Brussels, Belgium.",
+        "Universite catholique de Louvain, de Duve Institute, Brussels, Belgium.",
+        "Universite catholique de Louvain, de Duve Institute, Brussels, Belgium.",
+        "Universite catholique de Louvain, de Duve Institute, Brussels, Belgium.",
+        "Universite catholique de Louvain, de Duve Institute, Brussels, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lizcano-Perret, Belén",
+        "short_name": "Lizcano-Perret B",
+        "identifiers": [
+          "0000-0002-1962-1689"
+        ],
+        "affiliations": [
+          "Université catholique de Louvain, de Duve Institute, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Wavreil, Fanny",
+        "short_name": "Wavreil F",
+        "identifiers": [],
+        "affiliations": [
+          "Université catholique de Louvain, de Duve Institute, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Veinstein, Martin",
+        "short_name": "Veinstein M",
+        "identifiers": [
+          "0000-0002-0571-5916"
+        ],
+        "affiliations": [
+          "Université catholique de Louvain, de Duve Institute, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Duflos, Camille",
+        "short_name": "Duflos C",
+        "identifiers": [],
+        "affiliations": [
+          "Université catholique de Louvain, de Duve Institute, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Milcamps, Romane",
+        "short_name": "Milcamps R",
+        "identifiers": [
+          "0009-0001-6934-1298"
+        ],
+        "affiliations": [
+          "Université catholique de Louvain, de Duve Institute, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Sorgeloos, Frédéric",
+        "short_name": "Sorgeloos F",
+        "identifiers": [
+          "0000-0002-6492-8524"
+        ],
+        "affiliations": [
+          "Université catholique de Louvain, de Duve Institute, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Michiels, Thomas",
+        "short_name": "Michiels T",
+        "identifiers": [
+          "0000-0001-9615-8053"
+        ],
+        "affiliations": [
+          "Université catholique de Louvain, de Duve Institute, Brussels, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of virology"
+    ],
+    "journal_abbrev": [
+      "J Virol"
+    ],
+    "pub_date": "2025 Oct 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/10 12:32",
+    "fetched_at": "2026-09-17 20:00:51"
+  },
+  "links": {
+    "cites": [
+      "41406153"
+    ],
+    "refs": [
+      "40153681",
+      "38662794",
+      "38238291",
+      "37100772",
+      "37099901",
+      "36508477",
+      "36468648",
+      "36007063",
+      "35750662",
+      "35096974",
+      "35091472",
+      "35078976",
+      "34761267",
+      "34201715",
+      "33911136",
+      "33849972",
+      "33097660",
+      "33070389",
+      "33033226",
+      "32353859",
+      "31671053",
+      "31292248",
+      "30369921",
+      "27832591",
+      "27390781",
+      "26456686",
+      "26410240",
+      "26196674",
+      "26115166",
+      "25038412",
+      "24927547",
+      "23536668",
+      "23028327",
+      "22810585",
+      "21909575",
+      "21752908",
+      "19863558",
+      "19710133",
+      "19144712",
+      "19088287",
+      "19004954",
+      "16888036",
+      "16603526",
+      "16501080",
+      "15629720",
+      "15047849",
+      "12637516",
+      "12208945",
+      "11483724",
+      "11333017",
+      "10835641",
+      "9601508",
+      "3031469",
+      "2129533"
+    ],
+    "similar": [
+      "40928249",
+      "40153681",
+      "36508477",
+      "24335301",
+      "33849972",
+      "31292248",
+      "35091472",
+      "16603526",
+      "19710133",
+      "41406153",
+      "38507240",
+      "25210192",
+      "3033278",
+      "35096974",
+      "7511789",
+      "19412527",
+      "26492198",
+      "24036175",
+      "25320298",
+      "33097660",
+      "33360543",
+      "21752908",
+      "34201715",
+      "19088287",
+      "3034822",
+      "41016010",
+      "18768820",
+      "20130131",
+      "24999048",
+      "19403676",
+      "7494325",
+      "26063423",
+      "26978386",
+      "33534852",
+      "38662794",
+      "21994950",
+      "29155139",
+      "26115166",
+      "30742696",
+      "20881039",
+      "29587779",
+      "19073724",
+      "23028327",
+      "22114344",
+      "12784854",
+      "11483724",
+      "12832467",
+      "22025686",
+      "10738359",
+      "23825954",
+      "36468648",
+      "28800924",
+      "27396678",
+      "34751406",
+      "10644372",
+      "16501080",
+      "24927547",
+      "29353210",
+      "38342435",
+      "35970938",
+      "37738983",
+      "12655085",
+      "26133373",
+      "16575521",
+      "20164225",
+      "11883190",
+      "18815294",
+      "31180502",
+      "10500216",
+      "19304659",
+      "10209021",
+      "17005650",
+      "30842327",
+      "11517382",
+      "40320752",
+      "19332537",
+      "40824083",
+      "8941332",
+      "34960638",
+      "10627559",
+      "35187564",
+      "33033226",
+      "19932140",
+      "40789037",
+      "35034439",
+      "11935462",
+      "16270903",
+      "27269472",
+      "41237910",
+      "28446680",
+      "15893838",
+      "7707546",
+      "26631080",
+      "21445704",
+      "19420082",
+      "10775632",
+      "20498086",
+      "10074458",
+      "27250711",
+      "9371636"
+    ],
+    "review": [
+      "40928249",
+      "34201715",
+      "22114344",
+      "10738359",
+      "36468648",
+      "16575521",
+      "34960638"
+    ],
+    "pmc": [
+      "12548433"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/jvi.01275-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40928249/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40928249",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FHL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

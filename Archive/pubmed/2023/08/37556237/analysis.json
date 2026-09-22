@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37556237",
+  "title": "Model-Dependent Solvation of the K-18 Domain of the Intrinsically Disordered Protein Tau.",
+  "authors": "Maiti, Sthitadhi; Heyden, Matthias",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2023-08-09",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过模拟与自由能分析研究Tau蛋白K-18无序结构域的水合作用，虽未直接研究PPI，但聚焦IDP构象系综与溶剂化机制，对无序蛋白介导互作及相分离的物理建模有方法学启发。",
+  "abstract": "A known imbalance between intra-protein and protein-water interactions in many empirical force fields results in collapsed conformational ensembles of intrinsically disordered proteins in explicit solvent simulations that disagree with experiments. Multiple strategies have been introduced in the literature to modify protein-water interactions, which improve agreement between experiments and simulations. In this work, we combine simulations with standard and modified force fields with a spatially resolved analysis of solvation free energy contributions and compare the consequences of each strategy. We find that enhanced Lennard-Jones (LJ) interactions between protein atoms and water oxygens primarily improve the solvation of nonpolar functional groups of the protein. In contrast, modified electrostatics in the water model or strengthened LJ interactions between the protein and water hydrogens mainly affect the hydration of polar functional groups. Modified electrostatics further impact the average orientation of water molecules in the hydration shell. As a result, protein-water interactions with the first hydration layers are strengthened, while interactions with water molecules in higher hydration shells are weakened. Hence, distinct strategies to balance intra-protein and protein-water interactions in simulations have qualitatively different effects on protein solvation. These differences are not necessarily captured by comparisons to experiments that report on global parameters describing protein conformational ensembles, e.g., the radius of gyration, but will influence the tendency of a protein to form aggregates or phase-separated droplets.",
+  "abstract_zh": "许多经验力场中已知的蛋白质内部相互作用与蛋白质-水相互作用之间的不平衡，导致在显式溶剂模拟中 intrinsically disordered proteins（本质无序蛋白质）的构象集合坍缩，这与实验不符。文献中已引入多种策略来调整蛋白质-水相互作用，以改善实验与模拟之间的一致性。在本工作中，我们将标准及修改后的力场模拟与溶剂化自由能贡献的空间分辨分析相结合，并比较每种策略的后果。我们发现，增强蛋白质原子与水氧之间的 Lennard-Jones (LJ) 相互作用主要改善蛋白质非极性官能团的溶剂化。相比之下，水模型中的静电修改或蛋白质与水氢之间增强的 LJ 相互作用主要影响极性官能团的水合作用。静电修改还进一步影响水合壳层中水分子的平均取向。因此，蛋白质与第一水合层的相互作用得到加强，而与更高水合壳层中水分子的相互作用则减弱。由此，模拟中平衡蛋白质内部和蛋白质-水相互作用的不同策略对蛋白质溶剂化具有定性不同的影响。这些差异不一定能通过与报告蛋白质构象集合全局参数（如回转半径）的实验比较来捕捉，但会影响蛋白质形成聚集体或相分离液滴的倾向。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37556237/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37556237/",
+  "paper_page_path": "papers/pubmed/37556237/index.html"
+}

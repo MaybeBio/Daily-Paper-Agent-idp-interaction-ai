@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures or supplementary materials
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the text; no assessment of code or data that are not provided
+- **Shared manuscript claim summary** The authors propose WUREN, a multimodal deep learning framework that fuses sequence, graph, and structural features for protein interaction interface prediction, and report state-of-the-art performance on epitope prediction (EpiPred, SAbDab) and general PPI prediction (MaSIF) benchmarks
+- **Visible evidence base** Text descriptions of methods, datasets, and quantitative results (AUC-PR, AUC-ROC, precision, recall, F1) as reported in the results sections; no figures, tables, or supplementary data are available for inspection
+- **Missing materials affecting confidence** Figures 1-5, all tables, dataset details, code, trained models, and data availability are not provided; the manuscript states data and code will be released only after acceptance, which prevents independent verification of all reported results
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in structural bioinformatics, namely the prediction of protein interaction interfaces using multimodal feature fusion. The proposed architecture is reasonable and the reported performance improvements over existing methods are potentially interesting. However, the current manuscript has several critical weaknesses that prevent a full evaluation of the claims. The most significant issues are the lack of access to figures and tables, the absence of statistical significance testing, the unclear comparison protocols for the SAbDab benchmark, and the incomplete description of the training procedure. The claim of "whole-modal" fusion is overstated given that the framework is demonstrated on only two tasks and three modalities. The manuscript would benefit from a more rigorous evaluation, clearer methodological details, and a more cautious interpretation of the results.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-protein interaction prediction, epitope mapping, and antibody design would be the primary audience. Researchers developing multimodal deep learning methods for biological sequence-structure-function relationships may also find the framework of interest. The potential application to antibody and protein drug development could attract industrial researchers in therapeutic discovery.
+- **Major strengths** The problem is well-motivated and practically relevant. The multimodal fusion approach is sensible and builds on established architectures (Transformer, GCN, PointNet++). The authors demonstrate generalization across two distinct tasks (epitope prediction and general PPI prediction), which supports the claim of framework generality. The ablation study, as described, provides evidence that each modality contributes to performance. The discussion of feature engineering and post-processing improvements shows practical insight.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims state-of-the-art performance on EpiPred, SAbDab, and MaSIF benchmarks, with specific AUC-PR values of 0.462, 0.516, and 0.516 respectively
+  - **Evidence pointer** Results sections "Epitope prediction performance on EpiPred", "Epitope prediction performance on SAbDab", "PPI prediction performance on MaSIF"; figures 3a-c referenced but not available
+  - **Concern** The reported results cannot be verified because all figures and tables are missing from the provided material. The numerical values are stated in the text, but without the actual performance curves, confidence intervals, or comparison plots, it is impossible to assess whether the claimed improvements are statistically meaningful or practically significant. Furthermore, no error bars or variance estimates are reported for any metric, which is essential for deep learning models that can exhibit high variance across runs.
+  - **Why it matters** The central claim of the paper is that WUREN achieves state-of-the-art performance. Without access to the actual results and without any measure of statistical significance, this claim is not substantiated. The reader cannot determine whether the reported improvements are robust or the result of favorable experimental conditions.
+  - **Resolution test** Provide all figures and tables with error bars or confidence intervals. Report the number of independent runs and the variance across runs. Include statistical significance tests (e.g., paired bootstrap or Wilcoxon signed-rank test) comparing WUREN against each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The manuscript states that on the SAbDab dataset, WUREN is compared against "protein complex structure prediction models, AF2-Multimer and xTrimo-Multimer"
+  - **Evidence pointer** Section "Epitope prediction performance on SAbDab"
+  - **Concern** The comparison protocol against AF2-Multimer and xTrimo-Multimer is unclear. These are structure prediction models, not epitope prediction models. The manuscript does not describe how the predicted structures from these models are converted into epitope predictions, what thresholds are used, or whether the comparison is fair in terms of input information. AF2-Multimer and xTrimo-Multimer predict the complex structure, from which epitope residues can be derived by distance criteria, but the manuscript does not specify this procedure. Additionally, the manuscript does not state whether the same 77 test complexes are used for all methods or whether the baselines are retrained or used as-is.
+  - **Why it matters** A fair and clearly described comparison is essential for the claim that WUREN outperforms these advanced methods. If the comparison protocol is biased or inconsistent, the reported superiority may not hold.
+  - **Resolution test** Provide a detailed description of how epitope predictions are derived from AF2-Multimer and xTrimo-Multimer outputs. Specify the exact distance threshold, the version of the models used, and whether any fine-tuning or adaptation was performed. Confirm that the same test set and evaluation metrics are used for all methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript describes a two-stage training procedure: first train the CAP model, then fix its parameters and train CAG and CAT models, and finally train the MLP prediction head
+  - **Evidence pointer** Section "WUREN", paragraph on training steps
+  - **Concern** The two-stage training procedure is described at a high level, but several critical details are missing. How are the point cloud embeddings aggregated to amino acid level? The manuscript states that point clouds within 2 Å of each amino acid are averaged, but it is unclear how this handles amino acids with no nearby point clouds or how the aggregation affects gradient flow. More importantly, the manuscript does not explain why a two-stage procedure is chosen over end-to-end training, which is the standard approach for multimodal fusion. The non-differentiable aggregation step is mentioned in the Discussion as a limitation, but the manuscript does not discuss potential alternatives or the impact of this design choice on the final performance.
+  - **Why it matters** The training procedure is a core methodological contribution. If the two-stage approach introduces suboptimal solutions or information loss, the reported performance may not reflect the true potential of the multimodal fusion. The lack of justification for this design choice weakens the methodological contribution.
+  - **Resolution test** Provide a detailed description of the aggregation procedure, including edge cases. Justify the two-stage training approach with empirical comparisons against end-to-end training. Discuss the impact of the non-differentiable step on the learned representations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript claims that "WUREN is a general and effective feature extraction model for protein complex" and that the framework "can be potentially applied to model similar biologics to proteins, such as DNA and RNA"
+  - **Evidence pointer** Abstract, Conclusion
+  - **Concern** The claim of generality is based on results from only two tasks: epitope prediction and PPI interface prediction. Both tasks are closely related and use similar input features. The extension to DNA and RNA is speculative and not supported by any experiments. The manuscript does not discuss the specific challenges of applying the framework to nucleic acids, such as different structural properties, different interaction modes, or the need for different feature representations.
+  - **Why it matters** The claim of generality is a key selling point of the paper. Overstating the generalizability without supporting evidence may mislead readers and overstate the significance of the work.
+  - **Resolution test** Either temper the claims of generality to be specific to protein-related tasks, or provide preliminary experiments on a third, distinct task (e.g., nucleic acid binding site prediction) to support the claim of broader applicability.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence "Proteins are one of the most important components in life" is vague and could be more specific. The abstract would benefit from a clearer statement of the problem and the specific gap that WUREN addresses.
+  - **Required correction** Revise the opening to state the specific problem of protein interaction interface prediction and why existing methods are insufficient.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Implementation Details
+  - **Evidence pointer** Section "Implementation Details"
+  - **Issue** The manuscript states that a single A100 GPU with 15G memory is used, but does not report the total training time or the number of parameters in the model. This information is useful for assessing the practical feasibility of the approach.
+  - **Required correction** Add the model parameter count and approximate training time.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, Features
+  - **Evidence pointer** Section "Features"
+  - **Issue** The feature extraction section lists several tools and feature types but does not provide the final feature dimensions for the amino acid and point cloud features. This makes it difficult to understand the input size to the model.
+  - **Required correction** Report the final feature dimensions for both amino acid and point cloud features.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results sections
+  - **Evidence pointer** Sections "Epitope prediction performance on EpiPred", "Epitope prediction performance on SAbDab", "PPI prediction performance on MaSIF"
+  - **Issue** The manuscript reports single values for each metric without any measure of variance or statistical significance. For deep learning models, it is standard practice to report the mean and standard deviation across multiple runs.
+  - **Required correction** Report the mean and standard deviation across at least three independent runs for all metrics.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Section "Discussion", first paragraph
+  - **Issue** The statement "selecting and adding more suitable amino acid features significantly improves model performance" is presented as a finding, but the comparison between the 63-dimensional and 136-dimensional feature sets is only described in one sentence without any experimental detail.
+  - **Required correction** Provide a brief description of the feature selection experiment, including the number of features tested and the performance comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing figures and statistical significance), R1-M2 (unclear comparison protocol on SAbDab), R1-M3 (incomplete training procedure description)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The combination of sequence, graph, and structural features for interface prediction is not entirely new, but the specific architecture and the two-stage training approach have some novel elements. The claim of "whole-modal" fusion is somewhat overstated given the limited scope of modalities tested.
+  - Scientific importance: Moderate to high. Accurate prediction of protein interaction interfaces has significant implications for understanding protein function and for drug development. However, the demonstrated improvements over existing methods are modest and not fully substantiated.
+  - Interdisciplinary readership: Moderate. The work is primarily of interest to computational biologists and bioinformaticians. The potential applications to drug development may attract a broader audience, but the manuscript does not provide sufficient context for non-specialists to appreciate the significance of the results.
+  - Technical soundness: The architecture is reasonable, but the evaluation is incomplete. The lack of statistical significance testing, the unclear comparison protocol, and the missing details on the training procedure undermine confidence in the reported results.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, but some sections (e.g., the description of the CAP module) are dense and would benefit from clearer explanations. The abstract is concise but could be more specific about the problem and the contribution.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and the proposed approach is plausible, but the missing figures, lack of statistical rigor, and unclear comparison protocols prevent a full evaluation of the claims. The authors should be encouraged to resubmit after addressing the major concerns, particularly by providing all figures and tables, adding statistical significance testing, clarifying the SAbDab comparison protocol, and providing more details on the training procedure.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art" performance on all three benchmarks is not verifiable without the actual figures and tables.
+- The claim that WUREN is a "general and effective feature extraction model for protein complex" is only supported by results on two related tasks.
+- The potential application to DNA and RNA is speculative and not supported by any experiments.
+- The statement that "adding more data improves the performance of the model" is presented as a general finding but is only demonstrated in one specific case.
+- The claim that the 136-dimensional feature set is superior to the 63-dimensional set is not supported by any experimental data in the provided text.
+- The manuscript states that data and code will be provided only after acceptance, which means the results cannot be independently verified at this stage.

@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that AlphaFold3 produces hallucinations when predicting structures of intrinsically disordered proteins (IDPs), specifically at residues annotated as involved in biological process terms from Gene Ontology. The abstract suggests a systematic evaluation linking disorder annotations to prediction artifacts.
+- **Visible evidence base** Abstract text only; no quantitative results, methodology details, or validation data are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, statistical analyses, dataset descriptions, and any code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract addresses a timely and potentially important question about the reliability of AlphaFold3 for intrinsically disordered proteins, a class of proteins that is increasingly recognized as functionally significant. However, the abstract as provided is too sparse to evaluate the technical soundness of the work. No quantitative results, methodological details, or validation strategies are visible. The core claim of "hallucinations" is not defined operationally, and the link to biological process residues is asserted without supporting evidence. The work may be of interest to the structural biology and protein prediction communities, but the current evidence base is insufficient to assess whether the case is established.
+- **Who would be interested in the results, and why** Structural biologists using AlphaFold3 for protein structure prediction, computational biologists studying intrinsically disordered proteins, and researchers developing or benchmarking protein language models and deep learning-based structure predictors. The results could inform best practices for interpreting AlphaFold3 outputs on disordered regions and may have implications for functional annotation efforts.
+- **Major strengths** The topic is relevant and timely, given the rapid adoption of AlphaFold3. The focus on intrinsically disordered proteins is an important gap in benchmarking studies, which often prioritize folded domains. The specific attention to biological process residues suggests a functional angle that could be valuable if properly developed.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that AlphaFold3 produces hallucinations for IDPs with disorder in biological process residues.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract provides no quantitative data, no definition of "hallucination" in this context, and no comparison to any baseline or ground truth. It is unclear whether hallucinations are defined as structural artifacts, low confidence scores, or disagreement with experimental data.  
+  - **Why it matters** Without an operational definition and quantitative evidence, the central claim cannot be evaluated. The term "hallucination" is used in different ways across the literature, and the reader cannot determine what the authors measured.  
+  - **Resolution test** Provide a clear definition of hallucination, present quantitative metrics (e.g., pLDDT scores, RMSD to experimental structures, or agreement with disorder predictions), and show statistical comparisons across protein sets with and without biological process annotations.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The abstract implies a systematic evaluation linking disorder in biological process residues to AlphaFold3 hallucinations.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No methodological details are provided. The reader does not know which AlphaFold3 version was used, how IDPs were selected, how biological process residues were defined or annotated, what the control set was, or how many proteins were analyzed.  
+  - **Why it matters** Reproducibility and generalizability cannot be assessed. The claim may be specific to a particular dataset or annotation scheme, and without this information the findings cannot be interpreted or extended.  
+  - **Resolution test** Describe the dataset selection criteria, annotation source (e.g., Gene Ontology release), AlphaFold3 version and settings, and the statistical framework used to compare groups.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Validation and robustness  
+  - **Claim pointer** The abstract suggests that hallucinations are specifically associated with biological process residues, implying a functional or sequence-based distinction.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No validation is presented. There is no evidence that the observed effects are specific to biological process residues rather than a general property of disordered regions, nor is there any control for sequence length, composition, or other confounding factors.  
+  - **Why it matters** The claim of specificity is central to the paper's novelty. If the effect is simply a general property of IDPs, the focus on biological process residues would be misleading.  
+  - **Resolution test** Include appropriate control groups (e.g., IDPs without biological process annotations, folded proteins with similar residue compositions) and perform multivariate analyses to rule out confounders.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of terminology  
+  - **Affected element** Title and abstract  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The phrase "disorder in Biological Process Residues" is ambiguous. It is unclear whether this refers to residues annotated with Gene Ontology biological process terms, residues predicted to be disordered within regions associated with biological processes, or something else.  
+  - **Required correction** Clarify the terminology, preferably by defining the annotation source and the level of residue-level mapping used.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope of claims  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract does not state whether the findings are specific to AlphaFold3 or whether they also apply to AlphaFold2 or other predictors.  
+  - **Required correction** State the scope of the comparison or explicitly limit the claims to AlphaFold3.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract text  
+  - **Issue** No mention of code or data availability.  
+  - **Required correction** Include a statement on data and code availability in the full manuscript.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish the core claim. The definition of hallucination, the methodology, and the validation are all missing.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The focus on IDPs and biological process residues is a potentially original angle, but the abstract does not demonstrate how this differs from existing benchmarking studies of AlphaFold3 on disordered proteins.  
+  - **Scientific importance** The question is important for the structural biology community, but the abstract does not show the magnitude or generality of the effect.  
+  - **Interdisciplinary readership** The topic could appeal to structural biologists, computational biologists, and bioinformaticians, but the abstract is too technical and underspecified to attract a broad readership.  
+  - **Technical soundness** Cannot be assessed from the abstract. No methods, data, or statistical analyses are visible.  
+  - **Readability for nonspecialists** The abstract is brief but uses terms like "hallucinations" and "biological process residues" without definition, which would be unclear to nonspecialists.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is too sparse to support the claims. A full manuscript with quantitative results, clear methodology, and validation would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that AlphaFold3 produces hallucinations for IDPs with disorder in biological process residues is unsupported by the abstract, as no quantitative evidence is provided.
+- The implied specificity of the effect to biological process residues is unsupported and may be confounded by general IDP properties.
+- Any statement about the prevalence, magnitude, or practical significance of the reported hallucinations is not assessable from the supplied material.

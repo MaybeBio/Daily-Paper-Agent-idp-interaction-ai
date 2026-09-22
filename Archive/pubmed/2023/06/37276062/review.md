@@ -1,0 +1,60 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and scope as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The review article surveys recent advances in theory and simulation of multiphase coexistence in biomolecular mixtures, covering statistical approaches for systems with hundreds to thousands of species, analytical theories and coarse-grained models for molecularly detailed predictions, and challenges for modeling cellular spatial organization.
+- **Visible evidence base** Abstract text only; no figures, tables, or cited literature are available for verification
+- **Missing materials affecting confidence** Full manuscript, all figures, tables, references, and any supplementary information; without these, the depth, accuracy, and completeness of the review cannot be assessed
+
+## Reviewer
+- **Overall assessment** The abstract presents a well-structured overview of a timely and important topic in biomolecular phase separation. The scope is ambitious, spanning statistical physics, computational modeling, and cellular biology. However, the abstract alone provides insufficient detail to evaluate the scholarly quality, balance, or technical accuracy of the review. The claims are broad and programmatic, and the evidence base for the stated progress is not visible. The manuscript may be valuable, but its case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biophysics, computational chemistry, and cell biology studying phase separation and biomolecular condensates would find this review useful as an entry point to the theoretical and simulation literature. Practitioners developing coarse-grained models or statistical theories for multicomponent mixtures would also benefit from a consolidated survey of recent methods and open challenges.
+- **Major strengths** The topic is highly relevant and timely, given the rapid growth of condensate research. The abstract clearly delineates the review's structure, moving from high-dimensional statistical approaches to molecularly detailed models and finally to cellular applications. The emphasis on bridging theory, simulation, and experiment is appropriate and likely to appeal to a broad interdisciplinary audience.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence sufficiency  
+    - **Claim pointer** The abstract claims that the review covers "recent advances in the prediction and computational design of biomolecular mixtures that phase-separate into many coexisting phases" and that progress has been made in "developing analytical theories and coarse-grained simulation models to predict multiphase condensates with the molecular detail required to make contact with biophysical experiments."  
+    - **Evidence pointer** Abstract only; no sections, figures, or tables provided  
+    - **Concern** The abstract asserts that significant advances have been made, but no specific results, examples, or citations are visible. The reader cannot verify the existence, quality, or representativeness of the cited work. The claim of "molecular detail required to make contact with biophysical experiments" is particularly strong and requires demonstration that such models achieve quantitative or semi-quantitative agreement with experimental data.  
+    - **Why it matters** A review's value depends on the accuracy and completeness of its synthesis. Without visible evidence, the central claim of documented progress is unverifiable, and the review's utility as a reliable resource is undermined.  
+    - **Resolution test** Provide the full text with specific examples of theoretical predictions and simulation results, including comparisons to experimental data where available. The abstract should be revised to reflect the actual content and limitations of the reviewed literature.
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Scope clarity  
+    - **Claim pointer** The abstract states the review covers "mixtures with hundreds or thousands of species using theoretical models and statistical approaches" and also "analytical theories and coarse-grained simulation models."  
+    - **Evidence pointer** Abstract only; no section headings or content outline provided  
+    - **Concern** The boundary between the two main topics is unclear. It is not specified whether the statistical approaches for many-species systems are distinct from the analytical theories mentioned later, or how they relate. The abstract does not indicate the criteria for selecting reviewed works, the time window covered, or the depth of treatment for each subtopic.  
+    - **Why it matters** A review must clearly define its scope and organization to guide readers. Ambiguity here could lead to confusion about what is included and what is omitted, reducing the review's utility as a reference.  
+    - **Resolution test** Clarify in the abstract the relationship between the statistical and analytical approaches, specify the review period and selection criteria, and provide a clear outline of sections and their intended coverage.
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Readability  
+    - **Affected element** Abstract sentence structure  
+    - **Evidence pointer** Abstract, first paragraph  
+    - **Issue** The phrase "newly recognized form of spatial organization" is vague; it is unclear whether this refers to condensates as a general phenomenon or to specific types.  
+    - **Required correction** Specify what is "newly recognized" and provide a brief definition or example of biomolecular condensates for nonspecialist readers.
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Terminology  
+    - **Affected element** Use of "multiphase coexistence"  
+    - **Evidence pointer** Abstract, title and first paragraph  
+    - **Issue** The term "multiphase coexistence" is used without definition. Nonspecialists may not understand whether this refers to multiple distinct condensate phases within a single system or to coexistence of condensates with the surrounding dilute phase.  
+    - **Required correction** Define the term explicitly in the abstract or introduction, and distinguish it from simpler two-phase separation.
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Concluding statement  
+    - **Evidence pointer** Abstract, final sentence  
+    - **Issue** The conclusion that "challenges ahead" exist is generic and does not indicate what those challenges are.  
+    - **Required correction** List at least two or three specific challenges, such as parameterization of molecular interactions, treatment of nonequilibrium effects, or integration with experimental data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract alone does not provide sufficient evidence to evaluate the review's claims or scope. The full manuscript must be examined to determine whether the stated advances are accurately represented and whether the coverage is balanced and complete.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Not assessable from the abstract. The topic is not new, but the review's unique contribution, if any, is not stated.  
+  - **Scientific importance** High, given the rapid growth of condensate research and the need for theoretical frameworks. The abstract suggests the review addresses a central gap, but the importance is asserted rather than demonstrated.  
+  - **Interdisciplinary readership** Likely broad, spanning biophysics, computational chemistry, and cell biology. The abstract is written accessibly, but the level of technical detail in the full text is unknown.  
+  - **Technical soundness** Not assessable. No methods, equations, or results are visible.  
+  - **Readability for nonspecialists** The abstract is generally clear, but terms like "multiphase coexistence" and "coarse-grained simulation models" are used without definition, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract outlines a promising review, but the full manuscript must be assessed to verify the accuracy, balance, and depth of the synthesis. If the full text provides specific examples, critical evaluation, and clear organization, the review could be a valuable contribution.

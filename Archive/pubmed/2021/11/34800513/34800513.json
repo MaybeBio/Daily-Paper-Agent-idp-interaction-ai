@@ -1,0 +1,380 @@
+{
+  "identity": {
+    "pmid": "34800513",
+    "doi": "10.1016/j.chemosphere.2021.132928",
+    "title": "A green and sensitive guanine-based DNA biosensor for idarubicin anticancer monitoring in biological samples: A simple and fast strategy for control of health quality in chemotherapy procedure confirmed by docking investigation."
+  },
+  "content": {
+    "abstract": "Drug efficiency can be considerably boosted while adverse effects can be reduced by precisely monitoring the concentration of anti-cancer drugs. Thus, one of the most important parameters for human health is the monitoring and detection of anticancer drugs during chemotherapy treatment. Herein, a glassy carbon electrode (GCE) was modified by Pt- and Pd-incorporated ZnO nanoparticles-decorated single-wall carbon nanotubes (Pt-Pd-ZnO/SWCNTs) nanocomposites, and ds-DNA (Calf Thymus) that was a biological recognition element, and it was aimed to be utilized as an ultrasensitive and effective electroanalytical biosensor for idarubicin (IDR) monitoring. Various physicochemical characterization techniques including transmission electron microscopy (TEM), field-emission scanning electron microscopy (FE-SEM) with energy-dispersive X-ray spectroscopy (EDS) were used to investigate the morphology and structure of the Pt-Pd-ZnO/SWCNTs nanocomposite, which was produced via straightforward chemical precipitation combined with the one-pot method. The layer-by-layer modification technique was implemented to fabricate the ds-DNA/Pt-Pd-ZnO/SWCNTs/GCE to be further utilized as a voltammetric sensor for sensitive monitoring of idarubicin in biological fluids and pharmaceutical substances. The electroanalytical method implemented to detect idarubicin was based to detect the ds-DNA's guanine base signal on the surface of the modified electrode in the absence and presence of the anticancer drug. The results explicated that the developed biosensor performed well in determining idarubicin in concentrations ranging from 1.0 nM to 65 muM, with a detection limit of 0.8 nM. The idarubicin detection ability of the modified electrode in real samples was evaluated, and the recovery data was acquired in the range of 98.0% and 104.75%. In the final step, the preferential intercalative binding mode of idarubicin drug with ds-DNA was approved by molecular docking study. This study paves the way for engineering highly sensitive DNA biosensors to be employed in the monitoring of anticancer drugs by combining the benefits of nanocomposites and valuable information of a molecular docking study.",
+    "keywords": [
+      "Chemotropic drug",
+      "DNA biosensor",
+      "Idarubicin",
+      "Metal-based nanocomposite",
+      "Molecular docking study"
+    ],
+    "mesh_terms": [
+      "*Biosensing Techniques",
+      "DNA",
+      "Electrochemical Techniques",
+      "Electrodes",
+      "Guanine",
+      "Humans",
+      "Idarubicin",
+      "Limit of Detection",
+      "Molecular Docking Simulation",
+      "*Nanocomposites",
+      "*Nanotubes, Carbon"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karimi-Maleh, Hassan",
+        "Khataee, Alireza",
+        "Karimi, Fatemeh",
+        "Baghayeri, Mehdi",
+        "Fu, Li",
+        "Rouhi, Jalal",
+        "Karaman, Ceren",
+        "Karaman, Onur",
+        "Boukherroub, Rabah"
+      ],
+      "short_names": [
+        "Karimi-Maleh H",
+        "Khataee A",
+        "Karimi F",
+        "Baghayeri M",
+        "Fu L",
+        "Rouhi J",
+        "Karaman C",
+        "Karaman O",
+        "Boukherroub R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Resources and Environment, University of Electronic Science and Technology of China, P.O. Box 611731, Xiyuan Ave, Chengdu, PR China; Department of Chemical Engineering and Energy, Quchan University of Technology, Quchan, 9477177870, Iran; Department of Chemical Sciences, University of Johannesburg, Doornfontein Campus, 2028 Johannesburg, P.O. Box 17011, South Africa. Electronic address: h.karimi.maleh@gmail.com.",
+        "Research Laboratory of Advanced Water and Wastewater Treatment Processes, Department of Applied Chemistry, Faculty of Chemistry, University of Tabriz, 51666-16471, Tabriz, Iran; Department of Environmental Engineering, Gebze Technical University, 41400, Gebze, Turkey.",
+        "Department of Chemical Engineering and Energy, Quchan University of Technology, Quchan, 9477177870, Iran. Electronic address: fkm024@qiet.ac.ir.",
+        "Department of Chemistry, Faculty of Science, Hakim Sabzevari University, PO. Box 397, Sabzevar, Iran.",
+        "College of Materials and Environmental Engineering, Hangzhou Dianzi University, Hangzhou, 310018, PR China.",
+        "Faculty of Physics, University of Tabriz, Tabriz, 51566, Iran.",
+        "Akdeniz University, Department of Electricity and Energy, Antalya, 07070, Turkey. Electronic address: cerenkaraman@akdeniz.edu.tr.",
+        "Akdeniz University, Department of Medical Imaging Techniques, Antalya, 07070, Turkey.",
+        "Univ. Lille, CNRS, Centrale Lille, Univ. Polytechnique Hauts-de-France, UMR 8520 - IEMN, F-59000, Lille, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karimi-Maleh, Hassan",
+        "short_name": "Karimi-Maleh H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Resources and Environment, University of Electronic Science and Technology of China, P.O. Box 611731, Xiyuan Ave, Chengdu, PR China; Department of Chemical Engineering and Energy, Quchan University of Technology, Quchan, 9477177870, Iran; Department of Chemical Sciences, University of Johannesburg, Doornfontein Campus, 2028 Johannesburg, P.O. Box 17011, South Africa. Electronic address: h.karimi.maleh@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Khataee, Alireza",
+        "short_name": "Khataee A",
+        "identifiers": [],
+        "affiliations": [
+          "Research Laboratory of Advanced Water and Wastewater Treatment Processes, Department of Applied Chemistry, Faculty of Chemistry, University of Tabriz, 51666-16471, Tabriz, Iran; Department of Environmental Engineering, Gebze Technical University, 41400, Gebze, Turkey."
+        ]
+      },
+      {
+        "full_name": "Karimi, Fatemeh",
+        "short_name": "Karimi F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering and Energy, Quchan University of Technology, Quchan, 9477177870, Iran. Electronic address: fkm024@qiet.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Baghayeri, Mehdi",
+        "short_name": "Baghayeri M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Science, Hakim Sabzevari University, PO. Box 397, Sabzevar, Iran."
+        ]
+      },
+      {
+        "full_name": "Fu, Li",
+        "short_name": "Fu L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Materials and Environmental Engineering, Hangzhou Dianzi University, Hangzhou, 310018, PR China."
+        ]
+      },
+      {
+        "full_name": "Rouhi, Jalal",
+        "short_name": "Rouhi J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Physics, University of Tabriz, Tabriz, 51566, Iran."
+        ]
+      },
+      {
+        "full_name": "Karaman, Ceren",
+        "short_name": "Karaman C",
+        "identifiers": [],
+        "affiliations": [
+          "Akdeniz University, Department of Electricity and Energy, Antalya, 07070, Turkey. Electronic address: cerenkaraman@akdeniz.edu.tr."
+        ]
+      },
+      {
+        "full_name": "Karaman, Onur",
+        "short_name": "Karaman O",
+        "identifiers": [],
+        "affiliations": [
+          "Akdeniz University, Department of Medical Imaging Techniques, Antalya, 07070, Turkey."
+        ]
+      },
+      {
+        "full_name": "Boukherroub, Rabah",
+        "short_name": "Boukherroub R",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Lille, CNRS, Centrale Lille, Univ. Polytechnique Hauts-de-France, UMR 8520 - IEMN, F-59000, Lille, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemosphere"
+    ],
+    "journal_abbrev": [
+      "Chemosphere"
+    ],
+    "pub_date": "2022 Mar",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/21 06:00",
+    "fetched_at": "2026-09-20 06:32:34"
+  },
+  "links": {
+    "cites": [
+      "42633368",
+      "42409644",
+      "41993566",
+      "40649227",
+      "40558467",
+      "39847110",
+      "38577431",
+      "38576591",
+      "38574184",
+      "38248395",
+      "38173734",
+      "37998152",
+      "36852208",
+      "36832120",
+      "36832010",
+      "36710715",
+      "36438123",
+      "36385114",
+      "36339035",
+      "36291009",
+      "36140154",
+      "36092618",
+      "35915620",
+      "35893975",
+      "35757049",
+      "35729281",
+      "35677726",
+      "35646828",
+      "35601536",
+      "35591345",
+      "35590927",
+      "35457903",
+      "35288614",
+      "35200464",
+      "35155952",
+      "35096777",
+      "35071191",
+      "35056253",
+      "34960306"
+    ],
+    "refs": [],
+    "similar": [
+      "34800513",
+      "37343636",
+      "37816425",
+      "34488091",
+      "35427589",
+      "34357218",
+      "22421348",
+      "33819550",
+      "35490856",
+      "31159933",
+      "37146774",
+      "32563934",
+      "31049702",
+      "27040259",
+      "32632278",
+      "29156408",
+      "28870323",
+      "28189110",
+      "28343103",
+      "32974271",
+      "28577500",
+      "36368547",
+      "27818050",
+      "25222618",
+      "24863205",
+      "29447669",
+      "25281100",
+      "24364977",
+      "23953439",
+      "37818257",
+      "30184806",
+      "30064048",
+      "23502047",
+      "30144642",
+      "35425519",
+      "31432868",
+      "32559691",
+      "24984286",
+      "25966391",
+      "29759227",
+      "29096363",
+      "31924009",
+      "33524656",
+      "33195033",
+      "32014685",
+      "29881880",
+      "34785182",
+      "27956150",
+      "33792757",
+      "27973600",
+      "19635352",
+      "24967755",
+      "35952814",
+      "28917783",
+      "25022509",
+      "31317442",
+      "33587171",
+      "24997365",
+      "25281086",
+      "20152447",
+      "29471282",
+      "33120307",
+      "27295570",
+      "34904384",
+      "25924318",
+      "26148674",
+      "25281135",
+      "34762887",
+      "33285122",
+      "27992074",
+      "29862399",
+      "31059967",
+      "31358215",
+      "24315879",
+      "35009645",
+      "26478428",
+      "21858297",
+      "31122426",
+      "31735219",
+      "29680617",
+      "38751811",
+      "30218982",
+      "31655050",
+      "31122434",
+      "32993873",
+      "27112981",
+      "28587260",
+      "26238430",
+      "27649331",
+      "23452786",
+      "31277046",
+      "26592654",
+      "31546445",
+      "30094655",
+      "29573727",
+      "22790697",
+      "30019137",
+      "22561918",
+      "30708228",
+      "29759240",
+      "33386503",
+      "28027887",
+      "35333006",
+      "33524654",
+      "26249565",
+      "29775856",
+      "33165704",
+      "28843934",
+      "16487699",
+      "31550632",
+      "27154680",
+      "36470018",
+      "37377408",
+      "36433548",
+      "36509019",
+      "36700073",
+      "33121813",
+      "37741570",
+      "37980817",
+      "30150515",
+      "36122426",
+      "36979512",
+      "36651313",
+      "37011259",
+      "37753580",
+      "35856660",
+      "35468353",
+      "37972506",
+      "36339035",
+      "36808037",
+      "24572068",
+      "38947832",
+      "36683316",
+      "24991061",
+      "38832283",
+      "34946705",
+      "38313513",
+      "38483157",
+      "35479699",
+      "38667649",
+      "38087000",
+      "36403341",
+      "37636946",
+      "33929766",
+      "36154836",
+      "27879778",
+      "36551079",
+      "38173734",
+      "36234621",
+      "33584901",
+      "36920495",
+      "35714494",
+      "18354727",
+      "32489342",
+      "31998459",
+      "39181072"
+    ],
+    "review": [
+      "34800513",
+      "37377408"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0045-6535(21)03400-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

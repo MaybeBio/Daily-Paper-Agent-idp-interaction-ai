@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.27.581919",
+  "title": "Dock-and-lock binding of SxIP ligands is required for stable and selective EB1 interactions",
+  "authors": "Almeida T; Hargreaves E; Zech T; Barsukov I",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-29",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过溶液结构与动力学研究EB1的EBH结构域与无序SxIP配体的结合，提出两阶段‘dock-and-lock’机制模型，并设计突变增强亲和力，属于无序肽段介导的PPI机制建模，方法上结合实验与结构动态分析，对IDR互作机制建模有直接启发。",
+  "abstract": "<h4>SUMMARY</h4> End Binding protein 1 (EB1) is a key component of the signalling networks located at the plus ends of microtubules. It incorporates an N-terminal microtubule binding CH domain and the C-terminal EBH domain that interacts with the SxIP-containing sequences of other microtubule plus end tracking proteins (+TIPs). By using a series of SxIP containing peptides derived from the microtubule-actin cross-linking factor, MACF, we show that the SxIP motif itself binds to EBH with low affinity, and the full interaction requires contribution of the post-SxIP residues. Based on the solution structure and dynamics of the EBH/MACF complex we proposed a two-step ‘dock-and-lock’ model for the EBH interaction with targets, where the SxIP motif initially binds to a partially formed EBH pocket, which subsequently induces folding of the unstructured C-terminus and transition to the stable complex. We dissect contributions from different interactions into the binding and design MACF mutations of the post-SxIP region that enhance the affinity by two orders of magnitude, leading to a nanomolar interaction. We verify the enhanced recruitment of the mutated peptide to the dynamic plus ends of MTs in a live cell experiment. Our model explains EB1’s interaction with the SxIP-containing ligands and can be used to design of small molecule inhibitors that can block SxIP interaction with EB1.",
+  "abstract_zh": "<h4>摘要</h4> 末端结合蛋白1（EB1）是微管正端信号网络的关键组成部分。它包含一个N端微管结合CH结构域和一个C端EBH结构域，后者与其他微管正端追踪蛋白（+TIPs）中富含SxIP的序列相互作用。通过使用一系列源自微管-肌动蛋白交联因子MACF的含SxIP肽段，我们表明SxIP基序本身以低亲和力结合EBH，而完整相互作用需要post-SxIP残基的贡献。基于EBH/MACF复合物的溶液结构和动力学，我们提出了EBH与靶标相互作用的“对接-锁定”两步模型，其中SxIP基序最初结合到部分形成的EBH口袋，随后诱导无序C端折叠并过渡到稳定复合物。我们解析了不同相互作用对结合的贡献，并设计了post-SxIP区域的MACF突变，使亲和力提高两个数量级，达到纳摩尔级相互作用。我们在活细胞实验中验证了突变肽段向微管动态正端的增强招募。我们的模型解释了EB1与含SxIP配体的相互作用，并可用于设计阻断SxIP与EB1相互作用的小分子抑制剂。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.27.581919",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.27.581919",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.27.581919/index.html"
+}

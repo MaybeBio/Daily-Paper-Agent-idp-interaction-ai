@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "37705794",
+    "doi": "10.1039/d2na00847e",
+    "title": "DNA-protamine condensates under low salt conditions: molecular dynamics simulation with a simple coarse-grained model focusing on electrostatic interactions."
+  },
+  "content": {
+    "abstract": "Protamine, a small, strongly positively-charged protein, plays a key role in achieving chromatin condensation inside sperm cells and is also involved in the formulation of nanoparticles for gene therapy and packaging of mRNA-based vaccines against viral infection and cancer. The detailed mechanisms of such condensations are still poorly understood especially under low salt conditions where electrostatic interaction predominates. Our previous study, with a refined coarse-grained model in full consideration of the long-range electrostatic interactions, has demonstrated the crucial role of electrostatic interaction in protamine-controlled reversible DNA condensation. Therefore, we herein pay our attention only to the electrostatic interaction and devise a coarser-grained bead-spring model representing the right linear charge density on protamine and DNA chains but treating other short-range interactions as simply as possible, which would be suitable for real-scale simulations. Effective pair potential calculations and large-scale molecular dynamics simulations using this extremely simple model reproduce the phase behaviour of DNA in a wide range of protamine concentrations under low salt conditions, again revealing the importance of the electrostatic interaction in this process and providing a detailed nanoscale picture of bundle formation mediated by a charge disproportionation mechanism. Our simulations also show that protamine length alters DNA overcharging and in turn redissolution thresholds of DNA condensates, revealing the important role played by entropies and correlated fluctuations of condensing agents and thus offering an additional opportunity to design tailored nanoparticles for gene therapy. The control mechanism of DNA-protamine condensates will also provide a better microscopic picture of biomolecular condensates, i.e., membraneless organelles arising from liquid-liquid phase separation, that are emerging as key principles of intracellular organization. Such condensates controlled by post-translational modification of protamine, in particular phosphorylation, or by variations in protamine length from species to species may also be responsible for the chromatin-nucleoplasm patterning observed during spermatogenesis in several vertebrate and invertebrate species.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jang, Yun Hee",
+        "Raspaud, Eric",
+        "Lansac, Yves"
+      ],
+      "short_names": [
+        "Jang YH",
+        "Raspaud E",
+        "Lansac Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6604-5813",
+        "ORCID: 0000-0002-3955-417X"
+      ],
+      "affiliations": [
+        "GREMAN UMR 7347, Universite de Tours, CNRS, INSA CVL 37200 Tours France lansac@univ-tours.fr.",
+        "Department of Energy Science and Engineering, DGIST Daegu 42988 Korea yhjang@dgist.ac.kr.",
+        "Laboratoire de Physique des Solides, CNRS UMR 8502, Universite Paris-Saclay 91405 Orsay France.",
+        "Laboratoire de Physique des Solides, CNRS UMR 8502, Universite Paris-Saclay 91405 Orsay France.",
+        "GREMAN UMR 7347, Universite de Tours, CNRS, INSA CVL 37200 Tours France lansac@univ-tours.fr.",
+        "Department of Energy Science and Engineering, DGIST Daegu 42988 Korea yhjang@dgist.ac.kr.",
+        "Laboratoire de Physique des Solides, CNRS UMR 8502, Universite Paris-Saclay 91405 Orsay France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jang, Yun Hee",
+        "short_name": "Jang YH",
+        "identifiers": [
+          "0000-0002-6604-5813"
+        ],
+        "affiliations": [
+          "GREMAN UMR 7347, Université de Tours, CNRS, INSA CVL 37200 Tours France lansac@univ-tours.fr.",
+          "Department of Energy Science and Engineering, DGIST Daegu 42988 Korea yhjang@dgist.ac.kr.",
+          "Laboratoire de Physique des Solides, CNRS UMR 8502, Université Paris-Saclay 91405 Orsay France."
+        ]
+      },
+      {
+        "full_name": "Raspaud, Eric",
+        "short_name": "Raspaud E",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Physique des Solides, CNRS UMR 8502, Université Paris-Saclay 91405 Orsay France."
+        ]
+      },
+      {
+        "full_name": "Lansac, Yves",
+        "short_name": "Lansac Y",
+        "identifiers": [
+          "0000-0002-3955-417X"
+        ],
+        "affiliations": [
+          "GREMAN UMR 7347, Université de Tours, CNRS, INSA CVL 37200 Tours France lansac@univ-tours.fr.",
+          "Department of Energy Science and Engineering, DGIST Daegu 42988 Korea yhjang@dgist.ac.kr.",
+          "Laboratoire de Physique des Solides, CNRS UMR 8502, Université Paris-Saclay 91405 Orsay France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nanoscale advances"
+    ],
+    "journal_abbrev": [
+      "Nanoscale Adv"
+    ],
+    "pub_date": "2023 Sep 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/14 06:43",
+    "fetched_at": "2026-09-21 01:19:29"
+  },
+  "links": {
+    "cites": [
+      "41902470",
+      "41557508",
+      "40977604",
+      "40170351",
+      "38932164"
+    ],
+    "refs": [
+      "36168289",
+      "35547817",
+      "35019395",
+      "34328301",
+      "34200384",
+      "34198550",
+      "33593376",
+      "33333019",
+      "33319830",
+      "32804028",
+      "32684431",
+      "32040349",
+      "31753533",
+      "31543265",
+      "31437398",
+      "31168090",
+      "30720315",
+      "30367165",
+      "29569441",
+      "28829607",
+      "28556382",
+      "28225081",
+      "26912166",
+      "26801044",
+      "26791895",
+      "25872804",
+      "25262620",
+      "24943246",
+      "24161501",
+      "23921513",
+      "23669356",
+      "22455499",
+      "22246071",
+      "21443489",
+      "21230102",
+      "20638406",
+      "20359532",
+      "20304804",
+      "19954842",
+      "19830786",
+      "19470490",
+      "18991564",
+      "17903313",
+      "17206817",
+      "17145959",
+      "17026207",
+      "16089714",
+      "15853876",
+      "15731355",
+      "15612004",
+      "15447308",
+      "14768059",
+      "14507678",
+      "12898639",
+      "12743711",
+      "12450371",
+      "11970478",
+      "11772466",
+      "11734630",
+      "11326265",
+      "11159388",
+      "10506559",
+      "10390541",
+      "9449338",
+      "9349433",
+      "8621482",
+      "8185929",
+      "7198042",
+      "7023566",
+      "3790536",
+      "3680288",
+      "2031084",
+      "353876"
+    ],
+    "similar": [
+      "37705794",
+      "34328301",
+      "23912807",
+      "37721444",
+      "36227470",
+      "38287572",
+      "33376791",
+      "39071308",
+      "37668019",
+      "33629837",
+      "37252985",
+      "39398199",
+      "39044475",
+      "36272811",
+      "37645312",
+      "37194953",
+      "14990583",
+      "31484749",
+      "35501484",
+      "34023297",
+      "34422830",
+      "36314101",
+      "7696459",
+      "26575522",
+      "17949219",
+      "38502252",
+      "29161026",
+      "33453922",
+      "33496264",
+      "35881789",
+      "34200384",
+      "21074621",
+      "33087563",
+      "33640380",
+      "18991564",
+      "36594499",
+      "21361530",
+      "37408305",
+      "33597515",
+      "27486996",
+      "33676231",
+      "25273470",
+      "36595668",
+      "36040869",
+      "28448145",
+      "23595102",
+      "32405004",
+      "34533560",
+      "22342332",
+      "11159388",
+      "30971720",
+      "36279601",
+      "37006777",
+      "34352244",
+      "27981335",
+      "22789106",
+      "36227468",
+      "35867936",
+      "19289035",
+      "34412211",
+      "29316621",
+      "32548680",
+      "36227486",
+      "19425537",
+      "37191356",
+      "33113512",
+      "29780992",
+      "37685957",
+      "37287828",
+      "35549018",
+      "39319382",
+      "32936641",
+      "32169215",
+      "26956528",
+      "32101441",
+      "18688358",
+      "36758221",
+      "37159305",
+      "37873180",
+      "25383990",
+      "37468629",
+      "37886520",
+      "39413416",
+      "35378855",
+      "36819870",
+      "38961263",
+      "31261873",
+      "38106194"
+    ],
+    "review": [
+      "37705794",
+      "26575522",
+      "34200384",
+      "36279601",
+      "32548680"
+    ],
+    "pmc": [
+      "10496769"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37705794/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d2na00847e",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37705794",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

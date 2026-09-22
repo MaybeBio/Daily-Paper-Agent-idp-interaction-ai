@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods details, or supplementary material were provided
+- **Shared manuscript claim summary** The authors present two thermodynamic integration (TI) schemes that, combined with Direct Coexistence simulations and the Mpipi-Recharged coarse-grained model, enable accurate calculation of saturation concentrations (C(sat)) and phase diagrams for a range of intrinsically disordered and multidomain proteins, including disease-associated RNA- and DNA-binding proteins and engineered mutants of hnRNPA1. They compare these methods against a machine-learning predictor and argue that explicit molecular dynamics simulations provide complete phase diagrams and mechanistic insight, offering a physically grounded framework for improving coarse-grained models.
+- **Visible evidence base** Abstract text only; no numerical results, figures, tables, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, error analysis, comparison datasets, machine-learning predictor details, and any validation against experimental measurements
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable methodological advance for computing saturation concentrations in biomolecular phase separation simulations. The motivation is clear and the problem is well recognized in the field. However, the abstract alone provides insufficient evidence to evaluate the accuracy, robustness, or novelty of the proposed TI schemes. Key quantitative claims are made without supporting data, and the comparison to machine learning is described only superficially. The work may be of interest to the computational biophysics and biomolecular condensate communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, coarse-grained modeling, and biomolecular condensate biology would be interested. The methods address a known limitation in simulating dilute-phase concentrations, which is relevant for connecting simulations to experimental measurements of phase behavior. The inclusion of disease-associated proteins and engineered mutants broadens potential interest to those studying stress granules, P granules, and related pathologies.
+- **Major strengths** The problem addressed is important and well defined. The proposed combination of TI with Direct Coexistence simulations is a reasonable strategy to overcome poor statistics in the dilute phase. The scope of test systems, including disease-associated and engineered proteins, suggests potential for broad applicability. The comparison with a machine-learning predictor is a useful framing for benchmarking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the TI schemes "enable accurate calculation of saturation concentrations and phase diagrams" and "accurately estimate C(sat)" for a broad range of proteins.
+  - **Evidence pointer** Abstract only; no figures, tables, or numerical results provided
+  - **Concern** The central quantitative claim of accuracy is not supported by any visible data. No error metrics, comparison to experimental values, or statistical measures are presented. The term "accurate" is used without definition or context.
+  - **Why it matters** The entire value proposition of the work rests on the demonstrated accuracy of the TI methods. Without quantitative evidence, the claim is unverifiable and the methodological advance cannot be assessed.
+  - **Resolution test** Provide figures or tables showing computed C(sat) values against experimental measurements for the tested proteins, including error bars and statistical uncertainties. Define the accuracy metric used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract states that "two independent thermodynamic integration schemes" are presented and combined with Direct Coexistence simulations.
+  - **Evidence pointer** Abstract only; no methodological details provided
+  - **Concern** The nature of the two TI schemes is not described. It is unclear how they differ, how they are integrated with Direct Coexistence, what thermodynamic paths are used, or how free energies are extracted. Without this information, the methods cannot be evaluated for correctness or reproducibility.
+  - **Why it matters** Reproducibility is a core requirement for methodological papers. The lack of any methodological detail prevents assessment of the approach and limits its potential adoption.
+  - **Resolution test** Provide a clear description of both TI schemes, including the thermodynamic integration paths, the Hamiltonian or potential energy scaling used, and the protocol for combining with Direct Coexistence simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative validity
+  - **Claim pointer** The abstract claims that the TI methods are compared against a machine-learning predictor and that "both approaches yield realistic predictions," but that explicit simulations provide complete phase diagrams and mechanistic insight.
+  - **Evidence pointer** Abstract only; no comparison data or predictor details provided
+  - **Concern** The comparison with the machine-learning predictor is described only qualitatively. No metrics, datasets, or conditions of comparison are given. The claim that both approaches yield "realistic" predictions is not substantiated. The stated advantage of explicit simulations is asserted but not demonstrated.
+  - **Why it matters** The comparison is presented as a key contribution, but without quantitative benchmarking, the relative merits of the two approaches cannot be assessed. The claim of superiority for explicit simulations in providing mechanistic insight is not evidenced.
+  - **Resolution test** Provide a quantitative comparison of C(sat) predictions from both methods against experimental data, including the training and test sets for the machine-learning predictor, and show examples of phase diagrams and mechanistic insights from the simulations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** Range of tested proteins
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract lists "a broad range of intrinsically disordered and multidomain proteins" but does not specify how many proteins were tested or the diversity of sequences and conditions.
+  - **Required correction** Specify the number and types of proteins tested, and the range of solution conditions explored.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of "accurate"
+  - **Evidence pointer** Abstract only
+  - **Issue** The term "accurate" is used without a quantitative threshold or comparison standard.
+  - **Required correction** Define the accuracy criterion, such as agreement with experimental C(sat) within a specified factor or percentage.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Contextual framing
+  - **Affected element** Comparison to gold standard
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract states that Direct Coexistence alone yields poor estimates but does not quantify the improvement offered by the TI methods.
+  - **Required correction** Provide a direct comparison of C(sat) values from Direct Coexistence alone versus with the TI schemes, to demonstrate the magnitude of improvement.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and comparative data means the core claims are not currently verifiable.
+- **Assessment against Nature-style criteria** Originality: The idea of using TI to compute saturation concentrations is plausible and may be novel, but the abstract does not establish novelty relative to existing free-energy methods for phase separation. Scientific importance: The problem is important, and a robust method would be valuable, but importance is not demonstrated without evidence of broad applicability and accuracy. Interdisciplinary readership: The work could appeal to computational chemists, biophysicists, and cell biologists studying condensates, but the abstract is too technical and lacks accessible framing for nonspecialists. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail is a significant barrier. Readability for nonspecialists: The abstract is reasonably clear in motivation but assumes familiarity with coarse-grained models and simulation methods.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising approach, but the absence of quantitative results, methodological detail, and comparative validation prevents any assessment of the claims. A full manuscript with figures, tables, and methods would be required to evaluate the work.
+
+## Risk / unsupported claims
+- The claim that the TI schemes "enable accurate calculation" of C(sat) is unsupported without quantitative data.
+- The claim that the methods "accurately estimate C(sat) for a broad range" of proteins is unsupported without a list of proteins and comparison to experiments.
+- The claim that both TI and machine-learning approaches yield "realistic predictions" is unsupported without comparative metrics.
+- The claim that explicit simulations "provide insight into the molecular mechanisms" is asserted but not demonstrated.
+- The claim that the approach "offers a robust, physically grounded framework" is a general statement not backed by evidence in the abstract.

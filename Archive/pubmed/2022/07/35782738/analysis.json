@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35782738",
+  "title": "KDM6A missense variants hamper H3 histone demethylation in lung squamous cell carcinoma.",
+  "authors": "Biagini, Tommaso; Petrizzelli, Francesco; Bianco, Salvatore Daniele; Liorni, Niccolo; Napoli, Alessandro; Castellana, Stefano; Luigi Vescovi, Angelo; Carella, Massimo; Caputo, Viviana; Mazza, Tommaso",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2022-07-06",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究KDM6A错义突变对组蛋白H3去甲基化催化机制的影响，涉及蛋白-底物互作，但对象为折叠酶与组蛋白，非无序蛋白/IDR/相分离，且无AI或物理模拟方法，与本课题关联微弱。",
+  "abstract": "KDM6A is the disease causative gene of type 2 Kabuki Syndrome, a rare multisystem disease; it is also a known cancer driver gene, with multiple somatic mutations found in a few cancer types. In this study, we looked at eleven missense variants in lung squamous cell carcinoma, one of the most common lung cancer subtypes, to see how they affect the KDM6A catalytic mechanisms. We found that they influence the interaction with histone H3 and the exposure of the trimethylated Lys27, which is critical for wild-type physiological function to varying degrees, by altering the conformational transition.",
+  "abstract_zh": "KDM6A是2型歌舞伎综合征（一种罕见的多系统疾病）的致病基因；它也是已知的癌症驱动基因，在少数癌症类型中发现了多个体细胞突变。在本研究中，我们考察了肺鳞状细胞癌（最常见的肺癌亚型之一）中的十一个错义变异，以了解它们如何影响KDM6A的催化机制。我们发现，这些变异通过改变构象转变，在不同程度上影响了与组蛋白H3的相互作用以及三甲基化Lys27的暴露，而后者对野生型生理功能至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35782738/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35782738/",
+  "paper_page_path": "papers/pubmed/35782738/index.html"
+}

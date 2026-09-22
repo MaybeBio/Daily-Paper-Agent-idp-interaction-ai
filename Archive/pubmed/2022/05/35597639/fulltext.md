@@ -1,0 +1,5 @@
+# Multiphase organization is a second phase transition within multi-component biomolecular condensates
+
+
+## Abstract
+  We present a mean-field theoretical model, along with molecular dynamics simulations, to show that the multiphase organization of multi-component condensates is a second phase transition. Whereas the first phase transition that leads to the separation of condensates from the bulk phase is driven by the overall attraction among the macromolecular components, the second phase transition can be driven by the disparity in the strength between the self- and cross-species attraction. At a fixed level of disparity in interaction strengths, both of the phase transitions can be observed by decreasing the temperature, leading first to the separation of condensates from the bulk phase and then to component demixing inside condensates. The existence of a critical temperature for demixing and predicted binodals are verified by molecular dynamics simulations of model mixtures.

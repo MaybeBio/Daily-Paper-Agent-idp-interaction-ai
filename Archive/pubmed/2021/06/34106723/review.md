@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that systematic single mutations in squid-beak derived histidine- and tyrosine-rich peptides (HBpeps) identify specific "sticker" residues near sequence termini that drive liquid-liquid phase separation (LLPS). They combine quantum chemistry simulations, NMR, and all-atom molecular dynamics to predict atomic-level bond geometries, inter-residue supramolecular interactions, and possible chain topologies that stabilize microdroplets. They propose that these findings provide guidelines for de novo design of peptide coacervates and may inform therapeutic encapsulation and controlled release.
+- **Visible evidence base** Abstract text only; no experimental or computational data, figures, tables, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation parameters, NMR data, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely study on sequence-specific drivers of LLPS in short model peptides, with a clear progression from experimental mutation screening to computational structural prediction. However, the abstract alone does not provide sufficient detail to evaluate the rigor of the methods, the robustness of the conclusions, or the validity of the proposed topological models. Several claims, particularly those regarding atomic-level bond geometries and the stability of proposed topologies, cannot be assessed without access to the underlying data and analysis. The work may be of interest to researchers in biomolecular condensates, peptide materials, and computational biophysics, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and LLPS mechanisms, particularly those focused on sequence determinants and sticker-residue models; investigators in peptide and protein materials science interested in coacervate design; computational chemists and biophysicists working on molecular dynamics and quantum chemistry of peptide interactions; and drug delivery researchers exploring peptide-based encapsulation systems.
+- **Major strengths** The study addresses a relevant and timely question about atomic-level drivers of LLPS in short peptides. The systematic single-mutation approach is a logical and powerful strategy to identify specific residues governing phase behavior. The integration of experimental (NMR) and computational (quantum chemistry, molecular dynamics) methods is commendable and potentially provides a multi-scale view from bond geometry to chain topology. The potential translational implications for drug delivery add broader relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that combining quantum chemistry simulations with NMR studies allows prediction of atomic-level bond geometries and identification of inter-residue supramolecular interactions governing LLPS.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that quantum chemistry and NMR are combined to predict bond geometries and supramolecular interactions, but no details are given on the level of theory, basis sets, NMR observables used, or how the two methods were integrated. Without this information, it is impossible to judge whether the predicted geometries are reliable or whether the NMR data actually constrain the computational models.
+  - **Why it matters** The central mechanistic claim of the study rests on the accuracy of these predicted atomic-level interactions. If the computational methodology is not robust or the NMR constraints are weak, the proposed interaction nodes and bond geometries may be speculative, undermining the entire structural interpretation.
+  - **Resolution test** Provide details on the quantum chemistry method (e.g., DFT functional, basis set, solvation model), the NMR experiments (e.g., chemical shift perturbations, NOEs, relaxation data), and a clear description of how NMR data were used to validate or refine the computational predictions. Show quantitative agreement between predicted and observed NMR observables.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that all-atom molecular dynamics simulations predict chain topologies that are more likely to stabilize the microdroplets.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the force field, simulation length, system size, or how "stability" was assessed (e.g., free energy calculations, contact persistence, cluster analysis). Without these details, the claim that certain topologies are "more likely to stabilize" the droplets is not verifiable.
+  - **Why it matters** The proposed topological arrangements are a key conceptual output of the study and are used to explain the three-dimensional network of microdroplets. If the simulation methodology is inadequate or the stability criterion is ill-defined, the topological conclusions may not be robust.
+  - **Resolution test** Specify the simulation protocol, including force field, water model, salt conditions, simulation time, and replica or sampling strategy. Define the metric used to assess topological stability and show that the results are converged and reproducible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the identified sticker residues and proposed topologies provide useful guidelines for de novo design of peptide coacervates with tunable phase behavior and material properties.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any demonstration that the identified sequence rules are generalizable beyond the specific HBpep system studied. No data are shown on whether mutations at other positions or in different sequence contexts produce predictable changes in phase behavior.
+  - **Why it matters** The claim of design guidelines implies a predictive framework. Without evidence of generality or validation on additional peptide sequences, the guidelines may be limited to the specific peptides tested and may not transfer to other coacervate systems.
+  - **Resolution test** Provide data on additional peptide variants or show that the identified sticker residues can be used to predictably modulate phase behavior in a test set of designed sequences. Alternatively, clearly limit the claim to the HBpep system and avoid overgeneralization.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "sticker residues" is used without definition. While familiar to LLPS researchers, it may be unclear to readers from other fields.
+  - **Required correction** Define "sticker residues" on first use, for example as residues that form specific inter-chain interactions driving phase separation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Translational claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that the analysis "may pave the way" for therapeutic encapsulation and controlled release is speculative and not supported by any data in the abstract.
+  - **Required correction** Soften the language to indicate a potential future direction rather than an implication of the current results, or remove the claim if not addressed in the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Method integration
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that quantum chemistry and NMR are "combined" but does not clarify whether this is a sequential or iterative process, or whether the two methods are used independently and compared.
+  - **Required correction** Clarify the relationship between the computational and experimental approaches in the abstract or methods summary.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic and topological claims cannot be evaluated without methodological detail. R1-M3 is blocking because the design guideline claim requires evidence of generality. These must be resolved with additional data or by tempering the claims.
+- **Assessment against Nature-style criteria** Originality: The study appears to address a specific and relatively underexplored question about short His/Tyr-rich peptides, which is a niche but potentially original contribution. Scientific importance: The findings may be relevant to LLPS mechanisms and peptide material design, but the significance is not fully established from the abstract alone. Interdisciplinary readership: The work bridges biophysics, materials science, and computational chemistry, which could attract a broad audience, but the abstract does not clearly frame the findings for nonspecialists. Technical soundness: Not assessable from the abstract; the lack of methodological detail is a major limitation. Readability for nonspecialists: The abstract is generally clear but uses field-specific jargon without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential merit, but the abstract alone does not provide sufficient methodological or quantitative detail to support the central claims. A supportive recommendation would require access to the full manuscript and resolution of the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that specific His and Tyr residues near sequence termini "drive" phase separation is unsupported without quantitative data on phase behavior for each mutant.
+- The prediction of atomic-level bond geometries is unsupported without details on the quantum chemistry methods and NMR constraints.
+- The proposed topological arrangements and their stability are unsupported without simulation protocol details.
+- The claim of design guidelines for tunable coacervates is unsupported without evidence of generality beyond the studied peptides.
+- The implication for therapeutic encapsulation and controlled release is speculative and unsupported by any data in the abstract.

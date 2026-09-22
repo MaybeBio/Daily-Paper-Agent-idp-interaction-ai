@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.15.618463",
+  "title": "Structural organization of p62 filaments and the cellular ultrastructure of calcium-rich p62-enwrapped lipid droplet cargo",
+  "authors": "Berkamp S; jungbluth L; Katranidis A; Mostafavi S; Korculanin O; Lu P; Sharma L; Thukral L; Fitter J; Dunin-Borkowski RE; Sachse C",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-15",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过冷冻电镜解析p62/SQSTM1全长丝状结构及其在LC3/多聚泛素结合下的重排，并原位观察p62寡聚体包裹脂滴的细胞超微结构，虽聚焦自噬受体而非典型IDP-PPI机制建模，但涉及无序区域介导的丝状组装与相分离相关互作，对IDR介导互作的结构机制研究有参考价值。",
+  "abstract": "The selective autophagy receptor p62/SQSTM1 (from hereon p62) is known to form higher-order filaments in vitro and to undergo liquid-liquid phase separation when mixed with poly-ubiquitin. We determined the full-length cryo-EM structure of p62 and elucidated a structured double helical filament scaffold composed of the PB1-domain associated with the flexible C-terminal part residing in the lumen and the solvent-accessible major groove. At different pH values and upon binding to soluble LC3, LC3-conjugated membranes and poly-ubiquitin, we observed p62 filament re-arrangements in the form of structural unwinding, disassembly, lateral association and bundling, respectively. In the cellular environment, under conditions of ATG5 knockdown leading to stalled autophagy, we imaged high-contrast layers consisting of p62 oligomers enwrapping lipid droplets by cryogenic electron tomography in cellulo, which we identified as calcium phosphate by compositional spectroscopy analysis. Together, we visualized the cellular ultrastructure of p62 oligomers with high calcium content as a potential intermediate step of autophagy initiation.",
+  "abstract_zh": "选择性自噬受体p62/SQSTM1（以下简称p62）已知在体外形成高阶丝状结构，并与多聚泛素混合时发生液-液相分离 (liquid-liquid phase separation)。我们解析了p62的全长冷冻电镜 (cryo-EM) 结构，阐明了一个由PB1结构域组成的结构化双螺旋丝状支架，其柔性的C端部分位于腔内，而溶剂可及的大沟暴露在外。在不同pH值条件下，以及结合可溶性LC3、LC3偶联膜和多聚泛素时，我们观察到p62丝状结构分别以结构解旋、解聚、侧向关联和成束的形式发生重排。在细胞环境中，在ATG5敲低导致自噬停滞的条件下，我们通过细胞原位冷冻电子断层扫描 (cryogenic electron tomography in cellulo) 成像了由p62寡聚体包裹脂滴的高对比度层状结构，并通过成分光谱分析将其鉴定为磷酸钙。综合来看，我们可视化了具有高钙含量的p62寡聚体的细胞超微结构，作为自噬启动的潜在中间步骤。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.15.618463",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.15.618463",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.15.618463/index.html"
+}

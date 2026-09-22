@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors investigate the role of transient electrostatic interactions between charged regions of the intrinsically disordered C-terminal tail of Fcp1 and its predominantly basic partner, the winged helix domain of Rap74. Using paramagnetic relaxation enhancement (PRE), they observe both intramolecular interactions within unbound Fcp1 and intermolecular interactions in the Fcp1-Rap74 complex, consistent with association of oppositely charged regions. They report that complex formation is driven primarily by hydrophobic interactions in the minimal binding motif, and they test the hypothesis that flanking charged residues contribute to binding strength. Charge inversion mutations generally support this hypothesis, while PRE data suggest that transient intramolecular interactions in the unbound ensemble are replaced by similarly transient intermolecular interactions with Rap74 in the complex.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, figures, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, mutation details, quantitative binding data, PRE data analysis, and statistical assessments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting hypothesis regarding the role of transient electrostatic interactions in an IDP complex, with a reasonable experimental approach using PRE and charge inversion mutations. However, the abstract alone provides insufficient quantitative evidence to evaluate the strength of the claims. The central tension between the observation of electrostatic interactions and the minimal impact on binding affinity is intriguing but not fully resolved in the presented text. The work may be of interest to the IDP and biophysics communities, but the case for the specific conclusions is not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those interested in the role of electrostatic interactions in modulating binding mechanisms, will find this work relevant. The study also speaks to the broader community investigating how transient, non-specific interactions contribute to the thermodynamics and kinetics of protein-protein interactions, and to those using paramagnetic relaxation enhancement to characterize conformational ensembles of IDPs.
+- **Major strengths** The study addresses a timely and important question about the functional role of charged residues in IDPs, which is often assumed but rarely tested directly. The use of PRE to observe both intramolecular and intermolecular transient interactions is a technically appropriate approach. The design of charge inversion mutations to test the electrostatic contribution to binding is a logical and direct experimental strategy. The finding that hydrophobic interactions dominate binding while electrostatic interactions bias the conformational ensemble is a nuanced and potentially valuable insight.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that charge inversion mutations in Fcp1 generally support the hypothesis that flanking charged residues contribute to binding strength.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract states that charge inversion mutations "generally support" the hypothesis, but no quantitative data are provided. It is unclear how many mutations were tested, what the magnitude of the effects on binding affinity was, and whether the effects were statistically significant. The phrase "generally support" is ambiguous and could mask substantial variability or exceptions.  
+  - **Why it matters** The central hypothesis of the paper is that charged residues flanking the binding helix contribute to binding strength. If the mutational data are not robust or are inconsistent, the main claim is weakened. Without quantitative binding affinities and error estimates, the reader cannot assess the strength of the support.  
+  - **Resolution test** Provide a table or figure with binding affinities (e.g., Kd values) for wild-type and each charge inversion mutant, including replicates and statistical significance. Clearly state how many mutants supported the hypothesis and how many did not, and discuss any outliers.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim-evidence alignment  
+  - **Claim pointer** The abstract claims that PRE data suggest substitution of observed transient intramolecular interactions in the unbound ensemble for similarly transient intermolecular interactions with Rap74 in the complex.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The claim of "substitution" of intramolecular for intermolecular interactions is a strong mechanistic interpretation. The abstract does not provide any quantitative comparison of PRE data between the unbound and bound states, nor does it explain how the authors distinguished between loss of intramolecular contacts and gain of intermolecular contacts. The word "suggest" is appropriately cautious, but the evidence base for this specific conclusion is not visible.  
+  - **Why it matters** This is a key mechanistic conclusion that distinguishes the work from a simple demonstration of electrostatic interactions. If the PRE data do not clearly show a compensatory exchange of interactions, the interpretation may be overreaching.  
+  - **Resolution test** Show representative PRE data for unbound Fcp1 and the Fcp1-Rap74 complex, with quantitative analysis of distance restraints or intensity ratios. Provide a clear comparison demonstrating that intramolecular contacts are lost while intermolecular contacts are gained, with appropriate controls.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scope of conclusion  
+  - **Claim pointer** The abstract concludes that transient electrostatic interactions bias the conformational ensemble of the complex with minimal impact on binding affinity.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The title and abstract emphasize the "minimal impact on binding affinity," but the abstract does not provide any quantitative binding affinity data for the wild-type complex or for the mutants. The claim of minimal impact is therefore not directly supported by visible evidence.  
+  - **Why it matters** The title makes this a central claim of the paper. If the binding affinity data are not presented or are not robust, the title may overstate the findings.  
+  - **Resolution test** Provide quantitative binding affinities for the wild-type complex and for the charge inversion mutants, with appropriate statistical analysis, to demonstrate that the effects on affinity are indeed minimal.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract does not specify the number of charge inversion mutations tested or the specific residues that were mutated.  
+  - **Required correction** Include the number of mutants and the specific positions mutated, or refer to a figure or table in the full text.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Methodological detail  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract mentions PRE but does not specify which nuclei were used for detection (e.g., 1H, 15N, 13C) or the paramagnetic tag used.  
+  - **Required correction** Add a brief mention of the PRE approach, including the paramagnetic label and the detected nuclei, or refer to the methods section.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The term "bias the conformational ensemble" is used without a clear definition of what conformational change is being biased.  
+  - **Required correction** Clarify what specific conformational property is affected (e.g., population of a particular bound-state conformation, orientation of the binding helix, or dynamics of the flanking regions).
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of the paper, namely the contribution of charged residues to binding strength and the substitution of intramolecular for intermolecular interactions, are not supported by quantitative evidence visible in the abstract. R1-M3 is non-blocking but should be addressed to align the title with the presented evidence.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The work addresses a question that is relevant and timely, but the concept that electrostatic interactions modulate IDP binding is not entirely new. The specific system and the use of PRE to observe transient interactions may offer a fresh perspective.  
+  - **Scientific importance** The findings could be of interest to the IDP community, but the abstract does not demonstrate a broad conceptual advance that would elevate the importance beyond a specialized audience.  
+  - **Interdisciplinary readership** The work is likely to appeal primarily to biophysicists and biochemists studying protein interactions and IDPs. The abstract does not suggest a broader interdisciplinary reach.  
+  - **Technical soundness** The use of PRE and charge inversion mutations is appropriate, but the abstract does not provide enough detail to assess the rigor of the experiments or the analysis.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses specialized terminology (e.g., PRE, IDP, winged helix domain) without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible approach, but the quantitative evidence needed to support the central claims is not visible. The authors should provide detailed binding data and PRE analysis to substantiate the conclusions. If the full manuscript contains the necessary quantitative support, the work could be considered for publication in a specialized biophysics journal, but the case is not made from the abstract alone.
+
+## Risk / unsupported claims
+- The claim that charge inversion mutations "generally support" the hypothesis is unsupported without quantitative binding data.
+- The claim that PRE data suggest substitution of intramolecular for intermolecular interactions is unsupported without quantitative comparison of PRE data.
+- The claim of "minimal impact on binding affinity" is unsupported without binding affinity values.
+- The relative contributions of hydrophobic versus electrostatic interactions to binding are stated but not quantitatively supported in the abstract.

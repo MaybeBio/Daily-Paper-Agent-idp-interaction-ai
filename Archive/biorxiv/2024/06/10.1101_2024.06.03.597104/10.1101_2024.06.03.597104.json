@@ -1,0 +1,147 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.03.597104",
+  "title": "Direct prediction of intermolecular interactions driven by disordered regions",
+  "doi": "10.1101/2024.06.03.597104",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically disordered regions (IDRs) are critical for a wide variety of cellular functions, many of which involve interactions with partner proteins. Molecular recognition is typically considered through the lens of sequence-specific binding events. However, a growing body of work has shown that IDRs often interact with partners in a manner that does not depend on the precise order of the amino acid order, instead driven by complementary chemical interactions leading to disordered bound-state complexes. Despite this emerging paradigm, we lack tools to describe, quantify, predict, and interpret these types of structurally heterogeneous interactions from the underlying amino acid sequences. Here, we repurpose the chemical physics developed originally for molecular simulations to develop an approach for predicting intermolecular interactions between IDRs and partner proteins. Our approach enables the direct prediction of phase diagrams, the identification of chemically-specific interaction hotspots on IDRs, and a route to develop and test mechanistic hypotheses regarding IDR function in the context of molecular recognition. We use our approach to examine a range of systems and questions to highlight its versatility and applicability.",
+  "authors": [
+    "Ginell GM",
+    "Emenecker RJ",
+    "Lotthammer JM",
+    "Usher ET",
+    "Holehouse AS"
+  ],
+  "published_date": "2024-06-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.03.597104",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.03.597104.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR861091",
+    "raw_record": {
+      "id": "PPR861091",
+      "source": "PPR",
+      "doi": "10.1101/2024.06.03.597104",
+      "title": "Direct prediction of intermolecular interactions driven by disordered regions",
+      "authorString": "Ginell GM, Emenecker RJ, Lotthammer JM, Usher ET, Holehouse AS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ginell GM",
+            "lastName": "Ginell",
+            "firstName": "Garrett",
+            "initials": "GM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6511-5480"
+            }
+          },
+          {
+            "fullName": "Emenecker RJ",
+            "lastName": "Emenecker",
+            "firstName": "Ryan.",
+            "initials": "RJ"
+          },
+          {
+            "fullName": "Lotthammer JM",
+            "lastName": "Lotthammer",
+            "firstName": "Jeffrey",
+            "initials": "JM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5022-7006"
+            }
+          },
+          {
+            "fullName": "Usher ET",
+            "lastName": "Usher",
+            "firstName": "Emery",
+            "initials": "ET"
+          },
+          {
+            "fullName": "Holehouse AS",
+            "lastName": "Holehouse",
+            "firstName": "Alex",
+            "initials": "AS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4155-5729"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6511-5480"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4155-5729"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5022-7006"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Intrinsically disordered regions (IDRs) are critical for a wide variety of cellular functions, many of which involve interactions with partner proteins. Molecular recognition is typically considered through the lens of sequence-specific binding events. However, a growing body of work has shown that IDRs often interact with partners in a manner that does not depend on the precise order of the amino acid order, instead driven by complementary chemical interactions leading to disordered bound-state complexes. Despite this emerging paradigm, we lack tools to describe, quantify, predict, and interpret these types of structurally heterogeneous interactions from the underlying amino acid sequences. Here, we repurpose the chemical physics developed originally for molecular simulations to develop an approach for predicting intermolecular interactions between IDRs and partner proteins. Our approach enables the direct prediction of phase diagrams, the identification of chemically-specific interaction hotspots on IDRs, and a route to develop and test mechanistic hypotheses regarding IDR function in the context of molecular recognition. We use our approach to examine a range of systems and questions to highlight its versatility and applicability.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.06.03.597104"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.03.597104"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-06-05",
+      "firstPublicationDate": "2024-06-03",
+      "firstIndexDate": "2024-06-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

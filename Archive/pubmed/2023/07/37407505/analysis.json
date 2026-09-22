@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37407505",
+  "title": "Exploring Intra- and Inter-Regional Interactions in the IDP alpha-Synuclein Using smFRET and MD Simulations.",
+  "authors": "Heesink, Gobert; Marseille, Mirjam J; Fakhree, Mohammad A A; Driver, Mark D; van Leijenhorst-Groener, Kirsten A; Onck, Patrick R; Blum, Christian; Claessens, Mireille M A E",
+  "journal": "Biomacromolecules",
+  "published_date": "2023-07-06",
+  "window": {
+    "start": "2023-07-03",
+    "end": "2023-07-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合smFRET与粗粒化MD模拟，解析α-突触核蛋白IDP内部及区域间氨基酸互作对构象的影响，虽非直接PPI，但机制建模方法可迁移至无序蛋白互作研究。",
+  "abstract": "Theoretical concepts from polymer physics are often used to describe intrinsically disordered proteins (IDPs). However, amino acid interactions within and between regions of the protein can lead to deviations from typical polymer scaling behavior and even to short-lived secondary structures. To investigate the key interactions in the dynamic IDP alpha-synuclein (alphaS) at the amino acid level, we conducted single-molecule fluorescence resonance energy transfer (smFRET) experiments and coarse-grained molecular dynamics (CG-MD) simulations. We find excellent agreement between experiments and simulations. Our results show that a physiological salt solution is a good solvent for alphaS and that the protein is highly dynamic throughout its entire chain, with local intra- and inter-regional interactions leading to deviations from global scaling. Specifically, we observe expansion in the C-terminal region, compaction in the NAC region, and a slightly smaller distance between the C- and N-termini than expected. Our simulations indicate that the compaction in the NAC region results from hydrophobic aliphatic contacts, mostly between valine and alanine residues, and cation-pi interactions between lysine and tyrosine. In addition, hydrogen bonds also seem to contribute to the compaction of the NAC region. The expansion of the C-terminal region is due to intraregional electrostatic repulsion and increased chain stiffness from several prolines. Overall, our study demonstrates the effectiveness of combining smFRET experiments with CG-MD simulations to investigate the key interactions in highly dynamic IDPs at the amino acid level.",
+  "abstract_zh": "高分子物理的理论概念常被用于描述固有无序蛋白（IDPs）。然而，蛋白质内部及区域间的氨基酸相互作用可能导致偏离典型高分子标度行为，甚至形成短暂存在的二级结构。为了在氨基酸水平上研究动态固有无序蛋白α-突触核蛋白（alphaS）中的关键相互作用，我们进行了单分子荧光共振能量转移（smFRET）实验和粗粒化分子动力学（CG-MD）模拟。我们发现实验与模拟结果高度一致。我们的结果表明，生理盐溶液是alphaS的良好溶剂，且该蛋白在整个链上高度动态，局部区域内及区域间的相互作用导致偏离全局标度行为。具体而言，我们观察到C端区域扩张、NAC区域压缩，以及C端与N端之间的距离略小于预期。我们的模拟表明，NAC区域的压缩源于疏水性脂肪族接触，主要涉及缬氨酸和丙氨酸残基，以及赖氨酸和酪氨酸之间的阳离子-π相互作用。此外，氢键似乎也对NAC区域的压缩有所贡献。C端区域的扩张则归因于区域内静电排斥和多个脯氨酸导致的链刚度增加。总体而言，我们的研究展示了将smFRET实验与CG-MD模拟相结合，在氨基酸水平上探究高度动态IDPs中关键相互作用的有效性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37407505/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37407505/",
+  "paper_page_path": "papers/pubmed/37407505/index.html"
+}

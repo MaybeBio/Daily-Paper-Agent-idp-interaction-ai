@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "35865489",
+    "doi": "10.12688/wellcomeopenres.17160.2",
+    "title": "Identifying and characterising Thrap3, Bclaf1 and Erh interactions using cross-linking mass spectrometry."
+  },
+  "content": {
+    "abstract": "Background: Cross-linking mass spectrometry (XL-MS) is a powerful technology capable of yielding structural insights across the complex cellular protein interaction network. However, up to date most of the studies utilising XL-MS to characterise individual protein complexes' topology have been carried out on over-expressed or recombinant proteins, which might not accurately represent native cellular conditions. Methods: We performed XL-MS using MS-cleavable crosslinker disuccinimidyl sulfoxide (DSSO) after immunoprecipitation of endogenous BRG/Brahma-associated factors (BAF) complex and co-purifying proteins. Data are available via ProteomeXchange with identifier PXD027611. Results: Although we did not detect the expected enrichment of crosslinks within the BAF complex, we identified numerous crosslinks between three co-purifying proteins, namely Thrap3, Bclaf1 and Erh. Thrap3 and Bclaf1 are mostly disordered proteins for which no 3D structure is available. The XL data allowed us to map interaction surfaces on these proteins, which overlap with the non-disordered portions of both proteins. The identified XLs are in agreement with homology-modelled structures suggesting that the interaction surfaces are globular. Conclusions: Our data shows that MS-cleavable crosslinker DSSO can be used to characterise in detail the topology and interaction surfaces of endogenous protein complexes without the need for overexpression. We demonstrate that Bclaf1, Erh and Thrap3 interact closely with each other, suggesting they might form a novel complex, hereby referred to as TEB complex. This data can be exploited for modelling protein-protein docking to characterise the three-dimensional structure of the complex. Endogenous XL-MS might be challenging due to crosslinker accessibility, protein complex abundance or isolation efficiency, and require further optimisation for some complexes like the BAF complex to detect a substantial number of crosslinks.",
+    "keywords": [
+      "Bclaf1",
+      "CLMS cross-linking mass spectrometry",
+      "DSSO",
+      "Endogenous complexes",
+      "Erh",
+      "Thrap3",
+      "XL-MS"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shcherbakova, Liudmila",
+        "Pardo, Mercedes",
+        "Roumeliotis, Theodoros",
+        "Choudhary, Jyoti"
+      ],
+      "short_names": [
+        "Shcherbakova L",
+        "Pardo M",
+        "Roumeliotis T",
+        "Choudhary J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7336-9974",
+        "ORCID: 0000-0002-3477-9695"
+      ],
+      "affiliations": [
+        "Cancer Biology, Institute of Cancer Research, UK, London, UK.",
+        "Cancer Biology, Institute of Cancer Research, UK, London, UK.",
+        "Cancer Biology, Institute of Cancer Research, UK, London, UK.",
+        "Cancer Biology, Institute of Cancer Research, UK, London, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shcherbakova, Liudmila",
+        "short_name": "Shcherbakova L",
+        "identifiers": [
+          "0000-0001-7336-9974"
+        ],
+        "affiliations": [
+          "Cancer Biology, Institute of Cancer Research, UK, London, UK."
+        ]
+      },
+      {
+        "full_name": "Pardo, Mercedes",
+        "short_name": "Pardo M",
+        "identifiers": [
+          "0000-0002-3477-9695"
+        ],
+        "affiliations": [
+          "Cancer Biology, Institute of Cancer Research, UK, London, UK."
+        ]
+      },
+      {
+        "full_name": "Roumeliotis, Theodoros",
+        "short_name": "Roumeliotis T",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biology, Institute of Cancer Research, UK, London, UK."
+        ]
+      },
+      {
+        "full_name": "Choudhary, Jyoti",
+        "short_name": "Choudhary J",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Biology, Institute of Cancer Research, UK, London, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Wellcome open research"
+    ],
+    "journal_abbrev": [
+      "Wellcome Open Res"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/03 06:00",
+    "fetched_at": "2026-09-20 19:50:04"
+  },
+  "links": {
+    "cites": [
+      "40586312",
+      "37887293",
+      "37406423"
+    ],
+    "refs": [],
+    "similar": [
+      "35865489",
+      "37390893",
+      "33915260",
+      "20736410",
+      "35193351",
+      "30004689",
+      "30446747",
+      "32202417",
+      "34499065",
+      "32480079",
+      "31851481",
+      "35235311",
+      "31083951",
+      "35613060",
+      "32472143",
+      "38294351",
+      "27417384",
+      "24471733",
+      "25661704",
+      "23525231",
+      "38372774",
+      "35366400",
+      "29388937",
+      "34797068",
+      "25986934",
+      "32031390",
+      "34349018",
+      "30693776",
+      "33591729",
+      "25823605",
+      "34905177",
+      "32031397",
+      "34647422",
+      "24356771",
+      "31270507",
+      "32029734",
+      "32201362",
+      "24639379",
+      "36445175",
+      "32250121",
+      "32456912",
+      "30237093",
+      "32643919",
+      "32557917",
+      "22984071",
+      "30382245",
+      "34375526",
+      "30575379",
+      "27734140",
+      "24550272",
+      "29793340",
+      "27428000",
+      "25638023",
+      "26615471",
+      "32644155",
+      "33617236",
+      "26269432",
+      "30617826",
+      "28770354",
+      "26079926",
+      "30074391",
+      "31989825",
+      "26654279",
+      "39257782",
+      "34227341",
+      "26535604",
+      "31820512",
+      "27056566",
+      "29334167",
+      "23613850",
+      "32294434",
+      "23912807",
+      "35774124",
+      "33660978",
+      "30021884",
+      "30415967",
+      "33283408",
+      "26931439",
+      "30723094",
+      "35284842",
+      "17134140",
+      "31593346",
+      "30520642",
+      "33053319",
+      "36960533"
+    ],
+    "review": [
+      "35865489",
+      "35366400",
+      "34797068",
+      "34647422",
+      "36445175",
+      "27734140",
+      "26615471",
+      "30617826",
+      "26079926",
+      "26654279",
+      "34227341",
+      "27056566",
+      "29334167"
+    ],
+    "pmc": [
+      "9270653"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35865489/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35865489",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://wellcomeopenresearch.org/articles/10.12688/wellcomeopenres.17160.2/doi",
+        "provider": "F1000 Research Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33686854",
+  "title": "Liquid-Liquid Phase Separation of Tau Protein Is Encoded at the Monomeric Level.",
+  "authors": "Dong, Xuewei; Bera, Santu; Qiao, Qin; Tang, Yiming; Lao, Zenghui; Luo, Yin; Gazit, Ehud; Wei, Guanghong",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2021-03-10",
+  "window": {
+    "start": "2021-03-08",
+    "end": "2021-03-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过全原子副本交换分子动力学模拟，在单体水平揭示Tau蛋白K18构象系综的温度依赖性，并预测关键残基驱动其相分离倾向，结合实验验证，直接聚焦无序蛋白LLPS的机制建模，与本课题高度契合。",
+  "abstract": "Liquid-liquid phase separation (LLPS) is involved in both physiological and pathological processes. The intrinsically disordered protein Tau and its K18 construct can undergo LLPS in a distinct temperature-dependent manner, and the LLPS of Tau protein can initiate Tau aggregation. However, the underlying mechanism driving Tau LLPS remains largely elusive. To understand the temperature-dependent LLPS behavior of Tau at the monomeric level, we explored the conformational ensemble of Tau at different temperatures by performing all-atom replica-exchange molecular dynamic simulation on K18 monomer with an accumulated simulation time of 26.4 mus. Our simulation demonstrates that the compactness, beta-structure propensity, and intramolecular interaction of K18 monomer exhibit nonlinear temperature-dependent behavior. (295)DNIKHV(300)/(326)GNIHHK(331)/(337)VEVKSE(342) make significant contributions to the temperature dependence of the beta propensity of K18 monomer, while the two fibril-nucleating cores display relatively high beta propensity at all temperatures. At a specific temperature, K18 monomer adopts the most collapsed state with exposed sites for both persistent and transient interactions. Given that more collapsed polypeptide chains were reported to be more prone to phase separate, our results suggest that K18 monomer inherently possesses conformational characteristics favoring LLPS. Our simulation predicts the importance of (295)DNIKHV(300)/(326)GNIHHK(331)/(337)VEVKSE(342) to the temperature-dependent conformational properties of K18, which is corroborated by CD spectra, turbidity assays, and DIC microscopy. Taken together, we offer a computational and experimental approach to comprehend the structural basis for LLPS by amyloidal building blocks.",
+  "abstract_zh": "液-液相分离（LLPS）参与生理和病理过程。 intrinsically disordered 蛋白 Tau 及其 K18 构建体可以以显著的温度依赖性方式发生 LLPS，且 Tau 蛋白的 LLPS 可启动 Tau 聚集。然而，驱动 Tau LLPS 的潜在机制在很大程度上仍不清楚。为了在单体水平上理解 Tau 的温度依赖性 LLPS 行为，我们通过对 K18 单体进行全原子副本交换分子动力学模拟，累计模拟时间为 26.4 μs，探索了 Tau 在不同温度下的构象系综。我们的模拟表明，K18 单体的紧凑性、β-结构倾向性和分子内相互作用表现出非线性温度依赖性行为。(295)DNIKHV(300)/(326)GNIHHK(331)/(337)VEVKSE(342) 对 K18 单体 β 倾向性的温度依赖性有显著贡献，而两个纤维成核核心在所有温度下均表现出相对较高的 β 倾向性。在特定温度下，K18 单体采用最塌缩状态，并具有用于持久和瞬时相互作用的暴露位点。鉴于据报道更塌缩的多肽链更倾向于相分离，我们的结果表明 K18 单体固有地具有有利于 LLPS 的构象特征。我们的模拟预测了 (295)DNIKHV(300)/(326)GNIHHK(331)/(337)VEVKSE(342) 对 K18 温度依赖性构象特性的重要性，这通过 CD 光谱、浊度测定和 DIC 显微镜得到证实。综合来看，我们提供了一种计算和实验相结合的方法来理解淀粉样构建体 LLPS 的结构基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33686854/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33686854/",
+  "paper_page_path": "papers/pubmed/33686854/index.html"
+}

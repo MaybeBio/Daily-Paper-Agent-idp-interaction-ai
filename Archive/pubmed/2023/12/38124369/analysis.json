@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38124369",
+  "title": "A Perspective on the Prospective Use of AI in Protein Structure Prediction.",
+  "authors": "Versini, Raphaelle; Sritharan, Sujith; Aykac Fas, Burcu; Tubiana, Thibault; Aimeur, Sana Zineb; Henri, Julien; Erard, Marie; Nusse, Oliver; Andreani, Jessica; Baaden, Marc; Fuchs, Patrick; Galochkina, Tatiana; Chatzigoulas, Alexios; Cournia, Zoe; Santuz, Hubert; Sacquin-Mora, Sophie; Taly, Antoine",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2023-12-21",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该展望文章系统评述AlphaFold2/RoseTTaFold在膜蛋白、IDP及寡聚体结构预测中的应用与局限，并倡导与MD模拟等整合以刻画IDP动态，虽非原创建模研究，但对无序蛋白互作机制建模的方法整合思路有直接启发。",
+  "abstract": "AlphaFold2 (AF2) and RoseTTaFold (RF) have revolutionized structural biology, serving as highly reliable and effective methods for predicting protein structures. This article explores their impact and limitations, focusing on their integration into experimental pipelines and their application in diverse protein classes, including membrane proteins, intrinsically disordered proteins (IDPs), and oligomers. In experimental pipelines, AF2 models help X-ray crystallography in resolving the phase problem, while complementarity with mass spectrometry and NMR data enhances structure determination and protein flexibility prediction. Predicting the structure of membrane proteins remains challenging for both AF2 and RF due to difficulties in capturing conformational ensembles and interactions with the membrane. Improvements in incorporating membrane-specific features and predicting the structural effect of mutations are crucial. For intrinsically disordered proteins, AF2's confidence score (pLDDT) serves as a competitive disorder predictor, but integrative approaches including molecular dynamics (MD) simulations or hydrophobic cluster analyses are advocated for accurate dynamics representation. AF2 and RF show promising results for oligomeric models, outperforming traditional docking methods, with AlphaFold-Multimer showing improved performance. However, some caveats remain in particular for membrane proteins. Real-life examples demonstrate AF2's predictive capabilities in unknown protein structures, but models should be evaluated for their agreement with experimental data. Furthermore, AF2 models can be used complementarily with MD simulations. In this Perspective, we propose a \"wish list\" for improving deep-learning-based protein folding prediction models, including using experimental data as constraints and modifying models with binding partners or post-translational modifications. Additionally, a meta-tool for ranking and suggesting composite models is suggested, driving future advancements in this rapidly evolving field.",
+  "abstract_zh": "AlphaFold2 (AF2) 和 RoseTTaFold (RF) 已彻底改变了结构生物学领域，成为预测蛋白质结构的高度可靠且有效的方法。本文探讨了它们的影响与局限性，重点关注它们在实验流程中的整合及其在多种蛋白质类别中的应用，包括膜蛋白、固有无序蛋白质 (IDPs) 和寡聚体。在实验流程中，AF2 模型有助于 X 射线晶体学解决相位问题，同时与质谱和 NMR 数据的互补性增强了结构确定和蛋白质柔性预测。对于 AF2 和 RF 而言，预测膜蛋白结构仍具挑战性，原因在于捕捉构象集合及与膜相互作用的困难。纳入膜特异性特征和预测突变的结构效应方面的改进至关重要。对于固有无序蛋白质，AF2 的置信度评分 (pLDDT) 可作为竞争性的无序预测器，但提倡采用包括分子动力学 (MD) 模拟或疏水簇分析在内的整合方法，以准确表示动力学特征。AF2 和 RF 在寡聚体模型中显示出有前景的结果，优于传统对接方法，其中 AlphaFold-Multimer 表现出改进的性能。然而，仍存在一些注意事项，特别是对于膜蛋白。实际案例证明了 AF2 在未知蛋白质结构中的预测能力，但模型应评估其与实验数据的一致性。此外，AF2 模型可与 MD 模拟互补使用。在本视角中，我们提出了一份“愿望清单”，旨在改进基于深度学习的蛋白质折叠预测模型，包括使用实验数据作为约束条件，以及通过结合伙伴或翻译后修饰来调整模型。此外，建议开发一种元工具，用于排序和推荐复合模型，以推动这一快速发展的领域取得未来进展。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38124369/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38124369/",
+  "paper_page_path": "papers/pubmed/38124369/index.html"
+}

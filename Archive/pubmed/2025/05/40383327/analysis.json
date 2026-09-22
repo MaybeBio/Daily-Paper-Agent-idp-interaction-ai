@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40383327",
+  "title": "Proteome-wide identification and comprehensive profiling of intrinsic disorder in Fasciola gigantica.",
+  "authors": "Duarah, Anjelika; Subedi, Sushma; Dayhoff, Guy W 2nd; Uversky, Vladimir N; Tripathi, Timir",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2025-05-19",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 4,
+  "one_liner_zh": "该文对肝片吸虫蛋白组进行全蛋白组无序性预测与组成分析，虽以IDP为对象但无PPI互作机制或AI/物理模拟方法，仅提供无序性普查，对本课题启发有限。",
+  "abstract": "Despite the wealth of proteome sequences from multicellular parasitic helminths, studies on intrinsically disordered proteins (IDPs) in these organisms remain limited, particularly compared to viruses, bacteria, and unicellular parasites. We provide a comprehensive analysis of intrinsic disorder within the proteome of Fasciola gigantica, a parasitic liver fluke, using multiple predictive tools. Out of 12,537 proteins analyzed, a significant portion exhibited a distinct amino acid composition, characterized by an enrichment of polar and charged residues and a relative depletion of hydrophobic and aromatic residues, which are hallmarks of IDPs. These compositional features likely confer structural flexibility and functional adaptability, facilitating the survival of the parasite in diverse and hostile environments within its host. The presence of IDPs was further supported by compositional profiling of experimentally validated proteins in the DisProt database. Approximately 34.15 % of the F. gigantica proteome comprises highly disordered proteins, while 59.27 % is moderately disordered, as calculated from six well-established predictors integrated under the RIDAO platform. The consistent findings across various predictors, including PONDR(R) and IUPred, underscore the reliability of these results. Additionally, a detailed analysis of the distribution of charged residues in the proteome was performed. The high prevalence of IDPs in F. gigantica suggests their critical role in host-pathogen interactions, potentially providing functional advantages such as binding promiscuity and adaptability, which are essential for the survival of the parasite within the host. This study highlights the importance of IDPs in the biology of F. gigantica and provides insights into their potential roles in the parasite's pathogenesis and interactions with the host immune system.",
+  "abstract_zh": "尽管已获得多细胞寄生性蠕虫的蛋白质组序列，但针对这些生物中固有无序蛋白（IDPs）的研究仍然有限，尤其是与病毒、细菌和单细胞寄生虫相比。我们利用多种预测工具，对寄生性肝吸虫大片吸虫（Fasciola gigantica）的蛋白质组进行了全面的固有无序性分析。在分析的12,537个蛋白质中，显著部分表现出独特的氨基酸组成，其特征为极性和带电残基富集，而疏水性和芳香族残基相对减少，这些是IDPs的典型标志。这些组成特征可能赋予结构灵活性和功能适应性，促进寄生虫在宿主内多样且恶劣环境中的生存。IDPs的存在进一步通过DisProt数据库中实验验证蛋白质的组成谱得到支持。根据RIDAO平台下集成的六种成熟预测工具计算，大片吸虫蛋白质组中约34.15%为高度无序蛋白，而59.27%为中度无序蛋白。包括PONDR(R)和IUPred在内的多种预测工具结果一致，强调了这些结果的可靠性。此外，还对蛋白质组中带电残基的分布进行了详细分析。大片吸虫中IDPs的高普遍性表明其在宿主-病原体相互作用中的关键作用，可能提供结合混杂性和适应性等功能优势，这些对寄生虫在宿主内的生存至关重要。本研究强调IDPs在大片吸虫生物学中的重要性，并为其在寄生虫发病机制及与宿主免疫系统相互作用中的潜在作用提供见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40383327/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40383327/",
+  "paper_page_path": "papers/pubmed/40383327/index.html"
+}

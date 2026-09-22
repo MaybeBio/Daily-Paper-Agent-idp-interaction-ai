@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "pmid": "42327097",
+    "doi": "10.64898/2026.06.10.731384",
+    "title": "MOFF2: A Transferable Coarse-Grained Protein Force Field for Predictive Condensate Simulations."
+  },
+  "content": {
+    "abstract": "Coarse-grained protein force fields enable simulations of biomolecular systems at length and time scales that are difficult to access with atomistic models, but achieving transferability across folded, intrinsically disordered, and multidomain proteins remains challenging. A central difficulty is that one-bead-per-residue models must represent chemically specific residue interactions while also absorbing solvent-mediated and many-body effects into a simplified energy function. Here, we present MOFF2, a transferable coarse-grained protein force field that combines residue-pair-specific interactions with a density-dependent many-body potential. MOFF2 is optimized using a two-stage strategy: bottom-up parameter learning from heterogeneous reference ensembles followed by refinement against experimental conformational observables. The resulting model provides balanced performance across ordered proteins, intrinsically disordered proteins, and multidomain proteins, and predicts condensate saturation-concentration trends for A1-LCD variant systems. Analysis of the learned parameters reveals chemically interpretable interaction patterns and density-dependent effects that explain the model's improved transferability. These results demonstrate that combining a generalized coarse-grained energy function with data-driven optimization can produce a practical and interpretable force field for protein conformational and condensate simulations.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Shuming",
+        "Zhang, Yumeng",
+        "Riveros, Ivan",
+        "Wang, Cong",
+        "Zhang, Bin"
+      ],
+      "short_names": [
+        "Liu S",
+        "Zhang Y",
+        "Riveros I",
+        "Wang C",
+        "Zhang B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8569-5520",
+        "ORCID: 0000-0002-6405-8362",
+        "ORCID: 0000-0001-5998-3740",
+        "ORCID: 0000-0002-3685-7503"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Shuming",
+        "short_name": "Liu S",
+        "identifiers": [
+          "0000-0002-8569-5520"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Yumeng",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-6405-8362"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Riveros, Ivan",
+        "short_name": "Riveros I",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Cong",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0000-0001-5998-3740"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Bin",
+        "short_name": "Zhang B",
+        "identifiers": [
+          "0000-0002-3685-7503"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jun 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/22 13:44",
+    "fetched_at": "2026-09-18 04:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42327097",
+      "37745447",
+      "41851975",
+      "32035448",
+      "39499823",
+      "36112935",
+      "26574429",
+      "39579131",
+      "18282071",
+      "40172489",
+      "34716273",
+      "26583407",
+      "40681718",
+      "39412378",
+      "34536913",
+      "36731338",
+      "26263302",
+      "40324844",
+      "40128232",
+      "18469078",
+      "31756104",
+      "35377637",
+      "38161379",
+      "39908323",
+      "17616119",
+      "35922348",
+      "23997693",
+      "40028356",
+      "27997210",
+      "40129029",
+      "39554101",
+      "41298416",
+      "35793442",
+      "30240202",
+      "35032979",
+      "24712786",
+      "19817469",
+      "42081332",
+      "37688551",
+      "40970906",
+      "24659927",
+      "29466859",
+      "31675850",
+      "23204949",
+      "28905203",
+      "36774359",
+      "21494747",
+      "40009520",
+      "41739654",
+      "24223529",
+      "34598583",
+      "40060049",
+      "38011344",
+      "37535543",
+      "23912807",
+      "29186229",
+      "37645312",
+      "26723596",
+      "34496595",
+      "39735932",
+      "33092363",
+      "17949219",
+      "39235392",
+      "36083825",
+      "31241933",
+      "32816485",
+      "33139563",
+      "34723311",
+      "24748852",
+      "34680048",
+      "39804953",
+      "15959866",
+      "26596452",
+      "25330962",
+      "37333386",
+      "26617104",
+      "33218238",
+      "37043540",
+      "30091924",
+      "30916968",
+      "22911567",
+      "32975948",
+      "37331570",
+      "26580045",
+      "33725442",
+      "28809487",
+      "40146906",
+      "33078950",
+      "38241144",
+      "19480420",
+      "26589072",
+      "33816559",
+      "42047323",
+      "26596453",
+      "41868013",
+      "38928405",
+      "29972174",
+      "36533639",
+      "31877033",
+      "42080348"
+    ],
+    "review": [
+      "42327097",
+      "40172489",
+      "34536913",
+      "36731338",
+      "40324844",
+      "28905203",
+      "34680048",
+      "37331570"
+    ],
+    "pmc": [
+      "13277951"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42327097/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.06.10.731384",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.13.711684",
+  "title": "Photocrosslinking Activity-Based Probes to Capture the Dynamics of Ubiquitin RING E3 Ligase Interactions",
+  "doi": "10.64898/2026.03.13.711684",
+  "abstract": "<h4>SUMMARY</h4> Almost all cellular processes are influenced by ubiquitination. A large family of enzymes known as E3 ligases provide the specificity for ubiquitination, with the largest class among them, the RING E3s, comprising over 600 members in humans. RING E3s facilitate transfer of ubiquitin to substrates by constraining the highly dynamic E2-Ub thioester linkage to be primed for attack from the substrate nucleophile. We have established a workflow that uses a modified ubiquitin carrying a photoactivatable crosslinker that once stably linked to the active site of an E2, creates an activity based probe (ABP) to monitor interactions with E3 ligases. Using this, regions of interaction between ubiquitin and a selection of different RING E3 were determined, which not only confirmed existing structures of E2-Ub-RING-E3 complexes but was also used to assess new Ub-E2-E3 models generated in absence of existing structures.",
+  "authors": [
+    "Chandler SF",
+    "Tatham MH",
+    "Branigan E",
+    "Nakasone MA",
+    "Makukhin N",
+    "Ciulli A",
+    "Hay RT"
+  ],
+  "published_date": "2026-03-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.13.711684",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.13.711684.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1219782",
+    "raw_record": {
+      "id": "PPR1219782",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1219782"
+        ]
+      },
+      "doi": "10.64898/2026.03.13.711684",
+      "title": "Photocrosslinking Activity-Based Probes to Capture the Dynamics of Ubiquitin RING E3 Ligase Interactions",
+      "authorString": "Chandler SF, Tatham MH, Branigan E, Nakasone MA, Makukhin N, Ciulli A, Hay RT.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chandler SF",
+            "lastName": "Chandler",
+            "firstName": "Sarah",
+            "initials": "SF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Molecular, Cell and Developmental Biology, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tatham MH",
+            "lastName": "Tatham",
+            "firstName": "Michael",
+            "initials": "MH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Molecular, Cell and Developmental Biology, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Branigan E",
+            "lastName": "Branigan",
+            "firstName": "Emma",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3808-468X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Molecular, Cell and Developmental Biology, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nakasone MA",
+            "lastName": "Nakasone",
+            "firstName": "Mark",
+            "initials": "MA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1362-191X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Targeted Protein Degradation, School of Life Sciences, , 1 James Lindsay Place , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Makukhin N",
+            "lastName": "Makukhin",
+            "firstName": "Nikolai",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2465-0748"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biological Chemistry and Drug Discovery, School of Life Sciences, , James Black Centre , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ciulli A",
+            "lastName": "Ciulli",
+            "firstName": "Alessio",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8654-1670"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Targeted Protein Degradation, School of Life Sciences, , 1 James Lindsay Place , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hay RT",
+            "lastName": "Hay",
+            "firstName": "Ronald",
+            "initials": "RT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7113-9024"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Molecular, Cell and Developmental Biology, School of Life Sciences, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7113-9024"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1362-191X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3808-468X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8654-1670"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2465-0748"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>SUMMARY</h4>  Almost all cellular processes are influenced by ubiquitination. A large family of enzymes known as E3 ligases provide the specificity for ubiquitination, with the largest class among them, the RING E3s, comprising over 600 members in humans. RING E3s facilitate transfer of ubiquitin to substrates by constraining the highly dynamic E2-Ub thioester linkage to be primed for attack from the substrate nucleophile. We have established a workflow that uses a modified ubiquitin carrying a photoactivatable crosslinker that once stably linked to the active site of an E2, creates an activity based probe (ABP) to monitor interactions with E3 ligases. Using this, regions of interaction between ubiquitin and a selection of different RING E3 were determined, which not only confirmed existing structures of E2-Ub-RING-E3 complexes but was also used to assess new Ub-E2-E3 models generated in absence of existing structures.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "118787",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "311460",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.13.711684"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1219782"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1219782&type=FILE&fileName=EMS215331-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42112908",
+            "reference": "The Biochemical journal. 2026 Jul;483(7):1115-1130",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215331",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-03-15",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

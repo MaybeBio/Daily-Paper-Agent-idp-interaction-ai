@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "42132781",
+    "doi": "10.1039/d6tb00411c",
+    "title": "Recent innovative approaches for drug delivery systems targeting cancer and CNS disorders."
+  },
+  "content": {
+    "abstract": "Advancements in drug delivery systems (DDSs) have revolutionized pharmaceutical development by enhancing therapeutic precision, minimizing off-target effects, and improving patient compliance. Modern DDS technologies, such as lipid nanoparticles (LNPs), liquid-liquid phase separated (LLPS) systems, inorganic nanoparticles, GalNac systems, small molecules, dendrimers, polymers, peptides, and silk fibroin (SF) hydrogels, have significantly expanded the range of anti-cancer therapeutics. These advancements extend beyond conventional chemotherapeutics to include biologics such as nucleic acids (NAs), peptides, proteins, and monoclonal antibodies. These innovations have transformed oncology treatment paradigms and are gradually being adapted for central nervous system (CNS) disorders, where effective drug delivery is hindered by the protective blood-brain barrier (BBB) and the intricate architecture of neural networks. In this context, stimuli-responsive DDSs have emerged as promising tools, capable of crossing the BBB and releasing drugs in response to pathological cues. Theranostic DDSs, which integrate diagnostic and therapeutic functionalities into a single platform, hold particular promise in imaging-guided interventions. This review provides a comprehensive overview of DDS applications in both oncology and neurodegenerative diseases (NDDs), emphasizing mechanistic insights, delivery strategies, and material innovations. Furthermore, it explores key translational considerations - including safety, efficacy, and clinical scalability - essential for advancing next-generation DDS platforms from bench to bedside, thereby maximizing therapeutic outcomes in complex diseases.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Drug Delivery Systems",
+      "*Central Nervous System Diseases/drug therapy",
+      "*Antineoplastic Agents/chemistry/therapeutic use/pharmacology",
+      "*Neoplasms/drug therapy",
+      "Animals",
+      "Nanoparticles/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Anand, Milind Kumar",
+        "Premalatha, Elumalai",
+        "Moorthy, Hariharan",
+        "Govindaraju, Thimmaiah"
+      ],
+      "short_names": [
+        "Anand MK",
+        "Premalatha E",
+        "Moorthy H",
+        "Govindaraju T"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-1883-1185",
+        "ORCID: 0000-0003-4396-7281",
+        "ORCID: 0000-0002-9423-4275"
+      ],
+      "affiliations": [
+        "Bioorganic Chemistry Laboratory, New Chemistry Unit, Jawaharlal Nehru Centre for Advanced Scientific Research, Bengaluru, Karnataka 560064, India. tgraju@jncasr.ac.in.",
+        "Bioorganic Chemistry Laboratory, New Chemistry Unit, Jawaharlal Nehru Centre for Advanced Scientific Research, Bengaluru, Karnataka 560064, India. tgraju@jncasr.ac.in.",
+        "Bioorganic Chemistry Laboratory, New Chemistry Unit, Jawaharlal Nehru Centre for Advanced Scientific Research, Bengaluru, Karnataka 560064, India. tgraju@jncasr.ac.in.",
+        "Bioorganic Chemistry Laboratory, New Chemistry Unit, Jawaharlal Nehru Centre for Advanced Scientific Research, Bengaluru, Karnataka 560064, India. tgraju@jncasr.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Anand, Milind Kumar",
+        "short_name": "Anand MK",
+        "identifiers": [
+          "0009-0000-1883-1185"
+        ],
+        "affiliations": [
+          "Bioorganic Chemistry Laboratory, New Chemistry Unit, Jawaharlal Nehru Centre for Advanced Scientific Research, Bengaluru, Karnataka 560064, India. tgraju@jncasr.ac.in."
+        ]
+      },
+      {
+        "full_name": "Premalatha, Elumalai",
+        "short_name": "Premalatha E",
+        "identifiers": [],
+        "affiliations": [
+          "Bioorganic Chemistry Laboratory, New Chemistry Unit, Jawaharlal Nehru Centre for Advanced Scientific Research, Bengaluru, Karnataka 560064, India. tgraju@jncasr.ac.in."
+        ]
+      },
+      {
+        "full_name": "Moorthy, Hariharan",
+        "short_name": "Moorthy H",
+        "identifiers": [
+          "0000-0003-4396-7281"
+        ],
+        "affiliations": [
+          "Bioorganic Chemistry Laboratory, New Chemistry Unit, Jawaharlal Nehru Centre for Advanced Scientific Research, Bengaluru, Karnataka 560064, India. tgraju@jncasr.ac.in."
+        ]
+      },
+      {
+        "full_name": "Govindaraju, Thimmaiah",
+        "short_name": "Govindaraju T",
+        "identifiers": [
+          "0000-0002-9423-4275"
+        ],
+        "affiliations": [
+          "Bioorganic Chemistry Laboratory, New Chemistry Unit, Jawaharlal Nehru Centre for Advanced Scientific Research, Bengaluru, Karnataka 560064, India. tgraju@jncasr.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of materials chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Mater Chem B"
+    ],
+    "pub_date": "2026 May 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/14 14:50",
+    "fetched_at": "2026-09-18 03:16:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42132781",
+      "41340279",
+      "41930767",
+      "39985979",
+      "40264324",
+      "40911028",
+      "41340272",
+      "34906605",
+      "40470109",
+      "42103070",
+      "41924453",
+      "32851962",
+      "42099970",
+      "39769066",
+      "40247800",
+      "41910152",
+      "40040419",
+      "42024000",
+      "42252165",
+      "41272752",
+      "39748757",
+      "40587770",
+      "41453462",
+      "41603175",
+      "39316196",
+      "35970274",
+      "39161363",
+      "39133564",
+      "42311424",
+      "37923043",
+      "38551038",
+      "39318210",
+      "42107506",
+      "40487748",
+      "25136634",
+      "24910011",
+      "39791149",
+      "40928395",
+      "39625732",
+      "40570675",
+      "39477900",
+      "40981519",
+      "41769265",
+      "41757336",
+      "40520058",
+      "41159923",
+      "39967907",
+      "39606563",
+      "25421898",
+      "39735671",
+      "40680978",
+      "42187005",
+      "39788400",
+      "40412453",
+      "25360772",
+      "38968367",
+      "40011926",
+      "27678173",
+      "41031431",
+      "41833245",
+      "39732249",
+      "40600550",
+      "40320019",
+      "41663025",
+      "41873359",
+      "41151737",
+      "35909283",
+      "33470550",
+      "31916480",
+      "42252166",
+      "41165835",
+      "41666794",
+      "40580371",
+      "41680539",
+      "41131967",
+      "38716551",
+      "41865126",
+      "25813885",
+      "41828476",
+      "30579043",
+      "38414526",
+      "39707984",
+      "37086918",
+      "37649926",
+      "35917704",
+      "40350610",
+      "39059438",
+      "41403273",
+      "40680959",
+      "39306366",
+      "29607986",
+      "33658782",
+      "38288793",
+      "42071161",
+      "40354673",
+      "41152929",
+      "42031360",
+      "42450197",
+      "42200795",
+      "23827471"
+    ],
+    "review": [
+      "42132781",
+      "41930767",
+      "39985979",
+      "40264324",
+      "40911028",
+      "34906605",
+      "40470109",
+      "42103070",
+      "41924453",
+      "32851962",
+      "42099970",
+      "39769066",
+      "40247800",
+      "41910152",
+      "40040419",
+      "42024000",
+      "42252165",
+      "41272752",
+      "40587770",
+      "41453462",
+      "39316196",
+      "35970274",
+      "39161363",
+      "39133564",
+      "42311424",
+      "37923043",
+      "38551038",
+      "39318210",
+      "42107506",
+      "40487748",
+      "25136634",
+      "24910011",
+      "39791149",
+      "40928395",
+      "39625732",
+      "40570675",
+      "39477900",
+      "40981519",
+      "41769265",
+      "41757336",
+      "40520058",
+      "41159923",
+      "39967907",
+      "39606563",
+      "25421898",
+      "39735671",
+      "40680978",
+      "42187005",
+      "39788400",
+      "40412453",
+      "25360772",
+      "38968367",
+      "40011926",
+      "27678173",
+      "41031431",
+      "41833245",
+      "39732249",
+      "40600550",
+      "40320019",
+      "41663025",
+      "41873359",
+      "41151737",
+      "35909283",
+      "33470550",
+      "31916480",
+      "42252166",
+      "41165835",
+      "41666794",
+      "40580371",
+      "41680539",
+      "41131967",
+      "38716551",
+      "41865126",
+      "25813885",
+      "41828476",
+      "30579043",
+      "38414526",
+      "39707984",
+      "37086918",
+      "37649926",
+      "35917704",
+      "40350610",
+      "39059438",
+      "41403273",
+      "40680959",
+      "39306366",
+      "29607986",
+      "33658782",
+      "38288793",
+      "42071161",
+      "40354673",
+      "41152929",
+      "42031360",
+      "42450197",
+      "42200795",
+      "23827471"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1039/d6tb00411c",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

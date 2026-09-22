@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42384681",
+  "title": "Combinatorial decision-making driven by multicomponent surface condensates.",
+  "authors": "Zentner, Aidan; Halingstad, Ethan V; Chalk, Cameron; Brenner, Michael P; Murugan, Arvind; Winfree, Erik; Shrinivas, Krishna",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2026-07-01",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过多组分表面凝聚体的相分离行为实现组合决策，类比机器学习分类，虽未直接聚焦无序蛋白PPI，但为IDR介导的凝聚体互作机制建模提供了可迁移的物理框架与AI类比思路。",
+  "abstract": "Living organisms rely on molecular networks, such as gene circuits and signaling pathways, for information processing and robust decision-making in crowded, noisy environments. Recent advances show that interacting biomolecules self-organize by phase transitions into coexisting spatial compartments called condensates, often on cellular surfaces such as chromatin and membranes. In this paper, we demonstrate that multicomponent fluids can be designed to recruit distinct condensates to surfaces with differing compositions, performing a form of surface classification by condensation. We draw an analogy to multidimensional classification in machine learning and explore how hidden species, analogous to hidden nodes, expand the expressivity and capacity of these interacting ensembles to facilitate complex decision boundaries. By simply changing levels of individual species, we find that the same molecular repertoire can be reprogrammed to solve new tasks. Together, our findings suggest that the physical processes underlying biomolecular condensates can encode and drive adaptive information processing beyond compartmentalization.",
+  "abstract_zh": "生命有机体依赖分子网络（如基因回路和信号通路）进行信息处理，并在拥挤、嘈杂的环境中做出稳健决策。近期进展表明，相互作用的生物分子通过相变（phase transitions）自组织成共存的、称为凝聚体（condensates）的空间区室，这些凝聚体常位于染色质和膜等细胞表面。在本文中，我们证明多组分流体可以被设计为将不同的凝聚体招募到具有不同组成的表面上，从而通过凝聚作用实现一种表面分类形式。我们将此与机器学习中的多维分类进行类比，并探讨隐藏物种（类似于隐藏节点）如何扩展这些相互作用集合的表达能力和容量，以促进复杂决策边界的形成。通过仅改变单个物种的水平，我们发现相同的分子库可以被重新编程以解决新任务。综合来看，我们的发现表明，生物分子凝聚体背后的物理过程可以编码并驱动超越区室化的适应性信息处理。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42384681/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42384681/",
+  "paper_page_path": "papers/pubmed/42384681/index.html"
+}

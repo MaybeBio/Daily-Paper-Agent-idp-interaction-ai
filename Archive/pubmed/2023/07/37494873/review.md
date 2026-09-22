@@ -1,0 +1,66 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The abstract proposes that intrinsically disordered regions (IDRs) of the moonlighting proteins Myelin Basic Protein (MBP) and Myelin-associated Oligodendrocyte Basic Protein (MOBP) dominate their structural dynamics and mediate interactions with the myelin sheath, while known epitopes within these IDRs do not interact with the sheath. The authors further claim that disorder maintains myelin integrity, whereas folding exposes epitopes that trigger immune attack and demyelination in Multiple Sclerosis (MS).
+- **Visible evidence base** Molecular dynamics simulation studies of protein IDRs in water and near the myelin sheath, as described in the abstract
+- **Missing materials affecting confidence** Full manuscript text, methods, simulation parameters, force fields, system setup, trajectory analyses, figures, tables, and statistical validations
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting hypothesis linking protein disorder, conformational dynamics, and immune epitope exposure in MS pathogenesis. However, the evidence base is limited to a brief summary of molecular dynamics simulations, and the central mechanistic claim that folding triggers epitope recognition is not directly supported by the data described. The work may be of interest to computational biologists and MS researchers, but the current abstract does not provide sufficient detail to evaluate technical rigor or establish the proposed causal chain.
+- **Who would be interested in the results, and why** Computational biophysicists studying intrinsically disordered proteins, neuroimmunologists investigating MS autoantigen recognition, and structural biologists interested in protein-membrane interactions. The proposed link between disorder-to-order transitions and immune epitope exposure could inform therapeutic strategies targeting protein folding or IDR stabilization.
+- **Major strengths** The abstract addresses a timely and important question about the role of IDPs in neurodegeneration. The focus on moonlighting proteins MBP and MOBP is specific and biologically relevant. The use of molecular dynamics simulations to compare IDR behavior in water versus near the myelin sheath is a reasonable approach to probe environmental effects on conformational dynamics.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "the IDR dominates the structural dynamics of these proteins and IDR in both proteins was responsible for their interaction with the myelin sheath."
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** The abstract states that molecular dynamics simulations were performed, but no quantitative results are presented. There is no mention of specific metrics such as root-mean-square deviation, radius of gyration, contact frequencies, or binding free energies that would substantiate the claim that IDRs dominate dynamics and mediate sheath interactions.
+  - **Why it matters** Without quantitative data, the reader cannot assess whether the simulations adequately sampled conformational space, whether the observed interactions are statistically significant, or whether the conclusions are robust to simulation parameters.
+  - **Resolution test** Provide specific simulation results, including comparative metrics for IDR versus structured regions, interaction energies or contact maps with myelin sheath components, and error estimates or replicate analyses.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-support alignment
+  - **Claim pointer** The abstract claims that "the known epitopes MBP(83-96) and MOBP(65-87) in the IDR have no interaction with the myelin sheath" and that "if it adopts folds the region was identified as an epitope by the immune system leading to demyelination causing MS."
+  - **Evidence pointer** Abstract, results and discussion sections (location not provided)
+  - **Concern** The first part of this claim is a negative result from simulations, but the second part is a speculative leap. The abstract provides no evidence that folded conformations of these epitopes are actually recognized by immune cells or that such recognition leads to demyelination. The simulation data cannot directly test immune recognition.
+  - **Why it matters** The central pathogenic mechanism proposed in the abstract depends on this disorder-to-fold transition triggering immune attack. If this link is not supported by direct experimental or simulation evidence, the conclusion is overreaching.
+  - **Resolution test** Either provide additional simulation data showing that folded states expose epitopes in a conformation compatible with antibody or T-cell receptor binding, or cite experimental evidence from prior studies that directly demonstrates this transition in MS. Alternatively, soften the claim to a hypothesis.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title (location not provided)
+  - **Issue** The phrase "black box" is metaphorical and may be unclear to readers unfamiliar with the context. It does not convey the specific scientific question addressed.
+  - **Required correction** Replace with a more descriptive phrase, such as "unresolved role" or "understudied mechanism."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract, methods (location not provided)
+  - **Issue** The abstract does not specify the simulation length, force field, water model, or how the myelin sheath was represented. These details are essential for reproducibility.
+  - **Required correction** Include key simulation parameters in the abstract or refer to a methods section with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Protein classification
+  - **Evidence pointer** Abstract, introduction (location not provided)
+  - **Issue** The abstract states that MBP and MOBP are "moonlighting intrinsically disordered proteins," but this term is not defined. Moonlighting typically refers to multifunctional proteins, and the connection to disorder is not self-evident.
+  - **Required correction** Briefly define moonlighting in this context or clarify how the dual function relates to disorder.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of quantitative simulation data and the unsupported causal link between folding and immune recognition prevent the case from being established from the supplied abstract.
+- **Assessment against Nature-style criteria** 
+  - Originality: The hypothesis linking IDR dynamics to epitope exposure in MS is moderately original, but similar concepts have been proposed for other neurodegenerative diseases.
+  - Scientific importance: If validated, the work could have significant implications for understanding MS autoimmunity, but the current evidence is preliminary.
+  - Interdisciplinary readership: The topic bridges computational biology, structural biology, and immunology, which could attract a broad audience, but the abstract is too technical for nonspecialists without context.
+  - Technical soundness: Cannot be assessed from the abstract alone; simulation methods and analyses are not described in sufficient detail.
+  - Readability for nonspecialists: The abstract uses jargon (e.g., IDR, moonlighting) without adequate explanation, and the logical flow from simulations to disease mechanism is not fully transparent.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an intriguing hypothesis but lacks the quantitative data and direct evidence needed to support the central claims. I would be supportive if the full manuscript provides rigorous simulation analyses and either experimental validation or clearly framed speculation for the immune recognition step.
+
+## Risk / unsupported claims
+- The claim that IDRs "dominate" structural dynamics is unsupported without comparative quantitative metrics.
+- The claim that IDRs are "responsible for" myelin sheath interaction is unsupported without interaction energy or contact analysis.
+- The claim that epitope folding leads to immune recognition and demyelination is unsupported by the simulation data described and is presented as a definitive conclusion rather than a hypothesis.
+- The general statement that IDPs play a "crucial role" in multiple neurodegenerative diseases is asserted without citation or evidence in the abstract.

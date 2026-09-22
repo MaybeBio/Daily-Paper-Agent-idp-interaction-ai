@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34916288",
+  "title": "Amphiphilic proteins coassemble into multiphasic condensates and act as biomolecular surfactants.",
+  "authors": "Kelley, Fleurie M; Favetta, Bruna; Regy, Roshan Mammen; Mittal, Jeetain; Schuster, Benjamin S",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2021-12-18",
+  "window": {
+    "start": "2021-12-13",
+    "end": "2021-12-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过设计两亲性蛋白（含IDR RGG域）与相分离蛋白共组装形成多相凝聚体，结合分子模拟揭示表面活性剂样蛋白调控凝聚体尺寸与结构的机制，直接涉及IDR介导的PPI与相分离机制建模。",
+  "abstract": "Cells contain membraneless compartments that assemble due to liquid-liquid phase separation, including biomolecular condensates with complex morphologies. For instance, certain condensates are surrounded by a film of distinct composition, such as Ape1 condensates coated by a layer of Atg19, required for selective autophagy in yeast. Other condensates are multiphasic, with nested liquid phases of distinct compositions and functions, such as in the case of ribosome biogenesis in the nucleolus. The size and structure of such condensates must be regulated for proper biological function. We leveraged a bioinspired approach to discover how amphiphilic, surfactant-like proteins may contribute to the structure and size regulation of biomolecular condensates. We designed and examined families of amphiphilic proteins comprising one phase-separating domain and one non-phase-separating domain. In particular, these proteins contain the soluble structured domain glutathione S-transferase (GST) or maltose binding protein (MBP), fused to the intrinsically disordered RGG domain from P granule protein LAF-1. When one amphiphilic protein is mixed in vitro with RGG-RGG, the proteins assemble into enveloped condensates, with RGG-RGG at the core and the amphiphilic protein forming the surface film layer. Importantly, we found that MBP-based amphiphiles are surfactants and influence droplet size, with increasing surfactant concentration resulting in smaller droplet radii. In contrast, GST-based amphiphiles at increased concentrations coassemble with RGG-RGG into multiphasic structures. We propose a mechanism for these experimental observations, supported by molecular simulations of a minimalist model. We speculate that surfactant proteins may play a significant role in regulating the structure and function of biomolecular condensates.",
+  "abstract_zh": "细胞含有无膜区室，这些区室通过液-液相分离 (liquid-liquid phase separation) 组装而成，包括具有复杂形态的生物分子凝聚体 (biomolecular condensates)。例如，某些凝聚体被一层不同组成的薄膜包围，如Ape1凝聚体被Atg19层包覆，这是酵母中选择性自噬所必需的。其他凝聚体是多相的，具有嵌套的不同组成和功能的液相，例如核仁中的核糖体生物发生。此类凝聚体的大小和结构必须受到调控，以确保正确的生物学功能。我们利用一种仿生方法，发现两亲性、类表面活性剂蛋白如何可能促进生物分子凝聚体的结构和大小调控。我们设计并研究了包含一个相分离结构域和一个非相分离结构域的两亲性蛋白家族。特别地，这些蛋白包含可溶性结构域谷胱甘肽S-转移酶 (glutathione S-transferase, GST) 或麦芽糖结合蛋白 (maltose binding protein, MBP)，与来自P颗粒蛋白LAF-1的内在无序RGG结构域融合。当一种两亲性蛋白在体外与RGG-RGG混合时，蛋白质组装成包被的凝聚体，核心为RGG-RGG，两亲性蛋白形成表面膜层。重要的是，我们发现基于MBP的两亲性分子是表面活性剂，并影响液滴大小，增加表面活性剂浓度导致液滴半径减小。相反，基于GST的两亲性分子在增加浓度时，与RGG-RGG共组装成多相结构。我们提出了一种机制来解释这些实验观察结果，并通过最小模型的分子模拟 (molecular simulations) 加以支持。我们推测，表面活性剂蛋白可能在调控生物分子凝聚体的结构和功能中发挥重要作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34916288/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34916288/",
+  "paper_page_path": "papers/pubmed/34916288/index.html"
+}

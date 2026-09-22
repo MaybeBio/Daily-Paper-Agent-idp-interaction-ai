@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41301496",
+  "title": "Molecular Dynamics Study of alpha-Synuclein Domain Deletion Mutant Monomers.",
+  "authors": "Onishi, Noriyo; Mazzaferro, Nicodemo; Kunstelj, Spela; Alvarado, Daisy A; Muller, Anna M; Vazquez, Frank X",
+  "journal": "Biomolecules",
+  "published_date": "2025-11-27",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 8,
+  "one_liner_zh": "用高斯加速分子动力学模拟α-突触核蛋白（IDP）及其截短突变体，揭示结构域间互作对构象紧凑性和膜结合静电势的调控机制，虽非直接PPI但聚焦IDP构象与互作机制建模，方法可迁移。",
+  "abstract": "Aggregates of misfolded alpha-synuclein proteins are key markers of Parkinson's disease. The protein alpha-synuclein (aSyn) is an intrinsically disordered protein (IDP) and therefore lacks a single stable 3D structure, instead sampling multiple conformations in solution. It is primarily located in presynaptic terminals and is thought to help regulate synaptic vesicle trafficking and neurotransmitter release. ASyn proteins have three domains: an N-terminal domain, a hydrophobic non-amyloid-beta component (NAC) core implicated in aggregation, and a proline-rich C-terminal domain. Asyn proteins with truncated C-terminal domains are known to be prone to aggregation and suggest that understanding domain-domain interactions in aSyn monomers could help elucidate the role of the flanking domains in modulating protein structure. To this end, we used Gaussian accelerated molecular dynamics (GAMD) to simulate wild-type (WT), N-terminal truncated (DeltaN), C-terminal truncated (DeltaC), and isolated NAC domain (isoNAC) aSyn protein variants. Using clustering and contact analysis, we found that removal of the N-terminal domain led to increased contacts between NAC and C-terminal domains and the formation of inter-domain beta-sheets. Removal of either flanking domain also resulted in increased compactness of every domain. We also found that the contacts between flanking domains in the WT protein result in an electrostatic potential (ESP) that may lead to favorable interactions with anionic lipid membranes. Removal of the C-terminal domain disrupts the ESP in a way that could result in over-stabilized protein-membrane interactions. These results suggest that cooperation between the flanking domains may modulate the protein's structure in a way that helps maintain elongation and creates an ESP that may aid favorable interactions with the membrane.",
+  "abstract_zh": "错误折叠的α-突触核蛋白聚集体是帕金森病的关键标志物。α-突触核蛋白（aSyn）是一种固有无序蛋白（IDP），因此缺乏单一稳定的三维结构，而是在溶液中采样多种构象。它主要位于突触前末端，被认为有助于调节突触囊泡运输和神经递质释放。ASyn蛋白具有三个结构域：N端结构域、与聚集相关的疏水性非淀粉样β组分（NAC）核心，以及富含脯氨酸的C端结构域。已知C端结构域截短的ASyn蛋白易于聚集，这表明理解aSyn单体中的结构域间相互作用可能有助于阐明侧翼结构域在调节蛋白质结构中的作用。为此，我们使用高斯加速分子动力学（GAMD）模拟了野生型（WT）、N端截短（DeltaN）、C端截短（DeltaC）和分离的NAC结构域（isoNAC）aSyn蛋白变体。通过聚类和接触分析，我们发现去除N端结构域导致NAC与C端结构域之间的接触增加，并形成结构域间β-折叠。去除任一侧翼结构域也导致每个结构域的紧凑性增加。我们还发现，WT蛋白中侧翼结构域之间的接触产生了一种静电势（ESP），这可能有利于与阴离子脂质膜发生有利相互作用。去除C端结构域会以可能导致蛋白质-膜相互作用过度稳定的方式破坏ESP。这些结果表明，侧翼结构域之间的协同作用可能以有助于维持延伸并产生可能促进与膜有利相互作用的ESP的方式调节蛋白质结构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41301496/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41301496/",
+  "paper_page_path": "papers/pubmed/41301496/index.html"
+}

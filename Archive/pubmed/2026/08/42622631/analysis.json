@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42622631",
+  "title": "Recombinant SpTrf proteins illustrate putative functions of native SpTrf proteins: from immune response to resolution in sea urchins.",
+  "authors": "Crow, Ryley S; Grubb, Christopher; Meisel, Joseph W; Smith, L Courtney",
+  "journal": "Journal of immunology (Baltimore, Md. : 1950)",
+  "published_date": "2026-08-20",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究海胆SpTrf蛋白的免疫功能，提出无序蛋白结合病原体后构象转变并增强吞噬的假说，但无PPI机制建模或AI/物理模拟方法，仅间接涉及无序蛋白。",
+  "abstract": "The complex and sophisticated sea urchin innate immune system relies on conserved immune receptor and effector molecules plus the euechinoid-specific Transformer family. Native SpTransformer (natSpTrf) proteins in Strongylocentrotus purpuratus respond to immune challenge by augmenting phagocytosis of microbes. These proteins show significant sequence diversity both within and among sea urchins with the predicted benefit of host protection through the recognition of a broad range of pathogens. Prior reports show that 6 recombinant (r)SpTrf proteins from insect cells induce phagocytosis when cross-linked to inert beads. Soluble rSpTrf proteins bind phagocytes, which respond by downregulating expression of the SpTrf gene family and SpIL17-9. Here we extend this analysis to determine the rSpTrf protein binding targets and find that they fail to bind pathogen-associated molecular patterns (PAMPs) and bacteria. Similarly, Ni-isolated natSpTrf proteins also fail to bind the same PAMPs. The insect cells add posttranslational modifications to the rSpTrf proteins that impart protein stability and impact predicted structure. Together with prior results, our findings suggest a working hypothesis for the natSpTrf proteins in vivo in which disordered natSpTrf proteins bind to pathogens, transform to secondary structure, and augment phagocytosis leading to pathogen clearance. Upon pathogen clearance, unbound natSpTrf proteins transform, multimerize, and bind to phagocytes. The cellular response adjusts expression of the SpTrf genes and SpIL17-9 to the threat level. This hypothesis suggests that the natSpTrf proteins participate in immune responses to foreign challenge but also function in immune resolution after pathogen clearance.",
+  "abstract_zh": "复杂而精细的海胆先天免疫系统依赖于保守的免疫受体和效应分子，以及真海胆特有的Transformer家族。Strongylocentrotus purpuratus中的天然SpTransformer（natSpTrf）蛋白通过增强对微生物的吞噬作用来应对免疫挑战。这些蛋白在海胆个体内及个体间均表现出显著的序列多样性，其预测益处是通过识别广泛范围的病原体来提供宿主保护。先前报告显示，来自昆虫细胞的6种重组（r）SpTrf蛋白在与惰性珠子交联时诱导吞噬作用。可溶性rSpTrf蛋白结合吞噬细胞，后者通过下调SpTrf基因家族和SpIL17-9的表达来响应。在此，我们扩展此分析以确定rSpTrf蛋白的结合靶标，并发现它们不结合病原体相关分子模式（PAMPs）和细菌。同样，Ni分离的natSpTrf蛋白也不结合相同的PAMPs。昆虫细胞对rSpTrf蛋白添加翻译后修饰，这些修饰赋予蛋白稳定性并影响预测结构。结合先前结果，我们的发现提出了natSpTrf蛋白在体内的一个工作假说，其中无序的natSpTrf蛋白结合病原体，转变为二级结构，并增强吞噬作用导致病原体清除。病原体清除后，未结合的natSpTrf蛋白转变、多聚化，并结合吞噬细胞。细胞响应根据威胁水平调整SpTrf基因和SpIL17-9的表达。此假说表明，natSpTrf蛋白参与对外来挑战的免疫反应，但也参与病原体清除后的免疫消退功能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42622631/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42622631/",
+  "paper_page_path": "papers/pubmed/42622631/index.html"
+}

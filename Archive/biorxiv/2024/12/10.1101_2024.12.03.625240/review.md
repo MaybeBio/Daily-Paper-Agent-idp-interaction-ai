@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report high-throughput measurement of relative binding strengths of approximately 100,000 peptides against 11 human cyclins from five cyclin families (D, E, A, B, F), using a quantitative intracellular binding assay and large-scale tiled peptide screening. They identify non-canonical cyclin docking motif types, characterize distinct binding modes and sequence features via structural and saturation mutagenesis studies, and propose that docking motifs range from highly selective to pan-cyclin, thereby fine-tuning the timing of CDK phosphorylation during cell cycle progression.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods, statistical analyses, structural data, and validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding cyclin-CDK substrate recognition through large-scale peptide binding measurements. The scope of the work, covering 100,000 peptides across 11 cyclins, is impressive and could provide a valuable resource for the field. However, the abstract alone does not provide sufficient detail to evaluate the technical rigor, data quality, or the strength of the structural and functional conclusions. Several claims, particularly regarding the breadth of non-canonical binders and the functional consequences for cell cycle timing, require supporting evidence that is not visible in the abstract.
+- **Who would be interested in the results, and why** Cell cycle biologists, structural biologists studying protein-protein interactions, and researchers in kinase signaling and substrate specificity. The work could also interest computational biologists developing motif discovery and prediction tools, as well as pharmaceutical scientists targeting cyclin-CDK complexes for cancer therapy.
+- **Major strengths** The large-scale quantitative approach (approximately 100,000 peptides) represents a substantial technical undertaking that could yield a comprehensive dataset. The inclusion of 11 cyclins from five families allows for systematic comparison of specificity determinants. The combination of binding measurements with structural and saturation mutagenesis studies suggests a multi-pronged approach that could provide mechanistic depth.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim to measure "relative binding strength of approximately 100,000 peptides to 11 human cyclins" using a "quantitative intracellular binding assay."  
+  - **Evidence pointer** Methods section not provided; location not provided  
+  - **Concern** The abstract does not describe the assay design, including how binding strength is quantified, what dynamic range is achieved, how false positives and negatives are controlled, and whether the intracellular environment introduces confounding factors such as peptide degradation, localization, or competition with endogenous proteins.  
+  - **Why it matters** Without details on assay validation, reproducibility, and error rates, the reliability of the large-scale dataset cannot be assessed. The claim of "quantitative" measurement requires demonstration of accuracy and precision.  
+  - **Resolution test** Provide detailed methods including assay controls, replicate analyses, calibration against known binders, and statistical thresholds for defining binders versus non-binders.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for conclusions  
+  - **Claim pointer** The authors state that they "identified a range of non-canonical binders that unveil a broader than anticipated repertoire of cyclin docking motif types."  
+  - **Evidence pointer** Results section not provided; location not provided  
+  - **Concern** The abstract does not specify what constitutes "non-canonical" relative to known motifs, how many such binders were identified, or whether these were validated by orthogonal methods. The claim of a "broader than anticipated repertoire" requires a clear definition of the prior expectation and a statistical comparison.  
+  - **Why it matters** This is a central claim of the paper. If the non-canonical motifs are not robustly validated or if the comparison baseline is unclear, the conclusion may be overstated.  
+  - **Resolution test** Define canonical motifs explicitly, show enrichment statistics for non-canonical binders, and provide independent validation (e.g., mutagenesis or biophysical measurements) for a representative subset.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for conclusions  
+  - **Claim pointer** The authors claim that "docking motifs vary from highly selective to pan-cyclin, thereby fine-tuning the timing of CDK phosphorylation during cell cycle progression."  
+  - **Evidence pointer** Results section not provided; location not provided  
+  - **Concern** The functional link between motif selectivity and phosphorylation timing is asserted but not demonstrated in the abstract. No data are shown connecting binding preferences to actual phosphorylation events in cells or to cell cycle phenotypes.  
+  - **Why it matters** This is a mechanistic and physiological claim that extends beyond binding measurements. Without functional validation, the relevance of the observed binding patterns to cell cycle control remains speculative.  
+  - **Resolution test** Provide experimental evidence linking motif selectivity to phosphorylation of endogenous substrates or to cell cycle progression phenotypes, or temper the claim to reflect that this is a hypothesis.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that "structural and saturation mutagenesis studies revealed distinct binding modes and sequence features that govern motif recognition, binding strength, and cyclin preference."  
+  - **Evidence pointer** Structural data and mutagenesis sections not provided; location not provided  
+  - **Concern** The abstract does not indicate which cyclin-motif complexes were structurally characterized, at what resolution, or how saturation mutagenesis was performed and analyzed. The link between structural observations and the quantitative binding data is unclear.  
+  - **Why it matters** Structural claims require specific evidence of quality and interpretation. Without details, the mechanistic insights cannot be evaluated.  
+  - **Resolution test** Provide structural statistics, representative electron density or model quality metrics, and a clear description of the saturation mutagenesis library design and analysis.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "master regulators of cell division" is a general statement that does not add specific information.  
+  - **Required correction** Consider replacing with a more specific statement about the role of cyclin-CDKs in substrate phosphorylation.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, overall  
+  - **Issue** The abstract does not mention the number of replicates, statistical methods, or how the 100,000 peptides were designed (e.g., tiling strategy, sequence diversity).  
+  - **Required correction** Add brief methodological details to allow readers to gauge the robustness of the dataset.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Abstract, final sentence  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The phrase "unprecedented depth of understanding" is subjective and not supported by comparative statements in the abstract.  
+  - **Required correction** Replace with a more measured statement that describes the specific advances without superlatives.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (assay validation and quantitative rigor), R1-M2 (definition and validation of non-canonical motifs), R1-M3 (functional link to phosphorylation timing), R1-M4 (structural and mutagenesis evidence quality)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The approach of large-scale peptide binding profiling across multiple cyclins appears novel and could offer new insights into docking motif diversity. However, the abstract does not clearly differentiate this work from prior motif discovery efforts.  
+  - **Scientific importance** If the claims are fully supported, the work could significantly advance understanding of cyclin-CDK substrate specificity and its regulation. The potential resource value of the dataset is high.  
+  - **Interdisciplinary readership** The topic is of interest to cell cycle biologists, structural biologists, and biochemists. The abstract is written in a way that is accessible to these audiences, though specialists in other fields may require more context.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The lack of methodological detail and validation data is a major limitation.  
+  - **Readability for nonspecialists** The abstract is concise and generally clear, but terms such as "docking motifs" and "saturation mutagenesis" may be unfamiliar to a broad audience. The abstract does not provide sufficient context for nonspecialists to appreciate the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting and potentially important study, but the absence of methods, data, and validation details prevents a rigorous assessment of the claims. A full review of the complete manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim of "broader than anticipated repertoire of cyclin docking motif types" is unsupported without a defined baseline and statistical comparison.
+- The claim that docking motifs "fine-tune the timing of CDK phosphorylation during cell cycle progression" is unsupported without functional data.
+- The claim of "unprecedented depth of understanding" is subjective and not verifiable from the abstract.
+- The quantitative accuracy and reproducibility of the binding measurements cannot be assessed without methods and validation data.
+- The structural interpretations and their link to binding preferences cannot be evaluated without structural statistics and mutagenesis details.

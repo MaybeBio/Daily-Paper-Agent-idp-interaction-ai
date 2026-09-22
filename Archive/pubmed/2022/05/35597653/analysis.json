@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35597653",
+  "title": "Controlling cluster size in 2D phase-separating binary mixtures with specific interactions.",
+  "authors": "Palaia, Ivan; Saric, Andela",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2022-05-22",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用patchy胶体分子动力学模拟二维相分离二元混合物中异型蛋白互作对簇尺寸的控制，虽对象为模型胶体而非真实IDP，但聚焦相分离中PPI介导的成簇动力学与尺寸选择机制，其建模思路对无序蛋白凝聚体互作机制研究有直接启发。",
+  "abstract": "By varying the concentration of molecules in the cytoplasm or on the membrane, cells can induce the formation of condensates and liquid droplets, similar to phase separation. Their thermodynamics, much studied, depends on the mutual interactions between microscopic constituents. Here, we focus on the kinetics and size control of 2D clusters, forming on membranes. Using molecular dynamics of patchy colloids, we model a system of two species of proteins, giving origin to specific heterotypic bonds. We find that concentrations, together with valence and bond strength, control both the size and the growth time rate of the clusters. In particular, if one species is in large excess, it gradually saturates the binding sites of the other species; the system then becomes kinetically arrested and cluster coarsening slows down or stops, thus yielding effective size selection. This phenomenology is observed both in solid and fluid clusters, which feature additional generic homotypic interactions and are reminiscent of the ones observed on biological membranes.",
+  "abstract_zh": "通过改变细胞质或膜上分子的浓度，细胞可以诱导凝聚体和液滴的形成，类似于相分离（phase separation）。其热力学性质已被广泛研究，取决于微观组分之间的相互作用。在此，我们聚焦于膜上形成的二维团簇的动力学和尺寸控制。利用斑块胶体（patchy colloids）的分子动力学（molecular dynamics），我们模拟了一个由两种蛋白质组成的系统，这些蛋白质产生特定的异型键。我们发现，浓度连同价态和键强度，共同控制团簇的尺寸和生长速率。特别是，当一种物种过量时，它会逐渐饱和另一种物种的结合位点；系统随后变得动力学停滞，团簇粗化减慢或停止，从而产生有效的尺寸选择。这一现象在固态和流体团簇中均观察到，这些团簇具有额外的通用同型相互作用，并让人联想到在生物膜上观察到的现象。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35597653/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35597653/",
+  "paper_page_path": "papers/pubmed/35597653/index.html"
+}

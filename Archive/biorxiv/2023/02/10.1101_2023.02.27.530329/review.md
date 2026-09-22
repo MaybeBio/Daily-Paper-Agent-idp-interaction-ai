@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present FREEDA, an automated computational pipeline with a graphical user interface that integrates molecular evolution tools to detect positive selection and maps results onto AlphaFold-predicted protein structures. Applying FREEDA to over 100 mouse centromere proteins, they report evidence of positive selection in intrinsically disordered regions of ancient domains, and they provide a proof-of-principle experiment showing innovation in centromere binding of CENP-O.
+- **Visible evidence base** Abstract text only; no quantitative results, statistical details, pipeline architecture descriptions, or experimental protocols are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, figures, tables, supplementary data, software availability details, and experimental validation data
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful tool that addresses a real gap in accessibility of positive selection detection for cell biologists. The integration of established molecular evolution methods with AlphaFold structure mapping is a sensible design choice. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the pipeline, the statistical rigor of the positive selection analyses, or the validity of the experimental proof-of-principle. The claim that positive selection in intrinsically disordered regions of ancient domains suggests innovation of essential functions is intriguing but under-supported in the abstract. The CENP-O experiment is mentioned without any details on design, controls, or results. The work has potential interest for cell biologists and evolutionary biologists, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Cell biologists studying protein function and evolution, particularly those working on centromere and kinetochore biology, would be the primary audience. Evolutionary biologists interested in positive selection detection methods and the application of such tools to non-model systems may also find the pipeline useful. The accessibility angle, via a graphical user interface, could broaden adoption among experimental biologists who lack computational expertise.
+- **Major strengths** The tool addresses a clear accessibility gap by providing a user-friendly interface for complex evolutionary analyses. The integration of positive selection detection with AlphaFold structure mapping is a practical and potentially powerful combination. The application to a large set of centromere proteins provides a substantive test case. The inclusion of an experimental validation, even if under-described in the abstract, demonstrates an intent to connect computational predictions with functional testing.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that FREEDA "integrates widely used molecular evolution tools to detect positive selection" and "maps results onto protein structures predicted by AlphaFold."
+  - **Evidence pointer** Methods section not provided; location not provided
+  - **Concern** The abstract provides no details on which specific molecular evolution tools are integrated, how they are configured, what parameters are used, how multiple testing is handled, or how the pipeline validates its outputs. The mapping of positive selection signals onto AlphaFold structures is mentioned but the methodology for this mapping, including how disordered regions are defined and how selection signals are assigned to structural elements, is not described.
+  - **Why it matters** Without details on the underlying methods and their implementation, the reliability of the pipeline's outputs cannot be assessed. Positive selection detection is sensitive to alignment quality, model choice, and statistical thresholds. If the pipeline does not handle these appropriately, the biological conclusions drawn from its outputs could be misleading.
+  - **Resolution test** Provide a detailed methods section describing the specific tools, parameters, quality control steps, and statistical thresholds used. Include validation of the pipeline on datasets with known positive selection signals and demonstrate reproducibility.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The abstract claims "evidence of positive selection in intrinsically disordered regions of ancient domains" based on application to ">100 mouse centromere proteins."
+  - **Evidence pointer** Results section not provided; location not provided
+  - **Concern** The abstract reports a broad finding across a large protein set but provides no statistical details. It is unclear how many proteins showed significant signals, what the effect sizes were, how false discovery rates were controlled, and whether the enrichment in intrinsically disordered regions was tested against an appropriate null model. The term "ancient domains" is not defined, and the evolutionary framework for identifying such domains is not described.
+  - **Why it matters** The central biological claim of the paper rests on this analysis. Without statistical rigor, the claim that positive selection in disordered regions of ancient domains suggests innovation of essential functions is not supported. Over-interpretation of positive selection signals, especially in regions with low compositional complexity, is a known pitfall.
+  - **Resolution test** Provide full statistical results, including the number of significant genes, the distribution of selection signals, the definition and identification of ancient domains, and appropriate controls for multiple testing and confounding factors such as alignment errors or biased gene conversion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The abstract claims "as a proof-of-principle experiment, we show innovation in centromere binding of CENP-O."
+  - **Evidence pointer** Experimental methods and results not provided; location not provided
+  - **Concern** The experimental validation is described in a single sentence with no information on the experimental design, the specific mutations tested, the assays used, the controls included, or the quantitative outcomes. It is impossible to evaluate whether the experiment actually demonstrates functional innovation or whether the results are robust.
+  - **Why it matters** The experimental proof-of-principle is a key differentiator of this work, as it aims to show that computational predictions can guide functional testing. Without details, the claim of experimental demonstration is unverifiable and the link between prediction and validation cannot be assessed.
+  - **Resolution test** Provide a full description of the experimental methods, including the specific CENP-O variants tested, the binding assays used, the statistical analysis of the results, and appropriate controls. Show that the experimental outcomes align with the computational predictions in a meaningful way.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and accessibility
+  - **Affected element** Pipeline description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that FREEDA "provides a simple graphical user interface requiring only a gene name" but does not clarify the input requirements beyond a gene name, such as the need for a reference genome, species information, or sequence data.
+  - **Required correction** Clarify the minimal input requirements and the types of data the user must supply, such as a genome assembly or a set of orthologous sequences.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Software availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention where the FREEDA software can be accessed, its license, or its dependencies.
+  - **Required correction** State the software availability, including a repository URL, version, and dependency information, in the abstract or the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Definition of "innovation"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "innovation" is used repeatedly but is not defined. It is unclear whether it refers to new functional capabilities, changes in binding specificity, or simply the accumulation of positively selected sites.
+  - **Required correction** Provide a clear operational definition of "innovation" in the context of this work, distinguishing it from general adaptation or divergence.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The pipeline's technical implementation, the statistical basis of the positive selection findings, and the experimental validation are all unassessable from the abstract alone. These are essential to establishing the credibility of the tool and the biological claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of an accessible GUI with positive selection detection and AlphaFold structure mapping is a novel integration, though the individual components are established. The application to centromere proteins is a fresh context.
+  - Scientific importance: If the biological claims hold, the work could provide new insights into centromere protein evolution and the role of disordered regions in functional innovation. The tool could also lower barriers for cell biologists to use evolutionary analyses. However, the importance is contingent on the validity of the findings.
+  - Interdisciplinary readership: The work bridges evolutionary biology, computational biology, and cell biology, which could appeal to a broad audience. The accessibility angle is a strength for nonspecialists.
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail is a major limitation.
+  - Readability for nonspecialists: The abstract is generally clear and avoids excessive jargon, which is appropriate for a broad audience. The concept of positive selection is introduced in an accessible way.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising tool and an interesting biological hypothesis, but the technical details, statistical rigor, and experimental validation are all missing. A full manuscript with methods, results, and validation would be required to assess whether the claims are supported. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that FREEDA is "automated" and "simple" cannot be evaluated without details on the user interface and the required computational resources.
+- The claim of positive selection in intrinsically disordered regions of ancient domains is unsupported without statistical details and a clear definition of "ancient domains."
+- The claim of experimental demonstration of innovation in CENP-O centromere binding is unsupported without experimental methods and results.
+- The general claim that the pipeline "guides experimental testing" is not substantiated beyond the single, under-described CENP-O example.

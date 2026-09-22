@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34206440",
+  "title": "Liquid-Liquid Phase Separation in the Presence of Macromolecular Crowding and State-dependent Kinetics.",
+  "authors": "Vweza, Alick-O; Song, Chul-Gyu; Chong, Kil-To",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-07-03",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用场论模拟研究大分子拥挤对液-液相分离动力学的影响，虽未直接聚焦特定无序蛋白PPI，但相分离机制建模思路对IDR介导互作与凝聚体研究有可迁移启发。",
+  "abstract": "Biomolecular condensates formed via liquid-liquid phase separation (LLPS) are increasingly being shown to play major roles in cellular self-organization dynamics in health and disease. It is well established that macromolecular crowding has a profound impact on protein interactions, particularly those that lead to LLPS. Although synthetic crowding agents are used during in vitro LLPS experiments, they are considerably different from the highly crowded nucleo-/cytoplasm and the effects of in vivo crowding remain poorly understood. In this work, we applied computational modeling to investigate the effects of macromolecular crowding on LLPS. To include biologically relevant LLPS dynamics, we extended the conventional Cahn-Hilliard model for phase separation by coupling it to experimentally derived macromolecular crowding dynamics and state-dependent reaction kinetics. Through extensive field-theoretic computer simulations, we show that the inclusion of macromolecular crowding results in late-stage coarsening and the stabilization of relatively smaller condensates. At a high crowding concentration, there is an accelerated growth and late-stage arrest of droplet formation, effectively resulting in anomalous labyrinthine morphologies akin to protein gelation observed in experiments. These results not only elucidate the crowder effects observed in experiments, but also highlight the importance of including state-dependent kinetics in LLPS models, and may help in designing further experiments to probe the intricate roles played by LLPS in self-organization dynamics of cells.",
+  "abstract_zh": "通过液-液相分离（liquid-liquid phase separation, LLPS）形成的生物分子凝聚体，日益被证明在健康和疾病状态下的细胞自组织动力学中扮演重要角色。众所周知，大分子拥挤对蛋白质相互作用有深远影响，尤其是那些导致LLPS的相互作用。尽管在体外LLPS实验中使用了合成拥挤剂，但它们与高度拥挤的核/细胞质环境差异显著，体内拥挤效应仍知之甚少。在本工作中，我们应用计算建模来研究大分子拥挤对LLPS的影响。为纳入生物学相关的LLPS动力学，我们扩展了传统的Cahn-Hilliard相分离模型，将其与实验导出的大分子拥挤动力学及状态依赖性反应动力学耦合。通过广泛的场论计算机模拟，我们表明，纳入大分子拥挤会导致后期粗化及相对较小凝聚体的稳定化。在高拥挤浓度下，液滴形成出现加速生长和后期停滞，有效导致类似实验中观察到的蛋白质凝胶化的异常迷宫状形态。这些结果不仅阐明了实验中观察到的拥挤效应，还强调了在LLPS模型中纳入状态依赖性动力学的重要性，并可能有助于设计进一步实验，以探究LLPS在细胞自组织动力学中所扮演的复杂角色。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34206440/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34206440/",
+  "paper_page_path": "papers/pubmed/34206440/index.html"
+}

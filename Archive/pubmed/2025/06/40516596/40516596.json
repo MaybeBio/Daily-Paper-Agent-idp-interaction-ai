@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "40516596",
+    "doi": "10.1016/j.jmb.2025.169295",
+    "title": "ATP as a Key Modulator of Fused-in-sarcoma Phase Separation and Aggregation: Insights into Amyotrophic Lateral Sclerosis Pathogenesis."
+  },
+  "content": {
+    "abstract": "Fused in sarcoma (FUS) is an RNA-binding protein, the aberrant aggregation of which is linked to amyotrophic lateral sclerosis (ALS). Liquid-liquid phase separation (LLPS) of FUS facilitates functional condensate formation and can drive pathological aggregation under certain conditions. The aggregation-inhibitory effects of ATP, a key cellular hydrotrope, have been reported for multiple proteins; however, how ATP, present at approximately 1-12 mM concentrations in cells, regulates LLPS and amyloid fibril formation remains unclear. Therefore, we investigated how ATP modulates the LLPS behavior and aggregation of FUS and its ALS-linked variants, R495X and P525L. ATP destabilized both normal LLPS and aberrant high-pressure LLPS (HP-LLPS), with a relatively strong inhibitory effect on HP-LLPS. Pressure-jump experiments demonstrated that ATP reduced the irreversible aggregation propensity of HP-LLPS, particularly in ALS variants that exhibited enhanced aggregation compared to that by wild-type FUS. Molecular dynamic simulations further revealed that the triphosphate and adenosine moieties of ATP synergistically disrupted intermolecular interactions that were crucial for phase separation, leveraging its amphipathic properties. Notably, ATP concentrations within the physiological range (1-12 mM) significantly inhibited FUS aggregation, suggesting a protective role in cellular environments. These results indicate that decreased intracellular ATP levels may exacerbate aberrant phase transitions of FUS, contributing to ALS onset. This study underscores the potential of ATP as a therapeutic modulator of protein phase separation and aggregation, providing valuable insights into the molecular mechanisms of ALS. Our findings open new avenues for targeting ATP-regulated pathways for treating neurodegenerative disorders.",
+    "keywords": [
+      "P525L",
+      "R495X",
+      "amyotrophic lateral sclerosis",
+      "liquid-liquid phase separation",
+      "pressure"
+    ],
+    "mesh_terms": [
+      "*RNA-Binding Protein FUS/metabolism/chemistry/genetics",
+      "*Amyotrophic Lateral Sclerosis/metabolism/pathology/genetics",
+      "*Adenosine Triphosphate/metabolism/chemistry",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Protein Aggregates",
+      "*Protein Aggregation, Pathological/metabolism",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kitamura, Keiji",
+        "Tsukui, Itta",
+        "Sasaki, Fuka",
+        "Shiramasa, Yutaro",
+        "Arayama, Miyu",
+        "Morishita, Manato",
+        "Oshima, Ayano",
+        "Kitazawa, Soichiro",
+        "Kameda, Tomoshi",
+        "Kitahara, Ryo"
+      ],
+      "short_names": [
+        "Kitamura K",
+        "Tsukui I",
+        "Sasaki F",
+        "Shiramasa Y",
+        "Arayama M",
+        "Morishita M",
+        "Oshima A",
+        "Kitazawa S",
+        "Kameda T",
+        "Kitahara R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Graduate School of Pharmacy, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan.",
+        "College of Pharmaceutical Sciences, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan.",
+        "Graduate School of Pharmacy, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan.",
+        "Graduate School of Pharmacy, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan.",
+        "College of Pharmaceutical Sciences, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan.",
+        "College of Pharmaceutical Sciences, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan.",
+        "Graduate School of Pharmacy, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan.",
+        "College of Pharmaceutical Sciences, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan.",
+        "Artificial Intelligence Research Center, National Institute of Advanced Industrial Science and Technology (AIST), 2-3-26, Aomi, Koto-ku, Tokyo 135-0064, Japan.",
+        "Graduate School of Pharmacy, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan; College of Pharmaceutical Sciences, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan. Electronic address: ryo@ph.ritsumei.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kitamura, Keiji",
+        "short_name": "Kitamura K",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Pharmacy, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Tsukui, Itta",
+        "short_name": "Tsukui I",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Sasaki, Fuka",
+        "short_name": "Sasaki F",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Pharmacy, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Shiramasa, Yutaro",
+        "short_name": "Shiramasa Y",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Pharmacy, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Arayama, Miyu",
+        "short_name": "Arayama M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Morishita, Manato",
+        "short_name": "Morishita M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Oshima, Ayano",
+        "short_name": "Oshima A",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Pharmacy, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Kitazawa, Soichiro",
+        "short_name": "Kitazawa S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Kameda, Tomoshi",
+        "short_name": "Kameda T",
+        "identifiers": [],
+        "affiliations": [
+          "Artificial Intelligence Research Center, National Institute of Advanced Industrial Science and Technology (AIST), 2-3-26, Aomi, Koto-ku, Tokyo 135-0064, Japan."
+        ]
+      },
+      {
+        "full_name": "Kitahara, Ryo",
+        "short_name": "Kitahara R",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Pharmacy, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan; College of Pharmaceutical Sciences, Ritsumeikan University, 1-1-1 Nojihigashi, Kusatsu, Shiga 525-8577, Japan. Electronic address: ryo@ph.ritsumei.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2025 Sep 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/15 04:45",
+    "fetched_at": "2026-09-21 19:48:09"
+  },
+  "links": {
+    "cites": [
+      "42521655",
+      "42059824"
+    ],
+    "refs": [],
+    "similar": [
+      "40516596",
+      "38632300",
+      "30205960",
+      "35943083",
+      "34624313",
+      "38029395",
+      "34156864",
+      "29547565",
+      "38593618",
+      "31188823",
+      "31022909",
+      "32976566",
+      "33580145",
+      "35709363",
+      "34787417",
+      "34233002",
+      "37009800",
+      "35445401",
+      "25192599",
+      "37130459",
+      "25912081",
+      "37158592",
+      "38862967",
+      "40468389",
+      "33547841",
+      "35297101",
+      "33159856",
+      "35320731",
+      "25173930",
+      "26317470",
+      "21856723",
+      "35858576",
+      "35134572",
+      "28707655",
+      "27311318",
+      "39756021",
+      "26174443",
+      "23041957",
+      "31368485",
+      "41311968",
+      "36841957",
+      "27343041",
+      "33097688",
+      "31290213",
+      "30455313",
+      "31240261",
+      "40659544",
+      "40413303",
+      "33670886",
+      "27381509",
+      "27731383",
+      "36690069",
+      "40063831",
+      "21810174",
+      "28790177",
+      "29362359",
+      "32687767",
+      "34299185",
+      "25792726",
+      "30982635",
+      "30349096",
+      "41303337",
+      "25656065",
+      "27600654",
+      "28273913",
+      "35459796",
+      "40422183",
+      "24013423",
+      "22493728",
+      "29677513",
+      "23681068",
+      "31630970",
+      "31917988",
+      "21452073",
+      "37906538",
+      "32422969",
+      "30442662",
+      "23867462",
+      "22934812",
+      "24280224",
+      "32758633",
+      "37179431",
+      "34681673",
+      "33311468",
+      "39167487",
+      "23046583",
+      "39495179",
+      "26795035",
+      "20699327",
+      "40267187",
+      "23847048",
+      "27033831",
+      "36261283",
+      "29035885",
+      "32691043",
+      "28094300",
+      "29053787",
+      "26603295",
+      "32307925",
+      "21327870"
+    ],
+    "review": [
+      "40516596",
+      "38029395",
+      "29547565",
+      "31022909",
+      "32976566",
+      "37009800",
+      "40468389",
+      "28707655",
+      "27311318",
+      "39756021",
+      "23041957",
+      "21810174",
+      "25656065",
+      "27600654",
+      "35459796",
+      "40422183",
+      "32422969",
+      "32758633"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(25)00361-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/amyotrophiclateralsclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyotrophic Lateral Sclerosis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-DLC1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-671",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

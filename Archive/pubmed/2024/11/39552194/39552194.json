@@ -1,0 +1,246 @@
+{
+  "identity": {
+    "pmid": "39552194",
+    "doi": "10.1080/07391102.2024.2427364",
+    "title": "Molecular origin of the differential stabilities of the protofilaments in different polymorphs: molecular dynamics simulation and deep learning."
+  },
+  "content": {
+    "abstract": "Fragments of alpha-synuclein, an intrinsically disordered protein, whose misfolding and aggregation are responsible for diseases like Parkinson's disease and others, can co-exist in different polymorphs like 'rod' and 'twister'. Their apparently stable structures have different degrees of tolerance to perturbations like point mutations. The molecular basis of this is investigated using molecular dynamics-based conformational sampling. A charge-swapping mutation, E46K, known to be a reason for the early onset of Parkinson's disease, has differential impact on two polymorphs, and its molecular reason has been probed by investigating the intra-fibril interaction network that is responsible for stabilizing the aggregates. Two different quaternary level arrangement of the peptides in two polymorphs, establishing two different types of interrelations between residues of the peptide monomers, form the basis of their differential stabilities; a Deep Neural Network (DNN)-based analysis has extracted different pairs of residues and their spatial proximities as features to distinguish the states of two polymorphs. It has revealed that difference in these molecular arrangements intrinsically assigns key roles to different sets of residues in two different forms, like a feedback loop from quaternary structure to sequence level; an important insight into the sequence-structure relationship in general. Such atomic level insights were substantiated with the proof of differences in the dynamic correlation between residue pairs, altered mobilities of the sidechains that affects packing and redistribution of the weightage of different principal modes of internal motions in different systems. The identification of key residues with altered significance in different polymorphs is likely to benefit the planned design of fibril breaking molecules.",
+    "keywords": [
+      "deep learning",
+      "fibril",
+      "molecular dynamics",
+      "principal component analysis",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Deep Learning",
+      "*alpha-Synuclein/chemistry/genetics",
+      "Protein Stability",
+      "Protein Conformation",
+      "Humans",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Basak, Premananda",
+        "Ray Chaudhuri, Nibedita",
+        "Basu, Debadrita",
+        "Ganguly, Debabani",
+        "Ghosh Dastidar, Shubhra"
+      ],
+      "short_names": [
+        "Basak P",
+        "Ray Chaudhuri N",
+        "Basu D",
+        "Ganguly D",
+        "Ghosh Dastidar S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biological Sciences, Bose Institute, Kolkata, India.",
+        "Biological Sciences, Bose Institute, Kolkata, India.",
+        "Biological Sciences, Bose Institute, Kolkata, India.",
+        "JIS Institute of Advanced Studies and Research Kolkata, JIS University, Kolkata, India.",
+        "Biological Sciences, Bose Institute, Kolkata, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Basak, Premananda",
+        "short_name": "Basak P",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences, Bose Institute, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Ray Chaudhuri, Nibedita",
+        "short_name": "Ray Chaudhuri N",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences, Bose Institute, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Basu, Debadrita",
+        "short_name": "Basu D",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences, Bose Institute, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Ganguly, Debabani",
+        "short_name": "Ganguly D",
+        "identifiers": [],
+        "affiliations": [
+          "JIS Institute of Advanced Studies and Research Kolkata, JIS University, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Ghosh Dastidar, Shubhra",
+        "short_name": "Ghosh Dastidar S",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Sciences, Bose Institute, Kolkata, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/18 06:22",
+    "fetched_at": "2026-09-21 12:46:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39552194",
+      "37036430",
+      "29364151",
+      "23374074",
+      "28075555",
+      "37489886",
+      "32457390",
+      "23607785",
+      "30190461",
+      "35580331",
+      "32015135",
+      "35625557",
+      "39046235",
+      "31695184",
+      "34502242",
+      "30065316",
+      "35836937",
+      "30030380",
+      "23374072",
+      "37189428",
+      "39957201",
+      "31815671",
+      "23505409",
+      "29191831",
+      "38458997",
+      "31699336",
+      "36866721",
+      "35981677",
+      "39172784",
+      "40207671",
+      "28460628",
+      "33333378",
+      "28292187",
+      "38964522",
+      "19795910",
+      "25389903",
+      "28710275",
+      "40410120",
+      "36278939",
+      "33933456",
+      "40912022",
+      "35907572",
+      "40189174",
+      "34161822",
+      "26723627",
+      "38700150",
+      "36379279",
+      "32159944",
+      "33625841",
+      "36871760",
+      "40853068",
+      "29715424",
+      "31111370",
+      "38857533",
+      "17530780",
+      "33581430",
+      "29601727",
+      "26950519",
+      "31903719",
+      "28914525",
+      "32623047",
+      "25830974",
+      "37061153",
+      "29969391",
+      "31181290",
+      "37433401",
+      "30769283",
+      "41410608",
+      "30184304",
+      "22067166",
+      "39756734",
+      "40268916",
+      "41067404",
+      "33972418",
+      "29678776",
+      "19576220",
+      "39412059",
+      "23583776",
+      "28939194",
+      "25869255",
+      "39984300",
+      "24010662",
+      "17714865",
+      "28650719",
+      "39196271",
+      "30853581",
+      "32394304",
+      "37462852",
+      "26931727",
+      "24114178",
+      "21684335",
+      "35233574",
+      "34716315",
+      "40490407",
+      "41301496",
+      "40878020",
+      "19538146",
+      "16247008",
+      "26147432",
+      "35130691"
+    ],
+    "review": [
+      "39552194",
+      "29364151",
+      "41410608",
+      "41067404",
+      "30853581"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2024.2427364?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2024.2427364",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

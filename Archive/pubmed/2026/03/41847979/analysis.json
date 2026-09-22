@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41847979",
+  "title": "Modulation of Nur77-DNA interactions by the glucocorticoid receptor.",
+  "authors": "Heling, Laurens W H J; Kovac, Kristina; de Vries, Carlie J M; Mashaghi, Alireza",
+  "journal": "The Biochemical journal",
+  "published_date": "2026-03-18",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过单分子实验探究GR和地塞米松对Nur77-DNA结合动力学的调控，对象为折叠转录因子与DNA互作，不涉及无序蛋白/IDR/PPI，且无AI或物理模拟方法，仅提供生物物理实验机制，与本课题关联微弱。",
+  "abstract": "Nuclear receptors (NRs) comprise a superfamily of (ligand-)regulated transcription factors that are pivotal in orchestrating gene networks essential for development, metabolism, and cellular homeostasis. Their activity is critical for normal physiology, and consequently, dysregulation of NR signalling is implicated in a wide array of human diseases. Within this superfamily, the orphan nuclear receptor Nur77 and the glucocorticoid receptor (GR) are key regulators that exhibit significant cross-talk, primarily antagonistic, which is crucial for modulating inflammatory and stress responses. Despite the recognised importance of their interplay, the precise molecular mechanisms by which GR modulates Nur77's engagement with DNA remain incompletely defined. The present study elucidates the direct impact of GR and its ligand, dexamethasone (Dex), on the DNA binding dynamics of Nur77. Single-molecule DNA tightrope assays revealed that Nur77 employs a three-dimensional diffusion-based search mechanism on non-specific DNA, characterised by transient interactions with two distinct dissociation kinetic profiles. GR significantly stabilises Nur77-DNA interactions, evidenced by a shift towards longer residence times, primarily achieved by slowing the dissociation of the more transiently interacting Nur77 population. Conversely, single-molecule analysis and biochemical assays demonstrated that Dex alone markedly reduces Nur77's overall DNA binding affinity kinetics and frequency in a sequence-dependent manner, to such an extent that accurate quantification was unfeasible. These findings delineate distinct modulatory effects of the GR protein and its ligand on Nur77-DNA interactions, providing crucial biophysical insights into their complex regulatory interplay and revealing a direct, GR-independent impact of Dex on Nur77's DNA engagement.",
+  "abstract_zh": "核受体（Nuclear receptors, NRs）构成一个（配体）调控的转录因子超家族，在协调发育、代谢和细胞稳态所必需的基因网络中起关键作用。其活性对正常生理至关重要，因此，NR信号传导的失调与多种人类疾病相关。在该超家族中，孤儿核受体Nur77和糖皮质激素受体（glucocorticoid receptor, GR）是关键调控因子，它们表现出显著的相互作用，主要是拮抗性的，这对调节炎症和应激反应至关重要。尽管它们相互作用的的重要性已被认可，但GR调节Nur77与DNA结合的精确分子机制仍未完全阐明。本研究阐明了GR及其配体地塞米松（dexamethasone, Dex）对Nur77 DNA结合动力学的直接影响。单分子DNA tightrope实验揭示，Nur77在非特异性DNA上采用基于三维扩散的搜索机制，其特征为具有两种不同解离动力学谱的瞬时相互作用。GR显著稳定Nur77-DNA相互作用，表现为向更长停留时间的转变，主要通过减缓Nur77群体中更瞬时相互作用部分的解离来实现。相反，单分子分析和生化实验表明，单独使用Dex以序列依赖性方式显著降低Nur77的整体DNA结合亲和力动力学和频率，其程度使得精确量化不可行。这些发现描绘了GR蛋白及其配体对Nur77-DNA相互作用的截然不同的调节效应，为其复杂调控相互作用提供了关键生物物理见解，并揭示了Dex对Nur77 DNA结合的直接的、不依赖GR的影响。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41847979/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41847979/",
+  "paper_page_path": "papers/pubmed/41847979/index.html"
+}

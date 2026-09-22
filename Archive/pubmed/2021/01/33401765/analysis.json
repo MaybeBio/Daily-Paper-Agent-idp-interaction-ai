@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33401765",
+  "title": "Binding Ensembles of p53-MDM2 Peptide Inhibitors by Combining Bayesian Inference and Atomistic Simulations.",
+  "authors": "Lang, Lijun; Perez, Alberto",
+  "journal": "Molecules (Basel, Switzerland)",
+  "published_date": "2021-01-07",
+  "window": {
+    "start": "2021-01-04",
+    "end": "2021-01-10"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究用贝叶斯推断与原子模拟(MELD x MD)解析p53-MDM2体系中无序肽的折叠-结合机制，并区分不同肽的结合偏好，直接契合无序蛋白介导PPI的机制建模核心。",
+  "abstract": "Designing peptide inhibitors of the p53-MDM2 interaction against cancer is of wide interest. Computational modeling and virtual screening are a well established step in the rational design of small molecules. But they face challenges for binding flexible peptide molecules that fold upon binding. We look at the ability of five different peptides, three of which are intrinsically disordered, to bind to MDM2 with a new Bayesian inference approach (MELD x MD). The method is able to capture the folding upon binding mechanism and differentiate binding preferences between the five peptides. Processing the ensembles with statistical mechanics tools depicts the most likely bound conformations and hints at differences in the binding mechanism. Finally, the study shows the importance of capturing two driving forces to binding in this system: the ability of peptides to adopt bound conformations (DeltaGconformation) and the interaction between interface residues (DeltaGinteraction).",
+  "abstract_zh": "设计针对p53-MDM2相互作用的肽抑制剂以对抗癌症具有广泛兴趣。计算建模和虚拟筛选是合理设计小分子中成熟的一步。但对于结合柔性肽分子（这些分子在结合时折叠）面临挑战。我们通过一种新的贝叶斯推断方法（MELD x MD）考察了五种不同肽（其中三种本质无序）与MDM2结合的能力。该方法能够捕捉结合时的折叠机制，并区分五种肽之间的结合偏好。利用统计力学工具处理这些集合体，描绘了最可能的结合构象，并提示了结合机制中的差异。最后，研究强调了捕捉该系统中两种结合驱动力的重要性：肽采用结合构象的能力（DeltaGconformation）和界面残基之间的相互作用（DeltaGinteraction）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33401765/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33401765/",
+  "paper_page_path": "papers/pubmed/33401765/index.html"
+}

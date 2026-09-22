@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41701616",
+  "title": "Molecular determinants underlying NPH3 condensation and function in phototropism: an integrative approach.",
+  "authors": "Manishankar, Prabha; Fernandez, Atiara; Rohr, Leander; Yigit, Yeliz Idil; Reuter, Lea; Schmidt, Tanja; Droste-Borel, Irina; Keicher, Jutta; Bock, Andrea; Oecking, Claudia",
+  "journal": "The Plant cell",
+  "published_date": "2026-02-17",
+  "window": {
+    "start": "2026-02-16",
+    "end": "2026-02-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合AI结构预测与实验，揭示NPH3蛋白C端双分基序驱动自互作三聚化及胞质无膜凝聚体（相分离）形成的分子机制，属于IDR/相分离介导的蛋白自组装与功能调控的机制建模研究。",
+  "abstract": "The plasma membrane-associated protein NON-PHOTOTROPIC HYPOCOTYL 3 (NPH3) is a key component of plant phototropism. In response to blue light, NPH3 is released into the cytosol, where it undergoes a dynamic transition into membrane-less biomolecular condensates; these processes are both reversible. In this study, we combined experimental evidence with artificial intelligence-based protein structure predictions to uncover a C-terminal bipartite motif that mediates NPH3 self-interaction to differing extents and enables NPH3 trimer formation. We demonstrate that this self-association motif is essential for both NPH3 association with the plasma membrane and condensate assembly in the cytosol, with a different part of the motif playing the key role in each case. Formation of cytosolic condensates also requires the cooperative action of an N-terminal NPH3 motif yet appears to proceed independently of other proteins. Our findings suggest that NPH3 assembles into a polymerization-driven single-component condensate through self-crosslinking of homo-oligomers. NPH3 variants deficient in condensate formation retain key features of NPH3 but are nonfunctional. Based on current knowledge, this suggests that phase separation, likely involving transient cytosolic sequestration of NPH3, plays an important role in mediating phototropic responses. This structural snapshot may assist in future studies of the plant-specific NPH3/ROOT PHOTOTROPISM 2-Like protein family.",
+  "abstract_zh": "质膜相关蛋白非向光性下胚轴3（NPH3）是植物向光性的关键组分。响应蓝光时，NPH3释放至胞质溶胶中，在此经历向无膜生物分子凝聚体的动态转变；这两个过程均为可逆的。在本研究中，我们结合实验证据与基于人工智能的蛋白质结构预测，揭示了一个C端双部分基序，该基序介导NPH3以不同程度进行自相互作用，并使NPH3能够形成三聚体。我们证明，此自结合基序对NPH3与质膜的关联及胞质溶胶中凝聚体的组装均至关重要，且基序的不同部分在各自情况下发挥关键作用。胞质溶胶凝聚体的形成还需N端NPH3基序的协同作用，但似乎独立于其他蛋白质进行。我们的发现表明，NPH3通过同源寡聚体的自交联组装成聚合驱动的单组分凝聚体。缺乏凝聚体形成能力的NPH3变体保留了NPH3的关键特征，但无功能。基于现有知识，这表明相分离（phase separation）可能涉及NPH3的瞬时胞质隔离，在介导向光性反应中发挥重要作用。这一结构快照可能有助于未来对植物特异性NPH3/根向光性2样蛋白家族的研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41701616/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41701616/",
+  "paper_page_path": "papers/pubmed/41701616/index.html"
+}

@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific and technical soundness of the SPEADI method and its application to IDP-ion interactions, as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors introduce SPEADI, an open-source Python package implementing Time-Resolved Radial Distribution Functions (TRRDFs) to characterize dynamic ion environments around intrinsically disordered proteins (IDPs) from molecular dynamics trajectories. They apply it to Alpha-Synuclein (AS) and Humanin (HN) and their mutants, reporting site-specific ion-residue interactions that correlate with conformational states and functional outcomes.
+- **Visible evidence base** Main text including Methods, Results, Discussion; references to Supplementary Figures S1-S21 and Table S1
+- **Missing materials affecting confidence** Supplementary Materials (Figures S1-S21, Table S1, benchmark details) not provided; simulation input files, force field parameters, and analysis scripts not provided; no code repository link or version information beyond version 1.0.0
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful computational tool for analyzing ion dynamics around IDPs. The concept of TRRDFs is a reasonable extension of standard RDF analysis, and the open-source implementation is commendable. However, the scientific claims regarding biological correlations are largely qualitative and based on limited sampling. The validation of the method against established approaches is incomplete, and several technical details regarding convergence, statistical significance, and the interpretation of fractional coordination numbers require clarification. The application to AS and HN provides illustrative examples but does not yet establish robust biological conclusions.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular dynamics practitioners studying IDPs, ion-protein interactions, and conformational ensembles. Researchers developing analysis tools for MD trajectories would also find the software relevant. The potential to correlate ion distributions with functional outcomes may interest experimentalists studying IDP aggregation and neuroprotection, though the current evidence is preliminary.
+- **Major strengths** The introduction of TRRDFs addresses a genuine gap in MD analysis tools for highly dynamic systems like IDPs. The implementation appears scalable across CPU, GPU, and TPU architectures, which is practically valuable. The open-source availability and integration with the MDTraj ecosystem lower the barrier for adoption. The application to multiple mutants of two biologically relevant IDPs demonstrates the tool's versatility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that TRRDFs "are able to characterize the dynamic environment dynamics in simulations around dynamically changing IDPs" and that the method provides reliable time-resolved ion distributions.
+  - **Evidence pointer** Section 2.2, Section 3.1, Figures 2-3, Figures S2-S9
+  - **Concern** The statistical validity of TRRDFs computed over short time windows is not established. The authors state that reliability increases with the number of frames per window, but no convergence analysis is presented. For the AS simulations, the "dry" trajectory was stored at 10 fs intervals, and TRRDFs were computed over 10 ps windows (1000 frames). However, the manuscript does not demonstrate that this window size is sufficient to achieve converged distributions, nor does it address the autocorrelation of ion positions, which could lead to pseudoreplication. The clustering into 20 k-means clusters from t-SNE projections of pairwise RMSDs is a dimensionality reduction that may introduce artifacts, and the assignment of TRRDF windows to clusters is not validated.
+  - **Why it matters** If TRRDFs are not statistically converged, the reported differences between conformations and mutants could reflect noise rather than genuine biophysical effects. The central methodological contribution of the paper depends on the reliability of these distributions.
+  - **Resolution test** Provide convergence analysis showing that TRRDFs stabilize with increasing window size for representative residues. Include block averaging or bootstrap confidence intervals for the reported ion densities. Validate the clustering approach by comparing with an independent clustering method or by showing cluster stability across different t-SNE initializations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that "site-specific ion-residue interactions correlate with and inform on conformational and transient ion-stabilized states linked to their function" for AS and HN.
+  - **Evidence pointer** Section 3.1, Section 3.3, Figures 4-8
+  - **Concern** The biological conclusions are based on qualitative visual inspection of TRRDFs and coordination numbers. No statistical tests are applied to determine whether differences between mutants or conformations are significant. The claim that ion distributions "correlate" with functional outcomes (e.g., neuroprotective activity in HN) is based on a qualitative ordering of peak heights that matches the reported activity order, but no quantitative correlation coefficient or significance test is provided. The observation of a single ion-stabilized structure in one trajectory (wild-type HN, 290-310 ns) and one in d-S7 is anecdotal and not supported by replicate simulations.
+  - **Why it matters** The manuscript's stated goal includes informing on functional states of IDPs. Without statistical rigor, the reported correlations may be coincidental, and the biological relevance of the findings remains unsubstantiated.
+  - **Resolution test** Apply appropriate statistical tests (e.g., permutation tests, bootstrap) to compare ion distributions between mutants and conformations. Provide quantitative correlation analysis between ion densities and experimentally measured activities. Include replicate simulations or at least demonstrate that the observed ion-stabilized structures are reproducible across independent trajectories.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that SPEADI "can be used also for membrane components, as well as other biological systems" and that it is "agnostic towards atom type and simulation parameters."
+  - **Evidence pointer** Section 1, Section 2.3
+  - **Concern** The generality claim is not supported by any demonstration beyond IDP-ion systems. The choice of carbon atoms as representative sites two bonds away from donor/acceptor atoms is specific to protein systems. No validation is provided for membranes, nucleic acids, or other system types. The performance benchmarks referenced in Section S7 are not available for assessment.
+  - **Why it matters** Overstating the tool's generality may mislead potential users. The claim of broad applicability requires at least a minimal demonstration or a clear statement of limitations.
+  - **Resolution test** Provide a simple test case for a non-protein system (e.g., a lipid bilayer or nucleic acid) or temper the claim to reflect the current scope of validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "the Bjerrum length represents a meaningful distance at which to compare local ion distributions" and uses 0.70 nm as the comparison distance.
+  - **Evidence pointer** Section 2.2
+  - **Concern** The choice of the Bjerrum length as the key comparison distance is not justified beyond a single sentence. The Bjerrum length is the distance at which the Coulomb energy between two elementary charges equals thermal energy, but its relevance to comparing ion distributions around specific protein residues is not self-evident. Different residues have different charge states and local environments, and a single distance may not be appropriate for all comparisons.
+  - **Why it matters** The interpretation of all subsequent results depends on this distance choice. If the Bjerrum length is not the appropriate scale for the phenomena being studied, the reported differences may be misleading.
+  - **Resolution test** Justify the choice of the Bjerrum length with reference to the physical chemistry of ion-protein interactions, or show that the conclusions are robust to reasonable variations in the comparison distance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.2, Equation 7
+  - **Evidence pointer** Section 2.2
+  - **Issue** The derivation of Equation 7 from Equation 5 is not shown. The relationship between the running coordination number and the TRRDF is stated but not derived, which may confuse readers unfamiliar with the formalism.
+  - **Required correction** Add a brief derivation or a reference to a standard text for the relationship between RDF and coordination number.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The simulation details are incomplete. The manuscript states that AS was simulated for 25 ns (wild-type) and 100 ns (E46K mutant), and HN for 1 μs, but does not specify the number of replicate simulations, the exact system composition (number of water molecules, ions), or the equilibration protocol beyond a brief description.
+  - **Required correction** Provide complete simulation parameters in the main text or Supplementary Materials, including system sizes, equilibration times, and the number of independent simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1, Figure 4
+  - **Evidence pointer** Section 3.1
+  - **Issue** The description of the distance matrix analysis in Figure 4 is brief. The manuscript states that distance matrices were constructed and overlaid with ion distributions, but the methodology for this overlay is not described.
+  - **Required correction** Describe how the ion distributions were overlaid on the distance matrices and what specific features the reader should observe.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The manuscript mentions that SPEADI can calculate van Hove Functions but does not describe the implementation or provide any results using this functionality.
+  - **Required correction** Either provide an example of VHF analysis or remove the mention to avoid overstating the tool's capabilities.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.3.2
+  - **Evidence pointer** Section 3.3.2
+  - **Issue** The description of the ion-stabilized structure in wild-type HN is vivid but lacks quantitative detail. The manuscript states that a sodium ion is coordinated by backbone oxygen atoms at L11, L12, S14, and D17, but does not provide coordination distances or the duration of individual coordinating contacts.
+  - **Required correction** Provide quantitative details of the coordination geometry, such as average distances and occupancy fractions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical convergence of TRRDFs), R1-M2 (lack of statistical testing for biological claims)
+- **Assessment against Nature-style criteria** Originality: Moderate. The TRRDF concept is a useful incremental advance over standard RDF analysis, but it is not conceptually novel. Scientific importance: Moderate. The tool addresses a real need in IDP research, but the biological findings presented are preliminary and not yet of broad significance. Interdisciplinary readership: Limited. The manuscript is primarily of interest to computational biophysicists and MD practitioners. Technical soundness: Questionable. The lack of convergence analysis and statistical testing undermines confidence in the reported results. Readability for nonspecialists: Acceptable. The manuscript is generally well-written, but some sections assume familiarity with MD simulation techniques.
+- **Recommendation posture** Currently not established from the provided evidence. The methodological contribution is potentially valuable, but the statistical foundations need to be strengthened and the biological claims need quantitative support before the case is convincing.
+
+## Risk / unsupported claims
+- The claim that TRRDFs "are able to characterize the dynamic environment dynamics" is not supported by convergence analysis or comparison with established methods.
+- The claim that ion distributions "correlate with and inform on conformational and transient ion-stabilized states linked to their function" is based on qualitative observations without statistical testing.
+- The claim that SPEADI is applicable to "membrane components, as well as other biological systems" is not demonstrated.
+- The observation of ion-stabilized structures in HN is based on single occurrences in single trajectories and cannot be generalized.
+- The claim that "the presence of this ion-stabilized motif at S14 correlates negatively with the neuroprotective effect of HN against Aβ" is based on a qualitative comparison of two simulations and is not statistically supported.
+- The statement that "REST2 MD enhances ion equilibration, but may obscure ion-stabilized structures" is an interesting hypothesis but is not directly tested.

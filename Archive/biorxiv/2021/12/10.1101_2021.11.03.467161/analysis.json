@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.11.03.467161",
+  "title": "Critical Negatively Charged Residues Are Important for the Activity of SARS-CoV-1 and SARS-CoV-2 Fusion Peptides",
+  "authors": "Lai AL; Freed JH",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-06",
+  "window": {
+    "start": "2021-12-06",
+    "end": "2021-12-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究SARS-CoV融合肽中负电荷残基对Ca2+结合及膜有序化的作用，涉及膜互作机制但对象为融合肽而非无序蛋白/IDR，且无AI或物理模拟方法，仅实验突变与ITC，故相关性有限。",
+  "abstract": "Coronaviruses are a major infectious disease threat, and include the human pathogens of zoonotic origin SARS-CoV (“SARS-1”), SARS-CoV-2 (“SARS-2”) and MERS-CoV (“MERS”). Entry of coronaviruses into host cells is mediated by the viral spike (S) protein. Previously, we identified that the domain immediately downstream of the S2’ cleavage site is the bona fide FP (amino acids 798-835) for SARS-1 using ESR spectroscopy technology. We also found that the SARS-1 FP induces membrane ordering in a Ca 2+ dependent fashion. In this study, we want to know which residues are involved in this Ca 2+ binding, to build a topological model and to understand the role of the Ca2+. We performed a systematic mutation study on the negatively charged residues on the SARS-1 FP. While all six negatively charged residues contributes to the membrane ordering activity of the FP to some extent, D812 is the most important residue. We provided a topological model of how the FP binds Ca 2+ ions: both FP1 and FP2 bind one Ca 2+ ion, and there are two binding sites in FP1 and three in FP2. We also found that the corresponding residue D830 in the SARS-2 FP plays a similar critical role. ITC experiments show that the binding energies between the FP and Ca 2+ as well as between the FP and membranes also decreases for all mutants. The binding of Ca 2+ , the folding of FP and the ordering activity correlated very well across the mutants, suggesting that the function of the Ca 2+ is to help to folding of FP in membranes to enhance its activity. Using a novel pseudotyped virus particle (PP)-liposome methodology, we monitored the membrane ordering induced by the FPs in the whole S proteins in its trimer form in real time. We found that the SARS-1 and SARS-2 PPs also induce membrane ordering as the separate FPs do, and the mutations of the negatively charged residues also greatly reduce the membrane ordering activity. However, the difference in kinetic between the PP and FP indicates a possible role of FP trimerization. This finding could lead to therapeutic solutions that either target the FP-calcium interaction or block the Ca 2+ channel to combat the ongoing COVID-19 pandemic.",
+  "abstract_zh": "冠状病毒是主要的传染病威胁，包括人畜共患病源的人类病原体SARS-CoV（“SARS-1”）、SARS-CoV-2（“SARS-2”）和MERS-CoV（“MERS”）。冠状病毒进入宿主细胞由病毒刺突（S）蛋白介导。此前，我们利用ESR光谱技术鉴定出S2'切割位点下游的域是SARS-1的真正融合肽（FP）（氨基酸798-835）。我们还发现SARS-1 FP以Ca²⁺依赖方式诱导膜有序化。在本研究中，我们旨在确定哪些残基参与这种Ca²⁺结合，构建拓扑模型，并理解Ca²⁺的作用。我们对SARS-1 FP上的负电荷残基进行了系统性突变研究。虽然所有六个负电荷残基在一定程度上都贡献于FP的膜有序化活性，但D812是最重要的残基。我们提供了FP如何结合Ca²⁺离子的拓扑模型：FP1和FP2各结合一个Ca²⁺离子，FP1中有两个结合位点，FP2中有三个。我们还发现SARS-2 FP中对应的残基D830扮演类似的关键角色。ITC实验显示，所有突变体中FP与Ca²⁺之间以及FP与膜之间的结合能均降低。Ca²⁺的结合、FP的折叠和有序化活性在突变体间高度相关，表明Ca²⁺的功能是帮助FP在膜中折叠以增强其活性。利用新型假型病毒颗粒（PP）-脂质体方法，我们实时监测了三聚体形式下完整S蛋白中FP诱导的膜有序化。我们发现SARS-1和SARS-2 PP也像单独的FP一样诱导膜有序化，且负电荷残基的突变也大幅降低膜有序化活性。然而，PP和FP之间的动力学差异表明FP三聚化可能发挥作用。这一发现可能带来治疗策略，要么靶向FP-钙相互作用，要么阻断Ca²⁺通道，以应对持续的COVID-19大流行。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.11.03.467161",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.11.03.467161",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.11.03.467161/index.html"
+}

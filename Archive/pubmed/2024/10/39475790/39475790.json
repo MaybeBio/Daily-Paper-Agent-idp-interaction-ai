@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "39475790",
+    "doi": "10.7554/eLife.99150",
+    "title": "Elucidating ATP's role as solubilizer of biomolecular aggregate."
+  },
+  "content": {
+    "abstract": "Proteins occurring in significantly high concentrations in cellular environments (over 100 mg/ml) and functioning in crowded cytoplasm, often face the prodigious challenges of aggregation which are the pathological hallmark of aging and are critically responsible for a wide spectrum of rising human diseases. Here, we combine a joint-venture of complementary wet-lab experiment and molecular simulation to discern the potential ability of adenosine triphosphate (ATP) as solubilizer of protein aggregates. We show that ATP prevents both condensation of aggregation-prone intrinsically disordered protein Abeta40 and promotes dissolution of preformed aggregates. Computer simulation links ATP's solubilizing role to its ability to modulate protein's structural plasticity by unwinding protein conformation. We show that ATP is positioned as a superior biological solubilizer of protein aggregates over traditional chemical hydrotropes, potentially holding promises in therapeutic interventions in protein-aggregation-related diseases. Going beyond its conventional activity as energy currency, the amphiphilic nature of ATP enables its protein-specific interaction that would enhance ATP's efficiency in cellular processes.",
+    "keywords": [
+      "ATP",
+      "condensation",
+      "intrinsically disordered protein",
+      "molecular biophysics",
+      "none",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "*Adenosine Triphosphate/metabolism",
+      "*Protein Aggregates",
+      "*Solubility",
+      "Humans",
+      "Protein Conformation",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sarkar, Susmita",
+        "Gupta, Saurabh",
+        "Mahato, Chiranjit",
+        "Das, Dibyendu",
+        "Mondal, Jagannath"
+      ],
+      "short_names": [
+        "Sarkar S",
+        "Gupta S",
+        "Mahato C",
+        "Das D",
+        "Mondal J"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-1105-1466",
+        "ORCID: 0000-0003-1090-5199"
+      ],
+      "affiliations": [
+        "Tata Institute of Fundamental Research Hyderabad, Hyderabad, India.",
+        "Indian Institute of Science Education and Research Kolkata, Kolkata, India.",
+        "Indian Institute of Science Education and Research Kolkata, Kolkata, India.",
+        "Indian Institute of Science Education and Research Kolkata, Kolkata, India.",
+        "Tata Institute of Fundamental Research Hyderabad, Hyderabad, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sarkar, Susmita",
+        "short_name": "Sarkar S",
+        "identifiers": [
+          "0009-0001-1105-1466"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Gupta, Saurabh",
+        "short_name": "Gupta S",
+        "identifiers": [],
+        "affiliations": [
+          "Indian Institute of Science Education and Research Kolkata, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Mahato, Chiranjit",
+        "short_name": "Mahato C",
+        "identifiers": [],
+        "affiliations": [
+          "Indian Institute of Science Education and Research Kolkata, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Das, Dibyendu",
+        "short_name": "Das D",
+        "identifiers": [],
+        "affiliations": [
+          "Indian Institute of Science Education and Research Kolkata, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Jagannath",
+        "short_name": "Mondal J",
+        "identifiers": [
+          "0000-0003-1090-5199"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad, Hyderabad, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2024 Oct 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/30 18:23",
+    "fetched_at": "2026-09-21 12:02:18"
+  },
+  "links": {
+    "cites": [
+      "42043290",
+      "41763418",
+      "41696714",
+      "41056468",
+      "39684527"
+    ],
+    "refs": [
+      "38044584",
+      "37772172",
+      "37697623",
+      "36762833",
+      "36608272",
+      "36103543",
+      "35709362",
+      "35297101",
+      "34827159",
+      "34723279",
+      "34544868",
+      "34338526",
+      "34240882",
+      "34074792",
+      "33829608",
+      "32307080",
+      "31830415",
+      "31642322",
+      "30858367",
+      "30195312",
+      "30015615",
+      "29735687",
+      "29323881",
+      "28724291",
+      "28522535",
+      "27827482",
+      "26619985",
+      "26574340",
+      "26170324",
+      "24889800",
+      "24625803",
+      "23341755",
+      "22947874",
+      "22368531",
+      "21863870",
+      "20872872",
+      "19038267",
+      "18593163",
+      "17675353",
+      "17397862",
+      "17165769",
+      "14268785",
+      "9895674",
+      "5357211",
+      "2126155"
+    ],
+    "similar": [
+      "39475790",
+      "34240882",
+      "39361827",
+      "33829608",
+      "37458354",
+      "28522535",
+      "23912807",
+      "36990219",
+      "37736631",
+      "36251789",
+      "34622264",
+      "30015615",
+      "25447869",
+      "29442498",
+      "19366609",
+      "38362920",
+      "37656203",
+      "35759245",
+      "10933883",
+      "20640842",
+      "35438635",
+      "34112944",
+      "35297101",
+      "38174879",
+      "8963948",
+      "31670160",
+      "30858367",
+      "28190398",
+      "33067463",
+      "39292611",
+      "33704064",
+      "17303654",
+      "1002684",
+      "35398094",
+      "31050339",
+      "29395045",
+      "33792323",
+      "34358545",
+      "39117455",
+      "36227471",
+      "15317453",
+      "18302342",
+      "31282222",
+      "28109327",
+      "33825682",
+      "36228115",
+      "38810650",
+      "33220262",
+      "29364151",
+      "15496477",
+      "10568825",
+      "33167839",
+      "28176657",
+      "31669043",
+      "35618760",
+      "38672516",
+      "39087984",
+      "28511780",
+      "29458128",
+      "28890401",
+      "29295865",
+      "31936201",
+      "31642322",
+      "31342431",
+      "10364185",
+      "31084715",
+      "31079926",
+      "29594784",
+      "31759630",
+      "35167081",
+      "17397325",
+      "24146826",
+      "9261337",
+      "19245806",
+      "38980907",
+      "31903719",
+      "27746019",
+      "36524528",
+      "34774567",
+      "38811077",
+      "17043148",
+      "32374925",
+      "33068637",
+      "38892222",
+      "29895621",
+      "31240261",
+      "33028677",
+      "30986567",
+      "31830415",
+      "15298939",
+      "31730979",
+      "31841126",
+      "21352878",
+      "32097582",
+      "10684647",
+      "36608272",
+      "38971320",
+      "31914432",
+      "34590645",
+      "35760099"
+    ],
+    "review": [
+      "39475790",
+      "33829608",
+      "25447869",
+      "29442498",
+      "38362920",
+      "37656203",
+      "28190398",
+      "35398094",
+      "34358545",
+      "31282222",
+      "28109327",
+      "29364151",
+      "33167839",
+      "28176657",
+      "31669043",
+      "38672516",
+      "38811077",
+      "30986567",
+      "32097582",
+      "38971320",
+      "31914432"
+    ],
+    "pmc": [
+      "11524580"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39475790/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.99150",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

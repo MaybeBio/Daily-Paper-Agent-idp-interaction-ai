@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary material were provided for evaluation
+- **Shared manuscript claim summary** The authors report investigation of the first microsecond of peptide condensation using temperature jump infrared spectroscopy and molecular dynamics simulations. They claim that structural transitions and early assembly of intrinsically disordered proteins occur on ultrafast time scales, and that backbone hydrogen bonding, rather than hydrophobicity, is the overlooked key mediator stabilizing local structure during ultrafast condensation of hydrophobic polypeptides. They further propose that hydrogen bonding enables preorganized conformations and mediates assembly kinetics in cellular environments.
+- **Visible evidence base** Abstract text only; no experimental details, simulation parameters, spectra, statistical analyses, or figures were supplied
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation protocols, experimental reproducibility data, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis regarding the role of backbone hydrogen bonding in the early stages of biomolecular condensation. However, the claims are broad and mechanistic in nature, and the evidence base provided is insufficient to evaluate their validity. The central assertion that hydrogen bonding outcompetes hydrophobicity as the key mediator is a strong claim that would require careful comparative analysis and controls. As presented, the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular phase separation, intrinsically disordered proteins, protein folding dynamics, and biophysical chemistry would be interested. The ultrafast time-resolved approach and the proposed role of hydrogen bonding in condensation could inform ongoing debates about the molecular drivers of phase separation and could have implications for understanding cellular organization and disease-related aggregation.
+- **Major strengths** The topic is timely and of broad interest. The combination of temperature jump infrared spectroscopy and molecular dynamics simulations is a sophisticated approach that could offer genuine insight into early condensation events. The abstract identifies a specific and testable mechanistic hypothesis, which is a positive feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that backbone hydrogen bonding is the overlooked key mediator stabilizing local structure for ultrafast condensation of hydrophobic polypeptides compared to hydrophobicity.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative or comparative data to support the claim that hydrogen bonding is more important than hydrophobicity. No metrics, control experiments, or simulation analyses are described that would allow a reader to assess the relative contributions of these two factors.
+  - **Why it matters** This is the central mechanistic claim of the work. Without comparative evidence, the claim is speculative and cannot be distinguished from alternative explanations.
+  - **Resolution test** Provide quantitative comparisons, such as mutation studies that disrupt hydrogen bonding versus hydrophobic interactions, or simulation analyses that decompose free energy contributions. Show that hydrogen bonding effects are larger and more consistent than hydrophobic effects across multiple peptide systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that structural transitions and early assembly of intrinsically disordered proteins occur on ultrafast time scales, and that hydrogen bonding enables hydrophobic disordered proteins to adopt preorganized conformations in response to environmental stimuli.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract describes results from peptide condensation, but the claims are generalized to intrinsically disordered proteins broadly. It is unclear how many peptide systems were studied, whether they are representative of the diverse class of intrinsically disordered proteins, and whether the observed ultrafast behavior is universal or system-specific.
+  - **Why it matters** Overgeneralization from a limited set of peptides to all intrinsically disordered proteins would overstate the significance of the findings and could mislead the field.
+  - **Resolution test** Clearly state the number and diversity of peptide systems studied. Provide evidence that the observed behavior extends to at least several unrelated intrinsically disordered protein sequences, or temper the claims to reflect the specific systems examined.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The authors claim that temperature jump infrared spectroscopy and molecular dynamics simulations allow capture of molecular events and kinetic information on the initial moment of phase transition.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is provided on how the temperature jump was calibrated, what time resolution was achieved, how the infrared spectra were assigned to specific structural features, or how the simulations were validated against experimental data. Without this information, the reliability of the ultrafast measurements and the correspondence between simulation and experiment cannot be assessed.
+  - **Why it matters** The entire premise of the work rests on the ability to capture the first microsecond of condensation. If the experimental or simulation methods are not adequately validated, the conclusions drawn from them are not trustworthy.
+  - **Resolution test** Provide detailed methods including temperature jump rise time, spectral assignment criteria, simulation force field and validation against experimental observables, and any cross-validation between experiment and simulation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term "ultrafast condensation" is used without a clear definition of the time scale or the specific process being described.
+  - **Required correction** Define the time scale explicitly and clarify whether "condensation" refers to the initial nucleation event, cluster formation, or full phase separation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Literature positioning
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not situate the findings within existing literature on phase separation drivers, particularly prior work on hydrophobic interactions and hydrogen bonding in condensate formation.
+  - **Required correction** Add brief context in the introduction or discussion to clarify what is new relative to prior studies and what specific gap this work fills.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Claim wording
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "overlooked key mediator" implies a definitive conclusion, but the evidence base as described may not support such a strong statement.
+  - **Required correction** Soften the language to reflect the preliminary nature of the finding, such as "potentially important mediator" or "a mediator that has received limited attention."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central mechanistic claim lacks comparative evidence, the generalization to intrinsically disordered proteins is unsupported, and the technical validity of the ultrafast methods is not established from the provided material.
+- **Assessment against Nature-style criteria** Originality: The hypothesis that backbone hydrogen bonding plays a key role in early condensation is potentially original, but the abstract does not demonstrate how this differs from prior work. Scientific importance: The topic is important, and if the claims are substantiated, the work could have significant impact. Interdisciplinary readership: The work would appeal to biophysicists, biochemists, and cell biologists, but the abstract is written in a way that is accessible to specialists only. Technical soundness: Cannot be assessed from the abstract alone; the methods are not described in sufficient detail. Readability for nonspecialists: The abstract is concise but assumes familiarity with phase separation and spectroscopy terminology, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is promising, but the abstract alone does not provide sufficient evidence to support the central claims. A full manuscript with detailed methods, comparative analyses, and appropriate controls would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that backbone hydrogen bonding is the key mediator compared to hydrophobicity is unsupported without comparative quantitative data.
+- The generalization from peptide condensation to intrinsically disordered proteins broadly is unsupported.
+- The claim that the techniques capture molecular events and kinetic information on the initial moment of phase transition is unverifiable without method details.
+- The statement that hydrogen bonding enables hydrophobic disordered proteins to adopt preorganized conformations in response to environmental stimuli is speculative and not supported by the abstract.

@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "40121710",
+    "doi": "10.1016/j.compbiolchem.2025.108430",
+    "title": "A critical address to advancements and challenges in computational strategies for structural prediction of protein in recent past."
+  },
+  "content": {
+    "abstract": "Protein structure prediction has undergone significant advancements, driven by the limitations of experimental techniques like X-ray crystallography, NMR, and cryo-EM, which are costly and time-consuming. To bridge the gap between protein sequences and their structures, computational methods have emerged as essential tools. Traditional approaches such as homology modeling, threading, and ab initio folding made progress but often lacked atomic-level precision. The field has been revolutionized by deep learning-based models such as AlphaFold2, RoseTTAFold, and OpenFold, which have demonstrated unprecedented accuracy in predicting protein structures. These AI-driven models leverage vast datasets and neural networks to generate highly reliable structural predictions, sometimes rivaling experimental methods. This review explores the historical evolution of computational protein structure prediction, analyzing the strengths and weaknesses of state-of-the-art models. These models have broad applications in fields such as drug discovery, enzyme engineering, and disease-related protein modeling. However, challenges remain, including the need for extensive training data, computational resource requirements, and difficulties in modeling protein dynamics, intrinsically disordered regions, and protein-protein interactions. Future directions in the field include improving AI models to address current limitations, better integration with experimental techniques, and extending predictions to protein complexes and post-translational modifications. By continuing to refine these methods, computational protein structure prediction will further enhance biomedical research and therapeutic design, reshaping the landscape of structural biology and computational biophysics.",
+    "keywords": [
+      "AI-driven modeling",
+      "AlphaFold2",
+      "Computational biophysics",
+      "Deep learning",
+      "Drug discovery",
+      "Enzyme engineering",
+      "Protein structure prediction",
+      "RoseTTAFold",
+      "Structural biology"
+    ],
+    "mesh_terms": [
+      "*Proteins/chemistry",
+      "Protein Conformation",
+      "*Computational Biology/methods",
+      "Models, Molecular",
+      "Humans",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fatima Ali, Nida",
+        "Khan, Shumaila",
+        "Zahid, Saadia"
+      ],
+      "short_names": [
+        "Fatima Ali N",
+        "Khan S",
+        "Zahid S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Atta-ur-Rahman School of Applied Biosciences, National University of Sciences and Technology (NUST), Islamabad, Pakistan.",
+        "Atta-ur-Rahman School of Applied Biosciences, National University of Sciences and Technology (NUST), Islamabad, Pakistan.",
+        "Neurobiology Research Laboratory, Department of Biomedicine, Atta-ur-Rahman School of Applied Biosciences, National University of Sciences and Technology, Islamabad, Pakistan. Electronic address: saadia.zahid@asab.nust.edu.pk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fatima Ali, Nida",
+        "short_name": "Fatima Ali N",
+        "identifiers": [],
+        "affiliations": [
+          "Atta-ur-Rahman School of Applied Biosciences, National University of Sciences and Technology (NUST), Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Khan, Shumaila",
+        "short_name": "Khan S",
+        "identifiers": [],
+        "affiliations": [
+          "Atta-ur-Rahman School of Applied Biosciences, National University of Sciences and Technology (NUST), Islamabad, Pakistan."
+        ]
+      },
+      {
+        "full_name": "Zahid, Saadia",
+        "short_name": "Zahid S",
+        "identifiers": [],
+        "affiliations": [
+          "Neurobiology Research Laboratory, Department of Biomedicine, Atta-ur-Rahman School of Applied Biosciences, National University of Sciences and Technology, Islamabad, Pakistan. Electronic address: saadia.zahid@asab.nust.edu.pk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/24 00:29",
+    "fetched_at": "2026-09-21 17:08:33"
+  },
+  "links": {
+    "cites": [
+      "42449970",
+      "41478913"
+    ],
+    "refs": [],
+    "similar": [
+      "40121710",
+      "40973394",
+      "39125995",
+      "41652158",
+      "41839238",
+      "41478913",
+      "39970826",
+      "34050498",
+      "40398752",
+      "38124369",
+      "41022992",
+      "41910880",
+      "41209584",
+      "40553326",
+      "39407556",
+      "38761500",
+      "39484820",
+      "23912807",
+      "41986008",
+      "41878008",
+      "38986287",
+      "40460619",
+      "39576578",
+      "38177398",
+      "42160739",
+      "41758998",
+      "41178755",
+      "38398585",
+      "40410405",
+      "38795564",
+      "30985027",
+      "41863177",
+      "39313455",
+      "39848140",
+      "41999908",
+      "41729820",
+      "40912403",
+      "38955920",
+      "41272972",
+      "40195117",
+      "34074028",
+      "40332289",
+      "39090739",
+      "37920879",
+      "41326937",
+      "40663654",
+      "40597628",
+      "41650708",
+      "39318214",
+      "36576775",
+      "40601266",
+      "39766238",
+      "26269925",
+      "39858535",
+      "42018649",
+      "31365149",
+      "42071121",
+      "41614412",
+      "39316643",
+      "41171689",
+      "40454510",
+      "33621244",
+      "34224746",
+      "39824781",
+      "40233800",
+      "22587787",
+      "38744917",
+      "40715235",
+      "33769935",
+      "39862760",
+      "39273672",
+      "40553329",
+      "40248099",
+      "34884640",
+      "41206113",
+      "35139457",
+      "34265844",
+      "39927816",
+      "39936575",
+      "39456178",
+      "41652163",
+      "42056694",
+      "24010712",
+      "36641210",
+      "39983363",
+      "35727311",
+      "37592849",
+      "40778521",
+      "40661027",
+      "39795988",
+      "39321802",
+      "34890131",
+      "40662823",
+      "41832735",
+      "41066820",
+      "41099770",
+      "37175454",
+      "37850517",
+      "41452100",
+      "41065010"
+    ],
+    "review": [
+      "40121710",
+      "40973394",
+      "39125995",
+      "41652158",
+      "41839238",
+      "39970826",
+      "34050498",
+      "40398752",
+      "38124369",
+      "41022992",
+      "41910880",
+      "41209584",
+      "39407556",
+      "38761500",
+      "41986008",
+      "41878008",
+      "38986287",
+      "39576578",
+      "38177398",
+      "42160739",
+      "38398585",
+      "38795564",
+      "41863177",
+      "39313455",
+      "39848140",
+      "41999908",
+      "41729820",
+      "40912403",
+      "38955920",
+      "41272972",
+      "40195117",
+      "34074028",
+      "40332289",
+      "39090739",
+      "41326937",
+      "40663654",
+      "41650708",
+      "39318214",
+      "40601266",
+      "39766238",
+      "39858535",
+      "42018649",
+      "42071121",
+      "41171689",
+      "40454510",
+      "34224746",
+      "39824781",
+      "40233800",
+      "33769935",
+      "39862760",
+      "39273672",
+      "40553329",
+      "40248099",
+      "41206113",
+      "35139457",
+      "39927816",
+      "39936575",
+      "39456178",
+      "41652163",
+      "24010712",
+      "39983363",
+      "35727311",
+      "37592849",
+      "39321802",
+      "41099770",
+      "37175454"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(25)00090-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

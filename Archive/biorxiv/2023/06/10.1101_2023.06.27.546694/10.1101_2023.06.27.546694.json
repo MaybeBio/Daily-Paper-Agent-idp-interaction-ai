@@ -1,0 +1,228 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.27.546694",
+  "title": "A novel role for the peptidyl-prolyl cis-trans isomerase Cyclophilin A in DNA-repair following replication fork stalling via the MRE11-RAD50-NBS1 complex",
+  "doi": "10.1101/2023.06.27.546694",
+  "abstract": "We previously reported that non-homologous end-joining (NHEJ)-defective human LIG4 -/- pre-B lymphocytes were unexpectedly sensitive to killing by the cyclic peptide Cyclosporin A (CsA), a common component of bone marrow transplantation conditioning and maintenance regimes. We also found that CsA induced DNA double strand breaks (DSBs) in LIG4 syndrome patient fibroblasts, specifically upon transit through S-phase. The molecular basis underlying these CsA impacts has not been described hitherto. We postulated that CsA-induced genomic instability may reflect a direct role of Cyclophilin A (CYPA) in DNA repair, as CYPA is the primary physiological target interactor of CsA. CYPA is the founding member of the Cyclophilin family of peptidyl-prolyl cis-trans isomerases (PPIs). CsA inhibits the PPI activity of CYPA through occupation of the latter’s enzymatic active site. Using an integrated approach involving CRISPR/Cas9-engineering, siRNA, BioID, co-immunoprecipitation, pathway-specific DNA repair investigations as well as protein expression-interaction analysis, we describe novel impacts of CYPA loss and inhibition of its PPI activity on DNA repair. Prompted by findings from our CYPA-BioID proximity interactome, we validate CYPA interactions with different components of the DNA end resection machinery. Moreover, we characterise a novel and direct CYPA interaction with the NBS1 component of the MRE11-RAD50-NBS1 (MRN) complex, providing evidence that the PPI function of CYPA actively influences DNA repair via direct protein-protein interaction at the level of DNA end resection. Consequently, we demonstrate that CYPA loss or inhibition impairs Homologous Recombination Repair (HRR) following DNA replication fork stalling. Additionally, we define a set of genetic vulnerabilities associated with CYPA loss and inhibition, identifying DNA replication fork protection as an important determinant of viability herein. Leveraging the novel insights into CYPA biology we have uncovered; we explore examples of how CYPA PPI inhibition may be exploited to selectively kill cells from a variety of different cancers with a shared characteristic genomic instability profile. These findings propose a potential new disease application or repurposing strategy for the non-immunosuppressive CsA analogue class of Cyclophilin inhibitors.",
+  "authors": [
+    "Bedir M",
+    "Outwin E",
+    "Colnaghi R",
+    "Bassett L",
+    "Abramowicz I",
+    "O’Driscoll M"
+  ],
+  "published_date": "2023-06-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.27.546694",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.27.546694.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR682864",
+    "raw_record": {
+      "id": "PPR682864",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR682864"
+        ]
+      },
+      "doi": "10.1101/2023.06.27.546694",
+      "title": "A novel role for the peptidyl-prolyl  <i>cis-trans</i>  isomerase Cyclophilin A in DNA-repair following replication fork stalling via the MRE11-RAD50-NBS1 complex",
+      "authorString": "Bedir M, Outwin E, Colnaghi R, Bassett L, Abramowicz I, O’Driscoll M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bedir M",
+            "lastName": "Bedir",
+            "firstName": "Marisa",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Human DNA Damage Response Disorders Group, Genome Damage & Stability Centre, University of Sussex, Brighton BN1 9RQ, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Outwin E",
+            "lastName": "Outwin",
+            "firstName": "Emily",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Human DNA Damage Response Disorders Group, Genome Damage & Stability Centre, University of Sussex, Brighton BN1 9RQ, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Colnaghi R",
+            "lastName": "Colnaghi",
+            "firstName": "Rita",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Human DNA Damage Response Disorders Group, Genome Damage & Stability Centre, University of Sussex, Brighton BN1 9RQ, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bassett L",
+            "lastName": "Bassett",
+            "firstName": "Lydia",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Human DNA Damage Response Disorders Group, Genome Damage & Stability Centre, University of Sussex, Brighton BN1 9RQ, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abramowicz I",
+            "lastName": "Abramowicz",
+            "firstName": "Iga",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Human DNA Damage Response Disorders Group, Genome Damage & Stability Centre, University of Sussex, Brighton BN1 9RQ, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "O’Driscoll M",
+            "lastName": "O’Driscoll",
+            "firstName": "Mark",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2765-316X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Human DNA Damage Response Disorders Group, Genome Damage & Stability Centre, University of Sussex, Brighton BN1 9RQ, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2765-316X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "We previously reported that non-homologous end-joining (NHEJ)-defective human  LIG4 -/- pre-B lymphocytes were unexpectedly sensitive to killing by the cyclic peptide Cyclosporin A (CsA), a common component of bone marrow transplantation conditioning and maintenance regimes. We also found that CsA induced DNA double strand breaks (DSBs) in LIG4 syndrome patient fibroblasts, specifically upon transit through S-phase. The molecular basis underlying these CsA impacts has not been described hitherto. We postulated that CsA-induced genomic instability may reflect a direct role of Cyclophilin A (CYPA) in DNA repair, as CYPA is the primary physiological target interactor of CsA.  CYPA is the founding member of the Cyclophilin family of peptidyl-prolyl  cis-trans isomerases (PPIs). CsA inhibits the PPI activity of CYPA through occupation of the latter’s enzymatic active site. Using an integrated approach involving CRISPR/Cas9-engineering, siRNA, BioID, co-immunoprecipitation, pathway-specific DNA repair investigations as well as protein expression-interaction analysis, we describe novel impacts of CYPA loss and inhibition of its PPI activity on DNA repair. Prompted by findings from our CYPA-BioID proximity interactome, we validate CYPA interactions with different components of the DNA end resection machinery. Moreover, we characterise a novel and direct CYPA interaction with the NBS1 component of the MRE11-RAD50-NBS1 (MRN) complex, providing evidence that the PPI function of CYPA actively influences DNA repair via direct protein-protein interaction at the level of DNA end resection. Consequently, we demonstrate that CYPA loss or inhibition impairs Homologous Recombination Repair (HRR) following DNA replication fork stalling.  Additionally, we define a set of genetic vulnerabilities associated with CYPA loss and inhibition, identifying DNA replication fork protection as an important determinant of viability herein. Leveraging the novel insights into CYPA biology we have uncovered; we explore examples of how CYPA PPI inhibition may be exploited to selectively kill cells from a variety of different cancers with a shared characteristic genomic instability profile. These findings propose a potential new disease application or repurposing strategy for the non-immunosuppressive CsA analogue class of Cyclophilin inhibitors.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/28/2023.06.27.546694.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.27.546694"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR682864"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR682864&type=FILE&fileName=EMS178248-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38943005",
+            "reference": "EMBO reports. 2024 Aug;25(8):3432-3455",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS178248",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "nct",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-06-30",
+      "firstPublicationDate": "2023-06-28",
+      "firstIndexDate": "2023-06-30",
+      "fullTextReceivedDate": "2023-08-17",
+      "hasEvaluations": "Y"
+    }
+  }
+}

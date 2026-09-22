@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37240035",
+  "title": "The Moonlighting Function of Soybean Disordered Methyl-CpG-Binding Domain 10c Protein.",
+  "authors": "Li, Yanling; Qin, Jiawei; Chen, Menglu; Sun, Nan; Tan, Fangmei; Zhang, Hua; Zou, Yongdong; Uversky, Vladimir N; Liu, Yun",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2023-05-27",
+  "window": {
+    "start": "2023-05-22",
+    "end": "2023-05-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究大豆无序MBD蛋白GmMBD10c的分子伴侣功能（抗冻融/热胁迫保护蛋白），对象为IDP但无PPI互作机制，方法仅生物信息学预测与实验表征，无AI/物理模拟建模，与本课题关联较弱。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are multifunctional due to their ability to adopt different structures depending on the local conditions. The intrinsically disordered regions of methyl-CpG-binding domain (MBD) proteins play important roles in regulating growth and development by interpreting DNA methylation patterns. However, whether MBDs have a stress-protective function is far from clear. In this paper, soybean GmMBD10c protein, which contains an MBD and is conserved in Leguminosae, was predicted to be located in the nucleus. It was found to be partially disordered by bioinformatic prediction, circular dichroism and a nuclear magnetic resonance spectral analysis. The enzyme activity assay and SDS-PAGE results showed that GmMBD10c can protect lactate dehydrogenase and a broad range of other proteins from misfolding and aggregation induced by the freeze-thaw process and heat stress, respectively. Furthermore, overexpression of GmMBD10c enhanced the salt tolerance of Escherichia coli. These data validate that GmMBD10c is a moonlighting protein with multiple functions.",
+  "abstract_zh": "固有无序蛋白（IDPs）因其能够根据局部条件采用不同结构而具有多功能性。甲基-CpG结合域（MBD）蛋白的固有无序区域通过解读DNA甲基化模式，在调控生长发育中发挥重要作用。然而，MBDs是否具有应激保护功能尚远未明确。本文中，大豆GmMBD10c蛋白（含有一个MBD且在豆科植物中保守）被预测定位于细胞核。通过生物信息学预测、圆二色光谱和核磁共振波谱分析，发现其部分无序。酶活性测定和SDS-PAGE结果表明，GmMBD10c能够分别保护乳酸脱氢酶及多种其他蛋白质免受冻融过程和热应激诱导的错误折叠和聚集。此外，GmMBD10c的过表达增强了大肠杆菌的耐盐性。这些数据验证了GmMBD10c是一种具有多种功能的月牙蛋白。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37240035/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37240035/",
+  "paper_page_path": "papers/pubmed/37240035/index.html"
+}

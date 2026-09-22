@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and scope as presented in the abstract; no evaluation of full-text content, figures, tables, or case-study details
+- **Shared manuscript claim summary** The review surveys computational approaches for drug design against "undruggable" targets, focusing on four target categories (intrinsically disordered proteins, allosteric regulation, protein-protein interactions, protein degradation) and emerging target types, with emphasis on AI-driven methods for structure prediction, virtual screening, and de novo ligand generation, and argues that integration with experimental techniques will expand the druggable space.
+- **Visible evidence base** Abstract text only; no figures, tables, references, or case-study descriptions provided
+- **Missing materials affecting confidence** Full text, figures, tables, reference list, case-study details, and any quantitative or comparative performance data; without these, the depth, accuracy, and novelty of the review cannot be assessed
+
+## Reviewer
+- **Overall assessment** The abstract presents a well-structured and timely overview of computational strategies for undruggable targets, with a clear organizational framework around four target categories and a forward-looking emphasis on AI integration. The writing is concise and accessible. However, the abstract is largely descriptive and programmatic, offering no specific examples, quantitative claims, or critical evaluation of the methods discussed. The scientific contribution of the review, as opposed to its topical relevance, cannot be established from the abstract alone. The claims about "revolutionized" and "transformed" the field are assertive but unsupported by evidence in the provided material.
+- **Who would be interested in the results, and why** Computational chemists, medicinal chemists, structural biologists, and AI researchers working on drug discovery, particularly those addressing challenging target classes such as intrinsically disordered proteins, allosteric sites, and protein-protein interactions. The review would also interest experimentalists seeking computational tools to complement their workflows, and researchers in chemical biology and translational pharmacology who follow the expansion of the druggable genome.
+- **Major strengths** The abstract clearly defines the scope and organizes the content around four well-recognized undruggable target categories, which provides a logical and useful framework. The emphasis on AI-driven methodologies and the integration of computational and experimental approaches reflects current trends and likely future directions. The writing is fluent and accessible to a broad scientific audience.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "recent advances in computational simulations and artificial intelligence have revolutionized the drug design landscape" and that "AI-driven methodologies have transformed the field."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract makes strong claims of revolution and transformation without providing any specific examples, performance metrics, or comparative benchmarks. No case studies are named, and no quantitative evidence is cited to support the magnitude of the claimed impact.
+  - **Why it matters** For a review article, the abstract should give readers a sense of the evidence base and the strength of the conclusions. Unsupported superlative claims reduce the credibility of the review and may overstate the current state of the field, particularly for readers who are not specialists.
+  - **Resolution test** The full text should provide specific case studies with concrete outcomes (for example, successful drug candidates or validated tool compounds), and the abstract should be revised to reflect the level of evidence actually presented, using more measured language if the evidence is primarily qualitative.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope and completeness
+  - **Claim pointer** The abstract states that "special emphasis is placed on four primary target categories" and "discussion of emerging target types."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not indicate how the four categories are selected, whether they are mutually exclusive, or how "emerging target types" are defined. It is unclear whether the review covers the full landscape of undruggable targets or only a curated subset, and whether the selection criteria are justified.
+  - **Why it matters** Readers need to understand the review's coverage to judge its utility. Without explicit inclusion and exclusion criteria, the scope may appear arbitrary, and the review may miss important target classes or methods that are relevant to the topic.
+  - **Resolution test** The full text should state the criteria for target category selection and define what constitutes an "emerging" target type. The abstract should briefly indicate the basis for the selection to set accurate expectations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and differentiation
+  - **Claim pointer** The abstract presents the review as highlighting "the latest progress" and "successful case studies" in computational approaches for undruggable targets.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not explain how this review differs from existing reviews on similar topics, which have appeared frequently in recent years. There is no statement of the review's unique contribution, such as a new framework, a critical re-evaluation, or a comprehensive comparison of methods.
+  - **Why it matters** For a review to be valuable, it must offer something beyond a summary of recent work. Without a clear differentiation statement, the review risks being redundant with prior publications, and readers may not know what new insights they will gain.
+  - **Resolution test** The full text should articulate the review's specific contribution relative to prior reviews. The abstract should include a sentence that states the novel angle or the gap the review fills.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "undruggable"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract defines undruggable targets by their features but does not clarify whether "undruggable" is an absolute or relative term, or whether it refers to small molecules only or also to biologics and other modalities.
+  - **Required correction** Add a brief clarification in the abstract or introduction that specifies the scope of "druggable" in the context of the review, for example, whether it refers to small-molecule binding or includes other therapeutic modalities.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Phrase "protein degradation"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** "Protein degradation" as a target category is ambiguous. It could refer to targeting the degradation machinery (for example, PROTACs, molecular glues) or to degrading specific proteins of interest. The abstract does not specify which aspect is covered.
+  - **Required correction** Clarify in the abstract or introduction whether the section on protein degradation covers targeted protein degradation technologies, the degradation machinery as a target, or both.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Emerging target types
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "emerging target types" but gives no examples, leaving the reader without a sense of what these are or why they are considered emerging.
+  - **Required correction** Provide one or two examples of emerging target types in the abstract, or state that these are discussed in the full text, to give readers a concrete preview.
+- **Technical failings that need to be addressed before the case is established** The abstract does not provide any technical details, data, or references that would allow the claims of success and transformation to be evaluated. The full text must supply case studies with concrete outcomes, methodological comparisons, and a critical assessment of limitations. Without these, the review's contribution cannot be verified.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract. The topic is timely but has been covered in multiple recent reviews; the abstract does not indicate a novel framework or perspective.
+  - Scientific importance: The topic is of high importance given the large fraction of the proteome considered undruggable and the rapid adoption of AI in drug discovery. The abstract conveys relevance but not the depth of the scientific contribution.
+  - Interdisciplinary readership: The abstract is written in a way that should appeal to computational and experimental researchers across chemistry, biology, and data science. The four-category structure aids accessibility.
+  - Technical soundness: Not assessable from the abstract. No methods, data, or validation are presented.
+  - Readability for nonspecialists: The abstract is clear and jargon-light, with terms such as "intrinsically disordered proteins" and "protein-protein interactions" likely familiar to a broad scientific audience. The phrase "undruggable targets" is used without over-explanation, which is appropriate for a review readership.
+- **Recommendation posture** Supportive if technical concerns are resolved. The topic is important and the proposed structure is sensible, but the abstract alone does not establish the scientific contribution. The full text must provide concrete case studies, a clear differentiation from prior reviews, and a balanced critical assessment to justify the strong claims made in the abstract.
+
+## Risk / unsupported claims
+- The claim that computational advances have "revolutionized" and "transformed" the drug design landscape is unsupported in the abstract and requires evidence in the full text.
+- The claim that "successful case studies" are presented is unverifiable from the abstract; no examples are named.
+- The claim that integration of computational and experimental methods "is expected to bring further breakthroughs" is a forward-looking statement and is not a factual claim, but it is presented without qualification.
+- The scope of "emerging target types" is undefined and cannot be evaluated.
+- The definition of "undruggable" and the coverage of "protein degradation" are ambiguous and require clarification.

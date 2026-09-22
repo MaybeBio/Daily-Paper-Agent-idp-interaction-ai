@@ -1,0 +1,220 @@
+{
+  "identity": {
+    "pmid": "39975453",
+    "doi": "",
+    "title": "Condensate Size Control by Net Charge."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are complex droplets comprising diverse molecules that interact using various mechanisms. Condensation is often driven by short-ranged attraction, but net charges can also mediate long-ranged repulsion. Using molecular dynamics simulations and an equilibrium field theory, we show that such opposing interactions can suppress coarsening so that many droplets of equal size coexist at equilibrium. This size control depends strongly on the charge asymmetry between constituents, while the strength of the short-ranged attractions has a weak influence. Essentially, droplets expel ions, so they cannot screen electrostatics effectively, implying droplets acquire a net charge and cannot grow indefinitely. Our work reveals how electrostatic effects control droplet size, which is relevant for understanding biomolecular condensates and creating synthetic patterns in chemical engineering.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Chengjie",
+        "Hess, Nathaniel",
+        "Aierken, Dilimulati",
+        "Qiang, Yicheng",
+        "Joseph, Jerelle A",
+        "Zwicker, David"
+      ],
+      "short_names": [
+        "Luo C",
+        "Hess N",
+        "Aierken D",
+        "Qiang Y",
+        "Joseph JA",
+        "Zwicker D"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Chengjie",
+        "short_name": "Luo C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hess, Nathaniel",
+        "short_name": "Hess N",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Aierken, Dilimulati",
+        "short_name": "Aierken D",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Qiang, Yicheng",
+        "short_name": "Qiang Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Joseph, Jerelle A",
+        "short_name": "Joseph JA",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zwicker, David",
+        "short_name": "Zwicker D",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ArXiv"
+    ],
+    "journal_abbrev": [
+      "ArXiv"
+    ],
+    "pub_date": "2025 Jan 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/20 06:22",
+    "fetched_at": "2026-09-21 15:50:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39975453",
+      "41021779",
+      "35293386",
+      "37980572",
+      "35867936",
+      "21410204",
+      "34186016",
+      "39149273",
+      "36758221",
+      "33307683",
+      "38192101",
+      "38622120",
+      "40985078",
+      "40159770",
+      "39498261",
+      "40626470",
+      "35001622",
+      "35411085",
+      "37721444",
+      "37791635",
+      "40629499",
+      "41481439",
+      "37497046",
+      "34315935",
+      "40635595",
+      "33231755",
+      "40877270",
+      "40196628",
+      "22583294",
+      "39952921",
+      "37770446",
+      "39044475",
+      "17031962",
+      "41355754",
+      "39677715",
+      "41251020",
+      "40791470",
+      "38987300",
+      "40509934",
+      "15740212",
+      "32101441",
+      "37781612",
+      "33864415",
+      "40028356",
+      "35587384",
+      "37043540",
+      "35761089",
+      "25797151",
+      "31437398",
+      "40782375",
+      "33376791",
+      "37546704",
+      "15889908",
+      "23912807",
+      "38766065",
+      "28190162",
+      "40236055",
+      "17134228",
+      "33570411",
+      "40949254",
+      "37468629",
+      "40503028",
+      "40721018",
+      "34552246",
+      "40672301",
+      "39320949",
+      "39655866",
+      "16851963",
+      "22197905",
+      "34654286",
+      "35978196",
+      "37546967",
+      "22225163",
+      "37904914",
+      "39591966",
+      "34767801",
+      "31265236",
+      "41279444",
+      "26883635",
+      "39620362",
+      "32767698",
+      "33934561",
+      "38429263",
+      "19045870",
+      "35881789",
+      "37215004",
+      "36251838",
+      "40616404",
+      "37417971",
+      "40103106",
+      "34241502",
+      "39763935",
+      "23020662",
+      "36798397",
+      "36711465",
+      "40751677",
+      "39922493",
+      "37131735",
+      "39071308",
+      "38308651"
+    ],
+    "review": [
+      "39975453",
+      "35761089",
+      "34767801",
+      "33934561"
+    ],
+    "pmc": [
+      "11838699"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39975453/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

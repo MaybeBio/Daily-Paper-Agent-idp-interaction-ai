@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37894933",
+  "title": "Challenges in Imaging Analyses of Biomolecular Condensates in Cells Infected with Influenza A Virus.",
+  "authors": "Etibor, Temitope Akhigbe; O'Riain, Aidan; Alenquer, Marta; Diwo, Christian; Vale-Costa, Silvia; Amorim, Maria Joao",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2023-10-28",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 5,
+  "one_liner_zh": "该文讨论流感病毒诱导的生物分子凝聚体的成像与机器学习分析方法，虽涉及相分离和机器学习，但聚焦成像技术而非无序蛋白介导的PPI机制建模，启发有限。",
+  "abstract": "Biomolecular condensates are crucial compartments within cells, relying on their material properties for function. They form and persist through weak, transient interactions, often undetectable by classical biochemical approaches. Hence, microscopy-based techniques have been the most reliable methods to detail the molecular mechanisms controlling their formation, material properties, and alterations, including dissolution or phase transitions due to cellular manipulation and disease, and to search for novel therapeutic strategies targeting biomolecular condensates. However, technical challenges in microscopy-based analysis persist. This paper discusses imaging, data acquisition, and analytical methodologies' advantages, challenges, and limitations in determining biophysical parameters explaining biomolecular condensate formation, dissolution, and phase transitions. In addition, we mention how machine learning is increasingly important for efficient image analysis, teaching programs what a condensate should resemble, aiding in the correlation and interpretation of information from diverse data sources. Influenza A virus forms liquid viral inclusions in the infected cell cytosol that serve as model biomolecular condensates for this study. Our previous work showcased the possibility of hardening these liquid inclusions, potentially leading to novel antiviral strategies. This was established using a framework involving live cell imaging to measure dynamics, internal rearrangement capacity, coalescence, and relaxation time. Additionally, we integrated thermodynamic characteristics by analysing fixed images through Z-projections. The aforementioned paper laid the foundation for this subsequent technical paper, which explores how different modalities in data acquisition and processing impact the robustness of results to detect bona fide phase transitions by measuring thermodynamic traits in fixed cells. Using solely this approach would greatly simplify screening pipelines. For this, we tested how single focal plane images, Z-projections, or volumetric analyses of images stained with antibodies or live tagged proteins altered the quantification of thermodynamic measurements. Customizing methodologies for different biomolecular condensates through advanced bioimaging significantly contributes to biological research and potential therapeutic advancements.",
+  "abstract_zh": "生物分子凝聚体是细胞内的关键区室，其功能依赖于其材料特性。它们通过弱且瞬时的相互作用形成并维持，这些相互作用通常无法通过经典生物化学方法检测到。因此，基于显微镜的技术一直是详细阐明控制其形成、材料特性及变化（包括因细胞操作和疾病导致的溶解或相变）的分子机制，以及寻找靶向生物分子凝聚体的新型治疗策略的最可靠方法。然而，基于显微镜的分析仍存在技术挑战。本文讨论了成像、数据采集和分析方法在确定解释生物分子凝聚体形成、溶解和相变的生物物理参数方面的优势、挑战和局限性。此外，我们提到机器学习在高效图像分析中日益重要，它教导程序凝聚体应呈现的形态，有助于关联和解释来自不同数据源的信息。甲型流感病毒在感染细胞胞质中形成液体病毒包涵体，作为本研究中生物分子凝聚体的模型。我们先前的工作展示了硬化这些液体包涵体的可能性，这可能带来新型抗病毒策略。这是通过一个涉及活细胞成像的框架建立的，用于测量动力学、内部重排能力、聚结和松弛时间。此外，我们通过Z投影分析固定图像，整合了热力学特性。上述论文为这篇后续技术论文奠定了基础，该论文探讨了数据采集和处理中不同模式如何影响结果的稳健性，以通过测量固定细胞中的热力学特征来检测真正的相变。仅使用这种方法将大大简化筛选流程。为此，我们测试了单焦平面图像、Z投影或对抗体染色或活体标记蛋白的图像进行体积分析如何改变热力学测量的量化。通过先进生物成像为不同生物分子凝聚体定制方法，显著促进了生物学研究和潜在的治疗进展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37894933/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37894933/",
+  "paper_page_path": "papers/pubmed/37894933/index.html"
+}

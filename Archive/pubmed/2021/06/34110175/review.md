@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided.
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with stated claims. No assessment of formatting, grammar, or journal-specific style beyond scientific relevance.
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations of four pentapeptide systems (GGGGG, GGQGG, GGNGG, GGVGG) to show that liquid–liquid phase separation (LLPS) is accompanied by a loss of backbone conformational entropy, which is more than compensated by a decrease in interaction enthalpy, primarily from enhanced van der Waals contacts in the dense droplet phase.
+- **Visible evidence base** Figures 1–6, Tables 1–3, and text descriptions of simulation and analysis methods. Supplementary Figure S2 is referenced but not provided.
+- **Missing materials affecting confidence** Supplementary Figure S2 (histograms of peptide–solvent interaction energies) is referenced but not included. Simulation input files, force field parameter details, and convergence criteria for entropy fits are not fully described. No error bars or statistical uncertainties are reported for entropy or enthalpy values.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in the biophysics of liquid–liquid phase separation, specifically the thermodynamic balance between conformational entropy loss and enthalpy gain in short glycine-rich peptides. The use of all-atom simulations and the MIE method for entropy estimation is appropriate and technically sound. However, several methodological details and statistical considerations are underreported, and the interpretation of the enthalpy decomposition could be strengthened. The core claim of thermodynamic compensation is plausible but not fully established from the provided evidence due to missing uncertainty quantification and limited discussion of force field limitations.
+- **Who would be interested in the results, and why** Researchers studying phase separation of intrinsically disordered proteins, computational biophysicists interested in entropy estimation methods, and experimentalists seeking molecular-level thermodynamic explanations for LLPS. The results provide a quantitative framework for understanding how sequence modulates the entropy–enthalpy balance, which is relevant for designing or interpreting LLPS-related experiments.
+- **Major strengths** 
+  - The study addresses a fundamental thermodynamic question in LLPS that is rarely probed at the atomic level.
+  - The use of the MIE method for conformational entropy is a sophisticated and appropriate approach.
+  - The systematic comparison of four peptide sequences allows for sequence-dependent insights.
+  - The decomposition of interaction enthalpy into electrostatic and van der Waals components provides mechanistic clarity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and uncertainty quantification
+  - **Claim pointer** The manuscript claims that conformational entropy loss is "more than compensated" by enthalpy decrease, and reports specific entropy and enthalpy values (e.g., ΔSconf of 12–16 cal mol−1 K−1, ΔHint of 31–37 kcal mol−1).
+  - **Evidence pointer** Figures 3–6, Tables 2–3; location not provided for error estimates.
+  - **Concern** No error bars, standard deviations, or confidence intervals are reported for any of the entropy or enthalpy values. The entropy fits are described as hyperbolic extrapolations, but the uncertainty in the fitted asymptotes is not quantified. Similarly, the interaction enthalpy values are presented as single numbers without variance across trajectories or time blocks.
+  - **Why it matters** Without uncertainty estimates, it is impossible to assess whether the reported differences between sequences or between phases are statistically significant. The central claim of compensation relies on the magnitude of the entropy loss relative to the enthalpy gain, which cannot be evaluated without error bars.
+  - **Resolution test** Provide standard errors or confidence intervals for all reported entropy and enthalpy values, ideally from block averaging or multiple independent simulations. Show that the compensation claim holds within these uncertainties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness and reproducibility
+  - **Claim pointer** The methods state that simulations were run for 300 ns with a 10 ns equilibration, and that entropy was calculated using the MIE method with a hyperbolic fit to the tail of the convergence curve.
+  - **Evidence pointer** Methods section; location not provided for specific parameters.
+  - **Concern** The manuscript does not report the number of independent simulations, the length of the equilibration period relative to phase separation kinetics, or the criteria used to determine that equilibrium was reached. The choice of the hyperbolic fit and the fraction of data used for the fit (stated as "final 40%") is not justified. Additionally, the PDB2TRENT calculations for translational/rotational entropy are described only briefly, with no validation or error assessment.
+  - **Why it matters** Reproducibility and reliability of the entropy estimates depend on these details. If the simulations are not fully equilibrated or if the entropy fits are sensitive to the fitting window, the reported values could be biased.
+  - **Resolution test** Provide details on the number of replicates, equilibration verification (e.g., time evolution of density or cluster size), and a sensitivity analysis of the entropy fit to the fitting window. Include validation of PDB2TRENT results against known systems or alternative methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of enthalpy decomposition
+  - **Claim pointer** The manuscript concludes that van der Waals interactions, not electrostatics, drive the favorable enthalpy change upon phase separation, and that hydrogen bonds are not dominant.
+  - **Evidence pointer** Figure 6, Table 3; location not provided for per-interaction breakdown.
+  - **Concern** The decomposition of interaction enthalpy into electrostatic and van der Waals components is presented, but the manuscript does not clarify whether these are pairwise additive or include many-body effects. The statement that hydrogen bonds are not dominant is based on the electrostatic component not changing, but hydrogen bonds are a subset of electrostatic interactions and could be compensated by other electrostatic changes. The analysis does not directly quantify hydrogen bond counts or energies.
+  - **Why it matters** The mechanistic conclusion about the role of van der Waals versus electrostatic interactions is a key finding. If the decomposition is not robust or if hydrogen bonds are not explicitly analyzed, the conclusion may be overstated.
+  - **Resolution test** Provide a direct analysis of hydrogen bond populations and energies in the two phases, and clarify the additivity assumptions in the energy decomposition. Show that the van der Waals contribution is robust to different decomposition schemes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2; location not provided.
+  - **Issue** The plot of aqueous peptide number over time is described but not shown in the provided text. The reader cannot verify the equilibrium criterion without seeing the data.
+  - **Required correction** Include the figure or provide a quantitative description of the equilibrium criterion (e.g., plateau value and fluctuation range).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of supplementary material
+  - **Affected element** Supplementary Figure S2
+  - **Evidence pointer** Results section, "Histograms of the data can be found in Figure S2 in the Supporting Information."
+  - **Issue** The referenced figure is not provided, making it impossible to assess the distribution of peptide–solvent interaction energies.
+  - **Required correction** Provide the supplementary figure or summarize the key features of the histograms in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, "Thermodynamic Compensation"; Discussion, "compensate for the loss of free energy."
+  - **Issue** The term "compensation" is used to describe the balance between entropy and enthalpy, but the manuscript does not formally define or quantify the compensation (e.g., via a compensation temperature or free energy decomposition).
+  - **Required correction** Clarify whether "compensation" refers to a quantitative enthalpy–entropy compensation relationship or simply a qualitative balance. If quantitative, provide the relevant metric.
+- **Technical failings that need to be addressed before the case is established** 
+  - R1-M1 (lack of uncertainty quantification) and R1-M2 (incomplete methodological details) are blocking. Without these, the central claim of thermodynamic compensation cannot be rigorously evaluated.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in applying MIE-based entropy calculations to LLPS of short peptides, but similar thermodynamic analyses exist for other systems. The novelty is moderate.
+  - **Scientific importance** The question of entropy–enthalpy balance in LLPS is important for understanding the physical basis of phase separation, but the study is limited to model pentapeptides and may not directly translate to biologically relevant IDPs.
+  - **Interdisciplinary readership** The work will appeal to biophysicists, computational chemists, and possibly soft matter physicists, but the technical nature may limit broader readership.
+  - **Technical soundness** The methods are appropriate but underreported, particularly regarding uncertainty and convergence. The entropy calculations are state-of-the-art, but the lack of error analysis weakens the conclusions.
+  - **Readability for nonspecialists** The manuscript is generally clear but assumes familiarity with entropy estimation methods and LLPS terminology. Some sections (e.g., MIE method) may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the methods are appropriate, but the lack of uncertainty quantification and incomplete methodological details currently prevent the case from being fully established.
+
+## Risk / unsupported claims
+- The claim that "the loss of conformational entropy ... is more than compensated by a decrease in interaction enthalpy" is not supported without error bars on both quantities.
+- The statement that "van der Waals interactions ... are the main factor distinguishing the systems" is not fully supported without a direct comparison of electrostatic and van der Waals contributions across all systems and phases.
+- The claim that "hydrogen bonds are not always the dominant attractive interaction" is not directly tested, as hydrogen bond populations are not quantified.
+- The translational/rotational entropy values from PDB2TRENT are presented without validation or uncertainty, making their reliability unclear.

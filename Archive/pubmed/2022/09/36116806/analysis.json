@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36116806",
+  "title": "ScanNet: A Web Server for Structure-based Prediction of Protein Binding Sites with Geometric Deep Learning.",
+  "authors": "Tubiana, Jerome; Schneidman-Duhovny, Dina; Wolfson, Haim J",
+  "journal": "Journal of molecular biology",
+  "published_date": "2022-09-19",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 8,
+  "one_liner_zh": "ScanNet 是一个基于几何深度学习的网络服务器，从结构预测蛋白-蛋白、蛋白-无序蛋白及蛋白-抗体结合位点，直接针对无序蛋白互作界面进行机制建模，方法新颖且可迁移。",
+  "abstract": "Predicting the various binding sites of a protein from its structure sheds light on its function and paves the way towards design of interaction inhibitors. Here, we report ScanNet, a freely available web server for prediction of protein-protein, protein - disordered protein and protein - antibody binding sites from structure. ScanNet (Spatio-Chemical Arrangement of Neighbors Network) is an end-to-end, interpretable geometric deep learning model that learns spatio-chemical patterns directly from 3D structures. ScanNet consistently outperforms Machine Learning models based on handcrafted features and comparative modeling approaches. The web server is linked to both the PDB and AlphaFoldDB, and supports user-provided structure files. Predictions can be readily visualized on the website via the Molstar web app and locally via ChimeraX. ScanNet is available at http://bioinfo3d.cs.tau.ac.il/ScanNet/.",
+  "abstract_zh": "从蛋白质的结构预测其各种结合位点，有助于揭示其功能，并为设计相互作用抑制剂铺平道路。在此，我们介绍ScanNet，一个免费可用的网络服务器，用于从结构预测蛋白质-蛋白质、蛋白质-无序蛋白质及蛋白质-抗体结合位点。ScanNet（Spatio-Chemical Arrangement of Neighbors Network）是一种端到端、可解释的几何深度学习模型，直接从3D结构中学习空间化学模式。ScanNet在性能上持续优于基于手工特征和比较建模方法的机器学习模型。该网络服务器与PDB和AlphaFoldDB相连，并支持用户提供的结构文件。预测结果可通过Molstar网页应用在网站上直接可视化，也可通过ChimeraX在本地查看。ScanNet可在http://bioinfo3d.cs.tau.ac.il/ScanNet/获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36116806/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36116806/",
+  "paper_page_path": "papers/pubmed/36116806/index.html"
+}

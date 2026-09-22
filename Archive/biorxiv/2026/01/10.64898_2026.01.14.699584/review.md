@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce IDPFold2, a generative framework combining a Mixture-of-Experts architecture with flow matching, to predict conformational ensembles for folded domains, intrinsically disordered regions (IDRs), multidomain proteins, and protein assemblies. They claim state-of-the-art performance in capturing functional states and fitting experimental observations, and describe an extension to protein complexes that deciphers binding modes of IDRs.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmarks, datasets, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark definitions, training and evaluation protocols, comparison baselines, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the field of conformational ensemble prediction, addressing a recognized gap in extending deep learning approaches beyond single folded domains. The conceptual combination of Mixture-of-Experts with flow matching is plausible and timely. However, the abstract provides no quantitative evidence, no benchmark comparisons, no methodological specifics, and no validation details. As such, the core claims of accuracy, generalizability, and superiority over existing methods cannot be assessed from the supplied material. The work may be of interest to the structural biology and machine learning communities, but the current evidence base is insufficient to establish the stated claims.
+- **Who would be interested in the results, and why** Computational structural biologists developing or using ensemble prediction methods; experimentalists studying intrinsically disordered proteins and multidomain assemblies who require conformational models to interpret biophysical data; machine learning researchers working on generative models for biomolecular structure; and researchers in drug discovery or functional genomics who need dynamic conformational information beyond static structures.
+- **Major strengths** The problem addressed is important and timely, as existing deep learning methods largely focus on static structure prediction. The proposed architecture, integrating Mixture-of-Experts with flow matching, is conceptually innovative and well matched to the challenge of modeling heterogeneous conformational landscapes. The stated scope, covering folded domains, IDRs, multidomain proteins, and assemblies, suggests broad applicability. The abstract is clearly written and accessible to a nonspecialist audience.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "IDPFold2 outperforms state-of-the-art methods in capturing key functional states and fitting the experimental observations across local and global scales."  
+  - **Evidence pointer** Abstract only; no figures, tables, or benchmark data provided  
+  - **Concern** The abstract asserts superior performance over state-of-the-art methods without presenting any quantitative results, benchmark definitions, or statistical comparisons. No metrics, datasets, or baseline methods are named.  
+  - **Why it matters** The central claim of the work is that IDPFold2 improves upon existing methods. Without any numerical evidence or methodological context, this claim is unverifiable and cannot support the scientific case for the method's utility.  
+  - **Resolution test** Provide benchmark results with defined metrics (e.g., RMSD, ensemble overlap, experimental observable fitting) against named state-of-the-art baselines, with error bars and statistical significance tests.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** "IDPFold2, a generative framework that models the heterogenous protein thermodynamics by integrating a Mixture-of-Experts architecture into the flow matching framework."  
+  - **Evidence pointer** Abstract only; no methods section provided  
+  - **Concern** The abstract describes the architecture at a high level but provides no details on how the Mixture-of-Experts routing is implemented, how flow matching is adapted for conformational sampling, how training data were curated, or how the model handles the distinct physical characteristics of folded versus disordered regions.  
+  - **Why it matters** Reproducibility and technical evaluation require a full description of the model architecture, training procedure, and data handling. Without these details, the method cannot be assessed for technical soundness or compared fairly with existing approaches.  
+  - **Resolution test** Provide a complete methods section including architecture diagrams, training loss functions, data sources, hyperparameters, and computational cost.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Validation scope  
+  - **Claim pointer** "we describe an extension of IDPFold2 to protein assemblies, deciphering the complex binding modes of IDRs within large biomolecular complexes."  
+  - **Evidence pointer** Abstract only; no results for assembly predictions provided  
+  - **Concern** The extension to protein assemblies is mentioned as a described feature, but no results, case studies, or validation metrics are presented. It is unclear whether this extension has been tested, on what systems, and with what success.  
+  - **Why it matters** The claim of generalizability to large complexes is a key differentiator of the work. Without evidence, this remains an assertion rather than a demonstrated capability.  
+  - **Resolution test** Present at least one validated case study of an IDR-containing assembly with comparison to experimental data or established benchmarks.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Comparison fairness  
+  - **Claim pointer** "IDPFold2 outperforms state-of-the-art methods"  
+  - **Evidence pointer** Abstract only; no baseline details provided  
+  - **Concern** The abstract does not specify which state-of-the-art methods were compared, under what conditions, or on which test sets. Without this information, the claim of superiority is ambiguous and potentially misleading.  
+  - **Why it matters** Fair benchmarking is essential for establishing the value of a new method. Unspecified comparisons prevent the community from assessing whether the improvement is meaningful or an artifact of test set selection.  
+  - **Resolution test** List all baseline methods, their versions, training data, and evaluation protocols, and ensure identical test conditions across all methods.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "structural continuum" is used without definition, which may be ambiguous for readers unfamiliar with the concept of conformational ensembles.  
+  - **Required correction** Define or rephrase to clarify that the continuum refers to the range of conformations from stable folded states to highly dynamic disordered states.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Claim scope  
+  - **Evidence pointer** Abstract, "accurately predicts conformational ensembles"  
+  - **Issue** The term "accurately" is used without a defined accuracy metric or threshold.  
+  - **Required correction** Specify the evaluation metrics used to define accuracy, such as ensemble overlap with experimental data or distributional distance measures.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Benchmark description  
+  - **Evidence pointer** Abstract, "outperforms state-of-the-art methods"  
+  - **Issue** No mention of which experimental observables were used for fitting or which systems were tested.  
+  - **Required correction** List the experimental observables (e.g., SAXS, FRET, NMR chemical shifts) and the test systems in the abstract or indicate where this information is provided.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Accessibility  
+  - **Affected element** Availability statement  
+  - **Evidence pointer** Abstract, no mention of code or data availability  
+  - **Issue** The abstract does not state whether the model, code, or training data will be made publicly available.  
+  - **Required correction** Add a data and code availability statement to the abstract or indicate where it appears in the manuscript.
+
+## Risk / unsupported claims
+- The claim that IDPFold2 "accurately predicts conformational ensembles" is unsupported by any quantitative evidence in the abstract.
+- The claim of outperforming state-of-the-art methods is unsupported without named baselines, metrics, or datasets.
+- The claim of generalizability to protein assemblies is unsupported without any validation results.
+- The claim of "deciphering the complex binding modes of IDRs" is unsupported without case studies or experimental comparisons.
+- The overall framing of "modeling the heterogenous protein thermodynamics" is not substantiated by any thermodynamic or statistical mechanical validation.
+- The statement that the method provides "a generalizable tool for exploring the dynamic proteome" is an extrapolation beyond the evidence presented.

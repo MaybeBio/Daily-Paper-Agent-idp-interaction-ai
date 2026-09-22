@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "42316432",
+    "doi": "10.1021/acs.biomac.6c00338",
+    "title": "Crowder-Induced Conformational Fluctuations Modulate the Phase Separation of the Yeast Sup35NM Domain."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) from larger proteins are known to undergo liquid-liquid phase separation (LLPS) to form biomolecular condensates. This process is influenced by the conformational flexibility of the protein and the crowded intracellular environment. Although several studies exist involving crowding agents to induce LLPS, the molecular understanding of crowding in phase separation has not been explored well. Herein, we investigate how molecular crowding, specifically the size and shape of crowders like Dextran and Ficoll, modulates the conformational states and phase separation behavior of Sup35NM, a disordered region of the yeast prion protein, Sup35. Using fluorescence correlation spectroscopy (FCS) and molecular dynamics simulations, we show that Dextran, depending on its molecular weight, induces both compaction and expansion of Sup35NM, driving phase separation beyond a particular threshold. Notably, flexible rod-like Dextran crowders promotes phase separation, while spherical Ficoll does not, highlighting the impact of crowder geometry on IDP behavior. Molecular simulation further revealed that the crowder shape influences Sup35NM's conformational ensemble by modulating intra- and inter-domain interactions. These findings elucidate the role of crowding agents in IDP phase behavior, suggesting that cellular crowding may regulate IDP functionality through conformational control.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phase Separation",
+      "*Peptide Termination Factors/chemistry",
+      "*Saccharomyces cerevisiae Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Dextrans/chemistry",
+      "*Saccharomyces cerevisiae/chemistry",
+      "Ficoll/chemistry",
+      "Protein Conformation",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Roychowdhury, Sumangal",
+        "Menon, Sneha",
+        "Mandal, Narattam",
+        "Majumder, Subhabrata",
+        "Mondal, Jagannath",
+        "Chattopadhyay, Krishnananda"
+      ],
+      "short_names": [
+        "Roychowdhury S",
+        "Menon S",
+        "Mandal N",
+        "Majumder S",
+        "Mondal J",
+        "Chattopadhyay K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5705-4021",
+        "ORCID: 0000-0003-1079-8928",
+        "ORCID: 0000-0002-2950-1824",
+        "ORCID: 0000-0003-1317-351X",
+        "ORCID: 0000-0003-1090-5199",
+        "ORCID: 0000-0002-1449-8909"
+      ],
+      "affiliations": [
+        "Protein Folding and Dynamics Laboratory, Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4, Raja SC Mullick Road, Kolkata 700032, India.",
+        "Tata Institute of Fundamental Research Hyderabad, 36/P, Gopanapally village, Serilingampally mandal, Hyderabad 500046, India.",
+        "Protein Folding and Dynamics Laboratory, Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4, Raja SC Mullick Road, Kolkata 700032, India.",
+        "Biophysics & Structural Genomics, Saha Institute of Nuclear Physics Sector 1, Block AF, Salt Lake, Kolkata 700064, India.",
+        "Tata Institute of Fundamental Research Hyderabad, 36/P, Gopanapally village, Serilingampally mandal, Hyderabad 500046, India.",
+        "Protein Folding and Dynamics Laboratory, Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4, Raja SC Mullick Road, Kolkata 700032, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), CSIR-Human Resource Development Centre, Ghaziabad 201002, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Roychowdhury, Sumangal",
+        "short_name": "Roychowdhury S",
+        "identifiers": [
+          "0000-0002-5705-4021"
+        ],
+        "affiliations": [
+          "Protein Folding and Dynamics Laboratory, Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4, Raja SC Mullick Road, Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Menon, Sneha",
+        "short_name": "Menon S",
+        "identifiers": [
+          "0000-0003-1079-8928"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad, 36/P, Gopanapally village, Serilingampally mandal, Hyderabad 500046, India."
+        ]
+      },
+      {
+        "full_name": "Mandal, Narattam",
+        "short_name": "Mandal N",
+        "identifiers": [
+          "0000-0002-2950-1824"
+        ],
+        "affiliations": [
+          "Protein Folding and Dynamics Laboratory, Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4, Raja SC Mullick Road, Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Majumder, Subhabrata",
+        "short_name": "Majumder S",
+        "identifiers": [
+          "0000-0003-1317-351X"
+        ],
+        "affiliations": [
+          "Biophysics & Structural Genomics, Saha Institute of Nuclear Physics Sector 1, Block AF, Salt Lake, Kolkata 700064, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Jagannath",
+        "short_name": "Mondal J",
+        "identifiers": [
+          "0000-0003-1090-5199"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad, 36/P, Gopanapally village, Serilingampally mandal, Hyderabad 500046, India."
+        ]
+      },
+      {
+        "full_name": "Chattopadhyay, Krishnananda",
+        "short_name": "Chattopadhyay K",
+        "identifiers": [
+          "0000-0002-1449-8909"
+        ],
+        "affiliations": [
+          "Protein Folding and Dynamics Laboratory, Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4, Raja SC Mullick Road, Kolkata 700032, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), CSIR-Human Resource Development Centre, Ghaziabad 201002, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2026 Jul 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/19 06:33",
+    "fetched_at": "2026-09-18 04:11:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42316432",
+      "23912807",
+      "37759770",
+      "39947751",
+      "41169547",
+      "42012824",
+      "27050502",
+      "33076213",
+      "39276934",
+      "29301985",
+      "40651157",
+      "34029402",
+      "42309023",
+      "42106138",
+      "39968832",
+      "24312701",
+      "40748104",
+      "39285530",
+      "36542701",
+      "32569469",
+      "41877588",
+      "35661170",
+      "36657879",
+      "31667164",
+      "34206440",
+      "32393642",
+      "36990219",
+      "41193489",
+      "41524628",
+      "29467288",
+      "39225535",
+      "32210191",
+      "40671581",
+      "38808573",
+      "39089542",
+      "17299036",
+      "41988802",
+      "25494801",
+      "29539394",
+      "28425679",
+      "40792356",
+      "30963769",
+      "39342654",
+      "34102212",
+      "41756960",
+      "38160320",
+      "38526948",
+      "30963611",
+      "32824618",
+      "39826709",
+      "33069007",
+      "30066087",
+      "39983547",
+      "31059260",
+      "41593006",
+      "40842365",
+      "32760995",
+      "39987501",
+      "41609052",
+      "21030659",
+      "40726410",
+      "31260322",
+      "37348142",
+      "33587794",
+      "42315359",
+      "33081049",
+      "39885130",
+      "32213585",
+      "32284601",
+      "34313292",
+      "42284179",
+      "40291420",
+      "41001641",
+      "32613446",
+      "32697684",
+      "28924037",
+      "39421885",
+      "38847095",
+      "36463407",
+      "38322526",
+      "34298166",
+      "41930927",
+      "39815790",
+      "36711093",
+      "29851345",
+      "40848932",
+      "36524527",
+      "42105592",
+      "20580965",
+      "41491828",
+      "32312191",
+      "42249853",
+      "40654645",
+      "40574713",
+      "36444977",
+      "28330994",
+      "33078839",
+      "33684117",
+      "34737230",
+      "41673446"
+    ],
+    "review": [
+      "42316432",
+      "39947751",
+      "42309023",
+      "30963611",
+      "32824618",
+      "33069007",
+      "30066087",
+      "36524527",
+      "32312191"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.6c00338",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

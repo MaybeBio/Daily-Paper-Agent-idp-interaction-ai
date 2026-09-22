@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38537638",
+  "title": "Molecular determinants and signaling effects of PKA RIalpha phase separation.",
+  "authors": "Hardy, Julia C; Pool, Emily H; Bruystens, Jessica G H; Zhou, Xin; Li, Qingrong; Zhou, Daojia R; Palay, Max; Tan, Gerald; Chen, Lisa; Choi, Jaclyn L C; Lee, Ha Neul; Strack, Stefan; Wang, Dong; Taylor, Susan S; Mehta, Sohum; Zhang, Jin",
+  "journal": "Molecular cell",
+  "published_date": "2024-03-28",
+  "window": {
+    "start": "2024-03-25",
+    "end": "2024-03-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究PKA调节亚基RIalpha通过二聚化界面和假底物序列驱动液-液相分离，并招募催化亚基形成非经典复合物以调控cAMP信号区室化，属于IDR/相分离介导的蛋白互作机制研究，但方法上以实验为主，缺乏AI或物理模拟建模，故评7分。",
+  "abstract": "Spatiotemporal regulation of intracellular signaling molecules, such as the 3',5'-cyclic adenosine monophosphate (cAMP)-dependent protein kinase (PKA), ensures proper cellular function. Liquid-liquid phase separation (LLPS) of the ubiquitous PKA regulatory subunit RIalpha promotes cAMP compartmentation and signaling specificity. However, the molecular determinants of RIalpha LLPS remain unclear. Here, we reveal that two separate dimerization interfaces, combined with the cAMP-induced unleashing of the PKA catalytic subunit (PKA-C) from the pseudosubstrate inhibitory sequence, drive RIalpha condensate formation in the cytosol of mammalian cells, which is antagonized by docking to A-kinase anchoring proteins. Strikingly, we find that the RIalpha pseudosubstrate region is critically involved in forming a non-canonical R:C complex, which recruits active PKA-C to RIalpha condensates to maintain low basal PKA activity in the cytosol. Our results suggest that RIalpha LLPS not only facilitates cAMP compartmentation but also spatially restrains active PKA-C, thus highlighting the functional versatility of biomolecular condensates in driving signaling specificity.",
+  "abstract_zh": "细胞内信号分子（如3',5'-环磷酸腺苷（cAMP）依赖性蛋白激酶（PKA））的时空调控确保细胞功能正常进行。普遍存在的PKA调节亚基RIalpha的液-液相分离（LLPS）促进cAMP区室化和信号特异性。然而，RIalpha LLPS的分子决定因素仍不清楚。在此，我们揭示两个独立的二聚化界面，结合cAMP诱导的PKA催化亚基（PKA-C）从假底物抑制序列中释放，驱动哺乳动物细胞胞质中RIalpha凝聚体的形成，而这一过程被与A激酶锚定蛋白的对接所拮抗。引人注目的是，我们发现RIalpha假底物区域在形成非经典R:C复合物中起关键作用，该复合物将活性PKA-C招募至RIalpha凝聚体，以维持胞质中低基础PKA活性。我们的结果表明，RIalpha LLPS不仅促进cAMP区室化，还空间上限制活性PKA-C，从而凸显生物分子凝聚体在驱动信号特异性中的功能多样性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38537638/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38537638/",
+  "paper_page_path": "papers/pubmed/38537638/index.html"
+}

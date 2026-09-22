@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "39636939",
+    "doi": "10.1021/acs.jpcb.4c05834",
+    "title": "Microscopic Origins of Flow Activation Energy in Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "The material properties of biomolecular condensates govern their dynamics and functions by influencing the molecular diffusion rates and biochemical interactions. A recent report has identified a characteristic timescale of temperature-dependent viscosity in biomolecular condensates arising from an activated dissociation events collectively referred to as flow activation energy. The microscopic origin of this activation energy is a complex function of sequence, stoichiometry, and external conditions. In this study, we elucidate the microscopic origins of flow activation energy in single and multicomponent condensates formed from model peptide sequences with varying \"sticker\" and \"spacer\" motifs, incorporating RNA as a secondary component. We examined how condensate density, RNA stoichiometry, and peptide sequence patterning impact these properties through detailed sequence-resolved coarse-grained simulations. Our findings reveal that flow activation energy is closely tied to the lifetime of sticker-sticker interactions under specific conditions. However, the presence of multiple competing stickers may complicate this relationship leading to frustrated interactions in condensates and lowering of activation energy. The findings of this study should help to create predictive models of material properties of condensates, which in turn can facilitate a more profound understanding of functions and programmable design principles of biomolecular condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biomolecular Condensates/chemistry/metabolism",
+      "*Peptides/chemistry/metabolism",
+      "*RNA/chemistry/metabolism",
+      "Thermodynamics",
+      "Molecular Dynamics Simulation",
+      "Viscosity",
+      "Temperature"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Sean",
+        "Banerjee, Priya R",
+        "Potoyan, Davit A"
+      ],
+      "short_names": [
+        "Yang S",
+        "Banerjee PR",
+        "Potoyan DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6169-1461",
+        "ORCID: 0000-0002-5860-1699"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Iowa State University, Ames, Iowa 50011, United States.",
+        "Department of Physics, The State University of New York at Buffalo, Buffalo, New York 14260-1660,United States.",
+        "Department of Chemistry, Iowa State University, Ames, Iowa 50011, United States.",
+        "Roy J. Carver Department of Biochemistry, Biophysics, and Molecular Biology, Ames, Iowa 50011, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Sean",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, Iowa 50011, United States."
+        ]
+      },
+      {
+        "full_name": "Banerjee, Priya R",
+        "short_name": "Banerjee PR",
+        "identifiers": [
+          "0000-0002-6169-1461"
+        ],
+        "affiliations": [
+          "Department of Physics, The State University of New York at Buffalo, Buffalo, New York 14260-1660,United States."
+        ]
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [
+          "0000-0002-5860-1699"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, Iowa 50011, United States.",
+          "Roy J. Carver Department of Biochemistry, Biophysics, and Molecular Biology, Ames, Iowa 50011, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2024 Dec 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/05 18:25",
+    "fetched_at": "2026-09-21 13:21:36"
+  },
+  "links": {
+    "cites": [
+      "41657248",
+      "41645509",
+      "40848932",
+      "40661456"
+    ],
+    "refs": [
+      "38467846",
+      "38429263",
+      "38363841",
+      "38297184",
+      "38177438",
+      "38112495",
+      "37957331",
+      "37890457",
+      "37645312",
+      "37194953",
+      "36018701",
+      "35595170",
+      "34785657",
+      "33303613",
+      "33264400",
+      "33056997",
+      "31784535",
+      "31435012",
+      "30307245",
+      "29364893",
+      "29186229",
+      "28636597",
+      "27212236",
+      "26574439",
+      "25481166",
+      "24368804",
+      "20969366",
+      "18083189"
+    ],
+    "similar": [
+      "39636939",
+      "39386700",
+      "34785657",
+      "34772789",
+      "41481439",
+      "37194953",
+      "40985078",
+      "38363841",
+      "36883003",
+      "38824391",
+      "39674888",
+      "41670285",
+      "38832749",
+      "40455990",
+      "41645509",
+      "39928699",
+      "35727989",
+      "40172489",
+      "41342450",
+      "41739144",
+      "40229261",
+      "41933903",
+      "39804953",
+      "37252985",
+      "39320949",
+      "39578406",
+      "39866835",
+      "37408305",
+      "41703914",
+      "41667469",
+      "40009520",
+      "41118627",
+      "40954121",
+      "39113361",
+      "40661456",
+      "40653653",
+      "40102453",
+      "38383656",
+      "41187075",
+      "40481268",
+      "39591652",
+      "40903498",
+      "36397514",
+      "40203038",
+      "40614690",
+      "37480229",
+      "41017414",
+      "41575805",
+      "41863073",
+      "41469832",
+      "38751116",
+      "34090478",
+      "41238911",
+      "40791470",
+      "37468629",
+      "32004090",
+      "40058249",
+      "39433596",
+      "40972943",
+      "39196681",
+      "38649740",
+      "34862761",
+      "34772787",
+      "34767801",
+      "39168125",
+      "40335475",
+      "34772786",
+      "38885177",
+      "40603603",
+      "40196628",
+      "36175408",
+      "41266615",
+      "40664121",
+      "39541973",
+      "40468084",
+      "40877270",
+      "39227569",
+      "41027866",
+      "40521608",
+      "39080253",
+      "42059155",
+      "38987300",
+      "36227477",
+      "33934561",
+      "38781207",
+      "39166772",
+      "39455581",
+      "39034215",
+      "38181073",
+      "33558506",
+      "40744081",
+      "39827079",
+      "41850298",
+      "39260373",
+      "38848869",
+      "40790117",
+      "37489654",
+      "40801528",
+      "40195042",
+      "41662498"
+    ],
+    "review": [
+      "39636939",
+      "34772789",
+      "40172489",
+      "40614690",
+      "41575805",
+      "41469832",
+      "32004090",
+      "40058249",
+      "39433596",
+      "34772787",
+      "34767801",
+      "34772786",
+      "38885177",
+      "40664121",
+      "42059155",
+      "33934561",
+      "39034215",
+      "40744081",
+      "39827079",
+      "40801528"
+    ],
+    "pmc": [
+      "12087231"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39636939/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.4c05834",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

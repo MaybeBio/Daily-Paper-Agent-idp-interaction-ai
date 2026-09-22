@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40058249",
+  "title": "Deciphering driving forces of biomolecular phase separation from simulations.",
+  "authors": "Schafer, Lars V; Stelzl, Lukas S",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2025-03-10",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 8,
+  "one_liner_zh": "综述利用粗粒化和全原子MD模拟解析生物分子凝聚体形成与调控的热力学驱动力，聚焦相分离机制建模，虽无新AI方法但对象与方法高度契合本课题。",
+  "abstract": "The formation and modulation of biomolecular condensates as well as their structural and dynamic properties are determined by an intricate interplay of different driving forces, which down at the microscopic scale involve molecular interactions of the biological macromolecules and the surrounding solvent and ions. Molecular simulations are increasingly used to provide detailed insights into the various processes and thermodynamic driving forces at play, thereby yielding mechanistic understanding and aiding the interpretation of experiments at the level of individual amino acid residues or even atoms. Here we summarize recent advances in the field of biocondensate simulations with a focus on coarse-grained and all-atom molecular dynamics (MD) simulations. We highlight possible future challenges concerning computationally efficient and physically accurate simulations of increasingly large and complex biocondensate systems.",
+  "abstract_zh": "生物分子凝聚体的形成与调控及其结构和动态特性，由不同驱动力的复杂相互作用决定，在微观尺度上涉及生物大分子与周围溶剂和离子的分子相互作用。分子模拟日益被用于提供对各种过程和热力学驱动力的详细见解，从而在单个氨基酸残基甚至原子水平上实现机制理解并辅助实验解释。在此，我们总结了生物凝聚体模拟领域的最新进展，重点关注粗粒化和全原子分子动力学 (molecular dynamics, MD) 模拟。我们强调了未来可能面临的挑战，涉及对日益庞大和复杂的生物凝聚体系统进行计算高效且物理准确的模拟。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40058249/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40058249/",
+  "paper_page_path": "papers/pubmed/40058249/index.html"
+}

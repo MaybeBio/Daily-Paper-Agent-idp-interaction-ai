@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38949285",
+  "title": "Atomistic insights into the reentrant phase-transitions in polyuracil and polylysine mixtures.",
+  "authors": "Ramachandran, Vysakh; Potoyan, Davit A",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2024-07-01",
+  "window": {
+    "start": "2024-07-01",
+    "end": "2024-07-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用原子级分子动力学模拟研究polyU与polyK混合物的reentrant相变，揭示水合、离子凝聚与氢键网络对蛋白-RNA凝聚体稳定性的微观机制，虽对象为多肽/RNA而非典型IDP，但相分离PPI机制建模思路对本课题高度可迁移。",
+  "abstract": "The phase separation of protein and RNA mixtures underpins the assembly and regulation of numerous membraneless organelles in cells. The ubiquity of protein-RNA condensates in cellular regulatory processes is in part due to their sensitivity to RNA concentration, which affects their physical properties and stability. Recent experiments with poly-cationic peptide-RNA mixtures have revealed closed-loop phase diagrams featuring lower and upper critical solution temperatures. These diagrams indicate reentrant phase transitions shaped by biomolecular interactions and entropic forces such as solvent and ion reorganization. We employed atomistic simulations to study mixtures with various RNA-polylysine stoichiometries and temperatures to elucidate the microscopic driving forces behind reentrant phase transitions in protein-RNA mixtures. Our findings reveal an intricate interplay between hydration, ion condensation, and specific RNA-polylysine hydrogen bonding, resulting in distinct stoichiometry-dependent phase equilibria governing stabilities and structures of the condensate phase. Our simulations show that reentrant transitions are accompanied by desolvation around the phosphate groups of RNA, with increased contacts between phosphate and lysine side chains. In RNA-rich systems at lower temperatures, RNA molecules can form an extensive pi-stacking and hydrogen bond network, leading to percolation. In protein-rich systems, no such percolation-induced transitions are observed. Furthermore, we assessed the performance of three prominent water force fields-Optimal Point Charge (OPC), TIP4P-2005, and TIP4P-D-in capturing reentrant phase transitions. OPC provided a superior balance of interactions, enabling effective capture of reentrant transitions and accurate characterization of changes in solvent reorganization. This study offers atomistic insights into the nature of reentrant phase transitions using simple model peptide and nucleotide mixtures. We believe that our results are broadly applicable to larger classes of peptide-RNA mixtures exhibiting reentrant phase transitions.",
+  "abstract_zh": "蛋白质与RNA混合物的相分离支撑着细胞中众多无膜细胞器的组装与调控。蛋白质-RNA凝聚体在细胞调控过程中的普遍性，部分归因于它们对RNA浓度的敏感性，这影响其物理性质和稳定性。近期针对多阳离子肽-RNA混合物的实验揭示了具有下临界溶解温度和上临界溶解温度的闭环相图。这些相图表明，由生物分子相互作用和熵力（如溶剂和离子重组）塑造的重入相变。我们采用原子模拟研究了不同RNA-聚赖氨酸化学计量比和温度下的混合物，以阐明蛋白质-RNA混合物中重入相变背后的微观驱动力。我们的发现揭示了水合作用、离子凝聚和特异性RNA-聚赖氨酸氢键之间的复杂相互作用，导致依赖于化学计量比的相平衡，这些相平衡控制着凝聚相的结构和稳定性。我们的模拟表明，重入相变伴随着RNA磷酸基团周围的去溶剂化，磷酸基团与赖氨酸侧链之间的接触增加。在较低温度下的RNA富集系统中，RNA分子可形成广泛的π-堆积和氢键网络，导致渗流现象。在蛋白质富集系统中，未观察到此类渗流诱导的相变。此外，我们评估了三种主要水力场——最优点电荷（OPC）、TIP4P-2005和TIP4P-D——在捕捉重入相变方面的性能。OPC提供了优越的相互作用平衡，能够有效捕捉重入相变并准确表征溶剂重组的变化。本研究利用简单模型肽和核苷酸混合物，提供了对重入相变本质的原子级见解。我们相信，我们的结果广泛适用于表现出重入相变的更大类别的肽-RNA混合物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38949285/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38949285/",
+  "paper_page_path": "papers/pubmed/38949285/index.html"
+}

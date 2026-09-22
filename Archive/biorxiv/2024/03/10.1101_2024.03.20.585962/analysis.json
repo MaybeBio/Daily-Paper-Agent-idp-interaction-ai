@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.03.20.585962",
+  "title": "mRNA display in cell lysates enables identification of cyclic peptides targeting the BRD3 extraterminal domain",
+  "authors": "Hurd CA; Bush JT; Powell AJ; Walport LJ",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-20",
+  "window": {
+    "start": "2024-03-18",
+    "end": "2024-03-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用mRNA展示在细胞裂解物中筛选靶向BRD3 ET结构域的环肽，虽涉及蛋白-肽互作，但对象非无序蛋白/相分离，且方法为实验筛选而非AI/物理模拟建模，与本课题关联较弱。",
+  "abstract": "<h4>ABSTRACT</h4> mRNA display is a powerful technology to screen libraries of >10 12 cyclic peptides against a protein target, enabling the rapid discovery of high affinity ligands. These cyclic peptides are particularly well suited to challenging protein targets that have been difficult to drug with small molecules. However, target choice can still be limited as screens are typically performed against purified proteins which often demands the use of isolated domains and precludes the use of aggregation-prone targets. Here, we report a method to perform mRNA display selections in mammalian cell lysates without the need for prior target purification, vastly expanding the potential target scope of mRNA display. We have applied the methodology to identify low to sub-nanomolar peptide binders for two targets; a NanoLuc subunit (LgBiT) and full-length bromodomain-containing protein 3 (BRD3). Our cyclic peptides for BRD3 were found to bind to the extraterminal (ET) domain of BRD3 and the closely related BRD proteins, BRD2 and BRD4. While many chemical probes exist for the bromodomains of BRD proteins, the ET domain is relatively underexplored, making these peptides valuable additions to the BRD toolbox.",
+  "abstract_zh": "<h4>摘要</h4> mRNA展示是一种强大的技术，可针对蛋白质靶标筛选超过10^12个环肽的文库，从而快速发现高亲和力配体。这些环肽特别适用于那些难以用小分子药物靶向的挑战性蛋白质靶标。然而，靶标选择仍可能受限，因为筛选通常针对纯化蛋白质进行，这往往需要使用分离的结构域，并排除了易聚集靶标的使用。在此，我们报告了一种在哺乳动物细胞裂解物中进行mRNA展示筛选的方法，无需事先纯化靶标，极大地扩展了mRNA展示的潜在靶标范围。我们应用该方法鉴定了针对两个靶标的低至亚纳摩尔级肽结合物：一个NanoLuc亚基（LgBiT）和全长含溴结构域蛋白3（BRD3）。我们发现针对BRD3的环肽结合于BRD3及密切相关的BRD蛋白BRD2和BRD4的末端外（ET）结构域。尽管针对BRD蛋白溴结构域存在许多化学探针，但ET结构域相对未被充分探索，这使得这些肽成为BRD工具箱中的宝贵补充。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.03.20.585962",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.03.20.585962",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.03.20.585962/index.html"
+}

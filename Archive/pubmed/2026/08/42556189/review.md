@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report that proline-alanine-serine (PAS) peptides of 20 to 80 residues form nanoscale aggregates above critical concentrations, while only the 80-residue variant undergoes liquid-liquid phase separation into micrometre-scale condensates. They propose that hydrophobic interactions and entropic effects drive condensation, with hydrogen bonding playing a secondary stabilizing role, and support this with spectroscopy, microscopy, FRAP, NMR, and molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no numerical data, experimental protocols, simulation parameters, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, simulation details, NMR and FRAP raw data, phase diagram, and any statistical or reproducibility information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation that length-dependent phase behaviour in PAS peptides may be tunable, which could have relevance for biomolecular condensate engineering. However, the evidence base provided is insufficient to evaluate the robustness of the central claims. Several statements are qualitative and lack quantitative support, and the mechanistic conclusions appear stronger than the described experiments can justify. The work may be of interest to the colloid and interface science community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers working on intrinsically disordered proteins and peptides, biomolecular condensates and coacervates, and the design of peptide-based materials for drug delivery or compartmentalized catalysis would likely find the length-dependent phase behaviour and proposed driving forces relevant. The combination of experimental and computational approaches may also appeal to those studying the molecular determinants of phase separation.
+- **Major strengths** The abstract addresses a relatively underexplored question regarding the role of chain length in PAS peptide phase behaviour. The combination of multiple experimental techniques with molecular dynamics simulations is appropriate for the stated aims. The observation that only the longest peptide undergoes liquid-liquid phase separation, while shorter ones form only nanoaggregates, provides a clear and potentially useful design principle.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that hydrophobic interactions and entropic effects are the primary driving forces for condensate formation, with hydrogen bonding playing a secondary role.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The mechanistic conclusion is based on treatment with a hydrogen-bond-disrupting agent, an amphiphilic solvent, and heating, but no quantitative results are reported. The abstract does not specify the concentrations, the extent of disruption, or how the effects were measured. The relative contribution of hydrophobic versus hydrogen-bonding interactions cannot be assessed from the described experiments.  
+  - **Why it matters** The central mechanistic claim is a key contribution of the work. Without quantitative data showing differential responses to the treatments, the conclusion that hydrophobic effects dominate over hydrogen bonding is not supported.  
+  - **Resolution test** Provide quantitative data, such as turbidity or droplet count as a function of treatment concentration, with appropriate controls, and show statistical significance for the differential effects attributed to hydrophobic versus hydrogen-bonding interactions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract states that molecular dynamics simulations revealed that the transition from extended to compact conformations is driven by entropic effects.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No simulation details are provided, including force field, water model, simulation length, system size, or how entropy was computed. The claim that entropic effects drive the conformational transition is a strong thermodynamic statement that requires careful free-energy decomposition, which is not described.  
+  - **Why it matters** The entropic driving force is presented as a molecular-level explanation for the observed phase behaviour. Without evidence of how entropy was quantified and compared to enthalpy, this claim is not verifiable.  
+  - **Resolution test** Provide simulation methods and a decomposition of free energy into entropic and enthalpic contributions, with error estimates, to demonstrate that entropy dominates the conformational transition.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that PAS80 condensates exhibit liquid-like behaviour based on FRAP and NMR.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract reports that FRAP and NMR revealed high molecular mobility and liquid-like behaviour, but no recovery percentages, diffusion coefficients, or NMR relaxation data are given. The claim that condensates are liquid-like requires quantitative comparison to known viscous or gel-like systems.  
+  - **Why it matters** The liquid-like nature of the condensates is central to the claim that these are coacervates with potential for compartmentalized biocatalysis. Without quantitative mobility data, the physical state of the condensates is not established.  
+  - **Resolution test** Report FRAP recovery half-times and mobile fractions, and NMR relaxation or diffusion measurements, with appropriate controls, to support the liquid-like designation.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The abstract states that all peptides form nanoscale aggregates (50 to 350 nm) above their critical concentrations.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The size range is broad, and no information is provided on how the critical concentrations were determined, how many replicates were performed, or how size distributions were measured. The abstract does not indicate whether the aggregates are stable over time or whether their size depends on concentration.  
+  - **Why it matters** The length-dependent distinction between nanoaggregates and condensates is a key finding. Without clarity on the measurement conditions and reproducibility, the reliability of this distinction is unclear.  
+  - **Resolution test** Provide the method for determining critical concentrations, size distribution data with error bars, and information on replicate measurements and temporal stability.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Phase diagram description  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract mentions a phase diagram over a concentration range of 0.15 to 6 mM, but does not specify the temperature or buffer conditions under which the diagram was constructed.  
+  - **Required correction** Specify the temperature, ionic strength, and pH for the phase diagram, and clarify whether the range represents the full boundary or only the tested conditions.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of the term "coacervates"  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract concludes by describing PAS peptides as building blocks for "bioengineered coacervates," but the term coacervate is not defined or distinguished from the condensates described earlier.  
+  - **Required correction** Define coacervate in the context of this work and clarify whether the PAS80 condensates are considered coacervates or a related but distinct class of assemblies.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Simulation-experiment integration  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract presents simulation results on isolated and clustered chains but does not state how these simulations relate to the experimental observations of nanoaggregates and condensates.  
+  - **Required correction** Add a sentence connecting the simulation findings to the experimental length-dependent behaviour, such as whether the compact conformations are consistent with the observed aggregate sizes.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns relate to the absence of quantitative evidence for the mechanistic claims, the entropic driving force, and the liquid-like nature of the condensates. Without these data, the central conclusions are not supported by the supplied material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The length-dependent phase behaviour of PAS peptides appears to be a relatively novel observation, but the abstract does not clearly situate it against prior work on other intrinsically disordered peptides, so the degree of novelty is difficult to assess.  
+  - Scientific importance: The potential to design peptide-based condensates is of interest, but the importance is not fully established without quantitative evidence for the driving forces and physical properties.  
+  - Interdisciplinary readership: The topic bridges colloid science, biophysics, and materials chemistry, which could attract a broad audience, but the abstract is written in a way that assumes familiarity with phase separation terminology.  
+  - Technical soundness: The combination of techniques is appropriate, but the lack of quantitative results and methodological detail prevents an assessment of technical soundness.  
+  - Readability for nonspecialists: The abstract is generally clear but uses terms such as "liquid-liquid phase separation," "FRAP," and "coacervates" without explanation, which may limit accessibility.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially interesting system, but the absence of quantitative data and methodological detail means that the central claims cannot be evaluated. The authors should be encouraged to provide the full manuscript with detailed results and methods for a proper assessment.
+
+## Risk / unsupported claims
+- The claim that hydrophobic interactions and entropic effects are the primary driving forces for condensate formation is unsupported without quantitative treatment data.
+- The claim that the transition from extended to compact conformations is driven by entropic effects is unsupported without simulation details and free-energy decomposition.
+- The claim that PAS80 condensates exhibit liquid-like behaviour is unsupported without quantitative FRAP and NMR data.
+- The claim that hydrogen bonding plays a secondary role is unsupported without direct evidence of its contribution relative to hydrophobic interactions.
+- The claim that PAS peptides are promising building blocks for bioengineered coacervates is speculative and not directly supported by the described experiments.

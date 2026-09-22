@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2406.14256v2",
+  "title": "Microscopic and stochastic simulations of chemically active droplets",
+  "authors": "Roxanne Berthin; Jacques Fries; Marie Jardat; Vincent Dahirel; Pierre Illien",
+  "journal": "",
+  "published_date": "2024-06-20",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用布朗动力学模拟化学活性液滴（生物分子凝聚体模型），研究非平衡驱动下凝聚体的涨落与动力学，对象为相分离凝聚体且用物理模拟方法，但未聚焦具体蛋白互作机制，故评7分。",
+  "abstract": "Biomolecular condensates play a central role in the spatial organization of living matter. Their formation is now well understood as a form of liquid-liquid phase separation that occurs very far from equilibrium. For instance, they can be modeled as active droplets, where the combination of molecular interactions and chemical reactions result in microphase separation. However, so far, models of chemically active droplets are spatially continuous and deterministic. Therefore, the relationship between the microscopic parameters of the models and some crucial properties of active droplets (such as their polydispersity, their shape anisotropy, or their typical lifetime) is yet to be established. In this work, we address this question computationally, using Brownian dynamics simulations of chemically active droplets: the building blocks are represented explicitly as particles that interact with attractive or repulsive interactions, depending on whether they are in a droplet-forming state or not. Thanks to this microscopic and stochastic view of the problem, we reveal how driving the system away from equilibrium in a controlled way determines the fluctuations and dynamics of active emulsions.",
+  "abstract_zh": "生物分子凝聚体在生命物质的空间组织中扮演核心角色。其形成现已被充分理解为一种远离平衡态发生的液-液相分离 (liquid-liquid phase separation) 形式。例如，它们可被建模为活性液滴 (active droplets)，其中分子相互作用与化学反应的结合导致微相分离 (microphase separation)。然而，迄今为止，化学活性液滴的模型在空间上是连续且确定性的。因此，模型微观参数与活性液滴某些关键性质（如多分散性、形状各向异性或典型寿命）之间的关系尚未确立。在本工作中，我们通过化学活性液滴的布朗动力学 (Brownian dynamics) 模拟，以计算方式探讨此问题：构建单元被显式表示为粒子，它们根据是否处于液滴形成状态而相互作用，表现为吸引性或排斥性。借助这一微观且随机的视角，我们揭示了以受控方式将系统驱离平衡态如何决定活性乳液 (active emulsions) 的涨落与动力学。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2406.14256v2",
+  "source_url": "https://arxiv.org/abs/2406.14256v2",
+  "paper_page_path": "papers/arxiv/2406.14256v2/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40823810",
+  "title": "Peripheral heterochromatin tethering is required for chromatin-based nuclear mechanical response.",
+  "authors": "Attar, Ali Goktug; Paturej, Jaroslaw; Sariyer, Ozan S; Banigan, Edward J; Erbas, Aykut",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-08-18",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用聚合物物理模拟研究异染色质通过核纤层锚定增强细胞核力学响应，虽涉及染色质相分离样性质但非IDP-PPI，且无AI/分子对接方法，机制建模思路对核内凝聚体力学可迁移启发。",
+  "abstract": "The cell nucleus is a mechanically responsive structure that governs how external forces affect chromosomes. Chromatin, particularly transcriptionally inactive heterochromatin, resists nuclear deformations through its mechanical response. However, chromatin also exhibits liquid-like properties, casting ambiguity on the physical mechanisms of chromatin-based nuclear elasticity. To determine how heterochromatin strengthens nuclear mechanical response, we performed polymer physics simulations of a nucleus model validated by micromechanical measurements and chromosome conformation capture data. The attachment of peripheral heterochromatin to the lamina is required to transmit forces directly to the chromatin and elicit its elastic response. Thus, increases in heterochromatin levels increase nuclear rigidity by increasing the linkages between chromatin and the lamina. Crosslinks within heterochromatin, such as HP1alpha proteins, can also stiffen nuclei, but only if chromatin is peripherally tethered. In contrast, heterochromatin affinity interactions that may drive liquid-liquid phase separation do not contribute to nuclear rigidity. When the nucleus is stretched, gel-like peripheral heterochromatin can bear stresses and deform, while the more fluid-like interior euchromatin is less perturbed. Thus, heterochromatin's internal structure and stiffness may regulate nuclear mechanics via peripheral attachment to the lamina, while also enabling nuclear mechanosensing of external forces and external measurement of the nucleus' internal architecture.",
+  "abstract_zh": "细胞核是一种机械响应性结构，它调控着外部力如何影响染色体。染色质，特别是转录不活跃的异染色质，通过其机械响应抵抗核变形。然而，染色质也表现出液体样特性，这给基于染色质的核弹性物理机制带来了模糊性。为了确定异染色质如何增强核机械响应，我们进行了聚合物物理模拟，采用了一个经微机械测量和染色体构象捕获数据验证的细胞核模型。外周异染色质与核纤层的附着是直接将力传递至染色质并引发其弹性响应的必要条件。因此，异染色质水平的增加通过增加染色质与核纤层之间的连接来增强核刚性。异染色质内部的交联，如HP1alpha蛋白，也能使细胞核变硬，但前提是染色质在外周被锚定。相比之下，可能驱动液-液相分离的异染色质亲和相互作用并不贡献于核刚性。当细胞核被拉伸时，凝胶样的外周异染色质能承受应力并变形，而更流体样的内部常染色质则较少受到扰动。因此，异染色质的内部结构和刚度可能通过其与外周核纤层的附着来调节核力学，同时也能使细胞核感知外部力，并允许外部测量细胞核的内部结构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40823810/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40823810/",
+  "paper_page_path": "papers/pubmed/40823810/index.html"
+}

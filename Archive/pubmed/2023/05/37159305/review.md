@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions presented in the abstract, without access to full methods, simulation parameters, or quantitative results
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations to identify physical principles governing membrane remodeling by biomolecular condensates. They report that endocytosis and exocytosis occur when interpolymeric attraction exceeds polymer-lipid interaction, that a critical condensate size is required for successful endocytosis, and that multilamellarity and local gelation arise when polymer-lipid attraction dominates.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, force field parameters, system sizes, timescales, quantitative results, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of condensate-mediated membrane remodeling. The central claims are qualitatively framed and align with emerging experimental observations, but the abstract alone provides insufficient quantitative detail to assess the robustness, generality, or mechanistic novelty of the findings. The work may appeal to researchers in biomolecular condensates and membrane biophysics, but the current evidence base does not allow verification of the stated conclusions.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, membrane remodeling, and phase separation in cellular contexts would find the results relevant. The potential design implications for polymer-based membrane manipulation in drug delivery and synthetic biology also extend interest to bioengineers and soft matter physicists.
+- **Major strengths** The study addresses a timely and important question about how condensates remodel membranes. The systematic variation of interaction strengths is a sensible approach to map parameter-dependent behaviors. The observation of multiple membrane morphologies within one model framework is conceptually appealing and could unify disparate experimental observations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that endocytosis and exocytosis are observed when interpolymeric attraction is stronger than polymer-lipid interaction, and that a critical condensate size is required for successful endocytosis.
+  - **Evidence pointer** Abstract only; no quantitative data or simulation details provided
+  - **Concern** The abstract provides no quantitative thresholds, system sizes, or statistical measures to support the claimed critical size or the regime boundaries for endocytosis versus exocytosis. Without these details, the robustness of the observed behaviors cannot be evaluated.
+  - **Why it matters** The claim of a critical size is a specific quantitative assertion. If the threshold depends strongly on model parameters or system setup, the generality of the finding is limited. The absence of error bars or replicate information also leaves open the possibility that the observed behaviors are stochastic or system-size artifacts.
+  - **Resolution test** Provide quantitative data on the critical size, including how it scales with interaction strengths and system dimensions, and include statistical analysis across multiple independent simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that multilamellarity and local gelation are observed when polymer-lipid attraction is significantly stronger than interpolymeric attraction.
+  - **Evidence pointer** Abstract only; no simulation parameters or structural analysis provided
+  - **Concern** The terms "multilamellarity" and "local gelation" are not defined in the abstract, and no evidence is presented to show how these states were identified or quantified. The phrase "significantly stronger" is vague and lacks a numerical basis.
+  - **Why it matters** Without clear operational definitions and quantitative criteria, the reader cannot assess whether these observations are robust physical phenomena or artifacts of the coarse-grained model. The lack of parameter values prevents reproduction or comparison with other studies.
+  - **Resolution test** Define the structural order parameters used to identify multilamellarity and gelation, and report the interaction strength ratios at which these states emerge, with sensitivity analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The abstract implies that the identified physical principles provide "essential guidance" for polymer design in membrane manipulation applications.
+  - **Evidence pointer** Abstract only; no design rules or predictive framework presented
+  - **Concern** The abstract does not specify how the simulation findings translate into actionable design principles. The link between the observed parameter regimes and practical polymer design is asserted but not elaborated.
+  - **Why it matters** The stated application relevance is a key selling point for a broad readership. Without a clear articulation of the design rules, the practical impact of the work remains speculative.
+  - **Resolution test** In the full manuscript, provide a explicit mapping from interaction strength regimes to predicted membrane outcomes, and discuss how these could be tuned in experimental polymer systems.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** Terms such as "coacervation," "multilamellarity," and "local gelation" are used without brief definitions, which may hinder nonspecialist readers.
+  - **Required correction** Add brief parenthetical definitions or contextual explanations for these terms in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextual framing
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not explicitly state how the findings advance beyond prior computational or experimental studies on condensate-membrane interactions.
+  - **Required correction** Include a sentence in the abstract or introduction that highlights the novel mechanistic insights relative to existing literature.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract text
+  - **Issue** The coarse-grained model is not described in terms of resolution, bead types, or interaction potential forms, which limits the reader's ability to gauge the model's relevance to real systems.
+  - **Required correction** Provide a brief model description in the abstract or methods summary, including the type of coarse-graining and key interaction potentials.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central qualitative claims lack quantitative support and operational definitions. The absence of simulation details and statistical analysis prevents verification of the reported phenomena.
+- **Assessment against Nature-style criteria** Originality: The question is timely and the parameter-sweep approach is reasonable, but the abstract does not demonstrate a clear conceptual advance over existing studies. Scientific importance: The topic is of high interest to the condensate and membrane communities, but the abstract does not establish the breadth of applicability. Interdisciplinary readership: The findings could appeal to biophysicists, soft matter scientists, and bioengineers, but the abstract lacks accessible framing for nonspecialists. Technical soundness: Not assessable from the abstract alone; the absence of quantitative data and model details is a major limitation. Readability for nonspecialists: The abstract is concise but uses jargon without definition, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the lack of quantitative detail and operational definitions means the central claims cannot be verified. A revised manuscript with full methodological transparency and quantitative results could change this assessment.
+
+## Risk / unsupported claims
+- The claim of a critical condensate size for endocytosis is unsupported without quantitative data.
+- The observation of multilamellarity and local gelation is unsupported without structural definitions and parameter values.
+- The assertion that the findings provide "essential guidance" for polymer design is not substantiated in the abstract.
+- The generality of the observed regimes across different polymer and lipid chemistries is not assessable from the abstract.

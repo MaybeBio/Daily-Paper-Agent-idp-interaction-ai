@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39244126",
+  "title": "Phase separation of triton X-100 and bovine serum albumin mixture: Impacts of nature and composition of polyols on associated physicochemical parameters.",
+  "authors": "Akbor, Aysha Bente; Islam, Md Rafikul; Khan, Javed Masood; Alam, Md Masud; Shumon, Md Anamul Haque; Goni, Md Abdul; Rehman, Md Tabish; Hoque, Md Anamul; Islam, D M Shafiqul",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2024-09-08",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 3,
+  "one_liner_zh": "该文研究Triton X-100与牛血清白蛋白混合物的相分离热力学及分子对接，对象为折叠蛋白BSA而非无序蛋白，且无AI/物理模拟方法贡献，仅边缘相关。",
+  "abstract": "Bovine serum albumin (BSA) is widely used in tissue engineering and pharmaceutical research. It is readily available as a byproduct of the cattle industry, and collected from blood. In this study, we conducted a physicochemical investigation of the phase separation in a mixture of Triton X-100 (TX-100) and BSA, influenced by various polyols, using the well-established cloud point (CP) determination method. The addition of polyols resulted in a significant reduction in CP values for the TX-100 + BSA mixture. The magnitudes of CP in the experimental system were highly varied with different polyols and followed the order of: [Formula: see text] Under identical conditions, the system exhibited maximum solubility in the xylose solution and minimum solubility in the maltose solution. The positive DeltaG(c)(0) values were acquired in all working medium imply the nonspontaneity of phase transition in the TX-100 + BSA system. At lower polyol contents, the negative values of standard enthalpy (∆H(c)(0)) and standard entropy (∆S(c)(0)) changes were observed, suggesting that electrostatic forces dominated as the driving force for clouding. At highest employed polyols concentration in some case, the positive values for ∆H(c)(0) and ∆S(c)(0) were achieved, which indicated that hydrophobic interactions likely dominate the phase partitioning of the amphiphile and protein mixture. Additionally, entropy-enthalpy compensation parameters were calculated and analyzed with a rational approach. Molecular docking analysis further demonstrated the presence of hydrogen bonds and hydrophobic interactions between TX-100 and BSA.",
+  "abstract_zh": "牛血清白蛋白（BSA）在组织工程和药物研究中被广泛使用。它作为养牛业的副产品易于获得，并从血液中收集。在本研究中，我们采用成熟的浊点（CP）测定方法，对Triton X-100（TX-100）与BSA混合物中受多种多元醇影响的相分离进行了物理化学研究。添加多元醇导致TX-100 + BSA混合物的CP值显著降低。实验系统中CP的大小随不同多元醇而变化显著，并遵循以下顺序：[公式见原文]。在相同条件下，系统在木糖溶液中表现出最大溶解度，在麦芽糖溶液中表现出最小溶解度。在所有工作介质中获得的正ΔGc(0)值表明TX-100 + BSA系统中相变的非自发性。在较低多元醇含量下，观察到标准焓（∆Hc(0)）和标准熵（∆Sc(0)）变化的负值，表明静电作用力主导了浊化过程的驱动力。在某些情况下，当使用的多元醇浓度最高时，∆Hc(0)和∆Sc(0)获得正值，这表明疏水相互作用可能主导两亲物与蛋白质混合物的相分配。此外，以合理的方法计算并分析了熵-焓补偿参数。分子对接分析进一步证明了TX-100与BSA之间存在氢键和疏水相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39244126/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39244126/",
+  "paper_page_path": "papers/pubmed/39244126/index.html"
+}

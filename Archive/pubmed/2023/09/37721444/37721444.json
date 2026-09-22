@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "37721444",
+    "doi": "10.1021/acs.jpclett.3c01642",
+    "title": "Cross-Talk of Cation-pi Interactions with Electrostatic and Aromatic Interactions: A Salt-Dependent Trade-off in Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are essential for cellular functionality, yet the complex interplay among the diverse molecular interactions that mediate their formation remains poorly understood. Here, using coarse-grained molecular dynamics simulations, we address the contribution of cation-pi interactions to the stability of condensates formed via liquid-liquid phase separation. We found greater stabilization of up to 80% via cation-pi interactions in condensates formed from peptides with higher aromatic residue content or less charge clustering. The contribution of cation-pi interactions to droplet stability increases with increasing ionic strength, suggesting a trade-off between cation-pi and electrostatic interactions. Cation-pi interactions, therefore, can compensate for reduced electrostatic interactions, such as occurs at higher salt concentrations and in sequences with less charged residue content or clustering. Designing condensates with desired biophysical characteristics therefore requires quantification not only of the individual interactions but also cross-talks involving charge-charge, pi-pi, and cation-pi interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Static Electricity",
+      "*Biomolecular Condensates",
+      "*Peptides/chemistry",
+      "Sodium Chloride/chemistry",
+      "Cations/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hazra, Milan Kumar",
+        "Levy, Yaakov"
+      ],
+      "short_names": [
+        "Hazra MK",
+        "Levy Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9929-973X"
+      ],
+      "affiliations": [
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hazra, Milan Kumar",
+        "short_name": "Hazra MK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel."
+        ]
+      },
+      {
+        "full_name": "Levy, Yaakov",
+        "short_name": "Levy Y",
+        "identifiers": [
+          "0000-0002-9929-973X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2023 Sep 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/18 12:44",
+    "fetched_at": "2026-09-21 01:28:31"
+  },
+  "links": {
+    "cites": [
+      "42423066",
+      "42417395",
+      "42306984",
+      "42074108",
+      "42064175",
+      "41659683",
+      "41342450",
+      "41311968",
+      "40954121",
+      "40801528",
+      "40744496",
+      "40661423",
+      "40028898",
+      "39807013",
+      "39531035",
+      "39384813",
+      "39321297",
+      "39248414"
+    ],
+    "refs": [
+      "37079924",
+      "36755093",
+      "36747054",
+      "36702825",
+      "36443315",
+      "36343363",
+      "36240277",
+      "36138006",
+      "35795820",
+      "35727975",
+      "34931046",
+      "34785657",
+      "34759379",
+      "34588591",
+      "34496937",
+      "34341589",
+      "33755443",
+      "33629837",
+      "33597515",
+      "33578289",
+      "33302617",
+      "33139563",
+      "33049213",
+      "32822449",
+      "32312191",
+      "32029630",
+      "32004090",
+      "31953488",
+      "31906602",
+      "31816559",
+      "31790873",
+      "31634364",
+      "31437398",
+      "31434954",
+      "31270472",
+      "30846599",
+      "30682370",
+      "30531905",
+      "29961577",
+      "29734651",
+      "29677515",
+      "29509422",
+      "29424691",
+      "29397728",
+      "29364893",
+      "29358076",
+      "29301985",
+      "28924037",
+      "28894006",
+      "28507126",
+      "27807972",
+      "26412307",
+      "26328871",
+      "26015579",
+      "24086122",
+      "24010479",
+      "23953108",
+      "23901099",
+      "23455423",
+      "23452343",
+      "21538733",
+      "21368180",
+      "19683007",
+      "19460965",
+      "19059266"
+    ],
+    "similar": [
+      "37721444",
+      "30833023",
+      "11427046",
+      "35344662",
+      "35001622",
+      "37705794",
+      "38287572",
+      "23214924",
+      "35108264",
+      "21568346",
+      "35293386",
+      "16756308",
+      "10970741",
+      "36702825",
+      "37019112",
+      "34202468",
+      "37684240",
+      "15238639",
+      "23895641",
+      "33629837",
+      "17154537",
+      "12727287",
+      "29551239",
+      "34496937",
+      "37770446",
+      "37252985",
+      "39196681",
+      "39037905",
+      "37408305",
+      "29509422",
+      "22725832",
+      "28393946",
+      "37043540",
+      "38670952",
+      "38832749",
+      "28430190",
+      "33864415",
+      "37194953",
+      "36040869",
+      "14964382",
+      "37695778",
+      "25380210",
+      "16851648",
+      "38349628",
+      "25408427",
+      "36847235",
+      "9585569",
+      "25569811",
+      "24771291",
+      "24436003",
+      "36150962",
+      "22306412",
+      "36496075",
+      "39044475",
+      "30397688",
+      "34271007",
+      "34598583",
+      "37894933",
+      "36758221",
+      "12455828",
+      "21241657",
+      "14573858",
+      "36595668",
+      "22681091",
+      "9828016",
+      "15225993",
+      "21774520",
+      "35963077",
+      "24866479",
+      "37489654",
+      "35394779",
+      "33597515",
+      "23925434",
+      "36009025",
+      "35881789",
+      "22354192",
+      "36239387",
+      "36594499",
+      "38649740",
+      "33397597",
+      "29291590",
+      "35126984",
+      "22998030",
+      "35179885",
+      "34862761",
+      "11916412",
+      "11807753",
+      "36791720",
+      "38416758",
+      "37190858",
+      "34552246",
+      "18479708",
+      "29548979",
+      "8855218",
+      "24705959",
+      "38553587",
+      "34404453",
+      "39066731",
+      "35795820",
+      "38751116",
+      "37917924",
+      "38798623",
+      "39319382",
+      "37873180",
+      "35378855",
+      "37856873",
+      "38163950",
+      "31719537",
+      "37886520",
+      "38961263",
+      "36819870",
+      "38483296",
+      "37977129",
+      "9600902",
+      "37934145",
+      "37728274",
+      "35867744"
+    ],
+    "review": [
+      "37721444",
+      "35344662",
+      "29509422",
+      "25380210",
+      "36150962",
+      "34271007"
+    ],
+    "pmc": [
+      "10544028"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.jpclett.3c01642",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37721444/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37721444",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.3c01642",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

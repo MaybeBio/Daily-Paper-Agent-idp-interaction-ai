@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42602159",
+  "title": "Dynamic structural profiling of PINK1 mutations (T313M and L347P) reveals a vital molecular perturbation namely phospho-Serine 65 ubiquitin recognition point in mitophagy mediated autosomal recessive Parkinson's disease (ARPD).",
+  "authors": "Vincent, Deborah; Sudandiradoss, C",
+  "journal": "Frontiers in molecular neuroscience",
+  "published_date": "2026-08-15",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过整合对接、MD模拟和MM/PBSA等方法，解析PINK1突变对PINK1-泛素互作（含IDR/PTM分析）的机制扰动，虽对象涉及IDR且聚焦PPI机制，但核心对象非典型IDP介导的相分离/凝聚体，方法为经典物理模拟而非AI，故评6分。",
+  "abstract": "INTRODUCTION: Autosomal recessive Parkinson's disease (ARPD) arises from impaired mitophagy due to dysfunction of the PINK1/Parkin pathway, where PINK1-mediated phosphorylation of ubiquitin at Ser65 is essential for pathway activation. However, experimental limitations obscure the effects of disease-associated mutations on intrinsically disordered regions (IDRs) and post-translational modification (PTM) dynamics. METHODS: An integrated computational pipeline was employed to screen 825 PINK1 missense variants, identifying two high-confidence deleterious mutations, T313M and L347P, within the kinase domain. Variant prioritization was complemented by conserved residue, IDR, and PTM analyses, followed by protein-protein docking, molecular dynamics simulations, MM/PBSA binding free-energy calculations, principal component analysis (PCA), and dynamic cross-correlation matrix (DCCM) analysis. RESULTS: T313M overlapped a conserved phosphorylation site, whereas L347P mapped to conserved active-site residues, with complementary support from IDR analysis. Docking analysis revealed a progressive reduction in binding affinity from the wild type (-88.4 +/- 8.2) to L347P (-81.9 +/- 3.4) and T313M (-77.4 +/- 4.9), accompanied by decreased electrostatic stabilization (-357.6 --> -260.6 --> -235.5 kcal/mol) and buried surface area (1741.6 --> 1624.1 --> 1547.4 A(2)). Molecular dynamics simulations demonstrated that T313M produced the greatest structural and dynamic perturbations, whereas L347P induced moderate destabilization with increased solvent exposure. Although MM/PBSA analysis indicated broadly comparable binding energetics across all systems, PCA and DCCM analyses revealed increased conformational flexibility and altered residue communication in the mutant complexes, particularly T313M. DISCUSSION: These findings establish a mechanistic link between mutation-induced structural dynamics and impaired PINK1-ubiquitin recognition at Ser65, providing a mutation-specific framework for understanding early mitophagy impairment in ARPD and supporting future molecular assessment and targeted therapeutic development.",
+  "abstract_zh": "引言：常染色体隐性帕金森病（ARPD）源于PINK1/Parkin通路功能障碍导致的线粒体自噬受损，其中PINK1介导的泛素在Ser65位点的磷酸化对通路激活至关重要。然而，实验局限性掩盖了疾病相关突变对 intrinsically disordered regions (IDRs) 和 post-translational modification (PTM) 动态变化的影响。方法：采用整合计算流程筛选825个PINK1错义突变，识别出激酶结构域内两个高置信度有害突变T313M和L347P。变异优先级排序辅以保守残基、IDR和PTM分析，随后进行蛋白-蛋白对接、分子动力学模拟、MM/PBSA结合自由能计算、主成分分析（PCA）和动态交叉相关矩阵（DCCM）分析。结果：T313M与保守磷酸化位点重叠，而L347P定位于保守活性位点残基，IDR分析提供了补充支持。对接分析显示，结合亲和力从野生型（-88.4 ± 8.2）到L347P（-81.9 ± 3.4）和T313M（-77.4 ± 4.9）逐步降低，伴随静电稳定性下降（-357.6 → -260.6 → -235.5 kcal/mol）和埋藏表面积减少（1741.6 → 1624.1 → 1547.4 Å²）。分子动力学模拟表明，T313M产生最大的结构和动态扰动，而L347P诱导中等程度的不稳定化并增加溶剂暴露。尽管MM/PBSA分析显示所有系统的结合能量大致相当，但PCA和DCCM分析揭示突变复合物中构象灵活性增加和残基通讯改变，尤其是T313M。讨论：这些发现建立了突变诱导的结构动态变化与PINK1-泛素在Ser65位点识别受损之间的机制联系，为理解ARPD早期线粒体自噬损伤提供了突变特异性框架，并支持未来的分子评估和靶向治疗开发。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42602159/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42602159/",
+  "paper_page_path": "papers/pubmed/42602159/index.html"
+}

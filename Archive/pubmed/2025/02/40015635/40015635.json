@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "40015635",
+    "doi": "10.1016/j.jbc.2025.108348",
+    "title": "Cancer hotspot mutations rewire ERK2 specificity by selective exclusion of docking interactions."
+  },
+  "content": {
+    "abstract": "The protein kinase ERK2 is recurrently mutated in human squamous cell carcinomas and other tumors. ERK2 mutations cluster in an essential docking recruitment site that interacts with short linear motifs found within intrinsically disordered regions of ERK substrates and regulators. Cancer-associated mutations do not disrupt ERK2 docking interactions altogether but selectively inhibit some interactions while sparing others. However, the full scope of disrupted or maintained interactions remains unknown, limiting our understanding of how these mutations contribute to cancer. We recently defined the docking interactome of wild-type ERK2 by screening a yeast two-hybrid library of proteomic short linear motifs. Here, we apply this approach to the two most recurrent cancer-associated mutants. We find that most sequences binding to WT ERK2 also interact with both mutant forms. Analysis of differentially interacting sequences revealed that ERK2 mutants selectively lose the ability to bind sequences conforming to a specific motif. We solved the co-crystal structure of ERK2 in complex with a peptide fragment of ISG20, a screening hit that binds exclusively to the WT kinase. This structure demonstrated the mechanism by which cancer hotspot mutations at Glu81, Arg135, Asp321, and Glu322 selectively impact peptide binding. Finally, we found that cancer-associated ERK2 mutations had decreased activity in phosphorylating GEF-H1/ARHGEF2, a known ERK substrate harboring a WT-selective docking motif. Collectively, our studies provide a structural rationale for how a broad set of interactions are disrupted by ERK2 hotspot mutations, suggesting mechanisms for pathway rewiring in cancers harboring these mutations.",
+    "keywords": [
+      "cell signaling",
+      "mitogen-activated protein kinases",
+      "protein kinases",
+      "short linear motifs",
+      "substrate specificity"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Mitogen-Activated Protein Kinase 1/genetics/metabolism/chemistry",
+      "*Mutation",
+      "Protein Binding",
+      "*Neoplasms/genetics",
+      "Crystallography, X-Ray"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Torres Robles, Jaylissa",
+        "Stiegler, Amy L",
+        "Boggon, Titus J",
+        "Turk, Benjamin E"
+      ],
+      "short_names": [
+        "Torres Robles J",
+        "Stiegler AL",
+        "Boggon TJ",
+        "Turk BE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Yale University, New Haven, Connecticut, USA; Department of Pharmacology, Yale School of Medicine, New Haven, Connecticut, USA.",
+        "Department of Pharmacology, Yale School of Medicine, New Haven, Connecticut, USA.",
+        "Department of Pharmacology, Yale School of Medicine, New Haven, Connecticut, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, Connecticut, USA.",
+        "Department of Pharmacology, Yale School of Medicine, New Haven, Connecticut, USA. Electronic address: ben.turk@yale.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Torres Robles, Jaylissa",
+        "short_name": "Torres Robles J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Yale University, New Haven, Connecticut, USA; Department of Pharmacology, Yale School of Medicine, New Haven, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Stiegler, Amy L",
+        "short_name": "Stiegler AL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Yale School of Medicine, New Haven, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Boggon, Titus J",
+        "short_name": "Boggon TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Yale School of Medicine, New Haven, Connecticut, USA; Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Turk, Benjamin E",
+        "short_name": "Turk BE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Yale School of Medicine, New Haven, Connecticut, USA. Electronic address: ben.turk@yale.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/28 00:20",
+    "fetched_at": "2026-09-21 16:07:33"
+  },
+  "links": {
+    "cites": [
+      "42200482",
+      "41964522",
+      "41278632"
+    ],
+    "refs": [
+      "38843329",
+      "38718835",
+      "38183204",
+      "37988460",
+      "37774136",
+      "36626580",
+      "35296678",
+      "32721402",
+      "32576977",
+      "32351709",
+      "31296562",
+      "27760319",
+      "27754618",
+      "27469033",
+      "27004400",
+      "26947396",
+      "26619011",
+      "26538579",
+      "26370088",
+      "25320010",
+      "24390348",
+      "23519423",
+      "23047924",
+      "22588877",
+      "22375048",
+      "22187936",
+      "21593132",
+      "21449613",
+      "21098038",
+      "20439314",
+      "20385094",
+      "20383002",
+      "20171100",
+      "20124702",
+      "20057044",
+      "19461840",
+      "18829462",
+      "18813840",
+      "18482985",
+      "17496923",
+      "16765894",
+      "16567630",
+      "16148006",
+      "12832467",
+      "12754209",
+      "11711538",
+      "11352917",
+      "11239467",
+      "11157753",
+      "11152475",
+      "10655591",
+      "10419510",
+      "8978031",
+      "8626452",
+      "8124723",
+      "7925974"
+    ],
+    "similar": [
+      "40015635",
+      "21098038",
+      "37988460",
+      "11823456",
+      "23519423",
+      "31058487",
+      "12754209",
+      "21955038",
+      "12529172",
+      "16051177",
+      "11113199",
+      "11352917",
+      "11711538",
+      "18178562",
+      "16148006",
+      "28396345",
+      "31296562",
+      "33109619",
+      "16246839",
+      "19196711",
+      "28716922",
+      "23047924",
+      "23671282",
+      "37021821",
+      "17656361",
+      "16765894",
+      "21449613",
+      "17658892",
+      "35078976",
+      "26950759",
+      "16567630",
+      "27924558",
+      "29083550",
+      "16533805",
+      "36626580",
+      "21494553",
+      "19411838",
+      "12788955",
+      "11278799",
+      "38486394",
+      "12594221",
+      "18794356",
+      "11134045",
+      "31005085",
+      "15713638",
+      "40320752",
+      "25730857",
+      "22065579",
+      "11387337",
+      "26370088",
+      "19805545",
+      "40780413",
+      "24637728",
+      "17046812",
+      "14707138",
+      "40737028",
+      "10702794",
+      "17658891",
+      "17000106",
+      "11157753",
+      "17194451",
+      "17114285",
+      "15358203",
+      "20361728",
+      "10548434",
+      "37296900",
+      "12600273",
+      "42259150",
+      "12167697",
+      "19179479",
+      "21807114",
+      "30396063",
+      "16273204",
+      "23575685",
+      "22028470",
+      "9753691",
+      "33707308",
+      "9566877",
+      "11493009",
+      "40020888",
+      "23030599",
+      "15068802",
+      "23464422",
+      "15999996",
+      "9148935",
+      "10655591",
+      "10419510",
+      "16805921",
+      "37544371",
+      "12151396",
+      "31490001",
+      "27793987",
+      "31578253",
+      "42475469",
+      "22006927",
+      "15003601",
+      "28781678",
+      "39009827",
+      "12832467",
+      "10222145"
+    ],
+    "review": [
+      "40015635",
+      "12600273"
+    ],
+    "pmc": [
+      "11982978"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(25)00197-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40015635/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2786",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40098319",
+  "title": "Impact of Coiled-Coil Domains on the Phase Behavior of Biomolecular Condensates.",
+  "authors": "He, Zhouyi; Sommer, Jens-Uwe; Harmon, Tyler S",
+  "journal": "ACS macro letters",
+  "published_date": "2025-03-18",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用粗粒化模拟研究卷曲螺旋结构域如何通过几何约束促进多价蛋白的液-液相分离，虽对象为折叠结构域而非IDR，但其对结构域几何如何调控凝聚体形成的机制建模思路对无序蛋白介导的PPI与相分离研究有直接启发。",
+  "abstract": "Spatial organization is fundamental to cells, with biomolecular condensates as a key subset. Many studies show that folded domains play important roles in condensate formation by facilitating interactions. However, little is known about how the geometry and structure of folded domains impact condensate formation. Using coarse-grained simulations, we investigated a model system of two multivalent proteins, one containing a coiled-coil domain (CCD), which undergoes liquid-liquid phase separation (LLPS). We found that CCDs promote LLPS by preventing loop-closure defects, enabling protein networking. Replacing the CCD with a flexible linker abolishes LLPS due to formation of oligomeric clusters. There is a critical length of the CCD where the system rapidly changes from no LLPS to LLPS at low concentrations. This highlights their potential in regulating condensate formation and properties. This study provides insights into the phase behavior of biomolecular condensates and offers a framework for designing synthetic condensates with tunable phase behaviors.",
+  "abstract_zh": "空间组织对细胞至关重要，其中生物分子凝聚体（biomolecular condensates）是一个关键子集。许多研究表明，折叠结构域通过促进相互作用在凝聚体形成中发挥重要作用。然而，关于折叠结构域的几何形状和结构如何影响凝聚体形成，目前知之甚少。利用粗粒化模拟，我们研究了一个由两种多价蛋白组成的模型系统，其中一种含有卷曲螺旋结构域（coiled-coil domain, CCD），该系统发生液-液相分离（liquid-liquid phase separation, LLPS）。我们发现，CCD通过防止环闭合缺陷来促进LLPS，从而支持蛋白质网络的形成。将CCD替换为柔性连接子会因寡聚簇的形成而消除LLPS。存在一个CCD的临界长度，在该长度下，系统在低浓度下从无LLPS迅速转变为发生LLPS。这突显了其在调控凝聚体形成和性质方面的潜力。本研究为生物分子凝聚体的相行为提供了见解，并为设计具有可调相行为的合成凝聚体提供了框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40098319/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40098319/",
+  "paper_page_path": "papers/pubmed/40098319/index.html"
+}

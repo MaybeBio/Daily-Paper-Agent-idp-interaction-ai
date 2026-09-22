@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42169426",
+  "title": "STGAT: A Novel Spatiotemporal Graph Attention Approach for Dynamical Trajectory Prediction.",
+  "authors": "Tong, Haowei; Zhang, Ningjie; Lu, Zhouyu; Wei, Ting; Chen, Hai-Feng",
+  "journal": "Chemical biology & drug design",
+  "published_date": "2026-05-22",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出STGAT时空图注意力模型，用AI方法预测无序蛋白(IDP)与折叠蛋白的动力学轨迹，以IDP为对象、涉及蛋白动态行为预测，虽非直接PPI但方法可迁移至IDP互作机制建模。",
+  "abstract": "Predicting the complex motion trajectories of biological macromolecules, especially proteins, poses a significant challenge in biology. Although the traditional molecular dynamics (MD) simulation method offers insights into molecular motion, it is constrained by intensive computational demands and relatively short time scales. To address these challenges, we developed the STGAT (spatiotemporal graph attention networks) model, integrating protein locus timing analysis and graph attention mechanism to predict dynamics trajectory of proteins. This approach could accurately and quickly predict and analyze the motion trajectory of proteins. To verify our model, we selected a variety of intrinsically disordered proteins (IDP) and structured proteins for experiments. The model was evaluated comprehensively using four important criteria: RMSD, Laplace Diagram, Rg, and Calpha chemical shift. The RMSD values of test systems are relatively low (below 20 A), and the RMSD values of shorter IDP and structured proteins can be maintained below 15 A. The distribution of 𝜑 and 𝜓 angles between the predicted values and the real values from MD trajectories is similar, and the Rg value of the predicted trajectory is also very close to that from MD trajectories. Furthermore, the predicted value of Calpha chemical shift was very close to the experimental value. This shows that our STGAT model can not only accurately identify the spatial characteristics of proteins, but also accurately predict the dynamic behavior of IDPs. In subsequent experiments, our STGAT model successfully extended predictions over longer trajectory prediction, demonstrating high accuracy within the initial 0-80 ns time frame. Ablation experiment shows that four edge and node features are advantageous for enhancing model performance. Our research provides a new perspective and a powerful tool for predicting the real-time dynamic trajectory of biomacromolecules.",
+  "abstract_zh": "预测生物大分子，特别是蛋白质的复杂运动轨迹，是生物学中的一项重大挑战。尽管传统的分子动力学（MD）模拟方法能提供分子运动的见解，但其受限于高计算需求和相对较短的时间尺度。为应对这些挑战，我们开发了STGAT（时空图注意力网络）模型，整合蛋白质位点时序分析与图注意力机制，以预测蛋白质的动态轨迹。该方法能准确且快速地预测和分析蛋白质的运动轨迹。为验证我们的模型，我们选取了多种内在无序蛋白质（IDP）和结构蛋白质进行实验。模型使用四个重要标准进行全面评估：RMSD、拉普拉斯图、Rg和Cα化学位移。测试系统的RMSD值相对较低（低于20 Å），较短IDP和结构蛋白质的RMSD值可保持在15 Å以下。预测值与MD轨迹中的真实值在φ和ψ角分布上相似，预测轨迹的Rg值也与MD轨迹的非常接近。此外，Cα化学位移的预测值与实验值极为接近。这表明我们的STGAT模型不仅能准确识别蛋白质的空间特征，还能精确预测IDP的动态行为。在后续实验中，我们的STGAT模型成功扩展了更长轨迹的预测，在初始0-80纳秒时间框架内展示了高准确性。消融实验表明，四种边和节点特征有助于提升模型性能。我们的研究为预测生物大分子的实时动态轨迹提供了新视角和强大工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42169426/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42169426/",
+  "paper_page_path": "papers/pubmed/42169426/index.html"
+}

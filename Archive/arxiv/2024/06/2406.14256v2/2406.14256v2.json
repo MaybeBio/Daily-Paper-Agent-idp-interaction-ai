@@ -1,0 +1,38 @@
+{
+  "source": "arxiv",
+  "source_id": "2406.14256v2",
+  "title": "Microscopic and stochastic simulations of chemically active droplets",
+  "doi": "",
+  "abstract": "Biomolecular condensates play a central role in the spatial organization of living matter. Their formation is now well understood as a form of liquid-liquid phase separation that occurs very far from equilibrium. For instance, they can be modeled as active droplets, where the combination of molecular interactions and chemical reactions result in microphase separation. However, so far, models of chemically active droplets are spatially continuous and deterministic. Therefore, the relationship between the microscopic parameters of the models and some crucial properties of active droplets (such as their polydispersity, their shape anisotropy, or their typical lifetime) is yet to be established. In this work, we address this question computationally, using Brownian dynamics simulations of chemically active droplets: the building blocks are represented explicitly as particles that interact with attractive or repulsive interactions, depending on whether they are in a droplet-forming state or not. Thanks to this microscopic and stochastic view of the problem, we reveal how driving the system away from equilibrium in a controlled way determines the fluctuations and dynamics of active emulsions.",
+  "authors": [
+    "Roxanne Berthin",
+    "Jacques Fries",
+    "Marie Jardat",
+    "Vincent Dahirel",
+    "Pierre Illien"
+  ],
+  "published_date": "2024-06-20T12:27:02Z",
+  "updated_date": "2024-10-11T08:46:43Z",
+  "journal": "",
+  "category": "cond-mat.soft, cond-mat.stat-mech, physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2406.14256v2",
+  "pdf_url": "https://arxiv.org/pdf/2406.14256v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft",
+    "cond-mat.stat-mech",
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2406.14256v2",
+    "raw_categories": [
+      "cond-mat.soft",
+      "cond-mat.stat-mech",
+      "physics.bio-ph"
+    ],
+    "journal_ref": ""
+  }
+}

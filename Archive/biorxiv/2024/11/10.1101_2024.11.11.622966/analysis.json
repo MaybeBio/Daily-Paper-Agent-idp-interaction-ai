@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.11.622966",
+  "title": "Dynamics of bicoid mRNA localisation and translation dictate morphogen gradient formation",
+  "authors": "Athilingam T; Wilby E; Bensidoun P; Trullo A; Verbrugghe M; Shi X; Lagha M; Saunders T; Weil T",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-11",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究bicoid mRNA定位与翻译动力学对形态素梯度形成的影响，涉及P小体调控翻译，但对象非无序蛋白/IDR，无PPI机制建模，也无AI或物理模拟方法，与本课题关联微弱。",
+  "abstract": "The transcription factor Bicoid (Bcd) protein guides early Drosophila patterning and is the best-characterised morphogen. The source of the morphogen, bcd mRNA, is maternally deposited during oogenesis and localised to the anterior pole of the mature oocyte. While the spatiotemporal interpretation of the Bcd morphogen gradient has been intensely studied, when and where Bcd protein is produced and how this protein gradient is dynamically shaped remains contentious. Here, we use the SunTag reporter system to quantitatively examine the spatiotemporal profile of bcd mRNA translation in vivo . We show that association with Processing bodies (P bodies) in mature oocytes prevent premature bcd mRNA translation. Following egg activation, bcd mRNA dissociates from P bodies and translation is observed at the anterior pole. Translation remains restricted to the anterior domain throughout early development, even after nuclear migration in the syncytial blastoderm. At cellularisation, translation ceases and the remaining bcd mRNA associates with reformed P bodies, which appear to block any further translation. We use these observations to create a new modified source-diffusion-degradation model of Bcd gradient formation that has spatiotemporally varying production. Overall, our study reveals that bcd mRNA translation is tightly controlled in space and time during oogenesis and early embryogenesis.",
+  "abstract_zh": "转录因子Bicoid（Bcd）蛋白引导早期果蝇模式形成，是最具特征性的形态发生素。该形态发生素的来源，即bcd mRNA，在卵子发生过程中由母体沉积，并定位于成熟卵母细胞的前极。尽管Bcd形态发生素梯度的时空解读已被深入研究，但Bcd蛋白在何时何地产生以及该蛋白梯度如何动态形成仍存在争议。在此，我们使用SunTag报告系统定量检测体内bcd mRNA翻译的时空特征。我们表明，在成熟卵母细胞中，与加工体（P bodies）的关联阻止了bcd mRNA的过早翻译。卵激活后，bcd mRNA从P bodies解离，并在前极观察到翻译。在整个早期发育过程中，翻译始终局限于前极区域，即使在合胞体胚盘中的核迁移之后也是如此。在细胞化时，翻译停止，剩余的bcd mRNA与重新形成的P bodies结合，这些P bodies似乎阻止任何进一步的翻译。我们利用这些观察结果，创建了一个新的具有时空变化产生的Bcd梯度形成的修正源-扩散-降解模型。总体而言，我们的研究揭示了bcd mRNA翻译在卵子发生和早期胚胎发生过程中受到空间和时间的严格调控。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622966",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622966",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.11.622966/index.html"
+}

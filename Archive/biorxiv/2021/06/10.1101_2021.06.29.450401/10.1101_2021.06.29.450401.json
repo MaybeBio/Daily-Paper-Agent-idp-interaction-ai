@@ -1,0 +1,340 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.06.29.450401",
+  "title": "Deep learning model for the prediction and classification of protein toxins across all domains of life",
+  "doi": "10.1101/2021.06.29.450401",
+  "abstract": "Toxins are widely produced by different organisms to disrupt the physiology of other organisms, and support their own existence. Their study is useful to understand protein evolution, environmental adaptation and survival competition. In-silico predictions of toxic proteins can support empirical frameworks, and help in the safety measurements needed for various industrial related processes. Some in-silico methods are slow, hard to implement or lack taxa representation in their training datasets. Here we present a deep learning model to classify protein toxins, through the use of Convolutional Neural Networks (ConvTOX). ConvTOX is able to accurately identify toxic proteins across the domains of life, with accuracies over 80% for animal and plant toxins, and over 50% for bacterial toxins. Moreover, ConvTOX is able to generalize the identification of differences among toxin types, such as neurotoxins and myotoxins, and to accurately identify structural similarities between different protein toxins. ConvTOX overcomes limitations from previous models by being able to predict toxin proteins from across all domains of life, and by not being limited to only short toxin peptides. Limitations are still clear in terms of lower accuracies for specific phylogenetic groups (such as bacterial toxins), but still this works presents itself as a one step forward for the universal use, classification and study of toxic proteins.",
+  "authors": [
+    "Javier Caceres-Delpiano",
+    "Roberto Ibañez",
+    "Simon Correa",
+    "Michael P. Dunne",
+    "Pedro Retamal",
+    "Leonardo Álvarez"
+  ],
+  "published_date": "2021-06-30",
+  "updated_date": "2021-06-30T13:21:21Z",
+  "journal": "bioRxiv",
+  "category": "Synthetic Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.06.29.450401",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.06.29.450401.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Synthetic Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Synthetic Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            13
+          ]
+        ],
+        "date-time": "2026-04-13T00:43:02Z",
+        "timestamp": 1776040982620,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            30
+          ]
+        ]
+      },
+      "group-title": "Synthetic Biology",
+      "reference-count": 16,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            30
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Toxins are widely produced by different organisms to disrupt the physiology of other organisms, and support their own existence. Their study is useful to understand protein evolution, environmental adaptation and survival competition.\n                  <jats:italic>In-silico</jats:italic>\n                  predictions of toxic proteins can support empirical frameworks, and help in the safety measurements needed for various industrial related processes. Some\n                  <jats:italic>in-silico</jats:italic>\n                  methods are slow, hard to implement or lack taxa representation in their training datasets. Here we present a deep learning model to classify protein toxins, through the use of Convolutional Neural Networks (ConvTOX). ConvTOX is able to accurately identify toxic proteins across the domains of life, with accuracies over 80% for animal and plant toxins, and over 50% for bacterial toxins. Moreover, ConvTOX is able to generalize the identification of differences among toxin types, such as neurotoxins and myotoxins, and to accurately identify structural similarities between different protein toxins. ConvTOX overcomes limitations from previous models by being able to predict toxin proteins from across all domains of life, and by not being limited to only short toxin peptides. Limitations are still clear in terms of lower accuracies for specific phylogenetic groups (such as bacterial toxins), but still this works presents itself as a one step forward for the universal use, classification and study of toxic proteins.\n                </jats:p>",
+      "DOI": "10.1101/2021.06.29.450401",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            30
+          ]
+        ],
+        "date-time": "2021-06-30T13:21:21Z",
+        "timestamp": 1625059281000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Deep learning model for the prediction and classification of protein toxins across all domains of life"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Javier",
+          "family": "Caceres-Delpiano",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Roberto",
+          "family": "Ibañez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Simon",
+          "family": "Correa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Michael P.",
+          "family": "Dunne",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pedro",
+          "family": "Retamal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Leonardo",
+          "family": "Álvarez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021070201251989000_2021.06.29.450401v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alouf, J. E. , & Popoff, M. R. (2006). Bacterial protein toxins. Bacterial Toxins, 1.",
+          "DOI": "10.1385/1-59259-052-7:1"
+        },
+        {
+          "issue": "4",
+          "key": "2021070201251989000_2021.06.29.450401v1.2",
+          "first-page": "183",
+          "article-title": "Why do we study animal toxins?",
+          "volume": "36",
+          "year": "2015",
+          "journal-title": "Zoological research"
+        },
+        {
+          "key": "2021070201251989000_2021.06.29.450401v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.toxicon.2012.03.010"
+        },
+        {
+          "issue": "suppl_1",
+          "key": "2021070201251989000_2021.06.29.450401v1.4",
+          "first-page": "D293",
+          "article-title": "ATDB: a uni-database platform for animal toxins",
+          "volume": "36",
+          "year": "2007",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "issue": "suppl_1",
+          "key": "2021070201251989000_2021.06.29.450401v1.5",
+          "first-page": "D653",
+          "article-title": "ArachnoServer 2.0, an updated online resource for spider toxin sequences and structures",
+          "volume": "39",
+          "year": "2010",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2021070201251989000_2021.06.29.450401v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl791"
+        },
+        {
+          "key": "2021070201251989000_2021.06.29.450401v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "84",
+          "DOI": "10.1016/j.toxicon.2015.01.005",
+          "article-title": "Combinations of long peptide sequence blocks can be used to describe toxin diversification in venomous animals",
+          "volume": "95",
+          "year": "2015",
+          "journal-title": "Toxicon"
+        },
+        {
+          "key": "2021070201251989000_2021.06.29.450401v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gbe/evu166"
+        },
+        {
+          "key": "2021070201251989000_2021.06.29.450401v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.96.12.6820"
+        },
+        {
+          "issue": "12",
+          "key": "2021070201251989000_2021.06.29.450401v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1315",
+          "DOI": "10.1038/s41592-019-0598-1",
+          "article-title": "Unified rational protein engineering with sequence-based deep representation learning",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2021070201251989000_2021.06.29.450401v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rao, R. , Bhattacharya, N. , Thomas, N. , Duan, Y. , Chen, P. , Canny, J. , … & Song, Y. (2019). Evaluating protein transfer learning with TAPE. In Advances in Neural Information Processing Systems (pp. 9689–9701).",
+          "DOI": "10.1101/676825"
+        },
+        {
+          "key": "2021070201251989000_2021.06.29.450401v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1914677117"
+        },
+        {
+          "key": "2021070201251989000_2021.06.29.450401v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "e90",
+          "DOI": "10.7717/peerj-cs.90",
+          "article-title": "Machine learning can differentiate venom toxins from other proteins having non-toxic physiological functions",
+          "volume": "2",
+          "year": "2016",
+          "journal-title": "PeerJ Computer Science"
+        },
+        {
+          "key": "2021070201251989000_2021.06.29.450401v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "e7200",
+          "DOI": "10.7717/peerj.7200",
+          "article-title": "TOXIFY: a deep learning approach to classify animal venom proteins",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "PeerJ"
+        },
+        {
+          "key": "2021070201251989000_2021.06.29.450401v1.15",
+          "first-page": "2579",
+          "article-title": "Visualizing data using t-SNE",
+          "volume": "9",
+          "year": "2008",
+          "journal-title": "Journal of machine learning research"
+        },
+        {
+          "key": "2021070201251989000_2021.06.29.450401v1.16",
+          "article-title": "Understanding deep learning requires rethinking generalization",
+          "year": "2016",
+          "journal-title": "arXiv preprint"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.06.29.450401",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:54:05Z",
+        "timestamp": 1768442045000
+      },
+      "score": 51.379543,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.06.29.450401"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            30
+          ]
+        ]
+      },
+      "references-count": 16,
+      "URL": "https://doi.org/10.1101/2021.06.29.450401",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

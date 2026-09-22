@@ -1,0 +1,215 @@
+{
+  "identity": {
+    "pmid": "41441765",
+    "doi": "10.1021/acs.jctc.5c01654",
+    "title": "Martini 3 Coarse-Grained Models of Azobenzene-Based Photolipids: Modulation of Membranes with Light."
+  },
+  "content": {
+    "abstract": "Photoswitchable lipids offer an attractive way to manipulate the biophysical properties of membranes by means of light. Their application to modulate membrane properties, manipulate membrane proteins, and photocontrol cargo release is gaining popularity. Here, we present coarse-grained Martini 3 models for azobenzene- and azobenzene-based photoswitchable lipids. Our models show good agreement with atomistic reference simulations. Furthermore, we apply our coarse-grained photolipid models to study the photocontrol of lateral phase separation, protein flexibility, and membrane permeability. The results agree well with experimental data from the literature and highlight the broad applicability of our Martini 3 photolipid models. They will enable studying the impact of photolipid switching on large membrane systems as well as on their (bio)molecular interaction partners.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gil Herrero, Cristina",
+        "Duve, Thilo",
+        "Thallmair, Sebastian"
+      ],
+      "short_names": [
+        "Gil Herrero C",
+        "Duve T",
+        "Thallmair S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4882-7950",
+        "ORCID: 0000-0002-3396-5840"
+      ],
+      "affiliations": [
+        "Frankfurt Institute for Advanced Studies, Ruth-Moufang-Str. 1, 60438 Frankfurt am Main, Germany.",
+        "Goethe University, 60438 Frankfurt am Main, Germany.",
+        "Frankfurt Institute for Advanced Studies, Ruth-Moufang-Str. 1, 60438 Frankfurt am Main, Germany.",
+        "Goethe University, 60438 Frankfurt am Main, Germany.",
+        "Frankfurt Institute for Advanced Studies, Ruth-Moufang-Str. 1, 60438 Frankfurt am Main, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gil Herrero, Cristina",
+        "short_name": "Gil Herrero C",
+        "identifiers": [
+          "0000-0002-4882-7950"
+        ],
+        "affiliations": [
+          "Frankfurt Institute for Advanced Studies, Ruth-Moufang-Str. 1, 60438 Frankfurt am Main, Germany.",
+          "Goethe University, 60438 Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Duve, Thilo",
+        "short_name": "Duve T",
+        "identifiers": [],
+        "affiliations": [
+          "Frankfurt Institute for Advanced Studies, Ruth-Moufang-Str. 1, 60438 Frankfurt am Main, Germany.",
+          "Goethe University, 60438 Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Thallmair, Sebastian",
+        "short_name": "Thallmair S",
+        "identifiers": [
+          "0000-0002-3396-5840"
+        ],
+        "affiliations": [
+          "Frankfurt Institute for Advanced Studies, Ruth-Moufang-Str. 1, 60438 Frankfurt am Main, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2026 Jan 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/24 12:54",
+    "fetched_at": "2026-09-17 23:16:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41441765",
+      "26605486",
+      "27526680",
+      "31675790",
+      "26596752",
+      "30346771",
+      "26574224",
+      "33475352",
+      "34197798",
+      "33693028",
+      "36130117",
+      "40903917",
+      "26575938",
+      "37676287",
+      "39361008",
+      "22582033",
+      "26598270",
+      "40129029",
+      "26587629",
+      "33143416",
+      "41472654",
+      "39235392",
+      "24910542",
+      "26655333",
+      "26723636",
+      "37645959",
+      "38109686",
+      "34081861",
+      "27591685",
+      "19894688",
+      "21494747",
+      "37529288",
+      "24350686",
+      "32628849",
+      "38326372",
+      "40753455",
+      "23137188",
+      "27058982",
+      "33441107",
+      "29278334",
+      "37327401",
+      "39008538",
+      "38860934",
+      "28905203",
+      "30414204",
+      "38670324",
+      "26133421",
+      "31174850",
+      "33333836",
+      "29655327",
+      "23406326",
+      "37050876",
+      "26580779",
+      "37182953",
+      "27610460",
+      "37653602",
+      "26574472",
+      "33720709",
+      "26602504",
+      "34969246",
+      "41420562",
+      "30253091",
+      "21044587",
+      "25719673",
+      "25914123",
+      "34165988",
+      "36342474",
+      "38261634",
+      "32392421",
+      "40833068",
+      "26930454",
+      "40559352",
+      "39189655",
+      "37194717",
+      "37395458",
+      "33231599",
+      "26580045",
+      "34127998",
+      "40177969",
+      "32610441",
+      "41131333",
+      "38831535",
+      "15527384",
+      "36656159",
+      "39025573",
+      "26588552",
+      "30306164",
+      "27530142",
+      "34962393",
+      "28178817",
+      "26000469",
+      "39807536",
+      "36533706",
+      "32907192",
+      "40297234",
+      "36194691",
+      "21332172",
+      "39818849",
+      "40184371",
+      "26606499"
+    ],
+    "review": [
+      "41441765",
+      "37529288",
+      "27058982",
+      "28905203",
+      "38670324",
+      "40559352"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.5c01654",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

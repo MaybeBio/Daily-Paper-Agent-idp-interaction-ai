@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.02.18.706620",
+  "title": "A specialized ARGONAUTE enables trans-species RNA interference in plant immunity",
+  "authors": "Wang M; Yang C; Him Yuen EL; Fang X; Qi F; Yang S; Koch BL; Li K; Hou Y; Oh T; Tang B; Feng L; Zhang X; Bozkurt TO; Feng X; Ma W",
+  "journal": "bioRxiv",
+  "published_date": "2026-02-19",
+  "window": {
+    "start": "2026-02-16",
+    "end": "2026-02-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究植物免疫中AGO10蛋白通过其N端无序区域(IDR)响应病原感染并形成细胞质凝聚体，从而介导跨界RNA干扰(tsRNAi)的免疫机制，虽非直接研究PPI结合机制，但涉及IDR驱动的凝聚体形成与功能调控，对无序蛋白介导互作及相分离机制建模有参考价值。",
+  "abstract": "Trans-species RNA interference (tsRNAi), in which plants produce small RNAs (sRNAs) to silence target genes in pathogens, has emerged as a promising strategy for disease control. However, whether tsRNAi constitutes an endogenous, regulated immune response remains unclear. Here, we show that ARGONAUTE10 (AGO10) plays a critical role in pathogen-induced tsRNAi. Loss of AGO10 in Arabidopsis abolished pathogen gene silencing during infection, leading to hypersusceptibility to oomycete and fungal pathogens. Importantly, AGO10 rapidly responds to pathogen infection through increased protein accumulation and re-location into discrete cytoplasmic condensates, thus promoting the production of trans-species sRNAs at the pathogen infection sites. This immune responsiveness relies on the N terminal intrinsically disordered region (IDR) of AGO10, which is responsible for sensing and responding to immune activation. Specific features in the IDR partitions AGO10 into two deeply diverged subgroups, AGO10a and AGO10b, with the immune responsiveness and defense function evolutionarily conserved in AGO10a but not AGO10b. Together, these findings establish tsRNAi as a bona fide, evolutionarily conserved immune response and position AGO10 as a signal-responsive hub linking pathogen perception to tsRNAi-based defense.",
+  "abstract_zh": "跨物种RNA干扰（tsRNAi）是指植物产生小RNA（sRNAs）以沉默病原体中的靶基因，已成为疾病控制的一种有前景的策略。然而，tsRNAi是否构成一种内源性、受调控的免疫反应仍不清楚。在此，我们表明ARGONAUTE10（AGO10）在病原体诱导的tsRNAi中发挥关键作用。拟南芥中AGO10的缺失在感染期间消除了病原体基因沉默，导致对卵菌和真菌病原体的超易感性。重要的是，AGO10通过增加蛋白质积累并重新定位到离散的细胞质凝聚体中，快速响应病原体感染，从而促进病原体感染位点处跨物种sRNAs的产生。这种免疫响应性依赖于AGO10的N端内在无序区（IDR），该区域负责感知和响应免疫激活。IDR中的特定特征将AGO10分为两个深度分化的亚群，AGO10a和AGO10b，其中免疫响应性和防御功能在AGO10a中进化上保守，而在AGO10b中则不保守。总之，这些发现确立了tsRNAi作为一种真正的、进化上保守的免疫反应，并将AGO10定位为连接病原体感知与基于tsRNAi防御的信号响应枢纽。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.02.18.706620",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.18.706620",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.02.18.706620/index.html"
+}

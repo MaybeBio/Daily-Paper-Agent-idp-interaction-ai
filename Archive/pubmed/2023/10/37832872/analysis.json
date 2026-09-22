@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37832872",
+  "title": "Disruption of the productive encounter complex results in dysregulation of DIAPH1 activity.",
+  "authors": "Theophall, Gregory G; Ramirez, Lisa M S; Premo, Aaron; Reverdatto, Sergey; Manigrasso, Michaele B; Yepuri, Gautham; Burz, David S; Ramasamy, Ravichandran; Schmidt, Ann Marie; Shekhtman, Alexander",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2023-10-14",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过NMR和交联实验揭示DIAPH1自抑制域DID-DAD互作中RRKR基序形成功能性遭遇复合物的机制，虽对象为折叠结构域而非IDP，但遭遇复合物机制建模思路对无序蛋白介导的PPI研究有可迁移启发。",
+  "abstract": "The diaphanous-related formin, Diaphanous 1 (DIAPH1), is required for the assembly of Filamentous (F)-actin structures. DIAPH1 is an intracellular effector of the receptor for advanced glycation end products (RAGE) and contributes to RAGE signaling and effects such as increased cell migration upon RAGE stimulation. Mutations in DIAPH1, including those in the basic \"RRKR\" motif of its autoregulatory domain, diaphanous autoinhibitory domain (DAD), are implicated in hearing loss, macrothrombocytopenia, and cardiovascular diseases. The solution structure of the complex between the N-terminal inhibitory domain, DID, and the C-terminal DAD, resolved by NMR spectroscopy shows only transient interactions between DID and the basic motif of DAD, resembling those found in encounter complexes. Cross-linking studies placed the RRKR motif into the negatively charged cavity of DID. Neutralizing the cavity resulted in a 5-fold decrease in the binding affinity and 4-fold decrease in the association rate constant of DAD for DID, indicating that the RRKR interactions with DID form a productive encounter complex. A DIAPH1 mutant containing a neutralized RRKR binding cavity shows excessive colocalization with actin and is unresponsive to RAGE stimulation. This is the first demonstration of a specific alteration of the surfaces responsible for productive encounter complexation with implications for human pathology.",
+  "abstract_zh": "透明相关形成素Diaphanous 1（DIAPH1）是丝状（F-）肌动蛋白结构组装所必需的。DIAPH1是晚期糖基化终末产物受体（RAGE）的胞内效应分子，参与RAGE信号传导及其效应，如RAGE刺激后细胞迁移增强。DIAPH1的突变，包括其自调控结构域——透明自身抑制结构域（DAD）中碱性“RRKR”基序的突变，与听力损失、巨大血小板减少症和心血管疾病相关。通过核磁共振波谱解析的N端抑制结构域DID与C端DAD复合物的溶液结构显示，DID与DAD碱性基序之间仅存在瞬时相互作用，类似于遭遇复合物（encounter complexes）中的相互作用。交联研究将RRKR基序定位至DID的负电荷空腔中。中和该空腔导致DAD与DID的结合亲和力降低5倍，结合速率常数降低4倍，表明RRKR与DID的相互作用形成了有效的遭遇复合物。含有中和RRKR结合空腔的DIAPH1突变体表现出与肌动蛋白的过度共定位，并对RAGE刺激无响应。这是首次证明特定表面改变影响有效遭遇复合物形成，并与人类病理学相关。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37832872/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37832872/",
+  "paper_page_path": "papers/pubmed/37832872/index.html"
+}

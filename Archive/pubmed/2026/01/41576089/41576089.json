@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "41576089",
+    "doi": "10.1073/pnas.2530466123",
+    "title": "Protein language models trained on biophysical dynamics inform mutation effects."
+  },
+  "content": {
+    "abstract": "Structural dynamics are fundamental to protein functions and mutation effects. Current protein deep learning models are predominantly trained on sequence and/or static structure data, which often fail to capture the dynamic nature of proteins. To address this, we introduce SeqDance and ESMDance, two protein language models trained on dynamic biophysical properties derived from molecular dynamics simulations and normal mode analyses of over 64,000 proteins. Both models can be directly applied to predict dynamic properties of unseen ordered and disordered proteins. SeqDance, trained from scratch, has attentions that capture dynamic interaction and comovement between residues, and its embeddings encode rich representations of protein dynamics that can be further utilized to predict conformational properties beyond the training tasks via transfer learning. SeqDance predicted dynamic property changes reflect mutation effect on protein folding stability. ESMDance, built upon ESM2 (Evolutionary Scale Model II) outputs, substantially outperforms ESM2 in zero-shot prediction of mutation effects for designed and viral proteins which lack evolutionary information. Together, SeqDance and ESMDance offer a framework for integrating protein dynamics into language models, enabling more generalizable predictions of protein behavior and mutation effects.",
+    "keywords": [
+      "molecular dynamics",
+      "mutation effects",
+      "normal mode analysis",
+      "protein language model"
+    ],
+    "mesh_terms": [
+      "*Mutation",
+      "Molecular Dynamics Simulation",
+      "*Proteins/chemistry/genetics",
+      "Protein Folding",
+      "Protein Conformation",
+      "Deep Learning",
+      "Biophysical Phenomena"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hou, Chao",
+        "Zhao, Haiqing",
+        "Shen, Yufeng"
+      ],
+      "short_names": [
+        "Hou C",
+        "Zhao H",
+        "Shen Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4806-7637",
+        "ORCID: 0000-0003-1168-5730",
+        "ORCID: 0000-0002-1299-5979"
+      ],
+      "affiliations": [
+        "Department of Systems Biology, Columbia University Irving Medical Center, New York, NY 10032.",
+        "Department of Biochemistry and Molecular Biology, University of Texas Medical Branch, Galveston, TX 77555.",
+        "Sealy Center for Structural Biology and Molecular Biophysics, University of Texas Medical Branch, Galveston, TX 77555.",
+        "Department of Systems Biology, Columbia University Irving Medical Center, New York, NY 10032.",
+        "Department of Biomedical Informatics, Columbia University Irving Medical Center, New York, NY 10032.",
+        "JP Sulzberger Columbia Genome Center, Columbia University, New York, NY 10032."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hou, Chao",
+        "short_name": "Hou C",
+        "identifiers": [
+          "0000-0003-4806-7637"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, Columbia University Irving Medical Center, New York, NY 10032."
+        ]
+      },
+      {
+        "full_name": "Zhao, Haiqing",
+        "short_name": "Zhao H",
+        "identifiers": [
+          "0000-0003-1168-5730"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Texas Medical Branch, Galveston, TX 77555.",
+          "Sealy Center for Structural Biology and Molecular Biophysics, University of Texas Medical Branch, Galveston, TX 77555."
+        ]
+      },
+      {
+        "full_name": "Shen, Yufeng",
+        "short_name": "Shen Y",
+        "identifiers": [
+          "0000-0002-1299-5979"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, Columbia University Irving Medical Center, New York, NY 10032.",
+          "Department of Biomedical Informatics, Columbia University Irving Medical Center, New York, NY 10032.",
+          "JP Sulzberger Columbia Genome Center, Columbia University, New York, NY 10032."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 Jan 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/23 18:35",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [
+      "42537002",
+      "42376644",
+      "42057422"
+    ],
+    "refs": [
+      "40935922",
+      "40764308",
+      "40638710",
+      "39913643",
+      "39818825",
+      "39779956",
+      "39609442",
+      "39467119",
+      "39044472",
+      "38718835",
+      "38297184",
+      "38297118",
+      "37986215",
+      "37956700",
+      "37904608",
+      "37484202",
+      "37468638",
+      "36927031",
+      "36702895",
+      "36681903",
+      "36461907",
+      "36344848",
+      "36124686",
+      "36108050",
+      "35836176",
+      "34608324",
+      "34282049",
+      "34265844",
+      "34232869",
+      "34139171",
+      "33876751",
+      "32661425",
+      "31819266",
+      "31589781",
+      "29424691",
+      "29035372",
+      "27710933",
+      "26488642",
+      "23503848",
+      "15980494",
+      "11159421",
+      "10592235"
+    ],
+    "similar": [
+      "41576089",
+      "39464109",
+      "42475469",
+      "23912807",
+      "42146638",
+      "41422228",
+      "39952928",
+      "42450193",
+      "40902999",
+      "42119874",
+      "37695922",
+      "40375059",
+      "35705565",
+      "40314227",
+      "40663654",
+      "33450251",
+      "40935922",
+      "41898756",
+      "39387316",
+      "41125543",
+      "38003686",
+      "23228330",
+      "41435823",
+      "42463482",
+      "42427317",
+      "15959866",
+      "41292907",
+      "42080348",
+      "42412831",
+      "25625937",
+      "41284811",
+      "39163334",
+      "41257586",
+      "31847804",
+      "39198740",
+      "40622483",
+      "40403060",
+      "38501649",
+      "40625100",
+      "40894558",
+      "42149955",
+      "39910649",
+      "22815859",
+      "42398071",
+      "41174304",
+      "41100667",
+      "40027759",
+      "40170306",
+      "38166383",
+      "41172803",
+      "42015301",
+      "29718330",
+      "35120643",
+      "41053908",
+      "39273672",
+      "42427316",
+      "37874270",
+      "41570305",
+      "42443524",
+      "41326937",
+      "41201924",
+      "41662532",
+      "42423292",
+      "12360526",
+      "37425916",
+      "41071611",
+      "42503799",
+      "38701796",
+      "40343467",
+      "41021316",
+      "39684679",
+      "21748801",
+      "41644540",
+      "24446359",
+      "33577557",
+      "38956032",
+      "40893250",
+      "40483648",
+      "41686649",
+      "35477726",
+      "42350672",
+      "34139171",
+      "25165599",
+      "28056090",
+      "31799435",
+      "41678734",
+      "39647695",
+      "39708841",
+      "40288255",
+      "30351125",
+      "40633127",
+      "26730484",
+      "38923241",
+      "42340665",
+      "40742756",
+      "28279701",
+      "16737532",
+      "28301766",
+      "35020807",
+      "41231767"
+    ],
+    "review": [
+      "41576089",
+      "40663654",
+      "25625937",
+      "42149955",
+      "40170306",
+      "39273672",
+      "41326937",
+      "40633127",
+      "26730484"
+    ],
+    "pmc": [
+      "12846831"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2530466123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41576089/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40944421",
+  "title": "Accurate prediction of thermoresponsive phase behavior of disordered proteins.",
+  "authors": "Chakravarti, Ananya; Joseph, Jerelle A",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2025-09-13",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该文开发了残基分辨率模型Mpipi-T，通过整合原子级溶剂化自由能和实验浊点数据，预测无序蛋白的LCST型热响应相分离行为，并解析了hTau40、Pab1和ELF3等蛋白在生理温度附近的相变机制，兼具无序蛋白对象、相分离互作机制和物理模拟方法，对本课题的机制建模有直接启发。",
+  "abstract": "Under heat stress, proteins have been shown to organize into biomolecular condensates in living cells. Recent experiments suggest that this response may be encoded in the chemical makeup of proteins. In particular, specific sequences undergo phase separation at elevated temperatures, exhibiting lower critical solution temperatures (LCST). However, the precise role of LCST-type transitions in heat-induced condensation remains largely unknown. This knowledge gap is further compounded by a lack of approaches that can quantitatively predict LCST-type phase behavior in proteins. To address this, we have developed Mpipi-T-a residue-resolution model for predicting LCST-type transitions in proteins. By integrating atomistic free energy of solvation data with experimental cloud point measurements, we parameterize short-range non-bonded interactions to capture the entropically driven phase separation that occurs upon heating, while analytically scaling long-range electrostatic interactions as a function of temperature. We show that Mpipi-T predicts LCST-type behavior, including both single-molecule properties and collective phase separation. Using Mpipi-T, we analyze three key proteins postulated to exhibit LCST: Alzheimer's disease-associated hTau40, stress granule-binding Pab1, and circadian clock regulator ELF3. Strikingly, our model predicts that each protein encodes an LCST near the physiological growth temperature of its respective organism. These findings highlight a potential mechanism by which proteins encode stress resilience in living systems, providing principles that can be harnessed in synthetic biology to engineer thermoresponsive behavior. Beyond mechanistic insight, Mpipi-T's computational efficiency also makes it a potentially useful tool for designing such proteins directly from their sequence.",
+  "abstract_zh": "在热应激条件下，蛋白质已被证明能在活细胞中组织成生物分子凝聚体。近期实验表明，这种响应可能编码于蛋白质的化学组成中。特别是，特定序列在升高温度下发生相分离 (phase separation)，表现出较低临界溶解温度 (lower critical solution temperatures, LCST)。然而，LCST型转变在热诱导凝聚中的精确作用仍 largely 未知。这一知识空白因缺乏能定量预测蛋白质中LCST型相行为的方法而进一步加剧。为解决此问题，我们开发了Mpipi-T——一种用于预测蛋白质中LCST型转变的残基分辨率模型。通过将原子级溶剂化自由能数据与实验浊点测量相结合，我们参数化短程非键相互作用以捕捉加热时发生的熵驱动相分离，同时解析性地将长程静电相互作用作为温度的函数进行缩放。我们表明，Mpipi-T能预测LCST型行为，包括单分子性质和集体相分离。利用Mpipi-T，我们分析了三种被推测具有LCST的关键蛋白质：与阿尔茨海默病相关的hTau40、应激颗粒结合蛋白Pab1，以及生物钟调节因子ELF3。引人注目的是，我们的模型预测每种蛋白质在其各自生物体的生理生长温度附近编码一个LCST。这些发现突显了蛋白质在生命系统中编码应激韧性的潜在机制，提供了可在合成生物学中利用以工程化热响应行为的原理。除机制性见解外，Mpipi-T的计算效率也使其成为直接从序列设计此类蛋白质的潜在有用工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40944421/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40944421/",
+  "paper_page_path": "papers/pubmed/40944421/index.html"
+}

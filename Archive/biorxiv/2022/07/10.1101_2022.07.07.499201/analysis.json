@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.07.499201",
+  "title": "Deciphering the conformations and dynamics of FG-nucleoporins in situ",
+  "authors": "Yu M; Heidari M; Mikhaleva S; Tan P; Mingu S; Ruan H; Reinkermeier C; Obarska-Kosinska A; Siggel M; Beck M; Hummer G; Lemke E",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-08",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合FRET实验与粗粒化模拟，解析NPC内无序FG-NUP98的原位构象与动力学，揭示其扩展构象促进核运输的机制，对象为IDP且涉及互作环境建模，但PPI机制深度有限。",
+  "abstract": "The ∼120 MDa nuclear pore complex (NPC) acts as a gatekeeper for the molecular traffic between the nucleus and the cytosol. Small cargo readily passes through the transport channel, yet large cargo requires specialized nuclear transport receptors. While the scaffold structure that anchors the NPC in the double-layered nuclear envelope has been resolved to remarkable details, the spatial organization of intrinsically disordered nucleoporins (NUPs) within the central channel remains enigmatic. These so-called FG-NUPs account for about one-third of the total mass of the NPC and form the actual transport barrier. Here we combined site-specific fluorescent labeling in non-fixed cells and fluorescent lifetime imaging microscopy (FLIM) to directly decipher the conformations of an essential constituent of the permeability barrier, NUP98, inside the functioning NPCs using Fluorescence resonance energy transfer (FRET). With detailed measurements of the distance distribution of eighteen NUP98 segments combined with coarse-grained modeling, we mapped the uncharted biochemical environment inside the nanosized transport channel. We found that ‘good-solvent’ conditions for a polymer dominate the inside of the nanosized NPC, expand the FG-domain in situ and facilitate nuclear transport, in sharp contrast to the collapsed NUP98 FG-chain in aqueous solution. The combination of fluorescence microscopy, high-resolution electron tomography, and molecular simulation opens a window into the so-far unresolved organization of the FG-NUPs at the center of NPC function, allowing us to reconcile scientific models of nuclear transport.",
+  "abstract_zh": "约120 MDa的核孔复合体（NPC）充当细胞核与细胞质之间分子运输的门控。小分子货物可轻易通过运输通道，而大分子货物则需要专门的核运输受体。尽管锚定NPC于双层核膜中的支架结构已被解析至显著细节，但中央通道内固有无序核孔蛋白（NUPs）的空间组织仍属未知。这些所谓的FG-NUPs约占NPC总质量的三分之一，并构成实际的运输屏障。在此，我们结合非固定细胞中的位点特异性荧光标记和荧光寿命成像显微镜（FLIM），利用荧光共振能量转移（FRET）直接解析功能态NPC内通透性屏障关键组分NUP98的构象。通过对十八个NUP98片段距离分布的详细测量，并结合粗粒化建模，我们绘制了纳米级运输通道内未知的生化环境图谱。我们发现，聚合物“良溶剂”条件主导纳米级NPC内部，原位扩展FG结构域并促进核运输，这与水溶液中塌缩的NUP98 FG链形成鲜明对比。荧光显微镜、高分辨率电子断层扫描和分子模拟的结合，为迄今未解的FG-NUPs在NPC功能核心中的组织打开了窗口，使我们能够调和核运输的科学模型。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.07.499201",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.07.499201",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.07.499201/index.html"
+}

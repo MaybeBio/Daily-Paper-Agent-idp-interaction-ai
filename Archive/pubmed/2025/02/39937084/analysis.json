@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39937084",
+  "title": "Decoding phase separation of prion-like domains through data-driven scaling laws.",
+  "authors": "Maristany, M Julia; Gonzalez, Anne Aguirre; Espinosa, Jorge R; Huertas, Jan; Collepardo-Guevara, Rosana; Joseph, Jerelle A",
+  "journal": "eLife",
+  "published_date": "2025-02-12",
+  "window": {
+    "start": "2025-02-10",
+    "end": "2025-02-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化模型Mpipi模拟六个蛋白的140个朊病毒样结构域(PLD)突变体，揭示突变影响凝聚体临界温度的标度律，虽非直接PPI但聚焦IDR相分离机制建模，方法为物理模拟，对无序蛋白互作与相分离预测有直接启发。",
+  "abstract": "Proteins containing prion-like low complexity domains (PLDs) are common drivers of the formation of biomolecular condensates and are prone to misregulation due to amino acid mutations. Here, we exploit the accuracy of our residue-resolution coarse-grained model, Mpipi, to quantify the impact of amino acid mutations on the stability of 140 PLD mutants from six proteins (hnRNPA1, TDP43, FUS, EWSR1, RBM14, and TIA1). Our simulations reveal the existence of scaling laws that quantify the range of change in the critical solution temperature of PLDs as a function of the number and type of amino acid sequence mutations. These rules are consistent with the physicochemical properties of the mutations and extend across the entire family tested, suggesting that scaling laws can be used as tools to predict changes in the stability of PLD condensates. Our work offers a quantitative lens into how the emergent behavior of PLD solutions vary in response to physicochemical changes of single PLD molecules.",
+  "abstract_zh": "含有朊病毒样低复杂度结构域（prion-like low complexity domains, PLDs）的蛋白质是生物分子凝聚体形成的常见驱动因素，并且由于氨基酸突变而易于失调。在此，我们利用残基分辨率粗粒化模型Mpipi的准确性，量化氨基酸突变对来自六种蛋白质（hnRNPA1、TDP43、FUS、EWSR1、RBM14和TIA1）的140个PLD突变体稳定性的影响。我们的模拟揭示了标度律的存在，这些标度律量化了PLD临界溶液温度变化范围与氨基酸序列突变数量和类型之间的函数关系。这些规则与突变的物理化学性质一致，并扩展至所测试的整个家族，表明标度律可作为预测PLD凝聚体稳定性变化的工具。我们的工作为PLD溶液涌现行为如何响应单个PLD分子物理化学变化提供了定量视角。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39937084/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39937084/",
+  "paper_page_path": "papers/pubmed/39937084/index.html"
+}

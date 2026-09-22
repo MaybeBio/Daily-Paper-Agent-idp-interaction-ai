@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41365991",
+  "title": "Evolutionary analysis through structural modeling of FAM222 proteins reveals a novel disordered conserved domain in vertebrates that interacts with NLK.",
+  "authors": "Calvario, Eduardo; Segovia, Lorenzo; Zurita, Mario",
+  "journal": "Scientific reports",
+  "published_date": "2025-12-10",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过AlphaFold3建模与原子模拟，揭示脊椎动物FAM222蛋白家族中保守无序结构域DCD222与激酶NLK的延伸型互作机制，兼具IDP对象、PPI机制与AI/物理模拟方法，高度契合课题。",
+  "abstract": "Intrinsically disordered regions (IDRs) play essential roles in signaling by mediating protein-protein interactions that are both dynamic and specific. Many IDRs have evolved as kinase-binding modules, particularly in mitogen-activated protein kinase (MAPK) networks, where they facilitate critical regulatory interactions for signaling specificity. However, the evolutionary constraints that shape IDRs and their role in MAPK regulation remain poorly understood. Here, we identify DCD222, a highly conserved IDR within the FAM222 protein family, which interacts with Nemo-like kinase (NLK), an atypical MAPK involved in WNT, NOTCH, VEGF, mTOR, and TGF-beta signaling. Phylogenetic analysis reveals that DCD222 has been conserved from cyclostomes to humans, indicating strong evolutionary constraints on its function. Using AlphaFold3, we show that DCD222 binds to NLK through an extended mechanism, in which a reverse docking (revD) motif engages the NLK docking groove in the C-lobe, and beta-hairpin-like and beta-sheet motifs insert into the N-lobe. We performed three independent atomistic simulations of the protein-protein complex to assess the stability of the interface and found that it remained stable throughout the runs. The interaction does not obstruct the kinase's catalytic site, suggesting that FAM222A and FAM222B are potential modulators of NLK rather than simple substrates. Our findings establish DCD222 as an evolutionarily constrained IDR, providing new insights into how disordered domains contribute to signaling adaptation in vertebrates.",
+  "abstract_zh": "固有无序区域（IDRs）在信号传导中通过介导既动态又特异的蛋白质-蛋白质相互作用发挥关键作用。许多IDRs已进化为激酶结合模块，尤其在丝裂原活化蛋白激酶（MAPK）网络中，它们促进对信号特异性至关重要的调控性相互作用。然而，塑造IDRs的进化约束及其在MAPK调控中的作用仍知之甚少。在此，我们鉴定出DCD222，这是FAM222蛋白家族中一个高度保守的IDR，它与Nemo样激酶（NLK）相互作用，后者是一种参与WNT、NOTCH、VEGF、mTOR和TGF-beta信号传导的非典型MAPK。系统发育分析揭示，DCD222从圆口类到人类均保持保守，表明其功能受到强烈的进化约束。利用AlphaFold3，我们显示DCD222通过一种延伸机制与NLK结合，其中反向对接（revD）基序与C叶中的NLK对接沟槽结合，而β-发夹样和β-折叠基序插入N叶。我们对蛋白质-蛋白质复合物进行了三次独立的原子模拟以评估界面的稳定性，发现其在模拟过程中保持稳定。该相互作用不阻碍激酶的催化位点，表明FAM222A和FAM222B是NLK的潜在调节因子，而非简单底物。我们的发现将DCD222确立为一个受进化约束的IDR，为无序结构域如何促进脊椎动物信号适应提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41365991/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41365991/",
+  "paper_page_path": "papers/pubmed/41365991/index.html"
+}

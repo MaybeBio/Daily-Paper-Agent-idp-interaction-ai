@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The provided abstract describes a book chapter on the application of the FRODAN constrained geometric simulation method to antibody conformational dynamics. Assessment is limited to claims made in this abstract.
+- **Shared manuscript claim summary** The authors claim that FRODAN, a low-computational-complexity alternative to molecular dynamics, can rapidly explore flexible motions in protein structures, and that its application to IgG2a reveals large-amplitude domain-domain motions and CDR loop motions consistent with prior experimental studies suggesting antibodies explore a large conformational space.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, or results are provided.
+- **Missing materials affecting confidence** Full chapter text, methodological details of FRODAN implementation, simulation parameters, quantitative results, comparison data with experimental studies, and any validation metrics are not available.
+
+## Reviewer
+- **Overall assessment** The abstract presents a reasonable and potentially useful methodological application, but the evidence provided is insufficient to evaluate the technical soundness or the strength of the claims. The central assertion that FRODAN predictions align with experimental observations is stated without supporting data. The abstract reads as a chapter overview rather than a results-bearing report, which limits the ability to assess scientific contribution.
+- **Who would be interested in the results, and why** Computational biologists and structural biologists interested in efficient conformational sampling methods for large proteins and complexes, particularly those studying antibody dynamics, flexibility, and structure-function relationships. The low computational cost of FRODAN may appeal to researchers who cannot access large-scale MD resources.
+- **Major strengths** The abstract clearly identifies a practical need (efficient conformational sampling for large proteins) and positions FRODAN as a computationally accessible alternative to MD. The focus on antibody dynamics, including CDR loops, is biologically relevant. The claim of all-atom prediction with geometric constraints is potentially valuable.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that FRODAN simulations "show that antibodies can explore a large range of conformational space" and that this is consistent with previous experimental studies.  
+  - **Evidence pointer** Abstract text only; no figures or tables provided.  
+  - **Concern** The abstract provides no quantitative or qualitative results to support the claim of large conformational exploration. No data on the extent of domain-domain motions, CDR loop flexibility, or comparison with experimental measurements are presented.  
+  - **Why it matters** Without supporting data, the central scientific claim is unverifiable. The reader cannot assess whether the simulations actually reproduce experimentally observed dynamics or whether the method performs as described.  
+  - **Resolution test** Provide quantitative metrics of conformational sampling (e.g., RMSD ranges, principal component analysis of motions) and direct comparison with experimental data (e.g., hydrogen-deuterium exchange, FRET, or crystallographic B-factors) in the full chapter.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical validation  
+  - **Claim pointer** The abstract claims FRODAN "retains realistic covalent bonding, maintaining dihedral angles in energetically good conformations while avoiding steric clashes" and performs "other geometric and stereochemical criteria checks."  
+  - **Evidence pointer** Abstract text only; no validation metrics provided.  
+  - **Concern** No validation of these geometric criteria is presented. The abstract does not report any benchmarks, error rates, or comparisons with known structures to demonstrate that FRODAN maintains stereochemical quality during simulations.  
+  - **Why it matters** The credibility of the method depends on its ability to produce physically realistic conformations. Without validation, the claim of realistic dynamics is unsupported.  
+  - **Resolution test** Include validation statistics such as Ramachandran plot outliers, clash scores, and bond length/angle deviations over simulation trajectories, ideally benchmarked against MD or experimental structures.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The abstract describes the application of FRODAN to IgG2a but provides no details on simulation setup.  
+  - **Evidence pointer** Abstract text only.  
+  - **Concern** No information is given on starting structures, simulation length, number of runs, temperature or constraint parameters, or how convergence was assessed.  
+  - **Why it matters** Reproducibility is a core scientific standard. Without these details, other researchers cannot replicate the simulations or assess the robustness of the findings.  
+  - **Resolution test** Provide full simulation parameters and protocols in the methods section of the chapter, including software version, force field or constraint settings, and analysis workflows.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Method description  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract states FRODAN is a "low computational complexity alternative" but does not quantify the computational cost relative to MD.  
+  - **Required correction** Provide a brief quantitative comparison of computational time or resources between FRODAN and typical MD simulations for a similar system.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope clarity  
+  - **Affected element** Generalizability claim  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract claims FRODAN is "highly suited" for large proteins, complexes, and intrinsically disordered proteins, but only one antibody example is mentioned.  
+  - **Required correction** Clarify whether these broader claims are based on prior published work or on results presented in this chapter, and cite relevant evidence.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Geometric simulations"  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The term "geometric simulations" is not defined in the abstract, which may confuse nonspecialist readers.  
+  - **Required correction** Add a one-sentence definition or reference to distinguish this approach from other constraint-based methods.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of conformational exploration and geometric realism are not supported by any presented evidence. R1-M3, while not blocking, is necessary for reproducibility and should be addressed in the full chapter.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract does not clearly establish novelty. Constrained geometric simulations are not new, and the specific application to antibodies may be incremental. Originality cannot be fully assessed without the full chapter.  
+  - **Scientific importance** The potential to enable efficient conformational sampling of large proteins is important, but the abstract does not demonstrate a significant advance over existing methods.  
+  - **Interdisciplinary readership** The topic bridges computational biology and immunology, which could attract a broad audience, but the abstract is too brief to engage nonspecialists effectively.  
+  - **Technical soundness** Not assessable from the abstract. No validation or methodological detail is provided.  
+  - **Readability for nonspecialists** The abstract is generally clear but uses jargon (e.g., "FRODAN," "CDR loops") without sufficient context for a general scientific audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient data to support the central claims. A supportive recommendation would require the full chapter to include quantitative results, validation metrics, and methodological details.
+
+## Risk / unsupported claims
+- The claim that FRODAN simulations show antibodies explore a large conformational space is unsupported by any data in the abstract.
+- The claim that FRODAN maintains realistic geometry and avoids steric clashes is unverified.
+- The claim that FRODAN is "highly suited" for intrinsically disordered proteins and long-timescale dynamics is not substantiated by evidence in the abstract.
+- The consistency of simulation results with previous experimental studies is asserted but not demonstrated.

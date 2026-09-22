@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41863177",
+  "title": "AlphaFold3: A Transformer in Life Sciences.",
+  "authors": "Zhu, Rui; Wen, Zehua; Wang, Lei; Zhao, Pengyi; Fan, Hua-Jun Shawn; Jathan, Danielle; Lee, Ho-Jin",
+  "journal": "Current medicinal chemistry",
+  "published_date": "2026-03-21",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 7,
+  "one_liner_zh": "综述AlphaFold3的技术创新与局限，指出其在无序区域和蛋白-蛋白互作预测上的不足，并提议结合MD模拟等混合方法，对IDR介导的PPI机制建模有直接启发。",
+  "abstract": "The development of AlphaFold2 (AF2) marked a revolutionary milestone in the field of life sciences, such as structural and computational biology, offering highly accurate atomic-level predictions of individual protein structures using deep learning techniques. Its unprecedented performance has transformed structural biology by providing insights that were previously dependent on time-consuming experimental methods. However, despite its success, AF2 has notable limitations. It struggles with accurately modeling protein-protein interactions and fails to reliably predict the presence and positioning of non-protein components, such as nucleic acids, metal ions, ligands, and posttranslational modifications, which are critical for understanding full biological functionality. In response to these shortcomings, AlphaFold3 (AF3) has emerged as a more comprehensive solution by integrating sequence, structural, and chemical context to predict a broader range of biomolecular structures and their interactions. However, AF3 is not without limitations. It still struggles with intrinsically disordered regions, low-homology sequences, and RNA structures, particularly long or unvalidated ones. Moreover, antibody- antigen docking and flexible binding site modeling remain challenging. Addressing these gaps may require hybrid approaches that combine AF3 with experimental data, molecular dynamics simulations, or network-based models. This review explores the technical innovations underlying AF3, evaluates its current performance across different biological contexts, and presents its transformative potential in fields, such as antibodies and vaccine development for infectious diseases, cancer, and other diseases, as well as basic biological research. Finally, we highlight the remaining challenges and propose future research directions to further improve the prediction of protein complexes and other biomolecular structures.",
+  "abstract_zh": "AlphaFold2（AF2）的发展标志着生命科学领域（如结构生物学和计算生物学）的一个革命性里程碑，利用深度学习技术对单个蛋白质结构提供了高精度的原子级预测。其前所未有的性能通过提供先前依赖耗时实验方法才能获得的见解，彻底改变了结构生物学。然而，尽管取得了成功，AF2仍存在显著局限性。它在准确建模蛋白质-蛋白质相互作用方面存在困难，并且无法可靠预测非蛋白质组分（如核酸、金属离子、配体和翻译后修饰）的存在和定位，而这些对于理解完整的生物功能至关重要。针对这些不足，AlphaFold3（AF3）作为一种更全面的解决方案应运而生，通过整合序列、结构和化学背景来预测更广泛的生物分子结构及其相互作用。然而，AF3并非没有局限性。它仍然难以处理内在无序区域、低同源性序列和RNA结构，尤其是长链或未经验证的RNA结构。此外，抗体-抗原对接和柔性结合位点建模仍具挑战性。解决这些差距可能需要将AF3与实验数据、分子动力学模拟或基于网络的模型相结合的混合方法。本综述探讨了AF3背后的技术创新，评估了其在不同生物学背景下的当前性能，并展示了其在传染病、癌症及其他疾病的抗体和疫苗开发以及基础生物学研究等领域的变革潜力。最后，我们强调了剩余挑战，并提出了未来研究方向，以进一步改进蛋白质复合物及其他生物分子结构的预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41863177/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41863177/",
+  "paper_page_path": "papers/pubmed/41863177/index.html"
+}

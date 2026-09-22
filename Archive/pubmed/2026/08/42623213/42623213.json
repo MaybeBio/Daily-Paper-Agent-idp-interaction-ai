@@ -1,0 +1,216 @@
+{
+  "identity": {
+    "pmid": "42623213",
+    "doi": "10.1109/JBHI.2026.3726011",
+    "title": "PreMemMoRF: A pretraining-fine-tuning framework for predicting membrane molecular recognition features."
+  },
+  "content": {
+    "abstract": "Membrane molecular recognition features (MemMoRFs) are lipid-binding intrinsically disordered regions (IDRs) that undergo disorder-to-order transitions to mediate critical membrane dynamics. Consequently, their dysregulation is closely linked to severe human pathologies, including neurodegenerative diseases and viral infections. Despite their biological significance, annotations for MemMoRFs are scarce, limiting the accuracy of computational predictors. We introduce PreMemMoRF, a deep learning framework that leverages transfer learning to alleviate data scarcity. The model is pre-trained on linear interacting peptides (LIPs) with similar conformational transitions and fine-tuned on MemMoRF datasets, capturing generalizable binding-related sequence features. PreMemMoRF outperforms existing predictors across multiple metrics and demonstrates robust performance on transmembrane and membrane-associated proteins. It also performs consistently in short linear motif prediction, highlighting cross-task generalizability. Proteome-wide analysis in yeast shows that predicted scores exhibit systematic differences across distinct transmembrane topological regions and are consistent with established physicochemical constraints of membrane proteins. Collectively, these results validate PreMemMoRF as a robust and reliable computational framework for the large-scale identification of MemMoRFs.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xia, Chenxi",
+        "Hao, Jiayi",
+        "Liu, Hao",
+        "Zeng, Min",
+        "Zhang, Fuhao",
+        "Li, Min"
+      ],
+      "short_names": [
+        "Xia C",
+        "Hao J",
+        "Liu H",
+        "Zeng M",
+        "Zhang F",
+        "Li M"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Xia, Chenxi",
+        "short_name": "Xia C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hao, Jiayi",
+        "short_name": "Hao J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Liu, Hao",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zeng, Min",
+        "short_name": "Zeng M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Fuhao",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Li, Min",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE journal of biomedical and health informatics"
+    ],
+    "journal_abbrev": [
+      "IEEE J Biomed Health Inform"
+    ],
+    "pub_date": "2026 Aug 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/20 17:35",
+    "fetched_at": "2026-09-18 05:48:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42623213",
+      "42475469",
+      "37709009",
+      "40441416",
+      "33119751",
+      "36458437",
+      "42503799",
+      "36851914",
+      "41021316",
+      "31207240",
+      "42239143",
+      "40254833",
+      "42398071",
+      "40530859",
+      "40360271",
+      "31007871",
+      "40487847",
+      "41438772",
+      "42288727",
+      "41378882",
+      "42150060",
+      "42245005",
+      "40613943",
+      "24093637",
+      "34656333",
+      "41622943",
+      "34227303",
+      "38166858",
+      "31504193",
+      "36272675",
+      "41838876",
+      "41576119",
+      "40031750",
+      "40315689",
+      "41082321",
+      "42323660",
+      "40133781",
+      "38297184",
+      "42015301",
+      "41977286",
+      "42402205",
+      "38297118",
+      "35767567",
+      "41801982",
+      "20977780",
+      "41337585",
+      "42163392",
+      "40660290",
+      "41921197",
+      "41454218",
+      "32535960",
+      "33866372",
+      "40952788",
+      "40499368",
+      "32702119",
+      "40684093",
+      "38701796",
+      "41376700",
+      "40244295",
+      "40221640",
+      "34830151",
+      "42427316",
+      "40665056",
+      "40849052",
+      "39910649",
+      "41120647",
+      "41053545",
+      "41883999",
+      "41405961",
+      "39093570",
+      "35649392",
+      "40274878",
+      "41348598",
+      "39913993",
+      "39713395",
+      "39080344",
+      "41008314",
+      "36833360",
+      "41172803",
+      "42315989",
+      "34579793",
+      "42547887",
+      "25424537",
+      "29042212",
+      "41925960",
+      "42437533",
+      "40036514",
+      "38079339",
+      "41764249",
+      "41448304",
+      "34905768",
+      "23328413",
+      "26042329",
+      "41053908",
+      "41454828",
+      "19585006",
+      "40989431",
+      "41086136",
+      "28002650",
+      "32756939"
+    ],
+    "review": [
+      "42623213",
+      "36851914",
+      "31007871",
+      "39093570"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1109/JBHI.2026.3726011",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

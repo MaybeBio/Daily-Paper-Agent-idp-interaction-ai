@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42225537",
+  "title": "Liquid-liquid phase separation in metabolic engineering: Mechanistic insights, emerging applications, and future challenges.",
+  "authors": "Liu, Weiwei; Tian, Linyue; Xie, Jiupan; Wu, Lianwu; Hu, Lin; Ge, Ran; Wang, Yuanpeng; Cao, Mingfeng",
+  "journal": "Biotechnology advances",
+  "published_date": "2026-06-02",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 7,
+  "one_liner_zh": "综述LLPS在代谢工程中的应用，涵盖IDR设计原则及AI/DL驱动的序列-相行为关系建模，虽非直接研究PPI机制，但为IDR介导互作与相分离的预测性建模提供了可迁移框架。",
+  "abstract": "Mechanistic studies of liquid-liquid phase separation (LLPS) have increasingly revealed that cells achieve multiscale and highly precise regulation of metabolic activities and biochemical reaction networks through the formation of membraneless organelles (MLOs). This paradigm is opening new avenues for metabolic engineering by enabling enhanced biosynthetic efficiency, improved metabolic robustness, and dynamic control that are difficult to achieve with conventional static regulatory strategies. In this review, we systematically summarize the design principles, molecular determinants, and regulatory strategies underlying LLPS-based artificial condensates, with a particular emphasis on their applications in metabolic channeling, gene expression control, and the construction of complex, programmable cellular functional modules. We further explored how artificial intelligence (AI) and deep learning (DL) are transforming this field by enabling the construction of databases for intrinsic disorder regions (IDR) within systems and the rational design of data-driven synthetic IDRs. This establishes quantitative sequence-phase behavior relationships and accelerates the transition from empirical design to predictive, engineering-oriented frameworks. Finally, we critically evaluate key challenges and future opportunities, including condensate aging and compatibility with host cellular environments, which provide critical insights for the development of next-generation, stable, and highly compatible tunable condensates. This review provides an integrated theoretical framework and forward-looking perspective for researchers in synthetic biology and metabolic engineering, aiming to facilitate the development of next-generation, robust, and programmable LLPS-based platforms for advanced microbial cell factories.",
+  "abstract_zh": "液-液相分离（LLPS）的机制研究日益揭示，细胞通过形成无膜细胞器（MLOs）实现对代谢活动和生化反应网络的多尺度、高精度调控。这一范式为代谢工程开辟了新途径，通过增强生物合成效率、改善代谢稳健性以及实现传统静态调控策略难以达到的动态控制。本综述系统总结了基于LLPS的人工凝聚体的设计原理、分子决定因素及调控策略，特别关注其在代谢通道化、基因表达调控以及构建复杂、可编程细胞功能模块中的应用。我们进一步探讨了人工智能（AI）和深度学习（DL）如何通过构建系统内固有无序区域（IDR）数据库和数据驱动的合成IDR合理设计，推动该领域的变革。这建立了定量序列-相行为关系，并加速了从经验设计向预测性、工程导向框架的转变。最后，我们批判性评估了关键挑战和未来机遇，包括凝聚体老化及其与宿主细胞环境的兼容性，这些为开发下一代稳定且高度兼容的可调凝聚体提供了重要见解。本综述为合成生物学和代谢工程领域的研究人员提供了整合的理论框架和前瞻性视角，旨在促进基于LLPS的下一代稳健、可编程平台在先进微生物细胞工厂中的应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42225537/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42225537/",
+  "paper_page_path": "papers/pubmed/42225537/index.html"
+}

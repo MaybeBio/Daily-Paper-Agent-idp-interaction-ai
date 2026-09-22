@@ -1,0 +1,498 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.04.28.591531",
+  "title": "GLP-1R associates with VAPB and SPHKAP at ERMCSs to regulate β-cell mitochondrial remodelling and function",
+  "doi": "10.1101/2024.04.28.591531",
+  "abstract": "Glucagon-like peptide-1 receptor (GLP-1R) agonists (GLP-1RAs) ameliorate mitochondrial health by increasing mitochondrial turnover in metabolically relevant tissues. Mitochondrial adaptation to metabolic stress is crucial to maintain pancreatic β-cell function and prevent type 2 diabetes (T2D) progression. While the GLP-1R is well-known to stimulate cAMP production leading to Protein Kinase A (PKA) and Exchange Protein Activated by cyclic AMP 2 (Epac2) activation, there is a lack of understanding of the molecular mechanisms linking GLP-1R signalling with mitochondrial and β-cell functional adaptation. Here, we present a comprehensive study in β-cell lines and primary islets that demonstrates that, following GLP-1RA stimulation, GLP-1R-positive endosomes associate with the endoplasmic reticulum (ER) membrane contact site (MCS) tether VAPB at ER-mitochondria MCSs (ERMCSs), where active GLP-1R engages with SPHKAP, an A-kinase anchoring protein (AKAP) previously linked to T2D and adiposity risk in genome-wide association studies (GWAS). The inter-organelle complex formed by endosomal GLP-1R, ER VAPB and SPHKAP triggers a pool of ERMCS-localised cAMP/PKA signalling via the formation of a PKA-RIα biomolecular condensate which leads to changes in mitochondrial contact site and cristae organising system (MICOS) complex phosphorylation, mitochondrial remodelling, and β-cell functional adaptation, with important consequences for the regulation of β-cell insulin secretion and survival to stress.",
+  "authors": [
+    "Austin G",
+    "Oqua AI",
+    "El Eid L",
+    "Zhu M",
+    "Manchanda Y",
+    "Peres P",
+    "Coyle H",
+    "Poliakova Y",
+    "Bouzakri K",
+    "Montoya A",
+    "Withers DJ",
+    "Solimena M",
+    "Jones B",
+    "Millership SJ",
+    "Burgold S",
+    "Gaboriau DC",
+    "Majorovits E",
+    "Garlick E",
+    "Lima M",
+    "Prokopenko I",
+    "Nixon-Abell J",
+    "Müller A",
+    "Tomas A"
+  ],
+  "published_date": "2024-04-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.04.28.591531",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.04.28.591531.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR845864",
+    "raw_record": {
+      "id": "PPR845864",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR845864"
+        ]
+      },
+      "doi": "10.1101/2024.04.28.591531",
+      "title": "GLP-1R associates with VAPB and SPHKAP at ERMCSs to regulate β-cell mitochondrial remodelling and function",
+      "authorString": "Austin G, Oqua AI, El Eid L, Zhu M, Manchanda Y, Peres P, Coyle H, Poliakova Y, Bouzakri K, Montoya A, Withers DJ, Solimena M, Jones B, Millership SJ, Burgold S, Gaboriau DC, Majorovits E, Garlick E, Lima M, Prokopenko I, Nixon-Abell J, Müller A, Tomas A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Austin G",
+            "lastName": "Austin",
+            "firstName": "Gregory",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Section of Cell Biology and Functional Genomics, Division of Diabetes, Endocrinology, and Metabolism, Department of Metabolism, Digestion and Reproduction, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oqua AI",
+            "lastName": "Oqua",
+            "firstName": "Affiong",
+            "initials": "AI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Section of Cell Biology and Functional Genomics, Division of Diabetes, Endocrinology, and Metabolism, Department of Metabolism, Digestion and Reproduction, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "El Eid L",
+            "lastName": "El Eid",
+            "firstName": "Liliane",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Section of Cell Biology and Functional Genomics, Division of Diabetes, Endocrinology, and Metabolism, Department of Metabolism, Digestion and Reproduction, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhu M",
+            "lastName": "Zhu",
+            "firstName": "Mingli",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Section of Cell Biology and Functional Genomics, Division of Diabetes, Endocrinology, and Metabolism, Department of Metabolism, Digestion and Reproduction, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Manchanda Y",
+            "lastName": "Manchanda",
+            "firstName": "Yusman",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Section of Cell Biology and Functional Genomics, Division of Diabetes, Endocrinology, and Metabolism, Department of Metabolism, Digestion and Reproduction, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Peres P",
+            "lastName": "Peres",
+            "firstName": "Priyanka",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Coyle H",
+            "lastName": "Coyle",
+            "firstName": "Helena",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Poliakova Y",
+            "lastName": "Poliakova",
+            "firstName": "Yelyzaveta",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Public Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bouzakri K",
+            "lastName": "Bouzakri",
+            "firstName": "Karim",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre Européen d'Étude du Diabète, Strasbourg, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Montoya A",
+            "lastName": "Montoya",
+            "firstName": "Alex",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Withers DJ",
+            "lastName": "Withers",
+            "firstName": "Dominic",
+            "initials": "DJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Medical Sciences, London, United Kingdom"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Solimena M",
+            "lastName": "Solimena",
+            "firstName": "Michele",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Diabetology, University Hospital and Faculty of Medicine Carl Gustav Carus, , ,"
+                },
+                {
+                  "affiliation": ", Helmholtz Center Munich, and Faculty of Medicine, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jones B",
+            "lastName": "Jones",
+            "firstName": "Ben",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Section of Endocrinology and Investigative Medicine, Division of Diabetes, Endocrinology, and Metabolism, Department of Metabolism, Digestion and Reproduction, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Millership SJ",
+            "lastName": "Millership",
+            "firstName": "Steven",
+            "initials": "SJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Section of Cell Biology and Functional Genomics, Division of Diabetes, Endocrinology, and Metabolism, Department of Metabolism, Digestion and Reproduction, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Burgold S",
+            "lastName": "Burgold",
+            "firstName": "Steffen",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Microscopy GmbH, ZEISS Gruppe, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gaboriau DC",
+            "lastName": "Gaboriau",
+            "firstName": "David C.A.",
+            "initials": "DC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4047-6487"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Facility for Imaging by Light Microscopy, National Heart and Lung Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Majorovits E",
+            "lastName": "Majorovits",
+            "firstName": "Endre",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Microscopy GmbH, ZEISS Gruppe, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garlick E",
+            "lastName": "Garlick",
+            "firstName": "Evelyn",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Abberior Instruments GmbH, Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lima M",
+            "lastName": "Lima",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Abberior Instruments GmbH, Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prokopenko I",
+            "lastName": "Prokopenko",
+            "firstName": "Inga",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical and Experimental Medicine, , ,"
+                },
+                {
+                  "affiliation": "People-Centred Artificial Intelligence Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nixon-Abell J",
+            "lastName": "Nixon-Abell",
+            "firstName": "Jonathon",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Müller A",
+            "lastName": "Müller",
+            "firstName": "Andreas",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Diabetology, University Hospital and Faculty of Medicine Carl Gustav Carus, , ,"
+                },
+                {
+                  "affiliation": ", Helmholtz Center Munich, and Faculty of Medicine, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tomas A",
+            "lastName": "Tomas",
+            "firstName": "Alejandra",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Section of Cell Biology and Functional Genomics, Division of Diabetes, Endocrinology, and Metabolism, Department of Metabolism, Digestion and Reproduction, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4047-6487"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Glucagon-like peptide-1 receptor (GLP-1R) agonists (GLP-1RAs) ameliorate mitochondrial health by increasing mitochondrial turnover in metabolically relevant tissues. Mitochondrial adaptation to metabolic stress is crucial to maintain pancreatic β-cell function and prevent type 2 diabetes (T2D) progression. While the GLP-1R is well-known to stimulate cAMP production leading to Protein Kinase A (PKA) and Exchange Protein Activated by cyclic AMP 2 (Epac2) activation, there is a lack of understanding of the molecular mechanisms linking GLP-1R signalling with mitochondrial and β-cell functional adaptation. Here, we present a comprehensive study in β-cell lines and primary islets that demonstrates that, following GLP-1RA stimulation, GLP-1R-positive endosomes associate with the endoplasmic reticulum (ER) membrane contact site (MCS) tether VAPB at ER-mitochondria MCSs (ERMCSs), where active GLP-1R engages with SPHKAP, an A-kinase anchoring protein (AKAP) previously linked to T2D and adiposity risk in genome-wide association studies (GWAS). The inter-organelle complex formed by endosomal GLP-1R, ER VAPB and SPHKAP triggers a pool of ERMCS-localised cAMP/PKA signalling via the formation of a PKA-RIα biomolecular condensate which leads to changes in mitochondrial contact site and cristae organising system (MICOS) complex phosphorylation, mitochondrial remodelling, and β-cell functional adaptation, with important consequences for the regulation of β-cell insulin secretion and survival to stress.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "104931/Z/14/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "227745/Z/23/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "301619/Z/23/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Diabetes UK",
+            "grantId": "19/0006094",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.04.28.591531"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR845864"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR845864&type=FILE&fileName=EMS207340-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41372122",
+            "reference": "Nature communications. 2025 Dec;16(1):11010",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207340",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "hpa",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-05-02",
+      "firstPublicationDate": "2024-04-30",
+      "firstIndexDate": "2024-05-02",
+      "fullTextReceivedDate": "2025-07-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

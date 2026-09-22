@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37252985",
+  "title": "Proximity to criticality predicts surface properties of biomolecular condensates.",
+  "authors": "Pyo, Andrew G T; Zhang, Yaojun; Wingreen, Ned S",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2023-05-30",
+  "window": {
+    "start": "2023-05-29",
+    "end": "2023-06-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究生物分子凝聚体临界区附近的表面性质，揭示序列通过临界温度调控表面张力，虽未直接聚焦IDP-PPI，但为无序蛋白介导的凝聚体互作机制建模提供了可迁移的物理原理与方法。",
+  "abstract": "It has recently become appreciated that cells self-organize their interiors through the formation of biomolecular condensates. These condensates, typically formed through liquid-liquid phase separation of proteins, nucleic acids, and other biopolymers, exhibit reversible assembly/disassembly in response to changing conditions. Condensates play many functional roles, aiding in biochemical reactions, signal transduction, and sequestration of certain components. Ultimately, these functions depend on the physical properties of condensates, which are encoded in the microscopic features of the constituent biomolecules. In general, the mapping from microscopic features to macroscopic properties is complex, but it is known that near a critical point, macroscopic properties follow power laws with only a small number of parameters, making it easier to identify underlying principles. How far does this critical region extend for biomolecular condensates and what principles govern condensate properties in the critical regime? Using coarse-grained molecular-dynamics simulations of a representative class of biomolecular condensates, we found that the critical regime can be wide enough to cover the full physiological range of temperatures. Within this critical regime, we identified that polymer sequence influences surface tension predominately via shifting the critical temperature. Finally, we show that condensate surface tension over a wide range of temperatures can be calculated from the critical temperature and a single measurement of the interface width.",
+  "abstract_zh": "近年来，人们逐渐认识到细胞通过形成生物分子凝聚体来组织其内部结构。这些凝聚体通常由蛋白质、核酸及其他生物聚合物通过液-液相分离 (liquid-liquid phase separation) 形成，并表现出随条件变化而可逆的组装/解组装特性。凝聚体在多种功能中发挥作用，包括促进生化反应、信号转导以及特定组分的隔离。最终，这些功能取决于凝聚体的物理性质，而这些性质由组成生物分子的微观特征所编码。一般而言，从微观特征到宏观性质的映射是复杂的，但已知在临界点附近，宏观性质遵循幂律，仅需少量参数即可描述，从而更易于识别潜在原理。这一临界区域对生物分子凝聚体而言延伸多远，以及在临界区域内控制凝聚体性质的原则是什么？通过对代表性生物分子凝聚体类别进行粗粒化分子动力学 (molecular dynamics) 模拟，我们发现临界区域可能足够宽，以覆盖完整的生理温度范围。在此临界区域内，我们确定聚合物序列主要通过改变临界温度来影响表面张力。最后，我们展示了在广泛温度范围内，凝聚体表面张力可由临界温度和单次界面宽度测量计算得出。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37252985/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37252985/",
+  "paper_page_path": "papers/pubmed/37252985/index.html"
+}

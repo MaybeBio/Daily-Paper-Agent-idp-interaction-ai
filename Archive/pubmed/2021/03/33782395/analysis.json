@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33782395",
+  "title": "The SARS-CoV-2 nucleocapsid protein is dynamic, disordered, and phase separates with RNA.",
+  "authors": "Cubuk, Jasmine; Alston, Jhullian J; Incicco, J Jeremias; Singh, Sukrit; Stuchell-Brereton, Melissa D; Ward, Michael D; Zimmerman, Maxwell I; Vithani, Neha; Griffith, Daniel; Wagoner, Jason A; Bowman, Gregory R; Hall, Kathleen B; Soranno, Andrea; Holehouse, Alex S",
+  "journal": "Nature communications",
+  "published_date": "2021-03-31",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合单分子光谱与全原子模拟，揭示SARS-CoV-2核衣壳蛋白无序区域介导的多价RNA结合、相分离与基因组压缩机制，并构建对称破缺模型解释单基因组凝聚优先于相分离，是IDR介导互作机制建模的典范。",
+  "abstract": "The SARS-CoV-2 nucleocapsid (N) protein is an abundant RNA-binding protein critical for viral genome packaging, yet the molecular details that underlie this process are poorly understood. Here we combine single-molecule spectroscopy with all-atom simulations to uncover the molecular details that contribute to N protein function. N protein contains three dynamic disordered regions that house putative transiently-helical binding motifs. The two folded domains interact minimally such that full-length N protein is a flexible and multivalent RNA-binding protein. N protein also undergoes liquid-liquid phase separation when mixed with RNA, and polymer theory predicts that the same multivalent interactions that drive phase separation also engender RNA compaction. We offer a simple symmetry-breaking model that provides a plausible route through which single-genome condensation preferentially occurs over phase separation, suggesting that phase separation offers a convenient macroscopic readout of a key nanoscopic interaction.",
+  "abstract_zh": "SARS-CoV-2核衣壳（N）蛋白是一种丰富的RNA结合蛋白，对病毒基因组包装至关重要，然而支撑这一过程的分子细节尚不明确。在此，我们结合单分子光谱学与全原子模拟，揭示有助于N蛋白功能的分子细节。N蛋白包含三个动态无序区域，这些区域含有推测的瞬时螺旋结合基序。两个折叠结构域相互作用极小，使得全长N蛋白成为一种灵活且多价的RNA结合蛋白。N蛋白与RNA混合时还会发生液-液相分离（liquid-liquid phase separation），聚合物理论预测，驱动相分离的相同多价相互作用也促进RNA压缩。我们提出一个简单的对称破缺模型，该模型提供了一条合理途径，使单基因组凝聚优先于相分离发生，表明相分离可作为关键纳米尺度相互作用的便捷宏观读出。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33782395/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33782395/",
+  "paper_page_path": "papers/pubmed/33782395/index.html"
+}

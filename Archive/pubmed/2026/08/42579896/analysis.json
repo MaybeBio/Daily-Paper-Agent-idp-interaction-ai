@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42579896",
+  "title": "Fused framework for predicting binding affinity to a-synuclein using three-dimensional molecular graphs and attention.",
+  "authors": "Wang, Xi; Shang, Wenhui; Ma, Fengze; Ma, Baoshan; Yang, Jialiang; Jia, Cangzhi",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2026-08-11",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了基于3D分子图与注意力机制的深度学习框架，预测小分子与α-突触核蛋白（无序蛋白）的结合亲和力，虽涉及IDP对象和AI方法，但聚焦小分子配体而非蛋白-蛋白互作，机制建模深度有限。",
+  "abstract": "The aberrant aggregation of alpha‑synuclein (alpha‑syn) is a pathological hallmark of synucleinopathies, driving the need for small‑molecule inhibitors that block its oligomerization and fibrillization. In computer‑aided drug discovery, accurate affinity prediction remains critical for early‑stage screening. However, current deep learning models predominantly rely on 1D sequences or 2D topological graphs, failing to exploit stereochemical and geometric cues from 3D space. Moreover, dedicated high‑precision predictors for intrinsically disordered targets such as alpha‑syn are scarce. To bridge this gap, we compiled a dataset of 9628 alpha‑syn‑binding compounds from ChEMBL and developed a deep learning framework that integrates Graph Attention Networks (GAT) with Graph Convolutional Networks (GCN). The core innovation lies in using 3D Euclidean interatomic distances as edge features to capture spatial interaction patterns within molecular conformations. We further incorporated an atomic attention layer and a composite loss function combining mean squared error (MSE) with Pearson correlation. The final model achieved an average MSE of 0.1751 and a Pearson correlation of 0.5703 over 10 independent runs, surpassing all baseline GNNs and a recently published alpha‑syn‑specific predictor. Bootstrap‑calibrated confidence intervals confirmed robustness against noise and conformational perturbations. Under a stringent cluster‑exclusion split, GAT‑GCN exhibited performance degradation comparable to other architectures while retaining the best overall metrics, demonstrating generalization to novel chemical scaffolds. This work provides an accurate, robust, and interpretable computational tool for alpha‑syn inhibitor screening, and offers methodological insights into 3D structure‑based molecular representation learning for drug discovery.",
+  "abstract_zh": "α-突触核蛋白（alpha-synuclein, alpha-syn）的异常聚集是突触核蛋白病（synucleinopathies）的病理标志，这推动了对能够阻断其寡聚化和纤维化的小分子抑制剂的需求。在计算机辅助药物发现中，准确的亲和力预测对于早期筛选至关重要。然而，当前的深度学习模型主要依赖一维序列或二维拓扑图，未能充分利用三维空间中的立体化学和几何线索。此外，针对alpha-syn这类固有无序靶标的高精度专用预测器十分稀缺。为弥补这一空白，我们从ChEMBL中整理了一个包含9628种alpha-syn结合化合物的数据集，并开发了一个整合图注意力网络（Graph Attention Networks, GAT）与图卷积网络（Graph Convolutional Networks, GCN）的深度学习框架。核心创新在于使用三维欧几里得原子间距离作为边特征，以捕捉分子构象内的空间相互作用模式。我们进一步引入了原子注意力层，以及结合均方误差（mean squared error, MSE）与皮尔逊相关系数的复合损失函数。最终模型在10次独立运行中实现了平均MSE为0.1751、皮尔逊相关系数为0.5703，超越了所有基线GNN及一个近期发表的alpha-syn专用预测器。Bootstrap校准的置信区间确认了模型对噪声和构象扰动的鲁棒性。在严格的簇排除划分下，GAT-GCN表现出与其他架构相当的性能下降，同时保持了最佳的整体指标，展示了对新型化学骨架的泛化能力。这项工作为alpha-syn抑制剂筛选提供了一个准确、鲁棒且可解释的计算工具，并为药物发现中基于三维结构的分子表示学习提供了方法论见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42579896/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42579896/",
+  "paper_page_path": "papers/pubmed/42579896/index.html"
+}

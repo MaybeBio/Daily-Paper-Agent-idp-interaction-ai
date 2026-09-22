@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.05.14.444182",
+  "title": "Conformational buffering underlies functional selection in intrinsically disordered protein regions",
+  "authors": "Nicolas S. Gonzalez-Foutel; Wade M. Borcherds; Juliana Glavina; Susana Barrera-Vilarmau; Amin Sagar; Alejandro Estaña; Amelie Barozet; Gregorio Fernandez-Ballester; Clara Blanes-Mira; Ignacio E Sánchez; Gonzalo de Prat-Gay; Juan Cortés; Pau Bernadó; Rohit V. Pappu; Alex S. Holehouse; Gary W. Daughdrill; Lucía B. Chemes",
+  "journal": "bioRxiv",
+  "published_date": "2021-05-16",
+  "window": {
+    "start": "2021-05-10",
+    "end": "2021-05-16"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合结构生物物理与进化分析，揭示无序E1A蛋白通过构象缓冲机制维持linker空间维度以优化对Rb的皮摩尔级结合亲和力，直接阐释了无序蛋白介导PPI的机制建模，与课题高度契合。",
+  "abstract": "Many disordered proteins conserve essential functions in the face of extensive sequence variation. This makes it challenging to identify the forces responsible for functional selection. Viruses are robust model systems to investigate functional selection and they take advantage of protein disorder to acquire novel traits. Here, we combine structural and computational biophysics with evolutionary analysis to determine the molecular basis for functional selection in the intrinsically disordered adenovirus early gene 1A (E1A) protein. E1A competes with host factors to bind the retinoblastoma (Rb) protein, triggering early S-phase entry and disrupting normal cellular proliferation. We show that the ability to outcompete host factors depends on the picomolar binding affinity of E1A for Rb, which is driven by two binding motifs tethered by a hypervariable disordered linker. Binding affinity is determined by the spatial dimensions of the linker, which constrain the relative position of the two binding motifs. Despite substantial sequence variation across evolution, the linker dimensions are finely optimized through compensatory changes in amino acid sequence and sequence length, leading to conserved linker dimensions and maximal affinity. We refer to the mechanism that conserves spatial dimensions despite large-scale variations in sequence as conformational buffering. Conformational buffering explains how variable disordered proteins encode functions and could be a general mechanism for functional selection within disordered protein regions.",
+  "abstract_zh": "许多无序蛋白在面临广泛的序列变异时仍能保留其关键功能，这使得识别驱动功能选择的力变得具有挑战性。病毒是研究功能选择的稳健模型系统，它们利用蛋白质无序性来获得新特性。在此，我们结合结构生物学、计算生物物理学与进化分析，以确定 intrinsically disordered 腺病毒早期基因 1A (E1A) 蛋白中功能选择的分子基础。E1A 与宿主因子竞争结合视网膜母细胞瘤蛋白 (retinoblastoma, Rb)，触发早期 S 期进入并扰乱正常细胞增殖。我们表明，E1A 胜过宿主因子的能力取决于其对 Rb 的皮摩尔级结合亲和力，该亲和力由两个结合基序驱动，并通过一个高变无序连接区相连。结合亲和力由连接区的空间维度决定，这限制了两个结合基序的相对位置。尽管进化过程中存在大量序列变异，连接区维度通过氨基酸序列和序列长度的补偿性变化得到精细优化，导致连接区维度保守并实现最大亲和力。我们将这种在序列大规模变异下仍保守空间维度的机制称为构象缓冲 (conformational buffering)。构象缓冲解释了可变无序蛋白如何编码功能，并可能成为无序蛋白区域内功能选择的普遍机制。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.05.14.444182",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.05.14.444182",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.05.14.444182/index.html"
+}

@@ -1,0 +1,31 @@
+{
+  "source": "arxiv",
+  "source_id": "2508.01328v1",
+  "title": "Electrostatic Depletion Force in Complex Coacervates",
+  "doi": "",
+  "abstract": "The functionalities and applications of complex coacervates -- liquid condensates resulting from liquid-liquid phase separation of charged polymers -- are significantly influenced by the dispersion and aggregation states of guest macromolecules. Intriguingly, guest macromolecules exhibit a strong tendency to aggregate within coacervates even in the absence of apparent chemical incompatibility, indicating a universal aggregation mechanism at play in these environments. Using extensive MD simulations, we identify electrostatic depletion -- a strong force arising from electrostatic correlations within the host polyelectrolyte network that drives guest aggregations. Due to electrostatic depletion, neutral polymers, low-charge-density polyelectrolytes, and intrinsically disordered proteins (IDPs) exhibit effective attractions in coacervates, in stark contrast to their behavior in dilute solutions. Unlike traditional depletion effect that requires mismatched length scale and morphology, electrostatic depletion is relevant in fluid systems where solute and solvent are both polymers with comparable size. Our discovery bridges a critical knowledge gap in the molecular physics of densely charged, crowded liquids and holds significant implications for the design of synthetic protocells and advanced drug delivery systems.",
+  "authors": [
+    "Zongpei Wu",
+    "Shensheng Chen"
+  ],
+  "published_date": "2025-08-02T11:40:20Z",
+  "updated_date": "2025-08-02T11:40:20Z",
+  "journal": "",
+  "category": "cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2508.01328v1",
+  "pdf_url": "https://arxiv.org/pdf/2508.01328v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2508.01328v1",
+    "raw_categories": [
+      "cond-mat.soft"
+    ],
+    "journal_ref": ""
+  }
+}

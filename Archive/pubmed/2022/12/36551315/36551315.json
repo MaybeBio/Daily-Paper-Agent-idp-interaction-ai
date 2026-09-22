@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "36551315",
+    "doi": "10.3390/biom12121887",
+    "title": "Portability of a Small-Molecule Binding Site between Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are important in both normal and disease states. Small molecules can be targeted to disordered regions, but we currently have only a limited understanding of the nature of small-molecule binding sites in IDPs. Here, we show that a minimal small-molecule binding sequence of eight contiguous residues derived from the Myc protein can be ported into a different disordered protein and recapitulate small-molecule binding activity in the new context. We also find that the residue immediately flanking the binding site can have opposing effects on small-molecule binding in the different disordered protein contexts. The results demonstrate that small-molecule binding sites can act modularly and are portable between disordered protein contexts but that residues outside of the minimal binding site can modulate binding affinity.",
+    "keywords": [
+      "Myc",
+      "SLiM",
+      "drug targets",
+      "intrinsically disordered proteins",
+      "protein-protein interaction",
+      "small-molecule inhibitors"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Binding Sites",
+      "Biophysical Phenomena",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jaiprashad, Rajesh",
+        "De Silva, Sachith Roch",
+        "Fred Lucena, Lisette M",
+        "Meyer, Ella",
+        "Metallo, Steven J"
+      ],
+      "short_names": [
+        "Jaiprashad R",
+        "De Silva SR",
+        "Fred Lucena LM",
+        "Meyer E",
+        "Metallo SJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0250-0829",
+        "ORCID: 0000-0002-9055-8846"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Georgetown University, Washington, DC 20057, USA.",
+        "Department of Chemistry, Georgetown University, Washington, DC 20057, USA.",
+        "Department of Chemistry, Georgetown University, Washington, DC 20057, USA.",
+        "Department of Chemistry, Georgetown University, Washington, DC 20057, USA.",
+        "Department of Chemistry, Georgetown University, Washington, DC 20057, USA.",
+        "Institute for Soft Matter Synthesis and Metrology (ISMSM), Georgetown University, Washington, DC 20057, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jaiprashad, Rajesh",
+        "short_name": "Jaiprashad R",
+        "identifiers": [
+          "0000-0003-0250-0829"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Georgetown University, Washington, DC 20057, USA."
+        ]
+      },
+      {
+        "full_name": "De Silva, Sachith Roch",
+        "short_name": "De Silva SR",
+        "identifiers": [
+          "0000-0002-9055-8846"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Georgetown University, Washington, DC 20057, USA."
+        ]
+      },
+      {
+        "full_name": "Fred Lucena, Lisette M",
+        "short_name": "Fred Lucena LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Georgetown University, Washington, DC 20057, USA."
+        ]
+      },
+      {
+        "full_name": "Meyer, Ella",
+        "short_name": "Meyer E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Georgetown University, Washington, DC 20057, USA."
+        ]
+      },
+      {
+        "full_name": "Metallo, Steven J",
+        "short_name": "Metallo SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Georgetown University, Washington, DC 20057, USA.",
+          "Institute for Soft Matter Synthesis and Metrology (ISMSM), Georgetown University, Washington, DC 20057, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2022 Dec 16",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/24 06:00",
+    "fetched_at": "2026-09-20 17:54:17"
+  },
+  "links": {
+    "cites": [
+      "38532700",
+      "37371595"
+    ],
+    "refs": [
+      "35044719",
+      "34942444",
+      "34160558",
+      "33812316",
+      "33397405",
+      "33169001",
+      "32758356",
+      "32632317",
+      "32403216",
+      "31667555",
+      "31402220",
+      "31260268",
+      "31003202",
+      "30471704",
+      "30278223",
+      "29695509",
+      "28880537",
+      "28743590",
+      "28425697",
+      "28225081",
+      "27391701",
+      "26851275",
+      "25637562",
+      "25531225",
+      "24773235",
+      "22689782",
+      "22682242",
+      "22464321",
+      "22226835",
+      "22089251",
+      "21988835",
+      "21909575",
+      "21650183",
+      "21514144",
+      "20598937",
+      "20097220",
+      "19432426",
+      "19157855",
+      "19067583",
+      "19022175",
+      "19008886",
+      "18716624",
+      "18573080",
+      "18054235",
+      "17876039",
+      "16935303",
+      "16876893",
+      "16734424",
+      "16171389",
+      "15943979",
+      "15915565",
+      "15381064",
+      "13679853",
+      "12553908",
+      "12022860",
+      "11910019",
+      "11891322",
+      "11741584",
+      "9211884",
+      "9115440"
+    ],
+    "similar": [
+      "36551315",
+      "30471704",
+      "26387110",
+      "24098099",
+      "37626077",
+      "28381244",
+      "34197833",
+      "34626492",
+      "28425697",
+      "35974206",
+      "35883018",
+      "31756456",
+      "21541066",
+      "22988855",
+      "32487732",
+      "35605677",
+      "25611056",
+      "31488718",
+      "24871565",
+      "32621228",
+      "24317797",
+      "21686180",
+      "30471705",
+      "30240067",
+      "33310020",
+      "29655986",
+      "26126425",
+      "30979035",
+      "32426975",
+      "24329095",
+      "32020911",
+      "24532081",
+      "35507260",
+      "26923286",
+      "29382046",
+      "36217309",
+      "33054197",
+      "32859072",
+      "30715849",
+      "26742101",
+      "34390736",
+      "32253236",
+      "33087759",
+      "27004461",
+      "35139468",
+      "28365882",
+      "35053175",
+      "30058229",
+      "26931396",
+      "25533957",
+      "34101805",
+      "32097582",
+      "26195786",
+      "35034725",
+      "30184429",
+      "27297113",
+      "27082063",
+      "25345588",
+      "30366362",
+      "29306779",
+      "27844185",
+      "30937482",
+      "32933064",
+      "24604825",
+      "27111521",
+      "28002650",
+      "31874413",
+      "31397874",
+      "26387104",
+      "32654182",
+      "29990433",
+      "25375525",
+      "29982297",
+      "26807759",
+      "28111343",
+      "26851286",
+      "23170892",
+      "30527137",
+      "36416865",
+      "29928798",
+      "37672685",
+      "32613009"
+    ],
+    "review": [
+      "36551315",
+      "26387110",
+      "22988855",
+      "21686180",
+      "30471705",
+      "29655986",
+      "26126425",
+      "30979035",
+      "32020911",
+      "24532081",
+      "29382046",
+      "36217309",
+      "34390736",
+      "32253236",
+      "27004461",
+      "35139468",
+      "35053175",
+      "34101805",
+      "32097582",
+      "29306779",
+      "31874413",
+      "31397874",
+      "26387104",
+      "29982297",
+      "26807759",
+      "26851286",
+      "23170892",
+      "30527137"
+    ],
+    "pmc": [
+      "9775153"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom12121887",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36551315/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36551315",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FHL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

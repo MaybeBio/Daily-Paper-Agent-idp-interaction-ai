@@ -1,0 +1,264 @@
+{
+  "identity": {
+    "pmid": "40360271",
+    "doi": "10.1021/acs.jcim.5c00422",
+    "title": "TIDGN: A Transfer Learning Framework for Predicting Interactions of Intrinsically Disordered Proteins with High Conformational Dynamics."
+  },
+  "content": {
+    "abstract": "Interactions between intrinsically disordered proteins (IDPs) are crucial for biological processes, such as intracellular liquid-liquid phase separation (LLPS). Experiments (e.g., NMR) and simulations used to study IDP interactions encounter a variety of difficulties, highlighting the necessity to develop relevant machine learning methods. However, reliable machine learning methods face the challenge resulting from the scarcity of available training data. In this work, we propose a transfer learning-based invariant geometric dynamic graph model, named TIDGN, for predicting IDP interactions. The model consists of a pretraining task module and a downstream task module. The pretraining task module learns the dynamic structural encoding of IDP monomers, which is then used by the downstream task module for interaction site prediction. The IDP monomer structure data set and the IDP interaction event data set are constructed using all-atom molecular dynamics (MD) simulations. The transfer learning strategy effectively enhances the model's performance. Both homotypic interactions and heterotypic interactions between two IDPs are considered in this work. Interestingly, TIDGN performs well for the heterotypic interaction prediction. Additionally, the feature ablation analysis emphasizes the importance of invariant geometric graph features. Taken together, our work demonstrates that the integration of transfer learning and the invariant geometric graph network offers a promising approach for addressing data scarcity challenges of IDP interaction prediction.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "*Machine Learning",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiao, Jing",
+        "Hu, Guorong",
+        "Zhou, Xiaozhou",
+        "Zheng, Yuchuan",
+        "Li, Jingyuan"
+      ],
+      "short_names": [
+        "Xiao J",
+        "Hu G",
+        "Zhou X",
+        "Zheng Y",
+        "Li J"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-8239-2035",
+        "ORCID: 0009-0006-9572-052X",
+        "ORCID: 0000-0003-2926-1864"
+      ],
+      "affiliations": [
+        "School of Physics, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "School of Physics, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "School of Physics, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "School of Physics, Zhejiang University, Hangzhou 310058, P. R. China.",
+        "School of Physics, Zhejiang University, Hangzhou 310058, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiao, Jing",
+        "short_name": "Xiao J",
+        "identifiers": [
+          "0009-0003-8239-2035"
+        ],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Hu, Guorong",
+        "short_name": "Hu G",
+        "identifiers": [
+          "0009-0006-9572-052X"
+        ],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiaozhou",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yuchuan",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingyuan",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0003-2926-1864"
+        ],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 May 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/14 11:39",
+    "fetched_at": "2026-09-21 18:54:29"
+  },
+  "links": {
+    "cites": [
+      "42184109",
+      "42022447"
+    ],
+    "refs": [],
+    "similar": [
+      "40360271",
+      "39163306",
+      "39093570",
+      "40128232",
+      "38018910",
+      "30840442",
+      "34845619",
+      "33355572",
+      "34504009",
+      "39555603",
+      "39807013",
+      "29276882",
+      "39885825",
+      "30979035",
+      "28493424",
+      "27844185",
+      "35944496",
+      "38987470",
+      "33945530",
+      "38739602",
+      "30813315",
+      "39740355",
+      "38275091",
+      "37883249",
+      "25207671",
+      "30002402",
+      "39504303",
+      "32579908",
+      "34656328",
+      "31021441",
+      "40172236",
+      "30091924",
+      "34680048",
+      "35725761",
+      "39089542",
+      "29382046",
+      "32403216",
+      "37722056",
+      "37905972",
+      "36641212",
+      "31441158",
+      "34390736",
+      "31809054",
+      "33936509",
+      "33076213",
+      "33684117",
+      "31756104",
+      "33623120",
+      "37108059",
+      "39475380",
+      "33581430",
+      "24329095",
+      "35053175",
+      "38118365",
+      "37511544",
+      "32393642",
+      "37241789",
+      "34716273",
+      "36084124",
+      "34259536",
+      "24278008",
+      "38916177",
+      "34358545",
+      "35762718",
+      "30813629",
+      "40095314",
+      "36750251",
+      "39225535",
+      "30471688",
+      "28914483",
+      "25863585",
+      "28834051",
+      "30204435",
+      "30316104",
+      "36711093",
+      "32816485",
+      "39056166",
+      "32859072",
+      "26742101",
+      "28095698",
+      "28448138",
+      "38053335",
+      "29990433",
+      "26195786",
+      "35609776",
+      "32139510",
+      "39354680",
+      "28926706",
+      "23794453",
+      "30909517",
+      "38124369",
+      "36934808",
+      "26226419",
+      "37407505",
+      "38928405",
+      "36674958",
+      "26387102",
+      "37827403",
+      "30865832",
+      "37133846"
+    ],
+    "review": [
+      "40360271",
+      "39093570",
+      "30840442",
+      "33355572",
+      "39555603",
+      "30979035",
+      "39740355",
+      "31021441",
+      "34680048",
+      "29382046",
+      "32403216",
+      "31441158",
+      "34390736",
+      "35053175",
+      "38118365",
+      "37241789",
+      "34358545",
+      "30813629",
+      "36750251",
+      "25863585",
+      "30316104",
+      "23794453",
+      "30909517",
+      "38124369",
+      "26226419"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c00422",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present CoMemMoRFPred, a sequence-based predictor for membrane-binding molecular recognition features (MemMoRFs), built by combining outputs from three existing tools (flDPnn, DisoLipPred, MoRFCHiBi(Light)) and a smoothing operator. They claim accurate prediction performance and release a webserver.
+- **Visible evidence base** Abstract text only; no quantitative performance metrics, dataset details, or benchmark comparisons are provided
+- **Missing materials affecting confidence** Full manuscript, dataset description, performance evaluation details, statistical significance tests, webserver implementation details, and comparison with any baseline or alternative methods
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful bioinformatics tool addressing a genuine gap in MemMoRF prediction. The conceptual approach of combining complementary predictors is reasonable and aligns with prior work in the field. However, the abstract provides no quantitative evidence to support the central claim of accuracy, and the evaluation methodology is entirely opaque. The case for the method's utility is therefore not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered regions, membrane-protein interactions, and protein function prediction. Computational biologists developing or applying sequence-based predictors for functional annotation. Experimentalists investigating membrane-binding mechanisms of disordered regions may also find the webserver useful for hypothesis generation.
+- **Major strengths** The problem is well-motivated and addresses a clear gap in available computational tools. The strategy of combining existing state-of-the-art predictors is pragmatic and leverages prior validated methods. The provision of a webserver enhances accessibility and practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "combining results produced by these three methods generates accurate predictions of MemMoRFs" and that "use of a smoothing operator produces predictions that closely mimic the number and sizes of the native MemMoRF regions."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative performance metrics are reported. The abstract does not state sensitivity, specificity, precision, recall, F1-score, Matthews correlation coefficient, area under the ROC curve, or any other measure that would substantiate the accuracy claim. Similarly, the claim about the smoothing operator mimicking native MemMoRF properties is unsupported by any numerical comparison.
+  - **Why it matters** The central contribution of the paper is a prediction method, and its value depends entirely on demonstrated predictive performance. Without quantitative evidence, readers cannot assess whether the method is genuinely accurate, how it compares to alternatives, or whether the smoothing step improves or degrades predictions.
+  - **Resolution test** Provide performance metrics on a held-out test set, including comparison against individual component predictors and any existing MemMoRF-specific methods. Report confidence intervals or statistical significance tests for the smoothing operator's effect on region-level properties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that a dataset of experimentally annotated MemMoRFs was used for conceptualization, design, and evaluation.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The dataset is not described in terms of size, composition, source, annotation criteria, or how it was split into training and test sets. Without this information, the evaluation cannot be reproduced or independently verified.
+  - **Why it matters** Reproducibility is a core requirement for computational method papers. The absence of dataset details prevents other researchers from benchmarking the method on the same data or assessing potential biases in the evaluation.
+  - **Resolution test** Describe the dataset fully, including the number of MemMoRF and non-MemMoRF regions, protein sequence sources, annotation methods, and the exact train/test split used. Make the dataset publicly available or provide a clear accession mechanism.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative evaluation
+  - **Claim pointer** The abstract implies that CoMemMoRFPred is superior to existing tools by stating that no computational tools predict MemMoRFs and that the combination of three methods yields accurate predictions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No comparison is made against any baseline, including the individual component predictors or any generic disorder or MoRF predictors. The claim of novelty and utility would be strengthened by demonstrating that the combined method outperforms its components and any reasonable alternatives.
+  - **Why it matters** Without comparative analysis, readers cannot determine whether the combination adds value beyond simply using one of the existing tools. The field already has multiple disorder and MoRF predictors, and the incremental benefit of CoMemMoRFPred must be quantified.
+  - **Resolution test** Include a benchmark comparing CoMemMoRFPred against flDPnn, DisoLipPred, MoRFCHiBi(Light), and at least one generic MoRF predictor on the same test set, with appropriate statistical testing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not explain how the three predictors are combined. The term "combining results" is vague and could mean voting, averaging, logical operations, or a trained meta-model.
+  - **Required correction** Specify the combination rule explicitly, even briefly, in the abstract or state that full details are in the Methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Webserver availability
+  - **Evidence pointer** Abstract; URL provided
+  - **Issue** The webserver URL is given, but there is no statement about whether the underlying code or model is open source, which limits reproducibility for users who wish to run predictions locally.
+  - **Required correction** State whether the source code is available and under what license, or provide a link to a code repository.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Application claims
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims the tool "will aid future studies of MemMoRFs in the context of exploring their abundance, cellular functions, and roles in pathologic phenomena," but no example applications or case studies are provided to illustrate this utility.
+  - **Required correction** Add a brief example or reference to a case study demonstrating the tool's practical use, or temper the claim to be more modest.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative performance data and dataset details means the core claims of accuracy and utility cannot be evaluated. R1-M3, while not blocking, is important for establishing the method's added value.
+- **Assessment against Nature-style criteria** Originality: The focus on MemMoRFs is a specific niche, and the combination approach is not conceptually novel but addresses a real gap. Scientific importance: Moderate, as the tool could be useful for a subset of researchers studying membrane-binding disordered regions. Interdisciplinary readership: Limited, as the abstract is written for a specialized computational biology audience and does not frame the problem for a broader readership. Technical soundness: Not assessable from the abstract due to missing quantitative evidence. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific jargon without sufficient context for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible and potentially useful method, but the lack of quantitative performance data and dataset details prevents any assessment of the central claims. I would be supportive if the full manuscript provides rigorous evaluation with clear metrics, dataset description, and comparative benchmarks.
+
+## Risk / unsupported claims
+- The claim of "accurate predictions" is unsupported by any quantitative data in the abstract.
+- The claim that the smoothing operator "closely mimics" native MemMoRF region properties is unsupported by numerical comparison.
+- The implied novelty of being the first MemMoRF predictor is not verifiable from the abstract alone.
+- The statement that the tool "will aid future studies" is speculative and not demonstrated with examples.
+- The overall utility and performance of CoMemMoRFPred cannot be assessed without access to the full manuscript.

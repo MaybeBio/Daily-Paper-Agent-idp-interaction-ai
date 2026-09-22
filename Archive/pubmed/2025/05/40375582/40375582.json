@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "40375582",
+    "doi": "10.1002/prot.26842",
+    "title": "Phosphorylation Changes SARS-CoV-2 Nucleocapsid Protein's Structural Dynamics and Its Interaction With RNA."
+  },
+  "content": {
+    "abstract": "The SARS-CoV-2 nucleocapsid protein, or N-protein, is a structural protein that plays an important role in the SARS-CoV-2 life cycle. The N-protein takes part in the regulation of viral RNA replication and drives highly specific packaging of full-length genomic RNA prior to virion formation. One regulatory mechanism that is proposed to drive the switch between these two operating modes is the phosphorylation state of the N-protein. Here, we assess the dynamic behavior of non-phosphorylated and phosphorylated versions of the N-protein homodimer through atomistic molecular dynamics simulations. We show that the introduction of phosphorylation yields a more dynamic protein structure and decreases the binding affinity between the N-protein and RNA. Furthermore, we find that secondary structure is essential for the preferential binding of particular RNA elements from the 5' UTR of the viral genome to the N-terminal domain of the N-protein. Altogether, we provide detailed molecular insights into N-protein dynamics, N-protein:RNA interactions, and phosphorylation. Our results corroborate the hypothesis that phosphorylation of the N-protein serves as a regulatory mechanism that determines N-protein function.",
+    "keywords": [
+      "SARS-CoV-2",
+      "intrinsically disordered proteins",
+      "molecular dynamics",
+      "nucleocapsid protein",
+      "phosphorylation",
+      "protein-nucleic acid interactions"
+    ],
+    "mesh_terms": [
+      "Phosphorylation",
+      "*SARS-CoV-2/metabolism/chemistry/genetics",
+      "*RNA, Viral/metabolism/chemistry/genetics",
+      "*Coronavirus Nucleocapsid Proteins/chemistry/metabolism/genetics",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Humans",
+      "*Phosphoproteins/chemistry/metabolism",
+      "COVID-19/virology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Loonen, Stefan",
+        "van Steenis, Lina",
+        "Bauer, Marianne",
+        "Sostaric, Nikolina"
+      ],
+      "short_names": [
+        "Loonen S",
+        "van Steenis L",
+        "Bauer M",
+        "Sostaric N"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-2745-4624",
+        "ORCID: 0009-0000-6362-5962",
+        "ORCID: 0000-0002-1191-986X",
+        "ORCID: 0000-0002-1470-7846"
+      ],
+      "affiliations": [
+        "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, HZ, the Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, HZ, the Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, HZ, the Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, HZ, the Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Loonen, Stefan",
+        "short_name": "Loonen S",
+        "identifiers": [
+          "0009-0004-2745-4624"
+        ],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, HZ, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "van Steenis, Lina",
+        "short_name": "van Steenis L",
+        "identifiers": [
+          "0009-0000-6362-5962"
+        ],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, HZ, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Bauer, Marianne",
+        "short_name": "Bauer M",
+        "identifiers": [
+          "0000-0002-1191-986X"
+        ],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, HZ, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Šoštarić, Nikolina",
+        "short_name": "Šoštarić N",
+        "identifiers": [
+          "0000-0002-1470-7846"
+        ],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience Delft, Delft University of Technology, Delft, HZ, the Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/16 11:45",
+    "fetched_at": "2026-09-21 18:54:29"
+  },
+  "links": {
+    "cites": [
+      "42141450",
+      "41903808",
+      "41743132",
+      "41337097"
+    ],
+    "refs": [
+      "39343000",
+      "39093972",
+      "38587193",
+      "38467657",
+      "38416838",
+      "38226394",
+      "37932412",
+      "37863261",
+      "37805934",
+      "37607209",
+      "37487098",
+      "37426330",
+      "37286558",
+      "37100798",
+      "36806252",
+      "36533523",
+      "36317101",
+      "36298645",
+      "36282911",
+      "36202211",
+      "35896532",
+      "35436499",
+      "35131265",
+      "35108264",
+      "35077748",
+      "35044811",
+      "34995113",
+      "34933176",
+      "34735219",
+      "34634033",
+      "34611326",
+      "34418423",
+      "34371045",
+      "34315827",
+      "34265844",
+      "34214535",
+      "34022485",
+      "33997662",
+      "33837182",
+      "33782395",
+      "33623120",
+      "33479198",
+      "33355572",
+      "33290746",
+      "33264373",
+      "33248025",
+      "33247108",
+      "33208793",
+      "33116300",
+      "33039147",
+      "33005304",
+      "32979942",
+      "32965173",
+      "32901111",
+      "32654247",
+      "32645325",
+      "32632317",
+      "32511245",
+      "32416961",
+      "31714766",
+      "31505321",
+      "31450739",
+      "31324771",
+      "30181345",
+      "29961577",
+      "29744830",
+      "29717007",
+      "29590584",
+      "29253863",
+      "28836357",
+      "28808438",
+      "28003858",
+      "27787702",
+      "27668217",
+      "26620784",
+      "26605738",
+      "26575776",
+      "26410586",
+      "25431162",
+      "25400877",
+      "25299332",
+      "25145273",
+      "23407358",
+      "23071898",
+      "22339051",
+      "21921995",
+      "19997129",
+      "19782089",
+      "19106108",
+      "18631359",
+      "16211538",
+      "15215472",
+      "12580598",
+      "8744570"
+    ],
+    "similar": [
+      "40375582",
+      "41264349",
+      "40858555",
+      "38718862",
+      "33248025",
+      "33479198",
+      "39412257",
+      "41600868",
+      "39341499",
+      "33782395",
+      "39343000",
+      "38941236",
+      "38587193",
+      "35551296",
+      "39380503",
+      "37526269",
+      "40490992",
+      "41837652",
+      "40664703",
+      "39766245",
+      "38153183",
+      "33200826",
+      "39653699",
+      "40945576",
+      "42141450",
+      "40113149",
+      "33477032",
+      "39093972",
+      "33095454",
+      "40077853",
+      "41903808",
+      "40621910",
+      "39489230",
+      "40602456",
+      "39360627",
+      "33290746",
+      "39201466",
+      "36040256",
+      "40820302",
+      "33556408",
+      "33039147",
+      "34634033",
+      "34029587",
+      "33270159",
+      "36533523",
+      "36708355",
+      "39082816",
+      "40830575",
+      "39638802",
+      "40097964",
+      "37863261",
+      "36748338",
+      "39343003",
+      "41305077",
+      "33247108",
+      "41596323",
+      "39708056",
+      "34517025",
+      "38925369",
+      "40318379",
+      "41651417",
+      "32562316",
+      "38885868",
+      "40503915",
+      "32749662",
+      "33264373",
+      "39567830",
+      "33794152",
+      "40503686",
+      "37704176",
+      "40751130",
+      "24501403",
+      "33894414",
+      "31594639",
+      "39912211",
+      "33314794",
+      "38018991",
+      "33990585",
+      "33460172",
+      "39194248",
+      "32587094",
+      "36202211",
+      "41989307",
+      "35871289",
+      "34519429",
+      "35105893",
+      "37286558",
+      "32829876",
+      "16254320",
+      "39506849",
+      "33664866",
+      "17002283",
+      "34823028",
+      "39675446",
+      "39571001",
+      "41920932",
+      "42198699",
+      "32654247",
+      "34039006",
+      "40718679"
+    ],
+    "review": [
+      "40375582",
+      "39343000",
+      "40077853",
+      "33460172"
+    ],
+    "pmc": [
+      "12433262"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40375582/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.26842",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

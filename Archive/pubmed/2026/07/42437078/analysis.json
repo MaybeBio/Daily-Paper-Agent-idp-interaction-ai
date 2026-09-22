@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42437078",
+  "title": "Beyond the structure-function paradigm: A comprehensive review of intrinsically disordered proteins.",
+  "authors": "Harake, Sami N Al; Btadini, Said; Qadri, Abrar H; Harb, Frederic; Faheem, Iqball",
+  "journal": "Biochemistry and biophysics reports",
+  "published_date": "2026-07-12",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 6,
+  "one_liner_zh": "这是一篇关于无序蛋白(IDP/IDR)的综合性综述，涵盖其在染色质调控、疾病和相分离中的作用，并评述了AI辅助预测与混合实验-计算ensemble表征方法，但缺乏对具体PPI互作机制的建模研究。",
+  "abstract": "Intrinsically disordered proteins (IDPs) and regions (IDRs) challenge the classical structure-function paradigm by fulfilling essential biological roles in the absence of a stable three-dimensional fold. Rather than occupying fixed conformations, IDPs exist as dynamic ensembles that enable high-specificity, low-affinity interactions, multivalent regulatory functions, and context-dependent binding across diverse cellular environments. This conformational plasticity underlies their central roles in signaling, transcriptional regulation, chromatin organization, and the assembly of membrane-less organelles through liquid-liquid phase separation (LLPS). The present review offers several conceptual contributions. First, we develop a cross-kingdom synthesis of disorder-based chromatin regulation, demonstrating that bacterial nucleoid-associated proteins, plant transcription factors, and mammalian chromatin regulators share a conserved charge-regulatory logic, mediated by PTM-dependent mechanisms that dynamically couple environmental signals with genome organization. Second, we integrate mechanistically related but frequently siloed disease pathways, including mitophagy dysfunction, oxidative stress signaling, neuroinflammation, and aberrant phase separation, into a unified framework linking IDP conformational dysregulation to neurodegeneration and cancer. Third, we highlight underexplored regulatory dimensions of IDP biology, including proline isomerization and ubiquitylation-driven condensate formation, that influence conformational ensembles and signaling outputs in ways not captured by conventional structural approaches. Finally, we critically evaluate recent advances in AI-assisted disorder prediction and hybrid experimental-computational ensemble characterization, emphasizing both their transformative potential and current limitations. Dysregulation of IDPs underlies a broad spectrum of human pathologies, and we discuss the emerging opportunities and persistent challenges in targeting these conformationally dynamic proteins therapeutically, including through PROTAC-based degraders, condensate modulators, and ensemble-based drug screening strategies.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 和 intrinsically disordered regions (IDRs) 通过在没有稳定三维折叠的情况下发挥必要的生物学功能，挑战了经典的结构-功能范式。IDPs 并非占据固定构象，而是以动态集合体的形式存在，这使得它们能够实现高特异性、低亲和力的相互作用，多价调控功能，以及在不同细胞环境中的情境依赖性结合。这种构象可塑性是它们在信号传导、转录调控、染色质组织以及通过液-液相分离 (liquid-liquid phase separation, LLPS) 组装无膜细胞器中的核心作用的基础。本综述提供了若干概念性贡献。首先，我们发展了一种跨物种的基于无序的染色质调控综合观点，证明细菌核仁相关蛋白、植物转录因子和哺乳动物染色质调控因子共享一种保守的电荷调控逻辑，该逻辑由依赖于翻译后修饰 (PTM) 的机制介导，动态地将环境信号与基因组组织耦合。其次，我们将机制相关但常常被孤立研究的疾病通路，包括线粒体自噬功能障碍、氧化应激信号传导、神经炎症和异常相分离，整合到一个统一框架中，将 IDP 构象失调与神经退行性疾病和癌症联系起来。第三，我们强调了 IDP 生物学中未被充分探索的调控维度，包括脯氨酸异构化和泛素化驱动的凝聚体形成，这些维度以传统结构方法无法捕捉的方式影响构象集合体和信号输出。最后，我们批判性地评估了人工智能辅助的无序预测和混合实验-计算集合表征的最新进展，强调其变革潜力及当前局限性。IDPs 的失调是多种人类病理的基础，我们讨论了靶向这些构象动态蛋白的治疗机会和持续挑战，包括基于 PROTAC 的降解剂、凝聚体调节剂和基于集合体的药物筛选策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42437078/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42437078/",
+  "paper_page_path": "papers/pubmed/42437078/index.html"
+}

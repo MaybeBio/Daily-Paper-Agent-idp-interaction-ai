@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full manuscript, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors describe a deep learning-based method, iNNterfaceDesign, for one-sided design of protein-protein interaction motifs. The method predicts positioning and secondary structure of new binding motifs, designs backbone atoms, and performs amino acid sequence design. The authors claim the method recapitulates native interactions, including antibody-antigen complexes, produces diverse alternative solutions at the same binding sites, highlights preferential binding sites, and is generally applicable. They further claim this is the first deep learning model for one-sided design of protein-protein interactions.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark comparisons, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, training data descriptions, model architecture details, evaluation metrics, and any validation datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of deep learning to a challenging problem in protein design. However, the claims are broad and largely unsupported by the evidence visible in the abstract. No quantitative performance metrics, comparisons to existing methods, or validation details are provided. The novelty claim, while plausible, cannot be assessed without a thorough literature comparison. The abstract reads more as a programmatic statement than a report of validated results. The scientific case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational protein designers, structural biologists, and researchers in machine learning applied to biology would be interested if the method performs as claimed. The potential to design binding motifs without prior structural input could have applications in therapeutic antibody engineering, synthetic biology, and protein interaction network manipulation. However, interest will depend on demonstrated performance and generalizability, which are not visible in the abstract.
+- **Major strengths** The problem addressed is of high importance. The conceptual inspiration from image captioning is creative. The claim of training on natural co-crystal structures is a reasonable strategy. The stated ability to highlight preferential binding sites could be a useful feature if validated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The method "is capable of recapitulating native interactions, including antibody-antigen interactions" and "produce more diverse solutions to binding at the same sites"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative results are presented. There is no indication of success rates, binding affinity measurements, structural accuracy metrics, or any comparison to existing design methods. The claim of recapitulating native interactions is stated without supporting data.
+  - **Why it matters** Without quantitative validation, the core functional claims cannot be evaluated. The reader cannot determine whether the method works reliably, under what conditions, or how it compares to established approaches.
+  - **Resolution test** Provide success rates for recapitulating native interactions, structural accuracy metrics such as RMSD or TM-score, and binding validation data. Include comparisons to existing design methods on the same benchmark targets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty substantiation
+  - **Claim pointer** "This is the first deep learning model for one-sided design of protein-protein interactions"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The novelty claim is made without any literature comparison. Prior work in deep learning for protein design, including interface design, is not referenced or discussed. The claim of being "first" requires a systematic review of existing methods.
+  - **Why it matters** Novelty is a central criterion for significance. An unsupported "first" claim undermines the scientific credibility of the work and cannot be verified from the abstract.
+  - **Resolution test** Provide a literature review in the full manuscript that systematically compares to prior deep learning methods for protein interface design and clearly states the distinguishing features.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability claim
+  - **Claim pointer** "Our method is generally applicable"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of general applicability is made without specifying the range of test cases, the diversity of protein complexes used for training, or the failure modes. No information is given on how the method performs on different types of interfaces, such as transient versus permanent complexes, or on non-antibody scaffolds.
+  - **Why it matters** General applicability is a strong claim that requires demonstration across a broad and representative set of targets. Without this, the claim is speculative.
+  - **Resolution test** Describe the training set composition and test the method on a diverse set of protein complexes with different interface geometries, sizes, and functions. Report performance stratified by complex type.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "predicts the positioning and the secondary structure for the new binding motifs" is vague. It is unclear what "positioning" means in this context, whether it refers to residue-level coordinates, secondary structure element placement, or something else.
+  - **Required correction** Clarify the exact outputs of the prediction step and how they are used in subsequent backbone and sequence design.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Model name
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The name "iNNterfaceDesign" is introduced without explanation of the acronym or its components. This may hinder readability for nonspecialists.
+  - **Required correction** Define the name or provide a brief explanation of its derivation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Background statement
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The statement "After DeepMind entered the protein folding field, we have seen rapid advances in protein structure predictions" is a general observation that does not directly connect to the method presented. It may be more appropriate to cite specific advances and explain how they inform the current approach.
+  - **Required correction** Replace the general statement with a focused description of relevant prior work and its direct influence on the design of iNNterfaceDesign.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative validation, lack of novelty substantiation, and unsupported generalizability claim collectively prevent the case from being established.
+- **Assessment against Nature-style criteria** Originality: The conceptual approach is potentially original, but the "first" claim is unverified. Scientific importance: The problem is important, but importance of the specific contribution is not demonstrated. Interdisciplinary readership: The abstract is accessible to a broad audience, but the lack of technical detail limits its utility for specialists. Technical soundness: Cannot be assessed from the abstract. Readability for nonspecialists: The abstract is readable but contains vague terminology that could be clarified.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient support for the central claims. A full manuscript with quantitative results, literature comparison, and validation across diverse targets would be required to assess the work properly.
+
+## Risk / unsupported claims
+- The claim of recapitulating native interactions, including antibody-antigen interactions, is unsupported by any quantitative data.
+- The claim of producing more diverse solutions at the same binding sites is unsupported.
+- The claim of highlighting preferential binding sites is unsupported.
+- The claim of general applicability is unsupported.
+- The claim of being the first deep learning model for one-sided design of protein-protein interactions is unverifiable from the abstract.

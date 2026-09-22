@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "41493236",
+    "doi": "10.1111/pbi.70529",
+    "title": "Tomato Spotted Wilt Virus Reprogrammes Host Glycolysis to Facilitate Proliferation by a Phase-Separated Co-Aggregate of Nucleocapsid Protein and Phosphoglycerate Kinase."
+  },
+  "content": {
+    "abstract": "Efficient viral proliferation within the host is a critical step in pathogenicity and requires adenosine triphosphate (ATP). The replication, movement and immune evasion of many plant viruses within their hosts are associated with phase separation (PS)-derived aggregates formed by viral components. However, the host factors that drive the formation of these condensates remain largely unknown. This study provides evidence that the nucleocapsid protein (N) of tomato spotted wilt virus (TSWV) recruits the host factor phosphoglycerate kinase (NbPGK) from Nicotiana benthamiana to form phase-separated condensates. This remodels the host glycolytic pathway to generate ATP, supplying energy for viral replication via ribonucleoprotein complexes and acting as a promoter to regulate the PS network, thereby facilitating condensate formation. Notably, we have developed a small-molecule PS modulator, F10. By combining drug affinity-responsive target stability, molecular docking, microscale thermophoresis and bio-layer interferometry techniques allowed F10, we confirmed binding to sites Arg94, Lys192 and Gly228 on TSWV N, residues critical for maintaining NbPGK recruitment. F10 interacts with N, liberating the hijacked host factor NbPGK, and exhibits potent antiviral activity, outperforming the commercial virucide Ningnanmycin. This study elucidates the molecular machinery underlying viral exploitation of host cellular metabolism and identifies a lead compound that is amenable to managing TSWV by targeting this process.",
+    "keywords": [
+      "ATP",
+      "aggregate",
+      "glycolysis",
+      "nucleocapsid protein",
+      "tomato spotted wilt virus"
+    ],
+    "mesh_terms": [
+      "*Tospovirus/physiology/metabolism/pathogenicity",
+      "*Nicotiana/virology/metabolism",
+      "*Glycolysis",
+      "*Phosphoglycerate Kinase/metabolism",
+      "*Nucleocapsid Proteins/metabolism",
+      "Virus Replication",
+      "Plant Diseases/virology",
+      "Host-Pathogen Interactions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zu, Guangcheng",
+        "Xing, Zhifu",
+        "Li, Jiao",
+        "Yang, Tangbing",
+        "Wu, Huan",
+        "Ge, Qiangsheng",
+        "Wang, Yanju",
+        "Song, Baoan",
+        "Song, Runjiang"
+      ],
+      "short_names": [
+        "Zu G",
+        "Xing Z",
+        "Li J",
+        "Yang T",
+        "Wu H",
+        "Ge Q",
+        "Wang Y",
+        "Song B",
+        "Song R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2502-778X"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China.",
+        "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China.",
+        "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China.",
+        "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China.",
+        "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China.",
+        "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China.",
+        "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China.",
+        "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China.",
+        "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zu, Guangcheng",
+        "short_name": "Zu G",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Xing, Zhifu",
+        "short_name": "Xing Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiao",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Tangbing",
+        "short_name": "Yang T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Huan",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Qiangsheng",
+        "short_name": "Ge Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanju",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Song, Baoan",
+        "short_name": "Song B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China."
+        ]
+      },
+      {
+        "full_name": "Song, Runjiang",
+        "short_name": "Song R",
+        "identifiers": [
+          "0000-0003-2502-778X"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Plant Biotechnol J"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/06 19:17",
+    "fetched_at": "2026-09-17 23:38:06"
+  },
+  "links": {
+    "cites": [
+      "41992081"
+    ],
+    "refs": [
+      "40379517",
+      "40093974",
+      "40016246",
+      "39350560",
+      "38615015",
+      "38503281",
+      "38174879",
+      "37924266",
+      "37772172",
+      "37735186",
+      "37673952",
+      "36642156",
+      "36608272",
+      "36569097",
+      "36103543",
+      "36040869",
+      "36016945",
+      "35902318",
+      "34962031",
+      "34807587",
+      "34691741",
+      "34634033",
+      "34320034",
+      "34112944",
+      "34036713",
+      "33941515",
+      "33803131",
+      "33770364",
+      "33200826",
+      "32633413",
+      "32559580",
+      "32514159",
+      "32441865",
+      "32270045",
+      "32068977",
+      "32025038",
+      "31879355",
+      "31333664",
+      "30893008",
+      "30801742",
+      "30395872",
+      "30205960",
+      "30181255",
+      "30169907",
+      "29467007",
+      "29107644",
+      "29059239",
+      "28904194",
+      "28861068",
+      "28522535",
+      "27578436",
+      "27077230",
+      "25540203",
+      "25505078",
+      "25071804",
+      "24032608",
+      "23891850",
+      "22017770",
+      "21576701",
+      "19783452",
+      "15643950",
+      "9705250",
+      "3900672"
+    ],
+    "similar": [
+      "41493236",
+      "41734846",
+      "39740810",
+      "34834996",
+      "41818145",
+      "40016246",
+      "39456688",
+      "30453630",
+      "28904194",
+      "31879355",
+      "25540203",
+      "18722487",
+      "24143182",
+      "31413126",
+      "41744087",
+      "25666522",
+      "39436195",
+      "39350560",
+      "9705250",
+      "41105392",
+      "40573417",
+      "24032608",
+      "42145089",
+      "26786326",
+      "28768868",
+      "22020361",
+      "28545854",
+      "29538326",
+      "33800072",
+      "18973913",
+      "24025049",
+      "40938765",
+      "34037422",
+      "31648290",
+      "34896121",
+      "10688879",
+      "39146928",
+      "34913556",
+      "29059239",
+      "34623814",
+      "27697453",
+      "23722858",
+      "24720811",
+      "41979901",
+      "38717918",
+      "40512796",
+      "39208401",
+      "36371493",
+      "39969167",
+      "41201964",
+      "37052574",
+      "9178497",
+      "40554657",
+      "34516131",
+      "26432447",
+      "41264774",
+      "25151062",
+      "28946693",
+      "39881192",
+      "40573381",
+      "26721573",
+      "16112159",
+      "42283464",
+      "39671034",
+      "29107644",
+      "26080477",
+      "41056130",
+      "28978935",
+      "36113709",
+      "24690181",
+      "27271212",
+      "28081705",
+      "15737412",
+      "37761928",
+      "34161398",
+      "28549856",
+      "40622855",
+      "33401462",
+      "40828816",
+      "34757838",
+      "26863622",
+      "42230699",
+      "41880129",
+      "28754561",
+      "42126233",
+      "30780619",
+      "34287043",
+      "38515267",
+      "27600541",
+      "40422074",
+      "12682295",
+      "17506332",
+      "33921345",
+      "23077485",
+      "30808959",
+      "23850843",
+      "27656190",
+      "25410857",
+      "15542672",
+      "34096619"
+    ],
+    "review": [
+      "41493236",
+      "28549856"
+    ],
+    "pmc": [
+      "13110190"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41493236/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/pbi.70529",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2649",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

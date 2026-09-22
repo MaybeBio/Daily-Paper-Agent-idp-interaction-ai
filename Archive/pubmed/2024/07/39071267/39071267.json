@@ -1,0 +1,574 @@
+{
+  "identity": {
+    "pmid": "39071267",
+    "doi": "10.1101/2024.07.16.603789",
+    "title": "Diffusing protein binders to intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "Proteins which bind intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs) with high affinity and specificity could have considerable utility for therapeutic and diagnostic applications. However, a general methodology for targeting IDPs/IDRs has yet to be developed. Here, we show that starting only from the target sequence of the input, and freely sampling both target and binding protein conformation, RFdiffusion can generate binders to IDPs and IDRs in a wide range of conformations. We use this approach to generate binders to the IDPs Amylin, C-peptide and VP48 in a range of conformations with Kds in the 3 -100nM range. The Amylin binder inhibits amyloid fibril formation and dissociates existing fibers, and enables enrichment of amylin for mass spectrometry-based detection. For the IDRs G3bp1, common gamma chain (IL2RG) and prion, we diffused binders to beta strand conformations of the targets, obtaining 10 to 100 nM affinity. The IL2RG binder colocalizes with the receptor in cells, enabling new approaches to modulating IL2 signaling. Our approach should be widely useful for creating binders to flexible IDPs/IDRs spanning a wide range of intrinsic conformational preferences.",
+    "keywords": [
+      "Amyloid fibril dissociation",
+      "Intrinsically disordered protein",
+      "RFdiffusion",
+      "Rosetta",
+      "deep learning",
+      "diagnostics",
+      "intrinsically disordered region",
+      "protein design"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Caixuan",
+        "Wu, Kejia",
+        "Choi, Hojun",
+        "Han, Hannah",
+        "Zhang, Xulie",
+        "Watson, Joseph L",
+        "Shijo, Sara",
+        "Bera, Asim K",
+        "Kang, Alex",
+        "Brackenbrough, Evans",
+        "Coventry, Brian",
+        "Hick, Derrick R",
+        "Hoofnagle, Andrew N",
+        "Zhu, Ping",
+        "Li, Xingting",
+        "Decarreau, Justin",
+        "Gerben, Stacey R",
+        "Yang, Wei",
+        "Wang, Xinru",
+        "Lamp, Mila",
+        "Murray, Analisa",
+        "Bauer, Magnus",
+        "Baker, David"
+      ],
+      "short_names": [
+        "Liu C",
+        "Wu K",
+        "Choi H",
+        "Han H",
+        "Zhang X",
+        "Watson JL",
+        "Shijo S",
+        "Bera AK",
+        "Kang A",
+        "Brackenbrough E",
+        "Coventry B",
+        "Hick DR",
+        "Hoofnagle AN",
+        "Zhu P",
+        "Li X",
+        "Decarreau J",
+        "Gerben SR",
+        "Yang W",
+        "Wang X",
+        "Lamp M",
+        "Murray A",
+        "Bauer M",
+        "Baker D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1954-0731"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Biological Physics, Structure and Design Graduate Program, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences Beijing, 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA, 98105, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA, 98105, USA.",
+        "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences Beijing, 100101, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+        "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Caixuan",
+        "short_name": "Liu C",
+        "identifiers": [
+          "0000-0002-1954-0731"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Kejia",
+        "short_name": "Wu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+          "Biological Physics, Structure and Design Graduate Program, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Choi, Hojun",
+        "short_name": "Choi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Han, Hannah",
+        "short_name": "Han H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xulie",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences Beijing, 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Watson, Joseph L",
+        "short_name": "Watson JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Shijo, Sara",
+        "short_name": "Shijo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA, 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Bera, Asim K",
+        "short_name": "Bera AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Kang, Alex",
+        "short_name": "Kang A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Brackenbrough, Evans",
+        "short_name": "Brackenbrough E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Coventry, Brian",
+        "short_name": "Coventry B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Hick, Derrick R",
+        "short_name": "Hick DR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Hoofnagle, Andrew N",
+        "short_name": "Hoofnagle AN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA, 98105, USA."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ping",
+        "short_name": "Zhu P",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Epigenetic Regulation and Intervention, Institute of Biophysics, Chinese Academy of Sciences Beijing, 100101, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xingting",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Decarreau, Justin",
+        "short_name": "Decarreau J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Gerben, Stacey R",
+        "short_name": "Gerben SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Wei",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Xinru",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Lamp, Mila",
+        "short_name": "Lamp M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Murray, Analisa",
+        "short_name": "Murray A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Bauer, Magnus",
+        "short_name": "Bauer M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Baker, David",
+        "short_name": "Baker D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jul 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/29 11:43",
+    "fetched_at": "2026-09-21 09:09:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38503834",
+      "38109936",
+      "37433327",
+      "37149653",
+      "37020023",
+      "36641115",
+      "36388059",
+      "36108050",
+      "35739160",
+      "35093145",
+      "34265844",
+      "33879614",
+      "33483468",
+      "32719844",
+      "32302571",
+      "32077246",
+      "31942072",
+      "31425549",
+      "30995502",
+      "29713012",
+      "29514050",
+      "29067766",
+      "27838525",
+      "25993940",
+      "25652980",
+      "25638009",
+      "23979020",
+      "21486192",
+      "21460441",
+      "20526991",
+      "20124702",
+      "20124693",
+      "19461840",
+      "19244249",
+      "18801935",
+      "18435556",
+      "18233951",
+      "17368479",
+      "15943980",
+      "15738986",
+      "15572765",
+      "15292279",
+      "11381529",
+      "9149153",
+      "6815801",
+      "6801762",
+      "6432339",
+      "2690069"
+    ],
+    "similar": [
+      "39071267",
+      "40739343",
+      "31441158",
+      "39433443",
+      "35034725",
+      "29763584",
+      "36833360",
+      "24532081",
+      "20522251",
+      "34390736",
+      "40029731",
+      "24317797",
+      "31756456",
+      "35139468",
+      "33791275",
+      "38275091",
+      "36133101",
+      "37634152",
+      "21647374",
+      "35436286",
+      "35898309",
+      "35275927",
+      "38987470",
+      "32696391",
+      "34626492",
+      "35882686",
+      "33194509",
+      "38220424",
+      "36674958",
+      "31709918",
+      "19594884",
+      "40317235",
+      "33810353",
+      "23142703",
+      "33567297",
+      "39071356",
+      "35744058",
+      "30471705",
+      "35454181",
+      "39740709",
+      "32100577",
+      "33719450",
+      "34527192",
+      "24008243",
+      "29626537",
+      "32824743",
+      "36305763",
+      "32696395",
+      "39665260",
+      "39253485",
+      "38296708",
+      "38297118",
+      "31425549",
+      "33036302",
+      "38166858",
+      "40149012",
+      "38712287",
+      "30878482",
+      "28111343",
+      "33122085",
+      "33951592",
+      "34656327",
+      "24871565",
+      "32503351",
+      "35196007",
+      "37108059",
+      "37657994",
+      "37219402",
+      "30875980",
+      "34285781",
+      "23153654",
+      "38097100",
+      "38505224",
+      "40674483",
+      "24098099",
+      "39093570",
+      "27787828",
+      "25919886",
+      "21686180",
+      "33087759",
+      "34545666",
+      "36551304",
+      "40325419",
+      "32703978",
+      "31521230",
+      "37883249",
+      "36055623",
+      "36310204",
+      "33267376",
+      "33076213",
+      "26661739",
+      "32112084",
+      "37904768",
+      "34197833",
+      "40133775",
+      "38942776",
+      "25502193",
+      "34922214",
+      "38297184",
+      "32859072"
+    ],
+    "review": [
+      "39071267",
+      "31441158",
+      "36833360",
+      "24532081",
+      "34390736",
+      "35139468",
+      "33791275",
+      "36133101",
+      "35882686",
+      "33194509",
+      "38220424",
+      "31709918",
+      "33567297",
+      "30471705",
+      "39740709",
+      "32100577",
+      "24008243",
+      "38296708",
+      "33951592",
+      "37657994",
+      "37219402",
+      "30875980",
+      "34285781",
+      "38097100",
+      "38505224",
+      "39093570",
+      "21686180",
+      "34545666",
+      "36551304",
+      "40325419",
+      "31521230",
+      "25502193"
+    ],
+    "pmc": [
+      "11275890"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39071267/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-374",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.07.16.603789",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

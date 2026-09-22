@@ -1,0 +1,414 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.31.596781",
+  "title": "Effective Inclusion of Electronic Polarization Improves the Description of Electrostatic Interactions: The prosECCo75 Biomolecular Force Field",
+  "doi": "10.1101/2024.05.31.596781",
+  "abstract": "prosECCo75 is an optimized force field effectively incorporating electronic polarization via charge scaling. It aims to enhance the accuracy of nominally nonpolarizable molecular dynamics (MD) simulations for interactions in biologically relevant systems involving water, ions, proteins, lipids, and saccharides. Recognizing the inherent limitations of nonpolarizable force fields in precisely modeling electrostatic interactions essential for various biological processes, we mitigate these shortcomings by accounting for electronic polarizability in a physical rigorous mean-field way that does not add to computational costs. With this scaling of (both integer and partial) charges within the CHARMM36 framework, prosECCo75 addresses overbinding artifacts. This improves agreement with experimental ion binding data across a broad spectrum of systems - lipid membranes, proteins (including peptides and amino acids), and saccharides - without compromising their biomolecular structures. prosECCo75 thus emerges as a computationally efficient tool providing enhanced accuracy and broader applicability in simulating the complex interplay of interactions between ions and biomolecules, pivotal for improving our understanding of many biological processes.",
+  "authors": [
+    "Nencini R",
+    "Tempra C",
+    "Biriukov D",
+    "Riopedre-Fernandez M",
+    "Cruces Chamorro V",
+    "Polak J",
+    "Mason PE",
+    "Ondo D",
+    "Heyda J",
+    "Ollila OHS",
+    "Jungwirth P",
+    "Javanainen M",
+    "Martinez-Seara H"
+  ],
+  "published_date": "2024-06-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.31.596781",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.31.596781.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR860993",
+    "raw_record": {
+      "id": "PPR860993",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR860993"
+        ]
+      },
+      "doi": "10.1101/2024.05.31.596781",
+      "title": "Effective Inclusion of Electronic Polarization Improves the Description of Electrostatic Interactions: The prosECCo75 Biomolecular Force Field",
+      "authorString": "Nencini R, Tempra C, Biriukov D, Riopedre-Fernandez M, Cruces Chamorro V, Polak J, Mason PE, Ondo D, Heyda J, Ollila OHS, Jungwirth P, Javanainen M, Martinez-Seara H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Nencini R",
+            "lastName": "Nencini",
+            "firstName": "Ricky",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4449-2396"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Organic Chemistry and Biochemistry, , Flemingovonám. 2 , ,"
+                },
+                {
+                  "affiliation": "Institute of Biotechnology, , Viikinkaari 5 , ,"
+                },
+                {
+                  "affiliation": "Division of Pharmaceutical Biosciences, Faculty of Pharmacy, , Viikinkaari 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tempra C",
+            "lastName": "Tempra",
+            "firstName": "Carmelo",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Organic Chemistry and Biochemistry, , Flemingovonám. 2 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Biriukov D",
+            "lastName": "Biriukov",
+            "firstName": "Denys",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1007-2203"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Organic Chemistry and Biochemistry, , Flemingovonám. 2 , ,"
+                },
+                {
+                  "affiliation": "CEITEC – Central European Institute of Technology, , Kamenice 753/5 , ,"
+                },
+                {
+                  "affiliation": "National Centre for Biomolecular Research, Faculty of Science, , Kamenice 753/5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Riopedre-Fernandez M",
+            "lastName": "Riopedre-Fernandez",
+            "firstName": "Miguel",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5024-0713"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Organic Chemistry and Biochemistry, , Flemingovonám. 2 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cruces Chamorro V",
+            "lastName": "Cruces Chamorro",
+            "firstName": "Victor",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0394-4459"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Organic Chemistry and Biochemistry, , Flemingovonám. 2 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Polak J",
+            "lastName": "Polak",
+            "firstName": "Jakub",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physical Chemistry, , Prague, Technická 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mason PE",
+            "lastName": "Mason",
+            "firstName": "Philip",
+            "initials": "PE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3263-2825"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Organic Chemistry and Biochemistry, , Flemingovonám. 2 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ondo D",
+            "lastName": "Ondo",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1259-2416"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physical Chemistry, , Prague, Technická 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heyda J",
+            "lastName": "Heyda",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9428-9508"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physical Chemistry, , Prague, Technická 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ollila OHS",
+            "lastName": "Ollila",
+            "firstName": "Samuli",
+            "initials": "OHS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8728-1006"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Tietotie 2 , ,"
+                },
+                {
+                  "affiliation": "Institute of Biotechnology, , Viikinkaari 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jungwirth P",
+            "lastName": "Jungwirth",
+            "firstName": "Pavel",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Organic Chemistry and Biochemistry, , Flemingovonám. 2 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Javanainen M",
+            "lastName": "Javanainen",
+            "firstName": "Matti",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Organic Chemistry and Biochemistry, , Flemingovonám. 2 , ,"
+                },
+                {
+                  "affiliation": "Institute of Biotechnology, , Viikinkaari 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martinez-Seara H",
+            "lastName": "Martinez-Seara",
+            "firstName": "Hector",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9716-1713"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Organic Chemistry and Biochemistry, , Flemingovonám. 2 , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5024-0713"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9716-1713"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0394-4459"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1259-2416"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3263-2825"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8728-1006"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9428-9508"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1007-2203"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4449-2396"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "prosECCo75 is an optimized force field effectively incorporating electronic polarization via charge scaling. It aims to enhance the accuracy of nominally nonpolarizable molecular dynamics (MD) simulations for interactions in biologically relevant systems involving water, ions, proteins, lipids, and saccharides. Recognizing the inherent limitations of nonpolarizable force fields in precisely modeling electrostatic interactions essential for various biological processes, we mitigate these shortcomings by accounting for electronic polarizability in a physical rigorous mean-field way that does not add to computational costs. With this scaling of (both integer and partial) charges within the CHARMM36 framework, prosECCo75 addresses overbinding artifacts. This improves agreement with experimental ion binding data across a broad spectrum of systems - lipid membranes, proteins (including peptides and amino acids), and saccharides - without compromising their biomolecular structures. prosECCo75 thus emerges as a computationally efficient tool providing enhanced accuracy and broader applicability in simulating the complex interplay of interactions between ions and biomolecules, pivotal for improving our understanding of many biological processes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101095957",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.05.31.596781"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.05.31.596781"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR860993"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR860993&type=FILE&fileName=EMS196689-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39186899",
+            "reference": "Journal of chemical theory and computation. 2024 Sep;20(17):7546-7559",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196689",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-06-05",
+      "firstPublicationDate": "2024-06-03",
+      "firstIndexDate": "2024-06-05",
+      "fullTextReceivedDate": "2024-07-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

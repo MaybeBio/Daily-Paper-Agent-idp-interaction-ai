@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "36925468",
+    "doi": "10.3389/fmicb.2023.1116776",
+    "title": "Organization of the bacterial nucleoid by DNA-bridging proteins and globular crowders."
+  },
+  "content": {
+    "abstract": "The genomic DNA of bacteria occupies only a fraction of the cell called the nucleoid, although it is not bounded by any membrane and would occupy a volume hundreds of times larger than the cell in the absence of constraints. The two most important contributions to the compaction of the DNA coil are the cross-linking of the DNA by nucleoid proteins (like H-NS and StpA) and the demixing of DNA and other abundant globular macromolecules which do not bind to the DNA (like ribosomes). The present work deals with the interplay of DNA-bridging proteins and globular macromolecular crowders, with the goal of determining the extent to which they collaborate in organizing the nucleoid. In order to answer this question, a coarse-grained model was developed and its properties were investigated through Brownian dynamics simulations. These simulations reveal that the radius of gyration of the DNA coil decreases linearly with the effective volume ratio of globular crowders and the number of DNA bridges formed by nucleoid proteins in the whole range of physiological values. Moreover, simulations highlight the fact that the number of DNA bridges formed by nucleoid proteins depends crucially on their ability to self-associate (oligomerize). An explanation for this result is proposed in terms of the mean distance between DNA segments and the capacity of proteins to maintain DNA-bridging in spite of the thermal fluctuations of the DNA network. Finally, simulations indicate that non-associating proteins preserve a high mobility inside the nucleoid while contributing to its compaction, leading to a DNA/protein complex which looks like a liquid droplet. In contrast, self-associating proteins form a little deformable network which cross-links the DNA chain, with the consequence that the DNA/protein complex looks more like a gel.",
+    "keywords": [
+      "Brownian dynamics simulations",
+      "bacterial nucleoid",
+      "coarse-grained model",
+      "macromolecular crowders",
+      "nucleoid proteins",
+      "phase separation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Joyeux, Marc"
+      ],
+      "short_names": [
+        "Joyeux M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratoire Interdisciplinaire de Physique, CNRS and Universite Grenoble Alpes, St Martin d'Heres, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Joyeux, Marc",
+        "short_name": "Joyeux M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Interdisciplinaire de Physique, CNRS and Université Grenoble Alpes, St Martin d'Hères, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in microbiology"
+    ],
+    "journal_abbrev": [
+      "Front Microbiol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/18 06:00",
+    "fetched_at": "2026-09-20 20:21:09"
+  },
+  "links": {
+    "cites": [
+      "42255610",
+      "41592128",
+      "41276679",
+      "41106805",
+      "40433982",
+      "39967274",
+      "38929644",
+      "38578226",
+      "38331392"
+    ],
+    "refs": [
+      "33340542",
+      "31795918",
+      "31629479",
+      "31331025",
+      "30204212",
+      "29718386",
+      "28599107",
+      "26351690",
+      "26345139",
+      "26224838",
+      "26191045",
+      "26052320",
+      "25288112",
+      "25250841",
+      "24473063",
+      "24456048",
+      "24275506",
+      "23941620",
+      "23823236",
+      "23623305",
+      "23093594",
+      "23078205",
+      "22790781",
+      "22624875",
+      "22245706",
+      "22187157",
+      "20867679",
+      "20798056",
+      "20615449",
+      "20482065",
+      "20064460",
+      "19395497",
+      "19037758",
+      "17519961",
+      "16879983",
+      "16863331",
+      "16697220",
+      "15966862",
+      "12907786",
+      "12592399",
+      "12241080",
+      "12200432",
+      "11858707",
+      "11244076",
+      "10947847",
+      "10844682",
+      "10625601",
+      "10515926",
+      "9130723",
+      "7875316",
+      "6379600",
+      "4924971",
+      "1310520"
+    ],
+    "similar": [
+      "36925468",
+      "30204212",
+      "28599107",
+      "31629479",
+      "33340542",
+      "23912807",
+      "31331025",
+      "31961016",
+      "38986040",
+      "31261873",
+      "26345139",
+      "37974398",
+      "21974563",
+      "32822585",
+      "25240378",
+      "36948827",
+      "26208826",
+      "10515926",
+      "32011760",
+      "35583339",
+      "38167921",
+      "23561538",
+      "32385085",
+      "20615449",
+      "27482541",
+      "10947847",
+      "24595272",
+      "28559300",
+      "28316324",
+      "29531181",
+      "29576193",
+      "31481544",
+      "16879983",
+      "28536019",
+      "26858102",
+      "29539394",
+      "36283630",
+      "22187157",
+      "19254726",
+      "26450331",
+      "30981247",
+      "25682183",
+      "24187527",
+      "9697298",
+      "32518183",
+      "35833511",
+      "11244076",
+      "24312701",
+      "17108966",
+      "32891648",
+      "10551881",
+      "34675077",
+      "24998344",
+      "38456237",
+      "23951337",
+      "19570109",
+      "36948796",
+      "34777284",
+      "14663087",
+      "20346349",
+      "32907955",
+      "26029766",
+      "19508284",
+      "8850347",
+      "33997690",
+      "25468347",
+      "12787365",
+      "34382809",
+      "31931015",
+      "25563801",
+      "25347801",
+      "32373086",
+      "32873767",
+      "26153709",
+      "33334011",
+      "25460806",
+      "10203842",
+      "15853876",
+      "32253414",
+      "31830036",
+      "38511404",
+      "24003126",
+      "25732335",
+      "20823229",
+      "8755860",
+      "9130723",
+      "30633392",
+      "35435684",
+      "26224838",
+      "31150626",
+      "29114022",
+      "26067376",
+      "11278075",
+      "33931418",
+      "26307168",
+      "21541338",
+      "32175915",
+      "22446890",
+      "30845209",
+      "21903814",
+      "31691024",
+      "39039769",
+      "33347266"
+    ],
+    "review": [
+      "36925468",
+      "26345139",
+      "20615449",
+      "16879983",
+      "25682183",
+      "24998344",
+      "8850347",
+      "32373086",
+      "25460806",
+      "10203842",
+      "15853876",
+      "38511404",
+      "25732335",
+      "31691024",
+      "39039769"
+    ],
+    "pmc": [
+      "10011147"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36925468/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36925468",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmicb.2023.1116776",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

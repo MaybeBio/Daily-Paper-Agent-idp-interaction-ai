@@ -1,0 +1,449 @@
+{
+  "identity": {
+    "pmid": "37894933",
+    "doi": "10.3390/ijms242015253",
+    "title": "Challenges in Imaging Analyses of Biomolecular Condensates in Cells Infected with Influenza A Virus."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are crucial compartments within cells, relying on their material properties for function. They form and persist through weak, transient interactions, often undetectable by classical biochemical approaches. Hence, microscopy-based techniques have been the most reliable methods to detail the molecular mechanisms controlling their formation, material properties, and alterations, including dissolution or phase transitions due to cellular manipulation and disease, and to search for novel therapeutic strategies targeting biomolecular condensates. However, technical challenges in microscopy-based analysis persist. This paper discusses imaging, data acquisition, and analytical methodologies' advantages, challenges, and limitations in determining biophysical parameters explaining biomolecular condensate formation, dissolution, and phase transitions. In addition, we mention how machine learning is increasingly important for efficient image analysis, teaching programs what a condensate should resemble, aiding in the correlation and interpretation of information from diverse data sources. Influenza A virus forms liquid viral inclusions in the infected cell cytosol that serve as model biomolecular condensates for this study. Our previous work showcased the possibility of hardening these liquid inclusions, potentially leading to novel antiviral strategies. This was established using a framework involving live cell imaging to measure dynamics, internal rearrangement capacity, coalescence, and relaxation time. Additionally, we integrated thermodynamic characteristics by analysing fixed images through Z-projections. The aforementioned paper laid the foundation for this subsequent technical paper, which explores how different modalities in data acquisition and processing impact the robustness of results to detect bona fide phase transitions by measuring thermodynamic traits in fixed cells. Using solely this approach would greatly simplify screening pipelines. For this, we tested how single focal plane images, Z-projections, or volumetric analyses of images stained with antibodies or live tagged proteins altered the quantification of thermodynamic measurements. Customizing methodologies for different biomolecular condensates through advanced bioimaging significantly contributes to biological research and potential therapeutic advancements.",
+    "keywords": [
+      "biomolecular condensates",
+      "imaging",
+      "influenza A virus",
+      "virology"
+    ],
+    "mesh_terms": [
+      "*Influenza A virus",
+      "Biomolecular Condensates",
+      "Image Processing, Computer-Assisted",
+      "Antibodies",
+      "Biophysics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Etibor, Temitope Akhigbe",
+        "O'Riain, Aidan",
+        "Alenquer, Marta",
+        "Diwo, Christian",
+        "Vale-Costa, Silvia",
+        "Amorim, Maria Joao"
+      ],
+      "short_names": [
+        "Etibor TA",
+        "O'Riain A",
+        "Alenquer M",
+        "Diwo C",
+        "Vale-Costa S",
+        "Amorim MJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9024-4310",
+        "ORCID: 0000-0002-1939-8077",
+        "ORCID: 0000-0002-1005-2651",
+        "ORCID: 0000-0002-4129-6659"
+      ],
+      "affiliations": [
+        "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciencia (IGC), Fundacao Calouste Gulbenkian, R. Quinta Grande, 6, 2780-156 Oeiras, Portugal.",
+        "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciencia (IGC), Fundacao Calouste Gulbenkian, R. Quinta Grande, 6, 2780-156 Oeiras, Portugal.",
+        "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciencia (IGC), Fundacao Calouste Gulbenkian, R. Quinta Grande, 6, 2780-156 Oeiras, Portugal.",
+        "Cell Biology of Viral Infection Lab (CBV), Catolica Biomedical Research Centre (CBR), Catolica Medical School, Universidade Catolica Portuguesa, Palma de Cima, 1649-023 Lisboa, Portugal.",
+        "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciencia (IGC), Fundacao Calouste Gulbenkian, R. Quinta Grande, 6, 2780-156 Oeiras, Portugal.",
+        "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciencia (IGC), Fundacao Calouste Gulbenkian, R. Quinta Grande, 6, 2780-156 Oeiras, Portugal.",
+        "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciencia (IGC), Fundacao Calouste Gulbenkian, R. Quinta Grande, 6, 2780-156 Oeiras, Portugal.",
+        "Cell Biology of Viral Infection Lab (CBV), Catolica Biomedical Research Centre (CBR), Catolica Medical School, Universidade Catolica Portuguesa, Palma de Cima, 1649-023 Lisboa, Portugal."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Etibor, Temitope Akhigbe",
+        "short_name": "Etibor TA",
+        "identifiers": [
+          "0000-0002-9024-4310"
+        ],
+        "affiliations": [
+          "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciência (IGC), Fundação Calouste Gulbenkian, R. Quinta Grande, 6, 2780-156 Oeiras, Portugal."
+        ]
+      },
+      {
+        "full_name": "O'Riain, Aidan",
+        "short_name": "O'Riain A",
+        "identifiers": [
+          "0000-0002-1939-8077"
+        ],
+        "affiliations": [
+          "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciência (IGC), Fundação Calouste Gulbenkian, R. Quinta Grande, 6, 2780-156 Oeiras, Portugal."
+        ]
+      },
+      {
+        "full_name": "Alenquer, Marta",
+        "short_name": "Alenquer M",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciência (IGC), Fundação Calouste Gulbenkian, R. Quinta Grande, 6, 2780-156 Oeiras, Portugal.",
+          "Cell Biology of Viral Infection Lab (CBV), Católica Biomedical Research Centre (CBR), Católica Medical School, Universidade Católica Portuguesa, Palma de Cima, 1649-023 Lisboa, Portugal."
+        ]
+      },
+      {
+        "full_name": "Diwo, Christian",
+        "short_name": "Diwo C",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciência (IGC), Fundação Calouste Gulbenkian, R. Quinta Grande, 6, 2780-156 Oeiras, Portugal."
+        ]
+      },
+      {
+        "full_name": "Vale-Costa, Sílvia",
+        "short_name": "Vale-Costa S",
+        "identifiers": [
+          "0000-0002-1005-2651"
+        ],
+        "affiliations": [
+          "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciência (IGC), Fundação Calouste Gulbenkian, R. Quinta Grande, 6, 2780-156 Oeiras, Portugal."
+        ]
+      },
+      {
+        "full_name": "Amorim, Maria João",
+        "short_name": "Amorim MJ",
+        "identifiers": [
+          "0000-0002-4129-6659"
+        ],
+        "affiliations": [
+          "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciência (IGC), Fundação Calouste Gulbenkian, R. Quinta Grande, 6, 2780-156 Oeiras, Portugal.",
+          "Cell Biology of Viral Infection Lab (CBV), Católica Biomedical Research Centre (CBR), Católica Medical School, Universidade Católica Portuguesa, Palma de Cima, 1649-023 Lisboa, Portugal."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Oct 17",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/28 11:42",
+    "fetched_at": "2026-09-21 02:18:19"
+  },
+  "links": {
+    "cites": [
+      "40419646"
+    ],
+    "refs": [
+      "37156794",
+      "37073403",
+      "37013374",
+      "36671536",
+      "36016945",
+      "35974095",
+      "35864335",
+      "34552246",
+      "34244608",
+      "34234347",
+      "34233002",
+      "33970958",
+      "33357399",
+      "32929202",
+      "32800925",
+      "32536523",
+      "32405004",
+      "32302570",
+      "31911620",
+      "31437398",
+      "31001538",
+      "30967892",
+      "30967547",
+      "30687703",
+      "30602772",
+      "30151580",
+      "29602697",
+      "28965817",
+      "28935776",
+      "28680096",
+      "28377462",
+      "28225081",
+      "27056844",
+      "27051975",
+      "26985879",
+      "26390327",
+      "26317470",
+      "26015579",
+      "24603687",
+      "23408618",
+      "22978691",
+      "22936764",
+      "22837443",
+      "22440839",
+      "22398450",
+      "22290187",
+      "22114331",
+      "21525351",
+      "21368180",
+      "21307188",
+      "21185869",
+      "20512121",
+      "19460965"
+    ],
+    "similar": [
+      "37894933",
+      "37013374",
+      "39326881",
+      "36879427",
+      "37194953",
+      "36227477",
+      "35001622",
+      "38609349",
+      "36227487",
+      "34865286",
+      "33453924",
+      "36150962",
+      "35881789",
+      "37464880",
+      "36304323",
+      "36642156",
+      "37470705",
+      "37019112",
+      "38781207",
+      "33669141",
+      "35325654",
+      "36847235",
+      "34772789",
+      "36227474",
+      "37586369",
+      "38086853",
+      "38622124",
+      "37252985",
+      "38429263",
+      "37293933",
+      "37770422",
+      "36227469",
+      "37040799",
+      "35974095",
+      "37772963",
+      "38405951",
+      "38987300",
+      "37156794",
+      "32004090",
+      "38061626",
+      "38191942",
+      "35179885",
+      "39028519",
+      "36791720",
+      "38612940",
+      "37343188",
+      "34862761",
+      "38177504",
+      "37239436",
+      "36269080",
+      "37791635",
+      "36227471",
+      "36071192",
+      "36875159",
+      "36318920",
+      "36361529",
+      "35632702",
+      "38363841",
+      "34129784",
+      "34785657",
+      "39271032",
+      "35293386",
+      "34271007",
+      "34129687",
+      "38832749",
+      "34179888",
+      "39320949",
+      "36747054",
+      "37114773",
+      "39071308",
+      "33579564",
+      "31484749",
+      "36028355",
+      "39138204",
+      "37770698",
+      "38622120",
+      "34772786",
+      "34234347",
+      "38499848",
+      "37131735",
+      "36310226",
+      "33397597",
+      "37217523",
+      "38848869",
+      "33300985",
+      "34636323",
+      "36829460",
+      "34890409",
+      "37973889",
+      "37393916",
+      "35867833",
+      "37996438",
+      "38582523",
+      "38445729",
+      "36400992",
+      "37066349",
+      "36993636",
+      "36711465",
+      "36227480",
+      "37047525",
+      "37937963",
+      "36854378",
+      "35761089",
+      "36798397",
+      "36758221",
+      "36543777",
+      "36175408",
+      "34552246",
+      "37770446",
+      "37721444",
+      "34599333",
+      "37191808",
+      "31606941",
+      "38579181",
+      "34404453",
+      "37523989",
+      "37171907",
+      "38670952",
+      "37546704",
+      "35641495",
+      "34144468",
+      "37461689",
+      "38655603",
+      "37546778",
+      "37028411",
+      "36247368",
+      "38383403",
+      "36819870",
+      "37904914",
+      "38429336",
+      "38489385",
+      "39225536",
+      "39166772",
+      "35198903",
+      "37789618",
+      "39386700",
+      "39184067",
+      "38076832",
+      "39271915",
+      "34315935",
+      "34966005",
+      "38293146",
+      "37752323",
+      "39386612",
+      "39228923",
+      "37586643",
+      "39404746",
+      "39109673",
+      "34645832",
+      "37886520",
+      "39271933",
+      "35674796",
+      "36993242",
+      "35675815",
+      "39149273",
+      "39078082",
+      "39211102",
+      "33514117",
+      "37066350",
+      "38464008",
+      "37761815",
+      "37977129",
+      "37024650",
+      "36973422",
+      "32767698",
+      "37590933",
+      "37576125",
+      "38429121",
+      "39199734",
+      "39328265",
+      "37880420",
+      "31048809",
+      "36108626"
+    ],
+    "review": [
+      "37894933",
+      "39326881",
+      "36879427",
+      "38609349",
+      "34865286",
+      "36150962",
+      "37464880",
+      "36642156",
+      "33669141",
+      "34772789",
+      "37040799",
+      "35974095",
+      "37772963",
+      "32004090",
+      "38061626",
+      "35179885",
+      "38612940",
+      "37239436",
+      "36269080",
+      "36071192",
+      "36875159",
+      "35632702",
+      "34129784",
+      "39271032",
+      "34271007",
+      "34179888",
+      "33579564",
+      "36028355",
+      "34772786",
+      "33300985",
+      "37393916",
+      "38445729",
+      "36400992",
+      "35761089",
+      "31606941",
+      "37523989",
+      "37171907",
+      "34144468",
+      "38383403",
+      "34966005",
+      "37752323",
+      "39228923",
+      "37586643",
+      "39109673",
+      "35675815"
+    ],
+    "pmc": [
+      "10607852"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms242015253",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37894933/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37894933",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

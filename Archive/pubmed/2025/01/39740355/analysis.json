@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39740355",
+  "title": "Binding mechanisms of intrinsically disordered proteins: Insights from experimental studies and structural predictions.",
+  "authors": "Orand, Thibault; Jensen, Malene Ringkjobing",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2025-01-01",
+  "window": {
+    "start": "2024-12-30",
+    "end": "2025-01-05"
+  },
+  "score": 8,
+  "one_liner_zh": "综述结合实验与AlphaFold等AI方法，系统阐述无序蛋白结合机制（耦合折叠、动态复合物、全无序互作），直接聚焦IDP-PPI机制建模，虽为综述但方法整合与机制深度契合课题。",
+  "abstract": "Advances in the characterization of intrinsically disordered proteins (IDPs) have unveiled a remarkably complex and diverse interaction landscape, including coupled folding and binding, highly dynamic complexes, multivalent interactions, and even interactions between entirely disordered proteins. Here we review recent examples of IDP binding mechanisms elucidated by experimental techniques such as nuclear magnetic resonance spectroscopy, single-molecule Forster resonance energy transfer, and stopped-flow fluorescence. These techniques provide insights into the structural details of transition pathways and complex intermediates, and they capture the dynamics of IDPs within complexes. Furthermore, we discuss the growing role of artificial intelligence, exemplified by AlphaFold, in identifying interaction sites within IDPs and predicting their bound-state structures. Our review highlights the powerful complementarity between experimental methods and artificial intelligence-based approaches in advancing our understanding of the intricate interaction landscape of IDPs.",
+  "abstract_zh": "内在无序蛋白质（IDPs）表征的进展揭示了极其复杂且多样的相互作用景观，包括偶联折叠与结合、高度动态的复合物、多价相互作用，甚至完全无序蛋白质之间的相互作用。在此，我们回顾了通过核磁共振波谱、单分子福斯特共振能量转移和停流荧光等实验技术阐明的IDP结合机制的最新实例。这些技术提供了对转变路径和复合物中间体结构细节的洞察，并捕捉了IDP在复合物内的动态。此外，我们讨论了人工智能（以AlphaFold为例）在识别IDP内相互作用位点及预测其结合态结构方面日益增长的作用。本综述强调了实验方法与基于人工智能的方法在推进我们对IDP复杂相互作用景观理解方面的强大互补性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39740355/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39740355/",
+  "paper_page_path": "papers/pubmed/39740355/index.html"
+}

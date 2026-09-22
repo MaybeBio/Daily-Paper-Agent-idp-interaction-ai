@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "42448413",
+    "doi": "10.1016/bs.apcsb.2026.04.009",
+    "title": "Energetic landscapes and fuzzy complexes: Computational targeting of viral intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "The increased recognition of intrinsically disordered proteins (IDPs) as critical mediators in viral infections has shifted attention toward fuzzy drug targets, challenging the conventional structure-based paradigms of drug discovery due to their inherent conformational flexibility. The binding of viral IDPs and IDRs to host factors occurs in dynamic, multivalent, and context-dependent interactions and constitute flexible complexes, which form the basis of pathogenicity and immune evasion. In this review, the disordered proteins of viruses are considered with a combination of molecular, computational, and translational insights to assess the next-generation antiviral targets. In this, we have discuss about the energetic landscapes that control the disorder, functional disorder order transitions and the fuzzy interfaces as centers of the networks of virus-host interactions. Special focus is kept on the new lines of computational and AI-directed technologies such as ensemble-based docking, machine-learning computational models of IDP ligand recognition, and multi-omics-driven target prioritization. The experimental approaches that are modified to characterize disordered systems, including NMR spectroscopy and hybrid structural biology, are also reviewed. The translational applicability of the targeting of viral fuzziness is highlighted by case studies of HIV-1, influenza, SARS-CoV-2, and emerging viral pathogens. We also provide directions about the future involving adaptive pharmacophores, customized antiviral approaches, and AI-driven ensemble targeting making disordered viral proteins a paradigm shift in antiviral drug discovery.",
+    "keywords": [
+      "Drug targets",
+      "Fuzzy",
+      "HIV",
+      "IDPs",
+      "Virus"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/antagonists & inhibitors",
+      "*Viral Proteins/chemistry/metabolism/antagonists & inhibitors",
+      "*Antiviral Agents/chemistry/pharmacology",
+      "SARS-CoV-2",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Viknesh, Kumar",
+        "Vijayalakshmi, Periyasamy",
+        "Alex, Asha Monica",
+        "Muthumani, Lakshmi Narayanan",
+        "Muthupandian, Saravanan",
+        "Desai, Deepali",
+        "Ramanathan, Solaiyappan",
+        "Likson, Antony",
+        "Selvaraj, Chandrabose"
+      ],
+      "short_names": [
+        "Viknesh K",
+        "Vijayalakshmi P",
+        "Alex AM",
+        "Muthumani LN",
+        "Muthupandian S",
+        "Desai D",
+        "Ramanathan S",
+        "Likson A",
+        "Selvaraj C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "CSRDD Lab, Bioinformatics Division, Department of Marine Biotechnology, AMET University (Deemed to Be University), Kanathur, Chennai, Tamil Nadu, India.",
+        "Department of Biotechnology and Bioinformatics, Holy Cross College, Tiruchirappalli, Tamil Nadu, India.",
+        "Department of Biotechnology, St. Joseph's College, Tiruchirappalli, Tamil Nadu, India.",
+        "Department of General Medicine, K.A.P Viswanatham Govt Medical College, Trichy, India.",
+        "Department of Medical Laboratory Technology, Faculty of Applied Medical Sciences, University of Tabuk, Tabuk, Saudi Arabia; Prince Fahad Bin Sultan Chair for Biomedical Research, University of Tabuk, Tabuk, Saudi Arabia.",
+        "Department of Microbiology, Dr. D. Y. Patil Medical College Hospital and Research Centre, Dr. D. Y. Patil Vidyapeeth (Deemed to be University), Pimpri, Pune, India.",
+        "CSRDD Lab, Bioinformatics Division, Department of Marine Biotechnology, AMET University (Deemed to Be University), Kanathur, Chennai, Tamil Nadu, India.",
+        "CSRDD Lab, Bioinformatics Division, Department of Marine Biotechnology, AMET University (Deemed to Be University), Kanathur, Chennai, Tamil Nadu, India.",
+        "CSRDD Lab, Bioinformatics Division, Department of Marine Biotechnology, AMET University (Deemed to Be University), Kanathur, Chennai, Tamil Nadu, India. Electronic address: selva@csrdd.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Viknesh, Kumar",
+        "short_name": "Viknesh K",
+        "identifiers": [],
+        "affiliations": [
+          "CSRDD Lab, Bioinformatics Division, Department of Marine Biotechnology, AMET University (Deemed to Be University), Kanathur, Chennai, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Vijayalakshmi, Periyasamy",
+        "short_name": "Vijayalakshmi P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Bioinformatics, Holy Cross College, Tiruchirappalli, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Alex, Asha Monica",
+        "short_name": "Alex AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, St. Joseph's College, Tiruchirappalli, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Muthumani, Lakshmi Narayanan",
+        "short_name": "Muthumani LN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, K.A.P Viswanatham Govt Medical College, Trichy, India."
+        ]
+      },
+      {
+        "full_name": "Muthupandian, Saravanan",
+        "short_name": "Muthupandian S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory Technology, Faculty of Applied Medical Sciences, University of Tabuk, Tabuk, Saudi Arabia; Prince Fahad Bin Sultan Chair for Biomedical Research, University of Tabuk, Tabuk, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Desai, Deepali",
+        "short_name": "Desai D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Dr. D. Y. Patil Medical College Hospital and Research Centre, Dr. D. Y. Patil Vidyapeeth (Deemed to be University), Pimpri, Pune, India."
+        ]
+      },
+      {
+        "full_name": "Ramanathan, Solaiyappan",
+        "short_name": "Ramanathan S",
+        "identifiers": [],
+        "affiliations": [
+          "CSRDD Lab, Bioinformatics Division, Department of Marine Biotechnology, AMET University (Deemed to Be University), Kanathur, Chennai, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Likson, Antony",
+        "short_name": "Likson A",
+        "identifiers": [],
+        "affiliations": [
+          "CSRDD Lab, Bioinformatics Division, Department of Marine Biotechnology, AMET University (Deemed to Be University), Kanathur, Chennai, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Selvaraj, Chandrabose",
+        "short_name": "Selvaraj C",
+        "identifiers": [],
+        "affiliations": [
+          "CSRDD Lab, Bioinformatics Division, Department of Marine Biotechnology, AMET University (Deemed to Be University), Kanathur, Chennai, Tamil Nadu, India. Electronic address: selva@csrdd.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advances in protein chemistry and structural biology"
+    ],
+    "journal_abbrev": [
+      "Adv Protein Chem Struct Biol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/15 04:09",
+    "fetched_at": "2026-09-18 04:57:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42448413",
+      "38987470",
+      "31441158",
+      "35196007",
+      "33719450",
+      "42437078",
+      "30813629",
+      "30979035",
+      "41774984",
+      "30840442",
+      "42290021",
+      "34390736",
+      "40244295",
+      "38275091",
+      "36969402",
+      "31667555",
+      "29080786",
+      "28600653",
+      "38932209",
+      "30278223",
+      "34504009",
+      "26549326",
+      "40532196",
+      "39881469",
+      "41544898",
+      "39740355",
+      "38732174",
+      "36088077",
+      "24086122",
+      "32135192",
+      "23794453",
+      "33260713",
+      "33187345",
+      "41887012",
+      "41238303",
+      "31739058",
+      "39828029",
+      "28597296",
+      "41385825",
+      "37992221",
+      "39093570",
+      "41065785",
+      "36768473",
+      "34181980",
+      "25424537",
+      "34197833",
+      "41036572",
+      "41082321",
+      "32712910",
+      "26387110",
+      "39740709",
+      "42000821",
+      "27797946",
+      "33177626",
+      "31709918",
+      "28493424",
+      "36833360",
+      "33917117",
+      "41650319",
+      "39896485",
+      "27844185",
+      "24098099",
+      "30471705",
+      "26684000",
+      "28914483",
+      "29590589",
+      "28365882",
+      "32020911",
+      "40423592",
+      "31756456",
+      "33074111",
+      "34656328",
+      "33006287",
+      "28259050",
+      "24532081",
+      "38512660",
+      "25031324",
+      "32604730",
+      "26226339",
+      "32828463",
+      "40733589",
+      "32403216",
+      "29733855",
+      "30813315",
+      "26387102",
+      "28762260",
+      "39227512",
+      "27062995",
+      "35476817",
+      "34452345",
+      "34610267",
+      "35310482",
+      "34626492",
+      "41534519",
+      "35139468",
+      "40143346",
+      "38941236",
+      "30316104",
+      "26184170",
+      "35129612"
+    ],
+    "review": [
+      "42448413",
+      "31441158",
+      "42437078",
+      "30813629",
+      "30979035",
+      "41774984",
+      "30840442",
+      "34390736",
+      "36969402",
+      "31667555",
+      "28600653",
+      "30278223",
+      "26549326",
+      "39881469",
+      "41544898",
+      "39740355",
+      "32135192",
+      "23794453",
+      "33260713",
+      "41887012",
+      "41238303",
+      "39828029",
+      "28597296",
+      "41385825",
+      "39093570",
+      "41065785",
+      "41036572",
+      "26387110",
+      "39740709",
+      "31709918",
+      "36833360",
+      "33917117",
+      "30471705",
+      "32020911",
+      "40423592",
+      "33006287",
+      "28259050",
+      "24532081",
+      "32604730",
+      "26226339",
+      "32828463",
+      "32403216",
+      "26387102",
+      "28762260",
+      "34452345",
+      "34610267",
+      "35139468",
+      "40143346",
+      "30316104",
+      "35129612"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1876-1623(26)00040-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

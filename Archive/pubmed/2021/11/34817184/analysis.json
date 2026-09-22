@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34817184",
+  "title": "Importance of Solvent in Guiding the Conformational Properties of an Intrinsically Disordered Peptide.",
+  "authors": "Mondal, Souvik; Mondal, Sandip; Bandyopadhyay, Sanjoy",
+  "journal": "Langmuir : the ACS journal of surfaces and colloids",
+  "published_date": "2021-11-25",
+  "window": {
+    "start": "2021-11-22",
+    "end": "2021-11-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用全原子MD模拟研究α-突触核蛋白无序肽段单体的构象及界面水结构，聚焦聚集成核机制，虽涉及IDP和物理模拟，但未直接研究PPI或相分离，机制建模可迁移启发。",
+  "abstract": "Aggregated form of alpha-synuclein in the brain has been found to be the major component of Lewy bodies that are hallmarks of Parkinson's disease (PD), the second most devastating neurodegenerative disorder. We have carried out room-temperature all-atom molecular dynamics (MD) simulations of an ensemble of widely different alpha-synuclein(1-95) peptide monomer conformations in aqueous solution. Attempts have been made to obtain a generic understanding of the local conformational motions of different repeat unit segments, namely R1-R7, of the peptide and the correlated properties of the solvent at the interface. The analyses revealed relatively greater rigidity of the hydrophobic R6 unit as compared to the other repeat units of the peptide. Besides, water molecules around R6 have been found to be less structured and weakly interacting with the peptide. These are important observations as the R6 unit with reduced conformational motions can act as the nucleation site for the aggregation process, while less structured weakly interacting water around it can become displaced easily, thereby facilitating the hydrophobic collapse of the peptide monomers and their association during the nucleation phase at higher concentrations. In addition, we demonstrated presence of doubly coordinated highly ordered as well as triply coordinated relatively disordered water molecules at the interface. We believe that while the ordered water molecules can favor water-mediated interactions between different peptide monomers, the randomly ordered ones on the other hand are likely to be expelled easily from the interface, thereby facilitating direct peptide-peptide interactions during the aggregation process.",
+  "abstract_zh": "脑中α-突触核蛋白的聚集形式已被发现是路易小体的主要成分，而路易小体是帕金森病（Parkinson's disease, PD）的标志，帕金森病是第二种最具破坏性的神经退行性疾病。我们进行了室温下全原子分子动力学（molecular dynamics, MD）模拟，研究对象为水溶液中一系列广泛不同的α-突触核蛋白(1-95)肽单体构象的集合。我们尝试获得对该肽不同重复单元片段（即R1-R7）局部构象运动以及界面处溶剂相关性质的通用理解。分析显示，与肽的其他重复单元相比，疏水性R6单元具有相对更大的刚性。此外，发现R6周围的水分子结构较不有序，且与肽的相互作用较弱。这些是重要的观察结果，因为具有减少构象运动的R6单元可以作为聚集过程的成核位点，而其周围结构较不有序、弱相互作用的水分子容易被置换，从而在较高浓度下促进肽单体的疏水塌缩及其在成核阶段的结合。此外，我们证明了界面处存在双重配位的高度有序水分子以及三重配位的相对无序水分子。我们认为，虽然有序水分子可以促进不同肽单体之间的水介导相互作用，但随机有序的水分子则可能容易从界面被排出，从而在聚集过程中促进直接的肽-肽相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34817184/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34817184/",
+  "paper_page_path": "papers/pubmed/34817184/index.html"
+}

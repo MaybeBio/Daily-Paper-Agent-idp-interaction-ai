@@ -1,0 +1,559 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.10.612218",
+  "title": "ProtRNA: A Protein-derived RNA Language Model by Cross-Modality Transfer Learning",
+  "doi": "10.1101/2024.09.10.612218",
+  "abstract": "Protein language models (PLM), such as the highly successful ESM-2, have proven particularly effective. However, language models designed for RNA continue to face challenges. A key question is: can the information derived from PLMs be harnessed and transferred to RNA? To investigate this, a model termed ProtRNA has been developed by cross-modality transfer learning strategy for addressing the challenges posed by RNA’s limited and less conserved sequences. By leveraging the evolutionary and physicochemical information encoded in protein sequences, the ESM-2 model is adapted to processing “low-resource” RNA sequence data. The results show comparable or superior performance in various RNA downstream tasks, with only 1/8 the trainable parameters and 1/6 the training data employed by the primary reference baseline RNA language model. This approach highlights the potential of cross-modality transfer learning in biological language models.",
+  "authors": [
+    "Ruoxi Zhang",
+    "Ben Ma",
+    "Gang Xu",
+    "Jianpeng Ma"
+  ],
+  "published_date": "2024-09-14",
+  "updated_date": "2024-09-16T01:28:59Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.10.612218",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.10.612218.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T16:30:51Z",
+        "timestamp": 1785429051116,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            14
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 53,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                14
+              ]
+            ],
+            "date-time": "2024-09-14T00:00:00Z",
+            "timestamp": 1726272000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "National Key Research and Development Program of China",
+          "award": [
+            "No. 2024YFA1307502"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "No. 2024YFA1307502"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100018625",
+          "name": "Science and Technology Innovation Plan of Shanghai Science and Technology Commission",
+          "doi-asserted-by": "crossref",
+          "id": [
+            {
+              "id": "10.13039/501100018625",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Research Fund for International Senior Scientists"
+        },
+        {
+          "award": [
+            "32300535"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "32300535"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01h0zpd94",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Protein language models (PLM), such as the highly successful ESM-2, have proven particularly effective. However, language models designed for RNA continue to face challenges. A key question is: can the information derived from PLMs be harnessed and transferred to RNA? To investigate this, a model termed ProtRNA has been developed by cross-modality transfer learning strategy for addressing the challenges posed by RNA’s limited and less conserved sequences. By leveraging the evolutionary and physicochemical information encoded in protein sequences, the ESM-2 model is adapted to processing “low-resource” RNA sequence data. The results show comparable or superior performance in various RNA downstream tasks, with only 1/8 the trainable parameters and 1/6 the training data employed by the primary reference baseline RNA language model. This approach highlights the potential of cross-modality transfer learning in biological language models.</jats:p>",
+      "DOI": "10.1101/2024.09.10.612218",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            16
+          ]
+        ],
+        "date-time": "2024-09-16T01:28:59Z",
+        "timestamp": 1726450139000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 5,
+      "title": [
+        "ProtRNA: A Protein-derived RNA Language Model by Cross-Modality Transfer Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Ruoxi",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ben",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gang",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jianpeng",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.1",
+          "unstructured": "Devlin, J. , et al., BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Naacl Hlt 2019), Vol. 1, 2019: p. 4171–4186."
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rives, A. , et al., Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. Proceedings of the National Academy of Sciences of the United States of America, 2021. 118(15).",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vig, J. , et al., Bertology meets biology: Interpreting attention in protein language models. arXiv preprint arXiv:2006.15222, 2020.",
+          "DOI": "10.1101/2020.06.26.174417"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chen, J. , et al., Interpretable RNA foundation model from unannotated data for highly accurate RNA structure and function predictions. arXiv preprint arXiv:2204.00300, 2022.",
+          "DOI": "10.1101/2022.08.06.503062"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1034"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.7",
+          "unstructured": "Penić, R.J. , et al., Rinalmo: General-purpose rna language models can generalize well on structure prediction tasks. arXiv preprint arXiv:2403.00043, 2024."
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, N. , et al., Multi-purpose RNA language modelling with motif-aware pretraining and type-guided fine-tuning. Nature Machine Intelligence, 2024: p. 1–10.",
+          "DOI": "10.1038/s42256-024-00836-4"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shulgina, Y. , et al., RNA language models predict mutations that improve RNA function. bioRxiv, 2024.",
+          "DOI": "10.1101/2024.04.05.588317"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.10",
+          "unstructured": "Zhou, H. , et al., Deciphering RNA regulation with a foundation language model. bioRxiv, 2024: p. 2024.10. 12.617732."
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fradkin, P. , et al., Orthrus: Towards Evolutionary and Functional RNA Foundation Models. bioRxiv, 2024.",
+          "DOI": "10.1101/2024.10.10.617658"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, Y.K. , et al., Multiple sequence alignment-based RNA language model and its application to structural inference. Nucleic Acids Research, 2024. 52(1).",
+          "DOI": "10.1093/nar/gkad1031"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbagen.2013.10.035"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.14",
+          "unstructured": "Houlsby, N. , et al. Parameter-efficient transfer learning for NLP. in International conference on machine learning. 2019. PMLR."
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.15",
+          "unstructured": "Hu, E.J. , et al., Lora: Low-rank adaptation of large language models. arXiv preprint arXiv:2106.09685, 2021."
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.16",
+          "unstructured": "Chavan, A. , et al., One-for-all: Generalized lora for parameter-efficient fine-tuning. arXiv preprint arXiv:2306.07967, 2023."
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, S. , et al., PRoLoRA: Partial Rotation Empowers More Parameter-Efficient LoRA. arXiv preprint arXiv:2402.16902, 2024.",
+          "DOI": "10.18653/v1/2024.acl-long.156"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Howard, J. and S. Ruder , Universal language model fine-tuning for text classification. arXiv preprint arXiv:1801.06146, 2018.",
+          "DOI": "10.18653/v1/P18-1031"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.19",
+          "unstructured": "Lee, Y. , et al., Surgical fine-tuning improves adaptation to distribution shifts. arXiv preprint arXiv:2210.11466, 2022."
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Artetxe, M. , S. Ruder , and D. Yogatama , On the Cross-lingual Transferability of Monolingual Representations. 58th Annual Meeting of the Association for Computational Linguistics (Acl 2020), 2020: p. 4623–4637.",
+          "DOI": "10.18653/v1/2020.acl-main.421"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.22",
+          "first-page": "60",
+          "article-title": "How to benchmark RNA secondary structure prediction accuracy",
+          "volume": "162",
+          "year": "2019",
+          "journal-title": "Methods"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky092"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.24",
+          "unstructured": "Van der Maaten, L. and G. Hinton , Visualizing data using t-SNE. Journal of machine learning research, 2008. 9(11)."
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.25",
+          "first-page": "842",
+          "article-title": "A primer in BERTology: What we know about how BERT works",
+          "volume": "8",
+          "year": "2021",
+          "journal-title": "Transactions of the Association for Computational Linguistics"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vig, J. and Y. Belinkov , Analyzing the structure of attention in a transformer language model. arXiv preprint arXiv:1906.04284, 2019.",
+          "DOI": "10.18653/v1/W19-4808"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Clark, K. , What Does Bert Look At? An Analysis of Bert’s Attention. arXiv preprint arXiv:1906.04341, 2019.",
+          "DOI": "10.18653/v1/W19-4828"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Voita, E. , et al., Analyzing multi-head self-attention: Specialized heads do the heavy lifting, the rest can be pruned. arXiv preprint arXiv:1905.09418, 2019.",
+          "DOI": "10.18653/v1/P19-1580"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rao, R. , et al., Transformer protein language models are unsupervised structure learners. bioRxiv, 2020: p. 2020.12.15.422761.",
+          "DOI": "10.1101/2020.12.15.422761"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1038"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt509"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Singh, J. , et al., RNA secondary structure prediction using an ensemble of two-dimensional deep neural networks and transfer learning. Nature Communications, 2019. 10.",
+          "DOI": "10.1038/s41467-019-13395-9"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fu, L.Y. , et al., UFold: fast and accurate RNA secondary structure prediction with deep learning. Nucleic Acids Research, 2022. 50(3).",
+          "DOI": "10.1093/nar/gkab1074"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sato, K. , M. Akiyama , and Y. Sakakibara , RNA secondary structure prediction using deep learning with thermodynamic integration. Nature Communications, 2021. 12(1).",
+          "DOI": "10.1038/s41467-021-21194-4"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xu, G. , et al., OPUS-Rota5: A highly accurate protein side-chain modeling method with 3D-Unet and RotaFormer. Structure, 2024.",
+          "DOI": "10.1101/2023.10.17.562673"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky285"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-11-1"
+        },
+        {
+          "issue": "01",
+          "key": "2025052505400552000_2024.09.10.612218v2.38",
+          "first-page": "09",
+          "article-title": "Rnabench: A comprehensive library for in silico rna modelling",
+          "volume": "2024",
+          "year": "2024",
+          "journal-title": "bioRxiv"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nowakowski, J. and I. Tinoco Jr. RNA structure and stability. in Seminars in virology. 1997. Elsevier.",
+          "DOI": "10.1006/smvy.1997.0118"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s41048-015-0001-4"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2220022120"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3813"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.04.031"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41422-021-00476-y"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0021-9258(18)54860-2"
+        },
+        {
+          "issue": "1",
+          "key": "2025052505400552000_2024.09.10.612218v2.46",
+          "first-page": "475731",
+          "article-title": "Before it gets started: regulating translation at the 5′ UTR",
+          "volume": "2012",
+          "year": "2012",
+          "journal-title": "International Journal of Genomics"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-024-00823-9"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1008982"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-019-0164-5"
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.50",
+          "unstructured": "Wang, Z. , et al., Cross-lingual alignment vs joint training: A comparative study and a simple unified framework. arXiv preprint arXiv:1910.04708, 2019."
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.51",
+          "unstructured": "Conneau, A. and G. Lample , Cross-lingual language model pretraining. Advances in neural information processing systems, 2019. 32."
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.52",
+          "unstructured": "Liu, Y.H. , et al., RoBERTa: A Robustly Optimized BERT Pretraining Approach. Information Systems Research, 2019."
+        },
+        {
+          "key": "2025052505400552000_2024.09.10.612218v2.53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ren, Y. , et al., BEACON: Benchmark for Comprehensive RNA Tasks and Language Models. arXiv preprint arXiv:2406.10391, 2024.",
+          "DOI": "10.1101/2024.06.22.600190"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.09.10.612218",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:14:34Z",
+        "timestamp": 1782278074000
+      },
+      "score": 52.59899,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.09.10.612218"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            14
+          ]
+        ]
+      },
+      "references-count": 53,
+      "URL": "https://doi.org/10.1101/2024.09.10.612218",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.cels.2025.101371",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            14
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

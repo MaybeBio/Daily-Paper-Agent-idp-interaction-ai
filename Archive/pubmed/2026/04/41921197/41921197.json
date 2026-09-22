@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "41921197",
+    "doi": "10.1093/bib/bbag126",
+    "title": "Hybrid deep learning with protein language models and dual-path architecture for predicting IDP functions."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) drive essential cellular functions but resist conventional structural-function annotation due to their dynamic conformations. Current computational methods struggle with cross-dataset generalization and functional subtype discrimination. We present IDPFunNet, a hybrid deep learning model integrating convolutional neural networks, bidirectional LSTM, residual MLP, and the protein language model ProtT5 to predict six IDR functional classes: five binding subtypes and disordered flexible linkers (DFLs). Its dual-path architecture decouples binding prediction from DFL identification. Leveraging ProtT5 evolutionary embeddings, which outperformed ESM-family models and AlphaFold2 structural features (by >/=1.3% average AUC and >/= 12.7% average APS), IDPFunNet achieves state-of-the-art performance. Across six independent benchmarks, including CAID2/3 blind tests, it consistently surpasses existing general predictors DisoFLAG and DeepDISOBind in protein-binding prediction, with AUCs of 0.866 (TE210) and 0.832 (TE83), representing significant gains of 1.5%-8.1% in AUC and 13.5%-26.7% in APS (p-value < 0.05), while remaining competitive with specialized DFL predictors. Further analyses show multi-task learning enhances protein/lipid/small molecule-binding (3.1%-35.1% AUC gains), BiLSTMs are optimal for DFL identification, and self-attention shows potential for nucleic acid-binding (AUC 0.831). IDPFunNet thus provides an interpretable and generalizable framework for comprehensive IDR functional mapping. The webserver of IDPFunNet is freely available at https://yanglab.qd.sdu.edu.cn/IDPFunNet/ and the standalone package can be downloaded from https://github.com/IDRIDP/IDPFunNet/tree/master.",
+    "keywords": [
+      "deep learning",
+      "function prediction",
+      "intrinsically disordered protein",
+      "protein language models"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Computational Biology/methods",
+      "Long Short Term Memory",
+      "Convolutional Neural Networks"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liang, Jiahui",
+        "Luo, Yuxian",
+        "Su, Baoquan",
+        "Peng, Zhenling"
+      ],
+      "short_names": [
+        "Liang J",
+        "Luo Y",
+        "Su B",
+        "Peng Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-5344-1486",
+        "ORCID: 0000-0003-0303-6693"
+      ],
+      "affiliations": [
+        "MOE Frontiers Science Center for Nonlinear Expectations, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, 72 Binhai Road, Jimo, Qingdao 266237, China.",
+        "MOE Frontiers Science Center for Nonlinear Expectations, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, 72 Binhai Road, Jimo, Qingdao 266237, China.",
+        "MOE Frontiers Science Center for Nonlinear Expectations, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, 72 Binhai Road, Jimo, Qingdao 266237, China.",
+        "MOE Frontiers Science Center for Nonlinear Expectations, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, 72 Binhai Road, Jimo, Qingdao 266237, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liang, Jiahui",
+        "short_name": "Liang J",
+        "identifiers": [
+          "0009-0002-5344-1486"
+        ],
+        "affiliations": [
+          "MOE Frontiers Science Center for Nonlinear Expectations, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, 72 Binhai Road, Jimo, Qingdao 266237, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Yuxian",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Frontiers Science Center for Nonlinear Expectations, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, 72 Binhai Road, Jimo, Qingdao 266237, China."
+        ]
+      },
+      {
+        "full_name": "Su, Baoquan",
+        "short_name": "Su B",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Frontiers Science Center for Nonlinear Expectations, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, 72 Binhai Road, Jimo, Qingdao 266237, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Zhenling",
+        "short_name": "Peng Z",
+        "identifiers": [
+          "0000-0003-0303-6693"
+        ],
+        "affiliations": [
+          "MOE Frontiers Science Center for Nonlinear Expectations, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, 72 Binhai Road, Jimo, Qingdao 266237, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2026 Mar 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/01 18:30",
+    "fetched_at": "2026-09-18 02:10:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40859602",
+      "39740355",
+      "39237195",
+      "38588617",
+      "38540707",
+      "38166858",
+      "37957331",
+      "37904585",
+      "37883249",
+      "37621223",
+      "37027658",
+      "36927031",
+      "36548439",
+      "36458437",
+      "36304335",
+      "36210722",
+      "35739160",
+      "35139468",
+      "34905768",
+      "34656328",
+      "34487138",
+      "34290238",
+      "34265844",
+      "34232869",
+      "33876751",
+      "33875885",
+      "33381830",
+      "32173600",
+      "31350877",
+      "30002402",
+      "29413001",
+      "29306779",
+      "27911701",
+      "27864306",
+      "27307636",
+      "27174932",
+      "26109352",
+      "25531225",
+      "25099811",
+      "25004990",
+      "24773235",
+      "24606139",
+      "23783631",
+      "21358637",
+      "19412530",
+      "17494761",
+      "16731699",
+      "12022860"
+    ],
+    "similar": [
+      "41921197",
+      "34905768",
+      "36272675",
+      "40254833",
+      "42503799",
+      "37883249",
+      "41534519",
+      "38166858",
+      "41564724",
+      "38866950",
+      "41762162",
+      "36458437",
+      "42281397",
+      "36315580",
+      "38812466",
+      "42475469",
+      "40054813",
+      "41172803",
+      "38701796",
+      "39576667",
+      "34830151",
+      "40441416",
+      "39433833",
+      "37827403",
+      "38830995",
+      "41977286",
+      "41378882",
+      "32173600",
+      "41257586",
+      "39763873",
+      "41731742",
+      "33936509",
+      "40728620",
+      "39214282",
+      "39246251",
+      "41284811",
+      "41947423",
+      "30866736",
+      "41953440",
+      "40944448",
+      "42119874",
+      "41053908",
+      "39576584",
+      "32535960",
+      "40814232",
+      "39489606",
+      "35150250",
+      "42099803",
+      "36653898",
+      "41174305",
+      "42214054",
+      "35189635",
+      "39571839",
+      "31521235",
+      "38303473",
+      "40221640",
+      "37674132",
+      "32702119",
+      "34478704",
+      "42126889",
+      "34487138",
+      "41712756",
+      "38871095",
+      "32112084",
+      "42565475",
+      "37992088",
+      "40598008",
+      "42243656",
+      "40859602",
+      "39121938",
+      "28881969",
+      "38303023",
+      "41236479",
+      "40244295",
+      "41318581",
+      "34571539",
+      "40133791",
+      "35469832",
+      "41813771",
+      "41861353",
+      "41648466",
+      "42157243",
+      "32696351",
+      "41677998",
+      "41421972",
+      "32808039",
+      "41596767",
+      "41759455",
+      "42335477",
+      "39163306",
+      "35366467",
+      "41735215",
+      "36935548",
+      "32019410",
+      "40662839",
+      "40577786",
+      "40133781",
+      "39276905",
+      "39093570",
+      "39900285"
+    ],
+    "review": [
+      "41921197",
+      "31521235"
+    ],
+    "pmc": [
+      "13043015"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41921197/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1296",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbag126",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

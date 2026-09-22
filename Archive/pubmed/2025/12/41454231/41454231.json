@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "41454231",
+    "doi": "10.1186/s12870-025-08015-2",
+    "title": "Genome-wide identification and analysis of YTH gene family and its response to MeJA and salt treatment in Panax ginseng C. A. Meyer."
+  },
+  "content": {
+    "abstract": "YTH domain-containing RNA-binding proteins function as m6A readers that specifically bind to m6A-modified RNAs. YTH domain-containing proteins participate in various biological processes, such as hormone signaling pathways, regulation of stress responses, RNA stability, and cellular differentiation. Despite these important roles, the characteristics and functions of YTH family genes in ginseng (Panax ginseng C. A. Meyer), a traditional medicinal herb, particularly regarding their response to MeJA (Methyl Jasmonate) treatment and salt stress on a genome-wide scale, have not yet been studied. In this study, 18 YTH genes were identified based on telomere-to-telomere reference genome of ginseng. These PgYTH genes were grouped into four subgroups by phylogenetic analysis. Moreover, the chromosomal distribution, synteny analysis, gene structures and cis-elements of PgYTH genes, and the motifs of YTH proteins were analyzed. Conserved domain analysis, multiple sequence alignment, and phase separation prediction collectively showed that PgYTH proteins exhibited typical m6A reader protein characteristics, including conserved aromatic cages (WWW/WWY) that specifically bind m6A residues, and prion-like domains (PrLDs). The PgYTH gene family showed expression differences across different growth years, tissues, and stress conditions. Among them, PgYTH12 consistently maintained the highest expression levels in ginseng roots, the main root cortex, and most cultivated varieties. PgYTH12 exhibited specific upregulation or downregulation patterns under different stresses, and showed downregulation under MeJA treatment. Correlation analysis further revealed that some PgYTH genes were significantly negatively correlated with genes involved in the ginsenoside biosynthetic pathway. qPCR results confirmed that the expression of most PgYTH genes was downregulated under MeJA treatment, whereas the expression of PgYTH8-12 was upregulated under salt stress conditions. Additionally, PgYTH12 was localized to the endoplasmic reticulum. Overall, these results lay the groundwork for future functional investigations of PgYTH genes, advancing our understanding of their role in the regulation of the ginsenoside biosynthesis pathway and stress resistance in ginseng.",
+    "keywords": [
+      "Gene family",
+      "Panax ginseng",
+      "YTH",
+      "m6A RNA methylation"
+    ],
+    "mesh_terms": [
+      "*Panax/genetics/drug effects/metabolism/physiology",
+      "*Oxylipins/pharmacology",
+      "*Cyclopentanes/pharmacology",
+      "Phylogeny",
+      "*Acetates/pharmacology",
+      "Multigene Family",
+      "*Plant Proteins/genetics/metabolism",
+      "Gene Expression Regulation, Plant/drug effects",
+      "*RNA-Binding Proteins/genetics/metabolism",
+      "*Plant Growth Regulators/pharmacology",
+      "Salt Stress/genetics",
+      "Genes, Plant"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Ting",
+        "Sun, Yiming",
+        "Yang, Wanqing",
+        "Zhuang, Yadong",
+        "Qin, Tengfei",
+        "Hao, Wei"
+      ],
+      "short_names": [
+        "Yang T",
+        "Sun Y",
+        "Yang W",
+        "Zhuang Y",
+        "Qin T",
+        "Hao W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Nephrology, Affiliated Hospital of Beihua University, 132013, Jilin, China.",
+        "College of Medical Technology, Beihua University, Jilin, 132013, China.",
+        "College of Medical Technology, Beihua University, Jilin, 132013, China.",
+        "College of Medical Technology, Beihua University, Jilin, 132013, China.",
+        "College of Agriculture, Liaocheng University, Liaocheng, 252000, China. qintengfeisam@163.com.",
+        "College of Medical Technology, Beihua University, Jilin, 132013, China. haowei9111@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Ting",
+        "short_name": "Yang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Nephrology, Affiliated Hospital of Beihua University, 132013, Jilin, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yiming",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Medical Technology, Beihua University, Jilin, 132013, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wanqing",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Medical Technology, Beihua University, Jilin, 132013, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Yadong",
+        "short_name": "Zhuang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Medical Technology, Beihua University, Jilin, 132013, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Tengfei",
+        "short_name": "Qin T",
+        "identifiers": [],
+        "affiliations": [
+          "College of Agriculture, Liaocheng University, Liaocheng, 252000, China. qintengfeisam@163.com."
+        ]
+      },
+      {
+        "full_name": "Hao, Wei",
+        "short_name": "Hao W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Medical Technology, Beihua University, Jilin, 132013, China. haowei9111@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC plant biology"
+    ],
+    "journal_abbrev": [
+      "BMC Plant Biol"
+    ],
+    "pub_date": "2025 Dec 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/27 00:54",
+    "fetched_at": "2026-09-17 23:16:21"
+  },
+  "links": {
+    "cites": [
+      "42510832",
+      "42197631"
+    ],
+    "refs": [
+      "40429788",
+      "40276967",
+      "40133787",
+      "39809280",
+      "39771287",
+      "39771274",
+      "39722456",
+      "39167634",
+      "39056285",
+      "38950372",
+      "38945081",
+      "38883331",
+      "38835286",
+      "38612806",
+      "38448725",
+      "38166738",
+      "38071803",
+      "38015436",
+      "37861067",
+      "37789448",
+      "37740491",
+      "37122016",
+      "37050075",
+      "36917824",
+      "36904058",
+      "36791953",
+      "36477806",
+      "36464025",
+      "36460653",
+      "36305219",
+      "36263999",
+      "36261710",
+      "35562913",
+      "34821414",
+      "34794386",
+      "34081180",
+      "32817553",
+      "32713350",
+      "31292544",
+      "31064108",
+      "30745055",
+      "29789545",
+      "29715522",
+      "29643069",
+      "29604169",
+      "29103884",
+      "28503769",
+      "27560171",
+      "27131786",
+      "27043002",
+      "26876937",
+      "26655864",
+      "25546057",
+      "25412658",
+      "24825614",
+      "24462754",
+      "21593126",
+      "19458158",
+      "15604808",
+      "15578180",
+      "12824418",
+      "11846609",
+      "11752327",
+      "11130711",
+      "9473574"
+    ],
+    "similar": [
+      "41454231",
+      "40597608",
+      "38872078",
+      "42065271",
+      "40307704",
+      "40610882",
+      "32176699",
+      "26685304",
+      "39373827",
+      "40429788",
+      "41677925",
+      "31805178",
+      "32713350",
+      "24065536",
+      "38892149",
+      "35787249",
+      "26959011",
+      "41084476",
+      "38708338",
+      "41792606",
+      "29892943",
+      "36639779",
+      "38166738",
+      "30321253",
+      "38542445",
+      "39467751",
+      "38927118",
+      "35715520",
+      "28727829",
+      "20795497",
+      "32239329",
+      "38373903",
+      "37525122",
+      "34794386",
+      "15538577",
+      "39043058",
+      "42353797",
+      "39404907",
+      "34081180",
+      "25642758",
+      "33080263",
+      "37187526",
+      "39771287",
+      "39337672",
+      "40428309",
+      "39365489",
+      "38926665",
+      "36209052",
+      "39769479",
+      "23968928",
+      "41945173",
+      "32525906",
+      "40452937",
+      "33911097",
+      "22039120",
+      "25224554",
+      "42032495",
+      "38745142",
+      "33387173",
+      "40021992",
+      "40282389",
+      "39363209",
+      "42128118",
+      "38507444",
+      "33924156",
+      "38216888",
+      "41898798",
+      "37328802",
+      "40361008",
+      "24831831",
+      "34389920",
+      "23978613",
+      "37366497",
+      "41462088",
+      "40399794",
+      "39901065",
+      "40244119",
+      "39408917",
+      "40629278",
+      "26563176",
+      "42109203",
+      "28922794",
+      "40121461",
+      "40029892",
+      "25536164",
+      "39210263",
+      "40429827",
+      "27085600",
+      "41520972",
+      "37894868",
+      "25791525",
+      "40869233",
+      "40076509",
+      "38891967",
+      "39894816",
+      "31064108",
+      "33932982",
+      "39357718",
+      "32570736",
+      "41898387"
+    ],
+    "review": [
+      "41454231"
+    ],
+    "pmc": [
+      "12849209"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-025-08015-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41454231/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

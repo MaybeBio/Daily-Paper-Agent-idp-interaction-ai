@@ -1,0 +1,232 @@
+{
+  "identity": {
+    "pmid": "41500381",
+    "doi": "10.1016/j.jmb.2026.169629",
+    "title": "flDPnn3: Fast and Accurate Prediction of Intrinsic Disorder in Protein Sequences."
+  },
+  "content": {
+    "abstract": "flDPnn3 provides fast and highly accurate predictions of intrinsic disorder. Compared to its earlier versions, it uses a more sophisticated sequence-derived profile as input, covering a modern protein language model and additional predicted disorder functions, while maintaining a similarly small computational footprint. flDPnn3 and over 70 other disorder predictors were independently evaluated on the Disorder-NOX dataset by assessors in CAID3 (3rd Critical Assessment of protein Intrinsic Disorder prediction). A side-by-side comparison in CAID3, including low-sequence-similarity subsets of the CAID3 test data, reveals that our method matches the predictive quality of the best disorder predictors. The runtime analysis shows that flDPnn3 produces results between 3 and 8 times faster than similarly accurate disorder predictors and can be used to produce predictions at the whole-proteome scale. Additionally, flDPnn3 achieves 100% coverage by predicting all proteins, while some other accurate tools fail to predict some proteins. The CAID3 results also demonstrate that flDPnn3 is significantly more accurate than its previous versions, flDPnn and flDPnn2, which were among the top-ranked methods in CAID1 and CAID2, respectively. The flDPnn3's web server supports batch predictions, provides interactive visualization of results, offers a tutorial page, and is available at https://biomine.cs.vcu.edu/servers/flDPnn3/.",
+    "keywords": [
+      "disorder functions",
+      "disorder prediction",
+      "intrinsic disorder",
+      "protein language model",
+      "web server"
+    ],
+    "mesh_terms": [
+      "Prediction Algorithms",
+      "*Computational Biology/methods",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Software",
+      "*Sequence Analysis, Protein/methods",
+      "Amino Acid Sequence",
+      "Databases, Protein",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Kui",
+        "Hu, Gang",
+        "Basu, Sushmita",
+        "Kurgan, Lukasz"
+      ],
+      "short_names": [
+        "Wang K",
+        "Hu G",
+        "Basu S",
+        "Kurgan L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "NITFID, School of Statistics and Data Science, AAIS, LPMC and KLMDASR, Nankai University, Tianjin, China.",
+        "NITFID, School of Statistics and Data Science, AAIS, LPMC and KLMDASR, Nankai University, Tianjin, China.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, VA, USA.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, VA, USA. Electronic address: lkurgan@vcu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Kui",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "NITFID, School of Statistics and Data Science, AAIS, LPMC and KLMDASR, Nankai University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Gang",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "NITFID, School of Statistics and Data Science, AAIS, LPMC and KLMDASR, Nankai University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Basu, Sushmita",
+        "short_name": "Basu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Kurgan, Lukasz",
+        "short_name": "Kurgan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, VA, USA. Electronic address: lkurgan@vcu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2026 Sep 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/08 00:26",
+    "fetched_at": "2026-09-17 23:38:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41500381",
+      "39237195",
+      "34290238",
+      "40728619",
+      "39576583",
+      "31870849",
+      "37740110",
+      "40133791",
+      "30099775",
+      "41689628",
+      "28369666",
+      "37140058",
+      "38048333",
+      "32696351",
+      "40859602",
+      "32621220",
+      "40728621",
+      "37709009",
+      "40728620",
+      "31616935",
+      "38166858",
+      "24573480",
+      "39576584",
+      "31642118",
+      "28589442",
+      "40867524",
+      "23732563",
+      "39571839",
+      "36458437",
+      "36519304",
+      "39708500",
+      "24573479",
+      "16618368",
+      "42059199",
+      "34415020",
+      "27787828",
+      "29295714",
+      "32860044",
+      "26109352",
+      "40441416",
+      "35367597",
+      "38540707",
+      "34894985",
+      "17553833",
+      "33875885",
+      "31510679",
+      "23534882",
+      "21682902",
+      "30395465",
+      "33291838",
+      "31889261",
+      "40662788",
+      "26090958",
+      "31326853",
+      "40054813",
+      "34487138",
+      "17452345",
+      "27307636",
+      "33119734",
+      "31521235",
+      "40138319",
+      "36334049",
+      "39576585",
+      "32173600",
+      "35469832",
+      "34048569",
+      "30298407",
+      "33381830",
+      "39246251",
+      "29228892",
+      "27787825",
+      "40577786",
+      "36621533",
+      "20823312",
+      "25637562",
+      "18831774",
+      "37204193",
+      "20003388",
+      "37883249",
+      "30102367",
+      "28451967",
+      "25431331",
+      "18452616",
+      "38079339",
+      "25534081",
+      "40133785",
+      "40601261",
+      "20730460",
+      "29895149",
+      "19844580",
+      "19128505",
+      "30329008",
+      "32901090",
+      "22101336",
+      "34905768",
+      "29360926",
+      "23798504",
+      "31073595",
+      "27044036",
+      "39576586"
+    ],
+    "review": [
+      "41500381",
+      "37740110",
+      "41689628",
+      "31616935",
+      "28589442",
+      "35367597",
+      "33291838",
+      "31521235"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(26)00002-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

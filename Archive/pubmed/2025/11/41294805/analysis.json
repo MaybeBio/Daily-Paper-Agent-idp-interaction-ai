@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41294805",
+  "title": "In-Depth Study of Low-Complexity Domains: From Structural Diversity to Disease Mechanisms.",
+  "authors": "Xu, Haixia; Zhou, Kaili; Xia, Lianren; Ren, Kejin; Xu, Yongjie",
+  "journal": "Cells",
+  "published_date": "2025-11-26",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 7,
+  "one_liner_zh": "系统综述低复杂度结构域(LCD)的结构多样性、相分离与疾病机制，涵盖MD模拟与AI预测等计算方法，虽为综述且未深入具体PPI机制建模，但对象与互作机制高度相关，对课题有框架性启发。",
+  "abstract": "Low-complexity domains (LCDs) are protein regions characterized by a simple amino acid composition and low sequence complexity, as they are typically composed of repeats or a limited set of a few amino acids. Historically dismissed as \"garbage sequences\", these regions are now acknowledged as critical functional elements. This review systematically explores the structural characteristics, biological functions, pathological roles, and research methodologies associated with LCDs. Structurally, LCDs are marked by intrinsic disorder and conformational dynamics, with their amino acid composition (e.g., G/Y-rich, Q-rich, S/R-rich, P-rich) dictating structural tendencies (e.g., beta-sheet formation, phase separation ability). Functionally, LCDs mediate protein-protein interactions, drive liquid-liquid phase separation (LLPS) to form biomolecular condensates, and play roles in signal transduction, transcriptional regulation, cytoskeletal organization, and nuclear pore transportation. Pathologically, LCD dysfunction-such as aberrant phase separation or aggregation-is implicated in neurodegenerative diseases (e.g., ALS, AD), cancer (e.g., Ewing sarcoma), and prion diseases. We also summarize the methodological advances in LCD research, including biochemical (CD, NMR), structural (cryo-EM, HDX-MS), cellular (fluorescence microscopy), and computational (MD simulations, AI prediction) approaches. Finally, we highlight current challenges (e.g., structural heterogeneity, causal ambiguity of phase separation) and future directions (e.g., single-molecule techniques, AI-driven LCD design, targeted therapies). This review provides a comprehensive perspective on LCDs, illuminating their pivotal roles in cellular physiology and disease, and offering insights for future research and therapeutic development.",
+  "abstract_zh": "低复杂性结构域（LCDs）是一类以简单氨基酸组成和低序列复杂性为特征的蛋白质区域，通常由重复序列或少数几种氨基酸构成。历史上曾被贬为“垃圾序列”，这些区域如今被公认为关键的功能元件。本综述系统探讨了与LCDs相关的结构特征、生物学功能、病理作用及研究方法。在结构上，LCDs以内在无序性和构象动态性为标志，其氨基酸组成（如G/Y富集、Q富集、S/R富集、P富集）决定了结构倾向（如β-折叠形成、相分离能力）。在功能上，LCDs介导蛋白质-蛋白质相互作用，驱动液-液相分离（LLPS）形成生物分子凝聚体，并在信号转导、转录调控、细胞骨架组织和核孔运输中发挥作用。在病理上，LCDs功能失调——如异常相分离或聚集——与神经退行性疾病（如肌萎缩侧索硬化症、阿尔茨海默病）、癌症（如尤文肉瘤）及朊病毒病相关。我们还总结了LCDs研究的方法学进展，包括生化（圆二色谱、核磁共振）、结构（冷冻电镜、氢氘交换质谱）、细胞（荧光显微镜）及计算（分子动力学模拟、人工智能预测）方法。最后，我们强调了当前面临的挑战（如结构异质性、相分离的因果模糊性）和未来方向（如单分子技术、AI驱动的LCDs设计、靶向治疗）。本综述为LCDs提供了全面视角，阐明了它们在细胞生理和疾病中的关键作用，并为未来研究和治疗开发提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41294805/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41294805/",
+  "paper_page_path": "papers/pubmed/41294805/index.html"
+}

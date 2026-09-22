@@ -1,0 +1,284 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.06.26.734850",
+  "title": "Incorporating Surfaced-Induced Dissociation Mass Spectrometry Data into an AlphaFold-derived deep learning network improves protein structure prediction",
+  "doi": "10.64898/2026.06.26.734850",
+  "abstract": "Surface-Induced Dissociation native Mass Spectrometry (SID-nMS) is a tandem MS activation method that yields information on the connectivity and stoichiometry of protein complexes. While insufficient for direct structure elucidation, the data derived from SID-nMS has considerable potential to inform multimeric protein structure prediction. We hypothesized that incorporating this data into a machine-learning framework could improve multimer prediction accuracy beyond that of existing deep-learning methods. To this end, we developed SIDFold, a novel AlphaFold-based deep-learning network. SIDFold is the first AlphaFold-like network to leverage experimental data during protein complex prediction, and the first deep-learning network to utilize nMS data for structure prediction. We benchmarked SIDFold on the BETA protein set, and observed an improvement in RMSD in 138 of 227 cases including 27 targets in which the predicted structure attained near-native accuracy. We then evaluated the network on 20 proteins with experimental SID-nMS data, yielding an improved RMSD in 18 cases, with five of these cases improving to a high-accuracy complex. Finally, we tested SIDFold against a previously published SID-guided Rosetta docking method, where we saw improvement in 13 of 16 proteins. SIDFold is freely available on GitHub, with example files and commands available in the Supplementary Information.",
+  "authors": [
+    "Robert M. Bolz",
+    "Elijah H. Day",
+    "Zachary C. Drake",
+    "Sophie R. Harvey",
+    "Vicki H. Wysocki",
+    "Steffen Lindert"
+  ],
+  "published_date": "2026-06-29",
+  "updated_date": "2026-06-29T14:40:10Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.06.26.734850",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.26.734850.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T14:16:37Z",
+        "timestamp": 1785420997473,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                29
+              ]
+            ],
+            "date-time": "2026-06-29T00:00:00Z",
+            "timestamp": 1782691200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "RM1-GM149374"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RM1-GM149374"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Surface-Induced Dissociation native Mass Spectrometry (SID-nMS) is a tandem MS activation method that yields information on the connectivity and stoichiometry of protein complexes. While insufficient for direct structure elucidation, the data derived from SID-nMS has considerable potential to inform multimeric protein structure prediction. We hypothesized that incorporating this data into a machine-learning framework could improve multimer prediction accuracy beyond that of existing deep-learning methods. To this end, we developed SIDFold, a novel AlphaFold-based deep-learning network. SIDFold is the first AlphaFold-like network to leverage experimental data during protein complex prediction, and the first deep-learning network to utilize nMS data for structure prediction. We benchmarked SIDFold on the BETA protein set, and observed an improvement in RMSD in 138 of 227 cases including 27 targets in which the predicted structure attained near-native accuracy. We then evaluated the network on 20 proteins with experimental SID-nMS data, yielding an improved RMSD in 18 cases, with five of these cases improving to a high-accuracy complex. Finally, we tested SIDFold against a previously published SID-guided Rosetta docking method, where we saw improvement in 13 of 16 proteins. SIDFold is freely available on GitHub, with example files and commands available in the Supplementary Information.</jats:p>",
+      "DOI": "10.64898/2026.06.26.734850",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ],
+        "date-time": "2026-06-29T14:40:10Z",
+        "timestamp": 1782744010000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Incorporating Surfaced-Induced Dissociation Mass Spectrometry Data into an AlphaFold-derived deep learning network improves protein structure prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Robert M.",
+          "family": "Bolz",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of California, Los Angeles;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elijah H.",
+          "family": "Day",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, Los Angeles;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zachary C.",
+          "family": "Drake",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, Los Angeles;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sophie R.",
+          "family": "Harvey",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Ohio State University;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vicki H.",
+          "family": "Wysocki",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Georgia Institute of Technology;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3976-3473",
+          "authenticated-orcid": false,
+          "given": "Steffen",
+          "family": "Lindert",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UCLA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.06.26.734850",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ],
+        "date-time": "2026-06-29T14:40:10Z",
+        "timestamp": 1782744010000
+      },
+      "score": 61.98813,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.06.26.734850"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.64898/2026.06.26.734850",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

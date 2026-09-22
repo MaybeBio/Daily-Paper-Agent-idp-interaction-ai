@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35149212",
+  "title": "TAPASS: Tool for annotation of protein amyloidogenicity in the context of other structural states.",
+  "authors": "Falgarone, Theo; Villain, Etienne; Guettaf, Abdelkader; Leclercq, Jeremy; Kajava, Andrey V",
+  "journal": "Journal of structural biology",
+  "published_date": "2022-02-13",
+  "window": {
+    "start": "2022-02-07",
+    "end": "2022-02-13"
+  },
+  "score": 5,
+  "one_liner_zh": "TAPASS是一个结合IDR预测与淀粉样原性预测的注释工具，虽涉及IDR和聚集倾向，但聚焦于序列注释而非PPI互作机制建模，方法上仅整合现有预测器，缺乏AI/物理模拟的机制深度。",
+  "abstract": "Numerous studies have demonstrated that the propensity of a protein to form amyloids or amorphous aggregates is encoded by its amino acid sequence. This led to the emergence of several computational programs to predict amyloidogenicity from amino acid sequences. However, a growing number of studies indicate that an accurate prediction of the protein aggregation can only be achieved when also accounting for the overall structural context of the protein, and the likelihood of transition between the initial state and the aggregate. Here, we describe a computational pipeline called TAPASS, which was designed to do just that. The pipeline assigns each residue of a protein as belonging to a structured region or an intrinsically disordered region (IDR). For this purpose, TAPASS uses either several state-of-the-art programs for prediction of IDRs, of transmembrane regions and of structured domains or the artificial intelligence program AlphaFold. In the next step, this assignment is crossed with amyloidogenicity prediction. As a result, TAPASS allows the detection of Exposed Amyloidogenic Regions (EARs) located within intrinsically disordered regions (IDRs) and carrying high amyloidogenic potential. TAPASS can substantially improve the prediction of amyloids and be used in proteome-wide analysis to discover new amyloid-forming proteins. Its results, combined with clinical data, can create individual risk profiles for different amyloidoses, opening up new opportunities for personalised medicine. The architecture of the pipeline is designed so that it makes it easy to add new individual predictors as they become available. TAPASS can be used through the web interface (https://bioinfo.crbm.cnrs.fr/index.php?route=tools&tool=32).",
+  "abstract_zh": "大量研究表明，蛋白质形成淀粉样蛋白或无定形聚集体的倾向由其氨基酸序列编码。这促使了多种计算程序的出现，用于从氨基酸序列预测淀粉样蛋白生成能力。然而，越来越多的研究表明，只有在同时考虑蛋白质的整体结构背景以及初始状态与聚集体之间转变的可能性时，才能实现蛋白质聚集的准确预测。在此，我们描述了一种名为TAPASS的计算流程，其设计目的正是为此。该流程将蛋白质的每个残基分配为属于结构化区域或内在无序区域（IDR）。为此，TAPASS使用多种最先进的程序来预测IDR、跨膜区域和结构化域，或使用人工智能程序AlphaFold。在下一步中，此分配与淀粉样蛋白生成能力预测交叉结合。因此，TAPASS能够检测位于内在无序区域（IDRs）内且具有高淀粉样蛋白生成潜力的暴露淀粉样蛋白生成区域（EARs）。TAPASS可显著改善淀粉样蛋白的预测，并可用于蛋白质组-wide分析以发现新的淀粉样蛋白形成蛋白质。其结果与临床数据结合，可为不同淀粉样变性创建个体风险档案，为个性化医疗开辟新机遇。该流程的架构设计使其易于在出现新的个体预测器时进行添加。TAPASS可通过网页界面使用（https://bioinfo.crbm.cnrs.fr/index.php?route=tools&tool=32）。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35149212/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35149212/",
+  "paper_page_path": "papers/pubmed/35149212/index.html"
+}

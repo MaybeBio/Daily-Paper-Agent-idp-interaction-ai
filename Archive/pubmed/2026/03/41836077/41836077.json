@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "41836077",
+    "doi": "10.1055/a-2409-3840",
+    "title": "Fluorine-Thiol Displacement Stapling on the Disordered alpha(B) of pKID Domain Increases Its Helicity and Affinity to KIX."
+  },
+  "content": {
+    "abstract": "The development of high-affinity ligands specifically targeting intrinsically disordered protein interactions has remained challenging due to the lack of well-defined binding pockets and shallow binding surfaces commonly found at their interfaces. Here, we employed our fluorine-thiol displacement reaction (FTDR) peptide-stapling platform to synthesize a library of peptide-based ligands derived from the alpha(B)-helix of the disordered pKID to target its binding partner KIX. Our library revealed that helical formation and affinity to KIX is highly favored when the alpha(B) peptide was stapled at sites corresponding to Arg(135) and Ser(142), further supporting the hypothesis that stabilization of alpha(B) significantly influences the overall binding affinity of pKID to KIX. We also found that the highest binding peptide, alpha(B)-RSpS, may form secondary contacts at the MLL site on KIX in addition to binding at the primary pKID site. Lastly, no binding to KIX was observed for any alpha(B)-stapled peptide that lacked the conserved helix-flanking prolines Pro(132) and Pro(146). Conserved helix-flanking prolines have previously been shown to modulate the binding affinities of other disordered domains in other proteins including MLL and p53. However, to our knowledge this is the first evidence within alpha(B) of pKID.",
+    "keywords": [
+      "KIX",
+      "fluorine-thiol displacement reaction (FT-DR)",
+      "intrinsically disordered proteins (IDPs)",
+      "pKID",
+      "phosphorylation",
+      "stapled peptides"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cohen, Carson B",
+        "Andrews, Andrew J",
+        "Wang, Rongsheng E"
+      ],
+      "short_names": [
+        "Cohen CB",
+        "Andrews AJ",
+        "Wang RE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5749-7447"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA 19122, USA.",
+        "Department of Chemistry and Biochemistry, University of North Carolina Wilmington, Wilmington, NC 28403, USA.",
+        "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA 19122, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cohen, Carson B",
+        "short_name": "Cohen CB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA 19122, USA."
+        ]
+      },
+      {
+        "full_name": "Andrews, Andrew J",
+        "short_name": "Andrews AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of North Carolina Wilmington, Wilmington, NC 28403, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Rongsheng E",
+        "short_name": "Wang RE",
+        "identifiers": [
+          "0000-0002-5749-7447"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Temple University, 1901 N. 13th Street, Philadelphia, PA 19122, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Synlett : accounts and rapid communications in synthetic organic chemistry"
+    ],
+    "journal_abbrev": [
+      "Synlett"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/16 21:56",
+    "fetched_at": "2026-09-18 01:43:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38086054",
+      "35452454",
+      "35039490",
+      "33433199",
+      "32347317",
+      "31482116",
+      "30471705",
+      "29430847",
+      "29262364",
+      "29262363",
+      "28425697",
+      "27211267",
+      "26929989",
+      "26195786",
+      "25092343",
+      "25049401",
+      "24970129",
+      "24253305",
+      "23651431",
+      "22725662",
+      "22438798",
+      "20969867",
+      "18404207",
+      "12205094",
+      "12196545",
+      "11483993",
+      "10872467",
+      "10409749",
+      "9688563",
+      "9413984",
+      "8413673",
+      "2807730"
+    ],
+    "similar": [
+      "41836077",
+      "24970129",
+      "19220000",
+      "28786199",
+      "27054660",
+      "12205094",
+      "9558319",
+      "15019774",
+      "9413984",
+      "26195786",
+      "31482116",
+      "30232260",
+      "29262363",
+      "31624293",
+      "26580746",
+      "28425697",
+      "31226791",
+      "35058484",
+      "37072438",
+      "40818174",
+      "25002472",
+      "31515273",
+      "20969867",
+      "19654879",
+      "36703366",
+      "35452454",
+      "10222196",
+      "29262364",
+      "39547512",
+      "19278259",
+      "22725662",
+      "23651431",
+      "35298814",
+      "42472485",
+      "35233453",
+      "14624582",
+      "21268115",
+      "15515068",
+      "24211251",
+      "29890118",
+      "33382616",
+      "15796530",
+      "9688563",
+      "22803956",
+      "35039490",
+      "41381850",
+      "41477325",
+      "21244843",
+      "24753318",
+      "20949632",
+      "17522630",
+      "12196545",
+      "16761278",
+      "17707401",
+      "12437352",
+      "16253272",
+      "25564305",
+      "34491719",
+      "32226843",
+      "34224597",
+      "21497608",
+      "39754310",
+      "25651535",
+      "28002650",
+      "30731167",
+      "33284914",
+      "38218366",
+      "19894758",
+      "39714600",
+      "35047078",
+      "24253305",
+      "35758642",
+      "31586754",
+      "38196284",
+      "22438798",
+      "41174305",
+      "32098872",
+      "33310780",
+      "30832340",
+      "31893470",
+      "36714997",
+      "35762718",
+      "33283479",
+      "27341615",
+      "8552098",
+      "35605677",
+      "22474372",
+      "11094091",
+      "32325001",
+      "32323533",
+      "11017047",
+      "38086054",
+      "18401461",
+      "24446368",
+      "39186607",
+      "25215518",
+      "22090033",
+      "39177727",
+      "42000821",
+      "26854535"
+    ],
+    "review": [
+      "41836077",
+      "40818174"
+    ],
+    "pmc": [
+      "12981611"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41836077/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.thieme-connect.com/DOI/DOI?10.1055/a-2409-3840",
+        "provider": "Georg Thieme Verlag Stuttgart, New York",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

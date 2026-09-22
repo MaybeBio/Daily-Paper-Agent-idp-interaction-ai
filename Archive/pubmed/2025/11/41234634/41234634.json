@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "41234634",
+    "doi": "10.1016/j.bbrep.2025.102318",
+    "title": "Inhibition of alpha-synuclein aggregation by hesperidin as a potent anti-amyloidogenic polyphenol: A computational approach and MM-PBSA /ADMET analysis."
+  },
+  "content": {
+    "abstract": "A significant part of amyloidogenic illnesses is played by protein misfolding and aggregation caused by intrinsically disordered protein (IDP) self-assembly in Parkinson's disease (PD). In PD, cytotoxic amyloid aggregates of aberrant alpha-synuclein (alpha-syn) are formed in motor neurons, causing neurodegeneration. Beta-sheet-rich amyloid aggregates are a promising target for mitigating their neurodegenerative consequences. A significant amount of work has been invested in developing chemical compounds that either prevent aggregates from forming or facilitate their breakdown. Finding them might provide a workable strategy for creating a powerful remedy. Several studies indicate that neurological disorders can be treated using small-molecule inhibitors derived from polyphenolic flavonoid compounds. We have thus identified a potential flavonoid molecule that can effectively inhibit the amyloidogenic activity of alpha-syn through molecular docking and molecular dynamics (MD) simulations. Hesperidin, Morin, and Myricetin were shown to be potential therapeutic leads in the initial screening of flavonoids. Compared to other compounds, the hesperidin-alpha-Syn combination showed a larger residual energy contribution (DeltaE binding -92.69 +/- 0.31 kJ mol(-1)) and significant binding (6.58 kcal/mol). Secondary structural analysis showed an increased tendency for beta-sheets (35 %), with the percentage of beta-sheets decreasing in the presence of Hesperidin (29 %). The results showed that Hesperidin binding resulted in a significant reduction in hydrogen bonding between alpha-syn peptide chains compared to unbound protein. The findings demonstrated that, in contrast to other compounds, Hesperidin alters protein flexibility, hydrophobicity, and structural stability. Therefore, Hesperidin may be a promising treatment option to reduce the negative consequences of PD by efficiently mitigating alpha-syn amyloid-induced neurotoxicity.",
+    "keywords": [
+      "Aggregation",
+      "Flavonoid compounds",
+      "Hesperidin",
+      "MD simulation",
+      "Parkinson's disease",
+      "alpha-Syn"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Waheed, Zainab Abdullah",
+        "Aboud, Haider Khabt",
+        "Al-Awadi, Jasem Hanoon Hashim",
+        "Al-Mousawy, Azhaar Mousa Jaffar",
+        "Alzubaidi, Khudhair Rashid Khudhair"
+      ],
+      "short_names": [
+        "Waheed ZA",
+        "Aboud HK",
+        "Al-Awadi JHH",
+        "Al-Mousawy AMJ",
+        "Alzubaidi KRK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Laboratory Techniques, Institute of Medical Technology-Al Mansour, Middle Technical University, Baghdad, Iraq.",
+        "Department of Chemistry, College of Science, University of Babylon, Babylon, Iraq.",
+        "Department of Biology, College of Science, University of Kerbala, Karbala, Iraq.",
+        "Department Medical Laboratory Techniques, University of Al-Furat Al-Awsat Technical, Karbala, Iraq.",
+        "Department of Animal Biology, Faculty of Natural Sciences, University of Tabriz, Tabriz, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Waheed, Zainab Abdullah",
+        "short_name": "Waheed ZA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Laboratory Techniques, Institute of Medical Technology-Al Mansour, Middle Technical University, Baghdad, Iraq."
+        ]
+      },
+      {
+        "full_name": "Aboud, Haider Khabt",
+        "short_name": "Aboud HK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Science, University of Babylon, Babylon, Iraq."
+        ]
+      },
+      {
+        "full_name": "Al-Awadi, Jasem Hanoon Hashim",
+        "short_name": "Al-Awadi JHH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, University of Kerbala, Karbala, Iraq."
+        ]
+      },
+      {
+        "full_name": "Al-Mousawy, Azhaar Mousa Jaffar",
+        "short_name": "Al-Mousawy AMJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department Medical Laboratory Techniques, University of Al-Furat Al-Awsat Technical, Karbala, Iraq."
+        ]
+      },
+      {
+        "full_name": "Alzubaidi, Khudhair Rashid Khudhair",
+        "short_name": "Alzubaidi KRK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal Biology, Faculty of Natural Sciences, University of Tabriz, Tabriz, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemistry and biophysics reports"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Rep"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/14 06:28",
+    "fetched_at": "2026-09-17 21:54:51"
+  },
+  "links": {
+    "cites": [
+      "41515487"
+    ],
+    "refs": [
+      "40740469",
+      "40475252",
+      "39978523",
+      "39818366",
+      "39384788",
+      "39300574",
+      "38365968",
+      "38344317",
+      "38106662",
+      "37975411",
+      "37844376",
+      "37574034",
+      "37125909",
+      "37079169",
+      "37062475",
+      "36986700",
+      "36961221",
+      "36845075",
+      "36644444",
+      "36305812",
+      "36077418",
+      "35430422",
+      "33997868",
+      "33418408",
+      "33092300",
+      "32726718",
+      "32632432",
+      "32425781",
+      "32172082",
+      "31234550",
+      "30941047",
+      "30759833",
+      "30597838",
+      "30446211",
+      "30250262",
+      "30030591",
+      "29360284",
+      "28721824",
+      "28667699",
+      "28636593",
+      "28238838",
+      "27725131",
+      "27677544",
+      "27079181",
+      "26807648",
+      "26723627",
+      "26620784",
+      "26050140",
+      "25904081",
+      "25860834",
+      "25630717",
+      "25510196",
+      "25434716",
+      "25135708",
+      "24963318",
+      "24850022",
+      "24582872",
+      "24509154",
+      "24287782",
+      "24058647",
+      "23964651",
+      "22024360",
+      "21740906",
+      "20401887",
+      "20385841",
+      "20014752",
+      "19538146",
+      "19483195",
+      "19264523",
+      "18586394",
+      "18550842",
+      "17376994",
+      "16756495",
+      "16492146",
+      "16303137",
+      "16216923",
+      "15869310",
+      "15602548",
+      "15510220",
+      "15096521",
+      "14685252",
+      "12672864",
+      "12550068",
+      "12461550",
+      "11560511",
+      "11448533",
+      "11052779",
+      "10781096",
+      "10592235",
+      "10390246"
+    ],
+    "similar": [
+      "41234634",
+      "37844376",
+      "36961221",
+      "37741548",
+      "35657723",
+      "40490169",
+      "39693815",
+      "37198991",
+      "37431676",
+      "40882443",
+      "37574034",
+      "30853581",
+      "39651184",
+      "29866153",
+      "40912022",
+      "29888220",
+      "37923923",
+      "35139916",
+      "36499173",
+      "36877087",
+      "34987244",
+      "30917654",
+      "40383467",
+      "31416122",
+      "40475252",
+      "37011370",
+      "27934063",
+      "28872299",
+      "34290084",
+      "37824095",
+      "37975411",
+      "40339505",
+      "31920537",
+      "29286644",
+      "31939603",
+      "36314062",
+      "15180968",
+      "36966976",
+      "32959853",
+      "32431588",
+      "23339399",
+      "40515635",
+      "33024142",
+      "29953467",
+      "35584603",
+      "35681426",
+      "26601760",
+      "39084146",
+      "33997868",
+      "40020199",
+      "38368711",
+      "37976808",
+      "25093402",
+      "41211461",
+      "37238596",
+      "36373662",
+      "40763859",
+      "30290273",
+      "38365968",
+      "32833434",
+      "39046235",
+      "38631541",
+      "36644543",
+      "26972727",
+      "37125909",
+      "41381387",
+      "30796974",
+      "31925956",
+      "32005664",
+      "36550041",
+      "39947752",
+      "39389237",
+      "31142553",
+      "38731658",
+      "38637513",
+      "37466885",
+      "21271629",
+      "32172082",
+      "37429595",
+      "33610557",
+      "39936279",
+      "40502653",
+      "38801346",
+      "38905183",
+      "40345607",
+      "40486190",
+      "27136297",
+      "31505208",
+      "36061735",
+      "36278939",
+      "32277934",
+      "39857706",
+      "26852372",
+      "41309197",
+      "35728509",
+      "36999415",
+      "32291284",
+      "31188372",
+      "37433401",
+      "25937088"
+    ],
+    "review": [
+      "41234634",
+      "37198991",
+      "30853581",
+      "36966976",
+      "35681426",
+      "36373662",
+      "26972727",
+      "39947752",
+      "39389237",
+      "32172082",
+      "38905183",
+      "40486190",
+      "27136297",
+      "32277934",
+      "26852372"
+    ],
+    "pmc": [
+      "12605934"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-5808(25)00405-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41234634/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

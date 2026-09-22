@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, experimental design logic, and interpretation as presented in the text; no assessment of data quality beyond what is described
+- **Shared manuscript claim summary** The authors test whether orthologs of the Drosophila melanogaster orphan gene goddard (gdrd) retain function when expressed in D. melanogaster, and find that a highly divergent ortholog from D. mojavensis fully rescues fertility, while other orthologs fail, correlating with altered subcellular localization and physicochemical properties of terminal intrinsically disordered regions
+- **Visible evidence base** Text descriptions of cross-species gene swap assays, fertility counts, immunohistochemistry, western blots, AlphaFold2 predictions, molecular dynamics simulations, and SHARK-Dive/Capture analyses; figure references are given but figures themselves are not provided
+- **Missing materials affecting confidence** All figures, tables, supplementary figures, and supplementary text; raw data files; statistical output details; exact sample sizes for some experiments; western blot images; confocal images
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in evolutionary biology: whether orphan gene function is conserved or diverges across species. The experimental approach, using cross-species gene swaps in Drosophila testes, is well conceived and the finding that a highly divergent ortholog can fully rescue function is striking and of broad interest. However, the manuscript as presented has several gaps that prevent full evaluation. The absence of figures and supplementary materials makes it impossible to verify the central claims about localization, expression levels, and structural stability. The interpretation that terminal IDR physicochemical properties explain functional differences is correlative and would benefit from direct experimental tests. The discussion is thoughtful but at times speculative. Overall, the study has strong potential but requires additional evidence and clarification before the conclusions are fully established.
+- **Who would be interested in the results, and why** Evolutionary biologists studying de novo gene birth and orphan gene evolution will find this directly relevant. Researchers working on spermatogenesis and reproductive proteins in Drosophila will also be interested. More broadly, the finding that intrinsically disordered regions can evolve rapidly while maintaining function through physicochemical rather than sequence conservation speaks to the protein evolution and biophysics communities. The methodological combination of gene swaps, imaging, and computational predictions provides a template for similar studies in other systems.
+- **Major strengths** The study addresses a fundamental question about orphan gene evolution with a direct functional assay. The finding that a highly divergent ortholog from a different subgenus fully rescues fertility is surprising and important. The combination of experimental genetics, cell biology, and computational biophysics is integrative and appropriate. The authors are appropriately cautious in interpreting negative results and acknowledge limitations of the gene swap approach. The use of alignment-free methods to detect physicochemical conservation in IDRs is innovative and well justified.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that all orthologs retain some axonemal localization, but those with diminished axonemal binding fail to restore fertility.
+  - **Evidence pointer** Figure 5, Figure S8, "location not provided" for specific quantification
+  - **Concern** The central claim linking axonemal localization strength to functional rescue is presented without quantitative data in the text. The authors state that D. virilis and D. ananassae orthologs "localize weakly" to axonemes, but no quantification of fluorescence intensity, colocalization coefficients, or statistical comparisons are described. Without such data, the correlation between localization strength and rescue ability cannot be rigorously evaluated.
+  - **Why it matters** This correlation is a key piece of evidence supporting the model that functional divergence arises from altered protein interactions at the axoneme. If the localization differences are not robustly quantified, the conclusion is weakened.
+  - **Resolution test** Provide quantitative measurements of axonemal localization (e.g., fluorescence intensity ratios, percentage of cysts with detectable localization) with statistical tests comparing rescuing versus non-rescuing orthologs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical rigor
+  - **Claim pointer** The authors claim that MD simulations show D. ananassae and D. grimshawi orthologs are less stable, correlating with poor expression in D. melanogaster.
+  - **Evidence pointer** Figure 7, Figure 3A, "location not provided"
+  - **Concern** The text states that D. ananassae and D. grimshawi proteins are "weakly detectable" on western blots, and MD simulations suggest instability. However, the connection between predicted instability and observed low expression is not established. Low expression could result from mRNA instability, translation efficiency, or protein degradation, none of which are directly tested. The MD simulations are performed on isolated proteins in silico, and their relevance to in vivo stability is assumed rather than demonstrated.
+  - **Why it matters** The authors use this correlation to argue that intrinsic protein properties explain functional differences. If expression differences are due to other factors, the interpretation changes substantially.
+  - **Resolution test** Measure protein half-lives in vivo, test mRNA stability, or perform domain-swap experiments to directly test whether the terminal IDRs confer instability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive rigor
+  - **Claim pointer** The authors claim that the D. ananassae ortholog acts as a dominant negative or interferes with spermatogenesis, based on more severe defects than the null mutant.
+  - **Evidence pointer** Figure 4C, "location not provided"
+  - **Concern** The observation that D. ananassae expression causes more severe defects than the null is intriguing, but the mechanism is unclear. The authors suggest interference with spermatogenesis but do not test this directly. The fertility data in the D. ananassae rescue line could reflect transgene insertion effects, expression timing differences, or other artifacts.
+  - **Why it matters** This finding is presented as evidence for lineage-specific functional divergence, but alternative explanations are not excluded.
+  - **Resolution test** Test additional independent insertion lines, examine spermatogenesis phenotypes in detail, and test whether co-expression with endogenous gdrd rescues or exacerbates the phenotype.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that D. yakuba partially rescues fertility, restoring 4-43% of wild-type levels across replicates.
+  - **Evidence pointer** Figure 4A, Figure S9, "location not provided"
+  - **Concern** The wide range of rescue values across replicates (4-43%) is concerning. The authors do not report the number of replicates, the source of variability, or whether this variation is biological or technical. The statistical analysis is described only as t-tests with unequal variances, which may not be appropriate for proportional data.
+  - **Why it matters** The partial rescue phenotype is used to support a graded model of functional divergence. If the variability is not understood, the reliability of this conclusion is questionable.
+  - **Resolution test** Report full statistical details, including replicate numbers, effect sizes, and confidence intervals. Consider using generalized linear models appropriate for count or proportional data.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic insight
+  - **Claim pointer** The authors propose that physicochemical properties of terminal IDRs, identified by SHARK-Dive and SHARK-Capture, explain functional differences between orthologs.
+  - **Evidence pointer** Figure 6, Figure S14, "location not provided"
+  - **Concern** The SHARK analyses identify motifs and similarity scores, but the mechanistic link to function is not established. The authors do not test whether mutating these motifs in a rescuing ortholog abolishes function, or whether transplanting them into a non-rescuing ortholog confers function. The correlation between motif presence and rescue ability is based on a small number of orthologs.
+  - **Why it matters** The claim that specific physicochemical features drive functional divergence is a central conclusion. Without direct tests, this remains speculative.
+  - **Resolution test** Perform site-directed mutagenesis of identified motifs in the D. melanogaster and D. mojavensis orthologs and test for effects on rescue and localization.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "location not provided"
+  - **Issue** The abstract states that "several orthologs, including one from a more closely related species, cannot substitute for the melanogaster gene" but does not specify which species. This level of vagueness is unusual for a Nature-style abstract.
+  - **Required correction** Name the specific species or provide a brief phylogenetic context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Fertility assay
+  - **Evidence pointer** Methods, "Fertility assay"
+  - **Issue** The fertility assay uses pupal case counts as a proxy for progeny number. The authors do not state whether pupal case counts correlate with adult emergence or whether any pupal lethality was observed.
+  - **Required correction** Clarify the relationship between pupal case counts and fertility, or report adult progeny counts as well.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** MD simulation analysis
+  - **Evidence pointer** Methods, "Structure predictions and MD simulations"
+  - **Issue** The statistical analysis of MD simulation data is described as Kruskal-Wallis tests followed by Dunn's post-hoc tests, but the text does not report which comparisons were significant or the effect sizes.
+  - **Required correction** Report the specific significant comparisons and effect sizes in the results or supplementary materials.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "Conservation and structural maintenance over a deep evolutionary timescale along with divergence"
+  - **Issue** The comparison to bag of marbles (bam) is interesting but brief. The authors note that bam has lost essential function in some lineages, but do not discuss whether the mechanisms of loss are similar to what they observe for gdrd.
+  - **Required correction** Expand the comparison or remove it if it does not add substantive insight.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Expression of codon-optimized gdrd orthologs in D. melanogaster"
+  - **Evidence pointer** "location not provided"
+  - **Issue** The text states that "all tested orthologs maintain localization to the transition zones" but the D. grimshawi ortholog was excluded from analysis due to weak expression. This is contradictory.
+  - **Required correction** Clarify whether D. grimshawi was included in the transition zone analysis or explicitly state that it was excluded.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative localization data), R1-M2 (mechanistic link between predicted instability and expression), R1-M4 (statistical rigor of fertility data)
+- **Assessment against Nature-style criteria** Originality: High. The study addresses a fundamental question about orphan gene evolution with a direct functional test, and the finding of full rescue by a highly divergent ortholog is novel. Scientific importance: High. The results have implications for understanding how de novo genes integrate into conserved pathways and how IDRs evolve. Interdisciplinary readership: Moderate to high. The topic will appeal to evolutionary biologists, cell biologists, and protein biophysicists, though the Drosophila-specific focus may limit broader appeal. Technical soundness: The experimental design is generally sound, but the lack of quantitative data for key claims and the correlative nature of the computational analyses weaken the current version. Readability for nonspecialists: The manuscript is generally well written and accessible, though some sections assume familiarity with Drosophila spermatogenesis and computational methods. The abstract is clear but could be more specific.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is potentially important, but the manuscript requires quantitative localization data, a more rigorous treatment of the expression-stability correlation, and additional statistical detail before the conclusions are fully established.
+
+## Risk / unsupported claims
+- The claim that "all orthologs retain some axonemal localization" is not supported by quantitative data in the text.
+- The claim that MD simulation instability explains low expression of D. ananassae and D. grimshawi orthologs is correlative and not directly tested.
+- The claim that the D. ananassae ortholog interferes with spermatogenesis is based on a single observation and alternative explanations are not excluded.
+- The claim that specific physicochemical motifs in terminal IDRs are functionally important is based on computational predictions and has not been experimentally validated.
+- The statement that "the ancestral gdrd gene likely already performed the core functions found in extant D. melanogaster" is an inference from a single rescuing ortholog and is not directly testable from the presented data.

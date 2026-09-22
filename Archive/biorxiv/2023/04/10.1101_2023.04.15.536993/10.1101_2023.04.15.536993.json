@@ -1,0 +1,270 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.15.536993",
+  "title": "Rapid protein-protein interaction network creation from multiple sequence alignments with Deep Learning",
+  "doi": "10.1101/2023.04.15.536993",
+  "abstract": "AlphaFold2 (AF) can evaluate protein-protein interactions (PPIs) with high accuracy by finding evolutionary signals between proteins but comes with a high computational cost. Here, we speed up the prediction with AF for PPI network prediction 40x and reduce the disk space requirements 4000x for a set of 1000 proteins. Our protocol is easy to install and freely available from: https://github.com/patrickbryant1/SpeedPPI .",
+  "authors": [
+    "Patrick Bryant",
+    "Frank Noé"
+  ],
+  "published_date": "2023-04-17",
+  "updated_date": "2023-04-17T13:55:29Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.15.536993",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.15.536993.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            24
+          ]
+        ],
+        "date-time": "2026-02-24T22:14:16Z",
+        "timestamp": 1771971256432,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            17
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 18,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  AlphaFold2 (AF) can evaluate protein-protein interactions (PPIs) with high accuracy by finding evolutionary signals between proteins but comes with a high computational cost. Here, we speed up the prediction with AF for PPI network prediction 40x and reduce the disk space requirements 4000x for a set of 1000 proteins. Our protocol is easy to install and freely available from:\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/patrickbryant1/SpeedPPI\">https://github.com/patrickbryant1/SpeedPPI</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2023.04.15.536993",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            17
+          ]
+        ],
+        "date-time": "2023-04-17T13:55:29Z",
+        "timestamp": 1681739729000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 9,
+      "title": [
+        "Rapid protein-protein interaction network creation from multiple sequence alignments with Deep Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3439-1866",
+          "authenticated-orcid": false,
+          "given": "Patrick",
+          "family": "Bryant",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4169-9324",
+          "authenticated-orcid": false,
+          "given": "Frank",
+          "family": "Noé",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.1",
+          "first-page": "1",
+          "article-title": "Recent advances in the development of protein–protein interactions modulators: mechanisms and clinical trials",
+          "volume": "5",
+          "year": "2020",
+          "journal-title": "Signal Transduction and Targeted Therapy"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2005.08.029"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc3690"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-27838-9"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "216",
+          "DOI": "10.1038/s41594-022-00910-8",
+          "article-title": "Towards a structurally resolved human protein interaction network",
+          "volume": "30",
+          "year": "2023",
+          "journal-title": "Nat Struct Mol Biol"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.01.18.524543"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1100"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.9",
+          "unstructured": "BFD Download. Available: https://bfd.mmseqs.com/."
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-02974-x"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0437-4"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz1035"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm098"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-3019-7"
+        },
+        {
+          "key": "2023042002351144000_2023.04.15.536993v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pmic.201500187"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.04.15.536993",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:33:27Z",
+        "timestamp": 1768451607000
+      },
+      "score": 79.41453,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.04.15.536993"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            17
+          ]
+        ]
+      },
+      "references-count": 18,
+      "URL": "https://doi.org/10.1101/2023.04.15.536993",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

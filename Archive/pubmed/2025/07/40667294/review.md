@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, and evidence presented in the manuscript; no external validation or replication attempted
+- **Shared manuscript claim summary** The authors propose that specificity of client protein partitioning into MED1IDR condensates can be explained by multivalent electrostatic interactions among disordered regions, without invoking ordered-structure-mediated interactions. They introduce a Flory-Huggins Random Phase Approximation (FH-RPA) model that predicts partition coefficients (PCs) based on sequence charge patterning, validate it against previously published experimental data, and test new predictions in cell-based assays.
+- **Visible evidence base** Abstract, Introduction, Results, Discussion, Materials and Methods, Supplementary Figure references, Statistical analysis section
+- **Missing materials affecting confidence** Supplementary figures (S1–S5), Supplementary tables (S1, S2), full figure panels (Fig. 1–4 referenced but not all shown in text), raw microscopy images, code repository details (EPIC-IDP), and complete statistical outputs
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in the field of biomolecular condensates: whether specificity of client partitioning can arise from statistical, multivalent interactions among disordered regions. The authors present a computationally efficient analytical model (FH-RPA) that captures sequence charge patterning effects on partitioning, validate it against existing experimental data, and provide new experimental validation for predictions. The work is conceptually interesting and the model is a useful addition to the field. However, several technical concerns regarding model assumptions, parameter fitting, and the strength of experimental validation limit the current case. The claim that specificity "can emerge" from multivalent interactions is supported, but the broader claim that this mechanism "largely explains" selective partitioning requires more rigorous quantitative comparison and consideration of alternative contributions.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, intrinsically disordered proteins, phase separation, and transcriptional regulation. The model provides a fast, sequence-based prediction tool that could be broadly useful for identifying candidate IDRs involved in condensate partitioning. The evolutionary conservation analysis (Fig. 3) may interest those studying IDR function and evolution.
+- **Major strengths** 1) The FH-RPA model is computationally efficient and provides a physically grounded, sequence-based predictor of partitioning behavior. 2) The authors validate the model against a substantial set of previously published experimental data (31 IDRs) and show improved correlation over mean-field theory alone. 3) The inclusion of non-electrostatic corrections (Mpipi potential) to address outliers is a thoughtful step toward a more complete model. 4) The experimental validation of new predictions, including cross-species conservation, strengthens the practical utility of the approach. 5) The manuscript is clearly written and the conceptual framing (statistical vs. site-specific interactions) is valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The FH-RPA model "can largely explain" selective partitioning of IDRs into MED1IDR condensates based on multivalent electrostatic interactions.
+  - **Evidence pointer** Results section "FH-RPA model rationalizes effects of charge scrambling on IDR PCs"; Fig. 2H, 2J; Fig. 4F, 4I, 4L
+  - **Concern** The correlation between predicted and experimental PCs is reported as r≈0.67 (optimized) and r≈0.65 (physical parameters). While this is a moderate correlation, the manuscript does not report the coefficient of determination (R²), which would be approximately 0.42–0.45, indicating that over half of the variance in experimental PCs is unexplained by the model. The claim that the model "largely explains" selective partitioning is therefore overstated. Additionally, the model fitting procedure (optimizing lB, κ, a) is not described in sufficient detail to assess whether the reported correlation could be inflated by overfitting. The number of free parameters (3) relative to the number of data points (31) is not large, but the optimization procedure and the range of parameter space explored should be explicitly stated.
+  - **Why it matters** The central claim of the manuscript hinges on the quantitative predictive power of the model. If the model explains less than half of the variance, the conclusion that multivalent electrostatic interactions "largely" underpin specificity is not fully supported. Overfitting or parameter fine-tuning could further weaken the case.
+  - **Resolution test** Provide R² values and confidence intervals for the correlations. Describe the parameter optimization procedure in detail, including the range of parameter values tested and whether the optimized parameters are physically reasonable. Perform a cross-validation analysis (e.g., leave-one-out) to assess predictive power on unseen data. If the correlation drops substantially under cross-validation, temper the claim accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The FH-RPA model successfully identifies high-PC regions in full-length proteins (CTR9, SPT6) that match experimentally defined regions necessary and sufficient for partitioning.
+  - **Evidence pointer** Results section "FH-RPA model successfully identifies high-PC regions in proteins"; Fig. 3A–3C
+  - **Concern** The identification of high-PC regions is based on a sliding window of 200 residues and a threshold of 90% of the maximum predicted PC. The manuscript does not provide a null expectation or statistical significance for the overlap between predicted high-PC regions and experimentally defined regions. For example, if the experimentally defined region is large (e.g., several hundred residues), the probability of overlap by chance could be substantial. The authors should provide a statistical test (e.g., permutation test) to demonstrate that the overlap is non-random. Additionally, the choice of 200-residue window and 90% threshold appears arbitrary; sensitivity analysis to these parameters is needed.
+  - **Why it matters** The claim that the model can identify functionally relevant regions within full-length proteins is a key practical application. Without a statistical framework, the observed overlap could be coincidental, undermining the utility of the method for scanning proteomes.
+  - **Resolution test** Perform permutation tests (e.g., randomly shuffle the PC profile or the experimentally defined region) to establish the probability of observed overlap by chance. Vary the window size (e.g., 100, 150, 250, 300) and threshold (e.g., 80%, 95%) to show that the identification of high-PC regions is robust.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The model's predictions are "subsequently experimentally validated" for novel IDRs (Fig. 4).
+  - **Evidence pointer** Results section "FH-RPA model successfully predicts low-PC and high-PC IDR windows"; Fig. 4E, 4F, 4H, 4I, 4K, 4L
+  - **Concern** The experimental validation of new predictions is presented qualitatively. For high-PC predictions, the authors report significant enrichment relative to mCherry control, but the effect sizes and variability are not fully described. For low-PC predictions, three of seven (43%) were not validated (i.e., they partitioned despite low predicted PC). The authors attribute this to non-electrostatic interactions, but the manuscript does not provide a quantitative framework for when such contributions are expected to dominate. The statement that the model "successfully predicts" low-PC regions is therefore only partially supported.
+  - **Why it matters** The predictive power of the model for novel sequences is a central claim. A 57% success rate for low-PC predictions is modest and suggests the model may miss important non-electrostatic contributions. The authors should be more nuanced in their claims and provide a clearer discussion of the limitations.
+  - **Resolution test** Provide effect sizes and confidence intervals for all experimental measurements. For the three outliers, discuss whether their sequence features (e.g., aromatic content, hydrophobicity) are consistent with the proposed non-electrostatic explanation. Consider whether a combined electrostatic + non-electrostatic predictor could improve the low-PC prediction accuracy.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The sliding-window analysis and FH-RPA model account for "multivalent interactions among disordered regions" in a manner that captures the physics of condensate partitioning.
+  - **Evidence pointer** Materials and Methods "A general screened electrostatic potential and the FH-RPA formulation"; Fig. 1
+  - **Concern** The model assumes a preformed MED1IDR condensate and treats the client IDR as a single chain interacting with the scaffold. This is a significant simplification. Real condensates are multi-chain, dynamic systems where client-client interactions, scaffold architecture, and stoichiometry may all influence partitioning. The manuscript does not discuss how these simplifications might affect the predictive power of the model, nor does it compare the FH-RPA approach to alternative theoretical frameworks (e.g., field-theoretic simulations, coarse-grained molecular dynamics) that have been used to study similar questions.
+  - **Why it matters** The claim that the model captures the "physics" of partitioning requires justification that the simplifications do not qualitatively alter the conclusions. Without comparison to more detailed models or discussion of the assumptions' validity, the generalizability of the approach is unclear.
+  - **Resolution test** Add a discussion section addressing the limitations of the single-chain assumption and the preformed scaffold approximation. If possible, compare FH-RPA predictions to those from a more detailed simulation (e.g., coarse-grained MD) for a subset of sequences to demonstrate consistency.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The model is presented as a "high throughput method" for predicting IDR partitioning.
+  - **Evidence pointer** Introduction; Results section "The FH-RPA model"
+  - **Concern** The computational cost and scalability of the method are not quantified. The manuscript states that the sliding-window analysis requires ~N³ energy calculations per pair, which could be prohibitive for very long IDRs or proteome-wide scans. The FH-RPA calculation itself is described as efficient, but no benchmarks are provided. For a method intended for high-throughput use, runtime and memory requirements should be reported.
+  - **Why it matters** The practical utility of the method depends on its computational efficiency. If the method is not scalable to large datasets, its applicability is limited.
+  - **Resolution test** Provide benchmark calculations showing runtime as a function of sequence length for both the sliding-window and FH-RPA methods. Discuss the feasibility of proteome-wide scans with current computational resources.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Results section "The FH-RPA model"
+  - **Evidence pointer** Equations 1–5
+  - **Issue** The derivation of the FH-RPA model is presented in a condensed form, and the physical meaning of key quantities (e.g., the smearing length a, the reference density ρ0) is not explained in the main text. Nonspecialist readers may struggle to understand the model's assumptions and limitations.
+  - **Required correction** Provide a brief, intuitive explanation of the model's key parameters and assumptions in the main text, with a more detailed derivation in the SI.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "FH-RPA model can be improved by including non-electrostatic effects"
+  - **Evidence pointer** Fig. 4M
+  - **Issue** The use of the Mpipi potential to compute non-electrostatic contributions is described, but the specific implementation (e.g., how the potential is parameterized, how it is combined with the electrostatic term) is not detailed in the main text. The results in Fig. 4M are presented as a single set of energy values without error estimates.
+  - **Required correction** Provide details of the Mpipi implementation in the SI, and include error estimates or sensitivity analysis for the non-electrostatic energy calculations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The discussion of the evolutionary conservation of PC profiles is interesting but brief. The authors do not discuss potential mechanisms for conservation of a biophysical property (PC) in the absence of sequence conservation, which is a key conceptual point.
+  - **Required correction** Expand the discussion to address how selection might act on PC as a biophysical property and what this implies for IDR evolution.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results section "FH-RPA model successfully predicts low-PC and high-PC IDR windows"
+  - **Evidence pointer** Fig. 4
+  - **Issue** The criteria for selecting the 11 IDR windows for experimental testing (4 high-PC, 7 low-PC) are not fully described. The authors mention filtering for charge properties but do not specify the full selection pipeline.
+  - **Required correction** Provide a clear description of the selection criteria, including any thresholds for charge composition, length, or other features.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods "Statistics"
+  - **Evidence pointer** Statistics section
+  - **Issue** The statistical methods are described briefly. For the ANOVA and t-tests, the assumptions (e.g., normality, homogeneity of variance) are not discussed, and effect sizes are not reported.
+  - **Required correction** Provide more detail on statistical assumptions and report effect sizes (e.g., Cohen's d) alongside p-values.
+
+## Risk / unsupported claims
+- The claim that the FH-RPA model "largely explains" selective partitioning is not fully supported by the reported correlation (r≈0.67, R²≈0.45), which leaves a substantial portion of variance unexplained.
+- The identification of high-PC regions in full-length proteins (Fig. 3) lacks a statistical framework to rule out chance overlap with experimentally defined regions.
+- The experimental validation of low-PC predictions is incomplete (57% success rate), and the proposed non-electrostatic explanation for outliers is not quantitatively tested.
+- The model's assumption of a preformed scaffold and single-chain client is a simplification whose impact on predictive power is not assessed.
+- The computational efficiency of the method for high-throughput use is not demonstrated with benchmarks.
+- The evolutionary conservation analysis (Fig. 3D–3M) is suggestive but lacks a formal test of whether PC conservation exceeds what would be expected by chance given the limited sequence conservation.

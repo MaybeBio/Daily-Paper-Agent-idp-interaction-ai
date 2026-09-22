@@ -1,0 +1,296 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.02.610853",
+  "title": "Methods for high throughput discovery of fluoroprobes that recognize tau fibril polymorphs",
+  "doi": "10.1101/2024.09.02.610853",
+  "abstract": "Aggregation of microtubule-associated protein tau (MAPT/tau) into conformationally distinct fibrils underpins neurodegenerative tauopathies. Fluorescent probes (fluoroprobes), such as thioflavin T (ThT), have been essential tools for studying tau aggregation; however, most of them do not discriminate between amyloid fibril conformations (polymorphs). This gap is due, in part, to a lack of high-throughput methods for screening large, diverse chemical collections. Here, we leverage advances in protein adaptive differential scanning fluorimetry (paDSF) to screen the Aurora collection of 300+ fluorescent dyes against multiple synthetic tau fibril polymorphs. This screen, coupled with orthogonal secondary assays, revealed pan-fibril binding chemotypes, as well as fluoroprobes selective for subsets of fibrils. One fluoroprobe recognized tau pathology in ex vivo brain slices from Alzheimer’s disease patients. We propose that these scaffolds represent entry points for development of selective fibril ligands and, more broadly, that high throughput, fluorescence-based dye screening is a platform for their discovery.",
+  "authors": [
+    "Carroll EC",
+    "Yang H",
+    "Jones JG",
+    "Oehler A",
+    "Charvat AF",
+    "Montgomery KM",
+    "Yung A",
+    "Millbern Z",
+    "Vinueza NR",
+    "DeGrado WF",
+    "Mordes DA",
+    "Condello C",
+    "Gestwicki JE"
+  ],
+  "published_date": "2024-09-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.02.610853",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.02.610853.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR905218",
+    "raw_record": {
+      "id": "PPR905218",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR905218"
+        ]
+      },
+      "doi": "10.1101/2024.09.02.610853",
+      "title": "Methods for high throughput discovery of fluoroprobes that recognize tau fibril polymorphs",
+      "authorString": "Carroll EC, Yang H, Jones JG, Oehler A, Charvat AF, Montgomery KM, Yung A, Millbern Z, Vinueza NR, DeGrado WF, Mordes DA, Condello C, Gestwicki JE.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Carroll EC",
+            "lastName": "Carroll",
+            "firstName": "Emma",
+            "initials": "EC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, , ,"
+                },
+                {
+                  "affiliation": "Institute for Neurodegenerative Diseases, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang H",
+            "lastName": "Yang",
+            "firstName": "Hyunjun",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neurodegenerative Diseases, , ,"
+                },
+                {
+                  "affiliation": "Department of Pharmaceutical Chemistry, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jones JG",
+            "lastName": "Jones",
+            "firstName": "Julia",
+            "initials": "JG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neurodegenerative Diseases, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oehler A",
+            "lastName": "Oehler",
+            "firstName": "Abby",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neurodegenerative Diseases, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Charvat AF",
+            "lastName": "Charvat",
+            "firstName": "Annemarie",
+            "initials": "AF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neurodegenerative Diseases, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Montgomery KM",
+            "lastName": "Montgomery",
+            "firstName": "Kelly",
+            "initials": "KM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neurodegenerative Diseases, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yung A",
+            "lastName": "Yung",
+            "firstName": "Anthony",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neurodegenerative Diseases, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Millbern Z",
+            "lastName": "Millbern",
+            "firstName": "Zoe",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Textile Engineering, Chemistry and Science, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vinueza NR",
+            "lastName": "Vinueza",
+            "firstName": "Nelson",
+            "initials": "NR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Textile Engineering, Chemistry and Science, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "DeGrado WF",
+            "lastName": "DeGrado",
+            "firstName": "William",
+            "initials": "WF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmaceutical Chemistry, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mordes DA",
+            "lastName": "Mordes",
+            "firstName": "Daniel",
+            "initials": "DA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neurodegenerative Diseases, , ,"
+                },
+                {
+                  "affiliation": "Department of Pathology, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Condello C",
+            "lastName": "Condello",
+            "firstName": "Carlo",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neurodegenerative Diseases, , ,"
+                },
+                {
+                  "affiliation": "Department of Neurology, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gestwicki JE",
+            "lastName": "Gestwicki",
+            "firstName": "Jason",
+            "initials": "JE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Neurodegenerative Diseases, , ,"
+                },
+                {
+                  "affiliation": "Department of Pharmaceutical Chemistry, ; ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Aggregation of microtubule-associated protein tau (MAPT/tau) into conformationally distinct fibrils underpins neurodegenerative tauopathies. Fluorescent probes (fluoroprobes), such as thioflavin T (ThT), have been essential tools for studying tau aggregation; however, most of them do not discriminate between amyloid fibril conformations (polymorphs). This gap is due, in part, to a lack of high-throughput methods for screening large, diverse chemical collections. Here, we leverage advances in protein adaptive differential scanning fluorimetry (paDSF) to screen the Aurora collection of 300+ fluorescent dyes against multiple synthetic tau fibril polymorphs. This screen, coupled with orthogonal secondary assays, revealed pan-fibril binding chemotypes, as well as fluoroprobes selective for subsets of fibrils. One fluoroprobe recognized tau pathology in  ex vivo brain slices from Alzheimer’s disease patients. We propose that these scaffolds represent entry points for development of selective fibril ligands and, more broadly, that high throughput, fluorescence-based dye screening is a platform for their discovery.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.09.02.610853"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR905218"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR905218&type=FILE&fileName=EMS198572-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS198572",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-09-05",
+      "firstPublicationDate": "2024-09-02",
+      "firstIndexDate": "2024-09-05",
+      "fullTextReceivedDate": "2024-09-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

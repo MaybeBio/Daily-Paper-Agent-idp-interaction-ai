@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.09.03.458272",
+  "title": "The human disease gene <i>CLEC16A</i> encodes an intrinsically disordered protein region required for mitochondrial quality control",
+  "authors": "Morgan A. Gingerich; Xueying Liu; Biaoxin Chai; Gemma L. Pearson; Michael P. Vincent; Tracy Stromer; Jie Zhu; Vaibhav Sidarala; Aaron Renberg; Debashish Sahu; Daniel J. Klionsky; Santiago Schnell; Scott A. Soleimanpour",
+  "journal": "bioRxiv",
+  "published_date": "2021-09-04",
+  "window": {
+    "start": "2021-08-30",
+    "end": "2021-09-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究CLEC16A的C端无序区域(IDPR)对线粒体自噬复合物形成和稳定性的功能影响，对象为IDPR且涉及蛋白互作(复合物形成)，但方法以NMR和体内实验为主，无AI或物理模拟建模，机制深度有限，对互作机制建模启发较弱。",
+  "abstract": "CLEC16A regulates mitochondrial health through mitophagy and is associated with over 20 human diseases. While CLEC16A has ubiquitin ligase activity, the key structural and functional regions of CLEC16A, and their relevance for human disease, remain unknown. Here, we report that a disease-associated CLEC16A variant lacks a C-terminal intrinsically disordered protein region (IDPR) that is critical for mitochondrial quality control. Using carbon detect NMR, we find that the CLEC16A C terminus lacks secondary structure, validating the presence of an IDPR. Loss of the CLEC16A C-terminal IDPR in vivo impairs pancreatic β-cell mitophagy, mitochondrial function, and glucose-stimulated insulin secretion, ultimately causing glucose intolerance. Deletion of the CLEC16A C-terminal IDPR increases its self-ubiquitination and destabilizes CLEC16A, thus impairing formation of a critical CLEC16A-dependent mitophagy complex. Importantly, CLEC16A stability is dependent on proline bias within the C-terminal IDPR, but not amino acid sequence order or charge. Together, we clarify how an IDPR in CLEC16A prevents diabetes, thus implicating the disruption of IDPRs as novel pathological contributors to diabetes and other CLEC16A-associated diseases.",
+  "abstract_zh": "CLEC16A通过线粒体自噬调节线粒体健康，并与超过20种人类疾病相关。尽管CLEC16A具有泛素连接酶活性，但CLEC16A的关键结构和功能区域及其与人类疾病的相关性仍属未知。在此，我们报告一种疾病相关的CLEC16A变异体缺乏对线粒体质量控制至关重要的C端固有无序蛋白区域（IDPR）。利用碳检测核磁共振（NMR），我们发现CLEC16A C端缺乏二级结构，验证了IDPR的存在。体内CLEC16A C端IDPR的缺失损害了胰腺β细胞的线粒体自噬、线粒体功能及葡萄糖刺激的胰岛素分泌，最终导致葡萄糖不耐受。删除CLEC16A C端IDPR会增加其自身泛素化并使CLEC16A不稳定，从而损害关键CLEC16A依赖性线粒体自噬复合物的形成。重要的是，CLEC16A的稳定性依赖于C端IDPR内的脯氨酸偏向性，而非氨基酸序列顺序或电荷。综上，我们阐明了CLEC16A中的IDPR如何预防糖尿病，从而将IDPR的破坏视为糖尿病及其他CLEC16A相关疾病的新型病理贡献因素。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.09.03.458272",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.09.03.458272",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.09.03.458272/index.html"
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a pH-driven liquid-gel-solid transition in coacervates formed by beta-lactoglobulin (BLG) and lysozyme (LYS). They attribute the transition to pH-induced changes in the BLG/LYS stoichiometric ratio from 3:1 to 1:1, enhanced charge symmetry, a 1.8-fold expansion of the interaction interface, desolvation of bound water, and formation of protein-protein hydrogen bonds, which collectively slow coacervate dynamics. The work is positioned as introducing tunable protein-based food models.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical data beyond those stated in the abstract
+- **Missing materials affecting confidence** Full manuscript, experimental methods, rheological data, NMR relaxation data, hydrogen bond competition experiments, molecular dynamics simulation details, statistical analyses, and any supporting figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially impactful observation of a pH-driven phase transition in protein coacervates, with a proposed molecular mechanism. However, the evidence base is limited to the abstract, and several key claims cannot be evaluated without access to the underlying data. The mechanistic narrative is plausible but requires rigorous validation, particularly regarding the stoichiometric ratio determination, the 1.8-fold interface expansion, and the causal link between charge symmetry and slowed dynamics. The relevance to food model applications is stated but not substantiated.
+- **Who would be interested in the results, and why** Researchers in food science and food engineering, particularly those working on protein-based materials, coacervates, and structured food matrices. Also relevant to the broader soft matter and biophysics community interested in phase transitions and dynamics of protein-rich systems. The tunable physical properties could appeal to those developing plant-based or high-protein food alternatives.
+- **Major strengths** The study addresses a timely and important challenge in food material design, namely precise control of protein coacervate states. The combination of rheology, NMR relaxometry, competition experiments, and molecular dynamics simulations suggests a multi-technique approach. The reported dynamic range of terminal relaxation time (0.17 ms to 267 s) is striking and indicates a dramatic transition. The proposed mechanism linking charge symmetry to interfacial expansion and hydrogen bonding is mechanistically coherent.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that increasing pH from 6 to 8 shifts the BLG/LYS stoichiometric ratio from 3:1 to 1:1, and that this shift is the primary driver of the phase transition.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states the stoichiometric ratio change as a finding but provides no indication of how this ratio was determined (e.g., ITC, NMR, light scattering, or simulation). The precision of the ratio values (3:1 and 1:1) and the robustness of the measurement across replicates are not assessable. Furthermore, the causal direction is asserted: the ratio change is presented as driving the transition, but alternative explanations (e.g., pH-induced conformational changes independent of stoichiometry) are not addressed.
+  - **Why it matters** The stoichiometric shift is a central pillar of the proposed mechanism. If the ratio determination is methodologically weak or confounded, the entire mechanistic narrative is undermined. The claim that charge symmetry is "enhanced" at 1:1 stoichiometry requires a clear definition of charge symmetry and a quantitative basis, which is not provided.
+  - **Resolution test** Provide the method for stoichiometry determination, including error estimates and replicate measurements. Show that the 3:1 to 1:1 shift is statistically robust and that the transition occurs specifically at the pH where the ratio change is observed. Demonstrate that charge symmetry, as defined, is maximized at 1:1 and that this correlates with the observed dynamics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic causality
+  - **Claim pointer** The claim that the 1.8-fold expansion of the interaction interface promotes desolvation of bound water and formation of protein-protein hydrogen bonds, thereby slowing coacervate dynamics.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a 1.8-fold interface expansion but does not specify how this was measured (e.g., from simulations, scattering, or inferred). The link between interface expansion and desolvation is asserted, not demonstrated. The hydrogen bond competition experiments are mentioned but their results are not summarized, so it is unclear whether they directly support the proposed mechanism or are merely consistent with it. The molecular dynamics simulations are cited but no details on system size, force field, or timescales are given, making it impossible to judge whether the simulations can capture the experimentally observed dynamics (spanning five orders of magnitude in relaxation time).
+  - **Why it matters** The mechanism is the core intellectual contribution. Without direct evidence for each step (interface expansion, desolvation, hydrogen bond formation) and their causal linkage, the claim remains speculative. The five-order-of-magnitude change in relaxation time is dramatic and requires a quantitative explanation that the current qualitative mechanism may not provide.
+  - **Resolution test** Provide quantitative data from simulations or experiments showing that the interface area increases by 1.8-fold under the stated conditions. Show that bound water content decreases and protein-protein hydrogen bond count increases as a function of pH, with error bars. Demonstrate that these changes are causally linked to the relaxation time increase, for example by perturbing hydrogen bonding or hydration and observing the predicted effect on dynamics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Application relevance
+  - **Claim pointer** The claim that this study introduces "a new class of protein-based food models with tunable physical properties."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide any demonstration of food-relevant properties, such as texture, mouthfeel, stability, or processability. The system is a model coacervate, and the leap to "food models" is not supported by any data on edible formulations, sensory properties, or compatibility with food processing conditions.
+  - **Why it matters** The stated significance of the work depends on its relevance to food applications. Without any evidence of food-related functionality, the claim is promotional rather than evidence-based. This does not undermine the fundamental science but weakens the broader impact statement.
+  - **Resolution test** Provide at least one demonstration of a food-relevant property (e.g., texture profile analysis, rheology under food processing conditions, or stability in a food matrix) that is tunable via the described mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "charge symmetry"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "charge symmetry" is used without a precise definition. It is unclear whether it refers to equal and opposite net charges, matching charge distributions, or something else.
+  - **Required correction** Define charge symmetry explicitly, ideally with a quantitative metric, and state how it was calculated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the protein concentrations, ionic strength, temperature, or buffer conditions under which the transitions were observed. These parameters are critical for coacervate behavior.
+  - **Required correction** Include key experimental conditions in the abstract or refer to a methods section with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Liquid-gel-solid transition"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The terms "gel" and "solid" are used without rheological definitions. In soft matter, these states are typically distinguished by frequency-dependent moduli and yield stress behavior.
+  - **Required correction** Provide rheological criteria for classifying each state (e.g., G' and G" scaling, loss tangent values) and show representative data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Quantitative claims
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract reports specific numbers (0.17 ms, 267 s, 1.8-fold) without any indication of variability or number of replicates.
+  - **Required correction** Include error estimates or confidence intervals for key quantitative claims, or state that these are representative values.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The stoichiometry determination and the causal mechanism require direct evidence. Without these, the central claims of the abstract are not established. R1-M3 is non-blocking but should be addressed to support the stated application relevance.
+- **Assessment against Nature-style criteria** Originality: The observation of a pH-driven liquid-gel-solid transition in BLG/LYS coacervates is potentially novel, but the abstract does not clearly distinguish it from prior work on protein coacervate phase behavior. Scientific importance: The mechanistic insight into charge-symmetry-mediated dynamics could be significant for the soft matter community, but the evidence is currently insufficient to assess its depth. Interdisciplinary readership: The topic bridges food science, biophysics, and soft matter, which is attractive, but the abstract is written in a way that may be accessible to specialists only. Technical soundness: The multi-technique approach is commendable, but the lack of methodological detail prevents assessment of technical rigor. Readability for nonspecialists: The abstract is concise but uses jargon (e.g., "terminal relaxation time," "spin-spin relaxation") without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an intriguing hypothesis and preliminary data, but the blocking concerns regarding stoichiometry determination and mechanistic causality must be resolved with full experimental and simulation details. If the full manuscript provides robust evidence for these claims, the work could be of interest to the soft matter and food science communities.

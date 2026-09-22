@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34835118",
+  "title": "The HIV-1 Nucleocapsid Regulates Its Own Condensation by Phase-Separated Activity-Enhancing Sequestration of the Viral Protease during Maturation.",
+  "authors": "Lyonnais, Sebastien; Sadiq, S Kashif; Lorca-Oro, Cristina; Dufau, Laure; Nieto-Marquez, Sara; Escriba, Tuixent; Gabrielli, Natalia; Tan, Xiao; Ouizougun-Oubari, Mohamed; Okoronkwo, Josephine; Reboud-Ravaux, Michele; Gatell, Jose Maria; Marquet, Roland; Paillart, Jean-Christophe; Meyerhans, Andreas; Tisne, Carine; Gorelick, Robert J; Mirambeau, Gilles",
+  "journal": "Viruses",
+  "published_date": "2021-11-28",
+  "window": {
+    "start": "2021-11-22",
+    "end": "2021-11-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究HIV-1核衣壳蛋白NC通过相分离RNP颗粒调控自身凝聚，并隔离病毒蛋白酶PR以驱动成熟过程，涉及无序蛋白介导的PPI与相分离机制建模，与本课题高度相关。",
+  "abstract": "A growing number of studies indicate that mRNAs and long ncRNAs can affect protein populations by assembling dynamic ribonucleoprotein (RNP) granules. These phase-separated molecular 'sponges', stabilized by quinary (transient and weak) interactions, control proteins involved in numerous biological functions. Retroviruses such as HIV-1 form by self-assembly when their genomic RNA (gRNA) traps Gag and GagPol polyprotein precursors. Infectivity requires extracellular budding of the particle followed by maturation, an ordered processing of  approximately 2400 Gag and  approximately 120 GagPol by the viral protease (PR). This leads to a condensed gRNA-NCp7 nucleocapsid and a CAp24-self-assembled capsid surrounding the RNP. The choreography by which all of these components dynamically interact during virus maturation is one of the missing milestones to fully depict the HIV life cycle. Here, we describe how HIV-1 has evolved a dynamic RNP granule with successive weak-strong-moderate quinary NC-gRNA networks during the sequential processing of the GagNC domain. We also reveal two palindromic RNA-binding triads on NC, KxxFxxQ and QxxFxxK, that provide quinary NC-gRNA interactions. Consequently, the nucleocapsid complex appears properly aggregated for capsid reassembly and reverse transcription, mandatory processes for viral infectivity. We show that PR is sequestered within this RNP and drives its maturation/condensation within minutes, this process being most effective at the end of budding. We anticipate such findings will stimulate further investigations of quinary interactions and emergent mechanisms in crowded environments throughout the wide and growing array of RNP granules.",
+  "abstract_zh": "越来越多的研究表明，mRNA和长链非编码RNA通过组装动态核糖核蛋白（RNP）颗粒来影响蛋白质群体。这些由五元（瞬时且弱）相互作用稳定的相分离分子“海绵”，调控着参与众多生物功能的蛋白质。逆转录病毒如HIV-1，在其基因组RNA（gRNA）捕获Gag和GagPol多蛋白前体时，通过自组装形成。感染性要求颗粒在细胞外出芽，随后进行成熟过程，即由病毒蛋白酶（PR）对约2400个Gag和约120个GagPol进行有序加工。这导致形成浓缩的gRNA-NCp7核衣壳，以及围绕RNP的CAp24自组装衣壳。在病毒成熟过程中，所有这些组分动态相互作用的编排，是全面描绘HIV生命周期中缺失的关键环节之一。在此，我们描述了HIV-1如何在GagNC结构域顺序加工过程中，演化出一个具有连续弱-强-中等五元NC-gRNA网络的动态RNP颗粒。我们还揭示了NC上的两个回文RNA结合三联体，KxxFxxQ和QxxFxxK，它们提供五元NC-gRNA相互作用。因此，核衣壳复合物表现出适当聚集，以进行衣壳重装配和逆转录，这些是病毒感染性所必需的过程。我们显示PR被隔离在此RNP内，并在数分钟内驱动其成熟/浓缩，此过程在出芽末期最为有效。我们预期这些发现将促进对拥挤环境中五元相互作用及涌现机制的进一步研究，这一领域在日益增多的RNP颗粒中广泛且不断扩展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34835118/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34835118/",
+  "paper_page_path": "papers/pubmed/34835118/index.html"
+}

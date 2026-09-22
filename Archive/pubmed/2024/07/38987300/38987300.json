@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "38987300",
+    "doi": "10.1038/s41467-024-48496-7",
+    "title": "Protein Condensate Atlas from predictive models of heteromolecular condensate composition."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates help cells organise their content in space and time. Cells harbour a variety of condensate types with diverse composition and many are likely yet to be discovered. Here, we develop a methodology to predict the composition of biomolecular condensates. We first analyse available proteomics data of cellular condensates and find that the biophysical features that determine protein localisation into condensates differ from known drivers of homotypic phase separation processes, with charge mediated protein-RNA and hydrophobicity mediated protein-protein interactions playing a key role in the former process. We then develop a machine learning model that links protein sequence to its propensity to localise into heteromolecular condensates. We apply the model across the proteome and find many of the top-ranked targets outside the original training data to localise into condensates as confirmed by orthogonal immunohistochemical staining imaging. Finally, we segment the condensation-prone proteome into condensate types based on an overlap with biomolecular interaction profiles to generate a Protein Condensate Atlas. Several condensate clusters within the Atlas closely match the composition of experimentally characterised condensates or regions within them, suggesting that the Atlas can be valuable for identifying additional components within known condensate systems and discovering previously uncharacterised condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Humans",
+      "*Proteomics/methods",
+      "*Biomolecular Condensates/metabolism/chemistry",
+      "*Proteome/metabolism",
+      "Hydrophobic and Hydrophilic Interactions"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saar, Kadi L",
+        "Scrutton, Rob M",
+        "Bloznelyte, Kotryna",
+        "Morgunov, Alexey S",
+        "Good, Lydia L",
+        "Lee, Alpha A",
+        "Teichmann, Sarah A",
+        "Knowles, Tuomas P J"
+      ],
+      "short_names": [
+        "Saar KL",
+        "Scrutton RM",
+        "Bloznelyte K",
+        "Morgunov AS",
+        "Good LL",
+        "Lee AA",
+        "Teichmann SA",
+        "Knowles TPJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5926-3628",
+        "ORCID: 0009-0008-0012-0703",
+        "ORCID: 0000-0001-5308-8542",
+        "ORCID: 0000-0002-9616-3108",
+        "ORCID: 0000-0002-6294-6366",
+        "ORCID: 0000-0002-7879-0140"
+      ],
+      "affiliations": [
+        "Transition Bio Ltd, Cambridge, UK. ksaar@transitionbio.com.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, UK. ksaar@transitionbio.com.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, UK.",
+        "Department of Chemistry, University of Oxford, Oxford, OX1 3TA, UK.",
+        "Transition Bio Ltd, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, UK.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, 20892, USA.",
+        "Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, CB3 0HE, UK.",
+        "Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, CB3 0HE, UK.",
+        "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, UK. tpjk2@cam.ac.uk.",
+        "Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, CB3 0HE, UK. tpjk2@cam.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saar, Kadi L",
+        "short_name": "Saar KL",
+        "identifiers": [
+          "0000-0002-5926-3628"
+        ],
+        "affiliations": [
+          "Transition Bio Ltd, Cambridge, UK. ksaar@transitionbio.com.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, UK. ksaar@transitionbio.com."
+        ]
+      },
+      {
+        "full_name": "Scrutton, Rob M",
+        "short_name": "Scrutton RM",
+        "identifiers": [
+          "0009-0008-0012-0703"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, UK.",
+          "Department of Chemistry, University of Oxford, Oxford, OX1 3TA, UK."
+        ]
+      },
+      {
+        "full_name": "Bloznelyte, Kotryna",
+        "short_name": "Bloznelyte K",
+        "identifiers": [],
+        "affiliations": [
+          "Transition Bio Ltd, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Morgunov, Alexey S",
+        "short_name": "Morgunov AS",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Good, Lydia L",
+        "short_name": "Good LL",
+        "identifiers": [
+          "0000-0001-5308-8542"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, UK.",
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, 20892, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Alpha A",
+        "short_name": "Lee AA",
+        "identifiers": [
+          "0000-0002-9616-3108"
+        ],
+        "affiliations": [
+          "Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, CB3 0HE, UK."
+        ]
+      },
+      {
+        "full_name": "Teichmann, Sarah A",
+        "short_name": "Teichmann SA",
+        "identifiers": [
+          "0000-0002-6294-6366"
+        ],
+        "affiliations": [
+          "Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, CB3 0HE, UK.",
+          "Wellcome Sanger Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Knowles, Tuomas P J",
+        "short_name": "Knowles TPJ",
+        "identifiers": [
+          "0000-0002-7879-0140"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, UK. tpjk2@cam.ac.uk.",
+          "Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, CB3 0HE, UK. tpjk2@cam.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Jul 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/11 00:42",
+    "fetched_at": "2026-09-21 08:34:16"
+  },
+  "links": {
+    "cites": [
+      "42573943",
+      "42184109",
+      "41865079",
+      "41688461",
+      "41612036",
+      "41315769",
+      "40867524",
+      "40524024",
+      "40223018",
+      "40205054",
+      "39987793",
+      "39913643",
+      "39672099",
+      "39398201"
+    ],
+    "refs": [
+      "38036857",
+      "37374089",
+      "37207400",
+      "37171907",
+      "36890225",
+      "36028355",
+      "36009025",
+      "35974095",
+      "35675815",
+      "35168563",
+      "35149762",
+      "35001622",
+      "34377994",
+      "34143622",
+      "33827920",
+      "33753744",
+      "33684296",
+      "33564162",
+      "33502444",
+      "33417833",
+      "33318217",
+      "33290552",
+      "33237311",
+      "33169001",
+      "33159068",
+      "33049210",
+      "32696354",
+      "32312191",
+      "31847804",
+      "31626750",
+      "31584089",
+      "31048809",
+      "30682370",
+      "30099028",
+      "29602697",
+      "29483575",
+      "28495876",
+      "27838525",
+      "27374333",
+      "27289443",
+      "27051975",
+      "26777405",
+      "25288112",
+      "22068332",
+      "19304878",
+      "15769473",
+      "7108955"
+    ],
+    "similar": [
+      "38987300",
+      "41337585",
+      "38499848",
+      "41325268",
+      "39271915",
+      "39663388",
+      "34772789",
+      "41667469",
+      "40954121",
+      "40744081",
+      "38848869",
+      "40521608",
+      "40468084",
+      "39232584",
+      "39937084",
+      "39725032",
+      "40985078",
+      "39827079",
+      "33864415",
+      "42065721",
+      "42290133",
+      "42230638",
+      "40113768",
+      "41540001",
+      "41266895",
+      "36993212",
+      "38698644",
+      "42352270",
+      "34129784",
+      "39271032",
+      "40327693",
+      "40962203",
+      "40653653",
+      "33535034",
+      "33827920",
+      "42456205",
+      "42531022",
+      "34090478",
+      "35881789",
+      "41191214",
+      "41946638",
+      "38360555",
+      "39824169",
+      "41265448",
+      "34767801",
+      "42143038",
+      "41933903",
+      "34706978",
+      "41027866",
+      "40867025",
+      "41845050",
+      "39433596",
+      "37586369",
+      "39366355",
+      "35864335",
+      "38824391",
+      "40539959",
+      "40708200",
+      "35727989",
+      "42425985",
+      "39303698",
+      "37770422",
+      "40229261",
+      "38832749",
+      "41917059",
+      "41481439",
+      "41266615",
+      "40925983",
+      "38429263",
+      "40972943",
+      "40172489",
+      "41703914",
+      "42336922",
+      "40102453",
+      "37770423",
+      "40136009",
+      "40794831",
+      "41526500",
+      "30099028",
+      "41662498",
+      "39356108",
+      "39826710",
+      "42260147",
+      "40661423",
+      "39856105",
+      "41238911",
+      "40524024",
+      "37470705",
+      "37162152",
+      "39620362",
+      "42126959",
+      "39260373",
+      "41251020",
+      "40999735",
+      "40588121",
+      "41670285",
+      "34890409",
+      "40603603",
+      "41385797",
+      "38622120"
+    ],
+    "review": [
+      "38987300",
+      "34772789",
+      "40744081",
+      "39827079",
+      "42065721",
+      "41266895",
+      "38698644",
+      "34129784",
+      "39271032",
+      "40962203",
+      "42456205",
+      "41191214",
+      "41946638",
+      "38360555",
+      "39824169",
+      "34767801",
+      "34706978",
+      "39433596",
+      "39366355",
+      "39303698",
+      "40172489",
+      "30099028",
+      "40999735"
+    ],
+    "pmc": [
+      "11237133"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-48496-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38987300/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38987300",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

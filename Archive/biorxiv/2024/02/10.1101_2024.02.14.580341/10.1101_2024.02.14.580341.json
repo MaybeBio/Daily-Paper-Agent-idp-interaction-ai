@@ -1,0 +1,253 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.14.580341",
+  "title": "Decoding functional proteome information in model organisms using protein language models",
+  "doi": "10.1101/2024.02.14.580341",
+  "abstract": "<h4>ABSTRACT</h4> Protein language models have been tested and proved to be reliable when used on curated datasets but have not yet been applied to full proteomes. Accordingly, we tested how two different machine learning based methods performed when decoding functional information from the proteomes of selected model organisms. We found that protein Language Models are more precise and informative than Deep Learning methods for all the species tested and across the three gene ontologies studied, and that they better recover functional information from transcriptomics experiments. The results obtained indicate that these Language Models are likely to be suitable for large scale annotation and downstream analyses, and we recommend a guide for their use.",
+  "authors": [
+    "Barrios-Núñez I",
+    "Martínez-Redondo GI",
+    "Medina-Burgos P",
+    "Cases I",
+    "Fernández R",
+    "Rojas AM"
+  ],
+  "published_date": "2024-02-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.14.580341",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.14.580341.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR807781",
+    "raw_record": {
+      "id": "PPR807781",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR807781"
+        ]
+      },
+      "doi": "10.1101/2024.02.14.580341",
+      "title": "Decoding functional proteome information in model organisms using protein language models",
+      "authorString": "Barrios-Núñez I, Martínez-Redondo GI, Medina-Burgos P, Cases I, Fernández R, Rojas AM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Barrios-Núñez I",
+            "lastName": "Barrios-Núñez",
+            "firstName": "Israel",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-0473-3243"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational Biology and Bioinformatics group, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martínez-Redondo GI",
+            "lastName": "Martínez-Redondo",
+            "firstName": "Gemma",
+            "initials": "GI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Metazoa Phylogenomics Lab, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Medina-Burgos P",
+            "lastName": "Medina-Burgos",
+            "firstName": "Patricia",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7150-6805"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational Biology and Bioinformatics group, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cases I",
+            "lastName": "Cases",
+            "firstName": "Ildefonso",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8784-5174"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Unit, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fernández R",
+            "lastName": "Fernández",
+            "firstName": "Rosa",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Metazoa Phylogenomics Lab, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rojas AM",
+            "lastName": "Rojas",
+            "firstName": "Ana",
+            "initials": "AM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational Biology and Bioinformatics group, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5633-8690"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4719-6640"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7150-6805"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8784-5174"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-0473-3243"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Protein language models have been tested and proved to be reliable when used on curated datasets but have not yet been applied to full proteomes. Accordingly, we tested how two different machine learning based methods performed when decoding functional information from the proteomes of selected model organisms. We found that protein Language Models are more precise and informative than Deep Learning methods for all the species tested and across the three gene ontologies studied, and that they better recover functional information from transcriptomics experiments. The results obtained indicate that these Language Models are likely to be suitable for large scale annotation and downstream analyses, and we recommend a guide for their use.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "948281",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.02.14.580341"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR807781"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR807781&type=FILE&fileName=EMS194403-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38962255",
+            "reference": "NAR genomics and bioinformatics. 2024 Sep;6(3):lqae078",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS194403",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "go",
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-02-20",
+      "firstPublicationDate": "2024-02-15",
+      "firstIndexDate": "2024-02-20",
+      "fullTextReceivedDate": "2024-07-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "pmid": "40674273",
+    "doi": "10.1111/febs.70187",
+    "title": "Hidden protein disorder: Deciphering the structural organisation and dynamics of a non-canonical CP12 from the diatom Thalassiosira pseudonana."
+  },
+  "content": {
+    "abstract": "The chloroplastic protein CP12 from the diatom Thalassiosira pseudonana exhibits atypical and enigmatic structural properties that have so far hindered our understanding of its functions. Here, we used AlphaFold to generate a three-dimensional (3D) model of the structure of the protein. However, this model did not accurately describe the small-angle X-ray scattering (SAXS) data previously obtained. We have therefore undertaken a study using site-directed spin labelling combined with electron paramagnetic resonance (SDSL-EPR) to characterise the structural dynamics of this atypical CP12 and to investigate its dimeric organisation using double electron-electron resonance (DEER). We then performed molecular dynamics (MD) simulations, constrained by SAXS and DEER data, to refine the AlphaFold model and take into account the flexibility and disordered propensities of this protein. The combination of the experimental techniques together with the in silico AlphaFold and MD simulations reveals that the dimer is organised in an antiparallel arrangement of each monomer and that the C-terminal regions are highly flexible and partly disordered. Additionally, this diatom CP12 contains four structured domains likely to bind phosphoribulokinase regardless of their redox state. Our structural data therefore provide insights into the function of this protein in the regulation of the Calvin cycle and of photosynthesis in diatoms, whereas its structural organisation is completely different from any of its homologous counterparts from Plantae and cyanobacteria.",
+    "keywords": [
+      "AlphaFold",
+      "Molecular dynamics simulation",
+      "SAXS",
+      "SDSL-EPR",
+      "chloroplastic protein"
+    ],
+    "mesh_terms": [
+      "*Diatoms/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Electron Spin Resonance Spectroscopy",
+      "Scattering, Small Angle",
+      "X-Ray Diffraction",
+      "Protein Conformation",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Multimerization"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bonucci, Alessio",
+        "Wang, Tingting",
+        "Baroudi, Hakima",
+        "Etienne, Emilien",
+        "Gerbaud, Guillaume",
+        "Mileo, Elisabetta",
+        "Parsiegla, Goetz",
+        "Yamato, Takahisa",
+        "Gontero, Brigitte",
+        "Launay, Helene",
+        "Belle, Valerie",
+        "Receveur-Brechot, Veronique"
+      ],
+      "short_names": [
+        "Bonucci A",
+        "Wang T",
+        "Baroudi H",
+        "Etienne E",
+        "Gerbaud G",
+        "Mileo E",
+        "Parsiegla G",
+        "Yamato T",
+        "Gontero B",
+        "Launay H",
+        "Belle V",
+        "Receveur-Brechot V"
+      ],
+      "auids": [],
+      "affiliations": [
+        "CNRS, BIP UMR7281, Aix Marseille Univ, France.",
+        "Graduate School of Science, Nagoya University, Japan.",
+        "CNRS, BIP UMR7281, Aix Marseille Univ, France.",
+        "CNRS, BIP UMR7281, Aix Marseille Univ, France.",
+        "CNRS, BIP UMR7281, Aix Marseille Univ, France.",
+        "CNRS, BIP UMR7281, Aix Marseille Univ, France.",
+        "CNRS, BIP UMR7281, Aix Marseille Univ, France.",
+        "Graduate School of Science, Nagoya University, Japan.",
+        "CNRS, BIP UMR7281, Aix Marseille Univ, France.",
+        "CNRS, BIP UMR7281, Aix Marseille Univ, France.",
+        "CNRS, BIP UMR7281, Aix Marseille Univ, France.",
+        "CNRS, BIP UMR7281, Aix Marseille Univ, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bonucci, Alessio",
+        "short_name": "Bonucci A",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR7281, Aix Marseille Univ, France."
+        ]
+      },
+      {
+        "full_name": "Wang, Tingting",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Science, Nagoya University, Japan."
+        ]
+      },
+      {
+        "full_name": "Baroudi, Hakima",
+        "short_name": "Baroudi H",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR7281, Aix Marseille Univ, France."
+        ]
+      },
+      {
+        "full_name": "Etienne, Emilien",
+        "short_name": "Etienne E",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR7281, Aix Marseille Univ, France."
+        ]
+      },
+      {
+        "full_name": "Gerbaud, Guillaume",
+        "short_name": "Gerbaud G",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR7281, Aix Marseille Univ, France."
+        ]
+      },
+      {
+        "full_name": "Mileo, Elisabetta",
+        "short_name": "Mileo E",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR7281, Aix Marseille Univ, France."
+        ]
+      },
+      {
+        "full_name": "Parsiegla, Goetz",
+        "short_name": "Parsiegla G",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR7281, Aix Marseille Univ, France."
+        ]
+      },
+      {
+        "full_name": "Yamato, Takahisa",
+        "short_name": "Yamato T",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Science, Nagoya University, Japan."
+        ]
+      },
+      {
+        "full_name": "Gontero, Brigitte",
+        "short_name": "Gontero B",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR7281, Aix Marseille Univ, France."
+        ]
+      },
+      {
+        "full_name": "Launay, Hélène",
+        "short_name": "Launay H",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR7281, Aix Marseille Univ, France."
+        ]
+      },
+      {
+        "full_name": "Belle, Valérie",
+        "short_name": "Belle V",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR7281, Aix Marseille Univ, France."
+        ]
+      },
+      {
+        "full_name": "Receveur-Bréchot, Véronique",
+        "short_name": "Receveur-Bréchot V",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR7281, Aix Marseille Univ, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The FEBS journal"
+    ],
+    "journal_abbrev": [
+      "FEBS J"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/17 18:25",
+    "fetched_at": "2026-09-21 21:02:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38718835",
+      "37933859",
+      "37791368",
+      "37156916",
+      "37060758",
+      "36291675",
+      "36008940",
+      "35667279",
+      "35655760",
+      "35269851",
+      "34664948",
+      "34293799",
+      "34265844",
+      "34066751",
+      "33761918",
+      "33757896",
+      "33015891",
+      "32765548",
+      "32102842",
+      "31714766",
+      "31570616",
+      "31337564",
+      "31329318",
+      "31125568",
+      "30218010",
+      "29501381",
+      "28729736",
+      "28717027",
+      "28717023",
+      "28430985",
+      "28078740",
+      "27819658",
+      "27268235",
+      "27039860",
+      "26592383",
+      "26518384",
+      "26505197",
+      "25979343",
+      "25645890",
+      "25443960",
+      "25400877",
+      "24996895",
+      "24799178",
+      "24523724",
+      "23510121",
+      "23510103",
+      "23184231",
+      "22988853",
+      "22955105",
+      "22514274",
+      "21865489",
+      "20805036",
+      "20224939",
+      "20157634",
+      "19926682",
+      "18974062",
+      "18096642",
+      "16188474",
+      "16054818",
+      "12846565",
+      "10648151",
+      "9428676",
+      "8744570"
+    ],
+    "similar": [
+      "40674273",
+      "33761918",
+      "27268235",
+      "30840442",
+      "29501381",
+      "26320411",
+      "24056937",
+      "20224939",
+      "37298260",
+      "26627646",
+      "32696361",
+      "30617833",
+      "30878202",
+      "36641212",
+      "38512660",
+      "32859072",
+      "30125451",
+      "29792674",
+      "29548755",
+      "40907012",
+      "26387105",
+      "31402649",
+      "30865820",
+      "32074499",
+      "31548393",
+      "31445067",
+      "32585849",
+      "28717027",
+      "24863370",
+      "31570616",
+      "34817999",
+      "22988853",
+      "34445427",
+      "36029961",
+      "31809054",
+      "40409637",
+      "34291085",
+      "40574713",
+      "32119546",
+      "33030907",
+      "36008940",
+      "29218556",
+      "26548662",
+      "33944951",
+      "23642211",
+      "32126206",
+      "35891793",
+      "26042221",
+      "26477247",
+      "29571687",
+      "33481784",
+      "30771183",
+      "37646172",
+      "29156339",
+      "39056166",
+      "31052346",
+      "34627764",
+      "39340152",
+      "21947276",
+      "23445506",
+      "25666947",
+      "34310942",
+      "25099811",
+      "21627157",
+      "40220482",
+      "28180305",
+      "36410960",
+      "23184231",
+      "33725442",
+      "29218557",
+      "40011209",
+      "41298416",
+      "37555230",
+      "25369786",
+      "28625737",
+      "26387110",
+      "33030249",
+      "38739602",
+      "37923304",
+      "39642200",
+      "34252246",
+      "34193419",
+      "41073429",
+      "41316704",
+      "34066751",
+      "35377637",
+      "40816717",
+      "30021105",
+      "33862013",
+      "39952928",
+      "37439534",
+      "33623120",
+      "40977118",
+      "26334844",
+      "17826789",
+      "33757896",
+      "38522710",
+      "25715079",
+      "24656082",
+      "26030189"
+    ],
+    "review": [
+      "40674273",
+      "30840442",
+      "26320411",
+      "30617833",
+      "26387105",
+      "31445067",
+      "28717027",
+      "22988853",
+      "36008940",
+      "29218556",
+      "32126206",
+      "26042221",
+      "21947276",
+      "40220482",
+      "28625737",
+      "26387110",
+      "26334844",
+      "33757896"
+    ],
+    "pmc": [
+      "12591572"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40674273.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40674273/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/febs.70187",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

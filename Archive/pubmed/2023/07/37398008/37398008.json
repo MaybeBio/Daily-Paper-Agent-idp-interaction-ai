@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "37398008",
+    "doi": "10.1101/2023.05.28.542535",
+    "title": "Interplay between charge distribution and DNA in shaping HP1 paralog phase separation and localization."
+  },
+  "content": {
+    "abstract": "The heterochromatin protein 1 (HP1) family is a crucial component of heterochromatin with diverse functions in gene regulation, cell cycle control, and cell differentiation. In humans, there are three paralogs, HP1alpha, HP1beta, and HP1gamma, which exhibit remarkable similarities in their domain architecture and sequence properties. Nevertheless, these paralogs display distinct behaviors in liquid-liquid phase separation (LLPS), a process linked to heterochromatin formation. Here, we employ a coarse-grained simulation framework to uncover the sequence features responsible for the observed differences in LLPS. We highlight the significance of the net charge and charge patterning along the sequence in governing paralog LLPS propensities. We also show that both highly conserved folded and less-conserved disordered domains contribute to the observed differences. Furthermore, we explore the potential co-localization of different HP1 paralogs in multicomponent assemblies and the impact of DNA on this process. Importantly, our study reveals that DNA can significantly reshape the stability of a minimal condensate formed by HP1 paralogs due to competitive interactions of HP1alpha with HP1beta and HP1gamma versus DNA. In conclusion, our work highlights the physicochemical nature of interactions that govern the distinct phase-separation behaviors of HP1 paralogs and provides a molecular framework for understanding their role in chromatin organization.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Phan, Tien M",
+        "Kim, Young C",
+        "Debelouchina, Galia T",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Phan TM",
+        "Kim YC",
+        "Debelouchina GT",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6775-9415",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+        "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, DC, USA.",
+        "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, CA, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+        "Department of Chemistry, Texas A&M University, College Station, TX, USA.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Phan, Tien M",
+        "short_name": "Phan TM",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, DC, USA."
+        ]
+      },
+      {
+        "full_name": "Debelouchina, Galia T",
+        "short_name": "Debelouchina GT",
+        "identifiers": [
+          "0000-0001-6775-9415"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+          "Department of Chemistry, Texas A&M University, College Station, TX, USA.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Dec 9",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/03 13:06",
+    "fetched_at": "2026-09-20 23:18:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37398008",
+      "38592759",
+      "33661100",
+      "33660589",
+      "28059589",
+      "12840071",
+      "29166597",
+      "20689044",
+      "37549295",
+      "17314413",
+      "17381543",
+      "10460410",
+      "36537242",
+      "31533340",
+      "28236007",
+      "17575412",
+      "38746378",
+      "12411497",
+      "21267468",
+      "29336876",
+      "18599480",
+      "35159030",
+      "12675308",
+      "25769025",
+      "37988476",
+      "23287531",
+      "30346969",
+      "29491004",
+      "29665845",
+      "36710442",
+      "18676401",
+      "20675861",
+      "17855382",
+      "29467217",
+      "29358085",
+      "35036738",
+      "11124534",
+      "16283356",
+      "18436254",
+      "24618358",
+      "23077635",
+      "17205308",
+      "11959914",
+      "19486527",
+      "20498703",
+      "17242207",
+      "30514760",
+      "29924345",
+      "25151962",
+      "28223359",
+      "35447032",
+      "15899859",
+      "37292850",
+      "10330177",
+      "18239689",
+      "20962594",
+      "30845353",
+      "38020886",
+      "32091571",
+      "32493764",
+      "15592864",
+      "33826337",
+      "31952807",
+      "31269077",
+      "22205726",
+      "12826664",
+      "33595886",
+      "18590578",
+      "36533441",
+      "14765118",
+      "32101700",
+      "31618757",
+      "38526948",
+      "22622086",
+      "11408576",
+      "38048471",
+      "24681131",
+      "35166421",
+      "28942089",
+      "26419616",
+      "34139556",
+      "8421049",
+      "21778144",
+      "37839545",
+      "38106110",
+      "31866201",
+      "15064352",
+      "17891782",
+      "23536649",
+      "38429335",
+      "27090491",
+      "35802394",
+      "11259603",
+      "21271610",
+      "16547356",
+      "19805510",
+      "33139563",
+      "30208514"
+    ],
+    "review": [
+      "37398008",
+      "28236007",
+      "35159030",
+      "36710442",
+      "24618358",
+      "35802394",
+      "21271610"
+    ],
+    "pmc": [
+      "10312469"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37398008/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37398008",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.05.28.542535",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

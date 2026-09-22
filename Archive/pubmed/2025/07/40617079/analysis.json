@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40617079",
+  "title": "Morphological inhibitors of aggregation-prone amyloid-beta conformers: A computational exploration.",
+  "authors": "Bosio, Stefano; Falchi, Federico; Rauzi, Chiara; Bellucci, Luca",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2025-07-06",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过虚拟筛选、对接和分子动力学模拟，探索小分子与淀粉样蛋白β单体聚集倾向构象的相互作用，对象为无序蛋白但互作对象是小分子而非蛋白，方法上物理模拟为主，对无序蛋白构象调控机制建模有参考价值。",
+  "abstract": "Alzheimer's disease is a neurodegenerative disorder characterized by progressive cognitive decline and memory loss. It is associated with the self-assembly of the amyloid-beta peptide, a soluble intrinsically disordered protein naturally present in the brain parenchyma in various alloforms. This study presents a computational approach to identify possible modulators of the monomeric aggregation-prone conformations of amyloid-beta, a critical intermediate in the fibrillation process. A structure-based virtual screening campaign was designed using a structural ensemble to identify potential binders. The workflow included binding site identification, small molecule-peptide docking, protein-protein docking, and molecular dynamics simulations to evaluate interaction stability and aggregation propensity. From this pipeline, a set of novel molecules was identified as capable of interacting with aggregation-prone forms of amyloid-beta, potentially reducing their tendency to form toxic aggregates.",
+  "abstract_zh": "阿尔茨海默病是一种以进行性认知衰退和记忆丧失为特征的神经退行性疾病。它与淀粉样蛋白-β肽的自组装相关，该肽是一种可溶性的内在无序蛋白质，天然存在于脑实质中，并以多种异构形式存在。本研究提出了一种计算方法，以识别淀粉样蛋白-β单体聚集倾向构象的可能调节因子，这是纤维化过程中的关键中间体。利用结构集合设计了一项基于结构的虚拟筛选活动，以识别潜在结合剂。工作流程包括结合位点识别、小分子-肽对接、蛋白质-蛋白质对接以及分子动力学 (molecular dynamics) 模拟，以评估相互作用稳定性和聚集倾向。通过该流程，识别出一组新分子，它们能够与淀粉样蛋白-β的聚集倾向形式相互作用，可能降低其形成毒性聚集体的趋势。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40617079/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40617079/",
+  "paper_page_path": "papers/pubmed/40617079/index.html"
+}

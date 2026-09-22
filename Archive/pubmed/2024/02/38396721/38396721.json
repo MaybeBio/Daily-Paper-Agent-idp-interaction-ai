@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "38396721",
+    "doi": "10.3390/ijms25042043",
+    "title": "Synergy of Mutation-Induced Effects in Human Vitamin K Epoxide Reductase: Perspectives and Challenges for Allo-Network Modulator Design."
+  },
+  "content": {
+    "abstract": "The human Vitamin K Epoxide Reductase Complex (hVKORC1), a key enzyme transforming vitamin K into the form necessary for blood clotting, requires for its activation the reducing equivalents delivered by its redox partner through thiol-disulfide exchange reactions. The luminal loop (L-loop) is the principal mediator of hVKORC1 activation, and it is a region frequently harbouring numerous missense mutations. Four L-loop hVKORC1 mutants, suggested in vitro as either resistant (A41S, H68Y) or completely inactive (S52W, W59R), were studied in the oxidised state by numerical approaches (in silico). The DYNASOME and POCKETOME of each mutant were characterised and compared to the native protein, recently described as a modular protein composed of the structurally stable transmembrane domain (TMD) and the intrinsically disordered L-loop, exhibiting quasi-independent dynamics. The DYNASOME of mutants revealed that L-loop missense point mutations impact not only its folding and dynamics, but also those of the TMD, highlighting a strong mutation-specific interdependence between these domains. Another consequence of the mutation-induced effects manifests in the global changes (geometric, topological, and probabilistic) of the newly detected cryptic pockets and the alternation of the recognition properties of the L-loop with its redox protein. Based on our results, we postulate that (i) intra-protein allosteric regulation and (ii) the inherent allosteric regulation and cryptic pockets of each mutant depend on its DYNASOME; and (iii) the recognition of the redox protein by hVKORC1 (INTERACTOME) depend on their DYNASOME. This multifaceted description of proteins produces \"omics\" data sets, crucial for understanding the physiological processes of proteins and the pathologies caused by alteration of the protein properties at various \"omics\" levels. Additionally, such characterisation opens novel perspectives for the development of \"allo-network drugs\" essential for the treatment of blood disorders.",
+    "keywords": [
+      "3D modelling",
+      "PDI-hVKORC1 complex",
+      "allosteric regulation",
+      "computational biophysics",
+      "hVKORC1",
+      "intrinsic disorder",
+      "missense mutations",
+      "molecular dynamics",
+      "molecular recognition",
+      "protein folding",
+      "protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Mutation",
+      "*Mutation, Missense",
+      "Oxidation-Reduction",
+      "Vitamin K/metabolism",
+      "*Vitamin K Epoxide Reductases/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Botnari, Marina",
+        "Tchertanov, Luba"
+      ],
+      "short_names": [
+        "Botnari M",
+        "Tchertanov L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6600-5494"
+      ],
+      "affiliations": [
+        "Centre Borelli, Ecole Normale Superieure (ENS) Paris-Saclay, Centre National de la Recherche Scientifique (CNRS), Universite Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France.",
+        "Centre Borelli, Ecole Normale Superieure (ENS) Paris-Saclay, Centre National de la Recherche Scientifique (CNRS), Universite Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Botnari, Marina",
+        "short_name": "Botnari M",
+        "identifiers": [],
+        "affiliations": [
+          "Centre Borelli, École Normale Supérieure (ENS) Paris-Saclay, Centre National de la Recherche Scientifique (CNRS), Université Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Tchertanov, Luba",
+        "short_name": "Tchertanov L",
+        "identifiers": [
+          "0000-0001-6600-5494"
+        ],
+        "affiliations": [
+          "Centre Borelli, École Normale Supérieure (ENS) Paris-Saclay, Centre National de la Recherche Scientifique (CNRS), Université Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 Feb 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/24 11:43",
+    "fetched_at": "2026-09-21 05:15:46"
+  },
+  "links": {
+    "cites": [
+      "39409122",
+      "38673722"
+    ],
+    "refs": [
+      "38068793",
+      "36508285",
+      "36125842",
+      "35409257",
+      "35007172",
+      "34521998",
+      "33574233",
+      "33466919",
+      "33254525",
+      "33154105",
+      "32936637",
+      "32870157",
+      "30504329",
+      "29540746",
+      "28851879",
+      "28428867",
+      "27726386",
+      "27322406",
+      "26854760",
+      "26614317",
+      "26583988",
+      "26574453",
+      "26498855",
+      "26410586",
+      "26173390",
+      "25330964",
+      "24477003",
+      "23075118",
+      "23039877",
+      "22606222",
+      "22080553",
+      "21967761",
+      "21925743",
+      "21507814",
+      "21471012",
+      "19727619",
+      "19465931",
+      "19465915",
+      "18856071",
+      "18809808",
+      "18402432",
+      "18374197",
+      "18374188",
+      "17635701",
+      "16940322",
+      "16617086",
+      "16200636",
+      "16162640",
+      "15911722",
+      "15869310",
+      "15276181",
+      "14765194",
+      "12580598",
+      "9223011",
+      "6667333",
+      "1731762"
+    ],
+    "similar": [
+      "38396721",
+      "35409257",
+      "38673722",
+      "33466919",
+      "23982176",
+      "23918929",
+      "24532791",
+      "24963046",
+      "23039877",
+      "28289087",
+      "35007172",
+      "30214074",
+      "23452238",
+      "17124179",
+      "29592891",
+      "27824210",
+      "29247216",
+      "29743176",
+      "23972066",
+      "26772871",
+      "23631591",
+      "32429051",
+      "23912807",
+      "29665197",
+      "20696932",
+      "29856932",
+      "26287237",
+      "31484376",
+      "32182040",
+      "23928358",
+      "24095214",
+      "21939388",
+      "17070618",
+      "25747820",
+      "20978134",
+      "18374188",
+      "29784887",
+      "25147380",
+      "33273012",
+      "37337123",
+      "26663892",
+      "26230708",
+      "25267254",
+      "16720838",
+      "15640149",
+      "27681307",
+      "30050002",
+      "33620491",
+      "33771253",
+      "22923610",
+      "27918545",
+      "22209765",
+      "16677080",
+      "36788244",
+      "35444089",
+      "24287886",
+      "29155484",
+      "6704420",
+      "14765194",
+      "2390102",
+      "26170452",
+      "25524619",
+      "33314621",
+      "33527205",
+      "4084561",
+      "26435421",
+      "2244179",
+      "12617985",
+      "23810903",
+      "9360981",
+      "28065270",
+      "17182266",
+      "6652076",
+      "35113495",
+      "11341364",
+      "28635929",
+      "19141161",
+      "9354587",
+      "8948492",
+      "33590680",
+      "35748323",
+      "6833262",
+      "8297331",
+      "11580082",
+      "26201483",
+      "16081695",
+      "18374189",
+      "26598701",
+      "23154637",
+      "3932474",
+      "10690708",
+      "15630486",
+      "24297869",
+      "6497379",
+      "11838236",
+      "18374191"
+    ],
+    "review": [
+      "38396721",
+      "27824210",
+      "23631591",
+      "29856932",
+      "26287237",
+      "17070618",
+      "18374188",
+      "37337123",
+      "26663892",
+      "30050002",
+      "16677080",
+      "24287886",
+      "2244179",
+      "28635929",
+      "35748323",
+      "26201483",
+      "18374189",
+      "11838236"
+    ],
+    "pmc": [
+      "10889538"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25042043",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38396721/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38396721",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

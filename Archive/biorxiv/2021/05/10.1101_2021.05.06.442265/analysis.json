@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.05.06.442265",
+  "title": "Accurate prediction of protein torsion angles using evolutionary signatures and recurrent neural network",
+  "authors": "Yong-Chang Xu; Tian-Jun ShangGuan; Xue-Ming Ding; Ngaam J. Cheung",
+  "journal": "bioRxiv",
+  "published_date": "2021-05-07",
+  "window": {
+    "start": "2021-05-03",
+    "end": "2021-05-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用循环神经网络预测蛋白质主链扭转角，属于结构预测方法，但对象为折叠蛋白且不涉及PPI或无序蛋白互作机制，仅方法上对结构建模有间接启发。",
+  "abstract": "The amino acid sequence of a protein contains all the necessary information to specify its shape, which dictates its biological activities. However, it is challenging and expensive to experimentally determine the three-dimensional structure of proteins. The backbone torsion angles, as an important structural constraint, play a critical role in protein structure prediction, and accurately predicting the angles can considerably advance the tertiary structure prediction by accelerating efficient sampling of the large conformational space for low energy structures. On account of the rapid growth of protein databases and striking breakthroughs in deep learning algorithms, computational advances allow us to extract knowledge from large-scale data to address key biological questions. Here we propose evolutionary signatures that are computed from protein sequence profiles, and a deep neural network, termed ESIDEN, that adopts a straightforward architecture of recurrent neural networks with a small number of learnable parameters. The proposed ESIDEN is validated on three benchmark datasets, including D2020, TEST2016/2018, and CASPs datasets. On the D2020, using the combination of the four novel features and basic features, the ESIDEN achieves the mean absolute error (MAE) of 15.7 and 19.8 for ϕ and ψ , respectively. Comparing to the best-so-far methods, we show that the ESIDEN significantly improves the angle ψ by the MAE decrements of more than 3.5 degrees on both TEST2016 and TEST2018 and achieves better MAE of the angle ϕ by decrements of at least 0.3 degrees although it adopts simple architecture and fewer learnable parameters. On fifty-nine template-free modeling targets, the ESIDEN achieves high accuracy by reducing the MAEs by 0.6 and more than 2.3 degrees on average for the torsion angles ϕ and ψ in the CASPs, respectively. Using the predicted torsion angles, we infer the tertiary structures of four representative template-free modeling targets that achieve high precision with regard to the root-mean-square deviation and TM-score by comparing them to the native structures. The results demonstrate that the ESIDEN can make accurate predictions of the torsion angles by leveraging the evolutionary signatures. The proposed evolutionary signatures would be also used as alternative features in predicting residue-residue distance, protein structure, and protein-ligand binding sites. Moreover, the high-precision torsion angles predicted by the ESIDEN can be used to accurately infer protein tertiary structures, and the ESIDEN would potentially pave the way to improve protein structure prediction.",
+  "abstract_zh": "蛋白质的氨基酸序列包含了决定其形状的所有必要信息，而形状又决定了其生物活性。然而，通过实验确定蛋白质的三维结构既具挑战性又成本高昂。骨架扭转角作为一种重要的结构约束，在蛋白质结构预测中扮演关键角色，准确预测这些角度可以通过加速对低能结构的大构象空间进行高效采样，从而显著推进三级结构预测。鉴于蛋白质数据库的快速增长和深度学习算法的显著突破，计算进步使我们能够从大规模数据中提取知识以解决关键生物学问题。在此，我们提出了从蛋白质序列谱计算得到的进化特征，以及一种名为ESIDEN的深度神经网络，该网络采用具有少量可学习参数的简单循环神经网络架构。所提出的ESIDEN在三个基准数据集上进行了验证，包括D2020、TEST2016/2018和CASPs数据集。在D2020上，结合四种新特征和基本特征，ESIDEN对ϕ和ψ分别实现了15.7和19.8的平均绝对误差（MAE）。与迄今最佳方法相比，我们显示ESIDEN在TEST2016和TEST2018上通过MAE降低超过3.5度显著改善了角度ψ，并在角度ϕ上通过至少0.3度的降低实现了更好的MAE，尽管其采用了简单架构和更少的可学习参数。在五十九个无模板建模目标上，ESIDEN通过将CASPs中扭转角ϕ和ψ的MAE分别平均降低0.6度和超过2.3度，实现了高精度。利用预测的扭转角，我们推断出四个代表性无模板建模目标的三级结构，通过与天然结构比较，这些结构在均方根偏差和TM-score方面达到了高精度。结果表明，ESIDEN通过利用进化特征能够准确预测扭转角。所提出的进化特征也可作为预测残基-残基距离、蛋白质结构和蛋白质-配体结合位点的替代特征。此外，ESIDEN预测的高精度扭转角可用于准确推断蛋白质三级结构，ESIDEN有望为改进蛋白质结构预测铺平道路。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.05.06.442265",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.05.06.442265",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.05.06.442265/index.html"
+}

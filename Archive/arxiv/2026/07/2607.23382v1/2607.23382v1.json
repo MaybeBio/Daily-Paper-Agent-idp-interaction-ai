@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2607.23382v1",
+  "title": "Homeostatic Noise Buffering in Biomolecular Condensates Hinges on Phase Multiplicity Modulated by Interfacial and Droplet Size Effects",
+  "doi": "",
+  "abstract": "Specific mixing or demixing of molecular species is a characteristic feature of condensed intracellular membraneless compartments. How sequence patterns of intrinsically disordered proteins (IDPs) fundamentally impact subcompartmentalization of biomolecular condensates and their role in buffering against concentration fluctuations are hereby addressed by modeling liquid-liquid phase separation (LLPS) of polyampholytic sequence pairs using random phase approximation (RPA) polymer theory and molecular dynamics (MD). RPA theory predicts both binary and ternary LLPS in a temperature-sensitive manner. We observe demixing underpinned by ternary LLPS for pairs with dissimilar sequence charge patterns but not for pairs with similar sequence charge patterns. Notably, the predicted behaviors are corroborated by MD when RPA is augmented with interfacial tension and/or a finite-size formalism commensurating with the typical small sizes of MD model systems, supporting our stipulation that RPA theory is a useful sequence-specific modeling tool for biomolecular condensates with larger, more realistic sizes when finite-size effects are much less significant. In principle, when the condensate size is sufficiently large, ternary LLPS is superior to binary LLPS in noise buffering because the IDP compositions of the three coexisting phases in ternary LLPS remain unchanged over an extended two-dimensional concentration regime, whereas the two coexisting phases in binary LLPS are fixed only along a tieline. However, when condensate sizes are sufficiently small, the buffering capacities of ternary versus binary LLPSs are more complex as they are modulated differently by finite-size effects. Biophysical ramifications of this interplay are discussed in view of the size diversity of natural biomolecular condensates.",
+  "authors": [
+    "Jonas Wessén",
+    "Tanmoy Pal",
+    "Suman Das",
+    "Hue Sun Chan"
+  ],
+  "published_date": "2026-07-25T22:04:58Z",
+  "updated_date": "2026-07-25T22:04:58Z",
+  "journal": "",
+  "category": "q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2607.23382v1",
+  "pdf_url": "https://arxiv.org/pdf/2607.23382v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2607.23382v1",
+    "raw_categories": [
+      "q-bio.BM"
+    ],
+    "journal_ref": ""
+  }
+}

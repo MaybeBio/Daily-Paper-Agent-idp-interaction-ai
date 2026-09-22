@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2307.16383v2",
+  "title": "Fine structures of Intrinsically Disordered Proteins",
+  "doi": "",
+  "abstract": "We report simulation studies of 33 single intrinsically disordered proteins (IDPs) using coarse-grained (CG) bead-spring models where interactions among different amino acids are introduced through a hydropathy matrix and additional screened Coulomb interaction for the charged amino acid beads. Our simulation studies of two different hydropathy scales (HPS1, HPS2) [Dignon et al., PLOS Comp. Biology, 14, 2018, Tesei et al. PNAS, 118, 2021] and the comparison with the existing experimental data indicates an optimal interaction parameter $ε= 0.1$ kcal/mol and $0.2$ kcal/mol for the HPS1 and HPS2 hydropathy scales. We use these best-fit parameters to investigate both the universal aspects as well as the fine structures of the individual IDPs by introducing additional characteristics.(i) First, we investigate the polymer specific scaling relations of the IDPs in comparison to the universal scaling relations [Bair et al., J. Chem. Phys. 158, 204902 (2023)] for the homopolymers and we demonstrate that IDPs are broadly characterized with a Flory exponent of 0.56 with the conclusion that conformations of the IDPs interpolate between Gaussian and 3DSAW chains. (ii) Then we introduce Wilson charge index W that captures the essential features of charge interactions and distribution in the sequence space, and (iii) a skewness parameter S that captures the finer shape variation of the gyration radii distribution related to the charge asymmetry. Finally, our study of the variation of <$R_g$> as a function of salt concentration provides another important metric to bring out finer characteristics of the IDPs which may carry relevant information for the origin of life.",
+  "authors": [
+    "Swarnadeep Seth",
+    "Brandon Stine",
+    "Aniket Bhattacharya"
+  ],
+  "published_date": "2023-07-31T03:25:21Z",
+  "updated_date": "2023-12-05T19:20:56Z",
+  "journal": "",
+  "category": "cond-mat.soft, physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2307.16383v2",
+  "pdf_url": "https://arxiv.org/pdf/2307.16383v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft",
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2307.16383v2",
+    "raw_categories": [
+      "cond-mat.soft",
+      "physics.bio-ph"
+    ],
+    "journal_ref": ""
+  }
+}

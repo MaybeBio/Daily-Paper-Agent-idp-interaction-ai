@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors use extended all-atom molecular dynamics simulations of Klebsiella pneumoniae UreG to show that GTP hydrolysis, modeled by removal of the gamma-phosphate and Mg(II) ion, destabilizes the hydrogen-bonding network connecting the nucleotide-binding pocket to the CPH motif, increases homodimer flexibility, and displaces the Ni(II)-binding region outward, while Ni(II) remains coordinated to the CPH motif throughout. They propose that GTP hydrolysis primes UreG for Ni(II) transfer by weakening structural constraints rather than directly triggering metal release, and that additional interactions, likely involving UreF, are required for nickel release and complete urease activation.
+- **Visible evidence base** Abstract text only. No methods, figures, tables, simulation parameters, or statistical analyses were provided.
+- **Missing materials affecting confidence** Full manuscript, simulation setup and force field parameters, convergence criteria, replicate details, structural analysis methods, and any experimental validation. Without these, the technical soundness and robustness of the simulation results cannot be assessed.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis for UreG function during urease activation, supported by molecular dynamics simulations. The central claim that GTP hydrolysis weakens structural constraints around the Ni(II)-binding site without directly releasing the metal is internally consistent and biologically relevant. However, the evidence base is limited to an abstract, and the absence of methodological detail precludes verification of simulation quality, convergence, and statistical robustness. The conclusion that UreF is required for nickel release is speculative, as no data on UreF are presented. The work is of interest to the metalloenzyme and protein dynamics communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying nickel-dependent enzymes, urease maturation pathways, intrinsically disordered proteins, and GTPase function. The proposed mechanism of nucleotide hydrolysis modulating metal-binding site accessibility may also interest those working on metallochaperone systems and protein-protein interactions in metal trafficking.
+- **Major strengths** The study addresses a specific and mechanistically important question in urease activation. The use of extended all-atom simulations in explicit solvent is appropriate for probing conformational dynamics. The interpretation that GTP hydrolysis primes rather than directly triggers metal release is nuanced and avoids overstatement. The explicit acknowledgment that additional factors, such as UreF, are needed for full activation shows scientific caution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that GTP hydrolysis destabilizes the hydrogen-bonding network and increases UreG homodimer flexibility is based on simulation results.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** No methodological details are available to evaluate the simulation protocol. Key parameters such as force field, water model, simulation length, number of replicates, temperature and pressure coupling, equilibration procedure, and convergence criteria are absent. Without these, the reliability of the observed structural changes cannot be assessed.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation setup and sampling quality. If the simulations are underconverged or use inappropriate parameters, the reported destabilization and flexibility changes may be artifacts rather than genuine physical behavior.
+  - **Resolution test** Provide full methods including force field, simulation length, replicate count, and convergence analysis. Show that the observed hydrogen-bonding disruption and flexibility changes are reproducible across independent simulations and stable over time.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The claim that Ni(II) remains coordinated to the CPH motif throughout all simulations is presented as a key result.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract states that Ni(II) remains coordinated, but no quantitative data are provided, such as coordination distances, coordination number, or occupancy over time. The stability of the metal-binding site is central to the proposed model, yet the evidence is only qualitative.
+  - **Why it matters** If Ni(II) coordination fluctuates or partially dissociates in some simulation segments, the interpretation that GTP hydrolysis only primes the system for transfer would be weakened. Quantitative metrics are needed to support the claim of stable coordination.
+  - **Resolution test** Provide time series of Ni(II)-ligand distances, coordination number, and binding site occupancy for all simulations, with statistical comparison between the GTP-bound and post-hydrolysis states.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim support
+  - **Claim pointer** The proposal that additional interactions, likely involving UreF, are required to promote nickel release and complete urease activation.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** No simulation or experimental data involving UreF are presented. The statement is speculative and goes beyond the reported results.
+  - **Why it matters** While the speculation is reasonable given the known role of UreF in urease maturation, it is not supported by evidence in this study. Presenting it as a conclusion may mislead readers into thinking it was tested.
+  - **Resolution test** Either remove the claim or provide supporting data, such as simulations of the UreG-UreF complex or experimental binding studies, to substantiate the role of UreF in nickel release.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "displacing the Ni(II)-binding region outward, rendering it more exposed to the aqueous environment" is vague. It is unclear what "outward" means in the context of the homodimer structure and how exposure is quantified.
+  - **Required correction** Define the reference frame for "outward" and specify the metric used to measure solvent exposure, such as solvent accessible surface area or residue-level contact probability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation scope
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state how many independent simulations were performed or whether the GTP-bound state was simulated as a control. This limits confidence in the comparative claims.
+  - **Required correction** State the number of replicates and include a description of the control simulations in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Biological relevance
+  - **Affected element** Interpretation
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not discuss whether the observed conformational changes are within the range of thermal fluctuations expected for an intrinsically disordered protein, which could affect the significance of the flexibility increase.
+  - **Required correction** Compare the magnitude of the observed flexibility changes to baseline fluctuations in the GTP-bound state and discuss whether the effect is biologically meaningful.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of methodological detail and quantitative metal-binding analysis prevents verification of the central claims. R1-M3 is non-blocking but should be addressed to avoid overinterpretation.
+- **Assessment against Nature-style criteria** Originality: The mechanistic proposal that GTP hydrolysis primes UreG for metal transfer without direct release is a novel angle, though the underlying concept of nucleotide-regulated conformational change is not unprecedented. Scientific importance: The work has potential relevance to urease maturation and metallochaperone function, but the significance is moderate and depends on the robustness of the simulations. Interdisciplinary readership: The topic bridges enzymology, metallobiology, and computational biophysics, which could attract a broad audience if the results are well validated. Technical soundness: Cannot be assessed from the abstract alone. The absence of simulation details is a major limitation. Readability for nonspecialists: The abstract is generally clear, but terms such as "CPH motif" and "gamma-phosphate" may require context for a general audience. Overall, the work has merit but does not currently meet the standard of a high-impact general journal based on the supplied material.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the direction is promising, but the abstract alone does not provide sufficient technical detail to support the central claims. A revised manuscript with full methods, quantitative analysis, and appropriate controls could change this assessment.
+
+## Risk / unsupported claims
+- The claim that GTP hydrolysis "primes" UreG for Ni(II) transfer is supported only by simulation observations and lacks experimental validation.
+- The statement that UreF is required for nickel release is unsupported by any data in the abstract.
+- The assertion that Ni(II) remains coordinated throughout all simulations is unverifiable without quantitative coordination metrics.
+- The biological significance of the observed flexibility increase is not established, as no comparison to functional outcomes is provided.

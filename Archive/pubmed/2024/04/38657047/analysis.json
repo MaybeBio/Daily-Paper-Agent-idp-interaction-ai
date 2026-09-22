@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38657047",
+  "title": "HYPK: A marginally disordered protein sensitive to charge decoration.",
+  "authors": "Firouzbakht, Arash; Haider, Austin; Gaalswyk, Kari; Alaeen, Sepehr; Ghosh, Kingshuk; Gruebele, Martin",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2024-04-24",
+  "window": {
+    "start": "2024-04-22",
+    "end": "2024-04-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究边缘无序蛋白HYPK对电荷修饰的构象敏感性，涉及无序蛋白对象但无PPI互作机制，方法以实验为主，仅部分序列预测，故评5分。",
+  "abstract": "Intrinsically disordered proteins (IDPs) that lie close to the empirical boundary separating IDPs and folded proteins in Uversky's charge-hydropathy plot may behave as \"marginal IDPs\" and sensitively switch conformation upon changes in environment (temperature, crowding, and charge screening), sequence, or both. In our search for such a marginal IDP, we selected Huntingtin-interacting protein K (HYPK) near that boundary as a candidate; PKIalpha, also near that boundary, has lower secondary structure propensity; and Crk1, just across the boundary on the folded side, has higher secondary structure propensity. We used a qualitative Forster resonance energy transfer-based assay together with circular dichroism to simultaneously probe global and local conformation. HYPK shows several unique features indicating marginality: a cooperative transition in end-to-end distance with temperature, like Crk1 and folded proteins, but unlike PKIalpha; enhanced secondary structure upon crowding, in contrast to Crk1 and PKIalpha; and a cross-over from salt-induced expansion to compaction at high temperature, likely due to a structure-to-disorder transition not seen in Crk1 and PKIalpha. We then tested HYPK's sensitivity to charge patterning by designing charge-flipped variants including two specific sequences with identical amino acid composition that markedly differ in their predicted size and response to salt. The experimentally observed trends, also including mutants of PKIalpha, verify the predictions from sequence charge decoration metrics. Marginal proteins like HYPK show features of both folded and disordered proteins that make them sensitive to physicochemical perturbations and structural control by charge patterning.",
+  "abstract_zh": "位于Uversky电荷-水合性图中经验边界附近、介于 intrinsically disordered proteins (IDPs) 与折叠蛋白之间的 intrinsically disordered proteins (IDPs) 可能表现为“边缘性IDPs”，并随环境（温度、拥挤效应和电荷屏蔽）、序列或两者的变化而敏感地切换构象。在寻找此类边缘性IDP的过程中，我们选择了靠近该边界的 Huntingtin-interacting protein K (HYPK) 作为候选；同样靠近边界的 PKIalpha 具有较低的二级结构倾向；而位于边界折叠侧的 Crk1 则具有较高的二级结构倾向。我们使用基于 Forster resonance energy transfer 的定性检测方法，结合圆二色光谱，同时探测全局和局部构象。HYPK 显示出若干表明边缘性的独特特征：端到端距离随温度发生协同转变，类似于 Crk1 和折叠蛋白，但不同于 PKIalpha；在拥挤条件下二级结构增强，与 Crk1 和 PKIalpha 形成对比；以及在高温下从盐诱导的膨胀到压缩的交叉转变，这可能是由于 Crk1 和 PKIalpha 中未见的结构-无序转变所致。随后，我们通过设计电荷翻转变体（包括两个具有相同氨基酸组成但预测尺寸和盐响应显著不同的特定序列）来测试 HYPK 对电荷模式的敏感性。实验观察到的趋势（也包括 PKIalpha 的突变体）验证了序列电荷装饰指标的预测。像 HYPK 这样的边缘性蛋白同时表现出折叠蛋白和无序蛋白的特征，使其对物理化学扰动和电荷模式的结构控制敏感。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38657047/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38657047/",
+  "paper_page_path": "papers/pubmed/38657047/index.html"
+}

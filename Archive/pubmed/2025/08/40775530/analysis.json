@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40775530",
+  "title": "Lipid packing defects are necessary and sufficient for membrane binding of alpha-synuclein.",
+  "authors": "Johnson, David H; Kou, Orianna H; White, John M; Ramirez, Stephanie Y; Margaritakis, Antonis; Chung, Peter J; Jaeger, Vance W; Zeno, Wade F",
+  "journal": "Communications biology",
+  "published_date": "2025-08-08",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究无序蛋白α-突触核蛋白与膜的结合机制，通过实验和全原子MD模拟证明脂质堆积缺陷足以驱动结合，虽非典型PPI但聚焦IDP-膜互作机制建模，方法上MD模拟可迁移启发。",
+  "abstract": "alpha-Synuclein (alphaSyn), an intrinsically disordered protein implicated in Parkinson's disease, is thought to initiate aggregation by binding to cellular membranes. Previous studies suggest that anionic lipids are necessary for this binding. However, these studies largely focused on unmodified alphaSyn, while physiological alphaSyn is N-terminally acetylated (NTA). Our work challenges the long-standing paradigm that anionic lipids are necessary for alphaSyn binding by demonstrating that NTA diminishes alphaSyn's reliance on anionic membranes, revealing that membrane packing defects (i.e., interfacial hydrophobicity) alone can drive membrane binding. Using fluorescence microscopy and circular dichroism spectroscopy, we monitored the binding of NTA-alphaSyn to membrane vesicles with different lipid compositions. Phosphatidylcholine and phosphatidylserine concentrations were varied to control surface charge, while phospholipid tail unsaturation and methylation were varied to modulate lipid packing. We also formulated cholesterol-containing membranes that mimicked the lipid composition of synaptic vesicles. In these membranes, all-atom molecular dynamics simulations were used to visualize and quantify membrane packing defects. Our results demonstrate that membrane packing defects are necessary for NTA-alphaSyn binding and that defect-rich membranes are sufficient for NTA-alphaSyn binding regardless of membrane charge. These findings provide a molecular mechanism by which lipid structural properties, such as poly-unsaturation, can regulate alphaSyn binding to physiological membranes.",
+  "abstract_zh": "α-突触核蛋白（alphaSyn），一种与帕金森病相关的固有无序蛋白，被认为通过与细胞膜结合启动聚集过程。以往研究表明，阴离子脂质对于这种结合是必需的。然而，这些研究主要集中于未修饰的alphaSyn，而生理状态下的alphaSyn则经过N端乙酰化（NTA）。我们的工作挑战了长期以来的范式，即阴离子脂质是alphaSyn结合所必需的，通过证明NTA减弱了alphaSyn对阴离子膜的依赖，揭示出膜堆积缺陷（即界面疏水性）单独即可驱动膜结合。利用荧光显微镜和圆二色光谱法，我们监测了NTA-alphaSyn与不同脂质组成的膜囊泡的结合情况。通过改变磷脂酰胆碱和磷脂酰丝氨酸的浓度来控制表面电荷，同时调节磷脂尾部的不饱和度和甲基化程度以调控脂质堆积。我们还制备了含有胆固醇的膜，模拟突触囊泡的脂质组成。在这些膜中，使用全原子分子动力学模拟来可视化和量化膜堆积缺陷。我们的结果表明，膜堆积缺陷是NTA-alphaSyn结合所必需的，且富含缺陷的膜足以支持NTA-alphaSyn结合，无论膜电荷如何。这些发现提供了一种分子机制，通过该机制，脂质结构特性（如多不饱和性）可以调节alphaSyn与生理膜的结合。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40775530/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40775530/",
+  "paper_page_path": "papers/pubmed/40775530/index.html"
+}

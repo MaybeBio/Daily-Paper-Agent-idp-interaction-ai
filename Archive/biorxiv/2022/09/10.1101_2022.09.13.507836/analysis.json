@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.13.507836",
+  "title": "Intrinsically disordered proteins SAID1/2 condensate on SERRATE/ARS2 for dual inhibition of miRNA biogenesis in Arabidopsis",
+  "authors": "Shang B; Wang L; Yan X; Li Y; Li C; Wu C; Wang T; Xiang-Guo; Choi S; Zhang T; Wang Z; Tong C; Oh T; Xiao-Zhang; Wang Z; Peng X; Zhang X",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-16",
+  "window": {
+    "start": "2022-09-12",
+    "end": "2022-09-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究拟南芥中无序蛋白SAID1/2通过液-液相分离凝聚在SERRATE/ARS2上，双重抑制miRNA生物发生，涉及IDP介导的PPI与相分离机制，但方法以实验为主，缺乏AI/物理模拟建模。",
+  "abstract": "<h4>Summary</h4> Intrinsically disordered proteins (IDPs) SAID1/2 are hypothetic dentin sialophosphoprotein-like proteins, but their true functions are unknown. Here, we identified SAID1/2 as negative regulators of SERRATE(SE)/ARS2, a core factor in miRNA biogenesis complex (microprocessor). Loss-of-function double mutants of said1; said2 caused pleiotropic developmental defects and thousands of differentially-expressed genes that partially overlapped with those in se. said1; said2 also displayed increased assembly of microprocessor and elevated accumulation of miRNAs. Mechanistically, SAID1/2 promotes PRP4KA-mediated phosphorylation of SE, leading to its degradation in vivo. Unexpectedly, SAID1/2 have strong binding affinity to hairpin-structured pri-miRNAs and can sequester them from SE. Moreover, SAID1/2 directly inhibit pri-miRNA processing by microprocessor in vitro. Whereas SAID1/2 did not impact SE subcellular compartmentation, the proteins themselves exhibited liquid-liquid phase condensation that is nucleated on SE. Thus, we proposed that SAID1/2 reduce miRNA production through hijacking pri-miRNAs to prevent microprocessor activity while promoting SE phosphorylation and its destabilization in Arabidopsis.",
+  "abstract_zh": "<h4>摘要</h4> 内在无序蛋白（IDPs）SAID1/2 是假设的牙本质唾液磷蛋白样蛋白，但其真实功能尚不清楚。在此，我们确定 SAID1/2 为 SERRATE(SE)/ARS2 的负调控因子，后者是 miRNA 生物发生复合体（microprocessor）中的核心因子。said1; said2 双突变体的功能缺失导致多效性发育缺陷和数千个差异表达基因，这些基因与 se 中的部分重叠。said1; said2 还表现出 microprocessor 组装增加和 miRNA 积累升高。机制上，SAID1/2 促进 PRP4KA 介导的 SE 磷酸化，导致其在体内降解。出乎意料的是，SAID1/2 对发夹结构的 pri-miRNA 具有强结合亲和力，并能将其从 SE 中隔离。此外，SAID1/2 在体外直接抑制 microprocessor 对 pri-miRNA 的加工。虽然 SAID1/2 不影响 SE 的亚细胞区室化，但蛋白质本身表现出以 SE 为成核点的液-液相分离凝聚。因此，我们提出 SAID1/2 通过劫持 pri-miRNA 来阻止 microprocessor 活性，同时促进 SE 磷酸化及其不稳定化，从而在拟南芥中减少 miRNA 的产生。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.13.507836",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.13.507836",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.13.507836/index.html"
+}

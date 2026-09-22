@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.12.08.471762",
+  "title": "DeepRank-GNN: A Graph Neural Network Framework to Learn Patterns in Protein-Protein Interfaces",
+  "authors": "M. Réau; N. Renaud; L. C. Xue; A. M. J. J. Bonvin",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-10",
+  "window": {
+    "start": "2021-12-06",
+    "end": "2021-12-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于图神经网络的DeepRank-GNN框架，用于学习蛋白-蛋白互作界面模式并打分对接模型，虽非针对无序蛋白，但其PPI界面建模与GNN方法对本课题具有可迁移的启发价值。",
+  "abstract": "Gaining structural insights into the protein-protein interactome is essential to understand biological phenomena and extract knowledge for rational drug design or protein engineering. We have previously developed DeepRank, a deep-learning framework to facilitate pattern learning from protein-protein interfaces using Convolutional Neural Network (CNN) approaches. However, CNN is not rotation invariant and data augmentation is required to desensitize the network to the input data orientation which dramatically impairs the computation performance. Representing protein-protein complexes as atomic- or residue-scale rotation invariant graphs instead enables using graph neural networks (GNN) approaches, bypassing those limitations. We have developed DeepRank-GNN, a framework that converts protein-protein interfaces from PDB 3D coordinates files into graphs that are further provided to a pre-defined or user-defined GNN architecture to learn problem-specific interaction patterns. DeepRank-GNN is designed to be highly modularizable, easily customized, and is wrapped into a user-friendly python3 package. Here, we showcase DeepRank-GNN’s performance for scoring docking models using a dedicated graph interaction neural network (GINet). We show that this graph-based model performs better than DeepRank, DOVE and HADDOCK scores and competes with iScore on the CAPRI score set. We show a significant gain in speed and storage requirement using DeepRank-GNN as compared to DeepRank. DeepRank-GNN is freely available from https://github.com/DeepRank/DeepRank-GNN . Contact a.m.j.j.bonvin@uu.nl",
+  "abstract_zh": "获取蛋白质-蛋白质相互作用组的结构洞察对于理解生物现象以及提取用于合理药物设计或蛋白质工程的知识至关重要。我们此前开发了DeepRank，一个利用卷积神经网络（CNN）方法促进从蛋白质-蛋白质界面进行模式学习的深度学习框架。然而，CNN不具备旋转不变性，需要数据增强来降低网络对输入数据方向的敏感性，这极大地损害了计算性能。将蛋白质-蛋白质复合物表示为原子级或残基级的旋转不变图，转而能够使用图神经网络（GNN）方法，从而绕过这些限制。我们开发了DeepRank-GNN，一个将蛋白质-蛋白质界面从PDB 3D坐标文件转换为图的框架，这些图进一步提供给预定义或用户定义的GNN架构，以学习特定问题的相互作用模式。DeepRank-GNN设计为高度模块化、易于定制，并封装在用户友好的python3包中。在此，我们展示了DeepRank-GNN在评分对接模型方面的性能，使用专门的图交互神经网络（GINet）。我们表明，这种基于图的模型在CAPRI评分集上表现优于DeepRank、DOVE和HADDOCK评分，并与iScore竞争。我们展示了与DeepRank相比，DeepRank-GNN在速度和存储需求上的显著提升。DeepRank-GNN可从https://github.com/DeepRank/DeepRank-GNN 免费获取。联系方式：a.m.j.j.bonvin@uu.nl",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.12.08.471762",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.12.08.471762",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.12.08.471762/index.html"
+}

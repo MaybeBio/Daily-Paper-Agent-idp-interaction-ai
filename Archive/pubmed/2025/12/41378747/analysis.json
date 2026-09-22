@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41378747",
+  "title": "Depletion of the Protein Hydration Shell with Increasing Temperature Observed by Small-Angle X-ray Scattering and Molecular Simulations.",
+  "authors": "Linse, Johanna-Barbara; Cho, Hyun Sun; Schotte, Friedrich; Anfinrud, Philip A; Hub, Jochen S",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2025-12-11",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用SAXS和分子模拟研究折叠蛋白水化壳随温度的结构变化，虽涉及分子模拟和相分离背景，但对象为折叠蛋白且不涉及PPI或无序蛋白互作机制，仅间接相关。",
+  "abstract": "The hydration shell is an integral part of proteins since it plays key roles in conformational transitions, molecular recognition, and enzymatic activity. While the dynamics of the hydration shell have been described by spectroscopic techniques, the structure of the hydration shell remains less understood due to the lack of hydration shell-sensitive structural probes with high spatial resolution. We combined temperature-ramp small-angle X-ray scattering (T-ramp SAXS) from 255 to 335 K with molecular simulations to demonstrate that the hydration shells of the IgG-binding domain of Protein G (GB3) and the villin headpiece are remarkably temperature-sensitive. For proteins in the folded state, T-ramp SAXS data and explicit-solvent SAXS predictions consistently demonstrate decays of protein contrasts and radii of gyration with increasing temperature, which are shown to reflect predominantly temperature-sensitive, depleting hydration shells. The depletion is caused not merely by enhanced disorder within the hydration shells but also by partial displacements of surface-coordinated water molecules. Together, T-ramp SAXS and explicit-solvent SAXS calculations provide a novel structural view of the protein hydration shell, which underlies temperature-dependent processes such as cold denaturation, thermophoresis, or biomolecular phase separation.",
+  "abstract_zh": "水合壳层是蛋白质不可或缺的组成部分，因为它在构象转变、分子识别和酶活性中发挥关键作用。尽管水合壳层的动力学已通过光谱技术描述，但由于缺乏具有高空间分辨率且对水合壳层敏感的结构探针，其结构仍了解甚少。我们将温度斜坡小角X射线散射（T-ramp SAXS）从255 K至335 K与分子模拟相结合，证明蛋白质G的IgG结合域（GB3）和绒毛蛋白头部片段的壳层对温度极为敏感。对于折叠态蛋白质，T-ramp SAXS数据和显式溶剂SAXS预测一致表明，随着温度升高，蛋白质对比度和回旋半径发生衰减，这反映出主要归因于温度敏感的水合壳层耗竭。这种耗竭不仅由水合壳层内增强的无序性引起，还部分归因于表面配位水分子的位移。总之，T-ramp SAXS和显式溶剂SAXS计算为蛋白质水合壳层提供了新颖的结构视角，这支撑了诸如冷变性、热泳或生物分子相分离等温度依赖性过程。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41378747/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41378747/",
+  "paper_page_path": "papers/pubmed/41378747/index.html"
+}

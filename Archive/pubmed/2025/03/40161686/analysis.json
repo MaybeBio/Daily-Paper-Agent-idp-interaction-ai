@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40161686",
+  "title": "STI1 domain dynamically engages transient helices in disordered regions to drive self-association and phase separation of yeast ubiquilin Dsk2.",
+  "authors": "Acharya, Nirbhik; Daniel, Emily A; Dao, Thuy P; Niblo, Jessica K; Mulvey, Erin; Sukenik, Shahar; Kraut, Daniel A; Roelofs, Jeroen; Castaneda, Carlos A",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-03-31",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过NMR和计算模拟揭示酵母Dsk2的STI1结构域与无序区内瞬时螺旋的动态互作驱动自组装和相分离，直接聚焦IDR介导的PPI机制建模，高度契合课题。",
+  "abstract": "Ubiquitin-binding shuttle proteins are important components of stress-induced biomolecular condensates in cells. Yeast Dsk2 scaffolds proteasome-containing condensates via multivalent interactions with proteasomes and ubiquitinated substrates under azide-induced mitochondrial stress or extended growth conditions. However, the molecular mechanisms underlying how these shuttle proteins work are unknown. Here, we identify that the middle chaperone-binding STI1 domain is the main driver of Dsk2 self-association and phase separation in vitro. Using NMR spectroscopy and computational simulations, we find that the STI1 domain interacts with three transient amphipathic helices within the intrinsically-disordered regions of Dsk2. Removal of either the STI1 domain or these helices significantly reduces the propensity for Dsk2 to phase separate. In vivo, removal of the STI1 domain in Dsk2 has the opposite effect, resulting in an increase of proteasome-containing condensates due to an accumulation of polyubiquitinated substrates. Modeling of STI1-helix interactions reveals a binding mode that is reminiscent of interactions between chaperone STI1/DP2 domains and client proteins containing amphipathic or transmembrane helices. Our findings support a model whereby STI1-helix interactions important for Dsk2 condensate formation can be replaced by STI1-client interactions for downstream chaperone or other protein quality control outcomes.",
+  "abstract_zh": "泛素结合穿梭蛋白是细胞中应激诱导的生物分子凝聚物的重要组成部分。在叠氮化物诱导的线粒体应激或延长生长条件下，酵母Dsk2通过多价相互作用与蛋白酶体和泛素化底物结合，支架蛋白酶体包含的凝聚物。然而，这些穿梭蛋白如何工作的分子机制尚不清楚。在此，我们确定中间伴侣结合STI1结构域是Dsk2自结合和体外相分离 (phase separation) 的主要驱动因素。利用核磁共振波谱 (NMR spectroscopy) 和计算模拟，我们发现STI1结构域与Dsk2内在无序区域内的三个瞬时两亲性螺旋相互作用。去除STI1结构域或这些螺旋均显著降低Dsk2相分离的倾向。在体内，去除Dsk2中的STI1结构域产生相反效果，导致多聚泛素化底物积累，从而增加蛋白酶体包含的凝聚物。STI1-螺旋相互作用的建模揭示了一种结合模式，类似于伴侣STI1/DP2结构域与含两亲性或跨膜螺旋的客户蛋白之间的相互作用。我们的发现支持一个模型，即对Dsk2凝聚物形成重要的STI1-螺旋相互作用可被STI1-客户相互作用所替代，以进行下游伴侣或其他蛋白质质量控制结果。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40161686/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40161686/",
+  "paper_page_path": "papers/pubmed/40161686/index.html"
+}

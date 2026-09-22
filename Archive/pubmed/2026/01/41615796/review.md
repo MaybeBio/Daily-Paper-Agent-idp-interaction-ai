@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, as supplied
+- **Shared manuscript claim summary** The authors propose that the E3 ubiquitin ligase HRD1 negatively regulates autolysosome formation by inhibiting liquid-liquid phase separation (LLPS) of the SNARE protein SNAP29. They report that HRD1 deficiency enhances autophagy and promotes autolysosome formation in a SNAP29-dependent manner, that SNAP29 forms dynamic condensates in vivo and in vitro, and that HRD1 interacts with SNAP29 to suppress condensation, with HRD1 depletion accelerating condensate formation and SNARE complex assembly.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, statistical details, cell lines and model systems, quantification approaches, and any controls. Without these, the mechanistic claims cannot be independently evaluated.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting regulatory mechanism linking an E3 ubiquitin ligase to phase separation of a SNARE protein, with implications for autophagic flux. However, the evidence base is limited to a summary of findings, and several claims are stated without sufficient mechanistic detail or quantitative support. The central conclusion that HRD1 inhibits SNAP29 LLPS to modulate SNARE assembly is plausible but not established from the supplied material. The work may appeal to researchers in autophagy, membrane trafficking, and phase separation, but the current abstract does not provide enough information to assess technical rigor or novelty relative to existing literature.
+- **Who would be interested in the results, and why** Researchers studying autophagy regulation, SNARE-mediated membrane fusion, ubiquitin ligase function, and biomolecular condensates. The potential link between ubiquitination and phase separation is of broad interest to cell biologists, and the focus on autolysosome formation may attract those interested in lysosomal biology and neurodegeneration where autophagy is implicated.
+- **Major strengths** The abstract identifies a novel regulatory axis (HRD1 to SNAP29 LLPS) that could connect protein degradation machinery to membrane fusion events. The use of both in vivo and in vitro systems to demonstrate SNAP29 condensate formation is a strength, as is the inclusion of a SNAP29-dependent phenotype for HRD1 deficiency. The mechanistic framing is clear and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** "HRD1 interacts with SNAP29 to suppress its condensation, whereas HRD1 depletion accelerates both SNAP29 condensate formation and SNARE complex assembly."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that HRD1 interacts with SNAP29 and suppresses condensation, but no details are given on the nature of this interaction (direct or indirect), the domains involved, or whether the effect on condensation is due to ubiquitination or another mechanism. The claim that HRD1 depletion accelerates SNARE complex assembly is also presented without any indication of how assembly was measured or whether the effect is specific to SNAP29.
+  - **Why it matters** Without mechanistic detail, the causal link between HRD1 activity, SNAP29 LLPS, and SNARE assembly is not established. The abstract implies a direct regulatory role, but alternative explanations (e.g., indirect effects on protein levels, trafficking, or other SNARE components) are not excluded.
+  - **Resolution test** Provide experimental evidence showing that HRD1-mediated ubiquitination of SNAP29 (or a specific interaction domain) is required for suppression of condensation, and demonstrate that SNAP29 condensate formation is necessary and sufficient for SNARE complex assembly in the context of HRD1 modulation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance
+  - **Claim pointer** "HRD1 deficiency enhances autophagy activity and promotes autolysosome formation in a SNAP29-dependent manner."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims that HRD1 deficiency enhances autophagy and promotes autolysosome formation, but it does not specify how autophagy activity was measured (e.g., flux assays, LC3 turnover, lysosomal pH) or how SNAP29 dependence was established (e.g., knockdown, rescue, or mutant studies). The term "autolysosome formation" is used without defining the assay or the cell type.
+  - **Why it matters** Autophagy activity is a complex phenotype that requires careful measurement of flux, not just steady-state markers. The SNAP29 dependence is central to the model, but the abstract does not provide evidence that the effect is specific to SNAP29 rather than a general effect on SNARE proteins or membrane fusion.
+  - **Resolution test** Show autophagy flux data (e.g., LC3-II turnover with lysosomal inhibitors) and demonstrate that SNAP29 knockdown or mutation abolishes the HRD1-deficient phenotype. Provide quantification of autolysosome formation using electron microscopy or live-cell imaging.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and context
+  - **Claim pointer** "The regulatory mechanisms governing this process remain underexplored."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract positions the work as addressing an underexplored area, but it does not cite or discuss prior work on SNARE regulation in autophagy, phase separation of SNARE proteins, or HRD1 functions beyond ER-associated degradation. Without this context, the novelty of the finding cannot be assessed.
+  - **Why it matters** The claim of novelty is a key part of the paper's significance. If similar mechanisms have been reported, the contribution may be incremental rather than transformative.
+  - **Resolution test** Include a brief review of relevant literature in the introduction and discussion, and explicitly state how the current findings extend or challenge existing models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "liquid-liquid phase separation" is used without defining the criteria used to identify condensates (e.g., sensitivity to 1,6-hexanediol, FRAP recovery, fusion events). The abstract also uses "condensates" and "LLPS" interchangeably, which may be imprecise.
+  - **Required correction** Define the operational criteria for LLPS and specify which experiments were used to confirm phase separation behavior.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Model systems
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify the cell types or organisms used for in vivo experiments, nor the in vitro system (e.g., recombinant proteins, cell lysates). This limits the ability to assess the physiological relevance.
+  - **Required correction** State the model systems used and justify their relevance to the autophagy context.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantification
+  - **Affected element** Statistical support
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No quantitative data or statistical measures are mentioned in the abstract. It is unclear whether the reported effects are robust and reproducible.
+  - **Required correction** Include representative quantitative results (e.g., fold changes, p-values) in the abstract or indicate that full data are presented in the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient mechanistic or functional evidence to support the central claims. The lack of methodological detail and quantitative data prevents assessment of technical soundness.
+- **Assessment against Nature-style criteria** Originality: The proposed link between HRD1 and SNAP29 LLPS is potentially novel, but the abstract does not provide enough context to confirm novelty. Scientific importance: The topic is of interest to cell biology, but the significance depends on whether the mechanism is general or specific to certain contexts. Interdisciplinary readership: The work may appeal to cell biologists, biochemists, and autophagy researchers, but the abstract is too narrow to attract a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the lack of methods and data is a major limitation. Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., "autolysosome," "SNARE complex") without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the claims are not supported by sufficient detail. A full manuscript with rigorous experimental data would be needed to evaluate the case.
+
+## Risk / unsupported claims
+- The claim that HRD1 "negatively regulates" autolysosome formation via SNAP29 LLPS is not supported by the abstract alone, as no direct evidence for the regulatory mechanism is provided.
+- The statement that SNAP29 condensates are "crucial" for SNARE complex assembly is an assertion without supporting data.
+- The claim that HRD1 depletion "accelerates" condensate formation and SNARE assembly implies kinetic measurements that are not described.
+- The abstract does not provide evidence that the HRD1-SNAP29 interaction is direct or that ubiquitination is involved, leaving the molecular mechanism unspecified.

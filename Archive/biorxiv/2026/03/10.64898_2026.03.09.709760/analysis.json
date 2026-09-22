@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.09.709760",
+  "title": "A Cooperative Mechanism of Eukaryotic Transcription Factor Target Search",
+  "authors": "Meeussen JV; Pomp W; de Jonge WJ; Mazza D; Lenstra TL",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-11",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过活细胞单分子成像揭示真核转录因子Gal4依赖其内在无序区域(IDR)介导的自相互作用实现快速靶标搜索，无需辅助扩散，直接建立了IDR驱动PPI在基因靶向识别中的机制模型，与本课题高度契合。",
+  "abstract": "<h4>ABSTRACT</h4> Rapid gene activation requires transcription factors (TFs) to locate their target motifs within vast genomes. In bacteria, TF target search is accelerated by combining 3D diffusion with 1D sliding, called facilitated diffusion, yet whether eukaryotic TFs rely on similar strategies has remained unresolved due to the lack of direct measurements in living cells. Here, we directly visualize eukaryotic TF target search in living cells by labeling a single TF per nucleus and visualizing its binding to its endogenous locus. Using the budding yeast TF Gal4, we find that efficient target localization occurs near the diffusion limit and does not require facilitated diffusion. Instead, rapid association requires cooperative self-interactions mediated by an intrinsically-disordered central region (IDR), independent of the activation domain. Replacing the Gal4 IDR with human self-interacting IDRs (EWS or FUS) restores efficient search, demonstrating that self-interactions are a general and portable feature for search. A second structured dimerization domain further cooperatives with the IDR to stabilize binding at neighboring motifs, revealing two mechanistically separable forms of cooperativity that together govern TF function. These findings highlight that facilitated diffusion is not strictly required and establish cooperative IDR-driven self-interactions as a key mechanism to enable rapid target recognition in eukaryotic cells.",
+  "abstract_zh": "<h4>摘要</h4> 快速基因激活需要转录因子（TFs）在庞大的基因组中定位其靶标基序。在细菌中，TF靶标搜索通过结合三维扩散和一维滑动（称为促进扩散）来加速，然而真核生物TF是否依赖类似策略，由于缺乏活细胞中的直接测量，一直未得到解决。在此，我们通过标记每个细胞核中的单个TF并可视化其与内源基因座的结合，直接观察了活细胞中真核生物TF的靶标搜索。利用芽殖酵母TF Gal4，我们发现高效靶标定位发生在接近扩散极限的水平，且不需要促进扩散。相反，快速结合需要由内在无序中心区域（IDR）介导的协同自相互作用，且独立于激活域。将Gal4 IDR替换为人类自相互作用IDR（EWS或FUS）可恢复高效搜索，表明自相互作用是搜索的一种普遍且可移植的特征。第二个结构化二聚化域进一步与IDR协同作用，稳定相邻基序处的结合，揭示了两种机制上可分离的协同形式，共同调控TF功能。这些发现强调促进扩散并非严格必需，并确立了由IDR驱动的协同自相互作用作为真核细胞中实现快速靶标识别的关键机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.09.709760",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.09.709760",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.09.709760/index.html"
+}

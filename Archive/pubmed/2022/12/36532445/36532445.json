@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "36532445",
+    "doi": "10.3389/fmicb.2022.1010017",
+    "title": "D1018 with higher stability and excellent lipopolysaccharide binding affinity has potent anti-bacterial and anti-inflammatory activity."
+  },
+  "content": {
+    "abstract": "Escherichia coli (E. coli) infection and LPS-induced inflammation are still of severe threat to human health. With the increasing problem of antibiotic resistance, there is a desperate need to develop new approaches to solve the problem. Antimicrobial peptide (AMP) IDR-1018 exhibited potential antimicrobial and immunoregulation activity. However, moderate antimicrobial efficiency and susceptibility to protease cleavage limited its therapeutic application. Therefore, the derived 1018M which has better activity against MRSA and whole sequence D-amino acids substitution peptides (D1018 and D1018M) were synthesized in this study. The resistance of D1018 and D1018M against tested proteases increased (2-4 times), particularly in D1018. The antibacterial activity of D1018 was the same as that of the parent peptide IDR-1018, but the antimicrobial activity of D1018M was slightly increased (2-fold). Though the hemolysis of IDR-1018 and D1018 was about 2%, at the concentration of 8xMIC, the cytotoxicity of IDR-1018, D1018, and 1018M was negligible. The peptides could interact with E. coli cell wall and cytoplasmic membrane, penetrate the membrane, cause leakage of contents, and disrupt genomic DNA. Among them, D1018 is the most prominent one. In addition, IDR-1018 and D1018 showed potent binding ability to LPS, thus leading to excellent inhibition capacity to LPS-induced proinflammation response. Taken together, these data demonstrate that D1018 is a promising peptide candidate for the treatment of E. coli infection.",
+    "keywords": [
+      "Escherichia coli",
+      "LPS binding",
+      "antibacterial",
+      "antimicrobial peptide D1018",
+      "stability"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Runzhe",
+        "Dong, Xunxi",
+        "Wang, Qiang",
+        "Zhang, Zirui",
+        "Wang, Jianhua",
+        "Wang, Xiao"
+      ],
+      "short_names": [
+        "Wu R",
+        "Dong X",
+        "Wang Q",
+        "Zhang Z",
+        "Wang J",
+        "Wang X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Medicine, Ningbo University, Ningbo, Zhejiang, China.",
+        "School of Medicine, Ningbo University, Ningbo, Zhejiang, China.",
+        "School of Food and Pharmacy, Ningbo University, Ningbo, Zhejiang, China.",
+        "School of Medicine, Ningbo University, Ningbo, Zhejiang, China.",
+        "The Affiliated Hospital of Medical School, Ningbo University, Ningbo, Zhejiang, China.",
+        "School of Medicine, Ningbo University, Ningbo, Zhejiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Runzhe",
+        "short_name": "Wu R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Ningbo University, Ningbo, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Xunxi",
+        "short_name": "Dong X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Ningbo University, Ningbo, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Qiang",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Food and Pharmacy, Ningbo University, Ningbo, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zirui",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Ningbo University, Ningbo, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jianhua",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "The Affiliated Hospital of Medical School, Ningbo University, Ningbo, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiao",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Ningbo University, Ningbo, Zhejiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in microbiology"
+    ],
+    "journal_abbrev": [
+      "Front Microbiol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/20 06:00",
+    "fetched_at": "2026-09-20 17:54:17"
+  },
+  "links": {
+    "cites": [
+      "42228206",
+      "42168333",
+      "40922724",
+      "40901006"
+    ],
+    "refs": [
+      "35413908",
+      "34647015",
+      "34310911",
+      "33770266",
+      "33672669",
+      "33281761",
+      "32783775",
+      "31671371",
+      "31428071",
+      "31025073",
+      "30534763",
+      "30406400",
+      "29382854",
+      "28981608",
+      "28611436",
+      "27376281",
+      "26795535",
+      "26221537",
+      "24287850",
+      "21558695",
+      "20851346",
+      "19783476",
+      "18503516",
+      "15927702",
+      "11936361",
+      "9617844",
+      "1693777",
+      "573551"
+    ],
+    "similar": [
+      "36532445",
+      "33770266",
+      "31671371",
+      "35126369",
+      "26407061",
+      "35250983",
+      "32867384",
+      "35549900",
+      "26897538",
+      "26311041",
+      "26552969",
+      "28483698",
+      "23567049",
+      "32445120",
+      "17059217",
+      "26795535",
+      "31733278",
+      "32645834",
+      "26804205",
+      "20107187",
+      "33285267",
+      "20363271",
+      "39186954",
+      "19428758",
+      "32205189",
+      "37238674",
+      "29859288",
+      "19285481",
+      "36103802",
+      "27795369",
+      "30120878",
+      "34948377",
+      "34915021",
+      "25453959",
+      "32145045",
+      "28522372",
+      "25473836",
+      "20058937",
+      "33081682",
+      "21098244",
+      "34889983",
+      "21956793",
+      "34126526",
+      "30336284",
+      "30245684",
+      "10387056",
+      "7638748",
+      "24269604",
+      "31383740",
+      "35050481",
+      "35158080",
+      "24021961",
+      "27242337",
+      "35500455",
+      "30951211",
+      "28525841",
+      "17985396",
+      "32698035",
+      "33263333",
+      "25953690",
+      "26475366",
+      "33672669",
+      "33463238",
+      "21128620",
+      "23925670",
+      "21766387",
+      "23616580",
+      "30807888",
+      "17975968",
+      "36115654",
+      "30176540",
+      "26028561",
+      "34916191",
+      "17560054",
+      "15980359",
+      "32738898",
+      "36081797",
+      "12269837",
+      "30110916",
+      "31466017",
+      "34132592",
+      "34953322",
+      "34908502",
+      "25826179",
+      "12204946",
+      "26849911",
+      "31938070",
+      "20438783",
+      "29856606",
+      "32258871",
+      "32992772",
+      "28232132"
+    ],
+    "review": [
+      "36532445"
+    ],
+    "pmc": [
+      "9751974"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36532445/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36532445",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmicb.2022.1010017",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

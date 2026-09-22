@@ -1,0 +1,600 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.02.17.480857",
+  "title": "Watching the release of a photopharmacological drug from tubulin using time-resolved serial crystallography",
+  "doi": "10.1101/2022.02.17.480857",
+  "abstract": "The binding and release of ligands from their protein targets is central to fundamental biological processes as well as to drug discovery. Photopharmacology introduces chemical triggers that allow the changing of ligand affinities and thus biological activity by light. Insight into the molecular mechanisms of photopharmacology is largely missing because the relevant transitions during the light-triggered reaction cannot be resolved by conventional structural biology. Using time-resolved serial crystallography at a synchrotron and X-ray free-electron laser, we captured the release of the anti-cancer compound azo-combretastatin A4 and the resulting conformational changes in tubulin. Nine structural snapshots from 1 ns to 100 ms complemented by simulations show how cis -to- trans isomerization of the azobenzene bond leads to a switch in ligand affinity, opening of an exit channel, and collapse of the binding pocket upon ligand release. The resulting global backbone rearrangements are related to the action mechanism of microtubule-destabilizing drugs.",
+  "authors": [
+    "Wranik M",
+    "Weinert T",
+    "Slavov C",
+    "Masini T",
+    "Furrer A",
+    "Gaillard N",
+    "Gioia D",
+    "Ferrarotti M",
+    "James D",
+    "Glover H",
+    "Carrillo M",
+    "Kekilli D",
+    "Stipp R",
+    "Skopintsev P",
+    "Brünle S",
+    "Mühlethaler T",
+    "Beale J",
+    "Gashi D",
+    "Nass K",
+    "Ozerov D",
+    "Johnson PJ",
+    "Cirelli C",
+    "Bacellar C",
+    "Braun M",
+    "Wang M",
+    "Dworkowski F",
+    "Milne C",
+    "Cavalli A",
+    "Wachtveitl J",
+    "Steinmetz MO",
+    "Standfuss J"
+  ],
+  "published_date": "2022-02-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.02.17.480857",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.02.17.480857.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR455872",
+    "raw_record": {
+      "id": "PPR455872",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR455872"
+        ]
+      },
+      "doi": "10.1101/2022.02.17.480857",
+      "title": "Watching the release of a photopharmacological drug from tubulin using time-resolved serial crystallography",
+      "authorString": "Wranik M, Weinert T, Slavov C, Masini T, Furrer A, Gaillard N, Gioia D, Ferrarotti M, James D, Glover H, Carrillo M, Kekilli D, Stipp R, Skopintsev P, Brünle S, Mühlethaler T, Beale J, Gashi D, Nass K, Ozerov D, Johnson PJ, Cirelli C, Bacellar C, Braun M, Wang M, Dworkowski F, Milne C, Cavalli A, Wachtveitl J, Steinmetz MO, Standfuss J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wranik M",
+            "lastName": "Wranik",
+            "firstName": "Maximilian",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weinert T",
+            "lastName": "Weinert",
+            "firstName": "Tobias",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Slavov C",
+            "lastName": "Slavov",
+            "firstName": "Chavdar",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physical and Theoretical Chemistry, Goethe University, Frankfurt am Main, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Masini T",
+            "lastName": "Masini",
+            "firstName": "Tiziana",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational & Chemical Biology, Istituto Italiano di Tecnologia, 16163 Genova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Furrer A",
+            "lastName": "Furrer",
+            "firstName": "Antonia",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gaillard N",
+            "lastName": "Gaillard",
+            "firstName": "Natacha",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gioia D",
+            "lastName": "Gioia",
+            "firstName": "Dario",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational & Chemical Biology, Istituto Italiano di Tecnologia, 16163 Genova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ferrarotti M",
+            "lastName": "Ferrarotti",
+            "firstName": "Marco",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational & Chemical Biology, Istituto Italiano di Tecnologia, 16163 Genova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "James D",
+            "lastName": "James",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Glover H",
+            "lastName": "Glover",
+            "firstName": "Hannah",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carrillo M",
+            "lastName": "Carrillo",
+            "firstName": "Melissa",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kekilli D",
+            "lastName": "Kekilli",
+            "firstName": "Demet",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stipp R",
+            "lastName": "Stipp",
+            "firstName": "Robin",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Skopintsev P",
+            "lastName": "Skopintsev",
+            "firstName": "Petr",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brünle S",
+            "lastName": "Brünle",
+            "firstName": "Steffen",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mühlethaler T",
+            "lastName": "Mühlethaler",
+            "firstName": "Tobias",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beale J",
+            "lastName": "Beale",
+            "firstName": "John",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gashi D",
+            "lastName": "Gashi",
+            "firstName": "Dardan",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Photon Science Division, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nass K",
+            "lastName": "Nass",
+            "firstName": "Karol",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Photon Science Division, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ozerov D",
+            "lastName": "Ozerov",
+            "firstName": "Dmitry",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3274-1124"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Scientific Computing, Theory and Data, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Johnson PJ",
+            "lastName": "Johnson",
+            "firstName": "Philip J.M.",
+            "initials": "PJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Photon Science Division, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cirelli C",
+            "lastName": "Cirelli",
+            "firstName": "Claudio",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Photon Science Division, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bacellar C",
+            "lastName": "Bacellar",
+            "firstName": "Camila",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Photon Science Division, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Braun M",
+            "lastName": "Braun",
+            "firstName": "Markus",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physical and Theoretical Chemistry, Goethe University, Frankfurt am Main, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang M",
+            "lastName": "Wang",
+            "firstName": "Meitian",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Photon Science Division, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dworkowski F",
+            "lastName": "Dworkowski",
+            "firstName": "Florian",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Photon Science Division, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Milne C",
+            "lastName": "Milne",
+            "firstName": "Chris",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Photon Science Division, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cavalli A",
+            "lastName": "Cavalli",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6370-1176"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational & Chemical Biology, Istituto Italiano di Tecnologia, 16163 Genova, Italy"
+                },
+                {
+                  "affiliation": "Department of Pharmacy and Biotechnology, University of Bologna, 40126 Bologna, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wachtveitl J",
+            "lastName": "Wachtveitl",
+            "firstName": "Josef",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physical and Theoretical Chemistry, Goethe University, Frankfurt am Main, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Steinmetz MO",
+            "lastName": "Steinmetz",
+            "firstName": "Michel",
+            "initials": "MO",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                },
+                {
+                  "affiliation": "Biozentrum, University of Basel, 4056 Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Standfuss J",
+            "lastName": "Standfuss",
+            "firstName": "Jörg",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biology and Chemistry, Paul Scherrer Institut, 5232 Villigen, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3274-1124"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6370-1176"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The binding and release of ligands from their protein targets is central to fundamental biological processes as well as to drug discovery. Photopharmacology introduces chemical triggers that allow the changing of ligand affinities and thus biological activity by light. Insight into the molecular mechanisms of photopharmacology is largely missing because the relevant transitions during the light-triggered reaction cannot be resolved by conventional structural biology. Using time-resolved serial crystallography at a synchrotron and X-ray free-electron laser, we captured the release of the anti-cancer compound azo-combretastatin A4 and the resulting conformational changes in tubulin. Nine structural snapshots from 1 ns to 100 ms complemented by simulations show how  cis -to-  trans isomerization of the azobenzene bond leads to a switch in ligand affinity, opening of an exit channel, and collapse of the binding pocket upon ligand release. The resulting global backbone rearrangements are related to the action mechanism of microtubule-destabilizing drugs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "179351",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/02/18/2022.02.17.480857.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.02.17.480857"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR455872"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR455872&type=FILE&fileName=EMS168206-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36807348",
+            "reference": "Nature communications. 2023 Feb;14(1):903",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS168206",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-02-19",
+      "firstPublicationDate": "2022-02-17",
+      "firstIndexDate": "2022-02-19",
+      "fullTextReceivedDate": "2023-03-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

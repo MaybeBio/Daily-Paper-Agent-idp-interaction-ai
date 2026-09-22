@@ -1,0 +1,259 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.08.499325",
+  "title": "Control of PHYTOCHROME KINASE SUBSTRATE subcellular localization and biological activity by protein S-acylation",
+  "doi": "10.1101/2022.07.08.499325",
+  "abstract": "<h4>ABSTRACT</h4> PHYTOCHROME KINASE SUBSTRATE (PKS) proteins are involved in light-regulated growth orientation responses. They act downstream of phytochromes to control hypocotyl gravitropism in the light and act early in phototropin signaling. Despite their importance for plant development, little is known about their molecular mode of action except that they belong to a protein complex comprising the phototropins at the plasma membrane. Identifying evolutionarily conservation is one approach to reveal biologically important protein motifs. Here, we show that PKS sequences are restricted to seed plants and that these proteins share 6 motifs (A to F from the N- to the C-terminus). While motif D is also found in BIG GRAIN proteins the remining domains are PKS specific. We provide evidence that motif C is S-acylated on highly conserved cysteines, which mediates PKS protein association with the plasma membrane. This motif is also required for PKS4-mediated phototropism and control of hypocotyl gravitropism in the light. Finally, our data suggests that the mode of PKS4 plasma membrane association is important for its biological activity. Our work identifies the mode of plasma membrane association of PKS proteins and strongly suggests that this is their site of action to modulate environmentally regulated organ positioning.",
+  "authors": [
+    "Vazquez AL",
+    "Petrolati LA",
+    "Dessimoz C",
+    "Lampugnani ER",
+    "Glover N",
+    "Fankhauser C"
+  ],
+  "published_date": "2022-07-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.08.499325",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.08.499325.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR516457",
+    "raw_record": {
+      "id": "PPR516457",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR516457"
+        ]
+      },
+      "doi": "10.1101/2022.07.08.499325",
+      "title": "Control of PHYTOCHROME KINASE SUBSTRATE subcellular localization and biological activity by protein S-acylation",
+      "authorString": "Vazquez AL, Petrolati LA, Dessimoz C, Lampugnani ER, Glover N, Fankhauser C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Vazquez AL",
+            "lastName": "Vazquez",
+            "firstName": "Ana Lopez",
+            "initials": "AL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Integrative Genomics, Faculty of Biology and Medicine, Génopode Building, University of Lausanne, CH–1015 Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Petrolati LA",
+            "lastName": "Petrolati",
+            "firstName": "Laure Allenbach",
+            "initials": "LA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9074-5350"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Integrative Genomics, Faculty of Biology and Medicine, Génopode Building, University of Lausanne, CH–1015 Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dessimoz C",
+            "lastName": "Dessimoz",
+            "firstName": "Christophe",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2170-853X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computational Biology, Faculty of Biology and Medicine, Génopode Building, University of Lausanne, CH–1015 Lausanne, Switzerland"
+                },
+                {
+                  "affiliation": "Swiss Institute of Bioinformatics, Génopode Building, University of Lausanne, CH–1015 Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lampugnani ER",
+            "lastName": "Lampugnani",
+            "firstName": "Edwin",
+            "initials": "ER",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of BioScience, University of Melbourne, Parkville, Victoria, Australia 3010"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Glover N",
+            "lastName": "Glover",
+            "firstName": "Natasha",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Computational Biology, Faculty of Biology and Medicine, Génopode Building, University of Lausanne, CH–1015 Lausanne, Switzerland"
+                },
+                {
+                  "affiliation": "Swiss Institute of Bioinformatics, Génopode Building, University of Lausanne, CH–1015 Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fankhauser C",
+            "lastName": "Fankhauser",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4719-5901"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Integrative Genomics, Faculty of Biology and Medicine, Génopode Building, University of Lausanne, CH–1015 Lausanne, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9661-8451"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2170-853X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9074-5350"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4719-5901"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  PHYTOCHROME KINASE SUBSTRATE (PKS) proteins are involved in light-regulated growth orientation responses. They act downstream of phytochromes to control hypocotyl gravitropism in the light and act early in phototropin signaling. Despite their importance for plant development, little is known about their molecular mode of action except that they belong to a protein complex comprising the phototropins at the plasma membrane. Identifying evolutionarily conservation is one approach to reveal biologically important protein motifs. Here, we show that PKS sequences are restricted to seed plants and that these proteins share 6 motifs (A to F from the N- to the C-terminus). While motif D is also found in BIG GRAIN proteins the remining domains are PKS specific. We provide evidence that motif C is S-acylated on highly conserved cysteines, which mediates PKS protein association with the plasma membrane. This motif is also required for PKS4-mediated phototropism and control of hypocotyl gravitropism in the light. Finally, our data suggests that the mode of PKS4 plasma membrane association is important for its biological activity. Our work identifies the mode of plasma membrane association of PKS proteins and strongly suggests that this is their site of action to modulate environmentally regulated organ positioning.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "179558",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/09/2022.07.08.499325.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.07.08.499325"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR516457"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR516457&type=FILE&fileName=EMS150060-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36972404",
+            "reference": "The Plant cell. 2023 Jun;35(7):2635-2653",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS150060",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-07-11",
+      "firstPublicationDate": "2022-07-09",
+      "firstIndexDate": "2022-07-11",
+      "fullTextReceivedDate": "2022-07-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

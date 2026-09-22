@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-96p6b",
+  "title": "Complex structure-free compound-protein interaction prediction for mitigating activity cliff-induced discrepancies and integrated bioactivity learning",
+  "authors": "Yaowen Gu; Song Xia; Qi Ouyang; Yingkai Zhang",
+  "journal": "ChemRxiv",
+  "published_date": "2025-03-24",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出无结构复合物-蛋白互作(CPI)预测模型GGAP-CPI，用集成生物活性学习缓解活性悬崖问题，但对象为折叠蛋白与小分子配体，非无序蛋白/IDR/相分离，且方法为深度学习预测而非互作机制建模，仅部分思路（蛋白表示建模、活性学习）可迁移。",
+  "abstract": "Protein-ligand binding affinity assessment plays a pivotal role in virtual drug screening, yet conventional data-driven approaches rely heavily on limited protein-ligand crystal structures. Structure-free compound-protein interaction (CPI) methods have emerged as competitive alternatives, leveraging extensive bioactivity data to serve as more robust scoring functions. However, these methods often overlook two critical challenges that affect data efficiency and modeling accuracy: the heterogeneity of bioactivity data due to differences in bioassay measurements, and the presence of activity cliffs (ACs)—small chemical modifications that lead to significant changes in bioactivity, which have not been thoroughly investigated in CPI modeling. To address these challenges, we present CPI2M, a large-scale CPI benchmark dataset containing approximately 2 million bioactivity endpoints across four activity types (Ki, Kd, EC50, and IC50) with AC annotations. Moreover, we developed GGAP-CPI, a structure-free deep learning model trained by integrated bioactivity learning and designed to mitigate the impact of ACs on CPI prediction through advanced protein representation modelling and integrated bioactivity learning. Our comprehensive evaluation demonstrates that GGAP-CPI outperforms 12 target-specific and 7 general CPI baselines across four key scenarios (general CPI prediction, rare protein prediction, transfer learning, and virtual screening) on seven benchmarks (CPI2M, MoleculeACE, CASF-2016, MerckFEP, DUD-E, DEKOIS-v2, and LIT-PCBA). Furthermore, GGAP-CPI not only delivers stable predictions by distinguishing bioactivity differences between ACs and non-ACs, but also enriches binding pocket residues and interactions, underscoring its applicability to real-world binding affinity assessments and virtual drug screening.",
+  "abstract_zh": "蛋白质-配体结合亲和力评估在虚拟药物筛选中扮演着关键角色，然而传统的数据驱动方法高度依赖于有限的蛋白质-配体晶体结构。无结构化合物-蛋白质相互作用（CPI）方法已成为有力的替代方案，利用广泛的生物活性数据作为更稳健的评分函数。然而，这些方法往往忽视了两个影响数据效率和建模准确性的关键挑战：由于生物测定测量差异导致的生物活性数据异质性，以及活性悬崖（ACs）的存在——即微小的化学修饰引起生物活性的显著变化，这在CPI建模中尚未得到深入探究。为解决这些问题，我们提出了CPI2M，一个大规模CPI基准数据集，包含约200万个生物活性终点，涵盖四种活性类型（Ki、Kd、EC50和IC50），并带有AC注释。此外，我们开发了GGAP-CPI，一种无结构深度学习模型，通过集成生物活性学习进行训练，旨在通过先进的蛋白质表示建模和集成生物活性学习来减轻ACs对CPI预测的影响。我们的综合评估表明，GGAP-CPI在七个基准（CPI2M、MoleculeACE、CASF-2016、MerckFEP、DUD-E、DEKOIS-v2和LIT-PCBA）上的四个关键场景（通用CPI预测、稀有蛋白质预测、迁移学习和虚拟筛选）中，优于12个靶标特异性和7个通用CPI基线。此外，GGAP-CPI不仅通过区分ACs和非ACs之间的生物活性差异提供稳定预测，还丰富了结合口袋残基和相互作用，突显了其在实际结合亲和力评估和虚拟药物筛选中的适用性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-96p6b",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-96p6b",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-96p6b/index.html"
+}

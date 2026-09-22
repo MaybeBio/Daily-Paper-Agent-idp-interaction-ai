@@ -1,0 +1,439 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.08.552478",
+  "title": "A novel PEX14/PEX5 interface links peroxisomal protein import and receptor recycling",
+  "doi": "10.1101/2023.08.08.552478",
+  "abstract": "Newly synthesized peroxisomal proteins are recognized in the cytosol by the cycling receptor PEX5 and directed to a docking complex comprising PEX14 and PEX13 at the peroxisomal membrane. After cargo translocation, the unloaded PEX5 is recycled in an ATP-dependent manner. Receptor docking involves the WxxxF-motifs in the N-terminal domain (NTD) of PEX5 that are recognized by the N-terminal domain of PEX14. Here, we combine biochemical methods and NMR spectroscopy to identify a novel binding interface between human PEX5 and PEX14. The interaction involves the PEX5 C-terminal cargo-binding TPR domain and a conserved IPSWQI peptide motif in the C-terminal intrinsically disordered region of PEX14. The three-dimensional structure of the PEX14 IPSWQI peptide bound the PEX5 TPR domain, shows the PEX14 interaction is non-overlapping with PTS1 binding to the TPR domain. Notably, PEX14 IPSWQI motif binding to a hinge region in the TPR domain shows a more open supercoil of the TPR fold that resembles the apo conformation in the absence of PTS1 peptide. Mutation of binding site residues in PEX5 or PEX14 leads to a partial protein import defect and decrease of the steady-state-concentration of PEX5. This resembles the mutant phenotype of cells affected in receptor recycling, suggesting a role in this process.",
+  "authors": [
+    "Emmanouilidis L",
+    "Sehr J",
+    "Reglinski K",
+    "Gaussmann S",
+    "Goricanec D",
+    "Kordon J",
+    "Menezes F",
+    "Waithe D",
+    "Hublitz P",
+    "Bader V",
+    "Winklhofer KF",
+    "Jung M",
+    "Schliebs W",
+    "Eggeling C",
+    "Erdmann R",
+    "Sattler M"
+  ],
+  "published_date": "2023-08-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.08.552478",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.08.552478.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR706822",
+    "raw_record": {
+      "id": "PPR706822",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR706822"
+        ]
+      },
+      "doi": "10.1101/2023.08.08.552478",
+      "title": "A novel PEX14/PEX5 interface links peroxisomal protein import and receptor recycling",
+      "authorString": "Emmanouilidis L, Sehr J, Reglinski K, Gaussmann S, Goricanec D, Kordon J, Menezes F, Waithe D, Hublitz P, Bader V, Winklhofer KF, Jung M, Schliebs W, Eggeling C, Erdmann R, Sattler M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Emmanouilidis L",
+            "lastName": "Emmanouilidis",
+            "firstName": "Leonidas",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Helmholtz Munich, Molecular Targets and Therapeutics Center, Institute of Structural Biology,, Ingolstädter Landstr. 1, 85764 Neuherberg, Germany"
+                },
+                {
+                  "affiliation": "Technical University of Munich, TUM School of Natural Sciences, Department of Bioscience, Bavarian NMR Center, Lichtenbergstr. 4, 85747 Garching, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sehr J",
+            "lastName": "Sehr",
+            "firstName": "Jessica",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Pathobiochemistry, Department of Systems Biology, Faculty of Medicine, Ruhr University Bochum, 44780 Bochum, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Reglinski K",
+            "lastName": "Reglinski",
+            "firstName": "Katharina",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Applied Optics and Biophysics, Friedrich-Schiller University Jena, Max-Wien-Platz 1, 07743 Jena, Germany"
+                },
+                {
+                  "affiliation": "MRC Human Immunology Unit and Wolfson Imaging Centre, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Headley Way, Oxford, OX3 9DS, United Kingdom"
+                },
+                {
+                  "affiliation": "University Hospital Jena, Bachstraße 18, 07743 Jena, Germany"
+                },
+                {
+                  "affiliation": "Leibniz-Institute of Photonic Technologies e.V., Albert-Einstein Strasse 9, 07745 Jena"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gaussmann S",
+            "lastName": "Gaussmann",
+            "firstName": "Stefan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Helmholtz Munich, Molecular Targets and Therapeutics Center, Institute of Structural Biology,, Ingolstädter Landstr. 1, 85764 Neuherberg, Germany"
+                },
+                {
+                  "affiliation": "Technical University of Munich, TUM School of Natural Sciences, Department of Bioscience, Bavarian NMR Center, Lichtenbergstr. 4, 85747 Garching, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goricanec D",
+            "lastName": "Goricanec",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technical University of Munich, TUM School of Natural Sciences, Department of Bioscience, Bavarian NMR Center, Lichtenbergstr. 4, 85747 Garching, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kordon J",
+            "lastName": "Kordon",
+            "firstName": "Jonathan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Technical University of Munich, TUM School of Natural Sciences, Department of Bioscience, Bavarian NMR Center, Lichtenbergstr. 4, 85747 Garching, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Menezes F",
+            "lastName": "Menezes",
+            "firstName": "Filipe",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7630-5447"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Helmholtz Munich, Molecular Targets and Therapeutics Center, Institute of Structural Biology,, Ingolstädter Landstr. 1, 85764 Neuherberg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waithe D",
+            "lastName": "Waithe",
+            "firstName": "Dominic",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2685-4226"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Human Immunology Unit and Wolfson Imaging Centre, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Headley Way, Oxford, OX3 9DS, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hublitz P",
+            "lastName": "Hublitz",
+            "firstName": "Philip",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Engineering, Weatherall Institute of Molecular Medicine, University of Oxford, Headley Way, Oxford, OX3 9DS, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bader V",
+            "lastName": "Bader",
+            "firstName": "Verian",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Pathobiochemistry, Department of Molecular Cell Biology, Faculty of Medicine, Ruhr University Bochum, 44780 Bochum, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Winklhofer KF",
+            "lastName": "Winklhofer",
+            "firstName": "Konstanze",
+            "initials": "KF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7256-8231"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Pathobiochemistry, Department of Molecular Cell Biology, Faculty of Medicine, Ruhr University Bochum, 44780 Bochum, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jung M",
+            "lastName": "Jung",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1482-7020"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Medical Biochemistry and Molecular Biology, University of Saarland, 66421 Homburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schliebs W",
+            "lastName": "Schliebs",
+            "firstName": "Wolfgang",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2762-3403"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Pathobiochemistry, Department of Systems Biology, Faculty of Medicine, Ruhr University Bochum, 44780 Bochum, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eggeling C",
+            "lastName": "Eggeling",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Applied Optics and Biophysics, Friedrich-Schiller University Jena, Max-Wien-Platz 1, 07743 Jena, Germany"
+                },
+                {
+                  "affiliation": "MRC Human Immunology Unit and Wolfson Imaging Centre, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Headley Way, Oxford, OX3 9DS, United Kingdom"
+                },
+                {
+                  "affiliation": "Leibniz-Institute of Photonic Technologies e.V., Albert-Einstein Strasse 9, 07745 Jena"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Erdmann R",
+            "lastName": "Erdmann",
+            "firstName": "Ralf",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8380-0342"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Pathobiochemistry, Department of Systems Biology, Faculty of Medicine, Ruhr University Bochum, 44780 Bochum, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sattler M",
+            "lastName": "Sattler",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1594-0527"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Helmholtz Munich, Molecular Targets and Therapeutics Center, Institute of Structural Biology,, Ingolstädter Landstr. 1, 85764 Neuherberg, Germany"
+                },
+                {
+                  "affiliation": "Technical University of Munich, TUM School of Natural Sciences, Department of Bioscience, Bavarian NMR Center, Lichtenbergstr. 4, 85747 Garching, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8380-0342"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1482-7020"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1594-0527"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7256-8231"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7630-5447"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2685-4226"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2762-3403"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Newly synthesized peroxisomal proteins are recognized in the cytosol by the cycling receptor PEX5 and directed to a docking complex comprising PEX14 and PEX13 at the peroxisomal membrane. After cargo translocation, the unloaded PEX5 is recycled in an ATP-dependent manner. Receptor docking involves the WxxxF-motifs in the N-terminal domain (NTD) of PEX5 that are recognized by the N-terminal domain of PEX14. Here, we combine biochemical methods and NMR spectroscopy to identify a novel binding interface between human PEX5 and PEX14. The interaction involves the PEX5 C-terminal cargo-binding TPR domain and a conserved IPSWQI peptide motif in the C-terminal intrinsically disordered region of PEX14. The three-dimensional structure of the PEX14 IPSWQI peptide bound the PEX5 TPR domain, shows the PEX14 interaction is non-overlapping with PTS1 binding to the TPR domain. Notably, PEX14 IPSWQI motif binding to a hinge region in the TPR domain shows a more open supercoil of the TPR fold that resembles the apo conformation in the absence of PTS1 peptide. Mutation of binding site residues in PEX5 or PEX14 leads to a partial protein import defect and decrease of the steady-state-concentration of PEX5. This resembles the mutant phenotype of cells affected in receptor recycling, suggesting a role in this process.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "104924",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "091911",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/09/2023.08.08.552478.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.08.552478"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR706822"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR706822&type=FILE&fileName=EMS186757-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS186757",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-08-29",
+      "firstPublicationDate": "2023-08-09",
+      "firstIndexDate": "2023-08-31",
+      "fullTextReceivedDate": "2023-11-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

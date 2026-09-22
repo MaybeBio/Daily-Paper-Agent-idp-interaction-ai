@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.29.651154",
+  "title": "Robust and Reliable <i>de novo</i> Protein Design: A Flow-Matching-Based Protein Generative Model Achieves Remarkably High Success Rates",
+  "authors": "Junyu Yan; Zibo Cui; Wenqing Yan; Yuhang Chen; Mengchen Pu; Shuai Li; Sheng Ye",
+  "journal": "bioRxiv",
+  "published_date": "2025-04-29",
+  "window": {
+    "start": "2025-04-28",
+    "end": "2025-05-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于流匹配的蛋白质生成模型OriginFlow，用于从头设计蛋白和结合子，虽涉及PPI结合子设计并采用AI方法，但对象非无序蛋白/IDR/相分离，且未关注互作机制建模，仅作为可迁移的AI设计方法参考。",
+  "abstract": "Generative models have achieved significant progress in the field of protein design, particularly in the generation of tertiary structures. However, they still face several challenges, such as balancing the designability and diversity of the generated structures, generating specified structures under highly constrained conditions, and the most challenging aspect, direct functional design such as motifs and binders. We present OriginFlow, an efficient protein generative model that combines Stochastic Differential Equation (SDE) models and flow models based on flow matching. The generated structures exhibit state-of-the-art (SOTA) levels of designability, diversity, and novelty. Moreover, this model demonstrates outstanding performance in functional design aspects such as motifs, binders, and symmetric motif scaffolding. We performed binder design for multiple targets, and all results showed excellent affinity performance in AF3 complex predictions and MD experiments. Wet-lab validation was conducted on PD-L1, RBD, and VEGF targets, achieving 90% expression, solubility, and affinity. These results are significantly superior to all current AI binder design algorithms.",
+  "abstract_zh": "生成模型在蛋白质设计领域取得了显著进展，特别是在三级结构生成方面。然而，它们仍面临若干挑战，例如平衡生成结构的可设计性与多样性、在高度约束条件下生成指定结构，以及最具挑战性的方面——直接功能设计，如基序和结合剂。我们提出了OriginFlow，一种高效的蛋白质生成模型，结合了随机微分方程 (Stochastic Differential Equation, SDE) 模型和基于流匹配的流模型。生成的结构在可设计性、多样性和新颖性方面达到了最先进 (state-of-the-art, SOTA) 水平。此外，该模型在功能设计方面表现出色，如基序、结合剂和对称基序支架。我们对多个靶点进行了结合剂设计，所有结果在AF3复合物预测和分子动力学 (molecular dynamics, MD) 实验中均显示出优异的亲和力性能。针对PD-L1、RBD和VEGF靶点进行了湿实验验证，实现了90%的表达率、溶解性和亲和力。这些结果显著优于当前所有AI结合剂设计算法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651154",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651154",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.29.651154/index.html"
+}

@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "41847979",
+    "doi": "10.1042/BCJ20250293",
+    "title": "Modulation of Nur77-DNA interactions by the glucocorticoid receptor."
+  },
+  "content": {
+    "abstract": "Nuclear receptors (NRs) comprise a superfamily of (ligand-)regulated transcription factors that are pivotal in orchestrating gene networks essential for development, metabolism, and cellular homeostasis. Their activity is critical for normal physiology, and consequently, dysregulation of NR signalling is implicated in a wide array of human diseases. Within this superfamily, the orphan nuclear receptor Nur77 and the glucocorticoid receptor (GR) are key regulators that exhibit significant cross-talk, primarily antagonistic, which is crucial for modulating inflammatory and stress responses. Despite the recognised importance of their interplay, the precise molecular mechanisms by which GR modulates Nur77's engagement with DNA remain incompletely defined. The present study elucidates the direct impact of GR and its ligand, dexamethasone (Dex), on the DNA binding dynamics of Nur77. Single-molecule DNA tightrope assays revealed that Nur77 employs a three-dimensional diffusion-based search mechanism on non-specific DNA, characterised by transient interactions with two distinct dissociation kinetic profiles. GR significantly stabilises Nur77-DNA interactions, evidenced by a shift towards longer residence times, primarily achieved by slowing the dissociation of the more transiently interacting Nur77 population. Conversely, single-molecule analysis and biochemical assays demonstrated that Dex alone markedly reduces Nur77's overall DNA binding affinity kinetics and frequency in a sequence-dependent manner, to such an extent that accurate quantification was unfeasible. These findings delineate distinct modulatory effects of the GR protein and its ligand on Nur77-DNA interactions, providing crucial biophysical insights into their complex regulatory interplay and revealing a direct, GR-independent impact of Dex on Nur77's DNA engagement.",
+    "keywords": [
+      "Nur77",
+      "glucocorticoidscoid",
+      "intrinsically disordered proteins",
+      "nuclear receptors",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "*Nuclear Receptor Subfamily 4, Group A, Member 1/metabolism/chemistry/genetics",
+      "*Receptors, Glucocorticoid/metabolism",
+      "*DNA/metabolism/chemistry",
+      "Humans",
+      "Dexamethasone/pharmacology",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Heling, Laurens W H J",
+        "Kovac, Kristina",
+        "de Vries, Carlie J M",
+        "Mashaghi, Alireza"
+      ],
+      "short_names": [
+        "Heling LWHJ",
+        "Kovac K",
+        "de Vries CJM",
+        "Mashaghi A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7071-6352",
+        "ORCID: 0000-0002-2157-1211"
+      ],
+      "affiliations": [
+        "Medical Systems Biophysics and Bioengineering, Division of Systems Pharmacology and Pharmacy, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands.",
+        "Laboratory for Interdisciplinary Medical Innovations, Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands.",
+        "Department of Medical Biochemistry, Amsterdam UMC, University of Amsterdam, Amsterdam, The Netherlands.",
+        "Department of Medical Biochemistry, Amsterdam UMC, University of Amsterdam, Amsterdam, The Netherlands.",
+        "Amsterdam Cardiovascular Sciences (ACS), Atherosclerosis & Ischemic Syndromes, Amsterdam UMC, Amsterdam, The Netherlands.",
+        "Amsterdam Institute for Infection and Immunity (AII), Inflammatory Diseases, Amsterdam UMC, Amsterdam, The Netherlands.",
+        "Medical Systems Biophysics and Bioengineering, Division of Systems Pharmacology and Pharmacy, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands.",
+        "Laboratory for Interdisciplinary Medical Innovations, Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Heling, Laurens W H J",
+        "short_name": "Heling LWHJ",
+        "identifiers": [
+          "0000-0001-7071-6352"
+        ],
+        "affiliations": [
+          "Medical Systems Biophysics and Bioengineering, Division of Systems Pharmacology and Pharmacy, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands.",
+          "Laboratory for Interdisciplinary Medical Innovations, Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Kovač, Kristina",
+        "short_name": "Kovač K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry, Amsterdam UMC, University of Amsterdam, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Vries, Carlie J M",
+        "short_name": "de Vries CJM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry, Amsterdam UMC, University of Amsterdam, Amsterdam, The Netherlands.",
+          "Amsterdam Cardiovascular Sciences (ACS), Atherosclerosis & Ischemic Syndromes, Amsterdam UMC, Amsterdam, The Netherlands.",
+          "Amsterdam Institute for Infection and Immunity (AII), Inflammatory Diseases, Amsterdam UMC, Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Mashaghi, Alireza",
+        "short_name": "Mashaghi A",
+        "identifiers": [
+          "0000-0002-2157-1211"
+        ],
+        "affiliations": [
+          "Medical Systems Biophysics and Bioengineering, Division of Systems Pharmacology and Pharmacy, Leiden Academic Centre for Drug Research, Leiden University, Leiden, The Netherlands.",
+          "Laboratory for Interdisciplinary Medical Innovations, Centre for Interdisciplinary Genome Research, Leiden University, Leiden, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Biochemical journal"
+    ],
+    "journal_abbrev": [
+      "Biochem J"
+    ],
+    "pub_date": "2026 Apr 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/18 12:53",
+    "fetched_at": "2026-09-18 01:43:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41847979",
+      "15591535",
+      "9315653",
+      "31391291",
+      "10820245",
+      "23267834",
+      "39182547",
+      "42059885",
+      "22789442",
+      "31492735",
+      "22537097",
+      "8164692",
+      "12082103",
+      "15155786",
+      "11682470",
+      "23814048",
+      "22049082",
+      "33189785",
+      "15640143",
+      "9130711",
+      "29966221",
+      "11577102",
+      "15016838",
+      "29982165",
+      "30414411",
+      "8882640",
+      "15539428",
+      "38084958",
+      "37579519",
+      "26267475",
+      "41924275",
+      "20059973",
+      "10523643",
+      "29414782",
+      "18822299",
+      "22301783",
+      "27650495",
+      "33087562",
+      "32139118",
+      "28808239",
+      "14551261",
+      "7894465",
+      "12032831",
+      "8994186",
+      "22132201",
+      "18248459",
+      "18945812",
+      "20949009",
+      "19007848",
+      "24558046",
+      "18599618",
+      "7476966",
+      "17552871",
+      "22457708",
+      "16595694",
+      "11713204",
+      "9572393",
+      "10385421",
+      "18466322",
+      "9322922",
+      "7823959",
+      "8614405",
+      "40782996",
+      "19801529",
+      "17986226",
+      "34709368",
+      "15871945",
+      "1708098",
+      "7789609",
+      "20631354",
+      "28591827",
+      "12021184",
+      "30272297",
+      "8413214",
+      "39407305",
+      "8473329",
+      "17978169",
+      "34328179",
+      "7532989",
+      "8232315",
+      "33279290",
+      "9155013",
+      "40209952",
+      "15355994",
+      "38763048",
+      "26712002",
+      "18987158",
+      "16480977",
+      "16835233",
+      "12612067",
+      "11741935",
+      "15736964",
+      "11463862",
+      "24632838",
+      "2106390",
+      "9369450",
+      "19805343",
+      "40693787",
+      "26088140",
+      "8052262"
+    ],
+    "review": [
+      "41847979",
+      "23267834",
+      "22537097",
+      "29966221",
+      "30414411",
+      "34709368",
+      "20631354",
+      "30272297"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://portlandpress.com/biochemj/article-lookup/doi/10.1042/BCJ20250293",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

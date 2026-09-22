@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42327072",
+  "title": "Tightly Knotted Enzymes Inhibit Protein-Protein Aggregation.",
+  "authors": "Sarkar, Susmita; Nagaiah, Hemanth Mandya; Klein, Michael L; Carnevale, Vincenzo",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-06-22",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用多尺度MD模拟研究打结酶UCH-L1的拓扑完整性如何抑制LLPS和蛋白聚集，虽对象为折叠蛋白而非IDP，但聚焦相分离中互作与凝聚体物性的机制建模，方法可迁移至无序蛋白PPI研究。",
+  "abstract": "Neurodegenerative diseases are closely linked to aberrant protein aggregation arising from failures in cellular proteostasis, yet the physical determinants governing transitions between soluble states, liquid-liquid phase separation (LLPS), and aggregation remain incompletely understood. Here, we investigate how protein backbone topology influences phase behavior using ubiquitin C-terminal hydrolase L1 (UCH-L1), a highly neuron-enriched deubiquitinase in the ubiquitin-proteasome system harboring a rare, evolutionarily conserved knotted backbone topology, and its Parkinson's disease-associated I93M mutant. Through multiscale molecular dynamics (MD) simulations of single-chain and multichain systems, we show that knot integrity acts as a conformational constraint that limits access to expanded states, and suppresses LLPS propensity. Destabilization of the native knotted ensemble in I93M reshapes the conformational ensemble, enhancing intermolecular contacts, strengthening hydrophobic interaction, and reducing solvation penalties, thereby stabilizing protein-rich phases. Within condensates, these changes lead to persistent interchain contacts, increased topological entanglement, and slower relaxation dynamics, indicative of a transition toward viscoelastic assemblies, whereas intact topology maintains dynamic, liquid-like behavior. Our results identify topological integrity as a key physical determinant of protein phase behavior and establish a mechanistic link between topological stability and condensate material properties, with implications for aggregation-associated neurodegeneration.",
+  "abstract_zh": "神经退行性疾病与细胞蛋白质稳态失衡导致的异常蛋白聚集密切相关，然而控制可溶状态、液-液相分离（liquid-liquid phase separation, LLPS）和聚集之间转变的物理决定因素仍未完全阐明。在此，我们利用泛素C端水解酶L1（ubiquitin C-terminal hydrolase L1, UCH-L1）——一种在泛素-蛋白酶体系统中高度富集于神经元的去泛素化酶，其具有罕见且进化上保守的打结主链拓扑结构——及其帕金森病相关的I93M突变体，研究蛋白质主链拓扑如何影响相行为。通过对单链和多链系统进行多尺度分子动力学（molecular dynamics, MD）模拟，我们表明打结完整性作为一种构象约束，限制了向扩展状态的访问，并抑制LLPS倾向。I93M中天然打结集合的失稳重塑了构象集合，增强了分子间接触，强化了疏水相互作用，并降低了溶剂化惩罚，从而稳定了富含蛋白质的相。在凝聚体内，这些变化导致持续的链间接触、增加的拓扑缠结和更慢的弛豫动力学，表明向黏弹性组装体的转变，而完整的拓扑则维持动态的液体样行为。我们的结果将拓扑完整性识别为蛋白质相行为的关键物理决定因素，并在拓扑稳定性与凝聚体材料性质之间建立了机制联系，这对聚集相关的神经退行性疾病具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42327072/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42327072/",
+  "paper_page_path": "papers/pubmed/42327072/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.14729445.v1",
+  "title": "SCONES: Self-Consistent Neural Network for Protein Stability Prediction Upon Mutation",
+  "authors": "Yashas Samaga B L; Shampa Raghunathan; U. Deva Priyakumar",
+  "journal": "ChemRxiv",
+  "published_date": "2021-06-04",
+  "window": {
+    "start": "2021-05-31",
+    "end": "2021-06-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出自洽神经网络SCONES预测点突变对蛋白稳定性的影响，对象为折叠蛋白且无PPI/无序蛋白/相分离背景，方法虽为AI但机制建模与本课题关联较弱。",
+  "abstract": "Engineering proteins to have desired properties by mutating amino acids at specific sites is commonplace. Such engineered proteins must be stable to function. Experimental methods used to determine stability at throughputs required to scan the protein sequence space thoroughly are laborious. To this end, many machine learning based methods have been developed to predict thermodynamic stability changes upon mutation. These methods have been evaluated for symmetric consistency by testing with hypothetical reverse mutations. In this work, we propose transitive data augmentation, evaluating transitive consistency, and a new machine learning based method, first of its kind, that incorporates both symmetric and transitive properties into the architecture. Our method, called SCONES, is an interpretable neural network that estimates a residue's contributions towards protein stability dG in its local structural environment. The difference between independently predicted contributions of the reference and mutant residues in a missense mutation is reported as dG. We show that this self-consistent machine learning architecture is immune to many common biases in datasets, relies less on data than existing methods, and is robust to overfitting.",
+  "abstract_zh": "通过定点突变氨基酸来工程化蛋白质以获得所需性质是常见做法。此类工程化蛋白质必须稳定才能发挥功能。用于确定稳定性的实验方法，在彻底扫描蛋白质序列空间所需的高通量下，操作繁琐。为此，已开发出许多基于机器学习的方法来预测突变引起的热力学稳定性变化。这些方法已通过假设性反向突变测试评估了对称一致性。在本工作中，我们提出了传递性数据增强，评估传递一致性，并首次提出一种新的基于机器学习的方法，该方法将对称性和传递性属性整合到架构中。我们的方法名为SCONES，是一种可解释的神经网络，用于估计残基在其局部结构环境中对蛋白质稳定性dG的贡献。错义突变中参考残基和突变残基独立预测贡献之间的差异报告为dG。我们表明，这种自洽的机器学习架构对数据集中的许多常见偏差具有免疫性，对数据的依赖少于现有方法，并且对过拟合具有鲁棒性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv.14729445.v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.14729445.v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.14729445.v1/index.html"
+}

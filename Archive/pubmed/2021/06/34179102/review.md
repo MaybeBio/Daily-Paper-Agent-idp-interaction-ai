@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusion, and supplementary material references.
+- **Assessment boundary** Scientific validity, methodological soundness, interpretation of results, and alignment with claims made in the abstract and conclusion.
+- **Shared manuscript claim summary** The authors use fully atomistic molecular dynamics simulations to show that progressive phosphorylation of histone H3 tail peptides modulates their self-association, with maximal association at intermediate phosphorylation states and reduced association when the peptide reaches zero net charge. They support this with CD and NMR spectroscopy on a synthetic PMM-modified peptide to exclude aggregation.
+- **Visible evidence base** MD simulation results (interaction persistence, contact counts, solvent accessible surface area changes), CD spectra, 15N-HSQC NMR spectra, and literature references.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1, S2) are referenced but not provided in the submitted material. Simulation parameters (force field validation, convergence criteria, replica details) are only partially described. No raw trajectory data or error estimates for simulation observables are provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible and potentially interesting hypothesis regarding phosphorylation-dependent modulation of histone H3 tail self-association, framed within the concept of a phosphorylation rheostat. The simulation results are internally consistent and the experimental CD/NMR data support the claim of non-aggregation for the PMM peptide. However, the study is limited by the short simulation timescale, the absence of convergence analysis, and the lack of direct experimental validation of the predicted association behavior. The central claim that progressive phosphorylation tunes association in a non-monotonic manner is supported by the simulation data, but the generalizability to the in vivo context remains speculative. The manuscript would benefit from additional controls, longer simulations, or enhanced sampling methods to strengthen the conclusions.
+- **Who would be interested in the results, and why** Researchers studying histone post-translational modifications, chromatin structure and dynamics, intrinsically disordered proteins, and the biophysics of protein phosphorylation. The concept of a phosphorylation rheostat may also interest those working on signaling networks and protein charge regulation.
+- **Major strengths** The study addresses a biologically relevant question using a combination of computational and experimental approaches. The identification of a non-monotonic association pattern with respect to phosphorylation state is an interesting finding. The use of CD and NMR to exclude aggregation is a valuable experimental control. The discussion places the results in a broader context of IDP behavior and phosphorylation-dependent regulation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that progressive phosphorylation modulates peptide self-association, with maximum association at intermediate phosphorylation states and reduced association at zero net charge.
+  - **Evidence pointer** Table 2, Figure 1, Supplementary Table S1 (location not provided)
+  - **Concern** The MD simulations are limited to 200 ns per system, which is likely insufficient for convergence of association/dissociation equilibria for peptides of this size. No analysis of convergence (e.g., block averaging, multiple independent runs, or free energy estimates) is presented. The observed differences in association propensity between systems may reflect kinetic trapping rather than thermodynamic preferences.
+  - **Why it matters** Without evidence of sampling convergence, the central conclusion that phosphorylation state modulates association in a specific manner is not robustly established. The claim of a rheostat-like mechanism depends on the reliability of the simulated free energy landscape.
+  - **Resolution test** Provide convergence analysis (e.g., time evolution of contact numbers, multiple independent simulations with different initial velocities, or replica exchange simulations). Alternatively, use enhanced sampling methods (metadynamics, umbrella sampling) to compute free energy profiles for association as a function of phosphorylation state.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the findings "underscore the role of phosphorylation thresholds in the dynamics of intrinsically disordered proteins" and that "phosphorylation rheostats might account for the divergent effects of histone modifications on the modulation of chromatin structure."
+  - **Evidence pointer** Discussion section, Conclusion section
+  - **Concern** The experimental validation is limited to a single peptide (P1M2) and only demonstrates that it does not aggregate. No experimental data are provided to support the predicted non-monotonic association behavior as a function of phosphorylation state. The link between the simulated peptide association and chromatin structure modulation is speculative and not directly tested.
+  - **Why it matters** The broader significance of the work depends on the biological relevance of the predicted association behavior. Without experimental validation of the association propensity at different phosphorylation states, the claim that this represents a rheostat mechanism relevant to chromatin remains unsupported.
+  - **Resolution test** Perform experimental assays (e.g., analytical ultracentrifugation, fluorescence correlation spectroscopy, or cross-linking) to measure association of peptides with different phosphorylation states. Alternatively, clearly frame the conclusions as simulation-based predictions requiring further validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use the Amber ff99SB force field with parameters for phosphoserine/phosphothreonine from Craft and Legge (2005) and for methylated lysine/arginine from their own previous work (Papamokos et al., 2012).
+  - **Evidence pointer** Methods section, Computational Methods
+  - **Concern** The force field parameters for modified residues are not validated in this study. The choice of ff99SB, which is known to have biases in secondary structure propensities, may affect the conformational sampling of the peptides. No comparison with alternative force fields or experimental data is provided.
+  - **Why it matters** Force field artifacts could influence the observed interaction patterns and the conclusions drawn from them. The use of non-standard parameters without validation reduces confidence in the quantitative predictions.
+  - **Resolution test** Validate the modified residue parameters against experimental data (e.g., NMR chemical shifts, J-couplings) or perform simulations with an alternative force field (e.g., CHARMM36m, AMBER ff14SB) to test the robustness of the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The term "phosphorylation rheostat" is introduced without a clear definition. The concept is central to the manuscript but may not be familiar to all readers.
+  - **Required correction** Provide a brief definition or explanation of the term when first used, e.g., "a mechanism by which progressive phosphorylation gradually modulates protein behavior, analogous to a rheostat adjusting electrical resistance."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section, Computational Methods
+  - **Evidence pointer** Methods section, Computational Methods
+  - **Issue** The description of the simulation setup is incomplete. The number of independent simulations per system, the criteria for selecting initial conformations, and the method for generating the α-helical and fully extended starting structures are not fully described.
+  - **Required correction** Provide additional details on the simulation protocol, including the number of replicates, the method for generating starting structures, and any equilibration procedures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the "fuzziness" of IDP complexes is interesting but not directly connected to the simulation results. The link between the observed interaction patterns and the concept of fuzzy complexes is not clearly articulated.
+  - **Required correction** Clarify how the simulation results relate to the concept of fuzzy complexes, or remove this discussion if it is not essential to the main argument.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section, Most Persistent Interactions
+  - **Evidence pointer** Results section, Most Persistent Interactions
+  - **Issue** The claim that "no interactions of the same type were detected between modified or unmodified K and phosphorylated S or T" is based on a single simulation per system. This negative result may be due to insufficient sampling.
+  - **Required correction** Acknowledge the limitation of this observation and avoid overinterpreting the absence of K-phospho interactions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (convergence of simulations), R1-M2 (lack of experimental validation of association behavior), R1-M3 (force field validation).
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of a phosphorylation rheostat in histone tail self-association is somewhat novel, but similar ideas have been proposed for other IDPs. The specific application to histone H3 is original.
+  - **Scientific importance** The potential implications for chromatin biology are significant, but the current evidence is insufficient to establish the biological relevance. The study is more of a hypothesis-generating work than a definitive demonstration.
+  - **Interdisciplinary readership** The work bridges computational biophysics, biochemistry, and chromatin biology, which could appeal to a broad audience. However, the technical details of the simulations may limit accessibility.
+  - **Technical soundness** The simulation methodology is standard but lacks convergence analysis and force field validation. The experimental component is limited to a single peptide and does not directly test the main predictions.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but the introduction of the rheostat concept and some technical details could be clarified for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis supported by preliminary simulation data, but the central claims require additional validation through convergence analysis, force field testing, and experimental measurement of association behavior at different phosphorylation states.
+
+## Risk / unsupported claims
+- The claim that progressive phosphorylation acts as a rheostat to modulate histone tail self-association in a biologically relevant manner is not directly supported by experimental data.
+- The prediction that zero-charge peptides show reduced association is based on a single simulation per system and lacks experimental confirmation.
+- The statement that the findings "might account for the divergent effects of histone modifications on the modulation of chromatin structure" is speculative and not tested in this study.
+- The absence of convergence analysis means that the quantitative differences in association propensity between systems cannot be reliably assessed.

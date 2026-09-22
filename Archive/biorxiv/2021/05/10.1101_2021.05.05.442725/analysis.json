@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.05.05.442725",
+  "title": "1 H, 13 C and 15 N resonance assignment of the SARS-CoV-2 full-length nsp1 protein and its mutants reveals its unique secondary structure features in solution",
+  "authors": "Agback T; Dominguez F; Frolov I; Frolova EI; Agback P",
+  "journal": "bioRxiv",
+  "published_date": "2021-05-05",
+  "window": {
+    "start": "2021-05-03",
+    "end": "2021-05-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过NMR对SARS-CoV-2 nsp1全长蛋白（含IDR）进行共振归属和二级结构表征，揭示无序N/C端与折叠域间的分子内相互作用，但无PPI互作机制建模且方法为实验NMR，非AI/物理模拟。",
+  "abstract": "Structural characterization of the SARS-CoV-2 full length nsp1 protein will be an essential tool for developing new target-directed antiviral drugs against SARS-CoV-2 and for further understanding of intra- and intermolecular interactions of this protein. As a first step in the NMR studies of the protein, we report the 1 H, 13 C and 15 N resonance backbone assignment as well as the Cβ of the apo form of the full-lengthSARS-CoV-2 nsp1 including folded domain together with the flaking N- and C-terminal intrinsically disordered fragments. The 19.8 kD protein was characterized by high-resolution NMR. Validation of assignment have been done by using two different mutants, H81P and K129E/D48E as well as by amino acid specific experiments. According to the obtained assignment, the secondary structure of the folded domain in solution was almost identical to its previously published X-ray structure, but some discrepancies have been detected. In the solution SARS-CoV-2 nsp1 exhibited disordered, flexible N- and C-termini with different dynamic characteristics. The short peptide in the beginning of the disordered C-terminal domain adopted two different conformations distinguishable on the NMR time scale. We propose that the disordered and folded nsp1 domains are not fully independent units but are rather involved in intramolecular interactions. Studies of the structure and dynamics of the SARS-CoV-2 mutant in solution are on-going and will provide important insights into the molecular mechanisms underlying these interactions.",
+  "abstract_zh": "SARS-CoV-2全长nsp1蛋白的结构表征将是开发针对SARS-CoV-2的新型靶向抗病毒药物以及进一步理解该蛋白分子内和分子间相互作用的重要工具。作为该蛋白NMR研究的第一步，我们报告了脱辅基形式全长SARS-CoV-2 nsp1（包括折叠结构域及其侧翼N端和C端 intrinsically disordered 片段）的1H、13C和15N共振主链归属以及Cβ归属。该19.8 kD蛋白通过高分辨率NMR进行了表征。归属验证通过使用两种不同突变体H81P和K129E/D48E以及氨基酸特异性实验完成。根据所得归属，溶液中折叠结构域的二级结构与其先前发表的X射线结构几乎相同，但检测到一些差异。在溶液中，SARS-CoV-2 nsp1表现出无序、柔性的N端和C端，具有不同的动态特征。无序C端结构域起始处的短肽在NMR时间尺度上呈现两种可区分的构象。我们提出，无序和折叠的nsp1结构域并非完全独立的单元，而是参与分子内相互作用。对溶液中SARS-CoV-2突变体结构和动力学的研究正在进行中，将为这些相互作用的分子机制提供重要见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.05.05.442725",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.05.05.442725",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.05.05.442725/index.html"
+}

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusion, and supplementary figure descriptions
+- **Assessment boundary** Scientific content, methodological rigor, evidence quality, and internal consistency of the reported simulation study
+- **Shared manuscript claim summary** The authors report atomistic discrete molecular dynamics simulations of full-length α- and β-synuclein monomers, claiming that αS shows greater β-sheet propensity (especially in the NAC region) while βS favors helices, that C-terminal regions cap β-sheet-prone segments, and that free energy landscapes reveal an enthalpy-entropy trade-off with β-sheet formation driving energy reduction in αS and helix formation in βS.
+- **Visible evidence base** Main text figures 1-7 (described but not directly viewable), supplementary figures S1-S5 (described), methods section, and data availability statement
+- **Missing materials affecting confidence** Actual figure images, simulation parameter files, force field validation data, convergence metrics beyond those described, and the supplementary PDF were not provided for direct inspection
+
+## Reviewer
+- **Overall assessment** This manuscript presents a large-scale simulation study addressing a biologically important question: how sequence differences between α- and β-synuclein modulate their conformational ensembles and aggregation propensities. The computational approach is appropriate and the scale of sampling is commendable. However, several technical concerns regarding force field suitability for IDPs, the use of a micelle-bound starting structure for αS, the fully extended starting conformation for βS, and the interpretation of free energy landscapes require careful consideration. The central claims are plausible but not fully established from the evidence presented.
+- **Who would be interested in the results, and why** Researchers studying synuclein structure and aggregation, computational biophysicists working on intrinsically disordered proteins, and investigators interested in the molecular basis of Parkinson's disease and related synucleinopathies. The thermodynamic framework proposed could inform drug design efforts targeting conformational equilibria.
+- **Major strengths** Large sampling effort with 100 independent 1-μs simulations per system; direct comparison of two closely related homologs with different aggregation behaviors; integration of secondary structure, contact maps, and free energy analyses; identification of a potential capping mechanism by the C-terminal domain; clear thermodynamic interpretation linking sequence to conformational preference.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The simulations adequately sample the conformational space of αS and βS monomers and reach convergence.
+  - **Evidence pointer** Results section "Equilibrium and convergence assessments", Figures S1 and S2
+  - **Concern** The convergence assessment relies on comparing probability distributions between 500-750 ns and 750-1000 ns intervals. This is a weak convergence criterion. For intrinsically disordered proteins, which have rugged energy landscapes and slow relaxation times, 1 μs per trajectory may be insufficient. The authors do not report autocorrelation times, block error analysis, or comparisons of independent runs to assess sampling completeness. The claim that "sufficient conformational sampling was achieved" is not adequately supported.
+  - **Why it matters** If the simulations are not converged, all downstream analyses of secondary structure propensities, contact maps, and free energy landscapes may reflect kinetic trapping rather than equilibrium properties. This would undermine the central conclusions about αS versus βS differences.
+  - **Resolution test** Provide quantitative convergence metrics including autocorrelation times for key order parameters, split-half analysis of independent trajectories, and comparison of ensemble averages across increasing simulation time blocks. Demonstrate that key observables (e.g., β-sheet propensity in the NAC region) are stable across multiple independent time windows.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The DMD/Medusa force field with EEF1 implicit solvent accurately models IDP conformational ensembles.
+  - **Evidence pointer** Methods section "DMD Simulations"
+  - **Concern** The manuscript does not provide validation of the DMD/Medusa force field for intrinsically disordered proteins. While the authors cite prior applications to αS, no direct comparison with experimental data (e.g., SAXS, FRET, NMR chemical shifts) for the specific systems studied here is presented. The EEF1 implicit solvent model is known to have limitations for IDPs, potentially over-stabilizing compact conformations or altering secondary structure propensities. The choice of a micelle-bound NMR structure (PDB 1XQ8) as the starting conformation for αS introduces potential bias, as this structure contains stable helices that may not represent the disordered monomer state.
+  - **Why it matters** Force field artifacts are a well-documented challenge in IDP simulations. If the force field biases toward certain secondary structures, the reported differences between αS and βS could reflect force field artifacts rather than genuine sequence-encoded properties. The starting structure choice could similarly bias the sampled ensembles.
+  - **Resolution test** Provide benchmark comparisons against experimental data for αS and βS monomers (e.g., radius of gyration from SAXS, FRET distances, secondary structure populations from NMR). Test whether simulations initiated from different starting conformations (fully extended, random coil, micelle-bound) converge to the same ensemble. Discuss known limitations of the force field for IDPs and how they might affect the conclusions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The C-terminal domain acts as a "dynamic cap" that limits β-sheet growth in both αS and βS.
+  - **Evidence pointer** Results section "By wrapping around β-sheet-prone regions...", Figures 6 and 7
+  - **Concern** The capping mechanism is inferred from contact frequency maps showing interactions between C-terminal residues and β-sheet-prone regions. However, the functional significance of these contacts is not directly tested. The authors do not perform simulations with C-terminal truncations to demonstrate that removal of the C-terminus enhances β-sheet formation or aggregation propensity. The claim that this capping "limits aggregation" is speculative without such control simulations.
+  - **Why it matters** The capping mechanism is presented as a key finding with implications for understanding why C-terminal truncation enhances aggregation. Without direct testing, this remains a plausible hypothesis rather than an established mechanism. The claim is important for the paper's significance and should be rigorously tested.
+  - **Resolution test** Perform additional simulations of C-terminally truncated αS and βS variants. Demonstrate that truncation increases β-sheet propensity in the NAC region and reduces the free energy barrier to extended β-sheet formation. Alternatively, provide experimental validation through published truncation studies that support the proposed mechanism.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** Free energy landscape analysis reveals an enthalpy-entropy trade-off where β-sheet formation drives energy reduction in αS and helix formation in βS.
+  - **Evidence pointer** Results section "αS monomers maintained low free energy...", Figure 4
+  - **Concern** The free energy landscapes are constructed using total potential energy versus secondary structure content. This is an unusual choice of reaction coordinates. The authors do not report statistical uncertainties in the free energy estimates, and the use of a single energy function (potential energy) conflates multiple physical contributions. The claim that β-sheet formation "drives" energy reduction in αS is based on correlation, not causation. The authors do not decompose the energy contributions (e.g., hydrogen bonding, electrostatics, solvation) to identify which interactions are responsible.
+  - **Why it matters** The thermodynamic framework is a central contribution of the paper. If the free energy analysis is not statistically robust or the energy decomposition is not provided, the mechanistic interpretation is weakened. The enthalpy-entropy compensation claim requires careful error analysis to be convincing.
+  - **Resolution test** Provide error bars on free energy estimates using block bootstrap or similar methods. Decompose potential energy into physical components (electrostatics, van der Waals, hydrogen bonding, solvation) to identify which interactions drive the observed differences. Test whether the enthalpy-entropy compensation is statistically significant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes familiarity with synuclein biology and aggregation mechanisms. Terms such as "Lewy bodies," "amyloid fibrils," and "cross-β-sheet" are used without brief definitions.
+  - **Required correction** Add brief definitions or context for these terms to make the manuscript accessible to a broader biophysics audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, DMD simulations
+  - **Evidence pointer** Methods section "DMD Simulations"
+  - **Issue** The description of the DMD method and force field parameters is brief. The authors state that DMD "approximates interatomic potentials with discrete step functions" but do not provide details on the step sizes, the number of energy levels, or how the discretization was chosen.
+  - **Required correction** Provide additional details on the discretization parameters and any sensitivity analyses performed to ensure results are robust to the discretization choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, analysis
+  - **Evidence pointer** Methods section "Analysis Methods"
+  - **Issue** The clustering analysis uses a Cα RMSD cutoff of 0.8 nm, but the rationale for this specific cutoff is not provided. Different cutoffs could lead to different cluster populations and affect the interpretation of dominant conformations.
+  - **Required correction** Justify the choice of RMSD cutoff or show that results are robust across a range of reasonable cutoffs.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion of βS inhibition mechanism
+  - **Evidence pointer** Results section "By wrapping around β-sheet-prone regions..."
+  - **Issue** The authors speculate that βS may inhibit αS aggregation through hetero-aggregate formation, but this is presented as an expectation rather than a tested hypothesis. The connection between the monomer simulations and the proposed cross-inhibition mechanism is indirect.
+  - **Required correction** Clarify that the cross-inhibition mechanism is speculative and not directly tested in this study. Consider discussing how the monomer simulations could inform future studies of αS-βS interactions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, free energy analysis
+  - **Evidence pointer** Results section "αS monomers maintained low free energy..."
+  - **Issue** The description of the free energy landscapes and the enthalpy-entropy trade-off is dense and could benefit from a more intuitive explanation of what these findings mean for protein behavior.
+  - **Required correction** Add a brief intuitive summary of the enthalpy-entropy compensation concept and its implications for understanding protein conformational preferences.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (convergence assessment), R1-M2 (force field validation)
+- **Assessment against Nature-style criteria** Originality: The study addresses a question of significant interest, and the direct comparison of αS and βS conformational ensembles is valuable. However, the general finding that αS has higher β-sheet propensity than βS is not entirely novel, as prior computational and experimental studies have suggested this. Scientific importance: The potential mechanistic insight into why βS resists aggregation and how C-terminal truncation enhances αS aggregation is important for understanding Parkinson's disease pathology. Interdisciplinary readership: The work bridges computational biophysics, protein chemistry, and neurodegeneration research, and should appeal to readers across these fields. Technical soundness: The sampling effort is substantial, but concerns about force field suitability for IDPs and convergence assessment weaken the technical foundation. Readability for nonspecialists: The manuscript is generally well-organized, but some sections assume specialized knowledge and could be made more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question with a substantial computational effort, and the findings are potentially significant. However, the convergence assessment and force field validation need to be strengthened to establish that the reported differences between αS and βS are robust and not artifacts of the methodology.
+
+## Risk / unsupported claims
+- The claim that "sufficient conformational sampling was achieved" is not adequately supported by the convergence analysis presented.
+- The claim that the C-terminal domain acts as a "dynamic cap" limiting β-sheet growth is inferred from contact maps but not directly tested.
+- The claim that βS's reduced β-sheet propensity is "due to the absence of the NACore" is presented as a conclusion but is not directly tested through mutagenesis or sequence-swap simulations.
+- The enthalpy-entropy compensation mechanism is described without statistical error analysis, making the strength of this claim uncertain.
+- The statement that "similar interactions which stabilized mature fibrils also contributed to the stabilization of early oligomeric intermediates" is speculative and goes beyond the monomer simulation data presented.

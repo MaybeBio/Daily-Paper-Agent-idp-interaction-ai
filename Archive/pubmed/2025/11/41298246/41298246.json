@@ -1,0 +1,443 @@
+{
+  "identity": {
+    "pmid": "41298246",
+    "doi": "10.1002/advs.202514056",
+    "title": "Mapping Charge Interactions in Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are often rich in charged residues, and electrostatic interactions have a pronounced effect on their conformational distributions, interactions and functions. However, attaining quantitative understanding of electrostatics is challenging because of the sequence-specific arrangement of charges in the chain, the long-range nature of electrostatic interactions, charge screening, and the condensation of counterions-effects that all need to be taken into account self-consistently. Here, analytically tractable quantitative models are developed to predict ensemble average distances between any pair of residues in IDPs as a function of sequence and salt concentration, explicitly considering charge patterning. These models are tested systematically against extensive single-molecule Forster resonance energy transfer (FRET) data mapping intrachain distances for a range of charged IDPs with different sequence compositions, as a function of salt concentration, and with different labeling positions and fluorophores. The resulting polymer model with a minimal set of adjustable parameters accounts for counterion condensation, the resulting effective charges, as well as dipolar interactions, and can be used to predict detailed intrachain distance maps between all residues. Analytical models of this kind offer a valuable complement to simulations and can provide fundamental insight into the interactions underlying the conformational distributions of IDPs.",
+    "keywords": [
+      "intrinsically disordered proteins",
+      "polyelectrolytes",
+      "polymer theory",
+      "single-molecule FRET"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Static Electricity",
+      "Fluorescence Resonance Energy Transfer/methods",
+      "Protein Conformation",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Phillips, Michael",
+        "Holla, Andrea",
+        "Wojtas, Magdalena",
+        "Chowdhury, Aritra",
+        "Sottini, Andrea",
+        "Konig, Sebastian L B",
+        "Mutter, Natalie",
+        "Lamb, Nick",
+        "Huihui, Jonathan",
+        "Lopko, Monika",
+        "Soranno, Andrea",
+        "Nettels, Daniel",
+        "Ozyhar, Andrzej",
+        "Schuler, Benjamin",
+        "Ghosh, Kingshuk"
+      ],
+      "short_names": [
+        "Phillips M",
+        "Holla A",
+        "Wojtas M",
+        "Chowdhury A",
+        "Sottini A",
+        "Konig SLB",
+        "Mutter N",
+        "Lamb N",
+        "Huihui J",
+        "Lopko M",
+        "Soranno A",
+        "Nettels D",
+        "Ozyhar A",
+        "Schuler B",
+        "Ghosh K"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0635-5737",
+        "ORCID: 0000-0002-0579-292X",
+        "ORCID: 0000-0001-8014-5987",
+        "ORCID: 0000-0002-9144-7443",
+        "ORCID: 0000-0002-3120-2823",
+        "ORCID: 0000-0001-8394-7993",
+        "ORCID: 0000-0003-3872-4955",
+        "ORCID: 0000-0002-5970-4251",
+        "ORCID: 0000-0003-4976-0986"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, University of Denver, Denver, CO, 80208, USA.",
+        "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland.",
+        "Department of Biochemistry, Molecular Biology and Biotechnology, Wroclaw University of Technology, Wroclaw, 50-373, Poland.",
+        "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland.",
+        "Department of Physics and Astronomy, University of Denver, Denver, CO, 80208, USA.",
+        "Department of Physics and Astronomy, University of Denver, Denver, CO, 80208, USA.",
+        "Department of Biochemistry, Molecular Biology and Biotechnology, Wroclaw University of Technology, Wroclaw, 50-373, Poland.",
+        "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland.",
+        "Department of Biochemistry and Molecular Biophysics, Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, 63110, USA.",
+        "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland.",
+        "Department of Biochemistry, Molecular Biology and Biotechnology, Wroclaw University of Technology, Wroclaw, 50-373, Poland.",
+        "Department of Biochemistry and Department of Physics, University of Zurich, Zurich, 8057, Switzerland.",
+        "Department of Physics and Astronomy, University of Denver, Denver, CO, 80208, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Phillips, Michael",
+        "short_name": "Phillips M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Denver, Denver, CO, 80208, USA."
+        ]
+      },
+      {
+        "full_name": "Holla, Andrea",
+        "short_name": "Holla A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wojtas, Magdalena",
+        "short_name": "Wojtas M",
+        "identifiers": [
+          "0000-0003-0635-5737"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland.",
+          "Department of Biochemistry, Molecular Biology and Biotechnology, Wrocław University of Technology, Wrocław, 50-373, Poland."
+        ]
+      },
+      {
+        "full_name": "Chowdhury, Aritra",
+        "short_name": "Chowdhury A",
+        "identifiers": [
+          "0000-0002-0579-292X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Sottini, Andrea",
+        "short_name": "Sottini A",
+        "identifiers": [
+          "0000-0001-8014-5987"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "König, Sebastian L B",
+        "short_name": "König SLB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Mutter, Natalie",
+        "short_name": "Mutter N",
+        "identifiers": [
+          "0000-0002-9144-7443"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Lamb, Nick",
+        "short_name": "Lamb N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Denver, Denver, CO, 80208, USA."
+        ]
+      },
+      {
+        "full_name": "Huihui, Jonathan",
+        "short_name": "Huihui J",
+        "identifiers": [
+          "0000-0002-3120-2823"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Denver, Denver, CO, 80208, USA."
+        ]
+      },
+      {
+        "full_name": "Lopko, Monika",
+        "short_name": "Lopko M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Molecular Biology and Biotechnology, Wrocław University of Technology, Wrocław, 50-373, Poland."
+        ]
+      },
+      {
+        "full_name": "Soranno, Andrea",
+        "short_name": "Soranno A",
+        "identifiers": [
+          "0000-0001-8394-7993"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland.",
+          "Department of Biochemistry and Molecular Biophysics, Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, 63110, USA."
+        ]
+      },
+      {
+        "full_name": "Nettels, Daniel",
+        "short_name": "Nettels D",
+        "identifiers": [
+          "0000-0003-3872-4955"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Ożyhar, Andrzej",
+        "short_name": "Ożyhar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Molecular Biology and Biotechnology, Wrocław University of Technology, Wrocław, 50-373, Poland."
+        ]
+      },
+      {
+        "full_name": "Schuler, Benjamin",
+        "short_name": "Schuler B",
+        "identifiers": [
+          "0000-0002-5970-4251"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Department of Physics, University of Zurich, Zurich, 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Kingshuk",
+        "short_name": "Ghosh K",
+        "identifiers": [
+          "0000-0003-4976-0986"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Denver, Denver, CO, 80208, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/27 00:27",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [
+      "42172735",
+      "41972834"
+    ],
+    "refs": [
+      "41258769",
+      "40998749",
+      "40133775",
+      "39735932",
+      "39504303",
+      "39253398",
+      "38657047",
+      "37796987",
+      "37201463",
+      "36599672",
+      "35969881",
+      "35119946",
+      "34826385",
+      "34476121",
+      "34265844",
+      "34259536",
+      "33877835",
+      "33865811",
+      "33545530",
+      "33139563",
+      "32227994",
+      "32097582",
+      "31488718",
+      "30913885",
+      "30873835",
+      "30471690",
+      "30384718",
+      "30193467",
+      "29604882",
+      "29604827",
+      "29296029",
+      "28288117",
+      "27145874",
+      "26331261",
+      "26328871",
+      "25863585",
+      "25747592",
+      "23901099",
+      "22984159",
+      "20639465",
+      "20483348",
+      "20404210",
+      "19204001",
+      "18636772",
+      "18506808",
+      "17519204",
+      "15267872",
+      "11025552",
+      "7548085"
+    ],
+    "similar": [
+      "41298246",
+      "30193467",
+      "30471690",
+      "25375525",
+      "35053175",
+      "28805390",
+      "38127117",
+      "20639465",
+      "36416865",
+      "32357776",
+      "32159932",
+      "39735932",
+      "39248414",
+      "35944496",
+      "30823702",
+      "32097582",
+      "23901099",
+      "39807013",
+      "34817999",
+      "34259536",
+      "24639500",
+      "32859072",
+      "22821515",
+      "36674958",
+      "32840111",
+      "29055320",
+      "29490247",
+      "32227994",
+      "35512095",
+      "29548979",
+      "25207671",
+      "29981536",
+      "32696367",
+      "32527832",
+      "31488718",
+      "33566618",
+      "23912807",
+      "32345021",
+      "32867340",
+      "33831596",
+      "36641212",
+      "35454150",
+      "41159867",
+      "28223518",
+      "29573987",
+      "40095314",
+      "33865811",
+      "31709918",
+      "40998749",
+      "30968464",
+      "28625737",
+      "36346711",
+      "31550880",
+      "30413085",
+      "27844185",
+      "30913885",
+      "42171195",
+      "35727975",
+      "22197905",
+      "28192291",
+      "41768432",
+      "26030189",
+      "36917561",
+      "37459524",
+      "39740355",
+      "39074869",
+      "27936491",
+      "34716273",
+      "39642200",
+      "42239067",
+      "27145874",
+      "39253398",
+      "38252962",
+      "41930927",
+      "33945530",
+      "39536029",
+      "29604827",
+      "30979035",
+      "29382046",
+      "29157493",
+      "38657047",
+      "30384718",
+      "30240067",
+      "41493397",
+      "42169406",
+      "38165099",
+      "36343363",
+      "36934808",
+      "31375817",
+      "26387101",
+      "31756456",
+      "32654182",
+      "32325001",
+      "36750251",
+      "26566073",
+      "41053403",
+      "34181980",
+      "30813629",
+      "34863777",
+      "25296318"
+    ],
+    "review": [
+      "41298246",
+      "35053175",
+      "32097582",
+      "32867340",
+      "31709918",
+      "28625737",
+      "30413085",
+      "28192291",
+      "39740355",
+      "27145874",
+      "30979035",
+      "29382046",
+      "29157493",
+      "26387101",
+      "36750251"
+    ],
+    "pmc": [
+      "13042941"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41298246/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

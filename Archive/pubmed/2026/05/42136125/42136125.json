@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "42136125",
+    "doi": "10.1021/acs.jpcb.6c01856",
+    "title": "RBM45 Preferential Binding to m(6)A: Simulations Suggest Synergy of RRM3 and Other Domains."
+  },
+  "content": {
+    "abstract": "RNA-binding motif protein 45 (RBM45) is an RNA-binding protein crucial for brain development and plays a key role in RNA metabolism and disease. Its RNA recognition motif (RRM) domains can recognize GAC-containing motifs, with or without N6-methyladenosine (m(6)A) modification. While its RRM domains individually do not preferentially recognize m(6)A, RBM45 preferentially recognizes m(6)A motifs over unmodified motifs. In this study, we used molecular dynamics (MD) simulations to investigate the binding of a series of RNAs in complex with different RRM domains individually and in complex with RRM3 in the context of the full-length protein. Our study complies with previous experiments and provides in-depth biophysical insights into the binding of unmodified and m(6)A-modified GACG, GACU, and GACA RNA motifs in complex with all RRMs individually. While GACA and GACU bind unfavorably to the individual RRM3 domain, we suggest that they bind favorably to RRM3 in the context of the full-length protein. Importantly, in the context of the entire protein, we present for the first time how RRM3, in combination with additional residues in different RRM domains and linker domains, can synergistically cooperate for m(6)A preferential binding over adenine in the context of GACA and GACU motifs, uncovering the preferential binding of full-length RBM45 for m(6)A observed in previous experiments. The presence of the m(6)A methyl group provides further stability to the RNA, as well as strengthens the particular interactions between RNA and protein, while contributing to additional stabilization of the C-terminal domain with the linker domain between RRM2 and homo-oligomer assembly (HOA). Our simulations highlight the role of various other domains beyond RRMs (i.e., the C-terminal, HOA, and linkers between different RRMs) in the interaction of RBM45 with RNA, particularly m(6)A-modified RNA. Overall, our study elucidated how an RRM class of proteins can preferentially bind m(6)A in the context of its common motif written by methyltransferases. We consider that our study presents the first mechanistic insights into how an RRM domain binds directly and preferentially recognizes m(6)A over adenine in synergy with other domains, which include intrinsically disordered regions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*RNA-Binding Proteins/chemistry/metabolism",
+      "*Adenosine/analogs & derivatives/chemistry/metabolism",
+      "Protein Binding",
+      "RNA Methylation",
+      "Protein Domains",
+      "RNA Recognition Motif",
+      "Binding Sites",
+      "*RNA/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Park, Raeyeon",
+        "Contreras, Lydia M",
+        "Tamamis, Phanourios"
+      ],
+      "short_names": [
+        "Park R",
+        "Contreras LM",
+        "Tamamis P"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-5604-0296",
+        "ORCID: 0000-0001-5010-5511",
+        "ORCID: 0000-0002-3342-2651"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+        "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712-1589, United States.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+        "Department of Materials Science & Engineering, Texas A&M University, College Station, Texas 77843, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Park, Raeyeon",
+        "short_name": "Park R",
+        "identifiers": [
+          "0009-0000-5604-0296"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States."
+        ]
+      },
+      {
+        "full_name": "Contreras, Lydia M",
+        "short_name": "Contreras LM",
+        "identifiers": [
+          "0000-0001-5010-5511"
+        ],
+        "affiliations": [
+          "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712-1589, United States."
+        ]
+      },
+      {
+        "full_name": "Tamamis, Phanourios",
+        "short_name": "Tamamis P",
+        "identifiers": [
+          "0000-0002-3342-2651"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+          "Department of Materials Science & Engineering, Texas A&M University, College Station, Texas 77843, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 May 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/15 06:29",
+    "fetched_at": "2026-09-18 03:16:48"
+  },
+  "links": {
+    "cites": [
+      "42495611"
+    ],
+    "refs": [
+      "41662154",
+      "40819486",
+      "40664121",
+      "40531589",
+      "40313817",
+      "39980665",
+      "39551145",
+      "39495922",
+      "39241758",
+      "39122006",
+      "38977675",
+      "38535997",
+      "38100535",
+      "38040804",
+      "37933859",
+      "37658192",
+      "37501707",
+      "36158961",
+      "36107618",
+      "36044854",
+      "35417810",
+      "34884467",
+      "34804951",
+      "34265844",
+      "34157120",
+      "33764770",
+      "33577684",
+      "33543942",
+      "33201701",
+      "32716185",
+      "32710622",
+      "32586379",
+      "32156816",
+      "31988703",
+      "30901032",
+      "30405276",
+      "29883606",
+      "29476152",
+      "29476150",
+      "29408626",
+      "29379020",
+      "29374143",
+      "29170628",
+      "28746339",
+      "28651966",
+      "28397268",
+      "28334903",
+      "27934063",
+      "27819658",
+      "27226551",
+      "27171006",
+      "26979993",
+      "26841080",
+      "26631602",
+      "26391765",
+      "26321680",
+      "25719671",
+      "25166278",
+      "24316715",
+      "22993125",
+      "22608085",
+      "22575960",
+      "22368531",
+      "21982300",
+      "21735452",
+      "21469161",
+      "21387345",
+      "19444816",
+      "18351591",
+      "17849388",
+      "17717034",
+      "17023659",
+      "15198617",
+      "12220514",
+      "8744570",
+      "4372599",
+      "856255"
+    ],
+    "similar": [
+      "42136125",
+      "39122006",
+      "25584704",
+      "33577684",
+      "41662154",
+      "24824036",
+      "34591015",
+      "10848602",
+      "40908720",
+      "37890778",
+      "27592836",
+      "9115444",
+      "11871661",
+      "36454011",
+      "39804219",
+      "40147776",
+      "40960392",
+      "8576255",
+      "40373918",
+      "39456902",
+      "29279008",
+      "32156816",
+      "25081215",
+      "29970596",
+      "39240243",
+      "22154808",
+      "39397705",
+      "21955496",
+      "23912807",
+      "38985864",
+      "30718402",
+      "26318451",
+      "25534245",
+      "23519412",
+      "21931728",
+      "29080206",
+      "34837346",
+      "30135093",
+      "39354713",
+      "23603827",
+      "39305233",
+      "17606619",
+      "41594637",
+      "20080103",
+      "26602689",
+      "26391765",
+      "30992467",
+      "23247503",
+      "15751947",
+      "40331414",
+      "10856256",
+      "29791134",
+      "30418581",
+      "10924474",
+      "41916609",
+      "36716848",
+      "36689472",
+      "31294800",
+      "28542332",
+      "17517897",
+      "21846467",
+      "29450990",
+      "33441818",
+      "23253355",
+      "29715522",
+      "19553194",
+      "41182901",
+      "42176847",
+      "27193998",
+      "39987708",
+      "41297729",
+      "30535889",
+      "40185232",
+      "33472367",
+      "28315749",
+      "11809873",
+      "8665950",
+      "35876068",
+      "20219472",
+      "35307347",
+      "14973222",
+      "30521520",
+      "42475469",
+      "30206185",
+      "11175903",
+      "28505313",
+      "11376140",
+      "12242302",
+      "36044854",
+      "31791586",
+      "39180402",
+      "40795964",
+      "28184449",
+      "21261285",
+      "35639481",
+      "31547849",
+      "42581007",
+      "8903344",
+      "30637606",
+      "10079173"
+    ],
+    "review": [
+      "42136125",
+      "23253355",
+      "29715522",
+      "40185232",
+      "28315749",
+      "30206185"
+    ],
+    "pmc": [
+      "13224180"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42136125/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-725",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.6c01856",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

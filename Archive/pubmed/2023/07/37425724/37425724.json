@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "37425724",
+    "doi": "10.1101/2023.06.23.546267",
+    "title": "Liquid-like condensates mediate competition between actin branching and bundling."
+  },
+  "content": {
+    "abstract": "Cellular remodeling of actin networks underlies cell motility during key morphological events, from embryogenesis to metastasis. In these transformations there is an inherent competition between actin branching and bundling, because steric clashes among branches create a mechanical barrier to bundling. Recently, liquid-like condensates consisting purely of proteins involved in either branching or bundling of the cytoskeleton have been found to catalyze their respective functions. Yet in the cell, proteins that drive branching and bundling are present simultaneously. In this complex environment, which factors determine whether a condensate drives filaments to branch versus becoming bundled? To answer this question, we added the branched actin nucleator, Arp2/3, to condensates composed of VASP, an actin bundling protein. At low actin to VASP ratios, branching activity, mediated by Arp2/3, robustly inhibited VASP-mediated bundling of filaments, in agreement with agent-based simulations. In contrast, as the actin to VASP ratio increased, addition of Arp2/3 led to formation of aster-shaped structures, in which bundled filaments emerged from a branched actin core, analogous to filopodia emerging from a branched lamellipodial network. These results demonstrate that multi-component, liquid-like condensates can modulate the inherent competition between bundled and branched actin morphologies, leading to organized, higher-order structures, similar to those found in motile cells.",
+    "keywords": [
+      "Biological sciences",
+      "Biophysics & computational biology",
+      "actin",
+      "condensates",
+      "cytoskeleton",
+      "liquid-liquid phase separation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Graham, Kristin",
+        "Chandrasekaran, Aravind",
+        "Wang, Liping",
+        "Yang, Noel",
+        "Lafer, Eileen M",
+        "Rangamani, Padmini",
+        "Stachowiak, Jeanne C"
+      ],
+      "short_names": [
+        "Graham K",
+        "Chandrasekaran A",
+        "Wang L",
+        "Yang N",
+        "Lafer EM",
+        "Rangamani P",
+        "Stachowiak JC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "University of Texas at Austin, Department of Biomedical Engineering.",
+        "University of California San Diego, Department of Mechanical and Aerospace Engineering.",
+        "University of Texas Health Science Center at San Antonio, Department of Biochemistry and Structural Biology.",
+        "University of Texas at Austin, Department of Biomedical Engineering.",
+        "University of Texas Health Science Center at San Antonio, Department of Biochemistry and Structural Biology.",
+        "University of California San Diego, Department of Mechanical and Aerospace Engineering.",
+        "University of Texas at Austin, Department of Biomedical Engineering.",
+        "University of Texas at Austin, Department of Chemical Engineering."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Graham, Kristin",
+        "short_name": "Graham K",
+        "identifiers": [],
+        "affiliations": [
+          "University of Texas at Austin, Department of Biomedical Engineering."
+        ]
+      },
+      {
+        "full_name": "Chandrasekaran, Aravind",
+        "short_name": "Chandrasekaran A",
+        "identifiers": [],
+        "affiliations": [
+          "University of California San Diego, Department of Mechanical and Aerospace Engineering."
+        ]
+      },
+      {
+        "full_name": "Wang, Liping",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "University of Texas Health Science Center at San Antonio, Department of Biochemistry and Structural Biology."
+        ]
+      },
+      {
+        "full_name": "Yang, Noel",
+        "short_name": "Yang N",
+        "identifiers": [],
+        "affiliations": [
+          "University of Texas at Austin, Department of Biomedical Engineering."
+        ]
+      },
+      {
+        "full_name": "Lafer, Eileen M",
+        "short_name": "Lafer EM",
+        "identifiers": [],
+        "affiliations": [
+          "University of Texas Health Science Center at San Antonio, Department of Biochemistry and Structural Biology."
+        ]
+      },
+      {
+        "full_name": "Rangamani, Padmini",
+        "short_name": "Rangamani P",
+        "identifiers": [],
+        "affiliations": [
+          "University of California San Diego, Department of Mechanical and Aerospace Engineering."
+        ]
+      },
+      {
+        "full_name": "Stachowiak, Jeanne C",
+        "short_name": "Stachowiak JC",
+        "identifiers": [],
+        "affiliations": [
+          "University of Texas at Austin, Department of Biomedical Engineering.",
+          "University of Texas at Austin, Department of Chemical Engineering."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Jun 26",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/10 06:42",
+    "fetched_at": "2026-09-20 23:30:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38605007",
+      "38405682",
+      "36598940",
+      "35927959",
+      "35918536",
+      "35285496",
+      "35211183",
+      "34133215",
+      "32579429",
+      "30297718",
+      "29386393",
+      "29064502",
+      "28813247",
+      "28667124",
+      "27056844",
+      "25355952",
+      "25321392",
+      "25203209",
+      "25145849",
+      "24382887",
+      "23623350",
+      "22398450",
+      "21676863",
+      "21041447",
+      "20439759",
+      "20110992",
+      "19913792",
+      "19847840",
+      "19746192",
+      "19648907",
+      "18995840",
+      "18923426",
+      "18820726",
+      "18464790",
+      "17712139",
+      "17475772",
+      "16966425",
+      "16675552",
+      "16565053",
+      "16549794",
+      "15569942",
+      "14570581",
+      "14530401",
+      "12642617",
+      "12566431",
+      "11598004",
+      "11029465",
+      "10801131",
+      "10498433",
+      "10438535",
+      "9889097",
+      "9600938",
+      "8432732"
+    ],
+    "similar": [
+      "37425724",
+      "38207079",
+      "38405682",
+      "38826190",
+      "37890285",
+      "19847840",
+      "18820726",
+      "25160634",
+      "35275060",
+      "17535252",
+      "38605007",
+      "30471998",
+      "32470361",
+      "16675552",
+      "12566431",
+      "14557252",
+      "30601697",
+      "36939020",
+      "11093254",
+      "22791711",
+      "35830600",
+      "19068115",
+      "35622886",
+      "38367669",
+      "15458649",
+      "19746192",
+      "31564494",
+      "16565053",
+      "35090589",
+      "34133215",
+      "24120641",
+      "37318128",
+      "32868296",
+      "21642440",
+      "34836783",
+      "11792818",
+      "25246528",
+      "27957528",
+      "36640348",
+      "11560487",
+      "11525747",
+      "37819623",
+      "32391788",
+      "29731300",
+      "33179595",
+      "21814501",
+      "35858327",
+      "28331069",
+      "29636431",
+      "37977138",
+      "35533728",
+      "25540195",
+      "25355952",
+      "12642617",
+      "32461373",
+      "19362000",
+      "21557512",
+      "15236643",
+      "20404198",
+      "18326652",
+      "25145849",
+      "36868090",
+      "9600938",
+      "22359589",
+      "37725655",
+      "38277459",
+      "18256280",
+      "34281597",
+      "33912871",
+      "37595874",
+      "16371509",
+      "16905606",
+      "23885122",
+      "18316411",
+      "18775315",
+      "36909544",
+      "11581288",
+      "29386393",
+      "37770446",
+      "14747342",
+      "11790308",
+      "11069108",
+      "1447299",
+      "22308368",
+      "27112294",
+      "12086607",
+      "36662867",
+      "37639611",
+      "31843255",
+      "35819332",
+      "15040784",
+      "18755006",
+      "14977545",
+      "27775702",
+      "2176572",
+      "27666967",
+      "37555826",
+      "28000681",
+      "38448439",
+      "35858314",
+      "32895245"
+    ],
+    "review": [
+      "37425724",
+      "34836783",
+      "25145849",
+      "36868090",
+      "31843255",
+      "15040784"
+    ],
+    "pmc": [
+      "10327076"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37425724/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37425724",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.06.23.546267",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

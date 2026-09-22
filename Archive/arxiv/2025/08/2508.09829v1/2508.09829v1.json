@@ -1,0 +1,32 @@
+{
+  "source": "arxiv",
+  "source_id": "2508.09829v1",
+  "title": "Dynamics of phase separation in non-local elastic networks",
+  "doi": "",
+  "abstract": "Phase separation of a liquid mixture embedded within an elastic network is relevant to a wide range of natural and industrial systems, including biomolecular condensates interacting with the cytoskeleton, structural colouring in bird feathers, and gas bubbles forming within soft sediments. Recent experiments in synthetic polymer gels have demonstrated that when the size of phase-separated domains is comparable to the characteristic pore size of the network, a patterned phase with a well-defined length scale may emerge. Theoretical works based on an equilibrium approach have attributed this pattern formation to non-local elastic effects arising from heterogeneity of the underlying network. Here, we extend these ideas by developing a dynamic theory in which phase separation is coupled to non-local elasticity via the framework of large-deformation poroelasticity. We study our model via both linear stability analysis and numerical simulation, identifying the parameter space in which phase separation occurs, and investigating the impact of different elasticity models. We find that although local elasticity can inhibit phase separation and affect domain count, it is unable to completely suppress coarsening. In contrast, non-local elasticity arrests coarsening to form patterned domains with a well-defined length scale that decreases with increasing stiffness. Our modelling framework thus paves the way for quantitative comparisons between simulations and experiments, for example by considering a strain-stiffening network rheology.",
+  "authors": [
+    "Oliver W. Paulin",
+    "Yicheng Qiang",
+    "David Zwicker"
+  ],
+  "published_date": "2025-08-13T14:04:52Z",
+  "updated_date": "2025-08-13T14:04:52Z",
+  "journal": "",
+  "category": "cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2508.09829v1",
+  "pdf_url": "https://arxiv.org/pdf/2508.09829v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2508.09829v1",
+    "raw_categories": [
+      "cond-mat.soft"
+    ],
+    "journal_ref": ""
+  }
+}

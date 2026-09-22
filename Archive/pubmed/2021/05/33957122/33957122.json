@@ -1,0 +1,401 @@
+{
+  "identity": {
+    "pmid": "33957122",
+    "doi": "10.1016/j.jbc.2021.100746",
+    "title": "From structure to the dynamic regulation of a molecular switch: A journey over 3 decades."
+  },
+  "content": {
+    "abstract": "It is difficult to imagine where the signaling community would be today without the Protein Data Bank. This visionary resource, established in the 1970s, has been an essential partner for sharing information between academics and industry for over 3 decades. We describe here the history of our journey with the protein kinases using cAMP-dependent protein kinase as a prototype. We summarize what we have learned since the first structure, published in 1991, why our journey is still ongoing, and why it has been essential to share our structural information. For regulation of kinase activity, we focus on the cAMP-binding protein kinase regulatory subunits. By exploring full-length macromolecular complexes, we discovered not only allostery but also an essential motif originally attributed to crystal packing. Massive genomic data on disease mutations allows us to now revisit crystal packing as a treasure chest of possible protein:protein interfaces where the biological significance and disease relevance can be validated. It provides a new window into exploring dynamic intrinsically disordered regions that previously were deleted, ignored, or attributed to crystal packing. Merging of crystallography with cryo-electron microscopy, cryo-electron tomography, NMR, and millisecond molecular dynamics simulations is opening a new world for the signaling community where those structure coordinates, deposited in the Protein Data Bank, are just a starting point!",
+    "keywords": [
+      "allostery",
+      "cAMP",
+      "cAMP-dependent protein kinase (PKA)",
+      "catalytic subunit",
+      "crystallography",
+      "dynamics",
+      "intrinsically disordered regions",
+      "protein kinases",
+      "protein structure",
+      "regulatory subunit"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Cryoelectron Microscopy",
+      "Cyclic AMP-Dependent Protein Kinases/*chemistry/*history",
+      "History, 20th Century",
+      "History, 21st Century",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Protein Structure, Quaternary",
+      "Structure-Activity Relationship"
+    ],
+    "pub_types": [
+      "Historical Article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Taylor, Susan S",
+        "Wu, Jian",
+        "Bruystens, Jessica G H",
+        "Del Rio, Jason C",
+        "Lu, Tsan-Wen",
+        "Kornev, Alexandr P",
+        "Ten Eyck, Lynn F"
+      ],
+      "short_names": [
+        "Taylor SS",
+        "Wu J",
+        "Bruystens JGH",
+        "Del Rio JC",
+        "Lu TW",
+        "Kornev AP",
+        "Ten Eyck LF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacology, University of California at San Diego, San Diego, California, USA; Department of Chemistry and Biochemistry, University of California at San Diego, San Diego, California, USA. Electronic address: staylor@ucsd.edu.",
+        "Department of Pharmacology, University of California at San Diego, San Diego, California, USA.",
+        "Department of Pharmacology, University of California at San Diego, San Diego, California, USA.",
+        "Department of Pharmacology, University of California at San Diego, San Diego, California, USA.",
+        "Department of Biochemistry and Biophysics, University of California at San Francisco, San Francisco, California, USA.",
+        "Department of Pharmacology, University of California at San Diego, San Diego, California, USA.",
+        "Department of Chemistry and Biochemistry, University of California at San Diego, San Diego, California, USA; San Diego Supercomputer Center, University of California at San Diego, San Diego, California, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Taylor, Susan S",
+        "short_name": "Taylor SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California at San Diego, San Diego, California, USA; Department of Chemistry and Biochemistry, University of California at San Diego, San Diego, California, USA. Electronic address: staylor@ucsd.edu."
+        ]
+      },
+      {
+        "full_name": "Wu, Jian",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California at San Diego, San Diego, California, USA."
+        ]
+      },
+      {
+        "full_name": "Bruystens, Jessica G H",
+        "short_name": "Bruystens JGH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California at San Diego, San Diego, California, USA."
+        ]
+      },
+      {
+        "full_name": "Del Rio, Jason C",
+        "short_name": "Del Rio JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California at San Diego, San Diego, California, USA."
+        ]
+      },
+      {
+        "full_name": "Lu, Tsan-Wen",
+        "short_name": "Lu TW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, University of California at San Francisco, San Francisco, California, USA."
+        ]
+      },
+      {
+        "full_name": "Kornev, Alexandr P",
+        "short_name": "Kornev AP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California at San Diego, San Diego, California, USA."
+        ]
+      },
+      {
+        "full_name": "Ten Eyck, Lynn F",
+        "short_name": "Ten Eyck LF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California at San Diego, San Diego, California, USA; San Diego Supercomputer Center, University of California at San Diego, San Diego, California, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2021 Jan-Jun",
+    "pub_year": "2021",
+    "pub_types": [
+      "Historical Article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/07 06:00",
+    "fetched_at": "2026-09-20 02:57:55"
+  },
+  "links": {
+    "cites": [
+      "42427742",
+      "42423121",
+      "42096309",
+      "42093179",
+      "42062515",
+      "41801818",
+      "41556500",
+      "41226621",
+      "41031223",
+      "40789540",
+      "40540755",
+      "40504162",
+      "40174666",
+      "40093074",
+      "40065491",
+      "39903669",
+      "39814226",
+      "39554190",
+      "39543315",
+      "39495916",
+      "39485490",
+      "39411162",
+      "39337567",
+      "39088265",
+      "39046952",
+      "38865109",
+      "38818077",
+      "38532700",
+      "38517938",
+      "38506327",
+      "38495453",
+      "38346324",
+      "37997969",
+      "37763215",
+      "37704288",
+      "37642371",
+      "37558661",
+      "36859094",
+      "36656863",
+      "36586979",
+      "36420884",
+      "36347198",
+      "36291635",
+      "36217825",
+      "36212348",
+      "36149412",
+      "35938919",
+      "35883514",
+      "35585008",
+      "35361526",
+      "35226061",
+      "34965982",
+      "34867193"
+    ],
+    "refs": [
+      "34006641",
+      "33370777",
+      "32846158",
+      "31678302",
+      "31674811",
+      "31484930",
+      "31363049",
+      "31285328",
+      "31059206",
+      "30906862",
+      "30905674",
+      "28883488",
+      "28742821",
+      "28435869",
+      "26481499",
+      "26405036",
+      "26278174",
+      "26145448",
+      "25319261",
+      "24578576",
+      "24316401",
+      "24143133",
+      "22992589",
+      "22323819",
+      "21565702",
+      "21471451",
+      "20971646",
+      "20358582",
+      "20202931",
+      "20117254",
+      "19886670",
+      "19610074",
+      "19270744",
+      "18787129",
+      "18404204",
+      "17932298",
+      "17889648",
+      "17596845",
+      "17227859",
+      "17095602",
+      "16754666",
+      "16460759",
+      "15692043",
+      "15618393",
+      "15573134",
+      "15046986",
+      "12471243",
+      "12468712",
+      "11342137",
+      "10320366",
+      "9368018",
+      "8443157",
+      "7711285",
+      "7638597",
+      "4737475",
+      "3667618",
+      "3456589",
+      "3023318",
+      "2342480",
+      "1862343",
+      "1862342"
+    ],
+    "similar": [
+      "33957122",
+      "27791125",
+      "15481030",
+      "11342137",
+      "16322564",
+      "15692043",
+      "23938955",
+      "26097522",
+      "15236976",
+      "17596845",
+      "14967031",
+      "15023366",
+      "15157095",
+      "17081990",
+      "16407073",
+      "30038016",
+      "26249705",
+      "14625280",
+      "26618408",
+      "11993991",
+      "17182741",
+      "17973384",
+      "16728394",
+      "8119290",
+      "28115705",
+      "17016670",
+      "16109722",
+      "26687711",
+      "10074940",
+      "26207888",
+      "15878851",
+      "15274925",
+      "17889648",
+      "22589386",
+      "12614615",
+      "27028580",
+      "15046986",
+      "8608131",
+      "8910352",
+      "11799117",
+      "10454192",
+      "10905822",
+      "7925427",
+      "8627334",
+      "27738107",
+      "7638597",
+      "14757059",
+      "11896404",
+      "16214430",
+      "9804812",
+      "29288679",
+      "15134437",
+      "31461845",
+      "18326045",
+      "25477193",
+      "16269279",
+      "17074757",
+      "8559283",
+      "27885524",
+      "16738324",
+      "16522793",
+      "15663937",
+      "11320118",
+      "10354702",
+      "10873081",
+      "8824261",
+      "28756276",
+      "14985329",
+      "25775607",
+      "16207083",
+      "29276882",
+      "31671183",
+      "11853881"
+    ],
+    "review": [
+      "33957122",
+      "15023366",
+      "26687711",
+      "26207888",
+      "10454192",
+      "10905822",
+      "16214430",
+      "31461845",
+      "16269279",
+      "27885524",
+      "10354702",
+      "28756276"
+    ],
+    "pmc": [
+      "8144671"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(21)00536-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33957122/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33957122",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt2h9489ts",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://scite.ai/reports/33957122",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

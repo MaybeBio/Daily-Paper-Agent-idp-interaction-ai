@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42153320",
+  "title": "MuFGPS: enhancing liquid-liquid phase separation protein prediction through multi-level features and ensemble learning.",
+  "authors": "Xian, Lei; Zou, Quan; Qi, Ren; Niu, Mengting; Wang, Yansu",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-05-19",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出MuFGPS，融合序列特征、二级结构和AlphaFold接触图的图注意力网络及集成学习来预测相分离蛋白，对象为LLPS蛋白（含IDR相关），方法含AI建模，但聚焦蛋白分类预测而非PPI互作机制建模，故评7分。",
+  "abstract": "Liquid-liquid phase separation (LLPS) is a key mechanism driving the assembly of membrane-less organelles and is increasingly recognized for its involvement in essential cellular functions and various diseases. However, existing computational approaches largely rely on sequence-level descriptors and often fail to explicitly incorporate structural topology information, limiting their ability to capture the complex determinants of LLPS behavior. Accurate identification of LLPS-capable proteins remains challenging due to their sequence diversity and complex structural determinants. Here, we present MuFGPS (Multi-level Feature Graph-based Predictor for Phase-Separating proteins), a predictive framework integrating sequence-derived physicochemical features, Define Secondary Structure of Proteins-annotated secondary structures, and graph-based structural embeddings from AlphaFold residue contact maps via a multi-head Graph Attention Network. Class imbalance is addressed using Synthetic Minority Oversampling Technique (SMOTE), and classification is performed through a stacking ensemble of Random Forest, XGBoost, and LightGBM. Benchmarks against six representative methods demonstrate that MuFGPS achieves superior performance across all metrics, with notable gains in F1-score and matthews correlation coefficient (MCC). Ablation analyses confirm the synergistic contributions of structural features and ensemble learning to accuracy and robustness. MuFGPS offers a scalable and high-accuracy framework for proteome-wide LLPS protein prediction.",
+  "abstract_zh": "液-液相分离（liquid-liquid phase separation, LLPS）是驱动无膜细胞器组装的关键机制，并日益被认为参与基本细胞功能及多种疾病。然而，现有计算方法主要依赖序列级描述符，往往未能明确纳入结构拓扑信息，限制了其捕捉LLPS行为复杂决定因素的能力。由于LLPS蛋白的序列多样性和复杂结构决定因素，准确识别具有LLPS能力的蛋白仍具挑战性。在此，我们提出MuFGPS（Multi-level Feature Graph-based Predictor for Phase-Separating proteins），一种预测框架，整合序列衍生的理化特征、Define Secondary Structure of Proteins注释的二级结构，以及通过多头图注意力网络（multi-head Graph Attention Network）从AlphaFold残基接触图获得的基于图的结构嵌入。类别不平衡问题通过合成少数类过采样技术（Synthetic Minority Oversampling Technique, SMOTE）解决，分类通过随机森林、XGBoost和LightGBM的堆叠集成进行。与六种代表性方法的基准比较表明，MuFGPS在所有指标上均实现优越性能，在F1分数和马修斯相关系数（matthews correlation coefficient, MCC）上取得显著提升。消融分析确认了结构特征和集成学习对准确性和鲁棒性的协同贡献。MuFGPS为蛋白质组范围的LLPS蛋白预测提供了可扩展且高精度的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42153320/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42153320/",
+  "paper_page_path": "papers/pubmed/42153320/index.html"
+}

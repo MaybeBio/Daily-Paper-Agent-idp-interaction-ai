@@ -1,0 +1,406 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.09.561482",
+  "title": "HSQC2STRUC: A Machine Learning Model for Protein Secondary Structure Prediction using Unassigned NMR Spectra",
+  "doi": "10.1101/2023.10.09.561482",
+  "abstract": "Dynamic changes in the secondary structure content of proteins can provide valuable insights into protein function or dysfunction. Predicting these dynamic changes is still a significant challenge but is of paramount importance for basic research as well as drug development. Here, we present a machine learning-based model that predicts the secondary structure content of proteins based on their un assigned 1 H, 15 N-HSQC NMR spectra with an RMSE of 0.11 for α -helix, 0.08 for β -sheet and 0.12 for random coil content. Our model has been implemented into an easy-to-use and publicly available web service that estimates secondary structure content based on a provided peak list. Furthermore, a Python version is provided, ready to be integrated into Bruker’s TopSpin software or own scripts.",
+  "authors": [
+    "Jonas Dietrich",
+    "Peter Bellstedt"
+  ],
+  "published_date": "2023-10-10",
+  "updated_date": "2023-10-10T16:40:16Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.09.561482",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.09.561482.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:19:36Z",
+        "timestamp": 1768508376077,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            10
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 34,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            10
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Dynamic changes in the secondary structure content of proteins can provide valuable insights into protein function or dysfunction. Predicting these dynamic changes is still a significant challenge but is of paramount importance for basic research as well as drug development. Here, we present a machine learning-based model that predicts the secondary structure content of proteins based on their un assigned\n                  <jats:sup>1</jats:sup>\n                  H,\n                  <jats:sup>15</jats:sup>\n                  N-HSQC NMR spectra with an RMSE of 0.11 for\n                  <jats:italic>α</jats:italic>\n                  -helix, 0.08 for\n                  <jats:italic>β</jats:italic>\n                  -sheet and 0.12 for random coil content. Our model has been implemented into an easy-to-use and publicly available web service that estimates secondary structure content based on a provided peak list. Furthermore, a Python version is provided, ready to be integrated into Bruker’s TopSpin software or own scripts.\n                </jats:p>",
+      "DOI": "10.1101/2023.10.09.561482",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            10
+          ]
+        ],
+        "date-time": "2023-10-10T16:40:16Z",
+        "timestamp": 1696956016000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "HSQC2STRUC: A Machine Learning Model for Protein Secondary Structure Prediction using Unassigned NMR Spectra"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7913-2249",
+          "authenticated-orcid": false,
+          "given": "Jonas",
+          "family": "Dietrich",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5131-8452",
+          "authenticated-orcid": false,
+          "given": "Peter",
+          "family": "Bellstedt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Akiba , S. Sano , T. Yanase , T. Ohta , and M. Koyama . Optuna: A next-generation hyperparameter optimization framework. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, 2019.",
+          "DOI": "10.1145/3292500.3330701"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2019.10.008"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.abg2174"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0009-2614(80)80041-8"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ph14090877"
+        },
+        {
+          "issue": "12",
+          "key": "2023101314201514000_2023.10.09.561482v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "1816",
+          "DOI": "10.3390/biom12121816",
+          "article-title": "The role of membrane affinity and binding modes in alpha-synuclein regulation of vesicle release and trafficking",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Biomolecules"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2006.202"
+        },
+        {
+          "issue": "D1",
+          "key": "2023101314201514000_2023.10.09.561482v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "D368",
+          "DOI": "10.1093/nar/gkac1050",
+          "article-title": "Biological magnetic resonance data bank",
+          "volume": "51",
+          "year": "2023",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "issue": "12",
+          "key": "2023101314201514000_2023.10.09.561482v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "2577",
+          "DOI": "10.1002/bip.360221211",
+          "article-title": "Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features",
+          "volume": "22",
+          "year": "1983",
+          "journal-title": "Biopolymers: Original Research on Biomolecules"
+        },
+        {
+          "issue": "4",
+          "key": "2023101314201514000_2023.10.09.561482v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "fcac165",
+          "DOI": "10.1093/braincomms/fcac165",
+          "article-title": "Linking α-synuclein-induced synaptopathy and neural network dysfunction in early parkinson’s disease",
+          "volume": "4",
+          "year": "2022",
+          "journal-title": "Brain Communications"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "906437",
+          "DOI": "10.3389/fmolb.2022.906437",
+          "article-title": "Alphafold 2 and nmr spectroscopy: Partners to understand protein structure, dynamics and function",
+          "volume": "9",
+          "year": "2022",
+          "journal-title": "Frontiers in molecular biosciences"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpca.1c06132"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.16",
+          "unstructured": "S. M. Lundberg and S.-I. Lee . A unified approach to interpreting model predictions. Advances in neural information processing systems, 30, 2017."
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi052508q"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.051867106"
+        },
+        {
+          "issue": "15",
+          "key": "2023101314201514000_2023.10.09.561482v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "8400",
+          "DOI": "10.1039/D0CS00558D",
+          "article-title": "Tools and methods for circular dichroism spectroscopy of proteins: a tutorial review",
+          "volume": "50",
+          "year": "2021",
+          "journal-title": "Chemical Society Reviews"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4153"
+        },
+        {
+          "issue": "6",
+          "key": "2023101314201514000_2023.10.09.561482v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "679",
+          "DOI": "10.1038/s41592-022-01488-1",
+          "article-title": "Colabfold: making protein folding accessible to all",
+          "volume": "19",
+          "year": "2022",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "762",
+          "DOI": "10.1590/S1415-47572006000400030",
+          "article-title": "Prediction of the amount of secondary structure of proteins using unassigned nmr spectra: a tool for target selection in structural proteomics",
+          "volume": "29",
+          "year": "2006",
+          "journal-title": "Genetics and Molecular Biology"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "16",
+          "DOI": "10.1016/j.sbi.2017.09.001",
+          "article-title": "Nmr studies of ligand binding",
+          "volume": "48",
+          "year": "2018",
+          "journal-title": "Current opinion in structural biology"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "297",
+          "DOI": "10.1146/annurev-biophys-052118-115647",
+          "article-title": "An nmr view of protein dynamics in health and disease",
+          "volume": "48",
+          "year": "2019",
+          "journal-title": "Annual review of biophysics"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10858-013-9741-y"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10858-009-9333-z"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1995.0308"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41593-018-0235-9"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.29",
+          "first-page": "1",
+          "article-title": "In-cell nmr: Why and how?",
+          "volume": "132",
+          "year": "2022",
+          "journal-title": "Progress in Nuclear Magnetic Resonance Spectroscopy"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ab.2004.07.032"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.31",
+          "unstructured": "P. Verstreken . Parkinson’s disease: molecular mechanisms underlying pathology. Academic Press, 2016."
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0072286"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt278"
+        },
+        {
+          "key": "2023101314201514000_2023.10.09.561482v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "175",
+          "DOI": "10.1016/j.ijbiomac.2022.02.104",
+          "article-title": "Progress in infrared spectroscopy as an efficient tool for predicting protein secondary structure",
+          "volume": "206",
+          "year": "2022",
+          "journal-title": "International Journal of Biological Macromolecules"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.10.09.561482",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:21:37Z",
+        "timestamp": 1768454497000
+      },
+      "score": 61.085495,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.10.09.561482"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            10
+          ]
+        ]
+      },
+      "references-count": 34,
+      "URL": "https://doi.org/10.1101/2023.10.09.561482",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            10
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

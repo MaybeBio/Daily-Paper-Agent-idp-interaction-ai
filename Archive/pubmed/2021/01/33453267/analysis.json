@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33453267",
+  "title": "Short peptides as predictors for the structure of polyarginine sequences in disordered proteins.",
+  "authors": "Milorey, Bridget; Schweitzer-Stenner, Reinhard; Andrews, Brian; Schwalbe, Harald; Urbanc, Brigita",
+  "journal": "Biophysical journal",
+  "published_date": "2021-01-17",
+  "window": {
+    "start": "2021-01-11",
+    "end": "2021-01-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过短肽实验与MD模拟研究聚精氨酸无序序列的构象倾向，虽聚焦单链构象而非直接PPI，但其对IDR构象建模和力场评估方法对本课题的互作机制建模有可迁移启发。",
+  "abstract": "Intrinsically disordered proteins and intrinsically disordered regions are frequently enriched in charged amino acids. Intrinsically disordered regions are regularly involved in important biological processes in which one or more charged residues is the driving force behind a protein-biomolecule interaction. Several lines of experimental and computational evidence suggest that polypeptides and proteins that carry high net charges have a high preference for extended conformations with average end-to-end distances exceeding expectations for self-avoiding random coils. Here, we show that charged arginine residues even in short glycine-capped model peptides (GRRG and GRRRG) significantly affect the conformational propensities of each other when compared with the intrinsic propensities of a mostly unperturbed arginine in the tripeptide GRG. A conformational analysis based on experimentally determined J-coupling constants from heteronuclear NMR spectroscopy and amide I' band profiles from vibrational spectroscopy reveals that nearest-neighbor interactions stabilize extended beta-strand conformations at the expense of polyproline II and turn conformations. The results from molecular dynamics simulations with a CHARMM36m force field and TIP3P water reproduce our results only to a limited extent. The use of the Ramachandran distribution of the central residue of GRRRG in a calculation of end-to-end distances of polyarginines of different length yielded the expected power law behavior. The scaling coefficient of 0.66 suggests that such peptides would be more extended than predicted by a self-avoiding random walk. Our findings thus support in principle theoretical predictions.",
+  "abstract_zh": "intrinsically disordered proteins和intrinsically disordered regions常富含带电氨基酸。Intrinsically disordered regions经常参与重要的生物过程，在这些过程中，一个或多个带电残基是蛋白质-生物分子相互作用的驱动力。多项实验和计算证据表明，携带高净电荷的多肽和蛋白质倾向于延伸构象，其平均端到端距离超过自回避随机线圈的预期值。在此，我们展示了即使在短甘氨酸封端模型肽（GRRG和GRRRG）中，带电精氨酸残基也会显著影响彼此的构象倾向，与三肽GRG中基本未受扰动的精氨酸的内在倾向相比。基于异核NMR光谱实验确定的J耦合常数和振动光谱酰胺I'带谱的构象分析揭示，最近邻相互作用稳定了延伸β-折叠构象，以牺牲聚脯氨酸II和转角构象为代价。使用CHARMM36m力场和TIP3P水进行的分子动力学模拟结果仅有限地重现了我们的结果。在计算不同长度聚精氨酸的端到端距离时，使用GRRRG中心残基的Ramachandran分布，得到了预期的幂律行为。标度系数为0.66，表明此类肽比自回避随机行走预测的更为延伸。因此，我们的发现原则上支持理论预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33453267/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33453267/",
+  "paper_page_path": "papers/pubmed/33453267/index.html"
+}

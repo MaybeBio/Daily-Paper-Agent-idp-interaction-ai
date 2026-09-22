@@ -1,0 +1,429 @@
+{
+  "identity": {
+    "pmid": "36278939",
+    "doi": "10.1021/acschemneuro.2c00531",
+    "title": "Molecular Insights into the Misfolding and Dimerization Dynamics of the Full-Length alpha-Synuclein from Atomistic Discrete Molecular Dynamics Simulations."
+  },
+  "content": {
+    "abstract": "The misfolding and pathological aggregation of alpha-synuclein forming insoluble amyloid deposits is associated with Parkinson's disease, the second most common neurodegenerative disease in the world population. Characterizing the self-assembly mechanism of alpha-synuclein is critical for discovering treatments against synucleinopathies. The intrinsically disordered property, high degrees of freedom, and macroscopic timescales of conformational conversion make its characterization extremely challenging in vitro and in silico. Here, we systematically investigated the dynamics of monomer misfolding and dimerization of the full-length alpha-synuclein using atomistic discrete molecular dynamics simulations. Our results suggested that both alpha-synuclein monomers and dimers mainly adopted unstructured formations with partial helices around the N-terminus (residues 8-32) and various beta-sheets spanning the residues 35-56 (N-terminal tail) and residues 61-95 (NAC region). The C-terminus mostly assumed an unstructured formation wrapping around the lateral surface and the elongation edge of the beta-sheet core formed by an N-terminal tail and NAC regions. Dimerization enhanced the beta-sheet formation along with a decrease in the unstructured content. The inter-peptide beta-sheets were mainly formed by the N-terminal tail and NACore (residues 68-78) regions, suggesting that these two regions played critical roles in the amyloid aggregation of alpha-synuclein. Interactions of the C-terminus with the N-terminal tail and the NAC region were significantly suppressed in the alpha-synuclein dimer, indicating that the interaction of the C-terminus with the N-terminal tail and NAC regions could prevent alpha-synuclein aggregation. These results on the structural ensembles and early aggregation dynamics of alpha-synuclein will help understand the nucleation and fibrillization of alpha-synuclein.",
+    "keywords": [
+      "DMD simulation",
+      "Parkinson's disease",
+      "amyloid",
+      "dimerization",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*alpha-Synuclein/metabolism",
+      "Molecular Dynamics Simulation",
+      "Dimerization",
+      "*Neurodegenerative Diseases",
+      "Protein Structure, Secondary"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yu",
+        "Wang, Ying",
+        "Liu, Yuying",
+        "Wei, Guanghong",
+        "Ding, Feng",
+        "Sun, Yunxiang"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Wang Y",
+        "Liu Y",
+        "Wei G",
+        "Ding F",
+        "Sun Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5814-3328",
+        "ORCID: 0000-0003-1850-6336",
+        "ORCID: 0000-0001-9799-7131"
+      ],
+      "affiliations": [
+        "Department of Physics, Ningbo University, Ningbo 315211, China.",
+        "Department of Physics, Ningbo University, Ningbo 315211, China.",
+        "Department of Physics, Ningbo University, Ningbo 315211, China.",
+        "State Key Laboratory of Surface Physics and Department of Physics, Fudan University, Shanghai 200433, China.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States.",
+        "Department of Physics, Ningbo University, Ningbo 315211, China.",
+        "State Key Laboratory of Surface Physics and Department of Physics, Fudan University, Shanghai 200433, China.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yuying",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghong",
+        "short_name": "Wei G",
+        "identifiers": [
+          "0000-0001-5814-3328"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Surface Physics and Department of Physics, Fudan University, Shanghai 200433, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Feng",
+        "short_name": "Ding F",
+        "identifiers": [
+          "0000-0003-1850-6336"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+        ]
+      },
+      {
+        "full_name": "Sun, Yunxiang",
+        "short_name": "Sun Y",
+        "identifiers": [
+          "0000-0001-9799-7131"
+        ],
+        "affiliations": [
+          "Department of Physics, Ningbo University, Ningbo 315211, China.",
+          "State Key Laboratory of Surface Physics and Department of Physics, Fudan University, Shanghai 200433, China.",
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS chemical neuroscience"
+    ],
+    "journal_abbrev": [
+      "ACS Chem Neurosci"
+    ],
+    "pub_date": "2022 Nov 2",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/25 06:00",
+    "fetched_at": "2026-09-20 16:11:39"
+  },
+  "links": {
+    "cites": [
+      "42468517",
+      "42159605",
+      "41618566",
+      "40853068",
+      "40767343",
+      "40305656",
+      "39778221",
+      "39761900",
+      "39306670",
+      "39226847",
+      "39046235",
+      "38700150",
+      "38681860",
+      "38164981",
+      "37964757",
+      "37796323",
+      "37782573",
+      "37754311",
+      "37407505",
+      "37253119",
+      "37246935",
+      "37060757",
+      "37047286"
+    ],
+    "refs": [
+      "35485974",
+      "35311274",
+      "35122113",
+      "35044156",
+      "34687758",
+      "34667532",
+      "34482645",
+      "34015255",
+      "33990334",
+      "33936250",
+      "33753734",
+      "33649211",
+      "33543942",
+      "33386904",
+      "33119314",
+      "32508330",
+      "32499486",
+      "32112991",
+      "32108838",
+      "32025029",
+      "32015135",
+      "31245536",
+      "31188372",
+      "31064841",
+      "30917651",
+      "30917118",
+      "30853581",
+      "30502402",
+      "30369028",
+      "30190461",
+      "30065316",
+      "29969391",
+      "29925018",
+      "29678776",
+      "29568828",
+      "29233218",
+      "28696461",
+      "28282814",
+      "28157327",
+      "27904575",
+      "27018801",
+      "26873872",
+      "26808899",
+      "26638022",
+      "26352473",
+      "25648629",
+      "25635052",
+      "24871041",
+      "24817693",
+      "24746362",
+      "24740651",
+      "24623599",
+      "24159629",
+      "24010662",
+      "23457019",
+      "23404372",
+      "23339399",
+      "22936307",
+      "21841800",
+      "21744165",
+      "21718702",
+      "21462277",
+      "19475665",
+      "18672869",
+      "18611374",
+      "18550842",
+      "17573347",
+      "17538626",
+      "17046666",
+      "16917862",
+      "16247008",
+      "15615727",
+      "15465356",
+      "15362105",
+      "15169044",
+      "14755719",
+      "12815044",
+      "11893734",
+      "11286556",
+      "11152691",
+      "11060312",
+      "10753811",
+      "9197268",
+      "6667333"
+    ],
+    "similar": [
+      "36278939",
+      "33625841",
+      "29604892",
+      "35836937",
+      "23607785",
+      "39232485",
+      "37964757",
+      "34032430",
+      "37253119",
+      "26193124",
+      "37782573",
+      "23374074",
+      "34830391",
+      "19576220",
+      "23374072",
+      "25210774",
+      "31661961",
+      "36456917",
+      "37189428",
+      "38335809",
+      "31903719",
+      "32078298",
+      "31685848",
+      "34636232",
+      "39175373",
+      "37489886",
+      "35044156",
+      "30635607",
+      "29372732",
+      "28796507",
+      "22274962",
+      "29715424",
+      "29601727",
+      "25389903",
+      "26723627",
+      "32120928",
+      "25869255",
+      "18948117",
+      "26601760",
+      "33903234",
+      "30917651",
+      "28939194",
+      "19895818",
+      "32394304",
+      "33345970",
+      "17729279",
+      "18423664",
+      "34667532",
+      "33110167",
+      "36098068",
+      "26479553",
+      "37125909",
+      "32041489",
+      "36232847",
+      "28024449",
+      "34912851",
+      "35681426",
+      "25139280",
+      "25588987",
+      "27390876",
+      "31111370",
+      "29286644",
+      "22573613",
+      "23272053",
+      "33649211",
+      "20839866",
+      "38641462",
+      "12115139",
+      "30384594",
+      "36866721",
+      "25296841",
+      "37820444",
+      "18633713",
+      "29874605",
+      "36403437",
+      "19645507",
+      "18640077",
+      "27759128",
+      "38745385",
+      "30142698",
+      "26845568",
+      "31477241",
+      "17908049",
+      "18505736",
+      "36413494",
+      "25784353",
+      "26149686",
+      "30810027",
+      "35912724",
+      "30771181",
+      "37198991",
+      "32240735",
+      "28759722",
+      "31799519",
+      "35139916",
+      "33538574",
+      "31188372",
+      "25255476",
+      "29738880",
+      "36373662",
+      "33719460",
+      "26114384",
+      "39226847",
+      "38586052",
+      "38164981",
+      "38193190",
+      "30371967",
+      "36809765",
+      "38358134",
+      "38857533",
+      "38435467",
+      "38321955",
+      "34015255",
+      "37060757",
+      "38047768",
+      "34094057",
+      "39306670",
+      "32108838",
+      "38194353",
+      "29270108",
+      "36878172",
+      "37988678",
+      "36974517",
+      "38256207",
+      "23162382"
+    ],
+    "review": [
+      "36278939",
+      "35681426",
+      "25139280",
+      "30142698",
+      "17908049",
+      "37198991",
+      "29738880",
+      "36373662",
+      "37060757",
+      "36878172"
+    ],
+    "pmc": [
+      "9797213"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/degenerativenervediseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Degenerative Nerve Diseases"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36278939/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36278939",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acncdm/article-lookup/doi/10.1021/acschemneuro.2c00531",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

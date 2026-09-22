@@ -1,0 +1,118 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, experimental logic, evidence quality, and internal consistency of the claims as presented in the provided text
+- **Shared manuscript claim summary** The authors propose that eLOTUS domains activate the DEAD-box ATPase Vasa by binding its open conformation and promoting closure through accelerated RNA engagement, mediated by a positively charged intrinsically disordered region, and that this activation is essential in vivo
+- **Visible evidence base** Biochemical assays (ITC, GST pull-down, ATPase kinetics, dsRNA unwinding), ReLo cell-based interaction assays, NMR titrations, bioluminescence interferometry, molecular dynamics simulations, AlphaFold3 modeling, and transgenic Drosophila genetics
+- **Missing materials affecting confidence** Figures and supplementary figures referenced but not provided; numerical values for kinetic parameters partially reported; statistical details and replicate numbers not specified; NMR assignment details and CSP quantification not shown; MD simulation parameters and convergence criteria not described; AlphaFold3 confidence metrics for the G4 complex models not provided
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and mechanistically detailed study of how eLOTUS domains activate the DEAD-box helicase Vasa. The central claim, that eLOTUS acts as a localization-dependent activator by accelerating RNA engagement rather than stabilizing the closed state, is well supported by a combination of biochemical, biophysical, and in vivo experiments. The identification of a positively charged intrinsically disordered region as the key stimulatory element is novel and provides a clear mechanistic framework. The in vivo genetic experiments strengthen the physiological relevance of the findings. However, several technical details and quantitative aspects require clarification, and the manuscript would benefit from a more complete presentation of the data underlying key claims.
+- **Who would be interested in the results, and why** Researchers studying DEAD-box helicase regulation, RNA helicase mechanisms, germline biology, piRNA pathway function, and the role of intrinsically disordered regions in enzyme regulation. The findings also have broader relevance for understanding how enzymatic activity is coupled to subcellular localization, which is of interest to cell biologists studying spatial regulation of biochemical processes.
+- **Major strengths** The study combines multiple orthogonal approaches to dissect the mechanism, including detailed kinetic analysis, conformational state discrimination, structural modeling, and in vivo validation. The identification of a specific disordered region as the stimulatory element is a significant advance. The demonstration that eLOTUS acts primarily on RNA engagement, rather than on ATP binding or product release, provides a clear and testable mechanistic model. The in vivo experiments showing that activation-defective mutants fail to rescue phenotypes are important for establishing physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that eLOTUS domains bind specifically to the open conformation of Vasa and promote closure is central to the proposed mechanism
+  - **Evidence pointer** Figure 2, ReLo assays, GST pull-down experiments
+  - **Concern** The evidence for conformational selectivity relies on ReLo assays in S2R+ cells and GST pull-downs with purified proteins. The ReLo assay is described as reporting direct protein-protein interactions, but the resolution of this assay for distinguishing open versus closed conformations is not established. The pull-down experiments comparing Vasa-open, Vasa-closed, and Vasa-WT show differential binding, but the Vasa-closed preparation was not purified to homogeneity, and the authors used a Vasa-WT plus ATP/RNA condition to recapitulate the closed state. This indirect approach introduces uncertainty about whether the observed differences reflect true conformational selectivity or other factors such as RNA occupancy or aggregation state.
+  - **Why it matters** The conformational selectivity of eLOTUS binding is the foundation of the proposed mechanism. If eLOTUS does not genuinely discriminate between open and closed conformations, the model of "bind open, promote closure, dissociate" would need substantial revision.
+  - **Resolution test** Provide quantitative binding measurements (e.g., ITC or surface plasmon resonance) comparing eLOTUS affinity for purified Vasa-open versus Vasa-closed mutants. Alternatively, use NMR or other biophysical methods to directly demonstrate that eLOTUS binding is coupled to conformational changes in Vasa.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that the positively charged intrinsically disordered region within eLOTUS is required for stimulation of Vasa activity
+  - **Evidence pointer** Figure 4, sequence alignment, mutagenesis experiments
+  - **Concern** The identification of the disordered region as the key stimulatory element relies on deletion and point mutations. However, the manuscript does not provide sufficient detail on how these mutations affect the structural integrity of the eLOTUS domain. Deletion of a disordered region could have indirect effects on domain stability or folding. The authors show that the C-terminal mutations do not affect Vasa binding, which is reassuring, but the possibility of long-range conformational effects is not fully excluded. Additionally, the manuscript does not report whether the mutant eLOTUS domains retain their overall fold or stability.
+  - **Why it matters** The mechanistic conclusion that a specific disordered region mediates stimulation depends on the mutations being specific to the proposed function rather than causing global structural perturbations.
+  - **Resolution test** Provide biophysical characterization of the mutant eLOTUS domains (e.g., circular dichroism, size-exclusion chromatography with multi-angle light scattering, or NMR) to demonstrate that they are properly folded and monomeric. Additionally, test whether the disordered region can function in trans as a peptide to stimulate Vasa activity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that Vasa activation by eLOTUS is essential in vivo, based on the failure of activation-defective eLOTUS mutants to rescue null phenotypes
+  - **Evidence pointer** Figures 5 and 7, transgenic rescue experiments
+  - **Concern** The in vivo experiments show that Tejas mutants lacking the stimulatory region fail to rescue hatching defects in tej null flies. However, the manuscript does not provide sufficient detail on the expression levels of the mutant transgenes relative to wild-type. While Western blot analysis is mentioned, the quantification is not shown. If the mutant proteins are expressed at lower levels, the failure to rescue could be due to reduced protein abundance rather than loss of stimulatory function. Additionally, the manuscript does not address whether the mutant transgenes properly localize to nuage, which is stated but not demonstrated with representative images.
+  - **Why it matters** The in vivo conclusion is critical for establishing the physiological relevance of the proposed mechanism. If the mutant phenotypes are due to expression or localization defects rather than loss of Vasa stimulation, the interpretation would be substantially weakened.
+  - **Resolution test** Provide quantitative Western blot analysis showing comparable expression of wild-type and mutant transgenes. Show representative images demonstrating proper nuage localization of all transgene variants. Consider rescue experiments with multiple independent transgenic lines to control for insertion site effects.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the eLOTUS domain accelerates RNA association without affecting the lifetime of the closed state
+  - **Evidence pointer** Figure 4, BLI experiments
+  - **Concern** The BLI experiments use a covalent Vasa-RNA fusion (RNA-HT-Vasa) to measure binding kinetics. This approach, while clever, may not accurately reflect the natural binding process. The covalent linkage could constrain the system in ways that affect measured on-rates. Additionally, the comparison between Vasa-eLOTUS WT and Vasa-eLOTUS I-MUT shows an eightfold difference in on-rate, but the off-rates are reported as similar. The manuscript does not provide error estimates or statistical analysis for these measurements, and the number of independent replicates is not stated.
+  - **Why it matters** The kinetic parameters are central to the mechanistic model. Without proper statistical treatment and validation of the BLI approach, the quantitative claims are difficult to evaluate.
+  - **Resolution test** Provide replicate measurements with error bars and statistical analysis. Validate the BLI approach by comparing with an independent method (e.g., stopped-flow fluorescence or surface plasmon resonance). Consider whether the covalent RNA linkage affects the interpretation of the kinetic parameters.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that the eLOTUS domain has only a minor RNA-independent, potentially allosteric effect on Vasa ATPase activity
+  - **Evidence pointer** Figure 3C, ATPase assays without RNA
+  - **Concern** The 2.8-fold enhancement of HT-Vasa ATPase activity by eLOTUS in the absence of RNA is described as minor, but the manuscript does not provide a statistical comparison or context for what constitutes a meaningful effect. The NMR data showing CSPs across the CTD upon eLOTUS binding suggest conformational changes, but the connection between these changes and the modest ATPase stimulation is not fully explored. The possibility that this allosteric effect contributes to the overall mechanism in vivo is not discussed in depth.
+  - **Why it matters** Understanding the relative contributions of RNA-dependent and RNA-independent effects is important for a complete mechanistic picture. If the allosteric effect is functionally significant, the model may need refinement.
+  - **Resolution test** Provide statistical analysis of the 2.8-fold enhancement. Discuss whether this effect could be amplified in the context of the full-length protein or in the presence of other cofactors. Consider testing whether the allosteric effect is observed with the C-terminal mutants that lack stimulatory activity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The phrase "localization-dependent mechanism" is used without explicitly defining what "localization-dependent" means in this context. The abstract would benefit from a brief explanation of how eLOTUS domains are spatially restricted and how this relates to Vasa activation.
+  - **Required correction** Add a sentence in the abstract clarifying that eLOTUS-domain proteins are localized to specific cytoplasmic granules and that this spatial restriction gates Vasa activity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, ATPase assays
+  - **Evidence pointer** Methods section, ATPase assays
+  - **Issue** The manuscript describes both TLC-based and NADH-coupled ATPase assays but does not clearly state which assay was used for which experiment. The relationship between the two assay formats and their respective sensitivities should be clarified.
+  - **Required correction** Specify in the figure legends or methods which ATPase assay was used for each experiment and provide a brief justification for the choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Figure 1
+  - **Evidence pointer** Figure 1B, ITC data
+  - **Issue** The dissociation constant of approximately 20 µM for the Tejas-eLOTUS/Vasa-CTD interaction is described as "low affinity," but the manuscript does not discuss the potential implications of this relatively weak interaction for the proposed mechanism. Given that eLOTUS is expected to promote Vasa activation, a low-affinity interaction might seem counterintuitive.
+  - **Required correction** Add a brief discussion of how a low-affinity interaction can still be functionally significant, for example through high local concentrations in granules or through avidity effects.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, NMR
+  - **Evidence pointer** Methods section, NMR
+  - **Issue** The NMR titration experiments are described, but the manuscript does not provide details on how the CSPs were quantified or which residues showed the most significant changes. A supplementary figure is referenced, but the criteria for significance are not stated.
+  - **Required correction** Provide a brief description of the CSP analysis criteria and highlight the regions of the CTD that show the largest chemical shift changes.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The comparison with Mss116p/CYT-19 is informative but could be more precise. The statement that eLOTUS binds a different interface of the CTD and preferentially the open conformation is not fully contextualized with respect to the structural details of the Mss116p/CYT-19 system.
+  - **Required correction** Briefly describe the binding mode of the CTE in Mss116p/CYT-19 to make the comparison more concrete and accessible to readers unfamiliar with that system.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Molecular dynamics
+  - **Evidence pointer** Methods section, Structural modeling
+  - **Issue** The MD simulation is described as 25 ns, which is relatively short for drawing conclusions about conformational dynamics. The manuscript does not discuss whether this timescale is sufficient to observe the relevant conformational transitions.
+  - **Required correction** Add a brief statement acknowledging the limitations of the simulation timescale and, if available, mention any additional simulations or analyses that support the conclusions.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Figure 7
+  - **Evidence pointer** Figure 7, swap experiments
+  - **Issue** The statement that Oskar-TL was undetectable and thus did not rescue is presented without discussion of why the chimeric protein might be unstable. This is an important observation that could have implications for the interpretation of the domain swap experiments.
+  - **Required correction** Add a brief discussion of potential reasons for the instability of the Oskar-TL chimera, such as misfolding or improper processing, and how this affects the interpretation of the results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (conformational selectivity evidence), R1-M2 (specificity of disordered region mutations), R1-M3 (in vivo expression and localization controls), R1-M4 (BLI methodology validation)
+- **Assessment against Nature-style criteria** Originality: The study presents a novel mechanism for DEAD-box helicase activation, specifically the role of a disordered region in accelerating RNA engagement. This is a significant conceptual advance over previous models that focused on cofactor-mediated stabilization of closed conformations. Scientific importance: The findings have broad implications for understanding how helicase activity is spatially regulated and how intrinsically disordered regions contribute to enzyme regulation. The work also provides important insights into germline biology and piRNA pathway function. Interdisciplinary readership: The topic bridges RNA biology, enzymology, structural biology, and developmental genetics, making it of interest to a broad audience. Technical soundness: The experimental approach is generally rigorous, but several technical concerns (detailed above) need to be addressed to fully support the conclusions. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections, particularly the kinetic analysis, could benefit from additional context for readers not specialized in enzymology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core mechanistic model is compelling and well-supported by the majority of the data. However, the concerns regarding conformational selectivity, mutation specificity, and in vivo controls need to be addressed before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that eLOTUS domains bind specifically to the open conformation of Vasa is not fully supported by the provided evidence, as the ReLo assay resolution and the indirect approach for generating the closed state introduce uncertainty
+- The claim that the disordered region of eLOTUS is the primary stimulatory element is supported by mutagenesis, but the possibility of indirect structural effects is not excluded
+- The in vivo conclusion that eLOTUS-mediated Vasa activation is essential is weakened by the lack of quantitative expression data and localization controls for the mutant transgenes
+- The kinetic parameters derived from the BLI experiments using covalent Vasa-RNA fusions are presented without sufficient validation or statistical treatment
+- The claim of a minor allosteric effect is based on a 2.8-fold enhancement that is not statistically analyzed or discussed in the context of potential functional significance
+- The MD simulation results are presented without sufficient detail on simulation parameters, convergence, or replicate runs to fully evaluate their contribution to the mechanistic model

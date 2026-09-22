@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.12.488060",
+  "title": "3D-equivariant graph neural networks for protein model quality assessment",
+  "authors": "Chen Chen; Xiao Chen; Alex Morehead; Tianqi Wu; Jianlin Cheng",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-13",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用3D等变图神经网络评估蛋白质结构模型质量，对象为折叠蛋白结构而非无序蛋白/IDR，且不涉及PPI或互作机制建模，仅方法上对AI建模有间接启发。",
+  "abstract": "Motivation Quality assessment of predicted protein tertiary structure models plays an important role in ranking and using them. With the recent development of deep learning end-to-end protein structure prediction techniques of generating highly confident tertiary structures for most proteins, it is important to explore corresponding quality assessment strategies to evaluate and select the structural models predicted by them since these models have better quality and different properties than the models predicted by traditional tertiary structure prediction methods. Results We develop EnQA, a novel graph-based 3D-equivariant neural network method that is equivariant to rotation and translation of 3D objects to estimate the accuracy of protein structural models by leveraging the structural features acquired from the state-of-the-art tertiary structure prediction method - AlphaFold2. We train and test the method on both traditional model datasets (e.g., the datasets of the Critical Assessment of Techniques for Protein Structure Prediction (CASP)) and a new dataset of high-quality structural models predicted only by AlphaFold2 for the proteins whose experimental structures were released recently. Our approach achieves state-of-the-art performance on protein structural models predicted by both traditional protein structure prediction methods and the latest end-to-end deep learning method - AlphaFold2. It performs even better than the model quality assessment scores provided by AlphaFold2 itself. The results illustrate the 3D-equivariant graph neural network is a promising approach to the evaluation of protein structural models. AlphaFold2 features are important for improving protein model quality assessment and are complimentary with the geometric property features extracted from structural models. Availability The source code is available at https://github.com/BioinfoMachineLearning/EnQA . Contact chengji@missouri.edu Supplementary information Supplementary data are available.",
+  "abstract_zh": "动机 对预测蛋白质三级结构模型的质量评估在排序和使用这些模型中起着重要作用。随着深度学习端到端蛋白质结构预测技术的近期发展，能够为大多数蛋白质生成高置信度的三级结构，探索相应的质量评估策略以评估和选择这些技术预测的结构模型变得重要，因为这些模型比传统三级结构预测方法预测的模型具有更好的质量和不同的特性。结果 我们开发了EnQA，一种新颖的基于图的3D等变神经网络方法，该方法对3D对象的旋转和平移具有等变性，通过利用从最先进的三级结构预测方法——AlphaFold2获取的结构特征来估计蛋白质结构模型的准确性。我们在传统模型数据集（例如，蛋白质结构预测关键技术评估（CASP）的数据集）以及一个新数据集上训练和测试该方法，该数据集仅包含由AlphaFold2预测的高质量结构模型，这些模型针对的是实验结构最近发布的蛋白质。我们的方法在由传统蛋白质结构预测方法和最新的端到端深度学习方法——AlphaFold2预测的蛋白质结构模型上均达到了最先进的性能。它甚至优于AlphaFold2自身提供的模型质量评估分数。结果表明，3D等变图神经网络是评估蛋白质结构模型的一种有前景的方法。AlphaFold2特征对于改进蛋白质模型质量评估很重要，并且与从结构模型中提取的几何属性特征互补。可用性 源代码可在https://github.com/BioinfoMachineLearning/EnQA获取。联系方式 chengji@missouri.edu 补充信息 补充数据可用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.12.488060",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.12.488060",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.12.488060/index.html"
+}

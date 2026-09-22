@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "42192191",
+    "doi": "10.1038/s42004-026-02075-7",
+    "title": "Molecular determinants of arginine versus lysine cation-pi interactions in biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates formed by intrinsically disordered regions of proteins are primarily stabilised by amino acid \"stickers\" that crosslink polypeptide chains. While aromatic and positively charged residues both act as \"stickers\", their interaction mechanisms differ. Quantifying these differences is essential since they determine the fate of multicomponent mixtures. Here, we show that the two main positively charged stickers, arginine (Arg) and lysine (Lys), exhibit a consistent hierarchy where Arg promotes phase separation more effectively than Lys. Using molecular dynamics simulations and quantum chemical calculations, we find that, unlike aromatic residues, Arg and Lys consistently maintain this hierarchy across diverse molecular environments. While cation-pi interactions are important, the primary factor driving this difference is the higher dehydration penalty of Lys. In contrast, the preferred aromatic partner for these cations depends on the dielectric environment. These results explain at a molecular level the distinct contributions of Arg and Lys to condensate stability.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Armentia, Lydia",
+        "Lopez, Xabier",
+        "De Sancho, David"
+      ],
+      "short_names": [
+        "Armentia L",
+        "Lopez X",
+        "De Sancho D"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-0583-7333",
+        "ORCID: 0000-0002-8985-2685"
+      ],
+      "affiliations": [
+        "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Euskadi, Spain.",
+        "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Euskadi, Spain. xabier.lopez@ehu.eus.",
+        "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Euskadi, Spain. david.desancho@ehu.eus."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Armentia, Lydia",
+        "short_name": "Armentia L",
+        "identifiers": [
+          "0009-0004-0583-7333"
+        ],
+        "affiliations": [
+          "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Euskadi, Spain."
+        ]
+      },
+      {
+        "full_name": "López, Xabier",
+        "short_name": "López X",
+        "identifiers": [],
+        "affiliations": [
+          "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Euskadi, Spain. xabier.lopez@ehu.eus."
+        ]
+      },
+      {
+        "full_name": "De Sancho, David",
+        "short_name": "De Sancho D",
+        "identifiers": [
+          "0000-0002-8985-2685"
+        ],
+        "affiliations": [
+          "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Euskadi, Spain. david.desancho@ehu.eus."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications chemistry"
+    ],
+    "journal_abbrev": [
+      "Commun Chem"
+    ],
+    "pub_date": "2026 May 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/27 00:30",
+    "fetched_at": "2026-09-18 03:38:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41342450",
+      "40747072",
+      "40690668",
+      "40188296",
+      "39920231",
+      "39655679",
+      "39464253",
+      "39223472",
+      "38751116",
+      "38163950",
+      "37656852",
+      "37468629",
+      "36443315",
+      "36181270",
+      "35795820",
+      "35762716",
+      "34931046",
+      "34716273",
+      "33905257",
+      "33877835",
+      "33876938",
+      "33597515",
+      "33302617",
+      "33139563",
+      "33048555",
+      "32934220",
+      "32393642",
+      "32312191",
+      "32048997",
+      "32029630",
+      "32004090",
+      "30769964",
+      "30648154",
+      "30298390",
+      "29961577",
+      "29930134",
+      "29719674",
+      "29677515",
+      "29424691",
+      "29364893",
+      "29064502",
+      "28924037",
+      "28894006",
+      "28225081",
+      "27434695",
+      "27122231",
+      "26593015",
+      "26579917",
+      "26488642",
+      "25747659",
+      "25487359",
+      "25239571",
+      "24999751",
+      "22398450",
+      "22149786",
+      "21538733",
+      "20408171",
+      "20394428",
+      "19514729",
+      "19366259",
+      "18464982",
+      "16898764",
+      "11371433",
+      "10449714",
+      "9944570",
+      "8604144",
+      "8289290",
+      "8196060",
+      "7862638"
+    ],
+    "similar": [
+      "42192191",
+      "11427046",
+      "41342450",
+      "42475469",
+      "38416758",
+      "12727287",
+      "40880224",
+      "38349628",
+      "24007457",
+      "41027866",
+      "37721444",
+      "39223472",
+      "25408427",
+      "41909144",
+      "33139563",
+      "42261607",
+      "15225993",
+      "40781776",
+      "36993212",
+      "36769160",
+      "41542481",
+      "12455828",
+      "15095988",
+      "29719674",
+      "12392418",
+      "16008347",
+      "41433062",
+      "39326491",
+      "14573858",
+      "37917924",
+      "35481633",
+      "10449714",
+      "33982350",
+      "21997880",
+      "23912807",
+      "21241657",
+      "35179885",
+      "14624536",
+      "30833023",
+      "17513416",
+      "37205474",
+      "24328126",
+      "14611235",
+      "36181270",
+      "12167645",
+      "11916412",
+      "42521655",
+      "37468629",
+      "37408305",
+      "17154537",
+      "35963077",
+      "40455990",
+      "40748104",
+      "26574387",
+      "27276251",
+      "40690668",
+      "35126984",
+      "40136009",
+      "17718542",
+      "17197018",
+      "19653064",
+      "32845610",
+      "26339784",
+      "12180334",
+      "22306412",
+      "24024591",
+      "41524628",
+      "23647537",
+      "42620391",
+      "20673216",
+      "41481439",
+      "9920395",
+      "42531022",
+      "42260147",
+      "39248370",
+      "11807753",
+      "40848932",
+      "39826710",
+      "17452329",
+      "12220174",
+      "29037682",
+      "8889808",
+      "37215004",
+      "36239387",
+      "12885230",
+      "24055762",
+      "22725723",
+      "30638532",
+      "19364134",
+      "32393642",
+      "42307228",
+      "37470705",
+      "32936641",
+      "39596514",
+      "41670285",
+      "38824391",
+      "19577933",
+      "41739144",
+      "26092728",
+      "33794191"
+    ],
+    "review": [
+      "42192191",
+      "35179885",
+      "42521655",
+      "23647537"
+    ],
+    "pmc": [
+      "13486793"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42004-026-02075-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42192191/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

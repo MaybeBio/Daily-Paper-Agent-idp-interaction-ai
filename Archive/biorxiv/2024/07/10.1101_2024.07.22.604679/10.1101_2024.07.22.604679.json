@@ -1,0 +1,205 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.22.604679",
+  "title": "Transient Non-local Interactions Dominate the Dynamics of Measles Virus N TAIL",
+  "doi": "10.1101/2024.07.22.604679",
+  "abstract": "The RNA genome of measles virus is encapsidated by the nucleoprotein within a helical nucleocapsid that serves as template for both transcription and replication. The intrinsically disordered domain of the nucleoprotein (N TAIL ), partly protruding outward from the nucleocapsid, is essential for binding the polymerase complex responsible for viral transcription and replication. As for many IDPs, binding of N TAIL occurs through a short molecular recognition element (MoRE) that folds upon binding, with the majority of N TAIL remaining disordered. Though N TAIL regions far from the MoRE influence the binding affinity, interactions between them and the MoRE have not been investigated in depth. Using an integrated approach, relying on photo-induced electron transfer (PET) experiments between tryptophan and cysteine pairs placed at different positions in the protein under varying salt and pH conditions, combined with simulations and analytical models, we identified transient interactions between two disordered regions distant in sequence, which dominate N TAIL dynamics, and regulate the conformational preferences of both the MoRE and the entire N TAIL domain. Co-evolutionary analysis corroborates our findings and suggests an important functional role for the same intramolecular interactions. We propose mechanisms by which these non-local interactions may regulate binding to the measles phosphoprotein, polymerase recruitment, and ultimately viral transcription and replication. Our findings may be extended to other IDPs, where non-local intra-protein interactions affect the conformational preferences of intermolecular binding sites.",
+  "authors": [
+    "Otteson L",
+    "Nagy G",
+    "Kunkel J",
+    "Kodis G",
+    "Bock LV",
+    "Bignon C",
+    "Longhi S",
+    "Zheng W",
+    "Grubmüller H",
+    "Vaiana AC",
+    "Vaiana SM"
+  ],
+  "published_date": "2024-07-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.22.604679",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.22.604679.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR886188",
+    "raw_record": {
+      "id": "PPR886188",
+      "source": "PPR",
+      "doi": "10.1101/2024.07.22.604679",
+      "title": "Transient Non-local Interactions Dominate the Dynamics of Measles Virus N  <sub>TAIL</sub>",
+      "authorString": "Otteson L, Nagy G, Kunkel J, Kodis G, Bock LV, Bignon C, Longhi S, Zheng W, Grubmüller H, Vaiana AC, Vaiana SM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Otteson L",
+            "lastName": "Otteson",
+            "firstName": "Lillian",
+            "initials": "L"
+          },
+          {
+            "fullName": "Nagy G",
+            "lastName": "Nagy",
+            "firstName": "Gabor",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8607-9682"
+            }
+          },
+          {
+            "fullName": "Kunkel J",
+            "lastName": "Kunkel",
+            "firstName": "John",
+            "initials": "J"
+          },
+          {
+            "fullName": "Kodis G",
+            "lastName": "Kodis",
+            "firstName": "Gerdenis",
+            "initials": "G"
+          },
+          {
+            "fullName": "Bock LV",
+            "lastName": "Bock",
+            "firstName": "Lars",
+            "initials": "LV"
+          },
+          {
+            "fullName": "Bignon C",
+            "lastName": "Bignon",
+            "firstName": "Christophe",
+            "initials": "C"
+          },
+          {
+            "fullName": "Longhi S",
+            "lastName": "Longhi",
+            "firstName": "Sonia",
+            "initials": "S"
+          },
+          {
+            "fullName": "Zheng W",
+            "lastName": "Zheng",
+            "firstName": "Wenwei",
+            "initials": "W"
+          },
+          {
+            "fullName": "Grubmüller H",
+            "lastName": "Grubmüller",
+            "firstName": "Helmut",
+            "initials": "H"
+          },
+          {
+            "fullName": "Vaiana AC",
+            "lastName": "Vaiana",
+            "firstName": "Andrea",
+            "initials": "AC"
+          },
+          {
+            "fullName": "Vaiana SM",
+            "lastName": "Vaiana",
+            "firstName": "Sara",
+            "initials": "SM"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8607-9682"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The RNA genome of measles virus is encapsidated by the nucleoprotein within a helical nucleocapsid that serves as template for both transcription and replication. The intrinsically disordered domain of the nucleoprotein (N  TAIL ), partly protruding outward from the nucleocapsid, is essential for binding the polymerase complex responsible for viral transcription and replication. As for many IDPs, binding of N  TAIL occurs through a short molecular recognition element (MoRE) that folds upon binding, with the majority of N  TAIL remaining disordered. Though N  TAIL regions far from the MoRE influence the binding affinity, interactions between them and the MoRE have not been investigated in depth. Using an integrated approach, relying on photo-induced electron transfer (PET) experiments between tryptophan and cysteine pairs placed at different positions in the protein under varying salt and pH conditions, combined with simulations and analytical models, we identified transient interactions between two disordered regions distant in sequence, which dominate N  TAIL dynamics, and regulate the conformational preferences of both the MoRE and the entire N  TAIL domain. Co-evolutionary analysis corroborates our findings and suggests an important functional role for the same intramolecular interactions. We propose mechanisms by which these non-local interactions may regulate binding to the measles phosphoprotein, polymerase recruitment, and ultimately viral transcription and replication. Our findings may be extended to other IDPs, where non-local intra-protein interactions affect the conformational preferences of intermolecular binding sites.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIH",
+            "grantId": "R01GM120537",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIH",
+            "grantId": "R35GM146814",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Union’s Horizon 2020 Framework Programme for Research and Innovation",
+            "grantId": "945539",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.07.22.604679"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.07.22.604679"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41053265",
+            "reference": "Communications chemistry. 2025 Oct;8(1):298",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-07-26",
+      "firstPublicationDate": "2024-07-23",
+      "firstIndexDate": "2024-07-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

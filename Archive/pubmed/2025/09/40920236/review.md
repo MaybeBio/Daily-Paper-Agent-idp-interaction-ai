@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or simulation details were provided
+- **Shared manuscript claim summary** The authors use a patchy-particle polymer model to study how the spatial distribution and relative size of protein binding domains (PBDs) on spherical proteins influence liquid-liquid phase separation (LLPS) in protein-RNA mixtures. They report that sparsely distributed PBDs favor LLPS for small proteins, while closely packed PBDs favor LLPS for larger proteins, with distinct cluster morphologies in each case. They further claim that these observations depend on temperature and interaction strength.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation parameters, or validation data are available
+- **Missing materials affecting confidence** Full manuscript, methods description, simulation protocols, all figures and tables, quantitative phase diagrams, and any statistical or error analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study on a relevant topic in biomolecular condensate formation. The central claim, that the cooperative interplay between PBD distribution and protein size nontrivially influences LLPS, is plausible and could be of interest to the biophysics community. However, the abstract alone provides insufficient evidence to evaluate the technical soundness, robustness, or generality of the findings. The qualitative nature of the claims, the absence of any quantitative metrics, and the lack of methodological detail prevent a rigorous assessment. The work may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, liquid-liquid phase separation, multivalent protein-RNA interactions, and coarse-grained or patchy-particle simulations of biological systems. The findings could inform experimental design regarding how protein architecture influences condensate formation, and could interest computational biophysicists developing predictive models of phase behavior.
+- **Major strengths** The topic is timely and relevant. The systematic variation of two key parameters, PBD distribution and protein size, addresses a gap in understanding how protein architecture modulates LLPS. The use of a patchy-particle polymer model is a reasonable approach for isolating these effects. The reported observation of distinct cluster morphologies (multilayer versus bilayer) provides a concrete mechanistic distinction that could be experimentally testable.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "sparsely distributed PBDs are more favorable to LLPS for small proteins, while closely packed PBDs facilitate LLPS for larger counterparts."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The central claim is presented without any quantitative support. No phase boundaries, critical temperatures, coexistence densities, or free energy data are reported. The terms "more favorable" and "facilitate" are not defined operationally. Without numerical results, the reader cannot assess the magnitude of the effect, whether it is robust across parameter ranges, or whether it might be an artifact of specific simulation conditions.  
+  - **Why it matters** The claim is the core finding of the study. If the effect is small, occurs only in narrow parameter windows, or depends sensitively on model choices, the biological relevance would be limited. The abstract must provide at least representative quantitative results to establish the phenomenon.  
+  - **Resolution test** Provide phase diagrams or coexistence curves for at least two protein sizes with both sparse and close PBD distributions, including error bars or replicate information, and define a quantitative criterion for "favorable" LLPS (e.g., critical temperature shift, binodal width).  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that "we have performed extensive simulations to demonstrate that such observations depend on temperature and interaction strength."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No simulation details are provided. The model parameters, such as the number of PBDs per protein, the interaction potentials, the RNA length and stiffness, the system size, the equilibration protocol, and the number of independent runs, are all absent. Without this information, the technical soundness of the simulations cannot be evaluated, and the claim of "extensive simulations" is unverifiable.  
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. The dependence on temperature and interaction strength is a secondary claim that requires systematic sampling and appropriate statistical analysis. The absence of methodological detail prevents any assessment of whether the reported trends are reliable.  
+  - **Resolution test** Include a methods section or supplementary information with full model definitions, simulation algorithms, parameter values, system sizes, equilibration and production times, and statistical analyses. Show how the reported trends vary across at least three temperatures and three interaction strengths.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim generality  
+  - **Claim pointer** The authors state that "our study, therefore, may shed some new light on the understanding of protein-RNA LLPS."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not discuss the relationship between the model and real protein-RNA systems. The model uses spherical proteins with a fixed number of PBDs and RNA single strands, but no justification is given for how these simplifications map onto biological systems. The claim of shedding light on protein-RNA LLPS implies biological relevance, but no connection to experimental observations or known protein-RNA systems is made.  
+  - **Why it matters** The broader significance of the work depends on whether the model captures features relevant to real systems. Without a discussion of biological correspondence, the claim of general insight is unsupported.  
+  - **Resolution test** Add a discussion section that maps model parameters to realistic protein and RNA properties, and compare the predicted phase behavior or cluster morphologies to at least one experimental or known computational observation in protein-RNA LLPS.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Mechanistic interpretation  
+  - **Claim pointer** The authors claim that "large multilayer protein clusters can be formed around the RNA strand connected by sparsely distributed PBDs, while in the latter case, mainly bilayer dense clusters are favored by closely packed PBDs."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The structural distinction between multilayer and bilayer clusters is presented as a key mechanistic outcome, but no structural metrics are defined. It is unclear how "multilayer" and "bilayer" are quantified, whether these are equilibrium structures or transient states, and how they relate to the phase separation propensity.  
+  - **Why it matters** The cluster morphology is used to explain the observed LLPS trends. If the structural classification is ambiguous or not robust, the mechanistic interpretation is weakened.  
+  - **Resolution test** Provide quantitative structural analyses, such as radial distribution functions, cluster size distributions, or coordination numbers, and define clear criteria for multilayer versus bilayer classification. Show that these structures are stable over simulation time.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "relative size" in the title is not defined in the abstract. It is unclear whether this refers to the protein-to-RNA size ratio, the protein size relative to the PBD size, or something else.  
+  - **Required correction** Define "relative size" explicitly in the abstract or introduction.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Parameter space  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that each protein contains "a fixed number of PBDs," but the number is not specified. The dependence of the results on this number is not discussed.  
+  - **Required correction** State the number of PBDs used and briefly note whether the findings are sensitive to this parameter.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Biological relevance  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not mention whether the RNA is modeled as a flexible or semiflexible chain, which could significantly affect the reported cluster morphologies.  
+  - **Required correction** Specify the RNA model and, if relevant, discuss how chain stiffness might influence the results.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Presentation  
+  - **Affected element** Language  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "shed some new light" is vague and does not specify what new insight is provided beyond existing knowledge of multivalent interactions in LLPS.  
+  - **Required correction** Replace with a concrete statement of the novel contribution, such as a specific prediction or design principle for protein-RNA systems.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central claim lacks quantitative support, the simulation methodology is entirely absent, and the biological relevance is not established. These are necessary conditions for the case to be credible.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of systematically varying PBD distribution and protein size in a patchy-particle model appears to be a reasonable extension of existing work on multivalent interactions, but the abstract does not clearly differentiate the findings from prior studies on patchy particles or protein-RNA LLPS. The originality is plausible but not demonstrated.  
+  - Scientific importance: The topic is important for understanding biomolecular condensates, but the abstract does not articulate why the specific findings matter for experimental systems or for advancing theoretical understanding. The importance is asserted rather than shown.  
+  - Interdisciplinary readership: The work could appeal to biophysicists, physical chemists, and soft matter scientists. However, the abstract is written in a specialized language that may not be accessible to a broader biological audience, and no effort is made to bridge this gap.  
+  - Technical soundness: Not assessable from the abstract. The absence of any methodological detail or quantitative results precludes evaluation.  
+  - Readability for nonspecialists: The abstract is concise and generally clear, but terms such as "patchy-particle polymer model" and "PBD" are used without sufficient context for a nonspecialist. The mechanistic description of cluster morphologies is understandable but lacks definition.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting hypothesis, but the absence of quantitative results, methodological detail, and biological context means that the claims cannot be evaluated. The authors should be encouraged to resubmit with a full manuscript that addresses the major concerns, particularly the provision of quantitative phase behavior data and complete simulation methods.

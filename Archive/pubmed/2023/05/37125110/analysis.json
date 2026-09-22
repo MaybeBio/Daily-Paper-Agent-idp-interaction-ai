@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37125110",
+  "title": "Molecular Mechanisms of Functional Modulation of Transcriptional Coactivator PC4 via Phosphorylation on Its Intrinsically Disordered Region.",
+  "authors": "Xie, Qilin; Kasahara, Kota; Higo, Junichi; Takahashi, Takuya",
+  "journal": "ACS omega",
+  "published_date": "2023-05-01",
+  "window": {
+    "start": "2023-05-01",
+    "end": "2023-05-07"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用增强分子动力学模拟研究PC4无序区磷酸化如何通过IDR内静电接触调控其与VP16ad的PPI，直接验证了动态调控模型，是IDR介导互作机制建模的典型范例。",
+  "abstract": "To investigate the effects of phosphorylation on the function of the human positive cofactor 4 (PC4), an enhanced molecular dynamics (MD) simulation was performed. The simulation system consists of the N-terminal intrinsic disordered region (IDR) of PC4 and a complex that comprises the C-terminal acidic activation domain of a herpes simplex virion protein 16 (VP16ad) and a homodimer of the C-terminal structured core domain of PC4 (PC4ctd). An earlier report of an experimental study reported that the PC4-VP16ad interaction is modulated by incremental phosphorylation of the IDR. That report also proposed a dynamic model where phosphorylated serine residues of a segment (SEAC) in the IDR contact positively charged residues (lysin and arginine) of another segment (K-rich) in the IDR. This contact formation induced by the phosphorylation results in variation of PC4-VP16ad interaction. However, this contact formation has not yet been measured directly because it is transiently formed and because the SEAC and K-rich segments are unstructured with high flexibility. We performed two simulations to mimic the incremental phosphorylation: the IDR was not phosphorylated in one simulation and only partially phosphorylated in the other. Our simulation results indicate that the phosphorylation weakens the IDR-VP16ad contact considerably with the induction of a compact structure in the IDR. This structure was stabilized by electrostatic interactions between the phosphorylated serine residues of a segment and lysine or arginine residues of another segment in the IDR, but the conformational fluctuation of this compact structure was considerably large. Consequently, the present study supports the experimentally proposed dynamic model. Results of this study can be important for computational elucidation of the functional modulation of PC4.",
+  "abstract_zh": "为探究磷酸化对人正协同因子4（PC4）功能的影响，进行了增强分子动力学（MD）模拟。模拟系统包含PC4的N端内在无序区（IDR）以及一个复合物，该复合物由单纯疱疹病毒蛋白16的C端酸性激活域（VP16ad）和PC4的C端结构化核心域同源二聚体（PC4ctd）组成。早前一项实验研究报告指出，PC4-VP16ad相互作用受IDR渐进磷酸化调节。该报告还提出一个动态模型，其中IDR中一段（SEAC）的磷酸化丝氨酸残基与另一段（K-rich）的带正电荷残基（赖氨酸和精氨酸）接触。这种由磷酸化诱导的接触形成导致PC4-VP16ad相互作用的变化。然而，由于这种接触是瞬时形成的，且SEAC和K-rich片段具有高度柔性的无序结构，因此尚未直接测量到该接触形成。我们进行了两次模拟以模拟渐进磷酸化：一次模拟中IDR未磷酸化，另一次模拟中仅部分磷酸化。模拟结果表明，磷酸化显著削弱了IDR-VP16ad接触，并诱导IDR形成紧凑结构。该结构通过IDR中一段的磷酸化丝氨酸残基与另一段的赖氨酸或精氨酸残基之间的静电相互作用得以稳定，但该紧凑结构的构象波动相当大。因此，本研究支持实验提出的动态模型。本研究结果对计算阐明PC4的功能调节具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37125110/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37125110/",
+  "paper_page_path": "papers/pubmed/37125110/index.html"
+}

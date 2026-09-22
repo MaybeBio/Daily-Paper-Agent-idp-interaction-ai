@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "39908323",
+    "doi": "10.1021/acs.jctc.4c01460",
+    "title": "COCOMO2: A Coarse-Grained Model for Interacting Folded and Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Biomolecular interactions are essential in many biological processes, including complex formation and phase separation processes. Coarse-grained computational models are especially valuable for studying such processes via simulation. Here, we present COCOMO2, an updated residue-based coarse-grained model that extends its applicability from intrinsically disordered peptides to folded proteins. This is accomplished with the introduction of a surface exposure scaling factor, which adjusts interaction strengths based on solvent accessibility, to enable the more realistic modeling of interactions involving folded domains without additional computational costs. COCOMO2 was parametrized directly with solubility and phase separation data to improve its performance on predicting concentration-dependent phase separation for a broader range of biomolecular systems compared to the original version. COCOMO2 enables new applications including the study of condensates that involve IDPs together with folded domains and the study of complex assembly processes. COCOMO2 also provides an expanded foundation for the development of multiscale approaches for modeling biomolecular interactions that span from residue-level to atomistic resolution.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Folding",
+      "*Molecular Dynamics Simulation",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jussupow, Alexander",
+        "Bartley, Divya",
+        "Lapidus, Lisa J",
+        "Feig, Michael"
+      ],
+      "short_names": [
+        "Jussupow A",
+        "Bartley D",
+        "Lapidus LJ",
+        "Feig M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3136-2680",
+        "ORCID: 0000-0001-9380-6422"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, Michigan 48824, United States.",
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, Michigan 48824, United States.",
+        "Department of Physics and Astronomy, Michigan State University, East Lansing, Michigan 48824, United States.",
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, Michigan 48824, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jussupow, Alexander",
+        "short_name": "Jussupow A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, Michigan 48824, United States."
+        ]
+      },
+      {
+        "full_name": "Bartley, Divya",
+        "short_name": "Bartley D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, Michigan 48824, United States."
+        ]
+      },
+      {
+        "full_name": "Lapidus, Lisa J",
+        "short_name": "Lapidus LJ",
+        "identifiers": [
+          "0000-0003-3136-2680"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Michigan State University, East Lansing, Michigan 48824, United States."
+        ]
+      },
+      {
+        "full_name": "Feig, Michael",
+        "short_name": "Feig M",
+        "identifiers": [
+          "0000-0001-9380-6422"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, Michigan 48824, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2025 Feb 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/05 18:20",
+    "fetched_at": "2026-09-21 15:27:37"
+  },
+  "links": {
+    "cites": [
+      "42376920",
+      "42280206",
+      "42147780",
+      "42129207",
+      "41868013",
+      "41803440",
+      "41706900",
+      "41254233",
+      "41169547",
+      "41118627",
+      "41097365",
+      "40671581",
+      "40161645",
+      "40131954"
+    ],
+    "refs": [
+      "39412378",
+      "38979955",
+      "38325366",
+      "38154096",
+      "38153340",
+      "38000367",
+      "37794023",
+      "37782899",
+      "37684425",
+      "37186597",
+      "36747054",
+      "36607820",
+      "36066390",
+      "35977086",
+      "35725906",
+      "35149762",
+      "34931046",
+      "34716273",
+      "34164013",
+      "34074792",
+      "33934416",
+      "33876938",
+      "33577679",
+      "33558506",
+      "33496264",
+      "33373232",
+      "33302617",
+      "32936641",
+      "32934220",
+      "32514159",
+      "32405004",
+      "32132204",
+      "31984178",
+      "31437398",
+      "31270472",
+      "30857399",
+      "30672955",
+      "30508766",
+      "30467428",
+      "30236283",
+      "30063715",
+      "29961577",
+      "29607454",
+      "29503457",
+      "29381060",
+      "29364893",
+      "29151345",
+      "28972216",
+      "28935776",
+      "28819146",
+      "27999437",
+      "26777980",
+      "26616630",
+      "26488642",
+      "26406374",
+      "26015579",
+      "25532951",
+      "25443957",
+      "23997990",
+      "22429139",
+      "22398450",
+      "18083189",
+      "15264823",
+      "15093837",
+      "12142453",
+      "11707413",
+      "11030346",
+      "10786854",
+      "10353900",
+      "10228171",
+      "8744570"
+    ],
+    "similar": [
+      "39908323",
+      "39554101",
+      "40009520",
+      "39412378",
+      "39499823",
+      "34536913",
+      "39225535",
+      "38928405",
+      "33453922",
+      "34680048",
+      "33934416",
+      "31756104",
+      "40128232",
+      "33139563",
+      "36066390",
+      "33577679",
+      "34716273",
+      "38112495",
+      "34390736",
+      "34029402",
+      "38348795",
+      "36083825",
+      "24278008",
+      "31657215",
+      "28157327",
+      "26052838",
+      "34285781",
+      "32135192",
+      "32393642",
+      "38546977",
+      "25207671",
+      "34845619",
+      "36346711",
+      "39319382",
+      "35802394",
+      "41467806",
+      "32859072",
+      "33909430",
+      "30933517",
+      "36227468",
+      "29990433",
+      "29735687",
+      "31613621",
+      "33411518",
+      "34032235",
+      "33069007",
+      "31552948",
+      "27333362",
+      "36674958",
+      "34509724",
+      "30926670",
+      "38892222",
+      "37906711",
+      "26562397",
+      "38739602",
+      "40748104",
+      "38979955",
+      "29186229",
+      "32020911",
+      "25313042",
+      "25375525",
+      "35377637",
+      "30528464",
+      "30913885",
+      "39248414",
+      "30091924",
+      "38252962",
+      "29573987",
+      "39947751",
+      "39851064",
+      "36343363",
+      "40278867",
+      "40324844",
+      "36641212",
+      "40911789",
+      "30230839",
+      "39163306",
+      "30865832",
+      "39987501",
+      "34598583",
+      "40172236",
+      "27819658",
+      "40420812",
+      "28448138",
+      "40970906",
+      "33810353",
+      "38383656",
+      "38407041",
+      "32168715",
+      "40943551",
+      "36774359",
+      "29763584",
+      "21268115",
+      "40028356",
+      "40131954",
+      "40944421",
+      "24317797",
+      "35883530",
+      "29571687",
+      "39589885"
+    ],
+    "review": [
+      "39908323",
+      "34536913",
+      "34680048",
+      "34390736",
+      "38348795",
+      "34285781",
+      "32135192",
+      "35802394",
+      "33069007",
+      "27333362",
+      "38979955",
+      "32020911",
+      "39947751"
+    ],
+    "pmc": [
+      "11866933"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39908323/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.4c01460",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

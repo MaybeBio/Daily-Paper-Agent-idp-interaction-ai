@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusion) as provided
+- **Assessment boundary** Scientific and technical evaluation of the manuscript's claims, methods, and results as presented in the supplied text
+- **Shared manuscript claim summary** The authors propose network Hamiltonian models (NHMs) as a coarse-grained topological framework for modeling unstructured protein aggregates, apply this framework to γD-crystallin (WT and W42R variant) using data from prior atomistic simulations, demonstrate that low-dimensional NHMs reproduce aggregate size and structure, and use the models to extrapolate to larger systems and different concentrations, revealing system size effects and concentration-dependent aggregation behavior
+- **Visible evidence base** Abstract, Introduction, Methods (atomistic simulation and network generation, component size estimation, model selection and parameter estimation, extrapolative simulation, geometry imputation), Results (topology of aggregates, model parameters, model fit, extrapolation), Conclusion, Supplementary Material mention, Acknowledgement
+- **Missing materials affecting confidence** Figures 1-7 are referenced but not provided; Tables 1-2 are referenced but not provided; Supplementary Material content is not provided; specific numerical values for model parameters, error metrics, and simulation settings are partially described but not fully detailed; details of the original atomistic simulation (Wong et al.) are only summarized
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting application of exponential-family random graph models to protein aggregation, addressing a genuine gap in coarse-grained approaches for unstructured aggregates. The authors demonstrate technical competence in model fitting and extrapolation, and the results are plausible within the stated scope. However, the manuscript has several significant weaknesses that limit its current impact: the evidence base is incomplete (figures and tables not visible), the validation of the NHM against atomistic data is not quantitatively demonstrated in the text, the extrapolation methodology relies on assumptions that are not fully justified, and the biological implications are presented as speculative without strong supporting analysis. The work is likely to interest computational biophysicists and network modelers, but the case for broad significance in protein aggregation research is not fully established from the provided material.
+- **Who would be interested in the results, and why** Computational biophysicists studying protein aggregation, particularly those working on coarse-grained models and multiscale simulation methods; network scientists interested in applications of exponential-family random graph models to physical systems; researchers studying cataract formation and crystallin aggregation, who may find the concentration-dependent predictions useful for experimental design; method developers in statistical mechanics seeking efficient approaches for large-scale simulation of interacting particle systems
+- **Major strengths** The conceptual framing of protein aggregates as networks with topological degrees of freedom is clear and well-motivated. The use of ERGMs, a mature statistical framework, provides a principled basis for model selection and inference. The extrapolation to larger systems and different concentrations addresses a practical limitation of atomistic simulations and demonstrates a useful capability. The authors are transparent about the limitations of their approach, particularly regarding geometry imputation and the tentative nature of some predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "Network models are shown to successfully reproduce the aggregate size and structure observed in the atomistic simulation" (Abstract) and that the models "do an excellent job of recapitulating both large-scale structure (component size distributions) and local structure (degree and ESP distributions)" (Results)
+  - **Evidence pointer** Figures 3 and 4, Tables 1 and 2 (location not provided)
+  - **Concern** The central claim of model success is not quantitatively substantiated in the text. The manuscript states that model predictions match observed distributions but does not provide numerical measures of fit quality, such as discrepancy values, confidence intervals for model parameters, or statistical comparisons between model and observed distributions. Without these quantitative details, the reader cannot assess whether the agreement is genuinely good or merely qualitatively plausible. The referenced figures and tables are not available in the provided material, making it impossible to verify the claim.
+  - **Why it matters** The validity of the entire approach rests on the demonstration that NHMs can faithfully reproduce atomistic simulation results. If this fit is not rigorously established, the subsequent extrapolations and biological interpretations lack a solid foundation.
+  - **Resolution test** Provide quantitative fit metrics (e.g., the L2 discrepancy values used for model selection, parameter estimates with standard errors, and visual or statistical comparisons of predicted versus observed distributions) in the main text or supplementary material, and ensure these are clearly described and interpretable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological justification
+  - **Claim pointer** The authors state that "the functional difference between the two structures can be approximated in terms of their rates of aggregation-forming interactions with other monomers, which we recapitulate using network Hamiltonian models" (Introduction) and that the model includes a compsizesum term that "directly reflects the impact of component size on the favorability of coalescence or dissolution"
+  - **Evidence pointer** Methods section, Model terms subsection (location not provided)
+  - **Concern** The physical interpretation of the model parameters, particularly the compsizesum term, is not adequately justified. The authors introduce a novel term without deriving it from underlying physical principles or demonstrating that it uniquely captures the intended effect. The relationship between the ERGM parameters and physical quantities such as binding free energies or interaction potentials is not clearly established. Additionally, the assumption that the WT and W42R variants differ only in interaction rates, not in the nature of interactions, is stated but not critically examined.
+  - **Why it matters** For the model to be useful beyond curve fitting, the parameters must have clear physical meaning. If the compsizesum term is an ad hoc addition, the model's predictive power for new conditions or variants is questionable. The biological interpretation of the results depends on the physical validity of the model.
+  - **Resolution test** Provide a derivation or physical argument for the compsizesum term, discuss alternative model specifications and why they were rejected, and explicitly state the assumptions underlying the parameter interpretation. Consider sensitivity analyses to assess whether conclusions are robust to model specification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Extrapolation validity
+  - **Claim pointer** The authors claim that "the system size is scaled from the original 375 monomers to a system of 10000 monomers, revealing a lowering of the upper tail of the aggregate size distribution of the W42R variant" and that "extrapolation to higher and lower concentrations is also performed" (Abstract)
+  - **Evidence pointer** Methods section, Extrapolative Simulation subsection; Results section, extrapolation results (location not provided)
+  - **Concern** The extrapolation methodology relies on the assumption that model parameters fitted at N=375 and 200 g/L remain valid at N=10000 and at concentrations of 100-400 g/L. This assumption is not tested or discussed. Finite-size effects in the original simulation could bias parameter estimates, and the concentration adjustment based on a simple scaling of the edge parameter may not capture concentration-dependent changes in interaction geometry or multi-body effects. The authors note a system size effect but do not fully explore its implications for the validity of the extrapolation.
+  - **Why it matters** The extrapolations are presented as a key advantage of the NHM approach, but if the underlying assumptions are not validated, the predictions for large systems and different concentrations may be unreliable. This is particularly important for the biological conclusions about aggregation behavior at high concentrations relevant to cataract formation.
+  - **Resolution test** Perform validation studies comparing NHM predictions to atomistic simulations at intermediate system sizes or concentrations, or provide theoretical arguments for the validity of the extrapolation. Discuss the limitations of the concentration adjustment and its potential impact on conclusions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological significance
+  - **Claim pointer** The authors suggest that "these transient interactions plausibly provide opportunities for damaged or partially unfolded γD-crystallin to form longer-lived structures" and that the results "may provide insights into the process of cataract initiation" (Conclusion)
+  - **Evidence pointer** Conclusion section (location not provided)
+  - **Concern** The connection between the model results and cataract biology is speculative and not well-developed. The manuscript does not discuss how the predicted aggregate structures or size distributions relate to known mechanisms of cataract formation, such as light scattering, phase separation, or chaperone activity. The relevance of the W42R variant's behavior to disease progression is asserted but not contextualized with experimental or clinical data.
+  - **Why it matters** For the work to have impact beyond the computational methods community, the biological implications need to be more concretely articulated. Speculative claims without supporting evidence or clear hypotheses weaken the manuscript's significance.
+  - **Resolution test** Strengthen the discussion of biological relevance by connecting model predictions to experimental observations of γD-crystallin aggregation, discussing specific testable predictions, or framing the results within existing models of cataract formation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation 2 and parameter interpretation
+  - **Evidence pointer** Methods section, Inference and model selection subsection (location not provided)
+  - **Issue** The relationship between the ERGM parameterization (θ) and the physical parameters (φ) is presented in Equation 3, but the derivation is not fully explained. The notation is dense and may be difficult for readers unfamiliar with ERGM literature.
+  - **Required correction** Expand the explanation of the parameter transformation, perhaps with a brief worked example or a more intuitive description of what each parameter represents physically.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model selection procedure
+  - **Evidence pointer** Methods section, Model Selection and Parameter Estimation subsection (location not provided)
+  - **Issue** The forward selection procedure is described, but the specific criteria for stopping (i.e., when "no term improved fit") are not quantified. The threshold for improvement is not stated.
+  - **Required correction** Specify the stopping criterion (e.g., minimum reduction in discrepancy, statistical significance threshold) to make the procedure reproducible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Geometry imputation
+  - **Evidence pointer** Methods section, Geometry Imputation subsection (location not provided)
+  - **Issue** The geometry imputation procedure is described briefly, but the validation of this approach is not discussed. The authors note that the predicted obliquity is tentative, but do not assess the reliability of the imputation method itself.
+  - **Required correction** Add a brief discussion of the limitations of the geometry imputation and, if possible, compare predictions to known structures or experimental data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure and table references
+  - **Evidence pointer** Throughout the text (location not provided)
+  - **Issue** The manuscript relies heavily on figures and tables that are not described in sufficient detail in the text. For example, the model selection trace in Table 1 and the parameter estimates in Table 2 are mentioned but their contents are not summarized.
+  - **Required correction** Provide brief summaries of key numerical results in the text so that the main findings are understandable even without consulting the figures and tables.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "unstructured" and "disordered"
+  - **Evidence pointer** Throughout the text (location not provided)
+  - **Issue** The terms "unstructured" and "disordered" are used to describe aggregates, but the distinction from "amorphous" or "non-fibrillar" is not clearly defined. This could cause confusion for readers.
+  - **Required correction** Define these terms early in the manuscript and use them consistently.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative validation of model fit), R1-M2 (physical justification of model terms), R1-M3 (validation of extrapolation assumptions)
+- **Assessment against Nature-style criteria** Originality: The application of ERGMs to protein aggregation is novel and represents a creative cross-disciplinary transfer of methods. Scientific importance: The work addresses a real need for efficient coarse-grained models of disordered aggregates, but the significance is currently limited by the lack of strong validation and the speculative biological connections. Interdisciplinary readership: The work bridges network science and biophysics, which could attract readers from both communities, but the technical presentation may be challenging for nonspecialists. Technical soundness: The statistical methods are appropriate and well-established, but the validation of the model's physical realism is insufficient. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with ERGM terminology and network statistics, which may limit accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the methods are appropriate, but the manuscript currently does not provide sufficient quantitative evidence to fully establish the claims. Addressing the major concerns, particularly the validation of model fit and extrapolation, would substantially strengthen the case.

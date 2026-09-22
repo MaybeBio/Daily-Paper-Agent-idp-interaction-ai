@@ -1,0 +1,240 @@
+{
+  "identity": {
+    "pmid": "41435823",
+    "doi": "10.1016/j.cels.2025.101454",
+    "title": "DynamicGT: A dynamic-aware geometric transformer model to predict protein-binding interfaces in flexible and disordered regions."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions are fundamental to cellular processes, yet current deep learning approaches for binding site prediction rely on static structures, limiting their accuracy for disordered or flexible regions. We introduce dynamic geometric transformer (DynamicGT), a dynamic-aware model that integrates conformational dynamics into a cooperative graph neural network (Co-GNN) with a GT. Our model encodes dynamic features at both node (atom) and edge (interaction) levels, considering bound and unbound states to improve generalization. Dynamic regulation of messages passing between core and surface residues enhances detection of critical interactions for efficient information flow. Trained on a 1-ms molecular dynamics simulation dataset and augmented with AlphaFlow-generated conformations, the model was benchmarked extensively. Evaluation on diverse datasets containing disordered, transient, and unbound structures demonstrates that incorporating dynamics within a cooperative architecture significantly improves prediction accuracy where flexibility is key while requiring substantially less data than leading static approaches.",
+    "keywords": [
+      "cooperative message passing",
+      "dynamic-aware systems",
+      "geometric transformers",
+      "intrinsically disordered proteins",
+      "protein-binding site prediction"
+    ],
+    "mesh_terms": [
+      "Protein Binding/physiology",
+      "Binding Sites",
+      "Molecular Dynamics Simulation",
+      "Neural Networks, Computer",
+      "Protein Conformation",
+      "*Proteins/chemistry/metabolism",
+      "Computational Biology/methods",
+      "Humans",
+      "Algorithms",
+      "Deep Learning"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mokhtari, Omid",
+        "Grudinin, Sergei",
+        "Karami, Yasaman",
+        "Khakzad, Hamed"
+      ],
+      "short_names": [
+        "Mokhtari O",
+        "Grudinin S",
+        "Karami Y",
+        "Khakzad H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Universite de Lorraine, CNRS, Inria, LORIA, 54000 Nancy, France.",
+        "CNRS, Grenoble INP, LJK, Universite Grenoble Alpes, Grenoble, France.",
+        "Universite de Lorraine, CNRS, Inria, LORIA, 54000 Nancy, France. Electronic address: yasaman.karami@inria.fr.",
+        "Universite de Lorraine, CNRS, Inria, LORIA, 54000 Nancy, France. Electronic address: hamed.khakzad@inria.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mokhtari, Omid",
+        "short_name": "Mokhtari O",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Lorraine, CNRS, Inria, LORIA, 54000 Nancy, France."
+        ]
+      },
+      {
+        "full_name": "Grudinin, Sergei",
+        "short_name": "Grudinin S",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, Grenoble INP, LJK, Université Grenoble Alpes, Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Karami, Yasaman",
+        "short_name": "Karami Y",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Lorraine, CNRS, Inria, LORIA, 54000 Nancy, France. Electronic address: yasaman.karami@inria.fr."
+        ]
+      },
+      {
+        "full_name": "Khakzad, Hamed",
+        "short_name": "Khakzad H",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Lorraine, CNRS, Inria, LORIA, 54000 Nancy, France. Electronic address: hamed.khakzad@inria.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell systems"
+    ],
+    "journal_abbrev": [
+      "Cell Syst"
+    ],
+    "pub_date": "2026 Jan 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/24 00:34",
+    "fetched_at": "2026-09-17 23:16:21"
+  },
+  "links": {
+    "cites": [
+      "41231767"
+    ],
+    "refs": [],
+    "similar": [
+      "41435823",
+      "39848362",
+      "42579672",
+      "38781245",
+      "42475469",
+      "42450193",
+      "38892057",
+      "41447498",
+      "40121399",
+      "41053908",
+      "23912807",
+      "40501346",
+      "42636031",
+      "41290782",
+      "41094395",
+      "40742755",
+      "41200913",
+      "18831774",
+      "41622943",
+      "41201924",
+      "40354612",
+      "34073705",
+      "39163306",
+      "42412831",
+      "40174317",
+      "40728607",
+      "39446541",
+      "38018910",
+      "39273227",
+      "42711316",
+      "40524427",
+      "40914361",
+      "40748800",
+      "37072397",
+      "41977286",
+      "39528184",
+      "40481301",
+      "41760787",
+      "41134132",
+      "40462513",
+      "39487084",
+      "15050833",
+      "35312477",
+      "31031199",
+      "33747706",
+      "39471921",
+      "41534519",
+      "39433833",
+      "40705403",
+      "42598852",
+      "39223474",
+      "33864411",
+      "18837463",
+      "40270304",
+      "39304807",
+      "42223122",
+      "40360271",
+      "38790143",
+      "40663654",
+      "41717955",
+      "41495146",
+      "41285097",
+      "42367058",
+      "42229773",
+      "42278281",
+      "41051642",
+      "38886381",
+      "42080348",
+      "34905768",
+      "40811258",
+      "40601253",
+      "42123672",
+      "41231767",
+      "22183526",
+      "41436386",
+      "42032471",
+      "39206846",
+      "41325725",
+      "22829760",
+      "39684679",
+      "40483648",
+      "42104818",
+      "38370653",
+      "38166858",
+      "41875143",
+      "39208057",
+      "41570036",
+      "40127181",
+      "41468157",
+      "39573831",
+      "12211037",
+      "42478599",
+      "42439477",
+      "39133595",
+      "40522546",
+      "40811253",
+      "42454619",
+      "40728609",
+      "39938510",
+      "40853813"
+    ],
+    "review": [
+      "41435823",
+      "40728607",
+      "40663654",
+      "42278281",
+      "42123672"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(25)00287-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-290",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

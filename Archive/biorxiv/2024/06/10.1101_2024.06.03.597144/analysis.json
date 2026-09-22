@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.03.597144",
+  "title": "A substrate-interacting region of Parkin directs ubiquitination of the mitochondrial GTPase Miro1",
+  "authors": "Koszela J; Rintala-Dempsey A; Salzano G; Pimenta V; Kamarainen O; Gabrielsen M; Parui AL; Shaw GS; Walden H",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-03",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究Parkin柔性linker区域介导对底物Miro1的识别与泛素化，涉及无序区域与底物互作，但无AI/物理模拟方法，且非典型PPI机制建模，相关性中等。",
+  "abstract": "Mutations in the gene encoding for the E3 ubiquitin ligase Parkin have been linked to early-onset Parkinson’s disease. Besides many other cellular roles, Parkin is involved in clearance of damaged mitochondria via mitophagy - a process of particular importance in dopaminergic neurons. Upon mitochondrial damage, Parkin accumulates at the outer mitochondrial membrane and is activated, leading to ubiquitination of many mitochondrial substrates and recruitment of mitophagy effectors. While the activation mechanisms of autoinhibited Parkin have been extensively studied, it remains unknown how Parkin recognises its substrates for ubiquitination, and no substrate interaction site in Parkin has been reported. Here, we identify a conserved region in the flexible linker between the Ubl and RING0 domains of Parkin, which is indispensable for Parkin interaction with the mitochondrial GTPase Miro1. Our results explain the preferential targeting and ubiquitination of Miro1 by Parkin and provide a biochemical explanation for the presence of Parkin at the mitochondrial membrane prior to activation induced by mitochondrial damage. Our findings are important for understanding mitochondrial homeostasis and may inspire new therapeutic avenues for Parkinson’s disease.",
+  "abstract_zh": "编码E3泛素连接酶Parkin的基因突变与早发性帕金森病相关。除了众多其他细胞功能外，Parkin还参与通过线粒体自噬清除受损线粒体——这一过程对多巴胺能神经元尤为重要。在线粒体损伤时，Parkin积聚于线粒体外膜并被激活，导致多种线粒体底物的泛素化及线粒体自噬效应因子的招募。尽管自抑制Parkin的激活机制已被广泛研究，但Parkin如何识别其泛素化底物仍属未知，且Parkin中尚未有底物相互作用位点的报道。在此，我们识别了Parkin的Ubl和RING0结构域之间柔性连接区中的一个保守区域，该区域对Parkin与线粒体GTPase Miro1的相互作用不可或缺。我们的结果解释了Parkin对Miro1的优先靶向和泛素化，并为Parkin在线粒体损伤诱导激活前定位于线粒体膜提供了生化解释。我们的发现对理解线粒体稳态具有重要意义，并可能为帕金森病开辟新的治疗途径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.03.597144",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.03.597144",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.03.597144/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34106723",
+  "title": "Liquid-Liquid Phase Separation of Short Histidine- and Tyrosine-Rich Peptides: Sequence Specificity and Molecular Topology.",
+  "authors": "Lim, Jessica; Kumar, Akshita; Low, Kimberly; Verma, Chandra S; Mu, Yuguang; Miserez, Ali; Pervushin, Konstantin",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-06-10",
+  "window": {
+    "start": "2021-06-07",
+    "end": "2021-06-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究以富含组氨酸和酪氨酸的短肽为对象，结合量子化学、NMR和全原子MD模拟，系统解析了残基级相互作用与分子拓扑如何驱动液-液相分离，为无序肽段介导的凝聚体互作机制建模提供了可迁移的原子级方法。",
+  "abstract": "The increasing realization of the prevalence of liquid-liquid phase separation (LLPS) across multiple length scales of biological constructs, from intracellular membraneless organelles to extracellular load-bearing tissues, has raised intriguing questions about intermolecular interactions regulating LLPS at the atomic level. Squid-beak derived histidine (His)- and tyrosine (Tyr)-rich peptides (HBpeps) have recently emerged as suitable short model peptides to precisely assess the roles of peptide motifs and single residues on the phase behavior and material properties of microdroplets obtained by LLPS. In this study, by systematically introducing single mutations in an HBpep, we have identified specific sticker residues that attract peptide chains together. We find that His and Tyr residues located near the sequence termini drive phase separation, forming interaction nodes that stabilize microdroplets. Combining quantum chemistry simulations with NMR studies, we predict atomic-level bond geometries and uncover inter-residue supramolecular interactions governing LLPS. These results are subsequently used to propose possible topological arrangements of the peptide chains, which upon expansion can help explain the three-dimensional network of microdroplets. The stability of the proposed topologies carried out through all-atom molecular dynamics simulations predicts chain topologies that are more likely to stabilize the microdroplets. Overall, this study provides useful guidelines for the de novo design of peptide coacervates with tunable phase behavior and material properties. In addition, the analysis of nanoscale topologies may pave the way to understand how client molecules can be trapped within microdroplets, with direct implications for the encapsulation and controlled release of therapeutics for drug delivery applications.",
+  "abstract_zh": "对液-液相分离（liquid-liquid phase separation, LLPS）在生物构造的多个长度尺度（从细胞内无膜细胞器到细胞外承重组织）中普遍存在的认识日益加深，引发了关于在原子水平上调控LLPS的分子间相互作用的引人入胜的问题。源自鱿鱼喙的富含组氨酸（His）和酪氨酸（Tyr）的肽（HBpeps）最近已成为合适的短模型肽，用于精确评估肽基序和单个残基对通过LLPS获得的微滴的相行为和材料性质的作用。在本研究中，通过在HBpep中系统性地引入单点突变，我们识别了吸引肽链聚集在一起的特异性粘附残基。我们发现，位于序列末端附近的His和Tyr残基驱动相分离，形成稳定微滴的相互作用节点。结合量子化学模拟与核磁共振（NMR）研究，我们预测了原子级键几何结构，并揭示了调控LLPS的残基间超分子相互作用。这些结果随后被用于提出肽链可能的拓扑排列，这些排列在扩展后有助于解释微滴的三维网络。通过全原子分子动力学模拟对所提出拓扑结构的稳定性进行评估，预测了更可能稳定微滴的链拓扑结构。总体而言，本研究为具有可调相行为和材料性质的肽凝聚层的从头设计提供了有用指导。此外，纳米尺度拓扑分析可能为理解客户分子如何被捕获在微滴内铺平道路，这对药物递送应用中治疗药物的封装和控释具有直接影响。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34106723/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34106723/",
+  "paper_page_path": "papers/pubmed/34106723/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38392167",
+  "title": "The Conformational Contribution to Molecular Complexity and Its Implications for Information Processing in Living Beings and Chemical Artificial Intelligence.",
+  "authors": "Gentili, Pier Luigi",
+  "journal": "Biomimetics (Basel, Switzerland)",
+  "published_date": "2024-02-23",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文从构象集合与模糊集角度讨论生物大分子（含无序构象）的信息处理逻辑，并延伸到化学人工智能，但未涉及具体PPI互作机制或AI/物理模拟方法，仅提供概念性启发。",
+  "abstract": "This work highlights the relevant contribution of conformational stereoisomers to the complexity and functions of any molecular compound. Conformers have the same molecular and structural formulas but different orientations of the atoms in the three-dimensional space. Moving from one conformer to another is possible without breaking covalent bonds. The interconversion is usually feasible through the thermal energy available in ordinary conditions. The behavior of most biopolymers, such as enzymes, antibodies, RNA, and DNA, is understandable if we consider that each exists as an ensemble of conformers. Each conformational collection confers multi-functionality and adaptability to the single biopolymers. The conformational distribution of any biopolymer has the features of a fuzzy set. Hence, every compound that exists as an ensemble of conformers allows the molecular implementation of a fuzzy set. Since proteins, DNA, and RNA work as fuzzy sets, it is fair to say that life's logic is fuzzy. The power of processing fuzzy logic makes living beings capable of swift decisions in environments dominated by uncertainty and vagueness. These performances can be implemented in chemical robots, which are confined molecular assemblies mimicking unicellular organisms: they are supposed to help humans \"colonise\" the molecular world to defeat diseases in living beings and fight pollution in the environment.",
+  "abstract_zh": "本工作强调了构象立体异构体对任何分子化合物的复杂性和功能的显著贡献。构象异构体具有相同的分子式和结构式，但原子在三维空间中的取向不同。从一个构象体转变为另一个构象体无需断裂共价键即可实现。这种互变通常可通过普通条件下可用的热能进行。大多数生物聚合物（如酶、抗体、RNA和DNA）的行为，只有考虑到每种都以构象体集合的形式存在时，才能被理解。每个构象集合赋予单一生物聚合物多功能性和适应性。任何生物聚合物的构象分布具有模糊集的特征。因此，每个以构象体集合形式存在的化合物都允许分子层面实现模糊集。由于蛋白质、DNA和RNA以模糊集方式运作，可以公平地说，生命的逻辑是模糊的。处理模糊逻辑的能力使生物体能够在充满不确定性和模糊性的环境中做出迅速决策。这些性能可在化学机器人中实现，这些机器人是模拟单细胞生物的受限分子组装体：它们有望帮助人类“殖民”分子世界，以战胜生物体内的疾病并对抗环境污染。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38392167/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38392167/",
+  "paper_page_path": "papers/pubmed/38392167/index.html"
+}

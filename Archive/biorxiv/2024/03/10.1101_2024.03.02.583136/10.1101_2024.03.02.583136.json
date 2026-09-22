@@ -1,0 +1,478 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.03.02.583136",
+  "title": "Transformer-Based Deep Learning Model with Latent Space Regularization for CRISPR-Cas Protein Sequence Classification",
+  "doi": "10.1101/2024.03.02.583136",
+  "abstract": "The discovery of the CRISPR-Cas system has significantly advanced genome editing, offering vast applications in medical treatments and life sciences research. Despite their immense potential, the existing CRISPR-Cas proteins still face challenges concerning size, delivery efficiency, and cleavage specificity. Addressing these challenges necessitates a deeper understanding of CRISPR-Cas proteins to enhance the design and discovery of novel Cas proteins for precision gene editing. In this study, we performed extensive deep-learning research on CRISPR-Cas proteins, aiming to develop a classification model capable of distinguishing CAS from non-CAS proteins, as well as discriminating sub-categories of CAS proteins, specifically CAS9 and CAS12. We developed two types of deep learning models: 1) a transformer encoder-based classification model, trained from scratch; and 2) a large protein language model fine-tuned on ProtBert, pre-trained on more than 200 million proteins. To boost learning efficiency for the model trained from scratch, we introduced a novel margin-based loss function to maximize inter-class separability and intra-class compactness in protein sequence embedding latent space of a transformer encoder. The experimental results show that the Fine-Tuned ProtBert-based (FTPB) classification model achieved accuracies of 99.06%, 94.42%, 96.80%, 97.57% for CAS9 vs. Non-CAS, CAS12 vs. Non-CAS, CAS9 vs. CAS12, and multi-class classification of CAS9 vs. CAS12 vs. Non-CAS, respectively. The Latent Space Regularized Max-Margin Transformer (LSRMT) model achieved classification accuracies of 99.81%, 99.81%, 99.06%, 99.27% for the same tasks, respectively. These results demonstrate the effectiveness of the proposed Max-Margin-based latent space regularization in enhancing model robustness and generalization capabilities. Remarkably, the LSRMT model, even when trained on a significantly smaller dataset, outperformed the fine-tuned state-of-the-art large protein model. The high classification accuracies achieved by the LSRMT model demonstrate its proficiency in identifying discriminative features of CAS proteins, marking a significant step towards advancing our understanding of CAS protein structures in future research endeavors.",
+  "authors": [
+    "Bharani Nammi",
+    "Sita Sirisha Madugula",
+    "Pranav Pujar",
+    "Vindi Mahesha Jayasinghe Arachchige",
+    "Jin Liu",
+    "Shouyi Wang"
+  ],
+  "published_date": "2024-03-06",
+  "updated_date": "2024-03-06T14:30:25Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.03.02.583136",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.03.02.583136.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:55:39Z",
+        "timestamp": 1768510539209,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            6
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 39,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The discovery of the CRISPR-Cas system has significantly advanced genome editing, offering vast applications in medical treatments and life sciences research. Despite their immense potential, the existing CRISPR-Cas proteins still face challenges concerning size, delivery efficiency, and cleavage specificity. Addressing these challenges necessitates a deeper understanding of CRISPR-Cas proteins to enhance the design and discovery of novel Cas proteins for precision gene editing. In this study, we performed extensive deep-learning research on CRISPR-Cas proteins, aiming to develop a classification model capable of distinguishing CAS from non-CAS proteins, as well as discriminating sub-categories of CAS proteins, specifically CAS9 and CAS12. We developed two types of deep learning models: 1) a transformer encoder-based classification model, trained from scratch; and 2) a large protein language model fine-tuned on ProtBert, pre-trained on more than 200 million proteins. To boost learning efficiency for the model trained from scratch, we introduced a novel margin-based loss function to maximize inter-class separability and intra-class compactness in protein sequence embedding latent space of a transformer encoder. The experimental results show that the Fine-Tuned ProtBert-based (FTPB) classification model achieved accuracies of 99.06%, 94.42%, 96.80%, 97.57% for CAS9 vs. Non-CAS, CAS12 vs. Non-CAS, CAS9 vs. CAS12, and multi-class classification of CAS9 vs. CAS12 vs. Non-CAS, respectively. The Latent Space Regularized Max-Margin Transformer (LSRMT) model achieved classification accuracies of 99.81%, 99.81%, 99.06%, 99.27% for the same tasks, respectively. These results demonstrate the effectiveness of the proposed Max-Margin-based latent space regularization in enhancing model robustness and generalization capabilities. Remarkably, the LSRMT model, even when trained on a significantly smaller dataset, outperformed the fine-tuned state-of-the-art large protein model. The high classification accuracies achieved by the LSRMT model demonstrate its proficiency in identifying discriminative features of CAS proteins, marking a significant step towards advancing our understanding of CAS protein structures in future research endeavors.</jats:p>",
+      "DOI": "10.1101/2024.03.02.583136",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            6
+          ]
+        ],
+        "date-time": "2024-03-06T14:30:25Z",
+        "timestamp": 1709735425000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Transformer-Based Deep Learning Model with Latent Space Regularization for CRISPR-Cas Protein Sequence Classification"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0009-2149-5085",
+          "authenticated-orcid": false,
+          "given": "Bharani",
+          "family": "Nammi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9944-117X",
+          "authenticated-orcid": false,
+          "given": "Sita Sirisha",
+          "family": "Madugula",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-7962-3713",
+          "authenticated-orcid": false,
+          "given": "Pranav",
+          "family": "Pujar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5493-6328",
+          "authenticated-orcid": false,
+          "given": "Vindi Mahesha Jayasinghe",
+          "family": "Arachchige",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1067-4063",
+          "authenticated-orcid": false,
+          "given": "Jin",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6366-3619",
+          "authenticated-orcid": false,
+          "given": "Shouyi",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "6213",
+          "key": "2024030800500731000_2024.03.02.583136v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "1258096",
+          "DOI": "10.1126/science.1258096",
+          "article-title": "Genome editing. The new frontier of genome engineering with CRISPR-Cas9",
+          "volume": "346",
+          "year": "2014",
+          "journal-title": "Science (New York, N.Y"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1225829"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.09.038"
+        },
+        {
+          "issue": "4",
+          "key": "2024030800500731000_2024.03.02.583136v1.4",
+          "first-page": "xx",
+          "article-title": "HMMCAS: A Web Tool for the Identification and Domain Annotations of CRISPR-Cas Systems",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shanshan Yang. et al. “CASPredict: A Web Service for Identifying Cas Proteins”. In: PeerJ 9 (2021).",
+          "DOI": "10.7717/peerj.11887"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm360"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky425"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-016-2627-0"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/crispr.2020.33275853"
+        },
+        {
+          "issue": "10",
+          "key": "2024030800500731000_2024.03.02.583136v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005807",
+          "DOI": "10.1371/journal.pcbi.1005807",
+          "article-title": "A machine learning approach for predicting CRISPR-Cas9 cleavage efficiencies and patterns underlying its mechanism of action",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Victor A Padilha. et al. “CRISPRcasIdentifier: Machine learning for accurate identification”. In: GigaScience (2020). DOI: 32556168.",
+          "DOI": "10.1093/gigascience/giaa062"
+        },
+        {
+          "issue": "10",
+          "key": "2024030800500731000_2024.03.02.583136v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1352",
+          "DOI": "10.1093/bioinformatics/btaa984",
+          "article-title": "Casboundary: automated definition of integral Cas cassettes",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "issue": "10",
+          "key": "2024030800500731000_2024.03.02.583136v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "931",
+          "DOI": "10.1038/nmeth.3547",
+          "article-title": "Predicting effects of noncoding variants with deep learning–based sequence model",
+          "volume": "12",
+          "year": "2015",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.15",
+          "unstructured": "[First Name] Zhang. et al. “A hybrid CNN-SVR system for predicting gRNA on-target efficacy in the CRISPR-Cas9 system”. In: Journal Name 2020 (2020). DOI: DOINumber."
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.16",
+          "unstructured": "[First Name] Li. et al. “A CNN and XGBoost-based model, CNN-XG, for predicting sgRNA on-target knockout efficacy”. In: Journal Name 2022 (2022). DOI: DOINumber."
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.17",
+          "unstructured": "[First Name] Kirillov. et al. “A hybrid of Capsule Networks and Gaussian Processes for predicting gRNA cleavage efficiency”. In: Journal Name 2022 (2022). DOI: DOINumber."
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gabriel B Oliveira. et al. “TEMPROT: protein function annotation using transformers”. In: BMC Bioinformatics (2023). DOI: 37291492.",
+          "DOI": "10.1186/s12859-023-05375-0"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.19",
+          "unstructured": "Yiwen Hu. et al. “End-to-End Protein Normal Mode Frequency Predictions Using Transformers”. In: ACS Nano (2022). DOI: 36416536."
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wei Du. et al. “SecProCT: In Silico Prediction of Human Secretory Proteins Based on Transformer Architecture”. In: International Journal of Molecular Sciences (2021). DOI: 34445760.",
+          "DOI": "10.3390/ijms22169054"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xubo Tang. et al. “PLASMe: a tool to identify PLASMid contigs from short-read”. In: Nucleic Acids Research (2023). DOI: 37427782.",
+          "DOI": "10.1093/nar/gkad578"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.22",
+          "unstructured": "[First Name] Wan and [First Name] Jiang. “TransCrispr: A Transformer and CNN-based model for predicting sgRNA knockout efficacy”. In: Journal Name 2023 (2023). DOI: DOINumber."
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Shaojun Wang. et al. “NetGO 3.0: Protein Language Model Improves Large-scale Functional Annotations”. In: Genomics, Proteomics & Bioinformatics (2023).",
+          "DOI": "10.1101/2022.12.05.519073"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Orly Avraham. et al. “Protein language models can capture protein quaternary state”. In: bioRxiv (2023), pp. 2023–03.",
+          "DOI": "10.1101/2023.03.30.534955"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.25",
+          "article-title": "Llama: Open and efficient foundation language models",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.26",
+          "unstructured": "Jinhua Zhu. et al. “Uni-Fold MuSSe: De Novo Protein Complex Prediction with Protein Language Models”. In: bioRxiv (2023), pp. 2023–02."
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2020.07.12.199554"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.29",
+          "article-title": "xTrimoPGLM: unified 100B-scale pretrained transformer for deciphering the language of protein",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ahmed Elnaggar. et al. “Ankh: Optimized protein language model unlocks general-purpose modelling”. In: bioRxiv (2023), pp. 2023–01.",
+          "DOI": "10.1101/2023.01.16.524265"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.31",
+          "article-title": "Rita: a study on scaling up generative protein sequence models",
+          "year": "2022",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "1",
+          "key": "2024030800500731000_2024.03.02.583136v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "4348",
+          "DOI": "10.1038/s41467-022-32007-7",
+          "article-title": "ProtGPT2 is a deep unsupervised language model for protein design",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature communications"
+        },
+        {
+          "issue": "2",
+          "key": "2024030800500731000_2024.03.02.583136v1.33",
+          "first-page": "25",
+          "article-title": "Evaluating transfer learning for classification of proteins in bioinformatics",
+          "volume": "9",
+          "year": "2023",
+          "journal-title": "Memorias de las JAIIO"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Minhyeok Lee . “Deep learning in CRISPR-Cas systems: A review of recent studies”. In: Frontiers in Bioengineering and Biotechnology 11 (2023).",
+          "DOI": "10.3389/fbioe.2023.1226182"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1100"
+        },
+        {
+          "issue": "D1",
+          "key": "2024030800500731000_2024.03.02.583136v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "D437",
+          "DOI": "10.1093/nar/gkaa1038",
+          "article-title": "RCSB Protein Data Bank: powerful new tools for exploring 3D structures of biological macromolecules for basic and applied research and education in fundamental biology, biomedicine, biotechnology, bioengineering and energy sciences",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa977"
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.38",
+          "unstructured": "Ashish Vaswani. et al. “Attention is all you need”. In: Advances in neural information processing systems. 2017, pp. 5998–6008."
+        },
+        {
+          "key": "2024030800500731000_2024.03.02.583136v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Takuya Akiba. et al. Optuna: A Next-generation Hyperparameter Optimization Framework. https://optuna.org. Accessed: [Insert date of access]. 2019.",
+          "DOI": "10.1145/3292500.3330701"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.03.02.583136",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:03:07Z",
+        "timestamp": 1768456987000
+      },
+      "score": 53.88137,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.03.02.583136"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            6
+          ]
+        ]
+      },
+      "references-count": 39,
+      "URL": "https://doi.org/10.1101/2024.03.02.583136",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

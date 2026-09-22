@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table legends.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims, and presentation quality. Not assessed: editorial fit, formatting, or grammatical style.
+- **Shared manuscript claim summary** The authors combine experimental structure determination (X-ray crystallography for MoToxB; NMR for four new MAX effectors) with AlphaFold2 (AF2) structure prediction to validate the MAX effector fold in 77 of 94 previously defined ortholog groups (OGs) from Pyricularia oryzae. They propose a structural classification of the MAX effector superfamily into 20 groups based on variations in the canonical fold, disulfide bond patterns, and N-/C-terminal extensions, and analyze surface properties (electrostatics, stickiness) to infer functional diversity.
+- **Visible evidence base** Full text, including all results, methods, figure legends, and supplementary table/figure legends. No raw data files, structure coordinates, or alignment files were provided for independent verification.
+- **Missing materials affecting confidence** The manuscript references supplementary files (S1 File, S2 File) containing AF2 models and surface maps, but these were not provided. The web-based table of TM-pred models is referenced but not accessible from the manuscript. Experimental NMR restraint lists and structure validation metrics are summarized but not fully detailed. The crystallographic data for MoToxB are described only in supplementary methods, not provided.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive structural analysis of the MAX effector family in Pyricularia oryzae, combining experimental and computational approaches. The work is technically sound in its core methodology, and the validation of AF2 predictions against four new NMR structures is a valuable contribution. The proposed classification into 20 structural groups is a useful framework, though its biological significance remains speculative. The main weaknesses are the lack of quantitative validation metrics for the AF2 models, the subjective nature of the structural classification, and the limited functional interpretation of the observed surface diversity. The manuscript is of interest to the plant-pathogen effector community and to those studying structural evolution in rapidly diversifying protein families.
+- **Who would be interested in the results, and why** Researchers studying fungal effectors, particularly those working on Pyricularia oryzae and related pathogens, will find the expanded structural dataset and classification useful. The demonstration of AF2 reliability for this protein family will interest computational structural biologists. Those studying effector evolution and host-target interactions may use the surface property analysis to generate hypotheses. The work may also be relevant to researchers applying AF2 to other sequence-diverse protein families.
+- **Major strengths** 1) The combination of experimental structures (NMR and X-ray) with AF2 predictions provides a robust validation of the modeling approach. 2) The study significantly expands the number of experimentally determined MAX effector structures, from 6 to 10. 3) The systematic analysis of 77 validated MAX effector models is the most comprehensive structural survey of this family to date. 4) The identification of a tandem domain duplication in MAX52 is a novel finding. 5) The analysis of surface properties, including electrostatics and stickiness, adds a functional dimension beyond fold classification.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that AF2 predicts MAX effector structures with "very high accuracy" and that the models are reliable for all 77 validated OGs.
+  - **Evidence pointer** Results section "AlphaFold2 reliably predicts MAX effectors core and extensions"; Figure 3; S5 Table
+  - **Concern** The validation of AF2 accuracy is based on only four new NMR structures plus previously known structures. The authors report pLDDT scores for the 77 models, but the relationship between pLDDT and actual model accuracy is not systematically established for this protein family. For example, MAX28 has a MAX pLDDT score of 74.1, yet its model is described as very close to the experimental structure (r.m.s.d. 1.42 Å). The authors do not provide a calibration of pLDDT against model accuracy across the full set of 77 models, nor do they report per-residue confidence measures for the terminal extensions, which are often predicted with lower confidence. The claim that all 77 models are reliable is therefore not fully supported by the evidence presented.
+  - **Why it matters** The entire classification and surface analysis depends on the accuracy of the AF2 models. If some models are inaccurate, particularly those with lower pLDDT scores or unusual features, the classification and surface property conclusions could be compromised. The authors need to demonstrate that their model quality threshold is appropriate and that the models used for downstream analysis meet a defined accuracy standard.
+  - **Resolution test** Provide a quantitative analysis of model quality, such as a plot of pLDDT versus r.m.s.d. to the experimental structure for the known cases, and a clear statement of the pLDDT threshold used for accepting models. For models with pLDDT below the threshold, discuss the potential impact on the classification. If possible, validate a subset of lower-confidence models with additional experimental data or alternative prediction methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose a classification of MAX effectors into 20 structural groups and state that this "constitutes a major step in understanding the relationships among MAX effectors."
+  - **Evidence pointer** Results section "Two-thirds of the MAX effectors grouped in 20 structural classes"; Table 1; Figure 6
+  - **Concern** The classification is based on visual inspection of structural alignments and subjective criteria such as "additional secondary structures" and "variations of the MAX fold." The authors do not provide a quantitative basis for the grouping, such as a defined structural similarity threshold or a statistical test for cluster significance. The two clustering methods (Dali and TM-align) are described as giving similar results, but the degree of concordance is not quantified. The biological relevance of the groups is also not demonstrated; the authors speculate about functional implications but provide no experimental evidence linking structural groups to virulence functions or host targets.
+  - **Why it matters** A classification system is only useful if it is reproducible and if the groups are biologically meaningful. Without quantitative criteria, other researchers cannot apply the classification to new MAX effectors. The claim that this is a "major step" in understanding MAX effector relationships is overstated if the classification is not robust and its functional significance is untested.
+  - **Resolution test** Provide a quantitative measure of structural similarity that defines the groups, such as a pairwise r.m.s.d. or TM-score threshold. Demonstrate that the groups are statistically distinct, for example using a permutation test or bootstrap analysis. Discuss how the classification could be applied to new sequences and whether the groups correlate with any functional or evolutionary data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the NMR structures of four new MAX effectors were in remarkably good agreement with AlphaFold2 (AF2) predictions."
+  - **Evidence pointer** Results section "AlphaFold2 reliably predicts MAX effectors core and extensions"; Figure 3; S4 Table
+  - **Concern** The NMR structures are described as high quality, but the validation statistics are only summarized in S4 Table, which is not provided in the manuscript. The authors report r.m.s.d. values between NMR and AF2 models, but do not provide a detailed comparison of the structures, such as per-residue displacement plots or an analysis of which regions are well-predicted versus poorly-predicted. The statement that side-chain rotamers are "almost identical" is qualitative and not supported by quantitative data. The authors also do not discuss the limitations of NMR structures, such as the lack of experimental restraints for flexible regions, which could affect the comparison.
+  - **Why it matters** The validation of AF2 against experimental structures is a key claim of the manuscript. If the comparison is not rigorous, the conclusion that AF2 is reliable for MAX effectors is weakened. The authors need to provide a more detailed and quantitative comparison to convince readers that the AF2 models are accurate.
+  - **Resolution test** Provide the full validation statistics for the NMR structures (e.g., number of restraints, restraint violations, Ramachandran statistics) and a detailed comparison with AF2 models, including per-residue r.m.s.d. plots and an analysis of secondary structure and disulfide bond prediction accuracy. Discuss any regions of disagreement and their potential causes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "analysis of the surface properties of the MAX effector models highlights the high variability within the MAX family at the structural level, potentially reflecting the wide diversity of their virulence functions and host targets."
+  - **Evidence pointer** Results section "MAX domains exhibit highly variegated surface properties"; Figure 7
+  - **Concern** The surface property analysis is descriptive and does not provide testable hypotheses. The authors observe variability in electrostatics and stickiness but do not link these observations to specific functions or targets. For example, they note that AVR-Pia has a hydrophobic patch that correlates with its HMA binding site, but they do not extend this analysis to predict binding sites for other effectors. The claim that the variability "potentially reflects" functional diversity is speculative and not supported by any functional data.
+  - **Why it matters** The surface analysis is presented as a major outcome of the study, but it does not provide new biological insights. To be impactful, the authors need to use the surface properties to generate specific, testable predictions about effector function or to identify conserved or divergent features that correlate with known functional differences.
+  - **Resolution test** Provide a more focused analysis, such as identifying conserved surface patches across all MAX effectors that may represent common interaction sites, or correlating surface properties with known functional data (e.g., avirulence activity, host target identity). If possible, validate a prediction experimentally, such as by mutating a predicted binding site and testing the effect on effector function.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction, first paragraph
+  - **Issue** The abstract and introduction assume familiarity with effector biology and structural biology terminology. Terms such as "MAX effectors," "ß-sandwich core," and "ortholog groups" are used without sufficient explanation for a general scientific audience.
+  - **Required correction** Provide brief definitions or context for these terms in the introduction, and consider adding a sentence in the abstract that explains the significance of the MAX effector family in accessible language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "The structure of MoToxB presents the canonical MAX fold"
+  - **Evidence pointer** Figure 1; S1 Fig
+  - **Issue** The description of the MoToxB structure is brief, and the comparison with other MAX effectors is not quantified. The authors state that the structure is "similar" to five other MAX effectors but do not provide r.m.s.d. values or a structural alignment figure.
+  - **Required correction** Provide quantitative structural comparison data (e.g., r.m.s.d. values) for MoToxB against the other MAX effectors, and consider adding a figure showing the structural superposition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "N- and C-terminal extensions"
+  - **Evidence pointer** S7 Table; Figure 5
+  - **Issue** The analysis of terminal extensions is largely qualitative. The authors describe the presence of extensions but do not provide a systematic analysis of their length, sequence composition, or structural features across all 77 models.
+  - **Required correction** Provide a quantitative summary of extension lengths and predicted secondary structures, and consider analyzing whether extension features correlate with OG classification or surface properties.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion section "Comparison with modeling of MAX effectors from P. oryzae strain 70-15"
+  - **Evidence pointer** Discussion, second section
+  - **Issue** The comparison with previous studies is detailed but may be difficult to follow for readers not familiar with the specific methods (TrRosetta, CATH, SCOPe) and the strain 70-15 reference genome.
+  - **Required correction** Briefly explain the significance of strain 70-15 and the methods used in previous studies, and summarize the key differences in a more accessible way.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods section "Experimental Structures"
+  - **Evidence pointer** Materials and Methods, first section
+  - **Issue** The description of the NMR structure determination is incomplete. The authors do not provide details on the number of NOE assignments, the percentage of completed assignments, or the quality of the final structures beyond a reference to S4 Table.
+  - **Required correction** Provide a summary of the key NMR statistics in the main text or ensure that S4 Table is comprehensive and accessible.
+- **Technical failings that need to be addressed before the case is established** 1) The validation of AF2 models against experimental structures is not sufficiently quantitative. 2) The structural classification into 20 groups lacks objective, reproducible criteria. 3) The surface property analysis is descriptive and does not generate testable hypotheses. 4) The comparison of MoToxB with other MAX effectors is not quantified.
+- **Assessment against Nature-style criteria** Originality: The work is original in its comprehensive application of AF2 to a sequence-diverse effector family and in the expansion of experimental structures. However, the conceptual advance is incremental, as the existence of the MAX fold and its variability was already known. Scientific importance: The study provides a valuable resource for the effector community and demonstrates the utility of AF2 for this protein family. However, the biological significance of the structural classification is not established, limiting the broader impact. Interdisciplinary readership: The work will primarily interest plant pathologists and structural biologists. The methods and findings are unlikely to attract a broad interdisciplinary audience without clearer functional implications. Technical soundness: The experimental structure determination appears sound, and the AF2 methodology is appropriate. However, the lack of quantitative validation and the subjective classification criteria are weaknesses. Readability for nonspecialists: The manuscript is written for a specialist audience and would benefit from more accessible explanations of key concepts and findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core methodology is sound and the dataset is valuable, but the manuscript requires substantial revisions to strengthen the validation of AF2 models, provide objective classification criteria, and demonstrate the biological significance of the findings.
+
+## Risk / unsupported claims
+- The claim that AF2 predicts MAX effector structures with "very high accuracy" is not fully supported by the quantitative data presented.
+- The claim that the 20-group classification is a "major step" in understanding MAX effector relationships is overstated without evidence of biological relevance.
+- The statement that surface property variability "potentially reflects the wide diversity of their virulence functions and host targets" is speculative and not supported by functional data.
+- The claim that the combination of HMM-based pattern searches with AF2 modeling is "the most comprehensive approach" for establishing effector family composition is not directly tested against all possible alternatives.
+- The assertion that the tandem domain duplication in MAX52 is a novel finding is plausible but not placed in an evolutionary context.

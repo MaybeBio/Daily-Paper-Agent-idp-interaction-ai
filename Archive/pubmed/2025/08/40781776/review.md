@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, significance statement, introduction, materials and methods, results, discussion, acknowledgments, author contributions, and declaration of interests. Figures are referenced but not directly viewable. Supporting material is referenced but not provided.
+- **Assessment boundary** Assessment is limited to the scientific content, methodology, internal consistency, and support for claims as presented in the provided text. Experimental validation data (in vitro phase separation assays, pull-down assays) are described but raw data and images are not directly assessable.
+- **Shared manuscript claim summary** The authors employ multi-scale molecular dynamics simulations (CALVADOS2, Martini3, atomistic) combined with in vitro experiments to investigate phase separation of the MUT-16 scaffold protein and its recruitment of the client protein MUT-8 in C. elegans. They report that the FFR region drives phase separation, that Arg-Tyr interactions are key for MUT-8 recruitment, and that these interactions are stabilized by cation-π, sp2-π, and hydrogen bonding.
+- **Visible evidence base** Simulation methodology descriptions, simulation results (phase diagrams, contact maps, density profiles), and descriptions of in vitro experiments (phase separation assays, pull-down assays). Figures are referenced but not directly viewable. Supporting figures S1–S10 and Table S1 are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1–8 are not directly viewable, limiting assessment of data quality and quantitative results. Supporting material (Figures S1–S10, Table S1, Video S1, Video S2) is not provided. Raw experimental data, statistical analysis details, and simulation input parameters are not fully available.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive multi-scale simulation study of MUT-16 phase separation and MUT-8 recruitment, complemented by in vitro validation. The work addresses an important question in the field of biomolecular condensates: how specificity in client recruitment is achieved. The multi-scale approach is ambitious and generally well-executed, with appropriate cross-validation between methods. However, several technical concerns regarding simulation methodology, force field limitations, and the interpretation of experimental results need to be addressed before the conclusions are fully established. The claim that Arg-Tyr interactions are the primary driver of MUT-8 recruitment is supported by both simulation and experiment, but the quantitative strength of this conclusion is limited by the lack of detailed experimental data and potential force field biases.
+- **Who would be interested in the results, and why** Researchers studying biomolecular phase separation, particularly those interested in scaffold-client recognition mechanisms, will find this work valuable. The multi-scale simulation framework and the identification of specific residue-level interactions (Arg-Tyr cation-π) provide a template for studying similar systems. The work also has relevance for the RNA interference field, as it provides molecular insights into Mutator foci assembly in C. elegans. Computational biophysicists developing and benchmarking coarse-grained models for IDPs will also be interested in the comparison between CALVADOS2 and Martini3.
+- **Major strengths** 1) The multi-scale approach is well-designed, moving from residue-level to atomistic resolution in a logical progression. 2) The combination of simulation and experiment provides complementary evidence for the main conclusions. 3) The identification of specific residue-level interactions (Arg-Tyr) driving client recruitment is mechanistically insightful. 4) The comparison between CALVADOS2 and Martini3 models highlights important differences in force field predictions, which is valuable for the community. 5) The in vitro validation with Arg mutants provides direct experimental support for the computational predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "Both coarse-grained models (CALVADOS2 and Martini3) predicted the relative phase-separation propensities of MUT-16's disordered regions, which we confirmed through in vitro experiments."
+  - **Evidence pointer** Results section, Figure 2, Figure 3, Materials and methods
+  - **Concern** The quantitative comparison between simulation and experiment is not clearly presented. The authors report a two-order-of-magnitude difference between simulated and experimental Csat values, which they attribute to known CALVADOS2 limitations. However, the in vitro phase separation assays appear to be qualitative (visual inspection of droplet formation), making it difficult to assess whether the "relative" propensities are truly captured. The manuscript does not provide quantitative experimental measurements (e.g., saturation concentrations, droplet sizes) that would allow a rigorous comparison with simulation predictions.
+  - **Why it matters** The claim of agreement between simulation and experiment is central to the paper's conclusion that the multi-scale approach provides consistent predictions. Without quantitative experimental data, the strength of this agreement cannot be evaluated, and the predictive power of the simulations remains uncertain.
+  - **Resolution test** Provide quantitative experimental measurements of phase separation (e.g., turbidity assays, fluorescence recovery after photobleaching, or quantitative microscopy) for the MUT-16 constructs, and compare these directly with simulation predictions. Alternatively, clearly state the limitations of the qualitative comparison and temper the claim accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "Martini3 and 350-μs atomistic simulations on Folding@Home of MUT-8's N-terminal prion-like domain with MUT-16 M8BR cluster highlighted the importance of cation-π interactions between Tyr residues of MUT-8 and Arg residues of MUT-16 M8BR."
+  - **Evidence pointer** Results section, Figure 7, Materials and methods
+  - **Concern** The atomistic simulations are initiated by backmapping from a Martini3 simulation. This approach inherits any biases from the coarse-grained model into the atomistic simulations. The authors acknowledge that Martini3 overestimates protein-protein interactions and that Lys residues are "overly prone to interactions" in Martini3. However, the extent to which this bias affects the atomistic simulation results is not systematically addressed. The 1-μs initial atomistic simulation may not be sufficient to equilibrate the system after backmapping, and the 350-μs of distributed simulation from 100 different starting points may not provide statistically independent sampling.
+  - **Why it matters** The conclusion that Arg-Tyr interactions are the primary driver of MUT-8 recruitment depends critically on the reliability of the atomistic simulations. If the backmapping procedure introduces artifacts or if the sampling is insufficient, the observed interaction preferences may not reflect the true physics of the system.
+  - **Resolution test** Provide evidence that the atomistic simulations are equilibrated after backmapping (e.g., convergence of relevant observables over time). Assess the statistical independence of the 100 Folding@Home simulations and provide error estimates for the interaction frequencies. Compare the atomistic results with and without the Martini3 bias by, for example, running additional simulations with different initial conditions or using enhanced sampling methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "Simulations across different resolutions provide a consistent perspective on how MUT-16 condensates recruit MUT-8, enabling the fine-tuning of chemical details and balancing the computational cost."
+  - **Evidence pointer** Results section, Discussion
+  - **Concern** While the multi-scale approach is commendable, the manuscript does not clearly demonstrate that the different resolution models provide genuinely complementary information. The key finding (Arg-Tyr interactions) is identified in all models, but the added value of each level of resolution is not explicitly articulated. For example, what specific insights do the atomistic simulations provide that could not be obtained from the coarse-grained models alone? The claim of "fine-tuning of chemical details" is not substantiated with specific examples.
+  - **Why it matters** The paper's contribution to the field depends on demonstrating that the multi-scale approach yields insights beyond what single-scale methods could achieve. If the different models simply recapitulate the same findings, the methodological advance is less significant.
+  - **Resolution test** Explicitly discuss what unique information each simulation resolution provides. For example, identify specific interactions or mechanisms that are only visible at atomistic resolution, or demonstrate that the coarse-grained models miss important features that the atomistic simulations capture.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "The simulated Csat values (from residue-level coarse-grained simulations) and experimental Csat values differ by two orders of magnitude, consistent with previous studies."
+  - **Evidence pointer** Results section, Figure 3, Discussion
+  - **Concern** The comparison of Csat values between simulation and experiment is presented as a limitation of the CALVADOS2 model, but the authors do not discuss whether this discrepancy affects the validity of the relative phase-separation propensities. If the absolute values are off by two orders of magnitude, can the relative ordering of propensities be trusted? The authors also do not discuss whether the Martini3 simulations provide more accurate Csat values, or whether the atomistic simulations can be used to calibrate the coarse-grained predictions.
+  - **Why it matters** The quantitative accuracy of the simulations is important for the predictive power of the approach. If the models cannot accurately predict absolute phase-separation concentrations, their utility for studying other systems may be limited.
+  - **Resolution test** Provide a more detailed analysis of the Csat discrepancy, including a discussion of potential sources of error (force field parameters, finite-size effects, simulation length). If possible, compare the Martini3 and atomistic simulation predictions for Csat with experimental values. Discuss whether the relative propensities are robust to the absolute error.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript assumes significant familiarity with both phase separation concepts and simulation methodologies. Terms such as "upper critical solution temperature," "prion-like domain," and "backmapping" are used without sufficient explanation for a general biophysics audience.
+  - **Required correction** Add brief explanations of these terms when first used, or provide a glossary. For example, explain what "upper critical solution temperature" means in the context of phase separation and why it is relevant to the temperature-dependent behavior of MUT-16.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, Results
+  - **Evidence pointer** Materials and methods, Figure 3
+  - **Issue** The critical temperature (Tc) for MUT-16 FFR is reported as approximately 300 K, which is close to the simulation temperature of 300 K. This proximity raises concerns about the reliability of the phase-separation predictions, as the system may be near the critical point where fluctuations are large and finite-size effects are significant.
+  - **Required correction** Discuss the implications of operating near the critical temperature. Provide evidence that the simulation results are not significantly affected by critical fluctuations or finite-size effects. If necessary, perform additional simulations at lower temperatures to confirm the phase-separation behavior.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, Results
+  - **Evidence pointer** Materials and methods, Figure 7
+  - **Issue** The criteria for identifying cation-π and sp2-π interactions are described in the methods, but the sensitivity of the results to these criteria is not assessed. Different distance and angle cutoffs could potentially lead to different conclusions about the relative importance of Arg versus Lys interactions.
+  - **Required correction** Perform a sensitivity analysis of the interaction criteria and report how the results change with different cutoffs. This would strengthen the robustness of the conclusions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the biological implications of the findings is relatively brief. The authors do not fully explore how the molecular mechanism of MUT-8 recruitment relates to the broader function of Mutator foci in RNA silencing.
+  - **Required correction** Expand the discussion to connect the molecular findings to the biological context. For example, discuss how the strength of MUT-8 recruitment might affect the efficiency of RNA silencing, or how the identified interactions could be targeted for experimental manipulation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative comparison between simulation and experiment), R1-M2 (backmapping bias and sampling adequacy in atomistic simulations). These concerns directly affect the validity of the central claims and must be resolved before the conclusions can be considered established.
+
+## Risk / unsupported claims
+- The claim that "simulations across different resolutions provide a consistent perspective" is only partially supported, as the authors note significant differences between CALVADOS2 and Martini3 predictions (e.g., Lys stickiness, FFR:FFR vs M8BR:M8BR interaction preferences).
+- The claim that "the presence of a crowding agent stabilizes an otherwise unstable M8BR condensate" in the minimal simulation setup is speculative and not directly tested experimentally.
+- The statement that "the same 'molecular grammar'... plays a crucial role in regulating the behavior of disordered proteins" is a broad generalization that extends beyond the specific system studied.
+- The quantitative agreement between simulated and experimental phase-separation propensities is not rigorously established due to the lack of quantitative experimental measurements.
+- The biological significance of the observed Arg-Tyr interactions for RNA silencing function is inferred but not directly demonstrated.

@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "37374089",
+    "doi": "10.3390/life13061306",
+    "title": "Identification of Phase-Separation-Protein-Related Function Based on Gene Ontology by Using Machine Learning Methods."
+  },
+  "content": {
+    "abstract": "Phase-separation proteins (PSPs) are a class of proteins that play a role in the process of liquid-liquid phase separation, which is a mechanism that mediates the formation of membranelle compartments in cells. Identifying phase separation proteins and their associated function could provide insights into cellular biology and the development of diseases, such as neurodegenerative diseases and cancer. Here, PSPs and non-PSPs that have been experimentally validated in earlier studies were gathered as positive and negative samples. Each protein's corresponding Gene Ontology (GO) terms were extracted and used to create a 24,907-dimensional binary vector. The purpose was to extract essential GO terms that can describe essential functions of PSPs and build efficient classifiers to identify PSPs with these GO terms at the same time. To this end, the incremental feature selection computational framework and an integrated feature analysis scheme, containing categorical boosting, least absolute shrinkage and selection operator, light gradient-boosting machine, extreme gradient boosting, and permutation feature importance, were used to build efficient classifiers and identify GO terms with classification-related importance. A set of random forest (RF) classifiers with F1 scores over 0.960 were established to distinguish PSPs from non-PSPs. A number of GO terms that are crucial for distinguishing between PSPs and non-PSPs were found, including GO:0003723, which is related to a biological process involving RNA binding; GO:0016020, which is related to membrane formation; and GO:0045202, which is related to the function of synapses. This study offered recommendations for future research aimed at determining the functional roles of PSPs in cellular processes by developing efficient RF classifiers and identifying the representative GO terms related to PSPs.",
+    "keywords": [
+      "gene ontology",
+      "machine learning",
+      "phase-separation protein"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Qinglan",
+        "Huang, FeiMing",
+        "Guo, Wei",
+        "Feng, KaiYan",
+        "Huang, Tao",
+        "Cai, Yudong"
+      ],
+      "short_names": [
+        "Ma Q",
+        "Huang F",
+        "Guo W",
+        "Feng K",
+        "Huang T",
+        "Cai Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1975-9693",
+        "ORCID: 0000-0001-5664-7979"
+      ],
+      "affiliations": [
+        "School of Life Sciences, Shanghai University, Shanghai 200444, China.",
+        "School of Life Sciences, Shanghai University, Shanghai 200444, China.",
+        "Key Laboratory of Stem Cell Biology, Shanghai Jiao Tong University School of Medicine (SJTUSM) & Shanghai Institutes for Biological Sciences (SIBS), Chinese Academy of Sciences (CAS), Shanghai 200030, China.",
+        "Department of Computer Science, Guangdong AIB Polytechnic College, Guangzhou 510507, China.",
+        "Bio-Med Big Data Center, CAS Key Laboratory of Computational Biology, Shanghai Institute of Nutrition and Health, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai 200031, China.",
+        "CAS Key Laboratory of Tissue Microenvironment and Tumor, Shanghai Institute of Nutrition and Health, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai 200031, China.",
+        "School of Life Sciences, Shanghai University, Shanghai 200444, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Qinglan",
+        "short_name": "Ma Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Shanghai University, Shanghai 200444, China."
+        ]
+      },
+      {
+        "full_name": "Huang, FeiMing",
+        "short_name": "Huang F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Shanghai University, Shanghai 200444, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Wei",
+        "short_name": "Guo W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Stem Cell Biology, Shanghai Jiao Tong University School of Medicine (SJTUSM) & Shanghai Institutes for Biological Sciences (SIBS), Chinese Academy of Sciences (CAS), Shanghai 200030, China."
+        ]
+      },
+      {
+        "full_name": "Feng, KaiYan",
+        "short_name": "Feng K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Guangdong AIB Polytechnic College, Guangzhou 510507, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Tao",
+        "short_name": "Huang T",
+        "identifiers": [
+          "0000-0003-1975-9693"
+        ],
+        "affiliations": [
+          "Bio-Med Big Data Center, CAS Key Laboratory of Computational Biology, Shanghai Institute of Nutrition and Health, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai 200031, China.",
+          "CAS Key Laboratory of Tissue Microenvironment and Tumor, Shanghai Institute of Nutrition and Health, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai 200031, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Yudong",
+        "short_name": "Cai Y",
+        "identifiers": [
+          "0000-0001-5664-7979"
+        ],
+        "affiliations": [
+          "School of Life Sciences, Shanghai University, Shanghai 200444, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Life (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Life (Basel)"
+    ],
+    "pub_date": "2023 May 31",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/28 06:42",
+    "fetched_at": "2026-09-20 23:10:48"
+  },
+  "links": {
+    "cites": [
+      "42231907",
+      "42184109",
+      "38987300"
+    ],
+    "refs": [
+      "36650771",
+      "36644165",
+      "36610583",
+      "36230986",
+      "35687670",
+      "35586666",
+      "35168563",
+      "34761188",
+      "34371110",
+      "34335110",
+      "33650968",
+      "33329750",
+      "33318217",
+      "33208945",
+      "32873929",
+      "32726575",
+      "32603410",
+      "32548680",
+      "32302572",
+      "32302571",
+      "32302570",
+      "32189162",
+      "32025038",
+      "32015539",
+      "31769409",
+      "31675499",
+      "31540874",
+      "31492534",
+      "31480430",
+      "31252218",
+      "30846599",
+      "30682370",
+      "30661983",
+      "30587571",
+      "30449617",
+      "30082464",
+      "29908710",
+      "29602697",
+      "29439243",
+      "29424691",
+      "29381060",
+      "28935776",
+      "28283059",
+      "28225081",
+      "27838525",
+      "27565345",
+      "27353478",
+      "27289443",
+      "27212236",
+      "27203111",
+      "27056844",
+      "26791895",
+      "26727894",
+      "25747659",
+      "24825614",
+      "22794257",
+      "22357909",
+      "21801009",
+      "20639694",
+      "18326622",
+      "12070342",
+      "4995202",
+      "2062844"
+    ],
+    "similar": [
+      "37374089",
+      "35168563",
+      "37671046",
+      "25708243",
+      "26801878",
+      "32282466",
+      "36171880",
+      "36172153",
+      "30598073",
+      "30994888",
+      "36248961",
+      "29763967",
+      "22967952",
+      "18241343",
+      "34372798",
+      "33547553",
+      "33178256",
+      "37374086",
+      "21284890",
+      "27117309",
+      "37024885",
+      "28873455",
+      "35207515",
+      "35724564",
+      "36157069",
+      "37287138",
+      "30532199",
+      "25854804",
+      "28113911",
+      "29390084",
+      "33042784",
+      "33936969",
+      "23892294",
+      "23130999",
+      "37003039",
+      "35958412",
+      "26164062",
+      "30598114",
+      "36502028",
+      "35988261",
+      "35748253",
+      "24647341",
+      "28363286",
+      "30130573",
+      "27678076",
+      "36321557",
+      "30280245",
+      "36132086",
+      "29720103",
+      "36050710",
+      "37041520",
+      "32933493",
+      "31312416",
+      "28376281",
+      "31921635",
+      "36187616",
+      "35788343",
+      "33128263",
+      "36294718",
+      "37050761",
+      "18721473",
+      "32255576",
+      "32489524",
+      "37032832",
+      "35365726",
+      "18070366",
+      "35901452",
+      "37346612",
+      "34744829",
+      "36229793",
+      "32112598",
+      "27530612",
+      "30917548",
+      "37371390",
+      "34670553",
+      "33447862",
+      "31425811",
+      "27318205",
+      "34107850",
+      "29477548",
+      "29522145",
+      "37161202",
+      "38523792",
+      "28924506",
+      "35237262",
+      "34225240",
+      "35439946",
+      "37900183"
+    ],
+    "review": [
+      "37374089",
+      "36321557"
+    ],
+    "pmc": [
+      "10300870"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=life13061306",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37374089/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37374089",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

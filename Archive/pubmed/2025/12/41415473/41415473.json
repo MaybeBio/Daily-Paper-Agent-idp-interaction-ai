@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "41415473",
+    "doi": "10.64898/2025.12.13.694118",
+    "title": "RNA modulates FUS condensate assembly, dynamics, and aggregation through diverse molecular contacts."
+  },
+  "content": {
+    "abstract": "Fused in sarcoma (FUS) is an RNA-binding protein that undergoes phase separation with RNA and other cellular components, forming ribonucleoprotein (RNP) granules. While recent advances delineating the molecular forces that underlie phase separation have largely focused on protein-protein interactions (1-6), the molecular details of protein-RNA interactions within condensates remain limited. In this study, we demonstrate that RNA modulates the phase separation of the low-complexity (LC) and arginine-glycine-glycine motif (RGG1) domains of FUS: low RNA concentrations enhance protein phase separation and excess RNA disrupts it. By integrating biochemical assays, NMR spectroscopy, and molecular dynamics simulations, we show that RNA incorporates into FUS condensates, reducing condensate density while enhancing local relaxation and diffusional motion of FUS. Surprisingly, whereas RNA binding in the dispersed phase primarily involves the RGG1 domain, within the condensed phase, both LC and RGG1 domains contribute to interactions with RNA. NMR and simulation data show diverse interactions between amino acids and RNA moieties, including prominent glutamine-RNA contacts, that stabilize FUS-RNA co-condensates. Furthermore, we found that RNA accelerates the liquid-to-solid transition of FUS LC-RGG1 condensates, promoting fibrillar aggregate formation. Together, these results provide mechanistic insight into how RNA regulates the assembly, dynamics, and maturation of protein condensates.",
+    "keywords": [
+      "Intrinsically disordered protein",
+      "Molecular dynamics simulation",
+      "NMR spectroscopy",
+      "Phase separation",
+      "protein-RNA interaction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Tongyin",
+        "Sojitra, Kandarp A",
+        "Cummings, Samara",
+        "Chen, Qizan",
+        "Mohanty, Priyesh",
+        "Mittal, Jeetain",
+        "Fawzi, Nicolas L"
+      ],
+      "short_names": [
+        "Zheng T",
+        "Sojitra KA",
+        "Cummings S",
+        "Chen Q",
+        "Mohanty P",
+        "Mittal J",
+        "Fawzi NL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5132-6436",
+        "ORCID: 0009-0002-8801-699X",
+        "ORCID: 0009-0003-7605-4099",
+        "ORCID: 0009-0002-0058-1952",
+        "ORCID: 0000-0003-3919-3527",
+        "ORCID: 0000-0002-9725-6402",
+        "ORCID: 0000-0001-5483-0577"
+      ],
+      "affiliations": [
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+        "Department of Chemistry, Texas A&M University, College Station, TX, USA.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX, USA.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Tongyin",
+        "short_name": "Zheng T",
+        "identifiers": [
+          "0000-0002-5132-6436"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Sojitra, Kandarp A",
+        "short_name": "Sojitra KA",
+        "identifiers": [
+          "0009-0002-8801-699X"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Cummings, Samara",
+        "short_name": "Cummings S",
+        "identifiers": [
+          "0009-0003-7605-4099"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Qizan",
+        "short_name": "Chen Q",
+        "identifiers": [
+          "0009-0002-0058-1952"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Mohanty, Priyesh",
+        "short_name": "Mohanty P",
+        "identifiers": [
+          "0000-0003-3919-3527"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+          "Department of Chemistry, Texas A&M University, College Station, TX, USA.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Fawzi, Nicolas L",
+        "short_name": "Fawzi NL",
+        "identifiers": [
+          "0000-0001-5483-0577"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Dec 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/19 06:30",
+    "fetched_at": "2026-09-17 23:05:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39862884",
+      "38670952",
+      "38472406",
+      "38446881",
+      "38070499",
+      "37890457",
+      "37837191",
+      "37749234",
+      "37735903",
+      "37431963",
+      "37231298",
+      "35866309",
+      "35805146",
+      "35540439",
+      "34787357",
+      "34762868",
+      "34759379",
+      "34490845",
+      "34274326",
+      "34233002",
+      "34106046",
+      "33947944",
+      "33597515",
+      "33544852",
+      "33341693",
+      "33279579",
+      "32243832",
+      "32132204",
+      "30824544",
+      "30581145",
+      "29961577",
+      "29913160",
+      "29569441",
+      "29424691",
+      "28790177",
+      "28650318",
+      "28575444",
+      "28556382",
+      "26979279",
+      "26526393",
+      "26455390",
+      "26412307",
+      "26317470",
+      "25300025",
+      "24464995",
+      "24240615",
+      "23257289",
+      "21514302",
+      "19174564",
+      "14681388",
+      "11953318",
+      "11500966",
+      "9312034"
+    ],
+    "similar": [
+      "41415473",
+      "40794831",
+      "34862761",
+      "37890778",
+      "29677513",
+      "31270472",
+      "41278651",
+      "35943083",
+      "34759379",
+      "33547841",
+      "38279531",
+      "34487489",
+      "37961424",
+      "38492239",
+      "26455390",
+      "35709363",
+      "32426986",
+      "40281357",
+      "37211763",
+      "33307683",
+      "40857360",
+      "31805282",
+      "37720552",
+      "39495179",
+      "29961577",
+      "34648275",
+      "34156864",
+      "36453011",
+      "40654645",
+      "28924037",
+      "36993212",
+      "38029395",
+      "28790177",
+      "29677515",
+      "37399327",
+      "35297101",
+      "28942918",
+      "40516596",
+      "35930639",
+      "39486437",
+      "38157426",
+      "35333653",
+      "37134270",
+      "40842365",
+      "41360394",
+      "37155880",
+      "37549257",
+      "33302617",
+      "37231298",
+      "38070499",
+      "41023446",
+      "37735186",
+      "30791483",
+      "33411976",
+      "38347806",
+      "33607084",
+      "40291709",
+      "40321778",
+      "36798393",
+      "33184287",
+      "36883003",
+      "39372747",
+      "38405719",
+      "35203243",
+      "36945688",
+      "37205474",
+      "35325593",
+      "36361989",
+      "39920231",
+      "37386790",
+      "31188823",
+      "31630970",
+      "40981365",
+      "41279901",
+      "34624313",
+      "29358076",
+      "35187086",
+      "23912807",
+      "26526393",
+      "39591652",
+      "34018649",
+      "41169547",
+      "41311968",
+      "38105257",
+      "33794191",
+      "38056002",
+      "35911965",
+      "33515602",
+      "40782375",
+      "34074792",
+      "37179431",
+      "38971830",
+      "32231288",
+      "31437398",
+      "40291420",
+      "30397184",
+      "37684240",
+      "35445401",
+      "36657879",
+      "41433062"
+    ],
+    "review": [
+      "41415473",
+      "37720552",
+      "38029395",
+      "37399327"
+    ],
+    "pmc": [
+      "12710966"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41415473/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2025.12.13.694118",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36004748",
+  "title": "Model biomolecular condensates have heterogeneous structure quantitatively dependent on the interaction profile of their constituent macromolecules.",
+  "authors": "Shillcock, Julian C; Lagisquet, Clement; Alexandre, Jeremy; Vuillon, Laurent; Ipsen, John H",
+  "journal": "Soft matter",
+  "published_date": "2022-08-26",
+  "window": {
+    "start": "2022-08-22",
+    "end": "2022-08-28"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化分子模拟研究模型无序蛋白通过多位点互作形成异质结构凝聚体的机制，定量揭示结合位点分布与亲和力对致密相结构的影响，直接契合无序蛋白PPI与相分离机制建模主题。",
+  "abstract": "Biomolecular condensates play numerous roles in cells by selectively concentrating client proteins while excluding others. These functions are likely to be sensitive to the spatial organization of the scaffold proteins forming the condensate. We use coarse-grained molecular simulations to show that model intrinsically-disordered proteins phase separate into a heterogeneous, structured fluid characterized by a well-defined length scale. The proteins are modelled as semi-flexible polymers with punctate, multifunctional binding sites in good solvent conditions. Their dense phase is highly solvated with a spatial structure that is more sensitive to the separation of the binding sites than their affinity. We introduce graph theoretic measures to quantify their heterogeneity, and find that it increases with increasing binding site number, and exhibits multi-timescale dynamics. The model proteins also swell on passing from the dilute solution to the dense phase. The simulations predict that the structure of the dense phase is modulated by the location and affinity of binding sites distant from the termini of the proteins, while sites near the termini more strongly affect its phase behaviour. The relations uncovered between the arrangement of weak interaction sites on disordered proteins and the material properties of their dense phase can be experimentally tested to give insight into the biophysical properties, pathological effects, and rational design of biomolecular condensates.",
+  "abstract_zh": "生物分子凝聚体通过选择性富集客户蛋白同时排除其他蛋白，在细胞中发挥多种作用。这些功能可能对形成凝聚体的支架蛋白的空间组织敏感。我们使用粗粒化分子模拟表明，模型 intrinsically disordered proteins（内在无序蛋白）相分离 (phase separation) 成一种异质性、结构化的流体，其特征是具有明确长度尺度。这些蛋白被建模为在良溶剂条件下的半柔性聚合物，带有点状、多功能结合位点。它们的致密相高度溶剂化，其空间结构对结合位点间距的敏感性高于对其亲和力的敏感性。我们引入图论度量来量化其异质性，并发现异质性随结合位点数量的增加而增加，且表现出多时间尺度动力学。模型蛋白在从稀溶液过渡到致密相时也会膨胀。模拟预测，致密相的结构受远离蛋白末端的结合位点位置和亲和力调节，而靠近末端的位点则更强烈地影响其相行为。所揭示的关于无序蛋白上弱相互作用位点排列与其致密相材料性质之间的关系，可通过实验测试，以深入了解生物分子凝聚体的生物物理特性、病理效应及合理设计。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36004748/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36004748/",
+  "paper_page_path": "papers/pubmed/36004748/index.html"
+}

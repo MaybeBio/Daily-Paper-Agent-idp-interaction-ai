@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40884921",
+  "title": "Structure-activity relationship and molecular interaction mechanisms of the ACE-inhibitory tripeptide LL-X.",
+  "authors": "Yang, Cuicui; Cai, Mengmeng; Ma, Zhengkun; Liu, Pengru; Lan, Xiongdiao",
+  "journal": "Bioorganic chemistry",
+  "published_date": "2025-08-31",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过分子对接和MD模拟探究ACE抑制三肽的构效关系与结合机制，虽涉及无序结构区域但对象为ACE酶而非IDP介导的PPI，方法可迁移但互作机制深度有限。",
+  "abstract": "Investigating the molecular interaction mechanisms of angiotensin-converting enzyme (ACE) inhibitory peptides is valuable in antihypertensive drug development. In this study, we designed two novel peptide variants, Leu-Leu-Phe (LLF) and Leu-Leu-Pro (LLP), by substituting the C-terminal tyrosine (Tyr) in casein-derived Leu-Leu-Tyr (LLY) with phenylalanine (Phe) and proline (Pro), respectively, to investigate the impact of C-terminal amino acid properties of peptide on ACE inhibition. The ACE inhibitory activity, inhibition kinetics, peptides-ACE binding mechanisms, and LLF and LLP conformational relationship were systematically investigated with comparative assessment against the LLY. The results showed the ACE inhibitory activity of the synthetic peptide (LLF: IC(50) = 168.57 +/- 5.11 muM; LLP: IC(50) = 96.64 +/- 2.93 muM) was significantly lower than that casein-derived tripeptide LLY (IC(50) = 44.16 +/- 2.45 muM). The Lineweaver-Burk plots and molecular docking indicated that both LLF and LLP were noncompetitive inhibitors, which was consistent with LLY. Molecular dynamics simulations validated their stable binding to the ACE complex. The comparison of the three peptides interacting with ACE using multispectral techniques indicated that LLY resulted in the formation of a greater number of disordered protein structural regions, rendering it more active than the other peptides. Consequently, we concluded that the role of the C-terminal Tyr in the ACE inhibitory peptide LLY is more significant than that of Phe and Pro. This study highlights the crucial influence of C-terminal amino acids on the inhibitory activity of tripeptides, providing an essential theoretical foundation for the rational design of effective ACE inhibitory peptides.",
+  "abstract_zh": "研究血管紧张素转换酶（ACE）抑制肽的分子相互作用机制对降压药物开发具有重要意义。本研究通过将酪蛋白来源的三肽Leu-Leu-Tyr（LLY）C末端酪氨酸（Tyr）分别替换为苯丙氨酸（Phe）和脯氨酸（Pro），设计出两种新型肽变体Leu-Leu-Phe（LLF）和Leu-Leu-Pro（LLP），以探讨肽C末端氨基酸特性对ACE抑制的影响。系统研究了ACE抑制活性、抑制动力学、肽-ACE结合机制以及LLF和LLP的构象关系，并与LLY进行了比较评估。结果表明，合成肽的ACE抑制活性（LLF：IC(50) = 168.57 ± 5.11 μM；LLP：IC(50) = 96.64 ± 2.93 μM）显著低于酪蛋白来源三肽LLY（IC(50) = 44.16 ± 2.45 μM）。Lineweaver-Burk图和分子对接表明，LLF和LLP均为非竞争性抑制剂，与LLY一致。分子动力学模拟验证了它们与ACE复合物的稳定结合。通过多光谱技术比较三种肽与ACE的相互作用，发现LLY导致更多无序蛋白质结构区域的形成，使其比其他肽更具活性。因此，我们得出结论，C末端Tyr在ACE抑制肽LLY中的作用比Phe和Pro更为显著。本研究强调了C末端氨基酸对三肽抑制活性的关键影响，为合理设计有效的ACE抑制肽提供了重要的理论基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40884921/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40884921/",
+  "paper_page_path": "papers/pubmed/40884921/index.html"
+}

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, conclusions, and materials and methods. Supplementary figure legends are referenced but not provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the manuscript. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors report that RIM1α and RIM-binding protein (RBP) form liquid-like condensates via liquid–liquid phase separation under physiological conditions, that these condensates undergo a time-dependent liquid-to-solid transition into β-sheet-rich fibrillar aggregates, and that the presence of small unilamellar lipid vesicles (SUVs) mimicking synaptic vesicle composition inhibits this transition, maintaining the liquid state.
+- **Visible evidence base** Fluorescence microscopy of condensate formation and phase diagram; Thioflavin T (ThT) fluorescence assays; fluorescence recovery after photobleaching (FRAP); dissolution assays with 1,6-hexanediol and KCl; Fourier transform infrared (FTIR) spectroscopy; transmission electron microscopy (TEM); diffusional sizing experiments. Supplementary figures S1–S8 are referenced but not available for review.
+- **Missing materials affecting confidence** Supplementary figures S1–S8, including the phase diagram (Figure 1b), FTIR spectra (Figure S5), TEM images (Figure 3b), and supporting data for protein purity (Figures S7, S8). Without these, several key claims cannot be fully verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question regarding the role of lipids in modulating the material state of presynaptic protein condensates. The observation that SUVs suppress the liquid-to-solid transition of RIM1α/RBP condensates is potentially significant. However, the evidence presented is incomplete in several critical areas, particularly regarding the quantitative characterization of the phase diagram, the kinetics of the liquid-to-solid transition, and the mechanistic basis for the lipid effect. The claim that cholesterol is responsible for the observed inhibition is speculative and not directly tested. The manuscript would benefit from additional experiments and more rigorous quantitative analysis.
+- **Who would be interested in the results, and why** Researchers in the fields of phase separation, membraneless organelles, synaptic biology, and neurodegeneration. The findings are relevant to understanding how lipid membranes can modulate protein condensation and aggregation, with implications for both normal synaptic function and disease mechanisms.
+- **Major strengths** The study addresses a biologically important system (RIM1α/RBP) with relevance to synaptic function. The combination of multiple biophysical techniques (fluorescence microscopy, FRAP, FTIR, TEM, diffusional sizing) is appropriate. The finding that lipids can inhibit the liquid-to-solid transition is novel and potentially impactful. The use of SUVs with a composition resembling synaptic vesicles is a reasonable model system.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that RIM1α and RBP form liquid-like condensates under physiological conditions and that these condensates undergo a liquid-to-solid transition over time.
+  - **Evidence pointer** Figures 1a, 2a–c, 3a; location not provided
+  - **Concern** The FRAP data show only 25% recovery for fresh condensates, which is low for a liquid-like state. The authors do not provide a quantitative comparison with known liquid condensates or a detailed analysis of the mobile fraction. The time course of the liquid-to-solid transition is not systematically characterized; only a single time point (8 days) is used for dissolution assays, and the imaging over 20 h (Figure 3a) is described qualitatively. The claim of a "liquid-to-solid transition" requires more rigorous rheological or microrheological measurements, or at least a more complete FRAP analysis with multiple time points and replicates.
+  - **Why it matters** The central claim of the manuscript is that RIM1α/RBP condensates are initially liquid and then transition to a solid state. Without robust evidence for the liquid nature of the initial condensates and a well-defined transition kinetics, the foundation of the study is weakened.
+  - **Resolution test** Provide quantitative FRAP data with mobile fractions and recovery half-times for multiple independent condensates at several time points. Include a time-resolved analysis of the transition (e.g., ThT fluorescence or FRAP at multiple time points) to establish the kinetics. Consider complementary techniques such as microrheology or atomic force microscopy to confirm the material properties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that SUVs inhibit the liquid-to-solid transition and that cholesterol is responsible for this effect.
+  - **Evidence pointer** Figures 3a–d, S6; location not provided
+  - **Concern** The evidence for the inhibitory effect of SUVs is primarily qualitative (visual inspection of condensate morphology over time). The claim that cholesterol is the key component is based on a comparison between SUVs with and without cholesterol (Figure S6), but this figure is not provided. The authors do not test other lipid compositions or concentrations, nor do they provide a mechanistic explanation for how cholesterol might enhance condensate–lipid interactions. The alternative explanation that 1,6-hexanediol partitions into the SUVs is mentioned but not experimentally addressed.
+  - **Why it matters** The title and central conclusion of the manuscript depend on the specific role of lipids, and the cholesterol claim is a key mechanistic assertion. Without direct evidence, the conclusion is not established.
+  - **Resolution test** Provide the data for Figure S6. Perform a systematic titration of lipid composition and concentration. Test the effect of cholesterol in a more controlled manner, e.g., by varying cholesterol mole fraction. Address the 1,6-hexanediol partitioning issue with a control experiment, such as measuring 1,6-hexanediol concentration in the presence and absence of SUVs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use diffusional sizing to infer the formation of nanoclusters of RIM1α with RBP prior to liquid–liquid phase separation.
+  - **Evidence pointer** Figure S3; location not provided
+  - **Concern** The diffusional sizing experiment is described only briefly. The interpretation that an increase in hydrodynamic radius indicates the formation of "nanoclusters" is plausible but not rigorously supported. The authors do not provide details on the size distribution, stoichiometry, or whether the observed species are equilibrium clusters or transient aggregates. The relationship between these nanoclusters and the subsequent phase separation is not established.
+  - **Why it matters** This claim is used to support the mechanism of phase separation, but the data are insufficient to draw firm conclusions about the pre-nucleation species.
+  - **Resolution test** Provide the full diffusional sizing data, including size distributions and controls. Consider complementary techniques such as dynamic light scattering or analytical ultracentrifugation to confirm the presence and nature of the nanoclusters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and Methods, Protein Expression
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the RIM1α construct preparation is confusing. The text states "Purified RIM1α-N(1–474) was combined with RIM1α-N(1–474) and sortase Δ59 in a 2:1:1 molar ratio." This appears to be a typo, as it likely should read "RIM1α-N(1–474) was combined with RIM1α-N(483–1334) and sortase Δ59."
+  - **Required correction** Correct the typo to accurately describe the ligation reaction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and Discussion, "RIM1α/RBP Condensates Undergo a Liquid-to-Solid Transition into Fibrillar Aggregates over Time"
+  - **Evidence pointer** Figure 3a; location not provided
+  - **Issue** The imaging over 20 h is described qualitatively. The authors state "nucleation was observed after 5 h, followed by growth of fibrils," but no quantitative analysis of fibril growth kinetics is provided.
+  - **Required correction** Provide quantitative data on fibril growth, such as fibril length or ThT fluorescence intensity as a function of time.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and Discussion, "RIM1α/RBP Condensates Undergo a Liquid-to-Solid Transition into Fibrillar Aggregates over Time"
+  - **Evidence pointer** Figure 3b; location not provided
+  - **Issue** The TEM images are described as showing fibrillar morphology, but the scale and representative nature of the images are not discussed. It is unclear if the fibrils are the dominant species or a minor component.
+  - **Required correction** Provide representative TEM images with scale bars and a description of the frequency of fibrillar structures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results and Discussion, "RIM1α/RBP Condensates Undergo a Liquid-to-Solid Transition into Fibrillar Aggregates over Time"
+  - **Evidence pointer** Figure 2d; location not provided
+  - **Issue** The dissolution assay with 1,6-hexanediol and KCl is used to infer the nature of interactions. The authors conclude that hydrophobic interactions dominate, but the partial dissolution with KCl is not discussed in detail.
+  - **Required correction** Provide a more detailed interpretation of the partial dissolution with KCl and its implications for the role of electrostatic interactions.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative FRAP data, the incomplete characterization of the phase diagram, the absence of a systematic time course for the liquid-to-solid transition, and the lack of direct evidence for the cholesterol-specific effect are the main technical shortcomings. The manuscript also relies heavily on supplementary figures that are not provided for review.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The finding that lipids can inhibit the liquid-to-solid transition of RIM1α/RBP condensates is novel and adds to the growing understanding of how lipids modulate phase separation. However, the concept that lipids can influence protein condensation is not entirely new.
+  - **Scientific importance** The results have potential implications for understanding synaptic function and dysfunction, and for the broader field of phase separation in biology. The importance is moderate to high, depending on the robustness of the evidence.
+  - **Interdisciplinary readership** The topic is of interest to biophysicists, cell biologists, and neuroscientists. The interdisciplinary appeal is good.
+  - **Technical soundness** The technical soundness is currently insufficient due to the lack of quantitative data and incomplete controls. The conclusions are not fully supported by the evidence presented.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but some sections, particularly the description of the phase diagram and diffusional sizing, could be clearer for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question, but the key claims require additional quantitative data and controls. I would be supportive if the major concerns are addressed with rigorous experiments.
+
+## Risk / unsupported claims
+- The claim that RIM1α/RBP condensates are "liquid-like" is not fully supported by the FRAP data, which show only 25% recovery.
+- The claim that SUVs inhibit the liquid-to-solid transition is based on qualitative observations and lacks quantitative analysis.
+- The claim that cholesterol is responsible for the inhibitory effect is speculative and not directly tested.
+- The claim that lipids interact with condensates at the monomeric protein level is not supported by direct evidence.
+- The interpretation of diffusional sizing data as evidence for "nanoclusters" is not rigorously established.
+- The phase diagram (Figure 1b) is referenced but not shown in the provided text, making the described phase regimes unverifiable.

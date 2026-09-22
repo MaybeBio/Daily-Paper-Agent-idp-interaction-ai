@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36691744",
+  "title": "Structural investigation of CDCA3-Cdh1 protein-protein interactions using in vitro studies and molecular dynamics simulation.",
+  "authors": "Barbhuiya, Tabassum Khair; Fisher, Mark; Boittier, Eric D; Bolderson, Emma; O'Byrne, Kenneth J; Richard, Derek J; Adams, Mark Nathaniel; Gandhi, Neha S",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2023-01-25",
+  "window": {
+    "start": "2023-01-23",
+    "end": "2023-01-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合体外实验与分子动力学模拟，探究无序蛋白CDCA3中磷酸化依赖的非经典ABBA样基序与Cdh1的PPI结合机制，揭示锚定残基及结构-亲和力关系，直接契合无序蛋白互作机制建模主题。",
+  "abstract": "The anaphase-promoting complex/cyclosome (APC/C) ubiquitin ligase and its cofactor, Cdh1, regulate the expression of several cell-cycle proteins and their functions during mitosis. Levels of the protein cell division cycle-associated protein 3 (CDCA3), which is functionally required for mitotic entry, are regulated by APC/C(Cdh1) . CDCA3 is an intrinsically disordered protein and contains both C-terminal KEN box and D-box recognition motifs, enabling binding to Cdh1. Our previous findings demonstrate that CDCA3 has a phosphorylation-dependent non-canonical ABBA-like motif within the linker region bridging these two recognition motifs and is required for efficient binding to Cdh1. Here, we sought to identify and further characterize additional residues that participate within this ABBA-like motif using detailed in vitro experiments and in silico modeling studies. We identified the role of H-bonds, hydrophobic and ionic interactions across the CDCA3 ABBA-like motif in the linker region between KEN and D-box motifs. This linker region adopts a well-defined structure when bound to Cdh1 in the presence of phosphorylation. Upon alanine mutation, the structure of this region is lost, leading to higher flexibility, and alteration in affinities due to binding to alternate sites on Cdh1. Our findings identify roles for the anchoring residues in the non-canonical ABBA-like motif to promote binding to the APC/C(Cdh1) and regulation of CDCA3 protein levels.",
+  "abstract_zh": "后期促进复合物/环osome（APC/C）泛素连接酶及其辅因子Cdh1调控多种细胞周期蛋白在分裂期的表达及其功能。细胞分裂周期相关蛋白3（CDCA3）的水平受APC/C(Cdh1)调控，该蛋白在进入有丝分裂时功能上必需。CDCA3是一种固有无序蛋白，包含C端KEN box和D-box识别基序，使其能够与Cdh1结合。我们先前的研究表明，CDCA3在连接这两个识别基序的接头区域内含有一个磷酸化依赖的非经典ABBA样基序，该基序对高效结合Cdh1是必需的。在本研究中，我们旨在通过详细的体外实验和计算机模拟研究，进一步鉴定和表征参与该ABBA样基序的其他残基。我们确定了CDCA3 ABBA样基序中KEN box和D-box基序之间接头区域内氢键、疏水相互作用和离子相互作用的作用。在磷酸化存在下，该接头区域在与Cdh1结合时呈现明确的结构。丙氨酸突变后，该区域结构丧失，导致灵活性增加，并因结合Cdh1上的替代位点而改变亲和力。我们的发现揭示了非经典ABBA样基序中锚定残基在促进与APC/C(Cdh1)结合及调控CDCA3蛋白水平中的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36691744/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36691744/",
+  "paper_page_path": "papers/pubmed/36691744/index.html"
+}

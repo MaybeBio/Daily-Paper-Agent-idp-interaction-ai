@@ -1,0 +1,213 @@
+{
+  "identity": {
+    "pmid": "37114769",
+    "doi": "10.1021/acs.jpcb.3c00982",
+    "title": "Conformational Plasticity in alpha-Synuclein and How Crowded Environment Modulates It."
+  },
+  "content": {
+    "abstract": "A 140-residue intrinsically disordered protein (IDP), alpha-synuclein (alphaS), is known to adopt conformations that are vastly plastic and susceptible to environmental cues and crowders. However, the inherently heterogeneous nature of alphaS has precluded a clear demarcation of its monomeric precursor between aggregation-prone and functionally relevant aggregation-resistant states and how a crowded environment could modulate their mutual dynamic equilibrium. Here, we identify an optimal set of distinct metastable states of alphaS in aqueous media by dissecting a 73 mus-long molecular dynamics ensemble via building a comprehensive Markov state model (MSM). Notably, the most populated metastable state corroborates with the dimension obtained from PRE-NMR studies of alphaS monomer, and it undergoes kinetic transition at diverse time scales with a weakly populated random-coil-like ensemble and a globular protein-like state. However, subjecting alphaS to a crowded environment results in a nonmonotonic compaction of these metastable conformations, thereby skewing the ensemble by either introducing new tertiary contacts or by reinforcing the innate contacts. The early stage of dimerization process is found to be considerably expedited in the presence of crowders, albeit promoting nonspecific interactions. Together with this, using an extensively sampled ensemble of alphaS, this exposition demonstrates that crowded environments can potentially modulate the conformational preferences of IDP that can either promote or inhibit aggregation events.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry",
+      "Molecular Conformation",
+      "Magnetic Resonance Spectroscopy",
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Menon, Sneha",
+        "Mondal, Jagannath"
+      ],
+      "short_names": [
+        "Menon S",
+        "Mondal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1090-5199"
+      ],
+      "affiliations": [
+        "Tata Institute of Fundamental Research Hyderabad, Telangana 500046, India.",
+        "Tata Institute of Fundamental Research Hyderabad, Telangana 500046, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Menon, Sneha",
+        "short_name": "Menon S",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad, Telangana 500046, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Jagannath",
+        "short_name": "Mondal J",
+        "identifiers": [
+          "0000-0003-1090-5199"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad, Telangana 500046, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2023 May 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/28 12:43",
+    "fetched_at": "2026-09-20 21:27:37"
+  },
+  "links": {
+    "cites": [
+      "41618566",
+      "41339963",
+      "40767343",
+      "40271036",
+      "39660892",
+      "39285530",
+      "39134696",
+      "39087984",
+      "38899873",
+      "38203531",
+      "37338049"
+    ],
+    "refs": [],
+    "similar": [
+      "37114769",
+      "39087984",
+      "33719460",
+      "23583776",
+      "23912807",
+      "23607785",
+      "33903234",
+      "22947936",
+      "23374074",
+      "17681539",
+      "19554627",
+      "26950519",
+      "27273030",
+      "38358134",
+      "32179119",
+      "29642031",
+      "21044603",
+      "26477939",
+      "35912724",
+      "30318002",
+      "27809690",
+      "16366524",
+      "32623047",
+      "19481095",
+      "26808899",
+      "34015255",
+      "30184304",
+      "27612332",
+      "35883550",
+      "32499486",
+      "20947801",
+      "36794792",
+      "33386904",
+      "19576220",
+      "23978162",
+      "36413494",
+      "30917118",
+      "28667699",
+      "22552968",
+      "34439733",
+      "30771172",
+      "20592036",
+      "22029383",
+      "29474083",
+      "32709107",
+      "23398399",
+      "24871041",
+      "23991082",
+      "30933517",
+      "18031063",
+      "25135664",
+      "37407505",
+      "19847913",
+      "22211521",
+      "33030907",
+      "19475665",
+      "26332674",
+      "29451381",
+      "23343468",
+      "33337879",
+      "15671169",
+      "33587794",
+      "30917651",
+      "30771181",
+      "31132261",
+      "18198943",
+      "35041853",
+      "24021023",
+      "28406520",
+      "31147655",
+      "21570984",
+      "30041032",
+      "24361273",
+      "27860069",
+      "35167083",
+      "37982746",
+      "11286556",
+      "22174265",
+      "35384652",
+      "33345970",
+      "27531743",
+      "33434528",
+      "21524999",
+      "35543707",
+      "31903719",
+      "27759128",
+      "26396193",
+      "31937832",
+      "33568632",
+      "31799519",
+      "27588692",
+      "28820253",
+      "31477241",
+      "28980756",
+      "32164323",
+      "39285530",
+      "23162382",
+      "37590118",
+      "37382437"
+    ],
+    "review": [
+      "37114769",
+      "35883550",
+      "33434528"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.3c00982",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

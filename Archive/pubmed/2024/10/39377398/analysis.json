@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39377398",
+  "title": "Atomistic Insights into Sequence-Mediated Spontaneous Association of Short RNA Chains.",
+  "authors": "Mondal, Manas; Gao, Yi Qin",
+  "journal": "Biochemistry",
+  "published_date": "2024-10-08",
+  "window": {
+    "start": "2024-10-07",
+    "end": "2024-10-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用原子级分子动力学模拟研究短RNA链的序列介导自发缔合及相分离机制，虽对象为RNA而非无序蛋白，但其序列-离子-水化调控缔合与凝聚体的机制建模思路对IDR介导PPI/相分离研究有可迁移启发。",
+  "abstract": "RNA-RNA association and phase separation appear to be essential for the assembly of stress granules and underlie RNA foci formation in repeat expansion disorders. RNA molecules are found to play a significant role in gene-regulatory functions via condensate formation among themselves or with RNA-binding proteins. The interplay between driven versus spontaneous processes is likely to be an important factor for controlling the formation of RNA-mediated biomolecular condensate. However, the sequence-specific interactions and molecular mechanisms that drive the spontaneous RNA-RNA association and help to form RNA-mediated phase-separated condensate remain unclear. With microseconds-long atomistic molecular simulations here, we report how essential aspects of RNA chains, namely, base composition, metal ion binding, and hydration properties, contribute to the association of the series of simplest biologically relevant homopolymeric and heteropolymeric short RNA chains. We show that spontaneous processes make the key contributions governed by the sequence-intrinsic properties of RNA chains, where the definite roles of base-specific hydrogen bonding and stacking interactions are prominent in the association of the RNA chains. Purine versus pyrimidine contents of RNA chains can directly influence the association properties of RNA chains by modulating hydrogen bonding and base stacking interactions. This study determines the impact of ionic environment in sequence-specific spontaneous association of short RNA chains, hydration features, and base-specific interactions of Na(+), K(+), and Mg(2+) ions with RNA chains.",
+  "abstract_zh": "RNA-RNA关联和相分离（phase separation）对于应激颗粒的组装至关重要，并构成重复扩增疾病中RNA foci形成的基础。研究发现，RNA分子通过自身或与RNA结合蛋白形成凝聚体，在基因调控功能中发挥重要作用。驱动过程与自发过程之间的相互作用可能是控制RNA介导的生物分子凝聚体形成的重要因素。然而，驱动自发RNA-RNA关联并帮助形成RNA介导的相分离凝聚体的序列特异性相互作用和分子机制仍不清楚。通过微秒级原子分子模拟（molecular dynamics），我们在此报告了RNA链的基本方面，即碱基组成、金属离子结合和水合性质，如何促进一系列最简单的生物学相关同聚和异聚短RNA链的关联。我们表明，自发过程在RNA链序列内在性质的控制下做出关键贡献，其中碱基特异性氢键和堆积相互作用在RNA链关联中具有明确作用。RNA链中嘌呤与嘧啶含量可通过调节氢键和碱基堆积相互作用直接影响RNA链的关联性质。本研究确定了离子环境对短RNA链序列特异性自发关联的影响、水合特征以及Na(+)、K(+)和Mg(2+)离子与RNA链的碱基特异性相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39377398/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39377398/",
+  "paper_page_path": "papers/pubmed/39377398/index.html"
+}

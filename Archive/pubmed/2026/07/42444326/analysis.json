@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42444326",
+  "title": "A Glimpse into the Initial Microsecond of Biomolecular Condensation.",
+  "authors": "Zhu, Longchen; Liao, Guohong; Zhang, Yumeng; Guo, Yinfeng; Chen, Junlin; Zhou, Shuqi; Wu, Zhili; Huang, Yanan; Lu, Xingyu; Chen, Chunlai; Chen, Hailong; Weng, Yuxiang; Zhang, Xin",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2026-07-14",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合温度跃迁红外光谱与分子动力学模拟，揭示无序肽段凝聚初始微秒内主链氢键介导的早期组装与界面稳定机制，直接聚焦IDP相分离的互作机制建模，高度契合本课题。",
+  "abstract": "Biomolecular condensation is a key process for cells to maintain their normal physiological activities. However, the process of phase transition remains mysterious, especially for the initial moments of condensation. Herein, we investigated the first microsecond of peptide condensation through temperature jump infrared spectroscopy and molecular dynamics simulations. These techniques overcome the limited spatiotemporal resolution of traditional approaches, allowing us to capture the molecular events and kinetic information on the initial moment for phase transition. The results reveal that structural transitions and early assembly of intrinsically disordered proteins occur on ultrafast time scales. Unexpectedly, backbone hydrogen bonding emerges as the overlooked key mediator to stabilize the local structure for the ultrafast condensation of hydrophobic polypeptides compared to hydrophobicity. By locking local structures, hydrogen bonds help to form more stable interaction interfaces. These findings indicate that hydrogen bonding could enable hydrophobic disordered proteins to adopt preorganized conformations in response to environmental stimuli and serve as a key factor in mediating the assembly kinetics in complex cellular environments.",
+  "abstract_zh": "生物分子凝聚是细胞维持正常生理活动的关键过程。然而，相变过程仍充满神秘，尤其是凝聚的初始时刻。在此，我们通过温度跳跃红外光谱和分子动力学模拟研究了肽凝聚的第一个微秒。这些技术克服了传统方法在时空分辨率上的局限性，使我们能够捕捉相变初始时刻的分子事件和动力学信息。结果表明， intrinsically disordered proteins 的结构转变和早期组装发生在超快时间尺度上。出乎意料的是，与疏水性相比，骨架氢键 emerges 作为被忽视的关键中介，稳定疏水性多肽超快凝聚的局部结构。通过锁定局部结构，氢键有助于形成更稳定的相互作用界面。这些发现表明，氢键可能使疏水性无序蛋白在环境刺激下采用预组织构象，并在复杂细胞环境中介导组装动力学中发挥关键作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42444326/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42444326/",
+  "paper_page_path": "papers/pubmed/42444326/index.html"
+}

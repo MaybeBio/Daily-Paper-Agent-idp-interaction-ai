@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends as provided.
+- **Assessment boundary** Evaluation is limited to the scientific content, methodology, data presentation, and claims as described in the provided manuscript text. No external data, unpublished results, or supplementary files beyond those referenced in the text were assessed.
+- **Shared manuscript claim summary** The authors propose a structural model of the ULK1–ATG13–FIP200 complex based on AlphaFold2 predictions, validate predicted interaction interfaces through mutagenesis, and demonstrate that the triad interactions are required for autophagic flux in mammalian cells.
+- **Visible evidence base** AlphaFold2 structural predictions; in vitro pull-down assays; isothermal titration calorimetry (ITC); immunoprecipitation; immunostaining and confocal microscopy; Halo-LC3 processing assays; immunoblotting; statistical analyses as described in figure legends.
+- **Missing materials affecting confidence** Full figure panels and supplementary figures were not available for direct inspection. Exact numerical values for ITC measurements, quantification of immunoblots, and statistical test details were not fully provided in the text. The cryo-EM structures referenced (Chen et al., 2023) were not independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-structured and methodical investigation into the molecular architecture of the ULK complex, a key regulator of autophagy initiation. The use of AlphaFold2 to generate testable hypotheses, followed by biochemical and cellular validation, is a commendable approach. The identification of specific residues mediating the triad interactions and the demonstration of their functional relevance in autophagic flux represent a meaningful advance. However, several technical aspects require clarification and additional experimental support to fully establish the claims, particularly regarding the quantitative contributions of individual interactions and the interpretation of the complementation experiments.
+- **Who would be interested in the results, and why** Researchers in the autophagy field, structural biologists studying protein complexes, and scientists interested in the molecular mechanisms of cellular degradation pathways. The findings provide a structural framework for understanding ULK complex assembly, which is relevant to studies on autophagy regulation in development, neurodegeneration, and cancer.
+- **Major strengths** The study combines computational prediction with experimental validation in a logical and rigorous manner. The use of knock-in cell lines to assess mutations at physiological expression levels is a notable strength. The identification of specific residues (e.g., Phe377, Phe394, Phe453 in ATG13; Leu967, Phe997 in ULK1) provides a clear molecular basis for the interactions. The demonstration that individual interactions contribute additively to autophagic flux is informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the ULK1–FIP200 interaction is "essential for autophagy" based on the Halo-LC3 processing assay showing a "partially but significantly reduced" signal with the ULK1FIP2A mutant.
+  - **Evidence pointer** Results section "Direct interaction between ULK1 and FIP200 is essential for autophagy", Figure 3G, H
+  - **Concern** The term "essential" implies a complete or near-complete abrogation of function, yet the data show only a partial reduction. The authors themselves note that the partial phenotype may be due to indirect interaction via ATG13. This discrepancy between the claim and the evidence needs to be resolved. Either the claim should be softened to reflect a "significant contribution" rather than "essentiality," or additional experiments should be provided to demonstrate a more complete loss of function under conditions where the indirect pathway is also disrupted.
+  - **Why it matters** The central thesis of the paper is that the triad interaction is required for ULK complex function. If the ULK1–FIP200 interaction is only partially required, the interpretation of the triad's overall importance is weakened. Precise language and clear evidence are critical for establishing the functional hierarchy of these interactions.
+  - **Resolution test** Provide a quantitative comparison of autophagic flux in cells expressing ULK1WT, ULK1FIP2A, and a combination of ULK1FIP2A with ATG13FIP3A (to block both direct and indirect pathways). If the double mutant shows a more severe defect, this would support the "essential" claim. Alternatively, revise the language to accurately reflect the partial contribution.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the ATG13FIP3A and ATG13ULK2A mutations "partially complement each other" based on the observation that single mutants show partial defects while the FU5A mutant shows a near-complete loss of function.
+  - **Evidence pointer** Results section "Triadic ULK1–ATG13–FIP200 interactions are critical for autophagic flux", Figure 4D, E
+  - **Concern** The complementation argument relies on the assumption that the effects of the mutations are independent and additive. However, the data presented do not include a direct test of additivity, such as comparing the observed phenotype of the FU5A mutant with the predicted additive effect of the individual mutations. Furthermore, the mechanism of complementation is not explored. It is unclear whether the complementation occurs at the level of complex stability, kinase activation, or downstream signaling.
+  - **Why it matters** The concept of complementation is central to the authors' model that the triad interactions provide robustness to the ULK complex. Without a clear demonstration of the mechanism and quantitative additivity, the conclusion is not fully supported.
+  - **Resolution test** Perform a quantitative analysis of the Halo-LC3 processing assay data to determine if the effect of the FU5A mutation is statistically greater than the sum of the individual effects. Additionally, assess ULK complex integrity and kinase activity in the single and combined mutants to provide mechanistic insight into the complementation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors validate the AlphaFold2-predicted interactions using point mutations and in vitro binding assays, but the quantitative binding data (ITC) are only shown for the ATG13–FIP200 interaction.
+  - **Evidence pointer** Results section "Structural prediction of the ULK1–ATG13–FIP200 complex identifies FIP200-interacting residues in ATG13", Figure 1D
+  - **Concern** For the ULK1–ATG13 and ULK1–FIP200 interactions, the authors rely on pull-down assays, which are qualitative. The ITC data for the ULK1–ATG13 interaction are mentioned in the methods but not shown in the main text or supplementary figures. Without quantitative binding affinities for all three interactions, it is difficult to assess the relative strengths and contributions of each interface.
+  - **Why it matters** A quantitative comparison of binding affinities would strengthen the model and help explain why certain mutations have more pronounced effects than others. It would also allow for a more rigorous comparison with the yeast system.
+  - **Resolution test** Provide ITC data for the ULK1–ATG13 interaction (wild-type and mutants) and, if feasible, for the ULK1–FIP200 interaction. If technical challenges prevent ITC for the latter, provide an alternative quantitative binding assay (e.g., surface plasmon resonance, fluorescence polarization).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses the term "triad interaction" without a brief explanation of what this means in the context of the ULK complex. For readers not deeply familiar with the autophagy field, this term may be unclear.
+  - **Required correction** Add a brief phrase such as "a three-way interaction among ULK1, ATG13, and FIP200" to clarify the meaning.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Direct interaction between ULK1 and FIP200 is essential for autophagy"
+  - **Evidence pointer** Figure 3C, D
+  - **Issue** The pull-down assay for ULK1–FIP200 interaction is described, but the exact experimental conditions (e.g., protein concentrations, buffer composition) are not provided in the main text. This makes it difficult to assess the robustness of the interaction.
+  - **Required correction** Include a brief description of the pull-down conditions in the main text or refer readers to the methods section with specific details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the evolutionary significance of the triad interaction is interesting but somewhat speculative. The authors suggest that this interaction may be beneficial for metazoans but do not provide concrete evidence or a clear hypothesis for how this might have evolved.
+  - **Required correction** Consider adding a more focused discussion on the potential evolutionary advantages of the triad interaction, perhaps referencing specific metazoan features that require more robust ULK complex regulation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns that need to be addressed. The language regarding "essential" and "complementation" must be reconciled with the data. Additionally, the lack of quantitative binding data for all interactions (R1-M3) weakens the overall case.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study provides a novel structural model for the mammalian ULK complex, which has been lacking. The use of AlphaFold2 to predict the complex and the subsequent experimental validation is a fresh approach. However, the individual interactions (ATG13–FIP200, ULK1–ATG13) have been previously characterized to some extent. The originality lies in the integration of these into a cohesive triad model.
+  - **Scientific importance** The ULK complex is a central regulator of autophagy, and understanding its assembly is of high importance. The findings have implications for understanding how autophagy is initiated and regulated, which is relevant to various diseases. The study is likely to be of significant interest to the autophagy community.
+  - **Interdisciplinary readership** The topic is primarily of interest to cell biologists, biochemists, and structural biologists. The use of AlphaFold2 may also attract computational biologists. However, the broader interdisciplinary appeal is limited, as the study is focused on a specific molecular complex.
+  - **Technical soundness** The experimental design is generally sound, with appropriate use of multiple techniques (ITC, pull-down, cell-based assays). However, the concerns raised above regarding the interpretation of "essential" and "complementation" need to be addressed. The lack of quantitative data for all interactions is a weakness.
+  - **Readability for nonspecialists** The manuscript is well-written and logically organized. The figures are described clearly in the text. However, some terms (e.g., "triad interaction") may be unclear to nonspecialists. The abstract could be slightly more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are likely correct and of interest, but the language used to describe the results must be carefully calibrated to match the evidence. The authors should address the concerns regarding the "essential" claim and the complementation analysis, and ideally provide quantitative binding data for all interactions.
+
+## Risk / unsupported claims
+- The claim that the ULK1–FIP200 interaction is "essential" for autophagy is not fully supported by the data, which show only a partial reduction in autophagic flux.
+- The concept of "complementation" between the ATG13–FIP200 and ULK1–ATG13 interactions is inferred but not directly demonstrated mechanistically.
+- The statement that "the triad interaction is likely beneficial for cells that form the complicated cellular communities that comprise the metazoans" is speculative and not directly supported by experimental evidence.
+- The assertion that "recruitment fails in ATG13FU5A KI cells" regarding ATG9 vesicles is presented as a likelihood, but the data shown (Figure 4—figure supplement 1C) indicate that ATG9A still colocalizes with FIP200, making this claim unsupported.

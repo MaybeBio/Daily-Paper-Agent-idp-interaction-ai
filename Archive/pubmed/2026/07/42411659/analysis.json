@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42411659",
+  "title": "Combined Effects of Mutation and Ionic Strength on alpha-Synuclein Reveal Generic Features of Aggregation-Prone Monomeric States.",
+  "authors": "Tammara, Vaishnavi; Das, Ankita; Desai, Zion; Das, Atanu",
+  "journal": "ACS chemical neuroscience",
+  "published_date": "2026-07-07",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用原子模拟研究α-突触核蛋白（IDP）突变体在不同离子强度下的单体构象与聚集倾向，揭示聚集倾向单体特征并提出通用单体到聚集体机制，虽未直接研究PPI，但聚焦IDP构象与互作前驱机制，方法为物理模拟，对无序蛋白互作机制建模有直接启发。",
+  "abstract": "alpha-Synuclein (alphaS) is a highly charged, intrinsically disordered protein (IDP) whose aberrant aggregation is linked to Parkinson's disease (PD). Along with wild-type (WT) alphaS, five single-point mutants (A30P, E46K, H50Q, G51D, and A53T) are implicated in familial PD. To resolve contradictory experimental observations under varying solution conditions, we investigated how ionic strength modulates the relative aggregation propensity of these six monomeric alphaS variants using atomistic simulations. Structural and energetic analyses at global, domain, and residue levels revealed that aggregation propensity rankings switch with increasing ionic strength but stabilize beyond physiological concentration, while A53T and H50Q consistently remain highly aggregation-prone. We additionally identified electrostatic-driven decoupling between global and local motions. Aggregation-prone monomers preferentially populate semicompact ensembles with beta-sheet propensity, an exposed and stiff N-terminus with fewer interdomain contacts, a flexible yet compact C-terminus, and an NAC domain that is either under-protected and stiff or flexible and poorly hydrated. These monomers further exhibit strong intramolecular stabilization, poor solvation, counterion binding, and subdiffusive collapsing dynamics that may facilitate intermolecular encounters. We justified aggregation propensity trends across ionic strengths, validated physiological trends using a dimer model, suggested a generic monomer-to-aggregate mechanism, and reconciled simulations with experimental variability.",
+  "abstract_zh": "α-突触核蛋白（alphaS）是一种高度带电的固有无序蛋白（IDP），其异常聚集与帕金森病（PD）相关。除野生型（WT）alphaS外，五个单点突变体（A30P、E46K、H50Q、G51D和A53T）也与家族性PD有关。为解决不同溶液条件下相互矛盾的实验观察，我们利用原子模拟研究了离子强度如何调节这六种单体alphaS变体的相对聚集倾向。在全球、结构域和残基水平上的结构和能量分析表明，聚集倾向排名随离子强度增加而切换，但在超过生理浓度后趋于稳定，而A53T和H50Q始终表现出高聚集倾向。我们还识别出静电驱动的全局与局部运动之间的解耦。易聚集单体优先占据具有β-折叠倾向的半紧凑构象集合，其N端暴露且僵硬，结构域间接触较少，C端灵活但紧凑，NAC结构域要么保护不足且僵硬，要么灵活且水合不良。这些单体还表现出强烈的分子内稳定化、较差的溶剂化、反离子结合以及亚扩散塌缩动力学，这可能促进分子间相遇。我们解释了跨离子强度的聚集倾向趋势，使用二聚体模型验证了生理趋势，提出了通用的单体到聚集体机制，并将模拟结果与实验变异性相协调。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42411659/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42411659/",
+  "paper_page_path": "papers/pubmed/42411659/index.html"
+}

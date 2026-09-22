@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "41329728",
+    "doi": "10.1073/pnas.2511670122",
+    "title": "Control of encounter kinetics by chemically active droplets."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates play a crucial role in the spatial organization of living matter. These membrane-less organelles, resulting from liquid-liquid phase separation, operate far from thermodynamic equilibrium, with their size and stability influenced by nonequilibrium chemical reactions. While condensates are frequently considered optimized nanoreactors that enhance molecular encounters, their actual impact on reaction kinetics remains unclear due to competing effects such as diffusion hindrance, and random trapping in nonspecific condensates. In this study, we develop a microscopic, stochastic model for chemically active droplets, incorporating reaction-driven modulation of protein interactions. Using Brownian dynamics simulations, we investigate how protein interactions and active coupling to a free energy reservoir influence phase separation, molecular transport, and reaction kinetics. We demonstrate that the intensity of the chemical drive governs surface dynamics, generating fluxes that modulate bimolecular reaction rates. Comparing active emulsions to homogeneous systems, we reveal that condensates can either accelerate or decelerate molecular encounters. Our findings provide key insights into the role of biomolecular condensates as potential regulators of intracellular reaction kinetics.",
+    "keywords": [
+      "active matter",
+      "biophysics",
+      "phase separation",
+      "reaction kinetics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fries, Jacques D",
+        "Berthin, Roxanne",
+        "Jardat, Marie",
+        "Illien, Pierre",
+        "Dahirel, Vincent"
+      ],
+      "short_names": [
+        "Fries JD",
+        "Berthin R",
+        "Jardat M",
+        "Illien P",
+        "Dahirel V"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-6737-9462",
+        "ORCID: 0000-0002-9481-2266",
+        "ORCID: 0000-0001-6822-2089",
+        "ORCID: 0000-0001-9997-3344"
+      ],
+      "affiliations": [
+        "Sorbonne Universite, PHysicochimie des Electrolytes et Nanosystemes InterfaciauX, CNRS, PHENIX, Paris F-75005, France.",
+        "Sorbonne Universite, PHysicochimie des Electrolytes et Nanosystemes InterfaciauX, CNRS, PHENIX, Paris F-75005, France.",
+        "Sorbonne Universite, PHysicochimie des Electrolytes et Nanosystemes InterfaciauX, CNRS, PHENIX, Paris F-75005, France.",
+        "Sorbonne Universite, PHysicochimie des Electrolytes et Nanosystemes InterfaciauX, CNRS, PHENIX, Paris F-75005, France.",
+        "Sorbonne Universite, PHysicochimie des Electrolytes et Nanosystemes InterfaciauX, CNRS, PHENIX, Paris F-75005, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fries, Jacques D",
+        "short_name": "Fries JD",
+        "identifiers": [
+          "0009-0004-6737-9462"
+        ],
+        "affiliations": [
+          "Sorbonne Université, PHysicochimie des Électrolytes et Nanosystémes InterfaciauX, CNRS, PHENIX, Paris F-75005, France."
+        ]
+      },
+      {
+        "full_name": "Berthin, Roxanne",
+        "short_name": "Berthin R",
+        "identifiers": [
+          "0000-0002-9481-2266"
+        ],
+        "affiliations": [
+          "Sorbonne Université, PHysicochimie des Électrolytes et Nanosystémes InterfaciauX, CNRS, PHENIX, Paris F-75005, France."
+        ]
+      },
+      {
+        "full_name": "Jardat, Marie",
+        "short_name": "Jardat M",
+        "identifiers": [
+          "0000-0001-6822-2089"
+        ],
+        "affiliations": [
+          "Sorbonne Université, PHysicochimie des Électrolytes et Nanosystémes InterfaciauX, CNRS, PHENIX, Paris F-75005, France."
+        ]
+      },
+      {
+        "full_name": "Illien, Pierre",
+        "short_name": "Illien P",
+        "identifiers": [],
+        "affiliations": [
+          "Sorbonne Université, PHysicochimie des Électrolytes et Nanosystémes InterfaciauX, CNRS, PHENIX, Paris F-75005, France."
+        ]
+      },
+      {
+        "full_name": "Dahirel, Vincent",
+        "short_name": "Dahirel V",
+        "identifiers": [
+          "0000-0001-9997-3344"
+        ],
+        "affiliations": [
+          "Sorbonne Université, PHysicochimie des Électrolytes et Nanosystémes InterfaciauX, CNRS, PHENIX, Paris F-75005, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Dec 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/02 19:16",
+    "fetched_at": "2026-09-17 22:37:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40329837",
+      "40103106",
+      "39054333",
+      "38968602",
+      "38424273",
+      "38360526",
+      "38096828",
+      "38061016",
+      "37996438",
+      "37915170",
+      "37833263",
+      "37390433",
+      "36802422",
+      "36594499",
+      "36459561",
+      "36071192",
+      "35960807",
+      "35641495",
+      "34654103",
+      "34035521",
+      "33543712",
+      "33503539",
+      "33116131",
+      "32679076",
+      "32484438",
+      "31753533",
+      "31604601",
+      "31559978",
+      "31439799",
+      "31435012",
+      "31362617",
+      "31270472",
+      "30731446",
+      "30179001",
+      "29849457",
+      "28935776",
+      "28256236",
+      "28225081",
+      "25535836",
+      "25288112",
+      "20489716",
+      "19519142",
+      "18573087",
+      "18197340",
+      "16825427",
+      "12955122",
+      "11848903",
+      "7688609"
+    ],
+    "similar": [
+      "41329728",
+      "23912807",
+      "40103106",
+      "41560158",
+      "40699931",
+      "42475469",
+      "34186016",
+      "38875706",
+      "34507991",
+      "37546778",
+      "39116001",
+      "37461689",
+      "39494792",
+      "33571491",
+      "23520980",
+      "40954121",
+      "38579181",
+      "39225535",
+      "35001622",
+      "40661423",
+      "36883003",
+      "39227569",
+      "34856104",
+      "35881789",
+      "35293386",
+      "40534071",
+      "39574691",
+      "42146575",
+      "35727989",
+      "40329837",
+      "33231755",
+      "40291420",
+      "34206440",
+      "33376791",
+      "36067054",
+      "41587927",
+      "38252962",
+      "36594499",
+      "33307683",
+      "33300985",
+      "41187075",
+      "40672301",
+      "41703914",
+      "37735186",
+      "42200368",
+      "40112030",
+      "32405004",
+      "34035521",
+      "38971467",
+      "40782375",
+      "40138573",
+      "32312191",
+      "39578406",
+      "33864415",
+      "42428990",
+      "41703712",
+      "41877182",
+      "40972943",
+      "37470705",
+      "41222441",
+      "34552246",
+      "41662498",
+      "38360555",
+      "32482873",
+      "40667293",
+      "26323207",
+      "42043933",
+      "42493955",
+      "40557772",
+      "38847600",
+      "36565390",
+      "41007377",
+      "41944040",
+      "36758221",
+      "38832749",
+      "32800925",
+      "34144468",
+      "40439464",
+      "38961263",
+      "40108179",
+      "41268679",
+      "39565729",
+      "42387255",
+      "34762868",
+      "36993212",
+      "35762716",
+      "42465451",
+      "40708200",
+      "34303933",
+      "38622120",
+      "40748104",
+      "37194953",
+      "40570844",
+      "33672806",
+      "41480717",
+      "39761433",
+      "26274171",
+      "39783969",
+      "40159770",
+      "34862761"
+    ],
+    "review": [
+      "41329728",
+      "41587927",
+      "33300985",
+      "38971467",
+      "32312191",
+      "38360555",
+      "40557772",
+      "41007377",
+      "32800925",
+      "34144468",
+      "34303933"
+    ],
+    "pmc": [
+      "12704720"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2511670122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41329728/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39706085",
+  "title": "Assessing the interaction between the N-terminal region of the membrane protein magnesium transporter A and a lipid bilayer.",
+  "authors": "Skog, Amanda Eriksson; Jones, Nykola C; Mansson, Linda K; Morth, Jens Preben; Vronning Hoffmann, Soren; Gerelli, Yuri; Skepo, Marie",
+  "journal": "Journal of colloid and interface science",
+  "published_date": "2024-12-21",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究结合MD模拟与多种实验，探究无序N端KEIF与脂质双层的吸附及构象转变，虽涉及IDP与膜互作机制，但对象为膜而非蛋白-蛋白互作，方法以实验为主、模拟为辅，故综合评分为6。",
+  "abstract": "This study investigates the interaction of KEIF, the intrinsically disordered N-terminal region of the magnesium transporter MgtA, with lipid bilayers mimicking cell membranes. Combining experimental techniques such as neutron reflectometry (NR), quartz-crystal microbalance with dissipation monitoring (QCM-D), synchrotron radiation circular dichroism (SRCD), and oriented circular dichroism (OCD), with molecular dynamics (MD) simulations, we characterized KEIF's adsorption behavior. HYPOTHESIS: KEIF undergoes conformational changes upon interacting with lipid bilayers, potentially influencing MgtA's function within the plasma membrane. EXPERIMENTS: The study assessed KEIF's structural transitions and position within lipid bilayers under various conditions, including zwitterionic versus anionic bilayers and different salt concentrations. The techniques analyzed adsorption-induced structural shifts and peptide localization within the bilayer. FINDINGS: KEIF transitions from a disordered to a more structured state, notably increasing alpha-helical content upon adsorption to lipid bilayers. The peptide resides primarily in the hydrophobic tail region of the bilayer, where it may displace lipids. Electrostatic interactions, modulated by bilayer charge and ionic strength, play a critical role. These results suggest that KEIF's conformational changes and bilayer interactions can be integral to its potential modulatory role in MgtA function within the plasma membrane. This research highlights the importance of surface-induced structural transitions in intrinsically disordered proteins and their implications for membrane protein modulation.",
+  "abstract_zh": "本研究探讨了镁转运蛋白MgtA的固有无序N端区域KEIF与模拟细胞膜的脂质双层的相互作用。结合中子反射法（neutron reflectometry, NR）、带耗散监测的石英晶体微天平（QCM-D）、同步辐射圆二色光谱（SRCD）和取向圆二色光谱（OCD）等实验技术，以及分子动力学（molecular dynamics, MD）模拟，我们表征了KEIF的吸附行为。假设：KEIF在与脂质双层相互作用时发生构象变化，可能影响MgtA在质膜中的功能。实验：本研究评估了KEIF在不同条件下（包括两性离子与阴离子双层以及不同盐浓度）的结构转变及其在脂质双层中的位置。这些技术分析了吸附诱导的结构变化及肽在双层内的定位。发现：KEIF从无序状态转变为更有序的状态，特别是在吸附到脂质双层后α-螺旋含量显著增加。该肽主要位于双层的疏水尾部区域，可能在此处置换脂质。由双层电荷和离子强度调节的静电相互作用起着关键作用。这些结果表明，KEIF的构象变化及其与双层的相互作用可能对其在质膜中调节MgtA功能的潜在作用至关重要。本研究强调了表面诱导的结构转变在固有无序蛋白中的重要性及其对膜蛋白调节的意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39706085/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39706085/",
+  "paper_page_path": "papers/pubmed/39706085/index.html"
+}

@@ -1,0 +1,265 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.29.542689",
+  "title": "Rescaling protein-protein interactions improves Martini 3 for flexible proteins in solution",
+  "doi": "10.1101/2023.05.29.542689",
+  "abstract": "Multidomain proteins with flexible linkers and disordered regions play important roles in many cellular processes, but characterizing their conformational ensembles is diffcult. We have previously shown that the coarse-grained model, Martini 3, produces too compact ensembles in solution, that may in part be remedied by strengthening protein–water interactions. Here, we show that decreasing the strength of protein–protein interactions leads to improved agreement with experimental data on a wide set of systems. We show that the ‘symmetry’ between rescaling protein–water and protein–protein interactions breaks down when studying interactions with or within membranes; rescaling protein-protein interactions better preserves the binding specificity of proteins with lipid membranes, whereas rescaling protein-water interactions preserves oligomerization of transmembrane helices. We conclude that decreasing the strength of protein–protein interactions improves the accuracy of Martini 3 for IDPs and multidomain proteins, both in solution and in the presence of a lipid membrane.",
+  "authors": [
+    "Thomasen FE",
+    "Skaalum T",
+    "Kumar A",
+    "Srinivasan S",
+    "Vanni S",
+    "Lindorff-Larsen K"
+  ],
+  "published_date": "2023-05-31",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.29.542689",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.29.542689.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR667842",
+    "raw_record": {
+      "id": "PPR667842",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR667842"
+        ]
+      },
+      "doi": "10.1101/2023.05.29.542689",
+      "title": "Rescaling protein-protein interactions improves Martini 3 for flexible proteins in solution",
+      "authorString": "Thomasen FE, Skaalum T, Kumar A, Srinivasan S, Vanni S, Lindorff-Larsen K.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Thomasen FE",
+            "lastName": "Thomasen",
+            "firstName": "Emil",
+            "initials": "FE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2096-4873"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, DK-2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Skaalum T",
+            "lastName": "Skaalum",
+            "firstName": "Tórur",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0000-5123-7874"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, DK-2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kumar A",
+            "lastName": "Kumar",
+            "firstName": "Ashutosh",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0001-6910-4655"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of Fribourg, Fribourg, Switzerland"
+                },
+                {
+                  "affiliation": "National Center of Competence in Research Bio-inspired Materials, University of Fribourg, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Srinivasan S",
+            "lastName": "Srinivasan",
+            "firstName": "Sriraksha",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6927-2405"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of Fribourg, Fribourg, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vanni S",
+            "lastName": "Vanni",
+            "firstName": "Stefano",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2146-1140"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of Fribourg, Fribourg, Switzerland"
+                },
+                {
+                  "affiliation": "National Center of Competence in Research Bio-inspired Materials, University of Fribourg, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lindorff-Larsen K",
+            "lastName": "Lindorff-Larsen",
+            "firstName": "Kresten",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, DK-2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2096-4873"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6927-2405"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2146-1140"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0000-5123-7874"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0001-6910-4655"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Multidomain proteins with flexible linkers and disordered regions play important roles in many cellular processes, but characterizing their conformational ensembles is diffcult. We have previously shown that the coarse-grained model, Martini 3, produces too compact ensembles in solution, that may in part be remedied by strengthening protein–water interactions. Here, we show that decreasing the strength of protein–protein interactions leads to improved agreement with experimental data on a wide set of systems. We show that the ‘symmetry’ between rescaling protein–water and protein–protein interactions breaks down when studying interactions with or within membranes; rescaling protein-protein interactions better preserves the binding specificity of proteins with lipid membranes, whereas rescaling protein-water interactions preserves oligomerization of transmembrane helices. We conclude that decreasing the strength of protein–protein interactions improves the accuracy of Martini 3 for IDPs and multidomain proteins, both in solution and in the presence of a lipid membrane.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/05/31/2023.05.29.542689.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.05.29.542689"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR667842"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR667842&type=FILE&fileName=EMS177047-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39103332",
+            "reference": "Nature communications. \n    2024 Aug;15(1):6645",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 5,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS177047",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "alphafold",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-06-02",
+      "firstPublicationDate": "2023-05-31",
+      "firstIndexDate": "2023-06-03",
+      "fullTextReceivedDate": "2024-02-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

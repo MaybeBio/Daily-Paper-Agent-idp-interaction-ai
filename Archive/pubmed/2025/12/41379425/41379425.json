@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "41379425",
+    "doi": "10.1063/5.0304777",
+    "title": "Repetitive proteins that undergo large conformational changes evade structural prediction algorithms."
+  },
+  "content": {
+    "abstract": "Protein structure prediction algorithms, such as AlphaFold, have accelerated protein design and advanced the understanding of the relationship between amino acid sequence and protein structure. However, these algorithms are limited in their ability to predict the structures of conformationally dynamic, intrinsically disordered, and stimuli-responsive proteins. To evaluate sequence-to-structure predictions of such challenging proteins, we explored a class of conformationally dynamic, repeats-in-toxin (RTX) proteins. RTX proteins adopt intrinsically disordered conformations in the absence of calcium and undergo reversible folding into beta-roll structures upon binding to calcium. RTX proteins are characterized by tandem repeats of the sequence GGXGXDXUX, in which X can be any amino acid and U is an aliphatic amino acid. We designed RTX sequence variants with global substitutions of nonconserved amino acids, tandem repeats of consensus sequences GGAGXDTLY, and tandem repeats of scrambled sequences GGAGXDTYL. AlphaFold2 and AlphaFold3 predicted that all of these RTX variants adopt beta-roll structures, characteristic of wild-type RTX bound to calcium. However, modeling the predicted structures with molecular dynamics simulations and characterizing the protein variants with circular dichroism spectroscopy, small-angle x-ray scattering, and x-ray crystallography revealed that variants adopt diverse, sequence-dependent structures in the absence and presence of calcium. To better design proteins for applications in biotechnology and sustainability, it is critical to build predictive tools that consider intrinsically disordered protein states and validate these tools with multi-mode, multi-scale experimental data.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Algorithms",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Calcium/chemistry/metabolism",
+      "Amino Acid Sequence",
+      "Protein Folding",
+      "*Proteins/chemistry",
+      "Prediction Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chang, Marina P",
+        "Jin, Tianyi",
+        "Gudinas, Alana P",
+        "Fernandez, Daniel",
+        "Alexander-Katz, Alfredo",
+        "Matsui, Tsutomu",
+        "Mai, Danielle J"
+      ],
+      "short_names": [
+        "Chang MP",
+        "Jin T",
+        "Gudinas AP",
+        "Fernandez D",
+        "Alexander-Katz A",
+        "Matsui T",
+        "Mai DJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5838-8114",
+        "ORCID: 0000-0002-9974-2041",
+        "ORCID: 0000-0003-2859-7868",
+        "ORCID: 0000-0002-6221-152X",
+        "ORCID: 0000-0001-5554-1283",
+        "ORCID: 0000-0001-7101-5259",
+        "ORCID: 0000-0001-5447-2845"
+      ],
+      "affiliations": [
+        "Department of Materials Science and Engineering, Stanford University, Stanford, California 94305, USA.",
+        "Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA.",
+        "Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA.",
+        "Department of Physics, Stanford University, Stanford, California 94305, USA.",
+        "Macromolecular Structure, Nucleus at Sarafan ChEM-H, Stanford University, Stanford, California 94305, USA.",
+        "Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA.",
+        "Stanford Synchrotron Radiation Lightsource, SLAC National Accelerator Laboratory, Menlo Park, California 94025, USA.",
+        "Department of Materials Science and Engineering, Stanford University, Stanford, California 94305, USA.",
+        "Department of Chemical Engineering, Stanford University, Stanford, California 94305, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chang, Marina P",
+        "short_name": "Chang MP",
+        "identifiers": [
+          "0000-0001-5838-8114"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, Stanford University, Stanford, California 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Jin, Tianyi",
+        "short_name": "Jin T",
+        "identifiers": [
+          "0000-0002-9974-2041"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA.",
+          "Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Gudinas, Alana P",
+        "short_name": "Gudinas AP",
+        "identifiers": [
+          "0000-0003-2859-7868"
+        ],
+        "affiliations": [
+          "Department of Physics, Stanford University, Stanford, California 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Fernandez, Daniel",
+        "short_name": "Fernandez D",
+        "identifiers": [
+          "0000-0002-6221-152X"
+        ],
+        "affiliations": [
+          "Macromolecular Structure, Nucleus at Sarafan ChEM-H, Stanford University, Stanford, California 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Alexander-Katz, Alfredo",
+        "short_name": "Alexander-Katz A",
+        "identifiers": [
+          "0000-0001-5554-1283"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Matsui, Tsutomu",
+        "short_name": "Matsui T",
+        "identifiers": [
+          "0000-0001-7101-5259"
+        ],
+        "affiliations": [
+          "Stanford Synchrotron Radiation Lightsource, SLAC National Accelerator Laboratory, Menlo Park, California 94025, USA."
+        ]
+      },
+      {
+        "full_name": "Mai, Danielle J",
+        "short_name": "Mai DJ",
+        "identifiers": [
+          "0000-0001-5447-2845"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, Stanford University, Stanford, California 94305, USA.",
+          "Department of Chemical Engineering, Stanford University, Stanford, California 94305, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2025 Dec 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/11 13:05",
+    "fetched_at": "2026-09-17 22:50:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41379425",
+      "20096704",
+      "19860484",
+      "23173179",
+      "21454565",
+      "39684679",
+      "19015266",
+      "31906409",
+      "23941183",
+      "41088755",
+      "10734229",
+      "41454828",
+      "32696367",
+      "16627468",
+      "40074747",
+      "17728256",
+      "32916891",
+      "40387957",
+      "38996889",
+      "26374675",
+      "31718085",
+      "18831774",
+      "40595555",
+      "35143919",
+      "21112299",
+      "25226243",
+      "32860773",
+      "31809054",
+      "40976968",
+      "19730682",
+      "25559101",
+      "38226524",
+      "11727705",
+      "30840442",
+      "8229093",
+      "38079339",
+      "17206849",
+      "37092778",
+      "41022992",
+      "20691271",
+      "20955581",
+      "29314274",
+      "22195023",
+      "40792509",
+      "29990433",
+      "28578565",
+      "39952928",
+      "25232897",
+      "39273672",
+      "20438736",
+      "25800819",
+      "40332289",
+      "34418423",
+      "1646719",
+      "18004752",
+      "36988562",
+      "12441391",
+      "21947276",
+      "39446390",
+      "28886656",
+      "38124369",
+      "34358545",
+      "39936575",
+      "19604472",
+      "23214731",
+      "25287424",
+      "31589784",
+      "25244701",
+      "32184088",
+      "21416544",
+      "38986039",
+      "30298393",
+      "20003365",
+      "17582171",
+      "28926974",
+      "41313605",
+      "26914323",
+      "7592850",
+      "18611404",
+      "40762404",
+      "32112804",
+      "39484820",
+      "37153862",
+      "41147497",
+      "28914483",
+      "29208936",
+      "40677912",
+      "39647695",
+      "38700222",
+      "34051233",
+      "34845619",
+      "26320411",
+      "41444215",
+      "22587787",
+      "12885659",
+      "34138518",
+      "40042172",
+      "33030249",
+      "7527219",
+      "21884799"
+    ],
+    "review": [
+      "41379425",
+      "40387957",
+      "31718085",
+      "25559101",
+      "11727705",
+      "30840442",
+      "8229093",
+      "41022992",
+      "39273672",
+      "40332289",
+      "34418423",
+      "21947276",
+      "38124369",
+      "34358545",
+      "39936575",
+      "25287424",
+      "28926974",
+      "26914323"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://addgene.org/browse/pubmed/41379425",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0304777",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

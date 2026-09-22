@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.28.623418",
+  "title": "The piRNA pathway mediates transcriptional silencing of LTR retrotransposons in ovaries and somatic tissues of Aedes mosquitoes",
+  "authors": "Taşköprü E; van Eijk NB; van Eijk NB; van Hout FAH; Bacchi M; Overheul GJ; Linthout C; Koenraadt CJM; Qu J; Miesen P; Miesen P; Halbach R; van Rij RP",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-28",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究蚊虫piRNA通路通过Piwi6的IDR引导核定位并介导转座子转录沉默，涉及IDR功能但非PPI机制建模，方法为实验而非AI/物理模拟，故中档。",
+  "abstract": "The PIWI-interacting RNA (piRNA) pathway preserves genomic integrity by suppressing transposable elements in animal germlines. Despite its well-established function in the animal germline, piRNAs and PIWI proteins are expressed in somatic tissues across arthropod species, and their functions outside the gonads remain poorly understood. Aedes albopictus mosquitoes express four PIWI genes, Piwi4 , Piwi5 , Piwi6 and Ago3, in both gonadal and somatic tissues. Here, we generated Piwi6 knockout Ae. albopictus cell lines and observed a substantial upregulation of Long Terminal Repeat (LTR)-retrotransposons, including a full-length endogenous retrovirus that we named AalERV1 . Nascent RNA-sequencing and CUT&Tag analyses revealed that Piwi6 silences AalERV1 transcriptionally by guiding the deposition of the repressive H3K9me3 histone mark. Consistently, Piwi6 localized to both the cytoplasm and nucleus, with sequences in the intrinsically disordered region guiding nuclear translocation. Reintroduction of full-length GFP-Piwi6, but not a mutant GFP-Piwi6 defective in nuclear localization, rescued AalERV1 derepression in Piwi6 knockout cells. Importantly, the control of AalERV1 was recapitulated in vivo as Piwi6 knockdown increased AalERV1 expression in both ovaries and somatic tissues of Ae. albopictus mosquitoes. These results establish Aedes mosquitoes as a model to study nuclear PIWI functions and suggest that somatic piRNA-mediated transposon silencing is evolutionarily conserved across arthropod species.",
+  "abstract_zh": "PIWI相互作用RNA（piRNA）通路通过抑制动物生殖系中的转座元件来维持基因组完整性。尽管其在动物生殖系中的功能已明确，但piRNA和PIWI蛋白在节肢动物物种的体细胞组织中也有表达，且其在性腺外的功能仍知之甚少。白纹伊蚊（Aedes albopictus）在性腺和体细胞组织中均表达四个PIWI基因：Piwi4、Piwi5、Piwi6和Ago3。在本研究中，我们生成了Piwi6敲除的白纹伊蚊细胞系，并观察到长末端重复序列（LTR）逆转录转座子显著上调，包括一个我们命名为AalERV1的全长内源性逆转录病毒。新生RNA测序和CUT&Tag分析揭示，Piwi6通过引导抑制性H3K9me3组蛋白标记的沉积，在转录水平上沉默AalERV1。一致地，Piwi6定位于细胞质和细胞核，其中内在无序区域中的序列引导核转位。全长GFP-Piwi6的重新引入，而非核定位缺陷的突变体GFP-Piwi6，挽救了Piwi6敲除细胞中AalERV1的去抑制。重要的是，AalERV1的控制在体内得到重现，因为Piwi6敲低增加了白纹伊蚊卵巢和体细胞组织中AalERV1的表达。这些结果确立了伊蚊作为研究核内PIWI功能的模型，并提示体细胞piRNA介导的转座子沉默在节肢动物物种间是进化保守的。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.28.623418",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.28.623418",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.28.623418/index.html"
+}

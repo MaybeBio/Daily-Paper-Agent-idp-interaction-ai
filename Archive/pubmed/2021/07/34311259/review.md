@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a computational design study in which disulfide stapling is applied to alpha-helical bundles derived from the C-terminal heptad repeat (CtHR) of the RSV F glycoprotein trimer-of-hairpins (TOH) motif, with the goal of generating stabilized peptides that can competitively disrupt NtHR-CtHR interactions. They identify a 13-mer core binding peptide (chp) from the CtHR C-terminus, generate seven stapled variants with one, two, or three disulfide bridges, and use molecular simulations to assess conformational stability and binding potency. They conclude that double- and triple-stapled bundles, specifically chp-ds[508,516] and chp-ts[508,512,516], are stabilized and can potently target the NtHR-CtHR interface.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, force fields, validation data, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, simulation protocols, force field specifications, convergence criteria, binding free energy calculations, control experiments, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational design strategy with potential relevance to antiviral peptide development against RSV. However, the evidence base available for review is limited to the abstract, which lacks quantitative results, methodological transparency, and validation. The central claims regarding stabilization efficacy and binding potency cannot be adequately assessed from the supplied material. The work may be of interest to computational protein designers and virologists, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational protein engineers and peptide designers interested in stapled helix stabilization methods; structural virologists studying class I fusion proteins, particularly RSV F; researchers developing peptide-based entry inhibitors against RSV. The disulfide-stapling approach applied to a trimeric coiled-coil interface could offer a generalizable strategy for targeting similar viral fusion motifs.
+- **Major strengths** The design concept is clear and mechanistically motivated, targeting a well-defined structural motif (TOH) with a specific interaction interface. The systematic exploration of single, double, and triple stapling configurations is a reasonable design space. The identification of a 13-mer core binding peptide from interaction analysis provides a focused starting point for design.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that double and triple stapling "can effectively stabilize the structured conformation of alpha-helical bundles" and that the double-stapled bundle chp-ds[508,516] and triple-stapled bundle chp-ts[508,512,516] "were rationally designed to have high potency" and "can form a tight three-helix bundle with NtHR helix."  
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative data provided  
+  - **Concern** The abstract provides no quantitative metrics for conformational stability, such as root-mean-square deviation, radius of gyration, or fraction of native contacts, and no binding affinity estimates, such as binding free energies or dissociation constants. The terms "effectively stabilize" and "high potency" are qualitative and unsupported by numerical data.  
+  - **Why it matters** Without quantitative measures, the reader cannot evaluate whether the observed stabilization is significant relative to controls or whether the claimed binding potency is biologically meaningful. The core claim of the study, that these stapled bundles can potently disrupt NtHR-CtHR interactions, requires quantitative support.  
+  - **Resolution test** Provide numerical stability metrics for all seven stapled variants compared to the unstapled chp peptide, and binding free energy calculations or other affinity estimates for chp-ds[508,516] and chp-ts[508,512,516] against the NtHR helix, with appropriate error estimates and statistical significance.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that the C-terminal tail of CtHR "packs tightly against NtHR as compared to the N-terminal and middle regions of CtHR" and that a "core binding site in CtHR C-terminus was identified."  
+  - **Evidence pointer** Abstract only; interaction analysis method not described  
+  - **Concern** The abstract does not describe the method used for interaction analysis, such as whether it was based on crystal structures, molecular dynamics, or energetic decomposition. The criteria for identifying the "core binding site" and the 13-mer chp peptide are not specified.  
+  - **Why it matters** The identification of the chp peptide is the foundation of the entire design. If the interaction analysis method is not described or validated, the choice of the 13-mer sequence and the stapling positions cannot be assessed for appropriateness.  
+  - **Resolution test** Describe the interaction analysis method, including the structural template used, the scoring function or energetic criteria, and how the 13-mer boundary was defined. Provide evidence that the chp peptide in its native context adopts the claimed ordered conformation.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The authors report molecular simulations of seven disulfide-stapled alpha-helical bundles.  
+  - **Evidence pointer** Abstract only; no simulation details provided  
+  - **Concern** No simulation methodology is described, including force field, water model, simulation length, temperature, pressure coupling, or analysis protocols. The stapling positions are named (e.g., 508, 516) but the numbering scheme and the structural context are not explained.  
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without methodological details, the simulations cannot be repeated or independently verified, and the reliability of the conclusions cannot be established.  
+  - **Resolution test** Provide full simulation protocols in the Methods section, including software, force field parameters, system setup, equilibration and production run lengths, and convergence criteria. Clarify the residue numbering relative to the RSV F sequence.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, first paragraph  
+  - **Issue** The term "trimer-of-hairpins (TOH) motif" is introduced without a brief structural explanation beyond the description of NtHR and CtHR arrangement. Nonspecialist readers may struggle to visualize the topology.  
+  - **Required correction** Add one sentence describing the overall fold, such as a central coiled-coil core with antiparallel outer helices, to aid reader comprehension.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity of terminology  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, second paragraph  
+  - **Issue** The phrase "free conformation of single-stapled bundles still remain intrinsically disordered" is grammatically awkward and the term "free conformation" is ambiguous.  
+  - **Required correction** Rephrase to "single-stapled bundles remain intrinsically disordered in solution" for clarity.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness of reporting  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The claim of "competitive disruption mechanism" is stated without any description of how this mechanism was tested or distinguished from other possible binding modes.  
+  - **Required correction** Briefly state the evidence for competitive disruption, such as binding competition assays or free energy decomposition, or temper the claim to reflect that this is a proposed mechanism.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative stability and binding data), R1-M2 (unspecified interaction analysis method), R1-M3 (missing simulation methodology)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The application of disulfide stapling to a trimeric coiled-coil bundle targeting a viral fusion motif is a reasonable extension of existing stapled peptide approaches, but the abstract does not demonstrate conceptual novelty beyond prior stapled helix designs.  
+  - **Scientific importance** RSV remains a significant public health burden, and peptide-based entry inhibitors are of clinical interest. However, the abstract does not provide evidence that the designed peptides outperform existing inhibitors or offer a distinct therapeutic advantage.  
+  - **Interdisciplinary readership** The work bridges computational protein design and virology, which could appeal to a broad audience, but the abstract is too specialized and lacks context for nonspecialists.  
+  - **Technical soundness** Not assessable from the abstract due to missing methodological and quantitative details.  
+  - **Readability for nonspecialists** The abstract is generally readable but assumes familiarity with stapled peptide design and viral fusion protein terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The design concept is interesting and potentially publishable in a specialized computational or structural biology journal, but the abstract alone does not provide sufficient evidence to support the central claims. A revised manuscript with full methodological transparency, quantitative results, and validation would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that double and triple stapling "effectively stabilize" the helical bundles is unsupported without quantitative stability metrics.
+- The claim that chp-ds[508,516] and chp-ts[508,512,516] have "high potency" is unsupported without binding affinity data.
+- The claim that the designed bundles "potently target NtHR-CtHR interactions" through a "competitive disruption mechanism" is unsupported without functional or mechanistic evidence.
+- The identification of the "core binding site" and the 13-mer chp peptide is not assessable without description of the interaction analysis method.
+- The statement that the chp peptide "would become largely disordered when splitting from the protein context" is not supported by any data in the abstract.

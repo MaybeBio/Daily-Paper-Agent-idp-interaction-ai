@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and data availability statement.
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims relative to presented evidence, and clarity of presentation. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors report application of XL-MS with the MS-cleavable crosslinker DSSO to immunoprecipitated endogenous BAF complex from mouse embryonic stem cells. Although BAF complex crosslinks were not enriched as expected, the authors identified numerous crosslinks among three co-purifying proteins, Thrap3, Bclaf1 and Erh, and used these to map interaction surfaces, propose a novel TEB complex, and support homology-based structural modelling.
+- **Visible evidence base** Full text with two figures referenced (Figures 1-6), one table (Table 1), and one additional table (Table 2) mentioned in methods. Underlying mass spectrometry data deposited at ProteomeXchange with identifier PXD027611.
+- **Missing materials affecting confidence** Raw mass spectrometry data files, detailed crosslink lists with peptide sequences and scores, validation statistics beyond FDR, structural model coordinates, and detailed parameters for modelling were not provided in the manuscript text. Figures and tables were referenced but not included in the supplied material.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful application of XL-MS to endogenous protein complexes, with the serendipitous identification of a putative Thrap3-Bclaf1-Erh interaction network. The methodological approach is reasonable and the data deposition is commendable. However, the central claims regarding the existence of a stable TEB complex and the mapping of interaction surfaces rest on a relatively small number of crosslinks, and the evidence for complex formation beyond proximity is limited. The structural modelling component is preliminary and would benefit from more rigorous validation. The manuscript is clearly written and accessible, but several technical aspects require clarification and additional supporting evidence before the conclusions can be considered fully established.
+- **Who would be interested in the results, and why** Researchers in the fields of structural biology, proteomics, and protein interaction networks would find this work relevant. Specifically, those interested in XL-MS methodology applied to endogenous complexes, and those studying Thrap3, Bclaf1, Erh, or the BAF complex and associated factors in transcription, splicing regulation, and DNA damage response, would find the interaction data useful for generating hypotheses and guiding further structural studies.
+- **Major strengths** The use of endogenous immunoprecipitation rather than overexpression is a notable strength, as it better reflects native cellular conditions. The identification of a potential novel complex through unbiased XL-MS is an interesting finding. The authors provide clear context for the biological relevance of the identified proteins. The data deposition in a public repository is good practice and supports transparency.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for complex claim
+  - **Claim pointer** The authors claim that "Bclaf1, Erh and Thrap3 interact directly with each other" and "might form a stable complex" referred to as TEB.
+  - **Evidence pointer** Results section, first subsection; Table 1; Figure 2B
+  - **Concern** The claim of a stable ternary complex is based on 24 unique XL sites and 121 CSMs across five experiments. While this indicates proximity, the evidence for a stable complex is circumstantial. Crosslinks can occur between proteins that are transiently associated or in high local concentration without forming a stable complex. The authors do not provide complementary evidence such as co-elution, stoichiometry analysis, or validation by an orthogonal method (e.g., co-immunoprecipitation with reciprocal antibodies, size exclusion chromatography, or pull-down assays). The term "stable complex" is a strong claim that requires more than crosslinking data to support.
+  - **Why it matters** The central conclusion of the paper is the existence of a novel TEB complex. If this claim is not adequately supported, the significance of the work is substantially diminished. Overinterpretation of proximity data as complex formation could mislead the field.
+  - **Resolution test** Provide orthogonal validation of the interaction, such as reciprocal co-immunoprecipitation of endogenous proteins, or demonstrate co-fractionation by size exclusion chromatography. Alternatively, temper the claim to "direct interaction" without asserting complex stability, and discuss alternative explanations for the observed crosslinks.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation of crosslink identifications
+  - **Claim pointer** The authors state that crosslink identification was performed at 1% FDR using XlinkX in Proteome Discoverer, and that crosslinks were "manually checked for unambiguous assignment between the two proteins."
+  - **Evidence pointer** Results section, first subsection; Methods, Mass spectrometry and crosslinking data analysis
+  - **Concern** The manuscript does not provide sufficient detail on the validation of crosslink identifications. Manual checking is mentioned but the criteria for "unambiguous assignment" are not defined. The number of crosslinks removed due to ambiguity is not reported. Additionally, the FDR estimation method for crosslinks is not described in detail. For a study where the primary data are crosslinks, this level of detail is insufficient for readers to assess the reliability of the identifications.
+  - **Why it matters** Crosslink identifications are prone to false positives, especially in complex samples. Without clear validation criteria and reporting of filtering steps, the confidence in the reported XLs cannot be independently evaluated. This is critical because all downstream conclusions depend on the accuracy of these identifications.
+  - **Resolution test** Provide a detailed description of the validation workflow, including the number of candidate crosslinks before and after filtering, the criteria for manual inspection, and the distribution of scores or expectation values for the retained crosslinks. Consider depositing the full list of crosslinks with associated scores and spectra as supplementary material.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural modelling validation
+  - **Claim pointer** The authors state that "Trap3 and Bclaf1 are mostly disordered proteins" and that the XL data "allowed us to map interaction surfaces on these proteins, which overlap with the non-disordered portions of both proteins." They further claim that the identified XLs are "in agreement with homology-modelled structures."
+  - **Evidence pointer** Results section, second and third subsections; Figures 4-6
+  - **Concern** The structural modelling component is presented without sufficient detail on the modelling methodology, the quality of the models, or the criteria used to assess agreement between crosslinks and models. The statement that 5 out of 5 crosslinks satisfied a 32Å threshold in some models but only 4 out of 5 in others is presented without statistical context. The authors do not discuss how many crosslinks would be expected to satisfy the threshold by chance, nor do they provide confidence estimates for the models.
+  - **Why it matters** The use of XL-MS data to support or refine structural models is a key aspect of the paper's contribution. If the modelling is not rigorously validated, the conclusions drawn from it are weakened. The claim that interaction surfaces are globular is based on this modelling and requires stronger support.
+  - **Resolution test** Provide details of the modelling pipeline, including the specific algorithms and parameters used, and report model quality metrics (e.g., estimated accuracy, Ramachandran statistics). Perform a statistical test to show that the observed crosslink satisfaction rate is significantly better than random. Discuss the limitations of the models explicitly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalisability of the approach
+  - **Claim pointer** The authors state that "our data shows that MS-cleavable crosslinker DSSO can be used to characterise in detail the topology and interaction surfaces of endogenous protein complexes without the need for overexpression."
+  - **Evidence pointer** Abstract; Discussion
+  - **Concern** This claim is presented as a general conclusion, but the study only demonstrates this for one specific case where the target complex (BAF) did not yield the expected crosslinks, and the successful analysis was on co-purifying contaminants. The authors acknowledge the challenges with BAF but do not discuss the broader applicability or limitations of the approach in sufficient depth. The claim may be overstated given the limited success with the intended target.
+  - **Why it matters** The paper positions itself as a methodological contribution, but the evidence for the general utility of the approach is limited. Overstating the conclusions could mislead readers about the reliability and ease of this technique for other complexes.
+  - **Resolution test** Either provide additional examples or a more nuanced discussion of the conditions under which this approach is likely to succeed, including factors such as complex abundance, crosslinker accessibility, and sample complexity. Alternatively, reframe the claim to be specific to the findings of this study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure references
+  - **Affected element** Results section
+  - **Evidence pointer** Figures 1-6
+  - **Issue** The manuscript text references Figures 1-6, but the figures themselves were not provided in the supplied material. It is therefore not possible to assess whether the figures adequately support the claims made in the text.
+  - **Required correction** Ensure that all figures are included in the submission and that they clearly display the data described in the text, including crosslink maps, domain diagrams, and structural models.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of Table 1
+  - **Affected element** Results section, first subsection
+  - **Evidence pointer** Table 1
+  - **Issue** Table 1 is described as summarising "confident crosslinks and corresponding number of CSMs for each of five experiments," but the table itself was not provided. The level of detail in the table (e.g., whether it includes peptide sequences, positions, scores) is unclear.
+  - **Required correction** Provide Table 1 in the submission and ensure it includes sufficient detail for readers to evaluate the crosslink identifications, such as peptide sequences, crosslinked residues, and identification scores.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail on manual curation
+  - **Affected element** Results section, first subsection
+  - **Evidence pointer** Location not provided
+  - **Issue** The statement that crosslinks were "manually checked for unambiguous assignment between the two proteins" lacks detail on how this was performed and by whom. Manual curation can introduce subjectivity.
+  - **Required Correction** Describe the manual curation process in more detail, including the criteria used to distinguish between Thrap3 and Bclaf1 crosslinks given their homology, and whether this was done blinded or with specific rules.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of negative results
+  - **Affected element** Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The authors note that BAF complex crosslinks were not enriched as expected, but this negative result is not discussed in detail. Understanding why the approach failed for BAF would be valuable for readers considering using this method.
+  - **Required Correction** Add a brief discussion of possible reasons for the lack of BAF crosslinks, such as complex stability, epitope accessibility, or antibody efficiency, and how this informs the applicability of the method.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Abstract; Results; Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The complex is referred to as "TEB" in the abstract and results, but the order of proteins in the name (Thrap3, Erh, Bclaf1) is not consistent with the order in the title (Thrap3, Bclaf1, Erh). This could cause confusion.
+  - **Required Correction** Standardise the naming convention throughout the manuscript, either as TEB (Thrap3-Erh-Bclaf1) or TBE (Thrap3-Bclaf1-Erh), and use it consistently.
+
+## Risk / unsupported claims
+- The claim that Thrap3, Bclaf1, and Erh form a "stable complex" is not fully supported by the presented evidence, as crosslinking alone demonstrates proximity but not complex stability or stoichiometry.
+- The claim that the identified interaction surfaces are "globular" is based on preliminary homology models and is not rigorously validated.
+- The general claim that DSSO XL-MS can be used to characterise endogenous complexes "in detail" is not fully supported, given the limited success with the intended BAF target and the reliance on co-purifying proteins.
+- The biological significance of the TEB complex, particularly its role in DNA damage repair and splicing regulation, is discussed but not experimentally addressed in this study; these connections are speculative.
+- The statement that the C-terminal fragment of Thrap3 rescues the knockout phenotype "may have been mediated by restoration of interactions with Erh and Bclaf1" is speculative and not tested here.
+- The manuscript mentions "high frequency phosphorylation sites" within the Thrap3 C-terminus, but the relevance of these sites to the proposed interactions is not discussed or investigated.

@@ -1,0 +1,63 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of full methodology, data, or supplementary materials
+- **Shared manuscript claim summary** The authors report a strategy combining the phase-separating protein RGGRGG with the ReverseTag/ReverseCatcher tagging system to assemble multienzyme complexes in vivo. They claim coarse-grained simulations show RGGRGG domains form condensates that interface with the tagging system, that ReverseTagged proteins self-assemble within ReverseCatcher_RGGRGG condensates, and that overexpression of six lycopene biosynthesis enzymes with three ReverseTagged variants immobilized via ester bonds yields a 5.4-fold enhancement in lycopene production relative to controls.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical data beyond the reported fold change
+- **Missing materials affecting confidence** Full methods, simulation details, experimental protocols, strain and plasmid information, control definitions, statistical analyses, raw production data, and any characterization of condensate formation or enzyme immobilization
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting integration of phase separation with a peptide tagging system for multienzyme assembly, targeting a relevant problem in metabolic engineering. However, the evidence base is too limited to evaluate the validity of the central claims. The simulation results are described only qualitatively, the in vivo assembly is asserted without mechanistic detail, and the reported 5.4-fold enhancement lacks context regarding control conditions, reproducibility, and statistical significance. The work may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, metabolic engineering, and enzyme catalysis would be interested in a strategy that leverages phase separation to organize biosynthetic enzymes, particularly for improving production of value-added compounds such as lycopene. Those working on protein condensates and their applications in biotechnology may also find the integration of RGGRGG with the ReverseTag/ReverseCatcher system noteworthy.
+- **Major strengths** The conceptual combination of phase-separated scaffolds with a covalent tagging system is a plausible and potentially generalizable approach for multienzyme assembly. The reported application to lycopene biosynthesis addresses a practically relevant pathway, and the 5.4-fold improvement, if robust, would be of practical interest.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that coarse-grained simulations reveal RGGRGG domains form condensates and demonstrate how these condensates interface with the ReverseTag/ReverseCatcher system.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on the simulation methodology, parameters, or validation. It is unclear whether the simulations are predictive of experimental behavior or merely illustrative. The claim that simulations "demonstrate" interfacing with the tagging system is not supported by any quantitative or qualitative results presented here.
+  - **Why it matters** If the simulation evidence is weak or not connected to experimental observations, the mechanistic basis for the design is undermined. The reader cannot assess whether the condensate formation and tagging system integration are physically plausible or an artifact of the model.
+  - **Resolution test** Provide simulation details, including force field, system size, and timescales, and show direct comparison with experimental observations of condensate formation and protein recruitment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ReverseTagged proteins effectively self-assembled within ReverseCatcher_RGGRGG condensates in cellular systems.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states this as a result but provides no experimental evidence, such as microscopy images, fractionation data, or colocalization analyses. The term "self-assembled" is ambiguous and could mean passive partitioning, active recruitment, or covalent immobilization, each with different implications.
+  - **Why it matters** The central premise of the strategy is that enzymes are concentrated within condensates via the tagging system. Without evidence of localization or enrichment, the mechanism of the reported production enhancement cannot be attributed to the proposed assembly.
+  - **Resolution test** Show imaging or biochemical fractionation data demonstrating that ReverseTagged enzymes are enriched in condensates relative to controls, and that this enrichment depends on the ReverseTag/ReverseCatcher interaction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim a 5.4-fold enhancement in lycopene production compared to control groups.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify what the control groups are, how many replicates were performed, what statistical test was used, or whether the enhancement is reproducible across biological replicates. The fold change is presented without error bars or confidence intervals.
+  - **Why it matters** A fold change without statistical context cannot be evaluated for significance. If the control is not appropriate, such as lacking the scaffold or the tagging system, the enhancement may be due to unrelated effects such as increased gene dosage or metabolic burden.
+  - **Resolution test** Provide full experimental details for controls, replicate numbers, statistical analysis, and raw production values. Clarify whether the enhancement is specific to the phase-separation and tagging mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "ReverseTag/ReverseCatcher" and "RGGRGG" without explaining what these are or why they were chosen. A reader unfamiliar with the tagging system may struggle to follow the logic.
+  - **Required correction** Briefly define the tagging system and the RGGRGG protein, and state the rationale for their selection in one or two sentences.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims the strategy "holds significant promise" and "is expected to stimulate further research," but these statements are speculative and not tied to specific advantages over existing multienzyme assembly methods.
+  - **Required correction** Replace general statements with a specific comparison to alternative approaches, such as DNA scaffolds or other protein-based assembly systems, to justify the novelty and potential impact.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The simulation evidence is not described, the in vivo assembly is not demonstrated with data, and the production enhancement lacks statistical and control context. These are required to support the central claims.
+- **Assessment against Nature-style criteria** Originality: The combination of phase separation with a covalent tagging system is a creative idea, though the abstract does not clarify how it differs from prior phase-separation-based enzyme scaffolds. Scientific importance: The potential to improve lycopene production is relevant, but the significance for the broader field of multienzyme catalysis is not established without mechanistic evidence. Interdisciplinary readership: The topic bridges synthetic biology, protein engineering, and metabolic engineering, which could attract a broad audience, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: Not assessable from the abstract; the lack of methodological detail and statistical context prevents evaluation. Readability for nonspecialists: The abstract is concise but assumes familiarity with the tagging system and phase separation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The idea is promising, but the abstract alone does not provide sufficient support for the claims. A full manuscript with detailed methods, controls, and statistical analyses would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that coarse-grained simulations demonstrate condensate formation and interfacing with the tagging system is unsupported due to lack of methodological detail.
+- The claim that ReverseTagged proteins self-assembled within condensates in cellular systems is unsupported by any experimental evidence in the abstract.
+- The 5.4-fold enhancement in lycopene production is not assessable without control definitions, replicate numbers, and statistical analysis.
+- The general statement that the strategy holds promise for advancing multienzyme catalysis in vivo and in vitro is speculative and not tied to specific evidence.

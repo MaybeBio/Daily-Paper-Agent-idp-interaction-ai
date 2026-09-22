@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, figure legends referenced but figures not provided)
+- **Assessment boundary** Scientific claims and evidence presented in the manuscript; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors propose that Bok binds to a largely disordered loop (residues 1882-1957) between α helices 72 and 73 of IP3R1, with high-affinity binding mediated by multiple determinants including a central low-disorder region containing two transient helical motifs and flanking highly disordered regions.
+- **Visible evidence base** Co-immunoprecipitation experiments in HEK-3KO cells with IP3R1 deletion mutants; in vitro fluorescence polarization binding assays with purified proteins and peptides; bioinformatic predictions (IUPred2A, ANCHOR2, Agadir, CIDER); cellular fractionation experiments; supplementary data referenced but not provided
+- **Missing materials affecting confidence** Figures 1-4 and supplementary figures/data not provided; full experimental details for some assays (e.g., exact peptide sequences, protein concentrations, replicates) not fully described; statistical analysis details for Kd determinations not fully specified
+
+## Reviewer
+- **Overall assessment** The manuscript presents a focused and systematic investigation of the Bok-IP3R1 interaction, identifying a specific region within the α72-73 loop as critical for binding. The combination of cellular and in vitro approaches is appropriate, and the finding that small deletions disrupt binding while glycine substitution does not is intriguing. However, several technical concerns and missing details limit the strength of the conclusions, particularly regarding the mechanistic interpretation of the disordered regions' contributions and the physiological relevance of the observed interactions.
+- **Who would be interested in the results, and why** Researchers studying Bcl-2 family protein interactions, IP3 receptor biology, calcium signaling, and intrinsically disordered protein regions. The findings may also interest those investigating protein-protein interactions involving disordered loops and the development of peptide-based inhibitors targeting such interactions.
+- **Major strengths** 1) Systematic deletion analysis in full-length IP3R1, avoiding artifacts of truncation mutants; 2) Combination of cellular co-IP and in vitro binding assays with purified proteins; 3) Integration of bioinformatic predictions with experimental data; 4) Demonstration that the interaction can occur in the cytosol independently of membrane insertion; 5) Identification of multiple determinants contributing to binding affinity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "small deletions in this central region block Bok binding due to perturbation of the helical elements"
+  - **Evidence pointer** Figure 1B, location not provided
+  - **Concern** The claim that small deletions block binding "due to perturbation of the helical elements" is not directly supported by the data presented. The authors show that deletions of residues 1916-1917, 1917, and 1920-1921 abolish binding, and that glycine substitution of 1916-1917 does not. However, the Agadir predictions are used to infer helical changes, but no direct structural or biophysical evidence (e.g., circular dichroism, NMR) is provided to confirm that these mutations actually alter helical propensity in the context of the full-length protein or the isolated peptide. The interpretation that helical stability, rather than specific side-chain interactions, is the critical determinant remains speculative.
+  - **Why it matters** The central mechanistic claim of the paper rests on the interpretation that helical perturbation, rather than loss of specific contacts, explains the deletion effects. Without direct evidence of structural changes, alternative explanations (e.g., loss of specific electrostatic or hydrophobic contacts) remain equally plausible.
+  - **Resolution test** Provide direct biophysical characterization (e.g., CD spectroscopy or NMR) of the wild-type and mutant peptides to demonstrate altered helical content. Alternatively, perform alanine scanning mutagenesis to distinguish between structural perturbation and loss of specific side-chain interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "high affinity binding is mediated by multivalent interactions" and "binding affinity is also dependent upon both of the high disorder flanking regions"
+  - **Evidence pointer** Figure 2E-F, location not provided
+  - **Concern** The fluorescence polarization data show that FITC-IP3R11898-1940 binds with Kd ~65 nM, while peptides lacking N-terminal or C-terminal flanking regions bind with lower affinity (Kd 265-398 nM). However, the authors do not provide a clear mechanistic explanation for how the disordered flanking regions contribute to binding. The claim of "multivalent interactions" is not directly tested. No experiments are shown that dissect the individual contributions of the flanking regions versus the central helical region, nor is there evidence for simultaneous engagement of multiple sites on Bok. The possibility that the flanking regions simply increase local concentration or provide additional weak contacts is not distinguished from true multivalency.
+  - **Why it matters** The concept of multivalency is central to the proposed model of high-affinity binding. Without direct evidence for simultaneous engagement of multiple determinants, the model remains one of several possible explanations for the observed affinity differences.
+  - **Resolution test** Perform binding studies with peptides that contain the central region plus only one flanking region, and compare to the full-length peptide. Use competition experiments or mutant Bok proteins to test whether multiple sites on Bok are engaged simultaneously. Consider isothermal titration calorimetry to determine binding stoichiometry.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and rigor
+  - **Claim pointer** "All samples were resuspended in gel-loading buffer, incubated at 37°C for 30 min or boiled for 5 min"
+  - **Evidence pointer** Methods section, location not provided
+  - **Concern** The methods describe two different sample preparation conditions (37°C for 30 min or boiling for 5 min) without specifying which condition was used for which experiment. This is particularly relevant given that the α72-73 loop is proposed to be disordered, and boiling could potentially affect the conformation or aggregation state of the proteins. The lack of specification makes it difficult to assess the reproducibility of the co-IP results.
+  - **Why it matters** Inconsistent sample preparation could lead to variable results, particularly for membrane proteins and their interacting partners. The choice of denaturation conditions could influence the detection of weak or transient interactions.
+  - **Resolution test** Specify which condition was used for each experiment, or provide data demonstrating that both conditions yield equivalent results. If boiling is used, justify why this does not affect the interaction being measured.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of evidence
+  - **Claim pointer** "All mutants examined exhibited normal Ca2+ channel function"
+  - **Evidence pointer** Supplementary Data, Figure 1, location not provided
+  - **Concern** The claim that all mutants exhibit normal Ca2+ channel function is relegated to supplementary data that was not provided for review. Given that the authors use this to argue that the deletion mutants are not globally misfolded, this is an important control that should be visible in the main text or at least fully described. Without seeing the actual data, it is impossible to assess whether the functional assay was sufficiently sensitive to detect subtle changes in channel function.
+  - **Why it matters** The interpretation that the deletions specifically affect Bok binding, rather than causing global structural disruption, depends on this control. If the functional assay is not sensitive enough, the conclusion is weakened.
+  - **Resolution test** Provide the supplementary data or describe the functional assay in sufficient detail to assess its sensitivity. Consider including a representative trace or summary data in the main text.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "Bok binds to a largely disordered loop" but the data show that binding is dependent on a central region with low disorder and helical propensity. The phrase "largely disordered" may be misleading, as the critical binding determinants appear to be in the more ordered central region.
+  - **Required correction** Rephrase to clarify that the loop is largely disordered but contains a central region with transient helical structure that is critical for binding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods, protein purification section, location not provided
+  - **Issue** The methods for protein purification do not specify the concentration of proteins used in the fluorescence polarization assays, nor the exact buffer conditions beyond PBS/0.1% BSA. This limits the ability to reproduce the binding experiments.
+  - **Required correction** Provide protein concentrations, buffer composition, and temperature for the FP assays.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion states "it seems likely that the information obtained in the present study will guide future work that seeks to interfere with the Bok-IP3R1 interaction" but does not provide specific suggestions for how this might be achieved based on the structural features identified.
+  - **Required correction** Add a brief statement on potential strategies for disrupting the interaction, such as targeting the central helical region or the flanking disordered regions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1A, location not provided
+  - **Issue** The figure legend mentions "well-characterized sites for caspase-3 and chymotrypsin cleavage, as well as many of the sites at which IP3R1 is ubiquitinated" but the figure itself is not provided. It is unclear how these sites relate to the Bok binding region.
+  - **Required correction** Ensure the figure clearly marks these sites relative to the Bok binding region, or clarify in the text why these sites are relevant to the study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of direct structural evidence for helical perturbation), R1-M2 (multivalency not directly tested), R1-M3 (unspecified sample preparation conditions)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The identification of a specific disordered loop region as the Bok binding site is novel, but the general concept of disordered regions mediating protein-protein interactions is well established.
+  - Scientific importance: Moderate. The findings advance understanding of Bok-IP3R1 interactions but do not fundamentally alter current models of IP3R function or Bcl-2 family biology.
+  - Interdisciplinary readership: Limited. The work is primarily of interest to researchers in calcium signaling, Bcl-2 family biology, and intrinsically disordered proteins.
+  - Technical soundness: The core experiments are logically designed, but the lack of direct structural evidence for the helical perturbation model and the incomplete specification of methods reduce confidence.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, though some bioinformatic analyses may require background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a specific and relevant question, and the experimental approach is sound. However, the mechanistic interpretation requires additional evidence, and the methods need to be more completely specified.
+
+## Risk / unsupported claims
+- The claim that small deletions block binding "due to perturbation of the helical elements" is not directly supported by structural evidence.
+- The claim of "multivalent interactions" mediating high-affinity binding is not directly tested.
+- The statement that "the Bok-IP3R1 interaction can occur prior to Bok membrane insertion" is supported by the co-IP data but the physiological relevance of this observation is not discussed.
+- The claim that "all mutants exhibited normal Ca2+ channel function" cannot be assessed without the supplementary data.
+- The statement that "the stabilization of Bok that results from binding to IP3R1 can occur independently of membranes" is inferred from the co-IP data but not directly tested in a cell-free system.

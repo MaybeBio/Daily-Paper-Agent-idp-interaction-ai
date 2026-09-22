@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "41114597",
+    "doi": "10.1128/mbio.02622-25",
+    "title": "ZapC crosslinks FtsZ filaments through a dual-binding mechanism modulated by the intrinsically disordered linker of FtsZ in Escherichia coli."
+  },
+  "content": {
+    "abstract": "Most bacteria divide through binary fission, which is mediated by a large protein complex called the divisome. Assembly of the divisome is initiated by the formation of a Z-ring at midcell consisting of polymers of the bacterial tubulin FtsZ. A series of FtsZ-associated proteins (Zaps), which crosslink FtsZ filaments, promote Z-ring formation in Escherichia coli. However, how these proteins interact with FtsZ is still largely unclear. In this study, we discover that ZapC binds to both FtsZ's globular domain and its conserved C-terminal peptide (CTP) to crosslink FtsZ filaments. An AlphaFold 3 structural model of the FtsZ-ZapC complex indicates that ZapC binds to the globular domain of FtsZ via a loop region connecting its N-terminal and C-terminal domains and to the CTP of FtsZ via a hydrophobic pocket in the N-terminal domain. Substitutions in these regions of ZapC disrupt its binding to FtsZ, validating the dual binding mode. Strikingly, we find that the intrinsically disordered C-terminal linker (CTL) of FtsZ affects the interaction of FtsZ with ZapC as well as other partners, indicating an important role of the CTL in FtsZ functionality. Taken together, these results indicate that ZapC, although it exists as a monomer, can crosslink FtsZ filaments by a two-pronged mechanism, binding to the globular domain of FtsZ in one filament and to the CTP of FtsZ in another filament. Furthermore, the CTL plays an important role in regulating FtsZ interaction with its partners.IMPORTANCEBacterial cytokinesis requires the Z-ring, a highly dynamic cytoskeletal element consisting of polymers of the bacterial tubulin FtsZ. Formation of a coherent and functional Z-ring is facilitated by FtsZ-associated proteins (Zaps), which can crosslink FtsZ polymers, but how these proteins work is still incompletely understood. In this study, we find that ZapC, one of the FtsZ crosslinkers, binds to both FtsZ's globular domain and its conserved C-terminal peptide (CTP) to crosslink FtsZ filaments. Moreover, the intrinsically disordered C-terminal linker (CTL) of FtsZ modulates its binding to ZapC and many other FtsZ binding proteins. These findings reveal a novel mechanism to crosslink FtsZ filaments and an important and highly conserved role of the CTL in FtsZ functionality.",
+    "keywords": [
+      "FtsZ",
+      "FtsZ-associated proteins",
+      "Z ring",
+      "ZapC",
+      "bacterial cell division"
+    ],
+    "mesh_terms": [
+      "*Cytoskeletal Proteins/metabolism/genetics/chemistry",
+      "*Bacterial Proteins/metabolism/chemistry/genetics",
+      "*Escherichia coli Proteins/metabolism/genetics/chemistry",
+      "*Escherichia coli/metabolism/genetics",
+      "Protein Binding",
+      "Models, Molecular",
+      "*Cell Cycle Proteins/metabolism/genetics",
+      "*Carrier Proteins/metabolism/genetics",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Ying",
+        "Gong, Han",
+        "Zhan, Rui",
+        "Cui, Yuanyuan",
+        "Chen, Xiangdong",
+        "Lutkenhaus, Joe",
+        "Du, Shishen"
+      ],
+      "short_names": [
+        "Li Y",
+        "Gong H",
+        "Zhan R",
+        "Cui Y",
+        "Chen X",
+        "Lutkenhaus J",
+        "Du S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9809-8653"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+        "Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+        "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+        "Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+        "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+        "Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+        "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+        "Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+        "State Key Laboratory of Virology and Biosafety, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+        "Department of Microbiology, Molecular Genetics and Immunology, University of Kansas Medical Center, Kansas City, Kansas, USA.",
+        "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+        "Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, Hubei, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Ying",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+          "Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Gong, Han",
+        "short_name": "Gong H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+          "Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Zhan, Rui",
+        "short_name": "Zhan R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+          "Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Yuanyuan",
+        "short_name": "Cui Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+          "Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiangdong",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Virology and Biosafety, College of Life Sciences, Wuhan University, Wuhan, Hubei, China."
+        ]
+      },
+      {
+        "full_name": "Lutkenhaus, Joe",
+        "short_name": "Lutkenhaus J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Molecular Genetics and Immunology, University of Kansas Medical Center, Kansas City, Kansas, USA."
+        ]
+      },
+      {
+        "full_name": "Du, Shishen",
+        "short_name": "Du S",
+        "identifiers": [
+          "0000-0002-9809-8653"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Metabolism and Regulation in Complex Organisms, College of Life Sciences, Wuhan University, Wuhan, Hubei, China.",
+          "Hubei Key Laboratory of Cell Homeostasis, College of Life Sciences, Wuhan University, Wuhan, Hubei, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "mBio"
+    ],
+    "journal_abbrev": [
+      "mBio"
+    ],
+    "pub_date": "2025 Nov 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/20 12:30",
+    "fetched_at": "2026-09-17 21:23:13"
+  },
+  "links": {
+    "cites": [
+      "41986536"
+    ],
+    "refs": [
+      "40593603",
+      "40467574",
+      "39294118",
+      "38718835",
+      "37957331",
+      "37524757",
+      "36215496",
+      "34903053",
+      "33907196",
+      "33737746",
+      "33495624",
+      "32092282",
+      "32039891",
+      "31848350",
+      "31171437",
+      "30010220",
+      "29089389",
+      "28877250",
+      "28209899",
+      "28209898",
+      "28100778",
+      "27091999",
+      "26655719",
+      "26619764",
+      "26282928",
+      "26099469",
+      "25848771",
+      "25382687",
+      "25305578",
+      "25101671",
+      "25078077",
+      "25002581",
+      "24722340",
+      "24595368",
+      "24316672",
+      "23859153",
+      "23714328",
+      "23692518",
+      "23457247",
+      "23098212",
+      "22580828",
+      "22505682",
+      "22473211",
+      "21216997",
+      "21216995",
+      "21119015",
+      "20487275",
+      "20132438",
+      "19415799",
+      "18984159",
+      "18394147",
+      "15288790",
+      "12634424",
+      "12368265",
+      "11847116",
+      "10880432",
+      "9922245",
+      "9576956",
+      "9430638",
+      "9008158",
+      "1944597"
+    ],
+    "similar": [
+      "41114597",
+      "26655719",
+      "27021560",
+      "34903053",
+      "31871036",
+      "26282928",
+      "27088231",
+      "31932314",
+      "27871169",
+      "21216995",
+      "26619764",
+      "21216997",
+      "28100778",
+      "30261644",
+      "29921670",
+      "30455283",
+      "26978224",
+      "23714328",
+      "22505682",
+      "30478085",
+      "29089389",
+      "18291654",
+      "32198113",
+      "24722340",
+      "23000704",
+      "41479413",
+      "27091999",
+      "35104502",
+      "10960100",
+      "19415799",
+      "29414773",
+      "25078077",
+      "39294118",
+      "35968943",
+      "22787144",
+      "29045877",
+      "28249098",
+      "25954894",
+      "32873767",
+      "20969647",
+      "35481648",
+      "28500522",
+      "24707052",
+      "25305578",
+      "24218584",
+      "22912848",
+      "24651041",
+      "30206170",
+      "40952901",
+      "40593603",
+      "28465423",
+      "18394147",
+      "40467574",
+      "23692518",
+      "25500731",
+      "22056926",
+      "25382687",
+      "25490152",
+      "25002581",
+      "26046682",
+      "30010220",
+      "10601211",
+      "28613431",
+      "23859153",
+      "31175681",
+      "23577149",
+      "33288679",
+      "21113127",
+      "24209842",
+      "23098212",
+      "25848771",
+      "20132438",
+      "24327341",
+      "40608290",
+      "23233671",
+      "27503875",
+      "25496259",
+      "23754405",
+      "24638110",
+      "24595368",
+      "33737746",
+      "23756461",
+      "15752196",
+      "32242019",
+      "31848350",
+      "22198391",
+      "10880432",
+      "23384248",
+      "18759781",
+      "21082789",
+      "35798943",
+      "32039891",
+      "38014448",
+      "28114338",
+      "18593876",
+      "23957637",
+      "10228152",
+      "39793890",
+      "29061666",
+      "22298780"
+    ],
+    "review": [
+      "41114597",
+      "28500522"
+    ],
+    "pmc": [
+      "12607630"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/mbio.02622-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41114597/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

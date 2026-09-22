@@ -1,0 +1,353 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.02.20.432055",
+  "title": "Cohesin-independent STAG proteins interact with RNA and localise to R-loops to promote complex loading",
+  "doi": "10.1101/2021.02.20.432055",
+  "abstract": "<h4>ABSTRACT</h4> Most studies of cohesin function consider the Stromalin Antigen (STAG/SA) proteins as core complex members given their ubiquitous interaction with the cohesin ring. Here, we provide functional data to support the notion that the SA subunit is not a mere passenger in this structure, but instead plays a key role in the localization of cohesin to diverse biological processes and promotes loading of the complex at these sites. We show that in cells acutely depleted for RAD21, SA proteins remain bound to chromatin, cluster in 3D and interact with CTCF, as well as with a wide range of RNA binding proteins involved in multiple RNA processing mechanisms. Accordingly, SA proteins interact with RNA and are localised to R-loops where they contribute to R-loop regulation. Our results place SA1 within R-loop domains upstream of the cohesin complex and reveal a role for SA1 in cohesin loading which is independent of NIPBL, the canonical cohesin loader. We propose that SA1 takes advantage of structural R-loop platforms to link cohesin loading and chromatin structure with diverse functions. Since SA proteins are pan-cancer targets, and R-loops play an increasingly prevalent role in cancer biology, our results have important implications for the mechanistic understanding of SA proteins in cancer and disease.",
+  "authors": [
+    "Porter H",
+    "Li Y",
+    "Neguembor MV",
+    "Beltran M",
+    "Varsally W",
+    "Martin L",
+    "Cornejo MT",
+    "Pezic D",
+    "Bhamra A",
+    "Surinova S",
+    "Jenner RG",
+    "Cosma MP",
+    "Hadjur S"
+  ],
+  "published_date": "2021-02-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.02.20.432055",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.02.20.432055.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR286471",
+    "raw_record": {
+      "id": "PPR286471",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR286471"
+        ]
+      },
+      "doi": "10.1101/2021.02.20.432055",
+      "title": "Cohesin-independent STAG proteins interact with RNA and localise to R-loops to promote complex loading",
+      "authorString": "Porter H, Li Y, Neguembor MV, Beltran M, Varsally W, Martin L, Cornejo MT, Pezic D, Bhamra A, Surinova S, Jenner RG, Cosma MP, Hadjur S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Porter H",
+            "lastName": "Porter",
+            "firstName": "Hayley",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Department of Cancer Biology, Cancer Institute, University College London, 72 Huntley Street, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li Y",
+            "lastName": "Li",
+            "firstName": "Yang",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Department of Cancer Biology, Cancer Institute, University College London, 72 Huntley Street, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Neguembor MV",
+            "lastName": "Neguembor",
+            "firstName": "Maria Victoria",
+            "initials": "MV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, 08003 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beltran M",
+            "lastName": "Beltran",
+            "firstName": "Manuel",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Regulatory Genomics Group, Cancer Institute, University College London, London WC1E 6BT, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Varsally W",
+            "lastName": "Varsally",
+            "firstName": "Wazeer",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Department of Cancer Biology, Cancer Institute, University College London, 72 Huntley Street, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martin L",
+            "lastName": "Martin",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8801-6637"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, 08003 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cornejo MT",
+            "lastName": "Cornejo",
+            "firstName": "Manuel Tavares",
+            "initials": "MT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Regulatory Genomics Group, Cancer Institute, University College London, London WC1E 6BT, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pezic D",
+            "lastName": "Pezic",
+            "firstName": "Dubravka",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Department of Cancer Biology, Cancer Institute, University College London, 72 Huntley Street, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bhamra A",
+            "lastName": "Bhamra",
+            "firstName": "Amandeep",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Proteomics Research Translational Technology Platform, Cancer Institute, University College London, 72 Huntley Street, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Surinova S",
+            "lastName": "Surinova",
+            "firstName": "Silvia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Proteomics Research Translational Technology Platform, Cancer Institute, University College London, 72 Huntley Street, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jenner RG",
+            "lastName": "Jenner",
+            "firstName": "Richard",
+            "initials": "RG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2946-6811"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Regulatory Genomics Group, Cancer Institute, University College London, London WC1E 6BT, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cosma MP",
+            "lastName": "Cosma",
+            "firstName": "Maria Pia",
+            "initials": "MP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), The Barcelona Institute of Science and Technology, 08003 Barcelona, Spain"
+                },
+                {
+                  "affiliation": "Universitat Pompeu Fabra (UPF), Dr Aiguader 88, 08003 Barcelona, Spain"
+                },
+                {
+                  "affiliation": "Institució Catalana de Recerca i Estudis Avançats (ICREA), Pg. Lluís Companys 23, 08010 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hadjur S",
+            "lastName": "Hadjur",
+            "firstName": "Suzana",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3146-3118"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Department of Cancer Biology, Cancer Institute, University College London, 72 Huntley Street, London, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8801-6637"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2946-6811"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3048-5331"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3146-3118"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>ABSTRACT</h4>  Most studies of cohesin function consider the Stromalin Antigen (STAG/SA) proteins as core complex members given their ubiquitous interaction with the cohesin ring. Here, we provide functional data to support the notion that the SA subunit is not a mere passenger in this structure, but instead plays a key role in the localization of cohesin to diverse biological processes and promotes loading of the complex at these sites. We show that in cells acutely depleted for RAD21, SA proteins remain bound to chromatin, cluster in 3D and interact with CTCF, as well as with a wide range of RNA binding proteins involved in multiple RNA processing mechanisms. Accordingly, SA proteins interact with RNA and are localised to R-loops where they contribute to R-loop regulation. Our results place SA1 within R-loop domains upstream of the cohesin complex and reveal a role for SA1 in cohesin loading which is independent of NIPBL, the canonical cohesin loader. We propose that SA1 takes advantage of structural R-loop platforms to link cohesin loading and chromatin structure with diverse functions. Since SA proteins are pan-cancer targets, and R-loops play an increasingly prevalent role in cancer biology, our results have important implications for the mechanistic understanding of SA proteins in cancer and disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/02/21/2021.02.20.432055.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.02.20.432055"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR286471"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR286471&type=FILE&fileName=EMS163449-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37010886",
+            "reference": "eLife. 2023 Apr;12:e79386",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS163449",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "hpa",
+          "pxd",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-02-22",
+      "firstPublicationDate": "2021-02-20",
+      "firstIndexDate": "2021-02-22",
+      "fullTextReceivedDate": "2023-02-24",
+      "hasEvaluations": "Y"
+    }
+  }
+}

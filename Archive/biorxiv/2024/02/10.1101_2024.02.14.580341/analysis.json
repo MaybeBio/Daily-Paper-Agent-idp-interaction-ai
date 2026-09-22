@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.14.580341",
+  "title": "Decoding functional proteome information in model organisms using protein language models",
+  "authors": "Barrios-Núñez I; Martínez-Redondo GI; Medina-Burgos P; Cases I; Fernández R; Rojas AM",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-15",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用蛋白质语言模型解码模式生物全蛋白质组的功能注释，虽涉及AI方法但对象非无序蛋白/IDR，且不聚焦PPI或互作机制建模，仅间接相关。",
+  "abstract": "<h4>ABSTRACT</h4> Protein language models have been tested and proved to be reliable when used on curated datasets but have not yet been applied to full proteomes. Accordingly, we tested how two different machine learning based methods performed when decoding functional information from the proteomes of selected model organisms. We found that protein Language Models are more precise and informative than Deep Learning methods for all the species tested and across the three gene ontologies studied, and that they better recover functional information from transcriptomics experiments. The results obtained indicate that these Language Models are likely to be suitable for large scale annotation and downstream analyses, and we recommend a guide for their use.",
+  "abstract_zh": "<h4>摘要</h4> 蛋白质语言模型（protein language models）在精选数据集上已被测试并证明可靠，但尚未应用于全蛋白质组。因此，我们测试了两种不同的基于机器学习的方法在从选定模式生物的蛋白质组中解码功能信息时的表现。我们发现，对于所有测试物种及所研究的三个基因本体（gene ontologies），蛋白质语言模型比深度学习（Deep Learning）方法更为精确且信息量更大，并且它们能更好地从转录组学实验中恢复功能信息。所得结果表明，这些语言模型可能适用于大规模注释及下游分析，我们为此推荐了一份使用指南。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.14.580341",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.14.580341",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.14.580341/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40136504",
+  "title": "Evolution of the PE_PGRS Proteins of Mycobacteria: Are All Equal or Are Some More Equal than Others?",
+  "authors": "Chen, Bei; Bajramovic, Belmin; Vriesendorp, Bastienne; Spaink, Herman Pieter",
+  "journal": "Biology",
+  "published_date": "2025-03-26",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述利用AlphaFold3等计算工具分析分枝杆菌PE_PGRS蛋白的PGRS结构域，发现其低复杂度甘氨酸富集序列可发生相分离，并探讨其在毒力与宿主互作中的机制角色，虽非典型IDP但相分离与互作机制建模对本课题有启发。",
+  "abstract": "PE_PGRS domain proteins represent a family of proteins found in pathogenic and non-pathogenic mycobacteria such as M. smegmatis. This conserved family is characterized by two distinct regions denoted as the variable PGRS domain defined by glycine-rich repeats, and a PE domain consisting of two antiparallel alpha-helices. There are many indications that PE_PGRS proteins are involved in immunopathogenesis and virulence by evading or triggering the host immune response. However, there is not yet any information on their degree of specialization or redundancy. Computational analysis and structural annotation using AlphaFold3 combined with other tools reveals an exceptionally powerful and unprecedented ability to undergo phase separation by the PGRS domain. This suggests that PGRS's glycine-rich, multivalent, low-complexity composition supports phase separation while adopting a structured conformation, contrary to the disordered nature typical of such domains. While previously never reported, the hypothesized role of PGRS in virulence indicates a novel window into the seemingly ubiquitous role of phase separation in cellular compartmentalization and molecular dynamics. This review aims to summarize the current understanding of the PE_PGRS family and its various biological roles in the context of bioinformatic analyses of some interesting representatives of M. marinum that are under control by host sterols. Based on the structural bioinformatics analysis, we discuss future approaches to uncover the mechanistic role of this intriguing family of mycobacterial proteins in both pathogenic and non-pathogenic mycobacteria.",
+  "abstract_zh": "PE_PGRS结构域蛋白代表了一类在致病性和非致病性分枝杆菌（如耻垢分枝杆菌 (M. smegmatis)）中发现的蛋白质家族。这一保守家族的特征在于两个不同的区域：由富含甘氨酸重复序列定义的可变PGRS结构域，以及由两条反平行α-螺旋组成的PE结构域。许多迹象表明，PE_PGRS蛋白通过逃避或触发宿主免疫反应参与免疫病理发生和毒力。然而，关于其专一性或冗余性的程度，目前尚无任何信息。利用AlphaFold3结合其他工具进行的计算分析和结构注释揭示，PGRS结构域具有异常强大且前所未有的相分离 (phase separation) 能力。这表明，PGRS的富含甘氨酸、多价、低复杂性组成支持相分离，同时采用结构化构象，这与此类结构域典型的无序性质相反。尽管此前从未报道过，PGRS在毒力中的假设作用为相分离在细胞区室化和分子动力学中看似普遍的作用开辟了一个新视角。本综述旨在总结当前对PE_PGRS家族及其各种生物学作用的理解，并结合对受宿主甾醇调控的海分枝杆菌 (M. marinum) 一些有趣代表进行的生物信息学分析。基于结构生物信息学分析，我们讨论了未来揭示这一引人入胜的分枝杆菌蛋白家族在致病性和非致病性分枝杆菌中机制作用的方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40136504/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40136504/",
+  "paper_page_path": "papers/pubmed/40136504/index.html"
+}

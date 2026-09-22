@@ -1,0 +1,235 @@
+{
+  "identity": {
+    "pmid": "42350353",
+    "doi": "10.1021/acs.jctc.6c00469",
+    "title": "PSFF-PTM: A Coarse-Grained Force-Field Parameter Patch for Modeling Post-Translational Modification Effects on Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are fundamental drivers of biomolecular condensate formation via phase separation (PS). It is well established that post-translational modifications (PTMs) of IDPs significantly modulate PS, serving as critical regulatory switches. However, a comprehensive molecular understanding of how specific PTMs alter residue-level interactions remains elusive. This gap is largely attributed to the limitation of current residue-level coarse-grained molecular dynamics (CGMD) force fields, which typically lack parametrized potentials for modified residues. In this study, we developed interaction parameters for five common PTM types: phosphorylated serine (pSer), threonine (pThr), and tyrosine (pTyr); acetylated lysine (AcLys); and asymmetric dimethylarginine (aDMA). Using all-atom umbrella sampling simulations, we computed residue-specific potentials of mean force (PMFs) between modified and canonical amino acid residues. These PMF-derived parameters were systematically integrated into the established slab-geometry coarse-grained models (CALVADOS and Mpipi) via an additive module termed as PSFF-PTM. We used PSFF-PTM to study several typical IDP-involving PS systems and found that PSFF-PTM is able to capture the effects of PTMs on IDP phase behavior while remaining fully compatible with existing PS simulation frameworks. Furthermore, PSFF-PTM enables the identification of new molecular grammars of IDP-driven phase separation modulated by PTMs beyond simple \"charge accumulation\" model to sequence and spatial distribution of both charge and aromatic residues.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Protein Processing, Post-Translational",
+      "*Biomolecular Condensates/chemistry/metabolism",
+      "Phase Separation",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mu, Junxi",
+        "Lai, Luhua"
+      ],
+      "short_names": [
+        "Mu J",
+        "Lai L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1192-2791",
+        "ORCID: 0000-0002-8343-7587"
+      ],
+      "affiliations": [
+        "Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+        "Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+        "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+        "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mu, Junxi",
+        "short_name": "Mu J",
+        "identifiers": [
+          "0000-0003-1192-2791"
+        ],
+        "affiliations": [
+          "Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Luhua",
+        "short_name": "Lai L",
+        "identifiers": [
+          "0000-0002-8343-7587"
+        ],
+        "affiliations": [
+          "Peking-Tsinghua Center for Life Sciences, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+          "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+          "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2026 Jul 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 00:50",
+    "fetched_at": "2026-09-18 04:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42350353",
+      "33582133",
+      "32393642",
+      "34716273",
+      "40009520",
+      "40128232",
+      "40629690",
+      "41739144",
+      "41670285",
+      "39908323",
+      "40172489",
+      "40748104",
+      "40278867",
+      "41481439",
+      "36343363",
+      "39225535",
+      "39987501",
+      "37645312",
+      "40420812",
+      "29626537",
+      "26851279",
+      "38112495",
+      "33453922",
+      "38979955",
+      "41575805",
+      "33945530",
+      "38824391",
+      "41662532",
+      "40671581",
+      "38348795",
+      "40970906",
+      "39947751",
+      "38383656",
+      "38252962",
+      "29808548",
+      "39319382",
+      "41524628",
+      "31840995",
+      "42420726",
+      "33876640",
+      "38832749",
+      "38260590",
+      "31756104",
+      "39804953",
+      "41342450",
+      "33139563",
+      "40911789",
+      "30091924",
+      "38995731",
+      "40954121",
+      "34680048",
+      "30933517",
+      "23703210",
+      "24589355",
+      "39499823",
+      "38950000",
+      "41909144",
+      "34576338",
+      "34227362",
+      "40058249",
+      "41166416",
+      "39937084",
+      "28448138",
+      "41692248",
+      "36350035",
+      "40690668",
+      "41480717",
+      "34845619",
+      "33934416",
+      "39163306",
+      "40028356",
+      "33684117",
+      "30397688",
+      "40614690",
+      "37759550",
+      "33302617",
+      "40028898",
+      "34536913",
+      "38928405",
+      "34598583",
+      "40999735",
+      "37902126",
+      "41504268",
+      "39554101",
+      "38308651",
+      "38965780",
+      "42055532",
+      "36004748",
+      "39568948",
+      "41566033",
+      "29100108",
+      "39885825",
+      "41667469",
+      "34656328",
+      "41088757",
+      "33591749",
+      "36272811",
+      "41933903",
+      "32859072",
+      "40325419"
+    ],
+    "review": [
+      "42350353",
+      "40172489",
+      "26851279",
+      "38979955",
+      "41575805",
+      "38348795",
+      "39947751",
+      "34680048",
+      "40058249",
+      "41692248",
+      "41480717",
+      "40614690",
+      "37759550",
+      "34536913",
+      "40999735",
+      "29100108",
+      "33591749"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTHrP-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.6c00469",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

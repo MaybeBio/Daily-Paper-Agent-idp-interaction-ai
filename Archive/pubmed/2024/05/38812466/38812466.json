@@ -1,0 +1,231 @@
+{
+  "identity": {
+    "pmid": "38812466",
+    "doi": "10.1142/S0219720024500069",
+    "title": "MoRF_ESM: Prediction of MoRFs in disordered proteins based on a deep transformer protein language model."
+  },
+  "content": {
+    "abstract": "Molecular recognition features (MoRFs) are particular functional segments of disordered proteins, which play crucial roles in regulating the phase transition of membrane-less organelles and frequently serve as central sites in cellular interaction networks. As the association between disordered proteins and severe diseases continues to be discovered, identifying MoRFs has gained growing significance. Due to the limited number of experimentally validated MoRFs, the performance of existing MoRF's prediction algorithms is not good enough and still needs to be improved. In this research, we present a model named MoRF_ESM, which utilizes deep-learning protein representations to predict MoRFs in disordered proteins. This approach employs a pretrained ESM-2 protein language model to generate embedding representations of residues in the form of attention map matrices. These representations are combined with a self-learned TextCNN model for feature extraction and prediction. In addition, an averaging step was incorporated at the end of the MoRF_ESM model to refine the output and generate final prediction results. In comparison to other impressive methods on benchmark datasets, the MoRF_ESM approach demonstrates state-of-the-art performance, achieving [Formula: see text] higher AUC than other methods when tested on TEST1 and achieving [Formula: see text] higher AUC than other methods when tested on TEST2. These results imply that the combination of ESM-2 and TextCNN can effectively extract deep evolutionary features related to protein structure and function, along with capturing shallow pattern features located in protein sequences, and is well qualified for the prediction task of MoRFs. Given that ESM-2 is a highly versatile protein language model, the methodology proposed in this study can be readily applied to other tasks involving the classification of protein sequences.",
+    "keywords": [
+      "Disordered proteins",
+      "language model",
+      "molecular recognition features"
+    ],
+    "mesh_terms": [
+      "*Algorithms",
+      "*Deep Learning",
+      "*Computational Biology/methods",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Databases, Protein/statistics & numerical data"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fang, Chun",
+        "He, Jiasheng",
+        "Yamana, Hayato"
+      ],
+      "short_names": [
+        "Fang C",
+        "He J",
+        "Yamana H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0161-0412",
+        "ORCID: 0009-0005-0894-6815",
+        "ORCID: 0000-0001-7542-4826"
+      ],
+      "affiliations": [
+        "Department of Information Engineering, Beijing Institute of Petrochemical Technology, 19 Qingyuan North Road, Daxing District, Beijing 102617, P. R. China.",
+        "Department of Computer Science and Engineering, Waseda University, 3-4-1 Okubo, Shinjuku, Tokyo 169-8555, Japan.",
+        "Department of Information Engineering, Beijing Institute of Petrochemical Technology, 19 Qingyuan North Road, Daxing District, Beijing 102617, P. R. China.",
+        "Department of Computer Science and Engineering, Waseda University, 3-4-1 Okubo, Shinjuku, Tokyo 169-8555, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fang, Chun",
+        "short_name": "Fang C",
+        "identifiers": [
+          "0000-0002-0161-0412"
+        ],
+        "affiliations": [
+          "Department of Information Engineering, Beijing Institute of Petrochemical Technology, 19 Qingyuan North Road, Daxing District, Beijing 102617, P. R. China.",
+          "Department of Computer Science and Engineering, Waseda University, 3-4-1 Okubo, Shinjuku, Tokyo 169-8555, Japan."
+        ]
+      },
+      {
+        "full_name": "He, Jiasheng",
+        "short_name": "He J",
+        "identifiers": [
+          "0009-0005-0894-6815"
+        ],
+        "affiliations": [
+          "Department of Information Engineering, Beijing Institute of Petrochemical Technology, 19 Qingyuan North Road, Daxing District, Beijing 102617, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Yamana, Hayato",
+        "short_name": "Yamana H",
+        "identifiers": [
+          "0000-0001-7542-4826"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Waseda University, 3-4-1 Okubo, Shinjuku, Tokyo 169-8555, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of bioinformatics and computational biology"
+    ],
+    "journal_abbrev": [
+      "J Bioinform Comput Biol"
+    ],
+    "pub_date": "2024 Apr",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/30 06:35",
+    "fetched_at": "2026-09-21 07:30:35"
+  },
+  "links": {
+    "cites": [
+      "42288727",
+      "40857391"
+    ],
+    "refs": [],
+    "similar": [
+      "38812466",
+      "40031750",
+      "30866736",
+      "24093637",
+      "29042212",
+      "29360926",
+      "32019410",
+      "30717652",
+      "28155710",
+      "21152297",
+      "31504193",
+      "26517836",
+      "22689782",
+      "30324701",
+      "25637562",
+      "39789785",
+      "35350759",
+      "36458437",
+      "29080786",
+      "38866950",
+      "32173600",
+      "25424537",
+      "40441416",
+      "23328413",
+      "17488107",
+      "31660849",
+      "26651072",
+      "38701796",
+      "40254833",
+      "37827403",
+      "16935303",
+      "31007871",
+      "41257586",
+      "30298407",
+      "39457474",
+      "39246251",
+      "30657889",
+      "40020469",
+      "39316498",
+      "33267349",
+      "34391457",
+      "23233352",
+      "40811271",
+      "36440949",
+      "41284811",
+      "39657158",
+      "39714579",
+      "39433833",
+      "38781245",
+      "40121399",
+      "41023685",
+      "28589442",
+      "40133781",
+      "40138319",
+      "33119751",
+      "39795988",
+      "35443054",
+      "30135358",
+      "39361250",
+      "26555596",
+      "31521236",
+      "39576667",
+      "39528950",
+      "32743208",
+      "38656743",
+      "31459119",
+      "38679191",
+      "34830151",
+      "35799660",
+      "39000158",
+      "39576583",
+      "40914970",
+      "38079339",
+      "31739058",
+      "38674091",
+      "39987496",
+      "40601249",
+      "29544285",
+      "39858443",
+      "39769208",
+      "39481588",
+      "17973494",
+      "39051117",
+      "39043738",
+      "31847804",
+      "39167509",
+      "40235638",
+      "41168713",
+      "39121938",
+      "26198229",
+      "41319778",
+      "40036514",
+      "39576574",
+      "41174305",
+      "40577786",
+      "41257600",
+      "41031876",
+      "39844339",
+      "38747347",
+      "41290782"
+    ],
+    "review": [
+      "38812466",
+      "39789785",
+      "35350759",
+      "31007871",
+      "30657889",
+      "28589442"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.worldscientific.com/doi/10.1142/S0219720024500069?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

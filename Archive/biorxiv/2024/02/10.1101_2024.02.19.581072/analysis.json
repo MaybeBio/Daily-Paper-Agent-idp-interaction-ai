@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.19.581072",
+  "title": "TUnA: An uncertainty aware transformer model for sequence-based protein-protein interaction prediction",
+  "authors": "Young Su Ko; Jonathan Parkinson; Cong Liu; Wei Wang",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-21",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于Transformer和ESM-2嵌入的不确定性感知PPI预测模型TUnA，虽聚焦序列级PPI预测且非IDP对象，但其方法对无序蛋白互作预测具有可迁移启发。",
+  "abstract": "Protein-protein interactions (PPIs) are important for many biological processes, but predicting them from sequence data remains challenging. Existing deep learning models often cannot generalize to proteins not present in the training set, and do not provide uncertainty estimates for their predictions. To address these limitations, we present TUnA, a Transformer-based uncertainty aware model for PPI prediction. TUnA uses ESM-2 embeddings with Transformer encoders and incorporates a Spectral-normalized Neural Gaussian Process. TUnA achieves state-of-the-art performance and, importantly, evaluates uncertainty for unseen sequences. We demonstrate that TUnA’s uncertainty estimates can effectively identify the most reliable predictions, significantly reducing false positives. This capability is crucial in bridging the gap between computational predictions and experimental validation.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）对许多生物过程至关重要，但从序列数据预测它们仍然具有挑战性。现有的深度学习模型往往无法泛化到训练集中未出现的蛋白质，并且对其预测不提供不确定性估计。为解决这些局限性，我们提出了TUnA，一种基于Transformer的不确定性感知模型，用于PPI预测。TUnA利用ESM-2嵌入与Transformer编码器，并结合了谱归一化神经高斯过程。TUnA达到了最先进的性能，并且重要的是，对未见序列评估了不确定性。我们证明，TUnA的不确定性估计能有效识别最可靠的预测，显著减少假阳性。这一能力对于弥合计算预测与实验验证之间的差距至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.19.581072",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.19.581072",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.19.581072/index.html"
+}

@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "38882878",
+    "doi": "10.4103/jpbs.jpbs_998_23",
+    "title": "Herbal Composite Preparation and Investigating its Efficiency to Inhibit Biofilm Formation and Virulence Factors of Prevotella Intermedia and Porphyromonas Gingivalis - Formulation of Mouthwash Using a Herbal Composite and Evaluating its Anti-microbial Activity."
+  },
+  "content": {
+    "abstract": "Herbal composite preparation was studied with the aim of inhibiting the virulence factors of two dental pathogens: Prevotella intermedia and Porphyromonas gingivalis. A novel herbal composite was developed using the herbal extracts of Wrightia tinctoria and Bauhinia variegata. During the study, the following observations were noted. The minimal inhibitory concentration of Wrightia tinctoria and Bauhinia variegata composites (WBc) was obtained for the test concentration of 20 mug/ml (16 +/- 0.57 mm and 15 +/- 0.75 mm of inhibitory zones against Prevotella intermedia and Porphyromonas gingivalis, respectively). Biofilm inhibition assay results revealed about 0.51 +/- 1.25 mg/ml and 0.53 +/- 0.57 mg/ml of minimal biofilm eradication concentration (MBEC) against Prevotella intermedia and Porphyromonas gingivalis, respectively. The effect of WBc on lactic acid production showed that 200 mug/ml and 400 mug/ml concentrates reduced up to 80% and 70% in Prevotella intermedia and Porphyromonas gingivalis, respectively. Formulated herbal mouthwash showed good stability under all three different test conditions (5 degrees C, 25 degrees C, and 40 degrees C) as the color, odor, phase separation, and homogeneity were not changed for the period of 3 months. The anti-bacterial activity of formulated mouthwash (30 mug/ml) exhibited maximum inhibitory zones of about 18 +/- 0.75 mm and 19 +/- 1.05 mm against the respective test bacteria - Prevotella intermedia and Porphyromonas gingivalis. Amplification of mfa1 and clpB genes showed 246 bp and 294 bp fragments of P. gingivalis and 238 bp and 280 bp fragments of P. intermedia during agarose electrophoretic analysis. The docking report revealed -5.84 Kcal/Mol binding energy and found three hydrogen bonding between the quercetin and target protein, mfa1 of Porphyromonas gingivalis. The target protein, clpB of Prevotella intermedia, and quercetin had -6.72 Kcal/Mol binding energy and found four hydrogen bonds between them. The developed composite could be optimized in future to develop a novel and biocompatible herbal mouthwash for the prevention of different dental caries and gingival inflammation associated with dental biofilm formation.",
+    "keywords": [
+      "Dental caries",
+      "gingivitis",
+      "herbal composite",
+      "lactic acid",
+      "molecular docking",
+      "oral health",
+      "periodontitis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peeran, Syed Wali",
+        "Murugan, Manohar",
+        "Doggalli, Nagabhushana",
+        "Fageeh, Hytham",
+        "Ibrahim, Wael",
+        "Al-Ak'hali, Mohammed Sultan",
+        "Basheer, Syed Nahid"
+      ],
+      "short_names": [
+        "Peeran SW",
+        "Murugan M",
+        "Doggalli N",
+        "Fageeh H",
+        "Ibrahim W",
+        "Al-Ak'hali MS",
+        "Basheer SN"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Preventive Dental Sciences, Division of Periodontics, College of Dentistry, Jazan University, Jazan, Saudi Arabia.",
+        "Department of Microbiology, Sadakathullah Appa College (Autonomous), Tirunelveli, Tamil Nadu, India.",
+        "Department of oral medicine, JSS Dental College and Hospital, India.",
+        "Department of Preventive Dental Sciences, Division of Periodontics, College of Dentistry, Jazan University, Jazan, Saudi Arabia.",
+        "Department of Preventive Dental Sciences, Division of Periodontics, College of Dentistry, Jazan University, Jazan, Saudi Arabia.",
+        "Department of Preventive Dental Sciences, Division of Periodontics, College of Dentistry, Jazan University, Jazan, Saudi Arabia.",
+        "Department of Conservative Dental Sciences, College of Dentistry, Faculty of Dentistry, Jazan University, KSA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peeran, Syed Wali",
+        "short_name": "Peeran SW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Preventive Dental Sciences, Division of Periodontics, College of Dentistry, Jazan University, Jazan, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Murugan, Manohar",
+        "short_name": "Murugan M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Sadakathullah Appa College (Autonomous), Tirunelveli, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Doggalli, Nagabhushana",
+        "short_name": "Doggalli N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of oral medicine, JSS Dental College and Hospital, India."
+        ]
+      },
+      {
+        "full_name": "Fageeh, Hytham",
+        "short_name": "Fageeh H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Preventive Dental Sciences, Division of Periodontics, College of Dentistry, Jazan University, Jazan, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Ibrahim, Wael",
+        "short_name": "Ibrahim W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Preventive Dental Sciences, Division of Periodontics, College of Dentistry, Jazan University, Jazan, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Al-Ak'hali, Mohammed Sultan",
+        "short_name": "Al-Ak'hali MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Preventive Dental Sciences, Division of Periodontics, College of Dentistry, Jazan University, Jazan, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Basheer, Syed Nahid",
+        "short_name": "Basheer SN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Conservative Dental Sciences, College of Dentistry, Faculty of Dentistry, Jazan University, KSA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of pharmacy & bioallied sciences"
+    ],
+    "journal_abbrev": [
+      "J Pharm Bioallied Sci"
+    ],
+    "pub_date": "2024 Apr",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/17 06:44",
+    "fetched_at": "2026-09-21 08:00:23"
+  },
+  "links": {
+    "cites": [
+      "42489895",
+      "41425934",
+      "39907951"
+    ],
+    "refs": [
+      "37416858",
+      "37237701",
+      "36891194",
+      "34691295",
+      "33825845",
+      "33075450",
+      "31354857",
+      "26922436",
+      "26392704",
+      "24921057",
+      "24799241",
+      "23910219",
+      "23442652",
+      "22429551",
+      "21307833",
+      "19146705",
+      "18384188",
+      "12271819",
+      "11376050",
+      "11371542",
+      "9310676",
+      "8778504",
+      "8132524",
+      "6353887"
+    ],
+    "similar": [
+      "38882878",
+      "38882883",
+      "19451301",
+      "26406499",
+      "11218514",
+      "29970631",
+      "27340161",
+      "35028071",
+      "12445225",
+      "15943764",
+      "10914798",
+      "10695934",
+      "33174005",
+      "17199543",
+      "22429191",
+      "16887668",
+      "11860556",
+      "38193176",
+      "9657318",
+      "8884636",
+      "9839562",
+      "35321313",
+      "1726544",
+      "8809549",
+      "31899475",
+      "11023183",
+      "12723840",
+      "9573805",
+      "37395521",
+      "9310676",
+      "38220090",
+      "9467351",
+      "10220176",
+      "11762870",
+      "11140556",
+      "35321298",
+      "24025042",
+      "12148655",
+      "8724708",
+      "32057978",
+      "27671471",
+      "8602339",
+      "12795792",
+      "36289875",
+      "17234549",
+      "25065393",
+      "8811482",
+      "11737515",
+      "23116446",
+      "9797247",
+      "23336115",
+      "38138191",
+      "8869494",
+      "8849845",
+      "28619155",
+      "10588489",
+      "21261620",
+      "8233568",
+      "30483378",
+      "15536858",
+      "28386896",
+      "12472995",
+      "9006012",
+      "8941758",
+      "9650877",
+      "9536278",
+      "8390893",
+      "11350507",
+      "10368051",
+      "26447754",
+      "25106846",
+      "7560233",
+      "7929861",
+      "9050176",
+      "9565285",
+      "10635221",
+      "26034550",
+      "12724387",
+      "38682052",
+      "23646850",
+      "28033374",
+      "11694077",
+      "20155438",
+      "25926392",
+      "10223399",
+      "8810530",
+      "16683675",
+      "14557000",
+      "11327065",
+      "30861212",
+      "24656409",
+      "16677284",
+      "24565649",
+      "19931406",
+      "12654101",
+      "12753363",
+      "27287170",
+      "18705525",
+      "22145775",
+      "21793826",
+      "39127518",
+      "37314331",
+      "39140115",
+      "36363792",
+      "39026754",
+      "35888454",
+      "38989256",
+      "38717174"
+    ],
+    "review": [
+      "38882878",
+      "38138191",
+      "20155438",
+      "39140115"
+    ],
+    "pmc": [
+      "11174225"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/38882878.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38882878/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38882878",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

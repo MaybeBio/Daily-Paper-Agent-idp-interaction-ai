@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "37125110",
+    "doi": "10.1021/acsomega.3c00364",
+    "title": "Molecular Mechanisms of Functional Modulation of Transcriptional Coactivator PC4 via Phosphorylation on Its Intrinsically Disordered Region."
+  },
+  "content": {
+    "abstract": "To investigate the effects of phosphorylation on the function of the human positive cofactor 4 (PC4), an enhanced molecular dynamics (MD) simulation was performed. The simulation system consists of the N-terminal intrinsic disordered region (IDR) of PC4 and a complex that comprises the C-terminal acidic activation domain of a herpes simplex virion protein 16 (VP16ad) and a homodimer of the C-terminal structured core domain of PC4 (PC4ctd). An earlier report of an experimental study reported that the PC4-VP16ad interaction is modulated by incremental phosphorylation of the IDR. That report also proposed a dynamic model where phosphorylated serine residues of a segment (SEAC) in the IDR contact positively charged residues (lysin and arginine) of another segment (K-rich) in the IDR. This contact formation induced by the phosphorylation results in variation of PC4-VP16ad interaction. However, this contact formation has not yet been measured directly because it is transiently formed and because the SEAC and K-rich segments are unstructured with high flexibility. We performed two simulations to mimic the incremental phosphorylation: the IDR was not phosphorylated in one simulation and only partially phosphorylated in the other. Our simulation results indicate that the phosphorylation weakens the IDR-VP16ad contact considerably with the induction of a compact structure in the IDR. This structure was stabilized by electrostatic interactions between the phosphorylated serine residues of a segment and lysine or arginine residues of another segment in the IDR, but the conformational fluctuation of this compact structure was considerably large. Consequently, the present study supports the experimentally proposed dynamic model. Results of this study can be important for computational elucidation of the functional modulation of PC4.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Qilin",
+        "Kasahara, Kota",
+        "Higo, Junichi",
+        "Takahashi, Takuya"
+      ],
+      "short_names": [
+        "Xie Q",
+        "Kasahara K",
+        "Higo J",
+        "Takahashi T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0207-6271",
+        "ORCID: 0000-0002-0408-1907",
+        "ORCID: 0000-0002-6782-9206"
+      ],
+      "affiliations": [
+        "Graduate School of Life Sciences, Ritsumeikan University, 1-1-1 Noji-higashi, Kusatsu, Shiga 525-8577, Japan.",
+        "College of Life Sciences, Ritsumeikan University, 1-1-1 Noji-higashi, Kusatsu, Shiga 525-8577, Japan.",
+        "Graduate School of Information Science, University of Hyogo, 7-1-28 minatojima Minamimachi, Chuo-ku, Kobe, Hyogo 650-0047, Japan.",
+        "Research Organization of Science and Technology, Ritsumeikan University, 1-1-1 Noji-higashi, Kusatsu, Shiga 525-8577, Japan.",
+        "College of Life Sciences, Ritsumeikan University, 1-1-1 Noji-higashi, Kusatsu, Shiga 525-8577, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Qilin",
+        "short_name": "Xie Q",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Life Sciences, Ritsumeikan University, 1-1-1 Noji-higashi, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Kasahara, Kota",
+        "short_name": "Kasahara K",
+        "identifiers": [
+          "0000-0003-0207-6271"
+        ],
+        "affiliations": [
+          "College of Life Sciences, Ritsumeikan University, 1-1-1 Noji-higashi, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Higo, Junichi",
+        "short_name": "Higo J",
+        "identifiers": [
+          "0000-0002-0408-1907"
+        ],
+        "affiliations": [
+          "Graduate School of Information Science, University of Hyogo, 7-1-28 minatojima Minamimachi, Chuo-ku, Kobe, Hyogo 650-0047, Japan.",
+          "Research Organization of Science and Technology, Ritsumeikan University, 1-1-1 Noji-higashi, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Takahashi, Takuya",
+        "short_name": "Takahashi T",
+        "identifiers": [
+          "0000-0002-6782-9206"
+        ],
+        "affiliations": [
+          "College of Life Sciences, Ritsumeikan University, 1-1-1 Noji-higashi, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS omega"
+    ],
+    "journal_abbrev": [
+      "ACS Omega"
+    ],
+    "pub_date": "2023 Apr 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/01 06:42",
+    "fetched_at": "2026-09-20 21:40:16"
+  },
+  "links": {
+    "cites": [
+      "41521170",
+      "40502717",
+      "38344029"
+    ],
+    "refs": [
+      "36012759",
+      "35963875",
+      "35670677",
+      "33755222",
+      "33731831",
+      "33585149",
+      "33013729",
+      "32910853",
+      "32664620",
+      "31608410",
+      "31439941",
+      "31303975",
+      "31260119",
+      "30053800",
+      "29735687",
+      "29309620",
+      "26777301",
+      "22347892",
+      "21627111",
+      "21425286",
+      "21404180",
+      "21378963",
+      "20408171",
+      "18630911",
+      "18593145",
+      "17522630",
+      "17135252",
+      "16689930",
+      "16605275",
+      "16288918",
+      "15738986",
+      "15654739",
+      "12631575",
+      "12213657",
+      "11369854",
+      "11097421",
+      "11028910",
+      "10940251",
+      "10550212",
+      "7809103",
+      "7628453",
+      "2843425",
+      "2676518"
+    ],
+    "similar": [
+      "37125110",
+      "16605275",
+      "16689930",
+      "36012759",
+      "7809103",
+      "34243065",
+      "15654739",
+      "35914331",
+      "31724233",
+      "29414700",
+      "10887206",
+      "29550429",
+      "34534740",
+      "21586571",
+      "30823702",
+      "21193408",
+      "9512709",
+      "34883116",
+      "23912807",
+      "9847329",
+      "17785449",
+      "26735936",
+      "30802457",
+      "23760157",
+      "38915510",
+      "33030249",
+      "14597399",
+      "36402223",
+      "11279157",
+      "27140628",
+      "27933067",
+      "27037822",
+      "24183573",
+      "23708362",
+      "26777301",
+      "29899144",
+      "21322033",
+      "36987865",
+      "8062391",
+      "34571015",
+      "17317687",
+      "26445449",
+      "36749320",
+      "15226451",
+      "25207671",
+      "28780862",
+      "34557680",
+      "22948907",
+      "28416612",
+      "35658951",
+      "27853436",
+      "32544231",
+      "14966284",
+      "9920920",
+      "9482861",
+      "36839242",
+      "21130728",
+      "34825861",
+      "10692395",
+      "19038270",
+      "28924037",
+      "38048321",
+      "31003202",
+      "22467876",
+      "26934956",
+      "29791766",
+      "12590132",
+      "32231397",
+      "26242913",
+      "33684117",
+      "30414042",
+      "26305482",
+      "33577583",
+      "30878482",
+      "29974396",
+      "34179096",
+      "32783888",
+      "30992017",
+      "34730397",
+      "33627133",
+      "33030907",
+      "31671865",
+      "25017730",
+      "36328244",
+      "29719201",
+      "33871257",
+      "24083777",
+      "28232887"
+    ],
+    "review": [
+      "37125110",
+      "27853436"
+    ],
+    "pmc": [
+      "10134458"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acsomega.3c00364",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37125110/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37125110",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acsodf/article-lookup/doi/10.1021/acsomega.3c00364",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

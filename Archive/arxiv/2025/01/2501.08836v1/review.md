@@ -1,0 +1,113 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Model descriptions, Results, Discussion, Methods) as provided in the preprint.
+- **Assessment boundary** Scientific and technical assessment of the claims, methodology, and evidence as presented in the provided text. No assessment of literature context beyond what is cited within the manuscript.
+- **Shared manuscript claim summary** The authors propose modifications to classical patchy particle models, namely flexible (mobile) patches and weak isotropic core attractions, to accelerate the dynamics of biomolecular condensate simulations. They claim these modifications preserve key equilibrium properties (phase behavior, local structure) while significantly enhancing fluidity, with combined modifications yielding additive benefits.
+- **Visible evidence base** Figures referenced but not fully visible in the provided text (Figures 1-9), equations for potentials and analysis methods, simulation parameters described in Methods.
+- **Missing materials affecting confidence** Actual figure data and plots, simulation trajectory data, quantitative values for diffusion coefficients and activation energies, comparison with experimental condensate data, and details on parameter sweeps.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in computational biophysics, namely the slow dynamics of patchy particle models for biomolecular condensates. The proposed modifications are physically motivated and the systematic comparison of three model variants is a sensible approach. However, the manuscript as presented has several significant gaps. The evidence base is largely descriptive, with key quantitative results (diffusion coefficients, activation energies, critical temperatures) mentioned but not shown in the provided text. The claim that equilibrium properties are preserved is not fully substantiated, particularly for the isotropic potential case where structural changes are acknowledged. The comparison with previous work is brief and lacks quantitative benchmarking. The practical utility of the modified models for studying biologically relevant condensates is asserted but not demonstrated with concrete examples. The manuscript would benefit from clearer presentation of quantitative results and a more rigorous demonstration of the claimed preservation of equilibrium properties.
+- **Who would be interested in the results, and why** Researchers in computational soft matter physics and biophysics who use coarse-grained models to study liquid-liquid phase separation and biomolecular condensates. The results are also relevant to those developing simulation methodologies for systems with slow relaxation times, and to experimentalists studying condensate material properties who would benefit from more efficient computational models.
+- **Major strengths** The systematic comparison of three model modifications is well designed. The physical mechanisms for the speed-up are clearly articulated and mechanistically distinct. The use of multiple structural and dynamical observables (phase diagram, RDF, bond fraction, bond lifetime, MSD) provides a comprehensive characterization. The discussion of practical applications, such as polydisperse mixtures and passive microrheology, is forward-looking and relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the modified models preserve key equilibrium characteristics, including phase behavior and local structure, while accelerating dynamics.
+  - **Evidence pointer** Figures 3, 5, 7; Sections III.1, IV.1, V
+  - **Concern** The manuscript states that flexible patches and weak isotropic attractions preserve equilibrium properties, but the provided text shows non-trivial changes: the critical temperature decreases with flexibility, the phase diagram shifts to higher densities with isotropic potential, and the RDF changes for strong isotropic attractions. The quantitative extent of these changes is not presented. For the isotropic potential case, the authors acknowledge a "sudden transition" in coordination number and structural changes for ϵ_core ≥ 0.03, which contradicts the claim of preservation. The text does not provide quantitative measures of how much the phase behavior and structure deviate from the rigid model across the parameter range.
+  - **Why it matters** The central claim of the paper is that the modifications accelerate dynamics without altering equilibrium properties. If this claim is not rigorously quantified, the practical utility of the modified models for studying condensate properties is undermined. Users need to know the parameter ranges where the approximation is valid.
+  - **Resolution test** Provide quantitative comparisons of coexistence curves, critical temperatures, and RDFs between the rigid and modified models, including error bars. Define a quantitative criterion for "preservation" (e.g., differences within statistical uncertainty or within a specified tolerance). Show that for the recommended parameter ranges, the equilibrium properties are statistically indistinguishable from the rigid model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** The claim that combined modifications yield additive benefits, enabling up to an order of magnitude faster dynamics.
+  - **Evidence pointer** Section V, Figures 8 and 9
+  - **Concern** The manuscript states that diffusion coefficients are up to an order of magnitude higher and bond lifetimes are reduced by up to an order of magnitude, but the actual values are not presented in the text. The comparison in Figure 9 is described qualitatively. Without quantitative values for diffusion coefficients, activation energies, and their temperature dependence, the magnitude of the claimed speed-up cannot be assessed. The claim of "additive" benefits requires a quantitative definition and test.
+  - **Why it matters** The magnitude of the speed-up is the primary practical outcome of the work. Without quantitative values, readers cannot judge whether the modifications are worth implementing for their specific applications. The "additive" claim is a strong statement that requires quantitative verification.
+  - **Resolution test** Provide a table or figure with numerical values of diffusion coefficients and bond lifetimes for all model variants at multiple temperatures. Test additivity by comparing the combined model's properties to the sum of individual effects (or a suitable multiplicative/additive model). Provide activation energies with uncertainties.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Parameter sensitivity
+  - **Claim pointer** The claim that the modifications enable simulation of larger, more complex systems previously inaccessible.
+  - **Evidence pointer** Section V, Discussion
+  - **Concern** The manuscript does not report how the speed-up depends on the model parameters, specifically the spring constant k for flexible patches and the isotropic potential strength ϵ_core. Only single values are mentioned for the combined model (k=1, ϵ=0.01). It is unclear whether the observed benefits are robust across parameter choices or whether fine-tuning is required. The relationship between the degree of flexibility/isotropic attraction and the magnitude of the speed-up is not characterized.
+  - **Why it matters** For practical use, researchers need to know how to choose parameters for their specific systems and what trade-offs exist between speed-up and fidelity. A parameter sweep would establish the robustness of the approach.
+  - **Resolution test** Provide a systematic parameter sweep for k and ϵ_core, showing how diffusion coefficients, bond lifetimes, and structural properties vary. Identify the parameter range where the speed-up is significant while equilibrium properties remain preserved.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The claim that the modified models provide a versatile tool for studying condensate dynamics and are relevant for biological condensates.
+  - **Evidence pointer** Discussion
+  - **Concern** The manuscript mentions applications to polydisperse mixtures and synaptic vesicle clusters but does not demonstrate these applications. The connection between the model parameters and specific biological systems is not established. The timescales accessible in the modified models are not compared to biologically relevant timescales for condensate dynamics.
+  - **Why it matters** The motivation for the work is to enable studies of biologically relevant condensate dynamics. Without a demonstration of biological applicability, the practical impact of the work is unclear.
+  - **Resolution test** Provide a proof-of-concept simulation of a biologically motivated system, such as a polydisperse mixture or a system with a large tracer particle, demonstrating that the modified models can access biologically relevant timescales and produce meaningful results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section II.3, equation for bond lifetime distribution
+  - **Evidence pointer** Section II.3
+  - **Issue** The equation for the KWW stretched exponential form is not explicitly written in the text. The sentence "The lifetime distributions follow the Kohlrausch-Williams-Watts (KWW) stretched exponential form:" is followed by a blank space where the equation should be.
+  - **Required correction** Insert the explicit equation for the KWW form.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section VII.2, potential equations
+  - **Evidence pointer** Section VII.2
+  - **Issue** The equations for the Mie potential and the patch interaction potential are referenced but not explicitly displayed in the text. The text states "This results in the following form of the potential:" and "Specifically, we use:" followed by blank spaces.
+  - **Required correction** Insert the explicit equations for the repulsive core potential and the patch interaction potential.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section V, parameter values
+  - **Evidence pointer** Section V
+  - **Issue** The text states "We use a spring stiffness of k=1" but in Section III, the spring constant is denoted as k_b with a value of 1000. The notation is inconsistent and the relationship between k and k_b is unclear.
+  - **Required correction** Clarify the notation and specify whether k and k_b refer to the same parameter or different ones.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section VII.5, critical scaling law
+  - **Evidence pointer** Section VII.5
+  - **Issue** The critical scaling law and the law of rectilinear diameter are referenced but the explicit equations are not provided.
+  - **Required correction** Insert the explicit equations for the critical scaling law and the law of rectilinear diameter.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section IV.2, MSD description
+  - **Evidence pointer** Section IV.2
+  - **Issue** The sentence "For ϵ_core < 0.03, the plateau height of the MSD increases indicating a shorter plateau as well as a greater spatial confinement increasing particle mobility" is contradictory. A greater spatial confinement would typically decrease mobility, not increase it.
+  - **Required correction** Rewrite the sentence to clarify the relationship between plateau height, confinement, and mobility.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Typographical
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The sentence "Thus subtle details of these models likely affect their behavior" is followed by "are actual moving particles" which appears to be a fragment or typographical error.
+  - **Required correction** Remove or correct the fragment.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section VII.1, simulation details
+  - **Evidence pointer** Section VII.1
+  - **Issue** The text states "at least 10000 patchy particles have been simulated" but does not specify the number of independent runs, the total simulation time, or the equilibration criteria beyond "at least 10^7 time steps."
+  - **Required correction** Provide additional details on simulation length, number of replicates, and equilibration criteria.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section II.1, temperature range
+  - **Evidence pointer** Section II.1
+  - **Issue** The temperature range is given as T* = 0.06 to 0.072, but the critical temperature is estimated as T_c* = 0.0728. The text states the range "spans different regimes of phase behavior, from strong phase separation to near-critical conditions," but the upper end of the range is below the critical temperature. Clarify whether the range is intended to approach but not exceed T_c.
+  - **Required correction** Clarify the relationship between the studied temperature range and the critical temperature.
+
+## Risk / unsupported claims
+- The claim that the modified models preserve equilibrium properties is not quantitatively substantiated in the provided text.
+- The claim of "additive benefits" from combining modifications is stated but not quantitatively tested.
+- The claim that the modified models enable simulation of "larger, more complex systems previously inaccessible" is asserted but not demonstrated.
+- The claim that the models are relevant for studying biological condensates such as synaptic vesicle clusters is speculative and not supported by simulations of such systems.
+- The quantitative magnitude of the speed-up (up to an order of magnitude) is stated but the actual values are not provided in the text.
+- The comparison with previous work by Palaia et al., Espinosa et al., and Smallenburg et al. is qualitative and lacks quantitative benchmarking.

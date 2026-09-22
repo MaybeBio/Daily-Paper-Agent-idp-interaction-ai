@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "41807045",
+    "doi": "10.14444/8859",
+    "title": "Can the Stand-Alone Cervical Interfacet Fusion Achieve Spinal Stability? A Comprehensive Finite Element Analysis."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Degenerative pathologies of the cervical spine often involve facet and disc degeneration, leading to biomechanical instability of the cervical spine. A promising surgical solution is a cervical interfacet fusion system (CIFS), typically combined with an anterior disc cage to promote bone fusion and restore stability. However, the necessity of the anterior disc cage remains controversial because it increases surgical time, cost, and risk. The aim of this study was to evaluate the biomechanical performance of CIFS alone compared with its combination with an anterior disc cage using a C2-C7 finite element model. METHODS: The model was validated against literature data in terms of range of motion (RoM) and used to simulate 3 surgical scenarios: (i) anterior disc cage alone, (ii) CIFS alone, and (iii) CIFS combined with an anterior disc cage. Simulations were performed with C4-C5, C5-C6, and C4-C6 treated levels under flexion, extension, axial rotation, and lateral bending. RESULTS: Models (i) and (iii) eliminated motion at the treated levels but induced hypermobility and increased intradiscal pressure (IDP) at adjacent levels. Conversely, model (ii) preserved residual motion at the treated levels, providing mobility with RoM values within the average range of a healthy population and reducing intradiscal pressure at both the treated and adjacent levels, potentially protecting adjacent discs. However, model (ii) has a higher risk of pseudarthrosis due to the residual motion. CLINICAL RELEVANCE: This study highlights how a CIFS in cervical spine surgery is a cost-effective alternative that preserves mobility but requires careful patient selection to minimize risks such as pseudarthrosis and adjacent segment degeneration while emphasizing the need for postoperative muscle rehabilitation. CONCLUSIONS: These results suggest that CIFS alone may provide a treatment that is both cost-effective and capable of preserving mobility with RoM values within the average range of a healthy population, especially with appropriate patient selection and muscle rehabilitation.",
+    "keywords": [
+      "anterior disc cage",
+      "cervical column",
+      "cervical instability",
+      "cervical interfacet fusion systems",
+      "cervical radiculopathy",
+      "finite element model"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ciriello, Luca",
+        "Rotondi, Margherita",
+        "Sciarrone, Giuseppe J",
+        "Villa, Tomaso"
+      ],
+      "short_names": [
+        "Ciriello L",
+        "Rotondi M",
+        "Sciarrone GJ",
+        "Villa T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Materials and Chemical Engineering \"Giulio Natta\" - LaBS, Politecnico di Milano, Milan, Italy.",
+        "Department of Chemistry, Materials and Chemical Engineering \"Giulio Natta\" - LaBS, Politecnico di Milano, Milan, Italy.",
+        "Minimally Invasive Spine Surgery, Humanitas-San Pio X Hospital, Milan, Italy.",
+        "Department of Chemistry, Materials and Chemical Engineering \"Giulio Natta\" - LaBS, Politecnico di Milano, Milan, Italy tomaso.villa@polimi.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ciriello, Luca",
+        "short_name": "Ciriello L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Materials and Chemical Engineering \"Giulio Natta\" - LaBS, Politecnico di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Rotondi, Margherita",
+        "short_name": "Rotondi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Materials and Chemical Engineering \"Giulio Natta\" - LaBS, Politecnico di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Sciarrone, Giuseppe J",
+        "short_name": "Sciarrone GJ",
+        "identifiers": [],
+        "affiliations": [
+          "Minimally Invasive Spine Surgery, Humanitas-San Pio X Hospital, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Villa, Tomaso",
+        "short_name": "Villa T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Materials and Chemical Engineering \"Giulio Natta\" - LaBS, Politecnico di Milano, Milan, Italy tomaso.villa@polimi.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of spine surgery"
+    ],
+    "journal_abbrev": [
+      "Int J Spine Surg"
+    ],
+    "pub_date": "2026 May 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/11 01:12",
+    "fetched_at": "2026-09-18 01:31:32"
+  },
+  "links": {
+    "cites": [
+      "42044991"
+    ],
+    "refs": [
+      "38026869",
+      "37576989",
+      "37408489",
+      "36801786",
+      "36071416",
+      "35577338",
+      "34633311",
+      "34579865",
+      "34336799",
+      "33221991",
+      "33142209",
+      "32875821",
+      "32421657",
+      "32321632",
+      "32020914",
+      "31991316",
+      "30904796",
+      "29569215",
+      "26974520",
+      "26516824",
+      "25679233",
+      "25129167",
+      "24641811",
+      "24389961",
+      "24154828",
+      "21665513",
+      "21318278",
+      "21245792",
+      "19585159",
+      "18622702",
+      "16620838",
+      "16321642",
+      "12435970",
+      "12020991",
+      "4907116"
+    ],
+    "similar": [
+      "41807045",
+      "31991316",
+      "32421657",
+      "42374358",
+      "42297584",
+      "20362252",
+      "42260452",
+      "39160815",
+      "30742975",
+      "27627721",
+      "31970043",
+      "23578989",
+      "36288687",
+      "32585556",
+      "41102661",
+      "34418812",
+      "32321632",
+      "35577338",
+      "41965598",
+      "33942538",
+      "31096026",
+      "35891924",
+      "38357708",
+      "37744254",
+      "12435970",
+      "37217909",
+      "33460810",
+      "33836709",
+      "36970630",
+      "28713050",
+      "30704444",
+      "31710870",
+      "32005193",
+      "21289581",
+      "33499493",
+      "23890389",
+      "38347518",
+      "41230200",
+      "24937596",
+      "35782514",
+      "32476282",
+      "27652678",
+      "41230199",
+      "34246827",
+      "32642425",
+      "39134982",
+      "11698902",
+      "32195235",
+      "22652989",
+      "38102922",
+      "19829242",
+      "38303025",
+      "33248365",
+      "36258213",
+      "40615986",
+      "37650042",
+      "41995545",
+      "39483258",
+      "33955033",
+      "25555050",
+      "38800946",
+      "42592266",
+      "39763354",
+      "26632707",
+      "38301903",
+      "38955532",
+      "21311928",
+      "15897831",
+      "32462554",
+      "34336799",
+      "24948039",
+      "32252742",
+      "41808768",
+      "18418131",
+      "25170655",
+      "39890027",
+      "25802579",
+      "37361332",
+      "22228326",
+      "41549265",
+      "28989848",
+      "24239024",
+      "17633485",
+      "38887613",
+      "28882520",
+      "33306706",
+      "17321972",
+      "14560189",
+      "15884708",
+      "29627629",
+      "26684468",
+      "35832636",
+      "32809607",
+      "37216926",
+      "19444062",
+      "31606816",
+      "33722229",
+      "39443893",
+      "40898945",
+      "30799836"
+    ],
+    "review": [
+      "41807045"
+    ],
+    "pmc": [
+      "13153919"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.14444/8859",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41807045/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1108",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

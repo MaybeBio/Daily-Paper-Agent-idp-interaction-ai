@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33568632",
+  "title": "The docking of synaptic vesicles on the presynaptic membrane induced by alpha-synuclein is modulated by lipid composition.",
+  "authors": "Man, Wing K; Tahirbegi, Bogachan; Vrettas, Michail D; Preet, Swapan; Ying, Liming; Vendruscolo, Michele; De Simone, Alfonso; Fusco, Giuliana",
+  "journal": "Nature communications",
+  "published_date": "2021-02-12",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究α-突触核蛋白（无序蛋白）通过动态连接突触囊泡与质膜来稳定囊泡对接的机制，并考察脂质组成对结合模式的影响；虽涉及无序蛋白介导的膜-膜互作机制，但对象为膜而非蛋白-蛋白互作，且方法为实验表征，缺乏AI或物理模拟建模，故综合评分为6。",
+  "abstract": "alpha-Synuclein (alphaS) is a presynaptic disordered protein whose aberrant aggregation is associated with Parkinson's disease. The functional role of alphaS is still debated, although it has been involved in the regulation of neurotransmitter release via the interaction with synaptic vesicles (SVs). We report here a detailed characterisation of the conformational properties of alphaS bound to the inner and outer leaflets of the presynaptic plasma membrane (PM), using small unilamellar vesicles. Our results suggest that alphaS preferentially binds the inner PM leaflet. On the basis of these studies we characterise in vitro a mechanism by which alphaS stabilises, in a concentration-dependent manner, the docking of SVs on the PM by establishing a dynamic link between the two membranes. The study then provides evidence that changes in the lipid composition of the PM, typically associated with neurodegenerative diseases, alter the modes of binding of alphaS, specifically in a segment of the sequence overlapping with the non-amyloid component region. Taken together, these results reveal how lipid composition modulates the interaction of alphaS with the PM and underlie its functional and pathological behaviours in vitro.",
+  "abstract_zh": "α-突触核蛋白（alphaS）是一种突触前无序蛋白，其异常聚集与帕金森病相关。尽管alphaS已被涉及通过与小突触囊泡（SVs）的相互作用调节神经递质释放，但其功能角色仍存争议。我们在此报告了alphaS结合到突触前质膜（PM）内外叶时构象特性的详细表征，使用小单层囊泡进行实验。我们的结果表明，alphaS优先结合PM内叶。基于这些研究，我们在体外表征了一种机制，通过该机制，alphaS以浓度依赖性方式稳定SVs在PM上的对接，在两膜之间建立动态连接。随后，研究提供了证据表明，PM脂质组成的变化（通常与神经退行性疾病相关）会改变alphaS的结合模式，特别是在与非淀粉样成分区域重叠的序列片段中。综合来看，这些结果揭示了脂质组成如何调节alphaS与PM的相互作用，并支撑其在体外的功能及病理行为。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33568632/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33568632/",
+  "paper_page_path": "papers/pubmed/33568632/index.html"
+}

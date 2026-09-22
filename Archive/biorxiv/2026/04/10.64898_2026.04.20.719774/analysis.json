@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.20.719774",
+  "title": "A molecular grammar for environmental sensitivity in intrinsically disordered protein regions",
+  "authors": "C Enriquez-Toledo; CA Ponce-Diego; GR Lopez-Herrera; K Nguyen; EE Rodríguez; S Biswas; S Barron-Huerta; TC Boothby; CL Cuevas-Velazquez",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-22",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过序列特征和预测的ensemble维度建立分子语法，系统研究IDR对环境（高渗胁迫）的构象ensemble敏感性，并关联到WNK激酶相分离系统，虽未直接建模PPI，但为IDR环境感知和相分离相关互作机制提供了可迁移的序列-构象-功能框架。",
+  "abstract": "Cells must continuously sense and respond to changes in their physicochemical environment, yet the molecular mechanisms underlying this process remain incompletely understood. Intrinsically disordered protein regions (IDRs) constitute a substantial fraction of the eukaryotic proteome and participate in nearly every major cellular process. IDRs exist as dynamic conformational ensembles whose properties are strongly influenced by both amino acid sequence and the physicochemical environment. Although this intrinsic sensitivity has suggested that IDRs may contribute to environmental sensing of the cellular environment, the sequence-encoded principles that enable such sensing remain poorly understood. Here we identify a molecular grammar that captures key sequence features underlying variation in environmental ensemble sensitivity across diverse IDRs. Using 188 IDRs derived from organisms across all kingdoms of life, we systematically quantify changes in ensemble properties in response to hyperosmotic stress in living cells. We show that ensemble sensitivity is significantly associated with specific sequence features and predicted ensemble dimensions, with homogeneous patterning of oppositely charged residues emerging as a strong predictor of high sensitivity in charged IDRs. This sequence organization is necessary for high sensitivity in naturally-occurring IDRs and sufficient to confer high responsiveness in de novo designed low-complexity sequences. We further demonstrate that the presence of additional structured domains within IDR-containing proteins can substantially modulate ensemble sensitivity relative to isolated IDRs, revealing an additional layer of modulation at the multi-domain protein level. Applying the molecular grammar to the with-no-lysine (WNK) kinase crowding-sensing system, we find that regions within the disordered C-terminal domain – the domain necessary for crowding-induced phase separation and cell volume recovery – are predicted as hypersensitive, a property that is conserved across distant WNK homologues despite sequence divergence, and that is shared by heterologous IDRs capable of functionally replacing it. Together, our results establish environmental ensemble sensitivity as a sequence-encoded, context-dependent, and quantitatively tunable property of IDRs, provide a framework for understanding how physicochemical changes can be transduced in cells without dedicated receptor architectures as exemplified by the WNK crowding-sensing system, and offer design principles for engineering synthetic protein-based environmental sensors.",
+  "abstract_zh": "细胞必须持续感知并响应其物理化学环境的变化，然而这一过程背后的分子机制仍未完全阐明。 intrinsically disordered protein regions (IDRs) 构成真核生物蛋白质组的显著部分，并参与几乎所有主要细胞过程。IDRs 以动态构象集合体形式存在，其性质受到氨基酸序列和物理化学环境的强烈影响。尽管这种内在敏感性提示 IDRs 可能参与细胞环境的感知，但编码这种感知能力的序列原则仍知之甚少。在此，我们识别出一种分子语法，该语法捕捉了不同 IDRs 间环境集合敏感性变异的关键序列特征。利用来自所有生命界生物的 188 个 IDRs，我们系统量化了活细胞中高渗应激下集合性质的变化。我们表明，集合敏感性与特定序列特征及预测的集合尺寸显著相关，其中相反电荷残基的均匀排列成为带电 IDRs 高敏感性的强预测因子。这种序列组织对天然 IDRs 的高敏感性是必需的，并足以赋予从头设计的低复杂度序列高响应性。我们进一步证明，含 IDR 蛋白中额外结构域的存在可相对于孤立 IDRs 显著调节集合敏感性，揭示了多结构域蛋白水平上的额外调节层。将分子语法应用于无赖氨酸 (WNK) 激酶拥挤感知系统，我们发现无序 C 端结构域内的区域——该结构域是拥挤诱导相分离和细胞体积恢复所必需的——被预测为超敏感，这一特性在远缘 WNK 同源物中尽管序列分化仍保守，并且由能够功能替代它的异源 IDRs 所共享。综合来看，我们的结果确立了环境集合敏感性作为 IDRs 的一种序列编码、上下文依赖且可定量调节的性质，提供了理解物理化学变化如何在无专用受体架构的细胞中传导的框架（以 WNK 拥挤感知系统为例），并为工程化合成蛋白质基环境传感器提供了设计原则。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.20.719774",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.20.719774",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.20.719774/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38401402",
+  "title": "Towards bone regeneration: Understanding the nucleating ability of proline-rich peptides in biomineralisation.",
+  "authors": "Ovrebo, Oystein; De Lauretis, Angela; Ma, Qianli; Lyngstadaas, Stale Petter; Perale, Giuseppe; Nilsen, Ola; Rossi, Filippo; Haugen, Havard J",
+  "journal": "Biomaterials advances",
+  "published_date": "2024-02-25",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过分子动力学模拟和实验，揭示富含脯氨酸的无序肽P2/P6在生物矿化中诱导钙磷离子聚集和成核的机制，虽对象为IDP且涉及离子互作，但互作对象是无机离子而非蛋白，方法上仅用MD无AI，故机制建模有启发但非PPI核心。",
+  "abstract": "Obtaining rapid mineralisation is a challenge in current bone graft materials, which has been attributed to the difficulty of guiding the biological processes towards osteogenesis. Amelogenin, a key protein in enamel formation, inspired the design of two intrinsically disordered peptides (P2 and P6) that enhance in vivo bone formation, but the process is not fully understood. In this study, we have elucidated the mechanism by which these peptides induce improved mineralisation. Our molecular dynamics analysis demonstrated that in an aqueous environment, P2 and P6 fold to interact with the surrounding Ca(2+), PO(4)(3-) and OH(-) ions, which can lead to apatite nucleation. Although P2 has a less stable backbone, it folds to a stable structure that allows for the nucleation of larger calcium phosphate aggregates than P6. These results were validated experimentally in a concentrated simulated body fluid solution, where the peptide solutions accelerated the mineralisation process compared to the control and yielded mineral structures mimicking the amorphous calcium phosphate crystals that can be found in lamella bone. A pH drop for the peptide groups suggests depletion of calcium and phosphate, a prerequisite for intrinsic osteoinduction, while S/TEM and SEM suggested that the peptide regulated the mineral nucleation into lamella flakes. Evidently, the peptides accelerate and guide mineral formation, elucidating the mechanism for how these peptides can improve the efficacy of P2 or P6 containing devices for bone regeneration. The work also demonstrates how experimental mineralisation study coupled with molecular dynamics is a valid method for understanding and predicting in vivo performance prior to animal trials.",
+  "abstract_zh": "在当前的骨移植材料中，实现快速矿化是一项挑战，这归因于难以引导生物过程朝向成骨方向进行。釉原蛋白（amelogenin）是牙釉质形成中的关键蛋白，受其启发设计出了两种内在无序肽（P2和P6），它们能增强体内骨形成，但该过程尚未完全明了。在本研究中，我们阐明了这些肽诱导改善矿化的机制。我们的分子动力学（molecular dynamics）分析表明，在水性环境中，P2和P6折叠并与周围的Ca(2+)、PO(4)(3-)和OH(-)离子相互作用，这可能导致磷灰石成核。尽管P2的主链稳定性较差，但它折叠成稳定结构，使得比P6更大的磷酸钙聚集体得以成核。这些结果在浓缩模拟体液溶液中得到了实验验证，与对照组相比，肽溶液加速了矿化过程，并产生了模拟层状骨中可发现的无定形磷酸钙晶体的矿物结构。肽组的pH下降表明钙和磷酸盐的消耗，这是内在骨诱导的先决条件，而S/TEM和SEM表明肽调控矿物成核形成层状薄片。显然，这些肽加速并引导矿物形成，阐明了这些肽如何提高含P2或P6装置在骨再生中功效的机制。该工作还展示了实验矿化研究与分子动力学相结合，是在动物试验前理解和预测体内性能的有效方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38401402/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38401402/",
+  "paper_page_path": "papers/pubmed/38401402/index.html"
+}

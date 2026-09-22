@@ -1,0 +1,161 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.16.580771",
+  "title": "Using structure prediction of negative sense RNA virus nucleoproteins to assess evolutionary relationships",
+  "doi": "10.1101/2024.02.16.580771",
+  "abstract": "Negative sense RNA viruses (NSV) include some of the most detrimental human pathogens, including the influenza, Ebola and measles viruses. NSV genomes consist of one or multiple single-stranded RNA molecules that are encapsidated into one or more ribonucleoprotein (RNP) complexes. These RNPs consist of viral RNA, a viral RNA polymerase, and many copies of the viral nucleoprotein (NP). Current evolutionary relationships within the NSV phylum are based on alignment of conserved RNA-directed RNA polymerase (RdRp) domain amino acid sequences. However, the RdRp domain-based phylogeny does not address whether NP, the other core protein in the NSV genome, evolved along the same trajectory or whether several RdRp-NP pairs evolved through convergent evolution in the segmented and non-segmented NSV genomes architectures. Addressing how NP and the RdRp domain evolved may help us better understand NSV diversity. Since NP sequences are too short to infer robust phylogenetic relationships, we here used experimentally-obtained and AlphaFold 2.0-predicted NP structures to probe whether evolutionary relationships can be estimated using NSV NP sequences. Following flexible structure alignments of modeled structures, we find that the structural homology of the NSV NPs reveals phylogenetic clusters that are consistent with RdRp-based clustering. In addition, we were able to assign viruses for which RdRp sequences are currently missing to phylogenetic clusters based on the available NP sequence. Both our RdRp-based and NP-based relationships deviate from the current NSV classification of the segmented Naedrevirales , which cluster with the other segmented NSVs in our analysis. Overall, our results suggest that the NSV RdRp and NP genes largely evolved along similar trajectories and that even short pieces of genetic, protein-coding information can be used to infer evolutionary relationships, potentially making metagenomic analyses more valuable.",
+  "authors": [
+    "Sabsay KR",
+    "te Velthuis AJ"
+  ],
+  "published_date": "2024-02-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.16.580771",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.16.580771.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR807642",
+    "raw_record": {
+      "id": "PPR807642",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR807642"
+        ]
+      },
+      "doi": "10.1101/2024.02.16.580771",
+      "title": "Using structure prediction of negative sense RNA virus nucleoproteins to assess evolutionary relationships",
+      "authorString": "Sabsay KR, te Velthuis AJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sabsay KR",
+            "lastName": "Sabsay",
+            "firstName": "Kimberly",
+            "initials": "KR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Lewis Thomas Laboratory, Department of Molecular Biology, Princeton University, Princeton, NJ 08544, United States"
+                },
+                {
+                  "affiliation": "Lewis Sigler Institute, Princeton University, Princeton, NJ 08544, United States"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "te Velthuis AJ",
+            "lastName": "te Velthuis",
+            "firstName": "Aartjan J.W.",
+            "initials": "AJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Lewis Thomas Laboratory, Department of Molecular Biology, Princeton University, Princeton, NJ 08544, United States"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Negative sense RNA viruses (NSV) include some of the most detrimental human pathogens, including the influenza, Ebola and measles viruses. NSV genomes consist of one or multiple single-stranded RNA molecules that are encapsidated into one or more ribonucleoprotein (RNP) complexes. These RNPs consist of viral RNA, a viral RNA polymerase, and many copies of the viral nucleoprotein (NP). Current evolutionary relationships within the NSV phylum are based on alignment of conserved RNA-directed RNA polymerase (RdRp) domain amino acid sequences. However, the RdRp domain-based phylogeny does not address whether NP, the other core protein in the NSV genome, evolved along the same trajectory or whether several RdRp-NP pairs evolved through convergent evolution in the segmented and non-segmented NSV genomes architectures. Addressing how NP and the RdRp domain evolved may help us better understand NSV diversity. Since NP sequences are too short to infer robust phylogenetic relationships, we here used experimentally-obtained and AlphaFold 2.0-predicted NP structures to probe whether evolutionary relationships can be estimated using NSV NP sequences. Following flexible structure alignments of modeled structures, we find that the structural homology of the NSV NPs reveals phylogenetic clusters that are consistent with RdRp-based clustering. In addition, we were able to assign viruses for which RdRp sequences are currently missing to phylogenetic clusters based on the available NP sequence. Both our RdRp-based and NP-based relationships deviate from the current NSV classification of the segmented  Naedrevirales , which cluster with the other segmented NSVs in our analysis. Overall, our results suggest that the NSV RdRp and NP genes largely evolved along similar trajectories and that even short pieces of genetic, protein-coding information can be used to infer evolutionary relationships, potentially making metagenomic analyses more valuable.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "206579",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.02.16.580771"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR807642"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR807642&type=FILE&fileName=EMS194220-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39129834",
+            "reference": "Virus evolution. 2024 ;10(1):veae058",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS194220",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-02-19",
+      "firstPublicationDate": "2024-02-17",
+      "firstIndexDate": "2024-02-19",
+      "fullTextReceivedDate": "2024-06-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

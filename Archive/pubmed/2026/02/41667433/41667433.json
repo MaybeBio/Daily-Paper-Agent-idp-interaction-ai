@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "41667433",
+    "doi": "10.1038/s41419-026-08424-7",
+    "title": "Mitochondrial DNA drives NLRP3-IL-1beta axis activation in microglia by binding to NLRP3, leading to neurodegeneration in Parkinson's disease models."
+  },
+  "content": {
+    "abstract": "Dysregulated mitochondrial DNA (mtDNA) promotes inflammatory response and disease progression. However, the mechanism and role of mtDNA-mediated inflammatory activation in the pathogenesis of Parkinson's disease (PD) are not yet clear. This study demonstrates that the injection of mtDNA into the substantia nigra pars compacta induces PD pathology in mice, characterized by the loss of dopaminergic (DA) neurons and the activation of microglia. Transcriptomic profiling of magnetic-activated cell sorting (MACS)-sorted cells reveals a pronounced upregulation of genes associated with the NLRP3 inflammasome pathway in microglia following the mtDNA administration. Critically, lipopolysaccharide (LPS) and rotenone induced in vivo and in vitro PD models show oxidized mtDNA (ox-mtDNA) release and microglial NLRP3-IL-1beta axis activation as evidenced by upregulation of NLRP3 and IL-1beta, caspase-1 cleavage, and IL-1beta release. The role of mtDNA in activating the NLRP3-IL-1beta axis is further validated in BV2 cells through exogeneous mtDNA transfection, while the NLRP3-IL-1beta activation is negated in the LPS and rotenone induced model when mtDNA release is inhibited. Especially, oxidized mtDNA is superior to nonoxidized mtDNA in activating the NLRP3-IL-1beta axis. NLRP3 knockdown in BV2 cells abolishes the activation of NLRP3-IL-1beta axis induced by mtDNA or exposure of LPS and rotenone and mitigates the damage to SH-SY5Y cells in co-culture systems. Ox-mtDNA-mediated neuronal cell damage is initiated through binding to NLRP3, as demonstrated by co-immunoprecipitation and co-localization in BV2 cells. Molecular docking prediction and analysis of intrinsically disordered region (IDR) of NLRP3 indicate that ox-mtDNA interacts with the positively charged IDR of NLRP3. This interaction is validated by electrophoretic mobility shift and in vitro PYD-caspase-1 cleavage assays, demonstrating the formation of the ox-mtDNA-NLRP3 complex and subsequent activation of NLRP3. This study describes a critical role of mtDNA in activating microglial NLRP3-IL-1beta axis, leading to neurodegeneration in PD pathology, which provides clear clues for developing anti-PD drugs targeting NLRP3.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*NLR Family, Pyrin Domain-Containing 3 Protein/metabolism/genetics",
+      "*Microglia/metabolism/pathology",
+      "*DNA, Mitochondrial/metabolism/genetics",
+      "*Interleukin-1beta/metabolism",
+      "Mice",
+      "*Parkinson Disease/metabolism/pathology/genetics",
+      "Disease Models, Animal",
+      "Humans",
+      "Rotenone",
+      "Inflammasomes/metabolism",
+      "Mice, Inbred C57BL",
+      "Lipopolysaccharides",
+      "Male",
+      "Dopaminergic Neurons/metabolism/pathology",
+      "Signal Transduction",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gan, Qinglin",
+        "Fu, Xiaolong",
+        "Zhou, Ting",
+        "Fan, Naiyu",
+        "Nan, Nan",
+        "Wang, Yi",
+        "Yang, Yonggang",
+        "Gou, Shiyi",
+        "Hu, Lizhen",
+        "Zhou, Shaoyu"
+      ],
+      "short_names": [
+        "Gan Q",
+        "Fu X",
+        "Zhou T",
+        "Fan N",
+        "Nan N",
+        "Wang Y",
+        "Yang Y",
+        "Gou S",
+        "Hu L",
+        "Zhou S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8649-7462"
+      ],
+      "affiliations": [
+        "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Jinsha County People's Hospital, Bijie, Guizhou, China.",
+        "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China.",
+        "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China. szhou20@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gan, Qinglin",
+        "short_name": "Gan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Xiaolong",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ting",
+        "short_name": "Zhou T",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Naiyu",
+        "short_name": "Fan N",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Nan, Nan",
+        "short_name": "Nan N",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yi",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Jinsha County People's Hospital, Bijie, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yonggang",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Gou, Shiyi",
+        "short_name": "Gou S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Lizhen",
+        "short_name": "Hu L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Shaoyu",
+        "short_name": "Zhou S",
+        "identifiers": [
+          "0000-0002-8649-7462"
+        ],
+        "affiliations": [
+          "Key Laboratory of Basic Pharmacology of Ministry of Education and Joint International Research Laboratory of Ethnomedicine of Ministry of Education, Zunyi Medical University, Zunyi, Guizhou, China. szhou20@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death & disease"
+    ],
+    "journal_abbrev": [
+      "Cell Death Dis"
+    ],
+    "pub_date": "2026 Feb 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/11 00:40",
+    "fetched_at": "2026-09-18 00:46:04"
+  },
+  "links": {
+    "cites": [
+      "42589614",
+      "42459662",
+      "42266272",
+      "42122237"
+    ],
+    "refs": [
+      "40164768",
+      "40145977",
+      "40075143",
+      "40036996",
+      "39984675",
+      "39952197",
+      "39528070",
+      "39019111",
+      "38812744",
+      "38783088",
+      "38701781",
+      "38684731",
+      "38673772",
+      "38669140",
+      "38280852",
+      "38087172",
+      "37990334",
+      "37779111",
+      "37532932",
+      "37253813",
+      "37029500",
+      "36581087",
+      "36460875",
+      "35879417",
+      "35450066",
+      "35175686",
+      "35145201",
+      "35068466",
+      "34992288",
+      "33894193",
+      "33402167",
+      "33298971",
+      "33169332",
+      "32977419",
+      "32576618",
+      "32169503",
+      "31931374",
+      "31680318",
+      "31470863",
+      "30103942",
+      "30046112",
+      "30031125",
+      "29934589",
+      "29057315",
+      "28466394",
+      "28393922",
+      "27881606",
+      "23637283",
+      "22342844",
+      "20098733",
+      "15640150",
+      "11007783"
+    ],
+    "similar": [
+      "41667433",
+      "37917301",
+      "30966861",
+      "37001680",
+      "29786072",
+      "32846198",
+      "38238499",
+      "40990010",
+      "33176317",
+      "38394727",
+      "31232472",
+      "41476182",
+      "29262843",
+      "38972372",
+      "38110963",
+      "39725121",
+      "31940754",
+      "42595246",
+      "31069623",
+      "33992596",
+      "38471370",
+      "39934492",
+      "41775328",
+      "38744409",
+      "37470879",
+      "40913726",
+      "35172843",
+      "36199191",
+      "32971182",
+      "39122224",
+      "40324640",
+      "34930303",
+      "37072089",
+      "41239426",
+      "30031125",
+      "33294118",
+      "27151770",
+      "32470877",
+      "29885667",
+      "30381407",
+      "30107806",
+      "37990334",
+      "37029500",
+      "40100493",
+      "36280654",
+      "27084336",
+      "31327964",
+      "34308845",
+      "34052309",
+      "29786071",
+      "39549469",
+      "40382635",
+      "32861720",
+      "33039664",
+      "41202376",
+      "41831074",
+      "41933870",
+      "40953640",
+      "28466394",
+      "27430883",
+      "40494474",
+      "32070376",
+      "34691027",
+      "33506583",
+      "39904963",
+      "35668454",
+      "28977782",
+      "34904823",
+      "35065082",
+      "31680318",
+      "28941191",
+      "39074525",
+      "30103942",
+      "36375190",
+      "25770182",
+      "26349656",
+      "36717480",
+      "35896696",
+      "41914296",
+      "29966531",
+      "40447675",
+      "37992790",
+      "40763841",
+      "32375810",
+      "41381011",
+      "36876522",
+      "39496522",
+      "31596526",
+      "40812222",
+      "33830232",
+      "27256568",
+      "32259702",
+      "32160394",
+      "41797134",
+      "37464816",
+      "41616997",
+      "41314440",
+      "33613822",
+      "38664198",
+      "40729891"
+    ],
+    "review": [
+      "41667433",
+      "40100493",
+      "34691027"
+    ],
+    "pmc": [
+      "12921273"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41419-026-08424-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41667433/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-976",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

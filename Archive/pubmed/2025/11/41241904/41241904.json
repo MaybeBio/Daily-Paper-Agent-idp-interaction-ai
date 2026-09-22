@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "41241904",
+    "doi": "10.1007/978-1-0716-5013-4_10",
+    "title": "Structure and Disorder Predictions of Microproteins: Usage, Applications, and Pitfalls."
+  },
+  "content": {
+    "abstract": "In the past decade, computational predictions of protein structure and disorder have become widely accessible, achieving accuracy that, in some cases, rivals experimental results. These advances have been instrumental in identifying structural homologies, guiding protein design, and enhancing functional annotation. However, most prediction models are trained on \"classical proteins,\" favoring specific sequence lengths and patterns, leading to biases. Microproteins-small proteins with emerging roles in development and disease-function similarly across the tree of life and stand to benefit significantly from structure and disorder predictions. Yet, their short length and molecular interactions present unique challenges, making homology detection more difficult and requiring careful methodological considerations. Here, I outline workflows for predicting, analyzing, and refining microprotein structures and disorders, emphasizing key precautions to ensure reliable insights.",
+    "keywords": [
+      "Disorder prediction",
+      "Microproteins",
+      "Molecular dynamics simulations",
+      "Protein structure prediction",
+      "Sequence feature annotation",
+      "Structural annotation"
+    ],
+    "mesh_terms": [
+      "*Computational Biology/methods",
+      "Protein Conformation",
+      "*Proteins/chemistry",
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Databases, Protein",
+      "Models, Molecular",
+      "Software",
+      "Micropeptides"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Eicholt, Lars A"
+      ],
+      "short_names": [
+        "Eicholt LA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Evolution and Biodiversity, University of Muenster, Muenster, Germany. lars.eicholt@uni-muenster.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Eicholt, Lars A",
+        "short_name": "Eicholt LA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Evolution and Biodiversity, University of Muenster, Muenster, Germany. lars.eicholt@uni-muenster.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/16 13:21",
+    "fetched_at": "2026-09-17 21:54:51"
+  },
+  "links": {
+    "cites": [
+      "41894539"
+    ],
+    "refs": [
+      "39911842",
+      "38985879",
+      "38753069",
+      "38718835",
+      "38280868",
+      "37679542",
+      "37213226",
+      "37113259",
+      "36927031",
+      "36806354",
+      "36543139",
+      "36192635",
+      "35868264",
+      "35534633",
+      "35300685",
+      "34757056",
+      "34599769",
+      "34376855",
+      "34298061",
+      "34265844",
+      "34087198",
+      "34048569",
+      "33450370",
+      "32939066",
+      "32881101",
+      "32034123",
+      "31978386",
+      "30150386",
+      "28637261",
+      "27918561",
+      "27819658",
+      "26758516",
+      "26653858",
+      "26190950",
+      "25312911",
+      "22118156",
+      "21151039",
+      "21123396",
+      "19937658",
+      "19304878",
+      "18629011",
+      "15215436",
+      "14636603",
+      "11551179",
+      "9254694",
+      "6667333"
+    ],
+    "similar": [
+      "41241904",
+      "27115638",
+      "31207240",
+      "26198229",
+      "18831774",
+      "23946100",
+      "39952928",
+      "38226524",
+      "28365882",
+      "39246251",
+      "28369666",
+      "38079339",
+      "23466039",
+      "40133791",
+      "26287166",
+      "24573479",
+      "39718444",
+      "24573480",
+      "39576583",
+      "41174312",
+      "40121710",
+      "40131945",
+      "22101336",
+      "32901090",
+      "27787826",
+      "41030071",
+      "37603371",
+      "40973394",
+      "32034199",
+      "34418423",
+      "40347452",
+      "38701796",
+      "41579411",
+      "41249866",
+      "40662788",
+      "42159250",
+      "38048333",
+      "38986287",
+      "33001599",
+      "40762404",
+      "31870849",
+      "30554840",
+      "42247584",
+      "30657889",
+      "40133781",
+      "26801222",
+      "33875885",
+      "32771522",
+      "32696351",
+      "20221927",
+      "23912807",
+      "25142412",
+      "35469832",
+      "21874190",
+      "32599863",
+      "32696355",
+      "16187359",
+      "40650026",
+      "36344848",
+      "16526955",
+      "28765603",
+      "41454828",
+      "17680688",
+      "34830151",
+      "41065010",
+      "38540707",
+      "41839238",
+      "18831785",
+      "37740110",
+      "42119874",
+      "17158572",
+      "40859602",
+      "41086136",
+      "22513870",
+      "28934129",
+      "19722263",
+      "33595896",
+      "22270458",
+      "41570036",
+      "31756456",
+      "35507260",
+      "41633121",
+      "41170922",
+      "39576585",
+      "30914747",
+      "21928402",
+      "34337786",
+      "29595057",
+      "31411026",
+      "41022992",
+      "26090958",
+      "40483648",
+      "31009453",
+      "29314274",
+      "14506847",
+      "37813856",
+      "28913931",
+      "32698546",
+      "41241898",
+      "19597536"
+    ],
+    "review": [
+      "41241904",
+      "23466039",
+      "26287166",
+      "40121710",
+      "37603371",
+      "40973394",
+      "32034199",
+      "34418423",
+      "41579411",
+      "42159250",
+      "38986287",
+      "42247584",
+      "30657889",
+      "21874190",
+      "40650026",
+      "41839238",
+      "37740110",
+      "17158572",
+      "33595896",
+      "41022992"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-5013-4_10",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

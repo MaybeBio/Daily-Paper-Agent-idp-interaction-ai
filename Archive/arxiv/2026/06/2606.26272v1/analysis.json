@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2606.26272v1",
+  "title": "Droplet Fusion as a Relaxation Process: Comparison with Shape Recovery of Newtonian and Viscoelastic Droplets",
+  "authors": "Mohammad Moein Naderi; Zhangli Peng; Huan-Xiang Zhou",
+  "journal": "",
+  "published_date": "2026-06-24",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用理论+有限元模拟研究粘弹性液滴融合与形状恢复的松弛动力学，对象为凝聚体液滴但非IDP/PPI，方法为物理模拟且机制建模可迁移至相分离凝聚体融合，但缺乏蛋白互作维度。",
+  "abstract": "Biomolecular condensates formed by phase separation often exhibit viscoelastic behavior, yet their shape recovery and fusion dynamics are frequently interpreted using purely viscous models. Here, we develop a unified theoretical and computational framework to quantify how viscoelasticity governs these two processes. We combine analytical theory for small-deformation shape recovery with axisymmetric finite-element simulations based on the Oldroyd-B constitutive model to systematically investigate both shape recovery and droplet fusion under comparable conditions. Our results show that, although both processes are driven by capillary forces, they are fundamentally distinct in their underlying physics. Shape recovery is governed by global viscocapillary relaxation of a single connected interface and follows single- or multi-exponential decay depending on the relative magnitude of the viscocapillary timescale and the stress relaxation time. In contrast, droplet fusion is intrinsically a multistage process involving localized curvature-driven neck formation, rapid bridge expansion, and a transition to global relaxation. We demonstrate that viscoelasticity introduces an additional intrinsic timescale that governs the competition between capillary driving and stress relaxation, characterized by the Deborah number. This leads to enhanced intermediate-stage fusion dynamics and modified relaxation behavior compared to Newtonian droplets. Furthermore, we show that the presence of an exterior fluid introduces additional hydrodynamic dissipation, significantly slowing the fusion process. Finally, we compare the computationally predicted droplet fusion in the Newtonian and viscoelastic cases with a stretched-exponential empirical formula. Deviations observed in viscoelastic regimes highlight the limitations of purely viscous descriptions and the need for models incorporating stress relaxation.",
+  "abstract_zh": "由相分离（phase separation）形成的生物分子凝聚体通常表现出粘弹性行为，然而其形状恢复和融合动力学常被用纯粘性模型来解释。在此，我们开发了一个统一的理论和计算框架，用以量化粘弹性如何调控这两个过程。我们将小变形形状恢复的解析理论与基于Oldroyd-B本构模型的轴对称有限元模拟相结合，系统研究了在可比条件下形状恢复和液滴融合。我们的结果表明，尽管这两个过程均由毛细力驱动，但其底层物理机制根本不同。形状恢复由单一连通界面的全局粘毛细松弛控制，并根据粘毛细时间尺度与应力松弛时间的相对大小，遵循单指数或多指数衰减。相比之下，液滴融合本质上是一个多阶段过程，涉及局部曲率驱动的颈部形成、快速桥接扩展以及向全局松弛的过渡。我们证明，粘弹性引入了一个额外的内在时间尺度，该尺度通过Deborah数表征毛细驱动与应力松弛之间的竞争。这导致与牛顿液滴相比，中间阶段融合动力学增强且松弛行为发生改变。此外，我们表明外部流体的存在引入了额外的流体动力学耗散，显著减缓了融合过程。最后，我们将牛顿和粘弹性情况下的计算预测液滴融合与拉伸指数经验公式进行比较。在粘弹性区域观察到的偏差突显了纯粘性描述的局限性，以及需要纳入应力松弛的模型的必要性。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2606.26272v1",
+  "source_url": "https://arxiv.org/abs/2606.26272v1",
+  "paper_page_path": "papers/arxiv/2606.26272v1/index.html"
+}

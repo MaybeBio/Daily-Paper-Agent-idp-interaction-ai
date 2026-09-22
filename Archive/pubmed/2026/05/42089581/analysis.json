@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42089581",
+  "title": "Decoupling of single-particle and collective dynamics in arrested phase-separating glassy mixtures.",
+  "authors": "Moser, Konstantin N; Likos, Christos N; Sposini, Vittoria",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2026-05-06",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究硬胶体-星形聚合物混合物的阻滞相分离与玻璃化动力学，对象为胶体混合物而非无序蛋白/IDR，且不涉及蛋白-蛋白互作，但多尺度动力学解耦的物理模拟方法对IDP凝聚体动态建模有一定启发。",
+  "abstract": "We investigate the structure and dynamics of a hard colloid-star polymer mixture in the range of its arrested phase separation, where an incipient demixing transition is interfering with a nearby vitrification line, focusing on the protein limit (smaller hard component). Soft-hard mixtures present a rich dynamics, influenced by different parameters, such as the concentration of the soft and hard components, the softness of the potential, and the size ratio between the two components. Using coarse-grained molecular dynamics simulations, we characterize the single-particle and collective dynamics of the hard colloidal tracers in the soft glassy matrix. The hard tracers show diffusive behavior of the mean squared displacement accompanied by non-exponential relaxation of the intermediate scattering functions at intermediate length scales and non-Gaussian displacement distributions. Moreover, we show that the system exhibits features compatible with arrested phase separation or a precursor of the same, leading to population splitting and decoupling between self- and collective dynamics of the hard colloids. Overall, we demonstrate that the interplay between arrested phase separation and glassiness leads to complex, multiscale phenomena that strongly influence the dynamics of the hard additives in the arrested matrix formed by the soft colloids.",
+  "abstract_zh": "我们研究了硬胶体-星形聚合物混合物在其受阻相分离范围内的结构与动力学，其中初始的失稳分解转变与邻近的玻璃化转变线相互干扰，重点关注蛋白质极限（较小的硬组分）。软-硬混合物表现出丰富的动力学行为，受多种参数影响，如软硬组分的浓度、势能的柔软度以及两组分之间的尺寸比。利用粗粒化分子动力学模拟，我们表征了软玻璃态基质中硬胶体示踪剂的单粒子和集体动力学。硬示踪剂表现出均方位移的扩散行为，伴随中间长度尺度上中间散射函数的非指数弛豫和非高斯位移分布。此外，我们表明该系统展现出与受阻相分离或其前驱体相符的特征，导致硬胶体的群体分裂以及自动力学和集体动力学之间的解耦。总体而言，我们证明了受阻相分离与玻璃态特性之间的相互作用导致了复杂的、多尺度的现象，这些现象强烈影响硬添加剂在由软胶体形成的受阻基质中的动力学。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42089581/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42089581/",
+  "paper_page_path": "papers/pubmed/42089581/index.html"
+}

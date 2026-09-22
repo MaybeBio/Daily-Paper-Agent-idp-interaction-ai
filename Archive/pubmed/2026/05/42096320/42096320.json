@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "42096320",
+    "doi": "10.1021/jacs.6c02267",
+    "title": "Proximity of the Histone-Acetylation Site to the Termini Shapes Phase Behavior with DNA."
+  },
+  "content": {
+    "abstract": "Post-translational modifications (PTMs) of histones play a pivotal role in chromatin condensation, with increasingly more evidence pointing to the involvement of liquid-liquid phase separation (LLPS). Here, we report the significant impact of the acetylation site of the N-terminal histone H3 peptide on LLPS with nucleosomal-linker DNA. In our model system, wherein the synthesized H3 peptide and DNA undergo LLPS, acetylation of the H3 peptide significantly inhibits LLPS, with the effects varying markedly depending on the acetylation site; acetylation near the H3 peptide end more strongly inhibits LLPS than acetylation near the H3 peptide center. Through experiments and molecular dynamics (MD) simulations, we show that this phenomenon arises from multiple contributing factors, including differences in the thermal stability of DNA, hydrophobic effects, and charge distribution within the H3 peptide/DNA complexes, which together promote the formation of intercomplex networks. Our findings not only provide fundamental insights that link LLPS-mediated chromatin condensation to biological phenomena depending on the acetylation sites but also suggest novel avenues for site-specific chemical modulation to regulate LLPS, which may, in turn, inspire new strategies in biotechnological applications and materials design.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Histones/chemistry/metabolism",
+      "Acetylation",
+      "*DNA/chemistry/metabolism",
+      "Phase Separation",
+      "Molecular Dynamics Simulation",
+      "Protein Processing, Post-Translational"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mimura, Masahiro",
+        "Sugai, Hiroka",
+        "Kameda, Tomoshi",
+        "Kitahara, Ryo",
+        "Kitazawa, Soichiro",
+        "Shinkai, Yoichi",
+        "Ishihara, Sayaka",
+        "Kurita, Ryoji",
+        "Tomita, Shunsuke"
+      ],
+      "short_names": [
+        "Mimura M",
+        "Sugai H",
+        "Kameda T",
+        "Kitahara R",
+        "Kitazawa S",
+        "Shinkai Y",
+        "Ishihara S",
+        "Kurita R",
+        "Tomita S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5957-0011",
+        "ORCID: 0000-0001-9508-5366",
+        "ORCID: 0000-0003-1815-3227",
+        "ORCID: 0000-0001-5666-9561",
+        "ORCID: 0000-0002-0586-6976"
+      ],
+      "affiliations": [
+        "Institute of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8573, Japan.",
+        "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan.",
+        "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan.",
+        "Research Center for Autonomous Systems Materialogy (ASMat), Institute of Integrated Research, Institute of Science Tokyo, Nagatsuta 4259, Yokohama, Kanagawa 226-8501, Japan.",
+        "Artificial Intelligence Research Center, AIST, Aomi 2-4-7, Koto, Tokyo 135-0064, Japan.",
+        "College of Pharmaceutical Sciences, Ritsumeikan University, Nojihigashi 1-1-1, Kusatsu, Shiga 525-8577, Japan.",
+        "College of Pharmaceutical Sciences, Ritsumeikan University, Nojihigashi 1-1-1, Kusatsu, Shiga 525-8577, Japan.",
+        "Cellular and Molecular Biotechnology Research Institute, AIST, 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan.",
+        "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan.",
+        "Institute of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8573, Japan.",
+        "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan.",
+        "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mimura, Masahiro",
+        "short_name": "Mimura M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8573, Japan.",
+          "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugai, Hiroka",
+        "short_name": "Sugai H",
+        "identifiers": [
+          "0000-0002-5957-0011"
+        ],
+        "affiliations": [
+          "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan.",
+          "Research Center for Autonomous Systems Materialogy (ASMat), Institute of Integrated Research, Institute of Science Tokyo, Nagatsuta 4259, Yokohama, Kanagawa 226-8501, Japan."
+        ]
+      },
+      {
+        "full_name": "Kameda, Tomoshi",
+        "short_name": "Kameda T",
+        "identifiers": [
+          "0000-0001-9508-5366"
+        ],
+        "affiliations": [
+          "Artificial Intelligence Research Center, AIST, Aomi 2-4-7, Koto, Tokyo 135-0064, Japan."
+        ]
+      },
+      {
+        "full_name": "Kitahara, Ryo",
+        "short_name": "Kitahara R",
+        "identifiers": [
+          "0000-0003-1815-3227"
+        ],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Ritsumeikan University, Nojihigashi 1-1-1, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Kitazawa, Soichiro",
+        "short_name": "Kitazawa S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Ritsumeikan University, Nojihigashi 1-1-1, Kusatsu, Shiga 525-8577, Japan."
+        ]
+      },
+      {
+        "full_name": "Shinkai, Yoichi",
+        "short_name": "Shinkai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cellular and Molecular Biotechnology Research Institute, AIST, 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan."
+        ]
+      },
+      {
+        "full_name": "Ishihara, Sayaka",
+        "short_name": "Ishihara S",
+        "identifiers": [],
+        "affiliations": [
+          "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan."
+        ]
+      },
+      {
+        "full_name": "Kurita, Ryoji",
+        "short_name": "Kurita R",
+        "identifiers": [
+          "0000-0001-5666-9561"
+        ],
+        "affiliations": [
+          "Institute of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki 305-8573, Japan.",
+          "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan."
+        ]
+      },
+      {
+        "full_name": "Tomita, Shunsuke",
+        "short_name": "Tomita S",
+        "identifiers": [
+          "0000-0002-0586-6976"
+        ],
+        "affiliations": [
+          "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki 305-8566, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2026 May 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/07 18:32",
+    "fetched_at": "2026-09-18 03:06:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42096320",
+      "29548294",
+      "26778125",
+      "41957285",
+      "34399316",
+      "26424599",
+      "29631253",
+      "38547652",
+      "38865599",
+      "42441420",
+      "40029962",
+      "35158124",
+      "40010635",
+      "25220185",
+      "25452131",
+      "26420880",
+      "19520870",
+      "33818074",
+      "23003102",
+      "12379744",
+      "33096105",
+      "41372631",
+      "31015385",
+      "17284592",
+      "34553920",
+      "10982840",
+      "10884407",
+      "31409460",
+      "38960040",
+      "17507373",
+      "28304160",
+      "33309853",
+      "18339321",
+      "20139971",
+      "21310161",
+      "26967163",
+      "27033702",
+      "18848648",
+      "27698366",
+      "17142268",
+      "21812398",
+      "33125082",
+      "23844048",
+      "36786550",
+      "17107956",
+      "10611231",
+      "15598823",
+      "42475469",
+      "33181171",
+      "34667098",
+      "25252820",
+      "22693562",
+      "40223209",
+      "25234497",
+      "20970954",
+      "28815970",
+      "25786853",
+      "10764592",
+      "34152774",
+      "20160509",
+      "18192367",
+      "15378694",
+      "22016570",
+      "17485486",
+      "25044606",
+      "16691563",
+      "17652096",
+      "25697176",
+      "30217978",
+      "24835250",
+      "20012576",
+      "36124857",
+      "30582583",
+      "22647927",
+      "16464854",
+      "28233440",
+      "23775118",
+      "12421817",
+      "15901851",
+      "40690673",
+      "31387991",
+      "20617350",
+      "18543948",
+      "2249688",
+      "12937907",
+      "17369253",
+      "25315270",
+      "9427644",
+      "29569274",
+      "16980317",
+      "39999014",
+      "36394358",
+      "8917496",
+      "13678296",
+      "21768347",
+      "12600448",
+      "22574698",
+      "28353152",
+      "33847478",
+      "23949383"
+    ],
+    "review": [
+      "42096320",
+      "38547652",
+      "25220185",
+      "31015385",
+      "34553920",
+      "33309853",
+      "18848648",
+      "34667098",
+      "25044606",
+      "20012576",
+      "25315270",
+      "16980317"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.6c02267",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

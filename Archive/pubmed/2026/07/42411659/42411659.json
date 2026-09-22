@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "42411659",
+    "doi": "10.1021/acschemneuro.6c00439",
+    "title": "Combined Effects of Mutation and Ionic Strength on alpha-Synuclein Reveal Generic Features of Aggregation-Prone Monomeric States."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein (alphaS) is a highly charged, intrinsically disordered protein (IDP) whose aberrant aggregation is linked to Parkinson's disease (PD). Along with wild-type (WT) alphaS, five single-point mutants (A30P, E46K, H50Q, G51D, and A53T) are implicated in familial PD. To resolve contradictory experimental observations under varying solution conditions, we investigated how ionic strength modulates the relative aggregation propensity of these six monomeric alphaS variants using atomistic simulations. Structural and energetic analyses at global, domain, and residue levels revealed that aggregation propensity rankings switch with increasing ionic strength but stabilize beyond physiological concentration, while A53T and H50Q consistently remain highly aggregation-prone. We additionally identified electrostatic-driven decoupling between global and local motions. Aggregation-prone monomers preferentially populate semicompact ensembles with beta-sheet propensity, an exposed and stiff N-terminus with fewer interdomain contacts, a flexible yet compact C-terminus, and an NAC domain that is either under-protected and stiff or flexible and poorly hydrated. These monomers further exhibit strong intramolecular stabilization, poor solvation, counterion binding, and subdiffusive collapsing dynamics that may facilitate intermolecular encounters. We justified aggregation propensity trends across ionic strengths, validated physiological trends using a dimer model, suggested a generic monomer-to-aggregate mechanism, and reconciled simulations with experimental variability.",
+    "keywords": [
+      "conformational landscape",
+      "electrostatic modulation",
+      "hydration",
+      "intrinsically disordered proteins",
+      "molecular flexibility and compaction",
+      "polymer dynamics"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/genetics/chemistry/metabolism",
+      "Osmolar Concentration",
+      "*Mutation/genetics",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "*Protein Aggregates",
+      "Parkinson Disease/genetics/metabolism",
+      "Static Electricity",
+      "*Protein Aggregation, Pathological/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tammara, Vaishnavi",
+        "Das, Ankita",
+        "Desai, Zion",
+        "Das, Atanu"
+      ],
+      "short_names": [
+        "Tammara V",
+        "Das A",
+        "Desai Z",
+        "Das A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1587-681X",
+        "ORCID: 0000-0003-4994-0469"
+      ],
+      "affiliations": [
+        "Physical and Materials Chemistry Division, CSIR-National Chemical Laboratory, Dr. Homi Bhabha Road, Pune, Maharashtra 411008, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India.",
+        "Department of Biomedical Engineering, Indian Institute of Technology Hyderabad, Kandi, Hyderabad, Telangana 502284, India.",
+        "Department of Molecular Biology, Ariel University, Ariel 4070000, Israel.",
+        "Physical and Materials Chemistry Division, CSIR-National Chemical Laboratory, Dr. Homi Bhabha Road, Pune, Maharashtra 411008, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tammara, Vaishnavi",
+        "short_name": "Tammara V",
+        "identifiers": [
+          "0000-0002-1587-681X"
+        ],
+        "affiliations": [
+          "Physical and Materials Chemistry Division, CSIR-National Chemical Laboratory, Dr. Homi Bhabha Road, Pune, Maharashtra 411008, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India."
+        ]
+      },
+      {
+        "full_name": "Das, Ankita",
+        "short_name": "Das A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Indian Institute of Technology Hyderabad, Kandi, Hyderabad, Telangana 502284, India."
+        ]
+      },
+      {
+        "full_name": "Desai, Zion",
+        "short_name": "Desai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Ariel University, Ariel 4070000, Israel."
+        ]
+      },
+      {
+        "full_name": "Das, Atanu",
+        "short_name": "Das A",
+        "identifiers": [
+          "0000-0003-4994-0469"
+        ],
+        "affiliations": [
+          "Physical and Materials Chemistry Division, CSIR-National Chemical Laboratory, Dr. Homi Bhabha Road, Pune, Maharashtra 411008, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), Ghaziabad 201002, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS chemical neuroscience"
+    ],
+    "journal_abbrev": [
+      "ACS Chem Neurosci"
+    ],
+    "pub_date": "2026 Jul 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/07 12:35",
+    "fetched_at": "2026-09-18 04:48:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42411659",
+      "23607785",
+      "24984882",
+      "28650719",
+      "29364143",
+      "23374074",
+      "25909158",
+      "30605594",
+      "34161822",
+      "29364151",
+      "20041693",
+      "19345692",
+      "39504036",
+      "25389903",
+      "35836937",
+      "35613323",
+      "27517125",
+      "40453094",
+      "37489886",
+      "40383467",
+      "20947801",
+      "24728187",
+      "21684335",
+      "36099961",
+      "37238596",
+      "25393002",
+      "38702883",
+      "31633065",
+      "33749266",
+      "30384594",
+      "25635052",
+      "19580781",
+      "24450731",
+      "19576220",
+      "39412059",
+      "34695381",
+      "23374072",
+      "41301496",
+      "40882443",
+      "26972727",
+      "28710275",
+      "36208776",
+      "25505181",
+      "30528390",
+      "15610017",
+      "28759722",
+      "26723627",
+      "40207671",
+      "21044603",
+      "39087984",
+      "28841377",
+      "33345970",
+      "30352158",
+      "40994307",
+      "34912851",
+      "40853068",
+      "28373279",
+      "33428933",
+      "29036344",
+      "41410608",
+      "35394271",
+      "30769283",
+      "28112214",
+      "34830264",
+      "41397943",
+      "34506119",
+      "40763859",
+      "34381149",
+      "28075555",
+      "38239037",
+      "32499486",
+      "24936070",
+      "11560511",
+      "26695014",
+      "29704492",
+      "39693815",
+      "32866007",
+      "27892477",
+      "34439733",
+      "42334185",
+      "31242217",
+      "29191831",
+      "36278939",
+      "16679557",
+      "29601727",
+      "34290084",
+      "28820063",
+      "35209093",
+      "33333378",
+      "22067166",
+      "17209570",
+      "40912022",
+      "30853581",
+      "39255305",
+      "33649211",
+      "18198943",
+      "27916677",
+      "33903234",
+      "32709107",
+      "39947754"
+    ],
+    "review": [
+      "42411659",
+      "29364151",
+      "26972727",
+      "41410608",
+      "30853581"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:42411659",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://pubs.acs.org/acncdm/article-lookup/doi/10.1021/acschemneuro.6c00439",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

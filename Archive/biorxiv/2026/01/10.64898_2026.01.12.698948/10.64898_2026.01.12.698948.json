@@ -1,0 +1,435 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.12.698948",
+  "title": "Hierarchical Deep Learning Framework Integrating Structural Interaction Potentials and Evolutionary Information for Protein-Protein Interaction Affinity Prediction",
+  "doi": "10.64898/2026.01.12.698948",
+  "abstract": "Protein-protein interactions (PPIs) are fundamental to cellular biology, making accurate prediction of protein-protein interaction affinity (PPIA) crucial for drug discovery and disease mechanism elucidation. Existing computational methods often lack explicit physical constraints or operate as “black boxes,” hindering interpretability and generalization. To address these limitations, we introduce StructFuncNet, a novel hierarchical deep learning framework designed for highly accurate, generalizable, and interpretable PPIA prediction. Our approach uniquely integrates multi-level Structural Interaction Potentials (SIP) with rich evolutionary information and advanced graph neural networks (GNNs). This dual paradigm leverages SIP for physical and geometric realism, while GNNs and Transformer-like components learn synergistic dynamics and contextual corrections. StructFuncNet incorporates comprehensive input feature categories, including pre-trained protein residue features, SIP interface energies, evolutionary conservation scores, global molecular descriptors, and interface interaction counts. We extensively evaluated StructFuncNet on diverse and challenging benchmarks, including those for mutation affinity, multi-domain complexes, and intrinsically disordered proteins, as well as complexes derived from predicted structures. Our framework consistently achieves state-of-the-art performance, demonstrating high correlations across all tested scenarios. Furthermore, StructFuncNet proves robust on complexes derived from predicted structures. Ablation studies confirm the synergistic contributions of our multi-modal features and architectural components, underscoring StructFuncNet’s capacity to provide a robust, interpretable, and efficient solution for complex PPIA prediction challenges.",
+  "authors": [
+    "Ahmed Ibrahim",
+    "Mohamed Hassan",
+    "Youssef Ali"
+  ],
+  "published_date": "2026-01-12",
+  "updated_date": "2026-01-13T05:50:23Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.12.698948",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.12.698948.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            7
+          ]
+        ],
+        "date-time": "2026-02-07T02:31:35Z",
+        "timestamp": 1770431495651,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            12
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 41,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                12
+              ]
+            ],
+            "date-time": "2026-01-12T00:00:00Z",
+            "timestamp": 1768176000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Protein-protein interactions (PPIs) are fundamental to cellular biology, making accurate prediction of protein-protein interaction affinity (PPIA) crucial for drug discovery and disease mechanism elucidation. Existing computational methods often lack explicit physical constraints or operate as “black boxes,” hindering interpretability and generalization. To address these limitations, we introduce StructFuncNet, a novel hierarchical deep learning framework designed for highly accurate, generalizable, and interpretable PPIA prediction. Our approach uniquely integrates multi-level Structural Interaction Potentials (SIP) with rich evolutionary information and advanced graph neural networks (GNNs). This dual paradigm leverages SIP for physical and geometric realism, while GNNs and Transformer-like components learn synergistic dynamics and contextual corrections. StructFuncNet incorporates comprehensive input feature categories, including pre-trained protein residue features, SIP interface energies, evolutionary conservation scores, global molecular descriptors, and interface interaction counts. We extensively evaluated StructFuncNet on diverse and challenging benchmarks, including those for mutation affinity, multi-domain complexes, and intrinsically disordered proteins, as well as complexes derived from predicted structures. Our framework consistently achieves state-of-the-art performance, demonstrating high correlations across all tested scenarios. Furthermore, StructFuncNet proves robust on complexes derived from predicted structures. Ablation studies confirm the synergistic contributions of our multi-modal features and architectural components, underscoring StructFuncNet’s capacity to provide a robust, interpretable, and efficient solution for complex PPIA prediction challenges.</jats:p>",
+      "DOI": "10.64898/2026.01.12.698948",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            13
+          ]
+        ],
+        "date-time": "2026-01-13T05:50:23Z",
+        "timestamp": 1768283423000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Hierarchical Deep Learning Framework Integrating Structural Interaction Potentials and Evolutionary Information for Protein-Protein Interaction Affinity Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Ahmed",
+          "family": "Ibrahim",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Suez Canal University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mohamed",
+          "family": "Hassan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Suez Canal University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Youssef",
+          "family": "Ali",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Suez Canal University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.1",
+          "article-title": "Characterization of protein complexes using chemical cross-linking coupled electrospray mass spectrometry",
+          "year": "2016",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.naacl-demos.8"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.3",
+          "article-title": "Physical epistatic landscape of antibody binding affinity",
+          "year": "2017",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.acl-long.297"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Qian, W. , Shang, Z. , Wen, D. , and Fu, T. , “From Perception to Reasoning and Interaction: A Comprehensive Survey of Multimodal Intelligence in Large Language Models,” Authorea Preprints, 2025.",
+          "DOI": "10.36227/techrxiv.176472911.13119857/v1"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.acl-short.107"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.7",
+          "article-title": "Thread of thought unraveling chaotic contexts",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhu, C. , Lin, J. , Tan, G. , Zhu, N. , Li, K. , Wang, C. , and Li, S. , “Advancing Ultrasound Medical Continuous Learning with Task-Specific Generalization and Adaptability,” 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), IEEE, 2024, pp. 3019–3025.",
+          "DOI": "10.1109/BIBM62325.2024.10822568"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.9",
+          "article-title": "VQ-Insight: Teaching VLMs for AI-Generated Video Quality Understanding via Progressive Visual Reinforcement Learning",
+          "year": "2025",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.10",
+          "article-title": "Q-insight: Understanding image quality via visual reinforcement learning",
+          "year": "2025",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.11",
+          "article-title": "AvatarShield: Visual Reinforcement Learning for Human-Centric Video Forgery Detection",
+          "year": "2025",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.naacl-main.109"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.findings-acl.93"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.acl-long.217"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.emnlp-main.351"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.findings-emnlp.76"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.emnlp-main.14"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.acl-long.558"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.emnlp-main.804"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.findings-emnlp.59"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2022.acl-long.415"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou, Y. , Li, X. , Wang, Q. , and Shen, J. , “Visual In-Context Learning for Large Vision-Language Models,” Findings of the Association for Computational Linguistics, ACL 2024, Bangkok, Thailand and virtual meeting, August 11-16, 2024, Association for Computational Linguistics, 2024, pp. 15890–15902.",
+          "DOI": "10.18653/v1/2024.findings-acl.940"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.23",
+          "article-title": "Rethinking Visual Dependency in Long-Context Reasoning for Large Vision-Language Models",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2025.findings-acl.1298"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhu, C. , Lin, Y. , Shao, J. , Lin, J. , and Wang, Y. , “Pathology-Aware Prototype Evolution via LLM-Driven Semantic Disambiguation for Multicenter Diabetic Retinopathy Diagnosis,” Proceedings of the 33rd ACM International Conference on Multimedia, 2025, pp. 9196–9205.",
+          "DOI": "10.1145/3746027.3754562"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.26",
+          "unstructured": "Rao, Z. , Qi, S. , and Mo, T. , “LLM-Assisted Integration of Omics Evidence: Decoding the Causal Chain Among Gut Microbiota, Metabolites, and Myopia,” 2025."
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin, F. , Liu, H. , Zhou, H. , Hou, S. , Yamada, K. D. , Fischer, G. S. , Li, Y. , Zhang, H. K. , and Zhang, Z. , “Loss distillation via gradient matching for point cloud completion with weighted chamfer distance,” 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), IEEE, 2024, pp. 511–518.",
+          "DOI": "10.1109/IROS58592.2024.10801828"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.28",
+          "article-title": "Enhanced mean field game for interactive decision-making with varied stylish multi-vehicles",
+          "year": "2026",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TVT.2025.3638265"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.30",
+          "article-title": "Evaluating scenario-based decision-making for interactive autonomous driving using rational criteria: A survey",
+          "year": "2026",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huang, J. , Yan, M. , Chen, S. , Huang, Y. , and Chen, S. , “Magicfight: Personalized martial arts combat video generation,” Proceedings of the 32nd ACM International Conference on Multimedia, 2024, pp. 10833–10842.",
+          "DOI": "10.1145/3664647.3680849"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.32",
+          "article-title": "Matten: Video generation with mamba-attention",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huang, J. , Huang, Y. , Liu, J. , Zhou, D. , Liu, Y. , and Chen, S. , “Dual-Schedule Inversion: Training-and Tuning-Free Inversion for Real Image Editing,” 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), IEEE, 2025, pp. 660–669.",
+          "DOI": "10.1109/WACV61041.2025.00074"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhu, C. , Shao, J. , Lin, J. , Wang, Y. , Wang, J. , Tang, J. , and Li, K. , “fMRI2GES: Co-speech Gesture Reconstruction from fMRI Signal with Dual Brain Decoding Alignment,” IEEE Transactions on Circuits and Systems for Video Technology, 2025.",
+          "DOI": "10.1109/TCSVT.2025.3558125"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.emnlp-main.552"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.findings-acl.84"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.emnlp-main.642"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.findings-acl.195"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou, Y. , and Long, G. , “Multimodal Event Transformer for Image-guided Story Ending Generation,” Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics, 2023, pp. 3434–3444.",
+          "DOI": "10.18653/v1/2023.eacl-main.249"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2022.naacl-main.272"
+        },
+        {
+          "key": "2026020605174105000_2026.01.12.698948v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.18653/v1/2021.naacl-main.273"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.01.12.698948",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            6
+          ]
+        ],
+        "date-time": "2026-02-06T13:18:38Z",
+        "timestamp": 1770383918000
+      },
+      "score": 81.81102,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.01.12.698948"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            12
+          ]
+        ]
+      },
+      "references-count": 41,
+      "URL": "https://doi.org/10.64898/2026.01.12.698948",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.02.08.479556",
+  "title": "Plasticity in structure and assembly of SARS-CoV-2 nucleocapsid protein",
+  "doi": "10.1101/2022.02.08.479556",
+  "abstract": "Worldwide SARS-CoV-2 sequencing efforts track emerging mutations in its spike protein, as well as characteristic mutations in other viral proteins. Besides their epidemiological importance, the observed SARS-CoV-2 sequences present an ensemble of viable protein variants, and thereby a source of information on viral protein structure and function. Charting the mutational landscape of the nucleocapsid (N) protein that facilitates viral assembly, we observe variability exceeding that of the spike protein, with more than 86% of residues that can be substituted, on average by 3-4 different amino acids. However, mutations exhibit an uneven distribution that tracks known structural features but also reveals highly protected stretches of unknown function. One of these conserved regions is in the central disordered linker proximal to the N-G215C mutation that has become dominant in the Delta variant, outcompeting G215 variants without further spike or N-protein substitutions. Structural models suggest that the G215C mutation stabilizes conserved transient helices in the disordered linker serving as protein-protein interaction interfaces. Comparing Delta variant N-protein to its ancestral version in biophysical experiments, we find a significantly more compact and less disordered structure. N-G215C exhibits substantially stronger self-association, shifting the unliganded protein from a dimeric to a tetrameric oligomeric state, which leads to enhanced co-assembly with nucleic acids. This suggests that the sequence variability of N-protein is mirrored by high plasticity of N-protein biophysical properties, which we hypothesize can be exploited by SARS-CoV-2 to achieve greater efficiency of viral assembly, and thereby enhanced infectivity.",
+  "authors": [
+    "Zhao H",
+    "Nguyen A",
+    "Wu D",
+    "Li Y",
+    "Hassan SA",
+    "Chen J",
+    "Shroff H",
+    "Piszczek G",
+    "Schuck P"
+  ],
+  "published_date": "2022-02-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.02.08.479556",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.02.08.479556.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR452399",
+    "raw_record": {
+      "id": "PPR452399",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR452399"
+        ]
+      },
+      "doi": "10.1101/2022.02.08.479556",
+      "title": "Plasticity in structure and assembly of SARS-CoV-2 nucleocapsid protein",
+      "authorString": "Zhao H, Nguyen A, Wu D, Li Y, Hassan SA, Chen J, Shroff H, Piszczek G, Schuck P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhao H",
+            "lastName": "Zhao",
+            "firstName": "Huaying",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Dynamics of Macromolecular Assembly, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nguyen A",
+            "lastName": "Nguyen",
+            "firstName": "Ai",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Dynamics of Macromolecular Assembly, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu D",
+            "lastName": "Wu",
+            "firstName": "Di",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biophysics Core Facility, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li Y",
+            "lastName": "Li",
+            "firstName": "Yan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Proteomics Core Facility, National Institute of Neurological Disorders and Stroke, National Institutes of Health, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hassan SA",
+            "lastName": "Hassan",
+            "firstName": "Sergio",
+            "initials": "SA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics and Computational Biosciences Branch, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chen J",
+            "lastName": "Chen",
+            "firstName": "Jiji",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Advanced Imaging and Microscopy Resource, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shroff H",
+            "lastName": "Shroff",
+            "firstName": "Hari",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Advanced Imaging and Microscopy Resource, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA"
+                },
+                {
+                  "affiliation": "Laboratory of High Resolution Optical Imaging, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Piszczek G",
+            "lastName": "Piszczek",
+            "firstName": "Grzegorz",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biophysics Core Facility, National Heart, Lung, and Blood Institute, National Institutes of Health, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schuck P",
+            "lastName": "Schuck",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Dynamics of Macromolecular Assembly, National Institute of Biomedical Imaging and Bioengineering, National Institutes of Health, Bethesda, MD 20892, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Worldwide SARS-CoV-2 sequencing efforts track emerging mutations in its spike protein, as well as characteristic mutations in other viral proteins. Besides their epidemiological importance, the observed SARS-CoV-2 sequences present an ensemble of viable protein variants, and thereby a source of information on viral protein structure and function. Charting the mutational landscape of the nucleocapsid (N) protein that facilitates viral assembly, we observe variability exceeding that of the spike protein, with more than 86% of residues that can be substituted, on average by 3-4 different amino acids. However, mutations exhibit an uneven distribution that tracks known structural features but also reveals highly protected stretches of unknown function. One of these conserved regions is in the central disordered linker proximal to the N-G215C mutation that has become dominant in the Delta variant, outcompeting G215 variants without further spike or N-protein substitutions. Structural models suggest that the G215C mutation stabilizes conserved transient helices in the disordered linker serving as protein-protein interaction interfaces. Comparing Delta variant N-protein to its ancestral version in biophysical experiments, we find a significantly more compact and less disordered structure. N-G215C exhibits substantially stronger self-association, shifting the unliganded protein from a dimeric to a tetrameric oligomeric state, which leads to enhanced co-assembly with nucleic acids. This suggests that the sequence variability of N-protein is mirrored by high plasticity of N-protein biophysical properties, which we hypothesize can be exploited by SARS-CoV-2 to achieve greater efficiency of viral assembly, and thereby enhanced infectivity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/02/09/2022.02.08.479556.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.02.08.479556"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR452399"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR452399&type=FILE&fileName=EMS143261-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35783502",
+            "reference": "PNAS nexus. 2022 May;1(2):pgac049",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS143261",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-02-11",
+      "firstPublicationDate": "2022-02-09",
+      "firstIndexDate": "2022-02-11",
+      "fullTextReceivedDate": "2022-03-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

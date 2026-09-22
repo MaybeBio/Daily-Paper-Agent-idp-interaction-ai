@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38860775",
+  "title": "Salivary gland transcriptomics of the cotton aphid Aphis gossypii and comparative analysis with other sap-sucking insects.",
+  "authors": "Pavithran, Shanmugasundram; Murugan, Marimuthu; Mannu, Jayakanthan; Sathyaseelan, Chakkarai; Balasubramani, Venkatasamy; Harish, Sankarasubramanian; Natesan, Senthil",
+  "journal": "Archives of insect biochemistry and physiology",
+  "published_date": "2024-06-11",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究对棉蚜唾液腺进行转录组测序并预测分泌蛋白结构，发现多数蛋白含无序区域，但仅涉及单物种蛋白鉴定与比较，未研究PPI互作机制，也无AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "Aphids are sap-sucking insects responsible for crop losses and a severe threat to crop production. Proteins in the aphid saliva are integral in establishing an interaction between aphids and plants and are responsible for host plant adaptation. The cotton aphid, Aphis gossypii (Hemiptera: Aphididae) is a major pest of Gossypium hirsutum. Despite extensive studies of the salivary proteins of various aphid species, the components of A. gossypii salivary glands are unknown. In this study, we identified 123,008 transcripts from the salivary gland of A. gossypii. Among those, 2933 proteins have signal peptides with no transmembrane domain known to be secreted from the cell upon feeding. The transcriptome includes proteins with more comprehensive functions such as digestion, detoxification, regulating host defenses, regulation of salivary glands, and a large set of uncharacterized proteins. Comparative analysis of salivary proteins of different aphids and other insects with A. gossypii revealed that 183 and 88 orthologous clusters were common in the Aphididae and non-Aphididae groups, respectively. The structure prediction for highly expressed salivary proteins indicated that most possess an intrinsically disordered region. These results provide valuable reference data for exploring novel functions of salivary proteins in A. gossypii with their host interactions. The identified proteins may help develop a sustainable way to manage aphid pests.",
+  "abstract_zh": "蚜虫是吸食汁液的昆虫，导致作物损失，对作物生产构成严重威胁。蚜虫唾液中的蛋白质在建立蚜虫与植物之间的相互作用中不可或缺，并负责寄主植物的适应性。棉蚜（Aphis gossypii，半翅目：蚜科）是陆地棉（Gossypium hirsutum）的主要害虫。尽管对多种蚜虫物种的唾液蛋白进行了广泛研究，但棉蚜唾液腺的组成成分仍未知。在本研究中，我们从棉蚜唾液腺中鉴定出123,008条转录本。其中，2933个蛋白质具有信号肽且无跨膜结构域，已知在取食时会从细胞中分泌。该转录组包括功能更全面的蛋白质，如消化、解毒、调控寄主防御、调节唾液腺，以及大量未表征的蛋白质。将不同蚜虫及其他昆虫的唾液蛋白与棉蚜进行比较分析，结果显示，在蚜科（Aphididae）和非蚜科（non-Aphididae）类群中分别有183个和88个直系同源簇是共有的。对高表达唾液蛋白的结构预测表明，大多数具有内在无序区域。这些结果为探索棉蚜唾液蛋白与其寄主相互作用的新功能提供了宝贵的参考数据。所鉴定的蛋白质可能有助于开发可持续的蚜虫害虫管理方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38860775/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38860775/",
+  "paper_page_path": "papers/pubmed/38860775/index.html"
+}

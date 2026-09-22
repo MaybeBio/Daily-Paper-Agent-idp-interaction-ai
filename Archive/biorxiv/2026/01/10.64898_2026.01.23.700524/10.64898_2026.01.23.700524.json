@@ -1,0 +1,280 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.23.700524",
+  "title": "Extending the MAD Toolbox: New Polymer Builder and Enhanced Martini Database",
+  "doi": "10.64898/2026.01.23.700524",
+  "abstract": "The MArtini Database (MAD) web server (www.mad.ens-lyon.fr) has been updated with new tools, models, and capabilities to support a broader range of molecular sys- tems for the Martini coarse grained (CG) force field. The most notable addition is the MAD:Polymer Builder, enabling the automated construction of CG polymer models with varying architectures and complexities. The server now incorporates the latest developments in Martini 3, providing enhanced control within the MAD:Molecule Builder over the conversion of all-atom structures into CG representations, including the implementation of GoMartini 3 for protein complexes and water protein interaction biases. The MAD:Polymer Builder and MAD:Molecule Builder are both adapted to work with intrinsically disordered proteins and domains. Substantial progress has been made in expanding the MAD:Database, making a growing library of Martini-ready compounds readily accessible across the entire MAD ecosystem. These advances position MAD as a comprehensive and evolving platform for the preparation of diverse systems in CG molecular simulations.",
+  "authors": [
+    "Marin R",
+    "Hilpert C",
+    "Grunewald F",
+    "Valerio M",
+    "Borges L",
+    "Janczarski S",
+    "Rossini N",
+    "Marrink S",
+    "Telles de Souza P",
+    "Launay G"
+  ],
+  "published_date": "2026-01-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.23.700524",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.23.700524.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1228399",
+    "raw_record": {
+      "id": "PPR1228399",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1228399"
+        ]
+      },
+      "doi": "10.64898/2026.01.23.700524",
+      "title": "Extending the MAD Toolbox: New Polymer Builder and Enhanced Martini Database",
+      "authorString": "Marin R, Hilpert C, Grunewald F, Valerio M, Borges L, Janczarski S, Rossini N, Marrink S, Telles de Souza P, Launay G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Marin R",
+            "lastName": "Marin",
+            "firstName": "Romuald",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", UMR 5086 & , 7 passage du Vercors , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hilpert C",
+            "lastName": "Hilpert",
+            "firstName": "Cecile",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", UMR 5086 & , 7 passage du Vercors , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grunewald F",
+            "lastName": "Grunewald",
+            "firstName": "Fabian",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Valerio M",
+            "lastName": "Valerio",
+            "firstName": "Mariana",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratoire de Biologie et Modélisation de la Cellule, , , , U1293, , , 46 allée d’Italie , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Borges L",
+            "lastName": "Borges",
+            "firstName": "Luis",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratoire de Biologie et Modélisation de la Cellule, , , , U1293, , , 46 allée d’Italie , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Janczarski S",
+            "lastName": "Janczarski",
+            "firstName": "Stephane",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratoire de Biologie et Modélisation de la Cellule, , , , U1293, , , 46 allée d’Italie , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rossini N",
+            "lastName": "Rossini",
+            "firstName": "Nicolas",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Biomedical Sciences Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marrink S",
+            "lastName": "Marrink",
+            "firstName": "Siewert-Jan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Telles de Souza P",
+            "lastName": "Telles de Souza",
+            "firstName": "Paulo",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0660-1301"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratoire de Biologie et Modélisation de la Cellule, , , , U1293, , , 46 allée d’Italie , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Launay G",
+            "lastName": "Launay",
+            "firstName": "Guillaume",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0177-8706"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratoire de Biologie et Modélisation de la Cellule, , , , U1293, , , 46 allée d’Italie , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0177-8706"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0660-1301"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "The MArtini Database (MAD) web server (www.mad.ens-lyon.fr) has been updated with new tools, models, and capabilities to support a broader range of molecular sys- tems for the Martini coarse grained (CG) force field. The most notable addition is the MAD:Polymer Builder, enabling the automated construction of CG polymer models with varying architectures and complexities. The server now incorporates the latest developments in Martini 3, providing enhanced control within the MAD:Molecule Builder over the conversion of all-atom structures into CG representations, including the implementation of GoMartini 3 for protein complexes and water protein interaction biases. The MAD:Polymer Builder and MAD:Molecule Builder are both adapted to work with intrinsically disordered proteins and domains. Substantial progress has been made in expanding the MAD:Database, making a growing library of Martini-ready compounds readily accessible across the entire MAD ecosystem. These advances position MAD as a comprehensive and evolving platform for the preparation of diverse systems in CG molecular simulations.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101053661",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.23.700524"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1228399"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1228399&type=FILE&fileName=EMS214531-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214531",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-01-26",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

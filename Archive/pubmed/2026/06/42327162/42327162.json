@@ -1,0 +1,424 @@
+{
+  "identity": {
+    "pmid": "42327162",
+    "doi": "10.64898/2026.06.10.730916",
+    "title": "Controlling metal-carbonate phase, form, and function through de novo protein design."
+  },
+  "content": {
+    "abstract": "Biomineralization enables living systems to construct hybrid materials by controlling the location, orientation, and polymorph of inorganic crystals with proteins and other biomolecules. Despite decades of study, the molecular principles underlying these processes remain difficult to harness in engineered materials, in part because native biomineralization proteins are often intrinsically disordered, heterogeneous, or insoluble. Here we show that de novo designed protein interfaces can be assembled into reconfigurable two-dimensional arrays which template calcite nanocrystals. By fine-tuning RFdiffusion2 on repeat protein scaffolds, we further enable the design of protein architectures which selectively form aragonite, a metastable polymorph of calcium carbonate, in nucleation conditions that otherwise result in a mixture of phases. Extending beyond inorganics found in biological systems, we show that lattice-matched protein designs template cobalt carbonate formation: a flat helical repeat protein interface promotes unconfined growth, whereas soluble D3 cage assemblies yield more homogenous cobalt carbonate nanocrystals confined to the interior of the cage. These protein-cage cobalt carbonate hybrid materials function as electrocatalysts for alkaline water splitting. Our results demonstrate the potential of deep learning-based methods to unlock the structural and functional activity of protein-mineral composites.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kwon, Paul S",
+        "Li, Xinqi",
+        "Yu, Le Tracy",
+        "Pyles, Harley",
+        "Lewis, Todd H",
+        "Weidle, Connor",
+        "Borst, Andrew J",
+        "Bodinger, Catherine C",
+        "Kang, Alex",
+        "Nguyen, Hannah",
+        "Mendoza, Johnny",
+        "Carr, Kenneth D",
+        "Coventry, Brian",
+        "Hsia, Yang",
+        "Molnar, Zsombor",
+        "Li, Dongsheng",
+        "Zhang, Bo",
+        "Cossairt, Brandi M",
+        "Zhang, Shuai",
+        "Bera, Asim K",
+        "De Yoreo, James",
+        "Baker, David"
+      ],
+      "short_names": [
+        "Kwon PS",
+        "Li X",
+        "Yu LT",
+        "Pyles H",
+        "Lewis TH",
+        "Weidle C",
+        "Borst AJ",
+        "Bodinger CC",
+        "Kang A",
+        "Nguyen H",
+        "Mendoza J",
+        "Carr KD",
+        "Coventry B",
+        "Hsia Y",
+        "Molnar Z",
+        "Li D",
+        "Zhang B",
+        "Cossairt BM",
+        "Zhang S",
+        "Bera AK",
+        "De Yoreo J",
+        "Baker D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7928-1009",
+        "ORCID: 0009-0008-8021-0791",
+        "ORCID: 0000-0001-9904-6460",
+        "ORCID: 0000-0003-2695-4075",
+        "ORCID: 0000-0002-9354-2276",
+        "ORCID: 0000-0003-4297-7824",
+        "ORCID: 0009-0007-8941-2974",
+        "ORCID: 0000-0001-5487-0499",
+        "ORCID: 0000-0001-9696-4004",
+        "ORCID: 0000-0003-1573-4202",
+        "ORCID: 0009-0005-1929-3952",
+        "ORCID: 0000-0002-6910-6255",
+        "ORCID: 0000-0001-7467-8373",
+        "ORCID: 0000-0002-9836-3488",
+        "ORCID: 0000-0002-1030-146X",
+        "ORCID: 0000-0002-1737-1241",
+        "ORCID: 0000-0002-9891-3259",
+        "ORCID: 0000-0003-0170-6470",
+        "ORCID: 0000-0001-9473-2912",
+        "ORCID: 0000-0002-9541-733X",
+        "ORCID: 0000-0001-7896-6217"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Kwon, Paul S",
+        "short_name": "Kwon PS",
+        "identifiers": [
+          "0000-0001-7928-1009"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Li, Xinqi",
+        "short_name": "Li X",
+        "identifiers": [
+          "0009-0008-8021-0791"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yu, Le Tracy",
+        "short_name": "Yu LT",
+        "identifiers": [
+          "0000-0001-9904-6460"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Pyles, Harley",
+        "short_name": "Pyles H",
+        "identifiers": [
+          "0000-0003-2695-4075"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lewis, Todd H",
+        "short_name": "Lewis TH",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Weidle, Connor",
+        "short_name": "Weidle C",
+        "identifiers": [
+          "0000-0002-9354-2276"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Borst, Andrew J",
+        "short_name": "Borst AJ",
+        "identifiers": [
+          "0000-0003-4297-7824"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bodinger, Catherine C",
+        "short_name": "Bodinger CC",
+        "identifiers": [
+          "0009-0007-8941-2974"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kang, Alex",
+        "short_name": "Kang A",
+        "identifiers": [
+          "0000-0001-5487-0499"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Nguyen, Hannah",
+        "short_name": "Nguyen H",
+        "identifiers": [
+          "0000-0001-9696-4004"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Mendoza, Johnny",
+        "short_name": "Mendoza J",
+        "identifiers": [
+          "0000-0003-1573-4202"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Carr, Kenneth D",
+        "short_name": "Carr KD",
+        "identifiers": [
+          "0009-0005-1929-3952"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Coventry, Brian",
+        "short_name": "Coventry B",
+        "identifiers": [
+          "0000-0002-6910-6255"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hsia, Yang",
+        "short_name": "Hsia Y",
+        "identifiers": [
+          "0000-0001-7467-8373"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Molnar, Zsombor",
+        "short_name": "Molnar Z",
+        "identifiers": [
+          "0000-0002-9836-3488"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Li, Dongsheng",
+        "short_name": "Li D",
+        "identifiers": [
+          "0000-0002-1030-146X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Bo",
+        "short_name": "Zhang B",
+        "identifiers": [
+          "0000-0002-1737-1241"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Cossairt, Brandi M",
+        "short_name": "Cossairt BM",
+        "identifiers": [
+          "0000-0002-9891-3259"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Shuai",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0000-0003-0170-6470"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bera, Asim K",
+        "short_name": "Bera AK",
+        "identifiers": [
+          "0000-0001-9473-2912"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "De Yoreo, James",
+        "short_name": "De Yoreo J",
+        "identifiers": [
+          "0000-0002-9541-733X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Baker, David",
+        "short_name": "Baker D",
+        "identifiers": [
+          "0000-0001-7896-6217"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jun 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/22 13:42",
+    "fetched_at": "2026-09-18 04:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42327162",
+      "38097544",
+      "41134001",
+      "23912807",
+      "41279593",
+      "31292559",
+      "38061675",
+      "35699654",
+      "36403251",
+      "40990046",
+      "14629554",
+      "23932180",
+      "25739963",
+      "41819392",
+      "35467343",
+      "17120120",
+      "36139105",
+      "39206560",
+      "20831150",
+      "41945435",
+      "18273832",
+      "24425526",
+      "31157787",
+      "8661982",
+      "29420020",
+      "26205040",
+      "27552287",
+      "25426079",
+      "34062682",
+      "36508665",
+      "38710202",
+      "31241793",
+      "42112551",
+      "34904892",
+      "26194158",
+      "37201193",
+      "24837160",
+      "40352545",
+      "32190922",
+      "35420080",
+      "33760451",
+      "36133376",
+      "34904889",
+      "35515223",
+      "32263938",
+      "34730945",
+      "30967473",
+      "14648763",
+      "37710047",
+      "36346258",
+      "23704077",
+      "36103070",
+      "26258941",
+      "24302723",
+      "30834324",
+      "32036813",
+      "23919655",
+      "20712308",
+      "23860577",
+      "25490041",
+      "28890161",
+      "23896564",
+      "41826298",
+      "31961511",
+      "11106633",
+      "27677734",
+      "18303894",
+      "33136361",
+      "33579194",
+      "27717839",
+      "31811894",
+      "27567962",
+      "32882362",
+      "29967143",
+      "24977921",
+      "25934395",
+      "28742941",
+      "23734589",
+      "35315243",
+      "34995442",
+      "29664599",
+      "12676699",
+      "26630671",
+      "21768106",
+      "40694334",
+      "40922549",
+      "34056353",
+      "15571664",
+      "36281797",
+      "22558208",
+      "32261471",
+      "35460121",
+      "31199115",
+      "29555753",
+      "25539013",
+      "28258584",
+      "24006084",
+      "31437582",
+      "33405235",
+      "25226539"
+    ],
+    "review": [
+      "42327162",
+      "41134001",
+      "36139105",
+      "26205040",
+      "42112551",
+      "23704077",
+      "31961511",
+      "33579194",
+      "35315243"
+    ],
+    "pmc": [
+      "13277969"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42327162/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.06.10.730916",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

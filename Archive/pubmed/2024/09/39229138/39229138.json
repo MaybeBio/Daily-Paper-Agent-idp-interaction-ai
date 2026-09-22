@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "39229138",
+    "doi": "10.1101/2024.08.23.609426",
+    "title": "Identification of an intrinsically disordered region (IDR) in arginyltransferase 1 (ATE1)."
+  },
+  "content": {
+    "abstract": "Arginyltransferase 1 (ATE1) catalyzes arginylation, an important post-translational modification (PTM) in eukaryotes that plays a critical role in cellular homeostasis. The disruption of ATE1 function is implicated in mammalian neurodegenerative disorders and cardiovascular maldevelopment, while post-translational arginylation has also been linked to the activities of several important human viruses such as SARS-CoV-2 and HIV. Despite the known significance of ATE1 in mammalian cellular function, past biophysical studies of this enzyme have mainly focused on yeast ATE1, leaving the mechanism of arginylation in mammalian cells unclear. In this study, we sought to structurally and biophysically characterize mouse (Mus musculus) ATE1. Using size-exclusion chromatography (SEC), small angle X-ray scattering (SAXS), and hydrogen deuterium exchange mass spectrometry (HDX-MS), assisted by AlphaFold modeling, we found that mouse ATE1 is structurally more complex than yeast ATE1. Importantly, our data indicate the existence of an intrinsically disordered region (IDR) in all mouse ATE1 splice variants. However, comparative HDX-MS analyses show that yeast ATE1 does not have such an IDR, consistent with prior X-ray, cryo-EM, and SAXS analyses. Furthermore, bioinformatics approaches reveal that mammalian ATE1 sequences, as well as in a large majority of other eukaryotes, contain an IDR-like sequence positioned in proximity to the ATE1 GNAT active-site fold. Computational analysis suggests that the IDR likely facilitates the formation of the complex between ATE1 and tRNA(Arg), adding a new complexity to ATE1 structure and providing new insights for future studies of ATE1 functions.",
+    "keywords": [
+      "arginyltransferase",
+      "hydrogen-deuterium exchange mass spectrometry",
+      "intrinsically disordered region",
+      "protein nucleic acid interactions",
+      "small angle x-ray scattering"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cartwright, Misti",
+        "Parakra, Rinky",
+        "Oduwole, Ayomide",
+        "Zhang, Fangliang",
+        "Deredge, Daniel J",
+        "Smith, Aaron T"
+      ],
+      "short_names": [
+        "Cartwright M",
+        "Parakra R",
+        "Oduwole A",
+        "Zhang F",
+        "Deredge DJ",
+        "Smith AT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9332-8683"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of Maryland, Baltimore County, Baltimore, Maryland, 21250 USA.",
+        "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, Maryland, 21201 USA.",
+        "Department of Chemistry and Biochemistry, University of Maryland, Baltimore County, Baltimore, Maryland, 21250 USA.",
+        "Department of Molecular and Cellular Pharmacology, University of Miami, Miller School of Medicine, Miami, Florida, 33136 USA.",
+        "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, Maryland, 21201 USA.",
+        "Department of Chemistry and Biochemistry, University of Maryland, Baltimore County, Baltimore, Maryland, 21250 USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cartwright, Misti",
+        "short_name": "Cartwright M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Maryland, Baltimore County, Baltimore, Maryland, 21250 USA."
+        ]
+      },
+      {
+        "full_name": "Parakra, Rinky",
+        "short_name": "Parakra R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, Maryland, 21201 USA."
+        ]
+      },
+      {
+        "full_name": "Oduwole, Ayomide",
+        "short_name": "Oduwole A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Maryland, Baltimore County, Baltimore, Maryland, 21250 USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fangliang",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Pharmacology, University of Miami, Miller School of Medicine, Miami, Florida, 33136 USA."
+        ]
+      },
+      {
+        "full_name": "Deredge, Daniel J",
+        "short_name": "Deredge DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, Maryland, 21201 USA."
+        ]
+      },
+      {
+        "full_name": "Smith, Aaron T",
+        "short_name": "Smith AT",
+        "identifiers": [
+          "0000-0002-9332-8683"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Maryland, Baltimore County, Baltimore, Maryland, 21250 USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Aug 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/04 06:42",
+    "fetched_at": "2026-09-21 10:01:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39068213",
+      "38718835",
+      "38705823",
+      "38322719",
+      "37127974",
+      "37076488",
+      "36969402",
+      "36774964",
+      "36709327",
+      "36648282",
+      "36087779",
+      "35878037",
+      "35098694",
+      "34265844",
+      "33931669",
+      "33833657",
+      "33443146",
+      "33228359",
+      "32881101",
+      "32627813",
+      "32553119",
+      "32366662",
+      "32100577",
+      "30622213",
+      "30278223",
+      "29605933",
+      "28900170",
+      "28894508",
+      "27911701",
+      "27685622",
+      "27630371",
+      "27358108",
+      "27151198",
+      "26686093",
+      "25369936",
+      "25150862",
+      "24529990",
+      "23567256",
+      "23553817",
+      "23499006",
+      "22749400",
+      "22626847",
+      "22034591",
+      "21988835",
+      "21784066",
+      "21633985",
+      "21509745",
+      "21276945",
+      "19592714",
+      "16794040",
+      "16267872",
+      "10550212",
+      "10354416",
+      "7984417",
+      "7495814",
+      "5722252",
+      "2185248",
+      "1438297"
+    ],
+    "similar": [
+      "39229138",
+      "39642180",
+      "36087779",
+      "36682863",
+      "27685622",
+      "24529990",
+      "27318192",
+      "36077558",
+      "39207120",
+      "40099869",
+      "32553119",
+      "34669233",
+      "33228359",
+      "33409279",
+      "38297346",
+      "37505085",
+      "37010752",
+      "36226970",
+      "25369936",
+      "37832787",
+      "27510035",
+      "37010756",
+      "38854050",
+      "35878037",
+      "16002466",
+      "37010764",
+      "26686093",
+      "28844905",
+      "26285882",
+      "37076488",
+      "35247316",
+      "32435206",
+      "39605427",
+      "35008737",
+      "30586322",
+      "19915679",
+      "30177837",
+      "39844741",
+      "35127722",
+      "37791766",
+      "39852692",
+      "36851505",
+      "29196701",
+      "33443146",
+      "30385798",
+      "20300656",
+      "18948421",
+      "16943202",
+      "21276945",
+      "34896361",
+      "36454645",
+      "26285883",
+      "22280815",
+      "37010744",
+      "35561126",
+      "37010749",
+      "37010758",
+      "37010750",
+      "39068213",
+      "31606094",
+      "36709327",
+      "19890395",
+      "26511365",
+      "37010757",
+      "24293517",
+      "27345715",
+      "16826240",
+      "34565409",
+      "30597201",
+      "39149376",
+      "22626847",
+      "21784066",
+      "37010748",
+      "37010746",
+      "9858543",
+      "33203161",
+      "26285876",
+      "26285884",
+      "22577142",
+      "37010747",
+      "2185248",
+      "35493078",
+      "25381249",
+      "36184612",
+      "34179096",
+      "36636941",
+      "26285889",
+      "31721348",
+      "32696361",
+      "33453925",
+      "37622732",
+      "27752365",
+      "31724233",
+      "34158395",
+      "28770577",
+      "33931669",
+      "39446390",
+      "29080206",
+      "28900170",
+      "27872189"
+    ],
+    "review": [
+      "39229138",
+      "27318192",
+      "36454645",
+      "21784066",
+      "33203161",
+      "26285876",
+      "36636941",
+      "31721348"
+    ],
+    "pmc": [
+      "11370617"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39229138/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.08.23.609426",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

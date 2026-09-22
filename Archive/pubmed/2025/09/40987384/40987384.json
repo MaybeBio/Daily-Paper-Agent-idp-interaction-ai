@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "40987384",
+    "doi": "10.1016/j.jprot.2025.105535",
+    "title": "Structural dynamics of the TPS/TPP complex in Saccharomyces cerevisiae: Insights from cross-linking mass spectrometry and computational modeling."
+  },
+  "content": {
+    "abstract": "Trehalose, a ubiquitous disaccharide, plays a vital role in cell viability, including pathogenic fungi, making its synthetic pathway a key target for antifungal drug design. The structural details of the trehalose-phosphate synthase (TPS)/trehalose-phosphate phosphatase (TPP) complex, which is responsible for synthesizing trehalose, have remained elusive. Information on the structure and topology of the TPS/TPP complex remains scarce, significantly limiting the mechanistic understanding of trehalose synthesis. This study presents the first overview of the interactions within the Saccharomyces cerevisiae TPS/TPP complex following a 40  degrees C heat shock, analyzed by cross-linking mass spectrometry (XL-MS) and computational modeling. Our cross-linking data corroborate the UniProt-available AlphaFold models for isolated subunits. Intrinsically disordered regions are suggested for the regulatory subunits, while cross-linking analysis highlights the disordered N-terminus of Tsl1 as an important region in assembling the TPS/TPP complex. Finally, the phosphorylation prediction indicates that Tps3-disordered regions at the N-terminus and the phosphatase-like domains are preferentially phosphorylated, triggering the inhibition of Tps2 activity and halting T6P accumulation. These insights enhance our understanding of the structural dynamics and flexibility of the TPS/TPP complex, opening new avenues for potential therapeutic applications with diminished or no toxicity to humans. SIGNIFICANCE: This research contributes to a comprehensive structural understanding of the TPS/TPP complex in Saccharomyces cerevisiae, a key enzymatic system involved in trehalose synthesis. Trehalose is essential in cellular viability and stress adaptation, particularly in pathogenic fungi, making its biosynthetic pathway a promising target for antifungal drug development. By integrating cross-linking mass spectrometry (XL-MS) and computational modeling, this study uncovers critical interactions and dynamic features of the TPS/TPP complex, including the involvement of intrinsically disordered regions in its regulatory subunits possibly contributing to complex assembly and regulation under heat shock conditions. Furthermore, the phosphorylation predictions shed light on how disordered regions on Tps3 would participate in modulating Tps2 activity to regulate trehalose-phosphate levels, offering insights into the complex's functional dynamics. This work fills a crucial knowledge gap in understanding trehalose biosynthesis and paves the way for novel antifungal strategies with reduced toxicity to human cells.",
+    "keywords": [
+      "Cross-link mass spectrometry",
+      "Molecular modeling",
+      "Saccharomyces cerevisiae TPS complex"
+    ],
+    "mesh_terms": [
+      "*Saccharomyces cerevisiae/enzymology/metabolism",
+      "*Saccharomyces cerevisiae Proteins/chemistry/metabolism",
+      "*Phosphoric Monoester Hydrolases/chemistry/metabolism",
+      "*Glucosyltransferases/chemistry/metabolism",
+      "Mass Spectrometry/methods",
+      "Trehalose"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Santos, Renata M",
+        "Bastos, Viviane A",
+        "Bagatelli, Felipe F M",
+        "Valente, Richard H",
+        "Kurt, Louise U",
+        "Lima, Diogo B",
+        "Oliveira, Carla C",
+        "Nogueira, Fabio C S",
+        "Eleutherio, Elis C A",
+        "Carvalho, Paulo C",
+        "Gomes-Neto, Francisco"
+      ],
+      "short_names": [
+        "Santos RM",
+        "Bastos VA",
+        "Bagatelli FFM",
+        "Valente RH",
+        "Kurt LU",
+        "Lima DB",
+        "Oliveira CC",
+        "Nogueira FCS",
+        "Eleutherio ECA",
+        "Carvalho PC",
+        "Gomes-Neto F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Investigation of Stress Factors (LIFE), Institute of Chemistry, Federal University of Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil; Laboratory of Immunological Technology, Bio-Manguinhos/Oswaldo Cruz Foundation (FIOCRUZ), Rio de Janeiro, Brazil.",
+        "Laboratory of Toxinology, Oswaldo Cruz Institute, FIOCRUZ, Rio de Janeiro, Brazil; Plateforme Post-Genomique de la Pitie-Salpetriere (P3S), Faculte de Sante, Sorbonne Universite, Paris, France.",
+        "Department of Biochemistry, Institute of Chemistry, University of Sao Paulo, SP, Brazil.",
+        "Laboratory of Toxinology, Oswaldo Cruz Institute, FIOCRUZ, Rio de Janeiro, Brazil.",
+        "Laboratory for Structural and Computational Proteomics, Carlos Chagas Institute, Fiocruz Parana, Brazil.",
+        "Department of Chemical Biology, Leibniz - Forschungsinstitut fur Molekulare Pharmakologie (FMP), Berlin, Germany.",
+        "Department of Biochemistry, Institute of Chemistry, University of Sao Paulo, SP, Brazil.",
+        "Proteomics Unit and Laboratory of Proteomics/LADETEC, Institute of Chemistry, Federal University of Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil.",
+        "Laboratory of Investigation of Stress Factors (LIFE), Institute of Chemistry, Federal University of Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil.",
+        "Laboratory for Structural and Computational Proteomics, Carlos Chagas Institute, Fiocruz Parana, Brazil.",
+        "Laboratory of Toxinology, Oswaldo Cruz Institute, FIOCRUZ, Rio de Janeiro, Brazil. Electronic address: francisco.neto@ioc.fiocruz.br."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Santos, Renata M",
+        "short_name": "Santos RM",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Investigation of Stress Factors (LIFE), Institute of Chemistry, Federal University of Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil; Laboratory of Immunological Technology, Bio-Manguinhos/Oswaldo Cruz Foundation (FIOCRUZ), Rio de Janeiro, Brazil."
+        ]
+      },
+      {
+        "full_name": "Bastos, Viviane A",
+        "short_name": "Bastos VA",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Toxinology, Oswaldo Cruz Institute, FIOCRUZ, Rio de Janeiro, Brazil; Plateforme Post-Génomique de la Pitié-Salpêtrière (P3S), Faculté de Santé, Sorbonne Université, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Bagatelli, Felipe F M",
+        "short_name": "Bagatelli FFM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Chemistry, University of São Paulo, SP, Brazil."
+        ]
+      },
+      {
+        "full_name": "Valente, Richard H",
+        "short_name": "Valente RH",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Toxinology, Oswaldo Cruz Institute, FIOCRUZ, Rio de Janeiro, Brazil."
+        ]
+      },
+      {
+        "full_name": "Kurt, Louise U",
+        "short_name": "Kurt LU",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Structural and Computational Proteomics, Carlos Chagas Institute, Fiocruz Paraná, Brazil."
+        ]
+      },
+      {
+        "full_name": "Lima, Diogo B",
+        "short_name": "Lima DB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Biology, Leibniz - Forschungsinstitut für Molekulare Pharmakologie (FMP), Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Oliveira, Carla C",
+        "short_name": "Oliveira CC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Chemistry, University of São Paulo, SP, Brazil."
+        ]
+      },
+      {
+        "full_name": "Nogueira, Fabio C S",
+        "short_name": "Nogueira FCS",
+        "identifiers": [],
+        "affiliations": [
+          "Proteomics Unit and Laboratory of Proteomics/LADETEC, Institute of Chemistry, Federal University of Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil."
+        ]
+      },
+      {
+        "full_name": "Eleutherio, Elis C A",
+        "short_name": "Eleutherio ECA",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Investigation of Stress Factors (LIFE), Institute of Chemistry, Federal University of Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil."
+        ]
+      },
+      {
+        "full_name": "Carvalho, Paulo C",
+        "short_name": "Carvalho PC",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Structural and Computational Proteomics, Carlos Chagas Institute, Fiocruz Paraná, Brazil."
+        ]
+      },
+      {
+        "full_name": "Gomes-Neto, Francisco",
+        "short_name": "Gomes-Neto F",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Toxinology, Oswaldo Cruz Institute, FIOCRUZ, Rio de Janeiro, Brazil. Electronic address: francisco.neto@ioc.fiocruz.br."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of proteomics"
+    ],
+    "journal_abbrev": [
+      "J Proteomics"
+    ],
+    "pub_date": "2026 Jan 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/24 00:39",
+    "fetched_at": "2026-09-17 20:24:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40987384",
+      "24380875",
+      "9837904",
+      "9194697",
+      "11520870",
+      "15455210",
+      "33008820",
+      "1849964",
+      "36232739",
+      "22855938",
+      "8879249",
+      "10831428",
+      "22303248",
+      "9133641",
+      "31478225",
+      "18166160",
+      "17453154",
+      "17628825",
+      "19812028",
+      "38128269",
+      "8444170",
+      "31241341",
+      "40445466",
+      "21598083",
+      "28743811",
+      "20825482",
+      "19344332",
+      "19620241",
+      "19621581",
+      "17178000",
+      "8045430",
+      "8850521",
+      "27307435",
+      "35929793",
+      "23763276",
+      "21771638",
+      "30402996",
+      "32240040",
+      "23626675",
+      "28298477",
+      "1335235",
+      "24446217",
+      "19138450",
+      "25405239",
+      "8913738",
+      "37968550",
+      "14526004",
+      "34255978",
+      "35525890",
+      "12586876",
+      "26161530",
+      "25271261",
+      "18835983",
+      "27796871",
+      "23903290",
+      "20648561",
+      "24412193",
+      "16046541",
+      "29445344",
+      "25294040",
+      "23026712",
+      "31973820",
+      "8306984",
+      "12748054",
+      "11115409",
+      "39510294",
+      "11978181",
+      "27027300",
+      "14614785",
+      "18065618",
+      "17388901",
+      "8404905",
+      "15651035",
+      "24334121",
+      "12626396",
+      "8203161",
+      "22697265",
+      "37108114",
+      "21698458",
+      "9681009",
+      "1662849",
+      "9713688",
+      "39853120",
+      "16030010",
+      "24291007",
+      "2960663",
+      "35451658",
+      "22639606",
+      "22905132",
+      "25495218",
+      "10880982",
+      "34446193",
+      "2546763",
+      "40346935",
+      "35075784",
+      "12417583",
+      "25934390",
+      "25841989",
+      "27936238",
+      "34298047"
+    ],
+    "review": [
+      "40987384",
+      "40445466",
+      "28298477",
+      "29445344"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1874-3919(25)00162-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

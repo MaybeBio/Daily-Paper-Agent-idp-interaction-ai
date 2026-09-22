@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The scientific claims and conceptual framework presented in the abstract, assessed for internal consistency, evidentiary support, and alignment with the stated scope of a perspective/review article in Soft Matter.
+- **Shared manuscript claim summary** The abstract proposes a unified theoretical framework based on fluid elasticity to describe interactions between condensate droplets (formed by liquid-liquid phase separation) and biomembranes. It claims that phase diagrams for segregative and associative phase separation exhibit one or two critical demixing points at constant temperature, that proximity to such critical points leads to complete wetting of membranes by droplets, that wetting geometries are characterized by three apparent and two intrinsic contact angles at different length scales, that vesicle volume reduction or membrane area increase drives remodeling processes (engulfment, nanotubulation), and that membrane neck closure adjacent to droplets can proceed via distinct morphological pathways, including nanotube-to-double-membrane-sheet transformations under partial wetting.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or main text provided.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, experimental and simulation details, derivations of the theoretical framework, and any quantitative comparisons between theory and data. Without these, the depth of validation and the novelty of the synthesis cannot be assessed.
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually ambitious synthesis that aims to unify recent experimental and simulation findings on condensate droplet-membrane interactions within a fluid elasticity framework. The core ideas, particularly the role of critical demixing points in driving complete wetting and the distinction between apparent and intrinsic contact angles, are intellectually appealing and potentially significant for the soft matter community. However, the abstract alone provides insufficient evidence to evaluate the robustness of the theoretical claims, the accuracy of the synthesis, or the novelty relative to existing literature. The manuscript may be suitable for a perspective-style publication in Soft Matter, but the current evidence base does not allow verification of the central assertions.
+- **Who would be interested in the results, and why** Researchers in biomembrane physics, liquid-liquid phase separation (particularly in biological contexts such as membraneless organelles), wetting phenomena, and soft matter theory. The work bridges membrane elasticity and phase separation, which is a rapidly growing area with relevance to cell biology and biophysics. Experimentalists studying droplet-membrane interactions would also find the proposed framework useful for interpreting their observations.
+- **Major strengths** The abstract offers a clear conceptual organization of complex phenomena, distinguishing between segregative and associative phase separation and linking them to wetting behavior. The proposal of two distinct contact angle scales (apparent vs. intrinsic) is a potentially valuable refinement for interpreting microscopy data. The integration of experimental and simulation results into a single theoretical framework is timely and could provide a useful reference point for the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Theoretical validity
+  - **Claim pointer** "It is argued that the corresponding phase diagrams exhibit one or two critical demixing points at constant temperature and that the vicinity of such a critical point leads to complete wetting of the membranes by the droplets."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim that both segregative and associative phase separation produce one or two critical demixing points at constant temperature, and that proximity to these points universally leads to complete wetting, is presented without derivation or citation. The relationship between critical demixing and complete wetting is not trivial and depends on the specific free energy functional and interfacial interactions. The abstract does not specify the conditions under which one versus two critical points arise, nor does it address exceptions or limitations.
+  - **Why it matters** This is a central theoretical assertion that underpins the entire framework. If the phase diagram topology or the wetting transition criterion is incorrect or overly general, the subsequent predictions about remodeling and nanotubulation would be compromised. The claim must be rigorously justified with derivations or explicit references to established results.
+  - **Resolution test** Provide a derivation or a clear citation chain showing that the stated phase diagram topology follows from the chosen free energy models, and demonstrate with a specific example (e.g., a Flory-Huggins type model) that complete wetting occurs near the critical point. Alternatively, state the conditions under which the claim holds and acknowledge exceptions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidentiary support
+  - **Claim pointer** "In general, both exterior and interior droplets can exhibit different wetting geometries, characterized by three apparent contact angles on the scale of a few hundred nanometers, as resolved by conventional light microscopy, and by two intrinsic contact angles on the scale of a few tens of nanometers."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract asserts a specific number of apparent (three) and intrinsic (two) contact angles without explaining the physical origin of these numbers or how they are measured. The distinction between apparent and intrinsic angles is introduced but not defined. No experimental or simulation data are referenced to support the claim that these angles are consistently observed across different systems.
+  - **Why it matters** This is a quantitative prediction that should be testable. If the numbers of angles are not universally valid, the framework loses predictive power. The lack of definition for "apparent" versus "intrinsic" makes the claim difficult to evaluate or reproduce.
+  - **Resolution test** Define the apparent and intrinsic contact angles in terms of the underlying geometry and free energy minimization. Provide at least one experimental or simulation example where three apparent and two intrinsic angles are explicitly measured, and discuss any system-dependent variations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope and novelty
+  - **Claim pointer** "Here, we look at the interactions of such droplets with biomembranes, integrating the results of recent experimental studies and computer simulations into the theoretical framework of fluid elasticity."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify what is new in this synthesis relative to prior theoretical work on membrane wetting and droplet interactions. The framework of fluid elasticity is well established, and wetting of membranes by droplets has been studied previously. Without a clear statement of novel contributions (e.g., new predictions, a unified treatment of previously disparate results, or a resolution of conflicting observations), the manuscript risks being a review without added value.
+  - **Why it matters** For a perspective or review article, the novelty of the synthesis is a key criterion. If the framework merely restates known results, the manuscript would not meet the standards of a high-impact journal.
+  - **Resolution test** In the full manuscript, explicitly identify at least two specific predictions or conceptual advances that go beyond existing literature, and demonstrate how they resolve open questions or enable new interpretations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "condensate droplets" is used without defining whether it refers exclusively to protein/polymer condensates or includes other macromolecular systems. The distinction between "segregative" and "associative" phase separation is mentioned but not explained for a general readership.
+  - **Required correction** Provide brief definitions of these terms in the abstract or introduction, and specify the scope of "condensate" as used in the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Quantitative predictions
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "a variety of remodeling processes" and "several distinct morphological pathways" without enumerating them or indicating how many are predicted versus observed.
+  - **Required correction** In the abstract or main text, list the specific remodeling processes and pathways, and clearly mark which are predictions of the theory and which are supported by experimental or simulation evidence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract is dense and moves rapidly from phase diagrams to wetting to remodeling without clear transitions. Nonspecialist readers may struggle to follow the logical flow.
+  - **Required correction** Consider restructuring the abstract to state the problem, the proposed framework, the key predictions, and the evidence base in a more sequential manner.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (theoretical derivation of phase diagram topology and wetting criterion), R1-M2 (definition and empirical support for contact angle numbers), R1-M3 (explicit statement of novelty). These are not necessarily errors but gaps in the evidence provided that prevent verification of the central claims.
+- **Assessment against Nature-style criteria** Originality: The conceptual synthesis appears original in its specific combination of ideas, but the abstract does not demonstrate this clearly. Scientific importance: The topic is timely and relevant, with potential impact on biophysics and cell biology. Interdisciplinary readership: The abstract is accessible to soft matter physicists but may be challenging for biologists without additional context. Technical soundness: Cannot be assessed from the abstract alone; the theoretical claims require derivation and validation. Readability for nonspecialists: The abstract is concise but assumes familiarity with phase separation and membrane elasticity concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the absence of derivations, data, and a clear novelty statement means the case is not yet made. A full manuscript review would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that phase diagrams exhibit one or two critical demixing points at constant temperature is unsupported in the abstract.
+- The claim that proximity to a critical point leads to complete wetting is unsupported.
+- The specific numbers of apparent (three) and intrinsic (two) contact angles are unsupported and undefined.
+- The assertion that nanotube-to-double-membrane-sheet transformation occurs under partial wetting is presented without evidence or derivation.
+- The overall integration of experimental and simulation results into the fluid elasticity framework is asserted but not demonstrated in the abstract.

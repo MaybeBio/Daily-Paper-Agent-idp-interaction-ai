@@ -1,0 +1,146 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.30.679637",
+  "title": "Born to Condense: Polysomes Drive Co-Translational Condensation of Biomolecular Condensate Proteins",
+  "doi": "10.1101/2025.09.30.679637",
+  "abstract": "Biomolecular condensates formed by protein liquid-liquid phase separation (LLPS) are ubiquitous in cells and play crucial roles in cellular regulation. While the physics and functions of LLPS are well studied, its interplay with protein synthesis – translation – remains largely unexplored. Here we introduce a theoretical framework for Co-Translational Condensation (CTC), in which nascent protein chains of polysomes – multiple ribosomes on one mRNA – interact with condensates, localizing translation to condensate surfaces. Using coarse-grained simulations, we show that protein domain architecture dictates the thermodynamics of CTC, consistent with a Langmuir adsorption model. Bioinformatic analysis of more than 7,500 proteins reveals that most condensate-associated proteins have architectures favoring CTC, with strong interaction regions of nascent chains exposed on polysomes. At the dynamical level, simulation and reaction–diffusion modeling reveal that CTC is kinetically feasible within typical polysome lifetimes, either through large polysomes nucleating new condensates or via diffusion to pre-existing condensates. As a case study, we demonstrate that CTC enhances post-translational modifications by minimizing unmodified intermediates. More broadly, we anticipate CTC may also influence protein folding, misfolding, and signal-integration latency. Together, our results establish CTC as a general mechanism coupling translation with phase separation, with broad implications for protein evolution, cellular organization, and synthetic biology.",
+  "authors": [
+    "He Z",
+    "Chow CFW",
+    "Toth-Petroczy A",
+    "Sommer J",
+    "Harmon TS"
+  ],
+  "published_date": "2025-10-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.30.679637",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.30.679637.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1094220",
+    "raw_record": {
+      "id": "PPR1094220",
+      "source": "PPR",
+      "doi": "10.1101/2025.09.30.679637",
+      "title": "Born to Condense: Polysomes Drive Co-Translational Condensation of Biomolecular Condensate Proteins",
+      "authorString": "He Z, Chow CFW, Toth-Petroczy A, Sommer J, Harmon TS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "He Z",
+            "lastName": "He",
+            "firstName": "Zhouyi",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9604-294X"
+            }
+          },
+          {
+            "fullName": "Chow CFW",
+            "lastName": "Chow",
+            "firstName": "Chi Fung Willis",
+            "initials": "CFW"
+          },
+          {
+            "fullName": "Toth-Petroczy A",
+            "lastName": "Toth-Petroczy",
+            "firstName": "Agnes",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0333-604X"
+            }
+          },
+          {
+            "fullName": "Sommer J",
+            "lastName": "Sommer",
+            "firstName": "Jens-Uwe",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8239-3570"
+            }
+          },
+          {
+            "fullName": "Harmon TS",
+            "lastName": "Harmon",
+            "firstName": "Tyler",
+            "initials": "TS"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8239-3570"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9604-294X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0333-604X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Biomolecular condensates formed by protein liquid-liquid phase separation (LLPS) are ubiquitous in cells and play crucial roles in cellular regulation. While the physics and functions of LLPS are well studied, its interplay with protein synthesis – translation – remains largely unexplored. Here we introduce a theoretical framework for Co-Translational Condensation (CTC), in which nascent protein chains of polysomes – multiple ribosomes on one mRNA – interact with condensates, localizing translation to condensate surfaces. Using coarse-grained simulations, we show that protein domain architecture dictates the thermodynamics of CTC, consistent with a Langmuir adsorption model. Bioinformatic analysis of more than 7,500 proteins reveals that most condensate-associated proteins have architectures favoring CTC, with strong interaction regions of nascent chains exposed on polysomes. At the dynamical level, simulation and reaction–diffusion modeling reveal that CTC is kinetically feasible within typical polysome lifetimes, either through large polysomes nucleating new condensates or via diffusion to pre-existing condensates. As a case study, we demonstrate that CTC enhances post-translational modifications by minimizing unmodified intermediates. More broadly, we anticipate CTC may also influence protein folding, misfolding, and signal-integration latency. Together, our results establish CTC as a general mechanism coupling translation with phase separation, with broad implications for protein evolution, cellular organization, and synthetic biology.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.30.679637"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-10-03",
+      "firstPublicationDate": "2025-10-02",
+      "firstIndexDate": "2025-10-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

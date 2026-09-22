@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42650564",
+  "title": "Binding Mechanism and Taste-Masking Effect of Milk Proteins with Flavonoids from Pandan Revealed by Spectroscopic and Electronic Tongue Analysis.",
+  "authors": "Zhang, Junyi; Qin, Xiaowei; Feng, Zhen; He, Shuzhen; Lou, Guanhua; Cheng, Wei; Liu, Fei; Gu, Chunhe",
+  "journal": "Foods (Basel, Switzerland)",
+  "published_date": "2026-08-27",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究用光谱和分子对接分析牛奶蛋白与黄酮的互作及掩味机制，涉及beta-casein的无序结构，但方法以实验为主、AI/物理模拟较浅，互作机制建模深度有限。",
+  "abstract": "With the growing interest in pandan-based products, bitterness and astringency associated with flavonoids may limit their sensory acceptance. This study investigated the interactions and taste-modulating effects of two milk proteins, beta-casein (beta-CN) and beta-lactoglobulin (beta-LG), with two representative bitter flavonoids, catechin (C) and naringin (NAR), in aqueous model systems. Fluorescence spectroscopy showed that both flavonoids produced concentration-dependent quenching of the milk proteins. beta-CN exhibited more pronounced interaction-related spectroscopic responses than beta-LG, which may be associated with its flexible and intrinsically disordered structure. Molecular docking predicted hydrogen-bonding and hydrophobic interactions in all four protein-flavonoid systems, with catechin and naringin interacting mainly with the internal hydrophobic cavity of beta-LG and surface-exposed regions of the beta-CN model. Circular dichroism and Fourier-transform infrared spectroscopy indicated ligand-dependent structural changes. For beta-LG, catechin slightly decreased the estimated antiparallel and total beta-sheet fractions, whereas naringin produced a modest increase. For beta-CN, catechin produced a more apparent redistribution between the estimated alpha-helix and beta-sheet fractions, while naringin caused comparatively smaller changes. Electronic tongue measurements showed that the addition of the milk proteins reduced the bitterness- and astringency-related sensor responses of catechin and naringin. Under the tested conditions, beta-CN produced greater attenuation of these responses than beta-LG, while the umami-related response remained comparatively high. These findings support the potential application of milk proteins as taste-modulating components in flavonoid-containing dairy formulations, although validation in real food matrices is required.",
+  "abstract_zh": "随着对香兰基产品兴趣的增长，与类黄酮相关的苦味和涩味可能限制其感官接受度。本研究在水相模型系统中探讨了两种乳蛋白，β-酪蛋白（beta-casein, beta-CN）和β-乳球蛋白（beta-lactoglobulin, beta-LG），与两种代表性苦味类黄酮，儿茶素（catechin, C）和柚皮苷（naringin, NAR）之间的相互作用及味觉调节效应。荧光光谱显示，两种类黄酮均对乳蛋白产生浓度依赖性猝灭。beta-CN表现出比beta-LG更显著的相互作用相关光谱响应，这可能与其柔性和内在无序结构有关。分子对接预测所有四种蛋白质-类黄酮系统中存在氢键和疏水相互作用，其中儿茶素和柚皮苷主要与beta-LG的内部疏水腔及beta-CN模型的表面暴露区域相互作用。圆二色光谱和傅里叶变换红外光谱表明存在配体依赖性结构变化。对于beta-LG，儿茶素略微降低了估计的反平行和总β-折叠比例，而柚皮苷则产生适度增加。对于beta-CN，儿茶素在估计的α-螺旋和β-折叠比例之间产生了更明显的重新分布，而柚皮苷引起的变化相对较小。电子舌测量显示，乳蛋白的添加降低了儿茶素和柚皮苷的苦味和涩味相关传感器响应。在测试条件下，beta-CN对这些响应的衰减作用大于beta-LG，而鲜味相关响应保持相对较高。这些发现支持乳蛋白在含类黄酮乳制品配方中作为味觉调节成分的潜在应用，但需在真实食品基质中进行验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42650564/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42650564/",
+  "paper_page_path": "papers/pubmed/42650564/index.html"
+}

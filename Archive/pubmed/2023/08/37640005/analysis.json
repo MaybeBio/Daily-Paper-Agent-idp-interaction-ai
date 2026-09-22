@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37640005",
+  "title": "Identification of molecular signatures and molecular dynamics simulation of highly deleterious missense variants of key autophagy regulator beclin 1: a computational based approach.",
+  "authors": "Kaur, Sargeet; Vashistt, Jitendraa; Changotra, Harish",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2023-08-29",
+  "window": {
+    "start": "2023-08-28",
+    "end": "2023-09-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究用计算工具和MD模拟预测Beclin 1有害错义突变对其结构与蛋白互作界面的影响，对象非IDP但涉及PPI机制建模，方法可迁移。",
+  "abstract": "Beclin 1 is a key autophagy regulator that also plays significant roles in other intracellular processes such as vacuolar protein sorting. Beclin 1 protein functions as a scaffold in the formation of a multiprotein assemblage during autophagy. Beclin 1 is involved in various diseases such as cancers, neurodegenerative and autophagy-related disorders. In this study, we have used various in silico tools to scan beclin 1 at the molecular level to find its molecular signatures. We have predicted and analysed deleterious non-synonymous single nucleotide polymorphisms (nsSNPs) of beclin 1 causing alterations in its structure and also affecting its interactions with other proteins. In total, twelve coding region deleterious variants were predicted using sequence-based tools and nine were predicted using various structure-based tools. The molecular dynamics (MD) simulations revealed an altered stability of the native structure due to the introduction of mutations. Destabilization of beclin 1 ECD domain was observed due to nsSNPs W300R and E302K. Beclin 1 deleterious nsSNPs were predicted to show significant effects on beclin 1 interactions with ATG14L1, UVRAG and VPS34 proteins and were also predicted to alter the protein-protein interface of beclin 1 complexes. Additionally, beclin 1 was predicted to have thirty-one potential phosphorylation and three ubiquitination sites. In conclusion, the molecular details of beclin 1 could help in the better understanding of its functioning. The study of nsSNPs and their effect on beclin 1 and its interactions might aid in understanding the basis of anomalies caused due to beclin 1 dysfunction.Communicated by Ramaswamy H. Sarma.",
+  "abstract_zh": "Beclin 1是一个关键的自噬调节因子，在液泡蛋白分选等其他细胞内过程中也扮演重要角色。Beclin 1蛋白在自噬过程中作为支架，参与多蛋白复合体的形成。Beclin 1与多种疾病相关，如癌症、神经退行性疾病及自噬相关疾病。在本研究中，我们利用多种计算机模拟工具在分子水平上扫描beclin 1，以发现其分子特征。我们预测并分析了beclin 1的有害非同义单核苷酸多态性（nsSNPs），这些变异导致其结构改变，并影响其与其他蛋白质的相互作用。总共使用基于序列的工具预测了十二个编码区有害变异，使用基于结构的工具预测了九个。分子动力学（molecular dynamics）模拟显示，由于突变的引入，天然结构的稳定性发生改变。观察到nsSNPs W300R和E302K导致beclin 1 ECD结构域的不稳定化。预测beclin 1的有害nsSNPs对beclin 1与ATG14L1、UVRAG和VPS34蛋白的相互作用有显著影响，并可能改变beclin 1复合物的蛋白质-蛋白质界面。此外，预测beclin 1有三十一个潜在磷酸化位点和三个泛素化位点。总之，beclin 1的分子细节有助于更好地理解其功能。对nsSNPs及其对beclin 1及其相互作用影响的研究，可能有助于理解beclin 1功能障碍引起的异常基础。由Ramaswamy H. Sarma通讯。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37640005/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37640005/",
+  "paper_page_path": "papers/pubmed/37640005/index.html"
+}

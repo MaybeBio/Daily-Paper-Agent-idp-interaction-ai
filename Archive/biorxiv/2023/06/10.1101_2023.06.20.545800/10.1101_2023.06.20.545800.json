@@ -1,0 +1,723 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.20.545800",
+  "title": "SRC family kinase inhibition rescues molecular and behavioral phenotypes, but not protein interaction network dynamics, in a mouse model of Fragile X syndrome",
+  "doi": "10.1101/2023.06.20.545800",
+  "abstract": "Glutamatergic synapses encode information from extracellular inputs using dynamic protein interaction networks (PINs) that undergo widespread reorganization following synaptic activity, allowing cells to distinguish between signaling inputs and generate coordinated cellular responses. Here, we investigated how Fragile X Messenger Ribonucleoprotein (FMRP) deficiency disrupts signal transduction through a glutamatergic synapse PIN. In cultured cortical neurons or acute cortical slices from P7, P17 and P60 FMR1 -/y mice, the unstimulated protein interaction networks state resembled that of wildtype littermates stimulated with neurotransmitter agonists, demonstrating resting state pre-activation of signaling networks. We identified the Src family kinase (SFK) Fyn as a network hub, because many interactions involving Fyn were pre-activated. We tested whether targeting Fyn in FMR1 -/y mice could modify disease phenotypes, and found that Saracatinib (AZD-0530), an SFK inhibitor, normalized elevated basal protein synthesis, novel object recognition memory and social behavior in FMR1 -/y mice. However, SCB treatment did not normalize the PIN to a wild-type-like state in vitro or in vivo , but rather induced extensive changes to protein complexes containing Shank3, NMDARs and Fyn. We conclude that targeting abnormal nodes of a PIN can identify potential disease-modifying drugs, but behavioral rescue does not correlate with PIN normalization.",
+  "authors": [
+    "Vera Stamenkovic",
+    "Jonathan D. Lautz",
+    "Felicia M. Harsh",
+    "Stephen E.P. Smith"
+  ],
+  "published_date": "2023-06-23",
+  "updated_date": "2023-06-24T09:59:32Z",
+  "journal": "bioRxiv",
+  "category": "Neuroscience",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.20.545800",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.20.545800.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Neuroscience"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Neuroscience",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:55:07Z",
+        "timestamp": 1768506907210,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            23
+          ]
+        ]
+      },
+      "group-title": "Neuroscience",
+      "reference-count": 84,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            23
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Glutamatergic synapses encode information from extracellular inputs using dynamic protein interaction networks (PINs) that undergo widespread reorganization following synaptic activity, allowing cells to distinguish between signaling inputs and generate coordinated cellular responses. Here, we investigated how Fragile X Messenger Ribonucleoprotein (FMRP) deficiency disrupts signal transduction through a glutamatergic synapse PIN. In cultured cortical neurons or acute cortical slices from P7, P17 and P60 FMR1\n                  <jats:sup>-/y</jats:sup>\n                  mice, the unstimulated protein interaction networks state resembled that of wildtype littermates stimulated with neurotransmitter agonists, demonstrating resting state pre-activation of signaling networks. We identified the Src family kinase (SFK) Fyn as a network hub, because many interactions involving Fyn were pre-activated. We tested whether targeting Fyn in FMR1\n                  <jats:sup>-/y</jats:sup>\n                  mice could modify disease phenotypes, and found that Saracatinib (AZD-0530), an SFK inhibitor, normalized elevated basal protein synthesis, novel object recognition memory and social behavior in FMR1\n                  <jats:sup>-/y</jats:sup>\n                  mice. However, SCB treatment did not normalize the PIN to a wild-type-like state\n                  <jats:italic>in vitro</jats:italic>\n                  or\n                  <jats:italic>in vivo</jats:italic>\n                  , but rather induced extensive changes to protein complexes containing Shank3, NMDARs and Fyn. We conclude that targeting abnormal nodes of a PIN can identify potential disease-modifying drugs, but behavioral rescue does not correlate with PIN normalization.\n                </jats:p>",
+      "DOI": "10.1101/2023.06.20.545800",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2023-06-24T09:59:32Z",
+        "timestamp": 1687600772000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "SRC family kinase inhibition rescues molecular and behavioral phenotypes, but not protein interaction network dynamics, in a mouse model of Fragile X syndrome"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Vera",
+          "family": "Stamenkovic",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan D.",
+          "family": "Lautz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Felicia M.",
+          "family": "Harsh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4180-573X",
+          "authenticated-orcid": false,
+          "given": "Stephen E.P.",
+          "family": "Smith",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2013.10.013"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "301",
+          "DOI": "10.1038/s41593-019-0579-9",
+          "article-title": "Phase separation at the synapse",
+          "volume": "23",
+          "year": "2020",
+          "journal-title": "Nat. Neurosci"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/scisignal.2000102"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pocklington, A. J. , Cumiskey, M. , Armstrong, J. D. & Grant, S. G. N . The proteomes of neurotransmitter receptor complexes form modular networks with distributed functionality underlying plasticity and behaviour. Mol. Syst. Biol. 2, 2006.0023 (2006).",
+          "DOI": "10.1038/msb4100041"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "540",
+          "DOI": "10.1111/jnc.14466",
+          "article-title": "Synaptic activity induces input-specific rearrangements in a targeted synaptic protein interaction network",
+          "volume": "146",
+          "year": "2018",
+          "journal-title": "J. Neurochem"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/scisignal.abd7325"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "110076",
+          "DOI": "10.1016/j.celrep.2021.110076",
+          "article-title": "Synaptic protein interaction networks encode experience by assuming stimulus-specific and brain-region-specific states",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Cell Rep"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.8",
+          "first-page": "S3.001",
+          "article-title": "Robustness and Specificity in Signal Transduction via Physiologic Protein Interaction Networks",
+          "volume": "2",
+          "year": "2012",
+          "journal-title": "Clin. Exp. Pharmacol"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciimmunol.aal2201"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13229-018-0229-1"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-pathol-012414-040405"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1320",
+          "DOI": "10.1038/s41588-022-01104-0",
+          "article-title": "Rare coding variation provides insight into the genetic architecture and phenotypic context of autism",
+          "volume": "54",
+          "year": "2022",
+          "journal-title": "Nat. Genet"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.03.25.437056"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "112430",
+          "DOI": "10.1016/j.celrep.2023.112430",
+          "article-title": "A synaptic molecular dependency network in knockdown of autism- and schizophrenia-associated genes revealed by multiplexed imaging",
+          "volume": "42",
+          "year": "2023",
+          "journal-title": "Cell Rep"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tins.2020.01.009"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2016.02.017"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2011.06.013"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2008.10.004"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrdp.2017.9"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "41",
+          "DOI": "10.1186/s13229-020-00350-5",
+          "article-title": "Elevated de novo protein synthesis in FMRP-deficient human neurons and its correction by metformin treatment",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Mol. Autism"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.3888-10.2010"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrn4001"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "508",
+          "DOI": "10.1016/j.neuron.2022.11.012",
+          "article-title": "Excessive proteostasis contributes to pathology in fragile X syndrome",
+          "volume": "111",
+          "year": "2023",
+          "journal-title": "Neuron"
+        },
+        {
+          "issue": "10",
+          "key": "2023062620551513000_2023.06.20.545800v1.24",
+          "first-page": "1038",
+          "article-title": "Dendritic spine structural anomalies in fragile-X mental retardation syndrome",
+          "volume": "1991",
+          "year": "2000",
+          "journal-title": "Cereb. Cortex N. Y. N"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-11891-6"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tins.2004.04.009"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.122205699"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.3038-15.2016"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13229-017-0140-1"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s11689-017-9191-z"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.nbd.2018.03.012"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.3696-09.2010"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3791/60029"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-9-559"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2015.11.013"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/scisignal.aad7279"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Stoppel, D. C. , McCamphill, P. K. , Senter, R. K. , Heynen, A. J. & Bear, M. F . mGluR5 Negative Modulators for Fragile X: Treatment Resistance and Persistence. Front. Psychiatry 12, (2021).",
+          "DOI": "10.3389/fpsyt.2021.718953"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2013.06.036"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "329",
+          "DOI": "10.1002/jnr.23713",
+          "article-title": "Dopamine D2 receptors are involved in the regulation of Fyn and metabotropic glutamate receptor 5 phosphorylation in the rat striatum in vivo",
+          "volume": "94",
+          "year": "2016",
+          "journal-title": "J. Neurosci. Res"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1742-4658.2011.08391.x"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang, H. et al. Src Inhibition Attenuates Neuroinflammation and Protects Dopaminergic Neurons in Parkinson’s Disease Models. Front. Neurosci. 14, (2020).",
+          "DOI": "10.3389/fnins.2020.00045"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ana.24394"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "54",
+          "DOI": "10.1016/j.neuropharm.2017.11.042",
+          "article-title": "Disease-modifying benefit of Fyn blockade persists after washout in mouse Alzheimer’s model",
+          "volume": "130",
+          "year": "2018",
+          "journal-title": "Neuropharmacology"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tang, S. J. et al. Fyn kinase inhibition reduces protein aggregation, increases synapse density and improves memory in transgenic and traumatic Tauopathy. Acta Neuropathol. Commun. 8, 96 (2020).",
+          "DOI": "10.1186/s40478-020-00976-9"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "102",
+          "DOI": "10.1016/j.nbd.2017.11.008",
+          "article-title": "Role of the Fyn-PKCδ signaling in SE-induced neuroinflammation and epileptogenesis in experimental models of temporal lobe epilepsy",
+          "volume": "110",
+          "year": "2018",
+          "journal-title": "Neurobiol. Dis"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Luo, X.-M. et al. Post-status epilepticus treatment with the Fyn inhibitor, saracatinib, improves cognitive function in mice. BMC Neurosci. 22, 2 (2021).",
+          "DOI": "10.1186/s12868-020-00606-z"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.47",
+          "first-page": "61",
+          "article-title": "Saracatinib, a Src Tyrosine Kinase Inhibitor, as a Disease Modifier in the Rat DFP Model: Sex Differences, Neurobehavior, Gliosis",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Neurodegeneration, and Nitro-Oxidative Stress. Antioxid. Basel Switz"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "772868",
+          "DOI": "10.3389/fncel.2021.772868",
+          "article-title": "Differential Impact of Severity and Duration of Status Epilepticus, Medical Countermeasures, and a Disease-Modifier, Saracatinib, on Brain Regions in the Rat Diisopropylfluorophosphate Model",
+          "volume": "15",
+          "year": "2021",
+          "journal-title": "Front. Cell. Neurosci"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "1219",
+          "DOI": "10.1001/jamaneurol.2019.2050",
+          "article-title": "Effect of AZD0530 on Cerebral Metabolic Decline in Alzheimer Disease: A Randomized Clinical Trial",
+          "volume": "76",
+          "year": "2019",
+          "journal-title": "JAMA Neurol"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1314"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang, M. , Silverman, J. L. & Crawley, J. N. Automated Three-Chambered Social Approach Task for Mice. Curr. Protoc. Neurosci. Editor. Board Jacqueline N Crawley Al CHAPTER 8, Unit-8.26 (2011).",
+          "DOI": "10.1002/0471142301.ns0826s56"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuropharm.2005.06.004"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2007.12.001"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "655",
+          "DOI": "10.1016/j.cels.2018.05.002",
+          "article-title": "Protein Phase Separation Provides Long-Term Memory of Transient Spatial Stimuli",
+          "volume": "6",
+          "year": "2018",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.06.047"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nn.3033"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-017-01191-2"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1460-9568.1996.tb01611.x"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1922563117"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "244",
+          "DOI": "10.1038/s41467-022-35680-w",
+          "article-title": "mGluR5 is transiently confined in perisynaptic nanodomains to shape synaptic function",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.201110101"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0009755"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1361685"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrn753"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.94.9.4761"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1460-9568.2005.03955.x"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.67",
+          "doi-asserted-by": "crossref",
+          "first-page": "1227",
+          "DOI": "10.1111/adb.12699",
+          "article-title": "The Fyn kinase inhibitor, AZD0530, suppresses mouse alcohol self-administration and seeking",
+          "volume": "24",
+          "year": "2019",
+          "journal-title": "Addict. Biol"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.brainres.2011.07.059"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1097/00001756-199607080-00032"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.70",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jin, D.-Z. , Mao, L.-M. & Wang, J. Q . An Essential Role of Fyn in the Modulation of Metabotropic Glutamate Receptor 1 in Neurons. eNeuro 4, ENEURO.0096-17.2017 (2017).",
+          "DOI": "10.1523/ENEURO.0096-17.2017"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.0799-04.2004"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/bjc.2012.158"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1078-0432.CCR-10-0748"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2012.03.009"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2007.12.001"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2012.01.034"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nm.4335"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/scitranslmed.aao0498"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.79",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Saré, R. M. et al. Negative Effects of Chronic Rapamycin Treatment on Behavior in a Mouse Model of Fragile X Syndrome. Front. Mol. Neurosci. 10, (2018).",
+          "DOI": "10.3389/fnmol.2017.00452"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/scitranslmed.aam8572"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.74277"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.82",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jeong, J. , Li, Y. & Roche, K. W . CaMKII Phosphorylation Regulates Synaptic Enrichment of Shank3. eNeuro 8, ENEURO.0481-20.2021 (2021).",
+          "DOI": "10.1523/ENEURO.0481-20.2021"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3791/53825"
+        },
+        {
+          "key": "2023062620551513000_2023.06.20.545800v1.84",
+          "first-page": "118",
+          "article-title": "Adjusting batch effects in microarray expression data using empirical Bayes methods",
+          "volume": "8",
+          "year": "2007",
+          "journal-title": "Biostat. Oxf. Engl"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.06.20.545800",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:49:29Z",
+        "timestamp": 1768452569000
+      },
+      "score": 59.976826,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.06.20.545800"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            23
+          ]
+        ]
+      },
+      "references-count": 84,
+      "URL": "https://doi.org/10.1101/2023.06.20.545800",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41380-024-02418-7",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

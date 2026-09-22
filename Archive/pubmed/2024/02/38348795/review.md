@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the presented review article
+- **Shared manuscript claim summary** The authors argue that protein backbone interactions and secondary structures play critical, underappreciated roles in the phase separation of intrinsically disordered proteins, and they review experimental and computational evidence supporting this view.
+- **Visible evidence base** The manuscript text, including abstract, introduction, four main sections, and funding statement. No figures, tables, or supplementary materials were provided.
+- **Missing materials affecting confidence** Figures 1 and 2 are referenced but not available. No reference list was provided, preventing verification of cited literature. No supplementary information was included.
+
+## Reviewer
+- **Overall assessment** This mini-review addresses a timely and important topic, namely the role of backbone-mediated interactions and secondary structure in the phase separation of IDPs. The authors are clearly knowledgeable, and the manuscript is generally well organized. However, the review is largely descriptive and lacks critical depth in several areas. The discussion of conflicting evidence, particularly regarding the role of helicity in phase separation, is presented without sufficient mechanistic synthesis. The absence of figures and references in the provided material limits a full evaluation, but based on the text alone, the scientific case is plausible yet not fully established. The manuscript would benefit from a more critical and integrative treatment of the literature, as well as clearer articulation of open questions and future directions.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, intrinsically disordered proteins, and computational biophysics would find this review useful. It provides a concise summary of recent work on backbone interactions and secondary structure in phase separation, which is a niche but growing area. Experimentalists seeking context for interpreting structural data from condensates, and computational scientists developing or applying coarse-grained models, would both benefit from the overview.
+- **Major strengths** The manuscript addresses a specific and often overlooked aspect of IDP phase separation, namely the role of the protein backbone. The authors successfully highlight the chemical simplicity yet functional importance of backbone interactions. The review covers both experimental and computational approaches, providing a balanced perspective. The discussion of the HyRes model and its application to TDP-43 is a valuable contribution, as it demonstrates a concrete example of how coarse-grained models can be designed to capture backbone effects. The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "residual helicity appeared to play an indirect role in affecting TDP-43 CTD phase separation, by modulating the availability of backbone for intermolecular interactions."
+  - **Evidence pointer** Section "Molecular dynamics simulations of phase separation", location not provided
+  - **Concern** The claim that helicity modulates backbone availability is presented as a conclusion from the HyRes simulations, but the mechanistic basis is not explained. How exactly does increased helicity reduce backbone availability? Is this due to intramolecular hydrogen bonding competing with intermolecular interactions, or to steric effects, or to changes in chain conformation that alter solvent exposure? The manuscript does not provide a clear molecular explanation.
+  - **Why it matters** This is a central mechanistic claim of the review. Without a clear explanation, the reader cannot evaluate whether the conclusion is justified or whether it is an artifact of the specific simulation model. The distinction between direct helix-helix contacts and indirect effects on backbone availability is important for understanding how sequence encodes phase behavior.
+  - **Resolution test** The authors should provide a more detailed mechanistic description, ideally with quantitative data from the simulations, such as contact probabilities, hydrogen bond occupancies, or solvent accessible surface area of backbone groups in the different mutants. Alternatively, they could cite specific published analyses that support this interpretation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "the backbone can be expected to play vital roles in shaping intermolecular interactions that drive biomolecular phase transitions."
+  - **Evidence pointer** Section "Introduction", location not provided
+  - **Concern** This is a broad claim that is not critically examined. The authors cite evidence that backbone interactions contribute to chain collapse and that single-chain dimensions correlate with phase separation propensity, but they do not address the relative importance of backbone versus sidechain interactions in a quantitative way. Are there cases where sidechain interactions dominate and backbone effects are negligible? The review would be stronger if it acknowledged the limits of the backbone-centric view.
+  - **Why it matters** The review's central thesis is that backbone interactions are underappreciated. To make this case convincingly, the authors should engage with counterarguments or at least delineate the conditions under which backbone effects are most relevant. Without this, the claim risks being overstated.
+  - **Resolution test** The authors should include a discussion of systems where sidechain interactions are clearly dominant, or provide a comparative analysis of backbone versus sidechain contributions across different IDP classes. This would strengthen the scientific importance of the review.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the majority of these models are Cα-only models where each residue is represented by a single CG bead. However, due to the lack of an explicit description of backbones, most CG models are not suited to reproduce the local secondary structures of IDPs or backbone-mediated interactions."
+  - **Evidence pointer** Section "Molecular dynamics simulations of phase separation", location not provided
+  - **Concern** This statement is overly broad. Some Cα-only models, such as CALVADOS, have been parameterized to reproduce experimental observables that implicitly capture backbone effects, even if the backbone is not explicitly represented. The claim that these models are "not suited" to reproduce secondary structures may be too strong, as they can still capture effective conformational preferences through residue-specific parameters.
+  - **Why it matters** The authors are positioning their HyRes model as a superior alternative. While this may be justified, the critique of existing models should be more nuanced to be credible. Overstating limitations of other approaches weakens the review's authority.
+  - **Resolution test** The authors should either provide specific examples of secondary structure predictions that fail with Cα-only models, or soften the claim to acknowledge that some models can capture backbone effects implicitly. A more balanced comparison would strengthen the technical argument.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "the backbones of IDPs are significantly exposed, rendering them highly influential in and susceptible to biomolecular phase separation." The phrase "influential in and susceptible to" is awkward and could be rephrased for clarity.
+  - **Required correction** Rephrase to something like "rendering them highly influential in biomolecular phase separation and susceptible to its effects."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Backbone-mediated interactions in biomolecular phase separation"
+  - **Evidence pointer** Section "Hydrogen-bond interactions", location not provided
+  - **Issue** The discussion of hydrogen bonding mentions that proline lacks an N-H group, but does not discuss the implications of proline's unique backbone geometry for phase separation. Proline is common in IDPs and its conformational constraints could be relevant.
+  - **Required correction** Add a brief comment on proline's role, or explicitly state that this is beyond the scope of the review.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Secondary structures in IDP phase separation"
+  - **Evidence pointer** Section "Does phase separation promote β-structure formation?", location not provided
+  - **Issue** The sentence "However, to date, few works demonstrated the presence of β-sheet within liquid-like droplets, although some β-turns have been reported" is grammatically awkward and could be clearer.
+  - **Required correction** Rephrase to "However, to date, few works have demonstrated the presence of β-sheet within liquid-like droplets, although some β-turns have been reported."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Molecular dynamics simulations of phase separation"
+  - **Evidence pointer** Section "Molecular dynamics simulations of phase separation", location not provided
+  - **Issue** The discussion of the hybrid all-atom/CG approach mentions a limitation regarding timescales, but does not discuss the challenge of back-mapping accuracy. The fidelity of the back-mapping procedure is a known issue that could affect the reliability of subsequent atomistic simulations.
+  - **Required correction** Add a brief comment on back-mapping accuracy as an additional limitation.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of mechanistic detail supporting the claim that helicity modulates backbone availability in TDP-43. This is a central conclusion of the review and needs to be substantiated with more specific evidence or explanation. Additionally, the overly broad dismissal of Cα-only models should be refined to be more accurate and credible.
+- **Assessment against Nature-style criteria** Originality: The topic is relatively niche but the focus on backbone interactions is a useful angle that is not commonly emphasized. Scientific importance: The review addresses a relevant question in the condensate field, but the importance is not fully established due to the lack of critical synthesis. Interdisciplinary readership: The review is likely to appeal to both experimentalists and computational scientists, but the technical details may be challenging for nonspecialists. Technical soundness: The review is generally sound but contains some overstatements and lacks mechanistic depth in key areas. Readability for nonspecialists: The writing is mostly clear, but some sections assume familiarity with specific methods (e.g., HSQC, NOESY) without sufficient explanation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The review addresses a timely topic and has the potential to be a useful resource, but the mechanistic claims need to be better substantiated and the critique of existing models should be more balanced.
+
+## Risk / unsupported claims
+- The claim that residual helicity modulates backbone availability in TDP-43 is presented without sufficient mechanistic evidence in the provided text.
+- The statement that most Cα-only models are "not suited" to reproduce secondary structures is overly broad and not fully supported.
+- The assertion that "the backbone can be expected to play vital roles in shaping intermolecular interactions" is plausible but not critically examined against cases where sidechain effects dominate.
+- The discussion of experimental techniques for probing backbone interactions relies on cited examples, but the absence of a reference list prevents verification of these claims.

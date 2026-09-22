@@ -1,0 +1,297 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.12.557335",
+  "title": "Engineering an artificial catch bond using mechanical anisotropy",
+  "doi": "10.1101/2023.09.12.557335",
+  "abstract": "Catch bonds are a rare class of protein-protein interactions where the bond lifetime increases under an external pulling force. Here, we report how modification of anchor geometry generates catch bonding behavior for the mechanostable Dockerin G:Cohesin E (DocG:CohE) adhesion complex found on human gut bacteria. Using AFM single-molecule force spectroscopy in combination with bioorthogonal click chemistry, we mechanically dissociated the complex using five precisely controlled anchor geometries. When tension was applied through residue #13 on CohE and the N-terminus of DocG, the complex behaved as a two-state catch bond, while in all other tested pulling geometries, including the native configuration, it behaved as a slip bond. We used a kinetic Monte Carlo model with experimentally derived parameters to simulate rupture force and lifetime distributions, achieving strong agreement with experiments. Single-molecule FRET measurements further demonstrated that the complex does not exhibit dual binding mode behavior at equilibrium but unbinds along multiple pathways under force. Together, these results show how mechanical anisotropy and anchor point selection can be used to engineer artificial catch bonds.",
+  "authors": [
+    "Liu Z",
+    "Liu H",
+    "Vera AM",
+    "Yang B",
+    "Tinnefeld P",
+    "Nash MA"
+  ],
+  "published_date": "2023-09-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.12.557335",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.12.557335.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR725443",
+    "raw_record": {
+      "id": "PPR725443",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR725443"
+        ]
+      },
+      "doi": "10.1101/2023.09.12.557335",
+      "title": "Engineering an artificial catch bond using mechanical anisotropy",
+      "authorString": "Liu Z, Liu H, Vera AM, Yang B, Tinnefeld P, Nash MA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Liu Z",
+            "lastName": "Liu",
+            "firstName": "Zhaowei",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physical Chemistry, Department of Chemistry, University of Basel, 4058 Basel, Switzerland"
+                },
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, ETH Zurich, 4058 Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu H",
+            "lastName": "Liu",
+            "firstName": "Haipei",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physical Chemistry, Department of Chemistry, University of Basel, 4058 Basel, Switzerland"
+                },
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, ETH Zurich, 4058 Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vera AM",
+            "lastName": "Vera",
+            "firstName": "Andrés",
+            "initials": "AM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3932-8236"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Chemistry and Center for NanoScience, Ludwig-Maximilians-Universität München, Munich, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang B",
+            "lastName": "Yang",
+            "firstName": "Byeongseon",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0660-5193"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physical Chemistry, Department of Chemistry, University of Basel, 4058 Basel, Switzerland"
+                },
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, ETH Zurich, 4058 Basel, Switzerland"
+                },
+                {
+                  "affiliation": "Botnar Research Centre for Child Health, 4051 Basel, Switzerland"
+                },
+                {
+                  "affiliation": "National Center for Competence in Research (NCCR) Molecular Systems Engineering, 4058 Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tinnefeld P",
+            "lastName": "Tinnefeld",
+            "firstName": "Philip",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4290-7770"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Chemistry and Center for NanoScience, Ludwig-Maximilians-Universität München, Munich, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nash MA",
+            "lastName": "Nash",
+            "firstName": "Michael",
+            "initials": "MA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3842-1567"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physical Chemistry, Department of Chemistry, University of Basel, 4058 Basel, Switzerland"
+                },
+                {
+                  "affiliation": "Department of Biosystems Science and Engineering, ETH Zurich, 4058 Basel, Switzerland"
+                },
+                {
+                  "affiliation": "Botnar Research Centre for Child Health, 4051 Basel, Switzerland"
+                },
+                {
+                  "affiliation": "National Center for Competence in Research (NCCR) Molecular Systems Engineering, 4058 Basel, Switzerland"
+                },
+                {
+                  "affiliation": "Swiss Nanoscience Institute, 4056 Basel, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8214-8882"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3932-8236"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8724-5400"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0660-5193"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3842-1567"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4290-7770"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Catch bonds are a rare class of protein-protein interactions where the bond lifetime increases under an external pulling force. Here, we report how modification of anchor geometry generates catch bonding behavior for the mechanostable Dockerin G:Cohesin E (DocG:CohE) adhesion complex found on human gut bacteria. Using AFM single-molecule force spectroscopy in combination with bioorthogonal click chemistry, we mechanically dissociated the complex using five precisely controlled anchor geometries. When tension was applied through residue #13 on CohE and the N-terminus of DocG, the complex behaved as a two-state catch bond, while in all other tested pulling geometries, including the native configuration, it behaved as a slip bond. We used a kinetic Monte Carlo model with experimentally derived parameters to simulate rupture force and lifetime distributions, achieving strong agreement with experiments. Single-molecule FRET measurements further demonstrated that the complex does not exhibit dual binding mode behavior at equilibrium but unbinds along multiple pathways under force. Together, these results show how mechanical anisotropy and anchor point selection can be used to engineer artificial catch bonds.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "175478",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "200021",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "715207",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Unpaywall",
+            "url": "http://hdl.handle.net/20.500.11850/668723"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.12.557335"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR725443"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR725443&type=FILE&fileName=EMS188059-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38589360",
+            "reference": "Nature communications. 2024 Apr;15(1):3019",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS188059",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-09-17",
+      "firstPublicationDate": "2023-09-15",
+      "firstIndexDate": "2023-09-17",
+      "fullTextReceivedDate": "2023-12-01",
+      "hasEvaluations": "N"
+    }
+  }
+}

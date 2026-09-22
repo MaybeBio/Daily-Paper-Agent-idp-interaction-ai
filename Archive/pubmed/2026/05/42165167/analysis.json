@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42165167",
+  "title": "Peptide-Metal Cation Coacervate Microdroplets as Membrane-free Protocells with Enhanced Light-Induced Catalysis.",
+  "authors": "Wei, Chunyi; Xiao, Lei; Li, Junbo; Huang, Yan; Zhang, Ziyi; Zhou, Yuxuan; Li, Yifan; Ji, Wei; Sun, Lei; Huang, Xin",
+  "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+  "published_date": "2026-05-21",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过实验与理论模拟结合，探究多肽-锌离子凝聚体微滴的液-液相分离机制及光催化增强，虽对象涉及无序多肽与相分离，但互作对象为金属离子而非蛋白-蛋白互作，方法上模拟辅助但非AI/物理模拟主导，故归为中档。",
+  "abstract": "Membrane-free coacervates, typically formed through electrostatic interactions between oppositely charged polyelectrolytes, have been extensively utilized as artificial life-like systems in protocell research, providing valuable insights into the origin of life. However, considering that inorganic metal ions may have been more abundant under early Earth conditions, it is plausible that these metal ions played a significant role in prebiotic compartmentalization. In this study, we present a novel coacervate protocell formed via liquid-liquid phase separation (LLPS) of simple anionic polypeptides, induced by electrostatic and coordination interactions with inorganic metal cations, using divalent zinc ions as a specific example due to their prebiotic availability and biological relevance. The peptide-zinc ion coacervate microdroplet exhibits liquid-like properties, client partitioning, and enhanced catalysis comparable to those of typical polyelectrolyte coacervates. By integrating experimental results and theoretical simulations, we identify two kinetic pathways to phase separation mediated by the coordination mode at varying zinc ion concentrations, resulting in the formation of nonequilibrium gel-like condensates or droplets that further contribute to distinct light-induced catalytic efficiency. Overall, our work highlights that peptide-metal ion interaction-driven compartmentalization, as prebiotic microreactors, could have facilitated primitive biochemical reactions on early Earth, thus offering a plausible and diverse pathway for the emergence of protocells.",
+  "abstract_zh": "无膜凝聚体（membrane-free coacervates）通常通过带相反电荷的聚电解质之间的静电相互作用形成，已在原始细胞研究中被广泛用作人工类生命系统，为生命起源提供了宝贵见解。然而，考虑到早期地球条件下无机金属离子可能更为丰富，这些金属离子在生命前区室化中可能发挥了重要作用。在本研究中，我们提出了一种新型凝聚体原始细胞，通过简单阴离子多肽的液-液相分离（liquid-liquid phase separation, LLPS）形成，该过程由无机金属阳离子诱导的静电和配位相互作用驱动，并以二价锌离子为具体示例，因其具有生命前可用性和生物学相关性。肽-锌离子凝聚体微滴表现出液体样特性、客户分子分配以及增强的催化活性，与典型聚电解质凝聚体相当。通过整合实验结果和理论模拟，我们识别了在不同锌离子浓度下由配位模式介导的两种相分离动力学途径，导致形成非平衡凝胶状凝聚体或液滴，这些结构进一步贡献于不同的光诱导催化效率。总体而言，我们的工作强调，肽-金属离子相互作用驱动的区室化作为生命前微反应器，可能促进了早期地球上的原始生化反应，从而为原始细胞的出现提供了一条可行且多样的途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42165167/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42165167/",
+  "paper_page_path": "papers/pubmed/42165167/index.html"
+}

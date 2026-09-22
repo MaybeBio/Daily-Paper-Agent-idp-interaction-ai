@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.12.693818",
+  "title": "DeepDOX1: A Dual-Drive Framework Integrating Deep Learning and First-Principles Physics for Drug-Protein Affinity Prediction",
+  "authors": "Zheng Liu; Hao Sun; Yuliang Wang; Yanliang Ren; Li Rao; Zeyue Huang; Hongxuan Cao; Xiuqi Hu; Xinyue Zhu; Meng Li; Jian Wan",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-15",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出融合深度学习和量子力学特征的药物-蛋白亲和力预测工具DeepDOX1，对象为药物小分子与折叠蛋白，非无序蛋白/IDR/相分离，且仅预测亲和力而无互作机制建模，对无序蛋白PPI机制建模启发有限。",
+  "abstract": "In this work, we present DeepDOX1, a dual-drive drug-protein affinity (DPA) prediction tool features the tight integration of a concise AI architecture and a quantum mechanics based representation. The first-principle physics generated features incorporating the interactions between the drug and the protein pocket allows a relatively simple CNN model trained on a relatively small training set to exhibit exceptional generalization capabilities across extensive testing. Notably, DeepDOX1 outperforms popular AI models in the tests simulating real-world drug design scenario and a highly challenging test set featuring covalent ligands, halogenated ligands and metalloproteins. In addition, we designed a series of novel covalent inhibitors targeting the diabetes target hu -FBPase using DeepDOX1. Subsequent experimental validation including enzyme-level bioactivity assays and crystal structure determination confirmed the DeepDOX1’s effectiveness in real-world drug design applications. It is conceivable that the combination of AI and first-principle QM might be one of the next breakthrough points of DPA prediction.",
+  "abstract_zh": "在本工作中，我们提出了DeepDOX1，一种双驱动药物-蛋白质亲和力（DPA）预测工具，其特点是简洁的AI架构与基于量子力学的表示紧密集成。基于第一性原理物理生成的、包含药物与蛋白质口袋相互作用的特征，使得一个相对简单的CNN模型在相对较小的训练集上训练后，能够在广泛测试中展现出卓越的泛化能力。值得注意的是，在模拟真实药物设计场景的测试以及一个极具挑战性的测试集（包含共价配体、卤化配体和金属蛋白）中，DeepDOX1优于流行的AI模型。此外，我们利用DeepDOX1设计了一系列针对糖尿病靶点hu-FBPase的新型共价抑制剂。随后的实验验证，包括酶水平生物活性测定和晶体结构确定，证实了DeepDOX1在真实药物设计应用中的有效性。可以预见，AI与第一性原理量子力学的结合可能是DPA预测的下一个突破点之一。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.12.693818",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.12.693818",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.12.693818/index.html"
+}

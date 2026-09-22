@@ -1,0 +1,416 @@
+{
+  "identity": {
+    "pmid": "39999166",
+    "doi": "10.1073/pnas.2419915122",
+    "title": "Bipartite binding of the intrinsically disordered scaffold protein JIP1 to the kinase JNK1."
+  },
+  "content": {
+    "abstract": "Scaffold proteins are key players in many signaling pathways where they ensure spatial and temporal control of molecular interactions by simultaneous tethering of multiple signaling components. The protein JIP1 acts as a scaffold within the c-Jun N-terminal kinase (JNK) signaling pathway by assembling three kinases, MLK3, MKK7, and JNK, into a macromolecular complex that enables their specific activation. The recruitment of these kinases depends on the 450-amino acid intrinsically disordered tail of JIP1, however, the structural details of this tail and the molecular mechanisms by which it binds kinases have remained elusive. Here, we provide an atomic resolution structural description of the JIP1 tail, and we study its interaction with the kinase JNK1. Using NMR spectroscopy, we show that JNK1 not only engages with the well-known docking site motif (D-motif) of JIP1, but also interacts with a noncanonical F-motif. We determine the crystal structure of the JIP1-JNK1 complex at 2.35 A resolution revealing a bipartite binding mode of JIP1. Our work provides insights into the sequence determinants of F-motifs suggesting that these motifs may be more prevalent in JNK substrates than previously recognized. More broadly, our study highlights the power of NMR spectroscopy in uncovering kinase interaction motifs within disordered scaffold proteins, and it paves the way for atomic-resolution interaction studies of JIP1 with its multitude of interaction partners.",
+    "keywords": [
+      "JIP1",
+      "JNK",
+      "local effective concentration",
+      "mitogen-activated protein kinases",
+      "motif tethering"
+    ],
+    "mesh_terms": [
+      "*Mitogen-Activated Protein Kinase 8/metabolism/chemistry/genetics",
+      "*Adaptor Proteins, Signal Transducing/metabolism/chemistry/genetics",
+      "Humans",
+      "Protein Binding",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry",
+      "Crystallography, X-Ray",
+      "Models, Molecular",
+      "Magnetic Resonance Spectroscopy",
+      "Binding Sites",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Orand, Thibault",
+        "Delaforge, Elise",
+        "Lee, Alexandra",
+        "Kragelj, Jaka",
+        "Tengo, Maud",
+        "Tengo, Laura",
+        "Blackledge, Martin",
+        "Boeri Erba, Elisabetta",
+        "Davis, Roger J",
+        "Palencia, Andres",
+        "Jensen, Malene Ringkjobing"
+      ],
+      "short_names": [
+        "Orand T",
+        "Delaforge E",
+        "Lee A",
+        "Kragelj J",
+        "Tengo M",
+        "Tengo L",
+        "Blackledge M",
+        "Boeri Erba E",
+        "Davis RJ",
+        "Palencia A",
+        "Jensen MR"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8014-5100",
+        "ORCID: 0000-0001-6472-8429",
+        "ORCID: 0000-0002-5910-4707",
+        "ORCID: 0000-0002-0130-1652",
+        "ORCID: 0000-0003-0419-2196"
+      ],
+      "affiliations": [
+        "Universite Grenoble Alpes, Commissariat a l'Energie Atomique et aux Energies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France.",
+        "Universite Grenoble Alpes, Commissariat a l'Energie Atomique et aux Energies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France.",
+        "Program in Molecular Medicine, University of Massachusetts Medical School, Worcester, MA 01655.",
+        "Universite Grenoble Alpes, Commissariat a l'Energie Atomique et aux Energies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France.",
+        "Universite Grenoble Alpes, Commissariat a l'Energie Atomique et aux Energies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France.",
+        "Universite Grenoble Alpes, Commissariat a l'Energie Atomique et aux Energies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France.",
+        "Universite Grenoble Alpes, Commissariat a l'Energie Atomique et aux Energies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France.",
+        "Universite Grenoble Alpes, Commissariat a l'Energie Atomique et aux Energies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France.",
+        "Program in Molecular Medicine, University of Massachusetts Medical School, Worcester, MA 01655.",
+        "Institute for Advanced Biosciences, Structural Biology of Novel Targets in Human Diseases, INSERM U1209, CNRS UMR5309, Universite Grenoble Alpes, Grenoble 38000, France.",
+        "Universite Grenoble Alpes, Commissariat a l'Energie Atomique et aux Energies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Orand, Thibault",
+        "short_name": "Orand T",
+        "identifiers": [],
+        "affiliations": [
+          "Université Grenoble Alpes, Commissariat à l'Énergie Atomique et aux Énergies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France."
+        ]
+      },
+      {
+        "full_name": "Delaforge, Elise",
+        "short_name": "Delaforge E",
+        "identifiers": [
+          "0000-0001-8014-5100"
+        ],
+        "affiliations": [
+          "Université Grenoble Alpes, Commissariat à l'Énergie Atomique et aux Énergies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France."
+        ]
+      },
+      {
+        "full_name": "Lee, Alexandra",
+        "short_name": "Lee A",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, University of Massachusetts Medical School, Worcester, MA 01655."
+        ]
+      },
+      {
+        "full_name": "Kragelj, Jaka",
+        "short_name": "Kragelj J",
+        "identifiers": [
+          "0000-0001-6472-8429"
+        ],
+        "affiliations": [
+          "Université Grenoble Alpes, Commissariat à l'Énergie Atomique et aux Énergies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France."
+        ]
+      },
+      {
+        "full_name": "Tengo, Maud",
+        "short_name": "Tengo M",
+        "identifiers": [],
+        "affiliations": [
+          "Université Grenoble Alpes, Commissariat à l'Énergie Atomique et aux Énergies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France."
+        ]
+      },
+      {
+        "full_name": "Tengo, Laura",
+        "short_name": "Tengo L",
+        "identifiers": [],
+        "affiliations": [
+          "Université Grenoble Alpes, Commissariat à l'Énergie Atomique et aux Énergies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France."
+        ]
+      },
+      {
+        "full_name": "Blackledge, Martin",
+        "short_name": "Blackledge M",
+        "identifiers": [],
+        "affiliations": [
+          "Université Grenoble Alpes, Commissariat à l'Énergie Atomique et aux Énergies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France."
+        ]
+      },
+      {
+        "full_name": "Boeri Erba, Elisabetta",
+        "short_name": "Boeri Erba E",
+        "identifiers": [
+          "0000-0002-5910-4707"
+        ],
+        "affiliations": [
+          "Université Grenoble Alpes, Commissariat à l'Énergie Atomique et aux Énergies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France."
+        ]
+      },
+      {
+        "full_name": "Davis, Roger J",
+        "short_name": "Davis RJ",
+        "identifiers": [
+          "0000-0002-0130-1652"
+        ],
+        "affiliations": [
+          "Program in Molecular Medicine, University of Massachusetts Medical School, Worcester, MA 01655."
+        ]
+      },
+      {
+        "full_name": "Palencia, Andrés",
+        "short_name": "Palencia A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Advanced Biosciences, Structural Biology of Novel Targets in Human Diseases, INSERM U1209, CNRS UMR5309, Université Grenoble Alpes, Grenoble 38000, France."
+        ]
+      },
+      {
+        "full_name": "Jensen, Malene Ringkjøbing",
+        "short_name": "Jensen MR",
+        "identifiers": [
+          "0000-0003-0419-2196"
+        ],
+        "affiliations": [
+          "Université Grenoble Alpes, Commissariat à l'Énergie Atomique et aux Énergies Alternatives, CNRS, Institut de Biologie Structurale, Grenoble 38044, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Mar 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/25 18:24",
+    "fetched_at": "2026-09-21 16:07:33"
+  },
+  "links": {
+    "cites": [
+      "41365991",
+      "41020891",
+      "40583197"
+    ],
+    "refs": [
+      "39013462",
+      "39003270",
+      "35948766",
+      "35581583",
+      "35173330",
+      "34439869",
+      "33482987",
+      "33188182",
+      "32348724",
+      "31642121",
+      "30867294",
+      "29276882",
+      "28716922",
+      "28487147",
+      "27738173",
+      "27466283",
+      "27083547",
+      "26988444",
+      "26538579",
+      "26370088",
+      "26054059",
+      "25737554",
+      "24114984",
+      "23897889",
+      "23575685",
+      "23142346",
+      "23047924",
+      "21955038",
+      "21551057",
+      "21449613",
+      "20679483",
+      "19965465",
+      "19854939",
+      "19196711",
+      "18619997",
+      "18482985",
+      "18001083",
+      "17088319",
+      "17052210",
+      "17052208",
+      "16756506",
+      "16456539",
+      "16195223",
+      "16045329",
+      "15955779",
+      "15141161",
+      "15068802",
+      "14979710",
+      "12756254",
+      "12754209",
+      "12371879",
+      "12191611",
+      "12134156",
+      "11735389",
+      "11432832",
+      "11371562",
+      "11157753",
+      "11029469",
+      "10655591",
+      "10490659",
+      "9925641",
+      "9733513",
+      "9405336",
+      "9235893",
+      "9230432",
+      "8062390",
+      "7851759"
+    ],
+    "similar": [
+      "39999166",
+      "15141161",
+      "39013462",
+      "21261310",
+      "18486448",
+      "25737554",
+      "15998799",
+      "24816971",
+      "20534829",
+      "23770673",
+      "20508646",
+      "16840345",
+      "16195223",
+      "30026235",
+      "18286207",
+      "21237154",
+      "29540552",
+      "19243309",
+      "15271995",
+      "17348686",
+      "30412737",
+      "20679483",
+      "16179393",
+      "11562351",
+      "12756254",
+      "16533805",
+      "35325330",
+      "26988444",
+      "10490659",
+      "15836924",
+      "12194869",
+      "10523642",
+      "12788955",
+      "24257757",
+      "28930674",
+      "33378183",
+      "26022769",
+      "17242197",
+      "21749326",
+      "23142346",
+      "18261906",
+      "24253317",
+      "21076496",
+      "33852892",
+      "30211540",
+      "15767678",
+      "15314024",
+      "33028677",
+      "12783873",
+      "34439869",
+      "25301550",
+      "22351776",
+      "27083547",
+      "17669625",
+      "11062067",
+      "23047924",
+      "21162712",
+      "19196711",
+      "28886967",
+      "26906522",
+      "33789090",
+      "27891669",
+      "21563797",
+      "12893827",
+      "14699111",
+      "23159405",
+      "14515362",
+      "23142567",
+      "24001752",
+      "28089448",
+      "18266909",
+      "25712695",
+      "34320339",
+      "17709393",
+      "20156194",
+      "27711255",
+      "17658258",
+      "27889209",
+      "11432831",
+      "35012986",
+      "29126898",
+      "21090814",
+      "34655613",
+      "33583053",
+      "21660049",
+      "9430657",
+      "23496950",
+      "27844185",
+      "29225075",
+      "19491104",
+      "28106280",
+      "23668907",
+      "19564410",
+      "26195786",
+      "32708183",
+      "22543239",
+      "23410953",
+      "35013194",
+      "10713157",
+      "18922779"
+    ],
+    "review": [
+      "39999166",
+      "32708183"
+    ],
+    "pmc": [
+      "11892650"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2419915122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39999166/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-807",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose DisoPatho, a deep learning framework for predicting disease-associated variants in intrinsically disordered regions (IDRs). The framework uses a mutation-centric architecture with a cross-view adaptive-feature interaction mechanism that combines IDR-specific energy representations with protein language model embeddings (xTrimoPGLM and Evolutionary Scale Modeling). The authors report superior performance over existing methods, including a 50.2% relative improvement in MCC over AlphaMissense on a confounded independent test set, and provide code, data, and predictions.
+- **Visible evidence base** Abstract text only; no figures, tables, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset descriptions, hyperparameter settings, baseline implementation details, statistical significance tests, and code verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the field of variant effect prediction, specifically addressing the underexplored challenge of IDR variants. The proposed architecture is conceptually interesting, particularly the integration of energy-based features with protein language model embeddings. However, the evidence provided in the abstract is insufficient to fully evaluate the technical soundness and generalizability of the claims. Several key details regarding data construction, baseline comparisons, and statistical rigor are missing. The reported performance improvements are notable but require careful scrutiny given the potential for dataset-specific biases.
+- **Who would be interested in the results, and why** Researchers in computational genomics, variant effect prediction, and protein bioinformatics would find this work relevant. Clinicians and geneticists working on disease variant interpretation, particularly those dealing with variants in disordered regions, would also benefit from improved prediction tools. The methodological approach of combining energy-based features with language models may interest machine learning researchers applying deep learning to biological sequence problems.
+- **Major strengths** The work addresses a clear and important gap in variant effect prediction, as IDRs are often poorly handled by existing tools. The mutation-centric architecture is a sensible design choice that directly targets the prediction task. The integration of IDR-specific energy representations with protein language model embeddings is a novel combination that could capture complementary information. The reported performance gains, particularly the relative improvement over AlphaMissense, suggest practical utility.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The abstract claims that DisoPatho "substantially outperforms existing methods" based on 5-fold cross-validation AUCs of 0.899 and 0.840, and ACCs of 0.862 and 0.860 on two datasets.  
+    - **Evidence pointer** Abstract, performance metrics section; location not provided  
+    - **Concern** The abstract does not specify which existing methods were compared, how baselines were configured, or whether the same training and test splits were used across all methods. Without this information, the reported performance advantage cannot be independently assessed.  
+    - **Why it matters** Fair and consistent benchmarking is essential for establishing that the proposed method genuinely outperforms existing tools. Inconsistent baselines or data splits could inflate reported performance.  
+    - **Resolution test** Provide a detailed comparison table with all baseline methods, their versions, hyperparameters, and the exact data splits used. Report statistical significance tests (e.g., DeLong test for AUC differences) across multiple random seeds.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Data and reproducibility  
+    - **Claim pointer** The abstract states that DisoPatho achieves a 50.2% relative improvement in MCC over AlphaMissense on a "highly confounded independent test set" with "broader prediction coverage."  
+    - **Evidence pointer** Abstract, independent test set description; location not provided  
+    - **Concern** The nature of the "confounding" is not described, and the criteria for "predictable variants" for each method are not defined. If AlphaMissense has a more stringent prediction threshold, the comparison may be biased. The abstract does not clarify how the test set was constructed or whether it is publicly available.  
+    - **Why it matters** The headline improvement over AlphaMissense is the most striking claim in the abstract. Without clarity on the test set composition and the definition of "predictable variants," the claim could be misleading or non-reproducible.  
+    - **Resolution test** Describe the confounding factors in detail, define the prediction coverage criteria for each method, and make the independent test set publicly available with clear documentation.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The abstract claims that the cross-view adaptive-feature interaction mechanism "synergistically integrates IDR-specific energy representations with embeddings from protein language models."  
+    - **Evidence pointer** Abstract, method description; location not provided  
+    - **Concern** The abstract does not explain how the energy representations are computed, what specific energy terms are used, or how the adaptive interaction mechanism operates. The term "cross-view" is not defined. Without these details, the novelty and technical validity of the core innovation cannot be evaluated.  
+    - **Why it matters** The proposed mechanism is the central contribution of the work. If the implementation is not clearly described, readers cannot assess whether the approach is genuinely novel or whether it could be replicated.  
+    - **Resolution test** Provide a detailed description of the energy feature computation, the architecture of the interaction mechanism, and a schematic diagram. Include ablation studies to demonstrate the contribution of each feature type.  
+  - **R1-M4**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Generalizability  
+    - **Claim pointer** The abstract states that "comprehensive evaluations across multiple IDR datasets" demonstrate substantial performance improvements.  
+    - **Evidence pointer** Abstract, evaluation section; location not provided  
+    - **Concern** Only two datasets are mentioned for cross-validation, and the number and diversity of additional datasets are not specified. It is unclear whether the datasets represent different types of IDRs, different disease contexts, or different species.  
+    - **Why it matters** Variant effect predictors often perform well on training distributions but fail on diverse or unseen data. The generalizability claim requires evidence across heterogeneous datasets.  
+    - **Resolution test** List all datasets used, their sizes, sources, and characteristics. Report performance metrics separately for each dataset and discuss any performance variability.
+
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract, method description  
+    - **Evidence pointer** Abstract, "cross-view adaptive-feature interaction mechanism"  
+    - **Issue** The term "cross-view" is ambiguous and not defined in the abstract.  
+    - **Required correction** Define what constitutes a "view" in this context and how the interaction mechanism operates across views.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Reproducibility  
+    - **Affected element** Abstract, code availability statement  
+    - **Evidence pointer** Abstract, GitHub link  
+    - **Issue** The abstract states that code and data are available, but there is no mention of a license, version, or documentation.  
+    - **Required correction** Specify the software license, provide a versioned release, and include usage documentation.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Statistical rigor  
+    - **Affected element** Abstract, performance metrics  
+    - **Evidence pointer** Abstract, "average AUCs of 0.899 and 0.840"  
+    - **Issue** The abstract reports average metrics but does not include standard deviations or confidence intervals.  
+    - **Required correction** Report standard deviations or confidence intervals for all metrics across cross-validation folds.  
+  - **R1-m4**  
+    - **Severity** Minor  
+    - **Axis** Comparison fairness  
+    - **Affected element** Abstract, AlphaMissense comparison  
+    - **Evidence pointer** Abstract, "50.2% relative improvement in MCC"  
+    - **Issue** The abstract does not specify whether AlphaMissense was run with its default settings or whether any post-processing was applied.  
+    - **Required correction** Describe the exact AlphaMissense configuration used and any filtering steps applied to its predictions.
+
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of energy-based features with protein language model embeddings for IDR variant prediction appears novel, though the abstract does not provide enough detail to fully assess the degree of innovation relative to existing methods.  
+  - **Scientific importance** The problem of predicting disease-associated variants in IDRs is clinically relevant and technically challenging. A robust solution would have significant practical value.  
+  - **Interdisciplinary readership** The work bridges computational biology, machine learning, and clinical genetics, making it potentially interesting to a broad audience. However, the abstract assumes familiarity with both IDR biology and deep learning terminology.  
+  - **Technical soundness** The reported performance is promising, but the lack of methodological detail and baseline comparison information prevents a full assessment of technical validity.  
+  - **Readability for nonspecialists** The abstract is reasonably accessible but uses several technical terms without definition, which may limit comprehension for readers outside the immediate field.
+
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the reported results are encouraging, but the current abstract-level evidence is insufficient to establish the claims. A full manuscript with detailed methods, comprehensive benchmarking, and statistical rigor would be needed to support publication in a high-impact venue.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39458755",
+  "title": "Kinetics of Polyampholyte Dimerization: Influence of Charge Sequences.",
+  "authors": "Kim, Seowon; Lee, Nam-Kyung; Jung, Youngkyun; Johner, Albert",
+  "journal": "Polymers",
+  "published_date": "2024-10-26",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过分子动力学模拟研究聚两性电解质（无序蛋白模型）二聚化动力学，揭示电荷序列对二聚体形成/解离速率及结构多样性的影响，直接关联IDP介导的PPI机制建模，方法为物理模拟，对象与互作机制均高度契合。",
+  "abstract": "Polyampholytes (PAs) exhibit complex behaviors in various environments influenced by their charge distribution. This study focuses on the kinetics of dimerization of PAs, aiming to elucidate the underlying mechanisms and clarify relevant characteristics of the charge sequence. We focus on PAs with non-zero net charges, employing molecular dynamics simulations and theoretical analyses to examine how charge sequences influence the rates of dimer formation and dissociation. Our findings reveal that the charge sequence of tails and the blockiness of the minority charge group markedly influence the kinetics of dimerization: large blockiness and tails with a high number of majority-type charges slow down the dissociation of dimers. Additionally, the presence of an extended (central) block of the majority charge promotes structural diversity. Within dimer states, blocks alternate between intra- and inter-chain contacts. The duration times in the dimer states are significantly longer than the typical dwell times of block inter-contacts, with a notable extension when multiple blocks are engaged. Intrinsically disordered proteins (IDPs) play crucial roles in cellular functions, primarily due to their ability to undergo rapid conformational changes and form transient complexes. These properties largely depend on the sequence of charged residues. We provide insights into the fundamental principles governing the structural and dynamical properties of polyampholytic IDP, emphasizing the importance of sequence-specific effects on both aggregation and dissociation.",
+  "abstract_zh": "聚两性电解质（PAs）在不同环境中表现出复杂行为，受其电荷分布影响。本研究聚焦于PAs二聚化的动力学，旨在阐明其潜在机制并澄清电荷序列的相关特征。我们关注具有非零净电荷的PAs，采用分子动力学（molecular dynamics）模拟和理论分析，考察电荷序列如何影响二聚体形成和解离的速率。我们的发现表明，尾部电荷序列和少数电荷基团的嵌段性显著影响二聚化动力学：大嵌段性和具有多数类型电荷高数量的尾部会减缓二聚体的解离。此外，多数电荷的延伸（中心）嵌段的存在促进了结构多样性。在二聚体状态下，嵌段在链内和链间接触之间交替。二聚体状态的持续时间显著长于嵌段间接触的典型驻留时间，当多个嵌段参与时，这一时间显著延长。 intrinsically disordered proteins (IDPs) 在细胞功能中扮演关键角色，主要归因于其快速构象变化和形成瞬态复合物的能力。这些性质在很大程度上依赖于带电残基的序列。我们提供了关于聚两性电解质IDP结构和动力学性质基本规律的见解，强调了序列特异性效应对聚集和解离的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39458755/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39458755/",
+  "paper_page_path": "papers/pubmed/39458755/index.html"
+}

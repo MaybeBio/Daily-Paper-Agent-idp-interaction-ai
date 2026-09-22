@@ -1,0 +1,190 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.29.630664",
+  "title": "Fertilization triggers cytosolic functions and P-body recruitment of the RNA-binding protein Mei2 to drive fission yeast zygotic development",
+  "doi": "10.1101/2024.12.29.630664",
+  "abstract": "<h4>ABSTRACT</h4> Compartmentalized regulation of RNAs is emerging as a key driver of developmental transitions, with RNA-binding proteins performing specialized functions in different subcellular compartments. The RNA-binding protein Mei2, which arrests mitotic proliferation and drives zygotic development in fission yeast, was shown to function in the nucleus to trigger meiotic divisions. Here, using compartment-restricted alleles, we report that Mei2 functions in the cytosol to arrest mitotic growth and initiate development. We find that Mei2 is a zygote-specific component of P-bodies that inhibits the translation of tethered mRNAs. Importantly, we show that P-bodies are necessary for Mei2-driven development. Phosphorylation of Mei2 by the inhibitory Pat1 kinase impedes P-body recruitment of both Mei2 and its target RNA. Finally, we establish that Mei2 recruitment to P-bodies and its cytosolic functions, including translational repression of tethered RNAs, depend on the RNA-binding domain of Mei2 that is dispensable for nuclear Mei2 roles. Collectively, our results dissect how distinct pools of an RNA-binding protein control developmental stages and implicate P-bodies as key regulators of gamete-to-zygote transition.",
+  "authors": [
+    "Araoyinbo A",
+    "Salat-Canela C",
+    "Vještica A"
+  ],
+  "published_date": "2024-12-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.29.630664",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.29.630664.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR960502",
+    "raw_record": {
+      "id": "PPR960502",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR960502"
+        ]
+      },
+      "doi": "10.1101/2024.12.29.630664",
+      "title": "Fertilization triggers cytosolic functions and P-body recruitment of the RNA-binding protein Mei2 to drive fission yeast zygotic development",
+      "authorString": "Araoyinbo A, Salat-Canela C, Vještica A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Araoyinbo A",
+            "lastName": "Araoyinbo",
+            "firstName": "Ayokunle",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0003-6433-1095"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Integrative Genomics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Salat-Canela C",
+            "lastName": "Salat-Canela",
+            "firstName": "Clàudia",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Integrative Genomics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vještica A",
+            "lastName": "Vještica",
+            "firstName": "Aleksandar",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Integrative Genomics, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3095-4169"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-6433-1095"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Compartmentalized regulation of RNAs is emerging as a key driver of developmental transitions, with RNA-binding proteins performing specialized functions in different subcellular compartments. The RNA-binding protein Mei2, which arrests mitotic proliferation and drives zygotic development in fission yeast, was shown to function in the nucleus to trigger meiotic divisions. Here, using compartment-restricted alleles, we report that Mei2 functions in the cytosol to arrest mitotic growth and initiate development. We find that Mei2 is a zygote-specific component of P-bodies that inhibits the translation of tethered mRNAs. Importantly, we show that P-bodies are necessary for Mei2-driven development. Phosphorylation of Mei2 by the inhibitory Pat1 kinase impedes P-body recruitment of both Mei2 and its target RNA. Finally, we establish that Mei2 recruitment to P-bodies and its cytosolic functions, including translational repression of tethered RNAs, depend on the RNA-binding domain of Mei2 that is dispensable for nuclear Mei2 roles. Collectively, our results dissect how distinct pools of an RNA-binding protein control developmental stages and implicate P-bodies as key regulators of gamete-to-zygote transition.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "949914",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "187004",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.29.630664"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.29.630664"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR960502"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR960502&type=FILE&fileName=EMS202418-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS202418",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-12-30",
+      "firstPublicationDate": "2024-12-29",
+      "firstIndexDate": "2024-12-30",
+      "fullTextReceivedDate": "2025-01-28",
+      "hasEvaluations": "Y"
+    }
+  }
+}

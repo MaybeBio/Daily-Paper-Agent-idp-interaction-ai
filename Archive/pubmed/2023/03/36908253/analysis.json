@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36908253",
+  "title": "Prediction of protein-protein interactions using sequences of intrinsically disordered regions.",
+  "authors": "Kibar, Gozde; Vingron, Martin",
+  "journal": "Proteins",
+  "published_date": "2023-03-14",
+  "window": {
+    "start": "2023-03-13",
+    "end": "2023-03-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出利用无序区域(IDR)序列预测蛋白-蛋白互作(PPI)的新方法，直接以IDR为对象、聚焦PPI预测，并采用机器学习方法，虽未深入机制建模，但高度契合本课题方向。",
+  "abstract": "Protein-protein interactions (PPIs) play a crucial role in numerous molecular processes. Despite many efforts, mechanisms governing molecular recognition between interacting proteins remain poorly understood and it is particularly challenging to predict from sequence whether two proteins can interact. Here we present a new method to tackle this challenge using intrinsically disordered regions (IDRs). IDRs are protein segments that are functional despite lacking a single invariant three-dimensional structure. The prevalence of IDRs in eukaryotic proteins suggests that IDRs are critical for interactions. To test this hypothesis, we predicted PPIs using IDR sequences in candidate proteins in humans. Moreover, we divide the PPI prediction problem into two specific subproblems and adapt appropriate training and test strategies based on problem type. Our findings underline the importance of defining clearly the problem type and show that sequences encoding IDRs can aid in predicting specific features of the protein interaction network of intrinsically disordered proteins. Our findings further suggest that accounting for IDRs in future analyses should accelerate efforts to elucidate the eukaryotic PPI network.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）在众多分子过程中扮演着关键角色。尽管已付出诸多努力，但调控相互作用蛋白间分子识别的机制仍知之甚少，且从序列预测两种蛋白是否能相互作用尤为困难。在此，我们提出一种新方法，利用固有无序区域（IDRs）来应对这一挑战。IDRs是蛋白质片段，尽管缺乏单一不变的三维结构，却仍具有功能。IDRs在真核生物蛋白质中的普遍存在表明，IDRs对相互作用至关重要。为验证这一假设，我们利用人类候选蛋白中的IDR序列预测PPIs。此外，我们将PPI预测问题划分为两个具体子问题，并根据问题类型调整相应的训练和测试策略。我们的发现强调了明确定义问题类型的重要性，并表明编码IDRs的序列有助于预测固有无序蛋白质的蛋白质相互作用网络的特定特征。我们的发现进一步提示，在未来的分析中考虑IDRs应能加速阐明真核生物PPI网络的努力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36908253/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36908253/",
+  "paper_page_path": "papers/pubmed/36908253/index.html"
+}

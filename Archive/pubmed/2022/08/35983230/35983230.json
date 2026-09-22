@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "35983230",
+    "doi": "10.1016/j.csbj.2022.07.040",
+    "title": "Virus-host interaction analysis in colorectal cancer identifies core virus network signature and small molecules."
+  },
+  "content": {
+    "abstract": "Colorectal cancer (CRC) is a significant contributor to cancer-related deaths caused by an unhealthy lifestyle. Multiple studies reveal that viruses are involved in colorectal tumorigenesis. The viruses such as Human Cytomegalovirus (HCMV), Human papillomaviruses (HPV16 & HPV18), and John Cunningham virus (JCV) are known to cause colorectal cancer. The molecular mechanisms of cancer genesis and maintenance shared by these viruses remain unclear. We analysed the virus-host networks and connected them with colorectal cancer proteome datasets and extracted the core shared interactions in the virus-host CRC network. Our network topology analysis identified prominent virus proteins RL6 (HCMV), VE6 (HPV16 and HPV18), and Large T antigen (JCV). Sequence analysis uncovered short linear motifs (SLiMs) in each viral target. We used these targets to identify the antiviral drugs through a structure-based virtual screening approach. This analysis highlighted that temsavir, pimodivir, famotine, and bictegravir bind to each virus protein target, respectively. We also assessed the effect of drug binding using molecular dynamic simulations, which shed light on the modulatory effect of drug molecules on SLiM regions in viral targets. Hence, our systematic screening of virus-host networks revealed viral targets, which could be crucial for cancer therapy.",
+    "keywords": [
+      "CRC, Colorectal cancer",
+      "Colorectal cancer",
+      "DEPs, Differentially expressed proteins",
+      "Docking",
+      "ELM, Eukaryotic Linear Motif Resource",
+      "HCMV, Human Cytomegalovirus",
+      "HPV16 and 18, Human papillomavirus",
+      "IDR, Intrinsically disordered region",
+      "JCV, John Cunningham virus",
+      "MM-PBSA, molecular mechanics - Poisson Boltzmann surface area",
+      "Molecular dynamics",
+      "NC, Network centralization",
+      "NH, Network heterogeneity",
+      "PME, Particle-Mesh Ewald",
+      "RMSD, Root-Mean-Square Deviation",
+      "RMSF, Root-Mean-Square Fluctuation",
+      "SASA, Solvent Accessible Surface Area",
+      "SLiMs, Short linear motifs",
+      "Small molecules",
+      "Virus-host interactions",
+      "hbonds, Hydrogen bonds"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "A V S, Sai Krishna",
+        "Sinha, Swati",
+        "Donakonda, Sainitin"
+      ],
+      "short_names": [
+        "A V S SK",
+        "Sinha S",
+        "Donakonda S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, Faculty of Life and Allied Health Sciences, MS Ramaiah University of Applied Sciences, Bengaluru, India.",
+        "Department of Biotechnology, Faculty of Life and Allied Health Sciences, MS Ramaiah University of Applied Sciences, Bengaluru, India.",
+        "Institute of Molecular Immunology and Experimental Oncology, Klinikum Rechts Der Isar, Technical University of Munich, Munich, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "A V S, Sai Krishna",
+        "short_name": "A V S SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Life and Allied Health Sciences, MS Ramaiah University of Applied Sciences, Bengaluru, India."
+        ]
+      },
+      {
+        "full_name": "Sinha, Swati",
+        "short_name": "Sinha S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Faculty of Life and Allied Health Sciences, MS Ramaiah University of Applied Sciences, Bengaluru, India."
+        ]
+      },
+      {
+        "full_name": "Donakonda, Sainitin",
+        "short_name": "Donakonda S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Immunology and Experimental Oncology, Klinikum Rechts Der Isar, Technical University of Munich, Munich, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/20 06:00",
+    "fetched_at": "2026-09-20 12:42:00"
+  },
+  "links": {
+    "cites": [
+      "39962326",
+      "39123209",
+      "39050539",
+      "39010066",
+      "38961938",
+      "38140516",
+      "36496998"
+    ],
+    "refs": [
+      "35265070",
+      "35105802",
+      "35002699",
+      "34949788",
+      "34871295",
+      "34476239",
+      "34199813",
+      "34066522",
+      "33686850",
+      "33538338",
+      "33515030",
+      "33505471",
+      "33241285",
+      "33211854",
+      "32857966",
+      "32422974",
+      "32413327",
+      "32353950",
+      "32025001",
+      "31981667",
+      "31896580",
+      "31889941",
+      "31873071",
+      "31788077",
+      "31783512",
+      "31766929",
+      "31713636",
+      "31680160",
+      "31427097",
+      "31247246",
+      "30944313",
+      "30816053",
+      "30517074",
+      "30249048",
+      "30187207",
+      "29964049",
+      "29747682",
+      "29436691",
+      "29271653",
+      "29142905",
+      "29048611",
+      "28825711",
+      "27899562",
+      "27732934",
+      "27645238",
+      "27542402",
+      "27186411",
+      "26214628",
+      "25956651",
+      "25812764",
+      "25618350",
+      "25475989",
+      "25186851",
+      "24981612",
+      "24850022",
+      "24823319",
+      "24629334",
+      "24062739",
+      "24045364",
+      "24038649",
+      "23895733",
+      "23024700",
+      "22606241",
+      "22595308",
+      "22422314",
+      "22345456",
+      "21982300",
+      "21541964",
+      "21146412",
+      "20057044",
+      "19997600",
+      "19903823",
+      "19810144",
+      "19223548",
+      "17517781",
+      "15576934",
+      "14623981",
+      "14597658",
+      "12634390",
+      "12621137",
+      "12443594",
+      "10377441",
+      "5309492"
+    ],
+    "similar": [
+      "35983230",
+      "34960638",
+      "29468945",
+      "35404090",
+      "36496998",
+      "37100772",
+      "29447108",
+      "36504386",
+      "35403083",
+      "30686127",
+      "35126884",
+      "29334340",
+      "35631103",
+      "34235481",
+      "28002650",
+      "22715401",
+      "34514694",
+      "32696353",
+      "25417202",
+      "36468648",
+      "24048785",
+      "33743701",
+      "33947766",
+      "21879107",
+      "24009184",
+      "33954055",
+      "29279008",
+      "25424537",
+      "29132266",
+      "28241186",
+      "29946045",
+      "28255604",
+      "23030805",
+      "29125030",
+      "24339775",
+      "32188731",
+      "24361963",
+      "30688165",
+      "27076751",
+      "28893136",
+      "25905427",
+      "30563907",
+      "28279163",
+      "32696352",
+      "21909575",
+      "28654726",
+      "25128403",
+      "26474568",
+      "31636628",
+      "17400331",
+      "34730396",
+      "31783512",
+      "29633905",
+      "34770946",
+      "30243108",
+      "28063347",
+      "26387106",
+      "28746988",
+      "35955954",
+      "22704265",
+      "33450550",
+      "26289637",
+      "33799898",
+      "18505087",
+      "24991570",
+      "29182053",
+      "33670773",
+      "26579414",
+      "30814291",
+      "34065234",
+      "28202760",
+      "30487283",
+      "29370437",
+      "30279342",
+      "24385903",
+      "29454151",
+      "30984872",
+      "26674271",
+      "31536833",
+      "32903699",
+      "29064326",
+      "37099901",
+      "38054205",
+      "38117335"
+    ],
+    "review": [
+      "35983230",
+      "34960638",
+      "36496998",
+      "34514694",
+      "36468648",
+      "26387106",
+      "37099901"
+    ],
+    "pmc": [
+      "9356043"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(22)00320-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35983230/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35983230",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FHL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

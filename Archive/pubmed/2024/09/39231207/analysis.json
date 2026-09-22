@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39231207",
+  "title": "Time-resolved NMR detection of prolyl-hydroxylation in intrinsically disordered region of HIF-1alpha.",
+  "authors": "He, Wenguang; Gasmi-Seabrook, Genevieve M C; Ikura, Mitsuhiko; Lee, Jeffrey E; Ohh, Michael",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2024-09-04",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用时间分辨NMR研究HIF-1α无序区域内脯氨酸羟化修饰的动力学差异，对象为IDR但聚焦PTM而非PPI机制，且方法为实验NMR而非AI/物理模拟，与本课题关联较弱。",
+  "abstract": "Prolyl-hydroxylation is an oxygen-dependent posttranslational modification (PTM) that is known to regulate fibril formation of collagenous proteins and modulate cellular expression of hypoxia-inducible factor (HIF) alpha subunits. However, our understanding of this important but relatively rare PTM has remained incomplete due to the lack of biophysical methodologies that can directly measure multiple prolyl-hydroxylation events within intrinsically disordered proteins. Here, we describe a real-time (13)C-direct detection NMR-based assay for studying the hydroxylation of two evolutionarily conserved prolines (P402 and P564) simultaneously in the intrinsically disordered oxygen-dependent degradation domain of hypoxic-inducible factor 1alpha by exploiting the \"proton-less\" nature of prolines. We show unambiguously that P564 is rapidly hydroxylated in a time-resolved manner while P402 hydroxylation lags significantly behind that of P564. The differential hydroxylation rate was negligibly influenced by the binding affinity to prolyl-hydroxylase enzyme, but rather by the surrounding amino acid composition, particularly the conserved tyrosine residue at the +1 position to P564. These findings support the unanticipated notion that the evolutionarily conserved P402 seemingly has a minimal impact in normal oxygen-sensing pathway.",
+  "abstract_zh": "脯氨酰羟化是一种依赖氧的翻译后修饰（posttranslational modification, PTM），已知可调控胶原蛋白的纤维形成，并调节缺氧诱导因子（hypoxia-inducible factor, HIF）α亚基的细胞表达。然而，由于缺乏能够直接测量固有无序蛋白中多个脯氨酰羟化事件的生物物理方法，我们对这一重要但相对罕见的PTM的理解仍不完整。在此，我们描述了一种基于实时(13)C直接检测NMR的测定方法，利用脯氨酸的“无质子”特性，同时研究缺氧诱导因子1α的固有无序氧依赖性降解域中两个进化保守脯氨酸（P402和P564）的羟化。我们明确证明，P564以时间分辨方式快速羟化，而P402的羟化显著滞后于P564。差异羟化速率受脯氨酰羟化酶结合亲和力的影响可忽略不计，而主要受周围氨基酸组成的影响，特别是P564 +1位置的保守酪氨酸残基。这些发现支持了一个出乎意料的观点，即进化保守的P402在正常氧感应通路中似乎影响极小。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39231207/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39231207/",
+  "paper_page_path": "papers/pubmed/39231207/index.html"
+}

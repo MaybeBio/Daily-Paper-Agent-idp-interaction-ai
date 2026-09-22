@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the supplied text; no supplementary figures or tables were available for direct inspection
+- **Shared manuscript claim summary** The authors propose that tubulin C-terminal tails (CTTs) act as pH sensors via protonation of glutamate-rich clusters, with elevated pKa values driven by electrostatic repulsion and hydrogen bonding, and that this pH response modulates microtubule interactions such as kinesin-5/Cin8 binding
+- **Visible evidence base** NMR pH titrations, CD spectroscopy, constant pH molecular dynamics simulations, and in vitro reconstitution with TIRF microscopy as described in the text; specific numerical data, spectra, and statistical analyses are referenced but not fully visible in the provided material
+- **Missing materials affecting confidence** Supplementary figures (S1–S17), tables (S1), detailed simulation parameters, raw NMR chemical shift data, CD deconvolution outputs, and full microscopy quantification datasets; these are essential for verifying quantitative claims
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and potentially important question: whether glutamate-rich disordered regions, specifically tubulin CTTs, can function as physiological pH sensors. The combination of experimental and computational approaches is appropriate and the authors present a coherent model. However, the strength of the central claims depends heavily on quantitative details that are not fully visible in the provided text. The pH-dependent modulation of Cin8 binding is the most direct functional evidence, but the magnitude and physiological relevance of the effect require closer scrutiny. The claim that CTTs are "pH sensors" is intriguing but the evidence for a regulatory role in cells remains indirect. The manuscript would benefit from clearer presentation of effect sizes, controls, and the relationship between in vitro observations and cellular pH ranges.
+- **Who would be interested in the results, and why** Cell biologists studying pH homeostasis and its effects on cytoskeletal function; biophysicists interested in disordered proteins and protonation dynamics; researchers working on microtubule-associated proteins and kinesin motors; those studying post-translational modification-like mechanisms in intrinsically disordered regions. The proposed general principle of glutamate cluster pH sensing could have broad relevance beyond tubulin.
+- **Major strengths** The study combines multiple orthogonal techniques (NMR, CD, MD simulations, and functional reconstitution) to address a focused hypothesis. The evolutionary sampling of CTTs across species strengthens the claim of conservation. The identification of two distinct molecular mechanisms (electrostatic repulsion and hydrogen bonding) provides mechanistic depth. The functional test with Cin8 binding directly links protonation to a biological interaction. The discussion of potential interplay with enzymatic PTMs is thoughtful and forward-looking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** "We find that glutamate residues in CTTs taken from organisms across eukaryotes exhibit a robust upshift in their pKa values"
+  - **Evidence pointer** Results section "TUBA1ACTT shows an anomalously high pHm and strong pH response"; Figure 1; Table S1
+  - **Concern** The claim of a "robust upshift" in pKa values is central to the entire manuscript, yet the specific pKa values, their uncertainties, and the statistical comparison to model compound values are not presented in the visible text. The pHm of 4.8 ± 0.1 for TUBA1ACTT is mentioned, but the range across all species tested, the number of replicates, and the error analysis are not provided. Without these quantitative details, the reader cannot assess whether the upshift is indeed significant and consistent.
+  - **Why it matters** The entire premise of CTTs as pH sensors rests on the magnitude and reliability of the pKa shift. A shift of 0.5–0.6 pH units may be functionally relevant, but this needs to be demonstrated with proper statistics and across all tested CTTs. If the upshift is within experimental error for some species, the claim of conservation is weakened.
+  - **Resolution test** Provide a table or figure with pKa values (or pHm values) for all CTTs tested, including standard deviations, number of independent measurements, and statistical comparison to control peptides or model compound values. Show that the upshift is consistent and significant across species.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** "We find that Cin8 binding is modulated by pH in a CTT-dependent manner"
+  - **Evidence pointer** Results section "CTT-tail dependent pH regulation of Cin8 binding"; Figure 4
+  - **Concern** The functional data show a pH-dependent increase in Cin8 binding, but the magnitude of the effect and its relationship to the proposed mechanism are not fully quantified in the text. The authors report "an approximate 30% increase in eGFP-tubulin signal from pH 6 to pH 7 but a 60% increase in Cin8-3eGFP signal across the same range." This comparison is used to rule out a fluorescence artifact, but the absolute binding affinities, the dynamic range of the assay, and whether the pH effect is saturable are not described. Moreover, the claim that this effect is "CTT-dependent" rests on the comparison with CTT-lacking microtubules, but the quantitative difference between wild-type and mutant conditions across the pH range is not fully presented.
+  - **Why it matters** The functional relevance of CTT protonation depends on whether the pH-dependent change in Cin8 binding is large enough to be biologically meaningful within the physiological pH range of yeast (5.6–6.9). If the effect is modest or only occurs at pH extremes, the physiological significance is questionable. The CTT-dependence claim needs to be supported by clear quantitative comparison.
+  - **Resolution test** Present binding curves or quantified binding data (e.g., cluster density, intensity) as a function of pH for both wild-type and CTT-lacking microtubules, with error bars and statistical tests. Show the magnitude of the pH effect and demonstrate that it is absent or significantly reduced without the CTT.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** "Hydrogen bonding between side chains stabilizes interactions that alter the conformation of the CTT"
+  - **Evidence pointer** Results section "Charge clustering and hydrogen bonding stabilize protonated state and shift conformational ensembles in simulations"; Figures 2D–E, S4–S7
+  - **Concern** The MD simulations are used to propose a specific mechanism involving hydrogen bonding between protonated glutamate side chains and other residues, leading to conformational changes. However, the text does not provide sufficient detail on how hydrogen bonding was identified in the simulations, what fraction of protonation events involve hydrogen bonding, or how the conformational changes were quantified. The claim that hydrogen bonding "stabilizes" the protonated state is inferred from simulation data, but the lifetime analysis and free energy calculations are not described in the visible text.
+  - **Why it matters** The proposed mechanism is a key novelty of the manuscript. If the hydrogen bonding interpretation is not robustly supported by the simulation data, the mechanistic claim is weakened. The distinction between electrostatic repulsion and hydrogen bonding as separate mechanisms needs to be clearly demonstrated.
+  - **Resolution test** Provide quantitative analysis of hydrogen bonding frequencies, lifetimes, and their correlation with protonation events. Show that hydrogen bonding is significantly more frequent in protonated states compared to unprotonated states, and that disruption of hydrogen bonding (e.g., through mutations) reduces the pKa shift.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "Our results demonstrate that acidic clusters are important mediators of cellular pH response and establish that pH can regulate interactions at the microtubule surface"
+  - **Evidence pointer** Discussion section; Figure S17
+  - **Concern** The authors generalize from tubulin CTTs to "acidic clusters" broadly, but the evidence presented is limited to tubulin CTTs and one binding partner (Cin8). The claim that this is a general mechanism for pH sensing in disordered regions is speculative. The analysis of CTT sequences across eukaryotes (Figure S17) is mentioned but not described in detail, and the connection between sequence features and pH response is not systematically tested.
+  - **Why it matters** The broader significance of the work depends on whether the findings extend beyond tubulin. If the mechanism is specific to tubulin CTTs, the impact is more limited. The authors should either provide evidence for generality or temper their claims.
+  - **Resolution test** Either provide additional data on other glutamate-rich disordered regions showing similar pH responses, or revise the claims to be specific to tubulin CTTs. If sequence analysis is used to support generality, show a clear correlation between sequence features (e.g., glutamate density, spacing) and predicted or measured pH response.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence states that pH changes are "critical for maintaining homeostasis" but does not specify the context (cellular, organismal, etc.). This is slightly vague.
+  - **Required correction** Specify "intracellular pH" or "cytoplasmic pH" in the first sentence for precision.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods, NMR section
+  - **Issue** The NMR titration procedure is described briefly, but the pH range, number of titration points, and how pH was measured and controlled during the experiment are not stated.
+  - **Required correction** Add details on the pH range, step size, and pH measurement method for the NMR titrations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, Figure 1
+  - **Evidence pointer** Results section "TUBA1ACTT shows an anomalously high pHm and strong pH response"
+  - **Issue** The text mentions "changes in the depth of the well at 195 nm, and the broad shoulder at around 220 nm" in the CD spectra, but the interpretation of these changes is not explained for readers unfamiliar with CD spectroscopy.
+  - **Required correction** Briefly explain what these spectral features indicate (e.g., changes in polyproline II content) for nonspecialist readers.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Figure 4
+  - **Evidence pointer** Results section "CTT-tail dependent pH regulation of Cin8 binding"
+  - **Issue** The text reports percentage changes in fluorescence signals but does not state the number of independent experiments or the statistical test used.
+  - **Required correction** Add the number of replicates and statistical analysis (e.g., t-test, ANOVA) for the binding data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The term "pH sensor" is used to describe CTTs, but the manuscript does not demonstrate that CTTs are "sensing" pH in a regulatory sense (i.e., that the pH change is the primary input and the CTT response is the output). The term may be an overstatement.
+  - **Required correction** Consider using "pH-responsive" or "pH-sensitive" instead of "pH sensor" unless a regulatory role is directly demonstrated.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, CAP-Gly section
+  - **Evidence pointer** Results section "CAP-Gly2 binding to TUBA1ACTT shows pH-dependent chemical shift changes but not binding affinity"
+  - **Issue** The authors report that chemical shift changes are observed but binding affinity is unchanged. The text does not discuss why this might be the case or what the implications are for the proposed model.
+  - **Required correction** Add a brief discussion of why the CAP-Gly2 binding is insensitive to pH despite the observed conformational changes, and how this relates to the Cin8 results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative pKa data), R1-M2 (quantitative binding data), R1-M3 (hydrogen bonding analysis)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of glutamate-rich disordered regions as pH sensors is not entirely new, but the application to tubulin CTTs and the proposed dual mechanism (electrostatic repulsion plus hydrogen bonding) is a fresh contribution. The idea that protonation could act as a rapid, reversible PTM-like modification is thought-provoking.
+  - **Scientific importance** If the claims are fully supported, this work could have broad implications for understanding how pH changes affect microtubule function and, more generally, how disordered regions contribute to cellular pH sensing. The potential link to disease states (ischemia, cancer) adds translational relevance.
+  - **Interdisciplinary readership** The topic bridges biophysics, cell biology, and biochemistry. The use of multiple techniques (NMR, CD, MD, microscopy) makes it accessible to a range of specialists, but the presentation would need to be clear enough for nonspecialists to follow the main arguments.
+  - **Technical soundness** The combination of experimental and computational approaches is appropriate, but the quantitative support for key claims is not fully visible in the provided text. The statistical rigor and effect sizes need to be demonstrated. The MD simulation methodology and its validation are not described in sufficient detail.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, some sections (e.g., the PCA analysis) may be challenging for readers without a biophysics background. The authors should consider adding more explanatory text for these parts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the experimental approach is sound, but the quantitative evidence for the pKa upshift and the functional significance of the pH-dependent binding needs to be presented more rigorously. The manuscript would be strengthened by clearer presentation of data, additional controls, and a more measured interpretation of the "pH sensor" concept.
+
+## Risk / unsupported claims
+- The claim that CTTs act as "pH sensors" in a regulatory sense is not directly supported by the data; the manuscript demonstrates pH-dependent protonation and conformational changes, but a regulatory role in cells is inferred rather than demonstrated.
+- The generalization from tubulin CTTs to "acidic clusters" in other proteins is speculative and not supported by direct evidence.
+- The claim that hydrogen bonding "stabilizes" the protonated state is based on simulation data that is not fully described; the quantitative support is not visible in the provided text.
+- The statement that "the probability of TUBA1ACTT being protonated on at least one of the acidic groups is 15% at pH 6.5" relies on the assumption of independent residues, which the authors themselves note is "overly naive"; this calculation should be presented with appropriate caveats.
+- The comparison between pH-dependent changes in eGFP-tubulin and Cin8-3eGFP signals is used to rule out fluorescence artifacts, but the control experiment may not fully account for all potential pH effects on the fluorophore or the imaging system.

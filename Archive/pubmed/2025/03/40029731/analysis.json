@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40029731",
+  "title": "Drugging Disordered Proteins by Conformational Selection to Inform Therapeutic Intervention.",
+  "authors": "Bogin, Bryan A; Levine, Zachary A",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2025-03-03",
+  "window": {
+    "start": "2025-03-03",
+    "end": "2025-03-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用分子动力学和伞形采样研究无序蛋白IAPP的构象选择结合机制，区分不同结合子的构象偏好，虽无AI但物理模拟深入揭示IDP-PPI机制，对无序蛋白互作建模有直接启发。",
+  "abstract": "Drugging intrinsically disordered proteins (IDPs) has historically been a major challenge due to their lack of stable binding sites, conformational heterogeneity, and rapid ability to self-associate or bind nonspecific neighbors. Furthermore, it is unclear whether binders of disordered proteins (i) induce entirely new conformations or (ii) target transient prestructured conformations via stabilizing existing states. To distinguish between these two mechanisms, we utilize molecular dynamics simulations to induce structured conformations in islet amyloid polypeptide (IAPP), a disordered endocrine peptide implicated in Type II Diabetes. Using umbrella sampling, we measure conformation-specific affinities of molecules previously shown to bind IAPP to determine if they can discriminate between two distinct IAPP conformations (fixed in either alpha-helix or beta-sheet). We show that our two-state model of IAPP faithfully predicts the experimentally observed selectivity of two classes of IAPP binders while revealing differences in their molecular binding mechanisms. Specifically, the binding preferences of foldamers designed for human IAPP were not fully accounted for by conformational selection, unlike those of beta-breaking peptides designed to mimic IAPP self-assembly sequences. Furthermore, the binding of these foldamers, but not beta-breaking peptides, was disrupted by changes in the rat IAPP sequence. Taken together, our data quantify the sequence and conformational specificity for IAPP binders and reveal that conformational selection sometimes overrides sequence-level specificity. This work highlights the important role of conformational selection in stabilizing IDPs, and it reveals how fixed conformations can provide a tractable target for developing disordered protein binders.",
+  "abstract_zh": "靶向固有无序蛋白（IDPs）的药物研发历来面临重大挑战，原因在于其缺乏稳定的结合位点、构象异质性以及快速自结合或与非特异性邻近分子结合的能力。此外，尚不清楚无序蛋白的结合分子是（i）诱导全新构象，还是（ii）通过稳定现有状态来靶向瞬态预结构化构象。为区分这两种机制，我们利用分子动力学（molecular dynamics）模拟，在胰岛淀粉样多肽（IAPP）中诱导结构化构象，这是一种与II型糖尿病相关的无序内分泌肽。通过伞形采样（umbrella sampling），我们测量了先前显示能结合IAPP的分子的构象特异性亲和力，以确定它们是否能区分两种不同的IAPP构象（固定为α-螺旋或β-折叠）。我们表明，我们的IAPP双态模型能忠实预测两类IAPP结合分子的实验观察选择性，同时揭示其分子结合机制的差异。具体而言，针对人IAPP设计的折叠体（foldamers）的结合偏好并未完全由构象选择解释，而模拟IAPP自组装序列设计的β-断裂肽则不同。此外，这些折叠体的结合（而非β-断裂肽）受到大鼠IAPP序列变化的干扰。综合来看，我们的数据量化了IAPP结合分子的序列和构象特异性，并揭示构象选择有时会超越序列水平特异性。这项工作强调了构象选择在稳定IDPs中的重要作用，并揭示了固定构象可为开发无序蛋白结合分子提供可操作的靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40029731/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40029731/",
+  "paper_page_path": "papers/pubmed/40029731/index.html"
+}

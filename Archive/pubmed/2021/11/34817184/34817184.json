@@ -1,0 +1,220 @@
+{
+  "identity": {
+    "pmid": "34817184",
+    "doi": "10.1021/acs.langmuir.1c02401",
+    "title": "Importance of Solvent in Guiding the Conformational Properties of an Intrinsically Disordered Peptide."
+  },
+  "content": {
+    "abstract": "Aggregated form of alpha-synuclein in the brain has been found to be the major component of Lewy bodies that are hallmarks of Parkinson's disease (PD), the second most devastating neurodegenerative disorder. We have carried out room-temperature all-atom molecular dynamics (MD) simulations of an ensemble of widely different alpha-synuclein(1-95) peptide monomer conformations in aqueous solution. Attempts have been made to obtain a generic understanding of the local conformational motions of different repeat unit segments, namely R1-R7, of the peptide and the correlated properties of the solvent at the interface. The analyses revealed relatively greater rigidity of the hydrophobic R6 unit as compared to the other repeat units of the peptide. Besides, water molecules around R6 have been found to be less structured and weakly interacting with the peptide. These are important observations as the R6 unit with reduced conformational motions can act as the nucleation site for the aggregation process, while less structured weakly interacting water around it can become displaced easily, thereby facilitating the hydrophobic collapse of the peptide monomers and their association during the nucleation phase at higher concentrations. In addition, we demonstrated presence of doubly coordinated highly ordered as well as triply coordinated relatively disordered water molecules at the interface. We believe that while the ordered water molecules can favor water-mediated interactions between different peptide monomers, the randomly ordered ones on the other hand are likely to be expelled easily from the interface, thereby facilitating direct peptide-peptide interactions during the aggregation process.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Peptides",
+      "Protein Conformation",
+      "Solvents",
+      "Water",
+      "*alpha-Synuclein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mondal, Souvik",
+        "Mondal, Sandip",
+        "Bandyopadhyay, Sanjoy"
+      ],
+      "short_names": [
+        "Mondal S",
+        "Mondal S",
+        "Bandyopadhyay S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0654-6376",
+        "ORCID: 0000-0002-3267-6326"
+      ],
+      "affiliations": [
+        "Molecular Modeling Laboratory, Department of Chemistry, Indian Institute of Technology, Kharagpur 721302, India.",
+        "Molecular Modeling Laboratory, Department of Chemistry, Indian Institute of Technology, Kharagpur 721302, India.",
+        "Molecular Modeling Laboratory, Department of Chemistry, Indian Institute of Technology, Kharagpur 721302, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mondal, Souvik",
+        "short_name": "Mondal S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Modeling Laboratory, Department of Chemistry, Indian Institute of Technology, Kharagpur 721302, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Sandip",
+        "short_name": "Mondal S",
+        "identifiers": [
+          "0000-0002-0654-6376"
+        ],
+        "affiliations": [
+          "Molecular Modeling Laboratory, Department of Chemistry, Indian Institute of Technology, Kharagpur 721302, India."
+        ]
+      },
+      {
+        "full_name": "Bandyopadhyay, Sanjoy",
+        "short_name": "Bandyopadhyay S",
+        "identifiers": [
+          "0000-0002-3267-6326"
+        ],
+        "affiliations": [
+          "Molecular Modeling Laboratory, Department of Chemistry, Indian Institute of Technology, Kharagpur 721302, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Langmuir : the ACS journal of surfaces and colloids"
+    ],
+    "journal_abbrev": [
+      "Langmuir"
+    ],
+    "pub_date": "2021 Dec 14",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/25 06:00",
+    "fetched_at": "2026-09-20 06:38:22"
+  },
+  "links": {
+    "cites": [
+      "39830132",
+      "38516046",
+      "36506131",
+      "36316279"
+    ],
+    "refs": [],
+    "similar": [
+      "34817184",
+      "35384652",
+      "35816665",
+      "27777990",
+      "35840132",
+      "28024449",
+      "30635607",
+      "36866721",
+      "31699336",
+      "37347702",
+      "23912807",
+      "36506131",
+      "32623047",
+      "21056574",
+      "32120928",
+      "21289072",
+      "25198420",
+      "22024360",
+      "22947936",
+      "23607785",
+      "29874605",
+      "30933517",
+      "25084962",
+      "31903719",
+      "30111136",
+      "26479553",
+      "18824003",
+      "28702592",
+      "30917651",
+      "16625657",
+      "33903234",
+      "29055185",
+      "24021023",
+      "32041489",
+      "18282005",
+      "33350818",
+      "33345970",
+      "19576220",
+      "29781021",
+      "25142785",
+      "26193124",
+      "20550147",
+      "29548979",
+      "23583776",
+      "22181201",
+      "33030907",
+      "27992231",
+      "30184304",
+      "30853581",
+      "31805238",
+      "28735170",
+      "30811210",
+      "25139280",
+      "20919750",
+      "31580657",
+      "23051147",
+      "34636232",
+      "25240398",
+      "32859072",
+      "12614167",
+      "15326028",
+      "28796507",
+      "29270108",
+      "17526581",
+      "30840442",
+      "23811057",
+      "29715424",
+      "11152691",
+      "23723000",
+      "26553504",
+      "29286644",
+      "27131567",
+      "26931727",
+      "25207671",
+      "23214618",
+      "24037535",
+      "26587669",
+      "16364361",
+      "26030674",
+      "30771181",
+      "29451381",
+      "19035605",
+      "31259246",
+      "17554782",
+      "31477241",
+      "32828471",
+      "30917118",
+      "15326604",
+      "21692466",
+      "30755483",
+      "22803956",
+      "25494773",
+      "27588692",
+      "23648364"
+    ],
+    "review": [
+      "34817184",
+      "36506131",
+      "22024360",
+      "30853581",
+      "25139280",
+      "30840442",
+      "32828471"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/langd5/article-lookup/doi/10.1021/acs.langmuir.1c02401",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

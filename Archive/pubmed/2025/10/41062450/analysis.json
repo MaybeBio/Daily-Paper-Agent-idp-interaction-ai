@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41062450",
+  "title": "PhaSepDB 3.0: a comprehensive knowledgebase of phase separation-related proteins from AI-assisted curation.",
+  "authors": "You, Kaiqiang; Li, Runyu; Lian, Ruixin; Li, Yuxuan; Yang, Hongzhining; Zhou, Yiran; Chen, Yangsheng; Wang, Likun; Fan, Zhaoqing; Ma, Liwei; Li, Tingting",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-10-09",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍PhaSepDB 3.0相分离蛋白知识库，采用LLM辅助人工审核构建，虽聚焦相分离蛋白对象且涉及互作信息，但主要作为资源数据库，缺乏对PPI机制或AI/物理模拟方法的实质建模，故评6分。",
+  "abstract": "Phase separation (PS) is a fundamental principle driving the formation of membraneless organelles (MLOs), which are critical for various cellular functions and pathological conditions. We present PhaSepDB 3.0 (https://db.phasep.pro/), a significantly updated knowledgebase of proteins related to PS. To address the challenges of curating a vast body of literature, we have implemented a novel human-AI collaborative workflow that integrates a large language model (LLM)-based agentic system with expert verification, enabling a major expansion and enrichment of the database. PhaSepDB 3.0 now contains 3,484 expert-curated entries for 1849 PS-related proteins, more than doubling the content of the previous version. The annotation framework has been restructured to capture deeper insights, including functional relevance, experimental evidence, and the intrinsic and extrinsic regulations of PS. A key new feature is the protein-wise summary page, which synthesizes data from multiple publications to provide a comprehensive overview of each protein's PS behaviour and functional relevance. With redesigned, user-friendly web interfaces, PhaSepDB 3.0 serves as a critical resource for the community, supporting researchers to explore the intricate basis of PS and its biological implications in greater detail.",
+  "abstract_zh": "相分离（phase separation, PS）是驱动无膜细胞器（membraneless organelles, MLOs）形成的基本原理，这些细胞器对多种细胞功能和病理状态至关重要。我们推出了PhaSepDB 3.0（https://db.phasep.pro/），这是一个显著更新的与PS相关蛋白质知识库。为了应对海量文献策展的挑战，我们实施了一种新颖的人机协作工作流程，该流程整合了基于大语言模型（large language model, LLM）的代理系统与专家验证，从而实现了数据库的重大扩展和丰富。PhaSepDB 3.0现包含1,849个PS相关蛋白质的3,484条专家策展条目，内容量较上一版本翻倍以上。注释框架已重构以捕捉更深入的见解，包括功能相关性、实验证据以及PS的内在和外在调控。一个关键新特性是蛋白质级摘要页面，该页面综合多篇出版物的数据，为每个蛋白质的PS行为和功能相关性提供全面概览。凭借重新设计的用户友好型网页界面，PhaSepDB 3.0成为社区的重要资源，支持研究人员更详细地探索PS的复杂基础及其生物学意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41062450/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41062450/",
+  "paper_page_path": "papers/pubmed/41062450/index.html"
+}

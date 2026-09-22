@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "37890778",
+    "doi": "10.1016/j.jbc.2023.105392",
+    "title": "\"Boundary residues\" between the folded RNA recognition motif and disordered RGG domains are critical for FUS-RNA binding."
+  },
+  "content": {
+    "abstract": "Fused in sarcoma (FUS) is an abundant RNA-binding protein, which drives phase separation of cellular condensates and plays multiple roles in RNA regulation. The RNA-binding ability of FUS protein is crucial to its cellular function. Here, our molecular simulation study on the FUS-RNA complex provides atomic resolution insights into the observations from biochemical studies and also illuminates our understanding of molecular driving forces that mediate the structure, stability, and interaction of the RNA recognition motif (RRM) and RGG domains of FUS with a stem-loop junction RNA. We observe clear cooperativity and division of labor among the ordered (RRM) and disordered domains (RGG1 and RGG2) of FUS that leads to an organized and tighter RNA binding. Irrespective of the length of RGG2, the RGG2-RNA interaction is confined to the stem-loop junction and the proximal stem regions. On the other hand, the RGG1 interactions are primarily with the longer RNA stem. We find that the C terminus of RRM, which make up the \"boundary residues\" that connect the folded RRM with the long disordered RGG2 stretch of the protein, plays a critical role in FUS-RNA binding. Our study provides high-resolution molecular insights into the FUS-RNA interactions and forms the basis for understanding the molecular origins of full-length FUS interaction with RNA.",
+    "keywords": [
+      "RNA recognition motif",
+      "RNA-FUS binding",
+      "fused in sarcoma",
+      "low-complexity domain",
+      "molecular simulations"
+    ],
+    "mesh_terms": [
+      "Protein Domains",
+      "*RNA/metabolism",
+      "*RNA Recognition Motif/genetics",
+      "RNA-Binding Protein FUS/metabolism",
+      "RNA-Binding Proteins/genetics/metabolism",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Balasubramanian, Sangeetha",
+        "Maharana, Shovamayee",
+        "Srivastava, Anand"
+      ],
+      "short_names": [
+        "Balasubramanian S",
+        "Maharana S",
+        "Srivastava A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular Biophysics Unit, Indian Institute of Science Bangalore, Bangalore, Karnataka, India.",
+        "Department of Molecular and Cell Biology, Indian Institute of Science Bangalore, Bangalore, Karnataka, India.",
+        "Molecular Biophysics Unit, Indian Institute of Science Bangalore, Bangalore, Karnataka, India. Electronic address: anand@iisc.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Balasubramanian, Sangeetha",
+        "short_name": "Balasubramanian S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science Bangalore, Bangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Maharana, Shovamayee",
+        "short_name": "Maharana S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, Indian Institute of Science Bangalore, Bangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Srivastava, Anand",
+        "short_name": "Srivastava A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science Bangalore, Bangalore, Karnataka, India. Electronic address: anand@iisc.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/28 11:42",
+    "fetched_at": "2026-09-21 02:18:19"
+  },
+  "links": {
+    "cites": [
+      "42095372",
+      "41517915",
+      "40842365",
+      "40693919",
+      "40521613",
+      "40209951"
+    ],
+    "refs": [
+      "38505224",
+      "37338049",
+      "37134270",
+      "36711093",
+      "36563129",
+      "36348631",
+      "34759379",
+      "34624313",
+      "34576338",
+      "33947944",
+      "33705755",
+      "33574233",
+      "33411518",
+      "33311468",
+      "33262375",
+      "33159856",
+      "33078950",
+      "32840111",
+      "32118033",
+      "32060318",
+      "32029630",
+      "31914313",
+      "31630970",
+      "31430179",
+      "31303975",
+      "31188823",
+      "31022909",
+      "30990694",
+      "30913885",
+      "30581145",
+      "30091924",
+      "29961577",
+      "29755516",
+      "29735687",
+      "29723523",
+      "29650702",
+      "29378935",
+      "29364893",
+      "28575444",
+      "28225081",
+      "27819658",
+      "27668217",
+      "27378374",
+      "27229125",
+      "27015757",
+      "26927092",
+      "26574453",
+      "26557057",
+      "26150427",
+      "25400522",
+      "25083344",
+      "24840975",
+      "23931993",
+      "23200923",
+      "22081015",
+      "21921995",
+      "21222600",
+      "20400460",
+      "20063887",
+      "19251628",
+      "18506808",
+      "16284250",
+      "15299008",
+      "11469858",
+      "11098054",
+      "11017187",
+      "9433130"
+    ],
+    "similar": [
+      "37890778",
+      "33262375",
+      "33705755",
+      "30581145",
+      "28575444",
+      "34487489",
+      "28432364",
+      "31240261",
+      "23200923",
+      "20541619",
+      "36453011",
+      "37399327",
+      "29800261",
+      "28924037",
+      "37211763",
+      "34759379",
+      "36348631",
+      "34837346",
+      "26455390",
+      "38070499",
+      "33184287",
+      "28942918",
+      "38029395",
+      "33411976",
+      "40334877",
+      "35297101",
+      "31479821",
+      "27592836",
+      "36716848",
+      "31805282",
+      "34654750",
+      "22563080",
+      "29146174",
+      "37804508",
+      "30135093",
+      "31188823",
+      "34862761",
+      "28542332",
+      "27731383",
+      "40281357",
+      "33547841",
+      "11098054",
+      "29677513",
+      "29434328",
+      "29961577",
+      "34516126",
+      "31270472",
+      "29080206",
+      "35709363",
+      "33857479",
+      "31791586",
+      "36454011",
+      "30992467",
+      "39668490",
+      "35876068",
+      "35203243",
+      "39486437",
+      "40185232",
+      "32691043",
+      "32187365",
+      "25991062",
+      "38492239",
+      "34648275",
+      "38462838",
+      "39305233",
+      "37155880",
+      "39494508",
+      "40285687",
+      "32915994",
+      "25447237",
+      "24353314",
+      "22445064",
+      "23048034",
+      "33311468",
+      "33580145",
+      "37231298",
+      "33307683",
+      "15299008",
+      "33827951",
+      "22798390",
+      "17000901",
+      "36945688",
+      "27460707",
+      "9264461",
+      "24013423",
+      "26612539",
+      "32175478",
+      "29677515",
+      "34018649",
+      "30521520",
+      "37134270",
+      "30993866",
+      "8576255",
+      "26589419",
+      "36261283",
+      "39885825",
+      "39397705",
+      "35501371",
+      "29140459",
+      "30488693"
+    ],
+    "review": [
+      "37890778",
+      "37399327",
+      "38029395",
+      "31479821",
+      "39668490",
+      "40185232"
+    ],
+    "pmc": [
+      "10687056"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(23)02420-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37890778/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37890778",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

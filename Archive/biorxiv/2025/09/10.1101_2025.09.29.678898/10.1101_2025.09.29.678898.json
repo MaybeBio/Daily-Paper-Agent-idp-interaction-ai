@@ -1,0 +1,694 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.29.678898",
+  "title": "De novo design of phosphotyrosine peptide binders",
+  "doi": "10.1101/2025.09.29.678898",
+  "abstract": "<h4>ABSTRACT</h4> Phosphorylation on tyrosine is a key step in many signaling pathways. Despite recent progress in de novo design of protein binders, there are no current methods for designing binders that recognize phosphorylated proteins and peptides; this is a challenging problem as phosphate groups are highly charged, and phosphorylation often occurs within unstructured regions. Here we introduce RoseTTAFold Diffusion 2 for Molecular Interfaces (RFD2-MI), a deep generative framework for the design of binders for protein, ligand, and covalently modified protein targets. We demonstrate the power and versatility of this method by designing binders for four critical phosphotyrosine sites on three clinically relevant targets: Cluster of Differentiation 3 (CD3ε), Epidermal Growth Factor Receptor (EGFR), Insulin Receptor (INSR) and Signal Transducer and Activator of Transcription 5 (STAT5). Experimental characterization shows that the designs bind their phosphotyrosine containing targets with affinities comparable to native binding sites and have negligible binding to non-phosphorylated targets or phosphopeptides with different sequences. X-ray crystal structures of generated binders to CD3ε and EGFR are very close to the design models, demonstrating the accuracy of the design approach. A designed binder to an EGFR intracellular region phosphorylated upon EGF activation co-localizes with the receptor following EGF stimulation in single-particle tracking (SPT) experiments, demonstrating pY specific recognition in living cells. RFD2-MI provides a generalizable all-atom diffusion framework for probing and modulating phosphorylation-dependent signaling, and more generally, for developing research tools and targeted therapeutics against post-translationally modified proteins.",
+  "authors": [
+    "Bauer MS",
+    "Zhang JZ",
+    "Wu K",
+    "Lee GR",
+    "Coventry B",
+    "Silvestri IM",
+    "Klupt KA",
+    "Shi J",
+    "Brent RI",
+    "Li X",
+    "Moller C",
+    "Roullier N",
+    "Vafeados DK",
+    "Kalvet I",
+    "Skotheim RK",
+    "Zhu S",
+    "Motmaen A",
+    "Herrmann LC",
+    "Sturmfels P",
+    "Tischer D",
+    "Altae-Tran H",
+    "Juergens D",
+    "Krishna R",
+    "Ahern W",
+    "Yim J",
+    "Bera AK",
+    "Kang A",
+    "Joyce E",
+    "Lu A",
+    "Stewart L",
+    "DiMaio F",
+    "Mudumbi KC",
+    "Baker D"
+  ],
+  "published_date": "2025-09-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.29.678898",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.29.678898.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1093675",
+    "raw_record": {
+      "id": "PPR1093675",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1093675"
+        ]
+      },
+      "doi": "10.1101/2025.09.29.678898",
+      "title": "<i>De novo</i>  design of phosphotyrosine peptide binders",
+      "authorString": "Bauer MS, Zhang JZ, Wu K, Lee GR, Coventry B, Silvestri IM, Klupt KA, Shi J, Brent RI, Li X, Moller C, Roullier N, Vafeados DK, Kalvet I, Skotheim RK, Zhu S, Motmaen A, Herrmann LC, Sturmfels P, Tischer D, Altae-Tran H, Juergens D, Krishna R, Ahern W, Yim J, Bera AK, Kang A, Joyce E, Lu A, Stewart L, DiMaio F, Mudumbi KC, Baker D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bauer MS",
+            "lastName": "Bauer",
+            "firstName": "Magnus",
+            "initials": "MS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang JZ",
+            "lastName": "Zhang",
+            "firstName": "Jason",
+            "initials": "JZ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                },
+                {
+                  "affiliation": "Department of Bioengineering, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu K",
+            "lastName": "Wu",
+            "firstName": "Kejia",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee GR",
+            "lastName": "Lee",
+            "firstName": "Gyu Rie",
+            "initials": "GR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                },
+                {
+                  "affiliation": "Department of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Coventry B",
+            "lastName": "Coventry",
+            "firstName": "Brian",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Silvestri IM",
+            "lastName": "Silvestri",
+            "firstName": "Isabella",
+            "initials": "IM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Developmental Biology, , , ,"
+                },
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Klupt KA",
+            "lastName": "Klupt",
+            "firstName": "Kody",
+            "initials": "KA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                },
+                {
+                  "affiliation": "Department of Biomedical and Molecular Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shi J",
+            "lastName": "Shi",
+            "firstName": "Jiuhan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brent RI",
+            "lastName": "Brent",
+            "firstName": "Rafael",
+            "initials": "RI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li X",
+            "lastName": "Li",
+            "firstName": "Xinting",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moller C",
+            "lastName": "Moller",
+            "firstName": "Carolina",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roullier N",
+            "lastName": "Roullier",
+            "firstName": "Nicole",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vafeados DK",
+            "lastName": "Vafeados",
+            "firstName": "Dionne",
+            "initials": "DK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kalvet I",
+            "lastName": "Kalvet",
+            "firstName": "Indrek",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                },
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Skotheim RK",
+            "lastName": "Skotheim",
+            "firstName": "Rebecca",
+            "initials": "RK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhu S",
+            "lastName": "Zhu",
+            "firstName": "Siyu",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Motmaen A",
+            "lastName": "Motmaen",
+            "firstName": "Amir",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Herrmann LC",
+            "lastName": "Herrmann",
+            "firstName": "Luca",
+            "initials": "LC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sturmfels P",
+            "lastName": "Sturmfels",
+            "firstName": "Pascal",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tischer D",
+            "lastName": "Tischer",
+            "firstName": "Doug",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Altae-Tran H",
+            "lastName": "Altae-Tran",
+            "firstName": "Han",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Juergens D",
+            "lastName": "Juergens",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Krishna R",
+            "lastName": "Krishna",
+            "firstName": "Rohith",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ahern W",
+            "lastName": "Ahern",
+            "firstName": "Woody",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yim J",
+            "lastName": "Yim",
+            "firstName": "Jason",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                },
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bera AK",
+            "lastName": "Bera",
+            "firstName": "Asim",
+            "initials": "AK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kang A",
+            "lastName": "Kang",
+            "firstName": "Alex",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Joyce E",
+            "lastName": "Joyce",
+            "firstName": "Emily",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lu A",
+            "lastName": "Lu",
+            "firstName": "Andrew",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Biological Engineering, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stewart L",
+            "lastName": "Stewart",
+            "firstName": "Lance",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "DiMaio F",
+            "lastName": "DiMaio",
+            "firstName": "Frank",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mudumbi KC",
+            "lastName": "Mudumbi",
+            "firstName": "Krishna",
+            "initials": "KC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Developmental Biology, , , ,"
+                },
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baker D",
+            "lastName": "Baker",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Institute for Protein Design, , , ,"
+                },
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  Phosphorylation on tyrosine is a key step in many signaling pathways. Despite recent progress in  de novo design of protein binders, there are no current methods for designing binders that recognize phosphorylated proteins and peptides; this is a challenging problem as phosphate groups are highly charged, and phosphorylation often occurs within unstructured regions. Here we introduce RoseTTAFold Diffusion 2 for Molecular Interfaces (RFD2-MI), a deep generative framework for the design of binders for protein, ligand, and covalently modified protein targets. We demonstrate the power and versatility of this method by designing binders for four critical phosphotyrosine sites on three clinically relevant targets: Cluster of Differentiation 3 (CD3ε), Epidermal Growth Factor Receptor (EGFR), Insulin Receptor (INSR) and Signal Transducer and Activator of Transcription 5 (STAT5). Experimental characterization shows that the designs bind their phosphotyrosine containing targets with affinities comparable to native binding sites and have negligible binding to non-phosphorylated targets or phosphopeptides with different sequences. X-ray crystal structures of generated binders to CD3ε and EGFR are very close to the design models, demonstrating the accuracy of the design approach. A designed binder to an EGFR intracellular region phosphorylated upon EGF activation co-localizes with the receptor following EGF stimulation in single-particle tracking (SPT) experiments, demonstrating pY specific recognition in living cells. RFD2-MI provides a generalizable all-atom diffusion framework for probing and modulating phosphorylation-dependent signaling, and more generally, for developing research tools and targeted therapeutics against post-translationally modified proteins.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NIH NCI",
+            "grantId": "1K99CA293001",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.29.678898"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1093675"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1093675&type=FILE&fileName=EMS209361-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS209361",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-10-02",
+      "firstPublicationDate": "2025-09-30",
+      "firstIndexDate": "2025-10-02",
+      "fullTextReceivedDate": "2026-01-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

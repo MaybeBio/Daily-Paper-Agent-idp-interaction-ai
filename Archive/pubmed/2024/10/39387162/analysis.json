@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39387162",
+  "title": "Investigating Different Dynamic pHP1alpha States in Their KCl-Mediated Liquid-Liquid Phase Separation (LLPS) Using Solid-State NMR (SSNMR) and Molecular Dynamic (MD) Simulations.",
+  "authors": "Chin, Sze Yuet; Chen, Yinglu; Zhao, Lei; Liu, Xinyi; Chng, Choon-Peng; Soman, Aghil; Nordenskiold, Lars; Huang, Changjin; Shi, Xiangyan; Xue, Kai",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2024-10-10",
+  "window": {
+    "start": "2024-10-07",
+    "end": "2024-10-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合固态NMR与MD模拟，探究pHP1alpha无序蛋白在不同KCl浓度下液-液相分离中的动态状态与静电调控机制，直接聚焦IDR介导的相分离互作机制建模，方法上物理模拟与实验互补，高度契合课题。",
+  "abstract": "Chromatin phase separation is dynamically regulated by many factors, such as post-translational modifications and effector proteins, and plays a critical role in genomic activities. The liquid-liquid phase separation (LLPS) of chromatin and/or effector proteins has been observed both in vitro and in vivo. However, the underlying mechanisms are largely unknown, and elucidating the physicochemical properties of the phase-separated complexes remains technically challenging. In this study, we detected dynamic, viscous, and intermediate components within the phosphorylated heterochromatin protein 1alpha (pHP1alpha) phase-separated system by using modified solid-state NMR (SSNMR) pulse sequences. The basis of these sequences relies on the different time scale of motion detected by heteronuclear Overhauser effect (hetNOE), scalar coupling-based, and dipolar coupling-based transfer schemes in NMR. In comparison to commonly utilized scalar coupling-based methods for studying the dynamic components in phase-separated systems, hetNOE offers more direct insight into molecular dynamics. NMR signals from the three different states in the protein gel were selectively excited and individually studied. Combined with molecular dynamics (MD) simulations, our findings indicate that at low KCl concentration (30 mM), the protein gel displays reduced molecular motion. Conversely, an increase in molecular motion was observed at a high KCl concentration (150 mM), which we attribute to the resultant intermolecular electrostatic interactions regulated by KCl.",
+  "abstract_zh": "染色质相分离受到多种因素的动态调控，例如翻译后修饰和效应蛋白，并在基因组活动中发挥关键作用。染色质和/或效应蛋白的液-液相分离（liquid-liquid phase separation, LLPS）已在体外和体内观察到。然而，其潜在机制在很大程度上尚不清楚，阐明相分离复合物的物理化学性质在技术上仍具挑战性。在本研究中，我们通过使用改良的固态核磁共振（solid-state NMR, SSNMR）脉冲序列，检测了磷酸化异染色质蛋白1α（phosphorylated heterochromatin protein 1alpha, pHP1alpha）相分离系统中的动态、粘性和中间组分。这些序列的基础依赖于核磁共振中异核奥弗豪泽效应（heteronuclear Overhauser effect, hetNOE）、标量耦合和偶极耦合转移方案所检测到的不同运动时间尺度。与常用于研究相分离系统中动态组分的标量耦合方法相比，hetNOE提供了对分子动力学的更直接洞察。来自蛋白质凝胶中三种不同状态的核磁共振信号被选择性激发并单独研究。结合分子动力学（molecular dynamics, MD）模拟，我们的发现表明，在低KCl浓度（30 mM）下，蛋白质凝胶表现出降低的分子运动。相反，在高KCl浓度（150 mM）下观察到分子运动增加，我们将其归因于KCl调节的分子间静电相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39387162/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39387162/",
+  "paper_page_path": "papers/pubmed/39387162/index.html"
+}

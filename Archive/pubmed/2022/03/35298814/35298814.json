@@ -1,0 +1,255 @@
+{
+  "identity": {
+    "pmid": "35298814",
+    "doi": "10.1007/978-1-0716-1855-4_9",
+    "title": "Metadynamics Simulations to Study the Structural Ensembles and Binding Processes of Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "The structures of intrinsically disordered proteins (IDPs) are highly dynamic. It is hard to characterize the structures of these proteins experimentally. Molecular dynamics (MD) simulation is a powerful tool in the understanding of protein dynamic structures and function. This chapter describes the application of metadynamics-based enhanced sampling methods in the study of phosphorylation regulation on the structure of kinase-inducible domains (KID). The structural properties of free pKID and KID were obtained by parallel tempering metadynamics combined with well-tempered ensemble (PTMetaD WTE) method, and the binding free energy surfaces of pKID/KID and KIX were characterized by bias-exchanged metadynamics (BE-MetaD) simulations.",
+    "keywords": [
+      "Binding processes",
+      "Intrinsically disordered protein",
+      "Kinase-inducible domain",
+      "Metadynamics",
+      "Molecular dynamics simulations",
+      "Structure ensemble"
+    ],
+    "mesh_terms": [
+      "Entropy",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Phosphorylation",
+      "*Phosphotransferases/chemistry",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Rui",
+        "Duan, Mojie"
+      ],
+      "short_names": [
+        "Zhou R",
+        "Duan M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, National Center for Magnetic Resonance in Wuhan, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, People's Republic of China.",
+        "State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, National Center for Magnetic Resonance in Wuhan, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, People's Republic of China. mjduan@wipm.ac.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Rui",
+        "short_name": "Zhou R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, National Center for Magnetic Resonance in Wuhan, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Duan, Mojie",
+        "short_name": "Duan M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Magnetic Resonance and Atomic and Molecular Physics, National Center for Magnetic Resonance in Wuhan, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, People's Republic of China. mjduan@wipm.ac.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/18 06:00",
+    "fetched_at": "2026-09-20 08:54:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "35298814",
+      "32696368",
+      "29262363",
+      "29907037",
+      "28092832",
+      "19278259",
+      "35174713",
+      "31402649",
+      "19654879",
+      "26195786",
+      "36703366",
+      "30840442",
+      "34656328",
+      "28786199",
+      "31548393",
+      "31241933",
+      "38018910",
+      "27054660",
+      "27423742",
+      "37646172",
+      "26588950",
+      "26735936",
+      "32859072",
+      "31624293",
+      "33574233",
+      "31375817",
+      "31809054",
+      "33382616",
+      "38275091",
+      "28226222",
+      "31482116",
+      "26584388",
+      "33355572",
+      "24970129",
+      "26387099",
+      "30803034",
+      "29262364",
+      "30865832",
+      "30979035",
+      "38996889",
+      "36084124",
+      "34201262",
+      "26387101",
+      "30433786",
+      "33945530",
+      "22506277",
+      "32325001",
+      "16761278",
+      "36934808",
+      "28554553",
+      "26580746",
+      "30878202",
+      "24589355",
+      "35934194",
+      "35129612",
+      "28095698",
+      "25358803",
+      "25855872",
+      "33459730",
+      "32696383",
+      "34576338",
+      "32929427",
+      "28720500",
+      "32696369",
+      "34298994",
+      "26575570",
+      "31552948",
+      "28493424",
+      "31535860",
+      "26387110",
+      "30184304",
+      "24763499",
+      "32323533",
+      "32579908",
+      "30855964",
+      "28554535",
+      "35298813",
+      "26742101",
+      "29990433",
+      "33779503",
+      "31756104",
+      "30134733",
+      "33284914",
+      "30124042",
+      "39190324",
+      "28111343",
+      "30413085",
+      "32053358",
+      "24410358",
+      "28003858",
+      "20441734",
+      "33030907",
+      "30134683",
+      "32623047",
+      "26138206",
+      "29276882",
+      "32145192",
+      "36800279",
+      "27598403",
+      "26052838",
+      "35074392",
+      "30909517",
+      "35562983",
+      "23940332",
+      "38973087",
+      "36840694",
+      "37196167",
+      "35317227",
+      "38662196",
+      "36373847",
+      "37241789",
+      "27561930",
+      "37406151",
+      "36463772",
+      "38084077",
+      "38060268",
+      "36346589",
+      "33791109",
+      "37906368",
+      "37106781",
+      "38370653",
+      "35233453",
+      "37555841",
+      "37184538",
+      "38237064",
+      "30717651",
+      "34748336",
+      "35769910",
+      "35580583",
+      "37546943",
+      "36061685",
+      "37560777",
+      "37585703",
+      "35617155",
+      "35646830",
+      "25866662",
+      "38373310"
+    ],
+    "review": [
+      "35298814",
+      "30840442",
+      "28226222",
+      "33355572",
+      "26387099",
+      "30979035",
+      "26387101",
+      "28554553",
+      "35129612",
+      "26387110",
+      "30413085",
+      "28003858",
+      "30909517",
+      "37241789",
+      "36463772",
+      "37184538",
+      "37585703"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-1855-4_9",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

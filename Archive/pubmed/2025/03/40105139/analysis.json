@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40105139",
+  "title": "The synergy between compartmentalization and motorization in chromatin architecture.",
+  "authors": "Oliveira, Ronaldo J; Oliveira Junior, Antonio B; Contessoto, Vinicius G; Onuchic, Jose N",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2025-03-19",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用能量景观理论启发的MiChroM模型模拟染色质折叠，探讨区室化与马达驱动的协同作用，涉及相分离机制，但对象为染色质而非无序蛋白/IDR，且无PPI或AI/物理模拟方法对无序蛋白互作的直接建模，仅机制思路可迁移。",
+  "abstract": "High-resolution techniques capable of manipulating from single molecules to millions of cells are combined with three-dimensional modeling followed by simulation to comprehend the specific aspects of chromosomes. From the theoretical perspective, the energy landscape theory from protein folding inspired the development of the minimal chromatin model (MiChroM). In this work, two biologically relevant MiChroM energy terms were minimized under different conditions, revealing a competition between loci compartmentalization and motor-driven activity mechanisms in chromatin folding. Enhancing the motor activity energy baseline increased the lengthwise compaction and reduced the polymer entanglement. Concomitantly, decreasing compartmentalization-related interactions reduced the overall polymer collapse, although compartmentalization given by the microphase separation remained almost intact. For multiple chromosome simulations, increased motorization intensified the territory formation of the different chains and reduced compartmentalization strength lowered the probability of contact formation of different loci between multiple chains, approximating to the experimental inter-contacts of the human chromosomes. These findings have direct implications for experimental data-driven chromosome modeling, specially those involving multiple chromosomes. The interplay between phase-separation and territory formation mechanisms should be properly implemented in order to recover the genome architecture and dynamics, features that might play critical roles in regulating nuclear functions.",
+  "abstract_zh": "能够从单分子操控到数百万细胞的高分辨率技术，与三维建模及随后的模拟相结合，以理解染色体的特定方面。从理论角度看，蛋白质折叠中的能量景观理论启发了最小染色质模型（MiChroM）的发展。在本工作中，两个生物学相关的MiChroM能量项在不同条件下被最小化，揭示了染色体折叠中位点区室化与马达驱动活性机制之间的竞争。增强马达活性能量基线增加了纵向压缩并减少了聚合物缠结。同时，降低与区室化相关的相互作用减少了整体聚合物塌缩，尽管由微相分离（microphase separation）提供的区室化几乎保持不变。对于多染色体模拟，增强的马达化加剧了不同链的领地形成，而降低区室化强度则减少了多条链之间不同位点接触形成的概率，接近人类染色体的实验性相互接触。这些发现对实验数据驱动的染色体建模具有直接意义，尤其是涉及多条染色体的建模。相分离与领地形成机制之间的相互作用应被适当实施，以恢复基因组结构和动态，这些特征可能在调控核功能中发挥关键作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40105139/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40105139/",
+  "paper_page_path": "papers/pubmed/40105139/index.html"
+}

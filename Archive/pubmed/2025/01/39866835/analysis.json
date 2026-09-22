@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39866835",
+  "title": "Molecular Drivers of Aging in Biomolecular Condensates: Desolvation, Rigidification, and Sticker Lifetimes.",
+  "authors": "Biswas, Subhadip; Potoyan, Davit A",
+  "journal": "PRX life",
+  "published_date": "2025-01-27",
+  "window": {
+    "start": "2025-01-27",
+    "end": "2025-02-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化模型模拟生物分子凝聚体老化中溶剂排出、链刚性和sticker寿命对粘弹性的影响，揭示无序蛋白凝聚体从液态到固态的分子机制，虽非直接PPI预测但聚焦IDR凝聚体互作机制建模，方法为物理模拟，高度相关。",
+  "abstract": "Biomolecular condensates are dynamic intracellular entities defined by their sequence- and composition-encoded material properties. During aging, these properties can change dramatically, potentially leading to pathological solidlike states, the mechanisms of which remain poorly understood. Recent experiments reveal that the aging of condensates involves a complex interplay of solvent depletion, strengthening of sticker links, and the formation of rigid structural segments such as beta fibrils. In this study, we use various coarse-grained models to investigate how solvent expulsion, biopolymer chain rigidity, and the lifetimes of sticker contacts influence the viscoelastic properties and aging dynamics of condensates. We find that the rigidity of the biopolymer backbone is essential for replicating the predominant elastic behavior observed in experiments. In contrast, models using fully flexible chains-an assumption common in simulations of intrinsically disordered proteins-fail to exhibit a dominant elastic regime. We also demonstrate that altering the solvent content within condensates affects the crossover between storage and loss moduli. This suggests that desolvation plays a significant role in condensate aging by promoting the transition from a viscous to an elastic state. Furthermore, the lifetime of sticker pairs profoundly influences the mature state of the condensates; short-lived stickers lead to a Maxwell fluid behavior, while longer-lived, irreversibly cross-linked stickers result in solidlike properties, consistent with the Kelvin-Voigt model. Finally, by incorporating the chain rigidification, desolvation, and sticker pair formation into a nonequilibrium dynamic aging simulation, we show the molecular mechanism of forming solid shells around the condensate surfaces observed in a recent experimental report.",
+  "abstract_zh": "生物分子凝聚体是由其序列和组成编码的材料性质所定义的动态细胞内实体。在衰老过程中，这些性质可能发生显著变化，潜在地导致病理性的固态样状态，其机制至今仍知之甚少。近期实验揭示，凝聚体的衰老涉及溶剂耗竭、粘附链接增强以及刚性结构片段（如β纤维）形成的复杂相互作用。在本研究中，我们使用多种粗粒化模型来探讨溶剂排出、生物聚合物链刚性以及粘附接触寿命如何影响凝聚体的粘弹性性质和衰老动力学。我们发现，生物聚合物主链的刚性对于重现实验中观察到的主导弹性行为至关重要。相比之下，使用完全柔性链的模型——这是 intrinsically disordered proteins（内在无序蛋白）模拟中常见的假设——未能表现出主导弹性区域。我们还证明，改变凝聚体内部的溶剂含量会影响储能模量与损耗模量之间的交叉点。这表明去溶剂化在凝聚体衰老中通过促进从粘性态向弹性态的转变而发挥重要作用。此外，粘附对的寿命深刻影响凝聚体的成熟状态；短寿命粘附导致麦克斯韦流体行为，而较长寿命、不可逆交联的粘附则产生固态样性质，与开尔文-沃伊特模型一致。最后，通过将链刚性化、去溶剂化和粘附对形成纳入非平衡动态衰老模拟中，我们展示了近期实验报告中观察到的凝聚体表面形成固态壳层的分子机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39866835/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39866835/",
+  "paper_page_path": "papers/pubmed/39866835/index.html"
+}

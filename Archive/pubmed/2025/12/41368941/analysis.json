@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41368941",
+  "title": "Genetic control of morphological transitions in a coacervating protein template.",
+  "authors": "Wixson, William C; Naser, Nada Y; Sonpal, Aditya; Pfaendtner, Jim; Baneyx, Francois",
+  "journal": "Soft matter",
+  "published_date": "2025-12-10",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究ELP融合肽的相分离模板及硅化形态转变，虽对象为弹性蛋白样多肽而非典型IDP，但通过MD和AlphaFold解析突变对界面堆积与构象的影响，涉及凝聚体介导的组装机制，对无序蛋白相分离PPI建模有方法迁移价值。",
+  "abstract": "Nature routinely exploits liquid-liquid phase separation (LLPS) of proteins to control the assembly and mineralization of hybrid materials. Here, we show that fusion of the Car9 silica-binding peptide to an elastin-like polypeptide (ELP) yields temperature- and sequence-programmable soft matter templates for the synthesis of silicified architectures ranging in size from nanometers to micrometers. Specifically, we demonstrate unprecedented control over the diameter of silica nanoparticles (SiNP) in the 30-60 nm range with 4 nm precision, show that a single arginine residue (R4) in the Car9 sequence underpins the transition from micelles to proteinosomes, and find that substitutions in other basic residues modulate electrostatic repulsion and solvation to enable access to kinetically trapped species. These structures, which include interconnected micelles, small ( approximately 200 nm) and large (>5 microm) vesicles, are readily visualized by SEM imaging following silicification. Molecular dynamics (MD) simulations and AlphaFold predictions reveal that mutations in positively charged residues alter interfacial packing, hydration, and conformational freedom of the silica-binding segments. Overall, our results establish sequence and thermal energy as synergistic levers for morphological control across length scales using solid-binding ELPs and establish mineralization as a powerful tool to visualize the structure of dynamic soft matter assemblies.",
+  "abstract_zh": "自然界常利用蛋白质的液-液相分离（LLPS）来控制杂化材料的组装与矿化。在此，我们展示了将Car9硅结合肽与弹性蛋白样多肽（ELP）融合，可产生温度和序列可编程的软物质模板，用于合成尺寸从纳米到微米不等的硅化结构。具体而言，我们证明了对二氧化硅纳米颗粒（SiNP）直径在30-60纳米范围内、精度达4纳米的空前控制，表明Car9序列中的单个精氨酸残基（R4）是胶束向蛋白质体转变的基础，并发现其他碱性残基的替换可调节静电排斥和溶剂化，从而获得动力学捕获物种。这些结构包括互连胶束、小（约200纳米）和大（>5微米）囊泡，在硅化后可通过扫描电子显微镜（SEM）成像轻松观察。分子动力学（MD）模拟和AlphaFold预测揭示，正电荷残基的突变改变了硅结合片段的界面堆积、水合作用和构象自由度。总体而言，我们的结果确立了序列和热能作为协同杠杆，利用固体结合ELP实现跨长度尺度的形态控制，并将矿化确立为可视化动态软物质组装体结构的强大工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41368941/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41368941/",
+  "paper_page_path": "papers/pubmed/41368941/index.html"
+}

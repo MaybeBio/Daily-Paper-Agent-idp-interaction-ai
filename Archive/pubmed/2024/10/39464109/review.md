@@ -1,0 +1,121 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodology, claims, and evidence as presented in the provided text; no external verification of data or code
+- **Shared manuscript claim summary** The authors introduce SeqDance and ESMDance, two protein language models pre-trained on dynamic biophysical properties derived from molecular dynamics simulations and normal mode analyses of over 64,000 proteins. They claim these models capture local dynamic interactions and global conformational properties, and that they improve zero-shot prediction of mutation effects, particularly for designed and viral proteins lacking evolutionary information.
+- **Visible evidence base** Figures referenced (1-5, S1-S7), Tables 1 and S1-S3, methods descriptions, data availability statement, code availability statement
+- **Missing materials affecting confidence** Actual figures and tables not provided; supplementary materials not provided; benchmark details for ProteinGYM comparisons not fully specified; hyperparameter details limited; no ablation studies shown
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel and potentially valuable approach to integrating protein dynamics into language model frameworks. The core idea of pre-training on dynamic biophysical properties rather than static structures or sequences alone is timely and addresses a genuine gap in the field. The two-model strategy (SeqDance from scratch, ESMDance building on ESM2) is sensible and the results on designed and viral proteins are encouraging. However, several technical aspects require clarification and additional validation before the claims can be fully established. The reliance on simplified dynamic descriptors, the limited comparison to existing methods, and the absence of key methodological details temper my enthusiasm. The work is likely of interest to the computational biology community, but the current evidence does not fully support all stated conclusions.
+- **Who would be interested in the results, and why** Computational biologists working on protein function prediction, mutation effect prediction, and protein language models. Researchers studying intrinsically disordered proteins and those developing methods for proteins with limited evolutionary information (designed proteins, viral proteins) would find the approach particularly relevant. The work also speaks to the broader community interested in integrating biophysical simulations with deep learning.
+- **Major strengths** 1) Novel integration of dynamics data into protein language models, addressing a clear limitation of current sequence- and structure-based approaches. 2) Large-scale pre-training dataset (64,403 proteins) combining multiple sources of dynamic data. 3) Demonstration of generalization to unseen proteins and different simulation conditions. 4) Zero-shot prediction framework for mutation effects that does not require task-specific training. 5) Clear motivation for using dynamics to complement evolutionary information, especially for proteins lacking homologs.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "SeqDance predicted dynamic property changes reflect mutation effect on protein folding stability" and the reported median Spearman correlation of 0.24 across all 412 proteins.
+  - **Evidence pointer** Figure 4B, 4C, 4D, S5, S6; Methods section "Zero-shot Prediction of Mutation Effects"
+  - **Concern** The zero-shot mutation effect prediction relies on comparing predicted dynamic properties between wild-type and mutant sequences. The authors report a median Spearman correlation of 0.24 for SeqDance, which is modest. More critically, the comparison with ESM2 is confounded: ESM2-35M achieves 0.33, and the authors only show comparable performance when restricting to a subset of 257 proteins with similar homolog counts. The claim that SeqDance is valuable for proteins lacking evolutionary information is supported, but the overall utility of the approach for general mutation effect prediction is not clearly established. The authors do not report whether the differences between SeqDance and ESM2 on the matched subset are statistically significant.
+  - **Why it matters** The central practical claim of the manuscript is that dynamics-based models improve mutation effect prediction. If the improvement is only marginal or limited to specific subsets, the significance of the contribution is diminished. The lack of statistical testing undermines confidence in the reported differences.
+  - **Resolution test** Provide statistical significance testing (e.g., bootstrap or permutation tests) for the differences between SeqDance, ESMDance, and ESM2 on the matched subset. Report performance on additional independent benchmarks beyond Tsuboyama2023 and ProteinGYM. Clarify whether the 0.24 correlation for SeqDance is practically meaningful for real-world applications.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "SeqDance, trained from scratch, learns both local dynamic interactions and global conformational properties for ordered and disordered proteins" and the evaluation of conformational properties in Figure 3.
+  - **Evidence pointer** Figure 3A-D, S4, Table S2; Methods section "Evaluation of Conformational Properties for IDRs and Ordered Structures"
+  - **Concern** The evaluation of global conformational properties (end-to-end distance, asphericity, Rg) uses linear regression on top 200 principal components of mean-pooled embeddings. This is a relatively weak evaluation protocol. The authors do not report confidence intervals for the performance differences, and the comparison to ESM2-650M (a much larger model) is not controlled for model size. The claim that SeqDance "learns" these properties is based on correlation with held-out labels, but the authors do not demonstrate that the learned representations are causally related to the dynamic properties or that they capture information beyond what sequence statistics alone would provide.
+  - **Why it matters** The claim that SeqDance captures global conformational properties is central to the manuscript's thesis. If the evaluation protocol is weak or the comparison unfair, the conclusion may not hold. The lack of model-size-matched comparisons makes it difficult to attribute performance differences to the training objective versus model capacity.
+  - **Resolution test** Include model-size-matched baselines (e.g., ESM2-35M trained on the same data with a masked language modeling objective). Report confidence intervals for all performance metrics. Consider probing the learned representations more directly, e.g., by testing whether attention maps or embeddings correlate with specific dynamic properties in a mechanistic way.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "SeqDance and ESMDance offer a new framework for integrating protein dynamics into language models" and the overall reproducibility of the approach.
+  - **Evidence pointer** Methods sections "Protein Dynamic Data Collection and Processing", "Dynamic Properties Extraction from Structure Ensembles", "Model Architecture", "Pre-training Procedure"
+  - **Concern** Several methodological details are missing or underspecified. The exact composition of the training set after clustering is not fully described (e.g., how many unique proteins from each source). The loss weighting scheme is described qualitatively but the exact formula is not given. The hyperparameter choices (beyond learning rate and batch size) are not reported. The authors state that hyperparameter tuning was not performed, which is acceptable, but the specific choices made (e.g., number of layers, hidden dimension, dropout) should be stated explicitly. The data availability statement points to a HuggingFace dataset, but the code availability statement does not specify the exact version or commit of the code.
+  - **Why it matters** Reproducibility is a core requirement for scientific publication. Without complete methodological details, other groups cannot replicate or build upon this work. The lack of specificity in the training data composition and loss weighting makes it difficult to assess potential biases or artifacts.
+  - **Resolution test** Provide a complete specification of the model architecture, training hyperparameters, and data processing pipeline. Include the exact loss function with all weighting terms. Specify the version of the code and data used for the reported results. Consider providing a Docker container or environment file for reproducibility.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "ESMDance, built upon ESM2 outputs, substantially outperforms ESM2 in zero-shot prediction of mutation effects for designed and viral proteins which lack evolutionary information."
+  - **Evidence pointer** Figure 5A-H, S7; Methods section "Mutation Datasets"
+  - **Concern** The claim of "substantial outperformance" is based on a limited set of benchmarks. For designed proteins, the authors report a median Spearman correlation of 0.46 for ESMDance versus 0.21-0.32 for ESM2 models. While this is a meaningful improvement, the number of designed proteins (135) and viral proteins (23) is relatively small. The authors do not report performance on other types of proteins where evolutionary information is abundant, nor do they compare against state-of-the-art structure-based methods (e.g., AlphaFold-based approaches). The practical significance of the improvement for real-world applications (e.g., variant interpretation in clinical settings) is not discussed.
+  - **Why it matters** The claim of substantial improvement is central to the manuscript's impact. If the improvement is limited to specific protein classes or benchmarks, the generalizability of the approach is questionable. The lack of comparison to structure-based methods weakens the case that dynamics-based features provide unique value.
+  - **Resolution test** Evaluate on additional benchmarks with diverse protein types, including those with abundant evolutionary information. Compare against structure-based baselines (e.g., AlphaFold-based mutation effect predictors). Discuss the practical implications of the observed improvements for real-world applications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Structural dynamics are fundamental to protein functions and mutation effects" is a strong claim that is not explicitly tested in the manuscript. The authors do not directly demonstrate that dynamics are more fundamental than sequence or structure for the tasks considered.
+  - **Required correction** Soften the claim or provide direct evidence supporting it, e.g., by showing that dynamics-based features outperform sequence- and structure-based features in a controlled comparison.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, first paragraph
+  - **Evidence pointer** "Pre-training Protein Language Models on Dynamics Properties of over 64,000 Proteins"
+  - **Issue** The description of the data sources and their relative contributions is brief. The authors mention "high-resolution" and "low-resolution" data but do not clearly define these categories or explain why certain sources are classified as one or the other.
+  - **Required correction** Provide a clear definition of high-resolution vs. low-resolution data and justify the classification of each source.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Dynamic Properties Extraction from Structure Ensembles"
+  - **Evidence pointer** Methods section, equation 1
+  - **Issue** The covariance matrix calculation in equation 1 uses a factor of 1/(p-1), which is appropriate for sample covariance. However, the authors do not specify whether the data are centered before computing the covariance, which is a standard requirement.
+  - **Required correction** Clarify whether the data are mean-centered before computing the covariance matrix.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "SeqDance's Attentions Capture Dynamic Interactions and Co-movement"
+  - **Evidence pointer** Figure 2A-I
+  - **Issue** The authors report Spearman correlations between attention values and dynamic properties but do not provide a null model or baseline for comparison. It is unclear what level of correlation would be expected by chance.
+  - **Required correction** Provide a null model (e.g., permuted attention values) or compare to a baseline model (e.g., random attention) to contextualize the reported correlations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The statement "we are the first to apply this kind of zero-shot strategy to predict mutation effects on protein" is a strong claim that is difficult to verify. The authors do not provide a comprehensive literature search to support this claim.
+  - **Required correction** Soften the claim or provide a more thorough literature review to support it.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Zero-shot Prediction of Mutation Effects"
+  - **Evidence pointer** Methods section, equation 11
+  - **Issue** The zero-shot score in equation 11 uses the mean of relative changes across all residues. This treats all residues equally, but some residues may be more important for stability than others. The authors do not discuss this limitation.
+  - **Required correction** Acknowledge this limitation and discuss potential alternative aggregation strategies.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "ESMDance Enhances Zero-Shot Prediction of Mutation Effects in Designed and Viral Proteins"
+  - **Evidence pointer** Figure 5G
+  - **Issue** The comparison of ESMDance to ESM2-15B on viral proteins shows ESMDance achieving 0.25 versus 0.36 for ESM2-15B. The authors do not discuss this result in detail, which is important because ESM2-15B is a much larger model.
+  - **Required correction** Provide a more detailed discussion of why ESMDance underperforms ESM2-15B on viral proteins and what implications this has for the approach.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Pre-training Procedure"
+  - **Evidence pointer** Methods section, "Pre-training Procedure"
+  - **Issue** The authors state that "hyperparameter tuning was not performed" but do not specify how the current hyperparameters were chosen. This makes it difficult to assess whether the results are robust to hyperparameter choices.
+  - **Required correction** Provide a brief justification for the chosen hyperparameters or state that they were selected based on prior experience.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical significance of mutation effect predictions), R1-M2 (evaluation protocol for conformational properties), R1-M3 (reproducibility details)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The approach of pre-training language models on dynamic biophysical properties is novel and distinct from existing sequence- and structure-based methods. The combination of MD simulation data with language model architectures is creative and timely.
+  - **Scientific importance** The work addresses a real gap in the field, namely the limited incorporation of protein dynamics into deep learning models. The potential applications for mutation effect prediction, especially for proteins lacking evolutionary information, are significant. However, the demonstrated improvements are modest and the practical impact is not fully established.
+  - **Interdisciplinary readership** The work bridges computational biology, biophysics, and machine learning. It is likely to appeal to researchers in all three communities, though the technical depth may limit accessibility for non-specialists.
+  - **Technical soundness** The overall approach is sound, but several technical concerns need to be addressed, including statistical testing, model-size-matched baselines, and reproducibility details. The evaluation protocols for some claims are relatively weak.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, some sections (particularly the methods) are dense and may be challenging for readers without a strong background in both biophysics and deep learning. The figures are referenced but not visible in the provided text, making it difficult to assess their clarity.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the results are encouraging, but the current evidence does not fully support all claims. The authors should address the statistical testing concerns, provide model-size-matched baselines, and improve the reproducibility of the methods. If these issues are resolved, the work would be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that SeqDance "learns" global conformational properties is based on a relatively weak evaluation protocol (linear regression on PCA-reduced embeddings) and may not reflect true mechanistic understanding.
+- The claim of "substantial outperformance" of ESMDance over ESM2 on designed and viral proteins is based on a limited number of benchmarks and lacks statistical significance testing.
+- The statement that "we are the first to apply this kind of zero-shot strategy to predict mutation effects on protein" is difficult to verify and should be supported by a more thorough literature review.
+- The claim that NMA effectively captures dynamic motions similar to MD simulations is based on correlation of linear layer weights (Figure S2), which is an indirect and potentially weak form of evidence.
+- The assertion that deep learning models are "generally robust to noise" in the context of converting coarse-grained trajectories to all-atom trajectories is not supported by specific evidence or references.
+- The practical significance of the reported Spearman correlations (e.g., 0.24 for SeqDance on stability prediction) for real-world applications is not discussed.

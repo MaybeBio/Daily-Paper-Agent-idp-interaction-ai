@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, including summary, introduction, results, discussion, limitations, methods, and data availability statements.
+- **Assessment boundary** Scientific content, experimental design, computational modeling, interpretation, and claims as presented in the provided text. No assessment of figures, tables, or supplementary materials beyond what is described in the text.
+- **Shared manuscript claim summary** The authors propose that liquid-like protein condensates containing actin-binding proteins, regardless of polymerase activity, can assemble and bundle actin filaments. They support this with in vitro experiments on Lamellipodin (mini-Lpd) and a chimeric Eps15-Lifeact construct, alongside agent-based simulations suggesting that multivalent crosslinking of filamentous actin is sufficient for bundling.
+- **Visible evidence base** In vitro phase separation assays, actin assembly assays with fluorescence microscopy, FRAP experiments, mutagenesis constructs, and agent-based computational simulations (Cytosim). Statistical details are referenced to figure captions but not fully visible in the provided text.
+- **Missing materials affecting confidence** Figures, tables, supplementary figures, videos, and detailed simulation parameters are not provided. Exact quantitative results (e.g., aspect ratio distributions, partition coefficients, FRAP recovery curves) are referenced but not shown. Statistical test details and replicate numbers are not visible.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting and potentially generalizable finding: that actin filament assembly and bundling can emerge from condensates of actin-binding proteins without dedicated polymerase activity. The combination of in vitro reconstitution and agent-based modeling is appropriate and the logic is generally clear. However, the evidence as presented in the text is largely qualitative, and several key claims rest on observations that cannot be fully evaluated without the figures. The mechanistic distinction between nucleation, elongation, and bundling is not fully resolved, and the physiological relevance remains speculative. The work is likely of interest to the cytoskeleton and phase separation communities, but the strength of the conclusions currently exceeds what can be verified from the provided material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and phase separation, actin cytoskeleton dynamics, and the biophysical principles of cytoskeletal organization. The finding that generic actin-binding condensates can promote filament assembly and bundling may also interest cell biologists working on actin-rich structures such as lamellipodia, filopodia, and endocytic sites, as well as computational biologists developing models of cytoskeletal self-organization.
+- **Major strengths** The study addresses a timely and important question about the minimal requirements for condensate-mediated actin organization. The use of a non-polymerase actin-binding protein (Lamellipodin) and a designed chimera (Eps15-Lifeact) is a clever approach to isolate the role of actin binding from enzymatic activity. The agent-based model provides a mechanistic framework that generates testable predictions. The writing is clear and the logical progression from observation to hypothesis to test is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that condensates of mini-Lpd alone can assemble and bundle actin filaments, and that this leads to condensate deformation into rod-like structures.
+  - **Evidence pointer** Results section, Figures 4A-H, location not provided
+  - **Concern** The text describes qualitative observations of deformation and phalloidin staining but does not provide quantitative data on filament lengths, bundle thickness, or the proportion of condensates that deform. Without quantitative metrics, it is difficult to assess whether the observed bundling is comparable to that seen with VASP or whether it is a minor effect. The claim that actin assembly occurs "within" condensates is also not rigorously supported, as the text does not rule out assembly at the condensate interface or in the surrounding solution followed by partitioning.
+  - **Why it matters** The central conclusion that actin-binding condensates are sufficient for assembly and bundling depends on demonstrating robust, reproducible effects. Qualitative descriptions are insufficient to establish this, especially given the surprising nature of the claim that a non-polymerase can promote assembly.
+  - **Resolution test** Provide quantitative data on filament density, length distributions, bundle dimensions, and the fraction of condensates that deform as a function of actin concentration. Include appropriate controls (e.g., condensates of a non-actin-binding protein) and statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic resolution
+  - **Claim pointer** The authors propose that multivalent crosslinking of filamentous actin by condensate proteins is the key mechanism for bundling, and that this also facilitates filament assembly.
+  - **Evidence pointer** Results section, Figures 4I-K, 5A-D, 7H, location not provided
+  - **Concern** The model distinguishes between shell and ring states, but the text does not clearly explain how the model accounts for filament nucleation or elongation. The claim that multivalent crosslinking "facilitates assembly" is mechanistically vague. Does the model include monomer binding, filament nucleation, or elongation? If not, how does it support conclusions about assembly rather than just bundling? The experimental data on VASP mutants (mut-GAB and mut-FAB) are described but not shown, and the text does not specify whether these mutants retain condensate formation or actin binding.
+  - **Why it matters** The manuscript claims to identify a general principle, but the mechanism linking crosslinking to assembly is not clearly articulated or tested. Without a clear mechanistic model, the conclusions remain descriptive rather than explanatory.
+  - **Resolution test** Clarify what the model does and does not include. If nucleation and elongation are not modeled, temper claims about assembly. Provide data on the VASP mutants, including confirmation of their condensate formation and actin-binding properties, and show how their behavior compares to wild-type in quantitative terms.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that "any filamentous-actin-binding protein that participates in protein condensation" could organize actin filaments.
+  - **Evidence pointer** Discussion, location not provided
+  - **Concern** This is a broad generalization based on two proteins (mini-Lpd and Eps15-Lifeact) and one computational model. The text does not discuss potential exceptions or limitations, such as proteins that bind actin but do not form condensates, or condensates that sequester actin without promoting assembly. The claim may be overstated given the limited experimental evidence.
+  - **Why it matters** The title and abstract emphasize generality, but the evidence supports a more modest conclusion. Overgeneralization could mislead readers and overstate the significance of the findings.
+  - **Resolution test** Soften the claim to reflect the specific systems studied, or provide additional examples of diverse actin-binding condensate proteins that show similar behavior. Discuss potential counterexamples or conditions under which the proposed mechanism might not apply.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 3
+  - **Evidence pointer** Location not provided
+  - **Issue** The transition from discussing VASP and Lamellipodin interactions to the broader hypothesis is abrupt. The rationale for why Lamellipodin alone might assemble actin is not fully developed before the results are presented.
+  - **Required correction** Add a sentence or two explaining the logic: if condensates concentrate actin-binding proteins, multivalent interactions with filaments may be sufficient for assembly and bundling, independent of polymerase activity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Protein purification
+  - **Evidence pointer** Location not provided
+  - **Issue** The purification protocols are described in detail, but the yields or final concentrations of proteins are not reported. This makes it difficult to assess the practicality of the methods.
+  - **Required correction** Include typical yields or final protein concentrations for each construct.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Quantification and Statistical Analysis
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states that statistical details are in figure captions, but these are not visible. For a standalone assessment, key information such as number of replicates, error bars, and significance tests should be summarized in the text.
+  - **Required correction** Provide a brief summary of the statistical approach in the main text, including the number of independent experiments and the types of tests used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Model validation
+  - **Affected element** Results, Agent-based simulations
+  - **Evidence pointer** Location not provided
+  - **Issue** The model is described as predictive, but the text does not state whether the model was validated against the experimental data or whether it was used to make predictions that were subsequently tested.
+  - **Required correction** Clarify the relationship between model and experiment. Was the model calibrated to match experimental observations, or did it generate predictions that were then confirmed experimentally?
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative experimental data is the primary technical failing. The manuscript relies heavily on qualitative descriptions of microscopy images, which are not sufficient to support the strong claims made. Additionally, the mechanistic link between crosslinking and filament assembly is not clearly established, either experimentally or in the model. The VASP mutant experiments are described but not shown, and their interpretation is unclear without details on the mutants' properties.
+- **Assessment against Nature-style criteria** Originality: The idea that generic actin-binding condensates can promote assembly and bundling is novel and extends previous work on VASP. Scientific importance: The findings could broaden the range of proteins considered relevant to actin organization and may have implications for understanding actin dynamics in diverse cellular contexts. Interdisciplinary readership: The work bridges biophysics, cell biology, and computational modeling, and should appeal to readers across these fields. Technical soundness: The experimental approach is reasonable, but the evidence is currently too qualitative to be fully convincing. The model is a useful tool but its assumptions and limitations need clearer articulation. Readability for nonspecialists: The manuscript is generally well written and accessible, though some sections assume familiarity with actin biology and phase separation concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and potentially significant, but the current evidence does not fully establish the claims. Quantitative data, clearer mechanistic explanation, and a more measured interpretation of generality are needed.
+
+## Risk / unsupported claims
+- The claim that "any filamentous-actin-binding protein that participates in protein condensation" can organize actin filaments is unsupported by the limited experimental evidence.
+- The assertion that condensates of mini-Lpd alone can assemble actin filaments is not quantitatively supported.
+- The mechanistic claim that multivalent crosslinking facilitates filament assembly is not clearly demonstrated.
+- The statement that G-actin concentration is not correlated with assembly is based on data not shown in the text.
+- The relevance of the findings to living cells is acknowledged as untested, but the discussion implies broader implications that are not yet justified.

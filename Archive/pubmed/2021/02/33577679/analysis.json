@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33577679",
+  "title": "Interplay of folded domains and the disordered low-complexity domain in mediating hnRNPA1 phase separation.",
+  "authors": "Martin, Erik W; Thomasen, F Emil; Milkovic, Nicole M; Cuneo, Matthew J; Grace, Christy R; Nourse, Amanda; Lindorff-Larsen, Kresten; Mittag, Tanja",
+  "journal": "Nucleic acids research",
+  "published_date": "2021-02-13",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合SAXS与粗粒化MD模拟，揭示hnRNPA1折叠RRM结构域与无序LCD间的瞬时互作如何调控相分离的盐依赖性，直接聚焦IDR-折叠域互作机制建模，与课题高度契合。",
+  "abstract": "Liquid-liquid phase separation underlies the membrane-less compartmentalization of cells. Intrinsically disordered low-complexity domains (LCDs) often mediate phase separation, but how their phase behavior is modulated by folded domains is incompletely understood. Here, we interrogate the interplay between folded and disordered domains of the RNA-binding protein hnRNPA1. The LCD of hnRNPA1 is sufficient for mediating phase separation in vitro. However, we show that the folded RRM domains and a folded solubility-tag modify the phase behavior, even in the absence of RNA. Notably, the presence of the folded domains reverses the salt dependence of the driving force for phase separation relative to the LCD alone. Small-angle X-ray scattering experiments and coarse-grained MD simulations show that the LCD interacts transiently with the RRMs and/or the solubility-tag in a salt-sensitive manner, providing a mechanistic explanation for the observed salt-dependent phase separation. These data point to two effects from the folded domains: (i) electrostatically-mediated interactions that compact hnRNPA1 and contribute to phase separation and (ii) increased solubility at higher ionic strengths mediated by the folded domains. The interplay between disordered and folded domains can modify the dependence of phase behavior on solution conditions and can obscure signatures of physicochemical interactions underlying phase separation.",
+  "abstract_zh": "液-液相分离（liquid-liquid phase separation）是细胞无膜区室化的基础。 intrinsically disordered low-complexity domains (LCDs) 通常介导相分离，但其相行为如何被折叠结构域调节尚不完全清楚。在此，我们探究RNA结合蛋白hnRNPA1的折叠结构域与无序结构域之间的相互作用。hnRNPA1的LCD在体外足以介导相分离。然而，我们表明，即使在无RNA条件下，折叠的RRM结构域和折叠的溶解度标签也会改变相行为。值得注意的是，折叠结构域的存在逆转了相对于仅含LCD时相分离驱动力的盐依赖性。小角X射线散射实验和粗粒化分子动力学（molecular dynamics）模拟显示，LCD与RRM和/或溶解度标签以盐敏感方式瞬时相互作用，为观察到的盐依赖性相分离提供了机制解释。这些数据指出折叠结构域的两个效应：（i）静电介导的相互作用使hnRNPA1压缩并促进相分离，以及（ii）折叠结构域介导的高离子强度下溶解度增加。无序与折叠结构域之间的相互作用可改变相行为对溶液条件的依赖性，并可能掩盖相分离背后物理化学相互作用的特征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33577679/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33577679/",
+  "paper_page_path": "papers/pubmed/33577679/index.html"
+}

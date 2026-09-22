@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2025.11.21.25340742",
+  "title": "Integrating Protein-protein Interaction Networks and Machine Learning to Identify Biomarkers of Cancer Onset",
+  "authors": "Hongyue Chen; Min Ma; Haoyu Liu; Qian Yang; Jiqiu Wang; Jie Zheng",
+  "journal": "medRxiv",
+  "published_date": "2025-11-22",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 3,
+  "one_liner_zh": "该文利用PPI网络和机器学习预测癌症发病生物标志物，虽涉及PPI和机器学习，但对象非无序蛋白/IDR/相分离，且无互作机制建模，仅应用预测，与本课题关联弱。",
+  "abstract": "Recent large-scale plasma proteomic studies have identified a set of biomarkers for the diagnosis of early cancer onset, but the predictive performance is still a challenging problem. Most existing studies have treated proteins as independent markers, ignoring their functional interdependencies within the biological network. We consider that protein–protein interaction (PPI) networks can capture coordinated biological signals to enhance the predictive performance. We identified 1,605 high-confidence PPI pairs of proteins (corresponding to 1,155 unique proteins) from the STRING database (confidence scores>0.9). The plasma proteomic data of these pairs were extracted from a subset of 38,585 UK Biobank participants with Olink measurements (noted as UKB-PPP). The univariate Cox regression (p<0.05) integrated with elastic-net machine learning models was used to build PPI predictive model on 23 cancer types, which seven cancer types with robust PPI associated with were included in the final predictive model. In general, models included proteomics features outperformed those based on age, sex, and lifestyles. Incorporating PPI-derived interaction features further improved prediction performance in three of the seven cancer models, with melanoma showing a significant improvement compared to the base model in C-index (ΔC-index = 0.13). In summary, integrating PPI networks with proteomic models could provide predictive gains in specific cancer types and underscore the value of molecular interaction patterns as complementary biomarkers for cancer onset.",
+  "abstract_zh": "近期的大规模血浆蛋白质组学研究已识别出一组用于早期癌症发病诊断的生物标志物，但预测性能仍是一个具有挑战性的问题。大多数现有研究将蛋白质视为独立标志物，忽略了它们在生物网络中的功能相互依赖性。我们认为，蛋白质-蛋白质相互作用（protein–protein interaction, PPI）网络能够捕获协调的生物信号，以增强预测性能。我们从STRING数据库（置信度评分>0.9）中识别出1,605对高置信度的PPI蛋白质对（对应1,155个独特蛋白质）。这些配对的血浆蛋白质组数据提取自38,585名具有Olink测量的UK Biobank参与者子集（记为UKB-PPP）。采用单变量Cox回归（p<0.05）结合弹性网络机器学习模型，构建了针对23种癌症类型的PPI预测模型，其中七种具有稳健PPI关联的癌症类型被纳入最终预测模型。总体而言，包含蛋白质组学特征的模型优于基于年龄、性别和生活方式的模型。在七个癌症模型中，整合PPI衍生的相互作用特征进一步改善了其中三个模型的预测性能，其中黑色素瘤在C-index上相比基础模型有显著提升（ΔC-index = 0.13）。总之，将PPI网络与蛋白质组学模型整合可在特定癌症类型中提供预测增益，并强调了分子相互作用模式作为癌症发病补充生物标志物的价值。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.medrxiv.org/content/10.1101/2025.11.21.25340742",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2025.11.21.25340742",
+  "paper_page_path": "papers/medrxiv/10.1101_2025.11.21.25340742/index.html"
+}

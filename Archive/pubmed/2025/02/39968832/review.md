@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability statement)
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations and fluorescence-based experiments to show that PEG induces specific, non-classical interactions with mCherry, including a wrapping mode around lysine residues, leading to structural and dynamical changes that explain reduced fluorescence lifetime and aggregation, in contrast to bulkier or chemically different crowders.
+- **Visible evidence base** Simulation trajectories (MD), fluorescence correlation spectroscopy (FCS) measurements, fluorescence lifetime measurements, analysis of protein crystal structures in the PDB
+- **Missing materials affecting confidence** Figures and tables referenced but not provided (Figures 1–8, S1–S27; Tables S1–S3); simulation parameter details; experimental replicates and error analysis; raw FCS fitting parameters; PDB analysis methodology details; video file (Video S1)
+
+## Reviewer
+- **Overall assessment** This manuscript presents a detailed computational and experimental study of PEG–mCherry interactions, identifying a specific wrapping mode around lysine residues that challenges the classical view of PEG as an inert crowder. The work is timely and relevant to the crowding and protein biophysics communities. However, the manuscript has several technical and interpretive issues that need to be addressed before the conclusions are fully supported. The link between simulation-observed wrapping and experimental fluorescence lifetime changes is suggestive but not definitively established. The PDB analysis is interesting but lacks methodological detail. Overall, the work has merit but requires revisions to strengthen the evidence base and clarify the claims.
+- **Who would be interested in the results, and why** Researchers studying macromolecular crowding, protein–polymer interactions, fluorescent protein biophysics, and molecular simulation of proteins in crowded environments. The findings on specific PEG–lysine interactions and their functional consequences are relevant to those using PEG as a crowding agent or in protein purification and formulation.
+- **Major strengths**
+  1. The study combines all-atom MD simulations with multiple experimental techniques (FCS, fluorescence lifetime) to provide a multi-scale view of PEG–protein interactions.
+  2. The identification of a specific wrapping mode around lysine residues is a novel and potentially important finding that challenges the assumption of PEG inertness.
+  3. The comparison of PEG with dextran and PVA provides a useful control for isolating the effects of polymer flexibility and chemistry.
+  4. The analysis of PDB structures to assess the prevalence of PEG wrapping adds a valuable bioinformatics dimension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that PEG-induced structural changes in the chromophore pocket provide a mechanism for the reduced fluorescence lifetime observed experimentally.
+  - **Evidence pointer** Results section, Figures 2 and 3; Discussion section
+  - **Concern** The manuscript states that the chromophore pocket volume is larger in PEG than in water, but only in the open state of the β7–β10 gap. However, the direct causal link between this structural change and the experimentally observed fluorescence lifetime reduction is not demonstrated. The authors acknowledge that the wrapping mode is not directly correlated with pocket volume changes (Figure S11k), and the fluorescence lifetime data are from a previous study (Joron et al. 2023). The current manuscript does not present new experimental data directly linking the simulated structural changes to the lifetime effect.
+  - **Why it matters** The central claim of the paper is that specific PEG–mCherry interactions explain the fluorescence lifetime changes. Without a direct experimental test or a more rigorous computational demonstration of causality, this link remains speculative.
+  - **Resolution test** Provide additional simulations or experiments that directly manipulate the wrapping interaction (e.g., mutating lysine residues) and measure the effect on fluorescence lifetime. Alternatively, present a more detailed mechanistic model showing how pocket expansion quantitatively leads to the observed lifetime changes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that FCS measurements reveal mCherry aggregation in the presence of PEG and that this is consistent with the simulation-observed PEG–mCherry interactions.
+  - **Evidence pointer** Results section, Figure 7; Methods section, FCS measurements
+  - **Concern** The FCS analysis uses a model with up to two translational diffusion components and one exponential rapid dynamics process. The manuscript does not provide sufficient detail on how the model was selected, how the number of components was determined, or how the fitting was validated. The interpretation of the rapid dynamics process as reflecting conformational fluctuations is speculative, as it could also arise from triplet state dynamics, photobleaching, or other artifacts. The hydrodynamic radius calculations assume spherical particles, which may not be valid for aggregated species.
+  - **Why it matters** The FCS data are used to support the claim that PEG induces aggregation and slows conformational dynamics. If the fitting model is not robust or the interpretation is ambiguous, this support is weakened.
+  - **Resolution test** Provide a more detailed description of the FCS fitting procedure, including model selection criteria, residuals, and alternative models tested. Include control experiments (e.g., with a non-interacting protein) to rule out artifacts. Justify the spherical assumption or use a more appropriate model for the aggregates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the PDB analysis demonstrates that PEG wrapping around lysine residues is a common interaction mode, present in at least 20% of PEG-containing crystal structures.
+  - **Evidence pointer** Results section, Figure 6; Data availability statement
+  - **Concern** The methodology for the PDB analysis is not described in the Methods section. The criteria for identifying "wrapping" are not defined, and the threshold of 4 oxygen atoms in contact with a lysine residue appears arbitrary. The authors do not specify how they searched the PDB, what filters were applied, or how they handled redundancy in the dataset.
+  - **Why it matters** This analysis is used to generalize the findings beyond mCherry. Without a clear and reproducible methodology, the validity of this generalization cannot be assessed.
+  - **Resolution test** Provide a detailed description of the PDB search and analysis methodology, including search terms, filters, and criteria for defining wrapping. Include a sensitivity analysis to show that the results are robust to the choice of contact threshold.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "bio‐macromolecular" uses a non-standard hyphenation.
+  - **Required correction** Change to "bio-macromolecular" or "biomacromolecular" for consistency with standard usage.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, simulation setup
+  - **Evidence pointer** Methods section, System setup and simulation protocol
+  - **Issue** The manuscript states that simulations were "carried out as part of the study of Joron et al. (2023)" and refers to that paper for details. This makes it difficult to assess the current simulations independently.
+  - **Required correction** Provide a more complete description of the simulation parameters (e.g., force field version, water model, temperature/pressure coupling, simulation length, number of replicates) in the current manuscript or as supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, FCS measurements
+  - **Evidence pointer** Results section, Figure 7
+  - **Issue** The manuscript reports hydrodynamic radii and rapid dynamics timescales but does not provide error bars or statistical significance tests for the differences between conditions.
+  - **Required correction** Add error bars to the reported values and perform appropriate statistical tests to support claims of differences between PEG concentrations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The statement "we suppose that the volume exclusion effect would have little influence on the structure of the β‐barrel" is presented without supporting evidence or citation.
+  - **Required correction** Provide a citation or a brief justification for this assumption.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, PEG wrapping
+  - **Evidence pointer** Results section, Figure 5
+  - **Issue** The authors mention that wrapping is observed for arginine residues but to a lesser extent than lysine. The structural basis for this difference is discussed, but no quantitative comparison is provided.
+  - **Required correction** Provide quantitative data (e.g., contact probabilities or number of oxygen atoms in contact) for arginine versus lysine residues to support the claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal link between simulated structural changes and fluorescence lifetime), R1-M2 (FCS model robustness and interpretation)
+- **Assessment against Nature-style criteria**
+  - **Originality** The identification of a specific wrapping mode of PEG around lysine residues is a novel contribution that extends beyond classical crowding models. The combination of simulation, experiment, and PDB analysis is creative.
+  - **Scientific importance** The findings have implications for understanding how PEG, a widely used crowding agent, interacts with proteins at a molecular level. This is important for interpreting crowding experiments and for applications where PEG is used in protein formulations.
+  - **Interdisciplinary readership** The work bridges computational biophysics, experimental fluorescence spectroscopy, and structural bioinformatics. It should appeal to researchers in these fields, though the technical detail may limit broader appeal.
+  - **Technical soundness** The simulation methodology appears sound, but the lack of detail on simulation parameters and the FCS fitting procedure is a concern. The PDB analysis lacks methodological transparency. These issues need to be addressed.
+  - **Readability for nonspecialists** The manuscript is generally well-written but assumes familiarity with MD simulations, FCS, and fluorescence lifetime concepts. The abstract is accessible, but the results section may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding of specific PEG–lysine wrapping is interesting and potentially important, but the causal link to fluorescence lifetime changes and the robustness of the FCS analysis need to be strengthened. The PDB analysis also needs more methodological detail.
+
+## Risk / unsupported claims
+- The claim that PEG-induced pocket expansion is the mechanism for reduced fluorescence lifetime is not directly supported by new experimental data in this manuscript.
+- The interpretation of the FCS rapid dynamics process as reflecting conformational fluctuations is speculative and not rigorously justified.
+- The generalization of the wrapping mode to a common feature of PEG–protein interactions based on the PDB analysis is not fully supported due to the lack of methodological detail.
+- The statement that "PEG does not act isotropically, it cannot be considered a classical excluded volume crowder nor a simple viscogen" is a strong conclusion that may be overstated given the limitations of the evidence.

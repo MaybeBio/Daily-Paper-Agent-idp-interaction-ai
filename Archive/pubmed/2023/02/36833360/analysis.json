@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36833360",
+  "title": "Computational Prediction of Protein Intrinsically Disordered Region Related Interactions and Functions.",
+  "authors": "Han, Bingqing; Ren, Chongjiao; Wang, Wenda; Li, Jiashan; Gong, Xinqi",
+  "journal": "Genes",
+  "published_date": "2023-02-26",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述系统梳理了无序蛋白/IDR相关互作与功能的计算方法，涵盖结合模式与位点预测，虽为综述且未深入机制建模，但对象与互作轴契合，方法轴有计算预测内容，对本课题有参考价值。",
+  "abstract": "Intrinsically Disordered Proteins (IDPs) and Regions (IDRs) exist widely. Although without well-defined structures, they participate in many important biological processes. In addition, they are also widely related to human diseases and have become potential targets in drug discovery. However, there is a big gap between the experimental annotations related to IDPs/IDRs and their actual number. In recent decades, the computational methods related to IDPs/IDRs have been developed vigorously, including predicting IDPs/IDRs, the binding modes of IDPs/IDRs, the binding sites of IDPs/IDRs, and the molecular functions of IDPs/IDRs according to different tasks. In view of the correlation between these predictors, we have reviewed these prediction methods uniformly for the first time, summarized their computational methods and predictive performance, and discussed some problems and perspectives.",
+  "abstract_zh": "固有无序蛋白质（IDPs）及固有无序区域（IDRs）广泛存在。尽管缺乏明确的三维结构，它们参与众多重要的生物过程。此外，它们还与多种人类疾病密切相关，并已成为药物发现中的潜在靶点。然而，与IDPs/IDRs相关的实验注释与其实际数量之间存在巨大差距。近几十年来，与IDPs/IDRs相关的计算方法蓬勃发展，包括根据不同的任务预测IDPs/IDRs、IDPs/IDRs的结合模式、IDPs/IDRs的结合位点以及IDPs/IDRs的分子功能。鉴于这些预测器之间的关联性，我们首次统一回顾了这些预测方法，总结了它们的计算方法及预测性能，并探讨了一些问题与展望。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36833360/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36833360/",
+  "paper_page_path": "papers/pubmed/36833360/index.html"
+}

@@ -1,0 +1,387 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.04.09.588658",
+  "title": "A promiscuous mechanism to phase separate eukaryotic carbon fixation in the green lineage",
+  "doi": "10.1101/2024.04.09.588658",
+  "abstract": "CO 2 fixation is commonly limited by inefficiency of the CO 2 -fixing enzyme Rubisco. Eukaryotic algae concentrate and fix CO 2 in phase-separated condensates called pyrenoids, which complete up to one-third of global CO 2 fixation. Condensation of Rubisco in pyrenoids is dependent on interaction with disordered linker proteins that show little conservation between species. We developed a sequence-independent bioinformatic pipeline to identify linker proteins in green algae. We report the linker from Chlorella and demonstrate that it binds a conserved site on the Rubisco large subunit. We show the Chlorella linker phase separates Chlamydomonas Rubisco and that despite their separation by ∼800 million years of evolution, the Chlorella linker can support the formation of a functional pyrenoid in Chlamydomonas . This cross-species reactivity extends to plants, with the Chlorella linker able to drive condensation of some native plant Rubiscos in vitro and in planta . Our results represent an exciting frontier for pyrenoid engineering in plants, which is modelled to increase crop yields.",
+  "authors": [
+    "Barrett J",
+    "Naduthodi MI",
+    "Mao Y",
+    "Dégut C",
+    "Musiał S",
+    "Salter A",
+    "Leake MC",
+    "Plevin MJ",
+    "McCormick AJ",
+    "Blaza JN",
+    "Mackinder LC"
+  ],
+  "published_date": "2024-04-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.04.09.588658",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.04.09.588658.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR836013",
+    "raw_record": {
+      "id": "PPR836013",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR836013"
+        ]
+      },
+      "doi": "10.1101/2024.04.09.588658",
+      "title": "A promiscuous mechanism to phase separate eukaryotic carbon fixation in the green lineage",
+      "authorString": "Barrett J, Naduthodi MI, Mao Y, Dégut C, Musiał S, Salter A, Leake MC, Plevin MJ, McCormick AJ, Blaza JN, Mackinder LC.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Barrett J",
+            "lastName": "Barrett",
+            "firstName": "James",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2206-2045"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of York; York, YO10 5DD, UK"
+                },
+                {
+                  "affiliation": "Centre for Novel Agricultural Products (CNAP), Department of Biology, University of York; York, YO10 5DD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Naduthodi MI",
+            "lastName": "Naduthodi",
+            "firstName": "Mihris I.S.",
+            "initials": "MI",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9309-3530"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of York; York, YO10 5DD, UK"
+                },
+                {
+                  "affiliation": "Centre for Novel Agricultural Products (CNAP), Department of Biology, University of York; York, YO10 5DD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mao Y",
+            "lastName": "Mao",
+            "firstName": "Yuwei",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Plant Sciences, School of Biological Sciences, University of Edinburgh; Edinburgh, EH9 3BF, UK"
+                },
+                {
+                  "affiliation": "Centre for Engineering Biology, University of Edinburgh; Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dégut C",
+            "lastName": "Dégut",
+            "firstName": "Clément",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of York; York, YO10 5DD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Musiał S",
+            "lastName": "Musiał",
+            "firstName": "Sabina",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of York; York, YO10 5DD, UK"
+                },
+                {
+                  "affiliation": "Centre for Novel Agricultural Products (CNAP), Department of Biology, University of York; York, YO10 5DD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Salter A",
+            "lastName": "Salter",
+            "firstName": "Aidan",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of York; York, YO10 5DD, UK"
+                },
+                {
+                  "affiliation": "Centre for Novel Agricultural Products (CNAP), Department of Biology, University of York; York, YO10 5DD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leake MC",
+            "lastName": "Leake",
+            "firstName": "Mark",
+            "initials": "MC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1715-1249"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of York; York, YO10 5DD, UK"
+                },
+                {
+                  "affiliation": "School of Physics, Engineering and Technology, University of York; York, YO10 5DD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Plevin MJ",
+            "lastName": "Plevin",
+            "firstName": "Michael",
+            "initials": "MJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2057-8291"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of York; York, YO10 5DD, UK"
+                },
+                {
+                  "affiliation": "York Structural Biology Laboratory, The University of York; York, YO10 5DD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McCormick AJ",
+            "lastName": "McCormick",
+            "firstName": "Alistair",
+            "initials": "AJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Plant Sciences, School of Biological Sciences, University of Edinburgh; Edinburgh, EH9 3BF, UK"
+                },
+                {
+                  "affiliation": "Centre for Engineering Biology, University of Edinburgh; Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blaza JN",
+            "lastName": "Blaza",
+            "firstName": "James",
+            "initials": "JN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5420-2116"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "York Structural Biology Laboratory, The University of York; York, YO10 5DD, UK"
+                },
+                {
+                  "affiliation": "Department of Chemistry, York Structural Biology Laboratory; York, YO10 5DD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mackinder LC",
+            "lastName": "Mackinder",
+            "firstName": "Luke C.M.",
+            "initials": "LC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of York; York, YO10 5DD, UK"
+                },
+                {
+                  "affiliation": "Centre for Novel Agricultural Products (CNAP), Department of Biology, University of York; York, YO10 5DD, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5420-2116"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9309-3530"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1715-1249"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2057-8291"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2206-2045"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "CO  2 fixation is commonly limited by inefficiency of the CO  2 -fixing enzyme Rubisco. Eukaryotic algae concentrate and fix CO  2 in phase-separated condensates called pyrenoids, which complete up to one-third of global CO  2 fixation. Condensation of Rubisco in pyrenoids is dependent on interaction with disordered linker proteins that show little conservation between species. We developed a sequence-independent bioinformatic pipeline to identify linker proteins in green algae. We report the linker from  Chlorella and demonstrate that it binds a conserved site on the Rubisco large subunit. We show the  Chlorella linker phase separates  Chlamydomonas Rubisco and that despite their separation by ∼800 million years of evolution, the  Chlorella linker can support the formation of a functional pyrenoid in  Chlamydomonas . This cross-species reactivity extends to plants, with the  Chlorella linker able to drive condensation of some native plant Rubiscos  in vitro and  in planta . Our results represent an exciting frontier for pyrenoid engineering in plants, which is modelled to increase crop yields.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "206161/Z/17/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/Y000323/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/S015337/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "019.221EN.010",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T007222/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/11/2024.04.09.588658.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.04.09.588658"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR836013"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR836013&type=FILE&fileName=EMS195353-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39384944",
+            "reference": "Nature plants. 2024 Nov;10(11):1801-1813",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS195353",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-04-13",
+      "firstPublicationDate": "2024-04-11",
+      "firstIndexDate": "2024-04-13",
+      "fullTextReceivedDate": "2024-04-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

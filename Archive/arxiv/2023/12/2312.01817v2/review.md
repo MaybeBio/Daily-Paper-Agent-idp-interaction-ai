@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, equations, figure captions, references) as provided in the submission.
+- **Assessment boundary** The review is limited to the scientific content, technical soundness, and presentation of the manuscript as submitted. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors present a novel numerical method for simulating the wetting dynamics of liquid droplets on deformable membranes, combining phase-field and arbitrary Lagrangian-Eulerian (ALE) methods. The model is thermodynamically consistent and validated against analytical shape equations for single droplets. The method is demonstrated in 2D and 3D axisymmetric scenarios, including adhesion, lens formation, wrapping, inverted endocytosis, and the inverted Cheerios effect.
+- **Visible evidence base** The manuscript includes the full model derivation, numerical discretization details, validation against analytical solutions, and a series of illustrative simulations. Figures 1-9 are referenced but not fully visible in the provided text; figure captions are present.
+- **Missing materials affecting confidence** The actual figures and supplementary materials (Appendices I-III) are not provided. This limits the ability to fully assess the quantitative accuracy of the validation and the visual quality of the simulation results. Additionally, the manuscript does not provide a convergence study or a detailed performance analysis of the numerical method.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem in cellular biophysics: the interaction of biomolecular condensates with deformable membranes. The proposed method is a significant technical advance, combining established numerical techniques in a novel way. The thermodynamic consistency of the model is a clear strength. However, the manuscript has several weaknesses that need to be addressed before the case is fully established. The validation is limited to a single static comparison, and the dynamic capabilities of the method are not quantitatively benchmarked. The treatment of membrane permeability and the empirical nature of the permeability indicator function require further justification. The presentation is generally clear but would benefit from a more detailed discussion of the limitations and the numerical cost of the method.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, soft matter physics, and continuum mechanics would be interested. Specifically, those studying membrane remodeling, wetting phenomena, and phase separation in biological systems would find this method valuable. The work is also relevant to the broader community developing numerical methods for fluid-structure interaction and moving boundary problems.
+- **Major strengths**
+    1.  The combination of phase-field and ALE methods is a novel and appropriate approach for this problem, leveraging the strengths of both.
+    2.  The model is derived from a thermodynamically consistent framework, ensuring that the energy dissipation is correctly captured.
+    3.  The validation against analytical shape equations for a single droplet is a strong point, demonstrating the accuracy of the static equilibrium solutions.
+    4.  The range of illustrative simulations (adhesion, lens, wrapping, inverted endocytosis, Cheerios effect) effectively demonstrates the potential of the method.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The manuscript claims the method is validated by comparing simulations for single droplets to theoretical results of shape equations, and that "perfect agreement" is observed.
+    - **Evidence pointer** Section 4.1, Figure 3
+    - **Concern** The validation is limited to a single static equilibrium comparison. The dynamic wetting behavior, which is a central claim of the paper, is not quantitatively validated against any analytical or experimental data. The manuscript states that the hydrodynamic solver was validated previously, but this does not validate the coupled dynamics of the droplet-membrane system. The "perfect agreement" claim is too strong given the limited scope of the comparison.
+    - **Why it matters** A numerical method for dynamic wetting must be shown to accurately capture the time evolution of the system, not just the final equilibrium state. Without a dynamic benchmark, the reliability of the method for predicting the transient behavior of biological systems is not established.
+    - **Resolution test** The authors should provide a quantitative comparison of the dynamic evolution of the droplet-membrane system against an analytical solution (e.g., for a simplified geometry) or against a well-established numerical method. This could include a comparison of the time-dependent contact angle, droplet shape, or membrane deformation.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The model incorporates membrane permeability via a term \(P p_{\text{diff}} \phi_d \mathbf{n}\) in the boundary condition, with an indicator function \(\phi_d\) that limits permeability to a distance \(d\) away from the droplet interface.
+    - **Evidence pointer** Section 3.1, Equation (22)
+    - **Concern** The introduction of the indicator function \(\phi_d\) is ad hoc and its dependence on the parameter \(d\) is not discussed. The manuscript states that \(d\) is "typically \(3\varepsilon\)" but does not provide a sensitivity analysis or a physical justification for this choice. The effect of this parameter on the simulation results is not explored.
+    - **Why it matters** The permeability of the membrane is a key physical property that can significantly affect the dynamics of the system. An arbitrary parameter that controls this property without a clear physical basis or sensitivity analysis undermines the predictive power of the model.
+    - **Resolution test** The authors should provide a physical justification for the form of the indicator function and a systematic study of the effect of the parameter \(d\) on the simulation outcomes. They should also discuss how the choice of \(d\) relates to the physical properties of the membrane and the droplet.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The manuscript claims to present a "first numerical method to simulate the continuum dynamics of droplets interacting with deformable membranes via wetting."
+    - **Evidence pointer** Section 1, Introduction
+    - **Concern** While the specific combination of methods may be novel, the claim of being the "first" is strong and requires a more thorough literature review. The authors mention one preliminary attempt (Reference [56]) but do not discuss other potential methods, such as boundary integral methods or immersed boundary methods, which have been used for similar problems.
+    - **Why it matters** The novelty of the contribution is a key aspect of its scientific importance. Overstating the novelty can mislead readers and undermine the credibility of the work.
+    - **Resolution test** The authors should provide a more comprehensive review of existing numerical methods for droplet-membrane interactions and clearly state what is new about their approach compared to all previous work.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Section 2.1, Free energy
+    - **Evidence pointer** Equations (2)-(6)
+    - **Issue** The physical meaning of the various energy terms and their coupling is not explained in sufficient detail for a reader who is not an expert in membrane mechanics. For example, the distinction between the membrane surface tension \(\sigma_m\) and the fluid-fluid tension \(\sigma_f\) and how they interact at the contact line could be clarified.
+    - **Required correction** Add a brief physical explanation of each energy term and its role in the system, particularly the membrane terms, to make the model more accessible to a broader audience.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Section 3.4, Remeshing
+    - **Evidence pointer** Section 3.4
+    - **Issue** The remeshing procedure is described, but there is no discussion of its accuracy or the potential for mass or energy conservation errors during the interpolation steps. The manuscript states that the velocity is interpolated to be divergence-free, but the accuracy of this interpolation is not assessed.
+    - **Required correction** Provide a brief analysis of the errors introduced by the remeshing procedure, or at least a discussion of its potential impact on the overall accuracy of the method.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Section 4.2, Droplets on a vesicle
+    - **Evidence pointer** Figure 4, Case 1: Adhesion
+    - **Issue** The manuscript notes that the observed contact angle (\(\alpha = 135^\circ\)) differs from the theoretical prediction (\(151^\circ\)) due to finite size effects. This is a significant discrepancy that is not discussed in detail.
+    - **Required correction** Provide a more detailed discussion of the conditions under which Neumann's law is expected to hold and how the finite size of the system affects the contact angle. This will help readers understand the limitations of the theoretical predictions.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: Lack of dynamic validation.
+    - R1-M2: Ad hoc treatment of membrane permeability.
+- **Assessment against Nature-style criteria**
+    - **Originality** The work is original in its specific combination of phase-field and ALE methods for this problem. However, the claim of being the "first" needs to be tempered with a more thorough literature review.
+    - **Scientific importance** The problem is of high importance in cellular biophysics. The method has the potential to enable new insights into membrane-condensate interactions. However, the lack of dynamic validation and the ad hoc treatment of permeability currently limit the impact.
+    - **Interdisciplinary readership** The work is relevant to researchers in biophysics, soft matter, and computational physics. The presentation is generally accessible, but the physical explanations could be improved for a broader audience.
+    - **Technical soundness** The model derivation is sound and the static validation is convincing. However, the dynamic capabilities are not validated, and the permeability model requires more justification. The numerical method is complex, and the lack of a convergence study is a concern.
+    - **Readability for nonspecialists** The manuscript is well-structured and the writing is clear. However, the physical meaning of the model terms and the limitations of the method could be explained more explicitly for a general scientific audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a promising and potentially important method, but the current evidence is insufficient to fully establish its validity for dynamic problems. The authors should address the concerns regarding dynamic validation and the permeability model before the case is fully made.

@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "34375104",
+    "doi": "10.1021/acs.jpcb.1c04850",
+    "title": "Tardigrade Secretory-Abundant Heat-Soluble Protein Has a Flexible beta-Barrel Structure in Solution and Keeps This Structure in Dehydration."
+  },
+  "content": {
+    "abstract": "Secretory-abundant heat-soluble (SAHS) proteins are unique heat-soluble proteins of Tardigrada and are believed to play an essential role in anhydrobiosis, a latent state of life induced by desiccation. To investigate the dynamic properties, molecular dynamics (MD) simulations of a SAHS protein, RvSAHS1, were performed in solution and under dehydrating conditions. For comparison purposes, MD simulations of a human liver-type fatty-acid binding protein (LFABP) were performed in solution. Furthermore, high-speed atomic force microscopy observations were conducted to ascertain the results of the MD simulations. Three properties of RvSAHS1 were found as follows. (1) The entrance region of RvSAHS1 is more flexible and can be more extensive in solutions compared with that of a human LFABP because there is no salt bridge between the betaD and betaE strands. (2) The intrinsically disordered domain in the N-terminal region significantly fluctuates and can form an amphiphilic alpha-helix. (3) The size of the entrance region gets smaller along with dehydration, keeping the beta-barrel structure. Overall, the obtained results provide atomic-level dynamics of SAHS proteins.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Miyazawa, Kazuhisa",
+        "Itoh, Satoru G",
+        "Watanabe, Hiroki",
+        "Uchihashi, Takayuki",
+        "Yanaka, Saeko",
+        "Yagi-Utsumi, Maho",
+        "Kato, Koichi",
+        "Arakawa, Kazuharu",
+        "Okumura, Hisashi"
+      ],
+      "short_names": [
+        "Miyazawa K",
+        "Itoh SG",
+        "Watanabe H",
+        "Uchihashi T",
+        "Yanaka S",
+        "Yagi-Utsumi M",
+        "Kato K",
+        "Arakawa K",
+        "Okumura H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2638-663X",
+        "ORCID: 0000-0002-0263-5312",
+        "ORCID: 0000-0001-8144-740X",
+        "ORCID: 0000-0001-7187-9612",
+        "ORCID: 0000-0002-2893-4919",
+        "ORCID: 0000-0003-3912-5604"
+      ],
+      "affiliations": [
+        "Department of Structural Molecular Science, The Graduate University for Advanced Studies (SOKENDAI), Okazaki, Aichi 444-8787, Japan.",
+        "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+        "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8585, Japan.",
+        "Department of Structural Molecular Science, The Graduate University for Advanced Studies (SOKENDAI), Okazaki, Aichi 444-8787, Japan.",
+        "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+        "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8585, Japan.",
+        "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+        "Department of Physics, Nagoya University, Nagoya 464-8602, Japan.",
+        "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+        "Department of Physics, Nagoya University, Nagoya 464-8602, Japan.",
+        "Institute for Glyco-core Research (iGCORE), Nagoya University, Nagoya 464-8601, Japan.",
+        "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+        "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8585, Japan.",
+        "Department of Functional Molecular Science, The Graduate University for Advanced Studies (SOKENDAI), Okazaki, Aichi 444-8787, Japan.",
+        "Graduate School of Pharmaceutical Sciences, Nagoya City University, Nagoya, Aichi 465-8603, Japan.",
+        "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+        "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8585, Japan.",
+        "Department of Functional Molecular Science, The Graduate University for Advanced Studies (SOKENDAI), Okazaki, Aichi 444-8787, Japan.",
+        "Graduate School of Pharmaceutical Sciences, Nagoya City University, Nagoya, Aichi 465-8603, Japan.",
+        "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+        "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8585, Japan.",
+        "Department of Functional Molecular Science, The Graduate University for Advanced Studies (SOKENDAI), Okazaki, Aichi 444-8787, Japan.",
+        "Graduate School of Pharmaceutical Sciences, Nagoya City University, Nagoya, Aichi 465-8603, Japan.",
+        "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+        "Institute for Advanced Biosciences, Keio University, Tsuruoka 997-0017, Japan.",
+        "Faculty of Environment and Information Studies, Keio University, Fujisawa 252-0882, Japan.",
+        "Systems Biology Program, Graduate School of Media and Governance, Keio University, Fujisawa 252-0882, Japan.",
+        "Department of Structural Molecular Science, The Graduate University for Advanced Studies (SOKENDAI), Okazaki, Aichi 444-8787, Japan.",
+        "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+        "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8585, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Miyazawa, Kazuhisa",
+        "short_name": "Miyazawa K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Molecular Science, The Graduate University for Advanced Studies (SOKENDAI), Okazaki, Aichi 444-8787, Japan.",
+          "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+          "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8585, Japan."
+        ]
+      },
+      {
+        "full_name": "Itoh, Satoru G",
+        "short_name": "Itoh SG",
+        "identifiers": [
+          "0000-0002-2638-663X"
+        ],
+        "affiliations": [
+          "Department of Structural Molecular Science, The Graduate University for Advanced Studies (SOKENDAI), Okazaki, Aichi 444-8787, Japan.",
+          "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+          "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8585, Japan."
+        ]
+      },
+      {
+        "full_name": "Watanabe, Hiroki",
+        "short_name": "Watanabe H",
+        "identifiers": [],
+        "affiliations": [
+          "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+          "Department of Physics, Nagoya University, Nagoya 464-8602, Japan."
+        ]
+      },
+      {
+        "full_name": "Uchihashi, Takayuki",
+        "short_name": "Uchihashi T",
+        "identifiers": [
+          "0000-0002-0263-5312"
+        ],
+        "affiliations": [
+          "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+          "Department of Physics, Nagoya University, Nagoya 464-8602, Japan.",
+          "Institute for Glyco-core Research (iGCORE), Nagoya University, Nagoya 464-8601, Japan."
+        ]
+      },
+      {
+        "full_name": "Yanaka, Saeko",
+        "short_name": "Yanaka S",
+        "identifiers": [],
+        "affiliations": [
+          "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+          "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8585, Japan.",
+          "Department of Functional Molecular Science, The Graduate University for Advanced Studies (SOKENDAI), Okazaki, Aichi 444-8787, Japan.",
+          "Graduate School of Pharmaceutical Sciences, Nagoya City University, Nagoya, Aichi 465-8603, Japan."
+        ]
+      },
+      {
+        "full_name": "Yagi-Utsumi, Maho",
+        "short_name": "Yagi-Utsumi M",
+        "identifiers": [
+          "0000-0001-8144-740X"
+        ],
+        "affiliations": [
+          "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+          "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8585, Japan.",
+          "Department of Functional Molecular Science, The Graduate University for Advanced Studies (SOKENDAI), Okazaki, Aichi 444-8787, Japan.",
+          "Graduate School of Pharmaceutical Sciences, Nagoya City University, Nagoya, Aichi 465-8603, Japan."
+        ]
+      },
+      {
+        "full_name": "Kato, Koichi",
+        "short_name": "Kato K",
+        "identifiers": [
+          "0000-0001-7187-9612"
+        ],
+        "affiliations": [
+          "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+          "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8585, Japan.",
+          "Department of Functional Molecular Science, The Graduate University for Advanced Studies (SOKENDAI), Okazaki, Aichi 444-8787, Japan.",
+          "Graduate School of Pharmaceutical Sciences, Nagoya City University, Nagoya, Aichi 465-8603, Japan."
+        ]
+      },
+      {
+        "full_name": "Arakawa, Kazuharu",
+        "short_name": "Arakawa K",
+        "identifiers": [
+          "0000-0002-2893-4919"
+        ],
+        "affiliations": [
+          "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+          "Institute for Advanced Biosciences, Keio University, Tsuruoka 997-0017, Japan.",
+          "Faculty of Environment and Information Studies, Keio University, Fujisawa 252-0882, Japan.",
+          "Systems Biology Program, Graduate School of Media and Governance, Keio University, Fujisawa 252-0882, Japan."
+        ]
+      },
+      {
+        "full_name": "Okumura, Hisashi",
+        "short_name": "Okumura H",
+        "identifiers": [
+          "0000-0003-3912-5604"
+        ],
+        "affiliations": [
+          "Department of Structural Molecular Science, The Graduate University for Advanced Studies (SOKENDAI), Okazaki, Aichi 444-8787, Japan.",
+          "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8787, Japan.",
+          "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, Okazaki, Aichi 444-8585, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2021 Aug 19",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/11 06:00",
+    "fetched_at": "2026-09-20 04:51:31"
+  },
+  "links": {
+    "cites": [
+      "41683515",
+      "40306492",
+      "39009034",
+      "38114424",
+      "36346137",
+      "35666692",
+      "35458686"
+    ],
+    "refs": [],
+    "similar": [
+      "34375104",
+      "35316056",
+      "28703282",
+      "29493034",
+      "22937162",
+      "38796644",
+      "33148259",
+      "25675104",
+      "38358259",
+      "34763673",
+      "34750927",
+      "17927211",
+      "38114424",
+      "28306513",
+      "36067153",
+      "27555285",
+      "31311155",
+      "25489786",
+      "30144288",
+      "31365253",
+      "25207671",
+      "25463436",
+      "10521281",
+      "31608545",
+      "26910732",
+      "36495665",
+      "30250773",
+      "30868674",
+      "25855872",
+      "10047490",
+      "21192698",
+      "15035630",
+      "23374074",
+      "11934897",
+      "33030907",
+      "7500361",
+      "33117164",
+      "29940944",
+      "19751686",
+      "24603188",
+      "20226016",
+      "28566049",
+      "28962533",
+      "21322033",
+      "29463761",
+      "22125611",
+      "10331654",
+      "22044147",
+      "18070104",
+      "31340759",
+      "21547992",
+      "12499546",
+      "27037822",
+      "23978448",
+      "9737849",
+      "30044203",
+      "24619089",
+      "26735936",
+      "29150976",
+      "21692466",
+      "24960591",
+      "26049530",
+      "30019770",
+      "27677802",
+      "7918391",
+      "31034208",
+      "31984172",
+      "7544285",
+      "18811191",
+      "28901557",
+      "33355572",
+      "31903719",
+      "32642505",
+      "31303975",
+      "3560228",
+      "14581218",
+      "15946678",
+      "25363580",
+      "28650260",
+      "10583419",
+      "24029407",
+      "29104751",
+      "15697203",
+      "2645275",
+      "9650074",
+      "26690982",
+      "10529232"
+    ],
+    "review": [
+      "34375104",
+      "33148259",
+      "30144288",
+      "36495665",
+      "22044147",
+      "21547992",
+      "28901557",
+      "33355572"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.1c04850",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

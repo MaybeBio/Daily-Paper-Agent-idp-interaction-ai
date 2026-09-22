@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37796176",
+  "title": "Comprehensive analysis of liquid-liquid phase separation propensities of HSV-1 proteins and their interaction with host factors.",
+  "authors": "Subedi, Sushma; Nag, Niharika; Shukla, Harish; Padhi, Aditya K; Tripathi, Timir",
+  "journal": "Journal of cellular biochemistry",
+  "published_date": "2023-10-05",
+  "window": {
+    "start": "2023-10-02",
+    "end": "2023-10-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文对HSV-1全蛋白组进行LLPS倾向性预测并分析其与宿主因子互作，虽聚焦病毒蛋白LLPS且涉及PPI，但方法以序列预测工具为主，缺乏AI/物理模拟的机制建模深度。",
+  "abstract": "In recent years, it has been shown that the liquid-liquid phase separation (LLPS) of virus proteins plays a crucial role in their life cycle. It promotes the formation of viral replication organelles, concentrating viral components for efficient replication and facilitates the assembly of viral particles. LLPS has emerged as a crucial process in the replication and assembly of herpes simplex virus-1 (HSV-1). Recent studies have identified several HSV-1 proteins involved in LLPS, including the myristylated tegument protein UL11 and infected cell protein 4; however, a complete proteome-level understanding of the LLPS-prone HSV-1 proteins is not available. We provide a comprehensive analysis of the HSV-1 proteome and explore the potential of its proteins to undergo LLPS. By integrating sequence analysis, prediction algorithms and an array of tools and servers, we identified 10 HSV-1 proteins that exhibit high LLPS potential. By analysing the amino acid sequences of the LLPS-prone proteins, we identified specific sequence motifs and enriched amino acid residues commonly found in LLPS-prone regions. Our findings reveal a diverse range of LLPS-prone proteins within the HSV-1, which are involved in critical viral processes such as replication, transcriptional regulation and assembly of viral particles. This suggests that LLPS might play a crucial role in facilitating the formation of specialized viral replication compartments and the assembly of HSV-1 virion. The identification of LLPS-prone proteins in HSV-1 opens up new avenues for understanding the molecular mechanisms underlying viral pathogenesis. Our work provides valuable insights into the LLPS landscape of HSV-1, highlighting potential targets for further experimental validation and enhancing our understanding of viral replication and pathogenesis.",
+  "abstract_zh": "近年来，研究表明病毒蛋白的液-液相分离（LLPS）在其生命周期中扮演着关键角色。它促进病毒复制细胞器的形成，集中病毒组分以实现高效复制，并有助于病毒颗粒的组装。LLPS已成为单纯疱疹病毒1型（HSV-1）复制和组装中的关键过程。近期研究已鉴定出多种参与LLPS的HSV-1蛋白，包括肉豆蔻酰化被膜蛋白UL11和感染细胞蛋白4；然而，目前尚缺乏对易发生LLPS的HSV-1蛋白在蛋白质组层面的全面理解。我们提供了对HSV-1蛋白质组的综合分析，并探讨了其蛋白发生LLPS的潜力。通过整合序列分析、预测算法以及一系列工具和服务器，我们鉴定出10种具有高LLPS潜力的HSV-1蛋白。通过分析易发生LLPS蛋白的氨基酸序列，我们识别出在LLPS倾向区域常见的特定序列基序和富集的氨基酸残基。我们的发现揭示了HSV-1中多种多样的易发生LLPS蛋白，这些蛋白参与复制、转录调控和病毒颗粒组装等关键病毒过程。这表明LLPS可能在促进特化病毒复制区室的形成及HSV-1病毒粒子的组装中发挥关键作用。HSV-1中易发生LLPS蛋白的鉴定为理解病毒发病机制的分子机制开辟了新途径。我们的工作为HSV-1的LLPS景观提供了宝贵见解，突出了进一步实验验证的潜在靶点，并增进了我们对病毒复制和发病机制的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37796176/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37796176/",
+  "paper_page_path": "papers/pubmed/37796176/index.html"
+}

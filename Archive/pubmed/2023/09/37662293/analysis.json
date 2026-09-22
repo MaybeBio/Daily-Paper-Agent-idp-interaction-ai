@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37662293",
+  "title": "Accurate Simulation of Coupling between Protein Secondary Structure and Liquid-Liquid Phase Separation.",
+  "authors": "Zhang, Yumeng; Li, Shanlong; Gong, Xiping; Chen, Jianhan",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-09-04",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 9,
+  "one_liner_zh": "该文开发混合分辨率HyRes模型，通过原子级主链与粗粒化侧链准确模拟IDP的瞬时二级结构与液-液相分离耦合，并解析突变对LLPS倾向的影响，直接契合无序蛋白互作机制建模主题。",
+  "abstract": "Intrinsically disordered proteins (IDPs) frequently mediate liquid-liquid phase separation (LLPS) that underlies the formation of membraneless organelles. Together with theory and experiment, efficient coarse-grained (CG) simulations have been instrumental in understanding sequence-specific phase separation of IDPs. However, the widely-used Calpha-only models are severely limited in capturing the peptide nature of IDPs, including backbone-mediated interactions and effects of secondary structures, in LLPS. Here, we describe a hybrid resolution (HyRes) protein model for accurate description of the backbone and transient secondary structures in LLPS. With an atomistic backbone and coarse-grained side chains, HyRes accurately predicts the residue helical propensity and chain dimension of monomeric IDPs. Using GY-23 as a model system, we show that HyRes is efficient enough for direct simulation of spontaneous phase separation, and at the same time accurate enough to resolve the effects of single mutations. HyRes simulations also successfully predict increased beta-sheet formation in the condensate, consistent with available experimental data. We further utilize HyRes to study the phase separation of TPD-43, where several disease-related mutants in the conserved region (CR) have been shown to affect residual helicities and modulate LLPS propensity. The simulations successfully recapitulate the effect of these mutants on the helicity and LLPS propensity of TDP-43 CR. Analyses reveal that the balance between backbone and sidechain-mediated interactions, but not helicity itself, actually determines LLPS propensity. We believe that the HyRes model represents an important advance in the molecular simulation of LLPS and will help elucidate the coupling between IDP transient secondary structures and phase separation.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 常介导液-液相分离 (liquid-liquid phase separation, LLPS)，这是无膜细胞器形成的基础。结合理论与实验，高效的粗粒化 (coarse-grained, CG) 模拟在理解IDPs的序列特异性相分离中发挥了重要作用。然而，广泛使用的仅含Cα原子模型在捕捉IDPs的肽本质方面严重受限，包括主链介导的相互作用及二级结构在LLPS中的效应。在此，我们描述了一种混合分辨率 (hybrid resolution, HyRes) 蛋白质模型，用于精确描述LLPS中的主链和瞬时二级结构。凭借原子级主链和粗粒化侧链，HyRes准确预测了单体IDPs的残基螺旋倾向性和链尺寸。以GY-23为模型系统，我们展示了HyRes足够高效以直接模拟自发相分离，同时足够精确以解析单点突变的效应。HyRes模拟还成功预测了凝聚体中β-折叠形成的增加，与现有实验数据一致。我们进一步利用HyRes研究TPD-43的相分离，其中保守区域 (conserved region, CR) 的多个疾病相关突变已被证明影响残基螺旋性并调节LLPS倾向性。模拟成功重现了这些突变对TDP-43 CR螺旋性和LLPS倾向性的影响。分析揭示，主链与侧链介导的相互作用之间的平衡，而非螺旋性本身，实际上决定了LLPS倾向性。我们相信HyRes模型代表了LLPS分子模拟的重要进展，并将有助于阐明IDPs瞬时二级结构与相分离之间的耦合。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37662293/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37662293/",
+  "paper_page_path": "papers/pubmed/37662293/index.html"
+}

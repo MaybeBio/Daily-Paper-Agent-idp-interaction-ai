@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2110.02937v1",
+  "title": "Assembly of Model Postsynaptic Densities Involves Interactions Auxiliary to Stoichiometric Binding",
+  "authors": "Yi-Hsuan Lin; Haowei Wu; Bowen Jia; Mingjie Zhang; Hue Sun Chan",
+  "journal": "Biophys. J. 121 (1) 2022 157-171",
+  "published_date": "2021-10-06",
+  "window": {
+    "start": "2021-10-04",
+    "end": "2021-10-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过平均场LLPS理论结合实验，研究SynGAP/PSD-95无序蛋白复合凝聚体的相分离机制，揭示除化学计量结合外还存在辅助互作驱动PSD组装，属于IDR介导PPI的机制建模，方法为物理理论建模，与课题高度相关。",
+  "abstract": "The assembly of functional biomolecular condensates often involves liquid-liquid phase separation (LLPS) of proteins with multiple modular domains, which can be folded or conformationally disordered to various degrees. To understand the LLPS-driving domain-domain interactions, a fundamental question is how readily the interactions in the condensed phase can be inferred from inter-domain interactions in dilute solutions. In particular, are the interactions leading to LLPS exclusively those underlying the formation of discrete inter-domain complexes in homogeneous solutions? We address this question by developing a mean-field LLPS theory of two stoichiometrically constrained solute species. The theory is applied to the neuronal proteins SynGAP and PSD-95, whose complex coacervate serves as a rudimentary model for neuronal postsynaptic densities (PSDs). The predicted phase behaviors are compared with experiments. Previously, a three-SynGAP, two-PSD-95 ratio was determined for SynGAP/PSD-95 complexes in dilute solutions. However, when this 3:2 stoichiometry is uniformly imposed in our theory encompassing both dilute and condensed phases, the tie-line pattern of the predicted SynGAP/PSD-95 phase diagram differs drastically from that obtained experimentally. In contrast, theories embodying alternate scenarios postulating auxiliary SynGAP-PSD-95 as well as SynGAP-SynGAP and PSD-95-PSD-95 interactions in addition to those responsible for stoichiometric SynGAP/PSD-95 complexes produce tie-line patterns consistent with experiment. Hence, our combined theoretical-experimental analysis indicates that weaker interactions or higher-order complexes beyond the 3:2 stoichiometry, but not yet documented, are involved in the formation of SynGAP/PSD-95 condensates, imploring future efforts to ascertain the nature of these auxiliary interactions in PSD-like LLPS.",
+  "abstract_zh": "功能性生物分子凝聚体的组装通常涉及具有多个模块化结构域的蛋白质的液-液相分离（liquid-liquid phase separation, LLPS），这些结构域可以是折叠的或不同程度构象无序的。为了理解驱动LLPS的结构域间相互作用，一个基本问题是，凝聚相中的相互作用在多大程度上可以从稀溶液中的结构域间相互作用推断出来。特别是，导致LLPS的相互作用是否完全等同于在均质溶液中形成离散结构域复合物所依赖的那些相互作用？我们通过发展一种针对两种化学计量约束溶质物种的均场LLPS理论来探讨这一问题。该理论应用于神经元蛋白SynGAP和PSD-95，其复合凝聚层作为神经元突触后密度（postsynaptic densities, PSDs）的初步模型。预测的相行为与实验进行了比较。此前，在稀溶液中确定了SynGAP/PSD-95复合物的三SynGAP、两PSD-95比例。然而，当这一3:2化学计量比在我们的理论中统一施加于稀相和凝聚相时，预测的SynGAP/PSD-95相图的连接线模式与实验获得的结果显著不同。相比之下，体现替代情景的理论——假设除了负责化学计量SynGAP/PSD-95复合物的相互作用外，还存在辅助的SynGAP-PSD-95以及SynGAP-SynGAP和PSD-95-PSD-95相互作用——产生的连接线模式与实验一致。因此，我们的理论-实验联合分析表明，超出3:2化学计量比的较弱相互作用或高阶复合物，尽管尚未被记录，但参与了SynGAP/PSD-95凝聚体的形成，这促使未来努力确定这些辅助相互作用在PSD样LLPS中的性质。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2110.02937v1",
+  "source_url": "https://arxiv.org/abs/2110.02937v1",
+  "paper_page_path": "papers/arxiv/2110.02937v1/index.html"
+}

@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "38993084",
+    "doi": "10.1021/acs.molpharmaceut.4c00450",
+    "title": "Translocation of Antimicrobial Peptides across Model Membranes: The Role of Peptide Chain Length."
+  },
+  "content": {
+    "abstract": "Cushioned lipid bilayers are structures consisting of a lipid bilayer supported on a solid substrate with an intervening layer of soft material. They offer possibilities for studying the behavior and interactions of biological membranes more accurately under physiological conditions. In this work, we continue our studies of cushion formation induced by histatin 5 ((24)Hst5), focusing on the effect of the length of the peptide chain. (24)Hst5 is a short, positively charged, intrinsically disordered saliva peptide, and here, both a shorter ((14)Hst5) and a longer ((48)Hst5) peptide variant were evaluated. Experimental surface active techniques were combined with coarse-grained Monte Carlo simulations to obtain information about these peptides. Results show that at 10 mM NaCl, both the shorter and the longer peptide variants behave like (24)Hst5 and a cushion below the bilayer is formed. At 150 mM NaCl, however, no interaction is observed for (24)Hst5. On the contrary, a cushion is formed both in the case of (14)Hst5 and (48)Hst5, and in the latter, an additional thick, diffuse, and highly hydrated layer of peptide and lipid molecules is formed, on top of the bilayer. Similar trends were observed from the simulations, which allowed us to hypothesize that positively charged patches of the amino acids lysine and arginine in all three peptides are essential for them to interact with and translocate over the bilayer. We therefore hypothesize that electrostatic interactions are important for the interaction between the solid-supported lipid bilayers and the peptide depending on the linear charge density through the primary sequence and the positively charged patches in the sequence. The understanding of how, why, and when the cushion is formed opens up the possibility for this system to be used in the research and development of new drugs and pharmaceuticals.",
+    "keywords": [
+      "antifungal",
+      "antimicrobial",
+      "cushion formation",
+      "histatin 5",
+      "lipid bilayers",
+      "model membrane",
+      "peptide",
+      "saliva",
+      "solid-supported lipid bilayers"
+    ],
+    "mesh_terms": [
+      "*Lipid Bilayers/chemistry",
+      "*Histatins/chemistry",
+      "*Monte Carlo Method",
+      "Antimicrobial Peptides/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Skog, Amanda E",
+        "Paracini, Nicolo",
+        "Gerelli, Yuri",
+        "Skepo, Marie"
+      ],
+      "short_names": [
+        "Skog AE",
+        "Paracini N",
+        "Gerelli Y",
+        "Skepo M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5655-8298",
+        "ORCID: 0000-0002-8639-9993"
+      ],
+      "affiliations": [
+        "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, SE-221 00, Lund, Sweden.",
+        "Institut Laue-Langevin, 71 Avenue des Martyrs, 38000 Grenoble, France.",
+        "Institute for Complex Systems - National Research Council (ISC-CNR), Piazzale Aldo Moro 2, 00185 Roma, Italy.",
+        "Department of Physics, Sapienza University of Rome, Piazzale Aldo Moro 2, 00185 Roma, Italy.",
+        "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, SE-221 00, Lund, Sweden.",
+        "NanoLund, Lund University, Box 118, 22100 Lund, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Skog, Amanda E",
+        "short_name": "Skog AE",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, SE-221 00, Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Paracini, Nicolò",
+        "short_name": "Paracini N",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Laue-Langevin, 71 Avenue des Martyrs, 38000 Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Gerelli, Yuri",
+        "short_name": "Gerelli Y",
+        "identifiers": [
+          "0000-0001-5655-8298"
+        ],
+        "affiliations": [
+          "Institute for Complex Systems - National Research Council (ISC-CNR), Piazzale Aldo Moro 2, 00185 Roma, Italy.",
+          "Department of Physics, Sapienza University of Rome, Piazzale Aldo Moro 2, 00185 Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Skepö, Marie",
+        "short_name": "Skepö M",
+        "identifiers": [
+          "0000-0002-8639-9993"
+        ],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Lund University, P.O. Box 124, SE-221 00, Lund, Sweden.",
+          "NanoLund, Lund University, Box 118, 22100 Lund, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular pharmaceutics"
+    ],
+    "journal_abbrev": [
+      "Mol Pharm"
+    ],
+    "pub_date": "2024 Aug 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/12 06:41",
+    "fetched_at": "2026-09-21 08:34:16"
+  },
+  "links": {
+    "cites": [
+      "41911046",
+      "40600658"
+    ],
+    "refs": [
+      "37373415",
+      "37227075",
+      "36601945",
+      "36073892",
+      "35662468",
+      "35544232",
+      "35489069",
+      "35059128",
+      "34022911",
+      "33828175",
+      "33337879",
+      "32664360",
+      "32212610",
+      "31725797",
+      "31322398",
+      "31052346",
+      "30372809",
+      "29573987",
+      "29535692",
+      "28808438",
+      "28766679",
+      "27291150",
+      "26914439",
+      "26575776",
+      "26202262",
+      "26038575",
+      "25994597",
+      "24951439",
+      "24123297",
+      "19563654",
+      "19538995",
+      "18230684",
+      "17620386",
+      "17485465",
+      "16901460",
+      "16193040",
+      "15707390",
+      "15025852",
+      "12674513",
+      "11368762",
+      "11099499",
+      "10494618",
+      "10338113",
+      "9923693",
+      "9825223",
+      "9433185",
+      "8297263",
+      "6724693",
+      "6373615",
+      "3944083",
+      "2406266",
+      "1855975",
+      "1478671",
+      "1311950"
+    ],
+    "similar": [
+      "38993084",
+      "37227075",
+      "16042398",
+      "24506488",
+      "28583830",
+      "39720900",
+      "41911046",
+      "8547239",
+      "24892900",
+      "14645040",
+      "37684221",
+      "32212610",
+      "25707312",
+      "34995561",
+      "41515407",
+      "36826226",
+      "33395285",
+      "27529120",
+      "28623332",
+      "29738229",
+      "25614183",
+      "35077676",
+      "19505152",
+      "30292399",
+      "7756552",
+      "23912807",
+      "12423203",
+      "20719234",
+      "17496025",
+      "15454444",
+      "14645060",
+      "30019106",
+      "19691017",
+      "42237812",
+      "40541018",
+      "32992285",
+      "25290376",
+      "25978805",
+      "29595197",
+      "28700927",
+      "10969002",
+      "22433675",
+      "24628664",
+      "25445672",
+      "8823199",
+      "16700563",
+      "31039613",
+      "26914439",
+      "32115014",
+      "22947861",
+      "12119034",
+      "21595453",
+      "40324739",
+      "2252886",
+      "21181143",
+      "15697236",
+      "19576903",
+      "9649314",
+      "26809106",
+      "15035638",
+      "29291379",
+      "27187572",
+      "41539421",
+      "41837350",
+      "24279498",
+      "10590308",
+      "31176053",
+      "23190371",
+      "27435187",
+      "34808479",
+      "25719673",
+      "11148042",
+      "22209923",
+      "37269390",
+      "27720634",
+      "9724538",
+      "35978176",
+      "19560854",
+      "8603084",
+      "34576869",
+      "23836696",
+      "38211645",
+      "24123297",
+      "10913273",
+      "22416892",
+      "18676652",
+      "12885253",
+      "9047309",
+      "41122943",
+      "36680343",
+      "36067064",
+      "29053635",
+      "29125878",
+      "33661339",
+      "23493873",
+      "30448729",
+      "20690652",
+      "23561526",
+      "19481533",
+      "18641064"
+    ],
+    "review": [
+      "38993084",
+      "41911046",
+      "42237812",
+      "27187572",
+      "41539421",
+      "10590308",
+      "38211645"
+    ],
+    "pmc": [
+      "11304388"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38993084/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/mpohbp/article-lookup/doi/10.1021/acs.molpharmaceut.4c00450",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

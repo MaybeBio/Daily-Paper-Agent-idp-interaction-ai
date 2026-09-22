@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "39921725",
+    "doi": "10.1007/s00406-025-01971-8",
+    "title": "Associations between cerebellum and major psychiatric disorders: a bidirectional Mendelian randomization study."
+  },
+  "content": {
+    "abstract": "Despite its small size the cerebellum is an anatomically complex and functionally important part of the brain. Previous studies have demonstrated associations between characteristic features/anatomic anomalies of cerebellum and psychiatric disorders. However, the potential causal relationships are unknown. In this study, a bidirectional two-sample Mendelian randomization approach was employed to investigate single nucleotide polymorphism (SNP) heritability and genetic causal associations between 77 imaging derived phenotypes (IDPs) of the cerebellum and major psychiatric disorder, including major depressive disorder (MDD), bipolar disorder (BD), schizophrenia (SCZ) and attention deficit hyperactivity disorder (ADHD). We identified thirty IDPs for which there was evidence of a causal effect on risk of MDD, BD, SCZ and ADHD. For example, 1 s.d. increase in the mean diffusivity (MD) of the left superior cerebellar peduncle was associated with 32% lower odds of BD risk. Reverse MR indicated that psychiatric disorders was associated with fourteen IDPs. For example, MDD were causally associated with three IDPs of gray matter volume (GMV) of right and left X cerebellum, and vermis crus II cerebellum. These results suggested that there were genetic causal associations between psychiatric disorders and certain cerebellum regions, such as the cognitive function of posterior cerebellar lobes and the connection of cerebellar to cerebrum. Further investigations need to enhance prediction and intervention strategies for potential psychiatric disorder risks.",
+    "keywords": [
+      "Bipolar disorder",
+      "Cerebellum",
+      "Major depressive disorder",
+      "Mendelian randomization",
+      "Schizophrenia and attention deficit hyperactivity disorder"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Mendelian Randomization Analysis",
+      "*Cerebellum/diagnostic imaging/pathology",
+      "Polymorphism, Single Nucleotide",
+      "*Schizophrenia/genetics/diagnostic imaging/pathology",
+      "*Major Depressive Disorder/genetics/diagnostic imaging/pathology",
+      "*Bipolar Disorder/genetics/diagnostic imaging/pathology",
+      "*Attention Deficit Disorder with Hyperactivity/genetics/diagnostic imaging/pathology",
+      "Male",
+      "*Mental Disorders/genetics/pathology/diagnostic imaging",
+      "Magnetic Resonance Imaging",
+      "Female",
+      "Adult"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Ruoyi",
+        "Zhou, Xiao",
+        "Yuan, Dongling",
+        "Lu, Qing",
+        "Chen, Xinyu",
+        "Zhang, Yi"
+      ],
+      "short_names": [
+        "Zhang R",
+        "Zhou X",
+        "Yuan D",
+        "Lu Q",
+        "Chen X",
+        "Zhang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Medical Psychological Center, The Second Xiangya Hospital, Central South University, 139 Renmin Rd, Changsha, Hunan, 410011, China.",
+        "Medical Psychological Center, The Second Xiangya Hospital, Central South University, 139 Renmin Rd, Changsha, Hunan, 410011, China.",
+        "Medical Psychological Center, The Second Xiangya Hospital, Central South University, 139 Renmin Rd, Changsha, Hunan, 410011, China.",
+        "Medical Psychological Center, The Second Xiangya Hospital, Central South University, 139 Renmin Rd, Changsha, Hunan, 410011, China.",
+        "Medical Psychological Center, The Second Xiangya Hospital, Central South University, 139 Renmin Rd, Changsha, Hunan, 410011, China.",
+        "Medical Psychological Center, The Second Xiangya Hospital, Central South University, 139 Renmin Rd, Changsha, Hunan, 410011, China. zhangyipsy@csu.edu.cn.",
+        "Medical Psychological Institute of Central South University, Central South University, Changsha, China. zhangyipsy@csu.edu.cn.",
+        "National Clinical Research Center on Mental Disorders (Xiangya) and National Center for Mental Disorder, Changsha, China. zhangyipsy@csu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Ruoyi",
+        "short_name": "Zhang R",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Psychological Center, The Second Xiangya Hospital, Central South University, 139 Renmin Rd, Changsha, Hunan, 410011, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xiao",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Psychological Center, The Second Xiangya Hospital, Central South University, 139 Renmin Rd, Changsha, Hunan, 410011, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Dongling",
+        "short_name": "Yuan D",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Psychological Center, The Second Xiangya Hospital, Central South University, 139 Renmin Rd, Changsha, Hunan, 410011, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Qing",
+        "short_name": "Lu Q",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Psychological Center, The Second Xiangya Hospital, Central South University, 139 Renmin Rd, Changsha, Hunan, 410011, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xinyu",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Psychological Center, The Second Xiangya Hospital, Central South University, 139 Renmin Rd, Changsha, Hunan, 410011, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yi",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Psychological Center, The Second Xiangya Hospital, Central South University, 139 Renmin Rd, Changsha, Hunan, 410011, China. zhangyipsy@csu.edu.cn.",
+          "Medical Psychological Institute of Central South University, Central South University, Changsha, China. zhangyipsy@csu.edu.cn.",
+          "National Clinical Research Center on Mental Disorders (Xiangya) and National Center for Mental Disorder, Changsha, China. zhangyipsy@csu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European archives of psychiatry and clinical neuroscience"
+    ],
+    "journal_abbrev": [
+      "Eur Arch Psychiatry Clin Neurosci"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/08 19:53",
+    "fetched_at": "2026-09-21 15:27:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38244786",
+      "37054552",
+      "36817187",
+      "36712566",
+      "36702997",
+      "36226106",
+      "35733348",
+      "35396580",
+      "35146077",
+      "34637054",
+      "34385473",
+      "32848931",
+      "32760811",
+      "32642931",
+      "32479334",
+      "30718901",
+      "30355368",
+      "30305740",
+      "30206663",
+      "30069426",
+      "29997061",
+      "29164242",
+      "29079522",
+      "28992587",
+      "27780031",
+      "27665684",
+      "27643430",
+      "27321187",
+      "27219345",
+      "26852094",
+      "25439284",
+      "25407081",
+      "24713859",
+      "23769608",
+      "23452374",
+      "21976249",
+      "21890211",
+      "21182970",
+      "19362604",
+      "18923183",
+      "17714373",
+      "17027928",
+      "16844275",
+      "16791098",
+      "15737658",
+      "12365958",
+      "11164756"
+    ],
+    "similar": [
+      "39921725",
+      "40180049",
+      "41289983",
+      "39716673",
+      "40258734",
+      "40852779",
+      "39029346",
+      "39657824",
+      "41429762",
+      "41485354",
+      "39271072",
+      "39843424",
+      "40209607",
+      "41467486",
+      "40436208",
+      "36259254",
+      "38594691",
+      "39260576",
+      "38657774",
+      "41496070",
+      "40419158",
+      "38860751",
+      "36216997",
+      "39187189",
+      "35150783",
+      "39577028",
+      "38904036",
+      "39442703",
+      "37474010",
+      "39878811",
+      "41546976",
+      "38172785",
+      "34641990",
+      "39350113",
+      "35384380",
+      "38724650",
+      "39332193",
+      "38654235",
+      "39628070",
+      "18833430",
+      "36860142",
+      "41189195",
+      "31919502",
+      "41358468",
+      "39479595",
+      "37230262",
+      "37605207",
+      "38941419",
+      "38827616",
+      "39672473",
+      "31234011",
+      "37907704",
+      "39809351",
+      "39018767",
+      "39542111",
+      "41002039",
+      "41220184",
+      "38428645",
+      "38987359",
+      "40713851",
+      "32479557",
+      "38000183",
+      "39300828",
+      "40782391",
+      "41612910",
+      "32857118",
+      "41621355",
+      "41735274",
+      "38008292",
+      "39271074",
+      "41352654",
+      "39983779",
+      "38317064",
+      "29912442",
+      "38299073",
+      "37954601",
+      "30415649",
+      "40180044",
+      "35465862",
+      "40375535",
+      "38309483",
+      "30206663",
+      "34159505",
+      "28548194",
+      "37979598",
+      "37915018",
+      "35386526",
+      "38461621",
+      "38806463",
+      "36521586",
+      "35265999",
+      "39030227",
+      "38071363",
+      "33733564",
+      "38072245",
+      "38795021",
+      "40754676",
+      "39393463",
+      "41733899",
+      "38163566"
+    ],
+    "review": [
+      "39921725",
+      "41429762",
+      "39271072",
+      "18833430",
+      "36860142",
+      "38000183",
+      "38008292",
+      "39983779",
+      "28548194"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/attentiondeficithyperactivitydisorder.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Attention Deficit Hyperactivity Disorder"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00406-025-01971-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bipolardisorder.html",
+        "provider": "MedlinePlus Consumer Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Bipolar Disorder"
+      }
+    ],
+    "text_mined": []
+  }
+}

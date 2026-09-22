@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "34522860",
+    "doi": "10.1016/j.isci.2021.103017",
+    "title": "Activation of gene expression by detergent-like protein domains."
+  },
+  "content": {
+    "abstract": "The mechanisms by which transcriptional activation domains (tADs) initiate eukaryotic gene expression have been an enigma for decades because most tADs lack specificity in sequence, structure, and interactions with targets. Machine learning analysis of data sets of tAD sequences generated in vivo elucidated several functionality rules: the functional tAD sequences should (i) be devoid of or depleted with basic amino acid residues, (ii) be enriched with aromatic and acidic residues, (iii) be with aromatic residues localized mostly near the terminus of the sequence, and acidic residues localized more internally within a span of 20-30 amino acids, (iv) be with both aromatic and acidic residues preferably spread out in the sequence and not clustered, and (v) not be separated by occasional basic residues. These and other more subtle rules are not absolute, reflecting absence of a tAD consensus sequence, enormous variability, and consistent with surfactant-like tAD biochemical properties. The findings are compatible with the paradigm-shifting nucleosome detergent mechanism of gene expression activation, contributing to the development of the liquid-liquid phase separation model and the biochemistry of near-stochastic functional allosteric interactions.",
+    "keywords": [
+      "Bioinformatics",
+      "Biological sciences",
+      "Computational bioinformatics",
+      "IDR",
+      "Molecular biology",
+      "chromatin",
+      "gene activation",
+      "machine learning",
+      "neural network",
+      "nucleosome",
+      "transcriptional regulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Broyles, Bradley K",
+        "Gutierrez, Andrew T",
+        "Maris, Theodore P",
+        "Coil, Daniel A",
+        "Wagner, Thomas M",
+        "Wang, Xiao",
+        "Kihara, Daisuke",
+        "Class, Caleb A",
+        "Erkine, Alexandre M"
+      ],
+      "short_names": [
+        "Broyles BK",
+        "Gutierrez AT",
+        "Maris TP",
+        "Coil DA",
+        "Wagner TM",
+        "Wang X",
+        "Kihara D",
+        "Class CA",
+        "Erkine AM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA.",
+        "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA.",
+        "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA.",
+        "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA.",
+        "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA.",
+        "Department of Computer Science, Purdue University, West Lafayette, IN 47907, USA.",
+        "Department of Computer Science, Purdue University, West Lafayette, IN 47907, USA.",
+        "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA.",
+        "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Broyles, Bradley K",
+        "short_name": "Broyles BK",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA."
+        ]
+      },
+      {
+        "full_name": "Gutierrez, Andrew T",
+        "short_name": "Gutierrez AT",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA."
+        ]
+      },
+      {
+        "full_name": "Maris, Theodore P",
+        "short_name": "Maris TP",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA."
+        ]
+      },
+      {
+        "full_name": "Coil, Daniel A",
+        "short_name": "Coil DA",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA."
+        ]
+      },
+      {
+        "full_name": "Wagner, Thomas M",
+        "short_name": "Wagner TM",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiao",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Purdue University, West Lafayette, IN 47907, USA."
+        ]
+      },
+      {
+        "full_name": "Kihara, Daisuke",
+        "short_name": "Kihara D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Purdue University, West Lafayette, IN 47907, USA."
+        ]
+      },
+      {
+        "full_name": "Class, Caleb A",
+        "short_name": "Class CA",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA."
+        ]
+      },
+      {
+        "full_name": "Erkine, Alexandre M",
+        "short_name": "Erkine AM",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN 46208, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2021 Sep 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/16 06:00",
+    "fetched_at": "2026-09-20 05:26:07"
+  },
+  "links": {
+    "cites": [
+      "42519045",
+      "41838698",
+      "41000786",
+      "40371733",
+      "39677729",
+      "39657052",
+      "39524347",
+      "38766093",
+      "38056064",
+      "37462277"
+    ],
+    "refs": [
+      "32416068",
+      "30587571",
+      "30449618",
+      "30297207",
+      "30006452",
+      "29759983",
+      "29562181",
+      "29525204",
+      "28701416",
+      "27679670",
+      "27175900",
+      "25122681",
+      "24995982",
+      "22399315",
+      "22084422",
+      "21606332",
+      "17467953",
+      "16877712",
+      "15826952",
+      "15674282",
+      "11580863",
+      "9377276",
+      "9121580",
+      "7108955",
+      "3115591"
+    ],
+    "similar": [
+      "34522860",
+      "30297207",
+      "39214280",
+      "10581386",
+      "26518482",
+      "34038708",
+      "35413815",
+      "33563719",
+      "30086749",
+      "12902343",
+      "12133832",
+      "29137603",
+      "11368795",
+      "27706140",
+      "32987404",
+      "33866359",
+      "27249516",
+      "28977529",
+      "24076158",
+      "26315910",
+      "30871473",
+      "28977568",
+      "26537679",
+      "35181793",
+      "11223263",
+      "28784160",
+      "27864306",
+      "31805995",
+      "31863747",
+      "28060558",
+      "32689928",
+      "32000688",
+      "27111891",
+      "28615069",
+      "31881832",
+      "18753212",
+      "28057745",
+      "32825095",
+      "8806843",
+      "28924037",
+      "28863138",
+      "8639829",
+      "34179096",
+      "2562188",
+      "28742097",
+      "9401021",
+      "24675874",
+      "26150425",
+      "21291263",
+      "8972191",
+      "19357160",
+      "29335803",
+      "32895530",
+      "35354608",
+      "31049567",
+      "1448082",
+      "12468553",
+      "31275364",
+      "30395328",
+      "7559631",
+      "17804822",
+      "31834974",
+      "27196604",
+      "29416042",
+      "34415530",
+      "17021049",
+      "25274727",
+      "11792870",
+      "22191432",
+      "9033395"
+    ],
+    "review": [
+      "34522860",
+      "30297207",
+      "39214280",
+      "27864306",
+      "31863747",
+      "28060558",
+      "27111891",
+      "31275364"
+    ],
+    "pmc": [
+      "8426559"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(21)00985-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34522860/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34522860",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-107",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

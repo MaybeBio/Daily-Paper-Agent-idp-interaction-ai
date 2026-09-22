@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors propose GraphEBM, an SE(3) equivariant graph attention network trained as an energy-based model for protein side chain conformation. They claim it outperforms Rosetta and state-of-the-art deep learning methods on rotamer recovery, and improves χ1 rotamer recovery by 22.2% on average over PULCHRA in combinatorial side chain optimization.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or methodological specifics beyond the stated claims
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, benchmark protocols, dataset descriptions, training details, hyperparameters, baseline implementations, and statistical significance tests
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of SE(3) equivariant graph attention networks to protein side chain conformation prediction via an energy-based formulation. The core idea is timely given the growing interest in equivariant deep learning for structural biology. However, the abstract provides insufficient detail to evaluate the validity, reproducibility, or significance of the reported results. Key methodological choices, benchmark fairness, and statistical rigor are not assessable from the supplied material. The claims of outperformance over Rosetta and deep learning baselines, as well as the 22.2% improvement over PULCHRA, require substantial supporting evidence that is not visible here.
+- **Who would be interested in the results, and why** Computational biologists, protein engineers, and machine learning researchers working on protein structure prediction and design. The work could interest those seeking learned energy functions as alternatives to physics-based or knowledge-based potentials, and those exploring equivariant neural networks for molecular tasks.
+- **Major strengths** The use of SE(3) equivariance is a principled design choice for protein conformation tasks, aligning with physical symmetries. Framing the network as an energy-based model offers a flexible approach that could integrate with broader protein design pipelines. The reported benchmark against Rosetta and deep learning methods suggests practical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "GraphEBM was benchmarked on the rotamer recovery task and outperformed both Rosetta and the state-of-the-art deep learning based methods."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states outperformance over Rosetta and deep learning baselines without providing any numerical results, dataset specifications, or comparison protocols. It is unclear which rotamer recovery benchmark was used, how baselines were configured, and whether differences are statistically significant.
+  - **Why it matters** Without quantitative evidence and benchmark details, the claim of superiority cannot be verified. Rotamer recovery results are highly sensitive to dataset composition, side chain definitions, and evaluation metrics. The absence of these details undermines the core contribution.
+  - **Resolution test** Provide a table or figure with rotamer recovery accuracy (e.g., χ1, χ2, χ3, χ4 recovery rates) for GraphEBM, Rosetta, and each deep learning baseline on a defined test set, with error bars or confidence intervals and a description of statistical testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "GraphEBM is equivariant to the SE(3) group transformation" and "a graph attention network as an energy-based model"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not explain how the energy-based model is trained, how the energy function is defined, or how equivariance is achieved in the network architecture. It is unclear whether the model predicts side chain conformations directly or samples from a learned energy landscape.
+  - **Why it matters** The novelty and technical soundness depend on these details. Without a clear description of the training objective (e.g., contrastive divergence, score matching, or direct energy regression) and the equivariant architecture, the approach cannot be reproduced or compared fairly with existing methods.
+  - **Resolution test** Include a methods section or supplementary text describing the energy function formulation, training loss, network architecture (e.g., equivariant message passing layers), and how SE(3) equivariance is enforced.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Result interpretation
+  - **Claim pointer** "GraphEBM also yielded promising results on combinatorial side chain optimization, improving 22.2% χ1 rotamer recovery to the PULCHRA method on average."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The 22.2% improvement is reported as an average but the abstract does not specify over how many proteins, which test set, or how PULCHRA was used. The phrase "improving 22.2% χ1 rotamer recovery to the PULCHRA method" is ambiguous, as it could mean an absolute or relative improvement.
+  - **Why it matters** Combinatorial side chain optimization is a distinct task from single-structure rotamer recovery, and the improvement claim needs clear context. Ambiguity in the metric and baseline undermines the interpretability of the result.
+  - **Resolution test** Specify the number of test proteins, the exact metric (absolute or relative improvement), and provide a comparison table showing χ1 recovery for GraphEBM and PULCHRA on the same set.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title and abstract terminology
+  - **Evidence pointer** Abstract title and first paragraph
+  - **Issue** The term "Equivalent" in the title appears to be a typo for "Equivariant". This could confuse readers and affect indexing.
+  - **Required correction** Change "Equivalent" to "Equivariant" in the title.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Contextual framing
+  - **Affected element** Introduction of energy functions
+  - **Evidence pointer** First sentence of abstract
+  - **Issue** The abstract states that manual feature engineering "might suffer from knowledge bias" but does not provide examples or citations to support this claim. This is a general assertion that could be strengthened.
+  - **Required correction** Add a brief example or citation to illustrate the limitation of manual energy functions, or soften the claim to avoid overgeneralization.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract does not mention whether the code or trained models will be made publicly available, which is important for reproducibility in the machine learning community.
+  - **Required correction** State in the abstract or main text whether code and models are available, and provide a repository link if applicable.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative results, methodological details, and clear benchmark definitions, all of which are essential to establish the validity of the claims.
+- **Assessment against Nature-style criteria** Originality: The idea of using an SE(3) equivariant graph attention network as an energy-based model for side chain conformation is novel and timely, but the abstract does not demonstrate how it differs from existing equivariant models or energy-based approaches. Scientific importance: If the claims hold, the work could advance protein design by providing a learned energy function, but the significance is not yet established from the abstract alone. Interdisciplinary readership: The topic bridges machine learning and structural biology, which could attract a broad audience, but the abstract is too technical for nonspecialists without context. Technical soundness: Not assessable due to missing architecture and training details. Readability for nonspecialists: The abstract is concise but assumes familiarity with rotamer recovery, SE(3) equivariance, and energy-based models, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising direction, but the lack of quantitative results, methodological clarity, and benchmark details prevents a supportive recommendation. The authors should provide the full manuscript with comprehensive experimental evidence and technical descriptions before the case can be assessed.
+
+## Risk / unsupported claims
+- The claim of outperforming Rosetta and state-of-the-art deep learning methods on rotamer recovery is unsupported without numerical data and benchmark details.
+- The 22.2% improvement over PULCHRA is unsupported without specifying the test set, metric definition, and baseline configuration.
+- The assertion that GraphEBM is SE(3) equivariant is unverifiable without architectural details.
+- The general claim that manual energy functions "might suffer from knowledge bias" is not substantiated with examples or references.

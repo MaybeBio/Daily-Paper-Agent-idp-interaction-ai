@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "37961110",
+    "doi": "10.1101/2023.10.22.563461",
+    "title": "Design of intrinsically disordered protein variants with diverse structural properties."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) perform a wide range of functions in biology, suggesting that the ability to design IDPs could help expand the repertoire of proteins with novel functions. Designing IDPs with specific structural or functional properties has, however, been difficult, in part because determining accurate conformational ensembles of IDPs generally requires a combination of computational modelling and experiments. Motivated by recent advancements in efficient physics-based models for simulations of IDPs, we have developed a general algorithm for designing IDPs with specific structural properties. We demonstrate the power of the algorithm by generating variants of naturally occurring IDPs with different levels of compaction and that vary more than 100 fold in their propensity to undergo phase separation, even while keeping a fixed amino acid composition. We experimentally tested designs of variants of the low-complexity domain of hnRNPA1 and find high accuracy in our computational predictions, both in terms of single-chain compaction and propensity to undergo phase separation. We analyze the sequence features that determine changes in compaction and propensity to phase separate and find an overall good agreement with previous findings for naturally occurring sequences. Our general, physics-based method enables the design of disordered sequences with specified conformational properties. Our algorithm thus expands the toolbox for protein design to include also the most flexible proteins and will enable the design of proteins whose functions exploit the many properties afforded by protein disorder.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pesce, Francesco",
+        "Bremer, Anne",
+        "Tesei, Giulio",
+        "Hopkins, Jesse B",
+        "Grace, Christy R",
+        "Mittag, Tanja",
+        "Lindorff-Larsen, Kresten"
+      ],
+      "short_names": [
+        "Pesce F",
+        "Bremer A",
+        "Tesei G",
+        "Hopkins JB",
+        "Grace CR",
+        "Mittag T",
+        "Lindorff-Larsen K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3403-2524",
+        "ORCID: 0000-0002-2525-1813",
+        "ORCID: 0000-0003-4339-4460",
+        "ORCID: 0000-0001-8554-8072",
+        "ORCID: 0000-0002-1600-5610",
+        "ORCID: 0000-0002-1827-3811",
+        "ORCID: 0000-0002-4750-6039"
+      ],
+      "affiliations": [
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "BioCAT, Department of Physics, Illinois Institute of Technology, Chicago, IL, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pesce, Francesco",
+        "short_name": "Pesce F",
+        "identifiers": [
+          "0000-0002-3403-2524"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Bremer, Anne",
+        "short_name": "Bremer A",
+        "identifiers": [
+          "0000-0002-2525-1813"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Tesei, Giulio",
+        "short_name": "Tesei G",
+        "identifiers": [
+          "0000-0003-4339-4460"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Hopkins, Jesse B",
+        "short_name": "Hopkins JB",
+        "identifiers": [
+          "0000-0001-8554-8072"
+        ],
+        "affiliations": [
+          "BioCAT, Department of Physics, Illinois Institute of Technology, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Grace, Christy R",
+        "short_name": "Grace CR",
+        "identifiers": [
+          "0000-0002-1600-5610"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Mittag, Tanja",
+        "short_name": "Mittag T",
+        "identifiers": [
+          "0000-0002-1827-3811"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Lindorff-Larsen, Kresten",
+        "short_name": "Lindorff-Larsen K",
+        "identifiers": [
+          "0000-0002-4750-6039"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Oct 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/14 06:43",
+    "fetched_at": "2026-09-21 02:50:54"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38362050",
+      "38297184",
+      "38297118",
+      "38222029",
+      "37645312",
+      "37165539",
+      "36927031",
+      "36518077",
+      "35795820",
+      "35675815",
+      "35129612",
+      "34931046",
+      "34863777",
+      "34784177",
+      "34716273",
+      "34627764",
+      "34428231",
+      "34390736",
+      "34298061",
+      "34282049",
+      "34265844",
+      "33934416",
+      "33876938",
+      "33744284",
+      "33616531",
+      "33545530",
+      "33453925",
+      "33305318",
+      "32696363",
+      "32393642",
+      "32227994",
+      "32145944",
+      "32029630",
+      "32004090",
+      "31576635",
+      "31417196",
+      "31375817",
+      "30905771",
+      "30823702",
+      "30471688",
+      "30217894",
+      "30019371",
+      "29961577",
+      "29683665",
+      "29548755",
+      "29168376",
+      "29078291",
+      "29026044",
+      "29021737",
+      "28483149",
+      "28225081",
+      "28076807",
+      "27917826",
+      "27140628",
+      "26328871",
+      "25863585",
+      "25531225",
+      "24773235",
+      "24010708",
+      "23901099",
+      "23076520",
+      "22924672",
+      "21918772",
+      "21909575",
+      "21771306",
+      "21514145",
+      "20639465",
+      "20483348",
+      "20117254",
+      "19045004",
+      "18506808",
+      "18054235",
+      "17827232",
+      "17250999",
+      "16734424",
+      "16301309",
+      "11025552",
+      "10908673"
+    ],
+    "similar": [
+      "37961110",
+      "39196930",
+      "32696367",
+      "36674958",
+      "38097100",
+      "41082321",
+      "31756456",
+      "23912807",
+      "31425549",
+      "34626492",
+      "20404210",
+      "34390736",
+      "34716273",
+      "40095314",
+      "28448138",
+      "26387101",
+      "33078950",
+      "34545666",
+      "37645312",
+      "26727467",
+      "20522251",
+      "32859072",
+      "31794728",
+      "20483348",
+      "30250773",
+      "38987470",
+      "28076807",
+      "27936491",
+      "31809054",
+      "23269364",
+      "30913885",
+      "32357776",
+      "32345021",
+      "26387102",
+      "36083825",
+      "32579908",
+      "30066087",
+      "35129612",
+      "33945530",
+      "35119946",
+      "28516010",
+      "23901099",
+      "37108059",
+      "27844185",
+      "30025858",
+      "34285781",
+      "36291634",
+      "25496281",
+      "39475380",
+      "32403216",
+      "35436286",
+      "38505224",
+      "32639157",
+      "30909517",
+      "31441158",
+      "33555894",
+      "21766125",
+      "30979035",
+      "33267368",
+      "31375817",
+      "23794453",
+      "40264953",
+      "38297118",
+      "30840442",
+      "41137856",
+      "27503953",
+      "34981860",
+      "31241933",
+      "26376097",
+      "24008243",
+      "21686180",
+      "36257361",
+      "40172236",
+      "36066390",
+      "36272811",
+      "22044150",
+      "29808548",
+      "37452752",
+      "32295482",
+      "20011072",
+      "15313629",
+      "39225535",
+      "33403854",
+      "26387104",
+      "29621630",
+      "39718444",
+      "34863777",
+      "38039868",
+      "40317235",
+      "41432303",
+      "28226222",
+      "38657047",
+      "34150843",
+      "39354680",
+      "38296708",
+      "39433443",
+      "30471705",
+      "32840111",
+      "31797597",
+      "39554085"
+    ],
+    "review": [
+      "37961110",
+      "38097100",
+      "34390736",
+      "26387101",
+      "34545666",
+      "23269364",
+      "26387102",
+      "30066087",
+      "35129612",
+      "35119946",
+      "28516010",
+      "34285781",
+      "32403216",
+      "38505224",
+      "30909517",
+      "31441158",
+      "30979035",
+      "23794453",
+      "40264953",
+      "30840442",
+      "24008243",
+      "21686180",
+      "36257361",
+      "22044150",
+      "20011072",
+      "26387104",
+      "38039868",
+      "28226222",
+      "38296708",
+      "30471705"
+    ],
+    "pmc": [
+      "10634714"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37961110/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37961110",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.10.22.563461",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

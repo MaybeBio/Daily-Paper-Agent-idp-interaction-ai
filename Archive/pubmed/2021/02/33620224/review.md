@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, methods) as provided
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the supplied text; no external data or figures were available for independent verification
+- **Shared manuscript claim summary** The authors compare secondary structure predictions from multiple computational methods (IUPred2A, SPIDER3-SPOT-1D, PSRSM, MUFold-SSW, Porter 5, RaptorX) with wide-line 1H NMR experimental data for two protein systems: thymosin-β4/stabilin-2 cytoplasmic domain and wild-type/A53T α-synuclein. They report agreement for disorder predictions in some cases, overestimation of structured content by predictors, and a specific finding that helical regions may be buried and thus invisible to NMR.
+- **Visible evidence base** Text descriptions of results, references to Figures 1–4, and methodological descriptions; no actual figures, numerical data tables, or NMR spectra were provided in the supplied material
+- **Missing materials affecting confidence** Figures 1–4, all numerical values underlying the reported percentages, the wide-line NMR melting diagrams, the Supporting Information, and any statistical analysis or error estimates
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in structural biology, namely the reliability of sequence-based secondary structure predictors when benchmarked against an experimental technique that probes solvent-accessible structure. The choice of intrinsically disordered proteins is appropriate given the known challenges predictors face with such systems. However, the evidence as presented is insufficient to support several key claims. The manuscript relies heavily on qualitative comparisons and percentage values without showing the underlying data, statistical treatment, or clear criteria for what constitutes agreement or disagreement. The central conclusion that helical parts are buried is presented without direct experimental evidence for burial, and the reasoning appears circular in places. The work has potential interest but requires substantial revision and additional analysis before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers working on intrinsically disordered proteins, protein structure prediction, and the development or benchmarking of computational tools for structural biology. The comparison of multiple predictors against an experimental method that reports on solvent-accessible structure could inform choices about which tools to use for IDP characterization. The specific finding regarding α-synuclein A53T and β-sheet propensity may interest those studying Parkinson's disease mechanisms.
+- **Major strengths** The study addresses a practical need by benchmarking multiple prediction tools against experimental data. The use of wide-line 1H NMR as an orthogonal experimental method is potentially valuable, as it probes a different aspect of protein structure than conventional techniques. The inclusion of two biologically relevant protein systems, including a disease-associated mutant, adds translational relevance. The authors are transparent about discrepancies between predictions and experiments, which is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that "helical parts are buried" as a general conclusion from the comparison of predictions with NMR data.
+  - **Evidence pointer** Results and Discussion, location not provided
+  - **Concern** The claim that helical regions are buried is presented as a conclusion, but no direct experimental evidence for burial is provided. The reasoning appears to be that since predictors overestimate helix content relative to NMR-derived values, the excess helices must be buried and therefore invisible to the NMR method. This is an interpretation, not a demonstrated finding. No independent measurement of solvent accessibility or burial is presented.
+  - **Why it matters** This is the central interpretive claim of the manuscript. If it is not supported by direct evidence, the comparison between predictions and experiments loses its main explanatory framework. The claim also has implications for how the NMR method is understood to report on protein structure, which would require validation.
+  - **Resolution test** Provide direct experimental evidence for burial of helical regions, such as solvent accessibility measurements, hydrogen-deuterium exchange data, or structural models with explicit burial calculations. Alternatively, reframe the claim as a hypothesis and clearly label it as such.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The manuscript reports specific percentages for disorder (e.g., 83(1)% for Tb4, 42(8)% for α-synuclein N-terminus) and secondary structure content (e.g., 22(1)% for Tb4, 35(4)% for α-synuclein) without showing how these values were derived or what the uncertainties represent.
+  - **Evidence pointer** Results and Discussion, location not provided
+  - **Concern** The parenthetical values (e.g., 83(1)%) appear to be uncertainties, but no description of how they were calculated is given. It is unclear whether these are standard deviations, confidence intervals, or something else. The comparison between predicted and experimental values is made qualitatively, without any statistical test of agreement or disagreement. For example, the claim that the predicted 10% helix content for stabilin-2 CTD is "very minute compared with the HeR value" is not supported by any quantitative comparison.
+  - **Why it matters** Without quantitative rigor, the reader cannot assess whether the claimed agreements or disagreements between predictions and experiments are meaningful or within expected variability. The manuscript's conclusions depend on these comparisons.
+  - **Resolution test** Provide a clear description of how all reported values and uncertainties were calculated. Include statistical tests for the comparisons between predicted and experimental values, or clearly state the criteria used to judge agreement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The manuscript states that "to get a more reliable prediction, several prediction methods were applied, and the results were averaged" but does not describe how the averaging was performed or whether the individual methods were weighted.
+  - **Evidence pointer** Introduction and Results and Discussion, location not provided
+  - **Concern** The averaging procedure is not described. It is unclear whether the average is a simple mean of the five methods' outputs, a consensus approach, or something else. The manuscript also does not report the individual predictions from each method, making it impossible to assess the variability between methods. The statement that "both methods provided the same results" for 3-state and 8-state predictions is confusing, as the methods are described as different tools.
+  - **Why it matters** The reliability of the averaged predictions depends on the methods used and how they are combined. Without this information, the reader cannot evaluate the robustness of the conclusions. The lack of individual method results also prevents the reader from identifying which methods perform better or worse.
+  - **Resolution test** Describe the averaging procedure in detail. Report the individual predictions from each method, either in the main text or in supplementary material, and discuss any discrepancies between methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive consistency
+  - **Claim pointer** The manuscript states that the A53T mutation causes "slightly more order around the mutation site" based on IUPred2 predictions, but also states that wide-line NMR indicates "more mobile hydration water at the heterogeneously hydrated regions, which means a more open structure."
+  - **Evidence pointer** Results and Discussion, location not provided
+  - **Concern** These two statements appear contradictory. If the mutant is more ordered around the mutation site, one might expect less mobile hydration water, not more. The manuscript does not resolve this apparent inconsistency. The statement that "the latter is verified by experiments" refers to β-sheet formation, but the NMR data are described as indicating a more open structure, which seems to conflict with increased β-sheet content.
+  - **Why it matters** The manuscript's interpretation of the relationship between predicted order, experimental openness, and β-sheet content is unclear. This undermines the reader's ability to understand what the NMR data actually show and how they relate to the predictions.
+  - **Resolution test** Provide a clear explanation of how increased β-sheet content can coexist with a more open structure as detected by NMR. If the NMR method reports on solvent accessibility rather than secondary structure per se, this should be stated explicitly and the implications discussed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Results and Discussion, location not provided
+  - **Issue** The term "melting diagram" is used without a clear definition in the main text. The reader is referred to the Supporting Information, but the concept is central to understanding the experimental method.
+  - **Required correction** Provide a brief definition of what a melting diagram is and how it relates to protein structure in the main text, even if full details are in the Supporting Information.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Method details
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The description of the prediction methods is brief and does not specify the exact versions or parameters used. For example, the URL for PSRSM is given, but no version or access date is provided.
+  - **Required correction** Provide version numbers, access dates, and any non-default parameters used for each prediction method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure references
+  - **Evidence pointer** Results and Discussion, location not provided
+  - **Issue** The text refers to Figures 1–4, but the figures were not provided in the manuscript text. It is impossible to assess whether the figures support the claims made.
+  - **Required correction** Ensure that all figures are included and that the text descriptions accurately reflect the figure contents.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Wording
+  - **Evidence pointer** Results and Discussion, location not provided
+  - **Issue** The phrase "the latter is verified by experiments" is ambiguous. It is unclear whether "the latter" refers to β-sheet formation, the A53T mutation causing more order, or something else.
+  - **Required correction** Rewrite the sentence to clearly identify what is being verified by which experiments.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Notation
+  - **Evidence pointer** Results and Discussion, location not provided
+  - **Issue** The manuscript uses "α-Ss" and "α-synucleins" interchangeably. This is not incorrect but could be confusing.
+  - **Required correction** Use one term consistently throughout the manuscript.
+
+## Risk / unsupported claims
+- The claim that "helical parts are buried" is unsupported by direct evidence and is presented as a conclusion rather than a hypothesis.
+- The claim that the predicted 10% helix content for stabilin-2 CTD is "very minute compared with the HeR value" is not quantitatively substantiated.
+- The statement that "both methods provided the same results" for 3-state and 8-state predictions is unclear and unsupported without showing the individual results.
+- The apparent contradiction between increased order at the A53T mutation site and a more open structure by NMR is not resolved.
+- The overall conclusion that predictors overestimate structured content is based on qualitative comparisons without statistical testing.
+- The claim that the A53T mutation "entails the increment of β-sheet content" is supported only by references to other studies, not by the authors' own experimental data.

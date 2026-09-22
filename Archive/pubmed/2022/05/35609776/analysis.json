@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35609776",
+  "title": "Multi-level analysis of intrinsically disordered protein docking methods.",
+  "authors": "Verburgt, Jacob; Zhang, Zicong; Kihara, Daisuke",
+  "journal": "Methods (San Diego, Calif.)",
+  "published_date": "2022-05-25",
+  "window": {
+    "start": "2022-05-23",
+    "end": "2022-05-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文系统评估了三种无序蛋白-受体对接工具在不同分辨率下的界面预测表现，聚焦IDP介导的PPI复合物建模，方法上属计算对接评估，对无序蛋白互作机制建模有直接参考价值。",
+  "abstract": "Intrinsically Disordered Proteins (IDPs) are a class of proteins in which at least some region of the protein does not possess any stable structure in solution in the physiological condition but may adopt an ordered structure upon binding to a globular receptor. These IDP-receptor complexes are thus subject to protein complex modeling in which computational techniques are applied to accurately reproduce the IDP ligand-receptor interactions. This often exists in the form of protein docking, in which the 3D structures of both the subunits are known, but the position of the ligand relative to the receptor is not. Here, we evaluate the performance of three IDP-receptor modeling tools with metrics that characterize the IDP-receptor interface at various resolutions. We show that all three methods are able to properly identify the general binding site, as identified by lower resolution metrics, but begin to struggle with higher resolution metrics that capture biophysical interactions.",
+  "abstract_zh": "固有无序蛋白质（IDPs）是一类蛋白质，其中至少部分区域在生理条件下的溶液中不具备稳定结构，但在与球状受体结合时可能采用有序结构。因此，这些IDP-受体复合物需进行蛋白质复合物建模，其中应用计算技术以精确重现IDP配体-受体相互作用。这通常以蛋白质对接的形式存在，即两个亚基的三维结构已知，但配体相对于受体的位置未知。在此，我们使用表征IDP-受体界面在不同分辨率下的指标，评估三种IDP-受体建模工具的性能。我们表明，这三种方法均能正确识别一般结合位点，如通过较低分辨率指标所识别的，但在捕捉生物物理相互作用的较高分辨率指标上开始表现不佳。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35609776/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35609776/",
+  "paper_page_path": "papers/pubmed/35609776/index.html"
+}

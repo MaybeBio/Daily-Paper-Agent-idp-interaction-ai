@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38987300",
+  "title": "Protein Condensate Atlas from predictive models of heteromolecular condensate composition.",
+  "authors": "Saar, Kadi L; Scrutton, Rob M; Bloznelyte, Kotryna; Morgunov, Alexey S; Good, Lydia L; Lee, Alpha A; Teichmann, Sarah A; Knowles, Tuomas P J",
+  "journal": "Nature communications",
+  "published_date": "2024-07-11",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用机器学习模型预测异源分子凝聚体的蛋白组成，并构建蛋白凝聚体图谱，虽未直接建模PPI界面机制，但以IDR/相分离为对象、结合AI与互作组成预测，对本课题有较强启发。",
+  "abstract": "Biomolecular condensates help cells organise their content in space and time. Cells harbour a variety of condensate types with diverse composition and many are likely yet to be discovered. Here, we develop a methodology to predict the composition of biomolecular condensates. We first analyse available proteomics data of cellular condensates and find that the biophysical features that determine protein localisation into condensates differ from known drivers of homotypic phase separation processes, with charge mediated protein-RNA and hydrophobicity mediated protein-protein interactions playing a key role in the former process. We then develop a machine learning model that links protein sequence to its propensity to localise into heteromolecular condensates. We apply the model across the proteome and find many of the top-ranked targets outside the original training data to localise into condensates as confirmed by orthogonal immunohistochemical staining imaging. Finally, we segment the condensation-prone proteome into condensate types based on an overlap with biomolecular interaction profiles to generate a Protein Condensate Atlas. Several condensate clusters within the Atlas closely match the composition of experimentally characterised condensates or regions within them, suggesting that the Atlas can be valuable for identifying additional components within known condensate systems and discovering previously uncharacterised condensates.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）帮助细胞在空间和时间上组织其内容物。细胞含有多种组成各异的凝聚体类型，其中许多可能尚未被发现。在此，我们开发了一种预测生物分子凝聚体组成的方法。我们首先分析了细胞凝聚体的现有蛋白质组学数据，发现决定蛋白质定位到凝聚体中的生物物理特征与已知的同型相分离（phase separation）过程的驱动因素不同，其中电荷介导的蛋白质-RNA相互作用和疏水介导的蛋白质-蛋白质相互作用在前一过程中起关键作用。随后，我们开发了一种机器学习模型，将蛋白质序列与其定位到异质分子凝聚体中的倾向性联系起来。我们将该模型应用于整个蛋白质组，发现原始训练数据之外的许多排名靠前的靶标确实定位到凝聚体中，这通过正交免疫组织化学染色成像得到证实。最后，我们基于与生物分子相互作用谱的重叠，将易凝聚蛋白质组分割为凝聚体类型，从而生成蛋白质凝聚体图谱（Protein Condensate Atlas）。图谱中的几个凝聚体簇与实验表征的凝聚体或其内部区域的组成高度匹配，表明该图谱对于识别已知凝聚体系统中的额外组分以及发现先前未表征的凝聚体具有重要价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38987300/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38987300/",
+  "paper_page_path": "papers/pubmed/38987300/index.html"
+}

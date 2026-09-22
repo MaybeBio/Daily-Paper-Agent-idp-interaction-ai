@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "36551199",
+    "doi": "10.3390/biom12121771",
+    "title": "Sequence-Based Prediction of Protein Phase Separation: The Role of Beta-Pairing Propensity."
+  },
+  "content": {
+    "abstract": "The formation of droplets of bio-molecular condensates through liquid-liquid phase separation (LLPS) of their component proteins is a key factor in the maintenance of cellular homeostasis. Different protein properties were shown to be important in LLPS onset, making it possible to develop predictors, which try to discriminate a positive set of proteins involved in LLPS against a negative set of proteins not involved in LLPS. On the other hand, the redundancy and multivalency of the interactions driving LLPS led to the suggestion that the large conformational entropy associated with non specific side-chain interactions is also a key factor in LLPS. In this work we build a LLPS predictor which combines the ability to form pi-pi interactions, with an unrelated feature, the propensity to stabilize the beta-pairing interaction mode. The cross-beta structure is formed in the amyloid aggregates, which are involved in degenerative diseases and may be the final thermodynamically stable state of protein condensates. Our results show that the combination of pi-pi and beta-pairing propensity yields an improved performance. They also suggest that protein sequences are more likely to be involved in phase separation if the main chain conformational entropy of the beta-pairing maintained droplet state is increased. This would stabilize the droplet state against the more ordered amyloid state. Interestingly, the entropic stabilization of the droplet state appears to proceed according to different mechanisms, depending on the fraction of \"droplet-driving\" proteins present in the positive set.",
+    "keywords": [
+      "amyloid aggregates",
+      "liquid-liquid phase separation",
+      "protein droplets"
+    ],
+    "mesh_terms": [
+      "*Amyloid/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mullick, Pratik",
+        "Trovato, Antonio"
+      ],
+      "short_names": [
+        "Mullick P",
+        "Trovato A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0133-0354",
+        "ORCID: 0000-0002-1596-9477"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy 'Galileo Galilei', University of Padova, 35121 Padova, Italy.",
+        "Institut National de Recherche en Informatique et Automatique (INRIA), Centre National de la Recherche Scientifique (CNRS), Institut de Recherche en Informatique et Systemes Aleatoires (IRISA), University of Rennes, 35042 Rennes, France.",
+        "Department of Operations Research and Business Intelligence, Wroclaw University of Science and Technology, 50-370 Wroclaw, Poland.",
+        "Department of Physics and Astronomy 'Galileo Galilei', University of Padova, 35121 Padova, Italy.",
+        "National Institute of Nuclear Physics (INFN), Padova Section, 35121 Padova, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mullick, Pratik",
+        "short_name": "Mullick P",
+        "identifiers": [
+          "0000-0003-0133-0354"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy 'Galileo Galilei', University of Padova, 35121 Padova, Italy.",
+          "Institut National de Recherche en Informatique et Automatique (INRIA), Centre National de la Recherche Scientifique (CNRS), Institut de Recherche en Informatique et Systèmes Aléatoires (IRISA), University of Rennes, 35042 Rennes, France.",
+          "Department of Operations Research and Business Intelligence, Wrocław University of Science and Technology, 50-370 Wrocław, Poland."
+        ]
+      },
+      {
+        "full_name": "Trovato, Antonio",
+        "short_name": "Trovato A",
+        "identifiers": [
+          "0000-0002-1596-9477"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy 'Galileo Galilei', University of Padova, 35121 Padova, Italy.",
+          "National Institute of Nuclear Physics (INFN), Padova Section, 35121 Padova, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2022 Nov 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/24 06:00",
+    "fetched_at": "2026-09-20 17:54:17"
+  },
+  "links": {
+    "cites": [
+      "42184109",
+      "40867524",
+      "39551864",
+      "38937372",
+      "37386790"
+    ],
+    "refs": [
+      "36009025",
+      "35883530",
+      "35883463",
+      "35687670",
+      "35240456",
+      "34944431",
+      "34572537",
+      "34391803",
+      "34356638",
+      "34108660",
+      "33535034",
+      "33325498",
+      "33318217",
+      "31906602",
+      "31612960",
+      "31584089",
+      "31252218",
+      "31237369",
+      "30682370",
+      "29949750",
+      "29758260",
+      "29602697",
+      "29439243",
+      "29424691",
+      "29195049",
+      "29064502",
+      "28343140",
+      "27824447",
+      "27203110",
+      "26406374",
+      "26390327",
+      "26317470",
+      "24848016",
+      "24606139",
+      "23953108",
+      "23455423",
+      "22579281",
+      "22398450",
+      "22190692",
+      "19602727",
+      "17720750",
+      "17196033",
+      "17173479",
+      "17098192",
+      "16756495",
+      "15955779",
+      "12824398"
+    ],
+    "similar": [
+      "36551199",
+      "31941785",
+      "37414583",
+      "35943083",
+      "34953857",
+      "36444977",
+      "36843414",
+      "37972831",
+      "38446061",
+      "37347214",
+      "35500664",
+      "33318217",
+      "34911929",
+      "36499553",
+      "34044018",
+      "34391803",
+      "37840355",
+      "38380794",
+      "38811080",
+      "38245749",
+      "32615218",
+      "34313292",
+      "39067723",
+      "34431665",
+      "31237369",
+      "35142991",
+      "33356290",
+      "34102212",
+      "32169484",
+      "35381286",
+      "39044475",
+      "37557974",
+      "34156864",
+      "36310223",
+      "34787417",
+      "34233002",
+      "34152774",
+      "34222258",
+      "37207400",
+      "34165838",
+      "33827920",
+      "33686854",
+      "38205268",
+      "33971237",
+      "36762833",
+      "35721931",
+      "38512104",
+      "37898314",
+      "31906602",
+      "31928729",
+      "38487243",
+      "33929866",
+      "35485974",
+      "35276458",
+      "35883530",
+      "36524527",
+      "35902591",
+      "35709363",
+      "37398035",
+      "39148776",
+      "34787433",
+      "36703474",
+      "35168563",
+      "33755443",
+      "34306032",
+      "37130439",
+      "33809541",
+      "34163831",
+      "36341999",
+      "36310222",
+      "35657723",
+      "31341602",
+      "31971365",
+      "39053405",
+      "36310218",
+      "38803334",
+      "37287830",
+      "29526694",
+      "33517364",
+      "35998851",
+      "33982369",
+      "28683104",
+      "34235141",
+      "29511089",
+      "32405004",
+      "34551999",
+      "30913985",
+      "35543798",
+      "33982350",
+      "32824618",
+      "34522448",
+      "34310938",
+      "32096047",
+      "36230986",
+      "37609923",
+      "33262278",
+      "37287138",
+      "38418913",
+      "26756795",
+      "34816836",
+      "28924037",
+      "36310217",
+      "33744316",
+      "33876938",
+      "39071719",
+      "38580324",
+      "35610022",
+      "37596729",
+      "38978442",
+      "36528388",
+      "36640113",
+      "37004350",
+      "39328748",
+      "37319348",
+      "38641666",
+      "36745512",
+      "38117593",
+      "36754843",
+      "30443328",
+      "38465595",
+      "36484713",
+      "36998664"
+    ],
+    "review": [
+      "36551199",
+      "37414583",
+      "38811080",
+      "38245749",
+      "31237369",
+      "35142991",
+      "32169484",
+      "37557974",
+      "37207400",
+      "31928729",
+      "36524527",
+      "34306032",
+      "35998851",
+      "34235141",
+      "35543798",
+      "32824618",
+      "34522448",
+      "32096047",
+      "36230986",
+      "34816836",
+      "39071719"
+    ],
+    "pmc": [
+      "9775558"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom12121771",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36551199/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36551199",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

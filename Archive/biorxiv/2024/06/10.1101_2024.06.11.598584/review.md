@@ -1,0 +1,124 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, experiments, extension, conclusion) as provided
+- **Assessment boundary** Technical soundness, claim substantiation, methodological clarity, and reproducibility based solely on the supplied text
+- **Shared manuscript claim summary** The authors propose FoldToken2, a method to tokenize protein structures into discrete, invariant representations using an invariant graph encoder, a vector-quantized compressor, and an equivariant decoder. They claim substantial improvements over FoldToken1 in reconstruction quality (20% TMScore, 81% RMSD), extension to multi-chain structures, and high training efficiency (40 GPU hours on the full PDB).
+- **Visible evidence base** Abstract, Introduction, Method sections 2.1–2.5, Experiments sections 3–4, Extension section 5, Conclusion, Footnotes. Tables and figures are referenced but not provided.
+- **Missing materials affecting confidence** Tables 1–2, Figures 1, 3, 4, all equations (referenced but not shown), dataset split details, hyperparameter settings, training configurations, and code or pseudocode for the proposed modules. The absence of these materials prevents full verification of the reported results and methodological claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in protein structure representation learning by proposing a tokenization framework that aims to be compact, invariant, and generative. The conceptual direction is sound and builds on prior work in a logical manner. However, the current manuscript is incomplete in its presentation: key equations, tables, and figures are referenced but not included, making it impossible to assess the technical validity of the proposed modules or the statistical significance of the reported improvements. The claims of state-of-the-art performance and generalizability to multi-chain systems are not fully substantiated by the evidence provided. The writing contains several typographical and formatting errors that detract from clarity. The manuscript has potential but requires substantial revision and completion before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in protein structure prediction, representation learning, and generative modeling for biomolecules would find this work relevant. The idea of a discrete, invariant protein structure language could appeal to those working on structure alignment, structure generation, and integration of structural information into language models. The reported efficiency gains may also interest practitioners seeking scalable training approaches.
+- **Major strengths** The problem is well-motivated and the proposed framework is conceptually coherent. The authors identify clear limitations in prior work (FoldToken1) and propose targeted improvements across three components. The reported gains in reconstruction quality are substantial if reproducible. The extension to multi-chain structures addresses an important gap. The emphasis on training efficiency is practical and valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that FoldToken2 outperforms FoldToken1 by 20% in TMScore and 81% in RMSD on single-chain reconstruction.
+  - **Evidence pointer** Section 3.2, Table 2, Figure 3 (not provided)
+  - **Concern** The reported improvements are presented without the actual data tables or statistical analysis. The referenced Table 2 and Figure 3 are not included in the provided material, so the reader cannot verify the numerical results, the variance across test cases, or the comparability of the evaluation protocols between FoldToken1 and FoldToken2. The claim of "worst-case" improvements is also unverifiable without the underlying distributions.
+  - **Why it matters** The central quantitative claim of the paper cannot be assessed. Without the actual results, the significance of the proposed improvements over the baseline remains unsubstantiated.
+  - **Resolution test** Provide the full Table 2 and Figure 3 with error bars or per-sample distributions, and clearly state the evaluation protocol (e.g., whether the same test set and alignment procedure were used for both methods).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors propose a new equivariant decoder with a "plug-and-play SE(3)-layer" and claim it can be added to any GNN layer for structure prediction.
+  - **Evidence pointer** Section 2.4, equations 9–11 (not provided)
+  - **Concern** The equations describing the SE(3)-layer, the frame-level message passing, and the update rules are referenced but not shown. The text describes the components in words but lacks the mathematical formalism needed to understand the exact operations, the equivariance properties, and the integration with the BlockGAT backbone. Without the equations, the technical contribution cannot be evaluated or reproduced.
+  - **Why it matters** The decoder is a core contribution of the paper. If the mathematical details are not provided, the method cannot be implemented, compared, or built upon by the community.
+  - **Resolution test** Include all equations with clear notation, define all variables, and provide a step-by-step description of the forward pass of the SE(3)-layer.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that FoldToken2 is "likely the first method that works well for both single-chain and multi-chain protein structure quantization."
+  - **Evidence pointer** Section 4, Figure 4 (not provided)
+  - **Concern** The multi-chain results are presented only as "visual examples" in a figure that is not provided. No quantitative metrics, comparison to baselines, or evaluation protocol are described. The claim of being "first" is also not supported by a literature comparison. The statement "The comprehensive benchmark is coming soon" indicates that the evaluation is incomplete.
+  - **Why it matters** The novelty claim and the generalizability claim are central to the paper's contribution. Without quantitative evidence and a proper comparison to existing methods, these claims are not established.
+  - **Resolution test** Provide quantitative results on a defined multi-chain benchmark, compare to relevant baselines, and include a literature search to support the novelty claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that FoldToken2 can be trained on the entire PDB dataset in 1 day using 8 NVIDIA-A100s, and that the autoencoder training can be done in 1 day using 1 A100 GPU.
+  - **Evidence pointer** Sections 2.4 and 3.1
+  - **Concern** The training configurations are not fully specified. The text mentions batch size, learning rate, and padding length for some experiments, but does not provide details on optimizer, learning rate schedule, warmup, weight decay, gradient clipping, data augmentation, or the exact hardware and software environment. The claim of "40 GPU hours" in the conclusion is inconsistent with the "1 day using 8 A100s" statement in Section 2.4 (which would be 192 GPU hours). This discrepancy needs clarification.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. The reported efficiency is a selling point of the method, but the inconsistency and lack of detail prevent verification.
+  - **Resolution test** Provide a complete training configuration table, clarify the GPU hour calculation, and ensure consistency across all statements.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that FoldToken2 "may provide new insights for the protein folding problem" and that the discrete language can be used with existing NLP/CV models.
+  - **Evidence pointer** Sections 1, 3.1, 5
+  - **Concern** The manuscript does not demonstrate any downstream application of the learned discrete tokens, such as structure generation conditioned on sequence, structure alignment, or representation learning for downstream tasks. The extension section describes preliminary attempts (TokenFlow, FoldGPT) that are acknowledged as not working well. The claimed potential impact is therefore speculative.
+  - **Why it matters** The broader impact of the work depends on demonstrating that the discrete representation is useful beyond reconstruction. Without such demonstrations, the significance of the contribution is limited.
+  - **Resolution test** Provide at least one downstream application with quantitative results, or clearly frame the paper as a reconstruction-only contribution.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, invariant graph encoder
+  - **Evidence pointer** Section 2.2
+  - **Issue** The text states "T s and are the local frames of the s -th and the relative transform between the s -th and t -th blocks, respectively." The second part of the sentence is incomplete and the notation is unclear.
+  - **Required correction** Rewrite the sentence to clearly define T_s and T_st, and ensure all symbols are introduced before use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, quantifier
+  - **Evidence pointer** Section 2.3
+  - **Issue** The text contains duplicated sentences: "The adaptive temperature tuner is defined as:" appears twice at the end of the section. The equation for the adaptive tuner is not shown.
+  - **Required correction** Remove the duplicate sentence and include the equation for the adaptive temperature tuner.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5, reconstruction loss
+  - **Evidence pointer** Section 2.5
+  - **Issue** The text states "we define the aligned RMSD loss as , given the the ground truth 3D coordinates X? ∈ ℝ ℝ n ,3 and the predicted 3D coordinates ." The notation is malformed and the equation is missing.
+  - **Required correction** Provide the correct mathematical notation for the loss function and the coordinate variables.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1, autoencoder training
+  - **Evidence pointer** Section 3.1
+  - **Issue** The text states "Notabely, the protein folding decoder only contains 4.9M parameters" and "The training process could be done in 1 days using 1 A100 GPU." There are typographical errors ("Notabely" should be "Notably", "1 days" should be "1 day").
+  - **Required correction** Correct the typographical errors.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.2, single-chain reconstruction
+  - **Evidence pointer** Section 3.2
+  - **Issue** The text states "leading rate of 0.001" which should be "learning rate of 0.001". Also, "possiblly limited to the small training data volumn" contains spelling errors.
+  - **Required correction** Correct the typographical errors.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5, reconstruction loss
+  - **Evidence pointer** Section 2.5
+  - **Issue** The text states "whcih is crucial for good performance" which is a typo for "which".
+  - **Required correction** Correct the typographical error.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5, extension
+  - **Evidence pointer** Section 5
+  - **Issue** The extension section describes TokenFlow and FoldGPT as future work, but the descriptions are brief and the results are acknowledged as not working well. This section reads as incomplete.
+  - **Required correction** Either remove this section or provide more detail on the methods and the specific challenges encountered.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4, multi-chain reconstruction
+  - **Evidence pointer** Section 4
+  - **Issue** The text states "The comprehensive benchmark is coming soon," which indicates that the evaluation is incomplete. This is unusual for a manuscript submission.
+  - **Required correction** Either provide the benchmark results or remove this statement and clearly state the limitations of the current evaluation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative results), R1-M2 (missing equations), R1-M3 (missing multi-chain evaluation), R1-M4 (inconsistent and incomplete training details). These are blocking issues because the core claims of the paper cannot be verified without them.
+- **Assessment against Nature-style criteria** Originality: The idea of a discrete, invariant protein structure language is a reasonable extension of prior work, but the novelty is incremental rather than transformative. Scientific importance: The problem is relevant, but the demonstrated impact is limited to reconstruction, and the broader applications are speculative. Interdisciplinary readership: The work may appeal to computational biologists and machine learning researchers, but the presentation is too technical and incomplete for a broad audience. Technical soundness: Cannot be assessed due to missing equations, tables, and figures. Readability for nonspecialists: The manuscript is not accessible to nonspecialists due to incomplete notation, missing definitions, and typographical errors.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript requires substantial revision, including the inclusion of all equations, tables, figures, and complete experimental details, before the claims can be evaluated. If the missing materials are provided and the results hold, the work could be of interest to the protein structure modeling community, but it would likely be more suitable for a specialized journal or conference than for Nature.
+
+## Risk / unsupported claims
+- The claim of 20% improvement in TMScore and 81% in RMSD over FoldToken1 is unsupported because the referenced Table 2 and Figure 3 are not provided.
+- The claim that FoldToken2 is "likely the first method that works well for both single-chain and multi-chain protein structure quantization" is unsupported because no multi-chain quantitative results are provided and no literature comparison is made.
+- The claim of training efficiency ("40 GPU hours" in the conclusion vs. "1 day using 8 A100s" in Section 2.4) is inconsistent and cannot be verified without a detailed training configuration.
+- The claim that the decoder "may provide new insights for the protein folding problem" is speculative and not supported by any downstream task results.
+- The claim that the adaptive temperature tuner and teacher-guided VQ improve performance is not verifiable because the equations and ablation studies are not provided.

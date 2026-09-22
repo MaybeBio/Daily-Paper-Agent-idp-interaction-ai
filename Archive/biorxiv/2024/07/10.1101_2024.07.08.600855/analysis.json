@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.08.600855",
+  "title": "The WAVE complex forms linear arrays at negative membrane curvature to instruct lamellipodia formation",
+  "authors": "Wu M; Marchando P; Meyer K; Tang Z; Woolfson DN; Weiner OD",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-08",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究WAVE复合物在负膜曲率下形成线性阵列以指导片状伪足形成，涉及膜上蛋白自组织机制，但对象非无序蛋白/IDR，且无AI或物理模拟方法，仅通过活体单分子追踪和分子计数实验揭示机制，对IDR介导PPI的机制建模启发有限。",
+  "abstract": "Cells generate a wide range of actin-based membrane protrusions for various cell behaviors. These protrusions are organized by different actin nucleation promoting factors. For example, N-WASP controls finger-like filopodia, whereas the WAVE complex controls sheet-like lamellipodia. These different membrane morphologies likely reflect different patterns of nucleator self-organization. N-WASP phase separation has been successfully studied through biochemical reconstitutions, but how the WAVE complex self-organizes to instruct lamellipodia is unknown. Because WAVE complex self-organization has proven refractory to cell-free studies, we leverage in vivo biochemical approaches to investigate WAVE complex organization within its native cellular context. With single molecule tracking and molecular counting, we show that the WAVE complex forms highly regular multilayered linear arrays at the plasma membrane that are reminiscent of a microtubule-like organization. Similar to the organization of microtubule protofilaments in a curved array, membrane curvature is both necessary and sufficient for formation of these WAVE complex linear arrays, though actin polymerization is not. This dependency on negative membrane curvature could explain both the templating of lamellipodia and their emergent behaviors, including barrier avoidance. Our data uncover the key biophysical properties of mesoscale WAVE complex patterning and highlight an integral relationship between NPF self-organization and cell morphogenesis.",
+  "abstract_zh": "细胞产生多种基于肌动蛋白的膜突起，以支持不同的细胞行为。这些突起由不同的肌动蛋白成核促进因子组织。例如，N-WASP控制指状丝状伪足，而WAVE复合体控制片状层状伪足。这些不同的膜形态可能反映了成核因子自组织的不同模式。N-WASP的相分离（phase separation）已通过生化重构成功研究，但WAVE复合体如何自组织以指导层状伪足的形成尚不清楚。由于WAVE复合体的自组织在无细胞研究中难以处理，我们利用体内生化方法，在其天然细胞环境中研究WAVE复合体的组织。通过单分子追踪和分子计数，我们显示WAVE复合体在质膜上形成高度规则的、多层线性阵列，类似于微管样组织。与微管原丝在弯曲阵列中的组织相似，膜曲率对于这些WAVE复合体线性阵列的形成既是必要的也是充分的，尽管肌动蛋白聚合并非必需。这种对负膜曲率的依赖性可能解释层状伪足的模板化及其涌现行为，包括屏障回避。我们的数据揭示了中尺度WAVE复合体图案化的关键生物物理特性，并强调了NPF自组织与细胞形态发生之间的整体关系。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.08.600855",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.08.600855",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.08.600855/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2512.16150v1",
+  "title": "Predicting the Interfacial Energy and Morphology of DNA Condensates",
+  "authors": "Sihan Liu; Andrej Košmrlj",
+  "journal": "",
+  "published_date": "2025-12-18",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用Flory-Huggins理论与粗粒化分子动力学模拟预测DNA纳米星凝聚体的界面能与多相形态，虽对象为DNA而非无序蛋白，但其多相凝聚体形态与界面能调控的建模思路对IDR介导的相分离PPI机制研究有可迁移启发。",
+  "abstract": "The physics and morphology of biomolecular condensates formed through liquid-liquid phase separation underpin diverse biological processes, exemplified by the nested organization of nucleoli that facilitates ribosome biogenesis. Here, we develop a theoretical and computational framework to understand and predict multiphase morphologies in DNA-nanostar solutions. Because morphology is governed by interfacial energies between coexisting phases, we combine Flory-Huggins theory with coarse-grained molecular dynamics simulations to examine how these energies depend on key microscopic features of DNA nanostars, including size, valence, bending rigidity, Debye screening length, binding strength, and sticky-end distribution. The phase behavior of DNA nanostars is quantitatively captured by a generalized lattice model, in which the interplay between sticky-end binding energy and conformational entropy determines the effective interactions. Focusing on condensates comprising two dense phases, we find that Janus-like morphologies are ubiquitous because the interfacial energies between the dense and dilute phases, $γ_{i\\in\\{1,2\\}}$, are typically comparable. In contrast, nested morphologies are rare as they require a large asymmetry in $γ_i$, which arises only for highly dissimilar nanostars such as those differing markedly in valence or size. Moreover, the interfacial energy between the two dense phases, $γ_{12}$, can be modulated either discretely, by varying sticky-end distribution, or continuously, by tuning the crosslinker ratio; the former may even eliminate nested configurations. These findings establish physical design principles for constructing complex condensate architectures directly from microscopic molecular parameters.",
+  "abstract_zh": "通过液-液相分离形成的生物分子凝聚体的物理与形态，支撑着多种生物过程，例如核仁的分层组织促进核糖体生物发生。在此，我们开发了一个理论和计算框架，以理解和预测DNA纳米星溶液中的多相形态。由于形态由共存相之间的界面能控制，我们将Flory-Huggins理论与粗粒化分子动力学模拟相结合，研究这些能量如何依赖于DNA纳米星的关键微观特征，包括尺寸、价态、弯曲刚性、德拜屏蔽长度、结合强度和粘性末端分布。DNA纳米星的相行为通过一个广义晶格模型定量捕获，其中粘性末端结合能与构象熵之间的相互作用决定了有效相互作用。聚焦于包含两个致密相的凝聚体，我们发现类Janus形态普遍存在，因为致密相与稀相之间的界面能 $γ_{i\\in\\{1,2\\}}$ 通常相当。相反，嵌套形态较为罕见，因为它们需要 $γ_i$ 的显著不对称性，这仅出现在高度不同的纳米星中，例如在价态或尺寸上差异显著的纳米星。此外，两个致密相之间的界面能 $γ_{12}$ 可以通过改变粘性末端分布离散调节，或通过调整交联剂比例连续调节；前者甚至可能消除嵌套构型。这些发现为直接从微观分子参数构建复杂凝聚体结构确立了物理设计原则。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2512.16150v1",
+  "source_url": "https://arxiv.org/abs/2512.16150v1",
+  "paper_page_path": "papers/arxiv/2512.16150v1/index.html"
+}

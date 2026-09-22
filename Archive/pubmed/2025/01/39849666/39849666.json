@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "39849666",
+    "doi": "10.1017/S0033583524000209",
+    "title": "Allostery."
+  },
+  "content": {
+    "abstract": "Allostery describes the ability of biological macromolecules to transmit signals spatially through the molecule from an allosteric site - a site that is distinct from orthosteric binding sites of primary, endogenous ligands - to the functional or active site. This review starts with a historical overview and a description of the classical example of allostery - hemoglobin - and other well-known examples (aspartate transcarbamoylase, Lac repressor, kinases, G-protein-coupled receptors, adenosine triphosphate synthase, and chaperonin). We then discuss fringe examples of allostery, including intrinsically disordered proteins and inter-enzyme allostery, and the influence of dynamics, entropy, and conformational ensembles and landscapes on allosteric mechanisms, to capture the essence of the field. Thereafter, we give an overview over central methods for investigating molecular mechanisms, covering experimental techniques as well as simulations and artificial intelligence (AI)-based methods. We conclude with a review of allostery-based drug discovery, with its challenges and opportunities: with the recent advent of AI-based methods, allosteric compounds are set to revolutionize drug discovery and medical treatments.",
+    "keywords": [
+      "ATP synthase",
+      "GPCRs",
+      "IDPs",
+      "Lac repressor",
+      "PAM and NAM",
+      "allostery concepts",
+      "aspartate transcarbamoylase",
+      "biased signaling",
+      "chaperonin",
+      "hemoglobin",
+      "inter-enzyme allostery",
+      "kinase",
+      "methods to probe allostery",
+      "structural biology",
+      "structure-based drug discovery (SBDD)"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Allosteric Regulation",
+      "Allosteric Site",
+      "Drug Discovery"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Montserrat-Canals, Mateu",
+        "Cordara, Gabriele",
+        "Krengel, Ute"
+      ],
+      "short_names": [
+        "Montserrat-Canals M",
+        "Cordara G",
+        "Krengel U"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3351-3040",
+        "ORCID: 0000-0001-8029-8043",
+        "ORCID: 0000-0001-6688-8151"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Oslo, Oslo, Norway.",
+        "Hylleraas Centre for Quantum Molecular Sciences, University of Oslo, Oslo, Norway.",
+        "Department of Chemistry, University of Oslo, Oslo, Norway.",
+        "Hylleraas Centre for Quantum Molecular Sciences, University of Oslo, Oslo, Norway.",
+        "Department of Chemistry, University of Oslo, Oslo, Norway.",
+        "Hylleraas Centre for Quantum Molecular Sciences, University of Oslo, Oslo, Norway."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Montserrat-Canals, Mateu",
+        "short_name": "Montserrat-Canals M",
+        "identifiers": [
+          "0000-0003-3351-3040"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Oslo, Oslo, Norway.",
+          "Hylleraas Centre for Quantum Molecular Sciences, University of Oslo, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Cordara, Gabriele",
+        "short_name": "Cordara G",
+        "identifiers": [
+          "0000-0001-8029-8043"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Oslo, Oslo, Norway.",
+          "Hylleraas Centre for Quantum Molecular Sciences, University of Oslo, Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Krengel, Ute",
+        "short_name": "Krengel U",
+        "identifiers": [
+          "0000-0001-6688-8151"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Oslo, Oslo, Norway.",
+          "Hylleraas Centre for Quantum Molecular Sciences, University of Oslo, Oslo, Norway."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Quarterly reviews of biophysics"
+    ],
+    "journal_abbrev": [
+      "Q Rev Biophys"
+    ],
+    "pub_date": "2025 Jan 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/24 06:26",
+    "fetched_at": "2026-09-21 14:54:21"
+  },
+  "links": {
+    "cites": [
+      "42423121",
+      "41780056",
+      "41722894",
+      "41578382",
+      "40499749",
+      "40413538"
+    ],
+    "refs": [],
+    "similar": [
+      "39849666",
+      "29594786",
+      "24827416",
+      "24740064",
+      "36642879",
+      "25061106",
+      "37852356",
+      "23903222",
+      "41028322",
+      "36827465",
+      "31096158",
+      "29188568",
+      "35976160",
+      "31707704",
+      "27914066",
+      "35649692",
+      "37248726",
+      "40043838",
+      "30688063",
+      "27712124",
+      "28820879",
+      "34132193",
+      "37957479",
+      "24680434",
+      "37716092",
+      "31707700",
+      "40409706",
+      "26100627",
+      "38354652",
+      "23095452",
+      "41249142",
+      "33315218",
+      "15382234",
+      "31707708",
+      "35595169",
+      "41057732",
+      "37175454",
+      "33927236",
+      "37918859",
+      "31017391",
+      "27285999",
+      "18342020",
+      "39755133",
+      "24076101",
+      "35863587",
+      "36848776",
+      "36586463",
+      "24516370",
+      "22988850",
+      "40623180",
+      "37172889",
+      "22577828",
+      "23582321",
+      "35378118",
+      "37939386",
+      "31707707",
+      "31707706",
+      "32416871",
+      "27848106",
+      "31378249",
+      "37716095",
+      "35644497",
+      "22403063",
+      "30703487",
+      "31285328",
+      "29735732",
+      "15447145",
+      "29022880",
+      "33471142",
+      "27151542",
+      "31063633",
+      "39068599",
+      "25482377",
+      "33632471",
+      "21184747",
+      "37870448",
+      "31950981",
+      "18560010",
+      "35675441",
+      "29679502",
+      "31495942",
+      "30957264",
+      "29188556",
+      "39736214",
+      "21935895",
+      "36692197",
+      "37272574",
+      "24293647",
+      "31707709",
+      "35490897",
+      "32931270",
+      "16159018",
+      "32171554",
+      "10593256",
+      "35314339",
+      "14559102",
+      "40015370",
+      "21109422",
+      "20637785",
+      "20812150"
+    ],
+    "review": [
+      "39849666",
+      "24827416",
+      "24740064",
+      "36642879",
+      "25061106",
+      "37852356",
+      "23903222",
+      "41028322",
+      "36827465",
+      "31096158",
+      "29188568",
+      "35976160",
+      "31707704",
+      "35649692",
+      "40043838",
+      "27712124",
+      "37957479",
+      "24680434",
+      "37716092",
+      "31707700",
+      "40409706",
+      "26100627",
+      "38354652",
+      "41249142",
+      "15382234",
+      "31707708",
+      "41057732",
+      "37175454",
+      "37918859",
+      "27285999",
+      "18342020",
+      "39755133",
+      "24076101",
+      "35863587",
+      "36848776",
+      "36586463",
+      "22988850",
+      "37172889",
+      "22577828",
+      "23582321",
+      "35378118",
+      "31707707",
+      "31707706",
+      "32416871",
+      "31378249",
+      "37716095",
+      "30703487",
+      "29735732",
+      "31063633",
+      "39068599",
+      "33632471",
+      "21184747",
+      "31950981",
+      "18560010",
+      "29679502",
+      "31495942",
+      "30957264",
+      "29188556",
+      "39736214",
+      "31707709",
+      "35490897",
+      "16159018",
+      "32171554",
+      "10593256",
+      "35314339",
+      "14559102",
+      "40015370",
+      "21109422",
+      "20637785",
+      "20812150"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3445",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.cambridge.org/core/product/identifier/S0033583524000209/type/journal_article",
+        "provider": "Cambridge University Press",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

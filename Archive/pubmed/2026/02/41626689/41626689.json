@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "41626689",
+    "doi": "10.1093/nar/gkag065",
+    "title": "Fibrillarin/Nop1 perturbs RNA folding and assembly independently of liquid-liquid phase separation."
+  },
+  "content": {
+    "abstract": "The liquid-liquid phase-separated environment of the eukaryotic nucleolus is proposed to benefit ribosome assembly by chaperoning rRNA folding and spatially sorting ribosome assembly factors. Yet, how microscopic interactions within the condensed nucleolus affect rRNA folding and assembly is largely unknown. We used single-molecule fluorescence microscopy to monitor folding of the Tetrahymena ribozyme and an rRNA domain inside and outside droplets of Nop1/fibrillarin, a major constituent of the nucleolus. We found that Nop1 destabilizes tertiary docking of the ribozyme substrate helix equally in dilute and condensed phases, depending only on transient molecular interactions between Nop1 and the ribozyme. Nop1 binding also inhibits rRNA unwinding by a DEAD-box helicase and nonspecific binding of a ribosomal protein. Over time, nonspecific interactions with Nop1 are outcompeted by specific RNA-protein assembly. Our results illustrate how RNA-binding proteins residing in the nucleolus tune RNA folding stability while permitting assembly of native ribosomal complexes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA Folding",
+      "Phase Separation",
+      "*RNA, Ribosomal/chemistry/metabolism/genetics",
+      "*Chromosomal Proteins, Non-Histone/metabolism/genetics/chemistry",
+      "RNA, Catalytic/metabolism/chemistry/genetics",
+      "Cell Nucleolus/metabolism/genetics",
+      "Ribosomal Proteins/metabolism",
+      "Nucleic Acid Conformation",
+      "DEAD-box RNA Helicases/metabolism",
+      "RNA-Binding Proteins/metabolism",
+      "Tetrahymena/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Yunsheng",
+        "Woodson, Sarah A"
+      ],
+      "short_names": [
+        "Sun Y",
+        "Woodson SA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0170-1987"
+      ],
+      "affiliations": [
+        "T. C. Jenkins Department of Biophysics, Johns Hopkins University, 3400 N. Charles St., Baltimore, MD 21218,United States.",
+        "T. C. Jenkins Department of Biophysics, Johns Hopkins University, 3400 N. Charles St., Baltimore, MD 21218,United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Yunsheng",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "T. C. Jenkins Department of Biophysics, Johns Hopkins University, 3400 N. Charles St., Baltimore, MD 21218,United States."
+        ]
+      },
+      {
+        "full_name": "Woodson, Sarah A",
+        "short_name": "Woodson SA",
+        "identifiers": [
+          "0000-0003-0170-1987"
+        ],
+        "affiliations": [
+          "T. C. Jenkins Department of Biophysics, Johns Hopkins University, 3400 N. Charles St., Baltimore, MD 21218,United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jan 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/02 13:10",
+    "fetched_at": "2026-09-18 00:33:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41298079",
+      "41154832",
+      "40675030",
+      "40604277",
+      "40203038",
+      "39988318",
+      "39558160",
+      "39482307",
+      "38991204",
+      "38503281",
+      "38446881",
+      "38070499",
+      "37474727",
+      "36881934",
+      "36762427",
+      "36342833",
+      "35736211",
+      "35678541",
+      "35165426",
+      "34787357",
+      "34380047",
+      "34326237",
+      "34176739",
+      "33352065",
+      "32943521",
+      "32873929",
+      "32405004",
+      "32297938",
+      "31761536",
+      "31630970",
+      "31540874",
+      "31405125",
+      "30578455",
+      "30194374",
+      "29425497",
+      "28887451",
+      "28575444",
+      "27219701",
+      "27212236",
+      "26351690",
+      "26032816",
+      "26015579",
+      "25772805",
+      "25747659",
+      "25306544",
+      "25288112",
+      "24522531",
+      "23746349",
+      "22995827",
+      "21821049",
+      "21785141",
+      "21368180",
+      "21361309",
+      "20484467",
+      "20192764",
+      "19190093",
+      "18511918",
+      "17295487",
+      "16505350",
+      "15869389",
+      "15817375",
+      "15618406",
+      "15148362",
+      "12368097",
+      "12086675",
+      "11756689",
+      "10856219",
+      "10361090",
+      "10322435",
+      "8689574",
+      "8431947",
+      "7682726",
+      "7504953",
+      "3069131",
+      "2933102",
+      "2685320",
+      "1825809",
+      "1736996",
+      "1708111",
+      "1531632",
+      "1455230"
+    ],
+    "similar": [
+      "41626689",
+      "40675030",
+      "31761533",
+      "31540874",
+      "8431947",
+      "39988318",
+      "17075070",
+      "33483369",
+      "24136607",
+      "21714483",
+      "29512650",
+      "8508778",
+      "23788678",
+      "11381093",
+      "35678541",
+      "24947498",
+      "34686661",
+      "8013466",
+      "34135123",
+      "35751450",
+      "25002474",
+      "2026646",
+      "30169518",
+      "1825809",
+      "17311413",
+      "21859437",
+      "33522570",
+      "39199362",
+      "10656814",
+      "28959008",
+      "24129494",
+      "25350280",
+      "33262215",
+      "22713317",
+      "29875412",
+      "19616559",
+      "21536856",
+      "27452365",
+      "28062837",
+      "18782831",
+      "29128594",
+      "39576267",
+      "11491301",
+      "24312670",
+      "38768392",
+      "10571993",
+      "10656822",
+      "35628496",
+      "7544680",
+      "22705286",
+      "22735702",
+      "28506527",
+      "21785141",
+      "12691754",
+      "26354770",
+      "19560426",
+      "23064153",
+      "21878649",
+      "23702292",
+      "22641849",
+      "8308887",
+      "29364875",
+      "20138894",
+      "20160110",
+      "10385518",
+      "23397568",
+      "8756414",
+      "12691747",
+      "12595557",
+      "26376167",
+      "26226217",
+      "22940866",
+      "10999602",
+      "8039506",
+      "25200078",
+      "38113283",
+      "9880328",
+      "22893726",
+      "25696992",
+      "32679035",
+      "34686656",
+      "26759451",
+      "39579766",
+      "15572691",
+      "6208367",
+      "36543022",
+      "11352576",
+      "12058014",
+      "26492166",
+      "21923767",
+      "40604277",
+      "15491606",
+      "37371531",
+      "31188444",
+      "22065625",
+      "10837141",
+      "25470060",
+      "26836305",
+      "34176739",
+      "2658053"
+    ],
+    "review": [
+      "41626689",
+      "40675030",
+      "35678541",
+      "39199362",
+      "28062837",
+      "38768392",
+      "23064153",
+      "22065625",
+      "34176739"
+    ],
+    "pmc": [
+      "12862394"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41626689/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag065",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

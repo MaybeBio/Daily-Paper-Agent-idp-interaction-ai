@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "40577786",
+    "doi": "10.1093/bioinformatics/btaf362",
+    "title": "FusionEncoder: identification of intrinsically disordered regions based on multi-feature fusion."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Intrinsic disorder regions (IDRs) play a significant role in diverse biological processes and are widely distributed in proteins. Thus, accurately predicting these regions is essential for analyzing protein structure and function. Amino acid feature extraction servers as a foundational process in the development of computational predictive models. Existing methods typically rely on traditional biological features (e.g. PSSM) or use pre-trained protein language models (PPLMs) to capture sequence semantic information, often resorting to straightforward feature concatenation. However, these approaches fail to capture the multi-semantic interactions between traditional biological features and PPLMs-based features. RESULTS: In this study, we propose a method named FusionEncoder designed for the integration of traditional biological and PPLMs-based features of the protein. FusionEncoder is a fusion network built on a variant of long short-term memory (LSTM). We consider traditional biological features and PPLMs-based features to be two types of semantic inputs within a \"multi-semantic\" space. Traditional features are input into the cell state of the LSTM, while PPLMs-based features are fed into the input part. A fusion cell is then utilized to fuse these two types of features. This strategy leverages the capability of LSTM to encode long sequences, enhancing context-aware semantic learning of amino acid sequences. Finally, a transformer-based encoder layer is employed to predict the IDRs. Evaluation on four independent test datasets indicate that FusionEncoder obviously improves the accuracy of amino acid feature representation and achieves superior performance compared to the other existing methods. AVAILABILITY AND IMPLEMENTATION: To facilitate accessibility for experimental researchers, a user-friendly and publicly available webserver for the FusionEncoder predictor has been deployed at http://bliulab.net/FusionEncoder/. FusionEncoder is expected to serve as a valuable tool for the accurate identification of IDRs.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Computational Biology/methods",
+      "Algorithms",
+      "*Software",
+      "Databases, Protein",
+      "Sequence Analysis, Protein/methods",
+      "Semantics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Sicen",
+        "Chen, Shutao",
+        "Bai, Tao",
+        "Liu, Bin"
+      ],
+      "short_names": [
+        "Liu S",
+        "Chen S",
+        "Bai T",
+        "Liu B"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6608-7442",
+        "ORCID: 0000-0003-3685-9469"
+      ],
+      "affiliations": [
+        "SMBU-MSU-BIT Joint Laboratory on Bioinformatics and Engineering Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong 518172, China.",
+        "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China.",
+        "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China.",
+        "School of Mathematics and Computer Science, Yan'an University, Shaanxi 716000, China.",
+        "SMBU-MSU-BIT Joint Laboratory on Bioinformatics and Engineering Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong 518172, China.",
+        "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China.",
+        "Zhongguancun Academy, Beijing 100094, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Sicen",
+        "short_name": "Liu S",
+        "identifiers": [
+          "0000-0001-6608-7442"
+        ],
+        "affiliations": [
+          "SMBU-MSU-BIT Joint Laboratory on Bioinformatics and Engineering Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong 518172, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Shutao",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Tao",
+        "short_name": "Bai T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China.",
+          "School of Mathematics and Computer Science, Yan'an University, Shaanxi 716000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bin",
+        "short_name": "Liu B",
+        "identifiers": [
+          "0000-0003-3685-9469"
+        ],
+        "affiliations": [
+          "SMBU-MSU-BIT Joint Laboratory on Bioinformatics and Engineering Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong 518172, China.",
+          "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China.",
+          "Zhongguancun Academy, Beijing 100094, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/27 18:28",
+    "fetched_at": "2026-09-21 20:10:55"
+  },
+  "links": {
+    "cites": [
+      "42361193"
+    ],
+    "refs": [
+      "40138319",
+      "39696422",
+      "39237195",
+      "39148051",
+      "38701796",
+      "38298505",
+      "38166858",
+      "38072669",
+      "38020152",
+      "37827403",
+      "37674132",
+      "37321965",
+      "36927031",
+      "36794291",
+      "34864847",
+      "34232869",
+      "33875885",
+      "33843206",
+      "33152766",
+      "32702119",
+      "32173600",
+      "32112084",
+      "31307006",
+      "30425123",
+      "30135358",
+      "29626537",
+      "29077805",
+      "28011771",
+      "27587688",
+      "25531225",
+      "25391399",
+      "24656082",
+      "24318998",
+      "22208280",
+      "22044149",
+      "21874190",
+      "20823312",
+      "20158872",
+      "20100603",
+      "19594884",
+      "19209228",
+      "18573080",
+      "17998252",
+      "17709338",
+      "17658943",
+      "16493414",
+      "16455751",
+      "16287116",
+      "15955779",
+      "15947016",
+      "15769473",
+      "15738986",
+      "15019783",
+      "12381310",
+      "9682055",
+      "9254694",
+      "8876187",
+      "8804598"
+    ],
+    "similar": [
+      "40577786",
+      "32702119",
+      "34864847",
+      "42587290",
+      "37674132",
+      "40133791",
+      "42475469",
+      "38079339",
+      "40441416",
+      "25637562",
+      "40254833",
+      "32696351",
+      "40031750",
+      "30099775",
+      "39457474",
+      "41094395",
+      "23282098",
+      "26090958",
+      "36403092",
+      "36458437",
+      "26555596",
+      "27787828",
+      "24573479",
+      "24093637",
+      "40662788",
+      "42598852",
+      "39456153",
+      "32535960",
+      "37827403",
+      "32112084",
+      "38166858",
+      "20823312",
+      "40814232",
+      "42288727",
+      "41151193",
+      "38599417",
+      "40569190",
+      "16796745",
+      "40116777",
+      "41679678",
+      "41352986",
+      "40867524",
+      "38340437",
+      "35469832",
+      "40628826",
+      "30866736",
+      "40138319",
+      "40174317",
+      "34290238",
+      "24573480",
+      "38701796",
+      "32173600",
+      "29042212",
+      "30135358",
+      "42140310",
+      "39121059",
+      "34905768",
+      "16618368",
+      "40589089",
+      "39433833",
+      "41396755",
+      "39708500",
+      "29360926",
+      "30657889",
+      "28369666",
+      "36272675",
+      "23912807",
+      "39316498",
+      "39576583",
+      "41462221",
+      "37709009",
+      "19091011",
+      "25391399",
+      "36315580",
+      "42374910",
+      "38552281",
+      "41257586",
+      "39182368",
+      "34830151",
+      "31207240",
+      "41285097",
+      "28365882",
+      "41500381",
+      "31714956",
+      "30819075",
+      "30388198",
+      "37992088",
+      "39711079",
+      "36088549",
+      "40326886",
+      "41789576",
+      "32901090",
+      "31985440",
+      "36698208",
+      "31616935",
+      "39446533",
+      "40662818",
+      "39426757",
+      "39446541",
+      "40975372"
+    ],
+    "review": [
+      "40577786",
+      "30657889",
+      "31714956"
+    ],
+    "pmc": [
+      "12231546"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40577786.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40577786/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btaf362",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

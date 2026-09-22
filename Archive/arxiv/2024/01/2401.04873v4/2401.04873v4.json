@@ -1,0 +1,38 @@
+{
+  "source": "arxiv",
+  "source_id": "2401.04873v4",
+  "title": "Electrostatics of Salt-Dependent Reentrant Phase Behaviors Highlights Diverse Roles of ATP in Biomolecular Condensates",
+  "doi": "10.7554/eLife.100284",
+  "abstract": "Liquid-liquid phase separation (LLPS) involving intrinsically disordered protein regions (IDRs) is a major physical mechanism for biological membraneless compartmentalization. The multifaceted electrostatic effects in these biomolecular condensates are exemplified here by experimental and theoretical investigations of the different salt- and ATP-dependent LLPSs of an IDR of messenger RNA-regulating protein Caprin1 and its phosphorylated variant pY-Caprin1, exhibiting, e.g., reentrant behaviors in some instances but not others. Experimental data are rationalized by physical modeling using analytical theory, molecular dynamics, and polymer field-theoretic simulations, indicating that interchain ion bridges enhance LLPS of polyelectrolytes such as Caprin1 and the high valency of ATP-magnesium is a significant factor for its colocalization with the condensed phases, as similar trends are observed for other IDRs. The electrostatic nature of these features complements ATP's involvement in $π$-related interactions and as an amphiphilic hydrotrope, underscoring a general role of biomolecular condensates in modulating ion concentrations and its functional ramifications.",
+  "authors": [
+    "Yi-Hsuan Lin",
+    "Tae Hun Kim",
+    "Suman Das",
+    "Tanmoy Pal",
+    "Jonas Wessén",
+    "Atul Kaushik Rangadurai",
+    "Lewis E. Kay",
+    "Julie D. Forman-Kay",
+    "Hue Sun Chan"
+  ],
+  "published_date": "2024-01-10T01:57:05Z",
+  "updated_date": "2024-12-31T07:41:34Z",
+  "journal": "eLife 13:RP100284 (2025)",
+  "category": "q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2401.04873v4",
+  "pdf_url": "https://arxiv.org/pdf/2401.04873v4",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "4",
+  "keywords": [
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2401.04873v4",
+    "raw_categories": [
+      "q-bio.BM"
+    ],
+    "journal_ref": "eLife 13:RP100284 (2025)"
+  }
+}

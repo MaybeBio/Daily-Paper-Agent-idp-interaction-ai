@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "41231767",
+    "doi": "10.1093/nar/gkaf1130",
+    "title": "DynaRepo: the repository of macromolecular conformational dynamics."
+  },
+  "content": {
+    "abstract": "Proteins, RNA, and DNA are central to virtually all cellular processes, often assembling into macromolecular complexes to perform their functions. While these molecules are inherently dynamic, most methods for studying their mechanisms focus on static structures. Recent deep learning advances in protein structure prediction highlight the potential of data-driven approaches, yet dynamic behavior that is critical for interactions such as antibody-antigen recognition, intrinsically disordered proteins, and protein-nucleic acid binding, remains underexplored. To address this gap, we present DynaRepo, a repository of macromolecular conformational dynamics comprising $\\sim$450 complexes and $\\sim$270 single-chain proteins from PDBbind, the Structural Antibody Database (SAbDab), and benchmark sets. Each complex was simulated in triplicate for 500 ns, totaling $>$1100 $\\mu$s of molecular dynamics data, with extensive pre-calculated analyses. DynaRepo provides a foundation for dynamics-aware deep learning frameworks and is freely available at: https://dynarepo.inria.fr/.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Databases, Protein",
+      "Protein Conformation",
+      "Deep Learning",
+      "*Proteins/chemistry",
+      "*Macromolecular Substances/chemistry",
+      "Software",
+      "RNA/chemistry",
+      "Intrinsically Disordered Proteins/chemistry",
+      "DNA/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mokhtari, Omid",
+        "Bignon, Emmanuelle",
+        "Khakzad, Hamed",
+        "Karami, Yasaman"
+      ],
+      "short_names": [
+        "Mokhtari O",
+        "Bignon E",
+        "Khakzad H",
+        "Karami Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-8751-8117",
+        "ORCID: 0000-0001-9475-5049",
+        "ORCID: 0000-0002-8556-0650",
+        "ORCID: 0000-0001-8413-2665"
+      ],
+      "affiliations": [
+        "Universite de Lorraine, CNRS, Inria, LORIA, F-54000 Nancy, France.",
+        "Universite de Lorraine, CNRS, UMR 7019, LPCT, F-54000 Nancy, France.",
+        "Universite de Lorraine, CNRS, Inria, LORIA, F-54000 Nancy, France.",
+        "Universite de Lorraine, CNRS, Inria, LORIA, F-54000 Nancy, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mokhtari, Omid",
+        "short_name": "Mokhtari O",
+        "identifiers": [
+          "0009-0000-8751-8117"
+        ],
+        "affiliations": [
+          "Université de Lorraine, CNRS, Inria, LORIA, F-54000 Nancy, France."
+        ]
+      },
+      {
+        "full_name": "Bignon, Emmanuelle",
+        "short_name": "Bignon E",
+        "identifiers": [
+          "0000-0001-9475-5049"
+        ],
+        "affiliations": [
+          "Université de Lorraine, CNRS, UMR 7019, LPCT, F-54000 Nancy, France."
+        ]
+      },
+      {
+        "full_name": "Khakzad, Hamed",
+        "short_name": "Khakzad H",
+        "identifiers": [
+          "0000-0002-8556-0650"
+        ],
+        "affiliations": [
+          "Université de Lorraine, CNRS, Inria, LORIA, F-54000 Nancy, France."
+        ]
+      },
+      {
+        "full_name": "Karami, Yasaman",
+        "short_name": "Karami Y",
+        "identifiers": [
+          "0000-0001-8413-2665"
+        ],
+        "affiliations": [
+          "Université de Lorraine, CNRS, Inria, LORIA, F-54000 Nancy, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jan 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/13 18:30",
+    "fetched_at": "2026-09-17 21:54:51"
+  },
+  "links": {
+    "cites": [
+      "42473947",
+      "42450193",
+      "42301231",
+      "42035258",
+      "41967841",
+      "41431842"
+    ],
+    "refs": [
+      "41435823",
+      "40638710",
+      "40552661",
+      "40175561",
+      "39535038",
+      "39212001",
+      "39118978",
+      "38718835",
+      "38596314",
+      "38415718",
+      "38385879",
+      "37996753",
+      "37986215",
+      "37953362",
+      "37072397",
+      "34761257",
+      "34265844",
+      "32962386",
+      "32901046",
+      "32752662",
+      "32661425",
+      "31819266",
+      "31363226",
+      "30705752",
+      "29547221",
+      "29035372",
+      "28182403",
+      "27322406",
+      "26574453",
+      "26574392",
+      "26569599",
+      "26073602",
+      "24214988",
+      "23549990",
+      "22139938",
+      "21967761",
+      "21070939",
+      "20399180",
+      "19443443",
+      "18940856",
+      "17212484",
+      "16211538",
+      "15476259",
+      "11746690",
+      "9917408"
+    ],
+    "similar": [
+      "41231767",
+      "41053908",
+      "23912807",
+      "39952928",
+      "26827237",
+      "41313605",
+      "30066087",
+      "27787828",
+      "34905768",
+      "29306779",
+      "41478913",
+      "39522439",
+      "33779503",
+      "26807783",
+      "39984300",
+      "30840442",
+      "35098694",
+      "40726410",
+      "17164520",
+      "38018910",
+      "25544254",
+      "26189090",
+      "36542701",
+      "28031034",
+      "41174312",
+      "41082321",
+      "39093570",
+      "25625937",
+      "38892222",
+      "26092861",
+      "32696368",
+      "32020911",
+      "36463772",
+      "33355572",
+      "34680048",
+      "39163334",
+      "40907012",
+      "29990433",
+      "28095698",
+      "29425497",
+      "34845619",
+      "37957331",
+      "12824324",
+      "39555603",
+      "31411026",
+      "39535038",
+      "30708285",
+      "41147497",
+      "33481784",
+      "32436706",
+      "38996889",
+      "40068541",
+      "32579908",
+      "30527137",
+      "24589355",
+      "30621295",
+      "26661739",
+      "33567297",
+      "23850846",
+      "37241789",
+      "23625455",
+      "32034199",
+      "27038125",
+      "35883018",
+      "25883142",
+      "34791357",
+      "38987470",
+      "41261173",
+      "41017158",
+      "33617899",
+      "34418423",
+      "39032884",
+      "32786705",
+      "39947281",
+      "38781245",
+      "34201262",
+      "40360271",
+      "36131545",
+      "25871264",
+      "31552948",
+      "18773096",
+      "39993015",
+      "31617035",
+      "38275091",
+      "34680137",
+      "35129612",
+      "39163306",
+      "40173387",
+      "29664630",
+      "27794210",
+      "40009520",
+      "30184304",
+      "30703278",
+      "33243935",
+      "31613621",
+      "33936509",
+      "25814479",
+      "26562397",
+      "29548979",
+      "9261085"
+    ],
+    "review": [
+      "41231767",
+      "30066087",
+      "29306779",
+      "39522439",
+      "26807783",
+      "30840442",
+      "35098694",
+      "25544254",
+      "26189090",
+      "39093570",
+      "25625937",
+      "32020911",
+      "36463772",
+      "33355572",
+      "34680048",
+      "37957331",
+      "39555603",
+      "40068541",
+      "30527137",
+      "33567297",
+      "37241789",
+      "32034199",
+      "34418423",
+      "31617035",
+      "35129612",
+      "27794210",
+      "33243935"
+    ],
+    "pmc": [
+      "12807786"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41231767/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GST+Mu1-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf1130",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

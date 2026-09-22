@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, figure captions, and references as provided.
+- **Assessment boundary** Scientific content, technical soundness, clarity, and alignment with the stated scope of a mini-review. Editorial and formatting issues are noted only where they affect comprehension.
+- **Shared manuscript claim summary** The authors present a mini-review of computational approaches used to study molecular interactions involving intrinsically disordered proteins and regions (IDPs/IDRs). They propose a classification of interaction architectures (A–D classes) based on the ordered/disordered nature of the interacting regions, and discuss computational strategies (all-atom MD, coarse-grained models, enhanced sampling, integrative approaches) applied to each class, with selected examples.
+- **Visible evidence base** The manuscript is a review; the evidence base consists of cited primary literature, illustrative figures (Fig. 1 and Fig. 2), and the authors' synthesis of existing computational and experimental studies.
+- **Missing materials affecting confidence** No supplementary information, figure files, or detailed methodological descriptions were provided. The review's claims are largely qualitative and depend on the accuracy of the cited literature, which could not be independently verified from the supplied material.
+
+## Reviewer
+- **Overall assessment** This is a well-structured and readable mini-review that addresses a timely and important topic. The classification of interaction architectures (A–D) is a useful organizing framework, and the authors successfully convey the diversity of computational approaches available for studying IDP/IDR interactions. The manuscript is generally clear and accessible to a broad audience. However, the review is largely descriptive and lacks critical depth in several areas. The selection of examples is somewhat uneven, and some claims about the capabilities or limitations of methods are stated without sufficient nuance or supporting detail. The figures, as described, are helpful but their quality and informativeness cannot be assessed from the text alone. Overall, the manuscript is a competent contribution to the literature, but it does not offer a sufficiently novel or critical perspective to be of exceptional interest to a broad interdisciplinary readership.
+- **Who would be interested in the results, and why** Researchers in the fields of computational biophysics, structural biology, and molecular biology, particularly those studying IDPs/IDRs, protein-protein interactions, and phase separation. The review provides a useful entry point for newcomers to the field and a concise overview for established researchers. The classification scheme may be of pedagogical value.
+- **Major strengths** The manuscript is clearly written and logically organized. The proposed classification of interaction architectures is a helpful conceptual framework. The authors successfully integrate discussion of computational methods with specific biological examples, making the review accessible and informative. The focus on the diversity of interaction modes, from rigid folding-upon-binding to extremely fuzzy complexes, is appropriate and timely.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific depth and critical analysis
+  - **Claim pointer** The review claims to describe "the most relevant architectures found for molecular interactions involving IDPs/IDRs and the computational strategies applied for their investigation."
+  - **Evidence pointer** Throughout the manuscript, particularly in Sections 3, 4, and 5.
+  - **Concern** The review is largely descriptive, summarizing examples from the literature without providing a critical comparative analysis of the strengths and limitations of different computational methods. For instance, the discussion of all-atom MD force fields mentions recent improvements but does not critically assess the current state of force field accuracy for IDPs, nor does it discuss the challenges of validating such simulations against experimental data in a systematic way. Similarly, the section on coarse-grained models lists several models but does not compare their relative performance or applicability domains in a meaningful way. The review would be significantly strengthened by a more critical and comparative perspective.
+  - **Why it matters** A review that merely catalogs methods and examples is of limited value to experts. A critical assessment of method performance, limitations, and future challenges would provide greater insight and would help guide readers in selecting appropriate computational approaches for their own research.
+  - **Resolution test** The authors should add a comparative discussion of the strengths and weaknesses of the different computational approaches, perhaps in a dedicated section or table. This discussion should address issues such as accuracy, computational cost, system size limitations, and the types of questions each method is best suited to answer.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness and balance of coverage
+  - **Claim pointer** The review focuses on "the most relevant architectures" and "computational strategies applied for their investigation."
+  - **Evidence pointer** Sections 3, 4, and 5.
+  - **Concern** The selection of examples is somewhat uneven. For instance, the section on linker-mediated interactions (Section 3) is heavily focused on bi-specific antibodies and multi-domain enzymes, which are valid examples, but the discussion of other important systems, such as signaling complexes or scaffold proteins, is limited. In Section 4, the discussion of allovalent complexes is dominated by the Sic1-Cdc4 example, which is appropriate, but the broader implications of allovalency for cellular signaling are not fully explored. The section on phase separation (Section 5) is relatively brief given the explosion of research in this area, and could benefit from a more detailed discussion of the specific computational challenges and recent advances.
+  - **Why it matters** A balanced and comprehensive coverage of the topic is essential for a review to be a reliable resource. The current unevenness may lead to a skewed perspective on the field.
+  - **Resolution test** The authors should either broaden the selection of examples to provide a more balanced coverage of the field, or explicitly state the criteria used for selecting the examples and acknowledge the limitations of the selection.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and practical guidance
+  - **Claim pointer** The review describes various computational methods, including enhanced sampling techniques, coarse-grained models, and integrative approaches.
+  - **Evidence pointer** Section 2 and subsequent sections.
+  - **Concern** The review does not provide sufficient practical guidance for readers who may wish to apply these methods. For example, the discussion of enhanced sampling techniques (e.g., replica exchange, metadynamics) is brief and does not include practical considerations such as the choice of collective variables, convergence assessment, or the handling of force field inaccuracies. Similarly, the description of integrative modeling approaches would benefit from a more detailed discussion of how experimental data are incorporated and how model quality is assessed.
+  - **Why it matters** A review that aims to be useful to practitioners should provide some practical guidance on method selection and application. The current level of detail is insufficient for this purpose.
+  - **Resolution test** The authors should add a section or subsection providing practical guidance on method selection, including a discussion of the key parameters, potential pitfalls, and best practices for each class of methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Abstract, last sentence
+  - **Evidence pointer** Abstract
+  - **Issue** The sentence "In this mini-review, we describe the most relevant architectures found for molecular interactions involving IDPs/IDRs and the computational strategies applied for their investigation" is somewhat generic. It could be more specific about the classification scheme proposed and the key conclusions of the review.
+  - **Required correction** Consider revising the sentence to briefly mention the classification scheme (e.g., "We classify interaction architectures into four broad classes...") and the main take-home messages.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Section 2, paragraph 1
+  - **Evidence pointer** Section 2, paragraph 1
+  - **Issue** The sentence "The study of thermodynamic and kinetic aspects of protein interactions requires a more global exploration of conformational states and transitions" is a bit vague. It could be more specific about what "a more global exploration" entails (e.g., enhanced sampling, long-timescale simulations).
+  - **Required correction** Consider revising the sentence to be more specific, for example: "The study of thermodynamic and kinetic aspects of protein interactions requires a more comprehensive exploration of the conformational landscape, which can be achieved through enhanced sampling techniques or long-timescale simulations."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5
+  - **Evidence pointer** Section 5
+  - **Issue** The section on phase separation is relatively brief. Given the importance and rapid growth of this field, a slightly more detailed discussion of the computational challenges and recent advances would be beneficial.
+  - **Required correction** Consider expanding this section to include a brief discussion of recent computational studies that have provided mechanistic insights into phase separation, and the specific challenges associated with modeling these systems.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1 and Figure 2 captions
+  - **Evidence pointer** Figure captions
+  - **Issue** The figure captions are descriptive but could be more informative. For example, Figure 1's caption could explicitly state the classification scheme (A, B, C, D classes) and the key features of each class.
+  - **Required correction** Consider revising the figure captions to be more self-explanatory and to highlight the key points illustrated by each figure.
+- **Technical failings that need to be addressed before the case is established** None identified from the supplied material. The manuscript is a review, and the technical claims are appropriately attributed to the cited literature. The authors' own contributions (the classification scheme) are presented as a framework, not as empirical findings.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The classification scheme (A–D classes) provides a useful organizing framework, but it is not fundamentally novel. Similar categorizations exist in the literature, although perhaps not as explicitly stated. The review does not present new data or a new theoretical framework.
+  - **Scientific importance** The topic is of high importance, given the central role of IDPs/IDRs in biology and disease. The review addresses a clear need for accessible overviews of computational approaches in this area.
+  - **Interdisciplinary readership** The manuscript is likely to be of interest to researchers in computational biology, structural biology, biophysics, and cell biology. The writing is accessible to non-specialists, although some familiarity with molecular simulation concepts is assumed.
+  - **Technical soundness** The technical content appears sound, based on the cited literature. The descriptions of methods are generally accurate, though lacking in critical depth.
+  - **Readability for nonspecialists** The manuscript is well-written and clearly organized. The use of figures to illustrate the classification scheme is helpful. However, some sections may be challenging for readers without a background in molecular simulation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript is a competent and useful review, but it would be significantly strengthened by a more critical and comparative analysis of the computational methods discussed. The proposed classification scheme is a valuable contribution, but the review's overall impact would be enhanced by a more balanced and in-depth treatment of the topic.
+
+## Risk / unsupported claims
+- The claim that "the structural properties of the linker are essential for the function of these bimolecular enzymes" (Section 3.3) is presented as a conclusion from the cited study, but the supporting evidence is not described in sufficient detail to assess its strength.
+- The statement that "one-bead-per-residue potential should not be overstated" (Section 5) is appropriately cautious, but the review does not provide a clear assessment of the quantitative accuracy of these models.
+- The claim that "computational approaches have the potential to play a key role in this challenge" (Section 5) is a reasonable assertion, but the specific ways in which computational methods can contribute are not elaborated in detail.
+- The unpublished work mentioned in Section 4.3 ("First tests with this method applied to IDPs show its ability to rapidly generate conformational ensemble models of loops involving around 100 residues (unpublished work)") is not verifiable and should be clearly marked as such or removed.

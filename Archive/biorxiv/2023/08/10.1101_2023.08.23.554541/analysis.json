@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.23.554541",
+  "title": "PSPire: a machine learning predictor for high-performance screening of phase-separating proteins without intrinsically disordered regions",
+  "authors": "Shuang Hou; Jiaojiao Hu; Zhaowei Yu; Cong Liu; Yong Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-24",
+  "window": {
+    "start": "2023-08-21",
+    "end": "2023-08-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出机器学习预测器PSPire，融合残基与结构特征预测无IDR的相分离蛋白，虽对象聚焦非IDR型PSP，但直接涉及相分离互作机制的结构基础，且方法为AI预测，对本课题有方法迁移启发。",
+  "abstract": "The burgeoning comprehension of protein phase separation (PS) has ushered in a wealth of bioinformatics tools for the prediction of phase-separating proteins (PSPs). These tools often skew towards PSPs with a high content of intrinsically disordered regions (IDRs), thus frequently undervaluing potential PSPs without IDRs. Nonetheless, PS is not only steered by IDRs but also by the structured modular domains and interactions that aren’t necessarily reflected in amino acid sequences. In this work, we introduce PSPire, a unique machine learning predictor designed to incorporate both residue-level and structure-level features for the precise prediction of PSPs. Compared to current PSP predictors, PSPire shows a notable improvement in identifying PSPs without IDRs, which underscores the crucial role of non-IDR, structure-based characteristics in multivalent interactions throughout the PS process. Additionally, our biological validation experiments substantiate the predictive capacity of PSPire, with 6 out of the 8 chosen candidate PSPs confirmed to form condensates within cells. This highlights the considerable potential of structure-based models in the accurate prediction and comprehensive understanding of protein PS.",
+  "abstract_zh": "对蛋白质相分离（PS）理解的迅速发展，催生了大量用于预测相分离蛋白（PSPs）的生物信息学工具。这些工具往往偏向于含有高比例内在无序区域（IDRs）的PSPs，因此常常低估了缺乏IDRs的潜在PSPs。然而，PS不仅受IDRs调控，还受结构化模块化结构域及相互作用的影响，而这些未必反映在氨基酸序列中。在本研究中，我们介绍了PSPire，一种独特的机器学习预测器，旨在整合残基水平和结构水平特征，以实现对PSPs的精确预测。与现有PSP预测器相比，PSPire在识别无IDRs的PSPs方面表现出显著改进，这强调了非IDR、基于结构的特征在PS过程中多价相互作用中的关键作用。此外，我们的生物学验证实验证实了PSPire的预测能力，在8个选定的候选PSPs中，有6个被确认能在细胞内形成凝聚体。这突显了基于结构的模型在精确预测和全面理解蛋白质PS方面的巨大潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.23.554541",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.23.554541",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.23.554541/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34716273",
+  "title": "Accurate model of liquid-liquid phase behavior of intrinsically disordered proteins from optimization of single-chain properties.",
+  "authors": "Tesei, Giulio; Schulze, Thea K; Crehuet, Ramon; Lindorff-Larsen, Kresten",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2021-10-31",
+  "window": {
+    "start": "2021-10-25",
+    "end": "2021-10-31"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发了基于单链性质优化的IDP粗粒化模型，通过分子模拟准确预测IDP的构象和液-液相分离行为，虽未直接聚焦特定PPI，但为无序蛋白互作与相分离的机制建模提供了可迁移的物理模拟方法。",
+  "abstract": "Many intrinsically disordered proteins (IDPs) may undergo liquid-liquid phase separation (LLPS) and participate in the formation of membraneless organelles in the cell, thereby contributing to the regulation and compartmentalization of intracellular biochemical reactions. The phase behavior of IDPs is sequence dependent, and its investigation through molecular simulations requires protein models that combine computational efficiency with an accurate description of intramolecular and intermolecular interactions. We developed a general coarse-grained model of IDPs, with residue-level detail, based on an extensive set of experimental data on single-chain properties. Ensemble-averaged experimental observables are predicted from molecular simulations, and a data-driven parameter-learning procedure is used to identify the residue-specific model parameters that minimize the discrepancy between predictions and experiments. The model accurately reproduces the experimentally observed conformational propensities of a set of IDPs. Through two-body as well as large-scale molecular simulations, we show that the optimization of the intramolecular interactions results in improved predictions of protein self-association and LLPS.",
+  "abstract_zh": "许多内在无序蛋白质（IDPs）可能经历液-液相分离（LLPS），并参与细胞中无膜细胞器的形成，从而有助于细胞内生化反应的调控和区室化。IDPs的相行为具有序列依赖性，通过分子模拟研究其相行为需要蛋白质模型，这些模型需兼具计算效率与对分子内和分子间相互作用的精确描述。我们基于大量单链性质的实验数据，开发了一种具有残基级细节的通用IDPs粗粒化模型。从分子模拟预测系综平均的实验可观测量，并采用数据驱动的参数学习程序来识别残基特异性模型参数，以最小化预测与实验之间的差异。该模型准确再现了实验观察到的IDPs构象倾向性。通过二体及大规模分子模拟，我们表明优化分子内相互作用可改善蛋白质自组装和LLPS的预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34716273/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34716273/",
+  "paper_page_path": "papers/pubmed/34716273/index.html"
+}

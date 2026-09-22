@@ -1,0 +1,428 @@
+{
+  "identity": {
+    "pmid": "40095314",
+    "doi": "10.1002/pro.70067",
+    "title": "Sizes, conformational fluctuations, and SAXS profiles for intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "The preponderance of intrinsically disordered proteins (IDPs) in the eukaryotic proteome, and their ability to interact with each other, and with folded proteins, RNA, and DNA for functional purposes, have made it important to quantitatively characterize their biophysical properties. Toward this end, we developed the transferable self-organized polymer (SOP-IDP) model to calculate the properties of several IDPs. The values of the radius of gyration ( Rg ) obtained from SOP-IDP simulations are in excellent agreement (correlation coefficient of 0.96) with those estimated from SAXS experiments. For AP180 and Epsin, the predicted values of the hydrodynamic radii ( Rhs ) are in nearly quantitative agreement with those from fluorescence correlation spectroscopy (FCS) experiments. Strikingly, the calculated SAXS profiles for 36 IDPs are also nearly superimposable on the experimental profiles. The dependence of Rg and the mean end-to-end distance ( Ree ) on chain length, N , follows Flory's scaling law, Ralpha  approximately  aalphaN0.588 ( alpha = g,  and e ), suggesting that globally IDPs behave as synthetic polymers in a good solvent. This finding depends on the solvent quality, which can be altered by changing variables such as pH and salt concentration. The values of ag and ae are 0.20 and 0.48 nm, respectively. Surprisingly, finite size corrections to scaling, expected on theoretical grounds, are negligible for Rg and Ree . In contrast, only by accounting for the finite sizes of the IDPs, the dependence of experimentally measurable Rh on N can be quantitatively explained using nu = 0.588 . Although Flory scaling law captures the estimates for Rg , Ree , and Rh accurately, the spread of the simulated data around the theoretical curve is suggestive of of sequence-specific features that emerge through a fine-grained analysis of the conformational ensembles using hierarchical clustering. Typically, the ensemble of conformations partitions into three distinct clusters, having different equilibrium populations and structural properties. Without any further readjustments to the parameters of the SOP-IDP model, we also obtained nearly quantitative agreement with paramagnetic relaxation enhancement (PRE) measurements for alpha-synuclein. The transferable SOP-IDP model sets the stage for several applications, including the study of phase separation in IDPs and interactions with nucleic acids.",
+    "keywords": [
+      "SAXS",
+      "conformational ensemble",
+      "intrinsically disordered proteins",
+      "molecular dynamics"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Scattering, Small Angle",
+      "X-Ray Diffraction",
+      "Protein Conformation",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mugnai, Mauro L",
+        "Chakraborty, Debayan",
+        "Nguyen, Hung T",
+        "Maksudov, Farkhad",
+        "Kumar, Abhinaw",
+        "Zeno, Wade",
+        "Stachowiak, Jeanne C",
+        "Straub, John E",
+        "Thirumalai, D"
+      ],
+      "short_names": [
+        "Mugnai ML",
+        "Chakraborty D",
+        "Nguyen HT",
+        "Maksudov F",
+        "Kumar A",
+        "Zeno W",
+        "Stachowiak JC",
+        "Straub JE",
+        "Thirumalai D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0267-2279",
+        "ORCID: 0000-0003-1801-5924"
+      ],
+      "affiliations": [
+        "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA.",
+        "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA.",
+        "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA.",
+        "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA.",
+        "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA.",
+        "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, California, USA.",
+        "Department of Biomedical Engineering, The University of Texas at Austin, Austin, Texas, USA.",
+        "Department of Chemistry, Boston University, Boston, Massachusetts, USA.",
+        "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA.",
+        "Department of Physics, The University of Texas at Austin, Austin, Texas, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mugnai, Mauro L",
+        "short_name": "Mugnai ML",
+        "identifiers": [
+          "0000-0002-0267-2279"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Chakraborty, Debayan",
+        "short_name": "Chakraborty D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Hung T",
+        "short_name": "Nguyen HT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Maksudov, Farkhad",
+        "short_name": "Maksudov F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Kumar, Abhinaw",
+        "short_name": "Kumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Zeno, Wade",
+        "short_name": "Zeno W",
+        "identifiers": [],
+        "affiliations": [
+          "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, California, USA."
+        ]
+      },
+      {
+        "full_name": "Stachowiak, Jeanne C",
+        "short_name": "Stachowiak JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, The University of Texas at Austin, Austin, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Straub, John E",
+        "short_name": "Straub JE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Boston University, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Thirumalai, D",
+        "short_name": "Thirumalai D",
+        "identifiers": [
+          "0000-0003-1801-5924"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, Texas, USA.",
+          "Department of Physics, The University of Texas at Austin, Austin, Texas, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/17 18:30",
+    "fetched_at": "2026-09-21 16:45:24"
+  },
+  "links": {
+    "cites": [
+      "41890075",
+      "41761630",
+      "41576087",
+      "41137856",
+      "40727659",
+      "39980654"
+    ],
+    "refs": [
+      "38943248",
+      "38297184",
+      "38297118",
+      "37339604",
+      "36947617",
+      "36206480",
+      "35950933",
+      "35944496",
+      "35795820",
+      "35377637",
+      "35181198",
+      "34931046",
+      "34716273",
+      "34575888",
+      "34516126",
+      "34144468",
+      "34035521",
+      "33968988",
+      "33686854",
+      "33623120",
+      "33545530",
+      "33510441",
+      "33503539",
+      "33459730",
+      "32816485",
+      "32732434",
+      "32157247",
+      "32029630",
+      "32015543",
+      "31809054",
+      "31756104",
+      "31425549",
+      "31180661",
+      "31097543",
+      "30990694",
+      "30913885",
+      "30876367",
+      "30091924",
+      "30047198",
+      "29961577",
+      "29951497",
+      "29735687",
+      "29573987",
+      "29571687",
+      "29364893",
+      "29323488",
+      "29080468",
+      "28746339",
+      "28340338",
+      "28225081",
+      "28074088",
+      "27967042",
+      "27583570",
+      "27018801",
+      "26914439",
+      "26723627",
+      "26574339",
+      "26484390",
+      "26352473",
+      "26204806",
+      "25863585",
+      "25764013",
+      "25400522",
+      "25288112",
+      "25066823",
+      "24773235",
+      "24015115",
+      "24010662",
+      "23527587",
+      "23199922",
+      "22989858",
+      "22118466",
+      "22029383",
+      "21044603",
+      "20499903",
+      "20404210",
+      "20366773",
+      "20359221",
+      "19847913",
+      "19554627",
+      "19522502",
+      "17827232",
+      "17098189",
+      "16305213",
+      "15671169",
+      "15643843",
+      "15610017",
+      "15473838",
+      "15314214",
+      "15247485",
+      "11060312",
+      "10716988",
+      "10048329",
+      "8440257",
+      "3816757",
+      "1643270",
+      "1057175"
+    ],
+    "similar": [
+      "40095314",
+      "30913885",
+      "36674958",
+      "30840442",
+      "39642200",
+      "23912807",
+      "39980654",
+      "32840111",
+      "29548755",
+      "36641212",
+      "27936491",
+      "29571687",
+      "39499823",
+      "32859072",
+      "39718971",
+      "33581430",
+      "34817999",
+      "32696370",
+      "27440558",
+      "35377637",
+      "31714774",
+      "31809054",
+      "35944496",
+      "29573987",
+      "32357776",
+      "31402649",
+      "26548662",
+      "32696361",
+      "36352011",
+      "29808548",
+      "37442414",
+      "26320411",
+      "41073429",
+      "33725442",
+      "37831084",
+      "32585849",
+      "33337879",
+      "40907012",
+      "32579908",
+      "28716919",
+      "30878202",
+      "32696367",
+      "39056166",
+      "30933517",
+      "39977663",
+      "26387110",
+      "30384718",
+      "25375525",
+      "25771525",
+      "26387105",
+      "41137856",
+      "34627764",
+      "30184304",
+      "38165099",
+      "30865820",
+      "31424463",
+      "34115515",
+      "10529212",
+      "26574339",
+      "30865832",
+      "33945530",
+      "30125451",
+      "27844185",
+      "33555894",
+      "36917561",
+      "31548393",
+      "37459524",
+      "36387274",
+      "29539394",
+      "36291634",
+      "37646172",
+      "36331868",
+      "39807013",
+      "31869980",
+      "33968988",
+      "41082321",
+      "33623120",
+      "30979035",
+      "28793210",
+      "40128232",
+      "35454150",
+      "21947276",
+      "28448138",
+      "37338049",
+      "36346711",
+      "39340152",
+      "21819149",
+      "21936008",
+      "35119946",
+      "30025858",
+      "33530506",
+      "31297688",
+      "41480867",
+      "35129612",
+      "34546059",
+      "30091924",
+      "24174539",
+      "40532196",
+      "37607621",
+      "26727467"
+    ],
+    "review": [
+      "40095314",
+      "30840442",
+      "26320411",
+      "26387110",
+      "26387105",
+      "30979035",
+      "21947276",
+      "35119946",
+      "33530506",
+      "35129612"
+    ],
+    "pmc": [
+      "11912445"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40095314.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40095314/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70067",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PSMA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, arXiv 2302.10348v1)
+- **Assessment boundary** Scientific content, methodology, claims, and evidence as presented in the provided text. Supplementary figures and table are referenced but not provided.
+- **Shared manuscript claim summary** The authors use a novel adaptive sampling method (AdaptiveBandit) to reconstruct, via unbiased all-atom molecular dynamics, the coupled binding and folding of the intrinsically disordered c-Myb transactivation domain to the KIX domain. They report a dominant bound state consistent with the NMR structure, a secondary binding site, and a mixed mechanism involving both conformational selection (N-terminal region) and induced fit (C-terminal region).
+- **Visible evidence base** Main text, Methods section, references to Supplementary Figures 1-9 and Supplementary Table 1 (not provided), Figure 1, Figure 2, Figure 3 (figures not provided in text).
+- **Missing materials affecting confidence** All figures, all supplementary materials, simulation trajectory data, and the referenced algorithm paper (Pérez et al. 2020). Without these, quantitative claims and methodological details cannot be fully verified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and challenging problem in the field of intrinsically disordered proteins: the atomistic mechanism of coupled binding and folding. The application of a reinforcement-learning-based adaptive sampling method to this system is novel and the reported success in recovering the NMR bound state is potentially important. However, the manuscript as presented has several weaknesses. The description of the AdaptiveBandit method is too brief for reproduction, the validation against experiment is incomplete and partially inconsistent, and the mechanistic conclusions, while plausible, are not fully supported by the quantitative evidence presented. The writing is generally clear but the results section lacks depth in places. The work is of interest to a specialized biophysics and computational chemistry audience, but the broader significance and technical soundness need strengthening.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, specifically those studying protein-protein interactions, intrinsically disordered proteins, and enhanced sampling methods. The demonstration of a new adaptive sampling approach succeeding where others failed will be of interest to method developers. Experimentalists studying IDP binding mechanisms may also find the proposed mixed model of interest as a testable hypothesis.
+- **Major strengths** 1. Tackles a biologically and biophysically important problem (IDP coupled binding and folding) that is notoriously difficult to simulate. 2. Introduces a novel, generally applicable sampling method (AdaptiveBandit) and demonstrates its practical utility on a challenging system. 3. Provides a detailed, testable mechanistic model (mixed conformational selection and induced fit) for the KIX-c-Myb interaction. 4. Uses unbiased all-atom MD, avoiding biases inherent in enhanced sampling methods.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Methodology
+  - **Claim pointer** The claim that AdaptiveBandit is a novel and effective method for reconstructing the binding process, and that it succeeded where "counts-based" adaptive sampling failed.
+  - **Evidence pointer** Section 2 (Results & Discussion), Figure 1b, Methods (AdaptiveBandit sampling)
+  - **Concern** The description of the AdaptiveBandit method is insufficient for a reader to understand, implement, or evaluate it. The core equations (Eq. 1 and Eq. 2) are referenced but not shown in the provided text. The reward function is described as "minus the free energy of each configuration visited in the trajectory spawn from a given action," but the practical implementation details (e.g., how the MSM is updated, how actions are selected, the value of the exploration constant c) are vague. The comparison with "Counts Adaptive" is presented as a failure (reaching ~7 Å RMSD) but the details of this comparison (e.g., same total sampling effort, same initial conditions) are not fully specified. The claim that "it was impossible to build an MSM with the bound state with previous methods" is a strong statement that requires more evidence than a single comparison.
+  - **Why it matters** The central novelty of the paper rests on the performance of the AdaptiveBandit method. If the method is not clearly described and its superiority not rigorously demonstrated, the core contribution of the work is weakened. The reader cannot assess whether the success is due to the method itself or to other factors (e.g., more total sampling, different initial conditions).
+  - **Resolution test** The authors must provide the full mathematical formulation of the method, including the equations. They should provide a more detailed and fair comparison with the "Counts Adaptive" method, ensuring that both methods are given comparable resources (e.g., total simulation time, number of epochs, starting structures). Ideally, they should show that the "Counts Adaptive" method fails to find the bound state even with more sampling than the AdaptiveBandit method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality / Validation
+  - **Claim pointer** The claim that the model is validated by comparison with experimental kinetic and thermodynamic data.
+  - **Evidence pointer** Section 2 (Model validation), Supplementary Figures 4, 5, 6
+  - **Concern** The validation is incomplete and the comparison is not fully convincing. The computed k_on is in agreement with experiment, but the computed k_off overestimates the extrapolated experimental value by an order of magnitude. The authors attribute this to "discretization errors" or incomplete sampling of the bound state, but this is a significant discrepancy that is not fully resolved. The free energy estimate is within the experimental range, but the range of values depends on analysis parameters, and the extrapolation of experimental data to 310 K is not described in detail. The convergence test (Supplementary Figure 5) is mentioned but not shown, and it is unclear what "convergence" means in this context (e.g., convergence of which observable?).
+  - **Why it matters** A key claim of the paper is that the simulations provide a quantitatively accurate description of the binding process. An order-of-magnitude error in k_off, while perhaps explainable, undermines this claim and suggests the model may not be fully capturing the kinetics of dissociation. The validation is a critical part of establishing the credibility of the simulation results.
+  - **Resolution test** The authors should provide a more detailed analysis of the discrepancy in k_off. They should show the convergence plots (Supplementary Figure 5) and explain what observables are converged. They should discuss the potential sources of error in the k_off calculation (e.g., MSM discretization, force field accuracy, finite sampling) and provide a more quantitative assessment of the model's predictive power. The extrapolation of experimental data to 310 K should be described in detail.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation / Mechanistic claims
+  - **Claim pointer** The claim that the binding mechanism is a "mixture of conformational selection on the N-terminal region with an induced fit of the C-terminal."
+  - **Evidence pointer** Section 2 (Adaptive sampling... and Secondary binding mode), Figure 3, Supplementary Figure 8
+  - **Concern** The mechanistic conclusion is based on flux analysis through a small number of macrostates (6 out of 15). The description of this analysis is brief. The authors state that "almost half of the flux goes through N-terminal helical conformations" in macrostate 13, but the definition of "helical" and the robustness of this result to the choice of macrostates and analysis parameters are not discussed. The claim that the C-terminal region follows a "clear induced-fit mechanism" is based on the observation that all flux goes through unfolded C-terminal conformations in macrostate 11, but this is a single macrostate and the pathway may be more complex.
+  - **Why it matters** The proposed mixed mechanism is a central biological conclusion of the paper. If the flux analysis is not robust or the interpretation is oversimplified, the conclusion may be misleading. The authors need to demonstrate that their conclusion is not an artifact of the specific MSM construction.
+  - **Resolution test** The authors should provide a more detailed description of the flux analysis, including the definition of the macrostates and the sensitivity of the results to the number of macrostates and other parameters. They should show the flux values and their uncertainties. They should also discuss whether the proposed mechanism is consistent with all the data, including the secondary binding mode.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section 1
+  - **Issue** The abstract states "Leucine residues, specially Leu298 to Leu302, establish initial native contacts that prime the binding and folding of the rest of the peptide." This is a specific and important claim, but it is not clearly highlighted in the Results section. The Introduction mentions "the existence of multiple binding modes" but does not clearly state what these are.
+  - **Required correction** The authors should ensure that the key mechanistic findings are clearly and consistently presented in the abstract, introduction, and results. The specific role of the leucine residues should be emphasized in the results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness / Methodology
+  - **Affected element** Methods (Molecular dynamics simulations)
+  - **Evidence pointer** Section 4
+  - **Issue** The Methods section states that the peptide was simulated at 500 K for 120 ns to unfold the initial structure. The rationale for this high temperature and the specific duration is not given. The equilibration protocol is described, but the production run details (e.g., ensemble, thermostat) are not fully specified.
+  - **Required correction** The authors should provide a brief justification for the high-temperature unfolding step and specify the ensemble and thermostat used in the production runs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Results (Model validation)
+  - **Evidence pointer** Section 2
+  - **Issue** The text states "the free energy estimates are only marginally improved" when including additional bound simulations. The term "marginally" is vague and should be quantified.
+  - **Required correction** The authors should provide the numerical values for the free energy estimates with and without the additional simulations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Results (Secondary binding mode)
+  - **Evidence pointer** Section 2
+  - **Issue** The secondary binding mode is described as "occupying a novel interface, located between α-1 and α-2." It is not clear if this interface has been previously described experimentally or in other simulations.
+  - **Required correction** The authors should clarify whether this secondary site is a known feature of KIX or a new prediction from their simulations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness / Methodology
+  - **Affected element** Methods (Markov state model analysis)
+  - **Evidence pointer** Section 4
+  - **Issue** The choice of features for the MSM (all-pair Cα+Cβ distances, self-distances, secondary structure, RMSD) is reasonable, but the number of TICA components kept (4+3) and the number of clusters (2000) are not justified.
+  - **Required correction** The authors should briefly justify these choices or state that they were based on convergence tests (e.g., implied timescales).
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Conclusions
+  - **Evidence pointer** Section 3
+  - **Issue** The conclusion states "The model describes an overall induced-fit binding mechanism." This is a strong statement that seems to contradict the earlier claim of a "mixture" of mechanisms. The nuance is lost in the conclusion.
+  - **Required correction** The conclusion should be more carefully worded to reflect the mixed mechanism, e.g., "The model describes a mechanism that is predominantly induced-fit, with an initial conformational selection step for the N-terminal region."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (method description and comparison), R1-M2 (validation and k_off discrepancy). These are blocking because the core claims of the paper (method effectiveness and quantitative accuracy) cannot be assessed without addressing them.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The application of a reinforcement-learning-based adaptive sampling method to a challenging IDP binding problem is novel. The proposed mixed mechanism is a new contribution.
+  - **Scientific importance** High. Understanding coupled binding and folding of IDPs is a major open question in molecular biology. A detailed atomistic mechanism for a well-studied system like KIX-c-Myb is valuable.
+  - **Interdisciplinary readership** Moderate. The work is primarily of interest to computational biophysicists and biochemists. The biological implications are clear but the technical focus may limit broader appeal.
+  - **Technical soundness** Currently not fully established. The method description is incomplete, and the validation has a significant discrepancy (k_off). The flux analysis needs more detail and robustness testing.
+  - **Readability for nonspecialists** The abstract and introduction are accessible, but the results and methods sections assume significant expertise in MD simulations and MSM analysis. The manuscript would benefit from a more accessible explanation of the AdaptiveBandit method and its advantages.
+- **Recommendation posture** Supportive if technical concerns are resolved. The work addresses an important problem with a novel approach and provides a plausible and interesting mechanistic model. However, the current manuscript does not provide sufficient detail to fully evaluate the method or the validity of the quantitative claims. The authors must address the blocking concerns (R1-M1, R1-M2) and strengthen the presentation of the flux analysis (R1-M3) before the case is established.
+
+## Risk / unsupported claims
+- The claim that "it was impossible to build an MSM with the bound state with previous methods" is not fully supported by the evidence presented (only one comparison with "Counts Adaptive" is shown).
+- The claim that the model is "validated" is weakened by the order-of-magnitude discrepancy in k_off.
+- The specific mechanistic claim about the role of Leu298 and Leu302 in "priming" the binding is not quantitatively supported by the flux analysis as presented.
+- The existence and significance of the "secondary binding mode" is presented but not validated against any experimental data.
+- The claim that the method "provides converged estimates of kinetics and thermodynamics after just 150 μs" is not verifiable without the supplementary figures.

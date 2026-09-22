@@ -1,94 +1,94 @@
 ## Review setup
-- **Input scope** Full manuscript (abstract only provided)
-- **Assessment boundary** Claims and evidence presented in the abstract
-- **Shared manuscript claim summary** The authors report the discovery of a new class of inherently efficient SUMOylation substrates, exemplified by the BTB domain of ZBTB38, which uses a structured surface to mimic canonical linear consensus motifs and achieves catalytic efficiency comparable to the gold-standard substrate RANGAP1.
-- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
-- **Missing materials affecting confidence** Full manuscript, including all figures, tables, experimental methods, crystallographic data, structural models, sequence alignments, kinetic data, and cellular data
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, limitations, methods)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided text
+- **Shared manuscript claim summary** The authors report that the BTB domain of human ZBTB38 contains a structurally pre-organised, non-linear SUMOylation motif that recruits UBC9 with mid-micromolar affinity, enabling SUMOylation of Lys 43 with efficiency comparable to RANGAP1 CTD in vitro. They propose this defines a new class of inherently efficient, E3-independent SUMOylation substrates, supported by structural, biochemical, and cellular evidence.
+- **Visible evidence base** Crystal structure (1.95 Å, C2221), analytical SEC, ITC, in-vitro SUMOylation assays with mutants, AlphaFold3-based interaction screens, sequence conservation analysis, and cellular western blot data
+- **Missing materials affecting confidence** Figures and tables referenced but not provided; no raw data, statistics, or uncropped blots; no experimental structure of the UBC9 complex; no quantitative kinetic parameters (kcat, KM) reported; no negative controls for cellular SUMOylation shown
 
 ## Reviewer
-- **Overall assessment** The abstract presents a potentially interesting and novel finding regarding a new class of SUMOylation substrates. However, the provided material is insufficient to evaluate the strength of the evidence, the validity of the key claims, or the technical soundness of the work. A full manuscript is required for a meaningful assessment.
-- **Who would be interested in the results, and why** Researchers in the fields of post-translational modifications, ubiquitin-like proteins, SUMO biology, structural biology, and transcriptional regulation (ZBTB proteins) would be interested. The work challenges the current paradigm that efficient SUMOylation requires linear consensus motifs in disordered regions, and may have implications for understanding SUMOylation in structured domains and for identifying new substrates.
-- **Major strengths** The claim of a new class of inherently efficient SUMOylation substrates is conceptually novel and potentially significant. The use of multiple complementary approaches (X-ray crystallography, structural prediction, in-vitro assays, cellular data) is a strength, if the data are robust. The comparison to the well-characterized RANGAP1 substrate provides a meaningful benchmark.
+- **Overall assessment** This manuscript presents a potentially interesting observation: a structured BTB domain that mimics a linear SUMOylation motif in three dimensions, supporting efficient UBC9-mediated modification. The combination of crystallography, modelling, and biochemistry is appropriate, and the comparison to RANGAP1 CTD is a useful benchmark. However, the central claim of "inherently efficient" SUMOylation rests on qualitative gel-based comparisons without kinetic parameters, and the cellular data are preliminary. The evolutionary and functional significance, while plausible, is largely speculative. The work is likely of interest to the SUMOylation and transcription regulation communities, but the evidence as presented does not fully establish the novelty or generality of the proposed new class of substrates.
+- **Who would be interested in the results, and why** Researchers studying post-translational modification by SUMO, particularly those interested in substrate recognition mechanisms by UBC9, structural biology of BTB domains, and transcriptional regulation by ZBTB proteins. The proposed concept of a "structural SUMOylation motif" could be of broader interest to the ubiquitin-like modification field.
+- **Major strengths** 1) The crystal structure of ZBTB38 BTB is a valuable new contribution. 2) The combination of structural prediction, conservation analysis, and mutagenesis to identify a functional interface is methodologically sound. 3) The direct comparison with RANGAP1 CTD provides a meaningful reference point for efficiency. 4) The study opens a new direction by suggesting that structured domains can serve as efficient SUMOylation hubs, challenging the prevailing focus on linear motifs in disordered regions.
 - **Major Concerns**
-    - **Concern ID** R1-M1
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Evidence sufficiency
-    - **Claim pointer** The authors claim that ZBTB38BTB possesses a dedicated surface that recapitulates the spatial arrangement of residues found in canonical linear consensus motifs and binds UBC9 with mid-micromolar affinity.
-    - **Evidence pointer** Abstract; location not provided
-    - **Concern** The abstract states that this claim is supported by X-ray crystallography, structural prediction, and in-vitro UBC9 interaction and SUMOylation assays. However, no data (e.g., binding curves, crystallographic structures, or structural models) are provided in the abstract. The claim of a "dedicated surface" and its specific interaction with UBC9 cannot be evaluated.
-    - **Why it matters** This is the central structural claim of the paper. Without seeing the actual structural data and binding measurements, the validity of the entire mechanistic model is unverifiable.
-    - **Resolution test** Provide the crystallographic structure of ZBTB38BTB (or a complex with UBC9), the structural model, and the binding data (e.g., ITC, SPR, or fluorescence anisotropy) with proper controls and error analysis.
-
-    - **Concern ID** R1-M2
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Evidence sufficiency
-    - **Claim pointer** The authors claim that the catalytic efficiency of ZBTB38BTB and ZBTB33BTB SUMOylation is closely comparable to that of the C-terminal domain of RANGAP1.
-    - **Evidence pointer** Abstract; location not provided
-    - **Concern** The abstract states that kinetic analyses support this claim, but no kinetic parameters (e.g., kcat, Km, kcat/Km) or reaction conditions are provided. The claim of "closely comparable" is vague and cannot be assessed without quantitative data and appropriate statistical analysis.
-    - **Why it matters** This is the key quantitative claim that defines the "inherently efficient" nature of the new substrate class. Without kinetic data, the claim is unsubstantiated.
-    - **Resolution test** Provide the full kinetic data (e.g., Michaelis-Menten plots, calculated kcat and Km values with errors) for ZBTB38BTB, ZBTB33BTB, and RANGAP1 under identical conditions, along with a statistical comparison.
-
-    - **Concern ID** R1-M3
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Evidence sufficiency
-    - **Claim pointer** The authors claim that structural modelling and sequence analyses suggest that this property is shared by BTB domains of five members (10%) of the ZBTB-protein family across vertebrates.
-    - **Evidence pointer** Abstract; location not provided
-    - **Concern** The abstract does not describe the criteria used for the sequence analysis, the structural models, or the validation of the predictions. The claim that 10% of ZBTB proteins share this property is a broad generalization that requires robust bioinformatic and structural evidence.
-    - **Why it matters** This claim extends the finding from a single example to a family-wide phenomenon. Without supporting data, it remains a speculation.
-    - **Resolution test** Provide the sequence alignment, the structural models for the predicted members, and the criteria (e.g., conservation of key residues, predicted surface properties) used to define the subset.
-
-    - **Concern ID** R1-M4
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Evidence sufficiency
-    - **Claim pointer** The authors claim that higher-molecular-weight, modified forms of ZBTB38 in human cells are consistent with SUMOylation.
-    - **Evidence pointer** Abstract; location not provided
-    - **Concern** The abstract states that such forms were observed, but no data (e.g., western blot images, controls such as SUMO-specific antibodies, knockdown/knockout of SUMO pathway components, or mass spectrometry) are provided. The claim is weak without rigorous evidence that the observed modification is indeed SUMOylation.
-    - **Why it matters** This is the only cellular evidence presented. Without proper controls, the observation could be due to other modifications or artifacts.
-    - **Resolution test** Provide western blot data with appropriate controls (e.g., SUMO1/2/3 antibodies, UBC9 knockdown, SUMO protease treatment, or mass spectrometry identification of the modification site).
-
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for central claim
+  - **Claim pointer** The authors claim that ZBTB38 BTB and ZBTB33 BTB are SUMOylated with efficiency "closely comparable" to RANGAP1 CTD, and that this defines a "new class of inherently efficient" substrates.
+  - **Evidence pointer** Results section "ZBTB38 BTB is SUMOylated with comparable efficiency to RANGAP1 CTD in vitro", Figure 3C-E
+  - **Concern** The efficiency claim is based on qualitative visual comparison of gel band intensities over time. No kinetic parameters (kcat, KM, or kcat/KM) are reported. The statement "closely comparable" is not supported by quantitative data. The authors acknowledge this in the Limitations but still use this as a central pillar of the paper's significance. Without quantitative kinetics, the claim of "inherently efficient" is not established.
+  - **Why it matters** The entire premise of a "new class" of substrates rests on the demonstration that these BTB domains are exceptionally efficient. A qualitative gel comparison, under a single set of conditions, is insufficient to support this strong claim, especially when comparing to a benchmark like RANGAP1 CTD.
+  - **Resolution test** Provide quantitative kinetic analysis (e.g., initial rates at multiple substrate concentrations to derive KM and kcat) for ZBTB38 BTB, ZBTB33 BTB, and RANGAP1 CTD under identical conditions. Show that the efficiency parameters are statistically indistinguishable or within a defined range.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for proposed mechanism
+  - **Claim pointer** The authors propose that the identified surface "recapitulates the spatial arrangement of residues found in canonical linear consensus motifs" and that this structural mimicry is responsible for UBC9 recruitment and efficient SUMOylation.
+  - **Evidence pointer** Results sections "AlphaFold3 screen suggests that the conserved ZBTB38 BTB surface recruits UBC9" and "Characterisation of the ZBTB38 BTB:UBC9 interaction dependent on the conserved BTB surface", Figures 1F-G, 2A-D, 3A-B
+  - **Concern** The model is based on an AlphaFold3 prediction, not an experimental complex structure. While the mutagenesis data (D41A, I38S, V73R) are consistent with the model, they are also consistent with non-specific disruption of the BTB domain fold or stability. The authors do not show that these mutants fold correctly (e.g., by circular dichroism or thermal shift assays). The ITC data, with a KD of ~60 µM and acknowledged low c-value, provide only weak quantitative support. The claim of "structural mimicry" is an interpretation that is not directly tested.
+  - **Why it matters** The proposed mechanism is the core intellectual contribution. If the mutagenesis effects are due to misfolding, or if the AlphaFold3 model is incorrect, the entire mechanistic framework collapses. The current evidence is suggestive but not conclusive.
+  - **Resolution test** (1) Demonstrate that the interface mutants are properly folded and retain dimeric structure (e.g., by SEC-MALS or thermal denaturation). (2) Provide additional evidence for the complex, such as cross-linking mass spectrometry, NMR chemical shift perturbations, or a co-crystal structure. (3) Test the model by swapping the identified interface residues into a non-SUMOylated BTB domain to see if it confers UBC9 binding and SUMOylation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generality of the proposed class
+  - **Claim pointer** The authors state that the property is "shared by BTB domains of five members (10%) of the ZBTB-protein family across vertebrates" and imply this defines a new class.
+  - **Evidence pointer** Results sections "ZBTB38 BTB and related BTB domains exhibit a conserved potential interaction surface" and "BTB domains of five ZBTB proteins share UBC9-interaction site and SUMOylation propensity", Figures 1C, 4A-C
+  - **Concern** The claim of a "class" is based on sequence conservation and AlphaFold3 predictions for the other four members, but experimental validation is only provided for ZBTB38 and ZBTB33. The functional significance of this proposed class is not demonstrated. The authors do not show that SUMOylation of these BTB domains has any biological consequence, beyond citing prior work on ZBTB33 and ZBTB14.
+  - **Why it matters** The title and framing suggest a broad new category of substrates. If only two members are experimentally validated, and the biological relevance is unclear, the claim of a "class" is premature.
+  - **Resolution test** Experimentally confirm UBC9 binding and SUMOylation for at least one additional member (e.g., ZBTB4 or ZBTB21). Ideally, demonstrate a functional role for this SUMOylation in a cellular context, such as effects on transcriptional repression activity or protein stability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Cellular evidence
+  - **Claim pointer** The authors state that "we demonstrate the presence of higher-molecular-weight, modified forms of ZBTB38 in human cells, consistent with SUMOylation."
+  - **Evidence pointer** Results section "ZBTB38 is SUMOylated in human cells", Figure 3F-H
+  - **Concern** The cellular data are presented as a single western blot with no shown controls. It is not clear whether the higher-molecular-weight bands are dependent on Lys 43 in the full-length context (the K43R mutant is only tested in the context of the isolated BTB domain in vitro). The authors do not show that the bands are SUMO-specific, e.g., by using a SUMO-specific antibody, knockdown of UBC9, or overexpression of a dominant-negative SUMO.
+  - **Why it matters** The cellular evidence is used to suggest biological relevance. Without proper controls, the interpretation is ambiguous, and the bands could represent other modifications or non-specific reactivity.
+  - **Resolution test** Repeat the cellular experiments with the full-length K43R mutant, include a SUMO-specific immunoprecipitation or a SUMO antibody, and show that the modification is enhanced by SUMO overexpression or reduced by UBC9 knockdown.
 - **Minor Comments**
-    - **Concern ID** R1-m1
-    - **Severity** Minor
-    - **Axis** Clarity
-    - **Affected element** Abstract text
-    - **Evidence pointer** Abstract; location not provided
-    - **Issue** The phrase "inherently efficient" is used to describe the new class of substrates, but the abstract does not clearly define what "inherently efficient" means in a quantitative or mechanistic sense.
-    - **Required correction** Define "inherently efficient" explicitly, e.g., in terms of catalytic efficiency (kcat/Km) relative to known substrates, or independence from E3 ligases.
-
-    - **Concern ID** R1-m2
-    - **Severity** Minor
-    - **Axis** Completeness
-    - **Affected element** Abstract text
-    - **Evidence pointer** Abstract; location not provided
-    - **Issue** The abstract mentions "E3 ligase-independent SUMOylation substrates" but does not specify whether the in-vitro assays were performed in the absence of E3 ligases.
-    - **Required correction** State explicitly whether the kinetic assays were performed with or without E3 ligases.
-
-    - **Concern ID** R1-m3
-    - **Severity** Minor
-    - **Axis** Clarity
-    - **Affected element** Abstract text
-    - **Evidence pointer** Abstract; location not provided
-    - **Issue** The abstract states that the findings "may facilitate the identification of further inherently efficient targets, and, potentially, the design of SUMOylation modulators." This is a speculative statement that is not supported by any data in the abstract.
-    - **Required correction** Either remove or rephrase as a more cautious speculation, or provide a brief rationale for how the findings could be used for these purposes.
-
-- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The core structural, kinetic, bioinformatic, and cellular claims are all unsupported by the provided material.
-
-- **Assessment against Nature-style criteria**
-    - **Originality**: Potentially high. The concept of a structured domain mimicking a linear SUMOylation motif is novel.
-    - **Scientific importance**: Potentially high, if the claims are substantiated. It could change the understanding of SUMOylation substrate recognition.
-    - **Interdisciplinary readership**: Moderate to high. The work bridges structural biology, biochemistry, and cell biology.
-    - **Technical soundness**: Cannot be assessed from the abstract alone. The claims require rigorous experimental validation.
-    - **Readability for nonspecialists**: The abstract is well-written and accessible to a broad scientific audience.
-
-- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the core claims are entirely unsupported by the data provided. A full manuscript with all figures, tables, and methods is required for a proper evaluation. The recommendation would be supportive if the technical concerns are resolved with robust data.
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of nomenclature
+  - **Affected element** Title and abstract
+  - **Evidence pointer** Title, Abstract
+  - **Issue** The term "inherently efficient" is used without a clear definition. It is unclear if this refers to efficiency relative to other substrates, or an intrinsic property independent of context.
+  - **Required correction** Define the term explicitly in the introduction or results, and use it consistently.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3A-B
+  - **Evidence pointer** Results section "The UBC9-recruiting BTB surface promotes ZBTB38 BTB SUMOylation in vitro"
+  - **Issue** The authors mention "the residual band at 135 min reflects excess SUMO1, which runs at a similar but slightly lower apparent MW, distinguishable upon careful scrutiny of gels." This is a potential source of confusion for readers.
+  - **Required correction** Use a SUMO1-only control lane or a different gel percentage to clearly separate the bands, or quantify only the shifted bands.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** ITC data
+  - **Evidence pointer** Results section "Characterisation of the ZBTB38 BTB:UBC9 interaction dependent on the conserved BTB surface", Figure 2D
+  - **Issue** The ITC-derived KD is reported as approximately 60 µM, but no error or number of replicates is given.
+  - **Required correction** Report the mean and standard deviation from at least three independent titrations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors do not discuss alternative explanations for the high efficiency, such as the possibility that the BTB domain dimerization increases local UBC9 concentration, or that the rigidity of the domain reduces the entropic cost of binding.
+  - **Required correction** Add a paragraph discussing these and other possible contributing factors.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods, "Computational protein-protein interaction screening"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the AlphaFold3 screen is brief. It is unclear how many models were generated, what the confidence thresholds were, and how the top hits were selected.
+  - **Required correction** Provide more detail on the screening parameters, including the number of candidates, the ranking criteria, and any filtering steps.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative kinetics), R1-M2 (mutant folding controls and direct binding evidence), R1-M4 (cellular controls)
+- **Assessment against Nature-style criteria** Originality: Moderate. The concept of a structural SUMOylation motif is novel, but it builds on existing knowledge of UBC9-substrate interactions and structured SUMO substrates. Scientific importance: Potentially high, if the class is validated and shown to be biologically relevant. The current evidence is insufficient to establish this. Interdisciplinary readership: The topic is of interest to structural biologists, biochemists, and cell biologists studying transcription. The broader significance to a general readership is not yet clear. Technical soundness: The structural work appears sound, but the biochemical and cellular evidence is incomplete. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., the AlphaFold3 screen) could be clearer.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims require quantitative kinetic analysis, validation of mutant folding, and more rigorous cellular controls. The work is promising and could be suitable for a high-impact journal after these concerns are addressed.
 
 ## Risk / unsupported claims
-- The claim that ZBTB38BTB possesses a dedicated surface that recapitulates the spatial arrangement of residues found in canonical linear consensus motifs and binds UBC9 with mid-micromolar affinity is unsupported.
-- The claim that the catalytic efficiency of ZBTB38BTB and ZBTB33BTB SUMOylation is closely comparable to that of RANGAP1 is unsupported.
-- The claim that this property is shared by five members (10%) of the ZBTB-protein family is unsupported.
-- The claim that higher-molecular-weight forms of ZBTB38 in human cells are consistent with SUMOylation is unsupported.
-- The claim that the findings may facilitate the identification of further inherently efficient targets and the design of SUMOylation modulators is speculative and unsupported.
+- The claim of "inherently efficient" SUMOylation is unsupported without quantitative kinetic parameters.
+- The claim that the identified surface "recapitulates" a linear motif is an interpretation based on a predicted complex, not a demonstrated fact.
+- The claim that this defines a "new class" of substrates is premature, as only two members are experimentally validated.
+- The cellular evidence for ZBTB38 SUMOylation is suggestive but not conclusive, lacking key controls.
+- The statement that the residues are under "strong evolutionary constraint" is based on a qualitative assessment of the alignment and is not quantified.

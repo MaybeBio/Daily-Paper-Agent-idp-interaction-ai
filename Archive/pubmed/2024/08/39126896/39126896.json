@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "39126896",
+    "doi": "10.1016/j.bbrc.2024.150453",
+    "title": "PQBP3/NOL7 is an intrinsically disordered protein."
+  },
+  "content": {
+    "abstract": "PQBP3 is a protein binding to polyglutamine tract sequences that are expanded in a group of neurodegenerative diseases called polyglutamine diseases. The function of PQBP3 was revealed recently as an inhibitor protein of proteasome-dependent degradation of Lamin B1 that is shifted from nucleolus to peripheral region of nucleus to keep nuclear membrane stability. Here, we address whether PQBP3 is an intrinsically disordered protein (IDP) like other polyglutamine binding proteins including PQBP1, PQBP5 and VCP. Multiple bioinformatics analyses predict that N-terminal region of PQBP3 is unstructured. High-speed atomic force microscopy (HS-AFM) reveals that N-terminal region of PQBP3 is dynamically changed in the structure consistently with the predictions of the bioinformatics analyses. These data support that PQBP3 is also an IDP.",
+    "keywords": [
+      "AFM",
+      "IDP",
+      "NOL7",
+      "Neurodegeneration",
+      "PQBP3",
+      "Polyglutamine disease",
+      "VCP"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/metabolism/chemistry",
+      "Humans",
+      "*Microscopy, Atomic Force",
+      "Nuclear Proteins/metabolism/chemistry",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Homma, Hidenori",
+        "Ngo, Kien Xuan",
+        "Yoshioka, Yuki",
+        "Tanaka, Hikari",
+        "Inotsume, Maiko",
+        "Fujita, Kyota",
+        "Ando, Toshio",
+        "Okazawa, Hitoshi"
+      ],
+      "short_names": [
+        "Homma H",
+        "Ngo KX",
+        "Yoshioka Y",
+        "Tanaka H",
+        "Inotsume M",
+        "Fujita K",
+        "Ando T",
+        "Okazawa H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neuropathology, Medical Research Institute, Tokyo Medical and Dental University, 1-5-45, Yushima, Bunkyo-ku, Tokyo, 113-8510, Japan.",
+        "Nano Life Science Institute, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa, 920-1192, Japan.",
+        "Department of Neuropathology, Medical Research Institute, Tokyo Medical and Dental University, 1-5-45, Yushima, Bunkyo-ku, Tokyo, 113-8510, Japan.",
+        "Department of Neuropathology, Medical Research Institute, Tokyo Medical and Dental University, 1-5-45, Yushima, Bunkyo-ku, Tokyo, 113-8510, Japan.",
+        "Department of Neuropathology, Medical Research Institute, Tokyo Medical and Dental University, 1-5-45, Yushima, Bunkyo-ku, Tokyo, 113-8510, Japan.",
+        "Department of Neuropathology, Medical Research Institute, Tokyo Medical and Dental University, 1-5-45, Yushima, Bunkyo-ku, Tokyo, 113-8510, Japan; Research Center for Child Mental Development, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa, 920-1192, Japan.",
+        "Nano Life Science Institute, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa, 920-1192, Japan.",
+        "Department of Neuropathology, Medical Research Institute, Tokyo Medical and Dental University, 1-5-45, Yushima, Bunkyo-ku, Tokyo, 113-8510, Japan. Electronic address: okazawa-tky@umin.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Homma, Hidenori",
+        "short_name": "Homma H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropathology, Medical Research Institute, Tokyo Medical and Dental University, 1-5-45, Yushima, Bunkyo-ku, Tokyo, 113-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Ngo, Kien Xuan",
+        "short_name": "Ngo KX",
+        "identifiers": [],
+        "affiliations": [
+          "Nano Life Science Institute, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa, 920-1192, Japan."
+        ]
+      },
+      {
+        "full_name": "Yoshioka, Yuki",
+        "short_name": "Yoshioka Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropathology, Medical Research Institute, Tokyo Medical and Dental University, 1-5-45, Yushima, Bunkyo-ku, Tokyo, 113-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Tanaka, Hikari",
+        "short_name": "Tanaka H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropathology, Medical Research Institute, Tokyo Medical and Dental University, 1-5-45, Yushima, Bunkyo-ku, Tokyo, 113-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Inotsume, Maiko",
+        "short_name": "Inotsume M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropathology, Medical Research Institute, Tokyo Medical and Dental University, 1-5-45, Yushima, Bunkyo-ku, Tokyo, 113-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Fujita, Kyota",
+        "short_name": "Fujita K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropathology, Medical Research Institute, Tokyo Medical and Dental University, 1-5-45, Yushima, Bunkyo-ku, Tokyo, 113-8510, Japan; Research Center for Child Mental Development, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa, 920-1192, Japan."
+        ]
+      },
+      {
+        "full_name": "Ando, Toshio",
+        "short_name": "Ando T",
+        "identifiers": [],
+        "affiliations": [
+          "Nano Life Science Institute, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa, 920-1192, Japan."
+        ]
+      },
+      {
+        "full_name": "Okazawa, Hitoshi",
+        "short_name": "Okazawa H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuropathology, Medical Research Institute, Tokyo Medical and Dental University, 1-5-45, Yushima, Bunkyo-ku, Tokyo, 113-8510, Japan. Electronic address: okazawa-tky@umin.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical and biophysical research communications"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Res Commun"
+    ],
+    "pub_date": "2024 Dec 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/11 04:43",
+    "fetched_at": "2026-09-21 09:23:41"
+  },
+  "links": {
+    "cites": [
+      "42215602"
+    ],
+    "refs": [],
+    "similar": [
+      "39126896",
+      "39103492",
+      "25447530",
+      "33230318",
+      "36055623",
+      "36599853",
+      "36551304",
+      "34998124",
+      "27314904",
+      "28627366",
+      "29382046",
+      "27377881",
+      "24947516",
+      "34347206",
+      "33443146",
+      "24898547",
+      "27082063",
+      "33028677",
+      "33355572",
+      "31441158",
+      "30355493",
+      "24329095",
+      "26195786",
+      "35682906",
+      "30316104",
+      "19303059",
+      "28394890",
+      "23649393",
+      "26071212",
+      "32933064",
+      "25863585",
+      "29557644",
+      "40128232",
+      "38943706",
+      "29341926",
+      "32621228",
+      "39163306",
+      "24606139",
+      "34610267",
+      "37736816",
+      "36291102",
+      "25801767",
+      "39093570",
+      "30979035",
+      "29228892",
+      "30240067",
+      "32643734",
+      "29925531",
+      "25207671",
+      "26226419",
+      "29990433",
+      "22821517",
+      "33100165",
+      "35609776",
+      "37298574",
+      "28493424",
+      "35762718",
+      "27844185",
+      "37722056",
+      "34246632",
+      "29944921",
+      "25307499",
+      "32323533",
+      "32455657",
+      "33930467",
+      "20875127",
+      "18599155",
+      "31824649",
+      "29716994",
+      "33513387",
+      "29276882",
+      "34473923",
+      "31054969",
+      "33167839",
+      "32702119",
+      "31096049",
+      "31387243",
+      "30366362",
+      "30352491",
+      "32696378",
+      "26684000",
+      "30992509",
+      "31936201",
+      "30091924",
+      "30471688",
+      "38296708",
+      "26807759",
+      "38824467",
+      "31903719",
+      "37838830",
+      "29808548",
+      "28448138",
+      "30278223",
+      "30420606",
+      "28597296",
+      "28914483",
+      "26725056",
+      "33454008",
+      "33050086",
+      "29080468"
+    ],
+    "review": [
+      "39126896",
+      "36551304",
+      "34998124",
+      "28627366",
+      "29382046",
+      "34347206",
+      "33355572",
+      "31441158",
+      "35682906",
+      "30316104",
+      "23649393",
+      "25863585",
+      "38943706",
+      "24606139",
+      "34610267",
+      "39093570",
+      "30979035",
+      "26226419",
+      "33100165",
+      "25307499",
+      "31054969",
+      "33167839",
+      "31096049",
+      "31387243",
+      "30352491",
+      "38296708",
+      "26807759",
+      "30278223",
+      "28597296"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(24)00989-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LMNB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-649",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

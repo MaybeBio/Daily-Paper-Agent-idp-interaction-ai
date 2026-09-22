@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.13.571408",
+  "title": "SurfDock is a Surface-Informed Diffusion Generative Model for Reliable and Accurate Protein-ligand Complex Prediction",
+  "authors": "Duanhua Cao; Mingan Chen; Runze Zhang; Jie Yu; Xinyu Jiang; Zhehuan Fan; Wei Zhang; Mingyue Zheng",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-14",
+  "window": {
+    "start": "2023-12-11",
+    "end": "2023-12-17"
+  },
+  "score": 5,
+  "one_liner_zh": "SurfDock 是一种基于表面信息的扩散生成模型，用于蛋白-配体复合物结合构象预测，虽非无序蛋白对象，但其几何扩散网络与多表示融合的互作建模方法对 IDR-PPI 机制建模有可迁移启发。",
+  "abstract": "In the field of structure-based drug design, accurately predicting the binding conformation of ligands to proteins is a long-standing objective. Despite recent advances in deep learning yielding various methods for predicting protein-ligand complex structures, these AI-driven approaches frequently fall short of traditional docking methods in practice and often yield structures that lack physical and chemical plausibility. To overcome these limitations, we present SurfDock, an advanced geometric diffusion network, distinguished by its ability to integrate multiple protein representations including protein sequence, three-dimensional structural graphs, and surface-level details into its equivariant architecture. SurfDock employs a generative diffusion model on a non-Euclidean manifold, enabling precise optimization of molecular translations, rotations, and torsions for reliable binding poses generation. Complemented by a mixture density network for scoring using the same comprehensive representation, SurfDock achieves significantly improved docking success rates over all existing methods, excelling in both accuracy and adherence to physical constraints. Equipped with post-docking energy minimization as an optional feature, the plausibility of generated poses is further enhanced. Importantly, SurfDock demonstrates excellent generalizability to unseen proteins and extensibility to virtual screening tasks with state-of-the-art performance. We consider it a transformative contribution that could serve as an invaluable asset in structure-based drug design.",
+  "abstract_zh": "在基于结构的药物设计领域，准确预测配体与蛋白质的结合构象是一个长期目标。尽管深度学习的近期进展催生了多种预测蛋白质-配体复合物结构的方法，但这些AI驱动的方法在实践中往往不及传统对接方法，且常生成缺乏物理和化学合理性的结构。为克服这些局限，我们提出了SurfDock，一种先进的几何扩散网络，其独特之处在于能够将多种蛋白质表示（包括蛋白质序列、三维结构图和表面级细节）整合到其等变架构中。SurfDock在非欧几里得流形上采用生成扩散模型，能够精确优化分子的平移、旋转和扭转，以生成可靠的结合姿态。辅以混合密度网络，利用相同的综合表示进行评分，SurfDock在所有现有方法中实现了显著提高的对接成功率，在准确性和物理约束遵循方面均表现出色。配备对接后能量最小化作为可选功能，进一步增强了生成姿态的合理性。重要的是，SurfDock对未见蛋白质表现出优异的泛化能力，并在虚拟筛选任务中展现出最先进的性能，具有可扩展性。我们认为这是一项变革性贡献，可作为基于结构药物设计中的宝贵工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.13.571408",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.13.571408",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.13.571408/index.html"
+}

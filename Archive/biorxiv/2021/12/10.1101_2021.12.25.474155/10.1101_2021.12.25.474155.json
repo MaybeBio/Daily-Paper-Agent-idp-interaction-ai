@@ -1,0 +1,322 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.12.25.474155",
+  "title": "The SARS-CoV-2 nucleocapsid protein preferentially binds long and structured RNAs",
+  "doi": "10.1101/2021.12.25.474155",
+  "abstract": "<h4>ABSTRACT</h4> The SARS-CoV-2 nucleocapsid protein (NCAP) functions in viral RNA genome packaging, virion assembly, RNA synthesis and translation, and regulation of host immune response. RNA-binding is central to these processes. Little is known how NCAP selects its binding partners in the myriad of host and viral RNAs. To address this fundamental question, we employed electrophoresis mobility shift and competition assays to compare NCAP binding to RNAs that are of SARS-CoV-2 vs. non-SARS-CoV-2, long vs. short, and structured vs. unstructured. We found that although NCAP can bind all RNAs tested, it primarily binds structured RNAs, and their association suppresses strong interaction with single-stranded RNAs. NCAP prefers long RNAs, especially those containing multiple structures separated by single-stranded linkers that presumably offer conformational flexibility. Additionally, all three major regions of NCAP bind RNA, including the low complexity domain and dimerization domain that promote formation of NCAP oligomers, amyloid fibrils and liquid-liquid phase separation. Combining these observations, we propose that NCAP-NCAP interactions that mediate higher-order structures during packaging also drive recognition of the genomic RNA and call this mechanism recognition-by-packaging. This study provides a biochemical basis for understanding the complex NCAP-RNA interactions in the viral life cycle and a broad range of similar biological processes. <h4>HIGHLIGHTS</h4> NCAP primarily binds structured RNAs. NCAP prefers multiple RNA structures separated by single-stranded linkers. NCAP favors binding to long RNAs.",
+  "authors": [
+    "Tai CE",
+    "Tayeb-Fligelman E",
+    "Griner S",
+    "Salwinski L",
+    "Bowler JT",
+    "Abskharon R",
+    "Cheng X",
+    "Seidler PM",
+    "Jiang YX",
+    "Eisenberg DS",
+    "Guo F"
+  ],
+  "published_date": "2021-12-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.12.25.474155",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.12.25.474155.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR437011",
+    "raw_record": {
+      "id": "PPR437011",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR437011"
+        ]
+      },
+      "doi": "10.1101/2021.12.25.474155",
+      "title": "The SARS-CoV-2 nucleocapsid protein preferentially binds long and structured RNAs",
+      "authorString": "Tai CE, Tayeb-Fligelman E, Griner S, Salwinski L, Bowler JT, Abskharon R, Cheng X, Seidler PM, Jiang YX, Eisenberg DS, Guo F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tai CE",
+            "lastName": "Tai",
+            "firstName": "Christen",
+            "initials": "CE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry, David Geffen School of Medicine, UCLA, Los Angeles, CA 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tayeb-Fligelman E",
+            "lastName": "Tayeb-Fligelman",
+            "firstName": "Einav",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry, David Geffen School of Medicine, UCLA, Los Angeles, CA 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Griner S",
+            "lastName": "Griner",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry, David Geffen School of Medicine, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, UCLA, Los Angeles, CA 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Salwinski L",
+            "lastName": "Salwinski",
+            "firstName": "Lukasz",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry, David Geffen School of Medicine, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "Howard Hughes Medical Institute, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "UCLA-DOE Institute, UCLA, Los Angeles, CA 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bowler JT",
+            "lastName": "Bowler",
+            "firstName": "Jeannette",
+            "initials": "JT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2428-3095"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry, David Geffen School of Medicine, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "Molecular Biology Institute, UCLA, Los Angeles, CA 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abskharon R",
+            "lastName": "Abskharon",
+            "firstName": "Romany",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry, David Geffen School of Medicine, UCLA, Los Angeles, CA 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cheng X",
+            "lastName": "Cheng",
+            "firstName": "Xinyi",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry, David Geffen School of Medicine, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "Molecular Biology Institute, UCLA, Los Angeles, CA 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seidler PM",
+            "lastName": "Seidler",
+            "firstName": "Paul",
+            "initials": "PM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry, David Geffen School of Medicine, UCLA, Los Angeles, CA 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jiang YX",
+            "lastName": "Jiang",
+            "firstName": "Yi Xiao",
+            "initials": "YX",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry, David Geffen School of Medicine, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "Molecular Biology Institute, UCLA, Los Angeles, CA 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eisenberg DS",
+            "lastName": "Eisenberg",
+            "firstName": "David",
+            "initials": "DS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry, David Geffen School of Medicine, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "Howard Hughes Medical Institute, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "UCLA-DOE Institute, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "Molecular Biology Institute, UCLA, Los Angeles, CA 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guo F",
+            "lastName": "Guo",
+            "firstName": "Feng",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Chemistry, David Geffen School of Medicine, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "UCLA-DOE Institute, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "Molecular Biology Institute, UCLA, Los Angeles, CA 90095, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2428-3095"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>ABSTRACT</h4>  The SARS-CoV-2 nucleocapsid protein (NCAP) functions in viral RNA genome packaging, virion assembly, RNA synthesis and translation, and regulation of host immune response. RNA-binding is central to these processes. Little is known how NCAP selects its binding partners in the myriad of host and viral RNAs. To address this fundamental question, we employed electrophoresis mobility shift and competition assays to compare NCAP binding to RNAs that are of SARS-CoV-2 vs. non-SARS-CoV-2, long vs. short, and structured vs. unstructured. We found that although NCAP can bind all RNAs tested, it primarily binds structured RNAs, and their association suppresses strong interaction with single-stranded RNAs. NCAP prefers long RNAs, especially those containing multiple structures separated by single-stranded linkers that presumably offer conformational flexibility. Additionally, all three major regions of NCAP bind RNA, including the low complexity domain and dimerization domain that promote formation of NCAP oligomers, amyloid fibrils and liquid-liquid phase separation. Combining these observations, we propose that NCAP-NCAP interactions that mediate higher-order structures during packaging also drive recognition of the genomic RNA and call this mechanism recognition-by-packaging. This study provides a biochemical basis for understanding the complex NCAP-RNA interactions in the viral life cycle and a broad range of similar biological processes. <h4>HIGHLIGHTS</h4>  NCAP primarily binds structured RNAs. NCAP prefers multiple RNA structures separated by single-stranded linkers. NCAP favors binding to long RNAs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/12/27/2021.12.25.474155.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.12.25.474155"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR437011"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.12.25.474155"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS161061",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-12-30",
+      "firstPublicationDate": "2021-12-27",
+      "firstIndexDate": "2021-12-30",
+      "fullTextReceivedDate": "2023-01-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

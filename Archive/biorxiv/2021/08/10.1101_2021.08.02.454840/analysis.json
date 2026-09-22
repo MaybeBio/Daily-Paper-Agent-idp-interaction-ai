@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.08.02.454840",
+  "title": "Single-sequence protein structure prediction using language models from deep learning",
+  "authors": "Ratul Chowdhury; Nazim Bouatta; Surojit Biswas; Charlotte Rochereau; George M. Church; Peter K. Sorger; Mohammed AlQuraishi",
+  "journal": "bioRxiv",
+  "published_date": "2021-08-04",
+  "window": {
+    "start": "2021-08-02",
+    "end": "2021-08-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用蛋白语言模型从单序列预测蛋白质结构，虽非无序蛋白或PPI对象，但其单序列结构预测方法对IDR/无序蛋白的结构建模具有可迁移启发。",
+  "abstract": "AlphaFold2 and related systems use deep learning to predict protein structure from co-evolutionary relationships encoded in multiple sequence alignments (MSAs). Despite dramatic, recent increases in accuracy, three challenges remain: (i) prediction of orphan and rapidly evolving proteins for which an MSA cannot be generated, (ii) rapid exploration of designed structures, and (iii) understanding the rules governing spontaneous polypeptide folding in solution. Here we report development of an end-to-end differentiable recurrent geometric network (RGN) able to predict protein structure from single protein sequences without use of MSAs. This deep learning system has two novel elements: a protein language model (AminoBERT) that uses a Transformer to learn latent structural information from millions of unaligned proteins and a geometric module that compactly represents C α backbone geometry. RGN2 outperforms AlphaFold2 and RoseTTAFold (as well as trRosetta) on orphan proteins and is competitive with designed sequences, while achieving up to a 10 6 -fold reduction in compute time. These findings demonstrate the practical and theoretical strengths of protein language models relative to MSAs in structure prediction.",
+  "abstract_zh": "AlphaFold2及相关系统利用深度学习，从多序列比对（MSAs）中编码的共进化关系预测蛋白质结构。尽管近期准确性大幅提升，仍存在三大挑战：（i）预测无法生成MSA的孤儿蛋白和快速进化蛋白，（ii）快速探索设计结构，以及（iii）理解溶液中多肽自发折叠的规则。在此，我们报告了一种端到端可微分的循环几何网络（RGN）的开发，该网络能够仅从单一蛋白质序列预测蛋白质结构，无需使用MSAs。该深度学习系统包含两个新颖元素：一个蛋白质语言模型（AminoBERT），利用Transformer从数百万未比对蛋白质中学习潜在结构信息；以及一个紧凑表示Cα骨架几何结构的几何模块。RGN2在孤儿蛋白预测上优于AlphaFold2和RoseTTAFold（以及trRosetta），在设计序列上具有竞争力，同时计算时间减少高达10^6倍。这些发现证明了蛋白质语言模型相对于MSAs在结构预测中的实践和理论优势。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.08.02.454840",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.08.02.454840",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.08.02.454840/index.html"
+}

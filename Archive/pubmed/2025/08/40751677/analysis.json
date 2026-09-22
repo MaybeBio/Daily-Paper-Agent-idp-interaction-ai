@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40751677",
+  "title": "A Charge-Driven Strategy for Covalent Modification and Modulation of Biomolecular Condensates.",
+  "authors": "Chen, Zhewei; Liu, Lu; Cattin, Jerome; Knowles, Tuomas P J; Bernardes, Goncalo J L",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2025-08-03",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过电荷驱动的小分子共价修饰G3BP1折叠域，改变其无序区域构象动态并抑制应激颗粒凝聚体形成，结合MD模拟揭示IDR互作增强的机制，属于无序蛋白介导凝聚体PPI的机制建模研究。",
+  "abstract": "Small-molecule modulation of biomolecular condensates has emerged as a novel and attractive therapeutic modality. Increasing evidence implicates dysregulated condensate formation in neurodegenerative diseases and cancer. However, the proteins that mediate condensate formation are typically difficult to drug directly with small molecules. Here, we present a charge-driven strategy and demonstrate its implementation on Ras GTPase-activating protein-binding protein 1 (G3BP1) to inhibit G3BP1-mediated stress granule (SG) formation. Small-molecule SG inhibitors were developed from the carbonylacrylic amide covalent functionality and were used to modify the folded domain of G3BP1 with surface charges, leading to an alteration of the conformational dynamics of intrinsically disordered regions. Cellular experiments using HeLa cells expressing cysteine-mutated G3BP1, together with structure-activity relationship studies, support the proposed charge-driven mechanism of action. Molecular dynamics simulations further suggest that the small-molecule G3BP1 modification promotes a shift toward more compact conformations, comparable to that induced by an  approximately 26% increase in IDR1-IDR3 interaction. Together, our findings establish a new strategy for the rational modulation of biomolecular condensates.",
+  "abstract_zh": "小分子调控生物分子凝聚体已成为一种新颖且具有吸引力的治疗模式。越来越多的证据表明，凝聚体形成失调与神经退行性疾病和癌症相关。然而，介导凝聚体形成的蛋白质通常难以直接通过小分子进行药物干预。在此，我们提出了一种电荷驱动策略，并展示了其在Ras GTPase激活蛋白结合蛋白1（G3BP1）上的应用，以抑制G3BP1介导的应激颗粒（SG）形成。基于羰基丙烯酰胺共价官能团开发了小分子SG抑制剂，用于修饰G3BP1的折叠结构域并引入表面电荷，从而改变 intrinsically disordered regions（内在无序区域）的构象动力学。使用表达半胱氨酸突变G3BP1的HeLa细胞进行的细胞实验，结合构效关系研究，支持了所提出的电荷驱动作用机制。分子动力学模拟进一步表明，小分子G3BP1修饰促进了向更紧凑构象的转变，其效果与IDR1-IDR3相互作用增加约26%所诱导的构象变化相当。综上，我们的发现为生物分子凝聚体的合理调控建立了一种新策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40751677/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40751677/",
+  "paper_page_path": "papers/pubmed/40751677/index.html"
+}

@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "42165167",
+    "doi": "10.1002/smll.73900",
+    "title": "Peptide-Metal Cation Coacervate Microdroplets as Membrane-free Protocells with Enhanced Light-Induced Catalysis."
+  },
+  "content": {
+    "abstract": "Membrane-free coacervates, typically formed through electrostatic interactions between oppositely charged polyelectrolytes, have been extensively utilized as artificial life-like systems in protocell research, providing valuable insights into the origin of life. However, considering that inorganic metal ions may have been more abundant under early Earth conditions, it is plausible that these metal ions played a significant role in prebiotic compartmentalization. In this study, we present a novel coacervate protocell formed via liquid-liquid phase separation (LLPS) of simple anionic polypeptides, induced by electrostatic and coordination interactions with inorganic metal cations, using divalent zinc ions as a specific example due to their prebiotic availability and biological relevance. The peptide-zinc ion coacervate microdroplet exhibits liquid-like properties, client partitioning, and enhanced catalysis comparable to those of typical polyelectrolyte coacervates. By integrating experimental results and theoretical simulations, we identify two kinetic pathways to phase separation mediated by the coordination mode at varying zinc ion concentrations, resulting in the formation of nonequilibrium gel-like condensates or droplets that further contribute to distinct light-induced catalytic efficiency. Overall, our work highlights that peptide-metal ion interaction-driven compartmentalization, as prebiotic microreactors, could have facilitated primitive biochemical reactions on early Earth, thus offering a plausible and diverse pathway for the emergence of protocells.",
+    "keywords": [
+      "coacervate",
+      "liquid-liquid phase separation",
+      "metal ion",
+      "peptides",
+      "protocell"
+    ],
+    "mesh_terms": [
+      "*Peptides/chemistry",
+      "Catalysis",
+      "*Artificial Cells/chemistry",
+      "*Light",
+      "Cations/chemistry",
+      "Phase Separation",
+      "*Metals/chemistry",
+      "Zinc/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wei, Chunyi",
+        "Xiao, Lei",
+        "Li, Junbo",
+        "Huang, Yan",
+        "Zhang, Ziyi",
+        "Zhou, Yuxuan",
+        "Li, Yifan",
+        "Ji, Wei",
+        "Sun, Lei",
+        "Huang, Xin"
+      ],
+      "short_names": [
+        "Wei C",
+        "Xiao L",
+        "Li J",
+        "Huang Y",
+        "Zhang Z",
+        "Zhou Y",
+        "Li Y",
+        "Ji W",
+        "Sun L",
+        "Huang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6391-9768",
+        "ORCID: 0000-0002-1858-2956"
+      ],
+      "affiliations": [
+        "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China.",
+        "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China.",
+        "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China.",
+        "State Key Laboratory of Advanced Inorganic Fibers and Composites, School of Chemistry and Chemical Engineering, Harbin Institute of Technology, Harbin, Heilongjiang, China.",
+        "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China.",
+        "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China.",
+        "State Key Laboratory of Advanced Inorganic Fibers and Composites, School of Chemistry and Chemical Engineering, Harbin Institute of Technology, Harbin, Heilongjiang, China.",
+        "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China.",
+        "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China.",
+        "State Key Laboratory of Advanced Inorganic Fibers and Composites, School of Chemistry and Chemical Engineering, Harbin Institute of Technology, Harbin, Heilongjiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wei, Chunyi",
+        "short_name": "Wei C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Lei",
+        "short_name": "Xiao L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junbo",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yan",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Advanced Inorganic Fibers and Composites, School of Chemistry and Chemical Engineering, Harbin Institute of Technology, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ziyi",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuxuan",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yifan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Advanced Inorganic Fibers and Composites, School of Chemistry and Chemical Engineering, Harbin Institute of Technology, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Wei",
+        "short_name": "Ji W",
+        "identifiers": [
+          "0000-0001-6391-9768"
+        ],
+        "affiliations": [
+          "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Lei",
+        "short_name": "Sun L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemistry, Chemical Engineering and Resource Utilization, Northeast Forestry University, Harbin, Heilongjiang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Xin",
+        "short_name": "Huang X",
+        "identifiers": [
+          "0000-0002-1858-2956"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Advanced Inorganic Fibers and Composites, School of Chemistry and Chemical Engineering, Harbin Institute of Technology, Harbin, Heilongjiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Small (Weinheim an der Bergstrasse, Germany)"
+    ],
+    "journal_abbrev": [
+      "Small"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/21 06:33",
+    "fetched_at": "2026-09-18 03:25:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40916479",
+      "40810682",
+      "40670353",
+      "40473595",
+      "40467892",
+      "40438176",
+      "40410127",
+      "40344037",
+      "40211087",
+      "40184654",
+      "40127264",
+      "40069227",
+      "39971992",
+      "39833115",
+      "39805770",
+      "39614109",
+      "38693874",
+      "38169470",
+      "38052788",
+      "37984885",
+      "37934168",
+      "37922348",
+      "37462244",
+      "37088005",
+      "37009061",
+      "36908048",
+      "36816708",
+      "36621842",
+      "35726786",
+      "35257490",
+      "34645986",
+      "33616129",
+      "33144560",
+      "32229582",
+      "32101414",
+      "31181152",
+      "22404166",
+      "22331915",
+      "19703275",
+      "17567041",
+      "17443882",
+      "17317327",
+      "13056598",
+      "11910092",
+      "10430856",
+      "4501592"
+    ],
+    "similar": [
+      "42165167",
+      "41283766",
+      "38968602",
+      "41014261",
+      "33616129",
+      "41387392",
+      "21860462",
+      "42347946",
+      "36168959",
+      "39402790",
+      "36908048",
+      "34820677",
+      "24848239",
+      "41629347",
+      "38252962",
+      "41615238",
+      "36625520",
+      "37272663",
+      "40052701",
+      "42478940",
+      "34645986",
+      "38722703",
+      "38052788",
+      "42065998",
+      "35138820",
+      "38847278",
+      "39477955",
+      "41298431",
+      "40244931",
+      "40089856",
+      "30194374",
+      "35796384",
+      "39016062",
+      "31523894",
+      "40324711",
+      "42475469",
+      "37788442",
+      "41034201",
+      "42417505",
+      "40857626",
+      "31408263",
+      "40069227",
+      "38129391",
+      "38530063",
+      "41904139",
+      "40771000",
+      "40184654",
+      "41685698",
+      "42446172",
+      "24577897",
+      "41504625",
+      "42403045",
+      "37462244",
+      "40439464",
+      "42018990",
+      "41965803",
+      "42165544",
+      "39588807",
+      "37992873",
+      "41036763",
+      "42068343",
+      "40204808",
+      "38321061",
+      "37267599",
+      "39575590",
+      "41616891",
+      "40467892",
+      "41586365",
+      "39807766",
+      "41703712",
+      "39099316",
+      "39615041",
+      "31298806",
+      "32584581",
+      "33110067",
+      "35786870",
+      "26844692",
+      "28631793",
+      "37080547",
+      "32452628",
+      "40834351",
+      "31034692",
+      "34873298",
+      "41946707",
+      "42288302",
+      "40112030",
+      "41700417",
+      "39964249",
+      "34160910",
+      "39588871",
+      "33144560",
+      "40411841",
+      "35543367",
+      "34155210",
+      "33453931",
+      "33081049",
+      "39066731",
+      "32922586",
+      "40331504",
+      "41324574"
+    ],
+    "review": [
+      "42165167",
+      "33616129",
+      "36908048",
+      "36625520",
+      "38530063",
+      "37462244",
+      "42018990",
+      "39588807",
+      "42068343",
+      "39099316"
+    ],
+    "pmc": [
+      "13360633"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42165167/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/smll.73900",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

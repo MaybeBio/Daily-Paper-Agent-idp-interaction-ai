@@ -1,0 +1,465 @@
+{
+  "identity": {
+    "pmid": "35687670",
+    "doi": "10.1073/pnas.2115369119",
+    "title": "Screening membraneless organelle participants with machine-learning models that integrate multimodal features."
+  },
+  "content": {
+    "abstract": "Protein self-assembly is one of the formation mechanisms of biomolecular condensates. However, most phase-separating systems (PS) demand multiple partners in biological conditions. In this study, we divided PS proteins into two groups according to the mechanism by which they undergo PS: PS-Self proteins can self-assemble spontaneously to form droplets, while PS-Part proteins interact with partners to undergo PS. Analysis of the amino acid composition revealed differences in the sequence pattern between the two protein groups. Existing PS predictors, when evaluated on two test protein sets, preferentially predicted self-assembling proteins. Thus, a comprehensive predictor is required. Herein, we propose that properties other than sequence composition can provide crucial information in screening PS proteins. By incorporating phosphorylation frequencies and immunofluorescence image-based droplet-forming propensity with other PS-related features, we built two independent machine-learning models to separately predict the two protein categories. Results of independent testing suggested the superiority of integrating multimodal features. We performed experimental verification on the top-scored proteins DHX9, K(i)-67, and NIFK. Their PS behavior in vitro revealed the effectiveness of our models in PS prediction. Further validation on the proteome of membraneless organelles confirmed the ability of our models to identify PS-Part proteins. We implemented a web server named PhaSePred (http://predict.phasep.pro/) that incorporates our two models together with representative PS predictors. PhaSePred displays proteome-level quantiles of different features, thus profiling PS propensity and providing crucial information for identification of candidate proteins.",
+    "keywords": [
+      "metapredictor",
+      "partner-dependent",
+      "phase separation",
+      "phosphorylation",
+      "self-assembly"
+    ],
+    "mesh_terms": [
+      "*Biomolecular Condensates/metabolism",
+      "Humans",
+      "Internet Use",
+      "*Machine Learning",
+      "*Organelles/metabolism",
+      "Phosphorylation",
+      "*Proteins/chemistry/metabolism",
+      "*Proteome/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Zhaoming",
+        "Hou, Chao",
+        "Wang, Liang",
+        "Yu, Chunyu",
+        "Chen, Taoyu",
+        "Shen, Boyan",
+        "Hou, Yaoyao",
+        "Li, Pilong",
+        "Li, Tingting"
+      ],
+      "short_names": [
+        "Chen Z",
+        "Hou C",
+        "Wang L",
+        "Yu C",
+        "Chen T",
+        "Shen B",
+        "Hou Y",
+        "Li P",
+        "Li T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6810-5445",
+        "ORCID: 0000-0003-4806-7637",
+        "ORCID: 0000-0003-4266-0317"
+      ],
+      "affiliations": [
+        "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing 100084, China.",
+        "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou 311121, China.",
+        "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "School of Life Science, Hubei Normal University, Huangshi 435002, China.",
+        "Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing 100084, China.",
+        "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Zhaoming",
+        "short_name": "Chen Z",
+        "identifiers": [
+          "0000-0002-6810-5445"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Chao",
+        "short_name": "Hou C",
+        "identifiers": [
+          "0000-0003-4806-7637"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liang",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Chunyu",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou 311121, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Taoyu",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Boyan",
+        "short_name": "Shen B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Yaoyao",
+        "short_name": "Hou Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Hubei Normal University, Huangshi 435002, China."
+        ]
+      },
+      {
+        "full_name": "Li, Pilong",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Advanced Innovation Center for Structural Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tingting",
+        "short_name": "Li T",
+        "identifiers": [
+          "0000-0003-4266-0317"
+        ],
+        "affiliations": [
+          "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2022 Jun 14",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/11 06:00",
+    "fetched_at": "2026-09-20 11:02:04"
+  },
+  "links": {
+    "cites": [
+      "42573943",
+      "42437078",
+      "42310761",
+      "42260147",
+      "42246060",
+      "42243951",
+      "42225071",
+      "42190015",
+      "42184109",
+      "42153320",
+      "42079161",
+      "41987292",
+      "41857580",
+      "41814089",
+      "41758951",
+      "41680494",
+      "41671389",
+      "41667449",
+      "41542395",
+      "41416523",
+      "41405960",
+      "41337585",
+      "41330929",
+      "41326692",
+      "41325268",
+      "41311961",
+      "41250174",
+      "41162367",
+      "41131710",
+      "41126177",
+      "41062450",
+      "41035411",
+      "41003226",
+      "40993129",
+      "40925983",
+      "40867524",
+      "40764481",
+      "40723369",
+      "40629388",
+      "40558524",
+      "40352946",
+      "40315433",
+      "40312521",
+      "40195117",
+      "40122889",
+      "39985251",
+      "39858608",
+      "39663388",
+      "39551864",
+      "39482354",
+      "39464109",
+      "39434494",
+      "39333476",
+      "39290787",
+      "39243101",
+      "39234301",
+      "39138204",
+      "39133858",
+      "39037698",
+      "39033393",
+      "38982055",
+      "38659924",
+      "38612806",
+      "38566033",
+      "38565952",
+      "38531854",
+      "38459060",
+      "38380794",
+      "38296708",
+      "38282798",
+      "38225666",
+      "38205268",
+      "38003686",
+      "37641002",
+      "37574757",
+      "37464880",
+      "37400539",
+      "37374089",
+      "37024650",
+      "36979462",
+      "36737456",
+      "36551199",
+      "36528065",
+      "36400991",
+      "36124686"
+    ],
+    "refs": [
+      "35271311",
+      "34267352",
+      "34079125",
+      "34020549",
+      "33827920",
+      "33723425",
+      "33712617",
+      "33610793",
+      "33318217",
+      "33139563",
+      "32744794",
+      "32579114",
+      "32548680",
+      "32302571",
+      "32203417",
+      "31906602",
+      "31833055",
+      "31691815",
+      "31675499",
+      "31612960",
+      "31584089",
+      "31386861",
+      "31270472",
+      "31252218",
+      "31043738",
+      "30853299",
+      "30845353",
+      "30682370",
+      "30601942",
+      "30099026",
+      "29439243",
+      "29424691",
+      "29040693",
+      "28495876",
+      "28202730",
+      "28076807",
+      "27320918",
+      "27056844",
+      "26984280",
+      "25747659",
+      "25562883",
+      "25514926",
+      "24825614",
+      "24451626",
+      "23327628",
+      "23060610",
+      "22543366",
+      "22398450",
+      "22190692",
+      "21961597",
+      "18991772",
+      "15896774",
+      "10372352",
+      "8799815",
+      "7108955"
+    ],
+    "similar": [
+      "35687670",
+      "37464880",
+      "36124686",
+      "33535034",
+      "38096828",
+      "38987300",
+      "35168563",
+      "36169889",
+      "32800925",
+      "29758260",
+      "32105731",
+      "35563401",
+      "34664748",
+      "33318217",
+      "32726575",
+      "37287138",
+      "39133858",
+      "31584089",
+      "35474477",
+      "29258725",
+      "30983371",
+      "36754843",
+      "33377110",
+      "34544610",
+      "36528388",
+      "33126250",
+      "26818456",
+      "35090078",
+      "34241502",
+      "35325654",
+      "33827920",
+      "37934665",
+      "34624295",
+      "31626750",
+      "32405004",
+      "32080961",
+      "34304571",
+      "24564522",
+      "34772786",
+      "34706530",
+      "34380923",
+      "32409234",
+      "29632271",
+      "30032609",
+      "35325031",
+      "34030700",
+      "29509422",
+      "34613784",
+      "28056090",
+      "33517364",
+      "34588591",
+      "31484749",
+      "35628304",
+      "37574757",
+      "37024567",
+      "31164681",
+      "34115980",
+      "28499419",
+      "33610793",
+      "32194074",
+      "36227485",
+      "35001622",
+      "23912807",
+      "35575335",
+      "34600419",
+      "31271472",
+      "33828582",
+      "34391803",
+      "23422585",
+      "25730499",
+      "30061688",
+      "32364240",
+      "35694339",
+      "28057002",
+      "33539874",
+      "31106361",
+      "31906602",
+      "30994888",
+      "31430179",
+      "33392948",
+      "34718734",
+      "31076235",
+      "30045872",
+      "34606793",
+      "32501138",
+      "36138108"
+    ],
+    "review": [
+      "35687670",
+      "37464880",
+      "36169889",
+      "32800925",
+      "29758260",
+      "35563401",
+      "32726575",
+      "29258725",
+      "31626750",
+      "32080961",
+      "34772786",
+      "29632271",
+      "29509422",
+      "35628304",
+      "33610793",
+      "32194074",
+      "34600419",
+      "32364240",
+      "33539874",
+      "31430179",
+      "31076235"
+    ],
+    "pmc": [
+      "9214545"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2115369119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35687670/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35687670",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-355",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

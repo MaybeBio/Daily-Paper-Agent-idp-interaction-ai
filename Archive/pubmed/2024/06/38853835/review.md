@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims based solely on the provided text
+- **Shared manuscript claim summary** The authors propose that the cardiac troponin T linker region (residues 150–203) is intrinsically disordered and dynamic, both in isolation and within the troponin complex and fully regulated thin filament. They further propose that the pathogenic ΔE160 mutation does not alter the linker's conformational dynamics but instead affects troponin complex assembly and calcium sensitivity through allosteric modulation of inter-subunit interactions.
+- **Visible evidence base** smFRET histograms and derived distances; nsFCS correlation times; chemical denaturation curves; coarse-grained simulations (Mpipi-GG and Mpipi); in vitro motility assays; ATPase assays; calcium binding measurements; reference to supplementary figures (Fig. S1–S7) and equations (Eq. S5–S8)
+- **Missing materials affecting confidence** Supplementary figures and equations referenced but not provided; no raw data or fitting parameters for smFRET, nsFCS, motility, ATPase, or calcium binding; no statistical details beyond stated standard deviations and 95% confidence intervals; no sequence or construct details for the ΔE160 mutant beyond the deletion itself; no information on labeling efficiency or dye photophysics corrections beyond a brief mention
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and understudied question: the conformational behavior of the troponin T linker, a region implicated in cardiomyopathy but unresolved in structural studies. The combination of single-molecule FRET, simulations, and functional assays is appropriate and potentially powerful. The central claim that the linker is intrinsically disordered and dynamic is reasonably supported by the presented data, particularly the denaturation behavior and nsFCS results. However, the claim that the ΔE160 mutation acts purely through allosteric effects on inter-subunit interactions, without altering linker dynamics, is less well established. The evidence for this rests on a comparison of mean FRET efficiencies and binding affinities, but the manuscript does not provide sufficient quantitative detail or statistical rigor to fully exclude subtle conformational changes. The functional assays are consistent with prior work but do not by themselves establish the mechanistic link proposed. The thin filament simulations are described but their validation and convergence are not discussed. Overall, the manuscript is promising but requires additional quantitative analysis and clarification before the central mechanistic claims can be considered fully supported.
+- **Who would be interested in the results, and why** Researchers in muscle physiology, cardiac biophysics, and structural biology of the sarcomere would find this work relevant. The demonstration that a disease-associated mutation in a disordered region acts allosterically rather than through local structural changes has implications for understanding cardiomyopathy mechanisms and for interpreting variant pathogenicity. The methodological combination of smFRET and simulations in a complex context may also interest biophysicists studying intrinsically disordered proteins in multi-subunit assemblies.
+- **Major strengths** The study addresses a genuinely unresolved region of the troponin complex with a combination of orthogonal techniques. The use of smFRET to probe dynamics in multiple contexts (isolated, complexed, thin filament) is a significant technical effort. The denaturation experiments provide a clear hallmark of disorder. The functional assays connect molecular observations to contractile behavior. The observation of a second population under crowding conditions is an interesting and potentially important finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for central claim
+  - **Claim pointer** The manuscript states that the ΔE160 mutation "does not affect the conformational dynamics of the linker" and that its effects are "allosteric."
+  - **Evidence pointer** Results section "ΔE160 mutation does not alter conformations but interactions"; Fig. 6; Fig. S5
+  - **Concern** The conclusion that ΔE160 does not alter linker dynamics is based primarily on a comparison of mean FRET efficiencies between WT and mutant. The manuscript reports a "negligible variation" but does not provide the actual values, uncertainties, or statistical comparison. The nsFCS relaxation times are reported as 120 ± 10 ns for WT and 130 ± 20 ns for ΔE160, which overlap within error, but no statistical test is described. The binding curves show KD differences, but the manuscript does not report whether these differences are statistically significant or how they were calculated from the FRET data. Without these quantitative details, the claim that the mutation has no effect on linker dynamics is not rigorously established.
+  - **Why it matters** The central mechanistic conclusion of the paper is that the ΔE160 mutation acts allosterically rather than through local conformational changes. If the mutation does alter linker dynamics to a small but functionally relevant degree, the interpretation would change substantially. The distinction between "no effect" and "no detectable effect with current precision" is critical for the paper's conclusions.
+  - **Resolution test** Provide the mean FRET efficiencies, standard deviations, and number of independent measurements for WT and ΔE160 in all conditions. Report the results of appropriate statistical tests (e.g., t-test or Bayesian comparison) for the FRET efficiencies, nsFCS relaxation times, and KD values. If the sample sizes are small, acknowledge the limited power to detect small differences and temper the claim accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for thin filament model and simulation
+  - **Claim pointer** The manuscript states that coarse-grained simulations of the fully regulated thin filament predict two populations of linker distances (5.3 nm and 7.4 nm) and that these correspond to the two troponin complexes on opposite sides of the filament.
+  - **Evidence pointer** Results section "The troponin-T linker remains dynamic as part of the thin filament"; Fig. 5C–D; Methods section "Coarse-grained simulations"
+  - **Concern** The thin filament simulations are described only briefly. The construction of the model from PDB 6KN7, the treatment of the unresolved regions, the force field parameters, the equilibration protocol, and the convergence of the simulations are not described in sufficient detail. The manuscript states that the second population predicted computationally (7.4 nm) is more compact than the experimentally observed population under crowding (8.6 ± 0.4 nm), and attributes this to "constraints imposed by the structural model," but no analysis is provided to support this explanation. The claim that the two populations correspond to the two troponin complexes on opposite sides of the filament is not directly tested.
+  - **Why it matters** The simulation results are used to interpret the experimental observation of a second population under crowding and to link the two populations to specific structural states. If the simulations are not validated or the assignment is not tested, this interpretation remains speculative.
+  - **Resolution test** Provide a detailed description of the simulation setup, including force field parameters, system construction, equilibration, and production run lengths. Show that the simulations have converged (e.g., block averaging or multiple independent runs). Test the assignment of the two populations to the two troponin complexes by, for example, comparing the simulated distances to the experimental values with and without the crowding agent, or by perturbing the model to assess the robustness of the prediction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of crowding experiments
+  - **Claim pointer** The manuscript states that the appearance of a second FRET population under crowding with PEG 600 suggests the presence of a second troponin binding site on the thin filament with different affinity.
+  - **Evidence pointer** Results section "The troponin-T linker remains dynamic as part of the thin filament"; Fig. 5A–B
+  - **Concern** The crowding experiment is used to support the existence of two distinct binding sites or conformations. However, the manuscript does not discuss alternative explanations for the appearance of a second population, such as crowding-induced aggregation, non-specific binding, or changes in the dye photophysics. The concentration of PEG 600 used is not stated, and the effect of crowding on the thin filament structure or on the troponin complex itself is not addressed.
+  - **Why it matters** The interpretation of the second population as a distinct binding site is central to the structural model proposed. If the second population arises from an artifact of the crowding conditions, the interpretation would be weakened.
+  - **Resolution test** Provide the concentration of PEG 600 used and justify the choice. Discuss and, if possible, rule out alternative explanations for the second population, such as aggregation or dye artifacts. Consider performing control experiments with a non-crowding control or with a labeled troponin that cannot bind the thin filament.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Methods section "Single-molecule fluorescence"
+  - **Evidence pointer** Methods section, paragraph on single-molecule fluorescence
+  - **Issue** The manuscript states that experiments were conducted at 100 pM protein concentration but does not describe how the concentration was verified or whether the measurements were checked for concentration-dependent artifacts (e.g., aggregation or multi-molecule events).
+  - **Required correction** Add a brief description of how the concentration was determined and any controls performed to ensure single-molecule conditions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "smFRET confirms that the troponin-T linker is intrinsically disordered"
+  - **Evidence pointer** Fig. 2; text describing denaturation experiments
+  - **Issue** The denaturation curves are described as showing "continuous shifts" but no quantitative analysis (e.g., fitting parameters, m-values, or comparison to a two-state model) is provided.
+  - **Required correction** Provide the fitting parameters for the denaturation curves or state that the data were not fitted and describe the qualitative assessment criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods section "Measurement of calcium binding to troponin C"
+  - **Evidence pointer** Methods section, paragraph on calcium binding
+  - **Issue** The calcium binding measurements are described as using a modified troponin C labeled with IAANS, but the reconstitution of the troponin complex and the thin filament for these measurements is not described in detail.
+  - **Required correction** Provide details on the reconstitution procedure, including the stoichiometry of the components and any purification steps after reconstitution.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of temperature dependence
+  - **Affected element** Results section "Role of electrostatics and temperature on the linker conformation"
+  - **Evidence pointer** Fig. 2; text describing temperature dependence
+  - **Issue** The manuscript reports no significant temperature dependence but does not provide the range of temperatures tested or the number of replicates. The discussion of why temperature insensitivity might be expected is speculative.
+  - **Required correction** Report the temperature range and the number of independent measurements. If the data are not shown, state this explicitly and describe the basis for the conclusion.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Discussion section, paragraph on ΔE160 mechanism
+  - **Evidence pointer** Discussion, paragraph beginning "Multiple structural models..."
+  - **Issue** The term "allosteric" is used to describe the effect of the ΔE160 mutation on troponin I and C interactions, but the manuscript does not define what is meant by allosteric in this context, given that the linker is disordered and the mutation is within the same polypeptide chain.
+  - **Required correction** Clarify the use of "allosteric" and consider whether "long-range" or "inter-domain" would be more precise.
+
+## Risk / unsupported claims
+- The claim that the ΔE160 mutation "does not affect the conformational dynamics of the linker" is not quantitatively supported; the reported values overlap within error but no statistical comparison is provided.
+- The claim that the two FRET populations observed under crowding correspond to two distinct troponin binding sites on the thin filament is not directly tested and relies on simulation results that are not fully described.
+- The statement that the linker is "constitutively disordered" is supported for the conditions tested but cannot be generalized to all physiological conditions, particularly in the context of the beating heart where other factors may apply.
+- The free energy calculation for the two binding conformations (ΔG values of 0.2 ± 0.6 kBT and 3.3 ± 1.2 kBT) is presented without derivation or discussion of assumptions; the uncertainty in the first value exceeds the estimate itself, making the conclusion about the "closed" conformation unreliable.
+- The manuscript states that the ΔE160 mutation "increases the binding of calcium to the troponin C" but does not report the magnitude of this effect or its statistical significance beyond a general statement of consistency with prior work.

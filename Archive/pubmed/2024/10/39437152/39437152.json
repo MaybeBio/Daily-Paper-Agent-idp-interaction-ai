@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "39437152",
+    "doi": "10.1021/acsmacrolett.4c00533",
+    "title": "Inhibition of alpha-Synuclein Misfolding into beta-Sheet Domains on Medium-Sized Gold Nanoclusters: Evidence from Enhanced Sampling MD Simulations."
+  },
+  "content": {
+    "abstract": "Targeting Parkinson's disease (PD) related protein, alpha-synuclein (alphaS), via gold nanoclusters (AuNCs) has received considerable attention in PD treatments, but its molecular basis on the initial interactions between alphaS and AuNCs remains elusive due to the absence of a unique secondary structure of alphaS chains. Here, at the single-cluster level, we incorporate well-tempered metadynamics simulations to explore the structural and thermodynamic characteristics of the full length alphaS adsorbed on different-sized AuNCs (Au(n), n = 25, 36, 44, 68, 102) with modeled thiolated ligands (Au(n)@Lig). The conformational landscapes of alphaS indicate that uncharged Au(n)@SCH(2)OH chaperones the native intrinsically disordered conformations of alphaS, while negatively and positively charged AuNCs greatly increase the likelihood of forming intramolecular beta-sheet domains, which are necessary for alphaS fibrillation and are a hallmark of PD. The binding details further demonstrate the significant inhibitory effect of the medium-sized Au(36)@SCH(2)OH on alphaS misfolding into beta-sheet domains. This provides a valuable guideline for customizing AuNCs to precisely manipulate protein folding and misfolding behaviors, with potential implications for disease treatments.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/metabolism/chemistry",
+      "*Gold/chemistry",
+      "*Metal Nanoparticles/chemistry/therapeutic use",
+      "*Molecular Dynamics Simulation",
+      "*Protein Folding",
+      "Protein Conformation, beta-Strand",
+      "Humans",
+      "Parkinson Disease/drug therapy/metabolism",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Letter",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gong, Shuai",
+        "Gao, Guanbin",
+        "Sun, Taolei",
+        "Shen, Lei"
+      ],
+      "short_names": [
+        "Gong S",
+        "Gao G",
+        "Sun T",
+        "Shen L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6839-8770",
+        "ORCID: 0000-0002-3336-0788",
+        "ORCID: 0000-0002-0450-1895"
+      ],
+      "affiliations": [
+        "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China.",
+        "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China.",
+        "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China.",
+        "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gong, Shuai",
+        "short_name": "Gong S",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Guanbin",
+        "short_name": "Gao G",
+        "identifiers": [
+          "0000-0001-6839-8770"
+        ],
+        "affiliations": [
+          "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Taolei",
+        "short_name": "Sun T",
+        "identifiers": [
+          "0000-0002-3336-0788"
+        ],
+        "affiliations": [
+          "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Lei",
+        "short_name": "Shen L",
+        "identifiers": [
+          "0000-0002-0450-1895"
+        ],
+        "affiliations": [
+          "Hubei Key Laboratory of Nanomedicine for Neurodegenerative Diseases, School of Chemistry, Chemical Engineering and Life Science, Institute WUT-AMU, Wuhan University of Technology, Wuhan 430070, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS macro letters"
+    ],
+    "journal_abbrev": [
+      "ACS Macro Lett"
+    ],
+    "pub_date": "2024 Nov 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Letter",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/22 18:22",
+    "fetched_at": "2026-09-21 11:41:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39437152",
+      "40233005",
+      "23607785",
+      "28667699",
+      "23374074",
+      "23978162",
+      "33719460",
+      "29372732",
+      "28820253",
+      "34830391",
+      "34439733",
+      "25075858",
+      "39504036",
+      "37964757",
+      "23583776",
+      "30771172",
+      "22552968",
+      "37253119",
+      "26950519",
+      "36053833",
+      "32699326",
+      "30576972",
+      "39957201",
+      "33333378",
+      "31799519",
+      "29608844",
+      "29364151",
+      "28024449",
+      "38047768",
+      "18494470",
+      "29451381",
+      "34695381",
+      "25139280",
+      "28112214",
+      "28968082",
+      "33486955",
+      "35912724",
+      "17681539",
+      "27809690",
+      "22024360",
+      "32709107",
+      "31147655",
+      "30384594",
+      "39255305",
+      "30315896",
+      "29364143",
+      "32895690",
+      "31728738",
+      "35297644",
+      "33044818",
+      "34506119",
+      "36309909",
+      "30917651",
+      "23748003",
+      "35041853",
+      "39087984",
+      "37094111",
+      "19554627",
+      "26703192",
+      "24607710",
+      "20947801",
+      "37683121",
+      "21998035",
+      "34147836",
+      "20041693",
+      "37407638",
+      "35477706",
+      "38567991",
+      "27273030",
+      "21524999",
+      "36278939",
+      "28710275",
+      "35613323",
+      "33903234",
+      "33428933",
+      "29704492",
+      "36548054",
+      "22355530",
+      "39181187",
+      "26477939",
+      "36584779",
+      "37729016",
+      "26553504",
+      "35229425",
+      "31142553",
+      "28820063",
+      "31331359",
+      "20923645",
+      "30251982",
+      "37027427",
+      "35014532",
+      "30853581",
+      "38063360",
+      "40014054",
+      "37319422",
+      "28911198",
+      "22771474",
+      "19745811",
+      "33434528",
+      "26153422"
+    ],
+    "review": [
+      "39437152",
+      "29364151",
+      "25139280",
+      "22024360",
+      "30315896",
+      "23748003",
+      "26703192",
+      "39181187",
+      "31331359",
+      "30853581",
+      "38063360"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1739",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/amlccd/article-lookup/doi/10.1021/acsmacrolett.4c00533",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

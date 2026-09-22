@@ -1,0 +1,480 @@
+{
+  "identity": {
+    "pmid": "38915483",
+    "doi": "10.1101/2024.06.12.598678",
+    "title": "Molecular insights into the interaction between a disordered protein and a folded RNA."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered protein regions (IDRs) are well-established as contributors to intermolecular interactions and the formation of biomolecular condensates. In particular, RNA-binding proteins (RBPs) often harbor IDRs in addition to folded RNA-binding domains that contribute to RBP function. To understand the dynamic interactions of an IDR-RNA complex, we characterized the RNA-binding features of a small (68 residues), positively charged IDR-containing protein, SERF. At high concentrations, SERF and RNA undergo charge-driven associative phase separation to form a protein- and RNA-rich dense phase. A key advantage of this model system is that this threshold for demixing is sufficiently high that we could use solution-state biophysical methods to interrogate the stoichiometric complexes of SERF with RNA in the one-phase regime. Herein, we describe our comprehensive characterization of SERF alone and in complex with a small fragment of the HIV-1 TAR RNA (TAR) with complementary biophysical methods and molecular simulations. We find that this binding event is not accompanied by the acquisition of structure by either molecule; however, we see evidence for a modest global compaction of the SERF ensemble when bound to RNA. This behavior likely reflects attenuated charge repulsion within SERF via binding to the polyanionic RNA and provides a rationale for the higher-order assembly of SERF in the context of RNA. We envision that the SERF-RNA system will lower the barrier to accessing the details that support IDR-RNA interactions and likewise deepen our understanding of the role of IDR-RNA contacts in complex formation and liquid-liquid phase separation.",
+    "keywords": [
+      "RNA-binding protein",
+      "RNA-protein complex",
+      "condensate",
+      "intrinsically disordered regions (IDRs)",
+      "nuclear magnetic resonance (NMR)",
+      "phase separation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mitra, Rishav",
+        "Usher, Emery T",
+        "Dedeoglu, Selin",
+        "Crotteau, Matthew J",
+        "Fraser, Olivia A",
+        "Yennawar, Neela H",
+        "Gadkari, Varun V",
+        "Ruotolo, Brandon T",
+        "Holehouse, Alex S",
+        "Salmon, Loic",
+        "Showalter, Scott A",
+        "Bardwell, James C A"
+      ],
+      "short_names": [
+        "Mitra R",
+        "Usher ET",
+        "Dedeoglu S",
+        "Crotteau MJ",
+        "Fraser OA",
+        "Yennawar NH",
+        "Gadkari VV",
+        "Ruotolo BT",
+        "Holehouse AS",
+        "Salmon L",
+        "Showalter SA",
+        "Bardwell JCA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8898-7289",
+        "ORCID: 0000-0002-8303-9992",
+        "ORCID: 0000-0001-6145-3773",
+        "ORCID: 0000-0002-6084-2328",
+        "ORCID: 0000-0002-4155-5729",
+        "ORCID: 0000-0001-5179-032X",
+        "ORCID: 0000-0003-1683-1944"
+      ],
+      "affiliations": [
+        "Howard Hughes Medical Institute, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA.",
+        "Centre de Resonance Magnetique Nucleaire a Tres Hauts Champs, (CRMN), UMR 5082, CNRS, ENS Lyon, UCBL, Universite de Lyon, 69100 Villeurbanne, France.",
+        "Howard Hughes Medical Institute, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "The Huck Institutes of the Life Sciences, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "Department of Chemistry, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Department of Chemistry, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA.",
+        "Centre de Resonance Magnetique Nucleaire a Tres Hauts Champs, (CRMN), UMR 5082, CNRS, ENS Lyon, UCBL, Universite de Lyon, 69100 Villeurbanne, France.",
+        "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "Department of Chemistry, The Pennsylvania State University, University Park, PA 16802, USA.",
+        "Howard Hughes Medical Institute, University of Michigan, Ann Arbor, MI 48109, USA.",
+        "Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI 48109, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mitra, Rishav",
+        "short_name": "Mitra R",
+        "identifiers": [
+          "0000-0002-8898-7289"
+        ],
+        "affiliations": [
+          "Howard Hughes Medical Institute, University of Michigan, Ann Arbor, MI 48109, USA.",
+          "Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Usher, Emery T",
+        "short_name": "Usher ET",
+        "identifiers": [
+          "0000-0002-8303-9992"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Dedeoğlu, Selin",
+        "short_name": "Dedeoğlu S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Résonance Magnétique Nucléaire à Très Hauts Champs, (CRMN), UMR 5082, CNRS, ENS Lyon, UCBL, Université de Lyon, 69100 Villeurbanne, France."
+        ]
+      },
+      {
+        "full_name": "Crotteau, Matthew J",
+        "short_name": "Crotteau MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Howard Hughes Medical Institute, University of Michigan, Ann Arbor, MI 48109, USA.",
+          "Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Fraser, Olivia A",
+        "short_name": "Fraser OA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Yennawar, Neela H",
+        "short_name": "Yennawar NH",
+        "identifiers": [],
+        "affiliations": [
+          "The Huck Institutes of the Life Sciences, The Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Gadkari, Varun V",
+        "short_name": "Gadkari VV",
+        "identifiers": [
+          "0000-0001-6145-3773"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Ruotolo, Brandon T",
+        "short_name": "Ruotolo BT",
+        "identifiers": [
+          "0000-0002-6084-2328"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [
+          "0000-0002-4155-5729"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Salmon, Loïc",
+        "short_name": "Salmon L",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Résonance Magnétique Nucléaire à Très Hauts Champs, (CRMN), UMR 5082, CNRS, ENS Lyon, UCBL, Université de Lyon, 69100 Villeurbanne, France."
+        ]
+      },
+      {
+        "full_name": "Showalter, Scott A",
+        "short_name": "Showalter SA",
+        "identifiers": [
+          "0000-0001-5179-032X"
+        ],
+        "affiliations": [
+          "Center for Eukaryotic Gene Regulation, Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, PA 16802, USA.",
+          "Department of Chemistry, The Pennsylvania State University, University Park, PA 16802, USA."
+        ]
+      },
+      {
+        "full_name": "Bardwell, James C A",
+        "short_name": "Bardwell JCA",
+        "identifiers": [
+          "0000-0003-1683-1944"
+        ],
+        "affiliations": [
+          "Howard Hughes Medical Institute, University of Michigan, Ann Arbor, MI 48109, USA.",
+          "Department of Molecular, Cellular, and Developmental Biology, University of Michigan, Ann Arbor, MI 48109, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jun 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/25 06:42",
+    "fetched_at": "2026-09-21 08:10:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38446881",
+      "38329282",
+      "38297184",
+      "38153183",
+      "37996438",
+      "37957331",
+      "37582808",
+      "37468629",
+      "37463458",
+      "37200094",
+      "37002329",
+      "36932337",
+      "36537590",
+      "36463407",
+      "35795820",
+      "35787038",
+      "35675815",
+      "35512095",
+      "34988297",
+      "34785657",
+      "34772786",
+      "34716273",
+      "34301955",
+      "34099940",
+      "33833657",
+      "33782395",
+      "33352065",
+      "33166123",
+      "33078839",
+      "32934220",
+      "32881101",
+      "32728246",
+      "32632317",
+      "32619404",
+      "32379446",
+      "32302571",
+      "32302570",
+      "32134099",
+      "32029630",
+      "31794729",
+      "31659041",
+      "31437398",
+      "31270472",
+      "31165735",
+      "30926670",
+      "30668913",
+      "30184304",
+      "29529283",
+      "29466338",
+      "29425497",
+      "29026044",
+      "29021737",
+      "28935776",
+      "28763190",
+      "28556382",
+      "28502465",
+      "28336532",
+      "28225081",
+      "28108663",
+      "27663422",
+      "27453046",
+      "27088887",
+      "26791895",
+      "26587597",
+      "26488642",
+      "26320411",
+      "26286791",
+      "26178817",
+      "25710841",
+      "25505092",
+      "25186910",
+      "25144868",
+      "24938783",
+      "24837674",
+      "24606137",
+      "24333248",
+      "24149218",
+      "23972848",
+      "23901099",
+      "23473378",
+      "23341588",
+      "23246828",
+      "23083137",
+      "22658674",
+      "22398450",
+      "22029383",
+      "21880480",
+      "21710303",
+      "21128621",
+      "20428473",
+      "19584251",
+      "19522502",
+      "19460965",
+      "18621815",
+      "18506808",
+      "17411046",
+      "17088319",
+      "15050819",
+      "12798678",
+      "11430757",
+      "10820006",
+      "10718609",
+      "8744570",
+      "8520220",
+      "8450553",
+      "7563092",
+      "1621097"
+    ],
+    "similar": [
+      "38915483",
+      "39589885",
+      "32225071",
+      "23912807",
+      "28924037",
+      "34179096",
+      "34074792",
+      "40631955",
+      "40574713",
+      "38941236",
+      "38252962",
+      "39248370",
+      "41933903",
+      "39537752",
+      "32824743",
+      "42244740",
+      "42475469",
+      "37986933",
+      "33076213",
+      "33200826",
+      "33078839",
+      "35481633",
+      "42159288",
+      "41169547",
+      "34737230",
+      "41862773",
+      "40588121",
+      "42057657",
+      "41865079",
+      "34029402",
+      "28780862",
+      "29511089",
+      "42230638",
+      "33779503",
+      "40666952",
+      "40291420",
+      "38705823",
+      "42106138",
+      "32936641",
+      "38160320",
+      "36657879",
+      "41524628",
+      "33627133",
+      "36009025",
+      "40131954",
+      "34571015",
+      "33267376",
+      "36754681",
+      "34291921",
+      "40403066",
+      "35098694",
+      "39539017",
+      "34090478",
+      "34557680",
+      "36412795",
+      "37875529",
+      "38915510",
+      "27881680",
+      "18076038",
+      "30099026",
+      "41415473",
+      "33248138",
+      "41337585",
+      "37595014",
+      "37668918",
+      "41758937",
+      "39947751",
+      "32371601",
+      "39565580",
+      "40841375",
+      "40848932",
+      "36040869",
+      "33069007",
+      "34102212",
+      "31709918",
+      "37788668",
+      "35918061",
+      "42150060",
+      "33991007",
+      "36945618",
+      "42450221",
+      "39232584",
+      "37287829",
+      "28315749",
+      "38419328",
+      "29843482",
+      "38365983",
+      "32393642",
+      "38316988",
+      "33577679",
+      "41265448",
+      "31911439",
+      "38287572",
+      "36749320",
+      "37998041",
+      "41571439",
+      "36993212",
+      "31003202",
+      "42266718",
+      "33139563"
+    ],
+    "review": [
+      "38915483",
+      "33078839",
+      "42057657",
+      "38705823",
+      "36754681",
+      "34291921",
+      "35098694",
+      "30099026",
+      "33248138",
+      "39947751",
+      "33069007",
+      "31709918",
+      "42450221",
+      "28315749",
+      "38419328",
+      "31911439"
+    ],
+    "pmc": [
+      "11195163"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38915483/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38915483",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.06.12.598678",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

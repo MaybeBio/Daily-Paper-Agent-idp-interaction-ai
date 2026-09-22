@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.13.580100",
+  "title": "Chemical Genomics Language Model toward Reliable and Explainable Compound-Protein Interaction Exploration",
+  "authors": "Takuto Koyama; Hayato Tsumura; Ryunosuke Okita; Kimihiro Yamazaki; Aki Hasegawa; Keiko Imamura; Takashi Kato; Hiroaki Iwata; Ryosuke Kojima; Haruhisa Inoue; Shigeyuki Matsumoto; Yasushi Okuno",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-15",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出化学基因组语言模型ChemGLaM，用交叉注意力融合蛋白与化学语言模型预测化合物-蛋白互作，并含不确定性估计与可解释性；对象非IDP/相分离，互作机制建模深度有限，但AI方法对无序蛋白PPI预测有可迁移启发。",
+  "abstract": "Deep learning-based compound-protein interaction (CPI) prediction models are promising in the field of molecular biology, particularly for facilitating the drug discovery process. In practical applications, CPI models should achieve a high generalization performance, quantify prediction confidence, and ensure explainability. Here, we propose ChemGLaM, a chemical genomics language model for reliable and explainable CPI predictions, by addressing these three crucial aspects. ChemGLaM integrates independently pre-trained chemical and protein language models through an interaction block with a cross-attention mechanism, achieving state-of-the-art performance in predicting novel CPIs. Incorporating uncertainty estimation and attention visualization enables ChemGLaM to enhance the success rate of virtual screening and to provide molecular insights into CPIs. Furthermore, we demonstrate its practical applicability by constructing a public database for large-scale CPI predictions and enabling drug/target exploration for candidate treatment of amyotrophic lateral sclerosis (ALS). ChemGLaM represents a significant step toward overcoming the challenges of AI-driven drug discovery and addressing unmet medical needs.",
+  "abstract_zh": "基于深度学习的化合物-蛋白质相互作用（CPI）预测模型在分子生物学领域具有广阔前景，尤其是在促进药物发现过程方面。在实际应用中，CPI模型应实现高泛化性能、量化预测置信度，并确保可解释性。在此，我们提出ChemGLaM，一种化学基因组学语言模型，用于可靠且可解释的CPI预测，通过解决这三个关键方面。ChemGLaM通过带有交叉注意力机制的交互模块整合了独立预训练的化学和蛋白质语言模型，在预测新型CPI方面达到了最先进的性能。结合不确定性估计和注意力可视化，ChemGLaM能够提高虚拟筛选的成功率，并为CPI提供分子层面的见解。此外，我们通过构建一个用于大规模CPI预测的公共数据库，并实现对肌萎缩侧索硬化症（ALS）候选治疗的药物/靶点探索，展示了其实用适用性。ChemGLaM标志着在克服AI驱动药物发现挑战和满足未满足医疗需求方面迈出的重要一步。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.13.580100",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.13.580100",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.13.580100/index.html"
+}

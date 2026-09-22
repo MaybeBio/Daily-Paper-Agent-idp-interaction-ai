@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "38672470",
+    "doi": "10.3390/biom14040454",
+    "title": "Intact Transition Epitope Mapping-Force Interferences by Variable Extensions (ITEM-FIVE)."
+  },
+  "content": {
+    "abstract": "Investigations on binding strength differences of non-covalent protein complex components were performed by mass spectrometry. T4 fibritin foldon (T4Ff) is a well-studied miniprotein, which together with its biotinylated version served as model system to represent a compactly folded protein to which an Intrinsically Disordered Region (IDR) was attached. The apparent enthalpies of the gas phase dissociation reactions of the homo-trimeric foldon F-F-F and of the homo-trimeric triply biotinylated foldon bF-bF-bF have been determined to be rather similar (3.32 kJ/mol and 3.85 kJ/mol) but quite distinct from those of the singly and doubly biotinylated hetero-trimers F-F-bF and F-bF-bF (1.86 kJ/mol and 1.08 kJ/mol). Molecular dynamics simulations suggest that the ground states of the (biotinylated) T4Ff trimers are highly symmetric and well comparable to each other, indicating that the energy levels of all four (biotinylated) T4Ff trimer ground states are nearly indistinguishable. The experimentally determined differences and/or similarities in enthalpies of the complex dissociation reactions are explained by entropic spring effects, which are noticeable in the T4Ff hetero-trimers but not in the T4Ff homo-trimers. A lowering of the transition state energy levels of the T4Ff hetero-trimers seems likely because the biotin moieties, mimicking intrinsically disordered regions (IDRs), induced asymmetries in the transition states of the biotinylated T4Ff hetero-trimers. This transition state energy level lowering effect is absent in the T4Ff homo-trimer, as well as in the triply biotinylated T4Ff homo-trimer. In the latter, the IDR-associated entropic spring effects on complex stability cancel each other out. ITEM-FIVE enabled semi-quantitative determination of energy differences of complex dissociation reactions, whose differences were modulated by IDRs attached to compactly folded proteins.",
+    "keywords": [
+      "ESI-MS",
+      "ITEM mass spectrometry",
+      "binding strength",
+      "bio-computation",
+      "foldon",
+      "intrinsically disordered regions",
+      "molecular dynamics",
+      "non-covalent complex"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Epitope Mapping/methods",
+      "Protein Folding",
+      "Thermodynamics",
+      "Biotinylation",
+      "Protein Multimerization",
+      "Mass Spectrometry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Koy, Cornelia",
+        "Rower, Claudia",
+        "Thiesen, Hans-Jurgen",
+        "Neamtu, Andrei",
+        "Glocker, Michael O"
+      ],
+      "short_names": [
+        "Koy C",
+        "Rower C",
+        "Thiesen HJ",
+        "Neamtu A",
+        "Glocker MO"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3475-1799"
+      ],
+      "affiliations": [
+        "Proteome Center Rostock, Medical Faculty and Natural Science Faculty, University of Rostock Schillingallee 69, 18057 Rostock, Germany.",
+        "Proteome Center Rostock, Medical Faculty and Natural Science Faculty, University of Rostock Schillingallee 69, 18057 Rostock, Germany.",
+        "Institute for Immunology, Medical Faculty, University of Rostock, Schillingallee 70, 18057 Rostock, Germany.",
+        "Department of Physiology, \"Gr. T. Popa\" University of Medicine and Pharmacy, Str. Universitatii nr. 16, 700115 Iasi, Romania.",
+        "TRANSCEND Centre, Regional Institute of Oncology (IRO) Iasi, Str. General Henri Mathias Berthelot, Nr. 2-4, 700483 Iasi, Romania.",
+        "Proteome Center Rostock, Medical Faculty and Natural Science Faculty, University of Rostock Schillingallee 69, 18057 Rostock, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Koy, Cornelia",
+        "short_name": "Koy C",
+        "identifiers": [
+          "0000-0002-3475-1799"
+        ],
+        "affiliations": [
+          "Proteome Center Rostock, Medical Faculty and Natural Science Faculty, University of Rostock Schillingallee 69, 18057 Rostock, Germany."
+        ]
+      },
+      {
+        "full_name": "Röwer, Claudia",
+        "short_name": "Röwer C",
+        "identifiers": [],
+        "affiliations": [
+          "Proteome Center Rostock, Medical Faculty and Natural Science Faculty, University of Rostock Schillingallee 69, 18057 Rostock, Germany."
+        ]
+      },
+      {
+        "full_name": "Thiesen, Hans-Jürgen",
+        "short_name": "Thiesen HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Immunology, Medical Faculty, University of Rostock, Schillingallee 70, 18057 Rostock, Germany."
+        ]
+      },
+      {
+        "full_name": "Neamtu, Andrei",
+        "short_name": "Neamtu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, \"Gr. T. Popa\" University of Medicine and Pharmacy, Str. Universitatii nr. 16, 700115 Iasi, Romania.",
+          "TRANSCEND Centre, Regional Institute of Oncology (IRO) Iasi, Str. General Henri Mathias Berthelot, Nr. 2-4, 700483 Iasi, Romania."
+        ]
+      },
+      {
+        "full_name": "Glocker, Michael O",
+        "short_name": "Glocker MO",
+        "identifiers": [],
+        "affiliations": [
+          "Proteome Center Rostock, Medical Faculty and Natural Science Faculty, University of Rostock Schillingallee 69, 18057 Rostock, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2024 Apr 8",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/27 09:57",
+    "fetched_at": "2026-09-21 06:42:08"
+  },
+  "links": {
+    "cites": [
+      "39296809"
+    ],
+    "refs": [
+      "37957331",
+      "37789054",
+      "36671572",
+      "36141145",
+      "34989115",
+      "34638522",
+      "34222129",
+      "33080923",
+      "33053279",
+      "32998157",
+      "32817491",
+      "32785213",
+      "32756549",
+      "31683061",
+      "31363226",
+      "31147491",
+      "30611608",
+      "30587036",
+      "30425980",
+      "30420606",
+      "30395289",
+      "29653057",
+      "29147941",
+      "28900708",
+      "28764377",
+      "28616748",
+      "27872189",
+      "27276259",
+      "27020739",
+      "25635058",
+      "24619874",
+      "23722955",
+      "22989858",
+      "22349330",
+      "20670939",
+      "19940341",
+      "19361528",
+      "19280601",
+      "16211539",
+      "15033360",
+      "12585499",
+      "12064946",
+      "11922677",
+      "11381529",
+      "10592235",
+      "10550212",
+      "8744570"
+    ],
+    "similar": [
+      "38672470",
+      "41274901",
+      "15544812",
+      "31683061",
+      "15033360",
+      "37259551",
+      "38254624",
+      "24637609",
+      "11846809",
+      "30425980",
+      "26098893",
+      "25631540",
+      "36671572",
+      "23132862",
+      "22098258",
+      "15051865",
+      "31441158",
+      "26311893",
+      "17288411",
+      "27556733",
+      "28355271",
+      "31852794",
+      "31147491",
+      "33810353",
+      "28673305",
+      "11254387",
+      "40042172",
+      "39285530",
+      "17691757",
+      "36711874",
+      "37155239",
+      "40403066",
+      "11352592",
+      "19361528",
+      "32225071",
+      "21541065",
+      "29735687",
+      "35597640",
+      "21773639",
+      "39614773",
+      "37049857",
+      "25512514",
+      "24317797",
+      "18201720",
+      "34638522",
+      "32824743",
+      "25589637",
+      "14699113",
+      "23912807",
+      "20408169",
+      "31939678",
+      "40580137",
+      "28209172",
+      "30528464",
+      "22068624",
+      "33567297",
+      "27018856",
+      "29669838",
+      "25569572",
+      "40574713",
+      "33909430",
+      "16099913",
+      "11922677",
+      "25387963",
+      "34509724",
+      "9693091",
+      "24344259",
+      "32323533",
+      "27512064",
+      "9826518",
+      "41347878",
+      "31613621",
+      "29345926",
+      "29587652",
+      "23534402",
+      "39589885",
+      "28780862",
+      "29339216",
+      "35357183",
+      "40172236",
+      "34156262",
+      "19686667",
+      "39253485",
+      "39233609",
+      "33779503",
+      "7932704",
+      "18834656",
+      "30865832",
+      "36656134",
+      "18681419",
+      "39653037",
+      "29763584",
+      "39296809",
+      "31877033",
+      "34571015",
+      "22339051",
+      "37878721",
+      "29719201",
+      "28616748",
+      "37494873"
+    ],
+    "review": [
+      "38672470",
+      "25631540",
+      "31441158"
+    ],
+    "pmc": [
+      "11048379"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom14040454",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38672470/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38672470",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1112",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=pxd044721",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

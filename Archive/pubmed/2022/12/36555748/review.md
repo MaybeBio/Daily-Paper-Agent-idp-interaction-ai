@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors use flexible and cascaded molecular docking, along with molecular dynamics simulations, to characterize the binding of the Anle138b isomer ligand to alpha-synuclein (AαSyn), cyclophilin A (CypA), and various complexes thereof. They report binding affinities, key interacting residues, and energy contributions, and propose that the ligand can form stable complexes with these proteins, with implications for understanding Parkinson's disease pathology and therapeutic intervention.
+- **Visible evidence base** Abstract, Introduction, Results (Sections 2.1–2.4), Discussion, Conclusions, Materials and Methods (Sections 4.1–4.3), Figures 1–12 (referenced), Tables 1–6 (referenced)
+- **Missing materials affecting confidence** Figures and tables are referenced but not provided in the submitted text. Specific numerical data for binding affinities in Tables 1–3 are not visible. Details of the molecular dynamics simulation parameters (e.g., number of replicates, convergence criteria) are partially described but not fully specified. The manuscript does not include a limitations section.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic, namely the in silico characterization of a promising amyloid aggregation inhibitor with a key protein target in Parkinson's disease. The use of multiple docking approaches and molecular dynamics is appropriate in principle. However, the study is purely computational, and the claims of biological relevance and mechanistic insight are not fully supported by the evidence presented. Several methodological details are missing, and the interpretation of the results, particularly regarding the significance of the identified interactions and the convergence between docking and dynamics, requires clarification. The manuscript would benefit from a more rigorous and cautious presentation of the findings.
+- **Who would be interested in the results, and why** Researchers in the fields of computational drug discovery, protein misfolding and aggregation, Parkinson's disease biology, and molecular biophysics would find this study of interest. The work explores the binding landscape of a known aggregation inhibitor with a physiologically relevant protein complex, which could inform future experimental studies and drug development efforts.
+- **Major strengths** The study addresses a clinically relevant problem and a promising therapeutic candidate. The use of multiple complementary computational techniques (flexible docking, cascade docking, molecular dynamics with MM/PBSA analysis) is a methodological strength. The authors identify specific residues and interaction types, which provides a testable framework for future experimental validation. The consideration of different protein complex stoichiometries (monomer, dimer, ternary complex) is a thoughtful approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the Anle138b isomer binds to AαSyn and CypA complexes with specific affinities and that the identified interactions are biologically relevant.
+  - **Evidence pointer** Sections 2.1–2.3, Tables 1–3, Figures 1–6
+  - **Concern** The manuscript reports binding affinities from docking calculations (e.g., −5.8, −6.7, −7.1, −7.3, −7.5, −7.7 kcal/mol) but does not provide the corresponding figures or tables in the submitted text. The methodology for calculating these affinities is not described in sufficient detail. Docking scores are not equivalent to binding free energies and are highly dependent on the scoring function and the preparation of the receptor and ligand. The authors do not discuss the limitations of these scores or compare them to any experimental binding data.
+  - **Why it matters** The central claims of the paper rest on the reliability of these affinity values and the identified interaction patterns. Without a clear description of the scoring function, the treatment of receptor flexibility, and the validation of the docking protocol, the quantitative results cannot be assessed. The lack of experimental comparison or benchmarking undermines the confidence in the reported affinities.
+  - **Resolution test** The authors should provide the full docking results, including the scoring function used, the search space parameters, and a validation of the protocol (e.g., redocking of a known ligand or cross-docking). They should also clearly state that docking scores are estimates and discuss their limitations. If possible, a comparison with any available experimental binding data for Anle138b or related compounds should be included.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that molecular dynamics simulations showed "good agreement" with docking results for the most significant amino acids involved in complex stabilization.
+  - **Evidence pointer** Section 2.4, Figure 10, Table 4
+  - **Concern** The manuscript does not provide a quantitative or systematic comparison between the residues identified by docking and those identified by molecular dynamics energy decomposition. The statement of "good agreement" is subjective and not supported by a clear analysis. Furthermore, the molecular dynamics simulations were performed for 100 ns in three runs, but the convergence of the simulations is not demonstrated. The MM/PBSA approach is known to be sensitive to the simulation length and the choice of parameters.
+  - **Why it matters** The claim of convergence between two different computational methods is a key part of the paper's message. Without a rigorous comparison, the reader cannot evaluate the robustness of the findings. The lack of convergence analysis for the MD simulations raises questions about the reliability of the calculated binding energies and per-residue contributions.
+  - **Resolution test** The authors should provide a detailed comparison of the residues identified by docking and MD, for example, in a table or a figure. They should also show the time evolution of the binding energy and the root-mean-square deviation of the protein-ligand complex to demonstrate convergence. The MM/PBSA calculations should be described in more detail, including the entropy contribution, which is often neglected but can be significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the formation of a ternary complex between AαSyn, CypA, and the Anle138b isomer is possible under cellular conditions and that this has implications for understanding Parkinson's disease.
+  - **Evidence pointer** Sections 2.2, 2.3, Discussion
+  - **Concern** The study is entirely computational and does not provide any experimental evidence for the formation of the proposed complexes. The authors acknowledge that the ligand does not bind to the monomeric form of AαSyn in previous experimental studies, yet they model binding to a fragment and to complexes. The biological relevance of the modeled complexes, particularly the CypA dimer and the AαSyn-CypA dimer, is not established. The authors do not discuss the concentrations of the proteins and the ligand in the cellular context, which would be critical for assessing the likelihood of such complexes forming.
+  - **Why it matters** The paper's significance hinges on the claim that these interactions could occur in a cellular environment and be relevant to disease. Without experimental validation or a strong biophysical argument for the physiological plausibility of the proposed complexes, the claims remain speculative. The authors should temper their conclusions and clearly state the hypothetical nature of their findings.
+  - **Resolution test** The authors should either provide experimental evidence (e.g., binding assays, NMR, or cellular studies) or significantly revise their claims to clearly state that the study is a hypothesis-generating computational investigation. They should also discuss the limitations of the in silico approach and the need for experimental validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The manuscript aims to highlight "gaps" in understanding the interactions of Anle138b with AαSyn and partner proteins.
+  - **Evidence pointer** Abstract, Introduction, Discussion
+  - **Concern** The manuscript is written in a way that may be difficult for a nonspecialist to follow. The introduction is dense and does not clearly state the specific hypotheses being tested. The results section jumps between different complexes and techniques without a clear narrative. The discussion is somewhat repetitive and does not synthesize the findings into a clear take-home message.
+  - **Why it matters** For a broad readership, such as that of a general science journal, the manuscript should be accessible and clearly convey the significance of the work. The current structure and writing style may limit the impact of the study.
+  - **Resolution test** The authors should restructure the introduction to clearly state the gap in knowledge and the specific questions addressed. The results should be organized around the main findings, and the discussion should provide a clear and concise summary of the implications and limitations of the study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 4.2
+  - **Evidence pointer** Section 4.2
+  - **Issue** The description of the docking protocol is incomplete. The authors state that the box parameters were set manually but do not provide the dimensions or the center of the search space. The number of docking runs and the criteria for selecting the best pose are not specified.
+  - **Required correction** Provide the full details of the docking protocol, including the box size and center, the exhaustiveness parameter, and the number of runs. This is essential for reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 4.3
+  - **Evidence pointer** Section 4.3
+  - **Issue** The molecular dynamics simulation parameters are not fully described. The authors mention three runs of 100 ns but do not specify the time step, the thermostat and barostat used, or the equilibration protocol in detail.
+  - **Required correction** Provide a complete description of the MD simulation parameters, including the time step, the temperature and pressure coupling algorithms, and the equilibration procedure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 3
+  - **Issue** The discussion mentions that the authors identified "involvement" of mutation sites in complex formation, but this is not elaborated upon. The relevance of these findings to the disease-causing mutations is not clearly explained.
+  - **Required correction** Expand on the potential implications of the identified interactions for understanding the effects of disease-associated mutations on ligand binding and protein aggregation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is somewhat vague and does not clearly state the main findings. The phrase "we aimed to highlight current gaps" is not a finding.
+  - **Required correction** Revise the abstract to clearly state the specific results, such as the key residues involved in binding and the relative affinities of the different complexes.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Section 2.4
+  - **Evidence pointer** Section 2.4, Table 4
+  - **Issue** The authors state that "all energy components contribute significantly" but then note that polar solvation energy is an exception. This is contradictory.
+  - **Required correction** Clarify the statement regarding the contribution of polar solvation energy. If it does not contribute significantly, this should be stated clearly and its implications discussed.
+- **Technical failings that need to be addressed before the case is established** The lack of detailed docking and MD parameters, the absence of convergence analysis for the MD simulations, the subjective comparison between docking and MD results, and the lack of experimental validation or a clear statement of the hypothetical nature of the findings are the main technical failings. The manuscript must address these issues to establish the validity of its claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is not highly original in its methodology, as docking and MD are standard tools. However, the specific application to the Anle138b isomer with the AαSyn-CypA complex is a novel angle.
+  - **Scientific importance** The topic is important, but the purely computational nature of the study and the lack of experimental validation limit its immediate impact. The claims of biological relevance are not fully supported.
+  - **Interdisciplinary readership** The work could appeal to computational chemists, structural biologists, and neuroscientists, but the writing style and lack of clear context may limit its accessibility.
+  - **Technical soundness** The technical soundness is currently not established due to missing methodological details and a lack of rigorous validation of the computational results.
+  - **Readability for nonspecialists** The manuscript is not easily accessible to nonspecialists due to its dense structure and lack of a clear narrative.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant topic and uses appropriate methods, but the technical details are insufficient, the claims are overstated relative to the evidence, and the lack of experimental validation is a major limitation. The authors should be encouraged to revise the manuscript to address these concerns, but the case for the paper's conclusions is not made in its current form.
+
+## Risk / unsupported claims
+- The claim that the Anle138b isomer can form a ternary complex with AαSyn and CypA under cellular conditions is unsupported by the provided evidence, as no experimental data or biophysical arguments for physiological relevance are presented.
+- The reported binding affinities from docking are presented as quantitative measures without adequate context or validation, making them unsupported as reliable estimates.
+- The statement of "good agreement" between docking and molecular dynamics results is unsupported without a systematic and quantitative comparison.
+- The claim that the identified interactions have implications for understanding the effects of disease-associated mutations is not elaborated upon and is therefore unsupported.

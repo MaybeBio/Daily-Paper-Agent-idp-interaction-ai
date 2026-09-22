@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.04.742928",
+  "title": "N-terminal intrinsically disordered region mediates self-catalytic interfacial nucleation of Aspergillus oryzae hydrophobin RolA",
+  "authors": "Takahashi N; Abe N; Mabuchi T; Fukuyama M; Terauchi Y; Tanaka T; Yoshimi A; Yabu H; Abe K",
+  "journal": "bioRxiv",
+  "published_date": "2026-08-10",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合实验与分子动力学模拟，揭示米曲霉疏水蛋白RolA的N端无序区通过自催化界面成核介导rodlet组装，属于IDR介导的蛋白自组装机制建模，虽非典型PPI但机制可迁移至无序蛋白互作研究。",
+  "abstract": "Hydrophobins are biosurfactant proteins that coat the cell surfaces of filamentous fungi. On the conidial surface, hydrophobins self-assemble into rodlets, forming a dense hydrophobic film that promotes air-dispersibility. Although rodlet formation is closely associated with the physiology of filamentous fungi, its underlying molecular mechanisms remain largely unknown. Previously, we revealed that RolA, a hydrophobin derived from Aspergillus oryzae , forms rodlets at the air–water interface. In this study, we focused on the flexible N-terminal region of RolA, which lacks a well-defined tertiary structure, and hypothesized that this intrinsically disordered region regulates rodlet formation. To investigate its role, we used RolA mutants with reduced charges in the N-terminal region and analyzed the rodlet formation process on the surface of a water-in-air sessile droplet using atomic force microscopy. In addition, we quantitatively characterized rodlet formation at the air–water interface by applying a kinetic perspective to the interfacial tension change profiles obtained from dynamic surface tension measurements. The results suggested that RolA first forms a monolayer at the air–water interface, then rodlet formation proceeds through the continuous supply of free RolA monomers from the bulk phase to the interfacial RolA film. Our molecular dynamics simulations of RolA at the interface supported a model in which RolA molecules within the interfacial film interact with free monomers in the bulk phase through their N-terminal regions. These results reveal a previously unidentified role of the N-terminal region in rodlet formation and provide a more comprehensive framework for understanding the molecular mechanism underlying RolA rodlet formation.",
+  "abstract_zh": "疏水蛋白（hydrophobins）是覆盖丝状真菌细胞表面的生物表面活性蛋白。在分生孢子表面，疏水蛋白自组装成杆状体（rodlets），形成一层致密的疏水膜，促进空气传播性。尽管杆状体的形成与丝状真菌的生理密切相关，但其潜在的分子机制在很大程度上仍属未知。此前，我们揭示了源自米曲霉（Aspergillus oryzae）的疏水蛋白RolA在空气-水界面形成杆状体。在本研究中，我们聚焦于RolA缺乏明确三级结构的柔性N端区域，并假设这一内在无序区域调控杆状体的形成。为探究其作用，我们使用了N端区域电荷减少的RolA突变体，并利用原子力显微镜（atomic force microscopy）分析了空气-水悬浮液滴表面上的杆状体形成过程。此外，我们通过动态表面张力测量获得的界面张力变化曲线，从动力学角度定量表征了空气-水界面处的杆状体形成。结果表明，RolA首先在空气-水界面形成单层膜，随后杆状体的形成通过本体相中游离RolA单体持续供应至界面RolA膜而推进。我们对界面处RolA的分子动力学（molecular dynamics）模拟支持一个模型，即界面膜内的RolA分子通过其N端区域与本体相中的游离单体相互作用。这些结果揭示了N端区域在杆状体形成中此前未被识别的作用，并为理解RolA杆状体形成的分子机制提供了更全面的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.04.742928",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.04.742928",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.04.742928/index.html"
+}

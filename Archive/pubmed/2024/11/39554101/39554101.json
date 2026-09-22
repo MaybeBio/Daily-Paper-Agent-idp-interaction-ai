@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "39554101",
+    "doi": "10.1101/2024.10.29.620916",
+    "title": "COCOMO2: A coarse-grained model for interacting folded and disordered proteins."
+  },
+  "content": {
+    "abstract": "Biomolecular interactions are essential in many biological processes, including complex formation and phase separation processes. Coarse-grained computational models are especially valuable for studying such processes via simulation. Here, we present COCOMO2, an updated residue-based coarse-grained model that extends its applicability from intrinsically disordered peptides to folded proteins. This is accomplished with the introduction of a surface exposure scaling factor, which adjusts interaction strengths based on solvent accessibility, to enable the more realistic modeling of interactions involving folded domains without additional computational costs. COCOMO2 was parameterized directly with solubility and phase separation data to improve its performance on predicting concentration-dependent phase separation for a broader range of biomolecular systems compared to the original version. COCOMO2 enables new applications including the study of condensates that involve IDPs together with folded domains and the study of complex assembly processes. COCOMO2 also provides an expanded foundation for the development of multi-scale approaches for modeling biomolecular interactions that span from residue-level to atomistic resolution.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jussupow, Alexander",
+        "Bartley, Divya",
+        "Lapidus, Lisa J",
+        "Feig, Michael"
+      ],
+      "short_names": [
+        "Jussupow A",
+        "Bartley D",
+        "Lapidus LJ",
+        "Feig M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3136-2680",
+        "ORCID: 0000-0001-9380-6422"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, East Lansing, MI 48824, USA.",
+        "Department of Biochemistry and Molecular Biology, East Lansing, MI 48824, USA.",
+        "Department of Physics and Astronomy Michigan State University, East Lansing, MI 48824, USA.",
+        "Department of Biochemistry and Molecular Biology, East Lansing, MI 48824, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jussupow, Alexander",
+        "short_name": "Jussupow A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, East Lansing, MI 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Bartley, Divya",
+        "short_name": "Bartley D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, East Lansing, MI 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Lapidus, Lisa J",
+        "short_name": "Lapidus LJ",
+        "identifiers": [
+          "0000-0003-3136-2680"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy Michigan State University, East Lansing, MI 48824, USA."
+        ]
+      },
+      {
+        "full_name": "Feig, Michael",
+        "short_name": "Feig M",
+        "identifiers": [
+          "0000-0001-9380-6422"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, East Lansing, MI 48824, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Nov 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/18 16:20",
+    "fetched_at": "2026-09-21 12:46:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39412378",
+      "38979955",
+      "38325366",
+      "38154096",
+      "38153340",
+      "38000367",
+      "37794023",
+      "37782899",
+      "37684425",
+      "37186597",
+      "36747054",
+      "36607820",
+      "35977086",
+      "35725906",
+      "35149762",
+      "34931046",
+      "34716273",
+      "33934416",
+      "33876938",
+      "33577679",
+      "33558506",
+      "33496264",
+      "33373232",
+      "33302617",
+      "32936641",
+      "32934220",
+      "32514159",
+      "32405004",
+      "31984178",
+      "31437398",
+      "31270472",
+      "30857399",
+      "30672955",
+      "30508766",
+      "30467428",
+      "30236283",
+      "30063715",
+      "29961577",
+      "29607454",
+      "29503457",
+      "29381060",
+      "29364893",
+      "29151345",
+      "28972216",
+      "28935776",
+      "28819146",
+      "27999437",
+      "26777980",
+      "26616630",
+      "26488642",
+      "26406374",
+      "26015579",
+      "25532951",
+      "25443957",
+      "23997990",
+      "22429139",
+      "22398450",
+      "15264823",
+      "15093837",
+      "12142453",
+      "11707413",
+      "11030346",
+      "10786854",
+      "10353900",
+      "10228171",
+      "8744570"
+    ],
+    "similar": [
+      "39554101",
+      "39908323",
+      "34536913",
+      "39499823",
+      "40009520",
+      "39412378",
+      "34285781",
+      "36066390",
+      "39225535",
+      "33453922",
+      "33934416",
+      "33577679",
+      "36083825",
+      "38928405",
+      "40128232",
+      "39937084",
+      "34716273",
+      "37645312",
+      "29186229",
+      "35802394",
+      "33139563",
+      "40028356",
+      "38112495",
+      "33069007",
+      "37695778",
+      "36346711",
+      "38252962",
+      "34680048",
+      "36607820",
+      "40324844",
+      "34074792",
+      "36674958",
+      "37815389",
+      "33826337",
+      "34029402",
+      "35054543",
+      "38348795",
+      "35381009",
+      "35755809",
+      "30913885",
+      "28905203",
+      "33555894",
+      "34390736",
+      "32514329",
+      "39987501",
+      "32639157",
+      "39605385",
+      "36227468",
+      "39568948",
+      "32393642",
+      "37131742",
+      "40172489",
+      "34598583",
+      "31139718",
+      "35883530",
+      "39804953",
+      "35377637",
+      "22678152",
+      "31756104",
+      "39319382",
+      "39947751",
+      "36004748",
+      "30926670",
+      "38260590",
+      "29364893",
+      "20161121",
+      "26580773",
+      "37535543",
+      "23912807",
+      "37662293",
+      "17949219",
+      "38987470",
+      "24659927",
+      "32692541",
+      "36343363",
+      "32456986",
+      "32135192",
+      "38407041",
+      "35126984",
+      "19280017",
+      "37159305",
+      "38546977",
+      "36774359",
+      "39071308",
+      "38643169",
+      "29509422",
+      "39568893",
+      "36009025",
+      "26575522",
+      "32345021",
+      "35795820",
+      "33582133",
+      "29573987",
+      "38308651",
+      "39610751",
+      "31898464",
+      "39185151",
+      "37339604",
+      "26605486",
+      "37906711"
+    ],
+    "review": [
+      "39554101",
+      "34536913",
+      "34285781",
+      "35802394",
+      "33069007",
+      "34680048",
+      "40324844",
+      "38348795",
+      "28905203",
+      "34390736",
+      "32514329",
+      "40172489",
+      "22678152",
+      "39947751",
+      "32456986",
+      "32135192",
+      "29509422"
+    ],
+    "pmc": [
+      "11565878"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39554101/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.10.29.620916",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

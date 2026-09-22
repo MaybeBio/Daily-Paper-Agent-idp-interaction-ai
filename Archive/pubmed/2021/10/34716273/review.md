@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract and Significance section only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract and Significance text
+- **Shared manuscript claim summary** The authors present a sequence-dependent computational model for intrinsically disordered proteins (IDPs) that, when optimized against single-chain biophysical data from dilute solution experiments, predicts both conformational properties and liquid–liquid phase separation (LLPS) behavior across diverse and unrelated protein sequences. The model is further used to examine the relationship between chain compaction and LLPS propensity.
+- **Visible evidence base** Abstract text and Significance paragraph; no figures, tables, methods, or quantitative results provided
+- **Missing materials affecting confidence** Full methods, model parameterization details, training and validation datasets, quantitative accuracy metrics, comparison to existing models, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem in the biophysics of IDPs, namely the development of predictive sequence-based models for LLPS. The central premise, that single-chain properties measured in dilute solution can be leveraged to parameterize a model that then predicts phase behavior, is scientifically compelling and potentially impactful. However, the supplied material is limited to an abstract and a Significance statement, which precludes any substantive evaluation of the technical soundness, the validity of the claims, or the generalizability of the approach. The claims of "good accuracy" and "diverse and unrelated protein sequences" are not supported by any visible quantitative evidence in the provided text. The conceptual link between chain compaction and LLPS propensity is mentioned but not elaborated. As such, the case is not established from the provided evidence, though the direction of the work is promising.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, phase separation, biomolecular condensates, and computational biophysics would be the primary audience. The work is also relevant to those studying neurodegenerative diseases and cancer, where aberrant phase transitions are implicated. The potential to predict phase behavior from single-chain data would be of broad interest to experimentalists seeking to interpret or design IDP sequences with specific condensation properties.
+- **Major strengths** The central concept is elegant and potentially transformative, as it suggests that dilute-solution measurements, which are experimentally accessible, can inform predictions of concentrated-phase behavior. The focus on sequence dependence addresses a key gap in the field. The stated goal of connecting single-chain compaction to LLPS propensity is mechanistically insightful and could provide a unifying framework.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims the model "predicts conformational and phase behavior of diverse and unrelated protein sequences with good accuracy."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of "good accuracy" is presented without any quantitative metrics, benchmark comparisons, or error estimates in the supplied material. No data are shown to support the assertion that the model performs well across "diverse and unrelated" sequences.
+  - **Why it matters** The central contribution of the work hinges on the demonstrated predictive accuracy of the model. Without visible quantitative evidence, the claim cannot be assessed, and the reader cannot determine whether the model outperforms existing approaches or is sufficiently general.
+  - **Resolution test** Provide quantitative accuracy measures (e.g., correlation coefficients, root-mean-square deviations) for conformational and phase behavior predictions against experimental data, and specify the sequence diversity of the test set.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states the model is developed "from optimization of single-chain properties" and is "sequence-dependent."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The specific nature of the optimization, the functional form of the model, the choice of single-chain properties used, and the training data are not described. Without this information, the reproducibility and physical basis of the model cannot be evaluated.
+  - **Why it matters** A model that is not fully specified cannot be independently implemented or tested by others. The field requires transparent parameterization to assess whether the optimization is overfit or physically meaningful.
+  - **Resolution test** Describe the model architecture, the optimization target, the training dataset, and the validation procedure in sufficient detail to allow reproduction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The Significance section states the model provides "insight into the coupling between chain compaction and LLPS propensity."
+  - **Evidence pointer** Significance, location not provided
+  - **Concern** The nature of this coupling, whether it is causal, correlational, or sequence-dependent, is not explained. No specific findings or examples are given to illustrate the insight.
+  - **Why it matters** The claim of mechanistic insight is a key selling point of the work. Without elaboration, it remains an assertion rather than a demonstrated result.
+  - **Resolution test** Present specific data or analyses that show how chain compaction relates to LLPS propensity, including any sequence features that modulate this relationship.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "optimization of single-chain properties" is ambiguous. It is unclear whether this refers to optimizing model parameters to match experimental single-chain data, or optimizing the properties themselves.
+  - **Required correction** Rephrase to specify that model parameters are optimized to reproduce experimentally measured single-chain properties.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope definition
+  - **Affected element** Significance statement
+  - **Evidence pointer** Significance, location not provided
+  - **Issue** The statement that condensates "may develop into insoluble protein aggregates" is presented as a general fact, but the link between LLPS and aggregation is context-dependent and not universally established.
+  - **Required correction** Soften the claim or provide a citation to support the general statement.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "good accuracy" is subjective and not quantified.
+  - **Required correction** Replace with specific numerical accuracy metrics or a benchmark comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, model details, and elaborated mechanistic findings means the core claims are currently unsupported.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of using single-chain data to predict phase behavior is novel and potentially original, but the supplied material does not allow verification of whether this has been achieved before in this specific form.
+  - Scientific importance: The problem is of high importance to the IDP and phase separation communities, and a successful model would be a significant advance.
+  - Interdisciplinary readership: The topic bridges biophysics, computational biology, and cell biology, and would attract readers across these fields.
+  - Technical soundness: Cannot be assessed from the provided material. No methods, data, or validation are visible.
+  - Readability for nonspecialists: The abstract is concise and accessible, but the lack of context and quantitative detail limits its utility for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The work is promising and the direction is of high interest, but the supplied abstract and Significance section do not contain sufficient information to support the claims. A full manuscript with methods, results, and validation would be required for a substantive evaluation.
+
+## Risk / unsupported claims
+- The claim of "good accuracy" in predicting conformational and phase behavior is unsupported by any visible quantitative data.
+- The claim of applicability to "diverse and unrelated protein sequences" is unsubstantiated without a description of the test set.
+- The claim of "insight into the coupling between chain compaction and LLPS propensity" is not elaborated and cannot be evaluated.
+- The general statement that condensates "may develop into insoluble protein aggregates" is presented without supporting evidence or nuance.

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text sections, figure captions referenced but not provided, references list, acknowledgements)
+- **Assessment boundary** Scientific claims, methodology, evidence consistency, and interpretation as presented in the supplied text. Figures, supplementary information, and methods sections are referenced but not provided.
+- **Shared manuscript claim summary** The authors report that the transcription factor NANOG forms self-limiting, aging micelles at high concentrations, driven by its intrinsically disordered tryptophan repeat domain. These micelles expose DNA-binding domains, act as multivalent crosslinkers of DNA, and drive a sol-gel transition in NANOG-DNA solutions at physiological concentrations. The authors propose that this gelation and aging behaviour modulates DNA dynamics in vivo and may represent a mechanism for gene regulation distinct from chromatin reorganisation.
+- **Visible evidence base** Main text sections describing: electrophoretic mobility shift assay (Fig. 1b), bulk sol-gel observation (Fig. 1c), microrheology measurements of MSD and viscosity (Fig. 1d-g), viscoelastic moduli from generalized Stokes-Einstein relation (Fig. 1h-i), Mpipi coarse-grained molecular dynamics simulations (Fig. 2a-d), cryo-EM and mass photometry (Fig. 2e-f), dynamic light scattering (Fig. 2g), microrheology of NANOG-DNA mixtures (Fig. 3a-c, Fig. 4), and references to supplementary figures (S1-S5).
+- **Missing materials affecting confidence** All figures and their full captions, the complete Supplementary Information (SI) including methods details for simulations, microrheology protocols, passivation procedures, and time-cure superposition analysis, the Methods section, and details of the Mpipi model parameterisation as applied here. Without these, quantitative assessment of several key claims is limited.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and potentially significant biophysical characterisation of NANOG, a transcription factor of central importance in pluripotency. The combination of simulations, mass photometry, cryo-EM, and microrheology is ambitious and appropriate. The central claim that NANOG forms self-limiting micelles, rather than unbounded condensates, is novel and interesting. However, the manuscript as presented has several gaps in evidence accessibility and some claims outpace the data shown. The link between the in vitro micelle formation and the proposed in vivo functional role, while intriguing, remains speculative. The technical quality appears sound based on the text, but verification requires access to the figures and SI.
+- **Who would be interested in the results, and why** Researchers in biophysics, specifically those studying phase separation, condensates, and protein-DNA interactions. Cell and developmental biologists studying transcription factor function, particularly NANOG and pluripotency networks, would find the proposed mechanism of gene regulation via mechanical restriction of DNA dynamics highly relevant. The work also speaks to the broader community interested in non-Newtonian properties of biological fluids and the material basis of cellular processes.
+- **Major strengths** The study addresses a fundamental question about the physical mechanism of NANOG function using a multi-technique approach. The discovery of self-limiting micelles, as opposed to infinite condensates, is a conceptually important distinction. The observation that NANOG-DNA gels form at physiological concentrations and display aging is a significant finding with potential functional implications. The authors are careful to note where their data does not fit simple models (e.g., Maxwell fluid behaviour).
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence accessibility and verification
+  - **Claim pointer** The manuscript claims that simulations reveal NANOG assembles into self-limiting micelles with a specific domain organisation (WR core, DNA-binding intermediate, N-terminal outer layer), and that cryo-EM and mass photometry confirm monodisperse assemblies of 20-30 monomers.
+  - **Evidence pointer** Figure 2a-f, Supplementary Figure S1, "location not provided" for methods details
+  - **Concern** The central structural claims rest entirely on figures and simulation details that are not provided in the supplied material. The Mpipi model parameterisation, simulation box dimensions, equilibration criteria, and analysis of cluster size distributions are not described. Similarly, the cryo-EM image processing and mass photometry calibration are not detailed. Without these, the claim of "self-limiting micelles" cannot be independently assessed.
+  - **Why it matters** The novelty of the manuscript hinges on the micelle structure and its self-limiting nature. If the simulation analysis is flawed or the experimental measurements are misinterpreted, the entire conceptual framework collapses.
+  - **Resolution test** Provide the full Methods and SI, including simulation parameters, cluster analysis algorithms, cryo-EM data processing details, and mass photometry calibration. The figures must clearly show the size distribution and domain organisation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for gelation and aging claims
+  - **Claim pointer** The manuscript claims a 10,000-fold increase in effective viscosity over 12 hours for WT and N51A, and that the elastic modulus dominates the viscous modulus at around 5 hours, identifying the gelation point. It also claims that W10A shows no onset of elasticity.
+  - **Evidence pointer** Figure 1d-i, Supplementary Figure S2, "location not provided" for microrheology methods
+  - **Concern** The quantitative values (10,000-fold viscosity increase, gelation time of ~5 hours) are presented without the underlying microrheology data or analysis details. The method for extracting viscosity from MSD in a gelling, non-Newtonian system is not described. The time-cure superposition analysis is mentioned but not shown. The claim that W10A shows "no onset of elasticity" needs to be supported by the full frequency-dependent moduli data.
+  - **Why it matters** The gelation and aging behaviour is a core experimental finding. Without a clear description of the microrheology analysis and the raw data, the quantitative claims cannot be verified, and the distinction between WT/N51A and W10A behaviour is not fully established.
+  - **Resolution test** Provide the full microrheology methods, including tracer size, surface passivation, video length, and analysis algorithms. Show the full MSD curves, the extracted moduli as a function of frequency and time, and the time-cure superposition master curves.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of NANOG-DNA gelation mechanism
+  - **Claim pointer** The manuscript claims that NANOG micelles act as multivalent crosslinkers that stabilise DNA entanglements, and that this is the mechanism for gelation in NANOG-DNA mixtures. It also claims that the gelation is "unconventional" because it is driven by aging crosslinkers.
+  - **Evidence pointer** Figure 3a-c, Figure 4, Supplementary Figure S3-S4, "location not provided" for DNA preparation methods
+  - **Concern** The mechanism of crosslinking is inferred from the observation of gelation, but no direct evidence of micelle-DNA binding or crosslink formation is presented. The claim that the gelation is "unconventional" is not quantitatively supported by comparison to a conventional crosslinker system. The DNA length dependence is mentioned but only shown in a supplementary figure.
+  - **Why it matters** The proposed mechanism is central to the functional interpretation. If the gelation is due to a different mechanism (e.g., non-specific electrostatic interactions, depletion forces), the conclusions about NANOG function would be different.
+  - **Resolution test** Provide direct evidence of micelle-DNA binding, such as single-molecule imaging, fluorescence correlation spectroscopy, or binding assays. Show the DNA length dependence data and provide a quantitative comparison to a control crosslinker system.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Extrapolation to in vivo relevance
+  - **Claim pointer** The manuscript conjectures that NANOG micelles regulate gene expression by creating local gel-like environments that restrict genome dynamics and that aging ingrains mechanical memory in gene regulatory networks.
+  - **Evidence pointer** Conclusions section, "location not provided"
+  - **Concern** The leap from in vitro micelle formation and DNA gelation to in vivo gene regulation is substantial. The concentrations used in the DNA experiments (10 nM to 10 µM NANOG) are stated to be in broad agreement with reported in vivo values, but the local concentration in NANOG foci is acknowledged to be higher. The timescales of aging (hours) may not match the timescales of transcriptional regulation. No experimental evidence in cells is presented.
+  - **Why it matters** The functional significance of the findings is a major part of the manuscript's appeal. If the in vivo relevance is not convincingly argued, the impact of the work is diminished.
+  - **Resolution test** Provide a more quantitative discussion of the relationship between in vitro conditions and the in vivo environment. If possible, include preliminary in vivo experiments, such as imaging of NANOG foci and chromatin dynamics, or at least a more detailed discussion of how the proposed mechanism could be tested.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1c description
+  - **Evidence pointer** "Figure 1 c"
+  - **Issue** The text states that WT and N51A underwent a sol-gel transition while W10A remained a pipettable liquid, but the figure is not provided. The description of the visual appearance of the gels (e.g., turbidity, opacity) would be helpful.
+  - **Required correction** Provide a clear description of the visual appearance of the samples in the figure legend and main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Viscosity calculation
+  - **Evidence pointer** "location not provided" in the microrheology section
+  - **Issue** The footnote describing the viscosity calculation is somewhat unclear. It states that the diffusion coefficient was approximated with its upper bound when the MSD was not linear in time. This approximation needs to be justified more clearly.
+  - **Required correction** Clarify the method for estimating the diffusion coefficient in non-linear MSD regimes and discuss the potential impact on the reported viscosity values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Comparison to other systems
+  - **Evidence pointer** "location not provided" in the discussion of NANOG-DNA gels
+  - **Issue** The manuscript states that the behaviour is "akin to that of other protein condensates" but does not provide specific references or a detailed comparison.
+  - **Required correction** Add a brief comparison to specific examples of protein condensates that show solid-like behaviour with DNA/RNA, with appropriate citations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** DNA length dependence
+  - **Evidence pointer** Supplementary Figure S4
+  - **Issue** The DNA length-dependent gelation is mentioned as a supporting observation but is only in the SI. This is a potentially important control and should be described in the main text.
+  - **Required correction** Briefly describe the DNA length dependence experiment and its result in the main text.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of access to the figures and SI, which prevents verification of the quantitative claims. Specifically, the microrheology data analysis, the simulation cluster analysis, and the cryo-EM/mass photometry results must be presented in full. The method for estimating viscosity in a gelling system needs clarification. The evidence for the "unconventional" crosslinking mechanism needs to be strengthened.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The concept of self-limiting micelles formed by a transcription factor, as opposed to unbounded condensates, is a novel contribution. The idea that NANOG modulates DNA dynamics via gelation rather than chromatin reorganisation is a fresh perspective.
+  - **Scientific importance** Potentially high. If the in vivo relevance is confirmed, this work could change the understanding of how transcription factors organise the nucleus and regulate gene expression. The mechanical memory concept is intriguing.
+  - **Interdisciplinary readership** The work bridges biophysics, soft matter physics, and cell biology. It should appeal to a broad readership across these fields.
+  - **Technical soundness** The combination of techniques is appropriate and the authors appear to be careful in their analysis. However, the soundness cannot be fully assessed without the figures and SI. The use of the Mpipi model is reasonable, but the limitations of the model should be discussed.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The key concepts are explained clearly. However, some of the rheology terminology and the description of the simulation methods may be challenging for a general reader. The abstract is clear and compelling.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially significant and novel. However, the manuscript cannot be accepted in its current form because the key evidence is not accessible in the supplied material. The authors must provide the full figures, SI, and methods to allow a complete assessment. The claims regarding the in vivo relevance should be tempered or supported with additional discussion or preliminary data.

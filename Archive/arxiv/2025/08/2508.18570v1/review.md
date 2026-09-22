@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusions. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the supplied text. No assessment of code functionality or reproducibility beyond what is described.
+- **Shared manuscript claim summary** The authors assert that the protein force field, specifically AMBER ff19SB, plays a crucial role alongside the OPC water model in accurately modeling intrinsically disordered proteins (IDPs), as validated by comparing simulated small angle X-ray scattering (SAXS) profiles to experimental data for three EK polyampholyte sequences. They introduce a new scattering model, SWAXS-AMDE, for detailed, parameter-free comparisons.
+- **Visible evidence base** Experimental SAXS data for three EK polyampholytes; MD simulation trajectories from three force field combinations (TFF99, OFF99, FF19O); computed SAXS profiles; radius of gyration distributions; Ramachandran plots; chi-square values referenced but not shown in main text.
+- **Missing materials affecting confidence** Supplementary information (sections S.2, S.4, S.5, S.6, S.7) containing validation of SWAXS-AMDE, frame selection methodology, chi-square values, equilibration phase Ramachandran plots, and error quantification. Experimental SAXS data files. Simulation trajectory files. These are essential for full assessment of methodological rigor and quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in the IDP simulation community regarding the relative contributions of protein and water force fields to ensemble accuracy. The study design, using peptide-based polyampholytes as IDP mimics and SAXS as a multi-scale validation metric, is thoughtful and relevant. The introduction of SWAXS-AMDE as an open-source, engine-agnostic scattering tool is a valuable contribution. However, the central claim that the protein force field plays a "crucial" role is supported primarily by qualitative comparisons and a single metric (chi-square) whose values are relegated to supplementary material. The manuscript would benefit from more rigorous statistical analysis, explicit quantification of uncertainties, and a clearer demonstration that the observed differences are significant and generalizable beyond the specific sequences tested.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular dynamics simulation, particularly those working on force field development and validation for intrinsically disordered proteins. The SWAXS-AMDE tool will be of interest to experimentalists and modelers who use SAXS to validate simulations. The findings on force field performance have implications for the broader community studying protein conformational ensembles.
+- **Major Strengths** The study addresses a timely and debated topic in the field. The use of sequence-defined polyampholytes as model IDPs is a clever and appropriate choice, allowing systematic variation of sequence while maintaining low complexity. The isolation of protein and water force field contributions through a systematic comparison of three combinations is well conceived. The development and release of SWAXS-AMDE as an open-source tool is a significant practical contribution. The emphasis on parameter-free scattering calculations and the inclusion of thermal fluctuations is methodologically sound and addresses known limitations of earlier approaches.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that FF19O performs "best" and that the protein force field plays a "crucial role" in obtaining accurate ensembles, based on comparison of computed and experimental SAXS profiles.
+  - **Evidence pointer** Section 3.1, Figure 2; chi-square values referenced to supplementary section S.5
+  - **Concern** The central quantitative claim rests on chi-square values that are not presented in the main text. Without these values, the reader cannot assess the magnitude of differences between force field combinations. Moreover, no uncertainty estimates for the chi-square values are provided, making it impossible to determine whether the reported differences are statistically significant. The qualitative statement that TFF99 "performs the poorest" and FF19O "performs best" is not sufficient to support the strong conclusion that the protein force field is "crucial."
+  - **Why it matters** The manuscript's primary conclusion depends on a quantitative ranking of force field performance. If the chi-square differences are small relative to uncertainties, the conclusion would be substantially weakened. The current presentation does not allow this assessment.
+  - **Resolution test** Provide chi-square values with associated uncertainties (e.g., from bootstrapping or multiple independent simulations) in the main text or a clearly referenced table. Demonstrate that the differences between force field combinations exceed the uncertainties. If possible, show that the ranking is consistent across the three sequences and across q-ranges.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The authors conclude that FF19O is a "generalized model" that predicts both ordered and disordered polyampholyte sequences in good agreement with experiments.
+  - **Evidence pointer** Section 3.1, Figure 2; Section 3.2, Figure 3; Section 3.3, Figure 4
+  - **Concern** The claim of generalizability is based on only three sequences, all of which are EK polyampholytes with the same amino acid composition (glutamic acid and lysine) and similar lengths (32 residues). This is a very narrow test set. The sequences differ only in the arrangement of the same two residue types. This does not adequately test generalizability across the chemical diversity of amino acids, sequence lengths, or charge patterning found in real IDPs. The authors acknowledge this limitation only indirectly.
+  - **Why it matters** The term "generalized model" implies applicability beyond the tested systems. With such a limited test set, the conclusion is overreaching. The IDP community needs force fields that work across diverse sequences, and this study does not provide evidence for that level of generality.
+  - **Resolution test** Either temper the language to "shows promise for generalizability" or expand the test set to include sequences with different amino acid compositions, lengths, and charge distributions. At minimum, discuss explicitly why the EK system is representative and what additional tests would be needed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors state that SWAXS-AMDE is validated and that 5000 frames are sufficient for representative scattering curves.
+  - **Evidence pointer** Section 2.4; Section 3.1; validation details referenced to supplementary section S.3
+  - **Concern** The validation of SWAXS-AMDE is not described in the main text. The reader is referred to supplementary section S.3, which is not provided. Similarly, the choice of 5000 frames is justified by reference to a previous study (Chen and Hub) that used 500 frames, but no convergence analysis is shown for the current system. The statement that "error bars from our scattering computation in Fig. 2 are small" is qualitative and does not substitute for a systematic convergence test.
+  - **Why it matters** A new computational tool must be rigorously validated before its results can be trusted. The lack of visible validation data undermines confidence in the scattering calculations, which are central to the study's conclusions. Frame count sufficiency is a technical detail that directly affects the reliability of the computed profiles.
+  - **Resolution test** Include a brief validation summary in the main text (e.g., comparison of SWAXS-AMDE results against known analytical solutions or established codes like CRYSOL for a test case). Show a convergence plot of computed scattering profiles or chi-square values as a function of the number of frames used.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Alternative explanations
+  - **Claim pointer** The authors attribute the improved performance of FF19O to the protein force field's dihedral angle corrections, which lead to more accurate secondary structure populations.
+  - **Evidence pointer** Section 3.3, Figure 4; Section 3.4
+  - **Concern** The manuscript does not rule out alternative explanations for the observed differences. For example, the improved performance of FF19O could be due to differences in non-bonded interaction parameters, not just dihedral corrections. The authors state that the "major differences" between force field combinations are shown in Table 1, but this table is not visible in the provided text. Without a clear enumeration of all differences, the attribution of the effect to the protein force field's dihedral terms is not fully justified.
+  - **Why it matters** The conclusion that the protein force field plays a "crucial role" is more compelling if the specific mechanism (dihedral corrections) is identified. If other parameter changes contribute, the interpretation changes.
+  - **Resolution test** Clearly enumerate all differences between the force field combinations in the main text. If possible, perform additional simulations that isolate the effect of dihedral corrections (e.g., using ff19SB with and without the updated dihedral parameters).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4, Equation 1
+  - **Evidence pointer** Section 2.4
+  - **Issue** The text states "the development of the SWAXS-AMDE model begins with the equation shown below" but the equation is not displayed in the provided text. This makes it impossible to follow the derivation.
+  - **Required correction** Ensure all equations are displayed in the final version. If the equation is standard, provide a brief verbal description in addition to the equation itself.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The synthesis and purification methods are referenced to the SI of Ref. 24 rather than described. While this is acceptable for a methods section, the reader would benefit from a brief summary of key parameters (e.g., purity, yield, counterion removal efficiency) that could affect SAXS measurements.
+  - **Required correction** Add a sentence summarizing the purity and polydispersity of the synthesized peptides, or state explicitly that these details are in the SI.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, Figure 2
+  - **Issue** The comparison of computed and experimental SAXS profiles is visual and qualitative. The chi-square values are mentioned but not shown. A quantitative comparison with error bars is essential.
+  - **Required correction** Include a table or figure with chi-square values for all nine simulations, with uncertainties. Consider showing the residuals (computed minus experimental) as a function of q.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Section 3.4
+  - **Issue** The discussion of residual discrepancies is useful but incomplete. The authors list three sources but do not quantify their relative contributions or propose specific tests to isolate them.
+  - **Required correction** For each source of discrepancy, suggest a concrete test or analysis that could assess its importance. For example, the effect of the time step could be tested by running a shorter simulation with a 2 fs time step.
+- **Technical failings that need to be addressed before the case is established** The absence of chi-square values and their uncertainties in the main text (R1-M1) is the most critical technical failing. Without this, the central claim is not quantitatively supported. The lack of visible validation for SWAXS-AMDE (R1-M3) is also a significant gap. The limited test set (R1-M2) does not technically fail the current analysis but limits the strength of the generalizability claim.
+- **Assessment against Nature-style criteria** Originality: The study is original in its systematic isolation of protein and water force field contributions using a well-designed set of polyampholyte sequences and a parameter-free scattering analysis. The SWAXS-AMDE tool is a novel contribution. Scientific importance: The question of force field accuracy for IDPs is of high importance to the biophysics community. However, the narrow test set limits the immediate impact. Interdisciplinary readership: The work will appeal to computational chemists, biophysicists, and structural biologists. The scattering methodology may also interest experimentalists. Technical soundness: The simulation protocols are reasonable, and the use of long simulations (8 microseconds) is appropriate. However, the lack of visible quantitative validation and statistical analysis is a weakness. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., scattering theory) assume familiarity with the field. The abstract and introduction effectively frame the problem.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question with a thoughtful design and introduces a useful tool. However, the central claim requires quantitative support (chi-square values with uncertainties) and the generalizability claim needs tempering or additional evidence. The validation of SWAXS-AMDE must be visible in the main text or clearly summarized.
+
+## Risk / unsupported claims
+- The claim that FF19O is a "generalized model" is unsupported given the limited test set of three EK polyampholyte sequences.
+- The claim that the protein force field plays a "crucial role" is not quantitatively supported without chi-square values and uncertainties.
+- The statement that 5000 frames are sufficient for scattering analysis is not supported by a convergence analysis in the provided text.
+- The attribution of FF19O's improved performance specifically to dihedral angle corrections is not fully supported without a clear enumeration of all force field differences.
+- The validation of SWAXS-AMDE is referenced to supplementary material that was not provided, making the tool's reliability unassessable from the supplied text.

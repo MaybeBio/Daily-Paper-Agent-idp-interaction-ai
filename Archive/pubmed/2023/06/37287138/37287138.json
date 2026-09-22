@@ -1,0 +1,251 @@
+{
+  "identity": {
+    "pmid": "37287138",
+    "doi": "10.1093/bib/bbad213",
+    "title": "Evaluation of sequence-based predictors for phase-separating protein."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) of proteins and nucleic acids underlies the formation of biomolecular condensates in cell. Dysregulation of protein LLPS is closely implicated in a range of intractable diseases. A variety of tools for predicting phase-separating proteins (PSPs) have been developed with the increasing experimental data accumulated and several related databases released. Comparing their performance directly can be challenging due to they were built on different algorithms and datasets. In this study, we evaluate eleven available PSPs predictors using negative testing datasets, including folded proteins, the human proteome, and non-PSPs under near physiological conditions, based on our recently updated LLPSDB v2.0 database. Our results show that the new generation predictors FuzDrop, DeePhase and PSPredictor perform better on folded proteins as a negative test set, while LLPhyScore outperforms other tools on the human proteome. However, none of the predictors could accurately identify experimentally verified non-PSPs. Furthermore, the correlation between predicted scores and experimentally measured saturation concentrations of protein A1-LCD and its mutants suggests that, these predictors could not consistently predict the protein LLPS propensity rationally. Further investigation with more diverse sequences for training, as well as considering features such as refined sequence pattern characterization that comprehensively reflects molecular physiochemical interactions, may improve the performance of PSPs prediction.",
+    "keywords": [
+      "Liquid-liquid phase separation",
+      "evaluation",
+      "phase separating protein",
+      "prediction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Proteome",
+      "*Computational Biology",
+      "*Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liao, Shaofeng",
+        "Zhang, Yujun",
+        "Qi, Yifei",
+        "Zhang, Zhuqing"
+      ],
+      "short_names": [
+        "Liao S",
+        "Zhang Y",
+        "Qi Y",
+        "Zhang Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6300-3300",
+        "ORCID: 0000-0003-3514-834X"
+      ],
+      "affiliations": [
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "School of Pharmacy, Fudan University, Shanghai 201203, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liao, Shaofeng",
+        "short_name": "Liao S",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yujun",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Yifei",
+        "short_name": "Qi Y",
+        "identifiers": [
+          "0000-0002-6300-3300"
+        ],
+        "affiliations": [
+          "School of Pharmacy, Fudan University, Shanghai 201203, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhuqing",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0003-3514-834X"
+        ],
+        "affiliations": [
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Jul 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/08 06:42",
+    "fetched_at": "2026-09-20 22:36:22"
+  },
+  "links": {
+    "cites": [
+      "42336922",
+      "42231907",
+      "42184109",
+      "42180533",
+      "40867524",
+      "39858608",
+      "39320938",
+      "38380794"
+    ],
+    "refs": [],
+    "similar": [
+      "37287138",
+      "35168563",
+      "31906602",
+      "35025997",
+      "32947964",
+      "33827920",
+      "37574757",
+      "36754843",
+      "36009025",
+      "25708243",
+      "32696384",
+      "33809541",
+      "37609923",
+      "36575582",
+      "36528388",
+      "33517364",
+      "33535034",
+      "31252218",
+      "36551199",
+      "30994888",
+      "35803926",
+      "34179096",
+      "35687670",
+      "39133858",
+      "34624295",
+      "36524527",
+      "36768473",
+      "37374089",
+      "33876938",
+      "36471564",
+      "31612960",
+      "36444977",
+      "31584089",
+      "22540951",
+      "33318217",
+      "31941785",
+      "36503242",
+      "34718734",
+      "35895272",
+      "35142991",
+      "35628304",
+      "37230179",
+      "34334791",
+      "32973747",
+      "36310223",
+      "36350034",
+      "34029402",
+      "32105731",
+      "27307636",
+      "36518754",
+      "31204427",
+      "31393553",
+      "35610022",
+      "29511089",
+      "36982591",
+      "15647112",
+      "30102367",
+      "30985120",
+      "34391803",
+      "36640113",
+      "33983381",
+      "28924037",
+      "35616128",
+      "31928729",
+      "33057154",
+      "34291921",
+      "34233002",
+      "30682370",
+      "31691822",
+      "30171158",
+      "24466278",
+      "33971237",
+      "34058752",
+      "31237369",
+      "22174273",
+      "29446725",
+      "35998851",
+      "37489654",
+      "24679215",
+      "36519304",
+      "33755443",
+      "33610793",
+      "37446185",
+      "34522448",
+      "38565952",
+      "37907095",
+      "38225666"
+    ],
+    "review": [
+      "37287138",
+      "32947964",
+      "31252218",
+      "35803926",
+      "36524527",
+      "36503242",
+      "35142991",
+      "35628304",
+      "37230179",
+      "34334791",
+      "36350034",
+      "31204427",
+      "30102367",
+      "31928729",
+      "34291921",
+      "30682370",
+      "31237369",
+      "29446725",
+      "35998851",
+      "33610793"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37287138.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad213",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

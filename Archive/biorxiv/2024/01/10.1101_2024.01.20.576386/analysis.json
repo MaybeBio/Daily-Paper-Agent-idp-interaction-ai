@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.01.20.576386",
+  "title": "AFM-RL: Large Protein Complex Docking Using AlphaFold-Multimer and Reinforcement Learning",
+  "authors": "Tunde Aderinwale; Rashidedin Jahandideh; Zicong Zhang; Bowen Zhao; Yi Xiong; Daisuke Kihara",
+  "journal": "bioRxiv",
+  "published_date": "2024-01-23",
+  "window": {
+    "start": "2024-01-22",
+    "end": "2024-01-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用AlphaFold-Multimer预测成对模型并结合强化学习组装大型多链蛋白复合物，虽非针对无序蛋白，但其多链复合物组装与互作建模思路对IDR介导的PPI机制建模有可迁移启发。",
+  "abstract": "Various biological processes in living cells are carried out by protein complexes, whose interactions can span across multiple protein structures. To understand the molecular mechanisms of such processes, it is crucial to know the quaternary structures of these complexes. Although the structures of many protein complexes have been determined through biophysical experiments, there are still many important complex structures that are yet to be determined, particularly for large complexes with multiple chains. To supplement experimental structure determination, many computational protein docking methods have been developed, but most are limited to two chains, and few are designed for three chains or more. We have previously developed a method, RL-MLZerD, for multiple protein docking, which was applied to complexes with three to five chains. Here, we expand the ability of this method to predict the structures of large protein complexes with six to twenty chains. We use AlphaFold-Multimer (AFM) to predict pairwise models and then assemble them using our reinforcement learning framework. Our new method, AFM-RL, can predict a diverse set of pairwise models, which aids the RL assembly steps for large protein complexes. Additionally, AFM-RL demonstrates improved modeling performance when compared to existing methods for large protein complex docking.",
+  "abstract_zh": "活细胞中的多种生物过程由蛋白质复合物执行，其相互作用可跨越多个蛋白质结构。要理解这些过程的分子机制，了解这些复合物的四级结构至关重要。尽管许多蛋白质复合物的结构已通过生物物理实验确定，但仍有许多重要的复合物结构尚未解析，尤其是包含多条链的大型复合物。为补充实验结构测定，已开发了许多计算蛋白质对接方法，但大多数仅限于两条链，少数设计用于三条或更多链。我们此前开发了一种用于多蛋白质对接的方法RL-MLZerD，并将其应用于三至五条链的复合物。在此，我们扩展该方法的能力，以预测六至二十条链的大型蛋白质复合物结构。我们使用AlphaFold-Multimer (AFM)预测成对模型，然后利用我们的强化学习框架进行组装。我们的新方法AFM-RL能够预测多样化的成对模型，这有助于大型蛋白质复合物的强化学习组装步骤。此外，与现有大型蛋白质复合物对接方法相比，AFM-RL在建模性能上表现出改进。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.01.20.576386",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.01.20.576386",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.01.20.576386/index.html"
+}

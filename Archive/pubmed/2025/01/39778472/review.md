@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that anion-specific interactions with insulin, mediated by H-bonds and electrostatics, drive phase separation at low temperatures and determine amyloid morphology at high temperatures. They propose a unifying mechanism in which the same ion-protein interactions govern both phenomena, with a coalescence-based pathway producing amyloid-like microparticles as an alternative to conformationally-driven fibril formation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, MD simulation parameters and validation, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically ambitious hypothesis linking ion-protein interactions to both phase separation and amyloid morphology heterogeneity in insulin. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The mechanistic distinction between the proposed coalescence pathway and conformationally-driven fibril formation is intriguing but insufficiently supported in the abstract alone. The claim of a "unifying scenario" is bold and would require substantial experimental and computational evidence to be convincing.
+- **Who would be interested in the results, and why** Researchers in protein aggregation and amyloid biology, biophysicists studying phase separation, and pharmaceutical scientists interested in protein formulation stability. The work could also appeal to computational chemists working on ion-protein interactions and coarse-grained or atomistic simulations of protein self-assembly.
+- **Major strengths** The abstract addresses a timely and important topic, namely the molecular determinants of protein phase separation and amyloid polymorphism. The combination of experimental techniques (microscopy, SAXS, CD) with atomistic MD simulations is appropriate for the stated aims. The proposal of a coalescence-based pathway as an alternative to conformationally-driven aggregation is conceptually novel and could have broad implications.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "anions specifically interacting with insulin induced phase separation by neutralising the protein charge and forming H-bond bridges between insulin molecules" and that "the same interaction was responsible for an enhanced insulin conformational stability and resistance to oligomerisation."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract asserts a causal mechanism for phase separation and a simultaneous stabilising effect from the same ion-protein interaction, but no quantitative data are presented to support these claims. The relationship between charge neutralisation, H-bond bridging, and the observed phase separation is not demonstrated. Furthermore, the claim that the same interaction enhances conformational stability while also promoting phase separation appears potentially contradictory and requires careful kinetic and thermodynamic evidence.
+  - **Why it matters** The central mechanistic claim of the paper rests on this dual role of anion-protein interactions. Without supporting data, the reader cannot assess whether the proposed mechanism is robust or an artefact of specific experimental conditions.
+  - **Resolution test** Provide quantitative binding affinities or interaction energies from MD simulations, titration or isothermal titration calorimetry data for anion binding, and comparative stability measurements (e.g., melting temperatures) under conditions with and without the specific anions. Show that phase separation correlates with charge neutralisation and H-bond bridge formation in a dose-dependent manner.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract states that "under aggregation conditions, the anion-protein interaction translated into the activation of a coalescence process, leading to amyloid-like microparticles" and that "this reaction is alternative to conformationally-driven pathways, giving rise to elongated amyloid-like fibrils and occurs in the absence of preferential ion-protein binding."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract introduces a dichotomy between a coalescence pathway and a conformationally-driven pathway, but the evidence for this distinction is not presented. It is unclear how the authors determined that the microparticle formation is a coalescence process rather than a different aggregation regime. The statement that the alternative pathway "occurs in the absence of preferential ion-protein binding" is particularly confusing, as it seems to contradict the earlier claim that anion binding is the driver of the process.
+  - **Why it matters** The proposed alternative pathway is a key novelty of the work. If the distinction between the two pathways is not rigorously established, the unifying scenario loses its foundation.
+  - **Resolution test** Provide time-resolved microscopy or scattering data showing the coalescence of smaller species into microparticles, and demonstrate that fibril formation under the same conditions follows a distinct kinetic and structural pathway. Clarify the role of ion binding in each pathway with direct binding measurements or simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalisability
+  - **Claim pointer** The abstract claims "a unifying scenario in which common interactions dictated both phase separation at low temperatures and the occurrence of pronounced heterogeneity in the amyloid morphology at high temperatures, similar to what has previously been reported for protein crystal growth."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The analogy to protein crystal growth is intriguing but is not substantiated with any comparative data or discussion. The claim of a "unifying scenario" implies a general principle, yet the abstract only describes experiments on insulin with specific anions. It is unclear whether the authors have tested other proteins or ion conditions to support the generality of their model.
+  - **Why it matters** The broader significance of the work depends on the generality of the proposed mechanism. If the findings are specific to insulin or to the particular anions used, the claim of a unifying scenario is overstated.
+  - **Resolution test** Provide evidence from additional protein systems or a range of ion conditions showing that the same interaction principles apply. Alternatively, temper the claim to reflect the insulin-specific nature of the findings.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "amyloid-like microparticles" is used without definition. It is unclear whether these are true amyloid structures (e.g., with cross-beta structure) or merely aggregates with amyloid-like morphology.
+  - **Required correction** Define the term and specify the structural characterisation used to classify these particles as amyloid-like.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract lists techniques used (microscopy, SAXS, CD, MD) but provides no details on the insulin concentration, buffer conditions, temperature range, or anion identity and concentration. These are essential for reproducibility.
+  - **Required correction** Include key experimental conditions in the abstract or refer to a methods section with full details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Mechanistic claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "H-bond bridges between insulin molecules" is vague. It is not clear whether these are direct protein-protein H-bonds mediated by anions or water-mediated bridges.
+  - **Required correction** Clarify the molecular nature of the H-bond bridges and provide simulation snapshots or structural models to illustrate the proposed interaction.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or mechanistic evidence to support the central claims of a dual role for anion-protein interactions, the existence of a distinct coalescence pathway, or the generality of the proposed unifying scenario.
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposal of a coalescence-based pathway for amyloid formation and its link to phase separation is conceptually original, though the abstract does not fully distinguish it from existing aggregation models.
+  - Scientific importance: The topic is of high importance for understanding protein aggregation and for pharmaceutical formulation, but the significance of the specific findings cannot be fully assessed from the abstract.
+  - Interdisciplinary readership: The work bridges biophysics, physical chemistry, and pharmaceutical science, which could appeal to a broad audience if the claims are well supported.
+  - Technical soundness: The combination of experimental and computational methods is appropriate, but the abstract does not provide enough detail to evaluate the technical quality of the simulations or the experimental analyses.
+  - Readability for nonspecialists: The abstract is reasonably accessible but uses specialised terminology (e.g., "phase separation," "coalescence process") without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of supporting data and the apparent internal tension in the mechanistic claims prevent a positive assessment. The authors should provide the full manuscript with detailed evidence to allow proper evaluation.
+
+## Risk / unsupported claims
+- The claim that anion-protein interactions "induced phase separation by neutralising the protein charge and forming H-bond bridges" is unsupported in the abstract.
+- The claim that the same interaction "was responsible for an enhanced insulin conformational stability and resistance to oligomerisation" is unsupported and appears to conflict with the phase separation claim.
+- The claim of a "coalescence process" leading to "amyloid-like microparticles" as an alternative pathway is unsupported without time-resolved or structural data.
+- The claim that the alternative pathway "occurs in the absence of preferential ion-protein binding" is unsupported and confusing given the earlier emphasis on specific anion binding.
+- The "unifying scenario" and the analogy to protein crystal growth are not substantiated with comparative data or discussion.

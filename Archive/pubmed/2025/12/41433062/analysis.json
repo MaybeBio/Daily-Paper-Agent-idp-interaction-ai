@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41433062",
+  "title": "Arg-Tyr cation-pi interactions drive phase separation and beta-sheet assembly in native spider dragline silk.",
+  "authors": "Johnson, Hannah R; Chalek, Kevin; Elathram, Nesreen; Chau, Andy T; Domingo, Anikin Rae; Aldana, Julian E; Nguyen, Hieu; de Loera, Alexia; Duarte, Brianna A; Shapakidze, Lado; Onofrei, David; Debelouchina, Galia T; Lorenz, Christian D; Holland, Gregory P",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2025-12-23",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合NMR、MD模拟和AlphaFold3，揭示蜘蛛丝蛋白中Arg-Tyr阳离子-π相互作用驱动LLPS及β-折叠组装，直接关联无序蛋白互作机制与凝聚体形成，方法先进且机制深度强。",
+  "abstract": "Liquid-liquid phase separation (LLPS) is a fundamental principle of protein organization in intrinsically disordered proteins (IDPs) and biomaterials, yet the residue-level interactions that link condensation to structural ordering remain poorly defined. In spider dragline silk, LLPS is believed to initiate the transition from soluble spidroin dope into beta-sheet-rich fibers that provide exceptional toughness, yet how sequence-specific motifs govern this process has been unclear. Here, we combine isotope-edited solution NMR, dynamic nuclear polarization (DNP)-enhanced solid-state NMR, molecular dynamics simulations, and AlphaFold3 modeling to define the molecular role of arginine and tyrosine in Latrodectus hesperus dragline silk. Phosphate triggers LLPS while preserving intrinsic disorder, with arginine exhibiting the largest chemical shift perturbations. Simulations reveal that phosphate displaces hydration water to promote Arg-Tyr cation-pi interactions and weaken Arg-poly(Ala) contacts. Solid-state NMR directly detects Arg-Tyr contacts in spun fibers, demonstrating that arginine is partially incorporated into beta-sheet interfaces while tyrosine frequently adopts beta-turn conformations. AlphaFold3 models corroborate these interfacial geometries and reproduce experimental chemical shifts, supporting persistent Arg-Tyr interactions at structured-unstructured boundaries. Together, these results identify Arg-Tyr contacts as critical \"sticker\" interactions that mediate condensation, nucleate local order, and stabilize fiber architecture. More broadly, this work establishes a mechanistic link between residue-specific chemistry, LLPS, and hierarchical assembly in a structural protein. These insights highlight how weak multivalent interactions bridge disordered and ordered states, providing a general framework for condensate-driven assembly in biology and guiding biomimetic material design.",
+  "abstract_zh": "液-液相分离（LLPS）是 intrinsically disordered proteins (IDPs) 和生物材料中蛋白质组织的基本原理，然而将凝聚与结构有序化联系起来的残基级相互作用仍鲜为人知。在蜘蛛拖丝中，LLPS被认为启动了从可溶性蛛丝蛋白原液向提供卓越韧性的富含β-折叠纤维的转变，但序列特异性基序如何调控这一过程尚不清楚。在此，我们结合同位素编辑溶液核磁共振、动态核极化（DNP）增强固态核磁共振、分子动力学模拟和AlphaFold3建模，以定义精氨酸和酪氨酸在Latrodectus hesperus拖丝中的分子作用。磷酸盐触发LLPS同时保持内在无序性，其中精氨酸表现出最大的化学位移扰动。模拟揭示，磷酸盐置换水化水以促进Arg-Tyr阳离子-π相互作用，并削弱Arg-poly(Ala)接触。固态核磁共振直接检测到纺成纤维中的Arg-Tyr接触，证明精氨酸部分整合入β-折叠界面，而酪氨酸频繁采用β-转角构象。AlphaFold3模型证实了这些界面几何结构，并重现实验化学位移，支持在有序-无序边界处存在持久的Arg-Tyr相互作用。综合来看，这些结果将Arg-Tyr接触识别为关键的“粘附”相互作用，介导凝聚、成核局部有序性并稳定纤维架构。更广泛地，本研究在结构蛋白中建立了残基特异性化学、LLPS和层级组装之间的机制联系。这些见解突显了弱多价相互作用如何桥接无序和有序状态，为生物学中凝聚驱动组装提供通用框架，并指导仿生材料设计。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41433062/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41433062/",
+  "paper_page_path": "papers/pubmed/41433062/index.html"
+}

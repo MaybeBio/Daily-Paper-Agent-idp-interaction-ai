@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretive validity based solely on the provided text
+- **Shared manuscript claim summary** The authors combine vdW-corrected DFT and DFT-CES/2PT to compute dimer association free energies of benzene and phenol in water, finding that solvation minimally perturbs π–π interaction free energies except when direct hydrogen-bond-like interactions occur between monomers, with enthalpy–entropy compensation explaining the trend.
+- **Visible evidence base** Text descriptions of computational methods, benchmark comparisons, and thermodynamic results; references to Figures 1–5, Tables 1–2, and Supplementary Figures S1–S7
+- **Missing materials affecting confidence** All figures, tables, and supplementary information; numerical data for benchmark comparisons; simulation convergence details; error estimates
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computationally rigorous approach to a biologically relevant question, namely how aqueous solvation modulates π–π interactions relevant to IDP phase behavior. The methodological combination of vdW-corrected DFT and DFT-CES/2PT is innovative and the benchmark validation strategy is commendable. However, the central claim that solvation minimally affects π–π interaction free energies rests on a limited conformational sampling and lacks explicit error quantification. The connection to IDP phase behavior, while plausible, is largely speculative and not quantitatively supported by the presented data. The manuscript would benefit from additional validation, broader conformational sampling, and a more cautious framing of the biological implications.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists studying noncovalent interactions in aqueous environments, particularly those interested in π–π interactions, solvation thermodynamics, and the molecular determinants of IDP phase separation. The methodological advances in DFT-CES/2PT for computing solvation free energies of molecular complexes will also appeal to method developers in the QM/MM community.
+- **Major strengths** 1) The combination of vdW-corrected DFT with DFT-CES/2PT is a sophisticated and appropriate approach for computing association free energies in explicit solvent. 2) The benchmark validation against high-level wavefunction methods and experimental solvation free energies strengthens confidence in the computational protocol. 3) The systematic exploration of multiple conformations for both benzene and phenol dimers, including the consideration of hydroxyl group positions, is thorough. 4) The enthalpy–entropy decomposition provides mechanistic insight into the solvation effects.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "solvation influences dimer association free energies, but not significantly when no direct hydrogen-bond-type interaction exists between two monomeric units."
+  - **Evidence pointer** Section 3.2, Figures 3–4 (not visible)
+  - **Concern** The central conclusion that solvation minimally affects π–π interaction free energies is based on a limited set of conformations (4 for benzene, 6 for phenol). The authors do not demonstrate that these conformations are representative of the full conformational landscape accessible in solution. Moreover, the reported differences between ΔGaq and ΔGvac are within 1.4 kcal/mol, but no error bars or uncertainty estimates are provided for these values. Given that the DFT-CES/2PT method involves iterative QM/MM coupling and the 2PT model for entropy, the accumulated errors could easily exceed the reported differences. Without error quantification, the claim of "no significant" solvation effect is not statistically supported.
+  - **Why it matters** The primary scientific contribution of the manuscript is the quantitative claim about the magnitude of solvation effects on π–π interactions. If the uncertainty in the computed free energies is comparable to or larger than the reported solvation effects, the central conclusion is not established. This directly affects the validity of the enthalpy–entropy compensation interpretation and the extrapolation to IDP phase behavior.
+  - **Resolution test** Provide error estimates for ΔGaq and ΔGvac (e.g., from multiple independent simulations, block averaging, or bootstrap analysis). Demonstrate that the differences between in vacuo and in aqua values exceed the combined uncertainties. Additionally, perform a broader conformational search (e.g., using enhanced sampling methods) to confirm that the selected conformations are representative.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the DFT-CES values agree with the experimental values, in stark contrast with the implicit solvation methods, which predict ΔGsol with gross errors."
+  - **Evidence pointer** Section 3.1, Table 2 (not visible)
+  - **Concern** The benchmark of solvation free energies is presented as a key validation of the DFT-CES method, but the text does not provide quantitative details of the comparison. The claim of "agreement" with experiment and "gross errors" for implicit methods is made without reporting the actual numerical values, the magnitude of deviations, or the statistical significance of the differences. Furthermore, the comparison appears to be limited to benzene and phenol monomers; it is unclear whether the accuracy of DFT-CES extends to the dimer complexes, which are the primary focus of the study.
+  - **Why it matters** The reliability of the entire thermodynamic cycle depends on the accuracy of the solvation free energy calculations. If the benchmark is not quantitatively established, the confidence in the reported ΔGaq values is undermined. The comparison with implicit solvation methods is also relevant for contextualizing the advantages of the DFT-CES approach.
+  - **Resolution test** Report the numerical values of ΔGsol from DFT-CES, implicit methods, and experiment in Table 2, including the mean absolute error or root-mean-square deviation for each method. Additionally, validate the DFT-CES approach for the dimer complexes by comparing computed solvation free energies with any available experimental or high-level computational data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "our study, which quantifies the interaction strength between aromatic π systems in water, will provide a molecular understanding of the π–π interaction mediated phase behavior of IDPs."
+  - **Evidence pointer** Section 3.4, Section 4
+  - **Concern** The connection between the computed dimer association free energies and IDP phase behavior is made through a chain of assumptions: (1) benzene and phenol are adequate models for Phe and Tyr side chains; (2) the dimer free energies are directly relevant to multivalent interactions in IDP assemblies; (3) the interaction strength is positively correlated with LLPS propensity. While these assumptions are plausible, they are not quantitatively tested. The authors cite previous work on the correlation between interaction strength and LLPS, but do not provide any new data linking their computed values to phase behavior predictions.
+  - **Why it matters** The stated motivation for the study is to understand the molecular driving forces for IDP phase separation. If the biological implications are not quantitatively supported, the broader significance of the work is diminished. The manuscript would be strengthened by a more explicit discussion of how the computed free energies could be used in coarse-grained or analytical models of LLPS.
+  - **Resolution test** Provide a quantitative framework connecting the computed dimer free energies to LLPS predictions, such as using a lattice model or Flory–Huggins-type theory. Alternatively, discuss the limitations of the dimer model and clearly state what additional information would be needed to make quantitative predictions about IDP phase behavior.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Equation (1)
+  - **Issue** The description of the DFT-CES/2PT method is dense and assumes significant prior knowledge of QM/MM methods. The free energy functional in Equation (1) is presented without a clear physical interpretation for readers unfamiliar with the formalism.
+  - **Required correction** Add a brief qualitative explanation of the DFT-CES/2PT approach, including what the mean-field approximation entails and why the 2PT model is needed for entropy calculations. Consider adding a schematic figure or a step-by-step description of the iterative procedure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** "the H atom from the hydroxyl group in phenol was maintained at its original position in the structure optimized in vacuo"
+  - **Issue** The constraint on the hydroxyl hydrogen position in phenol is a significant approximation that could affect the computed solvation free energies and the conformational sampling. The justification for this constraint is not fully explained.
+  - **Required correction** Provide a more detailed justification for this constraint, including any test calculations that demonstrate its negligible impact on the results. Alternatively, discuss the potential limitations introduced by this approximation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** "SCF iterations were conducted until the difference in EQMint was less than 0.1 kcal/mol"
+  - **Issue** The convergence criterion of 0.1 kcal/mol for the QM internal energy is stated, but it is unclear whether this criterion applies to the total free energy or just the electronic energy. The convergence of the solvation free energy, which is the key quantity, is not explicitly discussed.
+  - **Required correction** Clarify the convergence criteria for all quantities used in the thermodynamic cycle, including the solvation free energies. Report the number of SCFF iterations required for convergence and the final differences between successive iterations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Section 3.4
+  - **Evidence pointer** "The strongest benzene dimer interaction is −3.44 kcal/mol for the T1 conformation, and the strongest phenol dimer interaction is −4.93 kcal/mol for the HBP conformation"
+  - **Issue** The biological significance of these specific free energy values is not contextualized. Readers from a biology background may not know whether these values are large or small relative to other interactions relevant to protein assembly.
+  - **Required correction** Provide a brief comparison with typical hydrogen bond strengths, hydrophobic interaction free energies, or other relevant benchmarks to help readers assess the biological significance of the computed values.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Figure 5 (not visible)
+  - **Issue** The enthalpy–entropy compensation analysis is presented as a key finding, but the text does not describe how the enthalpy and entropy components were extracted from the DFT-CES/2PT calculations. The reliability of the entropy decomposition is not discussed.
+  - **Required correction** Describe the method for decomposing ΔΔGsol into enthalpic and entropic contributions, and discuss the potential sources of error in the entropy calculation. If possible, compare the entropy values with those from alternative methods or experimental data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of error quantification for the central claim), R1-M2 (incomplete benchmark validation without numerical details)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of vdW-corrected DFT with DFT-CES/2PT for computing dimer association free energies in water is methodologically novel, though the underlying concepts are established. The application to benzene and phenol as models for aromatic residues in IDPs is a fresh perspective.
+  - **Scientific importance** The question of how solvation modulates π–π interactions is of fundamental importance to understanding protein assembly and IDP phase behavior. However, the current manuscript does not fully establish the quantitative significance of its findings for these biological processes.
+  - **Interdisciplinary readership** The topic bridges computational chemistry, biophysics, and protein science. The manuscript is likely to appeal to a specialized audience but may be challenging for readers without a strong background in QM/MM methods.
+  - **Technical soundness** The computational approach is sophisticated and the benchmark strategy is appropriate, but the lack of error quantification and the limited conformational sampling are significant technical weaknesses that undermine the central claim.
+  - **Readability for nonspecialists** The manuscript is generally well-written but the methods section is dense and the biological implications are not fully contextualized for a broad audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question with a sophisticated methodology, but the central claim requires error quantification and broader conformational sampling to be fully established. The benchmark validation needs to be presented with numerical details. The biological implications should be framed more cautiously or supported with additional quantitative analysis.
+
+## Risk / unsupported claims
+- The claim that solvation minimally affects π–π interaction free energies is not supported by error estimates or statistical analysis.
+- The benchmark validation of DFT-CES against experimental solvation free energies is asserted but not quantitatively demonstrated in the text.
+- The extrapolation from benzene/phenol dimer free energies to IDP phase behavior is speculative and not quantitatively supported.
+- The enthalpy–entropy compensation mechanism is inferred from a limited set of conformations and lacks explicit validation of the entropy decomposition method.
+- The claim that "the former can be classified as a nonclassical hydrophobic association, whereas the latter can be considered as an example of classical association" is an interpretive statement that is not directly tested by the data.

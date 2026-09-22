@@ -1,0 +1,43 @@
+{
+  "source": "arxiv",
+  "source_id": "2512.23086v1",
+  "title": "Phase transition revealed by eigen microstate entropy",
+  "doi": "",
+  "abstract": "We introduce the eigen microstate entropy ($S_{\\text{EM}}$), a novel metric of complexity derived from the probabilities of statistically independent eigen microstates. After establishing its scaling behavior in equilibrium systems and demonstrating its utility in critical phenomena (mean spherical, Ising, and Potts models), we apply $S_{\\text{EM}}$ to non-equilibrium complex systems. Our analysis reveals a consistent precursor signal: a significant increase in $S_{\\text{EM}}$ precedes major phase transitions. Specifically, we observe this entropy rise before biomolecular condensate formation in liquid-liquid phase separation in living cells and months ahead of El Niño events. These findings position $S_{\\text{EM}}$ as a general framework for detecting and interpreting phase transitions in non-equilibrium systems.",
+  "authors": [
+    "Teng Liu",
+    "Xuezhi Niu",
+    "Mingli Zhang",
+    "Gaoke Hu",
+    "Yuhan Chen",
+    "Yongwen Zhang",
+    "Rui Shi",
+    "Jingyuan Li",
+    "Peng Tan",
+    "Maoxin Liu",
+    "Hui Li",
+    "Xiaosong Chen"
+  ],
+  "published_date": "2025-12-28T21:28:19Z",
+  "updated_date": "2025-12-28T21:28:19Z",
+  "journal": "",
+  "category": "cond-mat.stat-mech, nlin.AO",
+  "landing_url": "https://arxiv.org/abs/2512.23086v1",
+  "pdf_url": "https://arxiv.org/pdf/2512.23086v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.stat-mech",
+    "nlin.AO"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2512.23086v1",
+    "raw_categories": [
+      "cond-mat.stat-mech",
+      "nlin.AO"
+    ],
+    "journal_ref": ""
+  }
+}

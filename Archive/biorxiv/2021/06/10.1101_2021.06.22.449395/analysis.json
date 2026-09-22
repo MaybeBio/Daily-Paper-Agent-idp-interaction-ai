@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.06.22.449395",
+  "title": "Super.Complex: A supervised machine learning pipeline for molecular complex detection in protein-interaction networks",
+  "authors": "Meghana V. Palukuri; Edward M. Marcotte",
+  "journal": "bioRxiv",
+  "published_date": "2021-06-22",
+  "window": {
+    "start": "2021-06-21",
+    "end": "2021-06-27"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用监督式AutoML流水线在蛋白互作网络中检测蛋白复合物，虽涉及PPI网络和机器学习，但对象非无序蛋白/IDR，且不关注互作机制建模，仅网络社区检测，启发有限。",
+  "abstract": "Characterization of protein complexes, i.e. sets of proteins assembling into a single larger physical entity, is important, as such assemblies play many essential roles in cells such as gene regulation. From networks of protein-protein interactions, potential protein complexes can be identified computationally through the application of community detection methods, which flag groups of entities interacting with each other in certain patterns. Most community detection algorithms tend to be unsupervised and assume that communities are dense network subgraphs, which is not always true, as protein complexes can exhibit diverse network topologies. The few existing supervised machine learning methods are serial and can potentially be improved in terms of accuracy and scalability by using better-suited machine learning models and parallel algorithms. Here, we present Super.Complex, a distributed, supervised AutoML-based pipeline for overlapping community detection in weighted networks. We also propose three new evaluation measures for the outstanding issue of comparing sets of learned and known communities satisfactorily. Super.Complex learns a community fitness function from known communities using an AutoML method and applies this fitness function to detect new communities. A heuristic local search algorithm finds maximally scoring communities, and a parallel implementation can be run on a computer cluster for scaling to large networks. On a yeast protein-interaction network, Super.Complex outperforms 6 other supervised and 4 unsupervised methods. Application of Super.Complex to a human protein-interaction network with ~8k nodes and ~60k edges yields 1,028 protein complexes, with 234 complexes linked to SARS-CoV-2, the COVID-19 virus, with 111 uncharacterized proteins present in 103 learned complexes. Super.Complex is generalizable with the ability to improve results by incorporating domain-specific features. Learned community characteristics can also be transferred from existing applications to detect communities in a new application with no known communities. Code and interactive visualizations of learned human protein complexes are freely available at: https://sites.google.com/view/supercomplex/super-complex-v3-0 .",
+  "abstract_zh": "蛋白质复合物的表征，即一组蛋白质组装成单一更大的物理实体的集合，具有重要意义，因为这类组装体在细胞中扮演许多关键角色，如基因调控。通过蛋白质-蛋白质相互作用网络，潜在蛋白质复合物可以通过应用社区检测方法进行计算识别，这些方法标记以特定模式相互作用的实体组。大多数社区检测算法倾向于无监督，并假设社区是密集的网络子图，但这并不总是成立，因为蛋白质复合物可能表现出多样的网络拓扑结构。少数现有的监督机器学习方法是串行的，在准确性和可扩展性方面可能通过使用更合适的机器学习模型和并行算法得到改进。在此，我们提出Super.Complex，一个分布式、监督的基于AutoML的流水线，用于加权网络中的重叠社区检测。我们还提出了三种新的评估指标，以解决比较学习到的和已知社区集合这一突出问题的满意性。Super.Complex使用AutoML方法从已知社区学习社区适应度函数，并应用此适应度函数检测新社区。一种启发式局部搜索算法找到最大评分的社区，并行实现可在计算机集群上运行，以扩展到大型网络。在酵母蛋白质相互作用网络上，Super.Complex优于6种监督方法和4种无监督方法。将Super.Complex应用于约8k节点和约60k边的人类蛋白质相互作用网络，产生1,028个蛋白质复合物，其中234个复合物与SARS-CoV-2（COVID-19病毒）相关，103个学习到的复合物中存在111个未表征蛋白质。Super.Complex具有泛化能力，可通过整合领域特定特征来改进结果。学习到的社区特征也可以从现有应用转移，以检测没有已知社区的新应用中的社区。代码和学习到的人类蛋白质复合物的交互式可视化可自由获取于：https://sites.google.com/view/supercomplex/super-complex-v3-0 。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.06.22.449395",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.06.22.449395",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.06.22.449395/index.html"
+}

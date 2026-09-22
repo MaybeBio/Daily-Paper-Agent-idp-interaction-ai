@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41286440",
+  "title": "Hierarchical interactions between nucleolar and heterochromatin condensates are mediated by a dual-affinity protein.",
+  "authors": "Rajshekar, Srivarsha; Adame-Arana, Omar; Bajpai, Gaurav; Colmenares, Serafin U; Papoi, Hannah; Brennan, Lucy D; Tsukamoto, Shingo; Safran, Samuel; Karpen, Gary H",
+  "journal": "Nature cell biology",
+  "published_date": "2025-11-25",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合活体成像与基于多相润湿理论的分子动力学模拟，揭示核仁与异染色质凝聚体通过双亲和蛋白介导的层级互作实现共组装，直接聚焦无序凝聚体间的PPI机制建模，与课题高度契合。",
+  "abstract": "Nucleoli are surrounded by pericentromeric heterochromatin (PCH), reflecting a conserved spatial association between the two largest biomolecular condensates in eukaryotic nuclei. Nucleoli are the sites of ribosome synthesis, whereas the repeat-rich PCH is essential for chromosome segregation, genome stability and transcriptional silencing, yet the mechanisms for their co-assembly are unclear. Here we use high-resolution live imaging during Drosophila embryogenesis and reveal that de novo establishment of PCH-nucleolar associations is highly dynamic, as PCH transitions from extending along the nuclear edge to surrounding the nucleolus. Elimination of the nucleolus by removing the ribosomal RNA genes disrupted this process causing increased PCH compaction, followed by its reorganization into a toroidal structure. Furthermore, in embryos lacking ribosomal RNA genes, nucleolar proteins were redistributed into new bodies or 'neocondensates', including enrichment in the PCH toroidal hole. Combining these in vivo observations with molecular dynamics simulations based on multiphase wetting theory revealed that nucleolar-PCH associations can be mediated by a hierarchy of interaction strengths between PCH, nucleoli and proteins with dual affinities for both compartments. We validate this model by identifying such a protein, a DEAD-box RNA helicase called Pitchoune, and show that modulation of its affinity for either nucleolar or PCH components alters nucleolar-PCH organization. Together, this study unveils a dynamic programme for establishing nucleolar-PCH associations during animal development and demonstrates how interaction hierarchies and dual-affinity molecular linkers co-organize compositionally distinct condensates.",
+  "abstract_zh": "核仁被着丝粒周围异染色质（pericentromeric heterochromatin, PCH）包围，反映了真核细胞核中两个最大生物分子凝聚体之间保守的空间关联。核仁是核糖体合成的场所，而富含重复序列的PCH对于染色体分离、基因组稳定性和转录沉默至关重要，然而它们共组装的机制尚不清楚。在此，我们利用果蝇胚胎发生过程中的高分辨率活体成像，揭示PCH-核仁关联的从头建立是高度动态的，因为PCH从沿核边缘延伸转变为包围核仁。通过移除核糖体RNA基因消除核仁会扰乱这一过程，导致PCH压缩增加，随后重组为环形结构。此外，在缺乏核糖体RNA基因的胚胎中，核仁蛋白被重新分布到新的小体或“新凝聚体”（neocondensates）中，包括富集于PCH环形孔内。将这些体内观察与基于多相润湿理论的分子动力学（molecular dynamics）模拟相结合，揭示核仁-PCH关联可由PCH、核仁及对两个区室具有双重亲和力的蛋白质之间的相互作用强度层级介导。我们通过鉴定这样一种蛋白质——一种名为Pitchoune的DEAD-box RNA解旋酶——验证了这一模型，并表明调节其对核仁或PCH组分的亲和力会改变核仁-PCH组织。总之，本研究揭示了动物发育过程中建立核仁-PCH关联的动态程序，并展示了相互作用层级和双重亲和力分子连接器如何共同组织组成上不同的凝聚体。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41286440/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41286440/",
+  "paper_page_path": "papers/pubmed/41286440/index.html"
+}

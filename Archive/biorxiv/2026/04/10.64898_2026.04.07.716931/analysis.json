@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.07.716931",
+  "title": "Prion Protein Deficiency Results in Synaptic, Neural Network and Behavioral Alterations",
+  "authors": "Anna Burato; Alessio Di Clemente; Camilla Lodetti; Valentino Panico; Giulio Pistorio; Beatriz Pimentel Mizusaki; Beatrice Pastore; Marco Zattoni; Luigi Celauro; Lucia Zanetti; Lorenca Sadiraj; Eugenio Piasini; Michele Giugliano; Katja Reinhard; Giuseppe Legname",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-09",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究探讨朊蛋白敲除对突触、神经网络和行为的影响，属于神经生物学实验研究，不涉及无序蛋白、蛋白互作机制或AI/物理模拟方法，与本课题无关。",
+  "abstract": "The cellular form of the prion protein (PrP C ) is known for its involvement in the pathogenesis of prion diseases. Recent research implicates the physiological isoform of PrP in neuronal development, excitability, and synaptic plasticity, as well as in other biological processes. However, its precise function in the development and function of neurons remains poorly understood. Here, we investigated its role during different developmental stages, both in vitro and in vivo, using different PrP knock-out (KO) mouse lines ( Prnp -/- ). Prion protein KO neurons cultured on microelectrode arrays (MEAs) displayed altered network dynamics compared to wild type cultures, comprising reduced burst frequency, and abnormal spike patterns, indicative of impaired maturation of the synaptic circuitry. These functional alterations were associated with a reduced expression of key presynaptic and postsynaptic proteins, including elements of the SNARE complex and regulators of excitation-inhibition balance. Similar molecular changes were also confirmed in a second Prnp -/- model, suggesting that PrP C is directly involved in these mechanisms regardless of genetic backgrounds. Alterations in neuronal networks were traceable into adulthood: in vivo recordings in adult Prnp -/- mice revealed increased neuronal responses to visual danger stimuli, which correlated with behaviorally increased fear responses to those stimuli. Together, our findings support a critical role for PrP C in the establishment and maintenance of functional neuronal networks, from early developmental stages in vitro to behaviorally mature relevant circuits in vivo, beyond genomic background. These results indicate that PrP C acts as a key regulator of synaptic development and function both in physiological and pathological conditions.",
+  "abstract_zh": "细胞形式的朊蛋白（PrP C）已知参与朊病毒疾病的发病机制。近期研究提示，PrP的生理异构体在神经元发育、兴奋性、突触可塑性及其他生物过程中发挥作用。然而，其在神经元发育和功能中的精确作用仍知之甚少。在此，我们利用不同的PrP敲除（KO）小鼠品系（Prnp -/-），在体外和体内研究了其在不同发育阶段的作用。与野生型培养相比，在微电极阵列（MEAs）上培养的朊蛋白KO神经元表现出改变的网络动力学，包括爆发频率降低和异常尖峰模式，表明突触回路成熟受损。这些功能改变与关键突触前和突触后蛋白表达减少相关，包括SNARE复合体成分及兴奋-抑制平衡调节因子。类似的分子变化也在第二个Prnp -/-模型中确认，提示PrP C直接参与这些机制，而不受遗传背景影响。神经元网络的改变可追溯至成年期：成年Prnp -/-小鼠的体内记录显示，对视觉危险刺激的神经元反应增强，这与行为上对这些刺激的恐惧反应增加相关。综合来看，我们的发现支持PrP C在功能性神经元网络的建立和维持中发挥关键作用，从体外早期发育阶段到体内行为成熟的相關回路，且不受基因组背景影响。这些结果表明，PrP C在生理和病理条件下均作为突触发育和功能的关键调节因子。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.07.716931",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.07.716931",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.07.716931/index.html"
+}

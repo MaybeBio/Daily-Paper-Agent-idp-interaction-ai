@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.12.518491",
+  "title": "Proteome-wide structure-based accessibility analysis of ligandable and detectable cysteines in chemoproteomic datasets",
+  "authors": "White MEH; Gil J; Tate EW",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-14",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用AlphaFold预测的侧链可及性分析化学蛋白质组中可配体半胱氨酸，虽涉及AI结构预测和蛋白质组互作，但对象非无序蛋白/IDR/相分离，且无PPI机制建模，仅间接可迁移。",
+  "abstract": "Covalent drug discovery, in particular targeting reactive cysteines, has undergone a resurgence over the past two decades, demonstrated by recent clinical successes of covalent inhibitors for high-priority cancer targets. Reactive cysteine profiling, first pioneered by the Cravatt lab, has emerged in parallel as a powerful approach for proteome-wide on- and off-target profiling. Thus far however, structural analysis of liganded cysteines has been restricted to experimentally determined protein structures. We combined AlphaFold-predicted amino acid side chain accessibilities for >95% of the human proteome with a meta-analysis of thirteen public cysteine profiling datasets, totalling 40,070 unique cysteine residues, revealing accessibility biases in sampled cysteines primarily dictated by warhead chemistry. Analysis of >3.5 million cysteine-fragment interactions further suggests that exposed cysteine residues are preferentially targeted by elaborated fragments and drug-like compounds. We finally propose a framework for benchmarking coverage of ligandable cysteines in future cysteine profiling approaches, considering both selectivity for high-priority residues and quantitative depth. All analysis and produced resources (freely available at www.github.com/TateLab ) are readily extendable to reactive amino acids beyond cysteine, and related questions in chemical biology.",
+  "abstract_zh": "共价药物发现，特别是针对反应性半胱氨酸的靶向，在过去二十年中经历了复兴，这由针对高优先级癌症靶点的共价抑制剂近期的临床成功所证明。反应性半胱氨酸谱分析，最初由Cravatt实验室开创，已并行发展成为一种强大的蛋白质组范围内靶向和非靶向谱分析工具。然而，迄今为止，对配体化半胱氨酸的结构分析仅限于实验确定的蛋白质结构。我们将AlphaFold预测的超过95%人类蛋白质组的氨基酸侧链可及性与十三个公共半胱氨酸谱分析数据集的荟萃分析相结合，总计包含40,070个独特半胱氨酸残基，揭示了采样半胱氨酸中的可及性偏差，这主要由弹头化学决定。对超过350万次半胱氨酸-片段相互作用的分析进一步表明，暴露的半胱氨酸残基优先被精细片段和类药化合物靶向。我们最终提出了一个框架，用于基准测试未来半胱氨酸谱分析方法中可配体化半胱氨酸的覆盖度，同时考虑对高优先级残基的选择性和定量深度。所有分析和生成的资源（可在www.github.com/TateLab免费获取）可轻松扩展到半胱氨酸以外的反应性氨基酸，以及化学生物学中的相关问题。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.12.518491",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.12.518491",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.12.518491/index.html"
+}

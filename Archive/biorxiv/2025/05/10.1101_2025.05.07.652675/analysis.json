@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.07.652675",
+  "title": "ZapC crosslinks FtsZ filaments through a dual-binding mechanism modulated by the intrinsically disordered linker of FtsZ",
+  "authors": "Li Y; Gong H; Zhan R; Cui Y; Chen X; Lutkenhaus J; Du S",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-07",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过AlphaFold 3建模与突变验证，揭示ZapC以双结合位点交联FtsZ丝，并发现FtsZ的无序C端连接子(CTL)调控其与多个伴侣的互作，虽对象为细菌细胞分裂蛋白而非相分离，但无序区域调控PPI机制与AI建模思路对本课题有直接启发。",
+  "abstract": "Most bacteria divide through binary fission, which is mediated by a large protein complex called the divisome. Assembly of the divisome is initiated by formation a Z ring at midcell consisting of polymers of the bacterial tubulin FtsZ. A series of FtsZ-associated proteins (Zaps), which crosslink FtsZ filaments, promote Z ring formation in Escherichia coli . However, how these proteins interact with FtsZ is still unclear. In this study, we discover that ZapC binds to both FtsZ’s globular domain and its conserved C-terminal peptide (CCTP) to crosslink FtsZ filaments. An AlphaFold 3 structural model of the FtsZ-ZapC complex indicates that ZapC binds to the globular domain of FtsZ via a loop region connecting its N-terminal and C-terminal domains and to the CCTP of FtsZ via a hydrophobic pocket in the N-terminal domain. Substitutions in these regions of ZapC disrupt its binding to FtsZ, validating the dual binding mode. Strikingly, we find that the intrinsically disordered C-terminal linker (CTL) of FtsZ affects the interaction of FtsZ with ZapC as well as other partners, indicating an important role of the CTL in FtsZ functionality. Taken together, these results indicate that ZapC, although it exists as a monomer, can crosslink FtsZ filaments by a two-pronged mechanism, binding to the globular domain of FtsZ in one filament and to the CCTP of FtsZ in another filament. Furthermore, the CTL plays an important role in regulating FtsZ interaction with its partners. <h4>Importance</h4> Bacterial cytokinesis requires the Z ring, a highly dynamic cytoskeletal element consisting of polymers of the bacterial tubulin FtsZ. Formation of a coherent and functional Z ring is facilitated by FtsZ-associated proteins (Zap), which can crosslink FtsZ polymers, but how these proteins work is still incompletely understood. In this study, we find that ZapC, one of the FtsZ crosslinkers, binds to both FtsZ’s globular domain and its conserved C-terminal peptide to crosslink FtsZ filaments. Moreover, the intrinsically disordered C-terminal linker (CTL) of FtsZ modulates its binding to ZapC and many other FtsZ binding proteins. These findings reveal a novel mechanism to crosslink FtsZ filaments and reveal an important and highly conserved role of the CTL in FtsZ functionality.",
+  "abstract_zh": "大多数细菌通过二分裂进行繁殖，这一过程由称为分裂体（divisome）的大型蛋白质复合物介导。分裂体的组装始于细胞中部Z环的形成，该环由细菌微管蛋白FtsZ的聚合物构成。一系列FtsZ相关蛋白（Zaps）交联FtsZ丝，促进大肠杆菌中Z环的形成。然而，这些蛋白质如何与FtsZ相互作用仍不清楚。在本研究中，我们发现ZapC同时结合FtsZ的球状结构域及其保守的C末端肽（CCTP），从而交联FtsZ丝。FtsZ-ZapC复合物的AlphaFold 3结构模型表明，ZapC通过连接其N末端和C末端结构域的环区结合FtsZ的球状结构域，并通过N末端结构域中的疏水口袋结合FtsZ的CCTP。ZapC这些区域的替换会破坏其与FtsZ的结合，验证了双重结合模式。值得注意的是，我们发现FtsZ的内在无序C末端连接区（CTL）影响FtsZ与ZapC及其他伙伴的相互作用，表明CTL在FtsZ功能中发挥重要作用。综合来看，这些结果表明，尽管ZapC以单体形式存在，但能通过双管齐下的机制交联FtsZ丝，即结合一条丝中FtsZ的球状结构域和另一条丝中FtsZ的CCTP。此外，CTL在调节FtsZ与其伙伴的相互作用中发挥重要作用。<h4>重要性</h4>细菌细胞分裂需要Z环，这是一种由细菌微管蛋白FtsZ聚合物组成的高度动态细胞骨架元件。连贯且功能性Z环的形成由FtsZ相关蛋白（Zap）促进，这些蛋白能交联FtsZ聚合物，但这些蛋白质的工作机制仍不完全清楚。在本研究中，我们发现FtsZ交联蛋白之一ZapC同时结合FtsZ的球状结构域及其保守的C末端肽，以交联FtsZ丝。此外，FtsZ的内在无序C末端连接区（CTL）调节其与ZapC及许多其他FtsZ结合蛋白的相互作用。这些发现揭示了一种交联FtsZ丝的新机制，并揭示了CTL在FtsZ功能中重要且高度保守的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.07.652675",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.07.652675",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.07.652675/index.html"
+}

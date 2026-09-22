@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34662559",
+  "title": "Transient local secondary structure in the intrinsically disordered C-term of the Albino3 insertase.",
+  "authors": "Baucom, Dustin R; Furr, Mercede; Govind Kumar, Vivek; Okoto, Patience; Losey, James L; Henry, Ralph L; Moradi, Mahmoud; Kumar, Thallapuranam Krishnaswamy Suresh; Heyes, Colin D",
+  "journal": "Biophysical journal",
+  "published_date": "2021-10-19",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合单分子实验与增强采样MD模拟，刻画Alb3无序C端瞬时局部二级结构并推测其介导转运复合物识别，对象为IDR且用物理模拟方法，但PPI机制仅停留在推测层面，未直接建模互作。",
+  "abstract": "Albino3 (Alb3) is an integral membrane protein fundamental to the targeting and insertion of light-harvesting complex (LHC) proteins into the thylakoid membrane. Alb3 contains a stroma-exposed C-terminus (Alb3-Cterm) that is responsible for binding the LHC-loaded transit complex before LHC membrane insertion. Alb3-Cterm has been reported to be intrinsically disordered, but precise mechanistic details underlying how it recognizes and binds to the transit complex are lacking, and the functional roles of its four different motifs have been debated. Using a novel combination of experimental and computational techniques such as single-molecule fluorescence resonance energy transfer, circular dichroism with deconvolution analysis, site-directed mutagenesis, trypsin digestion assays, and all-atom molecular dynamics simulations in conjunction with enhanced sampling techniques, we show that Alb3-Cterm contains transient secondary structure in motifs I and II. The excellent agreement between the experimental and computational data provides a quantitatively consistent picture and allows us to identify a heterogeneous structural ensemble that highlights the local and transient nature of the secondary structure. This structural ensemble was used to predict both the inter-residue distance distributions of single molecules and the apparent unfolding free energy of the transient secondary structure, which were both in excellent agreement with those determined experimentally. We hypothesize that this transient local secondary structure may play an important role in the recognition of Alb3-Cterm for the LHC-loaded transit complex, and these results should provide a framework to better understand protein targeting by the Alb3-Oxa1-YidC family of insertases.",
+  "abstract_zh": "Albino3（Alb3）是一种整合膜蛋白，对于将光捕获复合物（LHC）蛋白靶向并插入类囊体膜至关重要。Alb3包含一个暴露于基质的C末端（Alb3-Cterm），该末端负责在LHC膜插入前结合装载LHC的转运复合物。据报道，Alb3-Cterm本质上是无序的，但关于其如何识别并结合转运复合物的精确机制细节尚不清楚，且其四个不同基序的功能角色一直存在争议。通过结合实验和计算技术的新颖组合，如单分子荧光共振能量转移、带解卷积分析的圆二色谱、定点突变、胰蛋白酶消化实验，以及结合增强采样技术的全原子分子动力学模拟，我们表明Alb3-Cterm在基序I和II中含有瞬态二级结构。实验与计算数据之间的极佳一致性提供了定量一致的图像，并使我们能够识别出一个异质结构集合，突显了二级结构的局部性和瞬态性。该结构集合被用于预测单分子的残基间距离分布以及瞬态二级结构的表观解折叠自由能，两者均与实验测定结果极佳吻合。我们假设这种瞬态局部二级结构可能在Alb3-Cterm识别装载LHC的转运复合物中发挥重要作用，这些结果应为更好地理解Alb3-Oxa1-YidC插入酶家族介导的蛋白质靶向提供框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34662559/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34662559/",
+  "paper_page_path": "papers/pubmed/34662559/index.html"
+}

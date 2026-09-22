@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "33794191",
+    "doi": "10.1016/j.abb.2021.108867",
+    "title": "Glycine rich segments adopt polyproline II helices: Implications for biomolecular condensate formation."
+  },
+  "content": {
+    "abstract": "Many intrinsically disordered proteins contain Gly-rich regions which are generally assumed to be disordered. Such regions often form biomolecular condensates which play essential roles in organizing cellular processes. However, the bases of their formation and stability are still not completely understood. Based on NMR studies of the Gly-rich H. harveyi \"snow flea\" antifreeze protein, we recently proposed that Gly-rich sequences, such as the third \"RGG\" region of Fused in Sarcoma (FUS) protein, may adopt polyproline II helices whose association might stabilize condensates. Here, this hypothesis is tested with a polypeptide corresponding to the third RGG region of FUS. NMR spectroscopy and molecular dynamics simulations suggest that significant populations of polyproline II helix are present. These findings are corroborated in a model peptide Ac-RGGYGGRGGWGGRGGY-NH(2), where a peak characteristic of polyproline II helix is observed using CD spectroscopy. Its intensity suggests a polyproline II population of 40%. This result is supported by data from FTIR and NMR spectroscopies. In the latter, NOE correlations are observed between the Tyr and Arg, and Arg and Trp side chain hydrogens, confirming that side chains spaced three residues apart are close in space. Taken together, the data are consistent with a polyproline II helix, which is bent to optimize interactions between guanidinium and aromatic moieties, in equilibrium with a statistical coil ensemble. These results lend credence to the hypothesis that Gly-rich segments of disordered proteins may form polyproline II helices which help stabilize biomolecular condensates.",
+    "keywords": [
+      "Bimolecular condensates",
+      "CD Spectroscopy",
+      "FTIR spectroscopy",
+      "Molecular dynamics",
+      "NMR spectroscopy",
+      "Polyproline II helices"
+    ],
+    "mesh_terms": [
+      "Circular Dichroism",
+      "Glycine/*chemistry",
+      "Magnetic Resonance Spectroscopy",
+      "*Models, Molecular",
+      "Peptides/*chemistry",
+      "Protein Structure, Secondary"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mompean, M",
+        "McAvan, B S",
+        "Felix, S S",
+        "Trevino, M A",
+        "Oroz, J",
+        "Lopez-Sanchez, R",
+        "Pantoja-Uceda, D",
+        "Cabrita, E J",
+        "Doig, A J",
+        "Laurents, D V"
+      ],
+      "short_names": [
+        "Mompean M",
+        "McAvan BS",
+        "Felix SS",
+        "Trevino MA",
+        "Oroz J",
+        "Lopez-Sanchez R",
+        "Pantoja-Uceda D",
+        "Cabrita EJ",
+        "Doig AJ",
+        "Laurents DV"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Rocasolano Institute for Physical Chemistry, Spanish National Research Council (IQFR/CSIC), Serrano 119, E28006, Madrid, Spain.",
+        "School of Chemistry, Manchester Institute of Biotechnology, University of Manchester, 131 Princess Street, Manchester, M1 7DN, UK.",
+        "UCIBIO, Chemistry Department, School of Science and Technology, NOVA University Lisbon, 2829-516, Caparica, Portugal.",
+        "Rocasolano Institute for Physical Chemistry, Spanish National Research Council (IQFR/CSIC), Serrano 119, E28006, Madrid, Spain.",
+        "Rocasolano Institute for Physical Chemistry, Spanish National Research Council (IQFR/CSIC), Serrano 119, E28006, Madrid, Spain.",
+        "Rocasolano Institute for Physical Chemistry, Spanish National Research Council (IQFR/CSIC), Serrano 119, E28006, Madrid, Spain.",
+        "Rocasolano Institute for Physical Chemistry, Spanish National Research Council (IQFR/CSIC), Serrano 119, E28006, Madrid, Spain.",
+        "UCIBIO, Chemistry Department, School of Science and Technology, NOVA University Lisbon, 2829-516, Caparica, Portugal.",
+        "Division of Neuroscience and Experimental Psychology, School of Biological Sciences, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, M13 9PT, UK.",
+        "Rocasolano Institute for Physical Chemistry, Spanish National Research Council (IQFR/CSIC), Serrano 119, E28006, Madrid, Spain. Electronic address: dlaurents@iqfr.csic.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mompeán, M",
+        "short_name": "Mompeán M",
+        "identifiers": [],
+        "affiliations": [
+          "Rocasolano Institute for Physical Chemistry, Spanish National Research Council (IQFR/CSIC), Serrano 119, E28006, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "McAvan, B S",
+        "short_name": "McAvan BS",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry, Manchester Institute of Biotechnology, University of Manchester, 131 Princess Street, Manchester, M1 7DN, UK."
+        ]
+      },
+      {
+        "full_name": "Félix, S S",
+        "short_name": "Félix SS",
+        "identifiers": [],
+        "affiliations": [
+          "UCIBIO, Chemistry Department, School of Science and Technology, NOVA University Lisbon, 2829-516, Caparica, Portugal."
+        ]
+      },
+      {
+        "full_name": "Treviño, M Á",
+        "short_name": "Treviño MÁ",
+        "identifiers": [],
+        "affiliations": [
+          "Rocasolano Institute for Physical Chemistry, Spanish National Research Council (IQFR/CSIC), Serrano 119, E28006, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Oroz, J",
+        "short_name": "Oroz J",
+        "identifiers": [],
+        "affiliations": [
+          "Rocasolano Institute for Physical Chemistry, Spanish National Research Council (IQFR/CSIC), Serrano 119, E28006, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "López-Sánchez, R",
+        "short_name": "López-Sánchez R",
+        "identifiers": [],
+        "affiliations": [
+          "Rocasolano Institute for Physical Chemistry, Spanish National Research Council (IQFR/CSIC), Serrano 119, E28006, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Pantoja-Uceda, D",
+        "short_name": "Pantoja-Uceda D",
+        "identifiers": [],
+        "affiliations": [
+          "Rocasolano Institute for Physical Chemistry, Spanish National Research Council (IQFR/CSIC), Serrano 119, E28006, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Cabrita, E J",
+        "short_name": "Cabrita EJ",
+        "identifiers": [],
+        "affiliations": [
+          "UCIBIO, Chemistry Department, School of Science and Technology, NOVA University Lisbon, 2829-516, Caparica, Portugal."
+        ]
+      },
+      {
+        "full_name": "Doig, A J",
+        "short_name": "Doig AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Neuroscience and Experimental Psychology, School of Biological Sciences, Faculty of Biology, Medicine and Health, University of Manchester, Manchester, M13 9PT, UK."
+        ]
+      },
+      {
+        "full_name": "Laurents, D V",
+        "short_name": "Laurents DV",
+        "identifiers": [],
+        "affiliations": [
+          "Rocasolano Institute for Physical Chemistry, Spanish National Research Council (IQFR/CSIC), Serrano 119, E28006, Madrid, Spain. Electronic address: dlaurents@iqfr.csic.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of biochemistry and biophysics"
+    ],
+    "journal_abbrev": [
+      "Arch Biochem Biophys"
+    ],
+    "pub_date": "2021 Jun 15",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/02 06:00",
+    "fetched_at": "2026-09-20 02:22:30"
+  },
+  "links": {
+    "cites": [
+      "42252518",
+      "40615542",
+      "40160200",
+      "39215165",
+      "39152221",
+      "36269080",
+      "34648275",
+      "33934561"
+    ],
+    "refs": [],
+    "similar": [
+      "33794191",
+      "33934561",
+      "8764403",
+      "38593862",
+      "14661982",
+      "25075447",
+      "14747311",
+      "11297408",
+      "11724549",
+      "17158562",
+      "12091708",
+      "34648275",
+      "25262612",
+      "15269237",
+      "30430829",
+      "14579303",
+      "31577299",
+      "14576161",
+      "20556825",
+      "16008354",
+      "14583049",
+      "8112343",
+      "22712805",
+      "36815707",
+      "10563815",
+      "1478781",
+      "19137603",
+      "9860846",
+      "39182198",
+      "12137542",
+      "16373476",
+      "9779789",
+      "27562438",
+      "16634634",
+      "12945050",
+      "11427046",
+      "16854433",
+      "8518279",
+      "9136885",
+      "28832117",
+      "12837087",
+      "17279623",
+      "12324465",
+      "16446433",
+      "8504077",
+      "16998200",
+      "12237465",
+      "28193869",
+      "9300492",
+      "12767128",
+      "34825904",
+      "16767770",
+      "16771506",
+      "15657931",
+      "12009919",
+      "16330763",
+      "36179150",
+      "19791741",
+      "11683627",
+      "10211825",
+      "12656602",
+      "12395395",
+      "7756993",
+      "19569497",
+      "15835915",
+      "38661017",
+      "33460499",
+      "11101312",
+      "23229832",
+      "18767125",
+      "11724558",
+      "15231845",
+      "23022061",
+      "10679629",
+      "1397317",
+      "9391907",
+      "10493799",
+      "22425601",
+      "29638132",
+      "30961476",
+      "8429558",
+      "23631686",
+      "15918679",
+      "10091661",
+      "9705210",
+      "20158269",
+      "25291467",
+      "21138254",
+      "18696526",
+      "22667692",
+      "1583683",
+      "26641495",
+      "7526465",
+      "11991205",
+      "24001370",
+      "9745898",
+      "25212635",
+      "7723021",
+      "34255504",
+      "17956989",
+      "37595285",
+      "38416758",
+      "37269652",
+      "38587229",
+      "22038076",
+      "39215165",
+      "28530710",
+      "36798393",
+      "34838334",
+      "37215004",
+      "35658421",
+      "31457823",
+      "38078839",
+      "35378855",
+      "35655760",
+      "22666276",
+      "16663405",
+      "36711672",
+      "37358522",
+      "35639776",
+      "38298598",
+      "25563293",
+      "24318062"
+    ],
+    "review": [
+      "33794191",
+      "33934561",
+      "38593862",
+      "39182198",
+      "12395395",
+      "37269652"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0003-9861(21)00117-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33794191",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a computational method to directly compute viscoelastic moduli of biomolecular condensates formed by prion-like low complexity domains. The method generalizes the Rouse model using Zimm matrices derived from equilibrium lattice-based Metropolis Monte Carlo simulations. Two flavors of Zimm matrices are tested, a single-chain model and a collective model, with the collective model reproducing measured moduli more faithfully, though a mixture of the two is most accurate in the low-frequency domain. The authors report a continuous distribution of relaxation times, a single crossover frequency, and describe condensates as generalized Maxwell fluids. They also propose an inverse problem approach to extract relaxation time distributions from complex shear moduli.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or quantitative results provided
+- **Missing materials affecting confidence** Full manuscript, simulation details, experimental data used for comparison, quantitative comparisons, figures, and any statistical or error analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to compute viscoelastic moduli of biomolecular condensates from equilibrium simulations, which could be of value to the soft matter and biophysics communities. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the method, the quality of the agreement with experimental data, or the robustness of the conclusions. The central claims regarding model fidelity and the inverse problem are stated without quantitative support. The work appears promising but is not yet established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, intrinsically disordered proteins, and phase separation would be interested because the method offers a potential route to connect sequence-level information to material properties. Soft matter physicists and rheologists interested in viscoelasticity of soft materials may also find the generalized Rouse approach and the inverse problem formulation appealing. Computational biophysicists developing coarse-grained or lattice-based models could benefit from the methodological framework.
+- **Major strengths** The approach addresses a significant gap, namely the direct computation of viscoelastic moduli from equilibrium simulations without the need for nonequilibrium or forced deformation protocols. The distinction between single-chain and collective models is a clear and testable conceptual framework. The proposal to use complex shear moduli to solve an inverse problem for relaxation time distributions is an elegant idea with potential broad applicability. The connection to generalized Maxwell fluids provides a physically interpretable description of condensate behavior.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The collective model reproduces the measured moduli with greater fidelity than the single-chain model, and a mixture of the two models is most accurate in the long time, low-frequency domain.  
+  - **Evidence pointer** Abstract, no quantitative data provided  
+  - **Concern** The abstract states that the collective model reproduces measured moduli with greater fidelity, but no quantitative comparison is shown. No values for storage or loss moduli, no error metrics, no statistical significance, and no description of the experimental data used for comparison are provided. The claim of greater fidelity is therefore unverifiable from the supplied material.  
+  - **Why it matters** The central claim of the paper is that the computational method can reproduce experimental measurements. Without quantitative evidence, the reader cannot assess whether the agreement is meaningful or coincidental, and the method's utility remains unsubstantiated.  
+  - **Resolution test** Provide a figure or table comparing computed and measured storage and loss moduli across a range of frequencies, with error bars or confidence intervals, and a clear statement of the metric used to assess fidelity (e.g., root mean square error, coefficient of determination).  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The single-chain model systematically overestimates the storage and loss moduli.  
+  - **Evidence pointer** Abstract, no quantitative data provided  
+  - **Concern** The claim of systematic overestimation is stated without any quantitative support. The magnitude of the overestimation, the frequency range over which it occurs, and the variability across different sequences or conditions are not described.  
+  - **Why it matters** This claim is used to justify the need for the collective model. Without quantitative detail, the reader cannot determine whether the overestimation is a minor deviation or a fundamental failure of the single-chain model.  
+  - **Resolution test** Provide quantitative data showing the degree of overestimation, ideally as a ratio or percentage, across the frequency range studied, and for multiple condensate systems if applicable.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The complex shear moduli can be used to solve an inverse problem to obtain distributions of relaxation times.  
+  - **Evidence pointer** Abstract, no methodological detail provided  
+  - **Concern** The inverse problem is mentioned as a final result, but no details are given on how it is formulated, solved, validated, or what its limitations are. Inverse problems for relaxation spectra are known to be ill-posed, and the abstract does not address regularization, uniqueness, or sensitivity to noise.  
+  - **Why it matters** If the inverse problem is ill-posed or unstable, the extracted relaxation time distributions may not be reliable. The claim that this can be done is not supported without a description of the method and its validation.  
+  - **Resolution test** Provide a description of the inverse problem formulation, the solution method, and a validation against known or synthetic relaxation spectra, including a discussion of stability and uniqueness.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The method uses equilibrium configurations of lattice-based Metropolis Monte Carlo simulations and computes Zimm matrices from these configurations.  
+  - **Evidence pointer** Abstract, no methodological detail provided  
+  - **Concern** The abstract does not describe the lattice model, the interaction potentials, the system size, the number of chains, the equilibration protocol, or the number of independent configurations used. Without these details, the method cannot be reproduced or assessed for potential artifacts.  
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The lack of methodological detail prevents other researchers from implementing or testing the approach.  
+  - **Resolution test** Provide a full methods section describing the simulation model, parameters, equilibration, sampling, and the procedure for computing Zimm matrices from equilibrium configurations.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract  
+  - **Issue** The term "Zimm matrix" is used without definition or context. Readers unfamiliar with polymer theory may not understand its role in the generalized Rouse model.  
+  - **Required correction** Provide a brief definition or reference for the Zimm matrix and explain its physical meaning in the context of the model.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Generalizability  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract focuses on PLCD condensates, but it is unclear whether the method is expected to generalize to other types of condensates, such as those formed by folded domains or RNA-binding proteins.  
+  - **Required correction** Add a sentence discussing the expected scope of applicability or limitations of the method.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Physical interpretation  
+  - **Evidence pointer** Abstract  
+  - **Issue** The statement that condensates are best described as generalized Maxwell fluids is made without explaining what this implies for the underlying molecular dynamics or how it differs from other rheological models.  
+  - **Required correction** Provide a brief explanation of the physical meaning of a generalized Maxwell fluid in this context and why this description is preferred.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Comparison to prior work  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract does not mention how this approach compares to existing computational methods for computing viscoelastic moduli of condensates, such as nonequilibrium simulations or analytical theories.  
+  - **Required correction** Add a brief statement situating the method relative to prior approaches and highlighting the novelty.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative comparisons, methodological detail, and validation of the inverse problem means the central claims cannot be assessed.
+- **Assessment against Nature-style criteria**  
+  - Originality: The approach of computing viscoelastic moduli from equilibrium simulations via a generalized Rouse model with Zimm matrices appears novel, but the abstract does not provide enough context to fully assess novelty relative to prior work.  
+  - Scientific importance: The ability to predict material properties of condensates from sequence and simulation data would be significant for the field, but the importance is not yet demonstrated without quantitative validation.  
+  - Interdisciplinary readership: The topic bridges biophysics, soft matter physics, and polymer science, and the abstract is written in a way that is broadly accessible, though some polymer-specific terms may need clarification.  
+  - Technical soundness: Not assessable from the abstract alone. The lack of quantitative results and methodological detail prevents evaluation of the technical correctness.  
+  - Readability for nonspecialists: The abstract is generally clear, but terms such as "Zimm matrix" and "generalized Maxwell fluids" may require additional explanation for a broad audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is interesting and potentially valuable, but the abstract does not provide sufficient quantitative or methodological support to assess the validity of the claims. A full manuscript with detailed methods, quantitative comparisons, and validation of the inverse problem would be required to evaluate the work properly.
+
+## Risk / unsupported claims
+- The claim that the collective model reproduces measured moduli with greater fidelity is unsupported without quantitative data.
+- The claim that the single-chain model systematically overestimates storage and loss moduli is unsupported without quantitative data.
+- The claim that a mixture of the two models is most accurate in the low-frequency domain is unsupported without quantitative data.
+- The claim that a continuous distribution of relaxation times exists in condensates is stated without supporting evidence.
+- The claim that the single crossover frequency is influenced by the totality of relaxation modes is stated without supporting evidence.
+- The claim that condensates are best described as generalized Maxwell fluids is stated without comparative analysis.
+- The claim that complex shear moduli can be used to solve an inverse problem for relaxation time distributions is unverifiable without methodological detail and validation.

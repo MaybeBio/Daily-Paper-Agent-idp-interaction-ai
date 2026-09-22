@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37011370",
+  "title": "The Anthocyanidin Peonidin Interferes with an Early Step in the Fibrillation Pathway of alpha-Synuclein and Modulates It toward Amorphous Aggregates.",
+  "authors": "Verma, Geetika; Bhat, Rajiv",
+  "journal": "ACS chemical neuroscience",
+  "published_date": "2023-04-04",
+  "window": {
+    "start": "2023-04-03",
+    "end": "2023-04-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究花青素芍药素通过弱结合alpha-synuclein NAC区抑制其纤维化并导向无定形聚集体，涉及分子对接但对象为折叠/无序混合蛋白且非IDP-PPI机制建模，方法较浅。",
+  "abstract": "Parkinson's disease (PD) is characterized by progressive degeneration of the dopaminergic neurons in the brain, accompanied by the accumulation of proteinaceous inclusions, Lewy bodies (LB), mainly comprised of alpha synuclein (alpha-syn) aggregates. The heterogeneity and the transient nature of the intermediate species formed in the alpha-syn fibrillation pathway have made it difficult to develop an effective therapeutic intervention. Therefore, any therapeutic molecule that could prevent as well as treat PD would be of great interest. Anthocyanidins are natural flavonoid compounds that have been shown to have neuroprotective properties and to modulate factors that cause neuronal death. Herein, we have explored the modulation and inhibition of alpha-syn fibrillation by the anthocyanidins cyanidin, delphinidin, and peonidin using a number of biophysical and structural tools. alpha-Syn fibrillation monitored using thioflavin T (ThT) fluorescence and light scattering suggested concentration dependent inhibition of alpha-syn fibrillation by all the three anthocyanidins. While cyanidin and delphinidin induced the formation of oligomers and small fibrillar structures of alpha-syn, respectively, peonidin led to the formation of amorphous aggregates, as observed by Atomic Force Microscopy (AFM). Peonidin proved to be most effective of the three anthocyanidins toward alleviating cell toxicity of SH-SY5Y neuroblastoma cells at concentrations where alpha-synuclein fibrillation was completely suppressed. Hence, the inhibition mechanism of peonidin was further explored by studying its interaction with alpha-syn using titration calorimetry and molecular docking. The results show its weak binding (in mM range) to the NAC region of alpha-syn through hydrogen bonding interactions. Also, circular dichroism and Raman spectroscopy revealed the structural aspects of peonidin-induced alpha-syn amorphous aggregates showing alpha helical structures with exposed Phe and Tyr regions. Due to the neuroprotective nature of peonidin, the findings reported here are significant and can be further explored toward developing a modifying therapy that could address both disease onset as well as the progression of PD.",
+  "abstract_zh": "帕金森病（Parkinson's disease, PD）的特征是大脑中多巴胺能神经元的进行性退化，并伴随主要由α-突触核蛋白（alpha-synuclein, alpha-syn）聚集体构成的蛋白质内含物——路易小体（Lewy bodies, LB）的积累。alpha-syn纤维化途径中形成的中间物种的异质性和瞬时性，使得开发有效的治疗干预措施变得困难。因此，任何能够预防并治疗PD的治疗分子都将具有重大意义。花青素（anthocyanidins）是天然类黄酮化合物，已被证明具有神经保护特性，并能调节导致神经元死亡的因素。在此，我们利用多种生物物理和结构工具，探讨了花青素中的花青素（cyanidin）、飞燕草素（delphinidin）和芍药素（peonidin）对alpha-syn纤维化的调节和抑制作用。通过硫黄素T（thioflavin T, ThT）荧光和光散射监测的alpha-syn纤维化表明，这三种花青素均以浓度依赖的方式抑制alpha-syn纤维化。原子力显微镜（Atomic Force Microscopy, AFM）观察显示，花青素和飞燕草素分别诱导alpha-syn形成寡聚体和小纤维结构，而芍药素则导致无定形聚集体的形成。在完全抑制alpha-syn纤维化的浓度下，芍药素被证明是三种花青素中对SH-SY5Y神经母细胞瘤细胞毒性缓解最有效的。因此，通过滴定热量法和分子对接研究芍药素与alpha-syn的相互作用，进一步探讨了其抑制机制。结果表明，芍药素通过氢键相互作用与alpha-syn的NAC区域弱结合（结合常数在毫摩尔范围内）。此外，圆二色光谱和拉曼光谱揭示了芍药素诱导的alpha-syn无定形聚集体的结构特征，显示其具有α螺旋结构，并暴露了Phe和Tyr区域。鉴于芍药素的神经保护特性，本文报告的发现具有重要意义，可进一步探索以开发一种能够同时应对PD发病和进展的修饰性疗法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37011370/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37011370/",
+  "paper_page_path": "papers/pubmed/37011370/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40882443",
+  "title": "Adenine bolsters the monomeric conformations of the intrinsically disordered A53T mutant of alpha-Synuclein protein.",
+  "authors": "Singh, Payal; Akhtar, Almas; Admane, Nikita; Grover, Abhinav",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2025-08-30",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过REMD模拟与生物物理实验，揭示腺嘌呤通过非共价作用稳定A53T突变型α-突触核蛋白（IDP）单体构象、抑制其β-折叠富集转变，从而阻止淀粉样聚集，属于无序蛋白单体构象稳定机制建模，但互作对象为小分子而非蛋白-蛋白互作。",
+  "abstract": "Parkinson's disease (PD) is significantly characterized by the accumulation of alpha-synuclein (alpha-Syn) amyloid aggregates, especially in the form of Lewy bodies. Our study explores the effect of one of the four nucleobases, adenine, on the amyloid transformation of the A53T mutant of alpha-Syn (A53T Syn), which is linked to the early-onset PD characterized by increased protofibril production and fast aggregation. Systematic analysis using biophysical techniques in conjunction with computational methods demonstrated that adenine stabilizes the monomeric conformations of A53T Syn by interacting with the NAC domain of the protein through non-covalent interactions. Adenine specifically prevents the amyloid transformation of the intrinsically disordered A53T Syn protein and has no effect on the fibrillation of the wild type alpha-Syn protein. Replica exchange molecular dynamics (REMD) simulations established that adenine decreases the tendency of A53T Syn to form amyloid aggregates by reducing intramolecular hydrogen bonds and abrogating malicious structural transitions into beta-sheet rich conformations. This decrease in beta-sheet rich conformations is also corroborated by nearly 85 % decrease in Thioflavin T binding at the saturation phase of amyloid transformation kinetics. Adenine stabilizes the monomeric conformations of A53T Syn, preventing the formation of cross-beta amyloids. Through several morphological investigations employing TEM, AFM, and particle size distribution analysis by DLS, we validated the amyloid-modulatory effects of adenine. Our findings collectively demonstrate that adenine shows a selective efficacy against A53T Syn and poses as a good therapeutic candidate for early-onset PD. Further investigations on adenine using cellular and animal models can support early intervention strategies and possible treatments.",
+  "abstract_zh": "帕金森病（Parkinson's disease, PD）的一个显著特征是α-突触核蛋白（alpha-synuclein, alpha-Syn）淀粉样聚集体的积累，尤其以路易小体（Lewy bodies）的形式存在。本研究探讨了四种核碱基之一——腺嘌呤（adenine）对alpha-Syn的A53T突变体（A53T Syn）淀粉样转化的影响，该突变与早发性PD相关，其特征是原纤维生成增加和快速聚集。结合生物物理技术和计算方法的系统分析表明，腺嘌呤通过非共价相互作用与蛋白质的NAC结构域结合，稳定A53T Syn的单体构象。腺嘌呤特异性阻止 intrinsically disordered A53T Syn蛋白的淀粉样转化，而对野生型alpha-Syn蛋白的纤维化无影响。副本交换分子动力学（replica exchange molecular dynamics, REMD）模拟确定，腺嘌呤通过减少分子内氢键并消除向富含β-折叠构象的有害结构转变，降低A53T Syn形成淀粉样聚集体的倾向。这种富含β-折叠构象的减少也通过淀粉样转化动力学饱和阶段硫黄素T（Thioflavin T）结合量近85%的下降得到证实。腺嘌呤稳定A53T Syn的单体构象，阻止交叉β淀粉样蛋白的形成。通过使用透射电子显微镜（TEM）、原子力显微镜（AFM）以及动态光散射（DLS）的粒径分布分析等多种形态学调查，我们验证了腺嘌呤的淀粉样调节效应。我们的发现共同表明，腺嘌呤对A53T Syn显示出选择性效力，并作为早发性PD的良好治疗候选物。使用细胞和动物模型对腺嘌呤的进一步研究可支持早期干预策略和可能的治疗方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40882443/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40882443/",
+  "paper_page_path": "papers/pubmed/40882443/index.html"
+}

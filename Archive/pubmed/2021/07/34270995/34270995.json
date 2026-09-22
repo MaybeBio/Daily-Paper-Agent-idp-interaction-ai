@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "34270995",
+    "doi": "10.1016/j.bpj.2021.07.008",
+    "title": "Crowding affects structural dynamics and contributes to membrane association of the NS3/4A complex."
+  },
+  "content": {
+    "abstract": "Using molecular dynamics simulations, we describe how crowded environments affect the internal dynamics and diffusion of the hepatitis C virus proteases NS3/4A. This protease plays a key role in viral replication and is successfully used as a target for antiviral treatment. The NS3 enzyme requires a peptide cofactor, called NS4A, with its central part interacting with the NS3 beta-sheet, and flexible, protruding terminal tails that are unstructured in water solution. The simulations describe the enzyme and water molecules at atomistic resolution, whereas crowders are modeled via either all-atom or coarse-grained models to emphasize different aspects of crowding. Crowders reflect the polyethylene glycol (PEG) molecules used in the experiments to mimic the crowded surrounding. A bead-shell model of folded coarse-grained PEG molecules considers mainly the excluded volume effect, whereas all-atom PEG models afford more protein-like crowder interactions. Circular dichroism spectroscopy experiments of the NS4A N-terminal tail show that a helical structure is formed in the presence of PEG crowders. The simulations suggest that crowding may assist in the formation of an NS4A helical fragment, positioned exactly where a transmembrane helix would fold upon the NS4A contact with the membrane. In addition, partially interactive PEGs help the NS4A N-tail to detach from the protease surface, thus enabling the process of helix insertion and potentially helping the virus establish a replication machinery needed to produce new viruses. Results point to an active role of crowding in assisting structural changes in disordered protein fragments that are necessary for their biological function.",
+    "keywords": [],
+    "mesh_terms": [
+      "Antiviral Agents",
+      "*Hepacivirus",
+      "Molecular Dynamics Simulation",
+      "*Viral Nonstructural Proteins",
+      "Virus Replication"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ostrowska, Natalia",
+        "Feig, Michael",
+        "Trylska, Joanna"
+      ],
+      "short_names": [
+        "Ostrowska N",
+        "Feig M",
+        "Trylska J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centre of New Technologies, University of Warsaw, Warsaw, Poland; College of Inter-Faculty Individual Studies in Mathematics and Natural Sciences, University of Warsaw, Warsaw, Poland.",
+        "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, Michigan.",
+        "Centre of New Technologies, University of Warsaw, Warsaw, Poland. Electronic address: joanna@cent.uw.edu.pl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ostrowska, Natalia",
+        "short_name": "Ostrowska N",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of New Technologies, University of Warsaw, Warsaw, Poland; College of Inter-Faculty Individual Studies in Mathematics and Natural Sciences, University of Warsaw, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Feig, Michael",
+        "short_name": "Feig M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Michigan State University, East Lansing, Michigan."
+        ]
+      },
+      {
+        "full_name": "Trylska, Joanna",
+        "short_name": "Trylska J",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of New Technologies, University of Warsaw, Warsaw, Poland. Electronic address: joanna@cent.uw.edu.pl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2021 Sep 7",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/17 06:00",
+    "fetched_at": "2026-09-20 04:18:51"
+  },
+  "links": {
+    "cites": [
+      "39968832",
+      "39660892",
+      "39035939",
+      "38607680",
+      "37098073",
+      "35723321",
+      "35219215"
+    ],
+    "refs": [
+      "32717410",
+      "30963769",
+      "30753785",
+      "30230839",
+      "29749735",
+      "29539394",
+      "29151345",
+      "28746339",
+      "28680834",
+      "27819658",
+      "27669651",
+      "27471851",
+      "27434647",
+      "27410731",
+      "26547182",
+      "25564856",
+      "25400522",
+      "25347801",
+      "25204588",
+      "24854339",
+      "24312701",
+      "24144444",
+      "23402619",
+      "22646916",
+      "22594708",
+      "22429139",
+      "21843480",
+      "21633972",
+      "21133453",
+      "21112306",
+      "19836332",
+      "18799730",
+      "18573087",
+      "18456821",
+      "18052365",
+      "17075131",
+      "16222654",
+      "15264254",
+      "15099834",
+      "13679611",
+      "12638869",
+      "12601146",
+      "11045621",
+      "9750217",
+      "9568891",
+      "8749853",
+      "8744570",
+      "7685828"
+    ],
+    "similar": [
+      "34270995",
+      "37098073",
+      "32717410",
+      "23912807",
+      "11162117",
+      "31534039",
+      "9741640",
+      "10756044",
+      "9568891",
+      "17581983",
+      "21633972",
+      "30884449",
+      "7644466",
+      "21470343",
+      "8918919",
+      "18037183",
+      "10735621",
+      "9521660",
+      "19153239",
+      "18799730",
+      "8661414",
+      "21047963",
+      "28151973",
+      "9847361",
+      "32699091",
+      "9930676",
+      "8863991",
+      "26739057",
+      "8609472",
+      "10213628",
+      "10623610",
+      "27654291",
+      "23629709",
+      "19561386",
+      "22833015",
+      "17289677",
+      "7853516",
+      "9261364",
+      "19119853",
+      "30179714",
+      "10220351",
+      "16760395",
+      "21194118",
+      "9235976",
+      "10574797",
+      "20823284",
+      "22238314",
+      "7494258",
+      "8861917",
+      "10559312",
+      "35164341",
+      "12692597",
+      "24001230",
+      "37348142",
+      "7769685",
+      "23936097",
+      "9514871",
+      "21471227",
+      "15850392",
+      "10702283",
+      "38607680",
+      "33430709",
+      "17522200",
+      "9889156",
+      "32641492",
+      "8189513",
+      "21749281",
+      "10386883",
+      "22088216",
+      "10425166",
+      "32697788",
+      "7966606",
+      "10915606",
+      "30501598",
+      "10529230",
+      "10321580",
+      "27160539",
+      "26435152",
+      "7884903",
+      "22127068",
+      "24060868",
+      "25445343",
+      "24551230",
+      "24466115",
+      "18824605",
+      "33080173",
+      "9571178",
+      "26009474",
+      "18723512",
+      "23745769",
+      "10666260",
+      "25740995",
+      "19944069",
+      "25644870",
+      "12711336",
+      "22160684",
+      "28416549",
+      "10607229",
+      "11049744",
+      "38808573",
+      "37071827",
+      "36858485",
+      "31261873",
+      "37591305",
+      "35654414",
+      "38167921"
+    ],
+    "review": [
+      "34270995",
+      "21470343",
+      "10321580",
+      "27160539"
+    ],
+    "pmc": [
+      "8456185"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(21)00560-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34270995/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34270995",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37115902",
+  "title": "Electrostatics-Induced Nucleated Conformational Transition of Protein Aggregation.",
+  "authors": "Duan, Chao; Wang, Rui",
+  "journal": "Physical review letters",
+  "published_date": "2023-04-28",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用分子理论结合自洽场方法研究蛋白质聚集的静电诱导构象转变与成核路径，虽非IDP/PPI且无AI/经典MD，但聚集机制建模思路对无序蛋白互作机制有可迁移启发。",
+  "abstract": "Despite the wide existence of protein aggregation in nature and its intimate connection to many human diseases, the underlying mechanism remains unclear. Here, we develop a molecular theory by systematically incorporating the self-consistent field theory for charged macromolecules into the dilute solution thermodynamics. The kinetic pathway is tracked without any restriction on the morphology of the aggregates. We find that protein aggregation at low salt concentrations is via a two-step nucleated process involving a conformational transition from metastable spherical oligomer to elongated fibril. The scaling analysis elucidates the electrostatic origin of the conformational transition: the fibril enters the screening region much earlier than the spherical aggregate. As salt concentration increases, the classical mode of one-step nucleation corresponding to macroscopic liquid-liquid phase separation is recovered. Our results reveal that the screened electrostatic interaction is essential for the existence of the metastable oligomer and its subsequent conformational transition to fibril. The theoretical predictions of the kinetic pathway and the morphology of the aggregates are in good agreement with the experimental observations of real proteins.",
+  "abstract_zh": "尽管蛋白质聚集在自然界中广泛存在，并且与许多人类疾病密切相关，但其潜在机制仍不清楚。在此，我们通过将带电大分子的自洽场理论系统性地纳入稀溶液热力学中，发展了一种分子理论。我们追踪了动力学路径，对聚集体的形态没有任何限制。我们发现，在低盐浓度下，蛋白质聚集通过一个两步成核过程进行，涉及从亚稳态球形寡聚体到细长纤维的构象转变。标度分析阐明了构象转变的静电起源：纤维比球形聚集体更早进入屏蔽区域。随着盐浓度的增加，恢复了一步成核的经典模式，对应于宏观液-液相分离。我们的结果表明，屏蔽的静电相互作用对于亚稳态寡聚体的存在及其随后向纤维的构象转变至关重要。动力学路径和聚集体形态的理论预测与真实蛋白质的实验观察结果高度一致。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37115902/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37115902/",
+  "paper_page_path": "papers/pubmed/37115902/index.html"
+}

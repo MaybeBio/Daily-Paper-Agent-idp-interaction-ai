@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors propose that nascent RNA and the multivalent RNA-binding protein SAF-A form a nucleus-spanning microgel network maintained near the sol-gel transition. They argue that this active network reconciles solid-like and fluid-like nuclear behaviours, that RNA production and degradation act as control parameters for network connectivity, that the system shows enhanced susceptibility to perturbations near criticality, and that molecular transport measurements reveal size-dependent diffusion and transient trapping consistent with gel pores.
+- **Visible evidence base** Super-resolution imaging, mechanistic polymer modelling, experimental perturbation of sol-gel regimes, molecular transport measurements, and simulations, all as referenced in the abstract
+- **Missing materials affecting confidence** Full text, figures, tables, methods, statistical details, model equations, and experimental protocols; no quantitative results or effect sizes are available
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing and potentially significant framework for understanding nuclear material properties through an active microgel near a sol-gel transition. The integration of imaging, modelling, and transport measurements suggests a multi-pronged approach. However, the abstract alone provides insufficient quantitative detail to evaluate the strength of the evidence. Key claims about criticality, control parameters, and transport behaviour are stated without supporting numbers, error estimates, or model validation metrics. The work is likely to interest biophysicists and cell biologists, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Biophysicists studying phase transitions and active matter in biological systems; cell biologists investigating nuclear organisation and chromatin dynamics; researchers in RNA biology interested in non-coding RNA functions; and theorists working on polymer networks and gelation. The proposed reconciliation of solid-like and fluid-like nuclear states could provide a unifying framework for diverse observations.
+- **Major strengths** The conceptual framing of the nucleus as an active microgel near criticality is novel and potentially unifying. The combination of experimental imaging with mechanistic modelling is a strong methodological approach. The explicit link between RNA metabolism and material properties offers a testable and biologically meaningful control mechanism. The prediction of enhanced susceptibility near criticality, followed by experimental confirmation, suggests a coherent hypothesis-driven strategy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the network is "maintained near the sol-gel transition" and that the system exhibits "enhanced susceptibility to modest perturbations near criticality"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that the model predicts enhanced susceptibility near criticality and that this was confirmed experimentally by shifting between sol-like and gel-like regimes. However, no quantitative measures of susceptibility, critical exponents, or distance from the transition point are provided. The term "near criticality" is used without defining a metric or threshold.
+  - **Why it matters** The central thesis depends on the system being poised near a critical point. Without quantitative evidence of critical behaviour, such as diverging correlation lengths, power-law responses, or specific scaling relationships, the claim remains qualitative and could be consistent with a non-critical but responsive system.
+  - **Resolution test** Provide quantitative measures of susceptibility (for example, response amplitudes or relaxation times as a function of perturbation strength) and demonstrate scaling behaviour consistent with criticality. Define the distance from the transition point using a measurable order parameter or connectivity metric.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The claim that "RNA production and degradation as control parameters that tune network connectivity" is identified through "mechanistic polymer modelling"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the polymer model was parameterised, what experimental data constrained it, or how well it reproduces the observed imaging and transport results. Without model validation metrics, such as goodness-of-fit or predictive tests against independent data, the identification of RNA production and degradation as control parameters remains a modelling assertion rather than an established finding.
+  - **Why it matters** The paper's mechanistic claim rests on the model's ability to capture the system's behaviour. If the model is not validated against quantitative data, the inferred control parameters may not reflect the biological reality.
+  - **Resolution test** Show quantitative comparisons between model predictions and experimental measurements, including error bars and statistical tests. Demonstrate that the model can predict outcomes not used in its fitting.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Transport evidence
+  - **Claim pointer** The claim that "measurements of molecular transport, combined with simulations, reveal size-dependent diffusion and transient trapping within gel pores"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports size-dependent diffusion and transient trapping but provides no quantitative data, such as diffusion coefficients, trapping times, or pore size estimates. The link between the observed transport behaviour and the specific gel structure is not demonstrated with numbers.
+  - **Why it matters** Transport measurements are presented as establishing "direct physical consequences of the near-critical state." Without quantitative transport parameters and a clear demonstration that the observed behaviour is specific to a near-critical gel rather than a generic porous network, this claim is not supported.
+  - **Resolution test** Provide measured diffusion coefficients for multiple probe sizes, trapping time distributions, and a comparison with simulations that quantitatively match these data. Show that the transport behaviour changes predictably as the system is shifted away from the transition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "microgel" is used without definition or contextualisation. Readers may not be familiar with this term in the context of nuclear biology.
+  - **Required correction** Define "microgel" and briefly explain its relevance to nuclear structure, or provide a reference for the term.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "super-resolution imaging" and "molecular transport measurements" but does not specify the techniques used, such as STORM, PALM, or FCS.
+  - **Required correction** Specify the imaging and transport techniques in the abstract or ensure they are clearly stated in the methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalisation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the nucleus is "a living example of an active microgel poised near criticality," but it is unclear whether this applies to all cell types or conditions, or only to the specific system studied.
+  - **Required correction** Clarify the generality of the findings or explicitly state the conditions under which the behaviour was observed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence for criticality, model validation, and transport behaviour. These are essential to support the central claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: High. The concept of an active microgel near a sol-gel transition in the nucleus is novel and not a simple extension of existing phase separation or gelation models.  
+  - Scientific importance: Potentially high. If established, this framework could unify disparate observations of nuclear mechanics and dynamics.  
+  - Interdisciplinary readership: Broad. The work bridges biophysics, cell biology, and RNA biology, and would appeal to readers across these fields.  
+  - Technical soundness: Not assessable from the abstract. The methods are referenced but not described in sufficient detail to evaluate rigour.  
+  - Readability for nonspecialists: The abstract is generally clear but uses specialised terms such as "microgel" and "sol-gel transition" without sufficient explanation for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is compelling and the multi-method approach is promising, but the abstract alone does not provide the quantitative evidence needed to establish the central claims. A full review of the manuscript with figures and methods would be required to assess whether the evidence supports the conclusions.
+
+## Risk / unsupported claims
+- The claim that the network is "maintained near the sol-gel transition" is unsupported without quantitative measures of criticality.
+- The claim that RNA production and degradation "tune network connectivity" is unsupported without model validation data.
+- The claim that transport measurements reveal "transient trapping within gel pores" is unsupported without quantitative transport parameters.
+- The claim that the system exhibits "enhanced susceptibility to modest perturbations near criticality" is unsupported without quantitative susceptibility measurements.
+- The generalisation that the nucleus is "a living example of an active microgel poised near criticality" is not assessable from the abstract alone.

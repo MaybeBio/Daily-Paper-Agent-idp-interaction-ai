@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37102465",
+  "title": "Integrated in silico-in vitro rational design of oncogenic EGFR-derived specific monoclonal antibody-binding peptide mimotopes.",
+  "authors": "Chen, Ke; Ge, Lili; Liu, Guorui",
+  "journal": "Journal of bioinformatics and computational biology",
+  "published_date": "2023-04-27",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过计算设计与实验结合，理性设计靶向EGFR单抗的肽模拟物，其中肽段在自由态为无序构象，并采用化学订书策略稳定其双链构象以模拟热点残基结合模式，涉及无序肽的构象约束与互作机制建模，但对象为EGFR而非典型IDP/相分离，且方法以经验打分和实验为主，AI/物理模拟深度有限。",
+  "abstract": "Human epidermal growth factor receptor (EGFR) is strongly associated with malignant proliferation and has been established as an attractive therapeutic target of diverse cancers and used as a significant biomarker for tumor diagnosis. Over the past decades, a variety of monoclonal antibodies (mAbs) have been successfully developed to specifically recognize the third subdomain (TSD) of EGFR extracellular domain. Here, the complex crystal structures of EGFR TSD subdomain with its cognate mAbs were examined and compared systematically, revealing a consistent binding mode shared by these mAbs. The recognition site is located on the [Formula: see text]-sheet surface of TSD ladder architecture, from which several hotspot residues that significantly confer both stability and specificity to the recognition were identified, responsible for about half of the total binding potency of mAbs to TSD subdomain. A number of linear peptide mimotopes were rationally designed to mimic these TSD hotspot residues in different orientations and/or in different head-to-tail manners by using an orthogonal threading-through-strand (OTTS) strategy, which, however, are intrinsically disordered in Free State and thus cannot be maintained in a native hotspot-like conformation. A chemical stapling strategy was employed to constrain the free peptides into a double-stranded conformation by introducing a disulfide bond across two strand arms of the peptide mimotopes. Both empirical scoring and [Formula: see text]fluorescence assay reached an agreement that the stapling can effectively improve the interaction potency of OTTS-designed peptide mimotopes to different mAbs, with binding affinity increase by [Formula: see text]-fold. Conformational analysis revealed that the stapled cyclic peptide mimotopes can spontaneously fold into a double-stranded conformation that well threads through all the hotspot residues on TSD [Formula: see text]-sheet surface and exhibits a consistent binding mode with the TSD hotspot site to mAbs.",
+  "abstract_zh": "人表皮生长因子受体（EGFR）与恶性肿瘤增殖密切相关，已被确立为多种癌症的有吸引力的治疗靶点，并作为肿瘤诊断的重要生物标志物。过去几十年中，已成功开发出多种单克隆抗体（mAbs），特异性识别EGFR胞外域的第三亚域（TSD）。在此，系统检查并比较了EGFR TSD亚域与其同源单克隆抗体的复合物晶体结构，揭示出这些单克隆抗体共享一致的结合模式。识别位点位于TSD阶梯结构的[公式：见原文]折叠片表面，从中鉴定出几个显著赋予识别稳定性和特异性的热点残基，这些残基约占单克隆抗体对TSD亚域总结合效力的一半。通过使用正交穿线跨链（OTTS）策略，合理设计了一系列线性肽模拟表位，以不同方向和/或不同头尾方式模拟这些TSD热点残基，然而，这些肽在自由状态下本质上是无序的，因此无法维持类似天然热点构象。采用化学钉扎策略，通过在肽模拟表位的两条链臂之间引入二硫键，将自由肽约束为双链构象。经验评分和[公式：见原文]荧光测定均达成一致，即钉扎能有效提高OTTS设计的肽模拟表位对不同单克隆抗体的相互作用效力，结合亲和力增加[公式：见原文]倍。构象分析揭示，钉扎的环状肽模拟表位能自发折叠成双链构象，该构象良好地穿通TSD[公式：见原文]折叠片表面上的所有热点残基，并表现出与TSD热点位点对单克隆抗体一致的结合模式。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37102465/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37102465/",
+  "paper_page_path": "papers/pubmed/37102465/index.html"
+}

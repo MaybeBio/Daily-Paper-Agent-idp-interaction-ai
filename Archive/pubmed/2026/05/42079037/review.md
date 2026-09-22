@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, methodological rigor, and validity of conclusions as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors present atomistic conformational ensembles of the intrinsically disordered protein 4E-BP2, both free and in complex with the folded protein eIF4E, generated using IDPConformerGenerator and refined with a new Bayesian tool, X-EISDv2, against smFRET, NMR, and SAXS data. They report that the bound ensemble is highly heterogeneous, with delocalized contacts around canonical binding regions, and identify new contact regions that may have allosteric and functional implications for translation regulation.
+- **Visible evidence base** Abstract, full Results, Discussion, and Methods sections, including descriptions of smFRET experiments (intra- and intermolecular), ensemble generation and refinement, and contact map analyses. Figures are referenced but not directly viewable.
+- **Missing materials affecting confidence** Figures, tables, and supplementary materials are referenced but not provided. Specific numerical values for FRET efficiencies, uncertainties, and validation statistics are not available in the text. Details of the X-EISDv2 algorithm and its validation are only partially described.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a challenging and important problem: the structural characterization of a dynamic complex between an intrinsically disordered protein and a folded partner. The combination of extensive smFRET data with a new ensemble refinement tool is timely and potentially valuable. However, the current text does not provide sufficient quantitative evidence to fully evaluate the quality of the ensembles or the robustness of the conclusions. The central claims regarding new contact regions and their functional implications are intriguing but rest on analyses that are not fully described or validated in the provided material. The work is likely of interest to the IDP and biophysics communities, but the case is not yet fully established from the evidence presented.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein-protein interactions, translation initiation, and the development of methods for integrative structural biology. The work is also relevant to those interested in the role of dynamic complexes in signaling and regulation.
+- **Major strengths** The study tackles a biologically important and technically difficult system. The use of multiple, complementary experimental restraints (eight intramolecular and two intermolecular FRET pairs, plus NMR and SAXS) is a significant strength. The development and application of a new refinement tool (X-EISDv2) that can handle multi-chain complexes is a valuable methodological contribution. The comparison between apo and bound ensembles provides a clear framework for understanding binding-induced changes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the optimized ensembles are "validated by solution spectroscopy data" and are in "agreement" with all experimental restraints.
+  - **Evidence pointer** Results sections "An Improved 4E-BP2 Conformational Ensemble" and "Generation and Optimization of the eIF4E:4E-BP2 Ensemble"; Figures 3, 5, S3-S5; Tables S2, S3
+  - **Concern** The manuscript states that the ensembles agree with the data, but the quantitative metrics for this agreement are not provided in the text. For example, the final chi-squared values, the uncertainty in the FRET calculations, and the tolerance for agreement are not stated. The text mentions a "knee-point" in the optimization curve (Fig. S3) but does not describe the selection criteria for the final ensemble size or the convergence criteria. Without these numbers, it is impossible to assess whether the ensembles are truly consistent with the data or whether the refinement has simply overfit a subset of restraints.
+  - **Why it matters** The central methodological claim is that the ensembles are experimentally restrained and validated. If the agreement metrics are not reported, the reader cannot judge the quality of the ensembles or the reliability of any structural conclusions drawn from them. This is a fundamental issue for the paper's core contribution.
+  - **Resolution test** Provide the final χ² or similar goodness-of-fit metric for each restraint type (FRET, PRE, Rh) for both the initial pool and the optimized ensemble. State the uncertainty model used for each restraint and the criteria for accepting a conformer or ensemble. Show a plot of the χ² vs. Nex to justify the choice of Nex=10⁵.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the new contact regions (RN1 and RN2) "emerged" in the optimized ensemble and are biologically significant.
+  - **Evidence pointer** Results section "Intermolecular Contacts in the 4E-BP2:eIF4E Ensemble"; Figure 6c, 6i
+  - **Concern** The text states that RN1 and RN2 are "new" regions that emerge after refinement. However, it is not clear if these contacts are statistically significant compared to the initial pool or if they are an artifact of the refinement process. The manuscript does not report the contact frequencies in the initial pool for these regions, nor does it provide a statistical test (e.g., a Z-score or a comparison to a null model) to show that the enrichment is meaningful. The claim that these contacts "may play an allosteric role" is speculative and not supported by any functional data.
+  - **Why it matters** The identification of new, functionally relevant contacts is a key biological finding of the paper. If the emergence of these contacts is not shown to be robust and statistically significant, the biological conclusions are not supported.
+  - **Resolution test** Report the contact frequencies for RN1 and RN2 in the initial pool and the optimized ensemble. Provide a statistical comparison (e.g., a permutation test or a comparison to a randomized ensemble) to demonstrate that the enrichment is significant. Discuss whether these contacts are present in any subpopulation of the initial pool or if they are a unique feature of the refined ensemble.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the model "supports a model of translation regulation in which the dynamic 4E-BP2:eIF4E complex facilitates accessibility of regulatory sites of 4E-BP2 when bound."
+  - **Evidence pointer** Abstract; Discussion section
+  - **Concern** The functional interpretation is based on the observation that the N- and C-terminal regions of 4E-BP2 (containing the RAIP and TOS motifs) compact upon binding. The authors suggest this compaction may "decrease the accessibility of these sites" to Raptor, but then argue the dynamic nature of the complex "facilitates accessibility." This is a somewhat contradictory and speculative narrative. The manuscript does not provide any direct experimental evidence (e.g., phosphorylation assays, mutagenesis) to link the conformational changes to functional outcomes.
+  - **Why it matters** The paper aims to provide a structural basis for understanding translation regulation. If the link between the observed conformational changes and the proposed functional mechanism is not clearly established, the broader significance of the work is diminished.
+  - **Resolution test** Clarify the proposed mechanism. If the claim is that the complex is dynamic and allows access, what is the specific evidence for this? If the claim is that compaction reduces access, how is this reconciled with the dynamic nature? Consider adding a more nuanced discussion of the potential functional consequences, or explicitly state that the functional implications are speculative and require further testing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction is dense and assumes significant prior knowledge of the IDP field. Terms like "fuzzy complexes" and "conditional folding" are used without a clear definition for a general reader.
+  - **Required correction** Briefly define these terms when first used to make the introduction more accessible to a broader scientific audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "smFRET measurements"
+  - **Evidence pointer** Methods section, equation (1)
+  - **Issue** The gamma correction factor in equation (1) is mentioned but its determination is not described. It is unclear if this is a constant or if it varies between experiments or labelling positions.
+  - **Required correction** Provide a brief description of how the gamma factor was determined and whether it was assumed to be constant across all constructs and conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Intermolecular Contacts in the 4E-BP2:eIF4E Ensemble"
+  - **Evidence pointer** Results section, Figure 6
+  - **Issue** The text mentions "RN1" and "RN2" as new contact regions but does not clearly define the residue ranges for these regions in the text. The reader is left to infer them from the figure, which is not provided.
+  - **Required correction** State the specific residue ranges for RN1 and RN2 in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "IDP conformational ensembles: generation, refinement and analysis"
+  - **Evidence pointer** Methods section, X-EISDv2 description
+  - **Issue** The description of X-EISDv2 is brief. It is not clear how the "custom-weighting" is implemented or how the user defines the "confidence" of the experimental data. This is a key methodological detail.
+  - **Required correction** Provide more detail on the weighting scheme, including how the weights are chosen and how they affect the final ensemble selection.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical issues. The lack of quantitative validation metrics and the lack of statistical analysis for the new contacts are the most significant failings. The manuscript cannot be fully evaluated without these details.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is original in its application of a new refinement tool to a challenging complex and in its use of a large set of FRET restraints. However, the general approach of using smFRET to study IDP complexes is established.
+  - **Scientific importance** The 4E-BP2:eIF4E system is biologically important, and a detailed structural model of the dynamic complex would be a significant contribution. The potential identification of new regulatory contacts is interesting, but the importance is not yet fully established due to the lack of functional validation.
+  - **Interdisciplinary readership** The work will primarily appeal to biophysicists, structural biologists, and biochemists studying IDPs. The broader cell biology community may be interested in the functional implications, but the technical nature of the paper may limit its accessibility.
+  - **Technical soundness** The experimental design is sound, but the lack of quantitative validation and statistical analysis is a major weakness. The methodological claims for X-EISDv2 are not fully supported by the data presented.
+  - **Readability for nonspecialists** The paper is written for a specialist audience. The introduction and discussion are dense and could be improved for clarity.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea and experimental approach are promising, but the manuscript in its current form does not provide sufficient evidence to support the central claims. The authors must provide the missing quantitative validation and statistical analysis to make the case convincing.
+
+## Risk / unsupported claims
+- The claim that the ensembles are "validated" by the data is unsupported without quantitative agreement metrics.
+- The claim that RN1 and RN2 are "new" and functionally significant contact regions is unsupported without statistical analysis and functional data.
+- The proposed model for translation regulation involving "facilitated accessibility" is speculative and not directly supported by the data.
+- The claim that the crystal structure presentation of "Both" at 100% is "not representative" of the solution ensemble is a strong statement that relies on the quality of the refined ensemble, which is not fully validated.

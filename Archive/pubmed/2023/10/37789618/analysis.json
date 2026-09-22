@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37789618",
+  "title": "A calibration-free model of micropipette aspiration for measuring properties of protein condensates.",
+  "authors": "Roggeveen, James V; Wang, Huan; Shi, Zheng; Stone, Howard A",
+  "journal": "Biophysical journal",
+  "published_date": "2023-10-04",
+  "window": {
+    "start": "2023-10-02",
+    "end": "2023-10-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文为蛋白凝聚体(含LAF-1 RGG无序区域)的微吸管抽吸实验建立无校准流体力学模型，用于测量黏度和表面张力，虽涉及IDR凝聚体物性但未聚焦PPI互作机制，且方法为物理建模而非AI/分子模拟，故属中档。",
+  "abstract": "There is growing evidence that biological condensates, which are also referred to as membraneless organelles, and liquid-liquid phase separation play critical roles regulating many important cellular processes. Understanding the roles these condensates play in biology is predicated on understanding the material properties of these complex substances. Recently, micropipette aspiration (MPA) has been proposed as a tool to assay the viscosity and surface tension of condensates. This tool allows the measurement of both material properties in one relatively simple experiment, in contrast to many other techniques that only provide one or a ratio of parameters. While this technique has been commonly used in the literature to determine the material properties of membrane-bound objects dating back decades, the model describing the dynamics of MPA for objects with an external membrane does not correctly capture the hydrodynamics of unbounded fluids, leading to a calibration parameter several orders of magnitude larger than predicted. In this work we derive a new model for MPA of biological condensates that does not require any calibration and is consistent with the hydrodynamics of the MPA geometry. We validate the predictions of this model by conducting MPA experiments on a standard silicone oil of known material properties and are able to predict the viscosity and surface tension using MPA. Finally, we reanalyze with this new model the MPA data presented in previous works for condensates formed from LAF-1 RGG domains.",
+  "abstract_zh": "越来越多的证据表明，生物凝聚体（也称为无膜细胞器）及液-液相分离在调控许多重要细胞过程中扮演关键角色。理解这些凝聚体在生物学中的作用，前提在于理解这些复杂物质的材料特性。近期，微管吸吮（MPA）被提出作为一种测定凝聚体粘度和表面张力的工具。该工具能在相对简单的实验中同时测量这两种材料属性，与许多仅提供单一参数或参数比的技术形成对比。尽管这项技术已在文献中广泛用于测定膜结合物体的材料特性，其历史可追溯至数十年前，但描述外部膜物体MPA动力学的模型并未正确捕捉无界流体的流体动力学，导致校准参数比预测值大几个数量级。在本工作中，我们为生物凝聚体的MPA推导了一个新模型，该模型无需任何校准，且与MPA几何结构的流体动力学一致。我们通过对已知材料特性的标准硅油进行MPA实验来验证该模型的预测，并能够利用MPA预测粘度和表面张力。最后，我们使用此新模型重新分析了先前工作中针对LAF-1 RGG结构域形成的凝聚体的MPA数据。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37789618/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37789618/",
+  "paper_page_path": "papers/pubmed/37789618/index.html"
+}

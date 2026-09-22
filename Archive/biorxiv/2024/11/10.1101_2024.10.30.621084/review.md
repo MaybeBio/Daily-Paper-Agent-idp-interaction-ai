@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or data are available for verification
+- **Shared manuscript claim summary** The authors report a new yeast-based functional assay, SIMBA, for quantifying intracellular binding of globular domains to short linear motifs (SLiMs). They claim high-throughput capacity via competitive growth and deep sequencing, applicability to multiple domain classes, correlation of in vivo binding strengths with in vitro affinities, deep mutational scanning resolution of recognition determinants, and identification of context-dependent residue preferences for tankyrase ARC and YAP WW domains.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental protocols, statistical analyses, raw sequencing data, validation datasets, and any comparative benchmarks
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable method for studying SLiM recognition in a cellular context. The concept of coupling peptide binding to growth selection is elegant and could offer advantages over in vitro approaches. However, the abstract alone provides insufficient detail to evaluate technical rigor, reproducibility, or the strength of the claimed correlations and context effects. The claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying protein-protein interactions, particularly those focused on SLiM-mediated signaling, domain-peptide recognition, and intrinsically disordered regions. The method could also appeal to synthetic biologists and those developing high-throughput functional assays for protein interaction screening.
+- **Major strengths** The assay design is conceptually innovative, linking intracellular binding to a proliferative readout. The claimed high-throughput capacity via deep sequencing is well suited for comprehensive mutational scanning. The inclusion of multiple domain classes and the focus on context-dependent effects suggest broad applicability and biological depth.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that SIMBA provides "rapid quantification of the relative binding strength for thousands of SLiM sequence variants" and that "relative binding strength of peptides in vivo correlates with their biochemical affinities measured in vitro."
+  - **Evidence pointer** Abstract only; no figures or tables provided
+  - **Concern** The abstract does not describe how binding strength is calibrated, what dynamic range is achieved, or how the correlation with in vitro affinities is quantified. Without details on the selection stringency, growth conditions, and normalization of sequencing counts, it is unclear whether the measured values reflect true binding affinities or are confounded by cellular factors such as protein stability, expression levels, or toxicity.
+  - **Why it matters** The core utility of SIMBA depends on its ability to produce quantitative, affinity-correlated measurements. If the in vivo readout is not faithfully linked to binding strength, the method's conclusions about recognition determinants and context effects would be undermined.
+  - **Resolution test** Provide a calibration curve comparing SIMBA-derived scores to known in vitro affinities for a validation set, including a defined dynamic range and statistical measures of correlation. Show that the assay is sensitive to single-residue changes and that the readout is not saturated or dominated by non-specific effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that "mutational scanning of multiple parent peptides that bind human tankyrase ARC or YAP WW domains identifies distinct binding modes and uncovers context effects in which the preferred residues at one position depend on residues elsewhere."
+  - **Evidence pointer** Abstract only; no data shown
+  - **Concern** The identification of context-dependent effects is a strong claim that requires robust statistical support. The abstract does not specify how many parent peptides were scanned, how many variants were tested per peptide, or how the context effects were distinguished from simple additive effects. Without this information, the claim of "distinct binding modes" is not substantiated.
+  - **Why it matters** Context-dependent recognition is a nuanced finding that could have broad implications for predicting SLiM function. If the evidence is weak or confounded by experimental noise, the conclusion would be overstated and could mislead subsequent studies.
+  - **Resolution test** Show a clear statistical framework for detecting epistatic interactions, including effect sizes, confidence intervals, and validation of at least one predicted context-dependent variant via an independent biochemical assay.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that "multiple distinct classes of SLiM-binding domains can be analyzed by this method."
+  - **Evidence pointer** Abstract only; no list of domains or examples provided
+  - **Concern** The abstract does not specify which domain classes were tested or how many were successful. It is unclear whether the method is generalizable or limited to specific domain families with particular binding geometries or affinities.
+  - **Why it matters** The claimed broad applicability is central to the method's value. If only a few domains were tested, the generalizability is not established, and readers cannot assess the method's limitations.
+  - **Resolution test** Provide a table listing all tested domains, their source organisms, binding affinities, and success rates, along with criteria for what constitutes a successful assay.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "Short Linear Motifs" is introduced with an abbreviation but the abstract does not explain why these motifs are biologically important beyond being "enriched in intrinsically disordered regions."
+  - **Required correction** Add one sentence on the functional relevance of SLiMs, such as their role in signaling or regulatory networks, to orient a broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Assay description
+  - **Evidence pointer** Abstract, method description
+  - **Issue** The abstract states that binding "allows yeast cells to proliferate by blocking a growth arrest signal" but does not explain the mechanism of growth arrest or how the block is achieved.
+  - **Required correction** Briefly describe the growth arrest system, such as a specific signaling pathway or toxic protein, to allow readers to assess potential off-target effects.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Context effects claim
+  - **Evidence pointer** Abstract, final claim
+  - **Issue** The abstract mentions "context effects" but does not define what constitutes a context effect or how it was operationalized.
+  - **Required correction** Define context effects explicitly, such as non-additive interactions between positions, and state the criteria used to identify them.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract's central claims of quantitative accuracy and context-dependent recognition cannot be evaluated without detailed data and statistical validation. R1-M3 is non-blocking but requires clarification for generalizability.
+- **Assessment against Nature-style criteria** 
+  - Originality: The assay concept appears novel, but the abstract does not compare it to existing methods such as phage display or yeast two-hybrid, so the incremental advance is unclear.
+  - Scientific importance: The potential to map SLiM recognition determinants in vivo is significant, but the importance is contingent on the robustness of the context effects claim, which is not yet established.
+  - Interdisciplinary readership: The method could appeal to cell biologists, biochemists, and computational biologists, but the abstract is too technical in places and lacks a broader framing.
+  - Technical soundness: Not assessable from the abstract; the lack of methodological detail and validation data is a major gap.
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with SLiM biology and deep mutational scanning; it would benefit from clearer explanations of the assay and its significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising method, but the absence of data, statistical details, and validation means the core claims cannot be assessed. I would be supportive if the full manuscript provides rigorous evidence for the quantitative correlation, context effects, and generalizability.
+
+## Risk / unsupported claims
+- The claim that SIMBA provides "rapid quantification of the relative binding strength for thousands of SLiM sequence variants" is unsupported without details on throughput, reproducibility, and data processing.
+- The claim that "relative binding strength of peptides in vivo correlates with their biochemical affinities measured in vitro" is unsupported without a correlation analysis and validation set.
+- The claim of "distinct binding modes" for tankyrase ARC and YAP WW domains is unsupported without structural or mutational evidence.
+- The claim of "context effects" is unsupported without a statistical framework for detecting epistasis.
+- The general applicability to "multiple distinct classes of SLiM-binding domains" is unverifiable without a list of tested domains and success criteria.

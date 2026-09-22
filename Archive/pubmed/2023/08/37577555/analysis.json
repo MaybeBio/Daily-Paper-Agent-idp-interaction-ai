@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37577555",
+  "title": "Conformational Properties of Polymers at Droplet Interfaces as Model Systems for Disordered Proteins.",
+  "authors": "Wang, Jiahui; Sundaravadivelu Devarajan, Dinesh; Nikoubashman, Arash; Mittal, Jeetain",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-08-14",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用聚合物粗粒化模型和分子模拟研究液滴界面处无序蛋白链的构象偏好，揭示界面致密化与链端富集机制，虽非直接PPI但为相分离界面互作机制建模提供可迁移的物理模型思路。",
+  "abstract": "Polymer models serve as useful tools for studying the formation and physical properties of biomolecular condensates. In recent years, the interface dividing the dense and dilute phases of condensates has been discovered to be closely related to their functionality, but the conformational preferences of the constituent proteins remain unclear. To elucidate this, we perform molecular simulations of a droplet formed by liquid‒liquid phase separation of homopolymers, as a surrogate model for the prion-like low-complexity domains. By systematically analyzing the polymer conformations at different locations in the droplet, we find that the chains become compact at the droplet interface compared to the droplet interior. Further, segmental analysis revealed that the end sections of the chains are enriched at the interface to maximize conformational entropy, and are more expanded than the middle sections of the chains. We find that the majority of chain segments lie tangential to the droplet surface and only the chain ends tend to align perpendicular to the interface. These trends also hold for the natural proteins FUC LC and LAF-1 RGG, which exhibit more compact chain conformations at the interface compared with the droplet interior. Our findings provide important insights into the interfacial properties of biomolecular condensates and highlight the value of using simple polymer physics models to understand the underlying mechanisms.",
+  "abstract_zh": "聚合物模型作为研究生物分子凝聚体形成及其物理性质的有效工具。近年来，凝聚体中致密相与稀相之间的界面被发现与其功能密切相关，但组成蛋白质的构象偏好仍不清楚。为阐明这一问题，我们对均聚物液-液相分离形成的液滴进行了分子模拟，作为朊病毒样低复杂度结构域的替代模型。通过系统分析液滴内不同位置的聚合物构象，我们发现与液滴内部相比，链在液滴界面处变得紧凑。进一步的分段分析显示，链的末端部分富集于界面以最大化构象熵，并且比链的中间部分更扩展。我们发现大多数链段切向排列于液滴表面，仅链末端倾向于垂直于界面排列。这些趋势同样适用于天然蛋白质FUC LC和LAF-1 RGG，它们在界面处表现出比液滴内部更紧凑的链构象。我们的发现为生物分子凝聚体的界面性质提供了重要见解，并强调了使用简单聚合物物理模型理解潜在机制的价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37577555/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37577555/",
+  "paper_page_path": "papers/pubmed/37577555/index.html"
+}

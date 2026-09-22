@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodological soundness, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors describe an integrative structure modeling approach that converts in vivo genetic interaction measurements (pE-MAP data) into spatial restraints for determining the structure of the histone H3–H4 complex. They report a model accuracy of 3.8 Å and precision of 1 Å, compare pE-MAP-derived restraints with coevolution and cross-linking data, and propose extensions to deep-learning prediction, CRISPR–Cas9-based genetic interaction mapping, and modeling of disordered, transient, and host–pathogen assemblies.
+- **Visible evidence base** Abstract, Introduction, four main sections describing methods and results, figures referenced (Figs 1–3), and acknowledgements. No supplementary materials, figure panels, or raw data were provided.
+- **Missing materials affecting confidence** Figure contents (Figs 1–3) are referenced but not visible; no detailed methods section; no statistical details for MIC thresholds; no validation metrics beyond reported RMSD values; no code or data availability statements; no discussion of limitations or alternative interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting application of genetic interaction data to integrative structure determination, with the histone H3–H4 complex as a case study. The core idea, converting phenotypic profile similarities into distance restraints, is plausible and potentially useful for the structural biology community. However, the evidence provided is insufficient to fully evaluate the technical soundness of the method. Key figures are not visible, the description of the scoring function is high-level, and the reported accuracy and precision are stated without sufficient methodological detail or independent validation. The forward-looking sections on CRISPR–Cas9, deep learning, and disordered proteins are speculative and not supported by new data. The manuscript reads more as a perspective or methods overview than a fully evidenced research article.
+- **Who would be interested in the results, and why** Structural biologists interested in integrative or hybrid methods for macromolecular complexes, particularly those studying assemblies that are difficult to purify or conformationally heterogeneous. Geneticists and functional genomics researchers may also find the use of pE-MAP data for structural inference of interest. The potential extension to host–pathogen complexes and disordered proteins could appeal to a broader readership in infection biology and biophysics, though these sections are speculative.
+- **Major strengths** The concept of using in vivo genetic interaction data as a source of structural restraints is original and addresses a real gap in structural biology, namely the difficulty of studying complexes in their native environment. The comparison of pE-MAP data with coevolution and cross-linking data is a useful conceptual contribution. The manuscript is clearly written and accessible to nonspecialists, with a logical progression from method description to future opportunities.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that pE-MAP-derived restraints produce a model of the histone H3–H4 complex with an accuracy of 3.8 Å and precision of 1 Å.
+  - **Evidence pointer** Section "Structure of the histone H3–H4 complex computed using pE-MAP-derived restraints", Figs 2 and 3
+  - **Concern** The reported accuracy and precision values are stated without sufficient methodological detail. The description of the scoring function, sampling protocol, and validation procedure is high-level. The figures that would support these claims are not visible in the provided material. It is unclear how the accuracy was computed relative to the X-ray structure, whether the comparative models used as input biased the result, and how the precision estimate of 1 Å was derived.
+  - **Why it matters** The central claim of the manuscript is that pE-MAP data alone can drive accurate structure determination. Without a detailed and transparent description of the modeling protocol and validation, this claim cannot be assessed. The reported accuracy and precision are the quantitative basis for the method's utility, and their reliability is critical.
+  - **Resolution test** Provide the full methods, including the exact form of the Bayesian scoring function, the prior distributions, the sampling parameters, and the procedure for estimating precision. Show the actual figures with model ensembles and accuracy plots. Ideally, include a cross-validation analysis where the model is computed from a subset of restraints and compared to the X-ray structure.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors state that "the model accuracy improved from 12.7 to 3.8 Å when the number of pE-MAP distance restraints increased from 68 to 170."
+  - **Evidence pointer** Section "Structure of the histone H3–H4 complex computed using pE-MAP-derived restraints", Fig 3C
+  - **Concern** This claim is presented as a key result demonstrating the information content of pE-MAP data, but the figure is not visible and the statistical significance of the improvement is not discussed. It is unclear whether the improvement is monotonic, whether the selected subsets of restraints were randomly chosen or optimized, and whether the accuracy values are averages over the ensemble or for a single representative model.
+  - **Why it matters** The relationship between the number of restraints and model accuracy is a central argument for the utility of pE-MAP data. Without visible data and statistical context, the claim is not verifiable.
+  - **Resolution test** Show Fig 3C with error bars or confidence intervals. Describe how the restraint subsets were selected. Report whether the trend is consistent across multiple random subsets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and support
+  - **Claim pointer** The authors propose that genetic interaction mapping is complementary to deep-learning structure prediction and can be used to model disordered proteins, transient assemblies, and host–pathogen complexes.
+  - **Evidence pointer** Sections "Opportunities for integrative structure determination using structural models of subunits computed using deep-learning approaches", "Opportunities for integrative determination of the structural ensembles of disordered proteins", "Opportunities for integrative structure determination of transient protein assemblies", "Opportunities for integrative structure determination of host–pathogen macromolecular assemblies"
+  - **Concern** These sections are largely speculative and do not present new data or detailed feasibility analyses. For example, the claim that pE-MAP data can be used to model disordered proteins is based on the observation that tail–tail and tail–core mutation pairs have comparable MIC distributions to core–core pairs, but no modeling results are shown. The discussion of host–pathogen complexes is framed as a future opportunity without concrete examples or preliminary data.
+  - **Why it matters** The manuscript's broader impact depends on the generalizability of the method. Speculative claims without supporting evidence weaken the case for the method's applicability beyond the histone example.
+  - **Resolution test** Either remove or clearly label these sections as perspective, or provide preliminary data or a detailed feasibility argument for at least one of the proposed applications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "integrative structure modeling is increasingly used" is vague. It would be clearer to specify the types of data typically integrated and the context of use.
+  - **Required correction** Rephrase to indicate the range of data sources (e.g., cross-linking, SAXS, cryo-EM) and the types of assemblies for which integrative modeling is commonly applied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Section "Determining the structures of biomolecular assemblies using quantitative genetic interaction mapping"
+  - **Issue** The description of the MIC threshold (0.3) and the conversion of MIC values to distance restraints is brief. The exact functional form of the Bayesian scoring term is not given.
+  - **Required correction** Provide the mathematical form of the scoring function or cite a prior publication where it is fully described, and justify the MIC threshold choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section "Opportunities for integrative structure determination of host–pathogen macromolecular assemblies"
+  - **Evidence pointer** Same section, paragraph on Nsp3
+  - **Issue** The term "amendable" appears to be a typo for "amenable."
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Entire manuscript
+  - **Issue** The manuscript does not discuss potential limitations of the pE-MAP approach, such as the dependence on the choice of phenotypic readout, the possibility of indirect genetic interactions, or the impact of mutation choice on restraint quality.
+  - **Required correction** Add a paragraph acknowledging these limitations and how they might affect the generalizability of the method.
+- **Technical failings that need to be addressed before the case is established** The lack of visible figures (Figs 1–3) prevents verification of the central results. The methods description is insufficiently detailed to reproduce the modeling protocol. The reported accuracy and precision are not accompanied by sufficient statistical or methodological context. The speculative sections on future applications are not supported by data.
+- **Assessment against Nature-style criteria** Originality: The use of genetic interaction data for structure determination is a novel concept, though the manuscript presents it as a review of prior work rather than a new advance. Scientific importance: The potential to determine structures from in vivo data is significant, but the evidence presented is not sufficient to establish the method's broad utility. Interdisciplinary readership: The manuscript bridges genetics and structural biology, which could appeal to a wide audience, but the speculative sections may dilute the impact. Technical soundness: Not fully assessable from the provided material due to missing figures and methods detail. Readability for nonspecialists: The manuscript is well written and accessible, with clear explanations of key concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is promising, but the manuscript requires substantial additional detail, visible figures, and a more rigorous treatment of validation before the claims can be assessed. If the missing materials are provided and the technical concerns are addressed, the manuscript could become a useful contribution to the integrative modeling literature.
+
+## Risk / unsupported claims
+- The claim of 3.8 Å accuracy and 1 Å precision is not verifiable without visible figures and detailed methods.
+- The claim that pE-MAP data are complementary to deep-learning prediction is plausible but not supported by any comparative analysis in the manuscript.
+- The claim that pE-MAP data can be used to model disordered proteins is unsupported by modeling results.
+- The claim that pE-MAP data can be extended to host–pathogen complexes is speculative and not backed by data.
+- The statement that "the more pE-MAP data that are used, the more accurate is the model" is presented as a general conclusion but is only shown for a single case with no statistical analysis.

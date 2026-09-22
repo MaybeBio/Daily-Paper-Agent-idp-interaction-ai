@@ -1,0 +1,388 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.12.603200",
+  "title": "A conformational fingerprint for amyloidogenic light chains",
+  "doi": "10.1101/2024.07.12.603200",
+  "abstract": "Immunoglobulin light chain amyloidosis (AL) and multiple myeloma (MM) both share the overproduction of a clonal light chain (LC). However, while LCs in MM remain soluble in circulation, AL LCs misfold into toxic soluble species and amyloid fibrils that accumulate in organs, leading to distinct clinical manifestations. The significant sequence variability of LCs has hindered understanding of the mechanisms driving LC aggregation. Nevertheless, emerging biochemical properties, including dimer stability, conformational dynamics, and proteolysis susceptibility, distinguish AL LCs from those in MM under native conditions. This study aimed to identify a conformational fingerprint distinguishing AL from MM LCs. Using small-angle X-ray scattering (SAXS) under native conditions, we analyzed four AL and two MM LCs. We observed that AL LCs exhibited a slightly larger radius of gyration and greater deviations from X-ray crystallography-determined or predicted structures, reflecting enhanced conformational dynamics. SAXS data, integrated with molecular dynamics (MD) simulations, revealed a conformational ensemble where LCs adopt multiple states, with variable and constant domains either bent or straight. AL LCs displayed a distinct, low-populated, straight conformation (termed H state), which maximized solvent accessibility at the interface between constant and variable domains. Hydrogen-deuterium exchange mass spectrometry (HDX-MS) experimentally validated this H state. These findings reconcile diverse experimental observations and provide a precise structural target for future drug design efforts.",
+  "authors": [
+    "Paissoni C",
+    "Puri S",
+    "Broggini L",
+    "Sriramoju MK",
+    "Maritan M",
+    "Russo R",
+    "Speranzini V",
+    "Ballabio F",
+    "Nuvolone M",
+    "Merlini G",
+    "Palladini G",
+    "Hsu SD",
+    "Ricagno S",
+    "Camilloni C"
+  ],
+  "published_date": "2024-07-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.12.603200",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.12.603200.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR880882",
+    "raw_record": {
+      "id": "PPR880882",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR880882"
+        ]
+      },
+      "doi": "10.1101/2024.07.12.603200",
+      "title": "A conformational fingerprint for amyloidogenic light chains",
+      "authorString": "Paissoni C, Puri S, Broggini L, Sriramoju MK, Maritan M, Russo R, Speranzini V, Ballabio F, Nuvolone M, Merlini G, Palladini G, Hsu SD, Ricagno S, Camilloni C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Paissoni C",
+            "lastName": "Paissoni",
+            "firstName": "Cristina",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioscience, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Puri S",
+            "lastName": "Puri",
+            "firstName": "Sarita",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioscience, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Broggini L",
+            "lastName": "Broggini",
+            "firstName": "Luca",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9472-6854"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular and Translational Cardiology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sriramoju MK",
+            "lastName": "Sriramoju",
+            "firstName": "Manoj",
+            "initials": "MK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biological Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maritan M",
+            "lastName": "Maritan",
+            "firstName": "Martina",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioscience, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Russo R",
+            "lastName": "Russo",
+            "firstName": "Rosaria",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0011-5775"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioscience, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Speranzini V",
+            "lastName": "Speranzini",
+            "firstName": "Valentina",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7219-3097"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioscience, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ballabio F",
+            "lastName": "Ballabio",
+            "firstName": "Federico",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioscience, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nuvolone M",
+            "lastName": "Nuvolone",
+            "firstName": "Mario",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8334-1684"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Medicine, , , ; Amyloidosis Research and Treatment Center, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Merlini G",
+            "lastName": "Merlini",
+            "firstName": "Giampaolo",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7680-3254"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Medicine, , , ; Amyloidosis Research and Treatment Center, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Palladini G",
+            "lastName": "Palladini",
+            "firstName": "Giovanni",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Medicine, , , ; Amyloidosis Research and Treatment Center, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hsu SD",
+            "lastName": "Hsu",
+            "firstName": "Shang-Te Danny",
+            "initials": "SD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biological Chemistry, , ,"
+                },
+                {
+                  "affiliation": "Institute of Biomedical Sciences, , ,"
+                },
+                {
+                  "affiliation": "International Institute for Sustainability with Knotted Chiral Meta Matter (SKCM2), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ricagno S",
+            "lastName": "Ricagno",
+            "firstName": "Stefano",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioscience, , ,"
+                },
+                {
+                  "affiliation": "Institute of Molecular and Translational Cardiology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Camilloni C",
+            "lastName": "Camilloni",
+            "firstName": "Carlo",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioscience, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7680-3254"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8334-1684"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9472-6854"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7219-3097"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0011-5775"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Immunoglobulin light chain amyloidosis (AL) and multiple myeloma (MM) both share the overproduction of a clonal light chain (LC). However, while LCs in MM remain soluble in circulation, AL LCs misfold into toxic soluble species and amyloid fibrils that accumulate in organs, leading to distinct clinical manifestations. The significant sequence variability of LCs has hindered understanding of the mechanisms driving LC aggregation. Nevertheless, emerging biochemical properties, including dimer stability, conformational dynamics, and proteolysis susceptibility, distinguish AL LCs from those in MM under native conditions. This study aimed to identify a conformational fingerprint distinguishing AL from MM LCs. Using small-angle X-ray scattering (SAXS) under native conditions, we analyzed four AL and two MM LCs. We observed that AL LCs exhibited a slightly larger radius of gyration and greater deviations from X-ray crystallography-determined or predicted structures, reflecting enhanced conformational dynamics. SAXS data, integrated with molecular dynamics (MD) simulations, revealed a conformational ensemble where LCs adopt multiple states, with variable and constant domains either bent or straight. AL LCs displayed a distinct, low-populated, straight conformation (termed H state), which maximized solvent accessibility at the interface between constant and variable domains. Hydrogen-deuterium exchange mass spectrometry (HDX-MS) experimentally validated this H state. These findings reconcile diverse experimental observations and provide a precise structural target for future drug design efforts.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Telethon",
+            "grantId": "GJC23044",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.07.12.603200"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.07.12.603200"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR880882"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR880882&type=FILE&fileName=EMS197552-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40028903",
+            "reference": "eLife. 2025 Mar;13:RP102002",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS197552",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-07-15",
+      "firstPublicationDate": "2024-07-13",
+      "firstIndexDate": "2024-07-15",
+      "fullTextReceivedDate": "2025-01-18",
+      "hasEvaluations": "Y"
+    }
+  }
+}

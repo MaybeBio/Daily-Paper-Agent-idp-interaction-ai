@@ -1,0 +1,241 @@
+{
+  "identity": {
+    "pmid": "42057275",
+    "doi": "10.1021/acs.biomac.6c00197",
+    "title": "Charge-Symmetry-Mediated Liquid-Liquid Phase Separation Enables Tailored High-Protein Food Models."
+  },
+  "content": {
+    "abstract": "Precise control of the matter state and dynamics is a key challenge in developing novel food matrices using concentrated protein coacervates. Herein, we report a pH-driven liquid-gel-solid transition of protein coacervates composed of beta-lactoglobulin (BLG) and lysozyme (LYS). The terminal relaxation time of the coacervate extended from 0.17 ms to 267 s during the phase transition due to increased affinity. Spin-spin relaxation data, hydrogen bond competition experiments, and molecular dynamics simulations revealed that increasing the pH from 6 to 8 shifted the BLG/LYS stoichiometric ratio from 3:1 to 1:1. The enhanced charge symmetry expanded the interaction interface between BLG and LYS by 1.8 times, thereby promoting the desolvation of bound water and the formation of protein-protein hydrogen bonds that consequently slowed the dynamics of the BLG-LYS coacervates. Overall, this study introduces a new class of protein-based food models with tunable physical properties and offers valuable insights into their precise control.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Lactoglobulins/chemistry",
+      "Phase Separation",
+      "*Muramidase/chemistry",
+      "Hydrogen-Ion Concentration",
+      "Molecular Dynamics Simulation",
+      "Hydrogen Bonding",
+      "Phase Transition",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jiaxuan",
+        "Zhou, Jiajia",
+        "Pan, Fei",
+        "Zheng, Jiabao",
+        "Sun, Weizheng"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Zhou J",
+        "Pan F",
+        "Zheng J",
+        "Sun W"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-0413-1435",
+        "ORCID: 0000-0002-2258-6757",
+        "ORCID: 0000-0001-5769-4275"
+      ],
+      "affiliations": [
+        "School of Food Science and Engineering, South China University of Technology, Guangzhou 510641, PR China.",
+        "School of Emergent Soft Matter, South China University of Technology, Guangzhou 510641, PR China.",
+        "State Key Laboratory of Resource Insects, Institute of Apicultural Research, Chinese Academy of Agricultural Sciences, Beijing 100093, China.",
+        "School of Food Science and Engineering, South China University of Technology, Guangzhou 510641, PR China.",
+        "School of Food Science and Engineering, South China University of Technology, Guangzhou 510641, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jiaxuan",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0009-0004-0413-1435"
+        ],
+        "affiliations": [
+          "School of Food Science and Engineering, South China University of Technology, Guangzhou 510641, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Jiajia",
+        "short_name": "Zhou J",
+        "identifiers": [
+          "0000-0002-2258-6757"
+        ],
+        "affiliations": [
+          "School of Emergent Soft Matter, South China University of Technology, Guangzhou 510641, PR China."
+        ]
+      },
+      {
+        "full_name": "Pan, Fei",
+        "short_name": "Pan F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Resource Insects, Institute of Apicultural Research, Chinese Academy of Agricultural Sciences, Beijing 100093, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Jiabao",
+        "short_name": "Zheng J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Food Science and Engineering, South China University of Technology, Guangzhou 510641, PR China."
+        ]
+      },
+      {
+        "full_name": "Sun, Weizheng",
+        "short_name": "Sun W",
+        "identifiers": [
+          "0000-0001-5769-4275"
+        ],
+        "affiliations": [
+          "School of Food Science and Engineering, South China University of Technology, Guangzhou 510641, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2026 Jun 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/30 06:33",
+    "fetched_at": "2026-09-18 02:54:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42057275",
+      "31264885",
+      "24164315",
+      "38731878",
+      "41352831",
+      "33155532",
+      "41603224",
+      "36182948",
+      "25099892",
+      "40450971",
+      "38395276",
+      "41895965",
+      "15923230",
+      "40353860",
+      "24678897",
+      "31398284",
+      "24530705",
+      "16089384",
+      "41504625",
+      "35171602",
+      "26181078",
+      "32909899",
+      "12180972",
+      "30114421",
+      "16530214",
+      "24956574",
+      "40854822",
+      "27071378",
+      "15620329",
+      "12176271",
+      "41360527",
+      "27472903",
+      "28880549",
+      "9876928",
+      "21614557",
+      "17045288",
+      "23961700",
+      "17228908",
+      "38428163",
+      "35073092",
+      "27456117",
+      "42217362",
+      "27352848",
+      "30380430",
+      "31000234",
+      "34240870",
+      "23458495",
+      "39585665",
+      "21413681",
+      "24338946",
+      "15244462",
+      "40698779",
+      "38261673",
+      "34570465",
+      "27085639",
+      "22395160",
+      "38965780",
+      "8142474",
+      "11856834",
+      "28920435",
+      "20197185",
+      "21724434",
+      "41969255",
+      "34826718",
+      "17905618",
+      "39603294",
+      "9651864",
+      "29549741",
+      "16800657",
+      "16398532",
+      "37817538",
+      "9062118",
+      "37068535",
+      "23912807",
+      "31725291",
+      "37595383",
+      "10446307",
+      "27905589",
+      "26950406",
+      "16438608",
+      "40056119",
+      "40053704",
+      "41575371",
+      "29489360",
+      "34346669",
+      "38722759",
+      "21504009",
+      "39778472",
+      "8203888",
+      "20857971",
+      "28435056",
+      "10520954",
+      "22894179",
+      "34098435",
+      "24880994",
+      "16854363",
+      "37904335",
+      "23708094",
+      "37598650",
+      "21932852"
+    ],
+    "review": [
+      "42057275",
+      "40854822"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.6c00197",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (Perspective article)
+- **Assessment boundary** Scientific content, structure, clarity, and support for claims as presented in the provided text
+- **Shared manuscript claim summary** The authors argue that deep learning and generative modeling have transformed protein and RNA design, enabling rapid creation of novel biomolecules. They survey recent methods (backbone generation, sequence design, joint co-design), applications (functional tools, therapeutics), and emerging RNA design capabilities, concluding that AI-driven molecular engineering is entering a new era with unified protein–RNA modeling on the horizon.
+- **Visible evidence base** Abstract, Introduction, sections on protein design methods and applications, RNA design section, Conclusion, author contributions, conflict of interest, ethics, data availability statements
+- **Missing materials affecting confidence** No figures, tables, or reference list were provided. No experimental data or primary results are presented (consistent with a Perspective). The manuscript relies entirely on cited literature, but the reference list is absent from the supplied material, preventing verification of citation accuracy and completeness.
+
+## Reviewer
+- **Overall assessment** This is a broad, well-organized Perspective that surveys recent advances in AI-driven protein and RNA design. The authors demonstrate familiarity with key methods and applications, and the structure is logical. However, the manuscript reads more as a descriptive catalogue than a critical perspective. Several claims are made without sufficient nuance or critical evaluation, and the RNA design section is notably thinner than the protein section. The absence of figures and references in the supplied material limits full assessment, but based on the text alone, the scientific contribution is modest and largely derivative of existing reviews. The perspective would benefit from a clearer thesis, deeper critical analysis, and more balanced treatment of the two fields.
+- **Who would be interested in the results, and why** Researchers in computational biology, protein engineering, RNA biology, and AI for science would find this a useful entry point to recent literature. Students and newcomers to the field may appreciate the concise overview of methods and applications. However, specialists are unlikely to encounter new insights, and the lack of critical depth reduces its value for experts seeking perspective.
+- **Major strengths**  
+  - Clear organization with logical progression from methods to applications.  
+  - Broad coverage of recent protein design methods (RFdiffusion, Chroma, ProteinMPNN, ESM3, etc.) and applications (cyclic peptides, binders, enzymes, CAR-T, antivenoms).  
+  - Timely topic with high current relevance.  
+  - Accessible writing style suitable for a general scientific audience.  
+  - Appropriate acknowledgment of RNA design challenges (generalization, experimental validation).
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific depth and critical analysis  
+  - **Claim pointer** The manuscript claims to provide a "perspective" but largely presents a descriptive summary of recent work without critical evaluation, comparative analysis, or forward-looking synthesis.  
+  - **Evidence pointer** Throughout; e.g., protein design methods section lists methods sequentially without comparing strengths, limitations, or trade-offs.  
+  - **Concern** The manuscript functions as a literature review rather than a perspective. A perspective should offer a distinctive viewpoint, critical assessment of current trends, or a roadmap for future research. Here, the authors describe what has been done but do not critically evaluate why certain approaches succeed or fail, what key bottlenecks remain, or how the field should prioritize future efforts. The conclusion is generic ("new era of AI-driven precision") without specific, actionable insights.  
+  - **Why it matters** The stated genre is "Perspective," which implies interpretive and forward-looking content. Without critical analysis, the manuscript does not fulfill this genre's expectations and offers limited added value over existing reviews.  
+  - **Resolution test** The authors should add a dedicated section or substantially revise existing sections to include: (1) comparative analysis of competing methods with explicit discussion of trade-offs; (2) identification of key unsolved problems and why they are difficult; (3) a clear, specific vision for future developments with testable predictions or proposed directions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Balance and completeness  
+  - **Claim pointer** The title promises "Protein design and RNA design" as parallel topics, but the RNA design section is disproportionately brief and less detailed.  
+  - **Evidence pointer** RNA DESIGN section (approximately 1 paragraph of methods plus brief discussion) versus multiple detailed subsections for protein design.  
+  - **Concern** The RNA design section covers 3D structure prediction tools (RoseTTAFoldNA, AlphaFold3, etc.) and mentions generative models, but lacks the depth and specificity given to protein design. Key topics such as RNA sequence design algorithms, riboswitch engineering, RNA-based therapeutics, and CRISPR-related RNA design are absent or only superficially mentioned. The challenges listed (generalization, experimental validation) are not elaborated with concrete examples or potential solutions.  
+  - **Why it matters** The title implies balanced coverage. The current imbalance may mislead readers about the relative maturity or importance of RNA design and weakens the manuscript's claim to provide a comprehensive perspective on both fields.  
+  - **Resolution test** Expand the RNA design section to include: (1) specific examples of successful RNA design (e.g., aptamers, riboswitches, mRNA therapeutics); (2) discussion of key algorithms and their limitations; (3) comparison with protein design challenges; (4) a clearer statement of why RNA design lags behind protein design and what is needed to close the gap.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Support for claims  
+  - **Claim pointer** The manuscript makes several strong claims about "unprecedented accuracy," "rapid and precise creation," and "transformative potential" without providing quantitative evidence or critical assessment of reported success rates.  
+  - **Evidence pointer** Abstract ("unprecedented accuracy"), protein design applications sections (e.g., "high affinity," "significantly improved survival"), RNA design section ("significant potential").  
+  - **Concern** While a Perspective need not include primary data, claims about performance and impact should be tempered with appropriate caveats. For example, the statement that generative models achieve "unprecedented accuracy" is not qualified by discussion of experimental validation rates, which are known to vary widely across targets and methods. Similarly, therapeutic claims (e.g., antivenom, CAR-T) are presented without acknowledging the substantial gap between preclinical success and clinical translation.  
+  - **Why it matters** Overstated claims without caveats may mislead readers, particularly those new to the field, and reduce the manuscript's credibility among specialists.  
+  - **Resolution test** Add qualifying language throughout, such as "in silico predictions suggest," "reported success rates vary," or "preclinical studies indicate." Include a brief discussion of the typical gap between computational design and experimental validation, citing known examples where designs failed or required extensive optimization.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Introduction, first sentence  
+  - **Evidence pointer** Introduction, paragraph 1  
+  - **Issue** The opening sentence is a general statement about proteins and RNA that does not directly set up the manuscript's focus on AI-driven design.  
+  - **Required correction** Consider starting with a more specific statement about the recent impact of deep learning on biomolecular design to immediately orient the reader.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Protein design methods, sequence design subsection  
+  - **Evidence pointer** Sequence design section  
+  - **Issue** The discussion of sequence design methods (ProteinMPNN, CarbonDesign, ProGen, ESM-IF1) is descriptive but does not mention key limitations such as sequence diversity, designability metrics, or the challenge of designing for function rather than structure.  
+  - **Required correction** Add a sentence or two acknowledging these limitations and referencing recent work on functional design.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Applications, therapeutic development subsection  
+  - **Evidence pointer** "Application in immune therapy" and "Venom toxin antagonist design"  
+  - **Issue** The therapeutic applications are presented as success stories without discussing potential off-target effects, immunogenicity concerns, or regulatory hurdles.  
+  - **Required correction** Add a brief caveat about the translational challenges beyond initial design success.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** RNA design section  
+  - **Evidence pointer** RNA DESIGN section  
+  - **Issue** The RNA design section lists several structure prediction tools but does not explain how they differ in approach or when one might be preferred over another.  
+  - **Required correction** Add a sentence comparing the methodologies (e.g., diffusion-based vs. language model-based) and their respective strengths.  
+  - **Concern ID** R1-m5  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Conclusion  
+  - **Evidence pointer** Conclusion  
+  - **Issue** The conclusion mentions "protein–RNA complexes" as an emerging frontier but does not elaborate on specific challenges or opportunities in this area.  
+  - **Required correction** Expand the conclusion with 2–3 sentences on what unified protein–RNA modeling would require and what applications it would enable.
+
+## Risk / unsupported claims
+- The claim of "unprecedented accuracy" in protein design (Abstract) is not supported by quantitative data or comparative benchmarks in the text.
+- The statement that RNA design tools "have significantly advanced" (RNA DESIGN section) is vague and not substantiated with specific performance metrics or examples.
+- The assertion that "the path from in silico generation to functional application remains underdeveloped" (RNA DESIGN section) is presented without evidence or examples of specific failures or bottlenecks.
+- The claim that protein design approaches have "broad applications ranging from cyclic peptide and non-natural fold engineering to functional tool development" (Abstract) is supported only by narrative description, not by success rates or comparative effectiveness.
+- The therapeutic potential claims (e.g., antivenom, CAR-T) are based on preclinical studies but are presented without acknowledging the typical attrition rate in translational development.
+- The statement that "unified protein–RNA modeling" will accelerate creation of programmable biological systems (Conclusion) is speculative and not grounded in specific technical proposals or preliminary results.

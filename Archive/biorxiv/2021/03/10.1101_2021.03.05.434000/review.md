@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report that SARS-CoV-2 Nucleoprotein (NCAP) and its low-complexity domain (LCD) form amyloid-like fibrils during liquid–liquid phase separation in the presence of viral RNA. They identify three 6-residue segments within the LCD that drive fibril formation, determine atomic structures of fibrils formed by each segment, and use these structures to design peptide inhibitors of NCAP fibril formation and phase separation, suggesting a therapeutic route for Covid-19.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, structural data, validation statistics, inhibitor efficacy data, and any control experiments are not available. The absence of these materials precludes independent verification of the central claims.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that links liquid–liquid phase separation of SARS-CoV-2 Nucleoprotein to amyloid-like fibril formation, with structural characterization and inhibitor design. However, the evidence base is limited to the abstract, and several claims are not verifiable without access to the full manuscript. The scientific premise is plausible, but the strength of the conclusions cannot be assessed from the provided material.
+- **Who would be interested in the results, and why** Structural biologists studying amyloid formation and protein aggregation, virologists investigating SARS-CoV-2 replication mechanisms, and researchers in the field of liquid–liquid phase separation and its role in disease. The potential therapeutic angle may also interest drug discovery groups focused on Covid-19.
+- **Major strengths** The identification of specific 6-residue segments driving fibril formation and the use of atomic structures to inform inhibitor design represent a logical and potentially impactful approach. The connection between phase separation and amyloid formation in a viral protein is a novel angle that could have broader implications.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that NCAP and its LCD form amyloid-like fibrils during liquid–liquid phase separation in the presence of viral RNA.  
+  - **Evidence pointer** Abstract only; no experimental section or figure references provided  
+  - **Concern** The abstract states that fibril formation occurs, but no data are shown to support this observation. It is unclear whether fibril formation was confirmed by electron microscopy, X-ray diffraction, or other methods, and whether the fibrils are truly amyloid-like as opposed to amorphous aggregates.  
+  - **Why it matters** The central premise of the manuscript rests on the demonstration of amyloid-like fibril formation. Without experimental evidence, this claim cannot be evaluated, and the subsequent structural and inhibitor work loses its foundation.  
+  - **Resolution test** Provide representative micrographs, diffraction patterns, or other biophysical data demonstrating amyloid-like fibril morphology and tinctorial properties, along with appropriate controls.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Structural validation  
+  - **Claim pointer** The claim that atomic structures were determined for fibrils formed by each of the three identified segments.  
+  - **Evidence pointer** Abstract only; no structural coordinates, cryo-EM maps, or crystallographic data referenced  
+  - **Concern** No details are given on the method used for structure determination (e.g., cryo-EM, micro-electron diffraction, or X-ray crystallography), nor are resolution, model quality, or validation metrics provided. The reliability of the structures is therefore unknown.  
+  - **Why it matters** The inhibitor design is stated to be informed by these structures. If the structures are of insufficient quality or incorrectly interpreted, the inhibitor design rationale would be compromised.  
+  - **Resolution test** Include structural statistics, such as resolution, map-model correlation, or R-factors, and describe the method of structure determination in the full manuscript.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Inhibitor efficacy  
+  - **Claim pointer** The claim that peptide inhibitors of NCAP fibril formation and liquid–liquid phase separation were designed, suggesting a therapeutic route for Covid-19.  
+  - **Evidence pointer** Abstract only; no inhibition data or experimental details provided  
+  - **Concern** The abstract states that inhibitors were designed, but no data are presented to show that they actually inhibit fibril formation or phase separation. The therapeutic suggestion is speculative without evidence of efficacy in relevant assays or models.  
+  - **Why it matters** The therapeutic implication is a major selling point of the work. Without demonstrated inhibition, the claim is unsupported and the translational relevance is overstated.  
+  - **Resolution test** Provide dose-response data for inhibition of fibril formation and phase separation, and ideally evidence of antiviral activity in cell-based assays.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Specificity and relevance  
+  - **Claim pointer** The claim that the identified segments drive fibril formation within the LCD.  
+  - **Evidence pointer** Abstract only; no mutagenesis or truncation experiments referenced  
+  - **Concern** It is not clear whether the three segments are necessary and sufficient for fibril formation in the context of the full NCAP or LCD, or whether they merely form fibrils in isolation. The relevance of these segments to the full-length protein is not established.  
+  - **Why it matters** The structural and inhibitor work is based on these segments. If they do not play a dominant role in the full-length protein, the conclusions may not translate to the biological context.  
+  - **Resolution test** Include experiments showing that mutation or deletion of these segments abolishes or reduces fibril formation in the full-length NCAP or LCD.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The term "amyloid-like fibrils" is used without definition or criteria for classification.  
+  - **Required correction** Define the criteria used to classify fibrils as amyloid-like, such as binding to thioflavin T or Congo red, or cross-beta structure.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Background  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract does not explain why amyloid formation by NCAP is biologically relevant or how it relates to viral replication or pathogenesis.  
+  - **Required correction** Add a sentence in the abstract or introduction that contextualizes the potential role of NCAP amyloid formation in the viral life cycle.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Overstatement  
+  - **Affected element** Therapeutic claim  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The phrase "suggesting a therapeutic route for Covid-19" is speculative given the lack of in vivo or antiviral data.  
+  - **Required correction** Soften the claim to indicate that the inhibitors may serve as a starting point for further development, rather than implying a direct therapeutic route.
+
+- **Technical failings that need to be addressed before the case is established**  
+  - R1-M1: Lack of experimental evidence for amyloid-like fibril formation.  
+  - R1-M2: Lack of structural validation details.  
+  - R1-M3: Lack of inhibitor efficacy data.  
+  - R1-M4: Lack of evidence for segment relevance in the full-length protein.
+
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of amyloid formation by a viral nucleoprotein during phase separation is novel and could be of interest, but the abstract does not provide enough detail to judge the depth of novelty.  
+  - **Scientific importance** If substantiated, the findings could have implications for understanding SARS-CoV-2 biology and for therapeutic development, but the importance is not fully established from the abstract alone.  
+  - **Interdisciplinary readership** The topic bridges virology, structural biology, and biophysics, which could attract a broad audience, but the abstract is too brief to engage nonspecialists effectively.  
+  - **Technical soundness** Cannot be assessed due to lack of methods and data.  
+  - **Readability for nonspecialists** The abstract is concise and generally clear, but terms like "low-complexity domain" and "liquid–liquid phase separation" may require more context for a general audience.
+
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the lack of experimental details and validation data means that the central claims cannot be verified. A supportive recommendation would require access to the full manuscript and resolution of the major concerns listed above.
+
+## Risk / unsupported claims
+- The claim that NCAP and its LCD form amyloid-like fibrils during liquid–liquid phase separation is unsupported without experimental data.
+- The claim that atomic structures were determined for fibrils formed by each of the three segments is unverifiable without structural statistics or coordinates.
+- The claim that peptide inhibitors were designed and that this suggests a therapeutic route for Covid-19 is unsupported without inhibition or antiviral efficacy data.
+- The relevance of the three identified segments to fibril formation in the full-length NCAP is not established.

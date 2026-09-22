@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41394589",
+  "title": "BoltzGen: Toward Universal Binder Design.",
+  "authors": "Stark, Hannes; Faltings, Felix; Choi, MinGyu; Xie, Yuxin; Hur, Eunsu; O'Donnell, Timothy; Bushuiev, Anton; Ucar, Talip; Passaro, Saro; Mao, Weian; Reveiz, Mateo; Bushuiev, Roman; Pluskal, Tomas; Sivic, Josef; Kreis, Karsten; Vahdat, Arash; Ray, Shamayeeta; Goldstein, Jonathan T; Savinov, Andrew; Hambalek, Jacob A; Gupta, Anshika; Taquiri-Diaz, Diego A; Zhang, Yaotian; Hatstat, A Katherine; Arada, Angelika; Kim, Nam Hyeong; Tackie-Yarboi, Ethel; Boselli, Dylan; Schnaider, Lee; Liu, Chang C; Li, Gene-Wei; Hnisz, Denes; Sabatini, David M; DeGrado, William F; Wohlwend, Jeremy; Corso, Gabriele; Barzilay, Regina; Jaakkola, Tommi",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-12-15",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 8,
+  "one_liner_zh": "BoltzGen 是一个全原子生成模型，统一设计与结构预测，可设计结合无序蛋白等多种靶标的蛋白/肽类粘合剂，并在湿实验中对无序蛋白靶标验证了纳摩尔级结合，直接相关于无序蛋白介导的 PPI 设计，但机制建模深度有限。",
+  "abstract": "We introduce BoltzGen, an all-atom generative model for designing proteins and peptides across all modalities to bind a wide range of biomolecular targets. BoltzGen builds strong structural reasoning capabilities about target-binder interactions into its generative design process. This is achieved by unifying design and structure prediction, resulting in a single model that also reaches state-of-the-art folding performance. BoltzGen's generation process can be controlled with a flexible design specification language over covalent bonds, structure constraints, binding sites, and more. We experimentally validate these capabilities in a total of eight diverse wetlab design campaigns with functional and affinity readouts across 26 targets. The experiments span binder modalities from nanobodies to disulfide-bonded peptides and include targets ranging from disordered proteins to small molecules. For instance, we test 15 nanobody and protein binder designs against each of nine novel targets with low similarity to any protein with a known bound structure. For both binder modalities, this yields nanomolar binders for 66% of targets. We release model weights, data, and both inference and training code at: https://github.com/HannesStark/boltzgen.",
+  "abstract_zh": "我们介绍BoltzGen，一种全原子生成模型，用于设计蛋白质和肽段，涵盖所有模态，以结合广泛的生物分子靶标。BoltzGen在其生成设计过程中构建了关于靶标-结合物相互作用的强结构推理能力。这是通过统一设计和结构预测实现的，从而形成一个单一模型，同时达到最先进的折叠性能。BoltzGen的生成过程可通过灵活的规格语言控制，涵盖共价键、结构约束、结合位点等。我们在总共八个多样化的湿实验设计活动中实验验证了这些能力，涉及26个靶标的功能和亲和力读数。实验涵盖从纳米抗体到二硫键连接肽段的结合物模态，并包括从无序蛋白质到小分子的靶标。例如，我们针对九个与任何已知结合结构蛋白质相似性低的新靶标，测试了15种纳米抗体和蛋白质结合物设计。对于这两种结合物模态，这为66%的靶标产生了纳摩尔级结合物。我们在https://github.com/HannesStark/boltzgen发布模型权重、数据以及推理和训练代码。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41394589/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41394589/",
+  "paper_page_path": "papers/pubmed/41394589/index.html"
+}

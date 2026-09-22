@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37923923",
+  "title": "Conformational dynamics of alpha-synuclein and study of its intramolecular forces in the presence of selected compounds.",
+  "authors": "Khatooni, Zahed; Akhtari, Keivan; Wilson, Heather L",
+  "journal": "Scientific reports",
+  "published_date": "2023-11-04",
+  "window": {
+    "start": "2023-10-30",
+    "end": "2023-11-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究用MD模拟和对接研究α-突触核蛋白寡聚体的构象动态及配体对链间相互作用的影响，对象为IDP且涉及互作机制，但聚焦寡聚体内部而非典型PPI，方法为物理模拟，整体相关但深度有限。",
+  "abstract": "Protein misfolding and aggregation play crucial roles in amyloidogenic diseases through the self-assembly of intrinsically disordered proteins (IDPs) in type II diabetes (T2D), Alzheimer's disease (AD) and Parkinson's disease (PD). PD is the most common neurodegenerative disorder after AD, and is associated with the loss of dopaminergic signaling, which causes motor and nonmotor signs and symptoms. Lewy bodies and Lewy neurites are common pathological hallmarks of PD that are mainly composed of aggregates of disordered alpha-synuclein (alpha-Syn). There have been many efforts to develop chemical compounds to prevent aggregation or facilitate disruption of the aggregates. Furthermore, the roles and interactions of many compounds have yet to be revealed at the atomistic level, especially their impacts on the dynamics and chain-chain interactions of the oligomers, which are of interest in this study. The conformational diversity and detailed interactions among homo-oligomer chains of alpha-Syn are not fully discovered; identifying these might help uncover a practical approach to developing a potent therapy. In this study, we used an in-silico investigation to address the conformational diversity of alpha-Syn oligomer. The roles of several point mutations in protein aggregation in PD are known; we take this further by evaluating the interaction energies and contributions of all residues in stability and residue-chain interactions. In this study, we docked chemical derivatives of three compounds with high drug-likeness properties to evaluate the roles of our ligands in the conformational dynamicity of the oligomers, with emphasis on intramolecular forces. Free energy evaluation of the modeled inter and intramolecular interactions through MD simulation shows effective interaction and binding between alpha-Syn and our compounds. However, we find that they do not significantly disrupt the chain-chain interactions, compared to unliganded simulation.",
+  "abstract_zh": "蛋白质错误折叠和聚集通过 intrinsically disordered proteins (IDPs) 的自组装在淀粉样疾病中发挥关键作用，这些疾病包括 2 型糖尿病 (T2D)、阿尔茨海默病 (AD) 和帕金森病 (PD)。PD 是继 AD 之后最常见的神经退行性疾病，与多巴胺能信号传导的丧失相关，这导致运动和非运动体征和症状。路易小体和路易神经突是 PD 的常见病理标志，主要由无序的 alpha-synuclein (alpha-Syn) 聚集体组成。已有许多努力开发化合物以阻止聚集或促进聚集体的解离。此外，许多化合物的作用和相互作用尚未在原子水平上揭示，特别是它们对寡聚体动力学和链-链相互作用的影响，这些是本研究的关注点。alpha-Syn 同源寡聚体链的构象多样性和详细相互作用尚未完全发现；识别这些可能有助于找到开发有效疗法的实用途径。在本研究中，我们使用 in-silico 调查来探讨 alpha-Syn 寡聚体的构象多样性。PD 中蛋白质聚集的若干点突变的作用已知；我们通过评估所有残基在稳定性和残基-链相互作用中的相互作用能和贡献来进一步推进。在本研究中，我们对接了三种具有高类药性化合物的化学衍生物，以评估我们的配体在寡聚体构象动态性中的作用，重点放在分子内力上。通过 MD 模拟对建模的分子间和分子内相互作用的自由能评估显示 alpha-Syn 与我们的化合物之间存在有效相互作用和结合。然而，我们发现与未配体模拟相比，它们并未显著破坏链-链相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37923923/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37923923/",
+  "paper_page_path": "papers/pubmed/37923923/index.html"
+}

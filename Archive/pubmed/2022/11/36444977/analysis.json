@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36444977",
+  "title": "Fixation can change the appearance of phase separation in living cells.",
+  "authors": "Irgen-Gioro, Shawn; Yoshida, Shawn; Walling, Victoria; Chong, Shasha",
+  "journal": "eLife",
+  "published_date": "2022-11-30",
+  "window": {
+    "start": "2022-11-28",
+    "end": "2022-12-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究PFA固定如何改变活细胞中IDP相分离表观，并通过动力学模型与模拟揭示固定速率与PPI动态的平衡机制，虽非AI/物理模拟方法，但聚焦IDP相分离与PPI机制建模，对本课题有方法学启发。",
+  "abstract": "Fixing cells with paraformaldehyde (PFA) is an essential step in numerous biological techniques as it is thought to preserve a snapshot of biomolecular transactions in living cells. Fixed-cell imaging techniques such as immunofluorescence have been widely used to detect liquid-liquid phase separation (LLPS) in vivo. Here, we compared images, before and after fixation, of cells expressing intrinsically disordered proteins that are able to undergo LLPS. Surprisingly, we found that PFA fixation can both enhance and diminish putative LLPS behaviors. For specific proteins, fixation can even cause their droplet-like puncta to artificially appear in cells that do not have any detectable puncta in the live condition. Fixing cells in the presence of glycine, a molecule that modulates fixation rates, can reverse the fixation effect from enhancing to diminishing LLPS appearance. We further established a kinetic model of fixation in the context of dynamic protein-protein interactions. Simulations based on the model suggest that protein localization in fixed cells depends on an intricate balance of protein-protein interaction dynamics, the overall rate of fixation, and notably, the difference between fixation rates of different proteins. Consistent with simulations, live-cell single-molecule imaging experiments showed that a fast overall rate of fixation relative to protein-protein interaction dynamics can minimize fixation artifacts. Our work reveals that PFA fixation changes the appearance of LLPS from living cells, presents a caveat in studying LLPS using fixation-based methods, and suggests a mechanism underlying the fixation artifact.",
+  "abstract_zh": "用多聚甲醛（PFA）固定细胞是众多生物技术中的关键步骤，因为其被认为能保留活细胞中生物分子过程的快照。基于固定细胞的成像技术，如免疫荧光，已被广泛用于检测体内液-液相分离（LLPS）。在此，我们比较了表达能够发生LLPS的内在无序蛋白的细胞在固定前后的图像。令人惊讶的是，我们发现PFA固定既能增强也能减弱推测的LLPS行为。对于特定蛋白质，固定甚至能导致其液滴状斑点人为出现在活细胞状态下无可检测斑点的细胞中。在存在甘氨酸（一种调节固定速率的分子）的情况下固定细胞，可以将固定效应从增强LLPS外观逆转为减弱。我们进一步建立了在动态蛋白质-蛋白质相互作用背景下的固定动力学模型。基于该模型的模拟表明，固定细胞中的蛋白质定位取决于蛋白质-蛋白质相互作用动力学、整体固定速率，以及值得注意的是，不同蛋白质固定速率差异之间的复杂平衡。与模拟一致，活细胞单分子成像实验显示，相对于蛋白质-蛋白质相互作用动力学较快的整体固定速率可以最小化固定伪影。我们的工作揭示了PFA固定改变了活细胞中LLPS的外观，为使用基于固定的方法研究LLPS提出了警示，并提出了固定伪影背后的机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36444977/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36444977/",
+  "paper_page_path": "papers/pubmed/36444977/index.html"
+}

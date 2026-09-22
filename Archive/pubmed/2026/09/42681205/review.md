@@ -1,81 +1,75 @@
 ## Review setup
-- **Input scope** Full manuscript (Methods in Molecular Biology chapter)
-- **Assessment boundary** The manuscript describes the DisoRDPbind web server for predicting RNA-binding intrinsically disordered regions (IDRs), including its model, performance, usage instructions, and a case study on the HCV core protein.
-- **Shared manuscript claim summary** The authors present DisoRDPbind as one of the first tools for predicting RNA-binding IDRs, highlighting its ease of use, small computational footprint suitable for proteome-scale predictions, and its utility in studying RNA chaperones, as demonstrated by a case study on the HCV core protein.
-- **Visible evidence base** The manuscript text, including descriptions of the predictive model, performance metrics from the CAID experiment, web server interface instructions, and a case study example.
-- **Missing materials affecting confidence** No supplementary data, code, or detailed performance tables/figures are provided. The manuscript is a methods chapter, not a primary research article, so the evidence base is limited to the authors' description and references to prior work.
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors describe DisoRDPbind, a web server for predicting RNA-binding intrinsically disordered regions (IDRs), and discuss its predictive performance, runtime, and utility, including a case study on the HCV core protein as an RNA chaperone.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or performance data are provided
+- **Missing materials affecting confidence** Full manuscript, method description, performance metrics, web server interface details, case study results, and any validation data
 
 ## Reviewer
-- **Overall assessment** This manuscript provides a practical guide to using the DisoRDPbind web server for predicting RNA-binding IDRs. The tool addresses a niche but important gap in the field, and the description of its use is clear. However, the manuscript lacks a critical evaluation of the tool's limitations, a comparison with other available methods, and a rigorous demonstration of its utility beyond the single case study. The claims about performance and utility are not fully substantiated within the manuscript itself, relying heavily on external references.
-- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, RNA biology, and RNA chaperones would be interested. The tool provides a convenient way to generate hypotheses about RNA-binding IDRs, which is a relatively under-served area in computational biology. The chapter format makes it accessible to experimentalists who may not be familiar with bioinformatics tools.
-- **Major strengths** The manuscript addresses a clear need for tools that predict RNA-binding IDRs, a function that is less commonly targeted than protein-binding IDRs. The web server is described as easy to use and computationally efficient, which are practical advantages. The case study on the HCV core protein provides a concrete example of the tool's potential application.
-- **Major Concerns**
-    - **Concern ID** R1-M1
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Evidence and Support
-    - **Claim pointer** The authors claim that DisoRDPbind is "one of the first tools designed to predict RNA-binding IDRs" and that it has a "small computational footprint" allowing for "large/proteome-scale predictions."
-    - **Evidence pointer** Section: "We focus on one of the first tools designed to predict RNA-binding IDRs: DisoRDPbind." and "We highlight the small computational footprint of DisoRDPbind, which allows for large/proteome-scale predictions."
-    - **Concern** The manuscript does not provide any quantitative evidence to support these claims. No runtime benchmarks, no comparison of the number of sequences that can be processed, and no demonstration of a proteome-scale prediction are presented. The claim of being "one of the first" is not contextualized with a literature survey of other tools.
-    - **Why it matters** These are central claims about the tool's novelty and utility. Without supporting data, the reader cannot assess whether DisoRDPbind is indeed a practical choice for large-scale studies or how it compares to other existing or emerging methods.
-    - **Resolution test** Provide quantitative data: (1) a table or figure showing runtime vs. number of sequences, (2) a brief comparison with other available tools for RNA-binding IDR prediction (e.g., listing them and their features), and (3) a concrete example of a proteome-scale prediction (e.g., number of proteins processed, total runtime, output size).
-
-    - **Concern ID** R1-M2
-    - **Severity** Major
-    - **Blocking** Yes
-    - **Axis** Evidence and Support
-    - **Claim pointer** The authors state that the predictive performance was "recently measured in the second CAID experiment."
-    - **Evidence pointer** Section: "We describe the predictive model employed by DisoRDPbind and discuss its predictive performance and runtime, which were recently measured in the second CAID (Critical Assessment of protein Intrinsic Disorder) experiment."
-    - **Concern** The manuscript does not present the actual performance metrics (e.g., AUC, precision, recall, F1-score) from the CAID experiment. The reader is left to trust the authors' summary without seeing the data. Furthermore, the context of the CAID experiment (e.g., what other methods were compared, what datasets were used) is not provided.
-    - **Why it matters** Performance is a critical aspect of any predictive tool. Without presenting the actual numbers, the reader cannot evaluate the reliability of DisoRDPbind's predictions. This is a fundamental omission for a methods chapter.
-    - **Resolution test** Include a table or figure summarizing the key performance metrics from the CAID experiment (e.g., AUC, MCC, F1-score) for DisoRDPbind and, ideally, for a few other top-performing methods for context. Cite the CAID paper and briefly describe the benchmark dataset.
-
-    - **Concern ID** R1-M3
-    - **Severity** Major
-    - **Blocking** No
-    - **Axis** Scope and Generalizability
-    - **Claim pointer** The authors present a case study of an RNA chaperone, HCV core protein, to "illustrate the method's utility in studying RNA chaperones."
-    - **Evidence pointer** Section: "While DisoRDPbind does not identify RNA chaperones directly, we present a case study of an RNA chaperone, HCV core protein, to illustrate the method's utility in studying RNA chaperones."
-    - **Concern** The case study is presented as an illustration, but it is not clear how the prediction results from DisoRDPbind were validated or interpreted in the context of RNA chaperone function. The manuscript does not show whether the predicted RNA-binding IDRs correspond to known functional regions of the HCV core protein or whether the predictions led to any new biological insight.
-    - **Why it matters** The case study is meant to demonstrate the tool's practical value. Without a clear link between the prediction and biological function, the example is merely a demonstration of the tool's output, not a validation of its utility for studying RNA chaperones.
-    - **Resolution test** Strengthen the case study by: (1) showing the predicted RNA-binding IDRs on a sequence or structure of the HCV core protein, (2) comparing these predictions to known functional regions (e.g., from literature), and (3) discussing how these predictions could guide future experiments (e.g., mutagenesis, binding assays).
-
-- **Minor Comments**
-    - **Concern ID** R1-m1
-    - **Severity** Minor
-    - **Axis** Clarity and Presentation
-    - **Affected element** Web server instructions
-    - **Evidence pointer** Section: "We detail how to use the web server interface of DisoRDPbind and provide an example to illustrate how to read and interpret its prediction results."
-    - **Issue** The instructions for using the web server are described in text, but no screenshots or figures of the interface are provided. This makes it harder for a reader to follow the steps.
-    - **Required correction** Include at least one screenshot of the web server input page and one of the output page, with annotations to guide the reader.
-
-    - **Concern ID** R1-m2
-    - **Severity** Minor
-    - **Axis** Completeness
-    - **Affected element** Model description
-    - **Evidence pointer** Section: "We describe the predictive model employed by DisoRDPbind."
-    - **Issue** The description of the predictive model is likely too brief for a methods chapter. The reader needs to understand the input features, the algorithm (e.g., is it a classifier? what type?), and how the model was trained.
-    - **Required correction** Expand the model description to include: (1) the type of features used (e.g., sequence composition, predicted disorder, evolutionary information), (2) the machine learning algorithm (e.g., random forest, SVM), and (3) the training dataset (e.g., number of proteins, source).
-
-    - **Concern ID** R1-m3
-    - **Severity** Minor
-    - **Axis** Reproducibility
-    - **Affected element** Web server availability
-    - **Evidence pointer** Section: "DisoRDPbind is available as an easy-to-use web server at http://biomine.cs.vcu.edu/servers/DisoRDPbind/."
-    - **Issue** The URL should be verified to be active and functional. It is also good practice to mention if the server is expected to be maintained long-term and if the source code or a standalone version is available.
-    - **Required correction** Confirm the URL is active. Add a statement about the expected maintenance period and whether a standalone version or source code is available for local use.
-
-- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative evidence for computational footprint and novelty), R1-M2 (lack of presented performance metrics from CAID).
-- **Assessment against Nature-style criteria** 
-    - **Originality:** Low. The tool itself is not new (it was previously published), and the manuscript is a methods chapter, not a primary research article. The originality lies in the practical guide format.
-    - **Scientific importance:** Moderate. The topic of RNA-binding IDRs is important, but the manuscript does not provide new scientific insights. Its value is in making an existing tool more accessible.
-    - **Interdisciplinary readership:** Low. The manuscript is targeted at a specialized audience of computational and molecular biologists working on IDPs and RNA biology.
-    - **Technical soundness:** Not fully established. The claims about performance and computational efficiency are not supported by data within the manuscript.
-    - **Readability for nonspecialists:** Good. The writing is clear and the instructions are easy to follow, though the model description could be more detailed.
-- **Recommendation posture** Currently not established from the provided evidence. The manuscript is a useful practical guide, but it fails to provide the necessary quantitative evidence to support its central claims about the tool's performance and utility. The authors should add performance data, runtime benchmarks, and a more rigorous case study to make the chapter self-contained and convincing.
+- **Overall assessment** The abstract presents a concise overview of a potentially useful bioinformatics tool for a niche but growing area of research. However, the supplied material is insufficient to evaluate the technical soundness, predictive performance claims, or the validity of the case study. The abstract reads as a methods chapter summary rather than a primary research contribution, and the evidence base is too limited to assess the core claims.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, RNA biology, and RNA chaperones would find this tool relevant. Computational biologists developing or benchmarking predictors of molecular binding in IDRs may also be interested, particularly those working on RNA-protein interactions. The proteome-scale prediction capability could appeal to researchers conducting large-scale genomic or proteomic analyses.
+- **Major strengths** The abstract identifies a clear gap in the field, namely the scarcity of predictors for RNA-binding IDRs. The emphasis on computational efficiency and proteome-scale applicability is a practical strength. The inclusion of a case study on an RNA chaperone demonstrates an attempt to connect the tool to biological function.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+    **Severity** Major  
+    **Blocking** Yes  
+    **Axis** Technical soundness  
+    **Claim pointer** The abstract claims that DisoRDPbind's predictive performance and runtime were "recently measured in the second CAID experiment," implying validated performance.  
+    **Evidence pointer** Abstract text; location not provided  
+    **Concern** No performance metrics, benchmark results, or comparative data are presented in the supplied material. The claim of measured performance in CAID is stated without any numerical support or context.  
+    **Why it matters** Without quantitative evidence, the reader cannot assess whether the tool is accurate, reliable, or competitive with existing methods. The claim of CAID evaluation is unverifiable from the abstract alone.  
+    **Resolution test** Provide the actual performance metrics (e.g., AUC, precision, recall, Matthews correlation coefficient) from the CAID experiment, along with a comparison to other predictors, in the full manuscript.
+  - **Concern ID** R1-M2  
+    **Severity** Major  
+    **Blocking** Yes  
+    **Axis** Scientific importance  
+    **Claim pointer** The abstract implies that DisoRDPbind is one of the first tools for RNA-binding IDR prediction, suggesting novelty and importance.  
+    **Evidence pointer** Abstract text; location not provided  
+    **Concern** The abstract does not provide a literature context or a systematic comparison to existing tools. The claim of being "one of the first" is not substantiated with citations or a survey of the field.  
+    **Why it matters** The novelty and contribution of the tool cannot be evaluated without understanding the existing landscape of RNA-binding IDR predictors.  
+    **Resolution test** Include a brief literature review in the full manuscript that identifies prior tools and clearly articulates what DisoRDPbind adds beyond them.
+  - **Concern ID** R1-M3  
+    **Severity** Major  
+    **Blocking** Yes  
+    **Axis** Technical soundness  
+    **Claim pointer** The abstract states that the case study of the HCV core protein "illustrates the method's utility in studying RNA chaperones."  
+    **Evidence pointer** Abstract text; location not provided  
+    **Concern** No details of the case study are provided, including the input data, prediction results, or how these results inform RNA chaperone biology. The claim of utility is therefore unsupported.  
+    **Why it matters** The case study is presented as a demonstration of biological relevance, but without results or interpretation, it cannot be assessed.  
+    **Resolution test** Provide the case study details in the full manuscript, including the predicted RNA-binding regions in HCV core protein and a discussion of how these predictions align with known or hypothesized chaperone functions.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+    **Severity** Minor  
+    **Axis** Readability for nonspecialists  
+    **Affected element** Abstract text  
+    **Evidence pointer** Abstract text  
+    **Issue** The abstract assumes familiarity with IDR prediction and CAID, which may limit accessibility for readers outside the computational biology field.  
+    **Required correction** Briefly define IDRs and CAID in the abstract or introduction to broaden accessibility.
+  - **Concern ID** R1-m2  
+    **Severity** Minor  
+    **Axis** Reproducibility  
+    **Affected element** Web server access  
+    **Evidence pointer** Abstract text  
+    **Issue** The web server URL is provided, but there is no mention of data availability, input format requirements, or output interpretation guidelines beyond a single example.  
+    **Required correction** In the full manuscript, include clear instructions on input formats, output fields, and any limitations on data size or sequence length.
+  - **Concern ID** R1-m3  
+    **Severity** Minor  
+    **Axis** Interdisciplinary readership  
+    **Affected element** Case study framing  
+    **Evidence pointer** Abstract text  
+    **Issue** The connection between RNA-binding IDR prediction and RNA chaperone function is stated but not explained, which may confuse readers unfamiliar with chaperone biology.  
+    **Required correction** Add a brief explanation of how RNA-binding IDRs relate to chaperone activity in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of performance data, literature context, and case study results means the core claims of the abstract are not verifiable from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The abstract suggests a niche tool, but without a literature survey, originality cannot be confirmed.  
+  - Scientific importance: The topic is relevant, but the significance is not demonstrated with evidence.  
+  - Interdisciplinary readership: The abstract may appeal to computational biologists and RNA researchers, but the lack of context limits broader appeal.  
+  - Technical soundness: Not assessable from the abstract; no methods or performance data are provided.  
+  - Readability for nonspecialists: The abstract is concise but assumes domain knowledge, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to evaluate the tool's validity, performance, or biological utility. A full manuscript with methods, results, and validation data would be required to assess the claims.
 
 ## Risk / unsupported claims
-- The claim that DisoRDPbind is "one of the first tools" for RNA-binding IDR prediction is unsupported without a literature survey.
-- The claim of a "small computational footprint" allowing for "proteome-scale predictions" is unsupported without runtime benchmarks.
-- The claim that the tool's performance was measured in the CAID experiment is unsupported without presenting the actual metrics.
-- The claim that the case study illustrates the method's utility in studying RNA chaperones is unsupported without a clear link between predictions and biological function.
+- The claim that DisoRDPbind's performance was "recently measured in the second CAID experiment" is unsupported without specific metrics or a citation.
+- The claim that DisoRDPbind is "one of the first tools" for RNA-binding IDR prediction is unsubstantiated without a literature review.
+- The case study of HCV core protein is mentioned but not described, making the claim of utility unverifiable.
+- The statement that the tool "allows for large/proteome-scale predictions" is plausible but not supported by any runtime or scalability data in the abstract.

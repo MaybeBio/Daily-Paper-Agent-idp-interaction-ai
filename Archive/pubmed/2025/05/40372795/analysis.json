@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40372795",
+  "title": "Morin Interacts with alpha-Synuclein and Retards Its Fibrillation.",
+  "authors": "Kundu, Shubham; Maity, Anupam; Misra, Rajdip; Bhunia, Mrinmay; Nanda, Banadipa; Adhikary, Ananya; Sahoo, Anik; Baitalik, Sujoy; Pal, Uttam; Saha, Saumen; Maiti, Nakul C",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-05-15",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过实验与计算结合，探究小分子morin与无序蛋白α-synuclein的弱结合及其对纤维化聚集的抑制机制，虽对象为IDP且涉及互作机制，但互作对象是小分子而非蛋白，且方法以实验为主、计算为辅，缺乏AI或物理模拟深度。",
+  "abstract": "alpha-Synuclein is a small (14 kDa) intrinsically disordered water-soluble protein, and its unwanted aggregation and fibrillation are believed to play a critical role in the pathogenesis of Parkinson's disease. Our current investigation uniquely utilized intrinsic tyrosine fluorescence of alpha-synuclein and showed that morin hydrate (MOR), a polyhydroxyflavonol, in aqueous solution formed a 1:1 complex with a sub-micromolar range of binding affinity and stabilized the protein structure at an ambient solution condition. Steady-state fluorescence of the protein, in the presence of MOR, was quenched; however, the fluorescence lifetime ( approximately 1.28 ns) was not significantly perturbed; it indicated formation of ground-state association of the flavonol with the protein. The estimated binding constant was  approximately 4.5 x 10(4) M(-1) and indicated a weak binding interaction at room temperature ( approximately 25  degrees C). However, the presence of the MOR stabilizes the protein residues in their alpha-helical space; circular dichroism spectroscopic analysis revealed reduction in disordered content and an elevation of the protein conformation more toward the folded structure. A tandem use of atomic force microscopy and thioflavin T-based fluorescence measurement of the incubated samples in the presence of flavonol showed retardation of aggregation and associated fibrillation. Computational analysis also showed that the presence of the molecule rendered alpha-synuclein to be more compacted, and a greater number of amino acid residues were found to be in alpha-helical conformational space. Residues Val40, Glu126, Gln134, and Tyr136 were involved mainly in hydrogen bond interaction, and residues Gly41, Lys43, and Asp135 enhanced conformational stability via water bridges. The results confirmed that the weak but ample interaction of morin hydrate provided structural stability to otherwise highly fluctuating alpha-synuclein via hydrophobic and hydrogen bond interaction. It caused retardation in the processes of hydrophobic zipping (among the amyloidogenic regions), which is believed to be a key event in the processes of cross-beta-sheet-rich amyloid fibril formation, the event that is highly implicated in the pathology of Parkinson and other neurodegenerative diseases.",
+  "abstract_zh": "α-突触核蛋白（alpha-synuclein）是一种小分子（14 kDa） intrinsically disordered 水溶性蛋白，其不必要的聚集和纤维化被认为在帕金森病的发病机制中起关键作用。我们当前的研究独特地利用了α-突触核蛋白的内在酪氨酸荧光，并表明水合桑色素（morin hydrate, MOR），一种多羟基黄酮醇，在水溶液中以亚微摩尔范围的结合亲和力形成1:1复合物，并在环境溶液条件下稳定了蛋白质结构。在MOR存在下，蛋白质的稳态荧光被猝灭；然而，荧光寿命（约1.28 ns）未显著扰动；这表明黄酮醇与蛋白质形成了基态结合。估计的结合常数约为4.5 x 10(4) M(-1)，表明在室温（约25摄氏度）下存在弱结合相互作用。然而，MOR的存在将蛋白质残基稳定在其α-螺旋空间；圆二色光谱分析显示无序含量减少，蛋白质构象更趋向折叠结构。原子力显微镜和硫黄素T基荧光测量的串联使用显示，在黄酮醇存在下，孵育样品的聚集和相关纤维化受到延缓。计算分析还表明，该分子的存在使α-突触核蛋白更紧凑，并发现更多氨基酸残基处于α-螺旋构象空间。残基Val40、Glu126、Gln134和Tyr136主要参与氢键相互作用，而残基Gly41、Lys43和Asp135通过水桥增强构象稳定性。结果证实，水合桑色素的弱但充分的相互作用通过疏水性和氢键相互作用为高度波动的α-突触核蛋白提供了结构稳定性。这导致疏水性拉链过程（在淀粉样生成区域之间）的延缓，这被认为是富含交叉β-折叠的淀粉样纤维形成过程中的关键事件，该事件与帕金森病及其他神经退行性疾病的病理高度相关。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40372795/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40372795/",
+  "paper_page_path": "papers/pubmed/40372795/index.html"
+}

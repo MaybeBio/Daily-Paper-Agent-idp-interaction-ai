@@ -1,0 +1,38 @@
+{
+  "source": "arxiv",
+  "source_id": "2505.11188v1",
+  "title": "Chemically active droplets in crowded environments",
+  "doi": "",
+  "abstract": "Biomolecular condensates are essential for cellular organization and result from phase separation in systems far from thermodynamic equilibrium. Among various models, chemically active droplets play a significant role, consisting of proteins that switch between attractive and repulsive states via nonequilibrium chemical reactions. While field-based simulations have provided insights into their behavior, these coarse-grained approaches fail to capture molecular-scale effects, particularly in crowded cellular environments. Macromolecular crowding, a key feature of intracellular organization, strongly influences molecular transport within condensates, yet its quantitative impact remains underexplored. This study investigates the interplay between chemically active droplets and crowders by using particle-based models, that provide molecular insight, and a field-based model, that complements this picture. Surprisingly, crowding reduces droplet size while expanding the overall dense phase volume, challenging equilibrium-based expectations. This effect arises from the interplay between depletion interactions, diffusion hindrance, and nonequilibrium particle fluxes. Our findings provide a step towards a more comprehensive understanding of chemically active droplets in complex, realistic cellular environments.",
+  "authors": [
+    "Jacques Fries",
+    "Roxanne Berthin",
+    "Chengjie Luo",
+    "Marie Jardat",
+    "David Zwicker",
+    "Vincent Dahirel",
+    "Pierre Illien"
+  ],
+  "published_date": "2025-05-16T12:45:54Z",
+  "updated_date": "2025-05-16T12:45:54Z",
+  "journal": "",
+  "category": "cond-mat.soft, physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2505.11188v1",
+  "pdf_url": "https://arxiv.org/pdf/2505.11188v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft",
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2505.11188v1",
+    "raw_categories": [
+      "cond-mat.soft",
+      "physics.bio-ph"
+    ],
+    "journal_ref": ""
+  }
+}

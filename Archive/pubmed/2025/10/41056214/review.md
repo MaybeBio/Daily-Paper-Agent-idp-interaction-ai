@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or supporting data
+- **Shared manuscript claim summary** The authors report all-atom MD simulations with REMD to explain a previously observed "volcano-like" binding trend in position-coded multivalent peptide-peptide interactions. They claim that a 10-glycine spacing between two tryptophan residues (GW10) yields the strongest binding to a G14 partner, consistent with experiment, and that GW10 and related variants (GR10, GS10) adopt stable intrinsically ordered spiral conformations that create favorable binding pockets. They further claim that these ordered structures are critical for modulating peptide-peptide interactions and offer implications for peptide design and protein engineering.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, simulation parameters, error estimates, or experimental comparison data are provided.
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, convergence criteria, free energy estimates, structural ensembles, experimental binding data, and statistical analyses. Without these, quantitative claims cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational follow-up to an experimental observation, and the central claim that GW10 shows strongest binding is consistent with prior experimental work. However, the abstract alone does not provide sufficient evidence to evaluate the robustness of the simulation results, the statistical significance of the binding differences, or the structural characterization of the proposed spiral conformation. The claim of an "intrinsically ordered spiral" is unusual and requires careful validation against known peptide conformational behavior. The work may be of interest to the peptide simulation community, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and peptide chemistry, particularly those studying sequence-dependent binding mechanisms, multivalent interactions, and intrinsically disordered peptides. The proposed spiral conformation and its role in binding could also interest groups working on peptide design and protein engineering, as well as those studying prelasso motifs in protein folding.
+- **Major strengths** The study addresses a clear gap in atomistic understanding of a previously observed experimental trend. The use of REMD is appropriate for enhanced sampling of peptide conformational space. The consistency with experimental binding data, as stated, lends credibility to the simulation approach. The identification of a specific structural motif (spiral conformation) provides a concrete mechanistic hypothesis that is testable.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "GW10 and related arginine and serine variants (GR10 and GS10) adopt stable, intrinsically ordered spiral conformations that form favorable binding pockets for G14"
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The claim of a stable "intrinsically ordered spiral conformation" is structurally unusual and not a commonly reported motif in peptide simulations. The abstract does not describe how this conformation was identified, how its stability was quantified, or how it was distinguished from other possible ordered or partially ordered states. The term "intrinsically ordered" is also potentially contradictory when applied to a peptide derived from a polyglycine sequence, which is expected to be highly flexible.
+  - **Why it matters** If the spiral conformation is not robustly defined and validated, the central mechanistic claim of the paper collapses. The novelty of the work depends on this structural finding being reproducible and physically meaningful.
+  - **Resolution test** Provide clear definitions of the spiral conformation, including dihedral angle criteria or contact maps, show convergence of this conformation across independent REMD replicas, and demonstrate that it is kinetically and thermodynamically stable on simulation timescales. Also show that the conformation is not an artifact of the force field or initial conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "peptides with a 10-glycine separation between dual tryptophans (GW10) exhibit the strongest binding affinity to G14, consistent with the experimental data"
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract states consistency with experimental data but provides no quantitative comparison. No binding free energies, error bars, or statistical tests are mentioned. It is unclear whether the difference between GW10 and other spacings is statistically significant in the simulations, or whether the ranking is robust across different initial conditions and force fields.
+  - **Why it matters** The validation of the simulation approach depends on demonstrating that the computed binding trend matches experiment within statistical uncertainty. Without this, the claim of consistency is anecdotal.
+  - **Resolution test** Report binding free energies with uncertainties for all peptide variants, show that the GW10 preference is reproducible across multiple independent simulations, and provide a direct comparison to experimental binding affinities or selectivities.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "These findings provide atomic-level insights into sequence-dependent binding and offer potential applications for peptide design, protein engineering, and the understanding of prelasso motifs relevant to protein folding"
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The broader implications are stated without specific evidence. The connection to prelasso motifs is not explained, and the potential applications to peptide design and protein engineering are not substantiated by any demonstrated design principle or engineering outcome.
+  - **Why it matters** Overstated implications can mislead readers about the maturity of the findings. The work may be a useful mechanistic study, but the translational claims require more direct evidence or a clearly articulated pathway.
+  - **Resolution test** Either temper the claims to reflect the mechanistic scope of the study, or provide specific examples of how the spiral conformation could inform peptide design, with preliminary evidence or a concrete design hypothesis.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "intrinsically ordered spiral conformation" is not defined and may confuse readers unfamiliar with the specific structural language. The relationship between this term and standard secondary structure nomenclature is unclear.
+  - **Required correction** Define the spiral conformation in accessible terms, possibly with a schematic or a description of the backbone geometry, and clarify how it differs from helices or other ordered motifs.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify the force field, water model, simulation length, or number of replicas used in REMD. These details are essential for reproducibility.
+  - **Required correction** Include key simulation parameters in the abstract or refer to a methods section where they are fully described.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextual framing
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not explain why the "volcano-like" trend is important or what broader question it addresses. The motivation is presented as a gap in atomistic resolution, but the significance of the binding trend itself is not articulated.
+  - **Required correction** Add one or two sentences explaining the biological or practical relevance of the position-coded multivalent interaction system.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The structural claim of the spiral conformation and the quantitative validation of the binding trend are both essential to the paper's central thesis and cannot be assessed from the abstract alone.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of a stable ordered spiral in a polyglycine-derived peptide is potentially novel, but the abstract does not provide enough evidence to distinguish it from known conformational behavior. The originality is plausible but not established.
+  - Scientific importance: The work addresses a specific mechanistic question in peptide binding. The importance is moderate and primarily of interest to specialists. The broader implications for protein engineering and prelasso motifs are stated but not supported.
+  - Interdisciplinary readership: The topic is likely to appeal mainly to computational chemists and biophysicists. The abstract does not frame the work in a way that would attract a broader readership.
+  - Technical soundness: Cannot be fully assessed from the abstract. The use of REMD is appropriate, but the lack of quantitative details and statistical validation is a significant concern.
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terminology without definition. The structural claims would benefit from more accessible language.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a reasonable computational approach, but the central structural claim and the quantitative validation of the binding trend require full manuscript evaluation. I would be supportive if the technical concerns are resolved with robust evidence in the full paper.
+
+## Risk / unsupported claims
+- The claim that GW10 and variants adopt "stable, intrinsically ordered spiral conformations" is unsupported in the abstract, as no structural criteria, stability metrics, or ensemble analyses are provided.
+- The claim of consistency with experimental data is unquantified and cannot be verified without numerical comparison.
+- The statement that these findings "offer potential applications for peptide design, protein engineering, and the understanding of prelasso motifs" is speculative and not supported by evidence in the abstract.
+- The assertion that the spiral conformations "form favorable binding pockets" is a mechanistic interpretation that requires structural and energetic evidence not visible in the abstract.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.08.579522",
+  "title": "Transferable deep generative modeling of intrinsically disordered protein conformations",
+  "authors": "Giacomo Janson; Michael Feig",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-08",
+  "window": {
+    "start": "2024-02-05",
+    "end": "2024-02-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于潜扩散模型的生成式AI方法idpSAM，用于建模无序蛋白构象系综，虽未直接研究PPI，但对象为IDP且方法为深度生成模型，对无序蛋白构象建模有直接启发，可迁移至IDP介导的互作机制建模。",
+  "abstract": "Intrinsically disordered proteins have dynamic structures through which they play key biological roles. The elucidation of their conformational ensembles is a challenging problem requiring an integrated use of computational and experimental methods. Molecular simulations are a valuable computational strategy for constructing structural ensembles of disordered proteins but are highly resource-intensive. Recently, machine learning approaches based on deep generative models that learn from simulation data have emerged as an efficient alternative for generating structural ensembles. However, such methods currently suffer from limited transferability when modeling sequences and conformations absent in the training data. Here, we develop a novel generative model that achieves high levels of transferability for intrinsically disordered protein ensembles. The approach, named idpSAM, is a latent diffusion model based on transformer neural networks. It combines an autoencoder to learn a representation of protein geometry and a diffusion model to sample novel conformations in the encoded space. IdpSAM was trained on a large dataset of simulations of disordered protein regions performed with the ABSINTH implicit solvent model. Thanks to the expressiveness of its neural networks and its training stability, idpSAM faithfully captures 3D structural ensembles of test sequences with no similarity in the training set. Our study also demonstrates the potential for generating full conformational ensembles from datasets with limited sampling and underscores the importance of training set size for generalization. We believe that idpSAM represents a significant progress in transferable protein ensemble modeling through machine learning. AUTHOR SUMMARY Proteins are essential molecules in living organisms and some of them have highly dynamical structures, which makes understanding their biological roles challenging. Disordered proteins can be studied through a combination of computer simulations and experiments. Computer simulations are often resource-intensive. Recently, machine learning has been used to make this process more efficient. The strategy is to learn from previous simulations to model the heterogenous conformations of proteins. However, such methods still suffer from poor transferability, meaning that they tend to make incorrect predictions on proteins not seen in training data. In this study, we present idpSAM, a method based on generative artificial intelligence for modeling the structures of disordered proteins. The model was trained using a vast dataset and, thanks to its architecture and training procedure, it performs well on not just proteins in the training set but achieves high levels transferability to proteins unseen in training. This advancement is a step forward in modeling biologically relevant disordered proteins. It shows how the combination of generative modeling and large training sets and can aid us understand how dynamical proteins behave.",
+  "abstract_zh": "intrinsically disordered proteins（本质无序蛋白）具有动态结构，并通过这些结构发挥关键的生物学作用。阐明其构象集合是一个具有挑战性的问题，需要计算和实验方法的综合运用。分子模拟是构建无序蛋白结构集合的一种有价值的计算策略，但资源消耗极高。近年来，基于深度生成模型、从模拟数据中学习的机器学习方法，已成为生成结构集合的高效替代方案。然而，此类方法在建模训练数据中未出现的序列和构象时，目前仍存在有限的迁移性。在此，我们开发了一种新型生成模型，实现了本质无序蛋白集合的高水平迁移性。该方法名为idpSAM，是一种基于transformer神经网络的潜在扩散模型。它结合了自编码器以学习蛋白质几何表示，以及扩散模型以在编码空间中采样新构象。idpSAM在ABSINTH隐式溶剂模型模拟的无序蛋白区域大型数据集上进行了训练。得益于其神经网络的表达能力和训练稳定性，idpSAM能够忠实地捕获测试序列的3D结构集合，而这些序列在训练集中无相似性。我们的研究还展示了从有限采样数据集生成完整构象集合的潜力，并强调了训练集规模对泛化的重要性。我们相信，idpSAM代表了通过机器学习进行可迁移蛋白质集合建模的重大进展。\n\n作者摘要 蛋白质是生物体中的必需分子，其中一些具有高度动态的结构，这使得理解其生物学角色颇具挑战。无序蛋白可以通过计算机模拟和实验相结合的方式进行研究。计算机模拟通常资源密集。近年来，机器学习已被用于提高这一过程的效率。其策略是从先前模拟中学习，以建模蛋白质的异质构象。然而，此类方法仍存在较差的迁移性，意味着它们往往对训练数据中未出现的蛋白质做出错误预测。在本研究中，我们提出了idpSAM，一种基于生成式人工智能的方法，用于建模无序蛋白的结构。该模型使用大规模数据集进行训练，凭借其架构和训练流程，不仅在训练集中的蛋白质上表现良好，而且对训练中未见的蛋白质实现了高水平的迁移性。这一进展是向建模生物学相关无序蛋白迈出的一步。它展示了生成建模与大型训练集的结合如何帮助我们理解动态蛋白质的行为。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.08.579522",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.08.579522",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.08.579522/index.html"
+}

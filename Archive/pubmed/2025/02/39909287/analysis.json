@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39909287",
+  "title": "Mechanistic insights into DXO1 and XRN3: regulatory roles of RNA stability, transcription, and liquid-liquid phase separation in Arabidopsis thaliana (L.) Heynh.",
+  "authors": "Shams, Mostafakamal; Khadivi, Ali",
+  "journal": "Plant science : an international journal of experimental plant biology",
+  "published_date": "2025-02-06",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该综述探讨拟南芥DXO1和XRN3在RNA稳定性、转录及液-液相分离中的调控作用，虽涉及LLPS和蛋白互作机制，但以实验综述为主，缺乏AI或物理模拟方法，对象相关但方法轴较弱。",
+  "abstract": "The regulation of RNA stability and transcription in eukaryotic organisms is a sophisticated process involving various complex mechanisms. This paper explores the regulatory functions of DXO1 and XRN3 proteins in RNA stability and transcription in the model plant Arabidopsis thaliana (L.) Heynh. DXO1 is noted for its roles in mRNA 5'-end quality control, removal of non-canonical NAD(+) caps, and activation of RNA guanosine-7 methyltransferase. In contrast, XRN3 ensures RNA integrity through precise degradation. While current studies have identified various termination regions across genes influenced by XRN3, advanced RNA sequencing techniques have revealed that XRN3-mediated changes in gene expression often result from siRNA production, leading to gene silencing rather than direct effects on transcription termination. This review emphasizes the need to further explore the DXO1-XRN3 axis, their interactive mechanisms, and their potential involvement in liquid-liquid phase separation (LLPS) during transcription. It further suggests evaluating XRN proteins like XRN4 to assess potential redundancies in RNA degradation pathways. The advent of PSPredictor, a tool for identifying LLPS proteins, along with protein function prediction techniques, promises to advance our understanding of DXO1 and XRN3 in maintaining RNA equilibrium and the dynamics of LLPS in plant biology. The review concludes by calling for more studies on the plant-specific roles of the DXO1 N-terminal extension (NTE), predictive tools for LLPS-forming proteins, and the interplay of RNA Pol II CTD code modulation by transcription factors to enhance knowledge of plant stress adaptation and improve agricultural productivity.",
+  "abstract_zh": "真核生物中RNA稳定性与转录的调控是一个涉及多种复杂机制的精细过程。本文探讨了模式植物拟南芥（Arabidopsis thaliana (L.) Heynh）中DXO1和XRN3蛋白在RNA稳定性与转录中的调控功能。DXO1因其在mRNA 5'端质量控制、非经典NAD(+)帽的去除以及RNA鸟苷-7甲基转移酶激活中的作用而受到关注。相比之下，XRN3通过精确降解确保RNA完整性。尽管当前研究已识别出受XRN3影响的各种基因终止区域，但先进的RNA测序技术揭示，XRN3介导的基因表达变化通常源于siRNA的产生，导致基因沉默，而非直接影响转录终止。本综述强调需进一步探索DXO1-XRN3轴、其相互作用机制，以及它们在转录过程中可能参与的液-液相分离（liquid-liquid phase separation, LLPS）。它进一步建议评估如XRN4等XRN蛋白，以评估RNA降解途径中潜在的功能冗余。PSPredictor（一种用于识别LLPS蛋白的工具）的出现，连同蛋白质功能预测技术，有望推进我们对DXO1和XRN3在维持RNA平衡及植物生物学中LLPS动态方面的理解。综述最后呼吁开展更多研究，聚焦于DXO1 N端延伸（N-terminal extension, NTE）的植物特异性作用、LLPS形成蛋白的预测工具，以及转录因子对RNA Pol II CTD代码调控的相互作用，以增强对植物胁迫适应性的认识并提高农业生产力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39909287/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39909287/",
+  "paper_page_path": "papers/pubmed/39909287/index.html"
+}

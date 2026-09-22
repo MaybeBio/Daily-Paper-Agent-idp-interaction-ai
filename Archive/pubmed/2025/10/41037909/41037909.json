@@ -1,0 +1,237 @@
+{
+  "identity": {
+    "pmid": "41037909",
+    "doi": "10.1016/j.jhazmat.2025.140014",
+    "title": "Polystyrene nanoplastics modulate VGLL3 phase separation by enhancing intermolecular interactions: Implications for fibrosis and beyond."
+  },
+  "content": {
+    "abstract": "Microplastics and nanoplastics (MNPs) are widespread environmental pollutants associated with diverse health risks, yet their impact on protein liquid-liquid phase separation (LLPS) in fibrosis remains poorly understood. Here, we focus on vestigial-like family member 3 (VGLL3), a transcriptional cofactor implicated in fibrosis, to investigate whether polystyrene nanoparticles (PS NPs) with defined surface chemistries and sizes modulate its phase behavior. The results revealed that PS-COOH NPs robustly and selectively induced VGLL3 LLPS in a concentration- and size-dependent manner, with re-entrant dissolution at higher NP fractions. In contrast, PS NPs and PS-NH(2) NPs exert only minor effects. The condensates were sensitive to 1,6-hexanediol, indicating their dynamic and reversible nature. Dynamic light scattering (DLS) revealed right-shifted size distributions consistent with higher-order NP-protein complexes, whereas a negatively charged oligonucleotide failed to trigger LLPS, suggesting that charge alone is insufficient. Molecular docking supports a scaffold model in which PS-COOH NP surfaces stabilize multivalent hydrogen-bonding and hydrophobic contacts between VGLL3 molecules. Collectively, these findings provide a mechanistic basis for how carboxylate-rich/aged MNPs can remodel condensates of a fibrosis regulator, offering a framework to assess MNP health risks and to guide the design of safer or condensate-targeting nanomaterials.",
+    "keywords": [
+      "Fibrosis",
+      "Liquid-liquid phase separation",
+      "Polystyrene nanoplastics",
+      "Surface chemistry",
+      "Vestigial-like family member 3"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dang, Mei",
+        "Deng, Qinqin",
+        "Wu, Longjiang",
+        "Yang, Chenxuan",
+        "Jin, Gelin"
+      ],
+      "short_names": [
+        "Dang M",
+        "Deng Q",
+        "Wu L",
+        "Yang C",
+        "Jin G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Chemical and Environment Sciences, Shaanxi University of Technology, Hanzhong, Shaanxi 723000, China; College of Biological Sciences and Engineering, Shaanxi University of Technology, Hanzhong, Shaanxi 723000, China; School of Life Sciences, Westlake University, Hangzhou, Zhejiang 310030, China. Electronic address: E0269788@u.nus.edu.",
+        "College of Biological Sciences and Engineering, Shaanxi University of Technology, Hanzhong, Shaanxi 723000, China.",
+        "Tongji Medical College of Huazhong University of Science and Technology, Wuhan, Hubei 430010, China.",
+        "College of Biological Sciences and Engineering, Shaanxi University of Technology, Hanzhong, Shaanxi 723000, China.",
+        "College of Biological Sciences and Engineering, Shaanxi University of Technology, Hanzhong, Shaanxi 723000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dang, Mei",
+        "short_name": "Dang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical and Environment Sciences, Shaanxi University of Technology, Hanzhong, Shaanxi 723000, China; College of Biological Sciences and Engineering, Shaanxi University of Technology, Hanzhong, Shaanxi 723000, China; School of Life Sciences, Westlake University, Hangzhou, Zhejiang 310030, China. Electronic address: E0269788@u.nus.edu."
+        ]
+      },
+      {
+        "full_name": "Deng, Qinqin",
+        "short_name": "Deng Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biological Sciences and Engineering, Shaanxi University of Technology, Hanzhong, Shaanxi 723000, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Longjiang",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Tongji Medical College of Huazhong University of Science and Technology, Wuhan, Hubei 430010, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Chenxuan",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biological Sciences and Engineering, Shaanxi University of Technology, Hanzhong, Shaanxi 723000, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Gelin",
+        "short_name": "Jin G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biological Sciences and Engineering, Shaanxi University of Technology, Hanzhong, Shaanxi 723000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of hazardous materials"
+    ],
+    "journal_abbrev": [
+      "J Hazard Mater"
+    ],
+    "pub_date": "2025 Sep 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/03 00:29",
+    "fetched_at": "2026-09-17 20:40:26"
+  },
+  "links": {
+    "cites": [
+      "41721403"
+    ],
+    "refs": [],
+    "similar": [
+      "41037909",
+      "41442811",
+      "39813928",
+      "30870664",
+      "35988336",
+      "41314526",
+      "37993864",
+      "37014521",
+      "28644993",
+      "41304491",
+      "35334375",
+      "40974661",
+      "40570791",
+      "40878150",
+      "36587669",
+      "34837810",
+      "38215851",
+      "41401635",
+      "41265543",
+      "40811949",
+      "38252510",
+      "39612669",
+      "33892383",
+      "36182889",
+      "40850687",
+      "38786513",
+      "39232293",
+      "36754961",
+      "41414758",
+      "38278228",
+      "37201399",
+      "38422876",
+      "36706525",
+      "32871291",
+      "38852665",
+      "41046791",
+      "40160751",
+      "40752657",
+      "34919385",
+      "38778430",
+      "35089039",
+      "40616404",
+      "40209392",
+      "35031361",
+      "40312000",
+      "37144527",
+      "41349949",
+      "40554068",
+      "40834543",
+      "38897273",
+      "39360780",
+      "41218527",
+      "32763632",
+      "40969754",
+      "39395493",
+      "40440991",
+      "41488866",
+      "39029865",
+      "41075967",
+      "41015312",
+      "38242479",
+      "39791484",
+      "36028032",
+      "40957208",
+      "36167198",
+      "40543334",
+      "34358975",
+      "40138633",
+      "40740607",
+      "40425061",
+      "36186531",
+      "28800530",
+      "36640573",
+      "39414046",
+      "34087085",
+      "38641106",
+      "38527891",
+      "32179231",
+      "37428629",
+      "37175372",
+      "37478940",
+      "39580085",
+      "35413362",
+      "40665500",
+      "36174811",
+      "39586453",
+      "36730723",
+      "39904158",
+      "35739792",
+      "40183397",
+      "37741508",
+      "39837030",
+      "38101052",
+      "38157799",
+      "40412977",
+      "41457474",
+      "39116935",
+      "34015712",
+      "36931485",
+      "38183774"
+    ],
+    "review": [
+      "41037909",
+      "41442811"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0304-3894(25)02933-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-570",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

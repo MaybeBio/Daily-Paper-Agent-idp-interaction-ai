@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) without supplementary materials or figures
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence consistency as presented in the provided text; no external validation performed
+- **Shared manuscript claim summary** The authors present HyRes II, a hybrid-resolution coarse-grained protein model incorporating a solvent-accessible surface area (SASA)-based implicit solvent term, designed to improve accuracy in simulating intrinsically disordered proteins (IDPs) and their dynamic interactions. The model is claimed to semi-quantitatively reproduce secondary structure propensities, chain dimensions, and transient long-range interactions for a set of IDPs, with performance approaching atomistic explicit-solvent simulations at substantially reduced computational cost. Application to p53 TAD and its interaction with the DNA-binding domain (DBD) is reported to yield ensembles consistent with NMR data.
+- **Visible evidence base** Text descriptions of results referencing Figures 1-7, Tables 1-3, and Supplementary Figures S1-S11 and Tables S1-S2; no actual figures, tables, or supplementary data were provided
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are referenced but not included; experimental PRE data for p53 TAD/DBD were shared by external collaborators and are not independently accessible; detailed parameter values for the optimized force field are only partially reported in the text
+
+## Reviewer
+- **Overall assessment** The manuscript describes a meaningful incremental improvement to an existing coarse-grained model, with a plausible optimization strategy and a relevant application to a biologically important system. The central claims regarding improved chain dimensions and retained secondary structure accuracy are supported by the described comparisons, but the absence of all visual data and supplementary tables prevents independent verification of the quantitative results. The application to p53 TAD/DBD interactions is interesting and potentially valuable, but the reported agreement with NMR data is based on comparisons whose details cannot be fully assessed from the text alone. The computational efficiency claim is compelling and well quantified. Overall, the work is technically sound in design but the evidence base as provided is insufficient for full evaluation.
+- **Who would be interested in the results, and why** Researchers in the coarse-grained simulation community, particularly those developing or applying models to intrinsically disordered proteins; computational biophysicists studying protein-protein interactions involving IDPs; experimentalists using NMR or other solution techniques who seek molecular-level interpretation of disordered protein ensembles and interactions. The p53 TAD/DBD system is of broad interest to cancer biology and transcriptional regulation communities.
+- **Major strengths** The optimization strategy is clearly described and logically structured across multiple stages. The choice of test systems covers both disordered and folded proteins, allowing assessment of transferability. The p53 TAD/DBD application addresses a biologically important and technically challenging problem. The reported computational speedup is substantial and practically meaningful. The authors acknowledge limitations of the model, including residual compaction bias and inability to describe coupled folding and binding.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that HyRes II "can semi-quantitatively reproduce a wide range of local and global structure properties" and that it "recapitulates various nontrivial structural properties compared to experimental results, some of them at a level of accuracy that is almost comparable to results from atomistic explicit solvent simulations."
+  - **Evidence pointer** Figures 2-5, Tables 2-3, Supplementary Figures S2-S4, S10-S11; location not provided
+  - **Concern** All quantitative comparisons supporting the central claims are presented exclusively in figures and tables that were not included in the provided material. The text describes trends and agreements but does not contain the numerical values needed to assess the magnitude of errors, the statistical significance of differences, or the quality of agreement with experimental data. Without access to the actual data, the strength of the claims cannot be evaluated.
+  - **Why it matters** The core contribution of this work is a quantitative improvement in model accuracy. If the reported agreements are within reasonable error margins, the claims are justified. If the agreements rely on favorable but imprecise comparisons, the conclusions may be overstated. The reviewer cannot distinguish these scenarios from the text alone.
+  - **Resolution test** Provide the figures and tables with numerical values, including error bars, and specify the quantitative criteria used to judge agreement with experimental or atomistic reference data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Parameter reporting
+  - **Claim pointer** The manuscript states that the SASA term is applied only to the atomistic backbone and that the final optimized surface tension coefficient is -0.010 kcal/mol/A^2, with hydrogen bonding strength increased to -2.0 kcal/mol and sidechain vdW interactions reduced to 50% of original values.
+  - **Evidence pointer** Methods section, "HyRes II: design and optimization"; Table 1; location not provided
+  - **Concern** The text reports only a subset of the optimized parameters. The complete parameter set for HyRes II, including all backbone and sidechain vdW parameters, hydrogen bonding parameters, and the specific SASA coefficients for carbonyl and amide groups, is not fully specified. The manuscript states that "the final optimized values are -0.010 kcal/mol/A^2" but does not clarify whether this applies to both C=O and NH groups or represents a single effective coefficient. Table 1 is referenced but not provided.
+  - **Why it matters** Reproducibility is a fundamental requirement for force field development. Without the complete parameter set, other researchers cannot implement or independently test HyRes II. Partial reporting limits the utility of the work for the community.
+  - **Resolution test** Provide the complete parameter table with all optimized values, and clarify the exact form of the SASA term and its coefficients.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim strength versus evidence
+  - **Claim pointer** The manuscript claims that HyRes II "provides an efficient and relatively reliable tool for studying the dynamic interactions of IDPs" and that the simulated p53 TAD/DBD ensemble is "highly consistent with available NMR data."
+  - **Evidence pointer** Results section, "Dynamic interactions of p53 TAD/DBD"; Figures 6-7; Supplementary Figures S6-S9; location not provided
+  - **Concern** The text describes qualitative agreement with NMR chemical shift and PRE data, and identifies two factors that may explain overestimation of PRE effects in the N-terminus of TAD. However, the manuscript does not report quantitative measures of agreement, such as correlation coefficients, root-mean-square deviations, or chi-squared statistics between calculated and experimental PRE values. The claim of "highly consistent" is therefore based on visual or qualitative assessment that cannot be verified from the text.
+  - **Why it matters** The dynamic interaction application is a key demonstration of the model's utility. If the agreement is genuinely quantitative, this is a strong result. If the agreement is only qualitative, the claim should be tempered accordingly. The distinction matters for readers assessing whether the model can be used for predictive purposes.
+  - **Resolution test** Report quantitative agreement metrics between calculated and experimental PRE profiles, and specify the criteria used to judge consistency.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Convergence assessment
+  - **Claim pointer** The manuscript states that "all conformational properties examined, such as Rg, end-to-end distances, and helicity profiles, are well converged within 400 ns" and that for p53 TAD/DBD simulations, the eight independent runs together "seem to provide a complete coverage of the accessible conformational space."
+  - **Evidence pointer** Methods section, "CG simulation protocols"; Results section, "Dynamic interactions of p53 TAD/DBD"; Figure 6; Supplementary Figures S1, S6; location not provided
+  - **Concern** The convergence assessment relies on comparing results from two independent simulations for unbound IDPs and eight for the TAD/DBD system. While this is a reasonable approach, the manuscript does not report quantitative convergence metrics, such as block-averaged uncertainties, autocorrelation times, or overlap measures between independent runs. The statement that the eight TAD/DBD simulations "seem to provide complete coverage" is qualitative and based on visual inspection of PCA projections that are not available.
+  - **Why it matters** Convergence is critical for the validity of all reported ensemble properties. If the simulations are not fully converged, the reported agreements with experimental data could be fortuitous. Quantitative convergence metrics would strengthen confidence in the results.
+  - **Resolution test** Provide quantitative convergence metrics, such as time evolution of Rg, autocorrelation functions, or split-half comparisons between independent runs.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "HyRes II: design and optimization"
+  - **Evidence pointer** Equation 11 and surrounding text; location not provided
+  - **Issue** The description of the SASA term states that it is "only applied to the atomistic backbone" but does not specify whether this includes all backbone atoms or only specific groups (e.g., C=O and NH). The distinction matters for understanding which interactions are affected.
+  - **Required correction** Clarify which backbone atoms are included in the SASA calculation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Balance of IDP chain dimensions and secondary structures"
+  - **Evidence pointer** Figure 2; location not provided
+  - **Issue** The text states that HyRes II "modestly over-estimates the helicity (~75% vs. 50%)" for (AAQAA)3 at 270 K. This is a substantial overestimation, and the term "modestly" may understate the discrepancy. The text does not discuss whether this level of error is acceptable for the intended applications.
+  - **Required correction** Reconsider the language used to describe the magnitude of the helicity overestimation, and discuss the implications of this error for the model's applicability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results, "Dynamic interactions of p53 TAD/DBD"
+  - **Evidence pointer** Figure 7; location not provided
+  - **Issue** The text notes that PRE effects are overestimated in the N-terminus of TAD and attributes this to the monomeric system used. However, the manuscript does not discuss whether the same overestimation would affect the interpretation of the interaction modes identified in Figure 6.
+  - **Required correction** Add a brief discussion of how the N-terminal PRE overestimation might affect the interpretation of the identified interaction modes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reporting
+  - **Affected element** Methods, "Atomistic simulations"
+  - **Evidence pointer** Text describing REST2 simulations; location not provided
+  - **Issue** The manuscript states that REST2 simulations of (AAQAA)3 and KID were performed but does not report the number of replicas used for (AAQAA)3 and KID separately, nor the total simulation time per replica for these systems. The p53 TAD simulation time is reported as ~3.0 microseconds per replica, but the other systems are not specified.
+  - **Required correction** Report the simulation lengths and replica counts for all atomistic systems.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Ability of HyRes II to distinguish structured and disordered proteins"
+  - **Evidence pointer** Figure S5; location not provided
+  - **Issue** The text states that "all three proteins quickly lost most of their secondary and tertiary structures, reflected in the large RSMD values" but does not specify the time scale over which this loss occurs or whether this behavior is consistent with expectations for the simulation length.
+  - **Required correction** Provide the time scale of structural loss and discuss whether this is a limitation of the model or an expected consequence of the coarse-grained representation.
+
+## Risk / unsupported claims
+- The claim that HyRes II achieves accuracy "almost comparable to atomistic explicit solvent simulations" is not fully supported by the text alone, as the quantitative comparisons are only in figures and tables not provided.
+- The claim that the p53 TAD/DBD simulated ensemble is "highly consistent with existing NMR data" is based on qualitative descriptions; quantitative agreement metrics are not reported in the text.
+- The claim of "~10,000-fold reduction in computational cost" is plausible but the basis for this estimate (hardware, simulation lengths, system sizes) is not fully detailed.
+- The statement that HyRes II "can be trivially extended to include the description of post-translational modifications" is an assertion without demonstrated evidence.
+- The claim that the model "will provide an efficient and relatively reliable tool" for dynamic IDP interactions is forward-looking and not directly testable from the presented results.
+- The assertion that HyRes II is the first CG model to recapitulate nontrivial fine features of PRE profiles is a strong claim that cannot be verified without a comprehensive literature comparison.

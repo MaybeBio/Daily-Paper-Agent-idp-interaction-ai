@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.10.544460",
+  "title": "Structure of the N-RNA/P interface reveals mode of L/P attachment to the nucleocapsid of human metapneumovirus",
+  "authors": "Whitehead JD; Decool H; Leyrat C; Carrique L; Fix J; Eléouët J; Galloux M; Renner M",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-10",
+  "window": {
+    "start": "2023-06-05",
+    "end": "2023-06-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过冷冻电镜和分子动力学模拟解析了人偏肺病毒N-RNA/P复合物结构，揭示了P蛋白C端区域与核衣壳N的互作机制及构象动态，虽对象非典型IDP但涉及无序区域介导的蛋白-核酸-蛋白互作机制建模，对IDR介导PPI研究有方法学启发。",
+  "abstract": "Human metapneumovirus (HMPV) is a major cause of respiratory illness in young children. The polymerase complex of HMPV consists of two obligate components, the L polymerase and its cofactor, the phosphoprotein P. During replication and transcription, the L/P complex traverses the viral RNA genome, which is encapsidated within multimerized N nucleoproteins. An essential interaction between N and a C-terminal region of P is required for tethering of the L/P polymerase to the RNA template. This N-P interaction is also involved in the formation of cytoplasmic viral factories in infected cells, called inclusion bodies. To define how L/P recognizes N-encapsidated RNA (N-RNA) we employed cryogenic electron microscopy (cryo-EM) and molecular dynamics simulations, coupled to polymerase activity assays and imaging of inclusion bodies in transfected cells. We report a 2.9 Å resolution structure of a triple-complex between multimeric N, bound to both RNA and the C-terminal region of P. Furthermore, we also present cryo-EM structures of assembled N in different oligomeric states, highlighting the plasticity of N. Combined with our functional assays, these structural data delineate in molecular detail how P attaches to N-RNA whilst retaining substantial conformational dynamics. Moreover, the N-RNA-P triple complex structure provides a molecular blueprint for the design of therapeutics to potentially disrupt the attachment of L/P to its template.",
+  "abstract_zh": "人偏肺病毒（HMPV）是幼儿呼吸道疾病的主要原因。HMPV的聚合酶复合物由两个必需组分组成：L聚合酶及其辅因子磷酸蛋白P。在复制和转录过程中，L/P复合物穿越病毒RNA基因组，该基因组被多聚化的N核蛋白包裹。N与P的C末端区域之间的关键相互作用对于将L/P聚合酶锚定至RNA模板至关重要。这种N-P相互作用还参与感染细胞中细胞质病毒工厂（称为包涵体）的形成。为阐明L/P如何识别N包裹的RNA（N-RNA），我们采用了低温电子显微镜（cryo-EM）和分子动力学模拟，并结合聚合酶活性测定及转染细胞中包涵体的成像。我们报道了多聚化N与RNA及P的C末端区域结合形成的三重复合物的2.9 Å分辨率结构。此外，我们还展示了组装N在不同寡聚状态下的cryo-EM结构，突显了N的可塑性。结合我们的功能实验，这些结构数据在分子层面详细描绘了P如何附着于N-RNA，同时保持显著的构象动态性。此外，N-RNA-P三重复合物结构为设计潜在干扰L/P与其模板附着的治疗药物提供了分子蓝图。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.10.544460",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.10.544460",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.10.544460/index.html"
+}

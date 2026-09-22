@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors generate force field parameters for Zn(II) cations in a set of A β complexes, combine them with the Amber99SB ⋆ -ILDN protein force field, run molecular dynamics simulations, and use Bayesian/Maximum entropy optimization against NMR data to produce conformational ensembles for A β -Zn complexes. They report that these ensembles are more heterogeneous than the NMR models deposited in the Protein Data Bank.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, validation metrics, or comparison data are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, NMR experimental data, force field parameterization details, simulation protocols, and convergence analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and timely approach to a challenging problem in the structural biology of intrinsically disordered proteins. The combination of state-of-the-art force field parameterization for Zn(II) with Bayesian/Maximum entropy refinement against NMR data is methodologically sound in principle. However, the abstract provides no quantitative evidence to support the central claims. The key assertion that the resulting ensembles are "more heterogeneous" than PDB NMR models is presented without any metric, statistical test, or comparison protocol. The scope of "most A β -metal complexes" is undefined. As submitted, the case is not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, metal-protein interactions, Alzheimer's disease biophysics, and computational chemistry would be interested. The work addresses a gap in ensemble descriptions of metal-bound A β , which is relevant to understanding metal-mediated aggregation mechanisms. Methodologists developing force fields for metal ions in biomolecular simulations would also find the parameterization strategy of interest.
+- **Major strengths** The problem is well chosen and significant. The approach integrates experimental NMR data with simulation through Bayesian/Maximum entropy methods, which is a current best practice for disordered systems. The explicit focus on force field accuracy for both protein and metal interactions demonstrates methodological awareness. The claim of ensemble heterogeneity relative to PDB models, if substantiated, would be a meaningful contribution.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "we provide an accurate description of the molecular ensembles for most A β -metal complexes"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract asserts accuracy of the ensembles without presenting any quantitative validation. No metrics such as RMSD to NMR observables, chi-square values, or convergence measures are given. The phrase "most A β -metal complexes" is vague and does not specify which complexes were successful and which were not.  
+  - **Why it matters** Accuracy is a strong claim that requires direct evidence. Without validation metrics, the reader cannot assess whether the Bayesian/Maximum entropy refinement actually improved agreement with experiment or whether the force field parameters are reliable. The scope limitation implied by "most" suggests some complexes failed, but the abstract does not address this.  
+  - **Resolution test** Provide quantitative validation metrics for each complex, including agreement with NMR chemical shifts or residual dipolar couplings before and after refinement, and specify which complexes were excluded from the "most" claim and why.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** "the resulting conformational ensembles are more heterogeneous than the NMR models deposited in the Protein Data Bank"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The central comparative claim is made without any definition of "heterogeneity" or any statistical comparison. No ensemble width metric, such as root-mean-square fluctuation, radius of gyration distribution, or cluster analysis, is reported. No statistical test comparing simulation ensembles to PDB model ensembles is described.  
+  - **Why it matters** This claim is the primary novel finding of the work. If unsupported, the contribution reduces to a methodological exercise. The comparison to PDB models is meaningful only if the heterogeneity metric is clearly defined and the difference is shown to be significant beyond sampling noise.  
+  - **Resolution test** Define the heterogeneity metric, report its values for both simulation ensembles and PDB models, and provide a statistical test or confidence interval demonstrating that the difference is significant.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** "we use state-of-the-art methods to generate force field parameters for the Zn(II) cations"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify which parameterization method was used, what reference data were employed, or how the parameters were validated. Without this information, the force field parameters cannot be evaluated or reproduced.  
+  - **Why it matters** Force field parameterization for metal ions is notoriously sensitive to method choice and reference data. The reliability of the entire simulation pipeline depends on these parameters. Reproducibility is a core requirement for computational studies.  
+  - **Resolution test** Describe the parameterization method, reference data, and validation in the methods section, and provide the parameters as supplementary material or in a repository.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Scope statement  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not specify which A β complexes were studied. The phrase "a set of A β complexes" is undefined.  
+  - **Required correction** List the specific complexes studied, including the A β sequence region and the Zn(II) coordination mode for each.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Bayesian/Maximum entropy approach"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract uses a slash between Bayesian and Maximum entropy, which may imply they are interchangeable. These are distinct methods with different theoretical foundations.  
+  - **Required correction** Clarify whether a single method was used or both were combined, and specify the exact formulation.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Simulation length and convergence  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No information is given on simulation length, number of replicas, or convergence criteria.  
+  - **Required correction** Report simulation lengths, number of independent runs, and convergence metrics in the methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The abstract does not provide sufficient evidence to support the claims of accuracy and ensemble heterogeneity. R1-M3 is non-blocking but essential for reproducibility.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The approach of combining metal-specific force field parameterization with Bayesian/Maximum entropy refinement for A β -Zn ensembles is not entirely novel but addresses a specific gap. The claim of ensemble heterogeneity relative to PDB models, if substantiated, would add originality.  
+  - **Scientific importance** The topic is important for understanding metal involvement in Alzheimer's disease and for advancing methods for disordered protein-metal complexes. The potential impact is moderate to high.  
+  - **Interdisciplinary readership** The work would appeal to computational chemists, biophysicists, and structural biologists. The abstract is accessible to these groups but may be too technical for a broader readership.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The methodological choices are reasonable in principle, but no evidence is provided to evaluate their implementation.  
+  - **Readability for nonspecialists** The abstract is concise and generally clear, but terms such as "Bayesian/Maximum entropy approach" and "Amber99SB ⋆ -ILDN" are not explained. The lack of quantitative context reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising approach but does not provide the quantitative support needed to evaluate the central claims. If the full manuscript provides the missing validation metrics, statistical comparisons, and methodological details, the work could become a solid contribution. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim of "accurate description of the molecular ensembles" is unsupported without validation metrics.
+- The claim that ensembles are "more heterogeneous than the NMR models" is unsupported without a defined metric and statistical test.
+- The scope of "most A β -metal complexes" is unverifiable without a list of complexes and outcomes.
+- The force field parameterization method and its validation are not described, making the parameters unassessable.
+- The simulation length, convergence, and sampling quality are not reported, making the ensemble generation unassessable.

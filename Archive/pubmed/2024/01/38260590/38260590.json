@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "38260590",
+    "doi": "10.1101/2024.01.11.575294",
+    "title": "Sequence-Dependent Conformational Transitions of Disordered Proteins During Condensation."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) can form biomolecular condensates through phase separation. It is recognized that the conformation of IDPs in the dense and dilute phases as well as at the interfaces of condensates can critically impact the resulting properties associated with their functionality. However, a comprehensive understanding of the conformational transitions of IDPs during condensation remains elusive. In this study, we employ a coarse-grained polyampholyte model, comprising an equal number of oppositely charged residues-glutamic acid and lysine-whereby conformations and phase behavior can be readily tuned by altering the protein sequence. By manipulating the sequence patterns from perfectly alternating to block-like, we obtain chains with ideal-like conformations to semi-compact structures in the dilute phase, while in the dense phase, the chain conformation is approximately that of an ideal chain, irrespective of the protein sequence. By performing simulations at different concentrations, we find that the chains assemble from the dilute phase through small oligomeric clusters to the dense phase, accompanied by a gradual swelling of the individual chains. We further demonstrate that these findings are applicable to several naturally occurring proteins involved in the formation of biological condensates. Concurrently, we delve deeper into the chain conformations within the condensate, revealing that chains at the interface show a strong sequence dependence, but remain more collapsed than those in the bulk-like dense phase. This study addresses critical gaps in our knowledge of IDP conformations within condensates as a function of protein sequence.",
+    "keywords": [
+      "Biomolecular condensates",
+      "Intrinsically disordered proteins",
+      "Molecular simulations",
+      "Phase separation",
+      "Protein conformations"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jiahui",
+        "Devarajan, Dinesh Sundaravadivelu",
+        "Kim, Young C",
+        "Nikoubashman, Arash",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Wang J",
+        "Devarajan DS",
+        "Kim YC",
+        "Nikoubashman A",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7825-0999",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States.",
+        "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, DC 20375, United States.",
+        "Leibniz-Institut fur Polymerforschung Dresden e.V., Hohe Strasse 6, 01069 Dresden, Germany.",
+        "Institut fur Theoretische Physik, Technische Universitat Dresden, 01069 Dresden, Germany.",
+        "Cluster of Excellence Physics of Life, Technische Universitat Dresden, 01062 Dresden, Germany.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States.",
+        "Department of Chemistry, Texas A&M University, College Station, TX 77843, United States.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX 77843, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jiahui",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States."
+        ]
+      },
+      {
+        "full_name": "Devarajan, Dinesh Sundaravadivelu",
+        "short_name": "Devarajan DS",
+        "identifiers": [
+          "0000-0001-7825-0999"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, DC 20375, United States."
+        ]
+      },
+      {
+        "full_name": "Nikoubashman, Arash",
+        "short_name": "Nikoubashman A",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung Dresden e.V., Hohe Straße 6, 01069 Dresden, Germany.",
+          "Institut für Theoretische Physik, Technische Universität Dresden, 01069 Dresden, Germany.",
+          "Cluster of Excellence Physics of Life, Technische Universität Dresden, 01062 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States.",
+          "Department of Chemistry, Texas A&M University, College Station, TX 77843, United States.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX 77843, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jan 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/23 12:43",
+    "fetched_at": "2026-09-21 04:29:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38429263",
+      "38250712",
+      "37957331",
+      "37957147",
+      "37856873",
+      "37079924",
+      "36603581",
+      "36459561",
+      "36272811",
+      "36206480",
+      "36115020",
+      "36071192",
+      "35582428",
+      "34598580",
+      "34476121",
+      "34374536",
+      "34259536",
+      "33767388",
+      "33169001",
+      "32822449",
+      "32312191",
+      "32227994",
+      "31260322",
+      "30913885",
+      "30682370",
+      "30384718",
+      "30217894",
+      "30193467",
+      "29604827",
+      "29358076",
+      "29345991",
+      "28483149",
+      "28225081",
+      "27545621",
+      "27410731",
+      "26328871",
+      "26317470",
+      "26015579",
+      "25723249",
+      "25288112",
+      "23901099",
+      "22984159",
+      "20639465",
+      "20483348",
+      "20404210",
+      "18576630",
+      "18506808",
+      "18481860",
+      "17794340",
+      "16494432"
+    ],
+    "similar": [
+      "38260590",
+      "39568948",
+      "39225535",
+      "37215004",
+      "38250712",
+      "35944496",
+      "35512095",
+      "36272811",
+      "37577555",
+      "37856873",
+      "30913885",
+      "35126984",
+      "38429263",
+      "32393642",
+      "32822449",
+      "36524527",
+      "39977663",
+      "23901099",
+      "40128232",
+      "38407041",
+      "37468629",
+      "39987501",
+      "36993212",
+      "32639157",
+      "38252962",
+      "39042834",
+      "29509422",
+      "38348795",
+      "37079924",
+      "33076213",
+      "36004748",
+      "32696367",
+      "33302617",
+      "34716273",
+      "37645312",
+      "39947751",
+      "40009520",
+      "39486437",
+      "35179885",
+      "40095314",
+      "36353733",
+      "39026887",
+      "39605385",
+      "33453925",
+      "35053240",
+      "37222424",
+      "38112495",
+      "35054543",
+      "36674958",
+      "36066390",
+      "39044475",
+      "34737230",
+      "38383656",
+      "31139718",
+      "39185151",
+      "39610751",
+      "35333653",
+      "20404210",
+      "39257779",
+      "36641212",
+      "39319382",
+      "33307683",
+      "33139563",
+      "32456986",
+      "28483149",
+      "34285781",
+      "35119946",
+      "37782899",
+      "33337879",
+      "32579908",
+      "37006777",
+      "39937084",
+      "33890467",
+      "39412378",
+      "30397688",
+      "29604827",
+      "36883003",
+      "35325654",
+      "34203110",
+      "37442414",
+      "34259536",
+      "32227994",
+      "37261897",
+      "37094002",
+      "37205474",
+      "36350032",
+      "38296708",
+      "36164646",
+      "36513655",
+      "39071308",
+      "30471685",
+      "39980654",
+      "34090478",
+      "38181073",
+      "34916288",
+      "33640380",
+      "39677697",
+      "33945530",
+      "38076908",
+      "33930220"
+    ],
+    "review": [
+      "38260590",
+      "36524527",
+      "29509422",
+      "38348795",
+      "39947751",
+      "35179885",
+      "32456986",
+      "34285781",
+      "35119946",
+      "36350032",
+      "38296708",
+      "36164646"
+    ],
+    "pmc": [
+      "10802556"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38260590/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38260590",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.01.11.575294",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

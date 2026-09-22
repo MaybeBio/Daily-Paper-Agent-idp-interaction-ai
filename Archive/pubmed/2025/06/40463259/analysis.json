@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40463259",
+  "title": "Pln1 Mediates Lipid Droplet-Vacuole Tethering During Microlipophagy in Saccharomyces cerevisiae.",
+  "authors": "Rao, Monala Jayaprakash; Folger, Brayden; Reus, Joshua; Toulmay, Alexandre; Li, Jin; Zhang, Rudian; Prinz, William; Goodman, Joel; Wang, Fei",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-06-04",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究酵母脂滴蛋白Pln1通过其IDR介导脂滴-液泡互作（microlipophagy），涉及无序区域在膜器互作中的功能，但对象为脂滴而非典型蛋白-蛋白互作，且方法为实验分子解剖，无AI/物理模拟建模，故中档。",
+  "abstract": "Lipid droplets (LDs) are dynamic organelles that undergo growth or degradation depending on the metabolic state of the cell. One form of LD degradation is autophagy-mediated, referred to as lipophagy. Here, we demonstrate that Pln1, a perilipin located on the surface of LDs in Saccharomyces cerevisiae , previously known for its role in LD biogenesis, is essential for lipophagy. Pln1 facilitates the docking of cytosolic LDs to vacuoles, the lysosome-like organelles responsible for LD degradation, under various nutrient conditions. Molecular dissection of Pln1 revealed that the N-terminal PAT (Perilipin (PLN1), Adipophilin (PLN2), and TIP47 (PLN3)) domain and a hydrophobic region are critical for the localization and binding of LDs to vacuoles. Site-specific mutagenesis within the PAT domain identified a semi-hydrophobic LD Interacting Motif (LIM), which is vital for this interaction. Furthermore, an intrinsically disordered region (IDR) near the center of Pln1 is required for efficient LD-vacuole tethering. These findings support a model in which Pln1 bridges LDs and vacuoles by simultaneously interacting with both organelles. Notably, deleting PLN1 did not impair survival during prolonged nitrogen starvation and enhanced viability in autophagy-defective ( atg8 Delta) cells, suggesting that balancing Pln1-mediated LD biogenesis and lipophagy is crucial for yeast survival under starvation conditions.",
+  "abstract_zh": "脂滴（LDs）是动态细胞器，其生长或降解取决于细胞的代谢状态。脂滴降解的一种形式是自噬介导的，称为脂噬（lipophagy）。在此，我们证明Pln1——一种位于酿酒酵母（Saccharomyces cerevisiae）脂滴表面的脂滴包被蛋白（perilipin），此前已知其在脂滴生物发生中起作用——对脂噬至关重要。Pln1在各种营养条件下促进胞质脂滴对接至液泡（负责脂滴降解的溶酶体样细胞器）。对Pln1的分子解析揭示，N端PAT（Perilipin (PLN1)、Adipophilin (PLN2)和TIP47 (PLN3)）结构域及一个疏水区域对脂滴的定位和与液泡的结合至关重要。在PAT结构域内的位点特异性突变鉴定出一个半疏水性脂滴相互作用基序（LIM），该基序对此相互作用至关重要。此外，Pln1中心附近的一个固有无序区域（IDR）是高效脂滴-液泡拴系所必需的。这些发现支持一个模型，即Pln1通过同时与两种细胞器相互作用来桥接脂滴和液泡。值得注意的是，删除PLN1并未损害长期氮饥饿期间的存活，并在自噬缺陷（atg8 Delta）细胞中增强了生存能力，这表明平衡Pln1介导的脂滴生物发生和脂噬对酵母在饥饿条件下的存活至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40463259/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40463259/",
+  "paper_page_path": "papers/pubmed/40463259/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.21.558852",
+  "title": "Systematic identification of inter-chromosomal interaction networks supports the existence of RNA factories",
+  "authors": "Hristov BH; Noble WS; Bertero A",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-22",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 6,
+  "one_liner_zh": "开发trans-C计算框架从Hi-C数据识别跨染色体互作位点，发现含无序结构域的转录因子结合位点富集于trans互作，支持RNA工厂/凝聚体相关PPI机制，但方法为网络随机游走而非AI/物理模拟，且未直接建模无序蛋白互作机制。",
+  "abstract": "Most studies of genome organization have focused on intra-chromosomal ( cis ) contacts because they harbor key features such as DNA loops and topologically associating domains. Inter-chromosomal ( trans ) contacts have received much less attention, and tools for interrogating potential biologically relevant trans structures are lacking. Here, we develop a computational framework to identify sets of loci that jointly interact in trans from Hi-C data. This method, trans-C, initiates probabilistic random walks with restarts from a set of seed loci to traverse an input Hi-C contact network, thereby identifying sets of trans -contacting loci. We validate trans-C in three increasingly complex models of established trans contacts: the Plasmodium falciparum var genes, the mouse olfactory receptor “Greek islands”, and the human RBM20 cardiac splicing factory. We then apply trans-C to systematically test the hypothesis that genes co-regulated by the same trans -acting element (i.e., a transcription or splicing factor) co-localize in three dimensions to form “RNA factories” that maximize the efficiency and accuracy of RNA biogenesis. We find that many loci with multiple binding sites of the same transcription factor interact with one another in trans , especially those bound by transcription factors with intrinsically disordered domains. Similarly, clustered binding of a subset of RNA binding proteins correlates with trans interaction of the encoding loci. These findings support the existence of trans interacting chromatin domains (TIDs) driven by RNA biogenesis. Trans-C provides an efficient computational framework for studying these and other types of trans interactions, empowering studies of a poorly understood aspect of genome architecture.",
+  "abstract_zh": "大多数关于基因组组织的研究都聚焦于染色体内的（顺式）接触，因为它们包含DNA环和拓扑关联结构域等关键特征。染色体间的（反式）接触受到的关注较少，且缺乏用于探究潜在生物学相关反式结构的工具。在此，我们开发了一个计算框架，用于从Hi-C数据中识别在反式作用下共同相互作用的位点集合。该方法名为trans-C，通过从一组种子位点出发进行概率性随机游走并重启，遍历输入的Hi-C接触网络，从而识别反式接触位点集合。我们在三种日益复杂的已确立反式接触模型中验证了trans-C：恶性疟原虫var基因、小鼠嗅觉受体“希腊岛屿”以及人类RBM20心脏剪接工厂。随后，我们应用trans-C系统性地检验了一个假设，即由同一反式作用元件（如转录或剪接因子）共调控的基因在三维空间中共定位，形成“RNA工厂”，以最大化RNA生物发生的效率和准确性。我们发现，许多具有同一转录因子多个结合位点的位点在反式作用下相互交互，尤其是那些由具有内在无序结构域的转录因子结合的位点。类似地，部分RNA结合蛋白的聚集结合与编码位点的反式相互作用相关。这些发现支持由RNA生物发生驱动的反式相互作用染色质结构域（TIDs）的存在。Trans-C为研究这些及其他类型的反式相互作用提供了一个高效的计算框架，增强了对基因组架构中这一理解不足方面的研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.21.558852",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.21.558852",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.21.558852/index.html"
+}

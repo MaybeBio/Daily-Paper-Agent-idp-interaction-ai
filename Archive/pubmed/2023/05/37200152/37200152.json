@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "37200152",
+    "doi": "10.1093/bib/bbad183",
+    "title": "Census of exposed aggregation-prone regions in proteomes."
+  },
+  "content": {
+    "abstract": "Loss of solubility usually leads to the detrimental elimination of protein function. In some cases, the protein aggregation is also required for beneficial functions. Given the duality of this phenomenon, it remains a fundamental question how natural selection controls the aggregation. The exponential growth of genomic sequence data and recent progress with in silico predictors of the aggregation allows approaching this problem by a large-scale bioinformatics analysis. Most of the aggregation-prone regions are hidden within the 3D structure, rendering them inaccessible for the intermolecular interactions responsible for aggregation. Thus, the most realistic census of the aggregation-prone regions requires crossing aggregation prediction with information about the location of the natively unfolded regions. This allows us to detect so-called 'exposed aggregation-prone regions' (EARs). Here, we analyzed the occurrence and distribution of the EARs in 76 reference proteomes from the three kingdoms of life. For this purpose, we used a bioinformatics pipeline, which provides a consensual result based on several predictors of aggregation. Our analysis revealed a number of new statistically significant correlations about the presence of EARs in different organisms, their dependence on protein length, cellular localizations, co-occurrence with short linear motifs and the level of protein expression. We also obtained a list of proteins with the conserved aggregation-prone sequences for further experimental tests. Insights gained from this work led to a deeper understanding of the relationship between protein evolution and aggregation.",
+    "keywords": [
+      "amyloids",
+      "bioinformatics",
+      "evolution",
+      "kingdoms of life",
+      "large-scale analysis",
+      "protein aggregation"
+    ],
+    "mesh_terms": [
+      "*Proteome",
+      "*Censuses",
+      "Protein Folding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Falgarone, Theo",
+        "Villain, Etienne",
+        "Richard, Francois",
+        "Osmanli, Zarifa",
+        "Kajava, Andrey V"
+      ],
+      "short_names": [
+        "Falgarone T",
+        "Villain E",
+        "Richard F",
+        "Osmanli Z",
+        "Kajava AV"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centre de Recherche en Biologie cellulaire de Montpellier, CNRS, Universite Montpellier, Montpellier, 34293, France.",
+        "Centre de Recherche en Biologie cellulaire de Montpellier, CNRS, Universite Montpellier, Montpellier, 34293, France.",
+        "Centre de Recherche en Biologie cellulaire de Montpellier, CNRS, Universite Montpellier, Montpellier, 34293, France.",
+        "Centre de Recherche en Biologie cellulaire de Montpellier, CNRS, Universite Montpellier, Montpellier, 34293, France.",
+        "Biophysics Institute, Ministry of Science and Education of Azerbaijan Republic, Az1141, Baku, Azerbaijan.",
+        "Centre de Recherche en Biologie cellulaire de Montpellier, CNRS, Universite Montpellier, Montpellier, 34293, France.",
+        "Institut de Biologie Computationnelle, Universite Montpellier, 34095 Montpellier, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Falgarone, Théo",
+        "short_name": "Falgarone T",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherche en Biologie cellulaire de Montpellier, CNRS, Université Montpellier, Montpellier, 34293, France."
+        ]
+      },
+      {
+        "full_name": "Villain, Etienne",
+        "short_name": "Villain E",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherche en Biologie cellulaire de Montpellier, CNRS, Université Montpellier, Montpellier, 34293, France."
+        ]
+      },
+      {
+        "full_name": "Richard, Francois",
+        "short_name": "Richard F",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherche en Biologie cellulaire de Montpellier, CNRS, Université Montpellier, Montpellier, 34293, France."
+        ]
+      },
+      {
+        "full_name": "Osmanli, Zarifa",
+        "short_name": "Osmanli Z",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherche en Biologie cellulaire de Montpellier, CNRS, Université Montpellier, Montpellier, 34293, France.",
+          "Biophysics Institute, Ministry of Science and Education of Azerbaijan Republic, Az1141, Baku, Azerbaijan."
+        ]
+      },
+      {
+        "full_name": "Kajava, Andrey V",
+        "short_name": "Kajava AV",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherche en Biologie cellulaire de Montpellier, CNRS, Université Montpellier, Montpellier, 34293, France.",
+          "Institut de Biologie Computationnelle, Université Montpellier, 34095 Montpellier, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Jul 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/18 19:12",
+    "fetched_at": "2026-09-20 22:07:46"
+  },
+  "links": {
+    "cites": [
+      "41387432",
+      "39409138"
+    ],
+    "refs": [],
+    "similar": [
+      "37200152",
+      "28257595",
+      "23912807",
+      "22988860",
+      "38360090",
+      "35089550",
+      "21538897",
+      "24098542",
+      "29594784",
+      "25339987",
+      "32637039",
+      "24146608",
+      "34237472",
+      "16155201",
+      "19251648",
+      "35422070",
+      "27479752",
+      "36806058",
+      "35149212",
+      "16197548",
+      "33972019",
+      "22009164",
+      "36358962",
+      "16299712",
+      "31952691",
+      "28002650",
+      "34001607",
+      "23339301",
+      "34023402",
+      "16359707",
+      "24472658",
+      "29330519",
+      "19156839",
+      "18927604",
+      "20709078",
+      "23326595",
+      "22345424",
+      "33460517",
+      "21463640",
+      "33001599",
+      "23168257",
+      "28271922",
+      "24150944",
+      "37464277",
+      "28066979",
+      "15476390",
+      "34561149",
+      "17407164",
+      "19527731",
+      "20709076",
+      "16152647",
+      "24265134",
+      "28000080",
+      "37219573",
+      "20939902",
+      "25131585",
+      "36321557",
+      "30399196",
+      "21046618",
+      "11050225",
+      "20957252",
+      "37246507",
+      "28685932",
+      "37473502",
+      "24204229",
+      "30168197",
+      "24681324",
+      "16637275",
+      "29241326",
+      "24278003",
+      "18783251",
+      "20065649",
+      "28250370",
+      "12314803",
+      "36310204",
+      "25486632",
+      "34181000",
+      "20615417",
+      "15657106",
+      "24165390",
+      "25210196",
+      "19393661",
+      "17324296",
+      "21909575",
+      "22317916",
+      "15883883",
+      "25569335"
+    ],
+    "review": [
+      "37200152",
+      "22988860",
+      "21538897",
+      "32637039",
+      "27479752",
+      "31952691",
+      "23339301",
+      "34023402",
+      "33460517",
+      "28271922",
+      "28066979",
+      "34561149",
+      "25131585",
+      "36321557"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37200152.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad183",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

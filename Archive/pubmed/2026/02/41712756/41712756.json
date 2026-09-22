@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "41712756",
+    "doi": "10.1093/bioinformatics/btag088",
+    "title": "A deep learning framework for comprehensive prediction of human RNA G-quadruplex-binding proteins."
+  },
+  "content": {
+    "abstract": "MOTIVATION: G-quadruplex-binding proteins (G4BPs) play key roles in RNA metabolism and stress response, yet their identification remains experimentally challenging. Here, we present a deep learning (DL) framework for the prediction of RNA G4BPs (RG4BPs), integrating diverse encoding strategies and neural architectures. Our best-performing model, which includes ESM-2 protein language model embeddings and consists of an LSTM architecture, achieved 86% accuracy in distinguishing RG4BPs from non-binder proteins. The application of this model to the human proteome uncovered 2160 high-confidence RG4BP candidates, many of which display intrinsically disordered regions (IDRs) and enrichment in stress granule organelles. These findings reveal a potential link between G-quadruplex recognition and cellular stress responses. To enable easy and broad access to the framework, we developed G4REP, a web server for RG4BP prediction and analysis. Overall, an effective approach to explore the RG4BPs landscape and uncover novel players in RNA regulation is provided. AVAILABILITY: Source code for the G4REP Model training and evaluation is available at: https://github.com/G4REP/G4REPmodel and at https://doi.org/10.5281/zenodo.17963046. G4REP Server is hosted at: https://schubert.bio.uniroma1.it/g4/.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*G-Quadruplexes",
+      "*RNA-Binding Proteins/chemistry/metabolism",
+      "Computational Biology",
+      "*RNA/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rosignoli, Serena",
+        "Taraglio, Sophie",
+        "Di Luzio, Francesco",
+        "Lustrino, Elisa",
+        "Marzella, Dario",
+        "Elofsson, Arne",
+        "Panella, Massimo",
+        "Paiardini, Alessandro"
+      ],
+      "short_names": [
+        "Rosignoli S",
+        "Taraglio S",
+        "Di Luzio F",
+        "Lustrino E",
+        "Marzella D",
+        "Elofsson A",
+        "Panella M",
+        "Paiardini A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9078-7545"
+      ],
+      "affiliations": [
+        "Centre for Regenerative Medicine \"Stefano Ferrari\", Department of Life Sciences, University of Modena and Reggio Emilia, Modena 41125, Italy.",
+        "Department of Biochemical Sciences \"A. Rossi Fanelli\", Sapienza University of Rome, Rome 00185, Italy.",
+        "Department of Information Engineering, Electronics and Telecommunications, Sapienza University of Rome, Rome 00184, Italy.",
+        "Department of Biochemical Sciences \"A. Rossi Fanelli\", Sapienza University of Rome, Rome 00185, Italy.",
+        "Medical BioSciences Department, Radboud University Medical Center, Nijmegen 6500, The Netherlands.",
+        "Department of Biochemistry and Biophysics and Science for Life Laboratory, Stockholm University, Solna 171 21, Sweden.",
+        "Department of Information Engineering, Electronics and Telecommunications, Sapienza University of Rome, Rome 00184, Italy.",
+        "Department of Biochemical Sciences \"A. Rossi Fanelli\", Sapienza University of Rome, Rome 00185, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rosignoli, Serena",
+        "short_name": "Rosignoli S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Regenerative Medicine \"Stefano Ferrari\", Department of Life Sciences, University of Modena and Reggio Emilia, Modena 41125, Italy."
+        ]
+      },
+      {
+        "full_name": "Taraglio, Sophie",
+        "short_name": "Taraglio S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Sciences \"A. Rossi Fanelli\", Sapienza University of Rome, Rome 00185, Italy."
+        ]
+      },
+      {
+        "full_name": "Di Luzio, Francesco",
+        "short_name": "Di Luzio F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Engineering, Electronics and Telecommunications, Sapienza University of Rome, Rome 00184, Italy."
+        ]
+      },
+      {
+        "full_name": "Lustrino, Elisa",
+        "short_name": "Lustrino E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Sciences \"A. Rossi Fanelli\", Sapienza University of Rome, Rome 00185, Italy."
+        ]
+      },
+      {
+        "full_name": "Marzella, Dario",
+        "short_name": "Marzella D",
+        "identifiers": [],
+        "affiliations": [
+          "Medical BioSciences Department, Radboud University Medical Center, Nijmegen 6500, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Elofsson, Arne",
+        "short_name": "Elofsson A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics and Science for Life Laboratory, Stockholm University, Solna 171 21, Sweden."
+        ]
+      },
+      {
+        "full_name": "Panella, Massimo",
+        "short_name": "Panella M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Engineering, Electronics and Telecommunications, Sapienza University of Rome, Rome 00184, Italy."
+        ]
+      },
+      {
+        "full_name": "Paiardini, Alessandro",
+        "short_name": "Paiardini A",
+        "identifiers": [
+          "0000-0001-9078-7545"
+        ],
+        "affiliations": [
+          "Department of Biochemical Sciences \"A. Rossi Fanelli\", Sapienza University of Rome, Rome 00185, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Feb 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/19 19:02",
+    "fetched_at": "2026-09-18 00:58:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39847338",
+      "39467119",
+      "39444378",
+      "38747347",
+      "38738955",
+      "38718835",
+      "38519458",
+      "38341346",
+      "38316778",
+      "37949845",
+      "37422364",
+      "36927031",
+      "36662637",
+      "36408920",
+      "36350614",
+      "36124670",
+      "35791380",
+      "35717172",
+      "35625576",
+      "34785657",
+      "34785537",
+      "34614161",
+      "33872156",
+      "33784396",
+      "33524709",
+      "33303320",
+      "33264409",
+      "33193663",
+      "32201808",
+      "31444758",
+      "31444741",
+      "30721922",
+      "30216987",
+      "29992460",
+      "29959318",
+      "29036425",
+      "28554731",
+      "27801425",
+      "27384774",
+      "26673709",
+      "26374839",
+      "26195789",
+      "25268620",
+      "23180780",
+      "22681889",
+      "20472641",
+      "16845096"
+    ],
+    "similar": [
+      "41712756",
+      "42475469",
+      "30423078",
+      "34905768",
+      "38519458",
+      "41183740",
+      "41921197",
+      "39804669",
+      "42681205",
+      "35150250",
+      "42214054",
+      "40391089",
+      "42635213",
+      "40957717",
+      "40646507",
+      "29129743",
+      "28245811",
+      "38521588",
+      "31483777",
+      "42412843",
+      "41014017",
+      "32808039",
+      "29722865",
+      "42633564",
+      "26467480",
+      "36350614",
+      "37438149",
+      "19478012",
+      "42099803",
+      "42360418",
+      "40742755",
+      "30528447",
+      "29885355",
+      "41378882",
+      "40914406",
+      "40119908",
+      "39695955",
+      "32178871",
+      "37422364",
+      "41947423",
+      "38317052",
+      "39550226",
+      "41878917",
+      "31067608",
+      "40441416",
+      "35649392",
+      "41172803",
+      "41053545",
+      "40689530",
+      "41450215",
+      "35051187",
+      "28859475",
+      "42605055",
+      "39576667",
+      "32976590",
+      "41451538",
+      "40728934",
+      "41284811",
+      "42636031",
+      "20483814",
+      "26540053",
+      "31510640",
+      "40603503",
+      "35451938",
+      "38856168",
+      "35030497",
+      "24573478",
+      "25268620",
+      "36124670",
+      "39214282",
+      "34383754",
+      "40883253",
+      "41996289",
+      "40997583",
+      "38747347",
+      "35751593",
+      "37028092",
+      "40581797",
+      "38917322",
+      "40794872",
+      "40372465",
+      "41022793",
+      "32920048",
+      "41047539",
+      "37827403",
+      "41632625",
+      "39596413",
+      "42503799",
+      "38812466",
+      "34929730",
+      "24151078",
+      "42468752",
+      "32826060",
+      "40914361",
+      "41448304",
+      "42412846",
+      "38830995",
+      "40069726",
+      "41045511",
+      "41236479"
+    ],
+    "review": [
+      "41712756",
+      "37438149",
+      "32178871",
+      "37422364",
+      "31067608",
+      "26540053",
+      "25268620",
+      "42468752"
+    ],
+    "pmc": [
+      "13169518"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41712756/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag088",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

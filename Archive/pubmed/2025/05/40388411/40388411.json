@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "40388411",
+    "doi": "10.1021/acs.jcim.5c00342",
+    "title": "Investigating the Nature of PRM:SH3 Interactions Using Artificial Intelligence and Molecular Dynamics."
+  },
+  "content": {
+    "abstract": "Understanding the binding interactions within protein-peptide complexes is crucial for elucidating key physicochemical phenomena in biological systems. Among the outcomes of these interactions, biomolecular condensates have recently emerged as vital players in various cellular functions including signaling. Complexes such as PRM:SH3 are known to undergo condensation, yet the chemical interactions and governing factors driving these behaviors remain poorly understood. In this study, we combine AlphaFold2 and molecular dynamics simulations to investigate the binding nature of PRM:SH3. Our findings reveal that proline-to-alanine mutations enhance flexibility, weakening the binding affinity, while charge-altering mutations modify the binding mode and influence the binding strength. Notably, the PRM(H) series shows that binding is primarily driven by local flexibility and the hydrophobic effect. Furthermore, we demonstrate that the root-mean-square deviation and dendrogram height are correlated to experimental dissociation constants. These insights provide a framework for understanding the binding behaviors of protein-peptide complexes and offer an effective approach for studying similar systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*src Homology Domains",
+      "Protein Binding",
+      "*Artificial Intelligence",
+      "Mutation",
+      "Peptides/chemistry/metabolism",
+      "Hydrophobic and Hydrophilic Interactions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Se-Jun",
+        "Hwang, Da-Eun",
+        "Kim, Hyungjun",
+        "Choi, Jeong-Mo"
+      ],
+      "short_names": [
+        "Kim SJ",
+        "Hwang DE",
+        "Kim H",
+        "Choi JM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8261-9381",
+        "ORCID: 0000-0003-2656-4851"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Korea Advanced Institute of Science and Technology (KAIST), Daejeon 34141, Republic of Korea.",
+        "Department of Chemistry and Chemistry Institute for Functional Materials, Pusan National University, Busan 46241, Republic of Korea.",
+        "Department of Chemistry, Korea Advanced Institute of Science and Technology (KAIST), Daejeon 34141, Republic of Korea.",
+        "Department of Chemistry and Chemistry Institute for Functional Materials, Pusan National University, Busan 46241, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Se-Jun",
+        "short_name": "Kim SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Korea Advanced Institute of Science and Technology (KAIST), Daejeon 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Hwang, Da-Eun",
+        "short_name": "Hwang DE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemistry Institute for Functional Materials, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Hyungjun",
+        "short_name": "Kim H",
+        "identifiers": [
+          "0000-0001-8261-9381"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Korea Advanced Institute of Science and Technology (KAIST), Daejeon 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Choi, Jeong-Mo",
+        "short_name": "Choi JM",
+        "identifiers": [
+          "0000-0003-2656-4851"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemistry Institute for Functional Materials, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Jun 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/19 18:34",
+    "fetched_at": "2026-09-21 19:07:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36143468",
+      "35637307",
+      "34586825",
+      "34265844",
+      "33230314",
+      "33144560",
+      "32004090",
+      "31506351",
+      "31250908",
+      "30615063",
+      "29319301",
+      "29035372",
+      "28938114",
+      "27819658",
+      "27374333",
+      "26488642",
+      "24228993",
+      "23341755",
+      "22710157",
+      "22398450",
+      "22011572",
+      "20159464",
+      "18752238",
+      "18602004",
+      "17318528",
+      "17212484",
+      "16396493",
+      "16134966",
+      "15698573",
+      "12803494",
+      "11457149"
+    ],
+    "similar": [
+      "40388411",
+      "19669081",
+      "18234212",
+      "23423582",
+      "38275820",
+      "36674928",
+      "28754059",
+      "24021866",
+      "17407569",
+      "31872783",
+      "21947444",
+      "29980598",
+      "27210447",
+      "8643668",
+      "19590096",
+      "37909467",
+      "32780150",
+      "31296381",
+      "28380689",
+      "7479908",
+      "18067320",
+      "10826882",
+      "37793087",
+      "18206907",
+      "11746693",
+      "32925900",
+      "27443979",
+      "41439629",
+      "23912807",
+      "22468754",
+      "23633584",
+      "31197859",
+      "36898348",
+      "16446784",
+      "11851340",
+      "7520528",
+      "29590589",
+      "8605874",
+      "12144515",
+      "16752908",
+      "20810664",
+      "40485531",
+      "40568771",
+      "22115123",
+      "9351809",
+      "37626864",
+      "31397025",
+      "11697910",
+      "18560762",
+      "16870929",
+      "19921743",
+      "22561014",
+      "9778343",
+      "28111343",
+      "20574521",
+      "17141806",
+      "14978303",
+      "22584053",
+      "27393996",
+      "39795119",
+      "7526465",
+      "23813002",
+      "35562294",
+      "36992534",
+      "16396493",
+      "9383403",
+      "31601934",
+      "33467043",
+      "22691579",
+      "17552908",
+      "27272460",
+      "22976002",
+      "20856816",
+      "16185072",
+      "9111080",
+      "27268056",
+      "16061254",
+      "29137527",
+      "7565714",
+      "35390274",
+      "22745667",
+      "39534915",
+      "14757063",
+      "15929943",
+      "25207671",
+      "37812440",
+      "31970984",
+      "21098279",
+      "20109515",
+      "19023120",
+      "27599862",
+      "10869177",
+      "26645346",
+      "16351739",
+      "37167199",
+      "14672668",
+      "22115427",
+      "27332121",
+      "31882608",
+      "32455221"
+    ],
+    "review": [
+      "40388411",
+      "12144515",
+      "37626864",
+      "22561014",
+      "22584053",
+      "35562294"
+    ],
+    "pmc": [
+      "12152953"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40388411/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c00342",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

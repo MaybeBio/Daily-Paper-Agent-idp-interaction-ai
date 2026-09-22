@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "34106723",
+    "doi": "10.1021/acs.jpcb.0c11476",
+    "title": "Liquid-Liquid Phase Separation of Short Histidine- and Tyrosine-Rich Peptides: Sequence Specificity and Molecular Topology."
+  },
+  "content": {
+    "abstract": "The increasing realization of the prevalence of liquid-liquid phase separation (LLPS) across multiple length scales of biological constructs, from intracellular membraneless organelles to extracellular load-bearing tissues, has raised intriguing questions about intermolecular interactions regulating LLPS at the atomic level. Squid-beak derived histidine (His)- and tyrosine (Tyr)-rich peptides (HBpeps) have recently emerged as suitable short model peptides to precisely assess the roles of peptide motifs and single residues on the phase behavior and material properties of microdroplets obtained by LLPS. In this study, by systematically introducing single mutations in an HBpep, we have identified specific sticker residues that attract peptide chains together. We find that His and Tyr residues located near the sequence termini drive phase separation, forming interaction nodes that stabilize microdroplets. Combining quantum chemistry simulations with NMR studies, we predict atomic-level bond geometries and uncover inter-residue supramolecular interactions governing LLPS. These results are subsequently used to propose possible topological arrangements of the peptide chains, which upon expansion can help explain the three-dimensional network of microdroplets. The stability of the proposed topologies carried out through all-atom molecular dynamics simulations predicts chain topologies that are more likely to stabilize the microdroplets. Overall, this study provides useful guidelines for the de novo design of peptide coacervates with tunable phase behavior and material properties. In addition, the analysis of nanoscale topologies may pave the way to understand how client molecules can be trapped within microdroplets, with direct implications for the encapsulation and controlled release of therapeutics for drug delivery applications.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Histidine",
+      "Humans",
+      "*Intrinsically Disordered Proteins",
+      "Organelles",
+      "Peptides",
+      "Tyrosine"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lim, Jessica",
+        "Kumar, Akshita",
+        "Low, Kimberly",
+        "Verma, Chandra S",
+        "Mu, Yuguang",
+        "Miserez, Ali",
+        "Pervushin, Konstantin"
+      ],
+      "short_names": [
+        "Lim J",
+        "Kumar A",
+        "Low K",
+        "Verma CS",
+        "Mu Y",
+        "Miserez A",
+        "Pervushin K"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0733-9798",
+        "ORCID: 0000-0002-2499-026X",
+        "ORCID: 0000-0003-0864-8170"
+      ],
+      "affiliations": [
+        "School of Biological Sciences, Nanyang Technological University (NTU), 60 Nanyang Drive, Singapore, 637 551.",
+        "Biological and Biomimetic Material Laboratory, Center for Sustainable Materials (SusMat), School of Materials Science and Engineering, NTU, 50 Nanyang Avenue, Singapore 637 553.",
+        "Bioinformatics Institute, A*STAR, 30 Biopolis Street, 07-01 Matrix, Singapore 138 671.",
+        "School of Biological Sciences, Nanyang Technological University (NTU), 60 Nanyang Drive, Singapore, 637 551.",
+        "School of Biological Sciences, Nanyang Technological University (NTU), 60 Nanyang Drive, Singapore, 637 551.",
+        "Bioinformatics Institute, A*STAR, 30 Biopolis Street, 07-01 Matrix, Singapore 138 671.",
+        "Department of Biological Sciences, National University of Singapore (NUS), 16 Science Drive 4, Singapore 117 558.",
+        "School of Biological Sciences, Nanyang Technological University (NTU), 60 Nanyang Drive, Singapore, 637 551.",
+        "School of Biological Sciences, Nanyang Technological University (NTU), 60 Nanyang Drive, Singapore, 637 551.",
+        "Biological and Biomimetic Material Laboratory, Center for Sustainable Materials (SusMat), School of Materials Science and Engineering, NTU, 50 Nanyang Avenue, Singapore 637 553.",
+        "School of Biological Sciences, Nanyang Technological University (NTU), 60 Nanyang Drive, Singapore, 637 551."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lim, Jessica",
+        "short_name": "Lim J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University (NTU), 60 Nanyang Drive, Singapore, 637 551."
+        ]
+      },
+      {
+        "full_name": "Kumar, Akshita",
+        "short_name": "Kumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Biological and Biomimetic Material Laboratory, Center for Sustainable Materials (SusMat), School of Materials Science and Engineering, NTU, 50 Nanyang Avenue, Singapore 637 553.",
+          "Bioinformatics Institute, A*STAR, 30 Biopolis Street, 07-01 Matrix, Singapore 138 671."
+        ]
+      },
+      {
+        "full_name": "Low, Kimberly",
+        "short_name": "Low K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University (NTU), 60 Nanyang Drive, Singapore, 637 551."
+        ]
+      },
+      {
+        "full_name": "Verma, Chandra S",
+        "short_name": "Verma CS",
+        "identifiers": [
+          "0000-0003-0733-9798"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University (NTU), 60 Nanyang Drive, Singapore, 637 551.",
+          "Bioinformatics Institute, A*STAR, 30 Biopolis Street, 07-01 Matrix, Singapore 138 671.",
+          "Department of Biological Sciences, National University of Singapore (NUS), 16 Science Drive 4, Singapore 117 558."
+        ]
+      },
+      {
+        "full_name": "Mu, Yuguang",
+        "short_name": "Mu Y",
+        "identifiers": [
+          "0000-0002-2499-026X"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University (NTU), 60 Nanyang Drive, Singapore, 637 551."
+        ]
+      },
+      {
+        "full_name": "Miserez, Ali",
+        "short_name": "Miserez A",
+        "identifiers": [
+          "0000-0003-0864-8170"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University (NTU), 60 Nanyang Drive, Singapore, 637 551.",
+          "Biological and Biomimetic Material Laboratory, Center for Sustainable Materials (SusMat), School of Materials Science and Engineering, NTU, 50 Nanyang Avenue, Singapore 637 553."
+        ]
+      },
+      {
+        "full_name": "Pervushin, Konstantin",
+        "short_name": "Pervushin K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University (NTU), 60 Nanyang Drive, Singapore, 637 551."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2021 Jul 1",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/10 06:00",
+    "fetched_at": "2026-09-20 03:43:09"
+  },
+  "links": {
+    "cites": [
+      "42446225",
+      "41692796",
+      "41629306",
+      "41573248",
+      "40653653",
+      "40304302",
+      "40213283",
+      "40171024",
+      "39900576",
+      "39710972",
+      "39651133",
+      "39613868",
+      "39183923",
+      "38177438",
+      "38112495",
+      "37325682",
+      "36702825",
+      "36692900",
+      "36686257",
+      "36130731"
+    ],
+    "refs": [],
+    "similar": [
+      "34106723",
+      "31784535",
+      "29511089",
+      "32936641",
+      "28924037",
+      "36702825",
+      "37794023",
+      "33684117",
+      "35962177",
+      "33876938",
+      "31430708",
+      "34619090",
+      "37439740",
+      "31270472",
+      "32824618",
+      "33555894",
+      "37662293",
+      "38042897",
+      "31941785",
+      "38356260",
+      "37815389",
+      "33453922",
+      "36181270",
+      "39256186",
+      "29716768",
+      "37189373",
+      "31444270",
+      "30986043",
+      "31506351",
+      "36443315",
+      "38862770",
+      "36134527",
+      "34598580",
+      "31691822",
+      "33517364",
+      "29683665",
+      "11971725",
+      "38117659",
+      "33765580",
+      "37093110",
+      "33809541",
+      "31237369",
+      "33403854",
+      "33890467",
+      "32405004",
+      "38205268",
+      "32087632",
+      "32615218",
+      "35792669",
+      "33629837",
+      "37480340",
+      "30531905",
+      "34909733",
+      "26791895",
+      "34645986",
+      "29364893",
+      "35505868",
+      "36272811",
+      "38177438",
+      "34541184",
+      "34110175",
+      "33582133",
+      "31612960",
+      "36328544",
+      "30913985",
+      "27291647",
+      "38553587",
+      "29886015",
+      "36686257",
+      "32207864",
+      "31054969",
+      "33971237",
+      "35198873",
+      "33967699",
+      "12526679",
+      "32132204",
+      "30061688",
+      "35168563",
+      "26036200",
+      "33735576",
+      "32144274",
+      "32700504",
+      "11083063",
+      "30045872",
+      "37935871",
+      "28988034",
+      "36227467",
+      "30414964",
+      "1510933",
+      "29068531",
+      "12817959",
+      "11427046",
+      "31260322",
+      "32961238",
+      "31341602",
+      "32274317",
+      "37764485",
+      "32096047",
+      "29961577",
+      "35115657",
+      "36528388",
+      "34541041",
+      "37287828",
+      "36640113",
+      "37648812",
+      "35639776",
+      "37771761",
+      "34418503",
+      "37752864",
+      "34852466"
+    ],
+    "review": [
+      "34106723",
+      "34619090",
+      "32824618",
+      "29716768",
+      "31444270",
+      "33765580",
+      "31237369",
+      "34909733",
+      "27291647",
+      "29886015",
+      "36686257",
+      "31054969",
+      "32700504",
+      "30045872",
+      "29068531",
+      "32274317",
+      "32096047"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.0c11476",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

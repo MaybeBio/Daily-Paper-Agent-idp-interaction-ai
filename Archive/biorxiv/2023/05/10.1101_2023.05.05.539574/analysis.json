@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.05.539574",
+  "title": "Domain-based multi-domain protein and complex structure prediction using inter-domain interactions from deep learning",
+  "authors": "Yuhao Xia; Kailong Zhao; Dong Liu; Xiaogen Zhou; Guijun Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-08",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于深度学习的域间相互作用预测与进化算法组装多域蛋白及复合物结构，虽非直接针对无序蛋白，但其域级组装和互作建模思路对IDR介导的PPI机制建模有可迁移启发。",
+  "abstract": "Accurately capturing domain-domain interactions is key to understanding protein function and designing structure-based drugs. Although AlphaFold2 has made a breakthrough on single domain, it should be noted that the structure modeling for multi-domain protein and complex remains a challenge. In this study, we developed a multi-domain and complex structure assembly protocol, named DeepAssembly, based on domain segmentation and single domain modeling algorithms. Firstly, DeepAssembly uses a population-based evolutionary algorithm to assemble multi-domain proteins by inter-domain interactions inferred from a developed deep learning network. Secondly, protein complexes are assembled by means of domains rather than chains using DeepAssembly. Experimental results show that on 219 multi-domain proteins, the average inter-domain distance precision by DeepAssembly is 22.7% higher than that of AlphaFold2. Moreover, DeepAssembly improves accuracy by 11.8% for 164 multi-domain structures with low confidence deposited in AlphaFold database. We apply DeepAssembly for the prediction of 247 heterodimers. We find that DeepAssembly generates models with acceptable quality (DockQ ≥ 0.23) for 32.4% of the dimers, suggesting a lighter way to assemble complex structures by treating domains as assembly units and using inter-domain interactions learned from monomer structures.",
+  "abstract_zh": "准确捕捉结构域间的相互作用是理解蛋白质功能和设计基于结构的药物的关键。尽管AlphaFold2在单结构域上取得了突破，但值得注意的是，多结构域蛋白质和复合物的结构建模仍然是一个挑战。在本研究中，我们开发了一种基于结构域分割和单结构域建模算法的多结构域及复合物结构组装协议，命名为DeepAssembly。首先，DeepAssembly利用基于群体的进化算法，通过从开发的深度学习网络中推断出的结构域间相互作用来组装多结构域蛋白质。其次，使用DeepAssembly以结构域而非链为单位组装蛋白质复合物。实验结果表明，在219个多结构域蛋白质上，DeepAssembly的平均结构域间距离精度比AlphaFold2高出22.7%。此外，对于AlphaFold数据库中164个低置信度的多结构域结构，DeepAssembly将精度提高了11.8%。我们将DeepAssembly应用于247个异源二聚体的预测。我们发现，DeepAssembly为32.4%的二聚体生成了可接受质量（DockQ ≥ 0.23）的模型，这表明通过将结构域视为组装单元并利用从单体结构中学到的结构域间相互作用，是一种更轻量级的复合物结构组装方式。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.05.539574",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.05.539574",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.05.539574/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a computational, proteome-level analysis of HSV-1 proteins to identify those with high liquid-liquid phase separation (LLPS) propensity. They claim to have identified 10 such proteins, characterized sequence motifs and enriched residues in LLPS-prone regions, and inferred functional roles in viral replication, transcriptional regulation, and assembly. They further suggest that these findings illuminate mechanisms of viral pathogenesis and provide targets for experimental validation.
+- **Visible evidence base** Abstract text only; no methodological details, prediction tool outputs, sequence data, or validation results are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, prediction algorithm parameters, sequence alignment details, statistical analyses, figures, tables, and any experimental validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational screen of the HSV-1 proteome for LLPS propensity, a topic of growing interest in virology. However, the evidence base available for review is limited to the abstract, which lacks sufficient methodological detail to assess the robustness of the predictions, the criteria for selecting the 10 proteins, or the biological significance of the findings. The claims are plausible but currently under-supported from the supplied material.
+- **Who would be interested in the results, and why** Virologists studying herpesvirus replication and assembly, researchers investigating the role of LLPS in viral life cycles, and computational biologists developing or applying phase separation prediction tools. The identification of candidate LLPS-prone proteins could guide experimental studies on viral replication compartment formation and antiviral target discovery.
+- **Major strengths** The study addresses a relevant gap in the field by extending LLPS analysis to the entire HSV-1 proteome, rather than focusing on individual proteins. The integration of multiple prediction tools and sequence analysis approaches is a reasonable strategy for a computational screen. The focus on functional relevance, linking LLPS-prone proteins to replication and assembly processes, adds biological context.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim to have identified 10 HSV-1 proteins with high LLPS potential through integration of sequence analysis, prediction algorithms, and multiple tools and servers.
+  - **Evidence pointer** Abstract only; methods and tool outputs not provided
+  - **Concern** The abstract does not specify which prediction algorithms or servers were used, how the outputs were integrated, what thresholds defined "high LLPS potential," or whether any consensus scoring was applied. Without this information, the selection of the 10 proteins cannot be evaluated for reproducibility or robustness.
+  - **Why it matters** LLPS prediction tools vary widely in their algorithms, training data, and performance. The choice of tools and integration method directly affects the reliability of the identified candidates. A lack of transparency in these choices undermines confidence in the core finding.
+  - **Resolution test** Provide a detailed methods section listing all tools, parameters, thresholds, and integration criteria. Include a supplementary table with prediction scores for all HSV-1 proteins and justify the cutoff used to define the 10 high-potential candidates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the identified LLPS-prone proteins are involved in critical viral processes such as replication, transcriptional regulation, and assembly, suggesting a role for LLPS in these processes.
+  - **Evidence pointer** Abstract only; no functional data or experimental validation provided
+  - **Concern** The abstract implies functional significance based solely on the annotated roles of the identified proteins, but no experimental evidence links their LLPS propensity to actual phase separation behavior or to functional outcomes in infected cells. The leap from computational prediction to biological relevance is not supported by the presented data.
+  - **Why it matters** Computational predictions of LLPS propensity are known to produce false positives and negatives. Without experimental validation, such as in vitro phase separation assays or cellular imaging, the claim that these proteins undergo LLPS and that this process is functionally important remains speculative.
+  - **Resolution test** Include experimental validation for at least a subset of the predicted proteins, or clearly frame the findings as hypothesis-generating and avoid definitive statements about functional roles.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The authors claim to provide a "comprehensive analysis" of the HSV-1 proteome for LLPS propensity, implying this is a novel contribution.
+  - **Evidence pointer** Abstract only; no comparison to prior work provided
+  - **Concern** The abstract acknowledges that previous studies have identified HSV-1 proteins involved in LLPS, including UL11 and ICP4. It is unclear how this study extends beyond those findings beyond the scale of the screen. The novelty of a proteome-wide computational prediction may be incremental if similar analyses have been performed for other viruses or if the methods are standard.
+  - **Why it matters** For a high-impact venue, the contribution must be clearly distinguished from existing literature. If the main advance is simply applying existing tools to a new proteome, the novelty may be limited.
+  - **Resolution test** In the full manuscript, provide a thorough comparison with prior LLPS studies in HSV-1 and other herpesviruses, and articulate specific new insights that the proteome-wide approach reveals.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract uses terms such as "myristylated tegument protein" and "infected cell protein 4" without brief context, which may be unclear to readers outside herpesvirus biology.
+  - **Required correction** Add a brief parenthetical explanation, such as "a viral tegument protein" or "a viral regulatory protein," to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Claim of "specific sequence motifs and enriched amino acid residues"
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The abstract does not specify which motifs or residues were identified, nor how enrichment was statistically assessed. This makes the finding difficult to interpret or verify.
+  - **Required correction** Provide examples of the identified motifs and residues, and describe the statistical method used to determine enrichment, in the full manuscript. In the abstract, consider adding a representative example.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The statement that the work "opens up new avenues for understanding the molecular mechanisms underlying viral pathogenesis" is broad and not substantiated by the specific findings described.
+  - **Required correction** Rephrase to be more specific, such as "may guide experimental studies to test whether LLPS of these proteins contributes to replication compartment formation."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of methodological detail and absence of experimental validation prevent the core claims from being assessed as established. The manuscript must provide full methods and either include validation data or reframe the claims as purely predictive.
+- **Assessment against Nature-style criteria** 
+  - Originality: The proteome-wide scope is a reasonable extension, but the abstract does not demonstrate a clear conceptual advance over prior single-protein studies. The novelty is currently assessed as moderate and not fully established.
+  - Scientific importance: The topic is relevant, but the importance of the findings depends on whether the predictions are validated and whether they yield new biological insights. This is not yet demonstrated.
+  - Interdisciplinary readership: The work bridges virology and computational biology, which could appeal to both communities. However, the abstract lacks sufficient detail to engage computational readers and may be too technical for general virologists.
+  - Technical soundness: Not assessable from the abstract alone. The absence of tool names, thresholds, and validation is a critical gap.
+  - Readability for nonspecialists: The abstract is generally clear but includes jargon that could be better contextualized.
+- **Recommendation posture** Currently not established from the provided evidence. The authors should be encouraged to resubmit with full methodological transparency and, ideally, experimental validation or a clearly hypothesis-generating framing.
+
+## Risk / unsupported claims
+- The claim that 10 HSV-1 proteins "exhibit high LLPS potential" is unsupported without details on prediction tools, thresholds, and integration methods.
+- The claim that these proteins are "involved in critical viral processes" and that LLPS "might play a crucial role" in replication and assembly is speculative, as no functional or experimental evidence is provided.
+- The statement that the work "opens up new avenues for understanding" pathogenesis is an overreach given the computational nature of the study.
+- The identification of "specific sequence motifs and enriched amino acid residues" is not verifiable from the abstract, as no examples or statistical details are given.

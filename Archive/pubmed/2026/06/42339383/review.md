@@ -1,0 +1,117 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, main sections, summary, author contributions, conflict of interest, generative AI statement, publisher's note)
+- **Assessment boundary** Scientific content, technical soundness, clarity, and completeness of the review article as presented; no assessment of figures or supplementary materials (not provided)
+- **Shared manuscript claim summary** The manuscript presents a review of liquid-liquid phase separation (LLPS) in plants, covering mechanisms, biological functions, and a proposed simplified experimental workflow for studying plant LLPS. It argues that LLPS is a fundamental organizing principle in plant biology, involved in development and stress responses, and that a standardized workflow combining prediction, assessment, and validation is needed to advance the field.
+- **Visible evidence base** Text only; no figures, tables, or supplementary materials were provided. Citations are listed inline but no reference list was included.
+- **Missing materials affecting confidence** Figures (Figure 1 referenced multiple times), reference list, any supplementary data, and details of the workflow steps beyond textual description. The absence of figures limits evaluation of the workflow's visual clarity and completeness.
+
+## Reviewer
+- **Overall assessment** This is a competent and readable review of LLPS in plants, covering the core biophysical principles, key molecular drivers, and a range of biological functions. The proposed workflow is a useful contribution, though it is described at a level of generality that limits its practical value. The manuscript is well-organized and accessible to a broad plant science audience. However, several technical inaccuracies, overstatements, and missing details reduce its impact. The review does not offer a critical synthesis of conflicting evidence or unresolved questions in the field, which weakens its scholarly depth. The workflow section, while a stated aim of the review, is not sufficiently detailed or validated to serve as a practical guideline. Overall, the manuscript is acceptable in principle but requires revision to address technical issues and strengthen its contribution.
+- **Who would be interested in the results, and why** Plant molecular biologists, cell biologists, and researchers studying stress responses and development would find this review useful as an entry point into the LLPS field. The workflow section may appeal to early-career researchers or labs new to phase separation studies. The review's emphasis on plant-specific examples and its call to move beyond Arabidopsis to crops could interest agricultural biotechnologists. However, the lack of depth in critical evaluation means it is unlikely to satisfy specialists already working on plant LLPS.
+- **Major strengths** 1. Clear and logical organization, moving from biophysical principles to biological functions to practical methodology. 2. Broad coverage of plant LLPS examples across development and stress responses, with recent citations. 3. The proposed workflow, while general, addresses a genuine gap in the literature and provides a reasonable starting framework. 4. The emphasis on rigorous validation criteria (e.g., endogenous labeling, physiological concentrations, orthogonal evidence) reflects current best practices in the field. 5. Accessible writing style suitable for nonspecialists.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "elevated temperatures typically hinder phase transition for most biomolecules" and that "increased salt concentration screens these interactions and thus suppresses phase separation."
+  - **Evidence pointer** Section "Factors influencing LLPS formation", location not provided
+  - **Concern** These statements are presented as general rules, but the literature shows that temperature and salt effects are highly context-dependent. For example, many heat shock proteins and RNA-binding proteins undergo enhanced phase separation at elevated temperatures, and salt can either promote or inhibit LLPS depending on whether electrostatic or hydrophobic interactions dominate. The manuscript does acknowledge some exceptions (e.g., heat shock proteins, FUS), but the framing still implies a default behavior that is not supported by the broader literature.
+  - **Why it matters** Oversimplifying the biophysical determinants of LLPS could mislead readers, particularly those new to the field, into making incorrect predictions about their own systems. A review article should accurately represent the complexity and context-dependence of these phenomena.
+  - **Resolution test** Revise the text to explicitly state that the effects of temperature and salt are system-specific and depend on the dominant interaction types. Provide a more balanced discussion with examples of both promotion and inhibition for each factor.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Completeness and reproducibility
+  - **Claim pointer** The manuscript claims to provide "a simple and practical workflow that can serve as a guideline for future phase separation research."
+  - **Evidence pointer** Section "A simplified workflow for studying LLPS in plants", location not provided
+  - **Concern** The workflow is described only in general terms. For example, the prediction section lists tools but does not provide guidance on how to interpret or compare their outputs. The assessment section mentions transient expression but lacks details on construct design, controls, imaging parameters, or data analysis. The validation section lists experiments but does not specify how to perform them or how to interpret results. No troubleshooting advice is given. The workflow is therefore not sufficiently detailed to be "practical" as claimed.
+  - **Why it matters** The stated aim of the review is to provide a practical guideline. If the workflow cannot be followed by a reader without prior LLPS experience, the manuscript fails to deliver on its central promise. This is a key contribution claim and must be substantiated.
+  - **Resolution test** Expand the workflow section with concrete protocols, including specific experimental conditions, controls, expected outcomes, and common pitfalls. Alternatively, revise the claim to describe the workflow as a conceptual framework rather than a practical guide.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance and novelty
+  - **Claim pointer** The manuscript states that "systematic summaries of standard procedures and standardized workflows for plant phase separation studies remain scarce."
+  - **Evidence pointer** Section "Introduction", location not provided
+  - **Concern** The claim of scarcity is not substantiated with a systematic search or comparison of existing reviews and protocols. Several reviews on plant LLPS have been published in recent years, and some include methodological guidance. The manuscript does not position itself relative to these existing works, making it difficult to assess its unique contribution.
+  - **Why it matters** A review should clearly articulate its novelty relative to prior work. Without this, the manuscript risks being seen as redundant or incremental.
+  - **Resolution test** Add a paragraph in the introduction that explicitly compares this review with existing plant LLPS reviews, highlighting what is new or different, particularly regarding the workflow.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "methylation of arginine weakens its interaction with the aromatic ring of tyrosine, thereby reducing the phase separation propensity of FUS protein."
+  - **Evidence pointer** Section "Major drivers of LLPS", location not provided
+  - **Concern** This statement is presented as a general mechanism, but the cited effect (arginine methylation reducing FUS phase separation) is based on specific in vitro studies. The manuscript does not discuss whether this modification has been shown to regulate FUS phase separation in cells or in plants. The relevance to plant systems is unclear.
+  - **Why it matters** The review is about plant LLPS, and using an animal example without clarifying its relevance to plants could confuse readers. The statement also overgeneralizes a specific finding.
+  - **Resolution test** Clarify that this example is from animal/human studies and note whether similar regulation has been observed in plants. If not, state this explicitly.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The manuscript uses terms such as "prion-like domains," "low-complexity domains," and "multivalent interactions" without defining them for readers unfamiliar with the LLPS field.
+  - **Evidence pointer** Section "Major drivers of LLPS", location not provided
+  - **Concern** While the intended audience is likely plant biologists, many may not be familiar with the biophysical terminology used in LLPS research. The manuscript does not provide definitions or a glossary, which could hinder comprehension.
+  - **Why it matters** The review aims to be accessible to a broad plant science audience. Clear definitions of key terms would improve readability and broaden the readership.
+  - **Resolution test** Add brief definitions of key terms at first use, or include a glossary box.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Biological functions in plant growth and development"
+  - **Evidence pointer** Location not provided
+  - **Issue** The sentence "Phase separation of the transcriptional regulator SEUSS, driven by hyperosmolarity-induced molecular crowding, promotes stress tolerance gene expression in Arabidopsis (Wang et al., 2022)" is missing a period at the end.
+  - **Required correction** Add a period at the end of the sentence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Biological functions in stresses"
+  - **Evidence pointer** Location not provided
+  - **Issue** The phrase "germinationGreen" appears to be a typographical error, likely intended as "germination."
+  - **Required correction** Correct the typo to "germination."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section "A simplified workflow for studying LLPS in plants"
+  - **Evidence pointer** Location not provided
+  - **Issue** The workflow section uses inconsistent formatting for numbered lists. In the "Validation" subsection, items are labeled (i), (ii), etc., but the final item in the in vitro list is labeled "(iv).FRAP" with an extra period and no space.
+  - **Required correction** Standardize the formatting of list items throughout the section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "A simplified workflow for studying LLPS in plants"
+  - **Evidence pointer** Location not provided
+  - **Issue** The workflow section mentions "Figure 1" multiple times but does not describe what the figure contains. Readers cannot assess the figure's content from the text alone.
+  - **Required correction** Add a brief description of Figure 1 in the text, or ensure the figure legend is self-explanatory.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Section "Biological functions in stresses"
+  - **Evidence pointer** Location not provided
+  - **Issue** The sentence "Green evolution-associated DELLA accumulation enhances salt tolerance in cereals by disrupting the phase separation of the transcriptional repressor INDETERMINATE SPIKELET1 (IDS1)" uses the term "Green evolution" which is not standard terminology and may be a mistranslation or typo.
+  - **Required correction** Clarify the intended meaning, possibly "Green Revolution" if referring to the historical agricultural development.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Summary and outlook"
+  - **Evidence pointer** Location not provided
+  - **Issue** The outlook section mentions "synthetic condensates via designed IDRs or engineered scaffolds" but does not provide any examples or references for this emerging area.
+  - **Required correction** Add a brief example or citation to support this statement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (oversimplified biophysical claims), R1-M2 (workflow not sufficiently detailed to support the "practical" claim). These are the primary technical issues that must be resolved. R1-M3, R1-M4, and R1-M5 are important but not blocking.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The review is largely descriptive and does not offer a novel conceptual framework or critical synthesis. The workflow, while a stated contribution, is not sufficiently developed to be considered original. The manuscript does not identify unresolved questions or propose new hypotheses. Originality is limited.
+  - **Scientific importance** LLPS in plants is a timely and important topic. The review covers key examples and highlights the relevance of LLPS to plant development and stress responses. However, the lack of critical depth and the absence of a clear research agenda reduce its importance. The importance is moderate.
+  - **Interdisciplinary readership** The review bridges biophysics, cell biology, and plant biology, which could attract readers from multiple disciplines. However, the biophysical sections are relatively basic, and the plant-specific sections may not engage biophysicists. The interdisciplinary appeal is moderate.
+  - **Technical soundness** The manuscript contains several overgeneralizations and inaccuracies in the biophysical sections (R1-M1, R1-M4). The workflow section lacks the detail needed to be technically useful (R1-M2). Technical soundness is currently insufficient.
+  - **Readability for nonspecialists** The writing is generally clear and accessible, but key terms are not defined, and some sentences are awkwardly constructed. Readability is adequate but could be improved.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant topic and has a reasonable structure, but the technical issues identified above must be corrected, and the workflow must be substantially expanded to deliver on its stated promise. The review would benefit from a more critical and synthetic approach to the literature.
+
+## Risk / unsupported claims
+- The claim that "elevated temperatures typically hinder phase transition for most biomolecules" is an overgeneralization not supported by the literature (R1-M1).
+- The claim that "increased salt concentration screens these interactions and thus suppresses phase separation" is presented as a general rule but is context-dependent (R1-M1).
+- The claim that "systematic summaries of standard procedures and standardized workflows for plant phase separation studies remain scarce" is not substantiated with a literature comparison (R1-M3).
+- The statement that arginine methylation reduces FUS phase separation is presented without clarifying its relevance to plants (R1-M4).
+- The workflow is claimed to be "simple and practical" but lacks sufficient detail to be usable (R1-M2).
+- The statement "Green evolution-associated DELLA accumulation" uses unclear terminology that may be inaccurate (R1-m5).
+- The outlook section mentions synthetic condensates without providing examples or references (R1-m6).

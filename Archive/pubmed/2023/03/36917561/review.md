@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusion) without supplementary materials or figures.
+- **Assessment boundary** Scientific claims, methodological logic, and internal consistency as presented in the provided text; no external validation performed.
+- **Shared manuscript claim summary** The authors propose that transient, non-local electrostatic interactions between short charged patches in intrinsically disordered proteins (IDPs) produce bimodal end-to-end distance distributions. They argue that single-peak homopolymer models (e.g., SAW-ν) are insufficient to interpret experimental data from such systems, and they introduce an adjusted polymer model (SAW-ν-tr) with an additional short-distance Gaussian term. Using coarse-grained simulations of designed peptides (DR-N series), they assess the sensitivity of four experimental techniques (FRET, PRE, PET, SAXS) to transient interactions and demonstrate that combining two complementary techniques (one short- and one long-probing-length) with the SAW-ν-tr model can reconstruct bimodal P(r) distributions.
+- **Visible evidence base** Text descriptions of simulation protocols (HPS model, DR-N peptides, temperatures 250–600 K), figures referenced (Figs. 1–6, S1–S11), and equations (Eqs. 1–7). No numerical data, figure images, or supplementary content were provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary information are absent. Numerical values for P(r) fits, D statistics, Δν values, and parameter uncertainties are not available. Simulation convergence criteria and force-field parameter details are not described in the main text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem in IDP biophysics: how to detect and quantify transient, non-local interactions from ensemble-averaged experimental measurements. The conceptual framework, comparing experimental techniques by their probing lengths and proposing a two-technique combination with an adjusted polymer model, is logical and potentially useful. However, the evidence presented in the text alone is insufficient to fully evaluate the claims. Key quantitative results (D values, Δν magnitudes, parameter fits) are only referenced via figures that were not provided. The reliance on coarse-grained simulations with a single force field (HPS) without experimental validation or cross-checking with all-atom simulations weakens the generality of the conclusions. The claim that "one experimental method is not sufficient" is supported by the logic of underdetermination, but the robustness analysis (varying rt and σt) is only described qualitatively. Overall, the approach is promising, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the IDP biophysics and computational chemistry communities would be interested. Specifically, those working on integrating experimental data (FRET, PRE, PET, SAXS) with polymer models to infer conformational ensembles of disordered proteins would find the probing-length framework and the SAW-ν-tr model directly applicable. Method developers in coarse-grained simulation and ensemble reweighting would also benefit. The work has potential practical implications for interpreting single-molecule and ensemble experiments on IDPs.
+- **Major strengths** The manuscript clearly identifies a gap in existing polymer models for IDPs, namely the inability to capture transient, non-local interactions. The systematic comparison of four experimental techniques by their probing lengths is a useful conceptual contribution. The proposed SAW-ν-tr model is simple and parsimonious, with only two additional parameters beyond the original SAW-ν model. The use of designed peptide series (DR-N) to systematically vary interaction strength is a sound approach. The authors also address robustness by testing different rt and σt values and different peptide sequences.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the SAW-ν-tr model "can robustly reproduce the distance distribution function from two experimental measurements with complementary short and long probing lengths" (Abstract) and that specific D1 and D2 values (e.g., D1=0.01, D2=0.02 for FRET+PRE) demonstrate accurate reconstruction.
+  - **Evidence pointer** Figures 5 and 6; location not provided for numerical values.
+  - **Concern** The central quantitative claim of successful P(r) reconstruction is only supported by figure references. No numerical values for D1, D2, or D are given in the text. Without these values, the reader cannot assess whether the reconstruction quality is statistically meaningful or merely visually plausible. The statistical test (KS test) is mentioned, but no p-values or confidence intervals are reported. The claim of "robust" reconstruction is therefore not verifiable from the provided material.
+  - **Why it matters** The entire premise of the paper is that the SAW-ν-tr model can quantitatively interpret transient interactions. If the reconstruction errors are large or not significantly better than the single-peak model, the conclusion is weakened. The absence of quantitative evidence prevents the reader from judging the practical utility of the method.
+  - **Resolution test** Provide the numerical D1, D2, and D values for all combinations of techniques and temperatures, along with p-values from the KS test. Include a comparison with the single-peak SAW-ν model under the same conditions. Show that the improvement is statistically significant and that the errors are within a physically meaningful tolerance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors state that "transient interactions can be realized between short fragments of charged amino acids by generating conformational ensembles using model disordered peptides and coarse-grained simulations" (Abstract) and use these simulations as ground truth for testing experimental sensitivity.
+  - **Evidence pointer** Section "Transient electrostatic interactions inside IDPs"; Figure 2; location not provided for simulation details.
+  - **Concern** The coarse-grained simulations (HPS model) are used as the reference for both generating P(r) and testing experimental techniques. However, no validation of the HPS model against all-atom simulations or experimental data for these specific DR-N peptides is presented. The transferability of the conclusions to real IDPs, which may have more complex sequence compositions and solvent conditions, is unclear. The authors acknowledge this limitation only in the conclusion, but the main claims depend on the fidelity of the coarse-grained model.
+  - **Why it matters** If the HPS model does not accurately capture the balance between polymer-like and transient interactions, the derived probing-length sensitivities and the optimal technique combinations may be artifacts of the model. The claim that "one experimental method is not sufficient" is a general statement, but it is derived from a single simulation model.
+  - **Resolution test** Include a validation section comparing HPS simulation results for DR-N peptides with all-atom simulations (e.g., using a modern force field) or with available experimental data on similar peptides. Show that the bimodal P(r) features and the fraction of transient interactions are consistent across models. Alternatively, clearly state the limitations and temper the generality of the conclusions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Parameter identifiability
+  - **Claim pointer** The authors state that the SAW-ν-tr model has four free parameters (ν, ft, rt, σt) and that rt and σt can be fixed globally (1.18 and 0.41 nm) based on fitting DR-2 to DR-6 ensembles.
+  - **Evidence pointer** Section "Transient electrostatic interactions inside IDPs"; Figure 2C; location not provided for global fitting details.
+  - **Concern** The global fitting procedure for rt and σt is described, but the sensitivity of the final reconstruction to these fixed values is only qualitatively discussed. The authors test a range of rt (1.0–1.4 nm) and σt (0.35–0.45 nm) and claim the method remains robust, but no quantitative criteria for "reasonable" are given. The risk of overfitting or underfitting with a fixed rt and σt for a new, unknown IDP sequence is not addressed.
+  - **Why it matters** In practice, a user would need to know how to choose rt and σt for a new system. If the method is sensitive to these values, the practical utility is limited. The claim of robustness needs quantitative support.
+  - **Resolution test** Provide a quantitative analysis of reconstruction error (D1, D2) as a function of rt and σt across the tested range. Define a threshold for acceptable reconstruction and show the region of (rt, σt) space that meets this threshold. Discuss how a user would select these parameters for a new sequence without prior knowledge.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation 2
+  - **Evidence pointer** Section "Transient electrostatic interactions inside IDPs"; Equation 2.
+  - **Issue** The SAW-ν model equation (Eq. 2) is presented without derivation or citation to the original source. The parameters a1, a2, g, and δ are defined, but the physical basis for this functional form is not explained.
+  - **Required correction** Add a brief derivation or citation to the original SAW-ν model paper (Refs. 55, 56) and explain why this functional form is appropriate for IDP distance distributions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental technique descriptions
+  - **Evidence pointer** Section "Transient interactions from diverse experimental measurements"; Figure 3.
+  - **Issue** The manuscript states that FRET, PRE, PET, and SAXS signals are calculated from simulations, but the specific equations for each technique (e.g., FRET efficiency via Eq. 4, PRE via Eq. 5–6) are only partially given. The SAXS calculation (Eq. 7) is described, but the form factor details are not.
+  - **Required correction** Provide the full set of equations for all techniques in the main text or refer clearly to the supplementary material where these are given.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Probing length"
+  - **Evidence pointer** Throughout the manuscript.
+  - **Issue** The term "probing length" is used to describe the characteristic distance sensitivity of each technique, but it is not formally defined. For FRET, it is the Förster radius; for PRE and PET, it is less clear.
+  - **Required correction** Define "probing length" explicitly for each technique, including the distance range over which the signal changes most significantly, and cite relevant references.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Conclusion
+  - **Evidence pointer** Section "Conclusion".
+  - **Issue** The conclusion states that the framework "provides a simple yet effective scheme to quantitatively detect the heteropolymeric behavior of an IDP," but the authors only tested peptides with balanced charges. The extension to hydrophobic or aromatic interactions is mentioned as future work, but the current claim is broader than the evidence.
+  - **Required correction** Temper the conclusion to specify that the scheme is demonstrated for electrostatic interactions and that further testing is needed for other interaction types.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for reconstruction quality) and R1-M2 (validation of the coarse-grained model) are blocking. Without numerical D values and model validation, the central claims are not verifiable.
+- **Assessment against Nature-style criteria** Originality: The probing-length framework for comparing experimental techniques is a novel conceptual contribution, though the idea of bimodal P(r) from charge interactions is not entirely new (Ref. 57). Scientific importance: The problem of detecting transient interactions in IDPs is significant, and a practical method for combining techniques would be valuable. Interdisciplinary readership: The work bridges physical chemistry, biophysics, and experimental methods, and would appeal to a broad readership. Technical soundness: The logic is sound, but the lack of quantitative evidence and single-model validation limits confidence. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some equations and terms (e.g., "probing length") could be better defined.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising, but the evidence provided is insufficient to establish the claims. The authors must provide quantitative reconstruction metrics and validate the simulation model before the case is convincing.
+
+## Risk / unsupported claims
+- The claim that "one experimental method is not sufficient" is supported only by the underdetermination argument and simulation-based tests; it is not proven for all possible experimental conditions or IDP sequences.
+- The claim that the SAW-ν-tr model "can robustly reproduce" P(r) is unsupported without numerical D values and statistical tests.
+- The claim that "naturally occurring IDP sequences are designed by evolution to have charge segregation" is speculative and based on a statistical deviation from a random distribution model; no evolutionary analysis is presented.
+- The generalizability of the findings to IDPs with hydrophobic or aromatic interactions is not tested and is explicitly left for future work, yet the conclusion implies broader applicability.

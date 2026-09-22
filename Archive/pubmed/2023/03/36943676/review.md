@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors propose that the rod-core interface of cyanobacterial phycobilisomes (PBSs), mediated by the CpcG C-terminal extension (CTE), is structurally coupled to the core-membrane interface, where the PB-loop of ApcE and the CTE of ApcG interact. Using quantitative mass spectrometry, they report that removal of six PBS rods perturbs the structural proximity of the PB-loop and ApcG-CTE, indicating long-range allosteric synergy between these regions.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods for cross-linking mass spectrometry, statistical analysis, sample preparation, AlphaFold modeling details, validation of structural models, and all primary data supporting the quantitative claims
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing hypothesis regarding long-range allostery in phycobilisomes, supported by a novel application of quantitative cross-linking mass spectrometry. However, the evidence as presented is insufficient to establish the central claim of structural synergy between the rod-core and core-membrane interfaces. The abstract lacks critical methodological detail, quantitative results, and controls necessary to evaluate the robustness of the findings. The work is potentially of interest to the photosynthesis and structural biology communities, but the current form does not provide a convincing case.
+- **Who would be interested in the results, and why** Researchers studying photosynthetic light-harvesting complexes, particularly those focused on cyanobacterial phycobilisome structure, assembly, and regulation. The proposed long-range allostery could inform efforts in bioengineering photosynthetic organisms for improved productivity, as well as those investigating the role of intrinsically disordered regions in large protein complexes.
+- **Major strengths** The hypothesis of long-range structural synergy between distinct PBS interfaces is novel and mechanistically interesting. The use of quantitative cross-linking mass spectrometry to probe conformational changes in a large, dynamic complex is an appropriate and potentially powerful approach. The connection to applied efforts in antenna truncation for photosynthetic enhancement adds practical relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "the structural proximity of the PB-loop in ApcE and ApcG-CTE is significantly disturbed in the absence of six PBS rods" is presented as a key finding.
+  - **Evidence pointer** Abstract only; no figure or table specified
+  - **Concern** The abstract does not provide any quantitative data, such as cross-link distance measurements, statistical significance values, or effect sizes, to support the claim of "significant disturbance." Without these data, the magnitude and reliability of the observed change cannot be assessed.
+  - **Why it matters** The central conclusion of long-range allostery rests entirely on this quantitative comparison. If the reported disturbance is small, variable, or within technical noise, the conclusion would be unsupported.
+  - **Resolution test** Provide cross-link distance distributions, replicate numbers, statistical tests, and confidence intervals for the comparison between intact and rod-depleted PBS.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "quantitative cross-linking MS analysis revealed" the structural disturbance, implying a validated and reproducible method.
+  - **Evidence pointer** Abstract only; methods not provided
+  - **Concern** No details are given on the cross-linking chemistry, digestion protocol, mass spectrometry instrumentation, data analysis pipeline, or how quantification was performed. The absence of this information prevents evaluation of whether the method is appropriate for detecting conformational changes in a complex of this size.
+  - **Why it matters** Cross-linking MS is technically demanding, and artifacts from incomplete digestion, variable labeling, or data filtering can produce misleading results. Without methodological transparency, the reliability of the findings cannot be established.
+  - **Resolution test** Include a detailed methods section with cross-linker choice, reaction conditions, replicate counts, and criteria for identifying and quantifying cross-linked peptides.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The abstract states that "the AlphaFold-predicted CpcG-CTE structure was first modeled onto the PBS rod-core region, guided and justified by the isotopically encoded structural MS data."
+  - **Evidence pointer** Abstract only; no structural figures or validation metrics provided
+  - **Concern** The abstract does not describe how the AlphaFold model was fitted to the experimental data, what criteria were used to judge the fit, or whether alternative conformations were considered. The phrase "guided and justified" is vague and does not convey the rigor of the modeling process.
+  - **Why it matters** The interpretation of the cross-linking data depends on the accuracy of the structural model. If the model is incorrect or the fitting is ambiguous, the conclusions about structural proximity and disturbance would be compromised.
+  - **Resolution test** Provide a figure showing the modeled structure with cross-link constraints overlaid, along with a description of the fitting procedure and validation metrics such as cross-link satisfaction rates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Causal inference
+  - **Claim pointer** The abstract concludes that "CpcG-rod attachment on the PBS rod-core side is essentially required for the PBS core-membrane structural assembly."
+  - **Evidence pointer** Abstract only; no experimental manipulation described beyond rod removal
+  - **Concern** The abstract reports a correlation between rod absence and structural disturbance at the core-membrane interface, but does not establish causality. Other effects of rod removal, such as global complex destabilization or indirect conformational changes, could explain the observation.
+  - **Why it matters** The claim of "essential requirement" implies a specific mechanistic role for CpcG-rod attachment. Without controls or additional perturbations, the conclusion may overreach the data.
+  - **Resolution test** Include experiments with targeted mutations or partial rod deletions to demonstrate specificity, or temper the language to reflect correlation rather than causation.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The term "structural synergy" is used without a clear operational definition, making it difficult to understand what specific structural property is being measured.
+  - **Required correction** Define "structural synergy" in terms of measurable parameters, such as cross-link distance changes or interface stability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Introduction of orange carotenoid protein
+  - **Evidence pointer** Abstract, final paragraph
+  - **Issue** The mention of the orange carotenoid protein is brief and not integrated into the main findings, leaving its relevance to the study unclear.
+  - **Required correction** Either expand on the functional link between the rod-core interface and OCP regulation or remove the reference to avoid distraction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language precision
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The statement about "genetic truncation of the light-harvesting antennas" is presented as a practical implication but lacks specificity about how the findings inform such strategies.
+  - **Required correction** Provide a concrete example of how the structural insights could guide antenna truncation design.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative data, methodological detail, and model validation means the central claims cannot be evaluated from the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of long-range allostery in phycobilisomes is novel and not widely explored, which is a positive aspect.
+  - Scientific importance: If substantiated, the findings would advance understanding of PBS regulation and assembly, with implications for photosynthesis research and bioengineering.
+  - Interdisciplinary readership: The topic is relevant to structural biology, photosynthesis, and biophysics, but the abstract is written in a way that may be accessible to specialists in these fields rather than a broader audience.
+  - Technical soundness: Not assessable from the abstract alone; the lack of methodological detail and quantitative results is a major limitation.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms without sufficient explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is promising, but the abstract does not provide sufficient data or methodological transparency to support the central claims. A revised manuscript with full methods, quantitative results, and model validation would be needed to assess the case.
+
+## Risk / unsupported claims
+- The claim of "significant disturbance" in structural proximity is unsupported without quantitative data.
+- The conclusion that CpcG-rod attachment is "essentially required" for core-membrane assembly is not established due to lack of causal evidence.
+- The assertion of "drastic conformational changes" is not supported by any magnitude or structural detail.
+- The hypothesized "long-range synergy" is presented as a conclusion but is not directly tested or quantified.
+- The practical implications for antenna truncation are speculative and not grounded in specific data.

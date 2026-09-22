@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.11.675358",
+  "title": "“Design principles of a membrane-spanning ubiquitin ligase”",
+  "authors": "Williams C; Nocka LM; Hedger G; Parashara P; Pardon E; Latorraca NR; Pusapati GV; Lartey D; Gao L; Milenkovic L; Chalk R; Steyaert J; Marqusee S; Carrique L; Bazan JF; Rouse SL; Kong JH; Siebold C; Rohatgi R",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-16",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过冷冻电镜解析跨膜泛素连接酶MMM复合物结构，揭示柔性螺旋悬吊RING结构域泛素化靶受体的机制，虽涉及膜蛋白复合物与互作机制，但对象非无序蛋白/IDR，且方法为结构生物学而非AI或物理模拟，对无序蛋白PPI建模启发有限。",
+  "abstract": "<h4>Summary</h4> Receptor-type E3 ubiquitin ligases are membrane-spanning assemblies that enable extracellular signals to directly control ubiquitylation in the cytoplasm. Despite playing widespread roles in tissue patterning and homeostasis, metabolism, and immunity, their structures and mechanisms remain poorly understood. Using cryo-electron microscopy, integrated with biophysical and functional studies, we visualized an E3 complex composed of two transmembrane proteins, MEGF8 and MOSMO, and the intracellular RING-family protein MGRN1. This MEGF8-MOSMO-MGRN1 (MMM) complex regulates left-right patterning of the body axis and the development of multiple organs, partly by attenuating signaling through the Hedgehog pathway. We find that the MMM complex functions like a fishing pole: a long, flexible helix attached to a membrane platform suspends an activated and precisely oriented RING domain—like a fishhook—to ubiquitylate the cytoplasmic surfaces of target receptors. Our structure explains how mutations in MEGF8 cause multi-organ birth defects in humans and defines a paradigm for receptor regulation by ubiquitylation.",
+  "abstract_zh": "<h4>摘要</h4> 受体型E3泛素连接酶是跨膜装配体，使细胞外信号能够直接控制细胞质中的泛素化。尽管它们在组织模式形成、稳态、代谢和免疫中发挥广泛作用，但其结构和机制仍知之甚少。利用冷冻电子显微镜，结合生物物理和功能研究，我们可视化了一个由两种跨膜蛋白MEGF8和MOSMO以及胞内RING家族蛋白MGRN1组成的E3复合物。该MEGF8-MOSMO-MGRN1（MMM）复合物调节体轴左右模式形成及多器官发育，部分通过减弱Hedgehog通路信号传导实现。我们发现MMM复合物功能类似钓鱼竿：附着于膜平台的长而灵活的螺旋，悬吊一个激活且精确定向的RING结构域——如同鱼钩——以泛素化靶受体的细胞质表面。我们的结构解释了MEGF8突变如何导致人类多器官出生缺陷，并定义了通过泛素化调控受体的范式。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.11.675358",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.11.675358",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.11.675358/index.html"
+}

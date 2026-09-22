@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39596456",
+  "title": "Structure of Full-Length Src Kinase and Its Key Phosphorylated States: Molecular Dynamics Study.",
+  "authors": "Strelkova, Maria A; Tolstova, Anna P; Mitkevich, Vladimir A; Petrushanko, Irina Yu; Makarov, Alexander A",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2024-11-27",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究用副本交换分子动力学模拟全长Src激酶及其关键磷酸化状态，聚焦其无序SH4UD区域在激活、二聚化和底物结合中的构象机制，虽非直接PPI界面预测，但为IDR介导的激酶互作机制建模提供了可迁移的物理模拟范式。",
+  "abstract": "Src kinase is one of the key regulators of cellular metabolism and is dysregulated in numerous diseases, including cancer, neurodegenerative diseases, and particularly Alzheimer's disease. Despite its therapeutic importance, its full-length structure has never been obtained before, as it contains an intrinsically disordered regulatory region, SH4UD. The SH4UD region is crucial for Src activation, functional dimerization, and regulation by other kinases. In this study, we used the replica exchange molecular dynamics approach with a hybrid temperature and Hamiltonian tempering to obtain the conformational ensemble of full-length Src kinase in its non-phosphorylated state and in the presence of its two key regulatory phosphorylations: pY419 and pY530. The representative structures and simulation trajectories of non-phosphorylated pY419 and pY530 Src are available in open access. We demonstrate that pY419 phosphorylation, which is associated with Src activation, enhances its motility, whereas inhibited pY530 Src preserves relatively compact conformation. This study also provides insights into how SH4UD contributes to Src substrate binding, dimerization, and autophosphorylation, highlighting the putative role of 14-RRR-16 in this process.",
+  "abstract_zh": "Src激酶是细胞代谢的关键调控因子之一，在多种疾病中失调，包括癌症、神经退行性疾病，尤其是阿尔茨海默病。尽管其具有治疗重要性，但由于其包含一个内在无序的调控区域SH4UD，其全长结构此前从未被获得。SH4UD区域对Src激活、功能性二聚化以及其他激酶的调控至关重要。在本研究中，我们采用复制交换分子动力学方法，结合混合温度和哈密顿量退火，获得了非磷酸化状态以及存在其两个关键调控磷酸化位点pY419和pY530时全长Src激酶的构象系综。非磷酸化pY419和pY530 Src的代表性结构和模拟轨迹可开放获取。我们证明，与Src激活相关的pY419磷酸化增强了其运动性，而抑制状态的pY530 Src则保持相对紧凑的构象。本研究还提供了关于SH4UD如何促进Src底物结合、二聚化和自磷酸化的见解，强调了14-RRR-16在此过程中的潜在作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39596456/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39596456/",
+  "paper_page_path": "papers/pubmed/39596456/index.html"
+}

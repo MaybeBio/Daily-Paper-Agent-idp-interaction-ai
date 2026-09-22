@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39433833",
+  "title": "iDLB-Pred: identification of disordered lipid binding residues in protein sequences using convolutional neural network.",
+  "authors": "Malebary, Sharaf J; Alromema, Nashwan",
+  "journal": "Scientific reports",
+  "published_date": "2024-10-22",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用CNN等深度学习模型从序列预测无序蛋白中的脂质结合残基，属于IDP-配体（脂质）互作位点预测，虽非典型PPI但机制建模思路可迁移。",
+  "abstract": "Proteins, nucleic acids, and lipids all interact with intrinsically disordered protein areas. Lipid-binding regions are involved in a variety of biological processes as well as a number of human illnesses. The expanding body of experimental evidence for these interactions and the dearth of techniques to anticipate them from the protein sequence serve as driving forces. Although large-scale laboratory techniques are considered to be essential for equipment for studying binding residues, they are time consuming and costly, making it challenging for researchers to predict lipid binding residues. As a result, computational techniques are being looked at as a different strategy to overcome this difficulty. To predict disordered lipid-binding residues (DLBRs), we proposed iDLB-Pred predictor utilizing benchmark dataset to compute feature through extraction techniques to identify relevant patterns and information. Various classification techniques, including deep learning methods such as Convolutional Neural Networks (CNNs), Deep Neural Networks (DNNs), Multilayer Perceptrons (MLPs), Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) networks, and Gated Recurrent Units (GRUs), were employed for model training. The proposed model, iDLB-Pred, was rigorously validated using metrics such as accuracy, sensitivity, specificity, and Matthew's correlation coefficient. The results demonstrate the predictor's exceptional performance, achieving accuracy rates of 81% on an independent dataset and 86% in 10-fold cross-validation.",
+  "abstract_zh": "蛋白质、核酸和脂质均与固有无序蛋白质区域相互作用。脂质结合区域参与多种生物过程以及多种人类疾病。这些相互作用的实验证据不断增多，以及从蛋白质序列预测这些相互作用的技术匮乏，构成了推动力。尽管大规模实验室技术被认为是研究结合残基的重要设备，但它们耗时且成本高昂，使研究人员难以预测脂质结合残基。因此，计算技术正被视为克服这一难题的替代策略。为预测无序脂质结合残基（DLBRs），我们提出了iDLB-Pred预测器，利用基准数据集通过提取技术计算特征，以识别相关模式和信息。多种分类技术，包括深度学习方法，如卷积神经网络（CNNs）、深度神经网络（DNNs）、多层感知器（MLPs）、循环神经网络（RNNs）、长短期记忆（LSTM）网络和门控循环单元（GRUs），被用于模型训练。所提出的模型iDLB-Pred通过准确性、敏感性、特异性和马修斯相关系数等指标进行了严格验证。结果表明，该预测器性能卓越，在独立数据集上达到81%的准确率，在10折交叉验证中达到86%的准确率。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39433833/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39433833/",
+  "paper_page_path": "papers/pubmed/39433833/index.html"
+}

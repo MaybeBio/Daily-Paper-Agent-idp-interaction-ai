@@ -1,0 +1,246 @@
+{
+  "identity": {
+    "pmid": "37902426",
+    "doi": "10.1111/jipb.13578",
+    "title": "The dual-action mechanism of Arabidopsis cryptochromes."
+  },
+  "content": {
+    "abstract": "Photoreceptor cryptochromes (CRYs) mediate blue-light regulation of plant growth and development. It has been reported that Arabidopsis CRY1and CRY2 function by physically interacting with at least 84 proteins, including transcription factors or co-factors, chromatin regulators, splicing factors, messenger RNA methyltransferases, DNA repair proteins, E3 ubiquitin ligases, protein kinases and so on. Of these 84 proteins, 47 have been reported to exhibit altered binding affinity to CRYs in response to blue light, and 41 have been shown to exhibit condensation to CRY photobodies. The blue light-regulated composition or condensation of CRY complexes results in changes of gene expression and developmental programs. In this mini-review, we analyzed recent studies of the photoregulatory mechanisms of Arabidopsis CRY complexes and proposed the dual mechanisms of action, including the \"Lock-and-Key\" and the \"Liquid-Liquid Phase Separation (LLPS)\" mechanisms. The dual CRY action mechanisms explain, at least partially, the structural diversity of CRY-interacting proteins and the functional diversity of the CRY photoreceptors.",
+    "keywords": [
+      "Arabidopsis",
+      "CRY1",
+      "CRY2",
+      "blue light",
+      "cryptochrome",
+      "phase separation"
+    ],
+    "mesh_terms": [
+      "*Cryptochromes/metabolism/chemistry/genetics",
+      "*Arabidopsis/metabolism/genetics",
+      "*Arabidopsis Proteins/metabolism/genetics/chemistry",
+      "Light",
+      "Gene Expression Regulation, Plant"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qu, Gao-Ping",
+        "Jiang, Bochen",
+        "Lin, Chentao"
+      ],
+      "short_names": [
+        "Qu GP",
+        "Jiang B",
+        "Lin C"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3853-9266",
+        "ORCID: 0000-0001-6686-8847",
+        "ORCID: 0000-0002-0004-8480"
+      ],
+      "affiliations": [
+        "Basic Forestry and Plant Proteomics Research Center, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Basic Forestry and Plant Proteomics Research Center, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+        "Department of Chemistry, Department of Biochemistry and Molecular Biology, Institute for Biophysical Dynamics, The University of Chicago, Chicago, IL, 60637, USA.",
+        "Basic Forestry and Plant Proteomics Research Center, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qu, Gao-Ping",
+        "short_name": "Qu GP",
+        "identifiers": [
+          "0000-0003-3853-9266"
+        ],
+        "affiliations": [
+          "Basic Forestry and Plant Proteomics Research Center, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Bochen",
+        "short_name": "Jiang B",
+        "identifiers": [
+          "0000-0001-6686-8847"
+        ],
+        "affiliations": [
+          "Basic Forestry and Plant Proteomics Research Center, Fujian Agriculture and Forestry University, Fuzhou, 350002, China.",
+          "Department of Chemistry, Department of Biochemistry and Molecular Biology, Institute for Biophysical Dynamics, The University of Chicago, Chicago, IL, 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Chentao",
+        "short_name": "Lin C",
+        "identifiers": [
+          "0000-0002-0004-8480"
+        ],
+        "affiliations": [
+          "Basic Forestry and Plant Proteomics Research Center, Fujian Agriculture and Forestry University, Fuzhou, 350002, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of integrative plant biology"
+    ],
+    "journal_abbrev": [
+      "J Integr Plant Biol"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/30 12:42",
+    "fetched_at": "2026-09-21 02:31:27"
+  },
+  "links": {
+    "cites": [
+      "42115948",
+      "41986327",
+      "40796121",
+      "40728991",
+      "40461697",
+      "39881540",
+      "39625635",
+      "39220829",
+      "38431282"
+    ],
+    "refs": [],
+    "similar": [
+      "37902426",
+      "29913346",
+      "33846325",
+      "28833729",
+      "21765176",
+      "26810763",
+      "32398825",
+      "28991901",
+      "38066290",
+      "33199893",
+      "33656674",
+      "31832774",
+      "35894630",
+      "31953223",
+      "37556549",
+      "30131420",
+      "32169020",
+      "35551190",
+      "33665849",
+      "24101505",
+      "32661061",
+      "21983106",
+      "28492234",
+      "34449898",
+      "25721730",
+      "32398826",
+      "22311776",
+      "18988809",
+      "20624951",
+      "21514160",
+      "34650267",
+      "29860272",
+      "19794114",
+      "38718571",
+      "35295637",
+      "34463721",
+      "30044014",
+      "28634231",
+      "38865814",
+      "35700731",
+      "31550045",
+      "21511871",
+      "29098377",
+      "12066190",
+      "27846570",
+      "27516416",
+      "24130508",
+      "36715309",
+      "20053798",
+      "18296627",
+      "20031923",
+      "16093319",
+      "21511872",
+      "23570872",
+      "30021157",
+      "33971366",
+      "36396657",
+      "35094400",
+      "28011868",
+      "23833191",
+      "30126927",
+      "22139370",
+      "29864723",
+      "10809448",
+      "31514232",
+      "33398020",
+      "26724867",
+      "12834405",
+      "26106155",
+      "36305219",
+      "27861972",
+      "18397371",
+      "32167576",
+      "27423124",
+      "11752373",
+      "15705950",
+      "30176372",
+      "37569819",
+      "35357013",
+      "26699514",
+      "17355959",
+      "23669744",
+      "10207133",
+      "25792146",
+      "23398192",
+      "25428980",
+      "32519399",
+      "20133010",
+      "23897926",
+      "33583025",
+      "37602940",
+      "36710658",
+      "34469075",
+      "14535885",
+      "21875594",
+      "21576261",
+      "28916751",
+      "24272488",
+      "37488265",
+      "33768238",
+      "31304983",
+      "38829395",
+      "29139123",
+      "39253954"
+    ],
+    "review": [
+      "37902426",
+      "29913346",
+      "26810763",
+      "21983106",
+      "35295637",
+      "27861972",
+      "27423124"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1111/jipb.13578",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

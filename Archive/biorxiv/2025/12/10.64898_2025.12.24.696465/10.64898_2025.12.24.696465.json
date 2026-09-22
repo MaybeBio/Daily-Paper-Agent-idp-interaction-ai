@@ -1,0 +1,197 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.24.696465",
+  "title": "Enzyme-driven phase separation of synthetic condensates enables self-organizing compartments and protective microenvironments",
+  "doi": "10.64898/2025.12.24.696465",
+  "abstract": "Compartmentalization via phase separation is increasingly recognized as a dynamic regulator of cellular biochemistry, yet the consequences of coupling enzymatic reactions to compartmentalization remain poorly understood. We combine a minimal, cell-free expression system with kinetic modeling to show how coupling enzymatic activity to biomolecular condensates drives emergent self-regulation via droplet formation and dissolution. In-vitro mRNA transcription induces phase separation with an intrinsically disordered protein (mutant G3BP1), forming condensates that modulate transcription and degradation kinetics. Our kinetic model shows that phase separation reduces rate constants, with slower degradation within condensates than in the mRNA-protein-poor phase. This leads to more mRNA with a prolonged lifetime of mRNA relative to the case without condensates. Extending the model to sustained and oscillatory resource supply reveals that condensates elevate mean mRNA levels and buffer deviations from the mean compared to the non-condensate scenario. These findings provide a general mechanism of cross-regulation and feedback between phase separation and enzymatic networks, highlighting condensates as active regulators of biochemical flux rather than as passive organizers. <h4>GRAPHICAL ABSTRACT</h4>",
+  "authors": [
+    "Ghosh A",
+    "Thatte A",
+    "Suraritdechachai S",
+    "Rattunde R",
+    "Weber CA",
+    "Tang TD"
+  ],
+  "published_date": "2025-12-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.24.696465",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.24.696465.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1230027",
+    "raw_record": {
+      "id": "PPR1230027",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1230027"
+        ]
+      },
+      "doi": "10.64898/2025.12.24.696465",
+      "title": "Enzyme-driven phase separation of synthetic condensates enables self-organizing compartments and protective microenvironments",
+      "authorString": "Ghosh A, Thatte A, Suraritdechachai S, Rattunde R, Weber CA, Tang TD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ghosh A",
+            "lastName": "Ghosh",
+            "firstName": "Archishman",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Synthetic Biology, Gebaude B2.2, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thatte A",
+            "lastName": "Thatte",
+            "firstName": "Advait",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Mathematics, Natural Sciences, and Engineering: Institute of Physics, , Universitätsstraße 1 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Suraritdechachai S",
+            "lastName": "Suraritdechachai",
+            "firstName": "Surased",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Pfotenhauerstraße 108 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rattunde R",
+            "lastName": "Rattunde",
+            "firstName": "Roman",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Pfotenhauerstraße 108 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weber CA",
+            "lastName": "Weber",
+            "firstName": "Christoph",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Mathematics, Natural Sciences, and Engineering: Institute of Physics, , Universitätsstraße 1 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tang TD",
+            "lastName": "Tang",
+            "firstName": "T-Y Dora",
+            "initials": "TD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Synthetic Biology, Gebaude B2.2, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Compartmentalization via phase separation is increasingly recognized as a dynamic regulator of cellular biochemistry, yet the consequences of coupling enzymatic reactions to compartmentalization remain poorly understood. We combine a minimal, cell-free expression system with kinetic modeling to show how coupling enzymatic activity to biomolecular condensates drives emergent self-regulation via droplet formation and dissolution. In-vitro mRNA transcription induces phase separation with an intrinsically disordered protein (mutant G3BP1), forming condensates that modulate transcription and degradation kinetics. Our kinetic model shows that phase separation reduces rate constants, with slower degradation within condensates than in the mRNA-protein-poor phase. This leads to more mRNA with a prolonged lifetime of mRNA relative to the case without condensates. Extending the model to sustained and oscillatory resource supply reveals that condensates elevate mean mRNA levels and buffer deviations from the mean compared to the non-condensate scenario. These findings provide a general mechanism of cross-regulation and feedback between phase separation and enzymatic networks, highlighting condensates as active regulators of biochemical flux rather than as passive organizers. <h4>GRAPHICAL ABSTRACT</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101088834",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.24.696465"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1230027"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1230027&type=FILE&fileName=EMS214623-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214623",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-25",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

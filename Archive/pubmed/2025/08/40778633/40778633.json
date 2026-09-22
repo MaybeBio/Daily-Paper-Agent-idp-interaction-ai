@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "40778633",
+    "doi": "10.1002/chem.202502067",
+    "title": "Deep Learning for Hyperpolarized NMR of Intrinsically Disordered Proteins without Resolution Loss: Access to Short-Lived Intermediates."
+  },
+  "content": {
+    "abstract": "The inherently low sensitivity of solution-state Nuclear Magnetic Resonance (NMR) has long limited its ability to characterize transient biomolecular states at atomic resolution. While dissolution dynamic nuclear polarization (dDNP) offers a compensating signal enhancement, its broader use has been hindered by rapid polarization decay, causing severe spectral distortion. Here, we introduce HyperW-Decon, an approach that enables high-sensitivity, high-resolution NMR of biomolecules in solution. HyperW-Decon combines two key aspects: (i) the use of hyperpolarized water (HyperW) to transfer polarization to proteins through rapid proton exchange; and (ii) a theory-driven, machine learning (ML)-based deconvolution method that corrects polarization-induced artifacts without requiring external reference signals. This approach is based on a first-principles understanding of dDNP line shapes and delivers a scalable solution to spectral distortion. Applied to intrinsically disordered proteins (IDPs) involved in biomineralization, HyperW-Decon reveals previously inaccessible, short-lived ion-peptide encounter complexes with residue resolution.",
+    "keywords": [
+      "biomineralization",
+      "dissolution DNP",
+      "hyperpolarized NMR",
+      "machine learning",
+      "resolution enhancement"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Deep Learning",
+      "*Nuclear Magnetic Resonance, Biomolecular/methods",
+      "Water/chemistry",
+      "Magnetic Resonance Spectroscopy/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Turhan, Ertan",
+        "Potzl, Christopher",
+        "Brandis, Dorte",
+        "Faglia, Federico",
+        "Zachrdla, Milan",
+        "Kurzbach, Dennis"
+      ],
+      "short_names": [
+        "Turhan E",
+        "Potzl C",
+        "Brandis D",
+        "Faglia F",
+        "Zachrdla M",
+        "Kurzbach D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6455-2136"
+      ],
+      "affiliations": [
+        "Faculty of Chemistry, Institute of Biological Chemistry, University of Vienna, Wahringer Str. 38, Vienna, 1090, Austria.",
+        "Faculty of Chemistry, Institute of Biological Chemistry, University of Vienna, Wahringer Str. 38, Vienna, 1090, Austria.",
+        "Doctoral School of Chemistry (DoSChem), Faculty of Chemistry, University of Vienna, Wahringer Str. 38, Vienna, 1090, Austria.",
+        "Faculty of Chemistry, Institute of Biological Chemistry, University of Vienna, Wahringer Str. 38, Vienna, 1090, Austria.",
+        "Doctoral School of Chemistry (DoSChem), Faculty of Chemistry, University of Vienna, Wahringer Str. 38, Vienna, 1090, Austria.",
+        "Faculty of Chemistry, Institute of Biological Chemistry, University of Vienna, Wahringer Str. 38, Vienna, 1090, Austria.",
+        "Faculty of Chemistry, Institute of Biological Chemistry, University of Vienna, Wahringer Str. 38, Vienna, 1090, Austria.",
+        "Faculty of Chemistry, Institute of Biological Chemistry, University of Vienna, Wahringer Str. 38, Vienna, 1090, Austria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Turhan, Ertan",
+        "short_name": "Turhan E",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chemistry, Institute of Biological Chemistry, University of Vienna, Währinger Str. 38, Vienna, 1090, Austria."
+        ]
+      },
+      {
+        "full_name": "Pötzl, Christopher",
+        "short_name": "Pötzl C",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chemistry, Institute of Biological Chemistry, University of Vienna, Währinger Str. 38, Vienna, 1090, Austria.",
+          "Doctoral School of Chemistry (DoSChem), Faculty of Chemistry, University of Vienna, Währinger Str. 38, Vienna, 1090, Austria."
+        ]
+      },
+      {
+        "full_name": "Brandis, Dörte",
+        "short_name": "Brandis D",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chemistry, Institute of Biological Chemistry, University of Vienna, Währinger Str. 38, Vienna, 1090, Austria.",
+          "Doctoral School of Chemistry (DoSChem), Faculty of Chemistry, University of Vienna, Währinger Str. 38, Vienna, 1090, Austria."
+        ]
+      },
+      {
+        "full_name": "Faglia, Federico",
+        "short_name": "Faglia F",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chemistry, Institute of Biological Chemistry, University of Vienna, Währinger Str. 38, Vienna, 1090, Austria."
+        ]
+      },
+      {
+        "full_name": "Zachrdla, Milan",
+        "short_name": "Zachrdla M",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chemistry, Institute of Biological Chemistry, University of Vienna, Währinger Str. 38, Vienna, 1090, Austria."
+        ]
+      },
+      {
+        "full_name": "Kurzbach, Dennis",
+        "short_name": "Kurzbach D",
+        "identifiers": [
+          "0000-0001-6455-2136"
+        ],
+        "affiliations": [
+          "Faculty of Chemistry, Institute of Biological Chemistry, University of Vienna, Währinger Str. 38, Vienna, 1090, Austria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemistry (Weinheim an der Bergstrasse, Germany)"
+    ],
+    "journal_abbrev": [
+      "Chemistry"
+    ],
+    "pub_date": "2025 Oct 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/08 12:30",
+    "fetched_at": "2026-09-21 22:09:01"
+  },
+  "links": {
+    "cites": [
+      "41728972",
+      "41359044",
+      "41131898"
+    ],
+    "refs": [
+      "40468476",
+      "39705363",
+      "39289493",
+      "39225120",
+      "39187053",
+      "39074399",
+      "39051606",
+      "38990576",
+      "38941676",
+      "38888602",
+      "38874418",
+      "38786767",
+      "38530516",
+      "38331423",
+      "38309859",
+      "38230684",
+      "37921276",
+      "37837321",
+      "37817917",
+      "37053031",
+      "36862997",
+      "36806426",
+      "36703471",
+      "36697662",
+      "36678751",
+      "36657157",
+      "36322908",
+      "36169286",
+      "35930648",
+      "35709417",
+      "35546640",
+      "35465650",
+      "35113568",
+      "34586816",
+      "33914399",
+      "33905996",
+      "33870472",
+      "33713971",
+      "33146166",
+      "32378878",
+      "32338002",
+      "32262908",
+      "32040802",
+      "31949004",
+      "31442055",
+      "31368708",
+      "31203098",
+      "30698310",
+      "29969165",
+      "29938297",
+      "29790649",
+      "29528228",
+      "28981294",
+      "28857281",
+      "28613875",
+      "28608998",
+      "28397898",
+      "27918140",
+      "27546550",
+      "26920833",
+      "26808899",
+      "26215673",
+      "26114664",
+      "25975421",
+      "24604825",
+      "24417324",
+      "23848319",
+      "23643899",
+      "19462391",
+      "17548669",
+      "17468025",
+      "16406521",
+      "12930897",
+      "10966641"
+    ],
+    "similar": [
+      "40778633",
+      "32040802",
+      "31949004",
+      "40782957",
+      "24496557",
+      "36310219",
+      "35546640",
+      "29705209",
+      "26920830",
+      "26387101",
+      "28508552",
+      "38087081",
+      "27159340",
+      "24366473",
+      "29492731",
+      "26387102",
+      "27918140",
+      "23545493",
+      "34543573",
+      "30641444",
+      "27556338",
+      "35245815",
+      "29790640",
+      "28834051",
+      "29157493",
+      "24160760",
+      "24656082",
+      "36169286",
+      "24656084",
+      "31176511",
+      "30527137",
+      "29341926",
+      "33713971",
+      "35675502",
+      "26315550",
+      "30407719",
+      "27766502",
+      "26403428",
+      "25367087",
+      "30471706",
+      "21651293",
+      "38409704",
+      "29151209",
+      "38941676",
+      "38251829",
+      "34471142",
+      "28780862",
+      "24115372",
+      "37093489",
+      "28502465",
+      "37401781",
+      "35920752",
+      "41359044",
+      "35053175",
+      "39841395",
+      "32696390",
+      "23794453",
+      "37607621",
+      "36201530",
+      "24725176",
+      "25771525",
+      "37289306",
+      "36496256",
+      "30316104",
+      "26387100",
+      "30414042",
+      "32696383",
+      "24008243",
+      "26453204",
+      "27430223",
+      "32696365",
+      "22057860",
+      "30489014",
+      "24656079",
+      "37141160",
+      "32097611",
+      "31960224",
+      "32696393",
+      "20641814",
+      "32696379",
+      "28243768",
+      "30471688",
+      "30175546",
+      "27844185",
+      "24203099",
+      "34633390",
+      "31301460",
+      "24417324",
+      "25079425",
+      "23435576",
+      "31617035",
+      "38373110",
+      "30875725",
+      "26184172",
+      "32696373",
+      "36322908",
+      "35195621",
+      "30273657",
+      "31297688",
+      "30471686"
+    ],
+    "review": [
+      "40778633",
+      "35546640",
+      "29705209",
+      "26387101",
+      "38087081",
+      "26387102",
+      "23545493",
+      "30641444",
+      "29157493",
+      "24160760",
+      "24656082",
+      "24656084",
+      "30527137",
+      "38409704",
+      "28502465",
+      "35053175",
+      "23794453",
+      "24725176",
+      "36496256",
+      "30316104",
+      "26387100",
+      "24008243",
+      "22057860",
+      "30489014",
+      "24656079",
+      "32097611",
+      "31617035",
+      "30875725"
+    ],
+    "pmc": [
+      "12548504"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40778633/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/chem.202502067",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

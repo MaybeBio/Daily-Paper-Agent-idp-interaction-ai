@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42057275",
+  "title": "Charge-Symmetry-Mediated Liquid-Liquid Phase Separation Enables Tailored High-Protein Food Models.",
+  "authors": "Zhang, Jiaxuan; Zhou, Jiajia; Pan, Fei; Zheng, Jiabao; Sun, Weizheng",
+  "journal": "Biomacromolecules",
+  "published_date": "2026-04-30",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过分子动力学模拟揭示β-乳球蛋白与溶菌酶凝聚体在pH驱动下的电荷对称性调控液-凝胶-固相转变及互作界面扩大机制，虽对象为折叠蛋白而非IDP，但凝聚体相分离与PPI机制建模思路对本课题有可迁移启发。",
+  "abstract": "Precise control of the matter state and dynamics is a key challenge in developing novel food matrices using concentrated protein coacervates. Herein, we report a pH-driven liquid-gel-solid transition of protein coacervates composed of beta-lactoglobulin (BLG) and lysozyme (LYS). The terminal relaxation time of the coacervate extended from 0.17 ms to 267 s during the phase transition due to increased affinity. Spin-spin relaxation data, hydrogen bond competition experiments, and molecular dynamics simulations revealed that increasing the pH from 6 to 8 shifted the BLG/LYS stoichiometric ratio from 3:1 to 1:1. The enhanced charge symmetry expanded the interaction interface between BLG and LYS by 1.8 times, thereby promoting the desolvation of bound water and the formation of protein-protein hydrogen bonds that consequently slowed the dynamics of the BLG-LYS coacervates. Overall, this study introduces a new class of protein-based food models with tunable physical properties and offers valuable insights into their precise control.",
+  "abstract_zh": "利用浓缩蛋白质凝聚体开发新型食品基质时，对物质状态和动力学的精确控制是一项关键挑战。本文报道了一种由β-乳球蛋白（BLG）和溶菌酶（LYS）组成的蛋白质凝聚体的pH驱动液-凝胶-固相转变。在相变过程中，由于亲和力增强，凝聚体的终端松弛时间从0.17毫秒延长至267秒。自旋-自旋弛豫数据、氢键竞争实验和分子动力学 (molecular dynamics) 模拟揭示，将pH从6升至8会使BLG/LYS化学计量比从3:1转变为1:1。增强的电荷对称性将BLG与LYS之间的相互作用界面扩大了1.8倍，从而促进结合水的去溶剂化和蛋白质-蛋白质氢键的形成，进而减缓了BLG-LYS凝聚体的动力学。总体而言，本研究引入了一类具有可调物理性质的新型蛋白质基食品模型，并为其精确控制提供了宝贵见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42057275/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42057275/",
+  "paper_page_path": "papers/pubmed/42057275/index.html"
+}

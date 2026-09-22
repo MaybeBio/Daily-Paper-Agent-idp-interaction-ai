@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided. Supplementary materials referenced but not provided.
+- **Assessment boundary** Scientific and technical soundness of the proposed method, experimental design, evaluation methodology, and claims as presented in the provided text. No assessment of code, data availability, or web server functionality beyond what is stated.
+- **Shared manuscript claim summary** The authors propose FusionEncoder, a deep learning method integrating traditional biological features (PSSM, AAindex, energy-based) with protein language model (PPLM) features via a custom LSTM-based fusion cell, followed by a transformer encoder, for residue-level prediction of intrinsically disordered regions (IDRs). They claim superior and stable performance over existing methods across four independent test datasets.
+- **Visible evidence base** Results tables (Tables 2–6) referenced but not shown in the provided material. Figure 1 (schematic of limitations), Figure 2 (architecture), Figure 3 (ablation results), Figure 4 (t-SNE visualizations) referenced but not shown. Supplementary Tables S1–S4 referenced but not provided.
+- **Missing materials affecting confidence** All result tables and figures are referenced but not included in the provided text. Supplementary tables (S1–S4) are not available. This severely limits the ability to verify quantitative claims, statistical significance, and architectural details.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely the integration of heterogeneous feature types for IDR prediction. The proposed fusion mechanism, which routes traditional biological features through the LSTM cell state while PPLM features influence gating, is conceptually interesting and distinct from simple concatenation. However, the provided material does not include the actual results tables or figures, making it impossible to verify the central performance claims. The methodological description also contains ambiguities and potential technical issues that need clarification. The work is potentially publishable if the missing evidence supports the claims and the technical concerns are resolved.
+- **Who would be interested in the results, and why** Researchers in the fields of protein structure prediction, intrinsically disordered protein analysis, and bioinformatics method development. The work is also relevant to those interested in multi-modal feature fusion strategies for biological sequence analysis, particularly the combination of hand-crafted biophysical features with deep learning embeddings.
+- **Major strengths** The problem is well-motivated and the limitations of existing approaches are clearly articulated. The proposed fusion architecture is a novel contribution, as it goes beyond simple concatenation by integrating features at the level of the LSTM gating mechanism. The use of multiple independent test sets, including CAID3 benchmarks, is appropriate for evaluating generalization. The ablation study design, though not visible, is a good practice for assessing feature contributions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence availability
+  - **Claim pointer** The central claim that "FusionEncoder obviously improves the accuracy of amino acid feature representation and achieves superior performance compared to the other existing methods" (Results section) and similar statements in the abstract and conclusion.
+  - **Evidence pointer** Tables 2–6, Figures 3–4, Supplementary Tables S1–S4. Location not provided in the supplied material.
+  - **Concern** The manuscript references all quantitative results, performance comparisons, and ablation studies in tables and figures that are not included in the provided material. Without these, the core claims of superior and stable performance cannot be assessed. The reader cannot verify the magnitude of improvements, statistical significance, or whether the claimed advantages hold across all datasets.
+  - **Why it matters** The primary contribution of this work is empirical: a new method that performs better than existing ones. Without access to the actual results, the scientific case is not established.
+  - **Resolution test** Provide the full tables and figures with all numerical values, including those for baseline methods. Include confidence intervals or statistical tests where appropriate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The description of the fusion cell in Section 2.4.1, specifically equations (4)–(6) and the associated text.
+  - **Evidence pointer** Section 2.4.1, equations (4)–(6). Location not provided.
+  - **Concern** The mathematical formulation of the fusion cell is unclear and potentially inconsistent. Equation (4) defines Cb_j−1 as a gated combination of the previous cell state and traditional features, but it is not clear how this term is used in the subsequent gate computations. The text states that PPLM features influence the forget, input, and output gates, but equation (5) lumps all three gates into a single variable g_j without specifying the individual gate equations. The update of the cell state and hidden state is described as "standard LSTM method," but the interaction between Cb_j−1 and the standard update is not defined. This ambiguity prevents replication.
+  - **Why it matters** The fusion mechanism is the core methodological novelty. If the equations are not precisely specified, the method cannot be reproduced or properly evaluated by others.
+  - **Resolution test** Provide a complete, step-by-step mathematical specification of the fusion cell, including separate equations for forget, input, and output gates, and explicitly show how Cb_j−1 is incorporated into the cell state update. Clarify the dimensionality of all variables.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental rigor
+  - **Claim pointer** The comparison with DeepDRP in Section 3.2, where the authors state they "adopted the same data settings as DeepDRP" and that the test dataset was "generated by truncating protein sequences based on the DISORDER723 dataset."
+  - **Evidence pointer** Section 3.2, Table 6. Location not provided.
+  - **Concern** The comparison with DeepDRP uses a truncated version of DISORDER723, which is a different evaluation setting from the full DISORDER723 results reported in Table 2. It is unclear whether the comparison in Table 6 is against DeepDRP's reported results on the same truncated data or on the full dataset. If DeepDRP's results were obtained on the full dataset, the comparison is unfair. The authors need to clarify the exact evaluation protocol for Table 6.
+  - **Why it matters** Fair comparison is essential for establishing the advantage of the proposed method. An inconsistent evaluation protocol could invalidate the claimed improvement over DeepDRP.
+  - **Resolution test** Clearly state the evaluation protocol for Table 6, including how the truncated dataset was generated, and confirm that DeepDRP's results were obtained under identical conditions. If necessary, re-run DeepDRP on the same truncated data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The statement in Section 2.3 that "AAindex encompasses 566 unique physicochemical properties of amino acids" and that PCA was used to reduce dimensionality to 20.
+  - **Evidence pointer** Section 2.3. Location not provided.
+  - **Concern** The AAindex database contains more than 566 indices, and the number has grown over time. The authors should specify the exact version of AAindex used and the criteria for selecting the 566 indices. Additionally, PCA is typically applied to a data matrix; it is unclear whether the PCA was performed on the 566 indices across the 20 amino acids, or across all residues in the training set. The description is ambiguous.
+  - **Why it matters** Feature construction directly affects model performance. Without precise details, the feature engineering cannot be reproduced.
+  - **Resolution test** Specify the AAindex version, the selection criteria, and the exact PCA procedure (e.g., the data matrix used for PCA, whether the same transformation was applied to test data).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, equation (1)
+  - **Evidence pointer** Section 2.1, equation (1). Location not provided.
+  - **Issue** The notation "STrain=Sdisordered∪Sordered" is informal. It is unclear whether Sdisordered and Sordered are sets of protein sequences or sets of residue labels.
+  - **Required correction** Define the notation clearly, e.g., specify that Sdisordered and Sordered are sets of protein sequences, and clarify the union operation in this context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4.1, final sentence
+  - **Evidence pointer** Section 2.4.1. Location not provided.
+  - **Issue** The sentence "The final representation of the protein sequence is h=[hj, hj, …, hj, …, hj]" is confusing. It appears to list the same index j repeatedly, which is likely a typo. The intended meaning is probably the sequence of hidden states h_1, h_2, ..., h_L.
+  - **Required correction** Correct the notation to represent the sequence of hidden states, e.g., h = [h_1, h_2, ..., h_L].
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.4.2
+  - **Evidence pointer** Section 2.4.2. Location not provided.
+  - **Issue** The number of transformer encoder layers N is not specified in the main text. It is only mentioned that "We used N sub-layers."
+  - **Required correction** Provide the specific value of N in the main text or refer explicitly to the supplementary table where this hyperparameter is listed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5. Location not provided.
+  - **Issue** The definition of Sn and Sp is standard, but the text does not specify whether these are computed per-residue or per-protein. Given the residue-level prediction task, this should be stated explicitly.
+  - **Required correction** Clarify that all metrics are computed at the residue level.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.2, Table 1
+  - **Evidence pointer** Section 2.2, Table 1. Location not provided.
+  - **Issue** The statistical details of the four datasets are referenced to Table 1, but the table is not provided. The text mentions that CAID3 Disorder-PDB annotations treat residues absent from X-ray crystallography as unlabeled, while CAID3 Disorder-NOX labels them as negative. This is an important distinction, but the actual dataset sizes and class distributions are not visible.
+  - **Required correction** Ensure Table 1 is included in the final version with all relevant statistics, and consider adding a brief summary of dataset sizes in the text.
+
+## Risk / unsupported claims
+- The claim of "superior performance" over existing methods is unsupported in the provided material, as all comparison tables (Tables 2–6) are missing.
+- The claim that the fusion cell "effectively facilitates the integration of features originating from distinct semantic spaces" is based on t-SNE visualizations (Figure 4) that are not provided, making the interpretation unverifiable.
+- The statement that "FusionEncoder obviously improves the accuracy of amino acid feature representation" is a qualitative claim not backed by quantitative evidence in the provided text.
+- The ablation study results (Figure 3, Tables S3–S4) are referenced but not available, so the individual contribution of each feature type and the fusion mechanism cannot be assessed.
+- The claim that the training dataset "provides better generalization capability" due to inclusion of both disordered and ordered proteins is plausible but not empirically demonstrated in the provided material.

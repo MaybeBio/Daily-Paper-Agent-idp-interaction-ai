@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "39778472",
+    "doi": "10.1016/j.jcis.2024.12.058",
+    "title": "Insulin amyloid morphology is encoded in H-bonds and electrostatics interactions ruling protein phase separation."
+  },
+  "content": {
+    "abstract": "Ion-protein interactions regulate biological processes and are the basis of key strategies of modulating protein phase diagrams and stability in drug development. Here, we report the mechanisms by which H-bonds and electrostatic interactions in ion-protein systems determine phase separation and amyloid formation. Using microscopy, small-angle X-ray scattering, circular dichroism and atomistic molecular dynamics (MD) simulations, we found that anions specifically interacting with insulin induced phase separation by neutralising the protein charge and forming H-bond bridges between insulin molecules. The same interaction was responsible for an enhanced insulin conformational stability and resistance to oligomerisation. Under aggregation conditions, the anion-protein interaction translated into the activation of a coalescence process, leading to amyloid-like microparticles. This reaction is alternative to conformationally-driven pathways, giving rise to elongated amyloid-like fibrils and occurs in the absence of preferential ion-protein binding. Our findings depict a unifying scenario in which common interactions dictated both phase separation at low temperatures and the occurrence of pronounced heterogeneity in the amyloid morphology at high temperatures, similar to what has previously been reported for protein crystal growth.",
+    "keywords": [],
+    "mesh_terms": [
+      "Static Electricity",
+      "*Amyloid/chemistry",
+      "*Insulin/chemistry",
+      "Molecular Dynamics Simulation",
+      "Hydrogen Bonding",
+      "Scattering, Small Angle",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lenton, Samuel",
+        "Chaaban, Hussein",
+        "Khaled, Mohammed",
+        "van de Weert, Marco",
+        "Strodel, Birgit",
+        "Fodera, Vito"
+      ],
+      "short_names": [
+        "Lenton S",
+        "Chaaban H",
+        "Khaled M",
+        "van de Weert M",
+        "Strodel B",
+        "Fodera V"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, Faculty of Health and Medical Sciences, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark; Center for Biopharmaceuticals and Biobarriers in Drug Delivery, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark.",
+        "Department of Pharmacy, Faculty of Health and Medical Sciences, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark; Center for Biopharmaceuticals and Biobarriers in Drug Delivery, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark.",
+        "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Julich, 52425 Julich, Germany.",
+        "Department of Pharmacy, Faculty of Health and Medical Sciences, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark; Center for Biopharmaceuticals and Biobarriers in Drug Delivery, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark.",
+        "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Julich, 52425 Julich, Germany; Institute of Theoretical and Computational Chemistry, Heinrich Heine University Dusseldorf, 40225 Dusseldorf, Germany. Electronic address: b.strodel@fz-juelich.de.",
+        "Department of Pharmacy, Faculty of Health and Medical Sciences, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark; Center for Biopharmaceuticals and Biobarriers in Drug Delivery, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark. Electronic address: vito.fodera@sund.ku.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lenton, Samuel",
+        "short_name": "Lenton S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Faculty of Health and Medical Sciences, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark; Center for Biopharmaceuticals and Biobarriers in Drug Delivery, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Chaaban, Hussein",
+        "short_name": "Chaaban H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Faculty of Health and Medical Sciences, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark; Center for Biopharmaceuticals and Biobarriers in Drug Delivery, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Khaled, Mohammed",
+        "short_name": "Khaled M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Jülich, 52425 Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "van de Weert, Marco",
+        "short_name": "van de Weert M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Faculty of Health and Medical Sciences, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark; Center for Biopharmaceuticals and Biobarriers in Drug Delivery, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Strodel, Birgit",
+        "short_name": "Strodel B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological Information Processing (IBI-7: Structural Biochemistry), Forschungszentrum Jülich, 52425 Jülich, Germany; Institute of Theoretical and Computational Chemistry, Heinrich Heine University Düsseldorf, 40225 Düsseldorf, Germany. Electronic address: b.strodel@fz-juelich.de."
+        ]
+      },
+      {
+        "full_name": "Foderà, Vito",
+        "short_name": "Foderà V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Faculty of Health and Medical Sciences, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark; Center for Biopharmaceuticals and Biobarriers in Drug Delivery, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark. Electronic address: vito.fodera@sund.ku.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of colloid and interface science"
+    ],
+    "journal_abbrev": [
+      "J Colloid Interface Sci"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/09 00:22",
+    "fetched_at": "2026-09-21 14:31:12"
+  },
+  "links": {
+    "cites": [
+      "42478539"
+    ],
+    "refs": [],
+    "similar": [
+      "39778472",
+      "32070740",
+      "40053704",
+      "21641324",
+      "30315849",
+      "39858435",
+      "17157312",
+      "25093402",
+      "15667222",
+      "11478864",
+      "30980592",
+      "24847058",
+      "29496560",
+      "24535601",
+      "30384267",
+      "29197568",
+      "37298650",
+      "28229588",
+      "38990555",
+      "21674205",
+      "29953467",
+      "24611749",
+      "39561991",
+      "24892388",
+      "23440928",
+      "19913026",
+      "19891974",
+      "38731878",
+      "27451367",
+      "19063899",
+      "40081065",
+      "20456856",
+      "21539792",
+      "17368485",
+      "38728258",
+      "17292913",
+      "29266653",
+      "40198698",
+      "26313643",
+      "23912807",
+      "37246507",
+      "27025196",
+      "28585804",
+      "34443453",
+      "39053405",
+      "24641444",
+      "21641325",
+      "26594824",
+      "12470214",
+      "25490095",
+      "23473495",
+      "28390382",
+      "23214924",
+      "31901953",
+      "21570949",
+      "25509136",
+      "23874809",
+      "30077972",
+      "29782833",
+      "22528088",
+      "22675475",
+      "25615018",
+      "35801534",
+      "22333569",
+      "24458317",
+      "31790268",
+      "20006956",
+      "23276223",
+      "20712298",
+      "25625571",
+      "19588943",
+      "23613010",
+      "32008441",
+      "27558445",
+      "23951128",
+      "26077813",
+      "24569992",
+      "33184287",
+      "19289061",
+      "22178183",
+      "10920035",
+      "15644216",
+      "40028903",
+      "22304113",
+      "26193769",
+      "21384336",
+      "18439622",
+      "19383476",
+      "17523690",
+      "35055108",
+      "30067339",
+      "21625904",
+      "28490248",
+      "15574704",
+      "38497314",
+      "24060166",
+      "31661243",
+      "9204125",
+      "17492436",
+      "28906103"
+    ],
+    "review": [
+      "39778472",
+      "12470214"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9797(24)02910-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetesmedicines.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Medicines"
+      }
+    ],
+    "text_mined": []
+  }
+}

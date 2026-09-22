@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42328863",
+  "title": "Functional dissection of Corynebacterium glutamicum Wag31 domains for septal recruitment and polar distribution during the cell cycle.",
+  "authors": "Petit, Julienne; Megrian, Daniela; Martinez, Mariano; Sogues, Adria; Brunk, Gabriel; de Sousa-d'Auria, Celia; Ben Assaya, Mathilde; Thouvenot, Catherine; Lesur, Emilie; Bourdreux, Yann; Bayan, Nicolas; Alzari, Pedro M; Wehenkel, Anne Marie",
+  "journal": "mBio",
+  "published_date": "2026-06-22",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过AlphaFold预测和进化分析，功能解析了谷氨酸棒杆菌Wag31蛋白中无序插入区域分隔的N端和C端结构域在隔膜招募和极性分布中的作用，涉及PPI介导的互作机制，但对象为细菌细胞骨架蛋白而非典型IDP介导的相分离PPI，方法以实验为主、AI为辅。",
+  "abstract": "Bacterial cell morphogenesis is controlled by the synthesis and organization of peptidoglycan and driven by multi-protein complexes, such as the divisome and elongasome. Here, we investigate the role of the Corynebacterium glutamicum DivIVA homolog, Wag31, the elongasome scaffold that is required for polar growth in Corynebacteriales. Conditional depletion of Wag31 results in coccoid-shaped cells, able to divide over several generations, showing that Wag31 is essential for rod shape maintenance, but not for viability in the conditions tested. Wag31/DivIVA homologs are formed by two distinct coiled-coil domains, a highly conserved N-terminal domain (NtD, also referred to as the DivIVA domain), and a more variable C-terminal domain (CtD). Our structural phylogenetic analyses revealed that in Actinobacteria, unlike Firmicutes, an intrinsically disordered region spatially separates the NtD from the CtD. We show that the NtD is necessary and sufficient for septum localization, while the CtD mediates self-interaction and polar accumulation. Our findings suggest that Wag31 is recruited specifically to the septum through protein-protein interactions involving the NtD, priming the future pole, and allowing for a timely divisome-elongasome transition at cytokinesis. Once the pole is formed, the self-aggregative properties of the CtD dominate and form a stable structure that likely organizes the pole for cell wall biosynthesis. IMPORTANCE: Wag31, the elongasome scaffold in Corynebacteriales, is a cytoskeletal protein that remains poorly understood. In Firmicutes, the Wag31 homolog, DivIVA, has been largely studied, but its function differs from that of Actinobacteria. Using AlphaFold predictions and evolutionary analysis, we found a clear sequence and structure cutoff between Firmicutes and Actinobacteria, correlating with their different functions. An intrinsically disordered insertion in Wag31 appeared early in the actinobacterial tree, separating the membrane/septum binding function of the N-terminal DivIVA domain from the C-terminal coiled-coil domain's self-aggregation function. We analyzed each domain's role and assigned a dominant role in cellular distribution. The N-ter is necessary for septal recruitment, independent of membrane binding capacities. Timely recruitment is essential for correct cellular distribution, as interference with this domain leads to asymmetric Wag31 localization and septum misplacement. We propose that Wag31's early role at the septum is to prime the future pole, where it organizes polar growth upon cytokinesis.",
+  "abstract_zh": "细菌细胞形态发生受肽聚糖的合成与组织调控，并由多蛋白复合物（如分裂体 (divisome) 和延伸体 (elongasome)）驱动。在此，我们研究了谷氨酸棒杆菌 (Corynebacterium glutamicum) DivIVA 同源物 Wag31 的作用，该蛋白是棒杆菌目 (Corynebacteriales) 极性生长所需的延伸体支架。Wag31 的条件性耗竭导致细胞呈球菌状，并能在数代内持续分裂，表明 Wag31 对维持杆状形态至关重要，但在所测试条件下对细胞活力并非必需。Wag31/DivIVA 同源物由两个不同的卷曲螺旋结构域组成：一个高度保守的 N 端结构域 (NtD，也称为 DivIVA 结构域) 和一个变异较大的 C 端结构域 (CtD)。我们的结构系统发育分析揭示，在放线菌门 (Actinobacteria) 中，与厚壁菌门 (Firmicutes) 不同，一个固有无序区域在空间上将 NtD 与 CtD 分隔开。我们证明 NtD 对隔膜定位是必要且充分的，而 CtD 介导自身相互作用和极性积累。我们的发现表明，Wag31 通过涉及 NtD 的蛋白质-蛋白质相互作用被特异性地招募至隔膜，为未来极体做准备，并在胞质分裂时实现分裂体-延伸体的及时转换。一旦极体形成，CtD 的自我聚集特性占主导，形成稳定结构，该结构可能组织极体以进行细胞壁生物合成。重要性：Wag31 作为棒杆菌目中的延伸体支架，是一种仍了解甚少的细胞骨架蛋白。在厚壁菌门中，Wag31 同源物 DivIVA 已被广泛研究，但其功能与放线菌门中的不同。利用 AlphaFold 预测和进化分析，我们发现了厚壁菌门与放线菌门之间清晰的序列和结构分界，这与其功能差异相关。Wag31 中一个固有无序插入在放线菌树早期出现，将 N 端 DivIVA 结构域的膜/隔膜结合功能与 C 端卷曲螺旋结构域的自我聚集功能分隔开。我们分析了每个结构域的作用，并确定了其在细胞分布中的主导角色。N 端结构域对隔膜招募是必需的，且不依赖于膜结合能力。及时招募对正确的细胞分布至关重要，因为干扰该结构域会导致 Wag31 不对称定位和隔膜错位。我们提出，Wag31 在隔膜处的早期作用是启动未来极体，并在胞质分裂时组织极性生长。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42328863/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42328863/",
+  "paper_page_path": "papers/pubmed/42328863/index.html"
+}

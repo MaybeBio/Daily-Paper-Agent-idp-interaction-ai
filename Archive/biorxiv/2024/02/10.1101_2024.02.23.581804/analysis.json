@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.23.581804",
+  "title": "Small molecules targeting the structural dynamics of AR-V7 partially disordered protein using deep learning and physics based models",
+  "authors": "Pantelis Karatzas; Z. Faidon Brotzakis; Haralambos Sarimveis",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-28",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用深度学习与物理分子对接结合的方法，针对部分无序蛋白AR-V7的构象系综筛选小分子结合位点与配体，虽对象为IDP且含AI/物理建模，但聚焦小分子药物筛选而非蛋白-蛋白互作机制，故评7分。",
+  "abstract": "Partially disordered proteins can contain both stable and unstable secondary structure segments and are involved in various (mis)functions in the cell. The extensive conformational dynamics of partially disordered proteins scaling with extent of disorder and length of the protein hampers the efficiency of traditional experimental and in-silico structure-based drug discovery approaches. Therefore new efficient paradigms in drug discovery taking into account conformational ensembles of proteins need to emerge. In this study, using as a test case the AR-V7 transcription factor splicing variant related to prostate cancer, we present an automated methodology that can accelerate the screening of small molecule binders targeting partially disordered proteins. By swiftly identifying the conformational ensemble of AR-V7, and reducing the dimension of binding-sites by a factor of 90 by applying appropriate physicochemical filters, we combine physics based molecular docking and multi-objective classification machine learning models that speed up the screening of thousands of compounds targeting AR-V7 multiple binding sites. Our method not only identifies previously known binding sites of AR-V7, but also discovers new ones, as well as increases the multi-binding site hit-rate of small molecules by a factor of 10 compared to naive physics-based molecular docking.",
+  "abstract_zh": "部分无序蛋白可同时包含稳定与不稳定的二级结构片段，并参与细胞内的多种（功能）失调过程。部分无序蛋白的广泛构象动态性，其程度随无序度和蛋白长度而变化，阻碍了传统实验及基于结构的计算机模拟药物发现方法的效率。因此，需要开发考虑蛋白质构象系综的新药物发现高效范式。在本研究中，以与前列腺癌相关的AR-V7转录因子剪接变体为测试案例，我们提出了一种自动化方法，可加速针对部分无序蛋白的小分子结合物筛选。通过快速识别AR-V7的构象系综，并应用适当的物理化学过滤器将结合位点维度减少90倍，我们结合基于物理的分子对接和多目标分类机器学习模型，加速了对靶向AR-V7多个结合位点的数千种化合物的筛选。我们的方法不仅识别了AR-V7已知的结合位点，还发现了新位点，并将小分子多结合位点命中率相比朴素基于物理的分子对接提高了10倍。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.23.581804",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.23.581804",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.23.581804/index.html"
+}

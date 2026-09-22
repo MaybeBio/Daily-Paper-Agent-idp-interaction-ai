@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, and internal consistency of the reported findings; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors report that the N-terminal region (residues 1–350) of TFIP11, a splicing factor, is an intrinsically disordered polyampholyte. Using bioinformatic prediction, all-atom MD simulations, and spectroscopic methods (CD, ITF, DLS), they claim that increasing NaCl concentration from 0 to 200 mM enhances conformational flexibility, promotes a more disordered and globule-like ensemble, and increases accessibility of functional regions including the G-Patch domain. They further propose that salt-dependent conformational changes may favour liquid-liquid phase separation and protein-RNA interactions, and discuss putative post-translational modification sites in the context of these conformational changes.
+- **Visible evidence base** Abstract; Sections 1 (Introduction), 2 (Materials and methods), 3 (Results and discussion), 4 (Conclusions); references cited in text; figure callouts (Figs. 1–9, S1–S9); supplementary data repository link
+- **Missing materials affecting confidence** Figures and supplementary figures are referenced but not provided; raw spectra, MD trajectory analyses, and DLS correlation data are not available; no statistical analysis details; no sequence alignment or conservation analysis; no experimental validation of LLPS (e.g., microscopy, turbidity assays)
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question regarding the conformational behaviour of an intrinsically disordered region of a splicing factor, with potential implications for understanding spliceosome assembly and phase separation. The combination of prediction, simulation, and spectroscopy is appropriate in principle. However, the evidence presented is largely descriptive and correlative, and several key claims are not fully supported by the data as described. The link between salt-dependent conformational changes and functional outcomes (LLPS, protein-RNA interaction) remains speculative. The manuscript would benefit from additional quantitative analyses, clearer presentation of experimental reproducibility, and a more cautious interpretation of the DLS and ITF data.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, splicing regulation, phase separation, and the molecular basis of spliceosome assembly. The work may also be of interest to computational biophysicists using MD simulations to study IDP conformational ensembles, and to experimentalists working on TFIP11 or related G-Patch proteins.
+- **Major strengths** The study combines multiple complementary approaches (prediction, MD, spectroscopy) to characterise a previously unstudied region of TFIP11. The focus on salt dependence is well motivated by the known sensitivity of IDPs to ionic strength. The identification of specific regions (IDRs, LCDs, G-Patch) and their differential responsiveness to salt provides a useful framework for future functional studies. The discussion of PTM sites within flexible regions is thoughtful and generates testable hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "increasing the salt concentration enhances the protein conformational flexibility, presenting a fuzzier conformational landscape, a more globule-like shape, and an unstructured arrangement that could favour LLPS segregation and protein-RNA interaction."
+  - **Evidence pointer** Section 3.2, Figs. 3–5; Section 3.3, Figs. 7–8
+  - **Concern** The central claim of salt-dependent conformational change is based on MD simulations and spectroscopic data, but the quantitative support is not presented. RMSD, RMSF, and Rg values are described qualitatively, and no error bars, replicate-to-replicate variability, or statistical comparisons between conditions are shown. The CD spectra are presented as single traces without replicates or deconvolution analyses. The DLS data report hydrodynamic diameters but no size distributions, polydispersity indices, or concentration-dependent measurements. Without these quantitative details, the claim of a salt-induced shift towards a more disordered, globule-like ensemble is not rigorously established.
+  - **Why it matters** The central conclusion of the paper rests on the robustness and statistical significance of the observed salt-dependent differences. If the differences are within the noise of the methods, the main claim is unsupported.
+  - **Resolution test** Provide quantitative analyses of MD trajectories (e.g., mean and standard deviation of Rg, RMSD, RMSF across triplicates; contact maps; secondary structure populations over time) with statistical tests comparing 0 vs 200 mM NaCl. Show replicate CD spectra with baseline correction and secondary structure deconvolution (e.g., BeStSel or CDSSTR). Report DLS size distributions, polydispersity, and at least three independent measurements per condition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The authors state that "the expanded conformation and more accessible domains (especially LCDs) within polyampholyte IDPs are known to allow homotypic IDP-IDP interactions that further drive LLPS formation and may consequently be strongly related to the biological role of TFIP11."
+  - **Evidence pointer** Section 3.3, Section 4 (Conclusions)
+  - **Concern** The manuscript repeatedly links the observed conformational changes to LLPS and protein-RNA interactions, but no direct experimental evidence for LLPS (e.g., turbidity, droplet formation, FRAP) or RNA binding is provided. The DLS data show assemblies at both salt conditions, but the authors themselves note that the nature of these assemblies is unclear. The extrapolation from conformational ensemble changes to biological function is speculative and not supported by the data presented.
+  - **Why it matters** The functional implications are a major part of the paper's significance. Without direct evidence, the claims about LLPS and RNA binding remain hypotheses, and the reader cannot assess their validity.
+  - **Resolution test** Either add direct experimental evidence (e.g., LLPS assays, RNA binding experiments) or explicitly reframe these statements as hypotheses requiring future testing. Remove or soften definitive language linking conformational changes to LLPS and RNA interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that "the relaxed first-ranked AlphaFold2-generated model of TFIP11" was used as the starting structure for MD simulations, and that CMAP corrections were applied to "the protein IDRs and the flexible segments, i.e. residues 1-24, 36-44, 57-143, and 166-337."
+  - **Evidence pointer** Section 2.7
+  - **Concern** The choice of the AlphaFold2 model as a starting structure for an IDP is unusual and potentially problematic, as AlphaFold2 is not designed to predict disordered ensembles. The authors do not justify this choice or discuss its limitations. Additionally, the CMAP correction is applied to specific residue ranges, but the rationale for these boundaries and the validation of the modified force field are not provided. The simulation protocol (e.g., equilibration time, number of replicates, total simulation time per replicate) is described only briefly.
+  - **Why it matters** The reliability of the MD results depends critically on the starting structure and force field. If the starting model biases the conformational sampling, the conclusions about salt-dependent behaviour may be artefacts of the setup.
+  - **Resolution test** Justify the use of the AlphaFold2 model, or use an ensemble-based starting structure (e.g., from flexible-meccano or a pre-equilibrated IDP ensemble). Provide details on the CMAP parameterisation and its validation for IDPs. Report the full simulation protocol, including equilibration, production time, and number of replicates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors interpret the ITF data as showing that "in 0 mM NaCl, a slight blue shift of the emission band (336 nm) is observed, revealing that Trp residues become less exposed due to a conformational change," and the appearance of a band at 470 nm as "most likely associated to deep-blue autofluorescence (dbAF), an intrinsic fluorescence mainly found in proteins forming amyloid fibrils."
+  - **Evidence pointer** Section 3.3, Fig. 8
+  - **Concern** The interpretation of the ITF data is speculative. The blue shift is small (3 nm) and could be within experimental variability. The assignment of the 470 nm band to dbAF is presented as "most likely" without controls (e.g., Thioflavin T staining, electron microscopy, or known amyloid-positive controls). The authors acknowledge that dbAF can occur in monomeric proteins, which weakens the amyloid interpretation. The link between the ITF data and the MD-derived conformational changes is not quantitatively established.
+  - **Why it matters** The ITF data are used to support the claim of salt-dependent conformational change and the potential for amyloid-like aggregation. If the interpretation is incorrect, the conclusions about the nature of the assemblies are unsupported.
+  - **Resolution test** Provide replicate ITF spectra with error bars. Include controls for dbAF (e.g., known amyloid fibrils, monomeric proteins). Perform additional assays to test for amyloid formation (e.g., ThT fluorescence, Congo red binding, TEM). Correlate ITF changes with MD-derived Trp solvent accessibility quantitatively.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The protein concentration is reported as 0.43 mg/mL (10 µM), but the calculation from the urea-containing buffer to the final buffer is described only briefly. The dilution factor of 1.4 is mentioned but not explained.
+  - **Required correction** Clarify the dilution factor and provide the final buffer composition and protein concentration verification (e.g., Bradford assay, A280).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Fig. 1
+  - **Issue** The CDF and CH plots are described, but the specific values (e.g., mean net charge, mean scaled hydropathy) are not reported numerically. The text states the N-TER is "clearly laying in the IDP area" but does not provide the quantitative values.
+  - **Required correction** Report the numerical values for mean net charge and hydropathy, and the coordinates on the CDF and CH plots.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Fig. S7, S8
+  - **Issue** The discussion of PTM sites relies on predictions and literature, but the authors do not specify which prediction tools were used for PTM site identification beyond PhosphoSitePlus. The criteria for selecting the discussed sites (K155, Y162, R166, S59, S98, S210) are not stated.
+  - **Required correction** Specify the prediction tools and thresholds used, and justify the selection of the discussed PTM sites.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Fig. 7
+  - **Issue** The CD spectra are described as showing "a significant change" between 0 and 200 mM NaCl, but the specific spectral features (e.g., minima, maxima, mean residue ellipticity values) are not described in the text.
+  - **Required correction** Describe the spectral features quantitatively and reference the specific wavelengths and ellipticity values.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative support for salt-dependent changes), R1-M2 (overinterpretation of LLPS/RNA implications), R1-M3 (MD starting structure and force field justification)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The study of TFIP11 N-TER is novel, and the combination of methods is appropriate, but the findings are largely descriptive and do not reveal fundamentally new principles of IDP behaviour or splicing regulation.
+  - **Scientific importance** Moderate. The work provides initial structural characterisation of a functionally important region, but the lack of direct functional validation limits its impact.
+  - **Interdisciplinary readership** Moderate. The topic bridges structural biology, biophysics, and RNA processing, but the presentation is likely to appeal primarily to specialists in IDP biophysics.
+  - **Technical soundness** Weak to moderate. The methods are appropriate in principle, but the lack of quantitative detail, statistical analysis, and validation of key interpretations undermines confidence in the conclusions.
+  - **Readability for nonspecialists** Adequate. The manuscript is generally clear, but the results section would benefit from more explicit explanations of the significance of each measurement.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and uses a reasonable methodological approach, but the central claims are not quantitatively supported, and the functional implications are overinterpreted. Major revisions are required to provide rigorous evidence for the salt-dependent conformational changes and to temper or experimentally support the LLPS and RNA-binding hypotheses.
+
+## Risk / unsupported claims
+- The claim that TFIP11 N-TER "could favour LLPS segregation and protein-RNA interaction" is unsupported by direct experimental evidence.
+- The interpretation of the 470 nm ITF band as dbAF and its link to amyloid-like aggregation is speculative and lacks controls.
+- The statement that "the expanded conformation and more accessible domains... are known to allow homotypic IDP-IDP interactions that further drive LLPS formation" is presented as a general principle but is not directly tested here.
+- The use of the AlphaFold2 model as a starting structure for MD simulations of an IDP is not justified and may bias the results.
+- The claim that "the regions mostly composed of charged and hydrophilic residues are the most impacted" by salt is based on qualitative RMSF comparisons without statistical support.

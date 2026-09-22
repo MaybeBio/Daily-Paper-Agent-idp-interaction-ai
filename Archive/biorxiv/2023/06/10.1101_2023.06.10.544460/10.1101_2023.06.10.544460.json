@@ -1,0 +1,254 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.10.544460",
+  "title": "Structure of the N-RNA/P interface reveals mode of L/P attachment to the nucleocapsid of human metapneumovirus",
+  "doi": "10.1101/2023.06.10.544460",
+  "abstract": "Human metapneumovirus (HMPV) is a major cause of respiratory illness in young children. The polymerase complex of HMPV consists of two obligate components, the L polymerase and its cofactor, the phosphoprotein P. During replication and transcription, the L/P complex traverses the viral RNA genome, which is encapsidated within multimerized N nucleoproteins. An essential interaction between N and a C-terminal region of P is required for tethering of the L/P polymerase to the RNA template. This N-P interaction is also involved in the formation of cytoplasmic viral factories in infected cells, called inclusion bodies. To define how L/P recognizes N-encapsidated RNA (N-RNA) we employed cryogenic electron microscopy (cryo-EM) and molecular dynamics simulations, coupled to polymerase activity assays and imaging of inclusion bodies in transfected cells. We report a 2.9 Å resolution structure of a triple-complex between multimeric N, bound to both RNA and the C-terminal region of P. Furthermore, we also present cryo-EM structures of assembled N in different oligomeric states, highlighting the plasticity of N. Combined with our functional assays, these structural data delineate in molecular detail how P attaches to N-RNA whilst retaining substantial conformational dynamics. Moreover, the N-RNA-P triple complex structure provides a molecular blueprint for the design of therapeutics to potentially disrupt the attachment of L/P to its template.",
+  "authors": [
+    "Whitehead JD",
+    "Decool H",
+    "Leyrat C",
+    "Carrique L",
+    "Fix J",
+    "Eléouët J",
+    "Galloux M",
+    "Renner M"
+  ],
+  "published_date": "2023-06-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.10.544460",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.10.544460.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR674125",
+    "raw_record": {
+      "id": "PPR674125",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR674125"
+        ]
+      },
+      "doi": "10.1101/2023.06.10.544460",
+      "title": "Structure of the N-RNA/P interface reveals mode of L/P attachment to the nucleocapsid of human metapneumovirus",
+      "authorString": "Whitehead JD, Decool H, Leyrat C, Carrique L, Fix J, Eléouët J, Galloux M, Renner M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Whitehead JD",
+            "lastName": "Whitehead",
+            "firstName": "Jack",
+            "initials": "JD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Structural Biology, The Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK"
+                },
+                {
+                  "affiliation": "Sir William Dunn School of Pathology, University of Oxford, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Decool H",
+            "lastName": "Decool",
+            "firstName": "Hortense",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Université Paris-Saclay, INRAE, UVSQ, VIM, 78350, Jouy-en-Josas, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leyrat C",
+            "lastName": "Leyrat",
+            "firstName": "Cédric",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut de Génomique Fonctionnelle, Université de Montpellier, CNRS, INSERM Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carrique L",
+            "lastName": "Carrique",
+            "firstName": "Loic",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5332-8593"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Structural Biology, The Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fix J",
+            "lastName": "Fix",
+            "firstName": "Jenna",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Université Paris-Saclay, INRAE, UVSQ, VIM, 78350, Jouy-en-Josas, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eléouët J",
+            "lastName": "Eléouët",
+            "firstName": "Jean-François",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Université Paris-Saclay, INRAE, UVSQ, VIM, 78350, Jouy-en-Josas, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Galloux M",
+            "lastName": "Galloux",
+            "firstName": "Marie",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Université Paris-Saclay, INRAE, UVSQ, VIM, 78350, Jouy-en-Josas, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Renner M",
+            "lastName": "Renner",
+            "firstName": "Max",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Umeå University, 901 87 Umeå, Sweden"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5332-8593"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Human metapneumovirus (HMPV) is a major cause of respiratory illness in young children. The polymerase complex of HMPV consists of two obligate components, the L polymerase and its cofactor, the phosphoprotein P. During replication and transcription, the L/P complex traverses the viral RNA genome, which is encapsidated within multimerized N nucleoproteins. An essential interaction between N and a C-terminal region of P is required for tethering of the L/P polymerase to the RNA template. This N-P interaction is also involved in the formation of cytoplasmic viral factories in infected cells, called inclusion bodies. To define how L/P recognizes N-encapsidated RNA (N-RNA) we employed cryogenic electron microscopy (cryo-EM) and molecular dynamics simulations, coupled to polymerase activity assays and imaging of inclusion bodies in transfected cells. We report a 2.9 Å resolution structure of a triple-complex between multimeric N, bound to both RNA and the C-terminal region of P. Furthermore, we also present cryo-EM structures of assembled N in different oligomeric states, highlighting the plasticity of N. Combined with our functional assays, these structural data delineate in molecular detail how P attaches to N-RNA whilst retaining substantial conformational dynamics. Moreover, the N-RNA-P triple complex structure provides a molecular blueprint for the design of therapeutics to potentially disrupt the attachment of L/P to its template.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "203141/Z/16/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/10/2023.06.10.544460.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.10.544460"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR674125"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR674125&type=FILE&fileName=EMS177285-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS177285",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-06-13",
+      "firstPublicationDate": "2023-06-10",
+      "firstIndexDate": "2023-06-13",
+      "fullTextReceivedDate": "2023-07-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

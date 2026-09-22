@@ -1,0 +1,201 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.07.27.453834",
+  "title": "Site-specific recognition of SARS-CoV-2 nsp1 protein with a tailored titanium dioxide nanoparticle",
+  "doi": "10.1101/2021.07.27.453834",
+  "abstract": "The ongoing world-wide Severe Acute Respiratory Syndrome coronavirus 2 (SARS-CoV-2) pandemic shows the need for new sensing and therapeutic means against the CoV viruses. The SARS-CoV-2 nsp1 protein is important, both for replication and pathogenesis, making it an attractive target for intervention. In recent years nanoparticles have been shown to interact with peptides, ranging in size from single amino acids up to proteins. These nanoparticles can be tailor-made with specific functions and properties including bioavailability. To the best of our knowledge, in this study we show for the first time that a tailored titanium oxide nanoparticle interacts specifically with a unique site of the full-length SARS-CoV-2 nsp1 protein. This can be developed potentially into a tool for selective control of viral protein functions.",
+  "authors": [
+    "Agback P",
+    "Agback T",
+    "Dominguez F",
+    "Frolova E",
+    "Seisenbaeva G",
+    "Kessler V"
+  ],
+  "published_date": "2021-07-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.07.27.453834",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.07.27.453834.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR375485",
+    "raw_record": {
+      "id": "PPR375485",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR375485"
+        ]
+      },
+      "doi": "10.1101/2021.07.27.453834",
+      "title": "Site-specific recognition of SARS-CoV-2 nsp1 protein with a tailored titanium dioxide nanoparticle",
+      "authorString": "Agback P, Agback T, Dominguez F, Frolova E, Seisenbaeva G, Kessler V.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Agback P",
+            "lastName": "Agback",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sciences, BioCenter, Swedish University of Agricultural Sciences, Box 7015, SE-75007, Uppsala, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Agback T",
+            "lastName": "Agback",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sciences, BioCenter, Swedish University of Agricultural Sciences, Box 7015, SE-75007, Uppsala, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dominguez F",
+            "lastName": "Dominguez",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, University of Alabama at Birmingham, 1720 2nd Ave South Birmingham, AL 35294, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Frolova E",
+            "lastName": "Frolova",
+            "firstName": "E.I.",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, University of Alabama at Birmingham, 1720 2nd Ave South Birmingham, AL 35294, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seisenbaeva G",
+            "lastName": "Seisenbaeva",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sciences, BioCenter, Swedish University of Agricultural Sciences, Box 7015, SE-75007, Uppsala, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kessler V",
+            "lastName": "Kessler",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sciences, BioCenter, Swedish University of Agricultural Sciences, Box 7015, SE-75007, Uppsala, Sweden"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The ongoing world-wide Severe Acute Respiratory Syndrome coronavirus 2 (SARS-CoV-2) pandemic shows the need for new sensing and therapeutic means against the CoV viruses. The SARS-CoV-2 nsp1 protein is important, both for replication and pathogenesis, making it an attractive target for intervention. In recent years nanoparticles have been shown to interact with peptides, ranging in size from single amino acids up to proteins. These nanoparticles can be tailor-made with specific functions and properties including bioavailability. To the best of our knowledge, in this study we show for the first time that a tailored titanium oxide nanoparticle interacts specifically with a unique site of the full-length SARS-CoV-2 nsp1 protein. This can be developed potentially into a tool for selective control of viral protein functions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.07.27.453834"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR375485"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR375485&type=FILE&fileName=EMS131589-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36134379",
+            "reference": "Nanoscale advances. 2022 Mar;4(6):1527-1532",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS131589",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2021-07-29",
+      "firstPublicationDate": "2021-07-27",
+      "firstIndexDate": "2021-07-29",
+      "fullTextReceivedDate": "2021-09-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

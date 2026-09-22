@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38275292",
+  "title": "Intrinsic protein disorder is insufficient to drive subnuclear clustering in embryonic transcription factors.",
+  "authors": "Hannon, Colleen E; Eisen, Michael B",
+  "journal": "eLife",
+  "published_date": "2024-01-26",
+  "window": {
+    "start": "2024-01-22",
+    "end": "2024-01-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过高通量成像实验检验转录因子IDR是否足以驱动核内亚结构聚集，发现IDR单独表达不足以驱动聚集，且删除IDR不影响全长蛋白聚集，表明IDR并非聚集的主要驱动因素；虽以IDR为对象并涉及互作聚集机制，但方法为实验筛选而非AI/物理模拟，且未深入PPI机制建模，故综合评分为6。",
+  "abstract": "Modern microscopy has revealed that core nuclear functions, including transcription, replication, and heterochromatin formation, occur in spatially restricted clusters. Previous work from our lab has shown that subnuclear high-concentration clusters of transcription factors may play a role in regulating RNA synthesis in the early Drosophila embryo. A nearly ubiquitous feature of eukaryotic transcription factors is that they contain intrinsically disordered regions (IDRs) that often arise from low complexity amino acid sequences within the protein. It has been proposed that IDRs within transcription factors drive co-localization of transcriptional machinery and target genes into high-concentration clusters within nuclei. Here, we test that hypothesis directly, by conducting a broad survey of the subnuclear localization of IDRs derived from transcription factors. Using a novel algorithm to identify IDRs in the Drosophila proteome, we generated a library of IDRs from transcription factors expressed in the early Drosophila embryo. We used this library to perform a high-throughput imaging screen in Drosophila Schneider-2 (S2) cells. We found that while subnuclear clustering does not occur when the majority of IDRs are expressed alone, it is frequently seen in full-length transcription factors. These results are consistent in live Drosophila embryos, suggesting that IDRs are insufficient to drive the subnuclear clustering behavior of transcription factors. Furthermore, the clustering of transcription factors in living embryos was unaffected by the deletion of IDR sequences. Our results demonstrate that IDRs are unlikely to be the primary molecular drivers of the clustering observed during transcription, suggesting a more complex and nuanced role for these disordered protein sequences.",
+  "abstract_zh": "现代显微镜技术揭示，包括转录、复制和异染色质形成在内的核心核功能发生在空间受限的簇中。我们实验室先前的工作表明，转录因子的亚核高浓度簇可能在早期果蝇胚胎的RNA合成调控中发挥作用。真核转录因子的一个近乎普遍的特征是，它们含有 intrinsically disordered regions (IDRs)，这些区域通常源于蛋白质内的低复杂度氨基酸序列。已有假设认为，转录因子中的IDRs驱动转录机制和靶基因在核内共定位为高浓度簇。在本研究中，我们通过广泛调查源自转录因子的IDRs的亚核定位，直接检验了这一假设。利用一种新算法识别果蝇蛋白质组中的IDRs，我们生成了来自早期果蝇胚胎中表达的转录因子的IDRs文库。我们使用该文库在果蝇Schneider-2 (S2)细胞中进行了高通量成像筛选。我们发现，虽然大多数IDRs单独表达时不会发生亚核聚集，但在全长转录因子中却经常观察到这种现象。这些结果在活体果蝇胚胎中保持一致，表明IDRs不足以驱动转录因子的亚核聚集行为。此外，活体胚胎中转录因子的聚集不受IDR序列删除的影响。我们的结果表明，IDRs不太可能是转录过程中观察到的聚集现象的主要分子驱动因素，这提示这些无序蛋白质序列可能扮演着更复杂和微妙的角色。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38275292/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38275292/",
+  "paper_page_path": "papers/pubmed/38275292/index.html"
+}

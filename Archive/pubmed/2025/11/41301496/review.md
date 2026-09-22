@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided by the user.
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with stated claims. Editorial and formatting issues are considered only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors use Gaussian accelerated molecular dynamics (GAMD) simulations to compare wild-type α-synuclein (WT) with N-terminal deletion (ΔN), C-terminal deletion (ΔC), and isolated NAC domain (isoNAC) variants. They report that: (1) the N-terminal domain forms contacts with both NAC and C-terminal domains; (2) removal of either flanking domain increases compactness of remaining domains; (3) removal of the N-terminal domain increases NAC-C β-sheet formation; (4) WT electrostatic potential (ESP) may favor membrane interactions, while ΔC ESP may over-stabilize them; and (5) flanking domains cooperate to maintain elongation and modulate ESP.
+- **Visible evidence base** Full text including methods, results, discussion, and conclusions. Figures and tables are referenced but not provided. Supplementary materials are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1–10, Tables S1–S2, Figures S1–S4, simulation parameter details (GAMD acceleration parameters, convergence criteria), and raw trajectory data are not available. This limits verification of quantitative claims and visual interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in α-synuclein biology: how domain deletions affect monomer conformation and electrostatic properties. The use of GAMD is appropriate for an intrinsically disordered protein. However, the study is purely computational with a single simulation per variant, and several claims extend beyond what the evidence can support. The absence of convergence analysis, replicate simulations, and experimental validation weakens the conclusions. The manuscript is clearly written and the conceptual model is interesting, but the evidence base is insufficient to establish the proposed cooperative mechanism.
+- **Who would be interested in the results, and why** Researchers studying α-synuclein aggregation, Parkinson's disease mechanisms, intrinsically disordered proteins, and protein-membrane interactions. The proposed model of flanking-domain cooperation could inform experimental designs for mutagenesis or membrane-binding studies. Computational biophysicists may also be interested in the application of GAMD to domain-deletion variants.
+- **Major strengths** (1) The question is biologically relevant and timely. (2) The use of GAMD is methodologically appropriate for sampling IDP conformations. (3) The analysis includes multiple complementary metrics (contacts, secondary structure, Rg, SASA, ESP). (4) The proposed model of flanking-domain cooperation is conceptually novel and testable. (5) The writing is clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that GAMD simulations reveal conformational preferences and inter-domain contacts that support a cooperative role of flanking domains.
+  - **Evidence pointer** Section 2.3, Section 3.1, Figures 1–6
+  - **Concern** Only a single GAMD simulation per variant is reported. For an IDP, which samples a vast conformational ensemble, a single trajectory is unlikely to provide statistically reliable estimates of contact probabilities, secondary structure propensities, or Rg distributions. No convergence analysis (e.g., block averaging, multiple independent runs, or comparison of sampling across time windows) is presented. The authors also state that the reweighting procedure was not used, which means the reported distributions are biased by the GAMD boost potential and cannot be interpreted as equilibrium properties.
+  - **Why it matters** The central claims about contact formation, β-sheet propensity, and compactness depend on the assumption that the simulated ensembles are representative. Without replicate simulations or convergence assessment, the quantitative comparisons between variants may reflect initial conditions or stochastic variation rather than systematic differences. The lack of reweighting further compromises the physical meaning of the reported distributions.
+  - **Resolution test** Provide at least three independent GAMD simulations per variant, demonstrate convergence (e.g., via time-dependent block analysis of Rg and contact maps), and either perform reweighting or explicitly justify why unweighted distributions are sufficient for the qualitative comparisons made.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that removal of the C-terminal domain leads to increased positive ESP that could over-stabilize protein–membrane interactions, and that WT ESP may aid favorable membrane binding.
+  - **Evidence pointer** Section 3.4, Figure 10
+  - **Concern** The ESP analysis is performed on a single representative structure from the most populated cluster for each variant. ESP is highly sensitive to conformation, and a single structure cannot represent the ensemble-averaged electrostatic surface. The authors acknowledge that membrane-binding simulations are needed, but the claim about over-stabilization is presented as a plausible outcome without quantitative support. No calculation of binding free energies or even qualitative comparison with known membrane-binding data is provided.
+  - **Why it matters** The ESP-based claims are central to the proposed model of membrane interaction regulation. If the ESP varies significantly across the conformational ensemble, the conclusions drawn from one structure may be misleading. The link between ESP and functional outcomes (membrane binding, aggregation) is speculative and not supported by the presented data.
+  - **Resolution test** Compute ensemble-averaged ESP over the full trajectory (or multiple replicates), and either perform explicit membrane-binding simulations or temper the claims to reflect the speculative nature of the membrane interaction model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that simulations were run for at least 0.6 μs with GAMD, and the first 150 ns were discarded.
+  - **Evidence pointer** Section 2.3
+  - **Concern** The GAMD acceleration parameters (e.g., boost potential thresholds, σ0 values) are not reported. The CHARMM36m force field and Amber 16 are mentioned, but no details on the specific GAMD implementation (e.g., dual-boost vs. single-boost) are given. The equilibration protocol (Section 2.2) describes heating to 600 K and cooling, but the cooling rate and final equilibration time are not specified.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without full parameter details, other groups cannot replicate the simulations. The reverse annealing protocol is unusual and its effect on the sampled ensemble is not discussed.
+  - **Resolution test** Provide complete GAMD parameters, a detailed equilibration and cooling protocol, and justify the choice of the reverse annealing approach with appropriate citations or control simulations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors propose that N-C contacts in WT maintain elongation and that removal of either flanking domain increases compactness, which "can indicate increased toxicity."
+  - **Evidence pointer** Section 3.3, Figure 8
+  - **Concern** The link between compactness and toxicity is asserted without direct evidence. While compact conformations of the NAC region have been associated with aggregation propensity in some studies, the authors do not cite specific evidence for this claim in the context of their simulations. The Rg differences, while statistically described, are not tested for significance, and the biological relevance of the observed differences is not established.
+  - **Why it matters** The toxicity inference is used to frame the biological significance of the results. If the compactness-toxicity link is not supported, the relevance of the compactness findings is weakened.
+  - **Resolution test** Either provide citations and a reasoned argument for the compactness-toxicity link, or reframe the discussion to avoid making toxicity claims without supporting evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** "The resulting WT protein had 128,920 atoms (84 Na+ ions, 75 Cl− ions, and 42,220 water molecules)"
+  - **Issue** The ion counts do not appear to correspond to a charge-neutral system. The WT protein has a net charge (approximately -9 at pH 7 based on the sequence), and the reported ion counts (84 Na+ and 75 Cl−) give a net +9 charge, which would not neutralize the system.
+  - **Required correction** Verify the ion counts and ensure the systems are charge-neutral. If the counts are correct, explain the discrepancy; if not, correct the numbers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** "We did not use the reweighting procedure."
+  - **Issue** The authors justify this choice in the text, but the justification is brief. Given that GAMD without reweighting does not preserve relative well depths, a more detailed explanation of why this is acceptable for the qualitative comparisons would strengthen the methods.
+  - **Required correction** Expand the justification, possibly with a reference to a study that demonstrates the validity of unweighted GAMD for qualitative conformational comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.3, Figure 8
+  - **Evidence pointer** "The distributions of the NAC domain Rg values for both the ΔN and ΔC variants were similar"
+  - **Issue** The authors describe distributions as "similar" or "increased" without reporting statistical tests (e.g., Kolmogorov-Smirnov test, mean ± standard deviation). This makes it difficult to assess the significance of the observed differences.
+  - **Required correction** Report quantitative statistics (means, standard deviations, and appropriate significance tests) for the Rg and SASA comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Section 3.1
+  - **Evidence pointer** "This agrees with experimental results suggesting that the C-terminal domain can double back and form protective contacts with the NAC domain [20,37]."
+  - **Issue** The cited references are not provided in the manuscript text, so it is unclear whether they support the specific claim about protective contacts.
+  - **Required correction** Ensure all references are included and verify that they support the stated claims.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (single trajectory, no convergence analysis, no reweighting) and R1-M2 (single-structure ESP analysis) are the primary technical issues. R1-M3 (incomplete parameter reporting) also needs to be addressed for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of GAMD to domain-deletion variants is not entirely new, but the focus on flanking-domain cooperation and ESP is a fresh angle.
+  - **Scientific importance** Moderate. The findings could inform understanding of α-synuclein aggregation and membrane interactions, but the speculative nature of the conclusions limits immediate impact.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to computational biophysicists and α-synuclein researchers. The biological implications are discussed but not experimentally validated.
+  - **Technical soundness** Currently insufficient. The lack of replicate simulations, convergence analysis, and reweighting undermines the reliability of the quantitative claims.
+  - **Readability for nonspecialists** Good. The manuscript is clearly written, and the conceptual model is accessible. However, some methodological details (e.g., GAMD parameters) are not fully explained.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has merit and the conceptual model is interesting, but the technical limitations (single trajectories, no convergence analysis, no reweighting, single-structure ESP) prevent the conclusions from being supported. Major revisions are required before the case is established.
+
+## Risk / unsupported claims
+- The claim that WT ESP "may aid favorable interactions with the membrane" is unsupported because ESP is calculated from a single structure and no membrane-binding simulations are performed.
+- The claim that increased compactness "can indicate increased toxicity" is asserted without direct evidence or citation.
+- The claim that N-C contacts "maintain elongation" in WT is inferred from contact analysis but not directly tested (e.g., via mutation or perturbation).
+- The quantitative distributions of contacts, secondary structure, and Rg are not statistically validated due to the lack of replicate simulations and convergence analysis.
+- The biological relevance of the observed differences between variants is speculative and not experimentally validated.

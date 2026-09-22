@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.08.602551",
+  "title": "An avidity-driven mechanism of extracellular BMP regulation by Twisted gastrulation",
+  "authors": "Moore G; Revici R; Forbes Beadle L; Sutcliffe C; Birchenough H; Baldock C; Ashe HL",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-10",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过突变和体外实验阐明Tsg与Chordin/Sog的亲和力驱动结合机制，但对象非无序蛋白/相分离，且无AI或物理模拟方法，仅对PPI机制有间接启发。",
+  "abstract": "During dorsoventral patterning of bilaterian embryos, the conserved regulator Twisted gastrulation (Tsg) modulates BMP signalling by binding Chordin/Short gastrulation (Sog). Here we elucidate the mechanism by which Tsg interacts with Sog/Chordin to promote formation of the inhibitory Tsg-Sog/Chordin-BMP complex and regulate BMP signalling extracellularly. We identify and validate in vitro a hydrophobic interface in the Tsg C-terminal domain that binds Chordin. Mutation of this epitope in Drosophila Tsg (Tsg L100A ) results in an unexpectedly mild perturbation to embryonic BMP gradient formation. We show that a protosome-specific Tsg C-terminal extension also binds Sog, and the presence of this second binding site allows partial rescue of Sog interaction with Tsg L100A in the presence of BMP. Consistent with this, a truncated Tsg protein lacking both Sog binding regions is unable to support BMP gradient formation in vivo . As our data show that disruption of either Sog binding site in Tsg, but not both, can be overcome by Tsg-BMP and Sog-BMP interactions, we present a new avidity-driven mechanism of BMP gradient formation that will be relevant to a broad range of developmental contexts. <h4>Summary statement</h4> Identification and mutational analysis of the binding epitopes that mediate Twisted gastrulation interaction with Short gastrulation/Chordin reveals an avidity-based model of embryonic BMP gradient formation.",
+  "abstract_zh": "在两侧对称动物胚胎的背腹轴模式形成过程中，保守调控因子Twisted gastrulation (Tsg) 通过结合Chordin/Short gastrulation (Sog) 调节BMP信号传导。在此，我们阐明了Tsg与Sog/Chordin相互作用以促进抑制性Tsg-Sog/Chordin-BMP复合物形成并在细胞外调节BMP信号传导的机制。我们在体外鉴定并验证了Tsg C端结构域中一个结合Chordin的疏水界面。果蝇Tsg中该表位的突变（Tsg L100A）导致胚胎BMP梯度形成的扰动出乎意料地轻微。我们表明，一个原生动物特有的Tsg C端延伸也结合Sog，并且该第二个结合位点的存在使得在BMP存在下，Sog与Tsg L100A的相互作用得以部分恢复。与此一致，缺乏两个Sog结合区域的截短Tsg蛋白无法在体内支持BMP梯度的形成。由于我们的数据表明，破坏Tsg中任一Sog结合位点（但非两者同时破坏）可通过Tsg-BMP和Sog-BMP相互作用得以克服，我们提出了一种新的亲合力驱动的BMP梯度形成机制，该机制将适用于广泛的发育背景。<h4>摘要声明</h4> 对介导Twisted gastrulation与Short gastrulation/Chordin相互作用的结合表位的鉴定和突变分析揭示了一种基于亲合力的胚胎BMP梯度形成模型。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.08.602551",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.08.602551",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.08.602551/index.html"
+}

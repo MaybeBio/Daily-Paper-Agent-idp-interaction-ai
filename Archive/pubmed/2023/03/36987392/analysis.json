@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36987392",
+  "title": "The maximum solubility product marks the threshold for condensation of multivalent biomolecules.",
+  "authors": "Chattaraj, Aniruddha; Loew, Leslie M",
+  "journal": "Biophysical journal",
+  "published_date": "2023-03-30",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过空间Langevin动力学和规则随机模拟，系统研究多价无序生物分子凝聚体形成的溶解度积阈值，揭示连接区柔性与空间位阻对相分离临界点的调控，并发现归一化后的普适标度行为，直接聚焦IDR介导的PPI与相分离机制建模，方法为物理模拟，高度契合课题。",
+  "abstract": "Clustering of weakly interacting multivalent biomolecules underlies the formation of membraneless compartments known as condensates. As opposed to single-component (homotypic) systems, the concentration dependence of multicomponent (heterotypic) condensate formation is not well understood. We previously proposed the solubility product (SP), the product of monomer concentrations in the dilute phase, as a tool for understanding the concentration dependence of multicomponent systems. In this study, we further explore the limits of the SP concept using spatial Langevin dynamics and rule-based stochastic simulations. We show, for a variety of idealized molecular structures, how the maximum SP coincides with the onset of the phase transition, i.e., the formation of large clusters. We reveal the importance of intracluster binding in steering the free and cluster phase molecular distributions. We also show how structural features of biomolecules shape the SP profiles. The interplay of flexibility, length, and steric hindrance of linker regions controls the phase transition threshold. Remarkably, when SPs are normalized to nondimensional variables and plotted against the concentration scaled to the threshold for phase transition, the curves all coincide independent of the structural features of the binding partners. Similar coincidence is observed for the normalized clustering versus concentration plots. Overall, the principles derived from these systematic models will help guide and interpret in vitro and in vivo experiments on the biophysics of biomolecular condensates.",
+  "abstract_zh": "弱相互作用的多价生物分子的聚集是形成无膜区室（即凝聚体）的基础。与单组分（同型）系统相比，多组分（异型）凝聚体形成的浓度依赖性尚未得到充分理解。我们先前提出了溶度积 (solubility product, SP)，即稀相中单体浓度的乘积，作为理解多组分系统浓度依赖性的工具。在本研究中，我们利用空间朗之万动力学和基于规则的随机模拟，进一步探索了SP概念的局限性。我们展示了，对于多种理想化分子结构，最大SP如何与相变起始点（即大簇的形成）相吻合。我们揭示了簇内结合在引导自由相和簇相分子分布中的重要性。我们还展示了生物分子的结构特征如何塑造SP曲线。连接区域的柔性、长度和空间位阻的相互作用控制着相变阈值。值得注意的是，当SP被归一化为无量纲变量，并相对于相变阈值缩放的浓度作图时，所有曲线均重合，与结合伙伴的结构特征无关。归一化的聚集度与浓度图也观察到类似的重合现象。总体而言，从这些系统模型中推导出的原理将有助于指导和解释生物分子凝聚体生物物理学的体外和体内实验。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36987392/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36987392/",
+  "paper_page_path": "papers/pubmed/36987392/index.html"
+}

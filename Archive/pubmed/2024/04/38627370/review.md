@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific claims, methodological soundness, and evidentiary support as presented in the supplied material
+- **Shared manuscript claim summary** The authors use homology modeling and microsecond-long all-atom MD simulations to propose that monomeric DNAJB6b interconverts between three conformational states (closed, open, extended), that the autoinhibitory anchor between helix V of the G/F1 region and helices II/III of the J-domain is stable across all three states in wild-type protein, and that LGMDD1-associated mutations increase G/F1 dynamics and can destabilize this autoinhibition, correlating with aberrant Hsp70 interactions in cells.
+- **Visible evidence base** MD simulation trajectories (12 μs wild-type, 40 μs mutant, additional ΔS/T simulations), contact maps, radius of gyration analyses, RMSF calculations, secondary structure assignments, filter trap assay data, western blot data
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; simulation convergence metrics not shown; force field comparison details incomplete; raw experimental replicates for filter trap assay not shown; no error bars or statistical analysis for cellular data; no explicit description of how states were assigned beyond contact criteria
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question regarding the conformational behavior of the anti-amyloidogenic chaperone DNAJB6b. The combination of long-timescale all-atom MD with experimental validation is commendable and the identification of three interconverting states, with a stable autoinhibitory anchor, provides a plausible structural framework. However, several technical concerns regarding simulation convergence, state assignment methodology, and the strength of the experimental corroboration limit the current confidence in the central claims. The link between MD-observed dynamics and the cellular phenotype, while suggestive, is not fully established from the evidence provided.
+- **Who would be interested in the results, and why** Researchers studying molecular chaperones, particularly the Hsp40/DNAJ family and their regulation of Hsp70; investigators interested in protein conformational ensembles and intrinsically disordered proteins; those studying the molecular basis of limb-girdle muscular dystrophy type D1; computational biologists using MD to study chaperone dynamics.
+- **Major strengths** The study addresses a significant gap in understanding DNAJB6b structure-function relationships. The use of multiple long-timescale simulations with two force fields adds methodological rigor. The identification of a stable autoinhibitory state in full-length protein, not just truncated constructs, is an important advance. The combination of computational prediction with cellular validation for LGMDD1 mutants strengthens the translational relevance. The proposed model of substrate-triggered release of autoinhibition is mechanistically appealing and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that monomeric DNAJB6b converges to a dynamic ensemble of three interconverting states based on six independent simulations.
+  - **Evidence pointer** Results section "Conformational dynamics of the cycling of DNAJB6b between the closed, open, and extended state"; Methods "Molecular dynamics simulations"
+  - **Concern** The claim of convergence to a three-state ensemble is based on only six simulations (three per force field), with no demonstration of convergence of the conformational sampling. No block-averaging analysis, no assessment of sampling completeness, and no comparison of state populations between force fields are provided. The assignment of states relies on a single contact criterion (presence or absence of G/F1-CTD contacts, and a threshold of fewer than four G/F2-S/T contacts for the extended state), which may be overly simplistic and could misclassify intermediate conformations.
+  - **Why it matters** The central conclusion of the paper, that DNAJB6b exists in three discrete interconverting states, depends critically on the adequacy of the sampling and the robustness of the state definitions. If the simulations have not converged, or if the state assignments are sensitive to the arbitrary contact thresholds, the proposed model may not be reliable.
+  - **Resolution test** Provide convergence analysis (e.g., time evolution of state populations, block averaging of key observables), demonstrate that the three states are robust to variations in the contact criteria, and show that similar state populations are obtained from both force fields. If possible, additional independent simulations starting from different initial conformations would strengthen the convergence claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the autoinhibitory anchor between helix V and helices II/III remains present in all three states of wild-type DNAJB6b.
+  - **Evidence pointer** Results section "DNAJB6b: autoinhibition via anchor region 1"; Figure 4
+  - **Concern** The stability of the autoinhibitory anchor is inferred from contact maps, but no quantitative measure of the strength or persistence of these contacts is provided. The contact maps show percentage occupancy, but it is unclear what threshold defines a "stable" interaction. Moreover, the authors do not report the free energy of the interaction or perform any perturbation analysis (e.g., alchemical mutation or enhanced sampling) to test the robustness of the anchor. The claim that the anchor is "never lost" is strong and requires more rigorous support.
+  - **Why it matters** The proposed regulatory mechanism, in which substrate binding rather than spontaneous conformational change releases autoinhibition, depends on the anchor being genuinely stable. If the anchor is only marginally stable, the conclusions about the mechanism of Hsp70 access would be different.
+  - **Resolution test** Provide quantitative analysis of the anchor stability, such as the distribution of contact lifetimes, the potential of mean force along a relevant reaction coordinate, or a comparison of the anchor stability in wild-type versus mutant simulations. Demonstrate that the anchor is not merely persistent but thermodynamically stable.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that LGMDD1-associated mutations lead to increased dynamics in the G/F1 region and can destabilize the autoinhibitory anchor, based on simulations of five point mutants.
+  - **Evidence pointer** Results section "Spontaneous loss of autoinhibition in DNAJB6b is a feature of LGMDD1-associated mutations"; Figure 5
+  - **Concern** The evidence for increased dynamics in mutants is based on RMSF calculations, but the reference state for alignment is the average structure of the open state of wild-type DNAJB6b. This choice may bias the RMSF comparison, particularly if the mutants adopt different average conformations. Furthermore, only one complete destabilization event was observed (for P96R), and it is unclear whether this is statistically meaningful given the simulation length. The claim that mutations "can" destabilize autoinhibition is supported by only a single event.
+  - **Why it matters** The connection between MD-observed dynamics and the disease mechanism is a key translational aspect of the paper. If the evidence for destabilization is weak, the proposed disease mechanism is correspondingly less supported.
+  - **Resolution test** Align mutant trajectories to their own average structures for RMSF calculation, and report the results. Perform multiple independent simulations for each mutant to assess the reproducibility of the destabilization event. Consider enhanced sampling methods to more thoroughly explore the conformational space of the mutants.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the extended state, in which the S/T domain is maximally exposed, would be highly efficient for substrate binding and chaperone function.
+  - **Evidence pointer** Discussion section
+  - **Concern** This claim is speculative and not directly tested in the manuscript. While it is reasonable to hypothesize that increased exposure of substrate-binding residues would enhance chaperone activity, no experimental data are provided to support this. The functional significance of the extended state remains an untested hypothesis.
+  - **Why it matters** The paper would be strengthened by experimental validation of the functional relevance of the different states. Without such validation, the importance of the extended state is uncertain.
+  - **Resolution test** Design experiments to test the functional significance of the extended state, for example by cross-linking or FRET-based assays to probe conformational states in cells, or by mutating residues predicted to stabilize or destabilize specific states and measuring chaperone activity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses terms like "G/F1 region" and "anchor region 1" without defining them, which may be confusing for readers not deeply familiar with DNAJB6b domain architecture.
+  - **Required correction** Briefly define the G/F1 region and the anchor regions in the abstract, or rephrase to be more accessible.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Molecular dynamics simulations"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the simulation setup is incomplete. The authors state that two force fields were used but do not specify how the systems were built, the equilibration protocol in detail, or the temperature and pressure coupling schemes for each force field.
+  - **Required correction** Provide a more detailed description of the simulation setup, including system construction, equilibration, and production run parameters for each force field.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Inter– and intradomain molecular interactions within DNAJB6b"
+  - **Evidence pointer** Figure 2
+  - **Concern** The contact maps in Figure 2 are presented without a clear description of how the contact percentage is calculated or what threshold is used to define a contact. This makes it difficult to interpret the significance of the observed contacts.
+  - **Required correction** Clearly define the contact criteria in the methods and figure legends, including the distance cutoff and the normalization procedure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Spontaneous loss of autoinhibition in DNAJB6b is a feature of LGMDD1-associated mutations"
+  - **Evidence pointer** Figure 5b
+  - **Concern** The filter trap assay data in Figure 5b show a comparison between wild-type and F91L + 6 S/T>A, but the statistical test used is only described in the legend. The main text does not mention this analysis.
+  - **Required correction** Mention the statistical analysis in the main text and clarify which comparisons were tested.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion contains several speculative statements about the functional implications of the findings that are not clearly distinguished from the results. This may make it difficult for readers to separate established findings from hypotheses.
+  - **Required correction** Clearly label speculative statements as hypotheses and distinguish them from the direct findings of the study.
+
+## Risk / unsupported claims
+- The claim that the three-state ensemble is converged and representative of the true conformational landscape of DNAJB6b is not supported by the provided evidence, as no convergence analysis is shown.
+- The claim that the autoinhibitory anchor is "never lost" in wild-type DNAJB6b is too strong given the limited sampling and lack of quantitative stability analysis.
+- The claim that LGMDD1 mutations lead to spontaneous release of autoinhibition is supported by only a single destabilization event in one mutant (P96R) and is therefore not robustly established.
+- The functional significance of the extended state for chaperone activity is speculative and not directly tested.
+- The correlation between MD-predicted dynamics and cellular observations of aberrant Hsp70 interactions is suggestive but not mechanistically established; the cellular data do not directly test the autoinhibition model.
+- The statement that the three states were "also found among the multiple states predicted by homology modeling" is not clearly supported by the data presented, as the homology models were used for initial structure selection, not independent state prediction.

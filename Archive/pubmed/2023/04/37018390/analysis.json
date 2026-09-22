@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37018390",
+  "title": "A conserved oligomerization domain in the disordered linker of coronavirus nucleocapsid proteins.",
+  "authors": "Zhao, Huaying; Wu, Di; Hassan, Sergio A; Nguyen, Ai; Chen, Jiji; Piszczek, Grzegorz; Schuck, Peter",
+  "journal": "Science advances",
+  "published_date": "2023-04-06",
+  "window": {
+    "start": "2023-04-03",
+    "end": "2023-04-09"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合分子动力学模拟与突变分析，揭示SARS-CoV-2核衣壳蛋白无序连接区中保守的三聚卷曲螺旋寡聚化结构域，驱动液-液相分离并介导蛋白-核酸复合物组装，直接聚焦IDR介导的互作机制建模，与课题高度契合。",
+  "abstract": "The nucleocapsid (N-)protein of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has a key role in viral assembly and scaffolding of the viral RNA. It promotes liquid-liquid phase separation (LLPS), forming dense droplets that support the assembly of ribonucleoprotein particles with as-of-yet unknown macromolecular architecture. Combining biophysical experiments, molecular dynamics simulations, and analysis of the mutational landscape, we describe a heretofore unknown oligomerization site that contributes to LLPS, is required for the assembly of higher-order protein-nucleic acid complexes, and is coupled to large-scale conformational changes of N-protein upon nucleic acid binding. The self-association interface is located in a leucine-rich sequence of the intrinsically disordered linker between N-protein folded domains and formed by transient helices assembling into trimeric coiled-coils. Critical residues stabilizing hydrophobic and electrostatic interactions between adjacent helices are highly protected against mutations in viable SARS-CoV-2 genomes, and the oligomerization motif is conserved across related coronaviruses, thus presenting a target for antiviral therapeutics.",
+  "abstract_zh": "严重急性呼吸综合征冠状病毒2（SARS-CoV-2）的核衣壳（N-）蛋白在病毒组装和病毒RNA的支架形成中发挥关键作用。它促进液-液相分离（LLPS），形成致密液滴，支持核糖核蛋白颗粒的组装，但其大分子结构尚不明确。结合生物物理实验、分子动力学（molecular dynamics）模拟及突变景观分析，我们描述了一个迄今未知的寡聚化位点，该位点促进LLPS，是组装高阶蛋白质-核酸复合物所必需的，并与核酸结合时N-蛋白的大规模构象变化相耦合。该自结合界面位于N-蛋白折叠结构域之间内在无序连接子的富含亮氨酸序列中，由瞬时螺旋组装成三聚卷曲螺旋形成。稳定相邻螺旋间疏水和静电相互作用的临界残基在可行SARS-CoV-2基因组中受到高度保护，且该寡聚化基序在相关冠状病毒中保守，因此为抗病毒治疗提供了一个靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37018390/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37018390/",
+  "paper_page_path": "papers/pubmed/37018390/index.html"
+}

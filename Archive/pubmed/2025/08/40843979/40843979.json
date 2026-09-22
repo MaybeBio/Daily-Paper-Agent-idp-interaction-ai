@@ -1,0 +1,407 @@
+{
+  "identity": {
+    "pmid": "40843979",
+    "doi": "10.1111/febs.70219",
+    "title": "Residual flexibility in the topologically constrained multivalent complex between the GKAP scaffold and LC8 hub proteins."
+  },
+  "content": {
+    "abstract": "Guanylate kinase-associated protein (GKAP) is a large postsynaptic scaffold protein bearing two closely spaced noncanonical binding sites for the bivalent dynein light chain LC8 hub protein. This might allow the formation of heterogeneous complexes with different sizes and topologies. Here, we show that a well-defined hexameric complex is formed, composed of two GKAP molecules and two LC8 dimers. Using nuclear magnetic resonance (NMR) spectroscopy, we demonstrate that the LC8-binding segment of GKAP is intrinsically disordered and the flexibility of the linker region is largely retained even in the complex form. Molecular dynamics calculations suggest that, besides the tightly bound residues, the hexamer also exhibits several dynamically interchanging interactions, and that the two LC8 dimers might interact with each other. The flanking regions of the two binding sites on GKAP exhibit different interaction patterns, hinting at additional contacts that might explain the fixed stoichiometry of the assembly. Our results demonstrate that constrained stoichiometry can coexist with substantial flexibility in a multivalent system.",
+    "keywords": [
+      "intrinsically disordered protein",
+      "molecular dynamics",
+      "postsynaptic density",
+      "protein NMR",
+      "protein-protein interaction"
+    ],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Humans",
+      "Binding Sites",
+      "Protein Multimerization",
+      "*Cytoplasmic Dyneins/chemistry/metabolism/genetics",
+      "Dyneins/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nagy-Kanta, Eszter",
+        "Kalman, Zsofia E",
+        "Tossavainen, Helena",
+        "Juhasz, Tunde",
+        "Farkas, Fanni",
+        "Hegedus, Jozsef",
+        "Keresztes, Melinda",
+        "Beke-Somfai, Tamas",
+        "Gaspari, Zoltan",
+        "Permi, Perttu",
+        "Peterfia, Balint"
+      ],
+      "short_names": [
+        "Nagy-Kanta E",
+        "Kalman ZE",
+        "Tossavainen H",
+        "Juhasz T",
+        "Farkas F",
+        "Hegedus J",
+        "Keresztes M",
+        "Beke-Somfai T",
+        "Gaspari Z",
+        "Permi P",
+        "Peterfia B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8692-740X",
+        "ORCID: 0000-0001-9090-9979"
+      ],
+      "affiliations": [
+        "Faculty of Information Technology and Bionics, Pazmany Peter Catholic University, Budapest, Hungary.",
+        "Faculty of Information Technology and Bionics, Pazmany Peter Catholic University, Budapest, Hungary.",
+        "Department of Biological and Environmental Science, University of Jyvaskyla, Finland.",
+        "HUN-REN Research Centre for Natural Sciences, Budapest, Hungary.",
+        "Faculty of Information Technology and Bionics, Pazmany Peter Catholic University, Budapest, Hungary.",
+        "Faculty of Information Technology and Bionics, Pazmany Peter Catholic University, Budapest, Hungary.",
+        "Faculty of Information Technology and Bionics, Pazmany Peter Catholic University, Budapest, Hungary.",
+        "HUN-REN Research Centre for Natural Sciences, Budapest, Hungary.",
+        "Faculty of Information Technology and Bionics, Pazmany Peter Catholic University, Budapest, Hungary.",
+        "Department of Biological and Environmental Science, University of Jyvaskyla, Finland.",
+        "Department of Chemistry, University of Jyvaskyla, Finland.",
+        "Institute of Biotechnology, Helsinki Institute of Life Science, University of Helsinki, Finland.",
+        "Faculty of Information Technology and Bionics, Pazmany Peter Catholic University, Budapest, Hungary."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nagy-Kanta, Eszter",
+        "short_name": "Nagy-Kanta E",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Technology and Bionics, Pázmány Péter Catholic University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Kálmán, Zsófia E",
+        "short_name": "Kálmán ZE",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Technology and Bionics, Pázmány Péter Catholic University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Tossavainen, Helena",
+        "short_name": "Tossavainen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological and Environmental Science, University of Jyvaskyla, Finland."
+        ]
+      },
+      {
+        "full_name": "Juhász, Tünde",
+        "short_name": "Juhász T",
+        "identifiers": [],
+        "affiliations": [
+          "HUN-REN Research Centre for Natural Sciences, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Farkas, Fanni",
+        "short_name": "Farkas F",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Technology and Bionics, Pázmány Péter Catholic University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Hegedüs, József",
+        "short_name": "Hegedüs J",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Technology and Bionics, Pázmány Péter Catholic University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Keresztes, Melinda",
+        "short_name": "Keresztes M",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Technology and Bionics, Pázmány Péter Catholic University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Beke-Somfai, Tamás",
+        "short_name": "Beke-Somfai T",
+        "identifiers": [],
+        "affiliations": [
+          "HUN-REN Research Centre for Natural Sciences, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Gáspári, Zoltán",
+        "short_name": "Gáspári Z",
+        "identifiers": [
+          "0000-0002-8692-740X"
+        ],
+        "affiliations": [
+          "Faculty of Information Technology and Bionics, Pázmány Péter Catholic University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Permi, Perttu",
+        "short_name": "Permi P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological and Environmental Science, University of Jyvaskyla, Finland.",
+          "Department of Chemistry, University of Jyväskylä, Finland.",
+          "Institute of Biotechnology, Helsinki Institute of Life Science, University of Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Péterfia, Bálint",
+        "short_name": "Péterfia B",
+        "identifiers": [
+          "0000-0001-9090-9979"
+        ],
+        "affiliations": [
+          "Faculty of Information Technology and Bionics, Pázmány Péter Catholic University, Budapest, Hungary."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The FEBS journal"
+    ],
+    "journal_abbrev": [
+      "FEBS J"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/22 12:45",
+    "fetched_at": "2026-09-21 22:45:27"
+  },
+  "links": {
+    "cites": [
+      "41194529",
+      "41191219",
+      "40890943"
+    ],
+    "refs": [
+      "38938416",
+      "38096754",
+      "37083599",
+      "36979339",
+      "36720293",
+      "36323675",
+      "35637307",
+      "34680137",
+      "34146207",
+      "34101805",
+      "33732907",
+      "33574069",
+      "32881101",
+      "32139510",
+      "31932991",
+      "31266884",
+      "29399725",
+      "29281827",
+      "29240760",
+      "26652654",
+      "26253171",
+      "26226419",
+      "25874902",
+      "25352545",
+      "25312846",
+      "25152391",
+      "24938595",
+      "24920673",
+      "24523197",
+      "23482567",
+      "23223634",
+      "22351050",
+      "22328512",
+      "21963794",
+      "21777386",
+      "21621319",
+      "21593132",
+      "21533121",
+      "21041448",
+      "20889982",
+      "19863079",
+      "19768387",
+      "19759397",
+      "19380881",
+      "18948118",
+      "18942858",
+      "18650427",
+      "18092820",
+      "17570393",
+      "17551010",
+      "17474147",
+      "16828554",
+      "16684779",
+      "16440056",
+      "16211538",
+      "15384421",
+      "15173120",
+      "15078108",
+      "14760703",
+      "11784292",
+      "11682049",
+      "11513870",
+      "11178896",
+      "11122378",
+      "10844022",
+      "8744573",
+      "6667333",
+      "2031185"
+    ],
+    "similar": [
+      "40843979",
+      "32139510",
+      "26226419",
+      "26253171",
+      "26652654",
+      "17570393",
+      "25263009",
+      "29714690",
+      "21777386",
+      "21621319",
+      "10844022",
+      "23223634",
+      "24920673",
+      "20974845",
+      "25312846",
+      "33630249",
+      "28792212",
+      "19289209",
+      "23482567",
+      "34273400",
+      "15611139",
+      "31266884",
+      "29240760",
+      "11513870",
+      "41191219",
+      "40107617",
+      "21533121",
+      "41194529",
+      "12920307",
+      "16949604",
+      "36416224",
+      "30615611",
+      "31505170",
+      "11914076",
+      "15581372",
+      "18092820",
+      "31634467",
+      "19863079",
+      "21454704",
+      "19759397",
+      "11746667",
+      "21971545",
+      "15496675",
+      "17274669",
+      "23914803",
+      "24938595",
+      "20133681",
+      "22411995",
+      "20889982",
+      "18948118",
+      "40782957",
+      "21931160",
+      "37083599",
+      "36979339",
+      "34656330",
+      "18942858",
+      "12077152",
+      "16452477",
+      "26227614",
+      "19557173",
+      "21911489",
+      "17551010",
+      "36114230",
+      "20412299",
+      "24757501",
+      "24098557",
+      "17428790",
+      "23577064",
+      "35245498",
+      "15078108",
+      "16183843",
+      "22753897",
+      "15701632",
+      "19641106",
+      "22669947",
+      "40074079",
+      "40713938",
+      "22286006",
+      "11278908",
+      "14760703",
+      "26459761",
+      "22988856",
+      "12153036",
+      "11327818",
+      "16083906",
+      "32014992",
+      "28493424",
+      "23912807",
+      "40298087",
+      "22328512",
+      "18650427",
+      "33058876",
+      "28162951",
+      "11602781",
+      "21094642",
+      "30832428",
+      "18579519",
+      "21062069",
+      "23038268",
+      "11148215"
+    ],
+    "review": [
+      "40843979",
+      "26226419",
+      "25263009",
+      "21777386",
+      "40107617",
+      "41194529",
+      "24757501"
+    ],
+    "pmc": [
+      "12797016"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40843979.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40843979/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/febs.70219",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

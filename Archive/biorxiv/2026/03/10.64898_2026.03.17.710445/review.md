@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract
+- **Shared manuscript claim summary** The authors propose that allostery in DNA, a quasi-one-dimensional system, is controlled by the intrinsically disordered region (IDR) of the transcription factor ComK. They report that ComK binding amplifies intrinsic microsecond structural fluctuations in DNA at sites many nanometers from the binding site, that this amplification is attributable to the IDR rather than to protein binding per se, and that IDR removal rigidifies DNA, abolishes allostery, and yields a structurally distorted, nonfunctional protein-DNA complex.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, quantitative data, statistical analyses, structural models, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that IDRs in transcription factors may control allostery through modulation of DNA dynamics. However, the claims are stated with strong causal language that is not supported by the evidence visible in the abstract. The mechanistic distinction between protein binding and IDR-mediated effects, the quantitative nature of the observed fluctuations, and the functional consequences of IDR removal are all asserted without presentation of data. The work has potential significance for transcription regulation and IDR biology, but the current evidence base is insufficient to establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers in allostery, transcription regulation, intrinsically disordered proteins, and DNA biophysics would find these results relevant. The proposed role of IDRs in transmitting allosteric signals through DNA dynamics could inform studies of transcription factor cooperativity and gene regulation, and may interest structural biologists and biophysicists studying protein-DNA interactions.
+- **Major strengths** The conceptual framing of DNA as a quasi-one-dimensional system for studying allostery is elegant and potentially simplifying. The hypothesis that IDRs, rather than structured binding domains, mediate long-range allosteric effects is novel and could have broad implications. The abstract clearly articulates a testable mechanistic model.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Binding of the transcription factor ComK amplifies intrinsic microsecond structural fluctuations in DNA many nanometers distant from the binding site."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts that ComK binding amplifies microsecond structural fluctuations at distant DNA sites, but no quantitative data, experimental technique, or statistical comparison is presented. It is unclear how these fluctuations were measured, what the magnitude of amplification was, or how "many nanometers" was defined.
+  - **Why it matters** This is the foundational observation on which all subsequent claims rest. Without evidence for the fluctuation measurement and its reproducibility, the entire mechanistic narrative is unsupported.
+  - **Resolution test** Provide experimental data showing fluctuation amplitudes with and without ComK binding, including error bars, sample sizes, and appropriate statistical tests, along with a clear description of the measurement method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal attribution
+  - **Claim pointer** "It is not protein binding per se, but the intrinsically disordered region (IDR) of the protein that amplifies these fluctuations."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims a causal distinction between protein binding and IDR-mediated effects, but no experimental design is described that would isolate these variables. It is unclear whether the authors compared full-length ComK with an IDR-deleted variant, whether binding affinity was controlled for, or whether the IDR deletion affected protein folding or DNA binding.
+  - **Why it matters** The central novelty of the work depends on this attribution. If IDR deletion also reduces binding affinity or alters the structured domain, the observed effects could be indirect.
+  - **Resolution test** Show comparative data for full-length ComK, IDR-deleted ComK, and a control protein or DNA-binding domain, with matched binding occupancy, to demonstrate that the IDR is specifically responsible for the fluctuation amplification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional consequence
+  - **Claim pointer** "IDR removal does not only rigidify DNA, but it also abolishes allostery. The result is a structurally distorted protein-DNA complex that lost its function."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that IDR removal abolishes allostery and function, but no functional assay, structural data, or definition of "allostery" in this context is provided. It is unclear what functional readout was used, how allostery was quantified, or what "structurally distorted" means at the molecular level.
+  - **Why it matters** The claim that IDRs are functionally essential for allostery and transcription activation is the broader implication of the work. Without functional and structural evidence, this conclusion is premature.
+  - **Resolution test** Present functional assays (e.g., transcription activation or cooperative binding) comparing wild-type and IDR-deleted ComK, along with structural characterization (e.g., cryo-EM, SAXS, or crosslinking) showing the proposed distortion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "allostery" is used in the context of DNA, but the abstract does not define whether this refers to cooperative binding of transcription factors, conformational changes in DNA, or both.
+  - **Required correction** Define allostery operationally in the context of the study, specifying the readout used to assess it.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Temporal framing
+  - **Affected element** Mechanistic claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "the order of events that follow ligand-binding" but does not describe any time-resolved measurements that would establish a sequence of events.
+  - **Required correction** Clarify whether time-resolved data were obtained, or revise the framing to avoid implying temporal resolution that is not demonstrated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of conclusions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract suggests implications for transcription factors broadly, but only ComK is studied. The generalizability of the IDR-mediated allostery mechanism is asserted without comparative data.
+  - **Required correction** Soften the generalizing language or provide evidence from additional transcription factors to support the broader claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality is high, as the proposed role of IDRs in DNA-mediated allostery is a novel angle. Scientific importance is potentially substantial for transcription regulation and IDR biology, but the abstract does not provide enough evidence to assess the robustness of the findings. Interdisciplinary readership is plausible, given the intersection of biophysics, structural biology, and gene regulation. Technical soundness cannot be evaluated from the abstract alone, as no methods or data are shown. Readability for nonspecialists is good, with clear conceptual framing, though some terms such as "microsecond structural fluctuations" and "quasi-one-dimensional" may require elaboration in the full text.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is intriguing and worthy of consideration, but the abstract alone does not provide sufficient data to support the causal claims. A full manuscript with quantitative measurements, appropriate controls, and functional assays would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that ComK binding amplifies microsecond structural fluctuations at distant DNA sites is unsupported without quantitative data.
+- The causal attribution of fluctuation amplification to the IDR rather than protein binding is unsupported without controlled comparative experiments.
+- The claim that IDR removal abolishes allostery and function is unsupported without functional and structural data.
+- The implication that this mechanism generalizes to other transcription factors is unsupported.
+- The temporal ordering of events following ligand binding is implied but not demonstrated.

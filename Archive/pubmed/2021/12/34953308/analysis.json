@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34953308",
+  "title": "Multiscale simulations of protein and membrane systems.",
+  "authors": "Sawade, Kevin; Peter, Christine",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2021-12-26",
+  "window": {
+    "start": "2021-12-20",
+    "end": "2021-12-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该综述介绍多尺度模拟在蛋白质和膜系统中的应用，涵盖相分离和多蛋白复合物，但未聚焦无序蛋白PPI机制，方法上提及机器学习但非核心。",
+  "abstract": "Classical multiscale simulations are perfectly suited to investigate biological soft matter systems. Owing to the bridging between microscopically realistic and lower-resolution models or the integration of a hierarchy of subsystems, one gets access to biologically relevant system sizes and timescales. In recent years, increasingly complex systems and processes have come into focus such as multidomain proteins, phase separation processes in biopolymer solutions, multicomponent biomembranes, or multiprotein complexes up to entire viruses. The review shows factors that have contributed to this progress - from improved models to machine-learning-based analysis and scale-bridging methods.",
+  "abstract_zh": "经典多尺度模拟非常适合研究生物软物质系统。通过连接微观真实模型与低分辨率模型，或整合子系统层级，人们得以触及生物学相关的系统尺寸与时间尺度。近年来，日益复杂的系统与过程成为焦点，如多结构域蛋白质、生物聚合物溶液中的相分离过程、多组分生物膜，乃至包含完整病毒的多蛋白复合物。本综述展示了促成这一进展的因素——从改进的模型到基于机器学习的分析及尺度桥接方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34953308/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34953308/",
+  "paper_page_path": "papers/pubmed/34953308/index.html"
+}

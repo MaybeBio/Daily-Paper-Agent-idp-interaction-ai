@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that a fine-tuned ESM2-650M protein language model and the structure-based tool P2Rank achieve comparable performance on orthosteric ATP-competitive binding site prediction in human kinases (AUPR 0.64-0.76), but that PLM performance collapses on allosteric sites (AUPR 0.06, AUROC 0.70). They attribute this discrepancy to differences in local frustration patterns, with orthosteric pockets enriched in minimally frustrated residues and allosteric sites characterized by neutral mutational frustration, and propose this as an explainable AI framework grounded in energy landscape theory.
+- **Visible evidence base** Abstract text only. No dataset description, model architecture details, training procedures, benchmark definitions, statistical analyses, or visualizations were available for inspection.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset curation criteria, model fine-tuning hyperparameters, P2Rank configuration, frustration analysis methodology, statistical significance tests, and any validation or ablation studies. The absence of these materials substantially limits the ability to verify the central claims.
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially important observation regarding the differential performance of sequence-based PLMs on orthosteric versus allosteric binding site prediction, and proposes a mechanistically motivated explanation grounded in protein frustration theory. However, the evidence base available for review is limited to the abstract, which precludes verification of the dataset, methods, and statistical claims. The central finding, that PLM performance collapses on allosteric sites despite moderate ranking ability, is striking and would be of interest to the computational drug discovery community if robustly demonstrated. The proposed connection between local frustration patterns and AI prediction performance is conceptually appealing but requires substantially more evidence than can be assessed from the abstract alone. The framing of frustration analysis as an "explainable AI framework" is somewhat loose and would benefit from clearer articulation of how the physics-based features mechanistically explain the observed performance gap.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on binding site prediction, protein language model applications, and allosteric drug discovery would find these results relevant. The kinase community, particularly those involved in structure-based drug design targeting allosteric sites, would also be interested given the therapeutic importance of kinase inhibitors. Researchers studying protein frustration and energy landscape theory may find the proposed connection to AI interpretability novel. The work could inform future development of allosteric site prediction methods and contribute to understanding the limitations of sequence-based approaches for cryptic binding sites.
+- **Major strengths** The study addresses a practically important problem, namely the reliable identification of allosteric binding sites in kinases, which remains a bottleneck in drug discovery. The use of a large curated dataset spanning 453 kinases and five inhibitor classes provides a solid foundation for the analysis. The observation of a stark performance divergence between orthosteric and allosteric site prediction is a clear and potentially impactful finding. The integration of physics-based frustration analysis to interpret AI performance is a creative and mechanistically grounded approach that goes beyond purely empirical benchmarking. The explicit control for sequence similarity, structural redundancy, and class imbalance strengthens the claim that the performance gap is not an artifact of trivial confounding factors.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence sufficiency  
+    - **Claim pointer** The claim that PLM performance collapses on allosteric sites (AUPR 0.06) while retaining moderate ranking ability (AUROC 0.70) is presented as a central finding.  
+    - **Evidence pointer** Abstract only; no figures or tables provided  
+    - **Concern** The abstract reports AUPR and AUROC values but provides no information on the distribution of these metrics across individual kinases, the variance, or the statistical significance of the difference between orthosteric and allosteric performance. Without confidence intervals, error bars, or statistical tests, it is impossible to assess whether the reported AUPR of 0.06 is robust or potentially driven by a subset of outliers. Additionally, the class imbalance correction is mentioned but not described in sufficient detail to evaluate whether the reported metrics are appropriately adjusted.  
+    - **Why it matters** The central claim of the paper rests on the reliability of this performance comparison. If the AUPR values are not statistically robust or if the class imbalance handling introduces bias, the entire narrative of a "stark performance divergence" would be undermined.  
+    - **Resolution test** Provide per-kinase performance distributions, confidence intervals, and appropriate statistical tests (e.g., paired comparisons) demonstrating that the difference between orthosteric and allosteric AUPR is significant and consistent across the dataset.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Methodological transparency  
+    - **Claim pointer** The abstract claims that the ESM2-650M model was fine-tuned for binding site prediction by replacing the masked language modeling head with a token-level classification head.  
+    - **Evidence pointer** Abstract only; no methods section provided  
+    - **Concern** The fine-tuning procedure is described in a single sentence, with no details on the training dataset, the number of training examples, the train-validation-test split, the fine-tuning hyperparameters, or the evaluation protocol. It is unclear whether the model was fine-tuned on kinase-specific data or on a general protein-ligand binding site dataset, which would substantially affect its expected performance on kinase allosteric sites. The choice of P2Rank as the structure-based comparator is also not justified, and its configuration is not described.  
+    - **Why it matters** Reproducibility is a core requirement for computational studies. Without detailed methodological descriptions, the results cannot be independently verified or compared to existing benchmarks. The interpretation of the performance gap as a fundamental limitation of PLMs rather than a consequence of specific training choices depends critically on these details.  
+    - **Resolution test** Provide a complete methods section describing the fine-tuning dataset, hyperparameters, evaluation protocol, and P2Rank configuration. Ideally, include ablation studies showing that the performance gap persists across different fine-tuning strategies and model architectures.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Interpretive validity  
+    - **Claim pointer** The abstract claims that local frustration patterns explain the performance divergence, with orthosteric pockets enriched in minimally frustrated residues and allosteric sites characterized by neutral mutational frustration, and frames this as an "explainable AI framework."  
+    - **Evidence pointer** Abstract only; no frustration analysis results provided  
+    - **Concern** The connection between frustration patterns and AI prediction performance is asserted but not demonstrated. The abstract reports that global frustration is conserved across kinase states and that local binding sites differ, but does not show a quantitative link between frustration features and model predictions. The term "explainable AI framework" is used loosely; no evidence is presented that frustration features are actually used to explain individual predictions or that they provide post-hoc interpretability in a formal sense. The direction of causality is also unclear: frustration patterns may correlate with evolutionary conservation or structural features that independently affect predictability.  
+    - **Why it matters** The proposed explanatory framework is a key contribution of the work. If the link between frustration and prediction performance is merely correlational or confounded, the interpretability claim would be overstated. The framing as an "explainable AI framework" sets expectations that the physics-based features provide mechanistic insight into model behavior, which requires direct evidence.  
+    - **Resolution test** Provide quantitative analyses linking frustration features to model predictions, such as feature importance scores, correlation analyses, or case studies showing that frustration patterns distinguish correctly predicted from incorrectly predicted allosteric sites. Clarify how the frustration framework constitutes explainability in a formal sense.  
+  - **R1-M4**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Dataset representativeness  
+    - **Claim pointer** The abstract claims the dataset encompasses 453 kinases and five inhibitor classes, and that allosteric residues constitute less than 3% of the kinase domain.  
+    - **Evidence pointer** Abstract only; no dataset description provided  
+    - **Concern** The curation criteria for the dataset are not described. It is unclear how the 453 kinases were selected, whether they represent the full diversity of the human kinome, how ligand-bound structures were chosen, and how binding sites were defined and annotated. The distribution of the five inhibitor classes across the dataset is not reported, and it is unclear whether the class imbalance is consistent across kinase families. The definition of allosteric residues as less than 3% of the kinase domain is presented without context on how this compares to other benchmark datasets.  
+    - **Why it matters** The generalizability of the findings depends on the representativeness of the dataset. If the dataset is biased toward particular kinase families or inhibitor classes, the conclusions may not extend to the broader kinome. The class imbalance claim is central to the performance analysis and requires careful documentation.  
+    - **Resolution test** Provide a detailed description of the dataset curation process, including inclusion and exclusion criteria, the distribution of inhibitor classes, and a comparison of the dataset composition to the known human kinome. Report the number of binding sites per class and per kinase family.  
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract wording  
+    - **Evidence pointer** Abstract, first sentence  
+    - **Issue** The phrase "structurally cryptic, evolutionarily non-conserved, and sparsely populated" is used to describe allosteric sites, but these terms are not defined or operationalized.  
+    - **Required correction** Define these terms in the context of the study, or rephrase to avoid ambiguity.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Terminology  
+    - **Affected element** "Explainable AI framework"  
+    - **Evidence pointer** Abstract, final sentence  
+    - **Issue** The term "explainable AI framework" is used to describe the frustration-based interpretation, but the abstract does not describe any formal explainability methodology (e.g., SHAP, LIME, attention analysis).  
+    - **Required correction** Clarify whether frustration analysis is used as a post-hoc interpretation tool or as an integrated component of the model, and define the scope of "explainability" in this context.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Performance metrics  
+    - **Evidence pointer** Abstract, performance results  
+    - **Issue** The abstract reports AUPR and AUROC for the PLM but does not report the corresponding metrics for P2Rank on allosteric sites, making it difficult to assess whether the performance gap is specific to the PLM or shared by structure-based methods.  
+    - **Required correction** Report P2Rank performance on both orthosteric and allosteric sites for direct comparison.  
+  - **R1-m4**  
+    - **Severity** Minor  
+    - **Axis** Statistical rigor  
+    - **Affected element** Frustration analysis  
+    - **Evidence pointer** Abstract, frustration results  
+    - **Issue** The claim that orthosteric pockets are "enriched" in minimally frustrated residues and allosteric sites are characterized by "neutral mutational frustration" is presented without statistical support.  
+    - **Required correction** Provide statistical tests (e.g., permutation tests or effect sizes) supporting these enrichment claims.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical robustness of performance metrics), R1-M2 (methodological transparency for model fine-tuning and benchmarking), R1-M3 (quantitative link between frustration and model performance). These are the primary technical issues that must be resolved to establish the central claims of the paper.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of protein language model benchmarking with frustration-based interpretation for allosteric site prediction is conceptually novel. The idea of using energy landscape theory to explain AI performance is creative and not commonly explored in the literature. However, the originality cannot be fully assessed without a thorough literature review and comparison to existing explainability approaches in the binding site prediction field.  
+  - **Scientific importance** The problem of allosteric binding site prediction is of high importance for drug discovery, and the observation that sequence-based PLMs fail on allosteric sites while performing well on orthosteric sites has practical implications for method selection. The proposed frustration-based explanation, if validated, could inform the design of better prediction methods. The importance is moderate to high, depending on the robustness of the findings.  
+  - **Interdisciplinary readership** The work bridges computational biology, machine learning, and biophysics, and would appeal to researchers in all three communities. The use of protein language models and frustration analysis makes the work accessible to a broad audience, though the abstract assumes familiarity with both AI and biophysical concepts.  
+  - **Technical soundness** The technical soundness cannot be adequately assessed from the abstract alone. The reported metrics and the frustration analysis are plausible, but the lack of methodological detail and statistical validation prevents a definitive judgment. The conceptual framework is reasonable, but the execution requires scrutiny.  
+  - **Readability for nonspecialists** The abstract is written in a technical style that assumes familiarity with protein language models, binding site prediction, and frustration theory. The key findings are stated clearly, but the mechanistic interpretation would be difficult for nonspecialists to follow without additional context. The abstract could benefit from a more accessible explanation of frustration and its relevance to AI performance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary results, but the evidence base is insufficient to support the central claims. The statistical robustness of the performance metrics, the methodological transparency, and the quantitative link between frustration and model performance all require substantial additional evidence. The work has potential, but the case is not yet made. A revised manuscript with full methods, detailed results, and rigorous statistical analysis would be needed to evaluate the claims properly.
+
+## Risk / unsupported claims
+- The claim that PLM performance "collapses" on allosteric sites (AUPR 0.06) is unsupported without confidence intervals or statistical tests.
+- The claim that the performance gap persists "even after strict control for sequence similarity, structural redundancy, and extreme class imbalance" is unverifiable without details on the control procedures.
+- The claim that orthosteric pockets are "enriched" in minimally frustrated residues and allosteric sites are characterized by "neutral mutational frustration" is unsupported without quantitative data and statistical analysis.
+- The framing of the work as an "explainable AI framework" is not substantiated by any described explainability methodology.
+- The generalizability of the findings to the broader kinome is unverifiable without a detailed description of the dataset composition and selection criteria.

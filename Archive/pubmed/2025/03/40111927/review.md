@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report 100 microseconds of molecular dynamics simulations of free Cre recombinase, starting from five structures at different stages of intasome assembly. They propose that the linker between the CBD and CAT domains is an intrinsically disordered region (IDR), that the C-terminal Helix N is also an IDR transiently forming an autoinhibited complex, that the active site can assemble without DNA, that the CAT domain exhibits a clam-like motion, and that Helix A in the CBD domain slides like a windshield wiper. They conclude that free Cre uses conformational selection with primed DNA-binding surfaces during intasome assembly.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were provided
+- **Missing materials affecting confidence** Full manuscript, simulation methods and parameters, force field details, convergence analysis, structural validation, free energy calculations, and any quantitative metrics supporting the described motions and interactions
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially valuable computational study of free Cre recombinase dynamics, addressing a genuine gap in structural knowledge. The proposed IDR behavior of the linker and Helix N, and the conformational selection mechanism, are plausible and testable hypotheses. However, the abstract alone provides insufficient evidence to evaluate the technical rigor of the simulations, the statistical significance of the observed motions, or the robustness of the conclusions. The claims are qualitatively described without quantitative support, and several assertions appear to extend beyond what can be established from the described simulation setup.
+- **Who would be interested in the results, and why** Researchers in genome engineering and site-specific recombination, particularly those studying Cre-loxP mechanisms, would be interested in the dynamic picture of free Cre. Computational biophysicists studying intrinsically disordered regions and conformational selection in multidomain proteins would also find relevance. The work could inform experimental design for mutagenesis or structural studies of free Cre.
+- **Major strengths** The study addresses a clear knowledge gap, as free Cre structures are missing. The use of long timescale simulations (100 microseconds) is ambitious and appropriate for sampling domain motions. The identification of IDRs in the linker and Helix N is a novel and mechanistically interesting proposal. The connection to intasome assembly via conformational selection provides a coherent framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the linker and Helix N are intrinsically disordered regions based on the simulated ensemble.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative criteria for classifying the linker and Helix N as IDRs. No order parameters, secondary structure propensity calculations, or comparison to known IDR predictors are described. The claim that these regions are IDRs requires validation against established metrics such as radius of gyration, secondary structure content over time, or chemical shift predictions.
+  - **Why it matters** The IDR designation is central to the proposed mechanism of autoinhibition and conformational selection. If the regions are merely flexible but structured, the mechanistic interpretation changes substantially.
+  - **Resolution test** Provide quantitative measures of disorder, such as time-averaged secondary structure propensities, Ramachandran plot distributions, or comparison with disorder prediction algorithms, and show that these regions meet established IDR criteria.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the active site can be assembled in the absence of DNA, albeit inefficiently.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No definition of active site assembly is provided. It is unclear what geometric or energetic criteria were used to determine assembly. The term inefficiently is qualitative and not supported by any quantitative measure such as occupancy, free energy, or transition rates.
+  - **Why it matters** This claim has implications for the mechanism of Cre activation and could be misinterpreted as evidence for spontaneous catalytic competence without DNA, which would be a strong claim requiring careful validation.
+  - **Resolution test** Define the structural criteria for active site assembly, report the fraction of simulation time in which these criteria are met, and provide free energy estimates or kinetic data supporting the inefficiency claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the CAT domain has a clam-like motion and that Helix A slides like a windshield wiper, sampling intasome-like conformations.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how these motions were quantified or how intasome-like conformations were identified. No comparison to known intasome structures is described, and no metrics such as principal component analysis, domain angle distributions, or RMSD to intasome states are mentioned.
+  - **Why it matters** The claim that free Cre samples intasome-like conformations is the basis for the conformational selection hypothesis. Without quantitative comparison to intasome structures, this claim is unsupported.
+  - **Resolution test** Provide quantitative analysis of domain motions, such as principal component analysis or angle distributions, and show that sampled conformations overlap with intasome-bound states using RMSD or similar metrics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the domains retain approximately 70% of their surface available for interaction with loxP.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The 70% figure is presented without any description of how solvent accessible surface area was calculated, how the loxP interaction surface was defined, or how the percentage was averaged over the ensemble. The precision of this number is unclear.
+  - **Why it matters** This quantitative claim is used to support the priming hypothesis, but without methodological detail it cannot be evaluated or reproduced.
+  - **Resolution test** Describe the calculation of solvent accessible surface area, define the loxP interaction surface based on known Cre-DNA structures, and report the distribution and standard deviation of the percentage across the ensemble.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term intasome is used without definition, and the distinction between active and inactive monomers in the tetramer is not explained.
+  - **Required correction** Provide a brief definition of intasome and clarify the functional significance of active versus inactive monomers for readers outside the recombination field.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Concluding claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The conclusion that free Cre uses conformational selection is presented as a definitive statement, but the abstract does not discuss alternative mechanisms such as induced fit or population shift.
+  - **Required correction** Acknowledge alternative interpretations and specify what additional evidence would distinguish conformational selection from other mechanisms.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation setup
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that simulations started from five Cre structures from different stages of intasome assembly, but does not specify which structures or how they differ.
+  - **Required correction** List the PDB identifiers and describe the key differences among the starting structures to allow assessment of sampling coverage.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract lacks quantitative definitions and validation for the central claims of IDR behavior, active site assembly, domain motions, and surface availability. Without these, the mechanistic conclusions are not established.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the dynamic view of free Cre is novel. Scientific importance is relevant to genome engineering and recombination mechanisms, though the impact may be limited to a specialized audience. Interdisciplinary readership is narrow, primarily computational biophysicists and recombination biologists. Technical soundness cannot be assessed from the abstract alone, and the lack of quantitative support is a significant concern. Readability for nonspecialists is adequate but could be improved with definitions of key terms. Overall, the work has potential but does not currently meet the standard of evidence required for a high-impact general journal.
+- **Recommendation posture** Currently not established from the provided evidence. The hypotheses are interesting and worth pursuing, but the abstract does not provide sufficient technical detail or quantitative support to validate the claims. A revised manuscript with full methods, quantitative analyses, and validation of the IDR and conformational selection claims would be needed to assess the case.
+
+## Risk / unsupported claims
+- The classification of the linker and Helix N as intrinsically disordered regions is unsupported without quantitative disorder metrics.
+- The claim that the active site can assemble in the absence of DNA is unsupported without defined assembly criteria and occupancy data.
+- The claim that the CAT domain exhibits clam-like motion and Helix A slides like a windshield wiper is unsupported without quantitative motion analysis.
+- The 70% surface availability figure is unsupported without methodological detail.
+- The conformational selection conclusion is unsupported without comparison to intasome-bound states and discussion of alternative mechanisms.

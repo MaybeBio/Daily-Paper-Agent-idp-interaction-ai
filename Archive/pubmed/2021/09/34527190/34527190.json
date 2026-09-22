@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "34527190",
+    "doi": "10.1016/j.csbj.2021.07.031",
+    "title": "MedProDB: A database of Mediator proteins."
+  },
+  "content": {
+    "abstract": "In the last three decades, the multi-subunit Mediator complex has emerged as the key component of transcriptional regulation of eukaryotic gene expression. Although there were initial hiccups, recent advancements in bioinformatics tools contributed significantly to in-silico prediction and characterization of Mediator subunits from several organisms belonging to different eukaryotic kingdoms. In this study, we have developed the first database of Mediator proteins named MedProDB with 33,971 Mediator protein entries. Out of those, 12531, 11545, and 9895 sequences belong to metazoans, plants, and fungi, respectively. Apart from the core information consisting of sequence, length, position, organism, molecular weight, and taxonomic lineage, additional information of each Mediator sequence like aromaticity, hydropathy, instability index, isoelectric point, functions, interactions, repeat regions, diseases, sequence alignment to Mediator subunit family, Intrinsically Disordered Regions (IDRs), Post-translation modifications (PTMs), and Molecular Recognition Features (MoRFs) may be of high utility to the users. Furthermore, different types of search and browse options with four different tools namely BLAST, Smith-Waterman Align, IUPred, and MoRF-Chibi_Light are provided at MedProDB to perform different types of analysis. Being a critical component of the transcriptional machinery and regulating almost all the aspects of transcription, it generated lots of interest in structural and functional studies of Mediator functioning. So, we think that the MedProDB database will be very useful for researchers studying the process of transcription. This database is freely available at www.nipgr.ac.in/MedProDB.",
+    "keywords": [
+      "Cancer",
+      "Database",
+      "Gene regulation",
+      "Intrinsically disordered region",
+      "Mediator complex",
+      "Molecular recognition features",
+      "Transcription"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bhardwaj, Rohan",
+        "Thakur, Jitendra Kumar",
+        "Kumar, Shailesh"
+      ],
+      "short_names": [
+        "Bhardwaj R",
+        "Thakur JK",
+        "Kumar S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bioinformatics Lab, National Institute of Plant Genome Research (NIPGR), Aruna Asaf Ali Marg, New Delhi 110067, India.",
+        "Plant Mediator Lab, National Institute of Plant Genome Research (NIPGR), Aruna Asaf Ali Marg, New Delhi 110067, India.",
+        "Plant Mediator Lab, National Institute of Plant Genome Research (NIPGR), Aruna Asaf Ali Marg, New Delhi 110067, India.",
+        "Plant Transcription Regulation, International Centre for Genetic Engineering and Biotechnology, Aruna Asaf Ali Marg, New Delhi 110067, India.",
+        "Bioinformatics Lab, National Institute of Plant Genome Research (NIPGR), Aruna Asaf Ali Marg, New Delhi 110067, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bhardwaj, Rohan",
+        "short_name": "Bhardwaj R",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab, National Institute of Plant Genome Research (NIPGR), Aruna Asaf Ali Marg, New Delhi 110067, India.",
+          "Plant Mediator Lab, National Institute of Plant Genome Research (NIPGR), Aruna Asaf Ali Marg, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Thakur, Jitendra Kumar",
+        "short_name": "Thakur JK",
+        "identifiers": [],
+        "affiliations": [
+          "Plant Mediator Lab, National Institute of Plant Genome Research (NIPGR), Aruna Asaf Ali Marg, New Delhi 110067, India.",
+          "Plant Transcription Regulation, International Centre for Genetic Engineering and Biotechnology, Aruna Asaf Ali Marg, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Shailesh",
+        "short_name": "Kumar S",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Lab, National Institute of Plant Genome Research (NIPGR), Aruna Asaf Ali Marg, New Delhi 110067, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/17 06:00",
+    "fetched_at": "2026-09-20 05:26:07"
+  },
+  "links": {
+    "cites": [
+      "41964436",
+      "37583961"
+    ],
+    "refs": [
+      "33325122",
+      "32945869",
+      "31525461",
+      "31382875",
+      "30793213",
+      "30733343",
+      "29969044",
+      "29905871",
+      "29341856",
+      "29266937",
+      "29209056",
+      "29157917",
+      "28912271",
+      "28241144",
+      "28004786",
+      "27287881",
+      "27246098",
+      "27241573",
+      "27174932",
+      "26590257",
+      "26402457",
+      "25693131",
+      "25383669",
+      "24751643",
+      "24702702",
+      "24550107",
+      "24253305",
+      "24170397",
+      "24088064",
+      "23756993",
+      "23665034",
+      "23584533",
+      "23517922",
+      "23123849",
+      "23055912",
+      "22983086",
+      "22140109",
+      "22121220",
+      "22021418",
+      "21921038",
+      "21378965",
+      "21252857",
+      "20940737",
+      "20080634",
+      "19368889",
+      "19304878",
+      "19286969",
+      "19096501",
+      "19056732",
+      "18515835",
+      "18454197",
+      "18430946",
+      "18385733",
+      "17588517",
+      "17560376",
+      "17045240",
+      "16799563",
+      "16403737",
+      "15955779",
+      "15898786",
+      "15477388",
+      "15150259",
+      "12917344",
+      "12175233",
+      "10966575",
+      "10600390",
+      "9671713",
+      "9653119",
+      "7265238",
+      "2231712",
+      "2075190"
+    ],
+    "similar": [
+      "34527190",
+      "26590257",
+      "30307523",
+      "33001599",
+      "23912807",
+      "19096501",
+      "29360926",
+      "31161204",
+      "26517836",
+      "36321557",
+      "24888500",
+      "16935303",
+      "25637562",
+      "40844982",
+      "29939244",
+      "33904398",
+      "40031750",
+      "36851914",
+      "18831774",
+      "28934129",
+      "32687285",
+      "30819075",
+      "30324701",
+      "29080786",
+      "30624648",
+      "31504193",
+      "35350759",
+      "36458437",
+      "28524697",
+      "29626537",
+      "15478601",
+      "22689782",
+      "26042329",
+      "30866736",
+      "25424537",
+      "16827924",
+      "38975839",
+      "32696395",
+      "30298407",
+      "37626310",
+      "32743208",
+      "17870225",
+      "31007871",
+      "21152297",
+      "36648282",
+      "26651072",
+      "37382165",
+      "15059245",
+      "29097748",
+      "24093637",
+      "20522251",
+      "21732203",
+      "29076577",
+      "23233352",
+      "34048569",
+      "30278226",
+      "30793213",
+      "27174932",
+      "38275292",
+      "31908009",
+      "40645561",
+      "34789250",
+      "16602695",
+      "26172375",
+      "36747479",
+      "35094056",
+      "23328413",
+      "33267349",
+      "24952385",
+      "17044936",
+      "36908253",
+      "24649509",
+      "40788873",
+      "29042212",
+      "33267376",
+      "35898309",
+      "19594884",
+      "38690566",
+      "25539953",
+      "38297118",
+      "34179096",
+      "8743695",
+      "30717652",
+      "38812466",
+      "36929465",
+      "15896743",
+      "31653121",
+      "39631290",
+      "24099701",
+      "26654722",
+      "23756993",
+      "33216895",
+      "38941236",
+      "29209056",
+      "23894139",
+      "29945970",
+      "30733343",
+      "31709918",
+      "15166024",
+      "31660849"
+    ],
+    "review": [
+      "34527190",
+      "36321557",
+      "36851914",
+      "35350759",
+      "28524697",
+      "17870225",
+      "31007871",
+      "36648282",
+      "30278226",
+      "40645561",
+      "26172375",
+      "15896743",
+      "31653121",
+      "39631290",
+      "29209056",
+      "30733343"
+    ],
+    "pmc": [
+      "8342855"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(21)00321-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34527190/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34527190",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

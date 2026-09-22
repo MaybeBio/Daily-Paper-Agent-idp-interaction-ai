@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.12.557335",
+  "title": "Engineering an artificial catch bond using mechanical anisotropy",
+  "authors": "Liu Z; Liu H; Vera AM; Yang B; Tinnefeld P; Nash MA",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-15",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究通过改变锚点几何构型，利用AFM和动力学蒙特卡洛模拟工程化人工catch bond，虽涉及蛋白-蛋白互作机制建模，但对象为折叠蛋白复合物而非无序蛋白/IDR，方法上无AI/深度学习，物理模拟较浅，故综合评分为5。",
+  "abstract": "Catch bonds are a rare class of protein-protein interactions where the bond lifetime increases under an external pulling force. Here, we report how modification of anchor geometry generates catch bonding behavior for the mechanostable Dockerin G:Cohesin E (DocG:CohE) adhesion complex found on human gut bacteria. Using AFM single-molecule force spectroscopy in combination with bioorthogonal click chemistry, we mechanically dissociated the complex using five precisely controlled anchor geometries. When tension was applied through residue #13 on CohE and the N-terminus of DocG, the complex behaved as a two-state catch bond, while in all other tested pulling geometries, including the native configuration, it behaved as a slip bond. We used a kinetic Monte Carlo model with experimentally derived parameters to simulate rupture force and lifetime distributions, achieving strong agreement with experiments. Single-molecule FRET measurements further demonstrated that the complex does not exhibit dual binding mode behavior at equilibrium but unbinds along multiple pathways under force. Together, these results show how mechanical anisotropy and anchor point selection can be used to engineer artificial catch bonds.",
+  "abstract_zh": "Catch bonds是一类罕见的蛋白质-蛋白质相互作用，其中键的寿命在外部拉力作用下增加。在此，我们报告了锚定几何结构的修饰如何为人类肠道细菌上发现的机械稳定型Dockerin G:Cohesin E (DocG:CohE) 粘附复合物生成catch bonding行为。利用AFM单分子力谱结合生物正交点击化学，我们通过五种精确控制的锚定几何结构机械解离了该复合物。当张力通过CohE上的#13残基和DocG的N端施加时，该复合物表现为双态catch bond，而在所有其他测试的拉力几何结构中，包括天然构型，它表现为slip bond。我们使用带有实验推导参数的动力学蒙特卡洛模型模拟了断裂力和寿命分布，与实验取得了强烈一致性。单分子FRET测量进一步表明，该复合物在平衡状态下不表现出双结合模式行为，而是在力作用下沿多条途径解离。综合这些结果，展示了机械各向异性和锚定点选择如何用于工程化人工catch bonds。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.12.557335",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.12.557335",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.12.557335/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39395159",
+  "title": "Clustering of RNA Polymerase II C-Terminal Domain Models upon Phosphorylation.",
+  "authors": "Amith, Weththasinghage D; Chen, Vincent T; Dutagaci, Bercem",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2024-10-12",
+  "window": {
+    "start": "2024-10-07",
+    "end": "2024-10-13"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用全原子分子动力学模拟研究RNA聚合酶II CTD无序区域在不同磷酸化模式下的聚集行为，揭示盐浓度、磷酸化与抗衡离子协调驱动相分离相关聚集的分子机制，直接契合无序蛋白互作机制建模主题。",
+  "abstract": "RNA polymerase II (Pol II) C-terminal domain (CTD) is known to have crucial roles in regulating transcription. CTD has also been highly recognized for undergoing phase separation, which is further associated with its regulatory functions. However, the molecular interactions that the CTD forms to induce clustering to drive phase separations and how the phosphorylation of the CTD affects clustering are not entirely known. In this work, we studied the concentrated solutions of two heptapeptide repeat (2CTD) models at different phosphorylation patterns and protein and ion concentrations using all-atom molecular dynamics simulations to investigate clustering behavior and molecular interactions driving the cluster formation. Our results show that salt concentration and phosphorylation patterns play an important role in determining the clustering pattern, specifically at low protein concentrations. The balance between inter- and intrapeptide interactions and counterion coordination together impact the clustering behavior upon phosphorylation.",
+  "abstract_zh": "RNA聚合酶II（Pol II）的C端结构域（CTD）已知在调控转录中具有关键作用。CTD也被广泛认为会发生相分离（phase separation），这进一步与其调控功能相关联。然而，CTD形成以驱动相分离的分子相互作用，以及CTD的磷酸化如何影响聚集，尚未完全明了。在本工作中，我们使用全原子分子动力学（molecular dynamics）模拟，研究了不同磷酸化模式及蛋白质和离子浓度下两种七肽重复序列（2CTD）模型的浓缩溶液，以探究聚集行为及驱动聚集形成的分子相互作用。我们的结果表明，盐浓度和磷酸化模式在决定聚集模式中起重要作用，尤其是在低蛋白质浓度下。肽间和肽内相互作用的平衡以及反离子配位共同影响磷酸化后的聚集行为。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39395159/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39395159/",
+  "paper_page_path": "papers/pubmed/39395159/index.html"
+}

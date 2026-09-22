@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a multiple linear regression approach to derive structural ensembles of the Alzheimer’s amyloid β (1-42) monomer by integrating solution NMR chemical shifts with MD simulation data. They report that the resulting ensembles are consistent with CD and DLS analyses, reveal major β-sheet and minor helical populations, and suggest mechanistic implications for early aggregation. They also claim the method generalizes to folded proteins.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, MD simulation parameters, NMR experimental details, regression model specifications, validation statistics, and any comparison with existing ensemble determination methods
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational approach for integrating sparse experimental restraints with MD simulations to characterize disordered protein ensembles. However, the current evidence base is insufficient to evaluate the technical validity, statistical rigor, or biological significance of the claims. The central assertion of a "best-fit ensemble" is not supported by any quantitative metrics in the abstract, and the mechanistic interpretations regarding amyloid nucleation are speculative without structural or kinetic validation.
+- **Who would be interested in the results, and why** Researchers in the fields of protein misfolding diseases, intrinsically disordered proteins, and computational biophysics would be interested. The methodological aspect may appeal to those developing integrative approaches for ensemble determination. However, the abstract does not yet demonstrate sufficient novelty or robustness to attract broad interdisciplinary attention.
+- **Major strengths** The integration of multiple experimental and computational data types is a sensible strategy. The potential generalizability to folded proteins is an interesting extension. The focus on Aβ monomer ensembles addresses a relevant gap in understanding early amyloidogenesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Our approach provided the best-fit ensemble to two-dimensional NMR chemical shifts"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of a "best-fit ensemble" is made without any quantitative measure of fit quality, such as RMSD between predicted and experimental chemical shifts, chi-square statistics, or cross-validation results. No comparison to alternative methods or null models is presented.
+  - **Why it matters** Without quantitative validation, the reader cannot assess whether the regression approach genuinely improves ensemble determination or merely produces a plausible but arbitrary fit. The term "best-fit" is meaningless without defined error metrics and statistical significance.
+  - **Resolution test** Provide explicit goodness-of-fit statistics, uncertainty estimates, and a comparison against at least one established ensemble determination method (e.g., ENSEMBLE, ASTEROIDS) using the same data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological clarity
+  - **Claim pointer** "developed a new mathematical tool based on multiple linear regression"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no description of the regression model, including the independent variables, the target variables, the regularization scheme, or how the MD simulation data are converted into regression inputs. The method is not reproducible from the abstract alone.
+  - **Why it matters** A "new mathematical tool" must be described with sufficient detail for others to implement it. The lack of methodological transparency prevents independent verification and undermines the scientific contribution.
+  - **Resolution test** Include a complete mathematical formulation, a step-by-step algorithm, and a demonstration of the method on a test case with known ground truth.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for biological claims
+  - **Claim pointer** "The major monomeric structures of Aβ including β-sheets in both terminal and central hydrophobic core regions and the minor partially-helical structures suggested initial structure-based explanation on possible mechanisms of early molecular association and nucleation"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts specific structural populations and links them to nucleation mechanisms, but no structural figures, population percentages, or free energy estimates are provided. The connection between static ensemble populations and dynamic aggregation mechanisms is not established.
+  - **Why it matters** The biological significance of the work depends on whether the derived ensembles provide new mechanistic insight. Without quantitative structural characterization and a clear argument linking ensemble features to aggregation kinetics, this claim remains speculative.
+  - **Resolution test** Show representative structures, population distributions, and a quantitative comparison of the derived ensembles with known experimental constraints on Aβ aggregation. Provide a mechanistic model that explicitly connects the observed structural features to nucleation pathways.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability claim
+  - **Claim pointer** "A wide-spectrum application of the current approach was also indicated by showing a successful utilization for ensemble structures of folded proteins"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of successful application to folded proteins is mentioned without any supporting data, such as the identity of the proteins, the accuracy of the derived ensembles, or a comparison with experimental structures.
+  - **Why it matters** Generalizability is a key selling point of the method. Without evidence, this claim cannot be evaluated and may overstate the method's utility.
+  - **Resolution test** Provide a case study with a folded protein of known structure, report the deviation of the derived ensemble from the experimental structure, and compare with results from conventional methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** "best-fit ensemble"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "best-fit" is ambiguous and could imply a single optimal solution, whereas ensemble determination typically involves a distribution of weights.
+  - **Required correction** Replace with a more precise term such as "optimally weighted ensemble" and define the optimization criterion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency of validation
+  - **Affected element** "consistent with circular dichroism and dynamic light scattering analyses"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states consistency with CD and DLS but does not specify which features were compared or how consistency was quantified.
+  - **Required correction** Specify the measured observables (e.g., secondary structure content from CD, hydrodynamic radius from DLS) and the degree of agreement.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope of conclusions
+  - **Affected element** "convincing template structure"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "template structure" is vague and may overstate the certainty of the derived ensembles.
+  - **Required correction** Clarify that the derived ensembles are one possible representation consistent with available data, not a definitive structure.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The method is not described in sufficient detail, the fit quality is not quantified, and the biological interpretations are not supported by the presented evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of linear regression with MD and NMR for ensemble determination is not clearly novel relative to existing integrative approaches, though the specific implementation may offer a new angle. This cannot be fully assessed from the abstract.  
+  - Scientific importance: The application to Aβ monomer ensembles is relevant, but the abstract does not demonstrate that the method yields new biological insight beyond what is already known.  
+  - Interdisciplinary readership: The work bridges computational chemistry and structural biology, but the abstract is too technical and lacks accessible context for a broad audience.  
+  - Technical soundness: Not assessable from the abstract; the lack of methodological detail and validation statistics is a critical deficiency.  
+  - Readability for nonspecialists: The abstract assumes familiarity with NMR, MD, and ensemble determination, and does not explain the significance of the approach in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful method, but the lack of quantitative validation, methodological detail, and biological evidence prevents a supportive recommendation. The authors should provide the full manuscript with complete methods and validation before the case can be assessed.
+
+## Risk / unsupported claims
+- The claim of a "best-fit ensemble" is unsupported without quantitative fit metrics.
+- The claim of consistency with CD and DLS is unverifiable without specific comparison data.
+- The mechanistic interpretation linking ensemble structures to nucleation is speculative and not supported by the abstract.
+- The generalizability to folded proteins is asserted without any evidence.
+- The overall utility of the method for protein misfolding diseases is a forward-looking statement, not a demonstrated result.

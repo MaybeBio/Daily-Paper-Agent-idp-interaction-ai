@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40672301",
+  "title": "Hydration free energy is a significant predictor of globular protein incorporation into condensates.",
+  "authors": "Anderson, Sophie; Harrison, Malcolm; Dignon, Gregory L",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-07-17",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用多种方法计算球状蛋白的水合自由能，预测其作为客户蛋白进入由无序蛋白支架构成的凝聚体的分配系数，虽对象为折叠蛋白而非IDP，但聚焦凝聚体中的蛋白分配机制且提供可迁移的计算预测思路。",
+  "abstract": "Membraneless organelles (MLOs) are assemblies of biomolecules, which function without a dividing lipid membrane in a cellular environment. These MLOs, termed biomolecular condensates, are commonly formed by the thermodynamic process of liquid-liquid phase separation (LLPS) and assembly of large numbers of proteins, nucleic acids and co-solvent molecules. Within MLOs, certain biomolecule types are particularly causative of phase separation, and are termed \"scaffolds\" as they provide the major driving forces for self-assembly. Other molecules that are present in a condensate, but are less causative than the scaffold molecules are termed \"clients\". Much effort has recently decoded many of the molecular interactions underlying LLPS in search of predicting equilibrium concentrations and materials properties of condensates. In this work, we provide a simple computational approach to predict the partitioning of globular protein clients into condensates primarily composed of disordered protein scaffolds. Specifically, we use multiple methods to calculate hydration free energy of a series of globular proteins, and find that hydration free energy is relatively well-correlated with the partition coefficient of these proteins into condensates. We then provide a comparison of different hydration free energy predictors and discuss why some may provide a more accurate prediction of partitioning. Finally, we discuss the shortcomings of hydration free energy as a predictor by identifying other possible confounding factors such as specific interactions, charge matching, and differential solvation inside a condensate, which will aid in making more robust predictions in future studies trained on more diverse data sets. SIGNIFICANCE STATEMENT: Understanding the extent to which molecules can partition into biomolecular condensates is crucial for deciphering cellular organization and function. This study introduces a simple computational approach to predict the partitioning of globular proteins into condensates using hydration free energy as a key predictor, which can be calculated from static globular protein structures. By comparing different hydration free energy predictors, we also higlight the limitations of relying solely on this hydration free energy, emphasizing the need to consider other molecular factors. We finally analyze the shortcomings of the hydration free energy precitions, and discuss other factors that contribute to partitioning of clients into condensates, namely specific interactions and net charge of the scaffold molecules, and different properties of water in the condensate.",
+  "abstract_zh": "无膜细胞器（MLOs）是生物分子的组装体，在细胞环境中无需分隔脂质膜即可发挥功能。这些MLOs被称为生物分子凝聚体，通常通过液-液相分离（LLPS）的热力学过程以及大量蛋白质、核酸和共溶剂分子的组装形成。在MLOs内部，某些特定类型的生物分子尤其容易引发相分离，被称为“支架”（scaffolds），因为它们为自组装提供了主要驱动力。而凝聚体中存在但引发作用不如支架分子的其他分子则被称为“客户”（clients）。近期大量研究已解码了LLPS背后的许多分子相互作用，旨在预测凝聚体的平衡浓度和材料性质。在本工作中，我们提供了一种简单的计算方法，用于预测球状蛋白客户在主要由无序蛋白支架组成的凝聚体中的分配情况。具体而言，我们使用多种方法计算一系列球状蛋白的水合自由能，并发现水合自由能与这些蛋白在凝聚体中的分配系数具有相对良好的相关性。随后，我们比较了不同水合自由能预测器，并讨论了为何某些预测器可能提供更准确的分配预测。最后，我们通过识别其他可能的混杂因素（如特异性相互作用、电荷匹配以及凝聚体内部的差异溶剂化）来讨论水合自由能作为预测器的局限性，这将有助于未来基于更多样化数据集训练的研究中做出更稳健的预测。意义声明：理解分子在生物分子凝聚体中分配的程度对于解析细胞组织和功能至关重要。本研究引入了一种简单的计算方法，利用水合自由能作为关键预测因子来预测球状蛋白在凝聚体中的分配，该自由能可从静态球状蛋白结构计算得出。通过比较不同的水合自由能预测器，我们还强调了仅依赖水合自由能的局限性，并强调需要考虑其他分子因素。最后，我们分析了水合自由能预测的不足，并讨论了影响客户分子分配到凝聚体的其他因素，即特异性相互作用、支架分子的净电荷以及凝聚体中水的不同性质。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40672301/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40672301/",
+  "paper_page_path": "papers/pubmed/40672301/index.html"
+}

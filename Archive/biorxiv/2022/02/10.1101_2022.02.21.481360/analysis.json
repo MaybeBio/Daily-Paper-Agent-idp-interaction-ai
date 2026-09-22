@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.02.21.481360",
+  "title": "Effect of an amyloidogenic SARS-COV-2 protein fragment on α-synuclein monomers and fibrils",
+  "authors": "Jana AK; Lander CW; Chesney AD; Hansmann UHE",
+  "journal": "bioRxiv",
+  "published_date": "2022-02-24",
+  "window": {
+    "start": "2022-02-21",
+    "end": "2022-02-27"
+  },
+  "score": 7,
+  "one_liner_zh": "用分子动力学模拟研究SARS-CoV-2病毒蛋白片段SK9对α-synuclein单体构象和纤维稳定性的影响，揭示病毒蛋白如何调节无序蛋白聚集倾向，虽非直接PPI但涉及IDP聚集机制建模，方法为物理模拟。",
+  "abstract": "<h4>ABSTRACT</h4> Using molecular dynamic simulations we study whether amyloidogenic regions in viral proteins can initiate and modulate formation of α-synuclein aggregates, thought to be the disease-causing agent in Parkinson’s Disease. As an example we choose the nine-residue fragment SFYVYSRVK (SK9), located on the C-terminal of the Envelope protein of SARS-COV-2. We probe how the presence of SK9 affects the conformational ensemble of α-synuclein monomers and the stability of two resolved fibril polymorphs. We find that the viral protein fragment SK9 may alter α-synuclein amyloid formation by shifting the ensemble toward aggregation-prone and preferentially rod-like fibril seeding conformations. However, SK9 has only little effect of the stability of pre-existing or newly-formed fibrils.",
+  "abstract_zh": "<h4>摘要</h4> 利用分子动力学 (molecular dynamics) 模拟，我们研究了病毒蛋白中的淀粉样生成区域是否能启动并调节α-突触核蛋白 (α-synuclein) 聚集体的形成，该聚集体被认为是帕金森病的致病因子。以SARS-COV-2包膜蛋白C端的一个九残基片段SFYVYSRVK (SK9) 为例，我们探讨了SK9的存在如何影响α-突触核蛋白单体的构象集合以及两种已解析纤维多态性的稳定性。我们发现，病毒蛋白片段SK9可能通过将构象集合转向易于聚集且优先形成棒状纤维种子构象的状态，从而改变α-突触核蛋白的淀粉样形成。然而，SK9对已存在或新形成纤维的稳定性影响甚微。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.02.21.481360",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.02.21.481360",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.02.21.481360/index.html"
+}

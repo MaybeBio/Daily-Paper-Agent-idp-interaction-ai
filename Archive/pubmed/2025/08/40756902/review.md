@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific soundness, methodological validity, and claims as supported by the provided manuscript text
+- **Shared manuscript claim summary** The authors present IDRdecoder, a neural network-based machine learning tool that predicts drug interaction sites and interacting ligand substructures (protogroups) within intrinsically disordered regions (IDRs). The model uses stepwise transfer learning, beginning with autoencoder training on 26,480,862 predicted IDR sequences, followed by fine-tuning on PDB-derived ligand-binding sequences with high IDR tendency. The authors report moderate predictive performance (AUC 0.616 for interaction sites, 0.702 for protogroups) and claim this is the first application for predicting drug interactions in IDRs.
+- **Visible evidence base** Methods section (Sections 2.1, 2.2, 2.3), Results section (Sections 3.1, 3.2, 3.3), Discussion section (Section 4), Supplementary Figure references (S1a-f, S2, S3, S4), Supplementary Tables (S1-S5), Figure 1-4 references
+- **Missing materials affecting confidence** Supplementary figures and tables are referenced but not provided in the manuscript text. Figure contents are described but not directly visible. The DS-IDR-V dataset details, including the specific interaction site annotations and drug compound structures, are not fully described in the text. Code availability is not stated.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a genuinely underexplored area, namely computational prediction of small molecule interactions with intrinsically disordered regions. The stepwise transfer learning strategy is a reasonable response to the acknowledged data scarcity problem. However, the evidence presented is insufficient to establish the central claims. The primary validation dataset (DS-IDR-V) contains only 9 sequences, and the reported AUC values are modest. The comparison with existing methods is described as tentative, and the analysis of prediction biases, while interesting, is largely speculative. The manuscript would benefit from clearer reporting of validation procedures, error analysis, and a more rigorous demonstration that the model captures IDR-specific features rather than generic ligand-binding propensities.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, particularly those focused on disordered proteins and novel target classes. The work may also interest method developers in machine learning for biological sequence analysis, given the transfer learning approach. The potential practical implications for IDR-targeted drug design could attract pharmaceutical scientists, though the preliminary nature of the results limits immediate applicability.
+- **Major strengths** The problem addressed is timely and important, as IDRs are increasingly recognized as druggable targets. The stepwise transfer learning approach is a thoughtful strategy to mitigate the lack of training data. The authors are transparent about limitations, including the small validation set and potential biases. The analysis of amino acid and protogroup preferences provides hypotheses that could guide future experimental work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation adequacy
+  - **Claim pointer** The manuscript claims that IDRdecoder demonstrates "moderately improved performance" compared to existing methods for predicting drug interaction sites and ligand types in IDR sequences.
+  - **Evidence pointer** Section 3.2, Section 3.3, Table 1
+  - **Concern** The primary validation dataset (DS-IDR-V) contains only 9 IDR sequences with 130 interaction sites and 11 drug compounds. This is an extremely small sample from which to draw conclusions about model performance. The reported AUC values (0.616 for sites, 0.702 for protogroups) are modest, and no confidence intervals or statistical significance tests are reported. The comparison with ProteinBERT and other methods is described as "tentative," which undermines the strength of the performance claim. Furthermore, the model's performance on the negative dataset (DS-IDR-N) for protogroup prediction (AUC 0.680) is comparable to its performance on the positive dataset, suggesting the model may not be specifically tuned for IDR interactions.
+  - **Why it matters** The central claim of the manuscript is that IDRdecoder provides a useful predictive tool for IDR-drug discovery. Without robust validation on a larger, more diverse dataset, and without statistical evidence that the performance is not due to chance, this claim is not established. The small validation set also raises concerns about overfitting and generalizability.
+  - **Resolution test** The authors should validate IDRdecoder on a larger, independent dataset of experimentally characterized IDR-drug interactions. They should report confidence intervals for AUC values and perform statistical comparisons with baseline methods. They should also demonstrate that the model's performance on IDR sequences is significantly better than on ordered protein sequences, to confirm IDR-specific utility.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity and reproducibility
+  - **Claim pointer** The manuscript describes the model architecture and training procedure, including the input matrix representation and the three-step transfer learning process.
+  - **Evidence pointer** Section 2.2, Section 2.3
+  - **Concern** The description of the input matrix is incomplete. The formula for f_ai,aj,k is given, but the smoothing procedure is not fully specified. The manuscript states that the matrix was smoothed as f_ai,aj,k = sum over l of f_ai,aj,l / (4|k-l|), but the range of l is not clearly defined. The training procedure for the autoencoder is described, but the criteria for determining convergence or the number of epochs is not stated. The hyperparameter choices (e.g., number of filters, layer sizes) are given, but no justification or sensitivity analysis is provided. The manuscript does not state whether the code is publicly available, which is essential for reproducibility.
+  - **Why it matters** For a machine learning method, reproducibility is critical. Incomplete methodological details prevent other researchers from implementing or building upon the method. The lack of code availability further hampers verification and adoption.
+  - **Resolution test** The authors should provide a complete and unambiguous description of the input matrix construction, including the smoothing procedure. They should report the number of training epochs, convergence criteria, and any hyperparameter tuning performed. They should make the code publicly available, ideally in a repository with documentation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of results and biological relevance
+  - **Claim pointer** The manuscript claims that analysis of prediction results revealed characteristics beneficial for IDR-drug design, specifically that Tyr and Ala are preferred target sites and flexible substructures such as alkyl groups are favored in ligand molecules.
+  - **Evidence pointer** Section 4, Figure 4
+  - **Concern** The analysis leading to these conclusions is based on the same small validation set (DS-IDR-V) and the PDB-derived training set. The correlation between true-positive rates and IDR propensities (correlation coefficient 0.57 for amino acids) is moderate, and the interpretation is largely speculative. The authors acknowledge that the preference for alkyl groups may reflect the properties of repositioned drugs in the validation set rather than general principles of IDR-drug interactions. The biological rationale for Tyr and Ala preference is not deeply explored, and alternative explanations (e.g., amino acid frequency biases in the training set) are not ruled out.
+  - **Why it matters** These claims, if valid, could guide experimental design for IDR-targeted drugs. However, given the limited data and speculative interpretation, they should be presented as hypotheses rather than conclusions. Overstating these findings could mislead researchers in the field.
+  - **Resolution test** The authors should either provide additional evidence supporting these claims, such as analysis on a larger dataset or experimental validation, or explicitly frame them as preliminary hypotheses requiring further investigation. They should also control for potential confounding factors, such as amino acid composition biases in the training data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Section 3.3, last paragraph
+  - **Evidence pointer** "ProeinBERT" typo in the text
+  - **Issue** There is a typographical error in the text: "ProeinBERT" should be "ProteinBERT."
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2 description in Section 3.1
+  - **Issue** The manuscript states that PCA was applied to encoding vectors and visualized on the PC1-PC2 plane, but the figure is not provided in the manuscript text. It is unclear whether the figure adequately supports the claim that IDRs with similar functions cluster together.
+  - **Required correction** Ensure the figure is included and clearly shows the distribution of IDRs, with query IDRs and their neighbors labeled. Consider adding a quantitative measure of clustering, such as silhouette score.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.2, Section 3.3
+  - **Evidence pointer** Table 1
+  - **Issue** The manuscript reports AUC values but does not provide confidence intervals or standard errors. It is unclear how stable these estimates are given the small validation set.
+  - **Required correction** Report confidence intervals for AUC values, or at least acknowledge the uncertainty due to the small sample size.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Related work
+  - **Affected element** Section 1
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction mentions existing computational methods for IDR classification and interaction site prediction, but does not provide a systematic comparison of these methods or clearly state how IDRdecoder differs from them beyond the transfer learning approach.
+  - **Required correction** Expand the discussion of related work to include a brief comparison of existing methods and their limitations, and clearly articulate the novelty of IDRdecoder in this context.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation adequacy) and R1-M2 (methodological clarity and reproducibility) are the primary technical failings. The small validation set and incomplete methodological details prevent the claims from being fully assessed.
+- **Assessment against Nature-style criteria** Originality: The work addresses a novel problem, namely small molecule interaction prediction for IDRs, which is genuinely underexplored. The stepwise transfer learning approach is a reasonable and somewhat original strategy. Scientific importance: The topic is important, as IDRs are increasingly recognized as druggable targets, and computational tools for this area are lacking. However, the preliminary nature of the results limits the immediate impact. Interdisciplinary readership: The work could appeal to computational biologists, medicinal chemists, and drug discovery researchers. The writing is generally accessible, though some methodological details are dense. Technical soundness: The technical approach is plausible, but the validation is weak due to the small dataset and lack of statistical rigor. The methodological description is incomplete, hindering reproducibility. Readability for nonspecialists: The manuscript is generally readable, but the methods section assumes familiarity with machine learning and bioinformatics concepts. The discussion of protogroups and IDR propensities may be challenging for readers outside the field.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem and presents a plausible approach, but the validation is insufficient to support the claims. The small validation set, lack of statistical rigor, and incomplete methodological details are significant concerns. The authors should be encouraged to revise and resubmit with a more robust validation strategy and complete methodological reporting.
+
+## Risk / unsupported claims
+- The claim that IDRdecoder demonstrates "moderately improved performance" compared to existing methods is not well supported, as the comparison is described as tentative and no statistical tests are reported.
+- The claim that Tyr and Ala are preferred target sites for drug interactions in IDRs is based on a small dataset and may reflect dataset biases rather than general principles.
+- The claim that alkyl groups are favored substructures in IDR-targeting ligands is speculative and requires confirmation on a larger dataset.
+- The claim that the encoding vectors effectively capture functional similarity among IDRs is based on GO enrichment analysis of only 7 query IDRs, and the authors acknowledge that clustering was not clearly discrete.
+- The performance of IDRdecoder on the negative dataset (DS-PDB-N) for protogroup prediction (AUC 0.680) is comparable to its performance on the positive dataset, suggesting the model may not be specifically tuned for IDR interactions. This is not adequately discussed.

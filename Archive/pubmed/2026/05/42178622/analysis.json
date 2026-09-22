@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42178622",
+  "title": "Use of biomolecular emulator for characterizing flexible proteins by small-angle x-ray scattering.",
+  "authors": "Haitin, Yoni; Manori, Bar; Giladi, Moshe",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2026-05-25",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用生成式深度学习模拟器BioEmu为SAXS柔性蛋白构象系综分析生成物理先验池，对象涉及无序/柔性蛋白，方法为AI，但互作轴较弱（仅提及界面暴露构象，未深入PPI机制建模）。",
+  "abstract": "Flexible proteins populate heterogeneous conformational ensembles that are essential for their function. Small-angle x-ray scattering (SAXS) is widely used to study protein structure in solution and to characterize conformational heterogeneity. Yet, extracting ensemble information from SAXS remains challenging because many distinct conformational distributions can give rise to the same experimental scattering profile. The ensemble optimization method (EOM) addresses this by selecting SAXS-consistent ensembles from large conformational pools, but commonly used pool-generation strategies rely on user-defined flexible regions and may include energetically unfavorable conformations. Here, we implement BioEmu, a generative deep-learning biomolecular emulator, as a sequence-based, physically informed prior for generating conformational pools in SAXS ensemble analysis. Using the flexible protein CLIC5 as a proof-of-concept, BioEmu sampled compact and rare elongated, interface-exposed conformations ab initio. The unweighted BioEmu pool average did not reproduce the experimental scattering, indicating that EOM-guided selection remained necessary. Convergence analysis across five distinct flexible protein systems showed that EOM fit quality plateaus at ~1000 BioEmu conformers pool, underscoring the feasible computational cost of this approach. Finally, we demonstrate the generalizability of BioEmu implementation for SAXS analysis on a diverse cohort of 20 SASBDB entries, ranging from intrinsically disordered to multi-domain proteins. Together, our results support BioEmu as a scalable, sequence-based prior for EOM-based SAXS modeling, while underscoring that selected ensembles should be interpreted as SAXS-consistent models rather than unique representations of equilibrium populations.",
+  "abstract_zh": "柔性蛋白质会形成对其功能至关重要的异质性构象集合。小角X射线散射（SAXS）被广泛用于研究溶液中的蛋白质结构并表征构象异质性。然而，从SAXS中提取集合信息仍具挑战性，因为许多不同的构象分布可能产生相同的实验散射图谱。集合优化方法（EOM）通过从大型构象池中选择与SAXS一致的集合来解决这一问题，但常用的池生成策略依赖于用户定义的柔性区域，并可能包含能量上不利的构象。在此，我们实现了BioEmu，一种生成式深度学习生物分子模拟器，作为基于序列的、物理信息先验，用于SAXS集合分析中的构象池生成。以柔性蛋白质CLIC5作为概念验证，BioEmu从头采样了紧凑型和罕见的细长型、界面暴露构象。未加权的BioEmu池平均值未能重现实验散射，表明EOM引导的选择仍然必要。对五个不同柔性蛋白质系统的收敛性分析显示，EOM拟合质量在约1000个BioEmu构象池时达到平台期，突显了该方法的可行计算成本。最后，我们在20个SASBDB条目（涵盖从内在无序到多结构域蛋白质）的多样化队列中，展示了BioEmu实现用于SAXS分析的普适性。综合来看，我们的结果支持BioEmu作为基于序列的、可扩展的先验用于基于EOM的SAXS建模，同时强调所选集合应被解释为与SAXS一致的模型，而非平衡群体的唯一表征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42178622/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42178622/",
+  "paper_page_path": "papers/pubmed/42178622/index.html"
+}

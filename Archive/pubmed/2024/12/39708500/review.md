@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to the full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors introduce DisorderUnetLM, a protein intrinsic disorder predictor based on an Attention U-Net architecture with ProtTrans protein language model features. They claim state-of-the-art performance in direct comparisons with MSA-based and pLM-based predictors, and report top rankings on the CAID-2 benchmark for specific subsets and metrics.
+- **Visible evidence base** Abstract text only, including reported benchmark metrics (ROC-AUC and AP values) and a public code/model repository DOI
+- **Missing materials affecting confidence** Full methods, architecture details, training and validation datasets, benchmark protocol, statistical significance tests, comparison predictor configurations, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to the field of intrinsic disorder prediction, leveraging a well-established architecture (Attention U-Net) with modern pLM features. However, the evidence provided in the abstract is insufficient to evaluate the validity of the performance claims. Key methodological details, benchmark protocols, and statistical rigor are absent. The reported CAID-2 rankings are promising but cannot be independently verified from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein structure and function prediction, particularly those developing or applying disorder predictors. Researchers interested in the application of protein language models to structural bioinformatics tasks would also find the approach relevant. The public availability of code and model may appeal to practitioners seeking reproducible tools.
+- **Major strengths** The use of a pLM-based approach without MSA computation addresses a practical limitation of earlier methods. The reported top ranking on the CAID-2 NOX subset for ROC-AUC is a notable achievement if substantiated. Public release of code and model supports reproducibility, which is a positive feature for the community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DisorderUnetLM achieves top results in the direct comparison with recent predictors exploiting MSAs and pLMs."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims top results in direct comparisons but provides no details on which predictors were compared, how they were configured, what datasets were used, or how statistical significance was assessed. Without this information, the claim is unverifiable.
+  - **Why it matters** Direct comparison claims are central to the paper's contribution. If the comparison set or protocol is biased or incomplete, the conclusion may not hold. The absence of methodological transparency undermines confidence in the reported superiority.
+  - **Resolution test** Provide a full description of the comparison protocol, including predictor versions, hyperparameters, training data, and evaluation metrics. Report confidence intervals or statistical tests for performance differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "among 43 predictors on the latest CAID-2 benchmark, it ranks 1st for the NOX subset in terms of the ROC-AUC metric (0.844) and 2nd for the AP metric (0.596). For the CAID-2 PDB subset, it ranks in the top 10 (ROC-AUC of 0.924 and AP of 0.862)."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports specific benchmark rankings and metric values but does not specify how these were obtained. It is unclear whether the authors ran the CAID-2 evaluation themselves, used official results, or applied a different protocol. The definition of the NOX and PDB subsets, the exact number of predictors, and the handling of missing values or ties are not described.
+  - **Why it matters** Benchmark rankings are only meaningful if the evaluation is consistent with the official CAID-2 protocol. Any deviation could change the rankings. The lack of detail prevents readers from assessing the validity of these headline numbers.
+  - **Resolution test** Clarify the source of the CAID-2 results, describe the exact evaluation pipeline, and confirm alignment with the official benchmark rules. Provide a table comparing DisorderUnetLM against all 43 predictors for both subsets and metrics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "The code and model are publicly available and fully reproducible at doi.org/10.24433/CO.7350682.v1."
+  - **Evidence pointer** Abstract, DOI provided
+  - **Concern** The abstract states full reproducibility but provides no evidence of what the repository contains, whether it includes training scripts, pretrained weights, inference code, or documentation. The DOI alone does not guarantee that a third party can reproduce the reported results.
+  - **Why it matters** Reproducibility is a stated strength, but without verification of the repository contents and usability, the claim is aspirational rather than demonstrated. Reviewers and readers cannot confirm the availability or functionality of the code from the abstract.
+  - **Resolution test** In the full manuscript, include a detailed description of the repository structure, dependencies, and a step-by-step guide for reproducing the benchmark results. Ideally, provide a container or environment specification.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title, location not provided
+  - **Issue** The title "DisorderUnetLM: Validating ProteinUnet for efficient protein intrinsic disorder prediction" uses the word "Validating," which may misrepresent the contribution. The abstract describes a new predictor, not a validation study of ProteinUnet.
+  - **Required correction** Revise the title to reflect the development and evaluation of a new method, for example "DisorderUnetLM: A protein language model-based predictor for intrinsic disorder."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention the size of the training dataset, the number of parameters in the model, or the computational cost of inference. Given the claim of efficiency, these details are relevant.
+  - **Required correction** Add a sentence in the abstract or full manuscript specifying the training data size, model complexity, and inference time relative to MSA-based methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Benchmark results
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The reported metric values (e.g., ROC-AUC of 0.844) are presented without variance or confidence intervals. Single-point estimates are insufficient to assess stability across different test splits.
+  - **Required correction** Report standard deviations or confidence intervals for the metrics, or state that the benchmark is fixed and deterministic, if applicable.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking. The core claims of superior performance and reproducibility cannot be evaluated from the abstract alone. The full manuscript must provide detailed methods, benchmark protocols, and repository verification.
+- **Assessment against Nature-style criteria** Originality: Moderate. The combination of Attention U-Net with ProtTrans features is not entirely novel, as both components are established, but the specific integration for disorder prediction may offer a new contribution. Scientific importance: Moderate to high, given the practical relevance of disorder prediction and the move away from MSA-based methods. Interdisciplinary readership: Limited, as the work is primarily of interest to computational biologists and bioinformaticians, not a broad scientific audience. Technical soundness: Not assessable from the abstract due to missing methodological details. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms (e.g., NOX, AP) without definition, which may hinder nonspecialist understanding.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents promising results, but the lack of methodological detail and verification of benchmark claims prevents a supportive recommendation. The authors should be encouraged to resubmit with a full manuscript that addresses the blocking concerns.
+
+## Risk / unsupported claims
+- The claim of "top results in the direct comparison" is unsupported without details on the comparison protocol.
+- The specific CAID-2 rankings and metric values are unverifiable without a description of the evaluation pipeline.
+- The claim of "fully reproducible" is unsupported without evidence of repository contents and usability.
+- The implicit claim of efficiency (implied by avoiding MSA computation) is not quantified in the abstract.

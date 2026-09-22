@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "42553431",
+    "doi": "10.1155/jotm/6513704",
+    "title": "Design and Evaluation of a Multicomponent Herbal Nanogel for Mosquito Repellency: An Integrated In Silico Experimental Approach Against Aedes aegypti and Anopheles stephensi."
+  },
+  "content": {
+    "abstract": "This study describes the development and characterization of a hydroxypropyl methylcellulose (HPMC)-based nanogel. The nanogel coencapsulates thymol, carvacrol, and cinnamaldehyde to enhance mosquito repellency. These phytochemicals were selected for their potential complementary and multimodal neurotoxic and olfactory-disrupting effects. The nanogel was synthesized by spontaneous emulsification, followed by polymeric gelation. Its physicochemical properties were assessed with dynamic light scattering (DLS), zeta potential, rheological measurements, and stability tests. The nanogel showed an optimal size (177 +/- 6 nm; PDI: 0.17 +/- 0.02; SPAN: 0.96), robust colloidal stability, and pseudoplastic flow behavior. This is consistent with the Carreau-Yasuda model. Repellency assays showed complete protection for 410 +/- 45 min against Anopheles stephensi and 210 +/- 30 min against Aedes aegypti. Specifically, the nanogel was statistically superior to 40% DEET against Anopheles stephensi, while providing comparable (noninferior) protection against Aedes aegypti. Molecular docking showed strong binding affinities of thymol and carvacrol to mosquito odorant-binding proteins providing mechanistic support for the potential complementary activity of the multicomponent formulation. The formulation maintained physical and rheological stability for 6 months. There was no phase separation or syneresis. These findings show this nanogel's promise as an effective natural mosquito repellent.",
+    "keywords": [
+      "DEET alternative",
+      "herbal nanogel",
+      "molecular docking",
+      "mosquito repellency"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Safaei, Mohsen",
+        "Sanei-Dehkordi, Alireza",
+        "Alinejad, Navid",
+        "Fallahi, Mahsa",
+        "Osanloo, Mahmoud"
+      ],
+      "short_names": [
+        "Safaei M",
+        "Sanei-Dehkordi A",
+        "Alinejad N",
+        "Fallahi M",
+        "Osanloo M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1504-5490",
+        "ORCID: 0000-0002-4022-0361",
+        "ORCID: 0000-0002-9502-0172",
+        "ORCID: 0000-0002-1190-6874"
+      ],
+      "affiliations": [
+        "Department of Medical Biotechnology, School of Advanced Technologies in Medicine, Fasa University of Medical Sciences, Fasa, Iran, fums.ac.ir.",
+        "Emerging and Re-Emerging Infectious Diseases Research Center, Hormozgan Health Institute, Hormozgan University of Medical Sciences, Bandar Abbas, Iran, hums.ac.ir.",
+        "Department of Biology and Control of Disease Vectors, Faculty of Health, Hormozgan University of Medical Sciences, Bandar Abbas, Iran, hums.ac.ir.",
+        "Department of Public Health, School of Health, Fasa University of Medical Sciences, Fasa, Iran, fums.ac.ir.",
+        "Department of Medical Nanotechnology, School of Advanced Technologies in Medicine, Fasa University of Medical Sciences, Fasa, Iran, fums.ac.ir.",
+        "Department of Medical Nanotechnology, School of Advanced Technologies in Medicine, Fasa University of Medical Sciences, Fasa, Iran, fums.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Safaei, Mohsen",
+        "short_name": "Safaei M",
+        "identifiers": [
+          "0000-0003-1504-5490"
+        ],
+        "affiliations": [
+          "Department of Medical Biotechnology, School of Advanced Technologies in Medicine, Fasa University of Medical Sciences, Fasa, Iran, fums.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Sanei-Dehkordi, Alireza",
+        "short_name": "Sanei-Dehkordi A",
+        "identifiers": [
+          "0000-0002-4022-0361"
+        ],
+        "affiliations": [
+          "Emerging and Re-Emerging Infectious Diseases Research Center, Hormozgan Health Institute, Hormozgan University of Medical Sciences, Bandar Abbas, Iran, hums.ac.ir.",
+          "Department of Biology and Control of Disease Vectors, Faculty of Health, Hormozgan University of Medical Sciences, Bandar Abbas, Iran, hums.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Alinejad, Navid",
+        "short_name": "Alinejad N",
+        "identifiers": [
+          "0000-0002-9502-0172"
+        ],
+        "affiliations": [
+          "Department of Public Health, School of Health, Fasa University of Medical Sciences, Fasa, Iran, fums.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Fallahi, Mahsa",
+        "short_name": "Fallahi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Nanotechnology, School of Advanced Technologies in Medicine, Fasa University of Medical Sciences, Fasa, Iran, fums.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Osanloo, Mahmoud",
+        "short_name": "Osanloo M",
+        "identifiers": [
+          "0000-0002-1190-6874"
+        ],
+        "affiliations": [
+          "Department of Medical Nanotechnology, School of Advanced Technologies in Medicine, Fasa University of Medical Sciences, Fasa, Iran, fums.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of tropical medicine"
+    ],
+    "journal_abbrev": [
+      "J Trop Med"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/05 06:42",
+    "fetched_at": "2026-09-18 05:26:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41276053",
+      "41100016",
+      "40096053",
+      "39405601",
+      "39341926",
+      "39176566",
+      "38729373",
+      "37376092",
+      "37337209",
+      "36934283",
+      "36921814",
+      "36793773",
+      "36676095",
+      "36629280",
+      "36554987",
+      "36427517",
+      "36296371",
+      "35886836",
+      "35406184",
+      "35160624",
+      "34940322",
+      "34940149",
+      "34707504",
+      "34013869",
+      "33842288",
+      "33357565",
+      "32439585",
+      "31945061",
+      "31909330",
+      "30197600",
+      "29656020",
+      "29579762",
+      "28727779",
+      "26063119",
+      "25564745",
+      "25438256",
+      "25015050",
+      "23919579",
+      "22967040",
+      "21942843",
+      "20797533",
+      "19862624",
+      "19729299",
+      "19162149",
+      "16938890",
+      "16380241",
+      "14623762",
+      "11701389"
+    ],
+    "similar": [
+      "42553431",
+      "41100016",
+      "28666890",
+      "26249666",
+      "41698022",
+      "41970861",
+      "21537097",
+      "34001242",
+      "15185946",
+      "33407496",
+      "42063810",
+      "37814316",
+      "17333734",
+      "27604128",
+      "22065062",
+      "25544703",
+      "27357395",
+      "24770671",
+      "21318385",
+      "37217081",
+      "35497187",
+      "24005479",
+      "38648412",
+      "39918607",
+      "22797605",
+      "24724289",
+      "34208936",
+      "27308295",
+      "35157071",
+      "37105616",
+      "33298524",
+      "22089086",
+      "12170930",
+      "42449186",
+      "31121148",
+      "19579717",
+      "32785255",
+      "16262746",
+      "23569723",
+      "42458621",
+      "26358103",
+      "25438256",
+      "27802399",
+      "27802401",
+      "26792432",
+      "12943107",
+      "24036563",
+      "22821231",
+      "26611967",
+      "2708995",
+      "18500992",
+      "40864078",
+      "38971776",
+      "41683995",
+      "35886836",
+      "28402436",
+      "16506445",
+      "35867157",
+      "42100665",
+      "26337270",
+      "22903417",
+      "38512948",
+      "42226648",
+      "40906276",
+      "34016099",
+      "39237741",
+      "31550361",
+      "24201040",
+      "25629069",
+      "35284890",
+      "41337663",
+      "22371271",
+      "35708404",
+      "28082646",
+      "31441773",
+      "41732444",
+      "24488078",
+      "39521270",
+      "12906877",
+      "39587220",
+      "34258465",
+      "20798887",
+      "40014302",
+      "21451993",
+      "9737601",
+      "23569979",
+      "25424262",
+      "32815781",
+      "41108699",
+      "19960685",
+      "42200563",
+      "32741076",
+      "40011290",
+      "26139412",
+      "32228701",
+      "8810142",
+      "36375535",
+      "36296645",
+      "30471377",
+      "27280351"
+    ],
+    "review": [
+      "42553431",
+      "24201040"
+    ],
+    "pmc": [
+      "13434029"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42553431/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/jotm/6513704",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

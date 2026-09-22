@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided by the user.
+- **Assessment boundary** Scientific content, technical soundness, validity of claims, and alignment with Nature-style criteria. Editorial or formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors present a systematic molecular dynamics (MD) simulation framework using glycine-based peptides to study the effects of phosphorylation (Ser, Thr, Tyr) on local protein backbone dynamics and conformational preferences. They generated 3393 peptide sequences with over 1 μs sampling each, analyzed backbone dihedral distributions, conformational state propensities, hydrogen bonding, and validated findings against NMR chemical shift data from the BMRB. They report that phosphorylation generally promotes ordered conformations, with Tpo showing the strongest effects and poor simulation convergence, and provide the full dataset publicly.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Discussion, Conclusions. Figures and tables are referenced but not provided. Supplementary material is referenced but not provided.
+- **Missing materials affecting confidence** Figures 1–7, Tables 1–2, Supplementary Figures 1–5, Supplementary Tables 1–2, equations 1–5, and the Constava software output details are not included. This limits quantitative verification of the reported results.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a large-scale, systematic MD simulation study addressing an important and under-characterized question: how phosphorylation affects local backbone dynamics and conformational preferences. The design using glycine-based peptides is sensible for isolating intrinsic residue effects, and the public release of the dataset is a valuable contribution. However, the manuscript has several technical and interpretive weaknesses. The validation against NMR data is qualitative and limited by small sample sizes and inherent scale mismatches. The convergence analysis, while described, is not fully transparent, and the poor convergence of Tpo simulations undermines some of the strongest claims. The discussion of long-range effects is appropriately caveated, but the generalizability of the findings to real proteins remains uncertain. Overall, the work is technically sound in its execution but the strength of the conclusions is not fully supported by the evidence presented.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular modelers studying protein dynamics, post-translational modifications, and intrinsically disordered proteins. Researchers developing or validating force fields for phosphorylated residues. Experimentalists studying phosphorylation-induced conformational changes who may use the dataset as a reference or training set. The public dataset will be of interest to the broader community working on PTM effects and disordered proteins.
+- **Major strengths** 1) Systematic and large-scale design covering 3393 sequences, enabling generalizable conclusions. 2) Use of glycine scaffolds to isolate intrinsic residue effects is methodologically sound. 3) Public availability of the full dataset and code is a significant asset. 4) Validation against NMR data, though limited, is an appropriate attempt to connect simulation to experiment. 5) Clear identification of Tpo as a conformationally restrictive residue with convergence issues is honest and useful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "more than 81% of the simulations show a high rreplica of >0.7" and that this demonstrates statistical viability and reproducibility.
+  - **Evidence pointer** Results section, Figure 1, Supplementary Table 2 (not provided)
+  - **Concern** The convergence criterion (rreplica > 0.7) is not justified. The manuscript does not explain why this threshold is sufficient for the conclusions drawn. Moreover, the poor convergence of Tpo simulations is acknowledged, but the impact of this on the quantitative claims about Tpo's conformational preferences is not fully addressed. The authors state that Tpo restricts backbone dynamics, but if the simulations are not converged, the observed restriction could be an artifact of insufficient sampling.
+  - **Why it matters** If the convergence threshold is inadequate, the conformational ensembles may not represent equilibrium distributions, undermining all downstream analyses and conclusions. The Tpo-specific claims are central to the paper, and the convergence issue directly affects their validity.
+  - **Resolution test** Provide a detailed justification for the rreplica threshold, including a sensitivity analysis showing that conclusions are robust to different thresholds. For Tpo, demonstrate that extended sampling (e.g., 2–3 μs per replica) does not qualitatively change the observed conformational preferences or that the lack of convergence is explicitly accounted for in the interpretation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that "the MD simulations seem to capture the structural changes in the phosphorylated residues reasonably well" based on comparison to NMR chemical shift-derived descriptors.
+  - **Evidence pointer** Results section, Figure 7 (not provided)
+  - **Concern** The validation is qualitative and based on a small number of BMRB entries (120 phosphorylated entries, 144 paired entries). The comparison is limited to relative trends, and the authors acknowledge a lack of statistical power. However, the claim of "reasonably well" is not supported by any quantitative metric (e.g., correlation coefficients, error bars, significance tests). The exclusion of entries with S2RCI > 0.8 is described, but the number of remaining entries is not stated.
+  - **Why it matters** The validation is the primary evidence that the simulation results are biologically relevant. Without quantitative support, the claim is subjective and cannot be independently assessed.
+  - **Resolution test** Provide quantitative measures of agreement (e.g., correlation coefficients, mean absolute errors) between MD-derived and NMR-derived propensities, with confidence intervals. State the number of entries used after filtering. If the sample size is too small for statistical testing, state this explicitly and temper the claim accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that "the information derived from the dataset is highly transferrable" and that the findings "can be transferred to proteins even on the sequence level."
+  - **Evidence pointer** Discussion section
+  - **Concern** The study uses short glycine-based peptides, which lack the tertiary context, long-range interactions, and side-chain packing present in real proteins. The authors acknowledge this limitation but still make strong transferability claims. The validation against NMR data is limited to a few proteins and does not establish that the intrinsic propensities observed in peptides are preserved in folded or even disordered proteins with diverse sequence contexts.
+  - **Why it matters** Overstating generalizability could mislead readers into applying these results to systems where they may not hold, particularly for proteins where long-range interactions dominate.
+  - **Resolution test** Soften the transferability claims or provide additional evidence, such as comparison to MD simulations of full-length disordered proteins or experimental data on multiple diverse proteins, showing that the observed trends hold.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Simulation Setup
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The box sizes are given as 4.2–5.0 nm depending on peptide length, but the number of water molecules and total system size are not reported. This makes it difficult to assess whether finite-size effects could influence the results.
+  - **Required correction** Report the average number of water molecules and total atom counts for each peptide length, or state that these values are available in the public dataset.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Force Field Selection
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The choice of ff99SB-ILDN with TIP4P-D is justified by reference to prior studies, but the specific parameter files for phosphorylated residues (Homeyer et al., Steinbrecher et al.) are not described in detail. It is unclear whether the parameters are consistent with the chosen force field version.
+  - **Required correction** Provide the exact parameter file versions or cite the specific sources clearly, and state whether any modifications were made.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Conformational State Propensities
+  - **Evidence pointer** Results section, Figure 3 (not provided)
+  - **Issue** The manuscript reports trends in conformational state propensities (e.g., "increased helix propensities") without reporting standard errors or confidence intervals. Given the large number of sequences, some measure of variability is expected.
+  - **Required correction** Report standard errors or confidence intervals for the propensity values, or state that these are available in the public dataset.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Hydrogen Bond Analysis
+  - **Evidence pointer** Results section, Figure 6 (not provided)
+  - **Issue** The hydrogen bond analysis is described qualitatively. The manuscript states that phosphorylation increases certain hydrogen bonds but does not quantify the changes or their persistence over time.
+  - **Required correction** Provide quantitative data on hydrogen bond occupancies or lifetimes, or refer to the public dataset for these values.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (convergence threshold justification and Tpo sampling) and R1-M2 (quantitative validation against NMR) are the primary technical issues. Without addressing these, the central claims of the paper are not fully supported.
+- **Assessment against Nature-style criteria** 
+  - Originality: The systematic, large-scale approach to studying phosphorylation effects on backbone dynamics is a novel contribution, though the general concept of phosphorylation-induced conformational changes is not new. The dataset itself is an original resource.
+  - Scientific importance: The work addresses a fundamental question in PTM biology and provides a resource that could be widely used. However, the importance is somewhat limited by the peptide-based system and the qualitative validation.
+  - Interdisciplinary readership: The work will appeal to computational chemists, biophysicists, and structural biologists. It is less likely to attract a broader biological audience due to the technical nature and limited direct biological validation.
+  - Technical soundness: The simulation protocol is generally sound, but the convergence and validation issues described above are significant. The lack of quantitative validation weakens the technical case.
+  - Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with MD simulations, Ramachandran plots, and NMR chemical shift analysis. The abstract is accessible, but the results and discussion sections are technical.
+- **Recommendation posture** Supportive if technical concerns are resolved. The dataset and framework are valuable, and the conclusions are plausible, but the convergence and validation issues must be addressed with quantitative evidence before the claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that "phosphorylations generally induce changes to more ordered conformations" is supported by the MD data but only weakly by the NMR comparison, which lacks statistical power.
+- The claim that Tpo acts as a "conformational lock" is based on poorly converged simulations and is therefore not fully supported.
+- The transferability of the findings to proteins in general is asserted but not demonstrated beyond a few qualitative NMR comparisons.
+- The statement that the dataset is "highly transferrable" is not supported by evidence from diverse protein systems.

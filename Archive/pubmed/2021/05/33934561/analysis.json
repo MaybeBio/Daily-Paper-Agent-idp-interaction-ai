@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33934561",
+  "title": "Do polyproline II helix associations modulate biomolecular condensates?",
+  "authors": "Mompean, Miguel; Oroz, Javier; Laurents, Douglas V",
+  "journal": "FEBS open bio",
+  "published_date": "2021-05-03",
+  "window": {
+    "start": "2021-05-03",
+    "end": "2021-05-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该文探讨PPII螺旋与PPII结合域间的弱互作如何驱动生物分子凝聚体形成，聚焦无序蛋白介导的PPI机制，虽以综述/预测为主，但为相分离中互作机制建模提供重要思路。",
+  "abstract": "Biomolecular condensates are microdroplets that form inside cells and serve to selectively concentrate proteins, RNAs and other molecules for a variety of physiological functions, but can contribute to cancer, neurodegenerative diseases and viral infections. The formation of these condensates is driven by weak, transient interactions between molecules. These weak associations can operate at the level of whole protein domains, elements of secondary structure or even moieties composed of just a few atoms. Different types of condensates do not generally combine to form larger microdroplets, suggesting that each uses a distinct class of attractive interactions. Here, we address whether polyproline II (PPII) helices mediate condensate formation. By combining with PPII-binding elements such as GYF, WW, profilin, SH3 or OCRE domains, PPII helices help form lipid rafts, nuclear speckles, P-body-like neuronal granules, enhancer complexes and other condensates. The number of PPII helical tracts or tandem PPII-binding domains can strongly influence condensate stability. Many PPII helices have a low content of proline residues, which hinders their identification. Recently, we characterized the NMR spectral properties of a Gly-rich, Pro-poor protein composed of six PPII helices. Based on those results, we predicted that many Gly-rich segments may form PPII helices and interact with PPII-binding domains. This prediction is being tested and could join the palette of verified interactions contributing to biomolecular condensate formation.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）是在细胞内形成的微滴，用于选择性富集蛋白质、RNA及其他分子，以执行多种生理功能，但也可能促进癌症、神经退行性疾病和病毒感染的发生。这些凝聚体的形成由分子间的弱、瞬时相互作用驱动。这些弱关联可在整个蛋白质结构域、二级结构元件甚至仅由几个原子组成的基团水平上发挥作用。不同类型的凝聚体通常不会合并形成更大的微滴，这表明每种凝聚体使用一类独特的吸引性相互作用。在此，我们探讨聚脯氨酸II（PPII）螺旋是否介导凝聚体的形成。通过与GYF、WW、profilin、SH3或OCRE等PPII结合元件结合，PPII螺旋有助于形成脂筏、核斑点、P体样神经元颗粒、增强子复合物及其他凝聚体。PPII螺旋片段或串联PPII结合结构域的数量可强烈影响凝聚体的稳定性。许多PPII螺旋的脯氨酸残基含量较低，这阻碍了其识别。最近，我们表征了一种由六个PPII螺旋组成的富含甘氨酸、贫脯氨酸蛋白质的NMR光谱特性。基于这些结果，我们预测许多富含甘氨酸的片段可能形成PPII螺旋并与PPII结合结构域相互作用。该预测正在测试中，并可能加入已验证的相互作用谱系，为生物分子凝聚体的形成作出贡献。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33934561/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33934561/",
+  "paper_page_path": "papers/pubmed/33934561/index.html"
+}

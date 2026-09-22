@@ -1,0 +1,214 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.09.709760",
+  "title": "A Cooperative Mechanism of Eukaryotic Transcription Factor Target Search",
+  "doi": "10.64898/2026.03.09.709760",
+  "abstract": "<h4>ABSTRACT</h4> Rapid gene activation requires transcription factors (TFs) to locate their target motifs within vast genomes. In bacteria, TF target search is accelerated by combining 3D diffusion with 1D sliding, called facilitated diffusion, yet whether eukaryotic TFs rely on similar strategies has remained unresolved due to the lack of direct measurements in living cells. Here, we directly visualize eukaryotic TF target search in living cells by labeling a single TF per nucleus and visualizing its binding to its endogenous locus. Using the budding yeast TF Gal4, we find that efficient target localization occurs near the diffusion limit and does not require facilitated diffusion. Instead, rapid association requires cooperative self-interactions mediated by an intrinsically-disordered central region (IDR), independent of the activation domain. Replacing the Gal4 IDR with human self-interacting IDRs (EWS or FUS) restores efficient search, demonstrating that self-interactions are a general and portable feature for search. A second structured dimerization domain further cooperatives with the IDR to stabilize binding at neighboring motifs, revealing two mechanistically separable forms of cooperativity that together govern TF function. These findings highlight that facilitated diffusion is not strictly required and establish cooperative IDR-driven self-interactions as a key mechanism to enable rapid target recognition in eukaryotic cells.",
+  "authors": [
+    "Meeussen JV",
+    "Pomp W",
+    "de Jonge WJ",
+    "Mazza D",
+    "Lenstra TL"
+  ],
+  "published_date": "2026-03-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.09.709760",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.09.709760.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1220426",
+    "raw_record": {
+      "id": "PPR1220426",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1220426"
+        ]
+      },
+      "doi": "10.64898/2026.03.09.709760",
+      "title": "A Cooperative Mechanism of Eukaryotic Transcription Factor Target Search",
+      "authorString": "Meeussen JV, Pomp W, de Jonge WJ, Mazza D, Lenstra TL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Meeussen JV",
+            "lastName": "Meeussen",
+            "firstName": "Joseph V.W.",
+            "initials": "JV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6963-3960"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Gene Regulation, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pomp W",
+            "lastName": "Pomp",
+            "firstName": "Wim",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Gene Regulation, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Jonge WJ",
+            "lastName": "de Jonge",
+            "firstName": "Wim",
+            "initials": "WJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Gene Regulation, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mazza D",
+            "lastName": "Mazza",
+            "firstName": "Davide",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2776-4142"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Experimental Imaging Center, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lenstra TL",
+            "lastName": "Lenstra",
+            "firstName": "Tineke",
+            "initials": "TL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Gene Regulation, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6963-3960"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2776-4142"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>ABSTRACT</h4>  Rapid gene activation requires transcription factors (TFs) to locate their target motifs within vast genomes. In bacteria, TF target search is accelerated by combining 3D diffusion with 1D sliding, called facilitated diffusion, yet whether eukaryotic TFs rely on similar strategies has remained unresolved due to the lack of direct measurements in living cells. Here, we directly visualize eukaryotic TF target search in living cells by labeling a single TF per nucleus and visualizing its binding to its endogenous locus. Using the budding yeast TF Gal4, we find that efficient target localization occurs near the diffusion limit and does not require facilitated diffusion. Instead, rapid association requires cooperative self-interactions mediated by an intrinsically-disordered central region (IDR), independent of the activation domain. Replacing the Gal4 IDR with human self-interacting IDRs (EWS or FUS) restores efficient search, demonstrating that self-interactions are a general and portable feature for search. A second structured dimerization domain further cooperatives with the IDR to stabilize binding at neighboring motifs, revealing two mechanistically separable forms of cooperativity that together govern TF function. These findings highlight that facilitated diffusion is not strictly required and establish cooperative IDR-driven self-interactions as a key mechanism to enable rapid target recognition in eukaryotic cells.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "VI.Vidi.213.031",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "755695",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.09.709760"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1220426"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1220426&type=FILE&fileName=EMS215382-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215382",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-03-11",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

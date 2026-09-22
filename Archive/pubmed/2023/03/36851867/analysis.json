@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36851867",
+  "title": "Dissecting the structural heterogeneity of proteins by native mass spectrometry.",
+  "authors": "Reid, Deseree J; Thibert, Stephanie; Zhou, Mowei",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2023-03-01",
+  "window": {
+    "start": "2023-02-27",
+    "end": "2023-03-05"
+  },
+  "score": 5,
+  "one_liner_zh": "综述原生质谱技术在表征蛋白质结构异质性（包括无序蛋白动态构象和复合物）中的应用，虽涉及IDP和复合物，但方法为实验质谱而非AI/物理模拟，机制建模深度有限。",
+  "abstract": "A single gene yields many forms of proteins via combinations of posttranscriptional/posttranslational modifications. Proteins also fold into higher-order structures and interact with other molecules. The combined molecular diversity leads to the heterogeneity of proteins that manifests as distinct phenotypes. Structural biology has generated vast amounts of data, effectively enabling accurate structural prediction by computational methods. However, structures are often obtained heterologously under homogeneous states in vitro. The lack of native heterogeneity under cellular context creates challenges in precisely connecting the structural data to phenotypes. Mass spectrometry (MS) based proteomics methods can profile proteome composition of complex biological samples. Most MS methods follow the \"bottom-up\" approach, which denatures and digests proteins into short peptide fragments for ease of detection. Coupled with chemical biology approaches, higher-order structures can be probed via incorporation of covalent labels on native proteins that are maintained at the peptide level. Alternatively, native MS follows the \"top-down\" approach and directly analyzes intact proteins under nondenaturing conditions. Various tandem MS activation methods can dissect the intact proteins for in-depth structural elucidation. Herein, we review recent native MS applications for characterizing heterogeneous samples, including proteins binding to mixtures of ligands, homo/hetero-complexes with varying stoichiometry, intrinsically disordered proteins with dynamic conformations, glycoprotein complexes with mixed modification states, and active membrane protein complexes in near-native membrane environments. We summarize the benefits, challenges, and ongoing developments in native MS, with the hope to demonstrate an emerging technology that complements other tools by filling the knowledge gaps in understanding the molecular heterogeneity of proteins.",
+  "abstract_zh": "单个基因通过转录后/翻译后修饰的组合可产生多种蛋白质形式。蛋白质还会折叠成高级结构并与其他分子相互作用。这些组合的分子多样性导致了蛋白质的异质性，表现为不同的表型。结构生物学已产生大量数据，有效实现了通过计算方法对结构进行准确预测。然而，结构通常在体外均质状态下异源获得。细胞环境下缺乏天然异质性，给结构数据与表型的精确关联带来了挑战。基于质谱（mass spectrometry, MS）的蛋白质组学方法能够分析复杂生物样本的蛋白质组组成。大多数质谱方法采用“自下而上”策略，将蛋白质变性并消化成短肽片段以便检测。结合化学生物学方法，可通过在天然蛋白质上引入共价标记来探测高级结构，这些标记在肽段水平得以保留。另一种方式是天然质谱，采用“自上而下”策略，在非变性条件下直接分析完整蛋白质。多种串联质谱激活方法可解离完整蛋白质，以进行深入的结构解析。本文综述了近年来天然质谱在表征异质性样本中的应用，包括与配体混合物结合的蛋白质、具有不同化学计量比的同源/异源复合物、具有动态构象的内在无序蛋白质、具有混合修饰状态的糖蛋白复合物，以及近天然膜环境中的活性膜蛋白复合物。我们总结了天然质谱的优势、挑战及持续发展，旨在展示这一新兴技术如何通过填补理解蛋白质分子异质性的知识空白，与其他工具形成互补。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36851867/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36851867/",
+  "paper_page_path": "papers/pubmed/36851867/index.html"
+}

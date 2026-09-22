@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "42656830",
+    "doi": "10.1021/jacsau.6c00631",
+    "title": "Pathological Mutation E46K Acts as an Electrostatic Switch to Increase Distant Interdomain Interactions and Promote alpha‑Synuclein Phase Separation."
+  },
+  "content": {
+    "abstract": "The Parkinson's disease-related protein alpha-synuclein can form solid amyloid fibrils through liquid-liquid phase separation (LLPS) and liquid-to-solid phase transition. The most deleterious familial mutation E46K has recently been shown to enhance alpha-synuclein LLPS and subsequent solidification; yet, the precise mechanisms remain largely unknown. Here, using molecular dynamics simulations at different spatiotemporal scales combined with biochemical experiments, we show that the E46K mutation acts as an electrostatic switch to remodel interactions between the oppositely charged N-terminal domain (NTD) and C-terminal domain (CTD) of alpha-synuclein. This remodeling shifts the interaction site of NTD with CTD from its N-terminus to the mutation region. Such reorganization increases the hydrophobic solvent exposure of key LLPS-promoting motifs, potentially facilitating intermolecular interactions that initiate phase separation. Phase coexistence simulations further support this hypothesis, showing that the E46K mutant exhibits enhanced LLPS and solidification propensities. This enhancement is primarily driven by intermolecular electrostatic interactions between the mutation region and the CTD, followed by the hydrophobic NAC-NAC interactions mediated by the LLPS-promoting motifs. Collectively, these results reveal that NTD-CTD electrostatic crosstalk acts as the key modulator of alpha-synuclein phase separation, while NAC-NAC interactions play an auxiliary role, both of which synergistically govern alpha-synuclein phase separation. This study offers a complete and detailed mechanistic framework for understanding alpha-synuclein phase separation and its enhancement induced by the E46K mutation.",
+    "keywords": [
+      "Parkinson's disease",
+      "familial mutation",
+      "molecular dynamics simulation",
+      "phase separation",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Zhongyuan",
+        "Tang, Yiming",
+        "Wen, Jitao",
+        "Guo, Cong",
+        "Zhou, Yun",
+        "Wang, Zihan",
+        "Pan, Tong",
+        "Tan, Yuan",
+        "Perrett, Sarah",
+        "Wu, Si",
+        "Wei, Guanghong"
+      ],
+      "short_names": [
+        "Yang Z",
+        "Tang Y",
+        "Wen J",
+        "Guo C",
+        "Zhou Y",
+        "Wang Z",
+        "Pan T",
+        "Tan Y",
+        "Perrett S",
+        "Wu S",
+        "Wei G"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1686-6979",
+        "ORCID: 0000-0002-2976-5547",
+        "ORCID: 0000-0001-8655-0780",
+        "ORCID: 0000-0002-6093-8119",
+        "ORCID: 0000-0003-0137-0997",
+        "ORCID: 0000-0001-7743-8236",
+        "ORCID: 0000-0001-5814-3328"
+      ],
+      "affiliations": [
+        "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China. RINGGOLD: 12478",
+        "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China. RINGGOLD: 12478",
+        "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, 15 Datun Road, Chaoyang District, Beijing 100101, China.",
+        "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, 99 Shangda Rd, Baoshan District, Shanghai 200444, China. RINGGOLD: 34747",
+        "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China. RINGGOLD: 12478",
+        "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China. RINGGOLD: 12478",
+        "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China. RINGGOLD: 12478",
+        "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China. RINGGOLD: 12478",
+        "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, 15 Datun Road, Chaoyang District, Beijing 100101, China.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K.",
+        "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, 15 Datun Road, Chaoyang District, Beijing 100101, China.",
+        "University of the Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China.",
+        "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China. RINGGOLD: 12478"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Zhongyuan",
+        "short_name": "Yang Z",
+        "identifiers": [
+          "0000-0003-1686-6979"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yiming",
+        "short_name": "Tang Y",
+        "identifiers": [
+          "0000-0002-2976-5547"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Jitao",
+        "short_name": "Wen J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, 15 Datun Road, Chaoyang District, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Cong",
+        "short_name": "Guo C",
+        "identifiers": [
+          "0000-0001-8655-0780"
+        ],
+        "affiliations": [
+          "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, 99 Shangda Rd, Baoshan District, Shanghai 200444, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yun",
+        "short_name": "Zhou Y",
+        "identifiers": [
+          "0000-0002-6093-8119"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zihan",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Tong",
+        "short_name": "Pan T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Yuan",
+        "short_name": "Tan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Perrett, Sarah",
+        "short_name": "Perrett S",
+        "identifiers": [
+          "0000-0003-0137-0997"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, 15 Datun Road, Chaoyang District, Beijing 100101, China.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K."
+        ]
+      },
+      {
+        "full_name": "Wu, Si",
+        "short_name": "Wu S",
+        "identifiers": [
+          "0000-0001-7743-8236"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, 15 Datun Road, Chaoyang District, Beijing 100101, China.",
+          "University of the Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghong",
+        "short_name": "Wei G",
+        "identifiers": [
+          "0000-0001-5814-3328"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics and Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200438, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2026 Aug 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/27 12:36",
+    "fetched_at": "2026-09-18 06:01:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42656830",
+      "37238596",
+      "23374074",
+      "37489886",
+      "31111370",
+      "41804277",
+      "35485974",
+      "40916915",
+      "39421885",
+      "34431665",
+      "41815072",
+      "36841957",
+      "35981677",
+      "35787838",
+      "38511533",
+      "23607785",
+      "40560766",
+      "41147343",
+      "28075555",
+      "38973194",
+      "24450731",
+      "38464093",
+      "29704492",
+      "39342654",
+      "39148776",
+      "36310217",
+      "39504036",
+      "32015135",
+      "42411659",
+      "32457390",
+      "39116032",
+      "38335809",
+      "31097543",
+      "41609052",
+      "17530780",
+      "40440171",
+      "38731658",
+      "24833599",
+      "40819250",
+      "15632170",
+      "42387849",
+      "38321955",
+      "37781241",
+      "23374072",
+      "39756734",
+      "19576220",
+      "33452693",
+      "37577712",
+      "38657863",
+      "35086904",
+      "38808534",
+      "15498564",
+      "35836937",
+      "20114052",
+      "37870275",
+      "31242217",
+      "41301496",
+      "36454879",
+      "38160320",
+      "41672170",
+      "36278939",
+      "35657723",
+      "33139563",
+      "29364151",
+      "29555476",
+      "25869255",
+      "36835140",
+      "36310218",
+      "32078298",
+      "39851377",
+      "35500664",
+      "26695014",
+      "25817515",
+      "39302099",
+      "21280118",
+      "39507104",
+      "34165838",
+      "30913985",
+      "39384788",
+      "40769196",
+      "41433062",
+      "41087580",
+      "31048377",
+      "40383467",
+      "42283756",
+      "36373662",
+      "40770610",
+      "42247926",
+      "37579155",
+      "39612640",
+      "34506119",
+      "38862770",
+      "27177693",
+      "25561023",
+      "36682493",
+      "33982369",
+      "39306670",
+      "34911929",
+      "41507378",
+      "38586052"
+    ],
+    "review": [
+      "42656830",
+      "35787838",
+      "42387849",
+      "37781241",
+      "38808534",
+      "29364151",
+      "39507104",
+      "36373662"
+    ],
+    "pmc": [
+      "13508107"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42656830/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.6c00631",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

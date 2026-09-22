@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.01.31.478415",
+  "title": "Toward Atomistic Models of Intact SARS-CoV-2 via Martini Coarse-Grained Molecular Dynamics Simulations",
+  "authors": "Wang D; Li J; Wang L; Cao Y; Li S; Song C",
+  "journal": "bioRxiv",
+  "published_date": "2022-02-02",
+  "window": {
+    "start": "2022-01-31",
+    "end": "2022-02-06"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用Martini粗粒化MD构建完整SARS-CoV-2病毒多尺度模型，研究膜蛋白动态与脂质结合，虽非IDP/PPI机制建模，但粗粒化-全原子整合方法对病毒包膜蛋白互作建模有可迁移启发。",
+  "abstract": "The causative pathogen of Coronavirus disease 2019 (COVID-19), severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), is an enveloped virus assembled by a lipid envelope and multiple structural proteins. In this study, by integrating experimental data, structural modeling, and coarse-grained molecular dynamics simulations, we constructed multiscale models of SARS-CoV-2. Our 500-ns coarse-grained simulation of the intact virion allowed us to investigate the dynamic behavior of the membrane-embedded proteins and the surrounding lipid molecules in situ . Our results indicated that the membrane-embedded proteins are highly dynamic, and certain types of lipids exhibit various binding preferences to specific sites of the membrane-embedded proteins. The equilibrated virion model was transformed into atomic resolution, which provided a 3D structure for scientific demonstration and can serve as a framework for future exascale all-atom MD simulations.",
+  "abstract_zh": "2019冠状病毒病（COVID-19）的病原体，严重急性呼吸综合征冠状病毒2型（SARS-CoV-2），是一种由脂质包膜和多种结构蛋白组装而成的包膜病毒。在本研究中，通过整合实验数据、结构建模和粗粒化分子动力学模拟，我们构建了SARS-CoV-2的多尺度模型。对完整病毒粒子进行的500纳秒粗粒化模拟使我们能够原位研究膜嵌入蛋白及周围脂质分子的动态行为。结果表明，膜嵌入蛋白具有高度动态性，且某些类型的脂质对膜嵌入蛋白的特定位点表现出不同的结合偏好。平衡后的病毒粒子模型被转化为原子分辨率，为科学展示提供了三维结构，并可作为未来百亿亿次全原子分子动力学模拟的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.01.31.478415",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.01.31.478415",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.01.31.478415/index.html"
+}

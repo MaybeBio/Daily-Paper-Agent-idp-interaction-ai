@@ -1,0 +1,448 @@
+{
+  "identity": {
+    "pmid": "37917924",
+    "doi": "10.1021/jacs.3c09198",
+    "title": "The Energetic Origins of Pi-Pi Contacts in Proteins."
+  },
+  "content": {
+    "abstract": "Accurate potential energy models of proteins must describe the many different types of noncovalent interactions that contribute to a protein's stability and structure. Pi-pi contacts are ubiquitous structural motifs in all proteins, occurring between aromatic and nonaromatic residues and play a nontrivial role in protein folding and in the formation of biomolecular condensates. Guided by a geometric criterion for isolating pi-pi contacts from classical molecular dynamics simulations of proteins, we use quantum mechanical energy decomposition analysis to determine the molecular interactions that stabilize different pi-pi contact motifs. We find that neutral pi-pi interactions in proteins are dominated by Pauli repulsion and London dispersion rather than repulsive quadrupole electrostatics, which is central to the textbook Hunter-Sanders model. This results in a notable lack of variability in the interaction profiles of neutral pi-pi contacts even with extreme changes in the dielectric medium, explaining the prevalence of pi-stacked arrangements in and between proteins. We also find interactions involving pi-containing anions and cations to be extremely malleable, interacting like neutral pi-pi contacts in polar media and like typical ion-pi interactions in nonpolar environments. Like-charged pairs such as arginine-arginine contacts are particularly sensitive to the polarity of their immediate surroundings and exhibit canonical pi-pi stacking behavior only if the interaction is mediated by environmental effects, such as aqueous solvation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Carter-Fenk, Kay",
+        "Liu, Meili",
+        "Pujal, Leila",
+        "Loipersberger, Matthias",
+        "Tsanai, Maria",
+        "Vernon, Robert M",
+        "Forman-Kay, Julie D",
+        "Head-Gordon, Martin",
+        "Heidar-Zadeh, Farnaz",
+        "Head-Gordon, Teresa"
+      ],
+      "short_names": [
+        "Carter-Fenk K",
+        "Liu M",
+        "Pujal L",
+        "Loipersberger M",
+        "Tsanai M",
+        "Vernon RM",
+        "Forman-Kay JD",
+        "Head-Gordon M",
+        "Heidar-Zadeh F",
+        "Head-Gordon T"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8302-4750",
+        "ORCID: 0000-0002-3648-0101",
+        "ORCID: 0000-0001-8265-972X",
+        "ORCID: 0000-0002-4309-6669",
+        "ORCID: 0000-0003-0025-8987"
+      ],
+      "affiliations": [
+        "Kenneth S. Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States.",
+        "Department of Chemistry, University of California, Berkeley, California 94720, United States.",
+        "Kenneth S. Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States.",
+        "Department of Chemistry, University of California, Berkeley, California 94720, United States.",
+        "Department of Chemistry, Beijing Normal University, Beijing 100875, China.",
+        "Department of Chemistry, Queen's University, Kingston, Ontario K7L 3N6, Canada.",
+        "Kenneth S. Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States.",
+        "Department of Chemistry, University of California, Berkeley, California 94720, United States.",
+        "Kenneth S. Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States.",
+        "Department of Chemistry, University of California, Berkeley, California 94720, United States.",
+        "Molecular Medicine Program, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Molecular Medicine Program, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Kenneth S. Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States.",
+        "Department of Chemistry, University of California, Berkeley, California 94720, United States.",
+        "Department of Chemistry, Queen's University, Kingston, Ontario K7L 3N6, Canada.",
+        "Center for Molecular Modeling (CMM), Ghent University, 9052 Zwijnaarde, Belgium.",
+        "Kenneth S. Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States.",
+        "Department of Chemistry, University of California, Berkeley, California 94720, United States.",
+        "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, California 94720, United States.",
+        "Department of Bioengineering, University of California, Berkeley, California 94720, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Carter-Fenk, Kay",
+        "short_name": "Carter-Fenk K",
+        "identifiers": [
+          "0000-0001-8302-4750"
+        ],
+        "affiliations": [
+          "Kenneth S. Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States.",
+          "Department of Chemistry, University of California, Berkeley, California 94720, United States."
+        ]
+      },
+      {
+        "full_name": "Liu, Meili",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Kenneth S. Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States.",
+          "Department of Chemistry, University of California, Berkeley, California 94720, United States.",
+          "Department of Chemistry, Beijing Normal University, Beijing 100875, China."
+        ]
+      },
+      {
+        "full_name": "Pujal, Leila",
+        "short_name": "Pujal L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Queen's University, Kingston, Ontario K7L 3N6, Canada."
+        ]
+      },
+      {
+        "full_name": "Loipersberger, Matthias",
+        "short_name": "Loipersberger M",
+        "identifiers": [
+          "0000-0002-3648-0101"
+        ],
+        "affiliations": [
+          "Kenneth S. Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States.",
+          "Department of Chemistry, University of California, Berkeley, California 94720, United States."
+        ]
+      },
+      {
+        "full_name": "Tsanai, Maria",
+        "short_name": "Tsanai M",
+        "identifiers": [],
+        "affiliations": [
+          "Kenneth S. Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States.",
+          "Department of Chemistry, University of California, Berkeley, California 94720, United States."
+        ]
+      },
+      {
+        "full_name": "Vernon, Robert M",
+        "short_name": "Vernon RM",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Medicine Program, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Forman-Kay, Julie D",
+        "short_name": "Forman-Kay JD",
+        "identifiers": [
+          "0000-0001-8265-972X"
+        ],
+        "affiliations": [
+          "Molecular Medicine Program, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Head-Gordon, Martin",
+        "short_name": "Head-Gordon M",
+        "identifiers": [
+          "0000-0002-4309-6669"
+        ],
+        "affiliations": [
+          "Kenneth S. Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States.",
+          "Department of Chemistry, University of California, Berkeley, California 94720, United States."
+        ]
+      },
+      {
+        "full_name": "Heidar-Zadeh, Farnaz",
+        "short_name": "Heidar-Zadeh F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Queen's University, Kingston, Ontario K7L 3N6, Canada.",
+          "Center for Molecular Modeling (CMM), Ghent University, 9052 Zwijnaarde, Belgium."
+        ]
+      },
+      {
+        "full_name": "Head-Gordon, Teresa",
+        "short_name": "Head-Gordon T",
+        "identifiers": [
+          "0000-0003-0025-8987"
+        ],
+        "affiliations": [
+          "Kenneth S. Pitzer Center for Theoretical Chemistry, University of California, Berkeley, California 94720, United States.",
+          "Department of Chemistry, University of California, Berkeley, California 94720, United States.",
+          "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, California 94720, United States.",
+          "Department of Bioengineering, University of California, Berkeley, California 94720, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2023 Nov 2",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/02 18:43",
+    "fetched_at": "2026-09-21 02:31:27"
+  },
+  "links": {
+    "cites": [
+      "42622265",
+      "42604903",
+      "42111176",
+      "41976175",
+      "41954594",
+      "41939364",
+      "41865187",
+      "41614783",
+      "41584130",
+      "41342450",
+      "40839799",
+      "40787583",
+      "40559301",
+      "40314620",
+      "40188296",
+      "39775115",
+      "39669175",
+      "39571090",
+      "39531038",
+      "39321462",
+      "39223472",
+      "39125845",
+      "39100174",
+      "38927029"
+    ],
+    "refs": [
+      "36594208",
+      "36583611",
+      "36009025",
+      "35072483",
+      "34163903",
+      "34094127",
+      "33810353",
+      "33636998",
+      "33368350",
+      "33169001",
+      "33107520",
+      "31788635",
+      "31408601",
+      "31251411",
+      "30449618",
+      "30013675",
+      "29424691",
+      "29096520",
+      "29096505",
+      "28924037",
+      "28894006",
+      "28530710",
+      "28279363",
+      "27901142",
+      "27492057",
+      "27056844",
+      "26575915",
+      "26413036",
+      "25811943",
+      "25423285",
+      "24937084",
+      "24749535",
+      "24430168",
+      "24328448",
+      "23581492",
+      "23418701",
+      "23148796",
+      "23020662",
+      "22725832",
+      "22649598",
+      "21815686",
+      "21732511",
+      "21599009",
+      "21197972",
+      "20161573",
+      "20136072",
+      "19886621",
+      "19719266",
+      "19132847",
+      "18652453",
+      "17655284",
+      "16736493",
+      "16478167",
+      "15198617",
+      "12645054",
+      "11749236",
+      "9624131",
+      "3892686",
+      "2492988",
+      "2023252"
+    ],
+    "similar": [
+      "37917924",
+      "42475469",
+      "34094127",
+      "33107520",
+      "19904910",
+      "11427046",
+      "23214924",
+      "23912807",
+      "22725832",
+      "29799185",
+      "39818769",
+      "33152232",
+      "23991905",
+      "21366334",
+      "27753291",
+      "24816369",
+      "15769516",
+      "31738549",
+      "12167645",
+      "23477406",
+      "42192191",
+      "23020662",
+      "42316834",
+      "34550669",
+      "41909144",
+      "26979279",
+      "15225993",
+      "27869262",
+      "31518010",
+      "29719674",
+      "36635230",
+      "17451749",
+      "22704792",
+      "24787756",
+      "28352893",
+      "22725723",
+      "30809364",
+      "12727287",
+      "16964601",
+      "15327962",
+      "41288170",
+      "25380210",
+      "22720789",
+      "40766493",
+      "39464439",
+      "34349936",
+      "39223472",
+      "39596514",
+      "33799657",
+      "34101460",
+      "30833023",
+      "22702344",
+      "24771291",
+      "29899893",
+      "42478974",
+      "32118177",
+      "34632193",
+      "23095018",
+      "20151654",
+      "25723403",
+      "23526191",
+      "22621170",
+      "15268287",
+      "24692007",
+      "22872015",
+      "19241386",
+      "24256417",
+      "29424691",
+      "25296040",
+      "32227907",
+      "24744240",
+      "24676497",
+      "36454943",
+      "20673216",
+      "41091623",
+      "32852943",
+      "33544852",
+      "20927465",
+      "24937084",
+      "23148796",
+      "32559061",
+      "23486862",
+      "36291642",
+      "30517843",
+      "18068194",
+      "40867649",
+      "26910415",
+      "30202466",
+      "33978015",
+      "21809837",
+      "19653064",
+      "26370211",
+      "25032482",
+      "28975780",
+      "36239387",
+      "22726207",
+      "23452343",
+      "22017310",
+      "28811207",
+      "40430346"
+    ],
+    "review": [
+      "37917924",
+      "29799185",
+      "41288170"
+    ],
+    "pmc": [
+      "10655088"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/jacs.3c09198",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37917924/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37917924",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt4sz2d3d1",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.3c09198",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered N-terminal domain (NTD) of p53, rather than the DNA-binding domain (DBD), is the primary binding site for mitochondrial cyclophilin D (CypD), based on surface plasmon resonance (SPR), NMR titration, and molecular dynamics (MD) simulations. They further identify residues 20-70 of NTD as the minimal binding region and two sub-fragments, D1 (22-44) and D2 (58-70), each binding CypD with millimolar affinity.
+- **Visible evidence base** Abstract text only; references to Fig. 1C and 1D are mentioned but not accessible
+- **Missing materials affecting confidence** Full manuscript, all figures (including Fig. 1C and 1D), experimental methods, NMR spectra, MD simulation details, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant revision of the current understanding of p53-CypD interactions, shifting the binding site from the DBD to the intrinsically disordered NTD. The claim is supported by a multi-technique approach (SPR, NMR, MD), which is commendable. However, the abstract alone provides insufficient detail to evaluate the rigor of the binding measurements, the specificity of the interaction, and the physiological relevance of the millimolar affinities reported for the minimal fragments. The central claim that NTD is the "major" binding site contradicts prior reports implicating DBD, and the evidence presented here does not fully resolve this discrepancy without access to the underlying data.
+- **Who would be interested in the results, and why** Researchers in mitochondrial biology, cell death signaling, p53 function, and drug discovery targeting the mPTP. The findings could inform therapeutic strategies for ischemia/reperfusion injury, neurodegeneration, and cancer, where p53-mediated mitochondrial pathways are relevant. Structural biologists studying intrinsically disordered proteins and their interactions would also find the dynamic interface characterization of interest.
+- **Major strengths** The use of multiple complementary biophysical techniques (SPR, NMR, MD) to characterize the interaction is a methodological strength. The identification of a specific minimal binding region (NTD 20-70) and sub-fragments provides a clear roadmap for further mechanistic studies. The finding that NTD, an intrinsically disordered region, mediates the interaction via a broad and dynamic interface dominated by electrostatics is conceptually novel and could have broad implications for understanding disordered protein interactions.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "instead of DBD, NTD is the major CypD binding site on p53," based on SPR-derived K D values of ~1 μM for FLp53 and ~10 μM for both NTD-DBD and NTD.
+  - **Evidence pointer** Fig. 1C and 1D (not provided)
+  - **Concern** The abstract reports K D values for FLp53, NTD-DBD, and NTD, but the interpretation that NTD is the "major" binding site is not straightforward. If NTD-DBD and NTD both bind with ~10 μM K D, the contribution of DBD cannot be excluded, and the difference between FLp53 (~1 μM) and NTD (~10 μM) suggests that other regions may contribute to binding affinity. The abstract does not explain how the relative contributions of NTD versus DBD were deconvoluted, nor does it provide evidence that DBD binding is negligible in the context of FLp53.
+  - **Why it matters** The central claim of the paper hinges on this interpretation. If DBD also contributes to CypD binding, the conclusion that NTD is the "major" site is overstated. Without a clear demonstration of the relative affinities and occupancies of each domain in the full-length protein, the claim is not established.
+  - **Resolution test** Provide SPR data showing competitive binding experiments or mutagenesis studies where NTD or DBD is deleted or mutated in the context of FLp53, demonstrating that NTD disruption abolishes or significantly reduces CypD binding while DBD disruption has minimal effect.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors state that "two NTD fragments, D1 (residues 22-44) and D2 (58-70), can each bind CypD with mM affinity."
+  - **Evidence pointer** Location not provided
+  - **Concern** Millimolar affinities for the minimal fragments are extremely weak and raise questions about the physiological relevance of these interactions. The abstract does not specify the exact K D values, the buffer conditions, or whether these measurements were performed under conditions that mimic the mitochondrial environment. Additionally, the relationship between the millimolar affinity of the fragments and the micromolar affinity of the full NTD is not explained, which is critical for understanding whether the fragments represent true binding epitopes or merely non-specific electrostatic interactions.
+  - **Why it matters** Weak affinities may indicate non-specific binding, which would undermine the claim that NTD 20-70 is a specific CypD interaction region. The lack of context for these measurements prevents assessment of their biological significance.
+  - **Resolution test** Provide detailed SPR or isothermal titration calorimetry data for D1 and D2, including controls with scrambled or charge-neutralized peptides, and demonstrate that the millimolar affinities are specific and not due to non-specific electrostatic effects. Also show how the fragment affinities relate to the full NTD binding through avidity or cooperativity models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance
+  - **Claim pointer** The authors imply that the NTD/CypD interaction is relevant to "p53-dependent mPTP opening and drug discovery."
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract does not provide any cellular or in vivo evidence linking the NTD/CypD interaction to mPTP opening. The biophysical characterization is purely in vitro, and the functional consequences of disrupting this interaction are not demonstrated. The claim of therapeutic relevance is therefore speculative at this stage.
+  - **Why it matters** For a Nature-style audience, the translational significance of the findings needs to be supported by functional data. Without evidence that the NTD/CypD interaction modulates mPTP activity in cells, the broader impact of the study is limited.
+  - **Resolution test** Include cellular assays showing that NTD-derived peptides or mutations that disrupt NTD/CypD binding affect p53-induced mPTP opening, mitochondrial depolarization, or cell death in relevant cell lines.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "NTD-DBD" is ambiguous. It is unclear whether this refers to a construct containing both NTD and DBD, or a fusion protein. Clarification is needed.
+  - **Required correction** Define "NTD-DBD" explicitly in the abstract or methods, specifying the exact residues included in the construct.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Location not provided
+  - **Issue** The abstract does not specify the buffer conditions, temperature, or salt concentration used in the SPR and NMR experiments. These parameters are critical for interpreting binding affinities, especially for electrostatic interactions.
+  - **Required correction** Include key experimental conditions in the abstract or refer to specific methods sections where these details are provided.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Statistical analysis
+  - **Evidence pointer** Location not provided
+  - **Issue** No error estimates or replicates are mentioned for the K D values. It is unclear whether the reported values are from single experiments or represent means with standard deviations.
+  - **Required correction** State the number of replicates and provide error estimates for all reported binding affinities.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (relative contribution of NTD versus DBD in FLp53 binding), R1-M2 (specificity and relevance of millimolar fragment affinities), R1-M3 (lack of functional validation for mPTP relevance)
+- **Assessment against Nature-style criteria** 
+  - Originality: The claim that NTD, rather than DBD, is the major CypD binding site is novel and challenges existing literature. However, the abstract does not provide sufficient mechanistic detail to fully assess the originality of the approach.
+  - Scientific importance: The p53-CypD interaction is of high importance in cell death and disease. If the NTD claim is validated, it could redirect drug discovery efforts. However, the lack of functional data limits the immediate impact.
+  - Interdisciplinary readership: The topic bridges structural biology, biophysics, and cell death signaling, which would appeal to a broad readership. The use of multiple techniques enhances accessibility.
+  - Technical soundness: The multi-technique approach is sound in principle, but the abstract lacks the detail needed to verify the rigor of the measurements, particularly regarding the deconvolution of domain contributions and the specificity of weak fragment binding.
+  - Readability for nonspecialists: The abstract is generally clear, but terms like "NTD-DBD" and the significance of millimolar versus micromolar affinities may confuse nonspecialists. The abstract could benefit from a brief explanation of why the NTD finding is surprising.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core claim is potentially significant, but the evidence as presented in the abstract is insufficient to establish that NTD is the major binding site or that the millimolar fragment affinities are biologically meaningful. Access to the full manuscript and figures is essential for a definitive assessment.
+
+## Risk / unsupported claims
+- The claim that NTD is the "major" CypD binding site on p53 is unsupported without data demonstrating the relative contributions of NTD and DBD in the full-length protein context.
+- The physiological relevance of the NTD/CypD interaction for mPTP opening is unsupported, as no functional or cellular data are presented.
+- The millimolar affinities of D1 and D2 are reported without context, and their specificity is not established, making the claim that they represent true binding epitopes unverifiable from the abstract alone.
+- The statement that the findings provide "novel insights on the p53-dependent mPTP opening and drug discovery" is speculative and not supported by the evidence described in the abstract.

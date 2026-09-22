@@ -1,0 +1,130 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.08.28.747917",
+  "title": "Single-Molecule Nanopore Profiling of p53-TAD’s Conformational Dynamics, Interactions, and Inhibition",
+  "doi": "10.64898/2026.08.28.747917",
+  "abstract": "Investigating the conformational dynamics of intrinsically disordered proteins (IDPs) is essential to understanding how their structural heterogeneity underlies function and how their dysregulation contributes to diseases. Here, we utilized an MspA nanopore-based approach for studying the conformational dynamics and interactions of IDPs at the single-molecule level. The platform was demonstrated using the intrinsically disordered transactivation domain of tumor suppressor p53 (p53-TAD), one of the important proteins in cancer biology. We showed that MspA can stably capture p53-TAD and resolve up to six distinct current states with frequent interconversions, revealing a rich conformational landscape. The nanopore also detected the effect of a cancer-associated double mutational variant, N29K/N30D. Combining experiments with steered molecular dynamics simulations, we showed that the mutant sampled compact conformational states more frequently than wild type, consistent with previous NMR studies. Importantly, the MspA platform enabled direct monitoring of E3 ligase MDM2 binding to p53-TAD and resolved how this interaction is inhibited by anti-cancer compound epigallocatechin gallate (EGCG). Notably, EGCG stabilizes one of the six states sampled by p53-TAD, providing a mechanistic explanation for its inhibitory effect. Together, these findings demonstrate the promise of the nanopore platform for label-free monitoring of IDP conformational dynamics, modulation, binding and inhibition at single-molecule resolution.",
+  "authors": [
+    "DeCoeur D",
+    "Schultz S",
+    "Chen J",
+    "Chen M"
+  ],
+  "published_date": "2026-08-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747917",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747917.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1308215",
+    "raw_record": {
+      "id": "PPR1308215",
+      "source": "PPR",
+      "doi": "10.64898/2026.08.28.747917",
+      "title": "Single-Molecule Nanopore Profiling of p53-TAD’s Conformational Dynamics, Interactions, and Inhibition",
+      "authorString": "DeCoeur D, Schultz S, Chen J, Chen M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "DeCoeur D",
+            "lastName": "DeCoeur",
+            "firstName": "David",
+            "initials": "D"
+          },
+          {
+            "fullName": "Schultz S",
+            "lastName": "Schultz",
+            "firstName": "Samantha",
+            "initials": "S"
+          },
+          {
+            "fullName": "Chen J",
+            "lastName": "Chen",
+            "firstName": "Jianhan",
+            "initials": "J"
+          },
+          {
+            "fullName": "Chen M",
+            "lastName": "Chen",
+            "firstName": "Min",
+            "initials": "M"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Investigating the conformational dynamics of intrinsically disordered proteins (IDPs) is essential to understanding how their structural heterogeneity underlies function and how their dysregulation contributes to diseases. Here, we utilized an MspA nanopore-based approach for studying the conformational dynamics and interactions of IDPs at the single-molecule level. The platform was demonstrated using the intrinsically disordered transactivation domain of tumor suppressor p53 (p53-TAD), one of the important proteins in cancer biology. We showed that MspA can stably capture p53-TAD and resolve up to six distinct current states with frequent interconversions, revealing a rich conformational landscape. The nanopore also detected the effect of a cancer-associated double mutational variant, N29K/N30D. Combining experiments with steered molecular dynamics simulations, we showed that the mutant sampled compact conformational states more frequently than wild type, consistent with previous NMR studies. Importantly, the MspA platform enabled direct monitoring of E3 ligase MDM2 binding to p53-TAD and resolved how this interaction is inhibited by anti-cancer compound epigallocatechin gallate (EGCG). Notably, EGCG stabilizes one of the six states sampled by p53-TAD, providing a mechanistic explanation for its inhibitory effect. Together, these findings demonstrate the promise of the nanopore platform for label-free monitoring of IDP conformational dynamics, modulation, binding and inhibition at single-molecule resolution.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "GM139789",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "R01AI156187",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "R01GM159415",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "R35GM144045",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.08.28.747917"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-08-31",
+      "firstPublicationDate": "2026-08-29",
+      "firstIndexDate": "2026-08-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.24.696370",
+  "title": "Evolutionary dynamics of the arthropod moulting machinery",
+  "doi": "10.64898/2025.12.24.696370",
+  "abstract": "Exoskeletons define arthropods, providing support for segmented bodies and appendages while protecting against environmental stress and predation. Although ubiquitous, this evolutionarily variable feature has enabled arthropods to occupy diverse lifestyles and ecological niches, contributing to their unrivalled diversity. Because the chitinous cuticle is rigid, exoskeletons must be periodically shed and replaced as animals grow. Arthropods therefore develop through discrete moults, with conserved phases that progress from pre-moult preparation to ecdysis and post-moult maturation. These are tightly regulated developmental transitions controlled by a molecular toolkit comprising neuropeptides, hormone-synthesising enzymes, receptors, and the early, fate, and late gene sets that activate and execute the moulting process. Although genetic studies in model species have identified many components, major knowledge gaps remain, especially in non-insect arthropods. Advances in genome sequencing now enable comparative genomic analyses across diverse, previously understudied arthropod lineages to begin to address these gaps. We present a comprehensive comparative genomic survey of arthropods, sampling all four subphyla: Chelicerata, Myriapoda, Crustacea, and Hexapoda. Orthology inference and gene copy-number analyses contrast stable and dynamic components of the moulting machinery across the phylum. Ancestral state reconstructions and phylogenetic reconciliations reveal gene duplication and loss dynamics and the evolutionary histories of key moulting gene families. The inclusion of newly generated myriapod genomes addresses a major taxonomic gap and enables inferences of gene repertoire changes in the Mandibulata ancestor. The broad taxonomic representation enables a phylum-wide assessment to systematically evaluate, refine, and revise current understanding of the evolutionary dynamics of the entire moulting genetic toolkit.",
+  "authors": [
+    "Campli G",
+    "Joye S",
+    "Volovych O",
+    "Novikov A",
+    "Chipman AD",
+    "Robinson-Rechavi M",
+    "Waterhouse RM"
+  ],
+  "published_date": "2025-12-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.24.696370",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.24.696370.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1225518",
+    "raw_record": {
+      "id": "PPR1225518",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1225518"
+        ]
+      },
+      "doi": "10.64898/2025.12.24.696370",
+      "title": "Evolutionary dynamics of the arthropod moulting machinery",
+      "authorString": "Campli G, Joye S, Volovych O, Novikov A, Chipman AD, Robinson-Rechavi M, Waterhouse RM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Campli G",
+            "lastName": "Campli",
+            "firstName": "Giulia",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-7732-9222"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Ecology and Evolution, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Joye S",
+            "lastName": "Joye",
+            "firstName": "Sagane",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4771-6113"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Ecology and Evolution, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Volovych O",
+            "lastName": "Volovych",
+            "firstName": "Olga",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3932-8770"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Department of Ecology, Evolution and Behaviour, , Edmond J. Safra Campus , Givat Ram, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Novikov A",
+            "lastName": "Novikov",
+            "firstName": "Asya",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Department of Ecology, Evolution and Behaviour, , Edmond J. Safra Campus , Givat Ram, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chipman AD",
+            "lastName": "Chipman",
+            "firstName": "Ariel",
+            "initials": "AD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6696-840X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Department of Ecology, Evolution and Behaviour, , Edmond J. Safra Campus , Givat Ram, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Robinson-Rechavi M",
+            "lastName": "Robinson-Rechavi",
+            "firstName": "Marc",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3437-3329"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Ecology and Evolution, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waterhouse RM",
+            "lastName": "Waterhouse",
+            "firstName": "Robert",
+            "initials": "RM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4199-9052"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6696-840X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3437-3329"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3932-8770"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4199-9052"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4771-6113"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-7732-9222"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Exoskeletons define arthropods, providing support for segmented bodies and appendages while protecting against environmental stress and predation. Although ubiquitous, this evolutionarily variable feature has enabled arthropods to occupy diverse lifestyles and ecological niches, contributing to their unrivalled diversity. Because the chitinous cuticle is rigid, exoskeletons must be periodically shed and replaced as animals grow. Arthropods therefore develop through discrete moults, with conserved phases that progress from pre-moult preparation to ecdysis and post-moult maturation. These are tightly regulated developmental transitions controlled by a molecular toolkit comprising neuropeptides, hormone-synthesising enzymes, receptors, and the early, fate, and late gene sets that activate and execute the moulting process. Although genetic studies in model species have identified many components, major knowledge gaps remain, especially in non-insect arthropods. Advances in genome sequencing now enable comparative genomic analyses across diverse, previously understudied arthropod lineages to begin to address these gaps. We present a comprehensive comparative genomic survey of arthropods, sampling all four subphyla: Chelicerata, Myriapoda, Crustacea, and Hexapoda. Orthology inference and gene copy-number analyses contrast stable and dynamic components of the moulting machinery across the phylum. Ancestral state reconstructions and phylogenetic reconciliations reveal gene duplication and loss dynamics and the evolutionary histories of key moulting gene families. The inclusion of newly generated myriapod genomes addresses a major taxonomic gap and enables inferences of gene repertoire changes in the Mandibulata ancestor. The broad taxonomic representation enables a phylum-wide assessment to systematically evaluate, refine, and revise current understanding of the evolutionary dynamics of the entire moulting genetic toolkit.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "198691",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.24.696370"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1225518"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1225518&type=FILE&fileName=EMS214353-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42504960",
+            "reference": "Molecular biology and evolution. \n    2026 Jul;:msag181",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214353",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pfam",
+          "interpro",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-25",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

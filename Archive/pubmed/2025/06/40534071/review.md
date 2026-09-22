@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, without access to full manuscript text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that sequence-dependent material properties of biomolecular condensates, driven by short-range one-to-one specific interactions, can be systematically characterized by a sequence descriptor varphi;*. They report correlations between varphi;* and properties such as radius of gyration, critical temperature, density, surface tension, viscosity, and diffusion coefficient, and identify distinct scaling behaviors near critical points, with viscosity showing greater sensitivity than surface tension. They further claim that high-varphi;* sequences impede droplet growth.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, definition and derivation of varphi;*, quantitative correlation coefficients, scaling law exponents, error estimates, system sizes, force field parameters, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting framework linking a sequence descriptor to multiple material properties in biomolecular condensates driven by short-range interactions. However, the evidence base is limited to a summary of findings without quantitative details, making it impossible to evaluate the robustness of the claimed correlations, the validity of the scaling relationships, or the generality of the conclusions. The work may appeal to researchers in biomolecular phase separation and soft matter physics, but the current abstract does not provide sufficient information to assess technical soundness or establish the case.
+- **Who would be interested in the results, and why** Researchers in biomolecular condensates, phase separation, biophysics, and soft matter physics would be interested because the proposed sequence descriptor could offer a predictive tool for designing condensates with tailored material properties, which has implications for understanding cellular organization and developing therapeutic strategies.
+- **Major strengths** The study addresses a relevant gap by focusing on short-range specific interactions, which are less explored than long-range nonspecific interactions. The use of a single sequence descriptor to unify multiple material properties is an elegant conceptual approach. The identification of distinct scaling behaviors for surface tension and viscosity near critical points is a potentially novel finding.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim strong correlations between varphi;* and key material or structural properties, including radius of gyration, critical temperature, density, surface tension, viscosity, and diffusion coefficient.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract provides no quantitative measures of these correlations, such as correlation coefficients, confidence intervals, or statistical significance. Without these, the strength and reliability of the claimed correlations cannot be assessed.  
+  - **Why it matters** The central thesis of the paper rests on the predictive power of varphi;*. If the correlations are weak or non-robust across sequence space, the framework loses its utility.  
+  - **Resolution test** Provide correlation coefficients with error bars, statistical tests, and validation on independent sequence sets in the full manuscript.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that near critical points, surface tension and viscosity exhibit distinct scaling relationships with temperature, with viscosity showing much greater sensitivity.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No scaling exponents, temperature ranges, or error estimates are provided. The claim of "much greater sensitivity" is qualitative and cannot be evaluated without numerical values.  
+  - **Why it matters** Scaling relationships are central to the physical interpretation and could be a key novel contribution. Lack of quantitative detail prevents verification and comparison with existing theories.  
+  - **Resolution test** Report scaling exponents with uncertainties, specify the temperature window relative to the critical point, and discuss consistency with theoretical predictions.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The study combines theoretical analysis and coarse-grained molecular dynamics simulations to investigate sequence-dependent material properties.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No details on the simulation model, force field, sequence library, system size, or equilibration protocols are given. The definition of varphi;* is not provided.  
+  - **Why it matters** Reproducibility is a fundamental requirement. Without methodological details, the results cannot be replicated or extended by other groups.  
+  - **Resolution test** Include a full methods section with model parameters, sequence generation, and varphi;* definition in the manuscript.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors claim that sequences with high varphi;* may impede the efficient growth of droplets.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The mechanism underlying this effect is not explained. It is unclear whether this is due to kinetic barriers, altered interfacial properties, or other factors.  
+  - **Why it matters** This claim has potential biological relevance, but without mechanistic insight, its significance remains speculative.  
+  - **Resolution test** Provide simulation data on droplet growth kinetics and a mechanistic explanation supported by structural or dynamical analyses.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not define varphi;* or explain its physical meaning, which is central to the study.  
+  - **Required correction** Add a brief definition or intuitive description of varphi;* in the abstract.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "short-range, one-to-one specific interactions" is used without elaboration, which may confuse readers unfamiliar with the distinction from long-range interactions.  
+  - **Required correction** Clarify the nature of these interactions in one sentence.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not mention any comparison with experimental data or existing models, leaving the novelty unclear.  
+  - **Required correction** Add a sentence on how the findings relate to prior work or experimental observations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative correlation data, scaling exponents, and methodological details prevents verification of the core claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The focus on short-range specific interactions and a unifying sequence descriptor is a fresh angle, but the abstract does not demonstrate clear novelty over existing sequence-encoding frameworks.  
+  - Scientific importance: The potential to predict material properties from sequence is valuable, but the significance is not fully established without mechanistic or experimental links.  
+  - Interdisciplinary readership: The topic bridges biophysics, soft matter, and cell biology, but the abstract is too technical for nonspecialists without context.  
+  - Technical soundness: Not assessable from the abstract due to missing quantitative and methodological details.  
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with phase separation concepts and descriptors, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a promising framework, but the absence of quantitative results and methodological transparency precludes a supportive recommendation. A full manuscript with detailed evidence could change this assessment.
+
+## Risk / unsupported claims
+- The claim of strong correlations between varphi;* and material properties is unsupported without quantitative correlation metrics.
+- The claim of distinct scaling relationships for surface tension and viscosity is unsupported without exponents and error estimates.
+- The claim that high-varphi;* sequences impede droplet growth is unsupported without kinetic data or mechanistic explanation.
+- The generalizability of the framework to all biomolecular condensates is not assessable from the abstract.

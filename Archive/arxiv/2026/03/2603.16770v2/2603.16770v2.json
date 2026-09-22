@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2603.16770v2",
+  "title": "Training a force field for proteins and small molecules from scratch",
+  "doi": "",
+  "abstract": "Force fields for molecular dynamics are usually developed manually, limiting their transferability and making systematic exploration of functional forms challenging. We developed a graph neural network that assigns all force field parameters for diverse molecules using continuous atom typing. The freely-available model, called Garnet, was trained on quantum mechanical, condensed phase and protein nuclear magnetic resonance data without the use of existing parameters. The resulting force field shows comparable performance to current force fields on small molecules, folded proteins, protein complexes and disordered proteins. It shows similar results to popular approaches for relative binding free energy predictions across a range of targets. Assessing different functional forms shows that the double exponential potential is a flexible and accurate alternative to the Lennard-Jones potential. Garnet provides a platform for automated, reproducible force field discovery that brings the benefits of machine learning to classical force fields.",
+  "authors": [
+    "Alexandre Blanco-González",
+    "Thea K Schulze",
+    "Evianne Rovers",
+    "Joe G Greener"
+  ],
+  "published_date": "2026-03-17T16:47:28Z",
+  "updated_date": "2026-07-16T16:44:54Z",
+  "journal": "",
+  "category": "q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2603.16770v2",
+  "pdf_url": "https://arxiv.org/pdf/2603.16770v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2603.16770v2",
+    "raw_categories": [
+      "q-bio.BM"
+    ],
+    "journal_ref": ""
+  }
+}

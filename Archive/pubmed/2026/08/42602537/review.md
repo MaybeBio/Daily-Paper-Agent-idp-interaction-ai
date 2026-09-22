@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, figure legends, table description, references cited within text)
+- **Assessment boundary** Scientific content, internal consistency, methodological transparency, and support for claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors review 117 human protein-protein interactions (PPIs) with reported inhibitors, classify them by dominant secondary structure at the interface (α-helix, β-strand, disordered/loop), and propose that this framework links interface architecture to inhibitor discovery strategies, with implications for targeting underexplored classes such as coiled coils and intrinsically disordered regions.
+- **Visible evidence base** Abstract, main text sections (Introduction, PPI inhibitors, Categorisation, Inhibitor design strategies for each class, Conclusion), figure legends (Figs 1-18), table description (Table 1), author contributions, conflicts, data availability, acknowledgements
+- **Missing materials affecting confidence** Full reference list, Table 1 contents (specific PPI names, inhibitor types, assay data), all figures and their data, supplementary information, detailed methodology for literature curation and classification criteria
+
+## Reviewer
+- **Overall assessment** This review addresses a timely and important topic, namely the systematic classification of PPI inhibitors by interface secondary structure. The central claim, that α-helical interfaces dominate current inhibitor discovery and that β-strand and disordered/loop classes are comparatively underexplored, is plausible and potentially useful. However, the manuscript as provided lacks the essential evidence base, specifically Table 1 and the figures, that would allow verification of the 117-interaction dataset, the classification scheme, and the quantitative claims (e.g., percentages, hit rates). Without these materials, the core analytical contribution cannot be assessed. The narrative sections are descriptive and cite specific examples, but the absence of a transparent methodology for literature selection and classification is a significant limitation. The conclusion that interface architecture should guide discovery strategy is reasonable but not fully established from the provided text alone.
+- **Who would be interested in the results, and why** Chemical biologists, medicinal chemists, and structural biologists working on PPI inhibitor discovery would find the classification framework and the summary of discovery strategies useful for selecting approaches for new targets. Researchers interested in underexplored target classes, such as coiled coils and intrinsically disordered regions, would value the identification of gaps and the discussion of emerging technologies. The review may also be of interest to those teaching or writing about the druggability of the human interactome.
+- **Major strengths** The topic is of high current relevance. The proposed classification by secondary structure is conceptually clear and provides a useful organizing principle. The review covers a broad range of inhibitor modalities (peptides, peptidomimetics, small molecules, antibodies) and discovery strategies (rational design, macrocyclisation, fragment-based screening, peptide-directed ligand design). The discussion of challenges specific to coiled coils and disordered regions is insightful. The authors correctly note the bias in current structural data and the potential of cryo-EM and machine learning to expand target space.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence base
+  - **Claim pointer** The manuscript claims to have identified 117 human PPIs with inhibitors (0.02% of the estimated interactome) and to have classified them by secondary structure, with specific percentages (e.g., >50% α-helical, >30% β-strand, <20% disordered/loop).
+  - **Evidence pointer** Table 1, Figure 1B, location not provided
+  - **Concern** The central dataset of 117 interactions and the classification percentages are presented as results, but Table 1 and Figure 1B are not provided in the manuscript text. The reader cannot verify the list of PPIs, the assignment to structural classes, the criteria for inclusion, or the basis for the reported percentages.
+  - **Why it matters** The entire analytical framework and the quantitative claims rest on this dataset. Without access to the underlying data and the classification criteria, the review's core contribution cannot be evaluated or reproduced. The claim that only 0.02% of PPIs have inhibitors is a key statistic that requires transparent sourcing.
+  - **Resolution test** Provide Table 1 with the full list of 117 PPIs, their interacting partners, the inhibitor type(s), and the structural classification. Provide a clear description of the literature search strategy, inclusion/exclusion criteria, and the method for assigning secondary structure (e.g., experimental structure, prediction, literature annotation). Provide Figure 1B with the percentage distribution and a breakdown by class.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The review states that "our analysis of the published literature for protein-protein interaction inhibitors until 2025 found 117 human PPIs (0.02%) with inhibitors" and that this "doubles the 2012 prediction."
+  - **Evidence pointer** Section "Inhibitors of protein-protein interactions", location not provided
+  - **Concern** The methodology for the literature analysis is not described. There is no information on the databases searched, the search terms, the time window, the criteria for what constitutes an "inhibitor" (e.g., potency threshold, assay type), or how the 2012 prediction was defined and compared.
+  - **Why it matters** A review that presents a quantitative survey must be transparent about its methods to allow readers to assess completeness, potential biases, and reproducibility. The comparison to the 2012 prediction is meaningless without knowing the exact basis of that earlier figure.
+  - **Resolution test** Add a dedicated methodology section describing the literature search and selection process. Specify the inclusion criteria for PPIs and inhibitors. Define how the 2012 prediction was sourced and how the comparison was made.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim support
+  - **Claim pointer** The review claims that "α-Helical interfaces account for most reported inhibitors" and that "coiled coils represent an underexplored PPI within helix-mediated PPI inhibitors."
+  - **Evidence pointer** Sections "Inhibitors of α-helix mediated interactions" and "Inhibitors of coiled coil mediated interactions", location not provided
+  - **Concern** The text provides examples of α-helix and coiled coil inhibitors, but the claim that α-helical interfaces dominate is only supported by the (unverifiable) percentage in Figure 1B. The specific statement that coiled coils are underexplored is not quantified, and the reader cannot tell how many of the 117 PPIs fall into this category.
+  - **Why it matters** The central thesis of the review is that interface architecture correlates with discovery success. This claim requires quantitative support from the dataset, not just anecdotal examples.
+  - **Resolution test** Provide the number and percentage of PPIs in each structural class (α-helix, β-strand, disordered/loop, coiled coil as a subcategory) from Table 1. State explicitly how many coiled coil interactions have reported inhibitors.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical accuracy
+  - **Claim pointer** The review states that "Methods to identify PPI inhibitors rely on this structural data, and as such the inhibitors identified are skewed to the more stable interactions."
+  - **Evidence pointer** Conclusion, location not provided
+  - **Concern** This is a causal claim about the relationship between structural data availability and inhibitor discovery success. While plausible, it is presented without supporting evidence or citation. The review does not demonstrate that the 117 PPIs with inhibitors are enriched for those with high-quality structural data, nor that the lack of such data is the primary barrier for the underexplored classes.
+  - **Why it matters** The conclusion that the field is "skewed" due to structural data availability is an important interpretive claim. If unsupported, it weakens the review's analytical contribution.
+  - **Resolution test** Provide evidence, either from the dataset or from cited literature, that structural data availability correlates with the presence of reported inhibitors across the 117 PPIs. Alternatively, soften the claim to a hypothesis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "only 117 interactions (∼0.02%) have reported inhibitors" but does not specify the denominator for this percentage. The text later mentions "more than 650 000 PPIs" as the estimated interactome size, but the abstract does not make this link explicit.
+  - **Required correction** Clarify in the abstract that the percentage is relative to the estimated human interactome size of >650,000 PPIs.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Section "Inhibitors of protein-protein interactions"
+  - **Evidence pointer** Section "Inhibitors of protein-protein interactions", location not provided
+  - **Issue** The text says "in 2012, it was predicted that only 0.01% had an inhibitor" and later says the current analysis "doubles the 2012 prediction." However, the current percentage is given as 0.02%, which is exactly double 0.01%. This is consistent, but the text does not explain whether the 2012 prediction was based on the same interactome size estimate.
+  - **Required correction** Add a brief note on the basis of the 2012 prediction to allow a meaningful comparison.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Inhibitors of α-helix mediated interactions"
+  - **Evidence pointer** Section "Inhibitors of α-helix mediated interactions", location not provided
+  - **Issue** The section on helix-in-groove interactions mentions several design strategies but does not provide a summary of how many of the 117 PPIs fall into this category or how many inhibitors are peptide-based versus small-molecule-based.
+  - **Required correction** Add a brief quantitative summary for each structural class, referencing Table 1.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "Inhibitors of β-strand mediated interactions"
+  - **Evidence pointer** Section "Inhibitors of β-strand mediated interactions", location not provided
+  - **Issue** The text introduces the β-strand definition and then discusses inhibitor strategies, but the transition from structural description to inhibitor examples is abrupt. The reader may benefit from a clearer statement of why β-strands are challenging targets.
+  - **Required correction** Add a sentence explicitly stating the challenges posed by β-strand interfaces (e.g., flat, extended surfaces) before discussing inhibitor strategies.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Section "Inhibitors of dynamic protein region interactions"
+  - **Evidence pointer** Section "Inhibitors of dynamic protein region interactions", location not provided
+  - **Issue** The text states that "as many as 50% of protein complexes feature mediation by loops" and cites references 234 and 235. However, the definition of "mediation by loops" is not specified, and the reader cannot assess whether this statistic is directly comparable to the classification used in this review.
+  - **Required correction** Briefly define what constitutes a loop-mediated interaction in the cited context and clarify how this relates to the review's classification.
+- **Technical failings that need to be addressed before the case is established** The absence of Table 1 and all figures is a critical failing. The quantitative claims (117 PPIs, percentages, hit rates) and the classification framework cannot be verified. The lack of a methodology section for the literature analysis is a second major failing. The review also does not provide a clear definition of how "inhibitor" is operationalized (e.g., potency, assay type, clinical vs. preclinical), which is essential for interpreting the dataset.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The classification of PPI inhibitors by interface secondary structure is a useful organizing principle, but it is not entirely novel; similar structural classifications have been proposed for PPI interfaces in general. The specific application to inhibitor discovery strategies is a reasonable extension.  
+  - **Scientific importance** The topic is important, given the growing interest in PPI therapeutics. The claim that certain structural classes are underexplored could help prioritize future efforts. However, the importance is diminished by the lack of verifiable data.  
+  - **Interdisciplinary readership** The review bridges structural biology, medicinal chemistry, and chemical biology, and would appeal to a broad readership. The writing is generally accessible, though some sections assume familiarity with PPI inhibitor terminology.  
+  - **Technical soundness** The technical soundness cannot be fully assessed because the core dataset and figures are missing. The narrative descriptions of specific examples appear plausible, but the quantitative framework is unverifiable.  
+  - **Readability for nonspecialists** The text is generally clear, but the abrupt introduction of many specific inhibitor examples without a summary table or figure may be challenging for nonspecialists. The conclusion is well-written and accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The review's central claims depend on data (Table 1, figures) and methodology that are not included in the manuscript text. The authors should provide the full dataset, a transparent methodology, and the figures to allow evaluation. If these are supplied and the claims are supported, the review could be a valuable contribution. As presented, the manuscript is a descriptive narrative without a verifiable analytical core.
+
+## Risk / unsupported claims
+- The claim that "only 117 interactions (∼0.02%) have reported inhibitors" is unsupported without Table 1 and a description of the search methodology.
+- The claim that ">50% of PPIs with reported inhibitors are mediated by α-helical interfaces and over 30% by β-strands" is unsupported without Figure 1B and Table 1.
+- The claim that "coiled coils represent an underexplored PPI within helix-mediated PPI inhibitors" is not quantified and cannot be assessed.
+- The claim that "Methods to identify PPI inhibitors rely on this structural data, and as such the inhibitors identified are skewed to the more stable interactions" is presented as a conclusion without supporting evidence.
+- The statement that "a limited number of inhibitors have been reported against intrinsically disordered regions" is not quantified and cannot be verified.
+- The claim that "as many as 50% of protein complexes feature mediation by loops" is cited but not defined in the context of this review's classification.

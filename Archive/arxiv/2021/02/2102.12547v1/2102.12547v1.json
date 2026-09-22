@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2102.12547v1",
+  "title": "Self-assembly of biomolecular condensates with shared components",
+  "doi": "10.1103/PhysRevLett.126.258101",
+  "abstract": "Biomolecular condensates self-assemble when proteins and nucleic acids spontaneously demix to form droplets within the crowded intracellular milieu. This simple mechanism underlies the formation of a wide variety of membraneless compartments in living cells. To understand how multiple condensates with distinct compositions can self-assemble in such a heterogeneous system, we study a minimal model in which we can \"program\" the pairwise interactions among hundreds of species. We show that the number of distinct condensates that can be reliably assembled grows superlinearly with the number of species in the mixture when the condensates are allowed to share components. Furthermore, we show that we can predict the maximum number of distinct condensates in a mixture without knowing the details of the pairwise interactions. Simulations of condensate growth confirm these predictions and suggest that the physical rules governing the achievable complexity of condensate-mediated spatial organization are broadly applicable to biomolecular mixtures.",
+  "authors": [
+    "William M. Jacobs"
+  ],
+  "published_date": "2021-02-24T20:36:14Z",
+  "updated_date": "2021-02-24T20:36:14Z",
+  "journal": "Phys. Rev. Lett. 126, 258101 (2021)",
+  "category": "cond-mat.stat-mech, cond-mat.soft, physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2102.12547v1",
+  "pdf_url": "https://arxiv.org/pdf/2102.12547v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.stat-mech",
+    "cond-mat.soft",
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2102.12547v1",
+    "raw_categories": [
+      "cond-mat.stat-mech",
+      "cond-mat.soft",
+      "physics.bio-ph"
+    ],
+    "journal_ref": "Phys. Rev. Lett. 126, 258101 (2021)"
+  }
+}

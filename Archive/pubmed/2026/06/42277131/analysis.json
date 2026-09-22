@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42277131",
+  "title": "In silico study of 14-3-3sigma and Nipah virus W proteins interaction.",
+  "authors": "Griaznova, Lia; Arakelov, Vahram; Arakelov, Grigor; Nazaryan, Karen",
+  "journal": "Scientific reports",
+  "published_date": "2026-06-12",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究用AlphaFold 3预测并MD模拟了无序Nipah病毒W蛋白与14-3-3sigma二聚体的异四聚体复合物，聚焦IDP介导的PPI结构机制与稳定性，方法上AI预测+物理模拟齐备，高度契合本课题。",
+  "abstract": "Nipah virus (NiV) is a highly pathogenic zoonotic RNA virus that causes severe encephalitis, systemic vasculitis, and multiorgan damage in humans, with a case fatality rate of 40-75%. Among the viral factors implicated in NiV pathogenicity is the W protein, an intrinsically disordered product of the P gene. By binding to members of the 14-3-3 protein family, which regulate critical processes such as the cell cycle, apoptosis, and immune responses, W protein is thought to modulate host signaling pathways. Yet the molecular and structural basis of this interaction remains poorly understood. Here, we employed the AlphaFold 3 algorithm to predict 1000 models of the heterotetrameric complex formed by W protein dimers and the 14-3-3sigma dimer. Candidate structures were filtered according to two structural criteria-potential disulfide bond formation between Cys421 residues of the W dimer, and preservation of interactions between phosphorylated Ser449 (Sep449) and residues Arg56, Arg129, and Tyr130 in the 14-3-3sigma binding site. Nine models that satisfied these criteria were further refined and evaluated by molecular dynamics (MD) simulations in the OpenMM environment. Following 100-ns MD simulations, three models were selected for extended microsecond-scale simulations to assess their stability over extended timescales. The simulations indicated that all three complexes remained stable over the simulated timescales and displayed structural features consistent with interactions involving intrinsically disordered proteins. Among them, one model (Model 3) showed the most favorable combination of structural and energetic features. Our findings support the structural feasibility of the proposed interaction and demonstrate that the modeled heterotetrameric complex is capable of adopting stable conformations. These results provide a basis for further in silico studies and exploratory small-molecule screening aimed at modulating this protein-protein interaction in the context of viral host-pathogen interactions.",
+  "abstract_zh": "尼帕病毒（Nipah virus, NiV）是一种高致病性人畜共患RNA病毒，在人类中引起严重脑炎、系统性血管炎和多器官损伤，病死率为40-75%。在NiV致病性相关的病毒因子中，W蛋白是P基因的一种固有无序产物。通过与调节细胞周期、凋亡和免疫反应等关键过程的14-3-3蛋白家族成员结合，W蛋白被认为可调节宿主信号通路。然而，这种相互作用的分子和结构基础仍知之甚少。在此，我们采用AlphaFold 3算法预测了W蛋白二聚体与14-3-3sigma二聚体形成的异四聚体复合物的1000个模型。根据两个结构标准对候选结构进行筛选——W二聚体Cys421残基之间可能形成二硫键，以及磷酸化Ser449（Sep449）与14-3-3sigma结合位点中Arg56、Arg129和Tyr130残基之间相互作用的保持。满足这些标准的九个模型在OpenMM环境中通过分子动力学（molecular dynamics, MD）模拟进一步优化和评估。在100纳秒MD模拟后，选择三个模型进行扩展的微秒级模拟，以评估其在较长时间尺度上的稳定性。模拟结果表明，所有三个复合物在模拟时间尺度内保持稳定，并显示出与固有无序蛋白相互作用一致的结构特征。其中，一个模型（模型3）表现出结构和能量特征的最佳组合。我们的发现支持所提出相互作用的结构可行性，并证明建模的异四聚体复合物能够采用稳定构象。这些结果为进一步的计算机模拟研究和探索性小分子筛选提供了基础，旨在调节病毒-宿主病原体相互作用背景下的这种蛋白质-蛋白质相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42277131/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42277131/",
+  "paper_page_path": "papers/pubmed/42277131/index.html"
+}

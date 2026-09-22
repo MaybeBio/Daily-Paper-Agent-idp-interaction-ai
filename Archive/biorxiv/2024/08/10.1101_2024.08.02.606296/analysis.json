@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.08.02.606296",
+  "title": "The triad interaction of ULK1, ATG13, and FIP200 is required for ULK complex formation and autophagy",
+  "authors": "Hama Y; Fujioka Y; Yamamoto H; Mizushima N; Noda NN",
+  "journal": "bioRxiv",
+  "published_date": "2024-08-02",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用AlphaFold预测并验证了ATG13无序区域同时结合FIP200二聚体和ULK1 MIT结构域的三元复合物组装机制，直接以IDR介导的PPI机制建模为核心，方法上结合AI预测与突变验证，高度契合本课题。",
+  "abstract": "In mammals, autophagosome formation, a central event in autophagy, is initiated by the ULK complex comprising ULK1/2, FIP200, ATG13, and ATG101. However, the structural basis and mechanism underlying the ULK complex assembly have yet to be fully clarified. Here, we predicted the core interactions organizing the ULK complex using AlphaFold, which proposed that the intrinsically disordered region of ATG13 engages the bases of the two UBL domains in the FIP200 dimer via two phenylalanines and also binds the tandem MIT domain of ULK1, thereby yielding the 1:1:2 stoichiometry of the ULK1–ATG13–FIP200 complex. We validated the predicted interactions by point mutations and demonstrated direct triad interactions among ULK1, ATG13, and FIP200 in vitro and in cells, wherein each interaction was additively important for autophagic flux. These results indicate that the ULK1–ATG13– FIP200 triadic interaction is crucial for autophagosome formation and provide a structural basis and insights into the regulation mechanism of autophagy initiation in mammals.",
+  "abstract_zh": "在哺乳动物中，自噬体形成——自噬过程中的核心事件——由包含ULK1/2、FIP200、ATG13和ATG101的ULK复合物启动。然而，ULK复合物组装的结构基础及其机制尚未完全阐明。在此，我们利用AlphaFold预测了组织ULK复合物的核心相互作用，该预测提出ATG13的无序区域通过两个苯丙氨酸与FIP200二聚体中两个UBL结构域的基部结合，并同时结合ULK1的串联MIT结构域，从而形成ULK1–ATG13–FIP200复合物的1:1:2化学计量比。我们通过点突变验证了预测的相互作用，并在体外及细胞内证明了ULK1、ATG13和FIP200之间的直接三元相互作用，其中每种相互作用对自噬通量均具有加性重要性。这些结果表明，ULK1–ATG13–FIP200三元相互作用对自噬体形成至关重要，并为哺乳动物自噬起始的调控机制提供了结构基础和见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.08.02.606296",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.08.02.606296",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.08.02.606296/index.html"
+}

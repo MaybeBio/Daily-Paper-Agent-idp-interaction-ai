@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full preprint text as provided in the submission
+- **Assessment boundary** Claims, evidence, and conclusions presented in the supplied abstract and results summary
+- **Shared manuscript claim summary** The authors report that SARS-CoV-2 Mpro cleaves human TRMT1 at a conserved site, removing the zinc finger domain, abolishing tRNA methyltransferase activity, and reducing tRNA binding. They provide structural, kinetic, evolutionary, and simulation data to support a model of substrate discrimination during a post-binding step.
+- **Visible evidence base** Abstract and results summary only; no figures, tables, methods, or supplementary data were provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical details, structural coordinates, simulation parameters, and raw kinetic data are absent. This limits verification of quantitative claims and structural interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and potentially important question regarding host substrate targeting by SARS-CoV-2 Mpro. The central claim that TRMT1 is cleaved and inactivated is plausible and of interest. However, the provided material is insufficient to evaluate the rigor of the experimental evidence, particularly for structural, kinetic, and evolutionary analyses. The case is not fully established from the supplied text alone.
+- **Who would be interested in the results, and why** Virologists studying SARS-CoV-2 host interactions, biochemists and structural biologists interested in protease substrate specificity, and RNA modification researchers focused on tRNA biology. The potential link to viral pathogenesis and translation control broadens appeal.
+- **Major strengths** The study addresses a novel host substrate for Mpro with clear functional consequences. The combination of biochemical, structural, evolutionary, and computational approaches is ambitious. The evolutionary analysis of cleavage site conservation and primate-specific adaptation is a distinctive angle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** "Mpro can cleave endogenous TRMT1 in human cell lysate, resulting in removal of the TRMT1 zinc finger domain"
+  - **Evidence pointer** Location not provided
+  - **Concern** The claim of endogenous cleavage is central, but no experimental details are given. It is unclear whether cleavage was confirmed by mass spectrometry, western blot with specific antibodies, or activity assays. The extent of cleavage efficiency in lysate versus purified conditions is not quantified.
+  - **Why it matters** Without clear evidence of endogenous cleavage, the physiological relevance of the interaction remains speculative. The claim underpins the entire downstream functional analysis.
+  - **Resolution test** Provide representative blots or mass spectra, quantification of cleavage efficiency, and appropriate controls (e.g., protease inhibitor, catalytically dead Mpro).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural interpretation
+  - **Claim pointer** "The structure of a TRMT1 peptide in complex with Mpro, revealing a substrate binding conformation distinct from the majority of available Mpro-peptide complexes"
+  - **Evidence pointer** Location not provided
+  - **Concern** No structural details are provided, including resolution, peptide length, binding mode, or comparison metrics. The claim of a "distinct conformation" is not substantiated without structural figures or quantitative comparisons.
+  - **Why it matters** The structural claim is a key novelty and supports the proposed kinetic discrimination model. Without coordinates or validation, the interpretation cannot be assessed.
+  - **Resolution test** Provide structural figures, PDB accession codes, and a clear comparison of binding conformations with statistical or geometric measures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Kinetic and simulation support
+  - **Claim pointer** "Kinetic parameters for peptide cleavage show that the TRMT1(526-536) sequence is cleaved with comparable efficiency to the Mpro-targeted nsp8/9 viral cleavage site" and "kinetic discrimination occurs during a later step of Mpro-mediated proteolysis that follows substrate binding"
+  - **Evidence pointer** Location not provided
+  - **Concern** Kinetic parameters (kcat, Km, or specificity constants) are not reported. The claim of comparable efficiency is unverifiable. The conclusion about post-binding discrimination relies on molecular dynamics simulations, but no simulation details or convergence criteria are given.
+  - **Why it matters** These claims are central to the mechanistic model. Without quantitative data and simulation validation, the conclusions are not supported.
+  - **Resolution test** Report kinetic constants with errors and statistical comparisons. Provide simulation methods, force field, simulation length, and analysis of binding free energy or transition states.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary inference
+  - **Claim pointer** "The TRMT1 cleavage site is highly conserved in mammals, except in Muroidea, where TRMT1 is likely resistant to cleavage" and "In primates, regions outside the cleavage site with rapid evolution could indicate adaptation to ancient viral pathogens"
+  - **Evidence pointer** Location not provided
+  - **Concern** The evolutionary analysis is described only in summary form. No alignment data, statistical tests for conservation or positive selection, or species sampling details are provided. The inference of adaptation is speculative without formal tests.
+  - **Why it matters** The evolutionary claims add a broad perspective but are not essential to the core biochemical findings. However, they are presented as evidence for functional relevance and require proper support.
+  - **Resolution test** Provide alignment figures, conservation scores, and results of selection tests (e.g., dN/dS) with appropriate corrections.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract statement on "regulation of TRMT1 activity by SARS-CoV-2 Mpro"
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "regulation" implies a physiological process, but the data only show cleavage and inactivation in vitro. The wording may overstate the in vivo relevance.
+  - **Required correction** Rephrase to "cleavage and inactivation by Mpro" or specify that in vivo regulation is speculative.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of "impact viral pathogenesis"
+  - **Evidence pointer** Abstract
+  - **Issue** The final sentence raises a possibility about pathogenesis without any direct evidence from infection models. This is a reasonable speculation but should be clearly labeled as such.
+  - **Required correction** Add a qualifier such as "we speculate" or "this raises the hypothesis that" to avoid overstatement.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Mutagenesis studies
+  - **Evidence pointer** Location not provided
+  - **Issue** The specific mutations and their effects on cleavage or activity are not described. This limits the ability to assess the mechanistic conclusions.
+  - **Required correction** List the mutations tested and summarize their effects in the main text or a table.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns directly affect the core claims of endogenous cleavage, structural novelty, and kinetic mechanism. Without addressing them, the manuscript's central conclusions are not verifiable.
+- **Assessment against Nature-style criteria**  
+  - Originality: The identification of TRMT1 as a novel Mpro substrate is original and of interest.  
+  - Scientific importance: The potential link to translation and oxidative stress during infection is significant, but the in vivo relevance is not established.  
+  - Interdisciplinary readership: The topic bridges virology, enzymology, and RNA biology, which could attract a broad audience.  
+  - Technical soundness: Cannot be fully assessed from the provided material; key quantitative and structural data are missing.  
+  - Readability for nonspecialists: The abstract is generally clear, but the mechanistic claims require more context for a general reader.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, but the current evidence base is insufficient to establish the claims. The authors should provide full experimental details, structural data, and kinetic parameters to support the conclusions.
+
+## Risk / unsupported claims
+- The claim of endogenous cleavage in human cell lysate is unsupported without experimental details.
+- The structural claim of a distinct binding conformation is unsupported without coordinates or figures.
+- The kinetic comparison to nsp8/9 is unverifiable without reported parameters.
+- The conclusion about post-binding kinetic discrimination is unsupported without simulation details.
+- The evolutionary inference of primate adaptation is speculative without formal tests.
+- The potential impact on viral pathogenesis is presented as a possibility but is not tested.

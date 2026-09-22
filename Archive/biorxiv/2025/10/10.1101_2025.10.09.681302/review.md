@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) provided as preprint submission
+- **Assessment boundary** Scientific content, technical soundness, data interpretation, and claims as presented in the provided text; no access to figures, supplementary materials, or raw data beyond what is described
+- **Shared manuscript claim summary** The authors propose that G/C-rich tracts, potentially forming G-quadruplex structures, are enriched at meiotic micronuclear (MIC) non-coding RNA transcription sites in Tetrahymena thermophila. They further propose that the intrinsically disordered protein Rib1 facilitates RNA Polymerase II (Pol II) accumulation at these sites, likely via phase separation, and that this mechanism is important for transposon-derived ncRNA biogenesis and subsequent DNA elimination.
+- **Visible evidence base** Text descriptions of results including scnRNA peak identification from published datasets, CUT&Tag experiments for Pol II and Rib1, immunostaining, small RNA sequencing, and genetic truncation analyses. Specific quantitative values, statistical tests, and figure panels are referenced but not directly viewable.
+- **Missing materials affecting confidence** All figures and supplementary figures; raw sequencing data; detailed statistical outputs; strain construction details beyond text description; control experiment results not described in text; exact numerical values for enrichment, fold changes, and p-values beyond those mentioned
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental and intriguing question in ciliate biology: how transcription is initiated in the normally silent micronucleus at transposon-rich regions. The identification of G/C-rich tracts as candidate cis-regulatory elements and the proposed role of Rib1 in phase separation-mediated Pol II accumulation represent potentially significant advances. However, the manuscript as presented has several critical gaps. The evidence linking G/C-rich tracts to transcription initiation is largely correlative, the mechanistic model for Rib1 function relies heavily on indirect observations, and key controls and quantitative analyses are not described in sufficient detail. The phase separation model, while attractive, is supported primarily by sensitivity to 1,6-hexanediol and sequence predictions, which are suggestive but not definitive. The manuscript would benefit from additional mechanistic experiments and clearer presentation of quantitative data.
+- **Who would be interested in the results, and why** Researchers studying ciliate biology, particularly genome rearrangement and programmed DNA elimination; investigators interested in non-coding RNA transcription in repressive chromatin contexts; scientists studying phase separation in transcriptional regulation; those interested in transposon defense mechanisms across eukaryotes. The potential connection between G-quadruplex structures and transcription initiation in a native chromatin context could also interest the broader chromatin biology community.
+- **Major strengths** The study addresses a genuinely under-explored question with potential broad implications. The combination of bioinformatic analysis, chromatin profiling, and genetic manipulation is appropriate and powerful. The identification of specific sequence features (G/C-rich tracts) associated with transcription sites provides a concrete entry point for mechanistic dissection. The truncation analysis of Rib1 is systematic and informative. The connection to phase separation is timely and mechanistically interesting.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that G/C-rich tracts are "overrepresented" in meiotic ncRNA transcription regions and that Pol II is "highly enriched" at these sites.
+  - **Evidence pointer** Results section, Figure 1C-D, Figure 2F; location not provided
+  - **Concern** The quantitative basis for these claims is not presented in the text. No enrichment scores, statistical significance values, or effect sizes are given. The comparison to "random regions" is mentioned but the matching criteria (GC content, repeat content, genic vs. intergenic) are not described. Without this information, it is impossible to assess whether the observed enrichment is specific or a general property of GC-rich regions in the genome.
+  - **Why it matters** The entire premise of the paper rests on the specificity of G/C-rich tract enrichment at transcription sites. If this enrichment is not robustly demonstrated with appropriate controls and statistics, the subsequent mechanistic model lacks a foundation.
+  - **Resolution test** Provide quantitative enrichment analysis with appropriate statistical tests, describe the random background model in detail, and show that the enrichment is specific to transcription sites rather than a general feature of the MIC genome.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "in the absence of Rib1, Pol II showed abnormal association with the meiotic MIC chromatin" and that Rib1 is "critical for maintaining Pol II's binding specificity."
+  - **Evidence pointer** Results section, Figure 2G-L; location not provided
+  - **Concern** The description of the CUT&Tag results in rib1Δ cells is qualitative. The text mentions "less enriched" and "aberrant accumulation" but does not provide quantitative measures of these changes. How many biological replicates were performed? What is the statistical significance of the observed differences? The identification of 1,241 "aberrant regions" is mentioned but the criteria for calling these regions are not described. Without these details, the conclusion that Rib1 maintains Pol II binding specificity is not fully supported.
+  - **Why it matters** The central claim of the paper is that Rib1 directs Pol II to the correct sites. If the evidence for altered Pol II distribution in rib1Δ cells is not rigorously quantified, the model is weakened.
+  - **Resolution test** Provide quantitative comparison of Pol II occupancy between WT and rib1Δ with statistical analysis, describe the peak-calling and differential binding criteria, and show reproducibility across replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors propose that Rib1 facilitates Pol II accumulation "likely via phase-separation" and that this is supported by sensitivity to 1,6-hexanediol and the presence of putative phase-separating peptides.
+  - **Evidence pointer** Results section, Figure 4F-G, Figure 6; location not provided
+  - **Concern** The evidence for phase separation is indirect. 1,6-hexanediol sensitivity is known to have off-target effects and is not specific to phase-separated condensates. The identification of "putative phase-separating peptides" by prediction algorithms is not functional evidence. The observation that FUS fusion restores aggregation but not function is interesting but the interpretation is unclear. Direct evidence for phase separation, such as in vitro droplet formation, FRAP analysis, or demonstration of liquid-like properties, is not presented.
+  - **Why it matters** The phase separation model is a major conceptual contribution of the paper. If the evidence is not definitive, the model should be presented as more speculative, and alternative explanations should be considered.
+  - **Resolution test** Provide direct evidence for phase separation behavior of Rib1, such as in vitro droplet formation assays, FRAP measurements in vivo, or demonstration of concentration-dependent condensation. Alternatively, temper the claims and present the model as one of several possibilities.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that G/C-rich tracts may have originated from telomeric repeats and that this represents a potential evolutionary link between telomeres and transposon defense.
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** This evolutionary speculation is interesting but is presented without direct evidence. The connection between telomeric repeats and G/C-rich tracts at transposon ends is correlative. No phylogenetic analysis, comparative genomics, or experimental evolution data are presented to support this claim.
+  - **Why it matters** While speculative evolutionary scenarios can be valuable, they should be clearly framed as hypotheses. As written, the discussion may overstate the strength of this connection.
+  - **Resolution test** Either provide supporting evidence (e.g., comparative analysis across ciliate species) or clearly frame this as a speculative hypothesis requiring future testing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph; location not provided
+  - **Issue** The introduction assumes significant familiarity with ciliate biology and the specific terminology of the field. Terms such as "IESs," "scnRNAs," and the distinction between MIC and MAC are introduced rapidly without sufficient context for a general reader.
+  - **Required correction** Consider adding a brief primer on ciliate nuclear dimorphism and the DNA elimination process, or a glossary of key terms, to make the work accessible to a broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, CUT&Tag
+  - **Evidence pointer** Methods section, Chromatin profiling using CUT&Tag; location not provided
+  - **Issue** The description of the CUT&Tag experiment lacks several key details: the number of biological replicates, the antibody validation for the custom Rpb3 antibody, the sequencing depth, and the specific parameters used for peak calling.
+  - **Required correction** Provide these details to allow assessment of data quality and reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, scnRNA peak analysis
+  - **Evidence pointer** Results section, first paragraph; location not provided
+  - **Issue** The description of the scnRNA peak identification from published data is brief. The criteria for peak calling, the read mapping strategy, and the handling of multi-mapping reads (particularly relevant for repetitive regions) are not described.
+  - **Required correction** Provide details on the bioinformatic pipeline, including how reads mapping to repetitive elements were handled.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The discussion of G-quadruplex function in transcription is dense and could benefit from a clearer explanation of how G-quadruplexes are thought to promote transcription, particularly for readers not familiar with this literature.
+  - **Required correction** Briefly explain the proposed mechanisms by which G-quadruplexes can facilitate transcription (e.g., nucleosome exclusion, transcription factor binding) before discussing their potential role in the MIC.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Rib1 truncation analysis
+  - **Evidence pointer** Results section, Figure 4B-E; location not provided
+  - **Issue** The text states that various truncation constructs were generated and tested, but the specific phenotypes of each construct are not described in sufficient detail. For example, which constructs localize to the MIC? Which restore function?
+  - **Required correction** Provide a clearer summary table or more detailed text description of the phenotypes of each truncation construct.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative support for G/C-rich tract enrichment), R1-M2 (quantitative analysis of Pol II redistribution in rib1Δ), R1-M3 (direct evidence for phase separation)
+- **Assessment against Nature-style criteria**
+  - **Originality** The question of how transcription initiates in the normally silent MIC is genuinely novel and under-explored. The specific focus on G/C-rich tracts and the potential role of phase separation in this context is fresh. However, the conceptual framework of phase separation in transcriptional regulation is well-established in other systems, so the novelty lies in the specific application rather than the general concept.
+  - **Scientific importance** If the claims are fully substantiated, this work would provide important insights into how transposon-rich, heterochromatic regions can become transcriptionally active in a regulated manner. The potential link between sequence features, phase separation, and transcription initiation could have implications beyond ciliates. However, the current evidence does not fully establish the mechanistic model.
+  - **Interdisciplinary readership** The work would primarily interest ciliate biologists, chromatin biologists, and those studying non-coding RNA biology. The phase separation angle could attract a broader readership, but the specialized nature of the system may limit cross-disciplinary appeal without additional context.
+  - **Technical soundness** The experimental approaches are appropriate and state-of-the-art (CUT&Tag, genetic truncations, small RNA-seq). However, the lack of quantitative detail and the indirect nature of the phase separation evidence are significant weaknesses that need to be addressed.
+  - **Readability for nonspecialists** The manuscript is clearly written for a specialist audience. While the logic is generally clear, the introduction and discussion assume significant background knowledge. The abstract is accessible but the main text would benefit from additional context for non-ciliate biologists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core question is important and the approach is sound, but the current evidence does not fully establish the mechanistic claims. The manuscript would be strengthened by quantitative analysis of the genomic data, direct evidence for phase separation, and clearer presentation of the truncation phenotypes. If these concerns are addressed, this could be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that G/C-rich tracts are "overrepresented" in transcription regions lacks quantitative support in the text
+- The claim that Pol II is "highly enriched" at G/C-rich tracts lacks quantitative support
+- The claim that Rib1 functions "likely via phase-separation" is not directly supported by the evidence presented
+- The statement that "Rib1 likely facilitates the MIC ncRNA transcription via phase-separation" in the abstract is presented as a conclusion but is based on indirect evidence
+- The evolutionary speculation linking telomeric repeats to G/C-rich tracts at transposon ends is presented without supporting evidence
+- The claim that "Rib1 is not essential for the association of Pol II with the majority of scnRNA production sites" is based on qualitative descriptions of CUT&Tag data
+- The functional significance of the 1,241 "aberrant regions" of Pol II binding in rib1Δ is not clearly established

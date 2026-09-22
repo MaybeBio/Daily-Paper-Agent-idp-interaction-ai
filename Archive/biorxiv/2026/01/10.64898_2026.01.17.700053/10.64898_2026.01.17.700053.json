@@ -1,0 +1,344 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.17.700053",
+  "title": "Pangenome analysis reveals the evolutionary dynamics of repeat-based holocentromeres",
+  "doi": "10.64898/2026.01.17.700053",
+  "abstract": "Centromeres are essential for chromosome segregation, yet their organisation and evolution remain poorly understood in holocentric species, where kinetochore activity is distributed along entire chromosomes 1,2 . While monocentric centromeres are often structured by megabase-sized satellite arrays 3–5 , the role of repetitive DNA in holocentric systems remains enigmatic. Here, we analyse the dynamics of centromeric Tyba satellite DNA repeats and transposable elements across a chromosome-scale pangenome comprising 56 long-read haplotype assemblies from 20 Rhynchospora species 6,7 , a plant genus with repeat-based holocentromeres 8,9 . We identify over 4.6 million monomers of the Tyba satellite repeat, arranged into 43,400 discrete arrays that span all chromosomes. CENH3 ChIP-seq reveals that, unexpectedly, the same Tyba satellite defines holocentromere across the entire genus, demonstrating deep conservation of centromeric DNA over over 40 million years despite extensive karyotype evolution and centromere array turnover. We show that Tyba arrays function as modular centromeric units whose number and spacing, but not size, scale with chromosome length. Tyba sequence diversity recapitulates species phylogeny, while higher-order repeat formation and antagonism with transposable elements shape array turnover. A novel synteny-aware algorithm reveals rapid gain, loss, and rearrangement of arrays across homologous chromosomes. Using cytogenetics and polymer simulations, we demonstrate that inter-array spacing governs chromatin loop length and chromatid thickness, linking repeat-based holocentromere organisation directly to chromosome mechanics. Our findings uncover a scalable, modular logic for holocentromere function and establish a framework for understanding the plasticity of repeat-based centromere evolution and genome architecture in eukaryotes.",
+  "authors": [
+    "Włodzimierz P",
+    "Perez-Roman E",
+    "Câmara AS",
+    "Robledillo LA",
+    "Thangavel G",
+    "Zhang M",
+    "González Isa J",
+    "Parteka LM",
+    "Castellani M",
+    "Huettel B",
+    "Vanzela ALL",
+    "Henderson IR",
+    "Bousios A",
+    "Marques A"
+  ],
+  "published_date": "2026-01-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.17.700053",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.17.700053.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1225636",
+    "raw_record": {
+      "id": "PPR1225636",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1225636"
+        ]
+      },
+      "doi": "10.64898/2026.01.17.700053",
+      "title": "Pangenome analysis reveals the evolutionary dynamics of repeat-based holocentromeres",
+      "authorString": "Włodzimierz P, Perez-Roman E, Câmara AS, Robledillo LA, Thangavel G, Zhang M, González Isa J, Parteka LM, Castellani M, Huettel B, Vanzela ALL, Henderson IR, Bousios A, Marques A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Włodzimierz P",
+            "lastName": "Włodzimierz",
+            "firstName": "Piotr",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Biophysics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Perez-Roman E",
+            "lastName": "Perez-Roman",
+            "firstName": "Estela",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Câmara AS",
+            "lastName": "Câmara",
+            "firstName": "Amanda Souza",
+            "initials": "AS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Robledillo LA",
+            "lastName": "Robledillo",
+            "firstName": "Laura",
+            "initials": "LA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chromosome Biology, , Carl-von-Linné-Weg 10 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thangavel G",
+            "lastName": "Thangavel",
+            "firstName": "Gokilavani",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chromosome Biology, , Carl-von-Linné-Weg 10 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang M",
+            "lastName": "Zhang",
+            "firstName": "Meng",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4792-9979"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chromosome Biology, , Carl-von-Linné-Weg 10 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "González Isa J",
+            "lastName": "González Isa",
+            "firstName": "Jacob",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Sciences, Downing Street, , , Cambridgeshire, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parteka LM",
+            "lastName": "Parteka",
+            "firstName": "Letícia Maria",
+            "initials": "LM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cytogenetics and Plant Diversity, Center for Biological Sciences, State University of Londrina, Londrina, 86057-970, Paraná, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Castellani M",
+            "lastName": "Castellani",
+            "firstName": "Marco",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chromosome Biology, , Carl-von-Linné-Weg 10 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huettel B",
+            "lastName": "Huettel",
+            "firstName": "Bruno",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Max Planck Genome Centre Cologne, , Carl-von-Linné-Weg 10 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vanzela ALL",
+            "lastName": "Vanzela",
+            "firstName": "André",
+            "initials": "ALL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cytogenetics and Plant Diversity, Center for Biological Sciences, State University of Londrina, Londrina, 86057-970, Paraná, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Henderson IR",
+            "lastName": "Henderson",
+            "firstName": "Ian",
+            "initials": "IR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Sciences, Downing Street, , , Cambridgeshire, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bousios A",
+            "lastName": "Bousios",
+            "firstName": "Alexandros",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marques A",
+            "lastName": "Marques",
+            "firstName": "André",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chromosome Biology, , Carl-von-Linné-Weg 10 , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3136-6633"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7617-2613"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1040-7878"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4792-9979"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Centromeres are essential for chromosome segregation, yet their organisation and evolution remain poorly understood in holocentric species, where kinetochore activity is distributed along entire chromosomes  1,2 . While monocentric centromeres are often structured by megabase-sized satellite arrays  3–5 , the role of repetitive DNA in holocentric systems remains enigmatic. Here, we analyse the dynamics of centromeric  Tyba satellite DNA repeats and transposable elements across a chromosome-scale pangenome comprising 56 long-read haplotype assemblies from 20  Rhynchospora species  6,7 , a plant genus with repeat-based holocentromeres  8,9 . We identify over 4.6 million monomers of the  Tyba satellite repeat, arranged into 43,400 discrete arrays that span all chromosomes. CENH3 ChIP-seq reveals that, unexpectedly, the same  Tyba satellite defines holocentromere across the entire genus, demonstrating deep conservation of centromeric DNA over over 40 million years despite extensive karyotype evolution and centromere array turnover. We show that  Tyba arrays function as modular centromeric units whose number and spacing, but not size, scale with chromosome length.  Tyba sequence diversity recapitulates species phylogeny, while higher-order repeat formation and antagonism with transposable elements shape array turnover. A novel synteny-aware algorithm reveals rapid gain, loss, and rearrangement of arrays across homologous chromosomes. Using cytogenetics and polymer simulations, we demonstrate that inter-array spacing governs chromatin loop length and chromatid thickness, linking repeat-based holocentromere organisation directly to chromosome mechanics. Our findings uncover a scalable, modular logic for holocentromere function and establish a framework for understanding the plasticity of repeat-based centromere evolution and genome architecture in eukaryotes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101142254",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101114879",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.17.700053"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1225636"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1225636&type=FILE&fileName=EMS214362-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214362",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-01-18",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

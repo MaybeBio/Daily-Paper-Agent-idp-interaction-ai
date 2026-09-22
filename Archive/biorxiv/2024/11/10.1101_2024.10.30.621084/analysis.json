@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.30.621084",
+  "title": "A quantitative intracellular peptide binding assay reveals recognition determinants and context dependence of short linear motifs",
+  "authors": "Subbanna MS; Winters MJ; Örd M; Davey NE; Pryciak PM",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-01",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发了细胞内定量肽段结合实验SIMBA，高通量解析无序蛋白中短线性基序(SLiM)与球状结构域的识别决定因素和上下文依赖性，虽为实验方法但聚焦IDR介导的PPI结合机制，对互作机制建模有数据支撑和启发。",
+  "abstract": "<h4>ABSTRACT</h4> Transient protein-protein interactions play key roles in controlling dynamic cellular responses. Many examples involve globular protein domains that bind to peptide sequences known as Short Linear Motifs (SLiMs), which are enriched in intrinsically disordered regions of proteins. Here we describe a novel functional assay for measuring SLiM binding, called Systematic Intracellular Motif Binding Analysis (SIMBA). In this method, binding of a foreign globular domain to its cognate SLiM peptide allows yeast cells to proliferate by blocking a growth arrest signal. A high-throughput application of the SIMBA method involving competitive growth and deep sequencing provides rapid quantification of the relative binding strength for thousands of SLiM sequence variants, and a comprehensive interrogation of SLiM sequence features that control their recognition and potency. We show that multiple distinct classes of SLiM-binding domains can be analyzed by this method, and that the relative binding strength of peptides in vivo correlates with their biochemical affinities measured in vitro. Deep mutational scanning provides high-resolution definitions of motif recognition determinants and reveals how sequence variations at non-core positions can modulate binding strength. Furthermore, mutational scanning of multiple parent peptides that bind human tankyrase ARC or YAP WW domains identifies distinct binding modes and uncovers context effects in which the preferred residues at one position depend on residues elsewhere. The findings establish SIMBA as a fast and incisive approach for interrogating SLiM recognition via massively parallel quantification of protein-peptide binding strength in vivo.",
+  "abstract_zh": "<h4>摘要</h4> 瞬时蛋白-蛋白相互作用在调控动态细胞反应中发挥关键作用。许多实例涉及球状蛋白结构域与被称为短线性基序（Short Linear Motifs, SLiMs）的肽段序列结合，这些基序富集于蛋白质的内在无序区域。在此，我们描述了一种用于测量SLiM结合的新型功能检测方法，称为系统性胞内基序结合分析（Systematic Intracellular Motif Binding Analysis, SIMBA）。在该方法中，外来球状结构域与其同源SLiM肽段的结合通过阻断生长停滞信号使酵母细胞得以增殖。SIMBA方法的高通量应用结合竞争性生长和深度测序，可快速量化数千种SLiM序列变体的相对结合强度，并全面探究控制其识别和效力的SLiM序列特征。我们表明，多种不同类别的SLiM结合结构域可通过此方法分析，且体内肽段的相对结合强度与其体外测量的生化亲和力相关。深度突变扫描提供了基序识别决定因素的高分辨率定义，并揭示了非核心位置的序列变异如何调节结合强度。此外，对结合人端锚聚合酶ARC或YAP WW结构域的多个亲本肽段进行突变扫描，识别出不同的结合模式，并揭示了上下文效应，即一个位置的优选残基取决于其他位置的残基。这些发现确立了SIMBA作为一种快速且精准的方法，通过体内蛋白-肽段结合强度的大规模并行量化来探究SLiM识别。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.30.621084",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.30.621084",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.30.621084/index.html"
+}

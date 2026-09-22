@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) for the article by Matsuda and Mofrad, published in Molecular Biology of the Cell, 2024.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and alignment of claims with presented evidence. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors use coarse-grained Brownian dynamics simulations of a simplified NPC model to argue that the characteristic binding time between cargo and FG-Nups is the key parameter controlling transport efficiency, with an optimal value of τ ∼ 10–100 µs that remains robust across variations in cargo size, binding surface area, and simulation conditions.
+- **Visible evidence base** Full text including figures referenced (Figures 1–8), supplemental movies (S1–S4), and one table (Table 1, referenced but not shown in the provided text). Methods section provides model details, potential functions, and simulation parameters.
+- **Missing materials affecting confidence** Figures and tables themselves were not provided, only referenced. Table 1 (experimental Kd values) and Table 2 (simulation parameters) are cited but not visible. Supplemental movies cannot be assessed. This limits verification of quantitative claims and visual data interpretation.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic computational study addressing a relevant question in NPC transport biology. The central finding, that an intermediate binding timescale optimizes transport efficiency, is plausible and consistent with prior theoretical work. The use of a simplified model to isolate binding kinetics effects is a reasonable strategy. However, the manuscript has several weaknesses that need to be addressed. The connection between the model parameters and experimental reality is not fully established, particularly regarding the mapping of simulation time to physical time and the interpretation of the binding time metric. The claim that the optimal binding time is "comparable to experimental measurements" requires more careful quantitative comparison. The robustness analysis is appreciated but limited in scope. The discussion of multivalency effects is somewhat superficial given the known importance of avidity in NTR-FG-Nup interactions. Overall, the core idea is interesting and the simulations appear carefully executed, but the strength of the conclusions relative to the evidence needs to be tempered and clarified.
+- **Who would be interested in the results, and why** Researchers studying nucleocytoplasmic transport, particularly those interested in the biophysical mechanisms of NPC selectivity. The work may also appeal to computational biologists studying transport through polymer-filled channels and to experimentalists seeking quantitative predictions for how binding affinity modulates transport. The broader implications for biomimetic nanopore design could attract interest from the synthetic biology and nanotechnology communities.
+- **Major strengths** The study addresses a well-defined question with a tractable computational model. The systematic variation of binding parameters and the identification of a unifying timescale metric are commendable. The robustness checks (extended simulation time, larger box, different cargo properties) strengthen the main conclusion. The comparison with prior reaction-diffusion models provides useful context. The writing is generally clear and the methods are described in sufficient detail for reproduction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative claim vs. evidence
+  - **Claim pointer** The authors state that the optimal binding time τ ∼ 10–100 µs "aligns with other theoretical predictions" and is "comparable to experimental measurements of the association timescale between nuclear transport receptors and FG-Nups at a single binding site."
+  - **Evidence pointer** Discussion section, paragraph 2; Table 1 (not visible in provided text)
+  - **Concern** The quantitative comparison between simulation-derived binding times and experimental measurements is not adequately substantiated. The conversion from simulation time units to physical time is not explicitly described, and the mapping between the model's sticker-sticker interactions and real NTR-FG-Nup binding sites is not justified. Table 1, which presumably contains the experimental Kd values, is not visible in the provided text, making it impossible to verify the claimed agreement. The authors mention that their Kd estimate of 10–100 µM is "closer to the affinity of individual binding sites" but do not discuss the uncertainty in this estimate or the sensitivity of the result to the assumed kon value.
+  - **Why it matters** The central quantitative claim of the paper, that the optimal binding time matches experimentally measured single-site affinities, is a key part of the argument that the model captures biologically relevant physics. Without a clear demonstration of the time unit conversion and a transparent comparison with experimental data, this claim is not established.
+  - **Resolution test** Provide a clear description of how simulation time is converted to physical time. Show the experimental Kd values in Table 1 and explicitly compare them with the simulation-derived Kd range, including error estimates or sensitivity analysis for the assumed kon. If the comparison is only order-of-magnitude, state this explicitly and discuss the implications.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model simplification vs. biological relevance
+  - **Claim pointer** The authors state that "the binding kinetics within the natural NPC system are finely tuned to optimize transport efficiency" and that their model "provides a quantitative framework that bridges local molecular interactions with overall transport dynamics."
+  - **Evidence pointer** Abstract; Discussion, final paragraph
+  - **Concern** The model uses a highly simplified representation with a single type of sticker-sticker interaction, uniform sticker spacing, and a single cargo with either clustered or scattered stickers. Real FG-Nups have diverse sequences, variable spacing of FG motifs, and different interaction specificities with different NTRs. The authors acknowledge some of these simplifications but do not discuss how they might affect the generality of the conclusions. The claim that the model bridges local interactions with overall transport dynamics is somewhat overstated given these simplifications.
+  - **Why it matters** The biological relevance of the findings depends on whether the simplified model captures the essential physics. If the optimal binding time is sensitive to details such as sticker spacing, chain stiffness, or the presence of multiple interaction types, the conclusions may not generalize to real NPCs.
+  - **Resolution test** Add a discussion of the limitations of the model simplifications and how they might affect the quantitative predictions. If possible, perform additional simulations with varied sticker spacing or chain stiffness to test the robustness of the optimal binding time. Alternatively, temper the claims about biological relevance and frame the results as applicable to a minimal model system.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical robustness
+  - **Claim pointer** The authors report transport efficiency as the fraction of successful transport events out of ntrial trials, with ntrial = 40 for most simulations and ntrial = 20 for control and scattered-sticker simulations.
+  - **Evidence pointer** Results, "Transport efficiency reached its peak at intermediate levels of binding interactions"; Materials and Methods, "Transport fraction of cargoes"
+  - **Concern** The manuscript does not report any measure of statistical uncertainty for the transport efficiency values. With only 20–40 trials per condition, the sampling error could be substantial, particularly for conditions with low transport efficiency. The heat map in Figure 3D and the plots in Figures 5–8 presumably show point estimates without error bars or confidence intervals. This makes it difficult to assess whether the observed differences between conditions are statistically meaningful.
+  - **Why it matters** The main conclusion, that transport efficiency peaks at intermediate binding times, relies on comparing efficiency values across conditions. Without uncertainty estimates, it is not possible to determine whether the peak is statistically significant or whether the differences between nearby conditions are within sampling noise.
+  - **Resolution test** Report the standard error or confidence intervals for the transport efficiency at each condition. Consider increasing the number of trials for conditions near the peak. Alternatively, use a statistical test to compare efficiency values across conditions and report the results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of binding time metric
+  - **Claim pointer** The authors define the characteristic binding time τ by fitting the complementary cumulative distribution function of bound durations to an exponential decay, and use this as the key parameter controlling transport efficiency.
+  - **Evidence pointer** Materials and Methods, "Characteristic binding time for the cargo"; Results, "Characteristic binding time is the key determinant in controlling the transport dynamics"
+  - **Concern** The manuscript does not discuss whether the bound duration distribution is well-described by a single exponential. If the distribution is multi-exponential or follows a power law, the fitted τ may not capture the relevant physics. Additionally, the definition of "bound" requires at least one sticker within the cutoff distance, which means the cargo can be classified as bound even if only a small fraction of its surface is interacting. The relationship between this binary classification and the actual strength of the interaction is not discussed.
+  - **Why it matters** The central claim that τ is the key determinant of transport efficiency depends on τ being a meaningful and well-defined quantity. If the exponential fit is poor or if the bound state definition is too coarse, the reported τ values may not accurately represent the binding kinetics.
+  - **Resolution test** Show representative bound duration distributions and the quality of the exponential fits. Discuss whether the bound state definition is appropriate and whether alternative definitions (e.g., requiring a minimum number of bound stickers) would change the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model parameters
+  - **Affected element** Materials and Methods, "Coarse-grained model"
+  - **Evidence pointer** Table 2 (not visible in provided text)
+  - **Issue** The manuscript refers to Table 2 for simulation parameters, but the table is not visible in the provided text. Key parameters such as the number of FG-Nups (nFG), the number of beads per FG-Nup (N), the pore diameter (D), and the membrane thickness (h) are not stated in the main text.
+  - **Required correction** Include the key parameter values in the main text or ensure Table 2 is accessible. At minimum, state the pore diameter, number of FG-Nups, and chain length in the methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods, "Brownian dynamics"
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript states that the precise formulas and algorithms for the rigid-body dynamics of the cargo are detailed in a previous study, but does not provide a specific citation or reference.
+  - **Required correction** Provide the full citation for the previous study and briefly summarize the key equations or algorithm in the current manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Results, "Characteristic binding time is the key determinant in controlling the transport dynamics"
+  - **Evidence pointer** Figure 5A
+  - **Issue** The authors use "binding time," "characteristic binding time," and "dissociation time" somewhat interchangeably. While the context makes the meaning clear, consistent terminology would improve readability.
+  - **Required correction** Use a single term throughout, preferably "characteristic binding time τ," and define it clearly in the results section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion does not address the potential effects of hydrodynamic interactions, which are neglected in the Brownian dynamics model. In crowded environments like the NPC, hydrodynamic coupling could affect transport dynamics.
+  - **Required correction** Add a brief statement acknowledging this simplification and discussing whether it is likely to affect the qualitative conclusions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Results, "Transport efficiency reached its peak at intermediate levels of binding interactions"
+  - **Evidence pointer** Figure 3D
+  - **Issue** The heat map in Figure 3D is described as showing transport efficiency across ε and rcut values, but the color scale and axis labels are not described in the text.
+  - **Required correction** Describe the color scale and axis labels in the figure legend or in the text so that the reader can interpret the heat map without viewing the figure.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative comparison with experiment) is the most critical. The central quantitative claim of the paper cannot be verified without a clear description of time unit conversion and a transparent comparison with experimental data. R1-M3 (statistical robustness) is also important, as the main conclusion relies on comparing efficiency values without uncertainty estimates. R1-M2 and R1-M4 are significant but less critical; they affect the interpretation and generality of the results but do not invalidate the core finding.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The idea that an optimal binding affinity exists for NPC transport has been proposed before, and the authors acknowledge prior theoretical work. The specific contribution here is the systematic simulation study identifying the binding time as the key parameter. This is a useful confirmation and extension of existing ideas rather than a fundamentally new concept.
+  - Scientific importance: Moderate. The question of how binding kinetics regulate NPC transport is important for understanding a fundamental cellular process. However, the simplified model limits the direct applicability of the findings to real NPCs. The results are more relevant to the theoretical understanding of transport through polymer-filled channels than to specific experimental predictions.
+  - Interdisciplinary readership: Moderate. The work bridges cell biology, biophysics, and computational modeling. It could appeal to researchers in these fields, but the specialized nature of the model and the focus on a specific cellular structure may limit broader interest.
+  - Technical soundness: The simulation methodology appears sound, and the authors have taken care to describe their model and methods. However, the lack of statistical uncertainty estimates and the unclear time unit conversion are technical weaknesses that need to be addressed.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible. The introduction provides sufficient background, and the results are presented in a logical sequence. Some sections, particularly the methods, are technical but appropriate for the target audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding, that an intermediate binding timescale optimizes transport efficiency, is plausible and supported by the simulations. However, the quantitative comparison with experimental data needs to be clarified, and statistical uncertainty estimates should be provided. If these issues are addressed, the manuscript would make a solid contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the optimal binding time τ ∼ 10–100 µs is "comparable to experimental measurements" is not verifiable from the provided text, as Table 1 is not visible and the time unit conversion is not described.
+- The claim that the model "bridges local molecular interactions with overall transport dynamics" is overstated given the highly simplified model system.
+- The statement that "the binding kinetics within the natural NPC system are finely tuned to optimize transport efficiency" implies a level of biological relevance that is not fully supported by the simplified model.
+- The claim that the optimal binding time "remained constant across various conditions" is based on a limited set of variations (cargo size, binding surface area, simulation time, box size) and may not generalize to other parameter changes.
+- The assertion that the soft-core potential "effectively reproduced the binding and unbinding dynamics" is not quantitatively validated against experimental or atomistic simulation data.

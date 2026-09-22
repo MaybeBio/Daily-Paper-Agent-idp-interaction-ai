@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40790117",
+  "title": "A blueprint for biomolecular condensation driven by bacterial microcompartment encapsulation peptides.",
+  "authors": "Trettel, Daniel S; Lopez, Cesar A; Rodriguez, Eliana; Marrone, Babetta L; Gonzalez-Esquer, Cesar Raul",
+  "journal": "Nature communications",
+  "published_date": "2025-08-12",
+  "window": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合分子动力学模拟与实验，研究细菌微区室封装肽通过无序连接子驱动多组分货物蛋白形成生物分子凝聚体的分子机制，聚焦IDR介导的PPI与相分离，机制建模深度高，可迁移至无序蛋白互作设计。",
+  "abstract": "Bacterial microcompartments are protein organelles with diverse metabolic capabilities. Their functional diversity is determined by an enzymatic core that is sequestered within a structurally conserved protein shell architecture. Segregation of protein cargo into the bacterial microcompartment is enabled by encapsulation peptides, which are short helical domains fused to core proteins through a disordered linker. Here, we investigate how encapsulation peptides drive multicomponent cargo assembly into biomolecular condensates. In vitro experiments supported by molecular dynamics simulations demonstrate the importance of both conserved hydrophobic packing and electrostatic interactions in stabilizing trimeric encapsulation peptide bundles. Topological rearrangements of encapsulation peptide domains can drive programmable liquid- or gel-like partitioning in vitro and in vivo. This partitioning is found to be encapsulation peptide-specific, modular, and can co-assemble at least three fluorescent reporters. In summary, we describe the molecular features necessary to drive biomolecular condensation using a widespread peptide tag. This work can serve as a blueprint for implementing encapsulation peptide biotechnology across diverse applications.",
+  "abstract_zh": "细菌微区室（bacterial microcompartment）是具有多种代谢能力的蛋白质细胞器。其功能多样性由被隔离在结构保守的蛋白质壳层架构内的酶核心决定。蛋白质货物向细菌微区室的分离通过封装肽（encapsulation peptide）实现，封装肽是通过无序连接子与核心蛋白融合的短螺旋结构域。在此，我们研究封装肽如何驱动多组分货物组装成生物分子凝聚体。体外实验结合分子动力学（molecular dynamics）模拟表明，保守疏水堆积和静电相互作用在稳定三聚体封装肽束中均至关重要。封装肽结构域的拓扑重排可在体外和体内驱动可编程的液体或凝胶状分配。这种分配被发现具有封装肽特异性、模块化特性，并能共组装至少三种荧光报告蛋白。总之，我们描述了使用广泛肽标签驱动生物分子凝聚所必需的分子特征。这项工作可作为跨多种应用实施封装肽生物技术的蓝图。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40790117/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40790117/",
+  "paper_page_path": "papers/pubmed/40790117/index.html"
+}

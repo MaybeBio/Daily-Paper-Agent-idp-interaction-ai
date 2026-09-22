@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33747706",
+  "title": "Exploring the conformational dynamics and flexibility of intrinsically disordered HIV-1 Nef protein using molecular dynamic network approaches.",
+  "authors": "Bhattarai, Anil; Emerson, Isaac Arnold",
+  "journal": "3 Biotech",
+  "published_date": "2021-03-23",
+  "window": {
+    "start": "2021-03-22",
+    "end": "2021-03-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全原子MD模拟与动态网络分析研究无序HIV-1 Nef蛋白在自由与结合态下的构象动态，并识别介导PPI的关键残基，直接契合无序蛋白互作机制建模主题。",
+  "abstract": "Intrinsically disordered proteins represent a class of proteins that lack fixed and well-defined three-dimensional structures in solution. HIV-1 Nef is an intrinsically disordered peripheral membrane protein involved in the replication and pathogenesis of HIV-1 infection. Nef controls expression levels of cell surface CD4 molecules that are essential for adaptive immunity. Despite the lack of fixed and stable structures, Nef physically interacts with the host cellular proteins (AP-1/MHC-I) and modulates intracellular trafficking pathways. Therefore, it is essential to understand how this dynamic conformational flexibility affects Nef structures and function. In this study, we combined all-atom molecular dynamics (MD) simulations and dynamic network approaches to better understand the structure and dynamics of Nef in two different forms, the free unbound and the bound state. Using the MD simulation approach, we show that the intrinsically disordered Nef exhibit a large dynamic field with more atomic fluctuations and lesser thermodynamic stability in the unbound conditions. The conformations of Nef change over time, and this protein remains more compact, folded, and stable in the bound form. The dynamic network analysis revealed regions of the protein capable of modulating the conformational behavior of the disordered Nef. The average betweenness centrality (BC) unveiled residues that are critical for mediating protein-protein interactions. The average shortest path length (L) and the perturbation response scanning exposed residues that are likely to be important in steering protein conformational changes. Overall, the study demonstrates how all-atom MD simulations combined with the dynamic network approach can be used to gain further insights into the structure and dynamics-function relationship of intrinsically disordered HIV-1 Nef. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s13205-021-02698-8.",
+  "abstract_zh": "固有无序蛋白代表了一类在溶液中缺乏固定且明确三维结构的蛋白质。HIV-1 Nef是一种固有无序的外周膜蛋白，参与HIV-1感染的复制和发病机制。Nef调控对适应性免疫至关重要的细胞表面CD4分子的表达水平。尽管缺乏固定和稳定的结构，Nef仍与宿主细胞蛋白（AP-1/MHC-I）发生物理相互作用，并调节细胞内运输途径。因此，理解这种动态构象灵活性如何影响Nef的结构和功能至关重要。在本研究中，我们结合了全原子分子动力学（MD）模拟和动态网络方法，以更好地理解Nef在两种不同形式（自由未结合态和结合态）下的结构和动力学。通过MD模拟方法，我们表明固有无序的Nef在未结合条件下表现出较大的动态场，具有更多的原子波动和较低的热力学稳定性。Nef的构象随时间变化，而在结合形式中，该蛋白保持更紧凑、折叠和稳定。动态网络分析揭示了能够调节无序Nef构象行为的蛋白质区域。平均介数中心性（BC）揭示了介导蛋白质-蛋白质相互作用的关键残基。平均最短路径长度（L）和扰动响应扫描暴露了可能在引导蛋白质构象变化中重要的残基。总体而言，该研究展示了如何将全原子MD模拟与动态网络方法相结合，以进一步深入了解固有无序HIV-1 Nef的结构和动力学-功能关系。补充信息：在线版本包含补充材料，可在10.1007/s13205-021-02698-8获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33747706/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33747706/",
+  "paper_page_path": "papers/pubmed/33747706/index.html"
+}

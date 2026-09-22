@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "pmid": "35037015",
+    "doi": "10.1093/bib/bbab576",
+    "title": "A reproducibility analysis-based statistical framework for residue-residue evolutionary coupling detection."
+  },
+  "content": {
+    "abstract": "Direct coupling analysis (DCA) has been widely used to infer evolutionary coupled residue pairs from the multiple sequence alignment (MSA) of homologous sequences. However, effectively selecting residue pairs with significant evolutionary couplings according to the result of DCA is a non-trivial task. In this study, we developed a general statistical framework for significant evolutionary coupling detection, referred to as irreproducible discovery rate (IDR)-DCA, which is based on reproducibility analysis of the coupling scores obtained from DCA on manually created MSA replicates. IDR-DCA was applied to select residue pairs for contact prediction for monomeric proteins, protein-protein interactions and monomeric RNAs, in which three different versions of DCA were applied. We demonstrated that with the application of IDR-DCA, the residue pairs selected using a universal threshold always yielded stable performance for contact prediction. Comparing with the application of carefully tuned coupling score cutoffs, IDR-DCA always showed better performance. The robustness of IDR-DCA was also supported through the MSA downsampling analysis. We further demonstrated the effectiveness of applying constraints obtained from residue pairs selected by IDR-DCA to assist RNA secondary structure prediction.",
+    "keywords": [
+      "contact prediction",
+      "direct coupling analysis",
+      "quality control",
+      "statistical methods"
+    ],
+    "mesh_terms": [
+      "*Algorithms",
+      "Protein Structure, Secondary",
+      "*Proteins/chemistry",
+      "RNA",
+      "Reproducibility of Results",
+      "Sequence Alignment"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Si, Yunda",
+        "Zhang, Yi",
+        "Yan, Chengfei"
+      ],
+      "short_names": [
+        "Si Y",
+        "Zhang Y",
+        "Yan C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2010-6668"
+      ],
+      "affiliations": [
+        "School of Physics, Huazhong University of Science and Technology, Wuhan, Hubei 430074, China.",
+        "School of Physics, Huazhong University of Science and Technology, Wuhan, Hubei 430074, China.",
+        "School of Physics, Huazhong University of Science and Technology, Wuhan, Hubei 430074, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Si, Yunda",
+        "short_name": "Si Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Huazhong University of Science and Technology, Wuhan, Hubei 430074, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yi",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Huazhong University of Science and Technology, Wuhan, Hubei 430074, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Chengfei",
+        "short_name": "Yan C",
+        "identifiers": [
+          "0000-0002-2010-6668"
+        ],
+        "affiliations": [
+          "School of Physics, Huazhong University of Science and Technology, Wuhan, Hubei 430074, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2022 Mar 10",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/18 06:00",
+    "fetched_at": "2026-09-20 07:47:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "35037015",
+      "30632747",
+      "22106262",
+      "24573474",
+      "29953468",
+      "32115426",
+      "31609984",
+      "27825220",
+      "37321965",
+      "30596639",
+      "30298393",
+      "29036497",
+      "22168237",
+      "31583631",
+      "23990764",
+      "24766829",
+      "30395601",
+      "31778142",
+      "27179293",
+      "27729520",
+      "32276988",
+      "33983436",
+      "25618863",
+      "28203707",
+      "15297986",
+      "18803867",
+      "27802931",
+      "31621841",
+      "26502070",
+      "29673311",
+      "31918654",
+      "32372711",
+      "28166227",
+      "28289198",
+      "34618469",
+      "23140471",
+      "27559156",
+      "11162120",
+      "31615418",
+      "28093407",
+      "34029314",
+      "31328041",
+      "29931702",
+      "26920058",
+      "18451428",
+      "22101153",
+      "22643026",
+      "22163331",
+      "36752285",
+      "23760879",
+      "15023994",
+      "35576238",
+      "26275894",
+      "25431331",
+      "26756402",
+      "23720362",
+      "21233522",
+      "28535189",
+      "20334658",
+      "11292355",
+      "31738385",
+      "34418678",
+      "22574904",
+      "9237912",
+      "25374390",
+      "30594145",
+      "34871451",
+      "29351669",
+      "21355503",
+      "30925857",
+      "25700475",
+      "35170967",
+      "23342110",
+      "22691493",
+      "8506260",
+      "9135128",
+      "12424123",
+      "10890401",
+      "24564966",
+      "12490451",
+      "11031119",
+      "28784799",
+      "9223650",
+      "22163274",
+      "30871477",
+      "23314126",
+      "15647112",
+      "16689689",
+      "18511466",
+      "8263941",
+      "29116822",
+      "17888743",
+      "15281130"
+    ],
+    "review": [
+      "35037015",
+      "27179293"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35037015.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbab576",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

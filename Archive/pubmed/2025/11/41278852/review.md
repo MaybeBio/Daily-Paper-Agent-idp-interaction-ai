@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure references.
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the presented data. No assessment of formatting, grammar, or editorial style.
+- **Shared manuscript claim summary** The authors propose that the long, arginine-rich, intrinsically disordered linker between the Ig3 and Ig4 domains of palladin is an active functional module, not a passive connector. They claim that linker length, net charge, and residue order are critical for F-actin binding and bundling, and that the linker modulates interdomain conformational flexibility to enable multivalent actin engagement.
+- **Visible evidence base** Actin co-sedimentation binding assays (Figure 2, 3, 4, 5; Table 1), bundling assays (Figures 2, 3, 4, 5), circular dichroism spectroscopy (Figure 7, Table 2), chemical denaturation (Figure 7, Table 2), SAXS data (Figure 8, Supplemental Figures S1, S2), and structural modeling (CRYSOL, CORAL, EOM).
+- **Missing materials affecting confidence** Raw SAXS data and fitting parameters (beyond χ2 values), full statistical analysis details for binding and bundling assays (e.g., error bars, replicates, statistical tests), and the specific sequences of all linker mutants. The manuscript states that SAXS data for Ig3-45L-Ig4 is deposited, but data for wild-type Ig3-4 is referenced from a prior publication, which limits direct comparison.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the field of actin-binding proteins: the functional role of long, disordered interdomain linkers. The authors use a well-designed mutagenesis strategy combined with biophysical assays to dissect the contributions of linker length, charge, and sequence order. The finding that linker properties can uncouple actin binding from bundling is novel and of broad interest. However, several technical concerns, particularly regarding the interpretation of the SAXS data and the lack of statistical rigor in the binding and bundling assays, need to be addressed before the conclusions are fully supported.
+- **Who would be interested in the results, and why** Researchers studying actin cytoskeleton organization, actin-binding proteins, intrinsically disordered regions, and the structure-function relationships of multidomain proteins. The work also has relevance for those interested in the molecular mechanisms of cell migration and cancer invasion, where palladin is implicated.
+- **Major strengths** The study addresses a significant gap in understanding the role of linkers in multidomain proteins. The combination of functional assays (binding, bundling) with biophysical characterization (CD, SAXS) is powerful. The use of multiple mutant constructs, including deletions, charge neutralization, and sequence scrambling, provides a comprehensive analysis. The finding that small deletions can increase bundling while decreasing binding is a particularly interesting and non-obvious result.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness of SAXS interpretation
+    - **Claim pointer** The authors claim that SAXS data shows the native linker supports a "broad, dynamic interdomain ensemble" and that the shortened linker "restricted this conformational space, locking domains in extended orientations."
+    - **Evidence pointer** Figure 8, Results section "Shorter linker region displays reduced conformational plasticity"
+    - **Concern** The SAXS analysis is presented in a way that is difficult to evaluate. The P(r) curves for wild-type Ig3-4 are not shown; only the mutant is compared to a previously published analysis. The claim of a "broad, dynamic ensemble" for the wild-type is based on a prior publication, not on data presented here. The EOM analysis for the mutant is described, but the selection of the ensemble and the interpretation of the three representative conformers are not sufficiently detailed. The χ2 value of 3.08 for the rigid-body CRYSOL fit of the wild-type is high, indicating a poor fit, which the authors attribute to flexibility, but this is not rigorously demonstrated. The comparison between the two constructs is therefore not on equal footing.
+    - **Why it matters** The central mechanistic conclusion of the paper, that linker length controls conformational flexibility, which in turn controls actin bundling, rests heavily on the SAXS data. If the SAXS data are not robustly analyzed and compared, this conclusion is weakened.
+    - **Resolution test** The authors should present the SAXS data for both wild-type and mutant constructs side-by-side, including the raw scattering curves, Guinier plots, P(r) distributions, and the results of the EOM analysis (e.g., Rg distributions from the ensemble). They should also provide a more quantitative comparison of the conformational ensembles, such as the distribution of interdomain angles or distances. A Kratky plot for both constructs should be shown to support the claim of differential flexibility.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Statistical rigor of functional assays
+    - **Claim pointer** The authors report Kd and Bmax values for all constructs in Table 1 and state that mutants have "decreased F-actin binding affinity" or "increased bundling efficiency."
+    - **Evidence pointer** Table 1, Figures 2, 3, 4, 5
+    - **Concern** The manuscript does not report the number of independent replicates, the standard error or standard deviation for the Kd and Bmax values, or the statistical tests used to compare the mutants to wild-type. Without this information, it is impossible to assess whether the observed differences are significant. For example, the claim that ΔSGHP, ΔHPHA, and ΔPHAR have "varying Kd values" needs statistical support to show they are different from each other and from wild-type.
+    - **Why it matters** The conclusions about the effects of linker mutations on binding and bundling are the foundation of the paper. If the differences are not statistically robust, the conclusions are not supported.
+    - **Resolution test** The authors must provide the number of replicates (n) for each assay, the error associated with each Kd and Bmax value, and the results of appropriate statistical tests (e.g., one-way ANOVA with post-hoc tests) comparing all mutants to wild-type and to each other.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Interpretation of bundling assay
+    - **Claim pointer** The authors state that small deletions "increased bundling efficiency at low concentrations of palladin" and that this is due to a "restricted conformational space" that favors crosslinking.
+    - **Evidence pointer** Figures 3C, 4C, Discussion section "Linker deletions uncouple binding from bundling"
+    - **Concern** The bundling assay is a low-speed centrifugation assay that measures the amount of actin in the pellet. This is an indirect measure of bundling and can be influenced by the formation of large aggregates or networks, not just discrete bundles. The authors do not provide any microscopy data (e.g., fluorescence or electron microscopy) to confirm that the increased pelleting is due to the formation of ordered bundles rather than amorphous aggregates. The interpretation that the increased bundling is due to a specific conformational change in the linker is speculative without direct structural evidence of the actin-linker complex.
+    - **Why it matters** The uncoupling of binding and bundling is a key finding. If the assay is not specifically measuring bundling, the interpretation is not secure.
+    - **Resolution test** The authors should include fluorescence microscopy images of rhodamine-phalloidin-labeled actin filaments incubated with the wild-type and mutant proteins to visually confirm the formation of bundles and assess their morphology. This would strengthen the claim that the mutants are more efficient at bundling.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity of mutant nomenclature
+    - **Affected element** Results section "Deletions in linker region affect actin binding and bundling"
+    - **Evidence pointer** Figure 3A, 4A
+    - **Issue** The nomenclature for the deletion mutants (ΔSGHP, ΔHPHA, ΔPHAR, Δ6, Δ21) is not defined in the text. It is unclear if these names refer to the deleted amino acid sequence or the number of deleted residues.
+    - **Required correction** Please define the nomenclature in the text or figure legend. For example, state that "ΔSGHP" refers to a deletion of the four amino acids Ser-Gly-His-Pro.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Completeness of methods
+    - **Affected element** Materials and Methods section "Actin Co-sedimentation"
+    - **Evidence pointer** location not provided
+    - **Issue** The methods for the actin co-sedimentation assay do not specify the buffer conditions for the binding assay (e.g., salt concentration, pH, ATP concentration). This is critical for reproducibility.
+    - **Required correction** Please add the exact buffer composition for the binding and bundling assays.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Data presentation
+    - **Affected element** Figure 8
+    - **Evidence pointer** Figure 8
+    - **Issue** The figure labels for the SAXS data are not fully descriptive. For example, it is not clear what the "P(r)" plot represents without reading the text.
+    - **Required correction** Please ensure all axes are clearly labeled with units and that the figure legend fully explains each panel.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Discussion of limitations
+    - **Affected element** Discussion section
+    - **Evidence pointer** location not provided
+    - **Issue** The discussion does not address the potential limitations of using a truncated construct (Ig3-4) rather than the full-length protein. The behavior of the isolated tandem may not fully recapitulate the behavior of the full-length protein in a cellular context.
+    - **Required correction** Please add a sentence acknowledging this limitation and discussing how the findings might relate to the full-length protein.
+- **Technical failings that need to be addressed before the case is established** The lack of statistical analysis for the binding and bundling data (R1-M2) and the incomplete and potentially biased SAXS analysis (R1-M1) are the primary technical failings. The interpretation of the bundling assay (R1-M3) also needs to be supported by direct imaging.
+- **Assessment against Nature-style criteria** 
+    - **Originality** The work is original in its focus on the specific role of the long, disordered linker in palladin. While the general importance of linkers is recognized, this study provides a detailed and systematic analysis of a specific case.
+    - **Scientific importance** The findings are important for understanding the molecular mechanisms of actin bundling and the general principles of how disordered linkers modulate the function of multidomain proteins. The uncoupling of binding and bundling is a conceptually interesting result.
+    - **Interdisciplinary readership** The topic is of interest to cell biologists, biophysicists, and structural biologists. The use of SAXS and biophysical methods makes it accessible to a broad audience.
+    - **Technical soundness** The technical soundness is currently compromised by the lack of statistical rigor and the incomplete SAXS analysis. The functional assays are standard, but the data presentation is insufficient.
+    - **Readability for nonspecialists** The manuscript is generally well-written and the concepts are explained clearly. The abstract and introduction are accessible. The results section is more technical but still understandable.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the experimental approach is sound. However, the current manuscript does not fully support its conclusions due to the lack of statistical analysis and the incomplete SAXS comparison. The authors should be encouraged to address these issues.
+
+## Risk / unsupported claims
+- The claim that the native linker supports a "broad, dynamic interdomain ensemble" is not directly supported by data presented in this manuscript, as it relies on a prior publication.
+- The claim that the shortened linker "locks" domains in extended orientations is an interpretation of the EOM analysis that is not fully detailed.
+- The claim that increased bundling efficiency is due to a specific conformational change is not directly supported by structural data of the actin-linker complex.
+- The statement that "scrambling the sequence impaired both functions" is presented without statistical support.

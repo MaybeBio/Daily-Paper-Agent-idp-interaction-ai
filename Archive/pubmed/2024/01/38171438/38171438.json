@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "38171438",
+    "doi": "10.1016/j.ijbiomac.2023.129137",
+    "title": "High capacity and selective adsorption of Congo red by cellulose-based aerogel with mesoporous structure: Adsorption properties and statistical data simulation."
+  },
+  "content": {
+    "abstract": "Large quantities of organic dyes are discharged into the environment, causing serious damage to the ecosystem. Therefore, it is urgent to develop inexpensive adsorbents to remove organic dyes. A novel cellulose-based aerogel (MPPA) with 3D porous structure was prepared by using cassava residue (cellulose) as basic construction blocks, doping ferroferric oxide (Fe(3)O(4)) for magnetic separation, and applying polyethyleneimine (PEI) as functional material for highly efficient and selective capture of Congo red (CR). MPPA exhibited porous network structure, numerous active capture sites, nontoxicity, high hydrophilicity, and excellent thermal stability. MPPA showed superior adsorption property for CR, with an equilibrium adsorption capacity of 2018.14 mg/g, and still had an adsorption property of 1189.31 mg/g after five recycling procedures. In addition, MPPA has excellent selectivity for CR in four binary dye systems. The adsorption behavior of MPPA on CR was further explored using a multilayer adsorption model, EDR-IDR hybrid model and AOAS model. Electrostatic potential and independent gradient models were used to further verify the possible interaction between MPPA and CR molecules. In conclusion, MPPA is a promising adsorbent in the field of treating anionic dyes.",
+    "keywords": [
+      "Adsorption",
+      "Cassava residue",
+      "Interaction mechanism"
+    ],
+    "mesh_terms": [
+      "*Congo Red/chemistry",
+      "Cellulose/chemistry",
+      "Adsorption",
+      "Ecosystem",
+      "Coloring Agents/chemistry",
+      "*Water Pollutants, Chemical"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qin, Wen-Hao",
+        "Li, Ming-Xing",
+        "Zhang, Yi-Bing",
+        "Li, Wen",
+        "Jia, Ran",
+        "Xiong, Yan-Shu",
+        "Lu, Hai-Qin",
+        "Zhang, Si-Yuan"
+      ],
+      "short_names": [
+        "Qin WH",
+        "Li MX",
+        "Zhang YB",
+        "Li W",
+        "Jia R",
+        "Xiong YS",
+        "Lu HQ",
+        "Zhang SY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Light Industry and Food Engineering, Guangxi University, Nanning, China.",
+        "College of Light Industry and Food Engineering, Guangxi University, Nanning, China.",
+        "College of Light Industry and Food Engineering, Guangxi University, Nanning, China.",
+        "Guangxi Key Laboratory of Chemistry and Engineering of Forest Products, School of Chemistry and Chemical Engineering, Guangxi Minzu University, Nanning, China.",
+        "College of Light Industry and Food Engineering, Guangxi University, Nanning, China.",
+        "College of Light Industry and Food Engineering, Guangxi University, Nanning, China.",
+        "College of Light Industry and Food Engineering, Guangxi University, Nanning, China. Electronic address: haiqinlu@gxu.edu.cn.",
+        "College of Light Industry and Food Engineering, Guangxi University, Nanning, China. Electronic address: zhangsiyuangx@sina.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qin, Wen-Hao",
+        "short_name": "Qin WH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Light Industry and Food Engineering, Guangxi University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ming-Xing",
+        "short_name": "Li MX",
+        "identifiers": [],
+        "affiliations": [
+          "College of Light Industry and Food Engineering, Guangxi University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yi-Bing",
+        "short_name": "Zhang YB",
+        "identifiers": [],
+        "affiliations": [
+          "College of Light Industry and Food Engineering, Guangxi University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wen",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Key Laboratory of Chemistry and Engineering of Forest Products, School of Chemistry and Chemical Engineering, Guangxi Minzu University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Ran",
+        "short_name": "Jia R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Light Industry and Food Engineering, Guangxi University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Yan-Shu",
+        "short_name": "Xiong YS",
+        "identifiers": [],
+        "affiliations": [
+          "College of Light Industry and Food Engineering, Guangxi University, Nanning, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Hai-Qin",
+        "short_name": "Lu HQ",
+        "identifiers": [],
+        "affiliations": [
+          "College of Light Industry and Food Engineering, Guangxi University, Nanning, China. Electronic address: haiqinlu@gxu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Si-Yuan",
+        "short_name": "Zhang SY",
+        "identifiers": [],
+        "affiliations": [
+          "College of Light Industry and Food Engineering, Guangxi University, Nanning, China. Electronic address: zhangsiyuangx@sina.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Feb",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/04 11:43",
+    "fetched_at": "2026-09-21 03:58:40"
+  },
+  "links": {
+    "cites": [
+      "40400515",
+      "40394094",
+      "39122903"
+    ],
+    "refs": [],
+    "similar": [
+      "38171438",
+      "36603751",
+      "29944134",
+      "36473527",
+      "27485912",
+      "35551949",
+      "30041034",
+      "32240739",
+      "34461338",
+      "35621372",
+      "39089537",
+      "37245747",
+      "33839501",
+      "37678684",
+      "38194177",
+      "37182955",
+      "15869781",
+      "39181352",
+      "35313285",
+      "29339621",
+      "33183609",
+      "36641015",
+      "37778584",
+      "34008585",
+      "34802756",
+      "35033911",
+      "34365171",
+      "39047552",
+      "36372145",
+      "37023876",
+      "27693679",
+      "35598510",
+      "28867229",
+      "31896011",
+      "33966839",
+      "24647189",
+      "38281564",
+      "36796570",
+      "38508562",
+      "35630947",
+      "33905058",
+      "37336439",
+      "23896441",
+      "31826502",
+      "35618062",
+      "32084468",
+      "35810706",
+      "30877940",
+      "30593802",
+      "38008141",
+      "35450619",
+      "36229618",
+      "37369305",
+      "27148714",
+      "32507201",
+      "38110688",
+      "34718983",
+      "32622771",
+      "31465804",
+      "36421576",
+      "27255316",
+      "31963846",
+      "37172625",
+      "34619271",
+      "37321742",
+      "37720102",
+      "37666402",
+      "36723835",
+      "27839858",
+      "37429341",
+      "25989058",
+      "31918084",
+      "36921822",
+      "36190136",
+      "35500768",
+      "30484050",
+      "37085075",
+      "35257726",
+      "27148723",
+      "30287362",
+      "37783255",
+      "32590279",
+      "37783249",
+      "24552735",
+      "34968845",
+      "29127823",
+      "37866034",
+      "33187841",
+      "30390528",
+      "36940763",
+      "25338371",
+      "35660768",
+      "38154712",
+      "34915029",
+      "33097347",
+      "35016020",
+      "37923035",
+      "24412182",
+      "31972192",
+      "31252016",
+      "35902774",
+      "32738712",
+      "33263592",
+      "36209907",
+      "16846690",
+      "22565983",
+      "39312114",
+      "39305629",
+      "39366265",
+      "32376250",
+      "32210115",
+      "39208631",
+      "34693127"
+    ],
+    "review": [
+      "38171438",
+      "27255316"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(23)06036-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

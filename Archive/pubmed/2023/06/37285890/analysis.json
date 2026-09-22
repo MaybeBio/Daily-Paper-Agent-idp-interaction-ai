@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37285890",
+  "title": "A model for identification of potential phase-separated proteins based on protein sequence, structure and cellular distribution.",
+  "authors": "Wang, Jiyan; Chang, Hongkai; Quan, Xiaojing; Dai, Xintong; Wang, Yan; Wang, Chenxi; Zhang, Shuai; Shan, Changliang",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2023-06-08",
+  "window": {
+    "start": "2023-06-05",
+    "end": "2023-06-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文整合序列、结构和细胞定位开发多工具工作流预测相分离蛋白并鉴定SRSF2，对象为IDP/相分离，但无PPI互作机制建模，方法为多预测工具集成而非AI/物理模拟，故评6分。",
+  "abstract": "The cells are like a highly industrialized and urbanized city, filled with numerous biological macromolecules and metabolites, forming a crowded environment. While, the cells have compartmentalized organelles to complete different biological processes efficiently and orderly. However, membraneless organelles are more dynamic and adaptable for transient events including signal transduction and molecular interactions. Liquid-liquid phase separation (LLPS) is a mechanism that is widespread in which macromolecules form condensates without membranes to exert biological functions in crowded environments. Due to the lack of deep understanding of phase-separated proteins, platforms exploring phase-separated proteins by high-throughput methods is lacking. Bioinformatics has its unique properties and has proven to be a great impetus in multiple fields. Here, We integrated the amino acid sequence, protein structure, and cellular localization, then developed a workflow for screening phase-separated proteins and identified a novel cell cycle-related phase separation protein, serine/arginine-rich splicing factor 2 (SRSF2). In conclusion, we developed a workflow as a useful resource for predicting phase-separated proteins based on multi-prediction tool, which has an important contribution to the further identification of phase-separated proteins and the development strategies for treating disease.",
+  "abstract_zh": "细胞如同一个高度工业化和城市化的城市，充满了众多生物大分子和代谢产物，形成了拥挤的环境。同时，细胞拥有区室化的细胞器，以高效有序地完成不同的生物学过程。然而，无膜细胞器对于包括信号转导和分子相互作用在内的瞬时事件更具动态性和适应性。液-液相分离 (liquid-liquid phase separation, LLPS) 是一种广泛存在的机制，其中大分子在拥挤环境中形成无膜凝聚体以发挥生物学功能。由于对相分离蛋白缺乏深入理解，目前缺乏通过高通量方法探索相分离蛋白的平台。生物信息学具有其独特性质，并已在多个领域被证明是巨大的推动力。在此，我们整合了氨基酸序列、蛋白质结构和细胞定位，开发了一个筛选相分离蛋白的工作流程，并鉴定了一种新型细胞周期相关相分离蛋白，即丝氨酸/精氨酸富集剪接因子2 (serine/arginine-rich splicing factor 2, SRSF2)。总之，我们开发了一个基于多预测工具的工作流程，作为预测相分离蛋白的有用资源，这对进一步识别相分离蛋白及制定疾病治疗策略具有重要贡献。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37285890/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37285890/",
+  "paper_page_path": "papers/pubmed/37285890/index.html"
+}

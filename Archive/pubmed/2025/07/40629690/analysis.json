@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40629690",
+  "title": "A coarse-grained model for simulations of phosphorylated disordered proteins.",
+  "authors": "Rauh, Arrien Symon; Hedemark, Gustav Stausboll; Tesei, Giulio; Lindorff-Larsen, Kresten",
+  "journal": "Biophysical journal",
+  "published_date": "2025-07-09",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发了适用于磷酸化无序蛋白的粗粒化分子动力学模型，聚焦磷酸化对无序蛋白构象的影响，虽未直接研究PPI，但为无序蛋白互作及相分离的机制建模提供了可迁移的物理模拟方法。",
+  "abstract": "Protein phosphorylation is a common and essential post-translational modification that affects biochemical properties and regulates biological activities. Phosphorylation is particularly common for intrinsically disordered proteins and can significantly modulate their function and potential to interact with binding partners. To understand the biophysical origins of how phosphorylation of disordered proteins influences their function, it is valuable to investigate how the modifications lead to changes in their conformational ensembles. Here, we have used a top-down data-driven approach to develop a coarse-grained molecular dynamics model compatible with the CALVADOS protein simulation model to study the effects of serine and threonine phosphorylation on the global structural properties of disordered proteins. We parameterize the model using experimental data on the effects of phosphorylation on global dimensions. By comparing with baseline models and simulations using the phosphomimetics aspartate and glutamate, we show that the effect of phosphorylation on the global dimensions of disordered proteins is mostly driven by the additional charge. We envisage that our model can be applied to study the effects of phosphorylation of disordered proteins at the proteome scale as well as to study the important roles of protein phosphorylation on phase separation.",
+  "abstract_zh": "蛋白质磷酸化是一种常见且必需的翻译后修饰，影响生化性质并调节生物活性。磷酸化在固有无序蛋白中尤为常见，并能显著调节其功能及与结合伙伴相互作用的潜力。为了理解无序蛋白磷酸化如何影响其功能的生物物理起源，研究这些修饰如何导致其构象集合的变化具有重要意义。在此，我们采用自上而下的数据驱动方法，开发了一种与CALVADOS蛋白模拟模型兼容的粗粒化分子动力学 (molecular dynamics) 模型，以研究丝氨酸和苏氨酸磷酸化对无序蛋白整体结构性质的影响。我们利用磷酸化对整体尺寸影响的实验数据对模型进行参数化。通过与基线模型及使用磷酸化模拟物天冬氨酸和谷氨酸的模拟进行比较，我们表明磷酸化对无序蛋白整体尺寸的影响主要由额外电荷驱动。我们设想，我们的模型可应用于蛋白质组尺度上研究无序蛋白磷酸化的效应，以及研究蛋白磷酸化在相分离 (phase separation) 中的重要作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40629690/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40629690/",
+  "paper_page_path": "papers/pubmed/40629690/index.html"
+}

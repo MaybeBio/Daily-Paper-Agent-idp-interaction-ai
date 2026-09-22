@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41687307",
+  "title": "In silico characterisation of C11orf42 as a potential therapeutic target in triple-negative breast cancer.",
+  "authors": "Alfaifi, Mohammed; Kamli, Hossam",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2026-02-14",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究通过整合序列、结构、PPI网络、对接和MD模拟，表征了含IDR的C11orf42蛋白并预测其作为TNBC治疗靶点，虽涉及IDR和PPI网络及AI/物理方法，但互作机制建模深度有限，且对象为单蛋白靶点而非IDR介导的PPI机制。",
+  "abstract": "Triple-negative breast cancer (TNBC) lacks actionable targets and rapidly develops resistance; therefore, we used an integrative in silico approach to functionally characterise C11orf42 and assess its therapeutic relevance. Sequence and structural analyses revealed that C11orf42 is a  approximately 36.4 kDa soluble cytosolic protein composed of a conserved TED domain (residues 14-213; mean pLDDT  approximately  89) and a flexible intrinsically disordered C-terminal region (residues  approximately 232-333). Intrinsic disorder supports conformational flexibility; however, specific functional roles (e.g., protein-protein interaction scaffolding or signalling) remain hypothesis-generating and require orthogonal validation. Protein-protein interaction network analysis identified a highly enriched network (71 nodes, 432 edges; p < 1.0 x 10(-)(1)(6)), implicating C11orf42 in vesicular trafficking, receptor recycling, and oncogenic signalling pathways relevant to TNBC. Structure-based druggability analysis revealed four ligandable pockets, and molecular docking identified four phytochemicals-chamaejasmin, Genetin J, isomultiflorenol, and podocarpusflavone B-with favorable binding affinities ( approximately  -8.9 to -9.6 kcal/mol). In 100-ns MD simulations, the full-length protein showed RMSD  approximately 10-12 A due to C-terminal disorder, while the TED core (residues  approximately 14-213) remained stable at 2-3 A. In-silico profiling indicates Chamaejasmin is a beyond-Ro5, high-affinity, long-residence C11orf42 inhibitor (t(1/2) = 118.07 h; logP = 2.87) with acceptable safety but poor solubility (logS = -6.36), limited oral bioavailability (39.98 %), and multiple drug-likeness violations, making formulation/scaffold optimisation the main barrier. Importantly, functional genomics analysis of DepMap CRISPR-Cas9 screening data shows that C11orf42 is not a pan-essential viability gene but displays a context-restricted dependency profile, consistent with a regulatory or modulatory role rather than a core survival function. Collectively, these results prioritise C11orf42 as a computationally inferred, conditionally relevant regulatory candidate for further experimental evaluation in TNBC and provide a hypothesis-generating structural, network, and functional framework for future validation.",
+  "abstract_zh": "三阴性乳腺癌（TNBC）缺乏可操作的靶点，并迅速产生耐药性；因此，我们采用整合性计算机模拟方法对C11orf42进行功能表征，并评估其治疗相关性。序列和结构分析显示，C11orf42是一个约36.4 kDa的可溶性胞质蛋白，由保守的TED结构域（残基14-213；平均pLDDT约89）和柔性的内在无序C端区域（残基约232-333）组成。内在无序性支持构象灵活性；然而，具体功能角色（如蛋白-蛋白相互作用支架或信号传导）仍属假设生成性质，需正交验证。蛋白-蛋白相互作用网络分析识别出一个高度富集的网络（71个节点，432条边；p < 1.0 x 10(-)(1)(6)），提示C11orf42参与囊泡运输、受体再循环及与TNBC相关的致癌信号通路。基于结构的可成药性分析揭示了四个可配体口袋，分子对接识别出四种植物化学物质——狼毒素（chamaejasmin）、Genetin J、异多花醇（isomultiflorenol）和罗汉松黄酮B（podocarpusflavone B）——具有有利的结合亲和力（约-8.9至-9.6 kcal/mol）。在100 ns分子动力学模拟中，全长蛋白因C端无序性显示RMSD约10-12 Å，而TED核心（残基约14-213）保持在2-3 Å的稳定状态。计算机模拟分析表明，狼毒素是一种超越Ro5规则、高亲和力、长驻留时间的C11orf42抑制剂（t(1/2) = 118.07 h；logP = 2.87），具有可接受的安全性但溶解度差（logS = -6.36），口服生物利用度有限（39.98%），并存在多种类药性违规，使制剂/骨架优化成为主要障碍。重要的是，对DepMap CRISPR-Cas9筛选数据的功能基因组学分析显示，C11orf42并非泛必需生存基因，而是表现出情境限制性依赖谱，与其作为调控或调节角色而非核心生存功能一致。总体而言，这些结果将C11orf42优先列为计算推断的、条件相关的调控候选基因，供TNBC中进一步实验评估，并为未来验证提供假设生成的结构、网络和功能框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41687307/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41687307/",
+  "paper_page_path": "papers/pubmed/41687307/index.html"
+}

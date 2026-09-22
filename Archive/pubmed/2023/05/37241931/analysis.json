@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37241931",
+  "title": "Exploring the Role of Anionic Lipid Nanodomains in the Membrane Disruption and Protein Folding of Human Islet Amyloid Polypeptide Oligomers on Lipid Membrane Surfaces Using Multiscale Molecular Dynamics Simulations.",
+  "authors": "Nguyen, Ngoc; Lewis, Amber; Pham, Thuong; Sikazwe, Donald; Cheng, Kwan H",
+  "journal": "Molecules (Basel, Switzerland)",
+  "published_date": "2023-05-27",
+  "window": {
+    "start": "2023-05-22",
+    "end": "2023-05-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用多尺度分子动力学模拟研究hIAPP寡聚体在脂质纳米域上的膜破坏与蛋白折叠机制，虽对象为淀粉样蛋白而非IDP，但PPI界面与构象转变的物理模拟思路对无序蛋白互作机制建模有可迁移启发。",
+  "abstract": "The aggregation of human Islet Amyloid Polypeptide (hIAPP) on cell membranes is linked to amyloid diseases. However, the physio-chemical mechanisms of how these hIAPP aggregates trigger membrane damage are unclear. Using coarse-grained and all-atom molecular dynamics simulations, we investigated the role of lipid nanodomains in the presence or absence of anionic lipids, phosphatidylserine (PS), and a ganglioside (GM1), in the membrane disruption and protein folding behaviors of hIAPP aggregates on phase-separated raft membranes. Our raft membranes contain liquid-ordered (Lo), liquid-disordered (Ld), mixed Lo/Ld (Lod), PS-cluster, and GM1-cluster nanosized domains. We observed that hIAPP aggregates bound to the Lod domain in the absence of anionic lipids, but also to the GM1-cluster- and PS-cluster-containing domains, with stronger affinity in the presence of anionic lipids. We discovered that L16 and I26 are the lipid anchoring residues of hIAPP binding to the Lod and PS-cluster domains. Finally, significant lipid acyl chain order disruption in the annular lipid shells surrounding the membrane-bound hIAPP aggregates and protein folding, particularly beta-sheet formation, in larger protein aggregates were evident. We propose that the interactions of hIAPP and both non-anionic and anionic lipid nanodomains represent key molecular events of membrane damage associated with the pathogenesis of amyloid diseases.",
+  "abstract_zh": "人胰岛淀粉样多肽（hIAPP）在细胞膜上的聚集与淀粉样疾病相关。然而，这些hIAPP聚集体触发膜损伤的物理化学机制尚不清楚。利用粗粒化和全原子分子动力学模拟，我们研究了在存在或不存在阴离子脂质、磷脂酰丝氨酸（PS）和神经节苷脂（GM1）的情况下，脂质纳米域在相分离筏膜上hIAPP聚集体的膜破坏和蛋白质折叠行为中的作用。我们的筏膜包含液态有序（Lo）、液态无序（Ld）、混合Lo/Ld（Lod）、PS簇和GM1簇纳米尺寸域。我们观察到，在缺乏阴离子脂质时，hIAPP聚集体结合到Lod域，但也结合到含GM1簇和PS簇的域，且在存在阴离子脂质时亲和力更强。我们发现L16和I26是hIAPP结合到Lod和PS簇域的脂质锚定残基。最后，在膜结合hIAPP聚集体周围的环形脂质壳中，脂质酰基链有序性显著破坏，以及较大蛋白质聚集体中的蛋白质折叠，特别是β-折叠形成，均明显可见。我们提出，hIAPP与非阴离子和阴离子脂质纳米域的相互作用是淀粉样疾病发病机制中膜损伤的关键分子事件。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37241931/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37241931/",
+  "paper_page_path": "papers/pubmed/37241931/index.html"
+}

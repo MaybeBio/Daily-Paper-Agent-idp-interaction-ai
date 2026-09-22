@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, validation, and interpretation as presented in the provided text
+- **Shared manuscript claim summary** The authors present PocketMiner, a graph neural network trained on molecular dynamics simulation data to predict cryptic pocket formation from single protein structures. They claim it accurately identifies experimentally confirmed cryptic pockets (ROC-AUC 0.87) over 1000-fold faster than existing methods, and that proteome-wide application suggests over half of proteins thought to lack pockets may contain cryptic pockets.
+- **Visible evidence base** Abstract, Introduction, Results (partial), Discussion, Methods (partial), figure references (Fig. 1-6, S1-S10), table references (S1-S6)
+- **Missing materials affecting confidence** Full Results section (only section headings and partial text visible), all figures and tables, supplementary materials, detailed training/validation data splits, hyperparameter tuning details, code implementation specifics
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in drug discovery: rapid identification of cryptic pockets from static protein structures. The core idea of training a graph neural network on simulation-derived labels rather than known ligand-binding examples is novel and potentially impactful. However, the provided text is incomplete, lacking full results, figures, and tables, which prevents thorough evaluation of the central claims. The methodology as described has several ambiguities and potential circularities that need clarification. The proteome-wide extrapolation, while intriguing, rests on assumptions about negative labels that are not fully justified.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing structure-based prediction tools; medicinal chemists and drug discovery researchers interested in expanding the druggable proteome; structural biologists studying protein dynamics and allostery; researchers working on cryptic pocket identification and targeting.
+- **Major strengths** 1) The training paradigm is conceptually novel: using simulation-derived pocket opening events as labels, rather than known ligand-binding sites, potentially allows training on far more data and captures pockets that may not yet have known ligands. 2) The reported speed improvement (>1000-fold) over CryptoSite is substantial and practically significant for screening applications. 3) The systematic evaluation of MD simulations' ability to recapitulate known cryptic pockets across a diverse dataset is a valuable contribution. 4) The proteome-wide application demonstrates scalability and provides testable predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Validation
+  - **Claim pointer** "Applying PocketMiner to single structures from a newly-curated dataset of 39 experimentally-confirmed cryptic pockets demonstrates that it accurately identifies cryptic pockets (ROC-AUC: 0.87)"
+  - **Evidence pointer** Results section (partial), Figure 5, Table S5
+  - **Concern** The evaluation dataset construction and the potential for information leakage between training and test sets are not fully described. The test set includes 24 apo structures with cryptic pockets, but the training data includes simulations of proteins with known cryptic pockets. If any of the 24 test proteins or close homologs were part of the training simulations, the reported performance would be inflated. The text states test proteins had <55% sequence identity to training proteins, but this threshold may not be sufficient to prevent structural similarity-based leakage, especially for proteins sharing folds or domains. Additionally, the negative set construction relies on "hyper-rigid" proteins and proteins with extensive ligand screening, but the criteria for "extensive" and the completeness of these screens are not quantified. A protein could have been screened against a limited library, leaving many potential cryptic pockets untested.
+  - **Why it matters** The central claim of accurate cryptic pocket prediction depends entirely on the validity of the test set. If there is any leakage or if negative labels are unreliable, the reported ROC-AUC of 0.87 would not reflect real-world performance on novel proteins.
+  - **Resolution test** Provide a detailed description of the test set construction, including a phylogenetic or structural similarity analysis between training and test proteins. Quantify the extent of ligand screening for negative examples (e.g., number of compounds screened, diversity of chemotypes). Show performance stratified by sequence identity bins to demonstrate robustness.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Methodology
+  - **Claim pointer** "we trained a model to take a structure of a protein and forecast whether or not each residue will participate in the formation of a cryptic pocket over the course of a short simulation initiated from that structure"
+  - **Evidence pointer** Methods section "Model Training – Simulation Predictions", Figure 3
+  - **Concern** The label generation process for training is described as using LIGSITE pocket volume changes over 40 ns simulation windows, with residues labeled positive if volume increases by >40 Å³. However, the choice of 40 Å³ threshold and the 40 ns window are not justified. More critically, the training labels are derived from simulations, but the test labels are derived from experimentally observed ligand binding. This is a train-test domain shift: the model learns to predict simulation outcomes, but is evaluated on experimental outcomes. The authors argue these correlate, but the manuscript does not provide a quantitative analysis of how well simulation-predicted pockets correspond to experimentally validated cryptic pockets in the training set itself. If the simulations frequently produce pockets at sites that do not bind ligands experimentally, the model would be trained to predict false positives.
+  - **Why it matters** The fundamental premise of the approach is that simulation-derived pocket opening events are a good proxy for ligand-binding cryptic pockets. This premise is not directly validated. Without this validation, the model's performance on experimental test sets could be coincidental or could reflect a bias toward predicting any pocket-like feature.
+  - **Resolution test** Provide a direct comparison, within the training set, of simulation-predicted pocket sites versus experimentally known ligand-binding sites. Report precision and recall of simulation labels against experimental labels. If the agreement is poor, the training paradigm needs revision or justification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Interpretation
+  - **Claim pointer** "we apply PocketMiner across the human proteome and show that predicted pockets open in simulations, suggesting that over half of proteins thought to lack pockets based on available structures are likely to contain cryptic pockets"
+  - **Evidence pointer** Results section (partial), Figure 6
+  - **Concern** The proteome-wide claim is based on applying PocketMiner to AlphaFold predicted structures for proteins lacking experimental structures. The text notes that AlphaFold structures were used when no experimental structure was available, but the validation of PocketMiner was performed on experimental crystal structures. The accuracy of PocketMiner on AlphaFold models is not separately assessed. AlphaFold models may have different local geometry, side-chain conformations, and packing compared to experimental structures, which could systematically affect pocket predictions. The claim that "over half of proteins thought to lack pockets" are likely druggable is a strong extrapolation from a model validated on a small, curated test set (24 positive examples).
+  - **Why it matters** The proteome-wide result is a headline finding with significant implications for the field. If the model's performance does not transfer to AlphaFold structures, this claim would be substantially weakened. The 29.4% figure for proteins with predicted cryptic pockets needs to be interpreted in the context of the model's false positive rate, which is not clearly reported at the protein level.
+  - **Resolution test** Validate PocketMiner on a set of proteins with both experimental and AlphaFold structures, comparing prediction consistency. Report the estimated false discovery rate for the proteome-wide predictions, perhaps by applying the model to a set of proteins known to lack any pockets. Provide confidence intervals for the 29.4% estimate.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Comparison
+  - **Claim pointer** "we find that the two methods give very similar performance, with PocketMiner providing a small advantage (ROC-AUC: 0.87 vs. 0.85 for CryptoSite)"
+  - **Evidence pointer** Results section (partial), Table S5
+  - **Concern** The comparison with CryptoSite is presented as a key result, but the details of this comparison are not provided in the visible text. It is unclear whether CryptoSite was run on the same test set, with the same input structures, and with the same evaluation protocol. CryptoSite requires simulation data as input, so it is unclear how this was generated for the test proteins. If CryptoSite was run under suboptimal conditions (e.g., shorter simulations, different force fields), the comparison would be unfair. Additionally, the comparison is only on ROC-AUC; precision-recall, which is more informative for imbalanced problems like this, is not reported for the comparison.
+  - **Why it matters** The claim of improved performance over an existing method is a key selling point. An unfair or incomplete comparison would mislead readers about the relative merits of the two approaches.
+  - **Resolution test** Provide full details of the CryptoSite comparison, including simulation parameters, runtime, and any preprocessing. Report precision-recall curves and F1 scores for both methods. Consider a head-to-head comparison on a common benchmark dataset.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Reproducibility
+  - **Affected element** Methods, "Molecular Dynamics Simulations"
+  - **Evidence pointer** Methods section
+  - **Issue** The Methods section contains duplicated text describing the same simulation preparation steps (two paragraphs starting with "The structures of protein chains selected for simulation were downloaded from RCSB PDB"). This appears to be an editing error.
+  - **Required correction** Remove the duplicate paragraph.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Model Training – Simulation Predictions"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the 3D-CNN featurization states "a 20 Å x 20 Å x 20 Å cube is then defined around the Cβ atom" but the grid spacing is described as "10 Å apart" in the preceding sentence. This is likely a typo; the grid spacing should be 1 Å to match the 20 Å cube with 20 voxels per dimension.
+  - **Required correction** Correct the grid spacing to 1 Å.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Known cryptic pockets open rapidly in simulations"
+  - **Evidence pointer** Results section
+  - **Issue** The text states "One other, elongation factor TU, opens after additional rounds of adaptive sampling (five rounds of 10 parallel 40 ns simulations)." This is ambiguous; it should clarify whether this means 5 additional rounds beyond the initial round, or 5 rounds total.
+  - **Required correction** Clarify the number of total rounds and total simulation time for this protein.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion states "over half of the proteins thought to lack pockets are predicted to harbor a cryptic pocket," but the Results section reports 29.4% of proteins in the set. The discrepancy between "over half" and 29.4% is confusing. The 29.4% likely refers to the fraction of all proteins, while "over half" refers to the fraction of proteins classified as "undruggable" that have predicted cryptic pockets. This should be clarified.
+  - **Required correction** Clarify the denominator for the "over half" claim and ensure consistency between Results and Discussion.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Model Training – Simulation Predictions"
+  - **Evidence pointer** Methods section
+  - **Issue** The hyperparameter tuning process is described as using Optuna, but the search space, number of trials, and selection criteria are not specified. This limits reproducibility.
+  - **Required correction** Provide the hyperparameter search space and the final selected hyperparameters for the model used in testing.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Curated dataset of 39 cryptic pockets"
+  - **Evidence pointer** Results section
+  - **Issue** The text mentions "38 apo-holo protein structure pairs containing 39 cryptic pockets" but does not explain why one pair has two pockets. This is a minor point but should be clarified for completeness.
+  - **Required correction** Briefly explain the pair with two cryptic pockets.
+
+## Risk / unsupported claims
+- The claim that "over half of proteins thought to lack pockets based on available structures are likely to contain cryptic pockets" is not directly supported by the visible data. The 29.4% figure is reported, but the derivation of the "over half" statement is unclear and appears in the Discussion without a clear link to the Results.
+- The claim of ">1,000-fold faster than existing methods" is stated but the benchmark details (hardware, software, exact runtime measurements) are not provided in the visible text.
+- The claim that "predicted pockets open in simulations" for the proteome-wide analysis is mentioned but the validation of this claim (e.g., how many predicted pockets were verified in simulation) is not quantified in the visible text.
+- The generalizability of PocketMiner to AlphaFold-predicted structures is asserted but not validated; this is a significant gap given the proteome-wide application relies on AlphaFold models for many proteins.
+- The statement that "most known ligand-binding cryptic pockets can be identified with just 400 ns of aggregate, unbiased simulation" is a strong claim based on a dataset of 15 proteins, and the text notes one protein required more simulation time. The generalizability of this finding to larger or more complex proteins is not established.

@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (review article)
+- **Assessment boundary** Scientific content, technical accuracy, clarity, and relevance of the presented principles and applications of FCS/FCCS to biomolecular LLSP
+- **Shared manuscript claim summary** The manuscript is a review article that introduces the principles of fluorescence auto-correlation spectroscopy (FACS) and fluorescence cross-correlation spectroscopy (FCCS), and summarizes their applications to studies of biomolecular liquid-liquid phase separation (LLPS) in vitro and in vivo
+- **Visible evidence base** Full text including abstract, main sections, equations, figure descriptions, and table reference
+- **Missing materials affecting confidence** Figures and Table 1 are referenced but not provided; no experimental data or primary results are included (consistent with a review article)
+
+## Reviewer
+- **Overall assessment** This is a well-structured and clearly written review article that serves as an accessible introduction to FCS and FCCS principles and their application to LLPS research. The authors successfully explain complex theoretical concepts in an intuitive manner, supported by quantitative formulations. The review is timely given the growing interest in biomolecular condensates and the need for quantitative biophysical methods to study them. The manuscript is likely to be of interest to researchers entering the LLPS field who seek a practical understanding of FCS-based approaches. However, the review would benefit from a more critical discussion of limitations, potential artifacts, and best practices for applying FCS to condensate systems, as well as a more balanced presentation of alternative or complementary techniques.
+- **Who would be interested in the results, and why** Researchers in biophysics, cell biology, and biochemistry who are interested in applying fluorescence correlation spectroscopy to study biomolecular phase separation, particularly in live cells. The review provides a useful entry point for those unfamiliar with FCS theory and its practical implementation. It may also appeal to method developers seeking to understand current applications and gaps in the field.
+- **Major strengths** The manuscript provides a clear and pedagogically effective explanation of FCS and FCCS principles, using both intuitive descriptions and mathematical formulations. The connection between theoretical concepts and practical applications to LLPS is well illustrated. The review covers a broad range of relevant studies and highlights the versatility of FCS techniques. The inclusion of a section on commercial instruments is practical and useful for potential users.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical accuracy and completeness
+  - **Claim pointer** The manuscript claims that FCS can quantify molar concentration, diffusion coefficient, hydrodynamic radius, and binding affinity (KD) with single-molecule resolution, and that these capabilities are directly applicable to LLPS studies.
+  - **Evidence pointer** Equations 4-21, Section "FCS TECHNIQUES APPLIED TO LLPS RESEARCH IN VIVO AND IN VITRO"
+  - **Concern** While the theoretical framework is presented correctly, the review does not adequately address the practical challenges and potential artifacts when applying FCS to LLPS systems. For example, the presence of multiple species with different brightnesses, the effects of refractive index mismatch, and the complications arising from the heterogeneous and dynamic nature of condensates are mentioned only briefly. The review would be strengthened by a more critical discussion of when FCS measurements in condensates can be reliably interpreted and what controls are necessary.
+  - **Why it matters** LLPS systems are inherently complex, and naive application of FCS can lead to misinterpretation of data. A review aimed at introducing FCS to the LLPS community should provide guidance on experimental design, potential pitfalls, and validation strategies to ensure that reported measurements are meaningful.
+  - **Resolution test** The authors should add a section or expand existing text to discuss common artifacts (e.g., triplet dynamics, photobleaching, concentration-dependent effects), the importance of proper calibration, and strategies for validating FCS results in condensate systems (e.g., comparison with complementary methods).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of literature coverage
+  - **Claim pointer** The manuscript states that FCS has been applied to LLPS studies in vivo and in vitro and summarizes these applications.
+  - **Evidence pointer** Section "FCS TECHNIQUES APPLIED TO LLPS RESEARCH IN VIVO AND IN VITRO", Table 1 (referenced but not provided)
+  - **Concern** The review cites a number of studies but does not provide a systematic or comprehensive summary of the field. Table 1 is referenced but not included in the provided text, making it impossible to assess the breadth and depth of the literature coverage. Additionally, some important recent developments, such as the use of FCS to study protein-RNA condensates, the role of post-translational modifications, and the integration of FCS with other single-molecule techniques, are not discussed in detail.
+  - **Why it matters** A review article should provide a balanced and reasonably complete overview of the state of the field. The current text reads more as a selection of examples rather than a comprehensive synthesis, which limits its value as a reference for researchers.
+  - **Resolution test** The authors should ensure that Table 1 is included and that the text provides a more systematic discussion of the range of LLPS systems studied, the types of questions addressed, and the key findings. They should also discuss emerging trends and open questions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clarity of figure descriptions
+  - **Claim pointer** The manuscript refers to Figures 1-6 to illustrate concepts and instruments.
+  - **Evidence pointer** Figure descriptions in text
+  - **Concern** The figures are referenced but not provided. Based on the text descriptions, it is unclear whether the figures adequately convey the intended information. For example, Figure 1 is described as showing the FCS volume element and fluorescence intensity traces, but the level of detail in the description may not be sufficient for readers to fully grasp the concepts without seeing the figure.
+  - **Why it matters** Figures are essential for a review article to effectively communicate complex ideas. If the figures are not clear or do not match the text, the educational value of the manuscript is diminished.
+  - **Resolution test** The authors should ensure that all figures are of high quality, clearly labeled, and directly support the text. Figure captions should be self-explanatory.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that FCS "investigates the temporal relationship of fluctuating fluorescence signals" but does not clearly distinguish between auto-correlation and cross-correlation in the context of LLPS applications.
+  - **Required correction** Consider adding a sentence in the abstract that explicitly mentions the two main techniques (FACS and FCCS) and their complementary roles in studying LLPS.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Equation 13
+  - **Evidence pointer** Equation 13
+  - **Issue** The equation for multiple fluorescent species assumes non-interacting species and equal brightness weighting. The text does not clarify the limitations of this model when species interact or when brightness varies.
+  - **Required correction** Add a brief note after Equation 13 explaining the assumptions and limitations of the model, and refer readers to more advanced treatments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "FCS TECHNIQUES APPLIED TO LLPS RESEARCH IN VIVO AND IN VITRO"
+  - **Evidence pointer** Section text
+  - **Issue** The section is dense and could benefit from subheadings to organize the discussion of in vivo and in vitro applications, as well as different types of measurements (e.g., concentration, diffusion, interaction).
+  - **Required correction** Consider adding subheadings such as "In Vivo Studies" and "In Vitro Studies" to improve readability and navigation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Perspectives section
+  - **Evidence pointer** Section "PERSPECTIVES"
+  - **Issue** The perspectives section focuses on instrument availability and user-friendliness but does not discuss potential future technical developments in FCS (e.g., improved detectors, faster acquisition, combination with other modalities) or emerging applications.
+  - **Required correction** Expand the perspectives section to include a brief outlook on future technical advances and novel applications of FCS in LLPS research.
+- **Technical failings that need to be addressed before the case is established** None identified from the supplied material. The theoretical derivations and equations appear technically sound. The main issues are related to completeness of discussion and presentation rather than fundamental technical errors.
+- **Assessment against Nature-style criteria**
+  - **Originality** The manuscript does not present new experimental data or a novel theoretical framework. Its originality lies in the pedagogical approach to explaining FCS principles in the context of LLPS. This is a modest but useful contribution.
+  - **Scientific importance** The topic is of high importance given the rapid growth of LLPS research and the need for quantitative methods. The review addresses a real need for accessible introductions to FCS for this community.
+  - **Interdisciplinary readership** The manuscript is likely to appeal to researchers across biophysics, cell biology, and biochemistry. The writing is generally accessible, though some sections may be challenging for readers without a physics background.
+  - **Technical soundness** The technical content is accurate and well-presented. The equations are correct and the explanations are clear. The main weakness is the lack of critical discussion of limitations and artifacts.
+  - **Readability for nonspecialists** The authors make a good effort to explain concepts intuitively, but the manuscript assumes some familiarity with fluorescence microscopy and correlation analysis. The inclusion of a glossary or more detailed explanations of key terms would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript provides a useful and generally accurate introduction to FCS/FCCS for LLPS research. The main improvements needed are a more critical discussion of practical challenges and limitations, a more comprehensive literature summary, and inclusion of the referenced figures and table. Once these issues are addressed, the review would be a valuable resource for the community.
+
+## Risk / unsupported claims
+- The claim that FCS can be "seamlessly integrated with a variety of microscope platforms" is supported by general knowledge but not specifically demonstrated in the text.
+- The statement that "a complete set of hardware and software tools... are now commercially available" is based on the authors' own instrument description and may be seen as promotional; this claim is not independently verifiable from the provided text.
+- The assertion that FCS is "one of the few techniques capable of live-cell experimentation" for studying molecular mechanisms is an overstatement, as other techniques (e.g., single-particle tracking, FRAP) also offer live-cell capabilities.
+- The unpublished results mentioned in the text ("our lab carried out... unpublished results") cannot be assessed and should be clearly marked as such or removed.

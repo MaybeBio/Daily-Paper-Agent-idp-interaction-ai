@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.01.651694",
+  "title": "Orthologs of an essential orphan gene vary in their capacities for function and subcellular localization in Drosophila melanogaster",
+  "authors": "Patel PH; Eicholt LA; Lange A; McDermott KL; Bornberg-Bauer E; Findlay GD",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-07",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过跨物种基因替换实验和分子动力学模拟，分析孤儿基因Gdrd的无序区域理化特性与其在精子发生中互作功能的关系，虽对象非典型IDP-PPI且互作机制较浅，但无序区域功能与MD模拟方法对本课题有可迁移启发。",
+  "abstract": "Orphan genes evolve rapidly, raising questions about whether their functions remain conserved or diverge across species. To address this, we investigated goddard ( gdrd ), an orphan gene essential for spermatogenesis in Drosophila melanogaster . Within the Drosophila genus, Gdrd proteins retain a conserved core structure but display substantial variation in length and primary sequence. Here we perform cross-species gene-swap assays in D. melanogaster testes to examine how these lineage-specific changes affect Gdrd function. Strikingly, the highly divergent D. mojavensis ortholog fully rescues fertility in gdrd null flies, suggesting that ancestral Gdrd acted within a conserved spermatogenesis pathway. By contrast, several orthologs, including one from a more closely related species, cannot substitute for the melanogaster gene. Cytological analysis shows that all divergent Gdrd orthologs retain some ability to interact with axonemes and ring centrioles, consistent with the protein's structural conservation, but many non-complementing orthologs display weaker axonemal binding. Furthermore, all tested orthologs exhibit divergent localizations to organellar structures. Using computational analyses and molecular dynamics simulations, we identified intrinsic protein qualities that may account for several observations made in the gene swap assays. Rescuing orthologs bear motifs with shared physicochemical properties in their intrinsically disordered regions, while non-rescuing variants exhibit structural instabilities. Taken together, these findings show that while Gdrd's ancestral structure and interactions are conserved, several orthologs have undergone lineage-specific evolutionary changes.",
+  "abstract_zh": "孤儿基因进化迅速，这引发了关于其功能在不同物种间是保持保守还是发生分化的疑问。为探究此问题，我们研究了果蝇（Drosophila melanogaster）中一个对精子发生至关重要的孤儿基因goddard（gdrd）。在果蝇属内，Gdrd蛋白保留了一个保守的核心结构，但在长度和一级序列上表现出显著变异。在此，我们在黑腹果蝇睾丸中进行跨物种基因交换实验，以检验这些谱系特异性变化如何影响Gdrd功能。引人注目的是，高度分化的D. mojavensis直系同源物完全挽救了gdrd缺失果蝇的生育能力，这表明祖先Gdrd在保守的精子发生通路中发挥作用。相比之下，几个直系同源物，包括来自更近缘物种的一个，无法替代黑腹果蝇基因。细胞学分析显示，所有分化的Gdrd直系同源物都保留了一定的与轴丝和环状中心粒相互作用的能力，这与该蛋白的结构保守性一致，但许多非互补直系同源物表现出较弱的轴丝结合能力。此外，所有测试的直系同源物在细胞器结构上表现出分化的定位。利用计算分析和分子动力学模拟，我们识别了可能解释基因交换实验中若干观察结果的内在蛋白特性。具有挽救功能的直系同源物在其内在无序区域携带具有共享理化性质的基序，而非挽救变体则表现出结构不稳定性。综合来看，这些发现表明，尽管Gdrd的祖先结构和相互作用是保守的，但几个直系同源物经历了谱系特异性进化变化。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.01.651694",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.01.651694",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.01.651694/index.html"
+}

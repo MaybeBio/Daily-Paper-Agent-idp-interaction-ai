@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "38552579",
+    "doi": "10.1016/j.jcis.2024.03.088",
+    "title": "Freezing-mediated formation of supraproteins using depletion forces."
+  },
+  "content": {
+    "abstract": "Hypothesis Long-acting formulations such as microparticles, injectable depots and implantable devices can realize spatiotemporally controlled delivery of protein drugs to extend their therapeutic in vivo half-lives. To efficiently encapsulate the protein drugs into such drug delivery systems, (sub)micron-sized protein particles are needed. The formation of micronized supraproteins can be induced through the synergistic combination of attractive depletion forces and freezing. The size of the supraproteins can be fine-tuned from submicron to several microns by adjusting the ice crystallization rate through the freeze-quench depth, which is set by the target temperature. Methods Supraprotein micron structures were prepared from protein solutions under various conditions in the presence and absence of nonadsorbing polyethylene glycol. Scanning electron microscopy and dynamic light scattering were employed to determine the sizes of the supraproteins and real-time total internal reflection fluorescent microscopy was used to follow the supraprotein formation during freezing. The protein secondary structure was measured before and after micronization by circular dichroism. A phase diagram of a protein-polyethylene glycol mixture was theoretically predicted to investigate whether the depletion interaction can elucidate the phase behavior. Findings Micronized protein supraparticles could be prepared in a controlled manner by rapid freeze-drying of aqueous mixtures of bovine serum albumin, horseradish peroxidase and lysozyme mixed with polyethylene glycol. Upon freezing, the temperature quench initiates a phase separation process which is reminiscent of spinodal decomposition. This demixing is subsequently arrested during droplet phase separation to form protein-rich microstructures. The final size of the generated protein microparticles is determined by a competition between phase separation and cooling rate, which can be controlled by target temperature. The experimental phase diagram of the aqueous protein-polyethylene glycol dispersion aligns with predictions from depletion theory for charged colloids and nonadsorbing polymers.",
+    "keywords": [
+      "Arrested phase separation",
+      "Depletion interaction",
+      "Drug delivery",
+      "Freeze-drying",
+      "Micronization",
+      "Proteins"
+    ],
+    "mesh_terms": [
+      "Freezing",
+      "*Polyethylene Glycols/chemistry",
+      "*Polymers",
+      "Pharmaceutical Preparations",
+      "Serum Albumin, Bovine/chemistry",
+      "Microscopy, Electron, Scanning",
+      "Water/chemistry",
+      "Freeze Drying"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Jiankang",
+        "Tas, Roderick P",
+        "Martens, Max C M",
+        "Ritten, Manon V M",
+        "Wu, Hanglong",
+        "Jones, Elizabeth R",
+        "Lebouille, Jerome G J L",
+        "Vis, Mark",
+        "Voets, Ilja K",
+        "Tuinier, Remco"
+      ],
+      "short_names": [
+        "Song J",
+        "Tas RP",
+        "Martens MCM",
+        "Ritten MVM",
+        "Wu H",
+        "Jones ER",
+        "Lebouille JGJL",
+        "Vis M",
+        "Voets IK",
+        "Tuinier R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Physical Chemistry, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands. Electronic address: j.song@tue.nl.",
+        "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Laboratory of Self-organizing Soft Matter, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands.",
+        "Laboratory of Physical Chemistry, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands.",
+        "Laboratory of Physical Chemistry, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands.",
+        "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Bio-Organic Chemistry, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands.",
+        "DSM Biomedical, 6167 RD Geleen, the Netherlands.",
+        "DSM Biomedical, 6167 RD Geleen, the Netherlands.",
+        "Laboratory of Physical Chemistry, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands.",
+        "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Laboratory of Self-organizing Soft Matter, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands.",
+        "Laboratory of Physical Chemistry, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands. Electronic address: r.tuinier@tue.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Jiankang",
+        "short_name": "Song J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Physical Chemistry, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands. Electronic address: j.song@tue.nl."
+        ]
+      },
+      {
+        "full_name": "Tas, Roderick P",
+        "short_name": "Tas RP",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Laboratory of Self-organizing Soft Matter, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Martens, Max C M",
+        "short_name": "Martens MCM",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Physical Chemistry, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Ritten, Manon V M",
+        "short_name": "Ritten MVM",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Physical Chemistry, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Wu, Hanglong",
+        "short_name": "Wu H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Bio-Organic Chemistry, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Jones, Elizabeth R",
+        "short_name": "Jones ER",
+        "identifiers": [],
+        "affiliations": [
+          "DSM Biomedical, 6167 RD Geleen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Lebouille, Jérôme G J L",
+        "short_name": "Lebouille JGJL",
+        "identifiers": [],
+        "affiliations": [
+          "DSM Biomedical, 6167 RD Geleen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Vis, Mark",
+        "short_name": "Vis M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Physical Chemistry, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Voets, Ilja K",
+        "short_name": "Voets IK",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Laboratory of Self-organizing Soft Matter, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Tuinier, Remco",
+        "short_name": "Tuinier R",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Physical Chemistry, Department of Chemical Engineering and Chemistry, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands; Institute for Complex Molecular Systems (ICMS), Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, the Netherlands. Electronic address: r.tuinier@tue.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of colloid and interface science"
+    ],
+    "journal_abbrev": [
+      "J Colloid Interface Sci"
+    ],
+    "pub_date": "2024 Jul",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/30 11:42",
+    "fetched_at": "2026-09-21 06:10:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38552579",
+      "10068440",
+      "11205729",
+      "16254391",
+      "18835346",
+      "11337173",
+      "20184955",
+      "12669973",
+      "32461002",
+      "12834836",
+      "23872443",
+      "23665446",
+      "22724678",
+      "9336978",
+      "18551248",
+      "22877696",
+      "11697471",
+      "18423767",
+      "20800680",
+      "16188407",
+      "6172844",
+      "30288720",
+      "29101534",
+      "19475555",
+      "8893281",
+      "28044462",
+      "10099593",
+      "27287516",
+      "27664024",
+      "17266278",
+      "21491456",
+      "9548903",
+      "9874703",
+      "21963767",
+      "11205730",
+      "11835203",
+      "11458336",
+      "15177174",
+      "11154903",
+      "24338205",
+      "29307533",
+      "34534655",
+      "20967837",
+      "7764173",
+      "15451527",
+      "18441020",
+      "11370701",
+      "27022665",
+      "21057905",
+      "12189727",
+      "18248378",
+      "20890911",
+      "27238489",
+      "37209792",
+      "31154055",
+      "28363858",
+      "25597618",
+      "9144726",
+      "12637092",
+      "35120964",
+      "21185814",
+      "20821174",
+      "8879152",
+      "16084699",
+      "1030437",
+      "10548253",
+      "20625865",
+      "18286357",
+      "15058998",
+      "24657821",
+      "30677417",
+      "12916894",
+      "11368512",
+      "18183382",
+      "31546390",
+      "8358391",
+      "23958752",
+      "11745729",
+      "20182826",
+      "30017885",
+      "22960322",
+      "8512328",
+      "20091827",
+      "11745778",
+      "33278411",
+      "16887112",
+      "21865255",
+      "23742723",
+      "24879291",
+      "27904076",
+      "11102683",
+      "21235213",
+      "12522813",
+      "27521845",
+      "22322208",
+      "38072147",
+      "31953190",
+      "14630355",
+      "16266769",
+      "9449368",
+      "16369870"
+    ],
+    "review": [
+      "38552579",
+      "30288720",
+      "7764173"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9797(24)00571-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

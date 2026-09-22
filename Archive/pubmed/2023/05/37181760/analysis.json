@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37181760",
+  "title": "Designing negative feedback loops in enzymatic coacervate droplets.",
+  "authors": "Modi, Nisha; Chen, Siwei; Adjei, Imelda N A; Franco, Briana L; Bishop, Kyle J M; Obermeyer, Allie C",
+  "journal": "Chemical science",
+  "published_date": "2023-05-14",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究构建酶-聚电解质凝聚液滴的负反馈回路，通过反应-扩散模型揭示pH响应相分离与酶促反应的耦合机制，虽对象为酶而非无序蛋白，但相分离与反应耦合的建模思路对IDR介导的凝聚体PPI机制研究有可迁移启发。",
+  "abstract": "Membraneless organelles within the living cell use phase separation of biomolecules coupled with enzymatic reactions to regulate cellular processes. The diverse functions of these biomolecular condensates motivate the pursuit of simpler in vitro models that exhibit primitive forms of self-regulation based on internal feedback mechanisms. Here, we investigate one such model based on complex coacervation of the enzyme catalase with an oppositely charge polyelectrolyte DEAE-dextran to form pH-responsive catalytic droplets. Upon addition of hydrogen peroxide \"fuel\", enzyme activity localized within the droplets causes a rapid increase in the pH. Under appropriate conditions, this reaction-induced pH change triggers coacervate dissolution owing to its pH-responsive phase behavior. Notably, this destabilizing effect of the enzymatic reaction on phase separation depends on droplet size owing to the diffusive delivery and removal of reaction components. Reaction-diffusion models informed by the experimental data show that larger drops support larger changes in the local pH thereby enhancing their dissolution relative to smaller droplets. Together, these results provide a basis for achieving droplet size control based on negative feedback between pH-dependent phase separation and pH-changing enzymatic reactions.",
+  "abstract_zh": "活细胞内的无膜细胞器利用生物分子的相分离（phase separation）与酶促反应耦合来调控细胞过程。这些生物分子凝聚体的多样功能促使人们寻求更简单的体外模型，这些模型基于内部反馈机制表现出原始形式的自我调节。在此，我们研究了一种基于酶过氧化氢酶（catalase）与带相反电荷的聚电解质DEAE-葡聚糖（DEAE-dextran）进行复合凝聚形成pH响应性催化液滴的模型。加入过氧化氢“燃料”后，液滴内定位的酶活性导致pH迅速升高。在适当条件下，这种反应诱导的pH变化触发凝聚体溶解，因其具有pH响应的相行为。值得注意的是，酶促反应对相分离的这种失稳效应依赖于液滴大小，这是由于反应组分的扩散输送和移除所致。由实验数据指导的反应-扩散模型表明，较大的液滴支持局部pH的更大变化，从而相对于较小液滴增强其溶解。综合来看，这些结果为基于pH依赖性相分离与pH变化酶促反应之间的负反馈实现液滴大小控制提供了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37181760/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37181760/",
+  "paper_page_path": "papers/pubmed/37181760/index.html"
+}

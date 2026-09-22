@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36659992",
+  "title": "Reflecting on mutational and biophysical analysis of Gaussia princeps Luciferase from a structural perspective: a unique bioluminescent enzyme.",
+  "authors": "Wu, Nan; Kobayashi, Naohiro; Kuroda, Yutaka; Yamazaki, Toshio",
+  "journal": "Biophysical reviews",
+  "published_date": "2023-01-21",
+  "window": {
+    "start": "2023-01-16",
+    "end": "2023-01-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文从结构视角综述Gaussia princeps荧光素酶的突变与生物物理研究，涉及IDR和AlphaFold2预测及MD模拟，但对象非PPI且无互作机制建模，仅部分方法可迁移。",
+  "abstract": "Gaussia princeps luciferase (GLuc 18.2 kDa; 168 residues) is a marine copepod luciferase that emits a bright blue light when oxidizing coelenterazine (CTZ). GLuc is a small luciferase, attracting much attention as a potential reporter protein. However, compared to firefly and Renilla luciferases, which have been thoroughly characterized and are used in a wide range of applications, structural and biophysical studies of GLuc have been slow to appear. Here, we review the biophysical and mutational studies of GLuc's bioluminescence from a structural viewpoint, particularly in view of its recent NMR solution structure, where two homologous sequential repeats form two anti-parallel bundles, each made of four helices, grabbing a short N-terminal helix. Additionally, a long loop classified as an intrinsically disordered region separates the two bundles forming one side of a hydrophobic pocket that is most likely the binding/catalytic site. We compare the NMR-determined structure with a recent AlphaFold2 prediction. Overall, the AlphaFold2 structure was in line with the solution structure; however, it surprisingly revealed a possible, alternative conformation, where the N-terminal helix is replaced by a newly formed alpha helix in the C-terminal tail that is unfolded in the NMR structure. In addition, we discuss the results of previous mutational analysis focusing on a putative catalytic core identified by chemical shift perturbation analysis and molecular dynamics simulations performed using both the NMR and the AlphaFold2 structures. In particular, we discuss the role of the possible conformational change and the hydrophobic pocket in GLuc's activity. Overall, the discussion points toward GLuc's unexpected and unusual characteristics that appear to be much more flexible than traditional enzymes, resulting in a unique mode of catalysis to achieve CTZ oxidative decarboxylation. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s12551-022-01025-6.",
+  "abstract_zh": "Gaussia princeps荧光素酶（GLuc 18.2 kDa；168个残基）是一种海洋桡足类荧光素酶，在氧化腔肠素（CTZ）时发出明亮的蓝光。GLuc是一种小型荧光素酶，作为潜在的报告蛋白备受关注。然而，与已被充分表征并广泛应用于多种领域的萤火虫和Renilla荧光素酶相比，GLuc的结构和生物物理研究进展缓慢。在此，我们从结构角度综述了GLuc生物发光的生物物理和突变研究，特别是基于其最近的NMR溶液结构，其中两个同源顺序重复序列形成两个反向平行的束，每个束由四个螺旋组成，并抓住一个短的N端螺旋。此外，一个被归类为 intrinsically disordered region 的长环将两个束分开，形成疏水口袋的一侧，该口袋很可能是结合/催化位点。我们将NMR确定的结构与最近的AlphaFold2预测进行了比较。总体而言，AlphaFold2结构与溶液结构一致；然而，它令人惊讶地揭示了一种可能的替代构象，其中N端螺旋被C端尾部新形成的α螺旋所取代，而该尾部在NMR结构中未折叠。此外，我们讨论了先前突变分析的结果，重点关注通过化学位移扰动分析以及使用NMR和AlphaFold2结构进行的分子动力学模拟所确定的推定催化核心。特别是，我们讨论了可能的构象变化和疏水口袋在GLuc活性中的作用。总体而言，讨论指向GLuc出乎意料且不寻常的特性，这些特性似乎比传统酶更具灵活性，从而导致一种独特的催化模式以实现CTZ氧化脱羧。补充信息：在线版本包含补充材料，可在10.1007/s12551-022-01025-6获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36659992/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36659992/",
+  "paper_page_path": "papers/pubmed/36659992/index.html"
+}

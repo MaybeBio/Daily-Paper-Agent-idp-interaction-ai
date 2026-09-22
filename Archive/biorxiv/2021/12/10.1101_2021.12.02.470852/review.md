@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors present a full-length, membrane-bound, palmitoylated, and fully glycosylated SARS-CoV-2 spike model built via hybrid homology modeling, protein-protein docking, and MD simulations. Multi-microsecond simulations reveal that glycan-glycan and glycan-lipid interactions broaden the spike's dynamical range via three flexible stalk hinges, that non-glycosylation reduces this range, that palmitoylation amplifies local membrane curvature potentially priming fusion, and that hinge regions are conserved across SARS coronaviruses, suggesting therapeutic targets.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or simulation parameters provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field choices, system setup details, validation against experimental data, quantitative results, statistical analyses, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially valuable computational study of the full SARS-CoV-2 spike glycoprotein in a native membrane environment. The claims are biologically plausible and align with emerging understanding of spike dynamics, but the abstract alone provides insufficient evidence to evaluate the technical rigor or validity of the simulations. The central claims regarding glycan-mediated dynamics, palmitoylation effects, and hinge conservation require detailed quantitative support that is not visible in the supplied material.
+- **Who would be interested in the results, and why** Structural biologists studying viral glycoproteins, computational biophysicists interested in membrane protein dynamics, virologists investigating SARS-CoV-2 entry mechanisms, and researchers developing spike-targeted therapeutics or vaccines would find these results relevant. The full-length model and multi-microsecond trajectories could serve as a community resource for studying spike dynamics.
+- **Major strengths** The construction of a complete, membrane-bound, post-translationally modified spike model addresses a significant gap in the field, as most prior studies used truncated or minimally modified constructs. The use of multi-microsecond simulations represents a substantial computational investment. The integration of biochemical and glycomics data to guide model construction is a commendable approach. The identification of conserved hinge regions with potential therapeutic relevance provides a translational angle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Multi-microsecond MD simulations of this model, the longest known trajectory of the full-spike, reveals conformational dynamics employed by the protein to explore the crowded surface of the host cell."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims the simulations are "the longest known trajectory of the full-spike" but provides no simulation length, number of replicas, convergence criteria, or comparison to prior published trajectories. Without these details, the claim of being the longest cannot be verified, and the statistical robustness of the observed dynamics cannot be assessed.
+  - **Why it matters** Conformational sampling in MD simulations is highly sensitive to simulation length and replica number. If the trajectory is not converged or is a single run, the observed dynamical range and hinge flexibility may be artifacts of insufficient sampling rather than genuine biophysical properties.
+  - **Resolution test** Provide the total simulation time per replica, number of replicas, convergence metrics (e.g., RMSD stabilization, principal component overlap), and a direct comparison to previously published full-spike simulation lengths.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Dynamical range of spike is considerably reduced in its non-glycosylated form, confining the area explored by the spike on the host cell surface."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that non-glycosylated spike has reduced dynamical range but provides no quantitative metrics, such as root-mean-square fluctuation values, principal component eigenvalues, or accessible surface area measurements. The comparison between glycosylated and non-glycosylated systems is central to the paper's thesis, yet no numerical evidence is presented.
+  - **Why it matters** The claim that glycans broaden the dynamical range is the core mechanistic insight. Without quantitative comparison, the reader cannot judge the magnitude of the effect or whether it is statistically significant given thermal fluctuations.
+  - **Resolution test** Provide quantitative measures of dynamical range (e.g., RMSF, radius of gyration distributions, or free energy landscapes) for both glycosylated and non-glycosylated systems, with error bars and statistical significance tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Palmitoylation of the membrane domain amplify the local curvature that may prime the fusion."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim that palmitoylation amplifies local membrane curvature is presented without any quantitative measure of curvature, such as membrane curvature maps, lipid density profiles, or comparison to a non-palmitoylated control. The phrase "may prime the fusion" is speculative and not supported by direct evidence in the abstract.
+  - **Why it matters** Palmitoylation effects on membrane curvature are subtle and require careful quantification. Without a control simulation lacking palmitoylation and quantitative curvature analysis, the claim is not established.
+  - **Resolution test** Provide membrane curvature calculations (e.g., local Gaussian or mean curvature maps) for palmitoylated versus non-palmitoylated systems, and clarify whether the observed curvature is statistically significant and mechanistically linked to fusion priming.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "Using a hybrid approach, combining homology modeling, protein-protein docking and MD simulations, guided by biochemical and glycomics data, we have developed a full-length, membrane-bound, palmitoylated and fully-glycosylated spike structure in a native membrane."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract describes the model construction approach but provides no details on the homology modeling templates, docking protocols, glycosylation site occupancy, palmitoylation site selection, or membrane composition. Without these details, the model cannot be reproduced or independently validated.
+  - **Why it matters** The validity of all downstream simulation results depends on the accuracy of the initial model. If the glycosylation pattern or membrane composition is not representative of the native virus, the conclusions may not transfer to the biological system.
+  - **Resolution test** Provide a detailed methods section describing template selection, sequence identity, glycosylation site assignment (with reference to experimental glycomics data), palmitoylation site selection, membrane lipid composition, and validation of the model against cryoEM or other experimental structures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** "SARS-CoV2" is used without a hyphen; the standard nomenclature is "SARS-CoV-2."
+  - **Required correction** Change "SARS-CoV2" to "SARS-CoV-2" throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, "virulance" and "hinges in stalk"
+  - **Issue** "virulance" is a typo for "virulence," and "hinges in stalk" should be "hinges in the stalk" for grammatical correctness.
+  - **Required correction** Correct the typo and add the missing article.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, "fully-glycosyslated"
+  - **Issue** "fully-glycosyslated" is a misspelling of "fully-glycosylated."
+  - **Required correction** Correct the spelling.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract, "In agreement with cryoEM"
+  - **Issue** The abstract states agreement with cryoEM but does not specify which cryoEM structures or what specific features are compared. This limits the reader's ability to assess the validity of the comparison.
+  - **Required correction** Specify the cryoEM structures used for comparison and the specific features (e.g., hinge angles, domain orientations) that were compared.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation length and convergence not documented), R1-M2 (no quantitative comparison of glycosylated versus non-glycosylated dynamics), R1-M3 (no quantitative curvature analysis or control for palmitoylation), R1-M4 (model construction details insufficient for reproducibility)
+- **Assessment against Nature-style criteria** Originality is high, as a full-length, post-translationally modified spike model in a native membrane is a significant advance over prior truncated constructs. Scientific importance is substantial given the central role of spike in infection and therapeutic targeting. Interdisciplinary readership is plausible, spanning virology, structural biology, and computational biophysics. Technical soundness cannot be assessed from the abstract alone, as no quantitative methods or results are provided. Readability for nonspecialists is adequate but would benefit from clearer definitions of terms like "dynamical range" and "local curvature." The abstract makes bold claims that require full methodological transparency to be credible in a high-impact venue.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a compelling narrative, but the absence of quantitative results, methodological details, and validation data prevents assessment of whether the claims are supported. The authors should provide the full manuscript with detailed methods, quantitative analyses, and comparisons to experimental data before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim that the simulations represent "the longest known trajectory of the full-spike" is unverifiable without simulation lengths and comparison to prior work.
+- The claim that non-glycosylation "considerably" reduces dynamical range is unsupported without quantitative metrics.
+- The claim that palmitoylation "amplify the local curvature" is unsupported without curvature measurements or control simulations.
+- The claim that hinge regions are "highly conserved in SARS coronaviruses" is unverifiable without sequence alignment data or conservation scores.
+- The claim that the model is "fully-glycosylated" and "palmitoylated" is unverifiable without details on site occupancy and selection criteria.
+- The statement that hinge flexibility "may prime the membrane for fusion" is speculative and not directly supported by the abstract's evidence.

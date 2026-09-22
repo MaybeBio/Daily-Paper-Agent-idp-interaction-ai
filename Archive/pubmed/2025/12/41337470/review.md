@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, availability section) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the described framework, its algorithmic formalism, demonstrated applications, and claims of utility and generality. No assessment of code execution, reproducibility of results, or experimental validation beyond what is stated in the text.
+- **Shared manuscript claim summary** The authors present BAGEL, a modular, open-source Python framework for protein engineering that formalizes design as sampling of an energy landscape via model-agnostic, gradient-free Monte Carlo methods. They claim flexibility over existing pipelines, support for multi-objective and multi-state design, integration with deep learning protein models, and demonstrate utility across four archetypal applications.
+- **Visible evidence base** Text descriptions of four application examples (simple peptide binder, disordered epitope targeting, multi-state selective binder, enzyme variant generation), figures referenced but not provided, algorithmic pseudocode summary, and references to supporting information (S1 Text, S3 Text) not included in the supplied material.
+- **Missing materials affecting confidence** Figures 1-5, S1 Text (optimization details and input files), S3 Text (molecular dynamics simulation details), code repository contents, and any quantitative results or metrics from the application examples. These are essential for assessing the validity and significance of the claimed outcomes.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a well-motivated and thoughtfully architected software framework that addresses a genuine gap in current protein design tooling. The conceptual shift from rigid, differentiable pipelines to a modular, energy-based sampling formalism is sensible and potentially valuable. However, the evidence presented in the provided text is largely qualitative and descriptive. The application examples are presented as demonstrations without quantitative results, comparative benchmarks, or experimental validation. The scientific case for the framework's effectiveness and broad utility is therefore not yet established from the supplied material. The manuscript reads more as a software description and position statement than as a validated research contribution.
+- **Who would be interested in the results, and why** Computational protein designers and engineers, particularly those working on binder design, enzyme engineering, and multi-state optimization problems. Researchers seeking flexible, extensible frameworks that can incorporate evolving deep learning models would find the modular architecture appealing. The open-source, model-agnostic philosophy may attract users who need to escape the constraints of fixed pipelines. The broader protein engineering community interested in democratized access to design tools would also be a target audience.
+- **Major strengths** The conceptual framing of protein design as energy landscape sampling is clear and well-articulated. The modular architecture with clean separation of concerns (System, State, Chain, EnergyTerm, Oracle, Minimizer) is a genuine strength that addresses real usability and extensibility limitations in existing tools. The explicit support for multi-state optimization and non-differentiable objectives is a meaningful advance over gradient-based approaches. The integration of model-agnostic oracles via a unified API (boileroom) is forward-looking and practical. The authors are transparent about limitations and future directions, which is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that BAGEL enables "flexible exploration of sequence space" and demonstrates utility across four archetypal applications, implying these are successful demonstrations of the framework's capabilities.
+  - **Evidence pointer** Section 3 (Results), Figures 2-5, S1 Text, S3 Text
+  - **Concern** The application examples are described only in qualitative terms. No quantitative metrics are provided, such as binding affinity predictions, structural similarity scores, sequence diversity measures, or success rates. The figures are referenced but not available for review. The supporting information containing optimization details and molecular dynamics results is not provided. Without these data, the claims of successful design cannot be evaluated. The statement that designs are "valid under the assumption that ESMFold and ESM-2 yield accurate predictions" is a significant caveat that is not addressed with any evidence.
+  - **Why it matters** The core value proposition of the framework rests on its ability to produce viable protein designs. Descriptive narratives of what was attempted do not constitute evidence of effectiveness. The absence of quantitative results or comparisons to existing methods prevents any assessment of whether BAGEL offers advantages over current approaches. The scientific contribution is therefore unsubstantiated.
+  - **Resolution test** Provide quantitative results for each application example, including relevant metrics (e.g., predicted binding energies, structural alignments, sequence conservation, diversity of generated ensembles). Include comparisons to baseline methods or existing tools where applicable. Make the supporting information available for review.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The manuscript states that "low values of the predicted confidence metrics strongly correlate to lower RMSD values between the predicted and experimentally determined structure" and implies that high confidence metrics correlate with successful designs, particularly for binders.
+  - **Evidence pointer** Section 3 (Results), references [30,31]
+  - **Concern** The authors rely on correlations between confidence metrics and experimental outcomes from the literature to justify the validity of their designs. However, they acknowledge that "a large-scale assessment of the translational accuracy of these metrics remains to be done for the case of designed proteins." This is a critical gap. The framework's outputs are entirely dependent on the accuracy of ESMFold and ESM-2, and the manuscript provides no independent validation that the optimization process leads to designs that would succeed experimentally. The molecular dynamics simulations mentioned are not described in the provided text, and their results are not summarized.
+  - **Why it matters** Without experimental validation or at least a robust computational benchmark against known protein structures and interactions, the practical utility of BAGEL remains speculative. The manuscript's own caveat undermines the confidence with which the results can be interpreted. The scientific community requires evidence that computational design tools produce functional proteins, not just confident predictions.
+  - **Resolution test** Provide details and results of the molecular dynamics simulations, including stability metrics over time. If available, include any experimental validation data. Alternatively, benchmark BAGEL on a set of known protein-protein interactions where experimental binding data exist, and compare predicted designs to known binders.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative assessment
+  - **Claim pointer** The introduction criticizes existing pipelines as "rigid, highly specific, and ill-suited for tasks requiring non-differentiable or multi-objective design goals," implying BAGEL overcomes these limitations.
+  - **Evidence pointer** Section 1 (Introduction), Section 3 (Results)
+  - **Concern** The manuscript does not provide any direct comparison to existing protein design frameworks. While the conceptual advantages of BAGEL are argued, there is no demonstration that it outperforms or offers practical benefits over tools like RFDiffusion, ProteinMPNN, or other established methods. The claim of flexibility is plausible but unquantified. The application examples do not include comparative runs with alternative approaches.
+  - **Why it matters** For a new framework to be adopted, it must demonstrate clear advantages over the state of the art. Without comparative benchmarks, the scientific contribution is unclear. The authors may have a valuable tool, but the manuscript does not establish its position relative to existing solutions.
+  - **Resolution test** Include a comparative analysis on at least one application, running the same design task with BAGEL and an existing tool (e.g., ProteinMPNN or RFDiffusion), and compare outcomes in terms of design quality, computational cost, and ease of implementing custom objectives.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1 (Algorithm)
+  - **Evidence pointer** Equations 1-4, location not provided
+  - **Issue** The mathematical formalism is presented with equations that are not fully explained in the text. The notation for System, State, and Chain is introduced but the relationship between the energy functions and the sampling procedure could be clearer.
+  - **Required correction** Expand the text around the equations to define all symbols and explain how the energy landscape is constructed and navigated. Consider a simple illustrative example of the formalism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.3 (Oracles)
+  - **Evidence pointer** Section 2.3, location not provided
+  - **Issue** The description of the ESMFold multimer handling via linker and positional encoding skip is interesting but lacks detail on how users specify these options and what the default behavior implies for design outcomes.
+  - **Required correction** Provide a brief example of how a user would configure a multimer design in the code, including the relevant API calls or configuration parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4 (Availability and future directions)
+  - **Evidence pointer** Section 4, location not provided
+  - **Issue** The discussion of future directions is broad but does not mention any plans for benchmarking against experimental data or establishing a standard test set for the community.
+  - **Required correction** Add a paragraph on planned validation efforts, including potential benchmark datasets and collaboration opportunities with experimental groups.
+- **Technical failings that need to be addressed before the case is established** The absence of quantitative results from the application examples (R1-M1) and the lack of independent validation of design quality (R1-M2) are the primary technical failings. The manuscript cannot be assessed for scientific soundness without these data. The comparative analysis gap (R1-M3) further weakens the case for the framework's utility.
+- **Assessment against Nature-style criteria** Originality: The conceptual framing of protein design as modular energy landscape sampling is not entirely novel, building on prior Monte Carlo approaches, but the specific architecture and model-agnostic integration are a useful contribution. Scientific importance: Potentially high, as flexible design tools are in demand, but the importance is not demonstrated without evidence of effectiveness. Interdisciplinary readership: The manuscript is written for a computational biology audience and would be accessible to those with a background in protein modeling, but the lack of quantitative results limits its appeal to a broader readership. Technical soundness: The algorithmic formalism is sound in principle, but the lack of validation data prevents an assessment of its practical soundness. Readability for nonspecialists: The manuscript is clearly written and the concepts are explained well, but the technical detail in the methods section may be challenging for those outside the field.
+- **Recommendation posture** Currently not established from the provided evidence. The framework is well-conceived and the manuscript is well-written, but the scientific claims of utility and effectiveness are not supported by the supplied material. A revised manuscript with quantitative results, validation, and comparative benchmarks would be needed to establish the case.
+
+## Risk / unsupported claims
+- The claim that BAGEL "seamlessly integrates" a wide range of deep learning models is not supported by any demonstration of interoperability or performance benchmarks.
+- The assertion that the framework "democratizes protein design" is a rhetorical claim without supporting evidence of accessibility or adoption.
+- The statement that the enzyme variant example demonstrates "viable functional diversity" is unsupported without sequence diversity metrics or functional assays.
+- The claim that molecular dynamics simulations show structures are "stable on the simulated timescales" is unverifiable without the simulation details and results.
+- The general claim that BAGEL is a "flexible alternative" to existing paradigms is not substantiated by any comparative analysis.

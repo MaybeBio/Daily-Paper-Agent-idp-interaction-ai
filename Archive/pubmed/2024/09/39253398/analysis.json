@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39253398",
+  "title": "Beyond monopole electrostatics in regulating conformations of intrinsically disordered proteins.",
+  "authors": "Phillips, Michael; Muthukumar, Murugappan; Ghosh, Kingshuk",
+  "journal": "PNAS nexus",
+  "published_date": "2024-09-10",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出电荷调控理论，解释无序蛋白构象与序列电荷模式的关系，并预测相分离行为，虽无AI/物理模拟方法，但聚焦IDP构象与相分离机制，对无序蛋白互作建模有理论启发。",
+  "abstract": "Conformations and dynamics of an intrinsically disordered protein (IDP) depend on its composition of charged and uncharged amino acids, and their specific placement in the protein sequence. In general, the charge (positive or negative) on an amino acid residue in the protein is not a fixed quantity. Each of the ionizable groups can exist in an equilibrated distribution of fully ionized state (monopole) and an ion-pair (dipole) state formed between the ionizing group and its counterion from the background electrolyte solution. The dipole formation (counterion condensation) depends on the protein conformation, which in turn depends on the distribution of charges and dipoles on the molecule. Consequently, effective charges of ionizable groups in the IDP backbone may differ from their chemical charges in isolation-a phenomenon termed charge-regulation. Accounting for the inevitable dipolar interactions, that have so far been ignored, and using a self-consistent procedure, we present a theory of charge-regulation as a function of sequence, temperature, and ionic strength. The theory quantitatively agrees with both charge reduction and salt-dependent conformation data of Prothymosin-alpha and makes several testable predictions. We predict charged groups are less ionized in sequences where opposite charges are well mixed compared to sequences where they are strongly segregated. Emergence of dipolar interactions from charge-regulation allows spontaneous coexistence of two phases having different conformations and charge states, sensitively depending on the charge patterning. These findings highlight sequence dependent charge-regulation and its potential exploitation by biological regulators such as phosphorylation and mutations in controlling protein conformation and function.",
+  "abstract_zh": "intrinsically disordered protein (IDP) 的构象和动力学取决于其带电和不带电氨基酸的组成，以及它们在蛋白质序列中的特定排列。通常，蛋白质中氨基酸残基的电荷（正或负）并非固定量。每个可电离基团可以以完全电离态（单极子）和由电离基团与背景电解质溶液中的抗衡离子形成的离子对（偶极子）态之间的平衡分布存在。偶极子形成（抗衡离子凝聚）依赖于蛋白质构象，而构象又依赖于分子上电荷和偶极子的分布。因此，IDP 骨架中可电离基团的有效电荷可能与其孤立状态下的化学电荷不同——这一现象称为电荷调控 (charge-regulation)。考虑到迄今被忽略的不可避免的偶极相互作用，并采用自洽程序，我们提出了一个电荷调控理论，该理论是序列、温度和离子强度的函数。该理论定量地符合 Prothymosin-alpha 的电荷减少和盐依赖性构象数据，并做出了若干可检验的预测。我们预测，在相反电荷充分混合的序列中，带电基团的电离程度低于强烈分离的序列。电荷调控中偶极相互作用的出现允许具有不同构象和电荷状态的两相自发共存，这敏感地依赖于电荷图案化。这些发现强调了序列依赖性电荷调控及其在控制蛋白质构象和功能方面被生物调控因子（如磷酸化和突变）潜在利用的可能性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39253398/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39253398/",
+  "paper_page_path": "papers/pubmed/39253398/index.html"
+}

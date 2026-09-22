@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors challenge the prevailing models that Polycomb-mediated repression of Hox genes requires chromatin compaction or phase separation. Using Optical Reconstruction of Chromatin Architecture (ORCA) in thousands of single cells across multiple cell types, they report that Polycomb-bound chromatin frequently adopts decompact states and partially mixes with neighboring chromatin while remaining uniformly repressed. They propose an alternative mechanism termed "spatial feedback," supported by polymer simulations, in which transient contacts propagate epigenetic memory without inducing globular organization.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methods for ORCA experiments and polymer simulations, statistical analyses, cell type descriptions, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important challenge to established models of Polycomb-mediated repression. The central claim, that repression can occur without compaction or phase separation, is provocative and would be of broad interest if rigorously supported. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the ORCA measurements, the statistical robustness of the conclusions, or the validity of the polymer simulation approach. The "spatial feedback" model is introduced but not mechanistically defined in the abstract, leaving its explanatory power unclear. The evidence base is too limited to establish the case as presented.
+- **Who would be interested in the results, and why** Researchers in epigenetics, chromatin biology, gene regulation, and developmental biology would be interested. The work directly addresses ongoing debates about the physical mechanisms of Polycomb repression, including the role of phase separation, which has attracted substantial attention. The findings could also interest computational biologists working on polymer models of chromatin organization and epigenetic memory.
+- **Major strengths** The study addresses a timely and contested question in the field. The use of single-cell imaging across thousands of cells is a methodological strength that allows direct observation of chromatin conformations. The explicit testing of two prominent models (compaction and phase separation) against empirical data is a rigorous approach. The proposal of an alternative mechanism grounded in polymer simulations provides a constructive framework beyond mere refutation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that Polycomb-bound chromatin "frequently explores decompact states and partial mixing with neighboring chromatin, while remaining uniformly repressed," challenging repression-by-compaction or phase-separation models.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not provide any quantitative details about the ORCA measurements, such as the resolution limits, the number of loci traced per cell, the statistical criteria used to define "decompact states," or how "partial mixing" was quantified. Without these details, it is impossible to assess whether the observed conformations are biologically meaningful or artifacts of the imaging approach.  
+  - **Why it matters** The central conclusion depends entirely on the reliability and interpretation of the imaging data. If the resolution or sampling is insufficient to detect compact states, or if the classification of "decompact" is arbitrary, the challenge to existing models would be unfounded.  
+  - **Resolution test** Provide detailed methods for ORCA, including resolution, labeling efficiency, number of cells and loci analyzed, and quantitative definitions of compaction states. Include statistical comparisons between repressed and active loci and appropriate controls.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that polymer simulations show the observed flexible ensembles "can be explained by 'spatial feedback'-transient contacts that contribute to the propagation of the epigenetic state (epigenetic memory), without inducing a globular organization."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not describe the polymer model parameters, the nature of the "spatial feedback" mechanism, or how the simulations were validated against the experimental data. Without this information, it is unclear whether the simulations are predictive or merely fitted to reproduce the observations.  
+  - **Why it matters** The proposed alternative mechanism is the main positive contribution of the work. If the simulations are not rigorously constrained or tested, the "spatial feedback" model remains speculative and does not provide a credible alternative to the models being challenged.  
+  - **Resolution test** Provide full model description, parameter choices, sensitivity analyses, and quantitative comparison between simulated and experimental chromatin conformations.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors imply that their findings challenge the general applicability of compaction and phase-separation models for Polycomb repression.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports data from the Hoxa cluster across "multiple cell types," but does not specify which cell types, how many were examined, or whether the findings are representative of other Polycomb target loci. The generalization from one locus to a broad mechanistic conclusion may be premature.  
+  - **Why it matters** The significance of the work depends on whether the findings extend beyond a single locus. If the Hoxa cluster is atypical, the challenge to existing models would be weakened.  
+  - **Resolution test** Specify the cell types and loci examined, and provide evidence that the observed behavior is consistent across multiple Polycomb targets.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Originality  
+  - **Claim pointer** The "spatial feedback" model is presented as a novel explanation for epigenetic memory.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not explain how "spatial feedback" differs mechanistically from previously proposed models of epigenetic memory, such as positive feedback loops involving histone modifications or self-reinforcing chromatin states. The novelty of the concept is therefore unclear.  
+  - **Why it matters** If the proposed mechanism is not clearly distinguished from existing models, the conceptual contribution of the work is diminished.  
+  - **Resolution test** Provide a clear mechanistic definition of "spatial feedback" and explicitly contrast it with existing models of epigenetic memory in the full text.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "spatial feedback" is introduced without definition, which may confuse readers unfamiliar with the concept.  
+  - **Required correction** Define "spatial feedback" in the abstract or provide a brief explanatory phrase.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that chromatin "frequently explores decompact states," but the frequency is not quantified.  
+  - **Required correction** Provide quantitative measures, such as the proportion of cells or loci exhibiting decompact states.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interdisciplinary readership  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract assumes familiarity with ORCA and polymer simulation terminology, which may limit accessibility to readers outside the immediate field.  
+  - **Required correction** Briefly describe ORCA and the simulation approach in accessible terms.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The imaging methodology and simulation details must be fully described and validated before the central claims can be assessed. The generalizability of the findings beyond the Hoxa cluster must also be demonstrated.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The work challenges established models and proposes a new mechanism, which is potentially original. However, the novelty of "spatial feedback" relative to existing models is not established from the abstract.  
+  - **Scientific importance** The question of how Polycomb represses genes is fundamental to developmental biology and epigenetics. If the claims are substantiated, the work would have significant impact.  
+  - **Interdisciplinary readership** The topic bridges epigenetics, biophysics, and computational modeling, which could attract a broad audience. The abstract, however, is not fully accessible to nonspecialists.  
+  - **Technical soundness** Cannot be evaluated from the abstract alone. The lack of methodological detail is a major limitation.  
+  - **Readability for nonspecialists** The abstract is concise but uses field-specific terms without explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary data, but the technical details required to evaluate the claims are absent. I would be supportive if the full manuscript provides rigorous methods, quantitative analyses, and clear evidence that the findings generalize beyond the Hoxa cluster.
+
+## Risk / unsupported claims
+- The claim that Polycomb-bound chromatin "frequently explores decompact states" is unsupported without quantitative imaging data and statistical analysis.
+- The claim that the observed conformations "challenge" compaction and phase-separation models is unsupported without demonstrating that the imaging approach would have detected such states if they existed.
+- The "spatial feedback" model as an explanation for epigenetic memory is unsupported without a mechanistic definition and simulation details.
+- The generalizability of the findings to other Polycomb target loci is unsupported, as only the Hoxa cluster is mentioned.

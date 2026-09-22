@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "35163518",
+    "doi": "10.3390/ijms23031589",
+    "title": "The Inherent Coupling of Intrinsically Disordered Regions in the Multidomain Receptor Tyrosine Kinase KIT."
+  },
+  "content": {
+    "abstract": "RTK KIT regulates a variety of crucial cellular processes via its cytoplasmic domain (CD), which is composed of the tyrosine kinase domain, crowned by the highly flexible domains-the juxtamembrane region, kinase insertion domain, and C-tail, which are key recruitment regions for downstream signalling proteins. To prepare a structural basis for the characterization of the interactions of KIT with its signalling proteins (KIT INTERACTOME), we generated the 3D model of the full-length CD attached to the transmembrane helix. This generic model of KIT in inactive state was studied by molecular dynamics simulation under conditions mimicking the natural environment of KIT. With the accurate atomistic description of the multidomain KIT dynamics, we explained its intrinsic (intra-domain) and extrinsic (inter-domain) disorder and represented the conformational assemble of KIT through free energy landscapes. Strongly coupled movements within each domain and between distant domains of KIT prove the functional interdependence of these regions, described as allosteric regulation, a phenomenon widely observed in many proteins. We suggested that KIT, in its inactive state, encodes all properties of the active protein and its post-transduction events.",
+    "keywords": [
+      "allosteric regulation",
+      "conformational transition",
+      "free energy landscape",
+      "full-length KIT cytoplasmic region",
+      "intrinsically disordered regions",
+      "modelling",
+      "molecular dynamics",
+      "phosphotyrosine",
+      "receptor tyrosine kinase (RTK)"
+    ],
+    "mesh_terms": [
+      "Catalytic Domain",
+      "Humans",
+      "Hydrogen Bonding",
+      "Models, Molecular",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Protein Conformation",
+      "Protein Domains",
+      "Protein Folding",
+      "Protein Interaction Maps",
+      "Proto-Oncogene Proteins c-kit/*chemistry/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ledoux, Julie",
+        "Trouve, Alain",
+        "Tchertanov, Luba"
+      ],
+      "short_names": [
+        "Ledoux J",
+        "Trouve A",
+        "Tchertanov L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8298-5995"
+      ],
+      "affiliations": [
+        "Centre Borelli, ENS Paris-Saclay, CNRS, Universite Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France.",
+        "Centre Borelli, ENS Paris-Saclay, CNRS, Universite Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France.",
+        "Centre Borelli, ENS Paris-Saclay, CNRS, Universite Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ledoux, Julie",
+        "short_name": "Ledoux J",
+        "identifiers": [],
+        "affiliations": [
+          "Centre Borelli, ENS Paris-Saclay, CNRS, Université Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Trouvé, Alain",
+        "short_name": "Trouvé A",
+        "identifiers": [
+          "0000-0002-8298-5995"
+        ],
+        "affiliations": [
+          "Centre Borelli, ENS Paris-Saclay, CNRS, Université Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Tchertanov, Luba",
+        "short_name": "Tchertanov L",
+        "identifiers": [],
+        "affiliations": [
+          "Centre Borelli, ENS Paris-Saclay, CNRS, Université Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Jan 29",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/16 06:00",
+    "fetched_at": "2026-09-20 08:21:54"
+  },
+  "links": {
+    "cites": [
+      "41378882",
+      "41053984",
+      "36361689"
+    ],
+    "refs": [
+      "34376561",
+      "34298994",
+      "33574233",
+      "32608199",
+      "32593398",
+      "32214210",
+      "31510014",
+      "31372066",
+      "31285328",
+      "31204250",
+      "31120747",
+      "30931927",
+      "30744993",
+      "28880476",
+      "28516007",
+      "27322406",
+      "26583988",
+      "26574453",
+      "25440716",
+      "25330964",
+      "25079768",
+      "25004990",
+      "24740064",
+      "24449920",
+      "24415929",
+      "24150612",
+      "23803604",
+      "23783631",
+      "23312584",
+      "23269364",
+      "23073628",
+      "22927810",
+      "21501695",
+      "21471012",
+      "21109422",
+      "20602996",
+      "20147452",
+      "20095048",
+      "19785456",
+      "19617554",
+      "19225609",
+      "19164557",
+      "19037818",
+      "18856071",
+      "18706817",
+      "18560010",
+      "18388127",
+      "18351591",
+      "18059446",
+      "17904548",
+      "17494761",
+      "17075131",
+      "16940322",
+      "16928735",
+      "16780420",
+      "16777592",
+      "16731967",
+      "16617086",
+      "16226710",
+      "16218947",
+      "15583854",
+      "15382234",
+      "15350212",
+      "15123710",
+      "14960716",
+      "14759363",
+      "14343300",
+      "12878163",
+      "12824176",
+      "12697809",
+      "12417206",
+      "12015977",
+      "11572780",
+      "11484219",
+      "10550212",
+      "10354703",
+      "9829700",
+      "9739761",
+      "9312016",
+      "9038210",
+      "8744570",
+      "7539802",
+      "6667333",
+      "5938952"
+    ],
+    "similar": [
+      "35163518",
+      "34298994",
+      "32214210",
+      "36361689",
+      "32530065",
+      "21698178",
+      "18214972",
+      "12697809",
+      "15363456",
+      "25079768",
+      "16226710",
+      "24828813",
+      "16129412",
+      "15123710",
+      "30015051",
+      "18588518",
+      "20147452",
+      "22927810",
+      "23912807",
+      "11825908",
+      "24449920",
+      "29482074",
+      "23782055",
+      "23707526",
+      "11809791",
+      "25544564",
+      "31270078",
+      "31877324",
+      "29704617",
+      "33153146",
+      "16780420",
+      "12512837",
+      "16190746",
+      "17662946",
+      "15625120",
+      "33226337",
+      "33383937",
+      "8880928",
+      "33030907",
+      "26236953",
+      "9949175",
+      "17255936",
+      "15067126",
+      "23803604",
+      "19789626",
+      "22437942",
+      "20041122",
+      "11018522",
+      "30038016",
+      "15297464",
+      "34681018",
+      "26195786",
+      "18754682",
+      "34439881",
+      "17355866",
+      "19660459",
+      "14707129",
+      "20095048",
+      "10909038",
+      "15363457",
+      "30514761",
+      "7691317",
+      "17659849",
+      "8547652",
+      "24043820",
+      "17350321",
+      "27861609",
+      "30471699",
+      "17662934",
+      "35994329",
+      "25446260",
+      "26463591",
+      "33546457",
+      "29267381",
+      "23880320",
+      "30019371",
+      "12878163",
+      "11080633",
+      "26735936",
+      "10224103",
+      "12091352",
+      "20036637",
+      "8630383",
+      "11838236",
+      "10022833",
+      "23840364",
+      "12085229",
+      "19737976",
+      "27890784",
+      "12481435",
+      "32323533",
+      "31506298",
+      "21918774",
+      "21640708",
+      "7523381"
+    ],
+    "review": [
+      "35163518",
+      "16226710",
+      "16129412",
+      "29704617",
+      "15625120",
+      "10909038",
+      "7691317",
+      "17659849",
+      "17350321",
+      "25446260",
+      "33546457",
+      "11838236"
+    ],
+    "pmc": [
+      "8835827"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23031589",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35163518/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35163518",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

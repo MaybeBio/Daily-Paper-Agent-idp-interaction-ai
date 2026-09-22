@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "33617832",
+    "doi": "10.1016/j.bpj.2021.02.013",
+    "title": "CRISPR-based DNA and RNA detection with liquid-liquid phase separation."
+  },
+  "content": {
+    "abstract": "The ability to detect specific nucleic acid sequences allows for a wide range of applications such as the identification of pathogens, clinical diagnostics, and genotyping. CRISPR-Cas proteins Cas12a and Cas13a are RNA-guided endonucleases that bind and cleave specific DNA and RNA sequences, respectively. After recognition of a target sequence, both enzymes activate indiscriminate nucleic acid cleavage, which has been exploited for sequence-specific molecular diagnostics of nucleic acids. Here, we present a label-free detection approach that uses a readout based on solution turbidity caused by liquid-liquid phase separation (LLPS). Our approach relies on the fact that the LLPS of oppositely charged polymers requires polymers to be longer than a critical length. This length dependence is predicted by the Voorn-Overbeek model, which we describe in detail and validate experimentally in mixtures of polynucleotides and polycations. We show that the turbidity resulting from LLPS can be used to detect the presence of specific nucleic acid sequences by employing the programmable CRISPR-nucleases Cas12a and Cas13a. Because LLPS of polynucleotides and polycations causes solutions to become turbid, the detection of specific nucleic acid sequences can be observed with the naked eye. We furthermore demonstrate that there is an optimal polynucleotide concentration for detection. Finally, we provide a theoretical prediction that hints towards possible improvements of an LLPS-based detection assay. The deployment of LLPS complements CRISPR-based molecular diagnostic applications and facilitates easy and low-cost nucleotide sequence detection.",
+    "keywords": [],
+    "mesh_terms": [
+      "CRISPR-Cas Systems",
+      "*Clustered Regularly Interspaced Short Palindromic Repeats",
+      "DNA/genetics",
+      "Endonucleases",
+      "*RNA/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Spoelstra, Willem Kasper",
+        "Jacques, Jeroen M",
+        "Gonzalez-Linares, Rodrigo",
+        "Nobrega, Franklin L",
+        "Haagsma, Anna C",
+        "Dogterom, Marileen",
+        "Meijer, Dimphna H",
+        "Idema, Timon",
+        "Brouns, Stan J J",
+        "Reese, Louis"
+      ],
+      "short_names": [
+        "Spoelstra WK",
+        "Jacques JM",
+        "Gonzalez-Linares R",
+        "Nobrega FL",
+        "Haagsma AC",
+        "Dogterom M",
+        "Meijer DH",
+        "Idema T",
+        "Brouns SJJ",
+        "Reese L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands.",
+        "School of Biological Sciences, Faculty of Environmental and Life Sciences, University of Southampton, Southampton, United Kingdom.",
+        "School of Biological Sciences, Faculty of Environmental and Life Sciences, University of Southampton, Southampton, United Kingdom.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands. Electronic address: louisreese@protonmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Spoelstra, Willem Kasper",
+        "short_name": "Spoelstra WK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Jacques, Jeroen M",
+        "short_name": "Jacques JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Gonzalez-Linares, Rodrigo",
+        "short_name": "Gonzalez-Linares R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Faculty of Environmental and Life Sciences, University of Southampton, Southampton, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Nobrega, Franklin L",
+        "short_name": "Nobrega FL",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Faculty of Environmental and Life Sciences, University of Southampton, Southampton, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Haagsma, Anna C",
+        "short_name": "Haagsma AC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Dogterom, Marileen",
+        "short_name": "Dogterom M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Meijer, Dimphna H",
+        "short_name": "Meijer DH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Idema, Timon",
+        "short_name": "Idema T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Brouns, Stan J J",
+        "short_name": "Brouns SJJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Reese, Louis",
+        "short_name": "Reese L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, the Netherlands. Electronic address: louisreese@protonmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2021 Apr 6",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/02/23 06:00",
+    "fetched_at": "2026-09-20 01:42:20"
+  },
+  "links": {
+    "cites": [
+      "38768250",
+      "37287828",
+      "37192099",
+      "36875159",
+      "36791720",
+      "36762838",
+      "36292145",
+      "35682737",
+      "35163678",
+      "34863214",
+      "34272525",
+      "34267944",
+      "33730551",
+      "32577410",
+      "31548639"
+    ],
+    "refs": [
+      "35590728",
+      "33628946",
+      "33346665",
+      "32758911",
+      "32601183",
+      "32312191",
+      "32300245",
+      "31995710",
+      "31548639",
+      "31532637",
+      "31478642",
+      "30639240",
+      "30337455",
+      "30018371",
+      "29976794",
+      "29961577",
+      "29531313",
+      "29449511",
+      "29449508",
+      "29313527",
+      "28976959",
+      "28757251",
+      "28562589",
+      "28431230",
+      "28408723",
+      "28225081",
+      "27669025",
+      "27599198",
+      "27392146",
+      "27256883",
+      "26771484",
+      "26593719",
+      "26422227",
+      "25692582",
+      "25288112",
+      "22398450",
+      "13802337",
+      "13449108",
+      "11463823"
+    ],
+    "similar": [
+      "33617832",
+      "35682737",
+      "36120975",
+      "32175589",
+      "24476820",
+      "35586918",
+      "34011151",
+      "30076867",
+      "37824705",
+      "32370494",
+      "36400115",
+      "35946354",
+      "34019391",
+      "26364721",
+      "35533568",
+      "36569102",
+      "31270316",
+      "35123001",
+      "28475872",
+      "34049081",
+      "29107822",
+      "35266687",
+      "36840654",
+      "34454111",
+      "33980009",
+      "36170778",
+      "36637878",
+      "37524043",
+      "30338908",
+      "35777218",
+      "36494308",
+      "36932065",
+      "32758911",
+      "36399094",
+      "36383999",
+      "33839534",
+      "24150936",
+      "36737140",
+      "34215057",
+      "35689948",
+      "35623245",
+      "34298471",
+      "33940494",
+      "37228594",
+      "34143608",
+      "37027291",
+      "36493719",
+      "22986408",
+      "33930753",
+      "34304411",
+      "34505742",
+      "37016515",
+      "25981467",
+      "35271569",
+      "33991961",
+      "32729545",
+      "36122469",
+      "37079992",
+      "35727982",
+      "33258314",
+      "34279073",
+      "31727255",
+      "37908718",
+      "34280652",
+      "37808520",
+      "33342694",
+      "37267210",
+      "35062978",
+      "33497205",
+      "35044397",
+      "33264400",
+      "37528660",
+      "37094074",
+      "39091847",
+      "37276412",
+      "37786711",
+      "39394482"
+    ],
+    "review": [
+      "33617832",
+      "35682737",
+      "36120975",
+      "32175589",
+      "30076867",
+      "36569102",
+      "35123001",
+      "29107822",
+      "36840654",
+      "34454111",
+      "36170778",
+      "30338908",
+      "35777218",
+      "32758911",
+      "32729545",
+      "33258314",
+      "37808520"
+    ],
+    "pmc": [
+      "8059199"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(21)00150-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33617832/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33617832",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33617832",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

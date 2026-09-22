@@ -1,0 +1,221 @@
+{
+  "identity": {
+    "pmid": "37456111",
+    "doi": "10.1016/j.dib.2023.109359",
+    "title": "Early stages in Abeta1-42 spontaneous aggregation: An unbiased dataset from coarse-grained molecular dynamics simulations."
+  },
+  "content": {
+    "abstract": "The small soluble aggregates of Abeta(1-42) are broadly documented as potential targets for the development of new compounds with the capacity to inhibit the early stages of Alzheimer s disease. Nevertheless, Abeta(1-42) peptides show an intrinsically disordered character with a high propensity for aggregation, which complicates the identification of conserved structural patterns. Because of this, experimental techniques find substantial difficulties in the characterization of such soluble oligomers. Theoretical techniques, such as molecular dynamics (MD) simulations, provide a possible workaround for this problem. However, the computational cost associated with comprehensively sampling the vast conformational space accessible to these peptides might become prohibitive. In this sense, coarse-grained (CG) simulations can effectively overcome that hurdle at a fraction of the computational cost. In this dataset, we furnish an extensive collection of Abeta(1-42) peptides in dimeric conformation generated with the SIRAH force field for CG MD simulation. It comprises 25 independent trajectories in .xtc (gromacs) format of Abeta(1-42) couples of peptides that evolve towards dimeric states along eleven micros-long unbiased simulations. Thanks to the backmapping capabilities of our force field, pseudo atomistic coordinates can be straightforwardly recovered from MD trajectories reported here and analyzed with popular molecular editing programs. This set of simulations performed at room conditions and physiological salt concentrations may furnish a complete collection of inter-peptide interfaces that can be used in high-throughput docking or as new starting states for peptide oligomerization seeding of Abeta(1-42) dimerization.",
+    "keywords": [
+      "Aggregation",
+      "Alzheimer",
+      "Coarse-grained simulation",
+      "Molecular dynamics",
+      "Oligomerization",
+      "SIRAH",
+      "Soluble oligomer"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barrera, Exequiel E",
+        "Pantano, Sergio"
+      ],
+      "short_names": [
+        "Barrera EE",
+        "Pantano S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Instituto de Histologia y Embriologia (IHEM) - Consejo Nacional de Investigaciones Cientificas y Tecnicas (CONICET), CC56, Universidad Nacional de Cuyo (UNCuyo), Mendoza, Argentina.",
+        "Biomolecular Simulations Group, Institut Pasteur de Montevideo, Mataojo 2020, CP 11400 Montevideo, Uruguay.",
+        "Biomolecular Simulations Group, Institut Pasteur de Montevideo, Mataojo 2020, CP 11400 Montevideo, Uruguay."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barrera, Exequiel E",
+        "short_name": "Barrera EE",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Histología y Embriología (IHEM) - Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), CC56, Universidad Nacional de Cuyo (UNCuyo), Mendoza, Argentina.",
+          "Biomolecular Simulations Group, Institut Pasteur de Montevideo, Mataojo 2020, CP 11400 Montevideo, Uruguay."
+        ]
+      },
+      {
+        "full_name": "Pantano, Sergio",
+        "short_name": "Pantano S",
+        "identifiers": [],
+        "affiliations": [
+          "Biomolecular Simulations Group, Institut Pasteur de Montevideo, Mataojo 2020, CP 11400 Montevideo, Uruguay."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Data in brief"
+    ],
+    "journal_abbrev": [
+      "Data Brief"
+    ],
+    "pub_date": "2023 Aug",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/17 06:42",
+    "fetched_at": "2026-09-20 23:37:19"
+  },
+  "links": {
+    "cites": [
+      "39830132"
+    ],
+    "refs": [
+      "33868596",
+      "30810317",
+      "26773132"
+    ],
+    "similar": [
+      "37456111",
+      "34036130",
+      "26773132",
+      "30810317",
+      "29148438",
+      "37331570",
+      "26575407",
+      "26574429",
+      "33333836",
+      "29204882",
+      "35386098",
+      "23912807",
+      "26606631",
+      "21186801",
+      "31111835",
+      "29120633",
+      "22298285",
+      "32199430",
+      "33411518",
+      "20550147",
+      "35793442",
+      "30537643",
+      "32687361",
+      "31425755",
+      "27441457",
+      "28641562",
+      "34070778",
+      "35381009",
+      "28958932",
+      "21494747",
+      "21056574",
+      "27091578",
+      "31065347",
+      "18676652",
+      "28217775",
+      "20017540",
+      "28876928",
+      "17116404",
+      "17228975",
+      "36417670",
+      "31702868",
+      "30908042",
+      "37104393",
+      "26574442",
+      "26173078",
+      "25330962",
+      "25149815",
+      "22283547",
+      "20673230",
+      "24506488",
+      "30605312",
+      "19415895",
+      "19035669",
+      "33868596",
+      "18263661",
+      "30840442",
+      "23406326",
+      "32145946",
+      "31365254",
+      "37906711",
+      "15910066",
+      "19754142",
+      "16884212",
+      "32907192",
+      "33098838",
+      "21682507",
+      "34940778",
+      "27997210",
+      "35167071",
+      "31667232",
+      "25400526",
+      "19624176",
+      "25011560",
+      "26626661",
+      "32070240",
+      "34845619",
+      "28992696",
+      "27610460",
+      "24729203",
+      "35325529",
+      "39322588",
+      "35167075",
+      "19280018",
+      "29595197",
+      "28886645",
+      "28660628",
+      "26574286",
+      "22411308",
+      "37182953",
+      "30633860",
+      "30735393",
+      "24273239",
+      "31342431",
+      "38175797",
+      "38681860",
+      "37458355"
+    ],
+    "review": [
+      "37456111",
+      "37331570",
+      "29204882",
+      "31065347",
+      "20673230",
+      "30840442"
+    ],
+    "pmc": [
+      "10344647"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2352-3409(23)00478-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37456111/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37456111",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

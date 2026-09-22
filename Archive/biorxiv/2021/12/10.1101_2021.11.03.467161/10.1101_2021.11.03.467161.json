@@ -1,0 +1,118 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.11.03.467161",
+  "title": "Critical Negatively Charged Residues Are Important for the Activity of SARS-CoV-1 and SARS-CoV-2 Fusion Peptides",
+  "doi": "10.1101/2021.11.03.467161",
+  "abstract": "Coronaviruses are a major infectious disease threat, and include the human pathogens of zoonotic origin SARS-CoV (“SARS-1”), SARS-CoV-2 (“SARS-2”) and MERS-CoV (“MERS”). Entry of coronaviruses into host cells is mediated by the viral spike (S) protein. Previously, we identified that the domain immediately downstream of the S2’ cleavage site is the bona fide FP (amino acids 798-835) for SARS-1 using ESR spectroscopy technology. We also found that the SARS-1 FP induces membrane ordering in a Ca 2+ dependent fashion. In this study, we want to know which residues are involved in this Ca 2+ binding, to build a topological model and to understand the role of the Ca2+. We performed a systematic mutation study on the negatively charged residues on the SARS-1 FP. While all six negatively charged residues contributes to the membrane ordering activity of the FP to some extent, D812 is the most important residue. We provided a topological model of how the FP binds Ca 2+ ions: both FP1 and FP2 bind one Ca 2+ ion, and there are two binding sites in FP1 and three in FP2. We also found that the corresponding residue D830 in the SARS-2 FP plays a similar critical role. ITC experiments show that the binding energies between the FP and Ca 2+ as well as between the FP and membranes also decreases for all mutants. The binding of Ca 2+ , the folding of FP and the ordering activity correlated very well across the mutants, suggesting that the function of the Ca 2+ is to help to folding of FP in membranes to enhance its activity. Using a novel pseudotyped virus particle (PP)-liposome methodology, we monitored the membrane ordering induced by the FPs in the whole S proteins in its trimer form in real time. We found that the SARS-1 and SARS-2 PPs also induce membrane ordering as the separate FPs do, and the mutations of the negatively charged residues also greatly reduce the membrane ordering activity. However, the difference in kinetic between the PP and FP indicates a possible role of FP trimerization. This finding could lead to therapeutic solutions that either target the FP-calcium interaction or block the Ca 2+ channel to combat the ongoing COVID-19 pandemic.",
+  "authors": [
+    "Lai AL",
+    "Freed JH"
+  ],
+  "published_date": "2021-12-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.11.03.467161",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.11.03.467161.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR428764",
+    "raw_record": {
+      "id": "PPR428764",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR428764"
+        ]
+      },
+      "doi": "10.1101/2021.11.03.467161",
+      "title": "Critical Negatively Charged Residues Are Important for the Activity of SARS-CoV-1 and SARS-CoV-2 Fusion Peptides",
+      "authorString": "Lai AL, Freed JH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lai AL",
+            "lastName": "Lai",
+            "firstName": "Alex",
+            "initials": "AL"
+          },
+          {
+            "fullName": "Freed JH",
+            "lastName": "Freed",
+            "firstName": "Jack",
+            "initials": "JH"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Coronaviruses are a major infectious disease threat, and include the human pathogens of zoonotic origin SARS-CoV (“SARS-1”), SARS-CoV-2 (“SARS-2”) and MERS-CoV (“MERS”). Entry of coronaviruses into host cells is mediated by the viral spike (S) protein. Previously, we identified that the domain immediately downstream of the S2’ cleavage site is the  bona fide FP (amino acids 798-835) for SARS-1 using ESR spectroscopy technology. We also found that the SARS-1 FP induces membrane ordering in a Ca  2+ dependent fashion. In this study, we want to know which residues are involved in this Ca  2+ binding, to build a topological model and to understand the role of the Ca2+. We performed a systematic mutation study on the negatively charged residues on the SARS-1 FP. While all six negatively charged residues contributes to the membrane ordering activity of the FP to some extent, D812 is the most important residue. We provided a topological model of how the FP binds Ca  2+ ions: both FP1 and FP2 bind one Ca  2+ ion, and there are two binding sites in FP1 and three in FP2. We also found that the corresponding residue D830 in the SARS-2 FP plays a similar critical role. ITC experiments show that the binding energies between the FP and Ca  2+ as well as between the FP and membranes also decreases for all mutants. The binding of Ca  2+ , the folding of FP and the ordering activity correlated very well across the mutants, suggesting that the function of the Ca  2+ is to help to folding of FP in membranes to enhance its activity. Using a novel pseudotyped virus particle (PP)-liposome methodology, we monitored the membrane ordering induced by the FPs in the whole S proteins in its trimer form in real time. We found that the SARS-1 and SARS-2 PPs also induce membrane ordering as the separate FPs do, and the mutations of the negatively charged residues also greatly reduce the membrane ordering activity. However, the difference in kinetic between the PP and FP indicates a possible role of FP trimerization. This finding could lead to therapeutic solutions that either target the FP-calcium interaction or block the Ca  2+ channel to combat the ongoing COVID-19 pandemic.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.11.03.467161"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR428764"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR428764&type=FILE&fileName=EMS141077-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS141077",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-12-08",
+      "firstPublicationDate": "2021-12-06",
+      "firstIndexDate": "2021-12-08",
+      "fullTextReceivedDate": "2022-02-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

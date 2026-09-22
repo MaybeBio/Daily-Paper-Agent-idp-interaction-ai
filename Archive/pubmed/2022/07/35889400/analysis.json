@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35889400",
+  "title": "Speculation on How RIC-3 and Other Chaperones Facilitate alpha7 Nicotinic Receptor Folding and Assembly.",
+  "authors": "Loring, Ralph H",
+  "journal": "Molecules (Basel, Switzerland)",
+  "published_date": "2022-07-28",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该综述探讨RIC-3等分子伴侣如何协助alpha7烟碱受体折叠组装，涉及无序蛋白RIC-3与受体亚基的互作，并用AlphaFold2预测结构，但缺乏机制建模深度。",
+  "abstract": "The process of how multimeric transmembrane proteins fold and assemble in the endoplasmic reticulum is not well understood. The alpha7 nicotinic receptor (alpha7 nAChR) is a good model for multimeric protein assembly since it has at least two independent and specialized chaperones: Resistance to Inhibitors of Cholinesterase 3 (RIC-3) and Nicotinic Acetylcholine Receptor Regulator (NACHO). Recent cryo-EM and NMR data revealed structural features of alpha7 nAChRs. A ser-ala-pro (SAP) motif precedes a structurally important but unique \"latch\" helix in alpha7 nAChRs. A sampling of alpha7 sequences suggests the SAP motif is conserved from C. elegans to humans, but the latch sequence is only conserved in vertebrates. How RIC-3 and NACHO facilitate receptor subunits folding into their final pentameric configuration is not known. The artificial intelligence program AlphaFold2 recently predicted structures for NACHO and RIC-3. NACHO is highly conserved in sequence and structure across species, but RIC-3 is not. This review ponders how different intrinsically disordered RIC-3 isoforms from C. elegans to humans interact with alpha7 nAChR subunits despite having little sequence homology across RIC-3 species. Two models from the literature about how RIC-3 assists alpha7 nAChR assembly are evaluated considering recent structural information about the receptor and its chaperones.",
+  "abstract_zh": "多聚体跨膜蛋白在内质网中折叠和组装的机制尚不明确。α7烟碱型乙酰胆碱受体（alpha7 nAChR）是多聚体蛋白组装的良好模型，因为它至少拥有两个独立且特化的分子伴侣：胆碱酯酶抑制剂抗性蛋白3（RIC-3）和烟碱型乙酰胆碱受体调节因子（NACHO）。近期冷冻电镜和核磁共振数据揭示了alpha7 nAChR的结构特征。在alpha7 nAChR中，一个丝氨酸-丙氨酸-脯氨酸（SAP）基序位于一个结构上重要但独特的“闩锁”螺旋之前。对alpha7序列的抽样分析表明，SAP基序从线虫到人类均保守，但闩锁序列仅在脊椎动物中保守。RIC-3和NACHO如何促进受体亚基折叠成最终的五聚体构型尚不清楚。人工智能程序AlphaFold2最近预测了NACHO和RIC-3的结构。NACHO在跨物种的序列和结构上高度保守，但RIC-3并非如此。本综述探讨了从线虫到人类的不同内在无序RIC-3异构体如何与alpha7 nAChR亚基相互作用，尽管RIC-3物种间序列同源性较低。文献中关于RIC-3如何协助alpha7 nAChR组装的两种模型，结合受体及其分子伴侣的最新结构信息进行了评估。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35889400/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35889400/",
+  "paper_page_path": "papers/pubmed/35889400/index.html"
+}

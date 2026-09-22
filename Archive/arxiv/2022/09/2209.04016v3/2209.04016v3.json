@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2209.04016v3",
+  "title": "Analytical Formulation and Field-Theoretic Simulation of Sequence-Specific Phase Separation of Proteinlike Heteropolymers with Short- and Long-Spatial-Range Interactions",
+  "doi": "10.1021/acs.jpcb.2c06181",
+  "abstract": "A theory for sequence dependent liquid-liquid phase separation (LLPS) of intrinsically disordered proteins (IDPs) in the study of biomolecular condensates is formulated by extending the random phase approximation (RPA) and field-theoretic simulation (FTS) of heteropolymers with spatially long-range Coulomb interactions to include the fundamental effects of short-range, hydrophobic-like interactions between amino acid residues. To this end, short-range effects are modeled by Yukawa interactions between multiple nonelectrostatic charges derived from an eigenvalue decomposition of pairwise residue-residue contact energies. Chain excluded volume is afforded by incompressibility constraints. A mean-field approximation leads to an effective Flory $χ$ parameter, which, in conjunction with RPA, accounts for the contact-interaction effects of amino acid composition and the sequence-pattern effects of long-range electrostatics in IDP LLPS, whereas FTS based on the formulation provides full sequence dependence for both short- and long-range interactions. This general approach is illustrated here by applications to variants of a natural IDP in the context of several different amino-acid interaction schemes as well as a set of different model hydrophobic-polar sequences sharing the same composition. Effectiveness of the methodology is verified by coarse-grained explicit-chain molecular dynamics simulations.",
+  "authors": [
+    "Jonas Wessén",
+    "Suman Das",
+    "Tanmoy Pal",
+    "Hue Sun Chan"
+  ],
+  "published_date": "2022-09-08T19:56:35Z",
+  "updated_date": "2022-11-08T23:44:41Z",
+  "journal": "The Journal of Physical Chemistry B 126, 9222-9245 (2022)",
+  "category": "q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2209.04016v3",
+  "pdf_url": "https://arxiv.org/pdf/2209.04016v3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "3",
+  "keywords": [
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2209.04016v3",
+    "raw_categories": [
+      "q-bio.BM"
+    ],
+    "journal_ref": "The Journal of Physical Chemistry B 126, 9222-9245 (2022)"
+  }
+}

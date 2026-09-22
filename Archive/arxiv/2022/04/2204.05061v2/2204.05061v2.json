@@ -1,0 +1,31 @@
+{
+  "source": "arxiv",
+  "source_id": "2204.05061v2",
+  "title": "Surfactancy in a tadpole model of proteins",
+  "doi": "10.1098/rsif.2022.0172",
+  "abstract": "We model the environment of eukaryotic nuclei by representing macromolecules by only their entropic properties, with globular molecules represented by spherical colloids and flexible molecules by polymers. We put particular focus on proteins with both globular and intrinsically disordered regions, which we represent with `tadpole' constructed by grafting single polymers and colloids together. In Monte Carlo simulations we find these tadpoles support phase separation via depletion flocculation, and demonstrate several surfactant behaviours, including being found preferentially at interfaces and forming micelles in single phase solution. Furthermore, the model parameters can be tuned to give a tadpole a preference for either bulk phase. However, we find entropy too weak to drive these behaviours by itself at likely biological concentrations.",
+  "authors": [
+    "Oliver T. Dyer",
+    "Robin C. Ball"
+  ],
+  "published_date": "2022-04-11T13:00:08Z",
+  "updated_date": "2022-10-26T09:31:09Z",
+  "journal": "J. R. Soc. Interface. 19:20220172 (2022)",
+  "category": "cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2204.05061v2",
+  "pdf_url": "https://arxiv.org/pdf/2204.05061v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2204.05061v2",
+    "raw_categories": [
+      "cond-mat.soft"
+    ],
+    "journal_ref": "J. R. Soc. Interface. 19:20220172 (2022)"
+  }
+}

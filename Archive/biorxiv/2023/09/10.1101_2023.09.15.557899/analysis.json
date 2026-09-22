@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.15.557899",
+  "title": "The SARS-CoV-2 nucleoprotein associates with anionic lipid membranes",
+  "authors": "Dutta M; Su Y; Voth GA; Stahelin RV",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-15",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究SARS-CoV-2核蛋白N与阴离子脂质膜的结合，涉及N蛋白C端结构域和寡聚形式，但对象非IDP/相分离，互作是蛋白-脂质而非PPI，方法以实验为主、in silico分析为辅，对无序蛋白介导的PPI机制建模启发有限。",
+  "abstract": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a lipid-enveloped virus that acquires its lipid bilayer from the host cell it infects. SARS-CoV-2 can spread from cell to cell or from patient to patient by undergoing assembly and budding to form new virions. The assembly and budding of SARS-CoV-2 is mediated by several structural proteins known as envelope (E), membrane (M), nucleoprotein (N) and spike (S), which can form virus-like particles (VLPs) when co-expressed in mammalian cells. Assembly and budding of SARS-CoV-2 from the host ER-Golgi intermediate compartment is a critical step in the virus acquiring its lipid bilayer. To date, little information is available on how SARS-CoV-2 assembles and forms new viral particles from host membranes. In this study, we find the N protein can strongly associate with anionic lipids including phosphoinositides and phosphatidylserine. Moreover, lipid binding is shown to occur in the N protein C-terminal domain, which is supported by extensive in silico analysis. Anionic lipid binding occurs for both the free and N oligomeric forms suggesting N can associate with membranes in the nucleocapsid form. Herein we present a lipid-dependent model based on in vitro , cellular and in silico data for the recruitment of N to M assembly sites in the lifecycle of SARS-CoV-2.",
+  "abstract_zh": "严重急性呼吸综合征冠状病毒2（SARS-CoV-2）是一种脂质包膜病毒，其脂质双层来源于其感染的宿主细胞。SARS-CoV-2可通过组装和出芽形成新病毒粒子，从而在细胞间或患者间传播。SARS-CoV-2的组装和出芽由多种结构蛋白介导，包括包膜（E）、膜（M）、核蛋白（N）和刺突（S）蛋白，当这些蛋白在哺乳动物细胞中共表达时，可形成病毒样颗粒（VLPs）。SARS-CoV-2从宿主内质网-高尔基体中间区室进行组装和出芽，是病毒获得脂质双层的关键步骤。迄今为止，关于SARS-CoV-2如何从宿主膜组装并形成新病毒颗粒的信息甚少。在本研究中，我们发现N蛋白能与阴离子脂质（包括磷酸肌醇和磷脂酰丝氨酸）强烈结合。此外，脂质结合发生在N蛋白的C端结构域，这一点得到了广泛的计算机模拟分析支持。阴离子脂质结合既发生在游离形式也发生在N寡聚体形式中，表明N蛋白可以以核衣壳形式与膜结合。在此，我们基于体外、细胞和计算机模拟数据，提出一个脂质依赖性模型，用于描述SARS-CoV-2生命周期中N蛋白向M组装位点的募集过程。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.15.557899",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.15.557899",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.15.557899/index.html"
+}

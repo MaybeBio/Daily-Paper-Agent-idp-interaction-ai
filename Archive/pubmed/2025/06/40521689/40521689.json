@@ -1,0 +1,210 @@
+{
+  "identity": {
+    "pmid": "40521689",
+    "doi": "10.1021/acs.jctc.5c00365",
+    "title": "Elucidating Protein Dynamics through the Optimal Annealing of Variational Autoencoders."
+  },
+  "content": {
+    "abstract": "Proteins traverse intricate conformational landscapes with transitions and long-lived states that hold the key to their biological function. However, unraveling these dynamics remains a formidable challenge. An emerging approach has been to train the conformational ensemble via deep Variational autoencoders (VAEs) in a bid to machine learn the underlying reduced-dimensional representation. However, training VAEs typically involves a fixed beta value of 1, where beta acts as the crucial weighing factor between the reconstruction and regularization terms. This static setup can often lead to posterior collapse, which significantly hinders the model's ability to capture complex protein dynamics accurately. To mitigate this issue, annealing the beta parameter offers a potential alternative. However, this approach frequently falls short in fully addressing the problem, mainly due to the arbitrary choice of the upper bound of beta and the annealing schedule. In this work, we propose a new approach for selecting the beta parameter by utilizing the Fraction of variation explained (FVE) score to identify its optimal value. We demonstrate that training annealed VAEs at their optimum beta in a single cycle consistently outperformed their nonannealed counterparts, as evident from their higher variational approach for Markov processes-2 and generalized matrix Rayleigh quotient scores and distinct free energy surface minima on both folded and intrinsically disordered proteins. The improved latent space representations significantly improve state space discretization, thereby refining Markov State Models and providing more accurate insights into conformational landscapes, as reflected in distinct contact maps. Together, this development provides a systematic approach to optimizing the balance between reconstruction and regularization aspects of VAEs that would augment the potential of annealed VAEs in resolving complex conformational landscapes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Proteins/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Thermodynamics",
+      "Intrinsically Disordered Proteins/chemistry",
+      "Markov Chains",
+      "Protein Folding",
+      "Autoencoder"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Adhikari, Subinoy",
+        "Mondal, Jagannath"
+      ],
+      "short_names": [
+        "Adhikari S",
+        "Mondal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1090-5199"
+      ],
+      "affiliations": [
+        "Tata Institute of Fundamental Research, Hyderabad 500046, India.",
+        "Tata Institute of Fundamental Research, Hyderabad 500046, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Adhikari, Subinoy",
+        "short_name": "Adhikari S",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Hyderabad 500046, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Jagannath",
+        "short_name": "Mondal J",
+        "identifiers": [
+          "0000-0003-1090-5199"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Hyderabad 500046, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2025 Jul 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/16 12:27",
+    "fetched_at": "2026-09-21 19:58:40"
+  },
+  "links": {
+    "cites": [
+      "42543922"
+    ],
+    "refs": [],
+    "similar": [
+      "40521689",
+      "41225715",
+      "37108059",
+      "38018910",
+      "34800961",
+      "34358545",
+      "25625937",
+      "36472885",
+      "35052081",
+      "29990433",
+      "27588692",
+      "39555603",
+      "21523533",
+      "34869602",
+      "38925089",
+      "39753544",
+      "37027313",
+      "35312617",
+      "26807783",
+      "28914483",
+      "28970487",
+      "37905972",
+      "38355720",
+      "40042172",
+      "30577777",
+      "34551528",
+      "35725761",
+      "38892222",
+      "40172236",
+      "37301826",
+      "34509724",
+      "33778815",
+      "30708285",
+      "32693598",
+      "31760935",
+      "38294935",
+      "34504009",
+      "31362509",
+      "39862593",
+      "41129692",
+      "33567297",
+      "39983022",
+      "32145946",
+      "29885328",
+      "23912807",
+      "25240340",
+      "41252524",
+      "37382437",
+      "37241789",
+      "41186137",
+      "40335286",
+      "22506277",
+      "21341875",
+      "33745450",
+      "39499823",
+      "30865832",
+      "40489790",
+      "36162197",
+      "31809040",
+      "38151233",
+      "33205789",
+      "30204435",
+      "27819658",
+      "38859575",
+      "40697794",
+      "38832332",
+      "33872161",
+      "25387963",
+      "39870723",
+      "26195786",
+      "29716994",
+      "28841239",
+      "38053335",
+      "38547871",
+      "29735687",
+      "34600140",
+      "38781245",
+      "40853068",
+      "39509176",
+      "25866611",
+      "40768165",
+      "39251921",
+      "21958108",
+      "39977663",
+      "38237200",
+      "28157327",
+      "28319394",
+      "35213530",
+      "27423742",
+      "38168462",
+      "27111521",
+      "34945946",
+      "24671380",
+      "33574233",
+      "21517045",
+      "23822324",
+      "36075702",
+      "31552948",
+      "39985768",
+      "32654182"
+    ],
+    "review": [
+      "40521689",
+      "34358545",
+      "25625937",
+      "35052081",
+      "39555603",
+      "26807783",
+      "33567297",
+      "37241789"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.5c00365",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

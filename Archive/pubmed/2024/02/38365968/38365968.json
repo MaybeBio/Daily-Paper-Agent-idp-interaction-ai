@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "38365968",
+    "doi": "10.1038/s41598-024-54464-4",
+    "title": "Efficient inhibition of amyloid fibrillation and cytotoxicity of alpha-synuclein and human insulin using biosynthesized silver nanoparticles decorated by green tea polyphenols."
+  },
+  "content": {
+    "abstract": "Green tea polyphenols (GTPs), particularly epigallocatechin-3-gallate, stand out among natural small molecules screened for their ability to target protein aggregates due to their potent anti-amyloidogenic and neuroprotective activities against various disease-related peptides and proteins. However, the clinical applications of GTPs in amyloid-related diseases have been greatly limited by drawbacks such as poor chemical stability and low bioavailability. To address these limitations, this study utilized an Iranian green tea polyphenolic extract as a reducing agent to neutralize silver ions and facilitate the formation of silver nanoparticle capped by GTPs (GTPs-capped AgNPs). The results obtained from this study demonstrate that GTPs-capped AgNPs are more effective than free GTPs at inhibiting amyloid fibrillation and reducing cytotoxicity induced by amyloid fibrils of human insulin and alpha-synuclein (alpha-syn). This improved efficacy is attributed to the increased surface/volume ratio of GTPs-capped AgNPs, which can enhance their binding affinity to amyloidogenic species and boosts their antioxidant activity. The mechanism by which GTPs-capped AgNPs inhibit amyloid fibrillation appears to vary depending on the target protein. For structured protein human insulin, GTPs-capped AgNPs hinder fibrillation by constraining the protein in its native-like state. In contrast, GTPs-capped AgNPs modulate fibrillation of intrinsically disordered proteins like alpha-syn by redirecting the aggregation pathway towards the formation of non-toxic off-pathway oligomers or amorphous aggregates. These findings highlight polyphenol-functionalized nanoparticles as a promising strategy for targeting protein aggregates associated with neurodegenerative diseases.",
+    "keywords": [
+      "Amyloid fibril",
+      "Cytotoxicity",
+      "GTPs",
+      "GTPs-capped AgNPs",
+      "Human insulin",
+      "alpha-Synuclein"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*alpha-Synuclein",
+      "*Metal Nanoparticles",
+      "Silver/pharmacology/chemistry",
+      "Protein Aggregates",
+      "Antioxidants",
+      "Iran",
+      "Amyloid/metabolism",
+      "Polyphenols/pharmacology",
+      "Amyloidogenic Proteins",
+      "Insulin",
+      "Tea/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mirzaei-Behbahani, Behnaz",
+        "Meratan, Ali Akbar",
+        "Moosakhani, Beitollah",
+        "Mohammad-Zaheri, Mahya",
+        "Mousavi-Jarrahi, Zahra",
+        "Nikfarjam, Nasser",
+        "Shahsavani, Mohammad Bagher",
+        "Saboury, Ali Akbar"
+      ],
+      "short_names": [
+        "Mirzaei-Behbahani B",
+        "Meratan AA",
+        "Moosakhani B",
+        "Mohammad-Zaheri M",
+        "Mousavi-Jarrahi Z",
+        "Nikfarjam N",
+        "Shahsavani MB",
+        "Saboury AA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biological Sciences, Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, 45137-66731, Iran.",
+        "Department of Biological Sciences, Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, 45137-66731, Iran. a.meratan@iasbs.ac.ir.",
+        "Department of Biological Sciences, Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, 45137-66731, Iran.",
+        "Institute of Biochemistry and Biophysics, University of Tehran, Tehran, 1417614335, Iran.",
+        "Institute of Biochemistry and Biophysics, University of Tehran, Tehran, 1417614335, Iran.",
+        "Department of Chemistry, Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, 45137-66731, Iran.",
+        "Protein Chemistry Laboratory (PCL), Department of Biology, College of Sciences, Shiraz University, Shiraz, 7196484334, Iran.",
+        "Institute of Biochemistry and Biophysics, University of Tehran, Tehran, 1417614335, Iran. Saboury@ut.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mirzaei-Behbahani, Behnaz",
+        "short_name": "Mirzaei-Behbahani B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, 45137-66731, Iran."
+        ]
+      },
+      {
+        "full_name": "Meratan, Ali Akbar",
+        "short_name": "Meratan AA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, 45137-66731, Iran. a.meratan@iasbs.ac.ir."
+        ]
+      },
+      {
+        "full_name": "Moosakhani, Beitollah",
+        "short_name": "Moosakhani B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, 45137-66731, Iran."
+        ]
+      },
+      {
+        "full_name": "Mohammad-Zaheri, Mahya",
+        "short_name": "Mohammad-Zaheri M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Biophysics, University of Tehran, Tehran, 1417614335, Iran."
+        ]
+      },
+      {
+        "full_name": "Mousavi-Jarrahi, Zahra",
+        "short_name": "Mousavi-Jarrahi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Biophysics, University of Tehran, Tehran, 1417614335, Iran."
+        ]
+      },
+      {
+        "full_name": "Nikfarjam, Nasser",
+        "short_name": "Nikfarjam N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan, 45137-66731, Iran."
+        ]
+      },
+      {
+        "full_name": "Shahsavani, Mohammad Bagher",
+        "short_name": "Shahsavani MB",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Chemistry Laboratory (PCL), Department of Biology, College of Sciences, Shiraz University, Shiraz, 7196484334, Iran."
+        ]
+      },
+      {
+        "full_name": "Saboury, Ali Akbar",
+        "short_name": "Saboury AA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Biophysics, University of Tehran, Tehran, 1417614335, Iran. Saboury@ut.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Feb 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/17 12:42",
+    "fetched_at": "2026-09-22 01:04:05"
+  },
+  "links": {
+    "cites": [
+      "42181730",
+      "42090666",
+      "41234634",
+      "41193501",
+      "41168531",
+      "40670563",
+      "40423094",
+      "40315258",
+      "40283926",
+      "40134947",
+      "39355328",
+      "38766654"
+    ],
+    "refs": [
+      "37178892",
+      "37002248",
+      "36750431",
+      "36362217",
+      "36314062",
+      "35831343",
+      "35424834",
+      "35014440",
+      "34065606",
+      "32542190",
+      "32499589",
+      "32397520",
+      "30266624",
+      "30242891",
+      "30030591",
+      "29742346",
+      "28812278",
+      "27809706",
+      "26843966",
+      "25206509",
+      "24907278",
+      "24738928",
+      "24201298",
+      "23722464",
+      "23712762",
+      "23611538",
+      "23463168",
+      "23426629",
+      "22889183",
+      "20707388",
+      "20401887",
+      "20385841",
+      "19904937",
+      "19616561",
+      "19460457",
+      "18815735",
+      "18537543",
+      "18511942",
+      "18438688",
+      "17485668",
+      "17267609",
+      "16756495",
+      "16492146",
+      "15602548",
+      "15298006",
+      "14685252",
+      "12176058",
+      "11879042",
+      "11448533",
+      "11052779",
+      "10390246",
+      "9789022",
+      "8986762"
+    ],
+    "similar": [
+      "38365968",
+      "36314062",
+      "29225181",
+      "33455167",
+      "24484683",
+      "35165346",
+      "31939603",
+      "19616561",
+      "30394624",
+      "29688074",
+      "37431676",
+      "31726160",
+      "28238838",
+      "28078343",
+      "32822152",
+      "35014440",
+      "29450132",
+      "34046949",
+      "29476965",
+      "31416122",
+      "28505110",
+      "30917654",
+      "34594185",
+      "29704492",
+      "27427935",
+      "31417259",
+      "23817009",
+      "32004598",
+      "37959682",
+      "34268903",
+      "37302013",
+      "12393936",
+      "31882076",
+      "35619324",
+      "35421539",
+      "26517049",
+      "8538195",
+      "31717821",
+      "33997868",
+      "33798579",
+      "30769283",
+      "25620201",
+      "22043989",
+      "26277620",
+      "33137558",
+      "37125909",
+      "36500474",
+      "34065606",
+      "35762412",
+      "28570906",
+      "29949746",
+      "22054421",
+      "27353564",
+      "32959853",
+      "23317879",
+      "32819028",
+      "21271629",
+      "25710891",
+      "37824095",
+      "31695369",
+      "31142553",
+      "33185419",
+      "34982538",
+      "31456635",
+      "32764930",
+      "31761206",
+      "36503464",
+      "34885906",
+      "33352154",
+      "17665044",
+      "30655291",
+      "18511942",
+      "32750449",
+      "34406742",
+      "37653677",
+      "31096048",
+      "24314868",
+      "31849471",
+      "37057966",
+      "37433401",
+      "31185031",
+      "30568442",
+      "15236975",
+      "35228387",
+      "32183378",
+      "37208391",
+      "25031332",
+      "27714264",
+      "35728509",
+      "26601760",
+      "25666040",
+      "30684583",
+      "34513118",
+      "34883017",
+      "38325696",
+      "25967609",
+      "38835221",
+      "25520936",
+      "34733592",
+      "39137661",
+      "38811084",
+      "35529627",
+      "39135555",
+      "38542833",
+      "38980491"
+    ],
+    "review": [
+      "38365968",
+      "29688074",
+      "32822152",
+      "34594185",
+      "26517049",
+      "8538195",
+      "34065606",
+      "38835221",
+      "38811084"
+    ],
+    "pmc": [
+      "10873377"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-54464-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38365968/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38365968",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

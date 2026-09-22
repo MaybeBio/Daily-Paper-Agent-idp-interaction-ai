@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42553431",
+  "title": "Design and Evaluation of a Multicomponent Herbal Nanogel for Mosquito Repellency: An Integrated In Silico Experimental Approach Against Aedes aegypti and Anopheles stephensi.",
+  "authors": "Safaei, Mohsen; Sanei-Dehkordi, Alireza; Alinejad, Navid; Fallahi, Mahsa; Osanloo, Mahmoud",
+  "journal": "Journal of tropical medicine",
+  "published_date": "2026-08-05",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究开发并评估了含植物活性成分的驱蚊纳米凝胶，虽含分子对接但对象为小分子与蚊虫蛋白，非无序蛋白PPI，且无AI/物理模拟机制建模，与本课题无关。",
+  "abstract": "This study describes the development and characterization of a hydroxypropyl methylcellulose (HPMC)-based nanogel. The nanogel coencapsulates thymol, carvacrol, and cinnamaldehyde to enhance mosquito repellency. These phytochemicals were selected for their potential complementary and multimodal neurotoxic and olfactory-disrupting effects. The nanogel was synthesized by spontaneous emulsification, followed by polymeric gelation. Its physicochemical properties were assessed with dynamic light scattering (DLS), zeta potential, rheological measurements, and stability tests. The nanogel showed an optimal size (177 +/- 6 nm; PDI: 0.17 +/- 0.02; SPAN: 0.96), robust colloidal stability, and pseudoplastic flow behavior. This is consistent with the Carreau-Yasuda model. Repellency assays showed complete protection for 410 +/- 45 min against Anopheles stephensi and 210 +/- 30 min against Aedes aegypti. Specifically, the nanogel was statistically superior to 40% DEET against Anopheles stephensi, while providing comparable (noninferior) protection against Aedes aegypti. Molecular docking showed strong binding affinities of thymol and carvacrol to mosquito odorant-binding proteins providing mechanistic support for the potential complementary activity of the multicomponent formulation. The formulation maintained physical and rheological stability for 6 months. There was no phase separation or syneresis. These findings show this nanogel's promise as an effective natural mosquito repellent.",
+  "abstract_zh": "本研究描述了一种基于羟丙基甲基纤维素（HPMC）的纳米凝胶的开发与表征。该纳米凝胶共包封百里香酚、香芹酚和肉桂醛，以增强驱蚊效果。选择这些植物化学物质是因为它们具有潜在的互补性和多模式神经毒性及嗅觉干扰效应。纳米凝胶通过自发乳化法合成，随后进行聚合凝胶化。其理化性质通过动态光散射（DLS）、zeta电位、流变学测量和稳定性测试进行评估。纳米凝胶表现出最佳尺寸（177 ± 6 nm；PDI：0.17 ± 0.02；SPAN：0.96）、稳健的胶体稳定性和假塑性流动行为，这与Carreau-Yasuda模型一致。驱避试验显示，对斯氏按蚊（Anopheles stephensi）的完全保护时间为410 ± 45分钟，对埃及伊蚊（Aedes aegypti）为210 ± 30分钟。具体而言，该纳米凝胶在针对斯氏按蚊方面统计学上优于40% DEET，而在针对埃及伊蚊方面提供相当（非劣效）的保护。分子对接显示百里香酚和香芹酚与蚊虫气味结合蛋白具有强结合亲和力，为多组分制剂的潜在互补活性提供了机制支持。该制剂在6个月内保持物理和流变学稳定性，未出现相分离或脱水收缩。这些发现表明，该纳米凝胶作为一种有效的天然驱蚊剂具有广阔前景。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42553431/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42553431/",
+  "paper_page_path": "papers/pubmed/42553431/index.html"
+}

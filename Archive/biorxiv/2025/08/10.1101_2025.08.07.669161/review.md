@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to figures, methods, or supplementary material
+- **Shared manuscript claim summary** The authors report that the minimal phase-separating region of the PKA regulatory subunit RIα, comprising the N-terminal dimerization/docking (D/D) domain and the linker region, undergoes phase separation driven by interactions involving the inhibitory segment. Using NMR and MD simulations, they observe widespread signal broadening indicative of dynamic interactions, reduced broadening and loss of phase separation upon mutation of arginine residues in the inhibitory sequence, and spectral changes upon AKAP binding suggestive of competition between intramolecular interactions and partner binding. Multiscale MD simulations detect pervasive interactions between the folded D/D domain and the disordered linker, with intermolecular interactions in the condensate mirroring intramolecular interactions. The authors conclude that homotypic phase separation of RIα is underpinned by intermolecular interactions similar to intramolecular interactions.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, experimental details, NMR spectra, MD simulation parameters, quantitative data, statistical analyses, and any validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting hypothesis that phase separation of RIα is driven by intermolecular interactions resembling intramolecular interactions involving the inhibitory segment. The combination of NMR and MD simulations is appropriate for studying dynamic interactions in intrinsically disordered regions. However, the abstract provides limited quantitative detail, and several key claims cannot be adequately evaluated without access to the underlying data. The central conclusion, while coherent, rests on correlative evidence that requires stronger causal validation.
+- **Who would be interested in the results, and why** Researchers studying phase separation in cell signaling, particularly those focused on PKA signaling compartmentalization, will find these results relevant. The work also speaks to the broader community investigating the molecular determinants of biomolecular condensate formation, especially the role of intramolecular interactions in driving homotypic phase separation. Structural biologists using NMR and computational approaches to study disordered proteins may also be interested.
+- **Major strengths** The study addresses a significant gap in understanding the atomic-level interactions underlying RIα phase separation. The combination of experimental NMR and multiscale MD simulations provides complementary perspectives. The observation that intermolecular interactions in condensates mirror intramolecular interactions is conceptually appealing and potentially generalizable. The use of mutations and AKAP binding as perturbations to probe interaction mechanisms is a sound experimental strategy.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that mutation of arginine residues in the RIα inhibitory sequence leads to loss of phase separation, presented as evidence for the role of the inhibitory segment in driving phase separation.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that arginine mutation reduces signal broadening and causes loss of phase separation, but provides no quantitative data on the extent of phase separation loss, the number of mutations introduced, or whether the mutations affect protein folding or stability. Without these details, it is unclear whether the loss of phase separation is specifically due to disruption of the proposed interactions or to nonspecific effects on protein integrity.
+  - **Why it matters** The causal link between the inhibitory segment interactions and phase separation is central to the paper's conclusion. If the mutations compromise protein stability or folding, the observed loss of phase separation would not specifically implicate the inhibitory segment interactions. This would weaken the mechanistic claim.
+  - **Resolution test** Provide quantitative phase separation assays (e.g., turbidity, droplet counting, or fluorescence microscopy) comparing wild-type and mutant proteins, along with biophysical characterization (e.g., circular dichroism, size-exclusion chromatography) to rule out global misfolding or aggregation artifacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that AKAP binding leads to spectral changes indicative of a loss of interactions between the D/D domain and the linker region, suggesting competition between intramolecular interactions and partner binding.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports spectral changes upon AKAP binding but does not specify which NMR resonances are affected, the magnitude of the changes, or whether these changes are consistent with a direct competition mechanism. Alternative explanations, such as allosteric effects or conformational rearrangements unrelated to competition, are not addressed.
+  - **Why it matters** The competition model is presented as a key mechanistic insight, but the evidence as described is indirect. Without demonstrating that AKAP binding specifically displaces the linker from the D/D domain, the interpretation remains speculative.
+  - **Resolution test** Perform titration experiments with increasing AKAP concentrations and monitor specific NMR resonances assigned to the D/D domain and linker. Show that the spectral changes saturate and correlate with binding affinity. Use mutants that disrupt the intramolecular interaction to test whether AKAP binding effects are additive or competitive.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive depth
+  - **Claim pointer** The claim that multiscale MD simulations detect pervasive interactions of the folded D/D domain with the intrinsically disordered linker, and that intermolecular interactions in the condensate mirror those found internally in RIα dimers.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that MD simulations corroborate experimental observations, but provides no details on the simulation methodology, force fields, system sizes, or timescales. The claim that intermolecular interactions "mirror" intramolecular interactions is qualitative and lacks quantitative comparison, such as contact maps or interaction energy distributions.
+  - **Why it matters** The convergence of experimental and computational evidence strengthens the paper's conclusion, but the current description does not allow assessment of whether the simulations are sufficiently converged or whether the observed interactions are statistically significant. Overinterpretation of simulation results without rigorous validation is a common pitfall.
+  - **Resolution test** Provide quantitative comparison of interaction interfaces between intramolecular and intermolecular states, including contact frequency maps, interaction energies, and free energy estimates. Include convergence metrics and error analysis for the simulations.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "similar inter- and intra-molecular interactions" in the title is somewhat ambiguous. It is unclear whether "similar" refers to the same interaction interfaces or to analogous interaction types.
+  - **Required correction** Clarify in the title or abstract whether the interactions are identical in molecular detail or merely analogous in character.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Context
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not mention the physiological relevance of the phase separation beyond "restricting and enhancing PKA activity in space and time." A brief statement on the functional consequences of the proposed mechanism would strengthen the significance.
+  - **Required correction** Add a sentence connecting the structural findings to the known cellular functions of RIα phase separation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Quantification
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that NMR signal broadening is "widespread" and "indicative of widespread dynamic interactions," but does not provide any quantitative measure, such as linewidth changes or relaxation rates.
+  - **Required correction** Include representative quantitative NMR parameters (e.g., transverse relaxation rates, linewidth values) to support the qualitative description.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the causal claims regarding the inhibitory segment and the competition model are not sufficiently supported by the evidence described in the abstract. R1-M3, while not blocking, requires additional quantitative analysis to substantiate the simulation-based claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept that phase separation is driven by interactions similar to intramolecular ones is not entirely new, but its application to PKA RIα and the specific focus on the inhibitory segment provide a fresh perspective. The work is original in its molecular detail.
+  - Scientific importance: Understanding the molecular drivers of RIα phase separation has implications for PKA signaling compartmentalization, which is a topic of broad interest. The findings could inform therapeutic strategies targeting PKA localization.
+  - Interdisciplinary readership: The work bridges structural biology, biophysics, and cell signaling, and would appeal to readers across these fields. The conceptual message about intramolecular interactions driving phase separation has general relevance.
+  - Technical soundness: The combination of NMR and MD is appropriate, but the abstract does not provide sufficient detail to assess the rigor of the methods or the robustness of the conclusions. The lack of quantitative data is a concern.
+  - Readability for nonspecialists: The abstract is generally clear, but some terms (e.g., "D/D domain," "inhibitory segment") may be unfamiliar to nonspecialists. The mechanistic narrative is accessible, though the significance could be better contextualized.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the experimental approach is sound, but the evidence as presented in the abstract is insufficient to fully establish the mechanistic claims. Additional quantitative data and validation experiments are required.
+
+## Risk / unsupported claims
+- The claim that arginine mutations cause loss of phase separation is unsupported without quantitative phase separation assays and protein stability controls.
+- The claim that AKAP binding competes with intramolecular interactions is unsupported without titration data and alternative explanation exclusion.
+- The claim that intermolecular interactions in condensates mirror intramolecular interactions is weakly supported without quantitative comparison from simulations.
+- The claim that NMR signal broadening is "widespread" is unquantified and cannot be evaluated from the abstract alone.

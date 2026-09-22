@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No independent replication or access to raw data was performed.
+- **Shared manuscript claim summary** The authors propose that the full hnRNP U C-terminal RNA-binding domain (RBD) binds RNA promiscuously with high affinity and minimal sequence selectivity, while the isolated RGG/RG motifs exhibit a strong preference for G-quadruplex structures. They further propose that flanking sequences within the intrinsically disordered region attenuate this intrinsic selectivity, and that U-rich and G-rich motifs identified in eCLIP datasets are largely crosslinking artifacts rather than genuine binding determinants.
+- **Visible evidence base** Fluorescence anisotropy binding assays, EMSAs, RNase I structure probing, computational G-quadruplex prediction (pqsfinder), comparison with rG4-Seq data, permutation tests, and PureCLIP reanalysis of ENCODE eCLIP datasets for multiple RBPs.
+- **Missing materials affecting confidence** Raw binding isotherms, exact protein construct boundaries for all truncation variants, full EMSA gel images, SAFA-processed structure probing data, and complete lists of eCLIP accession numbers for all reanalyzed datasets. Supplementary tables (S1–S4) and figures (S1–S8) are referenced but not provided in the submitted text.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question regarding the RNA-binding selectivity of RGG/RG motifs, using hnRNP U as a model system. The work combines biochemical binding assays with bioinformatic reanalysis of eCLIP data to argue that the full RBD is promiscuous, while isolated RGG/RG motifs prefer G-quadruplexes. The experimental design is generally sound, and the conclusions are largely supported by the presented data. However, several technical concerns regarding construct design, data quantification, and the interpretation of the eCLIP reanalysis need to be addressed before the case is fully established. The manuscript is well-written and will be of interest to the RNA biology and intrinsically disordered protein communities.
+- **Who would be interested in the results, and why** Researchers studying RNA-binding proteins, particularly those containing RGG/RG motifs or other intrinsically disordered RNA-binding domains. The work also has relevance for investigators using eCLIP or similar crosslinking-based approaches to define RNA-binding preferences, as it highlights potential artifacts. The findings may inform studies on hnRNP U function in chromatin architecture and nuclear organization.
+- **Major strengths** The study uses a physiologically relevant set of RNA targets derived from eCLIP data rather than arbitrary sequences. The comparison between the full RBD and isolated RGG/RG motifs is a clean approach to dissect the contribution of flanking sequences. The reanalysis of ENCODE eCLIP data across multiple proteins with different domain architectures is a valuable control. The salt-dependence experiments provide mechanistic insight into the binding mode.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and construct validity
+  - **Claim pointer** The authors state that "the full RBD appears to contribute to high affinity binding of RNAs with or without G-quadruplexes" and that "sequences flanking the RGG/RG motifs drive a more promiscuous binding mode."
+  - **Evidence pointer** Figure 8, Table 2, and associated text in Results section "RGG/RG motif selectivity is masked within the context of the full RBD"
+  - **Concern** The truncation series used to map the determinants of selectivity is described only in general terms. The exact boundaries of each construct (e.g., RGG1, dual RGG/RG, and the various truncation variants shown in Figure 8A) are not provided in the text. Without precise construct boundaries, it is difficult to assess whether the loss of selectivity observed in the full RBD is due to specific flanking elements or simply to the addition of more RNA-binding surface area. The authors argue that "systematic deletion yields a gradual increase for selective G-quadruplex binding," but the data supporting this claim are not fully presented in the text.
+  - **Why it matters** The central conclusion of the paper is that flanking sequences within the intrinsically disordered region attenuate the intrinsic G-quadruplex selectivity of the RGG/RG motifs. If the truncation constructs are not well-defined or if the observed effect is simply due to avidity from additional weak contacts, the interpretation would be substantially weakened.
+  - **Resolution test** Provide a table or figure listing the exact amino acid boundaries of all constructs used, along with a schematic diagram. Show the full binding curves for each construct against a panel of RNAs with and without G-quadruplexes. Demonstrate that the loss of selectivity is not simply due to increased binding surface area by, for example, showing that a construct with a scrambled or non-native flanking sequence retains promiscuous binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data quantification and statistical analysis
+  - **Claim pointer** The authors report K obs values with standard errors for multiple binding experiments, and they compare these values to draw conclusions about selectivity (e.g., "K rel values of 1.4 and 2.4 for Syncrip and Syncrip G-quad, respectively").
+  - **Evidence pointer** Figures 4, 5, 7, 8; Tables 1, 2, S2; Results sections on G-quadruplex preference and length-dependent binding
+  - **Concern** The statistical treatment of the binding data is not described. It is unclear whether the reported K obs values are from independent experiments or technical replicates, and whether the differences between constructs or RNAs are statistically significant. For example, the claim that the full RBD shows "a modest preference" for G-quadruplexes is based on K rel values of 1.4–2.4, but no confidence intervals or significance tests are provided. Similarly, the comparison of binding affinities across the truncation series in Figure 8B and Table 2 lacks statistical analysis.
+  - **Why it matters** The conclusions about selectivity and its attenuation rely on quantitative comparisons of binding affinities. Without proper statistical analysis, it is impossible to determine whether the observed differences are meaningful or within experimental noise.
+  - **Resolution test** Clearly state the number of independent replicates for each measurement. Perform appropriate statistical tests (e.g., t-test or ANOVA) for comparisons between constructs and RNAs. Report confidence intervals for K rel values. If the sample size is small, acknowledge this limitation and discuss its impact on the conclusions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of eCLIP reanalysis
+  - **Claim pointer** The authors state that "U-rich and G-rich motifs were enriched among proteins regardless of their RBD composition" and that this "suggests that U-rich and G-rich motifs do not reflect specific binding preferences of hnRNP U."
+  - **Evidence pointer** Figure 6, Figure S5, Results section "U– and G-rich motifs are common eCLIP artifacts"
+  - **Concern** The PureCLIP reanalysis is used to argue that U-rich and G-rich motifs are crosslinking artifacts. However, the analysis is performed on a limited set of proteins, and the criteria for selecting these proteins are not fully described. The authors note that "not all of the proteins had available eCLIP data in both cell lines," which introduces potential batch effects. Furthermore, the comparison between proteins with and without RGG/RG motifs is not quantified; it is unclear whether the enrichment of U-rich and G-rich motifs is statistically different between these groups.
+  - **Why it matters** The claim that these motifs are artifacts is a strong conclusion with implications for the interpretation of many eCLIP datasets. If the analysis is not robust or the comparison is not properly controlled, the conclusion may be overstated.
+  - **Resolution test** Provide a clear description of the criteria for selecting the proteins analyzed. Quantify the enrichment of U-rich and G-rich motifs across all proteins and perform a statistical comparison between proteins with and without RGG/RG motifs. Discuss potential confounding factors such as cell type differences and crosslinking efficiency.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the model
+  - **Claim pointer** The authors propose a general model in which "the inherent preference of the RGG/RG sequence element for G-quadruplexes is overridden by the specificity of flanking domains."
+  - **Evidence pointer** Discussion section, final paragraph
+  - **Concern** The model is based on a single protein, hnRNP U. While the authors cite examples from FMRP and FUS, these are not directly tested in this study. The claim that this is a "general model" for RGG/RG domains is not supported by the data presented, which only address hnRNP U.
+  - **Why it matters** Overgeneralization from a single system can be misleading, especially given the diversity of RGG/RG-containing proteins and their varied domain architectures.
+  - **Resolution test** Soften the language to indicate that this is a proposed model based on hnRNP U that requires testing in other systems. Alternatively, include preliminary data on another RGG/RG-containing protein to support the generalizability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure legends
+  - **Affected element** Figures 4, 5, 7, 8
+  - **Evidence pointer** Figure legends in the provided text
+  - **Issue** The figure legends are not provided in the submitted text, making it difficult to fully interpret the figures. For example, it is unclear what error bars represent in Figures 4 and 8, and whether the binding curves in Figure 7 are representative or averaged.
+  - **Required correction** Provide complete figure legends that clearly state the number of replicates, the meaning of error bars, and the statistical tests used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout the text
+  - **Evidence pointer** Results and Discussion sections
+  - **Issue** The terms "K obs " and "K D " are used interchangeably in some places. The Hill fit equation defines K D as the apparent equilibrium dissociation constant, but the text often refers to K obs . This could cause confusion.
+  - **Required correction** Use a single term consistently, or clearly define the relationship between K obs and K D in the methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Missing details on RNA preparation
+  - **Affected element** Materials and Methods, "Preparation, purification, and labeling of RNAs"
+  - **Evidence pointer** Methods section
+  - **Issue** The method for generating the antisense RNAs is not described. It is implied that they were synthesized by in vitro transcription, but the template preparation is not specified.
+  - **Required correction** Add a sentence describing how antisense RNA templates were generated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability statement
+  - **Affected element** Data availability section
+  - **Evidence pointer** End of manuscript
+  - **Issue** The statement "Data will be made available on request" is vague. Given the emphasis on reproducibility, a more detailed statement or deposition in a public repository would be preferable.
+  - **Required correction** Consider depositing raw binding data and analysis scripts in a public repository such as Zenodo or Figshare.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (construct boundaries and truncation series) and R1-M2 (statistical analysis of binding data) are the most critical. Without precise construct definitions and proper statistical treatment, the central claims about selectivity attenuation are not fully supported.
+- **Assessment against Nature-style criteria**  
+  *Originality*: The work is original in its systematic comparison of full RBD versus isolated RGG/RG motifs and its reanalysis of eCLIP data to identify artifacts. However, the concept of RGG/RG motifs binding G-quadruplexes is not new, and the novelty lies in the demonstration of attenuation by flanking sequences.  
+  *Scientific importance*: The findings have implications for understanding how intrinsically disordered regions modulate RNA-binding specificity, which is a growing area of interest. The potential identification of eCLIP artifacts is also important for the field.  
+  *Interdisciplinary readership*: The work will primarily appeal to RNA biologists and biochemists, with some relevance to computational biologists studying crosslinking data. The broader chromatin biology community may also be interested given hnRNP U's role in chromatin architecture.  
+  *Technical soundness*: The experimental approaches are generally appropriate, but the lack of statistical rigor and incomplete construct details are weaknesses that need to be addressed.  
+  *Readability for nonspecialists*: The manuscript is clearly written and accessible, with a logical flow from question to conclusion. The use of figures and tables aids comprehension.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially significant, but the manuscript requires revisions to fully establish the case, particularly regarding construct definitions and statistical analysis.

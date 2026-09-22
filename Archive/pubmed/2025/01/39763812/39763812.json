@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "39763812",
+    "doi": "10.1101/2024.12.23.630161",
+    "title": "Biomolecular condensates control and are defined by RNA-RNA interactions that arise in viral replication."
+  },
+  "content": {
+    "abstract": "Cells must limit RNA-RNA interactions to avoid irreversible RNA entanglement. Cells may prevent deleterious RNA-RNA interactions by genome organization to avoid complementarity however, RNA viruses generate long, perfectly complementary antisense RNA during replication. How do viral RNAs avoid irreversible entanglement? One possibility is RNA sequestration into biomolecular condensates. To test this, we reconstituted critical SARS-CoV-2 RNA-RNA interactions in Nucleocapsid condensates. We observed that RNAs with low propensity RNA-RNA interactions resulted in more round, liquid-like condensates while those with high sequence complementarity resulted in more heterogeneous networked morphology independent of RNA structure stability. Residue-resolution molecular simulations and direct sequencing-based detection of RNA-RNA interactions support that these properties arise from degree of trans RNA contacts. We propose that extensive RNA-RNA interactions in cell and viral replication are controlled via a combination of genome organization, timing, RNA sequence content, RNA production ratios, and emergent biomolecular condensate material properties.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aierken, Dilimulati",
+        "Zhang, Vita",
+        "Sealfon, Rachel",
+        "Marecki, John C",
+        "Raney, Kevin D",
+        "Gladfelter, Amy S",
+        "Joseph, Jerelle A",
+        "Roden, Christine A"
+      ],
+      "short_names": [
+        "Aierken D",
+        "Zhang V",
+        "Sealfon R",
+        "Marecki JC",
+        "Raney KD",
+        "Gladfelter AS",
+        "Joseph JA",
+        "Roden CA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1727-5759",
+        "ORCID: 0000-0002-3007-4698",
+        "ORCID: 0000-0003-1991-8949",
+        "ORCID: 0000-0002-7290-0206",
+        "ORCID: 0000-0002-2490-6945",
+        "ORCID: 0000-0003-4525-180X",
+        "ORCID: 0000-0002-3750-4865"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Aierken, Dilimulati",
+        "short_name": "Aierken D",
+        "identifiers": [
+          "0000-0003-1727-5759"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Vita",
+        "short_name": "Zhang V",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sealfon, Rachel",
+        "short_name": "Sealfon R",
+        "identifiers": [
+          "0000-0002-3007-4698"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Marecki, John C",
+        "short_name": "Marecki JC",
+        "identifiers": [
+          "0000-0003-1991-8949"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Raney, Kevin D",
+        "short_name": "Raney KD",
+        "identifiers": [
+          "0000-0002-7290-0206"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gladfelter, Amy S",
+        "short_name": "Gladfelter AS",
+        "identifiers": [
+          "0000-0002-2490-6945"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Joseph, Jerelle A",
+        "short_name": "Joseph JA",
+        "identifiers": [
+          "0000-0003-4525-180X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Roden, Christine A",
+        "short_name": "Roden CA",
+        "identifiers": [
+          "0000-0002-3750-4865"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Dec 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/07 06:22",
+    "fetched_at": "2026-09-21 14:31:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39763812",
+      "36883003",
+      "37013374",
+      "36272892",
+      "32562316",
+      "39464032",
+      "33650968",
+      "38446881",
+      "35632702",
+      "32995779",
+      "34634033",
+      "37131735",
+      "33081049",
+      "38177504",
+      "33247108",
+      "36993212",
+      "34159327",
+      "39705355",
+      "39070659",
+      "38915678",
+      "37194953",
+      "34524703",
+      "39326881",
+      "37029379",
+      "40102453",
+      "39345611",
+      "35364105",
+      "33558506",
+      "36001979",
+      "38175843",
+      "39861886",
+      "39201466",
+      "38061626",
+      "34200781",
+      "38515267",
+      "38824391",
+      "38832749",
+      "39324618",
+      "37963251",
+      "33982350",
+      "33248025",
+      "37040799",
+      "33200826",
+      "38987300",
+      "36106018",
+      "36640305",
+      "35001622",
+      "35982794",
+      "37385580",
+      "39591652",
+      "39636939",
+      "36642156",
+      "37116470",
+      "37205474",
+      "33934561",
+      "34090478",
+      "35108264",
+      "37252985",
+      "36191226",
+      "36227474",
+      "37772963",
+      "32637943",
+      "38621751",
+      "38421168",
+      "34129784",
+      "40327693",
+      "32587965",
+      "40172489",
+      "37894933",
+      "33477032",
+      "33669141",
+      "39804953",
+      "34785657",
+      "35727989",
+      "39677698",
+      "39937084",
+      "32684431",
+      "37901441",
+      "34772789",
+      "37480229",
+      "40203038",
+      "36798397",
+      "36711465",
+      "33479198",
+      "36028355",
+      "38778761",
+      "34578359",
+      "37293933",
+      "31484749",
+      "38637545",
+      "38383656",
+      "36795767",
+      "35871289",
+      "36175408",
+      "36689740",
+      "37684240",
+      "32482873",
+      "35293386",
+      "34762868",
+      "33672806"
+    ],
+    "review": [
+      "39763812",
+      "36272892",
+      "35632702",
+      "39326881",
+      "37029379",
+      "38175843",
+      "38061626",
+      "34200781",
+      "39324618",
+      "37040799",
+      "36106018",
+      "36640305",
+      "36642156",
+      "33934561",
+      "37772963",
+      "38621751",
+      "34129784",
+      "40172489",
+      "33669141",
+      "32684431",
+      "34772789",
+      "36028355",
+      "38778761"
+    ],
+    "pmc": [
+      "11703219"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39763812/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.12.23.630161",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

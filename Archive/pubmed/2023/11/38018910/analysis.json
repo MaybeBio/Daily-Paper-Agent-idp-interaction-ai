@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38018910",
+  "title": "Phanto-IDP: compact model for precise intrinsically disordered protein backbone generation and enhanced sampling.",
+  "authors": "Zhu, Junjie; Li, Zhengxin; Tong, Haowei; Lu, Zhouyu; Zhang, Ningjie; Wei, Ting; Chen, Hai-Feng",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-11-29",
+  "window": {
+    "start": "2023-11-27",
+    "end": "2023-12-03"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出基于图编码器与Transformer变分解码器的深度学习模型Phanto-IDP，用于无序蛋白骨架生成与增强采样，直接面向IDP构象系综的动态机制建模，与课题高度契合。",
+  "abstract": "The biological function of proteins is determined not only by their static structures but also by the dynamic properties of their conformational ensembles. Numerous high-accuracy static structure prediction tools have been recently developed based on deep learning; however, there remains a lack of efficient and accurate methods for exploring protein dynamic conformations. Traditionally, studies concerning protein dynamics have relied on molecular dynamics (MD) simulations, which incur significant computational costs for all-atom precision and struggle to adequately sample conformational spaces with high energy barriers. To overcome these limitations, various enhanced sampling techniques have been developed to accelerate sampling in MD. Traditional enhanced sampling approaches like replica exchange molecular dynamics (REMD) and frontier expansion sampling (FEXS) often follow the MD simulation approach and still cost a lot of computational resources and time. Variational autoencoders (VAEs), as a classic deep generative model, are not restricted by potential energy landscapes and can explore conformational spaces more efficiently than traditional methods. However, VAEs often face challenges in generating reasonable conformations for complex proteins, especially intrinsically disordered proteins (IDPs), which limits their application as an enhanced sampling method. In this study, we presented a novel deep learning model (named Phanto-IDP) that utilizes a graph-based encoder to extract protein features and a transformer-based decoder combined with variational sampling to generate highly accurate protein backbones. Ten IDPs and four structured proteins were used to evaluate the sampling ability of Phanto-IDP. The results demonstrate that Phanto-IDP has high fidelity and diversity in the generated conformation ensembles, making it a suitable tool for enhancing the efficiency of MD simulation, generating broader protein conformational space and a continuous protein transition path.",
+  "abstract_zh": "蛋白质的生物学功能不仅由其静态结构决定，还由其构象集合的动态特性决定。近年来，基于深度学习已开发出多种高精度的静态结构预测工具；然而，对于探索蛋白质动态构象，仍缺乏高效且准确的方法。传统上，关于蛋白质动力学的研究依赖于分子动力学（molecular dynamics, MD）模拟，该方法在全原子精度下计算成本高昂，且难以充分采样具有高能垒的构象空间。为克服这些限制，已开发出多种增强采样技术以加速MD中的采样。传统的增强采样方法，如副本交换分子动力学（replica exchange molecular dynamics, REMD）和前沿扩展采样（frontier expansion sampling, FEXS），通常遵循MD模拟路径，仍消耗大量计算资源和时间。变分自编码器（variational autoencoders, VAEs）作为一种经典深度生成模型，不受势能景观限制，能比传统方法更高效地探索构象空间。然而，VAEs在生成复杂蛋白质（尤其是固有无序蛋白质（intrinsically disordered proteins, IDPs））的合理构象方面常面临挑战，这限制了其作为增强采样方法的应用。在本研究中，我们提出了一种新型深度学习模型（名为Phanto-IDP），该模型利用基于图的编码器提取蛋白质特征，并结合基于变换器的解码器与变分采样生成高精度的蛋白质骨架。使用十个IDPs和四个结构化蛋白质评估了Phanto-IDP的采样能力。结果表明，Phanto-IDP在生成的构象集合中具有高保真度和多样性，使其成为增强MD模拟效率、生成更广泛的蛋白质构象空间及连续蛋白质转变路径的合适工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38018910/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38018910/",
+  "paper_page_path": "papers/pubmed/38018910/index.html"
+}

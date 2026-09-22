@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.08.05.454052",
+  "title": "Energetics of a protein disorder-order transition in small molecule recognition",
+  "authors": "Mendoza-Martinez C; Papadourakis M; Llabrés S; Gupta AA; Barlow PN; Michel J",
+  "journal": "bioRxiv",
+  "published_date": "2021-08-06",
+  "window": {
+    "start": "2021-08-02",
+    "end": "2021-08-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过增强采样分子动力学与绝对结合自由能计算，定量解析小分子配体如何通过调控MDM2无序lid区域的折叠-无序转变实现选择性结合，属于无序蛋白介导互作机制建模的物理模拟研究，对本课题有直接方法学启发。",
+  "abstract": "Many proteins recognise other proteins via mechanisms that involve the folding of intrinsically disordered regions upon complex formation. Here we investigate how the selectivity of a drug-like small molecule arises from its modulation of a protein disorder-to-order transition. Binding of the compound AM-7209 has been reported to confer order upon an intrinsically disordered ‘lid’ region of the oncoprotein MDM2. Calorimetric measurements revealed that truncation of the lid region of MDM2 increases the apparent dissociation constant of AM-7209 250-fold. By contrast, lid truncation has little effect on the binding of the ligand Nutlin-3a. Insights into these differential binding energetics were obtained via a complete thermodynamic analysis that featured adaptive absolute alchemical free energy of binding calculations with enhanced-sampling molecular dynamics simulations. The simulations reveal that in apo MDM2 the ordered lid state is energetically disfavoured. AM-7209, but not Nutlin-3a, shows a significant energetic preference for ordered lid conformations, thus shifting the balance towards ordering of the lid in the AM-7209/MDM2 complex. The methodology reported herein should facilitate broader targeting of intrinsically disordered regions in medicinal chemistry.",
+  "abstract_zh": "许多蛋白质通过涉及内在无序区域在复合物形成时折叠的机制来识别其他蛋白质。在此，我们探究了一种药物样小分子的选择性如何源于其对蛋白质无序到有序转变的调节。据报道，化合物AM-7209的结合赋予了癌蛋白MDM2内在无序的“盖子”区域有序性。量热测量显示，截断MDM2的盖子区域使AM-7209的表观解离常数增加了250倍。相比之下，盖子截断对配体Nutlin-3a的结合影响甚微。通过包含自适应绝对炼金术自由能结合计算及增强采样分子动力学模拟的完整热力学分析，我们获得了对这些差异结合能量学的见解。模拟揭示，在无配体的MDM2中，有序盖子状态在能量上是不利的。AM-7209，而非Nutlin-3a，对有序盖子构象显示出显著的 energetic 偏好，从而在AM-7209/MDM2复合物中将平衡推向盖子有序化。本文报告的方法论应有助于在药物化学中更广泛地靶向内在无序区域。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.08.05.454052",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.08.05.454052",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.08.05.454052/index.html"
+}

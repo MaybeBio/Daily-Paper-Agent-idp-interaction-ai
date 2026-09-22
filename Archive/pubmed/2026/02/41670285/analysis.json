@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41670285",
+  "title": "Molecular origins of viscoelasticity in biomolecular condensates.",
+  "authors": "Garcia, Pablo L; Joseph, Jerelle A",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2026-02-11",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟和网络拓扑分析，揭示IDP凝聚体粘弹性与关联网络结构及时间尺度耦合的机制，虽未直接聚焦PPI结合，但为IDP介导互作网络与相分离力学建模提供了可迁移的机制框架。",
+  "abstract": "Biomolecular condensates are membraneless organelles that compartmentalize functions in living cells. Formed by the phase separation of biomolecules, condensates possess a wide range of mechanical responses. However, how condensate viscoelastic response is encoded in the chemistries of their constituents-such as intrinsically disordered proteins (IDPs)-is not well understood. Here, we employ molecular dynamics simulations to connect measurable condensate viscoelasticity to the architectural heterogeneity and dynamic reconfigurability of associative networks formed by IDPs. Using a residue-resolution coarse-grained model, we characterize biologically relevant and synthetic condensates, demonstrating that the temperature sensitivity of elasticity is sequence-dependent and modeled by exponential scaling laws. We interrogate condensate mesh heterogeneity via entanglement spacing, finding that entropy-driven structural heterogeneity and reduced IDP hydrophobicity favor condensate elasticity. Furthermore, we construct graph-theoretical representations of condensates and find that interaction network topologies with an abundance of redundant node pathways translate to more load-bearing paths for mechanical stress storage. Strikingly, we discover that elastic coupling of IDPs within condensates emerges when single-molecule shape memory timescales approach mesh reconfiguration timescales. This interplay of timescales for molecular and microstructural processes, which we introduce as the condensate Deborah number, dictates how restoring elastic forces propagate and are stored across IDP networks, linking condensate microstructure dynamics directly to mechanical responses. Taken together, our work provides a conceptual framework of how condensates act as stress-responsive biomaterials, helping illuminate how cells exploit condensate mechanics to sense and regulate their internal environment and opening avenues for the design of condensates with programmable viscoelastic properties.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）是无膜细胞器，在活细胞中区隔化功能。凝聚体由生物分子的相分离（phase separation）形成，具有广泛的力学响应。然而，凝聚体的黏弹性响应如何由其组分（如固有无序蛋白（intrinsically disordered proteins, IDPs））的化学性质所编码，目前尚不清楚。在此，我们采用分子动力学（molecular dynamics）模拟，将可测量的凝聚体黏弹性与IDPs形成的缔合网络的架构异质性和动态可重构性联系起来。利用残基分辨率的粗粒化模型，我们表征了生物学相关及合成凝聚体，证明弹性的温度敏感性具有序列依赖性，并可通过指数标度律进行建模。我们通过缠结间距探究凝聚体网格异质性，发现熵驱动的结构异质性和IDP疏水性降低有利于凝聚体弹性。此外，我们构建凝聚体的图论表示，发现具有丰富冗余节点路径的相互作用网络拓扑转化为更多承载路径，用于机械应力存储。引人注目的是，我们发现当单分子形状记忆时间尺度接近网格重构时间尺度时，凝聚体内IDPs的弹性耦合会涌现。这种分子与微结构过程的时间尺度相互作用——我们将其引入为凝聚体德博拉数（Deborah number）——决定了恢复弹性力如何在IDP网络中传播和存储，直接将凝聚体微结构动力学与力学响应联系起来。综合而言，我们的工作提供了凝聚体如何作为应力响应生物材料的概念框架，有助于阐明细胞如何利用凝聚体力学来感知和调节其内部环境，并为设计具有可编程黏弹性特性的凝聚体开辟了途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41670285/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41670285/",
+  "paper_page_path": "papers/pubmed/41670285/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no figures, methods, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report that osmotic stress promotes association of WNK1 with NRBP1 pseudokinase and TSC22D2/4 adaptor proteins, identified by proximity ligation and confirmed by immunoprecipitation, mass spectrometry, and immunoblotting. They report that NRBP1 knockdown or knockout inhibits sorbitol-induced WNK1 activation and downstream signaling, that recombinant NRBP1 directly activates WNK4 in vitro, and that AlphaFold-3 modelling predicts a multi-subunit complex involving WNK1, SPAK, NRBP1, and TSC22D4. The central claim is that NRBP1 functions as an upstream activator of the WNK pathway.
+- **Visible evidence base** Abstract text only; no experimental details, quantification, controls, or model validation data are available
+- **Missing materials affecting confidence** Full manuscript, all figures, methods section, statistical analyses, AlphaFold-3 modelling parameters and validation, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that NRBP1, a pseudokinase closely related to WNK isoforms, may serve as an upstream activator of the WNK pathway in response to osmotic stress. The identification of a new regulatory component in a well-studied signaling cascade is of potential interest to the ion transport and cell signaling communities. However, the abstract alone provides insufficient evidence to evaluate the rigor of the experimental approach, the robustness of the biochemical data, or the validity of the structural predictions. Several claims are made without quantitative support or methodological detail, and the relationship between the proposed scaffolding function and the stated "activation" function of NRBP1 is not fully clarified. The work is potentially significant but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying WNK kinase signaling, ion homeostasis, and osmotic stress responses would be the primary audience. The work may also interest those investigating pseudokinase functions and the assembly of multi-subunit signaling complexes. The potential clinical relevance of WNK pathway dysregulation in hypertension and electrolyte disorders could extend interest to translational researchers.
+- **Major strengths** The identification of NRBP1 as a potential regulator of the WNK pathway addresses a gap in understanding how osmotic stress signals are transduced to WNK kinases. The combination of proximity ligation, biochemical validation, and in vitro reconstitution approaches suggests a multi-pronged experimental strategy. The use of AlphaFold-3 to generate testable structural predictions is a modern and potentially valuable approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "NRBP1 pseudokinase binds to and activates the WNK pathway in response to osmotic stress" and "NRBP1 functions as an upstream activator of the WNK pathway"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The central claim that NRBP1 activates the WNK pathway is supported by knockdown and knockout experiments showing inhibition of sorbitol-induced WNK1 activation, and by in vitro experiments showing recombinant NRBP1 directly induces WNK4 activation. However, no quantitative data are presented, no specificity controls are described, and the magnitude of the reported effects is not stated. The abstract does not indicate whether the in vitro activation of WNK4 by NRBP1 is comparable in magnitude to known WNK4 activators, nor whether the knockdown and knockout phenotypes are partial or complete.
+  - **Why it matters** The claim that NRBP1 is an upstream activator rests entirely on these loss-of-function and in vitro experiments. Without quantitative data, specificity controls, and evidence that the effects are not indirect or due to off-target effects, the central conclusion cannot be evaluated. The distinction between a scaffolding role and a direct activating role is also not resolved by the data as described.
+  - **Resolution test** Provide quantitative data showing the extent of WNK1 and downstream kinase inhibition upon NRBP1 knockdown and knockout, including rescue experiments. Show that recombinant NRBP1 activates WNK4 in a dose-dependent and specific manner, with appropriate controls including a catalytically inactive NRBP1 variant and a WNK4 variant lacking the proposed interaction domain.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural prediction validity
+  - **Claim pointer** "AlphaFold-3 modelling predicts that WNK1, SPAK, NRBP1, and TSC22D4 form a complex, in which two TSC22D4 RΦ-motifs interact with the CCTL1 domain of WNK1 and the CCT domain of NRBP1"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract presents AlphaFold-3 predictions as evidence for complex formation without any experimental validation. No confidence metrics, model validation, or comparison with experimental structures are provided. The claim that two TSC22D4 RΦ-motifs interact with two different CCT domains is a specific structural prediction that requires experimental corroboration, such as mutagenesis or binding studies.
+  - **Why it matters** AlphaFold predictions, while increasingly powerful, are not substitutes for experimental evidence of physical interactions. The abstract uses this prediction to support the proposed model of complex assembly, and if the prediction is inaccurate, the model would require substantial revision. The lack of validation data makes this claim unassessable.
+  - **Resolution test** Provide AlphaFold confidence metrics, show experimental validation of the predicted interactions through mutagenesis of the RΦ-motifs and CCT domains, and demonstrate that disruption of these interactions abolishes NRBP1-mediated WNK activation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual clarity
+  - **Claim pointer** "NRBP1 functions as an upstream activator of the WNK pathway" versus the teaser statement "NRBP1 functions as a scaffolding component regulating the assembly of a multi-subunit complex, required for the activation of the WNK family"
+  - **Evidence pointer** Abstract and teaser; location not provided
+  - **Concern** The abstract states that NRBP1 is an "upstream activator" while the teaser describes NRBP1 as a "scaffolding component." These are conceptually distinct roles. A scaffolding protein that facilitates complex assembly is not necessarily an activator in the enzymatic sense. The abstract does not reconcile these descriptions or clarify the mechanism by which NRBP1 promotes WNK activation.
+  - **Why it matters** The mechanistic interpretation of the findings depends on whether NRBP1 directly activates WNK kinases, facilitates their activation by bringing components together, or both. The current wording is ambiguous and could lead to misinterpretation of the proposed mechanism.
+  - **Resolution test** Clarify the proposed mechanism with explicit language distinguishing scaffolding from enzymatic activation, and provide data that discriminate between these possibilities, such as experiments showing whether NRBP1 increases WNK4 catalytic activity directly or merely promotes complex assembly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting completeness
+  - **Affected element** Proximity ligation approach
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that a proximity ligation approach was used to identify the association of WNK1 with NRBP1 and TSC22D2/4, but the specific method is not named.
+  - **Required correction** Specify the proximity ligation method used, such as BioID, APEX2, or proximity ligation assay, in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "RΦ-motif"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "RΦ-motif" is used without definition. Nonspecialist readers may not be familiar with this nomenclature.
+  - **Required correction** Define the motif, for example as an arginine and hydrophobic residue-containing motif, at first use.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** In vitro activation experiment
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that recombinant NRBP1 can directly induce activation of WNK4 in vitro lacks detail on the assay conditions, including whether other components such as SPAK or TSC22D4 were present.
+  - **Required correction** Specify the components of the in vitro assay and whether the activation is dependent on the presence of additional factors.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Model validation
+  - **Affected element** AlphaFold-3 modelling
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state whether the AlphaFold-3 predictions were experimentally tested or are purely computational.
+  - **Required correction** State explicitly whether the predicted interactions were validated experimentally and, if so, by what method.
+
+## Risk / unsupported claims
+- The claim that NRBP1 "binds to and activates" the WNK pathway is not fully supported by the abstract alone, as the binding data are not quantified and the activation data lack specificity controls.
+- The AlphaFold-3 predicted complex architecture is presented without experimental validation or confidence metrics, making the specific interaction model unassessable.
+- The functional distinction between NRBP1 as an "upstream activator" and as a "scaffolding component" is unresolved and the two descriptions are not reconciled.
+- The physiological relevance of the findings to osmotic stress responses in vivo is not addressed in the abstract.
+- The relationship between NRBP1 and the previously characterized WNK pathway regulators, such as CUL3 and KLHL3, is not discussed, leaving the novelty claim partially uncontextualized.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.01.04.574178",
+  "title": "Understanding the Energy Landscape of Intrinsically Disordered Protein Ensembles",
+  "authors": "Rafael G. Viegas; Ingrid B. S. Martins; Vitor B.P. Leite",
+  "journal": "bioRxiv",
+  "published_date": "2024-01-05",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用能量景观可视化方法(ELViM)分析四个IDP构象系综，虽聚焦IDP对象但未涉及PPI互作机制，方法为物理模拟分析而非AI/对接，故综合评分为6。",
+  "abstract": "A substantial portion of various organisms’ proteomes comprises intrinsically dis-ordered proteins (IDPs) that lack a defined three-dimensional structure. These IDPs exhibit a diverse array of conformations, displaying remarkable spatio-temporal het-erogeneity and exceptional conformational flexibility. Characterizing the structure or structural ensemble of IDPs presents significant conceptual and methodological challenges owing to the absence of a well-defined native structure. While databases such as the Protein Ensemble Database (PED) provide IDP ensembles obtained through a combination of experimental data and molecular modeling, the absence of reaction coordinates poses challenges in comprehensively understanding pertinent aspects of the system. In this study, we leverage the Energy Landscape Visualization Method ( JCTC , 6482, 2019) to scrutinize four IDP ensembles sourced from PED. ELViM, a methodology that circumvents the need for a priori reaction coordinates, aids in analyzing the ensembles. The specific IDP ensembles investigated are as follows: two fragments of Nucleoporin (NUL: 884-993 and NUS: 1313-1390), Yeast Sic 1 N-terminal (1-90), and the N-terminal SH3 domain of Drk (1-59). Utilizing ELViM enables comprehensive validation of ensembles, facilitating the detection of potential inconsistencies in the sampling process. Additionally, it allows for identifying and characterizing the most prevalent conformations within an ensemble. Moreover, ELViM facilitates the comparative analysis of ensembles obtained under diverse conditions, thereby providing a powerful tool for investigating the functional mechanisms of IDPs.",
+  "abstract_zh": "多种生物蛋白质组中相当大一部分由 intrinsically disordered proteins（IDPs）组成，这些蛋白质缺乏明确的三维结构。这些IDPs展现出多样的构象，表现出显著的时空异质性和非凡的构象灵活性。由于缺乏明确的天然结构，表征IDPs的结构或结构集合在概念和方法上均面临重大挑战。尽管诸如Protein Ensemble Database（PED）等数据库提供了通过实验数据与分子建模相结合获得的IDP集合，但缺乏反应坐标对全面理解系统相关方面构成挑战。在本研究中，我们利用Energy Landscape Visualization Method（JCTC, 6482, 2019）来审视来自PED的四个IDP集合。ELViM是一种无需先验反应坐标的方法，有助于分析这些集合。所研究的具体IDP集合如下：Nucleoporin的两个片段（NUL: 884-993 和 NUS: 1313-1390）、Yeast Sic 1 N端（1-90）以及Drk的N端SH3结构域（1-59）。利用ELViM能够全面验证集合，便于检测采样过程中潜在的不一致性。此外，它还能识别并表征集合内最普遍的构象。而且，ELViM促进了在不同条件下获得的集合的比较分析，从而为研究IDPs的功能机制提供了有力工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.01.04.574178",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.01.04.574178",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.01.04.574178/index.html"
+}

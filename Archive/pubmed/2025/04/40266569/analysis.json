@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40266569",
+  "title": "Non-monotonous Concentration Dependent Solvation of ATP Could Help to Rationalize Its Anomalous Impact on Various Biophysical Processes.",
+  "authors": "Bhattacharya, Indrani; Hautke, Alexander; Rossi, Emma; Stevens, Laurie; Marick, Aritra; Bera, Asesh; Das, Tanushree; Ferrarini, Alberta; Sulpizi, Marialore; Ebbinghaus, Simon; Mitra, Rajib Kumar",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2025-04-23",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过太赫兹光谱和分子动力学模拟研究ATP浓度依赖的溶剂化及其对蛋白/RNA相分离的异常影响，涉及无序体系中的凝聚体背景，但对象为小分子ATP而非IDP，且未直接建模PPI机制，方法上仅用MD辅助解释。",
+  "abstract": "Adenosine triphosphate (ATP), one of the biologically most important molecules, offers certain anomalous behavior during folding and liquid-liquid phase separation of proteins and RNAs. ATP can act as a \"biological hydrotrope\", i.e., it solubilizes hydrophobic proteins or other biomolecules. However, upon exceeding the physiological concentration range (2-10 mM), aggregation of proteins and RNAs is promoted, an effect that is not understood yet. Here we present a time-domain and frequency-domain Terahertz (THz) spectroscopic investigation to understand the solvation of ATP with varying concentration in the range of 2-15 mM. Both time and frequency domain studies of the solvation of adenosine (Adn), sodium triphosphate (TPP), and ATP elucidate that both the adenosine as well as the triphosphate moiety contribute to nearly equal propensity towards the solvation structure of ATP at low concentrations. However, at higher concentrations (>10 mM), the effect of the adenosine moiety dominates, which leads to a more structured solvation shell followed by slower relaxation dynamics. This is due to the triphosphate-driven ATP aggregation with a reduced amount of water-exposed triphosphate groups, as revealed by molecular dynamics simulations. These observations could lead to an understanding of the complex role of ATP in different biological systems.",
+  "abstract_zh": "三磷酸腺苷（ATP），作为生物学上最重要的分子之一，在蛋白质和RNA的折叠及液-液相分离过程中展现出某些异常行为。ATP可充当“生物水溶助剂”，即它能增溶疏水性蛋白质或其他生物分子。然而，当超过生理浓度范围（2-10 mM）时，会促进蛋白质和RNA的聚集，这一效应至今尚未被理解。在此，我们通过时域和频域太赫兹（Terahertz）光谱研究，探讨了ATP在2-15 mM浓度范围内的溶剂化过程。对腺苷（Adn）、三磷酸钠（TPP）及ATP的时域和频域研究均表明，在低浓度下，腺苷和三磷酸部分对ATP的溶剂化结构贡献几乎相等。然而，在较高浓度（>10 mM）时，腺苷部分的影响占主导，导致溶剂化壳层更加结构化，并伴随更慢的弛豫动力学。这归因于三磷酸驱动的ATP聚集，其中暴露于水的三磷酸基团减少，正如分子动力学模拟所揭示。这些观察结果可能有助于理解ATP在不同生物系统中的复杂作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40266569/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40266569/",
+  "paper_page_path": "papers/pubmed/40266569/index.html"
+}

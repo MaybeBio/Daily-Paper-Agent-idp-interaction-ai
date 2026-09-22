@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Conceptual classification scheme and its demonstrated applicability, as described in the abstract
+- **Shared manuscript claim summary** The authors propose COMPOSEL, a classification system for membrane proteins based on structures that engage lipids, building on existing nomenclature types. They claim it can communicate lipid interactivity, signaling mechanisms, and binding of various ligands, and can be scaled to describe genome-encoded membrane structures and pathogen infiltration.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or results sections provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods description, validation data, comparison with existing classification systems, and any quantitative assessments of scalability or accuracy
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting extension of membrane protein classification, but the evidence provided is insufficient to evaluate the novelty, technical soundness, or practical utility of the COMPOSEL scheme. The claims are broad and ambitious, yet the abstract offers no quantitative or systematic validation. The work may appeal to a specialized audience in membrane biology and structural bioinformatics, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Researchers in membrane protein structural biology, lipid-protein interactions, and computational biology using AI/ML for structure prediction. The proposed classification could inform restraint specification for AlphaFold and Rosetta, and may interest those studying membrane-associated signaling and pathogen-host interactions.
+- **Major strengths** The conceptual framework builds on established nomenclature, which aids accessibility. The inclusion of diverse examples (synaptotagmins, caveolins, BAM, aGPCR, lipid-modifying enzymes) suggests broad applicability. The proposal to integrate lipid environment into protein classification addresses a genuine gap in current structural annotation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims COMPOSEL "communicates lipid interactivity as well as signaling mechanisms and binding of metabolites, drug molecules, polypeptides or nucleic acids to describe the operations of any protein."  
+  - **Evidence pointer** Abstract only; no figures or tables provided  
+  - **Concern** The claim that COMPOSEL can describe "the operations of any protein" is unsupported. The abstract provides only qualitative examples without demonstrating how the classification encodes functional information in a systematic, testable manner. No criteria for assigning classifications, no validation against known structures, and no comparison with existing schemes are presented.  
+  - **Why it matters** Without a defined, reproducible classification protocol and validation, the scheme cannot be adopted or assessed by the community. The claim of universality ("any protein") requires evidence of coverage across diverse protein families and structural classes.  
+  - **Resolution test** Provide a formal definition of COMPOSEL elements, a worked example with explicit assignment rules, and a validation set showing agreement with experimentally determined lipid interactions for at least 20 proteins across multiple families.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Originality  
+  - **Claim pointer** The abstract states COMPOSEL "builds on existing nomenclature types" and proposes a new classification.  
+  - **Evidence pointer** Abstract only; no literature comparison provided  
+  - **Concern** The abstract does not specify how COMPOSEL differs from existing classification systems beyond naming. Without a clear delineation of novel elements, the contribution may be incremental. The relationship to established schemes (e.g., TCDB, OPM, or lipid-binding domain classifications) is not described.  
+  - **Why it matters** Originality is a core criterion for significance. If the scheme largely renames existing concepts, its value is diminished.  
+  - **Resolution test** Include a table comparing COMPOSEL with at least three existing classification systems, highlighting specific new elements and their operational advantages.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract claims COMPOSEL "can be scaled to express how genomes encode membrane structures and how our organs are infiltrated by pathogens such as SARS-CoV-2."  
+  - **Evidence pointer** Abstract only; no genomic or pathogen data shown  
+  - **Concern** The scalability claim is central to the broader impact but is presented without any demonstration. No genome-scale analysis, no pathogen application, and no quantitative metric of scalability are provided.  
+  - **Why it matters** The claim of genome-scale utility and pathogen relevance elevates the work beyond a classification exercise. Without evidence, these claims are speculative.  
+  - **Resolution test** Provide a proof-of-concept application to at least one complete genome (e.g., human or yeast) and a specific SARS-CoV-2 protein interaction, with quantitative output (e.g., number of classified proteins, coverage, and functional annotations).  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interdisciplinary readership  
+  - **Claim pointer** The abstract implies COMPOSEL is useful for AI/ML structure prediction by specifying restraints.  
+  - **Evidence pointer** Abstract only; no computational experiments described  
+  - **Concern** The link to AI/ML is asserted but not demonstrated. No example shows how COMPOSEL-derived restraints improve prediction accuracy.  
+  - **Why it matters** The stated motivation for the scheme is to aid AI/ML prediction. Without a demonstration, the practical relevance to computational biologists is unclear.  
+  - **Resolution test** Include a case study where COMPOSEL annotations are used as restraints in AlphaFold or Rosetta, with a comparison of prediction accuracy against a baseline without such restraints.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract terminology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** Terms such as "monotopic, bitopic, polytopic" and "COMPOSEL" are used without definition, which may alienate readers outside membrane biology.  
+  - **Required correction** Provide brief definitions or a glossary in the abstract or introduction.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Example selection  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The examples listed (synaptotagmins, PDZD8, Protrudin, MARCKS, caveolins, BAM, aGPCR, DGKepsilon, FALDH) are diverse but no rationale for their selection is given.  
+  - **Required correction** State the selection criteria, e.g., coverage of different membrane topologies, lipid types, or functional classes.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Claim of "any protein"  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The phrase "operations of any protein" is overbroad and may invite criticism.  
+  - **Required correction** Qualify the claim, e.g., "proteins with known or predicted membrane-associated structures."  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of formal definition and validation), R1-M3 (unsubstantiated scalability claims), R1-M4 (no demonstration of AI/ML utility). These are blocking because the core claims of universality, scalability, and practical relevance are not supported by the abstract alone.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of integrating lipid engagement into protein classification is potentially novel, but the abstract does not differentiate it sufficiently from existing schemes.  
+  - Scientific importance: The potential to aid AI/ML prediction and genome-scale annotation is significant, but unproven.  
+  - Interdisciplinary readership: The work could appeal to structural biologists, lipid biologists, and computational scientists, but the abstract lacks accessible framing.  
+  - Technical soundness: Not assessable from the abstract; no methods or validation data.  
+  - Readability for nonspecialists: The abstract uses jargon without definition, limiting accessibility.  
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual idea is promising, but the abstract does not provide sufficient technical detail, validation, or comparative analysis to support the broad claims. A revised manuscript with formal definitions, validation data, and a demonstrated application would be needed to assess the scheme's value.
+
+## Risk / unsupported claims
+- The claim that COMPOSEL can "describe the operations of any protein" is unsupported and likely overstated.
+- The claim of scalability to genome-level annotation and pathogen infiltration (SARS-CoV-2) is not evidenced.
+- The assertion that COMPOSEL aids AI/ML structure prediction is not demonstrated.
+- The novelty relative to existing classification systems is not established.

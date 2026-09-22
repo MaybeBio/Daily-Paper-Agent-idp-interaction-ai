@@ -1,0 +1,181 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.05.627008",
+  "title": "Unambiguous assignment of kinked beta sheets leads to insights into molecular grammar of reversibility in biomolecular condensates",
+  "doi": "10.1101/2024.12.05.627008",
+  "abstract": "Kinked- β sheets are short peptide motifs that appear as distortions in β -strands and often mediate formation of reversible amyloid fibrils in prion-like proteins. Standard methods for assigning secondary structures cannot distinguish these esoteric motifs. Here, we provide a supervised machine learning based structural quantification map to unambiguously characterize Kinked- β sheets from coordinate data. We find that these motifs, although deviating from standard β -strand region of the Ramachandran plot, scatter around the allowed regions. We also demonstrate the applicability of our technique in wresting out LARKS, which are kinked β -strands with designated sequence. Additionally, from our exhaustive simulation generated conformations, we create a repository of potential kinked peptide-segments that can be used as a screening-library for assigning beta-kinks in unresolved coordinate dataset. Overall, our map for Kinked- β provides a robust framework for detailed structural and kinetics investigation of these important motifs in prion-like proteins that lead to formation of amyloid fibrils.",
+  "authors": [
+    "Roy I",
+    "Appadurai R",
+    "Srivastavava A"
+  ],
+  "published_date": "2024-12-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.05.627008",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.05.627008.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR951150",
+    "raw_record": {
+      "id": "PPR951150",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR951150"
+        ]
+      },
+      "doi": "10.1101/2024.12.05.627008",
+      "title": "Unambiguous assignment of kinked beta sheets leads to insights into molecular grammar of reversibility in biomolecular condensates",
+      "authorString": "Roy I, Appadurai R, Srivastavava A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Roy I",
+            "lastName": "Roy",
+            "firstName": "Irawati",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biophysics Unit, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Appadurai R",
+            "lastName": "Appadurai",
+            "firstName": "Rajeswari",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biophysics Unit, , , ,"
+                },
+                {
+                  "affiliation": "Department of Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Srivastavava A",
+            "lastName": "Srivastavava",
+            "firstName": "Anand",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biophysics Unit, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2757-1511"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Kinked-  β sheets are short peptide motifs that appear as distortions in  β -strands and often mediate formation of reversible amyloid fibrils in prion-like proteins. Standard methods for assigning secondary structures cannot distinguish these esoteric motifs. Here, we provide a supervised machine learning based structural quantification map to unambiguously characterize Kinked-  β sheets from coordinate data. We find that these motifs, although deviating from standard  β -strand region of the Ramachandran plot, scatter around the allowed regions. We also demonstrate the applicability of our technique in wresting out LARKS, which are kinked  β -strands with designated sequence. Additionally, from our exhaustive simulation generated conformations, we create a repository of potential kinked peptide-segments that can be used as a screening-library for assigning beta-kinks in unresolved coordinate dataset. Overall, our map for Kinked-  β provides a robust framework for detailed structural and kinetics investigation of these important motifs in prion-like proteins that lead to formation of amyloid fibrils.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.05.627008"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.05.627008"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR951150"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR951150&type=FILE&fileName=EMS201768-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40815267",
+            "reference": "Protein science : a publication of the Protein Society. 2025 Sep;34(9):e70266",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS201768",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-12-08",
+      "firstPublicationDate": "2024-12-06",
+      "firstIndexDate": "2024-12-09",
+      "fullTextReceivedDate": "2024-12-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

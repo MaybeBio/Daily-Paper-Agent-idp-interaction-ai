@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "41524628",
+    "doi": "10.1128/mbio.03107-25",
+    "title": "The C-terminus of infectious bursal disease virus VP3 encodes a predicted intrinsically disordered region, which promotes the formation of cytoplasmic puncta and modulates their physical properties."
+  },
+  "content": {
+    "abstract": "The virus factories (VFs) of infectious bursal disease virus (IBDV) are biomolecular condensates formed through liquid-liquid phase separation (LLPS). A major component of the IBDV VF is the nonstructural protein VP3, but the molecular basis underlying VF formation remains poorly understood. Here, we demonstrate that VP3 was necessary but not sufficient for phase-separated biomolecular condensates to form. Using live-cell imaging of cells transfected with fluorescent reporter-tagged proteins, our data suggested that the minimal components required to form these structures were VP3, the viral polymerase (VP1), and viral RNA (vRNA). Furthermore, using protein modeling and molecular dynamics simulations, we determined that the 36 amino acid carboxy (C)-terminus of VP3 forms a highly dynamic intrinsically disordered region (IDR). When this was removed, puncta were significantly less numerous (P < 0.0001), smaller (P < 0.0001), and more irregular in shape than puncta formed in the presence of wt VP3, demonstrating that the VP3 C-terminal IDR promoted their formation. Moreover, by fluorescence recovery after photobleaching, the VP3DeltaC puncta had a significantly reduced mobile fraction (0.29) as compared to full-length VP3 puncta (0.70) (P < 0.001), demonstrating that the VP3 C-terminal IDR modulated their physical properties. In summary, our data reveal that VP3 forms part of a higher-order complex with VP1, and likely vRNA, to drive LLPS and the formation of IBDV VFs, and that the VP3 C-terminus encodes an IDR that is essential for modulating the physical properties of the resultant structures. IMPORTANCE: Liquid-liquid phase separation (LLPS) is a phenomenon of growing interest in cell biology. It is a part of the replication cycles of diverse viruses, but our understanding of the molecular basis that underpins the mechanism of phase separation is incomplete. We previously demonstrated that the virus factories of the birnavirus IBDV, a major agricultural pathogen, are biomolecular condensates formed through LLPS. In this study, we discovered that VP3 was necessary but not sufficient for condensates to form, and the minimal components of these structures were VP3, VP1, and likely vRNA. We also discovered that the C-terminal 36 amino acid region of IBDV VP3 encoded a highly dynamic intrinsically disordered region that promoted the formation of the cytoplasmic puncta and modulated their physical properties. This work contributes to a more detailed understanding of birnavirus replication at the molecular level and to the study of LLPS as a phenomenon.",
+    "keywords": [
+      "IBDV",
+      "LLPS",
+      "biomolecular condensate",
+      "birnavirus",
+      "phase separation",
+      "virus factory"
+    ],
+    "mesh_terms": [
+      "*Infectious bursal disease virus/genetics/chemistry",
+      "Animals",
+      "Phase Separation",
+      "*Viral Structural Proteins/genetics/chemistry/metabolism",
+      "*Cytoplasm/virology/metabolism",
+      "RNA, Viral/genetics/metabolism",
+      "Cell Line",
+      "Molecular Dynamics Simulation",
+      "Biomolecular Condensates",
+      "*Intrinsically Disordered Proteins/genetics/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Brodrick, A J",
+        "Liu, M",
+        "Smith-Hicks, G",
+        "Dong, J",
+        "Egana-Labrin, S C",
+        "Broadbent, A J"
+      ],
+      "short_names": [
+        "Brodrick AJ",
+        "Liu M",
+        "Smith-Hicks G",
+        "Dong J",
+        "Egana-Labrin SC",
+        "Broadbent AJ"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-6389-0643",
+        "ORCID: 0000-0002-4716-1835"
+      ],
+      "affiliations": [
+        "Department of Animal and Avian Sciences, University of Maryland, College Park, Maryland, USA.",
+        "Department of Animal and Avian Sciences, University of Maryland, College Park, Maryland, USA.",
+        "Department of Animal and Avian Sciences, University of Maryland, College Park, Maryland, USA.",
+        "Department of Animal and Avian Sciences, University of Maryland, College Park, Maryland, USA.",
+        "Department of Animal and Avian Sciences, University of Maryland, College Park, Maryland, USA.",
+        "Department of Animal and Avian Sciences, University of Maryland, College Park, Maryland, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Brodrick, A J",
+        "short_name": "Brodrick AJ",
+        "identifiers": [
+          "0009-0000-6389-0643"
+        ],
+        "affiliations": [
+          "Department of Animal and Avian Sciences, University of Maryland, College Park, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, M",
+        "short_name": "Liu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal and Avian Sciences, University of Maryland, College Park, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Smith-Hicks, G",
+        "short_name": "Smith-Hicks G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal and Avian Sciences, University of Maryland, College Park, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Dong, J",
+        "short_name": "Dong J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal and Avian Sciences, University of Maryland, College Park, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Egana-Labrin, S C",
+        "short_name": "Egana-Labrin SC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal and Avian Sciences, University of Maryland, College Park, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Broadbent, A J",
+        "short_name": "Broadbent AJ",
+        "identifiers": [
+          "0000-0002-4716-1835"
+        ],
+        "affiliations": [
+          "Department of Animal and Avian Sciences, University of Maryland, College Park, Maryland, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "mBio"
+    ],
+    "journal_abbrev": [
+      "mBio"
+    ],
+    "pub_date": "2026 Feb 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/12 13:14",
+    "fetched_at": "2026-09-17 23:51:24"
+  },
+  "links": {
+    "cites": [
+      "42370702"
+    ],
+    "refs": [
+      "40047543",
+      "39677362",
+      "38809580",
+      "37774136",
+      "37524481",
+      "37306660",
+      "37239817",
+      "36749077",
+      "36622206",
+      "35138130",
+      "34578359",
+      "34524703",
+      "34265844",
+      "34048569",
+      "33361427",
+      "33267376",
+      "33247108",
+      "32321810",
+      "32270045",
+      "32015543",
+      "31915284",
+      "30967547",
+      "30682370",
+      "30471685",
+      "29901776",
+      "29540593",
+      "29306779",
+      "28680096",
+      "28225081",
+      "27203111",
+      "26311889",
+      "24498196",
+      "23524392",
+      "22398450",
+      "21864538",
+      "18184581",
+      "15870208",
+      "12664296",
+      "12388690",
+      "9721238",
+      "9230594"
+    ],
+    "similar": [
+      "41524628",
+      "37239817",
+      "35138130",
+      "32321810",
+      "28592532",
+      "28189698",
+      "29540593",
+      "29093101",
+      "39194247",
+      "12551984",
+      "37328094",
+      "33361427",
+      "30429342",
+      "42106138",
+      "26311889",
+      "42202935",
+      "25031338",
+      "31915284",
+      "10640560",
+      "36602364",
+      "39987501",
+      "15016850",
+      "31941785",
+      "20471998",
+      "34102212",
+      "41264624",
+      "10400796",
+      "41457474",
+      "36749077",
+      "41193489",
+      "42383738",
+      "26415754",
+      "29273342",
+      "12388690",
+      "9267454",
+      "12664296",
+      "40521608",
+      "38898313",
+      "23741000",
+      "34090478",
+      "40748104",
+      "29511089",
+      "39872942",
+      "40291420",
+      "36444977",
+      "9765436",
+      "34606793",
+      "37961614",
+      "32371601",
+      "31375591",
+      "24498196",
+      "30021893",
+      "33081049",
+      "20702628",
+      "41989163",
+      "32102240",
+      "33923223",
+      "36524527",
+      "39705355",
+      "28878073",
+      "39695895",
+      "41480717",
+      "40028898",
+      "39947751",
+      "30842328",
+      "36786602",
+      "12743301",
+      "8855321",
+      "28924037",
+      "11711587",
+      "40588121",
+      "33139563",
+      "17428850",
+      "35179885",
+      "34571015",
+      "33200826",
+      "41860722",
+      "33466596",
+      "37902398",
+      "40047543",
+      "15063123",
+      "33559837",
+      "12919736",
+      "26090438",
+      "38252962",
+      "40646517",
+      "33076213",
+      "33260713",
+      "42105592",
+      "41363845",
+      "31484749",
+      "20437197",
+      "23954191",
+      "38446061",
+      "40865212",
+      "27908831",
+      "38639485",
+      "37029379",
+      "41323143",
+      "33078839"
+    ],
+    "review": [
+      "41524628",
+      "37239817",
+      "36524527",
+      "41480717",
+      "39947751",
+      "35179885",
+      "41860722",
+      "33260713",
+      "37029379"
+    ],
+    "pmc": [
+      "12893007"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/mbio.03107-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41524628/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

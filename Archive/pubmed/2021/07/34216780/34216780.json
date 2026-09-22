@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "34216780",
+    "doi": "10.1016/j.annepidem.2021.06.019",
+    "title": "Conducting density-sampled case-control studies using survey data with complex sampling designs: A simulation study."
+  },
+  "content": {
+    "abstract": "PURPOSE: Population-based surveys are possible sources from which to draw representative control data for case-control studies. However, these surveys involve complex sampling that could lead to biased estimates of measures of association if not properly accounted for in analyses. Approaches to incorporating complex-sampled controls in density-sampled case-control designs have not been examined. METHODS: We used a simulation study to evaluate the performance of different approaches to estimating incidence density ratios (IDR) from case-control studies with controls drawn from complex survey data using risk-set sampling. In simulated population data, we applied four survey sampling approaches, with varying survey sizes, and assessed the performance of four analysis methods for incorporating survey-based controls. RESULTS: Estimates of the IDR were unbiased for methods that conducted risk-set sampling with probability of selection proportional to survey weights. Estimates of the IDR were biased when sampling weights were not incorporated, or only included in regression modeling. The unbiased analysis methods performed comparably and produced estimates with variance comparable to biased methods. Variance increased and confidence interval coverage decreased as survey size decreased. CONCLUSIONS: Unbiased estimates are obtainable in risk-set sampled case-control studies using controls drawn from complex survey data when weights are properly incorporated.",
+    "keywords": [
+      "Case-control studies",
+      "complex survey sampling",
+      "density sampling",
+      "risk-set sampling",
+      "simulation"
+    ],
+    "mesh_terms": [
+      "*Case-Control Studies",
+      "Computer Simulation",
+      "Humans",
+      "Incidence",
+      "Probability",
+      "Sampling Studies",
+      "Surveys and Questionnaires"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Catherine X",
+        "Matthay, Ellicott C",
+        "Rowe, Christopher",
+        "Bradshaw, Patrick T",
+        "Ahern, Jennifer"
+      ],
+      "short_names": [
+        "Li CX",
+        "Matthay EC",
+        "Rowe C",
+        "Bradshaw PT",
+        "Ahern J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Epidemiology & Biostatistics, School of Public Health, University of California, Berkeley, CA; Department of Epidemiology, University of North Carolina, Chapel Hill, NC.",
+        "Center for Health and Community, University of California, San Francisco, CA.",
+        "Division of Epidemiology & Biostatistics, School of Public Health, University of California, Berkeley, CA.",
+        "Division of Epidemiology & Biostatistics, School of Public Health, University of California, Berkeley, CA.",
+        "Division of Epidemiology & Biostatistics, School of Public Health, University of California, Berkeley, CA. Electronic address: jahern@berkeley.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Catherine X",
+        "short_name": "Li CX",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology & Biostatistics, School of Public Health, University of California, Berkeley, CA; Department of Epidemiology, University of North Carolina, Chapel Hill, NC."
+        ]
+      },
+      {
+        "full_name": "Matthay, Ellicott C",
+        "short_name": "Matthay EC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Health and Community, University of California, San Francisco, CA."
+        ]
+      },
+      {
+        "full_name": "Rowe, Christopher",
+        "short_name": "Rowe C",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology & Biostatistics, School of Public Health, University of California, Berkeley, CA."
+        ]
+      },
+      {
+        "full_name": "Bradshaw, Patrick T",
+        "short_name": "Bradshaw PT",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology & Biostatistics, School of Public Health, University of California, Berkeley, CA."
+        ]
+      },
+      {
+        "full_name": "Ahern, Jennifer",
+        "short_name": "Ahern J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Epidemiology & Biostatistics, School of Public Health, University of California, Berkeley, CA. Electronic address: jahern@berkeley.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Annals of epidemiology"
+    ],
+    "journal_abbrev": [
+      "Ann Epidemiol"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/04 06:00",
+    "fetched_at": "2026-09-20 04:02:18"
+  },
+  "links": {
+    "cites": [
+      "39586815",
+      "38278865",
+      "31072682"
+    ],
+    "refs": [
+      "31165875",
+      "29889134",
+      "29068838",
+      "23549579",
+      "22833421",
+      "21001024",
+      "17278183",
+      "12933557",
+      "12764330",
+      "10783795",
+      "8931195",
+      "8038254",
+      "7124721",
+      "6630405",
+      "6375751",
+      "2611317",
+      "1595690",
+      "1595689",
+      "1595688",
+      "1251836"
+    ],
+    "similar": [
+      "34216780",
+      "29456895",
+      "19258478",
+      "26126211",
+      "30390934",
+      "29802750",
+      "30232629",
+      "26393409",
+      "36528582",
+      "32220980",
+      "18712477",
+      "15550597",
+      "31209487",
+      "33989300",
+      "30209824",
+      "31454375",
+      "31264251",
+      "31893037",
+      "9221444",
+      "18163985",
+      "2611317",
+      "26265769",
+      "24132909",
+      "32392233",
+      "9361322",
+      "12704617",
+      "22421885",
+      "17992355",
+      "30508112",
+      "31002709",
+      "17634107",
+      "24306965",
+      "23701233",
+      "23913985",
+      "32277087",
+      "27753074",
+      "25488851",
+      "24353010",
+      "38745056",
+      "31746016",
+      "27039522",
+      "36083618",
+      "24980445",
+      "19365863",
+      "14566096",
+      "19657545",
+      "26393818",
+      "22833421",
+      "28989860",
+      "29974495",
+      "1786329",
+      "24598413",
+      "23855598",
+      "25546290",
+      "11255241",
+      "32626907",
+      "20017978",
+      "8875349",
+      "32145031",
+      "34510499",
+      "19289956",
+      "31395087",
+      "15096290",
+      "9447775",
+      "21957678",
+      "21841351",
+      "1936737",
+      "27761305",
+      "35441452",
+      "33103307",
+      "20513297",
+      "22551998",
+      "26883772",
+      "33071484",
+      "1949878",
+      "16544126",
+      "32257160",
+      "23060490",
+      "12872304",
+      "28644579",
+      "28427334",
+      "2507460",
+      "9044529",
+      "21534940",
+      "34718618",
+      "23573374",
+      "30828489",
+      "20383262",
+      "33419461",
+      "19289959",
+      "28497531",
+      "24800135",
+      "39081797",
+      "39184174",
+      "38450934",
+      "39140488"
+    ],
+    "review": [
+      "34216780",
+      "22421885"
+    ],
+    "pmc": [
+      "8962511"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1047-2797(21)00204-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34216780/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34216780",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S1047-2797(21)00204-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt1bx616tc",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

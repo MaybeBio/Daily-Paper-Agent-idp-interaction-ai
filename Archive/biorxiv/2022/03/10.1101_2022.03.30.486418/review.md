@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or full-text data were available for evaluation
+- **Shared manuscript claim summary** The authors report that deletion of the N-terminal intrinsically disordered region (NTE) of the SARS-CoV-2 nucleocapsid protein narrows the range of RNA concentrations capable of inducing phase separation, preserves droplet liquidity during incubation, and that RNA binding engages multiple NTE regions and alters NTE structural properties. The work is positioned as a foundation for studying N-terminal mutations and post-translational modifications.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or methodological descriptions provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused and potentially valuable contribution to understanding how the N-terminal disordered region of the SARS-CoV-2 nucleocapsid protein modulates RNA-induced phase separation. The claims are biologically plausible and align with current interest in phase separation mechanisms in viral replication. However, the abstract alone provides insufficient detail to assess the rigor of the experimental approach, the magnitude and reproducibility of the reported effects, or the robustness of the structural conclusions. The work is likely to interest researchers in virology, biophysics, and phase separation biology, but the evidence base available for this review is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers studying SARS-CoV-2 biology, particularly those focused on nucleocapsid protein function, viral replication mechanisms, and the role of liquid-liquid phase separation in infection. The findings may also appeal to biophysicists and cell biologists interested in disordered protein regions and RNA-protein interactions, as well as those investigating how post-translational modifications and disease-associated mutations alter phase behavior.
+- **Major strengths** The study addresses a timely and important question regarding the molecular determinants of phase separation in a viral protein of high clinical relevance. The focus on the N-terminal intrinsically disordered region is well justified given its known phosphorylation sites and disease-associated mutations. The combination of deletion analysis with structural characterization of RNA binding provides a potentially integrated view of NTE function.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that NTE deletion decreases the range of RNA concentrations that can induce phase separation and that deletion allows droplets to retain liquid-like nature during incubation.  
+  - **Evidence pointer** Abstract only; no figures or quantitative data provided  
+  - **Concern** The abstract reports qualitative outcomes of NTE deletion on phase separation behavior but provides no quantitative data, such as phase diagrams, turbidity measurements, or droplet fusion rates, that would allow assessment of the magnitude, reproducibility, or statistical significance of the observed effects.  
+  - **Why it matters** Without quantitative evidence, it is impossible to determine whether the reported differences are robust, biologically meaningful, or within experimental variability. The central claims of the study depend on demonstrating clear and reproducible changes in phase separation behavior.  
+  - **Resolution test** Provide phase diagrams or equivalent quantitative measurements comparing wild-type and NTE-deleted protein across a range of RNA concentrations, with appropriate replicates and statistical analysis.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that RNA-binding engages multiple parts of the NTE and changes NTE structural properties.  
+  - **Evidence pointer** Abstract only; no methodological details provided  
+  - **Concern** The structural characterization of NTE upon RNA binding is described only in general terms. No information is provided on the techniques used, such as NMR, circular dichroism, or other biophysical methods, nor on the resolution or confidence of the structural conclusions.  
+  - **Why it matters** Structural claims require specific experimental evidence and appropriate controls. Without knowing the methods and their limitations, the validity and interpretation of the structural changes cannot be evaluated.  
+  - **Resolution test** Describe the biophysical methods used, present representative data showing RNA-induced changes in NTE structure, and include appropriate controls to rule out artifacts.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scope and generalizability  
+  - **Claim pointer** The abstract positions the results as a foundation to characterize the impact of N-terminal mutations and post-translational modifications on nucleocapsid protein properties.  
+  - **Evidence pointer** Abstract only  
+  - **Concern** The abstract does not address whether the effects of NTE deletion are specific to the NTE sequence or simply a consequence of removing a large disordered region. Without testing NTE variants or substitutions, the relevance to disease-associated mutations and phosphorylation remains speculative.  
+  - **Why it matters** The stated foundation for future studies depends on the assumption that the deletion phenotype reflects NTE-specific functions. If the effects are generic to disordered region removal, the implications for mutation and modification studies would be different.  
+  - **Resolution test** Include experiments with NTE variants, such as phosphomimetic or phosphodead mutants, or NTE substitutions with unrelated disordered sequences, to establish specificity.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract  
+  - **Issue** The term "prion-like NTE" is used without definition or context.  
+  - **Required correction** Define what is meant by "prion-like" in this context and provide sequence or compositional evidence supporting this classification.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Experimental conditions  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract does not specify the RNA species used, the range of RNA concentrations tested, or the buffer conditions for phase separation assays.  
+  - **Required correction** Include key experimental conditions in the abstract or refer to methods sections where these details are provided.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Functional relevance  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract does not connect the observed phase separation behavior to specific functional outcomes in viral replication or packaging.  
+  - **Required correction** Add a sentence relating the phase separation findings to potential biological consequences, or explicitly state that such connections remain to be established.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract alone does not provide sufficient quantitative or methodological evidence to support the central claims. The case cannot be established without access to the full experimental data.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The focus on the N-terminal disordered region of the SARS-CoV-2 nucleocapsid protein in the context of phase separation is timely and addresses a gap in the current literature. The specific claim that NTE deletion narrows the RNA concentration window for phase separation is potentially novel.  
+  - **Scientific importance** The work has clear relevance to understanding SARS-CoV-2 replication and the role of phase separation in viral life cycles. If the claims are robust, the findings could inform studies on viral assembly and the effects of mutations and phosphorylation.  
+  - **Interdisciplinary readership** The topic bridges virology, biophysics, and cell biology, and would likely attract readers across these fields. The abstract is written in a way that is accessible to nonspecialists, though some terms require clarification.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative data prevents evaluation of experimental rigor.  
+  - **Readability for nonspecialists** The abstract is generally clear and concise, but the term "prion-like" and the absence of experimental context may hinder full comprehension for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary findings, but the absence of quantitative data and methodological detail means the central claims cannot be evaluated. A supportive recommendation would require access to the full manuscript and resolution of the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that NTE deletion decreases the range of RNA concentrations that induce phase separation is unsupported without quantitative phase diagrams or equivalent data.
+- The claim that NTE deletion preserves droplet liquidity during incubation is unsupported without time-resolved measurements or imaging data.
+- The claim that RNA binding engages multiple parts of the NTE and changes its structural properties is unsupported without specific biophysical evidence.
+- The positioning of the results as a foundation for studying mutations and post-translational modifications is speculative without experiments testing NTE variants or modifications.

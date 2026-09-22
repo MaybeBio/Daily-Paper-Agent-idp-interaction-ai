@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "40737028",
+    "doi": "10.1042/BCJ20253110",
+    "title": "Structural insights and biophysical characterization of p90RSK2:ERK2 complex."
+  },
+  "content": {
+    "abstract": "Kinase domains are often flanked by flexible tails and intrinsically disordered regions (IDRs) that contain conserved motifs. The co-ordinated action and interplay of IDRs and folded kinase domains is necessary for the proper function of kinases and kinase complexes. Characterization of full-length kinases and complexes is often challenging due to the flexible nature of flanking IDRs, yet necessary to fully understand their function and regulation. The p90 ribosomal S6 kinase (RSK) family is a unique kinase family with two distinct, functional kinase domains (NTK and CTK) flanked by flexible tails and a linker. RSK2 forms a stable complex with its activating kinase, ERK2, and here, we use multiple complementary techniques, hydrogen-deuterium exchange mass spectrometry, cryoelectron microscopy (cryo-EM), and AlphaFold (AF) modeling to study the full-length RSK2:ERK2 complex. We find that broadly, ERK2 is more solvent protected than the NTK/CTK. The NTK N-lobe has quite high deuterium uptake, and analysis of published NTK crystal structures suggests that the NTK N-lobe is dynamic and can adopt a wide range of conformations. The cryo-EM reveals that the RSK2:ERK2 complex adopts a compact shape, and this is consistent with the AF model of the complex, which hints at a possible additional interface between the NTK and ERK2. Collectively, our approach demonstrates that employing multiple complementary techniques can provide insight into the structure and biophysical characteristics of this challenging-to-study kinase complex.",
+    "keywords": [
+      "AlphaFold modeling",
+      "ERK",
+      "cryogenic electron microscopy",
+      "hydrogen-deuterium exchange mass spectrometry",
+      "kinase",
+      "p90RSK"
+    ],
+    "mesh_terms": [
+      "*Ribosomal Protein S6 Kinases, 90-kDa/chemistry/metabolism/genetics",
+      "Cryoelectron Microscopy",
+      "*Mitogen-Activated Protein Kinase 1/chemistry/metabolism/genetics",
+      "Humans",
+      "Models, Molecular",
+      "Protein Domains",
+      "Protein Conformation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kobori, Evan Kazuo",
+        "Nguyen, Hoang Phuong My",
+        "Wu, Jian",
+        "Chen, Katherine",
+        "Malinovski, Rodeon",
+        "Taylor, Susan"
+      ],
+      "short_names": [
+        "Kobori EK",
+        "Nguyen HPM",
+        "Wu J",
+        "Chen K",
+        "Malinovski R",
+        "Taylor S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1614-7424",
+        "ORCID: 0000-0002-8031-9462",
+        "ORCID: 0000-0002-7702-6108"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of California, San Diego, CA, U.S.A.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, CA, U.S.A.",
+        "Department of Pharmacology, University of California, San Diego, CA, U.S.A.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, CA, U.S.A.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, CA, U.S.A.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, CA, U.S.A.",
+        "Department of Pharmacology, University of California, San Diego, CA, U.S.A.",
+        "Department of Biochemistry and Molecular Biophysics, University of California, San Diego, CA, U.S.A."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kobori, Evan Kazuo",
+        "short_name": "Kobori EK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, CA, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Hoang Phuong My",
+        "short_name": "Nguyen HPM",
+        "identifiers": [
+          "0000-0002-1614-7424"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, CA, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Wu, Jian",
+        "short_name": "Wu J",
+        "identifiers": [
+          "0000-0002-8031-9462"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, CA, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Chen, Katherine",
+        "short_name": "Chen K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, CA, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Malinovski, Rodeon",
+        "short_name": "Malinovski R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, CA, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Taylor, Susan",
+        "short_name": "Taylor S",
+        "identifiers": [
+          "0000-0002-7702-6108"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, CA, U.S.A.",
+          "Department of Pharmacology, University of California, San Diego, CA, U.S.A.",
+          "Department of Biochemistry and Molecular Biophysics, University of California, San Diego, CA, U.S.A."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Biochemical journal"
+    ],
+    "journal_abbrev": [
+      "Biochem J"
+    ],
+    "pub_date": "2025 Dec 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/30 18:28",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [
+      "41979917",
+      "40912403"
+    ],
+    "refs": [
+      "38305364",
+      "35078976",
+      "34330820",
+      "34088839",
+      "32338601",
+      "30726710",
+      "30611608",
+      "29513138",
+      "29136216",
+      "27732676",
+      "26589632",
+      "26481499",
+      "26270416",
+      "25730857",
+      "25531225",
+      "25319261",
+      "25038412",
+      "24554780",
+      "24534486",
+      "23047924",
+      "22992589",
+      "22889904",
+      "22846040",
+      "22569528",
+      "22187936",
+      "19956600",
+      "19364808",
+      "18813292",
+      "18787129",
+      "18084304",
+      "17965187",
+      "17227859",
+      "17095602",
+      "17079133",
+      "15209375",
+      "15068802",
+      "12832467",
+      "12374740",
+      "11749372",
+      "10698939",
+      "10479734",
+      "8622665",
+      "7623830",
+      "3368449",
+      "1862342"
+    ],
+    "similar": [
+      "40737028",
+      "11113199",
+      "29083550",
+      "25730857",
+      "37149146",
+      "35078976",
+      "27732676",
+      "12832467",
+      "9915826",
+      "42475469",
+      "21098038",
+      "19956600",
+      "16185715",
+      "17965187",
+      "10074458",
+      "24269383",
+      "12016217",
+      "30739083",
+      "17046812",
+      "10934212",
+      "28396345",
+      "26527685",
+      "24554780",
+      "39248063",
+      "40015635",
+      "23385462",
+      "28721437",
+      "22846040",
+      "34348556",
+      "32649858",
+      "31804089",
+      "27324042",
+      "19036157",
+      "30611608",
+      "21995341",
+      "12618428",
+      "23519423",
+      "22683790",
+      "24534729",
+      "15274926",
+      "23541530",
+      "18501927",
+      "10508788",
+      "21985012",
+      "16051177",
+      "39392755",
+      "16537434",
+      "11500490",
+      "30942462",
+      "10704947",
+      "15003601",
+      "21449613",
+      "18084304",
+      "19424502",
+      "27083547",
+      "15999996",
+      "40020888",
+      "24755224",
+      "12594221",
+      "20048145",
+      "15206906",
+      "8939914",
+      "11278279",
+      "18794356",
+      "19332537",
+      "23742761",
+      "15192015",
+      "17404396",
+      "17000106",
+      "37243268",
+      "11741894",
+      "11823456",
+      "17360704",
+      "21494553",
+      "11585927",
+      "35679425",
+      "12206784",
+      "17194451",
+      "21619683",
+      "39747283",
+      "29098725",
+      "36806093",
+      "28716922",
+      "23575685",
+      "34905177",
+      "26861188",
+      "11113183",
+      "16217014",
+      "27924558",
+      "37632170",
+      "11160042",
+      "28013489",
+      "41365991",
+      "24637728",
+      "23912807",
+      "26950759",
+      "15657420",
+      "16723234",
+      "23922916",
+      "7532701"
+    ],
+    "review": [
+      "40737028",
+      "39248063",
+      "30611608",
+      "23541530"
+    ],
+    "pmc": [
+      "12614931"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40737028/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2786",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://portlandpress.com/biochemj/article-lookup/doi/10.1042/BCJ20253110",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

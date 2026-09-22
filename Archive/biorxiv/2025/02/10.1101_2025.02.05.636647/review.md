@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to the full manuscript, figures, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that RECQ5 modulates RNA polymerase II (RNAPII) transcription through two distinct mechanisms: (1) at the atomic level, a "brake helix" acts as a doorstop to control RNAPII translocation along DNA, attenuating transcription; and (2) at the mesoscale level, RECQ5 forms a condensate scaffold matrix that integrates hyperphosphorylated RNAPII elongation complexes (P-RNAPII EC) through site-specific interactions, reinforcing condensate structural integrity. The study combines biochemical reconstitution, electron cryomicroscopy, cryotomography, and coarse-grained simulations to support these claims.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, simulation parameters, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious multi-scale study addressing a significant question in transcription regulation, namely how RECQ5 controls RNAPII elongation and participates in mesoscale transcriptional organization. The proposed dual mechanism, spanning atomic and mesoscale levels, is conceptually interesting and potentially impactful. However, the abstract alone provides insufficient detail to evaluate the technical rigor, the strength of the structural evidence, or the validity of the simulation and biochemical data. The claims are plausible but currently not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in transcription regulation, RNA polymerase II biology, structural biology (cryo-EM and cryo-ET), biomolecular condensates, and genome stability. The work could also interest those studying transcriptional stress and its links to aging and disease, given the stated relevance to proteostasis and age-associated changes.
+- **Major strengths** The study addresses a timely and important question about the structural basis of transcription attenuation and condensate organization. The integration of multiple techniques, including cryo-EM, cryo-ET, and coarse-grained simulations, is commendable and suggests a comprehensive approach. The proposed "brake helix as doorstop" mechanism is a clear and testable model that could advance understanding of RNAPII translocation control.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that RECQ5 uses a "brake helix as a doorstop to control RNAPII translocation along DNA, attenuating transcription" at the atomic level.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that cryo-EM was used to demonstrate this mechanism, but no structural details, resolution, or conformational states are described. It is unclear whether the brake helix is part of RECQ5 or RNAPII, how the doorstop model was derived, and whether the attenuation effect was directly measured in functional assays.
+  - **Why it matters** Without structural and functional evidence, the atomic-level mechanism cannot be assessed for validity. The claim is central to the paper's novelty and requires rigorous support.
+  - **Resolution test** Provide cryo-EM maps and models with stated resolutions, show the brake helix interaction in the context of the P-RNAPII EC, and include functional data (e.g., transcription elongation assays) demonstrating attenuation with appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that RECQ5 forms a "condensate scaffold matrix" that integrates P-RNAPII EC through site-specific interactions, reinforcing condensate structural integrity.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The mesoscale claim relies on cryotomography and coarse-grained simulations, but the abstract does not describe how condensates were formed, characterized, or distinguished from artifacts. The "site-specific interactions" are not specified, and the relationship between the scaffold matrix and functional transcription regulation is unclear.
+  - **Why it matters** Biomolecular condensate studies are prone to artifacts, and the structural organization claim requires careful validation. Without details on condensate composition, stoichiometry, and the specificity of interactions, the claim is not established.
+  - **Resolution test** Show cryo-ET tomograms with clear segmentation of the scaffold and P-RNAPII EC, provide simulation parameters and validation against experimental data, and demonstrate that the site-specific interactions are functionally relevant (e.g., via mutagenesis).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The overall integrative conclusion that the study provides "insights into the structural basis of transcription attenuation and into the molecular architecture and biogenesis of a model RNAPII condensate."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims a multi-scale study, but no quantitative data, statistical analyses, or reproducibility measures are mentioned. The integration of biochemical reconstitution, cryo-EM, cryo-ET, and simulations is stated but not substantiated with any results.
+  - **Why it matters** For a Nature-style paper, the evidence must be robust and reproducible. The abstract does not allow assessment of whether the conclusions are supported by the data.
+  - **Resolution test** Provide a full manuscript with detailed methods, statistical analyses, and validation experiments that support each major claim.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "transcriptional stress" is used without definition, and its link to "loss of proteostasis" is asserted but not explained.
+  - **Required correction** Define "transcriptional stress" and briefly explain the mechanistic link to proteostasis, or cite specific evidence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract, overall
+  - **Issue** The abstract moves rapidly from general background to specific claims without a clear logical flow, making it difficult for nonspecialists to follow.
+  - **Required correction** Restructure the abstract to introduce the problem, the gap, the approach, and the findings in a more sequential manner.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract, methods list
+  - **Issue** The abstract lists four techniques but does not indicate how they were integrated or which claims each supports.
+  - **Required correction** Briefly state which technique supports which conclusion, or provide a schematic in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish the atomic-level mechanism, the mesoscale condensate architecture, or the integrative conclusions. Full data are required.
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed dual mechanism is potentially original, but the abstract does not clearly differentiate it from prior work on RECQ5 or RNAPII regulation. The "brake helix doorstop" model is novel in concept but unverified here.
+  - Scientific importance: The topic is important, given the relevance to transcription regulation and condensate biology. However, the significance is asserted rather than demonstrated.
+  - Interdisciplinary readership: The study bridges structural biology, biochemistry, and biophysics, which could appeal to a broad audience. The abstract, however, is too technical in places and lacks context for nonspecialists.
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail and results prevents evaluation.
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with transcription and condensate concepts. It would benefit from clearer framing.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are interesting and plausible, but the abstract alone does not provide sufficient data to support them. A full manuscript with detailed methods, results, and validation is required for a proper assessment.
+
+## Risk / unsupported claims
+- The atomic-level "brake helix as doorstop" mechanism is unsupported without structural and functional data.
+- The mesoscale "condensate scaffold matrix" architecture is unsupported without cryo-ET and simulation details.
+- The claim that RECQ5 "reinforces the condensate's structural integrity" is not substantiated.
+- The integrative conclusion that the study provides insights into "biogenesis of a model RNAPII condensate" is not supported by the abstract.
+- The relevance to "transcriptional stress" and "loss of proteostasis" is asserted without evidence or citation.

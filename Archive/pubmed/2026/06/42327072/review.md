@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; full text not available for verification
+- **Shared manuscript claim summary** The authors use multiscale molecular dynamics simulations of UCH-L1 and its I93M mutant to argue that knotted backbone topology constrains conformational expansion and suppresses liquid–liquid phase separation, while destabilization of the knot in I93M enhances intermolecular contacts, stabilizes protein-rich phases, and shifts condensate material properties toward viscoelastic assemblies, thereby linking topological integrity to aggregation-associated neurodegeneration.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full text, simulation protocols, force field parameters, system compositions, analysis methods, statistical validation, and any quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that protein backbone topology, specifically knot integrity, may govern phase behavior and aggregation propensity. However, the evidence base available for review is limited to the abstract, which lacks quantitative details, methodological transparency, and direct experimental validation. The claims are plausible but currently not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in protein biophysics, phase separation, neurodegeneration, and computational chemistry would find the proposed link between topological constraints and condensate material properties of interest, as it offers a new mechanistic axis for understanding proteostasis failure.
+- **Major strengths** The hypothesis is novel and mechanistically appealing, connecting an underappreciated structural feature (knotting) to a rapidly growing field (LLPS). The use of a disease-relevant mutant (I93M) provides a clinically motivated comparison. The multiscale simulation approach is appropriate for probing conformational ensembles and interchain interactions.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that knot integrity suppresses LLPS propensity and that I93M stabilizes protein-rich phases with viscoelastic properties.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no quantitative data, such as free energy differences, phase diagrams, or order parameters, to support the qualitative statements about LLPS suppression or phase stabilization. No simulation details are given to assess convergence, system size, or force field accuracy.  
+  - **Why it matters** Without quantitative evidence and methodological transparency, the central claims cannot be evaluated for robustness or reproducibility, which is essential for a mechanistic proposal of this scope.  
+  - **Resolution test** Provide phase boundary measurements, free energy profiles, or comparable quantitative metrics from simulations, along with convergence checks and force field validation, to substantiate the claims.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Experimental validation  
+  - **Claim pointer** The abstract implies a mechanistic link between topological stability and condensate material properties with implications for neurodegeneration.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The study is purely computational, and no experimental corroboration is mentioned, such as in vitro phase separation assays, rheology measurements, or cellular validation. The leap from simulation to disease relevance is unsupported without such data.  
+  - **Why it matters** Computational predictions of phase behavior are highly sensitive to model parameters and can be misleading without experimental benchmarks. The clinical implications stated require at least some experimental support to be credible.  
+  - **Resolution test** Include experimental validation of phase behavior or material properties, or clearly frame the work as a predictive model requiring future testing, and temper the claims accordingly.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Mechanistic specificity  
+  - **Claim pointer** The abstract states that I93M enhances hydrophobic interactions and reduces solvation penalties, leading to stabilized phases.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The molecular basis for these changes is not detailed. It is unclear whether the effects arise from altered local packing, changes in backbone dynamics, or global conformational shifts, and how these relate specifically to knot destabilization versus other mutation effects.  
+  - **Why it matters** The proposed mechanism hinges on attributing observed differences to knot integrity, but alternative explanations, such as mutation-induced changes in surface hydrophobicity or electrostatics, are not excluded.  
+  - **Resolution test** Provide residue-level decomposition of interaction energies and conformational analyses that isolate the contribution of knot integrity from other mutation effects.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, "persistent interchain contacts"  
+  - **Issue** The term "persistent" is vague and could imply timescales that are not defined.  
+  - **Required correction** Specify the timescale or provide a quantitative definition of persistence.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "viscoelastic assemblies"  
+  - **Evidence pointer** Abstract, "transition toward viscoelastic assemblies"  
+  - **Issue** The abstract does not define how viscoelasticity is inferred from simulation observables.  
+  - **Required correction** Clarify the simulation-based metrics used to infer viscoelastic behavior.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Generalizability  
+  - **Evidence pointer** Abstract, "topological integrity as a key physical determinant"  
+  - **Issue** The claim of generalizability is based on a single protein and one mutant.  
+  - **Required correction** Acknowledge the limited scope or provide additional systems to support generality.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative simulation data and experimental validation means the core claims are not currently established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** High. The concept of knot integrity as a regulator of phase behavior is novel and not widely explored.  
+  - **Scientific importance** Potentially high if validated, as it could offer a new angle on neurodegeneration mechanisms.  
+  - **Interdisciplinary readership** Broad appeal across biophysics, neuroscience, and computational biology, but the abstract is too technical for nonspecialists without context.  
+  - **Technical soundness** Cannot be assessed from the abstract alone; simulation details are absent.  
+  - **Readability for nonspecialists** The abstract is dense and assumes familiarity with MD simulations and phase separation concepts, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. Supportive if the blocking concerns are resolved with quantitative data and experimental validation.
+
+## Risk / unsupported claims
+- The claim that knot integrity suppresses LLPS propensity is unsupported without phase diagram or free energy data.
+- The claim that I93M stabilizes protein-rich phases and alters material properties is unsupported without quantitative metrics.
+- The mechanistic link to neurodegeneration is speculative without experimental or clinical correlation.
+- The generalizability of topological integrity as a key determinant is not established from a single system.

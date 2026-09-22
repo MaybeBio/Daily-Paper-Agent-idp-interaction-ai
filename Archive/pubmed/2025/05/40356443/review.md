@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a rational in silico approach to select two alpha-helical epitopes from the intrinsically disordered protein NUPR1, stabilize these helices via disulfide bonds formed by added cysteine residues, and use the resulting structured peptides as templates for molecularly imprinted polymer (MIP) nanogels. They claim these MIP nanogels cross-react with high affinity (IC50 1 nM) and selectivity for NUPR1, and conclude that alpha-helices can serve as viable template epitopes for MIPs targeting IDPs.
+- **Visible evidence base** Abstract text only; no experimental methods, characterization data, binding assay details, or structural validation are provided
+- **Missing materials affecting confidence** Full methods, synthesis and characterization of template peptides, circular dichroism or other conformational data, MIP preparation and characterization, binding assay protocols, specificity controls, statistical analysis, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach that combines computational epitope selection, disulfide-stabilized helical peptides, and molecular imprinting to target an intrinsically disordered protein. The idea of using structured epitopes rather than flexible loops for IDP imprinting is potentially valuable. However, the abstract provides insufficient experimental detail to evaluate the validity of the central claims. Key issues include the lack of direct evidence that the disulfide-stabilized peptides adopt the predicted alpha-helical conformation, the absence of binding assay methodology and controls, and the unsubstantiated claim of selectivity based on a single IC50 value. The work may be of interest to researchers in molecular imprinting and IDP targeting, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in molecularly imprinted polymers, peptide-based recognition elements, and the targeting of intrinsically disordered proteins would find this work relevant. The potential application to cancer and acute kidney injury diagnostics or therapeutics could also attract translational researchers. The methodological concept of using stabilized helical epitopes for imprinting may interest those developing synthetic antibodies against conformationally flexible targets.
+- **Major strengths** The rational in silico selection of epitopes based on predicted structure is a thoughtful approach to a known challenge in IDP imprinting. The use of disulfide bonds to stabilize the helical conformation of template peptides is a mechanistically sound strategy to address the conformational flexibility problem. The reported IC50 of 1 nM, if reproducible and specific, would represent a notable affinity for a MIP-based recognition element.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The template peptides possess the same 3D structure as the epitope fragments in NUPR1.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts that the disulfide-stabilized peptides adopt the same three-dimensional structure as the corresponding epitope fragments in NUPR1, but no conformational characterization data are presented. The claim relies entirely on the assumption that adding cysteine residues and forming a disulfide bond will lock the peptide into the predicted alpha-helical conformation. This is not a trivial assumption, as short peptides in solution often do not adopt stable secondary structures even with constraints, and the predicted structure from AlphaFold may not accurately represent the local conformation of the epitope within the full-length IDP.
+  - **Why it matters** The entire imprinting strategy depends on the template peptide presenting a defined and reproducible conformation that mimics the target epitope. If the peptide does not adopt the claimed helical structure, the resulting MIPs would not be imprinted against the intended conformation, and the reported cross-reactivity with NUPR1 would be difficult to interpret mechanistically.
+  - **Resolution test** Provide circular dichroism spectra, NMR structures, or other biophysical evidence demonstrating that the disulfide-stabilized peptides adopt a stable alpha-helical conformation in solution under the imprinting conditions. Ideally, compare the peptide conformation with the corresponding region in the full-length NUPR1 structure.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The MIP nanogels cross-react with high affinity (IC50 1 nM) only with NUPR1.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a single IC50 value of 1 nM and states that cross-reactivity occurs "only with NUPR1," but no details are provided on the binding assay format, the nature of the IC50 measurement (e.g., competitive ELISA, surface plasmon resonance, fluorescence), the concentration range tested, or the panel of control proteins used to establish selectivity. Without this information, the affinity and selectivity claims cannot be evaluated.
+  - **Why it matters** IC50 values are highly dependent on assay conditions, and a claim of exclusive selectivity requires a defined and sufficiently broad panel of negative controls. The absence of methodological detail prevents assessment of whether the reported affinity is genuine or an artifact of the assay system, and whether the selectivity claim is supported by adequate testing.
+  - **Resolution test** Describe the binding assay in detail, including the format, buffer conditions, concentration ranges, and replicates. Provide a full selectivity panel with relevant control proteins, including other IDPs and structurally related proteins, and show dose-response curves for NUPR1 and all negative controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The work indicates that alpha-helices can be considered as viable template epitopes for MIPs.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract presents a single example with two epitopes from one protein. The conclusion that alpha-helices are generally viable as template epitopes for MIPs targeting IDPs is a broad generalization that cannot be supported by a single case study. No comparison with flexible loop epitopes under the same conditions is provided, and no data on the reproducibility of the imprinting process or batch-to-batch variability are shown.
+  - **Why it matters** The stated conclusion has implications for the design of future MIP-based recognition elements for IDPs. If the claim is based on limited evidence, it may mislead other researchers in the field. A more cautious interpretation, limited to the specific NUPR1 epitopes tested, would be more appropriate.
+  - **Resolution test** Either temper the conclusion to reflect the specific system studied, or provide additional examples with multiple IDP targets and direct comparisons between helical and loop epitopes to support the general claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "Synthetic Peptide Antibodies" in the title is used to describe MIP nanogels. While this terminology is sometimes used in the field, it may be confusing to readers unfamiliar with molecular imprinting, as these materials are not antibodies in the conventional immunological sense.
+  - **Required correction** Clarify in the abstract or introduction that "synthetic peptide antibodies" refers to molecularly imprinted polymer nanogels, and consider using more standard terminology such as "molecularly imprinted polymer nanogels" in the title or abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the number of replicates, the statistical treatment of the binding data, or the error associated with the reported IC50 value.
+  - **Required correction** Include information on replicates and error estimates for the IC50 determination, and state the statistical methods used to compare binding across different proteins.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Structural rationale
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that two alpha-helices were selected "based on an in silico rational approach" but does not describe the criteria used for selection, such as surface exposure, sequence conservation, or predicted antigenicity.
+  - **Required correction** Briefly describe the selection criteria in the abstract or refer to a methods section where these criteria are detailed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (conformational equivalence of template peptides), R1-M2 (binding assay methodology and selectivity panel), R1-M3 (overgeneralized conclusion from limited data)
+- **Assessment against Nature-style criteria** Originality: The concept of using disulfide-stabilized helical peptides as templates for MIPs targeting IDPs is a novel contribution to the molecular imprinting field. Scientific importance: The potential to generate selective recognition elements for IDPs has relevance for cancer and kidney injury research, but the significance is not fully demonstrated from the abstract alone. Interdisciplinary readership: The work bridges computational biology, peptide chemistry, and polymer science, which could appeal to a broad audience, but the abstract is too specialized for nonspecialists to fully appreciate the methodological advances. Technical soundness: Not assessable from the abstract; the lack of experimental detail prevents evaluation of the core claims. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terminology without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual approach is promising and the reported affinity is notable, but the absence of conformational characterization, binding assay details, and selectivity data means the central claims cannot be verified. The authors should be encouraged to provide the full experimental evidence to support their conclusions.
+
+## Risk / unsupported claims
+- The claim that template peptides possess the same 3D structure as the epitope fragments in NUPR1 is unsupported without conformational data.
+- The claim of high affinity (IC50 1 nM) is unverifiable without assay methodology and error estimates.
+- The claim of exclusive selectivity for NUPR1 is unsupported without a defined control protein panel.
+- The general conclusion that alpha-helices are viable template epitopes for MIPs is overgeneralized from a single protein example.
+- The statement that NUPR1 plays an important role in cancer and acute kidney injury is presented without citation or supporting evidence in the abstract.

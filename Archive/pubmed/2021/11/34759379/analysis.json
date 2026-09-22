@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34759379",
+  "title": "Molecular interactions contributing to FUS SYGQ LC-RGG phase separation and co-partitioning with RNA polymerase II heptads.",
+  "authors": "Murthy, Anastasia C; Tang, Wai Shing; Jovic, Nina; Janke, Abigail M; Seo, Da Hee; Perdikari, Theodora Myrto; Mittal, Jeetain; Fawzi, Nicolas L",
+  "journal": "Nature structural & molecular biology",
+  "published_date": "2021-11-12",
+  "window": {
+    "start": "2021-11-08",
+    "end": "2021-11-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过NMR与分子模拟揭示FUS SYGQ LC-RGG与RNA聚合酶II CTD凝聚相中多种残基类型及阳离子-π、氢键等互作模式，直接建模无序蛋白介导的PPI与相分离机制，高度契合课题。",
+  "abstract": "The RNA-binding protein FUS (Fused in Sarcoma) mediates phase separation in biomolecular condensates and functions in transcription by clustering with RNA polymerase II. Specific contact residues and interaction modes formed by FUS and the C-terminal heptad repeats of RNA polymerase II (CTD) have been suggested but not probed directly. Here we show how RGG domains contribute to phase separation with the FUS N-terminal low-complexity domain (SYGQ LC) and RNA polymerase II CTD. Using NMR spectroscopy and molecular simulations, we demonstrate that many residue types, not solely arginine-tyrosine pairs, form condensed-phase contacts via several interaction modes including, but not only sp(2)-pi and cation-pi interactions. In phases also containing RNA polymerase II CTD, many residue types form contacts, including both cation-pi and hydrogen-bonding interactions formed by the conserved human CTD lysines. Hence, our data suggest a surprisingly broad array of residue types and modes explain co-phase separation of FUS and RNA polymerase II.",
+  "abstract_zh": "RNA结合蛋白FUS（Fused in Sarcoma）在生物分子凝聚体中介导相分离（phase separation），并通过与RNA聚合酶II聚集在转录中发挥作用。FUS与RNA聚合酶II C端七肽重复序列（CTD）形成的特定接触残基和相互作用模式已被提出，但尚未直接探测。在此，我们展示了RGG结构域如何促进与FUS N端低复杂性结构域（SYGQ LC）及RNA聚合酶II CTD的相分离。利用核磁共振波谱（NMR spectroscopy）和分子模拟（molecular simulations），我们证明多种残基类型（不仅仅是精氨酸-酪氨酸对）通过多种相互作用模式（包括但不限于sp(2)-π和阳离子-π相互作用）形成凝聚相接触。在同时含有RNA聚合酶II CTD的相中，多种残基类型形成接触，包括保守的人类CTD赖氨酸形成的阳离子-π和氢键相互作用。因此，我们的数据表明，令人惊讶的广泛残基类型和模式解释了FUS与RNA聚合酶II的共相分离。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34759379/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34759379/",
+  "paper_page_path": "papers/pubmed/34759379/index.html"
+}

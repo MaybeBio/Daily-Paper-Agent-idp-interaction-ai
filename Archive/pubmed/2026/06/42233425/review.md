@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, figure legends, and data availability statement. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific validity of the computational modeling approach, mechanistic claims regarding Phe73 function, consistency with cited experimental evidence, and adequacy of methodological detail for reproducibility.
+- **Shared manuscript claim summary** The authors propose that Phe73 in Nab2 does not directly contact Mlp1 but instead stabilizes intramolecular helix4–helix5 interactions in Nab2-N, promoting a compact conformation that enhances binding to the intrinsically disordered C-terminal domain of Mlp1. The claim is supported by docking and molecular dynamics simulations comparing wild-type, F73A, and F73W variants.
+- **Visible evidence base** Main text figures (Figures 1–7), figure legends, methods section, and data availability statement. Supplementary figures are referenced but not accessible in the provided material.
+- **Missing materials affecting confidence** Supplementary figures (S1–S19), supplementary methods, force field parameter details, simulation convergence metrics, and the Zenodo deposition contents. These are essential for verifying structural predictions, docking selection criteria, and simulation quality.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible computational model for the Mlp1–Nab2 interaction, with a novel mechanistic proposal that Phe73 acts indirectly through intramolecular stabilization rather than direct intermolecular contact. The work addresses a specific gap in understanding a biologically important quality control interaction. However, the evidence base is entirely computational, and several methodological choices require scrutiny. The central claim rests on simulation outcomes that are not fully validated against experimental data beyond the known F73A phenotype. The manuscript is clearly written and the proposed mechanism is testable, but the strength of the conclusions currently exceeds what the presented evidence can support.
+- **Who would be interested in the results, and why** Researchers studying mRNA export and quality control, nuclear pore complex biology, intrinsically disordered protein function, and protein–protein recognition mechanisms. The proposed "wrap-around" model for disordered domain-mediated recognition of multiple partners could interest a broader structural biology audience, though the specificity to the Mlp1–Nab2 system limits immediate generalizability.
+- **Major strengths** The manuscript addresses a well-defined biological question with a clear hypothesis. The computational pipeline integrates structure prediction, docking, and MD simulations in a logical sequence. The authors explicitly acknowledge limitations of using a representative model for a disordered region. The proposed mechanism is falsifiable and offers a concrete explanation for existing experimental observations. The data availability statement is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that Phe73 stabilizes helix4–helix5 interactions, thereby promoting a compact Nab2-N conformation that enhances Mlp1 binding, is presented as the central mechanistic finding.
+  - **Evidence pointer** Results section "Phe73 plays an indirect role in the interaction between Nab2-N and Mlp1-C"; Figures 3, 4, 6; Supplementary Figures S7–S11
+  - **Concern** The simulation protocol uses only 20 ns of production time after 100 ns equilibration for the key comparative analysis. This is extremely short for drawing conclusions about conformational transitions in a system containing a disordered region. The claim that a specific transition occurs at ~60 ns in one trajectory set, and that this is mechanistically meaningful, requires demonstration of convergence and reproducibility across independent simulations with longer production times. No error analysis, block averaging, or convergence metrics are presented.
+  - **Why it matters** The entire mechanistic model depends on the observation that wild-type undergoes an energetic stabilization at ~60 ns that the F73A mutant does not. If this is a stochastic event or an artifact of insufficient sampling, the central conclusion collapses. The short production time also raises concerns about whether equilibrium properties are being measured.
+  - **Resolution test** Provide convergence metrics (e.g., RMSD stabilization, block-averaged energies with standard errors), extend production runs to at least 100 ns per replicate, and demonstrate that the ~60 ns transition is reproducibly observed across independent simulations. Alternatively, use enhanced sampling methods to validate the free energy landscape.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that docking solutions in which Phe73 was not oriented toward Mlp1-C were excluded because they were "inconsistent with available experimental observations."
+  - **Evidence pointer** Methods section "Protein–protein docking"; Results section "Constructing the Mlp1–Nab2 complex"; Figure 1
+  - **Concern** The selection of docking poses is circular. The experimental observation that Phe73 is critical for binding is used to filter docking solutions, and then the selected solutions are used to conclude that Phe73 is critical. This does not validate the binding mode; it enforces it. The authors do not report what fraction of top-ranked solutions were excluded, whether any of the excluded solutions had comparable or better docking scores, or how sensitive the downstream MD results are to the initial pose choice.
+  - **Why it matters** If the true binding mode does not orient Phe73 toward Mlp1, the entire simulation analysis would be biased from the start. The manuscript cannot claim to have identified the binding mode if the selection criteria presuppose it.
+  - **Resolution test** Report docking scores for all top 10 solutions, justify the exclusion criteria quantitatively, and test whether the MD results are robust to starting from alternative poses. Consider performing unbiased docking without the Phe73 constraint and comparing outcomes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that the "wrap-around" model may represent a general strategy by which the nuclear basket inspects mRNPs.
+  - **Evidence pointer** Discussion section, final paragraph
+  - **Concern** The generalization to a broad mechanism for Mlp1's interactions with multiple RBPs is speculative and not supported by data presented here. Only one interaction pair (Mlp1-C with Nab2-N) is studied. No evidence is provided that other RBPs use similar mechanisms, and the authors themselves note this is "still speculative."
+  - **Why it matters** The broader significance claim elevates the work beyond its actual scope. If the generalizability is overstated, it may mislead readers about the strength of the evidence for a universal mechanism.
+  - **Resolution test** Either temper the claim to be explicitly hypothesis-generating, or provide additional computational or experimental evidence that at least one other Mlp1–RBP interaction follows a similar pattern.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the F73W mutation "maintains and strengthens" the interaction between helix4 and helix5, consistent with experimental observation of increased affinity.
+  - **Evidence pointer** Results section "Phe73 plays an indirect role"; Supplementary Figures S12 and S13
+  - **Concern** The F73W analysis is only presented in supplementary material, which was not provided. The main text claims consistency with experimental data but does not show quantitative results. Without seeing the actual simulation data for F73W, the claim cannot be evaluated.
+  - **Why it matters** The F73W result is important because it provides a positive control that the simulation protocol can distinguish between disruptive and enhancing mutations. If this is not rigorously demonstrated, the F73A result is less convincing.
+  - **Resolution test** Provide the F73W simulation data in the main text or ensure the supplementary material is accessible and contains quantitative comparisons of binding energies, inter-helical distances, and interaction profiles for WT, F73A, and F73W.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract opens with a general statement about mRNA quality control but does not immediately clarify the specific gap being addressed. The phrase "the molecular mechanism remains unclear" is vague.
+  - **Required correction** Briefly state what is known (Phe73 is critical) and what is unknown (how it contributes) in the first two sentences to orient the reader.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section "Molecular dynamics simulations"
+  - **Issue** The methods state that CHARMM27 was used, but no justification is provided for this choice over more recent force fields, particularly for simulations involving disordered regions. CHARMM27 is known to have biases toward helical conformations.
+  - **Required correction** Justify the force field choice or acknowledge its limitations for disordered proteins. If possible, include a control simulation with a modern force field (e.g., CHARMM36m) to test robustness.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section
+  - **Evidence pointer** Results section "Phe73 plays an indirect role"; Figure 4
+  - **Issue** The claim that a "significant increase" in interaction energy occurs at ~60 ns is not supported by statistical analysis. No error bars or significance testing are shown for the time series.
+  - **Required correction** Provide standard deviations across replicates at each time point and perform a statistical test (e.g., comparing mean energies before and after 60 ns) to support the claim of a transition.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph on "wrap-around" model
+  - **Issue** The term "wrap-around" is introduced without a clear definition or schematic reference. Readers unfamiliar with the system may not understand what is meant.
+  - **Required correction** Define the term explicitly and reference Figure 7, which appears to illustrate the concept.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section
+  - **Evidence pointer** Results section "Constructing the Mlp1–Nab2 complex"; Figure 2
+  - **Issue** The selection of "solution 1" as the most favorable is based on interaction energy over 10 ns. It is unclear whether this ranking is stable over longer timescales or whether other solutions would converge to similar energies with more sampling.
+  - **Required correction** Report the energy ranking at multiple time points and discuss whether the ranking is stable. If possible, extend at least the top two or three solutions to longer simulations.
+
+## Risk / unsupported claims
+- The claim that Phe73 acts indirectly through helix4–helix5 stabilization rather than direct contact with Mlp1 is not fully supported because the docking selection was biased by the Phe73 constraint, and the simulation timescales are too short to establish equilibrium behavior.
+- The claim that the "wrap-around" model represents a general strategy for Mlp1–RBP recognition is unsupported by the data presented, as only one interaction pair was studied.
+- The claim that F73W "maintains and strengthens" the interaction is not evaluable from the provided material, as the relevant data are in inaccessible supplementary figures.
+- The assertion that the Phyre2 model is a representative structure of Mlp1-C is not verifiable without the supplementary material showing model quality metrics and comparison across prediction methods.
+- The statement that the proposed mechanism "rationalizes existing experimental observations" is only partially supported, as the simulations are not directly validated against quantitative experimental binding data.
+
+## Assessment against Nature-style criteria
+- **Originality** The proposal that a critical residue acts through intramolecular stabilization rather than direct intermolecular contact is a novel mechanistic hypothesis for the Mlp1–Nab2 system. However, the concept of disordered regions enabling adaptive recognition is not new in the broader field. The originality is moderate and specific to this system.
+- **Scientific importance** The Mlp1–Nab2 interaction is relevant to mRNA quality control, a fundamental cellular process. Understanding the molecular basis of this interaction has value, but the work does not resolve a long-standing controversy or open a clearly new research direction. The importance is solid but not exceptional.
+- **Interdisciplinary readership** The work bridges computational biophysics and cell biology. It could interest researchers in both fields, but the technical details of the simulations may limit accessibility for cell biologists, and the biological context may be too narrow for a general biophysics audience. The interdisciplinary appeal is moderate.
+- **Technical soundness** The methodological approach is reasonable in principle, but several technical concerns undermine confidence: short simulation times, biased docking selection, lack of convergence metrics, and unvalidated force field choice for disordered proteins. The technical soundness is currently insufficient to support the central claims.
+- **Readability for nonspecialists** The manuscript is generally well written and the logical flow is clear. However, some terms and concepts (e.g., "wrap-around" model, specific helix numbering) could be better explained. The abstract is accessible, but the results section assumes familiarity with MD simulation analysis. Readability is adequate but could be improved.
+
+## Recommendation posture
+Currently not established from the provided evidence. The central mechanistic claim is plausible but rests on simulation protocols with significant methodological limitations, and the docking selection process introduces circularity. The manuscript would require substantial additional analysis, including longer simulations with convergence metrics, unbiased docking validation, and accessible supplementary data, before the case for the proposed mechanism can be considered established.

@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "42465451",
+    "doi": "10.64898/2026.07.06.735898",
+    "title": "Simulations show increased lipid interdigitation in transmembrane coupling of protein condensates."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation of proteins has been observed to occur on biological membranes, where it is thought to play a role in diverse cellular behaviors. Recent work has demonstrated colocalization between protein condensates on opposing leaflets of the bilayer, suggesting that protein phase separation may be coupled across the bilayer. However, the mechanism behind this coupling phenomenon remains poorly understood. Here we seek to understand the protein-protein and protein-membrane interactions that give rise to transbilayer coupling of protein condensates. We perform coarse-grained molecular dynamics simulations of a bilayer with a disordered protein condensate tethered to each leaflet surface. In this system, we observe stable, coupled diffusion of the condensates across the membrane. We find that increasing the protein-protein interaction strength leads to decoupling, driven by competing membrane curvatures induced by each condensate. However, by applying membrane tension we suppress curvature and restore coupling even at higher protein interaction strengths. Under coupling conditions, we find that lipid entropy is reduced upon direct contact with proteins, but this effect is not transferred to the opposing leaflet. Interestingly, further analysis reveals increased transverse lipid packing (interdigitation) beneath the condensates relative to protein-free regions. Based on these observations, we propose that enhanced lipid interdigitation mediates interleaflet communication and serves as the primary mechanism driving transbilayer coupling of condensates in this system. This work provides insight into a potential physical mechanism for transmembrane communication in cellular contexts and suggests directions for future investigation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zinga, Ketsia",
+        "Stachowiak, Jeanne",
+        "Ren, Pengyu"
+      ],
+      "short_names": [
+        "Zinga K",
+        "Stachowiak J",
+        "Ren P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8877-3830",
+        "ORCID: 0000-0003-2501-142X",
+        "ORCID: 0000-0002-5613-1910"
+      ],
+      "affiliations": [
+        "University of Texas at Austin, Department of Biomedical Engineering, 107 W Dean Keeton St, Austin, Tx 78712.",
+        "University of Texas at Austin, Department of Biomedical Engineering, 107 W Dean Keeton St, Austin, Tx 78712.",
+        "University of Texas at Austin, Department of Chemical Engineering.",
+        "University of Texas at Austin, Department of Biomedical Engineering, 107 W Dean Keeton St, Austin, Tx 78712."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zinga, Ketsia",
+        "short_name": "Zinga K",
+        "identifiers": [
+          "0000-0001-8877-3830"
+        ],
+        "affiliations": [
+          "University of Texas at Austin, Department of Biomedical Engineering, 107 W Dean Keeton St, Austin, Tx 78712."
+        ]
+      },
+      {
+        "full_name": "Stachowiak, Jeanne",
+        "short_name": "Stachowiak J",
+        "identifiers": [
+          "0000-0003-2501-142X"
+        ],
+        "affiliations": [
+          "University of Texas at Austin, Department of Biomedical Engineering, 107 W Dean Keeton St, Austin, Tx 78712.",
+          "University of Texas at Austin, Department of Chemical Engineering."
+        ]
+      },
+      {
+        "full_name": "Ren, Pengyu",
+        "short_name": "Ren P",
+        "identifiers": [
+          "0000-0002-5613-1910"
+        ],
+        "affiliations": [
+          "University of Texas at Austin, Department of Biomedical Engineering, 107 W Dean Keeton St, Austin, Tx 78712."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jul 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/17 17:25",
+    "fetched_at": "2026-09-18 04:57:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42102206",
+      "40963550",
+      "40708200",
+      "39952269",
+      "39112699",
+      "38405682",
+      "38049424",
+      "37770422",
+      "37126554",
+      "37043540",
+      "36821400",
+      "35830600",
+      "35803926",
+      "35507881",
+      "35411085",
+      "35377637",
+      "35113553",
+      "34230650",
+      "34141141",
+      "33820972",
+      "33782607",
+      "33307683",
+      "32411705",
+      "31675499",
+      "31246477",
+      "30951647",
+      "30846599",
+      "30682370",
+      "29602697",
+      "28935776",
+      "27056844",
+      "26687052",
+      "26575938",
+      "26574417",
+      "26471872",
+      "26015579",
+      "25418296",
+      "25288112",
+      "24773235",
+      "22398450",
+      "20331316",
+      "18351591",
+      "18212019",
+      "17569554",
+      "17438118",
+      "16884285",
+      "16211538"
+    ],
+    "similar": [
+      "42465451",
+      "39574691",
+      "40708200",
+      "42475469",
+      "27121138",
+      "21473645",
+      "28143757",
+      "26827904",
+      "35590589",
+      "38049424",
+      "23320723",
+      "23912807",
+      "32515980",
+      "42143405",
+      "37770422",
+      "42523447",
+      "40559352",
+      "40954121",
+      "26654782",
+      "41757024",
+      "40237313",
+      "40236011",
+      "40661423",
+      "38579181",
+      "40963550",
+      "36642341",
+      "39401729",
+      "33825681",
+      "31349669",
+      "38360555",
+      "24892900",
+      "27574865",
+      "40118863",
+      "30398246",
+      "35054543",
+      "16905614",
+      "37190858",
+      "40113768",
+      "39319382",
+      "27590031",
+      "40297234",
+      "20017540",
+      "37533258",
+      "25484487",
+      "36604961",
+      "41670285",
+      "33629837",
+      "36993242",
+      "35293386",
+      "40748104",
+      "35865903",
+      "41675989",
+      "37159305",
+      "37742069",
+      "33221946",
+      "37470705",
+      "19348751",
+      "41268679",
+      "39896542",
+      "37126554",
+      "36993212",
+      "41014250",
+      "28433014",
+      "26636943",
+      "26657692",
+      "25833246",
+      "34358222",
+      "41279444",
+      "41007377",
+      "36598865",
+      "35480443",
+      "36778479",
+      "29604895",
+      "33307683",
+      "40782375",
+      "38252962",
+      "40766493",
+      "37496268",
+      "40337890",
+      "41692248",
+      "42283756",
+      "40172489",
+      "38971606",
+      "40159770",
+      "38971596",
+      "42358691",
+      "41830169",
+      "24506488",
+      "40848932",
+      "36883003",
+      "26290979",
+      "33672806",
+      "27128636",
+      "33069007",
+      "32432336",
+      "40672301",
+      "40373290",
+      "41951120",
+      "29320681",
+      "40137031"
+    ],
+    "review": [
+      "42465451",
+      "40559352",
+      "36642341",
+      "38360555",
+      "41007377",
+      "41692248",
+      "40172489",
+      "33069007"
+    ],
+    "pmc": [
+      "13371069"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42465451/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.07.06.735898",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,476 @@
+{
+  "identity": {
+    "pmid": "36972460",
+    "doi": "10.1073/pnas.2216006120",
+    "title": "Intrinsically disordered proteins SAID1/2 condensate on SERRATE for dual inhibition of miRNA biogenesis in Arabidopsis."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) SAID1/2 are hypothetic dentin sialophosphoprotein-like proteins, but their true functions are unknown. Here, we identified SAID1/2 as negative regulators of SERRATE (SE), a core factor in miRNA biogenesis complex (microprocessor). Loss-of-function double mutants of said1; said2 caused pleiotropic developmental defects and thousands of differentially expressed genes that partially overlapped with those in se. said1; said2 also displayed increased assembly of microprocessor and elevated accumulation of microRNAs (miRNAs). Mechanistically, SAID1/2 promote pre-mRNA processing 4 kinase A-mediated phosphorylation of SE, causing its degradation in vivo. Unexpectedly, SAID1/2 have strong binding affinity to hairpin-structured pri-miRNAs and can sequester them from SE. Moreover, SAID1/2 directly inhibit pri-miRNA processing by microprocessor in vitro. Whereas SAID1/2 did not impact SE subcellular compartmentation, the proteins themselves exhibited liquid-liquid phase condensation that is nucleated on SE. Thus, we propose that SAID1/2 reduce miRNA production through hijacking pri-miRNAs to prevent microprocessor activity while promoting SE phosphorylation and its destabilization in Arabidopsis.",
+    "keywords": [
+      "Arabidopsis",
+      "RNA silencing",
+      "intrinsically disordered protein",
+      "phase separation",
+      "phosphorylation"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis/genetics/metabolism",
+      "*Intrinsically Disordered Proteins/genetics/metabolism",
+      "*Arabidopsis Proteins/genetics/metabolism",
+      "RNA-Binding Proteins/metabolism",
+      "RNA Processing, Post-Transcriptional",
+      "*MicroRNAs/metabolism",
+      "Ribonuclease III/metabolism",
+      "Gene Expression Regulation, Plant"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shang, Baoshuan",
+        "Wang, Lin",
+        "Yan, Xingxing",
+        "Li, Yanjun",
+        "Li, Changhao",
+        "Wu, Chaohua",
+        "Wang, Tian",
+        "Guo, Xiang",
+        "Choi, Suk Won",
+        "Zhang, Tianru",
+        "Wang, Ziying",
+        "Tong, Chun-Yip",
+        "Oh, Taerin",
+        "Zhang, Xiao",
+        "Wang, Zhiye",
+        "Peng, Xu",
+        "Zhang, Xiuren"
+      ],
+      "short_names": [
+        "Shang B",
+        "Wang L",
+        "Yan X",
+        "Li Y",
+        "Li C",
+        "Wu C",
+        "Wang T",
+        "Guo X",
+        "Choi SW",
+        "Zhang T",
+        "Wang Z",
+        "Tong CY",
+        "Oh T",
+        "Zhang X",
+        "Wang Z",
+        "Peng X",
+        "Zhang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8744-3554",
+        "ORCID: 0000-0001-7787-904X",
+        "ORCID: 0000-0002-0140-4029",
+        "ORCID: 0000-0001-9068-102X"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+        "State Key Laboratory for Managing Biotic and Chemical Threats to the Quality and Safety of Agro-products, Institute of Plant Virology, College of Life Sciences, Ningbo University, Ningbo 315211, China.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+        "College of Life Science, Shandong Normal University, Jinan, Shandong 250014, China.",
+        "Key Laboratory of Plant Stress Biology, State Key Laboratory of Cotton Biology, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+        "Department of Biology, Texas A&M University, College Station, TX 77843.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+        "Key Laboratory of Plant Stress Biology, State Key Laboratory of Cotton Biology, School of Life Sciences, Henan University, Kaifeng 475004, China.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+        "State Key Laboratory of Plant Physiology and Biochemistry, College of Life Sciences, Zhejiang University, Hangzhou 310058, China.",
+        "Department of Medical Physiology, School of Medicine, Texas A&M University, Bryan, TX 77807.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+        "Department of Biology, Texas A&M University, College Station, TX 77843."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shang, Baoshuan",
+        "short_name": "Shang B",
+        "identifiers": [
+          "0000-0002-8744-3554"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Wang, Lin",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0000-0001-7787-904X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Yan, Xingxing",
+        "short_name": "Yan X",
+        "identifiers": [
+          "0000-0002-0140-4029"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Li, Yanjun",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+          "State Key Laboratory for Managing Biotic and Chemical Threats to the Quality and Safety of Agro-products, Institute of Plant Virology, College of Life Sciences, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Li, Changhao",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Wu, Chaohua",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Wang, Tian",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+          "College of Life Science, Shandong Normal University, Jinan, Shandong 250014, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Xiang",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Plant Stress Biology, State Key Laboratory of Cotton Biology, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Choi, Suk Won",
+        "short_name": "Choi SW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Zhang, Tianru",
+        "short_name": "Zhang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Wang, Ziying",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Tong, Chun-Yip",
+        "short_name": "Tong CY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Oh, Taerin",
+        "short_name": "Oh T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiao",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Plant Stress Biology, State Key Laboratory of Cotton Biology, School of Life Sciences, Henan University, Kaifeng 475004, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhiye",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+          "State Key Laboratory of Plant Physiology and Biochemistry, College of Life Sciences, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Xu",
+        "short_name": "Peng X",
+        "identifiers": [
+          "0000-0001-9068-102X"
+        ],
+        "affiliations": [
+          "Department of Medical Physiology, School of Medicine, Texas A&M University, Bryan, TX 77807."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xiuren",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843.",
+          "Department of Biology, Texas A&M University, College Station, TX 77843."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 Apr 4",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/28 06:00",
+    "fetched_at": "2026-09-20 20:44:12"
+  },
+  "links": {
+    "cites": [
+      "41987292",
+      "40286852",
+      "39472512",
+      "39206840",
+      "38723165",
+      "38456220",
+      "38296708",
+      "38163635",
+      "37772963"
+    ],
+    "refs": [
+      "35449404",
+      "35449403",
+      "35333566",
+      "34348894",
+      "34265844",
+      "33288888",
+      "32887800",
+      "32690892",
+      "32690891",
+      "32636339",
+      "32483330",
+      "32463452",
+      "32449937",
+      "32415063",
+      "32381482",
+      "31818879",
+      "31678531",
+      "30848930",
+      "30732937",
+      "30289546",
+      "29920280",
+      "29857309",
+      "29769717",
+      "27943457",
+      "26524930",
+      "26089831",
+      "25951824",
+      "24270878",
+      "24198247",
+      "24137006",
+      "23934148",
+      "23921632",
+      "23622241",
+      "22647250",
+      "22244333",
+      "22079093",
+      "21685453",
+      "20870966",
+      "20462493",
+      "19632183",
+      "19632182",
+      "18632569",
+      "18550839",
+      "18292776",
+      "17442570",
+      "16889646",
+      "16222298"
+    ],
+    "similar": [
+      "36972460",
+      "32449937",
+      "34449907",
+      "33288888",
+      "36012225",
+      "38493158",
+      "23921632",
+      "37994727",
+      "29769717",
+      "22802657",
+      "32887800",
+      "38918606",
+      "16428603",
+      "36191209",
+      "23424246",
+      "28348234",
+      "21685453",
+      "32636339",
+      "28115696",
+      "29437988",
+      "23268445",
+      "18550839",
+      "18632569",
+      "23399598",
+      "25294831",
+      "33385584",
+      "25104024",
+      "27870853",
+      "18829588",
+      "16977334",
+      "33524550",
+      "31216029",
+      "27885505",
+      "23135480",
+      "26227967",
+      "25310978",
+      "30760482",
+      "23141542",
+      "16889646",
+      "37415266",
+      "19304749",
+      "36087009",
+      "17442570",
+      "33382955",
+      "32817553",
+      "35409147",
+      "37019716",
+      "32636270",
+      "31922639",
+      "28321834",
+      "34593993",
+      "23934148",
+      "37195876",
+      "18632581",
+      "18539108",
+      "35143697",
+      "28586645",
+      "17337628",
+      "29522510",
+      "36373807",
+      "32317642",
+      "22614834",
+      "31792392",
+      "22474216",
+      "25474114",
+      "32763566",
+      "23941160",
+      "39271943",
+      "32690892",
+      "35121664",
+      "19383765",
+      "36604385",
+      "19398578",
+      "23893406",
+      "28947490",
+      "36598924",
+      "23886622",
+      "18551175",
+      "37267903",
+      "30481000",
+      "28846091",
+      "32220645",
+      "20870966",
+      "37639607",
+      "25976549",
+      "25409478",
+      "29784765",
+      "28419088",
+      "19155326",
+      "31806370",
+      "29632904",
+      "27582463",
+      "29982637",
+      "16214897",
+      "26387911",
+      "27425409",
+      "26473486",
+      "17675322",
+      "33188727",
+      "15531879",
+      "16957365",
+      "24101471",
+      "25326327",
+      "19861421",
+      "33751089",
+      "39206840",
+      "35333566",
+      "34201246",
+      "39257768"
+    ],
+    "review": [
+      "36972460",
+      "37019716",
+      "30481000"
+    ],
+    "pmc": [
+      "10083546"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2216006120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36972460/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36972460",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

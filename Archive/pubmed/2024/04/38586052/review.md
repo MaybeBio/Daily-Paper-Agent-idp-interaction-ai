@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, and support of claims based solely on the supplied material
+- **Shared manuscript claim summary** The authors use Gaussian accelerated molecular dynamics (GAMD) simulations to compare wild-type α-synuclein monomers with N-terminal deletion (ΔN), C-terminal deletion (ΔC), and isolated NAC domain (isoNAC) variants. They report that the N-terminal domain forms contacts with both the NAC and C-terminal domains, that removal of either flanking domain increases compactness of remaining domains, that removal of the N-terminal domain increases interdomain β-sheet formation between NAC and C-terminal domains, and that the wild-type protein exhibits a specific electrostatic potential (ESP) pattern that may facilitate favorable interactions with anionic lipid membranes.
+- **Visible evidence base** Figures 1–10 and Figures S1–S3 are referenced in the text. No figure panels, numerical data, or statistical analyses are provided in the supplied material.
+- **Missing materials affecting confidence** Figure files, simulation parameter files, convergence metrics, error bars or standard deviations, statistical tests, force field validation details, and raw trajectory analyses are not provided. The manuscript is a preprint and has not undergone peer review.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the α-synuclein field, namely how the flanking domains modulate the conformational ensemble of the monomer. The use of GAMD is appropriate for an intrinsically disordered protein. However, the conclusions are largely qualitative and based on representative structures and distributions without statistical rigor. Several claims, particularly regarding the electrostatic potential and its functional implications, are speculative and not directly tested. The absence of quantitative data, convergence analysis, and comparison with experimental or other computational results weakens the case. The manuscript is readable and logically structured, but the evidence base is insufficient to firmly establish the proposed model of cooperative flanking domain function.
+- **Who would be interested in the results, and why** Researchers studying α-synuclein structure, aggregation, and membrane interactions, as well as those interested in the conformational behavior of intrinsically disordered proteins. The results may also be of interest to computational biophysicists working on enhanced sampling methods for IDPs. The proposed model of flanking domain cooperation could inform experimental studies on truncation mutants and their aggregation propensities.
+- **Major strengths** The study addresses a clinically relevant protein and a plausible mechanistic question. The use of GAMD is a reasonable choice for sampling the conformational space of an IDP. The authors compare multiple deletion variants, which allows for systematic assessment of domain contributions. The qualitative observations, such as increased NAC-C contacts upon N-terminal deletion and increased compactness upon flanking domain removal, are potentially interesting and could guide future work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that GAMD simulations "can correctly reproduce the shape of the folding landscape" and that the lack of reweighting is acceptable because they only compare relative differences between variants.
+  - **Evidence pointer** Methods section, "Gaussian accelerated molecular dynamics" paragraph
+  - **Concern** The authors state that reweighting was not performed and justify this by claiming only qualitative comparisons are made. However, GAMD biases the potential energy surface, and without reweighting, the sampled distributions are not Boltzmann-weighted. Comparisons of contact frequencies, secondary structure propensities, and radius of gyration distributions between variants may be distorted by differential biasing. The manuscript does not provide any validation that the relative differences between variants are preserved without reweighting.
+  - **Why it matters** If the biased distributions are not comparable across variants, all quantitative claims about differences in contacts, compactness, and secondary structure are potentially unreliable. This undermines the core conclusions of the study.
+  - **Resolution test** The authors should either perform reweighting to recover unbiased ensembles or provide a systematic validation that the relative rankings of structural properties are unaffected by the bias. This could include comparing a subset of simulations with and without reweighting or benchmarking against unbiased simulations for short timescales.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "removal of the N-terminal domain led to increased contacts between NAC and C-terminal domains and the formation of interdomain β-sheets" and that "removal of either flanking domain also resulted in increased compactness of every domain."
+  - **Evidence pointer** Results and Discussion, "N-Terminal Domain Forms Contacts with NAC and C-Terminal Domains" and "Flanking Domain Removal Affects Secondary Structure Formation" sections; Figures 4, 5, 7, 8
+  - **Concern** The manuscript reports distributions of contacts, secondary structure content, and radius of gyration, but no statistical measures (e.g., standard deviations, confidence intervals, or significance tests) are provided. It is unclear whether the observed differences between variants are robust or within sampling noise. Additionally, no convergence analysis is presented to demonstrate that the simulations have adequately sampled the conformational space.
+  - **Why it matters** Without error estimates or convergence assessment, the reported differences between variants cannot be evaluated for significance. The conclusions rest on qualitative visual inspection of distributions, which is insufficient for a quantitative claim.
+  - **Resolution test** Provide statistical analysis of the distributions, including means, standard deviations, and appropriate significance tests (e.g., bootstrap or block averaging). Show convergence of key observables as a function of simulation time.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that the wild-type ESP "may lead to favorable interactions with anionic lipid membranes" and that C-terminal deletion "could result in over-stabilized protein-membrane interactions."
+  - **Evidence pointer** Results and Discussion, "Interdomain Interactions Modulate the Protein Electrostatic Potential" section; Figure 10
+  - **Concern** The ESP calculations are performed on representative structures from the most populated clusters. The functional implications for membrane binding are speculative and not tested with any membrane-containing simulation or binding assay. The authors acknowledge this limitation but still present the model as a key outcome.
+  - **Why it matters** The claim about membrane interactions is presented as a significant finding, but it is not directly supported by the simulations performed. Overinterpretation of ESP maps without functional validation weakens the scientific contribution.
+  - **Resolution test** Either temper the claims to clearly state these are untested hypotheses, or perform additional simulations with lipid membranes to directly test the proposed interactions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "a fully extended structure was constructed from the protein sequence" and that the proteins were "collapsed in vacuo using MD at 300 K" before solvation.
+  - **Evidence pointer** Methods section, "MD simulation setup" paragraph
+  - **Concern** The preparation protocol involves collapsing the protein in vacuo, which may produce non-native or kinetically trapped conformations. The manuscript does not discuss whether this protocol biases the initial ensemble or whether multiple independent starting structures were used. The use of a single starting conformation per variant may limit the generalizability of the results.
+  - **Why it matters** The initial collapse in vacuo could generate artificial conformations that influence the subsequent GAMD sampling. If the starting structures are not representative, the conclusions may be biased.
+  - **Resolution test** Justify the in vacuo collapse protocol with references or test its effect by starting from multiple different initial conformations (e.g., from an unbiased simulation or experimental structures) and comparing results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract uses the term "electrostatic potential (ESP)" without defining it for readers who may not be familiar with computational biophysics.
+  - **Required correction** Briefly define ESP in the abstract or use a more accessible phrase such as "surface charge distribution."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, simulation parameters
+  - **Evidence pointer** Methods, "MD simulation setup" paragraph
+  - **Issue** The manuscript states that simulations were run "for at least 0.6 μs" but does not specify the exact length for each variant or whether all variants were simulated for the same duration.
+  - **Required correction** Provide the exact simulation length for each system and state whether the lengths were identical across variants.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, clustering analysis
+  - **Evidence pointer** Methods, "Clustering analysis" paragraph
+  - **Issue** The number of clusters used in the k-means clustering is not stated, nor is the criterion for choosing this number.
+  - **Required correction** Specify the number of clusters and the method used to determine it (e.g., elbow method, silhouette score).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Results and Discussion, "A Model for Flanking Domain Cooperation"
+  - **Evidence pointer** Results and Discussion, final subsection
+  - **Issue** The proposed model is presented as a coherent narrative, but the authors do not discuss alternative interpretations or limitations of the model in this section.
+  - **Required correction** Add a brief paragraph acknowledging alternative explanations and the speculative nature of the model.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of reweighting validation) and R1-M2 (absence of statistical analysis and convergence assessment) are the primary technical failings. Without addressing these, the quantitative claims cannot be considered reliable.
+- **Assessment against Nature-style criteria** Originality: The study is moderately original in its application of GAMD to deletion mutants of α-synuclein, but similar computational studies on IDPs exist. Scientific importance: The question of how flanking domains modulate α-synuclein structure is relevant, but the findings are largely descriptive and do not provide a major conceptual advance. Interdisciplinary readership: The topic may appeal to biophysicists, computational chemists, and neuroscientists, but the presentation is somewhat specialized. Technical soundness: The methodology has significant gaps, particularly regarding reweighting and statistical rigor, which currently undermine the conclusions. Readability for nonspecialists: The manuscript is generally clear, but some technical terms and methods are not fully explained for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and uses an appropriate method, but the lack of reweighting validation, statistical analysis, and convergence assessment prevents the conclusions from being considered reliable. The authors should address these technical concerns and provide quantitative support for their claims before the case is established.
+
+## Risk / unsupported claims
+- The claim that GAMD "can correctly reproduce the shape of the folding landscape" without reweighting is unsupported and potentially misleading.
+- The claim that the wild-type ESP "may lead to favorable interactions with anionic lipid membranes" is speculative and not tested with membrane simulations.
+- The claim that C-terminal deletion "could result in over-stabilized protein-membrane interactions" is speculative and not directly supported by the data.
+- The claim that "removal of either flanking domain also resulted in increased compactness of every domain" is not supported by statistical evidence.
+- The claim that "removal of the N-terminal domain led to increased contacts between NAC and C-terminal domains and the formation of interdomain β-sheets" is not supported by statistical evidence.
+- The proposed model of cooperative flanking domain function is presented as a conclusion but is largely a hypothesis based on qualitative observations.

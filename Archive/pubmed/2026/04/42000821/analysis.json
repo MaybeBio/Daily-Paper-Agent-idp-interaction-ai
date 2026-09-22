@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42000821",
+  "title": "Peptide ligands to explore interactions with intrinsically disordered multidomain proteins: the case of SARS-CoV-2 nucleocapsid protein.",
+  "authors": "Tino, A S; Quagliata, M; Schiavina, M; Attanasio, L; Santos, B P O; Pacini, L; Papini, A M; Pierattelli, R; Felli, I C",
+  "journal": "Scientific reports",
+  "published_date": "2026-04-19",
+  "window": {
+    "start": "2026-04-13",
+    "end": "2026-04-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过分子动力学模拟与NMR/CD实验，设计肽配体靶向SARS-CoV-2核衣壳蛋白的无序区域与结构化RNA结合域之间的互作界面，揭示序列排列对结合机制的影响，属于IDR介导PPI的机制建模研究。",
+  "abstract": "The SARS-CoV-2 nucleocapsid protein (N), essential for viral RNA packaging, comprises a structured RNA-binding domain, NTD(44-180), flanked by intrinsically disordered regions, IDR1 (1-43) and IDR2 (181-248). This extended, positively charged RNA-binding surface makes it an attractive target for synthetic ligands able to interfere with its function. In this study, peptide ligands were explored as synthetically accessible alternatives for modulating N interactions. After confirming the ability of a reference peptide (P0) in engaging IDRs in the interaction, we shifted our attention to key properties that modulate the interaction with the central domain NTD(44-180). Two new peptides (P1 and P2) were designed with identical amino acid compositions but distinct sequence arrangements. In each one a para-fluorinated phenylalanine residue was incorporated to introduce an aromatic component useful to mimic RNA bases and enable (19)F NMR detection. Molecular dynamics simulations, circular dichroism, and NMR spectroscopy were combined to characterize the structural, dynamic and binding properties of P1 and P2. Both peptides involve the RNA-binding groove of the N protein (NTD(44-180)). While P1 demonstrated higher alpha-helical propensity and favorable electrostatic interactions, P2 displayed stronger interactions through enhanced conformational adaptability. (19)F NMR experiments confirmed complex formation also from the ligand perspective. These findings support a modular peptide design strategy for targeting multidomain proteins.",
+  "abstract_zh": "SARS-CoV-2核衣壳蛋白（N）对病毒RNA包装至关重要，其结构包含一个有序的RNA结合结构域NTD(44-180)，两侧为固有无序区域IDR1（1-43）和IDR2（181-248）。这一延伸且带正电荷的RNA结合表面使其成为能够干扰其功能的合成配体的有吸引力的靶点。在本研究中，探索了肽配体作为合成上可行的替代方案，以调节N蛋白的相互作用。在确认参考肽（P0）能够参与IDR相互作用后，我们将注意力转向调节与中央结构域NTD(44-180)相互作用的关键特性。设计了两条新肽（P1和P2），它们具有相同的氨基酸组成但序列排列不同。每条肽中引入了一个对氟化苯丙氨酸残基，以提供模拟RNA碱基的芳香族组分，并实现(19)F NMR检测。结合分子动力学模拟、圆二色谱和NMR波谱，表征了P1和P2的结构、动态及结合特性。两条肽均涉及N蛋白（NTD(44-180)）的RNA结合沟槽。P1表现出更高的α-螺旋倾向和有利的静电相互作用，而P2通过增强的构象适应性显示出更强的相互作用。(19)F NMR实验从配体角度也确认了复合物的形成。这些发现支持针对多结构域蛋白的模块化肽设计策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42000821/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42000821/",
+  "paper_page_path": "papers/pubmed/42000821/index.html"
+}

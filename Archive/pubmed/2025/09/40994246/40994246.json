@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "40994246",
+    "doi": "10.1002/2211-5463.70130",
+    "title": "Cloning, expression, purification, and structural modeling of the Chandipura virus matrix protein."
+  },
+  "content": {
+    "abstract": "The Chandipura virus matrix protein plays a crucial role in virus assembly, budding, and the cytopathic effects observed in infected cells by interacting with several host proteins. The protocol presented here outlines the expression and purification of full-length Chandipura virus matrix protein and two N-terminally truncated constructs produced in Escherichia coli. This protocol results in high yields of monomeric matrix protein, which is suitable for structural studies. Additionally, GFP-fused Chandipura virus matrix protein constructs can be expressed in mammalian cells for examination of intracellular localization. The Chandipura virus matrix protein model, generated using AlphaFold, features an intrinsically disordered N terminus and a structured C-terminal core, similar to other Vesiculovirus matrix proteins.",
+    "keywords": [
+      "Chandipura virus",
+      "Chandipura virus matrix protein",
+      "Vesiculovirus",
+      "cloning",
+      "encephalitis",
+      "expression",
+      "purification"
+    ],
+    "mesh_terms": [
+      "*Viral Matrix Proteins/genetics/chemistry/isolation & purification/metabolism",
+      "Cloning, Molecular/methods",
+      "*Vesiculovirus/genetics/metabolism",
+      "Escherichia coli/genetics/metabolism",
+      "Models, Molecular",
+      "Animals",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Grieben, Mariana"
+      ],
+      "short_names": [
+        "Grieben M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0685-6868"
+      ],
+      "affiliations": [
+        "Institute of Biochemistry, Center of Structural and Cell Biology in Medicine, University of Lubeck, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Grieben, Mariana",
+        "short_name": "Grieben M",
+        "identifiers": [
+          "0000-0002-0685-6868"
+        ],
+        "affiliations": [
+          "Institute of Biochemistry, Center of Structural and Cell Biology in Medicine, University of Lübeck, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "FEBS open bio"
+    ],
+    "journal_abbrev": [
+      "FEBS Open Bio"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/25 06:29",
+    "fetched_at": "2026-09-17 20:24:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39770369",
+      "39552041",
+      "37774136",
+      "37517577",
+      "35970826",
+      "35637307",
+      "34265844",
+      "34168211",
+      "32881101",
+      "27132726",
+      "25944354",
+      "22721825",
+      "21988835",
+      "21558174",
+      "20966517",
+      "20003500",
+      "18988033",
+      "18041027",
+      "17610154",
+      "16369541",
+      "16172482",
+      "12065402",
+      "10964570",
+      "10592235",
+      "10074141",
+      "10027275",
+      "1323702"
+    ],
+    "similar": [
+      "40994246",
+      "10595413",
+      "25944354",
+      "17610154",
+      "7787887",
+      "26339059",
+      "11447272",
+      "21704089",
+      "40556437",
+      "21640189",
+      "21596416",
+      "8405397",
+      "34168211",
+      "8724858",
+      "15862310",
+      "31043529",
+      "20727566",
+      "23355071",
+      "21612593",
+      "22272333",
+      "16235730",
+      "22763614",
+      "15351194",
+      "22642811",
+      "23827209",
+      "20966517",
+      "23826408",
+      "38702887",
+      "31180044",
+      "16172482",
+      "18391421",
+      "25803715",
+      "39770369",
+      "16962155",
+      "24036128",
+      "17622633",
+      "26519022",
+      "26311888",
+      "19670634",
+      "22485180",
+      "32841760",
+      "8046391",
+      "19088071",
+      "19112510",
+      "40346308",
+      "40128513",
+      "28882516",
+      "12065402",
+      "28948956",
+      "25957961",
+      "15614433",
+      "33028721",
+      "20652066",
+      "8386891",
+      "15705335",
+      "24927547",
+      "28000060",
+      "24713200",
+      "24129026",
+      "20943988",
+      "27628855",
+      "7512123",
+      "9000634",
+      "21987759",
+      "20353087",
+      "27795419",
+      "32897148",
+      "29695428",
+      "34019871",
+      "19000317",
+      "30902626",
+      "27216928",
+      "23063516",
+      "19508221",
+      "27132726",
+      "22190013",
+      "18815300",
+      "15802216",
+      "15962804",
+      "19666056",
+      "24027318",
+      "24288532",
+      "40311237",
+      "40555000",
+      "29510513",
+      "27748295",
+      "34902539",
+      "31315998",
+      "21085610",
+      "25855732",
+      "22116291",
+      "26196500",
+      "28056216",
+      "33141416",
+      "30274351",
+      "19897044",
+      "32543712",
+      "37327858",
+      "26947397",
+      "39464728"
+    ],
+    "review": [
+      "40994246",
+      "17610154",
+      "40128513",
+      "24713200",
+      "40311237",
+      "27748295",
+      "22116291"
+    ],
+    "pmc": [
+      "12767760"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40994246.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40994246/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/2211-5463.70130",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

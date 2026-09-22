@@ -1,0 +1,543 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.05.539574",
+  "title": "Domain-based multi-domain protein and complex structure prediction using inter-domain interactions from deep learning",
+  "doi": "10.1101/2023.05.05.539574",
+  "abstract": "Accurately capturing domain-domain interactions is key to understanding protein function and designing structure-based drugs. Although AlphaFold2 has made a breakthrough on single domain, it should be noted that the structure modeling for multi-domain protein and complex remains a challenge. In this study, we developed a multi-domain and complex structure assembly protocol, named DeepAssembly, based on domain segmentation and single domain modeling algorithms. Firstly, DeepAssembly uses a population-based evolutionary algorithm to assemble multi-domain proteins by inter-domain interactions inferred from a developed deep learning network. Secondly, protein complexes are assembled by means of domains rather than chains using DeepAssembly. Experimental results show that on 219 multi-domain proteins, the average inter-domain distance precision by DeepAssembly is 22.7% higher than that of AlphaFold2. Moreover, DeepAssembly improves accuracy by 11.8% for 164 multi-domain structures with low confidence deposited in AlphaFold database. We apply DeepAssembly for the prediction of 247 heterodimers. We find that DeepAssembly generates models with acceptable quality (DockQ ≥ 0.23) for 32.4% of the dimers, suggesting a lighter way to assemble complex structures by treating domains as assembly units and using inter-domain interactions learned from monomer structures.",
+  "authors": [
+    "Yuhao Xia",
+    "Kailong Zhao",
+    "Dong Liu",
+    "Xiaogen Zhou",
+    "Guijun Zhang"
+  ],
+  "published_date": "2023-05-08",
+  "updated_date": "2023-05-08T14:31:20Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.05.539574",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.05.539574.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:51:04Z",
+        "timestamp": 1768506664897,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            8
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 51,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Accurately capturing domain-domain interactions is key to understanding protein function and designing structure-based drugs. Although AlphaFold2 has made a breakthrough on single domain, it should be noted that the structure modeling for multi-domain protein and complex remains a challenge. In this study, we developed a multi-domain and complex structure assembly protocol, named DeepAssembly, based on domain segmentation and single domain modeling algorithms. Firstly, DeepAssembly uses a population-based evolutionary algorithm to assemble multi-domain proteins by inter-domain interactions inferred from a developed deep learning network. Secondly, protein complexes are assembled by means of domains rather than chains using DeepAssembly. Experimental results show that on 219 multi-domain proteins, the average inter-domain distance precision by DeepAssembly is 22.7% higher than that of AlphaFold2. Moreover, DeepAssembly improves accuracy by 11.8% for 164 multi-domain structures with low confidence deposited in AlphaFold database. We apply DeepAssembly for the prediction of 247 heterodimers. We find that DeepAssembly generates models with acceptable quality (DockQ ≥ 0.23) for 32.4% of the dimers, suggesting a lighter way to assemble complex structures by treating domains as assembly units and using inter-domain interactions learned from monomer structures.</jats:p>",
+      "DOI": "10.1101/2023.05.05.539574",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            8
+          ]
+        ],
+        "date-time": "2023-05-08T14:31:20Z",
+        "timestamp": 1683556280000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Domain-based multi-domain protein and complex structure prediction using inter-domain interactions from deep learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yuhao",
+          "family": "Xia",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kailong",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Dong",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaogen",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Guijun",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1905068116"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "W235",
+          "DOI": "10.1093/nar/gkac340",
+          "article-title": "DEMO2: Assemble multi-domain protein structures by coupling analogous template alignments with deep-learning inter-domain restraint prediction",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "3142",
+          "DOI": "10.1021/acs.jcim.2c00026",
+          "article-title": "AI-Based Protein Structure Prediction in Drug Discovery: Impacts and Challenges",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2326",
+          "DOI": "10.1038/s41596-022-00728-0",
+          "article-title": "I-TASSER-MTD: a deep-learning-based platform for multi-domain protein structure and function prediction",
+          "volume": "17",
+          "year": "2022",
+          "journal-title": "Nat. Protoc"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "706",
+          "DOI": "10.1038/s41586-019-1923-7",
+          "article-title": "Improved protein structure prediction using potentials from deep learning",
+          "volume": "577",
+          "year": "2020",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "601",
+          "DOI": "10.1038/s42256-021-00348-5",
+          "article-title": "Improved protein structure prediction by deep learning irrespective of co-evolution information. Nat",
+          "volume": "3",
+          "year": "2021",
+          "journal-title": "Mach. Intell"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1914677117"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1607",
+          "DOI": "10.1002/prot.26237",
+          "article-title": "Critical assessment of methods of protein structure prediction (CASP)-Round XIV",
+          "volume": "89",
+          "year": "2021",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "265",
+          "DOI": "10.1038/s43588-022-00232-1",
+          "article-title": "Progressive assembly of multi-domain protein structures from cryo-EM density maps",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Nat. Comput. Sci"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.062270707"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv092"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "4513",
+          "DOI": "10.1093/bioinformatics/btac553",
+          "article-title": "Structural analogue-based protein structure domain assembly assisted by deep learning",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gao, M. , et al. AF2Complex predicts direct physical interactions in multimeric proteins with deep learning. Nat. Commun. 13, https://doi.org/10.1038/s41467-022-29394-2 (2022).",
+          "DOI": "10.1038/s41467-022-29394-2"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.285.5428.751"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr040409x"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c01114"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.21117"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "292",
+          "DOI": "10.1002/prot.25802",
+          "article-title": "Pre- and post-docking sampling of conformational changes using ClustENM and HADDOCK for protein-protein and protein-DNA systems",
+          "volume": "88",
+          "year": "2020",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2014.08.033"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1092645"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.107.114280"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2011.04.006"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bryant, P. , et al. Improved prediction of protein-protein interactions using AlphaFold2. Nat. Commun. 13, https://doi.org/10.1038/s41467-022-28865-w (2022).",
+          "DOI": "10.1038/s41467-022-28865-w"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Evans, R. , et al. Protein complex prediction with AlphaFold-Multimer. bioRxiv https://doi.org/10.1101/2021.10.04.463034 (2021).",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1061"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhao, K. L. , et al. Protein structure and folding pathway prediction based on remote homologs recognition using PAthreader. Communications Biology 6, https://doi.org/10.1038/s42003-023-04605-8 (2023).",
+          "DOI": "10.1038/s42003-023-04605-8"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/biomformatics/btab620"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "4357",
+          "DOI": "10.1093/bioinformatics/btab500",
+          "article-title": "A sequential niche multimodal conformational sampling algorithm for protein structure prediction",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "4350",
+          "DOI": "10.1093/bioinformatics/btab484",
+          "article-title": "MMpred: a distance-assisted multimodal conformation sampling for de novo protein structure prediction",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.20264"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2011.01.021"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "15",
+          "DOI": "10.1038/s41592-021-01365-3",
+          "article-title": "The impact of AlphaFold2 one year on",
+          "volume": "19",
+          "year": "2022",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.36",
+          "first-page": "2427",
+          "article-title": "Structural insights into binding of inhibitors to soluble epoxide hydrolase gained by fragment screening and X-ray crystallography. Bioorgan",
+          "volume": "22",
+          "year": "2014",
+          "journal-title": "Med. Chem"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb1210"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Basu, S. & Wallner, B . DockQ: A Quality Measure for Protein-Protein Docking Models. PLoS ONE 11, e0161879 (2016).",
+          "DOI": "10.1371/journal.pone.0161879"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Guo, Z. Y. , et al. Prediction of inter-chain distance maps of protein complexes with 2D attention-based deep neural networks. Nat. Commun. 13, https://doi.org/10.1038/s41467-022-34600-2 (2022).",
+          "DOI": "10.1038/s41467-022-34600-2"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Green, A. G. , et al. Large-scale discovery of protein interactions at residue resolution using co-evolution calculated from genomic sequences. Nat. Commun. 12, https://doi.org/10.1038/s41467-021-21636-z (2021).",
+          "DOI": "10.1038/s41467-021-21636-z"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaw6718"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Steinegger, M. , et al. HH-suite3 for fast remote homology detection and deep protein annotation. BMC Bioinforma. 20, 473 (2019).",
+          "DOI": "10.1186/s12859-019-3019-7"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.44",
+          "unstructured": "BFD. https://bfd.mmseqs.com/."
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.12.1091"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "D266",
+          "DOI": "10.1093/nar/gkaa1079",
+          "article-title": "CATH: increased structural coverage of functional space",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "D553",
+          "DOI": "10.1093/nar/gkab1054",
+          "article-title": "SCOPe: improvements to the structural classification of proteins-extended database to facilitate variant interpretation and machine learning",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1240"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yu, Z. Z. , et al. DomBpred: protein domain boundary prediction based on domain-residue clustering using inter-residue distance. IEEE/ACM Trans. Comput. Biol. Bioinform. https://doi.org/10.1109/TCBB.2022.3175905 (2022).",
+          "DOI": "10.1101/2021.11.19.469204"
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.50",
+          "unstructured": "Rao, R. , et al. MSA Transformer. In Proc. International Conference on Machine Learning (ICML) 139, (2021)."
+        },
+        {
+          "key": "2023051020251477000_2023.05.05.539574v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0076-6879(04)83004-0"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.05.05.539574",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:38:09Z",
+        "timestamp": 1768451889000
+      },
+      "score": 51.734905,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.05.05.539574"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            8
+          ]
+        ]
+      },
+      "references-count": 51,
+      "URL": "https://doi.org/10.1101/2023.05.05.539574",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

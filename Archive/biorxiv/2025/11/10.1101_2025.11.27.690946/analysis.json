@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.27.690946",
+  "title": "The spatial proteome of the Plasmodium falciparum schizont illuminates the composition and evolutionary trajectories of its organelles",
+  "authors": "Chisholm SA; Flores V; Kemp A; Breckels LM; Koreny L; Santos Pacheco ND; Barylyuk K; Kuroshchenkova A; Lilley KS; Rayner JC; Waller RF",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-27",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究利用空间蛋白质组学技术绘制疟原虫裂殖体蛋白亚细胞定位图谱，对象非无序蛋白/IDR，无PPI机制建模，也无AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "<h4>ABSTRACT</h4> Malaria is caused by apicomplexan parasites of the genus Plasmodium , with all malaria symptoms and pathology caused by parasite stages that develop within, or transit between, host erythrocytes. The ability of Plasmodium cells to parasitise erythrocytes depends on distinctive intracellular compartments associated with invasion, as well as the development of unique cellular niches within the infected host cell. However, our understanding of the biology of the malaria parasite is limited by the fact that a large proportion of the parasite’s proteome has no known cellular location or function. To address this problem, we have generated comprehensive high-resolution maps of protein subcellular localisation for the invasive stage of the erythrocytic life cycle of Plasmodium falciparum , the major cause of malaria mortality. Using the spatial proteomics technique hyperplexed Localisation of Organelle Proteins by Isotopic Tagging (hyperLOPIT) we generated data for 3000 P. falciparum proteins expressed in late schizont stages. Our hyperLOPIT data resolved 24 distinct cellular niches, and using supervised machine-learning we can classify 1646 proteins into one of these compartments including exported sites within the host cell. Through comparative genomic analyses our data resolve the spatial patterns of cell evolution that have shaped the development of Plasmodium species and ongoing adaptive pressures and responses that challenge our efforts to manage these major disease-causing organisms.",
+  "abstract_zh": "<h4>摘要</h4> 疟疾由顶复门寄生虫属的疟原虫（Plasmodium）引起，所有疟疾症状和病理均由在宿主红细胞内发育或在其间转运的寄生虫阶段所致。疟原虫细胞寄生红细胞的能力依赖于与入侵相关的独特细胞内区室，以及在受感染宿主细胞内形成独特细胞生态位的过程。然而，由于寄生虫蛋白质组中很大一部分蛋白质的细胞定位或功能未知，我们对疟疾寄生虫生物学的理解受到限制。为解决这一问题，我们为恶性疟原虫（Plasmodium falciparum）红细胞生命周期侵入阶段（疟疾死亡率的主要原因）生成了全面的高分辨率蛋白质亚细胞定位图谱。利用空间蛋白质组学技术——超多重同位素标记细胞器蛋白质定位（hyperLOPIT），我们获得了晚期裂殖体阶段表达的3000种恶性疟原虫蛋白质的数据。我们的hyperLOPIT数据解析了24个不同的细胞生态位，并通过监督式机器学习将1646种蛋白质分类到这些区室中，包括宿主细胞内的输出位点。通过比较基因组分析，我们的数据揭示了塑造疟原虫物种发育的细胞进化空间模式，以及持续存在的适应性压力和反应，这些因素对我们管理这些主要致病生物的努力构成挑战。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.27.690946",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.27.690946",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.27.690946/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33732907",
+  "title": "Structural properties and peptide ligand binding of the capsid homology domains of human Arc.",
+  "authors": "Hallin, Erik I; Bramham, Clive R; Kursula, Petri",
+  "journal": "Biochemistry and biophysics reports",
+  "published_date": "2021-03-19",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过晶体结构和热力学研究人类Arc蛋白C端结构域与肽段配体的结合机制，虽对象非典型IDP但涉及短线性基序介导的PPI及相分离假设，方法以实验为主、无AI/物理模拟，故综合评7分。",
+  "abstract": "The activity-regulated cytoskeleton-associated protein (Arc) is important for synaptic plasticity and the normal function of the brain. Arc interacts with neuronal postsynaptic proteins, but the mechanistic details of its function have not been fully established. The C-terminal domain of Arc consists of tandem domains, termed the N- and C-lobe. The N-lobe harbours a peptide binding site, able to bind multiple targets. By measuring the affinity of human Arc towards various peptides from stargazin and guanylate kinase-associated protein (GKAP), we have refined its specificity determinants. We found two sites in the GKAP repeat region that bind to Arc and confirmed these interactions by X-ray crystallography. Phosphorylation of the stargazin peptide did not affect binding affinity but caused changes in thermodynamic parameters. Comparison of the crystal structures of three high-resolution human Arc-peptide complexes identifies three conserved C-H...pi interactions at the binding cavity, explaining the sequence specificity of short linear motif binding by Arc. We further characterise central residues of the Arc lobe fold, show the effects of peptide binding on protein dynamics, and identify acyl carrier proteins as structures similar to the Arc lobes. We hypothesise that Arc may affect protein-protein interactions and phase separation at the postsynaptic density, affecting protein turnover and re-modelling of the synapse. The present data on Arc structure and ligand binding will help in further deciphering these processes.",
+  "abstract_zh": "活性调节细胞骨架相关蛋白（Arc）对突触可塑性和大脑正常功能至关重要。Arc与神经元突触后蛋白相互作用，但其功能的机制细节尚未完全阐明。Arc的C端结构域由串联结构域组成，称为N-叶和C-叶。N-叶含有一个肽结合位点，能够结合多个靶标。通过测量人Arc对来自stargazin和鸟苷酸激酶相关蛋白（GKAP）的各种肽段的亲和力，我们细化了其特异性决定因素。我们在GKAP重复区域中发现了两个与Arc结合的位点，并通过X射线晶体学确认了这些相互作用。stargazin肽段的磷酸化不影响结合亲和力，但导致热力学参数发生变化。对三个高分辨率人Arc-肽复合物晶体结构的比较，识别出结合腔内的三个保守C-H...π相互作用，这解释了Arc对短线性基序结合的序列特异性。我们进一步表征了Arc叶折叠的中心残基，展示了肽段结合对蛋白质动力学的影响，并鉴定出酰基载体蛋白为与Arc叶结构相似的蛋白质。我们假设Arc可能影响突触后密度处的蛋白质-蛋白质相互作用和相分离，从而影响蛋白质周转和突触重塑。目前关于Arc结构和配体结合的数据将有助于进一步解析这些过程。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33732907/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33732907/",
+  "paper_page_path": "papers/pubmed/33732907/index.html"
+}

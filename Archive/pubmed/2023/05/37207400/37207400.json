@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "37207400",
+    "doi": "10.1016/j.cbpa.2023.102317",
+    "title": "Towards sequence-based principles for protein phase separation predictions."
+  },
+  "content": {
+    "abstract": "The phenomenon of protein phase separation, which underlies the formation of biomolecular condensates, has been associated with numerous cellular functions. Recent studies indicate that the amino acid sequences of most proteins may harbour not only the code for folding into the native state but also for condensing into the liquid-like droplet state and the solid-like amyloid state. Here we review the current understanding of the principles for sequence-based methods for predicting the propensity of proteins for phase separation. A guiding concept is that entropic contributions are generally more important to stabilise the droplet state than they are for the native and amyloid states. Although estimating these entropic contributions has proven difficult, we describe some progress that has been recently made in this direction. To conclude, we discuss the challenges ahead to extend sequence-based prediction methods of protein phase separation to include quantitative in vivo characterisations of this process.",
+    "keywords": [
+      "Protein aggregation",
+      "Protein interactions",
+      "Protein phase separation",
+      "Sequence-based predictions"
+    ],
+    "mesh_terms": [
+      "*Amyloid",
+      "Amino Acid Sequence",
+      "*Cell Physiological Phenomena"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vendruscolo, Michele",
+        "Fuxreiter, Monika"
+      ],
+      "short_names": [
+        "Vendruscolo M",
+        "Fuxreiter M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK. Electronic address: mv245@cam.ac.uk.",
+        "Department of Biomedical Sciences, University of Padova, PD 35131, Italy; Department of Physics and Astronomy, University of Padova, PD 35131, Italy. Electronic address: monika.fuxreiter@unipd.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vendruscolo, Michele",
+        "short_name": "Vendruscolo M",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK. Electronic address: mv245@cam.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Fuxreiter, Monika",
+        "short_name": "Fuxreiter M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, PD 35131, Italy; Department of Physics and Astronomy, University of Padova, PD 35131, Italy. Electronic address: monika.fuxreiter@unipd.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in chemical biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Chem Biol"
+    ],
+    "pub_date": "2023 Aug",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/20 09:42",
+    "fetched_at": "2026-09-20 22:07:46"
+  },
+  "links": {
+    "cites": [
+      "42339383",
+      "42231907",
+      "42184109",
+      "41877588",
+      "41814089",
+      "41667449",
+      "41235398",
+      "41219432",
+      "40969877",
+      "40867524",
+      "40330699",
+      "40180817",
+      "40037809",
+      "39920231",
+      "39710972",
+      "39482532",
+      "39434494",
+      "39243101",
+      "39133858",
+      "38987300",
+      "38937372",
+      "38459060",
+      "38405719",
+      "38378578",
+      "38296708"
+    ],
+    "refs": [],
+    "similar": [
+      "37207400",
+      "34391803",
+      "37267850",
+      "36551199",
+      "36341999",
+      "39133858",
+      "35610022",
+      "35998851",
+      "36870067",
+      "33318217",
+      "37230179",
+      "35895272",
+      "36230986",
+      "29509422",
+      "32548680",
+      "30682370",
+      "33827920",
+      "33510441",
+      "23912807",
+      "36503242",
+      "33144560",
+      "31928729",
+      "32169484",
+      "36061735",
+      "37238596",
+      "33078839",
+      "37084706",
+      "26149932",
+      "37004350",
+      "34044018",
+      "34291921",
+      "29258725",
+      "35245500",
+      "36288994",
+      "37379327",
+      "35657723",
+      "36524527",
+      "36979462",
+      "35276458",
+      "19396379",
+      "28542905",
+      "34871547",
+      "29187516",
+      "35485974",
+      "34808226",
+      "36682493",
+      "36227471",
+      "25131585",
+      "31604601",
+      "36350032",
+      "19133274",
+      "36028355",
+      "35815989",
+      "16772049",
+      "34235141",
+      "35500664",
+      "33583140",
+      "32696384",
+      "37489654",
+      "32800925",
+      "36009025",
+      "33661634",
+      "36251053",
+      "36310218",
+      "38759297",
+      "37285890",
+      "31805282",
+      "34222258",
+      "33069007",
+      "36595668",
+      "34102212",
+      "31076235",
+      "25294878",
+      "37252985",
+      "35880435",
+      "27357569",
+      "19393661",
+      "33640380",
+      "32726575",
+      "38335954",
+      "38192350"
+    ],
+    "review": [
+      "37207400",
+      "37267850",
+      "35998851",
+      "36870067",
+      "37230179",
+      "36230986",
+      "29509422",
+      "32548680",
+      "30682370",
+      "33510441",
+      "36503242",
+      "31928729",
+      "32169484",
+      "33078839",
+      "26149932",
+      "37004350",
+      "34291921",
+      "29258725",
+      "35245500",
+      "37379327",
+      "36524527",
+      "19396379",
+      "29187516",
+      "34808226",
+      "25131585",
+      "31604601",
+      "36350032",
+      "36028355",
+      "35815989",
+      "16772049",
+      "34235141",
+      "33583140",
+      "32800925",
+      "38759297",
+      "33069007",
+      "31076235",
+      "27357569",
+      "32726575"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1367-5931(23)00055-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

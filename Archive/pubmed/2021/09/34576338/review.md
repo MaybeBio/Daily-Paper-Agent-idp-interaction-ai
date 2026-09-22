@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusions, and methods sections. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to presented evidence, and suitability for a general interdisciplinary audience. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors compare two atomistic force fields, Amber ff99SB-ILDN+TIP4P-D (A99) and CHARMM36m (C36), for simulating four phosphorylated intrinsically disordered peptides. They report that C36 consistently produces more compact conformations than A99, attributed primarily to more stable salt bridges. For the peptide with the largest charge separation (bCPP), increasing ionic strength to 150 mM NaCl does not significantly alter global conformational properties despite reducing some salt-bridge probabilities. The authors conclude that C36 overestimates compactness for these systems, that charge separation controls the impact of salt-bridge stability, and that adjusting side-chain partial charges of phosphorylated residues may improve force field accuracy.
+- **Visible evidence base** Main text figures (Figures 1–10), Tables 1–2, and equations. Supplementary figures and tables are referenced but not available for review.
+- **Missing materials affecting confidence** All supplementary material (Figures S1–S33, Tables S1–S5), including convergence analyses, contact maps, scattering curve calculations, and simulation setup details. Experimental data sources are cited but not reproduced. This limits verification of sampling quality, the scattering comparison, and the salt-concentration analysis.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a relevant and timely question in the simulation of phosphorylated intrinsically disordered proteins, namely the performance of two widely used force fields. The study design is straightforward, the systems are well chosen to probe charge effects, and the main finding that C36 produces more compact ensembles than A99 is clearly presented. However, the evidence base is incomplete in several respects. The comparison to experimental data is limited to two peptides, and the analysis of salt effects is confined to a single peptide. The claim that salt-bridge overstabilization is the primary cause of compaction is plausible but not rigorously established, as no direct perturbation of salt-bridge strength is performed. The conclusion that A99 is more accurate for these systems rests on limited experimental benchmarks. The manuscript is generally well written and accessible, but several technical details and interpretive steps require clarification or additional support.
+- **Who would be interested in the results, and why** Researchers in the molecular simulation community, particularly those working on intrinsically disordered proteins, post-translational modifications, and force field development. The results are also relevant to experimentalists using simulations to interpret data on phosphorylated IDPs, as the choice of force field can materially affect conformational ensembles and derived conclusions.
+- **Major strengths** The study addresses a specific and important gap, namely the performance of force fields for phosphorylated IDPs, which has received limited attention. The choice of four peptides with varying charge distributions is logical and allows for systematic comparison. The use of multiple replicates and long simulation times (at least 1 µs per replicate) is commendable. The analysis of salt bridges, secondary structure, and energy landscapes provides a multi-faceted view of the conformational ensembles. The comparison to experimental data for Tau1 and Stath, while limited, adds practical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "CHARMM36m consistently produced more compact conformations with a higher content of bends, mainly due to more stable salt bridges."
+  - **Evidence pointer** Section 2.2, Figure 3, Section 2.3, Figures 5–8
+  - **Concern** The causal link between salt-bridge stability and overall compaction is inferred from correlation, not established by direct manipulation. The authors do not perform simulations with modified salt-bridge strengths or with charge-neutralizing mutations to test whether reducing salt-bridge stability specifically relieves compaction. The observation that C36 has higher salt-bridge occupancy and more compact ensembles is consistent with the hypothesis, but alternative explanations, such as differences in backbone parameters or water model behavior, are not excluded.
+  - **Why it matters** The central mechanistic claim of the paper, that salt-bridge overstabilization drives the force field differences, underpins the recommendation to adjust side-chain partial charges. Without direct evidence, this recommendation is speculative. If the compaction arises from other force field components, the proposed fix would be ineffective.
+  - **Resolution test** Perform additional simulations where salt-bridge interactions are weakened, for example by scaling side-chain charges of phosphorylated residues or by using a modified force field variant, and show that the conformational differences between A99 and C36 are reduced. Alternatively, demonstrate that the magnitude of compaction correlates quantitatively with salt-bridge occupancy across a series of charge-distribution variants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the conformational ensemble did not change significantly upon increasing the ionic strength from 0 mM to 150 mM, despite a reduction of the salt-bridging probability in the CHARMM36m simulations, implying that salt concentration has negligible effects in this study."
+  - **Evidence pointer** Section 2.4, Figure 9, Figure 10, Supplementary Figures S3–S5
+  - **Concern** The conclusion that salt effects are negligible is based on a single peptide (bCPP) and on comparisons of average Rg and Ree values that are stated to be "indistinguishable" without statistical testing. The authors report error estimates from block averaging, but no formal significance testing is presented. Moreover, the reduction in salt-bridge probability is not quantified, and the relationship between this reduction and the lack of change in global dimensions is not analyzed. The generalization to other peptides is not supported.
+  - **Why it matters** The claim that salt concentration can be ignored is used to justify comparisons with experimental data collected at 150 mM NaCl. If this claim is not robust, the experimental comparisons for Stath and Tau1 may be invalid. The lack of statistical rigor weakens the reliability of this conclusion.
+  - **Resolution test** Provide statistical comparisons (e.g., confidence intervals or hypothesis tests) for the Rg and Ree distributions with and without salt. Quantify the change in salt-bridge occupancy and show that the lack of effect on global dimensions is consistent with the magnitude of the change. Extend the salt analysis to at least one additional peptide to support generalizability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "A99 was in good agreement, while C36 overestimated the level of compaction" when comparing to experimental data for Stath.
+  - **Evidence pointer** Section 2.1, Figure 2d, Supplementary Figure S1, Table S2
+  - **Concern** The comparison to experimental scattering data for Stath is presented as a key validation, but the details are not fully described in the main text. The choice of hydration shell contrast is acknowledged to affect the comparison, and the optimal contrast differs between force fields. The authors do not report the uncertainty in the fitted parameters or the sensitivity of the conclusion to the contrast choice. The experimental Rg value is given with a large uncertainty (±0.2 nm), and the A99 value is within this range, but the C36 value is not, which is the basis for the claim. However, the robustness of this conclusion to the analysis choices is not demonstrated.
+  - **Why it matters** The experimental comparison is the primary evidence for the relative accuracy of the two force fields. If the comparison is sensitive to arbitrary analysis choices, the conclusion that C36 overestimates compactness is weakened.
+  - **Resolution test** Provide a sensitivity analysis of the scattering comparison to the hydration shell contrast, and report the uncertainty in the fitted Rg values. Show that the conclusion is robust across a reasonable range of contrast values.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the conformational ensemble did not change significantly upon increasing the ionic strength" and that "salt concentration has negligible effects in this study."
+  - **Evidence pointer** Section 2.4, Figure 10, Supplementary Figures S4–S5
+  - **Concern** The energy landscapes in Figure 10 are presented as evidence of broadening with salt, but the analysis is qualitative. The authors do not quantify the change in the free energy surface or the population of different conformational states. The claim that the changes are "rather small" is not supported by quantitative metrics.
+  - **Why it matters** The conclusion that salt effects are negligible relies on the interpretation of these energy landscapes. Without quantitative analysis, the claim is not rigorously established.
+  - **Resolution test** Compute quantitative measures of the energy landscape, such as the population of the most populated basin or the entropy of the conformational distribution, and show that these do not change significantly with salt.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.1, Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The figure caption does not define the color scheme or the meaning of the distributions. The reader is left to infer which force field corresponds to which color.
+  - **Required correction** Add a clear legend to Figure 1 and define all abbreviations in the caption.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4, Materials and Methods
+  - **Evidence pointer** Section 4
+  - **Issue** The description of the simulation setup is incomplete. The authors state that "a few differences applied to the salt simulations to reduce the computational time" are compiled in Supplementary Tables S4 and S5, but these are not available. The main text does not specify the salt concentration, the number of ions added, or the equilibration protocol for the salt simulations.
+  - **Required correction** Provide the key simulation parameters for the salt simulations in the main text, or ensure the supplementary tables are available to the reader.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.2, Figure 3
+  - **Evidence pointer** Figure 3
+  - **Issue** The salt-bridge analysis is described as "occupancy," but the exact definition is not given. It is unclear whether this is a fraction of frames or a time-averaged quantity.
+  - **Required correction** Define the occupancy metric explicitly in the methods or figure caption.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.3, Figures 5–8
+  - **Evidence pointer** Figures 5–8
+  - **Issue** The energy landscapes are presented as two-dimensional projections, but the axes are not labeled with physical quantities. The reader cannot interpret the free energy surface without additional context.
+  - **Required correction** Label the axes with the principal component indices and the free energy units, and add a color bar.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section 2.2, paragraph on Tau2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The comparison to NMR data for Tau2 is mentioned, but the details are not provided. The authors state that both force fields "captured the experimentally established salt bridges," but the extent of agreement is not quantified.
+  - **Required correction** Provide a quantitative comparison to the NMR data, such as the fraction of experimentally observed salt bridges reproduced by each force field.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal link between salt-bridge stability and compaction not established), R1-M2 (lack of statistical testing for salt effects), R1-M3 (sensitivity of experimental comparison to analysis choices not demonstrated).
+- **Assessment against Nature-style criteria** Originality: The study addresses a specific and under-explored question, namely force field performance for phosphorylated IDPs. While not conceptually novel, it provides a systematic comparison that is of practical value. Scientific importance: The results are relevant to a broad community of simulation users and force field developers, but the limited scope (four short peptides) and the lack of a definitive mechanistic test reduce the significance. Interdisciplinary readership: The topic is of interest to biophysicists, computational chemists, and biochemists, but the presentation assumes familiarity with simulation methods. Technical soundness: The simulation protocols are generally sound, but the causal claims and statistical analyses are insufficient. Readability for nonspecialists: The manuscript is clearly written, but some figures and methods require more explanation for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation that C36 produces more compact ensembles than A99 for these phosphorylated IDPs is likely robust and of interest. However, the mechanistic interpretation and the claim that salt effects are negligible require additional evidence. The manuscript would be strengthened by addressing the concerns above, particularly by providing direct tests of the salt-bridge hypothesis and statistical support for the salt-concentration conclusions.
+
+## Risk / unsupported claims
+- The claim that salt-bridge overstabilization is the primary cause of the observed compaction is not directly supported by the presented evidence.
+- The claim that salt concentration has negligible effects on the conformational ensemble is not statistically tested and is based on a single peptide.
+- The conclusion that A99 is in good agreement with experimental data for Stath is sensitive to the choice of hydration shell contrast, and the robustness of this conclusion is not demonstrated.
+- The generalization of the findings to other phosphorylated IDPs beyond the four studied is not supported by the data.

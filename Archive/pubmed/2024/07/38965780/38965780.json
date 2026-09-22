@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "38965780",
+    "doi": "10.1016/j.bpj.2024.07.004",
+    "title": "A colloidal model for the equilibrium assembly and liquid-liquid phase separation of the reflectin A1 protein."
+  },
+  "content": {
+    "abstract": "Reflectin is an intrinsically disordered protein known for its ability to modulate the biophotonic camouflage of cephalopods based on its assembly-induced osmotic properties. Its reversible self-assembly into discrete, size-controlled clusters and condensed droplets are known to depend sensitively on the net protein charge, making reflectin stimuli-responsive to pH, phosphorylation, and electric fields. Despite considerable efforts to characterize this behavior, the detailed physical mechanisms of reflectin's assembly are not yet fully understood. Here, we pursue a coarse-grained molecular understanding of reflectin assembly using a combination of experiments and simulations. We hypothesize that reflectin assembly and phase behavior can be explained from a remarkably simple colloidal model whereby individual protein monomers effectively interact via a short-range attractive and long-range repulsive (SA-LR) pair potential. We parameterize a coarse-grained SA-LR interaction potential for reflectin A1 from small-angle x-ray scattering measurements, and then extend it to a range of pH values using Gouy-Chapman theory to model monomer-monomer electrostatic interactions. The pH-dependent SA-LR interaction is then used in molecular dynamics simulations of reflectin assembly, which successfully capture a number of qualitative features of reflectin, including pH-dependent formation of discrete-sized nanoclusters and liquid-liquid phase separation at high pH, resulting in a putative phase diagram for reflectin. Importantly, we find that at low pH size-controlled reflectin clusters are equilibrium assemblies, which dynamically exchange protein monomers to maintain an equilibrium size distribution. These findings provide a mechanistic understanding of the equilibrium assembly of reflectin, and suggest that colloidal-scale models capture key driving forces and interactions to explain thermodynamic aspects of native reflectin behavior. Furthermore, the success of SA-LR interactions presented in this study demonstrates the potential of a colloidal interpretation of interactions and phenomena in a range of intrinsically disordered proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Colloids/chemistry",
+      "Hydrogen-Ion Concentration",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Static Electricity",
+      "Models, Molecular",
+      "Animals",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Tse-Chiang",
+        "Levenson, Robert",
+        "Li, Youli",
+        "Kohl, Phillip",
+        "Morse, Daniel E",
+        "Shell, M Scott",
+        "Helgeson, Matthew E"
+      ],
+      "short_names": [
+        "Huang TC",
+        "Levenson R",
+        "Li Y",
+        "Kohl P",
+        "Morse DE",
+        "Shell MS",
+        "Helgeson ME"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical Engineering, University of California Santa Barbara, Santa Barbara, California.",
+        "Life Sciences, Soka University of America, Aliso Viejo, California.",
+        "Materials Research Laboratory, University of California Santa Barbara, Santa Barbara, California.",
+        "Materials Research Laboratory, University of California Santa Barbara, Santa Barbara, California.",
+        "Department of Molecular, Cellular, and Developmental Biology, University of California Santa Barbara, Santa Barbara, California.",
+        "Department of Chemical Engineering, University of California Santa Barbara, Santa Barbara, California. Electronic address: shell@ucsb.edu.",
+        "Department of Chemical Engineering, University of California Santa Barbara, Santa Barbara, California. Electronic address: helgeson@ucsb.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Tse-Chiang",
+        "short_name": "Huang TC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, University of California Santa Barbara, Santa Barbara, California."
+        ]
+      },
+      {
+        "full_name": "Levenson, Robert",
+        "short_name": "Levenson R",
+        "identifiers": [],
+        "affiliations": [
+          "Life Sciences, Soka University of America, Aliso Viejo, California."
+        ]
+      },
+      {
+        "full_name": "Li, Youli",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Materials Research Laboratory, University of California Santa Barbara, Santa Barbara, California."
+        ]
+      },
+      {
+        "full_name": "Kohl, Phillip",
+        "short_name": "Kohl P",
+        "identifiers": [],
+        "affiliations": [
+          "Materials Research Laboratory, University of California Santa Barbara, Santa Barbara, California."
+        ]
+      },
+      {
+        "full_name": "Morse, Daniel E",
+        "short_name": "Morse DE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular, Cellular, and Developmental Biology, University of California Santa Barbara, Santa Barbara, California."
+        ]
+      },
+      {
+        "full_name": "Shell, M Scott",
+        "short_name": "Shell MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, University of California Santa Barbara, Santa Barbara, California. Electronic address: shell@ucsb.edu."
+        ]
+      },
+      {
+        "full_name": "Helgeson, Matthew E",
+        "short_name": "Helgeson ME",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, University of California Santa Barbara, Santa Barbara, California. Electronic address: helgeson@ucsb.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2024 Sep 17",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/05 06:42",
+    "fetched_at": "2026-09-21 08:26:01"
+  },
+  "links": {
+    "cites": [
+      "42423205",
+      "40130040",
+      "39922493",
+      "39201640"
+    ],
+    "refs": [
+      "39201640",
+      "37403486",
+      "36692450",
+      "35705397",
+      "34361653",
+      "34140838",
+      "33555894",
+      "33465848",
+      "33323484",
+      "33259748",
+      "32787275",
+      "32097553",
+      "31936201",
+      "31558609",
+      "31437398",
+      "30914749",
+      "30420606",
+      "29517898",
+      "28793210",
+      "28343140",
+      "27454809",
+      "27447055",
+      "26719342",
+      "26626508",
+      "26620937",
+      "25918159",
+      "24950329",
+      "24899107",
+      "24739175",
+      "23561534",
+      "23359694",
+      "21207964",
+      "21114324",
+      "19906421",
+      "19776150",
+      "17820163",
+      "17546036",
+      "17201449",
+      "17048949",
+      "16597822",
+      "16050753",
+      "15740267",
+      "15688143",
+      "15565151",
+      "15544413",
+      "14716016",
+      "11606398",
+      "11025552",
+      "3083038"
+    ],
+    "similar": [
+      "38965780",
+      "31558609",
+      "39183923",
+      "39201640",
+      "23912807",
+      "37810582",
+      "33629837",
+      "37403486",
+      "39248414",
+      "29573987",
+      "28889973",
+      "26719342",
+      "19298093",
+      "38546977",
+      "30217894",
+      "30873835",
+      "29886015",
+      "33555894",
+      "30865820",
+      "33934416",
+      "28422503",
+      "32436706",
+      "31784535",
+      "32393642",
+      "33139563",
+      "30529747",
+      "28984441",
+      "38979955",
+      "26914439",
+      "33259748",
+      "37079924",
+      "34716273",
+      "33453922",
+      "33577679",
+      "30914749",
+      "24278008",
+      "39248370",
+      "34259536",
+      "39225535",
+      "27846698",
+      "25207671",
+      "25375525",
+      "15565151",
+      "21436505",
+      "38761906",
+      "32097553",
+      "38855848",
+      "34598580",
+      "33684117",
+      "25650939",
+      "38308651",
+      "29397728",
+      "29186229",
+      "25918159",
+      "33069007",
+      "32696384",
+      "27392146",
+      "29364893",
+      "33582133",
+      "38112495",
+      "33307683",
+      "39412378",
+      "32087632",
+      "34571015",
+      "39531035",
+      "34181980",
+      "31709918",
+      "26434352",
+      "35364545",
+      "38252962",
+      "24289039",
+      "34626996",
+      "27216316",
+      "36272811",
+      "37782765",
+      "36227468",
+      "33076213",
+      "24123297",
+      "36343363",
+      "28160710",
+      "34576338",
+      "30397688",
+      "26762675",
+      "26735936",
+      "18163709",
+      "29424691",
+      "33302617",
+      "33876938",
+      "39302099",
+      "35883530",
+      "21090596",
+      "36444977",
+      "32312191",
+      "35813206",
+      "39105804",
+      "30471685",
+      "36040869",
+      "38322526",
+      "26910732",
+      "28893908"
+    ],
+    "review": [
+      "38965780",
+      "29886015",
+      "28984441",
+      "38979955",
+      "21436505",
+      "38855848",
+      "33069007",
+      "31709918",
+      "21090596"
+    ],
+    "pmc": [
+      "11427776"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(24)00443-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38965780/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

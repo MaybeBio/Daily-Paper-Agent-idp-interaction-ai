@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose S-PLM, a structure-aware protein language model that uses multi-view contrastive learning to align sequence and 3D structure representations. Structural information is embedded via a Swin-Transformer applied to AlphaFold-predicted structures and fused with ESM2 sequence embeddings. The authors claim superior performance over sequence-only PLMs on protein clustering and classification tasks, with competitiveness comparable to state-of-the-art methods that require both sequence and structure inputs. Lightweight tuning tools are provided for downstream tasks.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or methodological specifics are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, benchmark datasets, evaluation protocols, baseline comparisons, statistical significance tests, and implementation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to integrating structural information into protein language models via contrastive learning. However, the evidence provided is insufficient to evaluate the validity of the central claims. No quantitative results, benchmark descriptions, or methodological details are presented. The claim of superior performance cannot be assessed without access to the underlying data and analyses. The work may be of interest to the protein machine learning community, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers in computational biology, protein engineering, and machine learning applied to biomolecular data would be interested. The approach addresses a recognized limitation of sequence-only PLMs and could inform methods for structure-aware representation learning. Practitioners developing tools for protein function prediction and design may also find the lightweight tuning library useful.
+- **Major strengths** The conceptual motivation is clear and addresses a relevant gap in the field. The use of AlphaFold-predicted structures is practical, as experimental structures are often unavailable. The provision of lightweight tuning tools is a practical contribution that could lower barriers to adoption.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim "superior performance over sequence-only PLMs on all protein clustering and classification tasks" and "competitiveness comparable to state-of-the-art methods requiring both sequence and structure inputs."
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative results provided
+  - **Concern** The abstract provides no numerical results, benchmark names, evaluation metrics, or statistical significance assessments. Without these, the central performance claims are unverifiable.
+  - **Why it matters** The primary contribution of the work is the claimed performance improvement. If the evidence is not presented, the scientific case is not established.
+  - **Resolution test** Provide benchmark datasets, evaluation metrics, baseline comparisons, and statistical tests in the full manuscript. The claims should be supported by reproducible quantitative results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract states that S-PLM "utilizes multi-view contrastive learning to align the sequence and 3D structure" and "applies Swin-Transformer on AlphaFold-predicted protein structures."
+  - **Evidence pointer** Abstract only; no methodological details provided
+  - **Concern** The abstract does not describe the contrastive learning objective, the architecture of the fusion mechanism, or how the Swin-Transformer is adapted for protein structures. Key design choices are unspecified.
+  - **Why it matters** Without methodological detail, the approach cannot be evaluated for novelty, soundness, or reproducibility.
+  - **Resolution test** Provide a detailed methods section describing the contrastive loss, the fusion architecture, and the structural embedding pipeline.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope of validation
+  - **Claim pointer** The abstract claims superiority "on all protein clustering and classification tasks" and competitiveness with state-of-the-art methods.
+  - **Evidence pointer** Abstract only; no task list or dataset descriptions provided
+  - **Concern** The abstract does not specify which clustering and classification tasks were evaluated, nor which state-of-the-art methods were compared. The breadth of the claim is unclear.
+  - **Why it matters** The generality of the performance claim cannot be assessed without knowing the task distribution and comparison set.
+  - **Resolution test** Enumerate the tasks, datasets, and baselines in the full manuscript. Clarify the scope of the performance claims.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Software availability statement
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that S-PLM and tuning tools are available at a GitHub URL, but no license, documentation, or usage details are mentioned.
+  - **Required correction** Specify the software license and provide basic usage documentation in the full manuscript or repository.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of contribution
+  - **Affected element** Lightweight tuning tools
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "a library of lightweight tuning tools" but does not describe what these tools do or how they differ from existing adaptation methods.
+  - **Required correction** Briefly describe the tuning tools and their intended use cases in the abstract or introduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "Multi-view contrastive learning"
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "multi-view" is used but not defined. It is unclear whether the views refer to sequence and structure only or to additional augmentations.
+  - **Required correction** Define "multi-view" in the context of the contrastive learning framework.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and task specification prevents any assessment of the core claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of aligning sequence and structure via contrastive learning is not entirely new, but the specific combination of ESM2 and Swin-Transformer on AlphaFold structures may offer a novel contribution. This cannot be fully assessed from the abstract.
+  - Scientific importance: If validated, the approach could improve structure-aware protein representation learning, which is relevant to function prediction and design. The importance is plausible but not demonstrated.
+  - Interdisciplinary readership: The work bridges machine learning and structural biology, which could appeal to a broad audience. However, the abstract lacks sufficient detail to engage nonspecialists.
+  - Technical soundness: Not assessable from the abstract. The methodological description is too sparse to evaluate correctness or robustness.
+  - Readability for nonspecialists: The abstract is generally clear in its motivation and high-level approach, but technical terms such as "Swin-Transformer" and "multi-view contrastive learning" are used without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach, but the central performance claims are unsupported. A full manuscript with quantitative results, methodological detail, and task specification is required before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim of "superior performance over sequence-only PLMs on all protein clustering and classification tasks" is unsupported, as no results are provided.
+- The claim of "competitiveness comparable to state-of-the-art methods requiring both sequence and structure inputs" is unsupported, as no comparison details are given.
+- The effectiveness of the contrastive learning alignment and the Swin-Transformer-based structural embedding is not assessable from the abstract.
+- The utility and functionality of the lightweight tuning tools are not described and thus cannot be evaluated.

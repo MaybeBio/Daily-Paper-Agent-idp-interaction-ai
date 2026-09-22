@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that protein interactions, specifically survivin (BIRC5) binding, can be predicted from the functional group composition of peptide sequences alone, using supervised and unsupervised machine learning. They report an Edmond-Ogston-inspired mixing model that predicts survivin binding as a function of composition, experimental validation via peptide microarray, and extension to the human proteome revealing compositional signatures and functional clusters.
+- **Visible evidence base** Abstract text only; no quantitative results, model performance metrics, dataset descriptions, or experimental details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, peptide microarray data, model training and validation details, statistical analyses, and proteome-wide results
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing hypothesis that protein interaction specificity may be encoded in functional group composition rather than exact sequence. The concept is conceptually appealing and could offer a simplified framework for studying IDP interactions. However, the abstract provides insufficient quantitative evidence to evaluate the strength of the claims. Key metrics such as prediction accuracy, statistical significance, dataset sizes, and comparison against baseline methods are absent. The connection to chemical thermodynamics via the Edmond-Ogston model is mentioned but not explained. While the idea has potential scientific interest, the current evidence base is too limited to assess technical soundness or establish the case.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein interaction prediction, and systems biology would find this work relevant. The compositional approach could appeal to those seeking alternatives to sequence-based homology methods, and the potential link to chemical thermodynamics may interest biophysicists. The survivin focus could attract cancer biologists given survivin's role in apoptosis regulation.
+- **Major strengths** The hypothesis is novel and potentially paradigm-shifting if validated. The focus on composition rather than sequence offers a conceptually simpler framework. The inclusion of experimental validation via peptide microarray is a positive element, though details are lacking. The extension to the human proteome suggests broad applicability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the Edmond-Ogston-inspired mixing model can reliably predict survivin binding as a function of peptide composition alone
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No quantitative performance metrics are provided. The abstract does not report correlation coefficients, prediction errors, area under the curve, or any statistical measure supporting the reliability of the model. The term "reliably predict" is unsupported without such data.
+  - **Why it matters** Without quantitative evidence, the central claim of predictive power cannot be evaluated. Reliability is a statistical property that requires error bars, cross-validation results, and comparison to null models or existing methods.
+  - **Resolution test** Provide model performance metrics such as R-squared, root mean square error, or classification accuracy with confidence intervals, along with cross-validation results and comparison to sequence-based baseline methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The claim that experimental validation via peptide microarray confirms the predictive power of the compositional model, independent of exact amino acid sequences
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states experimental validation was performed but provides no details on the microarray design, number of peptides tested, binding affinity measurements, or statistical concordance between predictions and experiments. The phrase "confirms the predictive power" is a strong conclusion that requires explicit numerical agreement.
+  - **Why it matters** Experimental validation is the cornerstone of the claim that composition alone suffices for prediction. Without details on experimental design and quantitative agreement, the validation cannot be assessed for adequacy or potential confounding factors such as peptide length, hydrophobicity, or array artifacts.
+  - **Resolution test** Describe the peptide microarray design, report the number of peptides, binding measurements, and provide a quantitative comparison between predicted and measured binding values with appropriate statistical tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The claim that extending the method across the human proteome identified distinct compositional signatures correlating with survivin interactions and revealed biologically meaningful functional clusters
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The proteome-wide extension is described without any supporting statistics. No information is given on how many proteins were analyzed, how compositional signatures were defined, what statistical significance was achieved, or how functional clusters were validated as biologically meaningful. The term "biologically meaningful" is subjective without functional enrichment analysis or experimental corroboration.
+  - **Why it matters** The claim of proteome-wide applicability and biological relevance is a major extension of the work. Without statistical support and validation, these claims remain speculative and could mislead readers about the method's general utility.
+  - **Resolution test** Provide the number of proteins analyzed, statistical significance of compositional signatures, and functional enrichment analysis or independent validation for the identified clusters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Edmond-Ogston-inspired mixing model
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The connection to the Edmond-Ogston model and chemical thermodynamics is mentioned but not explained. Readers unfamiliar with this model will not understand the analogy or its relevance.
+  - **Required correction** Briefly explain the Edmond-Ogston model and how it relates to protein composition and binding, or provide a citation for context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Functional group composition"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "functional group composition" is used without definition. It is unclear whether this refers to amino acid side chain chemistries, chemical moieties, or some other feature.
+  - **Required correction** Define what constitutes a functional group in this context and how composition is computed from protein sequences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalization to all protein interactions
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract title and concluding statement suggest a general "blueprint underpinning protein interactions," but the evidence is limited to survivin binding. This overgeneralization is not supported.
+  - **Required correction** Qualify the conclusions to survivin interactions and state explicitly that generalization to other protein interactions requires further testing.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative model performance, experimental validation details, and proteome-wide statistical support means the core claims are currently unverifiable from the provided material.
+- **Assessment against Nature-style criteria** Originality is high, as the compositional approach is a novel departure from sequence-based methods. Scientific importance is potentially significant for IDP research and interaction prediction, but this cannot be confirmed without evidence. Interdisciplinary readership is plausible given the intersection of machine learning, biophysics, and molecular biology, though the abstract lacks sufficient detail to engage specialists. Technical soundness is not assessable from the abstract alone due to missing metrics and methods. Readability for nonspecialists is moderate, but the unexplained Edmond-Ogston reference and undefined terminology reduce accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and warrants full evaluation, but the abstract alone does not provide sufficient quantitative support. A revised abstract with key metrics and clearer methodology descriptions, or access to the full manuscript, would be required to assess whether the claims are substantiated.
+
+## Risk / unsupported claims
+- The claim of reliable prediction of survivin binding from composition alone is unsupported without quantitative performance metrics.
+- The claim that peptide microarray experiments confirm predictive power is unsupported without experimental details and statistical concordance.
+- The claim of distinct compositional signatures across the human proteome is unsupported without statistical significance or cluster validation.
+- The claim of biologically meaningful functional clusters is unsupported without functional enrichment or independent validation.
+- The general conclusion of a compositional blueprint underpinning protein interactions is an overgeneralization beyond the survivin-specific evidence presented.

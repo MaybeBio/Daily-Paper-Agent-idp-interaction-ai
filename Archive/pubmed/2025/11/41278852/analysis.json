@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41278852",
+  "title": "The Role of Linker Length and Composition in Actin Binding and Bundling by Palladin.",
+  "authors": "Sargent, Rachel A; Bradford, Colby W; Hughes, Lauren M; Ta, Nathan H; Limpiado, MarcArthur J; Vattepu, Ravi; Brungardt, Joseph G; Beck, Moriah R",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-11-24",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究Palladin蛋白中长无序连接区通过长度、电荷和序列模式调控肌动蛋白结合与成束的机制，虽对象为肌动蛋白而非典型PPI，但揭示了IDR通过构象动态和静电调控多价互作的通用机制，对无序蛋白介导互作建模有启发。",
+  "abstract": "Interdomain linkers in multidomain proteins influence spatial arrangement, flexibility, and cooperative binding, yet their functional roles remain underexplored. Palladin, an actin scaffold protein essential for cytoskeletal organization, contains tandem immunoglobulin domains (Ig3-4) separated by an unusually long (~41-residue), arginine-rich, intrinsically disordered linker. While Ig3 mediates direct F-actin binding, the adjacent Ig4 domain and linker enhance binding and bundling, suggesting active roles beyond passive connection. Using targeted mutagenesis, actin co-sedimentation, bundling assays, and SAXS, we show that linker length, charge, and residue patterning are critical for activity. Shortening or replacing the 41-residue linker with the native Ig4-Ig5 linker reduced binding and abolished bundling, while small internal deletions decreased affinity but unexpectedly increased bundling efficiency. Neutralizing basic residues eliminated activity, increasing net positive charge favored bundling at the cost of binding affinity, and scrambling the sequence impaired both functions-demonstrating that electrostatic tuning and residue order, not just net charge, are essential. SAXS revealed that the native linker supports a broad, dynamic interdomain ensemble, enabling multiple binding-competent geometries. Shortened linkers restricted this conformational space, locking domains in extended orientations incompatible with efficient actin engagement. These results establish the Ig3-Ig4 linker as a finely tuned structural and electrostatic module that coordinates domain flexibility and filament crosslinking. More broadly, these findings highlight long, intrinsically disordered linkers as active determinants of cytoskeletal scaffold function, providing a general mechanism for modulating multivalent interactions in actin-binding proteins.",
+  "abstract_zh": "多结构域蛋白中的结构域间连接区影响空间排布、柔性和协同结合，但其功能角色仍未得到充分探索。Palladin是一种对细胞骨架组织至关重要的肌动蛋白支架蛋白，包含由异常长的（约41个残基）、富含精氨酸的内在无序连接区隔开的串联免疫球蛋白结构域（Ig3-4）。虽然Ig3介导直接的F-肌动蛋白结合，但相邻的Ig4结构域和连接区增强结合和成束，表明其作用超越被动连接。通过靶向突变、肌动蛋白共沉淀、成束实验和小角X射线散射（SAXS），我们表明连接区的长度、电荷和残基模式对活性至关重要。将41个残基的连接区缩短或替换为天然Ig4-Ig5连接区会降低结合并消除成束，而小的内部缺失降低亲和力但意外地提高成束效率。中和碱性残基消除活性，增加净正电荷有利于成束但以结合亲和力为代价，而打乱序列则损害两种功能——证明静电调控和残基顺序（而不仅仅是净电荷）是必需的。SAXS揭示天然连接区支持广泛、动态的结构域间系综，使多种结合胜任的几何构型成为可能。缩短的连接区限制了这一构象空间，将结构域锁定在不利于有效肌动蛋白结合的延伸取向中。这些结果确立了Ig3-Ig4连接区作为一个精细调谐的结构和静电模块，协调结构域柔性和丝交联。更广泛地，这些发现强调长的内在无序连接区是细胞骨架支架功能的主动决定因素，为肌动蛋白结合蛋白中多价相互作用的调节提供了一般机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41278852/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41278852/",
+  "paper_page_path": "papers/pubmed/41278852/index.html"
+}

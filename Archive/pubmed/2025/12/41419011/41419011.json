@@ -1,0 +1,208 @@
+{
+  "identity": {
+    "pmid": "41419011",
+    "doi": "10.1016/j.bbapap.2025.141119",
+    "title": "MetIoR: A meta predictor to predict intrinsic disorder in RNA binding proteins."
+  },
+  "content": {
+    "abstract": "Intrinsic disorder in proteins is ubiquitous in nature across various proteomes. The association of intrinsically disordered proteins (IDP) with a large variety of biomolecules is essential in many cellular functions. Moreover, IDPs are involved in many macromolecular assemblies including ribosome and spliceosome. Intrinsic disorder has been reported in several RNA binding proteins (RBPs), which makes the study of disordered regions in RBPs crucial. Experimental difficulties in accurately determining the structure of proteins with disordered regions using biophysical techniques necessitates their computational prediction. A large number of available computational tools have been developed to predict disordered residues in proteins, but the majority of them are generic in nature. In this study, we have addressed the lack of specific intrinsic disorder predictors in RBPs. We have developed MetIoR, a prediction tool specifically trained on RBPs, to predict intrinsically disordered regions in RBP using a meta-approach. We have developed our meta predictor, which requires a protein sequence, using five individual disorder predictors. We have employed a number of machine learning classifiers with stratified ten-fold cross validation and selected the best method in terms of prediction metrics. We have also examined the most optimal combination of individual predictors. MetIoR developed using Random Forest is fast, accurate and outperforms all its individual component predictors achieving an accuracy of 93.87 %, and a high AUC value of 0.91. The developed meta predictor is deployed as the MetIoR webserver, which can be freely accessed at http://www.csb.iitkgp.ac.in/applications/MetIoR/index.php.",
+    "keywords": [
+      "Intrinsically disordered proteins",
+      "Machine learning",
+      "Meta predictor",
+      "Protein-RNA interactions",
+      "RNA binding proteins"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*RNA-Binding Proteins/chemistry",
+      "Machine Learning",
+      "*Computational Biology/methods",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mitra, Swarnadip",
+        "Bahadur, Ranjit Prasad"
+      ],
+      "short_names": [
+        "Mitra S",
+        "Bahadur RP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computational Structural Biology Laboratory, Department of Bioscience and Biotechnology, Indian Institute of Technology Kharagpur, Kharagpur 721302, India.",
+        "Computational Structural Biology Laboratory, Department of Bioscience and Biotechnology, Indian Institute of Technology Kharagpur, Kharagpur 721302, India; Bioinformatics Centre, Department of Bioscience and Biotechnology, Indian Institute of Technology Kharagpur, Kharagpur 721302, India. Electronic address: r.bahadur@bt.iitkgp.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mitra, Swarnadip",
+        "short_name": "Mitra S",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Structural Biology Laboratory, Department of Bioscience and Biotechnology, Indian Institute of Technology Kharagpur, Kharagpur 721302, India."
+        ]
+      },
+      {
+        "full_name": "Bahadur, Ranjit Prasad",
+        "short_name": "Bahadur RP",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Structural Biology Laboratory, Department of Bioscience and Biotechnology, Indian Institute of Technology Kharagpur, Kharagpur 721302, India; Bioinformatics Centre, Department of Bioscience and Biotechnology, Indian Institute of Technology Kharagpur, Kharagpur 721302, India. Electronic address: r.bahadur@bt.iitkgp.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimica et biophysica acta. Proteins and proteomics"
+    ],
+    "journal_abbrev": [
+      "Biochim Biophys Acta Proteins Proteom"
+    ],
+    "pub_date": "2026 Feb 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/20 00:41",
+    "fetched_at": "2026-09-17 23:05:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41419011",
+      "32696351",
+      "27787828",
+      "38079339",
+      "34905768",
+      "28365882",
+      "34290238",
+      "16618368",
+      "28369666",
+      "39576583",
+      "26109352",
+      "36272675",
+      "33291838",
+      "24573480",
+      "26090958",
+      "40254833",
+      "37883249",
+      "35469832",
+      "30099775",
+      "33875885",
+      "31521235",
+      "19128505",
+      "31889261",
+      "32920048",
+      "40069726",
+      "23798504",
+      "36458437",
+      "34480923",
+      "31870849",
+      "30866736",
+      "40054813",
+      "26376097",
+      "29228892",
+      "33685590",
+      "40728620",
+      "34894985",
+      "27037624",
+      "40728619",
+      "32112084",
+      "29042212",
+      "28076807",
+      "24658593",
+      "38701796",
+      "25637562",
+      "29360926",
+      "23912807",
+      "30135358",
+      "38166858",
+      "38048333",
+      "31616935",
+      "28589442",
+      "31504193",
+      "32535960",
+      "40138319",
+      "34487138",
+      "30657889",
+      "38987470",
+      "30301243",
+      "24573479",
+      "31212691",
+      "35367597",
+      "40728621",
+      "39433833",
+      "34487791",
+      "27115638",
+      "37158175",
+      "32225071",
+      "41174305",
+      "32621220",
+      "39571839",
+      "31756456",
+      "33719450",
+      "37740110",
+      "32696395",
+      "32702119",
+      "32808039",
+      "30717652",
+      "32823616",
+      "31411026",
+      "40944448",
+      "39718444",
+      "35832617",
+      "40133781",
+      "23942625",
+      "38866950",
+      "28245811",
+      "34390736",
+      "26540053",
+      "25496281",
+      "32019410",
+      "28394890",
+      "26198229",
+      "37992088",
+      "40577786",
+      "36334049",
+      "31642118",
+      "39576584",
+      "18831774",
+      "39237195",
+      "37140058"
+    ],
+    "review": [
+      "41419011",
+      "33291838",
+      "31521235",
+      "31616935",
+      "28589442",
+      "30657889",
+      "35367597",
+      "37740110",
+      "34390736"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1570-9639(25)00057-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

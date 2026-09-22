@@ -1,0 +1,304 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.17.541126",
+  "title": "mRNA display reveals a class of high-affinity bromodomain-binding motifs that are not found in the human proteome",
+  "doi": "10.1101/2023.05.17.541126",
+  "abstract": "<h4>ABSTRACT</h4> Bromodomains regulate gene expression by recognizing protein motifs containing acetyllysine. Although originally characterized as histone-binding proteins, it has since become clear that these domains interact with other acetylated proteins, perhaps most prominently transcription factors. The likely transient nature and low stoichiometry of such modifications, however, has made it challenging to fully define the interactome of any given bromodomain. To begin to address this knowledge gap in an unbiased manner, we carried out mRNA display screens against a bromodomain – the N -terminal bromodomain of BRD3 – using peptide libraries that contained either one or two acetyllysine residues. We discovered peptides with very strong consensus sequences and with affinities that are significantly higher than typical bromodomain-peptide interactions. X-ray crystal structures also revealed modes of binding that have not been seen with natural ligands. Intriguingly, however, our selected sequences are not found in the human proteome, perhaps suggesting that strong binders to bromodomains might have been selected against.",
+  "authors": [
+    "Low JKK",
+    "Patel K",
+    "Solomon P",
+    "Norman A",
+    "Pachl P",
+    "Jones N",
+    "Payne RJ",
+    "Passioura T",
+    "Suga H",
+    "Walport LJ",
+    "Mackay JP"
+  ],
+  "published_date": "2023-05-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.17.541126",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.17.541126.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR661827",
+    "raw_record": {
+      "id": "PPR661827",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR661827"
+        ]
+      },
+      "doi": "10.1101/2023.05.17.541126",
+      "title": "mRNA display reveals a class of high-affinity bromodomain-binding motifs that are not found in the human proteome",
+      "authorString": "Low JKK, Patel K, Solomon P, Norman A, Pachl P, Jones N, Payne RJ, Passioura T, Suga H, Walport LJ, Mackay JP.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Low JKK",
+            "lastName": "Low",
+            "firstName": "Jason",
+            "initials": "JKK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life and Environmental Sciences, University of Sydney, NSW 2006 Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Patel K",
+            "lastName": "Patel",
+            "firstName": "Karishma",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life and Environmental Sciences, University of Sydney, NSW 2006 Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Solomon P",
+            "lastName": "Solomon",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life and Environmental Sciences, University of Sydney, NSW 2006 Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Norman A",
+            "lastName": "Norman",
+            "firstName": "Alexander",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Sydney, NSW 2006 Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pachl P",
+            "lastName": "Pachl",
+            "firstName": "Petr",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life and Environmental Sciences, University of Sydney, NSW 2006 Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jones N",
+            "lastName": "Jones",
+            "firstName": "Natasha",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life and Environmental Sciences, University of Sydney, NSW 2006 Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Payne RJ",
+            "lastName": "Payne",
+            "firstName": "Richard",
+            "initials": "RJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Sydney, NSW 2006 Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Passioura T",
+            "lastName": "Passioura",
+            "firstName": "Toby",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life and Environmental Sciences, University of Sydney, NSW 2006 Australia"
+                },
+                {
+                  "affiliation": "Department of Chemistry, Graduate School of Science, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, 113-0033, Japan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Suga H",
+            "lastName": "Suga",
+            "firstName": "Hiroaki",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5298-9186"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Graduate School of Science, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, 113-0033, Japan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Walport LJ",
+            "lastName": "Walport",
+            "firstName": "Louise",
+            "initials": "LJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Graduate School of Science, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, 113-0033, Japan"
+                },
+                {
+                  "affiliation": "The Francis Crick Institute, 1 Midland Road, London NW1 1AT"
+                },
+                {
+                  "affiliation": "Department of Chemistry, Molecular Sciences Research Hub, Imperial College London, London W12 0BZ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mackay JP",
+            "lastName": "Mackay",
+            "firstName": "Joel",
+            "initials": "JP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life and Environmental Sciences, University of Sydney, NSW 2006 Australia"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5298-9186"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Bromodomains regulate gene expression by recognizing protein motifs containing acetyllysine. Although originally characterized as histone-binding proteins, it has since become clear that these domains interact with other acetylated proteins, perhaps most prominently transcription factors. The likely transient nature and low stoichiometry of such modifications, however, has made it challenging to fully define the interactome of any given bromodomain. To begin to address this knowledge gap in an unbiased manner, we carried out mRNA display screens against a bromodomain – the  N -terminal bromodomain of BRD3 – using peptide libraries that contained either one or two acetyllysine residues. We discovered peptides with very strong consensus sequences and with affinities that are significantly higher than typical bromodomain-peptide interactions. X-ray crystal structures also revealed modes of binding that have not been seen with natural ligands. Intriguingly, however, our selected sequences are not found in the human proteome, perhaps suggesting that strong binders to bromodomains might have been selected against.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/05/17/2023.05.17.541126.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.05.17.541126"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR661827"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR661827&type=FILE&fileName=EMS176068-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37992806",
+            "reference": "The Journal of biological chemistry. 2023 Dec;299(12):105482",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS176068",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-05-20",
+      "firstPublicationDate": "2023-05-17",
+      "firstIndexDate": "2023-05-20",
+      "fullTextReceivedDate": "2023-06-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "36358908",
+    "doi": "10.3390/biom12111558",
+    "title": "Sequence Properties of An Intramolecular Interaction That Inhibits p53 DNA Binding."
+  },
+  "content": {
+    "abstract": "An intramolecular interaction between the p53 transactivation and DNA binding domains inhibits DNA binding. To study this autoinhibition, we used a fragment of p53, referred to as ND WT, containing the N-terminal transactivation domains (TAD1 and TAD2), a proline rich region (PRR), and the DNA binding domain (DBD). We mutated acidic, nonpolar, and aromatic amino acids in TAD2 to disrupt the interaction with DBD and measured the effects on DNA binding affinity at different ionic strengths using fluorescence anisotropy. We observed a large increase in DNA binding affinity for the mutants consistent with reduced autoinhibition. The DeltaDeltaG between DBD and ND WT for binding a consensus DNA sequence is -3.0 kcal/mol at physiological ionic strength. DeltaDeltaG increased to -1.03 kcal/mol when acidic residues in TAD2 were changed to alanine (ND DE) and to -1.13 kcal/mol when all the nonpolar residues, including W53/F54, were changed to alanine (ND NP). These results indicate there is some cooperation between acidic, nonpolar, and aromatic residues from TAD2 to inhibit DNA binding. The dependence of DNA binding affinity on ionic strength was used to predict excess counterion release for binding both consensus and scrambled DNA sequences, which was smaller for ND WT and ND NP with consensus DNA and smaller for scrambled DNA overall. Using size exclusion chromatography, we show that the ND mutants have similar Stokes radii to ND WT suggesting the mutants disrupt autoinhibition without changing the global structure.",
+    "keywords": [
+      "DNA binding",
+      "counterion condensation theory",
+      "fluorescence anisotropy",
+      "hydrodynamic radius",
+      "intramolecular interaction",
+      "intrinsically disordered proteins",
+      "salt-dependent binding affinity",
+      "tumor suppressor p53",
+      "van't Hoff"
+    ],
+    "mesh_terms": [
+      "*Tumor Suppressor Protein p53/metabolism",
+      "Protein Binding",
+      "Protein Domains",
+      "*DNA/chemistry",
+      "Alanine/metabolism",
+      "Binding Sites/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gregory, Emily",
+        "Daughdrill, Gary W"
+      ],
+      "short_names": [
+        "Gregory E",
+        "Daughdrill GW"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cell Biology, Microbiology, and Molecular Biology, University of South Florida, Tampa, FL 33620, USA.",
+        "Department of Cell Biology, Microbiology, and Molecular Biology, University of South Florida, Tampa, FL 33620, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gregory, Emily",
+        "short_name": "Gregory E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Microbiology, and Molecular Biology, University of South Florida, Tampa, FL 33620, USA."
+        ]
+      },
+      {
+        "full_name": "Daughdrill, Gary W",
+        "short_name": "Daughdrill GW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Microbiology, and Molecular Biology, University of South Florida, Tampa, FL 33620, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2022 Oct 25",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/12 06:00",
+    "fetched_at": "2026-09-20 16:35:03"
+  },
+  "links": {
+    "cites": [
+      "39578215",
+      "38744865",
+      "38056064",
+      "37778184",
+      "37371595",
+      "37256211"
+    ],
+    "refs": [
+      "35926712",
+      "35573459",
+      "35317227",
+      "34506790",
+      "34320339",
+      "34181980",
+      "33444431",
+      "33443163",
+      "32845610",
+      "32553192",
+      "31248328",
+      "30988205",
+      "30420502",
+      "29761107",
+      "28874518",
+      "27641333",
+      "27604871",
+      "25753752",
+      "25408964",
+      "25024220",
+      "24150971",
+      "23836939",
+      "21751805",
+      "21525412",
+      "21178074",
+      "21071403",
+      "21071400",
+      "20679336",
+      "20637319",
+      "20483348",
+      "19776742",
+      "19450511",
+      "19357310",
+      "19008353",
+      "18952172",
+      "18714371",
+      "18508761",
+      "18431400",
+      "18054235",
+      "17964934",
+      "17902096",
+      "17510967",
+      "17438265",
+      "17378564",
+      "16793544",
+      "16793543",
+      "16734424",
+      "16697407",
+      "16339886",
+      "15955779",
+      "15826656",
+      "15321712",
+      "12735459",
+      "12637543",
+      "12154352",
+      "11841229",
+      "11477076",
+      "11434780",
+      "11358531",
+      "11313463",
+      "10955995",
+      "10600103",
+      "10549356",
+      "9843948",
+      "9788922",
+      "9680479",
+      "9628871",
+      "9582339",
+      "9551098",
+      "9383468",
+      "9096232",
+      "8875929",
+      "8843196",
+      "8632915",
+      "8580846",
+      "8485705",
+      "8321226",
+      "8269936",
+      "8158653",
+      "7891710",
+      "7880533",
+      "7753866",
+      "7696515",
+      "7664054",
+      "7567980",
+      "7492748",
+      "6274381",
+      "4191703",
+      "3456604",
+      "1779839",
+      "1531023",
+      "1518844",
+      "1447786",
+      "1423635",
+      "1301998",
+      "1003464",
+      "911789"
+    ],
+    "similar": [
+      "36358908",
+      "30988205",
+      "33443163",
+      "25216154",
+      "19525231",
+      "22807444",
+      "25825738",
+      "30420502",
+      "23063560",
+      "32592801",
+      "19819244",
+      "29334217",
+      "23974096",
+      "19166313",
+      "34954873",
+      "29421308",
+      "35234033",
+      "18234719",
+      "29986056",
+      "32098369",
+      "27114532",
+      "7651437",
+      "25244701",
+      "19066201",
+      "18824006",
+      "20124408",
+      "10777217",
+      "21457718",
+      "16687402",
+      "29105754",
+      "31238511",
+      "23977882",
+      "8700525",
+      "9600920",
+      "27864306",
+      "18714371",
+      "15170359",
+      "18160537",
+      "31502598",
+      "18260640",
+      "23472201",
+      "8710371",
+      "30099987",
+      "23243311",
+      "35856925",
+      "19755502",
+      "29878773",
+      "14612423",
+      "28597880",
+      "28126403",
+      "15133049",
+      "24150971",
+      "23028042",
+      "27907175",
+      "36032526",
+      "24842904",
+      "8837616",
+      "34181980",
+      "19913028",
+      "18812399",
+      "26579714",
+      "23267009",
+      "7969167",
+      "8497252",
+      "36555140",
+      "9096590",
+      "25794615",
+      "15321712",
+      "19505151",
+      "26442703",
+      "31181181",
+      "8414502",
+      "14978302",
+      "33310183",
+      "16432196",
+      "17438265",
+      "26742101",
+      "18215142",
+      "21071400",
+      "18996393",
+      "10213620",
+      "30455251",
+      "27317883",
+      "25753752",
+      "34792219",
+      "26976603",
+      "7891710",
+      "28591603",
+      "15337767",
+      "30419285",
+      "7731677",
+      "27502417",
+      "31235254",
+      "31248328",
+      "39141804"
+    ],
+    "review": [
+      "36358908",
+      "27864306"
+    ],
+    "pmc": [
+      "9687289"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom12111558",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36358908/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36358908",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-570",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36358908",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

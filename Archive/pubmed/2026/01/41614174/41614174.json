@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "41614174",
+    "doi": "10.1021/jacsau.5c01266",
+    "title": "Phosphorylation of alpha‑Synuclein Fibrils at S129 Changes DNAJB1 Binding as Probed by Solid-State NMR."
+  },
+  "content": {
+    "abstract": "Amyloid fibrils formed by the protein alpha-synuclein are implicated in the pathogenesis of synucleinopathies. In addition to their rigid cross-beta core, these fibrils have intrinsically disordered regions on their surface, which are important for interactions with other cellular components, such as chaperones. Chaperones play a vital role in preventing and reversing amyloid formation in neurodegenerative diseases. How they recognize misfolded proteins is an active field of research. DNAJB1 is a cochaperone that recognizes fibrils and recruits other chaperones such as Hsp70 and Apg2, which collectively disaggregate fibrils formed by alpha-synuclein, tau, and huntingtin. Because DNAJB1 was reported to bind the C-terminus of alpha-synuclein and S129 in this C-terminus is predominantly phosphorylated in patient-derived fibrils, we wanted to determine the effect of this post-translational modification on DNAJB1 binding. Using electron micrographs, NMR spectroscopy, and binding assays, we show that phosphorylation at S129 reduces the dynamics of the intrinsically disordered C-terminus of alpha-synuclein fibrils and increases the binding of DNAJB1 to this very C-terminus. MD simulations further suggest that the reduced dynamics is due to increased interaction of the phosphorylated C-terminus with the fibril core. DNAJB1 binds the exact same region at the C-terminus, indicating the phosphorylation at S129 might have a dual effect of reducing fibril surface dynamics and increasing chaperone recognition.",
+    "keywords": [
+      "DNAJB1",
+      "J-proteins",
+      "amyloid fibrils",
+      "chaperone",
+      "phosphorylation",
+      "post-translational modifications",
+      "solid-state NMR",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pacheco, Sayuri",
+        "Reselammal, Dhanya S",
+        "Li, Shanlong",
+        "Zhang, Qingya",
+        "Velloor, Gauri",
+        "Chen, Jianhan",
+        "Siemer, Ansgar B"
+      ],
+      "short_names": [
+        "Pacheco S",
+        "Reselammal DS",
+        "Li S",
+        "Zhang Q",
+        "Velloor G",
+        "Chen J",
+        "Siemer AB"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3713-2931",
+        "ORCID: 0000-0002-5281-1150",
+        "ORCID: 0000-0003-0901-011X"
+      ],
+      "affiliations": [
+        "Department of Physiology and Neuroscience, Zilkha Neurogenetic Institute, Keck School of Medicine, University of Southern California, Los Angeles, California 90033, United States. RINGGOLD: 5116",
+        "Department of Physiology and Neuroscience, Zilkha Neurogenetic Institute, Keck School of Medicine, University of Southern California, Los Angeles, California 90033, United States. RINGGOLD: 5116",
+        "Department of Chemistry, University of Massachusetts, Amherst, Massachusetts 01003, United States.",
+        "Department of Physiology and Neuroscience, Zilkha Neurogenetic Institute, Keck School of Medicine, University of Southern California, Los Angeles, California 90033, United States. RINGGOLD: 5116",
+        "Department of Physiology and Neuroscience, Zilkha Neurogenetic Institute, Keck School of Medicine, University of Southern California, Los Angeles, California 90033, United States. RINGGOLD: 5116",
+        "Department of Chemistry, University of Massachusetts, Amherst, Massachusetts 01003, United States.",
+        "Department of Physiology and Neuroscience, Zilkha Neurogenetic Institute, Keck School of Medicine, University of Southern California, Los Angeles, California 90033, United States. RINGGOLD: 5116"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pacheco, Sayuri",
+        "short_name": "Pacheco S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Neuroscience, Zilkha Neurogenetic Institute, Keck School of Medicine, University of Southern California, Los Angeles, California 90033, United States."
+        ]
+      },
+      {
+        "full_name": "Reselammal, Dhanya S",
+        "short_name": "Reselammal DS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Neuroscience, Zilkha Neurogenetic Institute, Keck School of Medicine, University of Southern California, Los Angeles, California 90033, United States."
+        ]
+      },
+      {
+        "full_name": "Li, Shanlong",
+        "short_name": "Li S",
+        "identifiers": [
+          "0000-0003-3713-2931"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, Massachusetts 01003, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qingya",
+        "short_name": "Zhang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Neuroscience, Zilkha Neurogenetic Institute, Keck School of Medicine, University of Southern California, Los Angeles, California 90033, United States."
+        ]
+      },
+      {
+        "full_name": "Velloor, Gauri",
+        "short_name": "Velloor G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Neuroscience, Zilkha Neurogenetic Institute, Keck School of Medicine, University of Southern California, Los Angeles, California 90033, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianhan",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0002-5281-1150"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, Massachusetts 01003, United States."
+        ]
+      },
+      {
+        "full_name": "Siemer, Ansgar B",
+        "short_name": "Siemer AB",
+        "identifiers": [
+          "0000-0003-0901-011X"
+        ],
+        "affiliations": [
+          "Department of Physiology and Neuroscience, Zilkha Neurogenetic Institute, Keck School of Medicine, University of Southern California, Los Angeles, California 90033, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2026 Jan 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/30 06:28",
+    "fetched_at": "2026-09-18 00:22:29"
+  },
+  "links": {
+    "cites": [
+      "42395354",
+      "42039566"
+    ],
+    "refs": [
+      "40215967",
+      "40159506",
+      "39567476",
+      "39196271",
+      "38112495",
+      "37562012",
+      "37060757",
+      "36646701",
+      "36083825",
+      "35948542",
+      "35353605",
+      "34626793",
+      "34369377",
+      "33903234",
+      "33776654",
+      "33649211",
+      "33177718",
+      "33177717",
+      "32670048",
+      "31972419",
+      "31815671",
+      "31424918",
+      "31295458",
+      "31253954",
+      "30651314",
+      "30252478",
+      "30190461",
+      "29298892",
+      "29212816",
+      "29187165",
+      "29186229",
+      "28831037",
+      "28746339",
+      "27766502",
+      "27708076",
+      "27018801",
+      "26318307",
+      "26300264",
+      "24108358",
+      "24091676",
+      "23737532",
+      "21500218",
+      "20517933",
+      "19779834",
+      "19285989",
+      "17723313",
+      "17241127",
+      "16247008",
+      "15628878",
+      "15155902",
+      "12421356",
+      "11813001",
+      "11588178",
+      "11430757",
+      "10514400",
+      "9546347",
+      "9278044",
+      "8254673"
+    ],
+    "similar": [
+      "41614174",
+      "40159506",
+      "41256580",
+      "33177717",
+      "36121476",
+      "34884786",
+      "35948542",
+      "41257205",
+      "40483356",
+      "34650037",
+      "33903234",
+      "26300264",
+      "31772376",
+      "22860160",
+      "35698800",
+      "29184069",
+      "29603451",
+      "36757890",
+      "31570231",
+      "34684701",
+      "29382725",
+      "36871760",
+      "40944457",
+      "34369377",
+      "15236975",
+      "29678776",
+      "39392708",
+      "38458997",
+      "34172566",
+      "36794997",
+      "34651357",
+      "29715424",
+      "41053261",
+      "40327808",
+      "18539297",
+      "32417755",
+      "38538591",
+      "30252478",
+      "38335809",
+      "30142698",
+      "31306510",
+      "39584804",
+      "23294335",
+      "37190853",
+      "40708841",
+      "19493164",
+      "35327628",
+      "32737160",
+      "37047286",
+      "34831053",
+      "29704492",
+      "36419510",
+      "31096048",
+      "31181290",
+      "16247008",
+      "31802003",
+      "36500474",
+      "39959285",
+      "26682688",
+      "36278939",
+      "34837296",
+      "37431676",
+      "16162499",
+      "33094280",
+      "38746133",
+      "33649211",
+      "37057966",
+      "34636232",
+      "39480879",
+      "18550842",
+      "33797711",
+      "35398094",
+      "34518228",
+      "28939194",
+      "35625557",
+      "33093170",
+      "33753171",
+      "41556436",
+      "38408247",
+      "38228169",
+      "39567476",
+      "40535603",
+      "38100216",
+      "35421616",
+      "40371781",
+      "33096080",
+      "10704204",
+      "27003784",
+      "39651184",
+      "37433401",
+      "40015644",
+      "39327912",
+      "28075555",
+      "40015369",
+      "30228181",
+      "33983722",
+      "40933733",
+      "28760825",
+      "40410120",
+      "32449565"
+    ],
+    "review": [
+      "41614174",
+      "40327808",
+      "30142698",
+      "23294335",
+      "40708841",
+      "35398094"
+    ],
+    "pmc": [
+      "12848675"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41614174/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3824",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.5c01266",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

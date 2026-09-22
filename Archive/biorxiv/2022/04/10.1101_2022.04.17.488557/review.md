@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, acknowledgments, footnotes) as provided
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality as inferable from the supplied text. Figures, tables, and supplementary materials are referenced but not directly inspected.
+- **Shared manuscript claim summary** The authors present ModCRE, a structure-based learning approach that predicts transcription factor (TF) DNA-binding preferences and models TF-DNA co-operative complexes in cis-regulatory elements. The method integrates experimental protein-DNA interaction data from protein-binding microarrays (PBMs) with knowledge-based statistical potentials. The authors report that ModCRE outperforms nearest-neighbor prediction in the "twilight zone" of low sequence identity, and demonstrate its application by modelling the interferon-β enhanceosome and a nucleosome-bound pioneer factor complex.
+- **Visible evidence base** Main text sections: Abstract, Introduction, Results (five subsections), Methods (Software, Databases, Interface, Statistical potentials, Structural modelling, PWM construction, Optimization), Acknowledgments, Footnotes. References to Figures 1–7, Tables 1, S2–S4, and Supplementary Figure S4–S6 are made but the figures/tables themselves are not provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are absent. The web server (https://sbi.upf.edu/modcre) is referenced but not evaluated. Methodological details for the statistical potential calculation, the grid-search optimization, and the rank-enrichment algorithm are only partially described in the main text and rely heavily on supplementary material. The exact definition of the normalized score in the rank-enrichment section is incomplete (the formula is not shown). The description of the "ZES3DCdd" potential is referenced to prior work but not defined here.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely problem: predicting TF-DNA binding preferences for TFs without experimental motifs, and extending this to model multi-TF co-operative complexes. The core idea of using structure-based statistical potentials augmented with high-throughput PBM data is sensible and potentially valuable. The authors demonstrate a clear improvement over a nearest-neighbor baseline in the low-sequence-identity regime, which is the most challenging and practically relevant scenario. The two application examples (IFN-β enhanceosome and nucleosome-bound pioneer factors) are well chosen to illustrate the method's scope. However, the manuscript as presented has substantial gaps in methodological transparency, validation rigor, and clarity of presentation. The reliance on inaccessible supplementary material for key details, the incomplete description of the evaluation metrics, and the absence of any direct comparison with existing state-of-the-art prediction tools (beyond the nearest-neighbor baseline) weaken the case. The claims about modelling co-operative complexes are intriguing but the validation of these models is largely qualitative. The manuscript has potential but requires major revisions and additional validation before the claims are fully established.
+- **Who would be interested in the results, and why** Researchers in gene regulation, computational biology, and structural bioinformatics would be the primary audience. Specifically, those working on TF motif prediction, cis-regulatory element analysis, and the structural basis of transcription factor cooperativity would find the approach relevant. The web server aspect increases its utility for the broader genomics community. The work also connects to the growing interest in using predicted structures (e.g., AlphaFold) for functional annotation, which broadens its appeal.
+- **Major strengths** 1) The problem is important and the proposed solution is novel in its integration of PBM data with structure-based potentials. 2) The demonstration of improved performance over nearest-neighbor in the twilight zone is a concrete and meaningful result. 3) The two application examples are well chosen to illustrate the method's potential for modelling complex regulatory assemblies. 4) The provision of a web server is a practical contribution that increases the accessibility and potential impact of the work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ModCRE "predicts well in the twilight-zone" and outperforms the nearest-neighbor approach at low sequence identity (15-25%).
+  - **Evidence pointer** Figure 4, Table S3, section "ModCRE predicts well in the twilight-zone"
+  - **Concern** The evaluation methodology is incompletely described. The normalized score formula is not shown in the text (the equation is missing). The criteria for "success" in the rank-enrichment approach are not fully specified. The acceptable error margins in Table S4 are referenced but not explained in the main text. Without these details, the reader cannot assess whether the comparison between ModCRE and nearest-neighbor is fair, statistically robust, or clinically meaningful. The claim of "outperforming" is based on a single metric (normalized rank) whose properties and limitations are not discussed.
+  - **Why it matters** The central quantitative claim of the paper rests on this comparison. If the evaluation metric is flawed, biased, or not properly calibrated, the entire conclusion about ModCRE's superiority is undermined. The lack of transparency in the evaluation protocol prevents independent verification and replication.
+  - **Resolution test** The authors must provide the complete definition of the normalized score, a detailed description of the success criteria, and a discussion of the statistical significance of the differences observed. They should also provide the full results for all families and bins, not just a summary, and ideally include a sensitivity analysis using alternative evaluation metrics (e.g., different P-value thresholds, different similarity measures).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the use of PBMs data substantially increased the number of contacts for the AP2 and the homeodomain families; however, for the bHLH family the increase was more subtle" and that this integration "notably increasing the landscape of protein-DNA contacts."
+  - **Evidence pointer** Figure 1, section "A structure-based learning approach to score TF-DNA interactions"
+  - **Concern** The description of how PBM data is integrated into the statistical potentials is vague. The text says "we have integrated experimental interactions from protein-binding microarrays (PBMs) for 37 TF families... using the dataset of CisBP" but does not explain the specific methodology. How are PBM E-scores converted into contact counts? How are the positive and negative 8-mers used to extend the contact landscape? What is the exact procedure for combining PBM-derived contacts with those from PDB structures? The claim that this integration "notably increases" the landscape is not quantified in the main text.
+  - **Why it matters** The integration of PBM data is a key innovation of the method. If the procedure is not clearly described, the method cannot be reproduced or evaluated. The claim of "notable increase" needs quantitative support to be meaningful.
+  - **Resolution test** The authors must provide a detailed, step-by-step description of the PBM data integration procedure, including how E-scores are thresholded, how 8-mers are mapped to contacts, and how the combined dataset is used to calculate potentials. They should also provide quantitative figures (e.g., number of contacts before and after integration) for at least the three families mentioned.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the IFN-β enhanceosome model "highlights the co-operativity of TFs with a more holistic view of domain-domain interactions that were missed in the experimental structures" and that the pioneer factor model "locates OCT4, which is missing in the experimental structure, suggesting a potential role for nucleosome opening."
+  - **Evidence pointer** Figures 6 and 7, sections "Example 1" and "Example 2"
+  - **Concern** These are strong claims about biological insight, but the validation is entirely qualitative. The models are compared to known experimental structures, but no quantitative metrics (e.g., RMSD, interface overlap, contact accuracy) are provided. The claim that the model "missed" domain-domain interactions in the experimental structure is not substantiated with specific examples. The prediction of OCT4 location is interesting but its significance is not tested (e.g., by mutation, by comparison with other OCT4-containing complexes, or by statistical significance of the predicted binding site).
+  - **Why it matters** The application examples are intended to demonstrate the method's practical utility. If the models are not quantitatively validated, the reader cannot judge whether the method produces reliable structural predictions or merely plausible-looking pictures. The biological claims (e.g., "potential role for nucleosome opening") are speculative and not supported by the presented evidence.
+  - **Resolution test** The authors should provide quantitative comparisons between their models and the experimental structures (e.g., RMSD of the protein-DNA interface, fraction of native contacts recovered). For the OCT4 prediction, they should provide a statistical measure of confidence (e.g., a p-value for the predicted binding site) and ideally test the prediction experimentally or through comparison with other known pioneer factor complexes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "the binding preferences of ~25% human TFs remain unknown" and imply that ModCRE can address this gap.
+  - **Evidence pointer** Abstract, Introduction
+  - **Concern** The manuscript does not provide a clear estimate of how many TFs ModCRE can actually be applied to. The method requires a known or predictable structure of the TF-DNA complex, which may not be available for many of the TFs with unknown motifs. The authors mention AlphaFold2 as a potential source of structures, but do not systematically assess how many of the ~25% "unknown" TFs have AlphaFold2 structures that are suitable for their pipeline. The claim of addressing the gap is therefore not quantified.
+  - **Why it matters** The significance of the work depends on its coverage. If the method can only be applied to a small fraction of the TFs with unknown motifs, its practical impact is limited. The authors should provide a realistic estimate of the method's applicability.
+  - **Resolution test** The authors should perform a systematic analysis of the coverage: for how many human TFs (or TF families) with unknown motifs can a suitable structural model be obtained (either from PDB or AlphaFold2)? This would provide a concrete measure of the method's potential impact.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, section "A structure-based learning approach to score TF-DNA interactions"
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "ZES3DCdd" is introduced without definition or context. It is referenced to prior work but the reader of this manuscript cannot understand what this score represents.
+  - **Required correction** Provide a brief definition of ZES3DCdd in the text, or at minimum a one-sentence explanation of what it measures and how it relates to the statistical potentials.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, section "Statistical potentials"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states "We used the definition of statistical potentials described by Feliu et al. and Fornes et al. applied on the selected database of structures of TF-DNA interactions." The reference to "Fornes et al." is ambiguous, as one of the authors of this manuscript is named Fornes. This could be a self-citation or a different author.
+  - **Required correction** Clarify the reference. If it is a self-citation, it should be clearly marked as such. If it is a different author, the citation should be unambiguous.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, section "Example 2: TF-DNA interactions on top of the nucleosome"
+  - **Evidence pointer** Location not provided
+  - **Issue** The sentence "SOX11 and SOX2 share the same binding site preferences" is stated without support or citation. This is a strong claim that may be known to specialists but needs a reference or a brief explanation.
+  - **Required correction** Add a citation or a brief explanation of the evidence for this claim.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, section "Construction of PWMs using TF-DNA structural models"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text says "we scored with ZES3DCdd all the potential DNA sequences of the binding site (i.e. 4N sequences, with N the size of the binding site, or an alternative heuristic approach as explained in the supplementary)." The phrase "as explained in the supplementary" is vague. The reader cannot assess the computational feasibility of the exhaustive enumeration for realistic binding site sizes.
+  - **Required correction** Provide a brief description of the heuristic approach in the main text, or at least state the typical binding site size and the computational cost of the exhaustive approach.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, section "On the improvement of the prediction of binding preferences of TFs"
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "rank-enrichment prediction" is introduced but the name is not intuitive. The concept of "enrichment" is not clearly defined in this context.
+  - **Required correction** Provide a brief explanation of why this is called "enrichment" and how it relates to the majority-vote concept mentioned in the text.
+- **Technical failings that need to be addressed before the case is established** 1) The incomplete definition of the normalized score metric (R1-M1). 2) The vague description of PBM data integration (R1-M2). 3) The lack of quantitative validation for the application examples (R1-M3). 4) The absence of a systematic assessment of the method's coverage of TFs with unknown motifs (R1-M4).
+- **Assessment against Nature-style criteria** **Originality:** The approach of combining structure-based statistical potentials with PBM data for TF motif prediction is novel, and the extension to modelling multi-TF co-operative complexes is a distinctive contribution. However, the individual components (statistical potentials, homology modelling, PBM data) are established; the novelty lies in their integration. **Scientific importance:** The problem of predicting TF binding preferences for uncharacterized TFs is important, and the potential to model co-operative complexes addresses a significant gap. However, the importance is not fully demonstrated without quantitative validation of the application examples and a clear estimate of coverage. **Interdisciplinary readership:** The work bridges structural biology, computational biology, and genomics. The web server aspect increases its potential reach. However, the presentation is heavily reliant on specialized terminology and the incomplete methodological descriptions may limit accessibility. **Technical soundness:** The core idea is sound, but the technical execution is not fully transparent. The evaluation methodology is incomplete, and the validation of the application examples is qualitative. The reliance on supplementary material for key details is a significant weakness. **Readability for nonspecialists:** The abstract and introduction are accessible, but the results and methods sections are dense and assume significant background knowledge. The incomplete definitions of key terms (e.g., ZES3DCdd, normalized score) further hinder readability.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results are encouraging, but the manuscript in its current form does not fully establish the validity and utility of the method. The authors must address the major concerns regarding methodological transparency, quantitative validation, and coverage assessment before the claims can be accepted.
+
+## Risk / unsupported claims
+- The claim that ModCRE "outperforms" nearest-neighbor in the twilight zone is not fully supported due to the incomplete description of the evaluation metric and success criteria.
+- The claim that the IFN-β enhanceosome model provides a "more holistic view of domain-domain interactions" is not quantitatively supported.
+- The claim that the pioneer factor model "suggests a potential role for nucleosome opening" is speculative and not supported by the presented evidence.
+- The claim that the integration of PBM data "notably increases" the landscape of protein-DNA contacts is not quantified.
+- The claim that ModCRE can be applied to most TF families (88.7% in combination with JASPAR) is not verifiable from the main text, as the analysis is referenced to supplementary Figure S5 which is not provided.
+- The statement that "the binding preferences of ~25% human TFs remain unknown" is presented without a citation, making it unverifiable.

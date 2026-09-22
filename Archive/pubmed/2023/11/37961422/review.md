@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv, 2023)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text. No supplementary figures or tables were available for direct inspection beyond what is referenced in the text.
+- **Shared manuscript claim summary** The authors investigate how a disordered linker in the Drosophila Polycomb protein Polyhomeotic (Ph) modulates phase separation and oligomerization of its SAM domain. By comparing Drosophila Ph with human PHC3 sequences, they identify divergent linker-SAM interactions that alter condensate formation, size, and dynamics. They use in vitro reconstitution, coarse-grained molecular dynamics simulations, cell-based assays, and Drosophila imaginal disc experiments to support a model where linker-SAM contacts regulate phase separation largely independently of canonical SAM polymerization, while oligomerization primarily affects condensate dynamics and stability.
+- **Visible evidence base** Main text figures referenced: Figure 1 (domain architecture, phase separation assays), Figure 2 (MD simulations, contact maps, Rg analysis), Figure 3 (engineered SAM surface mutants, AUC), Figure 4 (phase separation with EH mutants, FRAP), Figure 5 (MD simulations of mini-Ph and full-length Ph), Figure 6 (cell-based assays in Drosophila and human cells), Figure 7 (endogenous editing, growth assays, imaginal disc experiments). Supplementary figures referenced: S1, S2, S3, S4, S5, S6, S7. Tables referenced: S2, S4, S5, S7.
+- **Missing materials affecting confidence** Supplementary figures and tables were not provided. Specific numerical values for csat, FRAP parameters, statistical test results, and exact sample sizes are not available in the text. The full methods for some assays (e.g., mass photometry details, ChIP-qPCR primer sequences) are referenced but not fully described in the provided text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and well-integrated study combining experimental and computational approaches to address a significant question in the field of biomolecular condensates: how sequence variation in disordered linkers tunes phase separation and oligomerization. The use of cross-species comparison is a strength, and the authors provide multiple lines of evidence supporting their central claim that linker-SAM interactions, distinct from canonical SAM polymerization, regulate condensate properties. The work is technically sound in its core approaches, though several claims would benefit from additional quantitative data and clarification. The findings are likely to be of interest to researchers studying Polycomb biology, phase separation, and the molecular determinants of condensate behavior. However, the manuscript would be strengthened by addressing specific concerns regarding the interpretation of MD simulations, the generalizability of the engineered mutants, and the functional significance of the observed condensate changes.
+- **Who would be interested in the results, and why** Researchers in the fields of (1) Polycomb group protein biology, particularly those studying the function of Ph/PHC proteins in chromatin regulation and development; (2) biomolecular condensates and phase separation, especially those interested in how sequence features of disordered regions and oligomerization domains collectively encode condensate properties; (3) evolutionary cell biology, as the cross-species comparison provides insight into how sequence divergence can lead to functional differences in conserved protein modules; (4) computational biophysics, for the application of coarse-grained simulations to predict and interpret phase behavior of multidomain proteins.
+- **Major strengths** 1. The study addresses a timely and important question about the molecular grammar of phase separation, moving beyond simple sequence composition to examine specific interdomain interactions. 2. The combination of in vitro reconstitution, MD simulations, and in vivo assays provides a multi-scale perspective that strengthens the conclusions. 3. The cross-species comparison between Drosophila and human sequences is a powerful approach to identify functionally relevant sequence features. 4. The engineering of SAM surface mutations to create charge complementarity with the linker is an elegant test of the mechanistic hypothesis. 5. The inclusion of endogenous gene editing in Drosophila cells and imaginal disc experiments adds physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of computational results
+  - **Claim pointer** The authors claim that MD simulations predict that PHC3L, but not PhL, contacts the SAM domain and that these contacts drive increased phase separation propensity.
+  - **Evidence pointer** Figure 2B, 2C, 2H; text in "Molecular Dynamics (MD) simulations predict that PHC3L but not PhL contacts the SAM and forms self-interactions"
+  - **Concern** The MD simulations are performed with a coarse-grained model (HPS-Urry) that treats each amino acid as a single bead. While this model is useful for studying phase separation, its ability to capture specific, sequence-dependent interdomain contacts between a disordered linker and a folded domain (SAM) is limited. The claim that PHC3L "contacts" the SAM in a way that is qualitatively different from PhL may be an artifact of the model's resolution and parameterization, particularly regarding electrostatic interactions. The authors should discuss the limitations of the CG model in predicting specific contacts and ideally validate these predictions with higher-resolution simulations or experiments (e.g., crosslinking, NMR).
+  - **Why it matters** The mechanistic model presented in the paper hinges on the specific interactions between the linker and SAM. If the predicted contacts are not accurate, the interpretation of the experimental results (e.g., why PHC3L lowers the phase separation threshold) would be weakened.
+  - **Resolution test** The authors should either (a) provide additional validation of the predicted contacts (e.g., using a finer-grained model or experimental approaches), or (b) temper their claims about specific contacts and instead discuss the general physicochemical properties (e.g., charge distribution, hydrophobicity) that may drive the observed differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative analysis and statistical rigor
+  - **Claim pointer** The authors state that PHC3L lowers the concentration threshold for phase separation and produces smaller condensates, and that SAM surface mutations have specific effects on oligomerization and phase separation.
+  - **Evidence pointer** Figures 1E, 1G, 1I, 3F-I, 4B-C; text in Results sections
+  - **Concern** The manuscript reports qualitative differences in phase separation thresholds and condensate sizes but lacks a clear quantitative framework. For example, the "concentration threshold" (csat) is mentioned, but the exact values, error bars, and statistical comparisons are not provided in the text. Similarly, condensate size distributions are described but not quantified with metrics like mean, median, or distribution fits. The FRAP data are described with "median mobile fraction" but the number of replicates and the variability are not clear.
+  - **Why it matters** For a study that aims to establish a mechanistic link between sequence and condensate properties, quantitative rigor is essential. Without clear numbers and statistics, it is difficult to assess the robustness of the observed differences and to compare them with other systems.
+  - **Resolution test** The authors should provide a quantitative summary of their key results, including csat values with confidence intervals, condensate size distributions with statistical tests, and FRAP recovery parameters with replicate numbers. This could be presented in the main text or in a clearly referenced supplementary table.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance and mechanistic link
+  - **Claim pointer** The authors claim that changes in condensate properties caused by PHC3L or SAM surface mutations affect Ph function, specifically growth control in Drosophila imaginal discs.
+  - **Evidence pointer** Figure 7D-O, text in "PHC3L and SAMsurf mutations affect nuclear size and PHC3L affects cell growth"
+  - **Concern** The link between altered condensate properties (size, dynamics) and the observed functional outcomes (reduced growth, smaller nuclei) is correlative. The authors do not provide a mechanistic explanation for how smaller, less dynamic condensates would lead to growth suppression. While the observation is interesting, it is not clear if the effect is due to changes in condensate properties per se, or to other effects of the mutations (e.g., altered protein stability, changes in interaction with other PRC1 components, or effects on chromatin binding that are independent of condensate formation).
+  - **Why it matters** The paper's broader significance rests on the claim that condensate properties are functionally important. If the observed growth phenotypes are not directly caused by the condensate changes, the conclusion would be overstated.
+  - **Resolution test** The authors should either (a) provide a more direct test of the role of condensate properties in growth control (e.g., by using a mutant that alters condensate properties without affecting other functions), or (b) soften their conclusions and explicitly state that the causal link between condensate properties and growth control remains to be established.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1A, B
+  - **Evidence pointer** Figure 1A, B
+  - **Issue** The domain architecture diagram in Figure 1A is not described in detail in the text. It would be helpful to clearly label the boundaries of the HD1, FCS, linker, and SAM domains, and to indicate the positions of the mutations used in the study.
+  - **Required correction** Add a clear description of the domain architecture in the text or figure legend, including the residue numbers for each domain and the location of the mutations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Mass photometry
+  - **Evidence pointer** "Mass photometry analysis" in Methods
+  - **Issue** The mass photometry experiments are described briefly. It is not clear how many molecules were analyzed, what the error of the mass determination is, and how the oligomeric states were assigned.
+  - **Required correction** Provide more detail on the mass photometry analysis, including the number of events, the mass resolution, and the criteria for assigning oligomeric states.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of cell-based assays
+  - **Affected element** Figure 6, 7
+  - **Evidence pointer** Figure 6, 7
+  - **Issue** The cell-based assays rely on overexpression of Venus-tagged proteins. The authors should discuss the potential artifacts of overexpression, such as non-physiological concentrations that could drive phase separation.
+  - **Required correction** Add a sentence in the Discussion acknowledging the limitations of overexpression and, if possible, provide data on endogenous expression levels.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 7E, F
+  - **Evidence pointer** Figure 7E, F
+  - **Issue** The growth curves and nuclear size measurements are presented without clear statistical details. It is not clear how many independent experiments were performed and what the error bars represent.
+  - **Required correction** Specify the number of replicates and the type of error bars in the figure legends. Provide p-values for the comparisons shown.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The term "oligomerization" is used to describe both SAM polymerization and the formation of small clusters in simulations. It would be helpful to define these terms clearly and use them consistently.
+  - **Required correction** Define "oligomerization" and "polymerization" in the Introduction or Methods and use them consistently throughout the text.
+- **Technical failings that need to be addressed before the case is established** 1. The lack of quantitative data (csat values, size distributions, FRAP parameters) with statistical analysis is a significant weakness. The authors should provide these data in a clear and accessible format. 2. The interpretation of MD simulations as evidence for specific linker-SAM contacts requires either validation with higher-resolution methods or a more cautious interpretation. 3. The causal link between condensate properties and growth control in imaginal discs is not established. The authors should either provide a more direct test or temper their conclusions.
+- **Assessment against Nature-style criteria** **Originality:** The study is original in its focus on the role of a disordered linker in modulating the activity of an oligomerization domain, and in its use of cross-species comparison to identify functionally relevant sequence changes. This goes beyond simple descriptions of phase separation and provides a mechanistic framework. **Scientific importance:** The findings are important for understanding how PRC1 components, particularly Ph, function in chromatin organization and gene regulation. The work also contributes to the broader understanding of how sequence encodes condensate properties, which is a central question in the field. **Interdisciplinary readership:** The work bridges biophysics, molecular biology, and developmental biology. The use of MD simulations and in vitro reconstitution will appeal to biophysicists, while the cell-based and in vivo experiments will appeal to cell and developmental biologists. The writing is generally accessible, though some sections (e.g., the MD methods) may be challenging for non-specialists. **Technical soundness:** The core experimental approaches (in vitro phase separation, AUC, FRAP) are sound. The MD simulations are state-of-the-art for this type of problem, but their limitations should be acknowledged. The cell-based and in vivo experiments are well-designed, but the quantitative analysis could be improved. **Readability for nonspecialists:** The manuscript is well-written and the main findings are clearly presented. The use of figures is effective. However, the Methods section is very detailed and may be difficult for a general reader to follow. The authors could consider moving some of the technical details to a supplementary section.
+
+## Risk / unsupported claims
+- The claim that PHC3L "enables phase separation without DNA" (Figure 1C) is based on a single assay condition and may not hold under all conditions. The authors should clarify the conditions under which this is observed.
+- The statement that "linker-SAM interactions influence condensate formation largely independent of polymerization" is supported by the EH mutant experiments, but the authors acknowledge that the EH mutation may not completely abolish all SAM-SAM interactions. The claim should be stated with appropriate caveats.
+- The functional significance of the condensate changes in growth control is correlative. The authors do not provide direct evidence that the condensate properties themselves are the cause of the growth phenotypes.
+- The MD simulations predict specific interactions between the linker and SAM, but these predictions are not validated experimentally. The claim that these interactions are the primary driver of the observed differences in phase behavior is therefore not fully supported.

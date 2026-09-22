@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40229261",
+  "title": "Controlled and orthogonal partitioning of large particles into biomolecular condensates.",
+  "authors": "Kelley, Fleurie M; Ani, Anas; Pinlac, Emily G; Linders, Bridget; Favetta, Bruna; Barai, Mayur; Ma, Yuchen; Singh, Arjun; Dignon, Gregory L; Gu, Yuwei; Schuster, Benjamin S",
+  "journal": "Nature communications",
+  "published_date": "2025-04-15",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过实验、粗粒化分子动力学模拟和理论，揭示大颗粒（如纳米粒子）可基于与凝聚体的相互作用强度可控地分配进入生物分子凝聚体，并实现正交分配，虽对象为合成颗粒而非IDP，但其凝聚体分配机制建模思路对无序蛋白介导的PPI与相分离机制研究具有可迁移启发。",
+  "abstract": "Partitioning of client molecules into biomolecular condensates is critical for regulating the composition and function of condensates. Previous studies suggest that client size limits partitioning. Here, we ask whether large clients, such as macromolecular complexes and nanoparticles, can partition into condensates based on particle-condensate interactions. We seek to discover the fundamental biophysical principles that govern particle inclusion in or exclusion from condensates, using polymer nanoparticles surface-functionalized with biotin or oligonucleotides. Based on our experiments, coarse-grained molecular dynamics simulations, and theory, we conclude that arbitrarily large particles can controllably partition into condensates given sufficiently strong condensate-particle interactions. Remarkably, we also observe that beads with distinct surface chemistries partition orthogonally into immiscible condensates. These findings may provide insights into how various cellular processes are achieved based on partitioning of large clients into biomolecular condensates, and they offer design principles for drug delivery systems that selectively target disease-related condensates.",
+  "abstract_zh": "客户分子在生物分子凝聚体中的分配对于调控凝聚体的组成和功能至关重要。先前的研究表明，客户分子的大小限制了其分配。在此，我们探讨大型客户分子，如大分子复合物和纳米颗粒，是否能基于颗粒-凝聚体相互作用而分配进入凝聚体。我们旨在利用表面功能化有生物素或寡核苷酸的聚合物纳米颗粒，发现控制颗粒被包含或排除于凝聚体的基本生物物理原理。基于我们的实验、粗粒化分子动力学 (coarse-grained molecular dynamics) 模拟和理论，我们得出结论：在足够强的凝聚体-颗粒相互作用下，任意大的颗粒均可可控地分配进入凝聚体。值得注意的是，我们还观察到具有不同表面化学性质的珠子能正交地分配进入不混溶的凝聚体。这些发现可能为理解基于大型客户分子分配进入生物分子凝聚体的多种细胞过程提供见解，并为选择性靶向疾病相关凝聚体的药物递送系统提供设计原则。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40229261/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40229261/",
+  "paper_page_path": "papers/pubmed/40229261/index.html"
+}

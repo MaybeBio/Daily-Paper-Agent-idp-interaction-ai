@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34883116",
+  "title": "Phosphorylation tunes elongation propensity and cohesiveness of INCENP's intrinsically disordered region.",
+  "authors": "Martin, Isabel M; Aponte-Santamaria, Camilo; Schmidt, Lisa; Hedtfeld, Marius; Iusupov, Adel; Musacchio, Andrea; Grater, Frauke",
+  "journal": "Journal of molecular biology",
+  "published_date": "2021-12-10",
+  "window": {
+    "start": "2021-12-06",
+    "end": "2021-12-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过全原子和粗粒化分子动力学模拟，系统揭示磷酸化如何调控INCENP无序区域(IDR)的构象系综、球-线圈转变及凝聚行为，为无序蛋白通过翻译后修饰调节互作与相分离的机制建模提供了范例。",
+  "abstract": "The inner centromere protein, INCENP, is crucial for correct chromosome segregation during mitosis. It connects the kinase Aurora B to the inner centromere allowing this kinase to dynamically access its kinetochore targets. However, the function of its central, 440-residue long intrinsically disordered region (IDR) and its multiple phosphorylation sites is unclear. Here, we determined the conformational ensemble of INCENP's IDR, systematically varying the level of phosphorylation, using all-atom and coarse-grain molecular dynamics simulations. Our simulations show that phosphorylation expands INCENP's IDR, both locally and globally, mainly by increasing its overall net charge. The disordered region undergoes critical globule-to-coil conformational transitions and the transition temperature non-monotonically depends on the degree of phosphorylation, with a mildly phosphorylated case of neutral net charge featuring the highest collapse propensity. The IDR transitions from a multitude of globular states, accompanied by several specific internal contacts that reduce INCENP length by loop formation, to weakly interacting and highly extended coiled conformations. Phosphorylation critically shifts the population between these two regimes. It thereby influences cohesiveness and phase behavior of INCENP IDR assemblies, a feature presumably relevant for INCENP's function in the chromosomal passenger complex. Overall, we propose the disordered region of INCENP to act as a phosphorylation-regulated and length-variable component, within the previously defined \"dog-leash\" model, that thereby regulates how Aurora B reaches its targets for proper chromosome segregation.",
+  "abstract_zh": "内着丝粒蛋白INCENP对有丝分裂过程中染色体的正确分离至关重要。它将激酶Aurora B连接至内着丝粒，使该激酶能够动态地接触其动粒靶标。然而，其中心区域——一段由440个残基组成的固有无序区（IDR）——及其多个磷酸化位点的功能尚不清楚。在此，我们利用全原子和粗粒化分子动力学模拟，系统改变磷酸化水平，确定了INCENP的IDR的构象系综。我们的模拟表明，磷酸化通过主要增加其整体净电荷，在局部和全局上扩展了INCENP的IDR。该无序区域经历关键的球状到卷曲构象转变，且转变温度非单调地依赖于磷酸化程度，其中轻度磷酸化且净电荷为中性的情况表现出最高的塌缩倾向。IDR从多种球状状态（伴随若干特异性内部接触，通过环形成缩短INCENP长度）转变为弱相互作用且高度延伸的卷曲构象。磷酸化关键性地改变了这两种状态之间的群体分布，从而影响INCENP IDR组装体的凝聚性和相行为，这一特性可能与其在染色体过客复合体中的功能相关。总体而言，我们提出INCENP的无序区域在先前定义的“狗链”模型中充当一个受磷酸化调控且长度可变的组件，从而调节Aurora B如何到达其靶标以实现正确的染色体分离。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34883116/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34883116/",
+  "paper_page_path": "papers/pubmed/34883116/index.html"
+}

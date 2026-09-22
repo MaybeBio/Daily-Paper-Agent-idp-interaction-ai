@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text (review article)
+- **Assessment boundary** Scientific content, technical soundness, and completeness of the review as provided; no external literature verification performed
+- **Shared manuscript claim summary** The authors review the current state of polymer-based disruption of protein-protein interactions (PPIs), focusing on polyelectrolyte systems, tunable parameters, and characterization techniques. They argue that synthetic polymers offer advantages over small molecules and peptides for targeting challenging PPI interfaces, and propose that sequence control, foldability, and machine learning will enable future progress, particularly for intrinsically disordered proteins (IDPs).
+- **Visible evidence base** Abstract, Introduction, sections on PPIs, polymer-protein complexation, parameters for modulating complexation (charge density, charge type, hydrogen bonds, non-polar associations, pH, ionic strength, temperature), characterization techniques, and summary/perspectives; figures referenced but not provided
+- **Missing materials affecting confidence** Figures and tables referenced in the text (Figures 1–8) were not provided; reference list not included; no experimental data or case studies with quantitative comparisons are presented in the text
+
+## Reviewer
+- **Overall assessment** This is a well-structured and readable review that covers a timely and important topic. The authors provide a useful synthesis of polymer-protein interaction design principles, with appropriate attention to thermodynamic and electrostatic considerations. The perspective section, particularly the discussion of sequence-defined polymers, foldamers, dendrimers, and machine learning, offers a forward-looking framework that will interest researchers in polymer chemistry, biophysics, and drug discovery. However, the review is largely descriptive and lacks critical depth in several areas. The treatment of specificity and selectivity is superficial, and the claim that polymers can overcome the limitations of small molecules and peptides is asserted rather than critically evaluated. The absence of figures and references in the provided material limits full assessment, but the text alone suggests that the review would benefit from more quantitative comparisons, a clearer articulation of design rules, and a more balanced discussion of challenges and failures in the field.
+- **Who would be interested in the results, and why** Researchers in polymer chemistry, biomacromolecular engineering, and drug discovery will find this review useful as an entry point to the field. Those working on protein-polymer interactions, coacervates, and biomimetic macromolecules will appreciate the summary of tunable parameters and characterization techniques. The perspective on IDPs and machine learning may also attract computational scientists and structural biologists interested in new approaches to challenging drug targets.
+- **Major strengths** The review is clearly organized and accessible to nonspecialists. The authors effectively summarize key physicochemical parameters governing polymer-protein interactions, including charge density, charge type, hydrogen bonding, and non-polar effects. The inclusion of thermodynamic concepts such as counterion release and enthalpy-entropy compensation is valuable. The perspective section is forward-looking and identifies important research directions, including sequence-defined polymers, foldamers, and machine learning. The discussion of characterization techniques, including scattering, calorimetry, and MD simulations, provides a practical overview.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and selectivity
+  - **Claim pointer** The authors claim that synthetic polymers can "circumvent" the challenges of small molecules and peptides for targeting PPIs, and that polymer designs can achieve "specific recognition" of protein surfaces.
+  - **Evidence pointer** Introduction; Summary and perspectives; location not provided
+  - **Concern** The central premise of the review is that polymers can achieve specific PPI disruption, yet the text provides no quantitative or comparative evidence demonstrating selectivity. The examples cited (e.g., PAA-α-amylase, PLL-BSA, PEG-BSA) illustrate binding or complexation but do not demonstrate the ability to discriminate between similar proteins or to disrupt a specific PPI in a cellular context. The authors acknowledge that current designs "are not yet sophisticated enough to differentiate between two proteins of similar size and pI," which directly undermines the stated potential of polymers for specific PPI targeting.
+  - **Why it matters** Specificity is the defining challenge for any PPI inhibitor. Without a critical discussion of selectivity, including negative results or comparative studies, the review overstates the readiness of polymer-based approaches for therapeutic applications. This weakens the scientific case and may mislead readers about the current state of the field.
+  - **Resolution test** The authors should either (a) provide quantitative examples where polymer selectivity has been demonstrated, including binding affinities and selectivity ratios, or (b) reframe the review to explicitly acknowledge that specificity remains an unresolved challenge and discuss strategies being developed to address it.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Critical evaluation of literature
+  - **Claim pointer** The authors state that "synthetic polymers offer a promising and cost-effective solution" to PPI disruption and that "current polymer designs have demonstrated efficient complexation for their specific applications."
+  - **Evidence pointer** Summary and perspectives; location not provided
+  - **Concern** The review is largely descriptive and does not critically evaluate the strengths and weaknesses of the cited studies. For example, the discussion of hydrogen bonding and non-polar associations presents mechanisms but does not compare the relative contributions of these forces across different polymer systems. The section on charge type mentions arginine and phosphate interactions but does not discuss cases where such interactions failed to produce the desired selectivity or stability. The review would benefit from a more balanced treatment that includes failed attempts, limitations, and unresolved questions.
+  - **Why it matters** A review that only presents successful examples gives an incomplete picture of the field and reduces its utility for researchers seeking to identify gaps and opportunities. Critical evaluation is essential for a review to serve as a reliable guide for future research.
+  - **Resolution test** The authors should add a subsection or paragraph discussing limitations and negative results, including cases where polymer-protein interactions were nonspecific, unstable, or failed to translate to functional outcomes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Depth of IDP discussion
+  - **Claim pointer** The authors state that "synthetic polymers may be uniquely suitable for targeting IDPs" and that IDPs are "an important but challenging new class of drug targets."
+  - **Evidence pointer** Summary and perspectives; location not provided
+  - **Concern** The discussion of IDPs is brief and lacks mechanistic detail. The authors do not explain why polymers would be better suited than other modalities for IDP targeting, nor do they discuss the biophysical properties of IDPs (e.g., conformational heterogeneity, lack of stable binding pockets) that make them challenging. The claim that polymers are "uniquely suitable" is not supported by specific examples or a reasoned argument.
+  - **Why it matters** IDPs represent a major opportunity for polymer-based therapeutics, but the review does not provide sufficient depth to inform researchers about the specific design considerations needed for IDP targeting. This is a missed opportunity to add significant value to the review.
+  - **Resolution test** The authors should expand the IDP discussion to include: (a) why IDPs are difficult to target with conventional modalities, (b) specific polymer design features that could address these challenges, and (c) any existing examples of polymer-IDP interactions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Machine learning integration
+  - **Claim pointer** The authors state that "machine learning operates as a high-throughput tool to expedite polymer design and exploration" and that "simulations can curate robust databases to provide essential foundational knowledge."
+  - **Evidence pointer** Machine Learning section; location not provided
+  - **Concern** The machine learning section is speculative and does not provide concrete examples of how ML has been or could be applied to polymer design for PPI disruption. The authors mention two studies but do not describe their methodologies, outcomes, or limitations. The challenges of data availability and quality are mentioned but not discussed in sufficient depth to be actionable.
+  - **Why it matters** Machine learning is a rapidly evolving field, and a review that mentions it without providing concrete guidance or examples is of limited value. Readers interested in applying ML to polymer design would benefit from a more detailed discussion of data requirements, model architectures, and validation strategies.
+  - **Resolution test** The authors should either (a) provide a more detailed case study of an ML application in polymer-protein interaction design, or (b) clearly frame the ML discussion as a perspective with specific recommendations for future work.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figures
+  - **Affected element** Figures 1–8
+  - **Evidence pointer** Figures referenced throughout; not provided
+  - **Issue** The text frequently references figures, but the figures were not provided for assessment. It is unclear whether the figures adequately support the claims made in the text.
+  - **Required correction** Ensure that all figures are self-explanatory and include sufficient detail to support the claims made in the text. Consider adding a summary figure that integrates the key design parameters and their effects on polymer-protein interactions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Use of "wrong side" of the isoelectric point
+  - **Evidence pointer** Polymer-protein complexation section; location not provided
+  - **Issue** The term "wrong side" is used to describe interactions where polymer and protein have the same net charge. This terminology is potentially confusing and should be defined more clearly.
+  - **Required correction** Define "wrong side" explicitly when first used, or replace with a more descriptive term such as "same-charge complexation."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of characterization section
+  - **Affected element** Characterization techniques
+  - **Evidence pointer** Techniques section; location not provided
+  - **Issue** The characterization section covers scattering, fluorescence, calorimetry, and MD simulations, but does not mention other relevant techniques such as surface plasmon resonance (SPR), quartz crystal microbalance (QCM), or circular dichroism (CD) spectroscopy, which are commonly used to study polymer-protein interactions.
+  - **Required correction** Consider adding a brief discussion of these additional techniques, or explicitly state the criteria for selecting the techniques included.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reference completeness
+  - **Affected element** Reference list
+  - **Evidence pointer** Not provided
+  - **Issue** The reference list was not provided, so it is not possible to assess the completeness or currency of the cited literature.
+  - **Required correction** Ensure that the reference list is comprehensive and includes recent work (within the last 2–3 years) on polymer-protein interactions, IDPs, and machine learning applications.
+
+## Risk / unsupported claims
+- The claim that synthetic polymers are "uniquely suitable" for targeting IDPs is not supported by specific evidence or a reasoned mechanistic argument in the provided text.
+- The assertion that current polymer designs "have demonstrated efficient complexation for their specific applications" is presented without critical evaluation of the limitations or failures of these designs.
+- The statement that "machine learning operates as a high-throughput tool to expedite polymer design" is speculative and not supported by concrete examples or outcomes in the provided text.
+- The claim that "advances in polymer chemistry, molecular modeling, and machine learning could make a concerted impact" is a reasonable perspective but is not substantiated with specific predictions or roadmaps.
+- The discussion of "covalent-like" stability of arginine-phosphate interactions (Figure 4c) is presented without sufficient context or quantitative comparison to other interaction types.

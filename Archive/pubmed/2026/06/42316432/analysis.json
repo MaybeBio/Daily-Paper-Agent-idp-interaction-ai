@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42316432",
+  "title": "Crowder-Induced Conformational Fluctuations Modulate the Phase Separation of the Yeast Sup35NM Domain.",
+  "authors": "Roychowdhury, Sumangal; Menon, Sneha; Mandal, Narattam; Majumder, Subhabrata; Mondal, Jagannath; Chattopadhyay, Krishnananda",
+  "journal": "Biomacromolecules",
+  "published_date": "2026-06-19",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合FCS实验与分子动力学模拟，研究不同形状拥挤剂（Dextran/Ficoll）如何通过调控酵母Sup35NM无序域构象波动来影响其相分离，直接聚焦IDP构象-相分离机制建模，对无序蛋白互作与凝聚体调控研究有重要启发。",
+  "abstract": "Intrinsically disordered regions (IDRs) from larger proteins are known to undergo liquid-liquid phase separation (LLPS) to form biomolecular condensates. This process is influenced by the conformational flexibility of the protein and the crowded intracellular environment. Although several studies exist involving crowding agents to induce LLPS, the molecular understanding of crowding in phase separation has not been explored well. Herein, we investigate how molecular crowding, specifically the size and shape of crowders like Dextran and Ficoll, modulates the conformational states and phase separation behavior of Sup35NM, a disordered region of the yeast prion protein, Sup35. Using fluorescence correlation spectroscopy (FCS) and molecular dynamics simulations, we show that Dextran, depending on its molecular weight, induces both compaction and expansion of Sup35NM, driving phase separation beyond a particular threshold. Notably, flexible rod-like Dextran crowders promotes phase separation, while spherical Ficoll does not, highlighting the impact of crowder geometry on IDP behavior. Molecular simulation further revealed that the crowder shape influences Sup35NM's conformational ensemble by modulating intra- and inter-domain interactions. These findings elucidate the role of crowding agents in IDP phase behavior, suggesting that cellular crowding may regulate IDP functionality through conformational control.",
+  "abstract_zh": "已知较大蛋白质中的固有无序区域（IDRs）会发生液-液相分离（LLPS），形成生物分子凝聚体。该过程受蛋白质构象灵活性及拥挤的细胞内环境影响。尽管已有若干研究利用拥挤剂诱导LLPS，但拥挤在相分离中的分子机制尚未得到充分探索。在此，我们研究了分子拥挤，特别是Dextran和Ficoll等拥挤剂的大小和形状，如何调节酵母朊蛋白Sup35的无序区域Sup35NM的构象状态和相分离行为。通过荧光相关光谱（FCS）和分子动力学模拟，我们表明Dextran根据其分子量，诱导Sup35NM的压缩和扩张，并在特定阈值以上驱动相分离。值得注意的是，柔性棒状Dextran拥挤剂促进相分离，而球形Ficoll则不然，这突显了拥挤剂几何形状对IDP行为的影响。分子模拟进一步揭示，拥挤剂形状通过调节域内和域间相互作用来影响Sup35NM的构象集合。这些发现阐明了拥挤剂在IDP相行为中的作用，提示细胞拥挤可能通过构象控制调节IDP功能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42316432/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42316432/",
+  "paper_page_path": "papers/pubmed/42316432/index.html"
+}

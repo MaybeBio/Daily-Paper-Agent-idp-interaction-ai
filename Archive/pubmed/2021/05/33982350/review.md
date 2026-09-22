@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use explicit-solvent atomistic molecular dynamics simulations to compare interactions between polyU oligonucleotides and polyR versus polyK peptides. They report that arginine has higher affinity for polyU than lysine in both dilute and concentrated conditions, attributed to the multivalent coordination of RNA groups by the guanidinium group via hydrogen bonds and stacking interactions, thereby stabilizing protein/RNA condensates.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, convergence criteria, or quantitative results are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field validation, error analysis, comparison with experimental data, figures, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting hypothesis supported by preliminary simulation evidence, but the provided material is insufficient to evaluate the technical rigor or robustness of the findings. The central claim that arginine multivalency stabilizes condensates is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in biomolecular phase separation, intrinsically disordered proteins, RNA-binding proteins, and computational biophysics would be interested. The work addresses a fundamental question about sequence determinants of condensate formation, with potential relevance to understanding cellular organization and disease-associated aggregation.
+- **Major strengths** The study addresses a timely and important question with clear experimental motivation. The use of atomistic simulations to probe molecular-level interaction mechanisms is appropriate. The proposed mechanism involving guanidinium multivalency is chemically specific and testable.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that simulations "indicate that arginine has a higher affinity for polyU than lysine both in highly diluted conditions and in concentrated solutions."
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** No quantitative data, statistical measures, or convergence criteria are presented to support the affinity comparison. It is unclear how affinity was computed, whether free energy differences were estimated, and whether the simulations reached equilibrium in both dilute and concentrated regimes.
+  - **Why it matters** Without quantitative evidence and error analysis, the claimed differential affinity could arise from insufficient sampling, force field artifacts, or system setup choices rather than genuine physical differences.
+  - **Resolution test** Provide free energy estimates or binding affinity metrics with associated uncertainties, demonstrate convergence of simulations, and show that results are robust to force field and system size variations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract attributes the differential behavior to "the propensity of arginine side chains to simultaneously form a higher number of specific interactions with oligonucleotides, including hydrogen bonds and stacking interactions."
+  - **Evidence pointer** Abstract, analysis of intermolecular contacts (location not provided)
+  - **Concern** The contact analysis is described qualitatively without specifying how hydrogen bonds and stacking interactions were defined, counted, or compared between arginine and lysine. No statistical significance or quantitative comparison is provided.
+  - **Why it matters** The mechanistic conclusion rests entirely on this contact analysis. If the definitions are arbitrary or the differences are within noise, the proposed multivalency mechanism is unsupported.
+  - **Resolution test** Provide clear definitions of interaction types, show distribution of contact numbers per residue, and include statistical tests comparing arginine and lysine.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that simulations were performed using "explicit-solvent atomistic molecular dynamics simulations" but provides no details on system composition, simulation length, temperature, salt concentration, or force field.
+  - **Evidence pointer** Abstract, methods (location not provided)
+  - **Concern** Without these parameters, the simulations cannot be reproduced or evaluated for biological relevance. Salt concentration and force field choice are particularly critical for RNA-peptide interactions.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Missing parameters prevent assessment of whether the simulated conditions match the experimental systems referenced.
+  - **Resolution test** Include full simulation details in the methods section, including force field versions, water model, ion parameters, box size, and simulation duration.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract, introduction (location not provided)
+  - **Issue** The phrase "currently recognized to play an important role" is vague and could be strengthened by citing specific biological contexts or recent reviews.
+  - **Required correction** Replace with a more specific statement about the functional relevance of condensates, such as their role in gene regulation or stress response.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract, results
+  - **Evidence pointer** Abstract, results (location not provided)
+  - **Issue** The term "higher affinity" is used without specifying whether this refers to binding free energy, dissociation constant, or contact frequency. This ambiguity weakens the claim.
+  - **Required correction** Define the metric used to quantify affinity and state it explicitly in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, conclusion
+  - **Evidence pointer** Abstract, final sentence (location not provided)
+  - **Issue** The claim that arginine multivalency "ultimately stabilizing protein/RNA condensates" extends beyond the simulation results, which only address peptide-oligonucleotide interactions, not full condensate stability.
+  - **Required correction** Soften the conclusion to state that the results suggest a mechanism that may contribute to condensate stabilization, pending validation in more complex systems.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The mechanistic focus on guanidinium multivalency is a novel angle, though the general arginine-versus-lysine difference has been reported experimentally. The contribution is incremental but potentially valuable.
+  - Scientific importance: The question of sequence determinants in phase separation is of high importance to the field, but the abstract does not demonstrate broad biological implications beyond the specific polyU/polyR system.
+  - Interdisciplinary readership: The topic bridges biophysics, computational chemistry, and cell biology, but the abstract is written in a way that is accessible to specialists only. Nonspecialists would struggle to assess the significance without more context.
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological detail and quantitative results prevents evaluation of simulation quality.
+  - Readability for nonspecialists: The abstract is concise and logically structured, but technical terms such as "multivalency" and "guanidinium group" are used without brief explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and worth pursuing, but the abstract alone does not provide sufficient technical detail or quantitative support to assess the validity of the claims. A full review of the manuscript would be required to determine whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that arginine has higher affinity for polyU than lysine in both dilute and concentrated conditions is unsupported without quantitative data.
+- The mechanistic attribution to hydrogen bonds and stacking interactions is unsupported without defined interaction criteria and statistical analysis.
+- The conclusion that arginine multivalency stabilizes protein/RNA condensates is an extrapolation beyond the simulated peptide-oligonucleotide system.
+- The agreement with experimental results is stated but not substantiated with specific references or quantitative comparisons.

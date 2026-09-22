@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of methods, data, or figures beyond what is stated
+- **Shared manuscript claim summary** The authors report that the formin Fus1 in fission yeast contains an intrinsically disordered region (IDR) in its regulatory N-terminus that mediates condensation of the actin fusion focus. This condensation is proposed to be essential for cell-cell fusion, as loss of the IDR leads to failed condensation and cell lysis. Replacement of the Fus1 IDR with a heterologous low-complexity region that forms liquid condensates restores function, whereas replacement with a domain forming more stable oligomers restores condensation but poorly supports fusion. The authors propose that IDR-mediated condensation of actin structures may be a general mechanism for actin network organisation and selective vesicle concentration.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, quantitative data, statistical analyses, all figures and tables, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding the role of an intrinsically disordered region in formin-mediated actin condensation during cell-cell fusion. The conceptual advance, that IDR-driven condensation may be a general mechanism for actin network organisation, is appealing and could attract broad interest. However, the abstract alone provides insufficient detail to evaluate the robustness of the experimental evidence, the specificity of the proposed mechanism, or the strength of the functional claims. Several key assertions, particularly regarding the selectivity of the condensate for secretory vesicles and the generalisability of the proposed mechanism, are not supported by the evidence presented in the abstract.
+- **Who would be interested in the results, and why** Cell biologists studying cytokinesis, gamete fusion, and vesicle trafficking; researchers working on formins and actin cytoskeleton organisation; investigators interested in phase separation and intrinsically disordered proteins in cellular processes. The proposed general mechanism could also attract interest from the broader membrane trafficking and cell polarity communities.
+- **Major strengths** The study addresses a previously elusive question, namely how the actin fusion focus is spatially organised to concentrate secretory vesicles. The use of domain replacement experiments with heterologous condensate-forming regions is a clever approach to test the functional relevance of condensation. The proposed generalisation to actin network organisation is conceptually stimulating.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that Fus1 IDR-mediated condensation is essential for cell-cell fusion, with loss of the IDR causing cell lysis during attempted fusion.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract states that Fus1 lacking its IDR fails to condense and causes cell lysis, but no quantitative data, sample sizes, or statistical comparisons are provided. It is unclear how many fusion events were observed, whether lysis was a partial or complete phenotype, and whether the observed lysis could be due to off-target effects of the deletion rather than specifically loss of condensation.
+  - **Why it matters** The central claim of essentiality rests on this phenotypic observation. Without quantitative support and appropriate controls, the conclusion that condensation is required for fusion cannot be rigorously assessed.
+  - **Resolution test** Provide quantitative data on fusion efficiency and lysis rates for wild-type, IDR-deleted, and complemented strains, with statistical analysis and appropriate controls for expression levels and localisation of the mutant protein.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** The claim that condensation is tuned to yield a structure selectively permeable for secretory vesicles, based on the observation that a stable oligomer domain restores condensation but poorly supports fusion.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract infers selective permeability from a single comparison between a liquid-like condensate and a stable oligomer. No direct evidence of permeability, vesicle entry, or exclusion of other macromolecules is presented beyond a general statement that the native condensate excludes other macromolecules. The interpretation that the stable oligomer is less permeable is speculative without direct measurements.
+  - **Why it matters** The proposed selectivity mechanism is a key conceptual contribution. If not directly tested, the claim overreaches the available evidence and could mislead subsequent work.
+  - **Resolution test** Provide direct evidence of differential permeability, for example by imaging fluorescently labelled vesicles and non-vesicular macromolecules in condensates formed by the native IDR, the heterologous low-complexity region, and the stable oligomer domain.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalisability
+  - **Claim pointer** The proposal that IDR-mediated condensation of actin structures may be a general mechanism for actin network organisation and selective vesicle concentration.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** This generalisation is presented as a proposal, which is appropriate, but the abstract provides no comparative evidence from other systems or formins. The claim is therefore speculative and not testable from the presented data.
+  - **Why it matters** The broader significance of the work depends in part on this generalisation. While it is framed as a hypothesis, the abstract could be clearer that this is not yet supported by any comparative data.
+  - **Resolution test** Either temper the language to clearly indicate this is a speculative hypothesis, or provide preliminary evidence from another formin or system to support the generalisation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The term "fusion focus" is used without a clear definition. It is implied to be an actin structure, but the relationship between the Fus1 formin, the actin focus, and the vesicle cluster is not explicitly described.
+  - **Required correction** Define the fusion focus in the abstract, including its composition and relationship to the actin cytoskeleton and secretory vesicles.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental detail
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract does not state how condensation was measured or imaged in vivo. The term "condensation" could refer to phase separation, clustering, or other processes.
+  - **Required correction** Briefly specify the imaging or biochemical approach used to assess condensation, for example fluorescence microscopy of labelled Fus1 or biochemical fractionation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Functional rescue
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract states that replacement with a heterologous low-complexity region "fully restores" Fus1 condensation and function. It is unclear whether "function" refers to successful cell fusion, vesicle accumulation, or both.
+  - **Required correction** Specify which functional readouts were used to assess rescue, and whether all were fully restored.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The essentiality claim requires quantitative phenotypic data, and the selectivity claim requires direct permeability measurements. Without these, the central conclusions are not established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality is potentially high, as the idea that IDR-mediated condensation of actin structures could be a general mechanism is novel. Scientific importance is significant if the claims hold, given the broad relevance of vesicle trafficking and actin organisation. Interdisciplinary readership could be attracted from cell biology, biophysics, and membrane trafficking communities. Technical soundness cannot be assessed from the abstract alone, and the lack of quantitative detail is a concern. Readability for nonspecialists is adequate, though some terms such as "fusion focus" and "condensation" would benefit from clearer definition.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is interesting and the experimental approach is creative, but the abstract does not provide sufficient detail to evaluate the robustness of the key claims. Supportive if the technical concerns regarding quantitative evidence and direct permeability measurements are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that Fus1 IDR-mediated condensation is essential for cell-cell fusion is unsupported by quantitative data in the abstract.
+- The claim that condensation is selectively permeable for secretory vesicles is unsupported by direct evidence in the abstract.
+- The proposal that IDR-mediated condensation of actin structures is a general mechanism is speculative and not supported by comparative data.
+- The statement that the native condensate excludes other macromolecules is presented without experimental detail or quantification.

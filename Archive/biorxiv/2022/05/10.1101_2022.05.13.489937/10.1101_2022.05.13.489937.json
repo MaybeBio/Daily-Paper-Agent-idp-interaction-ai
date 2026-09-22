@@ -1,0 +1,145 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.13.489937",
+  "title": "Selective observation of semi-rigid non-core residues in dynamically complex mutant huntingtin protein fibrils",
+  "doi": "10.1101/2022.05.13.489937",
+  "abstract": "Many amyloid-forming proteins, which are normally intrinsically disordered, undergo a disorder-to-order transition to form fibrils with a rigid β-sheet core flanked by disordered domains. Solid-state NMR (ssNMR) and cryogenic electron microscopy (cryoEM) excel at resolving the rigid structures within amyloid cores but studying the dynamically disordered domains remains challenging. This challenge is exemplified by mutant huntingtin exon 1 (HttEx1), which self-assembles into pathogenic neuronal inclusions in Huntington disease (HD). The mutant protein’s expanded polyglutamine (polyQ) segment forms a fibril core that is rigid and sequestered from the solvent. Beyond the core, solvent-exposed surface residues mediate biological interactions and other properties of fibril polymorphs. Here we deploy magic angle spinning ssNMR experiments to probe for semi-rigid residues proximal to the fibril core and examine how solvent dynamics impact the fibrils’ segmental dynamics. Dynamic spectral editing (DYSE) 2D ssNMR based on a combination of cross-polarization (CP) ssNMR with selective dipolar dephasing reveals the weak signals of solvent-mobilized glutamine residues, while suppressing the normally strong background of rigid core signals. This type of ‘intermediate motion selection’ (IMS) experiment based on cross-polarization (CP) ssNMR, is complementary to INEPT- and CP-based measurements that highlight highly flexible or highly rigid protein segments, respectively. Integration of the IMS-DYSE element in standard CP-based ssNMR experiments permits the observation of semi-rigid residues in a variety of contexts, including in membrane proteins and protein complexes. We discuss the relevance of semi-rigid solvent-facing residues outside the fibril core to the latter’s detection with specific dyes and positron emission tomography tracers. <h4>Highlights</h4> Mutant huntingtin exon 1 fibrils feature a broad range of molecular dynamics. Molecular motion is coupled to water dynamics outside the fiber core. Dynamics-based spectral editing ssNMR reveals mobile non-core residues. Intermediate-motion selection via dipolar dephasing of rigid sites. Semi-mobile glutamines outside the fiber core observed and identified.",
+  "authors": [
+    "Matlahov I",
+    "Boatz JC",
+    "van der Wel PCA"
+  ],
+  "published_date": "2022-05-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.13.489937",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.13.489937.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR494323",
+    "raw_record": {
+      "id": "PPR494323",
+      "source": "PPR",
+      "doi": "10.1101/2022.05.13.489937",
+      "title": "Selective observation of semi-rigid non-core residues in dynamically complex mutant huntingtin protein fibrils",
+      "authorString": "Matlahov I, Boatz JC, van der Wel PCA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Matlahov I",
+            "lastName": "Matlahov",
+            "firstName": "Irina",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8485-0464"
+            }
+          },
+          {
+            "fullName": "Boatz JC",
+            "lastName": "Boatz",
+            "firstName": "Jennifer",
+            "initials": "JC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8240-5778"
+            }
+          },
+          {
+            "fullName": "van der Wel PCA",
+            "lastName": "van der Wel",
+            "firstName": "Patrick",
+            "initials": "PCA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5390-3321"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8485-0464"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5390-3321"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8240-5778"
+          }
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Many amyloid-forming proteins, which are normally intrinsically disordered, undergo a disorder-to-order transition to form fibrils with a rigid β-sheet core flanked by disordered domains. Solid-state NMR (ssNMR) and cryogenic electron microscopy (cryoEM) excel at resolving the rigid structures within amyloid cores but studying the dynamically disordered domains remains challenging. This challenge is exemplified by mutant huntingtin exon 1 (HttEx1), which self-assembles into pathogenic neuronal inclusions in Huntington disease (HD). The mutant protein’s expanded polyglutamine (polyQ) segment forms a fibril core that is rigid and sequestered from the solvent. Beyond the core, solvent-exposed surface residues mediate biological interactions and other properties of fibril polymorphs. Here we deploy magic angle spinning ssNMR experiments to probe for semi-rigid residues proximal to the fibril core and examine how solvent dynamics impact the fibrils’ segmental dynamics. Dynamic spectral editing (DYSE) 2D ssNMR based on a combination of cross-polarization (CP) ssNMR with selective dipolar dephasing reveals the weak signals of solvent-mobilized glutamine residues, while suppressing the normally strong background of rigid core signals. This type of ‘intermediate motion selection’ (IMS) experiment based on cross-polarization (CP) ssNMR, is complementary to INEPT- and CP-based measurements that highlight highly flexible or highly rigid protein segments, respectively. Integration of the IMS-DYSE element in standard CP-based ssNMR experiments permits the observation of semi-rigid residues in a variety of contexts, including in membrane proteins and protein complexes. We discuss the relevance of semi-rigid solvent-facing residues outside the fibril core to the latter’s detection with specific dyes and positron emission tomography tracers. <h4>Highlights</h4>  Mutant huntingtin exon 1 fibrils feature a broad range of molecular dynamics. Molecular motion is coupled to water dynamics outside the fiber core. Dynamics-based spectral editing ssNMR reveals mobile non-core residues. Intermediate-motion selection via dipolar dephasing of rigid sites. Semi-mobile glutamines outside the fiber core observed and identified.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/09/18/2022.05.13.489937.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.05.13.489937"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36419510",
+            "reference": "Journal of structural biology: X. 2022 ;6:100077",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-05-20",
+      "firstPublicationDate": "2022-05-13",
+      "firstIndexDate": "2022-05-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.15.528697",
+  "title": "Identifying Promising Sequences For Protein Engineering Using A Deep Transformer Protein Language Model",
+  "authors": "Trevor S. Frisby; Christopher James Langmead",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-16",
+  "window": {
+    "start": "2023-02-13",
+    "end": "2023-02-19"
+  },
+  "score": 6,
+  "one_liner_zh": "用Transformer蛋白语言模型的自注意力图计算PROMISE SCORE，以预测序列与结合伴侣的互作并筛选强结合序列，虽非IDP对象，但PPI结合预测与可迁移的互作机制建模思路对本课题有启发。",
+  "abstract": "Protein engineers aim to discover and design novel sequences with targeted, desirable properties. Given the near limitless size of the protein sequence landscape, it is no surprise that these desirable sequences are often a relative rarity. This makes identifying such sequences a costly and time-consuming endeavor. In this work, we show how to use a deep Transformer Protein Language Model to identify sequences that have the most promise . Specifically, we use the model’s self-attention map to calculate a PROMISE SCORE that weights the relative importance of a given sequence according to predicted interactions with a specified binding partner. This PROMISE SCORE can then be used to identify strong binders worthy of further study and experimentation. We use the PROMISE SCORE within two protein engineering contexts— Nanobody (Nb) discovery and protein optimization. With Nb discovery, we show how the PROMISE SCORE provides an effective way to select lead sequences from Nb repertoires. With protein optimization, we show how to use the PROMISE SCORE to select site-specific mutagenesis experiments that identify a high percentage of improved sequences. In both cases, we also show how the self-attention map used to calculate the PROMISE SCORE can indicate which regions of a protein are involved in intermolecular interactions that drive the targeted property. Finally, we describe how to fine-tune the Transformer Protein Language Model to learn a predictive model for the targeted property, and discuss the capabilities and limitations of fine-tuning with and without knowledge transfer within the context of protein engineering.",
+  "abstract_zh": "蛋白质工程师旨在发现并设计具有目标、理想特性的新序列。鉴于蛋白质序列空间的近乎无限性，这些理想序列往往相对罕见，这不足为奇。这使得识别此类序列成为一项成本高昂且耗时的工作。在本研究中，我们展示了如何利用深度Transformer蛋白质语言模型来识别最具潜力的序列。具体而言，我们使用该模型的自注意力图谱计算一个“承诺评分 (PROMISE SCORE)”，该评分根据与指定结合伙伴的预测相互作用来加权给定序列的相对重要性。此承诺评分随后可用于识别值得进一步研究和实验的强结合物。我们在两个蛋白质工程场景中应用了承诺评分——纳米抗体 (Nanobody, Nb) 发现和蛋白质优化。在纳米抗体发现中，我们展示了承诺评分如何提供一种有效的方法，从纳米抗体库中选择先导序列。在蛋白质优化中，我们展示了如何利用承诺评分来选择定点突变实验，以识别高比例的改进序列。在这两种情况下，我们还展示了用于计算承诺评分的自注意力图谱如何指示蛋白质中哪些区域参与驱动目标特性的分子间相互作用。最后，我们描述了如何微调Transformer蛋白质语言模型以学习目标特性的预测模型，并讨论了在蛋白质工程背景下，有无知识转移的微调能力及其局限性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.15.528697",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.15.528697",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.15.528697/index.html"
+}

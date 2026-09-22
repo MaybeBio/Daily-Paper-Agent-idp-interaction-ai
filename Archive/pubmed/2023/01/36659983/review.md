@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The abstract claims that recent NMR and MD studies reveal dynamic structures of intrinsically disordered regions in TFIIH complexes, nucleosomes, and histone chaperones, with a common acidic string binding mode to the p62 PH domain, correlated histone tail dynamics in nucleosomes, and regulatory roles for acidic IDRs of FACT and NAP1
+- **Visible evidence base** Abstract text only; no experimental details, data, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, NMR and MD simulation parameters, statistical analyses, and any supporting data
+
+## Reviewer
+- **Overall assessment** The abstract presents a concise summary of recent progress in studying intrinsically disordered regions of chromatin-related proteins using NMR and MD simulations. The topic is timely and of interest to the structural biology and chromatin fields. However, the abstract is largely a narrative review of prior findings rather than a presentation of new data, and the evidence base for the specific claims cannot be assessed from the supplied material. The scientific case for any novel contribution is not established from the abstract alone.
+- **Who would be interested in the results, and why** Structural biologists studying dynamic protein conformations, researchers in transcription regulation and chromatin biology, and computational scientists using MD simulations to explore disordered regions would find this summary useful as a reference point for current methodological approaches and emerging consensus on IDR behavior in these systems.
+- **Major strengths** The abstract identifies a clear gap in structural biology, namely the elucidation of dynamic IDR structures, and highlights a plausible unifying interaction mode for acidic strings binding to the p62 PH domain. The integration of NMR and MD approaches is appropriate for the systems described, and the focus on histone tail networks and chaperone regulation addresses important functional questions.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that recent studies "are beginning to reveal dynamic structures" of TFIIH complexes, nucleosomes, and histone chaperones, and that a "common interaction mode" exists for acidic string binding to the p62 PH domain  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract provides no primary data, no methodological details, and no citations to specific studies. It is impossible to verify the accuracy of the described findings, the scope of the "recent studies" referenced, or the strength of the evidence for the proposed common binding mode.  
+  - **Why it matters** Without access to the underlying data or at least specific references, the claims cannot be independently evaluated. The abstract functions as a high-level summary, but the scientific validity of the stated conclusions remains unverifiable from the supplied material.  
+  - **Resolution test** Provide the full manuscript with detailed methods, results, and references, or clearly indicate that this is a review article with appropriate citations to primary literature.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Novelty and contribution  
+  - **Claim pointer** The abstract implies a synthesis of findings across multiple systems, but it does not state what new insights or data this manuscript contributes beyond existing literature  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract reads as a summary of published work without indicating whether the manuscript presents new experimental results, a new analytical framework, or a novel synthesis. The contribution of this work relative to prior publications is unclear.  
+  - **Why it matters** For a Nature-style assessment, the originality and scientific importance of the work must be explicit. If this is a review, that should be stated; if it contains new data, the abstract must highlight the specific advance.  
+  - **Resolution test** Revise the abstract to clearly state the manuscript type and the specific novel contribution, or provide the full text to assess the original findings.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Specificity and testability  
+  - **Claim pointer** The abstract states that "the dynamic conformations of the N-tails of histones H2A and H2B are correlated" and that H3 and H4 tails form a "histone tail network dependent on their modifications and linker DNA"  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** These claims are presented as established findings, but the abstract provides no quantitative measures, no conditions under which these correlations hold, and no description of how the "network" was defined or characterized. The claims lack the specificity needed for a reader to assess their robustness.  
+  - **Why it matters** Correlated dynamics and network behavior are complex claims that require clear operational definitions and statistical support. Without such details, the statements are not testable or falsifiable from the abstract.  
+  - **Resolution test** Provide specific data, such as correlation coefficients, simulation conditions, or experimental parameters, in the full manuscript and summarize these in the abstract with appropriate qualifiers.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The phrase "extended string-like binding" is used without a definition or schematic, which may confuse nonspecialist readers.  
+  - **Required correction** Define the term briefly or add a parenthetical explanation, such as "a linear arrangement of acidic residues along the positively charged surface."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract mentions "three RNA polymerases" but does not specify which ones or why this distinction matters for the binding mode described.  
+  - **Required correction** Clarify the identity of the RNA polymerases or remove the numerical detail if it is not essential to the summary.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract structure  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract moves from TFIIH complexes to nucleosomes to histone chaperones without clear transitions, making the logical flow difficult to follow.  
+  - **Required correction** Add brief transitional phrases or a sentence that links these three areas under a common theme, such as the role of acidic IDRs in chromatin regulation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient evidence or a clear statement of novel contribution. The technical soundness of the described findings cannot be evaluated without the full manuscript.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Not assessable from the abstract. The summary of existing findings suggests a review-like nature, but any new synthesis or data is not described.  
+  - **Scientific importance** The topic is important, as IDR dynamics in chromatin regulation are a frontier area. However, the abstract does not articulate why this particular synthesis or set of findings advances the field beyond current knowledge.  
+  - **Interdisciplinary readership** The abstract is likely accessible to structural biologists and biophysicists, but the lack of context for terms like "acidic string" and "histone tail network" may limit broader readership.  
+  - **Technical soundness** Not assessable. No methods, data, or statistical details are provided.  
+  - **Readability for nonspecialists** The abstract is reasonably clear for experts but uses jargon without definition, which reduces accessibility for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not support a case for publication in a high-impact venue. If the full manuscript contains new data or a novel synthesis with rigorous methods, a revised abstract that clearly states the contribution and provides specific evidence would be needed for further consideration.
+
+## Risk / unsupported claims
+- The claim of a "common interaction mode" for acidic string binding to the p62 PH domain across multiple partners is unsupported without comparative data or references.
+- The claim of correlated dynamics between H2A and H2B N-tails is unsupported without quantitative measures.
+- The claim of a "histone tail network" dependent on modifications and linker DNA is unsupported without a defined model or experimental evidence.
+- The overall assertion that NMR and MD studies "are beginning to reveal" these structures is a general statement that cannot be verified from the abstract alone.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40388411",
+  "title": "Investigating the Nature of PRM:SH3 Interactions Using Artificial Intelligence and Molecular Dynamics.",
+  "authors": "Kim, Se-Jun; Hwang, Da-Eun; Kim, Hyungjun; Choi, Jeong-Mo",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-05-19",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 9,
+  "one_liner_zh": "结合AlphaFold2与分子动力学模拟，研究PRM:SH3无序肽段互作的结合机制，揭示突变对结合亲和力与模式的影响，并关联相分离背景，为无序蛋白PPI机制建模提供可迁移框架。",
+  "abstract": "Understanding the binding interactions within protein-peptide complexes is crucial for elucidating key physicochemical phenomena in biological systems. Among the outcomes of these interactions, biomolecular condensates have recently emerged as vital players in various cellular functions including signaling. Complexes such as PRM:SH3 are known to undergo condensation, yet the chemical interactions and governing factors driving these behaviors remain poorly understood. In this study, we combine AlphaFold2 and molecular dynamics simulations to investigate the binding nature of PRM:SH3. Our findings reveal that proline-to-alanine mutations enhance flexibility, weakening the binding affinity, while charge-altering mutations modify the binding mode and influence the binding strength. Notably, the PRM(H) series shows that binding is primarily driven by local flexibility and the hydrophobic effect. Furthermore, we demonstrate that the root-mean-square deviation and dendrogram height are correlated to experimental dissociation constants. These insights provide a framework for understanding the binding behaviors of protein-peptide complexes and offer an effective approach for studying similar systems.",
+  "abstract_zh": "理解蛋白-肽复合物内的结合相互作用对于阐明生物系统中的关键物理化学现象至关重要。在这些相互作用的成果中，生物分子凝聚体（biomolecular condensates）最近已成为包括信号传导在内的多种细胞功能中的重要参与者。诸如PRM:SH3等复合物已知会发生凝聚，但驱动这些行为的化学相互作用和主导因素仍知之甚少。在本研究中，我们结合AlphaFold2和分子动力学（molecular dynamics）模拟来探究PRM:SH3的结合性质。我们的发现表明，脯氨酸到丙氨酸的突变增强了灵活性，削弱了结合亲和力，而电荷改变突变则修饰了结合模式并影响结合强度。值得注意的是，PRM(H)系列显示，结合主要由局部灵活性和疏水效应驱动。此外，我们证明均方根偏差（root-mean-square deviation）和树状图高度与实验解离常数相关。这些见解为理解蛋白-肽复合物的结合行为提供了框架，并为研究类似系统提供了一种有效方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40388411/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40388411/",
+  "paper_page_path": "papers/pubmed/40388411/index.html"
+}

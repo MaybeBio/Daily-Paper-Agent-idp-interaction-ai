@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "40716064",
+    "doi": "10.1016/j.celrep.2025.116067",
+    "title": "Metal-induced nanoscale clusterization initiates protein liquid-liquid phase separation."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) of biomolecules is a crucial mechanism in regulating cellular functions through dynamic formation of membrane-less organelles. The assembly of nucleation seeds is a key step that triggers LLPS; however, it is challenging to precisely study its assembly mechanism due to the complexity of the condensation process. Recently, metal ions have been found to play important roles in inducing LLPS. To elucidate the assembling mechanism, a small ubiquitin-like modifier (SUMO) protein was employed as a model protein to study metal-induced condensation. The results indicate that SUMO possesses two weak Cu(II)-binding sites across the protein surface, enabling intermolecular bridging among SUMO molecules. The formation of assembling seeds is confirmed by mass photometry analysis, showing the Cu(II)-induced dynamic clusterization of SUMO at nanoscale. Increasing the Cu(II) binding affinity of SUMO significantly promotes the protein condensation, underscoring the pivotal role of Cu(II) coordination in LLPS. This work provides insights into the protein assembly mechanism through non-specific intermolecular metal coordination.",
+    "keywords": [
+      "CP: Molecular biology",
+      "liquid-liquid phase separation",
+      "metal coordination",
+      "nanoclusters",
+      "protein assembly"
+    ],
+    "mesh_terms": [
+      "*Copper/chemistry/metabolism",
+      "Protein Binding",
+      "*Metals",
+      "Binding Sites",
+      "*Small Ubiquitin-Related Modifier Proteins/chemistry/metabolism",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiang, Sijia",
+        "Hou, Zhuanghao",
+        "Wang, Yu",
+        "Yang, Yang",
+        "Hu, Hongze",
+        "Yin, Chang",
+        "Huang, Guangming",
+        "Cao, Kaiming",
+        "Liu, Yangzhong"
+      ],
+      "short_names": [
+        "Xiang S",
+        "Hou Z",
+        "Wang Y",
+        "Yang Y",
+        "Hu H",
+        "Yin C",
+        "Huang G",
+        "Cao K",
+        "Liu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacy, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, Key Laboratory of Precision and Intelligent Chemistry, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei 230001, China; Anhui Provincial Key Laboratory of Precision Pharmaceutical Preparations and Clinical Pharmacy, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230001, China.",
+        "Department of Pharmacy, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, Key Laboratory of Precision and Intelligent Chemistry, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei 230001, China.",
+        "School of Chemistry & Chemical Engineering and Environmental Engineering, Weifang University, Weifang 261061, China.",
+        "Anhui Provincial Key Laboratory of Precision Pharmaceutical Preparations and Clinical Pharmacy, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230001, China.",
+        "Department of Pharmacy, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, Key Laboratory of Precision and Intelligent Chemistry, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei 230001, China.",
+        "School of Life Sciences, Anhui Agricultural University, Hefei 230001, China.",
+        "Department of Pharmacy, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, Key Laboratory of Precision and Intelligent Chemistry, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei 230001, China. Electronic address: gmhuang@ustc.edu.cn.",
+        "School of Life Sciences, Anhui Agricultural University, Hefei 230001, China. Electronic address: caokm@mail.ustc.edu.cn.",
+        "Department of Pharmacy, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, Key Laboratory of Precision and Intelligent Chemistry, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei 230001, China; Anhui Provincial Key Laboratory of Precision Pharmaceutical Preparations and Clinical Pharmacy, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230001, China. Electronic address: liuyz@ustc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiang, Sijia",
+        "short_name": "Xiang S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, Key Laboratory of Precision and Intelligent Chemistry, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei 230001, China; Anhui Provincial Key Laboratory of Precision Pharmaceutical Preparations and Clinical Pharmacy, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230001, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Zhuanghao",
+        "short_name": "Hou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, Key Laboratory of Precision and Intelligent Chemistry, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei 230001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yu",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry & Chemical Engineering and Environmental Engineering, Weifang University, Weifang 261061, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yang",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Anhui Provincial Key Laboratory of Precision Pharmaceutical Preparations and Clinical Pharmacy, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230001, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Hongze",
+        "short_name": "Hu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, Key Laboratory of Precision and Intelligent Chemistry, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei 230001, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Chang",
+        "short_name": "Yin C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Anhui Agricultural University, Hefei 230001, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Guangming",
+        "short_name": "Huang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, Key Laboratory of Precision and Intelligent Chemistry, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei 230001, China. Electronic address: gmhuang@ustc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cao, Kaiming",
+        "short_name": "Cao K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Anhui Agricultural University, Hefei 230001, China. Electronic address: caokm@mail.ustc.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Yangzhong",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, The First Affiliated Hospital of USTC, Division of Life Sciences and Medicine, Key Laboratory of Precision and Intelligent Chemistry, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei 230001, China; Anhui Provincial Key Laboratory of Precision Pharmaceutical Preparations and Clinical Pharmacy, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230001, China. Electronic address: liuyz@ustc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2025 Aug 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 04:06",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40716064",
+      "33081049",
+      "39983547",
+      "24276409",
+      "38657863",
+      "38593270",
+      "17545995",
+      "38547652",
+      "34840078",
+      "39342654",
+      "38262205",
+      "39194247",
+      "38322526",
+      "28784659",
+      "38446061",
+      "16194093",
+      "34831049",
+      "39566743",
+      "37796176",
+      "41264624",
+      "38808958",
+      "40231263",
+      "36920190",
+      "40616404",
+      "21518904",
+      "40346035",
+      "37092470",
+      "39705832",
+      "37088005",
+      "34787433",
+      "37782899",
+      "40439464",
+      "22350877",
+      "40632496",
+      "38997630",
+      "39038510",
+      "15723523",
+      "38811080",
+      "38245749",
+      "39302099",
+      "34570465",
+      "28742344",
+      "38136675",
+      "22350891",
+      "15608651",
+      "39256186",
+      "16204249",
+      "41009632",
+      "29526694",
+      "40353860",
+      "15123615",
+      "16602682",
+      "31872228",
+      "40515902",
+      "20077568",
+      "24871565",
+      "40516596",
+      "41307542",
+      "38723938",
+      "20074033",
+      "18693689",
+      "40133210",
+      "39290787",
+      "17204475",
+      "39833115",
+      "38167731",
+      "32579296",
+      "37180732",
+      "39162498",
+      "12924945",
+      "38979955",
+      "33517364",
+      "38597222",
+      "24753249",
+      "29511089",
+      "41196678",
+      "38280740",
+      "41397557",
+      "22147707",
+      "32061854",
+      "24174529",
+      "15388847",
+      "41433062",
+      "40906967",
+      "37163663",
+      "26719330",
+      "31941785",
+      "37290157",
+      "19107409",
+      "41092354",
+      "28455449",
+      "16198310",
+      "35007836",
+      "20361221",
+      "39990825",
+      "37005672",
+      "38526948",
+      "38356260",
+      "35750927",
+      "29120074"
+    ],
+    "review": [
+      "40716064",
+      "17545995",
+      "38547652",
+      "34840078",
+      "38262205",
+      "34831049",
+      "39566743",
+      "38808958",
+      "40231263",
+      "40616404",
+      "37092470",
+      "39705832",
+      "37088005",
+      "39038510",
+      "38811080",
+      "38245749",
+      "41009632",
+      "31872228",
+      "41307542",
+      "38723938",
+      "39290787",
+      "38167731",
+      "37180732",
+      "38979955",
+      "38597222",
+      "38280740",
+      "19107409",
+      "39990825",
+      "37005672"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(25)00838-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

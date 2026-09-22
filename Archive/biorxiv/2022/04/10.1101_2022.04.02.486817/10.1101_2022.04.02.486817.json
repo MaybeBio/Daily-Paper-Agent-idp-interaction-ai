@@ -1,0 +1,462 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.02.486817",
+  "title": "FCHO controls AP2’s critical endocytic roles through a PtdIns4,5P 2 membrane-dependent switch",
+  "doi": "10.1101/2022.04.02.486817",
+  "abstract": "Clathrin-mediated endocytosis (CME) is the main mechanism by which mammalian cells control their cell surface proteome. Proper operation of the pivotal CME cargo-adaptor AP2 requires membrane-localised FCHO. Here, live-cell eTIRF-SIM shows that FCHO marks sites of clathrin- coated pit (CCP) initiation, which mature into uniform sized CCPs comprising a central patch of AP2 and clathrin corralled by an FCHO/Eps15 ring. We dissect the network of interactions between the FCHO interdomain-linker and AP2, which concentrates, orients, tethers and partially destabilizes closed AP2 at the plasma membrane. AP2’s subsequent membrane deposition drives its opening, which triggers FCHO displacement through steric competition with PtdIns4,5P 2 , clathrin, cargo and CME accessory factors. FCHO can now relocate toward a CCP’s outer edge to engage and activate further AP2s to drive CCP growth/maturation. <h4>125 character summary</h4> FCHO primes AP2 for CCV incorporation, a process that triggers FCHO release to enable activation/recruitment of further AP2s",
+  "authors": [
+    "Zaccai NR",
+    "Kadlecova Z",
+    "Dickson VK",
+    "Korobchevskaya K",
+    "Kamenicky J",
+    "Kovtun O",
+    "Umasankar PK",
+    "Wrobel AG",
+    "Kaufman JG",
+    "Gray S",
+    "Qu K",
+    "Evans PR",
+    "Fritzsche M",
+    "Sroubek F",
+    "Höning S",
+    "Briggs JA",
+    "Kelly BT",
+    "Owen DJ",
+    "Traub LM"
+  ],
+  "published_date": "2022-04-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.02.486817",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.02.486817.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR476904",
+    "raw_record": {
+      "id": "PPR476904",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR476904"
+        ]
+      },
+      "doi": "10.1101/2022.04.02.486817",
+      "title": "FCHO controls AP2’s critical endocytic roles through a PtdIns4,5P  <sub>2</sub>  membrane-dependent switch",
+      "authorString": "Zaccai NR, Kadlecova Z, Dickson VK, Korobchevskaya K, Kamenicky J, Kovtun O, Umasankar PK, Wrobel AG, Kaufman JG, Gray S, Qu K, Evans PR, Fritzsche M, Sroubek F, Höning S, Briggs JA, Kelly BT, Owen DJ, Traub LM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zaccai NR",
+            "lastName": "Zaccai",
+            "firstName": "Nathan",
+            "initials": "NR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1476-2044"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIMR, University of Cambridge, Biomedical Campus, Hills Road, Cambridge, CB2 0XY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kadlecova Z",
+            "lastName": "Kadlecova",
+            "firstName": "Zuzana",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6335-1105"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIMR, University of Cambridge, Biomedical Campus, Hills Road, Cambridge, CB2 0XY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dickson VK",
+            "lastName": "Dickson",
+            "firstName": "Veronica Kane",
+            "initials": "VK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIMR, University of Cambridge, Biomedical Campus, Hills Road, Cambridge, CB2 0XY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Korobchevskaya K",
+            "lastName": "Korobchevskaya",
+            "firstName": "Kseniya",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Kennedy Institute of Rheumatology, University of Oxford, Roosevelt Drive, Oxford, OX3 7FY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kamenicky J",
+            "lastName": "Kamenicky",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Czech Academy of Sciences, Institute of Information Theory and Automation, Pod Vodarenskou vezi 4, 182 08 Prague 8, Czech Republic"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kovtun O",
+            "lastName": "Kovtun",
+            "firstName": "Oleksiy",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6374-7863"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC LMB Cambridge Biomedical Campus, Cambridge CB2 0QH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Umasankar PK",
+            "lastName": "Umasankar",
+            "firstName": "Perunthottathu",
+            "initials": "PK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5548-1022"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Intracellular Trafficking Laboratory, Transdisciplinary Biology Research Program, Rajiv Gandhi Centre for Biotechnology, Thiruvananthapuram, Kerala, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wrobel AG",
+            "lastName": "Wrobel",
+            "firstName": "Antoni",
+            "initials": "AG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6680-5587"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIMR, University of Cambridge, Biomedical Campus, Hills Road, Cambridge, CB2 0XY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kaufman JG",
+            "lastName": "Kaufman",
+            "firstName": "Jonathan G.G.",
+            "initials": "JG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5320-8401"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIMR, University of Cambridge, Biomedical Campus, Hills Road, Cambridge, CB2 0XY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gray S",
+            "lastName": "Gray",
+            "firstName": "Sally",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIMR, University of Cambridge, Biomedical Campus, Hills Road, Cambridge, CB2 0XY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Qu K",
+            "lastName": "Qu",
+            "firstName": "Kun",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC LMB Cambridge Biomedical Campus, Cambridge CB2 0QH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Evans PR",
+            "lastName": "Evans",
+            "firstName": "Philip",
+            "initials": "PR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC LMB Cambridge Biomedical Campus, Cambridge CB2 0QH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fritzsche M",
+            "lastName": "Fritzsche",
+            "firstName": "Marco",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Kennedy Institute of Rheumatology, University of Oxford, Roosevelt Drive, Oxford, OX3 7FY, UK"
+                },
+                {
+                  "affiliation": "Rosalind Franklin Institute, Harwell Campus, Didcot, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sroubek F",
+            "lastName": "Sroubek",
+            "firstName": "Filip",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Czech Academy of Sciences, Institute of Information Theory and Automation, Pod Vodarenskou vezi 4, 182 08 Prague 8, Czech Republic"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Höning S",
+            "lastName": "Höning",
+            "firstName": "Stefan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Biochemistry I, Medical Faculty, University of Cologne. Joseph-Stelzmann-Straße 52, 50931 Cologne, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Briggs JA",
+            "lastName": "Briggs",
+            "firstName": "John A.G.",
+            "initials": "JA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC LMB Cambridge Biomedical Campus, Cambridge CB2 0QH, UK"
+                },
+                {
+                  "affiliation": "Max Planck Institute of Biochemistry, 82152 Martinsried, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kelly BT",
+            "lastName": "Kelly",
+            "firstName": "Bernard",
+            "initials": "BT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2666-6268"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIMR, University of Cambridge, Biomedical Campus, Hills Road, Cambridge, CB2 0XY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Owen DJ",
+            "lastName": "Owen",
+            "firstName": "David",
+            "initials": "DJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "CIMR, University of Cambridge, Biomedical Campus, Hills Road, Cambridge, CB2 0XY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Traub LM",
+            "lastName": "Traub",
+            "firstName": "Linton",
+            "initials": "LM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, University of Pittsburgh School of Medicine, 3500 Terrace Street, Pittsburgh PA, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5320-8401"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5548-1022"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6335-1105"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6374-7863"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1476-2044"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6680-5587"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8649-8094"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2666-6268"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Clathrin-mediated endocytosis (CME) is the main mechanism by which mammalian cells control their cell surface proteome. Proper operation of the pivotal CME cargo-adaptor AP2 requires membrane-localised FCHO. Here, live-cell eTIRF-SIM shows that FCHO marks sites of clathrin- coated pit (CCP) initiation, which mature into uniform sized CCPs comprising a central patch of AP2 and clathrin corralled by an FCHO/Eps15 ring. We dissect the network of interactions between the FCHO interdomain-linker and AP2, which concentrates, orients, tethers and partially destabilizes closed AP2 at the plasma membrane. AP2’s subsequent membrane deposition drives its opening, which triggers FCHO displacement through steric competition with PtdIns4,5P  2 , clathrin, cargo and CME accessory factors. FCHO can now relocate toward a CCP’s outer edge to engage and activate further AP2s to drive CCP growth/maturation.  <h4>125 character summary</h4>  FCHO primes AP2 for CCV incorporation, a process that triggers FCHO release to enable activation/recruitment of further AP2s",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "212343/Z/18/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/04/03/2022.04.02.486817.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.04.02.486817"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR476904"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR476904&type=FILE&fileName=EMS144125-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS144125",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-04-04",
+      "firstPublicationDate": "2022-04-03",
+      "firstIndexDate": "2022-04-04",
+      "fullTextReceivedDate": "2022-04-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

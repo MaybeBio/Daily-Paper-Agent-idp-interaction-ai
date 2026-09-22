@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2401.10438v1",
+  "title": "Diffusion of intrinsically disordered proteins within viscoelastic membraneless droplets",
+  "authors": "Fuga Watanabe; Takuma Akimoto; Robert B. Best; Kresten Lindorff-Larsen; Ralf Metzler; Eiji Yamamoto",
+  "journal": "Phys. Rev. Research 7, 043117 (2025)",
+  "published_date": "2024-01-19",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用分子动力学模拟研究FUS和DDX4等无序蛋白在相分离液滴内的亚扩散行为，揭示粘弹性和界面效应对蛋白构象与扩散的影响，虽未直接聚焦PPI结合机制，但为无序蛋白在凝聚体中的动态与互作环境建模提供了重要物理基础。",
+  "abstract": "In living cells, intrinsically disordered proteins (IDPs), such as FUS and DDX4, undergo phase separation, forming biomolecular condensates. Using molecular dynamics simulations, we investigate their behavior in their respective homogenous droplets. We find that the proteins exhibit transient subdiffusion due to the viscoelastic nature and confinement effects in the droplets. The conformation and the instantaneous diffusivity of the proteins significantly vary between the interior and the interface of the droplet, resulting in non-Gaussianity in the displacement distributions. This study highlights key aspects of IDP behavior in biomolecular condensates.",
+  "abstract_zh": "在活细胞中，本质无序蛋白（IDPs），如FUS和DDX4，经历相分离（phase separation），形成生物分子凝聚体。利用分子动力学（molecular dynamics）模拟，我们研究了它们在各自均质液滴中的行为。我们发现，由于液滴内的粘弹性和限制效应，这些蛋白质表现出瞬态亚扩散。蛋白质的构象和瞬时扩散性在液滴内部与界面之间存在显著差异，导致位移分布中的非高斯性。本研究强调了生物分子凝聚体中IDP行为的关键方面。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2401.10438v1",
+  "source_url": "https://arxiv.org/abs/2401.10438v1",
+  "paper_page_path": "papers/arxiv/2401.10438v1/index.html"
+}

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methodology, results and discussion, conclusions) as provided
+- **Assessment boundary** Scientific soundness, methodological validity, internal consistency, and support of claims based solely on the supplied material
+- **Shared manuscript claim summary** The authors propose a computational workflow combining vacuum molecular dynamics simulations with enhanced sampling and a structural fitting procedure to predict the cleavage efficiency of the CASPON enzyme on five protein substrates. They report a qualitative agreement between the fraction of favorably fitting N-terminal conformations and experimentally observed cleavage yields, interpreted within a conformational selection model.
+- **Visible evidence base** Abstract, full methodology section, results and discussion narrative, Figures 3-9 referenced, Tables 1-4 referenced, Supporting Information referenced (Figures S1-S8)
+- **Missing materials affecting confidence** Figures 1-9 and Tables 1-4 are referenced but not provided in the supplied text. Supporting Information (Figures S1-S8) is referenced but not provided. Experimental cleavage data are described but raw quantification values beyond percentages at 2 h are not fully detailed. No statistical analysis or error estimates are presented in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a practically relevant problem in fusion protein technology and proposes a computationally inexpensive predictive workflow. The core idea of using enhanced-sampling vacuum simulations to generate conformational ensembles of disordered N-termini, followed by geometric fitting into a known caspase-2 active site, is pragmatic and potentially useful. However, the evidence presented in the text is insufficient to fully evaluate the validity and generalizability of the approach. Key quantitative comparisons between predictions and experiments are described only qualitatively, and the absence of figures and tables limits verification. The conformational selection interpretation is plausible but not rigorously tested against alternative models. The manuscript would benefit from clearer quantitative metrics, error analysis, and a more explicit discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in biopharmaceutical process development, particularly those working on tag cleavage and fusion protein purification, would find this work relevant. Computational biophysicists interested in applying enhanced-sampling MD to intrinsically disordered peptides and protein-protein recognition may also be interested. The promise of a rapid, low-cost screening tool for substrate cleavability could appeal to industrial practitioners.
+- **Major strengths** The problem is well-motivated and practically important. The computational strategy is designed for speed and accessibility, using vacuum simulations and simple fitting, which is a pragmatic choice. The inclusion of five diverse protein substrates with different N-terminal residues strengthens the scope. The comparison between complete-set and clustered-set fitting approaches is a thoughtful methodological check. The validation of vacuum simulations against explicit-water simulations, though only described in text, is a commendable effort.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "the number of favorably interacting N-terminal conformations shows a very good agreement with the experimentally observed cleavage efficiency."
+  - **Evidence pointer** Results and Discussion, Figures 5 and 6, Table 4 (figures and table not provided in supplied material)
+  - **Concern** The central claim of agreement between computational predictions and experimental cleavage yields is presented only in qualitative terms in the text. The percentages of successful fittings are given for each protein, and experimental cleavage percentages at 2 h are stated, but no quantitative correlation coefficient, statistical test, or error analysis is provided. The figures that would allow visual verification are not included in the supplied material.
+  - **Why it matters** The core conclusion of the manuscript rests on this claimed agreement. Without quantitative metrics or visible data, the reader cannot assess the strength of the correlation or whether the agreement is statistically meaningful. The claim of "very good agreement" is subjective and unsupported by the text alone.
+  - **Resolution test** Provide a scatter plot of predicted fitting percentages versus experimental cleavage yields with a correlation coefficient and confidence interval. Include error bars on both axes. If possible, perform a permutation test or bootstrap analysis to assess significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors state that the method "can be readily used to assess the CASPON cleavability a priori."
+  - **Evidence pointer** Methodology, Cleavage Predictions; Results and Discussion
+  - **Concern** The predictive workflow is tested on only five proteins, all of which were presumably chosen because experimental data were available. There is no validation on an independent set of proteins not used in the development or initial testing. The text does not describe any cross-validation, leave-one-out analysis, or prospective test. The claim of a priori applicability is therefore not established.
+  - **Why it matters** A predictive tool must demonstrate generalizability beyond the training set. Without independent validation, the method may be overfitted to the specific proteins studied, and the claimed utility for novel substrates is speculative.
+  - **Resolution test** Apply the workflow to a set of additional proteins with known cleavage efficiencies that were not part of the initial five. Report the predictive accuracy on this independent set. Alternatively, perform a leave-one-out cross-validation and report the resulting error.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Alternative explanations
+  - **Claim pointer** The authors interpret their results within a conformational selection model, stating that a higher percentage of successful fittings implies a larger pool of favorable conformations and thus a lower energy penalty for interaction.
+  - **Evidence pointer** Results and Discussion, paragraph on conformational selection
+  - **Concern** The conformational selection interpretation is plausible, but the text does not rule out alternative explanations. For example, the observed correlation between fitting success and cleavage yield could also be explained by differences in intrinsic flexibility of the N-termini, by sequence-specific effects on the P1' residue, or by differences in the stability of the folded protein domain that affect steric accessibility. The authors do not discuss or test these alternatives.
+  - **Why it matters** The mechanistic interpretation is a key part of the manuscript's contribution. If alternative explanations are equally consistent with the data, the conformational selection model is not uniquely supported, weakening the conceptual advance.
+  - **Resolution test** Perform control analyses, such as correlating fitting success with N-terminal flexibility metrics (e.g., B-factors, RMSF from simulations) or with P1' residue properties. Discuss whether the conformational selection model is distinguishable from these alternatives given the data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The methodology describes the use of GROMOS11, GROMOS 54A8 and 54B7 force fields, stochastic dynamics at 600 K, and local elevation biasing with specific parameters.
+  - **Evidence pointer** Methodology, MD Simulations, Simulation Settings
+  - **Concern** While the simulation parameters are described, several details necessary for reproduction are missing. The specific local elevation parameters for each peptide are said to be in Table 2, which is not provided. The criteria for selecting the "flexible" portion of each N-terminus are described as based on visual inspection and SPOT-Disorder 2 predictions, but the actual predictions are only referenced in Supporting Information. The fitting procedure into the caspase-2 active site is described, but the specific structure used (PDB ID) is not stated in the text.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. Without complete parameter details and structure identifiers, other groups cannot replicate or build upon this work.
+  - **Resolution test** Provide Table 2 with all local elevation parameters, include the SPOT-Disorder 2 predictions in the main text or supplement, and state the PDB ID of the caspase-2 structure used. Add any additional parameters needed for exact reproduction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The phrase "a priori" is used twice in the manuscript (abstract and introduction) but the meaning is slightly different in each context. In the abstract it refers to predicting cleavability before experiment, while in the introduction it refers to the general applicability of the method. This could confuse readers.
+  - **Required correction** Clarify the usage, for example by specifying "before experimental testing" in the abstract and "without prior knowledge of the substrate" in the introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results and Discussion, first paragraph
+  - **Evidence pointer** "In the complete set approach, the successful fittings of TNFα and FGF2 conformations show that the majority is compatible with caspase-2 active site, 38 and 41%, respectively."
+  - **Issue** The sentence is grammatically awkward and the percentages are presented without context. It is unclear whether 38% and 41% refer to the fraction of all generated conformations or the fraction of conformations after energy filtering.
+  - **Required correction** Rewrite for clarity, for example: "In the complete set approach, 38% of TNFα and 41% of FGF2 conformations were successfully fitted into the caspase-2 active site."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and Discussion, experimental comparison
+  - **Evidence pointer** Table 4 referenced but not provided
+  - **Issue** The text states that scFv was resistant to cleavage and required a separate gel with time courses up to 48 h, but the results of this extended experiment are not described in the text.
+  - **Required correction** Add a sentence summarizing the outcome of the 48 h time-course experiment for scFv, or state that no cleavage was observed even after 48 h.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results and Discussion, interaction energy analysis
+  - **Evidence pointer** Figures 7 and 8 referenced but not provided
+  - **Issue** The text describes differences in interaction energies between proteins but does not report any statistical comparison. It is unclear whether the observed differences are significant given the distribution of values.
+  - **Required correction** Report median and interquartile ranges for the interaction energies and, if appropriate, perform a non-parametric test (e.g., Mann-Whitney U) to compare distributions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for the central claim), R1-M2 (independent validation), R1-M4 (reproducibility details). These are the primary technical issues that prevent the case from being fully established.
+- **Assessment against Nature-style criteria** Originality: The combination of vacuum enhanced-sampling MD with geometric fitting for cleavage prediction is somewhat novel, though the individual components are established. Scientific importance: The problem is relevant to biopharmaceutical manufacturing, but the advance is incremental rather than transformative. Interdisciplinary readership: The work bridges computational chemistry and protein engineering, but the presentation is likely to be most accessible to specialists in either field. Technical soundness: The methodology is reasonable in principle, but the evidence provided is insufficient to fully assess soundness, particularly regarding the central claim and validation. Readability for nonspecialists: The manuscript is generally well-structured, but some methodological details are dense and the absence of figures makes it harder to follow. Overall, the work has potential but does not currently meet the bar for a high-impact general journal.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the workflow is practical, but the manuscript requires substantial additional evidence, including quantitative correlation analysis, independent validation, and full methodological details, before the claims can be considered established.
+
+## Risk / unsupported claims
+- The claim of "very good agreement" between predicted fitting percentages and experimental cleavage yields is unsupported by quantitative analysis in the supplied text.
+- The claim that the method can be used "a priori" for novel substrates is unsupported without independent validation.
+- The conformational selection interpretation is plausible but not rigorously tested against alternative explanations.
+- The statement that vacuum simulations "do not omit any significant conformations" is based on a comparison described only qualitatively and without quantitative metrics.
+- The assertion that the workflow can provide results "within a matter of a few days" is not substantiated with actual computational time measurements.

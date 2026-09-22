@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "41819089",
+    "doi": "10.1016/j.chembiol.2026.02.008",
+    "title": "De novo design of Ras isoform selective binders."
+  },
+  "content": {
+    "abstract": "The four major isoforms encoded by RAS proto-oncogenes are differentially associated with cancer, but there are few isoform-specific binding reagents becasue the sequence differences are confined to their disordered C termini. To overcome this limitation, we use deep learning-based methods to design Ras isoform-specific binders (RIBs) for all major Ras isoforms de novo by targeting the Ras C terminus. The RIBs bind to their target Ras isoforms both in vitro and in cells with remarkable specificity, disrupting their membrane localization and inhibiting Ras activity. The RIBs enable dissection of the distinct roles of Ras isoforms during Ras(G12C) inhibitor resistance, demonstrating their utility in understanding Ras biology and disease and suggesting potential therapeutic applications.",
+    "keywords": [
+      "RAS",
+      "cancer",
+      "intrinsically disordered regions",
+      "protein design",
+      "protein engineering"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*ras Proteins/metabolism/chemistry/antagonists & inhibitors",
+      "Protein Isoforms/metabolism/chemistry/antagonists & inhibitors",
+      "Protein Binding",
+      "*Drug Design"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jason Z",
+        "Li, Xinting",
+        "Batingana, Alexa Rane",
+        "Liu, Caixuan",
+        "Jiang, Hanlun",
+        "Shannon, Kevin",
+        "Huang, Benjamin J",
+        "Wu, Kejia",
+        "Baker, David"
+      ],
+      "short_names": [
+        "Zhang JZ",
+        "Li X",
+        "Batingana AR",
+        "Liu C",
+        "Jiang H",
+        "Shannon K",
+        "Huang BJ",
+        "Wu K",
+        "Baker D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA; Institute for Protein Design, University of Washington, Seattle, WA 98195, USA; Howard Hughes Medical Institute, University of Washington, Seattle, WA 98195, USA; Department of Bioengineering, University of California, Los Angeles, Los Angeles, CA 90095, USA; Biological Physics, Structure and Design Graduate Program, University of Washington, Seattle, WA 98195, USA. Electronic address: jzz0428@g.ucla.edu.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA; Institute for Protein Design, University of Washington, Seattle, WA 98195, USA.",
+        "Department of Pediatrics, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA; Institute for Protein Design, University of Washington, Seattle, WA 98195, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA; Institute for Protein Design, University of Washington, Seattle, WA 98195, USA; Department of Electrical Engineering and Computer Science, University of California, Berkeley, Berkeley, CA 94720, USA.",
+        "Department of Pediatrics, University of California, San Francisco, San Francisco, CA 94143, USA; Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Pediatrics, University of California, San Francisco, San Francisco, CA 94143, USA; Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA; Institute for Protein Design, University of Washington, Seattle, WA 98195, USA; Biological Physics, Structure and Design Graduate Program, University of Washington, Seattle, WA 98195, USA. Electronic address: kejiawu@uw.edu.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA; Institute for Protein Design, University of Washington, Seattle, WA 98195, USA; Howard Hughes Medical Institute, University of Washington, Seattle, WA 98195, USA. Electronic address: dabaker@uw.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jason Z",
+        "short_name": "Zhang JZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA; Institute for Protein Design, University of Washington, Seattle, WA 98195, USA; Howard Hughes Medical Institute, University of Washington, Seattle, WA 98195, USA; Department of Bioengineering, University of California, Los Angeles, Los Angeles, CA 90095, USA; Biological Physics, Structure and Design Graduate Program, University of Washington, Seattle, WA 98195, USA. Electronic address: jzz0428@g.ucla.edu."
+        ]
+      },
+      {
+        "full_name": "Li, Xinting",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA; Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Batingana, Alexa Rane",
+        "short_name": "Batingana AR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, University of California, San Francisco, San Francisco, CA 94143, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Caixuan",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA; Institute for Protein Design, University of Washington, Seattle, WA 98195, USA."
+        ]
+      },
+      {
+        "full_name": "Jiang, Hanlun",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA; Institute for Protein Design, University of Washington, Seattle, WA 98195, USA; Department of Electrical Engineering and Computer Science, University of California, Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Shannon, Kevin",
+        "short_name": "Shannon K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, University of California, San Francisco, San Francisco, CA 94143, USA; Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Benjamin J",
+        "short_name": "Huang BJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, University of California, San Francisco, San Francisco, CA 94143, USA; Helen Diller Family Comprehensive Cancer Center, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Kejia",
+        "short_name": "Wu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA; Institute for Protein Design, University of Washington, Seattle, WA 98195, USA; Biological Physics, Structure and Design Graduate Program, University of Washington, Seattle, WA 98195, USA. Electronic address: kejiawu@uw.edu."
+        ]
+      },
+      {
+        "full_name": "Baker, David",
+        "short_name": "Baker D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195, USA; Institute for Protein Design, University of Washington, Seattle, WA 98195, USA; Howard Hughes Medical Institute, University of Washington, Seattle, WA 98195, USA. Electronic address: dabaker@uw.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell chemical biology"
+    ],
+    "journal_abbrev": [
+      "Cell Chem Biol"
+    ],
+    "pub_date": "2026 Mar 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/13 00:50",
+    "fetched_at": "2026-09-18 01:31:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40739343",
+      "39379700",
+      "39255801",
+      "39103633",
+      "38816644",
+      "38589574",
+      "38452047",
+      "38273065",
+      "38109936",
+      "37681415",
+      "37433327",
+      "37020023",
+      "36108050",
+      "35332283",
+      "35046096",
+      "34282049",
+      "34265844",
+      "34193876",
+      "33976200",
+      "33927411",
+      "33848463",
+      "31827279",
+      "28951536",
+      "28706291",
+      "25158650",
+      "24371225",
+      "21924373",
+      "20150892",
+      "16282985",
+      "15304504",
+      "11988737",
+      "10550163",
+      "10412982"
+    ],
+    "similar": [
+      "41819089",
+      "39975043",
+      "25566993",
+      "27057007",
+      "42228533",
+      "39788953",
+      "41733988",
+      "28597297",
+      "42423165",
+      "21518904",
+      "21924373",
+      "41519889",
+      "17628742",
+      "37395750",
+      "20080631",
+      "15060167",
+      "32869838",
+      "19243303",
+      "32804298",
+      "24889603",
+      "24259466",
+      "1618788",
+      "41332746",
+      "31906952",
+      "29273632",
+      "24929527",
+      "29330293",
+      "34200676",
+      "23356262",
+      "25846136",
+      "17998936",
+      "34204435",
+      "32086379",
+      "27977396",
+      "39522047",
+      "27422332",
+      "40153928",
+      "30792310",
+      "23129805",
+      "18691159",
+      "39870764",
+      "21253588",
+      "27341593",
+      "22046245",
+      "41933887",
+      "22851002",
+      "31776128",
+      "32797215",
+      "31233765",
+      "18211960",
+      "33977472",
+      "26554849",
+      "22568706",
+      "35536216",
+      "20838576",
+      "15181015",
+      "22589270",
+      "14714729",
+      "40694144",
+      "18547521",
+      "39984756",
+      "29409706",
+      "23630290",
+      "10921928",
+      "40674483",
+      "24590864",
+      "15705808",
+      "11956320",
+      "24134311",
+      "9862703",
+      "15677464",
+      "29518522",
+      "38795504",
+      "32424096",
+      "31116161",
+      "40371895",
+      "11585916",
+      "11287677",
+      "30366101",
+      "23939923",
+      "39071267",
+      "23496764",
+      "11734111",
+      "38097100",
+      "37936461",
+      "31931009",
+      "8637718",
+      "28951536",
+      "36864243",
+      "40597785",
+      "35794829",
+      "21807892",
+      "20479892",
+      "16079139",
+      "30106602",
+      "40686280",
+      "29282294",
+      "31386964",
+      "24383791",
+      "32292505"
+    ],
+    "review": [
+      "41819089",
+      "25566993",
+      "28597297",
+      "21924373",
+      "17628742",
+      "37395750",
+      "32869838",
+      "19243303",
+      "32804298",
+      "29273632",
+      "24929527",
+      "34200676",
+      "23356262",
+      "34204435",
+      "27977396",
+      "39522047",
+      "27422332",
+      "27341593",
+      "41933887",
+      "32797215",
+      "31233765",
+      "40694144",
+      "29409706",
+      "29518522",
+      "30366101",
+      "11734111",
+      "38097100",
+      "37936461",
+      "40597785"
+    ],
+    "pmc": [
+      "12982892"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2451-9456(26)00063-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41819089/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41819089",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

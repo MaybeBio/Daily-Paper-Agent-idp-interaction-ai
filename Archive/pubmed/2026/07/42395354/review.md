@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific validity, technical soundness, and claims as supported by the provided text; no assessment of figures, tables, or supplementary materials that were not included
+- **Shared manuscript claim summary** The authors present HyRes, a hybrid-resolution physics-based protein force field combining atomistic backbones with intermediate-resolution sidechains. They claim it generates IDP conformational ensembles that match or outperform state-of-the-art all-atom force fields across chain dimensions, transient long-range contacts, and secondary structure, at orders-of-magnitude lower computational cost, with demonstrated transferability to dilute solutions, condensates, and amyloid fibril fuzzy coats, and scalability to ~30,000 IDPs.
+- **Visible evidence base** Text descriptions of validation against experimental Rg, SAXS, smFRET, NMR chemical shifts, and PRE data; binding free energy calculations; condensate simulations; tau fibril fuzzy coat simulations; database construction. Figures and supplementary tables referenced but not visible.
+- **Missing materials affecting confidence** All figures, extended data figures, supplementary tables, and supplementary figures; specific numerical results for validation metrics; details of force field parameters; convergence criteria beyond qualitative statements; database schema and access verification
+
+## Reviewer
+- **Overall assessment** This manuscript describes a potentially valuable hybrid-resolution protein model with an ambitious validation program and a large-scale application. The core concept is sound and the validation strategy is comprehensive in scope. However, the provided text alone does not permit verification of the quantitative claims, and several methodological details are insufficiently described to assess reproducibility or to confirm that the stated accuracies are achieved. The claims of transferability and scalability are plausible but require the missing numerical evidence to be established.
+- **Who would be interested in the results, and why** Researchers in intrinsically disordered protein biology, computational biophysics, and force field development would be the primary audience. The proteome-scale database would interest bioinformaticians and machine learning practitioners working on protein language models or structure prediction for disordered systems. The demonstrated GPU scalability may interest groups studying biomolecular condensates or amyloid fibrils where system size has been a barrier.
+- **Major strengths**
+  - The hybrid-resolution design is well motivated and addresses a genuine gap between Cα-only coarse-grained models and all-atom simulations.
+  - The validation strategy spans multiple independent experimental observables (Rg, SAXS, smFRET, NMR chemical shifts, PRE), which is more comprehensive than typical force field papers.
+  - The application to tau fibril fuzzy coats addresses a biologically important and computationally challenging system.
+  - The proteome-scale database is a significant community resource.
+  - The computational cost comparison with all-atom simulations is striking and relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "HyRes generates atomistic ensembles that match or outperform state-of-the-art all-atom force fields in reproducing experimental chain dimensions, transient long-range contacts, and local secondary structures"
+  - **Evidence pointer** Figures 1b–f, 2a–c, 3b–g; Extended Data Figures 1–7; Supplementary Tables S3–S11; location not provided
+  - **Concern** The central quantitative claim of parity or superiority relative to all-atom force fields cannot be assessed from the text alone. The manuscript reports correlation coefficients and RMSD values for some comparisons, but the benchmark against all-atom force fields is described only qualitatively. No numerical comparison table or statistical analysis is visible. The claim that HyRes "matches or outperforms" three named all-atom force fields requires direct head-to-head comparison on identical IDP sets with identical metrics, and this is not demonstrated in the provided text.
+  - **Why it matters** This is the central scientific claim of the paper. If the comparison to all-atom force fields is not rigorously established with appropriate statistics, the manuscript's primary contribution is not verified.
+  - **Resolution test** Provide a supplementary table with per-IDP Rg, helicity, and PRE metrics for HyRes and each all-atom force field, with mean, standard deviation, and statistical significance tests. Show that the comparison is apples-to-apples in terms of simulation length, convergence criteria, and analysis protocols.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "HyRes accurately captures the ionic-strength dependence of the binding affinity... HyRes yields a value of –Δn ≈ 19.4, in close agreement with the experimental estimate of 18.5"
+  - **Evidence pointer** Figure 4b; Extended Data Figure 8a–b; location not provided
+  - **Concern** The binding free energy calculation reports a single value at 150 mM salt with a stated underestimation of ~3 kcal/mol relative to experiment. The ionic-strength dependence is claimed to be accurate, but no quantitative comparison across salt concentrations is shown. The Debye-Hückel treatment is acknowledged to under-stabilize salt bridges, yet the magnitude of this systematic error across conditions is not characterized. The umbrella sampling protocol is described, but convergence of the PMF is not demonstrated.
+  - **Why it matters** The transferability claim to concentrated environments rests partly on this binding calculation. A systematic underestimation of binding affinity by 3 kcal/mol is substantial and its impact on the condensate simulations should be discussed.
+  - **Resolution test** Show the full binding free energy versus salt concentration curve compared to experiment. Provide PMF convergence analysis. Discuss whether the 3 kcal/mol systematic error propagates to the condensate simulations and whether conclusions would change if corrected.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Good convergence was achieved for both the dimension and secondary structures of each monomer with only a 4-μs HyRes simulation"
+  - **Evidence pointer** Extended Data Figure 9b–c; location not provided
+  - **Concern** Convergence is asserted but not demonstrated in the visible text. For a system of this size (231,300 particles) and complexity, 4 μs may or may not be sufficient depending on the relaxation timescales of the fuzzy coat. The statement that "good convergence was achieved" requires quantitative evidence such as block-averaged property convergence, autocorrelation analysis, or comparison of independent replicas. The manuscript also states that three dielectric constants were tested and gave "identical" results, which is a strong claim that requires quantitative comparison.
+  - **Why it matters** If the fuzzy coat simulations are not converged, the structural conclusions about loop-like NTD conformations and the spatial organization of the fuzzy coat are not reliable.
+  - **Resolution test** Provide convergence metrics for Rg, helicity, and residue-resolved properties as a function of simulation time. Show quantitative comparison of results across the three dielectric constants, not just a qualitative statement of identity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** "HyRes... represents the first proteome-scale collection of atomistic disordered ensembles generated entirely via a physics-based approach that has been rigorously validated against virtually all available experimental IDP data"
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** The claim of "first" is strong and depends on the definition of "atomistic." Since HyRes uses intermediate-resolution sidechains, the resulting ensembles are not fully atomistic. The claim that this is the first proteome-scale physics-based collection should be carefully qualified. The CALVADOS-derived IDRome database is acknowledged, but the distinction between "atomistic" and "coarse-grained" for HyRes ensembles is not clearly articulated.
+  - **Why it matters** Overclaiming novelty can undermine the credibility of the work. The database is valuable regardless of whether it is strictly the "first" of its kind.
+  - **Resolution test** Revise the claim to accurately describe the resolution of the model and acknowledge any prior large-scale physics-based IDP ensemble databases. Clarify what "atomistic" means in this context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "at scale" twice and the phrase "bridges the gap between atomistic accuracy and computational efficiency" is vague. The abstract does not state the key quantitative result (e.g., the correlation coefficients or speedup factors) that would give readers a concrete sense of performance.
+  - **Required correction** Include one or two specific quantitative achievements in the abstract, such as the Rg correlation of r = 0.97 or the computational speedup relative to all-atom simulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, dielectric constant treatment
+  - **Evidence pointer** Methods section, "HyRes optimization" and "Amyloid fibril" subsections; location not provided
+  - **Issue** The manuscript uses a single dielectric constant of 60.0 for dilute simulations but tests 60.0, 40.0, and 20.0 for the tau fibril system. The rationale for this range and the physical justification for a lower dielectric constant in the fuzzy coat environment are not explained.
+  - **Required correction** Provide a brief physical justification for the dielectric constant values tested and explain why the fuzzy coat environment might warrant a lower value.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, dye treatment in smFRET comparison
+  - **Evidence pointer** Results section, "Ability of HyRes in capturing transient long-range interactions"; location not provided
+  - **Issue** The manuscript notes that dye molecules were not explicitly represented in HyRes simulations, which is acknowledged as a source of the higher RMSD in Ree comparisons. However, no correction or uncertainty quantification is applied to account for this.
+  - **Required correction** Either apply a dye-correction protocol or explicitly state the expected magnitude of the dye-induced error and how it affects the comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Database description
+  - **Evidence pointer** Methods, "HyRes-IDROM database" subsection; location not provided
+  - **Issue** The database description is detailed but does not state the total storage size, the format of trajectory files, or whether the data can be accessed programmatically beyond the Hugging Face interface. This limits the practical utility for potential users.
+  - **Required correction** Add a brief statement on data volume, file formats, and any API or programmatic access options.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Quantitative head-to-head comparison with all-atom force fields is not visible
+  - R1-M2: Binding free energy validation is incomplete and systematic error is not characterized
+  - R1-M3: Convergence of tau fibril fuzzy coat simulations is asserted but not demonstrated
+- **Assessment against Nature-style criteria**
+  - **Originality** The hybrid-resolution design with atomistic backbone and intermediate sidechains is a reasonable incremental advance over existing coarse-grained and all-atom approaches. The proteome-scale application is ambitious. However, the fundamental approach is not conceptually novel; similar hybrid-resolution strategies have been explored. The claim of being the "first" proteome-scale atomistic database is not fully established.
+  - **Scientific importance** If the validation claims hold, this would be a useful tool for the IDP community. The database could accelerate machine learning applications. However, the importance depends critically on the rigor of the validation, which cannot be fully assessed from the provided text.
+  - **Interdisciplinary readership** The work bridges computational biophysics, structural biology, and bioinformatics. The database aspect may interest machine learning researchers. The writing is generally accessible but assumes familiarity with force field development and IDP biophysics.
+  - **Technical soundness** The validation strategy is comprehensive in design, but the visible text does not provide sufficient quantitative evidence to confirm the claims. The treatment of systematic errors (e.g., dye effects, Debye-Hückel approximation) is acknowledged but not quantified. Convergence of large-scale simulations is asserted without supporting data.
+  - **Readability for nonspecialists** The manuscript is clearly written and the logic is easy to follow. However, the abstract and introduction could benefit from more concrete quantitative context. The methods section is appropriately detailed for a specialist audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important need and the validation strategy is well conceived. However, the central quantitative claims cannot be verified from the provided text. The authors should provide the missing numerical comparisons, convergence analyses, and systematic error characterizations before the case is established.
+
+## Risk / unsupported claims
+- The claim that HyRes "matches or outperforms" state-of-the-art all-atom force fields is not quantitatively supported in the visible text
+- The claim of "good convergence" for the tau fibril fuzzy coat simulations is not demonstrated
+- The claim that results were "identical" across three dielectric constants is not quantitatively supported
+- The claim of being the "first proteome-scale collection of atomistic disordered ensembles" is not fully established and may overstate novelty
+- The statement that HyRes captures "virtually all major features" of PRE profiles is not supported by the visible quantitative data
+- The claim that the database provides "unprecedented resources" is subjective and not fully justified without comparison to existing resources

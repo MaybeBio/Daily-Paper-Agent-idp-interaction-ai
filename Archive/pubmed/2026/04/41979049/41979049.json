@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "41979049",
+    "doi": "10.1021/acs.accounts.6c00105",
+    "title": "Construction and Application of Nucleic Acids-Based Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are membrane-less organelles formed via liquid-liquid phase separation (LLPS) in cells, which play crucial roles in organizing biochemical reactions, regulating gene expression, and responding to environmental stimuli. These dynamic membrane-less organelles, such as stress granules and nucleoli, could concentrate specific proteins and nucleic acids for spatiotemporally controlling cellular processes. The engineering of synthetic condensates is beneficial for understanding condensates formation, simulating cellular behavior, and exploration of biological pathologies. Nucleic acid, as an important component of biomolecular condensates in cells, offers a unique platform to engineer synthetic condensates due to its programmability and precise and predictable Watson-Crick base pairing. The nucleic acid-based condensates were assembled through multivalent forces among nucleic acids or nucleic acid-peptide complexes. By designing and modifying nucleic acid sequences, the interaction forces could be regulated with external stimuli to control the formation and decomposition of nucleic acid-based condensates for various fields application. Our group has constructed various nucleic acid-based biomolecular condensates and applied them in biosensing and cellular regulation. We designed CUG repeats-based condensates for improving fluorescent RNA aptamer properties (enzymatic degradation resistance, thermal stability, photostability, and binding affinity to fluorophores) and detecting in vitro and intracellular biomolecules (adenosylmethionine and tetracycline), as well as target cells with overexpressed epithelial cell adhesion molecules. In addition, we leveraged the strong Watson-Crick base pairing ability to recruit the intracellular target RNA into condensates for cellular regulation. In this Account, we give an overview of nucleic acid-based biomolecular condensates. We first discuss the intermolecular interactions and forces involved in the formation of nucleic acid-based biomolecular condensates. Subsequently, we summarize recent research about nucleic acid-based condensates and their applications in the fields of biological imaging and biosensing, cell simulation, cellular regulation, and drug delivery. Finally, we outline the current challenges and future opportunities of nucleic acid-based biomolecular condensates. We hope that this Account will afford significant inspiration in the design of nucleic acid-based condensates and the applications in cell biology and biomedicines.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biomolecular Condensates/chemistry",
+      "*Nucleic Acids/chemistry",
+      "Phase Separation",
+      "Humans",
+      "Aptamers, Nucleotide/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Yijie",
+        "Ren, Kewei"
+      ],
+      "short_names": [
+        "Ma Y",
+        "Ren K"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7115-6377"
+      ],
+      "affiliations": [
+        "School of Chemistry and Chemical Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China.",
+        "School of Chemistry and Chemical Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Yijie",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Chemical Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Kewei",
+        "short_name": "Ren K",
+        "identifiers": [
+          "0000-0001-7115-6377"
+        ],
+        "affiliations": [
+          "School of Chemistry and Chemical Engineering, Nanjing University of Science and Technology, Nanjing, 210094, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Accounts of chemical research"
+    ],
+    "journal_abbrev": [
+      "Acc Chem Res"
+    ],
+    "pub_date": "2026 May 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/14 06:32",
+    "fetched_at": "2026-09-18 02:33:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41979049",
+      "41480717",
+      "41889100",
+      "42475469",
+      "41758048",
+      "39271032",
+      "38621751",
+      "37735903",
+      "39227569",
+      "41636358",
+      "39178343",
+      "38773325",
+      "40557772",
+      "38804888",
+      "42322777",
+      "34772786",
+      "36657879",
+      "23912807",
+      "39964249",
+      "41909948",
+      "39757214",
+      "42070290",
+      "30099028",
+      "42420726",
+      "38252962",
+      "39575859",
+      "41469832",
+      "27020066",
+      "41904915",
+      "40168179",
+      "40291420",
+      "40381401",
+      "33930220",
+      "29509422",
+      "39080253",
+      "41873070",
+      "39080489",
+      "40462686",
+      "42466807",
+      "42531022",
+      "39883284",
+      "37772963",
+      "40616404",
+      "41307542",
+      "34772789",
+      "34129784",
+      "33591181",
+      "37348448",
+      "40804711",
+      "41703712",
+      "36279601",
+      "34759902",
+      "35974095",
+      "39987501",
+      "40849651",
+      "41688461",
+      "40938216",
+      "31604601",
+      "41187075",
+      "39675392",
+      "37359769",
+      "34371110",
+      "41003226",
+      "36227474",
+      "40539511",
+      "40438142",
+      "39146259",
+      "38808958",
+      "31606941",
+      "39510346",
+      "39592156",
+      "41191214",
+      "33376791",
+      "28225081",
+      "38609349",
+      "37252985",
+      "36028355",
+      "36690068",
+      "42002974",
+      "38251748",
+      "29392932",
+      "37162152",
+      "42379163",
+      "42276972",
+      "38086853",
+      "40108179",
+      "39482532",
+      "37931070",
+      "41957206",
+      "40515902",
+      "40098319",
+      "42161866",
+      "38588907",
+      "41587927",
+      "31199001",
+      "31792412",
+      "34235141",
+      "38360555",
+      "40748104",
+      "40335475"
+    ],
+    "review": [
+      "41979049",
+      "41480717",
+      "41889100",
+      "41758048",
+      "39271032",
+      "38621751",
+      "37735903",
+      "41636358",
+      "39178343",
+      "38773325",
+      "40557772",
+      "42322777",
+      "34772786",
+      "39964249",
+      "39757214",
+      "42070290",
+      "30099028",
+      "39575859",
+      "41469832",
+      "27020066",
+      "41904915",
+      "40381401",
+      "33930220",
+      "29509422",
+      "41873070",
+      "40462686",
+      "42466807",
+      "39883284",
+      "37772963",
+      "40616404",
+      "41307542",
+      "34772789",
+      "34129784",
+      "33591181",
+      "37348448",
+      "40804711",
+      "36279601",
+      "34759902",
+      "35974095",
+      "40849651",
+      "40938216",
+      "31604601",
+      "39675392",
+      "37359769",
+      "34371110",
+      "41003226",
+      "40438142",
+      "39146259",
+      "38808958",
+      "31606941",
+      "39592156",
+      "41191214",
+      "28225081",
+      "38609349",
+      "36028355",
+      "42379163",
+      "42276972",
+      "39482532",
+      "37931070",
+      "41957206",
+      "42161866",
+      "38588907",
+      "41587927",
+      "31792412",
+      "34235141",
+      "38360555"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/achre4/article-lookup/doi/10.1021/acs.accounts.6c00105",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

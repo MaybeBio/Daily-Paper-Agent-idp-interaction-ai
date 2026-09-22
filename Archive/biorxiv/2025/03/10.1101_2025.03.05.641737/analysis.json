@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.05.641737",
+  "title": "Amino acids bind to phase-separating proteins and modulate biomolecular condensate stability and dynamics",
+  "authors": "Xu X; Haren M; Smokers I; Visser B; White P; Jansen R; Spruijt E",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-11",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过实验与模拟结合，揭示氨基酸与相分离蛋白NPM1的弱结合如何调节凝聚体稳定性与动力学，直接以IDR/相分离凝聚体为对象并深入互作机制建模，虽方法偏实验但机制深度强，对本课题有重要启发。",
+  "abstract": "Biomolecular condensates (BCs) are versatile intracellular compartments that help organize intracellular space and perform diverse biological functions. In living cells, BCs are surrounded by a complex environment, of which amino acids (AAs) are prominent components. However, it is unclear how AAs interact with condensate components and influence the formation and material properties of condensates. Here, we show that phase separation is suppressed with increasing glycine concentration by using model heterotypic condensates made of nucleophosmin 1 (NPM1) and ribosomal ribonucleic acid (RNA): the condensate density is decreased and the dynamics inside the condensate are increased. We find that glycine weakly binds to amide groups in the protein backbone and aromatic groups in the side chains with a 1~2 M affinity, weakening the backbone-backbone interactions between neutral and charged disordered proteins while strengthening the interactions between aromatic stickers. This leads to different modulations of the phase behaviour in condensates formed by cation/π-π interactions and condensates formed by charge complexation. We further show that a similar modulation effect on BCs is observed for other proteinogenic AAs and can be transferred to short peptides. These insights offer a better understanding of BC stability, with implications for new strategies to modulate the dynamic properties of BCs in vivo.",
+  "abstract_zh": "生物分子凝聚体（Biomolecular condensates, BCs）是多功能的细胞内区室，有助于组织细胞内空间并执行多种生物学功能。在活细胞中，BCs被复杂环境所包围，其中氨基酸（amino acids, AAs）是重要组成部分。然而，尚不清楚AAs如何与凝聚体组分相互作用，并影响凝聚体的形成及材料性质。在此，我们通过使用由核磷蛋白1（nucleophosmin 1, NPM1）和核糖体核糖核酸（ribosomal ribonucleic acid, RNA）组成的模型异型凝聚体，表明随着甘氨酸浓度增加，相分离（phase separation）受到抑制：凝聚体密度降低，凝聚体内部动力学增强。我们发现，甘氨酸以1~2 M的亲和力弱结合蛋白质骨架中的酰胺基团和侧链中的芳香基团，从而削弱中性和带电无序蛋白质之间的骨架-骨架相互作用，同时增强芳香族粘附体之间的相互作用。这导致由阳离子/π-π相互作用形成的凝聚体与由电荷络合形成的凝聚体在相行为上产生不同的调节效应。我们进一步表明，其他蛋白源性氨基酸对BCs也观察到类似的调节效应，并且这种效应可转移至短肽。这些见解有助于更好地理解BCs的稳定性，并为调节体内BCs动态特性的新策略提供启示。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.05.641737",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.05.641737",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.05.641737/index.html"
+}

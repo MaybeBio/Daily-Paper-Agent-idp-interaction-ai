@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38490381",
+  "title": "Getah virus capsid protein undergoes co-condensation with viral genomic RNA to facilitate virion assembly.",
+  "authors": "Sun, Zhenzhao; Wang, Ming; Wang, Wenmeng; Li, Dangdang; Wang, Jingfei; Sui, Guangchao",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2024-03-16",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究揭示Getah病毒衣壳蛋白与基因组RNA通过液-液相分离共凝聚驱动病毒组装，聚焦IDR（Link区）介导的核酸互作机制，虽非典型PPI但相分离机制建模对无序蛋白互作研究有直接启发。",
+  "abstract": "Getah virus (GETV) belongs to the Alphavirus genus in the Togaviridae family and is a zoonotic arbovirus causing disease in both humans and animals. The capsid protein (CP) of GETV regulates the viral core assembly, but the mechanism underlying this process is poorly understood. In this study, we demonstrate that CP undergoes liquid-liquid phase separation (LLPS) with the GETV genome RNA (gRNA) in vitro and forms cytoplasmic puncta in cells. Two regions of GETV gRNA (nucleotides 1-4000 and 5000-8000) enhance CP droplet formation in vitro and the lysine-rich Link region of CP is essential for its phase separation. CP(K/R) mutant with all lysines in the Link region replaced by arginines exhibits improved LLPS versus wild type (WT) CP, but CP(K/E) mutant with lysines substituted by glutamic acids virtually loses condensation ability. Consistently, recombinant virus mutant with CP(K/R) possesses significantly higher gRNA binding affinity, virion assembly efficiency and infectivity than the virus with WT-CP. Overall, our findings provide new insights into the understanding of GETV assembly and development of new antiviral drugs against alphaviruses.",
+  "abstract_zh": "盖塔病毒（GETV）属于披膜病毒科甲病毒属，是一种人畜共患的虫媒病毒，可导致人类和动物疾病。GETV的衣壳蛋白（CP）调控病毒核心组装，但该过程的机制尚不清楚。在本研究中，我们证明CP在体外与GETV基因组RNA（gRNA）发生液-液相分离（LLPS），并在细胞中形成细胞质斑点。GETV gRNA的两个区域（核苷酸1-4000和5000-8000）在体外增强CP液滴形成，且CP富含赖氨酸的Link区域对其相分离至关重要。将Link区域所有赖氨酸替换为精氨酸的CP(K/R)突变体，其LLPS能力优于野生型（WT）CP，而将赖氨酸替换为谷氨酸的CP(K/E)突变体几乎丧失凝聚能力。一致地，携带CP(K/R)的重组病毒突变体相比携带WT-CP的病毒，具有显著更高的gRNA结合亲和力、病毒粒子组装效率和感染性。总体而言，我们的发现为理解GETV组装及开发针对甲病毒的新型抗病毒药物提供了新见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38490381/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38490381/",
+  "paper_page_path": "papers/pubmed/38490381/index.html"
+}

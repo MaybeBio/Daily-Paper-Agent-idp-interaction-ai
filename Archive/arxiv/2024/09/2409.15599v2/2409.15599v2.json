@@ -1,0 +1,39 @@
+{
+  "source": "arxiv",
+  "source_id": "2409.15599v2",
+  "title": "Condensate Size Control by Net Charge",
+  "doi": "",
+  "abstract": "Biomolecular condensates are complex droplets comprising diverse molecules that interact using various mechanisms. Condensation is often driven by short-ranged attraction, but net charges can also mediate long-ranged repulsion. Using molecular dynamics simulations and an equilibrium field theory, we show that such opposing interactions can suppress coarsening so that many droplets of equal size coexist at equilibrium. This size control depends strongly on the charge asymmetry between constituents, while the strength of the short-ranged attractions has a weak influence. Essentially, droplets expel ions, so they cannot screen electrostatics effectively, implying droplets acquire a net charge and cannot grow indefinitely. Our work reveals how electrostatic effects control droplet size, which is relevant for understanding biomolecular condensates and creating synthetic patterns in chemical engineering.",
+  "authors": [
+    "Chengjie Luo",
+    "Nathaniel Hess",
+    "Dilimulati Aierken",
+    "Yicheng Qiang",
+    "Jerelle A. Joseph",
+    "David Zwicker"
+  ],
+  "published_date": "2024-09-23T23:08:26Z",
+  "updated_date": "2025-01-22T12:36:37Z",
+  "journal": "",
+  "category": "cond-mat.soft, cond-mat.stat-mech, physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2409.15599v2",
+  "pdf_url": "https://arxiv.org/pdf/2409.15599v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft",
+    "cond-mat.stat-mech",
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2409.15599v2",
+    "raw_categories": [
+      "cond-mat.soft",
+      "cond-mat.stat-mech",
+      "physics.bio-ph"
+    ],
+    "journal_ref": ""
+  }
+}

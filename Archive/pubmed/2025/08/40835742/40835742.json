@@ -1,0 +1,415 @@
+{
+  "identity": {
+    "pmid": "40835742",
+    "doi": "10.1038/s42003-025-08399-9",
+    "title": "Decoding phospho-regulation and flanking regions in autophagy-associated short linear motifs."
+  },
+  "content": {
+    "abstract": "Short Linear Motifs (SLiMs) play a pivotal role in the interactions between intrinsically disordered proteins and their binding partners. SLiMs can undergo regulation through post-translational modifications, including phosphorylation. The flanking regions surrounding the core motifs also exert a crucial role for the interaction. While phosphorylation and flanking regions are known to influence SLiM function, the mechanistic basis of this regulation remains poorly understood. We integrate biomolecular simulations, in silico high-throughput mutational scans, and biophysical experiments to elucidate the phospho-regulation in SLiMs crucial for autophagy, i.e., the LC3 interacting regions (LIRs). We investigate the Optineurin LIR, which perfectly exemplifies a class of LIR with a complex interplay of phosphorylations and flanking regions. Here we show that specific phosphorylation events and flanking residues modulate binding to LC3 at the atomic level, and that disease-associated mutations alter these interactions in the phosphorylated context. Notably, we establish an approach based on Microfluidic Diffusional Sizing to investigate binding affinities of SLiMs to target proteins, complemented by Surface Plasmon Resonance, enabling precise measurements of dissociation constants and kinetics for a selection of variants. Our work provides a versatile toolkit to characterize phospho-regulated SLiMs, advancing the understanding of important cellular processes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Autophagy",
+      "Phosphorylation",
+      "Humans",
+      "Amino Acid Motifs",
+      "*Microtubule-Associated Proteins/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "Cell Cycle Proteins/metabolism/chemistry/genetics",
+      "Membrane Transport Proteins/metabolism/chemistry/genetics",
+      "Protein Processing, Post-Translational",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Utichi, Mattia",
+        "Antonescu, Oana N",
+        "Sora, Valentina",
+        "Marjault, Henri-Baptiste",
+        "Tiberti, Matteo",
+        "Maiani, Emiliano",
+        "Lambrughi, Matteo",
+        "Papaleo, Elena"
+      ],
+      "short_names": [
+        "Utichi M",
+        "Antonescu ON",
+        "Sora V",
+        "Marjault HB",
+        "Tiberti M",
+        "Maiani E",
+        "Lambrughi M",
+        "Papaleo E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7376-5894"
+      ],
+      "affiliations": [
+        "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark.",
+        "Cancer System Biology, Section of Bioinformatics, Health and Technology Department, Technical University of Denmark, Lyngby, Denmark.",
+        "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark.",
+        "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark.",
+        "Cancer System Biology, Section of Bioinformatics, Health and Technology Department, Technical University of Denmark, Lyngby, Denmark.",
+        "University of Copenhagen, Department of Computer Science, Machine Learning Section, 2100, Copenhagen, Denmark.",
+        "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark.",
+        "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark.",
+        "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark.",
+        "Departmental Faculty of Medicine, UniCamillus-Saint Camillus International University of Health and Medical Sciences, Rome, Italy.",
+        "IRCCS San Camillo Hospital, Venice, Italy.",
+        "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark.",
+        "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark. elenap@cancer.dk.",
+        "Cancer System Biology, Section of Bioinformatics, Health and Technology Department, Technical University of Denmark, Lyngby, Denmark. elenap@cancer.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Utichi, Mattia",
+        "short_name": "Utichi M",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark.",
+          "Cancer System Biology, Section of Bioinformatics, Health and Technology Department, Technical University of Denmark, Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Antonescu, Oana N",
+        "short_name": "Antonescu ON",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Sora, Valentina",
+        "short_name": "Sora V",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark.",
+          "Cancer System Biology, Section of Bioinformatics, Health and Technology Department, Technical University of Denmark, Lyngby, Denmark.",
+          "University of Copenhagen, Department of Computer Science, Machine Learning Section, 2100, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Marjault, Henri-Baptiste",
+        "short_name": "Marjault HB",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Tiberti, Matteo",
+        "short_name": "Tiberti M",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Maiani, Emiliano",
+        "short_name": "Maiani E",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark.",
+          "Departmental Faculty of Medicine, UniCamillus-Saint Camillus International University of Health and Medical Sciences, Rome, Italy.",
+          "IRCCS San Camillo Hospital, Venice, Italy."
+        ]
+      },
+      {
+        "full_name": "Lambrughi, Matteo",
+        "short_name": "Lambrughi M",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Papaleo, Elena",
+        "short_name": "Papaleo E",
+        "identifiers": [
+          "0000-0002-7376-5894"
+        ],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Institute, Strandboulevarden 49, 2100, Copenhagen, Denmark. elenap@cancer.dk.",
+          "Cancer System Biology, Section of Bioinformatics, Health and Technology Department, Technical University of Denmark, Lyngby, Denmark. elenap@cancer.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2025 Aug 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/21 00:30",
+    "fetched_at": "2026-09-21 22:45:27"
+  },
+  "links": {
+    "cites": [
+      "41944585",
+      "40320752"
+    ],
+    "refs": [
+      "38214012",
+      "37962385",
+      "37733863",
+      "37437128",
+      "37219487",
+      "36754681",
+      "36753519",
+      "36690744",
+      "36583735",
+      "36538890",
+      "36416856",
+      "36350035",
+      "36264309",
+      "35685242",
+      "35659507",
+      "35436152",
+      "35323860",
+      "35177069",
+      "35129612",
+      "35051666",
+      "34989786",
+      "34985287",
+      "34902817",
+      "34791371",
+      "34707284",
+      "34101805",
+      "33848145",
+      "33831785",
+      "33783320",
+      "33692357",
+      "33632133",
+      "33325500",
+      "33302793",
+      "32851973",
+      "32613009",
+      "32587856",
+      "32427333",
+      "32228883",
+      "32222547",
+      "31874413",
+      "31777943",
+      "31629249",
+      "31519908",
+      "31310766",
+      "30874800",
+      "30679426",
+      "30371878",
+      "30275935",
+      "30236283",
+      "30217973",
+      "30013831",
+      "29971063",
+      "29951055",
+      "29867991",
+      "29780404",
+      "29718106",
+      "29590584",
+      "29476151",
+      "29401388",
+      "29394115",
+      "29370437",
+      "28716441",
+      "28712572",
+      "28655748",
+      "28510311",
+      "28018905",
+      "27791457",
+      "27749824",
+      "27666373",
+      "26678709",
+      "26596171",
+      "26142952",
+      "25574774",
+      "25531225",
+      "25294927",
+      "25280393",
+      "25038412",
+      "24889800",
+      "24773235",
+      "24702124",
+      "24606139",
+      "24489522",
+      "24317797",
+      "23908376",
+      "23805866",
+      "23703210",
+      "23550210",
+      "23422068",
+      "23102044",
+      "22972619",
+      "22815819",
+      "22708870",
+      "22558199",
+      "22381384",
+      "21909575",
+      "21748266",
+      "21617041",
+      "21545099",
+      "21539772",
+      "20465253",
+      "20000605",
+      "19363302",
+      "18638487",
+      "17898174",
+      "10493887",
+      "6667333"
+    ],
+    "similar": [
+      "40835742",
+      "40320752",
+      "33845085",
+      "32296703",
+      "40704964",
+      "39928048",
+      "30990354",
+      "26565669",
+      "23805866",
+      "37530436",
+      "31857374",
+      "35404090",
+      "28253953",
+      "31362979",
+      "30610694",
+      "21620860",
+      "30767700",
+      "28442745",
+      "38766171",
+      "26468287",
+      "36041015",
+      "29370437",
+      "30282803",
+      "40928249",
+      "36753519",
+      "28655748",
+      "27540684",
+      "26387106",
+      "33951500",
+      "28291748",
+      "38605029",
+      "28668392",
+      "24290141",
+      "30982432",
+      "34391889",
+      "30679426",
+      "30909843",
+      "28470758",
+      "33436498",
+      "35417087",
+      "21617041",
+      "39864625",
+      "25555723",
+      "25057855",
+      "30955882",
+      "29970070",
+      "27246247",
+      "25661489",
+      "27881680",
+      "26652654",
+      "34960638",
+      "28320742",
+      "21879107",
+      "30290707",
+      "28002650",
+      "32345597",
+      "27998540",
+      "35134457",
+      "31208283",
+      "25294927",
+      "24678734",
+      "33548116",
+      "32696352",
+      "33302793",
+      "33961774",
+      "27653272",
+      "39236246",
+      "31578424",
+      "28806134",
+      "39553988",
+      "24528869",
+      "31053714",
+      "31006538",
+      "39384175",
+      "31310766",
+      "39665531",
+      "39374890",
+      "35649355",
+      "39940005",
+      "31132188",
+      "22004555",
+      "41016010",
+      "23550212",
+      "24240096",
+      "26742101",
+      "18828911",
+      "32917811",
+      "36468648",
+      "40395991",
+      "33761311",
+      "38214012",
+      "27402840",
+      "33692357",
+      "23209295",
+      "37099901",
+      "32696376",
+      "28562169",
+      "31914609",
+      "39115670",
+      "23043107"
+    ],
+    "review": [
+      "40835742",
+      "40704964",
+      "26387106",
+      "30909843",
+      "25555723",
+      "34960638",
+      "32345597",
+      "31310766",
+      "36468648"
+    ],
+    "pmc": [
+      "12368060"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-025-08399-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40835742/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FHL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

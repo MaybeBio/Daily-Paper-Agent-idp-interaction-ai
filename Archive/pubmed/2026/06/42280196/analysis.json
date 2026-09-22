@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42280196",
+  "title": "Modeling Opposite Effects of an Additive on Liquid-Liquid Phase Separation and Crystal Solubility of Protein Solutions.",
+  "authors": "Annunziata, Onofrio; Thomas, Shamberia",
+  "journal": "Molecules (Basel, Switzerland)",
+  "published_date": "2026-06-12",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用胶体模型和微扰理论建模添加剂对溶菌酶LLPS与晶体溶解度的相反效应，涉及蛋白-蛋白吸引作用与各向异性，但对象为折叠蛋白而非IDP，且方法为经典统计力学而非AI/分子模拟，对无序蛋白互作机制建模有部分可迁移启发。",
+  "abstract": "In protein solutions, an additive that increases protein-protein attractive interactions is expected to decrease protein crystal solubility and raise the temperature at which liquid-liquid phase separation (LLPS) occurs. In contrast, addition of 0.10 M 4-(2-hydroxyethyl)-1-piperazineethanesulfonate (HEPES) to lysozyme-NaCl aqueous solutions at constant pH (7.4) and ionic strength (0.20 M) decreases solubility but lowers the LLPS temperature. This leads to the broadening of the LLPS metastability gap in the phase diagram and an enhancement of protein crystallization yield from LLPS. We theoretically examine the effect of HEPES on both solubility and LLPS boundaries using a colloid model. Under the hypothesis that HEPES stabilizes protein-protein contacts in the crystal lattice by physical cross-linking, we apply cell theory to describe the thermodynamic behavior of the crystalline phase and use solubility data to show that HEPES increases protein-protein attraction energy by 2.7%. Since an increase in attraction incorrectly predicts a rise in the LLPS temperature, we consider that HEPES also enhances the anisotropic character of protein-protein interactions. To describe the thermodynamic behavior of the solution phase, we start from Barker-Henderson second-order perturbation theory on the hard-sphere reference fluid with square-well potential and local-compressibility approximation. We modify this model so that it can reproduce the correct mathematical expression of the second virial coefficient. This also leads to better agreement with Monte Carlo simulations. We then approximately incorporate anisotropy by assuming that the square-well attraction energy is a temperature-dependent average over all the surface of a particle with a given fractional coverage of attractive spots. The attraction energy of the attractive spots is set to be the same as that of the protein-protein contacts in the crystal. Only fractional coverage (anisotropy) was varied to successfully fit the effect of HEPES on the LLPS boundary.",
+  "abstract_zh": "在蛋白质溶液中，增加蛋白质-蛋白质吸引相互作用的添加剂预期会降低蛋白质晶体的溶解度，并提高液-液相分离（LLPS）发生的温度。相反，在恒定pH（7.4）和离子强度（0.20 M）下，向溶菌酶-NaCl水溶液中添加0.10 M 4-(2-羟乙基)-1-哌嗪乙磺酸（HEPES）会降低溶解度，但降低LLPS温度。这导致相图中LLPS亚稳间隙的拓宽，以及从LLPS中蛋白质结晶产率的提高。我们使用胶体模型从理论上检验了HEPES对溶解度和LLPS边界的影响。在假设HEPES通过物理交联稳定晶格中蛋白质-蛋白质接触的前提下，我们应用细胞理论描述晶相的热力学行为，并利用溶解度数据表明HEPES将蛋白质-蛋白质吸引能量提高了2.7%。由于吸引力的增加错误地预测了LLPS温度的升高，我们认为HEPES还增强了蛋白质-蛋白质相互作用的各向异性特征。为了描述溶液相的热力学行为，我们从硬球参考流体上的Barker-Henderson二阶微扰理论出发，采用方阱势和局部压缩性近似。我们修改了该模型，使其能够再现第二维里系数的正确数学表达式。这也导致与蒙特卡洛模拟的更好一致性。然后，我们通过假设方阱吸引能量是粒子表面所有区域上温度依赖的平均值，并给定吸引位点的特定分数覆盖率，来近似纳入各向异性。吸引位点的吸引能量设置为与晶体中蛋白质-蛋白质接触的能量相同。仅改变分数覆盖率（各向异性）以成功拟合HEPES对LLPS边界的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42280196/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42280196/",
+  "paper_page_path": "papers/pubmed/42280196/index.html"
+}

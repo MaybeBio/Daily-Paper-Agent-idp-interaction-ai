@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "34944399",
+    "doi": "10.3390/biom11121756",
+    "title": "Planar Boronic Graphene and Nitrogenized Graphene Heterostructure for Protein Stretch and Confinement."
+  },
+  "content": {
+    "abstract": "Single-molecule techniques such as electron tunneling and atomic force microscopy have attracted growing interests in protein sequencing. For these methods, it is critical to refine and stabilize the protein sample to a \"suitable mode\" before applying a high-fidelity measurement. Here, we show that a planar heterostructure comprising boronic graphene (BC(3)) and nitrogenized graphene (C(3)N) sandwiched stripe (BC(3)/C(3)N/BC(3)) is capable of the effective stretching and confinement of three types of intrinsically disordered proteins (IDPs), including amyloid-beta (1-42), polyglutamine (Q42), and alpha-Synuclein (61-95). Our molecular dynamics simulations demonstrate that the protein molecules interact more strongly with the C(3)N stripe than the BC(3) one, which leads to their capture, elongation, and confinement along the center C(3)N stripe of the heterostructure. The conformational fluctuations of IDPs are substantially reduced after being stretched. This design may serve as a platform for single-molecule protein analysis with reduced thermal noise.",
+    "keywords": [
+      "boronic graphene",
+      "inplane heterostructure",
+      "molecular dynamics simulation",
+      "nitrogenized graphene",
+      "protein stretch and confinement"
+    ],
+    "mesh_terms": [
+      "Amyloid beta-Peptides/chemistry",
+      "Animals",
+      "Boron/*chemistry",
+      "Graphite/*chemistry",
+      "Humans",
+      "Intrinsically Disordered Proteins/*chemistry",
+      "Models, Molecular",
+      "Molecular Dynamics Simulation",
+      "Nitrogen/*chemistry",
+      "Peptide Fragments/chemistry",
+      "Peptides/chemistry",
+      "Protein Conformation",
+      "Single Molecule Imaging",
+      "alpha-Synuclein/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Xuchang",
+        "He, Zhi",
+        "Meng, Lijun",
+        "Liang, Hong",
+        "Zhou, Ruhong"
+      ],
+      "short_names": [
+        "Su X",
+        "He Z",
+        "Meng L",
+        "Liang H",
+        "Zhou R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, Hangzhou Dianzi University, Hangzhou 310018, China.",
+        "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou 310027, China.",
+        "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou 310027, China.",
+        "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou 310027, China.",
+        "Department of Physics, Hangzhou Dianzi University, Hangzhou 310018, China.",
+        "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou 310027, China.",
+        "Department of Chemistry, Columbia University, New York, NY 10027, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Xuchang",
+        "short_name": "Su X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Hangzhou Dianzi University, Hangzhou 310018, China.",
+          "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou 310027, China."
+        ]
+      },
+      {
+        "full_name": "He, Zhi",
+        "short_name": "He Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou 310027, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Lijun",
+        "short_name": "Meng L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou 310027, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Hong",
+        "short_name": "Liang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Hangzhou Dianzi University, Hangzhou 310018, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Ruhong",
+        "short_name": "Zhou R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Quantitative Biology, College of Life Sciences, Zhejiang University, Hangzhou 310027, China.",
+          "Department of Chemistry, Columbia University, New York, NY 10027, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2021 Nov 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/25 06:00",
+    "fetched_at": "2026-09-20 07:16:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34735217",
+      "34258988",
+      "34099939",
+      "32958881",
+      "32572421",
+      "32073023",
+      "31844293",
+      "31601816",
+      "31296763",
+      "31150624",
+      "30628792",
+      "30190617",
+      "29335568",
+      "29217585",
+      "28993619",
+      "28233871",
+      "28116385",
+      "28075057",
+      "27992411",
+      "26839257",
+      "26266455",
+      "25810151",
+      "25262331",
+      "25218325",
+      "25150560",
+      "23832191",
+      "23553817",
+      "23407358",
+      "21076404",
+      "20622845",
+      "20373745",
+      "19713523",
+      "19662015",
+      "17212484",
+      "15361621",
+      "12548718",
+      "11290139",
+      "8744570"
+    ],
+    "similar": [
+      "34944399",
+      "32572421",
+      "32073023",
+      "32623047",
+      "31601816",
+      "29490247",
+      "35543707",
+      "24410358",
+      "29548979",
+      "31809054",
+      "30184304",
+      "26275931",
+      "30865832",
+      "21692466",
+      "31903719",
+      "33411518",
+      "30708285",
+      "32902252",
+      "24032458",
+      "29621630",
+      "26923286",
+      "29627125",
+      "31699336",
+      "32703978",
+      "25375525",
+      "30730736",
+      "23484883",
+      "32859072",
+      "33355572",
+      "22988855",
+      "30876367",
+      "25207671",
+      "30933517",
+      "33580600",
+      "30168565",
+      "23964693",
+      "31552948",
+      "22947936",
+      "27159340",
+      "25919886",
+      "29733855",
+      "25011035",
+      "22760335",
+      "30092636",
+      "29808548",
+      "25331250",
+      "30433786",
+      "29571707",
+      "32285004",
+      "27588692",
+      "28877484",
+      "28805390",
+      "36638059",
+      "22471315",
+      "32959853",
+      "32828471",
+      "32709107",
+      "31470695",
+      "25345588",
+      "30840442",
+      "33806726",
+      "31613621",
+      "33846361",
+      "26052838",
+      "28226222",
+      "26581231",
+      "28384497",
+      "30306288",
+      "23770584",
+      "32579908",
+      "30917651",
+      "26331805",
+      "26479087",
+      "30134733",
+      "34032235",
+      "29323876",
+      "23640306",
+      "22791402",
+      "34509724",
+      "28834051",
+      "31566974",
+      "22807002",
+      "30002265",
+      "29725676",
+      "28095698",
+      "30909517",
+      "29843431",
+      "29648440",
+      "33444020",
+      "32120928",
+      "23214618",
+      "30372613",
+      "37319424",
+      "26373051",
+      "21396938",
+      "36132672",
+      "30250131",
+      "36329605",
+      "36132907"
+    ],
+    "review": [
+      "34944399",
+      "33355572",
+      "22988855",
+      "22760335",
+      "32828471",
+      "30840442",
+      "28226222",
+      "22791402"
+    ],
+    "pmc": [
+      "8698321"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom11121756",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34944399/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34944399",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

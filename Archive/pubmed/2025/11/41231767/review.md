@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability)
+- **Assessment boundary** Scientific content, technical soundness, database utility, and claims as presented in the provided text; no supplementary figures or external website content were independently verified
+- **Shared manuscript claim summary** The authors present DynaRepo, a new repository of macromolecular conformational dynamics, containing molecular dynamics simulations of protein–protein complexes, single-chain antigens, and nucleosome variants. The repository is described as the first MDDB node in France, offering standardized, FAIR-compliant data with pre-computed analyses, intended to support dynamics-aware deep learning applications.
+- **Visible evidence base** Abstract; Introduction; Materials and methods (data selection, simulation protocols, database implementation, post-simulation analyses); Results; Discussion; Data availability statement
+- **Missing materials affecting confidence** Supplementary figures (S1–S15) referenced but not provided; no direct access to the DynaRepo website or API for verification of data availability, metadata quality, or interface functionality; no quantitative validation of simulation quality or stability metrics beyond textual description; no comparison with existing repositories in terms of data content or technical features
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially valuable community resource for macromolecular dynamics, addressing a genuine gap in the availability of standardized, large-scale MD simulation data for complexes. The scope of simulated systems (approximately 450 complexes and 270 single-chain proteins) is substantial, and the integration with the MDDB federated infrastructure is a sensible approach to ensure interoperability. However, the manuscript as presented is largely descriptive, with limited quantitative characterization of data quality, no validation of the utility of the repository for downstream applications, and several inconsistencies between the abstract and the main text regarding dataset composition. The technical soundness of the simulation protocols is plausible but not fully demonstrated, and the claimed novelty relative to existing resources requires sharper articulation. The case for the repository's impact on dynamics-aware deep learning is asserted rather than evidenced.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein dynamics, protein–protein interactions, and protein–nucleic acid complexes would find this resource relevant. Researchers developing deep learning models for binding site prediction, affinity estimation, or conformational analysis would be the primary beneficiaries, as the repository provides a standardized dataset for training and benchmarking. The broader MD simulation community, particularly those involved in community-driven data sharing initiatives such as MDDB, would also be interested in the infrastructure and workflow aspects.
+- **Major strengths** The manuscript addresses a real and timely gap: the scarcity of large-scale, standardized MD simulation data for macromolecular complexes. The use of a homogeneous simulation protocol across a large number of systems is commendable for consistency. The integration with the MDDB federated infrastructure, including the use of MDPosit and the REST API, provides a credible pathway for interoperability and community adoption. The inclusion of pre-computed analyses (RMSD, RMSF, PCA, etc.) lowers the barrier for non-specialist users. The repository's focus on complexes, including protein–nucleic acid assemblies, distinguishes it from many existing resources that focus on single-chain proteins.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data consistency and reproducibility
+  - **Claim pointer** The abstract states the repository contains "~450 complexes and ~270 single-chain proteins," while the Results section reports "405 macromolecular complexes... 220 single-chain antigens... and the 'Testing Transient' dataset, which includes 53 protein–protein complexes in both bound and unbound forms." The Discussion states "more than 700 systems and 1500 protein chains."
+  - **Evidence pointer** Abstract; Results section; Discussion section
+  - **Concern** The reported numbers of systems are inconsistent across the abstract, Results, and Discussion. The abstract claims approximately 450 complexes and 270 single-chain proteins, but the Results section reports 405 complexes, 220 antigens, and 53 transient complexes (which would sum to 458 complexes if the transient complexes are counted as complexes, plus 220 single chains). The Discussion states "more than 700 systems," which is not reconcilable with the other figures without additional explanation.
+  - **Why it matters** For a database resource paper, accurate and consistent reporting of dataset composition is essential. Users need to know precisely what is available to assess suitability for their applications. Inconsistencies undermine confidence in the manuscript's accuracy and complicate citation and reuse.
+  - **Resolution test** Provide a single, unambiguous breakdown of the dataset composition, including the number of unique complexes, single-chain proteins, and total simulation time, with a clear explanation of how each category is counted. Ensure the abstract, Results, and Discussion are fully consistent.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation and quality control
+  - **Claim pointer** The manuscript states "All trajectories were monitored for stability in terms of RMSD and RMSF, and any unstable simulations were excluded" and that the repository provides "high-quality, consistent data."
+  - **Evidence pointer** Materials and methods, Protocol for proteins; Results section
+  - **Concern** No quantitative criteria are provided for what constitutes "unstable" simulations, how many simulations were excluded, or how the quality of the remaining trajectories was verified. The supplementary figures (S2, S3) are referenced but not available for assessment. Without explicit quality metrics, the claim of "high-quality, consistent data" cannot be evaluated.
+  - **Why it matters** For a resource intended to support deep learning training, data quality is paramount. Users need to know the criteria used to accept or reject simulations, and ideally, quality metrics should be provided per entry. The absence of such information limits the reproducibility of the dataset and the ability of users to assess its fitness for purpose.
+  - **Resolution test** Provide explicit criteria for simulation stability (e.g., RMSD thresholds, energy drift limits), report the number of simulations excluded and the reasons, and make per-entry quality metrics available on the repository website or in supplementary materials.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and differentiation
+  - **Claim pointer** The manuscript states "DynaRepo is the first MDDB resource focused on macromolecular complexes" and positions the repository as addressing a gap in "openly available, high-quality dynamic datasets."
+  - **Evidence pointer** Introduction; Results section
+  - **Concern** The manuscript does not provide a systematic comparison with existing MD repositories such as MDRepo, MoDEL, Dynameomics, or ATLAS, beyond a brief mention in the Introduction. The specific advantages of DynaRepo in terms of data content, simulation protocol, or analysis features are not quantified or benchmarked against these resources.
+  - **Why it matters** For a resource paper, demonstrating clear differentiation from existing resources is critical to justify the effort and to guide users. Without a comparative analysis, the claimed novelty is difficult to assess, and potential users may not understand when to choose DynaRepo over alternatives.
+  - **Resolution test** Add a comparative table or section that systematically contrasts DynaRepo with existing MD repositories in terms of system types, simulation length, force fields, analysis features, and accessibility. Quantify the unique coverage of complexes and protein–nucleic acid systems.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Utility for downstream applications
+  - **Claim pointer** The manuscript states the repository "provides a foundation for dynamics-aware deep learning frameworks" and that the data have been used to "investigate key biological questions, including mapping communication networks and allosteric signaling" and to develop a "dynamic-aware deep learning architecture."
+  - **Evidence pointer** Abstract; Discussion section
+  - **Concern** The claims of utility for deep learning and biological discovery are asserted but not demonstrated with concrete examples, metrics, or references to published work. No benchmarks, case studies, or performance comparisons are provided to show that the repository's data improve model accuracy or enable new biological insights.
+  - **Why it matters** The stated purpose of the repository is to enable dynamics-aware AI. Without evidence that the data are actually useful for this purpose, the central motivation for the resource is weakened. Users need to see demonstrated value to invest in adopting the resource.
+  - **Resolution test** Provide at least one concrete example of a downstream application using DynaRepo data, with quantitative results (e.g., improved binding site prediction accuracy compared to static-structure baselines). If such results are published elsewhere, cite them explicitly and summarize the key findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Simulation protocol for protein–nucleic acid complexes
+  - **Evidence pointer** Materials and methods, Protocol for protein-nucleic acid complexes
+  - **Issue** The description states simulations were "taken from previous works" with different software (AMBER, NAMD) and force fields than the protein-only simulations (GROMACS, CHARMM36m). The potential impact of these protocol differences on data consistency is not discussed.
+  - **Required correction** Add a brief discussion of how cross-protocol consistency is managed or acknowledged, and whether users should be aware of systematic differences between the nucleosome simulations and the protein-only simulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Accessibility and documentation
+  - **Affected element** Database website and API
+  - **Evidence pointer** Results section; Data availability statement
+  - **Issue** The manuscript states the database is freely available, but no information is provided on the expected uptime, data download sizes, or any usage quotas. The API is mentioned but its documentation is not described in the manuscript.
+  - **Required correction** Provide brief information on data volume, download formats, and API documentation availability, either in the manuscript or as a supplementary note.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Dataset naming
+  - **Evidence pointer** Abstract; Results section
+  - **Issue** The abstract refers to "~450 complexes" while the Results section uses "405 macromolecular complexes" and separately lists the "Testing Transient" dataset. The term "complexes" appears to be used inconsistently.
+  - **Required correction** Define the term "complex" explicitly and use it consistently throughout the manuscript, or use alternative terms such as "assemblies" and "single-chain proteins" with clear definitions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility of data selection
+  - **Affected element** PDBbind filtering pipeline
+  - **Evidence pointer** Materials and methods, Protein-protein complexes from PDBbind
+  - **Issue** The filtering pipeline is described, but the manual inspection step (step v) is not detailed. The criteria used for visual assessment and exclusion are not specified.
+  - **Required correction** Provide explicit criteria for manual inspection, or state that the inspection was based on structural integrity and interaction quality, with examples of excluded cases if possible.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (data count inconsistencies) and R1-M2 (lack of quantitative quality control criteria) are the most significant technical issues. The former undermines the accuracy of the resource description, while the latter prevents assessment of data reliability. Both must be resolved before the manuscript can be considered technically sound.
+- **Assessment against Nature-style criteria** Originality: Moderate. The repository addresses a genuine gap in complex-focused MD data, but the approach (MD simulations with standardized analysis) is not methodologically novel. Scientific importance: Potentially high, given the need for dynamics-aware training data in structural bioinformatics, but the demonstrated impact is currently limited. Interdisciplinary readership: The resource is relevant to computational biology, structural biology, and machine learning communities, but the manuscript's technical depth may limit accessibility for non-specialists. Technical soundness: Partially established. The simulation protocols are plausible, but quality control criteria and dataset consistency issues remain unresolved. Readability for nonspecialists: The manuscript is generally clear, but the methods section assumes familiarity with MD simulation terminology and the database architecture is not explained for readers unfamiliar with MDDB.
+- **Recommendation posture** Supportive if technical concerns are resolved. The resource has clear potential value, but the manuscript requires substantial revision to address data count inconsistencies, provide explicit quality control criteria, and demonstrate the utility of the repository for downstream applications. The current evidence does not fully establish the case for the repository's impact.

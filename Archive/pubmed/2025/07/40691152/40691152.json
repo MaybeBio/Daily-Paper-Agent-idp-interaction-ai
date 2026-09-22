@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "40691152",
+    "doi": "10.1038/s41467-025-61618-z",
+    "title": "Structural host-virus interactome profiling of intact infected cells."
+  },
+  "content": {
+    "abstract": "Virus-host protein-protein interactions (PPIs) are fundamental to viral infections, yet high-resolution identification of their structural and molecular determinants within the native context of intact infected cells has remained an unsolved challenge. Here, we provide detailed insights into the structural interactome of herpes simplex virus 1-infected human cells by combining in-cell cross-linking mass spectrometry with the selective enrichment of newly synthesized viral proteins. In productively infected cells, we obtain 739 PPIs based on 6,194 cross-links found across intracellular compartments and at the intact host endomembrane system. These structural host-virus interactome profiling (SHVIP) data resolve PPIs to the protein domain level and augment AlphaFold-based structural modeling, facilitating detailed predictions of PPI sites within structured and intrinsically disordered regions. Importantly, SHVIP captures parts of the virus-host PPI space that are elusive to traditional interaction proteomics approaches. Validation by molecular genetics confirms that these new SHVIP identifications are genuine virus-host PPIs occurring in the complex environment of intact infected cells.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Viral Proteins/metabolism/chemistry",
+      "*Herpesvirus 1, Human/physiology/metabolism",
+      "*Host-Pathogen Interactions",
+      "Proteomics/methods",
+      "Mass Spectrometry",
+      "Protein Interaction Maps",
+      "Protein Interaction Mapping/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bogdanow, Boris",
+        "Muhlberg, Lars",
+        "Gruska, Iris",
+        "Vetter, Barbara",
+        "Ruta, Julia",
+        "Elofsson, Arne",
+        "Wiebusch, Luder",
+        "Liu, Fan"
+      ],
+      "short_names": [
+        "Bogdanow B",
+        "Muhlberg L",
+        "Gruska I",
+        "Vetter B",
+        "Ruta J",
+        "Elofsson A",
+        "Wiebusch L",
+        "Liu F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9634-7353",
+        "ORCID: 0009-0008-8046-007X",
+        "ORCID: 0000-0002-9539-609X",
+        "ORCID: 0009-0007-0524-6885",
+        "ORCID: 0000-0002-7115-9751",
+        "ORCID: 0000-0002-7210-6731",
+        "ORCID: 0000-0002-2358-549X"
+      ],
+      "affiliations": [
+        "Research group \"Structural Interactomics\", Leibniz Forschungsinstitut fur Molekulare Pharmakologie, Berlin, Germany. boris.bogdanow@charite.de.",
+        "Charite - Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin and Humboldt-Universitat zu Berlin, Institut fur Virologie, Berlin, Germany. boris.bogdanow@charite.de.",
+        "Research group \"Structural Interactomics\", Leibniz Forschungsinstitut fur Molekulare Pharmakologie, Berlin, Germany.",
+        "Charite - Universitatsmedizin Berlin, Berlin, Germany.",
+        "Labor fur Padiatrische Molekularbiologie, Department of Pediatric Oncology and Hematology, Charite - Universitatsmedizin Berlin, Berlin, Germany.",
+        "Labor fur Padiatrische Molekularbiologie, Department of Pediatric Oncology and Hematology, Charite - Universitatsmedizin Berlin, Berlin, Germany.",
+        "Research group \"Structural Interactomics\", Leibniz Forschungsinstitut fur Molekulare Pharmakologie, Berlin, Germany.",
+        "Stockholm Bioinformatics Center, Stockholm University, Stockholm, Sweden.",
+        "Labor fur Padiatrische Molekularbiologie, Department of Pediatric Oncology and Hematology, Charite - Universitatsmedizin Berlin, Berlin, Germany. lueder.wiebusch@charite.de.",
+        "Research group \"Structural Interactomics\", Leibniz Forschungsinstitut fur Molekulare Pharmakologie, Berlin, Germany. fliu@fmp-berlin.de.",
+        "Charite - Universitatsmedizin Berlin, Berlin, Germany. fliu@fmp-berlin.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bogdanow, Boris",
+        "short_name": "Bogdanow B",
+        "identifiers": [
+          "0000-0002-9634-7353"
+        ],
+        "affiliations": [
+          "Research group \"Structural Interactomics\", Leibniz Forschungsinstitut für Molekulare Pharmakologie, Berlin, Germany. boris.bogdanow@charite.de.",
+          "Charité - Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt-Universität zu Berlin, Institut für Virologie, Berlin, Germany. boris.bogdanow@charite.de."
+        ]
+      },
+      {
+        "full_name": "Mühlberg, Lars",
+        "short_name": "Mühlberg L",
+        "identifiers": [
+          "0009-0008-8046-007X"
+        ],
+        "affiliations": [
+          "Research group \"Structural Interactomics\", Leibniz Forschungsinstitut für Molekulare Pharmakologie, Berlin, Germany.",
+          "Charité - Universitätsmedizin Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Gruska, Iris",
+        "short_name": "Gruska I",
+        "identifiers": [
+          "0000-0002-9539-609X"
+        ],
+        "affiliations": [
+          "Labor für Pädiatrische Molekularbiologie, Department of Pediatric Oncology and Hematology, Charité - Universitätsmedizin Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Vetter, Barbara",
+        "short_name": "Vetter B",
+        "identifiers": [],
+        "affiliations": [
+          "Labor für Pädiatrische Molekularbiologie, Department of Pediatric Oncology and Hematology, Charité - Universitätsmedizin Berlin, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Ruta, Julia",
+        "short_name": "Ruta J",
+        "identifiers": [
+          "0009-0007-0524-6885"
+        ],
+        "affiliations": [
+          "Research group \"Structural Interactomics\", Leibniz Forschungsinstitut für Molekulare Pharmakologie, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Elofsson, Arne",
+        "short_name": "Elofsson A",
+        "identifiers": [
+          "0000-0002-7115-9751"
+        ],
+        "affiliations": [
+          "Stockholm Bioinformatics Center, Stockholm University, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Wiebusch, Lüder",
+        "short_name": "Wiebusch L",
+        "identifiers": [
+          "0000-0002-7210-6731"
+        ],
+        "affiliations": [
+          "Labor für Pädiatrische Molekularbiologie, Department of Pediatric Oncology and Hematology, Charité - Universitätsmedizin Berlin, Berlin, Germany. lueder.wiebusch@charite.de."
+        ]
+      },
+      {
+        "full_name": "Liu, Fan",
+        "short_name": "Liu F",
+        "identifiers": [
+          "0000-0002-2358-549X"
+        ],
+        "affiliations": [
+          "Research group \"Structural Interactomics\", Leibniz Forschungsinstitut für Molekulare Pharmakologie, Berlin, Germany. fliu@fmp-berlin.de.",
+          "Charité - Universitätsmedizin Berlin, Berlin, Germany. fliu@fmp-berlin.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Jul 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/22 00:25",
+    "fetched_at": "2026-09-21 21:23:30"
+  },
+  "links": {
+    "cites": [
+      "42515645",
+      "42477070",
+      "41267481",
+      "40661470"
+    ],
+    "refs": [
+      "39653847",
+      "39604737",
+      "39528570",
+      "38718835",
+      "38621234",
+      "38424273",
+      "38225382",
+      "38036854",
+      "37550507",
+      "37548092",
+      "37376583",
+      "37311461",
+      "37291115",
+      "37071682",
+      "37020020",
+      "36815589",
+      "36795674",
+      "36762436",
+      "36731337",
+      "36623987",
+      "36534289",
+      "35273146",
+      "34927332",
+      "34725147",
+      "34723319",
+      "34709727",
+      "34349018",
+      "34293799",
+      "34265844",
+      "34232536",
+      "34144993",
+      "34015248",
+      "33669141",
+      "33434350",
+      "33148793",
+      "33087881",
+      "33027661",
+      "32994400",
+      "32973148",
+      "32849477",
+      "32455727",
+      "32353859",
+      "32341360",
+      "32041945",
+      "31873071",
+      "31797923",
+      "31589653",
+      "31485076",
+      "30811219",
+      "30550790",
+      "30550789",
+      "30374081",
+      "30177828",
+      "29891561",
+      "29622628",
+      "28420740",
+      "28237943",
+      "28095497",
+      "28074025",
+      "27854364",
+      "27641956",
+      "27501260",
+      "27375898",
+      "26958735",
+      "26687357",
+      "26651941",
+      "26414014",
+      "25735772",
+      "25648531",
+      "24945933",
+      "24906157",
+      "24882001",
+      "24741100",
+      "24553093",
+      "24152084",
+      "23908376",
+      "23785212",
+      "23047924",
+      "22993164",
+      "22990238",
+      "22810586",
+      "22810585",
+      "22531119",
+      "21779165",
+      "21680502",
+      "21494278",
+      "20844576",
+      "20677001",
+      "20601960",
+      "19656900",
+      "19337321",
+      "19304878",
+      "19029910",
+      "18584907",
+      "18353954",
+      "17703201",
+      "17652388",
+      "17620619",
+      "16895903",
+      "15994778",
+      "12960333",
+      "12917472",
+      "12060727",
+      "11483770",
+      "11175261",
+      "10882068",
+      "9847342",
+      "9696804",
+      "8941333",
+      "8057463"
+    ],
+    "similar": [
+      "40691152",
+      "28077445",
+      "40874616",
+      "23938468",
+      "23951184",
+      "25158218",
+      "36232803",
+      "29114028",
+      "41387687",
+      "38936319",
+      "33515030",
+      "37796176",
+      "28904190",
+      "32817212",
+      "26656710",
+      "30044201",
+      "28253857",
+      "31199794",
+      "25350354",
+      "39585616",
+      "40919914",
+      "29854357",
+      "34160596",
+      "22174284",
+      "32391791",
+      "21911578",
+      "33693490",
+      "25230581",
+      "33430309",
+      "33103435",
+      "39066332",
+      "30367586",
+      "27384951",
+      "38190109",
+      "40577456",
+      "25808324",
+      "39772267",
+      "23996249",
+      "26085152",
+      "25375323",
+      "26739050",
+      "39608603",
+      "24708540",
+      "40015271",
+      "37230567",
+      "30172868",
+      "38282401",
+      "24564941",
+      "40140549",
+      "30018111",
+      "28376709",
+      "25815715",
+      "28468873",
+      "27852850",
+      "31522705",
+      "26817613",
+      "25241761",
+      "26964062",
+      "26656703",
+      "31474372",
+      "36682002",
+      "33121134",
+      "25764121",
+      "39823405",
+      "22371486",
+      "27824369",
+      "39936389",
+      "38743364",
+      "40195117",
+      "29112911",
+      "34681765",
+      "39755310",
+      "33860983",
+      "34349018",
+      "30045990",
+      "22202175",
+      "24169621",
+      "18215330",
+      "34730397",
+      "25464832",
+      "39453897",
+      "26830344",
+      "26166390",
+      "27397631",
+      "26365680",
+      "23785201",
+      "25355318",
+      "22246955",
+      "31873071",
+      "23418649",
+      "40515909",
+      "28904192",
+      "39898439",
+      "19946139",
+      "28972080",
+      "28179408",
+      "25878107",
+      "18337579",
+      "12915535",
+      "32699089"
+    ],
+    "review": [
+      "40691152",
+      "38936319",
+      "33693490",
+      "33430309",
+      "39608603",
+      "30172868",
+      "38282401",
+      "26817613",
+      "36682002",
+      "25764121",
+      "39936389",
+      "40195117",
+      "29112911",
+      "33860983",
+      "26365680",
+      "22246955"
+    ],
+    "pmc": [
+      "12280212"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-61618-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40691152/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

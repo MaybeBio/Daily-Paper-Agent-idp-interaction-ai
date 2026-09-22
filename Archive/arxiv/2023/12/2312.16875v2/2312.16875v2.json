@@ -1,0 +1,40 @@
+{
+  "source": "arxiv",
+  "source_id": "2312.16875v2",
+  "title": "Cellular forgetting, desensitisation, stress and aging in signalling networks. When do cells refuse to learn more?",
+  "doi": "10.1007/s00018-024-05112-7",
+  "abstract": "Recent findings show that single, non-neuronal cells are also able to learn signalling responses developing cellular memory. In cellular learning nodes of signalling networks strengthen their interactions e.g. by the conformational memory of intrinsically disordered proteins, protein translocation, miRNAs, lncRNAs, chromatin memory and signalling cascades. This can be described by a generalized, unicellular Hebbian learning process, where those signalling connections, which participate in learning, become stronger. Here we review those scenarios, where cellular signalling is not only repeated in a few times (when learning occurs), but becomes too frequent, too large, or too complex and overloads the cell. This leads to desensitisation of signalling networks by decoupling signalling components, receptor internalization, and consequent downregulation. These molecular processes are examples of anti-Hebbian learning and forgetting of signalling networks. Stress can be perceived as signalling overload inducing the desensitisation of signalling pathways. Aging occurs by the summative effects of cumulative stress downregulating signalling. We propose that cellular learning desensitisation, stress and aging may be placed along the same axis of more and more intensive (prolonged or repeated) signalling. We discuss how cells might discriminate between repeated and unexpected signals, and highlight the Hebbian and anti-Hebbian mechanisms behind the fold-change detection in the NF-\\k{appa}B signalling pathway. We list drug design methods using Hebbian learning (such as chemically-induced proximity) and clinical treatment modalities inducing (cancer, drug allergies) desensitisation or avoiding drug-induced desensitisation. A better discrimination between cellular learning, desensitisation and stress may open novel directions in drug design, e.g., helping to overcome drug-resistance.",
+  "authors": [
+    "Tamas Veres",
+    "Mark Kerestely",
+    "Borbala M. Kovacs",
+    "David Keresztes",
+    "Klara Schulc",
+    "Erik Seitz",
+    "Zsolt Vassy",
+    "Daniel V. Veres",
+    "Peter Csermely"
+  ],
+  "published_date": "2023-12-28T08:04:05Z",
+  "updated_date": "2024-02-20T07:27:00Z",
+  "journal": "Cellular and Molecular Life Sciences (2024) 81,97",
+  "category": "q-bio.MN, q-bio.CB",
+  "landing_url": "https://arxiv.org/abs/2312.16875v2",
+  "pdf_url": "https://arxiv.org/pdf/2312.16875v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.MN",
+    "q-bio.CB"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2312.16875v2",
+    "raw_categories": [
+      "q-bio.MN",
+      "q-bio.CB"
+    ],
+    "journal_ref": "Cellular and Molecular Life Sciences (2024) 81,97"
+  }
+}

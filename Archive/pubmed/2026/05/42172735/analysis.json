@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42172735",
+  "title": "Advancements in single-molecule fluorescence spectroscopy for probing conformations, dynamics, and interactions in disordered protein regions.",
+  "authors": "Jensen, Drake; Cubuk, Jasmine; Samanta, Nirnay; Stuchell-Brereton, Melissa D; Soranno, Andrea",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2026-05-23",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 6,
+  "one_liner_zh": "综述单分子荧光光谱技术用于探测无序蛋白区域构象、动态和相互作用，虽涉及IDR和互作，但方法为实验技术而非AI/物理模拟，机制建模深度有限。",
+  "abstract": "Single-molecule fluorescence spectroscopy encompasses a range of techniques to probe dynamic conformational ensembles of intrinsically disordered regions (IDRs). By resolving subpopulation-specific properties and spanning timescales from nanoseconds to seconds, these measurements provide observables often inaccessible with ensemble measurements. Here, we contextualize key challenges and recent advances, including integrating experiments, simulations, and theory to quantify sequence-encoded effects, as well as photon statistic analyses to characterize protein dynamics. We also summarize extensions of single-molecule fluorescence approaches to decode IDR conformations, dynamics, and spatial organizations within biomolecular condensates. Together, these technical advances make single-molecule fluorescence spectroscopy increasingly accessible for studying IDR function, while the complexity of IDR biology and physics continues to drive further methodological innovation.",
+  "abstract_zh": "单分子荧光光谱学涵盖了一系列技术，用于探测 intrinsically disordered regions (IDRs) 的动态构象集合。通过解析亚群体特异性性质并跨越从纳秒到秒的时间尺度，这些测量提供了通常通过集合测量难以获得的观测数据。在此，我们梳理了关键挑战和最新进展，包括整合实验、模拟和理论以量化序列编码效应，以及利用光子统计分析来表征蛋白质动态。我们还总结了单分子荧光方法在解码生物分子凝聚体内IDR构象、动态及空间组织方面的扩展应用。总之，这些技术进步使单分子荧光光谱学在研究IDR功能方面日益普及，而IDR生物学和物理学的复杂性则持续推动进一步的方法论创新。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42172735/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42172735/",
+  "paper_page_path": "papers/pubmed/42172735/index.html"
+}

@@ -1,0 +1,249 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2020.12.29.424646",
+  "title": "Environmental Dependence of the Structure of the C-terminal Domain of the SARS-CoV-2 Envelope Protein",
+  "doi": "10.1101/2020.12.29.424646",
+  "abstract": "The SARS-CoV-2 envelope protein (E) is involved in a broad spectrum of functions in the cycle of the virus, including assembly, budding, envelope formation, and pathogenesis. To enable these activities, E is likely to be capable of changing its conformation depending on environmental cues. To investigate this issue, here we characterised the structural properties of the C-terminal domain of E (E-CTD), which has been reported to interact with host cell membranes. We first studied the conformation of the E-CTD in solution, finding characteristic features of a disordered protein. By contrast, in the presence of large unilamellar vesicles and micelles, which mimic cell membranes, the E-CTD was observed to become structured. The E-CTD was also found to display conformational changes with osmolytes. Furthermore, prolonged incubation of the E-CTD under physiological conditions resulted in amyloid-like fibril formation. Taken together, these findings indicate that the E-CTD can change its conformation depending on its environment, ranging from a disordered state, to a membrane-bound folded state, and an amyloid state. Our results thus provide insight into the structural basis of the role of E in the viral infection process. <h4>Highlights</h4> The E-CTD of SARS-CoV-2 is intrinsically disordered in solution The E-CTD folds into an ordered structure in presence of membrane mimetics The E-CTD displays conformational changes in the presence of osmolytes Prolonged incubation of the E-CTD leads to its self-assembly into amyloid-like fibrils <h4>Graphical Abstract</h4> <h4>Structural heterogeneity of the E-CTD.</h4> The E-CTD shows a disordered secondary structure in an aqueous solution and converts into an ordered structure in the presence of membrane mimetics (neutral and negative lipids) and natural osmolytes (TMAO). Incubation at physiological condition shows typical amyloid-like fibrils. The yellow-colored structure represents a predicted structure of the E-CTD by PEP-FOLD.",
+  "authors": [
+    "Gadhave K",
+    "Kumar A",
+    "Kumar P",
+    "Kapuganti SK",
+    "Garg N",
+    "Vendruscolo M",
+    "Giri R"
+  ],
+  "published_date": "2020-12-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2020.12.29.424646",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2020.12.29.424646.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR259212",
+    "raw_record": {
+      "id": "PPR259212",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR259212"
+        ]
+      },
+      "doi": "10.1101/2020.12.29.424646",
+      "title": "Environmental Dependence of the Structure of the C-terminal Domain of the SARS-CoV-2 Envelope Protein",
+      "authorString": "Gadhave K, Kumar A, Kumar P, Kapuganti SK, Garg N, Vendruscolo M, Giri R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gadhave K",
+            "lastName": "Gadhave",
+            "firstName": "Kundlik",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4530-4772"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kumar A",
+            "lastName": "Kumar",
+            "firstName": "Ankur",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kumar P",
+            "lastName": "Kumar",
+            "firstName": "Prateek",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kapuganti SK",
+            "lastName": "Kapuganti",
+            "firstName": "Shivani",
+            "initials": "SK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garg N",
+            "lastName": "Garg",
+            "firstName": "Neha",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2227-8292"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicinal Chemistry, Faculty of Ayurveda, Institute of Medical Sciences, Banaras Hindu University, Varanasi, Uttar Pradesh, 221005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vendruscolo M",
+            "lastName": "Vendruscolo",
+            "firstName": "Michele",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3616-1610"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Misfolding Diseases, Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Giri R",
+            "lastName": "Giri",
+            "firstName": "Rajanish",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2046-836X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7392-5045"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2046-836X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3616-1610"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2227-8292"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4530-4772"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2020",
+      "abstractText": "The SARS-CoV-2 envelope protein (E) is involved in a broad spectrum of functions in the cycle of the virus, including assembly, budding, envelope formation, and pathogenesis. To enable these activities, E is likely to be capable of changing its conformation depending on environmental cues. To investigate this issue, here we characterised the structural properties of the C-terminal domain of E (E-CTD), which has been reported to interact with host cell membranes. We first studied the conformation of the E-CTD in solution, finding characteristic features of a disordered protein. By contrast, in the presence of large unilamellar vesicles and micelles, which mimic cell membranes, the E-CTD was observed to become structured. The E-CTD was also found to display conformational changes with osmolytes. Furthermore, prolonged incubation of the E-CTD under physiological conditions resulted in amyloid-like fibril formation. Taken together, these findings indicate that the E-CTD can change its conformation depending on its environment, ranging from a disordered state, to a membrane-bound folded state, and an amyloid state. Our results thus provide insight into the structural basis of the role of E in the viral infection process. <h4>Highlights</h4>  The E-CTD of SARS-CoV-2 is intrinsically disordered in solution The E-CTD folds into an ordered structure in presence of membrane mimetics The E-CTD displays conformational changes in the presence of osmolytes Prolonged incubation of the E-CTD leads to its self-assembly into amyloid-like fibrils <h4>Graphical Abstract</h4>  <h4>Structural heterogeneity of the E-CTD.</h4>  The E-CTD shows a disordered secondary structure in an aqueous solution and converts into an ordered structure in the presence of membrane mimetics (neutral and negative lipids) and natural osmolytes (TMAO). Incubation at physiological condition shows typical amyloid-like fibrils. The yellow-colored structure represents a predicted structure of the E-CTD by PEP-FOLD.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2020
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2020/12/29/2020.12.29.424646.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2020.12.29.424646"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR259212"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2020.12.29.424646"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS109403",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2020-12-31",
+      "firstPublicationDate": "2020-12-29",
+      "firstIndexDate": "2020-12-31",
+      "fullTextReceivedDate": "2021-01-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

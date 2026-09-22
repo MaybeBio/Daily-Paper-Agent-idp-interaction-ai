@@ -1,0 +1,417 @@
+{
+  "identity": {
+    "pmid": "39271915",
+    "doi": "10.1038/s41557-024-01630-w",
+    "title": "Small-molecule properties define partitioning into biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates regulate cellular function by compartmentalizing molecules without a surrounding membrane. Condensate function arises from the specific exclusion or enrichment of molecules. Thus, understanding condensate composition is critical to characterizing condensate function. Whereas principles defining macromolecular composition have been described, understanding of small-molecule composition remains limited. Here we quantified the partitioning of ~1,700 biologically relevant small molecules into condensates composed of different macromolecules. Partitioning varied nearly a million-fold across compounds but was correlated among condensates, indicating that disparate condensates are physically similar. For one system, the enriched compounds did not generally bind macromolecules with high affinity under conditions where condensates do not form, suggesting that partitioning is not governed by site-specific interactions. Correspondingly, a machine learning model accurately predicts partitioning using only computed physicochemical features of the compounds, chiefly those related to solubility and hydrophobicity. These results suggest that a hydrophobic environment emerges upon condensate formation, driving the enrichment and exclusion of small molecules.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biomolecular Condensates/chemistry",
+      "*Hydrophobic and Hydrophilic Interactions",
+      "Machine Learning",
+      "Small Molecule Libraries/chemistry",
+      "Solubility",
+      "Macromolecular Substances/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ambadi Thody, Sabareesan",
+        "Clements, Hanna D",
+        "Baniasadi, Hamid",
+        "Lyon, Andrew S",
+        "Sigman, Matthew S",
+        "Rosen, Michael K"
+      ],
+      "short_names": [
+        "Ambadi Thody S",
+        "Clements HD",
+        "Baniasadi H",
+        "Lyon AS",
+        "Sigman MS",
+        "Rosen MK"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1418-3410",
+        "ORCID: 0000-0002-4224-5378",
+        "ORCID: 0000-0001-7681-4981",
+        "ORCID: 0000-0002-5746-8830",
+        "ORCID: 0000-0002-0775-7917"
+      ],
+      "affiliations": [
+        "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA. sabareesan.ambadithody@utsouthwestern.edu.",
+        "Department of Chemistry, University of Utah, Salt Lake City, UT, USA.",
+        "Department of Biochemistry, UT Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Chemistry, University of Utah, Salt Lake City, UT, USA. matt.sigman@utah.edu.",
+        "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA. michael.rosen@utsouthwestern.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ambadi Thody, Sabareesan",
+        "short_name": "Ambadi Thody S",
+        "identifiers": [
+          "0000-0003-1418-3410"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA. sabareesan.ambadithody@utsouthwestern.edu."
+        ]
+      },
+      {
+        "full_name": "Clements, Hanna D",
+        "short_name": "Clements HD",
+        "identifiers": [
+          "0000-0002-4224-5378"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Utah, Salt Lake City, UT, USA."
+        ]
+      },
+      {
+        "full_name": "Baniasadi, Hamid",
+        "short_name": "Baniasadi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, UT Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Lyon, Andrew S",
+        "short_name": "Lyon AS",
+        "identifiers": [
+          "0000-0001-7681-4981"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Sigman, Matthew S",
+        "short_name": "Sigman MS",
+        "identifiers": [
+          "0000-0002-5746-8830"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Utah, Salt Lake City, UT, USA. matt.sigman@utah.edu."
+        ]
+      },
+      {
+        "full_name": "Rosen, Michael K",
+        "short_name": "Rosen MK",
+        "identifiers": [
+          "0000-0002-0775-7917"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA. michael.rosen@utsouthwestern.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature chemistry"
+    ],
+    "journal_abbrev": [
+      "Nat Chem"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/14 10:44",
+    "fetched_at": "2026-09-21 10:12:42"
+  },
+  "links": {
+    "cites": [
+      "42601498",
+      "42573943",
+      "42517611",
+      "42425985",
+      "42307228",
+      "42266718",
+      "42265005",
+      "42261607",
+      "42244763",
+      "42232026",
+      "42225071",
+      "42184109",
+      "42103742",
+      "42102188",
+      "42074305",
+      "41997364",
+      "41991555",
+      "41882384",
+      "41848615",
+      "41758937",
+      "41698919",
+      "41667469",
+      "41647538",
+      "41637578",
+      "41629872",
+      "41540001",
+      "41351266",
+      "41343645",
+      "41318327",
+      "41292773",
+      "41283766",
+      "41275060",
+      "41238911",
+      "41238549",
+      "41169547",
+      "41168205",
+      "41115902",
+      "41083871",
+      "41062450",
+      "41027866",
+      "40962203",
+      "40925983",
+      "40871191",
+      "40866513",
+      "40830340",
+      "40790117",
+      "40764481",
+      "40747072",
+      "40704402",
+      "40690668",
+      "40672301",
+      "40667294",
+      "40653653",
+      "40468084",
+      "40386802",
+      "40376419",
+      "40343340",
+      "40327693",
+      "40321778",
+      "40291709",
+      "40252841",
+      "40229261",
+      "40203202",
+      "40195042",
+      "40180817",
+      "40166274",
+      "40160200",
+      "40095243",
+      "40093099",
+      "40063534",
+      "40016246",
+      "39874979",
+      "39824169",
+      "39786519",
+      "39677698",
+      "39677697",
+      "39534915",
+      "39433596",
+      "39071308",
+      "38659924",
+      "38443761",
+      "38076908",
+      "37766941",
+      "37695778",
+      "37131742",
+      "36747818"
+    ],
+    "refs": [
+      "38513106",
+      "37880420",
+      "37770698",
+      "35974095",
+      "35922507",
+      "35853451",
+      "35809564",
+      "35761089",
+      "35149762",
+      "33169001",
+      "33004511",
+      "32607472",
+      "32554597",
+      "32553117",
+      "32364240",
+      "32302571",
+      "32302570",
+      "32004090",
+      "30846599",
+      "29976794",
+      "29632271",
+      "29323488",
+      "29258725",
+      "29210575",
+      "28935776",
+      "28283059",
+      "28225081",
+      "27374333",
+      "27056844",
+      "23721588",
+      "22398450",
+      "20426451",
+      "20210718"
+    ],
+    "similar": [
+      "39271915",
+      "38987300",
+      "39534915",
+      "40229261",
+      "37770698",
+      "40093099",
+      "34772789",
+      "30099028",
+      "39071308",
+      "39356108",
+      "39184067",
+      "35761089",
+      "39260373",
+      "38649740",
+      "39620362",
+      "39232584",
+      "34772786",
+      "38781207",
+      "36400992",
+      "33653957",
+      "34767801",
+      "34090478",
+      "39433596",
+      "39824169",
+      "36847235",
+      "34772790",
+      "33864415",
+      "35881789",
+      "34772787",
+      "40074825",
+      "38848869",
+      "37546704",
+      "38885177",
+      "37162152",
+      "39303698",
+      "40327693",
+      "38360555",
+      "39827079",
+      "39537752",
+      "40286793",
+      "40094245",
+      "40113768",
+      "40136009",
+      "38582523",
+      "39134696",
+      "37252985",
+      "38884477",
+      "37013374",
+      "33510441",
+      "32632317",
+      "37904914",
+      "40249817",
+      "38593269",
+      "38999934",
+      "39496836",
+      "39271032",
+      "39663388",
+      "37973889",
+      "37770422",
+      "36227487",
+      "33453924",
+      "38824391",
+      "34552246",
+      "38698644",
+      "34129784",
+      "38832749",
+      "40149942",
+      "34404453",
+      "38383656",
+      "37977129",
+      "37470705",
+      "37772963",
+      "39510346",
+      "39757214",
+      "39005320",
+      "39326881",
+      "33934561",
+      "35864335",
+      "38499848",
+      "31790873",
+      "39516712",
+      "35974095",
+      "39327453",
+      "38405951",
+      "37770423",
+      "39004265",
+      "39112465",
+      "39042834",
+      "36071192",
+      "33087563",
+      "38936257",
+      "37156794",
+      "37019112",
+      "40307207",
+      "31199001",
+      "39856105",
+      "39826710",
+      "38722189",
+      "39320949",
+      "34179888"
+    ],
+    "review": [
+      "39271915",
+      "34772789",
+      "30099028",
+      "35761089",
+      "34772786",
+      "36400992",
+      "34767801",
+      "39433596",
+      "39824169",
+      "34772790",
+      "34772787",
+      "38885177",
+      "39303698",
+      "38360555",
+      "39827079",
+      "39134696",
+      "33510441",
+      "32632317",
+      "39271032",
+      "38698644",
+      "34129784",
+      "37772963",
+      "39757214",
+      "39326881",
+      "33934561",
+      "31790873",
+      "39516712",
+      "35974095",
+      "39327453",
+      "36071192",
+      "38936257"
+    ],
+    "pmc": [
+      "11527791"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41557-024-01630-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39271915/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

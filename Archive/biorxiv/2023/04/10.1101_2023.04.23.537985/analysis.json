@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.23.537985",
+  "title": "Mechanism of the Covalent Inhibition of Human Transmembrane Protease Serine 2 as an Original Antiviral Strategy",
+  "authors": "Spinello A; D’Anna L; Bignon E; Miclot T; Grandemange S; Terenzi A; Barone G; Barbault F; Monari A",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-24",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用多尺度分子建模研究TMPRSS2与脂双层互作及共价抑制剂Nafamostat的抑制机制，对象为折叠蛋白酶而非无序蛋白，且无PPI机制建模，仅方法上可部分迁移。",
+  "abstract": "The Transmembrane Protease Serine 2 (TMPRSS2) is a human enzyme which is involved in the maturation and post-translation of different proteins. In addition of being overexpressed in cancer cells, TMPRSS2 plays a further fundamental role in favoring viral infections by allowing the fusion of the virus envelope and the cellular membrane, notably in SARS-CoV-2. In this contribution we resort to multiscale molecular modeling to unravel the structural and dynamical features of TMPRSS2 and its interaction with a model lipid bilayer. Furthermore, we shed light into the mechanism of action of a potential inhibitor (Nafamostat), determining the free-energy profile associated with the inhibition reaction, and showing the facile poisoning of the enzyme. Our study, while providing the first atomistically resolved mechanism of TMPRSS2 inhibition, is also fundamental in furnishing a solid framework for further rational design targeting transmembrane proteases in a host-directed antiviral strategy. <h4>TOC GRAPHICS</h4>",
+  "abstract_zh": "跨膜蛋白酶丝氨酸2（TMPRSS2）是一种人类酶，参与多种蛋白质的成熟和翻译后修饰过程。除了在癌细胞中过度表达外，TMPRSS2还通过促进病毒包膜与细胞膜的融合，在病毒感染中发挥关键作用，尤其是在SARS-CoV-2中。在本研究中，我们采用多尺度分子建模来揭示TMPRSS2的结构和动态特征及其与模型脂质双层的相互作用。此外，我们阐明了潜在抑制剂（Nafamostat）的作用机制，确定了与抑制反应相关的自由能谱，并展示了该酶易被中毒的特性。我们的研究不仅提供了首个原子级分辨率的TMPRSS2抑制机制，还为针对跨膜蛋白酶的宿主导向抗病毒策略的进一步合理设计奠定了坚实基础。 <h4>TOC图形</h4>",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.23.537985",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.23.537985",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.23.537985/index.html"
+}

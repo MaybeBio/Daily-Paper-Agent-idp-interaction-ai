@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text including Introduction, Methods, Results, Discussion, Conclusions, and Supplementary Information references
+- **Assessment boundary** Scientific soundness, technical rigor, interpretation of results, and alignment of claims with presented evidence
+- **Shared manuscript claim summary** The authors report that full-length hnRNP A2/B1 forms soluble amorphous aggregates in vitro, while three tag-cleaved truncates (ΔNLS 1–313, RRM-PrLD 15–293, RRM-RGG 15–250) are stable monomers. They further report that G4-structured ssDNA induces homodimerization of the RRM-RGG (15–250) truncate, as evidenced by SEC, AUC, and ITC, and provide computational predictions of key residues mediating this interaction.
+- **Visible evidence base** SEC elution profiles, SDS-PAGE purity assessments, SEC-MALS data, AUC sedimentation data, ITC thermograms, EMSA gel data, CD spectra, and computational predictions from Uni-Fold and NPDock
+- **Missing materials affecting confidence** Raw SEC-MALS and AUC data files, ITC fitting parameters and raw heat curves, EMSA gel images with proper controls, CD spectra raw data, statistical analysis details, and supplementary figures referenced but not fully described
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question regarding the oligomeric states and nucleic acid binding properties of hnRNP A2/B1 truncates. The finding that G4-structured ssDNA induces homodimerization of the RRM-RGG truncate is potentially interesting. However, the evidence presented is incomplete in several critical areas. The SEC data for complex formation lack proper molecular weight standards and calibration details. The ITC experiment is described for only one DNA sequence, and the reported Kd of 3.9 µM is not contextualized with replicates or controls. The AUC data are presented without sedimentation coefficient distributions or fitting quality metrics. The EMSA data are referenced but not shown in the main text with adequate quantification. The computational predictions are speculative and not validated experimentally. The claim that G4-induced dimerization relates to antiviral function is not supported by any functional data. The manuscript would benefit from more rigorous biophysical characterization and clearer presentation of raw data.
+- **Who would be interested in the results, and why** Researchers studying hnRNP A2/B1 function, nucleic acid binding proteins, G-quadruplex biology, and antiviral innate immunity. The biophysical characterization of hnRNP A2/B1 truncates and the observation of G4-induced dimerization may inform studies on RNA metabolism, viral sensing, and potential therapeutic targeting.
+- **Major strengths** The systematic approach to characterizing oligomeric states using multiple biophysical techniques is commendable. The use of tag-cleaved truncates is methodologically sound. The observation that G4-structured ssDNA induces dimerization while non-G4 DNA does not is a potentially novel finding. The authors are transparent about the limitations of their crystallization attempts and the speculative nature of their computational predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of biophysical data
+  - **Claim pointer** The authors claim that SEC analysis shows G4 ssDNA induces homodimerization of RRM-RGG (15–250), with the complex eluting at 11.29 mL versus 12.38 mL for the free protein.
+  - **Evidence pointer** Results section, Figure 3D-E, Supplementary Figures 12-13
+  - **Concern** The SEC data presented do not include calibration curves or molecular weight standards for the specific column used in the complex analysis. The shift in elution volume from 12.38 mL to 11.29 mL is interpreted as dimerization, but without proper calibration, this shift could also be explained by a conformational change or non-specific aggregation. The authors do not report the expected elution volume for a dimer of approximately 52 kDa on the specific column used. Additionally, the SEC-MALS data are only shown for the free protein, not for the complex, which would have provided direct molecular weight evidence for dimerization.
+  - **Why it matters** The central claim of the manuscript is that G4 ssDNA induces dimerization. Without rigorous molecular weight determination of the complex, this claim is not firmly established. SEC elution volume shifts alone are insufficient to prove a specific stoichiometry change.
+  - **Resolution test** The authors should provide SEC-MALS data for the protein-DNA complex showing the absolute molecular weight of the complex. Alternatively, AUC sedimentation equilibrium experiments should be performed to determine the molecular weight of the complex directly. If SEC is the only method used, a calibration curve with molecular weight standards run on the same column under identical conditions must be provided, along with the expected elution volumes for monomer and dimer species.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of binding measurements
+  - **Claim pointer** The authors report a Kd of 3.9 ± 0.1 µM for the interaction between RRM-RGG (15–250) and 12nt C ssDNA, described as a high-affinity interaction.
+  - **Evidence pointer** Results section, Figure 3A
+  - **Concern** The ITC experiment is described for only one DNA sequence (12nt C ssDNA), which is a mutant of the G4 sequence. The authors do not report ITC data for the actual G4-structured ssDNA that is claimed to induce dimerization. The stoichiometry (n value) from the ITC fit is not reported. The reported error of ± 0.1 µM seems implausibly small for a single ITC experiment without replicates. The buffer conditions for ITC are not specified in the methods section.
+  - **Why it matters** The binding affinity is a key quantitative claim. Without ITC data for the G4 ssDNA itself, the authors cannot claim that G4 ssDNA binds with high affinity. The stoichiometry of binding is essential to support the dimerization model. The lack of replicates and detailed fitting parameters undermines confidence in the reported Kd.
+  - **Resolution test** The authors should perform ITC titrations with the G4-structured ssDNA (both 12nt and 22nt) and report the full thermodynamic parameters including stoichiometry (n), enthalpy (ΔH), and entropy (ΔS). At least three independent replicates should be performed, and the fitting quality should be demonstrated. The buffer composition and experimental conditions must be clearly stated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of AUC data
+  - **Claim pointer** The authors state that AUC analysis confirms the oligomeric states of the complexes, with the RRM-RGG (15–250) and 22nt G4 ssDNA complex having a molecular weight of approximately 64.4 kDa, indicating homodimerization.
+  - **Evidence pointer** Results section, Figure 3G-H
+  - **Concern** The AUC data are presented without sedimentation coefficient distributions, residuals, or fitting quality metrics. The molecular weight of 64.4 kDa is reported but the method of calculation (sedimentation velocity vs. sedimentation equilibrium) is not clearly distinguished. The theoretical molecular weight of a dimer of RRM-RGG (15–250) (approximately 26 kDa each) plus one 22nt ssDNA (approximately 7 kDa) would be approximately 59 kDa, not 64.4 kDa. The discrepancy is not explained. The AUC data for the free protein and the complex with non-G4 DNA are not shown for comparison.
+  - **Why it matters** The AUC data are presented as confirmatory evidence for dimerization, but the reported molecular weight does not match the expected value for a 2:1 protein:DNA complex. This discrepancy raises questions about the interpretation and the accuracy of the AUC analysis.
+  - **Resolution test** The authors should provide the full AUC analysis including sedimentation coefficient distributions, c(s) plots, residuals, and the fitting statistics. The molecular weight calculation method should be clearly described. The expected molecular weight for the proposed complex stoichiometry should be calculated and compared with the experimental value. AUC data for control complexes (non-G4 DNA) should be shown.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for functional claims
+  - **Claim pointer** The authors state that G4-structured ssDNA-dependent dimerization may contribute to the protein's antiviral function and establish a biophysical framework to guide future investigations into the protein's antiviral mechanism.
+  - **Evidence pointer** Discussion section, Conclusions section
+  - **Concern** The manuscript provides no functional data linking G4-induced dimerization to antiviral activity. The connection to antiviral function is entirely speculative and based on prior literature. The authors acknowledge this limitation in the Discussion, but the claim is repeated in the Conclusions as if it were a finding of this study.
+  - **Why it matters** The potential significance of the work depends on the relevance of G4-induced dimerization to hnRNP A2/B1 function. Without any functional validation, the significance of the biophysical observations remains unclear.
+  - **Resolution test** The authors should either temper the claims about antiviral relevance or provide preliminary functional data, such as cellular assays with G4 DNA mutants or knockdown/rescue experiments. At minimum, the Conclusions should be revised to clearly distinguish between findings and hypotheses.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validity of computational predictions
+  - **Claim pointer** The authors state that NPDock simulations predicted specific non-conserved residues (PHE30, ARG82, ARG89, ASP139, THR140, ARG190, GLU195, GLN197) form hydrogen bonds with G4-structured ssDNA.
+  - **Evidence pointer** Results section, Figure 4D-G
+  - **Concern** The NPDock predictions are presented without any scoring metrics, confidence estimates, or comparison with alternative docking solutions. The statement that these residues are "non-conserved" is not supported by any sequence alignment data. The functional significance of these specific residues is not experimentally validated.
+  - **Why it matters** The computational predictions are presented as a key outcome of the study, but without validation or quality metrics, they remain speculative. The claim about non-conservation requires supporting data.
+  - **Resolution test** The authors should provide the NPDock scoring metrics, the confidence of the predicted models, and a sequence alignment showing the conservation status of the identified residues. Ideally, site-directed mutagenesis of the predicted key residues should be performed to validate their role in G4 ssDNA binding and dimerization.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** SEC methods
+  - **Evidence pointer** Methods section, SEC
+  - **Issue** The SEC methods state that different molecular weight markers were used for different columns, but the specific markers and calibration procedures are not described.
+  - **Required correction** Provide details of the molecular weight markers used, the calibration procedure, and the column specifications for each SEC experiment.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** EMSA results
+  - **Evidence pointer** Results section, Figure 3B-C
+  - **Issue** The EMSA data are described in the text but the representative gel images are only in supplementary figures. The quantification method for the gray values is not described in sufficient detail.
+  - **Required correction** Include representative EMSA gel images in the main figure or provide a clear reference to the supplementary figures. Describe the quantification method, including the software used and the normalization procedure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The term "biophysiological" is used, which is not a standard term. The authors likely mean "biophysical" or "biochemical."
+  - **Required correction** Replace "biophysiological" with "biophysical" or "biochemical" as appropriate.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure labeling
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3
+  - **Issue** The figure legend for Figure 3F describes CD spectra but the panel is labeled as showing ellipticity profiles. The labeling is inconsistent.
+  - **Required correction** Ensure that the figure panel labels and the legend descriptions are consistent.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature support
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The statement that "hnRNP A2/B1 and its homologous proteins play key roles in regulating viral replication, telomere homeostasis, and the expression of tumor-associated genes" is supported by references 22, but the specific relevance to the current findings is not clearly articulated.
+  - **Required correction** Clarify how the cited literature relates to the specific findings of this study.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Throughout
+  - **Evidence pointer** Results section
+  - **Issue** No statistical tests are reported for any of the quantitative comparisons, such as the EMSA gray value comparison or the ITC binding parameters.
+  - **Required correction** Provide appropriate statistical analysis for quantitative comparisons, including the number of replicates and the statistical tests used.
+
+## Risk / unsupported claims
+- The claim that G4 ssDNA induces homodimerization of RRM-RGG (15–250) is not fully supported by the presented SEC data alone, as no molecular weight standards or calibration for the complex analysis are provided.
+- The reported Kd of 3.9 ± 0.1 µM for the RRM-RGG (15–250) interaction with 12nt C ssDNA is not supported by replicate experiments or detailed fitting parameters.
+- The AUC-derived molecular weight of 64.4 kDa for the RRM-RGG (15–250) and 22nt G4 ssDNA complex does not match the expected value for a 2:1 protein:DNA complex, and the discrepancy is not explained.
+- The claim that specific residues (PHE30, ARG82, ARG89, ASP139, THR140, ARG190, GLU195, GLN197) mediate G4 ssDNA binding is based solely on unvalidated computational predictions.
+- The connection between G4-induced dimerization and antiviral function is speculative and not supported by any functional data in this manuscript.
+- The statement that full-length hnRNP A2/B1 exists as "soluble amorphous aggregates" is based on SEC elution profiles, but the definition and characterization of this state are not rigorously established.
+- The claim that the C-terminal NLS and PrLD domains are key mediators of aggregation is inferred from truncation studies but not directly tested.

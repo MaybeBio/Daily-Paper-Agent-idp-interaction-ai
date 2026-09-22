@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "38892149",
+    "doi": "10.3390/ijms25115960",
+    "title": "Genome-Wide Identification and Expression Analysis of the YTH Domain-Containing RNA-Binding Protein Family in Cinnamomum camphora."
+  },
+  "content": {
+    "abstract": "N(6)-methyladenosine (m(6)A) is one of the most abundant chemical modifications on mRNA in eukaryotes. RNA-binding proteins containing the YT521-B (YTH) domain play crucial roles in post-transcriptional regulation of plant growth, development, and stress response by reading the m(6)A mark. However, the YTH domain-containing RNA-binding protein family has not been studied in a valuable and medicinal tree such as Cinnamomum camphora (C. camphora) yet. In this study, we identified 10 YTH genes in C. camphora, located on eight out of 12 chromosomes. Phylogenetic analysis revealed that these genes can be classified into two major classes, YTHDF (CcDF) and YTHDC (CcDC). Closely related CcYTHs within the same class exhibited a similar distribution of conserved motifs and domain organization, suggesting functional similarities among these closely related CcYTHs. All CcYTH proteins possessed a highly conserved YTH domain, with CcDC1A containing an additional CCCH domain. The liquid-liquid phase separation (LLPS) predictions indicate that CcDC1A, CcDF1A, CcDF1C, CcDF3C, CcDF4C, and CcDF5C may undergo phase transitions. Quantitative expression analysis revealed that tissue-specific expression was observed fo CcYTHs. Notably, there were two genes, CcDF1A and CcDF5C; both exhibited significantly higher expression levels in various tissues than other genes, indicating that the m(6)A-YTH regulatory network in C. camphora might be quite distinct from that in most plants such as Arabidopsis thaliana (A. thaliana) with only one abundant YTH protein. According to the analysis of the up-stream cis-regulatory elements of these YTH genes, these genes could be closely related to stress, hormones, and development. The following stress response experiments further verified that their expression levels indeed changed under both PEG and NaCl treatments. These findings not only provide a foundation for future functional analysis of CcYTHs in C. camphora, but also provide insights into the functions of epigenetic mark m(6)A in forest trees.",
+    "keywords": [
+      "C. camphora",
+      "CcYTHs",
+      "N6-methyladenosine (m6A)",
+      "RNA-binding protein",
+      "YTH domain"
+    ],
+    "mesh_terms": [
+      "*Cinnamomum camphora/genetics/metabolism",
+      "*RNA-Binding Proteins/genetics/metabolism",
+      "*Gene Expression Regulation, Plant",
+      "*Phylogeny",
+      "*Plant Proteins/genetics/metabolism/chemistry",
+      "Protein Domains",
+      "Genome, Plant",
+      "Gene Expression Profiling",
+      "Multigene Family"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Jingjing",
+        "Yao, Sheng",
+        "Cheng, Xiang",
+        "Zhao, Yulu",
+        "Yu, Wenya",
+        "Ren, Xingyue",
+        "Ji, Kongshu",
+        "Yu, Qiong"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Yao S",
+        "Cheng X",
+        "Zhao Y",
+        "Yu W",
+        "Ren X",
+        "Ji K",
+        "Yu Q"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-7120-1725",
+        "ORCID: 0000-0001-9250-8036"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "Beijing National Laboratory for Molecular Sciences, Beijing 100190, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Jingjing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Sheng",
+        "short_name": "Yao S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Xiang",
+        "short_name": "Cheng X",
+        "identifiers": [
+          "0009-0006-7120-1725"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yulu",
+        "short_name": "Zhao Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Wenya",
+        "short_name": "Yu W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Xingyue",
+        "short_name": "Ren X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Kongshu",
+        "short_name": "Ji K",
+        "identifiers": [
+          "0000-0001-9250-8036"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Qiong",
+        "short_name": "Yu Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+          "Beijing National Laboratory for Molecular Sciences, Beijing 100190, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 May 29",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/19 06:42",
+    "fetched_at": "2026-09-21 08:00:23"
+  },
+  "links": {
+    "cites": [
+      "42151498",
+      "41677925",
+      "40429788",
+      "39905321",
+      "39081522"
+    ],
+    "refs": [
+      "38612806",
+      "38015436",
+      "37894868",
+      "35741780",
+      "35236848",
+      "34798358",
+      "34591015",
+      "34591013",
+      "34081180",
+      "33515769",
+      "33515768",
+      "32713350",
+      "32611605",
+      "31292544",
+      "29892943",
+      "29789545",
+      "29716990",
+      "29715522",
+      "29643069",
+      "29618631",
+      "29602697",
+      "29180595",
+      "29103884",
+      "28923956",
+      "28809393",
+      "28710288",
+      "28503769",
+      "28106072",
+      "27558897",
+      "27396363",
+      "27352301",
+      "26876937",
+      "26046440",
+      "25784052",
+      "25719671",
+      "25242552",
+      "24825614",
+      "24462754",
+      "22118611",
+      "22039361",
+      "21501624",
+      "20167602",
+      "18505803",
+      "17487191",
+      "12368078",
+      "9473574"
+    ],
+    "similar": [
+      "38892149",
+      "32713350",
+      "29892943",
+      "40429788",
+      "34081180",
+      "39771287",
+      "38166738",
+      "40943131",
+      "37120099",
+      "38612806",
+      "34591015",
+      "39337570",
+      "37894868",
+      "24462754",
+      "36834907",
+      "39488190",
+      "36430756",
+      "39267376",
+      "30041601",
+      "39732975",
+      "39210263",
+      "38922445",
+      "40806399",
+      "22708723",
+      "37816028",
+      "41023632",
+      "37050075",
+      "37298300",
+      "37697363",
+      "40676507",
+      "38507444",
+      "41261436",
+      "32237414",
+      "36904058",
+      "36999016",
+      "30637606",
+      "29924561",
+      "26318451",
+      "29791134",
+      "39456766",
+      "33795663",
+      "41219833",
+      "39075346",
+      "24846919",
+      "39859232",
+      "40399794",
+      "26935448",
+      "39941137",
+      "40332128",
+      "35351856",
+      "38009565",
+      "33392793",
+      "18221561",
+      "40898064",
+      "38378886",
+      "39987708",
+      "39863853",
+      "35562913",
+      "40021992",
+      "40943349",
+      "28104805",
+      "34299014",
+      "27322342",
+      "40745283",
+      "38877405",
+      "26727885",
+      "38802777",
+      "25388988",
+      "39062907",
+      "41318406",
+      "39251952",
+      "39135292",
+      "24390243",
+      "40652200",
+      "35151253",
+      "40430070",
+      "38720462",
+      "32023817",
+      "39457112",
+      "40604419",
+      "39769225",
+      "39457435",
+      "39940846",
+      "40629278",
+      "31039176",
+      "40869167",
+      "31842737",
+      "39716096",
+      "32778975",
+      "27356975",
+      "32867812",
+      "28683139",
+      "40243796",
+      "29715522",
+      "40597573",
+      "28891602",
+      "38632529",
+      "24870401",
+      "41016480",
+      "39151674"
+    ],
+    "review": [
+      "38892149",
+      "39488190",
+      "36999016",
+      "30637606",
+      "33795663",
+      "35351856",
+      "39135292"
+    ],
+    "pmc": [
+      "11173211"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms25115960",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38892149/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38892149",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

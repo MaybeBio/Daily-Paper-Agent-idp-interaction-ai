@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusion, and data availability statement. No figures, tables, or supplementary material were provided for inspection.
+- **Assessment boundary** The review is limited to the scientific content, methodological rigor, and interpretative validity of the claims as presented in the manuscript text. The absence of figures, tables, and supplementary files limits the ability to verify quantitative results and visual data.
+- **Shared manuscript claim summary** The authors report an in silico analysis of NOTCH1 single nucleotide polymorphisms (SNPs) in the context of lung adenocarcinoma (LUAD). They identify 43 deleterious SNPs, of which 13 are predicted to be damaging, and three (S1464I, A1705V, T1602I) are predicted to be stabilizing. They further identify an intrinsically disordered region (IDR) spanning residues 1660–2555, two phosphodegrons (SCF_FBW7_1 at 2129–2136 and SCF_FBW7_2 at 2508–2515), and post-translational modifications (PTMs) including O-linked glycosylation and phosphothreonine within the PEST domain. The authors propose that these features collectively contribute to NOTCH1 dysregulation and LUAD progression through crosstalk with the epithelial–mesenchymal transition (EMT) pathway.
+- **Visible evidence base** The manuscript text includes descriptions of results from expression analysis (log2 FC = −1.71, HR = 0.8, 95% CI = 0.71–0.9, p = 2e-04), SNP prediction tools (SIFT, PolyPhen-2, PredictSNP, SNPs&GO, PANTHER), stability prediction (I-Mutant 2.0, DynaMut), IDR prediction (IUPred3, ANCHOR2), PTM prediction (MusiteDeep), protein–protein docking (HADDOCK 2.4), and molecular dynamics simulations (GROMACS 2023.1). Specific numerical values for docking scores, RMSD, RMSF, and Rg are mentioned but not fully detailed in the text.
+- **Missing materials affecting confidence** Figures 1–7, Tables 1–3, Supplementary Tables S1–S3, and Supplementary Figure S1–S2 were not provided. These are essential for verifying the quantitative claims, including SNP lists, conservation scores, docking scores, and simulation trajectories. The absence of these materials substantially limits the ability to assess the technical soundness of the results.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a purely computational analysis of NOTCH1 SNPs, IDRs, and PTMs in LUAD. The workflow is a standard in silico pipeline for SNP prioritization and structural characterization. However, the manuscript suffers from several critical weaknesses. First, the link between the identified SNPs and LUAD pathogenesis is largely speculative, with no experimental validation or functional assays. Second, the interpretation of stabilizing mutations as pro-oncogenic is not well supported by the data presented, as the authors themselves note that NOTCH1 is downregulated in LUAD. Third, the manuscript lacks a clear hypothesis-driven framework, and the discussion often overreaches the evidence. The absence of figures and tables makes it impossible to verify the accuracy of the reported results. While the topic is of potential interest, the current manuscript does not establish a robust case for the claims made.
+- **Who would be interested in the results, and why** Researchers in cancer genomics and bioinformatics may find the SNP prioritization pipeline of interest as a methodological example. Investigators studying NOTCH signaling in LUAD might also be interested in the specific SNPs and PTMs identified. However, the lack of experimental validation limits the utility of these findings for a broader audience, including clinicians or translational researchers.
+- **Major strengths** The manuscript employs a multi-tool cross-validation approach for SNP prioritization, which is a reasonable strategy to reduce tool-specific bias. The integration of IDR, PTM, and phosphodegron analysis is a relatively novel angle for studying NOTCH1. The authors also acknowledge the complexity of NOTCH1's role in LUAD, noting its downregulation despite its prognostic significance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the three stabilizing SNPs (S1464I, A1705V, T1602I) "may act cooperatively to enhance NOTCH1 signaling by decreasing receptor degradation, promoting NICD accumulation, and strengthening transcriptional activation."
+  - **Evidence pointer** Results section, "Elucidation of deleterious mutation based on the structural and sequence-based prediction"; Discussion section, paragraph 4.
+  - **Concern** This claim is a central conclusion of the manuscript, but it is not supported by any functional data. The prediction of "stabilizing" effects is based solely on ΔΔG values from I-Mutant 2.0 and DynaMut, which are computational estimates with well-known limitations. The leap from predicted stability to enhanced signaling, decreased degradation, and transcriptional activation is entirely speculative. No experimental evidence (e.g., western blot, luciferase assays, or cell-based signaling assays) is provided to support these functional assertions.
+  - **Why it matters** The manuscript's primary contribution is supposed to be the identification of functionally relevant SNPs. Without experimental validation, the claim that these SNPs drive LUAD progression is unsubstantiated. This undermines the overall significance of the study.
+  - **Resolution test** The authors must either provide experimental validation of the functional impact of these SNPs or substantially temper their conclusions to reflect the speculative nature of the predictions. At minimum, they should clearly state that these are hypotheses requiring experimental testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical consistency
+  - **Claim pointer** The authors state that NOTCH1 is downregulated in LUAD but also propose that stabilizing mutations enhance NOTCH1 signaling, leading to oncogenic outcomes.
+  - **Evidence pointer** Background section, Objective; Discussion section, paragraph 1 and 4.
+  - **Concern** There is a fundamental logical tension in the manuscript. If NOTCH1 is downregulated and acts as a tumor suppressor in LUAD, how do stabilizing mutations that enhance its signaling promote oncogenesis? The authors do not resolve this contradiction. They suggest that NOTCH1 has "complex biological roles under specific conditions," but this is not a sufficient explanation. The manuscript would benefit from a clearer model of how these mutations fit into the existing understanding of NOTCH1's dual role in cancer.
+  - **Why it matters** The interpretation of the results hinges on this point. If the authors cannot reconcile the tumor suppressor role with the proposed oncogenic effects of the mutations, the entire narrative of the manuscript collapses.
+  - **Resolution test** The authors must provide a coherent mechanistic model that explains how stabilizing mutations in a downregulated tumor suppressor contribute to LUAD. This could involve discussing context-dependent roles, isoform-specific effects, or non-canonical signaling pathways.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The manuscript reports specific numerical results, including ΔΔG values, docking scores, RMSD, RMSF, and Rg values, and refers to multiple figures and tables.
+  - **Evidence pointer** Results section, throughout; Figures 1–7; Tables 1–3; Supplementary Tables S1–S3.
+  - **Concern** The figures, tables, and supplementary materials were not provided for review. This makes it impossible to verify the accuracy of the reported results, assess the quality of the structural models, or evaluate the statistical significance of the findings. For example, the docking scores are mentioned but not presented in a way that allows assessment of binding affinity. The RMSD and RMSF values are described qualitatively but not shown.
+  - **Why it matters** Reproducibility is a cornerstone of scientific research. Without access to the data, the claims cannot be independently verified. This is a critical deficiency for a computational study where the results are entirely dependent on the input data and parameters.
+  - **Resolution test** The authors must provide all figures, tables, and supplementary materials for review. Additionally, they should consider depositing the full list of SNPs, prediction scores, and simulation parameters in a public repository to facilitate reproducibility.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that "a total of 43 deleterious mutations were found in the sequential SNP analysis with 13 SNPs resulted deleterious and damaging effects."
+  - **Evidence pointer** Results section, "Elucidation of deleterious mutation based on the structural and sequence-based prediction."
+  - **Concern** The manuscript does not clearly describe the criteria for selecting the 13 SNPs from the initial 43. The thresholds for each tool (SIFT, PolyPhen-2, PredictSNP, SNPs&GO, PANTHER) are not explicitly stated. The "sequential" nature of the analysis is also unclear. Was it a stepwise filtering process? If so, what was the order and what were the cutoffs at each step? This lack of detail hampers the reproducibility of the pipeline.
+  - **Why it matters** A clear and detailed methodology is essential for readers to understand how the results were obtained and to potentially replicate the analysis. The current description is too vague.
+  - **Resolution test** The authors should provide a detailed flowchart or step-by-step description of the filtering criteria, including specific thresholds for each tool, and clarify the order of the analysis steps.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Background section
+  - **Issue** The abstract and introduction contain several grammatical errors and awkward phrasings (e.g., "NOTCH 1 of 272.50 kDa subunits is a protein encoded by the NOTCH1 gene that comprises 2,555 amino acids"). The writing would benefit from professional editing for clarity and conciseness.
+  - **Required correction** Revise the abstract and introduction for grammatical accuracy and readability. For example, the sentence about NOTCH1's size and composition should be rephrased for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Title, Abstract, Introduction, Results
+  - **Issue** The manuscript uses "NOTCH 1" and "NOTCH1" interchangeably. The gene symbol should be standardized to "NOTCH1" throughout, following standard nomenclature guidelines.
+  - **Required correction** Standardize the gene symbol to "NOTCH1" in all instances.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Overstatement of results
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph 5
+  - **Issue** The statement "the integration of HOPE-derived biophysical insights with domain-level functional mapping suggests that these stabilizing variants may shift NOTCH1 signaling dynamics toward a constitutively active, pro-tumorigenic state" is an overstatement. The HOPE server provides basic physicochemical predictions, not "biophysical insights" in the rigorous sense. The term "constitutively active" implies a level of certainty that is not supported by the data.
+  - **Required correction** Temper the language to reflect the speculative nature of the predictions. For example, "the predictions from HOPE suggest that these variants may alter the physicochemical properties of NOTCH1, potentially affecting its signaling dynamics."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Missing statistical analysis
+  - **Affected element** Results, "Protein–protein docking measures of NOTCH1 and mutants"
+  - **Evidence pointer** Results section, paragraph 5
+  - **Issue** The docking results are presented as raw scores without any statistical analysis or error estimation. It is unclear whether the differences in HADDOCK scores between wild-type and mutants are significant.
+  - **Required correction** Provide statistical analysis of the docking scores, such as standard deviations from multiple runs or a comparison with a control set of decoys, to support the claim of differential binding affinity.
+- **Technical failings that need to be addressed before the case is established** The central claims of the manuscript, namely that the identified SNPs and PTMs contribute to LUAD progression, are not supported by experimental evidence. The computational predictions are presented as if they were established facts. The manuscript also lacks a clear mechanistic model that reconciles the tumor suppressor role of NOTCH1 with the proposed oncogenic effects of the stabilizing mutations. The absence of figures, tables, and supplementary data prevents verification of the results.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The manuscript applies a standard in silico pipeline to NOTCH1 in LUAD. While the specific combination of tools and the focus on IDRs and PTMs is somewhat novel, the overall approach is not groundbreaking. The originality is limited.
+  - **Scientific importance** The topic is of interest, as NOTCH1 is a known player in LUAD. However, the lack of experimental validation significantly reduces the importance of the findings. The manuscript does not provide new insights into the mechanism of NOTCH1 in LUAD beyond what is already known.
+  - **Interdisciplinary readership** The manuscript is likely to appeal primarily to bioinformaticians and computational biologists. The lack of experimental validation and the speculative nature of the conclusions limit its appeal to a broader audience, including clinicians and cancer biologists.
+  - **Technical soundness** The technical soundness is questionable due to the lack of detail in the methodology and the absence of the data needed to verify the results. The use of multiple prediction tools is a strength, but the lack of clear thresholds and filtering criteria is a weakness.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that may be challenging for nonspecialists. The abstract and introduction are dense and contain jargon. The writing would benefit from clearer explanations of the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a computational analysis with speculative conclusions that are not supported by experimental data. The logical inconsistency regarding NOTCH1's role as a tumor suppressor versus the proposed oncogenic effects of the mutations is a major concern. The absence of figures, tables, and supplementary data prevents a full assessment of the technical soundness. The manuscript would require substantial revision, including experimental validation or a significant tempering of claims, before it could be considered for publication.
+
+## Risk / unsupported claims
+- The claim that the three stabilizing SNPs (S1464I, A1705V, T1602I) "may act cooperatively to enhance NOTCH1 signaling" is unsupported by any functional data.
+- The claim that these mutations "promote oncogenic traits in LUAD, such as stemness, survival under stress, and resistance to targeted therapies" is speculative and not directly tested.
+- The claim that the identified PTMs (O-linked glycosylation and phosphothreonine) "permit crosstalk signaling between NOTCH1 and EMT" is not supported by any experimental evidence.
+- The statement that "the integration of HOPE-derived biophysical insights with domain-level functional mapping suggests that these stabilizing variants may shift NOTCH1 signaling dynamics toward a constitutively active, pro-tumorigenic state" is an overinterpretation of computational predictions.
+- The manuscript's conclusion that NOTCH1 can serve as a prognostic marker and therapeutic target based on the presented in silico data is not justified without experimental validation.

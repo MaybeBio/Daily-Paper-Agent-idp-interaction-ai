@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.10.14.464472",
+  "title": "Evaluation of Deep Neural Network ProSPr for Accurate Protein Distance Predictions on CASP14 Targets",
+  "authors": "Jacob Stern; Bryce Hedelius; Olivia Fisher; Wendy M. Billings; Dennis Della Corte",
+  "journal": "bioRxiv",
+  "published_date": "2021-10-15",
+  "window": {
+    "start": "2021-10-11",
+    "end": "2021-10-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文评估深度学习网络ProSPr在CASP14靶标上的蛋白质距离预测性能，虽涉及AI方法，但对象为折叠蛋白且未聚焦无序蛋白或PPI互作机制，与本课题关联较弱。",
+  "abstract": "The field of protein structure prediction has recently been revolutionized through the introduction of deep learning. The current state-of-the-art tool AlphaFold2 can predict highly accurate structures, however, it has a prohibitively long inference time for applications that require the folding of hundreds of sequences. The prediction of protein structure annotations, such as amino acid distances, can be achieved at a higher speed with existing tools, such as the ProSPr network. Here, we report on important updates to the ProSPr network, its performance on the recent Critical Assessment of Structure Prediction (CASP14) competition, and an evaluation of its accuracy dependency on multiple sequence alignment depth. We also provide a detailed description of the architecture and the training process, accompanied by reusable code. This work is anticipated to provide a solid foundation for the further development of protein distance prediction tools.",
+  "abstract_zh": "蛋白质结构预测领域近期因深度学习的引入而发生了革命性变化。当前最先进的工具AlphaFold2能够预测高度准确的结构，然而，对于需要折叠数百个序列的应用而言，其推理时间过长，成为瓶颈。蛋白质结构注释（如氨基酸距离）的预测可通过现有工具（如ProSPr网络）以更高速度实现。在此，我们报告了ProSPr网络的重要更新、其在近期结构预测关键评估（CASP14）竞赛中的表现，以及对其准确性依赖多重序列比对深度的评估。我们还提供了架构和训练过程的详细描述，并附有可复用代码。预期这项工作将为蛋白质距离预测工具的进一步发展奠定坚实基础。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.10.14.464472",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.10.14.464472",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.10.14.464472/index.html"
+}

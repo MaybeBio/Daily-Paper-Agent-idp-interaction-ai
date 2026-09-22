@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "38463037",
+    "doi": "10.1093/pnasnexus/pgae079",
+    "title": "Quantitative description of the phase-separation behavior of the multivalent SLP65-CIN85 complex."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates play a major role in cell compartmentalization, besides membrane-enclosed organelles. The multivalent SLP65 and CIN85 proteins are proximal B-cell antigen receptor (BCR) signal effectors and critical for proper immune responses. In association with intracellular vesicles, the two effector proteins form phase separated condensates prior to antigen stimulation, thereby preparing B lymphocytes for rapid and effective activation upon BCR ligation. Within this tripartite system, 6 proline-rich motifs (PRMs) of SLP65 interact promiscuously with 3 SH3 domains of the CIN85 monomer, establishing 18 individual SH3-PRM interactions whose individual dissociation constants we determined. Based on these 18 dissociation constants, we measured the phase-separation properties of the natural SLP65/CIN85 system as well as designer constructs that emphasize the strongest SH3/PRM interactions. By modeling these various SLP65/CIN85 constructs with the program LASSI (LAttice simulation engine for Sticker and Spacer Interactions), we reproduced the observed phase-separation properties. In addition, LASSI revealed a deviation in the experimental measurement, which was independently identified as a previously unknown intramolecular interaction. Thus, thermodynamic properties of the individual PRM/SH3 interactions allow us to model the phase-separation behavior of the SLP65/CIN85 system faithfully.",
+    "keywords": [
+      "BLNK",
+      "CIN85",
+      "SLP65",
+      "biomolecular condensates",
+      "phase separation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maier, Joachim",
+        "Sieme, Daniel",
+        "Wong, Leo E",
+        "Dar, Furqan",
+        "Wienands, Jurgen",
+        "Becker, Stefan",
+        "Griesinger, Christian"
+      ],
+      "short_names": [
+        "Maier J",
+        "Sieme D",
+        "Wong LE",
+        "Dar F",
+        "Wienands J",
+        "Becker S",
+        "Griesinger C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7101-7334",
+        "ORCID: 0000-0001-9000-9938",
+        "ORCID: 0000-0002-3765-8506",
+        "ORCID: 0000-0003-2041-5740",
+        "ORCID: 0000-0002-1266-4344"
+      ],
+      "affiliations": [
+        "Department of NMR Based Structural Biology, Max Planck Institute (MPI) for Multidisciplinary Sciences, 37077 Gottingen, Germany.",
+        "Department of NMR Based Structural Biology, Max Planck Institute (MPI) for Multidisciplinary Sciences, 37077 Gottingen, Germany.",
+        "Department of NMR Based Structural Biology, Max Planck Institute (MPI) for Multidisciplinary Sciences, 37077 Gottingen, Germany.",
+        "Department of Biomedical Engineering, Washington University in St Louis, St Louis, MO 63130, USA.",
+        "Institute of Cellular and Molecular Immunology, University Medical Center Gottingen, 37073 Gottingen, Germany.",
+        "Department of NMR Based Structural Biology, Max Planck Institute (MPI) for Multidisciplinary Sciences, 37077 Gottingen, Germany.",
+        "Department of NMR Based Structural Biology, Max Planck Institute (MPI) for Multidisciplinary Sciences, 37077 Gottingen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maier, Joachim",
+        "short_name": "Maier J",
+        "identifiers": [
+          "0000-0001-7101-7334"
+        ],
+        "affiliations": [
+          "Department of NMR Based Structural Biology, Max Planck Institute (MPI) for Multidisciplinary Sciences, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Sieme, Daniel",
+        "short_name": "Sieme D",
+        "identifiers": [
+          "0000-0001-9000-9938"
+        ],
+        "affiliations": [
+          "Department of NMR Based Structural Biology, Max Planck Institute (MPI) for Multidisciplinary Sciences, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Wong, Leo E",
+        "short_name": "Wong LE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of NMR Based Structural Biology, Max Planck Institute (MPI) for Multidisciplinary Sciences, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Dar, Furqan",
+        "short_name": "Dar F",
+        "identifiers": [
+          "0000-0002-3765-8506"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Washington University in St Louis, St Louis, MO 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Wienands, Jürgen",
+        "short_name": "Wienands J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cellular and Molecular Immunology, University Medical Center Göttingen, 37073 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Becker, Stefan",
+        "short_name": "Becker S",
+        "identifiers": [
+          "0000-0003-2041-5740"
+        ],
+        "affiliations": [
+          "Department of NMR Based Structural Biology, Max Planck Institute (MPI) for Multidisciplinary Sciences, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Griesinger, Christian",
+        "short_name": "Griesinger C",
+        "identifiers": [
+          "0000-0002-1266-4344"
+        ],
+        "affiliations": [
+          "Department of NMR Based Structural Biology, Max Planck Institute (MPI) for Multidisciplinary Sciences, 37077 Göttingen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PNAS nexus"
+    ],
+    "journal_abbrev": [
+      "PNAS Nexus"
+    ],
+    "pub_date": "2024 Mar",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/11 06:42",
+    "fetched_at": "2026-09-21 05:49:38"
+  },
+  "links": {
+    "cites": [
+      "40992657",
+      "40040472",
+      "38111344"
+    ],
+    "refs": [
+      "38111344",
+      "34931046",
+      "34230650",
+      "34099940",
+      "33503380",
+      "33087563",
+      "32051419",
+      "32029630",
+      "31790873",
+      "31776263",
+      "31659043",
+      "31634364",
+      "30099026",
+      "30096311",
+      "29976799",
+      "29636373",
+      "29439243",
+      "29091028",
+      "28924037",
+      "28472520",
+      "28225081",
+      "27552079",
+      "27353366",
+      "27212236",
+      "27109776",
+      "27056844",
+      "25747659",
+      "25321392",
+      "25140054",
+      "22579282",
+      "22579281",
+      "22398450",
+      "21822214",
+      "21763600",
+      "11449366",
+      "10583958",
+      "10583957",
+      "9705962",
+      "9697839"
+    ],
+    "similar": [
+      "38463037",
+      "38111344",
+      "32051419",
+      "21822214",
+      "12874286",
+      "14635051",
+      "31634364",
+      "27353366",
+      "18680311",
+      "24167568",
+      "20221403",
+      "12829691",
+      "19531213",
+      "11071869",
+      "21725061",
+      "25816594",
+      "23663663",
+      "16256071",
+      "12618476",
+      "20194721",
+      "22262777",
+      "35371049",
+      "21030983",
+      "17306257",
+      "12690097",
+      "14596919",
+      "21830225",
+      "16223483",
+      "18076569",
+      "18266907",
+      "21446695",
+      "16751601",
+      "30723173",
+      "15090612",
+      "15962011",
+      "29589748",
+      "27334924",
+      "26169354",
+      "16568084",
+      "15476827",
+      "38275820",
+      "22022247",
+      "23178720",
+      "17285110",
+      "21635887",
+      "24166973",
+      "11449370",
+      "24039852",
+      "23506116",
+      "15707590",
+      "32780150",
+      "25005938",
+      "36199253",
+      "36674928",
+      "10679202",
+      "29636373",
+      "32004090",
+      "20008789",
+      "12354621",
+      "32487073",
+      "17606992",
+      "21275903",
+      "23066158",
+      "31199001",
+      "33087563",
+      "22745667",
+      "19166927",
+      "33179079",
+      "11913944",
+      "35325654",
+      "37464880",
+      "12218189",
+      "19268472",
+      "21519904",
+      "34759902",
+      "27332121",
+      "28924037",
+      "36657879",
+      "20216986",
+      "33539874",
+      "21708930",
+      "31606941",
+      "16177060",
+      "32482873",
+      "33430321",
+      "33409284",
+      "35802394",
+      "31142511",
+      "26553976",
+      "29632271",
+      "31604601",
+      "14761940"
+    ],
+    "review": [
+      "38463037",
+      "32004090",
+      "12354621",
+      "11913944",
+      "37464880",
+      "34759902",
+      "33539874",
+      "31606941",
+      "33409284",
+      "35802394",
+      "29632271"
+    ],
+    "pmc": [
+      "10923291"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38463037/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38463037",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/pnasnexus/article-lookup/doi/10.1093/pnasnexus/pgae079",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

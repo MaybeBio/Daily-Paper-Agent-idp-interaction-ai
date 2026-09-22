@@ -1,0 +1,232 @@
+{
+  "identity": {
+    "pmid": "33550666",
+    "doi": "10.1002/prot.26059",
+    "title": "A survey of human histone H1 subtypes interaction networks: Implications for histones H1 functioning."
+  },
+  "content": {
+    "abstract": "To show a spectrum of histone H1 subtypes (H1.1-H1.5) activity realized through the protein-protein interactions, data selected from APID resources were processed with sequence-based bioinformatics approaches. Histone H1 subtypes participate in over half a thousand interactions with nuclear and cytosolic proteins (ComPPI database) engaged in the enzymatic activity and binding of nucleic acids and proteins (SIFTER tool). Small-scale networks of H1 subtypes (STRING network) have similar topological parameters (P > .05) which are, however, different for networks hubs between subtype H1.1 and H1.4 and subtype H1.3 and H1.5 (P < .05) (Cytoscape software). Based on enriched GO terms (g:Profiler toolset) of interacting proteins, molecular function and biological process of networks hubs is related to RNA binding and ribosome biogenesis (subtype H1.1 and H1.4), cell cycle and cell division (subtype H1.3 and H1.5) and protein ubiquitination and degradation (subtype H1.2). The residue propensity (BIPSPI predictor) and secondary structures of interacting surfaces (GOR algorithm) as well as a value of equilibrium dissociation constant (ISLAND predictor) indicate that a type of H1 subtypes interactions is transient in term of the stability and medium-strong in relation to the strength of binding. Histone H1 subtypes bind interacting partners in the intrinsic disorder-dependent mode (FoldIndex, PrDOS predictor), according to the coupled folding and binding and mutual synergistic folding mechanism. These results evidence that multifunctional H1 subtypes operate via protein interactions in the networks of crucial cellular processes and, therefore, confirm a new histone H1 paradigm relating to its functioning in the protein-protein interaction networks.",
+    "keywords": [
+      "biological process",
+      "histone H1 subtypes",
+      "intrinsic structural disorder",
+      "molecular function",
+      "protein-protein interaction networks",
+      "transient interactions"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Binding Sites",
+      "Cell Cycle/genetics",
+      "Cell Nucleus/genetics/metabolism",
+      "Cytosol/metabolism",
+      "Databases, Protein",
+      "Eukaryotic Cells/cytology/metabolism",
+      "Gene Ontology",
+      "Histones/*chemistry/*classification/genetics/metabolism",
+      "Humans",
+      "Intrinsically Disordered Proteins/*chemistry/*classification/genetics/metabolism",
+      "Kinetics",
+      "Mitochondria/genetics/metabolism",
+      "Molecular Sequence Annotation",
+      "*Multigene Family",
+      "Protein Binding",
+      "Protein Folding",
+      "Protein Interaction Mapping",
+      "Protein Isoforms/chemistry/classification/genetics/metabolism",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kowalski, Andrzej"
+      ],
+      "short_names": [
+        "Kowalski A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8856-5863"
+      ],
+      "affiliations": [
+        "Division of Medical Biology, Institute of Biology, Jan Kochanowski University in Kielce, Kielce, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kowalski, Andrzej",
+        "short_name": "Kowalski A",
+        "identifiers": [
+          "0000-0001-8856-5863"
+        ],
+        "affiliations": [
+          "Division of Medical Biology, Institute of Biology, Jan Kochanowski University in Kielce, Kielce, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2021 Jul",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/02/08 06:00",
+    "fetched_at": "2026-09-20 01:21:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "33550666",
+      "26366527",
+      "23075301",
+      "33617899",
+      "19059319",
+      "31683980",
+      "30430826",
+      "27098855",
+      "17868027",
+      "29466338",
+      "28536618",
+      "33454008",
+      "14505568",
+      "10643965",
+      "23746450",
+      "9822702",
+      "29136219",
+      "3250226",
+      "29717210",
+      "24622397",
+      "30165676",
+      "33125082",
+      "20471264",
+      "33279581",
+      "9396815",
+      "28934129",
+      "15911621",
+      "22453355",
+      "38353488",
+      "22334665",
+      "16345076",
+      "10591994",
+      "29716994",
+      "26474902",
+      "15254261",
+      "24727949",
+      "30414042",
+      "20194426",
+      "31415767",
+      "23302691",
+      "17498293",
+      "15042333",
+      "12223471",
+      "27377881",
+      "26851284",
+      "24013129",
+      "23435226",
+      "26023729",
+      "26720267",
+      "34992286",
+      "8014191",
+      "34850135",
+      "29990433",
+      "26851279",
+      "30507159",
+      "11029073",
+      "15057966",
+      "19882353",
+      "15910001",
+      "32073728",
+      "26712748",
+      "26415976",
+      "26195786",
+      "1643090",
+      "16006555",
+      "25307499",
+      "32997198",
+      "26477490",
+      "11467742",
+      "19587527",
+      "8179311",
+      "12080050",
+      "16082565",
+      "10219086",
+      "16008566",
+      "26663086",
+      "15562002",
+      "23706950",
+      "14985337",
+      "15595731",
+      "15840569",
+      "30520528",
+      "17632103",
+      "3654602",
+      "20800709",
+      "25533957",
+      "9049636",
+      "11683319",
+      "19794910",
+      "22543956",
+      "34439806",
+      "38591484",
+      "34791357",
+      "35163458",
+      "34339540",
+      "33184256",
+      "31289748",
+      "12719531",
+      "37904585",
+      "24039558"
+    ],
+    "review": [
+      "33550666",
+      "23075301",
+      "19059319",
+      "27098855",
+      "28536618",
+      "24622397",
+      "30165676",
+      "26474902",
+      "26720267",
+      "8014191",
+      "26851279",
+      "26415976",
+      "25307499",
+      "26477490",
+      "11467742",
+      "23706950",
+      "9049636"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/prot.26059",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33550666",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

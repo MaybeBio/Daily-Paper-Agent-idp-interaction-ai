@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41289380",
+  "title": "A machine learning protocol for predicting structural distributions of amyloid-forming proteins from 2D IR spectra.",
+  "authors": "Ye, Sheng; Wang, BinBin; Li, Zhipeng; Zhu, Lvshuai; Yin Sun, Chang; Mukamel, Shaul; Jiang, Jun",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2025-11-25",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用机器学习从2D IR光谱预测淀粉样蛋白无序聚集段的结构系综，对象为IDP且用AI方法，但聚焦单体构象而非PPI互作机制，故给7分。",
+  "abstract": "Protein misfolding plays a central role in diseases such as Alzheimer's disease, Parkinson's disease, type 2 diabetes, and transthyretin amyloidosis (ATTR), often driven by specific aggregation-prone segments such as Abeta(17-23) and Abeta(37-42) of amyloid-beta42 (Abeta42), alpha-Syn(66-74) and alpha-Syn(71-82) of alpha-synuclein (alpha-syn), hIAPP(22-27) of human islet amyloid polypeptide (hIAPP), and TTR(105-115) of transthyretin (TTR). Capturing the atomic-level structural features of these transient and dynamically fluctuating regions remains challenging. Two-dimensional infrared (2DIR) spectroscopy provides rich vibrational fingerprints that are highly sensitive to protein conformational dynamics, but extracting atomic-resolution structural information from these complex signals is nontrivial. In this study, we present a machine learning framework that integrates 2DIR spectra with deep structural modeling to reconstruct the three-dimensional atomic structures of monomeric intrinsically disordered aggregation-prone segments of amyloidogenic proteins. Using this model, we were able to predict the conformational ensembles of aggregation-prone segments from amyloid-beta42, alpha-synuclein, human islet amyloid polypeptide, and transthyretin, as well as the structural evolution of Abeta42 bound to a small-molecule inhibitor, directly from computationally derived 2DIR spectra. An attention module highlights the most informative spectral features associated with local structural variations, providing interpretable links between spectra and structure. This generalizable strategy paves the way for interpreting time-resolved spectroscopic studies and offers a promising computational framework for probing misfolding-related structural dynamics and therapeutic mechanisms.",
+  "abstract_zh": "蛋白质错误折叠在阿尔茨海默病、帕金森病、2型糖尿病和转甲状腺素蛋白淀粉样变性（ATTR）等疾病中发挥核心作用，通常由特定的聚集倾向片段驱动，如淀粉样蛋白-β42（Abeta42）的Abeta(17-23)和Abeta(37-42)、α-突触核蛋白（alpha-syn）的alpha-Syn(66-74)和alpha-Syn(71-82)、人胰岛淀粉样多肽（hIAPP）的hIAPP(22-27)，以及转甲状腺素蛋白（TTR）的TTR(105-115)。捕捉这些瞬态且动态波动区域的原子级结构特征仍具挑战性。二维红外（2DIR）光谱提供了丰富的振动指纹，对蛋白质构象动态高度敏感，但从这些复杂信号中提取原子分辨率的结构信息并非易事。在本研究中，我们提出了一种机器学习框架，将2DIR光谱与深度结构建模相结合，以重建淀粉样蛋白单体内在无序聚集倾向片段的三维原子结构。利用该模型，我们能够直接从计算衍生的2DIR光谱预测淀粉样蛋白-β42、α-突触核蛋白、人胰岛淀粉样多肽和转甲状腺素蛋白中聚集倾向片段的构象系综，以及Abeta42与小分子抑制剂结合时的结构演化。注意力模块突出与局部结构变异相关的最具信息量的光谱特征，提供光谱与结构之间的可解释联系。这一通用策略为解读时间分辨光谱研究铺平了道路，并为探测错误折叠相关结构动力学和治疗机制提供了有前景的计算框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41289380/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41289380/",
+  "paper_page_path": "papers/pubmed/41289380/index.html"
+}

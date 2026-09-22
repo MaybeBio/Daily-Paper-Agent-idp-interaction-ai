@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38294935",
+  "title": "Folding-upon-binding pathways of an intrinsically disordered protein from a deep Markov state model.",
+  "authors": "Sisk, Thomas R; Robustelli, Paul",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2024-01-31",
+  "window": {
+    "start": "2024-01-29",
+    "end": "2024-02-04"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用深度学习马尔可夫状态模型分析无序蛋白N(TAIL)与X结构域结合-折叠路径，揭示多步诱导契合机制和模糊复合物中间态，完美契合无序蛋白PPI机制建模主题。",
+  "abstract": "A central challenge in the study of intrinsically disordered proteins is the characterization of the mechanisms by which they bind their physiological interaction partners. Here, we utilize a deep learning-based Markov state modeling approach to characterize the folding-upon-binding pathways observed in a long timescale molecular dynamics simulation of a disordered region of the measles virus nucleoprotein N(TAIL) reversibly binding the X domain of the measles virus phosphoprotein complex. We find that folding-upon-binding predominantly occurs via two distinct encounter complexes that are differentiated by the binding orientation, helical content, and conformational heterogeneity of N(TAIL). We observe that folding-upon-binding predominantly proceeds through a multi-step induced fit mechanism with several intermediates and do not find evidence for the existence of canonical conformational selection pathways. We observe four kinetically separated native-like bound states that interconvert on timescales of eighty to five hundred nanoseconds. These bound states share a core set of native intermolecular contacts and stable N(TAIL) helices and are differentiated by a sequential formation of native and non-native contacts and additional helical turns. Our analyses provide an atomic resolution structural description of intermediate states in a folding-upon-binding pathway and elucidate the nature of the kinetic barriers between metastable states in a dynamic and heterogenous, or \"fuzzy\", protein complex.",
+  "abstract_zh": "内在无序蛋白质研究中的一个核心挑战是表征它们与其生理相互作用伙伴结合的机制。在此，我们利用基于深度学习的马尔可夫状态建模方法，来表征在麻疹病毒核蛋白N(TAIL)的无序区域与麻疹病毒磷蛋白复合物的X结构域可逆结合的长时间尺度分子动力学模拟中观察到的折叠-结合途径。我们发现，折叠-结合主要通过两种不同的遭遇复合物发生，这些复合物通过N(TAIL)的结合方向、螺旋含量和构象异质性来区分。我们观察到，折叠-结合主要通过多步骤的诱导契合机制进行，涉及多个中间态，并且未发现典型构象选择途径存在的证据。我们观察到四个动力学分离的类天然结合态，它们在八十到五百纳秒的时间尺度上相互转换。这些结合态共享一组核心的天然分子间接触和稳定的N(TAIL)螺旋，并通过天然和非天然接触的逐步形成以及额外的螺旋圈数来区分。我们的分析提供了折叠-结合途径中中间态的原子分辨率结构描述，并阐明了动态且异质性，或“模糊”蛋白质复合物中亚稳态之间动力学能垒的本质。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38294935/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38294935/",
+  "paper_page_path": "papers/pubmed/38294935/index.html"
+}

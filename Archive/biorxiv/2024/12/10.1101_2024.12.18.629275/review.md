@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The manuscript introduces a platform called IPA (IDR Probabilistic Annotation) for predicting Linker regions and IDR binding sites (nucleic, protein, and all) in protein sequences. The authors claim competitive performance against leading tools for protein and all binding sites, and superior performance for Linker regions and nucleic binding sites. A key methodological contribution is a proposed reverse Bayes Rule applied to logistic regression outputs to produce scores interpretable as true probabilities under a 50% prior assumption.
+- **Visible evidence base** Abstract text only; no performance data, benchmark details, datasets, or code outputs are visible
+- **Missing materials affecting confidence** Full manuscript, benchmark methodology, datasets, evaluation metrics, comparison tool versions, statistical significance tests, code implementation details, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful platform and an interesting methodological idea regarding probabilistic calibration of prediction scores. However, the evidence provided is insufficient to evaluate the validity of the performance claims or the correctness of the proposed reverse Bayes approach. The core novelty appears to reside in the calibration method, but its mathematical derivation and practical implications are not described in sufficient detail to assess soundness. The performance claims are stated without quantitative support, making them unverifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics working on intrinsically disordered proteins, particularly those developing or using predictors for disorder-related functional annotations. The proposed calibration approach may also interest methodologists in machine learning applied to biological sequence analysis, as it addresses interpretability and cross-tool comparability of prediction scores.
+- **Major strengths** The platform addresses a practical need by integrating multiple prediction tasks (Linker regions and various IDR binding sites) into a single tool. The emphasis on probabilistic interpretability of outputs is a meaningful step toward standardization, which is a recognized limitation in the field. The claim of computational efficiency is attractive for large-scale applications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that applying a reverse Bayes Rule to logistic regression outputs normalizes for training data priors and produces scores representing actual probabilities assuming 50% priors in the general population.
+  - **Evidence pointer** Abstract, paragraph 3; location not provided
+  - **Concern** The mathematical basis for the reverse Bayes Rule is not described. It is unclear how the transformation is derived, what assumptions are required, and whether it is statistically valid for logistic regression outputs. The claim that scores become "actual probabilities" under a 50% prior assumption needs formal justification, including how the training prior is estimated and how the transformation handles cases where the model is miscalibrated beyond prior shift.
+  - **Why it matters** The proposed calibration method is presented as a key contribution. If the derivation is flawed or the assumptions are unrealistic, the central novelty of the work collapses, and the interpretability claim becomes misleading.
+  - **Resolution test** Provide a formal derivation of the reverse Bayes transformation, state all assumptions, and demonstrate on simulated or real data that the transformed scores are well-calibrated (e.g., using reliability diagrams or expected calibration error) across multiple datasets with varying priors.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The abstract claims that IPA performs competitively with leading tools for protein and all IDR binding sites and considerably outperforms all tools for Linker regions and nucleic binding sites.
+  - **Evidence pointer** Abstract, paragraph 2; location not provided
+  - **Concern** No quantitative results are provided. There are no performance metrics, benchmark datasets, comparison baselines, or statistical significance assessments. The claims are unverifiable and cannot be assessed for validity or generalizability.
+  - **Why it matters** Performance claims are central to the paper's contribution. Without evidence, the claims are unsupported, and the reader cannot judge whether the platform is genuinely useful or whether the comparisons were fair and comprehensive.
+  - **Resolution test** Provide benchmark results with clear metrics (e.g., AUC, precision-recall), list of compared tools with versions, dataset descriptions, and statistical tests for significance of performance differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that the IPA platform is available at a URL.
+  - **Evidence pointer** Abstract, last sentence; location not provided
+  - **Concern** The availability statement is minimal. It is unclear whether the code is open-source, what dependencies are required, whether documentation is provided, and whether the platform is maintained. No usage examples or installation instructions are mentioned.
+  - **Why it matters** Reproducibility is a core expectation for computational tools. Lack of clear availability details hinders adoption and verification of the claims.
+  - **Resolution test** Provide a detailed availability statement including license, dependencies, documentation, and a minimal working example.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, paragraph 1; location not provided
+  - **Issue** The term "IDR Probabilistic Annotation" is introduced without defining IDR in the abstract. While specialists may infer it means intrinsically disordered regions, the abbreviation is not expanded.
+  - **Required correction** Define IDR at first use, e.g., "intrinsically disordered regions (IDR)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract, paragraph 3; location not provided
+  - **Issue** The abstract mentions "reverse Bayes Rule" but does not explain why this is distinct from standard Bayesian calibration or Platt scaling. The novelty claim would benefit from a brief contrast with existing calibration methods.
+  - **Required correction** Add one or two sentences clarifying how the proposed approach differs from existing calibration techniques.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Benchmarking
+  - **Evidence pointer** Abstract, paragraph 2; location not provided
+  - **Issue** The abstract does not specify which "leading tools" were used for comparison. This makes it difficult to contextualize the performance claims.
+  - **Required correction** Name the comparison tools in the abstract or indicate that details are provided in the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The calibration method must be formally derived and validated, and the performance claims must be supported with quantitative evidence. Without these, the core contributions of the paper are not established.
+- **Assessment against Nature-style criteria** Originality: The reverse Bayes calibration idea has potential novelty, but its distinctiveness from existing methods is unclear from the abstract. Scientific importance: The platform addresses a real need in the IDP field, and probabilistic calibration is a relevant methodological issue. Interdisciplinary readership: The work is primarily of interest to computational biologists and method developers; broader appeal is limited. Technical soundness: Cannot be assessed from the abstract alone; the calibration derivation and benchmark methodology are not described. Readability for nonspecialists: The abstract is reasonably clear but assumes familiarity with IDR prediction and logistic regression.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting ideas, but the lack of quantitative results and the incomplete description of the core methodological contribution prevent a supportive assessment. A revised version with full evidence and formal derivations could change this posture.
+
+## Risk / unsupported claims
+- The claim that IPA "considerably outperforms all tools" for Linker regions and nucleic binding sites is unsupported without benchmark data.
+- The claim that the reverse Bayes Rule produces "actual probabilities" is unsupported without a formal derivation and empirical validation.
+- The claim that the proposed scores enable "comparability and integration across different tools" is plausible but not demonstrated.
+- The overall performance competitiveness claim is unverifiable from the abstract alone.

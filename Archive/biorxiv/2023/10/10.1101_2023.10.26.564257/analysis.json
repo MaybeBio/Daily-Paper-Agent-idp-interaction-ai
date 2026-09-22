@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.26.564257",
+  "title": "MechPPI: Binding Mechanism-based Machine-Learning tool for Predicting Protein-Protein Binding Affinity Changes Upon Mutations",
+  "authors": "Yangying Liu; Grant Armstrong; Justin Tam; Brian Y. Chen",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-31",
+  "window": {
+    "start": "2023-10-30",
+    "end": "2023-11-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了基于突变机制特征的机器学习工具MechPPI，预测蛋白-蛋白结合亲和力变化，虽非无序蛋白对象，但PPI结合机制建模思路可迁移启发。",
+  "abstract": "Protein-protein interactions are essential for various biological processes, including signal transduction, metabolism, vesicle transport, and mitogenic processes. It’s crucial to consider them within the context of their interactions with other proteins to understand protein function. Mutations in proteins can affect their binding affinity to partner proteins by introducing various effects, such as changes in hydrophobic regions, electrostatic interactions, or hydrogen bonds. Assessing the impact of mutations on protein interactions can have implications for disease susceptibility and drug efficacy. Understanding the impact of mutations on protein-protein interactions and predicting binding affinity changes computationally can benefit both basic biology and drug development. Different computational methods offer varying levels of accuracy and efficiency, and the choice of method depends on the specific research goals and available resources. We developed MechPPI, a tool that can use potential mechanism features underlying mutation to predict the binding affinity change upon mutation. We showed MechPPI can accurately predict binding affinity change upon a single mutation, and results demonstrate the potential of MechPPI as a powerful and useful computational tool in protein design and engineering.",
+  "abstract_zh": "蛋白质-蛋白质相互作用对于多种生物过程至关重要，包括信号转导、代谢、囊泡运输及促有丝分裂过程。在理解蛋白质功能时，必须在其与其他蛋白质相互作用的背景下考虑这些作用。蛋白质中的突变可通过引入各种效应（如疏水区域变化、静电相互作用或氢键改变）影响其与伴侣蛋白的结合亲和力。评估突变对蛋白质相互作用的影响可能对疾病易感性和药物疗效具有重要意义。理解突变对蛋白质-蛋白质相互作用的影响，并通过计算方法预测结合亲和力变化，既有利于基础生物学研究，也有助于药物开发。不同的计算方法提供不同水平的准确性和效率，方法的选择取决于具体研究目标和可用资源。我们开发了MechPPI，一种能够利用突变背后的潜在机制特征来预测突变后结合亲和力变化的工具。我们展示了MechPPI能够准确预测单点突变引起的结合亲和力变化，结果表明MechPPI在蛋白质设计与工程领域具有作为强大且实用计算工具的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.26.564257",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.26.564257",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.26.564257/index.html"
+}

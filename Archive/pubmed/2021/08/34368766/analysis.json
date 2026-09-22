@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34368766",
+  "title": "Highly Dynamic Polynuclear Metal Cluster Revealed in a Single Metallothionein Molecule.",
+  "authors": "Yuan, Guodong; Curtolo, Felipe; Deng, Yibing; Wu, Tao; Tian, Fang; Ma, Qun; Liu, Yutong; Zuo, Jinglin; Arantes, Guilherme Menegon; Zheng, Peng",
+  "journal": "Research (Washington, D.C.)",
+  "published_date": "2021-08-10",
+  "window": {
+    "start": "2021-08-09",
+    "end": "2021-08-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文结合单分子实验与多尺度模拟，揭示金属硫蛋白中多核金属簇的动态构象与解折叠机制，虽对象为金属簇而非典型IDR介导的PPI，但其对无序蛋白动态构象与结合位点机制的建模思路对本课题有可迁移启发。",
+  "abstract": "Human metallothionein (MT) is a small-size yet efficient metal-binding protein, playing an essential role in metal homeostasis and heavy metal detoxification. MT contains two domains, each forming a polynuclear metal cluster with an exquisite hexatomic ring structure. The apoprotein is intrinsically disordered, which may strongly influence the clusters and the metal-thiolate (M-S) bonds, leading to a highly dynamic structure. However, these features are challenging to identify due to the transient nature of these species. The individual signal from dynamic conformations with different states of the cluster and M-S bond will be averaged and blurred in classic ensemble measurement. To circumvent these problems, we combined a single-molecule approach and multiscale molecular simulations to investigate the rupture mechanism and chemical stability of the metal cluster by a single MT molecule, focusing on the Zn(4)S(11) cluster in the alpha domain upon unfolding. Unusual multiple unfolding pathways and intermediates are observed for both domains, corresponding to different combinations of M-S bond rupture. None of the pathways is clearly preferred suggesting that unfolding proceeds from the distribution of protein conformational substates with similar M-S bond strengths. Simulations indicate that the metal cluster may rearrange, forming and breaking metal-thiolate bonds even when MT is folded independently of large protein backbone reconfiguration. Thus, a highly dynamic polynuclear metal cluster with multiple conformational states is revealed in MT, responsible for the binding promiscuity and diverse cellular functions of this metal-carrier protein.",
+  "abstract_zh": "人金属硫蛋白（MT）是一种小尺寸但高效的金属结合蛋白，在金属稳态和重金属解毒中发挥重要作用。MT包含两个结构域，每个结构域形成一个具有精致六元环结构的多核金属簇。脱辅基蛋白本质上是无序的，这可能强烈影响金属簇和金属-硫醇盐（M-S）键，导致高度动态的结构。然而，由于这些物种的瞬时性质，这些特征难以识别。在经典系综测量中，来自不同簇状态和M-S键的动态构象的个体信号将被平均并模糊化。为规避这些问题，我们结合单分子方法和多尺度分子模拟，研究单个MT分子中金属簇的断裂机制和化学稳定性，重点关注α结构域在去折叠过程中的Zn(4)S(11)簇。两个结构域均观察到异常的多重去折叠途径和中间态，对应于M-S键断裂的不同组合。没有一条途径明显占优，表明去折叠过程从具有相似M-S键强度的蛋白质构象亚态分布中发生。模拟表明，金属簇可能重排，即使MT在折叠状态下独立于大的蛋白质骨架重构，也能形成和断裂金属-硫醇盐键。因此，MT中揭示了一个具有多种构象状态的高度动态多核金属簇，这决定了该金属载体蛋白的结合混杂性和多样化的细胞功能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34368766/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34368766/",
+  "paper_page_path": "papers/pubmed/34368766/index.html"
+}

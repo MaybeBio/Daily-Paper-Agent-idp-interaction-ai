@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39434494",
+  "title": "A two-task predictor for discovering phase separation proteins and their undergoing mechanism.",
+  "authors": "Zhou, Yetong; Zhou, Shengming; Bi, Yue; Zou, Quan; Jia, Cangzhi",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-10-22",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发了双任务预测器Opt_PredLLPS，用CNN+BiLSTM识别相分离蛋白，并用XGBoost预测其是否需与伙伴互作才能发生LLPS，结合饱和突变定位关键区域，聚焦相分离蛋白及其互作机制预测，但方法以序列特征分类为主，缺乏对互作界面或复合物形成的物理/结构建模深度。",
+  "abstract": "Liquid-liquid phase separation (LLPS) is one of the mechanisms mediating the compartmentalization of macromolecules (proteins and nucleic acids) in cells, forming biomolecular condensates or membraneless organelles. Consequently, the systematic identification of potential LLPS proteins is crucial for understanding the phase separation process and its biological mechanisms. A two-task predictor, Opt_PredLLPS, was developed to discover potential phase separation proteins and further evaluate their mechanism. The first task model of Opt_PredLLPS combines a convolutional neural network (CNN) and bidirectional long short-term memory (BiLSTM) through a fully connected layer, where the CNN utilizes evolutionary information features as input, and BiLSTM utilizes multimodal features as input. If a protein is predicted to be an LLPS protein, it is input into the second task model to predict whether this protein needs to interact with its partners to undergo LLPS. The second task model employs the XGBoost classification algorithm and 37 physicochemical properties following a three-step feature selection. The effectiveness of the model was validated on multiple benchmark datasets, and in silico saturation mutagenesis was used to identify regions that play a key role in phase separation. These findings may assist future research on the LLPS mechanism and the discovery of potential phase separation proteins.",
+  "abstract_zh": "液-液相分离 (liquid-liquid phase separation, LLPS) 是介导细胞内大分子（蛋白质和核酸）区室化的机制之一，形成生物分子凝聚体或无膜细胞器。因此，系统识别潜在的LLPS蛋白质对于理解相分离过程及其生物学机制至关重要。开发了一种双任务预测器Opt_PredLLPS，用于发现潜在的相分离蛋白质并进一步评估其机制。Opt_PredLLPS的第一任务模型通过全连接层结合卷积神经网络 (convolutional neural network, CNN) 和双向长短期记忆网络 (bidirectional long short-term memory, BiLSTM)，其中CNN利用进化信息特征作为输入，而BiLSTM利用多模态特征作为输入。如果某蛋白质被预测为LLPS蛋白质，则将其输入第二任务模型，以预测该蛋白质是否需要与其伙伴相互作用以进行LLPS。第二任务模型采用XGBoost分类算法和37种理化性质，经过三步特征选择。模型的有效性在多个基准数据集上得到验证，并使用计算机模拟饱和突变来识别在相分离中起关键作用的区域。这些发现可能有助于未来对LLPS机制的研究以及潜在相分离蛋白质的发现。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39434494/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39434494/",
+  "paper_page_path": "papers/pubmed/39434494/index.html"
+}

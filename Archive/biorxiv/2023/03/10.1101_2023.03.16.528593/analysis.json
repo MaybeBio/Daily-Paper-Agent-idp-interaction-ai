@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.16.528593",
+  "title": "DeepBindGCN: Integrating Molecular Vector Representation with Graph Convolutional Neural Networks for Accurate Protein-Ligand Interaction Prediction",
+  "authors": "Haiping Zhang; Konda Mani Saravanan; John Z.H. Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-20",
+  "window": {
+    "start": "2023-03-20",
+    "end": "2023-03-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用图卷积网络预测蛋白-配体结合亲和力，对象为折叠蛋白与小分子，非无序蛋白/IDR/PPI，且无互作机制建模，仅方法上对AI预测有间接启发。",
+  "abstract": "The core of large-scale drug virtual screening is to accurately and efficiently select the binders with high affinity from large libraries of small molecules in which nonbinders are usually dominant. The protein pocket, ligand spatial information, and residue types/atom types play a pivotal role in binding affinity. Here we used the pocket residues or ligand atoms as nodes and constructed edges with the neighboring information to comprehensively represent the protein pocket or ligand information. Moreover, we find that the model with pre-trained molecular vectors performs better than the onehot representation. The main advantage of DeepBindGCN is that it is non-dependent on docking conformation and concisely keeps the spatial information and physical-chemical feature. Notably, the DeepBindGCN_BC has high precision in many DUD.E datasets, and DeepBindGCN_RG achieve a very low RMSE value in most DUD.E datasets. Using TIPE3 and PD-L1 dimer as proof-of-concept examples, we proposed a screening pipeline by integrating DeepBindGCN_BC, DeepBindGCN_RG, and other methods to identify strong binding affinity compounds. In addition, a DeepBindGCN_RG_x model has been used for comparing performance with other methods in PDBbind v.2016 and v.2013 core set. It is the first time that a non-complex dependent model achieves an RMSE value of 1.3843 and Pearson-R value of 0.7719 in the PDBbind v.2016 core set, showing comparable prediction power with the state-of-the-art affinity prediction models that rely upon the 3D complex. Our DeepBindGCN provides a powerful tool to predict the protein-ligand interaction and can be used in many important large-scale virtual screening application scenarios.",
+  "abstract_zh": "大规模药物虚拟筛选的核心在于从通常以非结合物为主的大型小分子库中，准确且高效地筛选出具有高亲和力的结合物。蛋白质口袋、配体空间信息以及残基类型/原子类型在结合亲和力中起着关键作用。在此，我们使用口袋残基或配体原子作为节点，并利用邻近信息构建边，以全面表征蛋白质口袋或配体信息。此外，我们发现使用预训练分子向量的模型性能优于独热编码表示。DeepBindGCN的主要优势在于其不依赖对接构象，同时简洁地保留了空间信息和物理化学特征。值得注意的是，DeepBindGCN_BC在多个DUD.E数据集中具有高精度，而DeepBindGCN_RG在大多数DUD.E数据集中实现了极低的均方根误差（RMSE）值。以TIPE3和PD-L1二聚体作为概念验证示例，我们提出了一种整合DeepBindGCN_BC、DeepBindGCN_RG及其他方法的筛选流程，以识别强结合亲和力化合物。此外，我们使用DeepBindGCN_RG_x模型在PDBbind v.2016和v.2013核心集中与其他方法进行了性能比较。这是首次在PDBbind v.2016核心集中，非复合物依赖模型实现了1.3843的RMSE值和0.7719的Pearson-R值，显示出与依赖3D复合物的最先进亲和力预测模型相当的预测能力。我们的DeepBindGCN为预测蛋白质-配体相互作用提供了强大工具，并可用于许多重要的大规模虚拟筛选应用场景。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.16.528593",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.16.528593",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.16.528593/index.html"
+}

@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "pmid": "37595014",
+    "doi": "10.1021/acs.jpcb.3c04052",
+    "title": "Delineating Structural Propensities of the 4E-BP2 Protein via Integrative Modeling and Clustering."
+  },
+  "content": {
+    "abstract": "The intrinsically disordered 4E-BP2 protein regulates mRNA cap-dependent translation through interaction with the predominantly folded eukaryotic initiation factor 4E (eIF4E). Phosphorylation of 4E-BP2 dramatically reduces the level of eIF4E binding, in part by stabilizing a binding-incompatible folded domain. Here, we used a Rosetta-based sampling algorithm optimized for IDRs to generate initial ensembles for two phospho forms of 4E-BP2, non- and 5-fold phosphorylated (NP and 5P, respectively), with the 5P folded domain flanked by N- and C-terminal IDRs (N-IDR and C-IDR, respectively). We then applied an integrative Bayesian approach to obtain NP and 5P conformational ensembles that agree with experimental data from nuclear magnetic resonance, small-angle X-ray scattering, and single-molecule Forster resonance energy transfer (smFRET). For the NP state, inter-residue distance scaling and 2D maps revealed the role of charge segregation and pi interactions in driving contacts between distal regions of the chain ( approximately 70 residues apart). The 5P ensemble shows prominent contacts of the N-IDR region with the two phosphosites in the folded domain, pT37 and pT46, and, to a lesser extent, delocalized interactions with the C-IDR region. Agglomerative hierarchical clustering led to partitioning of each of the two ensembles into four clusters with different global dimensions and contact maps. This helped delineate an NP cluster that, based on our smFRET data, is compatible with the eIF4E-bound state. 5P clusters were differentiated by interactions of C-IDR with the folded domain and of the N-IDR with the two phosphosites in the folded domain. Our study provides both a better visualization of fundamental structural poses of 4E-BP2 and a set of falsifiable insights on intrachain interactions that bias folding and binding of this protein.",
+    "keywords": [],
+    "mesh_terms": [
+      "Bayes Theorem",
+      "*Eukaryotic Initiation Factor-4E",
+      "Cluster Analysis",
+      "*Intrinsically Disordered Proteins",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tsangaris, Thomas E",
+        "Smyth, Spencer",
+        "Gomes, Gregory-Neal W",
+        "Liu, Zi Hao",
+        "Milchberg, Moses",
+        "Bah, Alaji",
+        "Wasney, Gregory A",
+        "Forman-Kay, Julie D",
+        "Gradinaru, Claudiu C"
+      ],
+      "short_names": [
+        "Tsangaris TE",
+        "Smyth S",
+        "Gomes GW",
+        "Liu ZH",
+        "Milchberg M",
+        "Bah A",
+        "Wasney GA",
+        "Forman-Kay JD",
+        "Gradinaru CC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8357-8507",
+        "ORCID: 0000-0001-8265-972X",
+        "ORCID: 0000-0002-1897-313X"
+      ],
+      "affiliations": [
+        "Department of Physics, University of Toronto, Toronto, Ontario M5S 1A7, Canada.",
+        "Department of Chemical & Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario L5L 1C6, Canada.",
+        "Department of Physics, University of Toronto, Toronto, Ontario M5S 1A7, Canada.",
+        "Department of Chemical & Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario L5L 1C6, Canada.",
+        "Department of Physics, University of Toronto, Toronto, Ontario M5S 1A7, Canada.",
+        "Department of Chemical & Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario L5L 1C6, Canada.",
+        "Program in Molecular Medicine, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Program in Molecular Medicine, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Program in Molecular Medicine, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Peter Gilgan Centre for Research and Learning, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+        "Program in Molecular Medicine, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Department of Physics, University of Toronto, Toronto, Ontario M5S 1A7, Canada.",
+        "Department of Chemical & Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario L5L 1C6, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tsangaris, Thomas E",
+        "short_name": "Tsangaris TE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Toronto, Toronto, Ontario M5S 1A7, Canada.",
+          "Department of Chemical & Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario L5L 1C6, Canada."
+        ]
+      },
+      {
+        "full_name": "Smyth, Spencer",
+        "short_name": "Smyth S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Toronto, Toronto, Ontario M5S 1A7, Canada.",
+          "Department of Chemical & Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario L5L 1C6, Canada."
+        ]
+      },
+      {
+        "full_name": "Gomes, Gregory-Neal W",
+        "short_name": "Gomes GW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Toronto, Toronto, Ontario M5S 1A7, Canada.",
+          "Department of Chemical & Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario L5L 1C6, Canada."
+        ]
+      },
+      {
+        "full_name": "Liu, Zi Hao",
+        "short_name": "Liu ZH",
+        "identifiers": [
+          "0000-0002-8357-8507"
+        ],
+        "affiliations": [
+          "Program in Molecular Medicine, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Milchberg, Moses",
+        "short_name": "Milchberg M",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Bah, Alaji",
+        "short_name": "Bah A",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Wasney, Gregory A",
+        "short_name": "Wasney GA",
+        "identifiers": [],
+        "affiliations": [
+          "Peter Gilgan Centre for Research and Learning, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada."
+        ]
+      },
+      {
+        "full_name": "Forman-Kay, Julie D",
+        "short_name": "Forman-Kay JD",
+        "identifiers": [
+          "0000-0001-8265-972X"
+        ],
+        "affiliations": [
+          "Program in Molecular Medicine, Hospital for Sick Children, Toronto, Ontario M5G 0A4, Canada.",
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Gradinaru, Claudiu C",
+        "short_name": "Gradinaru CC",
+        "identifiers": [
+          "0000-0002-1897-313X"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Toronto, Toronto, Ontario M5S 1A7, Canada.",
+          "Department of Chemical & Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario L5L 1C6, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2023 Aug 31",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/18 18:42",
+    "fetched_at": "2026-09-21 00:25:33"
+  },
+  "links": {
+    "cites": [
+      "42079037",
+      "40349675",
+      "38060268",
+      "37546943"
+    ],
+    "refs": [
+      "38060268",
+      "37338049",
+      "36518077",
+      "36030416",
+      "35976226",
+      "35923464",
+      "35841142",
+      "35658083",
+      "35126984",
+      "34845619",
+      "34817999",
+      "34352157",
+      "33812316",
+      "33481784",
+      "33357399",
+      "33355572",
+      "33305318",
+      "33078839",
+      "32867340",
+      "32840111",
+      "32775701",
+      "32561718",
+      "32525675",
+      "32502383",
+      "32006288",
+      "31874413",
+      "30913885",
+      "30909517",
+      "30384718",
+      "29466338",
+      "29424691",
+      "28709377",
+      "28497798",
+      "28471369",
+      "28076807",
+      "28068774",
+      "28063280",
+      "27939973",
+      "27807972",
+      "27776412",
+      "27392146",
+      "26922996",
+      "26679013",
+      "26488642",
+      "26331261",
+      "26328871",
+      "26242913",
+      "26195786",
+      "26073260",
+      "25702871",
+      "25533957",
+      "25391399",
+      "25179781",
+      "24725176",
+      "24207126",
+      "24021023",
+      "24010708",
+      "23901099",
+      "23233655",
+      "23172145",
+      "23142871",
+      "22984159",
+      "22613562",
+      "22095648",
+      "21650183",
+      "21291253",
+      "21220121",
+      "21049125",
+      "20880835",
+      "20826336",
+      "20404210",
+      "20399186",
+      "20368288",
+      "19447112",
+      "19239892",
+      "18799750",
+      "18573080",
+      "18434548",
+      "17919940",
+      "17660831",
+      "17081050",
+      "17029989",
+      "15767663",
+      "15063647",
+      "12766419",
+      "11835488",
+      "11746699",
+      "10737933",
+      "10216944",
+      "9149149",
+      "2690953"
+    ],
+    "similar": [
+      "37595014",
+      "32561718",
+      "35841142",
+      "25533957",
+      "31951234",
+      "24207126",
+      "21661078",
+      "25822952",
+      "27776412",
+      "22968905",
+      "16271312",
+      "28068774",
+      "33909430",
+      "23591646",
+      "31201269",
+      "25769422",
+      "31774674",
+      "9453748",
+      "37175950",
+      "21964297",
+      "32840111",
+      "33122085",
+      "25801964",
+      "35923464",
+      "17316564",
+      "12054859",
+      "33328636",
+      "12588975",
+      "34557680",
+      "21183464",
+      "8975712",
+      "31724233",
+      "34638676",
+      "11865047",
+      "10544283",
+      "26522719",
+      "8662663",
+      "20880835",
+      "20424163",
+      "12691746",
+      "9593750",
+      "28780862",
+      "29763584",
+      "19333389",
+      "19367274",
+      "30763345",
+      "29453322",
+      "21913890",
+      "37155239",
+      "25604198",
+      "30053226",
+      "32336547",
+      "11069026",
+      "33852892",
+      "38365983",
+      "16825247",
+      "26195786",
+      "20736160",
+      "20347422",
+      "11404183",
+      "10477262",
+      "26548662",
+      "19878875",
+      "10406811",
+      "12239292",
+      "36711874",
+      "31003202",
+      "24011189",
+      "30978975",
+      "26824022",
+      "10409688",
+      "24211447",
+      "30213859",
+      "23365227",
+      "38915510",
+      "17368478",
+      "27280636",
+      "38915483",
+      "18515545",
+      "38131207",
+      "34571015",
+      "27773676",
+      "23563181",
+      "10772338",
+      "18789325",
+      "24945486",
+      "19159466",
+      "16405910",
+      "36987865",
+      "19122207",
+      "26013047",
+      "36153968",
+      "10364159",
+      "34541613",
+      "30823702",
+      "31825840",
+      "26384734",
+      "39248370",
+      "36824771",
+      "37546943"
+    ],
+    "review": [
+      "37595014",
+      "31003202"
+    ],
+    "pmc": [
+      "10858721"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37595014/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37595014",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-325",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.3c04052",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

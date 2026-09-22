@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "37644195",
+    "doi": "10.1038/s42003-023-05270-7",
+    "title": "Atomistic modeling of liquid-liquid phase equilibrium explains dependence of critical temperature on gamma-crystallin sequence."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation of protein solutions has regained heightened attention for its biological importance and pathogenic relevance. Coarse-grained models are limited when explaining residue-level effects on phase equilibrium. Here we report phase diagrams for gamma-crystallins using atomistic modeling. The calculations were made possible by combining our FMAP method for computing chemical potentials and Brownian dynamics simulations for configurational sampling of dense protein solutions, yielding the binodal and critic temperature (T(c)). We obtain a higher T(c) for a known high-T(c) gamma-crystallin, gammaF, than for a low-T(c) paralog, gammaB. The difference in T(c) is corroborated by a gap in second virial coefficient. Decomposition of inter-protein interactions reveals one amino-acid substitution between gammaB and gammaF, from Ser to Trp at position 130, as the major contributor to the difference in T(c). This type of analysis enables us to link phase equilibrium to amino-acid sequence and to design mutations for altering phase equilibrium.",
+    "keywords": [],
+    "mesh_terms": [
+      "*gamma-Crystallins/chemistry",
+      "Humans",
+      "Animals",
+      "Rats",
+      "Cattle",
+      "Molecular Dynamics Simulation",
+      "Temperature",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qin, Sanbo",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "Qin S",
+        "Zhou HX"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9020-0302"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois Chicago, Chicago, IL, 60607, USA.",
+        "Department of Chemistry, University of Illinois Chicago, Chicago, IL, 60607, USA. hzhou43@uic.edu.",
+        "Department of Physics, University of Illinois Chicago, Chicago, IL, 60607, USA. hzhou43@uic.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qin, Sanbo",
+        "short_name": "Qin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Chicago, Chicago, IL, 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [
+          "0000-0001-9020-0302"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Chicago, Chicago, IL, 60607, USA. hzhou43@uic.edu.",
+          "Department of Physics, University of Illinois Chicago, Chicago, IL, 60607, USA. hzhou43@uic.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2023 Aug 29",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/30 00:41",
+    "fetched_at": "2026-09-21 00:55:06"
+  },
+  "links": {
+    "cites": [
+      "41001635",
+      "40996797",
+      "39525323",
+      "38885177",
+      "38585905",
+      "38262618",
+      "37184002"
+    ],
+    "refs": [
+      "37184002",
+      "36227466",
+      "35853451",
+      "35795820",
+      "34931046",
+      "34716273",
+      "34645832",
+      "34241191",
+      "33139563",
+      "32029630",
+      "31490691",
+      "31430179",
+      "31192219",
+      "30985120",
+      "30633517",
+      "30414964",
+      "30217894",
+      "29961577",
+      "29930094",
+      "29898402",
+      "29716768",
+      "28430426",
+      "27327881",
+      "27077243",
+      "26596171",
+      "26123630",
+      "25964322",
+      "25061446",
+      "24835736",
+      "24187527",
+      "24086122",
+      "21173272",
+      "20616077",
+      "18792934",
+      "15299624",
+      "15264254",
+      "15215472",
+      "12875852",
+      "11517324",
+      "10688888",
+      "10449714",
+      "9367641",
+      "8142489",
+      "4843792",
+      "3856852",
+      "3783678",
+      "3670288",
+      "3478681",
+      "3351938",
+      "2738925",
+      "2602383",
+      "2062844",
+      "887936"
+    ],
+    "similar": [
+      "37644195",
+      "37162827",
+      "9367641",
+      "27077243",
+      "27327881",
+      "28178791",
+      "16613479",
+      "2062844",
+      "26505877",
+      "19438717",
+      "30633517",
+      "15461210",
+      "33319872",
+      "15692460",
+      "4064730",
+      "2738925",
+      "37039349",
+      "11733987",
+      "12391331",
+      "30414964",
+      "1741375",
+      "12876325",
+      "29172128",
+      "29346981",
+      "15967431",
+      "27410057",
+      "37093714",
+      "15878859",
+      "19233964",
+      "21173272",
+      "12529503",
+      "39820268",
+      "8552642",
+      "12562766",
+      "14517968",
+      "33453922",
+      "3478681",
+      "15709761",
+      "9642290",
+      "39815790",
+      "26385181",
+      "7559623",
+      "31422822",
+      "20616077",
+      "11123905",
+      "31393108",
+      "21677790",
+      "9777706",
+      "15642319",
+      "24089726",
+      "21949186",
+      "21735120",
+      "33278449",
+      "9018433",
+      "25450505",
+      "29532225",
+      "25389780",
+      "9650079",
+      "3856852",
+      "21244846",
+      "9232654",
+      "36637342",
+      "28648607",
+      "19358562",
+      "9162088",
+      "9642083",
+      "17659303",
+      "31738854",
+      "7925695",
+      "2356232",
+      "33264606",
+      "30985120",
+      "12803541",
+      "23597261",
+      "15670797",
+      "15292216",
+      "18509547",
+      "9541393",
+      "40545728",
+      "3351938",
+      "25964322",
+      "9988710",
+      "24282025",
+      "26116913",
+      "12537683",
+      "12457849",
+      "31747273",
+      "3255364",
+      "18172107",
+      "24183572",
+      "23349723",
+      "3476929",
+      "30827504",
+      "31092325",
+      "35163513",
+      "17905830",
+      "24120835",
+      "27378818",
+      "31812542",
+      "27992995"
+    ],
+    "review": [
+      "37644195",
+      "26116913"
+    ],
+    "pmc": [
+      "10465548"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-023-05270-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37644195/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37644195",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

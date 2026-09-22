@@ -1,0 +1,91 @@
+## Review setup
+
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, key points, data availability, funding, author contributions, and supplementary data list. Figures and tables are referenced but not provided in full detail.
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, interpretability claims, and comparison with existing methods, based solely on the provided text.
+- **Shared manuscript claim summary** The authors present HPInet, a transformer-based deep learning model with convolutional layers and global response normalization, for predicting interactions between bacterial effector proteins (T1SE-T10SE) and human host proteins. They claim significant performance improvements over existing methods, interpretability via attention mechanisms, and deployment as a freely accessible web server.
+- **Visible evidence base** Text descriptions of datasets, model architecture, evaluation metrics, and results. Specific numerical results are reported for accuracy, F1-score, AUPRC, and AUROC in the abstract and results sections. Supplementary tables and figures are referenced but not provided.
+- **Missing materials affecting confidence** Full figures (especially Figure 1C-D, Figure 2, Figure 3, Figure 4, Figure 5), all supplementary tables (S1-S5), detailed hyperparameter settings, training/validation split specifics, code availability, and complete benchmark comparisons. These are essential for verifying the reported results and claims.
+
+## Reviewer
+
+- **Overall assessment** The manuscript addresses an important and timely problem: predicting host-pathogen protein-protein interactions for bacterial effector proteins. The proposed architecture, combining transformer with convolutional layers and GRN, is a reasonable and potentially valuable contribution. However, the current text lacks sufficient detail for full evaluation. Key concerns include incomplete reporting of dataset construction, unclear negative sampling strategy, missing statistical significance testing, and insufficient comparison with state-of-the-art methods beyond deepHPI. The interpretability analysis, while promising, relies on a single case study and requires more systematic validation. The web server is a positive contribution, but its functionality and usability cannot be assessed from the text alone. Overall, the work has potential but is not yet fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in computational biology, bioinformatics, and infectious disease biology would be interested. Specifically, those working on host-pathogen interaction prediction, protein-protein interaction prediction, and application of deep learning to biological sequence analysis. The web server may also be useful for experimental biologists studying bacterial pathogenesis who need computational predictions to prioritize candidate interactions for validation.
+- **Major strengths** 1) Addresses a relevant and under-served problem: prediction of effector-host PPIs across multiple secretion systems. 2) The architecture is a thoughtful combination of established components (transformer, CNN, GRN) with clear motivation. 3) The inclusion of interpretability analysis via attention and SHAP is commendable and adds value beyond simple prediction. 4) Deployment as a web server increases accessibility and practical utility. 5) The use of multiple embedding strategies and systematic comparison is a strength.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data quality and construction
+  - **Claim pointer** The authors claim a final dataset of 1,552 non-redundant PPIs after removing redundancy from 1,792 unique PPIs, with a negative set constructed using a "dissimilarity-based negative sampling" strategy.
+  - **Evidence pointer** Materials and methods, Data sets collection; Results, Section 1; Supplementary Table S1; Supplementary Figure S1
+  - **Concern** The description of negative sampling is insufficient. The text states a "dissimilarity-based negative sampling" strategy was used, but does not specify the exact algorithm, the dissimilarity metric, the threshold for dissimilarity, or how the 10,059 human-bacteria interactions were selected and processed. The final positive-to-negative ratio of 1:10 is stated, but the total number of negative samples used for training and testing is not clear. Without this information, the dataset construction cannot be reproduced, and the potential for bias in negative sampling cannot be assessed.
+  - **Why it matters** Negative sampling is a critical step in training binary classifiers for PPI prediction. A poorly constructed negative set can lead to inflated performance estimates or models that learn trivial features. The lack of detail prevents assessment of dataset quality and reproducibility.
+  - **Resolution test** Provide a detailed description of the negative sampling procedure, including the dissimilarity metric, threshold, and the exact number of negative samples used. Ideally, provide the negative set as a supplementary file. Additionally, report the distribution of sequence identities between positive and negative sets to demonstrate that the negative set is not trivially easy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evaluation and comparison
+  - **Claim pointer** The authors claim HPInet significantly outperforms existing methods, with accuracy improving from 0.502 to 0.891 and sensitivity boosted by 35.3% compared to deepHPI.
+  - **Evidence pointer** Results, Section 2; Figures 2C-D; Supplementary Table S4
+  - **Concern** The comparison with deepHPI is the primary benchmark, but the text does not describe how deepHPI was trained or evaluated in this context. It is unclear whether deepHPI was retrained on the same dataset, used with default parameters, or evaluated on the same train/test split. Additionally, the reported improvement in accuracy from 0.502 to 0.891 is substantial, but no statistical significance testing (e.g., confidence intervals, paired tests across multiple runs) is reported. The comparison with other methods (BIANA, Mei's, Ahmed's, InterSPPI) is mentioned but not detailed, and no results are shown for these methods.
+  - **Why it matters** A fair and rigorous comparison is essential to support the claim of state-of-the-art performance. Without details on the benchmark setup and statistical testing, the reported improvements may be due to differences in data processing, hyperparameter tuning, or evaluation protocol rather than architectural superiority.
+  - **Resolution test** Describe the exact protocol for training and evaluating deepHPI and other baseline methods, including any hyperparameter tuning. Report performance metrics with confidence intervals or standard deviations across multiple runs. Provide results for all baseline methods in a supplementary table. Consider using a paired statistical test (e.g., McNemar's test) to demonstrate significant differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability validation
+  - **Claim pointer** The authors claim HPInet's attention mechanism identifies critical residues at interaction sites, with a significant positive correlation between precision of predicted key residues and AlphaFold3's ipTM scores (GradientShap R=0.35, P=2.94e-20; Attention R=0.22, P=5.80e-09).
+  - **Evidence pointer** Results, Section 4; Figure 3A-E
+  - **Concern** The interpretability analysis is based on a correlation between precision of predicted key residues and AlphaFold3's ipTM scores. However, the text does not specify how many PPIs were included in this analysis, how the "key residues" were defined (beyond "above the median"), or how the ground truth binding sites from PDBePISA were used to compute precision. The single case study (SptP-Rac1, PDB 1g4u) is informative but not sufficient to establish general interpretability. The correlation coefficients, while statistically significant, are modest (R=0.22-0.35) and may be driven by a subset of high-confidence predictions.
+  - **Why it matters** Interpretability is a key claimed advantage of HPInet. If the attention-based residue identification is not consistently accurate across diverse PPIs, the interpretability claim is weakened. The current analysis does not demonstrate that the model's attention maps are biologically meaningful beyond a single example.
+  - **Resolution test** Report the number of PPIs used in the correlation analysis. Provide a distribution of precision values across all PPIs, not just the correlation. Include additional case studies from different secretion systems. Consider comparing attention-based residue predictions with experimental alanine scanning mutagenesis data or other functional annotations. Clarify how the median threshold was chosen and whether results are robust to this choice.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and availability
+  - **Claim pointer** The authors state HPInet is implemented as a freely accessible web server at https://bis.zju.edu.cn/hpinet, and the model uses frozen embeddings from pre-trained protein language models.
+  - **Evidence pointer** Results, Section 6; Materials and methods, Input embeddings
+  - **Concern** The text does not provide information on code availability, model weights, or a standalone implementation for local use. The web server is mentioned, but its functionality, input limits, and maintenance status cannot be verified from the text. Additionally, the use of frozen embeddings from ESM-2, ProtBert, and ProtT5-XL-U50 is described, but the exact version of each model and the embedding extraction procedure (e.g., per-residue vs. per-sequence, pooling strategy) are not specified.
+  - **Why it matters** Reproducibility is a core requirement for computational biology tools. Without access to the code or detailed model specifications, other researchers cannot replicate the results or apply the method to their own data. The web server, while useful, may not be sufficient for high-throughput or custom analyses.
+  - **Resolution test** Provide a link to a public code repository (e.g., GitHub) with the model implementation, training scripts, and evaluation code. Specify the exact versions of pre-trained models used and the embedding extraction procedure. Describe the web server's input/output formats, processing time, and any usage limits.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction, paragraphs 1-2
+  - **Issue** The abstract and introduction contain some redundancy in describing the problem and motivation. The phrase "labor-intensive, time-consuming" appears multiple times. The introduction could be more concise.
+  - **Required correction** Streamline the abstract and introduction to avoid repetition. Focus on the specific gap addressed by HPinNet rather than general statements about experimental methods being slow.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and methods, HPInet model
+  - **Evidence pointer** Materials and methods, HPInet model
+  - **Issue** The model description contains incomplete equations and undefined variables. For example, the text states "where , h denotes the number of attention heads" but the equation is not fully written out. Similarly, the GRN and depthwise separable convolution definitions are incomplete.
+  - **Required correction** Provide complete equations with all variables defined. Ensure that the model architecture is described in sufficient detail for reproduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Section 2 and Section 3
+  - **Evidence pointer** Results, Section 2; Results, Section 3; Table 1
+  - **Issue** The text reports performance metrics such as accuracy, F1-score, and AUPRC, but does not report standard deviations or confidence intervals. The ablation study in Table 1 is described but the table itself is not provided in the text.
+  - **Required correction** Report mean and standard deviation across multiple runs (e.g., 5-fold CV). Include Table 1 in the main text or as a supplementary file with full numerical values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Web server validation
+  - **Affected element** Results, Section 6
+  - **Evidence pointer** Results, Section 6
+  - **Issue** The web server is described, but there is no information on its testing, user feedback, or comparison with other web servers for PPI prediction.
+  - **Required correction** Provide a brief description of web server testing, including example queries and response times. If possible, include a comparison with existing web servers for host-pathogen PPI prediction.
+- **Technical failings that need to be addressed before the case is established** 1) Incomplete description of negative sampling strategy (R1-M1). 2) Insufficient detail on benchmark setup and lack of statistical significance testing (R1-M2). 3) Incomplete model architecture equations (R1-m2). 4) Missing full results for ablation study and baseline comparisons (R1-m3). 5) Lack of code availability (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The combination of transformer with CNN and GRN for host-pathogen PPI prediction is a novel contribution, though the individual components are established. The focus on effector proteins across multiple secretion systems is a specific and valuable niche. Scientific importance: The problem is important for understanding bacterial pathogenesis and identifying therapeutic targets. However, the impact depends on the robustness of the method and its generalizability beyond the current dataset. Interdisciplinary readership: The work is relevant to computational biologists, microbiologists, and infectious disease researchers. The web server increases accessibility. Technical soundness: The architecture is reasonable, but the incomplete description of data processing, training, and evaluation prevents full assessment. The lack of statistical testing is a concern. Readability for nonspecialists: The abstract and introduction are accessible, but the methods section assumes familiarity with deep learning and protein language models. The discussion is clear and appropriately contextualized.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the problem is important, but the current manuscript does not provide sufficient detail to fully evaluate the method. The authors should address the concerns regarding dataset construction, benchmark rigor, and code availability before the claims can be fully established.
+
+## Risk / unsupported claims
+
+- The claim of "significantly improves prediction accuracy" is not supported by statistical testing.
+- The claim that HPInet "captures critical residues at interaction sites" is based on a single case study and a correlation analysis with limited detail.
+- The claim that HPInet "effectively captures shared features between secretion systems" is based on cross-system performance that is not fully described.
+- The performance comparison with BIANA, Mei's method, Ahmed's method, and InterSPPI is mentioned but no results are shown.
+- The dataset construction, including the exact number of negative samples and the dissimilarity-based sampling procedure, is not described in sufficient detail to be reproducible.
+- The web server's functionality, usability, and performance are not validated in the text.

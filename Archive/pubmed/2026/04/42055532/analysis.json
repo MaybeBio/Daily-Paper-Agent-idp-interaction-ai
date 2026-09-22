@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42055532",
+  "title": "Condensates as Conformation Editors of Disordered Client Proteins.",
+  "authors": "Wang, Liguo; Marrink, Siewert J",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2026-04-30",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化模拟揭示凝聚体环境如何以支架特异方式重塑无序客户蛋白构象，聚焦IDR-凝聚体互作机制建模，与课题高度契合。",
+  "abstract": "Biomolecular condensates organize cellular biochemistry not only by passive concentration modulation of molecules but also by potentially remodeling client protein conformations. However, the systematic principles governing such conformational editing are unknown. Here, we use coarse-grained simulations to demonstrate that diverse condensate environments remodel disordered client proteins in a scaffold-specific manner. Additionally, we explore the factors of this remodeling, establishing that the linear patterning of scaffold interaction motifs along sequence (sticker clustering) plays an important role, whereas an increased scaffold chain length primarily slows client dynamics while leaving their sequence-specific intrachain contact patterns largely preserved. This conformational remodeling is mediated by varied and nonuniform client-condensate interaction maps that are not solely encoded by primary sequence grammar but are cooperatively shaped by the emergent condensate architecture. Our work reveals that condensates function as sophisticated regulators of recruited disordered client conformation, with broad implications for cellular regulation and therapeutic intervention.",
+  "abstract_zh": "生物分子凝聚体不仅通过被动调节分子浓度来组织细胞生化过程，还可能通过重塑客户蛋白构象来实现这一功能。然而，控制这种构象编辑的系统性原理尚不明确。在此，我们使用粗粒化模拟来证明，多样的凝聚体环境以支架特异性的方式重塑无序客户蛋白。此外，我们探讨了这种重塑的影响因素，确立支架相互作用基序沿序列的线性排列（贴纸聚类）起重要作用，而增加支架链长度主要减缓客户动力学，同时其序列特异性的链内接触模式基本保持不变。这种构象重塑由多样且非均匀的客户-凝聚体相互作用图谱介导，这些图谱并非仅由一级序列语法编码，而是由涌现的凝聚体架构协同塑造。我们的工作揭示，凝聚体作为招募的无序客户蛋白构象的精细调节器，对细胞调控和治疗干预具有广泛意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42055532/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42055532/",
+  "paper_page_path": "papers/pubmed/42055532/index.html"
+}

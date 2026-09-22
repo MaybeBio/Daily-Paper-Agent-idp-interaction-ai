@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.28.517999",
+  "title": "WITHDRAWN: Ultrastructural characterization of a viral RNA and G-protein containing, membranous organelle formed in respiratory syncytial virus infected cells",
+  "authors": "Vijayakrishnan S; Burns AM; Blanchard EL; Spink MC; Gilchrist JB; Howe A; Darrow MC; Harkiolaki M; Wu C; Dutch RE; Santangelo PJ; Fearns R; Bhella D",
+  "journal": "bioRxiv",
+  "published_date": "2022-11-28",
+  "window": {
+    "start": "2022-11-28",
+    "end": "2022-12-04"
+  },
+  "score": 0,
+  "one_liner_zh": "该文为已撤回的病毒学超微结构研究，涉及RSV感染细胞中的膜性细胞器，但无无序蛋白、PPI机制或AI/物理模拟方法，与本课题无关。",
+  "abstract": "<h4>Withdrawal statement</h4> The authors have withdrawn their manuscript because since deposition of this preprint, they have become aware of the possibility that the findings reported may be an artefact. Carter et al. (J Struct Biol 2018 Jan;201(1):15-25. doi: 10.1016/j.jsb.2017.10.009) have reported that multilamellar bodies exhibit autofluorescence under cryogenic conditions. Thus, there is a possibility that stress induced by virus infection may stimulate formation of the features reported in this article, and autofluorescence, rather than specific labelling led them to identify the puncta as compartments containing RSV proteins or genomes. They are working to address these issues. Therefore, the authors do not wish this work to be cited as reference for the project. If you have any questions, please contact the corresponding author.",
+  "abstract_zh": "<h4>撤稿声明</h4> 作者已撤回其手稿，因为在提交本预印本后，他们意识到所报告的研究结果可能是一种假象。Carter等人（J Struct Biol 2018年1月；201(1)：15-25. doi: 10.1016/j.jsb.2017.10.009）已报道，多层小体在低温条件下表现出自发荧光。因此，病毒感染引起的应激可能刺激了本文所报告特征的形成，而自发荧光而非特异性标记导致他们将这些点状结构识别为含有RSV蛋白或基因组的区室。他们正在努力解决这些问题。因此，作者不希望这项工作被引用为项目的参考文献。如有任何疑问，请联系通讯作者。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.28.517999",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.28.517999",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.28.517999/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40133775",
+  "title": "AFflecto: A web server to generate conformational ensembles of flexible proteins from AlphaFold models.",
+  "authors": "Pajkos, Matyas; Clerc, Ilinka; Zanon, Christophe; Bernado, Pau; Cortes, Juan",
+  "journal": "Journal of molecular biology",
+  "published_date": "2025-03-26",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了从AlphaFold模型生成含IDR构象系综的Web服务器，聚焦无序蛋白构象采样，但未涉及PPI或互作机制建模，方法上以随机采样为主，对无序蛋白构象建模有参考价值。",
+  "abstract": "Intrinsically disordered proteins and regions (IDPs/IDRs) leverage their structural flexibility to fulfill essential cellular functions, with dysfunctions often linked to severe diseases. However, the relationships between their sequences, structural dynamics and functional roles remain poorly understood. Understanding these complex relationships is crucial for therapeutic development, highlighting the need for methods to generate plausible IDP/IDR conformational ensembles. While AlphaFold (AF) excels at modeling structured domains, it fails to accurately represent disordered regions, leaving a significant portion of proteomes inaccurately modeled. We present AFflecto, a user-friendly web server for generating large conformational ensembles of proteins that include both structured domains and IDRs from AF structural models. AFflecto identifies IDRs as tails, linkers or loops by analyzing their structural context. Additionally, it incorporates a method to identify conditionally folded IDRs that AF may incorrectly predict as natively folded elements. The conformational space is globally explored using efficient stochastic sampling algorithms. AFflecto's web interface allows users to customize the modeling, by modifying boundaries between ordered and disordered regions, and selecting among several sampling strategies. The web server is freely available at https://moma.laas.fr/applications/AFflecto/.",
+  "abstract_zh": "固有无序蛋白和区域（IDPs/IDRs）利用其结构灵活性来执行关键的细胞功能，其功能障碍常与严重疾病相关。然而，它们的序列、结构动力学和功能角色之间的关系仍知之甚少。理解这些复杂关系对于治疗开发至关重要，凸显了生成合理IDP/IDR构象系综的方法需求。尽管AlphaFold（AF）在建模结构化结构域方面表现出色，但它无法准确表示无序区域，导致蛋白质组中相当大一部分被不准确建模。我们提出了AFflecto，一个用户友好的网络服务器，用于从AF结构模型生成包含结构化结构域和IDRs的蛋白质大型构象系综。AFflecto通过分析其结构上下文，将IDRs识别为尾部、连接子或环。此外，它整合了一种方法来识别AF可能错误预测为天然折叠元素的条件折叠IDRs。构象空间通过高效的随机采样算法进行全局探索。AFflecto的网络界面允许用户通过修改有序和无序区域之间的边界，并选择多种采样策略来自定义建模。该网络服务器免费提供，网址为https://moma.laas.fr/applications/AFflecto/。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40133775/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40133775/",
+  "paper_page_path": "papers/pubmed/40133775/index.html"
+}

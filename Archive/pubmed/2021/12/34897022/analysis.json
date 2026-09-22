@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34897022",
+  "title": "The structure of the unstructured: mosaic of tau protein linear motifs obtained by high-resolution techniques and molecular simulation.",
+  "authors": "Cehlar, Ondrej; Bagarova, Olga; Hornakova, Lenka; Skrabana, Rostislav",
+  "journal": "General physiology and biophysics",
+  "published_date": "2021-12-14",
+  "window": {
+    "start": "2021-12-13",
+    "end": "2021-12-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述整合高分辨率实验与分子模拟，分析tau无序蛋白线性基序在与结合伙伴及tau-tau复合物中的三维结构，聚焦IDR介导的互作机制建模，对本课题有直接参考价值。",
+  "abstract": "Intrinsically disordered proteins are flexible molecules with important physiological functions. Their mode of action often involves short segments, called linear motifs, which may exhibit distinct structural propensities. Tau is intrinsically disordered, microtubule-associated protein involved in the pathogenesis of various tauopathies. In this review we analyze the collection of 3D structures of tau local linear motifs gained from the deposited structures of tau complexes with various binding partners as well as of tau-tau complexes; determined by X-ray and electron crystallography, single-particle electron microscopy, NMR spectroscopy and molecular dynamics simulations. Insights into the partially stabilized conformations of tau linear motifs are valuable for understanding the physiological and pathological processes involving tau protein.",
+  "abstract_zh": "固有无序蛋白是具有重要生理功能的柔性分子。其作用模式通常涉及称为线性基序的短片段，这些片段可能表现出不同的结构倾向性。Tau是一种固有无序的微管相关蛋白，参与多种tau蛋白病的发病机制。在本综述中，我们分析了从Tau与多种结合伙伴复合物以及Tau-Tau复合物的已解析结构中获得的Tau局部线性基序的三维结构集合；这些结构通过X射线和电子晶体学、单颗粒电子显微镜、核磁共振波谱以及分子动力学模拟确定。对Tau线性基序部分稳定构象的洞察，对于理解涉及Tau蛋白的生理和病理过程具有重要价值。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34897022/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34897022/",
+  "paper_page_path": "papers/pubmed/34897022/index.html"
+}

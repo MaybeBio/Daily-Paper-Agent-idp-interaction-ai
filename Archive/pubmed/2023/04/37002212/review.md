@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, technical soundness, interpretation of data, and alignment with claims. Editorial or stylistic issues are noted only where they affect comprehension.
+- **Shared manuscript claim summary** The authors propose that Inhibitor-3 (I3) inhibits Protein Phosphatase 1 (PP1) through a dynamic, fuzzy interaction involving a previously unidentified CCC motif that transiently engages the PP1 active site metal (M2), in addition to canonical RVxF and non-canonical SILK motifs. They further claim this represents a novel mechanism of enzyme inhibition by an intrinsically disordered protein.
+- **Visible evidence base** SPR binding data, X-ray crystallography of the I3:PP1 complex, NMR chemical shift perturbation, ITC metal binding, and PP1 activity inhibition assays across multiple I3 and PP1 variants.
+- **Missing materials affecting confidence** Supplementary figures and tables referenced (S1-S6, Tables S1-S3) were not provided. Coordinates and structure factors for the crystal structures are not included. Raw SPR sensorgrams and ITC thermograms beyond representative traces are not available. No information on the number of replicates for crystallographic data or refinement statistics beyond what is stated in Table S2 (not provided).
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and technically rigorous dissection of the I3:PP1 interaction, identifying a novel CCC motif that mediates inhibition through a dynamic, fuzzy interaction with the PP1 active site metal. The combination of structural, biophysical, and functional data is compelling and the conclusions are largely well-supported. The work provides significant new insight into PP1 regulation and expands the conceptual framework for how disordered proteins can inhibit enzymes. However, several technical concerns, particularly regarding the interpretation of the fuzzy interaction model and the generalizability of the metal-binding mechanism, require clarification before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in the fields of protein phosphatases, intrinsically disordered proteins, enzyme regulation, and structural biology. The findings are directly relevant to understanding PP1 holoenzyme assembly and regulation, and the proposed fuzzy inhibition mechanism may have broader implications for other phosphoprotein phosphatase family members. The work also contributes to the growing appreciation of dynamic, fuzzy interactions in biology.
+- **Major strengths** 1. The identification and functional characterization of a novel CCC motif in I3 is a significant advance. 2. The combination of high-resolution crystallography with solution-state NMR and ITC provides a multi-faceted view of the interaction. 3. The systematic mutagenesis approach (single, double, and triple Cys mutations) is thorough and well-controlled. 4. The comparison with the SDS22:PP1 complex provides important context for understanding distinct mechanisms of PP1 inhibition. 5. The work is clearly written and the figures are well-organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of structural data
+  - **Claim pointer** The authors state that the CCC motif binds directly across the PP1 active site and engages the M2 metal in a dynamic, fuzzy manner.
+  - **Evidence pointer** Figure 2F, Figure 4A, Results section "I3 binding at the PP1 active site"
+  - **Concern** The crystallographic evidence for the CCC motif is limited. The authors state that no electron density was observed beyond Cys62, and the density for the CCC motif itself is described as weaker than the rest of I3. This is not consistent with a well-defined structural model. The claim of a fuzzy interaction is inferred from the absence of clear density, but alternative explanations, such as partial occupancy or multiple discrete conformations, are not discussed. The structural basis for the proposed dynamic engagement of M2 is therefore not directly demonstrated.
+  - **Why it matters** The central novelty of the paper rests on the claim that the CCC motif inhibits PP1 via a dynamic, fuzzy interaction with the active site metal. If the structural evidence is only indirect, the mechanistic model is weakened. The distinction between a truly dynamic ensemble and a static but poorly ordered conformation is important for the conceptual advance claimed.
+  - **Resolution test** Provide a more detailed analysis of the electron density for the CCC motif, including any difference maps or omit maps. If possible, perform molecular dynamics simulations or NMR relaxation dispersion experiments to directly probe the dynamics of the CCC motif in the bound state. Alternatively, present a clear discussion of why the crystallographic data support a dynamic model over other interpretations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance of metal binding
+  - **Claim pointer** The authors claim that the CCC motif binds Zn2+ and that this metal binding is critical for PP1 inhibition.
+  - **Evidence pointer** Figure 4D-H, Results section "I3 binding at the PP1 active site", Discussion
+  - **Concern** The ITC data show that I3 binds Zn2+ with micromolar affinity, but the physiological relevance of this interaction is unclear. The concentration of free Zn2+ in the cellular environment is typically in the picomolar to nanomolar range, making a micromolar affinity interaction unlikely to be saturated in vivo. The authors do not address this discrepancy. Furthermore, the NMR experiments were performed with a 4-fold molar excess of ZnSO4, which may not reflect physiological conditions. The claim that metal binding is essential for inhibition is not directly tested, as no experiments were performed to show that inhibition is abolished in the absence of Zn2+.
+  - **Why it matters** The proposed mechanism of inhibition relies on the interaction of the CCC motif with the active site metal. If this interaction is not physiologically relevant due to low metal affinity, the model is called into question. The authors need to demonstrate that metal binding is functionally important under conditions that approximate the cellular environment.
+  - **Resolution test** Measure the affinity of I3 for Zn2+ under more physiologically relevant conditions (e.g., in the presence of competing metal chelators). Test whether PP1 inhibition by I3 is dependent on the presence of Zn2+ in the assay buffer. Consider whether other metals (e.g., Fe2+, Mn2+) that are present at higher concentrations in cells could substitute for Zn2+.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the mechanism
+  - **Claim pointer** The authors suggest that the fuzzy, metal-binding inhibition mechanism may be shared among all phosphoprotein phosphatase (PPP) family members.
+  - **Evidence pointer** Discussion section
+  - **Concern** This claim is speculative and not supported by direct experimental evidence. While the authors note that the CCC motif is conserved in I3 orthologs, they do not provide any data showing that other PPP inhibitors or regulators use a similar mechanism. The statement in the abstract that this "might be shared between all phosphoprotein phosphatase family members" is an overreach given the lack of comparative data.
+  - **Why it matters** The broader significance of the work is enhanced if the mechanism is generalizable. However, unsupported speculation can undermine the credibility of the conclusions. The authors should either provide evidence for conservation of the mechanism or temper the claim.
+  - **Resolution test** Perform sequence analysis to identify potential CCC motifs in other PPP inhibitors or regulators. Test whether a representative peptide or protein from another PPP family member can bind metals and inhibit phosphatase activity in a similar manner. Alternatively, revise the discussion to clearly distinguish between speculation and evidence-based conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract, last sentence
+  - **Evidence pointer** Abstract
+  - **Issue** The sentence "Together, these data not only provide fundamental insights into the mechanisms by which IDP protein regulators of PP1 achieve inhibition, but also shows that fuzzy interactions between IDPs and their folded binding partners, in addition to enhancing binding affinity, can also directly regulate enzyme activity" contains a grammatical error ("shows" should be "show") and is overly long.
+  - **Required correction** Split into two sentences and correct the verb agreement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1H
+  - **Evidence pointer** Figure 1H
+  - **Issue** The IC50 curves in Figure 1H appear to lack error bars or confidence intervals, despite the text stating that data are presented as mean ± SD. It is unclear if the curves represent fits to pooled data or individual replicates.
+  - **Required correction** Clarify in the figure legend how the data were analyzed and whether error bars are shown. If not, state this explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** ITC experiments
+  - **Evidence pointer** Methods section "Isothermal Titration Calorimetry (ITC)"
+  - **Issue** The ITC methods state that ZnSO4 was titrated into I3 solutions, but no details are given on the buffer composition, particularly the presence of any metal chelators (e.g., EDTA, DTT) that could compete with Zn2+ binding. This is important for interpreting the measured affinity.
+  - **Required correction** Provide full buffer compositions for ITC experiments and discuss any potential competition from chelators.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The table reports KD and IC50 values with errors, but the number of independent experiments (n) is not consistently stated for all measurements. Some entries list n values, others do not.
+  - **Required correction** Ensure that n values are reported for all measurements in Table 1, and specify whether these represent technical or biological replicates.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction, Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The authors do not discuss the potential role of I3 in PP1 maturation in the context of their findings. The abstract mentions "putative roles in PP1 maturation," but this is not addressed in the discussion.
+  - **Required correction** Add a brief discussion of how the proposed inhibition mechanism relates to the known or proposed functions of I3 in PP1 maturation and cellular regulation.
+- **Technical failings that need to be addressed before the case is established** 1. The structural evidence for the fuzzy interaction of the CCC motif is indirect and requires further validation (R1-M1). 2. The physiological relevance of Zn2+ binding by I3 is not established (R1-M2). 3. The claim of generalizability to all PPP family members is not supported by data (R1-M3).
+- **Assessment against Nature-style criteria** Originality: High. The identification of a fuzzy, metal-mediated inhibition mechanism is novel and conceptually interesting. Scientific importance: High. The work advances understanding of PP1 regulation and provides a new paradigm for IDP-mediated enzyme inhibition. Interdisciplinary readership: Moderate to high. The work will appeal to structural biologists, biochemists, and cell biologists, but the technical nature may limit broader appeal. Technical soundness: Generally strong, with rigorous biophysical and structural methods, but the interpretation of the fuzzy interaction requires additional support. Readability for nonspecialists: The abstract is accessible, but the results and discussion assume significant background knowledge in phosphatase biology and structural biology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are likely correct and important, but the mechanistic model of fuzzy, metal-mediated inhibition needs stronger experimental support, particularly regarding the dynamics of the interaction and the physiological relevance of metal binding. The claim of generalizability should be tempered or supported with additional data.
+
+## Risk / unsupported claims
+- The claim that the CCC motif binds PP1 in a "dynamic, fuzzy manner" is inferred from crystallographic disorder and solution NMR line broadening, but no direct dynamics measurements are presented.
+- The assertion that the fuzzy, metal-binding mechanism "might be shared between all phosphoprotein phosphatase family members" is speculative and not supported by experimental evidence.
+- The physiological relevance of I3 binding to Zn2+ with micromolar affinity is not addressed, given that cellular free Zn2+ concentrations are typically much lower.
+- The statement that the I3:PP1 complex is the "only structure of mammalian expressed PP1 in which both metals are present at the active site" is a strong claim that requires verification against the existing literature.

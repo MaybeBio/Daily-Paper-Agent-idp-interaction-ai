@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary materials descriptions
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors report the cryo-EM structure of USP21 catalytic domain bound to an H2AK119-ubiquitinated nucleosome, revealing a distinct recognition mode involving the nucleosome acidic patch and DNA. They report an unexpected autoinhibition of USP21 by its N-terminal IDR, relief of autoinhibition by phosphorylation at S93, S113, and S115 by PRKCI and MARK1, and propose that IDR-mediated autoinhibition may be common across the USP family.
+- **Visible evidence base** Cryo-EM structure at 2.98 Å global resolution with focused refinement at 5.33 Å for the USP21-ubiquitin region; biochemical activity assays (Ub-AMC, K48 di-ubiquitin, H2AK119 nucleosome); mutagenesis; in vitro kinase assays; mass spectrometry identification of phosphorylation sites; AlphaFold-Multimer and AlphaFold3 predictions
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; specific numerical data for activity assays not shown in text; details of AlphaFold3 prediction parameters and confidence metrics not fully described; raw mass spectrometry data not shown
+
+## Reviewer
+- **Overall assessment** This manuscript presents a structurally and biochemically interesting study of USP21-mediated deubiquitination of H2AK119 on nucleosomes. The cryo-EM structure provides novel insights into nucleosome recognition by a USP-family DUB, and the discovery of IDR-mediated autoinhibition with phosphorylation-dependent relief is potentially significant. However, several technical concerns regarding the resolution of the key interaction interface, the strength of the autoinhibition evidence, and the generalizability claims require careful consideration. The manuscript is well-written and the logical flow is clear, but the current evidence does not fully establish all claims made, particularly regarding the mechanism of autoinhibition and the proposed family-wide phenomenon.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, epigenetics, and ubiquitin signaling would be interested in the structural basis of H2AK119 deubiquitination. The IDR-mediated autoinhibition mechanism and its phosphorylation-dependent regulation would interest those studying DUB regulation and enzyme regulation by intrinsically disordered regions. The AlphaFold-based screening approach may interest computational biologists and those studying protein-protein interactions.
+- **Major strengths** The cryo-EM structure of USP21 bound to a ubiquitinated nucleosome is a valuable contribution, as it provides the first structural view of this specific enzyme-substrate complex. The identification of a dual recognition mechanism involving both the acidic patch and DNA is novel. The discovery of IDR-mediated autoinhibition is unexpected and potentially important. The combination of structural biology, biochemistry, and computational prediction is methodologically strong. The use of a TEV-cleavable construct to demonstrate autoinhibition in a single protein preparation is elegant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural conclusions
+  - **Claim pointer** The authors claim that the cryo-EM structure reveals the recognition mode of USP21 for H2AK119-ubiquitinated nucleosomes, including specific interactions with the acidic patch and DNA.
+  - **Evidence pointer** Results section "Structural overview of USP21 bound to a H2AK119-ubiquitinated nucleosome"; Figures 1 and 2
+  - **Concern** The global map is at 2.98 Å resolution, but the authors state that the density for USP21 and ubiquitin was resolved at only 7-8 Å in the global map, and 5.33 Å after focused refinement. This is a significant concern because the key interactions between USP21, ubiquitin, and the nucleosome are the central claims of the structural analysis. At 5.33 Å, side-chain interactions cannot be reliably assigned, and the modeling of specific contacts (e.g., R470 with H2A E61 and H2B E102) is based on density that may not support such detailed interpretation. The authors state they "unambiguously positioned" crystal structures into the map, but the resolution of the interface region raises questions about whether the specific interactions described are truly supported by the data.
+  - **Why it matters** The structural model is the foundation for the entire manuscript. If the interactions at the USP21-ubiquitin-nucleosome interface cannot be confidently assigned due to limited resolution, then the mechanistic conclusions drawn from the structure are not reliable. This affects the comparison with other DUBs and the interpretation of the autoinhibition mechanism.
+  - **Resolution test** The authors should provide a clear validation of the local resolution in the USP21-ubiquitin region, including maps showing the density quality for the specific side chains they model as making key contacts. They should also provide cross-validation (e.g., model vs. map correlation) specifically for the interface region. If the resolution is insufficient for side-chain assignment, the claims about specific interactions should be softened accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for autoinhibition mechanism
+  - **Claim pointer** The authors claim that the N-terminal IDR of USP21 autoinhibits enzyme activity and that this autoinhibition is relieved by phosphorylation at S93, S113, and S115.
+  - **Evidence pointer** Results section "USP21 is autoinhibited by its N-terminal disordered region"; Figures 4 and 6
+  - **Concern** The evidence for autoinhibition relies on comparing activity of full-length USP21 with truncation mutants. While the TEV-cleavable construct is a good approach, the data presented in the text are qualitative. The authors state that full-length USP21 has "virtually no activity" and that truncations show increasing activity, but no quantitative data (e.g., kcat, KM, or activity values with errors) are provided in the main text. Furthermore, the AlphaFold3 model of autoinhibition is a prediction, not experimental validation. The claim that phosphorylation relieves autoinhibition is based on in vitro kinase assays, but the extent of phosphorylation and the stoichiometry are not reported. The mass spectrometry data identify phosphorylation sites but do not quantify occupancy.
+  - **Why it matters** The autoinhibition mechanism is a major novel finding of this manuscript. Without quantitative activity data and evidence that the observed effects are due to the proposed mechanism (IDR occluding the ubiquitin-binding site) rather than other effects (e.g., protein instability, aggregation, or altered folding), the claim is not fully established. The phosphorylation experiments need to demonstrate that phosphorylation at the specific sites is both necessary and sufficient for relief of autoinhibition.
+  - **Resolution test** The authors should provide quantitative kinetic parameters for full-length USP21, truncation mutants, and the 3A mutant. They should also demonstrate that the IDR physically occludes the ubiquitin-binding site, for example by showing that the IDR competes with ubiquitin binding in a binding assay. For the phosphorylation experiments, they should show that phosphorylation at S93, S113, and S115 is stoichiometric and that phosphomimetic mutations (e.g., S to E) recapitulate the effect of kinase treatment.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the autoinhibition mechanism
+  - **Claim pointer** The authors claim that "autoinhibitory IDR modules may be common across the USP family" based on AlphaFold analysis of 51 USP DUBs.
+  - **Evidence pointer** Results section "Autoinhibitory IDR modules may be common across the USP family"; Figure 7
+  - **Concern** The computational screen for autoinhibitory IDRs across the USP family is based on AlphaFold predictions, which are not experimentally validated. The criteria used to identify "potential autoinhibitory regions" (contacts within 5 Å with PAE cutoff of 20 Å) are reasonable but may produce false positives. The authors identify 12 DUBs with potential autoinhibitory regions, but only two (USP10 and USP37) have prior experimental evidence of phosphorylation-dependent regulation. The claim that this is a "common" mechanism across the USP family is not supported by experimental evidence for the other 10 DUBs.
+  - **Why it matters** The generalizability claim extends the significance of the findings beyond USP21. If this claim is not well-supported, it overstates the implications of the work. The computational predictions are hypothesis-generating, not confirmatory, and should be presented as such.
+  - **Resolution test** The authors should temper the claim to indicate that the computational analysis generates testable hypotheses for future experimental validation. Alternatively, they could provide experimental evidence for at least one or two additional USP family members to support the generalizability claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance of phosphorylation
+  - **Claim pointer** The authors imply that phosphorylation of USP21 by PRKCI and MARK1 is a physiologically relevant regulatory mechanism.
+  - **Evidence base** Results section "Phosphorylation by PRKC1 and MARK1 relieves USP21 autoinhibition"; Figure 6
+  - **Concern** The in vitro kinase assays demonstrate that PRKCI and MARK1 can phosphorylate USP21 and that this relieves autoinhibition. However, the physiological relevance of this finding is not established. The authors do not show that these kinases regulate USP21 activity in cells, nor do they demonstrate that the phosphorylation sites are modified in vivo under relevant conditions. The concentrations of kinase used in the assays are not reported, and it is unclear whether these are physiologically relevant.
+  - **Why it matters** The claim that phosphorylation regulates USP21 activity has implications for understanding how USP21 is controlled in cells. Without cellular evidence, the physiological significance of the in vitro findings is uncertain. This is particularly important given that the authors propose this as a general regulatory mechanism for USP family DUBs.
+  - **Resolution test** The authors should provide cellular evidence that USP21 is phosphorylated at S93, S113, and/or S115 in response to PRKCI or MARK1 activity, and that this phosphorylation affects USP21 activity on H2AK119ub in cells. Alternatively, they should clearly state that the in vivo relevance remains to be determined.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of structural comparison
+  - **Affected element** Results section "Comparison with other H2AK119-specific DUBs"
+  - **Evidence pointer** Figure 3
+  - **Issue** The comparison of USP21 with USP16 and PR-DUB is described qualitatively. The authors state that the recognition modes are "completely different" but do not provide a systematic quantitative comparison (e.g., buried surface area, contact residues, orientation angles).
+  - **Required correction** Provide a table or figure with quantitative comparison metrics to support the claim of distinct recognition modes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Activity assays throughout
+  - **Evidence pointer** Figures 4 and 6
+  - **Issue** The text states that "average and SD are reported across technical triplicates" for some assays, but the number of independent experiments (biological replicates) is not stated. For the kinase experiments, the number of replicates is not mentioned.
+  - **Required correction** Clearly state the number of independent experiments and whether statistical tests were performed. If no statistical analysis was done, state this explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** AlphaFold3 methodology
+  - **Affected element** Methods section "In silico prediction of USP21 structure"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of AlphaFold3 predictions is brief. The authors do not specify the version of AlphaFold3 used, the number of models generated, the confidence metrics (other than PAE), or how the predictions were validated.
+  - **Required correction** Provide more detail on the computational methods, including software version, parameters, and validation criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Cancer mutation analysis
+  - **Affected element** Results section "Analysis of cancer-associated mutations"
+  - **Evidence pointer** Figure 3A
+  - **Issue** The analysis of cancer mutations is descriptive. The authors identify mutations that "would be predicted to disrupt activity" but do not experimentally test any of these predictions.
+  - **Required correction** Either provide experimental validation of at least a few key mutations or clearly state that these are predictions that require experimental testing.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Nomenclature consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Text
+  - **Issue** The kinase is referred to as both "PRKC1" and "PRKCI" in different places. The authors should use one consistent name.
+  - **Required correction** Use the standard gene name consistently throughout the manuscript.
+
+## Risk / unsupported claims
+- The claim that the cryo-EM structure reveals specific side-chain interactions between USP21 and the nucleosome (e.g., R470 with H2A E61 and H2B E102) is not fully supported given the 5.33 Å resolution of the focused map in the USP21-ubiquitin region.
+- The claim that the IDR autoinhibits USP21 by occluding the ubiquitin-binding site is a prediction based on AlphaFold3 modeling, not experimentally demonstrated.
+- The claim that phosphorylation at S93, S113, and S115 relieves autoinhibition is supported by in vitro kinase assays, but the stoichiometry of phosphorylation and the physiological relevance are not established.
+- The claim that "autoinhibitory IDR modules may be common across the USP family" is based solely on computational predictions and is not experimentally validated for the majority of the identified DUBs.
+- The functional significance of the cancer-associated mutations identified in the structural analysis is speculative, as no experimental validation is provided.
+- The in vivo relevance of PRKCI and MARK1 as regulators of USP21 is not demonstrated.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37200152",
+  "title": "Census of exposed aggregation-prone regions in proteomes.",
+  "authors": "Falgarone, Theo; Villain, Etienne; Richard, Francois; Osmanli, Zarifa; Kajava, Andrey V",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-05-18",
+  "window": {
+    "start": "2023-05-15",
+    "end": "2023-05-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过生物信息学管道跨物种普查暴露的聚集倾向区域(EARs)，结合无序区域信息分析其分布与进化关联，虽涉及IDR和聚集互作倾向，但无PPI机制建模或AI/物理模拟方法，属相关但方法较弱。",
+  "abstract": "Loss of solubility usually leads to the detrimental elimination of protein function. In some cases, the protein aggregation is also required for beneficial functions. Given the duality of this phenomenon, it remains a fundamental question how natural selection controls the aggregation. The exponential growth of genomic sequence data and recent progress with in silico predictors of the aggregation allows approaching this problem by a large-scale bioinformatics analysis. Most of the aggregation-prone regions are hidden within the 3D structure, rendering them inaccessible for the intermolecular interactions responsible for aggregation. Thus, the most realistic census of the aggregation-prone regions requires crossing aggregation prediction with information about the location of the natively unfolded regions. This allows us to detect so-called 'exposed aggregation-prone regions' (EARs). Here, we analyzed the occurrence and distribution of the EARs in 76 reference proteomes from the three kingdoms of life. For this purpose, we used a bioinformatics pipeline, which provides a consensual result based on several predictors of aggregation. Our analysis revealed a number of new statistically significant correlations about the presence of EARs in different organisms, their dependence on protein length, cellular localizations, co-occurrence with short linear motifs and the level of protein expression. We also obtained a list of proteins with the conserved aggregation-prone sequences for further experimental tests. Insights gained from this work led to a deeper understanding of the relationship between protein evolution and aggregation.",
+  "abstract_zh": "溶解性的丧失通常会导致蛋白质功能的有害丧失。在某些情况下，蛋白质聚集也为有益功能所需。鉴于这一现象的双重性，自然选择如何控制聚集仍是一个基本问题。基因组序列数据的指数增长以及计算机模拟聚集预测器的最新进展，使得通过大规模生物信息学分析来探讨这一问题成为可能。大多数易聚集区域隐藏在三维结构内部，使其无法参与导致聚集的分子间相互作用。因此，对易聚集区域进行最现实的普查需要将聚集预测与天然未折叠区域的位置信息相结合。这使我们能够检测到所谓的“暴露的易聚集区域”（EARs）。在此，我们分析了76个参考蛋白质组中EARs的出现和分布，这些蛋白质组来自生命三域。为此，我们使用了一个生物信息学流程，该流程基于多个聚集预测器提供共识结果。我们的分析揭示了关于不同生物体中EARs存在的新统计显著相关性，包括它们对蛋白质长度、细胞定位、与短线性基序的共现以及蛋白质表达水平的依赖性。我们还获得了一份具有保守聚集倾向序列的蛋白质列表，以供进一步的实验测试。从这项工作中获得的见解加深了对蛋白质进化与聚集之间关系的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37200152/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37200152/",
+  "paper_page_path": "papers/pubmed/37200152/index.html"
+}

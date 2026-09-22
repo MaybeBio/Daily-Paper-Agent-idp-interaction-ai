@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors use multiscale simulations (CALVADOS2, Martini3, and atomistic) to study phase separation of the MUT-16 scaffold protein and its recruitment of the client protein MUT-8 in C. elegans Mutator foci. They report consistent predictions of relative phase separation propensities across coarse-grained models, validated by in vitro experiments, and identify cation-π interactions between MUT-8 Tyr and MUT-16 Arg residues as key drivers of client recognition, supported by pulldown mutation experiments.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, experimental methods, statistical analyses, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a compelling multiscale simulation strategy applied to a biologically important question in RNA silencing. The integration of multiple simulation resolutions with experimental validation is commendable and the findings on Arg-Tyr cation-π interactions are mechanistically interesting. However, the abstract alone provides insufficient detail to evaluate the rigor of the simulations, the robustness of the cross-method comparisons, or the statistical significance of the experimental validations. The central claims are plausible but not fully assessable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular phase separation, condensate biology, RNA silencing and small RNA pathways, and computational biophysics. The multiscale simulation approach and the specific mechanistic insight into scaffold-client recognition would also interest method developers in coarse-grained and atomistic simulation communities.
+- **Major strengths** The multiscale approach spanning residue-level, near-atomistic, and atomistic resolutions is ambitious and well-motivated. The consistency between two independent coarse-grained models for phase separation propensities, with in vitro confirmation, strengthens the credibility of the predictions. The identification of a specific interaction type (cation-π between Arg and Tyr) with atomistic detail, followed by mutation-based experimental validation, provides a clear mechanistic narrative.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Both coarse-grained models (CALVADOS2 and Martini3) predicted the relative phase separation propensities of MUT-16's disordered regions, which we confirmed through in vitro experiments."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that both models predicted relative phase separation propensities that were confirmed experimentally, but no quantitative details are given. It is unclear which specific regions were compared, how the propensities were quantified in each model, what experimental assay was used, and whether the agreement was qualitative or quantitative. The claim of consistency across models and experiments cannot be evaluated without these details.
+  - **Why it matters** The cross-validation between simulation and experiment is a central pillar of the paper's contribution. If the agreement is only qualitative or limited to a subset of regions, the strength of the conclusion is substantially weakened. Without knowing the metrics and error bars, the reader cannot judge whether the models are genuinely predictive or merely consistent in a coarse sense.
+  - **Resolution test** Provide a quantitative comparison of phase separation propensities (e.g., critical concentrations, saturation concentrations, or transfer free energies) for each disordered region from both models, alongside the experimental measurements, with appropriate statistical treatment and error estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Martini3 and 350 µs atomistic simulations on Folding@Home of MUT-8's N-terminal prion-like domain with MUT-16 M8BR cluster highlighted the importance of cation-π interactions between Tyr residues of MUT-8 and Arg residues of MUT-16 M8BR."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports that Martini3 and atomistic simulations both highlighted cation-π interactions, but also notes that Lys residues were more prone to interact in Martini3. This discrepancy between models is mentioned but not resolved. The atomistic simulations are claimed to reveal additional favorable contacts for Arg-Tyr, but the abstract does not state whether the Martini3 model captures these contacts or whether the discrepancy affects the overall conclusion. The reader is left uncertain about which model is more reliable for this interaction and whether the Martini3 result contradicts the atomistic finding.
+  - **Why it matters** The paper's central mechanistic claim is that Arg-Tyr cation-π interactions drive MUT-8 recruitment. If one of the two simulation models predicts a different preference (Lys over Arg), the consistency of the multiscale approach is called into question. The authors need to explain the discrepancy and justify why the atomistic result is the more trustworthy one, or show that the discrepancy does not affect the biological conclusion.
+  - **Resolution test** Provide a direct comparison of interaction free energies or contact frequencies for Arg-Tyr versus Lys-Tyr from both Martini3 and atomistic simulations, with an explanation of the origin of the discrepancy and a justification for which model is more physically accurate for this system.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "In agreement with our simulations, in vitro co-expression pulldown experiments demonstrated a progressive loss of MUT-8 recruitment following the mutation of Arg in MUT-16 M8BR to Lys or Ala, confirming the critical role of Arg in this interaction."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The pulldown experiments are described as showing "progressive loss" of recruitment with Arg to Lys or Ala mutations, but no quantitative data are provided. It is unclear how many replicates were performed, what the magnitude of the loss was, whether the Lys mutation (which preserves charge) showed a smaller loss than Ala (which removes charge), and whether the differences were statistically significant. The term "progressive" implies a graded response, but this is not substantiated.
+  - **Why it matters** The experimental validation is the key evidence that the simulations have biological relevance. Without quantitative pulldown data with error bars and statistical tests, the claim that Arg is critical cannot be rigorously assessed. The distinction between Lys and Ala mutations is particularly important because it tests whether the effect is due to cation-π interactions specifically or simply to loss of positive charge.
+  - **Resolution test** Provide pulldown quantification with replicate numbers, error bars, and statistical significance tests for wild-type, Arg-to-Lys, and Arg-to-Ala mutants, and show that the Lys mutant retains more recruitment than the Ala mutant if the cation-π mechanism is correct.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Statement of Significance
+  - **Evidence pointer** Abstract, Statement of Significance
+  - **Issue** The Statement of Significance contains a grammatical error ("Mutator focus ." with a space before the period) and the phrasing "produce small RNA which help to regulates genes" is awkward and contains a subject-verb agreement error.
+  - **Required correction** Revise the Statement of Significance for grammatical correctness and clarity, for example "Mutator foci produce small RNAs that help regulate gene expression."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "350 µs atomistic simulations on Folding@Home" but does not specify the system size, the force field used, the number of replicas, or how convergence was assessed. For a single 350 µs trajectory, sampling convergence is a legitimate concern for disordered proteins.
+  - **Required correction** In the full manuscript, provide details on system construction, force field parameters, number of independent simulations, and convergence criteria (e.g., block error analysis or replica comparison).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability of findings
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract focuses entirely on the MUT-16/MUT-8 system. It is unclear whether the authors intend to claim that the Arg-Tyr cation-π mechanism is general for scaffold-client recognition in condensates or specific to this system. A brief statement on generalizability would help frame the significance.
+  - **Required correction** Add a sentence in the discussion or conclusion addressing whether the identified interaction mechanism is likely to be general across other scaffold-client pairs or specific to MUT-16/MUT-8.
+
+## Risk / unsupported claims
+- The claim that "Simulations across different resolutions provide a consistent perspective" is not fully supported because the abstract itself reports a discrepancy between Martini3 and atomistic simulations regarding Lys versus Arg interaction propensity.
+- The claim that in vitro experiments "confirmed" the relative phase separation propensities predicted by both coarse-grained models is not assessable without quantitative experimental data.
+- The claim that Arg-Tyr interactions are "stronger than Lys-Tyr" is based on atomistic simulations, but the abstract does not provide free energy differences or statistical uncertainties, making the strength of this claim unquantifiable.
+- The biological significance of the findings for RNA silencing in C. elegans is stated but not elaborated; the connection between MUT-8 recruitment and small RNA production is asserted without mechanistic detail.
+- The claim that the multiscale approach "enables the fine-tuning of chemical details while balancing the computational cost" is a methodological assertion that cannot be evaluated from the abstract alone.

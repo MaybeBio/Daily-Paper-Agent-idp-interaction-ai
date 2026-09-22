@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "41021779",
+    "doi": "10.1021/acsmacrolett.5c00342",
+    "title": "Theory of Condensate Size Control by Molecular Charge Asymmetry."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are complex droplets comprising diverse molecules that interact by various mechanisms. Condensation is often driven by short-range attraction, but net charges can also mediate long-range repulsion. Using molecular dynamics simulations and an equilibrium field theory, we show that such opposing interactions can suppress coarsening, so many droplets of equal size coexist at equilibrium. This size control depends strongly on the charge asymmetry between molecular constituents, while the strength of the short-range attractions has a weak influence. The mechanism relies on droplets expelling ions; therefore, they cannot screen electrostatics effectively, implying that droplets acquire a net charge and cannot grow indefinitely. Our simulations indicate that this effect is likely less prevalent in biomolecular condensates within cells, although we still observe stable small clusters in this case. Taken together, our work reveals that electrostatic effects through molecular charge asymmetries can control droplet size, which contributes to our understanding of biomolecular condensates and the creation of synthetic patterns in chemical engineering.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luo, Chengjie",
+        "Hess, Nathaniel",
+        "Aierken, Dilimulati",
+        "Qiang, Yicheng",
+        "Joseph, Jerelle A",
+        "Zwicker, David"
+      ],
+      "short_names": [
+        "Luo C",
+        "Hess N",
+        "Aierken D",
+        "Qiang Y",
+        "Joseph JA",
+        "Zwicker D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1727-5759",
+        "ORCID: 0000-0003-2053-079X",
+        "ORCID: 0000-0003-4525-180X",
+        "ORCID: 0000-0002-3909-3334"
+      ],
+      "affiliations": [
+        "Max Planck Institute for Dynamics and Self-Organization, Am Fassberg 17, 37077 Gottingen, Germany.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey 08544, United States.",
+        "Max Planck Institute for Dynamics and Self-Organization, Am Fassberg 17, 37077 Gottingen, Germany.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey 08544, United States.",
+        "Max Planck Institute for Dynamics and Self-Organization, Am Fassberg 17, 37077 Gottingen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luo, Chengjie",
+        "short_name": "Luo C",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute for Dynamics and Self-Organization, Am Faßberg 17, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Hess, Nathaniel",
+        "short_name": "Hess N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States."
+        ]
+      },
+      {
+        "full_name": "Aierken, Dilimulati",
+        "short_name": "Aierken D",
+        "identifiers": [
+          "0000-0003-1727-5759"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey 08544, United States."
+        ]
+      },
+      {
+        "full_name": "Qiang, Yicheng",
+        "short_name": "Qiang Y",
+        "identifiers": [
+          "0000-0003-2053-079X"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Dynamics and Self-Organization, Am Faßberg 17, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Joseph, Jerelle A",
+        "short_name": "Joseph JA",
+        "identifiers": [
+          "0000-0003-4525-180X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey 08544, United States."
+        ]
+      },
+      {
+        "full_name": "Zwicker, David",
+        "short_name": "Zwicker D",
+        "identifiers": [
+          "0000-0002-3909-3334"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Dynamics and Self-Organization, Am Faßberg 17, 37077 Göttingen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS macro letters"
+    ],
+    "journal_abbrev": [
+      "ACS Macro Lett"
+    ],
+    "pub_date": "2025 Oct 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/29 22:46",
+    "fetched_at": "2026-09-17 20:40:26"
+  },
+  "links": {
+    "cites": [
+      "42506692",
+      "41755827",
+      "41296980",
+      "40503028"
+    ],
+    "refs": [
+      "40796733",
+      "40653653",
+      "40135821",
+      "39827079",
+      "39824169",
+      "39571014",
+      "39356108",
+      "39044475",
+      "38856073",
+      "38072599",
+      "37957331",
+      "36603581",
+      "35590728",
+      "35543798",
+      "34334816",
+      "32312191",
+      "32134099",
+      "31665885",
+      "30853717",
+      "30731446",
+      "29319301",
+      "29219402",
+      "28942918",
+      "28225081",
+      "27392146",
+      "26274171",
+      "19905726",
+      "17788780",
+      "14970378",
+      "12513348",
+      "9901834"
+    ],
+    "similar": [
+      "41021779",
+      "39975453",
+      "35293386",
+      "34186016",
+      "40626470",
+      "35001622",
+      "33307683",
+      "40985078",
+      "36758221",
+      "37980572",
+      "35867936",
+      "39498261",
+      "39149273",
+      "37721444",
+      "40635595",
+      "39044475",
+      "38622120",
+      "38987300",
+      "37791635",
+      "35411085",
+      "40159770",
+      "41481439",
+      "41355754",
+      "40721018",
+      "22583294",
+      "40751677",
+      "40629499",
+      "40196628",
+      "40782375",
+      "39952921",
+      "40923545",
+      "35761089",
+      "40236055",
+      "33231755",
+      "23912807",
+      "40028356",
+      "40791470",
+      "32101441",
+      "35881789",
+      "41251020",
+      "38192101",
+      "40877270",
+      "21410204",
+      "37468629",
+      "37770446",
+      "40509934",
+      "34315935",
+      "40229261",
+      "41279444",
+      "37705794",
+      "37546704",
+      "37043540",
+      "35587384",
+      "33864415",
+      "31437398",
+      "37497046",
+      "17031962",
+      "37546967",
+      "33570411",
+      "37781612",
+      "39620362",
+      "33376791",
+      "34552246",
+      "37904914",
+      "17134228",
+      "39005320",
+      "38308651",
+      "34241502",
+      "39655866",
+      "40672301",
+      "38429263",
+      "31769988",
+      "37131735",
+      "39356108",
+      "30099028",
+      "39071308",
+      "37194953",
+      "40475453",
+      "38766065",
+      "40534071",
+      "39591966",
+      "39677715",
+      "37156794",
+      "28742350",
+      "36798397",
+      "36711465",
+      "39320949",
+      "39591652",
+      "39513041",
+      "40503028",
+      "36716270",
+      "22225163",
+      "40699931",
+      "28190162",
+      "33934561",
+      "39922493",
+      "22197905",
+      "40664121",
+      "40616404",
+      "15740212"
+    ],
+    "review": [
+      "41021779",
+      "35761089",
+      "30099028",
+      "33934561",
+      "40664121"
+    ],
+    "pmc": [
+      "12548355"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41021779/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/amlccd/article-lookup/doi/10.1021/acsmacrolett.5c00342",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

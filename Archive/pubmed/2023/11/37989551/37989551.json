@@ -1,0 +1,274 @@
+{
+  "identity": {
+    "pmid": "37989551",
+    "doi": "10.1021/acs.jctc.3c01016",
+    "title": "Improved Protein Model in SPICA Force Field."
+  },
+  "content": {
+    "abstract": "The previous version of the SPICA coarse-grained (CG) force field (FF) protein model focused primarily on membrane proteins and successfully reproduced the dimerization free energies of several transmembrane helices and the stable structures of various membrane protein assemblies. However, that model had limited accuracy when applied to other proteins, such as intrinsically disordered proteins (IDPs) and peripheral proteins, because the dimensions of the IDPs in an aqueous solution were too compact, and protein binding on the lipid membrane surface was overstabilized. To improve the accuracy of the SPICA FF model for the simulation of such systems, in this study, we introduce protein secondary structure-dependent nonbonded interaction parameters to the backbone segments and reoptimize almost all nonbonded parameters for amino acids. The improved FF proposed here successfully reproduces the radii of gyration of various IDPs, the binding sensitivity of several peripheral membrane proteins, and the dimerization free energies of several transmembrane helices. The new model also shows improved agreement with experiments on the free energy of peptide association in water. In addition, an extensive library of nonbonded interactions between proteins and lipids, including various glycerophospholipids, sphingolipids, and cholesterol, allows the study of specific interactions between lipids and peripheral and transmembrane proteins. Hence, the new SPICA FF (version 2) proposed herein is applicable with high accuracy for simulating a wide range of protein systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Membrane Proteins/chemistry",
+      "Peptides",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Water/chemistry",
+      "Lipids"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yamada, Teppei",
+        "Miyazaki, Yusuke",
+        "Harada, Shogo",
+        "Kumar, Ashutosh",
+        "Vanni, Stefano",
+        "Shinoda, Wataru"
+      ],
+      "short_names": [
+        "Yamada T",
+        "Miyazaki Y",
+        "Harada S",
+        "Kumar A",
+        "Vanni S",
+        "Shinoda W"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-5121-2488",
+        "ORCID: 0000-0002-8072-9111",
+        "ORCID: 0009-0001-6910-4655",
+        "ORCID: 0000-0003-2146-1140",
+        "ORCID: 0000-0002-3388-9227"
+      ],
+      "affiliations": [
+        "Graduate School of Natural Science and Technology, Okayama University, 3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan.",
+        "Research Institute for Interdisciplinary Science, Okayama University, 3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan.",
+        "Department of Materials Chemistry, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8603, Japan.",
+        "Department of Biology and National Center of Competence in Research Bio-inspired Materials, University of Fribourg, Chemin du Musee 10, 1700 Fribourg, Switzerland.",
+        "Department of Biology and National Center of Competence in Research Bio-inspired Materials, University of Fribourg, Chemin du Musee 10, 1700 Fribourg, Switzerland.",
+        "Research Institute for Interdisciplinary Science, Okayama University, 3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yamada, Teppei",
+        "short_name": "Yamada T",
+        "identifiers": [
+          "0009-0009-5121-2488"
+        ],
+        "affiliations": [
+          "Graduate School of Natural Science and Technology, Okayama University, 3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan."
+        ]
+      },
+      {
+        "full_name": "Miyazaki, Yusuke",
+        "short_name": "Miyazaki Y",
+        "identifiers": [
+          "0000-0002-8072-9111"
+        ],
+        "affiliations": [
+          "Research Institute for Interdisciplinary Science, Okayama University, 3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan."
+        ]
+      },
+      {
+        "full_name": "Harada, Shogo",
+        "short_name": "Harada S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Materials Chemistry, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8603, Japan."
+        ]
+      },
+      {
+        "full_name": "Kumar, Ashutosh",
+        "short_name": "Kumar A",
+        "identifiers": [
+          "0009-0001-6910-4655"
+        ],
+        "affiliations": [
+          "Department of Biology and National Center of Competence in Research Bio-inspired Materials, University of Fribourg, Chemin du Musée 10, 1700 Fribourg, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Vanni, Stefano",
+        "short_name": "Vanni S",
+        "identifiers": [
+          "0000-0003-2146-1140"
+        ],
+        "affiliations": [
+          "Department of Biology and National Center of Competence in Research Bio-inspired Materials, University of Fribourg, Chemin du Musée 10, 1700 Fribourg, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Shinoda, Wataru",
+        "short_name": "Shinoda W",
+        "identifiers": [
+          "0000-0002-3388-9227"
+        ],
+        "affiliations": [
+          "Research Institute for Interdisciplinary Science, Okayama University, 3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2023 Dec 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/22 00:42",
+    "fetched_at": "2026-09-21 02:59:59"
+  },
+  "links": {
+    "cites": [
+      "42484064",
+      "41652163",
+      "40544328",
+      "40376428",
+      "40307210",
+      "40060197",
+      "39879096",
+      "39412378",
+      "39103332",
+      "39069976"
+    ],
+    "refs": [],
+    "similar": [
+      "37989551",
+      "35413197",
+      "25149815",
+      "30091924",
+      "29808548",
+      "28805390",
+      "30865832",
+      "31751511",
+      "20017540",
+      "33810353",
+      "33411518",
+      "32859072",
+      "39103332",
+      "37603467",
+      "38156656",
+      "31756104",
+      "30933517",
+      "34686048",
+      "31613621",
+      "30514078",
+      "26052838",
+      "35377637",
+      "36178373",
+      "20640160",
+      "27819658",
+      "31657215",
+      "25207671",
+      "33459730",
+      "36641212",
+      "33934416",
+      "37452752",
+      "33720709",
+      "24506488",
+      "30990694",
+      "36080494",
+      "31552948",
+      "26574429",
+      "25375525",
+      "36821400",
+      "24589355",
+      "32227937",
+      "30250773",
+      "32816485",
+      "36066390",
+      "33591749",
+      "29080468",
+      "34032235",
+      "38112495",
+      "35793442",
+      "28157327",
+      "36827446",
+      "39160094",
+      "29735687",
+      "28493424",
+      "34598583",
+      "28554553",
+      "33530506",
+      "34651150",
+      "36387274",
+      "25919886",
+      "34185520",
+      "36533639",
+      "34845619",
+      "33355572",
+      "34716273",
+      "31903719",
+      "24892900",
+      "34546059",
+      "26575776",
+      "26727467",
+      "30259679",
+      "28388089",
+      "27782390",
+      "17116404",
+      "32436706",
+      "24317797",
+      "30730736",
+      "36468450",
+      "27484738",
+      "24763499",
+      "36083825",
+      "28226222",
+      "31714766",
+      "31859392",
+      "33382616",
+      "31470695",
+      "28095698",
+      "30608164",
+      "31259246",
+      "31476127",
+      "27807980",
+      "26574224",
+      "31877033",
+      "19280018",
+      "28834051",
+      "30913885",
+      "27004461",
+      "25719673",
+      "22552999",
+      "34523933",
+      "38113378"
+    ],
+    "review": [
+      "37989551",
+      "20640160",
+      "33591749",
+      "29080468",
+      "28554553",
+      "33530506",
+      "33355572",
+      "28226222"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.3c01016",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

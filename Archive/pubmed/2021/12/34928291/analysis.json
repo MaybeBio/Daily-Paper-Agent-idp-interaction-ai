@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34928291",
+  "title": "Role of entropy in determining the phase behavior of protein solutions induced by multivalent ions.",
+  "authors": "Sahoo, Anil Kumar; Schreiber, Frank; Netz, Roland R; Maiti, Prabal K",
+  "journal": "Soft matter",
+  "published_date": "2021-12-21",
+  "window": {
+    "start": "2021-12-20",
+    "end": "2021-12-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用全原子MD模拟研究多价离子诱导BSA蛋白溶液的LCST相行为，揭示阳离子桥介导的蛋白-蛋白结合由脱水熵驱动，虽对象为折叠蛋白而非IDP，但熵驱动的互作机制建模对无序蛋白相分离研究有可迁移启发。",
+  "abstract": "Recent experiments have reported lower critical solution temperature (LCST) phase behavior of aqueous solutions of proteins induced by multivalent ions, where the solution phase separates upon heating. This phenomenon is linked to complex hydration effects that result in a net entropy gain upon phase separation. To decipher the underlying molecular mechanism, we use all-atom molecular dynamics simulations along with the two-phase thermodynamic method for entropy calculation. Based on simulations of a single BSA protein in various salt solutions (NaCl, CaCl(2), MgCl(2), and YCl(3)) at temperatures (T) ranging 283-323 K, we find that the cation-protein binding affinity increases with T, reflecting its thermodynamic driving force to be entropic in origin. We show that in the cation binding process, many tightly bound water molecules from the solvation shells of a cation and the protein are released to the bulk, resulting in entropy gain. To rationalize the LCST behavior, we calculate the zeta-potential that shows charge inversion of the protein for solutions containing multivalent ions. The zeta-potential increases with T. Performing simulations of two BSA proteins, we demonstrate that the protein-protein binding is mediated by multiple cation bridges and involves similar dehydration effects that cause a large entropy gain which more than compensates for rotational and translational entropy losses of the proteins. Thus, the LCST behavior is entropy-driven, but the associated solvation effects are markedly different from hydrophobic hydration. Our findings have direct implications for tuning the phase behavior of biological and soft-matter systems, e.g., protein condensation and crystallization.",
+  "abstract_zh": "最近的实验报道了多价离子诱导的蛋白质水溶液具有较低临界溶解温度（LCST）相行为，即溶液在加热时发生相分离。这一现象与复杂的溶剂化效应相关，这些效应导致相分离时净熵增加。为了解析其潜在的分子机制，我们采用全原子分子动力学模拟结合两相热力学方法进行熵计算。基于对单个BSA蛋白在不同盐溶液（NaCl、CaCl(2)、MgCl(2)和YCl(3)）中、温度（T）范围为283-323 K下的模拟，我们发现阳离子-蛋白质结合亲和力随T增加而增强，反映出其热力学驱动力源于熵效应。我们表明，在阳离子结合过程中，阳离子和蛋白质溶剂化壳层中的许多紧密结合水分子被释放到体相中，导致熵增加。为了合理化LCST行为，我们计算了ζ电位，显示含多价离子溶液中蛋白质发生电荷反转。ζ电位随T升高而增加。通过对两个BSA蛋白的模拟，我们证明蛋白质-蛋白质结合由多个阳离子桥介导，并涉及类似的脱水效应，这导致大的熵增加，足以补偿蛋白质的旋转和平移熵损失。因此，LCST行为是熵驱动的，但相关的溶剂化效应与疏水水合显著不同。我们的发现对调节生物和软物质系统（如蛋白质凝聚和结晶）的相行为具有直接意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34928291/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34928291/",
+  "paper_page_path": "papers/pubmed/34928291/index.html"
+}

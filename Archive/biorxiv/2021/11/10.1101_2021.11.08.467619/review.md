@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusions, supporting information list)
+- **Assessment boundary** Scientific content, methodological soundness, claims vs. evidence, and alignment with Nature-style criteria. No line numbers were provided; references to specific locations are by section or figure/table name.
+- **Shared manuscript claim summary** The authors present the first computational study of the full-length intrinsically disordered protein MeCP2, using a combination of all-atom and coarse-grained simulations. They report two main conformational states (single globule and two-globule), agreement with experimental data (W104 buried, R111/R133 solvent accessible, 4.1% α-helix content), and an assessment of AlphaFold's prediction for this IDP.
+- **Visible evidence base** Abstract, Introduction, Methods (ab initio modelling, all-atom and coarse-grained simulation protocols), Results (radius of gyration, RMSD, secondary structure content, solvent accessibility, salt bridges, PCA, comparison with AlphaFold), Conclusions, and list of Supporting Information figures/tables.
+- **Missing materials affecting confidence** The full Methods section is not provided in detail (e.g., force field parameters for coarse-grained simulations, convergence criteria, error analysis). Supporting Information (Figures S1–S11, Tables S1–S10) is referenced but not available for inspection. No simulation trajectory data or reproducibility scripts are provided.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant gap in the structural biology of MeCP2, an important IDP linked to Rett syndrome. The multiscale approach combining all-atom and coarse-grained simulations is appropriate and the comparison with experimental data is a strength. However, several technical concerns regarding simulation convergence, force field choice, and the interpretation of the two-globule conformation need to be addressed before the conclusions are fully supported. The AlphaFold comparison is timely but the conclusions drawn from it require more careful framing.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, molecular dynamics simulation, and neurogenetic disorders (particularly Rett syndrome) would find this work relevant. The study provides a first structural model of full-length MeCP2, which could inform future studies on disease-associated mutations and protein interactions. The comparison with AlphaFold is also of broad interest to the structural biology community.
+- **Major strengths** 1) First computational study of full-length MeCP2, addressing a clear gap in the literature. 2) Multiscale approach (all-atom and coarse-grained) provides complementary perspectives. 3) Direct comparison with experimental data (secondary structure content, solvent accessibility) strengthens the validity of the model. 4) The critical assessment of AlphaFold's prediction for an IDP is timely and useful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the all-atom simulation "converged after 800 ns to a very stable structure" and that the conformational ensemble is representative of MeCP2's behavior.
+  - **Evidence pointer** Results section, Figure 3, Figure 12
+  - **Concern** The claim of convergence is based on a single 1,550 ns trajectory. For an IDP of this size (486 residues), this timescale is likely insufficient to sample the full conformational ensemble. The RMSD continues to fluctuate throughout the trajectory, and the authors themselves note that the TRD domain begins to sample more conformational space in the second half of the simulation. This suggests the system has not reached equilibrium. The convergence criterion is not clearly defined, and no block averaging or replica exchange methods were used to assess sampling adequacy.
+  - **Why it matters** If the simulation has not converged, the reported secondary structure content, solvent accessibility values, and the observed single-globule conformation may be biased by the initial conditions and the specific trajectory path. This undermines the claim that the model is representative of the protein's native ensemble.
+  - **Resolution test** The authors should provide a quantitative convergence analysis (e.g., time evolution of order parameters, block averaging of Rg and secondary structure content, or comparison of independent trajectories). If longer simulations are not feasible, the limitations should be explicitly acknowledged and the claims softened accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the coarse-grained simulations "sample two different conformations" and that the two-globule conformation is a distinct state of MeCP2.
+  - **Evidence pointer** Results section, Figures 5–10, Table S8
+  - **Concern** The coarse-grained simulations use the PLUM model, which is an implicit solvent model with a specific parameterization. The authors do not provide details on how the PLUM model was validated for this system, nor do they discuss the known limitations of coarse-grained models for IDPs (e.g., over-stabilization of compact states, incorrect secondary structure propensities). The two-globule conformation is observed in only two of four simulations, and its stability is not quantified (e.g., free energy difference between the one- and two-globule states). The claim that this is a "conformation" of MeCP2 implies it is a thermodynamically relevant state, but the evidence presented is insufficient to support this.
+  - **Why it matters** The two-globule conformation is a central finding of the paper and is used to motivate the speculative experimental proposal. If this state is an artifact of the coarse-grained model or a kinetic trap, the conclusions are not supported.
+  - **Resolution test** The authors should provide a free energy analysis (e.g., potential of mean force along a suitable reaction coordinate) to demonstrate that the two-globule state is a local minimum. They should also discuss the limitations of the PLUM model for IDPs and, if possible, validate the two-globule state with an alternative method (e.g., enhanced sampling all-atom simulations).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the AlphaFold model "was not stable in water and underwent further folding" and recommend caution when using AlphaFold predictions for IDPs.
+  - **Evidence pointer** Results section, "Comparing the simulations with AlphaFold prediction", Figure 16, Figure S10
+  - **Concern** The conclusion that AlphaFold predictions are unreliable for IDPs is based on three 400 ns simulations starting from the AlphaFold model. This is a very short timescale for a protein of this size, and the observed instability may simply reflect the fact that the AlphaFold model is a single static prediction that does not represent the ensemble nature of IDPs. The authors do not compare the AlphaFold model to their own model in terms of secondary structure propensity or other ensemble properties. The claim that the AlphaFold model "underwent further folding" is vague and not supported by a detailed analysis of what structural changes occurred.
+  - **Why it matters** The AlphaFold comparison is a potentially valuable contribution, but the current analysis is too superficial to support the strong conclusion that AlphaFold predictions are unsuitable for IDPs. This could mislead readers who are considering using AlphaFold for similar systems.
+  - **Resolution test** The authors should provide a more detailed comparison between the AlphaFold model and their own model, including per-residue secondary structure propensity, solvent accessibility, and conformational flexibility. They should also discuss the known limitations of AlphaFold for IDPs in the context of their results, rather than making a general claim based on limited simulations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes familiarity with IDP terminology and the domain structure of MeCP2. A brief explanation of what an intrinsically disordered protein is and why it is challenging to study would improve accessibility.
+  - **Required correction** Add one or two sentences defining IDPs and their biological relevance, and briefly describe the domain architecture of MeCP2 in the text (not just in Figure 1).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, All-atom simulations
+  - **Evidence pointer** Methods section, "All-atom simulations"
+  - **Issue** The choice of force field (Amber99SB*-ILDNP) is stated, but no justification is provided for this choice over other force fields, particularly those optimized for IDPs (e.g., CHARMM36IDPSFF, which is used for the ID/TRD domain simulations).
+  - **Required correction** Provide a brief justification for the force field choice, or acknowledge that the choice was based on prior studies and discuss potential limitations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Coarse-grained simulations
+  - **Evidence pointer** Results section, "Coarse-grained simulations sample two different conformations"
+  - **Issue** The cluster analysis uses a 2.0 nm cutoff for the full-length simulations and 2.5 nm for the concatenated analysis, but the rationale for these cutoffs is not explained.
+  - **Required correction** Briefly justify the choice of clustering cutoff or state that it was chosen based on the structural variability observed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions section
+  - **Issue** The speculative proposal for experimental validation using HS-AFM is interesting but is presented without acknowledging the significant technical challenges of applying this technique to a protein of this size and disorder.
+  - **Required correction** Soften the speculation and acknowledge the technical hurdles, or provide a more detailed discussion of how the proposed experiment could be implemented.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of convergence analysis for the all-atom simulations (R1-M1). 2) Insufficient evidence for the stability and relevance of the two-globule conformation (R1-M2). 3) Superficial analysis of the AlphaFold comparison (R1-M3). 4) Missing details on force field validation and simulation parameters in the Methods section.
+- **Assessment against Nature-style criteria** **Originality:** The study is original in being the first computational investigation of full-length MeCP2. However, the novelty is somewhat limited by the fact that the approach (multiscale simulation of an IDP) is well-established. **Scientific importance:** MeCP2 is a clinically relevant protein, and a structural model could inform future studies. However, the importance is diminished by the lack of strong validation of the model. **Interdisciplinary readership:** The work bridges computational biophysics and neurogenetics, which could appeal to a broad audience. However, the technical nature of the simulations may limit accessibility. **Technical soundness:** The simulations appear to be performed with standard protocols, but the lack of convergence analysis and the limited validation of the coarse-grained results are significant weaknesses. **Readability for nonspecialists:** The manuscript is generally well-written but assumes familiarity with IDP concepts and simulation methods. The abstract is clear, but the results section is dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important gap and has the potential to be a valuable contribution, but the current evidence does not fully support the central claims. The authors should address the convergence issues, provide a more rigorous analysis of the two-globule conformation, and refine the AlphaFold comparison before the case is established.
+
+## Risk / unsupported claims
+- The claim that the all-atom simulation "converged" is not supported by the presented data.
+- The claim that the two-globule conformation is a distinct, stable state of MeCP2 is not supported by the evidence.
+- The claim that the AlphaFold model "underwent further folding" is vague and not quantified.
+- The statement that the model is "in good agreement with the available experimental data" is based on limited comparisons (secondary structure content, solvent accessibility of three residues) and may be overstated.
+- The speculative proposal for HS-FM experiments is not supported by any preliminary data or feasibility analysis.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42462965",
+  "title": "The Advantages of AI for Computational Protein Studies and Looking Ahead at the Next Challenges: Single Structures Are Not Enough.",
+  "authors": "Bk, Pradeep; Chen, Shi-Jie; Dima, Ruxandra; Hassan, Mubasher; Joachimiak, Andrzej; Kihara, Daisuke; Kloczkowski, Andrzej; Law, Jeffrey; Liwo, Adam; Meller, Jarek; Micheletti, Cristan; Minor, Wladek; Montelione, Gaetano T; Rackovsky, Shalom; Scaramozzino, Domenico; Senda, Miki; Senda, Toshiya; Skolnick, Jeffrey; Stan, George; Vakser, Ilya A; Wang, Jin; Zou, Xiaoqin; Jernigan, Robert L",
+  "journal": "Journal of molecular biology",
+  "published_date": "2026-07-17",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该展望文章讨论AI在蛋白质结构预测和语言模型中的应用，强调预测蛋白-蛋白互作结构及多状态构象动态的重要性，虽未聚焦无序蛋白，但为互作机制建模提供了可迁移的方法论视角。",
+  "abstract": "The ability to understand proteins and their behaviors has been drastically improved by major successes in structure prediction and the appearance of Large Protein Language Models (LPLMs). The speed with which Deep Learning and Artificial Intelligence are now affecting computational protein studies is remarkable, but there are now many opportunities for further rapid progress with applications of these methods. Rapid gains are likely to come from studies using the approaches identified in this perspective. Addressing and predicting ligand-binding sites in protein structures, as well as the prediction of reliable structures of proteins interacting with other proteins, will be pivotal for learning the full details of structural mechanisms and dynamics. The prediction of multi-state protein ensembles, conformational transitions, dynamics of large protein complexes, and integration with experimental data is likely to happen quickly.",
+  "abstract_zh": "结构预测的重大成功和大型蛋白质语言模型（LPLMs）的出现，极大地提升了我们理解蛋白质及其行为的能力。深度学习和人工智能如今对计算蛋白质研究的影响速度令人瞩目，但应用这些方法仍有众多机会实现进一步快速进展。通过本视角中确定的方法进行研究，很可能带来快速收益。在蛋白质结构中识别和预测配体结合位点，以及预测蛋白质与其他蛋白质相互作用的可靠结构，将对全面了解结构机制和动力学细节至关重要。多状态蛋白质集合、构象转变、大型蛋白质复合物动力学以及实验数据整合的预测，预计将迅速实现。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42462965/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42462965/",
+  "paper_page_path": "papers/pubmed/42462965/index.html"
+}

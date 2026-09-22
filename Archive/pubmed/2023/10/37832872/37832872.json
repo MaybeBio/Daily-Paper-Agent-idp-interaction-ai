@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "37832872",
+    "doi": "10.1016/j.jbc.2023.105342",
+    "title": "Disruption of the productive encounter complex results in dysregulation of DIAPH1 activity."
+  },
+  "content": {
+    "abstract": "The diaphanous-related formin, Diaphanous 1 (DIAPH1), is required for the assembly of Filamentous (F)-actin structures. DIAPH1 is an intracellular effector of the receptor for advanced glycation end products (RAGE) and contributes to RAGE signaling and effects such as increased cell migration upon RAGE stimulation. Mutations in DIAPH1, including those in the basic \"RRKR\" motif of its autoregulatory domain, diaphanous autoinhibitory domain (DAD), are implicated in hearing loss, macrothrombocytopenia, and cardiovascular diseases. The solution structure of the complex between the N-terminal inhibitory domain, DID, and the C-terminal DAD, resolved by NMR spectroscopy shows only transient interactions between DID and the basic motif of DAD, resembling those found in encounter complexes. Cross-linking studies placed the RRKR motif into the negatively charged cavity of DID. Neutralizing the cavity resulted in a 5-fold decrease in the binding affinity and 4-fold decrease in the association rate constant of DAD for DID, indicating that the RRKR interactions with DID form a productive encounter complex. A DIAPH1 mutant containing a neutralized RRKR binding cavity shows excessive colocalization with actin and is unresponsive to RAGE stimulation. This is the first demonstration of a specific alteration of the surfaces responsible for productive encounter complexation with implications for human pathology.",
+    "keywords": [
+      "DIAPH1",
+      "DRF",
+      "MS",
+      "NMR",
+      "actin polymerization",
+      "cross-linking",
+      "diabetes",
+      "encounter complex",
+      "intrinsically disordered regions",
+      "mDia1",
+      "mass spectrometry",
+      "protein-protein interactions",
+      "receptor for advanced glycation end products"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Actin Cytoskeleton/metabolism",
+      "*Actins/metabolism",
+      "Cytoskeleton/metabolism",
+      "*Formins/metabolism",
+      "Receptor for Advanced Glycation End Products/metabolism",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Theophall, Gregory G",
+        "Ramirez, Lisa M S",
+        "Premo, Aaron",
+        "Reverdatto, Sergey",
+        "Manigrasso, Michaele B",
+        "Yepuri, Gautham",
+        "Burz, David S",
+        "Ramasamy, Ravichandran",
+        "Schmidt, Ann Marie",
+        "Shekhtman, Alexander"
+      ],
+      "short_names": [
+        "Theophall GG",
+        "Ramirez LMS",
+        "Premo A",
+        "Reverdatto S",
+        "Manigrasso MB",
+        "Yepuri G",
+        "Burz DS",
+        "Ramasamy R",
+        "Schmidt AM",
+        "Shekhtman A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, State University of New York at Albany, Albany, New York, USA.",
+        "Department of Chemistry, State University of New York at Albany, Albany, New York, USA.",
+        "Department of Chemistry, State University of New York at Albany, Albany, New York, USA.",
+        "Department of Chemistry, State University of New York at Albany, Albany, New York, USA.",
+        "Department of Medicine, Diabetes Research Program, New York University Grossman School of Medicine, New York, New York, USA.",
+        "Department of Medicine, Diabetes Research Program, New York University Grossman School of Medicine, New York, New York, USA.",
+        "Department of Chemistry, State University of New York at Albany, Albany, New York, USA.",
+        "Department of Medicine, Diabetes Research Program, New York University Grossman School of Medicine, New York, New York, USA.",
+        "Department of Medicine, Diabetes Research Program, New York University Grossman School of Medicine, New York, New York, USA.",
+        "Department of Chemistry, State University of New York at Albany, Albany, New York, USA. Electronic address: ashekhtman@albany.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Theophall, Gregory G",
+        "short_name": "Theophall GG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, State University of New York at Albany, Albany, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Ramirez, Lisa M S",
+        "short_name": "Ramirez LMS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, State University of New York at Albany, Albany, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Premo, Aaron",
+        "short_name": "Premo A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, State University of New York at Albany, Albany, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Reverdatto, Sergey",
+        "short_name": "Reverdatto S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, State University of New York at Albany, Albany, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Manigrasso, Michaele B",
+        "short_name": "Manigrasso MB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Diabetes Research Program, New York University Grossman School of Medicine, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Yepuri, Gautham",
+        "short_name": "Yepuri G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Diabetes Research Program, New York University Grossman School of Medicine, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Burz, David S",
+        "short_name": "Burz DS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, State University of New York at Albany, Albany, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Ramasamy, Ravichandran",
+        "short_name": "Ramasamy R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Diabetes Research Program, New York University Grossman School of Medicine, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Ann Marie",
+        "short_name": "Schmidt AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Diabetes Research Program, New York University Grossman School of Medicine, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Shekhtman, Alexander",
+        "short_name": "Shekhtman A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, State University of New York at Albany, Albany, New York, USA. Electronic address: ashekhtman@albany.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2023 Nov",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/14 10:42",
+    "fetched_at": "2026-09-21 02:00:41"
+  },
+  "links": {
+    "cites": [
+      "41448430",
+      "41038162",
+      "40399622",
+      "38338831",
+      "37917377"
+    ],
+    "refs": [],
+    "similar": [
+      "37832872",
+      "32005666",
+      "37070486",
+      "30401627",
+      "27707755",
+      "31473629",
+      "36448548",
+      "30132346",
+      "35562970",
+      "39131441",
+      "16361707",
+      "34449932",
+      "34223798",
+      "31871199",
+      "30902646",
+      "34818060",
+      "33124112",
+      "34279089",
+      "33813279",
+      "18218625",
+      "16361249",
+      "29966194",
+      "20927338",
+      "32304339",
+      "29239839",
+      "36932214",
+      "38491850",
+      "29490301",
+      "25640761",
+      "34103691",
+      "25298036",
+      "16818491",
+      "26912466",
+      "23921379",
+      "27967251",
+      "22511750",
+      "17716977",
+      "20927343",
+      "32211423",
+      "31965350",
+      "11035012",
+      "35060117",
+      "25911102",
+      "37462767",
+      "21278336",
+      "31279009",
+      "17398099",
+      "22194616",
+      "23325789",
+      "25483300",
+      "28623388",
+      "35915909",
+      "34781738",
+      "12906795",
+      "27524199",
+      "39335163",
+      "18835814",
+      "23677607",
+      "12429848",
+      "26124177",
+      "15591319",
+      "37903764",
+      "21998204",
+      "33689956",
+      "31797667",
+      "25246531",
+      "30977161",
+      "26083340",
+      "33300334",
+      "26936329",
+      "35185386",
+      "12676083",
+      "30324836",
+      "33893302",
+      "22094460",
+      "19366733",
+      "18667420",
+      "22605659",
+      "24914801",
+      "24403606",
+      "28642367",
+      "14576350",
+      "18835565",
+      "38157491",
+      "23050667",
+      "35681420",
+      "21333540",
+      "38097186",
+      "29760064",
+      "22879592",
+      "30309655",
+      "16472745",
+      "24630102",
+      "21146549",
+      "14992721",
+      "35941181",
+      "30808751",
+      "32647865",
+      "23906540",
+      "18922799",
+      "24781755",
+      "39430739",
+      "38915998",
+      "39322015"
+    ],
+    "review": [
+      "37832872",
+      "37070486",
+      "36448548",
+      "35562970",
+      "39131441",
+      "34449932",
+      "30902646",
+      "38491850",
+      "27967251",
+      "32211423",
+      "25483300",
+      "39335163",
+      "24914801",
+      "35681420"
+    ],
+    "pmc": [
+      "10656230"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(23)02370-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/37832872/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37832872/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37832872",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

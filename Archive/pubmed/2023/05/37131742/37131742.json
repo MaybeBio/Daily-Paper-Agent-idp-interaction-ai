@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "37131742",
+    "doi": "10.1101/2023.04.19.537533",
+    "title": "OpenABC Enables Flexible, Simplified, and Efficient GPU Accelerated Simulations of Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are important structures in various cellular processes but are challenging to study using traditional experimental techniques. In silico simulations with residue-level coarse-grained models strike a balance between computational efficiency and chemical accuracy. They could offer valuable insights by connecting the emergent properties of these complex systems with molecular sequences. However, existing coarse-grained models often lack easy-to-follow tutorials and are implemented in software that is not optimal for condensate simulations. To address these issues, we introduce OpenABC, a software package that greatly simplifies the setup and execution of coarse-grained condensate simulations with multiple force fields using Python scripting. OpenABC seamlessly integrates with the OpenMM molecular dynamics engine, enabling efficient simulations with performances on a single GPU that rival the speed achieved by hundreds of CPUs. We also provide tools that convert coarse-grained configurations to all-atom structures for atomistic simulations. We anticipate that Open-ABC will significantly facilitate the adoption of in silico simulations by a broader community to investigate the structural and dynamical properties of condensates. Open-ABC is available at https://github.com/ZhangGroup-MITChemistry/OpenABC.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Shuming",
+        "Wang, Cong",
+        "Latham, Andrew",
+        "Ding, Xinqiang",
+        "Zhang, Bin"
+      ],
+      "short_names": [
+        "Liu S",
+        "Wang C",
+        "Latham A",
+        "Ding X",
+        "Zhang B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA, USA.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Shuming",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Cong",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Latham, Andrew",
+        "short_name": "Latham A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+          "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ding, Xinqiang",
+        "short_name": "Ding X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bin",
+        "short_name": "Zhang B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Apr 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/03 06:42",
+    "fetched_at": "2026-09-20 21:40:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39271915",
+      "37065433",
+      "36881934",
+      "36871158",
+      "36112935",
+      "36029149",
+      "35795820",
+      "35501484",
+      "35484234",
+      "35381009",
+      "35364104",
+      "34819511",
+      "34716273",
+      "34536913",
+      "34470360",
+      "34400557",
+      "34341548",
+      "34057467",
+      "34001913",
+      "33956157",
+      "33934416",
+      "33890467",
+      "33876938",
+      "33826337",
+      "33782607",
+      "33617899",
+      "33597548",
+      "33597515",
+      "33577557",
+      "33453922",
+      "33417833",
+      "33302617",
+      "33264400",
+      "33218238",
+      "33208532",
+      "33179922",
+      "33169001",
+      "33069007",
+      "32752662",
+      "32684431",
+      "32554597",
+      "32393642",
+      "32312191",
+      "32132204",
+      "32029593",
+      "32004090",
+      "31965983",
+      "31756104",
+      "31634364",
+      "31270472",
+      "31139712",
+      "31117592",
+      "31091895",
+      "30913885",
+      "30620594",
+      "30217894",
+      "30150375",
+      "30089831",
+      "29987017",
+      "29735687",
+      "29364893",
+      "29091028",
+      "28935776",
+      "28746339",
+      "28225081",
+      "27819658",
+      "27725965",
+      "27309278",
+      "27212236",
+      "26605744",
+      "26592995",
+      "25002491",
+      "24116642",
+      "23464140",
+      "22814390",
+      "21368180",
+      "21059937",
+      "19460965",
+      "19274737",
+      "18351591",
+      "7784423",
+      "1420991"
+    ],
+    "similar": [
+      "37131742",
+      "37695778",
+      "37535543",
+      "37050876",
+      "34495659",
+      "33577557",
+      "37417958",
+      "39124960",
+      "36456243",
+      "39322588",
+      "28992696",
+      "29036584",
+      "33539886",
+      "37338530",
+      "37331570",
+      "37745447",
+      "38832749",
+      "28345910",
+      "29923722",
+      "37194953",
+      "39071308",
+      "26580045",
+      "37688551",
+      "21494747",
+      "28905203",
+      "37079725",
+      "36157043",
+      "26598358",
+      "23912807",
+      "25330962",
+      "35727989",
+      "37470705",
+      "26588552",
+      "38314956",
+      "26584087",
+      "39386700",
+      "33106483",
+      "26588159",
+      "36417670",
+      "35381009",
+      "24403006",
+      "35293386",
+      "39100546",
+      "36758221",
+      "36798393",
+      "37252985",
+      "20161121",
+      "37134270",
+      "33333836",
+      "20715052",
+      "36829460",
+      "36735551",
+      "36175408",
+      "38961263",
+      "38197443",
+      "32522662",
+      "23406326",
+      "34845619",
+      "30926670",
+      "37854635",
+      "37403848",
+      "37873180",
+      "23451897",
+      "26579771",
+      "31958947",
+      "34572559",
+      "37104393",
+      "36191226",
+      "38649740",
+      "24810463",
+      "26473491",
+      "32514329",
+      "31139712",
+      "31632986",
+      "30916968",
+      "23595102",
+      "34277713",
+      "36304323",
+      "24712786",
+      "23204949",
+      "33415985",
+      "26580773",
+      "33877632",
+      "33453922",
+      "19425537",
+      "38383656",
+      "35568534",
+      "20127715",
+      "37886520",
+      "39185151",
+      "28419507",
+      "39319382",
+      "25726461",
+      "26677962",
+      "28904383",
+      "30558883",
+      "22411308",
+      "36112935",
+      "34723311",
+      "32035448",
+      "24506488"
+    ],
+    "review": [
+      "37131742",
+      "37331570",
+      "28905203",
+      "23451897",
+      "32514329"
+    ],
+    "pmc": [
+      "10153273"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37131742/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37131742",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.04.19.537533",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

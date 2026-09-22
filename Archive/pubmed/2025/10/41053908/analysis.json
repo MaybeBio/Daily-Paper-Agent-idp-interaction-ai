@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41053908",
+  "title": "SpatPPI: a geometric deep learning model for predicting protein-protein interactions involving intrinsically disordered regions.",
+  "authors": "Xu, Zeyu; Zhu, Yanhao; Han, Jiyun; Liu, Juntao",
+  "journal": "Genome biology",
+  "published_date": "2025-10-07",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出几何深度学习模型SpatPPI，专门预测涉及无序区域的蛋白-蛋白互作，结合MD模拟验证构象适应性，直接命中无序蛋白互作机制建模的核心课题。",
+  "abstract": "Intrinsically disordered proteins and regions (IDRs) lack stable 3D structures, posing challenges for interaction prediction. We present SpatPPI, a geometric deep learning model tailored for IDPPI prediction. SpatPPI leverages structural cues from folded domains to guide the dynamic adjustment of IDRs via geometric modeling, adaptive conformation refinement, and a two-stage decoding mechanism. It captures spatial variability without requiring supervised input and achieves state-of-the-art performance on benchmark datasets. Molecular dynamics simulations further validate its high adaptability to conformational changes in IDRs and strong capacity to generate distinct and structure-aware embeddings. A freely accessible server is available at http://liulab.top/SpatPPI/server .",
+  "abstract_zh": "固有无序蛋白及区域（IDRs）缺乏稳定的三维结构，给相互作用预测带来挑战。我们提出了SpatPPI，一种专为IDPPI预测设计的几何深度学习模型。SpatPPI利用折叠结构域的结构线索，通过几何建模、自适应构象精炼和两阶段解码机制，引导IDRs的动态调整。它在无需监督输入的情况下捕捉空间变异性，并在基准数据集上达到最先进性能。分子动力学模拟进一步验证了其对IDRs构象变化的高度适应性，以及生成独特且结构感知嵌入的强大能力。一个免费访问的服务器可在 http://liulab.top/SpatPPI/server 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41053908/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41053908/",
+  "paper_page_path": "papers/pubmed/41053908/index.html"
+}

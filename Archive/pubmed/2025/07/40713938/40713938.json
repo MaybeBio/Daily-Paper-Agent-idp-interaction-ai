@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "40713938",
+    "doi": "10.1002/pro.70242",
+    "title": "Exploration of the interaction between dynein intermediate chain and dynactin p150(Glued) reveals a novel binding Interface."
+  },
+  "content": {
+    "abstract": "Cytoplasmic dynein is a motor protein that plays a role in a number of cellular processes including retrograde transport. In many cases, dynein needs to interact with another protein, dynactin, to be fully active. An important step in the assembly of the dynein/dynactin complex is the interaction between the N-terminal portion of the intermediate chain (IC) subunit of dynein and the coiled-coil 1B (CC1B) region of the p150(Glued) subunit of dynactin. Despite evidence for this interaction from binding studies, the exact location of where these proteins bind has remained elusive due to the dynamic nature of the interaction and the presence of intrinsically disordered regions in IC. By using intermolecular paramagnetic relaxation enhancements, we have been able to constrain the location of IC binding on p150(Glued) to a position that is different from what has recently been hypothesized in a model of the dynein/dynactin complex based on cryo-electron microscopy (cryo-EM) data and AlphaFold predictions. In addition, although phosphorylation is important for regulating dynein/dynactin interactions, we show that a phosphomimetic mutation of IC is not sufficient to alter binding with p150(Glued).",
+    "keywords": [
+      "coiled-coils",
+      "dynactin p150Glued",
+      "dynein intermediate chain",
+      "intrinsically disordered proteins",
+      "isothermal titration calorimetry",
+      "nuclear magnetic resonance spectroscopy",
+      "phosphorylation"
+    ],
+    "mesh_terms": [
+      "*Dynactin Complex/chemistry/metabolism/genetics",
+      "Protein Binding",
+      "*Dyneins/chemistry/metabolism",
+      "Humans",
+      "Models, Molecular",
+      "Animals",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Di Nicola, A J",
+        "Romig, Bryn L",
+        "Davis, Stella M",
+        "Cleary, Paul H",
+        "Yung, Claire H",
+        "Marsan, Daniel R",
+        "Merkt, Anna C",
+        "Loening, Nikolaus M"
+      ],
+      "short_names": [
+        "Di Nicola AJ",
+        "Romig BL",
+        "Davis SM",
+        "Cleary PH",
+        "Yung CH",
+        "Marsan DR",
+        "Merkt AC",
+        "Loening NM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5074-6906"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA.",
+        "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA.",
+        "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA.",
+        "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA.",
+        "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA.",
+        "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA.",
+        "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA.",
+        "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Di Nicola, A J",
+        "short_name": "Di Nicola AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA."
+        ]
+      },
+      {
+        "full_name": "Romig, Bryn L",
+        "short_name": "Romig BL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA."
+        ]
+      },
+      {
+        "full_name": "Davis, Stella M",
+        "short_name": "Davis SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA."
+        ]
+      },
+      {
+        "full_name": "Cleary, Paul H",
+        "short_name": "Cleary PH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA."
+        ]
+      },
+      {
+        "full_name": "Yung, Claire H",
+        "short_name": "Yung CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA."
+        ]
+      },
+      {
+        "full_name": "Marsan, Daniel R",
+        "short_name": "Marsan DR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA."
+        ]
+      },
+      {
+        "full_name": "Merkt, Anna C",
+        "short_name": "Merkt AC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA."
+        ]
+      },
+      {
+        "full_name": "Loening, Nikolaus M",
+        "short_name": "Loening NM",
+        "identifiers": [
+          "0000-0002-5074-6906"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Lewis & Clark College, Portland, Oregon, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/28 08:45",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39969093",
+      "38718835",
+      "38547289",
+      "36416224",
+      "36408920",
+      "35637307",
+      "34265844",
+      "33951592",
+      "33641207",
+      "32814057",
+      "31079899",
+      "30615063",
+      "30601942",
+      "29662141",
+      "29151213",
+      "28162951",
+      "26402034",
+      "26253171",
+      "25814576",
+      "25576383",
+      "25419851",
+      "25338722",
+      "25035494",
+      "24256262",
+      "23577064",
+      "23526461",
+      "22669947",
+      "22373868",
+      "22094641",
+      "21931160",
+      "21901122",
+      "20974845",
+      "20657784",
+      "20488990",
+      "19935668",
+      "19522502",
+      "19363495",
+      "19074350",
+      "19029334",
+      "17279546",
+      "16870472",
+      "16317077",
+      "15915565",
+      "15815974",
+      "15738986",
+      "15473859",
+      "14565986",
+      "12454067",
+      "12016059",
+      "11914076",
+      "11583547",
+      "11340075",
+      "11124710",
+      "8849893",
+      "8812413",
+      "8743703",
+      "8664278",
+      "8616269",
+      "8522607",
+      "7684232",
+      "2031185",
+      "1733963"
+    ],
+    "similar": [
+      "40713938",
+      "36416224",
+      "22669947",
+      "21931160",
+      "32814057",
+      "28162951",
+      "34273400",
+      "38547289",
+      "23577064",
+      "11340075",
+      "11425872",
+      "36711700",
+      "11071907",
+      "25419851",
+      "41708859",
+      "37730751",
+      "30143531",
+      "26253171",
+      "7499404",
+      "31445682",
+      "11571270",
+      "9342383",
+      "10564267",
+      "12119357",
+      "25185702",
+      "38758395",
+      "17325206",
+      "8522607",
+      "10318847",
+      "29490687",
+      "17283181",
+      "23874158",
+      "16343429",
+      "10921911",
+      "14565986",
+      "26773477",
+      "32238103",
+      "27976861",
+      "36071160",
+      "19293377",
+      "32023147",
+      "7593168",
+      "17449914",
+      "25059720",
+      "20472935",
+      "40021125",
+      "22988856",
+      "19759397",
+      "9348543",
+      "30615611",
+      "40782957",
+      "29420470",
+      "8744947",
+      "10226031",
+      "31501589",
+      "21633107",
+      "29416113",
+      "33462114",
+      "27482052",
+      "23985322",
+      "22106867",
+      "20479466",
+      "8824315",
+      "9038206",
+      "10601339",
+      "18410488",
+      "9361024",
+      "28602352",
+      "22777741",
+      "22279557",
+      "25814576",
+      "22542187",
+      "14600259",
+      "30702276",
+      "10545494",
+      "9235942",
+      "39487986",
+      "7878030",
+      "28414272",
+      "28320824",
+      "17352745",
+      "29515126",
+      "17532294",
+      "17570393",
+      "33734450",
+      "27474409",
+      "20889981",
+      "21911489",
+      "11112706",
+      "30311677",
+      "18922795",
+      "11889140",
+      "19061245",
+      "9722614",
+      "28406398",
+      "25751425",
+      "30640917",
+      "20974845",
+      "28576829",
+      "9522459"
+    ],
+    "review": [
+      "40713938",
+      "26773477",
+      "22988856"
+    ],
+    "pmc": [
+      "12679947"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40713938.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40713938/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70242",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

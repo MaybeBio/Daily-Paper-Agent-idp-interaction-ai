@@ -1,0 +1,240 @@
+{
+  "identity": {
+    "pmid": "41820684",
+    "doi": "10.1007/10_2025_306",
+    "title": "Classical and Nonclassical Nucleation Mechanisms of Biomolecules."
+  },
+  "content": {
+    "abstract": "This chapter offers a critical review of classical and nonclassical nucleation mechanisms in protein crystallization. It focuses on two-step nucleation (TSN) and composite cluster models as alternatives to classical nucleation theory (CNT), highlighting their relevance for describing nucleation in systems where intermediate disordered phases emerge. A particular emphasis is placed on the role of liquid-liquid phase separation (LLPS) as a modulator of the local environment and a potential precursor state. Through experimentally documented case studies, the spatial location of nucleation events - within dense phases, at interfaces, or in the lean phase - is discussed in relation to structural and kinetic parameters. Emphasis is placed on the role of intermolecular interactions, phase behavior, and limitations of current models and measurement techniques. Finally, recent advances in multidimensional free energy landscapes and simulation approaches are discussed, highlighting the need for integrated experimental and computational strategies to better understand and control nucleation in complex biological systems.",
+    "keywords": [
+      "Classical nucleation theory (CNT)",
+      "Liquid-liquid phase separation (LLPS)",
+      "Nonclassical mechanisms",
+      "Nucleation",
+      "Two-step nucleation (TSN)"
+    ],
+    "mesh_terms": [
+      "Phase Separation",
+      "Crystallization/methods",
+      "*Proteins/chemistry",
+      "*Models, Chemical",
+      "Phase Transition",
+      "Thermodynamics",
+      "*Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karibjanova, Yevgeniya",
+        "Teychene, Sebastien",
+        "Rodriguez-Ruiz, Isaac"
+      ],
+      "short_names": [
+        "Karibjanova Y",
+        "Teychene S",
+        "Rodriguez-Ruiz I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratoire de Genie Chimique, CNRS, INP, UPS, Toulouse, France.",
+        "Laboratoire de Genie Chimique, CNRS, INP, UPS, Toulouse, France.",
+        "Laboratoire de Genie Chimique, CNRS, INP, UPS, Toulouse, France. isaac.rodriguez-ruiz@cnrs.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karibjanova, Yevgeniya",
+        "short_name": "Karibjanova Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Génie Chimique, CNRS, INP, UPS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Teychené, Sébastien",
+        "short_name": "Teychené S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Génie Chimique, CNRS, INP, UPS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Rodriguez-Ruiz, Isaac",
+        "short_name": "Rodriguez-Ruiz I",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Génie Chimique, CNRS, INP, UPS, Toulouse, France. isaac.rodriguez-ruiz@cnrs.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advances in biochemical engineering/biotechnology"
+    ],
+    "journal_abbrev": [
+      "Adv Biochem Eng Biotechnol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/13 06:52",
+    "fetched_at": "2026-09-18 01:31:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41820684",
+      "28984274",
+      "18335920",
+      "16137628",
+      "42475469",
+      "15910067",
+      "41857423",
+      "38854527",
+      "40990046",
+      "22468601",
+      "19402623",
+      "36713321",
+      "40166999",
+      "41838119",
+      "35470363",
+      "38597222",
+      "30068609",
+      "20365686",
+      "29633411",
+      "33122442",
+      "22495288",
+      "21922553",
+      "36624777",
+      "28874584",
+      "28799353",
+      "30972366",
+      "39889142",
+      "36903141",
+      "24449867",
+      "20441298",
+      "34301955",
+      "41307542",
+      "28799382",
+      "25546012",
+      "16804945",
+      "31556970",
+      "33286867",
+      "25492932",
+      "16906874",
+      "24730879",
+      "27620641",
+      "31943581",
+      "12188716",
+      "21241115",
+      "25629931",
+      "30362758",
+      "39087873",
+      "20364990",
+      "39206829",
+      "41272974",
+      "26382410",
+      "41134585",
+      "15836074",
+      "33393769",
+      "35113740",
+      "28799394",
+      "35101915",
+      "24457316",
+      "42605596",
+      "25498347",
+      "42154985",
+      "34879681",
+      "24784283",
+      "36043849",
+      "41442811",
+      "38982922",
+      "40472260",
+      "29947625",
+      "23912807",
+      "30217894",
+      "23002854",
+      "31817975",
+      "30795655",
+      "32312191",
+      "39202170",
+      "35568006",
+      "39947751",
+      "42628318",
+      "25388788",
+      "25881044",
+      "36347015",
+      "31617663",
+      "25985136",
+      "33341693",
+      "40854822",
+      "12718916",
+      "23713546",
+      "34787417",
+      "41844986",
+      "32214264",
+      "39046348",
+      "29620730",
+      "41944040",
+      "38811080",
+      "26226388",
+      "42184109",
+      "34400646",
+      "34552246",
+      "16387781",
+      "18065459"
+    ],
+    "review": [
+      "41820684",
+      "28984274",
+      "16137628",
+      "41857423",
+      "22468601",
+      "41838119",
+      "38597222",
+      "22495288",
+      "36903141",
+      "41307542",
+      "27620641",
+      "35113740",
+      "24457316",
+      "42605596",
+      "41442811",
+      "38982922",
+      "29947625",
+      "31817975",
+      "32312191",
+      "39947751",
+      "42628318",
+      "36347015",
+      "40854822",
+      "12718916",
+      "41844986",
+      "38811080"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/10_2025_306",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

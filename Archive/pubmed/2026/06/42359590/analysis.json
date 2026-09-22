@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42359590",
+  "title": "Solvent identity reshapes the conformational ensemble of a group-3 LEA model peptide.",
+  "authors": "Perez-Trejo, Itzel; Dominguez, Laura",
+  "journal": "Physical chemistry chemical physics : PCCP",
+  "published_date": "2026-06-26",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用GaMD模拟研究LEA无序蛋白模型肽在不同溶剂下的构象系综重塑，聚焦单链折叠机制而非PPI，但无序蛋白构象调控与相分离/互作机制建模思路可迁移。",
+  "abstract": "Group-3 late embryogenesis abundant (LEA) proteins are intrinsically disordered proteins (IDPs) that protect cellular components during desiccation. Their transition from disordered to ordered conformations is driven by reduced water availability. Here, we characterize and compare the conformational ensembles of the P1LEA-22 model peptide in TFE-water and glycerol-water mixtures that mimic distinct dehydration environments. Using Gaussian accelerated molecular dynamics (GaMD), we sampled the structural landscape of P1LEA-22 at 20%, 40%, 60%, and 80% cosolvent concentrations. The simulations provide an atomistic description of how solvent composition and water availability reshape peptide folding. We show that the conformational ensemble depends strongly on solvent identity and concentration. TFE acts as a helix-inducing cosolvent; at 80%, it stabilizes a compact helix-turn-helix motif through enhanced intrahelical electrostatic interactions, driven by hydrophobic shielding from TFE fluorine atoms. In contrast, glycerol promotes compaction through steric restriction and competitive solvation, leading to structurally heterogeneous ensembles that include beta-sheet-like conformations and centrally localized helices. Although both solvents mimic dehydration, they modulate the peptide's energy landscape through distinct mechanisms: TFE couples hydrophobic association and electrostatic reinforcement to cooperative helix stabilization, whereas glycerol drives global compaction via excluded volume and hydrogen-bond redistribution. These findings provide molecular-level insight into how LEA proteins adapt structurally under water-deprived conditions.",
+  "abstract_zh": "Group-3 晚期胚胎发生丰富（LEA）蛋白是 intrinsically disordered proteins (IDPs)，在干燥过程中保护细胞组分。其从无序到有序构象的转变由水分可用性降低驱动。在此，我们表征并比较了P1LEA-22模型肽在TFE-水和甘油-水混合物中的构象系综，这些混合物模拟了不同的脱水环境。利用高斯加速分子动力学 (Gaussian accelerated molecular dynamics, GaMD)，我们在20%、40%、60%和80%共溶剂浓度下采样了P1LEA-22的结构景观。模拟提供了溶剂组成和水分可用性如何重塑肽折叠的原子级描述。我们表明，构象系综强烈依赖于溶剂身份和浓度。TFE作为螺旋诱导共溶剂；在80%浓度下，它通过增强螺旋内静电相互作用稳定了紧凑的螺旋-转角-螺旋基序，这一过程由TFE氟原子的疏水屏蔽驱动。相比之下，甘油通过空间限制和竞争性溶剂化促进压实，导致结构异质性系综，包括类β-折叠构象和中心定位的螺旋。尽管两种溶剂都模拟脱水，但它们通过不同机制调节肽的能量景观：TFE将疏水缔合和静电增强耦合至协同螺旋稳定化，而甘油则通过排除体积和氢键重分布驱动全局压实。这些发现提供了LEA蛋白在水缺乏条件下结构适应的分子层面见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42359590/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42359590/",
+  "paper_page_path": "papers/pubmed/42359590/index.html"
+}

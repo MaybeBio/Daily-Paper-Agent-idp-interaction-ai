@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary statements.
+- **Assessment boundary** Scientific validity, methodological clarity, evidence support for claims, and alignment with Nature-style criteria. Editorial and stylistic preferences are considered only insofar as they affect scientific communication.
+- **Shared manuscript claim summary** The authors propose that their "protein structure fingerprint technology," comprising PFSC, PFVM, and FiveFold, can expose flexible conformations of intrinsically disordered proteins (IDPs) by representing local folding shapes of five-residue segments, generating possible folding patterns from sequence alone, and predicting multiple 3D conformations.
+- **Visible evidence base** Figures 1–8, Table 1, and descriptive text. No quantitative validation metrics, benchmark comparisons, or statistical analyses are provided.
+- **Missing materials affecting confidence** No code, no web server access details beyond a URL, no quantitative accuracy measures, no comparison with established IDP prediction methods, no experimental validation, no statistical treatment of conformational ensembles, and no detailed algorithmic pseudocode.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptual framework and a set of tools for representing and predicting conformational flexibility in IDPs. The idea of encoding local folding shapes into a 27-letter alphabet and using a database of pentapeptide conformations to generate ensembles is interesting and potentially useful. However, the current manuscript is largely descriptive and lacks the quantitative validation, benchmark comparisons, and methodological detail required to establish the claimed capabilities. The central claims, such as the ability to "expose" flexible conformations and predict multiple 3D structures, are not supported by rigorous evidence in the provided text. The work may be of interest to a specialized community, but in its present form it does not meet the standards of a high-impact general journal.
+- **Who would be interested in the results, and why** Researchers working on intrinsically disordered proteins, protein conformational ensembles, and structure prediction may find the conceptual approach of interest. The PFSC alphabet and PFVM representation could be useful for visualizing and comparing local conformational variability. However, the lack of validation limits its immediate utility for a broader structural biology audience.
+- **Major strengths** The conceptual framework of encoding local folding shapes into a discrete alphabet is original and potentially powerful. The idea of using a database of pentapeptide conformations to generate possible folding patterns from sequence alone is a novel angle. The manuscript addresses a real and important problem: the representation and prediction of conformational flexibility in IDPs. The use of multiple example proteins (P53, alpha-synuclein, protamine-2) is appropriate for demonstrating the approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that PFVM "exposes" the folding flexibility for protein intrinsic disorder along the sequence, and that FiveFold can predict multiple conformational 3D structures for IDPs.
+  - **Evidence pointer** Figures 4, 6, 7, 8; Results sections "Folding patterns exposed by PFVM" and "Human P53 protein", "Alpha-synuclein protein", "Protamine-2 protein".
+  - **Concern** The manuscript provides no quantitative validation of the predicted conformations. There are no RMSD values, no comparison with experimental structures (e.g., NMR ensembles), no assessment of whether the predicted ensembles are physically reasonable, and no benchmark against established methods such as AlphaFold, I-TASSER, or Robetta beyond visual inspection. The claim that FiveFold "better revealed" features is subjective and unsupported by metrics.
+  - **Why it matters** Without quantitative validation, the reader cannot assess whether the predicted conformations are accurate, useful, or even physically plausible. The central claim of the paper, that this technology can expose flexible conformations, is not established.
+  - **Resolution test** Provide quantitative comparisons of FiveFold-predicted structures against known experimental ensembles (e.g., NMR structures of alpha-synuclein) using metrics such as RMSD, radius of gyration, or contact map overlap. Benchmark against existing IDP structure prediction methods. Report error bars or confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that PFSC "completely" describes the conformation of any protein and that the 27-letter set "covers the full folding space" of five connected points.
+  - **Evidence pointer** Methods section "PFSC"; Introduction.
+  - **Concern** The mathematical basis for the claim of "full coverage" is not provided. The derivation of 27 letters from a five-point model is not shown, and it is unclear whether this alphabet is truly complete, minimal, or redundant. No proof or citation to a detailed derivation is given beyond a reference to a "prepublication."
+  - **Why it matters** The entire technology rests on the completeness and correctness of the PFSC alphabet. If the alphabet is incomplete or biased, all downstream analyses are compromised. The reader cannot evaluate this foundational claim.
+  - **Resolution test** Provide a rigorous mathematical derivation or a clear citation to a peer-reviewed source that establishes the completeness of the 27-letter alphabet. Show that any arbitrary five-point conformation maps uniquely to a PFSC letter and that all possible conformations are represented.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims that the 5AAPFSC database contains all possible folding patterns for 3,200,000 pentapeptide permutations, with two-thirds derived from PDB and one-third from MD simulations.
+  - **Evidence pointer** Methods section "5AAPFSC".
+  - **Concern** The methods for constructing the 5AAPFSC database are described only briefly. Details on the MD simulation protocol (force field parameters, simulation length, temperature, solvent model, convergence criteria) are absent. The criteria for assigning a PFSC letter to a simulated conformation are not specified. The completeness and quality of the database cannot be assessed.
+  - **Why it matters** The database is a core component of the technology. If the database is incomplete or contains artifacts from poorly converged simulations, the resulting PFVMs and predicted conformations will be unreliable. Reproducibility is a fundamental requirement.
+  - **Resolution test** Provide full details of the MD simulation protocol and the PFSC assignment criteria. Report the number of conformations per pentapeptide, convergence checks, and any filtering applied. Make the database publicly accessible for scrutiny.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript implies that the PFVM provides more detailed and useful information about IDPs than existing methods, and that it can reveal "possible folding patterns" for IDPs without given structures.
+  - **Evidence pointer** Discussion sections "Prediction of disordered proteins" and "Characterize disordered proteins".
+  - **Concern** The manuscript does not clearly articulate what new biological or biophysical insight is gained from the PFVM approach compared to existing disorder predictors (e.g., IUPred, PONDR) or ensemble methods. The claim that PFVM offers "more detailed" information is not substantiated with examples of novel findings.
+  - **Why it matters** For a paper to be impactful, it must demonstrate that the new method provides insights that were not previously accessible. The current manuscript is largely a demonstration of a tool, not a discovery enabled by it.
+  - **Resolution test** Provide a concrete example where PFVM or FiveFold reveals a conformational feature or ensemble property of an IDP that is not captured by existing methods, and discuss its biological relevance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The figure caption is dense and the flow of the process is not immediately clear. The distinction between the blue, green, and red arrows is described but the figure itself is not referenced in the text in a way that guides the reader through the process.
+  - **Required correction** Revise the figure caption to be more self-explanatory and add explicit references in the text that walk the reader through each step of the process.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Abstract, Introduction, Results
+  - **Issue** The term "expose" is used repeatedly to describe what the technology does to flexible conformations. This is vague and not standard terminology in the field. Terms like "predict," "represent," or "characterize" would be more precise.
+  - **Required correction** Replace "expose" with more precise terminology throughout the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion section "PFVM server"
+  - **Evidence pointer** Discussion section "PFVM server"
+  - **Issue** The description of the web server is minimal. No details on input limits, output formats, or usage examples are provided.
+  - **Required correction** Provide a brief description of the server's functionality, including input requirements and output formats, or state that such details are available at the URL.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement
+  - **Issue** The statement "Data will be made available on request" is insufficient for a methods-driven paper. The 5AAPFSC database and the code for generating PFVMs and FiveFold predictions should be made publicly available.
+  - **Required correction** Provide a clear statement on how to access the database, code, and any other relevant data, ideally via a public repository.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative validation), R1-M2 (unproven completeness of PFSC alphabet), R1-M3 (insufficient methodological detail for database construction).
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of a discrete alphabet for local folding shapes and its use for generating conformational ensembles is original. However, the manuscript does not clearly distinguish this from existing approaches in a way that demonstrates conceptual novelty beyond a technical variation.
+  - **Scientific importance** The problem of representing and predicting IDP conformations is important. However, the manuscript does not demonstrate that the proposed technology solves this problem better than existing methods or provides new biological insights. The importance is therefore potential, not demonstrated.
+  - **Interdisciplinary readership** The manuscript is written for a specialized structural biology audience. The methods and results are not framed in a way that would engage a broader readership. The lack of quantitative results and clear biological implications limits its interdisciplinary appeal.
+  - **Technical soundness** The technical soundness is not established. The foundational claims about the PFSC alphabet are unproven, the database construction is under-specified, and the validation is absent. These are critical gaps.
+  - **Readability for nonspecialists** The manuscript is readable in terms of prose, but the concepts are introduced without sufficient background for a nonspecialist. The figures are complex and not fully explained. The lack of a clear summary of what was done, why, and what was found further reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting concept but lacks the validation, methodological detail, and demonstrated utility required to support its claims. I would be supportive of reconsideration if the authors provide quantitative validation, a rigorous derivation of the PFSC alphabet, full methodological details, and a clear demonstration of new biological or biophysical insight.
+
+## Risk / unsupported claims
+- The claim that PFSC "completely" describes any protein conformation is unsupported without a formal proof.
+- The claim that the 27-letter alphabet covers the "full folding space" of five connected points is unsupported.
+- The claim that PFVM "exposes" folding flexibility and provides "more detailed" information than existing methods is not quantitatively substantiated.
+- The claim that FiveFold can predict multiple conformational 3D structures for IDPs is not validated against experimental data or benchmarked against other methods.
+- The claim that the 5AAPFSC database contains "all possible folding patterns" for pentapeptide permutations is unverifiable from the provided description.
+- The assertion that PFVM-based disorder predictions "agreed with" NMR structural information (for alpha-synuclein) is based on visual inspection and is not quantified.

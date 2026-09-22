@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37764437",
+  "title": "Einstein Model of a Graph to Characterize Protein Folded/Unfolded States.",
+  "authors": "Tyler, Steve; Laforge, Christophe; Guzzo, Adrien; Nicolai, Adrien; Maisuradze, Gia G; Senet, Patrick",
+  "journal": "Molecules (Basel, Switzerland)",
+  "published_date": "2023-09-28",
+  "window": {
+    "start": "2023-09-25",
+    "end": "2023-10-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图论与爱因斯坦模型定义拓扑描述符和自由能，分析MD轨迹中蛋白折叠/去折叠及无序状态，虽非直接研究IDR介导的PPI，但其无序态表征与物理建模思路对无序蛋白互作机制建模有可迁移启发。",
+  "abstract": "The folded structures of proteins can be accurately predicted by deep learning algorithms from their amino-acid sequences. By contrast, in spite of decades of research studies, the prediction of folding pathways and the unfolded and misfolded states of proteins, which are intimately related to diseases, remains challenging. A two-state (folded/unfolded) description of protein folding dynamics hides the complexity of the unfolded and misfolded microstates. Here, we focus on the development of simplified order parameters to decipher the complexity of disordered protein structures. First, we show that any connected, undirected, and simple graph can be associated with a linear chain of atoms in thermal equilibrium. This analogy provides an interpretation of the usual topological descriptors of a graph, namely the Kirchhoff index and Randic resistance, in terms of effective force constants of a linear chain. We derive an exact relation between the Kirchhoff index and the average shortest path length for a linear graph and define the free energies of a graph using an Einstein model. Second, we represent the three-dimensional protein structures by connected, undirected, and simple graphs. As a proof of concept, we compute the topological descriptors and the graph free energies for an all-atom molecular dynamics trajectory of folding/unfolding events of the proteins Trp-cage and HP-36 and for the ensemble of experimental NMR models of Trp-cage. The present work shows that the local, nonlocal, and global force constants and free energies of a graph are promising tools to quantify unfolded/disordered protein states and folding/unfolding dynamics. In particular, they allow the detection of transient misfolded rigid states.",
+  "abstract_zh": "蛋白质的折叠结构可以通过深度学习算法根据其氨基酸序列准确预测。相比之下，尽管经过数十年的研究，与疾病密切相关的蛋白质折叠路径以及未折叠和错误折叠状态的预测仍然具有挑战性。蛋白质折叠动力学的两态（折叠/未折叠）描述掩盖了未折叠和错误折叠微态的复杂性。在此，我们专注于开发简化序参数以解读无序蛋白质结构的复杂性。首先，我们表明任何连通、无向且简单的图都可以与处于热平衡的线性原子链相关联。这种类比提供了对图通常拓扑描述符（即基尔霍夫指数和兰迪奇电阻）的解释，将其视为线性链的有效力常数。我们推导了线性图的基尔霍夫指数与平均最短路径长度之间的精确关系，并使用爱因斯坦模型定义了图的自由能。其次，我们将三维蛋白质结构表示为连通、无向且简单的图。作为概念验证，我们计算了蛋白质Trp-cage和HP-36折叠/未折叠事件的全原子分子动力学轨迹以及Trp-cage实验NMR模型集合的拓扑描述符和图自由能。本研究表明，图的局部、非局部和全局力常数及自由能是量化未折叠/无序蛋白质状态和折叠/未折叠动力学的有前景工具。特别是，它们能够检测瞬时的错误折叠刚性状态。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37764437/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37764437/",
+  "paper_page_path": "papers/pubmed/37764437/index.html"
+}

@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided in the submission
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and internal consistency of the reported findings; no assessment of formatting or editorial style beyond Nature-style criteria
+- **Shared manuscript claim summary** The authors present an integrative computational and experimental study of the optineurin (OPTN) LC3-interacting region (LIR) and its interaction with LC3B, focusing on the effects of phosphorylation and flanking regions. They use MD simulations, metadynamics, in silico mutational scans, and two biophysical methods (MDS and SPR) to characterize binding affinities and structural mechanisms. They report that phosphorylation reduces LIR flexibility, increases β-strand propensity, rewires electrostatic interactions, and that the N-terminal flanking region contributes to the interaction interface. They also assess disease-related mutations and propose MDS as a novel method for SLiM binding studies.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results and Discussion, Conclusions, Author Contributions, Acknowledgments; figures and tables referenced but not provided in the submitted material
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, and the OSF repository data are referenced but not included; raw MD trajectories, metadynamics data, MDS binding curves, SPR sensorgrams, and statistical analysis details are not accessible for verification
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and biologically important question: how phosphorylation and flanking regions modulate SLiM-mediated interactions, using the OPTN-LC3B complex as a model system. The integration of computational and experimental approaches is commendable and aligns with current trends in structural biology of disordered proteins. However, the manuscript as presented has several significant issues that prevent full confidence in the conclusions. The most critical concerns are: (1) the inability to verify the quality and convergence of the MD simulations from the provided text alone; (2) the lack of quantitative comparison between computational predictions and experimental measurements beyond qualitative statements; (3) the limited statistical power of the MDS experiments, acknowledged by the authors themselves; (4) the absence of key control experiments; and (5) the overstatement of the novelty of MDS for SLiM binding studies given the limited validation. The computational findings are plausible but the experimental validation is incomplete, and the link between the two is not rigorously established. The manuscript would benefit from a more focused presentation, clearer quantitative comparisons, and additional experimental replicates or orthogonal validation.
+- **Who would be interested in the results, and why** Researchers in the fields of autophagy, SLiM biology, intrinsically disordered proteins, and phospho-regulation would find this work relevant. The methodological framework combining MD simulations with MDS and SPR could interest biophysicists and computational biologists studying protein-protein interactions. The disease-related mutation analysis may appeal to those working on OPTN-associated pathologies such as glaucoma and amyotrophic lateral sclerosis. The proposed MDS approach for SLiM binding studies could attract a broader audience in the molecular recognition community.
+- **Major strengths** The study addresses a mechanistically important question with a multi-pronged approach. The use of long-timescale MD simulations with validation against NMR chemical shifts is a rigorous strategy. The identification of long-range electrostatic effects mediated by phosphorylation in the flanking region is a potentially novel finding. The application of MDS to SLiM interactions is an interesting methodological contribution. The disease-related mutation analysis adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that their MD simulations are in good agreement with NMR chemical shift data, with low χ²red values converging to a plateau after 200-300 ns.
+  - **Evidence pointer** Results section "MD simulations of LC3B in complex with phosphorylated OPTN are in good agreement with NMR chemical shifts"; Figure 2A; Table 1
+  - **Concern** The manuscript states that the calculated chemical shifts agree with experimental data, but the actual χ²red values are not reported in the text. The only specific value mentioned is for isoleucine Cδ with χ²red higher than 3, which is described as an exception. Without the full quantitative data, it is impossible to assess whether the agreement is genuinely good or merely acceptable. The threshold for "good agreement" is not defined. Additionally, the convergence criterion is stated qualitatively; no quantitative measure of convergence is provided.
+  - **Why it matters** The validity of all subsequent analyses depends on the quality of the MD ensembles. If the simulations do not adequately sample the relevant conformational space, the conclusions about flexibility, β-strand propensity, and electrostatic interactions could be artifacts of insufficient sampling.
+  - **Resolution test** Provide the full set of χ²red values for all residue types and all replicates, with a clear definition of the acceptance threshold. Show convergence plots for the χ²red values as a function of simulation time. If possible, compare predicted chemical shifts from the simulations against the experimental data using additional metrics such as Q-factor or RMSD.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors claim that MDS can accurately estimate changes in Kd upon substitutions in the phosphorylated variant of OPTN, and that the measured Kd values validate the computational predictions.
+  - **Evidence pointer** Results section "Microfluidic Diffusional Sizing can accurately estimate changes in Kd upon substitutions in the phosphorylated variant of OPTN"; Figure 5A; Figure 6
+  - **Concern** The MDS experiments were performed with only 3-5 biological replicates and 1-3 technical replicates. The authors acknowledge high variability in the data, particularly for the S177D variant where the difference from pS177 was not statistically significant (p = 0.123). The manuscript does not report confidence intervals for the Kd values, nor does it provide a systematic comparison between the experimentally measured Kd values and the computationally predicted ΔΔG values. The claim that MDS can "accurately estimate" changes in Kd is not supported by a rigorous statistical analysis or a direct quantitative correlation with the computational predictions.
+  - **Why it matters** The experimental validation is a cornerstone of the manuscript's claim to provide a "versatile toolkit." If the MDS measurements are not sufficiently precise or reproducible, the conclusions drawn from them, and the proposed utility of the method, are weakened.
+  - **Resolution test** Provide a full statistical analysis of the MDS data, including confidence intervals, effect sizes, and a power analysis. Directly compare the experimentally determined Kd values with the computationally predicted ΔΔG values in a quantitative manner, ideally with a correlation plot and statistical test. Include additional replicates or orthogonal methods to strengthen the validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors claim that the N-terminal flanking region upstream of the LIR core motif contributes to the interaction interface, based on MD simulations and mutational scans.
+  - **Evidence pointer** Results sections "The phosphorylation reduces the flexibility of the OPTN LIR in the binding pocket of LC3B" and "High-throughput mutational scans identify binding hotspots and residues conferring specificity for the binding mode of the phosphorylated variant"; Figure 4
+  - **Concern** The manuscript does not provide a clear definition of what constitutes the "N-terminal flanking region" in the context of the constructs used. The simulations were performed on OPTN residues 158-191, which includes the LIR core (169-185) plus additional N-terminal residues. The specific residues in the flanking region that contribute to the interaction are not clearly identified. The mutational scan results are presented as average ΔΔG values, but the manuscript does not specify which mutations were tested at each position, nor does it provide the full distribution of ΔΔG values across the ensemble. The claim that E163 is an important interaction hotspot is based on contact-based analyses, but the quantitative support is not fully presented.
+  - **Why it matters** The role of flanking regions in SLiM-mediated interactions is a key mechanistic claim of the manuscript. Without a clear identification of the specific residues involved and a quantitative assessment of their contributions, the claim remains vague and difficult to evaluate.
+  - **Resolution test** Clearly define the boundaries of the flanking region and identify the specific residues that contribute to the interaction. Provide a detailed analysis of the mutational scan results, including the full list of mutations tested and the distribution of ΔΔG values. If possible, perform additional simulations or experiments with truncated constructs to directly test the role of the flanking region.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and contextualization
+  - **Claim pointer** The authors claim that their work provides a "versatile toolkit" and a "solid integrative computational and experimental framework" for studying phospho-regulated SLiMs.
+  - **Evidence pointer** Abstract; Conclusions
+  - **Concern** The manuscript does not adequately contextualize the novelty of the approach. While the integration of MD, metadynamics, mutational scans, MDS, and SPR is comprehensive, each individual method is well-established. The specific novelty of the MDS application to SLiM interactions is not clearly articulated relative to existing methods for measuring weak protein-peptide interactions, such as ITC, fluorescence polarization, or NMR. The authors mention that MDS has been used for other protein interactions but do not discuss why it is particularly suited for SLiMs or what advantages it offers over existing approaches.
+  - **Why it matters** For a Nature-style audience, the novelty and significance of the methodological contribution must be clearly established. If the MDS approach is not demonstrably superior or complementary to existing methods, the claim of a "versatile toolkit" is overstated.
+  - **Resolution test** Provide a more detailed comparison of MDS with existing methods for measuring SLiM interactions, including advantages and limitations. Clearly articulate what is novel about the integrated workflow and how it advances the field beyond what is already possible with existing tools.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The authors state that "the results offer an atom-level perspective on the structural mechanisms and conformational alterations induced by phosphorylation" and that their approach can be applied to other LIR-containing proteins.
+  - **Evidence pointer** Abstract; Conclusions; Materials and Methods
+  - **Concern** The manuscript does not provide sufficient details for reproducibility. The specific parameters for the metadynamics simulations (e.g., deposition rate, Gaussian width, bias factor settings beyond the stated values) are not fully described. The in-house Python script for fitting MDS data is mentioned but not made available. The OSF repository is referenced for some data, but the contents are not described. The structural models generated by AlphaFold are not deposited in a public repository.
+  - **Why it matters** Reproducibility is a core requirement for scientific rigor. Without access to the analysis scripts, simulation parameters, and structural models, other researchers cannot fully replicate or build upon this work.
+  - **Resolution test** Provide detailed simulation parameters in the Methods or Supplementary Information. Make the analysis scripts publicly available (e.g., on GitHub). Deposit the AlphaFold models and MD trajectories in a public repository. Clearly describe the contents of the OSF repository.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The phrase "along with of effects of mutations" contains a grammatical error and is unclear.
+  - **Required correction** Revise to "along with the effects of mutations" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** MDS results
+  - **Evidence pointer** Results section "Microfluidic Diffusional Sizing can accurately estimate changes in Kd upon substitutions in the phosphorylated variant of OPTN"
+  - **Issue** The manuscript reports p-values for some comparisons but does not specify the statistical test used or whether corrections for multiple comparisons were applied.
+  - **Required correction** Specify the statistical tests used and whether any multiple comparison corrections were applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Figures 1-7, S1-S4
+  - **Issue** The figures are not provided in the submitted material, making it impossible to assess the visual presentation of the data.
+  - **Required correction** Ensure all figures are included in the submission and are of sufficient resolution to evaluate the data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section "High-throughput mutational scans"
+  - **Evidence pointer** Results section "High-throughput mutational scans identify binding hotspots and residues conferring specificity for the binding mode of the phosphorylated variant"
+  - **Issue** The term "high-throughput" is used to describe the mutational scans, but the number of mutations tested is not stated. If only a limited set of mutations was tested, this term may be misleading.
+  - **Required correction** Clarify the number of mutations tested or use a more appropriate term.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction cites references 1-8 for general statements about intrinsic disorder and SLiMs, but does not provide a focused review of recent advances in computational prediction of SLiM-mediated interactions or phospho-regulation of LIR motifs.
+  - **Required correction** Consider adding a brief discussion of recent computational and experimental studies on LIR phosphorylation to better contextualize the novelty of this work.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MD simulation validation), R1-M2 (experimental validation), R1-M3 (methodological rigor), R1-M5 (reproducibility)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The integration of multiple methods is comprehensive, but the individual components are established. The specific finding regarding the role of the N-terminal flanking region in long-range electrostatic effects is potentially novel, but its significance is not fully established.
+  - **Scientific importance** Moderate to high. Understanding phospho-regulation of LIR motifs is relevant to autophagy and selective degradation, which are important cellular processes. The disease-related mutation analysis adds translational relevance.
+  - **Interdisciplinary readership** Moderate. The work bridges computational biophysics, structural biology, and cell biology, but the presentation is heavily method-oriented and may not be accessible to a broad interdisciplinary audience.
+  - **Technical soundness** The computational methods are appropriate, but the validation is incomplete. The experimental data are limited by high variability and insufficient statistical power. The link between computational predictions and experimental measurements is not rigorously quantified.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with MD simulations, NMR chemical shift prediction, and biophysical binding assays. The abstract is accessible, but the main text would benefit from clearer explanations of the key concepts and findings for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially interesting and comprehensive study, but the evidence as presented is insufficient to support the main claims. The MD simulation validation is not quantitatively demonstrated, the experimental validation is statistically weak, and the novelty of the methodological contribution is not clearly established. The authors should address the major concerns, particularly R1-M1, R1-M2, and R1-M3, before the case can be made. If the authors can provide the missing quantitative data, strengthen the experimental validation, and clarify the novelty of their approach, the manuscript could become a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that MD simulations are in "good agreement" with NMR chemical shift data is unsupported without the full quantitative χ²red values and a defined acceptance threshold.
+- The claim that MDS can "accurately estimate" changes in Kd is not supported by the statistical analysis presented, given the acknowledged high variability and non-significant differences for some variants.
+- The claim that the N-terminal flanking region contributes to the interaction interface is plausible but not quantitatively demonstrated with specific residue-level data.
+- The claim that the approach provides a "versatile toolkit" for other LIR-containing proteins is an extrapolation that is not directly supported by the data presented.
+- The claim that phosphorylation induces long-range effects recruiting residues from the N-terminal flanking region is based on computational predictions and contact analyses, but the experimental validation for this specific claim is lacking.
+- The disease-related mutation analysis is presented as a proof-of-concept, but the clinical significance of the findings is not discussed in sufficient depth.

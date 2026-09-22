@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.30.667432",
+  "title": "Detecting Nuclear Pore Complex assembly in living cells",
+  "authors": "Veldsink AC; Fischer JS; Terpstra HM; Mannino PJ; de Lange EM; Hell S; van Benthem KJ; Saba LJ; Steen A; Vlijm R; Heinemann M; Weis K; Lusk CP; Veenhoff LM",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-31",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用纳米抗体标记活细胞中新生核孔复合体组装，虽涉及核孔蛋白复合物组装机制，但对象非无序蛋白/IDR/相分离，且无AI或物理模拟方法，仅提供实验工具与观察，对无序蛋白PPI机制建模启发有限。",
+  "abstract": "The formation of nuclear pore complexes (NPCs) — vital gateways regulating nuclear-cytoplasmic transport — is a highly orchestrated process requiring the integration of hundreds of nucleoporins into the nuclear envelope. A major challenge in studying this assembly process in living cells has been the difficulty to distinguish newly forming NPCs from their mature counterparts. Here, we present a powerful nanobody-based approach that overcomes this limitation. We demonstrate that a nanobody targeting the nucleoporin Nic96 from Saccharomyces cerevisiae selectively binds newly synthesized Nic96 subcomplexes prior to its incorporation into NPCs in vivo . Importantly, nanobody-bound Nic96 is incorporated in NPCs, and expression of the nanobody does not disrupt nuclear transport, cell growth, or lifespan, nor does it show genetic interactions with known NPC assembly surveillance pathways — making it an ideal, non-perturbing tool to study NPC biogenesis in yeast. Illustrating the use of the Nic96 nanobody we report novel aspects of the early stages of assembly, including co-recruitment of Kap121 and VHH[Nic96] to putative assembly sites. In addition, we show local enrichment of newly synthesized nucleoporins on nuclear envelope proximal lipid droplets, including a specific subset of Pdr16- and Ldo16-positive lipid droplets near the nucleus-vacuole junction. When NPC assembly is delayed, association of Nic96 subcomplexes with lipid droplets increases. These findings illustrate how the strategy to pulse-label newly forming NPCs opens new avenues for dissecting the spatiotemporal regulation of NPC assembly and misassembly.",
+  "abstract_zh": "核孔复合体（NPCs）的形成——调控核质运输的关键门户——是一个高度协调的过程，需要将数百种核孔蛋白整合到核膜中。在活细胞中研究这一组装过程的主要挑战在于难以区分新形成的NPCs与成熟NPCs。在此，我们提出一种基于纳米抗体的强效方法，克服了这一限制。我们证明，靶向酿酒酵母（Saccharomyces cerevisiae）核孔蛋白Nic96的纳米抗体，在体内能够选择性地结合新合成的Nic96亚复合物，且在其整合入NPCs之前。重要的是，纳米抗体结合的Nic96可被整合入NPCs，且纳米抗体的表达不会破坏核运输、细胞生长或寿命，也不与已知的NPC组装监视途径显示遗传相互作用——使其成为研究酵母中NPC生物发生的理想、非干扰性工具。通过展示Nic96纳米抗体的应用，我们报告了组装早期阶段的新颖方面，包括Kap121和VHH[Nic96]共招募至推定组装位点。此外，我们展示了新合成的核孔蛋白在核膜邻近脂滴上的局部富集，包括核-液泡连接处附近特定亚群的Pdr16-和Ldo16阳性脂滴。当NPC组装延迟时，Nic96亚复合物与脂滴的关联增加。这些发现阐明了脉冲标记新形成NPCs的策略如何为解析NPC组装和错误组装的时空调控开辟新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.30.667432",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.30.667432",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.30.667432/index.html"
+}

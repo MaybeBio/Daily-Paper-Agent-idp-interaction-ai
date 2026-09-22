@@ -1,0 +1,222 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.25.624264",
+  "title": "Residual flexibility in the topologically constrained multivalent complex between the GKAP scaffold and LC8 hub proteins",
+  "doi": "10.1101/2024.11.25.624264",
+  "abstract": "<h4>Summary</h4> Guanylate kinase-associated protein (GKAP) is a large postsynaptic scaffold protein bearing two closely spaced noncanonical binding sites for the bivalent dynein light chain LC8 hub protein. This might allow the formation of heterogeneous complexes with different sizes and topologies. Here, we show that a well-defined hexameric complex is formed, composed of 2 GKAP molecules and 2 LC8 dimers. Using NMR spectroscopy, we demonstrate that the LC8-binding segment of GKAP is intrinsically disordered and the flexibility of the linker region is largely retained even in the complex form. Molecular dynamics calculations suggest that besides the tightly bound residues, the hexamer also exhibits several dynamically interchanging interactions. The flanking regions of the two binding sites on GKAP exhibit different interaction patterns, hinting at additional contacts that might explain the fixed stoichiometry of the assembly. Our results demonstrate that constrained stoichiometry can coexist with substantial flexibility in a multivalent system.",
+  "authors": [
+    "Nagy-Kanta E",
+    "Kálmán ZE",
+    "Tossavainen H",
+    "Juhász T",
+    "Farkas F",
+    "Hegedüs J",
+    "Keresztes M",
+    "Beke-Somfai T",
+    "Gáspári Z",
+    "Permi P",
+    "Péterfia B"
+  ],
+  "published_date": "2024-11-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.25.624264",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.25.624264.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR945228",
+    "raw_record": {
+      "id": "PPR945228",
+      "source": "PPR",
+      "doi": "10.1101/2024.11.25.624264",
+      "title": "Residual flexibility in the topologically constrained multivalent complex between the GKAP scaffold and LC8 hub proteins",
+      "authorString": "Nagy-Kanta E, Kálmán ZE, Tossavainen H, Juhász T, Farkas F, Hegedüs J, Keresztes M, Beke-Somfai T, Gáspári Z, Permi P, Péterfia B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Nagy-Kanta E",
+            "lastName": "Nagy-Kanta",
+            "firstName": "Eszter",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0003-1322-2008"
+            }
+          },
+          {
+            "fullName": "Kálmán ZE",
+            "lastName": "Kálmán",
+            "firstName": "Zsófia",
+            "initials": "ZE"
+          },
+          {
+            "fullName": "Tossavainen H",
+            "lastName": "Tossavainen",
+            "firstName": "Helena",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1609-1651"
+            }
+          },
+          {
+            "fullName": "Juhász T",
+            "lastName": "Juhász",
+            "firstName": "Tünde",
+            "initials": "T"
+          },
+          {
+            "fullName": "Farkas F",
+            "lastName": "Farkas",
+            "firstName": "Fanni",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-5193-6507"
+            }
+          },
+          {
+            "fullName": "Hegedüs J",
+            "lastName": "Hegedüs",
+            "firstName": "József",
+            "initials": "J"
+          },
+          {
+            "fullName": "Keresztes M",
+            "lastName": "Keresztes",
+            "firstName": "Melinda",
+            "initials": "M"
+          },
+          {
+            "fullName": "Beke-Somfai T",
+            "lastName": "Beke-Somfai",
+            "firstName": "Tamás",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4788-3758"
+            }
+          },
+          {
+            "fullName": "Gáspári Z",
+            "lastName": "Gáspári",
+            "firstName": "Zoltán",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Permi P",
+            "lastName": "Permi",
+            "firstName": "Perttu",
+            "initials": "P"
+          },
+          {
+            "fullName": "Péterfia B",
+            "lastName": "Péterfia",
+            "firstName": "Bálint",
+            "initials": "B"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6800-230X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1609-1651"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4788-3758"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8692-740X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-1322-2008"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-5193-6507"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Summary</h4>  Guanylate kinase-associated protein (GKAP) is a large postsynaptic scaffold protein bearing two closely spaced noncanonical binding sites for the bivalent dynein light chain LC8 hub protein. This might allow the formation of heterogeneous complexes with different sizes and topologies. Here, we show that a well-defined hexameric complex is formed, composed of 2 GKAP molecules and 2 LC8 dimers. Using NMR spectroscopy, we demonstrate that the LC8-binding segment of GKAP is intrinsically disordered and the flexibility of the linker region is largely retained even in the complex form. Molecular dynamics calculations suggest that besides the tightly bound residues, the hexamer also exhibits several dynamically interchanging interactions. The flanking regions of the two binding sites on GKAP exhibit different interaction patterns, hinting at additional contacts that might explain the fixed stoichiometry of the assembly. Our results demonstrate that constrained stoichiometry can coexist with substantial flexibility in a multivalent system.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/11/25/2024.11.25.624264.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.25.624264"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40843979",
+            "reference": "The FEBS journal. 2026 Jan;293(1):76-95",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-11-27",
+      "firstPublicationDate": "2024-11-25",
+      "firstIndexDate": "2024-11-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

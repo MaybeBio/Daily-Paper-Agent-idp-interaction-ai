@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.31.551204",
+  "title": "Nanoscale analysis of human G1 and metaphase chromatin in situ",
+  "authors": "Chen JK; Liu T; Cai S; Ruan W; Ng CT; Shi J; Surana U; Gan L",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-31",
+  "window": {
+    "start": "2023-07-31",
+    "end": "2023-08-06"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用原位冷冻电镜断层扫描分析人类G1和中期染色质的核小体结构，对象是染色质而非无序蛋白/IDR，且无PPI互作机制或AI/物理模拟方法，仅提供结构表型起点，与本课题关联微弱。",
+  "abstract": "<h4>ABSTRACT</h4> The structure of chromatin at the nucleosome level inside cells is mysterious. Here we present in situ electron cryotomography analyses of chromatin in both G1 and metaphase RPE-1 cells. G1 nucleosomes are concentrated in globular chromatin domains and metaphase nucleosomes are concentrated in the chromatids. Classification analysis reveals that canonical mononucleosomes, ordered stacked dinucleosomes, and mononucleosomes with a disordered gyre-proximal density are abundant in both cell-cycle states. Class averages that have more than two stacked nucleosomes or that have side-by-side dinucleosomes are not detected, suggesting that groups of more than two nucleosomes are heterogeneous. Large multi-megadalton structures are abundant in G1 nucleoplasm, but not found in G1 chromatin domains and metaphase chromatin. The macromolecular phenotypes studied here represent a starting point for the comparative analysis of compaction in normal and unhealthy human cells, other cell-cycle states, other organisms, and in vitro chromatin assemblies.",
+  "abstract_zh": "<h4>摘要</h4> 细胞内核小体水平的染色质结构仍是一个谜。本研究展示了G1期和中期RPE-1细胞中染色质的原位冷冻电子断层扫描分析。G1期核小体集中在球状染色质结构域中，而中期核小体则集中在染色单体中。分类分析揭示，在两种细胞周期状态下，经典单核小体、有序堆叠的双核小体以及具有无序回旋近端密度的单核小体均大量存在。未检测到包含超过两个堆叠核小体或并排双核小体的类别平均值，这表明超过两个核小体的群体具有异质性。大型多兆道尔顿结构在G1期核质中丰富，但在G1期染色质结构域和中期染色质中未发现。本研究观察到的巨分子表型为正常与异常人类细胞、其他细胞周期状态、其他生物体以及体外染色质组装中压实作用的比较分析提供了起点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.31.551204",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.31.551204",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.31.551204/index.html"
+}

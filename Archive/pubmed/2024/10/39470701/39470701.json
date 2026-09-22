@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "39470701",
+    "doi": "10.1093/nar/gkae969",
+    "title": "MOBIDB in 2025: integrating ensemble properties and function annotations for intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "The MobiDB database (URL: https://mobidb.org/) aims to provide structural and functional information about intrinsic protein disorder, aggregating annotations from the literature, experimental data, and predictions for all known protein sequences. Here, we describe the improvements made to our resource to capture more information, simplify access to the aggregated data, and increase documentation of all MobiDB features. Compared to the previous release, all underlying pipeline modules were updated. The prediction module is ten times faster and can detect if a predicted disordered region is structurally extended or compact. The PDB component is now able to process large cryo-EM structures extending the number of processed entries. The entry page has been restyled to highlight functional aspects of disorder and all graphical modules have been completely reimplemented for better flexibility and faster rendering. The server has been improved to optimise bulk downloads. Annotation provenance has been standardised by adopting ECO terms. Finally, we propagated disorder function (IDPO and GO terms) from the DisProt database exploiting sequence similarity and protein embeddings. These improvements, along with the addition of comprehensive training material, offer a more intuitive interface and novel functional knowledge about intrinsic disorder.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Databases, Protein",
+      "*Molecular Sequence Annotation",
+      "Software",
+      "Protein Conformation",
+      "Humans",
+      "Cryoelectron Microscopy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Piovesan, Damiano",
+        "Del Conte, Alessio",
+        "Mehdiabadi, Mahta",
+        "Aspromonte, Maria Cristina",
+        "Blum, Matthias",
+        "Tesei, Giulio",
+        "von Bulow, Soren",
+        "Lindorff-Larsen, Kresten",
+        "Tosatto, Silvio C E"
+      ],
+      "short_names": [
+        "Piovesan D",
+        "Del Conte A",
+        "Mehdiabadi M",
+        "Aspromonte MC",
+        "Blum M",
+        "Tesei G",
+        "von Bulow S",
+        "Lindorff-Larsen K",
+        "Tosatto SCE"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8210-2390",
+        "ORCID: 0000-0002-8052-3519",
+        "ORCID: 0009-0007-2044-541X",
+        "ORCID: 0000-0002-4937-6952",
+        "ORCID: 0000-0001-5773-4724",
+        "ORCID: 0000-0003-4339-4460",
+        "ORCID: 0000-0001-7125-5973",
+        "ORCID: 0000-0002-4750-6039",
+        "ORCID: 0000-0003-4525-7793"
+      ],
+      "affiliations": [
+        "Department of Biomedical Sciences, University of Padova, Padua 35131, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padua 35131, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padua 35131, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padua 35131, Italy.",
+        "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SD, UK.",
+        "Structural Biology and NMR Laboratory, Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory, Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory, Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Department of Biomedical Sciences, University of Padova, Padua 35131, Italy.",
+        "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Piovesan, Damiano",
+        "short_name": "Piovesan D",
+        "identifiers": [
+          "0000-0001-8210-2390"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padua 35131, Italy."
+        ]
+      },
+      {
+        "full_name": "Del Conte, Alessio",
+        "short_name": "Del Conte A",
+        "identifiers": [
+          "0000-0002-8052-3519"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padua 35131, Italy."
+        ]
+      },
+      {
+        "full_name": "Mehdiabadi, Mahta",
+        "short_name": "Mehdiabadi M",
+        "identifiers": [
+          "0009-0007-2044-541X"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padua 35131, Italy."
+        ]
+      },
+      {
+        "full_name": "Aspromonte, Maria Cristina",
+        "short_name": "Aspromonte MC",
+        "identifiers": [
+          "0000-0002-4937-6952"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padua 35131, Italy."
+        ]
+      },
+      {
+        "full_name": "Blum, Matthias",
+        "short_name": "Blum M",
+        "identifiers": [
+          "0000-0001-5773-4724"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SD, UK."
+        ]
+      },
+      {
+        "full_name": "Tesei, Giulio",
+        "short_name": "Tesei G",
+        "identifiers": [
+          "0000-0003-4339-4460"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "von Bülow, Sören",
+        "short_name": "von Bülow S",
+        "identifiers": [
+          "0000-0001-7125-5973"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Lindorff-Larsen, Kresten",
+        "short_name": "Lindorff-Larsen K",
+        "identifiers": [
+          "0000-0002-4750-6039"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [
+          "0000-0003-4525-7793"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padua 35131, Italy.",
+          "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Jan 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/29 12:27",
+    "fetched_at": "2026-09-21 12:02:18"
+  },
+  "links": {
+    "cites": [
+      "42635213",
+      "42605803",
+      "42598852",
+      "42589402",
+      "42507643",
+      "42400911",
+      "42370329",
+      "42268731",
+      "42161921",
+      "42087786",
+      "42039498",
+      "42009645",
+      "41927541",
+      "41883999",
+      "41803440",
+      "41784387",
+      "41751600",
+      "41689628",
+      "41632843",
+      "41512952",
+      "41420061",
+      "41418320",
+      "41390769",
+      "41387432",
+      "41277526",
+      "41273079",
+      "41249866",
+      "41082321",
+      "41066605",
+      "41053545",
+      "41000677",
+      "40950076",
+      "40943096",
+      "40937679",
+      "40837623",
+      "40806592",
+      "40723369",
+      "40641938",
+      "40600335",
+      "40501571",
+      "40347452",
+      "40242292",
+      "40019509",
+      "39763873",
+      "39718444"
+    ],
+    "refs": [
+      "38686797",
+      "38545087",
+      "38297118",
+      "37962385",
+      "37957331",
+      "37904608",
+      "37904585",
+      "37621223",
+      "37400558",
+      "37246642",
+      "36866529",
+      "36416266",
+      "36408920",
+      "36350672",
+      "36210722",
+      "35102880",
+      "34791371",
+      "34755867",
+      "34232869",
+      "34048569",
+      "33956157",
+      "33806614",
+      "33647288",
+      "33325498",
+      "32696355",
+      "32029630",
+      "31824649",
+      "31744546",
+      "31691821",
+      "31106361",
+      "30576490",
+      "28968795",
+      "28453683",
+      "27794553",
+      "24451626",
+      "24178034",
+      "22661649",
+      "22190692",
+      "19717576",
+      "14604535",
+      "12824398",
+      "9254694"
+    ],
+    "similar": [
+      "39470701",
+      "36416266",
+      "39718444",
+      "32696355",
+      "25361972",
+      "33237329",
+      "34850135",
+      "31713636",
+      "29136219",
+      "37904585",
+      "33305318",
+      "22661649",
+      "28453683",
+      "33017101",
+      "23815411",
+      "27899601",
+      "37167423",
+      "25246432",
+      "39576584",
+      "38507044",
+      "23946100",
+      "30576490",
+      "39475178",
+      "28381244",
+      "35789137",
+      "28968795",
+      "32696395",
+      "37904608",
+      "30135358",
+      "26307973",
+      "27115638",
+      "31461845",
+      "22067451",
+      "28369666",
+      "33325498",
+      "33875885",
+      "39576585",
+      "26683124",
+      "31870849",
+      "40138319",
+      "34418423",
+      "39576583",
+      "32599863",
+      "34252246",
+      "39237195",
+      "37892124",
+      "38803272",
+      "36458437",
+      "30395465",
+      "17145717",
+      "26090958",
+      "15310560",
+      "38048333",
+      "31425549",
+      "28934129",
+      "17206849",
+      "38166858",
+      "24178034",
+      "29076577",
+      "39576581",
+      "34048569",
+      "36452990",
+      "27636733",
+      "28387819",
+      "24573480",
+      "31073595",
+      "32698546",
+      "24203321",
+      "30099775",
+      "23466039",
+      "39253485",
+      "31411026",
+      "21646335",
+      "30554840",
+      "27284084",
+      "33291838",
+      "31978465",
+      "24150944",
+      "35507260",
+      "38079339",
+      "22174272",
+      "39571839",
+      "32901090",
+      "28365882",
+      "39246251",
+      "25496281",
+      "25326082",
+      "32173600",
+      "34755867",
+      "31521235",
+      "38701796",
+      "20823312",
+      "38892222",
+      "28968848",
+      "28750104",
+      "24174539",
+      "31326853",
+      "36300618",
+      "26801222",
+      "31264965"
+    ],
+    "review": [
+      "39470701",
+      "31461845",
+      "34418423",
+      "23466039",
+      "33291838"
+    ],
+    "pmc": [
+      "11701742"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39470701/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae969",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

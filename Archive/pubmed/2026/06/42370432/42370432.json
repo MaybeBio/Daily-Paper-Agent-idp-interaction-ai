@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "42370432",
+    "doi": "10.1039/d6cp01833e",
+    "title": "Accurate interdomain contacts in a mixed folded protein from NMR-guided coarse-grained simulations."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered, low-complexity regions frequently cooperate with folded domains to mediate protein-protein interactions, yet accurately describing these mixed folded-disordered systems remains challenging. To visualize these mixed folded proteins, experimentally guided coarse-grained (CG) molecular dynamics simulations are often employed to extend the timescales required to capture the complex dynamics in play. However, the minimalistic nature of these approaches often compromises structural accuracy and can lead to inaccurate inter-domain interactions. Here we introduce backbone dihedral terms directly derived from NMR chemical shift data in CG-simulations to characterize the open state of a mixed-folded construct of the anti-aggregation chaperone DNAJB6 that contains a folded J-domain and a disordered GF linker. By tuning residue-specific backbone dihedral parameters to match NMR-derived secondary-structure propensities of the linker in CG-simulations, we generate conformational ensembles that yield accurate interdomain contact maps. In agreement with analysis of NMR relaxation data, the resulting ensembles show that even in the nominally open state the linker experiences motions that resemble those of the closed state driven by hydrophobic residues in GF. More generally, we show that by expanding CG-simulations to allow them to capture both local and global structural properties, physically relevant interdomain contacts can be retrieved.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Protein Folding",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Protein Domains",
+      "*HSP40 Heat-Shock Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hobbs, Billy",
+        "Limmer, Noor",
+        "Clenshaw, Gwendolyn L",
+        "Ossa, Felipe",
+        "Karamanos, Theodoros K"
+      ],
+      "short_names": [
+        "Hobbs B",
+        "Limmer N",
+        "Clenshaw GL",
+        "Ossa F",
+        "Karamanos TK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3968-6447",
+        "ORCID: 0000-0003-2297-540X"
+      ],
+      "affiliations": [
+        "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, UK. t.karamanos@imperial.ac.uk.",
+        "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, UK. t.karamanos@imperial.ac.uk.",
+        "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, UK. t.karamanos@imperial.ac.uk.",
+        "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, UK. t.karamanos@imperial.ac.uk.",
+        "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, UK. t.karamanos@imperial.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hobbs, Billy",
+        "short_name": "Hobbs B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, UK. t.karamanos@imperial.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Limmer, Noor",
+        "short_name": "Limmer N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, UK. t.karamanos@imperial.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Clenshaw, Gwendolyn L",
+        "short_name": "Clenshaw GL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, UK. t.karamanos@imperial.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Ossa, Felipe",
+        "short_name": "Ossa F",
+        "identifiers": [
+          "0000-0002-3968-6447"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, UK. t.karamanos@imperial.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Karamanos, Theodoros K",
+        "short_name": "Karamanos TK",
+        "identifiers": [
+          "0000-0003-2297-540X"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, UK. t.karamanos@imperial.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2026 Jul 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/29 13:10",
+    "fetched_at": "2026-09-18 04:37:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41851975",
+      "41263305",
+      "40450039",
+      "40128232",
+      "39412378",
+      "39103332",
+      "37923706",
+      "37645312",
+      "37468629",
+      "36138110",
+      "36066390",
+      "34716273",
+      "33782607",
+      "31591220",
+      "29466338",
+      "29186229",
+      "27151442",
+      "26661739",
+      "26406374",
+      "25965196",
+      "23997693",
+      "22545654",
+      "21500218",
+      "20694505",
+      "20651708",
+      "19522502",
+      "18083189",
+      "10968972",
+      "9925790",
+      "9545386",
+      "8611573",
+      "8589604",
+      "7531772"
+    ],
+    "similar": [
+      "42370432",
+      "41851975",
+      "39412378",
+      "30840442",
+      "42427316",
+      "39499823",
+      "10698632",
+      "26723616",
+      "29735687",
+      "40060049",
+      "11297422",
+      "36131545",
+      "32929427",
+      "41706900",
+      "23912807",
+      "29490245",
+      "31591220",
+      "26575522",
+      "41241098",
+      "40450039",
+      "42299722",
+      "31877033",
+      "28780862",
+      "36083825",
+      "20063887",
+      "41257331",
+      "23811057",
+      "31141701",
+      "38160320",
+      "41991555",
+      "25207671",
+      "42335378",
+      "34817999",
+      "25620895",
+      "29775635",
+      "20017540",
+      "33909430",
+      "41644540",
+      "41298416",
+      "24530797",
+      "41088757",
+      "36066390",
+      "30184304",
+      "42227953",
+      "27415450",
+      "39795068",
+      "33078950",
+      "29713947",
+      "40945576",
+      "28834051",
+      "39908323",
+      "39952928",
+      "35667441",
+      "30204435",
+      "40042172",
+      "19576220",
+      "40011319",
+      "29205504",
+      "38892222",
+      "35386098",
+      "35213160",
+      "41739654",
+      "41102979",
+      "22339051",
+      "33065068",
+      "30967564",
+      "42475469",
+      "35381009",
+      "28754691",
+      "42129207",
+      "35377637",
+      "30933517",
+      "27551949",
+      "31613621",
+      "26910732",
+      "40981365",
+      "19817469",
+      "29186229",
+      "24089737",
+      "26794929",
+      "35247211",
+      "27844185",
+      "40324844",
+      "32914959",
+      "33205789",
+      "39503309",
+      "26574429",
+      "24159811",
+      "39647695",
+      "30865820",
+      "12580600",
+      "15268287",
+      "28498104",
+      "27699868",
+      "40544328",
+      "10512702",
+      "25387958",
+      "25099811",
+      "28445749",
+      "42168213"
+    ],
+    "review": [
+      "42370432",
+      "30840442",
+      "26575522",
+      "40324844"
+    ],
+    "pmc": [
+      "13312411"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42370432/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d6cp01833e",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

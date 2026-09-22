@@ -1,0 +1,124 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.01.697292",
+  "title": "A variational method for efficient estimation of diffusion and free-energy profiles along collective variables",
+  "doi": "10.64898/2026.01.01.697292",
+  "abstract": "An efficient variational method is presented for estimating the diffusion coefficients and free-energy profiles along selected collective variables from projected molecular dynamics trajectories under both equilibrium and nonequilibrium conditions. The method is based on the assumption that the short-time transition probability density of the coordinate moves can be approximated by a Gaussian form. Defining a loss function as the sum of Kullback-Leibler divergences between the analytical short-time propagators of an overdamped Langevin model and those estimated directly from the projected trajectories maximises the agreement between the two and allows for its analytic evaluation. To efficiently minimise this loss function by varying diffusion and free-energy profiles along collective variables, we use an adaptive Monte Carlo scheme. The method is applied to two model systems exhibiting diffusive dynamics, as well as to water diffusion across the interface of a biomolecular condensate, demonstrating its robustness and accuracy.",
+  "authors": [
+    "Hubman A",
+    "Merzel F"
+  ],
+  "published_date": "2026-01-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.01.697292",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.01.697292.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1229344",
+    "raw_record": {
+      "id": "PPR1229344",
+      "source": "PPR",
+      "doi": "10.64898/2026.01.01.697292",
+      "title": "A variational method for efficient estimation of diffusion and free-energy profiles along collective variables",
+      "authorString": "Hubman A, Merzel F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hubman A",
+            "lastName": "Hubman",
+            "firstName": "Anže",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2418-8266"
+            }
+          },
+          {
+            "fullName": "Merzel F",
+            "lastName": "Merzel",
+            "firstName": "Franci",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2748-4901"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2748-4901"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2418-8266"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "An efficient variational method is presented for estimating the diffusion coefficients and free-energy profiles along selected collective variables from projected molecular dynamics trajectories under both equilibrium and nonequilibrium conditions. The method is based on the assumption that the short-time transition probability density of the coordinate moves can be approximated by a Gaussian form. Defining a loss function as the sum of Kullback-Leibler divergences between the analytical short-time propagators of an overdamped Langevin model and those estimated directly from the projected trajectories maximises the agreement between the two and allows for its analytic evaluation. To efficiently minimise this loss function by varying diffusion and free-energy profiles along collective variables, we use an adaptive Monte Carlo scheme. The method is applied to two model systems exhibiting diffusive dynamics, as well as to water diffusion across the interface of a biomolecular condensate, demonstrating its robustness and accuracy.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.01.697292"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42084321",
+            "reference": "The Journal of chemical physics. 2026 May;164(17):174108",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-01-02",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

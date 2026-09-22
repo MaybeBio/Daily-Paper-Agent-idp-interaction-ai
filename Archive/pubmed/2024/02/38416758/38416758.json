@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "38416758",
+    "doi": "10.1021/acs.jpcb.3c08126",
+    "title": "Submillisecond Atomistic Molecular Dynamics Simulations Reveal Hydrogen Bond-Driven Diffusion of a Guest Peptide in Protein-RNA Condensate."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation mediated by proteins and/or nucleic acids is believed to underlie the formation of many distinct condensed phases, or membraneless organelles, within living cells. These condensates have been proposed to orchestrate a variety of important processes. Despite recent advances, the interactions that regulate the dynamics of molecules within a condensate remain poorly understood. We performed accumulated 564.7 mus all-atom molecular dynamics (MD) simulations (system size  approximately 200k atoms) of model condensates formed by a scaffold RNA oligomer and a scaffold peptide rich in arginine (Arg). These model condensates contained one of three possible guest peptides: the scaffold peptide itself or a variant in which six Arg residues were replaced by lysine (Lys) or asymmetric dimethyl arginine (ADMA). We found that the Arg-rich peptide can form the largest number of hydrogen bonds and bind the strongest to the scaffold RNA in the condensate, relative to the Lys- and ADMA-rich peptides. Our MD simulations also showed that the Arg-rich peptide diffused more slowly in the condensate relative to the other two guest peptides, which is consistent with a recent fluorescence microscopy study. There was no significant increase in the number of cation-pi interactions between the Arg-rich peptide and the scaffold RNA compared to the Lys-rich and ADMA-rich peptides. Our results indicate that hydrogen bonds between the peptides and the RNA backbone, rather than cation-pi interactions, play a major role in regulating peptide diffusion in the condensate.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*RNA",
+      "Hydrogen Bonding",
+      "Peptides/chemistry",
+      "Proteins",
+      "Arginine/chemistry",
+      "Lysine/chemistry",
+      "Cations"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Unarta, Ilona C",
+        "Cao, Siqin",
+        "Goonetilleke, Eshani C",
+        "Niu, Jiani",
+        "Gellman, Samuel H",
+        "Huang, Xuhui"
+      ],
+      "short_names": [
+        "Unarta IC",
+        "Cao S",
+        "Goonetilleke EC",
+        "Niu J",
+        "Gellman SH",
+        "Huang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5682-2172",
+        "ORCID: 0000-0002-5090-5516",
+        "ORCID: 0000-0001-5617-0058",
+        "ORCID: 0000-0002-7119-9358"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Wisconsin horizontal line Madison, Madison, Wisconsin 53706, United States.",
+        "Theoretical Chemistry Institute, University of Wisconsin horizontal line Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Chemistry, University of Wisconsin horizontal line Madison, Madison, Wisconsin 53706, United States.",
+        "Theoretical Chemistry Institute, University of Wisconsin horizontal line Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Chemistry, University of Wisconsin horizontal line Madison, Madison, Wisconsin 53706, United States.",
+        "Theoretical Chemistry Institute, University of Wisconsin horizontal line Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Chemistry, University of Wisconsin horizontal line Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Chemistry, University of Wisconsin horizontal line Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Chemistry, University of Wisconsin horizontal line Madison, Madison, Wisconsin 53706, United States.",
+        "Theoretical Chemistry Institute, University of Wisconsin horizontal line Madison, Madison, Wisconsin 53706, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Unarta, Ilona C",
+        "short_name": "Unarta IC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Wisconsin─Madison, Madison, Wisconsin 53706, United States.",
+          "Theoretical Chemistry Institute, University of Wisconsin─Madison, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Cao, Siqin",
+        "short_name": "Cao S",
+        "identifiers": [
+          "0000-0002-5682-2172"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Wisconsin─Madison, Madison, Wisconsin 53706, United States.",
+          "Theoretical Chemistry Institute, University of Wisconsin─Madison, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Goonetilleke, Eshani C",
+        "short_name": "Goonetilleke EC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Wisconsin─Madison, Madison, Wisconsin 53706, United States.",
+          "Theoretical Chemistry Institute, University of Wisconsin─Madison, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Niu, Jiani",
+        "short_name": "Niu J",
+        "identifiers": [
+          "0000-0002-5090-5516"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Wisconsin─Madison, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Gellman, Samuel H",
+        "short_name": "Gellman SH",
+        "identifiers": [
+          "0000-0001-5617-0058"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Wisconsin─Madison, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Huang, Xuhui",
+        "short_name": "Huang X",
+        "identifiers": [
+          "0000-0002-7119-9358"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Wisconsin─Madison, Madison, Wisconsin 53706, United States.",
+          "Theoretical Chemistry Institute, University of Wisconsin─Madison, Madison, Wisconsin 53706, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2024 Mar 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/28 18:42",
+    "fetched_at": "2026-09-21 05:29:17"
+  },
+  "links": {
+    "cites": [
+      "42396207",
+      "42147780",
+      "40781776",
+      "40614690",
+      "40267258",
+      "39957268",
+      "39432826"
+    ],
+    "refs": [
+      "38516972",
+      "37890457",
+      "37787134",
+      "37665658",
+      "37339359",
+      "37104720",
+      "36945779",
+      "36920924",
+      "36607820",
+      "36400992",
+      "36037377",
+      "35639776",
+      "35561002",
+      "35501371",
+      "35179885",
+      "34619090",
+      "33826337",
+      "33302617",
+      "33169001",
+      "33139563",
+      "32936641",
+      "32802734",
+      "32640825",
+      "31941308",
+      "31756104",
+      "31594803",
+      "31437398",
+      "31430179",
+      "31117592",
+      "30926670",
+      "30217894",
+      "29913160",
+      "29735687",
+      "29603296",
+      "29319301",
+      "29120326",
+      "28746339",
+      "28225081",
+      "27374333",
+      "22110037",
+      "21921995",
+      "17742054",
+      "17243818",
+      "17212484",
+      "17002367",
+      "15116359",
+      "10449714"
+    ],
+    "similar": [
+      "38416758",
+      "40203038",
+      "24007457",
+      "33982350",
+      "39591652",
+      "33302617",
+      "38949285",
+      "28583830",
+      "23697608",
+      "24024591",
+      "23912807",
+      "27276251",
+      "23022061",
+      "32845610",
+      "30638532",
+      "26574387",
+      "21864793",
+      "12885230",
+      "28287151",
+      "34710377",
+      "38061016",
+      "39432826",
+      "37684221",
+      "15578663",
+      "19631217",
+      "14573858",
+      "24820901",
+      "38751116",
+      "32652263",
+      "11427046",
+      "35639776",
+      "29969522",
+      "26049530",
+      "33165494",
+      "32062367",
+      "24615532",
+      "25786215",
+      "26301845",
+      "33464100",
+      "36883003",
+      "7487089",
+      "39386696",
+      "21641334",
+      "16756942",
+      "17452329",
+      "34904892",
+      "22724379",
+      "12220174",
+      "38349628",
+      "38643237",
+      "10686106",
+      "19804722",
+      "38252962",
+      "37480340",
+      "23274275",
+      "25730443",
+      "38804888",
+      "35293386",
+      "37494702",
+      "15047066",
+      "9449318",
+      "38056002",
+      "12727287",
+      "19110445",
+      "38008475",
+      "29401708",
+      "26178648",
+      "19364134",
+      "39377398",
+      "39896463",
+      "25823390",
+      "28430190",
+      "18351707",
+      "32426986",
+      "39575590",
+      "36625035",
+      "39066731",
+      "33794191",
+      "25575129",
+      "31769684",
+      "23883044",
+      "24020922",
+      "17150824",
+      "38163950",
+      "34588591",
+      "19850496",
+      "14581218",
+      "35364105",
+      "37408305",
+      "32735736",
+      "14586085",
+      "22566697",
+      "23138654",
+      "12681513",
+      "33856219",
+      "17705480",
+      "22435500",
+      "36769160",
+      "33371242",
+      "37721444"
+    ],
+    "review": [
+      "38416758",
+      "30638532"
+    ],
+    "pmc": [
+      "11057999"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38416758/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38416758",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.3c08126",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

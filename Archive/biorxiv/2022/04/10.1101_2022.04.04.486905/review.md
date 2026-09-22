@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract and Significance section only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract and significance text
+- **Shared manuscript claim summary** The authors report cryo-EM and crosslinking mass spectrometry structures of the human MLL1-WRAD complex bound to ubiquitinated nucleosomes, including previously unresolved regions such as the Ash2L IDR, SPRY insertion, SDI motif, and DPY30 dimer. They describe three additional assembly states lacking one or more subunits and propose that H2B ubiquitination favors assembly of the active complex.
+- **Visible evidence base** Abstract and Significance section; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, structural coordinates, cryo-EM maps, crosslinking data, validation statistics, and experimental methods
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable structural study addressing important gaps in our understanding of MLL1-WRAD assembly on ubiquitinated nucleosomes. The integrated use of cryo-EM and crosslinking mass spectrometry is appropriate for the stated goals. However, the supplied material is insufficient to evaluate the technical quality of the structures, the robustness of the proposed assembly states, or the strength of the conclusion regarding ubiquitin's role. The claim that H2B ubiquitination favors assembly of the active complex is presented as a suggestion but is not supported by functional data in the visible evidence.
+- **Who would be interested in the results, and why** Structural biologists studying chromatin regulatory complexes, biochemists investigating histone modification crosstalk, and researchers focused on MLL1 biology and its relevance to leukemia. The work could also interest those studying dynamic protein assemblies on nucleosomes.
+- **Major strengths** The study addresses a clear gap by modeling previously unresolved regions of MLL1-WRAD. The use of an integrated structural approach is well suited to the problem. The identification of multiple assembly states has potential conceptual value for understanding complex maturation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim to have determined structures of MLL1-WRAD bound to ubiquitinated nucleosomes using cryo-EM and crosslinking mass spectrometry.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No resolution, map quality metrics, or validation statistics are provided. Without these, the reliability of the structural models cannot be assessed.
+  - **Why it matters** Structural claims require demonstration of sufficient resolution and model quality to support atomic-level interpretation, especially for flexible regions such as IDRs.
+  - **Resolution test** Provide cryo-EM resolution values, Fourier shell correlation curves, model-to-map fit statistics, and crosslink satisfaction analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors state that the three additional states may reflect different steps in MLL1-WRAD assembly.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The interpretation that these states represent assembly intermediates is speculative. No kinetic, biochemical, or cellular data are presented to support a temporal ordering.
+  - **Why it matters** The assembly pathway claim extends beyond static structural observation and requires independent validation.
+  - **Resolution test** Provide biochemical assembly assays, time-resolved experiments, or mutational analysis that tests the proposed order of subunit addition.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors suggest that H2B ubiquitination favors assembly of the active complex.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The visible evidence contains no direct comparison of complex assembly or activity on ubiquitinated versus unmodified nucleosomes. The statement is presented as a suggestion but lacks supporting data in the supplied material.
+  - **Why it matters** This is a central mechanistic claim that would be of broad interest, but it is not established from the provided evidence.
+  - **Resolution test** Include comparative structural or biochemical data showing differential binding or activity with ubiquitinated versus unmodified nucleosomes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term "states" is used without clear definition of whether these are distinct conformational states, compositional variants, or both.
+  - **Required correction** Define the term explicitly and specify which states differ by composition versus conformation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Subunit nomenclature
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract lists complex components with unusual spacing and formatting, which may confuse readers unfamiliar with the complex.
+  - **Required correction** Use standard nomenclature and consistent formatting for all subunit names.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Conclusion wording
+  - **Evidence pointer** Significance section
+  - **Issue** The phrase "light on complex assembly" appears to be a typographical error and the intended meaning is unclear.
+  - **Required correction** Revise to "shed light on complex assembly" or equivalent.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality is potentially high given the focus on previously unresolved regions and multiple assembly states. Scientific importance is substantial if the ubiquitin-dependent assembly claim is supported. Interdisciplinary readership could include structural biology, chromatin biology, and cancer research communities. Technical soundness cannot be evaluated from the supplied material. Readability for nonspecialists is adequate but would benefit from clearer definitions and corrected wording.
+- **Recommendation posture** Currently not established from the provided evidence. Supportive if technical concerns are resolved and the assembly and ubiquitin-related claims are substantiated with full data.
+
+## Risk / unsupported claims
+- The claim that the three additional states reflect assembly intermediates is unsupported without kinetic or biochemical data.
+- The claim that H2B ubiquitination favors assembly of the active complex is unsupported in the visible evidence.
+- The overall structural conclusions cannot be assessed without resolution and validation data.

@@ -1,0 +1,146 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.19.644261",
+  "title": "A coarse-grained model for simulations of phosphorylated disordered proteins",
+  "doi": "10.1101/2025.03.19.644261",
+  "abstract": "Protein phosphorylation is a common and essential post-translational modification that affects biochemical properties and regulates biological activities. Phosphorylation is particularly common for intrinsically disordered proteins and can significantly modulate their function and potential to interact with binding partners. To understand the biophysical origins of how phosphorylation of disordered proteins influences their function, it is valuable to investigate how the modifications lead to changes in their conformational ensembles. Here, we have used a top-down data-driven approach to develop a coarse-grained molecular dynamics model compatible with the CALVADOS protein simulation model to study the effects of serine and threonine phosphorylation on the global structural properties of disordered proteins. We parameterise the model using experimental data on the effects of phosphorylation on global dimensions. By comparing with baseline models and simulations using the phosphomimetics aspartate and glutamate, we show that the effect of phosphorylation on the global dimensions of disordered proteins is mostly driven by the additional charge. We envisage that our model can be applied to study the effects of phosphorylation of disordered proteins at the proteome scale as well as to study the important roles of protein phosphorylation on phase separation.",
+  "authors": [
+    "Rauh AS",
+    "Hedemark GS",
+    "Tesei G",
+    "Lindorff-Larsen K"
+  ],
+  "published_date": "2025-03-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.19.644261",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.19.644261.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR992413",
+    "raw_record": {
+      "id": "PPR992413",
+      "source": "PPR",
+      "doi": "10.1101/2025.03.19.644261",
+      "title": "A coarse-grained model for simulations of phosphorylated disordered proteins",
+      "authorString": "Rauh AS, Hedemark GS, Tesei G, Lindorff-Larsen K.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Rauh AS",
+            "lastName": "Rauh",
+            "firstName": "Arriën Symon",
+            "initials": "AS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9707-3836"
+            }
+          },
+          {
+            "fullName": "Hedemark GS",
+            "lastName": "Hedemark",
+            "firstName": "Gustav Stausbøll",
+            "initials": "GS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-2930-2990"
+            }
+          },
+          {
+            "fullName": "Tesei G",
+            "lastName": "Tesei",
+            "firstName": "Giulio",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4339-4460"
+            }
+          },
+          {
+            "fullName": "Lindorff-Larsen K",
+            "lastName": "Lindorff-Larsen",
+            "firstName": "Kresten",
+            "initials": "K"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9707-3836"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4339-4460"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-2930-2990"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Protein phosphorylation is a common and essential post-translational modification that affects biochemical properties and regulates biological activities. Phosphorylation is particularly common for intrinsically disordered proteins and can significantly modulate their function and potential to interact with binding partners. To understand the biophysical origins of how phosphorylation of disordered proteins influences their function, it is valuable to investigate how the modifications lead to changes in their conformational ensembles. Here, we have used a top-down data-driven approach to develop a coarse-grained molecular dynamics model compatible with the CALVADOS protein simulation model to study the effects of serine and threonine phosphorylation on the global structural properties of disordered proteins. We parameterise the model using experimental data on the effects of phosphorylation on global dimensions. By comparing with baseline models and simulations using the phosphomimetics aspartate and glutamate, we show that the effect of phosphorylation on the global dimensions of disordered proteins is mostly driven by the additional charge. We envisage that our model can be applied to study the effects of phosphorylation of disordered proteins at the proteome scale as well as to study the important roles of protein phosphorylation on phase separation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.19.644261"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40629690",
+            "reference": "Biophysical journal. 2025 Jul;:S0006-3495(25)00420-5",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-03-22",
+      "firstPublicationDate": "2025-03-20",
+      "firstIndexDate": "2025-03-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.21.683479",
+  "title": "The promise of AlphaFold for gene structure annotation",
+  "doi": "10.1101/2025.10.21.683479",
+  "abstract": "<h4>Background</h4> As sequencing technology improves, more genomes become available. Most lack annotation, automated methods are error prone, and few genomes are ever manually curated due to time and cost. Protein structure prediction software may provide new angles for assessing and improving gene models without requiring experimental data. In this paper, we explore whether scores from protein structure prediction can aid in scoring gene model quality. We chose three species ( Fusarium graminearum , Toxoplasma gondii , and Aspergillus fumigatus ) from the VEuPathDB database which have collectively undergone more than 1000 manual curation events. We modelled translations of the gene models with AlphaFold 3, before and after curation, collecting various scores. Then we carried out structure searching of the PDB with Foldseek and sequence-based domain identification using InterProScan. We profiled the scores produced by these methods to identify those best for gene model assessment. <h4>Results</h4> AlphaFold 3 scores strongly favoured manually improved over pre-improvement models, supporting 75% of manually-curated changes in F. graminearum , 65% in T. gondii , and 84% in A. fumigatus (the lower percentage in T. gondii attributed to a high level of disorder). Further, combining scores across multiple tools (AlphaFold 3, Foldseek and InterProScan) provided additional improvements in model scoring. <h4>Conclusion</h4> Overall, the most discriminative scores combined outputs of AlphaFold 3 and Foldseek. Our results therefore highlight the potential of scores derived from deep learning-based protein structure prediction for scoring gene models in the absence of experimental data. Future work should focus on intrinsically disordered regions and developing integrated tools to apply this approach.",
+  "authors": [
+    "Davison HR",
+    "Böhme U",
+    "Mesdaghi S",
+    "Wilkinson PA",
+    "Roos DS",
+    "Jones AR",
+    "Rigden DJ"
+  ],
+  "published_date": "2025-10-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.21.683479",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.21.683479.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1105504",
+    "raw_record": {
+      "id": "PPR1105504",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1105504"
+        ]
+      },
+      "doi": "10.1101/2025.10.21.683479",
+      "title": "The promise of AlphaFold for gene structure annotation",
+      "authorString": "Davison HR, Böhme U, Mesdaghi S, Wilkinson PA, Roos DS, Jones AR, Rigden DJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Davison HR",
+            "lastName": "Davison",
+            "firstName": "Helen Rebecca",
+            "initials": "HR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4302-5756"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Böhme U",
+            "lastName": "Böhme",
+            "firstName": "Ulrike",
+            "initials": "U",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mesdaghi S",
+            "lastName": "Mesdaghi",
+            "firstName": "Shahram",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, ,"
+                },
+                {
+                  "affiliation": "Computational Biology Facility, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilkinson PA",
+            "lastName": "Wilkinson",
+            "firstName": "Paul",
+            "initials": "PA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roos DS",
+            "lastName": "Roos",
+            "firstName": "David",
+            "initials": "DS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6725-4089"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jones AR",
+            "lastName": "Jones",
+            "firstName": "Andrew",
+            "initials": "AR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6118-9327"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rigden DJ",
+            "lastName": "Rigden",
+            "firstName": "Daniel",
+            "initials": "DJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7565-8937"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6118-9327"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6725-4089"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0248-5924"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4302-5756"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7565-8937"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Background</h4>  As sequencing technology improves, more genomes become available. Most lack annotation, automated methods are error prone, and few genomes are ever manually curated due to time and cost. Protein structure prediction software may provide new angles for assessing and improving gene models without requiring experimental data. In this paper, we explore whether scores from protein structure prediction can aid in scoring gene model quality. We chose three species (  Fusarium graminearum ,  Toxoplasma gondii , and  Aspergillus fumigatus ) from the VEuPathDB database which have collectively undergone more than 1000 manual curation events. We modelled translations of the gene models with AlphaFold 3, before and after curation, collecting various scores. Then we carried out structure searching of the PDB with Foldseek and sequence-based domain identification using InterProScan. We profiled the scores produced by these methods to identify those best for gene model assessment.  <h4>Results</h4>  AlphaFold 3 scores strongly favoured manually improved over pre-improvement models, supporting 75% of manually-curated changes in  F. graminearum , 65% in  T. gondii , and 84% in  A. fumigatus (the lower percentage in  T. gondii attributed to a high level of disorder). Further, combining scores across multiple tools (AlphaFold 3, Foldseek and InterProScan) provided additional improvements in model scoring.  <h4>Conclusion</h4>  Overall, the most discriminative scores combined outputs of AlphaFold 3 and Foldseek. Our results therefore highlight the potential of scores derived from deep learning-based protein structure prediction for scoring gene models in the absence of experimental data. Future work should focus on intrinsically disordered regions and developing integrated tools to apply this approach.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "acronym": "WT",
+            "grantId": "302692/Z/23/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "acronym": "WT",
+            "grantId": "218288/A/19/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "acronym": "WT",
+            "grantId": "212929/A/18/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.10.21.683479"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1105504"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1105504&type=FILE&fileName=EMS209991-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42033219",
+            "reference": "Nucleic acids research. 2026 Apr;54(8):gkag369",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS209991",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-10-23",
+      "firstPublicationDate": "2025-10-21",
+      "firstIndexDate": "2025-10-23",
+      "fullTextReceivedDate": "2025-11-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

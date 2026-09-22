@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2021-9j3cn",
+  "title": "Preparation of Bioderived and Biodegradable Surfactants Based on an Intrinsically Disordered Protein Sequence",
+  "authors": "Sarah Klass; Jamie Gleason; Anthony Omole; Bibiana Onoa; Carlos Bustamante; Matthew Francis",
+  "journal": "ChemRxiv",
+  "published_date": "2021-07-27",
+  "window": {
+    "start": "2021-07-26",
+    "end": "2021-08-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究基于无序蛋白序列的生物可降解表面活性剂的自组装胶束性质，虽以IDP为对象但聚焦材料自组装而非蛋白-蛋白互作，且无AI或物理模拟方法，仅初步实验表征，与课题关联较弱。",
+  "abstract": "Surfactants, block-copolymers, and other types of micellar systems are used in a wide variety of biomedical and industrial processes. However, most commonly used surfactants are synthetically derived and pose environmental and toxicological concerns throughout their product life cycle. Because of this, bio-derived and bio-degradable surfactants are promising alternatives. For bio-surfactants to be implemented industrially, they need to be produced on a large scale and also have tailorable properties that match those afforded by the polymerization of synthetic surfactants. In this paper, a scalable and versatile production method for bio-surfactants based on a hydrophilic intrinsically disordered protein (IDP) sequence with a genetically engineered hydrophobic domain is used to study variables that impact their physicochemical and self-assembling properties. These amphiphilic sequences were found to self-assemble into micelles over a broad range of temperatures, pH values, and ionic strengths. To investigate the role of the IDP hydrophilic domain on self-assembly, variants with increased overall charges and systematically decreased IDP domain lengths were produced and examined for their sizes, morphologies, and critical micelle concentrations (CMCs). The results of these studies indicate that decreasing the length of the IDP domain and, consequently, the molecular weight and hydrophilic fraction, leads to smaller micelles. Additionally, significantly increasing the amount of charged residues in the hydrophilic IDP domain results in micelles of similar sizes, but with higher CMC values. This represents an initial step in developing a quantitative model for the future engineering of bio-surfactants based on this IDP sequence.",
+  "abstract_zh": "表面活性剂、嵌段共聚物及其他类型的胶束系统广泛应用于各种生物医学和工业过程中。然而，大多数常用表面活性剂为合成来源，在其整个产品生命周期中引发环境和毒理学方面的担忧。因此，生物来源且可生物降解的表面活性剂成为有前景的替代品。要使生物表面活性剂实现工业应用，它们需要大规模生产，并具备与合成表面活性剂聚合所提供的可定制特性相匹配的性能。本文中，一种基于亲水性内在无序蛋白（IDP）序列并带有基因工程疏水结构域的可扩展且多功能的生物表面活性剂生产方法，被用于研究影响其物理化学和自组装特性的变量。研究发现，这些两亲性序列能在广泛的温度、pH值和离子强度范围内自组装成胶束。为探究IDP亲水结构域在自组装中的作用，制备了总电荷增加且IDP结构域长度系统性缩短的变体，并检测了其尺寸、形态和临界胶束浓度（CMCs）。研究结果表明，缩短IDP结构域长度，从而降低分子量和亲水部分比例，会导致形成更小的胶束。此外，显著增加亲水性IDP结构域中带电残基的数量，会产生尺寸相似的胶束，但具有更高的CMC值。这代表了为未来基于该IDP序列工程化生物表面活性剂开发定量模型的初步步骤。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2021-9j3cn",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2021-9j3cn",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2021-9j3cn/index.html"
+}

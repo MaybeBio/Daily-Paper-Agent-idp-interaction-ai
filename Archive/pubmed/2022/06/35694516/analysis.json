@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35694516",
+  "title": "Wide-Line NMR Melting Diagrams, Their Thermodynamic Interpretation, and Secondary Structure Predictions for A30P and E46K alpha-Synuclein.",
+  "authors": "Bokor, Monika; Hazy, Eszter; Tantos, Agnes",
+  "journal": "ACS omega",
+  "published_date": "2022-06-14",
+  "window": {
+    "start": "2022-06-13",
+    "end": "2022-06-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用宽线NMR研究α-突触核蛋白A30P/E46K突变体的水合与二级结构，对象为IDP但无PPI互作机制，方法为实验NMR加二级结构预测，缺乏AI/物理模拟的互作建模，故为中档。",
+  "abstract": "Parkinson's disease is thought to be caused by aggregation of the intrinsically disordered protein, alpha-synuclein. Two amyloidogenic variants, A30P, and E46K familial mutants were investigated by wide-line (1)H NMR spectrometry as a completion of our earlier work on wild-type and A53T alpha-synuclein (Bokor M. et al. WT and A53T alpha-synuclein systems: melting diagram and its new interpretation. Int. J. Mol. Sci.2020, 21, 3997.). A monolayer of mobile water molecules hydrates A30P alpha-synuclein at the lowest potential barriers (temperatures), while E46K alpha-synuclein has here third as much mobile hydration, insufficient for functionality. According to wide-line (1)H NMR results and secondary structure predictions, E46K alpha-synuclein is more compact than the A30P variant and they are more compact than the wild type (WT) and A53T variants. Linear hydration vs potential barrier sections of A30P alpha-synuclein shows one and E46K shows two slopes. The different slopes of the latter between potential barriers E (a,1) and E (a,2) reflect a change in water-protein interactions. The 31-32% homogeneous potential barrier distribution of the protein-water bonds refers to a non-negligible amount of secondary structures in all four alpha-synuclein variants. The secondary structures detected by wide-line (1)H NMR are solvent-exposed alpha-helices, which are predicted by secondary structure models. beta-sheets are only minor components of the protein structures as three- and eight-state predicted secondary structures are dominated by alpha-helices and coils.",
+  "abstract_zh": "帕金森病被认为是由 intrinsically disordered protein（固有无序蛋白）α-突触核蛋白（alpha-synuclein）的聚集引起的。作为我们早期关于野生型和A53T α-突触核蛋白研究的补充（Bokor M. 等人，WT和A53T α-突触核蛋白系统：熔解图及其新解释。Int. J. Mol. Sci. 2020, 21, 3997.），我们通过宽线 (wide-line) (1)H NMR 光谱法研究了两种淀粉样变性变体，即A30P和E46K家族突变体。在最低势垒（温度）下，一层流动的水分子水合A30P α-突触核蛋白，而E46K α-突触核蛋白在此处仅有其三分之一的流动水合量，不足以支持功能。根据宽线 (1)H NMR 结果和二级结构预测，E46K α-突触核蛋白比A30P变体更紧凑，且它们都比野生型（WT）和A53T变体更紧凑。A30P α-突触核蛋白的线性水合与势垒截面显示一个斜率，而E46K显示两个斜率。后者在势垒E (a,1)和E (a,2)之间的不同斜率反映了水-蛋白质相互作用的变化。蛋白质-水键的31-32%均匀势垒分布表明，在所有四种α-突触核蛋白变体中，二级结构含量不可忽视。宽线 (1)H NMR 检测到的二级结构是溶剂暴露的α-螺旋，这与二级结构模型的预测一致。β-折叠仅是蛋白质结构的次要组成部分，因为三态和八态预测的二级结构主要由α-螺旋和卷曲结构主导。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35694516/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35694516/",
+  "paper_page_path": "papers/pubmed/35694516/index.html"
+}

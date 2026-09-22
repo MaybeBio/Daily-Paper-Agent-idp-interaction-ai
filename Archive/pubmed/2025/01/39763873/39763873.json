@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "39763873",
+    "doi": "10.1101/2024.12.19.629373",
+    "title": "A deep learning method for predicting interactions for intrinsically disordered regions of proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins or regions (IDPs/IDRs) adopt diverse binding modes with different partners, from coupled-folding-and-binding, to fuzzy binding, to fully-disordered binding. Characterizing IDR interfaces is challenging experimentally and computationally. The state-of-the-art AlphaFold-multimer and AlphaFold3 can be used to predict IDR binding sites, although they are less accurate at their benchmarked confidence cutoffs. Here, we developed Disobind, a deep-learning method that predicts inter-protein contact maps and interface residues for an IDR and its partner, given their sequences. It uses sequence embeddings from the ProtT5 protein language model. Disobind outperforms state-of-the-art interface predictors for IDRs. It also outperforms AlphaFold-multimer and AlphaFold3 at multiple confidence cutoffs. Combining Disobind and AlphaFold-multimer predictions further improves the performance. In contrast to current methods, Disobind considers the context of the binding partner and does not depend on structures and multiple sequence alignments. Its predictions can be used to localize IDRs in large assemblies and characterize IDR-mediated interactions.",
+    "keywords": [
+      "Intrinsically disordered proteins (IDP)",
+      "deep learning (DL)",
+      "intrinsically disordered regions (IDR)",
+      "protein language model (pLMs)",
+      "protein structure"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Majila, Kartik",
+        "Ullanat, Varun",
+        "Viswanath, Shruthi"
+      ],
+      "short_names": [
+        "Majila K",
+        "Ullanat V",
+        "Viswanath S"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-3190-7977",
+        "ORCID: 0000-0002-1238-7041",
+        "ORCID: 0000-0002-9061-8407"
+      ],
+      "affiliations": [
+        "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India 560065.",
+        "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India 560065.",
+        "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India 560065."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Majila, Kartik",
+        "short_name": "Majila K",
+        "identifiers": [
+          "0009-0006-3190-7977"
+        ],
+        "affiliations": [
+          "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India 560065."
+        ]
+      },
+      {
+        "full_name": "Ullanat, Varun",
+        "short_name": "Ullanat V",
+        "identifiers": [
+          "0000-0002-1238-7041"
+        ],
+        "affiliations": [
+          "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India 560065."
+        ]
+      },
+      {
+        "full_name": "Viswanath, Shruthi",
+        "short_name": "Viswanath S",
+        "identifiers": [
+          "0000-0002-9061-8407"
+        ],
+        "affiliations": [
+          "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India 560065."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Aug 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/07 06:22",
+    "fetched_at": "2026-09-21 14:31:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40403066",
+      "40133781",
+      "40080667",
+      "39756261",
+      "39740355",
+      "39665266",
+      "39633723",
+      "39548826",
+      "39510344",
+      "39470701",
+      "39446390",
+      "39115813",
+      "38866950",
+      "38781245",
+      "38718835",
+      "38649368",
+      "38547871",
+      "38391029",
+      "38330793",
+      "38238291",
+      "38225382",
+      "38102755",
+      "37957331",
+      "37956700",
+      "37904608",
+      "37904585",
+      "37878721",
+      "36815589",
+      "36478084",
+      "36379943",
+      "36040254",
+      "35900023",
+      "35679397",
+      "35609776",
+      "35238773",
+      "35104320",
+      "34982960",
+      "34905768",
+      "34845384",
+      "34448830",
+      "34433091",
+      "34418423",
+      "34390736",
+      "34265844",
+      "34232869",
+      "34139171",
+      "33876751",
+      "33693581",
+      "33344917",
+      "33186584",
+      "32661420",
+      "32621228",
+      "32321157",
+      "32112804",
+      "31906602",
+      "31831797",
+      "31819266",
+      "30355150",
+      "30066087",
+      "29385418",
+      "29069470",
+      "29036655",
+      "29035372",
+      "28597296",
+      "28516010",
+      "27794553",
+      "25038412",
+      "24606139",
+      "24178034",
+      "24028092",
+      "23988124",
+      "23665034",
+      "23203869",
+      "22466611",
+      "22272186",
+      "21474068",
+      "19412530",
+      "16935303",
+      "16406523",
+      "12580598",
+      "10837058",
+      "10550212"
+    ],
+    "similar": [
+      "39763873",
+      "41534519",
+      "39446390",
+      "31441158",
+      "36851914",
+      "42585785",
+      "40944448",
+      "37883249",
+      "36304335",
+      "30058229",
+      "31207240",
+      "38866950",
+      "28780862",
+      "35139468",
+      "40034137",
+      "41959048",
+      "41921197",
+      "33087759",
+      "41928976",
+      "42635213",
+      "37878721",
+      "31307006",
+      "30878482",
+      "32696395",
+      "38166858",
+      "41174305",
+      "39253485",
+      "34905768",
+      "36272675",
+      "34418423",
+      "42598852",
+      "36908253",
+      "40254833",
+      "36833360",
+      "23142703",
+      "41928988",
+      "33194509",
+      "38701796",
+      "34358545",
+      "35609776",
+      "42503799",
+      "32112084",
+      "38079339",
+      "40756902",
+      "26149687",
+      "33936509",
+      "31724233",
+      "40403066",
+      "42507643",
+      "39093570",
+      "40221640",
+      "29763584",
+      "18831774",
+      "36153968",
+      "41454828",
+      "29066345",
+      "34461937",
+      "28381244",
+      "39433443",
+      "32824743",
+      "40441416",
+      "32743159",
+      "29716994",
+      "37498545",
+      "30841624",
+      "38987470",
+      "39740355",
+      "31797594",
+      "40244295",
+      "34390736",
+      "32702119",
+      "35098694",
+      "32722039",
+      "41053908",
+      "39586094",
+      "36959451",
+      "38296708",
+      "24115198",
+      "42358483",
+      "33248138",
+      "28365882",
+      "40574713",
+      "21647374",
+      "38895487",
+      "34825861",
+      "33567297",
+      "42150060",
+      "33243935",
+      "34179096",
+      "36210722",
+      "30002402",
+      "42140310",
+      "30366362",
+      "33036302",
+      "32535960",
+      "36315580",
+      "21682895",
+      "33207556",
+      "38039868",
+      "36458437"
+    ],
+    "review": [
+      "39763873",
+      "31441158",
+      "36851914",
+      "35139468",
+      "34418423",
+      "36833360",
+      "33194509",
+      "34358545",
+      "39093570",
+      "39740355",
+      "34390736",
+      "35098694",
+      "36959451",
+      "38296708",
+      "33248138",
+      "33567297",
+      "33243935",
+      "33207556"
+    ],
+    "pmc": [
+      "11702703"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39763873/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.12.19.629373",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

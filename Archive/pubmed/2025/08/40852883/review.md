@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a novel computational approach combining molecular dynamics simulations with time-dependent linear response theory to study long-distance allosteric coupling between the disordered C-terminal tail of BTG2 and its structured domain. They report that a disease-associated mutation, V141M, weakens allosteric modulation of critical binding sites by the disordered tail, and that compensatory mutations restore lost interactions, exerting "second-order" allosteric control over both binding sites and the mutation site. They suggest this mechanism may be general for compensatory mutations in disordered protein regions and offer a framework for therapeutic targeting.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, validation data, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, statistical analyses, validation against experimental data, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing hypothesis regarding second-order allosteric control as a mechanism for compensatory mutations in a disordered protein region. The conceptual framework is potentially valuable, and the focus on BTG2, a cell cycle regulator, gives the work biomedical relevance. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the proposed method, the robustness of the findings, or the generality of the claimed mechanism. The central claims are plausible but currently not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in protein allostery, intrinsically disordered proteins, computational biophysics, and molecular mechanisms of disease-associated mutations would find this work relevant. Those studying compensatory mutations in cancer-related proteins, particularly in the BTG/TOB family, may also be interested. The proposed methodological combination of MD simulations with time-dependent linear response theory could attract method developers in computational biology.
+- **Major strengths** The abstract addresses a genuinely understudied problem, namely compensatory mechanisms for mutations in disordered regions. The concept of "second-order" allosteric control is novel and potentially generalizable. The focus on a clinically relevant mutation (V141M in BTG2) grounds the work in a disease context. The proposed methodological innovation, combining MD with time-dependent linear response theory, is potentially significant if properly validated.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that combining molecular dynamics simulations with time-dependent linear response theory "accurately" computes long-distance coupling dynamics between the disordered tail and the structured domain.  
+  - **Evidence pointer** Abstract, Methods section not provided  
+  - **Concern** The abstract provides no details on the simulation parameters, force field, system setup, sampling length, convergence criteria, or validation of the time-dependent linear response theory approach. Without these, the accuracy of the computed coupling dynamics cannot be assessed.  
+  - **Why it matters** The entire mechanistic conclusion rests on the reliability of this computational method. If the method is not validated against known experimental data or alternative computational approaches, the derived allosteric couplings may be artifacts of the simulation protocol.  
+  - **Resolution test** Provide full methodological details, convergence analysis, and validation against experimental binding or functional data for BTG2 or a related system.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that compensatory mutations "restore lost interactions" and exert "long-distance dynamic control" over both critical binding sites and the mutation site 141M.  
+  - **Evidence pointer** Abstract, Results section not provided  
+  - **Concern** No quantitative data are presented to support the restoration of interactions or the dynamic control. It is unclear which compensatory mutations were studied, how many were tested, what the magnitude of the effect was, and whether the effects were statistically significant.  
+  - **Why it matters** The central mechanistic claim requires demonstration that the compensatory mutations specifically reverse the effects of V141M, not merely that they alter dynamics in some way. Without quantitative comparison between wild-type, V141M, and compensatory mutant systems, the claim is unsupported.  
+  - **Resolution test** Provide quantitative metrics of interaction strength, dynamic coupling, and binding site accessibility for wild-type, V141M, and each compensatory mutant, with statistical analysis.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generality of claim  
+  - **Claim pointer** The authors state that "this secondhand allosteric control could be a general mechanism for compensatory mutations to rescue function."  
+  - **Evidence pointer** Abstract, Discussion section not provided  
+  - **Concern** The abstract presents a single case study (BTG2 V141M and its compensatory mutations). No evidence from other proteins or systems is provided to support the generality of the proposed mechanism.  
+  - **Why it matters** The claim of generality is a significant extrapolation from one example. Without comparative analysis across multiple disordered regions or proteins, the statement remains speculative.  
+  - **Resolution test** Either temper the claim to be specific to BTG2 or provide additional examples from other systems demonstrating similar second-order allosteric control.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, first paragraph  
+  - **Issue** The term "secondhand allosteric control" is used in the abstract, while the title uses "second-order allosteric control." This inconsistency may confuse readers.  
+  - **Required correction** Use consistent terminology throughout, preferably "second-order" as in the title.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Specificity  
+  - **Affected element** Compensatory mutations  
+  - **Evidence pointer** Abstract, second paragraph  
+  - **Issue** The abstract does not specify which compensatory mutations were studied or how they were identified.  
+  - **Required correction** Name the specific mutations and briefly describe their selection criteria.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Experimental context  
+  - **Affected element** Validation  
+  - **Evidence pointer** Abstract, entire  
+  - **Issue** No mention of experimental validation (e.g., binding assays, cellular assays) to support the computational predictions.  
+  - **Required correction** State whether any experimental validation was performed, or explicitly note that the findings are purely computational.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The method must be fully described and validated, and quantitative evidence for the compensatory mechanism must be provided. Without these, the central claims cannot be evaluated.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of second-order allosteric control via disordered regions is novel and potentially original. However, the abstract does not demonstrate how this differs from previously described allosteric mechanisms in disordered proteins.  
+  - **Scientific importance** The topic is important given the prevalence of disease-associated mutations in disordered regions and the need to understand compensatory mechanisms. The potential therapeutic implications are significant if the mechanism is validated.  
+  - **Interdisciplinary readership** The work bridges computational biophysics, protein science, and disease biology, which could attract a broad readership. However, the abstract is written in a way that may be accessible to specialists but not clearly framed for a general scientific audience.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The lack of methodological detail and validation is a major limitation.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses jargon (e.g., "time-dependent linear response theory," "second-order allosteric control") without sufficient explanation for a nonspecialist.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the work could be significant, but the abstract alone does not provide sufficient methodological detail or quantitative results to support the central claims. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the method "accurately" computes long-distance coupling dynamics is unsupported without validation data.
+- The claim that compensatory mutations "restore lost interactions" is unsupported without quantitative results.
+- The claim that "secondhand allosteric control could be a general mechanism" is speculative based on a single case study.
+- The therapeutic framework mentioned in the abstract is not substantiated by any evidence presented.

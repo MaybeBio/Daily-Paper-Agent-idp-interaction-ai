@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "37078745",
+    "doi": "10.1080/07391102.2023.2199085",
+    "title": "Molecular modeling of ARF6 dysregulation caused by mutations in IQSEC2."
+  },
+  "content": {
+    "abstract": "IQSEC2 gene mutations are associated with epilepsy, autism, and intellectual disability. The primary function IQSEC2, mediated via its Sec 7 domain, is to act as a guanine nucleotide exchange factor for ARF6. We sought to develop a molecular model, which may explain the aberrant Sec 7 activity on ARF6 of different human IQSEC2 mutations. We integrated experimental data of IQSEC2 mutants with protein structure prediction by the RaptorX server combined with molecular modeling and molecular dynamics simulations. Normally, apocalmodulin (apoCM) binds to IQSEC2 resulting in its N-terminal fragment inhibiting access of its Sec 7 domain to ARF6. An increase in Ca2+ concentration destabilizes the interaction of IQSEC2 with apoCM and removes steric hindrance of Sec 7 binding with ARF6. Mutations at amino acid residue 350 of IQSEC2 result in loss of steric hindrance of Sec 7 binding with ARF6 leading to constitutive activation of ARF6 by Sec 7. On the other hand, a mutation at amino acid residue 359 of IQSEC2 results in constitutive hindrance of Sec 7 binding to ARF6 leading to the loss of the ability of IQSEC2 to activate ARF6. These studies provide a model for dysregulation of IQSEC2 Sec 7 activity by mutant IQSEC2 proteins.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "ADP ribosylation factor (ARF)",
+      "Autism",
+      "IQSEC2",
+      "Sec 7",
+      "calmodulin",
+      "epilepsy",
+      "guanine nucleotide exchange factor (GEF)",
+      "intrinsically disordered proteins (IDP)",
+      "molecular dynamics",
+      "molecular modeling"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*ADP-Ribosylation Factors/genetics",
+      "*ADP-Ribosylation Factor 6",
+      "Guanine Nucleotide Exchange Factors/genetics/metabolism",
+      "Mutation",
+      "Models, Molecular",
+      "Amino Acids/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shokhen, Michael",
+        "Walikonis, Randall",
+        "Uversky, Vladimir N",
+        "Allbeck, Amnon",
+        "Zezelic, Camryn",
+        "Feldman, Danielle",
+        "Levy, Nina S",
+        "Levy, Andrew P"
+      ],
+      "short_names": [
+        "Shokhen M",
+        "Walikonis R",
+        "Uversky VN",
+        "Allbeck A",
+        "Zezelic C",
+        "Feldman D",
+        "Levy NS",
+        "Levy AP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Bar Ilan University, Ramat Gan, Israel.",
+        "Department of Physiology and Neurobiology, University of Connecticut, Storrs, Connecticut, USA.",
+        "Department of Molecular Medicine and Byrd Alzheimer's Center and Research Institute, University of South Florida, Tampa, Florida, USA.",
+        "Department of Chemistry, Bar Ilan University, Ramat Gan, Israel.",
+        "Technion Faculty of Medicine, Technion-Israel Institute of Technology, Haifa, Israel.",
+        "Technion Faculty of Medicine, Technion-Israel Institute of Technology, Haifa, Israel.",
+        "Technion Faculty of Medicine, Technion-Israel Institute of Technology, Haifa, Israel.",
+        "Technion Faculty of Medicine, Technion-Israel Institute of Technology, Haifa, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shokhen, Michael",
+        "short_name": "Shokhen M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Bar Ilan University, Ramat Gan, Israel."
+        ]
+      },
+      {
+        "full_name": "Walikonis, Randall",
+        "short_name": "Walikonis R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Neurobiology, University of Connecticut, Storrs, Connecticut, USA."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and Byrd Alzheimer's Center and Research Institute, University of South Florida, Tampa, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Allbeck, Amnon",
+        "short_name": "Allbeck A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Bar Ilan University, Ramat Gan, Israel."
+        ]
+      },
+      {
+        "full_name": "Zezelic, Camryn",
+        "short_name": "Zezelic C",
+        "identifiers": [],
+        "affiliations": [
+          "Technion Faculty of Medicine, Technion-Israel Institute of Technology, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Feldman, Danielle",
+        "short_name": "Feldman D",
+        "identifiers": [],
+        "affiliations": [
+          "Technion Faculty of Medicine, Technion-Israel Institute of Technology, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Levy, Nina S",
+        "short_name": "Levy NS",
+        "identifiers": [],
+        "affiliations": [
+          "Technion Faculty of Medicine, Technion-Israel Institute of Technology, Haifa, Israel."
+        ]
+      },
+      {
+        "full_name": "Levy, Andrew P",
+        "short_name": "Levy AP",
+        "identifiers": [],
+        "affiliations": [
+          "Technion Faculty of Medicine, Technion-Israel Institute of Technology, Haifa, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2024 Feb-Mar",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/20 13:41",
+    "fetched_at": "2026-09-20 21:22:22"
+  },
+  "links": {
+    "cites": [
+      "42370322",
+      "41703006",
+      "40943242",
+      "39431217"
+    ],
+    "refs": [],
+    "similar": [
+      "37078745",
+      "31234416",
+      "31439632",
+      "30842726",
+      "20601426",
+      "40427528",
+      "34685703",
+      "36168805",
+      "25296758",
+      "36017701",
+      "39431217",
+      "11342560",
+      "21686261",
+      "12082148",
+      "33125726",
+      "11448949",
+      "22666423",
+      "38827181",
+      "38200111",
+      "26884337",
+      "17353194",
+      "40943242",
+      "36902414",
+      "22915114",
+      "17846866",
+      "17409355",
+      "10480924",
+      "28463240",
+      "20473311",
+      "22523074",
+      "25114232",
+      "21795701",
+      "11226253",
+      "32341099",
+      "21828055",
+      "10881192",
+      "17640372",
+      "37787765",
+      "9707577",
+      "34535765",
+      "36835332",
+      "41123449",
+      "10364170",
+      "12686588",
+      "17786213",
+      "10748097",
+      "21276423",
+      "16030257",
+      "15500915",
+      "10652308",
+      "18084281",
+      "22815487",
+      "26733290",
+      "18323689",
+      "31490346",
+      "38725127",
+      "24139303",
+      "16484231",
+      "25736891",
+      "18164504",
+      "38574162",
+      "10212200",
+      "35344748",
+      "24979773",
+      "15509780",
+      "15520000",
+      "14659046",
+      "12379803",
+      "18162163",
+      "16669702",
+      "14505574",
+      "16707115",
+      "29514977",
+      "24306141",
+      "12808035",
+      "20018626",
+      "25450693",
+      "26793055",
+      "19085064",
+      "10806099",
+      "9417041",
+      "12920129",
+      "11062263",
+      "30404949",
+      "27776975",
+      "29329590",
+      "20505075",
+      "24261326",
+      "32252226",
+      "24085844",
+      "38432637",
+      "9802902",
+      "41703006",
+      "23517829",
+      "25326380",
+      "26503427",
+      "33753721",
+      "28487361",
+      "31829726",
+      "36012761"
+    ],
+    "review": [
+      "37078745",
+      "31234416",
+      "36902414",
+      "18323689",
+      "24139303"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2199085?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/37078745/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2199085",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37078745",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

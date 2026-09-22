@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or statistical details were available for evaluation
+- **Shared manuscript claim summary** The authors report that phosphorothioate antisense oligonucleotides (PS-ASOs) form multiple subcellular protein or ribonucleoprotein aggregates that undergo phase separation. Toxic PS-ASOs induce nucleolar aggregates, including liquid-like "cloudy nucleoli" and solid-like perinucleolar filaments, which lead to nucleolar dysfunction and apoptosis. Solid-phase separation of these toxic aggregates is proposed to be cytoprotective, as surviving cells accumulate solid-like aggregates, particularly Hsc70-containing nucleolus-like structures retaining modest pre-rRNA transcriptional activity. The authors claim this is the first demonstration that exogenous drugs can form phase-separated aggregates and that solid-phase separation of toxic nucleolar aggregates is cytoprotective.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, quantitative data, statistical analyses, imaging data, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially significant observation linking PS-ASO-induced nucleolar aggregates to phase separation and cytoprotection. However, the evidence base is limited to a summary of findings without methodological detail or quantitative support. Several claims, particularly those regarding phase separation mechanisms, protein mobility dynamics, and cytoprotective outcomes, cannot be adequately evaluated from the abstract alone. The novelty claim is plausible but requires verification against existing literature on drug-induced aggregates and phase separation.
+- **Who would be interested in the results, and why** Researchers in antisense oligonucleotide therapeutics, RNA biology, nucleolar function, and phase separation biology would find these results relevant. The work may also interest toxicologists and drug developers concerned with cellular responses to oligonucleotide-based drugs.
+- **Major strengths** The abstract addresses a timely topic at the intersection of drug toxicity and phase separation biology. The distinction between liquid-like and solid-like aggregates and the proposal that solid-phase separation is cytoprotective offer a novel conceptual framework. The observation that surviving cells retain nucleolus-like structures with residual transcriptional activity provides a plausible mechanistic link to survival.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that toxic PS-ASOs form unique nucleolar aggregates that result in nucleolar dysfunction and apoptosis, and that solid-phase separation of these aggregates is cytoprotective.  
+  - **Evidence pointer** Abstract text; no figures or methods provided  
+  - **Concern** The abstract does not provide any experimental evidence, such as imaging, biochemical fractionation, or functional assays, to support the classification of aggregates as liquid-like or solid-like, nor does it demonstrate causality between aggregate phase state and apoptosis or survival.  
+  - **Why it matters** Phase separation is a mechanistically specific claim that requires rigorous biophysical and cell biological validation. Without such evidence, the central mechanistic conclusion is unsupported.  
+  - **Resolution test** Provide fluorescence recovery after photobleaching (FRAP) data, fluorescence loss in photobleaching (FLIP) data, or other mobility assays for each aggregate type, along with functional assays linking aggregate state to nucleolar activity and cell viability.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract claims this is the first demonstration that exogenous drugs can form aggregates that undergo phase separations and that solid-phase separation of toxic nucleolar aggregates is cytoprotective.  
+  - **Evidence pointer** Abstract text; no literature comparison provided  
+  - **Concern** The novelty claim is broad and cannot be assessed without a systematic comparison to prior work on drug-induced aggregates, including other oligonucleotide or small molecule treatments that may form phase-separated structures.  
+  - **Why it matters** Overstated novelty can mislead readers and reviewers about the incremental contribution of the work.  
+  - **Resolution test** Include a literature review or comparative experiments demonstrating that no prior exogenous drug has been shown to induce phase-separated aggregates with cytoprotective solid-phase separation.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that protein mobility in solid-phase aggregates is limited, and in liquid-phase aggregates mobility is negatively correlated with binding affinity to PS-ASOs.  
+  - **Evidence pointer** Abstract text; no quantitative data provided  
+  - **Concern** The relationship between protein mobility and binding affinity is presented as a quantitative correlation, but no data, correlation coefficients, or experimental conditions are described.  
+  - **Why it matters** This is a mechanistic claim that requires direct measurement of both mobility and binding affinity across multiple proteins and aggregate types.  
+  - **Resolution test** Provide quantitative FRAP or single-particle tracking data paired with binding affinity measurements for a panel of proteins across aggregate types.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that Hsc70-containing nucleolus-like structures retain modest pre-rRNA transcriptional activity and appear to mitigate nucleolar toxicity.  
+  - **Evidence pointer** Abstract text; no functional data provided  
+  - **Concern** The causal link between Hsc70-containing structures, retained transcriptional activity, and cytoprotection is not established. It is unclear whether these structures are a cause of survival or a correlate.  
+  - **Why it matters** The cytoprotective claim is central to the abstract's conclusion and requires functional perturbation experiments.  
+  - **Resolution test** Perform loss-of-function or gain-of-function experiments for Hsc70 or components of these structures and measure nucleolar activity and cell survival.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** Terms such as "cloudy nucleoli," "perinucleolar filaments," and "perinucleolar caps" are introduced without definition or visual reference.  
+  - **Required correction** Define these terms in the abstract or provide a schematic figure to aid comprehension.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Contextualization  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract does not state the concentration range or dosing conditions under which different aggregates form, which limits the generalizability of the findings.  
+  - **Required correction** Include concentration or dose information in the abstract or refer to a figure that presents this data.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Terminology consistency  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract uses "solid-like" and "solid-phase" interchangeably, which may cause confusion about whether these are operational or biophysical definitions.  
+  - **Required correction** Clarify the operational definition of solid versus liquid phase in the context of the assays used.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of exogenous drug-induced phase separation with cytoprotective outcomes is potentially original, but the claim of first demonstration requires verification.  
+  - Scientific importance: The findings could be significant for oligonucleotide therapeutics and phase separation biology, but the importance is not fully established without mechanistic depth.  
+  - Interdisciplinary readership: The topic bridges drug toxicology, RNA biology, and biophysics, which could attract broad interest if properly supported.  
+  - Technical soundness: Not assessable from the abstract; the absence of methods and quantitative data prevents evaluation.  
+  - Readability for nonspecialists: The abstract is generally clear but introduces specialized terminology without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is intriguing, but the abstract alone does not provide sufficient technical support for the central claims. A full manuscript with rigorous biophysical, imaging, and functional data would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that PS-ASO aggregates undergo phase separation is unsupported without biophysical evidence.
+- The claim that solid-phase separation of toxic nucleolar aggregates is cytoprotective is unsupported without functional perturbation data.
+- The claim of first demonstration of exogenous drug-induced phase-separated aggregates is unverifiable from the abstract alone.
+- The correlation between protein mobility and binding affinity is stated without data.
+- The causal role of Hsc70-containing structures in cytoprotection is not established.

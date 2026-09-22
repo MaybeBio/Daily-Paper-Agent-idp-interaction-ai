@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "34008604",
+    "doi": "10.1039/d0cp06360f",
+    "title": "Mechanism of zinc ejection by disulfiram in nonstructural protein 5A."
+  },
+  "content": {
+    "abstract": "Hepatitis C virus (HCV) is a notorious member of the Flaviviridae family of enveloped, positive-strand RNA viruses. Non-structural protein 5A (NS5A) plays a key role in HCV replication and assembly. NS5A is a multi-domain protein which includes an N-terminal amphipathic membrane anchoring alpha helix, a highly structured domain-1, and two intrinsically disordered domains 2-3. The highly structured domain-1 contains a zinc finger (Zf)-site, and binding of zinc stabilizes the overall structure, while ejection of this zinc from the Zf-site destabilizes the overall structure. Therefore, NS5A is an attractive target for anti-HCV therapy by disulfiram, through ejection of zinc from the Zf-site. However, the zinc ejection mechanism is poorly understood. To disclose this mechanism based on three different states, A-state (NS5A protein), B-state (NS5A + Zn), and C-state (NS5A + Zn + disulfiram), we have performed molecular dynamics (MD) simulation in tandem with DFT calculations in the current study. The MD results indicate that disulfiram triggers Zn ejection from the Zf-site predominantly through altering the overall conformation ensemble. On the other hand, the DFT assessment demonstrates that the Zn adopts a tetrahedral configuration at the Zf-site with four Cys residues, which indicates a stable protein structure morphology. Disulfiram binding induces major conformational changes at the Zf-site, introduces new interactions of Cys39 with disulfiram, and further weakens the interaction of this residue with Zn, causing ejection of zinc from the Zf-site. The proposed mechanism elucidates the therapeutic potential of disulfiram and offers theoretical guidance for the advancement of drug candidates.",
+    "keywords": [],
+    "mesh_terms": [
+      "Antiviral Agents/chemical synthesis/chemistry/*pharmacology",
+      "Density Functional Theory",
+      "Disulfiram/chemistry/*pharmacology",
+      "Hepacivirus/*drug effects",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Viral Nonstructural Proteins/*antagonists & inhibitors",
+      "Zinc/chemistry/*pharmacology",
+      "RNA-Dependent RNA Polymerase"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rehman, Ashfaq Ur",
+        "Zhen, Guodong",
+        "Zhong, Bozitao",
+        "Ni, Duan",
+        "Li, Jiayi",
+        "Nasir, Abdul",
+        "Gabr, Moustafa T",
+        "Rafiq, Humaira",
+        "Wadood, Abdul",
+        "Lu, Shaoyong",
+        "Zhang, Jian",
+        "Chen, Hai-Feng"
+      ],
+      "short_names": [
+        "Rehman AU",
+        "Zhen G",
+        "Zhong B",
+        "Ni D",
+        "Li J",
+        "Nasir A",
+        "Gabr MT",
+        "Rafiq H",
+        "Wadood A",
+        "Lu S",
+        "Zhang J",
+        "Chen HF"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3902-2843",
+        "ORCID: 0000-0002-2339-3500",
+        "ORCID: 0000-0001-9074-3331",
+        "ORCID: 0000-0002-1334-6292",
+        "ORCID: 0000-0002-6558-791X",
+        "ORCID: 0000-0002-7496-4182"
+      ],
+      "affiliations": [
+        "Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, Shanghai Jiao Tong University, School of Medicine, Shanghai 20025, China. lushaoyong@yeah.net haifengchen@sjtu.edu.cn and State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, College of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China and Department of Biochemistry, Abdul Wali Khan University Mardan, 23200, Pakistan. awadood@awkum.edu.pk.",
+        "Department of VIP Clinic, Changhai Hospital, Navy Military Medical University, Shanghai, 200433, China.",
+        "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, College of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, Shanghai Jiao Tong University, School of Medicine, Shanghai 20025, China. lushaoyong@yeah.net haifengchen@sjtu.edu.cn.",
+        "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, College of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "Synthetic Protein Engineering Lab, Molecular Science and Technology, Ajou University, Suwon 443-749, South Korea.",
+        "Department of Radiology, Stanford University, Stanford, California 94305, USA.",
+        "Department of Biochemistry, Abdul Wali Khan University Mardan, 23200, Pakistan. awadood@awkum.edu.pk.",
+        "Department of Biochemistry, Abdul Wali Khan University Mardan, 23200, Pakistan. awadood@awkum.edu.pk.",
+        "Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, Shanghai Jiao Tong University, School of Medicine, Shanghai 20025, China. lushaoyong@yeah.net haifengchen@sjtu.edu.cn.",
+        "Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, Shanghai Jiao Tong University, School of Medicine, Shanghai 20025, China. lushaoyong@yeah.net haifengchen@sjtu.edu.cn.",
+        "Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, Shanghai Jiao Tong University, School of Medicine, Shanghai 20025, China. lushaoyong@yeah.net haifengchen@sjtu.edu.cn and Shanghai Center for Bioinformation Technology, Shanghai, 200235, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rehman, Ashfaq Ur",
+        "short_name": "Rehman AU",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, Shanghai Jiao Tong University, School of Medicine, Shanghai 20025, China. lushaoyong@yeah.net haifengchen@sjtu.edu.cn and State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, College of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China and Department of Biochemistry, Abdul Wali Khan University Mardan, 23200, Pakistan. awadood@awkum.edu.pk."
+        ]
+      },
+      {
+        "full_name": "Zhen, Guodong",
+        "short_name": "Zhen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of VIP Clinic, Changhai Hospital, Navy Military Medical University, Shanghai, 200433, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Bozitao",
+        "short_name": "Zhong B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, College of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Duan",
+        "short_name": "Ni D",
+        "identifiers": [
+          "0000-0002-3902-2843"
+        ],
+        "affiliations": [
+          "Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, Shanghai Jiao Tong University, School of Medicine, Shanghai 20025, China. lushaoyong@yeah.net haifengchen@sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Jiayi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, College of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      },
+      {
+        "full_name": "Nasir, Abdul",
+        "short_name": "Nasir A",
+        "identifiers": [
+          "0000-0002-2339-3500"
+        ],
+        "affiliations": [
+          "Synthetic Protein Engineering Lab, Molecular Science and Technology, Ajou University, Suwon 443-749, South Korea."
+        ]
+      },
+      {
+        "full_name": "Gabr, Moustafa T",
+        "short_name": "Gabr MT",
+        "identifiers": [
+          "0000-0001-9074-3331"
+        ],
+        "affiliations": [
+          "Department of Radiology, Stanford University, Stanford, California 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Rafiq, Humaira",
+        "short_name": "Rafiq H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Abdul Wali Khan University Mardan, 23200, Pakistan. awadood@awkum.edu.pk."
+        ]
+      },
+      {
+        "full_name": "Wadood, Abdul",
+        "short_name": "Wadood A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Abdul Wali Khan University Mardan, 23200, Pakistan. awadood@awkum.edu.pk."
+        ]
+      },
+      {
+        "full_name": "Lu, Shaoyong",
+        "short_name": "Lu S",
+        "identifiers": [
+          "0000-0002-1334-6292"
+        ],
+        "affiliations": [
+          "Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, Shanghai Jiao Tong University, School of Medicine, Shanghai 20025, China. lushaoyong@yeah.net haifengchen@sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jian",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0002-6558-791X"
+        ],
+        "affiliations": [
+          "Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, Shanghai Jiao Tong University, School of Medicine, Shanghai 20025, China. lushaoyong@yeah.net haifengchen@sjtu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Hai-Feng",
+        "short_name": "Chen HF",
+        "identifiers": [
+          "0000-0002-7496-4182"
+        ],
+        "affiliations": [
+          "Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, Shanghai Jiao Tong University, School of Medicine, Shanghai 20025, China. lushaoyong@yeah.net haifengchen@sjtu.edu.cn and Shanghai Center for Bioinformation Technology, Shanghai, 200235, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2021 Jun 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/20 06:00",
+    "fetched_at": "2026-09-20 03:15:49"
+  },
+  "links": {
+    "cites": [
+      "39937829",
+      "39493720",
+      "39456228",
+      "37894494",
+      "36978391",
+      "36677616",
+      "36615218",
+      "36290585",
+      "36144820",
+      "35620482",
+      "35004700"
+    ],
+    "refs": [],
+    "similar": [
+      "34008604",
+      "26928525",
+      "25046163",
+      "26585932",
+      "26585933",
+      "29300159",
+      "18673121",
+      "17192310",
+      "25577039",
+      "16116650",
+      "21795470",
+      "10607250",
+      "27252526",
+      "30862675",
+      "26152585",
+      "28523927",
+      "28535337",
+      "26536115",
+      "24713119",
+      "27933783",
+      "25224012",
+      "27180013",
+      "18369481",
+      "25546252",
+      "16840325",
+      "30118732",
+      "23896639",
+      "26711745",
+      "27282743",
+      "24262279",
+      "22801423",
+      "19812153",
+      "9741641",
+      "9143277",
+      "21513964",
+      "10726060",
+      "26850003",
+      "15902263",
+      "20719944",
+      "25972535",
+      "26202252",
+      "23466233",
+      "23431163",
+      "31315928",
+      "21111742",
+      "29924511",
+      "30290989",
+      "25031347",
+      "24729518",
+      "23896281",
+      "11390611",
+      "23165461",
+      "18842320",
+      "27967269",
+      "15339921",
+      "21975800",
+      "10400746",
+      "24867983",
+      "24768676",
+      "23009750",
+      "25856426",
+      "17880107",
+      "22203595",
+      "12368350",
+      "24533158",
+      "23745769",
+      "27925362",
+      "22585215",
+      "26727512",
+      "32727880",
+      "26355086",
+      "28193664",
+      "25666154",
+      "16475810",
+      "27932311",
+      "24687498",
+      "22345441",
+      "27236925",
+      "30047829",
+      "26719254",
+      "11527730",
+      "26445449",
+      "22623794",
+      "28293834",
+      "24760886",
+      "22507961",
+      "21669189",
+      "19928982",
+      "37230374",
+      "31528351"
+    ],
+    "review": [
+      "34008604",
+      "26585932",
+      "26585933",
+      "18673121",
+      "10607250",
+      "9741641",
+      "10726060",
+      "29924511",
+      "23896281",
+      "27967269",
+      "21975800",
+      "23009750"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d0cp06360f",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/34008604",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

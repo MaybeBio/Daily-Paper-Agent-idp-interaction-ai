@@ -1,0 +1,381 @@
+{
+  "identity": {
+    "pmid": "37990040",
+    "doi": "10.1038/s41598-023-45969-5",
+    "title": "Prediction of folding patterns for intrinsic disordered protein."
+  },
+  "content": {
+    "abstract": "The conformation flexibility of natural protein causes both complexity and difficulty to understand the relationship between structure and function. The prediction of intrinsically disordered protein primarily is focusing on to disclose the regions with structural flexibility involving relevant biological functions and various diseases. The order of amino acids in protein sequence determines possible conformations, folding flexibility and biological function. Although many methods provided the information of intrinsically disordered protein (IDP), but the results are mainly limited to determine the locations of regions without knowledge of possible folding conformations. Here, the developed protein folding fingerprint adopted the protein folding variation matrix (PFVM) to reveal all possible folding patterns for the intrinsically disordered protein along its sequence. The PFVM integrally exhibited the intrinsically disordered protein with disordering regions, degree of disorder as well as folding pattern. The advantage of PFVM will not only provide rich information for IDP, but also may promote the study of protein folding problem.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Folding",
+      "Amino Acid Sequence",
+      "Amino Acids",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Jiaan",
+        "Cheng, Wen-Xiang",
+        "Wu, Gang",
+        "Sheng, Sitong",
+        "Zhang, Peng"
+      ],
+      "short_names": [
+        "Yang J",
+        "Cheng WX",
+        "Wu G",
+        "Sheng S",
+        "Zhang P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China. jiaanyang@yahoo.com.",
+        "Micro Biotech, Ltd., Shanghai, 200123, China. jiaanyang@yahoo.com.",
+        "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China.",
+        "School of Basic Medicine, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China.",
+        "HYK High-throughput Biotechnology Institute, Shenzhen, 518057, Guangdong, China.",
+        "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Jiaan",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China. jiaanyang@yahoo.com.",
+          "Micro Biotech, Ltd., Shanghai, 200123, China. jiaanyang@yahoo.com."
+        ]
+      },
+      {
+        "full_name": "Cheng, Wen-Xiang",
+        "short_name": "Cheng WX",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Gang",
+        "short_name": "Wu G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, 430030, China."
+        ]
+      },
+      {
+        "full_name": "Sheng, Sitong",
+        "short_name": "Sheng S",
+        "identifiers": [],
+        "affiliations": [
+          "HYK High-throughput Biotechnology Institute, Shenzhen, 518057, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Peng",
+        "short_name": "Zhang P",
+        "identifiers": [],
+        "affiliations": [
+          "Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, 518055, Guangdong, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Nov 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/22 06:43",
+    "fetched_at": "2026-09-21 02:59:59"
+  },
+  "links": {
+    "cites": [
+      "41114728",
+      "40777465",
+      "40677912"
+    ],
+    "refs": [
+      "37140058",
+      "37127972",
+      "36416266",
+      "35739160",
+      "35697478",
+      "35562983",
+      "35514069",
+      "34894985",
+      "34850135",
+      "34764391",
+      "34418423",
+      "34385305",
+      "34293799",
+      "34265844",
+      "34048569",
+      "33237329",
+      "33201250",
+      "32599863",
+      "31889261",
+      "31521236",
+      "29860432",
+      "29466338",
+      "28516009",
+      "27270343",
+      "26517719",
+      "25559583",
+      "25534081",
+      "25517095",
+      "25391399",
+      "25374899",
+      "25220455",
+      "24606139",
+      "24178034",
+      "23798504",
+      "23203878",
+      "22813427",
+      "21570668",
+      "21501695",
+      "21357425",
+      "20100603",
+      "20099310",
+      "19444816",
+      "18802931",
+      "18573080",
+      "18388127",
+      "18214949",
+      "17709338",
+      "17567614",
+      "17021161",
+      "16844983",
+      "15955783",
+      "15947016",
+      "15303830",
+      "15019783",
+      "14604535",
+      "14579347",
+      "12824431",
+      "12824398",
+      "12418108",
+      "12381310",
+      "11784292",
+      "11381529",
+      "10884388",
+      "9118958"
+    ],
+    "similar": [
+      "37990040",
+      "35514069",
+      "31756456",
+      "29716994",
+      "28914483",
+      "27115638",
+      "28365882",
+      "32253236",
+      "29228892",
+      "18831774",
+      "27911701",
+      "35507260",
+      "30819075",
+      "25287424",
+      "33230318",
+      "32323533",
+      "34610267",
+      "29990433",
+      "31683980",
+      "28970487",
+      "34358545",
+      "35139468",
+      "31441158",
+      "27111521",
+      "33087759",
+      "26195786",
+      "33875885",
+      "31397874",
+      "23466039",
+      "34461937",
+      "37992088",
+      "32045581",
+      "27548131",
+      "37722056",
+      "31411026",
+      "34545666",
+      "32103094",
+      "26790343",
+      "26720267",
+      "36257361",
+      "34902817",
+      "34504009",
+      "32230759",
+      "23963781",
+      "38166858",
+      "31552948",
+      "29753880",
+      "26851286",
+      "36210722",
+      "35436286",
+      "26912067",
+      "32184088",
+      "25307499",
+      "26086829",
+      "24329095",
+      "34390736",
+      "28604862",
+      "29208936",
+      "28952717",
+      "24604825",
+      "34473923",
+      "32020911",
+      "26851279",
+      "18004752",
+      "27423742",
+      "32696371",
+      "34418423",
+      "26742101",
+      "32112804",
+      "28393629",
+      "26683124",
+      "28661120",
+      "34981860",
+      "32429036",
+      "27698144",
+      "28640390",
+      "32204351",
+      "25604198",
+      "29604827",
+      "36959451",
+      "31978465",
+      "32357776",
+      "25533957",
+      "31425549",
+      "24037790",
+      "32696355",
+      "37459524",
+      "33454008",
+      "25822629",
+      "32702119",
+      "25345588",
+      "32901090",
+      "32295482",
+      "24606139",
+      "18991772",
+      "26851282",
+      "33207556",
+      "26801222",
+      "14691223",
+      "37957331",
+      "34224747",
+      "34680162",
+      "20117254",
+      "37924569",
+      "17158572",
+      "27229125",
+      "38039154",
+      "39241759",
+      "36250006",
+      "31906016",
+      "32089835",
+      "19594871",
+      "21952612",
+      "37310199",
+      "33266184",
+      "38182699",
+      "33447499",
+      "37176156",
+      "39310778",
+      "36865220",
+      "38454968",
+      "35113705",
+      "37934234"
+    ],
+    "review": [
+      "37990040",
+      "32253236",
+      "27911701",
+      "25287424",
+      "34610267",
+      "34358545",
+      "35139468",
+      "31441158",
+      "31397874",
+      "23466039",
+      "32045581",
+      "27548131",
+      "34545666",
+      "26720267",
+      "36257361",
+      "34902817",
+      "29753880",
+      "26851286",
+      "25307499",
+      "34390736",
+      "32020911",
+      "26851279",
+      "34418423",
+      "32429036",
+      "32204351",
+      "36959451",
+      "24606139",
+      "26851282",
+      "33207556",
+      "37957331",
+      "34224747",
+      "34680162",
+      "20117254",
+      "37924569",
+      "17158572",
+      "27229125",
+      "36250006",
+      "32089835"
+    ],
+    "pmc": [
+      "10663623"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-023-45969-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37990040/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37990040",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37990040",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

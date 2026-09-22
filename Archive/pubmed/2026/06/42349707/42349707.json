@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "42349707",
+    "doi": "10.1016/j.cellsig.2026.112695",
+    "title": "beta-TrCP targets nucleolin and modulates phase separation to restrict ribosome biogenesis in myocardial infarction hearts."
+  },
+  "content": {
+    "abstract": "Myocardial infarction (MI) remains a significant global health challenge, as limited long-term efficacy of coronary interventions is largely due to inadequate cardiomyocyte (CM) regeneration. Ribosome biogenesis, a key driver of cell regeneration, and Nucleolin (NCL), a cardioprotective protein, have emerged as crucial factors in post-MI recovery. While liquid-liquid phase separation (LLPS) plays a dynamic role in cellular regulation, its impact on NCL-mediated ribosome biogenesis following MI remains unclear. Using Ribo-Halo, Ribo-disome, and AgNOR staining to map ribosome biogenesis, along with co-immunoprecipitation, molecular docking, FRAP, and confocal imaging to examine NCL ubiquitination and LLPS dynamics, we investigated these mechanisms. In MI mice and hypoxic cells, we identified an inverse correlation between the E3 ubiquitin ligase beta-TrCP and NCL levels. Our Co-IP results demonstrate a functional interaction between beta-TrCP and NCL in cytoplasm, and hypoxia induced LLPS transition of NCL in nuclear. NCL depletion impaired ribosome biogenesis and CM renewal. Our findings reveal NCL depletion-mediated by beta-TrCP and LLPS formation as a key mechanism hindering cardiac repair post-MI. This study provides valuable insights and introduces potential therapeutic target for treating MI.",
+    "keywords": [
+      "E3 ubiquitin ligase",
+      "LLPS",
+      "Myocardial infarction",
+      "Nucleolin",
+      "Ribosome biogenesis"
+    ],
+    "mesh_terms": [
+      "*RNA-Binding Proteins/metabolism",
+      "Nucleolin",
+      "Animals",
+      "*Phosphoproteins/metabolism",
+      "*Myocardial Infarction/metabolism/pathology",
+      "*Ribosomes/metabolism",
+      "Mice",
+      "Myocytes, Cardiac/metabolism",
+      "Phase Separation",
+      "Humans",
+      "Ubiquitination",
+      "Mice, Inbred C57BL",
+      "Male"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tu, Junchu",
+        "Zhang, Huiling",
+        "Lu, Tonggan",
+        "Zhou, Anqi",
+        "Zhang, Yu",
+        "Li, Ao",
+        "Liu, Bin",
+        "Yu, Xi-Yong",
+        "Xu, Yan",
+        "Li, Yangxin"
+      ],
+      "short_names": [
+        "Tu J",
+        "Zhang H",
+        "Lu T",
+        "Zhou A",
+        "Zhang Y",
+        "Li A",
+        "Liu B",
+        "Yu XY",
+        "Xu Y",
+        "Li Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China.",
+        "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China.",
+        "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China.",
+        "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China.",
+        "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China.",
+        "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China.",
+        "Department of Cardiology, the Second Hospital of Jilin University, Changchun, Jilin 130041, PR China.",
+        "NMPA Key Laboratory for Clinical Research and Evaluation of Drug for Thoracic Diseases, Key Laboratory of Molecular Target & Clinical Pharmacology and the State Key Laboratory of Respiratory Disease, School of Pharmaceutical Sciences, Guangzhou Medical University, Guangzhou 511436, PR China.",
+        "Department of General Medicine, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, PR China. Electronic address: xuyan217@csu.edu.cn.",
+        "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China. Electronic address: yangxinli88@aliyun.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tu, Junchu",
+        "short_name": "Tu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Huiling",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China."
+        ]
+      },
+      {
+        "full_name": "Lu, Tonggan",
+        "short_name": "Lu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Anqi",
+        "short_name": "Zhou A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Ao",
+        "short_name": "Li A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bin",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, the Second Hospital of Jilin University, Changchun, Jilin 130041, PR China."
+        ]
+      },
+      {
+        "full_name": "Yu, Xi-Yong",
+        "short_name": "Yu XY",
+        "identifiers": [],
+        "affiliations": [
+          "NMPA Key Laboratory for Clinical Research and Evaluation of Drug for Thoracic Diseases, Key Laboratory of Molecular Target & Clinical Pharmacology and the State Key Laboratory of Respiratory Disease, School of Pharmaceutical Sciences, Guangzhou Medical University, Guangzhou 511436, PR China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yan",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of General Medicine, The Second Xiangya Hospital, Central South University, Changsha, Hunan 410011, PR China. Electronic address: xuyan217@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Yangxin",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiovascular Surgery of the First Affiliated Hospital & Institute for Cardiovascular Science, Collaborative Innovation Center of Hematology, State Key Laboratory of Radiation Medicine and Protection, Suzhou Medical College, Soochow University, Suzhou, Jiangsu 215123, PR China. Electronic address: yangxinli88@aliyun.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cellular signalling"
+    ],
+    "journal_abbrev": [
+      "Cell Signal"
+    ],
+    "pub_date": "2026 Nov",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 00:51",
+    "fetched_at": "2026-09-18 04:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42349707",
+      "38994017",
+      "34490691",
+      "42149098",
+      "36680791",
+      "38319584",
+      "40974637",
+      "39933290",
+      "40447880",
+      "30947518",
+      "34646377",
+      "40583767",
+      "33853964",
+      "40210024",
+      "30257240",
+      "27049334",
+      "28478507",
+      "37039106",
+      "34753899",
+      "33550832",
+      "40460294",
+      "41548430",
+      "29668847",
+      "41895182",
+      "40756345",
+      "41120080",
+      "41371162",
+      "41325020",
+      "41926335",
+      "41055760",
+      "39643169",
+      "40653460",
+      "36593958",
+      "26082557",
+      "35762670",
+      "41492949",
+      "29363650",
+      "42251941",
+      "28103300",
+      "38679071",
+      "36438474",
+      "40023300",
+      "23594402",
+      "41619820",
+      "41774801",
+      "31975412",
+      "38432502",
+      "35122988",
+      "39900557",
+      "34674708",
+      "40665155",
+      "40975504",
+      "39766782",
+      "40099370",
+      "29982352",
+      "38889638",
+      "39985261",
+      "28948298",
+      "26463597",
+      "39098896",
+      "40675030",
+      "28751161",
+      "41402710",
+      "40784311",
+      "39145385",
+      "42345349",
+      "26136458",
+      "37589992",
+      "35777912",
+      "29162747",
+      "11922599",
+      "30307485",
+      "25765712",
+      "25866190",
+      "42345093",
+      "38357830",
+      "41993020",
+      "39078257",
+      "41575474",
+      "41092376",
+      "39559922",
+      "37778482",
+      "40723925",
+      "39703503",
+      "41798912",
+      "22752632",
+      "31412132",
+      "35562881",
+      "40813128",
+      "40684963",
+      "29512890",
+      "23460046",
+      "41294183",
+      "42092410",
+      "41442992",
+      "39533214",
+      "41325109",
+      "40787796",
+      "36719027",
+      "24632608"
+    ],
+    "review": [
+      "42349707",
+      "40210024",
+      "40675030",
+      "28751161"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0898-6568(26)00350-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/heartattack.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Heart Attack"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-936",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

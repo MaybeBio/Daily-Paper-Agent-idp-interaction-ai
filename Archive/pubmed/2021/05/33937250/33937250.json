@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "33937250",
+    "doi": "10.3389/fcell.2021.651449",
+    "title": "Membrane Interactions of the Peroxisomal Proteins PEX5 and PEX14."
+  },
+  "content": {
+    "abstract": "Human PEX5 and PEX14 are essential components of the peroxisomal translocon, which mediates import of cargo enzymes into peroxisomes. PEX5 is a soluble receptor for cargo enzymes comprised of an N-terminal intrinsically disordered domain (NTD) and a C-terminal tetratricopeptide (TPR) domain, which recognizes peroxisomal targeting signal 1 (PTS1) peptide motif in cargo proteins. The PEX5 NTD harbors multiple WF peptide motifs (WxxxF/Y or related motifs) that are recognized by a small globular domain in the NTD of the membrane-associated protein PEX14. How the PEX5 or PEX14 NTDs bind to the peroxisomal membrane and how the interaction between the two proteins is modulated at the membrane is unknown. Here, we characterize the membrane interactions of the PEX5 NTD and PEX14 NTD in vitro by membrane mimicking bicelles and nanodiscs using NMR spectroscopy and isothermal titration calorimetry. The PEX14 NTD weakly interacts with membrane mimicking bicelles with a surface that partially overlaps with the WxxxF/Y binding site. The PEX5 NTD harbors multiple interaction sites with the membrane that involve a number of amphipathic alpha-helical regions, which include some of the WxxxF/Y-motifs. The partially formed alpha-helical conformation of these regions is stabilized in the presence of bicelles. Notably, ITC data show that the interaction between the PEX5 and PEX14 NTDs is largely unaffected by the presence of the membrane. The PEX5/PEX14 interaction exhibits similar free binding enthalpies, where reduced binding enthalpy in the presence of bicelles is compensated by a reduced entropy loss. This demonstrates that docking of PEX5 to PEX14 at the membrane does not reduce the overall binding affinity between the two proteins, providing insights into the initial phase of PEX5-PEX14 docking in the assembly of the peroxisome translocon.",
+    "keywords": [
+      "NMR",
+      "membrane binding",
+      "peroxisome biogenesis",
+      "protein targeting",
+      "structural biology"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gaussmann, Stefan",
+        "Gopalswamy, Mohanraj",
+        "Eberhardt, Maike",
+        "Reuter, Maren",
+        "Zou, Peijian",
+        "Schliebs, Wolfgang",
+        "Erdmann, Ralf",
+        "Sattler, Michael"
+      ],
+      "short_names": [
+        "Gaussmann S",
+        "Gopalswamy M",
+        "Eberhardt M",
+        "Reuter M",
+        "Zou P",
+        "Schliebs W",
+        "Erdmann R",
+        "Sattler M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bavarian NMR Center, Department Chemie, Technische Universitat Munchen, Munich, Germany.",
+        "Institute of Structural Biology, Helmholtz Zentrum Munchen, Neuherberg, Germany.",
+        "Bavarian NMR Center, Department Chemie, Technische Universitat Munchen, Munich, Germany.",
+        "Institute of Structural Biology, Helmholtz Zentrum Munchen, Neuherberg, Germany.",
+        "Bavarian NMR Center, Department Chemie, Technische Universitat Munchen, Munich, Germany.",
+        "Institute of Structural Biology, Helmholtz Zentrum Munchen, Neuherberg, Germany.",
+        "Institute of Biochemistry and Pathobiochemistry, Department of Systems Biology, Faculty of Medicine, Ruhr University Bochum, Bochum, Germany.",
+        "Bavarian NMR Center, Department Chemie, Technische Universitat Munchen, Munich, Germany.",
+        "Institute of Structural Biology, Helmholtz Zentrum Munchen, Neuherberg, Germany.",
+        "Institute of Biochemistry and Pathobiochemistry, Department of Systems Biology, Faculty of Medicine, Ruhr University Bochum, Bochum, Germany.",
+        "Institute of Biochemistry and Pathobiochemistry, Department of Systems Biology, Faculty of Medicine, Ruhr University Bochum, Bochum, Germany.",
+        "Bavarian NMR Center, Department Chemie, Technische Universitat Munchen, Munich, Germany.",
+        "Institute of Structural Biology, Helmholtz Zentrum Munchen, Neuherberg, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gaussmann, Stefan",
+        "short_name": "Gaussmann S",
+        "identifiers": [],
+        "affiliations": [
+          "Bavarian NMR Center, Department Chemie, Technische Universität München, Munich, Germany.",
+          "Institute of Structural Biology, Helmholtz Zentrum München, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Gopalswamy, Mohanraj",
+        "short_name": "Gopalswamy M",
+        "identifiers": [],
+        "affiliations": [
+          "Bavarian NMR Center, Department Chemie, Technische Universität München, Munich, Germany.",
+          "Institute of Structural Biology, Helmholtz Zentrum München, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Eberhardt, Maike",
+        "short_name": "Eberhardt M",
+        "identifiers": [],
+        "affiliations": [
+          "Bavarian NMR Center, Department Chemie, Technische Universität München, Munich, Germany.",
+          "Institute of Structural Biology, Helmholtz Zentrum München, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Reuter, Maren",
+        "short_name": "Reuter M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Pathobiochemistry, Department of Systems Biology, Faculty of Medicine, Ruhr University Bochum, Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Zou, Peijian",
+        "short_name": "Zou P",
+        "identifiers": [],
+        "affiliations": [
+          "Bavarian NMR Center, Department Chemie, Technische Universität München, Munich, Germany.",
+          "Institute of Structural Biology, Helmholtz Zentrum München, Neuherberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Schliebs, Wolfgang",
+        "short_name": "Schliebs W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Pathobiochemistry, Department of Systems Biology, Faculty of Medicine, Ruhr University Bochum, Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Erdmann, Ralf",
+        "short_name": "Erdmann R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Pathobiochemistry, Department of Systems Biology, Faculty of Medicine, Ruhr University Bochum, Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Sattler, Michael",
+        "short_name": "Sattler M",
+        "identifiers": [],
+        "affiliations": [
+          "Bavarian NMR Center, Department Chemie, Technische Universität München, Munich, Germany.",
+          "Institute of Structural Biology, Helmholtz Zentrum München, Neuherberg, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cell and developmental biology"
+    ],
+    "journal_abbrev": [
+      "Front Cell Dev Biol"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/04 06:00",
+    "fetched_at": "2026-09-20 02:57:55"
+  },
+  "links": {
+    "cites": [
+      "42148570",
+      "41832417",
+      "41809380",
+      "41746722",
+      "40934063",
+      "40376748",
+      "40176919",
+      "38872895",
+      "38632234",
+      "38470934",
+      "38274755",
+      "37743160",
+      "37165185",
+      "35931083",
+      "35805150",
+      "35185625"
+    ],
+    "refs": [
+      "31779883",
+      "30414318",
+      "29976879",
+      "29215632",
+      "26450166",
+      "24235149",
+      "23671275",
+      "23026637",
+      "22989724",
+      "22825779",
+      "21477581",
+      "21464226",
+      "20659419",
+      "20178365",
+      "20154681",
+      "19197237",
+      "17708989",
+      "17168787",
+      "17157249",
+      "17046076",
+      "16849337",
+      "16756494",
+      "16103872",
+      "15815974",
+      "15098234",
+      "14960323",
+      "12061715",
+      "11438541",
+      "11336669",
+      "11101887",
+      "10026185",
+      "8991089",
+      "8858157",
+      "8520220",
+      "8448431",
+      "7514039",
+      "7197900",
+      "3916321",
+      "3480287",
+      "2276415"
+    ],
+    "similar": [
+      "33937250",
+      "36437542",
+      "24235149",
+      "19197237",
+      "33484719",
+      "12974625",
+      "38632234",
+      "11438541",
+      "10026185",
+      "35931083",
+      "28765278",
+      "36407094",
+      "24879895",
+      "21976670",
+      "15798189",
+      "30375424",
+      "30158461",
+      "35646929",
+      "37165185",
+      "17921697",
+      "33580581",
+      "12456682",
+      "26450166",
+      "36117327",
+      "16314507",
+      "32831175",
+      "26673321",
+      "15146459",
+      "12387850",
+      "19584060",
+      "11361338",
+      "24118911",
+      "26377801",
+      "21895788",
+      "11071920",
+      "39304044",
+      "30414318",
+      "28724525",
+      "30366024",
+      "18712838",
+      "28760655",
+      "11546814",
+      "18598704",
+      "20728240",
+      "12646226",
+      "17506110",
+      "30378028",
+      "11101887",
+      "12578380",
+      "30971414",
+      "28742939",
+      "36260915",
+      "23009329",
+      "26359497",
+      "9009266",
+      "21525035",
+      "16792693",
+      "15949802",
+      "16849337",
+      "29884772",
+      "20597979",
+      "11243819",
+      "34597510",
+      "25369882",
+      "12706717",
+      "10657255",
+      "17028012",
+      "31176039",
+      "29259081",
+      "11154700",
+      "29555730",
+      "16256065",
+      "21980954",
+      "26220973",
+      "33143123",
+      "17040904",
+      "26138649",
+      "31860309",
+      "27571711",
+      "10660573",
+      "31042004",
+      "31007124",
+      "26086376",
+      "38470934",
+      "10767286",
+      "30389805",
+      "23954799",
+      "37406382",
+      "36299769",
+      "33323485",
+      "36351391"
+    ],
+    "review": [
+      "33937250",
+      "33580581",
+      "26450166",
+      "36117327",
+      "17028012"
+    ],
+    "pmc": [
+      "8086558"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33937250/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33937250",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcell.2021.651449",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33937250",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

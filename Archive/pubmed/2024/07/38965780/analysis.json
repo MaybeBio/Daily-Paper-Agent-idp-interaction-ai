@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38965780",
+  "title": "A colloidal model for the equilibrium assembly and liquid-liquid phase separation of the reflectin A1 protein.",
+  "authors": "Huang, Tse-Chiang; Levenson, Robert; Li, Youli; Kohl, Phillip; Morse, Daniel E; Shell, M Scott; Helgeson, Matthew E",
+  "journal": "Biophysical journal",
+  "published_date": "2024-07-05",
+  "window": {
+    "start": "2024-07-01",
+    "end": "2024-07-07"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化SA-LR胶体模型结合MD模拟，从机制上解释无序蛋白reflectin A1的pH依赖组装与液-液相分离，对象、互作机制与物理模拟方法三者齐备，且提出可迁移至其他IDP的胶体尺度建模思路。",
+  "abstract": "Reflectin is an intrinsically disordered protein known for its ability to modulate the biophotonic camouflage of cephalopods based on its assembly-induced osmotic properties. Its reversible self-assembly into discrete, size-controlled clusters and condensed droplets are known to depend sensitively on the net protein charge, making reflectin stimuli-responsive to pH, phosphorylation, and electric fields. Despite considerable efforts to characterize this behavior, the detailed physical mechanisms of reflectin's assembly are not yet fully understood. Here, we pursue a coarse-grained molecular understanding of reflectin assembly using a combination of experiments and simulations. We hypothesize that reflectin assembly and phase behavior can be explained from a remarkably simple colloidal model whereby individual protein monomers effectively interact via a short-range attractive and long-range repulsive (SA-LR) pair potential. We parameterize a coarse-grained SA-LR interaction potential for reflectin A1 from small-angle x-ray scattering measurements, and then extend it to a range of pH values using Gouy-Chapman theory to model monomer-monomer electrostatic interactions. The pH-dependent SA-LR interaction is then used in molecular dynamics simulations of reflectin assembly, which successfully capture a number of qualitative features of reflectin, including pH-dependent formation of discrete-sized nanoclusters and liquid-liquid phase separation at high pH, resulting in a putative phase diagram for reflectin. Importantly, we find that at low pH size-controlled reflectin clusters are equilibrium assemblies, which dynamically exchange protein monomers to maintain an equilibrium size distribution. These findings provide a mechanistic understanding of the equilibrium assembly of reflectin, and suggest that colloidal-scale models capture key driving forces and interactions to explain thermodynamic aspects of native reflectin behavior. Furthermore, the success of SA-LR interactions presented in this study demonstrates the potential of a colloidal interpretation of interactions and phenomena in a range of intrinsically disordered proteins.",
+  "abstract_zh": "Reflectin是一种 intrinsically disordered protein（固有无序蛋白），以其基于组装诱导渗透性质调节头足类生物光子伪装的能力而闻名。其可逆自组装形成离散、尺寸可控的簇和凝聚液滴，已知高度依赖于净蛋白电荷，使reflectin对pH、磷酸化和电场具有刺激响应性。尽管已有大量努力来表征这种行为，但reflectin组装的详细物理机制尚未完全理解。在此，我们通过实验与模拟相结合的方式，追求对reflectin组装的粗粒化分子理解。我们假设reflectin的组装和相行为可以用一个极其简单的胶体模型来解释，其中单个蛋白单体通过短程吸引和长程排斥（SA-LR）对势有效相互作用。我们从小角X射线散射测量中参数化reflectin A1的粗粒化SA-LR相互作用势，然后利用Gouy-Chapman理论将其扩展到一系列pH值，以模拟单体-单体静电相互作用。pH依赖的SA-LR相互作用随后用于reflectin组装的分子动力学模拟，成功捕捉了reflectin的多个定性特征，包括pH依赖的离散尺寸纳米簇形成以及高pH下的液-液相分离，从而得出reflectin的推测相图。重要的是，我们发现低pH下尺寸可控的reflectin簇是平衡组装体，它们动态交换蛋白单体以维持平衡尺寸分布。这些发现提供了对reflectin平衡组装的机制性理解，并表明胶体尺度模型能捕捉关键驱动力和相互作用，以解释天然reflectin行为的热力学方面。此外，本研究中SA-LR相互作用的成功展示了胶体解释在一系列固有无序蛋白中相互作用和现象的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38965780/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38965780/",
+  "paper_page_path": "papers/pubmed/38965780/index.html"
+}

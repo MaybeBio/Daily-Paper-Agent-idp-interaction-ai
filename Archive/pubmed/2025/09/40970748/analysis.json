@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40970748",
+  "title": "Dynamics of Ca(II)-Induced Aggregation of beta-Casein as an Intrinsically Disordered Protein: Effect of Ca(II) Concentration and Encapsulation of Bioactive Molecules.",
+  "authors": "Wang, Wen-Zhu; Li, Sai; Li, Xue-Ying; Yao, Song-Po; Wu, Jing; Han, Rui-Min; Dong, Geng; Zhang, Jian-Ping",
+  "journal": "Biomacromolecules",
+  "published_date": "2025-09-19",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究结合动态光散射、冷冻电镜和分子动力学模拟，探究无序蛋白β-酪蛋白在Ca(II)诱导下的聚集机制及生物活性分子封装应用，虽聚焦IDP聚集而非典型PPI，但MD模拟揭示的聚集机制建模对本课题有可迁移启发。",
+  "abstract": "The aggregation of intrinsically disordered proteins (IDPs) is of significant interest due to its role in proteopathies and nutritional and pharmaceutical potential. This study investigates the mechanism of Ca(II)-induced aggregation of an IDP beta-casein (beta-CN) using dynamic light scattering, cryo-transmission electron microscopy, and molecular dynamics simulations. Upon Ca(II) addition, beta-CN undergoes successive induction, growth, and saturation phases, forming amorphous aggregates. Aggregation kinetics are highly dependent on the Ca(II) concentration. At a molar ratio exceeding 5:1, the hydrodynamic diameter of beta-CN increased from 20 nm (oligomer) to >100 nm (aggregate product) in a minute. The induction phase is driven by neutralizing the phosphorylated groups via Ca(II) binding, while subsequent growth and saturation phases are governed by agglomeration of intermediate aggregates with nuclei-exposed oligomers, eventually forming aggregate products after conformational relaxation. We demonstrate that the porosity and tunable assembly of beta-CN aggregates enable efficient encapsulation of bioactive molecules, offering promising applications in nanonutrition and nanotheranostics.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 的聚集因其在蛋白质病中的作用以及营养和药物潜力而备受关注。本研究利用动态光散射、冷冻透射电子显微镜和分子动力学模拟，探讨了Ca(II)诱导IDP β-酪蛋白（beta-CN）聚集的机制。在添加Ca(II)后，beta-CN经历连续的诱导、生长和饱和阶段，形成无定形聚集体。聚集动力学高度依赖于Ca(II)浓度。当摩尔比超过5:1时，beta-CN的水动力直径在1分钟内从20 nm（寡聚体）增加到>100 nm（聚集体产物）。诱导阶段由Ca(II)结合中和磷酸化基团驱动，而随后的生长和饱和阶段则由中间聚集体与暴露核的寡聚体团聚控制，最终在构象松弛后形成聚集体产物。我们证明，beta-CN聚集体的多孔性和可调组装能力能够高效封装生物活性分子，为纳米营养和纳米诊疗学提供了有前景的应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40970748/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40970748/",
+  "paper_page_path": "papers/pubmed/40970748/index.html"
+}

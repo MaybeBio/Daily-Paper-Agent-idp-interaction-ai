@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.10.14.512244",
+  "title": "The soluble N-termini of mechanosensitive ion channels MSL8, MSL9, and MSL10 are environmentally sensitive intrinsically disordered regions with distinct biophysical characteristics",
+  "authors": "Flynn AJ; Miller K; Codjoe JM; King MR; Posey AE; Haswell ES",
+  "journal": "bioRxiv",
+  "published_date": "2022-10-14",
+  "window": {
+    "start": "2022-10-10",
+    "end": "2022-10-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文表征机械敏感离子通道MSL8/9/10的N端无序区域，发现其具有环境敏感性和不同的凝聚体形成倾向，涉及IDR与相分离但未深入PPI机制建模，方法以生物信息学预测和实验为主，缺乏AI或物理模拟。",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically disordered protein regions (IDRs) are highly dynamic sequences that rapidly sample a collection of conformations. In the past several decades, IDRs have emerged as a core component of many proteomes, comprising ∼30% of all eukaryotic protein sequences. IDRs are ubiquitous throughout different biological pathways, with a notable enrichment in responses to environmental stimuli such as abiotic stress. However, the diversity of IDR-based systems that biology has evolved to respond to different stimuli is expansive, warranting the exploration of IDRs present in unique molecular contexts. Here, we identify and characterize intrinsic disorder in the soluble, cytoplasmic N-terminal domains of three members of the MscS-Like (MSL) family of mechanosensitive ion channels, MSL8, MSL9 and MSL10. In plants, MSL channels are proposed to mediate the reactions to cell swelling, pathogenic invasion, and touch. A series of bioinformatic tools unanimously predicted that the cytosolic N-termini of MSLs are intrinsically disordered. We confirmed this prediction for the N-terminus of MSL10 (MSL10 N ) via circular dichroism spectroscopy. MSL10 N adopted a predominately helical structure when exposed to the helix-inducing compound trifluoroethanol (TFE) and underwent structural changes and alterations to homotypic interaction favorability in the presence of molecular crowding agents. Lastly, in vitro imaging of condensates indicated that MSL8 N , MSL9 N and MSL10 N have sharply differing propensities for condensate formation both inherently and in response to salt, temperature, and molecular crowding. Altogether, these data establish the N-termini of MSL channels as intrinsically disordered regions with distinct biophysical properties and the potential to respond disparately to changes in their physiochemical environment.",
+  "abstract_zh": "<h4>摘要</h4> 固有无序蛋白区域（IDRs）是高度动态的序列，能够快速采样多种构象集合。在过去几十年中，IDRs已成为许多蛋白质组的核心组成部分，约占所有真核生物蛋白质序列的30%。IDRs在不同生物通路中普遍存在，尤其在响应非生物胁迫等环境刺激时显著富集。然而，生物学为应对不同刺激而进化出的基于IDR的系统具有高度多样性，这促使我们探索存在于独特分子环境中的IDRs。在此，我们识别并表征了MscS样（MSL）机械敏感离子通道家族三个成员MSL8、MSL9和MSL10的可溶性细胞质N端结构域中的固有无序性。在植物中，MSL通道被认为介导对细胞肿胀、病原入侵和触摸的反应。一系列生物信息学工具一致预测MSLs的胞质N端是固有无序的。我们通过圆二色光谱法确认了MSL10 N端（MSL10 N）的这一预测。MSL10 N在暴露于螺旋诱导化合物三氟乙醇（TFE）时采用主要螺旋结构，并在分子拥挤剂存在下发生结构变化及同型相互作用倾向性的改变。最后，体外凝聚体成像表明，MSL8 N、MSL9 N和MSL10 N在固有凝聚体形成倾向性以及对盐、温度和分子拥挤的响应方面存在显著差异。总之，这些数据确立了MSL通道的N端为具有独特生物物理特性且可能对其理化环境变化作出不同响应的固有无序区域。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.10.14.512244",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.10.14.512244",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.10.14.512244/index.html"
+}

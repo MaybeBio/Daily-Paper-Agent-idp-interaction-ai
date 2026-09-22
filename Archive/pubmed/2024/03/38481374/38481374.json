@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "38481374",
+    "doi": "10.1002/prot.26683",
+    "title": "Efficient and accurate binding free energy calculation of Abeta(9-40) protofilament propagation."
+  },
+  "content": {
+    "abstract": "Self-assembled aggregation of peptides and proteins into regular amyloid fibrils is associated with several neurodegenerative diseases. In case of Alzheimer's disease proteolytic cleavage products of the amyloid precursor protein form pathological amyloid-beta fibrils in a nucleation and propagation phase. The molecular details and thermodynamic driving forces of amyloid formation are not well understood, but are of high relevance for potential pharmacological interference. We used atomistic binding free energy simulations to calculate the free energy of protofilament propagation by an additional Abeta(9-40) peptide binding to the protofilament tip. It requires sampling of relevant conformational transitions which is challenging since the monomeric Abeta(9-40) peptide is intrinsically disordered. However, the convergence of umbrella simulations can be enhanced by applying additional restraining potentials on the axial, orientational and conformational degrees of freedom. The improved convergence leads to a much closer agreement with experimental binding free energy data compared to unrestrained umbrella sampling. Moreover, the restraining approach results in a separation of contributions to the total binding free energy. The calculated contributions indicate that the free energy change associated with the restriction of conformational freedom upon propagation makes a large opposing contribution of higher magnitude than the total binding free energy. Finally, optimization of the approach leads to further significant reduction of the computational demand which is crucial for systematic studies on mutations, denaturants and inhibitors in the fibril propagation step.",
+    "keywords": [
+      "Alzheimer's disease",
+      "amyloid propagation",
+      "amyloid-beta formation",
+      "binding free energy calculation",
+      "disordered peptide binding",
+      "molecular dynamics simulation"
+    ],
+    "mesh_terms": [
+      "*Amyloid beta-Peptides/chemistry/metabolism",
+      "Thermodynamics",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Humans",
+      "*Peptide Fragments/chemistry/metabolism",
+      "Protein Conformation",
+      "*Amyloid/chemistry/metabolism",
+      "Binding Sites",
+      "Alzheimer Disease/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Frost, Christina V",
+        "Schwierz, Nadine",
+        "Zacharias, Martin"
+      ],
+      "short_names": [
+        "Frost CV",
+        "Schwierz N",
+        "Zacharias M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5163-2663"
+      ],
+      "affiliations": [
+        "Center of Functional Protein Assemblies, Technical University of Munich, Garching, Germany.",
+        "Institute of Physics, University of Augsburg, Augsburg, Germany.",
+        "Center of Functional Protein Assemblies, Technical University of Munich, Garching, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Frost, Christina V",
+        "short_name": "Frost CV",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Functional Protein Assemblies, Technical University of Munich, Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Schwierz, Nadine",
+        "short_name": "Schwierz N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, University of Augsburg, Augsburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Zacharias, Martin",
+        "short_name": "Zacharias M",
+        "identifiers": [
+          "0000-0001-5163-2663"
+        ],
+        "affiliations": [
+          "Center of Functional Protein Assemblies, Technical University of Munich, Garching, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/14 06:46",
+    "fetched_at": "2026-09-21 05:49:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35653503",
+      "34534463",
+      "33929491",
+      "32603876",
+      "31192324",
+      "30237470",
+      "30191777",
+      "29423193",
+      "29360284",
+      "29235346",
+      "28767185",
+      "28125289",
+      "27992231",
+      "27806205",
+      "27025652",
+      "26694883",
+      "26636222",
+      "26619985",
+      "26588315",
+      "25976937",
+      "25179159",
+      "25134066",
+      "24941018",
+      "24626742",
+      "24052108",
+      "23794960",
+      "23358498",
+      "23210692",
+      "21411326",
+      "21219143",
+      "17293399",
+      "17245412",
+      "16756495",
+      "16401079",
+      "16213524",
+      "16211538",
+      "16171385",
+      "15867154",
+      "15835889",
+      "12481027",
+      "9895674"
+    ],
+    "similar": [
+      "38481374",
+      "25330398",
+      "29953467",
+      "32419254",
+      "29364151",
+      "33806726",
+      "24368046",
+      "25137638",
+      "23679641",
+      "21761818",
+      "35580288",
+      "23936224",
+      "32666627",
+      "42033067",
+      "27992231",
+      "23762479",
+      "39731748",
+      "28406293",
+      "15709480",
+      "25093402",
+      "26694883",
+      "30674664",
+      "29239603",
+      "29381047",
+      "31162715",
+      "25844814",
+      "33024142",
+      "28633568",
+      "27698130",
+      "39382320",
+      "41920139",
+      "17631541",
+      "21219143",
+      "32510059",
+      "28162045",
+      "40617079",
+      "25123396",
+      "27091578",
+      "39854227",
+      "34796404",
+      "33337368",
+      "19167295",
+      "28052060",
+      "30698013",
+      "27933940",
+      "33706107",
+      "10583407",
+      "39989313",
+      "23904252",
+      "20513411",
+      "32732434",
+      "29581486",
+      "28427941",
+      "27171340",
+      "37390790",
+      "17653279",
+      "29898363",
+      "25029558",
+      "25938662",
+      "30933519",
+      "18508610",
+      "19414017",
+      "39126645",
+      "20428075",
+      "33399148",
+      "30335383",
+      "28571516",
+      "33550630",
+      "26266837",
+      "25776887",
+      "19125574",
+      "40593714",
+      "36069400",
+      "24597727",
+      "41129692",
+      "33289734",
+      "25217638",
+      "28095675",
+      "22148916",
+      "30605312",
+      "32942739",
+      "37139594",
+      "41173868",
+      "23640306",
+      "22674434",
+      "23811057",
+      "32143150",
+      "20691234",
+      "20734314",
+      "26275931",
+      "28684415",
+      "40598757",
+      "39635892",
+      "23703910",
+      "37175868",
+      "33431654",
+      "38010414",
+      "29782833",
+      "28851223",
+      "38516974"
+    ],
+    "review": [
+      "38481374",
+      "29364151",
+      "24368046",
+      "15709480",
+      "25844814",
+      "21219143"
+    ],
+    "pmc": [
+      "12260347"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38481374/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.26683",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

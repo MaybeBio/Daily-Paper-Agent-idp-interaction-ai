@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, acknowledgments)
+- **Assessment boundary** Technical soundness, methodological rigor, and validity of conclusions based on the provided text; no evaluation of figures or supplementary materials, which were not supplied
+- **Shared manuscript claim summary** The authors benchmark four condensate boundary detection methods (thresholding, Canny edge detection, LoG blob detection with Gaussian fitting, and an ilastik-based ML classifier) using synthetic images with known ground truth, and provide recommendations for method selection based on condensate size and partition coefficient. They also report that all methods underestimate partition coefficient due to PSF blurring, and that ML-based methods are subject to annotator bias.
+- **Visible evidence base** Methods section describing simulation pipeline and detection algorithms; Results and Discussion sections reporting failure rates, boundary deviation, center estimation error, size bias, and PC underestimation; GitHub repository link for code
+- **Missing materials affecting confidence** All figures and figure legends; quantitative results (exact values, error bars, statistical tests); training details for the ML model; details of the experimental live-cell data shown in Figure 1; supplementary information
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem in the condensate field: the lack of objective benchmarking for boundary detection methods used in dual-color single particle tracking. The use of synthetic data with known ground truth is a sound and valuable approach. The authors identify a critical issue (PSF-induced PC underestimation) and provide practical recommendations. However, the manuscript as provided has several technical gaps that prevent full evaluation: the absence of figures makes it impossible to assess the visual quality of the methods, the quantitative results are described only qualitatively, and the statistical treatment of the comparisons is not described. The claim that the recommendations "can be broadly applied" is not fully supported by the evidence presented, as the simulation only considers spherical condensates with a limited parameter range.
+- **Who would be interested in the results, and why** Researchers using fluorescence microscopy to study biomolecular condensates, particularly those performing single particle tracking or quantitative image analysis of condensate boundaries. The results are also relevant to the broader bioimage analysis community interested in benchmarking segmentation and detection algorithms. The practical recommendations for method selection based on condensate size and contrast will be directly useful to experimentalists.
+- **Major strengths** The manuscript fills a clear gap in the literature by providing a quantitative, objective comparison of boundary detection methods for condensates. The use of synthetic data with known ground truth is methodologically sound and addresses the lack of absolute ground truth in real images. The authors identify a previously underappreciated bias (PSF-induced PC underestimation) that has broad implications for quantitative condensate studies. The inclusion of an ML-based method is timely and relevant. The recommendations are practical and actionable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the four methods can be quantitatively benchmarked and compared using their synthetic data, and that specific recommendations can be made for method selection.
+  - **Evidence pointer** Results and Discussion sections; Figures 5-8 (not provided)
+  - **Concern** The quantitative results are described only in qualitative terms (e.g., "Method #1 outperformed", "Method #4 generally outperforms"). No numerical values, confidence intervals, or statistical tests are reported. Without these, the reader cannot assess the magnitude of the differences between methods or the reliability of the recommendations. The figures that would show these results are not provided.
+  - **Why it matters** The central contribution of the manuscript is a quantitative comparison. Without quantitative evidence, the recommendations are not substantiated and the benchmarking claim is not established.
+  - **Resolution test** Provide the numerical results for failure rates, RMSD, center error, size ratio, and PC ratio for all methods across the parameter space, including measures of variability (e.g., standard deviation or confidence intervals) and appropriate statistical comparisons between methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the simulation uses "realistic phase separation parameters" and that the results "can be broadly applied to imaging-based studies of condensates."
+  - **Evidence pointer** Methods section, Simulation of condensate images; Results and Discussion, Optimal condensate boundary detection
+  - **Concern** The simulation only considers spherical condensates with a fixed PSF model and a limited parameter range (radius 100-600 nm, PC 2-10). Real condensates can be non-spherical, heterogeneous, and imaged under different optical conditions. The claim of broad applicability is not supported by the evidence presented. The authors acknowledge some limitations but do not test whether their conclusions hold for non-spherical shapes or different imaging modalities.
+  - **Why it matters** If the recommendations are to be broadly applied, the simulation must cover a wider range of realistic conditions. Otherwise, the conclusions may only apply to a narrow set of cases.
+  - **Resolution test** Extend the simulation to include non-spherical condensate shapes, different PSF models (e.g., confocal vs. HILO), and a wider range of PC and size values. Alternatively, temper the claims of broad applicability to the tested parameter range.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that the ML model was trained by seven researchers and that annotator bias exists.
+  - **Evidence pointer** Results and Discussion, Annotator bias of the machine-learning model; Figure 9 (not provided)
+  - **Concern** The description of the ML training is insufficient. The authors do not specify the number of training images used by each researcher, the time spent on annotation, the specific ilastik features used, or how the seven models were compared. The claim of annotator bias is based on a single figure that is not provided. Without these details, the reproducibility of the ML-based method is questionable.
+  - **Why it matters** The ML method is recommended for small condensates, but if the training procedure is not reproducible, other researchers cannot apply the method or assess its generalizability.
+  - **Resolution test** Provide a detailed description of the training protocol, including the number of images, annotation time, and ilastik settings. Report the quantitative comparison of the seven models, including measures of inter-annotator variability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "any estimation of PC based on fluorescence microscopy images will underestimate the PC due to the physical nature of PSF blurring."
+  - **Evidence pointer** Results and Discussion, Imaging-based analysis intrinsically underestimates PC; Figure 8 (not provided)
+  - **Concern** This is a strong and general claim. The authors show that PSF blurring causes PC underestimation in their simulation, but they do not demonstrate that this holds for all fluorescence microscopy conditions. The magnitude of the underestimation likely depends on the PSF size relative to the condensate size, which is not systematically varied. The claim as stated is too broad.
+  - **Why it matters** If the claim is overstated, it could mislead researchers into thinking that PC measurements are always biased in a predictable way, when in fact the bias may be condition-dependent.
+  - **Resolution test** Systematically vary the PSF size relative to condensate size and show how the PC underestimation changes. Qualify the claim to reflect the conditions under which the bias is significant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The phrase "The criteria proposed in this study to guide the selection of an optimal boundary detection method can be broadly applied" is vague. The criteria are not explicitly listed in the abstract.
+  - **Required correction** Briefly state the criteria (e.g., condensate size and PC) in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Simulation of condensate images
+  - **Evidence pointer** Methods section, Simulation of condensate images
+  - **Issue** The authors state that the PSF is approximated as a Gaussian for a confocal microscope, but the experimental data shown in Figure 1 were acquired using HILO illumination. The validity of using a confocal PSF for HILO images is not discussed.
+  - **Required correction** Justify the use of a confocal PSF for simulating HILO images, or acknowledge this as a limitation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Simulation of condensate images
+  - **Evidence pointer** Methods section, Simulation of condensate images
+  - **Issue** The noise model is described as a "mixture model" with Gaussian and Poisson components, but the specific parameters (e.g., noise levels) are not given.
+  - **Required correction** Provide the noise parameters used in the simulation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and Discussion, Optimal condensate boundary detection
+  - **Evidence pointer** Results and Discussion, Optimal condensate boundary detection
+  - **Issue** The recommendation to use Method #1 for large condensates and Method #4 for small condensates is based on RMSD, but the authors do not specify the RMSD threshold that defines "accurate" detection.
+  - **Required correction** Define what level of RMSD is considered acceptable for accurate boundary detection.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results and Discussion, Annotator bias of the machine-learning model
+  - **Evidence pointer** Results and Discussion, Annotator bias of the machine-learning model
+  - **Issue** The authors state that annotator bias "should be noted and properly addressed" but do not provide concrete suggestions for how to address it.
+  - **Required correction** Provide specific recommendations for mitigating annotator bias, such as using multiple annotators and averaging, or using a consensus-based approach.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative results and statistical analysis (R1-M1) is the primary technical failing. The insufficient description of the ML training (R1-M3) and the limited parameter range of the simulation (R1-M2) also need to be addressed. The claim of universal PC underestimation (R1-M4) needs to be qualified.
+- **Assessment against Nature-style criteria** Originality: The manuscript addresses a gap in the literature by providing a systematic benchmark of boundary detection methods for condensates. This is a valuable and original contribution, though the approach of using synthetic data is not novel in itself. Scientific importance: The results have practical implications for a wide range of researchers studying condensates, as accurate boundary detection is critical for quantitative analysis. The identification of PSF-induced PC bias is an important finding. Interdisciplinary readership: The topic is relevant to biophysics, cell biology, and bioimage analysis, and the manuscript is written in a way that is accessible to these communities. Technical soundness: The simulation approach is sound, but the lack of quantitative results and statistical analysis is a significant weakness. Readability for nonspecialists: The manuscript is generally well-written and clear, though some sections (e.g., the description of the simulation) may be challenging for readers without a background in image processing.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important problem and the approach is sound, but the lack of quantitative evidence and insufficient methodological detail prevent the conclusions from being fully established.
+
+## Risk / unsupported claims
+- The claim that the recommendations "can be broadly applied to imaging-based studies of condensates" is not supported by the limited parameter range of the simulation.
+- The claim that "any estimation of PC based on fluorescence microscopy images will underestimate the PC" is too broad and not fully supported by the evidence.
+- The claim that the ML-based method "generally outperforms" classical methods is not supported by quantitative data.
+- The claim that annotator bias exists is based on a single figure that was not provided, and the magnitude of the bias is not quantified.
+- The statement that the simulation uses "realistic phase separation parameters" is not fully justified, as the parameter range is limited and the PSF model may not match all experimental conditions.

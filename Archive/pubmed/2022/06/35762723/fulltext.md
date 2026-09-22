@@ -1,0 +1,5 @@
+# More is simpler: Decomposition of ligand‐binding affinity for proteins being disordered
+
+
+## Abstract
+  In statistical mechanics, it is well known that the huge number of degrees of freedom does not complicate the problem as it seems, but actually greatly simplifies the analysis (e.g., to give a Boltzmann distribution). Here, we reveal that the ensemble averaging from the vast conformations of intrinsically disordered proteins (IDPs) greatly simplifies the nature of binding affinity, which can be reliably decomposed into a sum of the ligandability of IDP and the capacity of ligand. Such an unexpected regularity is applied to facilitate the virtual screening upon IDPs. It also provides essential insight in understanding the specificity difference between IDPs and conventional ordered proteins since the specificity is caused by deviation from the baseline behavior of protein–ligand binding.

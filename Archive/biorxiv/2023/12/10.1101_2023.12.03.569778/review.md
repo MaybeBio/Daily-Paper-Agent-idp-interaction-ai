@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure legends
+- **Assessment boundary** Technical and scientific evaluation of the SHVIP methodology, reported results, and conclusions as presented in the preprint
+- **Shared manuscript claim summary** The authors present SHVIP, a method combining in situ cross-linking mass spectrometry with bio-orthogonal labeling of newly synthesized viral proteins, to map virus-host protein-protein interactions in intact HSV-1 infected cells. They report 739 PPIs from 6,194 cross-links, demonstrate spatial resolution across cellular compartments, integrate with AlphaFold2 structural predictions, and validate a subset of interactions through AP-MS and mutagenesis.
+- **Visible evidence base** Abstract, full results text, methods section, figure legends (Figures 1-6), extended data figure legends, supplementary table descriptions
+- **Missing materials affecting confidence** Actual figures and supplementary tables not provided; raw mass spectrometry data not accessible; detailed statistical analysis outputs not shown; complete AP-MS validation datasets not visible
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious and potentially valuable methodological advance for studying virus-host interactions in their native cellular context. The combination of metabolic labeling with cross-linking mass spectrometry is conceptually sound and addresses a genuine gap in the field. However, the current evidence base is insufficient to fully evaluate the robustness of the method, the statistical rigor of the PPI calling, and the strength of several biological conclusions. The validation experiments are thoughtful but incomplete, and the structural modeling integration requires more critical assessment.
+- **Who would be interested in the results, and why** Virologists studying virus-host interactions, particularly those working with herpesviruses; mass spectrometry specialists developing cross-linking workflows; structural biologists using AlphaFold for complex prediction; researchers interested in intrinsically disordered regions and short linear motifs in viral proteins.
+- **Major strengths** The conceptual advance of combining host shutoff-dependent metabolic labeling with XL-MS is elegant and addresses a real limitation of existing approaches. The reported depth of coverage (739 PPIs, 6,194 cross-links) appears substantially higher than previous in situ XL-MS studies of infected cells. The integration with AlphaFold2 and the development of a pipeline to identify short linear motifs in disordered regions is forward-looking and could have broad utility. The orthogonal validation strategy, including AP-MS comparison and targeted mutagenesis, is appropriate in principle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SHVIP captures PPIs from intact infected cells with high sensitivity, reporting 739 PPIs based on 6,194 cross-links.
+  - **Evidence pointer** Results section, Figure 1, Supplementary Tables 1-2
+  - **Concern** The PPI-level FDR estimation is described only briefly. The authors state a 1% PPI-level FDR estimated by target and decoy counts, but the methodology for this estimation is not described in sufficient detail. The filtering strategy to arrive at 739 PPIs from 6,194 cross-links is not transparent. It is unclear how many cross-links were discarded, what criteria were applied, and whether the FDR calculation properly accounts for the dependency structure of multiple cross-links mapping to the same protein pair.
+  - **Why it matters** The central claim of the paper rests on the reliability of the PPI calls. If the FDR estimation is not rigorous, the reported interactome may contain a substantial fraction of false positives, undermining all downstream analyses and biological conclusions.
+  - **Resolution test** Provide a detailed description of the FDR estimation procedure, including the target-decoy strategy, how residue-level and PPI-level FDRs are related, and a sensitivity analysis showing how the number of PPIs changes with varying FDR thresholds. Show the distribution of cross-link counts per PPI and the evidence supporting the filtering decisions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SHVIP captures PPIs across intracellular compartments and at the intact host endomembrane system, and that cross-links occur between proteins separated by membranes only in 0.4% of cases.
+  - **Evidence pointer** Results section, Figure 2
+  - **Concern** The claim that 99.6% of cross-links occur within either the lumenal or extra-lumenal compartment is presented as evidence of membrane integrity. However, the classification of proteins as lumenal or extra-lumenal must depend on topology annotations that may be incomplete or inaccurate for many proteins. The authors do not describe how this classification was performed, what database was used, or how proteins with unclear topology were handled. Furthermore, the absence of cross-links across membranes could also reflect the limited reactivity of the cross-linker or the inability of DSSO to bridge the distance across a membrane, rather than genuine membrane integrity.
+  - **Why it matters** The claim of intact membrane systems is a key differentiator of this method from approaches that require cell lysis. If this claim is not rigorously supported, the advantage of SHVIP over other methods is weakened.
+  - **Resolution test** Describe the topology classification method in detail, including the database and criteria used. Provide a sensitivity analysis showing how the 99.6% figure changes with different topology annotation sources. Discuss the expected frequency of inter-membrane cross-links given the cross-linker spacer length and membrane dimensions, and explain why the observed 0.4% is consistent with membrane integrity rather than technical limitations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SHVIP captures parts of the virus-host PPI space that are elusive to traditional interaction proteomics approaches, and that AP-MS validation confirms SHVIP-reported PPIs.
+  - **Evidence pointer** Results section, Figure 3, Supplementary Table 3
+  - **Concern** The comparison between SHVIP and AP-MS is presented in a way that is difficult to evaluate. The authors state that 42 SHVIP interactors were validated at a stringent AP-MS log2 fold-change cutoff of 4, and 61 at a cutoff of 2. However, the total number of AP-MS detectable interactions for the eight baits is not clearly stated, nor is the overlap significance fully contextualized. The observation that some interactions are not captured by AP-MS is interpreted as evidence that SHVIP captures "elusive" interactions, but alternative explanations, such as differences in sensitivity or the presence of false positives in SHVIP, are not adequately discussed.
+  - **Why it matters** The claim of complementarity with AP-MS is important for positioning SHVIP within the existing methodological landscape. If the comparison is not rigorously quantified, the claim of capturing "elusive" interactions is not established.
+  - **Resolution test** Provide a more complete quantitative comparison, including the total number of AP-MS detected interactions per bait, the overlap and non-overlap statistics with SHVIP, and a discussion of why non-overlapping interactions might be genuine SHVIP-specific findings rather than false positives. Consider performing AP-MS on a larger set of baits to strengthen the comparison.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that combining SHVIP with AlphaFold2 enables prediction of virus-host dimers, validated by cross-linking distance constraints, and that this approach identifies short linear motifs in disordered regions.
+  - **Evidence pointer** Results section, Figures 4-6, Supplementary Tables 4-5
+  - **Concern** The integration of cross-linking data with AlphaFold2 predictions is presented as a major advance, but the validation of the predicted models is limited. The authors state that 68 models had acceptable docking scores and at least half of cross-links satisfied, but the criteria for "acceptable" and the meaning of "at least half" are not rigorously justified. For the short linear motif predictions, the manual curation of 28 candidates to 12 sites is not described in sufficient detail to assess potential bias. The functional validation of the UL12-MAPK8 and UL12-YWHAB interactions is limited to AP-MS with mutant proteins, which does not directly demonstrate the functional significance of these interactions in the context of infection.
+  - **Why it matters** The structural modeling and short linear motif identification are presented as key innovations of the paper. If the validation is not rigorous, the practical utility of the approach for generating testable hypotheses is not established.
+  - **Resolution test** Provide a more detailed description of the model quality assessment, including the distribution of pDockQ scores and cross-link satisfaction rates across all predicted dimers. For the short linear motif predictions, describe the manual curation process in detail and consider providing a blinded evaluation. For the functional validation, consider additional experiments such as infection-based assays with the mutant viruses to demonstrate the biological relevance of the disrupted interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction assumes familiarity with cross-linking mass spectrometry and its limitations. A brief explanation of why previous XL-MS studies of infected cells were limited in sensitivity would help nonspecialist readers appreciate the advance.
+  - **Required correction** Add one or two sentences explaining the technical challenges of XL-MS in complex samples and why the host shutoff strategy helps overcome them.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, SHVIP sample preparation
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The metabolic labeling duration (17 hours) is long and may have unintended effects on cellular physiology or viral replication kinetics. The authors do not discuss potential artifacts from prolonged methionine starvation.
+  - **Required correction** Add a discussion of the potential effects of prolonged methionine starvation on the interactome and any control experiments performed to assess this.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Figure 4
+  - **Evidence pointer** Results section, Figure 4
+  - **Issue** The statement that only three inter-links could be mapped onto existing experimental structures is striking and suggests that the cross-linking data may be enriched for interactions not represented in structural databases. This is not discussed.
+  - **Required correction** Add a brief discussion of why so few cross-links map to known structures and what this implies about the novelty of the identified interactions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the UL47-DDB1 interaction is interesting but the broader implications for HSV-1 biology are not fully developed. The authors note that DDB1 is part of CRL4 complexes but do not speculate on how UL47-mediated recruitment of CRL4 might benefit the virus.
+  - **Required correction** Expand the discussion of the potential functional consequences of the UL47-DDB1 interaction for viral replication or immune evasion.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Cross-link data analysis
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The search strategy for cross-linked peptides is described briefly. It is unclear how many spectra were matched, what the false discovery rate was at the spectrum level, and how many unique cross-linked sites were identified.
+  - **Required correction** Provide additional details on the number of identified cross-linked spectra, the spectrum-level FDR, and the number of unique lysine-lysine linkages identified.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (PPI FDR estimation), R1-M2 (membrane integrity claim), R1-M3 (AP-MS comparison rigor), R1-M4 (structural model validation)
+- **Assessment against Nature-style criteria** Originality: The combination of metabolic labeling with XL-MS for virus-host interactome mapping is genuinely novel and addresses a recognized limitation in the field. Scientific importance: If the method is robust, it could have broad applicability for studying virus-host interactions in native contexts, which is of high importance for understanding viral pathogenesis. Interdisciplinary readership: The work bridges virology, mass spectrometry, and structural biology, and would appeal to researchers in all three communities. Technical soundness: The core methodology is sound in principle, but the current evidence base is insufficient to fully assess the robustness of the PPI calling and the validity of several key claims. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with multiple specialized techniques; the introduction could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is significant and the potential impact is high, but the current evidence base does not fully establish the robustness of the method or the validity of several key claims. The authors should be encouraged to provide additional technical details, more rigorous statistical analysis, and more complete validation before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that SHVIP captures PPIs "elusive to traditional interaction proteomics approaches" is not fully supported by the data presented, as the comparison with AP-MS is incomplete and alternative explanations for non-overlap are not adequately excluded.
+- The claim that the method captures interactions at an "intact host endomembrane system" relies on a single observation (99.6% of cross-links within same compartment) that requires more rigorous validation.
+- The identification of 12 putative short linear motifs is based on a manual curation process that is not described in sufficient detail to assess potential bias.
+- The functional significance of the UL12-MAPK8 and UL12-YWHAB interactions is suggested but not directly demonstrated in the context of viral infection.
+- The general applicability of SHVIP to other viruses is stated as a future possibility but is not demonstrated.

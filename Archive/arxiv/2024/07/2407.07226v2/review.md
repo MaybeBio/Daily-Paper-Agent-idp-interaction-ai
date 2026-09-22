@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text including main text, supporting information, and references
+- **Assessment boundary** Scientific content, methodological rigor, claims versus evidence, and presentation quality
+- **Shared manuscript claim summary** The authors compare the predictive power of two sequence charge parameters, κ and SCD, for conformational dimensions (Rg) and phase separation propensity (UCST) of polyampholytes as model IDPs, using RPA, FTS, and coarse-grained MD. They report that SCD is superior to κ for predicting Rg, while κ and SCD are comparably good predictors of UCST, with κ correlating better with condensed-phase interaction energy.
+- **Visible evidence base** Main text figures 1–4, supporting figures S1–S9, supporting table S1, and methodological descriptions in the supporting information
+- **Missing materials affecting confidence** The manuscript text provided lacks explicit figure captions, numerical values for correlation coefficients beyond those stated, and detailed simulation parameters (e.g., system sizes, equilibration times, number of independent runs for MD). The supporting information is present but figure contents are not fully described in the provided text.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the IDP field: whether sequence-local or sequence-nonlocal charge patterns dominate conformational and phase separation behavior. The authors employ a commendable multi-method approach (RPA, FTS, MD) and introduce a rigorous enumeration of the sequence space via Wang-Landau sampling. The central finding, that SCD outperforms κ for Rg prediction but not for UCST, is potentially significant. However, the manuscript's impact is currently limited by several issues: the presentation of key results is dense and at times unclear, the statistical significance of the reported correlations is not fully established, and the mechanistic explanation for why κ and SCD perform differently for Rg versus UCST, while plausible, is not directly tested. The work is solid but would benefit from sharper framing and additional analysis to fully realize its potential.
+- **Who would be interested in the results, and why** Researchers studying sequence-ensemble relationships in IDPs, particularly those interested in predicting conformational properties and phase separation from sequence. The work is also relevant to the broader community developing computational models for biomolecular condensates, as it provides a systematic comparison of widely used sequence parameters. The methodological advances in computing the joint distribution of κ and SCD will be of interest to computational biophysicists.
+- **Major Strengths** 1) The study addresses a fundamental and timely question about which sequence features dominate IDP behavior. 2) The combination of three complementary methods (RPA, FTS, MD) is a significant strength, providing cross-validation. 3) The rigorous enumeration of the sequence space for κ and SCD via Wang-Landau is a novel and valuable contribution. 4) The inclusion of specifically designed sequences (cκ, cSCD) to decouple κ and SCD is a clever and powerful approach. 5) The analysis of contact patterns provides mechanistic insight beyond simple correlation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The claim that SCD is "superior" to κ in predicting Rg, and that κ and SCD are "comparably good" predictors of UCST, is based on correlation coefficients. The manuscript does not report confidence intervals or significance tests for these correlations.
+  - **Evidence pointer** Figure 2, location not provided
+  - **Concern** The central claims of the paper rest on the comparison of correlation coefficients (e.g., Rg vs. SCD, Rg vs. κ). With only 26 sequences, the difference between two correlation coefficients may not be statistically significant. The authors should report confidence intervals (e.g., via bootstrap) or perform a statistical test (e.g., Steiger's Z-test for dependent correlations) to support their claims of superiority or comparability.
+  - **Why it matters** Without statistical rigor, the reader cannot assess whether the reported differences are meaningful or within noise. This is critical for the paper's main conclusion.
+  - **Resolution test** Provide bootstrap confidence intervals for the correlation coefficients in Figure 2, and perform a formal test for the difference between dependent correlations (e.g., Rg-SCD vs. Rg-κ). If the difference is not significant, the claim of "superiority" should be tempered.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic explanation
+  - **Claim pointer** The authors state that κ and SCD are comparably good predictors of UCST because "frequencies of interchain contacts in the multiple-chain condensed phase are less sensitive to sequence positions than frequencies of intrachain contacts of an isolated chain."
+  - **Evidence pointer** Figure 3, location not provided
+  - **Concern** This is a plausible explanation, but it is presented as a conclusion rather than a hypothesis. The manuscript does not directly test this mechanism. For example, one could compare the sensitivity of intrachain vs. interchain contact frequencies to sequence permutation, or analyze the contact maps more quantitatively to show that interchain contacts are indeed less position-dependent.
+  - **Why it matters** The paper's contribution is not just empirical but also conceptual. A direct test of the proposed mechanism would significantly strengthen the paper's impact.
+  - **Resolution test** Perform an analysis that directly quantifies the sensitivity of intrachain vs. interchain contact frequencies to sequence position, e.g., by comparing the variance of contact frequencies across sequence positions, or by showing that interchain contact maps are more uniform than intrachain maps.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The study is limited to 50-residue, overall-neutral polyampholytes with ±1 charges.
+  - **Evidence pointer** Methods, location not provided
+  - **Concern** The conclusions are drawn from a very specific model system. The authors should discuss more thoroughly how their findings might generalize to longer chains, sequences with different charge densities, or sequences with other types of residues (e.g., aromatic). The current discussion is brief and does not fully address the scope of the claims.
+  - **Why it matters** The title and abstract imply broad relevance to IDPs. Without a discussion of generalizability, the reader is left uncertain about the applicability of the findings.
+  - **Resolution test** Add a section in the Discussion that explicitly addresses the potential limitations and generalizability of the findings, referencing relevant literature on longer chains or more complex sequences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1a
+  - **Evidence pointer** Figure 1a, location not provided
+  - **Issue** The heat map of P(SCD, κ) is described but the figure itself is not visible in the provided text. The description of the "moderate correlation" (r=0.684) is clear, but the visual representation would help the reader understand the distribution's shape.
+  - **Required correction** Ensure the figure is clear and legible, with appropriate axis labels and a color bar. Consider adding contour lines to highlight the distribution's shape.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Supporting Information, location not provided
+  - **Issue** The manuscript states that the FTS and MD methods are described in the Supporting Information, but the provided text does not include all simulation parameters (e.g., number of chains, box size, equilibration time, number of independent runs).
+  - **Required correction** Provide a table in the Supporting Information that lists all key simulation parameters for each method and each sequence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 1f
+  - **Evidence pointer** Figure 1f, location not provided
+  - **Issue** The correlation between T*_cr values from different methods is reported as r > 0.95. It would be helpful to also report the slope and intercept of the linear fit, as a high correlation could still be consistent with a systematic offset between methods.
+  - **Required correction** Report the linear regression parameters (slope, intercept) in addition to the correlation coefficient.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "nonideal" is used to describe the predictors of UCST. This is vague. Does it mean "not perfect" or "not ideal" in a statistical sense?
+  - **Required correction** Clarify the meaning of "nonideal" in this context, or use a more precise term such as "imperfect" or "moderate."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, location not provided
+  - **Issue** The introduction mentions that κ and SCD are common parameters but does not cite the original papers that introduced them. This is a significant omission for a paper that directly compares these parameters.
+  - **Required correction** Add citations to the original papers that introduced κ (e.g., Das & Pappu, PNAS 2013) and SCD (e.g., Sawle & Ghosh, JPCB 2015).
+- **Technical failings that need to be addressed before the case is established** 1) Statistical significance of the correlation comparisons (R1-M1). 2) Direct test of the proposed mechanism for the differential performance of κ and SCD (R1-M2). 3) Full reporting of simulation parameters for reproducibility (R1-m2).
+- **Assessment against Nature-style criteria** **Originality:** The question of local vs. nonlocal sequence effects is not entirely new, but the systematic comparison of κ and SCD using a carefully designed sequence set and multiple methods is a novel contribution. The enumeration of the sequence space is a methodological advance. **Scientific importance:** The findings have implications for the design of sequence-based predictors of IDP behavior, which is a topic of high current interest. The work is likely to be cited by others in the field. **Interdisciplinary readership:** The topic is of interest to biophysicists, computational chemists, and cell biologists studying phase separation. The writing is generally accessible, but the dense presentation of methods and results may limit readability for non-specialists. **Technical soundness:** The methods are appropriate and well-established, and the multi-method approach is a strength. However, the lack of statistical rigor in the central comparison is a weakness. **Readability for nonspecialists:** The abstract is clear, but the main text is dense and would benefit from a more narrative structure and clearer signposting of the main findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially significant, but the statistical rigor and mechanistic testing need to be improved before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that SCD is "superior" to κ for Rg prediction is not statistically supported without confidence intervals or significance tests.
+- The claim that κ and SCD are "comparably good" predictors of UCST is similarly not statistically supported.
+- The mechanistic explanation for the differential performance of κ and SCD (interchain contacts less sensitive to sequence position) is presented as a conclusion but is not directly tested.
+- The generalizability of the findings beyond 50-residue, overall-neutral polyampholytes is not established and is only briefly discussed.

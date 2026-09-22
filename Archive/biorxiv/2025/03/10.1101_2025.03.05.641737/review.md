@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary data were provided
+- **Shared manuscript claim summary** The authors propose that amino acids, exemplified by glycine, bind weakly to protein backbones and aromatic side chains, thereby modulating the stability and dynamics of biomolecular condensates formed by NPM1 and RNA, with effects extending to other amino acids and short peptides
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or methodological descriptions
+- **Missing materials affecting confidence** Full manuscript, figures, tables, methods, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis regarding amino acid modulation of biomolecular condensates, but the evidence base is entirely inaccessible. The claims are broad and mechanistically specific, yet no data are shown to support the binding affinities, interaction modes, or the proposed differential effects on condensate types. The work could be of interest to the condensate and biophysics communities, but the current submission cannot be evaluated for technical soundness or scientific robustness.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and intracellular organization would be interested, as the work addresses a gap in understanding how abundant metabolites like amino acids influence condensate properties. Additionally, those working on protein-RNA interactions and disordered proteins may find the proposed binding mechanisms relevant.
+- **Major strengths** The abstract identifies a biologically relevant and underexplored question, namely the role of amino acids in condensate modulation. The proposed mechanism, involving weak binding to backbone amides and aromatic groups, is specific and testable. The potential to extend findings to other amino acids and peptides suggests broad applicability.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that glycine weakly binds to amide groups in the protein backbone and aromatic groups in side chains with 1 to 2 M affinity, and that this binding weakens backbone-backbone interactions while strengthening aromatic sticker interactions
+  - **Evidence pointer** Location not provided
+  - **Concern** No experimental data are presented to substantiate the binding affinity values or the specific interaction sites. The abstract does not describe the methods used to measure binding, such as NMR, ITC, or simulations, nor does it provide any quantitative results.
+  - **Why it matters** The mechanistic model is central to the paper's conclusions. Without verifiable evidence for the binding modes and affinities, the proposed mechanism remains speculative, and the differential effects on condensate types cannot be assessed.
+  - **Resolution test** Provide binding data from appropriate biophysical assays, including error estimates and controls, and show how these data support the stated affinities and interaction sites.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract claims that increasing glycine concentration suppresses phase separation, decreases condensate density, and increases internal dynamics, with differential modulation for condensates formed by cation/π-π interactions versus charge complexation
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract reports qualitative outcomes, such as suppressed phase separation and altered dynamics, but no quantitative data, phase diagrams, or dynamic measurements are shown. The distinction between condensate types is asserted without supporting evidence.
+  - **Why it matters** These are the primary experimental findings. Without quantitative characterization, the reader cannot evaluate the magnitude of effects, reproducibility, or whether the proposed differential modulation is robust.
+  - **Resolution test** Include phase diagrams, condensate density measurements, and dynamic data, such as FRAP or fluorescence correlation spectroscopy, with statistical analysis and appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract claims that similar modulation effects are observed for other proteinogenic amino acids and can be transferred to short peptides
+  - **Evidence pointer** Location not provided
+  - **Concern** No data are provided to support the extension to other amino acids or peptides. The scope of this claim is broad, and without comparative experiments, it is unclear whether the effects are specific to glycine or generalizable.
+  - **Why it matters** The broader applicability is a key selling point of the work. If unsupported, the claim overreaches the evidence and could mislead readers about the universality of the proposed mechanism.
+  - **Resolution test** Provide comparative data for multiple amino acids and peptide systems, including concentration ranges and any exceptions, to substantiate the generalizability claim.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of condensate types
+  - **Evidence pointer** Location not provided
+  - **Issue** The abstract distinguishes between condensates formed by cation/π-π interactions and those formed by charge complexation, but does not define these categories or specify which systems were used.
+  - **Required correction** Clarify the molecular basis for this classification and identify the specific condensate systems studied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "weakly binds"
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "weakly binds" is vague and could be interpreted in multiple ways, such as transient interactions or low affinity.
+  - **Required correction** Define the binding regime quantitatively and in the context of the proposed affinities.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Biological relevance
+  - **Evidence pointer** Location not provided
+  - **Issue** The abstract mentions implications for modulating condensates in vivo, but does not discuss whether the 1 to 2 M affinities are physiologically relevant given typical intracellular amino acid concentrations.
+  - **Required correction** Address the physiological concentration range of amino acids and how the observed effects relate to in vivo conditions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of amino acid effects on condensates is relatively novel, but the abstract does not demonstrate how this advances beyond existing knowledge of metabolite-condensate interactions.
+  - Scientific importance: The topic is relevant to condensate biology, but the importance is not established without robust evidence.
+  - Interdisciplinary readership: The work could appeal to biophysicists, cell biologists, and biochemists, but the abstract lacks sufficient detail to engage these groups.
+  - Technical soundness: Not assessable from the abstract; no methods or data are provided.
+  - Readability for nonspecialists: The abstract is concise and generally clear, but the mechanistic claims are dense and would benefit from more context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis, but the absence of any data prevents evaluation of the claims. A full manuscript with quantitative results is required before the case can be assessed.
+
+## Risk / unsupported claims
+- The specific binding affinities of glycine to backbone amides and aromatic groups are unsupported.
+- The differential modulation of condensates formed by cation/π-π interactions versus charge complexation is unsupported.
+- The extension of effects to other amino acids and short peptides is unsupported.
+- The physiological relevance of the proposed mechanism is not addressed.

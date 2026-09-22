@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.10.579793",
+  "title": "Substrate recognition principles for the PP2A-B55 protein phosphatase",
+  "authors": "Kruse T; Garvanska DH; Varga J; Garland W; McEwan B; Hein JB; Weisser MB; Puy IB; Chan CB; Parrila PS; Mendez BL; Arulanandam J; Schueler-Furman O; Jensen TH; Kettenbach A; Nilsson J",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-11",
+  "window": {
+    "start": "2024-02-05",
+    "end": "2024-02-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用AlphaFold建模与深度学习设计抑制剂研究PP2A-B55磷酸酶底物α-螺旋识别机制，虽涉及PPI与AI方法，但对象为折叠蛋白而非无序蛋白/IDR，机制建模思路可部分迁移。",
+  "abstract": "The PP2A-B55 phosphatase regulates a plethora of signaling pathways throughout eukaryotes. How PP2A-B55 selects its substrates presents a severe knowledge gap. By integrating AlphaFold modelling with comprehensive high resolution mutational scanning, we show that α-helices in substrates bind B55 through an evolutionary conserved mechanism. Despite a large diversity in sequence and composition, these α-helices share key amino acid determinants that engage discrete hydrophobic and electrostatic patches. Using deep learning protein design, we generate a specific and potent competitive peptide inhibitor of PP2A-B55 substrate interactions. With this inhibitor, we uncover that PP2A-B55 regulates the nuclear exosome targeting complex by binding to an α-helical recruitment module in RBM7. Collectively, our findings provide a framework for the understanding and interrogation of PP2A-B55 in health and disease. <h4>One sentence summary</h4> α-helices in PP2A-B55 substrates bind a conserved pocket on B55 through a common mechanism that is conserved in eukaryotes.",
+  "abstract_zh": "PP2A-B55磷酸酶调控真核生物中众多的信号通路。PP2A-B55如何选择其底物，目前存在严重的知识空白。通过将AlphaFold建模与全面的高分辨率突变扫描相结合，我们展示了底物中的α-螺旋通过一种进化保守的机制与B55结合。尽管这些α-螺旋在序列和组成上具有高度多样性，但它们共享关键的氨基酸决定因素，这些因素与离散的疏水性和静电斑块相互作用。利用深度学习蛋白质设计，我们生成了一种特异且强效的竞争性肽抑制剂，用于PP2A-B55底物相互作用。借助该抑制剂，我们发现PP2A-B55通过结合RBM7中的α-螺旋招募模块来调控核外泌体靶向复合物。总体而言，我们的发现为理解和研究PP2A-B55在健康与疾病中的作用提供了一个框架。\n\n<h4>一句话总结</h4> PP2A-B55底物中的α-螺旋通过一种在真核生物中保守的共同机制，结合B55上的一个保守口袋。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.10.579793",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.10.579793",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.10.579793/index.html"
+}

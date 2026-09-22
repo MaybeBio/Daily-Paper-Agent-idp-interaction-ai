@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34203472",
+  "title": "Computational Approaches to Explore Bacterial Toxin Entry into the Host Cell.",
+  "authors": "Pezeshkian, Weria; Shillcock, Julian C; Ipsen, John H",
+  "journal": "Toxins",
+  "published_date": "2021-07-03",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该综述聚焦细菌毒素进入宿主细胞的分子模拟方法（MD/粗粒化），虽涉及膜表面蛋白相分离现象，但对象非IDP/IDR且不以无序蛋白介导的PPI机制为核心，方法可迁移但关联有限。",
+  "abstract": "Many bacteria secrete toxic protein complexes that modify and disrupt essential processes in the infected cell that can lead to cell death. To conduct their action, these toxins often need to cross the cell membrane and reach a specific substrate inside the cell. The investigation of these protein complexes is essential not only for understanding their biological functions but also for the rational design of targeted drug delivery vehicles that must navigate across the cell membrane to deliver their therapeutic payload. Despite the immense advances in experimental techniques, the investigations of the toxin entry mechanism have remained challenging. Computer simulations are robust complementary tools that allow for the exploration of biological processes in exceptional detail. In this review, we first highlight the strength of computational methods, with a special focus on all-atom molecular dynamics, coarse-grained, and mesoscopic models, for exploring different stages of the toxin protein entry mechanism. We then summarize recent developments that are significantly advancing our understanding, notably of the glycolipid-lectin (GL-Lect) endocytosis of bacterial Shiga and cholera toxins. The methods discussed here are also applicable to the design of membrane-penetrating nanoparticles and the study of the phenomenon of protein phase separation at the surface of the membrane. Finally, we discuss other likely routes for future development.",
+  "abstract_zh": "许多细菌分泌毒性蛋白复合物，这些复合物能够修饰并破坏受感染细胞中的关键过程，进而可能导致细胞死亡。为了发挥作用，这些毒素通常需要穿过细胞膜并到达细胞内的特定底物。对这些蛋白复合物的研究不仅对于理解其生物学功能至关重要，而且对于合理设计必须穿越细胞膜以递送治疗载荷的靶向药物递送载体也具有重要意义。尽管实验技术取得了巨大进步，但毒素进入机制的研究仍然充满挑战。计算机模拟是强大的补充工具，能够以非凡的细节探索生物过程。在本综述中，我们首先强调计算方法在探索毒素蛋白进入机制不同阶段中的优势，特别关注全原子分子动力学、粗粒化和介观模型。随后，我们总结了近期显著推进我们理解的发展，尤其是细菌志贺毒素和霍乱毒素的糖脂-凝集素（GL-Lect）内吞作用。这里讨论的方法也适用于膜穿透纳米颗粒的设计以及膜表面蛋白质相分离现象的研究。最后，我们探讨了未来发展的其他可能途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34203472/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34203472/",
+  "paper_page_path": "papers/pubmed/34203472/index.html"
+}

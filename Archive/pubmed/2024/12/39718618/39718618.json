@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "39718618",
+    "doi": "10.1080/07391102.2024.2442791",
+    "title": "pH induced structural and conformational changes in nucleocapsid protein leads to intermediate like conformation: a biophysical and computational approach."
+  },
+  "content": {
+    "abstract": "Nucleocapsid protein (N) of SARS-CoV-2 is a multivalent protein, which is responsible for viral replication, assembly, packaging and modulates host immune response. In this study, we report conformational measurements of N protein at different pH by observing transition in secondary and tertiary structural contents by biophysical and computational approaches. Spectroscopic measurements revealed that N protein loses its secondary and tertiary structure at extreme acidic pH while maintaining its native conformation at mild acidic and alkaline pH. Molecular dynamics simulation studies validated spectroscopic findings. Secondary structure estimation confirmed circular dichroism (CD) findings that participation of total number of average residues in formation of native structure is higher at physiological pH, and coil percentage is higher at acidic pH. In molten globule (MG) state, secondary structure is conserved but here, CD data reveal more random structure at low pH. In pre-MG, ANS (8-anilino-1-napthalene sulfonate) binds weakly to protein as compared to MG but here, ANS binds strongly to protein. All the above-mentioned findings suggested formation of intermediary like state at low pH, which can be attributed to an off-pathway species. Unravelling structural characteristics of N protein will help understand phase-separation, protein-protein interaction and host-immune response modulation behaviour, which will eventually help in designing novel therapeutic target against COVID-19.",
+    "keywords": [
+      "Nucleocapsid protein",
+      "biophysical characterisation",
+      "intermediate conformation",
+      "molecular dynamics (MD) simulation",
+      "pH profile"
+    ],
+    "mesh_terms": [
+      "Hydrogen-Ion Concentration",
+      "Molecular Dynamics Simulation",
+      "*SARS-CoV-2/chemistry",
+      "Circular Dichroism",
+      "Protein Conformation",
+      "*Coronavirus Nucleocapsid Proteins/chemistry/metabolism",
+      "Protein Structure, Secondary",
+      "Humans",
+      "Protein Binding",
+      "Phosphoproteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Samad, Abdus",
+        "Hamza, Abu",
+        "Imam, Md Ali",
+        "Ahmad Chaudhary, Anis",
+        "Alawam, Abdullah S",
+        "Abdullah Almuqri, Eman",
+        "Islam, Asimul",
+        "Parveen, Shama"
+      ],
+      "short_names": [
+        "Samad A",
+        "Hamza A",
+        "Imam MA",
+        "Ahmad Chaudhary A",
+        "Alawam AS",
+        "Abdullah Almuqri E",
+        "Islam A",
+        "Parveen S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7591-2053",
+        "ORCID: 0000-0001-9060-7970",
+        "ORCID: 0000-0002-6359-0760"
+      ],
+      "affiliations": [
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi, India.",
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi, India.",
+        "Department of Medicinal Chemistry, Virginia Commonwealth University, Richmond, VA, USA.",
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi, India.",
+        "Department of Biology, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, Saudi Arabia.",
+        "Department of Biology, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, Saudi Arabia.",
+        "Department of Biology, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, Saudi Arabia.",
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi, India.",
+        "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Samad, Abdus",
+        "short_name": "Samad A",
+        "identifiers": [
+          "0000-0001-7591-2053"
+        ],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Hamza, Abu",
+        "short_name": "Hamza A",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi, India.",
+          "Department of Medicinal Chemistry, Virginia Commonwealth University, Richmond, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Imam, Md Ali",
+        "short_name": "Imam MA",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Ahmad Chaudhary, Anis",
+        "short_name": "Ahmad Chaudhary A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alawam, Abdullah S",
+        "short_name": "Alawam AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Abdullah Almuqri, Eman",
+        "short_name": "Abdullah Almuqri E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, Imam Mohammad Ibn Saud Islamic University (IMSIU), Riyadh, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Islam, Asimul",
+        "short_name": "Islam A",
+        "identifiers": [
+          "0000-0001-9060-7970"
+        ],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Parveen, Shama",
+        "short_name": "Parveen S",
+        "identifiers": [
+          "0000-0002-6359-0760"
+        ],
+        "affiliations": [
+          "Centre for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, New Delhi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/24 12:20",
+    "fetched_at": "2026-09-21 14:05:42"
+  },
+  "links": {
+    "cites": [
+      "42222807",
+      "40121215"
+    ],
+    "refs": [],
+    "similar": [
+      "39718618",
+      "15313473",
+      "38941236",
+      "8784206",
+      "2496758",
+      "10074344",
+      "37526269",
+      "11488928",
+      "8563628",
+      "33782395",
+      "9398152",
+      "12659873",
+      "40503686",
+      "40375582",
+      "23209794",
+      "35551296",
+      "17510960",
+      "11029574",
+      "31982536",
+      "39488934",
+      "33270159",
+      "31446356",
+      "39341499",
+      "39766245",
+      "12578383",
+      "17825936",
+      "11700042",
+      "20494823",
+      "38047623",
+      "23638080",
+      "41226381",
+      "29330023",
+      "40945576",
+      "32562316",
+      "33095454",
+      "36043462",
+      "35113919",
+      "15723647",
+      "39343000",
+      "17517789",
+      "11784297",
+      "17487689",
+      "33248025",
+      "41600868",
+      "32938768",
+      "9837762",
+      "34823028",
+      "40858555",
+      "17428681",
+      "35621271",
+      "16598711",
+      "33039147",
+      "33479198",
+      "8609608",
+      "15519299",
+      "26556631",
+      "33200826",
+      "17307793",
+      "18463861",
+      "33660218",
+      "40113149",
+      "15145950",
+      "34517025",
+      "34519429",
+      "22215307",
+      "22561740",
+      "40820302",
+      "9398530",
+      "20363283",
+      "21327882",
+      "33314794",
+      "11018713",
+      "12729617",
+      "33477032",
+      "39093972",
+      "38718862",
+      "16609692",
+      "34037422",
+      "38587193",
+      "21833676",
+      "33118327",
+      "28811208",
+      "16616362",
+      "40549905",
+      "11488594",
+      "35240128",
+      "11024041",
+      "19482042",
+      "16171575",
+      "16234239",
+      "19933157",
+      "23485328",
+      "12878035",
+      "37750540",
+      "15158727",
+      "25450045",
+      "39708056",
+      "10525152",
+      "8821711",
+      "10521270"
+    ],
+    "review": [
+      "39718618",
+      "39343000"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2024.2442791?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2024.2442791",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

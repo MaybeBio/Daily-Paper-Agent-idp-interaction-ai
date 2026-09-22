@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supporting data were provided
+- **Shared manuscript claim summary** The authors report a simulation-guided experimental framework in which computationally designed, single charge-type (SC) coiled-coil peptides form multiple lyotropic liquid-crystalline (LC) phases through nonionic, end-to-end stacking. They claim that terminal residue interactions, specifically N-terminal conformational flexibility and C-terminal attractive interactions, control the critical LC-forming concentration (CLC). They further report a rich lyotropic phase behavior spanning nematic, hexagonal columnar, smectic A, and smectic B phases, and that tryptophan-mediated cross-linking at terminal residues enhances mechanical properties.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information were provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, simulation details, characterization data (e.g., microscopy, scattering), mechanical testing data, and sequence design information
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially significant claim: that macroscopic LC phase behavior can be encoded at the molecular level through designed terminal interactions in coiled-coil peptides. The conceptual framework is appealing and aligns with current interests in de novo peptide design and stimuli-responsive soft materials. However, the abstract alone provides insufficient evidence to evaluate the central claims. Key quantitative data, control experiments, and methodological details are absent. The claim of "simulation-guided" design is not substantiated without simulation methods or validation. The phase behavior enumeration is stated but not supported by any characterization data. The mechanical enhancement claim lacks quantitative metrics. While the work may be of interest to the soft matter and peptide design communities, the case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in de novo peptide design, coiled-coil engineering, and supramolecular soft materials would be interested. The proposed strategy for encoding macroscopic properties via molecular-level terminal interactions could inform future design of peptide-based liquid crystals and hydrogels. The demonstration of multiple LC phases from a simple peptide building block may also attract those studying lyotropic phase behavior in biomolecular systems.
+- **Major strengths** The conceptual advance of linking terminal residue chemistry to macroscopic LC phase behavior is clear and potentially impactful. The use of single charge-type coiled coils as a minimal design platform is elegant. The breadth of observed phases (nematic to smectic B) suggests a systematic and rich phase diagram, which is valuable for fundamental understanding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "a simulation-guided experimental framework demonstrates that computationally designed, single charge-type (SC), coiled-coil peptides exhibit multiple lyotropic liquid-crystalline (LC) phases via programmable, robust, nonionic, end-to-end stacking"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims a "simulation-guided experimental framework" but provides no details on the simulation approach, how it guided design, or how predictions were validated experimentally. The central claim of end-to-end stacking as the mechanism for LC formation is stated without direct structural evidence (e.g., scattering, microscopy, or molecular dynamics snapshots).
+  - **Why it matters** Without evidence for the stacking mechanism and the role of simulation in design, the core premise of the work is unverifiable. The claim that LC behavior is "encoded directly in the molecular interaction among terminal residues" requires demonstration that other factors (e.g., overall charge distribution, length, concentration effects) are not responsible.
+  - **Resolution test** Provide simulation methods and validation data, plus direct structural characterization (e.g., SAXS/WAXS, cryo-TEM) showing end-to-end stacking and its correlation with LC phase formation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** "The phase behavior of SC particles is presented with variation of added salt as well as peptide particle concentration, revealing a rich lyotropic behavior spanning nematic, hexagonal columnar, smectic A, and smectic B phases"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract lists four distinct LC phases but provides no phase diagram, no characterization data (e.g., polarized optical microscopy, X-ray scattering), and no quantitative boundaries for the phases. The claim of "rich lyotropic behavior" is unsupported without such data.
+  - **Why it matters** Phase identification in lyotropic systems requires rigorous structural assignment. Without data, the reader cannot assess whether the assignments are correct or whether the phases are thermodynamically stable or kinetically trapped.
+  - **Resolution test** Provide a phase diagram with salt and concentration axes, and representative structural data for each phase with clear assignment criteria.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** "tryptophan-mediated cross-linking at the terminal residues was performed, which significantly enhanced the mechanical properties of the liquid crystal system"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of enhanced mechanical properties is made without any quantitative metrics (e.g., storage modulus, yield stress, viscosity) or comparison to non-cross-linked controls. The term "significantly" is used without statistical context.
+  - **Why it matters** Mechanical enhancement is a key applied outcome of the work. Without quantitative data, the magnitude and significance of the effect cannot be evaluated, and the claim is not testable.
+  - **Resolution test** Provide rheological or mechanical testing data with appropriate controls and statistical analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "single charge-type (SC)" is introduced without definition. It is unclear whether this refers to peptides with only one type of charged residue, a uniform charge distribution, or a specific design constraint.
+  - **Required correction** Define "single charge-type" explicitly in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Sequence information
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No peptide sequences are provided. For a design-focused study, sequence information is essential for reproducibility and for the reader to understand the design logic.
+  - **Required correction** Include sequences or reference to a table in the main text or supplementary information.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not contextualize the findings against prior work on peptide-based liquid crystals or coiled-coil assembly. This limits the reader's ability to assess novelty.
+  - **Required correction** Add a sentence in the abstract or introduction that explicitly states how this work advances beyond existing peptide LC systems.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central mechanism (end-to-end stacking), the phase assignments, and the mechanical enhancement claim all require direct evidence that is not present in the abstract.
+- **Assessment against Nature-style criteria** Originality: The concept of using terminal residue design to control LC phase behavior in coiled coils is novel and potentially original. Scientific importance: If substantiated, the work could provide a general design principle for peptide-based soft materials, which is of high importance. Interdisciplinary readership: The work bridges peptide design, soft matter physics, and materials science, which could attract a broad audience. Technical soundness: Not assessable from the abstract; the absence of methods and data precludes evaluation. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terms (e.g., smectic A, smectic B) without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract alone does not provide sufficient support for the central claims. A full manuscript with detailed methods, structural characterization, and quantitative mechanical data would be required to assess the work properly.
+
+## Risk / unsupported claims
+- The claim that LC phase behavior is "encoded directly in the molecular interaction among terminal residues" is unsupported without direct mutagenesis or control experiments.
+- The claim of "programmable, robust, nonionic, end-to-end stacking" is unsupported without structural evidence.
+- The enumeration of four LC phases is unsupported without phase identification data.
+- The claim of "significantly enhanced mechanical properties" is unsupported without quantitative mechanical data.
+- The "simulation-guided" aspect is unverifiable without simulation details and validation.

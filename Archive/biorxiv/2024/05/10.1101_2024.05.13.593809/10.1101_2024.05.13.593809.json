@@ -1,0 +1,137 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.13.593809",
+  "title": "Compositional restrictions in the flanking regions give potential specificity and strength boost to binding in short linear motifs",
+  "doi": "10.1101/2024.05.13.593809",
+  "abstract": "Short linear motif (SLiM)-mediated protein–protein interactions play important roles in several biological processes where transient binding is needed. They usually reside in intrinsically disordered regions (IDRs), which makes them accessible for interaction. Although information about the possible necessity of the flanking regions surrounding the motifs is increasingly available, it is still unclear if there are any generic amino acid attributes that need to be functionally preserved in these segments. Here, we describe the currently known ligand-binding SLiMs and their flanking regions with biologically relevant residue features and analyse them based on their simplified characteristics. Our bioinformatics analysis reveals several important properties in the widely diverse motif environment that presumably need to be preserved for proper motif function, but remained hidden so far. Our results will facilitate the understanding of the evolution of SLiMs, while also hold potential for expanding and increasing the precision of current motif prediction methods. <h4>Author summary</h4> Protein–protein interactions between short linear motifs and their binding domains play key roles in several molecular processes. Mutations in these binding sites have been linked to severe diseases, therefore, the interest in the motif research field has been dramatically increasing. Based on the accumulated knowledge, it became evident that not only the short motif sequences themselves, but their surrounding flanking regions also play crucial roles in motif structure and function. Since most of the motifs tend to be located within highly variable disordered protein regions, searching for functionally important physico-chemical properties in their proximity could facilitate novel discoveries in this field. Here we show that the investigation of the motif flanking regions based on different amino acid attributes can provide further information on motif function. Based on our bioinformatics approach we have found so far hidden features that are generally present within certain motif categories, thus could be used as additional information in motif searching methods as well.",
+  "authors": [
+    "Acs V",
+    "Hatos A",
+    "Tantos A",
+    "Kalmar L"
+  ],
+  "published_date": "2024-05-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.13.593809",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.13.593809.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR853292",
+    "raw_record": {
+      "id": "PPR853292",
+      "source": "PPR",
+      "doi": "10.1101/2024.05.13.593809",
+      "title": "Compositional restrictions in the flanking regions give potential specificity and strength boost to binding in short linear motifs",
+      "authorString": "Acs V, Hatos A, Tantos A, Kalmar L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Acs V",
+            "lastName": "Acs",
+            "firstName": "Veronika",
+            "initials": "V"
+          },
+          {
+            "fullName": "Hatos A",
+            "lastName": "Hatos",
+            "firstName": "Andras",
+            "initials": "A"
+          },
+          {
+            "fullName": "Tantos A",
+            "lastName": "Tantos",
+            "firstName": "Agnes",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1273-9841"
+            }
+          },
+          {
+            "fullName": "Kalmar L",
+            "lastName": "Kalmar",
+            "firstName": "Lajos",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3691-8350"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1273-9841"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3691-8350"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Short linear motif (SLiM)-mediated protein–protein interactions play important roles in several biological processes where transient binding is needed. They usually reside in intrinsically disordered regions (IDRs), which makes them accessible for interaction. Although information about the possible necessity of the flanking regions surrounding the motifs is increasingly available, it is still unclear if there are any generic amino acid attributes that need to be functionally preserved in these segments. Here, we describe the currently known ligand-binding SLiMs and their flanking regions with biologically relevant residue features and analyse them based on their simplified characteristics. Our bioinformatics analysis reveals several important properties in the widely diverse motif environment that presumably need to be preserved for proper motif function, but remained hidden so far. Our results will facilitate the understanding of the evolution of SLiMs, while also hold potential for expanding and increasing the precision of current motif prediction methods. <h4>Author summary</h4>  Protein–protein interactions between short linear motifs and their binding domains play key roles in several molecular processes. Mutations in these binding sites have been linked to severe diseases, therefore, the interest in the motif research field has been dramatically increasing. Based on the accumulated knowledge, it became evident that not only the short motif sequences themselves, but their surrounding flanking regions also play crucial roles in motif structure and function. Since most of the motifs tend to be located within highly variable disordered protein regions, searching for functionally important physico-chemical properties in their proximity could facilitate novel discoveries in this field. Here we show that the investigation of the motif flanking regions based on different amino acid attributes can provide further information on motif function. Based on our bioinformatics approach we have found so far hidden features that are generally present within certain motif categories, thus could be used as additional information in motif searching methods as well.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.05.13.593809"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.05.13.593809"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-05-17",
+      "firstPublicationDate": "2024-05-14",
+      "firstIndexDate": "2024-05-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

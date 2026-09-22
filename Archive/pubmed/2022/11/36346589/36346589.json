@@ -1,0 +1,257 @@
+{
+  "identity": {
+    "pmid": "36346589",
+    "doi": "10.1007/978-1-0716-2609-2_6",
+    "title": "Probing Conformational Dynamics of Antibodies with Geometric Simulations."
+  },
+  "content": {
+    "abstract": "This chapter describes the application of constrained geometric simulations for prediction of antibody structural dynamics. We utilize constrained geometric simulations method FRODAN, which is a low computational complexity alternative to molecular dynamics (MD) simulations that can rapidly explore flexible motions in protein structures. FRODAN is highly suited for conformational dynamics analysis of large proteins, complexes, intrinsically disordered proteins, and dynamics that occurs on longer biologically relevant time scales that are normally inaccessible to classical MD simulations. This approach predicts protein dynamics at an all-atom scale while retaining realistic covalent bonding, maintaining dihedral angles in energetically good conformations while avoiding steric clashes in addition to performing other geometric and stereochemical criteria checks. In this chapter, we apply FRODAN to showcase its applicability for probing functionally relevant dynamics of IgG2a, including large-amplitude domain-domain motions and motions of complementarity determining region (CDR) loops. As was suggested in previous experimental studies, our simulations show that antibodies can explore a large range of conformational space.",
+    "keywords": [
+      "Antibody dynamics",
+      "Geometric simulations",
+      "Protein flexibility",
+      "Rigidity Theory"
+    ],
+    "mesh_terms": [
+      "Protein Conformation",
+      "*Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins",
+      "Complementarity Determining Regions",
+      "Antibodies"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tucs, Andrejs",
+        "Tsuda, Koji",
+        "Sljoka, Adnan"
+      ],
+      "short_names": [
+        "Tucs A",
+        "Tsuda K",
+        "Sljoka A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Graduate School of Frontier Sciences, The University of Tokyo, Kashiwa, Chiba, Japan.",
+        "Graduate School of Frontier Sciences, The University of Tokyo, Kashiwa, Chiba, Japan.",
+        "RIKEN Center for Advanced Intelligence Project, Tokyo, Japan.",
+        "Research and Services Division of Materials Data and Integrated System, National Institute for Materials Science, Tsukuba, Ibaraki, Japan.",
+        "RIKEN Center for Advanced Intelligence Project, Tokyo, Japan. adnan.sljoka@riken.jp.",
+        "Department of Chemistry, York University, Toronto, Canada. adnan.sljoka@riken.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tucs, Andrejs",
+        "short_name": "Tucs A",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Frontier Sciences, The University of Tokyo, Kashiwa, Chiba, Japan."
+        ]
+      },
+      {
+        "full_name": "Tsuda, Koji",
+        "short_name": "Tsuda K",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Frontier Sciences, The University of Tokyo, Kashiwa, Chiba, Japan.",
+          "RIKEN Center for Advanced Intelligence Project, Tokyo, Japan.",
+          "Research and Services Division of Materials Data and Integrated System, National Institute for Materials Science, Tsukuba, Ibaraki, Japan."
+        ]
+      },
+      {
+        "full_name": "Sljoka, Adnan",
+        "short_name": "Sljoka A",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Advanced Intelligence Project, Tokyo, Japan. adnan.sljoka@riken.jp.",
+          "Department of Chemistry, York University, Toronto, Canada. adnan.sljoka@riken.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/09 06:00",
+    "fetched_at": "2026-09-20 16:35:03"
+  },
+  "links": {
+    "cites": [
+      "39085516",
+      "38853585"
+    ],
+    "refs": [
+      "31497702",
+      "29545810",
+      "26488417",
+      "25940394",
+      "25767879",
+      "24104456",
+      "22052496",
+      "21639141",
+      "20715289",
+      "18026087",
+      "17993504",
+      "16280618"
+    ],
+    "similar": [
+      "36346589",
+      "24061922",
+      "21639141",
+      "30840442",
+      "29545810",
+      "19754142",
+      "30666252",
+      "30813315",
+      "22669906",
+      "32264741",
+      "9571065",
+      "24603188",
+      "30708285",
+      "23396076",
+      "30184304",
+      "26827207",
+      "26241964",
+      "25659594",
+      "27588692",
+      "32929427",
+      "28834051",
+      "20726603",
+      "31148507",
+      "33444020",
+      "26575776",
+      "31445064",
+      "32525675",
+      "33779503",
+      "32585849",
+      "32859072",
+      "37279354",
+      "31809054",
+      "30204435",
+      "23065923",
+      "33383937",
+      "23663843",
+      "25753720",
+      "29696015",
+      "32786705",
+      "26138206",
+      "35129612",
+      "32579908",
+      "22082218",
+      "26735936",
+      "35090383",
+      "30404229",
+      "33737932",
+      "33030249",
+      "31552948",
+      "23912807",
+      "27975243",
+      "34680137",
+      "34853348",
+      "35298814",
+      "26575568",
+      "31548393",
+      "27591792",
+      "19194863",
+      "30878202",
+      "21591767",
+      "25387963",
+      "33382616",
+      "35720356",
+      "35934194",
+      "27037822",
+      "32534517",
+      "21287614",
+      "27028786",
+      "27819658",
+      "33078950",
+      "33030907",
+      "33355572",
+      "24969744",
+      "29812937",
+      "27558720",
+      "24753338",
+      "34201262",
+      "26018846",
+      "24763499",
+      "15340912",
+      "22313618",
+      "25517406",
+      "29053272",
+      "29702641",
+      "25099811",
+      "33167839",
+      "25625937",
+      "22314705",
+      "35707541",
+      "33337879",
+      "33629765",
+      "36574626",
+      "36842103",
+      "38118364",
+      "36346588",
+      "39231152",
+      "37072659",
+      "34424141",
+      "32268219",
+      "37676596",
+      "23298176",
+      "38217656",
+      "38632804",
+      "36573887",
+      "24387353",
+      "36346591",
+      "35174855",
+      "29272950",
+      "36817953",
+      "39140446",
+      "37875115",
+      "37191169",
+      "36712489"
+    ],
+    "review": [
+      "36346589",
+      "30840442",
+      "35129612",
+      "30404229",
+      "33355572",
+      "33167839",
+      "25625937",
+      "38118364",
+      "37072659",
+      "32268219",
+      "37676596",
+      "23298176",
+      "35174855"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-2609-2_6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

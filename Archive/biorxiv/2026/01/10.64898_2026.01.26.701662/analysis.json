@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.26.701662",
+  "title": "A brain dynamic model based on graph neural network reflect the inter-region interaction of cortical areas",
+  "authors": "Shaoxian Li; Debin Zeng; Xiaoxi Dong; Yirong He; Tongtong Che; Jichang Zhang; Zekun Yang; Jie Jiang; Lei Chu; Ying Han; Shuyu Li",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-27",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用图神经网络建模全脑BOLD信号并量化脑区间相互作用，对象为脑区而非无序蛋白/IDR，且不涉及蛋白互作或相分离，仅方法（GNN）对互作建模有间接启发。",
+  "abstract": "A central objective in neuroscience is to elucidate how the brain generates complex dynamic activity through the interactions of brain areas. In this study, we utilized Interaction Network, a graph neural network model, to develop a computational framework for predicting whole-brain cortical blood oxygenation level dependent (BOLD) signals. We derived an Inter-Regional Interaction (IRI) metric to quantify information exchange among brain areas probing the underlying dynamical mechanisms. In addition, the total IRI emitted from each brain region was calculated and defined as the IRI sent by region (RS-IRI). Our model predicted the following 10 time points BOLD activity from initial BOLD signals, and achieved a mean absolute error of 0.04. The predicted functional connectivity (FC) achieves a correlation coefficient of 0.97 compared to the empirical FC. The fluctuation amplitude of the IRI increases with the length of the connection and the largest RS-IRI oscillation amplitude is observed in visual areas. The RS-IRI demonstrates a hierarchical organization, characterized by more concentrated distributions in association regions and larger fluctuation amplitudes in unimodal regions. Applying our approach to Alzheimer’s disease (AD), we demonstrate that the frequency-specific amplitudes of IRI oscillations discriminate AD patients from healthy controls and correlate with Mini-Mental State Examination scores. Together, this work presents a deep learning–based framework for modeling brain dynamics as well a quantitative index of inter-areal interactions, and offers a new perspective for disease characterization. Author Summary The human brain comprises distinct regions that interact through complex fiber tracts, forming the functional dynamics for diverse cognitive processes. We employed fMRI to assess functional activity and DTI to reconstruct fiber tract connectivity. To elucidate how brain function emerges from these inter-regional interactions, we developed a novel computational framework based on Graph Neural Network (GNN) to model the brain’s interactive dynamics for its capacity to uncover hidden and intricate patterns within data. From this model, we derived a quantitative metric termed Inter-Regional Interaction (IRI), which characterized the fine-grained, dynamic fluctuations in communication between brain areas. Our results suggest that this GNN-based model can accurately simulate brain functional activity and provide a quantitative description of neural interaction patterns. Applying this model to a cohort of Alzheimer’s disease patients, we demonstrated that the IRI metric not only effectively distinguished patients from healthy controls but also significantly correlated with clinical cognitive performance (MMSE scores). This approach advances our understanding of the fundamental principles of brain function and offers a promising tool for identifying the underlying mechanisms of neurological disorders.",
+  "abstract_zh": "神经科学的一个核心目标是阐明大脑如何通过脑区之间的相互作用产生复杂的动态活动。在本研究中，我们利用图神经网络模型——交互网络（Interaction Network），开发了一个计算框架，用于预测全脑皮层血氧水平依赖（BOLD）信号。我们推导出一个区域间交互（IRI）指标，以量化脑区之间的信息交换，并探究其潜在的动力学机制。此外，我们计算了每个脑区发出的总IRI，并将其定义为区域发出的IRI（RS-IRI）。我们的模型从初始BOLD信号预测了接下来的10个时间点的BOLD活动，并实现了0.04的平均绝对误差。预测的功能连接（FC）与经验FC相比，相关系数达到0.97。IRI的波动幅度随连接长度的增加而增大，且在视觉区域观察到最大的RS-IRI振荡幅度。RS-IRI表现出层级组织特征，表现为在联合区分布更集中，而在单模态区波动幅度更大。将我们的方法应用于阿尔茨海默病（AD），我们证明IRI振荡的频率特异性幅度能够区分AD患者与健康对照，并与简易精神状态检查（MMSE）评分相关。总之，这项工作提出了一个基于深度学习的框架，用于建模大脑动力学以及一个定量化的区域间交互指标，并为疾病表征提供了新视角。作者摘要 人脑包含通过复杂纤维束相互作用的多个不同区域，形成支持多种认知过程的功能动力学。我们使用fMRI评估功能活动，并使用DTI重建纤维束连接。为了阐明大脑功能如何从这些区域间交互中涌现，我们开发了一种基于图神经网络（GNN）的新型计算框架，以建模大脑的交互动力学，利用其揭示数据中隐藏和复杂模式的能力。从该模型中，我们推导出一个定量指标，称为区域间交互（IRI），用于表征脑区之间通信的细粒度动态波动。我们的结果表明，这种基于GNN的模型能够准确模拟大脑功能活动，并提供神经交互模式的定量描述。将该模型应用于一组阿尔茨海默病患者，我们证明IRI指标不仅能有效区分患者与健康对照，还与临床认知表现（MMSE评分）显著相关。这种方法推进了我们对大脑功能基本原理的理解，并为识别神经疾病潜在机制提供了一个有前景的工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.26.701662",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.26.701662",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.26.701662/index.html"
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present CG-COA, a coarse-grained cubic orientation approach for local protein-protein docking, validated on six complexes with benchmark comparisons against ZDOCK and ClusPro, reporting strong overall performance (AUROC 0.94) and system-dependent advantages for flexible interfaces while acknowledging limitations for rigid and highly flexible systems
+- **Visible evidence base** Abstract text only; no methodological details, numerical results beyond those stated, or validation data are available
+- **Missing materials affecting confidence** Full methods, all performance metrics, docking poses, statistical analyses, benchmark protocol details, and comparison data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful local docking strategy with an interesting diagnostic capability, but the evidence base is too limited to evaluate the technical soundness of the approach or the robustness of the reported performance. The system-dependent results are plausible and appropriately nuanced, yet the lack of methodological detail and statistical context prevents a rigorous assessment of the claims.
+- **Who would be interested in the results, and why** Computational structural biologists and researchers developing or applying docking methods for flexible protein complexes would be interested. The explicit mapping of applicability boundaries for flexible versus rigid systems is practically valuable for method selection. The diagnostic capability to identify inherently flexible systems could inform experimental design in protein interaction studies.
+- **Major strengths** The authors address a recognized limitation in docking methodology, namely conformational flexibility, with a computationally tractable coarse-grained strategy. The validation set includes diverse binding mechanisms and extreme scenarios, which is commendable for defining applicability boundaries. The honest reporting of limitations, including poor performance on rigid interfaces and highly flexible systems, strengthens the credibility of the claims.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that CG-COA demonstrates robust performance with overall AUROC of 0.94 and F-scores up to 1.00
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports aggregate performance metrics without specifying how AUROC and F-scores were computed, what constitutes a positive or negative prediction, how decoys were generated, or how the six systems were pooled for the overall AUROC. Without this information, the metrics cannot be interpreted or compared meaningfully against benchmark methods.
+  - **Why it matters** AUROC and F-score are threshold-dependent and dataset-dependent. If the decoy generation or labeling scheme differs from standard docking benchmarks, the reported values may not be comparable to ZDOCK or ClusPro results. The overall AUROC across heterogeneous systems may mask important per-system variability that the authors themselves acknowledge.
+  - **Resolution test** Provide a clear definition of the prediction task, decoy generation protocol, labeling criteria, and per-system performance tables. Report confidence intervals or statistical significance tests for the AUROC and F-score comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that CG-COA achieves 3.7 to 5.1-fold improvement over rigid-body methods for the flexible system 3QML
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The improvement factor is stated without defining the baseline metric. It is unclear whether this refers to AUROC, F-score, RMSD, or another measure. The abstract also does not specify how ZDOCK and ClusPro were configured, whether their outputs were rescored with the same energy function, or whether the comparison is apples-to-apples in terms of input information.
+  - **Why it matters** A fold-improvement claim is only meaningful if the metric and baseline are explicit. If CG-COA uses prior knowledge of bioactive surfaces while ZDOCK and ClusPro are run in blind mode, the comparison is confounded by information asymmetry. This would overstate the advantage of CG-COA.
+  - **Resolution test** Specify the exact metric used for the fold-improvement calculation, describe the input information provided to each method, and confirm that all methods were evaluated under equivalent conditions or clearly state the differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that CG-COA correctly diagnosed inherently flexible systems (2MWS) by not converging to single conformations
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The diagnostic capability is presented as a feature, but the abstract does not explain how non-convergence is distinguished from failure to find a valid docking solution. Without a defined criterion for what constitutes a diagnosis of flexibility versus a failed run, this claim is not falsifiable.
+  - **Why it matters** If non-convergence is simply a failure mode, then interpreting it as a diagnostic is post hoc rationalization. A rigorous method would require a pre-specified decision rule that distinguishes flexible systems from rigid ones with known accuracy.
+  - **Resolution test** Define the convergence criterion, provide a confusion matrix or equivalent analysis showing how well non-convergence predicts experimentally known flexibility across a larger dataset, and demonstrate that the criterion is not trivially satisfied by random or poorly performing runs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "local docking approach" is used but not defined in the abstract. It is unclear whether this refers to restricting the search space to a known interface or to a local optimization strategy.
+  - **Required correction** Define "local docking" explicitly in the abstract or methods summary.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Validation scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that six complexes were used, but the rationale for selecting these specific systems is not given. It is unclear whether they represent a convenience sample or a systematic coverage of binding modes.
+  - **Required correction** Briefly state the selection criteria for the validation set, such as diversity of interface size, flexibility, or biological function.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reporting
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract reports RMSDs greater than 13 angstroms for extreme scenarios but does not provide the corresponding RMSD values for successful cases or a baseline for comparison.
+  - **Required correction** Report RMSD distributions for all systems and compare against the performance of standard methods on the same systems.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of robust performance, benchmark superiority, and diagnostic capability cannot be evaluated without additional methodological detail and statistical context.
+- **Assessment against Nature-style criteria** Originality: the cubic orientation sampling strategy combined with a diagnostic interpretation of non-convergence is a novel contribution, though the individual components are established. Scientific importance: the work addresses a relevant problem in docking flexible systems, but the impact is incremental rather than transformative. Interdisciplinary readership: the findings are primarily of interest to computational biologists and method developers, with limited reach beyond this community. Technical soundness: cannot be assessed from the abstract alone; the missing methodological details and statistical context are substantial. Readability for nonspecialists: the abstract is generally clear, though terms such as MM/PBSA and AUROC are used without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach with honest limitations, but the technical claims require full manuscript evaluation. A revised assessment would be possible with access to the complete methods and results.
+
+## Risk / unsupported claims
+- The overall AUROC of 0.94 is unsupported without a defined prediction task and decoy generation protocol.
+- The 3.7 to 5.1-fold improvement over rigid-body methods for 3QML is unsupported without specifying the metric and comparison conditions.
+- The diagnostic capability for identifying flexible systems is unsupported without a defined convergence criterion and validation against known flexible systems.
+- The claim that CG-OA "addresses specific limitations" of conventional methods is a reasonable interpretation but is not directly evidenced in the abstract.
+- The statement that the approach "provides valuable guidance" is an assertion of utility that is not substantiated by the reported results.

@@ -1,0 +1,493 @@
+{
+  "identity": {
+    "pmid": "42462965",
+    "doi": "10.1016/j.jmb.2026.169949",
+    "title": "The Advantages of AI for Computational Protein Studies and Looking Ahead at the Next Challenges: Single Structures Are Not Enough."
+  },
+  "content": {
+    "abstract": "The ability to understand proteins and their behaviors has been drastically improved by major successes in structure prediction and the appearance of Large Protein Language Models (LPLMs). The speed with which Deep Learning and Artificial Intelligence are now affecting computational protein studies is remarkable, but there are now many opportunities for further rapid progress with applications of these methods. Rapid gains are likely to come from studies using the approaches identified in this perspective. Addressing and predicting ligand-binding sites in protein structures, as well as the prediction of reliable structures of proteins interacting with other proteins, will be pivotal for learning the full details of structural mechanisms and dynamics. The prediction of multi-state protein ensembles, conformational transitions, dynamics of large protein complexes, and integration with experimental data is likely to happen quickly.",
+    "keywords": [
+      "disordered proteins",
+      "integrating predicted structures with experimental data",
+      "large protein language models",
+      "predicted protein structures and ensembles",
+      "protein interactions"
+    ],
+    "mesh_terms": [
+      "*Proteins/chemistry/metabolism",
+      "Protein Conformation",
+      "*Artificial Intelligence",
+      "*Computational Biology/methods",
+      "Humans",
+      "Binding Sites",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bk, Pradeep",
+        "Chen, Shi-Jie",
+        "Dima, Ruxandra",
+        "Hassan, Mubasher",
+        "Joachimiak, Andrzej",
+        "Kihara, Daisuke",
+        "Kloczkowski, Andrzej",
+        "Law, Jeffrey",
+        "Liwo, Adam",
+        "Meller, Jarek",
+        "Micheletti, Cristan",
+        "Minor, Wladek",
+        "Montelione, Gaetano T",
+        "Rackovsky, Shalom",
+        "Scaramozzino, Domenico",
+        "Senda, Miki",
+        "Senda, Toshiya",
+        "Skolnick, Jeffrey",
+        "Stan, George",
+        "Vakser, Ilya A",
+        "Wang, Jin",
+        "Zou, Xiaoqin",
+        "Jernigan, Robert L"
+      ],
+      "short_names": [
+        "Bk P",
+        "Chen SJ",
+        "Dima R",
+        "Hassan M",
+        "Joachimiak A",
+        "Kihara D",
+        "Kloczkowski A",
+        "Law J",
+        "Liwo A",
+        "Meller J",
+        "Micheletti C",
+        "Minor W",
+        "Montelione GT",
+        "Rackovsky S",
+        "Scaramozzino D",
+        "Senda M",
+        "Senda T",
+        "Skolnick J",
+        "Stan G",
+        "Vakser IA",
+        "Wang J",
+        "Zou X",
+        "Jernigan RL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Iowa State University, United States.",
+        "University of Missouri-Columbia, United States.",
+        "University of Cincinnati, United States.",
+        "Nationwide Children's Hospital, United States.",
+        "University of Chicago and Argonne National Lab, United States.",
+        "Purdue University, United States.",
+        "Nationwide Children's Hospital, United States.",
+        "National Renewable Energy Lab (Lab of the Rockies), United States.",
+        "University of Gdansk, Poland.",
+        "University of Cincinnati, United States.",
+        "International School for Advanced Studies (SISSA), Trieste, Italy.",
+        "University of Virginia, United States.",
+        "Rensselaer Polytechnic Institute, United States.",
+        "University of Rochester School of Medicine and Dentistry, United States.",
+        "Karolinska Institutet, Sweden.",
+        "KEK High Energy Accelerator Research Organization, Japan.",
+        "KEK High Energy Accelerator Research Organization, Japan.",
+        "Georgia Institute of Technology, United States.",
+        "University of Cincinnati, United States.",
+        "University of Kansas, United States.",
+        "Stony Brook University, United States.",
+        "University of Missouri-Columbia, United States.",
+        "Iowa State University, United States. Electronic address: jernigan@iastate.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bk, Pradeep",
+        "short_name": "Bk P",
+        "identifiers": [],
+        "affiliations": [
+          "Iowa State University, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Shi-Jie",
+        "short_name": "Chen SJ",
+        "identifiers": [],
+        "affiliations": [
+          "University of Missouri-Columbia, United States."
+        ]
+      },
+      {
+        "full_name": "Dima, Ruxandra",
+        "short_name": "Dima R",
+        "identifiers": [],
+        "affiliations": [
+          "University of Cincinnati, United States."
+        ]
+      },
+      {
+        "full_name": "Hassan, Mubasher",
+        "short_name": "Hassan M",
+        "identifiers": [],
+        "affiliations": [
+          "Nationwide Children's Hospital, United States."
+        ]
+      },
+      {
+        "full_name": "Joachimiak, Andrzej",
+        "short_name": "Joachimiak A",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chicago and Argonne National Lab, United States."
+        ]
+      },
+      {
+        "full_name": "Kihara, Daisuke",
+        "short_name": "Kihara D",
+        "identifiers": [],
+        "affiliations": [
+          "Purdue University, United States."
+        ]
+      },
+      {
+        "full_name": "Kloczkowski, Andrzej",
+        "short_name": "Kloczkowski A",
+        "identifiers": [],
+        "affiliations": [
+          "Nationwide Children's Hospital, United States."
+        ]
+      },
+      {
+        "full_name": "Law, Jeffrey",
+        "short_name": "Law J",
+        "identifiers": [],
+        "affiliations": [
+          "National Renewable Energy Lab (Lab of the Rockies), United States."
+        ]
+      },
+      {
+        "full_name": "Liwo, Adam",
+        "short_name": "Liwo A",
+        "identifiers": [],
+        "affiliations": [
+          "University of Gdańsk, Poland."
+        ]
+      },
+      {
+        "full_name": "Meller, Jarek",
+        "short_name": "Meller J",
+        "identifiers": [],
+        "affiliations": [
+          "University of Cincinnati, United States."
+        ]
+      },
+      {
+        "full_name": "Micheletti, Cristan",
+        "short_name": "Micheletti C",
+        "identifiers": [],
+        "affiliations": [
+          "International School for Advanced Studies (SISSA), Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Minor, Wladek",
+        "short_name": "Minor W",
+        "identifiers": [],
+        "affiliations": [
+          "University of Virginia, United States."
+        ]
+      },
+      {
+        "full_name": "Montelione, Gaetano T",
+        "short_name": "Montelione GT",
+        "identifiers": [],
+        "affiliations": [
+          "Rensselaer Polytechnic Institute, United States."
+        ]
+      },
+      {
+        "full_name": "Rackovsky, Shalom",
+        "short_name": "Rackovsky S",
+        "identifiers": [],
+        "affiliations": [
+          "University of Rochester School of Medicine and Dentistry, United States."
+        ]
+      },
+      {
+        "full_name": "Scaramozzino, Domenico",
+        "short_name": "Scaramozzino D",
+        "identifiers": [],
+        "affiliations": [
+          "Karolinska Institutet, Sweden."
+        ]
+      },
+      {
+        "full_name": "Senda, Miki",
+        "short_name": "Senda M",
+        "identifiers": [],
+        "affiliations": [
+          "KEK High Energy Accelerator Research Organization, Japan."
+        ]
+      },
+      {
+        "full_name": "Senda, Toshiya",
+        "short_name": "Senda T",
+        "identifiers": [],
+        "affiliations": [
+          "KEK High Energy Accelerator Research Organization, Japan."
+        ]
+      },
+      {
+        "full_name": "Skolnick, Jeffrey",
+        "short_name": "Skolnick J",
+        "identifiers": [],
+        "affiliations": [
+          "Georgia Institute of Technology, United States."
+        ]
+      },
+      {
+        "full_name": "Stan, George",
+        "short_name": "Stan G",
+        "identifiers": [],
+        "affiliations": [
+          "University of Cincinnati, United States."
+        ]
+      },
+      {
+        "full_name": "Vakser, Ilya A",
+        "short_name": "Vakser IA",
+        "identifiers": [],
+        "affiliations": [
+          "University of Kansas, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Jin",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Stony Brook University, United States."
+        ]
+      },
+      {
+        "full_name": "Zou, Xiaoqin",
+        "short_name": "Zou X",
+        "identifiers": [],
+        "affiliations": [
+          "University of Missouri-Columbia, United States."
+        ]
+      },
+      {
+        "full_name": "Jernigan, Robert L",
+        "short_name": "Jernigan RL",
+        "identifiers": [],
+        "affiliations": [
+          "Iowa State University, United States. Electronic address: jernigan@iastate.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2026 Oct 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/17 00:42",
+    "fetched_at": "2026-09-18 04:57:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42462965",
+      "42475469",
+      "41178755",
+      "40553326",
+      "40398752",
+      "40121710",
+      "39985945",
+      "39407556",
+      "41174317",
+      "38795564",
+      "39125995",
+      "38955920",
+      "41910880",
+      "40195117",
+      "41147497",
+      "37175454",
+      "38177398",
+      "37920879",
+      "41478913",
+      "40325375",
+      "41932144",
+      "38398585",
+      "39922965",
+      "24564893",
+      "37493353",
+      "39591473",
+      "42140027",
+      "39565312",
+      "39090739",
+      "41683791",
+      "39923288",
+      "16790841",
+      "23912807",
+      "41986008",
+      "40332289",
+      "36827465",
+      "41652159",
+      "42149955",
+      "42316773",
+      "39914050",
+      "18831774",
+      "41608988",
+      "39684679",
+      "21572173",
+      "34156124",
+      "39952928",
+      "40663654",
+      "22593000",
+      "27513851",
+      "40973394",
+      "18229697",
+      "40344574",
+      "39484820",
+      "42196328",
+      "36576775",
+      "41101376",
+      "25275445",
+      "38621234",
+      "37870486",
+      "37828669",
+      "42400844",
+      "38744148",
+      "38986287",
+      "40074747",
+      "29028926",
+      "36139085",
+      "35976160",
+      "40337922",
+      "39848362",
+      "41839238",
+      "40961942",
+      "39543034",
+      "37850517",
+      "27115648",
+      "15757999",
+      "42567392",
+      "42119874",
+      "42546051",
+      "38761500",
+      "40794688",
+      "38124369",
+      "38858069",
+      "42151395",
+      "40571274",
+      "39858535",
+      "42301231",
+      "17847101",
+      "26397464",
+      "40233800",
+      "40815917",
+      "34890131",
+      "39756261",
+      "40375059",
+      "19714199",
+      "39766238",
+      "41313605",
+      "39273672",
+      "22197384",
+      "28273445",
+      "40742755"
+    ],
+    "review": [
+      "42462965",
+      "40398752",
+      "40121710",
+      "39985945",
+      "39407556",
+      "38795564",
+      "39125995",
+      "38955920",
+      "41910880",
+      "40195117",
+      "37175454",
+      "38177398",
+      "41932144",
+      "38398585",
+      "42140027",
+      "39090739",
+      "39923288",
+      "41986008",
+      "40332289",
+      "36827465",
+      "41652159",
+      "42149955",
+      "39914050",
+      "21572173",
+      "40663654",
+      "22593000",
+      "40973394",
+      "42196328",
+      "41101376",
+      "38621234",
+      "37828669",
+      "42400844",
+      "38744148",
+      "38986287",
+      "36139085",
+      "35976160",
+      "41839238",
+      "42567392",
+      "42546051",
+      "38761500",
+      "38124369",
+      "38858069",
+      "40571274",
+      "39858535",
+      "42301231",
+      "40233800",
+      "40815917",
+      "39756261",
+      "39766238",
+      "39273672"
+    ],
+    "pmc": [
+      "13564473"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(26)00322-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42462965/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

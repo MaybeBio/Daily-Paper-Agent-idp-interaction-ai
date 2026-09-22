@@ -1,0 +1,217 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.01.651694",
+  "title": "Orthologs of an essential orphan gene vary in their capacities for function and subcellular localization in Drosophila melanogaster",
+  "doi": "10.1101/2025.05.01.651694",
+  "abstract": "Orphan genes evolve rapidly, raising questions about whether their functions remain conserved or diverge across species. To address this, we investigated goddard ( gdrd ), an orphan gene essential for spermatogenesis in Drosophila melanogaster . Within the Drosophila genus, Gdrd proteins retain a conserved core structure but display substantial variation in length and primary sequence. Here we perform cross-species gene-swap assays in D. melanogaster testes to examine how these lineage-specific changes affect Gdrd function. Strikingly, the highly divergent D. mojavensis ortholog fully rescues fertility in gdrd null flies, suggesting that ancestral Gdrd acted within a conserved spermatogenesis pathway. By contrast, several orthologs, including one from a more closely related species, cannot substitute for the melanogaster gene. Cytological analysis shows that all divergent Gdrd orthologs retain some ability to interact with axonemes and ring centrioles, consistent with the protein's structural conservation, but many non-complementing orthologs display weaker axonemal binding. Furthermore, all tested orthologs exhibit divergent localizations to organellar structures. Using computational analyses and molecular dynamics simulations, we identified intrinsic protein qualities that may account for several observations made in the gene swap assays. Rescuing orthologs bear motifs with shared physicochemical properties in their intrinsically disordered regions, while non-rescuing variants exhibit structural instabilities. Taken together, these findings show that while Gdrd's ancestral structure and interactions are conserved, several orthologs have undergone lineage-specific evolutionary changes.",
+  "authors": [
+    "Patel PH",
+    "Eicholt LA",
+    "Lange A",
+    "McDermott KL",
+    "Bornberg-Bauer E",
+    "Findlay GD"
+  ],
+  "published_date": "2025-05-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.01.651694",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.01.651694.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1015448",
+    "raw_record": {
+      "id": "PPR1015448",
+      "source": "PPR",
+      "doi": "10.1101/2025.05.01.651694",
+      "title": "Orthologs of an essential orphan gene vary in their capacities for function and subcellular localization in  <i>Drosophila melanogaster</i>",
+      "authorString": "Patel PH, Eicholt LA, Lange A, McDermott KL, Bornberg-Bauer E, Findlay GD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Patel PH",
+            "lastName": "Patel",
+            "firstName": "Prajal",
+            "initials": "PH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-9368-4751"
+            }
+          },
+          {
+            "fullName": "Eicholt LA",
+            "lastName": "Eicholt",
+            "firstName": "Lars",
+            "initials": "LA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3985-3698"
+            }
+          },
+          {
+            "fullName": "Lange A",
+            "lastName": "Lange",
+            "firstName": "Andreas",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3871-1986"
+            }
+          },
+          {
+            "fullName": "McDermott KL",
+            "lastName": "McDermott",
+            "firstName": "Kerry",
+            "initials": "KL"
+          },
+          {
+            "fullName": "Bornberg-Bauer E",
+            "lastName": "Bornberg-Bauer",
+            "firstName": "Erich",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1826-3576"
+            }
+          },
+          {
+            "fullName": "Findlay GD",
+            "lastName": "Findlay",
+            "firstName": "Geoffrey",
+            "initials": "GD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8052-2017"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8052-2017"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1826-3576"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3985-3698"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3871-1986"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-9368-4751"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Orphan genes evolve rapidly, raising questions about whether their functions remain conserved or diverge across species. To address this, we investigated  goddard (  gdrd ), an orphan gene essential for spermatogenesis in  Drosophila melanogaster . Within the  Drosophila genus, Gdrd proteins retain a conserved core structure but display substantial variation in length and primary sequence. Here we perform cross-species gene-swap assays in  D. melanogaster testes to examine how these lineage-specific changes affect Gdrd function. Strikingly, the highly divergent  D. mojavensis ortholog fully rescues fertility in  gdrd null flies, suggesting that ancestral Gdrd acted within a conserved spermatogenesis pathway. By contrast, several orthologs, including one from a more closely related species, cannot substitute for the  melanogaster gene. Cytological analysis shows that all divergent Gdrd orthologs retain some ability to interact with axonemes and ring centrioles, consistent with the protein's structural conservation, but many non-complementing orthologs display weaker axonemal binding. Furthermore, all tested orthologs exhibit divergent localizations to organellar structures. Using computational analyses and molecular dynamics simulations, we identified intrinsic protein qualities that may account for several observations made in the gene swap assays. Rescuing orthologs bear motifs with shared physicochemical properties in their intrinsically disordered regions, while non-rescuing variants exhibit structural instabilities. Taken together, these findings show that while Gdrd's ancestral structure and interactions are conserved, several orthologs have undergone lineage-specific evolutionary changes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "BO-2544/20-1;503272152",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "INST 211/667-1",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Science Foundation",
+            "grantId": "2212972",
+            "orderIn": 0
+          },
+          {
+            "agency": "Volkswagen Foundation",
+            "grantId": "98183",
+            "orderIn": 0
+          },
+          {
+            "agency": "International Human Frontier Science Program Organization",
+            "grantId": "RGP0006/2013",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Molecular Biology Organization",
+            "grantId": "10944",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/07/2025.05.01.651694.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.01.651694"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42098939",
+            "reference": "Molecular biology and evolution. 2026 May;43(5):msag119",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-05-09",
+      "firstPublicationDate": "2025-05-07",
+      "firstIndexDate": "2025-05-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

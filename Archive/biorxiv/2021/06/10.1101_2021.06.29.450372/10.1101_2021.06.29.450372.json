@@ -1,0 +1,184 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.06.29.450372",
+  "title": "Epitope order Matters in multi-epitope-based peptide (MEBP) vaccine design: An in silico study",
+  "doi": "10.1101/2021.06.29.450372",
+  "abstract": "With different countries facing multiple waves, with some SARS-CoV-2 variants more deadly and virulent, the COVID-19 pandemic is becoming more dangerous by the day and the world is facing an even more dreadful extended pandemic with exponential positive cases and increasing death rates. There is an urgent need for more efficient and faster methods of vaccine development against SARS-CoV-2. Compared to experimental protocols, the opportunities to innovate are very high in immunoinformatics/ in silico approaches especially with the recent adoption of structural bioinformatics in peptide vaccine design. In recent times, multi-epitope-based peptide vaccine candidates (MEBPVCs) have shown extraordinarily high humoral and cellular responses to immunization. Most of the publications claim that respective reported MEBPVC(s) assembled using a set of in silico predicted epitopes, to be the computationally validated potent vaccine candidate(s) ready for experimental validation. However, in this article, for a given set of predicted epitopes, it is shown that the published MEBPVC is one among the many possible variants and there is high likelihood of finding more potent MEBPVCs than the published candidate. To test the same, a methodology is developed where novel MEBP variants are derived by changing the epitope order of the published MEBPVC. Further, to overcome the limitations of current qualitative methods of assessment of MEBPVC, to enable quantitative comparison, ranking, and the discovery of more potent MEBPVCs, novel predictors, Percent Epitope Accessibility (PEA), Receptor specific MEBP vaccine potency(RMVP), MEBP vaccine potency(MVP) are introduced. The MEBP variants indeed showed varied MVP scores indicating varied immunogenicity. When the MEBP variants were ranked in descending order of their MVP scores, the published MEBPVC had the least MVP score. Further, the MEBP variants with IDs, SPVC_387 and SPVC_206, had the highest MVP scores indicating these variants to be more potent MEBPVCs than the published MEBPVC and hence should be prioritized for experimental testing and validation. Through this method, more vaccine candidates will be available for experimental validation and testing. This study also opens the opportunity to develop new software tools for designing more potent MEBPVCs in less time. The computationally validated top-ranked MEBPVCs must be experimentally tested, validated, and verified. The differences and deviations between experimental results and computational predictions provide an opportunity for improving and developing more efficient algorithms and reliable scoring schemes and software.",
+  "authors": [
+    "Salaikumaran MR",
+    "Kasamuthu PS",
+    "Burra VLSP"
+  ],
+  "published_date": "2021-06-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.06.29.450372",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.06.29.450372.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR363984",
+    "raw_record": {
+      "id": "PPR363984",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR363984"
+        ]
+      },
+      "doi": "10.1101/2021.06.29.450372",
+      "title": "Epitope order Matters in multi-epitope-based peptide (MEBP) vaccine design: An  <i>in silico</i>  study",
+      "authorString": "Salaikumaran MR, Kasamuthu PS, Burra VLSP.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Salaikumaran MR",
+            "lastName": "Salaikumaran",
+            "firstName": "Muthu Raj",
+            "initials": "MR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2440-2832"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Advanced Research and Innovation in Structural Biology of Diseases, K L E F University, Vaddeswaram, Andhra Pradesh 522 502, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kasamuthu PS",
+            "lastName": "Kasamuthu",
+            "firstName": "Prasanna Sudharson",
+            "initials": "PS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Advanced Research and Innovation in Structural Biology of Diseases, K L E F University, Vaddeswaram, Andhra Pradesh 522 502, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Burra VLSP",
+            "lastName": "Burra",
+            "firstName": "Prasad",
+            "initials": "VLSP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6072-5511"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Advanced Research and Innovation in Structural Biology of Diseases, K L E F University, Vaddeswaram, Andhra Pradesh 522 502, India"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6072-5511"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7226-1494"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2440-2832"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "With different countries facing multiple waves, with some SARS-CoV-2 variants more deadly and virulent, the COVID-19 pandemic is becoming more dangerous by the day and the world is facing an even more dreadful extended pandemic with exponential positive cases and increasing death rates. There is an urgent need for more efficient and faster methods of vaccine development against SARS-CoV-2. Compared to experimental protocols, the opportunities to innovate are very high in immunoinformatics/  in silico approaches especially with the recent adoption of structural bioinformatics in peptide vaccine design. In recent times, multi-epitope-based peptide vaccine candidates (MEBPVCs) have shown extraordinarily high humoral and cellular responses to immunization. Most of the publications claim that respective reported MEBPVC(s) assembled using a set of  in silico predicted epitopes, to be the computationally validated potent vaccine candidate(s) ready for experimental validation. However, in this article, for a given set of predicted epitopes, it is shown that the published MEBPVC is one among the many possible variants and there is high likelihood of finding more potent MEBPVCs than the published candidate. To test the same, a methodology is developed where novel MEBP variants are derived by changing the epitope order of the published MEBPVC. Further, to overcome the limitations of current qualitative methods of assessment of MEBPVC, to enable quantitative comparison, ranking, and the discovery of more potent MEBPVCs, novel predictors, Percent Epitope Accessibility (PEA), Receptor specific MEBP vaccine potency(RMVP), MEBP vaccine potency(MVP) are introduced. The MEBP variants indeed showed varied MVP scores indicating varied immunogenicity. When the MEBP variants were ranked in descending order of their MVP scores, the published MEBPVC had the least MVP score. Further, the MEBP variants with IDs, SPVC_387 and SPVC_206, had the highest MVP scores indicating these variants to be more potent MEBPVCs than the published MEBPVC and hence should be prioritized for experimental testing and validation. Through this method, more vaccine candidates will be available for experimental validation and testing. This study also opens the opportunity to develop new software tools for designing more potent MEBPVCs in less time. The computationally validated top-ranked MEBPVCs must be experimentally tested, validated, and verified. The differences and deviations between experimental results and computational predictions provide an opportunity for improving and developing more efficient algorithms and reliable scoring schemes and software.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/06/30/2021.06.29.450372.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.06.29.450372"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR363984"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR363984&type=FILE&fileName=EMS129675-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS129675",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-07-02",
+      "firstPublicationDate": "2021-06-30",
+      "firstIndexDate": "2021-07-02",
+      "fullTextReceivedDate": "2021-07-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

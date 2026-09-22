@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary material description.
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and alignment with claims. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors propose that the C-terminal D/E repeat region of HMGB1 causes autoinhibition of DNA binding through electrostatic fuzzy interactions with intrinsically disordered regions, and that this multivalent mechanism produces strong macroscopic autoinhibition despite weak individual intramolecular interactions.
+- **Visible evidence base** Experimental data: fluorescence anisotropy binding assays, NMR chemical shift and heteronuclear NOE measurements, salt-dependent binding and conformational analyses. Computational data: atomistic and coarse-grained molecular dynamics simulations of wild-type, Δ30, and PTM-mimetic HMGB1 constructs.
+- **Missing materials affecting confidence** Supplementary figures (Fig. S1) referenced but not provided; simulation force field parameters for the coarse-grained model not fully specified; no raw data or fitting residuals for the nonlinear least-squares analyses; no error analysis for the MD-derived interaction energies.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a thorough and well-designed investigation of HMGB1 autoinhibition, combining quantitative biophysical experiments with complementary computational approaches. The central claim that fuzzy electrostatic interactions between the D/E repeats and IDRs mediate autoinhibition is supported by multiple lines of evidence. The salt-dependent binding data and the discrepancy between microscopic and macroscopic equilibrium constants are particularly compelling. However, several technical aspects require clarification, especially regarding the interpretation of the microscopic Kai values and the quantitative relationship between the computational and experimental results.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein-DNA interactions, autoinhibition mechanisms, and the functional roles of D/E repeats. The work also has relevance for those interested in HMGB1 biology, DNA damage recognition, and the biophysics of fuzzy complexes. The methodological approach combining NMR, fluorescence, and multiscale simulations will interest biophysicists and computational biologists.
+- **Major strengths** The study addresses a fundamental question about how weak, dynamic intramolecular interactions can produce strong functional regulation. The experimental design is elegant, using salt dependence to shift the conformational equilibrium across its full range. The combination of macroscopic binding data with residue-level NMR information provides complementary perspectives. The computational work adds mechanistic detail and supports the experimental conclusions. The PTM-mimetic experiments connect the biophysical findings to potential biological regulation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors claim that the discrepancy between microscopic and macroscopic Kai values indicates that multivalent fuzzy interactions enable strong autoinhibition despite weak individual interactions.
+  - **Evidence pointer** Results section "Electrostatic fuzzy interactions in autoinhibition", Figures 2-4
+  - **Concern** The interpretation of the microscopic Kai values relies on the assumption that each residue's chemical shift perturbation reports on a local binding equilibrium that is independent of other sites. However, if the fuzzy interactions are highly coupled or if the chemical shift changes reflect conformational changes rather than direct binding events, the derived microscopic constants may not represent true site-specific binding affinities. The authors do not provide a rigorous validation of this assumption, such as testing whether the fitted microscopic constants are consistent across different residues within the same region or whether the model can be distinguished from alternative explanations (e.g., a single dominant interaction site with secondary weaker effects).
+  - **Why it matters** The central mechanistic conclusion, that multivalency produces strong macroscopic autoinhibition from weak individual interactions, depends critically on the validity of the microscopic equilibrium constants. If these constants are not reliable measures of individual interaction strengths, the discrepancy that motivates the multivalency argument may be an artifact of the analysis method.
+  - **Resolution test** The authors should provide additional validation of the microscopic Kai values, such as showing that residues within the same structural or sequence region give consistent fitted parameters, or performing a more sophisticated analysis that accounts for potential coupling between sites. Alternatively, they could use an independent experimental approach (e.g., single-molecule FRET or stopped-flow kinetics) to directly measure the kinetics of the autoinhibition equilibrium and compare with the NMR-derived thermodynamics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational methodology
+  - **Claim pointer** The authors claim that both atomistic and coarse-grained simulations support the experimental finding that the D/E repeats preferentially interact with IDRs over folded domains.
+  - **Evidence pointer** Results section "Autoinhibition dynamics observed in molecular dynamics simulations", Figure 5
+  - **Concern** The coarse-grained model uses a native-topology based force field with electrostatic interactions modeled by Debye-Hückel theory. The parameters for this model, particularly the assignment of charges and the treatment of non-native contacts, are not fully described. The authors state the force field is "reported elsewhere" but do not provide sufficient detail for the reader to assess whether the model is appropriate for studying fuzzy electrostatic interactions. Additionally, the atomistic simulations are relatively short (2 μs total per construct) for a system with large disordered regions, and it is unclear whether the sampled ensembles are converged.
+  - **Why it matters** The computational results are used to support the experimental conclusions about interaction preferences and the effects of PTM-mimetic mutations. If the models are not adequately validated or the sampling is insufficient, the computational support for the mechanistic claims is weakened.
+  - **Resolution test** The authors should provide more details on the coarse-grained model parameters and validation, including how the model reproduces known properties of HMGB1 or similar systems. They should also demonstrate convergence of the atomistic simulations (e.g., by showing block-averaged properties or comparing independent runs) and ideally extend the simulation time or use enhanced sampling methods to ensure the disordered regions are adequately sampled.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative consistency
+  - **Claim pointer** The authors state that the two-state model can adequately explain the salt concentration-dependent Kd,app data for the full-length HMGB1 protein.
+  - **Evidence pointer** Results section "Salt-concentration dependent autoinhibition against binding to DNA", Figure 1C
+  - **Concern** The fitting of the salt-dependent binding data uses Eq. 4, which assumes a linear relationship between log Kai and log[KCl]. While this is a reasonable assumption based on counterion condensation theory, the authors do not report the goodness of fit or show residuals. More importantly, the derived Kai value at 150 mM KCl (8.3 × 10^2) is not directly compared with the microscopic Kai values from the NMR analysis. If the macroscopic and microscopic measurements are consistent, this would strengthen the multivalency argument; if they are inconsistent, the interpretation becomes more complex.
+  - **Why it matters** The quantitative relationship between the macroscopic and microscopic measurements is central to the paper's main conclusion. Without a direct comparison or discussion of how these two sets of measurements relate, the multivalency argument remains somewhat qualitative.
+  - **Resolution test** The authors should provide a quantitative comparison between the macroscopic Kai and the microscopic values, perhaps by calculating an effective macroscopic constant from the microscopic ones (e.g., by summing or averaging) and showing whether they are consistent. They should also report the fitting statistics and residuals for the salt-dependent data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the D/E repeats "cause" autoinhibition, which is somewhat strong given that the study shows correlation and mechanistic plausibility but not direct causation in a strict sense.
+  - **Required correction** Consider softening to "contribute to" or "mediate" autoinhibition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Materials and Methods, NMR experiments
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The NMR chemical shift assignment section mentions that spectra were recorded at 25°C, but the salt titration experiments are described separately. It is unclear whether the assignments were performed at each salt concentration or only at one condition.
+  - **Required correction** Clarify whether assignments were transferred from a single condition or re-assigned at each salt concentration.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 4
+  - **Evidence pointer** Results section, Figure 4
+  - **Issue** The Kai values for individual residues are shown, but the error bars or confidence intervals are not described in the text. It is unclear how robust the residue-to-residue variations are.
+  - **Required correction** Report the uncertainties in the fitted Kai values and discuss whether the variations between regions are statistically significant.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the PTM-mimetic mutations focuses on the increased DNA-binding affinity but does not fully address the potential confounding effect of the reduced positive charge in the NLS region on the overall electrostatics of the protein.
+  - **Required correction** Acknowledge that the mutations reduce the net positive charge of the NLS region, which could affect interactions with the negatively charged DNA independently of the autoinhibition mechanism.
+- **Technical failings that need to be addressed before the case is established** The validation of the microscopic Kai interpretation (R1-M1) is the most critical issue. Without demonstrating that the residue-level analysis provides reliable measures of individual interaction strengths, the central multivalency argument is not fully established. The computational methodology (R1-M2) also needs more detail and validation to support its use as corroborating evidence.
+- **Assessment against Nature-style criteria** Originality: The concept of fuzzy electrostatic interactions mediating autoinhibition is not entirely new, but the quantitative treatment and the combination of experimental and computational approaches provide a fresh perspective. Scientific importance: The work has implications for understanding how disordered regions regulate protein function, a topic of broad interest. Interdisciplinary readership: The study bridges biophysics, structural biology, and computational biology, making it accessible to a range of readers. Technical soundness: The experimental methods are generally sound, but the interpretation of the microscopic data needs more rigorous validation. Readability for nonspecialists: The manuscript is well-written and the concepts are explained clearly, though some sections assume familiarity with NMR and simulation techniques.
+- **Recommendation posture** Supportive if the technical concerns are resolved, particularly the validation of the microscopic Kai interpretation and the provision of additional computational details. The core findings are interesting and potentially significant, but the central mechanistic claim requires stronger quantitative support.
+
+## Risk / unsupported claims
+- The claim that multivalency of fuzzy interactions explains the discrepancy between microscopic and macroscopic Kai values is not fully supported without additional validation of the microscopic measurements.
+- The statement that the PTM-mimetic mutations "moderately modulate" DNA-binding affinity is supported by the data, but the mechanistic link to autoinhibition is inferred rather than directly demonstrated.
+- The computational finding that the D/E repeats strengthen interactions with IDRs upon DNA binding is based on simulations that are not fully described or validated.
+- The claim that the fuzzy interactions do not induce secondary structure is based on 13C chemical shift data shown only in a supplementary figure that was not provided for review.

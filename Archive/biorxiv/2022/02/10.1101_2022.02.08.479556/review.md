@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supplementary figure/table legends)
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and alignment with stated claims; not editorial or formatting issues
+- **Shared manuscript claim summary** The authors analyze the mutational landscape of the SARS-CoV-2 nucleocapsid (N) protein from a large global sequence database, identify conserved regions within disordered domains, and characterize the biophysical consequences of the G215C mutation associated with the Delta variant. They report that G215C induces a more compact, tetrameric state of the N protein, enhances self-association and co-assembly with nucleic acids, and lowers the threshold for liquid-liquid phase separation, proposing that these changes contribute to increased viral assembly efficiency and infectivity.
+- **Visible evidence base** Sequence analysis of 2.49 million GISAID/Nextstrain sequences; biophysical experiments (analytical ultracentrifugation, dynamic light scattering, mass photometry, circular dichroism, differential scanning fluorometry, microscopy of condensates); molecular dynamics simulations and structure predictions (AlphaFold2, I-TASSER, Phyrc2); supplementary figures S1–S10 and tables S1–S2
+- **Missing materials affecting confidence** Full experimental datasets (raw sedimentation profiles, CD spectra, DLS autocorrelation functions, mass photometry histograms, microscopy images) are not provided; statistical details (replicates, error bars, significance tests) are largely absent; details of MD simulation convergence and force field validation are incomplete; no negative control data for LLPS experiments; no direct in vivo or viral replication data linking G215C to infectivity
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and timely integration of large-scale sequence analysis with biophysical characterization to address the functional significance of a clinically important mutation in the SARS-CoV-2 N protein. The observation that G215C stabilizes a tetrameric state and enhances nucleic acid co-assembly is novel and potentially significant for understanding viral assembly. However, the evidence base is incomplete in several critical areas, particularly regarding quantitative rigor, statistical support, and direct causal linkage between the observed biophysical changes and viral fitness. The manuscript would benefit from additional experiments and clearer presentation of data before the central claims can be considered fully established.
+- **Who would be interested in the results, and why** Virologists studying SARS-CoV-2 assembly and evolution; structural biologists interested in intrinsically disordered proteins and their role in phase separation; biophysicists using hydrodynamic and spectroscopic methods to characterize protein oligomerization; researchers in viral evolution and public health tracking emerging mutations. The work bridges genomics, biophysics, and virology, making it relevant across these communities.
+- **Major strengths** The use of a massive global sequence database to define a near-equilibrium mutational landscape is innovative and provides a robust framework for identifying functionally constrained regions. The combination of multiple biophysical techniques (SV, DLS, MP, CD, DSF) to characterize the G215C mutant is thorough. The identification of a specific mutation that alters oligomeric state and phase separation behavior offers a plausible mechanistic link between genotype and phenotype. The structural modeling and MD simulations provide a molecular rationale for the observed effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and statistical rigor
+  - **Claim pointer** The authors claim that G215C "significantly" alters self-association, co-assembly with nucleic acids, and phase separation behavior, and that these changes "profoundly alter" viral assembly.
+  - **Evidence pointer** Results section, Figures 4, 5, 5h, 5i; location not provided
+  - **Concern** Quantitative data supporting the key biophysical claims are presented without error bars, replicate numbers, or statistical tests. For example, the sedimentation coefficient distributions in Figure 4 and 5a appear to be single representative experiments; the s-value isotherm in Figure 5b inset lacks confidence intervals; the CD spectra in Figure 5e are shown without standard deviation across replicates; the DLS temperature scans in Figure 5i lack replicate traces. Without these, it is impossible to assess whether the observed differences between Nref and G215C are robust or within experimental noise.
+  - **Why it matters** The central conclusion that G215C alters oligomeric state and assembly properties rests entirely on these biophysical measurements. If the differences are not statistically significant or are within the variability of the methods, the mechanistic interpretation collapses.
+  - **Resolution test** Provide replicate data (n ≥ 3) for all key experiments, with error bars and appropriate statistical tests (e.g., t-test or ANOVA) comparing Nref, G215C, and other mutants. For the s-value isotherm, provide a global fit with confidence intervals. For CD, show mean spectra with standard deviation. For DLS, show representative traces with replicate overlay.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link to viral fitness
+  - **Claim pointer** The authors hypothesize that G215C "can be exploited by SARS-CoV-2 to achieve greater efficiency of viral assembly, and thereby enhanced infectivity."
+  - **Evidence pointer** Abstract, Discussion; location not provided
+  - **Concern** The manuscript provides no direct evidence linking the biophysical changes observed in vitro to viral assembly efficiency or infectivity in cells or animal models. The claim of enhanced infectivity is purely speculative and not supported by any virological data. While the epidemiological correlation with Delta dominance is noted, correlation does not establish causation, and the authors do not rule out other factors (e.g., spike mutations, replication kinetics) that may drive Delta's fitness.
+  - **Why it matters** The stated significance of the work depends on the biological relevance of the biophysical findings. Without functional validation, the manuscript remains a biophysical characterization with an untested hypothesis about viral fitness.
+  - **Resolution test** Perform viral replication or assembly assays comparing G215C-containing N protein to ancestral N protein in a relevant system (e.g., SARS-CoV-2 reverse genetics, virus-like particle assembly, or minigenome assays). Alternatively, clearly reframe the claims as hypotheses and remove or soften the infectivity language.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors state that G215C "stabilizes conserved transient helices" and that the mutation "redirects and reduces flexibility" of the helix N-terminus, leading to a more open configuration "better poised for helix-helix and thiol interactions."
+  - **Evidence pointer** Results section, Figure 6; location not provided
+  - **Concern** The structural interpretation relies on a single AlphaFold2 model and MD simulations of a short peptide (residues 210–246). The authors do not provide evidence that the predicted helix is populated in solution for the full-length protein, nor do they validate the MD results with experimental structural data (e.g., NMR, SAXS, or crosslinking). The claim that the mutation "stabilizes" the helix is not directly measured; the CD data show a change in secondary structure but do not specifically attribute it to helix stabilization in the 215–235 region.
+  - **Why it matters** The proposed mechanism for enhanced self-association depends on the structural model. If the helix is not formed or the mutation does not stabilize it, the mechanistic explanation is unsupported.
+  - **Resolution test** Provide experimental validation of the helical region, such as NMR chemical shift analysis or hydrogen-deuterium exchange, for both Nref and G215C. Alternatively, use mutagenesis to disrupt the predicted helix and test the effect on oligomerization.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of mutational landscape analysis
+  - **Claim pointer** The authors claim that the mutational landscape "approximates an equilibrium" and that the observed conservation reflects functional constraints.
+  - **Evidence pointer** Results section, Figure 1c, Figure 3; location not provided
+  - **Concern** The analysis treats all sequences as independent, ignoring phylogenetic structure and sampling biases. The use of cumulative sequence count as a proxy for time is not justified, and the claim of equilibrium is not tested statistically. The threshold of 10 observations for considering a mutation is arbitrary and may exclude rare but functionally important variants. The comparison between 21J and non-21J clades is descriptive and lacks formal statistical analysis of whether the differences in mutation spectra are significant.
+  - **Why it matters** The identification of conserved regions as functionally important depends on the validity of the mutational landscape analysis. If the analysis is biased or the equilibrium assumption is wrong, the identification of protected islands may be misleading.
+  - **Resolution test** Apply phylogenetic correction (e.g., using a tree-aware model) and test for saturation of the mutation accumulation curve. Provide statistical comparison of mutation spectra between clades, and justify the threshold with sensitivity analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1c and related text
+  - **Evidence pointer** Results section, Figure 1c; location not provided
+  - **Issue** The description of Figure 1c is unclear regarding what exactly is plotted (e.g., number of mutated residues vs. cumulative sequences) and how the "asymptotic limit" is defined. The two-phase behavior is mentioned but not clearly explained.
+  - **Required correction** Clarify the axes and the interpretation of the two phases. Consider adding a schematic or annotation to guide the reader.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Mass photometry section
+  - **Evidence pointer** Materials and Methods, Mass photometry; location not provided
+  - **Issue** The mass photometry experiment is described briefly, and the calibration method is not detailed. The peak assignment to tetramer is based on a single experiment without error assessment.
+  - **Required correction** Provide details on calibration, number of independent measurements, and the distribution of masses observed. Include a representative histogram.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of LLPS data
+  - **Affected element** Figure 5i and related text
+  - **Evidence pointer** Results section, Figure 5i; location not provided
+  - **Issue** The temperature-dependent DLS data are interpreted as showing a lower phase transition temperature for G215C, but the relationship between particle size and phase separation is not explicitly established. The authors do not show microscopy images at the transition temperature for both proteins.
+  - **Required correction** Include representative microscopy images at temperatures above and below the transition for both Nref and G215C to directly demonstrate differences in LLPS.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The discussion of the G215C mutation's potential role in Delta dominance would benefit from comparison with other studies that have examined N protein mutations in the context of viral fitness, particularly those that have used reverse genetics to test specific mutations.
+  - **Required correction** Add a brief paragraph discussing recent functional studies of N protein mutations and how the current findings fit or contrast with them.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor), R1-M2 (causal link to fitness), R1-M3 (structural validation)
+- **Assessment against Nature-style criteria** Originality: High. The integration of a global mutational landscape with biophysical characterization of a specific mutation is a novel approach. Scientific importance: High. Understanding N protein function and the impact of clinically relevant mutations is important for SARS-CoV-2 biology and potential therapeutic targeting. Interdisciplinary readership: Moderate to high. The work bridges genomics, biophysics, and virology, but the heavy biophysical focus may limit accessibility to some readers. Technical soundness: Moderate. The methods are appropriate but the lack of statistical rigor and validation weakens the conclusions. Readability for nonspecialists: Moderate. The manuscript is generally well-written but assumes familiarity with biophysical techniques and phase separation concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the data are suggestive, but the manuscript requires substantial additional experimental detail, statistical analysis, and functional validation before the claims can be considered established. The authors should also temper the language regarding infectivity unless direct evidence is provided.
+
+## Risk / unsupported claims
+- The claim that G215C leads to "enhanced infectivity" is unsupported by direct virological data.
+- The claim that the mutational landscape "approximates an equilibrium" is not statistically tested.
+- The claim that G215C "stabilizes" transient helices is inferred from modeling and not directly measured.
+- The claim that the tetrameric state is the dominant species in solution for G215C is based on limited biophysical data without error analysis.
+- The claim that the observed biophysical changes "profoundly alter" viral assembly is speculative without in vivo or in vitro assembly assays.

@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "42289971",
+    "doi": "10.1093/bioinformatics/btag388",
+    "title": "SPPIDER-seq: sequence-based partner-aware predictor of protein-protein interaction sites."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Sequence-based protein-protein interaction (PPI) site predictors typically analyze proteins in isolation, neglecting partner-specific context that is critical for interface specificity, particularly in transient and disordered interactions. RESULTS: We introduce SPPIDER-seq, a partner-aware PPI site prediction framework that combines pretrained ESM-2 embeddings with a cross-attention architecture to enable residue-level conditioning on interacting partners. We curated non-redundant protein-peptide interaction datasets from BioLiP and used them to train and benchmark two complementary models: a receptor-centric model optimized for structured interfaces and a peptide-centric model tailored to disordered, motif-driven binding. On blind benchmarks, SPPIDER-seq achieved AUROC values up to 0.797 and MCC values up to 0.269, outperforming AlphaFold3 on peptide-mediated and disordered interfaces while remaining complementary on globular complexes. Application to 341 TP53 interaction partners revealed coherent, partner-specific interface patterns across both structured and intrinsically disordered regions. AVAILABILITY: SPPIDER-seq models, datasets, and the Python code are freely available on the web at https://github.com/aporollo-lab/SPPIDER-seq and archived on Zenodo at DOI: 10.5281/zenodo.19835990, corresponding to GitHub release v2.0-manuscript.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Protein Interaction Mapping/methods",
+      "*Proteins/chemistry/metabolism",
+      "*Software",
+      "*Computational Biology/methods",
+      "Binding Sites",
+      "Protein Binding",
+      "*Sequence Analysis, Protein/methods",
+      "Databases, Protein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Porollo, Aleksey",
+        "Jadhav, Om",
+        "Alvarez, Aaron",
+        "Chen, Jichao"
+      ],
+      "short_names": [
+        "Porollo A",
+        "Jadhav O",
+        "Alvarez A",
+        "Chen J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3202-5099",
+        "ORCID: 0009-0007-6937-8465",
+        "ORCID: 0009-0003-9036-9847",
+        "ORCID: 0000-0003-2749-8550"
+      ],
+      "affiliations": [
+        "Department of Biostatistics, Health Informatics and Data Sciences, University of Cincinnati College of Medicine, Cincinnati, OH 45267, United States.",
+        "Department of Computer Science, University of Cincinnati College of Engineering and Applied Science, Cincinnati, OH 45221, United States.",
+        "Department of Computer Science, University of Cincinnati College of Engineering and Applied Science, Cincinnati, OH 45221, United States.",
+        "Department of Pediatrics, Perinatal Institute Division of Pulmonary Biology, University of Cincinnati and Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Porollo, Aleksey",
+        "short_name": "Porollo A",
+        "identifiers": [
+          "0000-0002-3202-5099"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, Health Informatics and Data Sciences, University of Cincinnati College of Medicine, Cincinnati, OH 45267, United States."
+        ]
+      },
+      {
+        "full_name": "Jadhav, Om",
+        "short_name": "Jadhav O",
+        "identifiers": [
+          "0009-0007-6937-8465"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Cincinnati College of Engineering and Applied Science, Cincinnati, OH 45221, United States."
+        ]
+      },
+      {
+        "full_name": "Alvarez, Aaron",
+        "short_name": "Alvarez A",
+        "identifiers": [
+          "0009-0003-9036-9847"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University of Cincinnati College of Engineering and Applied Science, Cincinnati, OH 45221, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Jichao",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0003-2749-8550"
+        ],
+        "affiliations": [
+          "Department of Pediatrics, Perinatal Institute Division of Pulmonary Biology, University of Cincinnati and Cincinnati Children's Hospital Medical Center, Cincinnati, OH 45229, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Jul 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 11:37",
+    "fetched_at": "2026-09-18 04:11:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41534519",
+      "41145424",
+      "40471987",
+      "40133787",
+      "39858535",
+      "39607707",
+      "39576695",
+      "39467119",
+      "39117802",
+      "38718835",
+      "38564241",
+      "38493120",
+      "38361067",
+      "38225382",
+      "37522378",
+      "36927031",
+      "36880207",
+      "36851914",
+      "36702895",
+      "36477806",
+      "34967936",
+      "34903827",
+      "34265844",
+      "34232869",
+      "33932560",
+      "33875885",
+      "32696376",
+      "29860432",
+      "29730529",
+      "29681526",
+      "28886379",
+      "28149884",
+      "27834926",
+      "26460190",
+      "26354465",
+      "26000851",
+      "25531225",
+      "24651012",
+      "23516555",
+      "23352836",
+      "23263379",
+      "22846459",
+      "20541943",
+      "20516128",
+      "19712106",
+      "17629549",
+      "17586545",
+      "17546660",
+      "17152079",
+      "16216358",
+      "15102456",
+      "14737190",
+      "11948787",
+      "10592235",
+      "9653027",
+      "8552589"
+    ],
+    "similar": [
+      "42289971",
+      "42094486",
+      "40509866",
+      "40888747",
+      "40662806",
+      "42500992",
+      "41902842",
+      "40742755",
+      "30020406",
+      "42635213",
+      "17517763",
+      "42450121",
+      "39693053",
+      "24243399",
+      "38871095",
+      "20502673",
+      "41992497",
+      "41534519",
+      "40576205",
+      "40116777",
+      "42412848",
+      "21682895",
+      "40193392",
+      "42412847",
+      "42179166",
+      "41138794",
+      "40569190",
+      "15613384",
+      "22701576",
+      "23056474",
+      "16287935",
+      "42099803",
+      "16512892",
+      "41428392",
+      "42633564",
+      "38710496",
+      "40133791",
+      "40372465",
+      "19645590",
+      "17107624",
+      "40875418",
+      "19717576",
+      "19165315",
+      "39360982",
+      "19325869",
+      "41462075",
+      "29028926",
+      "25286318",
+      "41094395",
+      "28073761",
+      "35662471",
+      "17480235",
+      "18616991",
+      "19153136",
+      "41959048",
+      "40794945",
+      "26441427",
+      "29028891",
+      "24486250",
+      "17722975",
+      "20529890",
+      "40601262",
+      "38212995",
+      "41276805",
+      "42560030",
+      "15262809",
+      "42598852",
+      "30536635",
+      "35150231",
+      "41159381",
+      "41100562",
+      "23896518",
+      "39672677",
+      "40031707",
+      "31207240",
+      "20377884",
+      "15064475",
+      "40037640",
+      "40174317",
+      "42083872",
+      "17570148",
+      "19602529",
+      "21636590",
+      "19282967",
+      "39576586",
+      "41134132",
+      "37870486",
+      "27787830",
+      "19843613",
+      "42088442",
+      "40705403",
+      "39283314",
+      "40795239",
+      "26529772",
+      "41231692",
+      "40985612",
+      "32840562",
+      "22037062",
+      "38833802",
+      "40455005"
+    ],
+    "review": [
+      "42289971",
+      "15064475"
+    ],
+    "pmc": [
+      "13330928"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42289971/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag388",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

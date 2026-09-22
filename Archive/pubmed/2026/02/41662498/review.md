@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, experimental section) as provided
+- **Assessment boundary** Scientific claims, methodology, evidence consistency, and interpretation as presented in the supplied text. Figures, tables, and supplementary materials are referenced but were not available for direct inspection.
+- **Shared manuscript claim summary** The authors propose that asymmetry in hydrophobicity between the dense and dilute phases of biomolecular condensates formed by a non-charged intrinsically disordered protein (elastin-like polypeptide, ELP) can generate an electric potential gradient. They support this with experimental pH measurements, ion concentration analyses, all-atom molecular dynamics simulations, and functional assays of small-molecule partitioning and non-enzymatic reaction kinetics.
+- **Visible evidence base** Text descriptions of experimental results (pH gradients under NaCl, KCl, KI, KBr; ICP-MS ion quantification; correlation analyses), simulation results (transfer free energies, slab geometry, electric double layer), and functional assays (resazurin/PY1, hydrazone formation). All figures, tables, and supplementary items are referenced but not directly visible.
+- **Missing materials affecting confidence** All figures, tables, supplementary figures, and supplementary tables. Experimental details for pH measurement, ICP-MS, potentiometry, and reaction kinetics are not fully described in the visible text. Simulation parameters, force field details, and system construction protocols are not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a fundamental and timely question in condensate biology: how can uncharged biomolecular condensates establish electric potentials? The central hypothesis, that hydrophobicity asymmetry drives ion partitioning and thereby generates interphase potentials, is conceptually novel and potentially generalizable. The combination of experimental measurements and all-atom simulations is appropriate and ambitious. However, the evidence as presented in the text has several gaps that prevent full confidence in the conclusions. Key concerns include the indirectness of pH as a proxy for Galvanic potential, the limited decoupling of confounding variables in the salt experiments, the absence of quantitative error analysis in several key comparisons, and the lack of direct experimental validation of the simulated transfer free energies. The manuscript is promising but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in biomolecular condensates, phase separation, and membraneless organelles would find this directly relevant. The work also speaks to the broader biophysics community interested in electrochemistry at soft interfaces, ion partitioning in heterogeneous media, and the physical chemistry of water in confined or polymer-rich environments. Additionally, those studying non-enzymatic reactions in compartments and the origins of cellular electrochemical heterogeneity would be interested.
+- **Major strengths** The central concept is original and clearly articulated. The use of a non-charged IDP is a clever design that isolates hydrophobicity as the driving variable. The combination of experimental pH measurements, ion quantification, and all-atom simulations provides complementary perspectives. The authors address confounding variables thoughtfully in several places, particularly in the reaction kinetics section. The discussion of generality and caveats is balanced and scientifically mature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The manuscript claims that the measured pH gradient between phases represents a difference in electric potential (Galvani potential) between phases.
+  - **Evidence pointer** Results section "Salting out ELP Mediates a pH Gradient Between Phases Based on Chaotropic Effect"; Figure 1B, 1C, 1D
+  - **Concern** The relationship between pH gradient and Galvanic potential is stated but not rigorously derived or experimentally validated in the visible text. The equation ΔpH = 0.434 × Fφ/RT is presented in the simulation section, but the assumptions underlying this relationship (e.g., ideality, activity coefficients, the specific ions responding to the potential) are not discussed. The pH probe measures apparent proton activity, which could be affected by the altered water activity, ionic strength, and dielectric environment in the dense phase independently of any electric potential. The authors acknowledge non-linearity in salt dependence but do not provide a calibration or control demonstrating that the pH gradient is specifically due to an electric potential rather than to altered proton activity coefficients in the dense phase.
+  - **Why it matters** The central claim of the paper is that an electric potential gradient exists. If the pH gradient is instead a manifestation of altered proton activity without a corresponding electric potential, the mechanistic interpretation changes substantially. The distinction between "apparent pH" and "electric potential" is critical for the validity of the entire framework.
+  - **Resolution test** Provide a direct measurement of electric potential (e.g., using the potentiometry setup described later) correlated with pH gradient across a range of conditions. Alternatively, demonstrate that the pH gradient responds to an externally applied electric field in a manner consistent with a true Galvanic potential. Show that the relationship between pH gradient and salt concentration is quantitatively consistent with the Nernst equation using independently measured ion activities.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Confounding variables
+  - **Claim pointer** The manuscript claims that the kosmotropic effect of different salts (NaCl vs KCl) and the addition of organic cosolvents (DMSO, 1,4-dioxane) modulate the hydrophobic environment of the condensate, thereby affecting pH gradient.
+  - **Evidence pointer** Results sections "Salting out ELP Mediates a pH Gradient Between Phases Based on Chaotropic Effect" and "Interior Hydrophobicity-Dependent pH Gradient"; Figures 1C, 1D, 2A, 2B
+  - **Concern** The interpretation that salt identity and cosolvent effects act primarily through hydrophobicity is confounded by multiple other variables. Different salts have different specific ion effects on protein stability, water structure, and dielectric constant that are not captured by a simple Hofmeister ranking. The addition of DMSO and 1,4-dioxane at the concentrations used could alter the dielectric constant of the medium, change the pKa of water, or directly interact with the ELP backbone. The text does not provide control experiments that isolate hydrophobicity from these other effects. The claim that "asymmetry in hydrophobicity" is the causal variable requires more direct manipulation of hydrophobicity without changing other solution properties.
+  - **Why it matters** The paper's central thesis is that hydrophobicity asymmetry is the driving force. If the observed effects are due to other ion-specific or cosolvent-specific properties, the generality of the mechanism is weakened.
+  - **Resolution test** Use a series of salts that systematically vary in Hofmeister position while keeping ionic strength constant, and measure pH gradient as a function of salt concentration. Use cosolvents with matched dielectric constants but different hydrophobicity, or vary ELP hydrophobicity through sequence mutations (e.g., replacing valine with more hydrophobic or less hydrophobic residues) while keeping solution conditions constant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The manuscript claims that the "pH capacity" analysis (slope of pH vs ion concentration or protein concentration) reveals that potassium contributes more significantly than sodium to regulating condensate pH.
+  - **Evidence pointer** Results section "Decoupling the Contribution of Protein and Salt on Modulating Condensate pH"; Figures 1E, 1F, 1G, 1H
+  - **Concern** The pH capacity analysis as described is not sufficiently detailed to assess its validity. The text states that two correlation curves were constructed, but does not report the number of data points, the range of concentrations tested, the goodness of fit, or the statistical significance of the difference in slopes. The ratio of pH capacities is presented as evidence for the differential contribution of potassium vs sodium, but no confidence intervals or error propagation are shown. The statement that "protein concentration only increased about 8-fold, whereas reactant A absorbance increased about 18-fold" is presented as a control, but the logic of this comparison is not fully explained.
+  - **Why it matters** The quantitative comparison between sodium and potassium is a key experimental result supporting the ion-specificity claim. Without proper statistical treatment, the conclusion is not robust.
+  - **Resolution test** Provide full details of the correlation analysis, including n, R², standard errors of slopes, and a formal statistical test (e.g., ANCOVA) comparing the slopes. Report confidence intervals for the ratio of pH capacities.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation-experiment consistency
+  - **Claim pointer** The manuscript claims that all-atom molecular dynamics simulations reveal that cations prefer the dense phase (negative ΔΔG) while anions favor the dilute phase (positive ΔΔG), and that this asymmetry is due to favorable interactions between cations and protein backbone carbonyls.
+  - **Evidence pointer** Results section "Asymmetric Intrinsic Transfer Free Energy Drives Selective Ion Partitioning"; Figure 3A, 3B; Table S1
+  - **Concern** The simulation results are presented without sufficient methodological detail to assess their reliability. The force field, water model, ion parameters, system size, simulation length, and convergence criteria are not stated. The calculation of transfer free energies from hydration free energies in two phases is a non-trivial procedure that requires careful treatment of finite-size effects, long-range electrostatics, and sampling. The claim that the asymmetry is "enthalpically driven" is stated but the decomposition into entropic and enthalpic contributions is not shown in the visible text. Most importantly, the simulation predictions are not directly compared with experimental ion partitioning measurements. The text mentions ICP-MS measurements of cation concentration but does not report whether the experimentally measured partitioning ratios match the simulation predictions.
+  - **Why it matters** The simulations provide the molecular-level mechanism for the observed phenomena. If the simulations are not validated against experiment, the mechanistic claim remains speculative.
+  - **Resolution test** Provide full simulation details in the methods. Report the experimentally measured partitioning ratios for Na+, K+, Cl-, Br-, I- and compare quantitatively with simulation predictions. If possible, perform additional simulations with different force fields to test robustness.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The manuscript claims that the electric potential gradient regulates the partitioning of charged small molecules and that this partitioning governs non-enzymatic reaction kinetics, thereby encoding reaction selectivity.
+  - **Evidence pointer** Results sections "Electric Potential Gradient Regulates the Partitioning/Exclusion of Charged Small Molecules" and "Electrochemically Active Condensates Drive Potential-dependent Non-enzymatic Reactions"; Figures 5A, 5B, 5C, 5D, 5E
+  - **Concern** The connection between electric potential, partitioning, and reaction kinetics is plausible but the causal chain is not fully established. The text shows correlations (partitioning follows potential trend; reaction rate correlates with partitioning coefficient), but does not demonstrate that the potential is the causal driver of partitioning. Alternative explanations, such as direct ion-specific effects on the small molecules or on the reaction chemistry, are not excluded. The R² value of 0.8802 for the correlation between reaction rate and partition coefficient is reported, but the number of data points and the range of conditions are not stated.
+  - **Why it matters** The claim that condensates can "power" non-enzymatic reactions through their electrochemical properties is a strong statement with potential biological implications. The evidence needs to support causality, not just correlation.
+  - **Resolution test** Perform experiments where the potential is varied independently of partitioning (e.g., by using an external electric field or by varying the dielectric constant of the medium) and measure reaction kinetics. Alternatively, use small molecules with identical charge but different sizes or hydrophobicity to test whether partitioning alone predicts reaction rate.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, sentence "ion-dependent kosmotropic effect can encode measurable pH and interphase potential gradients into condensate"
+  - **Issue** The phrase "encode ... into condensate" is awkward. The abstract would benefit from clearer phrasing, e.g., "can generate measurable pH and interphase potential gradients in condensates."
+  - **Required correction** Revise the sentence for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental section
+  - **Evidence pointer** Experimental Section, "Statistics and Reproducibility"
+  - **Issue** The statistics section states that unpaired t-tests were used, but does not specify whether corrections for multiple comparisons were applied. Given that multiple salt conditions and cosolvent conditions are compared, this is relevant.
+  - **Required correction** State whether multiple comparison corrections were applied, and if not, justify their omission.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Results sections referencing simulations and potentiometry
+  - **Issue** The text describes simulations and potentiometry measurements but the Experimental Section does not include methods for these techniques. The reader cannot assess the validity of these measurements without this information.
+  - **Required correction** Add methods sections for molecular dynamics simulations and electrochemical potentiometry.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on "hydrophobicity-driven pH gradient" generalization
+  - **Issue** The discussion anticipates generalization to many polymers but also notes that the magnitude and sign of the pH shift will be strongly chemistry-dependent. This is appropriately cautious, but the text could more clearly distinguish between the general principle (hydrophobicity asymmetry can drive ion partitioning) and the specific predictions (which ions partition and in which direction).
+  - **Required correction** Clarify the distinction between the general mechanism and system-specific outcomes.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Multiple instances
+  - **Issue** The term "non-charged" is used to describe the ELP. "Uncharged" is more standard in the biophysics literature.
+  - **Required correction** Replace "non-charged" with "uncharged" throughout.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (pH as proxy for potential), R1-M2 (confounding variables in salt/cosolvent experiments), R1-M3 (quantitative rigor of pH capacity analysis), R1-M4 (simulation-experiment consistency). These are the primary technical issues that must be resolved.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The concept of hydrophobicity asymmetry as a driver of electric potential in uncharged condensates is novel and not present in the existing literature as described.
+  - **Scientific importance** Potentially high. If established, this mechanism would provide a general physical chemistry basis for electrochemical activity in condensates, with implications for understanding cellular organization and function.
+  - **Interdisciplinary readership** Moderate to high. The work bridges physical chemistry, biophysics, and cell biology. The conceptual framework is accessible, but the technical details may limit immediate accessibility to non-specialists.
+  - **Technical soundness** Currently insufficient. The experimental and simulation evidence as presented has gaps in methodology, statistical rigor, and simulation-experiment validation that prevent full confidence in the conclusions.
+  - **Readability for nonspecialists** The abstract and introduction are clear and accessible. The results section is dense but generally well-organized. The discussion effectively places the findings in a broader context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central concept is original and potentially important, but the evidence as presented does not fully establish the case. The authors should address the concerns regarding the pH-potential relationship, confounding variables, quantitative rigor, and simulation-experiment consistency before the manuscript can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that the pH gradient directly represents a Galvanic potential difference is not fully supported by the evidence presented.
+- The claim that salt identity and cosolvent effects act specifically through hydrophobicity is confounded by other variables.
+- The quantitative comparison of sodium vs potassium contributions (pH capacity ratio) lacks statistical rigor as presented.
+- The simulation predictions of ion transfer free energies are not validated against experimental partitioning measurements.
+- The causal chain from electric potential to small-molecule partitioning to reaction kinetics is correlational, not causal, as presented.
+- The generalization of the mechanism to all protein condensates is speculative and not directly tested.

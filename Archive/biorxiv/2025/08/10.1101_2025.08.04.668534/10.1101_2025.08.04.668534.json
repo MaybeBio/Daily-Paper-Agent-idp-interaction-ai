@@ -1,0 +1,501 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.04.668534",
+  "title": "DRUMBEAT: Temporally resolved interpretable machine learning model for characterizing state transitions in protein dynamics",
+  "doi": "10.1101/2025.08.04.668534",
+  "abstract": "Conformational transitions are central to protein function, yet their mechanistic analysis remains challenging due to the multi-dimensionality and timescales underlying the molecular motions. While interpretable network models such as Bayesian networks have advanced the identification of key residue interactions in molecular dynamics (MD) data, they lack temporal resolution and cannot capture the sequence of events during transitions. Here, we introduce D ynamically R esolved U niversal M odel for B ay E si A n network T racking or DRUMBEAT, a machine learning approach that combines a universal graph topology with sliding-window rescoring to generate interpretable, time-resolved maps of cooperative events in MD trajectories. Applying DRUMBEAT to the benchmark Fip35 WW domain folding trajectories from DE Shaw Research Group, we recover both major folding pathways and critical residues previously highlighted by experiment. Importantly, DRUMBEAT provides new insight in two ways: (1) uncover unknown protein features important for transition, and (2) dissect the order and timing of conformational changes, revealing the precise sequence of residue contact closures during individual folding events. Robustness analysis demonstrates that both the universal graph and time-resolved results are highly consistent across multiple sampling replicates. These findings establish DRUMBEAT as a scalable and interpretable machine learning framework for dissecting the dynamics of protein folding and other conformational transitions, offering a generalizable tool for the mechanistic study of biomolecular dynamics.",
+  "authors": [
+    "Babgen Manookian",
+    "Elizaveta Mukhaleva",
+    "Grigoriy Gogoshin",
+    "Supriyo Bhattacharya",
+    "Nagarajan Vaidehi",
+    "Andrei S. Rodin",
+    "Sergio Branciamore"
+  ],
+  "published_date": "2025-08-04",
+  "updated_date": "2025-08-05T04:45:17Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.04.668534",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.04.668534.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T13:37:34Z",
+        "timestamp": 1785418654431,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            4
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 25,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                4
+              ]
+            ],
+            "date-time": "2025-08-04T00:00:00Z",
+            "timestamp": 1754265600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "R01-GM117923"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01-GM117923"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/04q48ey07",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "R35-GM156498"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35-GM156498"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/04q48ey07",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000092",
+          "name": "United States National Library of Medicine",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R01-LM013876"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01-LM013876"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000092",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000092",
+          "name": "United States National Library of Medicine",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R01-LM013138"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01-LM013138"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000092",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Conformational transitions are central to protein function, yet their mechanistic analysis remains challenging due to the multi-dimensionality and timescales underlying the molecular motions. While interpretable network models such as Bayesian networks have advanced the identification of key residue interactions in molecular dynamics (MD) data, they lack temporal resolution and cannot capture the sequence of events during transitions. Here, we introduce\n                  <jats:bold>D</jats:bold>\n                  ynamically\n                  <jats:bold>R</jats:bold>\n                  esolved\n                  <jats:bold>U</jats:bold>\n                  niversal\n                  <jats:bold>M</jats:bold>\n                  odel for\n                  <jats:bold>B</jats:bold>\n                  ay\n                  <jats:bold>E</jats:bold>\n                  si\n                  <jats:bold>A</jats:bold>\n                  n network\n                  <jats:bold>T</jats:bold>\n                  racking or DRUMBEAT, a machine learning approach that combines a universal graph topology with sliding-window rescoring to generate interpretable, time-resolved maps of cooperative events in MD trajectories. Applying DRUMBEAT to the benchmark Fip35 WW domain folding trajectories from DE Shaw Research Group, we recover both major folding pathways and critical residues previously highlighted by experiment. Importantly, DRUMBEAT provides new insight in two ways: (1) uncover unknown protein features important for transition, and (2) dissect the order and timing of conformational changes, revealing the precise sequence of residue contact closures during individual folding events. Robustness analysis demonstrates that both the universal graph and time-resolved results are highly consistent across multiple sampling replicates. These findings establish DRUMBEAT as a scalable and interpretable machine learning framework for dissecting the dynamics of protein folding and other conformational transitions, offering a generalizable tool for the mechanistic study of biomolecular dynamics.\n                </jats:p>",
+      "DOI": "10.1101/2025.08.04.668534",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            5
+          ]
+        ],
+        "date-time": "2025-08-05T04:45:17Z",
+        "timestamp": 1754369117000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "DRUMBEAT: Temporally resolved interpretable machine learning model for characterizing state transitions in protein dynamics"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6273-0995",
+          "authenticated-orcid": false,
+          "given": "Babgen",
+          "family": "Manookian",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9911-7625",
+          "authenticated-orcid": false,
+          "given": "Elizaveta",
+          "family": "Mukhaleva",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Grigoriy",
+          "family": "Gogoshin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Supriyo",
+          "family": "Bhattacharya",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8100-8132",
+          "authenticated-orcid": false,
+          "given": "Nagarajan",
+          "family": "Vaidehi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrei S.",
+          "family": "Rodin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2556-8765",
+          "authenticated-orcid": false,
+          "given": "Sergio",
+          "family": "Branciamore",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Torgeson, K. R. et al. Conserved conformational dynamics determine enzyme activity. Sci Adv 8, (2022).",
+          "DOI": "10.1126/sciadv.abo5546"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "3258",
+          "DOI": "10.1021/jacsau.4c00558",
+          "article-title": "Conformational Modulation of a Mobile Loop Controls Catalysis in the (βα) 8-Barrel Enzyme of Histidine Biosynthesis HisF",
+          "volume": "4",
+          "year": "2024",
+          "journal-title": "JACS Au"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.1c06264"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-023-01807-0"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-017-0019-z"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "76",
+          "DOI": "10.1016/j.coph.2016.07.010",
+          "article-title": "Allosteric communication pipelines in G-protein-coupled receptors",
+          "volume": "30",
+          "year": "2016",
+          "journal-title": "Curr Opin Pharmacol"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rivalta, I. et al. Allosteric pathways in imidazole glycerol phosphate synthase. Proceedings of the National Academy of Sciences 109, (2012).",
+          "DOI": "10.1073/pnas.1120536109"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct300377a"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1218414109"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0704459104"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Melo, M. C. R. , Bernardi, R. C. , de la Fuente-Nunez, C. & Luthey-Schulten, Z . Generalized correlation-based dynamical network analysis: a new high-performance approach for identifying allosteric communications in molecular dynamics trajectories. J Chem Phys 153, (2020).",
+          "DOI": "10.1063/5.0018980"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2333"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gogoshin, G. & Rodin, A. S . Minimum uncertainty as Bayesian network model selection principle. BMC Bioinformatics 26, 100 (2025).",
+          "DOI": "10.1186/s12859-025-06104-5"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.4c01981"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mukhaleva, E. et al. Bayesian network models identify cooperative GPCR:G protein interactions that contribute to G protein coupling. Journal of Biological Chemistry 300, (2024).",
+          "DOI": "10.1016/j.jbc.2024.107362"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.11.06.622318"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1187409"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-060614-033910"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr300384w"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Suter, P. , Kuipers, J. & Beerenwinkel, N . Discovering gene regulatory networks of multiple phenotypic groups using dynamic Bayesian networks. Brief Bioinform 23, (2022).",
+          "DOI": "10.1093/bib/bbac219"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1553",
+          "DOI": "10.1109/TSP.2010.2103071",
+          "article-title": "Time Varying Dynamic Bayesian Network for Nonstationary Events Modeling and Online Inference",
+          "volume": "59",
+          "year": "2011",
+          "journal-title": "IEEE Transactions on Signal Processing"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Venkatakrishnan, A. J. , et al. Uncovering patterns of atomic interactions in static and dynamic structures of proteins. bioRxiv (2019).",
+          "DOI": "10.1101/840694"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, X. , Branciamore, S. , Gogoshin, G. , Ding, S. & Rodin, A. S . New Analysis Framework Incorporating Mixed Mutual Information and Scalable Bayesian Networks for Multimodal High Dimensional Genomic and Epigenomic Cancer Data. Front Genet 11, (2020).",
+          "DOI": "10.3389/fgene.2020.00648"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.03.17.643765"
+        },
+        {
+          "key": "2025080803350984000_2025.08.04.668534v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1520864113"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.08.04.668534",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:11:40Z",
+        "timestamp": 1782277900000
+      },
+      "score": 52.068336,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.08.04.668534"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            4
+          ]
+        ]
+      },
+      "references-count": 25,
+      "URL": "https://doi.org/10.1101/2025.08.04.668534",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s42003-026-09995-z",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            4
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

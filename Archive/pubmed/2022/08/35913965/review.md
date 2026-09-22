@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Materials and methods, Supporting information references)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors report recombinant expression, purification, biophysical characterization, and low-resolution X-ray diffraction of the mature, membrane-localized outer membrane protein FopA from Francisella tularensis. They propose a dimeric, two-domain architecture comprising an N-terminal eight-stranded β-barrel and a C-terminal OmpA-like domain connected by a long, flexible linker.
+- **Visible evidence base** Abstract; Introduction; Results sections covering bioinformatics, expression, purification, CD spectroscopy, heat modifiability, SEC, DLS, negative stain EM, SAXS, and crystallization; Discussion; Materials and methods; references to supporting figures and tables (S1-S5, S1-S3 Tables)
+- **Missing materials affecting confidence** Supporting information files (S1-S5 Figs, S1-S3 Tables) are referenced but not provided; raw SAXS data, CD spectra, SEC chromatograms, and diffraction images are not available for independent assessment; no sequence alignment figures or prediction confidence metrics are shown
+
+## Reviewer
+- **Overall assessment** This manuscript presents a useful biophysical characterization of FopA, a protein of interest as a vaccine candidate and virulence factor. The work combines multiple complementary techniques to propose a structural model. However, the central claims regarding dimerization and the two-domain architecture rest heavily on low-resolution data and predictions, and several experimental details and validations are missing. The crystallization result, while promising, does not yet yield a structure. The manuscript is clearly written and the topic is relevant, but the strength of the conclusions currently exceeds what the presented evidence can support.
+- **Who would be interested in the results, and why** Researchers studying Francisella tularensis pathogenesis and virulence factors; structural biologists working on outer membrane proteins, particularly OmpA family members; vaccine developers targeting tularemia; and investigators interested in membrane protein expression and biophysical characterization.
+- **Major strengths** The study addresses a relevant and under-characterized protein. The combination of bioinformatics, biophysical methods, and crystallization attempts is appropriate. The expression and purification of a membrane protein in sufficient quantity and quality for multiple analyses is a technical achievement. The use of complementary methods (CD, heat modifiability, SEC, DLS, SAXS, EM) to cross-validate findings is commendable. The manuscript is generally well-organized and readable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for dimerization
+  - **Claim pointer** The manuscript claims FopA is predominantly dimeric in solution based on SEC, native-PAGE, and SAXS.
+  - **Evidence pointer** Results sections "FopA extracted into detergent micelles is further purified to highest homogeneity" and "Purified FopA is predominantly a dimer and has a distinct molecular envelope"; Figures 4 and 6; Table 1
+  - **Concern** The dimeric assignment relies on apparent molecular weight estimates from SEC and native-PAGE, which are notoriously unreliable for membrane proteins due to detergent binding and non-globular shapes. The SEC-derived Mr of ~180 kDa for a putative 80.4 kDa dimer implies a very large detergent belt, which is plausible but not directly demonstrated. The SAXS-based MW estimates are stated to be ~84 kDa from five of six calculations, but the individual values, uncertainties, and the method-specific assumptions are not presented. The native-PAGE migration at ~80 kDa is used as supporting evidence, but the effect of the detergent micelle on migration in this system is not discussed. The 2D class averages from negative stain EM are mentioned but not shown in the provided text, and their resolution is acknowledged as too low for detailed comparison.
+  - **Why it matters** The dimeric state is a central claim of the proposed model and underpins the structural model in Figure 9. If the oligomeric state is incorrect, the model and its functional implications are substantially weakened.
+  - **Resolution test** Provide a quantitative comparison of all MW estimates with explicit uncertainties. Include a detergent mass determination (e.g., via refractive index or a suitable method) to account for the micelle contribution. Show the SAXS MW values from each method and the associated errors. Present the negative stain EM class averages and a quantitative fit of the SAXS data to a dimeric model versus a monomeric model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the two-domain model
+  - **Claim pointer** The manuscript proposes a two-domain organization with an N-terminal β-barrel and a C-terminal OmpA-like domain connected by a flexible linker.
+  - **Evidence pointer** Results section "FopA shares structural characteristics of OmpA family proteins"; Figures 1 and 9; S1 and S2 Figs
+  - **Concern** The two-domain model is based on sequence analysis, AlphaFold2 predictions, and limited experimental data. The CD spectroscopy confirms β-strand content but cannot localize it to a specific domain. The heat modifiability assay indicates a folded β-barrel but does not provide domain-level information. The SAXS envelope at 31 Å resolution is interpreted to support the model, but the assignment of specific densities to the N-terminal barrel dimer versus the C-terminal domains is speculative at this resolution. The AlphaFold2 prediction is mentioned but not shown with confidence metrics or a comparison to the experimental SAXS envelope. The claim that the linker is flexible is supported by disorder prediction, but this is not experimentally validated (e.g., by NMR relaxation or hydrogen-deuterium exchange).
+  - **Why it matters** The proposed architecture is the main conceptual advance of the paper. If the domain boundaries, the barrel strand number, or the linker flexibility are incorrect, the model and its implications for FopA function are not reliable.
+  - **Resolution test** Show the AlphaFold2 prediction with per-residue confidence scores (pLDDT) and a superposition of the predicted model onto the SAXS-derived envelope. Provide experimental evidence for the domain organization, such as limited proteolysis coupled with mass spectrometry, or SAXS data collected on isolated domains. Validate linker flexibility with an experimental probe.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Crystallization claim and data quality
+  - **Claim pointer** The manuscript states FopA was crystallized and X-ray diffracted to ~6.5 Å, with data indexed in space group H32.
+  - **Evidence pointer** Results section "FopA was crystallized and X-ray diffracted to ~6.5 Å"; Figure 8; S3 Table
+  - **Concern** The crystallization result is presented as a key step, but the evidence is limited. The diffraction is described as anisotropic with a low number of unique reflections, which is acknowledged. However, no statistics on data completeness, multiplicity, or signal-to-noise are provided in the text. The S3 Table is referenced but not available. The claim that the flexible linker may be responsible for poor diffraction is a hypothesis without direct support. The crystals are described as planar and fragile, but no crystal morphology images are shown in the provided text.
+  - **Why it matters** The crystallization is a stated goal and a foundation for future structure determination. Without proper diffraction data statistics, the quality and usefulness of the crystals cannot be assessed, and the claim of "successful crystallization" is not fully substantiated.
+  - **Resolution test** Provide a complete data collection statistics table (resolution, completeness, I/σI, multiplicity, Rmerge, etc.) in the main text or supplement. Show representative diffraction images. If possible, provide a crystal image. Discuss the anisotropy quantitatively and its impact on structure solution.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Purity and monodispersity validation
+  - **Claim pointer** The manuscript claims "monodisperse purification" of FopA.
+  - **Evidence pointer** Results sections "Membrane localized mature FopA is detergent solubilized and extracted in large quantities" and "FopA extracted into detergent micelles is further purified to highest homogeneity"; Figures 3 and 4
+  - **Concern** The term "monodisperse" is used, but the evidence is indirect. SEC shows a major peak with a preceding shoulder, indicating some heterogeneity. The DLS data are referenced (S4A Fig) but not shown in the text. The negative stain EM shows a homogeneous distribution, but this is qualitative. The presence of truncation products is mentioned, and while SEC separates them, the final purity is not quantified (e.g., by SDS-PAGE densitometry or mass spectrometry).
+  - **Why it matters** Biophysical interpretations (CD, SAXS, DLS) and crystallization success depend critically on sample purity and monodispersity. If the sample contains aggregates, truncation products, or heterogeneous oligomers, the conclusions drawn from these techniques are compromised.
+  - **Resolution test** Provide a quantitative purity assessment (e.g., SDS-PAGE with densitometry, mass spectrometry). Show the DLS size distribution with polydispersity index. Present the SEC profile with the collected fractions clearly marked and the corresponding SDS-PAGE for each fraction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "mature" FopA
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The term "mature" is used to describe FopA after signal peptide cleavage, but the exact construct boundaries (residue numbers) are not clearly stated in the main text. The reader must infer this from the methods.
+  - **Required correction** Clearly state the residue range of the expressed construct (e.g., "FopA residues 24-393") in the Results or Methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 1, 4, 6, 7, 9
+  - **Evidence pointer** Results sections referencing these figures
+  - **Issue** The figures are not provided in the manuscript text, making it difficult to assess the quality of the data (e.g., SEC profiles, SAXS curves, EM images, AlphaFold2 models).
+  - **Required correction** Ensure all figures are included in the submission and are of sufficient resolution to evaluate the claims.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** CD spectroscopy and SAXS analyses
+  - **Evidence pointer** Results section "FopA has a transmembrane β-barrel domain"; Table 1
+  - **Issue** The CD deconvolution results are presented as percentages, but no errors or replicates are reported. The SAXS MW estimates are given as a range, but the uncertainty on each estimate is not provided.
+  - **Required correction** Report the number of replicates and standard deviations for CD analysis. Provide error estimates for each SAXS MW calculation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph on dimeric model
+  - **Issue** The discussion of the dimeric model considers two possibilities for the central density but does not discuss alternative oligomeric states (e.g., tetramer) or the possibility that the C-terminal domains are not extended but folded back toward the membrane.
+  - **Required correction** Briefly discuss alternative models and why the presented data favor the proposed model over them.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reference to unpublished data
+  - **Affected element** PDB ID 6U83
+  - **Evidence pointer** Introduction and Results
+  - **Issue** The structure of the C-terminal domain (PDB ID 6U83) is described as "recently determined" and "deposited... without a detailed publication." This is used as a reference point, but the lack of a publication makes it difficult to assess the quality and relevance of this structure.
+  - **Required correction** If possible, provide more details about this structure or acknowledge the limitation of relying on an unpublished deposition.
+
+## Risk / unsupported claims
+- The claim that FopA is "predominantly dimeric" is not fully supported by the provided evidence, as the MW estimates from SEC and native-PAGE are indirect and potentially biased by detergent binding.
+- The proposed two-domain architecture with a flexible linker is a reasonable hypothesis but is not experimentally validated at the domain level.
+- The assignment of the SAXS envelope features to specific domains (β-barrel dimer vs. C-terminal domains) is speculative at 31 Å resolution.
+- The claim that the flexible linker is responsible for poor crystal diffraction is a hypothesis without direct experimental support.
+- The "monodisperse" nature of the purified sample is not quantitatively demonstrated.
+- The crystallization result, while promising, is not fully characterized with proper diffraction statistics in the provided text.
+- The functional implications discussed (pore formation, solute transport) are speculative and not tested experimentally.

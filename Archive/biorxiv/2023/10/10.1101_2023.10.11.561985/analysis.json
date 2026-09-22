@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.11.561985",
+  "title": "SAGERank: Inductive Learning of Protein-Protein Interaction from Antibody-Antigen Recognition using Graph Sample and Aggregate Networks Framework",
+  "authors": "Chuance Sun; Ganggang Bai; Honglin Xu; Yanjing Wang; Buyong Ma",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-16",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用图神经网络(SAGERank)对抗体-抗原对接诱饵排序、结合检测与生物界面识别进行建模，属于PPI互作机制预测的AI方法，但对象为折叠蛋白而非无序蛋白/IDR，方法思路可迁移至IDR介导的PPI建模。",
+  "abstract": "Numerous experiments and computationally solved antibody-antigen interfaces offer the possibility of training deep-learning models to help predict their biological correlations. Predicting antibody-antigen docking and structure-based design represent significant long-term and therapeutically important challenges in computational biology. We present SAGERank, a general, configurable deep learning framework for antibody design using Graph Sample and Aggregate Networks, which mainly includes ranking docking decoys, detecting binding, and identifying biological interfaces. The model proved its reliability in three different tasks. For both problems ranking docking decoys and identifying biological interfaces, SAGERank is competitive with or outperforms, state-of-the-art methods. Besides, the SAGERank model still showed a high degree of confidence in determining whether the antibody-antigen could bind. All of these demonstrate the versatility of SAGERank for structural biology research. Most importantly, our study demonstrated the real potential of inductive deep learning to overcome small dataset problem in molecular science. The SAGERank models trained for antibody-antigen docking can be used to examine generally protein-protein interaction docking and differentiate crystal packing from biological interface.",
+  "abstract_zh": "大量实验和计算求解的抗体-抗原接口为训练深度学习模型以帮助预测其生物学相关性提供了可能性。预测抗体-抗原对接和基于结构的设计代表了计算生物学中重要的长期且具有治疗意义的挑战。我们提出了SAGERank，一个通用、可配置的深度学习框架，用于抗体设计，采用图样本与聚合网络，主要包括对接诱饵排序、结合检测和生物接口识别。该模型在三个不同任务中证明了其可靠性。在对接诱饵排序和生物接口识别这两个问题上，SAGERank与最先进的方法相比具有竞争力或表现更优。此外，SAGERank模型在判断抗体-抗原是否能结合时仍表现出高度的置信度。所有这些都展示了SAGERank在结构生物学研究中的多功能性。最重要的是，我们的研究证明了归纳深度学习在克服分子科学中小数据集问题方面的真正潜力。为抗体-抗原对接训练的SAGERank模型可用于一般性检查蛋白质-蛋白质相互作用对接，并区分晶体堆积与生物接口。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.11.561985",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.11.561985",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.11.561985/index.html"
+}

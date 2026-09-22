@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35696898",
+  "title": "Conformational ensemble of the full-length SARS-CoV-2 nucleocapsid (N) protein based on molecular simulations and SAXS data.",
+  "authors": "Rozycki, Bartosz; Boura, Evzen",
+  "journal": "Biophysical chemistry",
+  "published_date": "2022-06-14",
+  "window": {
+    "start": "2022-06-13",
+    "end": "2022-06-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用粗粒化分子模拟结合SAXS数据解析SARS-CoV-2核衣壳蛋白全长二聚体的构象系综，聚焦其内在无序区域构象与域间接触，虽非直接PPI机制建模，但无序蛋白构象系综方法对本课题有可迁移启发。",
+  "abstract": "The nucleocapsid protein of the SARS-CoV-2 virus comprises two RNA-binding domains and three regions that are intrinsically disordered. While the structures of the RNA-binding domains have been solved using protein crystallography and NMR, current knowledge of the conformations of the full-length nucleocapsid protein is rather limited. To fill in this knowledge gap, we combined coarse-grained molecular simulations with data from small-angle X-ray scattering (SAXS) experiments using the ensemble refinement of SAXS (EROS) method. Our results show that the dimer of the full-length nucleocapsid protein exhibits large conformational fluctuations with its radius of gyration ranging from about 4 to 8 nm. The RNA-binding domains do not make direct contacts. The disordered region that links these two domains comprises a hydrophobic alpha-helix which makes frequent and nonspecific contacts with the RNA-binding domains. Each of the intrinsically disordered regions adopts conformations that are locally compact, yet on average, much more extended than Gaussian chains of equivalent lengths. We offer a detailed picture of the conformational ensemble of the nucleocapsid protein dimer under near-physiological conditions, which will be important for understanding the nucleocapsid assembly process.",
+  "abstract_zh": "SARS-CoV-2病毒的核衣壳蛋白包含两个RNA结合结构域和三个本质无序区域。虽然RNA结合结构域的结构已通过蛋白质晶体学和核磁共振解析，但目前对全长核衣壳蛋白构象的了解相当有限。为填补这一知识空白，我们结合粗粒化分子模拟与小角X射线散射（SAXS）实验数据，采用SAXS系综精修（EROS）方法。我们的结果表明，全长核衣壳蛋白的二聚体表现出大幅构象波动，其回旋半径范围约为4至8纳米。RNA结合结构域之间不直接接触。连接这两个结构域的无序区域包含一个疏水性α-螺旋，该螺旋与RNA结合结构域频繁且非特异性地接触。每个本质无序区域采用局部紧凑的构象，但平均而言，比等效长度的高斯链更为伸展。我们提供了近生理条件下核衣壳蛋白二聚体构象系综的详细图景，这将对于理解核衣壳组装过程具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35696898/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35696898/",
+  "paper_page_path": "papers/pubmed/35696898/index.html"
+}

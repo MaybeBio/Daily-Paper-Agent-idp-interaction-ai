@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.26.734850",
+  "title": "Incorporating Surfaced-Induced Dissociation Mass Spectrometry Data into an AlphaFold-derived deep learning network improves protein structure prediction",
+  "authors": "Robert M. Bolz; Elijah H. Day; Zachary C. Drake; Sophie R. Harvey; Vicki H. Wysocki; Steffen Lindert",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-29",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文将SID-nMS实验数据整合进AlphaFold深度学习网络以改进多聚体蛋白结构预测，虽非无序蛋白对象，但多聚体复合物预测与互作机制建模方法可迁移启发。",
+  "abstract": "Surface-Induced Dissociation native Mass Spectrometry (SID-nMS) is a tandem MS activation method that yields information on the connectivity and stoichiometry of protein complexes. While insufficient for direct structure elucidation, the data derived from SID-nMS has considerable potential to inform multimeric protein structure prediction. We hypothesized that incorporating this data into a machine-learning framework could improve multimer prediction accuracy beyond that of existing deep-learning methods. To this end, we developed SIDFold, a novel AlphaFold-based deep-learning network. SIDFold is the first AlphaFold-like network to leverage experimental data during protein complex prediction, and the first deep-learning network to utilize nMS data for structure prediction. We benchmarked SIDFold on the BETA protein set, and observed an improvement in RMSD in 138 of 227 cases including 27 targets in which the predicted structure attained near-native accuracy. We then evaluated the network on 20 proteins with experimental SID-nMS data, yielding an improved RMSD in 18 cases, with five of these cases improving to a high-accuracy complex. Finally, we tested SIDFold against a previously published SID-guided Rosetta docking method, where we saw improvement in 13 of 16 proteins. SIDFold is freely available on GitHub, with example files and commands available in the Supplementary Information.",
+  "abstract_zh": "表面诱导解离原生质谱（SID-nMS）是一种串联质谱激活方法，可提供蛋白质复合物的连接性和化学计量信息。虽然不足以直接进行结构解析，但SID-nMS衍生的数据在指导多聚体蛋白质结构预测方面具有相当大的潜力。我们假设，将这些数据整合到机器学习框架中，可以超越现有深度学习方法的预测准确性，提高多聚体预测精度。为此，我们开发了SIDFold，一种基于AlphaFold的新型深度学习网络。SIDFold是首个在蛋白质复合物预测过程中利用实验数据的类AlphaFold网络，也是首个利用nMS数据进行结构预测的深度学习网络。我们在BETA蛋白质集上对SIDFold进行了基准测试，观察到在227个案例中有138个的RMSD得到改善，其中27个目标的预测结构达到近天然精度。随后，我们在20个具有实验SID-nMS数据的蛋白质上评估了该网络，在18个案例中RMSD得到改善，其中5个案例提升至高精度复合物水平。最后，我们将SIDFold与先前发表的SID引导的Rosetta对接方法进行了比较，在16个蛋白质中有13个观察到改进。SIDFold在GitHub上免费提供，示例文件和命令见补充信息。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.26.734850",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.26.734850",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.26.734850/index.html"
+}

@@ -1,0 +1,251 @@
+{
+  "identity": {
+    "pmid": "41075692",
+    "doi": "10.1016/j.bpc.2025.107531",
+    "title": "Conformational transition of a polycationic hinge domain contributes to DNA binding."
+  },
+  "content": {
+    "abstract": "Nuclear receptors (NRs) are multidomain, ligand-activated transcription factors that play critical physiological roles. While the structured DNA-binding domain (DBD) and ligand-binding domain (LBD) have been well characterized, the function of intrinsically disordered regions-such as the hinge between the LBD and DBD-remains unclear. To illuminate the role of the hinge, we conducted five-microsecond molecular dynamics simulations of thyroid hormone receptor (TRalpha) alone versus bound to DNA. We reveal that DNA binding induces a significant structural change in the hinge region (helical to unwound coil), with a potentially important role in the regulation of TRalpha activity. Previously, hinge helicity has been reported to drive oligomerization and the consequent inhibition of coactivator binding, and such DNA-induced transition may promote TR activation. Protein-DNA binding is found to be multivalent and contains the direct interaction of the hinge with the DNA minor groove in addition to the canonical recognition helix of the DBD with the major groove. Furthermore, the poly-Arg segment of the hinge has a direct and significant influence on DNA conformation. This interaction promotes a bent DNA phosphate backbone, which might further contribute to the protein-DNA recognition. On a global scale, DNA binding induces a \"closed-to-open\" conformational change thus reducing direct DBD-LBD interactions, which corroborates previous calorimetric binding studies. Overall, our results provide insight into the mechanism of DNA recognition and the resulting conformational dynamics of the TRalpha-DNA complex.",
+    "keywords": [
+      "Allostery",
+      "Intrinsically disordered protein",
+      "Nuclear receptor",
+      "Protein-DNA interaction",
+      "Structural dynamics"
+    ],
+    "mesh_terms": [
+      "*DNA/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Domains",
+      "Polyelectrolytes",
+      "Protein Binding",
+      "Humans",
+      "Nucleic Acid Conformation",
+      "Binding Sites",
+      "*Polyamines/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Harnish, Michael T",
+        "Pham, Bill",
+        "Arons, Avery B",
+        "Xu, Yingjie",
+        "Fernandez, Elias J",
+        "Shen, Tongye"
+      ],
+      "short_names": [
+        "Harnish MT",
+        "Pham B",
+        "Arons AB",
+        "Xu Y",
+        "Fernandez EJ",
+        "Shen T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry & Cellular and Molecular Biology, University of Tennessee, Knoxville, TN 37996, United States of America.",
+        "Department of Biochemistry & Cellular and Molecular Biology, University of Tennessee, Knoxville, TN 37996, United States of America.",
+        "Department of Biochemistry & Cellular and Molecular Biology, University of Tennessee, Knoxville, TN 37996, United States of America.",
+        "Department of Biochemistry & Cellular and Molecular Biology, University of Tennessee, Knoxville, TN 37996, United States of America.",
+        "Department of Biochemistry & Cellular and Molecular Biology, University of Tennessee, Knoxville, TN 37996, United States of America.",
+        "Department of Biochemistry & Cellular and Molecular Biology, University of Tennessee, Knoxville, TN 37996, United States of America. Electronic address: tshen@utk.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Harnish, Michael T",
+        "short_name": "Harnish MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Cellular and Molecular Biology, University of Tennessee, Knoxville, TN 37996, United States of America."
+        ]
+      },
+      {
+        "full_name": "Pham, Bill",
+        "short_name": "Pham B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Cellular and Molecular Biology, University of Tennessee, Knoxville, TN 37996, United States of America."
+        ]
+      },
+      {
+        "full_name": "Arons, Avery B",
+        "short_name": "Arons AB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Cellular and Molecular Biology, University of Tennessee, Knoxville, TN 37996, United States of America."
+        ]
+      },
+      {
+        "full_name": "Xu, Yingjie",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Cellular and Molecular Biology, University of Tennessee, Knoxville, TN 37996, United States of America."
+        ]
+      },
+      {
+        "full_name": "Fernandez, Elias J",
+        "short_name": "Fernandez EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Cellular and Molecular Biology, University of Tennessee, Knoxville, TN 37996, United States of America."
+        ]
+      },
+      {
+        "full_name": "Shen, Tongye",
+        "short_name": "Shen T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Cellular and Molecular Biology, University of Tennessee, Knoxville, TN 37996, United States of America. Electronic address: tshen@utk.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical chemistry"
+    ],
+    "journal_abbrev": [
+      "Biophys Chem"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/12 00:34",
+    "fetched_at": "2026-09-17 20:55:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41075692",
+      "16781732",
+      "39332668",
+      "7823947",
+      "21803119",
+      "9439992",
+      "16289203",
+      "10369775",
+      "7702769",
+      "23737157",
+      "34416373",
+      "20610536",
+      "40841914",
+      "28593140",
+      "31391291",
+      "9154816",
+      "33834296",
+      "38405809",
+      "30166540",
+      "39602540",
+      "26442703",
+      "38604378",
+      "31881526",
+      "9212059",
+      "29133527",
+      "34329301",
+      "33030907",
+      "41189057",
+      "9343418",
+      "8591032",
+      "23132854",
+      "8628257",
+      "16645037",
+      "9705285",
+      "20025240",
+      "29547262",
+      "30201977",
+      "17319953",
+      "41053219",
+      "15165850",
+      "30703486",
+      "8843412",
+      "31958546",
+      "34181981",
+      "7696496",
+      "9804773",
+      "22506277",
+      "26598113",
+      "21605623",
+      "27109703",
+      "12242296",
+      "27616290",
+      "11115777",
+      "30420502",
+      "41599722",
+      "29723544",
+      "12123799",
+      "18646811",
+      "11476956",
+      "40990245",
+      "16669632",
+      "36730193",
+      "40504558",
+      "11222741",
+      "8662980",
+      "30471699",
+      "30783673",
+      "16645042",
+      "11773069",
+      "28597880",
+      "23382927",
+      "7663174",
+      "25870414",
+      "36147566",
+      "28423273",
+      "36411737",
+      "31742398",
+      "22179700",
+      "10593256",
+      "11977984",
+      "10373369",
+      "27824891",
+      "22277881",
+      "28644006",
+      "32938768",
+      "11152601",
+      "31238511",
+      "15143151",
+      "41728955",
+      "9875847",
+      "39396813",
+      "21123876",
+      "24127726",
+      "41159612",
+      "15087462",
+      "29318690",
+      "30485404",
+      "25734970",
+      "9660968",
+      "34189910"
+    ],
+    "review": [
+      "41075692",
+      "21803119",
+      "30703486",
+      "10593256"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301-4622(25)00143-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

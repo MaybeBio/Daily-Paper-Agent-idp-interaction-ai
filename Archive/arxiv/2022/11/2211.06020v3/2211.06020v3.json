@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2211.06020v3",
+  "title": "Current Topics, Methods, and Challenges in the Modelling of Intrinsically Disordered Protein Dynamics",
+  "doi": "",
+  "abstract": "The paradigm that the primary amino acid sequence prescribes structure and thus function has for a long time been central to the understanding of protein science. Though the theory is supported by the behaviour of most structured proteins, it loses much of its applicability when discussing intrinsically disordered proteins (IDPs). These peculiar proteins, whose tertiary structure constantly interconverts between a series of energetically favourable conformations, are the root of many current, pressing scientific mechanisms. Many biological processes that are still yet to be elucidated--the mechanisms of of protein folding, ligand binding, and general protein dynamics--involve IDPs. Because most dynamic protein events are on such short time scales, using experimental methods to observe their action often times doesn't yield useful data. As well, the data resulting from scientific techniques developed for structured, \"static proteins\" must be presented in conjunction with data from methods tailored specifically to IDPs in order to have significance. A method that models IDPs with shocking accuracy is computer simulation, particularly Molecular Dynamics (MD) simulations. With computational power only recently increasing enough to encompass the timescale needed for protein dynamics, MD simulations are still fairly novel in their implementations. This paper will discuss and consolidate the current methods, problems, and solutions of using MD simulation to model IDPs. Which simulation parameters can be altered to more precisely describe observed biological behaviour? How can one accurately use MD simulation to answer questions that, when using experimental methods, have no answer? How can the data resulting from MD simulation be analyzed and quantified to support the conclusions being drawn?",
+  "authors": [
+    "Rickie Xian",
+    "Sarah Rauscher"
+  ],
+  "published_date": "2022-11-11T06:05:12Z",
+  "updated_date": "2022-12-16T15:06:04Z",
+  "journal": "",
+  "category": "physics.bio-ph, cond-mat.soft, physics.med-ph",
+  "landing_url": "https://arxiv.org/abs/2211.06020v3",
+  "pdf_url": "https://arxiv.org/pdf/2211.06020v3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "3",
+  "keywords": [
+    "physics.bio-ph",
+    "cond-mat.soft",
+    "physics.med-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2211.06020v3",
+    "raw_categories": [
+      "physics.bio-ph",
+      "cond-mat.soft",
+      "physics.med-ph"
+    ],
+    "journal_ref": ""
+  }
+}

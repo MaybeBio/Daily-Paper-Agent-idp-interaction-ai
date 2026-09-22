@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "39982820",
+    "doi": "10.1016/j.celrep.2025.115328",
+    "title": "Real-time visualization reveals Mycobacterium tuberculosis ESAT-6 disrupts phagosome-like compartment via fibril-mediated vesiculation."
+  },
+  "content": {
+    "abstract": "Mycobacterium tuberculosis (Mtb) evades host defense by hijacking and rupturing the phagosome. ESAT-6, a secreted virulence protein of Mtb, is known to be critical for phagosome rupture. However, the mechanism of ESAT-6-mediated disruption of the phagosomal membrane remains unknown. Using in vitro reconstitution, live-cell imaging, and numerical simulations, we discover that ESAT-6 polymerization forces remodeling and vesiculation of the phagosome-like compartment both in vitro and in vivo. Shallow insertion of ESAT-6 leads to tubular and bud-like deformations on the membrane facilitated by a reduction in membrane tension. Growing fibrils generate both radial and tangential forces causing local remodeling and shape transition of the membrane into buds. The ESAT-6-bound tensed membrane undergoes local changes in membrane curvature and lipid phase separation that assist the subsequent fission. Overall, the findings provide mechanistic insights into the long-standing question of phagosome disruption by Mtb for its escape.",
+    "keywords": [
+      "CP: Cell biology",
+      "CP: Microbiology",
+      "ESAT-6",
+      "host-pathogen interactions",
+      "in vitro reconstitution",
+      "membrane biophysics",
+      "membrane fission",
+      "membrane tension",
+      "mycobacteria",
+      "phagosome"
+    ],
+    "mesh_terms": [
+      "*Phagosomes/metabolism/microbiology",
+      "*Mycobacterium tuberculosis/metabolism",
+      "*Bacterial Proteins/metabolism",
+      "*Antigens, Bacterial/metabolism",
+      "Humans",
+      "Mice",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Koiri, Debraj",
+        "Nandi, Mintu",
+        "Hameem P M, Abik",
+        "Aher, Jayesh Bhausaheb",
+        "Kumar, Akhil",
+        "Behura, Assirbad",
+        "Meher, Geetanjali",
+        "Choudhary, Vineet",
+        "Choubey, Sandeep",
+        "Saleem, Mohammed"
+      ],
+      "short_names": [
+        "Koiri D",
+        "Nandi M",
+        "Hameem P M A",
+        "Aher JB",
+        "Kumar A",
+        "Behura A",
+        "Meher G",
+        "Choudhary V",
+        "Choubey S",
+        "Saleem M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Biological Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India; Homi Bhabha National Institute (HBNI), Mumbai, India.",
+        "Department of Chemistry, Indian Institute of Engineering Science and Technology, Shibpur, India.",
+        "School of Biological Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India; Homi Bhabha National Institute (HBNI), Mumbai, India.",
+        "School of Biological Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India; Homi Bhabha National Institute (HBNI), Mumbai, India.",
+        "Department of Biotechnology, All India Institute of Medical Sciences, New Delhi, India.",
+        "School of Biological Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India; Homi Bhabha National Institute (HBNI), Mumbai, India.",
+        "School of Biological Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India; Homi Bhabha National Institute (HBNI), Mumbai, India.",
+        "Department of Biotechnology, All India Institute of Medical Sciences, New Delhi, India.",
+        "Institute of Mathematical Sciences (IMSc), Chennai, India; Homi Bhabha National Institute (HBNI), Mumbai, India.",
+        "School of Biological Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India; Homi Bhabha National Institute (HBNI), Mumbai, India; Center for Interdisciplinary Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India. Electronic address: saleem@niser.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Koiri, Debraj",
+        "short_name": "Koiri D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India; Homi Bhabha National Institute (HBNI), Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Nandi, Mintu",
+        "short_name": "Nandi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Engineering Science and Technology, Shibpur, India."
+        ]
+      },
+      {
+        "full_name": "Hameem P M, Abik",
+        "short_name": "Hameem P M A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India; Homi Bhabha National Institute (HBNI), Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Aher, Jayesh Bhausaheb",
+        "short_name": "Aher JB",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India; Homi Bhabha National Institute (HBNI), Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Akhil",
+        "short_name": "Kumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, All India Institute of Medical Sciences, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Behura, Assirbad",
+        "short_name": "Behura A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India; Homi Bhabha National Institute (HBNI), Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Meher, Geetanjali",
+        "short_name": "Meher G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India; Homi Bhabha National Institute (HBNI), Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Choudhary, Vineet",
+        "short_name": "Choudhary V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, All India Institute of Medical Sciences, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Choubey, Sandeep",
+        "short_name": "Choubey S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Mathematical Sciences (IMSc), Chennai, India; Homi Bhabha National Institute (HBNI), Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Saleem, Mohammed",
+        "short_name": "Saleem M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India; Homi Bhabha National Institute (HBNI), Mumbai, India; Center for Interdisciplinary Sciences, National Institute of Science Education & Research (NISER), Bhubaneshwar, India. Electronic address: saleem@niser.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2025 Mar 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/21 18:21",
+    "fetched_at": "2026-09-21 15:50:43"
+  },
+  "links": {
+    "cites": [
+      "42502383",
+      "42102205",
+      "41857035",
+      "41477822",
+      "41390482",
+      "41370123",
+      "41207944",
+      "41207939",
+      "40004082"
+    ],
+    "refs": [
+      "38805257",
+      "38781206",
+      "36990217",
+      "36245269",
+      "35760780",
+      "35271388",
+      "34859961",
+      "34854444",
+      "34452994",
+      "34180943",
+      "33860624",
+      "33452244",
+      "32851152",
+      "32753669",
+      "32522996",
+      "32471988",
+      "31879349",
+      "31237259",
+      "31181223",
+      "30916769",
+      "30911956",
+      "30602503",
+      "30360496",
+      "30150727",
+      "29976069",
+      "29898893",
+      "29325545",
+      "29320578",
+      "29162803",
+      "29113676",
+      "28784767",
+      "28505176",
+      "28126722",
+      "28119503",
+      "28095608",
+      "27665717",
+      "27418190",
+      "27113279",
+      "26522593",
+      "26519988",
+      "26504167",
+      "26479317",
+      "25774051",
+      "25695735",
+      "25650919",
+      "25645924",
+      "25569184",
+      "25099814",
+      "24610712",
+      "24364000",
+      "23848406",
+      "23716666",
+      "23670529",
+      "23184970",
+      "23150662",
+      "22902598",
+      "22524898",
+      "22464326",
+      "22319448",
+      "22264515",
+      "20356094",
+      "19304798",
+      "19197369",
+      "19135887",
+      "18852239",
+      "18684013",
+      "18515373",
+      "18408164",
+      "17604718",
+      "17588529",
+      "17557817",
+      "17478680",
+      "17360623",
+      "17045578",
+      "16839634",
+      "15973432",
+      "15791208",
+      "14645856",
+      "14557547",
+      "12872166",
+      "12829467",
+      "12388753",
+      "12353027",
+      "11208168",
+      "10449364",
+      "4530994",
+      "4273690"
+    ],
+    "similar": [
+      "39982820",
+      "38805257",
+      "34740079",
+      "35271388",
+      "28095608",
+      "30482832",
+      "28494243",
+      "39313213",
+      "17908204",
+      "16922861",
+      "33148716",
+      "38884474",
+      "31430698",
+      "11714749",
+      "22634089",
+      "26456678",
+      "29709019",
+      "15664953",
+      "39949767",
+      "19360129",
+      "32535275",
+      "28513416",
+      "32182946",
+      "28119503",
+      "17557817",
+      "21740493",
+      "40438237",
+      "37645775",
+      "20416295",
+      "27745787",
+      "34630380",
+      "25356553",
+      "39888996",
+      "34211240",
+      "22215736",
+      "25645924",
+      "23150662",
+      "26092385",
+      "31167949",
+      "22524898",
+      "25721573",
+      "27693020",
+      "23867456",
+      "15260437",
+      "16048998",
+      "40205554",
+      "37371548",
+      "33240275",
+      "18430736",
+      "31879349",
+      "22154837",
+      "33879592",
+      "12942085",
+      "11940590",
+      "25081983",
+      "20148899",
+      "22443300",
+      "26786654",
+      "15473845",
+      "39378051",
+      "20889800",
+      "19815536",
+      "24985537",
+      "15488391",
+      "33194845",
+      "17915024",
+      "15341647",
+      "21637850",
+      "11825909",
+      "23592993",
+      "22033468",
+      "21586573",
+      "17632049",
+      "37192679",
+      "27154637",
+      "23733870",
+      "17486091",
+      "32169899",
+      "28135876",
+      "21678466",
+      "20421951",
+      "18832305",
+      "31078419",
+      "30911956",
+      "15060053",
+      "18282096",
+      "33290182",
+      "22169731",
+      "24078612",
+      "21255211",
+      "22319448",
+      "15661908",
+      "29390519",
+      "17909563",
+      "22102818",
+      "30602503",
+      "11597336",
+      "26260636",
+      "32019792",
+      "34420788"
+    ],
+    "review": [
+      "39982820",
+      "22634089",
+      "28513416",
+      "40438237",
+      "37371548",
+      "22443300",
+      "15473845",
+      "39378051",
+      "15488391",
+      "33194845",
+      "22033468",
+      "21678466"
+    ],
+    "pmc": [
+      "7617678"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(25)00099-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39982820/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

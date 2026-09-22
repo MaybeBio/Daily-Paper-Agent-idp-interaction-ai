@@ -1,0 +1,264 @@
+{
+  "identity": {
+    "pmid": "35589059",
+    "doi": "10.1016/j.ygeno.2022.110390",
+    "title": "Phylogeny of NF-YA trans-activation splicing isoforms in vertebrate evolution."
+  },
+  "content": {
+    "abstract": "NF-Y is a trimeric pioneer Transcription Factor (TF) whose target sequence -the CCAAT box- is present in ~25% of mammalian promoters. We reconstruct the phylogenetic history of the regulatory NF-YA subunit in vertebrates. We find that in addition to the remarkable conservation of the subunits-interaction and DNA-binding parts, the Transcriptional Activation Domain (TAD) is also conserved (>90% identity among bony vertebrates). We infer the phylogeny of the alternatively spliced exon-3 and partial splicing events of exon-7 -7N and 7C- revealing independent clade-specific losses of these regions. These isoforms shape the TAD. Absence of exon-3 in basal deuterostomes, cartilaginous fishes and hagfish, but not in lampreys, suggests that the \"short\" isoform is primordial, with emergence of exon-3 in chordates. Exon 7N was present in the vertebrate common ancestor, while 7C is a molecular innovation of teleost fishes. RNA-seq analysis in several species confirms expression of all these isoforms. We identify 3 blocks of amino acids in the TAD shared across deuterostomes, yet structural predictions and sequence analyses suggest an evolutionary drive for maintenance of an Intrinsically Disordered Region -IDR- within the TAD. Overall, these data help reconstruct the logic for alternative splicing of this essential eukaryotic TF.",
+    "keywords": [
+      "Alternative splicing",
+      "Evolution",
+      "Glutamine-rich",
+      "Intrinsically disordered region",
+      "NFYA",
+      "Transactivation domain",
+      "Transcription factor"
+    ],
+    "mesh_terms": [
+      "Alternative Splicing",
+      "Animals",
+      "Evolution, Molecular",
+      "Fishes/metabolism",
+      "Mammals",
+      "Phylogeny",
+      "Promoter Regions, Genetic",
+      "Protein Isoforms/genetics/metabolism",
+      "*Transcription Factors/genetics",
+      "*Vertebrates/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bernardini, Andrea",
+        "Gallo, Alberto",
+        "Gnesutta, Nerina",
+        "Dolfini, Diletta",
+        "Mantovani, Roberto"
+      ],
+      "short_names": [
+        "Bernardini A",
+        "Gallo A",
+        "Gnesutta N",
+        "Dolfini D",
+        "Mantovani R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy. Electronic address: andrea.bernardini@igbmc.fr.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy. Electronic address: mantor@unimi.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bernardini, Andrea",
+        "short_name": "Bernardini A",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy. Electronic address: andrea.bernardini@igbmc.fr."
+        ]
+      },
+      {
+        "full_name": "Gallo, Alberto",
+        "short_name": "Gallo A",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Gnesutta, Nerina",
+        "short_name": "Gnesutta N",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Dolfini, Diletta",
+        "short_name": "Dolfini D",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Mantovani, Roberto",
+        "short_name": "Mantovani R",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy. Electronic address: mantor@unimi.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genomics"
+    ],
+    "journal_abbrev": [
+      "Genomics"
+    ],
+    "pub_date": "2022 Jul",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/20 06:00",
+    "fetched_at": "2026-09-20 10:27:55"
+  },
+  "links": {
+    "cites": [
+      "40408078",
+      "39327506",
+      "36707502",
+      "36680333"
+    ],
+    "refs": [],
+    "similar": [
+      "35589059",
+      "37536396",
+      "11149949",
+      "16007341",
+      "20701803",
+      "25405766",
+      "19690168",
+      "8813662",
+      "22479358",
+      "20651048",
+      "18310661",
+      "15868204",
+      "21873631",
+      "12427542",
+      "31744190",
+      "11814686",
+      "26921500",
+      "17157448",
+      "33271832",
+      "17092333",
+      "23818968",
+      "18454855",
+      "15225881",
+      "28709000",
+      "38309445",
+      "22716069",
+      "31506469",
+      "16889663",
+      "40408078",
+      "25931610",
+      "24174425",
+      "36625090",
+      "29337206",
+      "8314776",
+      "17090698",
+      "32214056",
+      "15494495",
+      "16483367",
+      "15834131",
+      "21408167",
+      "21310052",
+      "9541532",
+      "26682538",
+      "34605568",
+      "30442091",
+      "25010382",
+      "36707502",
+      "38199563",
+      "31805994",
+      "17369312",
+      "1577736",
+      "17598077",
+      "23258891",
+      "18473110",
+      "20924084",
+      "20109226",
+      "27048986",
+      "11961095",
+      "22747664",
+      "17020603",
+      "19695090",
+      "16242908",
+      "7737192",
+      "15788744",
+      "17262811",
+      "20443112",
+      "40488893",
+      "10488131",
+      "34782004",
+      "25014653",
+      "9787767",
+      "16416020",
+      "15939624",
+      "21680890",
+      "10452544",
+      "17182894",
+      "22112745",
+      "21974994",
+      "26134525",
+      "9113408",
+      "11459781",
+      "35857463",
+      "11443354",
+      "19443856",
+      "21389270",
+      "24718597",
+      "21857980",
+      "19737433",
+      "40634566",
+      "15236666",
+      "10833333",
+      "26475318",
+      "32311412",
+      "16343534",
+      "24180662",
+      "15599511",
+      "21122104",
+      "31888461",
+      "15340086",
+      "22235189"
+    ],
+    "review": [
+      "35589059",
+      "38309445",
+      "25010382",
+      "9113408"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/938830",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0888-7543(22)00135-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

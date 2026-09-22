@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present COCOMO2, an updated residue-based coarse-grained model extending from intrinsically disordered peptides to folded proteins via a surface exposure scaling factor. They claim parameterization with solubility and phase separation data improves concentration-dependent phase separation predictions across broader biomolecular systems, enabling studies of condensates with IDPs and folded domains, complex assembly, and multi-scale modeling foundations.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark comparisons, or methodological details
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, parameterization details, validation datasets, and comparison benchmarks
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible incremental advance in coarse-grained modeling, but the evidence base is insufficient to evaluate the central claims. The surface exposure scaling concept is reasonable and potentially useful, yet no quantitative performance data, validation metrics, or comparative analyses are provided. The claims regarding improved phase separation prediction and broadened applicability are stated without supporting numbers or benchmarks. The work may be of interest to the biomolecular simulation community, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular simulation researchers studying phase separation, intrinsically disordered proteins, and biomolecular condensates. Also relevant to developers of coarse-grained force fields and multi-scale modeling approaches who seek residue-level models with folded domain compatibility.
+- **Major strengths** The conceptual extension from disordered peptides to folded proteins via solvent accessibility scaling is a logical and potentially impactful design choice. The direct parameterization with solubility and phase separation data is a sensible strategy for improving concentration-dependent behavior. The stated goal of enabling multi-scale integration is forward-looking and aligns with current methodological trends.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "COCOMO2 was parameterized directly with solubility and phase separation data to improve its performance on predicting concentration-dependent phase separation for a broader range of biomolecular systems compared to the original version"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims improved performance on concentration-dependent phase separation prediction but provides no quantitative results, no comparison to the original COCOMO model, and no benchmark datasets. No metrics such as errors, correlation coefficients, or phase diagram comparisons are presented.
+  - **Why it matters** The central value proposition of the model update is its claimed predictive improvement. Without quantitative evidence, the reader cannot assess whether the parameterization strategy actually achieves its stated goal or whether the improvement is marginal, system-specific, or absent.
+  - **Resolution test** Provide quantitative comparisons between COCOMO2 and the original COCOMO on matched phase separation datasets, including error metrics and representative phase diagrams, ideally across multiple protein systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "COCOMO2 enables new applications including the study of condensates that involve IDPs together with folded domains and the study of complex assembly processes"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract asserts that the model enables new applications but provides no demonstration, case study, or validation that the surface exposure scaling factor produces physically realistic behavior for folded domain interactions. No test systems, comparison to experimental data, or atomistic reference simulations are mentioned.
+  - **Why it matters** The claim of enabling new applications is only meaningful if the model produces reliable results for the proposed systems. Without any validation example, the reader cannot determine whether the scaling factor introduces artifacts or whether the model captures the relevant physics for folded domain interactions.
+  - **Resolution test** Include at least one validation case involving a folded domain interacting with an IDP, with comparison to experimental or atomistic reference data, demonstrating that the model reproduces known binding or phase behavior.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "This is accomplished with the introduction of a surface exposure scaling factor, which adjusts interaction strengths based on solvent accessibility, to enable the more realistic modeling of interactions involving folded domains without additional computational costs"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how the surface exposure scaling factor is computed, how it is integrated into the interaction potential, or how it was parameterized. The claim of "no additional computational costs" is stated without explanation of the computational overhead in practice.
+  - **Why it matters** The technical implementation determines whether the model is reproducible and whether the computational cost claim holds in realistic simulation contexts. Without methodological detail, the approach cannot be evaluated or replicated by other groups.
+  - **Resolution test** Provide a clear description of the scaling factor formulation, its parameterization procedure, and a benchmark showing computational cost per simulation step compared to the original COCOMO model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, "expanded foundation" statement
+  - **Issue** The phrase "expanded foundation for the development of multi-scale approaches" is vague and does not specify what aspects of the model facilitate multi-scale integration.
+  - **Required correction** Specify the intended multi-scale coupling strategy, such as which resolution levels are planned and how COCOMO2 parameters would map to atomistic models.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model scope
+  - **Evidence pointer** Abstract, "broader range of biomolecular systems"
+  - **Issue** The abstract does not indicate the range of systems tested or the types of proteins covered in the parameterization, leaving the scope of applicability unclear.
+  - **Required correction** List the protein types and sequence diversity used in parameterization and validation, and state any known limitations in applicability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Parameterization data
+  - **Evidence pointer** Abstract, "parameterized directly with solubility and phase separation data"
+  - **Issue** The abstract does not identify the specific experimental datasets used for parameterization, which is essential for reproducibility.
+  - **Required correction** Cite the experimental sources for solubility and phase separation data and describe how they were processed for parameterization.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract provides no quantitative validation, no demonstration of new capabilities, and no methodological detail on the core scaling factor. These are not minor omissions but fundamental gaps that prevent assessment of the model's utility and correctness.
+- **Assessment against Nature-style criteria** Originality: The surface exposure scaling concept is a reasonable incremental extension but not conceptually novel. Scientific importance: Potentially relevant to the phase separation and coarse-grained modeling communities, but importance cannot be established without demonstrated performance gains. Interdisciplinary readership: The abstract is accessible to computational biologists and biophysicists, but the lack of quantitative results limits broader appeal. Technical soundness: Cannot be assessed from the abstract alone; the absence of methodological detail and validation is a critical deficiency. Readability for nonspecialists: The abstract is clearly written and understandable, but the claims are unsupported by visible evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible model update, but the absence of quantitative validation, methodological detail, and demonstrated applications means the central claims cannot be evaluated. A revised submission with full methods, benchmark comparisons, and validation case studies would be required to assess whether the model achieves its stated goals.
+
+## Risk / unsupported claims
+- Improved performance on concentration-dependent phase separation prediction compared to the original COCOMO is unsupported by any quantitative data in the abstract.
+- The claim that COCOMO2 enables new applications for condensates with IDPs and folded domains is unsupported by any demonstration or validation example.
+- The claim of "no additional computational costs" is unverifiable without benchmark data.
+- The statement that COCOMO2 provides an "expanded foundation" for multi-scale approaches is speculative and not substantiated.
+- The general applicability to a "broader range of biomolecular systems" is asserted without specifying the systems tested or the scope of validation.

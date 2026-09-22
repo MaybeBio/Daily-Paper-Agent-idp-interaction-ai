@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41480867",
+  "title": "The Protein Force Field Plays a Crucial Role in Obtaining Accurate Macromolecular Ensembles of IDPs.",
+  "authors": "Adhikari Sridhar, Rohan; Shi, Winnie H; Marciel, Amanda B; Chapman, Walter G",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2026-01-02",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发SWAXS-AMDE散射模型，结合MD模拟评估蛋白力场对IDP构象ensemble准确性的关键作用，虽聚焦力场验证而非直接PPI机制，但为IDP构象建模提供了可迁移的物理模拟方法。",
+  "abstract": "Atomistic models of water with increased dispersion interactions (e.g., OPC, TIP4P-D) have been proposed to produce extended conformational ensembles of intrinsically disordered proteins (IDPs). However, the role of the protein force field in obtaining accurate macromolecular ensembles of IDPs remains unclear. Isolating the influence of the protein and water models by comparison to an experimental measure (such as X-ray scattering) requires an atomic consideration of the hydration layer waters around a thermally fluctuating protein. To enable an atomically detailed scattering calculation around a thermally fluctuating solute, we have developed a new scattering model termed small and wide angle X-ray scattering for all molecular dynamics engines (SWAXS-AMDE). SWAXS-AMDE can handle the trajectory files from all of the popular molecular dynamics (MD) simulation softwares, thus facilitating a straightforward validation of force field improvements. SWAXS-AMDE computed scattering profiles for polyampholyte peptides show the AMBER ff19SB protein force field to play a crucial role in obtaining accurate macromolecular ensembles of both folded proteins and IDPs.",
+  "abstract_zh": "增加色散相互作用的水的原子模型（如OPC、TIP4P-D）已被提出，以产生 intrinsically disordered proteins (IDPs) 的扩展构象系综。然而，蛋白质力场在获得IDPs准确大分子系综中的作用仍不清楚。通过比较实验测量（如X射线散射）来隔离蛋白质和水模型的影响，需要对热波动蛋白质周围的水化层水进行原子级考虑。为了实现对热波动溶质周围的原子级详细散射计算，我们开发了一种新的散射模型，称为适用于所有分子动力学引擎的小角和广角X射线散射（SWAXS-AMDE）。SWAXS-AMDE能够处理所有主流分子动力学（MD）模拟软件生成的轨迹文件，从而便于直接验证力场改进。SWAXS-AMDE计算的多两性电解质肽的散射图谱显示，AMBER ff19SB蛋白质力场在获得折叠蛋白和IDPs的准确大分子系综中起着关键作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41480867/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41480867/",
+  "paper_page_path": "papers/pubmed/41480867/index.html"
+}

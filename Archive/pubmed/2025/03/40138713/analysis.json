@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40138713",
+  "title": "A dynamic structural unit of phase-separated heterochromatin protein 1alpha as revealed by integrative structural analyses.",
+  "authors": "Furukawa, Ayako; Yonezawa, Kento; Negami, Tatsuki; Yoshimura, Yuriko; Hayashi, Aki; Nakayama, Jun-Ichi; Adachi, Naruhiko; Senda, Toshiya; Shimizu, Kentaro; Terada, Tohru; Shimizu, Nobutaka; Nishimura, Yoshifumi",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-03-27",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究整合NMR/SAXS/粗粒化MD模拟，揭示HP1alpha无序N尾磷酸化介导的动态分子间互作与相分离结构单元，并验证其在异染色质形成中的功能，是IDR-PPI机制建模的典范。",
+  "abstract": "The heterochromatin protein HP1alpha consists of an N-terminal disordered tail (N-tail), chromodomain (CD), hinge region (HR), and C-terminal chromo shadow domain (CSD). While CD binds to the lysine9-trimethylated histone H3 (H3K9me3) tail in nucleosomes, CSD forms a dimer bridging two nucleosomes with H3K9me3. Phosphorylation of serine residues in the N-tail enhances both H3K9me3 binding and liquid-liquid phase separation (LLPS) by HP1alpha. We have used integrative structural methods, including nuclear magnetic resonance, small-angle X-ray scattering (SAXS), and multi-angle-light scattering combined with size-exclusion chromatography, and coarse-grained molecular dynamics simulation with SAXS, to probe the HP1alpha dimer and its CSD deletion monomer. We show that dynamic intra- and intermolecular interactions between the N-tails and basic segments in CD and HR depend on N-tail phosphorylation. While the phosphorylated HP1alpha dimer undergoes LLPS via the formation of aggregated multimers, the N-tail phosphorylated mutant without CSD still undergoes LLPS, but its structural unit is a dynamic intermolecular dimer formed via the phosphorylated N-tail and a basic segment at the CD end. Furthermore, we reveal that mutation of this basic segment in HP1alpha affects the size of heterochromatin foci in cultured mammalian cells, suggesting that this interaction plays an important role in heterochromatin formation in vivo.",
+  "abstract_zh": "异染色质蛋白HP1alpha由N端无序尾部（N-tail）、染色质结构域（CD）、铰链区（HR）和C端染色质阴影结构域（CSD）组成。CD结合核小体中组蛋白H3的赖氨酸9三甲基化尾部（H3K9me3），而CSD形成二聚体，桥接两个带有H3K9me3的核小体。N-tail中丝氨酸残基的磷酸化增强了HP1alpha对H3K9me3的结合以及液-液相分离（LLPS）。我们采用整合结构方法，包括核磁共振、小角X射线散射（SAXS）、多角度光散射结合尺寸排阻色谱，以及粗粒化分子动力学模拟与SAXS，来探测HP1alpha二聚体及其CSD缺失突变体。我们显示，N-tail与CD和HR中碱性片段之间的动态分子内和分子间相互作用依赖于N-tail磷酸化。虽然磷酸化的HP1alpha二聚体通过形成聚集多聚体进行LLPS，但无CSD的N-tail磷酸化突变体仍进行LLPS，但其结构单元是通过磷酸化N-tail和CD末端碱性片段形成的动态分子间二聚体。此外，我们揭示，HP1alpha中该碱性片段的突变影响培养哺乳动物细胞中异染色质灶的大小，表明这种相互作用在体内异染色质形成中发挥重要作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40138713/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40138713/",
+  "paper_page_path": "papers/pubmed/40138713/index.html"
+}

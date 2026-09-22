@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "39811883",
+    "doi": "10.1080/03602532.2025.2453521",
+    "title": "Molecular docking to investigate HLA-associated idiosyncratic drug reactions."
+  },
+  "content": {
+    "abstract": "Idiosyncratic drug reactions (IDRs) pose severe threats to patient health. Unlike conventionally dose-dependent side effects, they are unpredictable and more frequently manifest as life-threatening conditions, such as severe cutaneous adverse reactions (SCARs) and drug-induced liver injury (DILI). Some HLA alleles, such as HLA-B*57:01, HLA-B*15:02, and HLA-B*58:01, are known risk factors for adverse reactions induced by multiple drugs. However, the structural basis underlying most HLA-associated adverse events remains poorly understood. This review summarizes the application of molecular docking to reveal the mechanisms of IDR-related HLA associations, covering studies using this technique to examine drug-HLA binding pockets and identify key binding residues. We provide a comprehensive overview of risk HLA alleles associated with IDRs, followed by a discussion of the utility and limitations of commonly used molecular docking tools in simulating complex molecular interactions within the HLA binding pocket. Through examples, including the binding of abacavir and flucloxacillin to HLA-B*57:01, carbamazepine to HLA-B*15:02, and allopurinol to HLA-B*58:01, we demonstrate how docking analyses can provide insights into the drug and HLA allele-specificity of adverse events. Furthermore, the use of molecular docking to screen drugs with unknown IDR liability is examined, targeting either multiple HLA variants or a single specific variant. Despite multiple challenges, molecular docking presents a promising toolkit for investigating drug-HLA interactions and understanding IDR mechanisms, with significant implications for preemptive HLA typing and safer drug development.",
+    "keywords": [
+      "Idiosyncratic drug reactions",
+      "genetic variants",
+      "human leukocyte antigen",
+      "molecular docking",
+      "pharmacogenetics",
+      "precision medicine"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Molecular Docking Simulation",
+      "*Drug-Related Side Effects and Adverse Reactions/genetics/immunology",
+      "*HLA Antigens/genetics/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Kejun",
+        "Lauschke, Volker M",
+        "Zhou, Yitian"
+      ],
+      "short_names": [
+        "Li K",
+        "Lauschke VM",
+        "Zhou Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1140-6204",
+        "ORCID: 0000-0003-3066-5444"
+      ],
+      "affiliations": [
+        "Department of Physiology and Pharmacology, Karolinska Institutet, Stockholm, Sweden.",
+        "Department of Physiology and Pharmacology, Karolinska Institutet, Stockholm, Sweden.",
+        "Center for Molecular Medicine, Karolinska Institutet and University Hospital, Stockholm, Sweden.",
+        "Margarete Fischer-Bosch Institute of Clinical Pharmacology (IKP), Stuttgart, Germany.",
+        "University of Tubingen, Tubingen, Germany.",
+        "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, China.",
+        "Department of Physiology and Pharmacology, Karolinska Institutet, Stockholm, Sweden.",
+        "Center for Molecular Medicine, Karolinska Institutet and University Hospital, Stockholm, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Kejun",
+        "short_name": "Li K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Karolinska Institutet, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Lauschke, Volker M",
+        "short_name": "Lauschke VM",
+        "identifiers": [
+          "0000-0002-1140-6204"
+        ],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Karolinska Institutet, Stockholm, Sweden.",
+          "Center for Molecular Medicine, Karolinska Institutet and University Hospital, Stockholm, Sweden.",
+          "Margarete Fischer-Bosch Institute of Clinical Pharmacology (IKP), Stuttgart, Germany.",
+          "University of Tübingen, Tübingen, Germany.",
+          "Department of Pharmacy, The Second Xiangya Hospital, Central South University, Changsha, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yitian",
+        "short_name": "Zhou Y",
+        "identifiers": [
+          "0000-0003-3066-5444"
+        ],
+        "affiliations": [
+          "Department of Physiology and Pharmacology, Karolinska Institutet, Stockholm, Sweden.",
+          "Center for Molecular Medicine, Karolinska Institutet and University Hospital, Stockholm, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug metabolism reviews"
+    ],
+    "journal_abbrev": [
+      "Drug Metab Rev"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/15 06:21",
+    "fetched_at": "2026-09-21 14:41:22"
+  },
+  "links": {
+    "cites": [
+      "42499500",
+      "42398070",
+      "41806469",
+      "41696275",
+      "41296035"
+    ],
+    "refs": [],
+    "similar": [
+      "39811883",
+      "30125869",
+      "23984511",
+      "28017537",
+      "28695285",
+      "29333460",
+      "23635947",
+      "34334545",
+      "24694233",
+      "39841586",
+      "27964952",
+      "25747444",
+      "23381951",
+      "24777842",
+      "25832839",
+      "26501190",
+      "29017379",
+      "25080918",
+      "28315856",
+      "29800753",
+      "22613851",
+      "37838157",
+      "28162244",
+      "26632391",
+      "28303164",
+      "34105877",
+      "33967088",
+      "17620823",
+      "32847422",
+      "25809692",
+      "38825461",
+      "35056062",
+      "20020273",
+      "29383457",
+      "25965122",
+      "35548363",
+      "30895730",
+      "34017337",
+      "34516290",
+      "25458913",
+      "25003724",
+      "32270503",
+      "18370849",
+      "20235791",
+      "26996548",
+      "34350628",
+      "30302345",
+      "32027661",
+      "29921043",
+      "19668019",
+      "39405418",
+      "34016669",
+      "32535895",
+      "21342226",
+      "22920398",
+      "24901010",
+      "35568130",
+      "24879978",
+      "25491399",
+      "24225276",
+      "28295240",
+      "22645359",
+      "22017685",
+      "28594314",
+      "25424130",
+      "22943588",
+      "27261882",
+      "35070271",
+      "35187767",
+      "20235781",
+      "27576480",
+      "38568509",
+      "23476052",
+      "37908589",
+      "29793265",
+      "32714190",
+      "38305022",
+      "33222552",
+      "39457521",
+      "41160012",
+      "38432925",
+      "29436218",
+      "37795024",
+      "31421661",
+      "31438375",
+      "35645018",
+      "19694795",
+      "24565765",
+      "21084762",
+      "40784610",
+      "34213582",
+      "39006565",
+      "22041139",
+      "35971864",
+      "30093715",
+      "26663557",
+      "33356553",
+      "29392141",
+      "25386935",
+      "23141566"
+    ],
+    "review": [
+      "39811883",
+      "23984511",
+      "28017537",
+      "28695285",
+      "29333460",
+      "23635947",
+      "34334545",
+      "39841586",
+      "27964952",
+      "23381951",
+      "24777842",
+      "25832839",
+      "29017379",
+      "25080918",
+      "28315856",
+      "37838157",
+      "28162244",
+      "34105877",
+      "17620823",
+      "32847422",
+      "25809692",
+      "38825461",
+      "20020273",
+      "25965122",
+      "35548363",
+      "30895730",
+      "34516290",
+      "25003724",
+      "18370849",
+      "34016669",
+      "21342226",
+      "22920398",
+      "24901010",
+      "24879978",
+      "25491399",
+      "28295240",
+      "22017685",
+      "25424130",
+      "22943588",
+      "27261882",
+      "20235781",
+      "27576480",
+      "38568509",
+      "23476052",
+      "32714190",
+      "38305022",
+      "33222552",
+      "39457521",
+      "35645018",
+      "24565765",
+      "21084762",
+      "22041139",
+      "35971864",
+      "25386935"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/03602532.2025.2453521?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/drugreactions.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Drug Reactions"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-DPB1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/03602532.2025.2453521",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

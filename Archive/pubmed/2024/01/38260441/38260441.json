@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "38260441",
+    "doi": "10.1101/2024.01.03.573975",
+    "title": "SAXS/MC studies of the mixed-folded protein Cdt1 reveal monomeric, folded over conformations."
+  },
+  "content": {
+    "abstract": "Cdt1 is a protein critical for DNA replication licensing and is well-established to be a binding partner of the minichromosome maintenance (MCM) complex. Cdt1 has also been demonstrated to have an emerging, \"moonlighting\" role at the kinetochore via direct binding to microtubules and to the Ndc80 complex. However, it is not known how the structure and conformations of Cdt1 could allow for these multiple, completely unique sets of protein complexes. And while there exist multiple robust methods to study entirely folded or entirely unfolded proteins, structure-function studies of combined, mixed folded/disordered proteins remain challenging. It this work, we employ multiple orthogonal biophysical and computational techniques to provide a detailed structural characterization of human Cdt1 92-546. DSF and DSCD show both folded winged helix (WH) domains of Cdt1 are relatively unstable. CD and NMR show the N-terminal and the linker regions are intrinsically disordered. Using DLS and SEC-MALS, we show that Cdt1 is polydisperse, monomeric at high concentrations, and without any apparent inter-molecular self-association. SEC-SAXS of the monomer in solution enabled computational modeling of the protein in silico. Using the program SASSIE, we performed rigid body Monte Carlo simulations to generate a conformational ensemble. Using experimental SAXS data, we filtered for conformations which did and did not fit our data. We observe that neither fully extended nor extremely compact Cdt1 conformations are consistent with our SAXS data. The best fit models have the N-terminal and linker regions extended into solution and the two folded domains close to each other in apparent \"folded over\" conformations. The best fit Cdt1 conformations are consistent with a function as a scaffold protein which may be sterically blocked without the presence of binding partners. Our studies also provide a template for combining experimental and computational biophysical techniques to study mixed-folded proteins.",
+    "keywords": [
+      "Monte Carlo",
+      "Small Angle X-ray Scattering",
+      "conformational dynamics",
+      "intrinsically disordered protein",
+      "kinetochore",
+      "rigid body modeling"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Smith, Kyle P",
+        "Chakravarthy, Srinivas",
+        "Rahi, Amit",
+        "Chakraborty, Manas",
+        "Vosberg, Kristen M",
+        "Tonelli, Marco",
+        "Plach, Maximilian G",
+        "Grigorescu, Arabela A",
+        "Curtis, Joseph E",
+        "Varma, Dileep"
+      ],
+      "short_names": [
+        "Smith KP",
+        "Chakravarthy S",
+        "Rahi A",
+        "Chakraborty M",
+        "Vosberg KM",
+        "Tonelli M",
+        "Plach MG",
+        "Grigorescu AA",
+        "Curtis JE",
+        "Varma D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA.",
+        "Present Address, Xylia Therapeutics, Waltham, MA, 02451, USA.",
+        "Biophysics Collaborative Access Team, Argonne National Laboratory, Argonne, IL, 60439, USA.",
+        "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA.",
+        "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA.",
+        "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA.",
+        "National Magnetic Resonance Facility at Madison, Department of Biochemistry, University of Wisconsin, Madison, WI, 53706, USA.",
+        "2bind GmbH, Regensburg, 93053, Germany.",
+        "Keck Biophysics Facility, Department of Molecular Biosciences, Northwestern University, Evanston, IL, 60201, USA.",
+        "NIST Center for Neutron Research, National Institute of Standards and Technology, 100 Bureau Drive, Mail Stop 6102, Gaithersburg, MD, 20899, United States.",
+        "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Smith, Kyle P",
+        "short_name": "Smith KP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA.",
+          "Present Address, Xylia Therapeutics, Waltham, MA, 02451, USA."
+        ]
+      },
+      {
+        "full_name": "Chakravarthy, Srinivas",
+        "short_name": "Chakravarthy S",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics Collaborative Access Team, Argonne National Laboratory, Argonne, IL, 60439, USA."
+        ]
+      },
+      {
+        "full_name": "Rahi, Amit",
+        "short_name": "Rahi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+        ]
+      },
+      {
+        "full_name": "Chakraborty, Manas",
+        "short_name": "Chakraborty M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+        ]
+      },
+      {
+        "full_name": "Vosberg, Kristen M",
+        "short_name": "Vosberg KM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+        ]
+      },
+      {
+        "full_name": "Tonelli, Marco",
+        "short_name": "Tonelli M",
+        "identifiers": [],
+        "affiliations": [
+          "National Magnetic Resonance Facility at Madison, Department of Biochemistry, University of Wisconsin, Madison, WI, 53706, USA."
+        ]
+      },
+      {
+        "full_name": "Plach, Maximilian G",
+        "short_name": "Plach MG",
+        "identifiers": [],
+        "affiliations": [
+          "2bind GmbH, Regensburg, 93053, Germany."
+        ]
+      },
+      {
+        "full_name": "Grigorescu, Arabela A",
+        "short_name": "Grigorescu AA",
+        "identifiers": [],
+        "affiliations": [
+          "Keck Biophysics Facility, Department of Molecular Biosciences, Northwestern University, Evanston, IL, 60201, USA."
+        ]
+      },
+      {
+        "full_name": "Curtis, Joseph E",
+        "short_name": "Curtis JE",
+        "identifiers": [],
+        "affiliations": [
+          "NIST Center for Neutron Research, National Institute of Standards and Technology, 100 Bureau Drive, Mail Stop 6102, Gaithersburg, MD, 20899, United States."
+        ]
+      },
+      {
+        "full_name": "Varma, Dileep",
+        "short_name": "Varma D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, IL, 60611, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jan 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/23 12:42",
+    "fetched_at": "2026-09-21 04:29:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37265445",
+      "35373198",
+      "34265844",
+      "33207556",
+      "33065068",
+      "32844209",
+      "32756877",
+      "32669428",
+      "31937751",
+      "31528692",
+      "31454167",
+      "31442477",
+      "31425549",
+      "31282880",
+      "30878202",
+      "30840442",
+      "30304678",
+      "30154187",
+      "29972812",
+      "29629870",
+      "29571687",
+      "29021737",
+      "28808438",
+      "28643783",
+      "28191894",
+      "28191893",
+      "28054562",
+      "28025526",
+      "27980506",
+      "27583570",
+      "27294484",
+      "26500468",
+      "26320411",
+      "26306089",
+      "26301997",
+      "25531225",
+      "24810534",
+      "23851460",
+      "23727886",
+      "23395375",
+      "23372670",
+      "23341755",
+      "22820921",
+      "22760329",
+      "22611034",
+      "22581055",
+      "22208199",
+      "22116789",
+      "21802429",
+      "21134384",
+      "20944740",
+      "20543496",
+      "20335175",
+      "20192264",
+      "20005848",
+      "19906994",
+      "19722278",
+      "19269643",
+      "19153597",
+      "19041372",
+      "18508524",
+      "17598984",
+      "17097677",
+      "16277991",
+      "16222654",
+      "16218947",
+      "15980472",
+      "15849414",
+      "15629940",
+      "15286659",
+      "15211037",
+      "11573094",
+      "10027275",
+      "8744570",
+      "7470476",
+      "1942038"
+    ],
+    "similar": [
+      "38260441",
+      "39503309",
+      "30840442",
+      "19933326",
+      "37265445",
+      "35317998",
+      "21947276",
+      "29548755",
+      "39048355",
+      "40475948",
+      "39499823",
+      "22581055",
+      "30154187",
+      "32840111",
+      "30217822",
+      "26387105",
+      "26940553",
+      "32679070",
+      "19722278",
+      "23912807",
+      "35696898",
+      "28643783",
+      "33725442",
+      "20335175",
+      "27111521",
+      "26548662",
+      "18606811",
+      "30281379",
+      "22095648",
+      "36641212",
+      "34627764",
+      "20202939",
+      "17182256",
+      "32696361",
+      "33741931",
+      "34310942",
+      "20801888",
+      "31073392",
+      "40095314",
+      "22506277",
+      "15653632",
+      "29314274",
+      "36062318",
+      "36410960",
+      "26320411",
+      "29925592",
+      "30617833",
+      "34505054",
+      "22208199",
+      "34817999",
+      "40060049",
+      "38522710",
+      "30878202",
+      "14672932",
+      "22821520",
+      "27496803",
+      "39674478",
+      "35004845",
+      "30557358",
+      "17620598",
+      "28191894",
+      "29261034",
+      "36641214",
+      "35891793",
+      "35679397",
+      "18078545",
+      "28025526",
+      "34150847",
+      "29605933",
+      "31325636",
+      "39642200",
+      "19592714",
+      "8605167",
+      "19647001",
+      "36641210",
+      "12192004",
+      "33177626",
+      "33065068",
+      "36859088",
+      "35483823",
+      "32348724",
+      "21216251",
+      "32074499",
+      "31618040",
+      "31251056",
+      "18391200",
+      "33030907",
+      "25988259",
+      "38739602",
+      "33337879",
+      "31350339",
+      "22045335",
+      "22639100",
+      "37433228",
+      "38930833",
+      "36304317",
+      "39579921",
+      "34413388",
+      "36641211",
+      "32339173"
+    ],
+    "review": [
+      "38260441",
+      "30840442",
+      "21947276",
+      "26387105",
+      "31073392",
+      "26320411",
+      "30617833",
+      "35004845",
+      "18078545",
+      "28025526",
+      "22639100"
+    ],
+    "pmc": [
+      "10802334"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38260441/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38260441",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.01.03.573975",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36195115",
+  "title": "Surfactancy in a tadpole model of proteins.",
+  "authors": "Dyer, O T; Ball, R C",
+  "journal": "Journal of the Royal Society, Interface",
+  "published_date": "2022-10-05",
+  "window": {
+    "start": "2022-10-03",
+    "end": "2022-10-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用蝌蚪模型（球状+无序区）通过蒙特卡洛模拟研究IDP介导的相分离与表面活性行为，虽无AI但物理模拟直接建模无序蛋白互作与凝聚体机制，高度契合课题。",
+  "abstract": "We model the environment of eukaryotic nuclei by representing macromolecules by only their entropic properties, with globular molecules represented by spherical colloids and flexible molecules by polymers. We put particular focus on proteins with both globular and intrinsically disordered regions, which we represent with 'tadpole' constructed by grafting single polymers and colloids together. In Monte Carlo simulations, we find these tadpoles support phase separation via depletion flocculation, and demonstrate several surfactant behaviours, including being found preferentially at interfaces and forming micelles in single phase solution. Furthermore, the model parameters can be tuned to give a tadpole a preference for either bulk phase. However, we find entropy too weak to drive these behaviours by itself at likely biological concentrations.",
+  "abstract_zh": "我们通过仅用熵性质来表征大分子，从而模拟真核细胞核的环境，其中球状分子由球形胶体表示，柔性分子由聚合物表示。我们特别关注同时具有球状和内在无序区域的蛋白质，这些蛋白质通过将单个聚合物和胶体接枝在一起构成的“蝌蚪”结构来表示。在蒙特卡洛模拟中，我们发现这些蝌蚪结构通过耗尽絮凝作用支持相分离，并表现出多种表面活性剂行为，包括优先存在于界面以及在单相溶液中形成胶束。此外，模型参数可以调节，使蝌蚪结构偏好于体相中的某一相。然而，我们发现，在可能的生物浓度下，熵本身太弱，不足以驱动这些行为。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36195115/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36195115/",
+  "paper_page_path": "papers/pubmed/36195115/index.html"
+}

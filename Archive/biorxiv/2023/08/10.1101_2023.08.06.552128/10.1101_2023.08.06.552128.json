@@ -1,0 +1,197 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.06.552128",
+  "title": "Conserved molecular recognition by an intrinsically disordered region in the absence of sequence conservation",
+  "doi": "10.1101/2023.08.06.552128",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically disordered regions (IDRs) are critical for cellular function, yet often appear to lack sequence conservation when assessed by multiple sequence alignments. This raises the question of if and how function can be encoded and preserved in these regions despite massive sequence variation. To address this question, we have applied coarse-grained molecular dynamics simulations to investigate non-specific RNA binding of coronavirus nucleocapsid proteins. Coronavirus nucleocapsid proteins consist of multiple interspersed disordered and folded domains that bind RNA. We focussed here on the first two domains of coronavirus nucleocapsid proteins, the disordered N-terminal domain (NTD) followed by the folded RNA binding domain (RBD). While the NTD is highly variable across evolution, the RBD is structurally conserved. This combination makes the NTD-RBD a convenient model system to explore the interplay between an IDR adjacent to a folded domain, and how changes in IDR sequence can influence molecular recognition of a partner. Our results reveal a surprising degree of sequence-specificity encoded by both the composition and the precise order of the amino acids in the NTD. The presence of an NTD can – depending on the sequence – either suppress or enhance RNA binding. Despite this sensitivity, large-scale variation in NTD sequences is possible while certain sequence features are retained. Consequently, a conformationally-conserved fuzzy RNA:protein complex is found across nucleocapsid protein orthologs, despite large-scale changes in both NTD sequence and RBD surface chemistry. Taken together, these insights shed light on the ability of disordered regions to preserve functional characteristics despite their sequence variability.",
+  "authors": [
+    "Alston JJ",
+    "Soranno A",
+    "Holehouse AS"
+  ],
+  "published_date": "2023-08-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.06.552128",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.06.552128.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR703493",
+    "raw_record": {
+      "id": "PPR703493",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR703493"
+        ]
+      },
+      "doi": "10.1101/2023.08.06.552128",
+      "title": "Conserved molecular recognition by an intrinsically disordered region in the absence of sequence conservation",
+      "authorString": "Alston JJ, Soranno A, Holehouse AS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Alston JJ",
+            "lastName": "Alston",
+            "firstName": "Jhullian",
+            "initials": "JJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8227-6892"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO 63110, USA"
+                },
+                {
+                  "affiliation": "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA"
+                },
+                {
+                  "affiliation": "Present Address, Program In Cellular and Molecular Medicine (PCMM), Boston Children’s Hospital, Boston, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Soranno A",
+            "lastName": "Soranno",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8394-7993"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO 63110, USA"
+                },
+                {
+                  "affiliation": "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Holehouse AS",
+            "lastName": "Holehouse",
+            "firstName": "Alex",
+            "initials": "AS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4155-5729"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO 63110, USA"
+                },
+                {
+                  "affiliation": "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8227-6892"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8394-7993"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4155-5729"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Intrinsically disordered regions (IDRs) are critical for cellular function, yet often appear to lack sequence conservation when assessed by multiple sequence alignments. This raises the question of if and how function can be encoded and preserved in these regions despite massive sequence variation. To address this question, we have applied coarse-grained molecular dynamics simulations to investigate non-specific RNA binding of coronavirus nucleocapsid proteins. Coronavirus nucleocapsid proteins consist of multiple interspersed disordered and folded domains that bind RNA. We focussed here on the first two domains of coronavirus nucleocapsid proteins, the disordered N-terminal domain (NTD) followed by the folded RNA binding domain (RBD). While the NTD is highly variable across evolution, the RBD is structurally conserved. This combination makes the NTD-RBD a convenient model system to explore the interplay between an IDR adjacent to a folded domain, and how changes in IDR sequence can influence molecular recognition of a partner. Our results reveal a surprising degree of sequence-specificity encoded by both the composition and the precise order of the amino acids in the NTD. The presence of an NTD can – depending on the sequence – either suppress or enhance RNA binding. Despite this sensitivity, large-scale variation in NTD sequences is possible while certain sequence features are retained. Consequently, a conformationally-conserved fuzzy RNA:protein complex is found across nucleocapsid protein orthologs, despite large-scale changes in both NTD sequence and RBD surface chemistry. Taken together, these insights shed light on the ability of disordered regions to preserve functional characteristics despite their sequence variability.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/07/2023.08.06.552128.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.06.552128"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR703493"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.06.552128"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS184948",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-08-09",
+      "firstPublicationDate": "2023-08-07",
+      "firstIndexDate": "2023-08-09",
+      "fullTextReceivedDate": "2023-09-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.05.07.593052",
+  "title": "Profiling genetically driven alternative splicing across the Indonesian Archipelago",
+  "authors": "Ibeh N; Kusuma P; Crenna Darusallam C; Malik S; Sudoyo H; McCarthy DJ; Romero IG",
+  "journal": "bioRxiv",
+  "published_date": "2024-05-08",
+  "window": {
+    "start": "2024-05-06",
+    "end": "2024-05-12"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究分析印度尼西亚人群的遗传变异与可变剪接，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "One of the regulatory mechanisms influencing the functional capacity of genes is alternative splicing (AS). Previous studies exploring the splicing landscape of human tissues have shown that AS has contributed to human biology, especially in disease progression and the immune response. Nonetheless, this phenomenon remains poorly characterised across human populations, and it is unclear how genetic and environmental variation contribute to alternative splicing. Here, we examine a set of 115 Indonesian samples from three traditional island populations spanning the genetic ancestry cline that characterizes Island Southeast Asia. We conduct a global AS analysis between islands to ascertain the degree of functionally significant AS events and their consequences. Using a hierarchical event-based statistical model, we detected over 1,000 significant differential AS events across all comparisons. Additionally, we identify over 6,000 genetic variants associated with changes in splicing (splicing quantitative trait loci; sQTLs), some of which are driven by Papuan-like genetic ancestry, and only show partial overlap with other publicly available sQTL datasets derived from other populations. Computational predictions of RNA binding activity revealed that a fraction of these sQTLs directly modulate the binding propensity of proteins involved in the splicing regulation of immune genes. Overall, these results contribute towards elucidating the role of genetic variation in shaping gene regulation in one of the most diverse regions in the world.",
+  "abstract_zh": "影响基因功能能力的调控机制之一是选择性剪接（alternative splicing, AS）。先前探索人体组织剪接景观的研究表明，AS对人类生物学有所贡献，尤其是在疾病进展和免疫反应中。然而，这一现象在人类群体中的特征描述仍不充分，且遗传和环境变异如何影响选择性剪接尚不清楚。在此，我们考察了来自三个传统岛屿群体的115个印度尼西亚样本，这些样本跨越了构成岛屿东南亚特征的遗传祖先渐变群。我们在岛屿之间进行了全局AS分析，以确定具有功能显著性的AS事件及其后果的程度。使用基于事件的层次统计模型，我们在所有比较中检测到超过1,000个显著的差异AS事件。此外，我们识别出超过6,000个与剪接变化相关的遗传变异（剪接数量性状位点；sQTLs），其中一些由巴布亚样遗传祖先驱动，并且仅与其他公开可用的来自不同群体的sQTL数据集部分重叠。RNA结合活性的计算预测显示，这些sQTLs中的一部分直接调节参与免疫基因剪接调控的蛋白质的结合倾向。总体而言，这些结果有助于阐明遗传变异在塑造世界最多样化地区之一的基因调控中的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.05.07.593052",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.05.07.593052",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.05.07.593052/index.html"
+}

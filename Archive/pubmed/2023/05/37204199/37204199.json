@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "37204199",
+    "doi": "10.1021/acsnano.3c00001",
+    "title": "Graphene Quantum Dots Modulate Stress Granule Assembly and Prevent Abnormal Phase Transition of Fused in Sarcoma Protein."
+  },
+  "content": {
+    "abstract": "Protein liquid-liquid phase separation (LLPS) plays a crucial role in mediating dynamic assembly of different membraneless organelles such as stress granules (SGs). Dysregulation of dynamic protein LLPS leads to aberrant phase transition and amyloid aggregation which is closely associated with neurodegenerative diseases. In this study, we found that three types of graphene quantum dots (GQDs) exhibit potent activity in preventing SG formation and promoting SG disassembly. We next demonstrate that GQDs can directly interact with the SGs-containing protein fused in sarcoma (FUS), inhibit and reverse FUS LLPS, and prevent its abnormal phase transition. Moreover, GQDs display superior activity in preventing amyloid aggregation of FUS and disaggregating preformed FUS fibrils. Mechanistic study further demonstrates that GQDs with different edge-site exhibit distinct binding affinity to FUS monomers and fibrils, which accounts for their distinct activities in modulating FUS LLPS and fibrillation. Our work reveals the potent capability of GQDs in modulating SG assembly, protein LLPS, and fibrillation and sheds light on rational design of GQDs as effective modulators of protein LLPS for therapeutics application.",
+    "keywords": [
+      "FUS protein",
+      "amyloid fibril",
+      "graphene quantum dots",
+      "liquid-liquid phase separation",
+      "stress granules"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Graphite/pharmacology",
+      "*Quantum Dots",
+      "Stress Granules",
+      "Amyloid",
+      "Amyloidogenic Proteins",
+      "*Sarcoma",
+      "Phase Transition"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Hong",
+        "Gu, Jinge",
+        "Zhang, Yiling",
+        "Guo, Huazhang",
+        "Zhang, Shengnan",
+        "Song, Jie",
+        "Liu, Cong",
+        "Wang, Liang",
+        "Li, Dan",
+        "Dai, Bin"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Gu J",
+        "Zhang Y",
+        "Guo H",
+        "Zhang S",
+        "Song J",
+        "Liu C",
+        "Wang L",
+        "Li D",
+        "Dai B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1051-7196",
+        "ORCID: 0000-0002-4711-6014",
+        "ORCID: 0000-0003-3425-6672",
+        "ORCID: 0000-0002-3771-4627",
+        "ORCID: 0000-0002-2386-4413"
+      ],
+      "affiliations": [
+        "School of Sensing Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 201210, China.",
+        "School of Sensing Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Institute of Nanochemistry and Nanobiology, School of Environmental and Chemical Engineering, Shanghai University, 99 Shangda Road, BaoShan District, Shanghai 200444, P. R. China.",
+        "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 201210, China.",
+        "School of Sensing Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 201210, China.",
+        "Institute of Nanochemistry and Nanobiology, School of Environmental and Chemical Engineering, Shanghai University, 99 Shangda Road, BaoShan District, Shanghai 200444, P. R. China.",
+        "Key Laboratory for the Genetics of Developmental and Neuropsychiatric Disorders (Ministry of Education), Bio-X Institutes, Shanghai Jiao Tong University, Shanghai 200030, China.",
+        "Zhangjiang Institute for Advanced Study, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "WLA Laboratories, World Laureates Association, Shanghai 201203, China.",
+        "School of Sensing Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Hong",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Sensing Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Jinge",
+        "short_name": "Gu J",
+        "identifiers": [],
+        "affiliations": [
+          "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 201210, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yiling",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Sensing Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Huazhang",
+        "short_name": "Guo H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Nanochemistry and Nanobiology, School of Environmental and Chemical Engineering, Shanghai University, 99 Shangda Road, BaoShan District, Shanghai 200444, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shengnan",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0000-0003-1051-7196"
+        ],
+        "affiliations": [
+          "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 201210, China."
+        ]
+      },
+      {
+        "full_name": "Song, Jie",
+        "short_name": "Song J",
+        "identifiers": [
+          "0000-0002-4711-6014"
+        ],
+        "affiliations": [
+          "School of Sensing Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Cong",
+        "short_name": "Liu C",
+        "identifiers": [
+          "0000-0003-3425-6672"
+        ],
+        "affiliations": [
+          "Interdisciplinary Research Center on Biology and Chemistry, Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences, Shanghai 201210, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liang",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0000-0002-3771-4627"
+        ],
+        "affiliations": [
+          "Institute of Nanochemistry and Nanobiology, School of Environmental and Chemical Engineering, Shanghai University, 99 Shangda Road, BaoShan District, Shanghai 200444, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Li, Dan",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory for the Genetics of Developmental and Neuropsychiatric Disorders (Ministry of Education), Bio-X Institutes, Shanghai Jiao Tong University, Shanghai 200030, China.",
+          "Zhangjiang Institute for Advanced Study, Shanghai Jiao Tong University, Shanghai 200240, China.",
+          "WLA Laboratories, World Laureates Association, Shanghai 201203, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Bin",
+        "short_name": "Dai B",
+        "identifiers": [
+          "0000-0002-2386-4413"
+        ],
+        "affiliations": [
+          "School of Sensing Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS nano"
+    ],
+    "journal_abbrev": [
+      "ACS Nano"
+    ],
+    "pub_date": "2023 Jun 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/19 13:05",
+    "fetched_at": "2026-09-20 22:07:46"
+  },
+  "links": {
+    "cites": [
+      "42423438",
+      "42418280",
+      "41817655",
+      "41721403",
+      "41476676",
+      "40585774",
+      "39901566",
+      "39339434",
+      "39289310",
+      "39188348",
+      "38844440",
+      "38728594",
+      "38582774",
+      "38190624",
+      "38173581",
+      "38024319",
+      "37768413"
+    ],
+    "refs": [],
+    "similar": [
+      "37204199",
+      "35943083",
+      "38582774",
+      "33229560",
+      "38632300",
+      "34156864",
+      "32959853",
+      "36453011",
+      "35709363",
+      "32231288",
+      "37906538",
+      "36268634",
+      "34233002",
+      "31805282",
+      "35384603",
+      "35905138",
+      "34431665",
+      "34787417",
+      "37414583",
+      "35858576",
+      "38971830",
+      "39052476",
+      "38447188",
+      "34915152",
+      "33607084",
+      "31022909",
+      "31928729",
+      "30205960",
+      "37230179",
+      "31312493",
+      "35620440",
+      "35694405",
+      "35445401",
+      "36471564",
+      "36835140",
+      "35036880",
+      "34310938",
+      "38597222",
+      "35998851",
+      "35297101",
+      "36606141",
+      "33149109",
+      "28924037",
+      "29244487",
+      "37155880",
+      "33547841",
+      "27746357",
+      "28397888",
+      "35187086",
+      "34624313",
+      "30948513",
+      "29677513",
+      "29610493",
+      "32169484",
+      "33982369",
+      "30587571",
+      "35002600",
+      "37189373",
+      "36682493",
+      "31349528",
+      "38157426",
+      "35911965",
+      "37158592",
+      "30442662",
+      "37130459",
+      "36279435",
+      "29526694",
+      "26515666",
+      "33137626",
+      "39069878",
+      "36843414",
+      "38193795",
+      "33007331",
+      "37751804",
+      "25444610",
+      "37604044",
+      "32124889",
+      "30710821",
+      "37866939",
+      "29988049",
+      "31270472",
+      "37145883",
+      "25216585",
+      "23587065",
+      "37004350",
+      "35640783",
+      "35643291",
+      "38811080",
+      "34878460",
+      "34911929",
+      "29734651",
+      "32712573",
+      "37231298",
+      "32016190",
+      "31971365",
+      "35231447",
+      "34547684",
+      "36806670",
+      "39006762",
+      "27116472",
+      "35549877",
+      "39358890",
+      "32426986",
+      "35657723",
+      "23282851",
+      "38253057",
+      "30502669",
+      "36235307",
+      "36914570",
+      "37238596",
+      "34579885",
+      "28230965",
+      "38394622",
+      "35203243",
+      "38380794",
+      "38147698",
+      "39129227",
+      "35481658",
+      "36762833",
+      "34787433",
+      "36876423",
+      "37156204",
+      "36945688",
+      "39403745",
+      "38117593",
+      "37364418",
+      "37609232",
+      "37790538"
+    ],
+    "review": [
+      "37204199",
+      "36268634",
+      "35905138",
+      "37414583",
+      "31022909",
+      "31928729",
+      "37230179",
+      "35694405",
+      "38597222",
+      "35998851",
+      "35187086",
+      "30948513",
+      "32169484",
+      "30587571",
+      "33007331",
+      "37751804",
+      "37604044",
+      "37866939",
+      "23587065",
+      "37004350",
+      "38811080",
+      "39006762",
+      "37156204"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/softtissuesarcoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Soft Tissue Sarcoma"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37204199",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://pubs.acs.org/ancac3/article-lookup/doi/10.1021/acsnano.3c00001",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

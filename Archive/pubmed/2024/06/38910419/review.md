@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full manuscript, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that rat intestinal fatty acid-binding protein (I-FABP) is a flexible protein containing intrinsically disordered regions, as inferred from replica exchange molecular dynamics simulations, chemical shift calculations, structural property analyses, clustering, and bioinformatics disorder predictions. They suggest that this flexibility and disorder may relate to ligand binding.
+- **Visible evidence base** Abstract text only; no numerical data, simulation parameters, validation metrics, or comparative experimental results are visible
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, convergence criteria, chemical shift calculation methods, bioinformatics tool versions and thresholds, clustering details, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible application of enhanced sampling molecular dynamics and bioinformatics to characterize conformational flexibility and disorder in I-FABP. However, the evidence base is too limited to evaluate the technical rigor or validity of the claims. Key methodological details and quantitative results are absent, and the link between intrinsic disorder and ligand binding is speculative without supporting data.
+- **Who would be interested in the results, and why** Researchers studying fatty acid binding proteins, intestinal physiology, and gastrointestinal injury markers may find the characterization of I-FABP dynamics relevant. Those interested in intrinsic disorder in small globular proteins and in the application of replica exchange molecular dynamics to such systems could also be engaged. The potential functional implication for ligand binding would attract structural biologists, but this requires stronger evidence.
+- **Major strengths** The use of replica exchange molecular dynamics is appropriate for exploring conformational ensembles and disorder, which is a strength given the limitations of conventional simulations. The combination of simulation-derived chemical shifts with experimental comparisons is a sound approach for validating structural models. The focus on intrinsic disorder in a well-studied protein adds a novel angle to existing knowledge.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that I-FABP is a flexible protein with regions demonstrating intrinsic disorder characteristics, based on replica exchange molecular dynamics simulations and bioinformatics.
+  - **Evidence pointer** Abstract, Methods and Results sections; location not provided
+  - **Concern** The abstract does not provide any quantitative results, such as chemical shift deviations, secondary structure populations, radius of gyration values, or end-to-end distance distributions. Without these data, the claim of flexibility and disorder cannot be assessed. Additionally, no details on simulation length, temperature range, force field, or convergence checks are given, which are critical for evaluating the reliability of replica exchange simulations.
+  - **Why it matters** Intrinsic disorder predictions are highly sensitive to simulation methodology and analysis thresholds. The absence of these details prevents verification that the observed flexibility is not an artifact of insufficient sampling or force field bias. The core claim of the study depends on the robustness of these simulations.
+  - **Resolution test** Provide specific numerical values for chemical shift deviations from random coil predictions, secondary structure propensities, and distributions of radius of gyration and end-to-end distance. Include simulation parameters, convergence metrics, and a comparison of calculated versus experimental chemical shifts with error estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the flexibility and intrinsic disorder characteristics of I-FABP may be related to its nature in ligand binding processes.
+  - **Evidence pointer** Abstract, Results and Conclusion; location not provided
+  - **Concern** The abstract provides no direct evidence linking disorder or flexibility to ligand binding. No simulations with ligands, binding free energy calculations, or conformational analyses in the presence of fatty acids are described. The statement is presented as a speculative conclusion without supporting data.
+  - **Why it matters** The functional implication is a key motivation for the study and would elevate its significance. Without evidence, this claim remains unsupported and could mislead readers into overinterpreting the structural findings.
+  - **Resolution test** Include data from ligand-bound simulations or experiments that demonstrate a correlation between disorder or flexibility and binding affinity or mechanism. Alternatively, clearly label this as a hypothesis and remove it from the conclusion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that chemical shift values were calculated and compared to experiments, implying validation of the simulations.
+  - **Evidence pointer** Abstract, Methods; location not provided
+  - **Concern** The abstract does not report the level of agreement between calculated and experimental chemical shifts. No correlation coefficients, root-mean-square deviations, or qualitative comparisons are provided. It is unclear whether the comparison supports or contradicts the simulation results.
+  - **Why it matters** Chemical shift comparison is a standard validation tool, but without quantitative outcomes, the reader cannot judge whether the simulations reproduce experimental observations. This weakens confidence in the structural ensemble.
+  - **Resolution test** Report quantitative agreement metrics, such as correlation coefficients and RMSD values, for Calpha and Halpha chemical shifts, and specify which experimental data were used for comparison.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract, Background; location not provided
+  - **Issue** The background states that conventional methods face challenges in identifying intrinsic disorder but does not explain why this is the case, which may confuse readers unfamiliar with the field.
+  - **Required correction** Add a brief explanation of why conventional simulations and experiments struggle with disorder detection, such as timescale limitations or ensemble averaging.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract, Methods; location not provided
+  - **Issue** The abstract mentions k-means clustering but does not specify what features were clustered or how cluster number was determined.
+  - **Required correction** Clarify the clustering input, such as structural coordinates or contact maps, and state the criterion for selecting the number of clusters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract, Results and Conclusion; location not provided
+  - **Issue** The term "intrinsic disorder characteristics" is used without defining the criteria, such as specific disorder prediction scores or structural metrics, which may be ambiguous across disciplines.
+  - **Required correction** Define the operational criteria for intrinsic disorder, including thresholds from bioinformatics tools or structural measures.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative simulation results and validation metrics means the central claim of flexibility and disorder is not established. The speculative link to ligand binding is unsupported and must be either substantiated or removed.
+- **Assessment against Nature-style criteria** Originality is moderate, as the application of replica exchange molecular dynamics to I-FABP is not entirely novel, though the focus on disorder adds a fresh perspective. Scientific importance is currently limited because the functional implications are speculative and the structural findings are not quantitatively presented. Interdisciplinary readership is possible, but the abstract lacks sufficient detail to engage structural biologists, biophysicists, and clinical researchers simultaneously. Technical soundness cannot be assessed from the abstract alone, and the missing methodological details are a major concern. Readability for nonspecialists is adequate but could be improved with clearer definitions and explanations.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially interesting study, but the lack of quantitative data and unsupported functional claims prevent a positive assessment. The authors should provide the full manuscript with detailed methods and results to allow proper evaluation.
+
+## Risk / unsupported claims
+- The claim that I-FABP is a flexible protein with intrinsic disorder characteristics is unsupported due to the absence of quantitative results and methodological details.
+- The statement that flexibility and disorder may relate to ligand binding is unsupported, as no ligand-related data are presented.
+- The comparison of calculated chemical shifts to experiments is mentioned but not substantiated with any numerical agreement metrics.
+- The use of bioinformatics tools for disorder prediction is stated, but no tool names, scores, or thresholds are provided, making the results unverifiable.

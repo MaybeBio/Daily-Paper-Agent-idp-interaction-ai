@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.27.640667",
+  "title": "CLIMBS: assessing carbohydrate-protein interactions through a graph neural network classifier using synthetic negative data",
+  "authors": "Yijie Luo; Fabio Parmeggiani",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-05",
+  "window": {
+    "start": "2025-03-03",
+    "end": "2025-03-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用图神经网络分类器评估糖-蛋白互作，对象为糖类而非无序蛋白/IDR，且无相分离或PPI机制建模，仅对互作打分，与本课题关联较弱。",
+  "abstract": "Carbohydrate-protein interactions are essential for biological processes, such as cellular signaling and metabolism, and represent a large pool of untapped targets for diagnostics and therapeutics. However, current design and prediction methods fail to accurately evaluate the affinity and specificity of proteins for carbohydrates such as glucose and galactose. Here, we describe a machine learning classifier, named CLIMBS, as a novel scoring method for protein-carbohydrate interactions and train it on crystal structures and synthetic data from unsuccessfully designed binders, to effectively assess if carbohydrate-protein complexes represent realistic, native like structures. Compared to other methods, CLIMBS has outstanding accuracy, excellent carbohydrate specificity, sub-second runtime per sample, minimal bias towards either negative or positive samples, and can be employed to improve selection of successful docking and design models of carbohydrate-protein complexes.",
+  "abstract_zh": "碳水化合物-蛋白质相互作用对细胞信号传导和代谢等生物过程至关重要，并代表了诊断和治疗领域中大量未开发的靶点。然而，当前的设计和预测方法无法准确评估蛋白质对葡萄糖和半乳糖等碳水化合物的亲和力和特异性。在此，我们描述了一种名为CLIMBS的机器学习分类器，作为一种新颖的蛋白质-碳水化合物相互作用评分方法，并利用晶体结构及来自未成功设计结合物的合成数据对其进行训练，以有效评估碳水化合物-蛋白质复合物是否代表真实、类天然的结构。与其他方法相比，CLIMBS具有卓越的准确性、出色的碳水化合物特异性、每样本亚秒级运行时间、对阴性或阳性样本的偏差极小，并可用于改进碳水化合物-蛋白质复合物对接和设计模型的选择。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.27.640667",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.27.640667",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.27.640667/index.html"
+}

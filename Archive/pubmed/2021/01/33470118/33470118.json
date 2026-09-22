@@ -1,0 +1,264 @@
+{
+  "identity": {
+    "pmid": "33470118",
+    "doi": "10.1021/acs.jpcb.0c09476",
+    "title": "Structure and Dynamics of Ribonuclease A during Thermal Unfolding: The Failure of the Zimm Model."
+  },
+  "content": {
+    "abstract": "Disordered regions as found in intrinsically disordered proteins (IDP) or during protein folding define response time to stimuli and protein folding times. Neutron spin-echo spectroscopy is a powerful tool to directly access the collective motions of the unfolded chain to enlighten the physical origin of basic conformational relaxation. During the thermal unfolding of native ribonuclease A, we examine the structure and dynamics of the disordered state within a two-state transition model using polymer models, including internal friction, to describe the chain dynamics. The presence of four disulfide bonds alters the disordered configuration to a more compact configuration compared to a Gaussian chain that is defined by the additional links, as demonstrated by coarse-grained simulation. The dynamics of the disordered chain is described by Zimm dynamics with internal friction (ZIF) between neighboring amino acids. Relaxation times are dominated by mode-independent internal friction. Internal friction relaxation times show an Arrhenius-like behavior with an activation energy of 33 kJ/mol. The Zimm dynamics is dominated by internal friction and suggest that the characteristic motions correspond to overdamped elastic modes similar to the motions observed for folded proteins but within a pool of disordered configurations spanning the configurational space. For IDP, internal friction dominates while solvent friction and hydrodynamic interactions are smaller corrections.",
+    "keywords": [],
+    "mesh_terms": [
+      "Friction",
+      "*Intrinsically Disordered Proteins",
+      "Protein Folding",
+      "*Ribonuclease, Pancreatic",
+      "Ribonucleases"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fischer, Jennifer",
+        "Radulescu, Aurel",
+        "Falus, Peter",
+        "Richter, Dieter",
+        "Biehl, Ralf"
+      ],
+      "short_names": [
+        "Fischer J",
+        "Radulescu A",
+        "Falus P",
+        "Richter D",
+        "Biehl R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1999-547X"
+      ],
+      "affiliations": [
+        "Julich Centre for Neutron Science (JCNS-1) and Institute of Biological Information Processing (IBI-8), Forschungszentrum Julich GmbH, 52425 Julich, Germany.",
+        "Julich Centre for Neutron Science JCNS at Heinz Maier-Leibnitz Zentrum (MLZ), Forschungszentrum Julich, 85748 Garching, Germany.",
+        "Institut Laue-Langevin (ILL), 71 rue des Martyrs, 38042 Grenoble, Cedex 9, France.",
+        "Julich Centre for Neutron Science (JCNS-1) and Institute of Biological Information Processing (IBI-8), Forschungszentrum Julich GmbH, 52425 Julich, Germany.",
+        "Julich Centre for Neutron Science (JCNS-1) and Institute of Biological Information Processing (IBI-8), Forschungszentrum Julich GmbH, 52425 Julich, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fischer, Jennifer",
+        "short_name": "Fischer J",
+        "identifiers": [],
+        "affiliations": [
+          "Jülich Centre for Neutron Science (JCNS-1) and Institute of Biological Information Processing (IBI-8), Forschungszentrum Jülich GmbH, 52425 Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Radulescu, Aurel",
+        "short_name": "Radulescu A",
+        "identifiers": [],
+        "affiliations": [
+          "Jülich Centre for Neutron Science JCNS at Heinz Maier-Leibnitz Zentrum (MLZ), Forschungszentrum Jülich, 85748 Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Falus, Peter",
+        "short_name": "Falus P",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Laue-Langevin (ILL), 71 rue des Martyrs, 38042 Grenoble, Cedex 9, France."
+        ]
+      },
+      {
+        "full_name": "Richter, Dieter",
+        "short_name": "Richter D",
+        "identifiers": [],
+        "affiliations": [
+          "Jülich Centre for Neutron Science (JCNS-1) and Institute of Biological Information Processing (IBI-8), Forschungszentrum Jülich GmbH, 52425 Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Biehl, Ralf",
+        "short_name": "Biehl R",
+        "identifiers": [
+          "0000-0002-1999-547X"
+        ],
+        "affiliations": [
+          "Jülich Centre for Neutron Science (JCNS-1) and Institute of Biological Information Processing (IBI-8), Forschungszentrum Jülich GmbH, 52425 Jülich, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2021 Jan 28",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/01/21 06:00",
+    "fetched_at": "2026-09-20 00:55:26"
+  },
+  "links": {
+    "cites": [
+      "38827957",
+      "37624592",
+      "35805997"
+    ],
+    "refs": [],
+    "similar": [
+      "33470118",
+      "36346711",
+      "24758710",
+      "30277791",
+      "31841337",
+      "32005832",
+      "30092636",
+      "37722680",
+      "28223518",
+      "35068142",
+      "22492978",
+      "29604877",
+      "29688725",
+      "22414068",
+      "35805997",
+      "24844314",
+      "27112095",
+      "23445002",
+      "27145874",
+      "30909517",
+      "29157493",
+      "23129654",
+      "30184304",
+      "38959296",
+      "29981536",
+      "30528464",
+      "38127117",
+      "31743029",
+      "28914483",
+      "12770868",
+      "19020085",
+      "28325911",
+      "24329095",
+      "26195786",
+      "32323533",
+      "29392269",
+      "30002265",
+      "37624592",
+      "28834051",
+      "29716994",
+      "30514761",
+      "10677237",
+      "28942648",
+      "31686511",
+      "30933517",
+      "28970487",
+      "33303822",
+      "8068682",
+      "26947615",
+      "11491298",
+      "8973171",
+      "25387963",
+      "29990433",
+      "29735687",
+      "24044733",
+      "38606880",
+      "9062118",
+      "10600104",
+      "30813315",
+      "31869980",
+      "25774711",
+      "25715079",
+      "10757967",
+      "24918971",
+      "27558720",
+      "31591893",
+      "27936491",
+      "24446368",
+      "30078323",
+      "25194395",
+      "12124256",
+      "31756104",
+      "12770898",
+      "38827957",
+      "15449942",
+      "30520528",
+      "27479029",
+      "19450609",
+      "24986114",
+      "34081479",
+      "19155118",
+      "38375905",
+      "32929427",
+      "11891295",
+      "25721133",
+      "28192291",
+      "9878434",
+      "7664113",
+      "37722681",
+      "8634286",
+      "33454008",
+      "35499345",
+      "12945053",
+      "25631540",
+      "27111521",
+      "31259246",
+      "9047316",
+      "30865832",
+      "37490533",
+      "20954241",
+      "24205975",
+      "32561777",
+      "22984159",
+      "34259278",
+      "38915484",
+      "38577671",
+      "20192781",
+      "19669525",
+      "37513378",
+      "33689339",
+      "33375589",
+      "38189619",
+      "34606257",
+      "24697365",
+      "34070306",
+      "36204277"
+    ],
+    "review": [
+      "33470118",
+      "27145874",
+      "30909517",
+      "29157493",
+      "10757967",
+      "28192291",
+      "25631540"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://scite.ai/reports/33470118",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.0c09476",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

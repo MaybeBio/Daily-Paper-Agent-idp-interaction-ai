@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented evidence. Editorial or formatting issues are noted only where they affect comprehension.
+- **Shared manuscript claim summary** The authors propose that transient non-local intramolecular interactions between disordered regions of the measles virus N TAIL domain dominate its conformational dynamics and regulate the conformational preferences of the molecular recognition element (MoRE), thereby potentially modulating binding to the phosphoprotein X domain (P XD ) and influencing viral transcription and replication.
+- **Visible evidence base** PET experiments on five N TAIL variants under varying salt and pH conditions; CD spectroscopy; coarse-grained and all-atom MD simulations with force field validation; coevolutionary analysis using EVcouplings; comparison of simulation-derived relaxation times to experimental values.
+- **Missing materials affecting confidence** Supplementary figures, tables, and methods referenced throughout (e.g., Supporting Figs. S1–S28, Tables S1–S7, Methods S1–S23) were not provided. Full experimental protocols, raw data, simulation parameter details, and coevolutionary analysis outputs are therefore not independently verifiable.
+
+## Reviewer
+- **Overall assessment** This manuscript presents an integrated experimental and computational study of the conformational dynamics of the intrinsically disordered measles virus N TAIL domain. The combination of PET experiments, coarse-grained and all-atom simulations, and coevolutionary analysis is ambitious and potentially valuable. The central claim, that non-local interactions between regions distant in sequence dominate N TAIL dynamics and may regulate MoRE accessibility, is plausible and of interest to the IDP and virology communities. However, the evidence as presented in the main text is incomplete. The PET data show deviations from homopolymer scaling, and simulations reproduce the qualitative trend, but the causal link between specific non-local interactions and the observed dynamic heterogeneity is inferred rather than directly demonstrated. The coevolutionary analysis is presented as corroborating but the specific results are not shown in the main text. The functional implications for P XD binding and viral replication are speculative, though framed as hypotheses. The manuscript would be strengthened by clearer presentation of the supplementary data and a more direct test of the proposed regulatory mechanism.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those interested in the relationship between sequence, conformational dynamics, and function. The measles virus community and those studying paramyxovirus replication may find the proposed regulatory mechanisms relevant. Methodologically, the combination of PET with multi-scale simulations and coevolutionary analysis could interest biophysicists developing integrated approaches for IDP characterization.
+- **Major strengths** The study addresses a challenging and important question: how do non-local interactions in IDPs influence dynamics and function? The use of PET with minimal perturbation (Trp/Cys pairs) is a thoughtful experimental choice. The multi-scale approach, combining coarse-grained and all-atom simulations with experimental validation, is rigorous in principle. The force field validation against multiple experimental observables (SAXS, CD, NMR) is commendable. The identification of distinct conformational states with different C-W contact propensities provides a concrete mechanistic hypothesis for the observed dynamic heterogeneity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "transient interactions between two disordered regions distant in sequence dominate N TAIL dynamics" is central to the paper.
+  - **Evidence pointer** Results sections "Photo-induced electron transfer reveals the heteropolymeric nature of N TAIL dynamics" and "Non-local N TAIL interactions explain dynamic heterogeneity"; Figures 1, 3, 4.
+  - **Concern** The PET experiments show deviations from homopolymer scaling, and simulations reproduce the trend, but the direct evidence that specific non-local interactions "dominate" the dynamics is not presented. The free energy landscape shows four states, but the relative populations and barriers are derived from simulations that may not fully capture the experimental conditions. The contact maps in Figure 4 are qualitative; no quantitative comparison between the strength of specific non-local interactions and their contribution to the observed relaxation times is provided. The claim of dominance requires a more direct test, such as mutational perturbation of the identified interacting residues followed by PET measurements.
+  - **Why it matters** The central thesis of the paper rests on this claim. Without direct evidence that the identified interactions are necessary and sufficient for the observed dynamic heterogeneity, the conclusion is overstated.
+  - **Resolution test** Provide PET measurements on variants with mutations that disrupt the specific non-local interactions identified in simulations (e.g., in regions B and D/E). If the dynamic heterogeneity is reduced or eliminated, the claim would be substantially strengthened. Alternatively, show that simulations without these interactions fail to reproduce the experimental relaxation times.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and transparency
+  - **Claim pointer** The coevolutionary analysis is stated to "corroborate" the findings and suggest functional importance.
+  - **Evidence pointer** Results section "Functional relevance of non-local interactions is supported by coevolutionary analysis"; Figure S28 (not provided).
+  - **Concern** The coevolutionary analysis is mentioned as supporting evidence, but the specific results are relegated to the supplementary material, which was not provided. The main text states that "most non-local residue pairs with positive EVcouplings scores connect regions B and D" and highlights four pairs, but no scores, statistical significance, or comparison to a null model are presented. The claim of functional importance based on coevolution is therefore not assessable.
+  - **Why it matters** Coevolutionary analysis can be a powerful tool, but its results must be presented with appropriate statistical context. Without this, the claim of functional relevance is unsupported.
+  - **Resolution test** Present the coevolutionary results in the main text or provide the supplementary material for review. Include scores, significance thresholds, and a discussion of potential false positives. Ideally, show that the coevolving pairs are functionally validated by mutagenesis or binding assays.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The proposed mechanisms by which non-local interactions regulate P XD binding and viral replication.
+  - **Evidence pointer** Discussion sections "Identified interactions in the context of N TAIL to P XD binding" and "Potential functional role of N TAIL intramolecular interactions in viral replication"; Figures 5, 6.
+  - **Concern** The discussion proposes two mechanisms for how non-local interactions might regulate P XD binding and extends this to viral replication. These are framed as hypotheses, which is appropriate, but the link between the in vitro dynamics of isolated N TAIL and the complex environment of the viral nucleocapsid is not established. The authors cite previous work on truncated variants and mutations, but no new experimental data are presented to test these mechanisms.
+  - **Why it matters** The title and abstract imply a functional role, but the evidence presented is correlative and speculative. Overstating the functional implications could mislead readers.
+  - **Resolution test** Clearly distinguish between established findings and hypotheses in the abstract and discussion. If possible, perform binding assays with P XD using N TAIL variants that disrupt the identified non-local interactions to test the proposed regulatory mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1D
+  - **Evidence pointer** Results section "Photo-induced electron transfer reveals the heteropolymeric nature of N TAIL dynamics"
+  - **Issue** The figure shows relaxation times as a function of sequence separation, but the error bars and the number of independent measurements are not described in the main text. The text mentions "multiple, independent sample preparations" but does not specify how many or how variability was assessed.
+  - **Required correction** Add a brief description of the number of replicates and the error estimation method in the figure legend or main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "All atom molecular dynamics"
+  - **Evidence pointer** Methods section
+  - **Issue** The methods state that simulations were performed with two force fields and at least three replicas, but the total simulation time per variant is given as "more than 40 µs" without specifying the breakdown per replica or force field. This makes it difficult to assess sampling convergence.
+  - **Required correction** Provide a table or text specifying the simulation length for each replica and force field combination.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of electrostatic effects
+  - **Evidence pointer** Results section "Charged amino acids partially account for N TAIL dynamic heterogeneity"
+  - **Issue** The authors attribute the salt-induced changes in relaxation times to charge patterning, but the CG simulations use a simplified model. The possibility that salt affects other interactions (e.g., hydrophobic) is not discussed.
+  - **Required correction** Add a sentence acknowledging the limitations of the CG model and the potential for other salt-dependent effects.
+- **Technical failings that need to be addressed before the case is established** The primary technical issue is the lack of direct experimental evidence linking the identified non-local interactions to the observed dynamic heterogeneity. The simulations are suggestive but not conclusive. The coevolutionary analysis is not presented in sufficient detail to be evaluated. The functional implications are speculative and should be clearly labeled as such.
+- **Assessment against Nature-style criteria** Originality: The study is original in its specific combination of techniques applied to N TAIL , though the general concept of non-local interactions in IDPs is established. Scientific importance: The findings could be important for understanding IDP dynamics and paramyxovirus replication, but the current evidence does not fully establish the central claim. Interdisciplinary readership: The topic bridges virology, biophysics, and computational biology, and would appeal to a broad audience if the claims are substantiated. Technical soundness: The experimental and computational methods are generally sound, but the link between simulation and experiment needs strengthening. Readability for nonspecialists: The manuscript is generally well-written, but the heavy reliance on supplementary material for key results (e.g., coevolution) makes it difficult for nonspecialists to follow the full argument.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study has potential, but the central claim of dominance of non-local interactions requires more direct evidence. The coevolutionary analysis must be presented in full. The functional implications should be tempered or experimentally tested.
+
+## Risk / unsupported claims
+- The claim that non-local interactions "dominate" N TAIL dynamics is not fully supported by the presented evidence.
+- The coevolutionary analysis is stated to corroborate findings, but the results are not shown in the main text and are not assessable from the provided material.
+- The proposed mechanisms for regulation of P XD binding and viral replication are speculative and not directly tested.
+- The statement that "our findings may be extended to other IDPs" is a generalization not supported by data from other systems.

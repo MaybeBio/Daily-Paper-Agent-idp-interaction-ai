@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35976160",
+  "title": "AlphaFold, Artificial Intelligence (AI), and Allostery.",
+  "authors": "Nussinov, Ruth; Zhang, Mingzhen; Liu, Yonglan; Jang, Hyunbum",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2022-08-18",
+  "window": {
+    "start": "2022-08-15",
+    "end": "2022-08-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文综述了AlphaFold等AI方法在结构生物学中的应用，并指出其无法生成无序蛋白构象系综、无法解析变构机制，虽涉及IDP和PPI但缺乏具体机制建模，对本课题有背景性启发。",
+  "abstract": "AlphaFold has burst into our lives. A powerful algorithm that underscores the strength of biological sequence data and artificial intelligence (AI). AlphaFold has appended projects and research directions. The database it has been creating promises an untold number of applications with vast potential impacts that are still difficult to surmise. AI approaches can revolutionize personalized treatments and usher in better-informed clinical trials. They promise to make giant leaps toward reshaping and revamping drug discovery strategies, selecting and prioritizing combinations of drug targets. Here, we briefly overview AI in structural biology, including in molecular dynamics simulations and prediction of microbiota-human protein-protein interactions. We highlight the advancements accomplished by the deep-learning-powered AlphaFold in protein structure prediction and their powerful impact on the life sciences. At the same time, AlphaFold does not resolve the decades-long protein folding challenge, nor does it identify the folding pathways. The models that AlphaFold provides do not capture conformational mechanisms like frustration and allostery, which are rooted in ensembles, and controlled by their dynamic distributions. Allostery and signaling are properties of populations. AlphaFold also does not generate ensembles of intrinsically disordered proteins and regions, instead describing them by their low structural probabilities. Since AlphaFold generates single ranked structures, rather than conformational ensembles, it cannot elucidate the mechanisms of allosteric activating driver hotspot mutations nor of allosteric drug resistance. However, by capturing key features, deep learning techniques can use the single predicted conformation as the basis for generating a diverse ensemble.",
+  "abstract_zh": "AlphaFold闯入了我们的生活。这是一个强大的算法，凸显了生物序列数据与人工智能（AI）的力量。AlphaFold增添了项目和科研方向。它一直在构建的数据库预示着无数应用的可能性，其潜在影响之广泛，至今仍难以估量。AI方法能够革新个性化治疗，并引领更明智的临床试验。它们有望在重塑和改进药物发现策略、选择和优先排序药物靶点组合方面实现巨大飞跃。在此，我们简要概述了AI在结构生物学中的应用，包括分子动力学模拟和微生物群-人类蛋白质-蛋白质相互作用预测。我们强调了由深度学习驱动的AlphaFold在蛋白质结构预测方面所取得的进展及其对生命科学的强大影响。同时，AlphaFold并未解决长达数十年的蛋白质折叠难题，也未识别折叠路径。AlphaFold提供的模型并未捕捉到诸如挫折和变构等构象机制，这些机制根植于系综，并由其动态分布所控制。变构和信号传导是群体的属性。AlphaFold也未生成固有无序蛋白质和区域的系综，而是通过其低结构概率来描述它们。由于AlphaFold生成的是单一排序结构，而非构象系综，它无法阐明变构激活驱动热点突变或变构耐药性的机制。然而，通过捕捉关键特征，深度学习技术可以利用单一预测构象作为基础，生成多样化的系综。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35976160/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35976160/",
+  "paper_page_path": "papers/pubmed/35976160/index.html"
+}

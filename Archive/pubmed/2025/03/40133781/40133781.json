@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "40133781",
+    "doi": "10.1016/j.jmb.2025.169071",
+    "title": "AIUPred - Binding: Energy Embedding to Identify Disordered Binding Regions."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) play critical roles in various cellular processes, often mediating interactions through disordered binding regions that transition to ordered states. Experimental characterization of these functional regions is highly challenging, underscoring the need for fast and accurate computational tools. Despite their importance, predicting disordered binding regions remains a significant challenge due to limitations in existing datasets and methodologies. In this study, we introduce AIUPred-binding, a novel prediction tool leveraging a high dimensional mathematical representation of structural energies - we call energy embedding - and pathogenicity scores from AlphaMissense. By employing a transfer learning approach, AIUPred-binding demonstrates improved accuracy in identifying functional sites within IDRs. Our results highlight the tool's ability to discern subtle features within disordered regions, addressing biases and other challenges associated with manually curated datasets. We present AIUPred-binding integrated into the AIUPred web framework as a versatile and efficient resource for understanding the functional roles of IDRs. AIUPred-binding is freely accessible at https://aiupred.elte.hu.",
+    "keywords": [
+      "Disorder binding prediction",
+      "Energy embedding",
+      "Functional disorder",
+      "Functional disorder prediction",
+      "Protein disorder"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Binding",
+      "Binding Sites",
+      "*Computational Biology/methods",
+      "*Software",
+      "Humans",
+      "Databases, Protein",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Erdos, Gabor",
+        "Deutsch, Norbert",
+        "Dosztanyi, Zsuzsanna"
+      ],
+      "short_names": [
+        "Erdos G",
+        "Deutsch N",
+        "Dosztanyi Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Eotvos Lorand University, Pazmany Peter stny 1/c, Budapest H-1117, Hungary. Electronic address: gabor.erdos@ttk.elte.hu.",
+        "Department of Biochemistry, Eotvos Lorand University, Pazmany Peter stny 1/c, Budapest H-1117, Hungary.",
+        "Department of Biochemistry, Eotvos Lorand University, Pazmany Peter stny 1/c, Budapest H-1117, Hungary. Electronic address: zsuzsanna.dosztanyi@ttk.elte.hu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Erdős, Gábor",
+        "short_name": "Erdős G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Eötvös Loránd University, Pázmány Péter stny 1/c, Budapest H-1117, Hungary. Electronic address: gabor.erdos@ttk.elte.hu."
+        ]
+      },
+      {
+        "full_name": "Deutsch, Norbert",
+        "short_name": "Deutsch N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Eötvös Loránd University, Pázmány Péter stny 1/c, Budapest H-1117, Hungary."
+        ]
+      },
+      {
+        "full_name": "Dosztányi, Zsuzsanna",
+        "short_name": "Dosztányi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Eötvös Loránd University, Pázmány Péter stny 1/c, Budapest H-1117, Hungary. Electronic address: zsuzsanna.dosztanyi@ttk.elte.hu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2025 Aug 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/26 13:06",
+    "fetched_at": "2026-09-21 17:08:33"
+  },
+  "links": {
+    "cites": [
+      "42473638",
+      "42310761",
+      "42309597",
+      "42288727",
+      "42182343",
+      "42182196",
+      "41883999",
+      "41634870",
+      "41473266",
+      "41279638",
+      "41148656",
+      "41016010",
+      "41008639",
+      "40998749",
+      "40859602",
+      "39763873"
+    ],
+    "refs": [],
+    "similar": [
+      "40133781",
+      "38747347",
+      "40133791",
+      "29076577",
+      "39576583",
+      "25391399",
+      "34048569",
+      "38701796",
+      "40138319",
+      "31207240",
+      "27787828",
+      "29385418",
+      "40221640",
+      "36458437",
+      "26090958",
+      "28934129",
+      "38987470",
+      "30866736",
+      "27179590",
+      "33119751",
+      "39032884",
+      "31441158",
+      "24093637",
+      "38079339",
+      "32535960",
+      "28381244",
+      "31521235",
+      "36272675",
+      "35469832",
+      "40254833",
+      "24573479",
+      "34626492",
+      "35102880",
+      "36908253",
+      "39718444",
+      "33291838",
+      "39446390",
+      "29860432",
+      "38166858",
+      "26109352",
+      "39576585",
+      "36833360",
+      "38866950",
+      "30096183",
+      "34830151",
+      "38812466",
+      "28365882",
+      "30135358",
+      "33567297",
+      "32599863",
+      "33866372",
+      "31889261",
+      "31756456",
+      "24668165",
+      "39246251",
+      "40100159",
+      "34418423",
+      "35275927",
+      "36008992",
+      "40133775",
+      "29595057",
+      "34905768",
+      "28589442",
+      "39576584",
+      "35883444",
+      "34850135",
+      "40347452",
+      "39093570",
+      "32553192",
+      "24532081",
+      "29360926",
+      "33875885",
+      "34480923",
+      "32696395",
+      "33806614",
+      "26287166",
+      "24573480",
+      "23466039",
+      "34290238",
+      "29042212",
+      "32034199",
+      "34521831",
+      "30657889",
+      "26198229",
+      "24027208",
+      "31804089",
+      "40244295",
+      "34864847",
+      "32112084",
+      "27115638",
+      "30324701",
+      "31425549",
+      "35507260",
+      "36315580",
+      "28394890",
+      "38917322",
+      "37892124",
+      "28369666",
+      "32112804",
+      "28098335"
+    ],
+    "review": [
+      "40133781",
+      "31441158",
+      "31521235",
+      "35102880",
+      "33291838",
+      "36833360",
+      "33567297",
+      "34418423",
+      "28589442",
+      "39093570",
+      "24532081",
+      "26287166",
+      "23466039",
+      "32034199",
+      "30657889",
+      "24027208"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(25)00137-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3993",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

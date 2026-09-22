@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "41738539",
+    "doi": "10.1021/acs.nanolett.6c00617",
+    "title": "SimHS-AFMfit-MD: An Integrative Approach for Inferring Alpha-Actinin Atomic Conformational Dynamics."
+  },
+  "content": {
+    "abstract": "Many molecular systems, including intrinsically disordered proteins and flexible multidomain complexes, exhibit significant conformational heterogeneity and flexibility, making them difficult to study with conventional methods like X-ray crystallography or cryo-EM. To address this challenge, we introduce SimHS-AFMfit-MD, an integrative framework combining high-speed atomic force microscopy (HS-AFM), molecular dynamics (MD) simulations, and AFMfit-based structural modeling to infer dynamic protein conformations at atomic resolution. Using alpha-actinin, an actin cross-linking protein, as a model system, we demonstrate that nonlinear normal-mode analysis (AFMfit-NMA) enhances the accuracy of structural fitting. Additionally, guiding AFMfit with MD trajectories (AFMfit-MD) significantly improves fitting performance, aligning closely with unbiased all-atom MD simulations. This method converts thousands of 3D HS-AFM images into atomic-scale conformational ensembles, revealing key transitions between Ca(2+)-bound and Ca(2+)-unbound states of alpha-actinin. Our results showcase a hybrid computational-experimental approach that bridges simulation and imaging approaches, enabling real-time visualization of protein dynamics at the atomic scale.",
+    "keywords": [
+      "AFMfit-MD",
+      "AFMfit-NMA",
+      "Alpha-actinin",
+      "HS-AFM",
+      "MD Simulations",
+      "NMA",
+      "PCA",
+      "SimHS-AFMfit-MD"
+    ],
+    "mesh_terms": [
+      "*Actinin/chemistry/ultrastructure",
+      "*Molecular Dynamics Simulation",
+      "*Microscopy, Atomic Force/methods",
+      "Protein Conformation",
+      "Calcium/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ngo, Kien Xuan",
+        "Sumikama, Takashi",
+        "Vuillemot, Remi",
+        "Nguyen, Han Gia",
+        "Le, Ngan Thi Phuong",
+        "Grudinin, Sergei"
+      ],
+      "short_names": [
+        "Ngo KX",
+        "Sumikama T",
+        "Vuillemot R",
+        "Nguyen HG",
+        "Le NTP",
+        "Grudinin S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9710-5452",
+        "ORCID: 0000-0003-3696-5720",
+        "ORCID: 0000-0001-8974-9365",
+        "ORCID: 0000-0002-1903-7220"
+      ],
+      "affiliations": [
+        "Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa 920-1192, Japan.",
+        "Institute for Interdisciplinary Research in Science and Education (IFIRSE), ICISE, 55121 Quy Nhon, Vietnam.",
+        "Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa 920-1192, Japan.",
+        "Laboratory of Biomolecular Dynamics at Nanoscale, Graduate School of Biostudies, Kyoto University, Yoshida-Konoe-machi, Sakyo-ku, Kyoto 606-8501, Japan.",
+        "Center for Living Systems Information Science (CeLiSIS), Graduate School of Biostudies, Kyoto University, Yoshida-Konoe-machi, Sakyo-ku, Kyoto 606-8501, Japan.",
+        "Univ. Grenoble Alpes, CNRS, Grenoble INP, LJK, 38000 Grenoble, France.",
+        "Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa 920-1192, Japan.",
+        "Center for Bioscience and Biotechnology, University of Science, Ho Chi Minh City 70000, Vietnam.",
+        "Univ. Grenoble Alpes, CNRS, Grenoble INP, LJK, 38000 Grenoble, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ngo, Kien Xuan",
+        "short_name": "Ngo KX",
+        "identifiers": [
+          "0000-0002-9710-5452"
+        ],
+        "affiliations": [
+          "Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa 920-1192, Japan.",
+          "Institute for Interdisciplinary Research in Science and Education (IFIRSE), ICISE, 55121 Quy Nhon, Vietnam."
+        ]
+      },
+      {
+        "full_name": "Sumikama, Takashi",
+        "short_name": "Sumikama T",
+        "identifiers": [
+          "0000-0003-3696-5720"
+        ],
+        "affiliations": [
+          "Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa 920-1192, Japan.",
+          "Laboratory of Biomolecular Dynamics at Nanoscale, Graduate School of Biostudies, Kyoto University, Yoshida-Konoe-machi, Sakyo-ku, Kyoto 606-8501, Japan.",
+          "Center for Living Systems Information Science (CeLiSIS), Graduate School of Biostudies, Kyoto University, Yoshida-Konoe-machi, Sakyo-ku, Kyoto 606-8501, Japan."
+        ]
+      },
+      {
+        "full_name": "Vuillemot, Rémi",
+        "short_name": "Vuillemot R",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Grenoble Alpes, CNRS, Grenoble INP, LJK, 38000 Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Han Gia",
+        "short_name": "Nguyen HG",
+        "identifiers": [
+          "0000-0001-8974-9365"
+        ],
+        "affiliations": [
+          "Nano Life Science Institute (WPI-NanoLSI), Kanazawa University, Kakuma-machi, Kanazawa 920-1192, Japan."
+        ]
+      },
+      {
+        "full_name": "Le, Ngan Thi Phuong",
+        "short_name": "Le NTP",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Bioscience and Biotechnology, University of Science, Ho Chi Minh City 70000, Vietnam."
+        ]
+      },
+      {
+        "full_name": "Grudinin, Sergei",
+        "short_name": "Grudinin S",
+        "identifiers": [
+          "0000-0002-1903-7220"
+        ],
+        "affiliations": [
+          "Univ. Grenoble Alpes, CNRS, Grenoble INP, LJK, 38000 Grenoble, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nano letters"
+    ],
+    "journal_abbrev": [
+      "Nano Lett"
+    ],
+    "pub_date": "2026 Mar 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/25 13:35",
+    "fetched_at": "2026-09-18 01:08:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41023150",
+      "40968093",
+      "39955301",
+      "39695231",
+      "39103492",
+      "39093938",
+      "38810313",
+      "38346243",
+      "38060998",
+      "37268613",
+      "36438663",
+      "36191203",
+      "35446534",
+      "35150654",
+      "35104993",
+      "33820001",
+      "33439619",
+      "33230318",
+      "32848067",
+      "32047754",
+      "31299173",
+      "31281899",
+      "31217444",
+      "30250077",
+      "30236283",
+      "28756276",
+      "28379696",
+      "27801646",
+      "27762277",
+      "27088887",
+      "27028653",
+      "25642645",
+      "25433700",
+      "24627985",
+      "24224850",
+      "22635111",
+      "22034434",
+      "20946985",
+      "20935627",
+      "20934381",
+      "20844487",
+      "19436721",
+      "19158791",
+      "18157545",
+      "16895318",
+      "16683746",
+      "16135566",
+      "15334070",
+      "15050827",
+      "12878726",
+      "12716899",
+      "12198485",
+      "11592975",
+      "11453692",
+      "11287673",
+      "11101506",
+      "8254675",
+      "7858134",
+      "1326084"
+    ],
+    "similar": [
+      "41738539",
+      "41023150",
+      "40968093",
+      "31909999",
+      "41934646",
+      "35573735",
+      "28716648",
+      "35150654",
+      "21471656",
+      "30840442",
+      "36638910",
+      "19754142",
+      "41073429",
+      "42132089",
+      "39319845",
+      "38430110",
+      "39955301",
+      "31472175",
+      "32805119",
+      "30617833",
+      "33030249",
+      "33230318",
+      "41325488",
+      "36580448",
+      "42475469",
+      "41380087",
+      "39651234",
+      "20932910",
+      "30344106",
+      "38907694",
+      "40907012",
+      "42218101",
+      "38018910",
+      "31809054",
+      "34283829",
+      "31793290",
+      "42035258",
+      "35129612",
+      "37108059",
+      "36346589",
+      "36055623",
+      "31279069",
+      "32848067",
+      "38869513",
+      "33778008",
+      "37824013",
+      "23912807",
+      "39273672",
+      "41851975",
+      "41326937",
+      "19436721",
+      "33355572",
+      "33712187",
+      "34834047",
+      "39588651",
+      "30299652",
+      "37075535",
+      "25659594",
+      "34310942",
+      "42322049",
+      "40960922",
+      "33884260",
+      "25935984",
+      "42301231",
+      "34998124",
+      "30617831",
+      "33747706",
+      "19398010",
+      "41666273",
+      "26827207",
+      "11453692",
+      "41557950",
+      "23442921",
+      "24603188",
+      "33842541",
+      "42423892",
+      "39647695",
+      "15050827",
+      "36601807",
+      "34152264",
+      "31254806",
+      "30878202",
+      "17115122",
+      "38396630",
+      "35294442",
+      "15959866",
+      "34422905",
+      "24562857",
+      "32892625",
+      "24937145",
+      "27378818",
+      "29864281",
+      "29204882",
+      "39329418",
+      "41644540",
+      "37451233",
+      "38816696",
+      "21056574",
+      "29023094",
+      "26760898"
+    ],
+    "review": [
+      "41738539",
+      "28716648",
+      "30840442",
+      "30617833",
+      "42218101",
+      "31793290",
+      "35129612",
+      "39273672",
+      "41326937",
+      "33355572",
+      "37075535",
+      "42301231",
+      "34998124",
+      "30617831",
+      "41666273",
+      "31254806",
+      "24937145",
+      "29204882",
+      "39329418"
+    ],
+    "pmc": [
+      "12983359"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41738539/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/nalefd/article-lookup/doi/10.1021/acs.nanolett.6c00617",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

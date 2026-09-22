@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36898349",
+  "title": "Lipid domain boundary triggers membrane damage and protein folding of human islet amyloid polypeptide in the early pathogenesis of amyloid diseases.",
+  "authors": "Lewis, Amber; Pham, Thuong; Nguyen, Ngoc; Graf, Angela; Cheng, Kwan H",
+  "journal": "Biophysical chemistry",
+  "published_date": "2023-03-11",
+  "window": {
+    "start": "2023-03-06",
+    "end": "2023-03-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用粗粒化和全原子MD模拟研究hIAPP寡聚体在相分离脂质纳米域边界的膜损伤与β-折叠形成机制，对象为无序蛋白hIAPP且涉及膜界面互作，但互作对象是脂膜而非蛋白，方法为物理模拟，机制建模有启发但非PPI，故评6分。",
+  "abstract": "The misfolding and self-aggregation of human Islet Amyloid Polypeptide (hIAPP) are linked to the onset of type 2 diabetes (T2D). However, the mechanism of how the disordered hIAPP aggregates trigger membrane damage leading to the loss of Islet cells in T2D is unknown. Using coarse-grained (CG) and all-atom (AA) molecular dynamics simulations, we have investigated the membrane-disruption behaviors of hIAPP oligomers on the phase-separated lipid nanodomains that mimic the highly heterogeneous lipid raft structures of cell membranes. Our results revealed that hIAPP oligomers preferentially bind to the liquid-ordered and liquid-disordered domain boundary around two hydrophobic residues at L16 and I26, and lipid acyl chain order disruption and beta-sheet formation occur upon hIAPP binding to the membrane surface. We propose that the lipid order disruption and surface-induced beta-sheet formation on the lipid domain boundary represent the early molecular events of membrane damage associated with the early pathogenesis of T2D.",
+  "abstract_zh": "人胰岛淀粉样多肽（hIAPP）的错误折叠和自聚集与2型糖尿病（T2D）的发病相关。然而，无序的hIAPP聚集体如何触发膜损伤导致T2D中胰岛细胞丢失的机制尚不清楚。利用粗粒化（CG）和全原子（AA）分子动力学模拟，我们研究了hIAPP寡聚体在模拟细胞膜高度异质性脂筏结构的相分离脂质纳米域上的膜破坏行为。我们的结果显示，hIAPP寡聚体优先结合于L16和I26两个疏水残基附近的液态有序和液态无序域边界，并且在hIAPP结合到膜表面时发生脂质酰基链有序性破坏和β-折叠形成。我们提出，脂质有序性破坏和脂质域边界上的表面诱导β-折叠形成代表了与T2D早期发病相关的膜损伤的早期分子事件。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36898349/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36898349/",
+  "paper_page_path": "papers/pubmed/36898349/index.html"
+}

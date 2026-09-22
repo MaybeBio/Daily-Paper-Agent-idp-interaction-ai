@@ -1,0 +1,245 @@
+{
+  "identity": {
+    "pmid": "39105804",
+    "doi": "10.1021/acs.jpclett.4c01973",
+    "title": "Differential Effects of Sequence-Local versus Nonlocal Charge Patterns on Phase Separation and Conformational Dimensions of Polyampholytes as Model Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Conformational properties of intrinsically disordered proteins (IDPs) are governed by a sequence-ensemble relationship. To differentiate the impact of sequence-local versus sequence-nonlocal features of an IDP's charge pattern on its conformational dimensions and its phase-separation propensity, the charge \"blockiness\" kappa and the nonlocality-weighted sequence charge decoration (SCD) parameters are compared for their correlations with isolated-chain radii of gyration (R(g)s) and upper critical solution temperatures (UCSTs) of polyampholytes modeled by random phase approximation, field-theoretic simulation, and coarse-grained molecular dynamics. SCD is superior to kappa in predicting R(g) because SCD accounts for effects of contact order, i.e., nonlocality, on dimensions of isolated chains. In contrast, kappa and SCD are comparably good, though nonideal, predictors of UCST because frequencies of interchain contacts in the multiple-chain condensed phase are less sensitive to sequence positions than frequencies of intrachain contacts of an isolated chain, as reflected by kappa correlating better with condensed-phase interaction energy than SCD.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*Protein Conformation",
+      "Temperature",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pal, Tanmoy",
+        "Wessen, Jonas",
+        "Das, Suman",
+        "Chan, Hue Sun"
+      ],
+      "short_names": [
+        "Pal T",
+        "Wessen J",
+        "Das S",
+        "Chan HS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2557-8709",
+        "ORCID: 0000-0002-1381-923X"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Department of Chemistry, Gandhi Institute of Technology and Management, Visakhapatnam, Andhra Pradesh 530045, India.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pal, Tanmoy",
+        "short_name": "Pal T",
+        "identifiers": [
+          "0000-0003-2557-8709"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Wessén, Jonas",
+        "short_name": "Wessén J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Das, Suman",
+        "short_name": "Das S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+          "Department of Chemistry, Gandhi Institute of Technology and Management, Visakhapatnam, Andhra Pradesh 530045, India."
+        ]
+      },
+      {
+        "full_name": "Chan, Hue Sun",
+        "short_name": "Chan HS",
+        "identifiers": [
+          "0000-0002-1381-923X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2024 Aug 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/06 12:42",
+    "fetched_at": "2026-09-21 09:23:41"
+  },
+  "links": {
+    "cites": [
+      "41481439",
+      "41118627",
+      "41083871",
+      "40998749",
+      "40727229",
+      "40667294",
+      "40172489",
+      "40131954",
+      "40028898",
+      "39980654",
+      "39804953",
+      "39619250",
+      "39554085",
+      "39504303"
+    ],
+    "refs": [],
+    "similar": [
+      "39105804",
+      "30397688",
+      "32227994",
+      "39225535",
+      "23901099",
+      "36674958",
+      "33684117",
+      "28483149",
+      "39666911",
+      "31375817",
+      "32393642",
+      "30823702",
+      "37222424",
+      "36227468",
+      "32867340",
+      "38112495",
+      "39807013",
+      "30913885",
+      "40095314",
+      "29397728",
+      "32357776",
+      "28805390",
+      "31667345",
+      "30384718",
+      "34598580",
+      "26437245",
+      "30025858",
+      "32639157",
+      "26052838",
+      "36641212",
+      "36343363",
+      "35512095",
+      "39851064",
+      "29926202",
+      "37459524",
+      "30091924",
+      "27440558",
+      "30193467",
+      "25375525",
+      "33076213",
+      "38696815",
+      "39248414",
+      "37936402",
+      "38407041",
+      "30933517",
+      "33934416",
+      "39354680",
+      "39056166",
+      "37442414",
+      "34680048",
+      "37079924",
+      "37905972",
+      "26562397",
+      "33566618",
+      "38165099",
+      "29604827",
+      "38348795",
+      "38657047",
+      "32579908",
+      "34845619",
+      "31021441",
+      "39499823",
+      "38546977",
+      "40072940",
+      "34716273",
+      "31260322",
+      "33139563",
+      "33411518",
+      "26727467",
+      "30968464",
+      "31756104",
+      "29573987",
+      "32696367",
+      "27844185",
+      "33337879",
+      "37645312",
+      "32859072",
+      "30990694",
+      "39412378",
+      "29571687",
+      "35129612",
+      "26387101",
+      "30708285",
+      "34546059",
+      "27936491",
+      "34681718",
+      "32822449",
+      "31756456",
+      "38892222",
+      "39531035",
+      "37990496",
+      "31362509",
+      "25227946",
+      "30873835",
+      "29808548",
+      "24086122",
+      "24671380",
+      "37146977",
+      "40131954",
+      "39977663"
+    ],
+    "review": [
+      "39105804",
+      "32867340",
+      "34680048",
+      "38348795",
+      "31021441",
+      "35129612"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.4c01973",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

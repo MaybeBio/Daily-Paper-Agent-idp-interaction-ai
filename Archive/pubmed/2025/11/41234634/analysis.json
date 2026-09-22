@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41234634",
+  "title": "Inhibition of alpha-synuclein aggregation by hesperidin as a potent anti-amyloidogenic polyphenol: A computational approach and MM-PBSA /ADMET analysis.",
+  "authors": "Waheed, Zainab Abdullah; Aboud, Haider Khabt; Al-Awadi, Jasem Hanoon Hashim; Al-Mousawy, Azhaar Mousa Jaffar; Alzubaidi, Khudhair Rashid Khudhair",
+  "journal": "Biochemistry and biophysics reports",
+  "published_date": "2025-11-14",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用分子对接与MD/MM-PBSA研究黄酮类化合物抑制α-突触核蛋白（IDP）聚集，涉及IDP对象与物理模拟方法，但聚焦小分子抑制剂而非蛋白-蛋白互作机制，故综合评6分。",
+  "abstract": "A significant part of amyloidogenic illnesses is played by protein misfolding and aggregation caused by intrinsically disordered protein (IDP) self-assembly in Parkinson's disease (PD). In PD, cytotoxic amyloid aggregates of aberrant alpha-synuclein (alpha-syn) are formed in motor neurons, causing neurodegeneration. Beta-sheet-rich amyloid aggregates are a promising target for mitigating their neurodegenerative consequences. A significant amount of work has been invested in developing chemical compounds that either prevent aggregates from forming or facilitate their breakdown. Finding them might provide a workable strategy for creating a powerful remedy. Several studies indicate that neurological disorders can be treated using small-molecule inhibitors derived from polyphenolic flavonoid compounds. We have thus identified a potential flavonoid molecule that can effectively inhibit the amyloidogenic activity of alpha-syn through molecular docking and molecular dynamics (MD) simulations. Hesperidin, Morin, and Myricetin were shown to be potential therapeutic leads in the initial screening of flavonoids. Compared to other compounds, the hesperidin-alpha-Syn combination showed a larger residual energy contribution (DeltaE binding -92.69 +/- 0.31 kJ mol(-1)) and significant binding (6.58 kcal/mol). Secondary structural analysis showed an increased tendency for beta-sheets (35 %), with the percentage of beta-sheets decreasing in the presence of Hesperidin (29 %). The results showed that Hesperidin binding resulted in a significant reduction in hydrogen bonding between alpha-syn peptide chains compared to unbound protein. The findings demonstrated that, in contrast to other compounds, Hesperidin alters protein flexibility, hydrophobicity, and structural stability. Therefore, Hesperidin may be a promising treatment option to reduce the negative consequences of PD by efficiently mitigating alpha-syn amyloid-induced neurotoxicity.",
+  "abstract_zh": "淀粉样变性疾病的一个重要部分是由帕金森病（Parkinson's disease, PD）中 intrinsically disordered protein (IDP) 自组装引起的蛋白质错误折叠和聚集所扮演。在PD中，运动神经元内形成异常α-突触核蛋白（alpha-synuclein, alpha-syn）的细胞毒性淀粉样聚集体，导致神经退行性变。富含β-折叠的淀粉样聚集体是减轻其神经退行性后果的有前景靶点。大量工作已投入开发化学化合物，这些化合物要么阻止聚集体形成，要么促进其分解。找到它们可能为创造有效疗法提供可行策略。多项研究表明，源自多酚类黄酮化合物的小分子抑制剂可用于治疗神经系统疾病。因此，我们通过分子对接和分子动力学（molecular dynamics, MD）模拟，识别出一种潜在的黄酮分子，能有效抑制alpha-syn的淀粉样生成活性。在黄酮类化合物的初步筛选中，橙皮苷（Hesperidin）、桑色素（Morin）和杨梅素（Myricetin）被证明是潜在的治疗先导物。与其他化合物相比，橙皮苷-alpha-Syn组合显示出更大的残基能量贡献（DeltaE结合能 -92.69 +/- 0.31 kJ mol(-1)）和显著结合力（6.58 kcal/mol）。二级结构分析显示β-折叠倾向增加（35 %），而在橙皮苷存在下β-折叠百分比降低（29 %）。结果表明，与未结合蛋白相比，橙皮苷结合导致alpha-syn肽链间氢键显著减少。研究结果显示，与其他化合物不同，橙皮苷改变了蛋白质的柔性、疏水性和结构稳定性。因此，橙皮苷可能是一种有前景的治疗选择，通过有效减轻alpha-syn淀粉样诱导的神经毒性来减少PD的负面后果。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41234634/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41234634/",
+  "paper_page_path": "papers/pubmed/41234634/index.html"
+}

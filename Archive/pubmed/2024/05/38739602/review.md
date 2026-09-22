@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the provided text
+- **Shared manuscript claim summary** The authors use AlphaFold2 (AF2) and AlphaFold-Multimer to model the monomer and dimer structures of an intrinsically disordered protein (IDP), Nvjp-1, and use molecular dynamics (MD) simulations to study its conformational ensemble. They report that AF2 models and MD trajectories of Nvjp-1 show high structural heterogeneity, that residue-residue interactions are predominantly transient, and that pLDDT score profiles are highly consistent across models for both disordered and ordered proteins. They propose this as a potential protocol for characterizing IDPs.
+- **Visible evidence base** Abstract, Introduction, Methods (Sections 2.1-2.5), Results and Discussion (Sections 3.1-3.6), Conclusions (Section 4), references to figures and tables (Fig 1-9, Table 1, S1-S7 Figs), and supporting information references
+- **Missing materials affecting confidence** Figures and tables referenced but not provided; supporting information (S1-S7 Figs) not provided; details of AF2 run parameters, MD simulation inputs, and analysis scripts not fully specified; experimental validation data referenced as unpublished not available
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant topic: the application of AlphaFold2 to intrinsically disordered proteins, which is an area of active debate. The authors present a case study of Nvjp-1, an IDP, using AF2 and MD simulations, and propose that structural heterogeneity across AF2 models and MD trajectories, combined with transient residue-residue interactions and consistent pLDDT profiles, can serve as a signature of disorder. The work is potentially useful as a methodological demonstration, but several technical and conceptual issues need to be addressed. The central claims are plausible but not fully established from the provided evidence, particularly due to missing quantitative comparisons, lack of experimental validation, and insufficient discussion of limitations.
+- **Who would be interested in the results, and why** Researchers in computational structural biology, particularly those working on intrinsically disordered proteins, protein structure prediction, and molecular dynamics simulations. The manuscript may also interest developers of structure prediction methods and those studying the limits of AF2 applicability. The proposed protocol for using AF2 ensembles and MD to characterize IDPs could be of practical value to the broader protein science community.
+- **Major strengths** The manuscript addresses an important and timely question about the applicability of AF2 to IDPs. The combination of AF2, AlphaFold-Multimer, and MD simulations is a reasonable approach. The comparison between a disordered protein (Nvjp-1) and an ordered protein (T7RdhA) provides a useful contrast. The use of residue-residue interaction networks to quantify interaction persistence is a potentially informative analysis. The observation that pLDDT profiles are consistent across many AF2 models is an interesting finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "protein conformations from multiple AF2 models and those from MD trajectories exhibit a coherent trend: the conformations of an IDP are deviated from each other and the conformations of a well-folded protein are consistent with each other."
+  - **Evidence pointer** Section 3.1, Fig 1B, Section 3.5, Fig 7A, Table 1
+  - **Concern** The claim of a "coherent trend" is based on mean RMSD values, but the manuscript does not provide a rigorous statistical comparison between the RMSD distributions of Nvjp-1 and T7RdhA. The mean RMSD values (6.5-7 Å for Nvjp-1 vs 0.5 Å for T7RdhA) are reported, but no confidence intervals, statistical tests, or effect sizes are given. Furthermore, the RMSD distributions are not shown, so it is unclear whether they are unimodal, bimodal, or skewed. The comparison between AF2 models and MD trajectories is also not quantified in a way that supports the claim of coherence.
+  - **Why it matters** The central thesis of the manuscript rests on the contrast between disordered and ordered proteins in terms of conformational variability. Without proper statistical analysis, the reader cannot assess whether the observed differences are robust or could arise from sampling artifacts, differences in protein size, or other confounding factors.
+  - **Resolution test** Provide distributions of pairwise RMSD values for both proteins, with appropriate statistical tests (e.g., Mann-Whitney U test or permutation test) comparing the two groups. Report confidence intervals for the mean RMSD values. Additionally, quantify the overlap between the conformational ensembles from AF2 and MD, for example by comparing the RMSD distributions directly or using a metric such as the Jensen-Shannon divergence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the residue-residue interactions in Nvjp-1 are mainly transient; however, those in a well-folded protein are mainly persistent" and use this to support the disorder characterization.
+  - **Evidence pointer** Section 3.3, Fig 3D/3E, Section 3.4, Fig 6, Section 3.6, Fig 8, Table 1
+  - **Concern** The definition of "persistent" and "transient" interactions is based on a threshold of 75% and 25% of models, respectively. However, the manuscript does not justify these thresholds, and the sensitivity of the conclusions to these cutoffs is not explored. Moreover, the comparison between Nvjp-1 and T7RdhA is complicated by the fact that the two proteins have different lengths and amino acid compositions, which could affect the number of possible contacts. The manuscript reports total interaction numbers (e.g., 6847 for dimer vs 3821 for monomer) but does not normalize by protein size or composition. The claim that the dimer has "over four times" the strong interactions of the monomer is presented without statistical context.
+  - **Why it matters** The RIN analysis is a key piece of evidence for the disorder characterization. If the thresholds are arbitrary or the comparison is confounded by protein properties, the conclusion that Nvjp-1 is dominated by transient interactions may not be robust.
+  - **Resolution test** Perform a sensitivity analysis varying the persistence thresholds (e.g., 50%, 60%, 70%, 80%, 90%) and show that the qualitative conclusions hold. Normalize interaction counts by the number of residue pairs or by protein length. Provide statistical comparisons (e.g., bootstrap confidence intervals) for the proportion of persistent vs transient interactions between Nvjp-1 and T7RdhA.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that "these results indicate a potential protocol to justify the IDPs based on multiple AF2 models and MD simulations."
+  - **Evidence pointer** Abstract, Section 4
+  - **Concern** The manuscript does not provide a clear, actionable protocol. The steps are described in general terms, but key parameters are not specified: how many AF2 models are sufficient? What MD simulation length is needed? How should the RMSD and RIN analyses be combined into a decision rule? The manuscript also does not compare the proposed protocol to existing methods for IDP characterization, such as disorder predictors, SAXS, or NMR. Without a benchmark or comparison to established approaches, the practical utility of the proposed protocol is unclear.
+  - **Why it matters** The claim of a "potential protocol" is a key contribution of the work. If the protocol is not clearly defined or validated against existing methods, its scientific impact is limited.
+  - **Resolution test** Provide a step-by-step protocol with specific parameters and thresholds. Validate the protocol on a set of known IDPs and ordered proteins, and compare its performance to existing disorder prediction methods. Discuss the limitations and potential false positives/negatives of the approach.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the pLDDT profiles of both disordered and ordered proteins exhibit highly consistent profiles" across 1000 AF2 models.
+  - **Evidence pointer** Section 3.5, Fig 7B
+  - **Concern** The manuscript reports that pLDDT profiles are consistent, but the quantitative measure of consistency is not provided. It is unclear whether the authors are referring to the mean pLDDT per residue, the standard deviation across models, or some other metric. The figure is not available for inspection. Without a clear metric and statistical analysis, the claim of consistency is not well supported.
+  - **Why it matters** The consistency of pLDDT profiles is presented as a potentially useful feature of proteins. If the consistency is not rigorously quantified, the claim is weakened.
+  - **Resolution test** Report the standard deviation of pLDDT values across models for each residue, and show that these are small relative to the mean. Provide a statistical test comparing the variability of pLDDT profiles between Nvjp-1 and T7RdhA. Show representative pLDDT profiles with error bars or confidence intervals.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The description of the MD simulation setup is dense and lacks some details that would help reproducibility, such as the specific CHARMM36m parameters used, the water model details, and the equilibration protocol.
+  - **Required correction** Provide a more detailed description of the MD simulation parameters, including the specific CHARMM36m settings, the water model, the barostat and thermostat settings, and the equilibration procedure. Consider adding a table summarizing the simulation conditions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The definition of the contact map cutoff (3.5 Å) is given, but it is not clear whether this is the distance between heavy atoms or between Cα atoms. The choice of cutoff can significantly affect the RIN analysis.
+  - **Required correction** Clarify the definition of the distance used for the contact map, and justify the choice of cutoff. Discuss the sensitivity of the results to this parameter.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Section 3.4
+  - **Issue** The manuscript mentions "previous experimental work (Dennis et al., unpublished) observed a potential dimer band from SDS-PAGE" but does not provide any details. This is a key piece of evidence for the biological relevance of the dimer.
+  - **Required correction** Provide more details about the experimental observation, or if it is truly unpublished, consider whether it should be included. If it is essential to the argument, the authors should provide the data or a more detailed description.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 3.5
+  - **Evidence pointer** Section 3.5
+  - **Issue** The comparison between Nvjp-1 and T7RdhA is introduced abruptly. The reader is not told why T7RdhA was chosen as the ordered protein control.
+  - **Required correction** Briefly explain the choice of T7RdhA as a control, and mention its structural characteristics (e.g., size, fold) that make it a suitable comparison.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.6
+  - **Evidence pointer** Section 3.6
+  - **Issue** The statement that "all AF2 models have been 'relaxed' using energy minimizations" is unclear. AF2 does not typically perform energy minimization as part of its standard pipeline.
+  - **Required correction** Clarify what is meant by "relaxed." If energy minimization was performed, describe the protocol. If not, correct the statement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical rigor in RMSD comparisons), R1-M2 (arbitrary thresholds and lack of normalization in RIN analysis), R1-M3 (protocol not clearly defined or validated)
+
+## Risk / unsupported claims
+- The claim that the proposed approach constitutes a "potential protocol to justify the IDPs" is not fully supported, as the protocol is not clearly defined or benchmarked against existing methods.
+- The claim that pLDDT profiles are "highly consistent" is not quantitatively supported with the provided evidence.
+- The claim that the dimer is "relatively rigid" compared to the monomer is based on Rgyr fluctuations, but the statistical significance of this difference is not reported.
+- The biological relevance of the dimer is supported only by an unpublished experimental observation, which is not available for assessment.
+- The comparison between AF2 models and MD trajectories is described as "coherent," but no quantitative measure of coherence is provided.
+- The statement that "intrinsically disordered proteins do not appear by chance" is an overreach from the data presented, as the authors do not provide a statistical or evolutionary analysis to support this claim.

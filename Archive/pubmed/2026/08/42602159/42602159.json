@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "42602159",
+    "doi": "10.3389/fnmol.2026.1875988",
+    "title": "Dynamic structural profiling of PINK1 mutations (T313M and L347P) reveals a vital molecular perturbation namely phospho-Serine 65 ubiquitin recognition point in mitophagy mediated autosomal recessive Parkinson's disease (ARPD)."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Autosomal recessive Parkinson's disease (ARPD) arises from impaired mitophagy due to dysfunction of the PINK1/Parkin pathway, where PINK1-mediated phosphorylation of ubiquitin at Ser65 is essential for pathway activation. However, experimental limitations obscure the effects of disease-associated mutations on intrinsically disordered regions (IDRs) and post-translational modification (PTM) dynamics. METHODS: An integrated computational pipeline was employed to screen 825 PINK1 missense variants, identifying two high-confidence deleterious mutations, T313M and L347P, within the kinase domain. Variant prioritization was complemented by conserved residue, IDR, and PTM analyses, followed by protein-protein docking, molecular dynamics simulations, MM/PBSA binding free-energy calculations, principal component analysis (PCA), and dynamic cross-correlation matrix (DCCM) analysis. RESULTS: T313M overlapped a conserved phosphorylation site, whereas L347P mapped to conserved active-site residues, with complementary support from IDR analysis. Docking analysis revealed a progressive reduction in binding affinity from the wild type (-88.4 +/- 8.2) to L347P (-81.9 +/- 3.4) and T313M (-77.4 +/- 4.9), accompanied by decreased electrostatic stabilization (-357.6 --> -260.6 --> -235.5 kcal/mol) and buried surface area (1741.6 --> 1624.1 --> 1547.4 A(2)). Molecular dynamics simulations demonstrated that T313M produced the greatest structural and dynamic perturbations, whereas L347P induced moderate destabilization with increased solvent exposure. Although MM/PBSA analysis indicated broadly comparable binding energetics across all systems, PCA and DCCM analyses revealed increased conformational flexibility and altered residue communication in the mutant complexes, particularly T313M. DISCUSSION: These findings establish a mechanistic link between mutation-induced structural dynamics and impaired PINK1-ubiquitin recognition at Ser65, providing a mutation-specific framework for understanding early mitophagy impairment in ARPD and supporting future molecular assessment and targeted therapeutic development.",
+    "keywords": [
+      "IDR",
+      "PINK1",
+      "PTM",
+      "SNP",
+      "autosomal recessive Parkinson's disease (ARPD)",
+      "mitophagy",
+      "molecular dynamics",
+      "ubiquitin phosphorylation (Ser65)"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vincent, Deborah",
+        "Sudandiradoss, C"
+      ],
+      "short_names": [
+        "Vincent D",
+        "Sudandiradoss C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India.",
+        "Department of Biotechnology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vincent, Deborah",
+        "short_name": "Vincent D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Sudandiradoss, C",
+        "short_name": "Sudandiradoss C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, School of Bio Sciences and Technology, Vellore Institute of Technology, Vellore, Tamil Nadu, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular neuroscience"
+    ],
+    "journal_abbrev": [
+      "Front Mol Neurosci"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/15 13:47",
+    "fetched_at": "2026-09-18 05:36:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41451346",
+      "41253044",
+      "40940662",
+      "40930474",
+      "39973502",
+      "38886530",
+      "38605029",
+      "38241364",
+      "37951933",
+      "37853543",
+      "37248632",
+      "36319596",
+      "35795234",
+      "34933320",
+      "34707284",
+      "33751372",
+      "31254044",
+      "31114880",
+      "30995449",
+      "30404819",
+      "30028088",
+      "29991771",
+      "29255601",
+      "29133469",
+      "28980524",
+      "27682200",
+      "26274610",
+      "25514926",
+      "24944636",
+      "24751536",
+      "24660806",
+      "24082145",
+      "23832629",
+      "23819482",
+      "23315928",
+      "22689647",
+      "22645651",
+      "22280891",
+      "22132220",
+      "21919503",
+      "19966284",
+      "18687899",
+      "18359116",
+      "17055324",
+      "17030667",
+      "16845001",
+      "16818890",
+      "15980472",
+      "15824318",
+      "15087508",
+      "14960716",
+      "10600390",
+      "9560156"
+    ],
+    "similar": [
+      "42602159",
+      "26116755",
+      "41164908",
+      "30404819",
+      "36623675",
+      "28438176",
+      "24660806",
+      "32157382",
+      "42368330",
+      "25375667",
+      "29475881",
+      "26740872",
+      "35042401",
+      "23256036",
+      "22724072",
+      "42376479",
+      "36469690",
+      "30629163",
+      "36039535",
+      "42196261",
+      "27807026",
+      "28007983",
+      "41554453",
+      "35491809",
+      "37865376",
+      "41713229",
+      "42261169",
+      "40020794",
+      "31344817",
+      "40914318",
+      "26471730",
+      "25716315",
+      "29160309",
+      "26161729",
+      "34933320",
+      "29530980",
+      "34127073",
+      "38273330",
+      "39159312",
+      "39775383",
+      "22645651",
+      "42543341",
+      "27456084",
+      "30945962",
+      "24878071",
+      "39498560",
+      "41539633",
+      "29133469",
+      "41387651",
+      "23212910",
+      "42295684",
+      "41997861",
+      "23459931",
+      "39973502",
+      "24647965",
+      "33029617",
+      "25591737",
+      "25995186",
+      "42010146",
+      "29995846",
+      "25412178",
+      "42196567",
+      "32484300",
+      "35725015",
+      "29290944",
+      "32138754",
+      "25527497",
+      "35699891",
+      "18359116",
+      "41368810",
+      "25849928",
+      "30238821",
+      "19880420",
+      "26162776",
+      "29166608",
+      "26882551",
+      "42292664",
+      "17030667",
+      "29364151",
+      "42011130",
+      "17906618",
+      "27334109",
+      "41814823",
+      "27251035",
+      "42601490",
+      "42419125",
+      "16401616",
+      "40624741",
+      "38416681",
+      "28541509",
+      "33990932",
+      "30995519",
+      "38500318",
+      "42422113",
+      "28768533",
+      "24677602",
+      "23912807",
+      "24901221",
+      "38586902",
+      "20164189"
+    ],
+    "review": [
+      "42602159",
+      "32157382",
+      "42368330",
+      "26740872",
+      "27807026",
+      "41997861",
+      "39973502",
+      "25995186",
+      "35699891",
+      "41368810",
+      "25849928",
+      "30238821",
+      "26882551",
+      "29364151",
+      "27251035",
+      "42601490",
+      "30995519"
+    ],
+    "pmc": [
+      "13473279"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42602159/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fnmol.2026.1875988",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

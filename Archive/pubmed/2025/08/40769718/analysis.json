@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40769718",
+  "title": "Caenorhabditis elegans FBF-1 and FBF-2 C-terminal intrinsically disordered regions differentially regulate RNA-binding affinity.",
+  "authors": "Hawthorne, Hope R; Qiu, Chen; Tanaka Hall, Traci M",
+  "journal": "RNA (New York, N.Y.)",
+  "published_date": "2025-08-07",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究线虫PUF蛋白FBF-1/2的C端无序区对RNA结合亲和力的差异调控，涉及IDR介导的自抑制互作机制，但对象为RNA结合而非蛋白-蛋白互作，且方法以实验为主，缺乏AI/物理模拟建模。",
+  "abstract": "PUF proteins (named for Drosophila melanogaster Pumilio and Caenorhabditis elegans fem-3 mRNA binding factor or FBF) are a family of RNA-binding proteins. C. elegans FBF is a collective term for two PUF proteins, FBF-1 and FBF-2, that maintain germline stem cells. FBF binds the 3'UTR of target RNAs and together with partner proteins represses translation of mRNAs that promote differentiation. Until recently, little was known about the functions of the FBF C-terminal intrinsically disordered regions that follow the RNA-binding domain (RBD). Despite high overall protein sequence conservation (91% identical residues), the FBF-1 and FBF-2 C-terminal tails (CTs) are distinct, and the FBF-2 CT is essential for its function. The FBF-2 CT contains a PUF-interacting motif (PIM) that binds its own RBD and autoinhibits RNA-binding affinity. Here we investigated whether differences in the FBF-1 and FBF-2 CTs impact molecular function. Unlike FBF-2, the FBF-1 CT had no impact on RNA binding. Despite this, a crystal structure of FBF-1 demonstrated that a PIM in the FBF-1 CT binds to its RBD, like FBF-2. By creating FBF-1/FBF-2 chimeric proteins, we discovered that the FBF-2 CT can autoinhibit FBF-1 RNA binding, and substitution of the FBF-1 PIM for the FBF-2 PIM diminished FBF-2 autoinhibition. Our results exemplify how RBP paralogs diverge to fine-tune their RNA-binding activities.",
+  "abstract_zh": "PUF蛋白（以黑腹果蝇Pumilio和秀丽隐杆线虫fem-3 mRNA结合因子或FBF命名）是一个RNA结合蛋白家族。线虫FBF是两种PUF蛋白FBF-1和FBF-2的统称，它们维持生殖系干细胞。FBF结合靶RNA的3'UTR，并与伴侣蛋白一起抑制促进分化的mRNA的翻译。直到最近，关于FBF C端内在无序区域（位于RNA结合域（RBD）之后）的功能知之甚少。尽管整体蛋白序列高度保守（91%的残基相同），FBF-1和FBF-2的C端尾部（CTs）却截然不同，且FBF-2的CT对其功能至关重要。FBF-2的CT包含一个PUF相互作用基序（PIM），该基序结合其自身的RBD并自动抑制RNA结合亲和力。在此，我们研究了FBF-1和FBF-2 CT的差异是否影响分子功能。与FBF-2不同，FBF-1的CT对RNA结合无影响。尽管如此，FBF-1的晶体结构表明，FBF-1 CT中的PIM与其RBD结合，类似于FBF-2。通过创建FBF-1/FBF-2嵌合蛋白，我们发现FBF-2的CT可以自动抑制FBF-1的RNA结合，而将FBF-1的PIM替换为FBF-2的PIM则减弱了FBF-2的自动抑制。我们的结果例证了RBP旁系同源物如何分化以微调其RNA结合活性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40769718/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40769718/",
+  "paper_page_path": "papers/pubmed/40769718/index.html"
+}

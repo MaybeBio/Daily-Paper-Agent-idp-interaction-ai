@@ -1,0 +1,516 @@
+{
+  "identity": {
+    "pmid": "37207626",
+    "doi": "10.1016/j.molcel.2023.04.019",
+    "title": "PERIOD phosphorylation leads to feedback inhibition of CK1 activity to control circadian period."
+  },
+  "content": {
+    "abstract": "PERIOD (PER) and Casein Kinase 1delta regulate circadian rhythms through a phosphoswitch that controls PER stability and repressive activity in the molecular clock. CK1delta phosphorylation of the familial advanced sleep phase (FASP) serine cluster embedded within the Casein Kinase 1 binding domain (CK1BD) of mammalian PER1/2 inhibits its activity on phosphodegrons to stabilize PER and extend circadian period. Here, we show that the phosphorylated FASP region (pFASP) of PER2 directly interacts with and inhibits CK1delta. Co-crystal structures in conjunction with molecular dynamics simulations reveal how pFASP phosphoserines dock into conserved anion binding sites near the active site of CK1delta. Limiting phosphorylation of the FASP serine cluster reduces product inhibition, decreasing PER2 stability and shortening circadian period in human cells. We found that Drosophila PER also regulates CK1delta via feedback inhibition through the phosphorylated PER-Short domain, revealing a conserved mechanism by which PER phosphorylation near the CK1BD regulates CK1 kinase activity.",
+    "keywords": [
+      "circadian rhythms",
+      "kinase",
+      "product inhibition, intrinsically disordered protein"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Phosphorylation",
+      "Feedback",
+      "*Period Circadian Proteins/genetics/metabolism",
+      "Casein Kinase I/genetics/metabolism",
+      "Circadian Rhythm/genetics",
+      "Drosophila/metabolism",
+      "Serine/metabolism",
+      "*Circadian Clocks",
+      "Mammals/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Philpott, Jonathan M",
+        "Freeberg, Alfred M",
+        "Park, Jiyoung",
+        "Lee, Kwangjun",
+        "Ricci, Clarisse G",
+        "Hunt, Sabrina R",
+        "Narasimamurthy, Rajesh",
+        "Segal, David H",
+        "Robles, Rafael",
+        "Cai, Yao",
+        "Tripathi, Sarvind",
+        "McCammon, J Andrew",
+        "Virshup, David M",
+        "Chiu, Joanna C",
+        "Lee, Choogon",
+        "Partch, Carrie L"
+      ],
+      "short_names": [
+        "Philpott JM",
+        "Freeberg AM",
+        "Park J",
+        "Lee K",
+        "Ricci CG",
+        "Hunt SR",
+        "Narasimamurthy R",
+        "Segal DH",
+        "Robles R",
+        "Cai Y",
+        "Tripathi S",
+        "McCammon JA",
+        "Virshup DM",
+        "Chiu JC",
+        "Lee C",
+        "Partch CL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA.",
+        "Department of Biomedical Sciences, College of Medicine, Florida State University, Tallahassee, FL 32306, USA.",
+        "Department of Biomedical Sciences, College of Medicine, Florida State University, Tallahassee, FL 32306, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA.",
+        "Program in Cancer and Stem Cell Biology, Duke-NUS Medical School, Singapore 169857, Singapore.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA.",
+        "Department of Entomology and Nematology, University of California, Davis, Davis, CA 95616, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA; Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Program in Cancer and Stem Cell Biology, Duke-NUS Medical School, Singapore 169857, Singapore; Department of Pediatrics, Duke University Medical Center, Durham, NC 27710, USA.",
+        "Department of Entomology and Nematology, University of California, Davis, Davis, CA 95616, USA.",
+        "Department of Biomedical Sciences, College of Medicine, Florida State University, Tallahassee, FL 32306, USA. Electronic address: choogon.lee@med.fsu.edu.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA; Center for Circadian Biology, University of California, San Diego, La Jolla, CA 92093, USA. Electronic address: cpartch@ucsc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Philpott, Jonathan M",
+        "short_name": "Philpott JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA."
+        ]
+      },
+      {
+        "full_name": "Freeberg, Alfred M",
+        "short_name": "Freeberg AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA."
+        ]
+      },
+      {
+        "full_name": "Park, Jiyoung",
+        "short_name": "Park J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Medicine, Florida State University, Tallahassee, FL 32306, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Kwangjun",
+        "short_name": "Lee K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Medicine, Florida State University, Tallahassee, FL 32306, USA."
+        ]
+      },
+      {
+        "full_name": "Ricci, Clarisse G",
+        "short_name": "Ricci CG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Hunt, Sabrina R",
+        "short_name": "Hunt SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA."
+        ]
+      },
+      {
+        "full_name": "Narasimamurthy, Rajesh",
+        "short_name": "Narasimamurthy R",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Cancer and Stem Cell Biology, Duke-NUS Medical School, Singapore 169857, Singapore."
+        ]
+      },
+      {
+        "full_name": "Segal, David H",
+        "short_name": "Segal DH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA."
+        ]
+      },
+      {
+        "full_name": "Robles, Rafael",
+        "short_name": "Robles R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA."
+        ]
+      },
+      {
+        "full_name": "Cai, Yao",
+        "short_name": "Cai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Entomology and Nematology, University of California, Davis, Davis, CA 95616, USA."
+        ]
+      },
+      {
+        "full_name": "Tripathi, Sarvind",
+        "short_name": "Tripathi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA."
+        ]
+      },
+      {
+        "full_name": "McCammon, J Andrew",
+        "short_name": "McCammon JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA; Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Virshup, David M",
+        "short_name": "Virshup DM",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Cancer and Stem Cell Biology, Duke-NUS Medical School, Singapore 169857, Singapore; Department of Pediatrics, Duke University Medical Center, Durham, NC 27710, USA."
+        ]
+      },
+      {
+        "full_name": "Chiu, Joanna C",
+        "short_name": "Chiu JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Entomology and Nematology, University of California, Davis, Davis, CA 95616, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Choogon",
+        "short_name": "Lee C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Medicine, Florida State University, Tallahassee, FL 32306, USA. Electronic address: choogon.lee@med.fsu.edu."
+        ]
+      },
+      {
+        "full_name": "Partch, Carrie L",
+        "short_name": "Partch CL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Cruz, Santa Cruz, CA 95064, USA; Center for Circadian Biology, University of California, San Diego, La Jolla, CA 92093, USA. Electronic address: cpartch@ucsc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2023 May 18",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/20 09:42",
+    "fetched_at": "2026-09-20 22:07:46"
+  },
+  "links": {
+    "cites": [
+      "42412914",
+      "42290481",
+      "42146580",
+      "42135507",
+      "42100920",
+      "41811452",
+      "41662576",
+      "41659457",
+      "41451215",
+      "41354344",
+      "41343298",
+      "41116062",
+      "41116061",
+      "40968534",
+      "40854106",
+      "40326518",
+      "40149680",
+      "39952882",
+      "39896482",
+      "39842483",
+      "39696884",
+      "39612374",
+      "39356670",
+      "39226374",
+      "39131317",
+      "38805270",
+      "38777144",
+      "38766223",
+      "38728403",
+      "38473819",
+      "38335957",
+      "38091925",
+      "37924861",
+      "37777570"
+    ],
+    "refs": [
+      "35810166",
+      "35696590",
+      "35353987",
+      "35217617",
+      "33443219",
+      "33106420",
+      "32934011",
+      "32719556",
+      "32369735",
+      "32354999",
+      "32043967",
+      "31554810",
+      "30769795",
+      "30670765",
+      "29784789",
+      "29784786",
+      "29611807",
+      "28886336",
+      "28886335",
+      "28143926",
+      "27990019",
+      "27688755",
+      "26617050",
+      "26574453",
+      "26431025",
+      "26300708",
+      "25727665",
+      "25514926",
+      "24985607",
+      "23395175",
+      "23171049",
+      "22936566",
+      "22849821",
+      "22069332",
+      "21930935",
+      "21821126",
+      "21712997",
+      "21514639",
+      "21460441",
+      "21199878",
+      "20861372",
+      "20383002",
+      "19917250",
+      "19805222",
+      "19461840",
+      "19139270",
+      "18782782",
+      "18666831",
+      "18593878",
+      "17876059",
+      "17452453",
+      "17452449",
+      "17218255",
+      "16983144",
+      "16980584",
+      "16818876",
+      "16813562",
+      "15815974",
+      "15800623",
+      "15767683",
+      "15350212",
+      "14980226",
+      "14701732",
+      "12925738",
+      "12820959",
+      "11779462",
+      "11232563",
+      "11084344",
+      "10775102",
+      "10550049",
+      "10024467",
+      "9632646",
+      "9430669",
+      "8648628",
+      "8520220",
+      "7665585",
+      "5002428",
+      "2117608",
+      "1995625",
+      "1634995",
+      "1524831"
+    ],
+    "similar": [
+      "37207626",
+      "38777144",
+      "32043967",
+      "29784789",
+      "28545154",
+      "33545069",
+      "21324900",
+      "32354999",
+      "35810166",
+      "24682205",
+      "39356670",
+      "31392916",
+      "35217617",
+      "31554810",
+      "21930935",
+      "38526948",
+      "40968534",
+      "26431025",
+      "20696890",
+      "30373768",
+      "33443219",
+      "34182774",
+      "41116062",
+      "29611807",
+      "30769795",
+      "17218251",
+      "24872414",
+      "23349822",
+      "38805270",
+      "36724252",
+      "26903623",
+      "31353796",
+      "22832921",
+      "25994100",
+      "18419299",
+      "19414593",
+      "26141234",
+      "34301769",
+      "19948962",
+      "31687929",
+      "16603629",
+      "35720131",
+      "26711257",
+      "31097584",
+      "25866393",
+      "31529098",
+      "33917494",
+      "29038116",
+      "35443162",
+      "38127982",
+      "25245819",
+      "39630861",
+      "24127907",
+      "29784786",
+      "25288642",
+      "39131317",
+      "37856540",
+      "21179498",
+      "34234015",
+      "25238854",
+      "18419274",
+      "31710605",
+      "39896482",
+      "27879317",
+      "25201053",
+      "32369735",
+      "27374340",
+      "16319317",
+      "22701739",
+      "23936135",
+      "41129636",
+      "35881801",
+      "41186576",
+      "21712997",
+      "19491384",
+      "35227001",
+      "17218255",
+      "20861372",
+      "29227248",
+      "30516472",
+      "24086144",
+      "21261401",
+      "17012288",
+      "25724980",
+      "32305463",
+      "16818876",
+      "21300798",
+      "18419275",
+      "18258753",
+      "34895464",
+      "21514639",
+      "28886335",
+      "30898060",
+      "33491228",
+      "25724478",
+      "22080784",
+      "34257372",
+      "33217322",
+      "22274616",
+      "24449901"
+    ],
+    "review": [
+      "37207626",
+      "33545069",
+      "18419299",
+      "35720131",
+      "29038116",
+      "18419274",
+      "17012288",
+      "32305463"
+    ],
+    "pmc": [
+      "11684667"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(23)00290-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=37207626",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37207626/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CHKA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt3250r6sc",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

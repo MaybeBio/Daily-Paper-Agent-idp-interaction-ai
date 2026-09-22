@@ -1,0 +1,241 @@
+{
+  "identity": {
+    "pmid": "42140310",
+    "doi": "10.1016/j.jmb.2026.169862",
+    "title": "Ensemblify: A User-friendly Platform for Generating and Analyzing Conformational Ensembles of Intrinsically Disordered Proteins and Regions."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) and regions (IDRs) challenge structural characterization due to their dynamic conformational ensembles. Existing computational approaches for modeling these ensembles are often computationally expensive, inflexible, or inaccessible to non-experts, particularly for multi-domain or multi-chain proteins. We present Ensemblify, an open-source, user-friendly Python package for generating and analyzing conformational ensembles of IDPs/IDRs. Ensemblify uses a Monte Carlo algorithm coupled with neighbor-aware sampling of dihedral angles from curated or user-defined fragment libraries to explore conformational space. Optionally, it can incorporate information from AlphaFold's confidence metrics as flexible energy restraints in PyRosetta to guide sampling. Ensemblify supports multi-domain and multi-chain proteins and can sample N-terminal, C-terminal, and inter-domain linkers while preserving folded regions. Ensemble quality can be validated and refined against experimental data such as SAXS via Bayesian/Maximum Entropy reweighting. Interactive dashboards provide in-depth structural analysis and comparison. Testing across ten structurally diverse proteins coupled with state-of-the-art benchmarking demonstrated Ensemblify's accuracy, flexibility, and ability to recover experimentally observed structural features. Incorporating AlphaFold confidence metrics shows potential to improve the ensemble-data agreement. Ensemblify is freely available at https://github.com/CordeiroLab/ensemblify, along with installation and usage tutorials. Ensemblify can be used for scripting through its Python API or directly through the provided command-line interface (CLI). Complete documentation is available within the source-code and CLI and on Ensemblify's official documentation page (https://ensemblify.readthedocs.io).",
+    "keywords": [
+      "AlphaFold-based sampling",
+      "Rosetta/PyRosetta",
+      "integrative structural biology",
+      "intrinsically disordered proteins and regions (IDPs/IDRs)",
+      "structural database sampling"
+    ],
+    "mesh_terms": [
+      "Protein Conformation",
+      "*Software",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Algorithms",
+      "Monte Carlo Method",
+      "*Computational Biology/methods",
+      "Models, Molecular",
+      "Bayes Theorem"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fernandes, Nuno P",
+        "Gomes, Tiago",
+        "Cordeiro, Tiago N"
+      ],
+      "short_names": [
+        "Fernandes NP",
+        "Gomes T",
+        "Cordeiro TN"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Instituto de Tecnologia Quimica e Biologica Antonio Xavier, Universidade Nova de Lisboa, Av. da Republica, 2780-157 Oeiras Portugal.",
+        "Instituto de Tecnologia Quimica e Biologica Antonio Xavier, Universidade Nova de Lisboa, Av. da Republica, 2780-157 Oeiras Portugal. Electronic address: tiago.gomes@itqb.unl.pt.",
+        "Instituto de Tecnologia Quimica e Biologica Antonio Xavier, Universidade Nova de Lisboa, Av. da Republica, 2780-157 Oeiras Portugal. Electronic address: tiago.cordeiro@itqb.unl.pt."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fernandes, Nuno P",
+        "short_name": "Fernandes NP",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Tecnologia Química e Biológica António Xavier, Universidade Nova de Lisboa, Av. da República, 2780-157 Oeiras Portugal."
+        ]
+      },
+      {
+        "full_name": "Gomes, Tiago",
+        "short_name": "Gomes T",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Tecnologia Química e Biológica António Xavier, Universidade Nova de Lisboa, Av. da República, 2780-157 Oeiras Portugal. Electronic address: tiago.gomes@itqb.unl.pt."
+        ]
+      },
+      {
+        "full_name": "Cordeiro, Tiago N",
+        "short_name": "Cordeiro TN",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Tecnologia Química e Biológica António Xavier, Universidade Nova de Lisboa, Av. da República, 2780-157 Oeiras Portugal. Electronic address: tiago.cordeiro@itqb.unl.pt."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2026 Sep 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/16 00:37",
+    "fetched_at": "2026-09-18 03:16:48"
+  },
+  "links": {
+    "cites": [
+      "42574507",
+      "42427316"
+    ],
+    "refs": [],
+    "similar": [
+      "42140310",
+      "38060268",
+      "40133775",
+      "36030416",
+      "26548662",
+      "38995731",
+      "34680137",
+      "41432303",
+      "39499823",
+      "32840111",
+      "30840442",
+      "34252246",
+      "41928976",
+      "35129612",
+      "37546943",
+      "41708867",
+      "22095648",
+      "32525675",
+      "40034137",
+      "42001978",
+      "32696369",
+      "23912807",
+      "42427316",
+      "40509337",
+      "41644540",
+      "38297118",
+      "41706900",
+      "38987470",
+      "36934808",
+      "38781245",
+      "31756456",
+      "30708285",
+      "39718444",
+      "20061306",
+      "31441158",
+      "41803440",
+      "37595014",
+      "39952928",
+      "26994550",
+      "39190324",
+      "40133791",
+      "41534519",
+      "31402649",
+      "41082321",
+      "38275091",
+      "27844185",
+      "41073429",
+      "29763584",
+      "34817999",
+      "40042172",
+      "28076807",
+      "31375817",
+      "27159632",
+      "27387657",
+      "30554840",
+      "30471690",
+      "34627764",
+      "33481784",
+      "37178169",
+      "30909517",
+      "33310020",
+      "30124042",
+      "26453218",
+      "39196930",
+      "24174539",
+      "40475948",
+      "38461354",
+      "34418423",
+      "32696370",
+      "39432675",
+      "41676592",
+      "30204435",
+      "30557358",
+      "40095314",
+      "29544285",
+      "29573987",
+      "32859072",
+      "39851064",
+      "39093570",
+      "38764597",
+      "42178622",
+      "31756104",
+      "24008243",
+      "30979035",
+      "40172236",
+      "39099394",
+      "32579908",
+      "37646172",
+      "41915679",
+      "41053403",
+      "36674958",
+      "27111521",
+      "34986226",
+      "31362509",
+      "26387108",
+      "40577786",
+      "31548393",
+      "42014948",
+      "33810353",
+      "38018910"
+    ],
+    "review": [
+      "42140310",
+      "30840442",
+      "35129612",
+      "31441158",
+      "41803440",
+      "30909517",
+      "34418423",
+      "39093570",
+      "24008243",
+      "30979035",
+      "26387108"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(26)00235-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CLU-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-478",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

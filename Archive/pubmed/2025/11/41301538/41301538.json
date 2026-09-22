@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "41301538",
+    "doi": "10.3390/biom15111620",
+    "title": "Structural and Functional Characterization of LIMCH1 and Its Agmatinase-like Region: A Case of Catalysis in a Highly Disordered Protein."
+  },
+  "content": {
+    "abstract": "Agmatine is a biogenic amine that functions as a neurotransmitter and exhibits anticonvulsant, antineurotoxic, and antidepressant properties. It can be metabolized into putrescine and urea by canonical agmatinases or by the agmatinase-like protein (ALP), which corresponds to the C-terminal region of the LIMCH1 protein. The amino acid sequence of ALP/LIMCH1 diverges significantly from that of canonical agmatinases and lacks the conserved residues typically required for coordination with Mn(2+), an essential cofactor for ureohydrolase activity. The three-dimensional structure of ALP/LIMCH1 remains unresolved, and predictive artificial intelligence algorithms such as AlphaFold have failed to model it reliably. As a result, the configuration of its active site and the identity of potential metal-coordinating ligands remain elusive. In this study, we purified recombinant full-length rat LIMCH1 (119.5 kDa) and a truncated ALP variant, DeltaLIM-ALP (51 kDa), and analyzed their secondary structures using circular dichroism spectroscopy. Our results indicate that both proteins differ markedly from known ureohydrolases, exhibiting a high proportion of disordered regions (~60%) and beta-structures (~30%). In contrast, Escherichia coli agmatinase displays a well-defined alpha/beta/alpha sandwich fold. Despite these structural differences, ALP/LIMCH1 remain the only known mammalian proteins exhibiting agmatinase activity. To gain insight into the putative active site of ALP, we proposed candidate Mn(2+)-binding residues and generated single-point mutants (N213A, Q215A, D217A, E288A, K290A). Although these mutations did not significantly alter Mn(2+) binding or its overall content in the protein samples, four mutants exhibited a decreased K(m) for agmatine and a reduced V(max) when normalized to protein concentration.",
+    "keywords": [
+      "LIMCH1",
+      "agmatinase",
+      "agmatine",
+      "circular dichroism spectroscopy"
+    ],
+    "mesh_terms": [
+      "*Ureohydrolases/chemistry/metabolism/genetics",
+      "Animals",
+      "Rats",
+      "Amino Acid Sequence",
+      "Catalysis",
+      "Catalytic Domain",
+      "Recombinant Proteins/chemistry/metabolism/genetics",
+      "Manganese/metabolism",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Reyes, Maria-Belen",
+        "Fuentes, Allison",
+        "Bustamante, Diego",
+        "Retamal, Fernando",
+        "Lillo, Ignacia",
+        "Villegas, Cristian",
+        "Carrasco, Juan-Pablo",
+        "Pereira-Silva, Martin",
+        "Gatica, Marcell",
+        "Roman, Juan",
+        "Figueroa, Maximiliano",
+        "Neira, Yamil",
+        "Martinez-Oyanedel, Jose",
+        "Castro-Fernandez, Victor",
+        "Uribe, Elena"
+      ],
+      "short_names": [
+        "Reyes MB",
+        "Fuentes A",
+        "Bustamante D",
+        "Retamal F",
+        "Lillo I",
+        "Villegas C",
+        "Carrasco JP",
+        "Pereira-Silva M",
+        "Gatica M",
+        "Roman J",
+        "Figueroa M",
+        "Neira Y",
+        "Martinez-Oyanedel J",
+        "Castro-Fernandez V",
+        "Uribe E"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-7793-8992",
+        "ORCID: 0009-0004-2196-6549",
+        "ORCID: 0000-0002-9505-0953",
+        "ORCID: 0000-0002-6563-1984",
+        "ORCID: 0000-0001-8616-7474",
+        "ORCID: 0000-0002-4309-6415"
+      ],
+      "affiliations": [
+        "Departamento de Bioquimica y Biologia Molecular, Facultad de Ciencias Biologicas, Universidad de Concepcion, Concepcion 4070409, Chile.",
+        "Departamento de Bioquimica y Biologia Molecular, Facultad de Ciencias Biologicas, Universidad de Concepcion, Concepcion 4070409, Chile.",
+        "Departamento de Bioquimica y Biologia Molecular, Facultad de Ciencias Biologicas, Universidad de Concepcion, Concepcion 4070409, Chile.",
+        "Departamento de Bioquimica y Biologia Molecular, Facultad de Ciencias Biologicas, Universidad de Concepcion, Concepcion 4070409, Chile.",
+        "Departamento de Bioquimica y Biologia Molecular, Facultad de Ciencias Biologicas, Universidad de Concepcion, Concepcion 4070409, Chile.",
+        "Departamento de Bioquimica y Biologia Molecular, Facultad de Ciencias Biologicas, Universidad de Concepcion, Concepcion 4070409, Chile.",
+        "Departamento de Bioquimica y Biologia Molecular, Facultad de Ciencias Biologicas, Universidad de Concepcion, Concepcion 4070409, Chile.",
+        "Departamento de Biologia, Facultad de Ciencias, Universidad de Chile, Nunoa, Santiago 7800003, Chile.",
+        "Departamento de Bioquimica y Biologia Molecular, Facultad de Ciencias Biologicas, Universidad de Concepcion, Concepcion 4070409, Chile.",
+        "Departamento de Bioquimica y Biologia Molecular, Facultad de Ciencias Biologicas, Universidad de Concepcion, Concepcion 4070409, Chile.",
+        "Departamento de Bioquimica y Biologia Molecular, Facultad de Ciencias Biologicas, Universidad de Concepcion, Concepcion 4070409, Chile.",
+        "Departamento de Analisis Instrumental, Facultad de Farmacia, Universidad de Concepcion, Concepcion 4030000, Chile.",
+        "Departamento de Bioquimica y Biologia Molecular, Facultad de Ciencias Biologicas, Universidad de Concepcion, Concepcion 4070409, Chile.",
+        "Departamento de Biologia, Facultad de Ciencias, Universidad de Chile, Nunoa, Santiago 7800003, Chile.",
+        "Departamento de Bioquimica y Biologia Molecular, Facultad de Ciencias Biologicas, Universidad de Concepcion, Concepcion 4070409, Chile."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Reyes, María-Belén",
+        "short_name": "Reyes MB",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción 4070409, Chile."
+        ]
+      },
+      {
+        "full_name": "Fuentes, Allison",
+        "short_name": "Fuentes A",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción 4070409, Chile."
+        ]
+      },
+      {
+        "full_name": "Bustamante, Diego",
+        "short_name": "Bustamante D",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción 4070409, Chile."
+        ]
+      },
+      {
+        "full_name": "Retamal, Fernando",
+        "short_name": "Retamal F",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción 4070409, Chile."
+        ]
+      },
+      {
+        "full_name": "Lillo, Ignacia",
+        "short_name": "Lillo I",
+        "identifiers": [
+          "0009-0008-7793-8992"
+        ],
+        "affiliations": [
+          "Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción 4070409, Chile."
+        ]
+      },
+      {
+        "full_name": "Villegas, Cristián",
+        "short_name": "Villegas C",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción 4070409, Chile."
+        ]
+      },
+      {
+        "full_name": "Carrasco, Juan-Pablo",
+        "short_name": "Carrasco JP",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción 4070409, Chile."
+        ]
+      },
+      {
+        "full_name": "Pereira-Silva, Martin",
+        "short_name": "Pereira-Silva M",
+        "identifiers": [
+          "0009-0004-2196-6549"
+        ],
+        "affiliations": [
+          "Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Ñuñoa, Santiago 7800003, Chile."
+        ]
+      },
+      {
+        "full_name": "Gatica, Marcell",
+        "short_name": "Gatica M",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción 4070409, Chile."
+        ]
+      },
+      {
+        "full_name": "Román, Juan",
+        "short_name": "Román J",
+        "identifiers": [
+          "0000-0002-9505-0953"
+        ],
+        "affiliations": [
+          "Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción 4070409, Chile."
+        ]
+      },
+      {
+        "full_name": "Figueroa, Maximiliano",
+        "short_name": "Figueroa M",
+        "identifiers": [
+          "0000-0002-6563-1984"
+        ],
+        "affiliations": [
+          "Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción 4070409, Chile."
+        ]
+      },
+      {
+        "full_name": "Neira, Yamil",
+        "short_name": "Neira Y",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Análisis Instrumental, Facultad de Farmacia, Universidad de Concepción, Concepción 4030000, Chile."
+        ]
+      },
+      {
+        "full_name": "Martínez-Oyanedel, José",
+        "short_name": "Martínez-Oyanedel J",
+        "identifiers": [
+          "0000-0001-8616-7474"
+        ],
+        "affiliations": [
+          "Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción 4070409, Chile."
+        ]
+      },
+      {
+        "full_name": "Castro-Fernández, Víctor",
+        "short_name": "Castro-Fernández V",
+        "identifiers": [
+          "0000-0002-4309-6415"
+        ],
+        "affiliations": [
+          "Departamento de Biología, Facultad de Ciencias, Universidad de Chile, Ñuñoa, Santiago 7800003, Chile."
+        ]
+      },
+      {
+        "full_name": "Uribe, Elena",
+        "short_name": "Uribe E",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Bioquímica y Biología Molecular, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción 4070409, Chile."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2025 Nov 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/27 06:27",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40914331",
+      "39870288",
+      "39225914",
+      "39214468",
+      "39134294",
+      "38608401",
+      "38318350",
+      "36543883",
+      "33946272",
+      "32531922",
+      "31063707",
+      "30254075",
+      "29080167",
+      "28729736",
+      "28006753",
+      "26678503",
+      "25635913",
+      "25553821",
+      "24461723",
+      "24411595",
+      "23600743",
+      "20832351",
+      "19589348",
+      "19465011",
+      "16125317",
+      "12543244",
+      "11473357",
+      "11454649",
+      "10493917"
+    ],
+    "similar": [
+      "41301538",
+      "32531922",
+      "26678503",
+      "24411595",
+      "31731096",
+      "33946272",
+      "15355972",
+      "25635913",
+      "27846445",
+      "20607275",
+      "33857156",
+      "21601560",
+      "15028567",
+      "17291445",
+      "11804860",
+      "12423350",
+      "20563878",
+      "15752699",
+      "11914032",
+      "34634482",
+      "10527864",
+      "15388942",
+      "10329468",
+      "29162499",
+      "31465847",
+      "25209059",
+      "21600989",
+      "15149812",
+      "32788384",
+      "6319366",
+      "16511187",
+      "21803059",
+      "2440022",
+      "32057730",
+      "8858963",
+      "10677214",
+      "22439800",
+      "2153656",
+      "32933064",
+      "15369817",
+      "14648699",
+      "12576691",
+      "32754173",
+      "15028570",
+      "31547849",
+      "17212779",
+      "39549898",
+      "32474534",
+      "36543883",
+      "31408975",
+      "17927294",
+      "324523",
+      "28002650",
+      "27082063",
+      "29330047",
+      "29029791",
+      "22160263",
+      "12761196",
+      "28952717",
+      "9494113",
+      "28867216",
+      "40621",
+      "7601835",
+      "26256058",
+      "24648395",
+      "29196820",
+      "12634339",
+      "35013194",
+      "12020346",
+      "30187212",
+      "17362992",
+      "31999378",
+      "1310091",
+      "25172859",
+      "24406167",
+      "10931887",
+      "40788873",
+      "27710940",
+      "30373755",
+      "19093830",
+      "26048930",
+      "34075638",
+      "34416236",
+      "30853683",
+      "24333369",
+      "8496164",
+      "41023123",
+      "23334804",
+      "26297994",
+      "30202032",
+      "38969281",
+      "31081413",
+      "8841118",
+      "28089448",
+      "9665712",
+      "41053316",
+      "26735936",
+      "28425697",
+      "26455390",
+      "8973192"
+    ],
+    "review": [
+      "41301538",
+      "31731096",
+      "15028567",
+      "29162499"
+    ],
+    "pmc": [
+      "12650571"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom15111620",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41301538/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

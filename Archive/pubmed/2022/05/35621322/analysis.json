@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35621322",
+  "title": "Influence of Ion Specificity and Concentration on the Conformational Transition of Intrinsically Disordered Sheep Prion Peptide.",
+  "authors": "Singh, Omkar; Kumar Das, Bratin; Chakraborty, Debashree",
+  "journal": "Chemphyschem : a European journal of chemical physics and physical chemistry",
+  "published_date": "2022-05-28",
+  "window": {
+    "start": "2022-05-23",
+    "end": "2022-05-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用原子级分子动力学模拟研究离子种类和浓度对无序羊朊病毒肽构象转变的影响，聚焦IDP构象稳定性而非PPI互作机制，方法上属物理模拟但缺乏互作界面建模，对本课题的离子调控IDP构象思路有可迁移启发。",
+  "abstract": "The structural sensitivity of the intrinsically disordered proteins with the ions has been observed experimentally; however, it is still unclear how the presence of different metal ions affects structural stability. We performed an atomistic molecular dynamics simulation of sheep prion peptide (142-167) in presence of different monovalent, divalent ions at various concentrations to find out the effect of the size, charge, and ionic concentration on the structure of the peptide. It is found that Li(+) ions have a higher survival probability compared to Na(+) , K(+,) and Mg(2+) affecting the solvation structure of the protein leading to the alpha-helix structure. At high concentration, due to the increase in the ion-solvent and counter-ion interactions, the effect of the ions is screened on the surface of the protein and hence no ion specificity is observed. This study demonstrates how ions can be used to regulate the protein structure and function that can help in designing drugs.",
+  "abstract_zh": "intrinsically disordered proteins（本质无序蛋白质）与离子的结构敏感性已在实验中被观察到；然而，不同金属离子的存在如何影响结构稳定性仍不清楚。我们对羊朊病毒肽（142-167）在不同单价、二价离子及不同浓度下进行了原子级分子动力学 (molecular dynamics) 模拟，以探究离子大小、电荷和浓度对肽结构的影响。研究发现，与Na(+)、K(+)和Mg(2+)相比，Li(+)离子具有更高的存活概率，影响蛋白质的溶剂化结构，从而形成alpha-helix（α-螺旋）结构。在高浓度下，由于离子-溶剂和反离子相互作用的增加，离子效应在蛋白质表面被屏蔽，因此未观察到离子特异性。本研究展示了如何利用离子调控蛋白质结构和功能，这可能有助于药物设计。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35621322/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35621322/",
+  "paper_page_path": "papers/pubmed/35621322/index.html"
+}

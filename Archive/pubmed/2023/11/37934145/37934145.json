@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "37934145",
+    "doi": "10.1002/anie.202311479",
+    "title": "Sequence-Tunable Phase Behavior and Intrinsic Fluorescence in Dynamically Interacting Peptides."
+  },
+  "content": {
+    "abstract": "A conceptual framework towards understanding biological condensed phases is emerging, derived from biological, biomimetic, and synthetic sequences. However, de novo peptide condensate design remains a challenge due to an incomplete understanding of the structural and interactive complexity. We designed peptide modules based on a simple repeat motif composed of tripeptide spacers (GSG, SGS, GLG) interspersed with adhesive amino acids (R/H and Y). We show, using sequence editing and a combination of computation and experiment, that n-->pi* interactions in GLG backbones are a dominant factor in providing sufficient backbone structure, which in turn regulates the water interface, collectively promoting liquid droplet formation. Moreover, these R(GLG)Y and H(GLG)Y condensates unexpectedly display sequence-dependent emission that is a consequence of their non-covalent network interactions, and readily observable by confocal microscopy.",
+    "keywords": [
+      "Amino Acids",
+      "Fluorescence",
+      "Liquid-Liquid Phase Separation",
+      "Molecular Dynamics",
+      "Peptides"
+    ],
+    "mesh_terms": [
+      "Fluorescence",
+      "*Peptides/chemistry",
+      "*Amino Acids/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sementa, Deborah",
+        "Dave, Dhwanit",
+        "Fisher, Rachel S",
+        "Wang, Tong",
+        "Elbaum-Garfinkle, Shana",
+        "Ulijn, Rein V"
+      ],
+      "short_names": [
+        "Sementa D",
+        "Dave D",
+        "Fisher RS",
+        "Wang T",
+        "Elbaum-Garfinkle S",
+        "Ulijn RV"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7138-1213"
+      ],
+      "affiliations": [
+        "Advanced Science Research Center (ASRC) at the Graduate Center, City University of New York (CUNY), 85 St Nicholas Terrace, New York, NY 10031, USA.",
+        "Advanced Science Research Center (ASRC) at the Graduate Center, City University of New York (CUNY), 85 St Nicholas Terrace, New York, NY 10031, USA.",
+        "Ph.D. Programs in Biochemistry and Chemistry, The Graduate Center of the City University of New York, 365 Fifth Avenue, New York, NY 10016, USA.",
+        "Department of Chemistry, Hunter College, City University of New York (CUNY), 695 Park Avenue, New York, NY 10065, USA.",
+        "Advanced Science Research Center (ASRC) at the Graduate Center, City University of New York (CUNY), 85 St Nicholas Terrace, New York, NY 10031, USA.",
+        "Advanced Science Research Center (ASRC) at the Graduate Center, City University of New York (CUNY), 85 St Nicholas Terrace, New York, NY 10031, USA.",
+        "Advanced Science Research Center (ASRC) at the Graduate Center, City University of New York (CUNY), 85 St Nicholas Terrace, New York, NY 10031, USA.",
+        "Advanced Science Research Center (ASRC) at the Graduate Center, City University of New York (CUNY), 85 St Nicholas Terrace, New York, NY 10031, USA.",
+        "Ph.D. Programs in Biochemistry and Chemistry, The Graduate Center of the City University of New York, 365 Fifth Avenue, New York, NY 10016, USA.",
+        "Department of Chemistry, Hunter College, City University of New York (CUNY), 695 Park Avenue, New York, NY 10065, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sementa, Deborah",
+        "short_name": "Sementa D",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Science Research Center (ASRC) at the Graduate Center, City University of New York (CUNY), 85 St Nicholas Terrace, New York, NY 10031, USA."
+        ]
+      },
+      {
+        "full_name": "Dave, Dhwanit",
+        "short_name": "Dave D",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Science Research Center (ASRC) at the Graduate Center, City University of New York (CUNY), 85 St Nicholas Terrace, New York, NY 10031, USA.",
+          "Ph.D. Programs in Biochemistry and Chemistry, The Graduate Center of the City University of New York, 365 Fifth Avenue, New York, NY 10016, USA.",
+          "Department of Chemistry, Hunter College, City University of New York (CUNY), 695 Park Avenue, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Fisher, Rachel S",
+        "short_name": "Fisher RS",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Science Research Center (ASRC) at the Graduate Center, City University of New York (CUNY), 85 St Nicholas Terrace, New York, NY 10031, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Tong",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Science Research Center (ASRC) at the Graduate Center, City University of New York (CUNY), 85 St Nicholas Terrace, New York, NY 10031, USA."
+        ]
+      },
+      {
+        "full_name": "Elbaum-Garfinkle, Shana",
+        "short_name": "Elbaum-Garfinkle S",
+        "identifiers": [],
+        "affiliations": [
+          "Advanced Science Research Center (ASRC) at the Graduate Center, City University of New York (CUNY), 85 St Nicholas Terrace, New York, NY 10031, USA."
+        ]
+      },
+      {
+        "full_name": "Ulijn, Rein V",
+        "short_name": "Ulijn RV",
+        "identifiers": [
+          "0000-0002-7138-1213"
+        ],
+        "affiliations": [
+          "Advanced Science Research Center (ASRC) at the Graduate Center, City University of New York (CUNY), 85 St Nicholas Terrace, New York, NY 10031, USA.",
+          "Ph.D. Programs in Biochemistry and Chemistry, The Graduate Center of the City University of New York, 365 Fifth Avenue, New York, NY 10016, USA.",
+          "Department of Chemistry, Hunter College, City University of New York (CUNY), 695 Park Avenue, New York, NY 10065, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Angewandte Chemie (International ed. in English)"
+    ],
+    "journal_abbrev": [
+      "Angew Chem Int Ed Engl"
+    ],
+    "pub_date": "2023 Dec 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/07 12:47",
+    "fetched_at": "2026-09-21 02:42:42"
+  },
+  "links": {
+    "cites": [
+      "40984006",
+      "40802871",
+      "40069227",
+      "39588807",
+      "39572548",
+      "39477955",
+      "39424799",
+      "39066731",
+      "38424154"
+    ],
+    "refs": [],
+    "similar": [
+      "37934145",
+      "17191902",
+      "38416758",
+      "23075203",
+      "23912807",
+      "38751116",
+      "19795449",
+      "30368772",
+      "37480340",
+      "11427046",
+      "36702825",
+      "33144560",
+      "34768997",
+      "38252962",
+      "18828608",
+      "15189879",
+      "21798546",
+      "11476539",
+      "16423894",
+      "23094039",
+      "21638022",
+      "26420703",
+      "24151124",
+      "34410694",
+      "31617663",
+      "18590282",
+      "16784867",
+      "26479457",
+      "17915956",
+      "25207470",
+      "14984569",
+      "21997956",
+      "37020023",
+      "29517898",
+      "38578222",
+      "27574532",
+      "32662951",
+      "10903873",
+      "24341921",
+      "19297190",
+      "26343224",
+      "31879929",
+      "29081050",
+      "22983654",
+      "7921171",
+      "11982357",
+      "37024567",
+      "34202468",
+      "35727989",
+      "23109332",
+      "20204211",
+      "15933853",
+      "38626119",
+      "17031964",
+      "28859247",
+      "30542771",
+      "12422509",
+      "1868097",
+      "37721444",
+      "17678528",
+      "2267006",
+      "26900964",
+      "33884698",
+      "19785168",
+      "38445833",
+      "11101312",
+      "26274096",
+      "37310801",
+      "21956561",
+      "31561969",
+      "24253679",
+      "38690757",
+      "23335168",
+      "17651984",
+      "23922660",
+      "15544477",
+      "16193455",
+      "10585743",
+      "19572698",
+      "24588077",
+      "29672021",
+      "38349628",
+      "38643237",
+      "27586340",
+      "11856000",
+      "7885338",
+      "24127254",
+      "36181270",
+      "30359485",
+      "27564972",
+      "33302617",
+      "23324083",
+      "14529528",
+      "10441139",
+      "23330783",
+      "27626071",
+      "32938353",
+      "23198431",
+      "17126617"
+    ],
+    "review": [
+      "37934145",
+      "17191902",
+      "19795449",
+      "30368772",
+      "26420703",
+      "2267006",
+      "15544477",
+      "19572698",
+      "14529528"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/anie.202311479",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

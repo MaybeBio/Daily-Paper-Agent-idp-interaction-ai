@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35944496",
+  "title": "Salt-Induced Transitions in the Conformational Ensembles of Intrinsically Disordered Proteins.",
+  "authors": "Maity, Hiranmay; Baidya, Lipika; Reddy, Govardhan",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2022-08-10",
+  "window": {
+    "start": "2022-08-08",
+    "end": "2022-08-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化模拟结合实验转移自由能，研究盐对无序蛋白构象系综的转变及相分离影响，聚焦IDP构象机制，虽未直接建模PPI，但为IDP介导的凝聚体形成提供了可迁移的物理模拟方法。",
+  "abstract": "Salts modulate the behavior of intrinsically disordered proteins (IDPs) and influence the formation of membraneless organelles through liquid-liquid phase separation (LLPS). In low ionic strength solutions, IDP conformations are perturbed by the screening of electrostatic interactions, independent of the salt identity. In this regime, insight into the IDP behavior can be obtained using the theory for salt-induced transitions in charged polymers. However, salt-specific interactions with the charged and uncharged residues, known as the Hofmeister effect, influence IDP behavior in high ionic strength solutions. There is a lack of reliable theoretical models in high salt concentration regimes to predict the salt effect on IDPs. We propose a simulation methodology using a coarse-grained IDP model and experimentally measured water to salt solution transfer free energies of various chemical groups that allowed us to study the salt-specific transitions induced in the IDPs conformational ensemble. We probed the effect of three different monovalent salts on five IDPs belonging to various polymer classes based on charged residue content. We demonstrate that all of the IDPs of different polymer classes behave as self-avoiding walks (SAWs) at physiological salt concentration. In high salt concentrations, the transitions observed in the IDP conformational ensembles are dependent on the salt used and the IDP sequence and composition. Changing the anion with the cation fixed can result in the IDP transition from a SAW-like behavior to a collapsed globule. An important implication of these results is that a suitable salt can be identified to induce condensation of an IDP through LLPS.",
+  "abstract_zh": "盐类调节固有无序蛋白质（IDPs）的行为，并通过液-液相分离（LLPS）影响无膜细胞器的形成。在低离子强度溶液中，IDP构象受静电相互作用的屏蔽扰动，这与盐的种类无关。在此范围内，可利用带电聚合物中盐诱导转变的理论来获取对IDP行为的洞察。然而，在高离子强度溶液中，盐与带电及不带电残基的特异性相互作用，即霍夫迈斯特效应（Hofmeister effect），会影响IDP行为。在高盐浓度区域，缺乏可靠的理论模型来预测盐对IDPs的影响。我们提出了一种模拟方法，采用粗粒化IDP模型以及实验测量的水到盐溶液转移自由能（针对各种化学基团），使我们能够研究盐特异性诱导的IDP构象集合转变。我们探究了三种不同单价盐对五种IDPs的影响，这些IDPs根据带电残基含量属于不同聚合物类别。我们证明，在生理盐浓度下，所有不同聚合物类别的IDPs均表现为自回避行走（SAWs）。在高盐浓度下，IDP构象集合中观察到的转变取决于所用盐以及IDP序列和组成。在阳离子固定时更换阴离子，可导致IDP从SAW样行为转变为塌缩球状构象。这些结果的一个重要意义是，可以识别合适的盐来通过LLPS诱导IDP的凝聚。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35944496/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35944496/",
+  "paper_page_path": "papers/pubmed/35944496/index.html"
+}

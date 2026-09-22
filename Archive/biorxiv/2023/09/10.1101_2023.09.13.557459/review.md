@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that the N-terminus of RhoGDI1 in its free, apo form already exhibits largely preformed structural features resembling those seen in crystal structures of the GDI-GTPase complex, that these features are context-specifically modulated by interactions with the folded C-terminal domain, and that upon Cdc42 binding the N-terminus retains significant flexibility and secondary-structural propensity. They conclude that the mechanism of membrane extraction involves an active role of the N-terminus with preformed structural properties rather than a disorder-to-order transition.
+- **Visible evidence base** Solution NMR analyses, molecular dynamics simulations, and biochemical assays (as stated in the abstract); specific data not visible
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, experimental methods, NMR data and assignments, simulation parameters, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant revision to the current mechanistic model of RhoGDI function, with claims that directly challenge the prevailing disorder-to-order transition paradigm. The stated combination of NMR, MD simulations, and biochemical assays is appropriate for the question. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental design, the quality of the NMR data, the convergence and sampling of the simulations, or the statistical significance of the reported differences. The central claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in cell biology, structural biology, and biophysics studying small GTPase regulation, membrane extraction mechanisms, intrinsically disordered proteins, and protein-protein interaction dynamics. The findings could also interest those working on drug development targeting RhoGDI-GTPase interfaces, as the revised mechanism may alter assumptions about druggable conformational states.
+- **Major strengths** The study addresses a fundamental and long-standing question in the field with a multi-technique approach. The claim that preformed structural features exist in the apo state is directly testable and, if confirmed, would constitute a clear advance. The emphasis on context-specific modulation by the C-terminal domain adds mechanistic nuance. The use of full-length RhoGDI1 rather than truncated constructs is a notable strength.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that "a diverse set of NMR data unequivocally shows that the structural properties of the GDI N-terminus seen in crystal structures of the complex with GTPases already exist as largely preformed features in free, apo GDI."  
+  - **Evidence pointer** Abstract, NMR analyses section; specific figures or tables not provided  
+  - **Concern** The term "unequivocally" is a strong epistemic claim. The abstract does not specify which NMR observables were used (e.g., chemical shifts, NOEs, relaxation rates, residual dipolar couplings), how the preformed features were quantified, or how potential artifacts from sample conditions or conformational averaging were excluded. Without these details, the strength of the conclusion cannot be assessed.  
+  - **Why it matters** The central novelty of the paper rests on this claim. If the NMR evidence is indirect or ambiguous, the conclusion may be overstated. The field has previously relied on the disorder-to-order model, and overturning it requires robust, multi-observable evidence.  
+  - **Resolution test** Provide specific NMR data (e.g., secondary chemical shift plots, NOE patterns, relaxation dispersion profiles) that quantitatively demonstrate the preformed structural features, including error bars and comparisons to the bound-state structure. Show that the observations are consistent across multiple independent NMR parameters and that alternative interpretations (e.g., transient sampling, ensemble averaging) are explicitly ruled out.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that "the required structural properties are imposed onto the terminus context-specifically by modulating interactions with the surface of the folded C-terminal domain."  
+  - **Evidence pointer** Abstract, molecular dynamics simulations and NMR analyses; specific data not provided  
+  - **Concern** The abstract does not describe how the interaction between the N-terminus and the C-terminal domain was identified or characterized. It is unclear whether this is based on NMR-derived contacts, MD-predicted interfaces, or mutagenesis. The phrase "context-specifically" implies a mechanism, but no mechanistic detail is given.  
+  - **Why it matters** This claim introduces a new regulatory layer to RhoGDI function. If the interaction is not directly demonstrated, the claim remains speculative. The mechanism of context-specific modulation is central to the proposed revised model.  
+  - **Resolution test** Show direct evidence for the N-terminal-C-terminal interaction, such as intermolecular NOEs, chemical shift perturbations upon mutation of the interface, or MD-derived contact maps with validation. Demonstrate that the modulation is specific to the C-terminal domain and not a generic electrostatic or hydrophobic effect.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that "upon Cdc42 binding, the flexibility of the N-terminus and its secondary-structural propensities are not largely abrogated."  
+  - **Evidence pointer** Abstract, NMR analyses of the complex; specific data not provided  
+  - **Concern** The abstract does not quantify the degree of flexibility or secondary-structural propensity retained in the bound state. "Not largely abrogated" is vague and could encompass a wide range of behaviors. It is also unclear whether the measurements were performed on the full complex or on a truncated construct.  
+  - **Why it matters** This claim is necessary to distinguish the proposed model from a simple disorder-to-order transition. If the N-terminus becomes rigid upon binding, the preformed features would be irrelevant to the binding mechanism. The claim must be quantitatively supported.  
+  - **Resolution test** Provide quantitative measures of flexibility (e.g., order parameters, relaxation times) and secondary-structural propensity (e.g., secondary chemical shifts, J-coupling constants) for the N-terminus in both free and bound states, with statistical comparisons. Show that the differences are small relative to the changes expected for a full disorder-to-order transition.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, "biochemical essays"  
+  - **Issue** The term "biochemical essays" appears to be a typographical error; the intended word is likely "biochemical assays."  
+  - **Required correction** Replace "essays" with "assays" in the abstract.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract methodology description  
+  - **Evidence pointer** Abstract, methods list  
+  - **Issue** The abstract does not specify the timescale of the MD simulations, the force field used, or the number of replicas. These details are essential for evaluating the reliability of the simulation-based claims.  
+  - **Required correction** Add brief methodological details for the simulations, including force field, simulation length, and sampling approach.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Abstract claim about "largely preformed features"  
+  - **Evidence pointer** Abstract, NMR analyses  
+  - **Issue** The term "largely preformed" is not quantitatively defined. It is unclear what fraction of the bound-state structure is preformed or what threshold was used.  
+  - **Required correction** Define the quantitative criteria used to classify features as "preformed" (e.g., percentage of secondary chemical shift match, fraction of native contacts).
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient experimental detail to verify the central claims. The full manuscript must demonstrate the robustness of the NMR data, the validity of the MD simulations, and the quantitative basis for the conclusions.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The claim of preformed structural features in apo RhoGDI directly challenges the established disorder-to-order model. If substantiated, this would be a novel contribution. However, the abstract does not provide enough context to assess how this compares to prior work on other GDI family members or related proteins.  
+  - **Scientific importance** The mechanism of RhoGDI-mediated membrane extraction is fundamental to Rho GTPase regulation, which controls cytoskeletal dynamics and numerous cellular processes. A revised mechanism would have broad implications. The importance is high if the claims hold.  
+  - **Interdisciplinary readership** The topic bridges structural biology, biophysics, and cell biology. The findings could appeal to a broad audience, but the abstract is written in a specialized manner that may limit accessibility to non-specialists.  
+  - **Technical soundness** Not assessable from the abstract alone. The stated methods are appropriate, but the absence of data prevents evaluation of the technical execution.  
+  - **Readability for nonspecialists** The abstract is concise but uses field-specific terminology (e.g., "disorder-to-order transition," "secondary-structural propensities") without sufficient explanation. A general reader would struggle to grasp the significance without additional context.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are interesting and potentially important, but the abstract alone does not provide the necessary detail to verify the experimental basis. A full review of the manuscript would be required to determine whether the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that NMR data "unequivocally" show preformed structural features is unsupported without specific data presentation.
+- The claim of context-specific modulation by the C-terminal domain is unsupported without direct interaction evidence.
+- The claim that flexibility and secondary-structural propensities are "not largely abrogated" upon binding is unquantified and not verifiable.
+- The overall conclusion that the mechanism involves an "active role" of the N-terminus is a reasonable interpretation but is not directly supported by the abstract-level evidence.

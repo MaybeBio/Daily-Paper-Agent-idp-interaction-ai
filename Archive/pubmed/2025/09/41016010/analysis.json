@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41016010",
+  "title": "A simple workflow to identify novel small linear motif (SLiM)-mediated interactions with AlphaFold.",
+  "authors": "Veinstein, Martin; Janssens, Victor; Iorga, Bogdan I; Helaers, Raphael; Michiels, Thomas; Sorgeloos, Frederic",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-09-28",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用AlphaFold/ColabFold结合MiniPAE指标开发了一套识别无序蛋白中SLiM介导PPI的筛选工作流，并实验验证了13个新SLiM，直接契合无序蛋白互作机制建模与AI预测方法。",
+  "abstract": "Short linear motifs (SLiMs) are highly compact interaction modules embedded within disordered protein regions and are increasingly recognized for their central role in maintaining cellular homeostasis. Due to their small size, degeneracy and transient binding, SLiMs remain difficult to detect both experimentally and computationally. Here, we show that AlphaFold (AF), used via ColabFold, offers a practical and accessible alternative for in-silico screening of new SLiMs targeting a protein of interest. Unlike previous studies that evaluated AlphaFold2 (AF2) using structure-derived benchmarks, we extend this by assessing both AF2 and AF3, using a structure-independent benchmark of 26 interactions absent from PDB homology, and showing that MiniPAE is the most suited AlphaFold metric for SLiM screening. We also generated an unbalanced dataset with a large excess of non-binders mimicking real-world blind screening, revealing a critical limitation in AlphaFold's specificity for SLiM detection. To circumvent this constraint, we propose both a SLiM screening strategy and an adaptative scoring threshold. For greater accessibility, we provide a streamlined and cost-effective AF analysis workflow requiring no local installation or computation. To overcome challenges associated with SLiM validation, we also introduce a highly sensitive detection method based on proximity labeling in living cells. This workflow was used to identify and experimentally validate 13 new SLiMs that mediate binding to ribosomal protein S6 kinase A3 (RPS6KA3 or RSK2). By leveraging ColabFold and MiniPAE available through Colab notebooks, our approach provides a scalable and widely accessible strategy for identifying functional SLiMs in proteins of interest. MiniPAE can be accessed at https://github.com/martinovein/MiniPAE.",
+  "abstract_zh": "短线性基序（SLiMs）是嵌入在无序蛋白区域中的高度紧凑的相互作用模块，日益被认识到在维持细胞稳态中发挥核心作用。由于其尺寸小、简并性和瞬时结合特性，SLiMs在实验和计算上均难以检测。在此，我们表明，通过ColabFold使用的AlphaFold（AF）为针对目标蛋白筛选新SLiMs提供了一种实用且易获取的计算机模拟替代方案。与先前使用基于结构的基准评估AlphaFold2（AF2）的研究不同，我们通过使用一个独立于结构的基准（包含26个在PDB同源性中缺失的相互作用）来评估AF2和AF3，并表明MiniPAE是最适合SLiM筛选的AlphaFold指标，从而扩展了该领域。我们还生成了一个非平衡数据集，其中包含大量过量的非结合物，模拟了现实世界中的盲筛场景，揭示了AlphaFold在SLiM检测特异性方面的关键局限性。为规避此限制，我们提出了一种SLiM筛选策略和自适应评分阈值。为提高可访问性，我们提供了一种简化且成本效益高的AF分析工作流程，无需本地安装或计算。为克服SLiM验证相关的挑战，我们还引入了一种基于活细胞中邻近标记的高灵敏度检测方法。该工作流程被用于识别并通过实验验证了13个介导与核糖体蛋白S6激酶A3（RPS6KA3或RSK2）结合的新SLiMs。通过利用ColabFold和可通过Colab笔记本获取的MiniPAE，我们的方法为识别目标蛋白中的功能性SLiMs提供了一种可扩展且广泛可用的策略。MiniPAE可在https://github.com/martinovein/MiniPAE访问。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41016010/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41016010/",
+  "paper_page_path": "papers/pubmed/41016010/index.html"
+}

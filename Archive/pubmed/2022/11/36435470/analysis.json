@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36435470",
+  "title": "Structural evolution of Delta lineage of SARS-CoV-2.",
+  "authors": "Gomari, Mohammad Mahmoudi; Tarighi, Parastoo; Choupani, Edris; Abkhiz, Shadi; Mohamadzadeh, Masoud; Rostami, Neda; Sadroddiny, Esmaeil; Baammi, Soukayna; Uversky, Vladimir N; Dokholyan, Nikolay V",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2022-11-27",
+  "window": {
+    "start": "2022-11-21",
+    "end": "2022-11-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用MD、IDR分析、PPI和自由能计算等方法研究SARS-CoV-2 Delta株Spike蛋白的结构演化及其与ACE2的结合，虽对象非IDP介导的PPI机制建模，但IDR分析和互作计算思路对本课题有可迁移启发。",
+  "abstract": "One of the main obstacles in prevention and treatment of COVID-19 is the rapid evolution of the SARS-CoV-2 Spike protein. Given that Spike is the main target of common treatments of COVID-19, mutations occurring at this virulent factor can affect the effectiveness of treatments. The B.1.617.2 lineage of SARS-CoV-2, being characterized by many Spike mutations inside and outside of its receptor-binding domain (RBD), shows high infectivity and relative resistance to existing cures. Here, utilizing a wide range of computational biology approaches, such as immunoinformatics, molecular dynamics (MD), analysis of intrinsically disordered regions (IDRs), protein-protein interaction analyses, residue scanning, and free energy calculations, we examine the structural and biological attributes of the B.1.617.2 Spike protein. Furthermore, the antibody design protocol of Rosetta was implemented for evaluation the stability and affinity improvement of the Bamlanivimab (LY-CoV55) antibody, which is not capable of interactions with the B.1.617.2 Spike. We observed that the detected mutations in the Spike of the B1.617.2 variant of concern can cause extensive structural changes compatible with the described variation in immunogenicity, secondary and tertiary structure, oligomerization potency, Furin cleavability, and drug targetability. Compared to the Spike of Wuhan lineage, the B.1.617.2 Spike is more stable and binds to the Angiotensin-converting enzyme 2 (ACE2) with higher affinity.",
+  "abstract_zh": "COVID-19预防和治疗的主要障碍之一是SARS-CoV-2刺突蛋白的快速进化。鉴于刺突蛋白是COVID-19常见治疗的主要靶点，这一毒力因子上的突变可能影响治疗效果。SARS-CoV-2的B.1.617.2谱系，其特征是在其受体结合域（RBD）内外存在许多刺突突变，表现出高传染性和对现有疗法的相对耐药性。在此，我们利用广泛的计算生物学方法，如免疫信息学、分子动力学（MD）、内在无序区域（IDRs）分析、蛋白质-蛋白质相互作用分析、残基扫描和自由能计算，考察了B.1.617.2刺突蛋白的结构和生物学属性。此外，我们应用Rosetta的抗体设计协议，评估Bamlanivimab（LY-CoV55）抗体的稳定性和亲和力改进，该抗体无法与B.1.617.2刺突蛋白相互作用。我们观察到，B.1.617.2关注变体刺突中检测到的突变可导致广泛的结构变化，这与所描述的免疫原性、二级和三级结构、寡聚化能力、弗林蛋白酶切割性和药物靶向性变异相一致。与武汉谱系的刺突蛋白相比，B.1.617.2刺突蛋白更稳定，并以更高亲和力结合血管紧张素转换酶2（ACE2）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36435470/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36435470/",
+  "paper_page_path": "papers/pubmed/36435470/index.html"
+}

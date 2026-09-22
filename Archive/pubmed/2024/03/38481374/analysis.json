@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38481374",
+  "title": "Efficient and accurate binding free energy calculation of Abeta(9-40) protofilament propagation.",
+  "authors": "Frost, Christina V; Schwierz, Nadine; Zacharias, Martin",
+  "journal": "Proteins",
+  "published_date": "2024-03-14",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用增强采样自由能模拟计算Aβ(9-40)无序单体结合到原纤维尖端的传播自由能，聚焦IDP介导的蛋白-蛋白结合机制与构象熵贡献，方法可迁移至无序蛋白PPI机制建模。",
+  "abstract": "Self-assembled aggregation of peptides and proteins into regular amyloid fibrils is associated with several neurodegenerative diseases. In case of Alzheimer's disease proteolytic cleavage products of the amyloid precursor protein form pathological amyloid-beta fibrils in a nucleation and propagation phase. The molecular details and thermodynamic driving forces of amyloid formation are not well understood, but are of high relevance for potential pharmacological interference. We used atomistic binding free energy simulations to calculate the free energy of protofilament propagation by an additional Abeta(9-40) peptide binding to the protofilament tip. It requires sampling of relevant conformational transitions which is challenging since the monomeric Abeta(9-40) peptide is intrinsically disordered. However, the convergence of umbrella simulations can be enhanced by applying additional restraining potentials on the axial, orientational and conformational degrees of freedom. The improved convergence leads to a much closer agreement with experimental binding free energy data compared to unrestrained umbrella sampling. Moreover, the restraining approach results in a separation of contributions to the total binding free energy. The calculated contributions indicate that the free energy change associated with the restriction of conformational freedom upon propagation makes a large opposing contribution of higher magnitude than the total binding free energy. Finally, optimization of the approach leads to further significant reduction of the computational demand which is crucial for systematic studies on mutations, denaturants and inhibitors in the fibril propagation step.",
+  "abstract_zh": "肽和蛋白质自组装聚集成规则淀粉样原纤维与多种神经退行性疾病相关。在阿尔茨海默病中，淀粉样前体蛋白的蛋白水解切割产物在成核和传播阶段形成病理性淀粉样β-纤维。淀粉样形成的分子细节和热力学驱动力尚未被充分理解，但对潜在的药理学干预具有高度相关性。我们使用原子级结合自由能模拟来计算额外Abeta(9-40)肽结合到原丝尖端时原丝传播的自由能。这需要对相关构象转变进行采样，这具有挑战性，因为单体Abeta(9-40)肽本质上是无序的。然而，通过在轴向、取向和构象自由度上施加额外的限制势，可以增强伞形模拟的收敛性。与无限制的伞形采样相比，改进的收敛性导致与实验结合自由能数据更加接近。此外，限制方法导致总结合自由能贡献的分离。计算出的贡献表明，与传播时构象自由度限制相关的自由能变化做出了一个大的相反贡献，其幅度大于总结合自由能。最后，方法的优化进一步显著降低了计算需求，这对于在纤维传播步骤中对突变、变性剂和抑制剂进行系统研究至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38481374/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38481374/",
+  "paper_page_path": "papers/pubmed/38481374/index.html"
+}

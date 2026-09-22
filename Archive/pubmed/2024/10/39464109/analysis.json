@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39464109",
+  "title": "Learning Biophysical Dynamics with Protein Language Models.",
+  "authors": "Hou, Chao; Zhao, Haiqing; Shen, Yufeng",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-10-28",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出用MD模拟和简正模态导出的动态生物物理性质训练蛋白语言模型（SeqDance/ESMDance），覆盖有序与无序蛋白，并用于突变效应预测；虽非直接研究PPI机制，但为IDP动态建模提供了可迁移的AI方法。",
+  "abstract": "Structural dynamics are fundamental to protein functions and mutation effects. Current protein deep learning models are predominantly trained on sequence and/or static structure data, which often fail to capture the dynamic nature of proteins. To address this, we introduce SeqDance and ESMDance, two protein language models trained on dynamic biophysical properties derived from molecular dynamics simulations and normal mode analyses of over 64,000 proteins. SeqDance, trained from scratch, learns both local dynamic interactions and global conformational properties for ordered and disordered proteins. SeqDance predicted dynamic property changes reflect mutation effect on protein folding stability. ESMDance, built upon ESM2 outputs, substantially outperforms ESM2 in zero-shot prediction of mutation effects for designed and viral proteins which lack evolutionary information. Together, SeqDance and ESMDance offer a new framework for integrating protein dynamics into language models, enabling more generalizable predictions of protein behavior and mutation effects.",
+  "abstract_zh": "结构动力学是蛋白质功能和突变效应的基础。当前的蛋白质深度学习模型主要基于序列和/或静态结构数据进行训练，往往无法捕捉蛋白质的动态特性。为解决这一问题，我们引入了SeqDance和ESMDance，这两个蛋白质语言模型基于从超过64,000种蛋白质的分子动力学模拟和简正模式分析中获得的动态生物物理特性进行训练。SeqDance从头训练，学习有序和无序蛋白质的局部动态相互作用及全局构象特性。SeqDance预测的动态特性变化反映了突变对蛋白质折叠稳定性的影响。ESMDance基于ESM2输出构建，在缺乏进化信息的设计蛋白质和病毒蛋白质的突变效应零样本预测中，显著优于ESM2。综合来看，SeqDance和ESMDance提供了一种将蛋白质动力学整合到语言模型中的新框架，使蛋白质行为和突变效应的预测更具泛化能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39464109/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39464109/",
+  "paper_page_path": "papers/pubmed/39464109/index.html"
+}

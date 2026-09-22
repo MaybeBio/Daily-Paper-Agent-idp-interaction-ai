@@ -1,0 +1,401 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.01.616068",
+  "title": "Two-dimensional HRS condensates drive the assembly of flat clathrin lattices on endosomes",
+  "doi": "10.1101/2024.10.01.616068",
+  "abstract": "In cells, the curved clathrin structures in vesicle budding are well characterized, while the flat ones remain poorly understood. We reconstituted the flat assembly of ESCRT-0 protein HRS and clathrin onto lipid membranes in vitro . HRS was found to form protein condensates. These condensates spread as a two-dimensional layer on negatively charged membranes and promoted the assembly of clathrin into a flat coat. Correlative cryo-tomography of HRS-labeled endosomes revealed a pure hexagonal lattice, consistent with flat clathrin structures. Cholesterol enhanced HRS recruitment to the membrane both in cells and in supported bilayers. Furthermore, cholesterol promoted the phase separation of HRS onto membranes, which in turn concentrated cholesterol underneath. This positive feedback promoted the formation of HRS-clathrin microdomains that sorted reconstituted ubiquitinated cargoes. Altogether, our results show that the unique architecture of ESCRT-0 is assembled by the two-dimensional phase-separation of HRS which drives the assembly of flat clathrin coats.",
+  "authors": [
+    "Hakala M",
+    "Moparthi SB",
+    "Ganeva I",
+    "Gül M",
+    "Espadas J",
+    "Marcuello C",
+    "Bernat-Silvestre C",
+    "Colom A",
+    "Colom A",
+    "Kudryashev M",
+    "Kukulski W",
+    "Vassilopoulos S",
+    "Kaksonen M",
+    "Roux A"
+  ],
+  "published_date": "2024-10-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.01.616068",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.01.616068.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR918965",
+    "raw_record": {
+      "id": "PPR918965",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR918965"
+        ]
+      },
+      "doi": "10.1101/2024.10.01.616068",
+      "title": "Two-dimensional HRS condensates drive the assembly of flat clathrin lattices on endosomes",
+      "authorString": "Hakala M, Moparthi SB, Ganeva I, Gül M, Espadas J, Marcuello C, Bernat-Silvestre C, Colom A, Colom A, Kudryashev M, Kukulski W, Vassilopoulos S, Kaksonen M, Roux A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hakala M",
+            "lastName": "Hakala",
+            "firstName": "Markku",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3485-6080"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moparthi SB",
+            "lastName": "Moparthi",
+            "firstName": "Satish Babu",
+            "initials": "SB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7493-3848"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , UMRS 974, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ganeva I",
+            "lastName": "Ganeva",
+            "firstName": "Iva",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Molecular Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gül M",
+            "lastName": "Gül",
+            "firstName": "Mehmet",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "In situ Structural Biology, Max Delbrück Center for Molecular Medicine in the Helmholtz Association (MDC) and Institute of Medical Physics and Biophysics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Espadas J",
+            "lastName": "Espadas",
+            "firstName": "Javier",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marcuello C",
+            "lastName": "Marcuello",
+            "firstName": "Carlos",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "( , ) and Department of Biochemistry and Molecular Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bernat-Silvestre C",
+            "lastName": "Bernat-Silvestre",
+            "firstName": "César",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Colom A",
+            "lastName": "Colom",
+            "firstName": "Adai",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4869-8981"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "( , ) and Department of Biochemistry and Molecular Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Colom A",
+            "lastName": "Colom",
+            "firstName": "Adai",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3645-7689"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "( , ) and Department of Biochemistry and Molecular Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kudryashev M",
+            "lastName": "Kudryashev",
+            "firstName": "Mikhail",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "In situ Structural Biology, Max Delbrück Center for Molecular Medicine in the Helmholtz Association (MDC) and Institute of Medical Physics and Biophysics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kukulski W",
+            "lastName": "Kukulski",
+            "firstName": "Wanda",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Molecular Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vassilopoulos S",
+            "lastName": "Vassilopoulos",
+            "firstName": "Stéphane",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , UMRS 974, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kaksonen M",
+            "lastName": "Kaksonen",
+            "firstName": "Marko",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roux A",
+            "lastName": "Roux",
+            "firstName": "Aurélien",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6088-0711"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5513-1866"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7493-3848"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3485-6080"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6088-0711"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3459-8605"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3645-7689"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4869-8981"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "In cells, the curved clathrin structures in vesicle budding are well characterized, while the flat ones remain poorly understood. We reconstituted the flat assembly of ESCRT-0 protein HRS and clathrin onto lipid membranes  in vitro . HRS was found to form protein condensates. These condensates spread as a two-dimensional layer on negatively charged membranes and promoted the assembly of clathrin into a flat coat. Correlative cryo-tomography of HRS-labeled endosomes revealed a pure hexagonal lattice, consistent with flat clathrin structures. Cholesterol enhanced HRS recruitment to the membrane both in cells and in supported bilayers. Furthermore, cholesterol promoted the phase separation of HRS onto membranes, which in turn concentrated cholesterol underneath. This positive feedback promoted the formation of HRS-clathrin microdomains that sorted reconstituted ubiquitinated cargoes. Altogether, our results show that the unique architecture of ESCRT-0 is assembled by the two-dimensional phase-separation of HRS which drives the assembly of flat clathrin coats.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "212288",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "201158",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "951324",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.10.01.616068"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.01.616068"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR918965"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR918965&type=FILE&fileName=EMS199183-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42120412",
+            "reference": "Nature communications. 2026 May;:",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199183",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "alphafold"
+        ]
+      },
+      "dateOfCreation": "2024-10-04",
+      "firstPublicationDate": "2024-10-01",
+      "firstIndexDate": "2024-10-04",
+      "fullTextReceivedDate": "2025-03-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

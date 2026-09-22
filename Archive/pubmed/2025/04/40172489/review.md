@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (review article, no supplementary material provided)
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the presented review, benchmarking claims, and proposed future directions
+- **Shared manuscript claim summary** The authors review recent advances in coarse-grained (CG) simulations of biomolecular condensates, focusing on 1-bead-per-amino-acid (1BPA) protein models. They introduce OpenABC, a software tool for streamlining CG condensate simulations, and present benchmarking results comparing four CG force fields (HPS-Urry, CALVADOS2, MOFF, Mpipi) on single-chain properties of disordered proteins, folded proteins, and multi-domain proteins, as well as phase behavior predictions for three synthetic IDPs. The authors report inconsistencies in phase behavior predictions across force fields despite similar single-chain statistics, and propose improvements through enriched training datasets, many-body potentials, and advanced optimization algorithms.
+- **Visible evidence base** Main text figures (Figures 1–5), figure captions, and text descriptions; references to supporting information (Figures S1, S2; tables) not directly visible
+- **Missing materials affecting confidence** Supplementary material (Figures S1, S2, simulation details, protein sequences, parameter tables) not provided; specific numerical values for benchmarking results (e.g., rRMSE values beyond the one mentioned) not fully reported in main text; details of OpenABC implementation and benchmarking protocols only partially described
+
+## Reviewer
+- **Overall assessment** This review provides a timely and useful overview of CG simulations of biomolecular condensates, with a clear focus on 1BPA models. The introduction of OpenABC as an open-source toolkit is a valuable contribution to the community. The benchmarking results, while preliminary, highlight an important issue: the divergence in phase behavior predictions across force fields that otherwise perform similarly on single-chain properties. The proposed future directions (training data, many-body potentials, optimization algorithms) are sensible and well-articulated. However, the manuscript has several weaknesses: the benchmarking is limited in scope (only three synthetic IDPs for phase behavior), the presentation of quantitative results is sparse, and some claims about model performance are not fully supported by the data shown. The review would benefit from a more systematic and quantitative comparison, clearer discussion of limitations, and a more critical assessment of the field's current state.
+- **Who would be interested in the results, and why** Researchers in the fields of computational biophysics, molecular simulation, and biomolecular condensates. Specifically, those developing or using CG models for intrinsically disordered proteins and phase-separating systems would find the benchmarking and the OpenABC toolkit directly relevant. The review also offers a useful entry point for experimentalists interested in understanding the capabilities and limitations of current CG simulation approaches for condensates.
+- **Major strengths** 1. Timely and relevant topic with clear practical implications. 2. Introduction of OpenABC as a unified platform for multiple CG force fields is a practical contribution. 3. The benchmarking, though limited, addresses an important and underappreciated issue: the transferability of CG models from single-chain to phase-separation behavior. 4. The proposed future directions are well-reasoned and grounded in current methodological developments. 5. The review is generally well-written and accessible to a broad audience.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Our benchmarking identifies inconsistencies in phase behavior predictions across force fields, even though these models accurately capture single-chain statistics."
+  - **Evidence pointer** Figure 5; Section "Benchmarking coarse-grained models and streamlining condensate simulations using OpenABC"
+  - **Concern** The benchmarking of phase behavior is based on only three synthetic IDPs, and the results are presented qualitatively (relative stability ordering) without quantitative phase diagrams (e.g., coexistence densities, critical temperatures). The claim of "inconsistencies" is supported, but the scope is too narrow to draw general conclusions about force field performance. Moreover, the authors do not report whether the observed differences are statistically significant or within expected uncertainty. The lack of quantitative data (e.g., binodal curves, critical points) weakens the strength of the claim.
+  - **Why it matters** The central message of the review hinges on the claim that CG force fields diverge in phase behavior predictions. If this claim is based on a very limited set of test cases and qualitative comparisons, it may not be robust enough to justify the strong recommendation for new force field development. A more thorough benchmarking with quantitative metrics would strengthen the case.
+  - **Resolution test** Provide quantitative phase diagrams (e.g., coexistence densities vs. temperature) for the three IDPs across all four force fields, including error estimates. If possible, expand the benchmarking to a larger set of sequences with diverse amino acid compositions. Report statistical measures of agreement/disagreement between force fields.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "As shown in Figure 4A, all four models accurately reproduce the average Rg of most disordered proteins."
+  - **Evidence pointer** Figure 4A; Section "Benchmarking coarse-grained models and streamlining condensate simulations using OpenABC"
+  - **Concern** The statement that all four models "accurately reproduce" Rg is based on visual inspection of Figure 4A, but no quantitative error metrics are provided in the main text (the rRMSE value of 0.159 is mentioned only after excluding A1 variants for MOFF). The authors do not report the rRMSE for each model individually, nor do they discuss the spread of errors across the 18 proteins. Without these numbers, the claim of "accurate" reproduction is not rigorously supported.
+  - **Why it matters** The benchmarking of single-chain properties is a key part of the paper's evidence base. If the accuracy of the models is not quantified, readers cannot assess the significance of the subsequent divergence in phase behavior predictions. The claim that models "accurately capture" single-chain statistics is central to the paper's narrative.
+  - **Resolution test** Report rRMSE (or similar metrics) for each model across the full set of 18 IDPs, with and without the A1 variants. Provide a table or figure with per-protein errors. Discuss the range of errors and any systematic biases.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "OpenABC supports the implementation of various coarse-grained force fields, enabling their performance evaluation."
+  - **Evidence pointer** Figure 3; Section "Benchmarking coarse-grained models and streamlining condensate simulations using OpenABC"
+  - **Concern** The description of OpenABC is brief. Key details for reproducibility are missing: the exact simulation protocols (e.g., integration time step, thermostat, barostat, simulation length, system size, number of replicas), the method for constructing initial configurations for slab simulations, and the criteria for determining phase coexistence. The authors refer to "additional details provided in the Supporting Information," but this material was not available for review.
+  - **Why it matters** For a tool intended to "streamline" and "enable" CG simulations, the lack of detailed protocols in the main text limits the reader's ability to reproduce the benchmarking results or to use OpenABC effectively. This is particularly important for a methods-oriented contribution.
+  - **Resolution test** Provide a more detailed description of the simulation protocols in the main text or ensure the Supporting Information contains all necessary information. Include a table summarizing key simulation parameters for each force field and system.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "The inconsistent results among the different CG models, as presented in the previous section, underscore the need for further model development."
+  - **Evidence pointer** Section "Advancing the accuracy and transferability of coarse-grained models"
+  - **Concern** The proposed future directions (training data, many-body potentials, optimization algorithms) are reasonable but are presented as a list of general suggestions without a concrete roadmap or critical evaluation of the challenges. For example, the authors do not discuss the potential pitfalls of using atomistic simulations as training data (e.g., force field inaccuracies, sampling limitations), nor do they address the computational cost of many-body potentials in the context of large-scale condensate simulations. The section reads more as a perspective than a critical analysis.
+  - **Why it matters** The review's contribution to the field would be strengthened by a more critical and nuanced discussion of the proposed directions, including potential trade-offs and open questions. This would help guide future research more effectively.
+  - **Resolution test** Expand the discussion to include specific challenges and potential solutions for each proposed direction. For example, discuss the accuracy of current atomistic force fields for IDPs, the scalability of many-body potentials, and the risk of overfitting in optimization algorithms.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2 caption
+  - **Issue** The figure caption describes the interaction strength parameter λij but does not clearly explain how the values are normalized or compared across different force fields. The visual comparison of interaction matrices may be misleading if the scales differ.
+  - **Required correction** Add a clear description of the color scale and normalization used in the interaction matrices. If the scales differ between force fields, state this explicitly and discuss the implications for comparison.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Benchmarking coarse-grained models and streamlining condensate simulations using OpenABC"
+  - **Evidence pointer** Text near Figure 4
+  - **Issue** The description of the benchmarking for folded proteins and multi-domain proteins is brief. It is unclear how the "secondary structure potentials" were incorporated into all models and whether this introduces any bias. The statement that "no biases favoring long-range native contacts were introduced" is helpful but needs more context.
+  - **Required correction** Provide a brief explanation of how the secondary structure potentials were implemented for each force field and why this approach was chosen. Clarify the distinction between the simulations of single-domain folded proteins and multi-domain proteins.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Quantifying emergent phase behaviors using coarse-grained models"
+  - **Evidence pointer** Text near end of section
+  - **Issue** The authors mention that "simulation studies have identified the stabilizing contributions of nonspecific hydrophobic interactions, as well as hydrogen bonds, salt bridges, and π-π and cation-π interactions" but do not provide specific citations for these claims in the text (citations are present but not enumerated in the provided text).
+  - **Required correction** Ensure all claims are properly cited with specific references. If the citations are present in the original manuscript, verify they are correctly placed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The abstract states that "such refinements could significantly improve the predictive capacity of coarse-grained models, bridging molecular details with emergent condensate behaviors." This is a strong claim that is not directly supported by the results presented in the review, which focus on benchmarking rather than demonstrating improved predictions.
+  - **Required correction** Soften the claim or add a qualifier such as "we propose that" or "we argue that" to make it clear this is a perspective rather than a demonstrated result.
+- **Technical failings that need to be addressed before the case is established** 1. Quantitative benchmarking results (rRMSE values, phase diagram data) are not fully reported in the main text. 2. The phase behavior benchmarking is limited to three synthetic IDPs, which is insufficient to support general conclusions. 3. Simulation protocols for OpenABC benchmarking are not described in sufficient detail for reproducibility. 4. The claim that models "accurately reproduce" Rg is not supported by quantitative metrics in the main text.
+- **Assessment against Nature-style criteria** **Originality:** The review is timely and addresses an important gap in the field, particularly the benchmarking of CG models for phase behavior. The introduction of OpenABC is a practical contribution. However, the individual ideas (training data, many-body potentials, optimization) are not novel in themselves. **Scientific importance:** The issue of force field transferability from single-chain to phase behavior is of high importance for the condensate simulation community. The review highlights this effectively. **Interdisciplinary readership:** The topic is relevant to biophysicists, computational chemists, and cell biologists. The writing is generally accessible, though some technical details may be challenging for non-specialists. **Technical soundness:** The benchmarking is technically sound but limited in scope. The lack of quantitative metrics and detailed protocols weakens the technical rigor. **Readability for nonspecialists:** The review is well-structured and clearly written, with helpful figures. However, some sections assume familiarity with CG simulation methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The review addresses an important topic and introduces a useful tool, but the benchmarking claims need to be supported by more quantitative data and the scope of the benchmarking should be expanded or the claims appropriately qualified.
+
+## Risk / unsupported claims
+- The claim that "all four models accurately reproduce the average Rg of most disordered proteins" is not quantitatively supported in the main text (only one rRMSE value is mentioned, and only after excluding A1 variants for MOFF).
+- The claim that "inconsistencies in phase behavior predictions across force fields" is based on only three synthetic IDPs and qualitative comparisons; the generalizability of this finding is not established.
+- The statement that "MOFF exhibits particularly poor performance on A1 variants, primarily due to its reliance on reference structures generated by ColabFold" is plausible but not fully demonstrated; the causal link is inferred rather than proven.
+- The proposed future directions (training data, many-body potentials, optimization algorithms) are presented as promising but are not critically evaluated for potential limitations or trade-offs.
+- The claim that "single-chain statistics" are "accurately captured" by the models is not supported by a comprehensive quantitative comparison across all 18 proteins.

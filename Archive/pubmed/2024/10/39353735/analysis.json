@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39353735",
+  "title": "Beyond RNA-binding domains: determinants of protein-RNA binding.",
+  "authors": "Zigdon, Inbal; Carmi, Miri; Brodsky, Sagie; Rosenwaser, Zohar; Barkai, Naama; Jonas, Felix",
+  "journal": "RNA (New York, N.Y.)",
+  "published_date": "2024-10-03",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过RNA-tagging和序列突变实验，系统揭示无序区域(IDR)而非预测的RNA结合域(RBD)在体内决定蛋白-RNA结合亲和力与特异性，虽对象为蛋白-RNA互作而非PPI，且方法为实验而非AI/物理模拟，但其对IDR介导结合机制的解构思路对无序蛋白互作机制建模有直接启发。",
+  "abstract": "RNA-binding proteins (RBPs) are composed of RNA-binding domains (RBDs) often linked via intrinsically disordered regions (IDRs). Structural and biochemical analyses have shown that disordered linkers contribute to RNA binding by orienting the adjacent RBDs and also characterized certain disordered repeats that directly contact the RNA. However, the relative contribution of IDRs and predicted RBDs to the in vivo binding pattern is poorly explored. Here, we upscaled the RNA-tagging method to map the transcriptome-wide binding of 16 RBPs in budding yeast. We then performed extensive sequence mutations to distinguish binding determinants within predicted RBDs and the surrounding IDRs in eight of these. The majority of the predicted RBDs tested were not individually essential for mRNA binding. However, multiple IDRs that lacked predicted RNA-binding potential appeared essential for binding affinity or specificity. Our results provide new insights into the function of poorly studied RBPs and emphasize the complex and distributed encoding of RBP-RNA interaction in vivo.",
+  "abstract_zh": "RNA结合蛋白（RBPs）由RNA结合结构域（RBDs）组成，这些结构域通常通过 intrinsically disordered regions（IDRs）连接。结构和生化分析表明，无序连接区通过定向相邻的RBDs来促进RNA结合，并表征了某些直接接触RNA的无序重复序列。然而，IDRs和预测的RBDs对体内结合模式的相对贡献尚未得到充分探索。在此，我们扩展了RNA标记方法，以绘制出芽酵母中16种RBPs的全转录组结合图谱。随后，我们对其中八种RBPs进行了广泛的序列突变，以区分预测RBDs及周围IDRs内的结合决定因素。所测试的大多数预测RBDs并非单独对mRNA结合至关重要。然而，多个缺乏预测RNA结合潜力的IDRs似乎对结合亲和力或特异性至关重要。我们的结果为功能研究较少的RBPs提供了新见解，并强调了体内RBP-RNA相互作用的复杂性和分布式编码。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39353735/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39353735/",
+  "paper_page_path": "papers/pubmed/39353735/index.html"
+}

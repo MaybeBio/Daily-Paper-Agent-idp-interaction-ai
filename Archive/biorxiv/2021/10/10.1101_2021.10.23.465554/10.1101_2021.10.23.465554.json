@@ -1,0 +1,144 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.10.23.465554",
+  "title": "Loss-of-function, gain-of-function and dominant-negative mutations have profoundly different effects on protein structure: implications for variant effect prediction",
+  "doi": "10.1101/2021.10.23.465554",
+  "abstract": "Most known pathogenic mutations occur in protein-coding regions of DNA and change the way proteins are made. Taking protein structure into account has therefore provided great insight into the molecular mechanisms underlying human genetic disease. While there has been much focus on how mutations can disrupt protein structure and thus cause a loss of function (LOF), alternative mechanisms, specifically dominant-negative (DN) and gain-of-function (GOF) effects, are less understood. Here, we have investigated the protein-level effects of pathogenic missense mutations associated with different molecular mechanisms. We observe striking differences between recessive vs dominant, and LOF vs non-LOF mutations, with dominant, non-LOF disease mutations having much milder effects on protein structure, and DN mutations being highly enriched at protein interfaces. We also find that nearly all computational variant effect predictors underperform on non-LOF mutations, even those based solely on sequence conservation. However, we do find that non-LOF mutations could potentially be identified by their tendency to cluster in three-dimensional space. Overall, our work suggests that many pathogenic mutations that act via DN and GOF mutations are likely being missed by current variant prioritisation strategies, but that there is considerable scope to improve computational predictions through consideration of molecular disease mechanisms.",
+  "authors": [
+    "Gerasimavicius L",
+    "Livesey BJ",
+    "Marsh JA"
+  ],
+  "published_date": "2021-10-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.10.23.465554",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.10.23.465554.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR410643",
+    "raw_record": {
+      "id": "PPR410643",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR410643"
+        ]
+      },
+      "doi": "10.1101/2021.10.23.465554",
+      "title": "Loss-of-function, gain-of-function and dominant-negative mutations have profoundly different effects on protein structure: implications for variant effect prediction",
+      "authorString": "Gerasimavicius L, Livesey BJ, Marsh JA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gerasimavicius L",
+            "lastName": "Gerasimavicius",
+            "firstName": "Lukas",
+            "initials": "L"
+          },
+          {
+            "fullName": "Livesey BJ",
+            "lastName": "Livesey",
+            "firstName": "Benjamin",
+            "initials": "BJ"
+          },
+          {
+            "fullName": "Marsh JA",
+            "lastName": "Marsh",
+            "firstName": "Joseph",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4132-0628"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4132-0628"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Most known pathogenic mutations occur in protein-coding regions of DNA and change the way proteins are made. Taking protein structure into account has therefore provided great insight into the molecular mechanisms underlying human genetic disease. While there has been much focus on how mutations can disrupt protein structure and thus cause a loss of function (LOF), alternative mechanisms, specifically dominant-negative (DN) and gain-of-function (GOF) effects, are less understood. Here, we have investigated the protein-level effects of pathogenic missense mutations associated with different molecular mechanisms. We observe striking differences between recessive  vs dominant, and LOF  vs non-LOF mutations, with dominant, non-LOF disease mutations having much milder effects on protein structure, and DN mutations being highly enriched at protein interfaces. We also find that nearly all computational variant effect predictors underperform on non-LOF mutations, even those based solely on sequence conservation. However, we do find that non-LOF mutations could potentially be identified by their tendency to cluster in three-dimensional space. Overall, our work suggests that many pathogenic mutations that act via DN and GOF mutations are likely being missed by current variant prioritisation strategies, but that there is considerable scope to improve computational predictions through consideration of molecular disease mechanisms.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/04/15/2021.10.23.465554.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.10.23.465554"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR410643"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR410643&type=FILE&fileName=EMS144435-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS144435",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-10-26",
+      "firstPublicationDate": "2021-10-24",
+      "firstIndexDate": "2021-10-26",
+      "fullTextReceivedDate": "2022-04-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

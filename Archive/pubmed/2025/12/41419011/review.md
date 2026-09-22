@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report development of MetIoR, a meta-predictor for intrinsic disorder in RNA binding proteins (RBPs), built from five individual disorder predictors and a Random Forest classifier, achieving 93.87% accuracy and AUC 0.91, deployed as a freely accessible webserver.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, performance comparisons, or validation results are provided beyond the stated metrics
+- **Missing materials affecting confidence** Full methods, training and test dataset composition, feature engineering, individual predictor identities, cross-validation details, comparison with existing generic and RBP-specific predictors, webserver implementation details, and any external validation results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to the specialized area of disorder prediction in RBPs, addressing a genuine gap in the field. However, the evidence provided is insufficient to evaluate the technical soundness, generalizability, or practical utility of MetIoR. The reported performance metrics, while promising, cannot be assessed without details on dataset construction, benchmark comparisons, and validation strategy. The work may be of interest to computational biologists and experimentalists studying RBP function, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists developing and benchmarking disorder prediction tools; experimental researchers studying RNA binding proteins and their roles in cellular processes such as ribosome and spliceosome assembly; bioinformaticians interested in meta-learning approaches for protein property prediction. The webserver availability increases potential utility for the broader RBP research community.
+- **Major strengths** Addresses a specific and recognized gap in the field, namely the lack of RBP-specific disorder predictors. The meta-approach combining multiple individual predictors is a well-established and sensible strategy. The reported accuracy and AUC values are high, suggesting potential practical utility. Deployment as a freely accessible webserver enhances accessibility and reproducibility for end users.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that MetIoR achieves 93.87% accuracy and AUC 0.91, and outperforms all component predictors
+  - **Evidence pointer** Abstract, performance metrics section; location not provided
+  - **Concern** The abstract provides no information on the dataset used for training and evaluation, including its size, source, sequence redundancy reduction, or the proportion of disordered versus ordered residues. Without this context, the reported accuracy and AUC values cannot be interpreted. High accuracy in disorder prediction can be trivially achieved on imbalanced datasets where the majority class dominates.
+  - **Why it matters** Performance metrics are only meaningful relative to the benchmark dataset and its class distribution. If the dataset is heavily biased toward ordered residues, the reported accuracy may be misleading. Additionally, without comparison to existing generic disorder predictors or other RBP-specific tools, the claimed advantage cannot be established.
+  - **Resolution test** Provide full dataset description, class balance, and performance metrics on a balanced or standard benchmark dataset. Include comparison with at least several existing disorder predictors, both generic and RBP-specific, using identical evaluation protocols.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and validation
+  - **Claim pointer** The claim that MetIoR is a meta-predictor built from five individual disorder predictors using a Random Forest classifier
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract does not identify the five individual predictors, the features used for the meta-classifier, or the hyperparameter selection process. The statement that "the most optimal combination of individual predictors" was examined is vague and cannot be evaluated. No external validation on independent datasets is mentioned.
+  - **Why it matters** Reproducibility is a core requirement for computational tools. Without specifying the component predictors and the training procedure, other researchers cannot replicate or independently verify the results. External validation is essential to demonstrate generalizability beyond the training data.
+  - **Resolution test** Specify all five component predictors, the feature representation used for the meta-classifier, hyperparameter tuning details, and provide results from external validation on at least one independent RBP dataset not used in training.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative performance
+  - **Claim pointer** The claim that MetIoR "outperforms all its individual component predictors"
+  - **Evidence pointer** Abstract, performance comparison statement; location not provided
+  - **Concern** While the abstract states that MetIoR outperforms its component predictors, no quantitative comparison is provided. It is unclear by what margin MetIoR exceeds each component, and whether this improvement is statistically significant.
+  - **Why it matters** A meta-predictor is only justified if it provides meaningful improvement over its components. Without statistical significance testing or effect sizes, the claimed advantage may be marginal or within noise.
+  - **Resolution test** Provide a table comparing MetIoR against each component predictor on the same benchmark, including confidence intervals or statistical significance tests.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence of methods description; location not provided
+  - **Issue** The phrase "using a meta-approach" is redundant with the term "meta predictor" and adds no information.
+  - **Required correction** Remove the redundant phrase or replace with a more informative description of the meta-learning strategy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Webserver description
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Issue** The abstract states the webserver is freely accessible but provides no information on input limits, output format, or availability of an application programming interface.
+  - **Required correction** Add a brief description of webserver functionality, including input requirements and output types, or state that such details are available in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Performance metric reporting
+  - **Evidence pointer** Abstract, performance metrics statement; location not provided
+  - **Issue** The abstract reports accuracy and AUC but does not mention sensitivity, specificity, or Matthews correlation coefficient, which are standard metrics for imbalanced classification problems in disorder prediction.
+  - **Required correction** Include additional metrics such as sensitivity, specificity, and Matthews correlation coefficient, or justify their omission.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of dataset details and external validation prevents assessment of whether the reported performance is meaningful or generalizable. The absence of component predictor identities and training details undermines reproducibility.
+- **Assessment against Nature-style criteria** Originality: The focus on RBP-specific disorder prediction addresses a niche gap, but the meta-approach itself is not novel. Scientific importance: Potentially relevant to the RBP research community, but the broader impact is unclear without demonstration of improved utility over existing tools. Interdisciplinary readership: Likely limited to computational biologists and bioinformaticians; the abstract does not frame the work for a broader biological audience. Technical soundness: Cannot be assessed from the abstract due to missing methodological details and validation. Readability for nonspecialists: The abstract is generally clear but uses technical terms without sufficient context for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful tool, but the absence of dataset details, validation, and comparative analysis means the core claims cannot be evaluated. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The reported accuracy of 93.87% and AUC of 0.91 are unsupported without dataset characteristics and class balance information.
+- The claim that MetIoR outperforms all component predictors is unsupported without quantitative comparison data.
+- The claim that MetIoR is "fast" is unsupported as no runtime or computational efficiency data are provided.
+- The general statement that intrinsic disorder is "ubiquitous" and "essential" is a broad claim not substantiated with specific evidence in the abstract, though this is likely contextual background rather than a central finding.

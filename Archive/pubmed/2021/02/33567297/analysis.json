@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33567297",
+  "title": "Probing coupled conformational transitions of intrinsically disordered proteins in their interactions with target proteins.",
+  "authors": "Koh, Junseock",
+  "journal": "Analytical biochemistry",
+  "published_date": "2021-02-11",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究无序蛋白在与靶蛋白互作中的耦合构象转变的热力学特征，并提出模拟工具辅助量热实验设计，聚焦IDR-PPI机制建模，兼具对象、互作与物理模拟方法。",
+  "abstract": "Intrinsically disordered proteins or regions (IDPs or IDRs) are abundant in the eukaryotic proteome and critical in regulation of dynamic cellular processes. Intensive structural investigations have proposed the molecular mechanisms of the interaction between IDRs and their binding partners. Here we extract the distinct thermodynamic features of coupled conformational transitions of IDRs founding the interaction mechanisms. We also present simulation tools to facilitate a design of the calorimetric experiments probing and quantifying the conformational transitions of IDRs. The suggested thermodynamic approach will further advance our understanding of distribution among multiple states of IDRs in their interactions with target molecules.",
+  "abstract_zh": "固有无序蛋白或区域（IDPs或IDRs）在真核生物蛋白质组中含量丰富，对动态细胞过程的调控至关重要。深入的结构研究已提出IDRs与其结合伙伴相互作用的分子机制。在此，我们提取了构成相互作用机制的IDRs耦合构象转变的独特热力学特征。我们还提供了模拟工具，以促进设计和量化IDRs构象转变的量热实验。所建议的热力学方法将进一步增进我们对IDRs在与靶分子相互作用中多状态分布的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33567297/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33567297/",
+  "paper_page_path": "papers/pubmed/33567297/index.html"
+}

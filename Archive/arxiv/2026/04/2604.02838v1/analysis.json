@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2604.02838v1",
+  "title": "Mechanistic insights into the spatial organization of RNA polymerase proteins and the chromosome in E. coli cells",
+  "authors": "Debarshi Mitra; Jens-Uwe Sommer",
+  "journal": "",
+  "published_date": "2026-04-03",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究用模拟模型探讨NusA蛋白通过相分离驱动RNA聚合酶簇及rrn操纵子空间共定位的机制，虽对象非典型IDP但涉及无序蛋白介导的凝聚体PPI机制建模，方法为物理模拟，对本课题有直接启发。",
+  "abstract": "Along the bacterial chromosome, regions called rrn operons contain genes that are transcribed into ribosomal RNA. These operons are among the most transcriptionally active sites in the genome. It has been observed in E. coli that RNA polymerase (RNAP), while binding to these genetic loci along the chromosome during transcription, forms dense clusters, leading to spatial colocalization of the operons within the cell. Recent experimental evidence suggests that liquid-liquid phase separation contributes to the formation of RNAP clusters, with the antitermination factor NusA playing a key role. We present a simulation model to investigate the mechanisms underlying the formation of these biomolecular condensates. We propose that mutual attraction between NusA proteins, which exhibit a miscibility gap at higher concentrations, drives condensate formation via a polymer-assisted condensation pathway, and we demonstrate how these condensates promote the colocalization of rrn operons. Our results reconcile seemingly disparate experimental observations of chromosomal organization reported in fluorescence-based imaging and Hi-C experiments.",
+  "abstract_zh": "沿细菌染色体，称为rrn操纵子的区域包含转录为核糖体RNA的基因。这些操纵子是基因组中转录活性最高的位点之一。在大肠杆菌中观察到，RNA聚合酶（RNAP）在转录过程中结合这些染色体上的遗传位点时，会形成密集的簇，导致操纵子在细胞内的空间共定位。最近的实验证据表明，液-液相分离（liquid-liquid phase separation）有助于RNAP簇的形成，其中抗终止因子NusA起关键作用。我们提出一个模拟模型来研究这些生物分子凝聚体形成的机制。我们假设NusA蛋白之间的相互吸引（在高浓度下表现出混溶间隙）通过聚合物辅助凝聚途径驱动凝聚体形成，并展示这些凝聚体如何促进rrn操纵子的共定位。我们的结果调和了基于荧光成像和Hi-C实验中报道的看似矛盾的染色体组织观察结果。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2604.02838v1",
+  "source_url": "https://arxiv.org/abs/2604.02838v1",
+  "paper_page_path": "papers/arxiv/2604.02838v1/index.html"
+}

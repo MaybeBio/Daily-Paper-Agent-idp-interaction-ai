@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "35876068",
+    "doi": "10.1093/nar/gkac599",
+    "title": "Spliceosomal SL1 RNA binding to U1-70K: the role of the extended RRM."
+  },
+  "content": {
+    "abstract": "The RNA recognition motif (RRM) occurs widely in RNA-binding proteins, but does not always by itself support full binding. For example, it is known that binding of SL1 RNA to the protein U1-70K in the U1 spliceosomal particle is reduced when a region flanking the RRM is truncated. How the RRM flanking regions that together with the RRM make up an 'extended RRM' (eRRM) contribute to complex stability and structural organization is unknown. We study the U1-70K eRRM bound to SL1 RNA by thermal dissociation and laser temperature jump kinetics; long-time molecular dynamics simulations interpret the experiments with atomistic resolution. Truncation of the helix flanking the RRM on its N-terminal side, 'N-helix,' strongly reduces overall binding, which is further weakened under higher salt and temperature conditions. Truncating the disordered region flanking the RRM on the C-terminal side, 'C-IDR', affects the local binding site. Surprisingly, all-atom simulations show that protein truncation enhances base stacking interactions in the binding site and leaves the overall number of hydrogen bonds intact. Instead, the flanking regions of the eRRM act in a distributed fashion via collective interactions with the RNA when external stresses such as temperature or high salt mimicking osmotic imbalance are applied.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Binding",
+      "RNA/metabolism",
+      "*RNA Recognition Motif",
+      "RNA-Binding Proteins/metabolism",
+      "*Ribonucleoprotein, U1 Small Nuclear/metabolism",
+      "*Spliceosomes/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gopan, Gopika",
+        "Ghaemi, Zhaleh",
+        "Davis, Caitlin M",
+        "Gruebele, Martin"
+      ],
+      "short_names": [
+        "Gopan G",
+        "Ghaemi Z",
+        "Davis CM",
+        "Gruebele M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9291-8123"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois, Urbana, IL 61801, USA.",
+        "Department of Chemistry, University of Illinois, Urbana, IL 61801, USA.",
+        "Department of Chemistry, University of Illinois, Urbana, IL 61801, USA.",
+        "Department of Physics, University of Illinois, Urbana, IL 61801, USA.",
+        "Department of Chemistry, University of Illinois, Urbana, IL 61801, USA.",
+        "Department of Physics, University of Illinois, Urbana, IL 61801, USA.",
+        "Center for Biophysics and Quantitative Biology, University of Illinois, Urbana, IL 61801, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gopan, Gopika",
+        "short_name": "Gopan G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois, Urbana, IL 61801, USA."
+        ]
+      },
+      {
+        "full_name": "Ghaemi, Zhaleh",
+        "short_name": "Ghaemi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois, Urbana, IL 61801, USA."
+        ]
+      },
+      {
+        "full_name": "Davis, Caitlin M",
+        "short_name": "Davis CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois, Urbana, IL 61801, USA.",
+          "Department of Physics, University of Illinois, Urbana, IL 61801, USA."
+        ]
+      },
+      {
+        "full_name": "Gruebele, Martin",
+        "short_name": "Gruebele M",
+        "identifiers": [
+          "0000-0001-9291-8123"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois, Urbana, IL 61801, USA.",
+          "Department of Physics, University of Illinois, Urbana, IL 61801, USA.",
+          "Center for Biophysics and Quantitative Biology, University of Illinois, Urbana, IL 61801, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2022 Aug 12",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/26 06:00",
+    "fetched_at": "2026-09-20 12:12:29"
+  },
+  "links": {
+    "cites": [
+      "41776049",
+      "40247750",
+      "40111633",
+      "39060315",
+      "38164604"
+    ],
+    "refs": [
+      "34140531",
+      "33826329",
+      "33811140",
+      "33329715",
+      "32752662",
+      "31896580",
+      "30698746",
+      "30481682",
+      "28829039",
+      "28806086",
+      "28553706",
+      "27819658",
+      "27529183",
+      "27048167",
+      "25659967",
+      "25555158",
+      "25052091",
+      "24452469",
+      "24288369",
+      "23832629",
+      "22682242",
+      "22096102",
+      "21536904",
+      "21127008",
+      "21113136",
+      "20844764",
+      "19351898",
+      "19325628",
+      "18515081",
+      "18342629",
+      "17722973",
+      "17473849",
+      "17185597",
+      "16834346",
+      "16738410",
+      "16487339",
+      "16222654",
+      "16179478",
+      "15914668",
+      "15184028",
+      "12080134",
+      "12060727",
+      "12022860",
+      "11994740",
+      "11866529",
+      "10613902",
+      "9685421",
+      "9665702",
+      "9151692",
+      "9030686",
+      "8744570",
+      "8636650",
+      "8036511",
+      "2529425",
+      "2467746",
+      "1899282",
+      "1716386",
+      "1715588",
+      "1003464"
+    ],
+    "similar": [
+      "35876068",
+      "21536904",
+      "33811140",
+      "39023093",
+      "22563826",
+      "8076607",
+      "24748659",
+      "11788718",
+      "19447915",
+      "16738410",
+      "23703211",
+      "32133712",
+      "18202700",
+      "15611175",
+      "7516470",
+      "19325628",
+      "19784376",
+      "16407334",
+      "22019700",
+      "8387646",
+      "1508720",
+      "18293956",
+      "7479068",
+      "10580472",
+      "17980039",
+      "28542332",
+      "8972845",
+      "29802200",
+      "8643384",
+      "25052091",
+      "8736559",
+      "19838329",
+      "12466552",
+      "15811912",
+      "10593939",
+      "15990112",
+      "40247750",
+      "9685421",
+      "11545738",
+      "2467746",
+      "9761791",
+      "29080206",
+      "8776903",
+      "18303858",
+      "19190090",
+      "7984237",
+      "9814759",
+      "34837346",
+      "11006293",
+      "27592836",
+      "9826776",
+      "16611943",
+      "17963484",
+      "18414657",
+      "16278830",
+      "12724403",
+      "24146627",
+      "35351812",
+      "36454011",
+      "10743615",
+      "8091213",
+      "7667103",
+      "20194618",
+      "8743327",
+      "21419778",
+      "26333287",
+      "32522889",
+      "39804219",
+      "23754852",
+      "23796518",
+      "15914668",
+      "15863726",
+      "14688384",
+      "12270158",
+      "24902715",
+      "15938712",
+      "9592147",
+      "1420366",
+      "25355317",
+      "34140531",
+      "12034457",
+      "35730996",
+      "15133128",
+      "17622584",
+      "15166240",
+      "24023061",
+      "7935481",
+      "27354704",
+      "28829039",
+      "8629024",
+      "12603136",
+      "7565787",
+      "11867547",
+      "19603745",
+      "37890778",
+      "32653695",
+      "9030686",
+      "28806086",
+      "18154282",
+      "10360356"
+    ],
+    "review": [
+      "35876068"
+    ],
+    "pmc": [
+      "9371917"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35876068/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35876068",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac599",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

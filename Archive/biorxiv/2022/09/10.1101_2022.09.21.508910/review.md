@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, acknowledgements, footnotes) as provided.
+- **Assessment boundary** Scientific content, evidence quality, internal consistency, and alignment with Nature-style criteria. No assessment of formatting, grammar, or editorial fit beyond stated criteria.
+- **Shared manuscript claim summary** The authors report that the ribosomal protein msL1/msL2, found in microsporidian ribosomes, has conserved sequence and ribosomal location but entirely dissimilar three-dimensional structures in different species. They propose that this "evolutionary fold switch" is driven by rRNA truncation, specifically changes in helix H52, and infer an evolutionary scenario involving de novo gene birth and coevolution with rRNA.
+- **Visible evidence base** Cryo-EM structures (PDB 6RM3, 7QEP, 6ZU5, 4V88), sequence analyses (HMMER, Rate4Site), disorder predictions (PONDR VLXT), AlphaFold predictions, phylogenetic tree construction, rRNA sequence alignments. Figures 1-3 and Supplementary Figures 1-2 and Data S1-S2 are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-3, Supplementary Figures 1-2, Supplementary Data S1-S2, and all numerical data (e.g., RMSD calculations, contact areas, sequence conservation percentages) are not included. Methods details for structural comparisons and phylogenetic analysis are incomplete. No raw data or statistical analyses are provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially striking observation: a ribosomal protein with conserved sequence and location but completely different folds in different organisms. The core claim is intriguing and could be of broad interest. However, the provided text lacks the primary evidence (figures, data) needed to verify the structural comparisons, sequence analyses, and evolutionary inferences. The causal link between rRNA truncation and fold switching is presented as a hypothesis but is not rigorously tested. The manuscript is well-written and the conceptual framing is clear, but the evidence base as presented is insufficient to fully establish the case.
+- **Who would be interested in the results, and why** Evolutionary biologists studying protein structure-function relationships, particularly those interested in fold switching, de novo gene birth, and molecular coevolution. Structural biologists studying ribosome evolution and the role of ribosomal proteins. Researchers in protein biophysics interested in intrinsically disordered proteins and their role in assemblies. The work could also appeal to synthetic biologists interested in engineering protein assemblies.
+- **Major strengths** 1. The observation of a conserved protein with completely dissimilar folds in different organisms is novel and potentially paradigm-challenging. 2. The study leverages high-quality cryo-EM structures, providing a solid experimental basis for the structural claims. 3. The evolutionary scenario proposed is plausible and well-articulated, connecting structural observations to broader evolutionary concepts. 4. The manuscript is clearly written and accessible to a broad scientific audience.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that msL1/msL2 has "entirely dissimilar structures" in different organisms, with a backbone RMSD of 11.4 Å.
+  - **Evidence pointer** Figure 1, Results section "The msL1/msL2 fold switch in microsporidian species", location not provided
+  - **Concern** The primary evidence for the central claim, the structural comparison shown in Figure 1, is not provided. The RMSD value of 11.4 Å is stated but the alignment method, the specific residues compared, and the structural superposition are not shown. Without the figure, it is impossible to assess whether the structural difference is as dramatic as claimed or whether the comparison is methodologically sound.
+  - **Why it matters** The entire manuscript hinges on the veracity of the structural dissimilarity. If the structural comparison is flawed or the RMSD is calculated in a non-standard way, the central claim collapses. The reader cannot evaluate this without the figure and associated methods.
+  - **Resolution test** Provide Figure 1 with clear structural superpositions, alignment statistics, and a detailed description of the RMSD calculation method. Include a comparison with typical RMSD values for homologous proteins to contextualize the 11.4 Å value.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors claim that the fold switch is "likely caused by changes in the msL1/msL2-binding site in the ribosome; specifically, by variations in microsporidian rRNA" and that "rRNA truncation was a major driver of the msL1/msL2 fold switch."
+  - **Evidence pointer** Results section "The msL1/msL2 fold switch is likely caused by rRNA truncation", Figure 3, location not provided
+  - **Concern** The causal link between rRNA truncation and fold switching is inferred from correlative observations: H52 is shorter in species with msL1/msL2, and docking simulations suggest longer H52 would not accommodate the protein. However, no direct experimental test (e.g., mutagenesis, in vitro binding assays, or evolutionary reconstruction) is presented. The authors acknowledge this is a hypothesis, but the language in the results and discussion often overstates the certainty.
+  - **Why it matters** The evolutionary scenario proposed is a major part of the manuscript's significance. Without direct evidence for causation, the claim remains speculative. The manuscript would be strengthened by clearly distinguishing between correlation and causation and by proposing testable predictions.
+  - **Resolution test** Provide direct experimental evidence, such as mutational analysis of H52 length or binding assays, or clearly reframe the claim as a hypothesis with explicit testable predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors claim that "each lineage of microsporidian parasites may encode structurally dissimilar variants of msL1/msL2" based on sequence analysis of uncharacterized homologs.
+  - **Evidence pointer** Results section "Each microsporidian lineage bears a dissimilar ortholog of msL1/msL2", Figure 2, Supplementary Figures 1-2, location not provided
+  - **Concern** The inference that all microsporidian lineages have structurally dissimilar msL1/msL2 variants is based on sequence conservation analysis, not structural data. The authors show that binding residues are poorly conserved in some species, but this does not necessarily imply a different fold. The claim is speculative and goes beyond the available evidence.
+  - **Why it matters** This claim extends the central finding to a broader evolutionary context. If unsupported, it weakens the manuscript's impact and could mislead readers about the prevalence of fold switching.
+  - **Resolution test** Provide structural predictions or experimental structures for additional species, or temper the claim to reflect that sequence divergence suggests potential structural variation, not confirmed dissimilarity.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that msL1/msL2 "has a conserved location in the ribosome but entirely dissimilar structures in different organisms." This is a strong claim that is not fully supported by the evidence presented, as only two structures are directly compared.
+  - **Required correction** Soften the language to "dissimilar structures in the two organisms analyzed" or provide additional structural evidence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Methods section "Comparative analysis of microsporidian ribosome structures"
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The methods for structural comparison are described briefly. The use of Coot for superposition and RMSD calculation is mentioned, but details on the alignment (e.g., which residues were aligned, whether it was a global or local alignment) are missing.
+  - **Required correction** Provide a more detailed description of the structural alignment and RMSD calculation, including the specific residues used and any filtering criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "The msL1/msL2 fold switch in microsporidian species"
+  - **Evidence pointer** Figure 1, location not provided
+  - **Issue** The text mentions that conserved residues "form dissimilar contacts with the ribosome" but does not provide quantitative data (e.g., contact maps, buried surface areas) to support this.
+  - **Required correction** Include quantitative analysis of the contact interfaces, such as buried surface area or specific residue-residue contacts, in the figure or supplementary material.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section "msL1/2 is an example of fold switching likely driven by changes in its binding partner"
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion invokes a "Sewall Wright adaptive fitness landscape" to explain the evolutionary scenario. This is a useful conceptual framework, but it is not developed or supported by any quantitative modeling or data.
+  - **Required correction** Either remove the fitness landscape reference or provide a more explicit connection to the data, such as a schematic or simulation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing structural evidence), R1-M2 (lack of causal evidence), R1-M3 (overgeneralization from sequence data). These are the primary technical issues that prevent the case from being fully established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The observation of a conserved protein with completely dissimilar folds in different organisms is novel and challenges conventional assumptions about sequence-structure relationships.
+  - **Scientific importance** Potentially high. If confirmed, the finding could reshape understanding of protein evolution and the role of structural context in determining fold. However, the importance is diminished by the lack of direct causal evidence.
+  - **Interdisciplinary readership** Moderate to high. The topic bridges structural biology, evolutionary biology, and biochemistry, and the writing is accessible. However, the heavy reliance on structural details may limit appeal to non-specialists.
+  - **Technical soundness** The structural comparisons appear methodologically sound based on the text, but the lack of figures and detailed methods prevents full verification. The sequence analysis and phylogenetic methods are standard but not fully described.
+  - **Readability for nonspecialists** Good. The manuscript is clearly written, with a logical flow and minimal jargon. The abstract and introduction effectively set up the problem.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation is potentially significant, but the manuscript as provided does not fully establish the case due to missing evidence and overinterpretation. The authors should provide the missing figures and data, temper causal claims, and clarify the scope of their conclusions.
+
+## Risk / unsupported claims
+- The claim that msL1/msL2 has "entirely dissimilar structures" is unsupported without Figure 1 and detailed RMSD methodology.
+- The claim that rRNA truncation "caused" the fold switch is unsupported; only correlative evidence is presented.
+- The claim that "each lineage of microsporidian parasites may encode structurally dissimilar variants" is unsupported by structural data.
+- The statement that "the ribosome-bound structures of msL1/msL2 are likely defined by their contacts with the ribosome" is speculative and not directly tested.
+- The evolutionary scenario involving de novo gene birth and fitness landscapes is presented as a conclusion but is not supported by direct evidence.

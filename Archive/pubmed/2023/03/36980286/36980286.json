@@ -1,0 +1,468 @@
+{
+  "identity": {
+    "pmid": "36980286",
+    "doi": "10.3390/cells12060944",
+    "title": "Identification of Myelin Basic Protein Proximity Interactome Using TurboID Labeling Proteomics."
+  },
+  "content": {
+    "abstract": "Myelin basic protein (MBP) is one of the key structural elements of the myelin sheath and has autoantigenic properties in multiple sclerosis (MS). Its intracellular interaction network is still partially deconvoluted due to the unfolded structure, abnormally basic charge, and specific cellular localization. Here we used the fusion protein of MBP with TurboID, an engineered biotin ligase that uses ATP to convert biotin to reactive biotin-AMP that covalently attaches to nearby proteins, to determine MBP interactome. Despite evident benefits, the proximity labeling proteomics technique generates high background noise, especially in the case of proteins tending to semi-specific interactions. In order to recognize unique MBP partners, we additionally mapped protein interaction networks for deaminated MBP variant and cyclin-dependent kinase inhibitor 1 (p21), mimicking MBP in terms of natively unfolded state, size and basic amino acid clusters. We found that in the plasma membrane region, MBP is colocalized with adhesion proteins occludin and myelin protein zero-like protein 1, solute carrier family transporters ZIP6 and SNAT1, Eph receptors ligand Ephrin-B1, and structural components of the vesicle transport machinery-synaptosomal-associated protein 23 (SNAP23), vesicle-associated membrane protein 3 (VAMP3), protein transport protein hSec23B and cytoplasmic dynein 1 heavy chain 1. We also detected that MBP potentially interacts with proteins involved in Fe(2+) and lipid metabolism, namely, ganglioside GM2 activator protein, long-chain-fatty-acid-CoA ligase 4 (ACSL4), NADH-cytochrome b5 reductase 1 (CYB5R1) and metalloreductase STEAP3. Assuming the emerging role of ferroptosis and vesicle cargo docking in the development of autoimmune neurodegeneration, MBP may recruit and regulate the activity of these processes, thus, having a more inclusive role in the integrity of the myelin sheath.",
+    "keywords": [
+      "immunoprecipitation",
+      "membrane",
+      "multiple sclerosis",
+      "myelin basic protein",
+      "proximity labeling proteomics"
+    ],
+    "mesh_terms": [
+      "*Biotin",
+      "*Myelin Basic Protein/metabolism",
+      "Myelin Sheath/metabolism",
+      "Proteins",
+      "*Proteomics/methods",
+      "Protein Interaction Maps"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Smirnova, Evgeniya V",
+        "Rakitina, Tatiana V",
+        "Ziganshin, Rustam H",
+        "Saratov, George A",
+        "Arapidi, Georgij P",
+        "Belogurov, Alexey A Jr",
+        "Kudriaeva, Anna A"
+      ],
+      "short_names": [
+        "Smirnova EV",
+        "Rakitina TV",
+        "Ziganshin RH",
+        "Saratov GA",
+        "Arapidi GP",
+        "Belogurov AA Jr",
+        "Kudriaeva AA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9744-952X",
+        "ORCID: 0000-0002-3096-8659",
+        "ORCID: 0000-0003-2323-1859"
+      ],
+      "affiliations": [
+        "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia.",
+        "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia.",
+        "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia.",
+        "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia.",
+        "Phystech School of Biological and Medical Physics, Moscow Institute of Physics and Technology (National Research University), 141701 Dolgoprudny, Russia.",
+        "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia.",
+        "Phystech School of Biological and Medical Physics, Moscow Institute of Physics and Technology (National Research University), 141701 Dolgoprudny, Russia.",
+        "Federal Research and Clinical Center of Physical-Chemical Medicine of Federal Medical Biological Agency, 119435 Moscow, Russia.",
+        "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia.",
+        "Department of Biological Chemistry, Evdokimov Moscow State University of Medicine and Dentistry, Ministry of Health of Russian Federation, 127473 Moscow, Russia.",
+        "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Smirnova, Evgeniya V",
+        "short_name": "Smirnova EV",
+        "identifiers": [
+          "0000-0002-9744-952X"
+        ],
+        "affiliations": [
+          "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Rakitina, Tatiana V",
+        "short_name": "Rakitina TV",
+        "identifiers": [
+          "0000-0002-3096-8659"
+        ],
+        "affiliations": [
+          "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Ziganshin, Rustam H",
+        "short_name": "Ziganshin RH",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Saratov, George A",
+        "short_name": "Saratov GA",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia.",
+          "Phystech School of Biological and Medical Physics, Moscow Institute of Physics and Technology (National Research University), 141701 Dolgoprudny, Russia."
+        ]
+      },
+      {
+        "full_name": "Arapidi, Georgij P",
+        "short_name": "Arapidi GP",
+        "identifiers": [
+          "0000-0003-2323-1859"
+        ],
+        "affiliations": [
+          "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia.",
+          "Phystech School of Biological and Medical Physics, Moscow Institute of Physics and Technology (National Research University), 141701 Dolgoprudny, Russia.",
+          "Federal Research and Clinical Center of Physical-Chemical Medicine of Federal Medical Biological Agency, 119435 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Belogurov, Alexey A",
+        "short_name": "Belogurov AA",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia.",
+          "Department of Biological Chemistry, Evdokimov Moscow State University of Medicine and Dentistry, Ministry of Health of Russian Federation, 127473 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Kudriaeva, Anna A",
+        "short_name": "Kudriaeva AA",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, 117997 Moscow, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2023 Mar 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/30 06:00",
+    "fetched_at": "2026-09-20 20:44:12"
+  },
+  "links": {
+    "cites": [
+      "41606651",
+      "41427283",
+      "41376199",
+      "39953287",
+      "39374171",
+      "38556884"
+    ],
+    "refs": [
+      "36151203",
+      "35409131",
+      "34827627",
+      "33620411",
+      "33492617",
+      "33237311",
+      "32790717",
+      "32321917",
+      "31931020",
+      "31686107",
+      "31230715",
+      "30811957",
+      "30476243",
+      "30395289",
+      "30373789",
+      "30125270",
+      "30065114",
+      "29954845",
+      "29937354",
+      "29735997",
+      "29622601",
+      "29500351",
+      "29400715",
+      "29039416",
+      "28912526",
+      "28694532",
+      "27939446",
+      "27809316",
+      "27143409",
+      "26658614",
+      "26354550",
+      "26161972",
+      "25724358",
+      "25512606",
+      "25361579",
+      "25100014",
+      "24927568",
+      "24269233",
+      "24236572",
+      "24098271",
+      "23239230",
+      "22412018",
+      "22357624",
+      "22196732",
+      "21932369",
+      "21779027",
+      "21642640",
+      "21330331",
+      "21185260",
+      "20813532",
+      "19855925",
+      "19642704",
+      "19596245",
+      "19575650",
+      "19495910",
+      "19178193",
+      "18380344",
+      "18195106",
+      "18067320",
+      "17406544",
+      "16923811",
+      "16900293",
+      "16794783",
+      "16609065",
+      "16537438",
+      "16401070",
+      "16342957",
+      "16054818",
+      "15956978",
+      "15736962",
+      "15721315",
+      "15528192",
+      "15459338",
+      "15148362",
+      "14699164",
+      "14624363",
+      "13889647",
+      "12832457",
+      "12824496",
+      "12659941",
+      "11889465",
+      "11751924",
+      "11574476",
+      "11389436",
+      "11325958",
+      "11158623",
+      "10970765",
+      "10869185",
+      "10842755",
+      "10679780",
+      "9792637",
+      "9510142",
+      "9330869",
+      "9243183",
+      "9189041",
+      "9003242",
+      "8663154",
+      "8567721",
+      "8552679",
+      "8455717",
+      "8332193",
+      "8276896",
+      "8210174",
+      "8108733",
+      "8070404",
+      "8060616",
+      "8028665",
+      "7979250",
+      "7973638",
+      "7969419",
+      "7957071",
+      "7878010",
+      "7836452",
+      "7690687",
+      "7605608",
+      "7499863",
+      "2592413",
+      "2464072",
+      "2442307",
+      "2431910",
+      "2423083",
+      "2414848",
+      "2111712",
+      "2045359",
+      "1915857",
+      "1531961",
+      "1066686"
+    ],
+    "similar": [
+      "36980286",
+      "34827627",
+      "38703943",
+      "31805269",
+      "32106542",
+      "30755303",
+      "37244538",
+      "7577962",
+      "11032872",
+      "26518750",
+      "10887963",
+      "30079618",
+      "19218452",
+      "24516125",
+      "10802341",
+      "7681099",
+      "36280358",
+      "28694532",
+      "21647440",
+      "24459152",
+      "17531841",
+      "9526851",
+      "22744314",
+      "16900293",
+      "29722987",
+      "10869185",
+      "33028889",
+      "35688383",
+      "18322203",
+      "25847153",
+      "22249765",
+      "22524708",
+      "24956930",
+      "9202313",
+      "2448422",
+      "38305106",
+      "19369548",
+      "2433395",
+      "12578854",
+      "36966971",
+      "2457650",
+      "34722825",
+      "2416596",
+      "32478742",
+      "34416233",
+      "9389052",
+      "33139955",
+      "22128153",
+      "2440426",
+      "19519451",
+      "28076777",
+      "26081148",
+      "26903219",
+      "19642704",
+      "17513373",
+      "27519525",
+      "33492614",
+      "33529418",
+      "12175864",
+      "27276262",
+      "30112774",
+      "1706487",
+      "37061046",
+      "6163508",
+      "28470584",
+      "17823288",
+      "10329477",
+      "10679790",
+      "21312222",
+      "27346352",
+      "25255088",
+      "2421003",
+      "35806400",
+      "2420275",
+      "6205122",
+      "12682013",
+      "19503091",
+      "29111742",
+      "1280107",
+      "33053469",
+      "28470769",
+      "1384707",
+      "21185260",
+      "29806482",
+      "1370079",
+      "2473168",
+      "25697841",
+      "9251242",
+      "6196085",
+      "21357748",
+      "34889995",
+      "11746450",
+      "18814266",
+      "33998060",
+      "7504090",
+      "9218510",
+      "7509366",
+      "2478317",
+      "28851044",
+      "30322944",
+      "38977598",
+      "38473856",
+      "38111714",
+      "34017815",
+      "37733594",
+      "35805997",
+      "37188954",
+      "36861822",
+      "38891874",
+      "31123999",
+      "33898976",
+      "36682860",
+      "38405906",
+      "39229057",
+      "37777761",
+      "35363468",
+      "38160064",
+      "35665632"
+    ],
+    "review": [
+      "36980286",
+      "26518750",
+      "17531841",
+      "16900293",
+      "19519451",
+      "19642704",
+      "9251242",
+      "34889995",
+      "33898976",
+      "37777761"
+    ],
+    "pmc": [
+      "10047773"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells12060944",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36980286/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36980286",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2782",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

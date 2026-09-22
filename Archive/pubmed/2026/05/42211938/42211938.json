@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "42211938",
+    "doi": "10.1016/j.crfs.2026.101436",
+    "title": "A unified mechanistic perspective on protein-polysaccharide interactions underlying hybrid gel formation: A mini review."
+  },
+  "content": {
+    "abstract": "Hybrid protein-polysaccharide gels are an emerging class of soft materials with versatile applications in food science, pharmaceuticals, and biomedical engineering. By combining the functional attributes of proteins with the structural and hydration properties of polysaccharides, these gels exhibit tunable mechanical strength, viscoelasticity, and stimuli-responsive behaviors. Despite extensive studies on their macroscopic properties, the molecular mechanisms driving gelation remain incompletely understood. This mini review presents a unified mechanistic perspective, linking molecular interactions, mesoscale phase behavior, and macroscopic network formation. Early-stage complexation is governed by electrostatic interactions modulated by charge patchiness, counterion-release entropy, hydrogen bonding, hydrophobic contacts, van der Waals interactions, and covalent crosslinking. Such associations often trigger liquid-liquid phase separation (LLPS), forming coacervate droplets that serve as precursors for cluster aggregation. Droplet growth and coalescence eventually yield percolated three-dimensional networks, which determine gel mechanics and rheology. Environmental and formulation factors-including pH, ionic strength, protein-to-polysaccharide ratio, temperature, and mechanical stress-strongly influence each stage of assembly, enabling precise tuning of gel microstructure and function. Advanced experimental and computational tools, such as spectroscopy, scattering methods, imaging, and multiscale simulations, provide mechanistic insight across scales. By integrating these perspectives into a predictive framework, this review highlights strategies for designing mechanically robust and stimuli-responsive gels for food and biomedical applications. Remaining challenges include dynamic characterization, LLPS kinetics, network aging, and nanoscale binding pathways, offering directions for future research in next-generation functional materials.",
+    "keywords": [
+      "Food applications",
+      "Gelation mechanisms",
+      "Hybrid gels",
+      "Liquid-liquid phase separation",
+      "Network formation",
+      "Protein-polysaccharide interactions"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khoshdouni Farahani, Zahra"
+      ],
+      "short_names": [
+        "Khoshdouni Farahani Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Food Science and Technology, SR.C., Islamic Azad University, Tehran, 1477893855, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khoshdouni Farahani, Zahra",
+        "short_name": "Khoshdouni Farahani Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Food Science and Technology, SR.C., Islamic Azad University, Tehran, 1477893855, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current research in food science"
+    ],
+    "journal_abbrev": [
+      "Curr Res Food Sci"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/29 15:45",
+    "fetched_at": "2026-09-18 03:38:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41249099",
+      "40801047",
+      "39964249",
+      "39590091",
+      "39245115",
+      "38873444",
+      "37285881",
+      "36661769",
+      "36037377",
+      "35856491",
+      "33590489",
+      "33565203",
+      "32290178",
+      "30352231",
+      "29486391"
+    ],
+    "similar": [
+      "42211938",
+      "42475469",
+      "39389491",
+      "42196120",
+      "38697426",
+      "41721403",
+      "42493963",
+      "23912807",
+      "42276005",
+      "42494033",
+      "42409488",
+      "41937424",
+      "41722199",
+      "40868751",
+      "42001843",
+      "27318757",
+      "42122751",
+      "41679843",
+      "9850463",
+      "42270251",
+      "39964249",
+      "40545072",
+      "40912436",
+      "41442811",
+      "42270285",
+      "40895156",
+      "41906271",
+      "35656162",
+      "42042135",
+      "39245115",
+      "24937365",
+      "40973251",
+      "42042182",
+      "42225537",
+      "41476783",
+      "42354178",
+      "40886985",
+      "41768748",
+      "41641521",
+      "23348601",
+      "41831984",
+      "40854822",
+      "41327891",
+      "41508482",
+      "42155261",
+      "41057067",
+      "41902527",
+      "35621585",
+      "40459044",
+      "40304369",
+      "41969255",
+      "41703876",
+      "42196092",
+      "41441095",
+      "39328748",
+      "41703868",
+      "33646219",
+      "42169278",
+      "41475741",
+      "42248272",
+      "40279901",
+      "40397419",
+      "42452106",
+      "40120876",
+      "39643365",
+      "22332597",
+      "41814785",
+      "41942189",
+      "41456778",
+      "41294549",
+      "33533588",
+      "42505246",
+      "42252868",
+      "29667727",
+      "41895967",
+      "41358379",
+      "41590037",
+      "40675059",
+      "41371847",
+      "38616812",
+      "40370124",
+      "40616404",
+      "37233004",
+      "41537226",
+      "35841707",
+      "29195933",
+      "40985478",
+      "42284900",
+      "42288302",
+      "41185371",
+      "42543045",
+      "41604698",
+      "41457474",
+      "40790721",
+      "37948797",
+      "41960704",
+      "40127800",
+      "39844701",
+      "41169571",
+      "42435754"
+    ],
+    "review": [
+      "42211938",
+      "39389491",
+      "42196120",
+      "41721403",
+      "42276005",
+      "42409488",
+      "41937424",
+      "40868751",
+      "42001843",
+      "27318757",
+      "42122751",
+      "9850463",
+      "39964249",
+      "40912436",
+      "41442811",
+      "40895156",
+      "35656162",
+      "42042135",
+      "39245115",
+      "42042182",
+      "42225537",
+      "42354178",
+      "40886985",
+      "41768748",
+      "41641521",
+      "40854822",
+      "41327891",
+      "35621585",
+      "40304369",
+      "33646219",
+      "41475741",
+      "40279901",
+      "40397419",
+      "42452106",
+      "39643365",
+      "41814785",
+      "41294549",
+      "42505246",
+      "29667727",
+      "41590037",
+      "40675059",
+      "40370124",
+      "40616404",
+      "37233004",
+      "40985478",
+      "42284900"
+    ],
+    "pmc": [
+      "13213740"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2665-9271(26)00136-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42211938/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "38503517",
+    "doi": "10.1101/gad.351465.123",
+    "title": "Protein domains of low sequence complexity-dark matter of the proteome."
+  },
+  "content": {
+    "abstract": "This perspective begins with a speculative consideration of the properties of the earliest proteins to appear during evolution. What did these primitive proteins look like, and how were they of benefit to early forms of life? I proceed to hypothesize that primitive proteins have been preserved through evolution and now serve diverse functions important to the dynamics of cell morphology and biological regulation. The primitive nature of these modern proteins is easy to spot. They are composed of a limited subset of the 20 amino acids used by traditionally evolved proteins and thus are of low sequence complexity. This chemical simplicity limits protein domains of low sequence complexity to forming only a crude and labile type of protein structure currently hidden from the computational powers of machine learning. I conclude by hypothesizing that this structural weakness represents the underlying virtue of proteins that, at least for the moment, constitute the dark matter of the proteome.",
+    "keywords": [
+      "intrinsically disordered sequences",
+      "low-complexity sequences",
+      "phase separation"
+    ],
+    "mesh_terms": [
+      "*Proteome/chemistry/metabolism",
+      "Protein Domains",
+      "*Amino Acids/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "McKnight, Steven L"
+      ],
+      "short_names": [
+        "McKnight SL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, UT Southwestern Medical Center, Dallas, Texas 75390-9152, USA steven.mcknight@utsouthwestern.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "McKnight, Steven L",
+        "short_name": "McKnight SL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, UT Southwestern Medical Center, Dallas, Texas 75390-9152, USA steven.mcknight@utsouthwestern.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes & development"
+    ],
+    "journal_abbrev": [
+      "Genes Dev"
+    ],
+    "pub_date": "2024 Apr 17",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/20 00:42",
+    "fetched_at": "2026-09-21 06:05:21"
+  },
+  "links": {
+    "cites": [
+      "42416923",
+      "41596484",
+      "41294805",
+      "40995696",
+      "40513648",
+      "40369073",
+      "40171800",
+      "39970224",
+      "39928699",
+      "39605492"
+    ],
+    "refs": [
+      "37871501",
+      "37782781",
+      "35771920",
+      "35540725",
+      "34670847",
+      "34265844",
+      "33593918",
+      "33510441",
+      "33144500",
+      "32907935",
+      "30279180",
+      "29961577",
+      "27768897",
+      "27667364",
+      "24888500",
+      "24267890",
+      "23505349",
+      "22579282",
+      "22579281",
+      "20610545",
+      "20304795",
+      "17693259",
+      "17082456",
+      "14834147",
+      "12032079",
+      "11014182",
+      "10937989",
+      "6297745",
+      "3028647",
+      "2843425",
+      "1604315"
+    ],
+    "similar": [
+      "38503517",
+      "31986130",
+      "30218496",
+      "38297118",
+      "30248088",
+      "22416277",
+      "36575582",
+      "31264965",
+      "38748749",
+      "28934129",
+      "29080786",
+      "34347206",
+      "23912807",
+      "36008992",
+      "32230759",
+      "26851286",
+      "20011072",
+      "28134276",
+      "25736992",
+      "32295482",
+      "22009164",
+      "19067583",
+      "22027861",
+      "26578815",
+      "34382522",
+      "27037624",
+      "28002650",
+      "36291695",
+      "25086000",
+      "26726011",
+      "31521236",
+      "33616531",
+      "26513658",
+      "34418423",
+      "20158875",
+      "37924569",
+      "30420606",
+      "38672516",
+      "27074302",
+      "28612216",
+      "12543934",
+      "22702725",
+      "12215414",
+      "23341186",
+      "32828470",
+      "36959451",
+      "30198635",
+      "21693062",
+      "18831774",
+      "33454579",
+      "25568279",
+      "26800099",
+      "36528065",
+      "32473054",
+      "32712910",
+      "30002402",
+      "22182830",
+      "21909575",
+      "31362700",
+      "34000427",
+      "27893794",
+      "29961577",
+      "18523658",
+      "38039154",
+      "22369700",
+      "28924037",
+      "23671615",
+      "27804860",
+      "35094056",
+      "30733291",
+      "30439585",
+      "34639018",
+      "35767567",
+      "31425549",
+      "29127550",
+      "26712748",
+      "19000815",
+      "23917074",
+      "29806170",
+      "26790343",
+      "28257595",
+      "31840062",
+      "17391016",
+      "15842167",
+      "23266628",
+      "23988124",
+      "25468592",
+      "27565336",
+      "19626706",
+      "30829430",
+      "22383532",
+      "20885791",
+      "16128611",
+      "31642121",
+      "34390736",
+      "18927604",
+      "28971739",
+      "28942918",
+      "34439867"
+    ],
+    "review": [
+      "38503517",
+      "34347206",
+      "26851286",
+      "20011072",
+      "34382522",
+      "31521236",
+      "34418423",
+      "37924569",
+      "38672516",
+      "27074302",
+      "28612216",
+      "32828470",
+      "36959451",
+      "33454579",
+      "27804860",
+      "30439585",
+      "23988124",
+      "34390736"
+    ],
+    "pmc": [
+      "11065162"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38503517/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

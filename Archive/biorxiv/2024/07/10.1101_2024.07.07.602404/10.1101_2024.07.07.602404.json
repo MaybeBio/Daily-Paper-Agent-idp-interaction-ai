@@ -1,0 +1,539 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.07.602404",
+  "title": "Accelerated Missense Mutation Identification in Intrinsically Disordered Proteins using Deep Learning",
+  "doi": "10.1101/2024.07.07.602404",
+  "abstract": "We use a combination of Brownian dynamics (BD) simulation results and Deep Learning (DL) strategies for rapid identification of large structural changes caused by missense mutations in intrinsically disordered proteins (IDPs). We used ∼ 6500 IDP sequences from MobiDB database of length 20 − 300 to obtain gyration radii from BD simulation on a coarse-grained single bead amino acid model (HPS2 model) used by us and others [Seth et al . J. Chem. Phys. 160 , 014902 (2024), Dignon et al . PLOS Comp. Biology, 14, 2018, Tesei et al . PNAS, 118, 2021] to generate the training sets for the DL algorithm. Using the gyration radii ⟨ R g ⟩ of the simulated IDPs as the training set, we develop a multilayer perceptron neural net (NN) architecture that predicts the gyration radii of 33 IDPs previously studied using BD simulation with 97% accuracy from the sequence and the corresponding parameters from the HPS model. We now utilize this NN to predict gyration radii of every permutation of missense mutations in IDPs. Our approach successfully identifies mutation-prone regions that induce significant alterations in the radius of gyration when compared to the wild-type IDP sequence. We further validate the prediction by running BD simulations on the subset of identified mutants. The neural network yields a (10 4 − 10 6 )-fold faster computation in the search space for potentially harmful mutations. Our findings have substantial implications for rapid identification and understanding diseases related to missense mutations in IDPs and for the development of potential therapeutic interventions. The method can be extended to accurate predictions of other mutation effects in disordered proteins.",
+  "authors": [
+    "Swarnadeep Seth",
+    "Aniket Bhattacharya"
+  ],
+  "published_date": "2024-07-10",
+  "updated_date": "2024-07-10T20:50:16Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.07.602404",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.07.602404.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T21:56:12Z",
+        "timestamp": 1768514172212,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            10
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 66,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                10
+              ]
+            ],
+            "date-time": "2024-07-10T00:00:00Z",
+            "timestamp": 1720569600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  We use a combination of Brownian dynamics (BD) simulation results and Deep Learning (DL) strategies for rapid identification of large structural changes caused by missense mutations in intrinsically disordered proteins (IDPs). We used ∼ 6500 IDP sequences from MobiDB database of length 20 − 300 to obtain gyration radii from BD simulation on a coarse-grained single bead amino acid model (HPS2 model) used by us and others [Seth\n                  <jats:italic>et al</jats:italic>\n                  . J. Chem. Phys.\n                  <jats:bold>160</jats:bold>\n                  , 014902 (2024), Dignon\n                  <jats:italic>et al</jats:italic>\n                  . PLOS Comp. Biology, 14, 2018, Tesei\n                  <jats:italic>et al</jats:italic>\n                  . PNAS, 118, 2021] to generate the training sets for the DL algorithm. Using the gyration radii ⟨\n                  <jats:italic>R</jats:italic>\n                  <jats:sub>\n                    <jats:italic>g</jats:italic>\n                  </jats:sub>\n                  ⟩ of the simulated IDPs as the training set, we develop a multilayer perceptron neural net (NN) architecture that predicts the gyration radii of 33 IDPs previously studied using BD simulation with 97% accuracy from the sequence and the corresponding parameters from the HPS model. We now utilize this NN to predict gyration radii of every permutation of missense mutations in IDPs. Our approach successfully identifies mutation-prone regions that induce significant alterations in the radius of gyration when compared to the wild-type IDP sequence. We further validate the prediction by running BD simulations on the subset of identified mutants. The neural network yields a (10\n                  <jats:sup>4</jats:sup>\n                  − 10\n                  <jats:sup>6</jats:sup>\n                  )-fold faster computation in the search space for potentially harmful mutations. Our findings have substantial implications for rapid identification and understanding diseases related to missense mutations in IDPs and for the development of potential therapeutic interventions. The method can be extended to accurate predictions of other mutation effects in disordered proteins.\n                </jats:p>",
+      "DOI": "10.1101/2024.07.07.602404",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            10
+          ]
+        ],
+        "date-time": "2024-07-10T20:50:16Z",
+        "timestamp": 1720644616000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Accelerated Missense Mutation Identification in Intrinsically Disordered Proteins using Deep Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7271-0704",
+          "authenticated-orcid": false,
+          "given": "Swarnadeep",
+          "family": "Seth",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4370-0037",
+          "authenticated-orcid": false,
+          "given": "Aniket",
+          "family": "Bhattacharya",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002709"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2013.07.014"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adg7492"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-023-04897-3"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms19020336"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12551-022-00968-0"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaf4382"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.12.035"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.7"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-genet-112618-043527"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.8b00008"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.12",
+          "unstructured": "A database of intrinsically disordered proteins: https://mobidb.bio.unipd.it/"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl893"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c1mb05275f"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "107",
+          "DOI": "10.1007/978-1-4614-3704-8_7",
+          "article-title": "Analysis of Intrinsically Disordered Proteins by Small-Angle X-ray Scattering. Intrinsically Disordered Protein Analysis",
+          "volume": "896",
+          "year": "2012",
+          "journal-title": "Intrinsically Disordered Protein Analysis: Volume 2, Methods and Experimental Tools, Methods in Molecular Biology"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aan5774"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-023-02159-5"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0407146102"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.1000034"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1207719109"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biophys-062215-010915"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.5037683"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0607097104"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.0c02088"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3027"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmgm.2008.12.006"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fnagi.2022.938117"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1005941"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tesei, G. , Schulze, T. K. , Crehuet, R. & Lindorff-Larsen, K. Accurate model of liquid-liquid phase behavior of intrinsically disordered proteins from optimization of single-chain properties. Proceedings of the National Academy of Sciences 118, (2021).",
+          "DOI": "10.1073/pnas.2111696118"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/5.0176306"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.9b02575"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.4c00579"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.0c11479"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.34",
+          "unstructured": "HPS1 is the same as the scale introduced by Dignon et al., excepting the. Likewsie, HPS2 scale is the same as in M3 introduced by Tesei excepting the end groups are charged."
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-023-02159-5"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-07004-5"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja802124e"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(82)90515-0"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.bb.15.060186.001541"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0161-5890(83)90029-9"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(84)90309-7"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(87)90189-6"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0911107107"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1304749110"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s43588-021-00155-3"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature25762"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-18859-x"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-41274-x"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. N. Israelachvili , Intermolecular and Surface forces, 3rd edition, Elsevier (2011).",
+          "DOI": "10.1016/B978-0-12-391927-4.10001-5"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja01163a006"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.51",
+          "unstructured": "Neural networks from scratch in Python, Harrison Kinsley & Daniel Kukie/la (2020)."
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4929391"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biophys-120221-095357"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.0c00288"
+        },
+        {
+          "issue": "28",
+          "key": "2025031104201138000_2024.07.07.602404v3.55",
+          "first-page": "307",
+          "volume": "2",
+          "year": "1953",
+          "journal-title": "A value for n-person games. Contributions to the Theory of Games"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.56",
+          "first-page": "4765",
+          "article-title": "A Unified Approach to Interpreting Model Predictions",
+          "volume": "30",
+          "year": "2017",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.1412.6980"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2020.12.001"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2021.167196"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/d3me00053b"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-36443-x"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.62",
+          "unstructured": "Goodfellow, I. J. , Pouget-Abadie, J. , Mirza, M. , Xu, B. , Warde-Farley, D. , Ozair, S. , Courville, A. , Bengio, Y. , (2014). Generative adversarial nets: Proceedings of the 28th International Conference on Neural Information Processing Systems - volume 2. Guide Proceedings. https://dl.acm.org/doi/10.5555/2969033.2969125"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21005"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.adj8672"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2002570117"
+        },
+        {
+          "key": "2025031104201138000_2024.07.07.602404v3.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/5.0080512"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.07.07.602404",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:41:26Z",
+        "timestamp": 1768459286000
+      },
+      "score": 93.51631,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.07.07.602404"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            10
+          ]
+        ]
+      },
+      "references-count": 66,
+      "URL": "https://doi.org/10.1101/2024.07.07.602404",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.biomac.4c01124",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            10
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

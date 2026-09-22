@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or quantitative results were provided for verification
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations of patchy colloids to model two-species protein mixtures on 2D membranes. They report that concentration, valence, and bond strength control cluster size and growth kinetics. When one species is in large excess, it saturates the binding sites of the other, leading to kinetic arrest and effective size selection. This behavior is observed for both solid and fluid clusters with generic homotypic interactions.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were supplied
+- **Missing materials affecting confidence** Full manuscript, simulation details, parameter ranges, quantitative results, figures, and any statistical or error analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting mechanism for controlling cluster size in 2D phase-separating systems, namely kinetic arrest via binding-site saturation. The idea is conceptually clear and could be relevant to biological membrane organization. However, the abstract alone provides insufficient detail to evaluate the robustness, generality, or quantitative support for the claims. The distinction between solid and fluid clusters is mentioned but not explained, and the role of homotypic interactions is asserted without supporting evidence. The work may be of interest to the soft matter and biophysics communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying phase separation on membranes, cluster formation in biological systems, and the kinetics of self-assembly in patchy colloid systems. The proposed mechanism of size control via kinetic arrest could inform experimental design in synthetic or cellular contexts where cluster size matters.
+- **Major strengths** The central idea is simple and mechanistically plausible. The focus on kinetics rather than thermodynamics is a useful perspective. The claim that size selection arises from binding-site saturation is testable and could have broad applicability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that concentrations, valence, and bond strength control both cluster size and growth time rate.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that these parameters control size and growth rate, but no quantitative data, phase diagrams, or parameter sweeps are shown. It is unclear over what ranges these controls are effective, whether the effects are monotonic, or whether there are regimes where the control breaks down.
+  - **Why it matters** Without quantitative support, the claim is a qualitative assertion. The reader cannot assess the strength of the effect, the sensitivity to parameters, or the practical relevance for experimental systems.
+  - **Resolution test** Provide figures or tables showing cluster size and growth rate as functions of concentration, valence, and bond strength, with clear parameter ranges and error estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors claim that when one species is in large excess, it saturates the binding sites of the other species, leading to kinetic arrest and effective size selection.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The mechanism of binding-site saturation is stated as the cause of kinetic arrest, but no direct evidence is presented. For example, the abstract does not report measurements of binding site occupancy, arrest timescales, or a comparison with a control system without saturation.
+  - **Why it matters** The proposed mechanism is the core of the paper. If it is not directly demonstrated, alternative explanations such as crowding, depletion, or changes in effective interaction range cannot be excluded.
+  - **Resolution test** Show occupancy of binding sites as a function of excess species concentration, and demonstrate that arrest occurs only when saturation is reached. Include a control where saturation is prevented.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generality
+  - **Claim pointer** The authors claim that the phenomenology is observed in both solid and fluid clusters with additional generic homotypic interactions.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The distinction between solid and fluid clusters is introduced without definition. It is unclear whether these correspond to different interaction strengths, different particle shapes, or different dynamic states. The role of homotypic interactions is also not specified.
+  - **Why it matters** The claim of generality depends on the range of conditions tested. If only a narrow set of parameters was explored, the conclusion may not hold for other types of clusters or interaction schemes.
+  - **Resolution test** Define solid and fluid clusters operationally, and show that the size selection mechanism holds across a range of homotypic interaction strengths and cluster morphologies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "specific heterotypic bonds" is used without defining what makes them specific. The reader may wonder whether this refers to directional interactions, lock-and-key binding, or something else.
+  - **Required correction** Define the nature of the heterotypic bonds in the abstract or refer to a methods section where this is specified.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Motivation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract opens with a biological motivation but does not connect the simulation results back to any specific biological prediction or experimental observable.
+  - **Required correction** Add a sentence in the abstract stating what experimental signature would correspond to the predicted size selection, or what biological system could test this mechanism.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Claim wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "effective size selection" is vague. It is not clear whether the clusters reach a monodisperse size, a narrow distribution, or simply stop growing at a certain point.
+  - **Required correction** Specify the nature of the size distribution achieved, for example whether it is monodisperse, and quantify the polydispersity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The core claims of parameter control and the saturation mechanism require quantitative and direct evidence. R1-M3 is important for generality but not strictly blocking if the other concerns are resolved.
+- **Assessment against Nature-style criteria** Originality: the idea of using binding-site saturation for kinetic size control is not entirely new in the context of patchy colloids, but applying it to 2D biological membrane-like systems adds a fresh angle. Scientific importance: potentially high for understanding cluster size regulation in cells, but the current evidence does not yet demonstrate broad significance. Interdisciplinary readership: the topic bridges soft matter physics and cell biology, and the abstract is written in a way that is accessible to both. Technical soundness: cannot be assessed from the abstract alone; the simulation methodology and analysis are not visible. Readability for nonspecialists: the abstract is clear and concise, though some terms such as "patchy colloids" and "valence" may require prior knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The idea is promising and the abstract is well written, but the absence of quantitative results and direct mechanistic evidence prevents a supportive recommendation. I would be supportive if the technical concerns are resolved with appropriate data.
+
+## Risk / unsupported claims
+- The claim that concentrations, valence, and bond strength control cluster size and growth rate is unsupported without quantitative data.
+- The claim that binding-site saturation causes kinetic arrest is unsupported without direct occupancy measurements or control experiments.
+- The claim that the phenomenology applies to both solid and fluid clusters is unsupported without definitions and a demonstrated parameter range.
+- The relevance to biological membranes is asserted but not demonstrated with any biological comparison or experimental context.

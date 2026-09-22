@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "41062450",
+    "doi": "10.1093/nar/gkaf973",
+    "title": "PhaSepDB 3.0: a comprehensive knowledgebase of phase separation-related proteins from AI-assisted curation."
+  },
+  "content": {
+    "abstract": "Phase separation (PS) is a fundamental principle driving the formation of membraneless organelles (MLOs), which are critical for various cellular functions and pathological conditions. We present PhaSepDB 3.0 (https://db.phasep.pro/), a significantly updated knowledgebase of proteins related to PS. To address the challenges of curating a vast body of literature, we have implemented a novel human-AI collaborative workflow that integrates a large language model (LLM)-based agentic system with expert verification, enabling a major expansion and enrichment of the database. PhaSepDB 3.0 now contains 3,484 expert-curated entries for 1849 PS-related proteins, more than doubling the content of the previous version. The annotation framework has been restructured to capture deeper insights, including functional relevance, experimental evidence, and the intrinsic and extrinsic regulations of PS. A key new feature is the protein-wise summary page, which synthesizes data from multiple publications to provide a comprehensive overview of each protein's PS behaviour and functional relevance. With redesigned, user-friendly web interfaces, PhaSepDB 3.0 serves as a critical resource for the community, supporting researchers to explore the intricate basis of PS and its biological implications in greater detail.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Databases, Protein",
+      "Humans",
+      "*Knowledge Bases",
+      "*Proteins/metabolism/chemistry",
+      "Data Curation",
+      "*Artificial Intelligence",
+      "Software",
+      "User-Computer Interface",
+      "*Organelles/metabolism",
+      "Internet",
+      "Molecular Sequence Annotation",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "You, Kaiqiang",
+        "Li, Runyu",
+        "Lian, Ruixin",
+        "Li, Yuxuan",
+        "Yang, Hongzhining",
+        "Zhou, Yiran",
+        "Chen, Yangsheng",
+        "Wang, Likun",
+        "Fan, Zhaoqing",
+        "Ma, Liwei",
+        "Li, Tingting"
+      ],
+      "short_names": [
+        "You K",
+        "Li R",
+        "Lian R",
+        "Li Y",
+        "Yang H",
+        "Zhou Y",
+        "Chen Y",
+        "Wang L",
+        "Fan Z",
+        "Ma L",
+        "Li T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5038-1185",
+        "ORCID: 0000-0003-4266-0317"
+      ],
+      "affiliations": [
+        "Breast Center, Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education), Peking University Cancer Hospital and Institute, Beijing 100142, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "Institute of Systems Biomedicine, Department of Pathology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "Breast Center, Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education), Peking University Cancer Hospital and Institute, Beijing 100142, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "Breast Center, Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education), Peking University Cancer Hospital and Institute, Beijing 100142, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+        "Key Laboratory for Neuroscience, Ministry of Education/National Health Commission of China, Peking University, Beijing 100191, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "You, Kaiqiang",
+        "short_name": "You K",
+        "identifiers": [
+          "0000-0002-5038-1185"
+        ],
+        "affiliations": [
+          "Breast Center, Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education), Peking University Cancer Hospital and Institute, Beijing 100142, China."
+        ]
+      },
+      {
+        "full_name": "Li, Runyu",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Lian, Ruixin",
+        "short_name": "Lian R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuxuan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Hongzhining",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yiran",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yangsheng",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Likun",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Systems Biomedicine, Department of Pathology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Zhaoqing",
+        "short_name": "Fan Z",
+        "identifiers": [],
+        "affiliations": [
+          "Breast Center, Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education), Peking University Cancer Hospital and Institute, Beijing 100142, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Liwei",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Li, Tingting",
+        "short_name": "Li T",
+        "identifiers": [
+          "0000-0003-4266-0317"
+        ],
+        "affiliations": [
+          "Breast Center, Key Laboratory of Carcinogenesis and Translational Research (Ministry of Education), Peking University Cancer Hospital and Institute, Beijing 100142, China.",
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China.",
+          "Key Laboratory for Neuroscience, Ministry of Education/National Health Commission of China, Peking University, Beijing 100191, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jan 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/09 00:31",
+    "fetched_at": "2026-09-17 20:55:31"
+  },
+  "links": {
+    "cites": [
+      "42573943",
+      "42306984",
+      "42184109",
+      "41963487",
+      "41667449",
+      "41431842"
+    ],
+    "refs": [
+      "40468084",
+      "40037809",
+      "39836533",
+      "39552041",
+      "39516712",
+      "39486399",
+      "39455848",
+      "39426376",
+      "39271915",
+      "38714700",
+      "38531854",
+      "38459060",
+      "38069453",
+      "37024650",
+      "36755093",
+      "36124686",
+      "35688132",
+      "35687670",
+      "34404448",
+      "34163069",
+      "33774037",
+      "33386842",
+      "32554597",
+      "31906602",
+      "31612960",
+      "29602697",
+      "27056844"
+    ],
+    "similar": [
+      "41062450",
+      "31584089",
+      "36124686",
+      "33126250",
+      "33237286",
+      "39552041",
+      "41251150",
+      "41273075",
+      "34751395",
+      "38063081",
+      "40945783",
+      "30371819",
+      "34718734",
+      "41495476",
+      "41062452",
+      "24243840",
+      "31612960",
+      "41497647",
+      "32947964",
+      "31713636",
+      "31724716",
+      "34718740",
+      "39718444",
+      "39565202",
+      "29145629",
+      "35687670",
+      "17980028",
+      "29126295",
+      "39988670",
+      "31584092",
+      "25399417",
+      "29040681",
+      "39935019",
+      "40996714",
+      "31020553",
+      "30395287",
+      "34871295",
+      "34788852",
+      "21959866",
+      "22102590",
+      "24848695",
+      "31618524",
+      "38366291",
+      "39475178",
+      "35325185",
+      "31411687",
+      "17142230",
+      "29112715",
+      "14681372",
+      "39574417",
+      "30339214",
+      "22962482",
+      "38936693",
+      "37464880",
+      "34788843",
+      "27118214",
+      "32399560",
+      "34755880",
+      "41249866",
+      "22039153",
+      "26980520",
+      "33219674",
+      "40106799",
+      "34791383",
+      "18045787",
+      "22140112",
+      "27115627",
+      "22218860",
+      "34850135",
+      "39729356",
+      "41273079",
+      "16551660",
+      "26708988",
+      "29758260",
+      "26896845",
+      "36916735",
+      "25542617",
+      "34755867",
+      "31906602",
+      "20221912",
+      "32185395",
+      "36528388",
+      "15608167",
+      "26590405",
+      "39695945",
+      "17099229",
+      "29523070",
+      "39530217",
+      "32961307",
+      "38537198",
+      "41475374",
+      "40355757",
+      "41163446",
+      "30364969",
+      "36373969",
+      "22139911",
+      "32483629",
+      "18836194",
+      "40717285",
+      "32221380"
+    ],
+    "review": [
+      "41062450",
+      "32947964",
+      "39988670",
+      "24848695",
+      "31618524",
+      "37464880",
+      "29758260",
+      "25542617"
+    ],
+    "pmc": [
+      "12807760"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41062450/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4044",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf973",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

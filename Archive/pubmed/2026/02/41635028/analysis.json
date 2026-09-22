@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41635028",
+  "title": "Mapping Native Peptide-Peptide Noncovalent Interactions: Insights from Trapped Ion Mobility Spectrometry, Electron- and UV-Fragmentation, Tandem Mass Spectrometry, and Molecular Dynamics.",
+  "authors": "Santos-Fernandez, Miguel; Jeanne Dit Fouque, Kevin; Pita, Samuel Silva da Rocha; Chapagain, Prem P; Leng, Fenfei; Fernandez-Lima, Francisco",
+  "journal": "Journal of the American Society for Mass Spectrometry",
+  "published_date": "2026-02-04",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用离子淌度质谱与分子动力学研究无序蛋白HMGA2的AT-hook肽与C端尾肽复合物的非共价相互作用，揭示多种结合取向与结构多样性，直接涉及IDR介导的PPI机制建模，方法含MD但AI成分缺失。",
+  "abstract": "Noncovalent interactions play an important role in the way protein structures and protein-protein interactions are stabilized. Mapping these interactions at a molecular level is crucial as peptide complexes serve as models for protein-protein interfaces. In this work, complementary analyses using trapped ion mobility spectrometry (TIMS), tandem ECD/UVPD MS fragmentation, and molecular dynamics were applied to the study of native peptide-peptide complexes. In particular, three complexes representing peptide-peptide intramolecular interactions of the intrinsically disordered high-mobility group AT-Hook2 (HMGA2) protein were described. AT-hook peptides, when complexed with the C-terminal tail (CTMP), showed a higher gas-phase stability for ATHP1-CTMP, followed by ATHP2-CTMP and ATHP3-CTMP. High sequence coverage was obtained by using ECD and UVPD fragmentation for the single peptides ( approximately 100%) and the peptide-peptide complexes ( approximately 75%). At least three peptide-peptide structures were separated in the mobility domain for the ATHP-CTMP complexes. All three complexes showed high structural diversity and the possibility of being aligned in forward and backward orientations.",
+  "abstract_zh": "非共价相互作用在蛋白质结构及蛋白质-蛋白质相互作用的稳定化中扮演重要角色。在分子水平上绘制这些相互作用至关重要，因为肽复合物可作为蛋白质-蛋白质界面的模型。本研究采用捕获离子迁移谱（TIMS）、串联ECD/UVPD质谱碎裂及分子动力学进行互补分析，以研究天然肽-肽复合物。特别地，描述了代表 intrinsically disordered 高迁移率族AT-Hook2（HMGA2）蛋白的肽-肽分子内相互作用的三种复合物。AT-hook肽与C端尾部（CTMP）复合时，ATHP1-CTMP表现出更高的气相稳定性，其次为ATHP2-CTMP和ATHP3-CTMP。通过使用ECD和UVPD碎裂，对单一肽（约100%）和肽-肽复合物（约75%）获得了高序列覆盖率。在迁移率域中，ATHP-CTMP复合物至少分离出三种肽-肽结构。所有三种复合物均显示出高结构多样性，并存在正向和反向排列的可能性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41635028/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41635028/",
+  "paper_page_path": "papers/pubmed/41635028/index.html"
+}

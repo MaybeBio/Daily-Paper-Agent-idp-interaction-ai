@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no figures, methods, or full text provided
+- **Shared manuscript claim summary** The authors report that a minimal RGG-rich peptide derived from an intrinsically disordered region (IDR) selectively templates and stabilises the human telomeric TERRA RNA G-quadruplex (rG4) through weak binding interactions, and that this specificity is determined by individual nucleotide and amino acid identities, enabling discrimination between RNA and DNA G4s and explaining the high frequency of monogenic mutations in IDRs.
+- **Visible evidence base** Abstract text only; no experimental data, figures, tables, or methods are available for inspection
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, NMR and CD data, sequence details of the peptide and RNA constructs, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis regarding IDR-mediated selective stabilisation of RNA G-quadruplexes, with implications for RNA folding and disease-associated mutations. However, the claims are broad and mechanistically ambitious relative to the evidence described. The abstract lacks sufficient quantitative detail, control descriptions, and contextual comparison to existing literature to allow independent evaluation of the central conclusions. The work may be of interest to the RNA biology and biophysics communities, but the case as presented is not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying RNA G-quadruplex biology, intrinsically disordered proteins, RNA-protein interactions, and the molecular basis of RNA folding. The potential link to monogenic mutations in IDRs may also attract clinical geneticists and those interested in disease mechanisms involving RNA regulatory pathways.
+- **Major strengths** The study addresses a timely and important question about how IDRs achieve selectivity in RNA binding despite their generally promiscuous interactions. The use of a minimal peptide system to dissect sequence-specific determinants is a sensible reductionist approach. The combination of NMR and CD to probe both nucleotide and amino acid contributions is methodologically appropriate for the stated aims.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that the IDR "selectively templates and stabilises the structure of the human telomeric TERRA rG4, providing a unique pathway to RNA folding that does not rely on high-affinity binding or monovalent cations."  
+  - **Evidence pointer** Abstract only; no figures or tables provided  
+  - **Concern** The abstract states that weak binding interactions are used, but no quantitative binding affinities, stoichiometries, or thermodynamic parameters are reported. The claim of "selective templating" implies a structural mechanism that is not described in the abstract. The assertion that this pathway does not rely on monovalent cations is presented without comparative data showing cation-independent folding.  
+  - **Why it matters** The central novelty of the work rests on the claim of a cation-independent, selective stabilisation mechanism. Without quantitative binding data and explicit comparison to cation-dependent folding conditions, the claim cannot be distinguished from non-specific stabilisation or artefactual effects.  
+  - **Resolution test** Provide binding affinities (e.g., Kd values) for the peptide against TERRA rG4 and control G4s, show folding yields or melting temperatures in the absence versus presence of monovalent cations, and demonstrate that the stabilisation is selective for TERRA over other rG4s and DNA G4s.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Specificity of interaction  
+  - **Claim pointer** The authors claim that "individual nucleotide and amino acid identities determine the specificity of the interaction between RGG peptides and rG4s, explaining how IDRs can selectively recognise RNA over DNA G4s."  
+  - **Evidence pointer** Abstract only; NMR and CD analyses mentioned but no data shown  
+  - **Concern** The abstract does not specify which nucleotides or amino acids were varied, how many variants were tested, or what the magnitude of the specificity differences was. The claim that this explains in vivo specificity and the high frequency of monogenic mutations in IDRs is a substantial extrapolation that requires demonstration of a direct link between the in vitro findings and in vivo observations.  
+  - **Why it matters** The explanatory power of the study depends on showing that the identified sequence determinants are both necessary and sufficient for RNA-over-DNA discrimination, and that these determinants correspond to residues mutated in disease. Without this evidence, the claims remain speculative.  
+  - **Resolution test** Present systematic mutagenesis data for both peptide and RNA, show selectivity ratios for RNA versus DNA G4s, and provide a clear mapping of disease-associated mutations onto the identified specificity determinants.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalisability  
+  - **Claim pointer** The authors state that "IDRs are present in and essential for the function of nearly all the proteins involved in the regulation, cell and developmental processes" and imply that the described mechanism is broadly applicable.  
+  - **Evidence pointer** Abstract only  
+  - **Concern** The study uses a single minimal RGG-rich peptide and one rG4 (TERRA). The generalisation to "IDRs" as a class is not supported by the described evidence. The abstract does not indicate whether the findings were replicated with other IDR-derived peptides or other rG4 targets.  
+  - **Why it matters** The title and framing suggest a general principle, but the evidence base appears limited to one system. Overgeneralisation could mislead readers about the breadth of the mechanism.  
+  - **Resolution test** Include data from at least one additional IDR-derived peptide and one additional rG4 sequence, or explicitly limit the conclusions to the tested system in the abstract.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "minimal RGG-rich peptide"  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract does not define the peptide length, sequence, or how "minimal" was determined.  
+  - **Required correction** Specify the peptide sequence and length, and state the criteria used to define it as minimal.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Contextualisation  
+  - **Affected element** Comparison to existing literature  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract does not reference prior work on RGG-rG4 interactions or cation-dependent G4 folding, making it difficult to assess the novelty of the "unique pathway" claim.  
+  - **Required correction** Add brief contextual statements in the abstract or introduction that position the findings relative to known RGG-rG4 binding and G4 folding mechanisms.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "promiscuously"  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The term "promiscuously" is used without operational definition, and the abstract later claims selectivity, which may appear contradictory.  
+  - **Required correction** Clarify the distinction between promiscuous binding in general and selective stabilisation in this specific context.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of selective, cation-independent stabilisation and sequence-specific determinants are not supported by the evidence described in the abstract. Quantitative data and control experiments are required. R1-M3 is non-blocking but should be addressed to avoid overgeneralisation.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of IDR-mediated selective G4 stabilisation is potentially original, but the abstract does not provide enough detail to distinguish it from prior reports of RGG-rG4 interactions.  
+  - **Scientific importance** The topic is important for understanding RNA folding and IDR function, and the potential link to disease mutations adds significance. However, the importance is not fully realised without stronger evidence.  
+  - **Interdisciplinary readership** The work could appeal to RNA biologists, biophysicists, and clinical geneticists, but the abstract is too specialised in its current form to engage a broad audience.  
+  - **Technical soundness** The use of NMR and CD is appropriate, but the abstract does not demonstrate that the experiments were designed with adequate controls or that the conclusions follow from the data.  
+  - **Readability for nonspecialists** The abstract is dense and assumes familiarity with G-quadruplex biology and IDR terminology. A brief explanation of key terms would improve accessibility.  
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is reasonable, but the abstract alone does not provide sufficient quantitative or comparative data to support the central claims. I would be supportive if the full manuscript addresses the blocking concerns with robust experimental evidence.
+
+## Risk / unsupported claims
+- The claim of a "unique pathway to RNA folding that does not rely on high-affinity binding or monovalent cations" is unsupported without comparative folding data in the absence of cations and binding affinity measurements.
+- The claim that individual nucleotide and amino acid identities "explain" in vivo specificity and the high frequency of monogenic mutations in IDRs is an extrapolation not supported by the abstract evidence.
+- The generalisation from a single peptide-rG4 pair to IDRs as a class is not supported.
+- The assertion that IDRs are "essential for the function of nearly all" regulatory proteins is a broad statement that is not substantiated in the abstract.

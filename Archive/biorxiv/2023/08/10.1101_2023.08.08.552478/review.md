@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full preprint text as provided
+- **Assessment boundary** Scientific claims, experimental support, and technical soundness based solely on the supplied abstract and title
+- **Shared manuscript claim summary** The authors report a novel interaction between the human PEX5 TPR domain and a conserved IPSWQI motif in the C-terminal intrinsically disordered region of PEX14, determined by NMR and biochemical methods. They propose that this interaction is non-overlapping with PTS1 binding, induces a more open TPR supercoil resembling the apo conformation, and that mutation of interface residues causes partial protein import defects and reduced PEX5 steady-state levels, consistent with a role in receptor recycling.
+- **Visible evidence base** Abstract only. No figures, tables, methods details, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full methods, NMR structural statistics, mutagenesis details, functional assay protocols, quantification of import defects, and any control experiments. Without these, structural and functional claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in peroxisomal protein import, specifically the molecular basis of receptor recycling. The proposed novel interface between PEX5 TPR and PEX14 IPSWQI is plausible and potentially significant. However, the evidence presented in the abstract is insufficient to fully support the structural and functional conclusions. The claims are intriguing but require detailed experimental validation that is not visible in the supplied material.
+- **Who would be interested in the results, and why** Researchers in peroxisome biology, membrane protein trafficking, and receptor-mediated protein translocation. The work may also interest structural biologists studying TPR domain interactions and intrinsically disordered protein regions. The potential link to receptor recycling could have implications for understanding peroxisomal disorders.
+- **Major strengths** The identification of a previously unrecognized binding interface is a valuable contribution. The use of NMR to determine a peptide-bound structure adds rigor. The functional mutagenesis approach linking structural findings to cellular phenotypes strengthens the biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence
+  - **Claim pointer** The three-dimensional structure of the PEX14 IPSWQI peptide bound to the PEX5 TPR domain is reported.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states a structure was determined, but no structural statistics, resolution, or validation metrics are provided. It is unclear whether this is a high-resolution NMR structure or a low-resolution model.
+  - **Why it matters** Without quality metrics, the structural claim cannot be assessed for reliability. A poorly defined structure would undermine the conclusion about the open supercoil conformation.
+  - **Resolution test** Provide NMR structural statistics, including number of restraints, RMSD values, and Ramachandran analysis, in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** Mutation of binding site residues leads to a partial protein import defect and decrease of PEX5 steady-state concentration, resembling receptor recycling mutants.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which residues were mutated, the extent of the import defect, or how the phenotype was quantified. The comparison to recycling mutants is qualitative and lacks direct experimental evidence linking the interface to recycling per se.
+  - **Why it matters** The functional claim is central to the proposed role in receptor recycling. Without quantitative data and appropriate controls, the phenotype could arise from indirect effects on protein stability or folding.
+  - **Resolution test** Provide detailed mutagenesis data, including residue positions, import assay results with statistical analysis, and direct measurements of PEX5 recycling or membrane release.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The PEX14 interaction is non-overlapping with PTS1 binding and shows a more open TPR supercoil resembling the apo conformation.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims a conformational change but does not provide evidence that this change is functionally relevant. The resemblance to the apo state is descriptive, not mechanistic.
+  - **Why it matters** The conformational change is used to support a role in recycling, but without showing that this change affects PEX5 release or receptor dynamics, the interpretation remains speculative.
+  - **Resolution test** Include experiments showing that the open conformation alters PEX5 affinity for PTS1 or affects receptor recycling kinetics in vitro or in vivo.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "shows a more open supercoil of the TPR fold" is ambiguous without a reference state or quantitative measure.
+  - **Required correction** Define the apo and holo states clearly and provide a quantitative measure of the supercoil opening, such as inter-helix distances.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental details
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "biochemical methods" but does not specify which assays were used to characterize the interaction.
+  - **Required correction** List the specific biochemical techniques, such as pull-downs, ITC, or SPR, in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Literature comparison
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not discuss how this new interface relates to previously characterized PEX5-PEX14 interactions beyond the WxxxF motifs.
+  - **Required correction** Add a sentence in the discussion or abstract placing the new interface in the context of existing structural and functional data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The structural and functional claims require full experimental details and quantitative data. Without these, the central conclusions are not established.
+- **Assessment against Nature-style criteria** Originality is high, as the proposed interface is novel. Scientific importance is potentially high for peroxisome biology, but the current evidence is insufficient to confirm significance. Interdisciplinary readership is plausible, given the combination of structural and cell biology. Technical soundness cannot be fully assessed from the abstract alone. Readability for nonspecialists is adequate, though some terms are specialized.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript has potential, but the provided evidence is insufficient to establish the structural and functional claims. Full data are required for a definitive assessment.
+
+## Risk / unsupported claims
+- The three-dimensional structure of the PEX14 IPSWQI peptide bound to the PEX5 TPR domain is reported without structural quality metrics, making it unverifiable.
+- The claim that the interaction resembles receptor recycling mutants is unsupported by direct experimental evidence in the abstract.
+- The conformational change to a more open TPR supercoil is described but not quantitatively demonstrated or linked to function.
+- The statement that the interaction is non-overlapping with PTS1 binding is plausible but not supported by visible data.

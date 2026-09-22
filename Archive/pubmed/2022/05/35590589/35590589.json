@@ -1,0 +1,222 @@
+{
+  "identity": {
+    "pmid": "35590589",
+    "doi": "10.1103/PhysRevE.105.044408",
+    "title": "Enthalpic and entropic contributions to interleaflet coupling drive domain registration and antiregistration in biological membrane."
+  },
+  "content": {
+    "abstract": "Biological membrane is a complex self-assembly of lipids, sterols, and proteins organized as a fluid bilayer of two closely stacked lipid leaflets. Differential molecular interactions among its diverse constituents give rise to heterogeneities in the membrane lateral organization. Under certain conditions, heterogeneities in the two leaflets can be spatially synchronized and exist as registered domains across the bilayer. Several contrasting theories behind mechanisms that induce registration of nanoscale domains have been suggested. Following a recent study showing the effect of position of lipid tail unsaturation on domain registration behavior, we decided to develop an analytical theory to elucidate the driving forces that create and maintain domain registry across leaflets. Towards this, we formulated a Hamiltonian for a stacked lattice system where site variables capture the lipid molecular properties such as the position of unsaturation and various other interactions that could drive phase separation and interleaflet coupling. We solve the Hamiltonian using Monte Carlo simulations and create a complete phase diagram that reports the presence or absence of registered domains as a function of various Hamiltonian parameters. We find that the interleaflet coupling should be described as a competing enthalpic contribution due to interaction of lipid tail termini, primarily due to saturated-saturated interactions, and an interleaflet entropic contribution from overlap of unsaturated tail termini. A higher position of unsaturation is seen to provide weaker interleaflet coupling. Thermodynamically stable nanodomains could also be observed for certain points in the parameter space in our bilayer model, which were further verified by carrying out extended Monte Carlo simulations. These persistent noncoalescing registered nanodomains close to the lower end of the accepted nanodomain size range also point towards a possible \"nanoscale\" emulsion description of lateral heterogeneities in biological membrane leaflets.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cell Membrane",
+      "Entropy",
+      "*Lipid Bilayers",
+      "Monte Carlo Method",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sharma, Akshara",
+        "Seal, Aniruddha",
+        "Iyer, Sahithya S",
+        "Srivastava, Anand"
+      ],
+      "short_names": [
+        "Sharma A",
+        "Seal A",
+        "Iyer SS",
+        "Srivastava A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, Indian Institute of Science-Bangalore, C. V. Raman Road, Bangalore, Karnataka 560012, India.",
+        "School of Chemical Sciences, National Institute of Science Education and Research, Bhubaneswar, Khurda, Odisha 752050, India.",
+        "Molecular Biophysics Unit, Indian Institute of Science-Bangalore, C. V. Raman Road, Bangalore, Karnataka 560012, India.",
+        "Molecular Biophysics Unit, Indian Institute of Science-Bangalore, C. V. Raman Road, Bangalore, Karnataka 560012, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sharma, Akshara",
+        "short_name": "Sharma A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Indian Institute of Science-Bangalore, C. V. Raman Road, Bangalore, Karnataka 560012, India."
+        ]
+      },
+      {
+        "full_name": "Seal, Aniruddha",
+        "short_name": "Seal A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Sciences, National Institute of Science Education and Research, Bhubaneswar, Khurda, Odisha 752050, India."
+        ]
+      },
+      {
+        "full_name": "Iyer, Sahithya S",
+        "short_name": "Iyer SS",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science-Bangalore, C. V. Raman Road, Bangalore, Karnataka 560012, India."
+        ]
+      },
+      {
+        "full_name": "Srivastava, Anand",
+        "short_name": "Srivastava A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science-Bangalore, C. V. Raman Road, Bangalore, Karnataka 560012, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical review. E"
+    ],
+    "journal_abbrev": [
+      "Phys Rev E"
+    ],
+    "pub_date": "2022 Apr",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/21 06:00",
+    "fetched_at": "2026-09-20 10:27:55"
+  },
+  "links": {
+    "cites": [
+      "37463719"
+    ],
+    "refs": [],
+    "similar": [
+      "35590589",
+      "27574865",
+      "21473645",
+      "21320444",
+      "27121138",
+      "25833246",
+      "32411705",
+      "23320723",
+      "27590031",
+      "36380590",
+      "39401729",
+      "26302019",
+      "28201915",
+      "26657692",
+      "31593631",
+      "22369354",
+      "11300799",
+      "35754183",
+      "28256225",
+      "25090030",
+      "23912807",
+      "25133992",
+      "31532653",
+      "30589556",
+      "38355393",
+      "31349669",
+      "33221946",
+      "29320681",
+      "33144069",
+      "26340212",
+      "25353515",
+      "34100059",
+      "30192549",
+      "30964299",
+      "18172219",
+      "30096240",
+      "8874013",
+      "26015279",
+      "29262367",
+      "32216275",
+      "30520494",
+      "24730884",
+      "16375498",
+      "38325816",
+      "27959517",
+      "27596355",
+      "18096628",
+      "8112219",
+      "10396601",
+      "28119914",
+      "24506488",
+      "27128636",
+      "37800323",
+      "25134595",
+      "25679643",
+      "27739709",
+      "16533859",
+      "20572638",
+      "23283230",
+      "30398246",
+      "33825681",
+      "17718554",
+      "23061859",
+      "22342933",
+      "28073244",
+      "32871116",
+      "12655369",
+      "6176272",
+      "25564922",
+      "16126828",
+      "25902436",
+      "19289212",
+      "9485381",
+      "28122219",
+      "24498317",
+      "22828330",
+      "15835704",
+      "17766349",
+      "2029872",
+      "20662483",
+      "29408513",
+      "23701821",
+      "10545348",
+      "20478336",
+      "24216154",
+      "23848924",
+      "15170347",
+      "29856992",
+      "23805738",
+      "12786179",
+      "24892900",
+      "20923227",
+      "26636943",
+      "25601423",
+      "11751313",
+      "12795621",
+      "17328634",
+      "8324180",
+      "2009359",
+      "15267943",
+      "15828005",
+      "22713568",
+      "30780246",
+      "35543220",
+      "33918167",
+      "36482718"
+    ],
+    "review": [
+      "35590589",
+      "32411705",
+      "38355393",
+      "26015279",
+      "10396601",
+      "28119914",
+      "22342933"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

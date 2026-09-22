@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "41565673",
+    "doi": "10.1038/s41467-026-68637-4",
+    "title": "Protein folding stability estimation with explicit consideration of unfolded states."
+  },
+  "content": {
+    "abstract": "Folding stability is crucial for the vast majority of proteins. Computational methods suggested to date for the absolute folding stability (DeltaG) prediction, including those driven from protein structure prediction AIs, show clear limitations in reproducing quantitative experimental values. Here we present IFUM, a deep neural network that jointly estimates DeltaG and the equilibrium ensemble of folded and unfolded states represented by residue-pair distance probability distributions. This joint learning considerably enhances prediction accuracy compared to learning DeltaG alone. Trained on a dataset including Mega-scale small proteins, disordered proteins, and wild-type natural proteins, IFUM is robust to various protein types and can accurately predict complex mutational effects like insertions or deletions. Here, we show that IFUM effectively guides real-world design challenges, exhibiting strong correlation with experimental melting temperatures in protein engineering and outperforming AlphaFold-based metrics in de novo design selection.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Protein Folding",
+      "Protein Stability",
+      "*Proteins/chemistry/genetics",
+      "Thermodynamics",
+      "Neural Networks, Computer",
+      "Protein Unfolding",
+      "*Computational Biology/methods",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Heechan",
+        "Cho, Yugyeong",
+        "Yun, Jeongwon",
+        "Steinegger, Martin",
+        "Kim, Ho Min",
+        "Park, Hahnbeom"
+      ],
+      "short_names": [
+        "Lee H",
+        "Cho Y",
+        "Yun J",
+        "Steinegger M",
+        "Kim HM",
+        "Park H"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-9596-5916",
+        "ORCID: 0009-0005-6876-1038",
+        "ORCID: 0000-0003-4801-2564",
+        "ORCID: 0000-0003-0029-3643",
+        "ORCID: 0000-0002-7129-1912"
+      ],
+      "affiliations": [
+        "Biomedical Research Division, Korea Institute of Science and Technology, Seoul, Republic of Korea.",
+        "School of Biological Sciences, Seoul National University, Seoul, Republic of Korea.",
+        "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea.",
+        "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea.",
+        "InnoCORE AI-CRED Institute, Korea Advanced Institute of Science and Technology, Daejon, Republic of Korea.",
+        "School of Biological Sciences, Seoul National University, Seoul, Republic of Korea.",
+        "Interdisciplinary Program in Bioinformatics, Seoul National University, Seoul, Republic of Korea.",
+        "Institute of Molecular Biology and Genetics, Seoul National University, Seoul, Republic of Korea.",
+        "Artificial Intelligence Institute, Seoul National University, Seoul, Republic of Korea.",
+        "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea. hm_kim@kaist.ac.kr.",
+        "InnoCORE AI-CRED Institute, Korea Advanced Institute of Science and Technology, Daejon, Republic of Korea. hm_kim@kaist.ac.kr.",
+        "Biomedical Research Division, Korea Institute of Science and Technology, Seoul, Republic of Korea. hahnbeom@kist.re.kr.",
+        "Institute for Convergence, Sungkyunkwan University, Suwon, Republic of Korea. hahnbeom@kist.re.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Heechan",
+        "short_name": "Lee H",
+        "identifiers": [
+          "0009-0009-9596-5916"
+        ],
+        "affiliations": [
+          "Biomedical Research Division, Korea Institute of Science and Technology, Seoul, Republic of Korea.",
+          "School of Biological Sciences, Seoul National University, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Yugyeong",
+        "short_name": "Cho Y",
+        "identifiers": [
+          "0009-0005-6876-1038"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yun, Jeongwon",
+        "short_name": "Yun J",
+        "identifiers": [
+          "0000-0003-4801-2564"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea.",
+          "InnoCORE AI-CRED Institute, Korea Advanced Institute of Science and Technology, Daejon, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Steinegger, Martin",
+        "short_name": "Steinegger M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Seoul National University, Seoul, Republic of Korea.",
+          "Interdisciplinary Program in Bioinformatics, Seoul National University, Seoul, Republic of Korea.",
+          "Institute of Molecular Biology and Genetics, Seoul National University, Seoul, Republic of Korea.",
+          "Artificial Intelligence Institute, Seoul National University, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Ho Min",
+        "short_name": "Kim HM",
+        "identifiers": [
+          "0000-0003-0029-3643"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon, Republic of Korea. hm_kim@kaist.ac.kr.",
+          "InnoCORE AI-CRED Institute, Korea Advanced Institute of Science and Technology, Daejon, Republic of Korea. hm_kim@kaist.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Park, Hahnbeom",
+        "short_name": "Park H",
+        "identifiers": [
+          "0000-0002-7129-1912"
+        ],
+        "affiliations": [
+          "Biomedical Research Division, Korea Institute of Science and Technology, Seoul, Republic of Korea. hahnbeom@kist.re.kr.",
+          "Institute for Convergence, Sungkyunkwan University, Suwon, Republic of Korea. hahnbeom@kist.re.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jan 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/22 01:09",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [
+      "42430724",
+      "42428996",
+      "42357344"
+    ],
+    "refs": [
+      "41608648",
+      "41263033",
+      "40671352",
+      "40533551",
+      "39704075",
+      "39673466",
+      "39412378",
+      "39043654",
+      "39038042",
+      "38718835",
+      "38285937",
+      "38057441",
+      "38018911",
+      "37904585",
+      "37468638",
+      "37433327",
+      "37200094",
+      "37149653",
+      "36927031",
+      "36408920",
+      "36108050",
+      "35332283",
+      "35021190",
+      "34265844",
+      "34232869",
+      "34168113",
+      "34063488",
+      "33724431",
+      "33134287",
+      "32533939",
+      "32258884",
+      "30374087",
+      "30209393",
+      "29035372",
+      "28806087",
+      "28430426",
+      "28082595",
+      "27899584",
+      "27766851",
+      "26971995",
+      "26675729",
+      "26054434",
+      "24281696",
+      "23135467",
+      "19541647",
+      "18644382",
+      "15980494",
+      "15689503",
+      "15314214",
+      "14621999",
+      "11746707",
+      "10788470",
+      "7831309",
+      "2676679",
+      "2207096"
+    ],
+    "similar": [
+      "41565673",
+      "42427317",
+      "39038042",
+      "24089737",
+      "41201924",
+      "30985027",
+      "28513252",
+      "40277391",
+      "19887634",
+      "34265844",
+      "37468638",
+      "28056090",
+      "37165539",
+      "42192491",
+      "25422093",
+      "34884640",
+      "30306986",
+      "21468433",
+      "34510309",
+      "41634166",
+      "30759982",
+      "41570866",
+      "42521422",
+      "34101125",
+      "37789284",
+      "20684774",
+      "40806259",
+      "7584470",
+      "39952928",
+      "22279578",
+      "42439171",
+      "15326600",
+      "33621244",
+      "24779395",
+      "21670826",
+      "38677012",
+      "20408169",
+      "37001856",
+      "20887263",
+      "40273428",
+      "40662839",
+      "34226918",
+      "31602685",
+      "41750265",
+      "22313579",
+      "30458007",
+      "29314274",
+      "33850214",
+      "28571108",
+      "28915352",
+      "40715235",
+      "28845538",
+      "22865614",
+      "22095648",
+      "35008947",
+      "19081056",
+      "37955428",
+      "42089695",
+      "23912807",
+      "9265621",
+      "39673466",
+      "39112704",
+      "34599769",
+      "33229587",
+      "26988870",
+      "38501649",
+      "40314227",
+      "41845179",
+      "21888919",
+      "40121710",
+      "30198717",
+      "17250999",
+      "39223474",
+      "42119874",
+      "18831774",
+      "39383860",
+      "42423292",
+      "28844906",
+      "34015749",
+      "40527958",
+      "42412831",
+      "40663654",
+      "38498284",
+      "21787301",
+      "16935299",
+      "25436908",
+      "12946362",
+      "19262980",
+      "20810950",
+      "36928239",
+      "38676939",
+      "41422228",
+      "26498191",
+      "22684147",
+      "37828669",
+      "15350126",
+      "39884551",
+      "32375024",
+      "23280507",
+      "38177398"
+    ],
+    "review": [
+      "41565673",
+      "30306986",
+      "41570866",
+      "34101125",
+      "42439171",
+      "37001856",
+      "35008947",
+      "40121710",
+      "17250999",
+      "34015749",
+      "40663654",
+      "38498284",
+      "21787301",
+      "38676939",
+      "37828669"
+    ],
+    "pmc": [
+      "12923840"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-68637-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41565673/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

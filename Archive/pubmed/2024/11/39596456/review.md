@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusions, materials and methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and alignment with stated claims; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors report the first full-length conformational ensemble of Src kinase obtained via replica exchange molecular dynamics with hybrid temperature and Hamiltonian tempering (REHT), covering non-phosphorylated, pY419 (activated), and pY530 (inhibited) states. They claim that pY419 enhances conformational motility and openness, pY530 preserves compact rigidity, and that SH4UD (residues 1–83) forms state-specific secondary structures and contacts that may mediate autophosphorylation, dimerization, and substrate binding.
+- **Visible evidence base** Figures 1–10 (described in text), Supplementary Figures S1–S7 (described in text), convergence metrics (RMSD, Rg), RMSF profiles, free energy landscapes, contact maps, DSSP secondary structure assignments, and deposited trajectories on Zenodo (URL provided)
+- **Missing materials affecting confidence** Actual figure images, supplementary figure data, PDB accession details for starting structures, Zenodo deposition identifiers, force field parameter files, simulation input files, and raw trajectory data were not accessible for independent verification
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial computational effort to model full-length Src kinase, a system previously inaccessible to structural biology due to the intrinsically disordered SH4UD region. The use of REHT is appropriate for sampling conformational ensembles of IDP-containing proteins, and the comparison across three phosphorylation states is a logical and valuable design. However, the evidence as presented has several gaps that limit confidence in the central claims. The convergence analysis is described but not fully demonstrated with quantitative metrics. The functional inferences regarding autophosphorylation, dimerization, and substrate binding are speculative and not directly tested. The absence of experimental validation or comparison to known biochemical data weakens the translational relevance claimed in the introduction and conclusions. The manuscript is technically sound in its simulation approach but overreaches in its biological interpretations relative to the evidence provided.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying kinase regulation, particularly Src family kinases, would find the full-length ensemble and SH4UD conformational sampling of interest. Researchers investigating intrinsically disordered regions in signaling proteins and their phosphorylation-dependent behavior would also benefit. Those working on Src-targeted drug design, especially for cancer or Alzheimer's disease, may use the deposited structures for docking studies, though they should be cautious given the lack of experimental validation.
+- **Major strengths** The study addresses a genuinely unresolved problem: the full-length structure of Src kinase including the disordered SH4UD. The REHT methodology is well suited for this system and represents a technically appropriate choice. The comparison of three phosphorylation states in a single framework is a logical design that allows direct inference of phosphorylation-dependent conformational changes. The deposition of trajectories and representative structures in open access is commendable and will facilitate reuse. The identification of specific SH4UD secondary structure elements, particularly the beta bridge at residues 34–40, provides a novel and testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that simulations reached convergence and that the representative structures reflect equilibrium ensembles for each phosphorylation state.
+  - **Evidence pointer** Section 2.2, Figures 2 and S1, Section 4.3
+  - **Concern** The convergence assessment relies on visual inspection of RMSD and Rg time series and comparison of Rg distributions across time intervals. No quantitative convergence metrics are provided, such as block averaging, autocorrelation times, or replica exchange acceptance rates. The reported simulation times (206, 205, 253 ns per replica) are short for a system of this size with a disordered region, and the temperature range (300–380 K for protein) may not be sufficient to overcome all relevant energy barriers. The claim that the first replica visited all windows is presented as evidence of sampling, but this does not guarantee conformational convergence of the disordered SH4UD region.
+  - **Why it matters** If the simulations are not converged, the representative structures and the derived conformational differences between phosphorylation states may be artifacts of insufficient sampling rather than genuine biophysical properties. This undermines the central claims of the paper.
+  - **Resolution test** Provide quantitative convergence metrics, including time evolution of ensemble averages with error bars, replica exchange acceptance rates, and a demonstration that independent simulations starting from different initial conditions yield similar ensembles. Alternatively, extend simulation times and show that key observables (e.g., SH4UD secondary structure populations, domain-domain distances) stabilize.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors state that pY419 phosphorylation enhances motility and that pY530 preserves a compact conformation, and that these differences are statistically meaningful.
+  - **Evidence pointer** Sections 2.3–2.5, Figures 3–6
+  - **Concern** The differences in RMSF, domain organization, and contact maps between the three states are described qualitatively. No statistical analysis is provided to establish that the observed differences are significant given the ensemble sampling. For example, the claim that pY419 Src shows enhanced flexibility is based on visual inspection of RMSF profiles, but no error bars or confidence intervals are shown. Similarly, the contact maps are averaged but no measure of variability across the ensemble is provided.
+  - **Why it matters** Without statistical rigor, the reported phosphorylation-dependent conformational changes could be within the noise of the simulation. The conclusions about activation and inhibition mechanisms depend on these differences being robust.
+  - **Resolution test** Provide error estimates for all ensemble-averaged quantities (e.g., RMSF, contact maps, secondary structure populations) and perform statistical tests (e.g., bootstrap or permutation tests) to demonstrate that differences between states are significant. Show distributions rather than only averages where possible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors propose that SH4UD mediates autophosphorylation at Y419, specifically through interactions between residues 14–19 and the unphosphorylated Y419, and that this may involve phosphate transfer from S17 to Y419.
+  - **Evidence pointer** Section 3, Figure 10
+  - **Concern** The proposed mechanism for autophosphorylation is based on a single observed contact in the non-phosphorylated simulation. No free energy calculations, mutation studies, or kinetic analyses are presented to support the claim that this contact is functionally relevant. The suggestion of phosphate transfer from S17 to Y419 is purely speculative and not supported by any simulation or experimental data. The authors themselves acknowledge uncertainty, but the claim is presented prominently in the discussion and conclusions.
+  - **Why it matters** This is a novel mechanistic hypothesis that could be of significant interest, but as presented it is not established. Overstating speculative mechanisms can mislead readers and future research directions.
+  - **Resolution test** Perform additional simulations with S17A or S17E mutations to test the effect on Y419 contacts. Calculate binding free energies or potential of mean force for the Y419–SH4UD interaction. Alternatively, clearly reframe these as hypotheses requiring experimental testing, and remove definitive language from conclusions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that representative structures and trajectories are available in open access via a Zenodo link.
+  - **Evidence pointer** Sections 2.3, 5, Zenodo URL
+  - **Concern** The Zenodo link provided points to a preprint server (Authorea) rather than a Zenodo deposition. The actual deposition identifier is not given. It is unclear whether the data are truly accessible, and the link may not be stable or permanent.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without a stable, accessible data repository, other researchers cannot verify or build upon the results.
+  - **Resolution test** Provide a valid Zenodo DOI or equivalent permanent repository link with clear instructions for accessing trajectories, representative structures, input files, and analysis scripts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Figure 1
+  - **Issue** The description of how the three hybrid starting structures were constructed is somewhat unclear. Specifically, the text states that the pY530 starting structure was taken from the AlphaFold2 database and that the structured domains correspond to a superposition of 72 PDB structures, but it is not clear whether the AlphaFold2 model was used directly or whether the PDB coordinates were grafted onto the AlphaFold2 SH4UD.
+  - **Required correction** Clarify the exact construction procedure for each starting structure, including which residues came from which source and how the SH4UD was attached to the structured domains.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.2
+  - **Evidence pointer** Location not provided
+  - **Issue** The simulation parameters are described, but key details are missing, including the specific REHT Hamiltonian scaling scheme, the number of replicas in each dimension, the exchange attempt frequency, and the criteria for choosing the temperature range.
+  - **Required correction** Provide a complete description of the REHT protocol, including all parameters needed to reproduce the simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Figure 7
+  - **Issue** The secondary structure analysis reports populations for SH4UD residues, but the text does not discuss the structural context of these elements (e.g., whether they are solvent-exposed or buried, or how they relate to known functional motifs).
+  - **Required correction** Add a brief discussion of the spatial location and potential functional relevance of the identified secondary structure elements.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Section 3
+  - **Evidence pointer** Location not provided
+  - **Issue** The phrase "plowing the structured domains open" is informal and not standard scientific terminology.
+  - **Required correction** Replace with a more precise description, such as "inducing a conformational transition toward an open domain arrangement."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (convergence not quantitatively demonstrated), R1-M2 (no statistical analysis of state differences), R1-M3 (speculative mechanism presented as finding), R1-M4 (data accessibility not verifiable)
+- **Assessment against Nature-style criteria** Originality: The full-length Src ensemble including SH4UD is a novel contribution, as prior structures lack this disordered region. The phosphorylation-dependent comparison is also original. Scientific importance: The work addresses a key regulatory kinase with broad disease relevance, and the deposited structures could enable downstream studies. However, the importance is diminished by the lack of experimental validation and the speculative nature of the mechanistic claims. Interdisciplinary readership: The topic bridges structural biology, biophysics, and cell signaling, and the writing is generally accessible. Technical soundness: The REHT approach is appropriate, but the convergence and statistical analysis are insufficient to support the claims. Readability for nonspecialists: The manuscript is readable, though some methodological details are dense. Overall, the work has potential but does not currently meet the standard of evidence required for a high-impact general journal.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core simulation work is valuable and the deposited data are a resource for the community. However, the convergence must be rigorously demonstrated, the state comparisons must include statistical analysis, and the mechanistic claims must be either supported with additional simulations or clearly reframed as hypotheses. The data accessibility issue must also be fixed with a proper repository link.
+
+## Risk / unsupported claims
+- The claim that pY419 enhances motility and pY530 preserves compactness is not statistically supported.
+- The proposed autophosphorylation mechanism involving Y419–SH4UD contacts and S17-to-Y419 phosphate transfer is speculative and not tested.
+- The claim that SH4UD secondary structure elements "determine" accessibility of phosphorylation sites is an overstatement; the data show correlation, not causation.
+- The statement that the deposited structures are "the first full-length Src structure usable for bioinformatics needs" is not verifiable without confirming data accessibility and quality.
+- The assertion that the results "will help researchers in cancer, Alzheimer's disease" is aspirational and not directly supported by the data presented.

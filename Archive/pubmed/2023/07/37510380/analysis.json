@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37510380",
+  "title": "Arabidopsis Transcription Regulatory Factor Domain/Domain Interaction Analysis Tool-Liquid/Liquid Phase Separation, Oligomerization, GO Analysis: A Toolkit for Interaction Data-Based Domain Analysis.",
+  "authors": "Kang, Jee Eun; Jun, Ji Hae; Kwon, Jung Hyun; Lee, Ju-Hyun; Hwang, Kidong; Kim, Sungjong; Jeong, Namhee",
+  "journal": "Genes",
+  "published_date": "2023-07-29",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了一个基于结构域-结构域互作(DDI)的拟南芥转录调控因子分析工具，整合了LLPS、寡聚化、无序区域等特征用于PPI/PNI预测，虽以植物为对象且方法偏数据库整合而非AI/物理模拟，但无序区域与互作机制建模思路对本课题有参考价值。",
+  "abstract": "Although a large number of databases are available for regulatory elements, a bottleneck has been created by the lack of bioinformatics tools to predict the interaction modes of regulatory elements. To reduce this gap, we developed the Arabidopsis Transcription Regulatory Factor Domain/Domain Interaction Analysis Tool-liquid/liquid phase separation (LLPS), oligomerization, GO analysis (ART FOUNDATION-LOG), a useful toolkit for protein-nucleic acid interaction (PNI) and protein-protein interaction (PPI) analysis based on domain-domain interactions (DDIs). LLPS, protein oligomerization, the structural properties of protein domains, and protein modifications are major components in the orchestration of the spatiotemporal dynamics of PPIs and PNIs. Our goal is to integrate PPI/PNI information into the development of a prediction model for identifying important genetic variants in peaches. Our program unified interdatabase relational keys based on protein domains to facilitate inference from the model species. A key advantage of this program lies in the integrated information of related features, such as protein oligomerization, LOG analysis, structural characterizations of domains (e.g., domain linkers, intrinsically disordered regions, DDIs, domain-motif (peptide) interactions, beta sheets, and transmembrane helices), and post-translational modification. We provided simple tests to demonstrate how to use this program, which can be applied to other eukaryotic organisms.",
+  "abstract_zh": "尽管已有大量调控元件数据库可供使用，但由于缺乏预测调控元件相互作用模式的生物信息学工具，形成了瓶颈。为缩小这一差距，我们开发了拟南芥转录调控因子结构域/结构域相互作用分析工具-液-液相分离 (liquid/liquid phase separation, LLPS)、寡聚化、GO分析 (ART FOUNDATION-LOG)，这是一个基于结构域-结构域相互作用 (domain-domain interactions, DDIs) 进行蛋白质-核酸相互作用 (protein-nucleic acid interaction, PNI) 和蛋白质-蛋白质相互作用 (protein-protein interaction, PPI) 分析的有用工具包。LLPS、蛋白质寡聚化、蛋白质结构域的结构特性以及蛋白质修饰是协调PPIs和PNIs时空动态的主要组成部分。我们的目标是将PPI/PNI信息整合到预测模型开发中，以识别桃树中的重要遗传变异。我们的程序基于蛋白质结构域统一了跨数据库关系键，以促进从模式物种进行推断。该程序的一个关键优势在于整合了相关特征的信息，如蛋白质寡聚化、LOG分析、结构域的结构表征（例如，结构域连接子、固有无序区域、DDIs、结构域-基序（肽）相互作用、β折叠和跨膜螺旋）以及翻译后修饰。我们提供了简单测试来演示如何使用该程序，该程序可应用于其他真核生物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37510380/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37510380/",
+  "paper_page_path": "papers/pubmed/37510380/index.html"
+}

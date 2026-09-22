@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42349062",
+  "title": "Engineering substrate channeling with synthetic biomolecular condensates for improved ectoine biosynthesis.",
+  "authors": "Fang, Tianzhi; Li, Dandan; Hu, Mengkai; Liu, Kun; Chen, Yu; Wu, Chuanchao; Li, Xiangfei; Zhang, Huimin; Zhao, Ming; Liu, Yan; Xue, Zhenglian; Liu, Qingtao; Wang, Tianwen",
+  "journal": "Enzyme and microbial technology",
+  "published_date": "2026-06-26",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究利用合成生物分子凝聚体（Pum2-ELP体系）实现代谢酶底物通道化以提升四氢嘧啶生物合成，涉及凝聚体介导的酶-酶空间邻近互作与分子动力学模拟，但对象为代谢酶而非无序蛋白介导的PPI机制建模，方法上MD与实验结合但AI/物理模拟深度有限。",
+  "abstract": "Ectoine is a compatible solute originally discovered in desert microorganisms and serves as a key weapon for microbes to cope with extreme environmental threats, such as drought and high salinity. Owing to its exceptional water-binding capacity and protective properties, ectoine is extensively used in biomedicine, cosmetics, and industrial biocatalysis. To overcome the efficiency bottleneck of heterologous ectoine biosynthesis in non-halophilic strains, we introduced a synthetic biomolecular condensate system that has been successfully employed in protein overexpression to enhance ectoine formation in pathways constructed with biosynthetic ancestral enzymes in the engineering of Vibrio natriegens. First, the ancestral core metabolic enzymes EctA, EctB, and EctC were reconstructed using an integrated bioinformatics process, and the selected ancestral enzymes were analyzed using molecular dynamics simulations. Subsequently, ectoine biosynthesis via 27 combinatory pathways involving core metabolic enzymes was systematically evaluated. The Pum2-ELP fusion protein system was then introduced to construct membraneless biomolecular condensates within the cells. Such a design was justified by the report that the interaction between the tandem PRS tags at the 3' ends of mRNAs of metabolic enzymes and Pum2 in the condensate of Pum2-ELP could recruit ribosomes and metabolic enzymes into the condensates, enabling substrate channeling in the biosynthetic pathway because of the physical approximation of the relevant components. The experimental results demonstrated that the optimal hybrid pathway exhibited synergistic catalytic efficiency. Upon introducing the Pum2-ELP system, the ectoine yield increased by approximately 1.7 folds, which should be ascribed to the substrate channeling effect. In a 5-L bioreactor batch fermentation, the engineered strain achieved a final titer of  approximately 50 g/L within 24 h, reaching a high volumetric productivity of 2.08 g/(L.h). This study demonstrates that integrating evolution-derived ancestral metabolic enzymes with engineered spatial assembly can significantly optimize metabolic flux, providing an efficient platform strategy for the rapid and high-titer industrial production of ectoine and other high-value compatible solutes under controlled fermentation conditions.",
+  "abstract_zh": "四氢嘧啶（Ectoine）是一种最初在沙漠微生物中发现的相容性溶质，是微生物应对干旱和高盐等极端环境威胁的关键武器。凭借其卓越的水结合能力和保护特性，四氢嘧啶广泛应用于生物医药、化妆品和工业生物催化领域。为克服非嗜盐菌株中异源四氢嘧啶生物合成的效率瓶颈，我们引入了一种已成功用于蛋白质过表达的人工生物分子凝聚体系统，以增强在工程化海洋弧菌（Vibrio natriegens）中由生物合成祖先酶构建的途径中的四氢嘧啶生成。首先，通过整合生物信息学流程重建了祖先核心代谢酶EctA、EctB和EctC，并利用分子动力学模拟对选定的祖先酶进行了分析。随后，系统评估了涉及核心代谢酶的27种组合途径的四氢嘧啶生物合成。接着，引入Pum2-ELP融合蛋白系统，在细胞内构建无膜生物分子凝聚体。该设计的合理性基于以下报道：代谢酶mRNA 3'端串联PRS标签与Pum2-ELP凝聚体中的Pum2之间的相互作用，可将核糖体和代谢酶招募至凝聚体中，由于相关组分的物理邻近性，实现生物合成途径中的底物通道效应。实验结果表明，最优杂合途径表现出协同催化效率。引入Pum2-ELP系统后，四氢嘧啶产量提高了约1.7倍，这应归因于底物通道效应。在5-L生物反应器分批发酵中，工程菌株在24小时内达到约50 g/L的最终滴度，实现了2.08 g/(L·h)的高体积产率。本研究证明，将进化衍生的祖先代谢酶与工程化空间组装相结合，可显著优化代谢通量，为在受控发酵条件下快速、高滴度工业生产四氢嘧啶及其他高价值相容性溶质提供了一种高效的平台策略。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42349062/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42349062/",
+  "paper_page_path": "papers/pubmed/42349062/index.html"
+}

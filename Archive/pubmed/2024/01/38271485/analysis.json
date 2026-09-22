@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38271485",
+  "title": "Computational insights into the cross-talk between medin and Abeta: implications for age-related vascular risk factors in Alzheimer's disease.",
+  "authors": "Huang, Fengjuan; Fan, Xinjie; Wang, Ying; Zou, Yu; Lian, Jiangfang; Wang, Chuang; Ding, Feng; Sun, Yunxiang",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2024-01-25",
+  "window": {
+    "start": "2024-01-22",
+    "end": "2024-01-28"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用原子级离散分子动力学模拟系统研究medin与Abeta两个无序蛋白的共聚集与交叉播种互作机制，直接命中IDP-PPI机制建模核心，方法为物理模拟，对象与互作轴均强。",
+  "abstract": "The aggregation of medin forming aortic medial amyloid is linked to arterial wall degeneration and cerebrovascular dysfunction. Elevated levels of arteriolar medin are correlated with an increased presence of vascular amyloid-beta (Abeta) aggregates, a hallmark of Alzheimer's disease (AD) and vascular dementia. The cross-interaction between medin and Abeta results in the formation of heterologous fibrils through co-aggregation and cross-seeding processes both in vitro and in vivo. However, a comprehensive molecular understanding of the cross-interaction between medin and Abeta-two intrinsically disordered proteins-is critically lacking. Here, we employed atomistic discrete molecular dynamics simulations to systematically investigate the self-association, co-aggregation and also the phenomenon of cross-seeding between these two proteins. Our results demonstrated that both Abeta and medin were aggregation prone and their mixture tended to form beta-sheet-rich hetero-aggregates. The formation of Abeta-medin hetero-aggregates did not hinder Abeta and medin from recruiting additional Abeta and medin peptides to grow into larger beta-sheet-rich aggregates. The beta-barrel oligomer intermediates observed in the self-aggregations of Abeta and medin were also present during their co-aggregation. In cross-seeding simulations, preformed Abeta fibrils could recruit isolated medin monomers to form elongated beta-sheets. Overall, our comprehensive simulations suggested that the cross-interaction between Abeta and medin may contribute to their pathological aggregation, given the inherent amyloidogenic tendencies of both medin and Abeta. Targeting medin, therefore, could offer a novel therapeutic approach to preserving brain function during aging and AD by improving vascular health.",
+  "abstract_zh": "medin的聚集形成主动脉内侧淀粉样变性，与动脉壁退化和脑血管功能障碍相关。小动脉medin水平升高与血管淀粉样蛋白-β（Abeta）聚集物的增加相关，后者是阿尔茨海默病（AD）和血管性痴呆的标志。medin与Abeta之间的交叉相互作用通过共聚集和交叉播种过程在体外和体内形成异源纤维。然而，对medin和Abeta——两种 intrinsically disordered proteins——之间交叉相互作用的分子水平全面理解仍严重缺乏。在此，我们采用原子级离散分子动力学模拟，系统研究了这两种蛋白质的自聚集、共聚集以及交叉播种现象。我们的结果表明，Abeta和medin均具有聚集倾向，且它们的混合物倾向于形成富含β-折叠的异源聚集物。Abeta-medin异源聚集物的形成并未阻碍Abeta和medin招募额外的Abeta和medin肽段，以生长成更大的富含β-折叠的聚集物。在Abeta和medin自聚集过程中观察到的β-桶状寡聚体中间体，在其共聚集过程中同样存在。在交叉播种模拟中，预形成的Abeta纤维能够招募游离的medin单体，形成延伸的β-折叠。总体而言，我们的综合模拟表明，鉴于medin和Abeta固有的淀粉样变性倾向，Abeta与medin之间的交叉相互作用可能促进其病理性聚集。因此，靶向medin可能通过改善血管健康，为在衰老和AD过程中保护脑功能提供一种新的治疗策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38271485/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38271485/",
+  "paper_page_path": "papers/pubmed/38271485/index.html"
+}

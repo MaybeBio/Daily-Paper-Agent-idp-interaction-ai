@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose IFF, an unsupervised contrastive learning model with self-attention neural networks, trained on human IDR orthologs to identify functionally important residues in intrinsically disordered regions. The model reportedly matches sequences in ortholog pairs and successfully identifies previously reported critical residues, particularly those with overall patterns such as multiple aromatic residues or charged blocks, rather than short motifs. The model is accessible via a Jupyter Notebook on GitHub with Binder, and training scripts and datasets are deposited in public repositories.
+- **Visible evidence base** Abstract text only; no quantitative results, performance metrics, benchmark comparisons, or validation details are provided
+- **Missing materials affecting confidence** Full manuscript, figures, tables, methods section, training details, evaluation datasets, baseline comparisons, and statistical analyses are not available
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to a challenging problem in IDR biology, namely the identification of functionally important residues in the absence of structural constraints. The use of unsupervised contrastive learning on ortholog pairs is a plausible strategy. However, the abstract provides insufficient quantitative evidence to evaluate the method's performance, robustness, or generalizability. The claims of successful identification of critical residues are supported only by qualitative statements, and no metrics such as precision, recall, or comparison to existing tools are given. The accessibility of the model is commendable, but the scientific case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and regions, particularly those interested in functional annotation of IDRs, protein evolution, and machine learning applications in computational biology. The method could also appeal to experimentalists seeking computational predictions of functionally important residues in disordered regions, and to method developers in the field of protein sequence analysis.
+- **Major strengths** The problem addressed is significant and timely, as IDRs are increasingly recognized as functionally important yet remain challenging for conventional alignment-based methods. The use of unsupervised contrastive learning is innovative in this context and avoids reliance on labeled data, which is scarce for IDR function. The emphasis on physicochemical feature preservation rather than sequence conservation is biologically well motivated. The provision of a user-friendly interface via Binder and public deposition of code and data supports reproducibility and accessibility.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the trained model "successfully identifies previously reported critical residues from experimental studies."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No quantitative results are presented to substantiate this claim. There are no performance metrics, such as sensitivity, specificity, area under the curve, or enrichment scores, and no comparison to existing methods or baselines. The statement is qualitative and cannot be evaluated for statistical significance or practical utility.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the model performs better than chance, whether it is competitive with existing tools, or whether the identified residues are truly enriched for functional importance. This is central to the manuscript's contribution.
+  - **Resolution test** Provide quantitative evaluation metrics on a benchmark dataset, including comparison to at least one existing method, with confidence intervals or statistical tests. Show that the model's predictions are significantly enriched for experimentally validated residues.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract states that the model "can be used to identify potentially important residues in other proteins."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The model is trained on human IDR orthologs, and the abstract does not specify whether the model was tested on non-human proteins, proteins with different IDR properties, or proteins outside the training distribution. The claim of general applicability is unsupported.
+  - **Why it matters** If the model is overfit to human IDR features, it may not transfer to other species or protein families. The utility of the tool depends on its ability to generalize beyond the training set.
+  - **Resolution test** Include validation on held-out datasets from diverse species or protein families, and report performance stratified by sequence identity or functional class.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The abstract implies that the model's ability to identify residues with "overall pattern" features is a key outcome.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The distinction between "overall pattern" residues and "short motifs" is not operationally defined. No criteria are given for how these categories were determined, how the model's performance differs between them, or whether this distinction is statistically robust.
+  - **Why it matters** The claim that the model is particularly suited to certain types of functional residues is a nuanced finding, but without clear definitions and quantitative support, it remains anecdotal.
+  - **Resolution test** Define the categories explicitly, provide performance metrics for each category, and test whether the difference is statistically significant.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "match sequences in ortholog pairs but not in other IDRs" is ambiguous. It is unclear whether "other IDRs" refers to non-orthologous IDRs, random pairs, or a negative training set.
+  - **Required correction** Clarify the training objective and the nature of the negative examples used in contrastive learning.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the model can be run via Binder, but it does not specify the computational requirements, runtime, or whether the model is pre-trained and ready to use.
+  - **Required correction** Provide details on model size, inference time, and any dependencies or setup steps.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "human IDR orthologs" but does not describe the number of sequences, the source of orthology assignment, or the criteria for defining IDRs.
+  - **Required correction** Include basic dataset statistics and the method for defining IDRs and orthology.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - **Originality** The approach is novel in applying unsupervised contrastive learning to IDR residue identification, which is a creative departure from alignment-based methods. This is a strength.
+  - **Scientific importance** The problem is important, as IDR function is poorly understood and tools for residue-level prediction are limited. The potential impact is high if the method is validated.
+  - **Interdisciplinary readership** The work bridges machine learning and protein biology, and would appeal to both computational and experimental researchers. However, the abstract lacks sufficient detail to engage a broad audience.
+  - **Technical soundness** Not assessable from the abstract. The absence of quantitative validation and methodological detail prevents evaluation of technical rigor.
+  - **Readability for nonspecialists** The abstract is generally clear but uses jargon such as "contrastive learning" and "self-attention" without explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the resource availability is a positive feature, but the abstract does not provide the quantitative and methodological support needed to assess the validity of the claims. A full manuscript with detailed methods and results would be required for a supportive recommendation.
+
+## Risk / unsupported claims
+- The claim that the model "successfully identifies previously reported critical residues" is unsupported without quantitative metrics.
+- The claim that the model "can be used to identify potentially important residues in other proteins" is unsupported without evidence of generalizability.
+- The distinction between "overall pattern" and "short motif" residues is not defined or validated.
+- The training data and model architecture are described only superficially, making the technical approach not fully assessable.

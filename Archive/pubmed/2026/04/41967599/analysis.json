@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41967599",
+  "title": "Mapping the conformational variability in mutants of the amyloid precursor protein intracellular domain.",
+  "authors": "Mandal, Nabanita; Skepo, Marie",
+  "journal": "Journal of molecular biology",
+  "published_date": "2026-04-13",
+  "window": {
+    "start": "2026-04-13",
+    "end": "2026-04-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合SAXS、圆二色谱和原子级MD模拟，系统表征AICD无序蛋白YENPTY基序突变体构象群体变化如何调控基序可及性与互作潜力，直接聚焦IDP构象-互作机制建模，方法扎实且对象、互作、方法三轴齐备。",
+  "abstract": "The amyloid precursor protein intracellular domain (AICD) is an intrinsically disordered regulatory segment whose conserved YENPTY motif mediates transient interactions with multiple adaptor and signaling proteins. How sequence perturbations within this motif modulate its accessibility and interaction potential within a disordered ensemble remains poorly understood. Here, we combine small-angle X-ray scattering, synchrotron radiation circular dichroism, and extensive atomistic molecular dynamics simulations to characterize conformational variability in three designed AICD variants (Y22G, T26A, and Y27A) that preserve overall charge while selectively altering local side-chain chemistry. All variants remain intrinsically disordered, yet each mutation induces a distinct redistribution of conformational populations. Y22G and T26A increase local flexibility and solvent exposure around the YENPTY motif and enhance motif-centered interaction propensities, whereas Y27A favors more compact conformations with reduced motif accessibility. Contact and network analyses reveal that these local perturbations propagate across the chain, reshaping long-range intramolecular coupling within the ensemble. Our results demonstrate that local changes in side-chain chemistry within YENPTY can tune motif accessibility and interaction potential through population shifts in a disordered ensemble, without stabilizing persistent secondary or tertiary structure.",
+  "abstract_zh": "淀粉样前体蛋白胞内结构域（AICD）是一种内在无序的调控片段，其保守的YENPTY基序介导与多种衔接蛋白和信号蛋白的瞬时相互作用。该基序内的序列扰动如何在无序集合中调节其可及性和相互作用潜力，目前仍知之甚少。在此，我们结合小角X射线散射、同步辐射圆二色光谱以及广泛的原子级分子动力学模拟，表征三种设计的AICD变体（Y22G、T26A和Y27A）的构象变异性，这些变体在保持整体电荷的同时选择性改变局部侧链化学性质。所有变体均保持内在无序，但每个突变诱导构象群体的不同重新分布。Y22G和T26A增加YENPTY基序周围的局部灵活性和溶剂暴露，并增强以基序为中心的相互作用倾向，而Y27A则倾向于更紧凑的构象，基序可及性降低。接触和网络分析揭示，这些局部扰动沿链传播，重塑集合内的长程分子内耦合。我们的结果表明，YENPTY内局部侧链化学的变化可通过无序集合中的群体转移来调节基序可及性和相互作用潜力，而无需稳定持久的二级或三级结构。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41967599/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41967599/",
+  "paper_page_path": "papers/pubmed/41967599/index.html"
+}

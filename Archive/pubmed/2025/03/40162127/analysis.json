@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40162127",
+  "title": "Mesoscale molecular assembly is favored by the active, crowded cytoplasm.",
+  "authors": "Shu, Tong; Mitra, Gaurav; Alberts, Jonathan; Viana, Matheus P; Levy, Emmanuel D; Hocky, Glen M; Holt, Liam J",
+  "journal": "PRX life",
+  "published_date": "2025-03-31",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过合成相分离系统synDrops结合实验与计算模拟，研究细胞质拥挤和主动过程对凝聚体成核与生长的影响，虽非直接针对特定IDR-PPI，但聚焦相分离机制建模，对无序蛋白介导互作在细胞环境中的预测有重要启发。",
+  "abstract": "The mesoscale organization of molecules into membraneless biomolecular condensates is emerging as a key mechanism of rapid spatiotemporal control in cells. Principles of biomolecular condensation have been revealed through in vitro reconstitution. However, intracellular environments are much more complex than test-tube environments: they are viscoelastic, highly crowded at the mesoscale, and are far from thermodynamic equilibrium due to the constant action of energy-consuming processes. We developed synDrops, a synthetic phase separation system, to study how the cellular environment affects condensate formation. Three key features enable physical analysis: synDrops are inducible, bioorthogonal, and have well-defined geometry. This design allows kinetic analysis of synDrop assembly and facilitates computational simulation of the process. We compared experiments and simulations to determine that macromolecular crowding promotes condensate nucleation but inhibits droplet growth through coalescence. ATP-dependent cellular activities help overcome the frustration of growth. In particular, stirring of the cytoplasm by actomyosin dynamics is the dominant mechanism that potentiates droplet growth in the mammalian cytoplasm by reducing confinement and elasticity. Our results demonstrate that mesoscale molecular assembly is favored by the combined effects of crowding and active matter in the cytoplasm. These results move toward a better predictive understanding of condensate formation in vivo.",
+  "abstract_zh": "分子在无膜生物分子凝聚体中的介观尺度组织，正成为细胞内快速时空控制的关键机制。生物分子凝聚的原理已通过体外重构得以揭示。然而，细胞内环境远比试管环境复杂：它们具有粘弹性，在介观尺度上高度拥挤，并且由于能量消耗过程的持续作用而远离热力学平衡。我们开发了synDrops，一种合成相分离系统，以研究细胞环境如何影响凝聚体形成。三个关键特征使物理分析成为可能：synDrops是可诱导的、生物正交的，并且具有明确界定的几何形状。这一设计允许对synDrop组装进行动力学分析，并促进该过程的计算模拟。我们比较了实验和模拟，以确定大分子拥挤促进凝聚体成核，但通过聚并抑制液滴生长。ATP依赖的细胞活动有助于克服生长的受阻。特别是，肌动球蛋白动力学对细胞质的搅拌是增强哺乳动物细胞质中液滴生长的主导机制，通过减少限制和弹性实现。我们的结果表明，介观尺度分子组装受到细胞质中拥挤和活性物质共同效应的促进。这些结果推进了对体内凝聚体形成的预测性理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40162127/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40162127/",
+  "paper_page_path": "papers/pubmed/40162127/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41933798",
+  "title": "AI-validated fusion proteins for local inhibition of interleukin-17A.",
+  "authors": "Lee, Shin-Jae; Abdelhamid, Sara; Bhatti, Quratulain; Attia, Sara Aly; Ramirez, Ashley D; Edman, Maria C; Hamm-Alvarez, Sarah F; MacKay, J A",
+  "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+  "published_date": "2026-04-04",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用AlphaFold3预测并验证了HAP肽与ELP无序蛋白融合体对IL-17A的结合抑制活性，并利用ELP的相分离形成局部药物储库，涉及IDP相分离与PPI结合预测，但核心是药物递送应用而非互作机制建模。",
+  "abstract": "IL-17A is a potent immunomodulatory cytokine that is upregulated in many disorders characterized by chronic inflammation, including autoimmune-mediated dry eye observed in patients with Sjogren's Disease. Existing IL-17A inhibiting therapies are delivered systemically and have been associated with increased infection rates in patients. Inhibiting IL-17A signaling locally, only in affected tissues, may provide therapeutic benefits without compromising systemic immune functions. To address this unmet need, we have developed a local IL-17A inhibiting therapy by fusing HAP, a peptide which binds and inhibits IL-17A, with elastin-like polypeptides (ELPs), which are intrinsically disordered thermosensitive protein-polymers that can be engineered to undergo liquid-liquid phase separation to form depots after injection. We show tuning of ELP composition allows us to manipulate the pharmacokinetics, and specifically mean absorption time of our local immunosuppressive depots, demonstrating the potential for extended, local therapy. Furthermore, the fusions retain the binding and inhibitory activity of the HAP peptide, aligning with our in silico predictions using AlphaFold3. Finally, we confirmed that our formulations, which are bacterially derived, do not measurably stimulate the innate or adaptive immune system, which is critical for therapies for autoimmune diseases. Together, these findings establish the utility of our novel peptide-ELP fusions for extended local IL-17A inhibition to address chronic inflammation with fewer off-target effects.",
+  "abstract_zh": "IL-17A是一种强效的免疫调节细胞因子，在多种以慢性炎症为特征的疾病中表达上调，包括干燥综合征（Sjogren's Disease）患者中观察到的自身免疫介导的干眼症。现有的IL-17A抑制疗法通过全身给药，并与患者感染率增加相关。仅在受累组织中局部抑制IL-17A信号传导，可能在不损害全身免疫功能的情况下提供治疗益处。为满足这一未竟需求，我们开发了一种局部IL-17A抑制疗法，通过将HAP（一种结合并抑制IL-17A的肽）与弹性蛋白样多肽（ELPs）融合，后者是 intrinsically disordered 的热敏蛋白聚合物，可经工程化设计在注射后通过液-液相分离 (liquid-liquid phase separation) 形成储库。我们表明，调整ELP组成可操控我们局部免疫抑制储库的药代动力学，特别是平均吸收时间，展示了延长局部治疗的潜力。此外，融合体保留了HAP肽的结合和抑制活性，这与我们使用AlphaFold3进行的计算机模拟预测一致。最后，我们确认了我们的制剂（源自细菌）不会可测量地刺激固有或适应性免疫系统，这对于自身免疫疾病的治疗至关重要。综合来看，这些发现确立了我们的新型肽-ELP融合体在延长局部IL-17A抑制方面的实用性，以应对慢性炎症并减少脱靶效应。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41933798/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41933798/",
+  "paper_page_path": "papers/pubmed/41933798/index.html"
+}

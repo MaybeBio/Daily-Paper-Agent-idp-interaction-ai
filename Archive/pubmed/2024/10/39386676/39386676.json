@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "39386676",
+    "doi": "10.1101/2024.09.25.614883",
+    "title": "The dimerization domain of SARS CoV 2 Nucleocapsid protein is partially disordered as a monomer and forms a high affinity dynamic complex."
+  },
+  "content": {
+    "abstract": "The SARS-CoV-2 Nucleocapsid (N) is a 419 amino acids protein that drives the compaction and packaging of the viral genome. This compaction is aided not only by protein-RNA interactions, but also by protein-protein interactions that contribute to increasing the valence of the nucleocapsid protein. Here, we focused on quantifying the mechanisms that control dimer formation. Single-molecule Forster Resonance Energy Transfer enabled us to investigate the conformations of the dimerization domain in the context of the full-length protein as well as the energetics associated with dimerization. Under monomeric conditions, we observed significantly expanded configurations of the dimerization domain (compared to the folded dimer structure), which are consistent with a dynamic conformational ensemble. The addition of unlabeled protein stabilizes a folded dimer configuration with a high mean transfer efficiency, in agreement with predictions based on known structures. Dimerization is characterized by a dissociation constant of ~ 12 nM at 23  degrees C and is driven by strong enthalpic interactions between the two protein subunits, which originate from the coupled folding and binding. Interestingly, the dimer structure retains some of the conformational heterogeneity of the monomeric units, and the addition of denaturant reveals that the dimer domain can significantly expand before being completely destabilized. Our findings suggest that the inherent flexibility of the monomer form is required to adopt the specific fold of the dimer domain, where the two subunits interlock with one another. We proposed that the retained flexibility of the dimer form may favor the capture and interactions with RNA, and that the temperature dependence of dimerization may explain some of the previous observations regarding the phase separation propensity of the N protein.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cubuk, Jasmine",
+        "Incicco, J Jeremias",
+        "Hall, Kathleen B",
+        "Holehouse, Alex S",
+        "Stuchell-Brereton, Melissa D",
+        "Soranno, Andrea"
+      ],
+      "short_names": [
+        "Cubuk J",
+        "Incicco JJ",
+        "Hall KB",
+        "Holehouse AS",
+        "Stuchell-Brereton MD",
+        "Soranno A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8394-7993"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+        "current address: Instituto de Quimica y Fisicoquimica Biologicas, Universidad de Buenos Aires - CONICET, Ciudad de Buenos Aires, Argentina.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cubuk, Jasmine",
+        "short_name": "Cubuk J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Incicco, J Jeremias",
+        "short_name": "Incicco JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+          "current address: Instituto de Química y Fisicoquímica Biológicas, Universidad de Buenos Aires - CONICET, Ciudad de Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Hall, Kathleen B",
+        "short_name": "Hall KB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Stuchell-Brereton, Melissa D",
+        "short_name": "Stuchell-Brereton MD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Soranno, Andrea",
+        "short_name": "Soranno A",
+        "identifiers": [
+          "0000-0001-8394-7993"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Sep 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/10 06:22",
+    "fetched_at": "2026-09-22 01:47:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39196624",
+      "38153183",
+      "37463458",
+      "36749730",
+      "36266465",
+      "35871289",
+      "35783502",
+      "34478493",
+      "34265844",
+      "34031561",
+      "33997662",
+      "33782395",
+      "33200826",
+      "33039147",
+      "32979942",
+      "32914439",
+      "32654247",
+      "32416961",
+      "30644840",
+      "30156409",
+      "30134733",
+      "29604882",
+      "28760960",
+      "28331093",
+      "28223518",
+      "28103588",
+      "26812046",
+      "26588361",
+      "26488642",
+      "25700263",
+      "24706910",
+      "24010673",
+      "23717688",
+      "23276541",
+      "22984159",
+      "21203940",
+      "20639465",
+      "20547872",
+      "19933333",
+      "18506808",
+      "17379242",
+      "17243791",
+      "16857738",
+      "16775348",
+      "16426636",
+      "16113120",
+      "14531054",
+      "12034431",
+      "9465054"
+    ],
+    "similar": [
+      "39386676",
+      "40881353",
+      "23745598",
+      "33794152",
+      "34022485",
+      "16627473",
+      "11718556",
+      "38153183",
+      "18305043",
+      "10433723",
+      "33782395",
+      "39082816",
+      "15037623",
+      "17070549",
+      "10518944",
+      "16055542",
+      "17257616",
+      "32766587",
+      "18186476",
+      "37348142",
+      "30217825",
+      "17379242",
+      "38718862",
+      "18942858",
+      "17113101",
+      "9344748",
+      "40820302",
+      "11580254",
+      "35696898",
+      "35051498",
+      "15210358",
+      "17977841",
+      "11284685",
+      "33039147",
+      "15849181",
+      "31068467",
+      "33270159",
+      "15596505",
+      "8665929",
+      "12119027",
+      "17002309",
+      "9245428",
+      "32587966",
+      "36334779",
+      "32654247",
+      "31852780",
+      "12215420",
+      "34100017",
+      "34765991",
+      "35563658",
+      "32511359",
+      "34381460",
+      "12015150",
+      "12904292",
+      "12051856",
+      "9541384",
+      "18561946",
+      "18307314",
+      "38762033",
+      "17029403",
+      "12450388",
+      "14726213",
+      "15629113",
+      "20471398",
+      "2155394",
+      "24568626",
+      "22112013",
+      "16603544",
+      "33200826",
+      "19933326",
+      "14681591",
+      "16519682",
+      "17083088",
+      "19931283",
+      "11316885",
+      "35402516",
+      "19914198",
+      "18156469",
+      "8969239",
+      "34339197",
+      "18946871",
+      "9367757",
+      "18220423",
+      "31103949",
+      "19319935",
+      "40574713",
+      "38686454",
+      "20121101",
+      "27390876",
+      "15644211",
+      "12731867",
+      "15507456",
+      "15041676",
+      "33479198",
+      "15576551",
+      "17270212",
+      "34665939",
+      "20565056",
+      "15759315",
+      "18305031"
+    ],
+    "review": [
+      "39386676"
+    ],
+    "pmc": [
+      "11463464"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39386676/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.09.25.614883",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

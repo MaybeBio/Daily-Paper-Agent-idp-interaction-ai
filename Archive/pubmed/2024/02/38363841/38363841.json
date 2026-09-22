@@ -1,0 +1,434 @@
+{
+  "identity": {
+    "pmid": "38363841",
+    "doi": "10.1126/sciadv.adi6539",
+    "title": "Determinants of viscoelasticity and flow activation energy in biomolecular condensates."
+  },
+  "content": {
+    "abstract": "The form and function of biomolecular condensates are intimately linked to their material properties. Here, we integrate microrheology with molecular simulations to dissect the physical determinants of condensate fluid phase dynamics. By quantifying the timescales and energetics of network relaxation in a series of heterotypic viscoelastic condensates, we uncover distinctive roles of sticker motifs, binding energy, and chain length in dictating condensate dynamical properties. We find that the mechanical relaxation times of condensate-spanning networks are determined by both intermolecular interactions and chain length. We demonstrate, however, that the energy barrier for network reconfiguration, termed flow activation energy, is independent of chain length and only varies with the strengths of intermolecular interactions. Biomolecular diffusion in the dense phase depends on a complex interplay between viscoelasticity and flow activation energy. Our results illuminate distinctive roles of chain length and sequence-specific multivalent interactions underlying the complex material and transport properties of biomolecular condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biomolecular Condensates",
+      "Physical Phenomena",
+      "Diffusion",
+      "*Hydrodynamics",
+      "Physical Examination"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alshareedah, Ibraheem",
+        "Singh, Anurag",
+        "Yang, Sean",
+        "Ramachandran, Vysakh",
+        "Quinn, Alexander",
+        "Potoyan, Davit A",
+        "Banerjee, Priya R"
+      ],
+      "short_names": [
+        "Alshareedah I",
+        "Singh A",
+        "Yang S",
+        "Ramachandran V",
+        "Quinn A",
+        "Potoyan DA",
+        "Banerjee PR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0845-3250",
+        "ORCID: 0000-0002-8132-903X",
+        "ORCID: 0000-0003-2144-0120",
+        "ORCID: 0000-0002-5860-1699",
+        "ORCID: 0000-0002-6169-1461"
+      ],
+      "affiliations": [
+        "Department of Physics, University at Buffalo, Buffalo, NY 14260, USA.",
+        "Department of Physics, University at Buffalo, Buffalo, NY 14260, USA.",
+        "Department of Chemistry, Iowa State University, Ames, IA 50011, USA.",
+        "Department of Chemistry, Iowa State University, Ames, IA 50011, USA.",
+        "Department of Physics, University at Buffalo, Buffalo, NY 14260, USA.",
+        "Department of Chemistry, Iowa State University, Ames, IA 50011, USA.",
+        "Department of Physics, University at Buffalo, Buffalo, NY 14260, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alshareedah, Ibraheem",
+        "short_name": "Alshareedah I",
+        "identifiers": [
+          "0000-0003-0845-3250"
+        ],
+        "affiliations": [
+          "Department of Physics, University at Buffalo, Buffalo, NY 14260, USA."
+        ]
+      },
+      {
+        "full_name": "Singh, Anurag",
+        "short_name": "Singh A",
+        "identifiers": [
+          "0000-0002-8132-903X"
+        ],
+        "affiliations": [
+          "Department of Physics, University at Buffalo, Buffalo, NY 14260, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Sean",
+        "short_name": "Yang S",
+        "identifiers": [
+          "0000-0003-2144-0120"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011, USA."
+        ]
+      },
+      {
+        "full_name": "Ramachandran, Vysakh",
+        "short_name": "Ramachandran V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011, USA."
+        ]
+      },
+      {
+        "full_name": "Quinn, Alexander",
+        "short_name": "Quinn A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University at Buffalo, Buffalo, NY 14260, USA."
+        ]
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [
+          "0000-0002-5860-1699"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011, USA."
+        ]
+      },
+      {
+        "full_name": "Banerjee, Priya R",
+        "short_name": "Banerjee PR",
+        "identifiers": [
+          "0000-0002-6169-1461"
+        ],
+        "affiliations": [
+          "Department of Physics, University at Buffalo, Buffalo, NY 14260, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2024 Feb 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/16 18:42",
+    "fetched_at": "2026-09-22 01:04:05"
+  },
+  "links": {
+    "cites": [
+      "42602649",
+      "42497855",
+      "42473993",
+      "42407334",
+      "42358691",
+      "42055532",
+      "41991555",
+      "41888106",
+      "41867831",
+      "41863073",
+      "41670285",
+      "41657248",
+      "41645509",
+      "41637578",
+      "41586365",
+      "41509200",
+      "41278840",
+      "41187075",
+      "41061052",
+      "40977604",
+      "40953340",
+      "40894760",
+      "40886156",
+      "40801528",
+      "40727669",
+      "40666870",
+      "40661456",
+      "40653479",
+      "40603603",
+      "40481268",
+      "40434645",
+      "40386802",
+      "40291647",
+      "40249817",
+      "40216015",
+      "40196562",
+      "40188296",
+      "39928699",
+      "39824169",
+      "39701962",
+      "39636939",
+      "39568893",
+      "39464253",
+      "39432826",
+      "39227569",
+      "39225536",
+      "39070659",
+      "39026887",
+      "38949285",
+      "38915678",
+      "38571310",
+      "37461689",
+      "36829460",
+      "36747818"
+    ],
+    "refs": [
+      "37645312",
+      "36513655",
+      "35675815",
+      "35674796",
+      "35651258",
+      "35584213",
+      "35245500",
+      "35165426",
+      "34931046",
+      "34785657",
+      "34645832",
+      "33864415",
+      "33771451",
+      "33661100",
+      "33619770",
+      "33558506",
+      "33495357",
+      "33453924",
+      "33453268",
+      "33417833",
+      "33319830",
+      "33303613",
+      "33169001",
+      "33004511",
+      "32934220",
+      "32386547",
+      "32302571",
+      "32302570",
+      "32048997",
+      "32029630",
+      "32004090",
+      "31634364",
+      "31543265",
+      "31540706",
+      "31437398",
+      "31175012",
+      "30981631",
+      "30926670",
+      "30674787",
+      "30608810",
+      "30449618",
+      "30213727",
+      "29961577",
+      "29958108",
+      "29949750",
+      "29921587",
+      "29517898",
+      "29364893",
+      "29097695",
+      "29091028",
+      "29064502",
+      "28935776",
+      "28537592",
+      "28225081",
+      "27212236",
+      "27051975",
+      "26526393",
+      "26456112",
+      "26412307",
+      "26406374",
+      "26390327",
+      "26371551",
+      "26317470",
+      "23535658",
+      "23042527",
+      "22984916",
+      "22698273",
+      "22398450",
+      "21368180",
+      "21231268",
+      "20518023",
+      "18576630",
+      "17067282",
+      "9983702"
+    ],
+    "similar": [
+      "38363841",
+      "39386700",
+      "39636939",
+      "34785657",
+      "41279444",
+      "40455990",
+      "41481439",
+      "37194953",
+      "39610751",
+      "39185151",
+      "33453924",
+      "39225536",
+      "38429263",
+      "37066350",
+      "39386612",
+      "40954121",
+      "39568893",
+      "39464253",
+      "34654286",
+      "36227477",
+      "39042834",
+      "40985078",
+      "36400992",
+      "35881789",
+      "36993212",
+      "36227474",
+      "39227569",
+      "36883003",
+      "37684240",
+      "37131735",
+      "37252985",
+      "39928699",
+      "40791470",
+      "39866835",
+      "39320949",
+      "40249817",
+      "39398199",
+      "37489654",
+      "41342450",
+      "34090478",
+      "37770446",
+      "37468629",
+      "37470705",
+      "35179885",
+      "40848932",
+      "40481268",
+      "33650968",
+      "38722189",
+      "35108264",
+      "33864415",
+      "34890409",
+      "39168125",
+      "37791635",
+      "40098319",
+      "36004748",
+      "40074825",
+      "39196681",
+      "39113361",
+      "33558506",
+      "40629499",
+      "37343188",
+      "36847235",
+      "38832749",
+      "40521608",
+      "34762868",
+      "37019112",
+      "37586369",
+      "38591689",
+      "37162152",
+      "39827079",
+      "36436394",
+      "37205474",
+      "40327693",
+      "38824391",
+      "34129784",
+      "37480229",
+      "40661423",
+      "37464880",
+      "40168179",
+      "34767801",
+      "40386802",
+      "38360555",
+      "40102453",
+      "32004090",
+      "37996438",
+      "37894933",
+      "39824169",
+      "39674888",
+      "36175408",
+      "40473633",
+      "40972943",
+      "36150962",
+      "38987300",
+      "39271032",
+      "39232584",
+      "39455581",
+      "40196628",
+      "38773325",
+      "38649740",
+      "36350032"
+    ],
+    "review": [
+      "38363841",
+      "36400992",
+      "35179885",
+      "39827079",
+      "34129784",
+      "37464880",
+      "34767801",
+      "38360555",
+      "32004090",
+      "39824169",
+      "36150962",
+      "39271032",
+      "38773325"
+    ],
+    "pmc": [
+      "10871536"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/sciadv.adi6539?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/38363841.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38363841/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38363841",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

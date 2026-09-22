@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41002848",
+  "title": "IDP-Head: An Interactive Dual-Perception Architecture for Organoid Detection in Mouse Microscopic Images.",
+  "authors": "Yang, Yuhang; Fan, Changyuan; Zhou, Xi; Wei, Peiyang",
+  "journal": "Biomimetics (Basel, Switzerland)",
+  "published_date": "2025-09-26",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 0,
+  "one_liner_zh": "该文提出用于小鼠显微图像中类器官检测的IDP-Head检测头，属于计算机视觉目标检测任务，与无序蛋白互作机制建模无关。",
+  "abstract": "The widespread application of organoids in disease modeling and drug development is significantly constrained by challenges in automated quantitative analysis. In bright-field microscopy images, organoids exhibit complex characteristics, including irregular morphology, blurred boundaries, and substantial scale variations, largely stemming from their dynamic self-organization that mimics in vivo tissue development. Existing convolutional neural network-based methods are limited by fixed receptive fields and insufficient modeling of inter-channel relationships, making them inadequate for detecting such evolving biological structures. To address these challenges, we propose a novel detection head, termed Interactive Dual-Perception Head (IDP-Head), inspired by hierarchical perception mechanisms in the biological visual cortex. Integrated into the RTMDet framework, IDP-Head comprises two bio-inspired components: a Large-Kernel Global Perception Module (LGPM) to capture global morphological dependencies, analogous to the wide receptive fields of cortical neurons, and a Progressive Channel Synergy Module (PCSM) that models inter-channel semantic collaboration, echoing the integrative processing of multi-channel stimuli in neural systems. Additionally, we construct a new organoid detection dataset to mitigate the scarcity of annotated data. Extensive experiments on both our dataset and public benchmarks demonstrate that IDP-Head achieves a 5-percentage-point improvement in mean Average Precision (mAP) over the baseline model, offering a biologically inspired and effective solution for high-fidelity organoid detection.",
+  "abstract_zh": "类器官在疾病建模和药物开发中的广泛应用，受到自动化定量分析挑战的显著制约。在明场显微镜图像中，类器官表现出复杂特征，包括不规则形态、模糊边界以及显著的尺度变化，这主要源于其模拟体内组织发育的动态自组织过程。现有的基于卷积神经网络的方法受限于固定感受野和通道间关系建模不足，难以检测此类演化中的生物结构。为解决这些挑战，我们提出了一种新型检测头，称为交互式双感知头（Interactive Dual-Perception Head, IDP-Head），其灵感来源于生物视觉皮层中的层级感知机制。集成于RTMDet框架中，IDP-Head包含两个仿生组件：一个用于捕获全局形态依赖的大核全局感知模块（Large-Kernel Global Perception Module, LGPM），类似于皮层神经元的宽感受野；以及一个用于建模通道间语义协作的渐进通道协同模块（Progressive Channel Synergy Module, PCSM），呼应神经系统中多通道刺激的整合处理。此外，我们构建了一个新的类器官检测数据集，以缓解标注数据稀缺的问题。在我们数据集和公共基准上的广泛实验表明，IDP-Head在平均精度（mean Average Precision, mAP）上较基线模型提升了5个百分点，为高保真类器官检测提供了一种受生物学启发且有效的解决方案。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41002848/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41002848/",
+  "paper_page_path": "papers/pubmed/41002848/index.html"
+}

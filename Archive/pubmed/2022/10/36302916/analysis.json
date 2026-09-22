@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36302916",
+  "title": "Small molecules targeting the disordered transactivation domain of the androgen receptor induce the formation of collapsed helical states.",
+  "authors": "Zhu, Jiaqi; Salvatella, Xavier; Robustelli, Paul",
+  "journal": "Nature communications",
+  "published_date": "2022-10-28",
+  "window": {
+    "start": "2022-10-24",
+    "end": "2022-10-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全原子分子动力学模拟揭示小分子靶向雄激素受体无序反式激活域的结合机制，诱导塌缩螺旋态形成，虽对象为无序蛋白-小分子而非PPI，但无序蛋白结合机制建模方法对本课题有直接启发。",
+  "abstract": "Intrinsically disordered proteins, which do not adopt well-defined structures under physiological conditions, are implicated in many human diseases. Small molecules that target the disordered transactivation domain of the androgen receptor have entered human trials for the treatment of castration-resistant prostate cancer (CRPC), but no structural or mechanistic rationale exists to explain their inhibition mechanisms or relative potencies. Here, we utilize all-atom molecular dynamics computer simulations to elucidate atomically detailed binding mechanisms of the compounds EPI-002 and EPI-7170 to the androgen receptor. Our simulations reveal that both compounds bind at the interface of two transiently helical regions and induce the formation of partially folded collapsed helical states. We find that EPI-7170 binds androgen receptor more tightly than EPI-002 and we identify a network of intermolecular interactions that drives higher affinity binding. Our results suggest strategies for developing more potent androgen receptor inhibitors and general strategies for disordered protein drug design.",
+  "abstract_zh": "本质上无序的蛋白质在生理条件下不采用明确结构，与多种人类疾病相关。靶向雄激素受体无序反式激活域的小分子已进入治疗去势抵抗性前列腺癌（CRPC）的人体试验，但尚无结构或机制上的依据来解释其抑制机制或相对效力。在此，我们利用全原子分子动力学计算机模拟，阐明化合物EPI-002和EPI-7170与雄激素受体结合的原子级详细机制。我们的模拟揭示，这两种化合物均结合于两个瞬时螺旋区域的界面，并诱导部分折叠的塌缩螺旋状态的形成。我们发现EPI-7170与雄激素受体的结合比EPI-002更紧密，并识别出驱动更高亲和力结合的分子间相互作用网络。我们的结果为开发更有效的雄激素受体抑制剂提供了策略，并为无序蛋白质药物设计提供了通用方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36302916/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36302916/",
+  "paper_page_path": "papers/pubmed/36302916/index.html"
+}

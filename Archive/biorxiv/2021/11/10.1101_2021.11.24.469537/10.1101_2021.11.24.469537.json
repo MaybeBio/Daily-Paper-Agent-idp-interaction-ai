@@ -1,0 +1,320 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.11.24.469537",
+  "title": "Neurotoxic Amyloidogenic Peptides Identified in the Proteome of SARS-COV2: Potential Implications for Neurological Symptoms in COVID-19",
+  "doi": "10.1101/2021.11.24.469537",
+  "abstract": "<h4>ABSTRACT</h4> COVID-19 is primarily known as a respiratory disease caused by the virus SARS-CoV-2. However, neurological symptoms such as memory loss, sensory confusion, cognitive and psychiatric issues, severe headaches, and even stroke are reported in as many as 30% of cases and can persist even after the infection is over (so-called ‘long COVID’). These neurological symptoms are thought to be caused by brain inflammation, triggered by the virus infecting the central nervous system of COVID-19 patients, however we still don’t fully understand the mechanisms for these symptoms. The neurological effects of COVID-19 share many similarities to neurodegenerative diseases such as Alzheimer’s and Parkinson’s in which the presence of cytotoxic protein-based amyloid aggregates is a common etiological feature. Following the hypothesis that some neurological symptoms of COVID-19 may also follow an amyloid etiology we performed a bioinformatic scan of the SARS-CoV-2 proteome, detecting peptide fragments that were predicted to be highly amyloidogenic. We selected two of these peptides and discovered that they do rapidly self-assemble into amyloid. Furthermore, these amyloid assemblies were shown to be highly toxic to a neuronal cell line. We introduce and support the idea that cytotoxic amyloid aggregates of SARS-CoV-2 proteins are causing some of the neurological symptoms commonly found in COVID-19 and contributing to long COVID, especially those symptoms which are novel to long COVID in contrast to other post-viral syndromes.",
+  "authors": [
+    "Islam S",
+    "Charnley M",
+    "Bindra G",
+    "Ratcliffe J",
+    "Zhou J",
+    "Mezzenga R",
+    "Hulett M",
+    "Han K",
+    "Berryman JT",
+    "Reynolds NP"
+  ],
+  "published_date": "2021-11-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.11.24.469537",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.11.24.469537.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR425048",
+    "raw_record": {
+      "id": "PPR425048",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR425048"
+        ]
+      },
+      "doi": "10.1101/2021.11.24.469537",
+      "title": "Neurotoxic Amyloidogenic Peptides Identified in the Proteome of SARS-COV2: Potential Implications for Neurological Symptoms in COVID-19",
+      "authorString": "Islam S, Charnley M, Bindra G, Ratcliffe J, Zhou J, Mezzenga R, Hulett M, Han K, Berryman JT, Reynolds NP.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Islam S",
+            "lastName": "Islam",
+            "firstName": "Saba",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry & Physics, La Trobe Institute for Molecular Science, La Trobe University, Bundoora, Victoria, 3086, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Charnley M",
+            "lastName": "Charnley",
+            "firstName": "Mirren",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3845-9290"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Optical Sciences and Department of Health Sciences and Biostatistics, Swinburne University of Technology, Hawthorn, Victoria 3122, Australia"
+                },
+                {
+                  "affiliation": "Immune Signalling Laboratory, Peter MacCallum Cancer Centre, Parkville, Victoria, 3000, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bindra G",
+            "lastName": "Bindra",
+            "firstName": "Guneet",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry & Genetics, La Trobe Institute for Molecular Science, La Trobe University, Bundoora, Victoria, 3086, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ratcliffe J",
+            "lastName": "Ratcliffe",
+            "firstName": "Julian",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4713-1166"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "La Trobe University Bioimaging Platform, Bundoora 3086, Victoria, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhou J",
+            "lastName": "Zhou",
+            "firstName": "Jiangtao",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4248-2207"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "ETH Zurich, Food & Soft Materials, Department of Health Science & Technology, Schmelzbergstrasse 9, LFO, E23, 8092 Zürich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mezzenga R",
+            "lastName": "Mezzenga",
+            "firstName": "Raffaele",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5739-2610"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "ETH Zurich, Food & Soft Materials, Department of Health Science & Technology, Schmelzbergstrasse 9, LFO, E23, 8092 Zürich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hulett M",
+            "lastName": "Hulett",
+            "firstName": "Mark",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2072-5968"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry & Genetics, La Trobe Institute for Molecular Science, La Trobe University, Bundoora, Victoria, 3086, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Han K",
+            "lastName": "Han",
+            "firstName": "Kyunghoon",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7670-300X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physics and Materials Science, Faculty of Science, Technology and Medicine, University of Luxembourg, 162a Avenue de la Faïencerie, L-1511 Luxembourg"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Berryman JT",
+            "lastName": "Berryman",
+            "firstName": "Joshua",
+            "initials": "JT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6959-4607"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physics and Materials Science, Faculty of Science, Technology and Medicine, University of Luxembourg, 162a Avenue de la Faïencerie, L-1511 Luxembourg"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Reynolds NP",
+            "lastName": "Reynolds",
+            "firstName": "Nicholas",
+            "initials": "NP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry & Physics, La Trobe Institute for Molecular Science, La Trobe University, Bundoora, Victoria, 3086, Australia"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7670-300X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5739-2610"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6959-4607"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2072-5968"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3845-9290"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4248-2207"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4713-1166"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>ABSTRACT</h4>  COVID-19 is primarily known as a respiratory disease caused by the virus SARS-CoV-2. However, neurological symptoms such as memory loss, sensory confusion, cognitive and psychiatric issues, severe headaches, and even stroke are reported in as many as 30% of cases and can persist even after the infection is over (so-called ‘long COVID’). These neurological symptoms are thought to be caused by brain inflammation, triggered by the virus infecting the central nervous system of COVID-19 patients, however we still don’t fully understand the mechanisms for these symptoms. The neurological effects of COVID-19 share many similarities to neurodegenerative diseases such as Alzheimer’s and Parkinson’s in which the presence of cytotoxic protein-based amyloid aggregates is a common etiological feature. Following the hypothesis that some neurological symptoms of COVID-19 may also follow an amyloid etiology we performed a bioinformatic scan of the SARS-CoV-2 proteome, detecting peptide fragments that were predicted to be highly amyloidogenic. We selected two of these peptides and discovered that they do rapidly self-assemble into amyloid. Furthermore, these amyloid assemblies were shown to be highly toxic to a neuronal cell line. We introduce and support the idea that cytotoxic amyloid aggregates of SARS-CoV-2 proteins are causing some of the neurological symptoms commonly found in COVID-19 and contributing to long COVID, especially those symptoms which are novel to long COVID in contrast to other post-viral syndromes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/11/24/2021.11.24.469537.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.11.24.469537"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR425048"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR425048&type=FILE&fileName=EMS140195-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS140195",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-11-25",
+      "firstPublicationDate": "2021-11-24",
+      "firstIndexDate": "2021-11-25",
+      "fullTextReceivedDate": "2022-01-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

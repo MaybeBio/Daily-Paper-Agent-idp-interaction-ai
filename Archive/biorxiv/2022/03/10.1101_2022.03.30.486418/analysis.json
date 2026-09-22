@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.03.30.486418",
+  "title": "Contributions of the N-terminal intrinsically disordered region of the SARS-CoV-2 nucleocapsid protein to RNA-induced phase separation",
+  "authors": "Milan Zachrdla; Adriana Savastano; Alain Ibáñez de Opakua; Maria-Sol Cima-Omori; Markus Zweckstetter",
+  "journal": "bioRxiv",
+  "published_date": "2022-03-31",
+  "window": {
+    "start": "2022-03-28",
+    "end": "2022-04-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究SARS-CoV-2核衣壳蛋白N端无序区对RNA诱导相分离的贡献，结合实验揭示IDR在PPI介导的凝聚体形成中的机制，虽无AI/物理模拟方法，但对象与互作机制高度契合。",
+  "abstract": "SARS-CoV-2 nucleocapsid protein is an essential structural component of mature virions, encapsulating the genomic RNA and modulating RNA transcription and replication. Several of its activities might be associated with the protein’s ability to undergo liquid-liquid phase separation. N SARS-CoV-2 contains an intrinsically disordered region at its N-terminus (NTE) that can be phosphorylated and is affected by disease-relevant mutations. Here we show that NTE deletion decreases the range of RNA concentrations that can induce phase separation of N SARS-CoV-2 . In addition, deletion of the prion-like NTE allows N SARS-CoV-2 droplets to retain their liquid-like nature during incubation. We further demonstrate that RNA-binding engages multiple parts of the NTE and changes NTE’s structural properties. The results form the foundation to characterize the impact of N-terminal mutations and post-translational modifications on the molecular properties of the SARS-CoV-2 nucleocapsid protein. Statement The nucleocapsid protein of SARS-CoV-2 plays an important role in both genome packaging and viral replication upon host infection. Replication has been associated with RNA-induced liquid-liquid phase separation of the nucleocapsid protein. We present insights into the role of the N-terminal part of the nucleocapsid protein in the protein’s RNA-mediated liquid-liquid phase separation.",
+  "abstract_zh": "SARS-CoV-2核衣壳蛋白是成熟病毒粒子的重要结构组分，包裹基因组RNA并调节RNA转录和复制。其若干活性可能与该蛋白经历液-液相分离的能力相关。N SARS-CoV-2在其N端（NTE）含有一个内在无序区域，该区域可被磷酸化，并受疾病相关突变影响。在此，我们显示NTE缺失降低了可诱导N SARS-CoV-2相分离的RNA浓度范围。此外，朊病毒样NTE的缺失使N SARS-CoV-2液滴在孵育期间保持其液态特性。我们进一步证明，RNA结合涉及NTE的多个部分，并改变NTE的结构特性。这些结果构成了表征N端突变和翻译后修饰对SARS-CoV-2核衣壳蛋白分子特性影响的基础。声明：SARS-CoV-2的核衣壳蛋白在宿主感染后的基因组包装和病毒复制中均发挥重要作用。复制已与核衣壳蛋白的RNA诱导液-液相分离相关联。我们提供了关于核衣壳蛋白N端部分在该蛋白RNA介导的液-液相分离中作用的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.03.30.486418",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.03.30.486418",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.03.30.486418/index.html"
+}

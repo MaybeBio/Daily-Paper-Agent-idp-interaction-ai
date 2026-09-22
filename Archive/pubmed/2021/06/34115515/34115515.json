@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "34115515",
+    "doi": "10.1021/acs.jpcb.1c02453",
+    "title": "Small-Angle X-ray Scattering Signatures of Conformational Heterogeneity and Homogeneity of Disordered Protein Ensembles."
+  },
+  "content": {
+    "abstract": "An accurate account of disordered protein conformations is of central importance to deciphering the physicochemical basis of biological functions of intrinsically disordered proteins and the folding-unfolding energetics of globular proteins. Physically, disordered ensembles of nonhomopolymeric polypeptides are expected to be heterogeneous, i.e., they should differ from those homogeneous ensembles of homopolymers that harbor an essentially unique relationship between average values of end-to-end distance R(EE) and radius of gyration R(g). It was posited recently, however, that small-angle X-ray scattering (SAXS) data on conformational dimensions of disordered proteins can be rationalized almost exclusively by homopolymer ensembles. Assessing this perspective, chain-model simulations are used to evaluate the discriminatory power of SAXS-determined molecular form factors (MFFs) with regard to homogeneous versus heterogeneous ensembles. The general approach adopted here is not bound by any assumption about ensemble encodability, in that the postulated heterogeneous ensembles we evaluated are not restricted to those entailed by simple interaction schemes. Our analysis of MFFs for certain heterogeneous ensembles with more narrowly distributed R(EE) and R(g) indicates that while they deviate from MFFs of homogeneous ensembles, the differences can be rather small. Remarkably, some heterogeneous ensembles with asphericity and R(EE) drastically different from those of homogeneous ensembles can nonetheless exhibit practically identical MFFs, demonstrating that SAXS MFFs do not afford unique characterizations of basic properties of conformational ensembles in general. In other words, the ensemble to MFF mapping is practically many-to-one and likely nonsmooth. Heteropolymeric variations of the R(EE)-R(g) relationship were further showcased using an analytical perturbation theory developed here for flexible heteropolymers. Ramifications of our findings for interpretation of experimental data are discussed.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins",
+      "Protein Conformation",
+      "Scattering, Small Angle",
+      "X-Ray Diffraction",
+      "X-Rays"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Jianhui",
+        "Li, Jichen",
+        "Chan, Hue Sun"
+      ],
+      "short_names": [
+        "Song J",
+        "Li J",
+        "Chan HS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1381-923X"
+      ],
+      "affiliations": [
+        "School of Polymer Science and Engineering, Qingdao University of Science and Technology, 53 Zhengzhou Road, Qingdao 266042, China.",
+        "School of Polymer Science and Engineering, Qingdao University of Science and Technology, 53 Zhengzhou Road, Qingdao 266042, China.",
+        "Department of Biochemistry, University of Toronto Faculty of Medicine, Toronto, Ontario M5S 1A8, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Jianhui",
+        "short_name": "Song J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Polymer Science and Engineering, Qingdao University of Science and Technology, 53 Zhengzhou Road, Qingdao 266042, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jichen",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Polymer Science and Engineering, Qingdao University of Science and Technology, 53 Zhengzhou Road, Qingdao 266042, China."
+        ]
+      },
+      {
+        "full_name": "Chan, Hue Sun",
+        "short_name": "Chan HS",
+        "identifiers": [
+          "0000-0002-1381-923X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Toronto Faculty of Medicine, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2021 Jun 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/12 06:00",
+    "fetched_at": "2026-09-20 03:43:09"
+  },
+  "links": {
+    "cites": [
+      "40998749",
+      "39980654",
+      "39642200",
+      "38696815",
+      "37155239",
+      "36917561",
+      "36711874",
+      "36352011",
+      "36227469",
+      "35977086",
+      "35119946"
+    ],
+    "refs": [],
+    "similar": [
+      "34115515",
+      "28716919",
+      "30840442",
+      "33725442",
+      "32840111",
+      "32696370",
+      "34627764",
+      "28877485",
+      "26566073",
+      "27440558",
+      "31402649",
+      "29571687",
+      "34252246",
+      "26548662",
+      "26320411",
+      "21947276",
+      "32696362",
+      "36641212",
+      "29573987",
+      "27281267",
+      "29548755",
+      "31548393",
+      "31714774",
+      "39056166",
+      "34817999",
+      "30878202",
+      "26574339",
+      "38615193",
+      "35377637",
+      "30125451",
+      "24174539",
+      "26030189",
+      "32859072",
+      "22095648",
+      "36352011",
+      "38221741",
+      "30204435",
+      "29792674",
+      "35705644",
+      "26387105",
+      "36410960",
+      "22044150",
+      "30291845",
+      "29218556",
+      "26807783",
+      "31424463",
+      "31809054",
+      "30992378",
+      "26042819",
+      "36934808",
+      "37338049",
+      "17250999",
+      "37298260",
+      "35213160",
+      "9466917",
+      "28793210",
+      "32879005",
+      "37433228",
+      "32357776",
+      "32502383",
+      "30617833",
+      "32119546",
+      "30865820",
+      "33453925",
+      "27583570",
+      "36518077",
+      "36856266",
+      "32035901",
+      "36331868",
+      "26387110",
+      "35696898",
+      "17182256",
+      "24896127",
+      "35923464",
+      "24089737",
+      "21936008",
+      "26068738",
+      "29045407",
+      "29208936",
+      "32585849",
+      "30731089",
+      "33968988",
+      "30909517",
+      "26914439",
+      "27936491",
+      "29539394",
+      "30166461",
+      "25687761",
+      "32074499",
+      "32345021",
+      "31396910",
+      "25848882",
+      "28625737",
+      "30554840",
+      "28180305",
+      "21220121",
+      "26387099",
+      "34680137",
+      "27844185",
+      "21462170",
+      "26387108",
+      "33337879",
+      "33730849",
+      "31445067",
+      "35004845",
+      "8605167",
+      "16284250",
+      "31073392",
+      "24559993",
+      "17411046",
+      "20958032",
+      "24089719",
+      "35413244",
+      "38053335",
+      "22613562",
+      "37653246",
+      "36759615",
+      "38907110",
+      "37200094",
+      "25866658",
+      "37791766",
+      "38361440",
+      "38370653",
+      "22711968",
+      "24187427",
+      "20643086",
+      "30166460",
+      "23277677",
+      "37023001",
+      "34630939",
+      "37791368",
+      "36824878",
+      "36993592",
+      "35573740",
+      "39340154",
+      "35061369",
+      "38959217",
+      "35395173",
+      "33596657",
+      "36932521",
+      "33614705",
+      "35795824"
+    ],
+    "review": [
+      "34115515",
+      "30840442",
+      "26320411",
+      "21947276",
+      "26387105",
+      "22044150",
+      "29218556",
+      "26807783",
+      "17250999",
+      "30617833",
+      "32035901",
+      "26387110",
+      "30909517",
+      "28625737",
+      "26387099",
+      "26387108",
+      "31445067",
+      "35004845",
+      "31073392",
+      "38907110"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.1c02453",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

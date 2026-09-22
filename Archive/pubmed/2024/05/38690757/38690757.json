@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "38690757",
+    "doi": "10.1039/d4sm00358f",
+    "title": "Lipidation alters the phase-separation of resilin-like polypeptides."
+  },
+  "content": {
+    "abstract": "Biology exploits biomacromolecular phase separation to form condensates, known as membraneless organelles. Despite significant advancements in deciphering sequence determinants for phase separation, modulating these features in vivo remains challenging. A promising approach inspired by biology is to use post-translational modifications (PTMs)-to modulate the amino acid physicochemistry instead of altering protein sequences-to control the formation and characteristics of condensates. However, despite the identification of more than 300 types of PTMs, the detailed understanding of how they influence the formation and material properties of protein condensates remains incomplete. In this study, we investigated how modification with myristoyl lipid alters the formation and characteristics of the resilin-like polypeptide (RLP) condensates, a prototypical disordered protein with upper critical solution temperature (UCST) phase behaviour. Using turbidimetry, dynamic light scattering, confocal and electron microscopy, we demonstrated that lipidation-in synergy with the sequence of the lipidation site-significantly influences RLPs' thermodynamic propensity for phase separation and their condensate properties. Molecular simulations suggested these effects result from an expanded hydrophobic region created by the interaction between the lipid and lipidation site rather than changes in peptide rigidity. These findings emphasize the role of \"sequence context\" in modifying the properties of PTMs, suggesting that variations in lipidation sequences could be strategically used to fine-tune the effect of these motifs. Our study advances understanding of lipidation's impact on UCST phase behaviour, relevant to proteins critical in biological processes and diseases, and opens avenues for designing lipidated resilins for biomedical applications like heat-mediated drug elution.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Peptides/chemistry",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Insect Proteins/chemistry/metabolism",
+      "Phase Transition",
+      "Amino Acid Sequence",
+      "Protein Processing, Post-Translational"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Zhe",
+        "Ji, Jingjing",
+        "Hossain, Md Shahadat",
+        "Bailey, Briah",
+        "Nangia, Shikha",
+        "Mozhdehi, Davoud"
+      ],
+      "short_names": [
+        "Zhang Z",
+        "Ji J",
+        "Hossain MS",
+        "Bailey B",
+        "Nangia S",
+        "Mozhdehi D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6688-5310",
+        "ORCID: 0000-0003-1170-8461",
+        "ORCID: 0000-0002-3440-8878"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Syracuse University, Syracuse, New York 13244, USA. dmozhdeh@syr.edu.",
+        "Department of Biomedical and Chemical Engineering, Syracuse University, Syracuse, New York 13244, USA. snangia@syr.edu.",
+        "Department of Pharmaceutical Technology, University of Dhaka, Bangladesh.",
+        "Department of Biomedical Engineering, Augusta University, Augusta, Georgia 30912, USA.",
+        "Department of Biomedical and Chemical Engineering, Syracuse University, Syracuse, New York 13244, USA. snangia@syr.edu.",
+        "Department of Chemistry, Syracuse University, Syracuse, New York 13244, USA. dmozhdeh@syr.edu.",
+        "BioInspired Syracuse: Institute for Material and Living Systems, Syracuse University, Syracuse, NY 13244, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Zhe",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Syracuse University, Syracuse, New York 13244, USA. dmozhdeh@syr.edu."
+        ]
+      },
+      {
+        "full_name": "Ji, Jingjing",
+        "short_name": "Ji J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical and Chemical Engineering, Syracuse University, Syracuse, New York 13244, USA. snangia@syr.edu."
+        ]
+      },
+      {
+        "full_name": "Hossain, Md Shahadat",
+        "short_name": "Hossain MS",
+        "identifiers": [
+          "0000-0002-6688-5310"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Technology, University of Dhaka, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Bailey, Briah",
+        "short_name": "Bailey B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Augusta University, Augusta, Georgia 30912, USA."
+        ]
+      },
+      {
+        "full_name": "Nangia, Shikha",
+        "short_name": "Nangia S",
+        "identifiers": [
+          "0000-0003-1170-8461"
+        ],
+        "affiliations": [
+          "Department of Biomedical and Chemical Engineering, Syracuse University, Syracuse, New York 13244, USA. snangia@syr.edu."
+        ]
+      },
+      {
+        "full_name": "Mozhdehi, Davoud",
+        "short_name": "Mozhdehi D",
+        "identifiers": [
+          "0000-0002-3440-8878"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Syracuse University, Syracuse, New York 13244, USA. dmozhdeh@syr.edu.",
+          "BioInspired Syracuse: Institute for Material and Living Systems, Syracuse University, Syracuse, NY 13244, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Soft matter"
+    ],
+    "journal_abbrev": [
+      "Soft Matter"
+    ],
+    "pub_date": "2024 May 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/01 13:30",
+    "fetched_at": "2026-09-21 06:52:04"
+  },
+  "links": {
+    "cites": [
+      "42154217",
+      "41993480",
+      "41958232",
+      "41221473",
+      "40386766",
+      "40029010"
+    ],
+    "refs": [
+      "38353994",
+      "37947798",
+      "37947361",
+      "37018141",
+      "36757021",
+      "36712617",
+      "36400990",
+      "36256816",
+      "35905931",
+      "35474060",
+      "35044146",
+      "34984429",
+      "34307837",
+      "34151335",
+      "34144468",
+      "33930220",
+      "33464811",
+      "33420053",
+      "32747754",
+      "32393642",
+      "32134099",
+      "31750468",
+      "31604601",
+      "31439799",
+      "31175012",
+      "30765518",
+      "30587571",
+      "30531905",
+      "30465923",
+      "30292393",
+      "30061688",
+      "30045872",
+      "29556049",
+      "29517898",
+      "29443972",
+      "29292991",
+      "28879687",
+      "28537592",
+      "28283059",
+      "28041848",
+      "26390327",
+      "23406497",
+      "15132671",
+      "11955007"
+    ],
+    "similar": [
+      "38690757",
+      "25424611",
+      "36378745",
+      "33464811",
+      "34006089",
+      "33420053",
+      "32393642",
+      "38252962",
+      "37525441",
+      "40748104",
+      "37815389",
+      "22627880",
+      "29509422",
+      "38353994",
+      "36988077",
+      "30587571",
+      "38804888",
+      "40136009",
+      "26177160",
+      "41001791",
+      "38484154",
+      "19821603",
+      "33139563",
+      "33440486",
+      "36757021",
+      "39964249",
+      "40455990",
+      "29683665",
+      "32548680",
+      "39178343",
+      "39495202",
+      "32601486",
+      "32087632",
+      "34573116",
+      "30826216",
+      "20457254",
+      "39670461",
+      "31855430",
+      "38308651",
+      "34304571",
+      "26851528",
+      "39390911",
+      "30926670",
+      "33302617",
+      "39319382",
+      "32364240",
+      "31444270",
+      "39896463",
+      "40984006",
+      "38553587",
+      "32936641",
+      "23912807",
+      "32696385",
+      "37464880",
+      "39937084",
+      "32312191",
+      "40724961",
+      "36993212",
+      "27281267",
+      "21826606",
+      "26646060",
+      "30597119",
+      "38163950",
+      "38424304",
+      "34785657",
+      "26325592",
+      "40291420",
+      "36067308",
+      "23831198",
+      "19943267",
+      "32405004",
+      "37261897",
+      "38980747",
+      "39042834",
+      "41480717",
+      "32426986",
+      "39826709",
+      "34202468",
+      "37793174",
+      "40970659",
+      "40531332",
+      "35325654",
+      "40108179",
+      "40129117",
+      "41187075",
+      "36015451",
+      "30471685",
+      "29556049",
+      "33597515",
+      "37231298",
+      "29856926",
+      "38855848",
+      "37735186",
+      "40102453",
+      "39947751",
+      "40999735",
+      "35918061",
+      "40286852",
+      "40985078",
+      "33827920"
+    ],
+    "review": [
+      "38690757",
+      "33420053",
+      "29509422",
+      "30587571",
+      "39964249",
+      "32548680",
+      "39178343",
+      "34573116",
+      "30826216",
+      "32364240",
+      "31444270",
+      "37464880",
+      "32312191",
+      "40724961",
+      "21826606",
+      "38424304",
+      "26325592",
+      "23831198",
+      "41480717",
+      "38855848",
+      "39947751",
+      "40999735"
+    ],
+    "pmc": [
+      "11095499"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38690757/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d4sm00358f",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38690757",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

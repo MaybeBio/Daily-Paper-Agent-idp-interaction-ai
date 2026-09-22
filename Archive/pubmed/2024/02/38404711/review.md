@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors tested 14 peptides derived from intrinsically disordered regions (IDRs) predicted to have antimicrobial activity, found that nearly all lacked antimicrobial effects, and attribute this to failure to adopt defined secondary structures and compromised membrane interactions. They further claim that current antimicrobial predictors do not accurately capture structural features of intrinsically unstructured sequences, with implications for antimicrobial design.
+- **Visible evidence base** Abstract text only; no experimental details, sequence information, predictor names, statistical analyses, or raw data provided
+- **Missing materials affecting confidence** Full methods, peptide sequences, predictor algorithms and versions, experimental protocols for structure and membrane interaction assays, quantitative results, statistical analyses, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis regarding the antimicrobial potential of IDRs and the limitations of current prediction tools. However, the evidence base visible in the abstract is insufficient to evaluate the robustness of the experimental design, the validity of the conclusions, or the generalizability of the claims. The central finding, that nearly all tested IDR-derived peptides lacked antimicrobial activity, is stated without quantitative support, and the proposed evolutionary explanation is speculative. The claim about predictor limitations is plausible but not substantiated with specific data on predictor performance. The work may be of interest to the antimicrobial peptide and intrinsically disordered protein communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in antimicrobial peptide discovery and design, computational biologists developing peptide activity predictors, and scientists studying intrinsically disordered proteins and their functional roles. The results could inform the development of better prediction tools and highlight the need to consider structural disorder in antimicrobial design.
+- **Major strengths** The hypothesis is clearly framed and addresses a relevant gap in the field, namely the disconnect between sequence-based prediction and structural behavior of disordered peptides. The study design, testing peptides derived from IDRs predicted to have antimicrobial activity, is a direct and logical approach. The potential implications for improving antimicrobial prediction tools are meaningful.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that nearly all of the 14 tested IDR-derived peptides did not display the anticipated antimicrobial effects.  
+  - **Evidence pointer** Abstract, results section not provided  
+  - **Concern** The abstract states that nearly all peptides lacked antimicrobial activity but provides no quantitative data, such as the number of active peptides, minimum inhibitory concentrations, or statistical comparisons. Without these details, the strength of the finding cannot be assessed.  
+  - **Why it matters** The central conclusion of the study rests on this negative result. If the activity data are marginal or variable, the interpretation could change substantially. The absence of quantitative evidence prevents verification of the claim.  
+  - **Resolution test** Provide the number of active versus inactive peptides, quantitative activity measurements, and appropriate statistical analyses in the full manuscript.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The authors claim that the peptides failed to adopt a defined secondary structure and had compromised membrane interactions, resulting in a lack of antimicrobial activity.  
+  - **Evidence pointer** Abstract, results section not provided  
+  - **Concern** The causal link between lack of structure, poor membrane interaction, and absence of antimicrobial activity is stated as a finding, but no experimental evidence is visible in the abstract. It is unclear what methods were used to assess secondary structure and membrane interactions, and whether these measurements were performed under conditions relevant to antimicrobial action.  
+  - **Why it matters** The mechanistic explanation is central to the hypothesis. Without direct evidence linking structural behavior to functional outcome, the conclusion remains speculative.  
+  - **Resolution test** Describe the structural and membrane interaction assays, include representative data, and demonstrate a correlation between structural adoption, membrane binding, and antimicrobial activity.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Predictor evaluation  
+  - **Claim pointer** The authors claim that current antimicrobial predictors fail to accurately capture the structural features of peptides when dealing with intrinsically unstructured sequences.  
+  - **Evidence pointer** Abstract, results section not provided  
+  - **Concern** The abstract does not specify which predictors were used, how their predictions were compared to experimental results, or what metrics were employed to assess accuracy. The claim is broad and could be misinterpreted without context.  
+  - **Why it matters** This claim has implications for the field of antimicrobial peptide prediction. If the evaluation is not rigorous or the predictors are not representative, the conclusion may be overstated.  
+  - **Resolution test** List the predictors used, describe the comparison methodology, and provide quantitative performance metrics such as sensitivity, specificity, or area under the curve.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Evolutionary interpretation  
+  - **Claim pointer** The authors hypothesize that evolutionary constraints may prevent IDRs from folding, even in membrane-like environments, limiting their antimicrobial potential.  
+  - **Evidence pointer** Abstract, discussion section not provided  
+  - **Concern** This hypothesis is presented without supporting evidence or a clear framework for testing it. It is not clear how evolutionary constraints were assessed or how this interpretation follows from the experimental data.  
+  - **Why it matters** The evolutionary claim extends beyond the immediate experimental findings and could be seen as speculative. If not properly contextualized, it may distract from the more concrete results.  
+  - **Resolution test** Provide a reasoned argument or additional data supporting the evolutionary interpretation, or clearly frame it as a hypothesis requiring future testing.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract, peptide selection  
+  - **Evidence pointer** Abstract, methods not provided  
+  - **Issue** The abstract does not describe how the 14 peptides were selected from IDRs or what criteria were used to predict antimicrobial activity.  
+  - **Required correction** Briefly describe the selection and prediction criteria in the abstract or refer to the methods section.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract, term "nearly all"  
+  - **Evidence pointer** Abstract, results section not provided  
+  - **Issue** The phrase "nearly all" is imprecise and could be interpreted in multiple ways.  
+  - **Required correction** Specify the exact number of peptides that showed activity versus those that did not.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Abstract, implications statement  
+  - **Evidence pointer** Abstract, conclusion section  
+  - **Issue** The claim that the results have "far-reaching implications" is broad and not directly supported by the limited data described.  
+  - **Required correction** Soften the language or specify the scope of implications more precisely.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative activity data, mechanistic evidence, and predictor evaluation details prevents the core claims from being verified.
+
+## Risk / unsupported claims
+- The claim that nearly all IDR-derived peptides lacked antimicrobial activity is unsupported without quantitative data.
+- The mechanistic link between lack of structure, poor membrane interaction, and loss of activity is unsupported without experimental evidence.
+- The claim that current predictors fail to capture structural features of intrinsically unstructured sequences is unsupported without specification of predictors and evaluation metrics.
+- The evolutionary hypothesis is speculative and not supported by visible evidence.
+- The statement that results have far-reaching implications for antimicrobial design is not substantiated from the abstract alone.

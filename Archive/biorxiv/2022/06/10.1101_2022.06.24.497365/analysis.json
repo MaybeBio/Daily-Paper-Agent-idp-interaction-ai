@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.06.24.497365",
+  "title": "Functional regulation of an intrinsically disordered protein via a conformationally excited state",
+  "authors": "Kulkarni Madhurima; Bodhisatwa Nandi; Sneha Munshi; Athi N. Naganathan; Ashok Sekhar",
+  "journal": "bioRxiv",
+  "published_date": "2022-06-28",
+  "window": {
+    "start": "2022-06-27",
+    "end": "2022-07-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过NMR解析无序蛋白CytR的激发态结构，揭示其通过折叠-结合构象选择机制识别DNA，虽无AI/物理模拟方法，但聚焦IDP互作机制建模，对本课题有重要启发。",
+  "abstract": "A longstanding goal in the field of intrinsically disordered proteins (IDP) is to characterize their structural heterogeneity and pinpoint the role of this heterogeneity in IDP function. Here, we use multinuclear chemical exchange saturation (CEST) NMR to determine the structure of a thermally accessible globally folded excited state in equilibrium with the intrinsically disordered native ensemble of a bacterial transcriptional regulator CytR. We further provide evidence from double resonance CEST experiments that the excited state, which structurally resembles the DNA-bound form of CytR, recognizes DNA by means of a ‘folding-before-binding’ conformational selection pathway. The disorder-to-order regulatory switch in DNA recognition by natively disordered CytR therefore operates through a dynamical variant of the lock-and-key mechanism where the structurally complementary conformation is transiently accessed via thermal fluctuations. One-Sentence Summary The intrinsically disordered cytidine repressor binds DNA via a folding-before-binding conformational selection mechanism",
+  "abstract_zh": "intrinsically disordered proteins (IDP) 领域的一个长期目标是表征其结构异质性，并确定这种异质性在IDP功能中的作用。在此，我们使用多核化学交换饱和转移 (chemical exchange saturation, CEST) NMR 来确定细菌转录调控因子CytR的天然无序本征态中，一个热可及的全局折叠激发态的结构，该激发态与本征无序本征态处于平衡状态。我们进一步通过双共振CEST实验提供证据表明，该激发态在结构上类似于CytR的DNA结合形式，通过“先折叠后结合”的构象选择途径识别DNA。因此，天然无序CytR在DNA识别中的无序到有序调控开关，通过锁钥机制的动态变体运作，其中结构互补的构象通过热波动瞬时访问。一句话摘要 天然无序的胞苷抑制因子通过先折叠后结合的构象选择机制结合DNA",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.06.24.497365",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.06.24.497365",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.06.24.497365/index.html"
+}

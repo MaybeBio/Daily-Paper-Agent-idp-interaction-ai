@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40835742",
+  "title": "Decoding phospho-regulation and flanking regions in autophagy-associated short linear motifs.",
+  "authors": "Utichi, Mattia; Antonescu, Oana N; Sora, Valentina; Marjault, Henri-Baptiste; Tiberti, Matteo; Maiani, Emiliano; Lambrughi, Matteo; Papaleo, Elena",
+  "journal": "Communications biology",
+  "published_date": "2025-08-21",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该文整合分子模拟、高通量突变扫描与生物物理实验，在原子层面解析自噬相关SLiM（LIR）中磷酸化与侧翼区域对LC3结合的调控机制，直接命中无序蛋白互作机制建模核心。",
+  "abstract": "Short Linear Motifs (SLiMs) play a pivotal role in the interactions between intrinsically disordered proteins and their binding partners. SLiMs can undergo regulation through post-translational modifications, including phosphorylation. The flanking regions surrounding the core motifs also exert a crucial role for the interaction. While phosphorylation and flanking regions are known to influence SLiM function, the mechanistic basis of this regulation remains poorly understood. We integrate biomolecular simulations, in silico high-throughput mutational scans, and biophysical experiments to elucidate the phospho-regulation in SLiMs crucial for autophagy, i.e., the LC3 interacting regions (LIRs). We investigate the Optineurin LIR, which perfectly exemplifies a class of LIR with a complex interplay of phosphorylations and flanking regions. Here we show that specific phosphorylation events and flanking residues modulate binding to LC3 at the atomic level, and that disease-associated mutations alter these interactions in the phosphorylated context. Notably, we establish an approach based on Microfluidic Diffusional Sizing to investigate binding affinities of SLiMs to target proteins, complemented by Surface Plasmon Resonance, enabling precise measurements of dissociation constants and kinetics for a selection of variants. Our work provides a versatile toolkit to characterize phospho-regulated SLiMs, advancing the understanding of important cellular processes.",
+  "abstract_zh": "短线性基序（SLiMs）在固有无序蛋白与其结合伙伴之间的相互作用中发挥关键作用。SLiMs可通过翻译后修饰（包括磷酸化）进行调控。核心基序周围的侧翼区域也对相互作用至关重要。尽管已知磷酸化和侧翼区域影响SLiM功能，但这种调控的机制基础仍知之甚少。我们整合生物分子模拟、计算机高通量突变扫描和生物物理实验，以阐明对自噬至关重要的SLiMs中的磷酸化调控，即LC3相互作用区域（LIRs）。我们研究Optineurin LIR，它完美代表了具有磷酸化与侧翼区域复杂相互作用的LIR类别。我们在此表明，特定磷酸化事件和侧翼残基在原子水平上调节与LC3的结合，并且疾病相关突变在磷酸化背景下改变这些相互作用。值得注意的是，我们建立了一种基于微流控扩散尺寸测量（Microfluidic Diffusional Sizing）的方法来研究SLiMs与靶蛋白的结合亲和力，并辅以表面等离子体共振（Surface Plasmon Resonance），从而实现对所选变体的解离常数和动力学的精确测量。我们的工作提供了一种多功能工具包来表征磷酸化调控的SLiMs，推进了对重要细胞过程的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40835742/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40835742/",
+  "paper_page_path": "papers/pubmed/40835742/index.html"
+}

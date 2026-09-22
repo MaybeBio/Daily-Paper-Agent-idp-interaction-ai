@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36835439",
+  "title": "Germline NUP98 Variants in Two Siblings with a Rothmund-Thomson-Like Spectrum: Protein Functional Changes Predicted by Molecular Modeling.",
+  "authors": "Colombo, Elisa Adele; Valiante, Michele; Uggeri, Matteo; Orro, Alessandro; Majore, Silvia; Grammatico, Paola; Gentilini, Davide; Finelli, Palma; Gervasini, Cristina; D'Ursi, Pasqualina; Larizza, Lidia",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2023-02-26",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过分子建模预测NUP98无序区域FG结构域突变对蛋白构象和互作能力的影响，对象为IDR且涉及蛋白互作机制，但方法为经典分子建模而非AI/物理模拟，且互作未深入实验验证。",
+  "abstract": "Two adult siblings born to first-cousin parents presented a clinical phenotype reminiscent of Rothmund-Thomson syndrome (RTS), implying fragile hair, absent eyelashes/eyebrows, bilateral cataracts, mottled pigmentation, dental decay, hypogonadism, and osteoporosis. As the clinical suspicion was not supported by the sequencing of RECQL4, the RTS2-causative gene, whole exome sequencing was applied and disclosed the homozygous variants c.83G>A (p.Gly28Asp) and c.2624A>C (p.Glu875Ala) in the nucleoporin 98 (NUP98) gene. Though both variants affect highly conserved amino acids, the c.83G>A looked more intriguing due to its higher pathogenicity score and location of the replaced amino acid between phenylalanine-glycine (FG) repeats within the first NUP98 intrinsically disordered region. Molecular modeling studies of the mutated NUP98 FG domain evidenced a dispersion of the intramolecular cohesion elements and a more elongated conformational state compared to the wild type. This different dynamic behavior may affect the NUP98 functions as the minor plasticity of the mutated FG domain undermines its role as a multi-docking station for RNA and proteins, and the impaired folding can lead to the weakening or the loss of specific interactions. The clinical overlap of NUP98-mutated and RTS2/RTS1 patients, accounted by converging dysregulated gene networks, supports this first-described constitutional NUP98 disorder, expanding the well-known role of NUP98 in cancer.",
+  "abstract_zh": "一对由表亲父母所生的成年同胞兄妹呈现了类似 Rothmund-Thomson 综合征（RTS）的临床表型，包括脆发、睫毛/眉毛缺失、双侧白内障、斑驳状色素沉着、牙齿龋坏、性腺功能减退及骨质疏松。由于临床怀疑未得到 RTS2 致病基因 RECQL4 测序的支持，遂采用全外显子组测序，并在核孔蛋白 98（NUP98）基因中发现了纯合变异 c.83G>A（p.Gly28Asp）和 c.2624A>C（p.Glu875Ala）。尽管这两个变异均影响高度保守的氨基酸，但 c.83G>A 因其更高的致病性评分及被替换氨基酸位于第一个 NUP98 内在无序区域内苯丙氨酸-甘氨酸（FG）重复序列之间的位置而显得更具吸引力。对突变 NUP98 FG 结构域的分子建模研究显示，与野生型相比，其分子内 cohesion 元件分散且构象状态更为延伸。这种不同的动态行为可能影响 NUP98 的功能，因为突变 FG 结构域的较小可塑性削弱了其作为 RNA 和蛋白质多对接站的作用，而折叠受损可能导致特定相互作用的减弱或丧失。NUP98 突变患者与 RTS2/RTS1 患者的临床重叠，归因于汇聚的失调基因网络，支持了这一首次描述的结构性 NUP98 疾病，扩展了 NUP98 在癌症中已知的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36835439/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36835439/",
+  "paper_page_path": "papers/pubmed/36835439/index.html"
+}

@@ -1,0 +1,183 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.19.427320",
+  "title": "Coevolutionary Analysis and Perturbation-Based Network Modeling of the SARS-CoV-2 Spike Protein Complexes with Antibodies: Binding-Induced Control of Dynamics, Allosteric Interactions and Signaling",
+  "doi": "10.1101/2021.01.19.427320",
+  "abstract": "The structural and biochemical studies of the SARS-CoV-2 spike glycoproteins and complexes with highly potent antibodies have revealed multiple conformation-dependent epitopes highlighting the link between conformational plasticity of spike proteins and capacity for eliciting specific binding and broad neutralization responses. In this study, we used coevolutionary analysis, molecular simulations, and perturbation-based hierarchical network modeling of the SARS-CoV-2 S complexes with H014, S309, S2M11 and S2E12 antibodies targeting distinct epitopes to explore molecular mechanisms underlying binding-induced modulation of dynamics, stability and allosteric signaling in the spike protein trimers. The results of this study revealed key regulatory centers that can govern allosteric interactions and communications in the SARS-CoV-2 spike proteins. Through coevolutionary analysis of the SARS-CoV-2 spike proteins, we identified highly coevolving hotspots and functional clusters forming coevolutionary networks. The results revealed significant coevolutionary couplings between functional regions separated by the medium-range distances which may help to facilitate a functional cross-talk between distant allosteric regions in the SARS-CoV-2 spike complexes with antibodies. We also discovered a potential mechanism by which antibody-specific targeting of coevolutionary centers can allow for efficient modulation of allosteric interactions and signal propagation between remote functional regions. Using a hierarchical network modeling and perturbation-response scanning analysis, we demonstrated that binding of antibodies could leverage direct contacts with coevolutionary hotspots to allosterically restore and enhance couplings between spatially separated functional regions, thereby protecting the spike apparatus from membrane fusion. The results of this study also suggested that antibody binding can induce a switch from a moderately cooperative population-shift mechanism, governing structural changes of the ligand-free SARS-CoV-2 spike protein, to antibody-induced highly cooperative mechanism that can better withstand mutations in the functional regions without significant deleterious consequences for protein function. This study provides a novel insight into allosteric regulatory mechanisms of SARS-CoV-2 S proteins, showing that antibodies can modulate allosteric interactions and signaling of spike proteins, providing a plausible strategy for therapeutic intervention by targeting specific hotspots of allosteric interactions in the SARS-CoV-2 proteins.",
+  "authors": [
+    "Verkhivker GM",
+    "Di Paola L"
+  ],
+  "published_date": "2021-01-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.19.427320",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.19.427320.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR269155",
+    "raw_record": {
+      "id": "PPR269155",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR269155"
+        ]
+      },
+      "doi": "10.1101/2021.01.19.427320",
+      "title": "Coevolutionary Analysis and Perturbation-Based Network Modeling of the SARS-CoV-2 Spike Protein Complexes with Antibodies: Binding-Induced Control of Dynamics, Allosteric Interactions and Signaling",
+      "authorString": "Verkhivker GM, Di Paola L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Verkhivker GM",
+            "lastName": "Verkhivker",
+            "firstName": "Gennady",
+            "initials": "GM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4507-4471"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Keck Center for Science and Engineering, Schmid College of Science and Technology, Chapman University, One University Drive, Orange, CA 92866, USA"
+                },
+                {
+                  "affiliation": "Depatment of Biomedical and Pharmaceutical Sciences, Chapman University School of Pharmacy, Irvine, CA 92618, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Di Paola L",
+            "lastName": "Di Paola",
+            "firstName": "Luisa",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5329-8689"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Unit of Chemical-Physics Fundamentals in Chemical Engineering, Department of Engineering, Università Campus Bio-Medico di Roma, via Álvaro del Portillo 21, 00128 Rome, Italy"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5329-8689"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4507-4471"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The structural and biochemical studies of the SARS-CoV-2 spike glycoproteins and complexes with highly potent antibodies have revealed multiple conformation-dependent epitopes highlighting the link between conformational plasticity of spike proteins and capacity for eliciting specific binding and broad neutralization responses. In this study, we used coevolutionary analysis, molecular simulations, and perturbation-based hierarchical network modeling of the SARS-CoV-2 S complexes with H014, S309, S2M11 and S2E12 antibodies targeting distinct epitopes to explore molecular mechanisms underlying binding-induced modulation of dynamics, stability and allosteric signaling in the spike protein trimers. The results of this study revealed key regulatory centers that can govern allosteric interactions and communications in the SARS-CoV-2 spike proteins. Through coevolutionary analysis of the SARS-CoV-2 spike proteins, we identified highly coevolving hotspots and functional clusters forming coevolutionary networks. The results revealed significant coevolutionary couplings between functional regions separated by the medium-range distances which may help to facilitate a functional cross-talk between distant allosteric regions in the SARS-CoV-2 spike complexes with antibodies. We also discovered a potential mechanism by which antibody-specific targeting of coevolutionary centers can allow for efficient modulation of allosteric interactions and signal propagation between remote functional regions. Using a hierarchical network modeling and perturbation-response scanning analysis, we demonstrated that binding of antibodies could leverage direct contacts with coevolutionary hotspots to allosterically restore and enhance couplings between spatially separated functional regions, thereby protecting the spike apparatus from membrane fusion. The results of this study also suggested that antibody binding can induce a switch from a moderately cooperative population-shift mechanism, governing structural changes of the ligand-free SARS-CoV-2 spike protein, to antibody-induced highly cooperative mechanism that can better withstand mutations in the functional regions without significant deleterious consequences for protein function. This study provides a novel insight into allosteric regulatory mechanisms of SARS-CoV-2 S proteins, showing that antibodies can modulate allosteric interactions and signaling of spike proteins, providing a plausible strategy for therapeutic intervention by targeting specific hotspots of allosteric interactions in the SARS-CoV-2 proteins.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/01/20/2021.01.19.427320.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.19.427320"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR269155"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.19.427320"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "33929853",
+            "reference": "The journal of physical chemistry. B. 2021 May;125(18):4596-4619",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS112259",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pfam",
+          "uniprot",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-01-21",
+      "firstPublicationDate": "2021-01-20",
+      "firstIndexDate": "2021-01-21",
+      "fullTextReceivedDate": "2021-02-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

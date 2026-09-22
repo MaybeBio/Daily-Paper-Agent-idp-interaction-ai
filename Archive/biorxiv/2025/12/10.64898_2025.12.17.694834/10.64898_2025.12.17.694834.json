@@ -1,0 +1,127 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.17.694834",
+  "title": "The structural disorder of Dsup and its interaction with the human nucleosome: A computational study",
+  "doi": "10.64898/2025.12.17.694834",
+  "abstract": "The known role of the tardigrade-unique protein Dsup in protecting DNA from damage produced by radiation and radicals has prompted great attention for its biomedical applications. While we reported before a computational study on the Dsup-free DNA interaction (Minguez-Toral et al., Sci. Rep. 2020, 10, 13424), our objective here is to help characterize the interaction of Dsup with nucleosomal DNA. We first address the disordered status of Dsup to prove that it is a completely disordered protein. With a proper 3D model of Dsup and by means of molecular modeling, all-atom molecular dynamics simulations and calculations of electrostatic potentials and electric fields, we then present results for several complexes of the human nucleosome with one and two Dsup molecules. Our findings complement and expand upon a recent cryoEM structural study (Alegrio-Louro et al., Genes Dev. 2025, 39, 1-7) which demonstrated that Dsup is recognized through a HMGN-like nucleosome binding motif and resolved the structure for the short 5-residue binding motif of Dsup. In addition to confirming this HMGN-like binding mode, our computational approach reveals dynamic details about the complete 445-residue Dsup in its interaction with the nucleosome. Since our study includes complete histone tails (missing in X-ray and cryoEM structures), it provides a complete picture of distinct possible conformations of Dsup around the nucleosome improving upon low-resolution cryoEM maps available for some Dsup segments. Electrostatic potentials and electric fields reveal in one complex that while the HMGN-like binding motif anchors Dsup at the nucleosome binding site, the conformational freedom of the disordered protein dynamically confers a possible electrostatic protective envelope. This shielding-like effect of Dsup on nucleosomal DNA would thus be similar to that suggested in our previous report on free DNA.",
+  "authors": [
+    "Mínguez-Toral M",
+    "Cuevas-Zuviría B",
+    "Vílchez-Pinto G",
+    "Díaz-Perales A",
+    "Pacios LF",
+    "Garrido-Arandia M"
+  ],
+  "published_date": "2025-12-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.17.694834",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.17.694834.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1231202",
+    "raw_record": {
+      "id": "PPR1231202",
+      "source": "PPR",
+      "doi": "10.64898/2025.12.17.694834",
+      "title": "The structural disorder of Dsup and its interaction with the human nucleosome: A computational study",
+      "authorString": "Mínguez-Toral M, Cuevas-Zuviría B, Vílchez-Pinto G, Díaz-Perales A, Pacios LF, Garrido-Arandia M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mínguez-Toral M",
+            "lastName": "Mínguez-Toral",
+            "firstName": "Marina",
+            "initials": "M"
+          },
+          {
+            "fullName": "Cuevas-Zuviría B",
+            "lastName": "Cuevas-Zuviría",
+            "firstName": "Bruno",
+            "initials": "B"
+          },
+          {
+            "fullName": "Vílchez-Pinto G",
+            "lastName": "Vílchez-Pinto",
+            "firstName": "Gonzalo",
+            "initials": "G"
+          },
+          {
+            "fullName": "Díaz-Perales A",
+            "lastName": "Díaz-Perales",
+            "firstName": "Araceli",
+            "initials": "A"
+          },
+          {
+            "fullName": "Pacios LF",
+            "lastName": "Pacios",
+            "firstName": "Luis",
+            "initials": "LF"
+          },
+          {
+            "fullName": "Garrido-Arandia M",
+            "lastName": "Garrido-Arandia",
+            "firstName": "María",
+            "initials": "M"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1522-9484"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The known role of the tardigrade-unique protein Dsup in protecting DNA from damage produced by radiation and radicals has prompted great attention for its biomedical applications. While we reported before a computational study on the Dsup-free DNA interaction (Minguez-Toral et al., Sci. Rep. 2020, 10, 13424), our objective here is to help characterize the interaction of Dsup with nucleosomal DNA. We first address the disordered status of Dsup to prove that it is a completely disordered protein. With a proper 3D model of Dsup and by means of molecular modeling, all-atom molecular dynamics simulations and calculations of electrostatic potentials and electric fields, we then present results for several complexes of the human nucleosome with one and two Dsup molecules. Our findings complement and expand upon a recent cryoEM structural study (Alegrio-Louro et al., Genes Dev. 2025, 39, 1-7) which demonstrated that Dsup is recognized through a HMGN-like nucleosome binding motif and resolved the structure for the short 5-residue binding motif of Dsup. In addition to confirming this HMGN-like binding mode, our computational approach reveals dynamic details about the complete 445-residue Dsup in its interaction with the nucleosome. Since our study includes complete histone tails (missing in X-ray and cryoEM structures), it provides a complete picture of distinct possible conformations of Dsup around the nucleosome improving upon low-resolution cryoEM maps available for some Dsup segments. Electrostatic potentials and electric fields reveal in one complex that while the HMGN-like binding motif anchors Dsup at the nucleosome binding site, the conformational freedom of the disordered protein dynamically confers a possible electrostatic protective envelope. This shielding-like effect of Dsup on nucleosomal DNA would thus be similar to that suggested in our previous report on free DNA.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.17.694834"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-19",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "41671215",
+    "doi": "10.1371/journal.pone.0342012",
+    "title": "QuPepFold: A python package for hybrid quantum-classical protein folding simulations with CVaR-optimized VQE."
+  },
+  "content": {
+    "abstract": "BACKGROUND AND OBJECTIVE: Protein folding, and especially the conformational sampling of intrinsically disordered regions (IDRs), remains a formidable challenge for classical computation. We introduce QuPepFold, a modular Python package designed to democratize hybrid quantum-classical simulations of peptide folding, with the specific aim of enabling exploration of IDR ensembles for therapeutic targeting. METHODS: We compute ground-state energies using a variational quantum eigensolver (VQE) that has been tuned with a conditional value-at-risk (CVaR) objective. This CVaR approach focuses on the lowest-energy measurement results, which speeds convergence and helps the algorithm cope with noise. The software provides an interface suitable for biologists and is independent of any particular quantum hardware; it currently runs on Qiskit Aer, Braket's tensor-network simulator, and IonQ's Aria-1 device through the Amazon Braket service. RESULTS: In tests on short peptides up to ten amino acids long, the CVaR-optimized VQE reached the ground state roughly 30 percent faster than a standard VQE based on expectation values. When run on the IonQ Aria-1 quantum computer, it reproduced ground-state energies with over 90 percent fidelity. The agreement of results across simulators and physical devices indicates that the package yields consistent and transferable energies. CONCLUSIONS: QuPepFold offers an approachable yet extendable framework for integrating quantum techniques into peptide folding studies, particularly for sampling the ensembles of intrinsically disordered regions. By hiding the technical details of circuit construction and error mitigation, it lowers the barrier to using quantum computers in structural biology and opens opportunities for drug discovery against disordered proteins that have long been considered difficult to target.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Protein Folding",
+      "Quantum Theory",
+      "*Software",
+      "Algorithms",
+      "Quantum Mechanics",
+      "Peptides/chemistry",
+      "Computer Simulation",
+      "*Proteins/chemistry",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Uttarkar, Akshay",
+        "Niranjan, Vidya",
+        "Saxena, Amit",
+        "Kumar, Vinay"
+      ],
+      "short_names": [
+        "Uttarkar A",
+        "Niranjan V",
+        "Saxena A",
+        "Kumar V"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9187-7753",
+        "ORCID: 0000-0002-5019-2595"
+      ],
+      "affiliations": [
+        "Department of Biotechnology, R V College of Engineering, (Affiliated to Visvesvaraya Technological University, Belagavi), Bangalore, Karnataka, India.",
+        "Department of Biotechnology, R V College of Engineering, (Affiliated to Visvesvaraya Technological University, Belagavi), Bangalore, Karnataka, India.",
+        "MIT Vishwaprayag University, Solapur, Maharashtra, India.",
+        "Centre for Development of Advanced Computing, Pune University Campus, Pune, Maharashtra, India.",
+        "School of Computer Science and Engineering, Presidency University, Itgalpur, Rajanakunte, Yelahanka, Bengaluru, Karnataka, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Uttarkar, Akshay",
+        "short_name": "Uttarkar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, R V College of Engineering, (Affiliated to Visvesvaraya Technological University, Belagavi), Bangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Niranjan, Vidya",
+        "short_name": "Niranjan V",
+        "identifiers": [
+          "0000-0001-9187-7753"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, R V College of Engineering, (Affiliated to Visvesvaraya Technological University, Belagavi), Bangalore, Karnataka, India.",
+          "MIT Vishwaprayag University, Solapur, Maharashtra, India."
+        ]
+      },
+      {
+        "full_name": "Saxena, Amit",
+        "short_name": "Saxena A",
+        "identifiers": [
+          "0000-0002-5019-2595"
+        ],
+        "affiliations": [
+          "Centre for Development of Advanced Computing, Pune University Campus, Pune, Maharashtra, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Vinay",
+        "short_name": "Kumar V",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, Presidency University, Itgalpur, Rajanakunte, Yelahanka, Bengaluru, Karnataka, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/11 18:59",
+    "fetched_at": "2026-09-18 00:46:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40325419",
+      "39321582",
+      "38862055",
+      "38703105",
+      "37878721",
+      "36969402",
+      "36622950",
+      "36114088",
+      "35562983",
+      "34418423",
+      "34265844",
+      "30979035",
+      "30811931",
+      "30778384",
+      "22891157",
+      "10336383"
+    ],
+    "similar": [
+      "41671215",
+      "38862055",
+      "41999908",
+      "40581860",
+      "41144353",
+      "40755323",
+      "38144092",
+      "41315890",
+      "38492238",
+      "35414867",
+      "39321582",
+      "41730926",
+      "30532151",
+      "40873222",
+      "36526010",
+      "42217191",
+      "40437153",
+      "34073880",
+      "39083465",
+      "41626194",
+      "35394326",
+      "41410820",
+      "33940828",
+      "41555779",
+      "41527830",
+      "32274468",
+      "40042172",
+      "34077220",
+      "34806097",
+      "35055269",
+      "23912807",
+      "37463458",
+      "37006701",
+      "39795178",
+      "38287087",
+      "38950444",
+      "41363738",
+      "42017200",
+      "39435828",
+      "39504453",
+      "37224265",
+      "41951697",
+      "39441921",
+      "40202178",
+      "36689668",
+      "41400196",
+      "38547028",
+      "38275091",
+      "41489110",
+      "39703417",
+      "39555616",
+      "38526102",
+      "35621354",
+      "33344422",
+      "37305284",
+      "36421540",
+      "30532242",
+      "42072565",
+      "36975107",
+      "39155659",
+      "40607676",
+      "39983080",
+      "39648433",
+      "40105132",
+      "42289880",
+      "41537690",
+      "33945684",
+      "42129207",
+      "31050446",
+      "22891157",
+      "36091203",
+      "40489774",
+      "38406868",
+      "35971280",
+      "37940680",
+      "33073565",
+      "38954795",
+      "26030674",
+      "40133775",
+      "40029003",
+      "41413083",
+      "38225897",
+      "40162965",
+      "40328278",
+      "23330783",
+      "37702939",
+      "41199556",
+      "38976358",
+      "34558958",
+      "38214999",
+      "41529403",
+      "38701352",
+      "25176255",
+      "34241330",
+      "35492501",
+      "8592695",
+      "31403781",
+      "36824878",
+      "39028362",
+      "37042014"
+    ],
+    "review": [
+      "41671215",
+      "41999908",
+      "40873222",
+      "39083465",
+      "41410820",
+      "41555779"
+    ],
+    "pmc": [
+      "12893577"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0342012",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41671215/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

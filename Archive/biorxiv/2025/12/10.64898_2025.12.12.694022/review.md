@@ -1,0 +1,117 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, and supplementary figure references) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the methodology, results, and claims as presented in the provided text. No external data, code, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors present a domain decomposition method (DDM) to quantify phase concentrations and a demixing index (D) to characterize mixing of intrinsically disordered proteins (IDRs) in molecular dynamics simulations. They apply this to 1,963 binary mixtures of 32 IDRs, report general rules for mixing behavior based on sequence features, and validate against experimental datasets.
+- **Visible evidence base** Main text figures (Figure 1A-H, 2A-H, 3A-F, 4A-E) are referenced but not shown. Supplementary figures (S1-S4) and tables (S1-S2) are referenced but not shown. Equations 1-3 are mentioned but not displayed. Methods section is complete.
+- **Missing materials affecting confidence** All figures, tables, and equations are absent from the provided text. Supplementary materials are not available. The GitHub repository is referenced but not accessible. These omissions prevent direct verification of the primary results, quantitative claims, and methodological details.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant gap in the field: a generalizable, user-independent metric for quantifying mixing and demixing of IDRs in molecular dynamics simulations. The proposed DDM and demixing index are conceptually sound and address real limitations of existing approaches. The scale of the study (1,963 simulations) is impressive and the connection to experimental datasets is valuable. However, the absence of all figures, tables, and equations in the provided material makes it impossible to verify the central claims, assess the quality of the validation, or evaluate the statistical robustness of the conclusions. The manuscript is promising but currently not fully assessable from the supplied evidence.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, intrinsically disordered proteins, and coarse-grained molecular dynamics simulations. The methodology provides a standardized tool for analyzing mixing behavior, which is directly relevant to understanding condensate composition, designing synthetic IDRs, and interpreting experimental phase separation data. The findings on sequence determinants of mixing (e.g., hydrophobicity promoting promiscuous mixing, charge complementarity enhancing demixing) are of broad interest to the condensate community.
+- **Major Strengths** 1. The DDM addresses a clear methodological gap by removing user-defined parameters (e.g., interface fitting) that introduce variability between studies. 2. The demixing index is a continuous, composition-independent metric that can characterize partial demixing, which is more informative than binary classifications. 3. The scale of the simulation dataset (1,963 mixtures) is substantial and enables statistical analysis of sequence determinants. 4. The validation against experimental datasets (FUS/A1, MED1/NPM1) is a valuable step toward establishing biological relevance. 5. The identification of general rules (hydrophobic promiscuity, charge sensitivity) provides testable predictions for experimentalists.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The DDM shows "excellent agreement" with the Gibbs dividing surface method for c_den and c_dil across 216 proteins.
+  - **Evidence pointer** Figure 1B-D, location not provided
+  - **Concern** The central validation claim of the DDM against an established method cannot be assessed because Figure 1 is not available. The text states R² values and convergence behavior, but without the actual plots, the quality of agreement, the scatter, and the presence of systematic biases cannot be evaluated. The choice of voxel size (35 Å) is justified by a convergence plateau, but the robustness of this choice across different system sizes and protein types is not demonstrated in the text.
+  - **Why it matters** The DDM is the foundation of the entire study. If the validation is weak or the voxel size choice is not robust, all subsequent results (demixing indices, sequence rules) are compromised. The claim of "excellent agreement" is a quantitative statement that requires visual and statistical verification.
+  - **Resolution test** Provide Figure 1B-D with correlation coefficients, Bland-Altman plots or equivalent, and demonstrate that the voxel size of 35 Å is appropriate across a range of protein lengths and concentrations. Show that the DDM does not systematically over- or under-estimate concentrations compared to the Gibbs method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "Mixing at equimolar ratios is rare. Most condensate-forming pairs favoring one dominant scaffold and minority client molecules."
+  - **Evidence pointer** Figure 2G-H, location not provided
+  - **Concern** This is a central biological claim of the manuscript, but the supporting evidence (Figure 2G-H) is not visible. The text states that the demixing index follows a normal distribution and that equimolar mixtures exhibit the highest average demixing, but the actual distribution, the magnitude of the effect, and the statistical significance are not reported. The claim that "most" pairs favor asymmetric compositions requires a quantitative threshold (e.g., what D value constitutes "demixed"?) and a statistical comparison across composition ratios.
+  - **Why it matters** This claim has implications for understanding condensate composition in cells. If it is not robustly supported, the biological conclusions of the study are weakened. The claim is also counterintuitive given that equimolar mixtures might be expected to maximize heterotypic interactions.
+  - **Resolution test** Show the distribution of D values across all pairs and compositions, with statistical tests comparing D across composition ratios. Define a clear threshold for "demixed" and report the fraction of pairs exceeding it. Provide confidence intervals for the claim that equimolar mixtures are most demixed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology validation
+  - **Claim pointer** The demixing index D is validated against the mixing parameter of Chen and Jacobs with R² = 0.97 for equimolar concentrations.
+  - **Evidence pointer** Section II.C, Equation 1, Supplementary Figure S2, location not provided
+  - **Concern** The validation of D against an existing metric is a key methodological contribution, but the details are incomplete. The text states that the cosine similarity approach "requires the explicit definition of phase boundaries" and performs poorly at non-equimolar concentrations (R² < 0.5), but the comparison is not shown. The choice of the Chen-Jacobs parameter as a reference is reasonable, but the failure at non-equimolar concentrations could be due to the reference method's limitations rather than a strength of D. The text does not clarify whether the R² = 0.97 is for all compositions or only equimolar.
+  - **Why it matters** The demixing index is a new metric, and its validity must be established. If it only agrees with existing methods under specific conditions, its general applicability is questionable. The claim that D is more robust than existing methods needs direct comparison.
+  - **Resolution test** Show the correlation between D and the Chen-Jacobs parameter for all compositions, with separate analyses for equimolar and non-equimolar cases. Discuss the reasons for discrepancies and demonstrate that D provides additional information beyond existing metrics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The logistic regression model identifies "the two most robust predictors" as difference in NCPR and difference in F_aro, with specific effects on mixing.
+  - **Evidence pointer** Figure 3A-B, Supplementary Table S2, location not provided
+  - **Concern** The logistic regression analysis is described, but the results are not shown. The text states that difference in NCPR promotes mixing and difference in F_aro promotes demixing, but the effect sizes, confidence intervals, and model performance metrics (AUC, precision-recall) are not reported. The use of 1,000 train-test splits is good, but the stability of feature rankings across splits is not quantified. The text mentions "the average coefficient for each feature" but does not report the variance or the fraction of splits in which each feature was selected.
+  - **Why it matters** The sequence-based rules are a major output of the study. Without statistical rigor, these rules may be overinterpreted or may not generalize. The claim that NCPR difference promotes mixing is particularly important and needs robust support.
+  - **Resolution test** Report the full model coefficients with confidence intervals, feature selection frequencies across the 1,000 splits, and model performance metrics (AUC, accuracy, F1). Show that the top features are consistently selected and that the model generalizes to held-out data.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** External validity
+  - **Claim pointer** The simulations "successfully reconstruct" mixing preferences observed in experimental studies (FUS/A1, MED1/NPM1).
+  - **Evidence pointer** Figure 4A-E, location not provided
+  - **Concern** The comparison to experimental data is a critical test of the methodology's biological relevance, but the results are not shown. The text describes qualitative agreement (e.g., "colocalization, weaker phase separation, and a higher D for the mutated sequence") but does not provide quantitative comparisons. For the MED1/NPM1 comparison, the text reports a correlation (Filtered Spearman's p = 0.83) but does not specify the number of proteins, the filtering criteria, or the confidence interval. The three outliers are discussed but not quantified.
+  - **Why it matters** The experimental comparisons are the strongest evidence that the simulations capture biologically relevant behavior. If the agreement is only qualitative or based on small numbers, the conclusions are weakened. The outliers may indicate limitations of the approach that need to be acknowledged.
+  - **Resolution test** Provide quantitative comparisons between simulated D values and experimental partitioning data, with statistical tests. For the MED1/NPM1 comparison, report the full correlation analysis with confidence intervals and discuss the outliers in detail. Clarify the criteria for "agreement" between simulation and experiment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "1,963 binary mixtures" but the methods section describes 496 unique combinations with multiple composition ratios. The relationship between these numbers is not immediately clear.
+  - **Required correction** Clarify in the abstract or methods that 496 unique protein pairs were simulated at up to 5 composition ratios, yielding 1,963 total simulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section II.C
+  - **Evidence pointer** Section II.C, location not provided
+  - **Issue** The text states "we set to the concentration ratio for all systems" when describing the Chen-Jacobs parameter comparison, but the target concentration ratio is not defined for non-equimolar cases.
+  - **Required correction** Specify the target concentration ratio used for the comparison and how it was determined for each simulation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section II.D
+  - **Evidence pointer** Section II.D, location not provided
+  - **Issue** The text mentions "high [47]" in the sentence about long IDRs, which appears to be a broken reference or incomplete thought.
+  - **Required correction** Complete the sentence and provide the correct reference.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section II.F
+  - **Evidence pointer** Section II.F, location not provided
+  - **Issue** The text reports "Filtered Spearman's p = 0.83" but does not define the filtering criteria or report the number of data points.
+  - **Required correction** Define the filtering criteria, report the sample size, and provide a confidence interval for the correlation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section II.D
+  - **Evidence pointer** Section II.D, location not provided
+  - **Issue** The term "mean residue stickiness" is used without a clear definition or reference.
+  - **Required correction** Define the term and provide a reference for its calculation.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section II.A
+  - **Evidence pointer** Section II.A, location not provided
+  - **Issue** The text states "the average ratio of = 0.86" without specifying what ratio is being reported.
+  - **Required correction** Specify the ratio being reported (e.g., c_den/c_dil or c_dil/c_den) and clarify the context.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section II.B
+  - **Evidence pointer** Section II.B, location not provided
+  - **Issue** The selection criteria for the 32 IDRs are described, but the specific proteins and their GIN cluster assignments are not listed in the main text.
+  - **Required correction** Provide the full list of proteins and their GIN cluster assignments in a supplementary table.
+  - **Concern ID** R1-m8
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section II.C
+  - **Evidence pointer** Section II.C, location not provided
+  - **Issue** The force field parameters are described, but the equations for the potentials are not shown in the provided text.
+  - **Required correction** Include the full equations for the bonded, non-ionic, and ionic potentials.
+- **Technical failings that need to be addressed before the case is established** 1. The validation of the DDM against the Gibbs dividing surface method (R1-M1) must be shown with full statistical analysis. 2. The demixing index validation against the Chen-Jacobs parameter (R1-M3) must be shown for all compositions, not just equimolar. 3. The statistical rigor of the logistic regression model (R1-M4) must be improved with effect sizes, confidence intervals, and model performance metrics. 4. The quantitative comparison to experimental data (R1-M5) must be provided with appropriate statistical tests.
+- **Assessment against Nature-style criteria** **Originality:** The DDM and demixing index represent a novel methodological contribution. The application to a large dataset of 1,963 mixtures is unprecedented in scope. The identification of sequence-based rules for mixing behavior is original. However, the conceptual framework (mixing vs. demixing) is not entirely new, and the novelty lies primarily in the methodological implementation and scale. **Scientific importance:** The ability to predict whether two IDRs will mix or demix has direct implications for understanding condensate composition, designing synthetic IDRs, and interpreting disease-associated mutations. The finding that hydrophobic IDRs mix promiscuously while charged IDRs are selective is potentially important. However, the biological significance depends on the robustness of the experimental validation, which cannot be assessed from the provided material. **Interdisciplinary readership:** The manuscript bridges computational biophysics, cell biology, and protein chemistry. The methodological focus will appeal to simulators, while the biological implications will interest experimentalists studying condensates. The writing is generally accessible, though some sections assume familiarity with coarse-grained simulation techniques. **Technical soundness:** The methods are described in sufficient detail for reproduction, and the use of established force fields (CALVADOS2) and simulation protocols is appropriate. However, the absence of figures and equations prevents a full technical evaluation. The statistical analysis of the logistic regression model needs strengthening. The comparison to experimental data is promising but requires more rigorous quantification. **Readability for nonspecialists:** The abstract and introduction are clear and accessible. The results sections are more technical and may be challenging for readers without a simulation background. The authors make an effort to connect their findings to experimental observations, which helps. However, the manuscript would benefit from a more explicit explanation of the demixing index and its interpretation for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a significant methodological gap and presents a large-scale, potentially impactful dataset. The core ideas are sound and the connection to experimental data is valuable. However, the central claims cannot be verified from the provided material, and the statistical rigor of the analysis needs improvement. The authors should be encouraged to resubmit after addressing the major concerns, particularly by providing the missing figures and equations, strengthening the statistical analysis, and clarifying the quantitative comparison to experimental data.

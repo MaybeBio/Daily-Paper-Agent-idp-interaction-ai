@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.24.666584",
+  "title": "Zika virus capsid protein C (ZIKV-C) interactors network mapped by proteomic analysis of human neural stem cells expressing FLAG-tagged C protein",
+  "authors": "Agata Malinowska; Magdalena Bakun; Agnieszka Brzozowska; Ewa Liszewska; Malgorzata Podsiadla-Bialoskorska; Bianka Swiderska; Ewa Sitkiewicz; Ewa Szolajska; Michal Hetman; Michal Dadlez; Jacek Jaworski",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-26",
+  "window": {
+    "start": "2025-07-21",
+    "end": "2025-07-27"
+  },
+  "score": 4,
+  "one_liner_zh": "通过质谱蛋白质组学鉴定寨卡病毒衣壳蛋白C在神经干细胞中的互作网络，对象非IDP且无AI/物理模拟方法，仅提供互作列表，机制建模启发有限。",
+  "abstract": "Zika virus is a teratogenic pathogen belonging to the Flaviviridae family. It possesses the ability to penetrate the placenta and affect the brain development of a fetus, resulting in microcephaly and functional impairments. Mechanisms of this neurotoxicity are still unclear, but capsid proteins of Zika and related viruses are known to exert apoptotic effect in different types of cells, including neurons. To explore the pathways affected by the presence of ZIKV-C, we have performed MS-based interactomic experiment in human neural stem cells and managed to identify 149 putative interactors. Our results indicate that the nucleus (especially the nucleolus) and the mitochondria are the main sites of interaction of protein C with host proteins. A number of the proteins we identified have significant links to diseases of the nervous system, including neurodevelopmental diseases. Furthermore, for the first time, we have identified MAM-domain containing glycosylphosphatidylinositol anchor protein 1, T-complex protein 1 subunit beta, lysine-tRNA ligase, calumenin as particularly abundant ZIKV protein C interactors. Data are available via ProteomeXchange with identifier PXD064412.",
+  "abstract_zh": "寨卡病毒是一种属于黄病毒科（Flaviviridae）的致畸病原体。它能够穿透胎盘并影响胎儿的脑发育，导致小头畸形和功能障碍。这种神经毒性的机制尚不清楚，但已知寨卡病毒及相关病毒的衣壳蛋白在不同类型的细胞（包括神经元）中发挥凋亡作用。为了探索ZIKV-C存在所影响的通路，我们在人神经干细胞中进行了基于质谱的相互作用组学实验，并成功鉴定出149个推定相互作用蛋白。我们的结果表明，细胞核（尤其是核仁）和线粒体是蛋白C与宿主蛋白相互作用的主要位点。我们鉴定出的许多蛋白与神经系统疾病（包括神经发育疾病）有显著关联。此外，我们首次鉴定出MAM结构域含糖基磷脂酰肌醇锚定蛋白1、T复合物蛋白1亚基β、赖氨酸-tRNA连接酶、钙网蛋白作为特别丰富的ZIKV蛋白C相互作用蛋白。数据可通过ProteomeXchange获取，标识符为PXD064412。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.24.666584",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.24.666584",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.24.666584/index.html"
+}

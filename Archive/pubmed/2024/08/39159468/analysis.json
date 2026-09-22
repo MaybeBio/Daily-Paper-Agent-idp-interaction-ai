@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39159468",
+  "title": "Mechanistic Insights into the c-MYC G-Quadruplex and Berberine Binding inside an Aqueous Two-Phase System Mimicking Biomolecular Condensates.",
+  "authors": "Pradhan, Susmita; Campanile, Marco; Sharma, Shubhangi; Oliva, Rosario; Patra, Satyajit",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2024-08-19",
+  "window": {
+    "start": "2024-08-19",
+    "end": "2024-08-25"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究相分离模拟的ATPS中c-MYC G-四链体与小分子berberine的结合，虽涉及凝聚体环境，但对象为核酸GQ而非无序蛋白/IDR，且无PPI或AI/物理模拟方法，仅对互作机制建模有间接启发。",
+  "abstract": "We investigated the binding between the c-MYC G-quadruplex (GQ) and berberine chloride (BCl) in an aqueous two-phase system (ATPS) with 12.3 wt % polyethylene glycol and 5.6 wt % dextran, mimicking the highly crowded intracellular biomolecular condensates formed via liquid-liquid phase separation. We found that in the ATPS, complex formation is significantly altered, leading to an increase in affinity and a change in the stoichiometry of the complex with respect to neat buffer conditions. Thermodynamic studies reveal that binding becomes more thermodynamically favorable in the ATPS due to entropic effects, as the strong excluded volume effect inside ATPS droplets reduces the entropic penalty associated with binding. Finally, the binding affinity of BCl for the c-MYC GQ is higher than those for other DNA structures, indicating potential specific interactions. Overall, these findings will be helpful in the design of potential drugs targeting the c-MYC GQ structures in cancer-related biocondensates.",
+  "abstract_zh": "我们研究了在含有12.3 wt%聚乙二醇和5.6 wt%葡聚糖的水性两相系统（ATPS）中，c-MYC G-四链体（GQ）与氯化小檗碱（BCl）之间的结合，该系统模拟了通过液-液相分离形成的高度拥挤的细胞内生物分子凝聚体。我们发现，在ATPS中，复合物的形成显著改变，导致亲和力增加以及复合物相对于纯缓冲液条件下的化学计量比发生变化。热力学研究表明，由于ATPS液滴内部的强排除体积效应降低了与结合相关的熵惩罚，结合在ATPS中在热力学上更为有利。最后，BCl对c-MYC GQ的结合亲和力高于对其他DNA结构的亲和力，表明存在潜在的特异性相互作用。总体而言，这些发现将有助于设计靶向癌症相关生物凝聚体中c-MYC GQ结构的潜在药物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39159468/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39159468/",
+  "paper_page_path": "papers/pubmed/39159468/index.html"
+}

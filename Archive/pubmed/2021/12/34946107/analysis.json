@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34946107",
+  "title": "Insights into the Neutralization and DNA Binding of Toxin-Antitoxin System ParE(SO)-CopA(SO) by Structure-Function Studies.",
+  "authors": "Zhou, Juan; Du, Xue-Jian; Liu, Ying; Gao, Zeng-Qiang; Geng, Zhi; Dong, Yu-Hui; Zhang, Heng",
+  "journal": "Microorganisms",
+  "published_date": "2021-12-25",
+  "window": {
+    "start": "2021-12-20",
+    "end": "2021-12-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过晶体结构解析毒素-抗毒素复合物，揭示IDR在ParE(SO)结合时折叠成有序构象并介导中和与转录调控机制，虽无AI/物理模拟方法，但聚焦IDR介导的PPI机制建模，对本课题有直接参考价值。",
+  "abstract": "ParE(SO)-CopA(SO) is a new type II toxin-antitoxin (TA) system in prophage CP4So that plays an essential role in circular CP4So maintenance after the excision in Shewanella oneidensis. The toxin ParE(SO) severely inhibits cell growth, while CopA(SO) functions as an antitoxin to neutralize ParE(SO) toxicity through direct interactions. However, the molecular mechanism of the neutralization and autoregulation of the TA operon transcription remains elusive. In this study, we determined the crystal structure of a ParE(SO)-CopA(SO) complex that adopted an open V-shaped heterotetramer with the organization of ParE(SO)-(CopA(SO))(2)-ParE(SO). The structure showed that upon ParE(SO) binding, the intrinsically disordered C-terminal domain of CopA(SO) was induced to fold into a partially ordered conformation that bound into a positively charged and hydrophobic groove of ParE(SO). Thermodynamics analysis showed the DNA-binding affinity of CopA(SO) was remarkably higher than that of the purified TA complex, accompanied by the enthalpy change reversion from an exothermic reaction to an endothermic reaction. These results suggested ParE(SO) acts as a de-repressor of the TA operon transcription at the toxin:antitoxin level of 1:1. Site-directed mutagenesis of ParE(SO) identified His91 as the essential residue for its toxicity by cell toxicity assays. Our structure-function studies therefore elucidated the transcriptional regulation mechanism of the ParE(SO)-CopA(SO) pair, and may help to understand the regulation of CP4So maintenance in S. oneidensis.",
+  "abstract_zh": "ParE(SO)-CopA(SO) 是前噬菌体 CP4So 中的一种新型 II 型毒素-抗毒素 (toxin-antitoxin, TA) 系统，在希瓦氏菌 (Shewanella oneidensis) 中切除后对环状 CP4So 的维持起关键作用。毒素 ParE(SO) 严重抑制细胞生长，而 CopA(SO) 作为抗毒素，通过直接相互作用中和 ParE(SO) 的毒性。然而，中和作用及 TA 操纵子转录自动调控的分子机制仍不清楚。在本研究中，我们解析了 ParE(SO)-CopA(SO) 复合物的晶体结构，该复合物采用开放的 V 形异源四聚体构型，组织方式为 ParE(SO)-(CopA(SO))₂-ParE(SO)。结构显示，在 ParE(SO) 结合时，CopA(SO) 的固有无序 C 端结构域被诱导折叠成部分有序构象，并结合到 ParE(SO) 的正电荷疏水沟槽中。热力学分析表明，CopA(SO) 的 DNA 结合亲和力显著高于纯化的 TA 复合物，伴随焓变从放热反应逆转为吸热反应。这些结果表明，在毒素：抗毒素比例为 1:1 时，ParE(SO) 作为 TA 操纵子转录的去阻遏因子。通过细胞毒性实验对 ParE(SO) 进行定点突变，鉴定出 His91 是其毒性的关键残基。因此，我们的结构-功能研究阐明了 ParE(SO)-CopA(SO) 对的转录调控机制，并可能有助于理解 S. oneidensis 中 CP4So 维持的调控。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34946107/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34946107/",
+  "paper_page_path": "papers/pubmed/34946107/index.html"
+}

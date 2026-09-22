@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency as presented in the provided text
+- **Shared manuscript claim summary** The authors report that RFdiffusion, a deep learning-based protein design method, can generate high-affinity and specific binders to intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs) by starting from target sequence alone and freely sampling both target and binder conformations. They demonstrate binders to Amylin, C-peptide, VP48, G3bp1, IL2RG, and prion with reported Kds in the 3–100 nM range. They also report functional activities including inhibition of Amylin fibril formation, dissociation of pre-formed fibrils, mass spectrometry-based enrichment, and cellular colocalization. Crystal structures of two complexes are presented as validation.
+- **Visible evidence base** Abstract; main text sections on targeting shorter IDRs, structure analysis, specificity, cellular colocalization, enrichment, and discussion; references to supplementary figures and methods; data availability statement
+- **Missing materials affecting confidence** Supplementary figures and methods are referenced but not provided; full experimental protocols (e.g., RFdiffusion training details, BLI conditions, mass spectrometry parameters, cell imaging details) are not available; raw data and statistical analyses are not shown; negative control experiments are only partially described
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially significant advance in the application of RFdiffusion to a challenging class of targets, IDPs/IDRs. The reported success rates, affinities, and functional validations are encouraging. However, the provided text lacks sufficient methodological detail and quantitative evidence to fully assess the robustness of the claims. Several key experiments are described qualitatively, and the absence of supplementary data limits verification of filtering criteria, binding specificity, and structural validations. The claim of a "general methodology" is not fully established from the evidence presented.
+- **Who would be interested in the results, and why** Researchers in protein design, computational biology, and structural biology would be interested in the extension of RFdiffusion to disordered targets. Those working on therapeutic and diagnostic applications targeting IDPs (e.g., in neurodegeneration, diabetes, and cytokine signaling) would find the functional demonstrations relevant. The work also has potential appeal for the broader biophysics community studying protein conformational ensembles and induced-fit binding mechanisms.
+- **Major strengths** 1) The conceptual advance of co-folding target and binder during diffusion is well motivated and addresses a real limitation of prior structure-based design methods. 2) The demonstration across multiple IDP/IDR targets with different conformational preferences (helical, strand, loop) suggests generalizability. 3) The inclusion of functional assays (fibril inhibition, dissociation, mass spec enrichment, cellular colocalization) goes beyond typical binding-only validations. 4) Crystal structures of two complexes provide strong validation of design accuracy. 5) The secondary structure specification feature for strand targeting is a practical innovation with clear utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "we show that starting only from the target sequence of the input, and freely sampling both target and binding protein conformation, RFdiffusion can generate binders to IDPs and IDRs in a wide range of conformations"
+  - **Evidence pointer** Abstract; main text sections; supplementary figures referenced but not provided
+  - **Concern** The central claim of generating binders "in a wide range of conformations" is supported by only three IDP targets (Amylin, C-peptide, VP48) with reported affinities. The conformational diversity of these targets is not systematically characterized. For the IDR targets (G3bp1, IL2RG, prion), only strand conformations were successfully targeted, and the text does not report attempts at other conformations for these targets. The claim of "wide range" is therefore not quantitatively supported.
+  - **Why it matters** The generalizability of the method is a key selling point. If the method only works for helical and strand conformations but not loops or other conformations, the claim of a general methodology for IDPs/IDRs is overstated.
+  - **Resolution test** Provide a systematic analysis of the conformational space sampled for each target, including the distribution of secondary structure elements in successful designs. Report success rates for targeting each target in multiple specified conformations. If loop conformations were attempted and failed, this should be disclosed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we incorporated into the RFdiffusion sequence input approach the ability to define the secondary structure of the target"
+  - **Evidence pointer** Methods section referenced but not provided; main text description is brief
+  - **Concern** The technical implementation of the secondary structure specification feature is not described in sufficient detail. It is unclear how the secondary structure information is encoded in the input, how it interacts with the diffusion process, and whether it constrains the target, the binder, or both. Without this information, the method cannot be reproduced or evaluated for potential biases.
+  - **Why it matters** Reproducibility is a core requirement for a methods paper. The secondary structure specification is presented as a key innovation, and its implementation details are essential for others to use or adapt the approach.
+  - **Resolution test** Provide a detailed description of the input encoding, the training procedure (if any), and the inference process. Include pseudocode or a clear algorithmic description. If the feature was added post-training, describe how the model was adapted.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The IL2RG binder colocalizes with the receptor in cells, enabling new approaches to modulating IL2 signaling"
+  - **Evidence pointer** Figure 5a referenced; no quantitative colocalization analysis provided
+  - **Concern** The colocalization experiment is described qualitatively. No quantitative metrics (e.g., Pearson's correlation coefficient, Manders' overlap coefficient) are reported. The claim that this "enables new approaches to modulating IL2 signaling" is speculative and not supported by any functional assay demonstrating modulation of IL2 signaling.
+  - **Why it matters** The functional relevance of the binder in a cellular context is a key translational claim. Without quantitative colocalization data and a demonstration of signaling modulation, the claim is not established.
+  - **Resolution test** Provide quantitative colocalization analysis with appropriate controls (e.g., a non-binding control binder). Include a functional assay (e.g., IL2-dependent proliferation, STAT5 phosphorylation) showing that the binder modulates IL2 signaling.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "we found that specifying the secondary structure of the target region as a β-strand resulted in binders with higher affinity than using the target sequence information alone (14 nM from secondary structure specification (PRI28) vs 1.88 μM sequence input (PRI22))"
+  - **Evidence pointer** Figure 2h and Supplementary Fig. 5c-d referenced
+  - **Concern** The comparison between PRI28 and PRI22 is presented as evidence for the benefit of secondary structure specification. However, the two designs may differ in other aspects (e.g., binder length, sequence composition, filtering criteria). It is unclear whether the affinity difference is solely attributable to the secondary structure specification or to other variables.
+  - **Why it matters** The conclusion that secondary structure specification improves affinity is important for guiding future applications. If the comparison is confounded, the conclusion may be invalid.
+  - **Resolution test** Perform a controlled comparison where the only variable is the presence or absence of secondary structure specification, with all other design parameters held constant. Report the distribution of affinities for multiple designs in each condition.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The Amylin binder inhibits amyloid fibril formation and dissociates existing fibers"
+  - **Evidence pointer** Figure 5c-g referenced; supplementary figures referenced
+  - **Concern** The fibril inhibition and dissociation experiments are described with limited quantitative detail. The concentrations used (40 μM Amylin, 10 μM binder) are high relative to the reported Kd (3–100 nM), which may not be physiologically relevant. The stoichiometry of binder to Amylin (1:4) is also high. The mechanism of inhibition (e.g., binding to monomer, oligomer, or fibril) is not investigated.
+  - **Why it matters** The therapeutic potential of the Amylin binder depends on its ability to inhibit fibril formation at substoichiometric concentrations and to act on pre-formed fibrils under physiologically relevant conditions. The current data do not establish this.
+  - **Resolution test** Perform dose-response experiments with binder concentrations spanning the Kd range. Test inhibition at substoichiometric ratios. Investigate the mechanism using techniques such as size exclusion chromatography, analytical ultracentrifugation, or electron microscopy at multiple time points.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "starting only from the target sequence of the input" is ambiguous. It is unclear whether this means the target sequence is the only input (i.e., no structural information) or whether the target sequence is the only input to the diffusion process (as opposed to other design parameters).
+  - **Required correction** Clarify the input requirements, e.g., "starting only from the target amino acid sequence, without any structural information about the target."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Main text, "Targeting shorter IDRs" section
+  - **Issue** The text states "See Methods" for the secondary structure specification feature, but the Methods section is not provided in the manuscript text. This makes it impossible to evaluate the implementation.
+  - **Required correction** Ensure the Methods section is included in the final submission and provides sufficient detail for reproduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5a referenced
+  - **Issue** The colocalization images are described but not shown in the provided text. Without the images, the qualitative claim cannot be assessed.
+  - **Required correction** Include the images in the main text or supplementary material with scale bars and appropriate controls.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Binding affinity measurements
+  - **Evidence pointer** Main text, various sections
+  - **Issue** The reported Kd values are presented as single numbers without error estimates or replicate information. It is unclear how many independent measurements were performed.
+  - **Required correction** Report Kd values with standard deviations or confidence intervals and state the number of replicates.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The term "co-folding" is used to describe the diffusion process. This term has a specific meaning in protein folding (coupled folding and binding). It is unclear whether the authors intend this meaning or are using it loosely to describe simultaneous conformational sampling.
+  - **Required correction** Define the term as used in this context or use a more precise description, e.g., "simultaneous conformational sampling of target and binder."
+- **Technical failings that need to be addressed before the case is established** 1) The secondary structure specification method is not described in sufficient detail for reproduction (R1-M2). 2) The comparison between sequence-only and secondary structure-specified designs is potentially confounded (R1-M4). 3) The fibril inhibition and dissociation experiments lack dose-response and mechanistic data (R1-M5). 4) The colocalization claim lacks quantitative analysis and functional validation (R1-M3). 5) The claim of "wide range of conformations" is not supported by systematic data (R1-M1).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of RFdiffusion to IDPs/IDRs is a novel extension of existing work. The co-folding concept is conceptually distinct from prior structure-based design approaches. However, the originality is somewhat tempered by prior work using Rosetta for similar targets (referenced as Sahtoe et al.), and the incremental advance over that work needs to be more clearly delineated.
+  - **Scientific importance** The ability to design binders to IDPs/IDRs has significant potential impact for therapeutic and diagnostic applications. The functional demonstrations (fibril inhibition, mass spec enrichment) add translational relevance. However, the importance is not fully realized without more robust evidence of generalizability and physiological relevance.
+  - **Interdisciplinary readership** The work bridges computational protein design, structural biology, and cell biology. The functional assays and cellular experiments broaden the appeal. However, the heavy reliance on computational jargon and the lack of accessible explanations for non-specialists may limit readership.
+  - **Technical soundness** The structural validations (crystal structures) are strong. The binding affinity measurements appear reasonable, but the lack of error estimates and replicates is a concern. The functional assays are described with insufficient quantitative detail. The specificity experiments are described qualitatively.
+  - **Readability for nonspecialists** The abstract is accessible, but the main text assumes significant familiarity with protein design and diffusion models. Key concepts (e.g., RFdiffusion, pae_interaction, plddt) are not explained for a general audience. The discussion is more accessible but could benefit from clearer articulation of the broader implications.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is promising and the initial results are encouraging, but the manuscript in its current form does not fully establish the claims of generalizability, methodological robustness, and functional utility. The missing methodological details and quantitative analyses must be provided before the case is convincing.
+
+## Risk / unsupported claims
+- The claim of generating binders "in a wide range of conformations" is not supported by systematic data across multiple conformational states for each target.
+- The claim that the IL2RG binder "enables new approaches to modulating IL2 signaling" is speculative and not supported by functional data.
+- The claim that the secondary structure specification feature improves affinity is potentially confounded by other design variables.
+- The claim of "high specificity" is based on a limited set of off-target tests (6 targets) and two observed weak off-target interactions, which are not fully characterized.
+- The reported Kd values lack error estimates and replicate information, making the precision of these measurements unclear.
+- The functional significance of the fibril inhibition and dissociation experiments is limited by the high concentrations used relative to the reported Kd values.

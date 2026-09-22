@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.02.09.479786",
+  "title": "Predicting Epitope Candidates for SARS-CoV-2",
+  "authors": "Agarwal A; Beck KL; Capponi S; Kunitomi M; Nayar G; Seabolt E; Mahadeshwar G; Bianco S; Mukherjee V; Kaufman JH",
+  "journal": "bioRxiv",
+  "published_date": "2022-02-10",
+  "window": {
+    "start": "2022-02-07",
+    "end": "2022-02-13"
+  },
+  "score": 3,
+  "one_liner_zh": "该文利用已知冠状病毒表位预测SARS-CoV-2抗原区域并分析突变密度，对象为病毒蛋白表位而非无序蛋白/IDR，无PPI机制建模，也无AI/物理模拟方法，仅与蛋白序列分析相关，启发有限。",
+  "abstract": "<h4>ABSTRACT</h4> Epitopes are short amino acid sequences that define the antigen signature to which an antibody binds. In light of the current pandemic, epitope analysis and prediction is paramount to improving serological testing and developing vaccines. In this paper, we leverage known epitope sequences from SARS-CoV, SARS-CoV-2 and other Coronaviridae and use those known epitopes to identify additional antigen regions in 62k SARS-CoV-2 genomes. Additionally, we present epitope distribution across SARS-CoV-2 genomes, locate the most commonly found epitopes, discuss where epitopes are located on proteins, and how epitopes can be grouped into classes. We also discuss the mutation density of different regions on proteins using a big data approach. We find that there are many conserved epitopes between SARS-CoV-2 and SARS-CoV, with more diverse sequences found in Nucleoprotein and Spike Glycoprotein.",
+  "abstract_zh": "<h4>摘要</h4> 表位（Epitopes）是定义抗体结合抗原特征的短氨基酸序列。鉴于当前疫情，表位分析和预测对于改进血清学检测和开发疫苗至关重要。本文利用来自SARS-CoV、SARS-CoV-2及其他冠状病毒科（Coronaviridae）的已知表位序列，并利用这些已知表位在62k个SARS-CoV-2基因组中识别额外的抗原区域。此外，我们展示了表位在SARS-CoV-2基因组中的分布，定位最常见的表位，讨论表位在蛋白质上的位置，以及表位如何被分类。我们还采用大数据方法讨论了蛋白质不同区域的突变密度。我们发现SARS-CoV-2与SARS-CoV之间存在许多保守表位，其中核蛋白（Nucleoprotein）和刺突糖蛋白（Spike Glycoprotein）中发现的序列更为多样。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.02.09.479786",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.02.09.479786",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.02.09.479786/index.html"
+}

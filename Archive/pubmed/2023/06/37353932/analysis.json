@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37353932",
+  "title": "Beyond analytic solution: Analysis of FRAP experiments by spatial simulation of the forward problem.",
+  "authors": "Cowan, Ann E; Loew, Leslie M",
+  "journal": "Biophysical journal",
+  "published_date": "2023-06-24",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用数值反应-扩散模拟分析FRAP实验，涵盖相分离凝聚体中的扩散与结合，但对象非IDP且无AI/物理模拟的机制建模深度，方法可迁移但互作机制较弱。",
+  "abstract": "Fluorescence redistribution after photobleaching is a commonly used method to understand the dynamic behavior of molecules within cells. Analytic solutions have been developed for specific, well-defined models of dynamic behavior in idealized geometries, but these solutions are inaccurate in complex geometries or when complex binding and diffusion behaviors exist. We demonstrate the use of numerical reaction-diffusion simulations using the Virtual Cell software platform to model fluorescence redistribution after photobleaching experiments. Multiple simulations employing parameter scans and varying bleaching locations and sizes can help to bracket diffusion coefficients and kinetic rate constants in complex image-based geometries. This approach is applied to problems in membrane surface diffusion as well as diffusion and binding in cytosolic volumes in complex cell geometries. In addition, we model diffusion and binding within phase-separated biomolecular condensates (liquid droplets). These are modeled as spherical low-affinity binding domains that also define a high viscosity medium for exchange of the free fluorescently labeled ligand with the external cytosol.",
+  "abstract_zh": "光漂白后荧光再分布是理解细胞内分子动态行为的常用方法。针对理想化几何形状中特定、明确界定的动态行为模型，已有解析解，但这些解在复杂几何形状或存在复杂结合与扩散行为时不够准确。我们展示了使用Virtual Cell软件平台进行数值反应-扩散模拟，以模拟光漂白后荧光再分布实验。采用参数扫描和变化漂白位置及大小的多种模拟，有助于在基于图像的复杂几何形状中界定扩散系数和动力学速率常数。该方法应用于膜表面扩散以及复杂细胞几何形状中胞质体积内的扩散与结合问题。此外，我们模拟了相分离 (phase separation) 生物分子凝聚体（液滴）内的扩散与结合。这些凝聚体被建模为球形低亲和力结合域，同时定义了高粘度介质，用于自由荧光标记配体与外部胞质的交换。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37353932/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37353932/",
+  "paper_page_path": "papers/pubmed/37353932/index.html"
+}

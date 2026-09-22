@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report the design of a synthetic intrinsically disordered protein (SynIDP) that self-assembles into an enteric coating for oral peptide drug delivery. The coating is claimed to exhibit temperature-controlled condensation and pH-controlled solidification, protect peptide drugs in simulated gastric conditions for over 60 minutes, release the drug in intestinal conditions, and improve weight loss consistency in obese mice compared to unencapsulated drug.
+- **Visible evidence base** Abstract text only; no experimental data, statistical analyses, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary information, statistical details, and raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to oral peptide delivery using engineered intrinsically disordered proteins. The claimed combination of reversible phase transitions, gastric acid resistance, and in vivo efficacy is potentially significant. However, the abstract provides no quantitative data, no experimental details, and no statistical information. The core claims cannot be evaluated for technical soundness or reproducibility from the supplied material. The work may be of interest to the drug delivery and protein engineering communities, but the evidence base is insufficient to assess whether the claims are established.
+- **Who would be interested in the results, and why** Researchers in oral drug delivery, peptide therapeutics, protein engineering, and biomaterials would be interested. The concept of using IDP-based coatings for enteric protection is novel and could appeal to those working on alternatives to conventional polymer-based enteric coatings. Clinicians and industry scientists focused on peptide-based weight loss drugs may also find the application relevant.
+- **Major strengths** The conceptual novelty of using an engineered IDP for enteric coating is a clear strength. The claimed reversibility and tunability of the phase transitions are elegant design features. The modularity of the platform, if validated, would be broadly applicable. The in vivo demonstration in obese mice, if robust, would strengthen translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The coating protects peptide-based weight loss drugs for over 60 minutes in simulated gastric conditions, then dissolves to release the active compound.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No experimental data are presented to support the gastric protection and dissolution claims. The abstract does not specify which drug was tested, the formulation conditions, the assay used to measure protection, or the release kinetics.
+  - **Why it matters** The central functional claim of the platform depends on quantitative evidence of protection and release. Without these data, the enteric coating function is not established.
+  - **Resolution test** Provide release profiles, drug integrity assays, and quantitative comparison of encapsulated versus unencapsulated drug under simulated gastric and intestinal conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Oral delivery to obese mice results in more consistent weight loss compared to the unencapsulated drug.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The in vivo claim is presented without any statistical details, sample sizes, effect sizes, or variability measures. The term "more consistent" is vague and not quantified.
+  - **Why it matters** The translational significance of the platform rests on the in vivo outcome. Without proper statistical reporting, the claim cannot be assessed for validity or reproducibility.
+  - **Resolution test** Provide full statistical analysis including group sizes, mean values, variance, and appropriate significance tests. Clarify what "more consistent" means in quantitative terms.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** Both transitions are reversible and precisely tuned to intestinal cues.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that the phase transitions are reversible and precisely tuned, but no data on transition temperatures, pH thresholds, hysteresis, or cycle stability are provided.
+  - **Why it matters** Reversibility and tunability are key design claims. Without quantitative characterization, the reproducibility of the material behavior cannot be assessed.
+  - **Resolution test** Provide phase diagrams, transition kinetics, and cycling data showing reversibility over multiple cycles.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Through detailed analysis of the kinetics of the liquid-to-solid phase transition, we achieve control over the nano-to-microscale morphology of the protein coating.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of morphological control is not supported by any imaging or quantitative morphology data in the abstract.
+  - **Why it matters** Morphological control is presented as a mechanism for optimizing encapsulation and protection. Without evidence, the link between kinetics, morphology, and function is speculative.
+  - **Resolution test** Provide microscopy images, size distributions, and correlation between kinetic parameters and morphological outcomes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "enteric coating" is used, but the material is described as a protein coating that solidifies at intestinal pH. Clarify whether this is a conventional enteric mechanism or a distinct pH-triggered process.
+  - **Required correction** Define the mechanism explicitly and distinguish it from standard enteric polymer coatings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Drug identity
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "peptide-based weight loss drugs" without naming the specific drug(s) tested.
+  - **Required correction** Specify the drug(s) used in the studies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Modularity claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims the platform is modular, but no evidence is provided that the coating works with multiple drugs or peptide types.
+  - **Required correction** Provide data with at least one additional peptide drug or state the limitation clearly.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative data for the central functional claims means the case is not established from the provided material.
+- **Assessment against Nature-style criteria** Originality is high, as the use of engineered IDPs for enteric coating appears novel. Scientific importance is potentially high for oral peptide delivery, but this cannot be confirmed without data. Interdisciplinary readership is plausible, spanning materials science, protein engineering, and pharmacology. Technical soundness is not assessable from the abstract alone. Readability for nonspecialists is adequate, though some terms such as "liquid-to-solid phase transition" and "nano-to-microscale morphology" may require more context in the full manuscript.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and warrants full review, but the abstract alone does not provide sufficient data to support the central claims.
+
+## Risk / unsupported claims
+- The claim of gastric protection for over 60 minutes is unsupported by data.
+- The claim of more consistent weight loss in vivo is unsupported by statistical evidence.
+- The claim of reversible and precisely tuned phase transitions is unsupported by quantitative characterization.
+- The claim of morphological control via kinetic analysis is unsupported by imaging or quantitative data.
+- The modularity of the platform is asserted but not demonstrated.

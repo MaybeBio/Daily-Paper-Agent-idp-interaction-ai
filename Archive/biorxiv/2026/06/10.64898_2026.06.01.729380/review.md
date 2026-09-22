@@ -1,0 +1,112 @@
+## Review setup
+
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, acknowledgements, footnotes)
+- **Assessment boundary** Scientific content, methodological soundness, interpretability of claims, and alignment with stated conclusions. No assessment of formatting, grammar, or editorial style beyond what affects scientific clarity.
+- **Shared manuscript claim summary** The authors construct a 511-sequence library of intrinsically disordered proteins (IDPs), perform 2,555 CALVADOS-2 simulations across five salt concentrations, and use interpretable machine learning to identify sequence charge decoration weighted by chain length (SCD × N) as the dominant descriptor organizing salt response regimes. They report strong in-distribution prediction (R² = 0.97 for gradient-boosted trees) and moderate cross-family generalization (R² = 0.60 under leave-one-subset-out validation), with robust directional classification and no polyelectrolyte–polyampholyte confusion.
+- **Visible evidence base** Abstract, full introduction, full methods (Sections 2.1–2.6), full results (Sections 3.1–3.5), full discussion, data availability statement, acknowledgements, footnotes. Figures and tables are referenced but not provided. Supplementary Table S1 is referenced but not provided.
+- **Missing materials affecting confidence** Figures 2–6, Table 1, Table 2, Supplementary Table S1, and all simulation parameter details are referenced but not included in the provided material. This limits verification of quantitative claims, regime classification boundaries, and feature definitions.
+
+## Reviewer
+
+- **Overall assessment** This manuscript addresses a timely and important question in IDP biophysics: whether low-dimensional sequence descriptors can organize the diverse salt response behaviors observed across IDP families. The study design is systematic, the computational approach is sound, and the identification of SCD × N as a dominant predictor is plausible and mechanistically interpretable. However, the absence of all figures, tables, and supplementary materials prevents full verification of the central claims. The distinction between in-distribution and cross-family generalization is appropriately emphasized, and the limitations are candidly discussed. The work is likely to be of interest to the IDP and polymer physics communities, though the incremental advance over existing sequence–property predictors (e.g., ALBATROSS, STARLING) needs clearer articulation.
+- **Who would be interested in the results, and why** Researchers studying IDP conformational ensembles, particularly those interested in sequence–ensemble relationships, salt-dependent behavior, and phase separation. The interpretable machine learning framework will appeal to computational biophysicists seeking reduced descriptors for IDP behavior. The polymer physics framing (polyelectrolyte vs. polyampholyte regimes) will interest theorists working on charged polymer solutions. The cross-family generalization results are relevant for anyone using machine learning to predict IDP properties from sequence.
+- **Major strengths** 1) Systematic library design spanning synthetic and natural sequences with controlled variation in charge composition and patterning. 2) Use of a single, internally consistent simulation framework (CALVADOS-2) across all conditions. 3) Clear separation of in-distribution and cross-family generalization metrics, with honest reporting of the performance gap. 4) Mechanistic interpretability via SHAP analysis, connecting machine learning predictions to polymer physics descriptors. 5) Candid discussion of limitations, including force field scope, salt sampling resolution, and the omission of salt-specific SCD variants.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence completeness  
+  - **Claim pointer** The manuscript claims that SCD × N accounts for ~40% of total SHAP attribution and exceeds the next feature by more than twice (abstract, Section 3.4).  
+  - **Evidence pointer** Figure 5 (not provided), Section 3.4  
+  - **Concern** The central quantitative claim regarding SHAP attribution is presented without the corresponding figure or numerical table. The reader cannot verify the magnitude of the dominance, the shape of the sigmoidal dependence, or the per-regime attribution values.  
+  - **Why it matters** This is the primary novel finding of the study. Without the figure or underlying data, the claim is unverifiable and the interpretability argument is weakened.  
+  - **Resolution test** Provide Figure 5 and the underlying SHAP values, or a table of mean |SHAP| per feature per regime, to allow independent verification.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The manuscript claims that 2,555 CALVADOS-2 simulations were performed with specific parameters (Section 2.2) and that convergence was assessed by block averaging.  
+  - **Evidence pointer** Table 1 (not provided), Section 2.2  
+  - **Concern** Simulation parameters (box size, integration time step, simulation length, temperature, salt concentration implementation) are referenced to Table 1 but not provided. Convergence criteria and block averaging details are described only qualitatively.  
+  - **Why it matters** Reproducibility of the simulation data is a core requirement for a computational study. Without these parameters, the results cannot be independently reproduced or assessed for statistical quality.  
+  - **Resolution test** Provide Table 1 and a detailed description of the block averaging procedure, including the number of blocks, block length, and convergence thresholds.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Claim support  
+  - **Claim pointer** The manuscript claims that "no polyelectrolyte–polyampholyte confusion" occurs in regime classification (abstract, Section 3.3).  
+  - **Evidence pointer** Figure 6 (not provided), Section 3.3  
+  - **Concern** The confusion matrix is referenced but not shown. The claim of zero cross-directional confusion is strong and should be supported by the actual matrix, including per-class precision and recall values.  
+  - **Why it matters** This claim underpins the interpretability argument that charge descriptors robustly encode response direction. Without the confusion matrix, the strength of this claim cannot be assessed.  
+  - **Resolution test** Provide Figure 6 or a table of the confusion matrix with per-class metrics.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The manuscript claims that leave-one-subset-out cross-validation (R² = 0.60) indicates "transferable but nonlinear sequence-encoded structure" (abstract, Section 3.3).  
+  - **Evidence pointer** Section 3.3, Figure 4 (not provided)  
+  - **Concern** The R² = 0.60 under LOSO is presented as evidence of transferability, but the manuscript does not report which subsets are most problematic when held out, nor does it discuss whether the performance drop is driven by specific sequence families (e.g., low-FCR vs. κ-variants).  
+  - **Why it matters** Understanding which families generalize poorly is critical for practical use of the model and for identifying where additional training data are needed.  
+  - **Resolution test** Report per-held-out-subset R² values and discuss the sources of cross-family performance variation.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scope of conclusions  
+  - **Claim pointer** The manuscript claims that SCD × N is "the dominant coordinate organizing salt response" (abstract, Section 3.4) and frames this as a general organizing principle.  
+  - **Evidence pointer** Section 3.4, Section 4  
+  - **Concern** The study is limited to CALVADOS-2 simulations, which use Debye–Hückel screening and omit salting-out effects. The authors acknowledge this, but the claim of a "dominant coordinate" is presented without testing whether the result holds under alternative force fields or with salt-specific descriptors (e.g., SCD_lowsalt, SCD_highsalt) that were explicitly excluded.  
+  - **Why it matters** The generality of the organizing principle is central to the manuscript's significance. Without testing alternative descriptors or force fields, the claim is specific to CALVADOS-2 and may not generalize.  
+  - **Resolution test** Either include salt-specific SCD variants as candidate predictors, or temper the claim to explicitly state the CALVADOS-2-specific scope.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Section 2.1, library construction  
+  - **Evidence pointer** Section 2.1  
+  - **Issue** The description of the κ-variant construction mentions "biased clustered placement" but does not specify the algorithm or acceptance criteria beyond the κ-bin tolerance.  
+  - **Required correction** Provide a brief description of the placement algorithm or a reference to the Das–Pappu construction details.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Statistical rigor  
+  - **Affected element** Section 2.4, regime classification  
+  - **Evidence pointer** Section 2.4  
+  - **Issue** The classification threshold |Δ_rel| < 0.03 for salt-insensitive is stated without justification or sensitivity analysis.  
+  - **Required correction** Provide a rationale for the threshold or a sensitivity analysis showing that results are robust to reasonable threshold variations.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Section 2.6, machine learning  
+  - **Evidence pointer** Section 2.6  
+  - **Issue** Hyperparameter choices for XGBoost (learning rate, depth, number of trees) are stated, but no sensitivity analysis or hyperparameter tuning procedure is described.  
+  - **Required correction** Briefly describe how hyperparameters were chosen (e.g., grid search, default values) and whether results are sensitive to these choices.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Interpretability  
+  - **Affected element** Section 3.4, SHAP analysis  
+  - **Evidence pointer** Section 3.4  
+  - **Issue** The manuscript reports mean |SHAP| values but does not discuss SHAP interaction effects or whether the dominance of SCD × N is robust across subsets.  
+  - **Required correction** Add a brief discussion of whether SCD × N dominance holds within each library subset, or acknowledge this as a limitation.  
+  - **Concern ID** R1-m5  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Data availability  
+  - **Evidence pointer** Data availability section  
+  - **Issue** The GitHub repository is mentioned, but no version, commit hash, or DOI is provided.  
+  - **Required correction** Provide a versioned release or DOI for the repository to ensure long-term accessibility.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (SHAP evidence missing), R1-M2 (simulation parameters missing), R1-M3 (confusion matrix missing). These are blocking because the central claims of the manuscript cannot be verified without the referenced figures and tables.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The application of interpretable machine learning to salt response in IDPs is a useful extension of existing work, but the descriptors (SCD, κ, NCPR) are well established, and the finding that SCD × N dominates is not conceptually surprising given prior theory. The novelty lies in the systematic library and the explicit comparison of in-distribution vs. cross-family generalization.  
+  - **Scientific importance** Moderate to high. Understanding salt response in IDPs is relevant to phase separation and cellular function. The identification of a compact organizing coordinate could be practically useful. However, the CALVADOS-2-specific scope limits immediate biological inference.  
+  - **Interdisciplinary readership** Moderate. The work bridges polymer physics, computational biophysics, and machine learning. The interpretable framework may attract readers from all three communities, but the technical detail may limit broader appeal.  
+  - **Technical soundness** Sound in design, but unverifiable in execution due to missing figures and tables. The machine learning methodology is standard and appropriate. The LOSO validation is a strength.  
+  - **Readability for nonspecialists** Good. The introduction and discussion are clearly written and accessible. The methods are appropriately detailed for specialists. The abstract effectively summarizes the key findings and limitations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core scientific question is relevant, the study design is thoughtful, and the interpretable machine learning approach is a valuable complement to generative models. However, the manuscript cannot be accepted in its current form because the central quantitative claims (SHAP attribution, regime classification performance) are not verifiable without the referenced figures and tables. Once these are provided and the scope of the "dominant coordinate" claim is appropriately tempered, the manuscript would be a solid contribution to the IDP biophysics literature.
+
+## Risk / unsupported claims
+
+- The claim that SCD × N accounts for ~40% of total SHAP attribution is unsupported without Figure 5 or underlying data.
+- The claim of "no polyelectrolyte–polyampholyte confusion" is unsupported without the confusion matrix (Figure 6).
+- The claim that CALVADOS-2 simulations were performed with specific parameters is unverifiable without Table 1.
+- The claim that the library provides "controlled coverage" of sequence space is partially supported by the methods text but cannot be fully assessed without Supplementary Table S1.
+- The claim that the salt response slope is "accessible to established experimental techniques" is reasonable but speculative without experimental validation.
+- The claim that the random-CV R² = 0.97 is "optimistic" is appropriately qualified, but the manuscript does not quantify the degree of sequence leakage across folds.

@@ -1,0 +1,208 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.05.05.442725",
+  "title": "1 H, 13 C and 15 N resonance assignment of the SARS-CoV-2 full-length nsp1 protein and its mutants reveals its unique secondary structure features in solution",
+  "doi": "10.1101/2021.05.05.442725",
+  "abstract": "Structural characterization of the SARS-CoV-2 full length nsp1 protein will be an essential tool for developing new target-directed antiviral drugs against SARS-CoV-2 and for further understanding of intra- and intermolecular interactions of this protein. As a first step in the NMR studies of the protein, we report the 1 H, 13 C and 15 N resonance backbone assignment as well as the Cβ of the apo form of the full-lengthSARS-CoV-2 nsp1 including folded domain together with the flaking N- and C-terminal intrinsically disordered fragments. The 19.8 kD protein was characterized by high-resolution NMR. Validation of assignment have been done by using two different mutants, H81P and K129E/D48E as well as by amino acid specific experiments. According to the obtained assignment, the secondary structure of the folded domain in solution was almost identical to its previously published X-ray structure, but some discrepancies have been detected. In the solution SARS-CoV-2 nsp1 exhibited disordered, flexible N- and C-termini with different dynamic characteristics. The short peptide in the beginning of the disordered C-terminal domain adopted two different conformations distinguishable on the NMR time scale. We propose that the disordered and folded nsp1 domains are not fully independent units but are rather involved in intramolecular interactions. Studies of the structure and dynamics of the SARS-CoV-2 mutant in solution are on-going and will provide important insights into the molecular mechanisms underlying these interactions.",
+  "authors": [
+    "Agback T",
+    "Dominguez F",
+    "Frolov I",
+    "Frolova EI",
+    "Agback P"
+  ],
+  "published_date": "2021-05-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.05.05.442725",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.05.05.442725.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR334627",
+    "raw_record": {
+      "id": "PPR334627",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR334627"
+        ]
+      },
+      "doi": "10.1101/2021.05.05.442725",
+      "title": "<sup>1</sup>  H,  <sup>13</sup>  C and  <sup>15</sup>  N resonance assignment of the SARS-CoV-2 full-length nsp1 protein and its mutants reveals its unique secondary structure features in solution",
+      "authorString": "Agback T, Dominguez F, Frolov I, Frolova EI, Agback P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Agback T",
+            "lastName": "Agback",
+            "firstName": "Tatiana",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sciences, Swedish University of Agricultural Sciences, PO Box 7015, SE-750 07 Uppsala, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dominguez F",
+            "lastName": "Dominguez",
+            "firstName": "Francisco",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, University of Alabama at Birmingham, AL, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Frolov I",
+            "lastName": "Frolov",
+            "firstName": "Ilya",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, University of Alabama at Birmingham, AL, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Frolova EI",
+            "lastName": "Frolova",
+            "firstName": "Elena",
+            "initials": "EI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, University of Alabama at Birmingham, AL, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Agback P",
+            "lastName": "Agback",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Sciences, Swedish University of Agricultural Sciences, PO Box 7015, SE-750 07 Uppsala, Sweden"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2226-0746"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Structural characterization of the SARS-CoV-2 full length nsp1 protein will be an essential tool for developing new target-directed antiviral drugs against SARS-CoV-2 and for further understanding of intra- and intermolecular interactions of this protein. As a first step in the NMR studies of the protein, we report the  1 H,  13 C and  15 N resonance backbone assignment as well as the Cβ of the apo form of the full-lengthSARS-CoV-2 nsp1 including folded domain together with the flaking N- and C-terminal intrinsically disordered fragments. The 19.8 kD protein was characterized by high-resolution NMR. Validation of assignment have been done by using two different mutants, H81P and K129E/D48E as well as by amino acid specific experiments. According to the obtained assignment, the secondary structure of the folded domain in solution was almost identical to its previously published X-ray structure, but some discrepancies have been detected. In the solution SARS-CoV-2 nsp1 exhibited disordered, flexible N- and C-termini with different dynamic characteristics. The short peptide in the beginning of the disordered C-terminal domain adopted two different conformations distinguishable on the NMR time scale. We propose that the disordered and folded nsp1 domains are not fully independent units but are rather involved in intramolecular interactions. Studies of the structure and dynamics of the SARS-CoV-2 mutant in solution are on-going and will provide important insights into the molecular mechanisms underlying these interactions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/05/05/2021.05.05.442725.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.05.05.442725"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR334627"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR334627&type=FILE&fileName=EMS124359-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34874953",
+            "reference": "PloS one. 2021 ;16(12):e0251834",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS124359",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refseq",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2021-05-08",
+      "firstPublicationDate": "2021-05-05",
+      "firstIndexDate": "2021-05-08",
+      "fullTextReceivedDate": "2021-05-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

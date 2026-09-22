@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "39253398",
+    "doi": "10.1093/pnasnexus/pgae367",
+    "title": "Beyond monopole electrostatics in regulating conformations of intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "Conformations and dynamics of an intrinsically disordered protein (IDP) depend on its composition of charged and uncharged amino acids, and their specific placement in the protein sequence. In general, the charge (positive or negative) on an amino acid residue in the protein is not a fixed quantity. Each of the ionizable groups can exist in an equilibrated distribution of fully ionized state (monopole) and an ion-pair (dipole) state formed between the ionizing group and its counterion from the background electrolyte solution. The dipole formation (counterion condensation) depends on the protein conformation, which in turn depends on the distribution of charges and dipoles on the molecule. Consequently, effective charges of ionizable groups in the IDP backbone may differ from their chemical charges in isolation-a phenomenon termed charge-regulation. Accounting for the inevitable dipolar interactions, that have so far been ignored, and using a self-consistent procedure, we present a theory of charge-regulation as a function of sequence, temperature, and ionic strength. The theory quantitatively agrees with both charge reduction and salt-dependent conformation data of Prothymosin-alpha and makes several testable predictions. We predict charged groups are less ionized in sequences where opposite charges are well mixed compared to sequences where they are strongly segregated. Emergence of dipolar interactions from charge-regulation allows spontaneous coexistence of two phases having different conformations and charge states, sensitively depending on the charge patterning. These findings highlight sequence dependent charge-regulation and its potential exploitation by biological regulators such as phosphorylation and mutations in controlling protein conformation and function.",
+    "keywords": [
+      "IDP",
+      "function",
+      "heteropolymers"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Phillips, Michael",
+        "Muthukumar, Murugappan",
+        "Ghosh, Kingshuk"
+      ],
+      "short_names": [
+        "Phillips M",
+        "Muthukumar M",
+        "Ghosh K"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0587-6880",
+        "ORCID: 0000-0001-7872-4883",
+        "ORCID: 0000-0003-4976-0986"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, University of Denver, Denver, CO 80208, USA.",
+        "Department of Polymer Science and Engineering, University of Massachusetts, Amherst, MA 01003, USA.",
+        "Department of Physics and Astronomy, University of Denver, Denver, CO 80208, USA.",
+        "Molecular and Cellular Biophysics, University of Denver, Denver, CO 80208, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Phillips, Michael",
+        "short_name": "Phillips M",
+        "identifiers": [
+          "0000-0003-0587-6880"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Denver, Denver, CO 80208, USA."
+        ]
+      },
+      {
+        "full_name": "Muthukumar, Murugappan",
+        "short_name": "Muthukumar M",
+        "identifiers": [
+          "0000-0001-7872-4883"
+        ],
+        "affiliations": [
+          "Department of Polymer Science and Engineering, University of Massachusetts, Amherst, MA 01003, USA."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Kingshuk",
+        "short_name": "Ghosh K",
+        "identifiers": [
+          "0000-0003-4976-0986"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Denver, Denver, CO 80208, USA.",
+          "Molecular and Cellular Biophysics, University of Denver, Denver, CO 80208, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PNAS nexus"
+    ],
+    "journal_abbrev": [
+      "PNAS Nexus"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/10 06:43",
+    "fetched_at": "2026-09-21 10:12:42"
+  },
+  "links": {
+    "cites": [
+      "41972834",
+      "41298246",
+      "41085093",
+      "40998749",
+      "39458755"
+    ],
+    "refs": [
+      "38503281",
+      "38297118",
+      "37796987",
+      "36599672",
+      "35969881",
+      "35767567",
+      "35512095",
+      "35474060",
+      "35119946",
+      "34863777",
+      "34826385",
+      "34533455",
+      "34504002",
+      "34476121",
+      "34259536",
+      "33877835",
+      "33865811",
+      "33299652",
+      "32639157",
+      "32619404",
+      "32357776",
+      "32227994",
+      "32007034",
+      "31488718",
+      "31375817",
+      "31362509",
+      "31264965",
+      "30948640",
+      "30913885",
+      "30873835",
+      "30384718",
+      "30384692",
+      "30217894",
+      "30193467",
+      "29604827",
+      "29466338",
+      "29296029",
+      "29097695",
+      "29078291",
+      "28709871",
+      "28483149",
+      "28288117",
+      "28167781",
+      "27824447",
+      "27791143",
+      "27392146",
+      "26723618",
+      "26331261",
+      "26328871",
+      "25863585",
+      "25747659",
+      "25533957",
+      "23901099",
+      "22984159",
+      "21052522",
+      "20639465",
+      "20483348",
+      "20428473",
+      "20404210",
+      "18601377",
+      "18506808",
+      "16589017",
+      "15267872",
+      "15174133",
+      "15011050",
+      "10600390"
+    ],
+    "similar": [
+      "39253398",
+      "29604827",
+      "30193467",
+      "35944496",
+      "35454150",
+      "38250712",
+      "17975838",
+      "32696367",
+      "28571334",
+      "30025858",
+      "32639157",
+      "20639465",
+      "38657047",
+      "23912807",
+      "32227994",
+      "38421069",
+      "8469972",
+      "36599672",
+      "34259536",
+      "30823702",
+      "33215185",
+      "15894608",
+      "22979885",
+      "33945530",
+      "38252962",
+      "32867340",
+      "30204435",
+      "29359223",
+      "22072523",
+      "36343363",
+      "21078959",
+      "12842476",
+      "16853938",
+      "35727975",
+      "35512095",
+      "32357776",
+      "1324717",
+      "8783394",
+      "19871859",
+      "11838236",
+      "35436286",
+      "33435335",
+      "38743557",
+      "23028280",
+      "27248842",
+      "36674958",
+      "30968464",
+      "28890401",
+      "39163306",
+      "31362509",
+      "14505321",
+      "34681718",
+      "35119946",
+      "32393642",
+      "30913885",
+      "20404210",
+      "33581430",
+      "31310250",
+      "24689358",
+      "2435331",
+      "12488018",
+      "34576338",
+      "25810659",
+      "35372273",
+      "25362051",
+      "37936402",
+      "33453267",
+      "29557644",
+      "32933064",
+      "30187212",
+      "7827073",
+      "34476121",
+      "31325636",
+      "22197905",
+      "29604878",
+      "23901099",
+      "30873835",
+      "21744395",
+      "31005237",
+      "31869935",
+      "20481729",
+      "28765603",
+      "30384687",
+      "30996987",
+      "26053228",
+      "33530506",
+      "30397688",
+      "29791150",
+      "28448138",
+      "37442414",
+      "34203110",
+      "27791102",
+      "22399317",
+      "4414038",
+      "17388468",
+      "23159811",
+      "35126984"
+    ],
+    "review": [
+      "39253398",
+      "32867340",
+      "8783394",
+      "11838236",
+      "35119946",
+      "33530506"
+    ],
+    "pmc": [
+      "11382291"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39253398/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/pnasnexus/article-lookup/doi/10.1093/pnasnexus/pgae367",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

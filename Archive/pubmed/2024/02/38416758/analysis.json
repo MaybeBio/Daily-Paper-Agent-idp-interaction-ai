@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38416758",
+  "title": "Submillisecond Atomistic Molecular Dynamics Simulations Reveal Hydrogen Bond-Driven Diffusion of a Guest Peptide in Protein-RNA Condensate.",
+  "authors": "Unarta, Ilona C; Cao, Siqin; Goonetilleke, Eshani C; Niu, Jiani; Gellman, Samuel H; Huang, Xuhui",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2024-02-28",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用亚毫秒级全原子MD模拟揭示精氨酸富集肽在蛋白-RNA凝聚体中的氢键驱动扩散机制，直接以IDR/相分离凝聚体为对象，聚焦PPI动态与结合机制，方法为高深度物理模拟，与课题高度契合。",
+  "abstract": "Liquid-liquid phase separation mediated by proteins and/or nucleic acids is believed to underlie the formation of many distinct condensed phases, or membraneless organelles, within living cells. These condensates have been proposed to orchestrate a variety of important processes. Despite recent advances, the interactions that regulate the dynamics of molecules within a condensate remain poorly understood. We performed accumulated 564.7 mus all-atom molecular dynamics (MD) simulations (system size  approximately 200k atoms) of model condensates formed by a scaffold RNA oligomer and a scaffold peptide rich in arginine (Arg). These model condensates contained one of three possible guest peptides: the scaffold peptide itself or a variant in which six Arg residues were replaced by lysine (Lys) or asymmetric dimethyl arginine (ADMA). We found that the Arg-rich peptide can form the largest number of hydrogen bonds and bind the strongest to the scaffold RNA in the condensate, relative to the Lys- and ADMA-rich peptides. Our MD simulations also showed that the Arg-rich peptide diffused more slowly in the condensate relative to the other two guest peptides, which is consistent with a recent fluorescence microscopy study. There was no significant increase in the number of cation-pi interactions between the Arg-rich peptide and the scaffold RNA compared to the Lys-rich and ADMA-rich peptides. Our results indicate that hydrogen bonds between the peptides and the RNA backbone, rather than cation-pi interactions, play a major role in regulating peptide diffusion in the condensate.",
+  "abstract_zh": "由蛋白质和/或核酸介导的液-液相分离（liquid-liquid phase separation）被认为是在活细胞内形成许多不同凝聚相或无膜细胞器的基础。这些凝聚体被提出可协调多种重要过程。尽管近期有进展，但调控凝聚体内分子动态的相互作用仍知之甚少。我们进行了总计564.7微秒的全原子分子动力学（molecular dynamics, MD）模拟（系统大小约20万原子），研究对象为由支架RNA寡聚体和富含精氨酸（Arg）的支架肽形成的模型凝聚体。这些模型凝聚体包含三种可能的客体肽之一：支架肽本身，或将其六个Arg残基替换为赖氨酸（Lys）或不对称二甲基精氨酸（ADMA）的变体。我们发现，相对于富含Lys和ADMA的肽，富含Arg的肽在凝聚体中能与支架RNA形成最多的氢键，并具有最强的结合力。我们的MD模拟还显示，相对于其他两种客体肽，富含Arg的肽在凝聚体中扩散更慢，这与近期一项荧光显微镜研究一致。与富含Lys和ADMA的肽相比，富含Arg的肽与支架RNA之间的阳离子-π相互作用数量没有显著增加。我们的结果表明，肽与RNA骨架之间的氢键，而非阳离子-π相互作用，在调控凝聚体中肽的扩散中起主要作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38416758/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38416758/",
+  "paper_page_path": "papers/pubmed/38416758/index.html"
+}

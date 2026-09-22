@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34110175",
+  "title": "Thermodynamic Compensation in Peptides Following Liquid-Liquid Phase Separation.",
+  "authors": "Workman, Riley J; Pettitt, B Montgomery",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-06-11",
+  "window": {
+    "start": "2021-06-07",
+    "end": "2021-06-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过全原子模拟研究五肽液-液相分离，分析序列变化对骨架构象熵与焓的补偿关系，直接以无序肽段为对象并聚焦相分离机制的热力学建模，对IDR介导的凝聚体互作机制研究有直接启发。",
+  "abstract": "Liquid-liquid phase separation of proteins often incorporates intrinsically disordered proteins or those with disordered regions. Examining these processes via the entropy change is desirable for establishing a quantitative foundation with which to probe and understand these phase transitions. Of interest is the effect of residue sequence on the entropy of the peptide backbone. In this work we model these systems via all atom simulations of liquid-liquid phase separation of peptides. Systems of supersaturated pentapeptides separate into a peptide-dense liquid droplet phase as well as a dilute (saturated) aqueous phase. An analysis of the change in backbone conformational entropy associated with the phase transition was performed. We examined systems of four different pentapeptides (GGGGG, GGQGG, GGNGG, and GGVGG) in order to explore the effect of sequence variation on the conformational entropy, as well as the effect of side chain variation on the physical characteristics of the droplet phases. We find that the loss of conformational entropy that accompanies aqueous --> droplet transitions is more than compensated by a decrease in interaction enthalpy as contributions to the free energy change for the process.",
+  "abstract_zh": "蛋白质的液-液相分离（liquid-liquid phase separation）通常涉及 intrinsically disordered proteins（内在无序蛋白）或含有无序区域的蛋白质。通过熵变来考察这些过程，对于建立定量基础以探测和理解这些相变是可取的。关注点在于残基序列对肽骨架熵的影响。在本工作中，我们通过全原子模拟（all atom simulations）对肽的液-液相分离系统进行建模。过饱和的五肽系统分离为肽密集的液滴相以及稀释（饱和）的水相。我们进行了与相变相关的骨架构象熵变化的分析。我们考察了四种不同五肽（GGGGG、GGQGG、GGNGG 和 GGVGG）的系统，以探索序列变异对构象熵的影响，以及侧链变异对液滴相物理特性的影响。我们发现，伴随水相→液滴相转变的构象熵损失，被相互作用焓的减少所超过补偿，这作为该过程自由能变化的贡献。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34110175/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34110175/",
+  "paper_page_path": "papers/pubmed/34110175/index.html"
+}

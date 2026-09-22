@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37586706",
+  "title": "Amphiphiles Formed from Synthetic DNA-Nanomotifs Mimic the Stepwise Dispersal of Transcriptional Clusters in the Cell Nucleus.",
+  "authors": "Tschurikow, Xenia; Gadzekpo, Aaron; Tran, Mai P; Chatterjee, Rakesh; Sobucki, Marcel; Zaburdaev, Vasily; Gopfrich, Kerstin; Hilbert, Lennart",
+  "journal": "Nano letters",
+  "published_date": "2023-08-17",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 6,
+  "one_liner_zh": "用合成DNA纳米两亲体模拟转录凝聚体的相分离与分散行为，结合布朗动力学模拟研究两亲物对液滴形态的调控，虽对象非IDP但相分离机制建模思路可迁移。",
+  "abstract": "Stem cells exhibit prominent clusters controlling the transcription of genes into RNA. These clusters form by a phase-separation mechanism, and their size and shape are controlled via an amphiphilic effect of transcribed genes. Here, we construct amphiphile-nanomotifs purely from DNA, and we achieve similar size and shape control for phase-separated droplets formed from fully synthetic, self-interacting DNA-nanomotifs. Increasing amphiphile concentrations induce rounding of droplets, prevent droplet fusion, and, at high concentrations, cause full dispersal of droplets. Super-resolution microscopy data obtained from zebrafish embryo stem cells reveal a comparable transition for transcriptional clusters with increasing transcription levels. Brownian dynamics and lattice simulations further confirm that the addition of amphiphilic particles is sufficient to explain the observed changes in shape and size. Our work reproduces key aspects of transcriptional cluster formation in biological cells using relatively simple DNA sequence-programmable nanostructures, opening novel ways to control the mesoscopic organization of synthetic nanomaterials.",
+  "abstract_zh": "干细胞表现出显著的簇状结构，这些簇控制着基因向RNA的转录。这些簇通过相分离（phase separation）机制形成，其大小和形状通过转录基因的两亲性效应得以调控。在此，我们仅用DNA构建两亲性纳米基序（amphiphile-nanomotifs），并实现了对由全合成、自相互作用DNA纳米基序形成的相分离液滴的类似大小和形状控制。增加两亲物浓度会诱导液滴变圆、防止液滴融合，并在高浓度下导致液滴完全分散。从斑马鱼胚胎干细胞获得的超分辨率显微镜数据揭示，随着转录水平的增加，转录簇发生类似的转变。布朗动力学和晶格模拟进一步证实，添加两亲性颗粒足以解释观察到的形状和大小变化。我们的工作利用相对简单的DNA序列可编程纳米结构，再现了生物细胞中转录簇形成的关键方面，为控制合成纳米材料的中观组织开辟了新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37586706/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37586706/",
+  "paper_page_path": "papers/pubmed/37586706/index.html"
+}

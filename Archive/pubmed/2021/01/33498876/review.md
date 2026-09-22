@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (review article)
+- **Assessment boundary** Scientific content, structural logic, evidence quality, and clarity of the presented review; no assessment of editorial fit or publication decision
+- **Shared manuscript claim summary** The authors review structural and biochemical evidence for substrate recognition and processing by the 20S proteasome, proposing a functional cycle with three states (substrate accepting, substrate binding, substrate processing) and arguing that 20S and 26S proteasomes generate distinct peptide products due to differential translocation mechanisms.
+- **Visible evidence base** Abstract, Introduction, Sections 2–6, Figures 1–4 (referenced but not provided), 129 references (not individually assessed)
+- **Missing materials affecting confidence** Figures 1–4 not provided; reference list not individually assessed; no experimental data presented (review article)
+
+## Reviewer
+- **Overall assessment** This is a well-structured and readable review that synthesizes a substantial body of literature on 20S proteasome structure and function. The authors propose a conceptual framework for the 20S functional cycle that is useful for organizing current knowledge. However, the review would benefit from more critical evaluation of conflicting evidence, clearer distinction between established findings and speculative models, and more explicit discussion of methodological limitations in the cited studies. The central claim that differential translocation mechanisms yield distinct peptide products is interesting but requires more rigorous support from comparative studies.
+- **Who would be interested in the results, and why** Researchers in proteostasis, protein degradation, structural biology, and cellular stress responses. The review is also relevant to those studying ubiquitin-independent degradation pathways and the physiological roles of free 20S proteasomes in disease contexts such as cardiomyopathy and neurodegeneration.
+- **Major strengths** The review provides a clear organizational framework for understanding 20S proteasome function. The proposal of distinct functional states (SA, SB, SP) is conceptually useful. The authors effectively integrate structural and biochemical evidence. The discussion of peptide product differences between 20S and 26S proteasomes raises important questions about functional specialization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors state that "the differential translocation mechanisms yield distinct peptide products" and that this "rationalize[s] cohabitation of both proteasome complexes in cells."
+  - **Evidence pointer** Section 5, Abstract
+  - **Concern** The claim that 20S and 26S proteasomes generate distinct peptide products is presented as a key conclusion, but the supporting evidence is largely drawn from a limited number of studies (e.g., reference 49). The review does not critically assess whether these differences are consistently observed across different substrates, experimental conditions, or cell types. The mechanistic explanation for how differential translocation leads to different product profiles is not fully developed.
+  - **Why it matters** This claim underpins the broader argument for functional specialization of 20S versus 26S proteasomes. If the evidence is not robust, the central thesis of the review is weakened.
+  - **Resolution test** The authors should systematically compare available studies on peptide products from 20S versus 26S proteasomes, discuss any contradictory findings, and clearly state the strength of evidence for this claim. If evidence is limited, this should be explicitly acknowledged.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Speculation vs. established knowledge
+  - **Claim pointer** The authors propose that "substrates with HbYX-like motifs could insert into lysine-pockets on the 20S CP surface to trigger gate opening and enhance their own degradation."
+  - **Evidence pointer** Section 3, Figure 3D
+  - **Concern** This is presented as a plausible mechanism, but the review does not clearly distinguish this as a hypothesis. The evidence for substrate engagement with lysine-pockets is indirect, and no direct demonstration of substrate-derived HbYX motifs functioning in this manner is provided.
+  - **Why it matters** Readers may mistake a speculative model for an established mechanism. The review should clearly flag such proposals as hypotheses requiring direct testing.
+  - **Resolution test** The authors should explicitly label this as a proposed model and discuss what experimental evidence would be needed to support or refute it.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Critical evaluation of literature
+  - **Claim pointer** The review states that "20S proteasomes are relatively resistant to oxidation damage compared to 26S proteasomes and persist as a stable complex under such conditions."
+  - **Evidence pointer** Section 1, references 57, 70
+  - **Concern** The review does not critically evaluate potential caveats in the cited studies, such as differences in experimental models, oxidation protocols, or the possibility that 20S resistance may be context-dependent. The claim is presented as established fact without acknowledging potential limitations.
+  - **Why it matters** This claim is used to support the argument that 20S proteasomes play a role under stress conditions. If the evidence is less robust than implied, the argument is weakened.
+  - **Resolution test** The authors should briefly discuss the conditions under which this resistance has been demonstrated and any conflicting findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4.2
+  - **Evidence pointer** Figure 4A,B
+  - **Issue** The description of asymmetric conformational changes in the 20S barrel is somewhat unclear. The text states that CyclinB1 "trigger[s] gate opening in one of the alpha-rings" and induces changes "to half of the 20S barrel," but the structural basis for this asymmetry is not fully explained.
+  - **Required correction** Provide a more explicit description of which structural elements are involved in the asymmetric changes and how this relates to the overall architecture of the complex.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 4.3
+  - **Evidence pointer** location not provided
+  - **Issue** The term "protease-like unfolding" is used but not clearly defined. It is unclear how this differs from other unfolding mechanisms described in the literature.
+  - **Required correction** Define the term explicitly and explain how it relates to or differs from ATP-dependent unfolding mechanisms.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5
+  - **Evidence pointer** location not provided
+  - **Issue** The discussion of peptide products and antigen presentation is interesting but brief. The potential implications for immunotherapy or vaccine design are mentioned but not developed.
+  - **Required correction** Consider expanding this discussion or explicitly stating that this is an area for future investigation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 2
+  - **Evidence pointer** location not provided
+  - **Issue** The text states that "a short unstructured segment does not imply that the 20S proteasome is the primary protease for their removal," but this point is not consistently maintained throughout the review, which sometimes implies a broader role for 20S in degrading disordered proteins.
+  - **Required correction** Ensure that the limitations of the 20S substrate range are consistently acknowledged throughout the review.
+- **Technical failings that need to be addressed before the case is established** None identified from the supplied material. The review does not present new experimental data, and the technical quality of the cited studies cannot be assessed from the manuscript alone.
+- **Assessment against Nature-style criteria** 
+  - Originality: The review offers a useful conceptual framework (SA, SB, SP states) but does not present fundamentally new ideas. The proposal of substrate-driven gate opening via HbYX-like motifs is somewhat speculative.
+  - Scientific importance: The topic is of significant importance to the proteostasis field. The discussion of 20S versus 26S functional specialization has implications for understanding cellular stress responses and disease.
+  - Interdisciplinary readership: The review is primarily of interest to structural biologists and biochemists. The broader implications for cell biology and immunology are mentioned but not developed sufficiently to attract a wide interdisciplinary audience.
+  - Technical soundness: The review is generally accurate in its presentation of structural and biochemical data, but the lack of critical evaluation of conflicting evidence is a weakness.
+  - Readability for nonspecialists: The text is generally clear and well-organized, but some sections assume familiarity with proteasome terminology and structural concepts. A brief glossary or more introductory material would improve accessibility.
+- **Recommendation posture** Supportive if the major concerns are addressed. The review provides a useful synthesis of current knowledge, but the authors should more clearly distinguish established findings from speculative models, critically evaluate the evidence for key claims, and strengthen the discussion of peptide product differences between 20S and 26S proteasomes.
+
+## Risk / unsupported claims
+- The claim that "differential translocation mechanisms yield distinct peptide products" is supported by limited evidence and requires more systematic comparison of available studies.
+- The proposal that substrates with HbYX-like motifs can engage lysine-pockets to trigger gate opening is speculative and not directly supported by experimental evidence.
+- The claim that 20S proteasomes are "relatively resistant to oxidation damage" is presented without critical evaluation of potential context-dependence.
+- The functional states (SA, SB, SP) are proposed as a framework but are not directly validated by experimental data; they should be clearly presented as a conceptual model.

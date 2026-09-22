@@ -1,0 +1,706 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.24.581708",
+  "title": "Exploring the conformational ensembles of protein-protein complex with transformer-based generative model",
+  "doi": "10.1101/2024.02.24.581708",
+  "abstract": "Protein-protein interactions are the basis of many protein functions, and understanding the contact and conformational changes of protein-protein interactions is crucial for linking protein structure to biological function. Although difficult to detect experimentally, molecular dynamics (MD) simulations are widely used to study the conformational ensembles and dynamics of protein-protein complexes, but there are significant limitations in sampling efficiency and computational costs. In this study, a generative neural network was trained on protein-protein complex conformations obtained from molecular simulations to directly generate novel conformations with physical realism. We demonstrated the use of a deep learning model based on the transformer architecture to explore the conformational ensembles of protein-protein complexes through MD simulations. The results showed that the learned latent space can be used to generate unsampled conformations of protein-protein complexes for obtaining new conformations complementing pre-existing ones, which can be used as an exploratory tool for the analysis and enhancement of molecular simulations of protein-protein complexes.",
+  "authors": [
+    "Jianmin Wang",
+    "Xun Wang",
+    "Yanyi Chu",
+    "Chunyan Li",
+    "Xue Li",
+    "Xiangyu Meng",
+    "Yitian Fang",
+    "Kyoung Tai No",
+    "Jiashun Mao",
+    "Xiangxiang Zeng"
+  ],
+  "published_date": "2024-02-26",
+  "updated_date": "2024-02-27T12:30:06Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.24.581708",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.24.581708.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:55:51Z",
+        "timestamp": 1768510551122,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            26
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 60,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            22
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Protein-protein interactions are the basis of many protein functions, and understanding the contact and conformational changes of protein-protein interactions is crucial for linking protein structure to biological function. Although difficult to detect experimentally, molecular dynamics (MD) simulations are widely used to study the conformational ensembles and dynamics of protein-protein complexes, but there are significant limitations in sampling efficiency and computational costs. In this study, a generative neural network was trained on protein-protein complex conformations obtained from molecular simulations to directly generate novel conformations with physical realism. We demonstrated the use of a deep learning model based on the transformer architecture to explore the conformational ensembles of protein-protein complexes through MD simulations. The results showed that the learned latent space can be used to generate unsampled conformations of protein-protein complexes for obtaining new conformations complementing pre-existing ones, which can be used as an exploratory tool for the analysis and enhancement of molecular simulations of protein-protein complexes.</jats:p>",
+      "DOI": "10.1101/2024.02.24.581708",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2024-02-27T12:30:06Z",
+        "timestamp": 1709037006000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Exploring the conformational ensembles of protein-protein complex with transformer-based generative model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8910-0929",
+          "authenticated-orcid": false,
+          "given": "Jianmin",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xun",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4969-3931",
+          "authenticated-orcid": false,
+          "given": "Yanyi",
+          "family": "Chu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3014-3363",
+          "authenticated-orcid": false,
+          "given": "Chunyan",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xue",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiangyu",
+          "family": "Meng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4644-1464",
+          "authenticated-orcid": false,
+          "given": "Yitian",
+          "family": "Fang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kyoung Tai",
+          "family": "No",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jiashun",
+          "family": "Mao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1081-7658",
+          "authenticated-orcid": false,
+          "given": "Xiangxiang",
+          "family": "Zeng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/cdg359"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dasgupta B , Tiwari SP . Explicit versus implicit consideration of binding partners in protein– protein complex to elucidate intrinsic dynamics, Biophysical Reviews 2022:1–14.",
+          "DOI": "10.21203/rs.3.rs-2225606/v1"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1275",
+          "DOI": "10.1021/acs.jctc.1c00974",
+          "article-title": "Protein–protein interaction-gaussian accelerated molecular dynamics (PPI-GaMD): characterization of protein binding thermodynamics and kinetics",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2071",
+          "DOI": "10.1021/acs.jctc.8b01022",
+          "article-title": "Evaluation of predicted protein–protein complexes by binding free energy simulations",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.5",
+          "first-page": "4863",
+          "article-title": "Correction to Identifying and Overcoming the Sampling Challenges in Relative Binding Free Energy Calculations of a Model Protein: Protein Complex",
+          "volume": "19",
+          "year": "2024",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Evans R , O’Neill M , Pritzel A et al. Protein complex prediction with AlphaFold-Multimer , biorxiv 2021:2021.2010. 2004.463034.",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "6028",
+          "DOI": "10.1038/s41467-022-33729-4",
+          "article-title": "Predicting the structure of large protein complexes using AlphaFold and Monte Carlo tree search",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2009.02.008"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.9",
+          "first-page": "e1448",
+          "article-title": "Computational prediction of protein–protein binding affinities",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1200678109"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1728",
+          "DOI": "10.1038/s41467-022-29268-7",
+          "article-title": "Current progress and open challenges for applying deep learning across the biosciences",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "970109",
+          "DOI": "10.3389/fmolb.2022.970109",
+          "article-title": "A dynamical view of protein-protein complexes: Studies by molecular dynamics simulations",
+          "volume": "9",
+          "year": "2022",
+          "journal-title": "Frontiers in Molecular Biosciences"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw257"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1010124",
+          "DOI": "10.1371/journal.pcbi.1010124",
+          "article-title": "Induced fit with replica exchange improves protein complex structure prediction",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1707",
+          "DOI": "10.1042/BST20200193",
+          "article-title": "Computational methods for exploring protein conformations",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Biochemical Society Transactions"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "915",
+          "DOI": "10.1002/prot.26068",
+          "article-title": "Predicting new protein conformations from molecular dynamics simulation conformational landscapes and machine learning",
+          "volume": "89",
+          "year": "2021",
+          "journal-title": "Proteins: structure, function, and bioinformatics"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hunkler S , Diederichs K , Kukharenko O et al. Fast conformational clustering of extensive molecular dynamics simulation data, The Journal of chemical physics 2023;158.",
+          "DOI": "10.1063/5.0142797"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.20",
+          "first-page": "198",
+          "article-title": "An overview of the Amber biomolecular simulation package",
+          "volume": "3",
+          "year": "2013",
+          "journal-title": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20290"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.softx.2015.06.001"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005659",
+          "DOI": "10.1371/journal.pcbi.1005659",
+          "article-title": "OpenMM 7: Rapid development of high performance algorithms for molecular dynamics",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "1413",
+          "DOI": "10.1021/acs.jcim.2c01634",
+          "article-title": "Exploring and learning the universe of protein allostery using artificial intelligence augmented biophysical and computational approaches",
+          "volume": "63",
+          "year": "2023",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "4047",
+          "DOI": "10.3390/molecules28104047",
+          "article-title": "Machine Learning Generation of Dynamic Protein Conformational Ensembles",
+          "volume": "28",
+          "year": "2023",
+          "journal-title": "Molecules"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "5115",
+          "DOI": "10.1038/s41467-020-18959-8",
+          "article-title": "Learning molecular dynamics with simple language model built upon long short-term memory neural network",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "610",
+          "DOI": "10.1038/s42003-022-03562-y",
+          "article-title": "Artificial intelligence guided conformational mining of intrinsically disordered proteins",
+          "volume": "5",
+          "year": "2022",
+          "journal-title": "Communications biology"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.28",
+          "unstructured": "Tatro NJ , Das P , Chen P-Y , et al. ProGAE: A Geometric Autoencoder-Based Generative Model for Disentangling Protein Conformational Space 2020."
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "781635",
+          "DOI": "10.3389/fmolb.2021.781635",
+          "article-title": "Explore protein conformational space with variational autoencoder",
+          "volume": "8",
+          "year": "2021",
+          "journal-title": "Frontiers in Molecular Biosciences"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.30",
+          "first-page": "67",
+          "article-title": "LAST: Latent Space-Assisted Adaptive Sampling for Protein Trajectories",
+          "volume": "63",
+          "year": "2022",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.31",
+          "unstructured": "Schwing G , Palese LL , Fernández A , et al. Molecular dynamics without molecules: searching the conformational space of proteins with generative neural networks, arXiv preprint arXiv:2206.04683 2022."
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mansoor S , Baek M , Park H et al. Protein Ensemble Generation through Variational Autoencoder Latent Space Sampling, biorxiv 2023:2023.2008. 2001.551540.",
+          "DOI": "10.1101/2023.08.01.551540"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "774",
+          "DOI": "10.1038/s41467-023-36443-x",
+          "article-title": "Direct generation of protein conformational ensembles via machine learning",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.34",
+          "unstructured": "Lu J , Zhong B , Tang J. Score-based Enhanced Sampling for Protein Molecular Dynamics, arXiv preprint arXiv:2306.03117 2023."
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.35",
+          "unstructured": "Du Y , Meier J , Ma J et al. Energy-based models for atomic-resolution protein conformations, arXiv preprint arXiv:2004.13167 2020."
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.36",
+          "unstructured": "Zeng W , Cao S , Huang X et al. A note on learning rare events in molecular dynamics using lstm and transformer, arXiv preprint arXiv:2107.06573 2021."
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00196a004"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1077"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.40",
+          "unstructured": "Case DA , Aktulga HM , Belfon K , et al. Amber 2021. University of California, San Francisco, 2021."
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "3696",
+          "DOI": "10.1021/acs.jctc.5b00255",
+          "article-title": "ff14SB: improving the accuracy of protein side chain and backbone parameters from ff99SB",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.470117"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0021-9991(77)90098-5"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.45",
+          "unstructured": "Vaswani A , Shazeer N , Parmar N et al. Attention is all you need, Advances in neural information processing systems 2017;30."
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "1052",
+          "DOI": "10.1021/acsmedchemlett.1c00237",
+          "article-title": "Artificial Intelligence Deconstructs Drug Targeting In Vivo by Leveraging a Transformer Platform",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "ACS Medicinal Chemistry Letters"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1993.1626"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Webb B , Sali A . Comparative protein structure modeling using MODELLER, Current protocols in bioinformatics 2016;54:5.6. 1–5.6. 37.",
+          "DOI": "10.1002/cpbi.3"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0161879"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp023"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr168"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "300",
+          "DOI": "10.1038/s42256-022-00459-7",
+          "article-title": "A transformer-based model to predict peptide–HLA class I binding and optimize mutated peptides for vaccine design",
+          "volume": "4",
+          "year": "2022",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mao J , Wang J , Zeb A et al. Transformer-Based Molecular Generative Model for Antiviral Drug Design, Journal of chemical information and modeling 2023.",
+          "DOI": "10.1021/acs.jcim.3c00536"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang J , Mao J , Wang M et al. Explore drug-like space with deep generative models, Methods 2023.",
+          "DOI": "10.1016/j.ymeth.2023.01.004"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.55",
+          "unstructured": "Schrödinger L. The PyMOL molecular graphics system, version 1.8. November, 2015."
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbac524",
+          "DOI": "10.1093/bib/bbac524",
+          "article-title": "MARPPI: boosting prediction of protein–protein interactions with multi-scale architecture residual network",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "5961",
+          "DOI": "10.1021/acs.jcim.2c01092",
+          "article-title": "RGN: Residue-Based Graph Attention and Convolutional Network for Protein–Protein Interaction Site Prediction",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.58",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sun H , Wang J , Wu H et al. A Multimodal Deep Learning Framework for Predicting PPI-Modulator Interactions, Journal of chemical information and modeling 2023.",
+          "DOI": "10.1101/2023.08.03.551827"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.59",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang J , Chu Y , Mao J et al. De novo molecular design with deep molecular generative models for PPI inhibitors, Briefings in Bioinformatics 2022;23.",
+          "DOI": "10.1093/bib/bbac285"
+        },
+        {
+          "key": "2024022820051271000_2024.02.24.581708v1.60",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang J , Mao J , Li C et al. Interface-aware molecular generative framework for protein-protein interaction modulators, biorxiv 2023:2023.2010. 2010.557742.",
+          "DOI": "10.1101/2023.10.10.557742"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.02.24.581708",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:00:32Z",
+        "timestamp": 1768456832000
+      },
+      "score": 59.436695,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.02.24.581708"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            26
+          ]
+        ]
+      },
+      "references-count": 60,
+      "URL": "https://doi.org/10.1101/2024.02.24.581708",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jctc.4c00255",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

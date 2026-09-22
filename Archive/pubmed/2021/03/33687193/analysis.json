@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33687193",
+  "title": "Small-Molecule Targeted Abeta(42) Aggregate Degradation: Negatively Charged Small Molecules Are More Promising than the Neutral Ones.",
+  "authors": "Mei, Jinfei; Yang, Huijuan; Sun, Bo; Liu, Chengqiang; Ai, Hongqi",
+  "journal": "ACS chemical neuroscience",
+  "published_date": "2021-03-10",
+  "window": {
+    "start": "2021-03-08",
+    "end": "2021-03-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用分子动力学模拟研究带负电小分子与无序Aβ42寡聚体的结合及聚集抑制机制，对象为IDP且涉及互作机制，但互作对象是小分子而非蛋白-蛋白互作，方法为物理模拟，整体有启发但非PPI。",
+  "abstract": "Heavy evidence has confirmed that Abeta42 oligomers are the most neurotoxic aggregates and play a critical role in the occurrence and development of Alzheimer's disease by causing functional neuron death, cognitive damage, and dementia. Disordered Abeta42 oligomers are challenging therapeutic targets, and no drug is currently in clinical use that modifies the properties of their monomeric states. Here, a negatively charged molecule (ER), rather than the neutral TS1 one, is identified by a molecular dynamics simulation method to be more capable of binding and sequestering the intrinsically disordered amyloid-beta peptide Abeta42 in its soluble pentameric state as well as its monomeric components. Results reveal that the ERs interact with Abeta and inhibit the primary nucleation pathways in its aggregation process in entropic expansion mechanism for both Abeta42 and Abeta40 oligomers but with opposite characteristics of hydrophobic surface area (HSA). The interaction between Abeta42 oligomer and either charged ER or neutral TS1/TS0 characterizes decreased HSA, and the decrease in ER-involved case is highly visible, consistent with the observations from in silico and in vitro studies. By contrast, the presence of these inhibitors causes the HSA of Abeta40 oligomer to change undetectably and there is even a bit of increase in the histidine isomerized Abeta40 oligomer. The HSA distinction between Abeta42 and Abeta40 oligomer is possibly derived from the different effects of M35-inhibitor interaction, which is analogous to the effect of M35 oxidation. In comparison with the neutral TS1/TS0 inhibitors, ER is more prone to bind the residues located in the central (beta1) and C-terminal (beta2) regions of Abeta42 peptide, two key nucleation regions for Abeta intramolecular folding, intermolecular aggregation, and assembly. Notably, ER can strongly bind the charged residues, such as K16, K28, D23, to greatly disturb the potential stabilizer (e.g., salt-bridge, etc.) in metastable Abeta42 oligomers and protofibrils. These results illustrate the strategy of overcoming Alzheimer's disease from inhibiting its early stage Abeta aggregation with two kinds of small molecules to alter their behavior for therapeutic purposes and strongly recommend paying more attention to the engineering and development of negatively charged inhibitors, the long-term underappreciated ones, targeting the early stage Abeta aggregates.",
+  "abstract_zh": "大量证据已证实Abeta42寡聚体是最具神经毒性的聚集体，通过导致功能性神经元死亡、认知损伤和痴呆，在阿尔茨海默病的发生和发展中发挥关键作用。无序的Abeta42寡聚体是极具挑战性的治疗靶点，目前临床上尚无药物能改变其单体状态的性质。在此，通过分子动力学 (molecular dynamics) 模拟方法，鉴定出一种带负电的分子（ER），而非中性的TS1分子，更能结合并隔离 intrinsically disordered 的淀粉样蛋白肽Abeta42，包括其可溶性五聚体状态及其单体组分。结果表明，ERs与Abeta相互作用，并通过熵扩展机制抑制其聚集过程中的初级成核途径，对Abeta42和Abeta40寡聚体均适用，但两者的疏水表面积 (hydrophobic surface area, HSA) 特征相反。Abeta42寡聚体与带电ER或中性TS1/TS0的相互作用表现为HSA降低，且ER参与情况下的降低非常显著，这与计算机模拟和体外研究观察结果一致。相比之下，这些抑制剂的存在使Abeta40寡聚体的HSA变化不可检测，甚至在组氨酸异构化的Abeta40寡聚体中略有增加。Abeta42和Abeta40寡聚体之间的HSA差异可能源于M35-抑制剂相互作用的不同效应，这类似于M35氧化的效应。与中性TS1/TS0抑制剂相比，ER更倾向于结合Abeta42肽中央（beta1）和C端（beta2）区域的残基，这两个区域是Abeta分子内折叠、分子间聚集和组装的关键成核区域。值得注意的是，ER能强烈结合带电残基，如K16、K28、D23，从而极大干扰亚稳态Abeta42寡聚体和原纤维中潜在的稳定因子（如盐桥等）。这些结果阐明了通过两种小分子抑制Abeta早期聚集来克服阿尔茨海默病的策略，以改变其行为用于治疗目的，并强烈建议更多关注针对早期Abeta聚集体的带负电抑制剂（长期被低估的一类）的工程和开发。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33687193/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33687193/",
+  "paper_page_path": "papers/pubmed/33687193/index.html"
+}

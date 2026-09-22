@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42063817",
+  "title": "Mechanism of AF9 (MLLT3)-Partner Dissociation in Mixed-Lineage Leukemia-Rearranged Leukemia.",
+  "authors": "Sharma, Shilpa; Joshi, Keya; Saha, Arjun",
+  "journal": "JACS Au",
+  "published_date": "2026-05-01",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用PPI-GaMD模拟研究AF9（YEATS家族蛋白）与其伙伴肽段（DOT1L/CBX8/BCOR）的解离机制，虽对象非典型IDP，但聚焦PPI解离路径、中间态与自由能景观的机制建模，方法（增强采样MD）与互作机制深度契合课题，可迁移至IDR介导的互作研究。",
+  "abstract": "Chromosomal rearrangements involving the mixed-lineage leukemia (MLL) gene drive aggressive leukemias with a poor prognosis. AF9 (MLLT3), a YEATS family protein, is a core component of transcriptional and epigenetic regulatory complexes essential for hematopoietic stem cell maintenance. In MLL-rearranged leukemia, the MLL-AF9 fusion protein aberrantly recruits transcriptional and epigenetic modifiers, including DOT1L, BCOR, and CBX8, disrupting normal hematopoietic gene regulation. Despite the importance of these interactions, the molecular mechanisms underlying AF9-partner(s) binding and their dissociation remain unclear. Here, we employed Protein-Protein Interaction-Gaussian accelerated Molecular Dynamics (PPI-GaMD) simulations to probe the dissociation pathways of AF9-bound peptides. Free-energy landscapes revealed that the dissociation process proceeds in a stepwise manner through metastable intermediates. Dissociation predominantly occurred through channel 1, a broad electrostatically asymmetric face of AF9. Consistent with the experimental findings, DOT1L formed the most stable complex with AF9, followed by CBX8 and then BCOR. Distinct intermediate conformations and interaction patterns were observed for each partner, reflecting their differential binding stabilities. Partner release was primarily driven by electrostatic interactions, while metastable intermediates were stabilized by hydrophobic contacts. The extended hydrophobic surface of DOT1L accounted for its enhanced binding, evident from its dominant van der Waals contribution. Clustering analysis identified dominant intermediate conformations that highlight critical steps in peptide dissociation and provide structural templates for inhibitor design. These metastable states represent druggable conformations that can be leveraged in structure-based screening, offering a foundation for targeted therapies in MLL-rearranged leukemias.",
+  "abstract_zh": "涉及混合谱系白血病（MLL）基因的染色体重排驱动了预后不良的侵袭性白血病。AF9（MLLT3）是一种YEATS家族蛋白，是造血干细胞维持所必需的转录和表观遗传调控复合物的核心组分。在MLL重排白血病中，MLL-AF9融合蛋白异常招募转录和表观遗传修饰因子，包括DOT1L、BCOR和CBX8，从而扰乱正常的造血基因调控。尽管这些相互作用至关重要，但AF9-伙伴蛋白结合及其解离的分子机制仍不清楚。在此，我们采用蛋白质-蛋白质相互作用-高斯加速分子动力学（PPI-GaMD）模拟来探究AF9结合肽段的解离途径。自由能景观揭示了解离过程通过亚稳态中间体以逐步方式发生。解离主要通过通道1进行，该通道是AF9的一个宽大的静电不对称面。与实验结果一致，DOT1L与AF9形成最稳定的复合物，其次是CBX8，最后是BCOR。每个伙伴蛋白均观察到不同的中间构象和相互作用模式，反映了它们差异化的结合稳定性。伙伴释放主要由静电相互作用驱动，而亚稳态中间体则通过疏水接触得以稳定。DOT1L的扩展疏水表面解释了其增强的结合能力，这从其占主导地位的范德华贡献中显而易见。聚类分析识别出占主导地位的中间构象，这些构象突出了肽段解离中的关键步骤，并为抑制剂设计提供了结构模板。这些亚稳态代表可成药的构象，可用于基于结构的筛选，为MLL重排白血病的靶向治疗奠定基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42063817/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42063817/",
+  "paper_page_path": "papers/pubmed/42063817/index.html"
+}

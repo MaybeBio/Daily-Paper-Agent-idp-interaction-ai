@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35474477",
+  "title": "GraPES: The Granule Protein Enrichment Server for prediction of biological condensate constituents.",
+  "authors": "Kuechler, Erich R; Jacobson, Matthew; Mayor, Thibault; Gsponer, Jorg",
+  "journal": "Nucleic acids research",
+  "published_date": "2022-04-28",
+  "window": {
+    "start": "2022-04-25",
+    "end": "2022-05-01"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍预测蛋白进入生物凝聚体（如应激颗粒）倾向的在线服务器GraPES，基于实验特征或序列的机器学习模型，虽涉及相分离对象和预测方法，但聚焦于定位倾向而非PPI互作机制建模，故评5分。",
+  "abstract": "Phase separation-based condensate formation is a novel working paradigm in biology, helping to rationalize many important cellular phenomena including the assembly of membraneless organelles. Uncovering the functional impact of cellular condensates requires a better knowledge of these condensates' constituents. Herein, we introduce the webserver GraPES (Granule Protein Enrichment Server), a user-friendly online interface containing the MaGS and MaGSeq predictors, which provide propensity scores for proteins' localization into cellular condensates. Our webpage contains models trained on human (Homo sapiens) and yeast (Saccharomyces cerevisiae) stress granule proteins. MaGS utilizes experimentally-based protein features for prediction, whereas MaGSeq is an entirely protein sequence-based implementation. GraPES is implemented in HTML/CSS and Javascript and is freely available for public use at https://grapes.msl.ubc.ca/. Documentation for using the provided webtools, descriptions of their methodology, and implementation notes can be found on the webpage.",
+  "abstract_zh": "基于相分离的凝聚体形成是生物学中的一种新型工作范式，有助于合理化许多重要的细胞现象，包括无膜细胞器的组装。揭示细胞凝聚体的功能影响需要更好地了解这些凝聚体的组成成分。在此，我们介绍网络服务器GraPES（颗粒蛋白富集服务器），这是一个用户友好的在线界面，包含MaGS和MaGSeq预测器，为蛋白质在细胞凝聚体中的定位提供倾向性评分。我们的网页包含基于人类（Homo sapiens）和酵母（Saccharomyces cerevisiae）应激颗粒蛋白训练的模型。MaGS利用基于实验的蛋白质特征进行预测，而MaGSeq则完全是基于蛋白质序列的实现。GraPES采用HTML/CSS和Javascript实现，并免费供公众使用，网址为https://grapes.msl.ubc.ca/。关于使用所提供的网络工具、其方法描述及实现说明的文档可在网页上找到。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35474477/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35474477/",
+  "paper_page_path": "papers/pubmed/35474477/index.html"
+}

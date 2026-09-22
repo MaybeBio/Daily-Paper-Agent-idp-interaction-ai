@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "41528931",
+    "doi": "10.1021/acs.jcim.5c01585",
+    "title": "The Blobulator: A Toolkit for Identification and Visual Exploration of Hydrophobic Modularity in Protein Sequences."
+  },
+  "content": {
+    "abstract": "While contiguous subsequences of hydrophobic residues are essential to protein structure and function, as in the hydrophobic core and transmembrane regions, there are no current bioinformatics tools for module identification focused on hydrophobicity. To fill this gap, we created the blobulator toolkit for detecting, visualizing, and characterizing hydrophobic modules in protein sequences. This toolkit uses our previously developed algorithm, blobulation, which was critical in both interpreting intraprotein contacts in a series of intrinsically disordered protein simulations (Lohia et al., 2019) and defining the \"local context\" around disease-associated mutations across the human proteome (Lohia et al., 2022). The blobulator toolkit provides accessible, interactive, and scalable implementations of blobulation. These are available via a webtool, a visual molecular dynamics (VMD) plugin, and a command line interface. We highlight use cases for visualization, interaction analysis, and modular annotation through three example applications: a globular protein, two orthologous membrane proteins, and an intrinsically disordered protein. The blobulator webtool can be found at www.blobulator.branniganlab.org, and the source code with pip installable command line tool, as well as the VMD plugin with installation instructions, can be found on GitHub at www.GitHub.com/BranniganLab/blobulator.",
+    "keywords": [],
+    "mesh_terms": [
+      "Hydrophobic and Hydrophilic Interactions",
+      "Molecular Dynamics Simulation",
+      "*Proteins/chemistry",
+      "Humans",
+      "*Software",
+      "Amino Acid Sequence",
+      "Algorithms",
+      "*Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pitman, Connor",
+        "Santiago-McRae, Ezry",
+        "Lohia, Ruchi",
+        "Lamb, Ryan",
+        "Bassi, Kaitlin",
+        "Riggs, Lindsey",
+        "Joseph, Thomas T",
+        "Hansen, Matthew E B",
+        "Brannigan, Grace"
+      ],
+      "short_names": [
+        "Pitman C",
+        "Santiago-McRae E",
+        "Lohia R",
+        "Lamb R",
+        "Bassi K",
+        "Riggs L",
+        "Joseph TT",
+        "Hansen MEB",
+        "Brannigan G"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-5594-9906",
+        "ORCID: 0000-0002-0930-8277",
+        "ORCID: 0000-0003-1323-3244",
+        "ORCID: 0000-0001-8949-2694"
+      ],
+      "affiliations": [
+        "Center for Computational and Integrative Biology, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States.",
+        "Center for Computational and Integrative Biology, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States.",
+        "Department of Cancer Biology, Perelman School of Medicine, University of Pennsylvania, 3400 Civic Center Blvd, Philadelphia, Pennsylvania 19104, United States.",
+        "Center for Computational and Integrative Biology, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States.",
+        "Center for Computational and Integrative Biology, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States.",
+        "Center for Computational and Integrative Biology, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States.",
+        "Department of Anesthesiology and Critical Care, Perelman School of Medicine, University of Pennsylvania, JMB 305, 3620 Hamilton Walk, Philadelphia, Pennsylvania 19104, United States.",
+        "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, 3400 Civic Center Blvd, Philadelphia, Pennsylvania 19104, United States.",
+        "Center for Computational and Integrative Biology, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States.",
+        "Department of Physics, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pitman, Connor",
+        "short_name": "Pitman C",
+        "identifiers": [
+          "0009-0008-5594-9906"
+        ],
+        "affiliations": [
+          "Center for Computational and Integrative Biology, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States."
+        ]
+      },
+      {
+        "full_name": "Santiago-McRae, Ezry",
+        "short_name": "Santiago-McRae E",
+        "identifiers": [
+          "0000-0002-0930-8277"
+        ],
+        "affiliations": [
+          "Center for Computational and Integrative Biology, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States."
+        ]
+      },
+      {
+        "full_name": "Lohia, Ruchi",
+        "short_name": "Lohia R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Perelman School of Medicine, University of Pennsylvania, 3400 Civic Center Blvd, Philadelphia, Pennsylvania 19104, United States."
+        ]
+      },
+      {
+        "full_name": "Lamb, Ryan",
+        "short_name": "Lamb R",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational and Integrative Biology, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States."
+        ]
+      },
+      {
+        "full_name": "Bassi, Kaitlin",
+        "short_name": "Bassi K",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational and Integrative Biology, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States."
+        ]
+      },
+      {
+        "full_name": "Riggs, Lindsey",
+        "short_name": "Riggs L",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational and Integrative Biology, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States."
+        ]
+      },
+      {
+        "full_name": "Joseph, Thomas T",
+        "short_name": "Joseph TT",
+        "identifiers": [
+          "0000-0003-1323-3244"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology and Critical Care, Perelman School of Medicine, University of Pennsylvania, JMB 305, 3620 Hamilton Walk, Philadelphia, Pennsylvania 19104, United States."
+        ]
+      },
+      {
+        "full_name": "Hansen, Matthew E B",
+        "short_name": "Hansen MEB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, 3400 Civic Center Blvd, Philadelphia, Pennsylvania 19104, United States."
+        ]
+      },
+      {
+        "full_name": "Brannigan, Grace",
+        "short_name": "Brannigan G",
+        "identifiers": [
+          "0000-0001-8949-2694"
+        ],
+        "affiliations": [
+          "Center for Computational and Integrative Biology, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States.",
+          "Department of Physics, Rutgers University-Camden, 201 Broadway, Camden, New Jersey 08103, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 Jan 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/13 19:39",
+    "fetched_at": "2026-09-17 23:51:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40410405",
+      "38597606",
+      "37156916",
+      "35294280",
+      "35073170",
+      "34759384",
+      "34265844",
+      "34213528",
+      "34048569",
+      "33939695",
+      "31626641",
+      "31045208",
+      "30785653",
+      "28961944",
+      "28076807",
+      "27112573",
+      "25974172",
+      "25883141",
+      "25391399",
+      "24848016",
+      "24573479",
+      "23901099",
+      "23748958",
+      "22877863",
+      "22368248",
+      "21606332",
+      "19785006",
+      "18483082",
+      "15980571",
+      "15264254",
+      "15111065",
+      "15073023",
+      "14604535",
+      "11025552",
+      "10869041",
+      "10827456",
+      "8744570",
+      "8266098",
+      "7831309",
+      "7108955",
+      "3118211"
+    ],
+    "similar": [
+      "41528931",
+      "38293114",
+      "23912807",
+      "38870521",
+      "30943891",
+      "38039154",
+      "40835585",
+      "39954779",
+      "29501620",
+      "25886981",
+      "25505095",
+      "16618368",
+      "20667087",
+      "39494269",
+      "21789164",
+      "33972018",
+      "40133791",
+      "34019657",
+      "16914055",
+      "38032878",
+      "18831799",
+      "27498593",
+      "31073595",
+      "22368248",
+      "18831774",
+      "24702124",
+      "9514245",
+      "34473083",
+      "24451625",
+      "41055109",
+      "23469223",
+      "42015584",
+      "25228146",
+      "15780146",
+      "15694009",
+      "16842115",
+      "40258031",
+      "29228340",
+      "32352283",
+      "41766583",
+      "34671776",
+      "38079339",
+      "11316883",
+      "38060268",
+      "15655071",
+      "16817972",
+      "41352986",
+      "29499649",
+      "17299747",
+      "24162465",
+      "41462075",
+      "19085979",
+      "20544969",
+      "37594311",
+      "12369918",
+      "29258817",
+      "28387819",
+      "18928200",
+      "32522662",
+      "24130469",
+      "40689530",
+      "15980521",
+      "40804367",
+      "20007729",
+      "39361452",
+      "28155647",
+      "31086982",
+      "38757367",
+      "22183548",
+      "31836830",
+      "38048333",
+      "35696075",
+      "27914057",
+      "23031578",
+      "16845021",
+      "19875862",
+      "29360926",
+      "25637562",
+      "23354819",
+      "40133790",
+      "39725270",
+      "25736992",
+      "32696351",
+      "41633121",
+      "28934129",
+      "35143215",
+      "15073001",
+      "24849801",
+      "35469832",
+      "41992497",
+      "40650026",
+      "41460487",
+      "15850477",
+      "39894387",
+      "21923943",
+      "33289896",
+      "27556805",
+      "34651333",
+      "29042212",
+      "20518733"
+    ],
+    "review": [
+      "41528931",
+      "12369918",
+      "20007729"
+    ],
+    "pmc": [
+      "12848970"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41528931/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01585",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40646517",
+  "title": "WDR3 undergoes phase separation to mediate the therapeutic mechanism of Nilotinib against osteosarcoma.",
+  "authors": "Li, Minglei; Li, Nan; Fan, Yuying; Zhang, Zhan; Zhou, Long; Yu, Yifan; Ni, Man; Tan, Mingzi; Huang, WanJie; Zhu, Tong",
+  "journal": "Journal of experimental & clinical cancer research : CR",
+  "published_date": "2025-07-12",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过分子对接和实验验证WDR3的IDR介导相分离，并探讨Nilotinib通过调控WDR3凝聚体治疗骨肉瘤的机制，涉及IDR-相分离-药物互作，但PPI机制建模深度有限。",
+  "abstract": "BACKGROUND: Osteosarcoma is highly invasive with a poor prognosis. The phenomenon of liquid-liquid phase separation (LLPS) can promote the formation of biomolecules and participate in the tumor regulation mechanism. Therefore, mining prognostic markers related to LLPS could allow patients to benefit from targeted therapies. METHOD: Microarray analysis was performed to identify LLPS-related biomarkers, followed by the validation of binding interactions between genes and drugs via molecular docking analysis. Functions of key genes were investigated in U2-OS cells and xenograft mice. LLPS of WDR3 were observed by the droplet formation assay and fluorescence recovery after photobleaching. The intrinsically disordered region (IDR) of WDR3 was mutated to disrupt LLPS, which was then rescued by the fusion of hnRNAP1 IDR. Therapeutic mechanism of Nilotinib mediated by LLPS was explored in vitro and in vivo. RESULTS: Five LLPS-related biomarkers were screened by bioinformatics analyses to predict the osteosarcoma prognosis. These prognostic genes were significantly associated with the immune cell infiltration, tumor immune escape and drug sensitivity. Among them, WDR3 was a prognostic risk factor for osteosarcoma and stably bound to Nilotinib in the molecular docking model. In transfected U2-OS cells and xenograft mice, the downregulation of WDR3 significantly inhibited the malignant progression of osteosarcoma. More importantly, WDR3 could form droplets in U2-OS cells and restore the fluorescence intensity of WDR3 condensates with liquid-like behavior after photobleaching. The mutation in IDR impaired the phase separation ability of WDR3, whereas the fusion with hnRNAP1 IDR rescued the phase separation abnormality caused by WDR3 mutation. Moreover, the treatment with Nilotinib improved the progression of osteosarcoma in vivo and in vitro, while inhibiting the production of WDR3 phase-separated condensates. CONCLUSION: WDR3 phase separation involves in the therapeutic mechanism of Nilotinib against osteosarcoma, and thus may serve as a potent biomarker to ameliorate adverse events following osteosarcoma treatment.",
+  "abstract_zh": "背景：骨肉瘤具有高度侵袭性，预后不良。液-液相分离（liquid-liquid phase separation, LLPS）现象可促进生物分子形成并参与肿瘤调控机制。因此，挖掘与LLPS相关的预后标志物可使患者受益于靶向治疗。方法：通过微阵列分析鉴定LLPS相关生物标志物，随后利用分子对接分析验证基因与药物之间的结合相互作用。在U2-OS细胞和异种移植小鼠中研究关键基因的功能。通过液滴形成实验和光漂白后荧光恢复观察WDR3的LLPS。对WDR3的内在无序区域（intrinsically disordered region, IDR）进行突变以破坏LLPS，随后通过融合hnRNAP1 IDR进行恢复。在体外和体内探讨尼洛替尼（Nilotinib）由LLPS介导的治疗机制。结果：通过生物信息学分析筛选出五个LLPS相关生物标志物以预测骨肉瘤预后。这些预后基因与免疫细胞浸润、肿瘤免疫逃逸和药物敏感性显著相关。其中，WDR3是骨肉瘤的预后风险因素，并在分子对接模型中稳定结合尼洛替尼。在转染的U2-OS细胞和异种移植小鼠中，WDR3的下调显著抑制骨肉瘤的恶性进展。更重要的是，WDR3能在U2-OS细胞中形成液滴，并在光漂白后恢复WDR3凝聚体的荧光强度，表现出液体样行为。IDR突变损害了WDR3的相分离能力，而融合hnRNAP1 IDR则恢复了由WDR3突变引起的相分离异常。此外，尼洛替尼治疗在体内和体外改善了骨肉瘤的进展，同时抑制了WDR3相分离凝聚体的产生。结论：WDR3相分离参与尼洛替尼抗骨肉瘤的治疗机制，因此可能作为有效生物标志物以改善骨肉瘤治疗后的不良事件。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40646517/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40646517/",
+  "paper_page_path": "papers/pubmed/40646517/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.17.643830",
+  "title": "Ultimate paths of least resistance: Intrinsically disordered links as developmental resets in regulatory protein networks",
+  "authors": "Alexander V. Badyaev; Carmen Sánchez Moreno; Cody A. Lee; Sarah E. Britton; Laurel M. Johnstone; Renée A. Duckworth",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-18",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究无序蛋白通过剂量依赖性结合可塑性在调控网络中作为发育重置机制，涉及IDP介导的蛋白互作与网络演化，但方法上以比较分析和实验为主，缺乏AI或物理模拟建模，故评7分。",
+  "abstract": "Development and evolution require both stability and adaptability, yet how these opposite properties are reconciled is unclear. Here, we show that intrinsically disordered proteins (IDPs) act as reset mechanisms in conserved regulatory networks facilitating developmental transitions by integrating physical processes with genetic regulation. By tracing the ontogeny of mesenchymal cells in avian beak primordia, we demonstrate that mechanosensitive IDPs mediate shifts between physical cell states via dosage-dependent binding plasticity, converting stochastic protein variation into discreet regulatory networks. The disorder-enabled connectivity in these proteins resets their regulatory specialization and promotes population divergence. Comparative analyses across avian proteomes confirm that binding plasticity in transcriptional IDPs drives their diverse regulatory associations and accelerates their evolution. By resetting specialized states in conserved regulatory networks, IDPs flexibly regulate developmental pathways and reconcile precision with evolvability.",
+  "abstract_zh": "发育与进化既需要稳定性也需要适应性，然而这些相反特性如何被调和尚不清楚。在此，我们表明，固有无序蛋白（IDPs）在保守调控网络中充当重置机制，通过整合物理过程与遗传调控促进发育转变。通过追踪鸟类喙原基中间充质细胞的个体发生，我们证明机械敏感型IDPs通过剂量依赖性结合可塑性介导物理细胞状态之间的转换，将随机蛋白质变异转化为离散调控网络。这些蛋白质中由无序性启用的连接性重置其调控特化并促进种群分化。跨鸟类蛋白质组的比较分析确认，转录性IDPs中的结合可塑性驱动其多样化的调控关联并加速其进化。通过重置保守调控网络中的特化状态，IDPs灵活调控发育途径，并调和精确性与可进化性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643830",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643830",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.17.643830/index.html"
+}

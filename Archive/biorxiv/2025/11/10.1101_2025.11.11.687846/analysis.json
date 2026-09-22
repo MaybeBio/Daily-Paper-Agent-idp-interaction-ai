@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.11.687846",
+  "title": "Harnessing protein-folding algorithms to drug intrinsically disordered epitopes",
+  "authors": "Jakub Lála; Stefano Angioletti-Uberti",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-13",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 9,
+  "one_liner_zh": "该文利用蛋白质折叠算法与蒙特卡洛优化管线设计肽类结合物，靶向无序蛋白表位并通过诱导折叠实现强结合，结合自由能计算与分子模拟揭示结合机制，完美契合无序蛋白PPI的AI/物理建模主题。",
+  "abstract": "Due to their lack of a specific structure and dynamical nature, targeting of epitopes that are part of an intrinsically disordered region of a protein is a notoriously difficult task. Here, we describe a computational approach to overcome this problem, based on the use of a protein-folding algorithm and its confidence metrics within a Monte Carlo optimization pipeline to generate peptide-based binders. For different protein targets, we show by accurate free energy calculations that our approach is able to design peptides with binding free energies on the order of tens of k B T , i.e., with strengths comparable to covalent interactions. Direct observation of the bound complex through molecular simulations shows that the targeted epitope folds into structured domains with lowered thermal fluctuations upon binding, while remaining unstructured and dynamic in the unbound state, suggesting that the protein-folding algorithm must have learned the principles of induced (co-)folding. Given the ubiquitous presence of unstructured regions in proteins, our results suggest a potential pathway to design drugs targeting a large variety of previously untargetable epitopes, and open new possibilities for therapeutic intervention in diseases where disordered proteins play a key role. I SIGNIFICANCE Small-molecule drugs that bind to a protein via a lock-and-key mechanism require the targeted epitope to form a well-structured, stable binding pocket, thereby preventing binding to unstructured regions. To overcome this limit, we present a general approach, based on a protein-folding algorithm, to find peptide sequences that induce the formation of such a binding interface when no pocket is normally present. In other words, we show how a protein-folding algorithm can be used to program epitope recognition by induced folding instead of rigid lock-and-key matching. In this way, we show that we can extend druggable epitopes to intrinsically disordered, dynamical regions of proteins.",
+  "abstract_zh": "由于蛋白质中 intrinsically disordered regions（内在无序区域）缺乏特定结构且具有动态性质，靶向该区域内的表位是一项公认的难题。在此，我们描述了一种基于蛋白质折叠算法及其置信度指标的计算方法，在蒙特卡洛优化流程中生成基于肽的结合剂，以克服这一问题。针对不同的蛋白质靶标，我们通过精确的自由能计算表明，该方法能够设计出结合自由能约为数十 k B T 的肽，即其强度可与共价相互作用相媲美。通过分子模拟直接观察结合复合物显示，靶向表位在结合时折叠成结构域，热波动降低，而在未结合状态下保持无序和动态，这表明蛋白质折叠算法必然已学习到诱导（共）折叠的原理。鉴于蛋白质中无序区域的普遍存在，我们的结果为设计针对大量先前不可靶向表位的药物提供了潜在途径，并为无序蛋白质起关键作用的疾病开辟了治疗干预的新可能性。 I 意义 通过锁钥机制结合蛋白质的小分子药物要求靶向表位形成结构良好、稳定的结合口袋，从而阻止与无序区域的结合。为克服这一限制，我们提出了一种基于蛋白质折叠算法的通用方法，以寻找在通常不存在口袋时诱导此类结合界面形成的肽序列。换言之，我们展示了如何利用蛋白质折叠算法，通过诱导折叠而非刚性锁钥匹配来编程表位识别。通过这种方式，我们证明可以将可成药表位扩展到蛋白质的内在无序、动态区域。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.11.687846",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.11.687846",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.11.687846/index.html"
+}

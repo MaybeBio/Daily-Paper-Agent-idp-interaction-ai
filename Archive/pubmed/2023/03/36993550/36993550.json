@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "36993550",
+    "doi": "10.1101/2023.02.11.528154",
+    "title": "Reduction of oligomer size modulates the competition between cluster formation and phase separation of the tumor suppressor SPOP."
+  },
+  "content": {
+    "abstract": "Phase separation is a ubiquitous process that compartmentalizes many cellular pathways. Given that the same interactions that drive phase separation mediate the formation of complexes below the saturation concentration, the contribution of condensates vs complexes to function is not always clear. Here, we characterized several new cancer-associated mutations of the tumor suppressor Speckle-type POZ protein (SPOP), a substrate recognition subunit of the Cullin3-RING ubiquitin ligase (CRL3), which pointed to a strategy for generating separation-of-function mutations. SPOP self-associates into linear oligomers and interacts with multivalent substrates, and this mediates the formation of condensates. These condensates bear the hallmarks of enzymatic ubiquitination activity. We characterized the effect of mutations in the dimerization domains of SPOP on its linear oligomerization, binding to the substrate DAXX, and phase separation with DAXX. We showed that the mutations reduce SPOP oligomerization and shift the size distribution of SPOP oligomers to smaller sizes. The mutations therefore reduce the binding affinity to DAXX, but enhance the poly-ubiquitination activity of SPOP towards DAXX. This unexpectedly enhanced activity may be explained by enhanced phase separation of DAXX with the SPOP mutants. Our results provide a comparative assessment of the functional role of clusters versus condensates and support a model in which phase separation is an important factor in SPOP function. Our findings also suggest that tuning of linear SPOP self-association could be used by the cell to modulate its activity, and provide insights into the mechanisms underlying hypermorphic SPOP mutations. The characteristics of these cancer-associated SPOP mutations suggest a route for designing separation-of-function mutations in other phase-separating systems.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sabri, Nafiseh",
+        "Cuneo, Matthew J",
+        "Marzahn, Melissa R",
+        "Lee, Jihun",
+        "Bouchard, Jill J",
+        "Vaithiyalingam, Sivaraja",
+        "Borgia, Madeleine B",
+        "Schmit, Jeremy",
+        "Mittag, Tanja"
+      ],
+      "short_names": [
+        "Sabri N",
+        "Cuneo MJ",
+        "Marzahn MR",
+        "Lee J",
+        "Bouchard JJ",
+        "Vaithiyalingam S",
+        "Borgia MB",
+        "Schmit J",
+        "Mittag T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA.",
+        "Current address: Burnett School of Biomedical Sciences, University of Central Florida, Orlando, FL, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA.",
+        "Current address: Celltrion, South Korea.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA.",
+        "Current address: Dewpoint Therapeutics, Boston, MA 02210, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA.",
+        "Department of Physics, Kansas State University, Manhattan, Kansas 66506, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sabri, Nafiseh",
+        "short_name": "Sabri N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA."
+        ]
+      },
+      {
+        "full_name": "Cuneo, Matthew J",
+        "short_name": "Cuneo MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA."
+        ]
+      },
+      {
+        "full_name": "Marzahn, Melissa R",
+        "short_name": "Marzahn MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA.",
+          "Current address: Burnett School of Biomedical Sciences, University of Central Florida, Orlando, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Jihun",
+        "short_name": "Lee J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA.",
+          "Current address: Celltrion, South Korea."
+        ]
+      },
+      {
+        "full_name": "Bouchard, Jill J",
+        "short_name": "Bouchard JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA.",
+          "Current address: Dewpoint Therapeutics, Boston, MA 02210, USA."
+        ]
+      },
+      {
+        "full_name": "Vaithiyalingam, Sivaraja",
+        "short_name": "Vaithiyalingam S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA."
+        ]
+      },
+      {
+        "full_name": "Borgia, Madeleine B",
+        "short_name": "Borgia MB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA."
+        ]
+      },
+      {
+        "full_name": "Schmit, Jeremy",
+        "short_name": "Schmit J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Kansas State University, Manhattan, Kansas 66506, USA."
+        ]
+      },
+      {
+        "full_name": "Mittag, Tanja",
+        "short_name": "Mittag T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38103, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Mar 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/31 06:00",
+    "fetched_at": "2026-09-20 20:44:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "36993550",
+      "37926283",
+      "30244836",
+      "36693379",
+      "27220849",
+      "35364375",
+      "16524876",
+      "31495053",
+      "31845799",
+      "36856266",
+      "26475525",
+      "23559371",
+      "23999291",
+      "33894201",
+      "35438056",
+      "28216678",
+      "38352842",
+      "36585710",
+      "26693071",
+      "36512624",
+      "25766326",
+      "34353330",
+      "24990631",
+      "35252555",
+      "31776466",
+      "32266086",
+      "29128526",
+      "36868187",
+      "28414305",
+      "15240113",
+      "33209975",
+      "36791496",
+      "38008278",
+      "18218622",
+      "36360288",
+      "31901237",
+      "28805821",
+      "28448495",
+      "33023230",
+      "36604567",
+      "34599168",
+      "38409107",
+      "37996058",
+      "27780719",
+      "33862460",
+      "29996942",
+      "34133717",
+      "28599312",
+      "37373284",
+      "37677121",
+      "29262542",
+      "29777712",
+      "37581614",
+      "33762355",
+      "30955223",
+      "32460168",
+      "21577200",
+      "30271484",
+      "38029910",
+      "34395437",
+      "18414007",
+      "37904149",
+      "36115849",
+      "36474188",
+      "34987184",
+      "25274033",
+      "28810879",
+      "31624231",
+      "30882175",
+      "29546395",
+      "38559018",
+      "37442135",
+      "34021128",
+      "25278611",
+      "35773729",
+      "24845504",
+      "32905556",
+      "28805822",
+      "32355326",
+      "25058385",
+      "22632832",
+      "26156804",
+      "35194188",
+      "31911863",
+      "34322378",
+      "36574656",
+      "24451148",
+      "28927035",
+      "31967940",
+      "38018242",
+      "30607139",
+      "28412462",
+      "28805820",
+      "33069770",
+      "30595538",
+      "23216165",
+      "31350900",
+      "38262618",
+      "38328089"
+    ],
+    "review": [
+      "36993550",
+      "35364375",
+      "31495053",
+      "36512624",
+      "32266086",
+      "29128526",
+      "36360288",
+      "31901237",
+      "33023230",
+      "30271484",
+      "34395437",
+      "32355326",
+      "25058385"
+    ],
+    "pmc": [
+      "10054981"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36993550/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36993550",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.02.11.528154",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

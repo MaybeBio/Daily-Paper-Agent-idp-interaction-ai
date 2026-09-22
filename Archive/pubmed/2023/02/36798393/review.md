@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors benchmark nine molecular dynamics force fields for all-atom simulations of the Fused in sarcoma (FUS) protein, a model for biological condensates. They report that five-microsecond simulations of full-length FUS, evaluated against dynamic light scattering data for radius of gyration, identify several force fields producing conformations within experimental range. Ten-microsecond simulations of two RNA binding domains bound to RNA targets show force field dependent complex stability. The authors conclude that a combination of protein and RNA force fields sharing a common four-point water model is optimal, and they validate implementation of the best performing force fields in NAMD for large condensate simulations.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameter details, experimental comparison data, NAMD implementation validation results, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a timely and potentially valuable benchmarking study addressing a critical gap in the simulation of biological condensates. The use of Anton 2 for extended simulations and the extension to NAMD for broader accessibility are commendable. However, the abstract alone provides insufficient quantitative evidence to evaluate the robustness of the conclusions. The claim that a common four-point water model is optimal is plausible but not substantiated with specific data. The NAMD implementation claim requires detailed validation that is not visible here. The study's significance is clear, but the evidence base is too limited for a definitive assessment.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular dynamics practitioners studying intrinsically disordered proteins and phase separation would find the force field benchmarks directly useful. Experimental biologists investigating condensate biology, particularly in the context of neurodegenerative diseases, would benefit from guidance on simulation reliability. Developers of molecular dynamics software and force field parameter sets would be interested in the comparative performance data. The NAMD implementation extends relevance to a broader community of users without access to Anton 2.
+- **Major strengths** The study addresses a well defined and important problem, namely force field accuracy for proteins with both disordered and structured regions. The use of a full length disease relevant protein, FUS, enhances biological relevance. The benchmarking against experimental dynamic light scattering data provides an objective reference. The inclusion of RNA protein interactions extends the scope beyond single protein behavior. The effort to port validated force fields to a widely accessible program, NAMD, addresses a practical barrier in the field.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that several force fields produced FUS conformations within the experimental range of radius of gyration, and that a combination of protein and RNA force fields sharing a common four point water model provides an optimal description.  
+  - **Evidence pointer** Abstract, results section not provided  
+  - **Concern** The abstract provides no quantitative values for radius of gyration, no comparison statistics, no error estimates, and no explicit list of which force fields performed well or poorly. The conclusion about the optimal water model is stated without supporting data.  
+  - **Why it matters** Without specific numbers, statistical measures, and force field identities, the reader cannot assess the magnitude of differences between force fields or the confidence in the ranking. The central recommendation is therefore not verifiable from the provided material.  
+  - **Resolution test** Provide a table or figure listing radius of gyration values with uncertainties for each force field, the experimental range, and a statistical comparison. Specify which force fields fall within the experimental range and quantify the differences.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical validation  
+  - **Claim pointer** The abstract claims that the best performing force fields were implemented in NAMD and validated, enabling simulations of large condensate systems.  
+  - **Evidence pointer** Abstract, NAMD implementation section not provided  
+  - **Concern** No details are given on the validation criteria, the system size tested, the comparison against Anton 2 results, or the performance benchmarks. The claim of enabling tens of millions of atom simulations is unsupported without evidence of scalability and accuracy.  
+  - **Why it matters** The NAMD implementation is a key deliverable for community accessibility. If the validation is incomplete or the performance is not demonstrated, the practical utility of the work is substantially weakened.  
+  - **Resolution test** Provide validation data showing that NAMD simulations reproduce Anton 2 results for the same systems, including structural observables and dynamics. Include system size, simulation length, and computational performance metrics.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scope of conclusions  
+  - **Claim pointer** The abstract concludes that a combination of protein and RNA force fields sharing a common four point water model provides an optimal description of proteins containing both disordered and structured regions and RNA protein interactions.  
+  - **Evidence pointer** Abstract, results section not provided  
+  - **Concern** The conclusion is based on simulations of a single protein, FUS, and two RNA binding domains. The generality of the claim to other proteins and condensate systems is not established.  
+  - **Why it matters** Overgeneralization from a single system could mislead other researchers applying these force fields to different proteins. The claim should be framed as specific to FUS or supported by additional test cases.  
+  - **Resolution test** Either limit the conclusion to FUS and its RNA complexes, or provide additional benchmarking on at least one other protein with disordered and structured regions.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract, force field enumeration  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states that nine force fields were benchmarked but does not name them.  
+  - **Required correction** List the nine force fields explicitly in the abstract or refer to a table in the full text.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Abstract, simulation protocol  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** No information is given on temperature, pressure, salt concentration, or other simulation conditions that could affect force field performance.  
+  - **Required correction** Include key simulation conditions in the abstract or state that they are detailed in the methods.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Abstract, diffusion constant measurement  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The diffusion constant is mentioned as a characterized property, but its relevance to the force field assessment is not explained.  
+  - **Required correction** Clarify how the diffusion constant informs the force field evaluation, for example, whether it is compared to experimental values.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and NAMD validation data means the core claims cannot be assessed. R1-M3 is non blocking but requires reframing or additional evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The study addresses a recognized need but is not conceptually novel; benchmarking studies are common. The specific focus on FUS and the combination of protein and RNA force fields adds some originality.  
+  - Scientific importance: High, given the relevance to condensate biology and neurodegenerative disease. Reliable force fields are a bottleneck for the field.  
+  - Interdisciplinary readership: Moderate. The work will appeal to computational and experimental biophysicists, but the technical nature may limit broader readership.  
+  - Technical soundness: Cannot be fully assessed from the abstract. The use of Anton 2 and comparison to experimental data are positive, but the lack of quantitative evidence prevents verification.  
+  - Readability for nonspecialists: The abstract is generally clear, but terms like four point water model and force field combinations may require background knowledge.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The study has clear value, but the abstract alone does not establish the case. Full quantitative results and NAMD validation are required.
+
+## Risk / unsupported claims
+- The claim that several force fields produced FUS conformations within the experimental range is unsupported without specific values and statistical comparisons.
+- The claim that a combination of protein and RNA force fields sharing a common four point water model is optimal is unsupported without comparative data.
+- The claim that the NAMD implementation enables simulations of tens of millions of atoms is unsupported without performance and validation evidence.
+- The generalizability of the conclusions to other proteins and condensate systems is not supported by the provided material.

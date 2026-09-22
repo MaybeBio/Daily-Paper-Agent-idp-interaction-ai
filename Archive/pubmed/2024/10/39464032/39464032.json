@@ -1,0 +1,453 @@
+{
+  "identity": {
+    "pmid": "39464032",
+    "doi": "10.1101/2024.10.17.618867",
+    "title": "Phosphorylation Toggles the SARS-CoV-2 Nucleocapsid Protein Between Two Membrane-Associated Condensate States."
+  },
+  "content": {
+    "abstract": "The Nucleocapsid protein (N) of SARS-CoV-2 plays a critical role in the viral lifecycle by regulating RNA replication and packaging the viral genome. N and RNA phase separate to form condensates that may be important for these functions. Both functions occur at membrane surfaces, but how N toggles between these two membrane-associated functional states is unclear. Here, we reveal that phosphorylation switches how N condensates interact with membranes, partly by modulating condensate material properties. Phosphorylated N forms liquid condensates that wet membranes, reminiscent of N's role in RNA replication. In contrast, unmodified N forms viscoelastic condensates that can be engulfed by membranes, evoking viral genome packaging. These results suggest that phosphorylation serves as a regulatory switch within the viral replication cycle by modulating N's association with membranes. We gained mechanistic insight through structural analysis and molecular simulations, which suggest phosphorylation induces a conformational change that softens condensate material properties. Our studies also show that phosphorylation alters N's interaction with viral membrane proteins. Together, our findings uncover a novel aspect of SARS-CoV-2 biology by identifying membrane association as a key feature of N condensates and providing mechanistic insights into the regulatory role of phosphorylation. Understanding this mechanism suggests potential therapeutic targets for COVID infection.",
+    "keywords": [
+      "SARS-CoV-2",
+      "liquid-liquid phase separation (LLPS)",
+      "material properties",
+      "membrane interaction",
+      "phosphorylation",
+      "protein-RNA interactions"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Favetta, Bruna",
+        "Wang, Huan",
+        "Cubuk, Jasmine",
+        "Singh, Arjun",
+        "Barai, Mayur",
+        "Ramirez, Cesar",
+        "Gormley, Adam J",
+        "Murthy, Sanjeeva",
+        "Dignon, Gregory",
+        "Soranno, Andrea",
+        "Shi, Zheng",
+        "Schuster, Benjamin S"
+      ],
+      "short_names": [
+        "Favetta B",
+        "Wang H",
+        "Cubuk J",
+        "Singh A",
+        "Barai M",
+        "Ramirez C",
+        "Gormley AJ",
+        "Murthy S",
+        "Dignon G",
+        "Soranno A",
+        "Shi Z",
+        "Schuster BS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3613-1665",
+        "ORCID: 0000-0001-6915-8242",
+        "ORCID: 0009-0002-1022-3999",
+        "ORCID: 0000-0002-2884-725X",
+        "ORCID: 0000-0002-2324-5874",
+        "ORCID: 0000-0001-8394-7993",
+        "ORCID: 0000-0002-5214-1871",
+        "ORCID: 0000-0002-6468-8081"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemistry and Chemical Biology, Rutgers, The State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, St. Louis, MO 63110.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Biomedical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Biomedical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemistry and Chemical Biology, Rutgers, The State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, St. Louis, MO 63110.",
+        "Department of Chemistry and Chemical Biology, Rutgers, The State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Favetta, Bruna",
+        "short_name": "Favetta B",
+        "identifiers": [
+          "0000-0002-3613-1665"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Wang, Huan",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Rutgers, The State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Cubuk, Jasmine",
+        "short_name": "Cubuk J",
+        "identifiers": [
+          "0000-0001-6915-8242"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, St. Louis, MO 63110."
+        ]
+      },
+      {
+        "full_name": "Singh, Arjun",
+        "short_name": "Singh A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Barai, Mayur",
+        "short_name": "Barai M",
+        "identifiers": [
+          "0009-0002-1022-3999"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Ramirez, Cesar",
+        "short_name": "Ramirez C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Gormley, Adam J",
+        "short_name": "Gormley AJ",
+        "identifiers": [
+          "0000-0002-2884-725X"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Murthy, Sanjeeva",
+        "short_name": "Murthy S",
+        "identifiers": [
+          "0000-0002-2324-5874"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Rutgers, The State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Dignon, Gregory",
+        "short_name": "Dignon G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Soranno, Andrea",
+        "short_name": "Soranno A",
+        "identifiers": [
+          "0000-0001-8394-7993"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, St. Louis, MO 63110."
+        ]
+      },
+      {
+        "full_name": "Shi, Zheng",
+        "short_name": "Shi Z",
+        "identifiers": [
+          "0000-0002-5214-1871"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Rutgers, The State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Schuster, Benjamin S",
+        "short_name": "Schuster BS",
+        "identifiers": [
+          "0000-0002-6468-8081"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jun 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/28 10:51",
+    "fetched_at": "2026-09-21 12:02:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40881353",
+      "40113768",
+      "39571001",
+      "39412378",
+      "39093972",
+      "38718862",
+      "38153183",
+      "38036567",
+      "37791874",
+      "37789618",
+      "37286558",
+      "37217523",
+      "36806252",
+      "36614163",
+      "36560790",
+      "36533523",
+      "36427566",
+      "36282911",
+      "36247368",
+      "36202211",
+      "36183447",
+      "36163138",
+      "35975692",
+      "35931673",
+      "35871289",
+      "35674796",
+      "35551296",
+      "35436499",
+      "35378855",
+      "35338134",
+      "35245500",
+      "35093569",
+      "34995113",
+      "34928612",
+      "34785657",
+      "34593624",
+      "34239064",
+      "34107023",
+      "34095780",
+      "33934416",
+      "33837182",
+      "33782395",
+      "33711082",
+      "33688043",
+      "33650968",
+      "33556408",
+      "33479198",
+      "33473217",
+      "33453268",
+      "33290746",
+      "33248025",
+      "33247108",
+      "33208793",
+      "33200826",
+      "32901111",
+      "32829876",
+      "32763915",
+      "32654247",
+      "32645325",
+      "32632317",
+      "32416961",
+      "32330414",
+      "32201497",
+      "31995729",
+      "29650703",
+      "29364893",
+      "28746339",
+      "26328871",
+      "26320411",
+      "25299332",
+      "25105276",
+      "24203322",
+      "23760243",
+      "22115189",
+      "20739524",
+      "20660183",
+      "19106108",
+      "18631359",
+      "18576630",
+      "18083189",
+      "15351485",
+      "9218955",
+      "6196910",
+      "1674698",
+      "1420991"
+    ],
+    "similar": [
+      "39464032",
+      "40858555",
+      "33248025",
+      "38718862",
+      "33479198",
+      "33247108",
+      "32587965",
+      "34159327",
+      "34634033",
+      "32766587",
+      "32995779",
+      "32637943",
+      "39684875",
+      "36040256",
+      "37963251",
+      "40107650",
+      "36640305",
+      "40375582",
+      "39343003",
+      "38645044",
+      "32562316",
+      "40086356",
+      "38568799",
+      "33290746",
+      "35547851",
+      "38376366",
+      "39341499",
+      "36202211",
+      "33081049",
+      "36795767",
+      "39763812",
+      "37286558",
+      "39343000",
+      "39201466",
+      "33200826",
+      "38177504",
+      "40470224",
+      "37211575",
+      "35131265",
+      "39412257",
+      "38526948",
+      "40077853",
+      "32577653",
+      "33477032",
+      "31375591",
+      "35093569",
+      "36748338",
+      "37013374",
+      "38941236",
+      "35871289",
+      "34029587",
+      "35077748",
+      "34524703",
+      "32829876",
+      "31594639",
+      "33837182",
+      "40371698",
+      "33760045",
+      "41264624",
+      "37116470",
+      "40621910",
+      "40503686",
+      "34734665",
+      "40353409",
+      "36807437",
+      "35874957",
+      "40503915",
+      "39705355",
+      "39345611",
+      "37211047",
+      "40521608",
+      "38231854",
+      "40751130",
+      "32493627",
+      "40259455",
+      "37704176",
+      "37863261",
+      "40830575",
+      "39574691",
+      "34772789",
+      "39093972",
+      "37906538",
+      "37515286",
+      "38483823",
+      "36272892",
+      "32342926",
+      "36642156",
+      "40291420",
+      "16254320",
+      "40549905",
+      "39162498",
+      "35664996",
+      "41363845",
+      "34913847",
+      "40159770",
+      "34551999",
+      "34767801",
+      "37503034",
+      "36499608",
+      "33782395"
+    ],
+    "review": [
+      "39464032",
+      "36640305",
+      "39343000",
+      "35131265",
+      "40077853",
+      "33760045",
+      "40353409",
+      "35874957",
+      "32493627",
+      "34772789",
+      "36272892",
+      "32342926",
+      "36642156"
+    ],
+    "pmc": [
+      "11507936"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39464032/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39464032",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.10.17.618867",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

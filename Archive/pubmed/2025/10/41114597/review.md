@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends where present. No figures, tables, or supplemental files were provided.
+- **Assessment boundary** The scientific claims, experimental logic, and internal consistency of the presented evidence as described in the text. Experimental quality can only be assessed from the textual descriptions of methods and results, not from primary data.
+- **Shared manuscript claim summary** The authors propose that ZapC, a monomeric FtsZ-associated protein, crosslinks FtsZ filaments by binding simultaneously to the globular domain of one FtsZ molecule and the C-terminal peptide (CTP) of another, and that the intrinsically disordered C-terminal linker (CTL) modulates this interaction and interactions with other CTP-binding proteins.
+- **Visible evidence base** Textual descriptions of: random mutagenesis screening for FtsZ mutants resistant to ZapC overexpression toxicity; localization studies of ZapC-GFP and ZapA-mCherry; bacterial two-hybrid (BTH) assays; co-sedimentation assays; negative stain electron microscopy; biolayer interferometry (BLI) binding measurements; 90-degree light scattering assays; AlphaFold 3 structural predictions.
+- **Missing materials affecting confidence** All figures, tables, and supplemental materials (including Tables S1-S9 and Fig. S1-S5) were not provided. Primary data for BLI binding curves, sedimentation gels, microscopy images, and statistical analyses are unavailable. This substantially limits the ability to verify quantitative claims and experimental quality.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in bacterial cell division: how the monomeric protein ZapC crosslinks FtsZ filaments. The authors present a dual-binding model that reconciles previously conflicting observations in the literature, which is conceptually valuable. The combination of genetic screening, in vivo localization, and in vitro biochemical approaches is appropriate and comprehensive. However, the absence of primary data prevents full verification of the quantitative claims, particularly the BLI-derived dissociation constants and the degree of crosslinking defects observed by electron microscopy. The claim that the CTL modulates binding to multiple CTP-binding proteins is intriguing but is supported by limited direct evidence in the provided text. The manuscript is well-written and logically structured, but several technical details and interpretive points require clarification.
+- **Who would be interested in the results, and why** Researchers studying bacterial cytokinesis, the Z-ring, FtsZ biochemistry, and bacterial cell division machinery. The findings are also relevant to those interested in intrinsically disordered proteins and their roles in modulating protein-protein interactions, as well as to structural biologists studying tubulin-like proteins and their regulatory partners.
+- **Major strengths** The study addresses a long-standing controversy regarding ZapC's mechanism of action with a multi-pronged experimental approach. The genetic screen for FtsZ mutants resistant to ZapC toxicity is a powerful and unbiased strategy. The integration of in vivo localization, BTH assays, and multiple in vitro biochemical techniques provides converging lines of evidence. The proposed dual-binding model is mechanistically plausible and reconciles prior contradictory reports. The observation that CTL mutations affect binding to multiple CTP-binding proteins has broad implications for understanding FtsZ regulation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that ZapC binds to FtsZ with a Kd of 0.39 µM and that specific mutations reduce this affinity by defined magnitudes (e.g., 16-fold for FtsZF285S, 1.5-2-fold for CTL/CTP mutants).
+  - **Evidence pointer** Results section "ZapC-resistant FtsZ mutations reduce the interaction between ZapC and FtsZ in vitro"; Fig. 4A-E; Table S4
+  - **Concern** The BLI-derived Kd values are presented as precise quantitative measurements, but the raw binding curves, fitting procedures, and replicate numbers are not shown in the provided text. The claim that FtsZF285S shows "different binding kinetics" with no dissociation is based on a single described experiment. Without access to the actual sensorgrams and statistical analysis, the reliability of these quantitative differences cannot be assessed.
+  - **Why it matters** The quantitative binding affinities are central to the claim that the globular domain interaction is dominant and that CTL/CTP mutations have modest effects. If the Kd values are not robustly determined, the relative contribution of each binding site to the overall interaction remains uncertain.
+  - **Resolution test** Provide raw BLI sensorgrams for all replicates, show the fitting model and goodness-of-fit statistics, and report Kd values with confidence intervals. Demonstrate that the observed differences between wild-type and mutant FtsZ are statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the CTL of FtsZ modulates binding to ZapC and "many other FtsZ binding proteins," including FtsA, SlmA, and MinC, based on BTH assays with CTL-CTP fusions.
+  - **Evidence pointer** Results section "The globular domain and the CTP of FtsZ bind to ZapC directly, which is modulated by the CTL"; Fig. 9
+  - **Concern** The BTH assay data for FtsA, SlmA, and MinC interactions with CTL-CTP fusions are described only in a single sentence. The claim that the CTL modulates binding to multiple proteins is a significant generalization that requires more detailed evidence. It is unclear whether the BTH signal reflects direct binding or is influenced by fusion protein stability, expression levels, or folding.
+  - **Why it matters** The broader claim about CTL-mediated modulation of multiple CTP-binding proteins extends the significance of the work beyond ZapC. If this claim is not rigorously supported, the generalizability of the finding is weakened.
+  - **Resolution test** Show the full BTH assay results for all protein combinations, include appropriate controls for fusion protein expression and stability, and ideally confirm the modulatory effect with an orthogonal in vitro binding assay for at least one additional CTP-binding protein.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** The authors propose a structural model in which a ZapC monomer crosslinks FtsZ filaments by binding to the globular domain of one FtsZ and the CTP of another, with the CTL modulating this interaction.
+  - **Evidence pointer** Results section "Structural model of the FtsZ-ZapC complex indicates that ZapC binds to the globular domain and the CTP of FtsZ"; Fig. 6; Fig. 8
+  - **Concern** The AlphaFold 3 model is used to support the dual-binding model, but the text does not describe the confidence metrics of the prediction, the specific residues involved in each interface beyond a few examples, or whether the model is consistent with the observed mutational effects. The model appears to show ZapC binding to two different FtsZ molecules, but the text does not explain how the geometry of this arrangement would work in the context of a filament.
+  - **Why it matters** The structural model is a key component of the proposed mechanism. If the model is not critically evaluated or its limitations acknowledged, the mechanistic conclusions may be overinterpreted.
+  - **Resolution test** Provide AlphaFold confidence scores (pLDDT, PAE) for the predicted interfaces, discuss whether the predicted binding mode is consistent with the mutagenesis data, and clarify how the proposed crosslinking geometry relates to the known structure of FtsZ filaments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Materials and Methods, "Light-scattering measurement"
+  - **Issue** The GTP concentration in the light scattering assay is stated as 0.5 M, which is likely a typographical error. Standard assays use millimolar concentrations.
+  - **Required correction** Verify and correct the GTP concentration in the light scattering assay description.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data Availability section
+  - **Issue** The data availability statement only lists strains and plasmids in Tables S1 and S2, but the text references Tables S7 and S9 for strains and primers. The statement appears incomplete or inconsistent.
+  - **Required correction** Clarify which tables contain which resources and ensure the data availability statement is complete and accurate.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive clarity
+  - **Affected element** Discussion of CTL mechanism
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors state that the CTL modulates binding but do not propose a specific mechanism (e.g., conformational changes, electrostatic effects, or steric occlusion). The discussion would benefit from a more concrete hypothesis.
+  - **Required correction** Add a brief discussion of possible mechanisms by which the CTL could modulate CTP binding, even if speculative.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Quantification of EM bundle widths
+  - **Evidence pointer** Results section "ZapC-resistant FtsZ mutations reduce the interaction between ZapC and FtsZ in vitro"; Fig. 3D
+  - **Issue** The measurement of bundle widths is described as showing substantial reduction for mutants, but no statistical analysis or sample sizes are reported in the text.
+  - **Required correction** Report the number of measurements, statistical tests used, and p-values for the bundle width comparisons.
+
+## Risk / unsupported claims
+- The quantitative Kd values for FtsZ-ZapC binding and their differences between wild-type and mutant proteins cannot be verified without raw BLI data.
+- The claim that the CTL modulates binding to "many other FtsZ binding proteins" is supported only by a brief description of BTH assays without detailed data.
+- The AlphaFold 3 structural model is presented as supportive evidence, but its confidence and limitations are not discussed.
+- The statement that FtsZF285S binds ZapC with "different binding kinetics" and does not dissociate is based on a single described experiment without supporting data.
+- The claim that CTL mutations have additive effects with globular domain mutations is based on toxicity assays, but the quantitative relationship between toxicity resistance and binding affinity is not established.

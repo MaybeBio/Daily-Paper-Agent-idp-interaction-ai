@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2407.00566v1",
+  "title": "Frontiers in integrative structural biology: modeling disordered proteins and utilizing in situ data",
+  "authors": "Kartik Majila; Shreyas Arvindekar; Muskaan Jindal; Shruthi Viswanath",
+  "journal": "QRB Discovery. 2025;6:e3",
+  "published_date": "2024-06-30",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 7,
+  "one_liner_zh": "综述整合结构生物学中无序蛋白建模与冷冻电镜原位数据利用的方法进展，虽非直接研究特定PPI机制，但聚焦IDR建模与AI/物理方法结合，对本课题有方法学启发。",
+  "abstract": "Integrative modeling enables structure determination for large macromolecular assemblies by combining data from multiple sources of experiment data with theoretical and computational predictions. Recent advancements in AI-based structure prediction and electron cryo-microscopy have sparked renewed enthusiasm for integrative modeling; structures from AI-based methods can be integrated with in situ maps to characterize large assemblies. This approach previously allowed us and others to determine the architectures of diverse macromolecular assemblies, such as nuclear pore complexes, chromatin remodelers, and cell-cell junctions. Experimental data spanning several scales was used in these studies, ranging from high-resolution data, such as X-ray crystallography and Alphafold structures, to low-resolution data, such as cryo-electron tomography maps and data from co-immunoprecipitation experiments. Two recurrent modeling challenges emerged across a range of studies. First, modeling disordered regions, which constituted a significant portion of these assemblies, necessitated the development of new methods. Second, methods needed to be developed to utilize the information from cryo-electron tomography, a timely challenge as structural biology is increasingly moving towards in situ characterization. Here, we recapitulate recent developments in the modeling of disordered proteins and the analysis of cryo-electron tomography data and highlight opportunities for method development in the context of integrative modeling.",
+  "abstract_zh": "整合建模通过结合多种实验数据来源与理论和计算预测，能够实现大型大分子组装体的结构测定。基于人工智能的结构预测和冷冻电子显微镜的最新进展，重新激发了人们对整合建模的热情；基于AI方法的结构可以与原位图谱整合，以表征大型组装体。这种方法此前使我们及其他研究者能够确定多种大分子组装体的架构，例如核孔复合体、染色质重塑因子和细胞间连接。这些研究使用了跨越多个尺度的实验数据，从高分辨率数据（如X射线晶体学和AlphaFold结构）到低分辨率数据（如冷冻电子断层扫描图谱和免疫共沉淀实验数据）。在一系列研究中，出现了两个反复出现的建模挑战。首先，对无序区域的建模，这些区域构成了这些组装体的重要部分，需要开发新方法。其次，需要开发方法来利用冷冻电子断层扫描的信息，这是一个及时的挑战，因为结构生物学正日益向原位表征方向发展。在此，我们概述了无序蛋白质建模和冷冻电子断层扫描数据分析的最新进展，并强调了在整合建模背景下方法开发的机会。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2407.00566v1",
+  "source_url": "https://arxiv.org/abs/2407.00566v1",
+  "paper_page_path": "papers/arxiv/2407.00566v1/index.html"
+}

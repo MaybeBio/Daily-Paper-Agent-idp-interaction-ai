@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38334418",
+  "title": "Electrostatically Mediated Attractive Self-Interactions and Reversible Self-Association of Fc-Fusion Proteins.",
+  "authors": "Forder, James K; Palakollu, Veerabhadraiah; Adhikari, Sudeep; Blanco, Marco A; Derebe, Mehabaw Getahun; Ferguson, Heidi M; Luthra, Suman A; Munsell, Erik V; Roberts, Christopher J",
+  "journal": "Molecular pharmaceutics",
+  "published_date": "2024-02-09",
+  "window": {
+    "start": "2024-02-05",
+    "end": "2024-02-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过实验与粗粒化模拟研究Fc融合蛋白的静电介导自相互作用与可逆自缔合，涉及相分离背景但对象非IDP，互作机制建模有可迁移性。",
+  "abstract": "Attractive self-interactions and reversible self-association are implicated in many problematic solution behaviors for therapeutic proteins, such as irreversible aggregation, elevated viscosity, phase separation, and opalescence. Protein self-interactions and reversible oligomerization of two Fc-fusion proteins (monovalent and bivalent) and the corresponding fusion partner protein were characterized experimentally with static and dynamic light scattering as a function of pH (5 and 6.5) and ionic strength (10 mM to at least 300 mM). The fusion partner protein and monovalent Fc-fusion each displayed net attractive electrostatic self-interactions at pH 6.5 and net repulsive electrostatic self-interactions at pH 5. Solutions of the bivalent Fc-fusion contained higher molecular weight species that prevented quantification of typical interaction parameters (B(22) and k(D)). All three of the proteins displayed reversible self-association at pH 6.5, where oligomers dissociated with increased ionic strength. Coarse-grained molecular simulations were used to model the self-interactions measured experimentally, assess net self-interactions for the bivalent Fc-fusion, and probe the specific electrostatic interactions between charged amino acids that were involved in attractive electrostatic self-interactions. Mayer-weighted pairwise electrostatic energies from the simulations suggested that attractive electrostatic self-interactions at pH 6.5 for the two Fc-fusion proteins were due to cross-domain interactions between the fusion partner domain(s) and the Fc domain.",
+  "abstract_zh": "治疗性蛋白质的许多问题性溶液行为，如不可逆聚集、高粘度、相分离（phase separation）和乳光，都与吸引性自相互作用和可逆自缔合有关。通过静态和动态光散射，实验表征了两种Fc融合蛋白（单价和二价）及其相应融合伴侣蛋白的蛋白质自相互作用和可逆寡聚化，作为pH值（5和6.5）和离子强度（10 mM至至少300 mM）的函数。融合伴侣蛋白和单价Fc融合蛋白在pH 6.5时表现出净吸引性静电自相互作用，在pH 5时表现出净排斥性静电自相互作用。二价Fc融合蛋白的溶液含有更高分子量的物种，这阻碍了典型相互作用参数（B(22)和k(D)）的量化。所有三种蛋白质在pH 6.5时均表现出可逆自缔合，其中寡聚体随离子强度增加而解离。使用粗粒化分子模拟（coarse-grained molecular simulations）来模拟实验测量的自相互作用，评估二价Fc融合蛋白的净自相互作用，并探究参与吸引性静电自相互作用的带电氨基酸之间的特定静电相互作用。模拟中的Mayer加权成对静电能量表明，两种Fc融合蛋白在pH 6.5时的吸引性静电自相互作用归因于融合伴侣结构域与Fc结构域之间的跨域相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38334418/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38334418/",
+  "paper_page_path": "papers/pubmed/38334418/index.html"
+}

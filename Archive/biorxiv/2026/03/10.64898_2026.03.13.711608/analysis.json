@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.13.711608",
+  "title": "Uncovering cancer dependencies in peptide-interacting protein pockets",
+  "authors": "Örd M; Kogan L; Bradburn D; Leiser M; Kõivomägi M; Davey NE; Creixell P",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-15",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究通过全蛋白质组肽库筛选，在癌细胞中鉴定肽结合口袋的功能依赖性，涉及蛋白-肽互作机制，但对象非无序蛋白/IDR，且方法为实验筛选而非AI/物理模拟，仅部分可迁移启发。",
+  "abstract": "Cancer cells often become dependent on specific molecular functions. As many proteins perform multiple functions mediated by different pockets and interfaces, we hypothesized that we could identify distinct cancer dependencies and therapeutic vulnerabilities by disrupting peptide-binding pockets. To test this hypothesis, we screened a proteome-wide library of 7152 genetically encoded peptides across nine cancer cell lines. We identify common and selective dependencies on peptide-binding pockets and find that gene knockout and peptide-mediated inhibition of pockets often drive divergent phenotypes. For the common-essential gene HCF1, we identify a therapeutic window by using inhibitory peptides with varying affinity. Moreover, peptides targeting TLE1-4 reveal a dependency hidden in genetic screens by homolog redundancy. We also uncover that peptides inhibiting cyclin D drive specific suppression of leukemia cell proliferation and demonstrate that these peptides improve the potency of CDK4/6 inhibitors. Overall, our screening platform facilitates data-driven prioritization of molecular pockets for subsequent therapeutic translation.",
+  "abstract_zh": "癌细胞常常依赖于特定的分子功能。由于许多蛋白质通过不同的口袋和界面执行多种功能，我们假设通过破坏肽结合口袋，可以识别出不同的癌症依赖性和治疗脆弱性。为验证这一假设，我们在九种癌细胞系中筛选了一个包含7152个基因编码肽的全蛋白质组文库。我们识别出对肽结合口袋的常见和选择性依赖性，并发现基因敲除与肽介导的口袋抑制往往导致不同的表型。对于常见必需基因HCF1，我们通过使用不同亲和力的抑制性肽确定了一个治疗窗口。此外，靶向TLE1-4的肽揭示了一种因同源冗余而在遗传筛选中隐藏的依赖性。我们还发现，抑制细胞周期蛋白D的肽能特异性抑制白血病细胞增殖，并证明这些肽能增强CDK4/6抑制剂的效力。总体而言，我们的筛选平台促进了基于数据驱动的分子口袋优先级排序，为后续治疗转化提供了支持。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.13.711608",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.13.711608",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.13.711608/index.html"
+}

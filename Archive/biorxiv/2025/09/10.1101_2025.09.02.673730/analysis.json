@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.02.673730",
+  "title": "Enzymatic Function of an Intrinsically Disordered Protein",
+  "authors": "Tatiana Lyalina; Lia Mara Gomes Paim; Susanne Bechstedt",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-03",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文证明无序蛋白CKAP2结构域可催化微管聚合/解聚，虽涉及IDP功能机制，但对象为酶催化而非PPI互作机制建模，且无AI/物理模拟方法，故为中档。",
+  "abstract": "Intrinsically disordered proteins (IDPs) challenge the traditional structure-function paradigm by lacking a stable three-dimensional structure 1 . While their roles as dynamic effectors, scaffolds, and molecular switches are well-established, it has been widely accepted that enzymatic activity requires a stably folded catalytic center 2 . Here, we challenge this dogma by demonstrating that a 284-amino acid intrinsically disordered domain of the cytoskeleton-associated protein 2 (CKAP2) is sufficient to catalyze both microtubule polymerization and depolymerization. CKAP2 promotes tubulin incorporation without high-affinity tubulin binding, suggesting a transition-state-based catalytic mechanism distinct from known microtubule polymerases. These findings establish, for the first time, that an intrinsically disordered domain can function as a bona fide enzyme, expanding our understanding of the functional repertoire of disordered proteins and their roles in cellular processes.",
+  "abstract_zh": "固有无序蛋白（IDPs）通过缺乏稳定的三维结构，挑战了传统的结构-功能范式¹。尽管它们作为动态效应器、支架和分子开关的作用已得到充分证实，但普遍认为酶活性需要稳定折叠的催化中心²。在此，我们通过证明细胞骨架相关蛋白2（CKAP2）的一个284个氨基酸的固有无序结构域足以催化微管聚合和去聚合，来挑战这一教条。CKAP2促进微管蛋白的掺入，而不需要高亲和力的微管蛋白结合，这表明其催化机制基于过渡态，与已知的微管聚合酶不同。这些发现首次确立了一个固有无序结构域可以作为真正的酶发挥作用，扩展了我们对无序蛋白功能谱系及其在细胞过程中作用的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673730",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673730",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.02.673730/index.html"
+}

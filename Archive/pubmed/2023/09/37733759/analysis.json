@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37733759",
+  "title": "Promoter R-Loops Recruit U2AF1 to Modulate Its Phase Separation and RNA Splicing.",
+  "authors": "He, Xiaomei; Yuan, Jun; Gao, Zi; Wang, Yinsheng",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2023-09-21",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究U2AF1结合启动子R-loop并促进其相分离、调控RNA剪接，涉及相分离机制但对象为核酸结构而非无序蛋白PPI，方法以生信和实验为主，缺乏AI/物理模拟建模，故综合评分为5。",
+  "abstract": "R-loops and guanine quadruplexes (G4s) are secondary structures of nucleic acids that are ubiquitously present in cells and are enriched in promoter regions of genes. By employing a bioinformatic approach based on overlap analysis of transcription factor chromatin immunoprecipitation sequencing (ChIP-seq) data sets, we found that many splicing factors, including U2AF1 whose recognition of the 3' splicing site is crucial for pre-mRNA splicing, exhibit pronounced enrichment at endogenous R-loop- and DNA G4-structure loci in promoter regions of human genes. We also revealed that U2AF1 binds directly to R-loops and DNA G4 structures at a low-nM binding affinity. Additionally, we showed the ability of U2AF1 to undergo phase separation, which could be stimulated by binding with R-loops, but not duplex DNA, RNA/DNA hybrid, DNA G4, or single-stranded RNA. We also demonstrated that U2AF1 binds to promoter R-loops in human cells, and this binding competes with U2AF1's interaction with 3' splicing site and leads to augmented distribution of RNA polymerase II (RNAPII) to promoters over gene bodies, thereby modulating cotranscriptional pre-mRNA splicing. Together, we uncovered a group of candidate proteins that can bind to both R-loops and DNA G4s, revealed the direct and strong interactions of U2AF1 with these nucleic acid structures, and established a biochemical rationale for U2AF1's occupancy in gene promoters. We also unveiled that interaction with R-loops promotes U2AF1's phase separation, and our work suggests that U2AF1 modulates pre-mRNA splicing by regulating RNAPII's partition in transcription initiation versus elongation.",
+  "abstract_zh": "R-loops和鸟嘌呤四链体（G4s）是核酸的二级结构，普遍存在于细胞中，并在基因启动子区域富集。通过基于转录因子染色质免疫沉淀测序（ChIP-seq）数据集重叠分析的生物信息学方法，我们发现许多剪接因子，包括U2AF1（其对3'剪接位点的识别对pre-mRNA剪接至关重要），在人类基因启动子区域的内源性R-loop和DNA G4结构位点表现出显著富集。我们还揭示，U2AF1以低nM结合亲和力直接结合R-loops和DNA G4结构。此外，我们展示了U2AF1发生相分离（phase separation）的能力，这种相分离可通过与R-loops结合而刺激，但不与双链DNA、RNA/DNA杂交体、DNA G4或单链RNA结合。我们还证明，U2AF1在人类细胞中结合启动子R-loops，这种结合与U2AF1与3'剪接位点的相互作用竞争，并导致RNA聚合酶II（RNAPII）在启动子上的分布相对于基因体增加，从而调节共转录pre-mRNA剪接。综合来看，我们发现了能够同时结合R-loops和DNA G4s的一组候选蛋白质，揭示了U2AF1与这些核酸结构的直接且强相互作用，并为U2AF1在基因启动子中的占据建立了生化基础。我们还揭示了与R-loops的相互作用促进U2AF1的相分离，我们的工作表明，U2AF1通过调节RNAPII在转录起始与延伸中的分配来调节pre-mRNA剪接。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37733759/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37733759/",
+  "paper_page_path": "papers/pubmed/37733759/index.html"
+}

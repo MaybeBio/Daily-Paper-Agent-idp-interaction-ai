@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.07.652723",
+  "title": "Molecular dynamics simulations of intrinsically disordered protein regions enable biophysical interpretation of variant effect predictors",
+  "authors": "Aziz Zafar; Chao Hou; Naufa Amirani; Yufeng Shen",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-12",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用MD模拟提取IDR的生物物理特征，结合保守性预测错义变异致病性，揭示长IDR中致病变异的瞬态有序与溶剂可及性差异，为IDR变异效应的机制建模提供可迁移思路。",
+  "abstract": "Predictive models for missense variant pathogenicity offer little functional interpretation for intrinsically disordered regions, since they rely on conservation and coevolution across homologous sequences. To understand the extent to which biophysics modulates model performance compared to genomic conservation, we model biophysics of IDRs explicitly for improved interpretation of variant effects. We develop MDmis, a method that uses biophysical features extracted from molecular dynamics (MD) simulations of IDRs to predict pathogenicity. We find that pathogenic variants in Long IDRs manifest differently, with transient order and depleted solvent access, compared to those in Short IDRs. Using MD simulations of sequences with single missense variants, we identify stronger evidence for pathogenic effects in Long IDRs compared to Short IDRs. MDmis, when combined with conservation information, achieves strong predictive accuracy of pathogenicity of variants in Long IDRs. Overall, extracting information from MD simulations can help understand the drivers of predictive performance and elucidate biophysical behaviors affected by pathogenic variants.",
+  "abstract_zh": "针对错义变异致病性的预测模型，对于固有无序区域（intrinsically disordered regions）提供的功能解释有限，因为它们依赖于同源序列间的保守性和共进化。为了理解生物物理学在多大程度上调节模型性能（与基因组保守性相比），我们显式地对IDRs的生物物理学进行建模，以改进变异效应的解释。我们开发了MDmis，一种利用从IDRs的分子动力学（molecular dynamics）模拟中提取的生物物理特征来预测致病性的方法。我们发现，长IDRs中的致病性变异表现不同，具有瞬时有序性和减少的溶剂可及性，与短IDRs中的变异相比。通过对含单个错义变异的序列进行MD模拟，我们识别出长IDRs中致病效应的更强证据，相较于短IDRs。当与保守性信息结合时，MDmis在长IDRs中实现了对变异致病性的强预测准确性。总体而言，从MD模拟中提取信息有助于理解预测性能的驱动因素，并阐明受致病性变异影响的生物物理行为。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.07.652723",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.07.652723",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.07.652723/index.html"
+}

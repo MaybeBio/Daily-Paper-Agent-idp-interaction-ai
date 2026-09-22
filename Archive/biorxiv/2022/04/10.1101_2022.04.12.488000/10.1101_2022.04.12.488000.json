@@ -1,0 +1,278 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.12.488000",
+  "title": "Supramolecular architecture of the ER-mitochondria encounter structure in its native environment",
+  "doi": "10.1101/2022.04.12.488000",
+  "abstract": "The endoplasmic reticulum and mitochondria are main hubs of eukaryotic membrane biogenesis which rely on lipid exchange via membrane contact sites, but the underpinning mechanisms remain poorly understood. In yeast, tethering and lipid transfer between the two organelles is mediated by the ER-mitochondria encounter structure ERMES, a four-subunit complex of unclear stoichiometry and architecture. We determined the molecular organization of ERMES within cells using integrative structural biology, combining quantitative live-imaging, cryo-correlative microscopy, subtomogram averaging and molecular modeling. ERMES assembles into approximately 25 discrete bridge-like complexes distributed irregularly across a contact site. Each bridge consists of three lipid-binding SMP domains arranged in zig-zag fashion. Our molecular model of ERMES reveals an unconventional restrained pathway for lipids. These findings resolve a supramolecular architecture controlling interorganelle lipid fluxes.",
+  "authors": [
+    "Wozny MR",
+    "Di Luca A",
+    "Morado DR",
+    "Picco A",
+    "Hoffmann PC",
+    "Miller EA",
+    "Vanni S",
+    "Kukulski W"
+  ],
+  "published_date": "2022-04-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.12.488000",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.12.488000.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR481221",
+    "raw_record": {
+      "id": "PPR481221",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR481221"
+        ]
+      },
+      "doi": "10.1101/2022.04.12.488000",
+      "title": "Supramolecular architecture of the ER-mitochondria encounter structure in its native environment",
+      "authorString": "Wozny MR, Di Luca A, Morado DR, Picco A, Hoffmann PC, Miller EA, Vanni S, Kukulski W.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wozny MR",
+            "lastName": "Wozny",
+            "firstName": "Michael",
+            "initials": "MR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9359-3287"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge CB2 0QH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Di Luca A",
+            "lastName": "Di Luca",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of Fribourg, 1700 Fribourg, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morado DR",
+            "lastName": "Morado",
+            "firstName": "Dustin",
+            "initials": "DR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4693-3220"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge CB2 0QH, UK"
+                },
+                {
+                  "affiliation": "SciLifeLab, Tomtebodavägen 23, 171 65 Solna, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Picco A",
+            "lastName": "Picco",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Geneva, Quai Ernest Ansermet 30, 1211 Geneva, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoffmann PC",
+            "lastName": "Hoffmann",
+            "firstName": "Patrick",
+            "initials": "PC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge CB2 0QH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Miller EA",
+            "lastName": "Miller",
+            "firstName": "Elizabeth",
+            "initials": "EA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge CB2 0QH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vanni S",
+            "lastName": "Vanni",
+            "firstName": "Stefano",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2146-1140"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, University of Fribourg, 1700 Fribourg, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kukulski W",
+            "lastName": "Kukulski",
+            "firstName": "Wanda",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge CB2 0QH, UK"
+                },
+                {
+                  "affiliation": "Institute of Biochemistry and Molecular Medicine, University of Bern, Bühlstrasse 28, 3012 Bern, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9359-3287"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2146-1140"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4693-3220"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The endoplasmic reticulum and mitochondria are main hubs of eukaryotic membrane biogenesis which rely on lipid exchange via membrane contact sites, but the underpinning mechanisms remain poorly understood. In yeast, tethering and lipid transfer between the two organelles is mediated by the ER-mitochondria encounter structure ERMES, a four-subunit complex of unclear stoichiometry and architecture. We determined the molecular organization of ERMES within cells using integrative structural biology, combining quantitative live-imaging, cryo-correlative microscopy, subtomogram averaging and molecular modeling. ERMES assembles into approximately 25 discrete bridge-like complexes distributed irregularly across a contact site. Each bridge consists of three lipid-binding SMP domains arranged in zig-zag fashion. Our molecular model of ERMES reveals an unconventional restrained pathway for lipids. These findings resolve a supramolecular architecture controlling interorganelle lipid fluxes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "194807",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "185544",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/04/12/2022.04.12.488000.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.04.12.488000"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR481221"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR481221&type=FILE&fileName=EMS144397-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS144397",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-04-14",
+      "firstPublicationDate": "2022-04-12",
+      "firstIndexDate": "2022-04-14",
+      "fullTextReceivedDate": "2022-04-20",
+      "hasEvaluations": "Y"
+    }
+  }
+}

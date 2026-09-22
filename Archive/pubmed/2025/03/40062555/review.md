@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors reoptimized van der Waals radius and charge parameters for phosphorylated residues using reweighting and thermodynamic integration, producing a parameter set named phosRg. They report improved agreement with experimental radii of gyration and chemical shifts for seven phosphoproteins compared to the phosaa10 force field, and recommend TIP4P-D as a compatible solvent model.
+- **Visible evidence base** Abstract text only; no quantitative data, statistical measures, or methodological details provided
+- **Missing materials affecting confidence** Full methods, parameter values, validation datasets, experimental references, error bars, simulation protocols, and comparison details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful parameter optimization strategy for simulating phosphorylated intrinsically disordered proteins. The dual-objective optimization approach is conceptually sound, and the reported improvements are plausible. However, the abstract lacks quantitative evidence, statistical validation, and methodological transparency. The strength of the claims cannot be assessed from the supplied material alone.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular simulation, particularly those studying intrinsically disordered proteins, post-translational modifications, and force field development. The work may also interest experimentalists who use MD simulations to interpret phosphorylation-dependent conformational behavior.
+- **Major strengths** The study addresses a recognized limitation in force field accuracy for phosphoproteins. The dual-objective optimization strategy is methodologically motivated. The validation across seven representative systems suggests a broader applicability than single-case studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Validation on test systems of seven representative phosphoproteins demonstrates that phosRg has better agreement with experiment for Rg and chemical shift than does phosaa10."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states improved agreement but provides no quantitative metrics, such as root-mean-square deviations, correlation coefficients, or error magnitudes. No statistical significance tests are mentioned. The claim of "better agreement" is therefore unverifiable from the supplied material.
+  - **Why it matters** Without quantitative comparison, the reader cannot judge whether the improvement is meaningful or within experimental uncertainty. The central claim of the work depends on this comparison.
+  - **Resolution test** Provide numerical comparisons with uncertainties, statistical tests, and explicit experimental references for each of the seven systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "We reoptimized the parameters of the vDW radius for the oxygen atom and the charge for the phosphorus atom with a reweighting algorithm and thermodynamic integration, named phosRg."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which oxygen and phosphorus atoms were modified, the target data used for optimization, the functional form of the reweighting algorithm, or the thermodynamic integration protocol. The parameter values themselves are not reported.
+  - **Why it matters** Reproducibility is a core requirement for force field development. Without these details, other researchers cannot implement or test phosRg independently.
+  - **Resolution test** Report the full optimization protocol, target data, final parameter values, and convergence criteria in the methods section.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of validation
+  - **Claim pointer** "phosRg should also be used for simulations of other phosphorylated proteins."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract generalizes from seven test systems to all phosphorylated proteins. The diversity of these systems, the range of phosphorylation sites, and the sequence contexts are not described. The transferability claim may exceed the evidence base.
+  - **Why it matters** Force field parameters often show context-dependent behavior. Overgeneralization could lead to inappropriate use in systems where the parameters have not been tested.
+  - **Resolution test** Describe the sequence diversity and phosphorylation site contexts of the test systems, and discuss known limitations or conditions for applicability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Solvent model recommendation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that TIP4P-D is "a suitable choice" is vague. It is unclear whether this is a recommendation based on systematic comparison or a single observation.
+  - **Required correction** Specify the comparison performed, the criteria for suitability, and whether other solvent models were tested.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "phosaa10"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The baseline force field phosaa10 is not defined. Readers unfamiliar with this parameter set cannot assess the comparison.
+  - **Required correction** Provide a brief definition or citation for phosaa10 in the abstract or introduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Structural observations
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that phosRg generated "more extensional conformations with fewer hydrophobic interactions and hydrogen bonds" lacks quantitative support and does not specify which interactions were analyzed.
+  - **Required correction** Report the relevant interaction counts or distributions and define the analysis criteria.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central claims of improved accuracy and methodological reproducibility cannot be evaluated from the abstract alone. R1-M3 requires clarification but does not block the core case.
+- **Assessment against Nature-style criteria** Originality: The dual-objective optimization approach appears novel in the context of phosphoprotein force fields, though the abstract does not fully establish novelty against prior work. Scientific importance: The work addresses a real limitation in simulating phosphoproteins, which is relevant to a broad community. Interdisciplinary readership: The topic is primarily of interest to computational chemists and biophysicists; the abstract is accessible to specialists but may be less so to general readers. Technical soundness: Cannot be assessed from the abstract; the optimization and validation protocols are not described in sufficient detail. Readability for nonspecialists: The abstract is concise and generally clear, but terms such as phosaa10 and TIP4P-D are not explained.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially valuable contribution, but the absence of quantitative results and methodological details prevents a supportive recommendation. The case would be strengthened by providing full validation data and optimization protocols.
+
+## Risk / unsupported claims
+- The claim of "better agreement" with experiment is unsupported without quantitative metrics.
+- The recommendation that phosRg "should also be used for simulations of other phosphorylated proteins" is an overgeneralization from the limited information provided.
+- The suitability of TIP4P-D as a solvent model is stated without comparative evidence.
+- The observation of "fewer hydrophobic interactions and hydrogen bonds" is unquantified and cannot be evaluated.
+- The novelty of the dual-objective optimization strategy relative to existing methods is not established from the abstract.

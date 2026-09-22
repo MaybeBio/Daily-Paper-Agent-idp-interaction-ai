@@ -1,0 +1,60 @@
+## Review setup
+- **Input scope** Abstract and title only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract and title
+- **Shared manuscript claim summary** The authors propose an energy landscape framework to describe the dynamics of biomolecular condensates, aiming to decode their formation, maintenance, and dissolution through a thermodynamic and kinetic lens.
+- **Visible evidence base** Abstract text only; no figures, tables, or methods sections provided
+- **Missing materials affecting confidence** Full manuscript, methods, figures, tables, and any quantitative results are not available; assessment is limited to the abstract's claims
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing idea, applying energy landscape theory to biomolecular condensate dynamics. However, the provided material is too sparse to evaluate the technical implementation, novelty, or validity of the proposed approach. The claims are broad and lack specific evidence, making it impossible to assess whether the framework offers genuine insights beyond existing models of condensate behavior.
+- **Who would be interested in the results, and why** Researchers in biophysics, cell biology, and soft matter physics studying phase separation and condensate dynamics would be interested, as an energy landscape perspective could provide a unifying framework for understanding condensate stability and transitions. Additionally, computational biologists developing models for intracellular organization might find the approach relevant.
+- **Major strengths** The conceptual framing is timely and addresses a significant gap in the field, namely the dynamic behavior of condensates beyond equilibrium descriptions. The title is clear and suggests a systematic approach that could appeal to a broad interdisciplinary audience.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract implies that an energy landscape approach can "decode" condensate dynamics, but no methodological details or results are provided to support this.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract lacks any description of the theoretical or computational methods used to construct the energy landscape, nor does it present quantitative predictions or comparisons with experimental data.  
+  - **Why it matters** Without methodological transparency and validation, the claim that this approach decodes dynamics is unsupported and cannot be evaluated for correctness or utility.  
+  - **Resolution test** Provide a detailed methods section and at least one quantitative example demonstrating the framework's predictive power against experimental or simulation data.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract suggests the framework offers new insights, but it does not specify what is novel compared to existing theories of condensate dynamics, such as Cahn-Hilliard or reaction-diffusion models.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The novelty is asserted rather than demonstrated. The abstract does not articulate how the energy landscape approach differs from or improves upon established models.  
+  - **Why it matters** For a broad-impact journal, the incremental advance must be clear; otherwise, the work risks being a reformulation of known ideas.  
+  - **Resolution test** Explicitly state the limitations of current models and provide a concrete example where the energy landscape approach yields a distinct, testable prediction.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Readability for nonspecialists  
+  - **Claim pointer** The abstract uses terms like "energy landscape" without defining them in the context of condensates, which may alienate readers outside biophysics.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract is written at a level that assumes familiarity with both energy landscape theory and condensate biology, but it does not bridge these fields for a general scientific audience.  
+  - **Why it matters** Nature-style readership includes nonspecialists who need clear motivation and accessible explanations to appreciate the work's significance.  
+  - **Resolution test** Revise the abstract to include a brief, plain-language explanation of the energy landscape concept and its relevance to condensate dynamics.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract structure  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** The abstract does not state the main findings or conclusions explicitly, leaving the reader without a take-home message.  
+  - **Required correction** Add a sentence summarizing the key outcome or insight of the study.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract content  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Issue** No mention of the system or model used (e.g., specific proteins, in vitro or in vivo contexts) is provided.  
+  - **Required correction** Specify the biological or physical system to which the framework is applied.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of methods, validation, and clear novelty means the core claims are not currently supported.
+
+## Risk / unsupported claims
+- The claim that the energy landscape approach "decodes" condensate dynamics is unsupported due to lack of evidence.
+- The implied novelty over existing models is not substantiated.
+- Any quantitative or predictive aspects of the framework are unassessable from the supplied material.

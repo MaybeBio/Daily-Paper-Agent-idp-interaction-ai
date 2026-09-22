@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "37633550",
+    "doi": "10.1016/j.ijbiomac.2023.126526",
+    "title": "Improved prediction of protein-protein interactions by a modified strategy using three conventional docking software in combination."
+  },
+  "content": {
+    "abstract": "Proteins play a crucial role in many biological processes, where their interaction with other proteins are integral. Abnormal protein-protein interactions (PPIs) have been linked to various diseases including cancer, and thus targeting PPIs holds promise for drug development. However, experimental confirmation of the peculiarities of PPIs is challenging due to their dynamic and transient nature. As a complement to experimental technologies, multiple computational molecular docking (MD) methods have been developed to predict the structures of protein-protein complexes and their dynamics, still requiring further improvements in several issues. Here, we report an improved MD method, namely three-software docking (3SD), by employing three popular protein-peptide docking software (CABS-dock, HPEPDOCK, and HADDOCK) in combination to ensure constant quality for most targets. We validated our 3SD performance in known protein-peptide interactions (PpIs). We also enhanced MD performance in proteins having intrinsically disordered regions (IDRs) by applying the modified 3SD strategy, the three-software docking after removing random coiled IDR (3SD-RR), to the comparable crystal PpI structures. At the end, we applied 3SD-RR to the AlphaFold2-predicted receptors, yielding an efficient prediction of PpI pose with high relevance to the experimental data regardless of the presence of IDRs or the availability of receptor structures. Our study provides an improved solution to the challenges in studying PPIs through computational docking and has the potential to contribute to PPIs-targeted drug discovery. SIGNIFICANCE STATEMENT: Protein-protein interactions (PPIs) are integral to life, and abnormal PPIs are associated with diseases such as cancer. Studying protein-peptide interactions (PpIs) is challenging due to their dynamic and transient nature. Here we developed improved docking methods (3SD and 3SD-RR) to predict the PpI poses, ensuring constant quality in most targets and also addressing issues like intrinsically disordered regions (IDRs) and artificial intelligence-predicted structures. Our study provides an improved solution to the challenges in studying PpIs through computational docking and has the potential to contribute to PPIs-targeted drug discovery.",
+    "keywords": [
+      "AlphaFold2",
+      "Intrinsically disordered region (IDR)",
+      "Protein-peptide binding pose (PpBP)",
+      "Protein-peptide docking",
+      "Protein-protein interaction (PPI)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Docking Simulation",
+      "Protein Binding",
+      "*Artificial Intelligence",
+      "Proteins/chemistry",
+      "Software",
+      "Peptides/chemistry",
+      "*Neoplasms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Choi, Sungwoo",
+        "Son, Seung Han",
+        "Kim, Min Young",
+        "Na, Insung",
+        "Uversky, Vladimir N",
+        "Kim, Chul Geun"
+      ],
+      "short_names": [
+        "Choi S",
+        "Son SH",
+        "Kim MY",
+        "Na I",
+        "Uversky VN",
+        "Kim CG"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Life Science and Research Institute for Natural Sciences, Hanyang University, Seoul 04763, Republic of Korea.",
+        "Department of Life Science and Research Institute for Natural Sciences, Hanyang University, Seoul 04763, Republic of Korea.",
+        "Department of Life Science and Research Institute for Natural Sciences, Hanyang University, Seoul 04763, Republic of Korea.",
+        "Department of Life Science and Research Institute for Natural Sciences, Hanyang University, Seoul 04763, Republic of Korea.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida; Tampa, FL 33612, USA. Electronic address: vuversky@usf.edu.",
+        "Department of Life Science and Research Institute for Natural Sciences, Hanyang University, Seoul 04763, Republic of Korea; CGK Biopharma Co. Ltd., 222 Wangshipri-ro, Sungdong-gu, Seoul 04763, Republic of Korea. Electronic address: cgkim@hanyang.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Choi, Sungwoo",
+        "short_name": "Choi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Science and Research Institute for Natural Sciences, Hanyang University, Seoul 04763, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Son, Seung Han",
+        "short_name": "Son SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Science and Research Institute for Natural Sciences, Hanyang University, Seoul 04763, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Min Young",
+        "short_name": "Kim MY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Science and Research Institute for Natural Sciences, Hanyang University, Seoul 04763, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Na, Insung",
+        "short_name": "Na I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Science and Research Institute for Natural Sciences, Hanyang University, Seoul 04763, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida; Tampa, FL 33612, USA. Electronic address: vuversky@usf.edu."
+        ]
+      },
+      {
+        "full_name": "Kim, Chul Geun",
+        "short_name": "Kim CG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Science and Research Institute for Natural Sciences, Hanyang University, Seoul 04763, Republic of Korea; CGK Biopharma Co. Ltd., 222 Wangshipri-ro, Sungdong-gu, Seoul 04763, Republic of Korea. Electronic address: cgkim@hanyang.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2023 Dec 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/27 05:44",
+    "fetched_at": "2026-09-21 00:43:07"
+  },
+  "links": {
+    "cites": [
+      "41571681",
+      "38434903"
+    ],
+    "refs": [],
+    "similar": [
+      "37633550",
+      "32324992",
+      "31062799",
+      "39337622",
+      "29745830",
+      "36908253",
+      "29746661",
+      "38987465",
+      "31141413",
+      "31106357",
+      "33122085",
+      "37888817",
+      "28236234",
+      "25943545",
+      "31682301",
+      "26165956",
+      "30329012",
+      "38987460",
+      "38987467",
+      "37881092",
+      "28830545",
+      "30836920",
+      "29738247",
+      "23912807",
+      "35801933",
+      "30125869",
+      "29420886",
+      "32696395",
+      "35352094",
+      "31886916",
+      "39273122",
+      "30582220",
+      "37167566",
+      "36715303",
+      "35652781",
+      "37405984",
+      "23855669",
+      "31746034",
+      "30247502",
+      "24171431",
+      "31270654",
+      "25555727",
+      "28026062",
+      "29136547",
+      "36479776",
+      "27218803",
+      "31922754",
+      "33598107",
+      "29927082",
+      "30836919",
+      "35013344",
+      "28263438",
+      "37061423",
+      "19660471",
+      "37496997",
+      "35932404",
+      "35204702",
+      "25854804",
+      "38892133",
+      "30959268",
+      "28236236",
+      "35242211",
+      "32267149",
+      "29594778",
+      "27865038",
+      "27444142",
+      "32520310",
+      "28002650",
+      "30305661",
+      "26441427",
+      "30865258",
+      "26758670",
+      "29842849",
+      "27744178",
+      "28118365",
+      "23072688",
+      "38507213",
+      "34070778",
+      "27108770",
+      "30959812",
+      "27802576",
+      "26415726",
+      "26597230",
+      "25602759",
+      "39214321",
+      "31091705",
+      "27642160",
+      "19703312",
+      "18202838",
+      "33656309",
+      "36209362",
+      "33209039",
+      "28802714",
+      "27074302",
+      "32144844",
+      "23483883",
+      "31323745",
+      "23934791",
+      "27785830",
+      "35649388",
+      "35155572",
+      "24380381",
+      "39041172",
+      "23516555",
+      "27701776",
+      "39254158",
+      "37175549",
+      "33996914",
+      "38192411",
+      "39072126",
+      "36622367",
+      "38955920",
+      "36775876",
+      "38314883",
+      "32797645",
+      "38048559",
+      "38107173",
+      "38109881",
+      "39146039",
+      "35884931",
+      "37372372",
+      "36972273",
+      "39289580",
+      "36304330",
+      "34909403",
+      "34017824",
+      "38680429",
+      "36465350",
+      "30589188",
+      "36570321",
+      "33659447",
+      "38109487",
+      "38966365",
+      "34195230",
+      "37885791",
+      "38725911",
+      "37961736",
+      "37969735",
+      "38370725",
+      "34609866",
+      "39328266",
+      "31301019",
+      "39253691",
+      "39404802",
+      "39420743",
+      "38516692",
+      "39192093",
+      "31814953",
+      "28706685",
+      "30531896",
+      "38883827",
+      "38027957",
+      "38139771"
+    ],
+    "review": [
+      "37633550",
+      "31141413",
+      "37888817",
+      "30836920",
+      "36715303",
+      "30836919",
+      "37061423",
+      "37496997",
+      "26758670",
+      "39214321",
+      "31091705",
+      "18202838",
+      "33656309",
+      "33209039",
+      "28802714",
+      "27074302",
+      "39254158",
+      "37175549",
+      "33996914",
+      "38955920",
+      "36775876",
+      "38107173",
+      "37372372",
+      "34909403",
+      "34017824",
+      "36465350",
+      "30589188",
+      "36570321",
+      "38109487",
+      "34195230",
+      "38725911",
+      "37969735",
+      "31301019",
+      "39404802"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(23)03422-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      }
+    ],
+    "text_mined": []
+  }
+}

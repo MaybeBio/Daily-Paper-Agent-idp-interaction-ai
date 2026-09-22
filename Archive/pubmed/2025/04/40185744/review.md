@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and references to supplementary materials.
+- **Assessment boundary** Scientific content, technical soundness, interpretation of results, and alignment with claims. Editorial and stylistic issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors propose that the interaction between the intrinsically disordered protein prothymosin α and the folded globular domain of histone H1.0 is driven by electrostatic forces, that the IDP remains fully disordered in the complex, that binding occurs without a well-defined interface or persistent contacts, and that both net charge and charge clustering on the folded domain modulate binding affinity.
+- **Visible evidence base** NMR chemical shift perturbations, relaxation measurements, smFRET titrations, CD spectroscopy, all-atom MD simulations, coarse-grained simulations, and a panel of 25 charge variants.
+- **Missing materials affecting confidence** Supplementary figures and tables referenced in the text (e.g., Supplementary Figs. 1–21, Supplementary Tables 1–2) were not provided. The supplementary movie and reporting summary were also unavailable. These materials are essential for full evaluation of several claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the field of IDP interactions: how a folded domain can engage an oppositely charged IDP while the IDP retains full disorder. The combination of experimental and computational approaches is ambitious and largely appropriate. The central claims are plausible and supported by the data presented, but several technical concerns and missing details prevent full endorsement at this stage. The work is likely to be of interest to the biophysics and IDP communities, and the systematic charge variant analysis is a notable strength.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein-protein interactions, electrostatic interactions in biology, and the biophysics of macromolecular complex formation. The work also has relevance for those interested in histone chaperones and chromatin biology, as well as for computational biologists developing coarse-grained models of protein interactions.
+- **Major strengths** The study combines multiple orthogonal techniques to characterize a dynamic complex. The use of 25 charge variants is systematic and provides a rich dataset. The integration of MD simulations with experimental data is thoughtful. The finding that charge clustering, not just net charge, modulates affinity is a valuable contribution. The manuscript is generally well written and the figures appear informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the binding affinity between ProTα and GD can be reliably quantified from smFRET data using a 1:1 binding model at 165 mM ionic strength, and that the KD values obtained are robust.
+  - **Evidence pointer** Methods section "Analysis of binding affinities"; Figure 2F; Supplementary Table 1
+  - **Concern** The authors note that the analysis approach yields KD values approximately one order of magnitude greater than previously reported (ref. 16). They attribute this to the use of mean transfer efficiency rather than subpopulation analysis. However, the manuscript does not provide a detailed validation of the new fitting approach, nor does it discuss potential systematic errors in the determination of the mean transfer efficiency, such as the influence of dye photophysics, linker dynamics, or the presence of multiple bound states. The choice of model (1:1 vs 1:4) is stated to be justified by overparameterization of the latter, but the criteria for this judgment are not fully described.
+  - **Why it matters** The quantitative KD values are central to the claim that net charge and charge clustering modulate affinity. If the fitting procedure introduces systematic bias, the reported trends and the comparison between variants could be affected. The discrepancy with previously published values also raises questions about the comparability of the present results with earlier work.
+  - **Resolution test** Provide a detailed validation of the fitting procedure, including tests on simulated data with known KD values, a discussion of the sensitivity of the results to the choice of fitting model, and a comparison of the new approach with the previously used subpopulation analysis on the same dataset. Show that the relative differences in KD between variants are robust to the choice of analysis method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the all-atom MD simulations validate the experimental finding that ProTα remains disordered and dynamic in the complex, and that the simulations reproduce the experimentally observed binding behavior.
+  - **Evidence pointer** Figure 3; Methods section "All-atom molecular dynamics simulations"; Supplementary Figs. 5, 7, 8, 21; Supplementary Table 2
+  - **Concern** The manuscript states that results were dependent on the force field used, and that only the DES-AMBER force field produced results consistent with experiments. This is a significant caveat. The authors do not provide a thorough analysis of why other force fields fail, nor do they discuss whether the DES-AMBER results are robust to simulation length, system size, or initial conditions beyond the two runs mentioned. The comparison between simulated and experimental NMR relaxation parameters is presented as validation, but the level of agreement is not quantified in a rigorous manner.
+  - **Why it matters** The MD simulations are used to support the central claim of a dynamic, disordered complex. If the simulations are highly force-field dependent, the conclusions drawn from them are less robust. The lack of a detailed convergence analysis and a quantitative comparison with experiments weakens the evidential value of the simulations.
+  - **Resolution test** Provide a more detailed analysis of the force-field dependence, including a discussion of the physical reasons for the observed differences. Show convergence of the key observables with respect to simulation length. Quantify the agreement between simulated and experimental relaxation parameters using appropriate statistical measures. Discuss the limitations of the simulation approach in the context of the conclusions drawn.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation
+  - **Claim pointer** The authors claim that the interaction between ProTα and GD is "without a well-defined binding site" and that the complex is characterized by "no persistent contacts between specific residues."
+  - **Evidence pointer** Figures 1, 2, 3; Results sections "ProTα remains disordered in complex with a folded partner" and "ProTα forms a dynamic complex with GD without persistent contacts"
+  - **Concern** The evidence for the absence of a well-defined binding site is largely indirect. The NMR CSPs are broad and distributed, and the MD simulations show short-lived contacts. However, the manuscript does not provide a rigorous statistical analysis of the contact lifetimes or a comparison with a null model. The claim that there are "no persistent contacts" is based on a mean contact lifetime of 4.5 ns, but the distribution of lifetimes is not shown, and the threshold for "persistent" is not defined. Furthermore, the possibility of a small number of higher-affinity contacts that are masked by the averaging over a large number of weak contacts is not discussed.
+  - **Why it matters** The claim of a "fuzzy" complex without a defined interface is a key conceptual contribution of the paper. If this claim is not rigorously supported, the novelty and significance of the work are diminished.
+  - **Resolution test** Provide a more detailed analysis of the contact lifetimes, including the full distribution and a comparison with a control simulation of a non-interacting system. Define a clear threshold for "persistent" contacts. Discuss the possibility of a heterogeneous ensemble with a small number of more stable contacts and how the current data address this possibility.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the coarse-grained simulations recapitulate the experimentally measured affinities for the charge variants and provide insight into the thermodynamic driving forces.
+  - **Evidence pointer** Figure 5E, 5F; Methods section "Coarse-grained simulations of 1:1 binding"
+  - **Concern** The correlation between simulated and experimental KD values is presented, but the statistical significance of this correlation is not reported. The coarse-grained model is described as being the same as in ref. 16, but the modifications for the mutants are only briefly described. The extraction of enthalpy and entropy from the temperature dependence of KD in the simulations is a strong claim that requires careful validation, particularly given the known challenges of accurately estimating entropic contributions in coarse-grained models.
+  - **Why it matters** The simulations are used to support the mechanistic interpretation that charge clustering affects affinity through enthalpy-entropy compensation. If the simulation results are not robustly validated, this interpretation remains speculative.
+  - **Resolution test** Report the correlation coefficient and its significance. Provide a more detailed description of the model modifications. Validate the enthalpy and entropy estimates by comparing with independent methods or by showing convergence with respect to simulation parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1B
+  - **Evidence pointer** Figure 1B
+  - **Issue** The figure shows CSPs plotted against molar ratio, but the lines are described as "drawn to guide the eye." It is unclear whether these lines represent fits to a binding model or are simply interpolations.
+  - **Required correction** Clarify in the figure legend whether the lines are fits or guides. If they are fits, specify the model used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Analysis of binding affinities"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the fitting procedure for the smFRET data is not fully detailed. It is not clear how the mean transfer efficiency was converted to a binding isotherm, and what the exact form of the fitting equation was.
+  - **Required correction** Provide the full fitting equation and a description of the fitting procedure, including any constraints applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph 3
+  - **Evidence pointer** Discussion section
+  - **Issue** The statement that "changes in local ion concentrations" could regulate this type of complex is speculative and not directly supported by the data presented.
+  - **Required correction** Soften the claim or provide a reference to support this speculation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The table lists "Relative CSPsum" values, but the normalization procedure is only described in the text. It would be helpful to have a brief description in the table legend.
+  - **Required correction** Add a sentence to the table legend explaining the normalization.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Coarse-grained simulations of multiple GDs interacting with the single prothymosin α"
+  - **Evidence pointer** Methods section
+  - **Issue** The method for estimating the interdye distance from the simulations, by adding nine effective residues, is an approximation that could introduce systematic errors in the calculated transfer efficiencies. The sensitivity of the results to this approximation is not discussed.
+  - **Required correction** Discuss the potential impact of this approximation on the conclusions and, if possible, test the sensitivity of the results to the value of the added residues.
+- **Technical failings that need to be addressed before the case is established** The validation of the smFRET fitting procedure (R1-M1) and the force-field dependence of the MD simulations (R1-M2) are the most critical technical issues. The lack of a rigorous statistical analysis of contact lifetimes (R1-M3) also needs to be addressed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its systematic experimental and computational dissection of a charge-driven IDP-folded domain complex. The finding that charge clustering, not just net charge, matters is a novel contribution.
+  - **Scientific importance** The work addresses a fundamental question in IDP biology and provides a framework for understanding a class of interactions that is likely underappreciated. The results have implications for understanding histone chaperone function and the general principles of IDP interactions.
+  - **Interdisciplinary readership** The work will appeal to biophysicists, structural biologists, and cell biologists interested in protein interactions. The methodological combination is of broad interest.
+  - **Technical soundness** The experimental techniques are state-of-the-art and generally well executed. However, the concerns about the smFRET analysis and the force-field dependence of the simulations are significant and need to be resolved.
+  - **Readability for nonspecialists** The manuscript is well written and the main concepts are accessible. The figures are clear and informative. The methods section is detailed, though some parts are dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claims are interesting and likely correct, but the quantitative analysis needs to be more rigorously validated before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that the complex is formed "without persistent contacts" is not rigorously supported by the data presented, as the analysis of contact lifetimes is not shown in detail.
+- The claim that the coarse-grained simulations recapitulate the experimental affinities is not supported by a statistical analysis of the correlation.
+- The claim that charge clustering affects affinity through enthalpy-entropy compensation is based on simulation results that are not fully validated.
+- The statement that "more such complexes exist" is speculative and not directly supported by the data.
+- The quantitative KD values obtained from the new smFRET analysis approach are not fully validated and differ from previously published values.

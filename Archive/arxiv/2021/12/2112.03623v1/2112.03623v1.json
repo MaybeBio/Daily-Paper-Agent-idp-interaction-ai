@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2112.03623v1",
+  "title": "A silicon qubit platform for in situ single molecule structure determination",
+  "doi": "",
+  "abstract": "Imaging individual conformational instances of generic, inhomogeneous, transient or intrinsically disordered protein systems at the single molecule level in situ is one of the notable challenges in structural biology. Present techniques access averaged structural information by measuring over large ensembles of proteins in nearly uniform conformational states in synthetic environments. This poses significant implications for diagnostics and drug design which require a detailed understanding of subtle conformational changes, small molecule interactions and ligand dynamics. Here we tackle the problem by designing a single molecule imaging platform technology embracing the advantages silicon-based spin qubits offer in terms of quantum coherence and established fabrication pathways. We demonstrate through detailed simulation, that this platform enables scalable atomic-level structure-determination of individual molecular systems in native environments. The approach is particularly well suited to the high-value lipid-membrane context, and as such its experimental implementation could have far-reaching consequences for the understanding of membrane biology and drug development.",
+  "authors": [
+    "Viktor S. Perunicic",
+    "Muhammad Usman",
+    "Charles D. Hill",
+    "Lloyd C. L. Hollenberg"
+  ],
+  "published_date": "2021-12-07T10:42:09Z",
+  "updated_date": "2021-12-07T10:42:09Z",
+  "journal": "",
+  "category": "quant-ph",
+  "landing_url": "https://arxiv.org/abs/2112.03623v1",
+  "pdf_url": "https://arxiv.org/pdf/2112.03623v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "quant-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2112.03623v1",
+    "raw_categories": [
+      "quant-ph"
+    ],
+    "journal_ref": ""
+  }
+}

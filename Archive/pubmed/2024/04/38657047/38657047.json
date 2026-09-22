@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "38657047",
+    "doi": "10.1073/pnas.2316408121",
+    "title": "HYPK: A marginally disordered protein sensitive to charge decoration."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) that lie close to the empirical boundary separating IDPs and folded proteins in Uversky's charge-hydropathy plot may behave as \"marginal IDPs\" and sensitively switch conformation upon changes in environment (temperature, crowding, and charge screening), sequence, or both. In our search for such a marginal IDP, we selected Huntingtin-interacting protein K (HYPK) near that boundary as a candidate; PKIalpha, also near that boundary, has lower secondary structure propensity; and Crk1, just across the boundary on the folded side, has higher secondary structure propensity. We used a qualitative Forster resonance energy transfer-based assay together with circular dichroism to simultaneously probe global and local conformation. HYPK shows several unique features indicating marginality: a cooperative transition in end-to-end distance with temperature, like Crk1 and folded proteins, but unlike PKIalpha; enhanced secondary structure upon crowding, in contrast to Crk1 and PKIalpha; and a cross-over from salt-induced expansion to compaction at high temperature, likely due to a structure-to-disorder transition not seen in Crk1 and PKIalpha. We then tested HYPK's sensitivity to charge patterning by designing charge-flipped variants including two specific sequences with identical amino acid composition that markedly differ in their predicted size and response to salt. The experimentally observed trends, also including mutants of PKIalpha, verify the predictions from sequence charge decoration metrics. Marginal proteins like HYPK show features of both folded and disordered proteins that make them sensitive to physicochemical perturbations and structural control by charge patterning.",
+    "keywords": [
+      "Huntington's disease",
+      "intrinsically disordered protein",
+      "sequence charge decoration"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/genetics",
+      "Protein Folding",
+      "Circular Dichroism",
+      "Protein Structure, Secondary",
+      "Humans",
+      "Fluorescence Resonance Energy Transfer",
+      "Temperature",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Firouzbakht, Arash",
+        "Haider, Austin",
+        "Gaalswyk, Kari",
+        "Alaeen, Sepehr",
+        "Ghosh, Kingshuk",
+        "Gruebele, Martin"
+      ],
+      "short_names": [
+        "Firouzbakht A",
+        "Haider A",
+        "Gaalswyk K",
+        "Alaeen S",
+        "Ghosh K",
+        "Gruebele M"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-4918-1750",
+        "ORCID: 0000-0002-0309-1126",
+        "ORCID: 0000-0003-4976-0986",
+        "ORCID: 0000-0001-9291-8123"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois at Urbana Champaign, Urbana Champaign, IL 61801.",
+        "Department of Molecular and Cellular Biophysics, University of Denver, Denver, CO 80210.",
+        "Department of Physics and Astronomy, University of Denver, Denver, CO 80210.",
+        "Center for Biophysics and Quantitative Biology, University of Illinois at Urbana Champaign, Urbana Champaign, IL 61801.",
+        "Department of Physics and Astronomy, University of Denver, Denver, CO 80210.",
+        "Department of Chemistry, University of Illinois at Urbana Champaign, Urbana Champaign, IL 61801.",
+        "Center for Biophysics and Quantitative Biology, University of Illinois at Urbana Champaign, Urbana Champaign, IL 61801.",
+        "Department of Physics, University of Illinois at Urbana Champaign, Urbana Champaign, IL 61801.",
+        "Carle-Illinois College of Medicine, University of Illinois Urbana Champaign, Urbana Champaign, IL 61801.",
+        "Center for Advanced Study, University of Illinois Urbana Champaign, Urbana Champaign, IL 61801."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Firouzbakht, Arash",
+        "short_name": "Firouzbakht A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Urbana Champaign, Urbana Champaign, IL 61801."
+        ]
+      },
+      {
+        "full_name": "Haider, Austin",
+        "short_name": "Haider A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Biophysics, University of Denver, Denver, CO 80210."
+        ]
+      },
+      {
+        "full_name": "Gaalswyk, Kari",
+        "short_name": "Gaalswyk K",
+        "identifiers": [
+          "0009-0008-4918-1750"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Denver, Denver, CO 80210."
+        ]
+      },
+      {
+        "full_name": "Alaeen, Sepehr",
+        "short_name": "Alaeen S",
+        "identifiers": [
+          "0000-0002-0309-1126"
+        ],
+        "affiliations": [
+          "Center for Biophysics and Quantitative Biology, University of Illinois at Urbana Champaign, Urbana Champaign, IL 61801."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Kingshuk",
+        "short_name": "Ghosh K",
+        "identifiers": [
+          "0000-0003-4976-0986"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Denver, Denver, CO 80210."
+        ]
+      },
+      {
+        "full_name": "Gruebele, Martin",
+        "short_name": "Gruebele M",
+        "identifiers": [
+          "0000-0001-9291-8123"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Urbana Champaign, Urbana Champaign, IL 61801.",
+          "Center for Biophysics and Quantitative Biology, University of Illinois at Urbana Champaign, Urbana Champaign, IL 61801.",
+          "Department of Physics, University of Illinois at Urbana Champaign, Urbana Champaign, IL 61801.",
+          "Carle-Illinois College of Medicine, University of Illinois Urbana Champaign, Urbana Champaign, IL 61801.",
+          "Center for Advanced Study, University of Illinois Urbana Champaign, Urbana Champaign, IL 61801."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2024 Apr 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/24 19:06",
+    "fetched_at": "2026-09-21 06:42:08"
+  },
+  "links": {
+    "cites": [
+      "41298246",
+      "40998749",
+      "39600093",
+      "39504303"
+    ],
+    "refs": [
+      "38250712",
+      "38177684",
+      "37657994",
+      "36695540",
+      "36416865",
+      "35119946",
+      "34557680",
+      "34504002",
+      "33782395",
+      "33587794",
+      "32357776",
+      "32338601",
+      "32145247",
+      "32029630",
+      "31805437",
+      "31659043",
+      "31488718",
+      "31139718",
+      "30873835",
+      "30384718",
+      "30193467",
+      "30130111",
+      "29604827",
+      "29466338",
+      "29078291",
+      "28607089",
+      "28585574",
+      "28483149",
+      "27145874",
+      "27140628",
+      "26923443",
+      "26808899",
+      "26331261",
+      "26328871",
+      "25863585",
+      "24773235",
+      "24706910",
+      "24639500",
+      "24010673",
+      "23901099",
+      "22984159",
+      "21453060",
+      "20972448",
+      "20639465",
+      "20428473",
+      "20404210",
+      "19933333",
+      "19768526",
+      "18573080",
+      "18506808",
+      "17515907",
+      "16909416",
+      "16343531",
+      "15738986",
+      "12271132",
+      "11784292",
+      "11025552",
+      "10908673",
+      "7108955",
+      "4762916"
+    ],
+    "similar": [
+      "38657047",
+      "29604827",
+      "24150971",
+      "36674958",
+      "30193467",
+      "18076027",
+      "25244701",
+      "31756456",
+      "30066087",
+      "29716994",
+      "25287424",
+      "32357776",
+      "28970487",
+      "37709541",
+      "30025858",
+      "29381348",
+      "20483348",
+      "29362761",
+      "31557007",
+      "40185744",
+      "29734867",
+      "38079339",
+      "25816771",
+      "32696367",
+      "26195786",
+      "18004752",
+      "32227994",
+      "27936491",
+      "23848319",
+      "42171195",
+      "33865811",
+      "32393642",
+      "33810353",
+      "26851279",
+      "30021108",
+      "33230318",
+      "23754493",
+      "34358545",
+      "26918762",
+      "42418518",
+      "35436286",
+      "32103094",
+      "30144197",
+      "31441158",
+      "34439840",
+      "27111521",
+      "28890401",
+      "39642200",
+      "32253236",
+      "27844185",
+      "41298246",
+      "39196930",
+      "30571124",
+      "34390736",
+      "32352283",
+      "24317797",
+      "31425549",
+      "29763584",
+      "33945530",
+      "35454150",
+      "25496281",
+      "29228892",
+      "39740355",
+      "27752679",
+      "32097582",
+      "32639157",
+      "26742101",
+      "22821527",
+      "28109185",
+      "34545666",
+      "31488718",
+      "28661120",
+      "42332380",
+      "41085093",
+      "28365882",
+      "28847960",
+      "42239067",
+      "26851286",
+      "35053175",
+      "32771522",
+      "40823744",
+      "18831774",
+      "37831084",
+      "19768526",
+      "24010708",
+      "23606624",
+      "25464275",
+      "31626641",
+      "20639465",
+      "41053403",
+      "21766125",
+      "28097742",
+      "27017930",
+      "32933064",
+      "35167081",
+      "35470621",
+      "29990433",
+      "33137381",
+      "24278008",
+      "36291634"
+    ],
+    "review": [
+      "38657047",
+      "30066087",
+      "25287424",
+      "26851279",
+      "34358545",
+      "30144197",
+      "31441158",
+      "32253236",
+      "34390736",
+      "39740355",
+      "32097582",
+      "34545666",
+      "26851286",
+      "35053175",
+      "19768526"
+    ],
+    "pmc": [
+      "11067017"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2316408121?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/38657047/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38657047/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

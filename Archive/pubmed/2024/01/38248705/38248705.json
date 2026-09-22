@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "38248705",
+    "doi": "10.3390/membranes14010015",
+    "title": "Phase-Dependent Adsorption of Myelin Basic Protein to Phosphatidylcholine Lipid Bilayers."
+  },
+  "content": {
+    "abstract": "The dense packing of opposite cytoplasmic surfaces of the lipid-enriched myelin membrane, responsible for the proper saltatory conduction of nerve impulses through axons, is ensured by the adhesive properties of myelin basic protein (MBP). Although preferentially interacting with negatively charged phosphatidylserine (PS) lipids, as an intrinsically disordered protein, it can easily adapt its shape to its immediate environment and thus adsorb to domains made of zwitterionic phosphatidylcholine (PC) lipids. As the molecular-level interaction pattern between MBP and PC lipid membranes suffers from scarce characterization, an experimental and computational study of multilamellar liposomes (MLVs) composed of 1,2-dipalmitoyl-sn-glycero-3-phosphocholine (DPPC) in the presence of bovine MBP is presented here. Calorimetric and temperature-dependent UV-Vis measurements identified DPPC pretransition temperature (T(p)) and calorimetric enthalpy (DeltaH(cal)) as the physicochemical parameters most responsive to the presence of MBP. Besides suggesting an increase in beta-sheet fractions of structured MBP segments as DPPC lipids undergo from the gel (20  degrees C) to the fluid (50  degrees C) phase, FTIR spectra unraveled the significant contribution of lysine (Lys) residues in the adsorption pattern, especially when DPPC is in the fluid (50  degrees C) phase. In addition to highlighting the importance of Lys residues in the MBP adsorption on DPPC lipid bilayer, employing salt bridges (SBs) and hydrogen bonds (HBs), MD data suggest the crucial importance of the orientation of MBP with respect to the surface of the DPPC lipid bilayer.",
+    "keywords": [
+      "1,2-dipalmitoyl-sn-glycero-3-phosphocholine (DPPC)",
+      "lipid phase-dependent hydration of MBP hydrophobic amino acids",
+      "molecular dynamics (MD) simulations",
+      "myelin basic protein (MBP)",
+      "spectroscopic (UV-Vis, FTIR, CD) and calorimetric (DSC) measurements"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Males, Petra",
+        "Brkljaca, Zlatko",
+        "Crnolatac, Ivo",
+        "Petrov, Drazen",
+        "Bakaric, Danijela"
+      ],
+      "short_names": [
+        "Males P",
+        "Brkljaca Z",
+        "Crnolatac I",
+        "Petrov D",
+        "Bakaric D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9914-9010",
+        "ORCID: 0000-0001-6221-7369",
+        "ORCID: 0000-0002-5345-575X"
+      ],
+      "affiliations": [
+        "Division for Organic Chemistry and Biochemistry, Ruder Boskovic Institute, Bijenicka 54, 10000 Zagreb, Croatia.",
+        "Division for Organic Chemistry and Biochemistry, Ruder Boskovic Institute, Bijenicka 54, 10000 Zagreb, Croatia.",
+        "Division for Organic Chemistry and Biochemistry, Ruder Boskovic Institute, Bijenicka 54, 10000 Zagreb, Croatia.",
+        "Institute of Molecular Modeling and Simulation, University of Natural Resources and Life Sciences, 1180 Vienna, Austria.",
+        "Division for Organic Chemistry and Biochemistry, Ruder Boskovic Institute, Bijenicka 54, 10000 Zagreb, Croatia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maleš, Petra",
+        "short_name": "Maleš P",
+        "identifiers": [],
+        "affiliations": [
+          "Division for Organic Chemistry and Biochemistry, Ruđer Bošković Institute, Bijenička 54, 10000 Zagreb, Croatia."
+        ]
+      },
+      {
+        "full_name": "Brkljača, Zlatko",
+        "short_name": "Brkljača Z",
+        "identifiers": [],
+        "affiliations": [
+          "Division for Organic Chemistry and Biochemistry, Ruđer Bošković Institute, Bijenička 54, 10000 Zagreb, Croatia."
+        ]
+      },
+      {
+        "full_name": "Crnolatac, Ivo",
+        "short_name": "Crnolatac I",
+        "identifiers": [
+          "0000-0002-9914-9010"
+        ],
+        "affiliations": [
+          "Division for Organic Chemistry and Biochemistry, Ruđer Bošković Institute, Bijenička 54, 10000 Zagreb, Croatia."
+        ]
+      },
+      {
+        "full_name": "Petrov, Dražen",
+        "short_name": "Petrov D",
+        "identifiers": [
+          "0000-0001-6221-7369"
+        ],
+        "affiliations": [
+          "Institute of Molecular Modeling and Simulation, University of Natural Resources and Life Sciences, 1180 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Bakarić, Danijela",
+        "short_name": "Bakarić D",
+        "identifiers": [
+          "0000-0002-5345-575X"
+        ],
+        "affiliations": [
+          "Division for Organic Chemistry and Biochemistry, Ruđer Bošković Institute, Bijenička 54, 10000 Zagreb, Croatia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Membranes"
+    ],
+    "journal_abbrev": [
+      "Membranes (Basel)"
+    ],
+    "pub_date": "2024 Jan 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/22 06:42",
+    "fetched_at": "2026-09-21 04:29:42"
+  },
+  "links": {
+    "cites": [
+      "41002914"
+    ],
+    "refs": [
+      "36896314",
+      "36739945",
+      "36739930",
+      "36676890",
+      "36234809",
+      "36216096",
+      "36017811",
+      "35591946",
+      "35177069",
+      "35176647",
+      "34889995",
+      "34827627",
+      "34610267",
+      "34265844",
+      "34234647",
+      "33647711",
+      "33534058",
+      "33028889",
+      "32426975",
+      "32309751",
+      "32202114",
+      "32145283",
+      "31817975",
+      "30755303",
+      "30532691",
+      "30250771",
+      "29441133",
+      "29382046",
+      "29176711",
+      "28694532",
+      "28287224",
+      "27819658",
+      "27417284",
+      "26827711",
+      "26273684",
+      "25654756",
+      "25542507",
+      "24516125",
+      "24187427",
+      "23762018",
+      "23098834",
+      "22947219",
+      "22760323",
+      "21647440",
+      "21456972",
+      "21130728",
+      "20556825",
+      "19768526",
+      "19452287",
+      "19218452",
+      "19121309",
+      "17951734",
+      "17692815",
+      "17513373",
+      "17434939",
+      "16794783",
+      "15219899",
+      "14630913",
+      "10457593",
+      "10394626",
+      "9895674",
+      "9861687",
+      "9666088",
+      "9634652",
+      "9020142",
+      "2438566",
+      "1383423",
+      "1069270",
+      "90525"
+    ],
+    "similar": [
+      "38248705",
+      "36739930",
+      "37508312",
+      "24296232",
+      "39137531",
+      "22053903",
+      "10866969",
+      "26368000",
+      "23871914",
+      "23792704",
+      "36216096",
+      "27934518",
+      "24060562",
+      "39002469",
+      "11777388",
+      "7696506",
+      "37813090",
+      "31457839",
+      "36522815",
+      "10441425",
+      "37244538",
+      "20386666",
+      "8785291",
+      "21951051",
+      "7577962",
+      "20334434",
+      "10441424",
+      "10620293",
+      "26420659",
+      "20180577",
+      "30707888",
+      "19218452",
+      "35651317",
+      "29717612",
+      "36017811",
+      "20666521",
+      "11248205",
+      "36676890",
+      "18563929",
+      "10679790",
+      "18763819",
+      "2297558",
+      "25732198",
+      "10620289",
+      "15875872",
+      "2116171",
+      "20496934",
+      "35176647",
+      "17007828",
+      "30308198",
+      "37493091",
+      "22443684",
+      "8347622",
+      "33998060",
+      "25706854",
+      "36903487",
+      "15972235",
+      "27421575",
+      "30643419",
+      "3607045",
+      "25847673",
+      "33291449",
+      "20036213",
+      "26585353",
+      "23215148",
+      "24668218",
+      "20064684",
+      "28585804",
+      "24516125",
+      "21194215",
+      "8744311",
+      "3207741",
+      "6631959",
+      "8770209",
+      "25596372",
+      "1501242",
+      "23701821",
+      "25445167",
+      "9916039",
+      "6896670",
+      "22041198",
+      "16229507",
+      "24997357",
+      "11388903",
+      "21595453",
+      "10379991",
+      "27147404",
+      "12488037",
+      "34310940",
+      "21376014",
+      "15737332",
+      "19576903",
+      "10869185",
+      "3338097",
+      "11342156",
+      "26620814",
+      "27558724",
+      "31459298",
+      "25839354",
+      "29853639"
+    ],
+    "review": [
+      "38248705"
+    ],
+    "pmc": [
+      "10819005"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=membranes14010015",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38248705/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38248705",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1475",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

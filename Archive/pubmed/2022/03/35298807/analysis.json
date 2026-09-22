@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35298807",
+  "title": "Tools for Characterizing Proteins: Circular Variance, Mutual Proximity, Chameleon Sequences, and Subsequence Propensities.",
+  "authors": "Mezei, Mihaly",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2022-03-18",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍四种蛋白质结构表征工具（圆方差、相互邻近、变色龙序列、子序列倾向性），并用于无序蛋白折叠性、蛋白-蛋白界面及对接评分等，但以方法工具综述为主，缺乏对无序蛋白互作机制的深入建模。",
+  "abstract": "For the characterization of various aspects of protein structures, four useful concepts are discussed: chameleon sequences, circular variance, mutual proximity, and a subsequence-based foldability score. These concepts were used in estimating foldability of globular, intrinsically disordered and fold-switching proteins, properties of protein-protein interfaces, quantifying sphericity, helping to improve protein-protein docking scores, and estimating the effect of mutations on stability. A conjecture about the Achilles' heel of proteins is presented as well.",
+  "abstract_zh": "为表征蛋白质结构的各个方面，讨论了四个有用的概念：嵌合序列（chameleon sequences）、圆形方差（circular variance）、相互邻近性（mutual proximity）以及基于子序列的可折叠性评分（subsequence-based foldability score）。这些概念被用于评估球状蛋白、固有无序蛋白和折叠转换蛋白的可折叠性，蛋白质-蛋白质界面的特性，量化球形度，帮助改进蛋白质-蛋白质对接评分，以及评估突变对稳定性的影响。此外，还提出了关于蛋白质“阿喀琉斯之踵”的一个猜想。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35298807/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35298807/",
+  "paper_page_path": "papers/pubmed/35298807/index.html"
+}

@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "40881353",
+    "doi": "10.1016/j.xcrp.2025.102695",
+    "title": "The dimerization domain of SARS-CoV-2 nucleocapsid protein is partially disordered and forms a dynamic high-affinity dimer."
+  },
+  "content": {
+    "abstract": "The SARS-CoV-2 nucleocapsid (N) drives the compaction and packaging of the viral genome. Here, we focused on quantifying the mechanisms that control dimer formation utilizing single-molecule Forster resonance energy transfer to investigate the conformations and energetics of the dimerization domain in the context of the full-length protein. Under monomeric conditions, we observed significantly expanded configurations of the dimerization domain (compared to the folded dimer structure), which is consistent with a dynamic conformational ensemble. The addition of unlabeled protein stabilizes a folded dimer configuration with a high mean transfer efficiency, which is in agreement with predictions based on known structures. Dimerization is characterized by a dissociation constant of ~12 nM at 23 degrees C and is driven by strong enthalpic interactions between the two protein subunits, which originate from the coupled folding and binding. We propose that the retained flexibility of the dimer can affect its interaction with RNA and phase separation propensity.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cubuk, Jasmine",
+        "Incicco, J Jeremias",
+        "Hall, Kathleen B",
+        "Holehouse, Alex S",
+        "Stuchell-Brereton, Melissa D",
+        "Soranno, Andrea"
+      ],
+      "short_names": [
+        "Cubuk J",
+        "Incicco JJ",
+        "Hall KB",
+        "Holehouse AS",
+        "Stuchell-Brereton MD",
+        "Soranno A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, 660 Euclid Avenue, St. Louis, MO 63110, USA.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, 1 Brookings Drive, St. Louis, MO 63130, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, 660 Euclid Avenue, St. Louis, MO 63110, USA.",
+        "Present address: Instituto de Quimica y Fisicoquimica Biologicas, Universidad de Buenos Aires - CONICET, Buenos Aires, Argentina.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, 660 Euclid Avenue, St. Louis, MO 63110, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, 660 Euclid Avenue, St. Louis, MO 63110, USA.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, 1 Brookings Drive, St. Louis, MO 63130, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, 660 Euclid Avenue, St. Louis, MO 63110, USA.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, 1 Brookings Drive, St. Louis, MO 63130, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, 660 Euclid Avenue, St. Louis, MO 63110, USA.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, 1 Brookings Drive, St. Louis, MO 63130, USA.",
+        "Lead contact."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cubuk, Jasmine",
+        "short_name": "Cubuk J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, 660 Euclid Avenue, St. Louis, MO 63110, USA.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, 1 Brookings Drive, St. Louis, MO 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Incicco, J Jeremías",
+        "short_name": "Incicco JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, 660 Euclid Avenue, St. Louis, MO 63110, USA.",
+          "Present address: Instituto de Química y Fisicoquímica Biológicas, Universidad de Buenos Aires - CONICET, Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Hall, Kathleen B",
+        "short_name": "Hall KB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, 660 Euclid Avenue, St. Louis, MO 63110, USA."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, 660 Euclid Avenue, St. Louis, MO 63110, USA.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, 1 Brookings Drive, St. Louis, MO 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Stuchell-Brereton, Melissa D",
+        "short_name": "Stuchell-Brereton MD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, 660 Euclid Avenue, St. Louis, MO 63110, USA.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, 1 Brookings Drive, St. Louis, MO 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Soranno, Andrea",
+        "short_name": "Soranno A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, 660 Euclid Avenue, St. Louis, MO 63110, USA.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, 1 Brookings Drive, St. Louis, MO 63130, USA.",
+          "Lead contact."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports. Physical science"
+    ],
+    "journal_abbrev": [
+      "Cell Rep Phys Sci"
+    ],
+    "pub_date": "2025 Jul 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/31 04:45",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [
+      "41970879",
+      "41468288",
+      "41118627",
+      "40568176",
+      "39464032"
+    ],
+    "refs": [
+      "39196624",
+      "38153183",
+      "37463458",
+      "36749730",
+      "36266465",
+      "35871289",
+      "35783502",
+      "34478493",
+      "34265844",
+      "34031561",
+      "33997662",
+      "33782395",
+      "33200826",
+      "33039147",
+      "32979942",
+      "32914439",
+      "32654247",
+      "32416961",
+      "30644840",
+      "30156409",
+      "30134733",
+      "29604882",
+      "28760960",
+      "28331093",
+      "28223518",
+      "28103588",
+      "26588361",
+      "26488642",
+      "25700263",
+      "24706910",
+      "24010673",
+      "23717688",
+      "23276541",
+      "21203940",
+      "20547872",
+      "19933333",
+      "18506808",
+      "17379242",
+      "17243791",
+      "16857738",
+      "16775348",
+      "16426636",
+      "16113120"
+    ],
+    "similar": [
+      "40881353",
+      "39386676",
+      "38153183",
+      "33794152",
+      "33782395",
+      "35696898",
+      "32766587",
+      "37348142",
+      "34022485",
+      "39082816",
+      "38718862",
+      "16627473",
+      "32587966",
+      "18305043",
+      "23745598",
+      "33039147",
+      "34100017",
+      "33270159",
+      "11718556",
+      "34381460",
+      "17379242",
+      "40820302",
+      "30217825",
+      "11580254",
+      "17070549",
+      "17113101",
+      "17257616",
+      "33479198",
+      "33200826",
+      "34765991",
+      "10433723",
+      "15849181",
+      "32654247",
+      "15596505",
+      "32511359",
+      "9344748",
+      "16603544",
+      "40574713",
+      "38686454",
+      "19933326",
+      "15644211",
+      "35051498",
+      "31068467",
+      "8665929",
+      "12450388",
+      "40375582",
+      "40503686",
+      "31852780",
+      "35563658",
+      "14681591",
+      "11284685",
+      "36748338",
+      "31594639",
+      "20565056",
+      "16228284",
+      "16055542",
+      "40490992",
+      "18561946",
+      "15210358",
+      "34339197",
+      "36533523",
+      "10518944",
+      "12731867",
+      "36334779",
+      "15457265",
+      "18942858",
+      "36807437",
+      "29045818",
+      "36040256",
+      "37901441",
+      "34665939",
+      "31570521",
+      "34161778",
+      "18946871",
+      "15982668",
+      "11222101",
+      "39341499",
+      "35883485",
+      "15507456",
+      "35357183",
+      "17029403",
+      "33248025",
+      "24568626",
+      "36480418",
+      "8969239",
+      "17706668",
+      "19153232",
+      "21998393",
+      "34064163",
+      "17002283",
+      "34529947",
+      "17713925",
+      "40945576",
+      "12015150",
+      "8634290",
+      "37515286",
+      "17977841",
+      "35337013",
+      "36202211",
+      "39512937"
+    ],
+    "review": [
+      "40881353",
+      "34064163"
+    ],
+    "pmc": [
+      "12385586"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/102695",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40881353/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "source": "arxiv",
+  "source_id": "2406.18744v1",
+  "title": "Quantum Resources Required for Binding Affinity Calculations of Amyloid beta",
+  "doi": "",
+  "abstract": "Amyloid beta, an intrinsically disordered protein, plays a seemingly important but not well-understood role in neurodegenerative diseases like Alzheimer's disease. A key feature of amyloid beta, which could lead to potential therapeutic intervention pathways, is its binding affinity to certain metal centers, like iron and copper. Numerically calculating such binding affinities is a computationally challenging task, involving strongly correlated metal centers. A key bottleneck in understanding the binding affinity is obtaining estimates of the ground state energy. Quantum computers have the potential to accelerate such calculations but it is important to understand the quantum resources required. In this work, we detail a computational workflow for binding affinity calculations for amyloid beta utilizing quantum algorithms, providing estimated quantum resources required, at both the logical and hardware level.",
+  "authors": [
+    "Matthew Otten",
+    "Thomas W. Watts",
+    "Samuel D. Johnson",
+    "Rashmi Sundareswara",
+    "Zhihui Wang",
+    "Tarini S. Hardikar",
+    "Kenneth Heitritter",
+    "James Brown",
+    "Kanav Setia",
+    "Adam Holmes"
+  ],
+  "published_date": "2024-06-26T20:19:14Z",
+  "updated_date": "2024-06-26T20:19:14Z",
+  "journal": "",
+  "category": "quant-ph",
+  "landing_url": "https://arxiv.org/abs/2406.18744v1",
+  "pdf_url": "https://arxiv.org/pdf/2406.18744v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "quant-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2406.18744v1",
+    "raw_categories": [
+      "quant-ph"
+    ],
+    "journal_ref": ""
+  }
+}

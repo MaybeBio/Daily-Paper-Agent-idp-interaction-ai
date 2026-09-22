@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "42027070",
+    "doi": "10.1039/d6cp00884d",
+    "title": "Moiety-specific mechanism of ATP's hydrotropic action on alpha-synuclein."
+  },
+  "content": {
+    "abstract": "Adenosine triphosphate (ATP), the universal energy currency of life, also acts as a biological hydrotrope that maintains protein solubility. However, the molecular mechanism underlying its hydrotropic action, particularly how its distinct chemical moieties contribute to modulating protein conformation and preventing aggregation, remains unclear. Here, we combined NMR spectroscopy and molecular dynamics (MD) simulations to dissect the moiety-specific interactions between ATP and alpha-synuclein, an intrinsically disordered protein implicated in Parkinson's disease. NMR titration experiments monitoring ATP signals revealed that the adenine ring of ATP formed weak multisite interactions with alpha-synuclein, whereas the triphosphate group formed fewer but stronger contacts. MD simulations showed that the triphosphate-mediated contacts occurred primarily at N-terminal lysine residues and disrupted long-range intramolecular contacts, resulting in conformational expansion of alpha-synuclein. Energetic analysis indicated that this expansion incurred a conformational energy cost that was balanced by more favorable solvation. Based on these findings, we propose a \"hierarchical binding hydrotrope mechanism\", in which the predominant contribution of each ATP moiety shifts with ATP concentration because the two moieties differ in microscopic affinity and the number of accessible interaction sites. Triphosphate-mediated binding, limited by the number of available binding sites, increases preferentially at lower ATP concentrations, whereas adenine-mediated binding increases progressively at higher concentrations. This mechanism provides a molecular basis for the concentration-dependent hydrotropic effects of ATP and clarifies how this metabolite modulates the conformational properties of aggregation-prone proteins under physiological conditions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "*Adenosine Triphosphate/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "Protein Conformation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shuto, Yusuke",
+        "Mori, Toshifumi",
+        "Kohn, Benjamin",
+        "Walinda, Erik",
+        "Morimoto, Daichi",
+        "Scheler, Ulrich",
+        "So, Masatomo",
+        "Furukawa, Ayako",
+        "Yoshida, Norio",
+        "Sugase, Kenji"
+      ],
+      "short_names": [
+        "Shuto Y",
+        "Mori T",
+        "Kohn B",
+        "Walinda E",
+        "Morimoto D",
+        "Scheler U",
+        "So M",
+        "Furukawa A",
+        "Yoshida N",
+        "Sugase K"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9904-6372",
+        "ORCID: 0000-0003-0188-0794",
+        "ORCID: 0000-0002-8578-227X",
+        "ORCID: 0000-0003-1882-6401",
+        "ORCID: 0000-0002-7672-2136",
+        "ORCID: 0000-0002-4714-316X",
+        "ORCID: 0000-0002-4815-4995",
+        "ORCID: 0000-0002-7339-4632",
+        "ORCID: 0000-0002-2023-7254",
+        "ORCID: 0000-0001-8623-7743"
+      ],
+      "affiliations": [
+        "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto 606-8502, Japan. sugase.kenji.8c@kyoto-u.ac.jp.",
+        "Institute for Materials Chemistry and Engineering, Kyushu University, Kasuga, Fukuoka 816-8580, Japan.",
+        "Department of Interdisciplinary Engineering Sciences, Interdisciplinary Graduate School of Engineering Sciences, Kyushu University, Kasuga, Fukuoka 816-8580, Japan.",
+        "Leibniz-Institut fur Polymerforschung Dresden e.V., Hohe Str. 6, 01069 Dresden, Germany.",
+        "Department of Molecular and Cellular Physiology, Graduate School of Medicine, Kyoto University, Yoshida Konoe-cho, Sakyo-ku, Kyoto 606-8501, Japan.",
+        "Department of Molecular Engineering, Graduate School of Engineering, Kyoto University, Nishikyo-ku, Kyoto 615-8510, Japan.",
+        "Leibniz-Institut fur Polymerforschung Dresden e.V., Hohe Str. 6, 01069 Dresden, Germany.",
+        "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto 606-8502, Japan. sugase.kenji.8c@kyoto-u.ac.jp.",
+        "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto 606-8502, Japan. sugase.kenji.8c@kyoto-u.ac.jp.",
+        "Graduate School of Informatics, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8601, Japan.",
+        "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto 606-8502, Japan. sugase.kenji.8c@kyoto-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shuto, Yusuke",
+        "short_name": "Shuto Y",
+        "identifiers": [
+          "0000-0001-9904-6372"
+        ],
+        "affiliations": [
+          "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto 606-8502, Japan. sugase.kenji.8c@kyoto-u.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Mori, Toshifumi",
+        "short_name": "Mori T",
+        "identifiers": [
+          "0000-0003-0188-0794"
+        ],
+        "affiliations": [
+          "Institute for Materials Chemistry and Engineering, Kyushu University, Kasuga, Fukuoka 816-8580, Japan.",
+          "Department of Interdisciplinary Engineering Sciences, Interdisciplinary Graduate School of Engineering Sciences, Kyushu University, Kasuga, Fukuoka 816-8580, Japan."
+        ]
+      },
+      {
+        "full_name": "Kohn, Benjamin",
+        "short_name": "Kohn B",
+        "identifiers": [
+          "0000-0002-8578-227X"
+        ],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung Dresden e.V., Hohe Str. 6, 01069 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Walinda, Erik",
+        "short_name": "Walinda E",
+        "identifiers": [
+          "0000-0003-1882-6401"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Physiology, Graduate School of Medicine, Kyoto University, Yoshida Konoe-cho, Sakyo-ku, Kyoto 606-8501, Japan."
+        ]
+      },
+      {
+        "full_name": "Morimoto, Daichi",
+        "short_name": "Morimoto D",
+        "identifiers": [
+          "0000-0002-7672-2136"
+        ],
+        "affiliations": [
+          "Department of Molecular Engineering, Graduate School of Engineering, Kyoto University, Nishikyo-ku, Kyoto 615-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Scheler, Ulrich",
+        "short_name": "Scheler U",
+        "identifiers": [
+          "0000-0002-4714-316X"
+        ],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung Dresden e.V., Hohe Str. 6, 01069 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "So, Masatomo",
+        "short_name": "So M",
+        "identifiers": [
+          "0000-0002-4815-4995"
+        ],
+        "affiliations": [
+          "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto 606-8502, Japan. sugase.kenji.8c@kyoto-u.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Furukawa, Ayako",
+        "short_name": "Furukawa A",
+        "identifiers": [
+          "0000-0002-7339-4632"
+        ],
+        "affiliations": [
+          "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto 606-8502, Japan. sugase.kenji.8c@kyoto-u.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Yoshida, Norio",
+        "short_name": "Yoshida N",
+        "identifiers": [
+          "0000-0002-2023-7254"
+        ],
+        "affiliations": [
+          "Graduate School of Informatics, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8601, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugase, Kenji",
+        "short_name": "Sugase K",
+        "identifiers": [
+          "0000-0001-8623-7743"
+        ],
+        "affiliations": [
+          "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto 606-8502, Japan. sugase.kenji.8c@kyoto-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2026 May 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/24 06:33",
+    "fetched_at": "2026-09-18 02:46:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42027070",
+      "34338526",
+      "37458354",
+      "33345970",
+      "41056468",
+      "40878020",
+      "40315262",
+      "40876040",
+      "37736631",
+      "42411659",
+      "19759002",
+      "41874470",
+      "23583776",
+      "19655784",
+      "19576220",
+      "42093278",
+      "29364151",
+      "34240882",
+      "23607785",
+      "38857533",
+      "41099718",
+      "40818051",
+      "36251789",
+      "20359221",
+      "20620148",
+      "39354680",
+      "31903719",
+      "35130691",
+      "40819080",
+      "40994307",
+      "23374072",
+      "41461747",
+      "23374074",
+      "42114215",
+      "40266569",
+      "26553504",
+      "27273030",
+      "31699336",
+      "39306670",
+      "26723627",
+      "39504036",
+      "40853068",
+      "25811192",
+      "28075555",
+      "29715424",
+      "38358134",
+      "41575228",
+      "28759722",
+      "15095988",
+      "22694188",
+      "22573613",
+      "38321955",
+      "24567327",
+      "29574323",
+      "36278939",
+      "40515635",
+      "41225715",
+      "29633780",
+      "40882443",
+      "24245503",
+      "23964651",
+      "33114222",
+      "40207671",
+      "41301496",
+      "40516596",
+      "40372795",
+      "23912807",
+      "33719460",
+      "28330770",
+      "36608272",
+      "25075858",
+      "33581430",
+      "40605637",
+      "39462994",
+      "33829608",
+      "26477939",
+      "31079926",
+      "28337542",
+      "37462852",
+      "33289734",
+      "18423664",
+      "41948837",
+      "22771474",
+      "38964522",
+      "29704492",
+      "30184304",
+      "33004902",
+      "21832061",
+      "25211773",
+      "42334185",
+      "18693689",
+      "29684503",
+      "17381514",
+      "37823961",
+      "39885825",
+      "33940158",
+      "29874605",
+      "21280118",
+      "27733604",
+      "40216248"
+    ],
+    "review": [
+      "42027070",
+      "29364151"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d6cp00884d",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "http://hdl.handle.net/2433/302302",
+        "provider": "Kyoto University Research Information Repository - Articles",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

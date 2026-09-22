@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary information descriptions
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors report that α-synuclein (αS) preferentially binds the inner leaflet of the presynaptic plasma membrane (IPM) over the outer leaflet (OPM), adopts a conformation with a membrane-unbound region spanning residues 65–97, and stabilizes synaptic vesicle (SV) docking onto IPM in a concentration-dependent manner via a double-anchor mechanism. They further report that ganglioside enrichment in the membrane alters these binding properties.
+- **Visible evidence base** NMR CEST experiments, 15N transverse relaxation measurements, binding curve analyses with KD determinations, circular dichroism spectroscopy, TIRF microscopy with particle tracking, dynamic light scattering, and lipid vesicle preparations
+- **Missing materials affecting confidence** Raw NMR spectra, full TIRF image sequences, statistical analysis details for TIRF data, supplementary figures referenced but not provided, experimental replicates for CD measurements, and details on the fitting procedures for binding curves
+
+## Reviewer
+
+- **Overall assessment** This manuscript addresses an important question in the field of α-synuclein biology, namely how lipid composition modulates the membrane binding properties of αS and how this relates to its proposed function in synaptic vesicle docking. The study combines multiple biophysical techniques to characterize αS binding to physiologically relevant membrane mimics. The central claim that αS preferentially binds IPM and can stabilize SV docking via a double-anchor mechanism is interesting and potentially significant. However, several technical concerns regarding the quantitative analyses, the physiological relevance of the experimental conditions, and the strength of the evidence for the proposed mechanism need to be addressed before the conclusions can be fully supported.
+- **Who would be interested in the results, and why** Researchers studying α-synuclein function and dysfunction in Parkinson's disease, investigators interested in synaptic vesicle trafficking and neurotransmitter release mechanisms, biophysicists studying protein-membrane interactions, and those working on the role of lipid composition in neurodegeneration would find these results relevant. The study provides a potential mechanistic link between lipid alterations in disease and αS function.
+- **Major strengths** The study addresses a timely and important question about how lipid composition modulates αS membrane interactions. The use of physiologically relevant membrane compositions for IPM and OPM is commendable. The combination of NMR CEST, relaxation measurements, and TIRF microscopy provides complementary views of the binding and functional consequences. The double-anchor mechanism is a well-reasoned hypothesis that builds on previous work from the group.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of quantitative binding analyses
+  - **Claim pointer** The authors report KD values of 5.2 μM and 88.9 μM for the N-terminal and central regions of αS binding to IPM, respectively, and much weaker binding to OPM.
+  - **Evidence pointer** Figure 1f, g; Methods section on binding curve fitting
+  - **Concern** The binding curves are derived from signal attenuation in 1H-15N-HSQC spectra, but the manuscript does not provide sufficient detail on how the fraction of bound protein was calculated, whether the fitting accounted for the possibility of multiple binding modes, or how the stoichiometry (L values) was constrained. The reported L values of 14.3 and 10.3 for IPM binding seem surprisingly low given the high lipid-to-protein ratios used, and the manuscript does not explain how these values relate to the vesicle geometry. Additionally, the very high KD values for OPM binding (5.9 mM and 13.7 mM) are based on extrapolations that may exceed the experimentally accessible concentration range, making these estimates unreliable.
+  - **Why it matters** The quantitative comparison of binding affinities between different membrane compositions is central to the claim that αS preferentially binds IPM over OPM. If the KD values are not reliably determined, the conclusion about preferential IPM binding is weakened.
+  - **Resolution test** Provide full details of the fitting procedure, including how χB was calculated from the NMR data, how the L values were constrained, and whether the fits were validated by alternative models. Show the complete binding curves with all data points and fit residuals. For OPM binding, either extend the concentration range to better define the KD or acknowledge the limitations of the extrapolation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for the proposed double-anchor mechanism
+  - **Claim pointer** The authors claim that αS stabilizes SV docking onto IPM via a double-anchor mechanism in which the N-terminus binds IPM and the region 65–97 binds the SV membrane.
+  - **Evidence pointer** Figure 2d, e; Discussion section
+  - **Concern** The TIRF experiments demonstrate that αS increases the number of docked vesicles and their residence time on IPM surfaces. However, the manuscript does not provide direct evidence that the double-anchor mechanism is responsible for this effect. The claim that the region 65–97 binds the SV while the N-terminus remains bound to IPM is inferred from the binding studies but is not directly tested in the TIRF experiments. For example, no experiments are shown using αS variants with mutations in the proposed anchor regions, nor are competition experiments with peptides corresponding to the 65–97 region presented. The concentration dependence of the effect is consistent with the proposed mechanism but does not exclude alternative explanations, such as αS-mediated membrane bridging through other regions or indirect effects on membrane properties.
+  - **Why it matters** The double-anchor mechanism is the central mechanistic claim of the paper. Without direct evidence linking the proposed structural basis to the observed functional effect, the mechanism remains speculative.
+  - **Resolution test** Provide experiments that directly test the double-anchor mechanism, such as using αS truncation mutants lacking the N-terminal anchor or the 65–97 region, or performing competition experiments with peptides spanning these regions. Alternatively, use FRET or other proximity-based assays to demonstrate simultaneous binding of αS to both membranes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance of experimental conditions
+  - **Claim pointer** The authors state that their results reveal how lipid composition modulates the interaction of αS with the PM and underlie its functional and pathological behaviors in vitro.
+  - **Evidence pointer** Throughout Results and Discussion
+  - **Concern** The experiments are performed with SUVs and supported lipid bilayers at pH 6.0 and 10–25 °C. These conditions differ substantially from physiological conditions at the presynaptic terminal, where pH is near 7.4, temperature is 37 °C, and the membrane environment is far more complex. The authors do not discuss how these differences might affect the conclusions. Additionally, the αS concentrations used in the TIRF experiments (up to 100 μM) are far above the estimated physiological concentrations of αS, which are typically in the low micromolar range. The relevance of the observed concentration-dependent effects at these supraphysiological concentrations is unclear.
+  - **Why it matters** The physiological relevance of the proposed mechanism depends on whether the observed effects occur at physiologically relevant protein concentrations and under conditions that approximate the cellular environment.
+  - **Resolution test** Perform key experiments at physiological pH and temperature, and test the concentration dependence of the docking effect at lower, more physiologically relevant αS concentrations. Discuss the limitations of the in vitro system in the manuscript.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of ganglioside effects
+  - **Claim pointer** The authors report that ganglioside enrichment in IPM and OPM alters the binding properties of αS, with increased affinity for the 65–97 region in IPM-GMs.
+  - **Evidence pointer** Figure 3a–d
+  - **Concern** The manuscript reports changes in binding affinity and conformational properties upon ganglioside enrichment but does not provide a mechanistic explanation for these effects. The authors do not discuss whether the effects are due to specific ganglioside-αS interactions, changes in membrane surface charge, or alterations in membrane fluidity or curvature. The connection between the observed in vitro effects and the disease relevance mentioned in the introduction is not clearly established.
+  - **Why it matters** The ganglioside effects are presented as relevant to neurodegenerative conditions, but without a mechanistic understanding, the significance of these observations for disease is unclear.
+  - **Resolution test** Provide additional experiments or discussion addressing the mechanism of ganglioside effects, such as testing different ganglioside species, varying ganglioside concentrations systematically, or using membrane systems with controlled surface charge.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** TIRF image analysis
+  - **Evidence pointer** Methods section on particle analysis
+  - **Issue** The description of the particle detection and tracking procedure is brief. The manuscript states that a quality threshold value between 8 and 10 was used, but does not explain how this threshold was determined or how sensitive the results are to this choice.
+  - **Required correction** Provide additional details on the image analysis pipeline, including how the quality threshold was selected, how false positives were excluded, and whether the results are robust to variations in the threshold.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** TIRF data
+  - **Evidence pointer** Figure 2d, e; Figure 3e, f
+  - **Issue** The manuscript reports p values for the TIRF data but does not state the number of independent experiments or the total number of vesicles analyzed for each condition. The error bars are described as standard deviations from triplicate measurements, but it is unclear whether these are technical or biological replicates.
+  - **Required correction** Clearly state the number of independent experiments, the number of vesicles analyzed, and whether the replicates are technical or biological. Consider reporting confidence intervals or effect sizes in addition to p values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 1a, b
+  - **Evidence pointer** Figure 1
+  - **Issue** The CEST profiles in Figure 1a and b are described in the text, but the figure itself is not provided in the manuscript text. The reader cannot assess the quality of the data or the differences between IPM and OPM binding.
+  - **Required correction** Ensure that all figures are included in the manuscript and that the CEST profiles are clearly labeled and legible.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The term "docking" is used to describe the stabilization of SV association with IPM. In the synaptic vesicle release field, "docking" has a specific meaning referring to the tethering of vesicles at the active zone prior to fusion. The authors should clarify whether they are using this term in the same sense or in a more general manner.
+  - **Required correction** Define the term "docking" as used in this study and discuss how it relates to the established terminology in the synaptic vesicle release field.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding affinity quantification), R1-M2 (direct evidence for double-anchor mechanism), R1-M3 (physiological relevance of conditions)
+- **Assessment against Nature-style criteria** Originality: The study addresses a novel question about how lipid composition of the presynaptic membrane modulates αS binding and function. The double-anchor mechanism for SV docking is a new concept, although it builds on prior work from the same group. Scientific importance: The results have potential implications for understanding αS function in neurotransmitter release and how lipid alterations in disease might affect this function. However, the physiological relevance needs to be better established. Interdisciplinary readership: The topic bridges biophysics, cell biology, and neurobiology, and should appeal to a broad audience. Technical soundness: The combination of NMR and TIRF approaches is appropriate, but the quantitative analyses need strengthening and the direct evidence for the proposed mechanism is lacking. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections on NMR methodology may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central question is important and the approach is innovative, but the quantitative binding analyses need to be more rigorous, direct evidence for the double-anchor mechanism should be provided, and the physiological relevance of the conditions should be addressed.
+
+## Risk / unsupported claims
+- The claim that αS stabilizes SV docking via a double-anchor mechanism is not directly supported by the experimental evidence presented. The TIRF data show an effect of αS on vesicle docking but do not demonstrate the molecular mechanism.
+- The KD values for OPM binding (5.9 mM and 13.7 mM) are based on extrapolations that may not be reliable given the experimental concentration range.
+- The statement that ganglioside enrichment "alter[s] the modes of binding" of αS is supported by the data, but the mechanistic basis and disease relevance of this effect are not established.
+- The claim that the region 65–97 is "mostly unbound" to IPM surfaces is based on CEST and relaxation data, but the quantitative interpretation depends on the fitting procedures that are not fully described.
+- The physiological relevance of the observed effects at αS concentrations up to 100 μM is not established, as these concentrations are likely supraphysiological.

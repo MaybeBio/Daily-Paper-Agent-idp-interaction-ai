@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or supplementary materials
+- **Shared manuscript claim summary** The authors use neutron spin-echo spectroscopy to study the structure and dynamics of thermally unfolded ribonuclease A, describing the disordered state within a two-state transition model. They report that disulfide bonds compact the disordered configuration relative to a Gaussian chain, that chain dynamics follow Zimm dynamics with internal friction (ZIF), that relaxation times are dominated by mode-independent internal friction with an Arrhenius activation energy of 33 kJ/mol, and that internal friction dominates over solvent friction and hydrodynamic interactions for intrinsically disordered proteins.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary information were provided.
+- **Missing materials affecting confidence** Full manuscript, experimental methods, data analysis details, simulation parameters, fitting procedures, and all figures and tables. The absence of these materials prevents independent verification of the quantitative claims and the robustness of the model selection.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of neutron spin-echo spectroscopy to protein unfolding, with a clear conceptual framework linking polymer physics to disordered protein dynamics. The claim that internal friction dominates the relaxation spectrum is physically plausible and would be of interest to the biophysics community. However, the abstract alone does not provide sufficient evidence to assess the validity of the quantitative results, the appropriateness of the model choices, or the generality of the conclusions. The central claims are stated without supporting data, and several logical connections between observations and interpretations are not visible in the provided material.
+- **Who would be interested in the results, and why** Researchers in biophysics, protein folding, and intrinsically disordered proteins would be interested in the application of polymer dynamics models to experimental neutron scattering data. The work also speaks to the broader community studying internal friction in biomolecular systems, as it attempts to quantify the relative roles of solvent and internal friction in disordered chains. Methodologically, those using neutron spin-echo spectroscopy to probe protein dynamics would find the approach relevant.
+- **Major strengths** The study addresses a fundamental question about the physical origin of conformational relaxation in disordered proteins, which is of broad relevance. The use of neutron spin-echo spectroscopy to directly access collective chain motions is appropriate and powerful. The integration of polymer theory, coarse-grained simulation, and experimental data within a two-state framework is conceptually coherent. The explicit consideration of internal friction as a dominant factor, rather than a correction, is a distinctive and potentially important contribution.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that relaxation times are dominated by mode-independent internal friction and that internal friction relaxation times show Arrhenius behavior with an activation energy of 33 kJ/mol.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states quantitative results, including an activation energy of 33 kJ/mol and the dominance of internal friction, but provides no experimental data, fitting results, or statistical measures to support these numbers. No information is given on how the activation energy was extracted, what temperature range was covered, or how the ZIF model was validated against alternative models.
+  - **Why it matters** Quantitative claims of this nature require transparent reporting of the data analysis pipeline, including error estimates and model comparison. Without this, the reader cannot judge whether the reported values are robust or whether other models could describe the data equally well.
+  - **Resolution test** Provide the full data analysis section, including fits to the ZIF model, comparison with alternative models (e.g., Rouse, Zimm without internal friction), and error analysis for the activation energy. Show that the ZIF model is statistically preferred and that the activation energy is stable across the temperature range studied.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical consistency
+  - **Claim pointer** The claim that the dynamics of the disordered chain is described by Zimm dynamics with internal friction between neighboring amino acids, and that the characteristic motions correspond to overdamped elastic modes similar to those observed for folded proteins.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract draws an analogy between the overdamped elastic modes of the disordered chain and those of folded proteins, but the physical basis for this analogy is not explained. Folded proteins have well-defined tertiary structures with specific contact patterns, whereas disordered chains explore a broad configurational space. The claim that the same type of motion dominates both regimes requires a mechanistic argument that is not presented.
+  - **Why it matters** If the analogy is not rigorously justified, the conclusion that internal friction dominates in the same way for both folded and disordered proteins may be overstated. This affects the generality of the findings and their relevance to the IDP field.
+  - **Resolution test** Clarify the physical mechanism linking overdamped elastic modes in folded proteins to those in disordered chains. Provide evidence, either from simulations or from the experimental data, that the mode structure of the disordered chain is indeed analogous to that of folded proteins, and discuss any limitations of this analogy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The claim that for IDP, internal friction dominates while solvent friction and hydrodynamic interactions are smaller corrections.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The study is performed on thermally unfolded ribonuclease A, which is a chemically cross-linked protein with four disulfide bonds. The abstract generalizes the finding to intrinsically disordered proteins, which typically lack such constraints. The presence of disulfide bonds may fundamentally alter the balance between internal and solvent friction, making the generalization to IDPs questionable without additional evidence.
+  - **Why it matters** The conclusion is framed as a general statement about IDPs, but the experimental system is a specifically constrained unfolded protein. If the generalization is not supported by additional data or a clear argument, the claim may overreach the evidence.
+  - **Resolution test** Either provide additional data on a true IDP system or present a clear argument, supported by simulation or theory, that the disulfide-bonded unfolded state is representative of IDP dynamics in terms of the internal friction balance. Alternatively, temper the claim to the specific system studied.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of internal friction
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract refers to internal friction between neighboring amino acids but does not define the microscopic origin of this friction. It is unclear whether this is a phenomenological parameter or a specific molecular interaction.
+  - **Required correction** Provide a brief definition or reference for the internal friction parameter used in the ZIF model, and clarify its physical interpretation in the context of the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Two-state transition model
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract mentions a two-state transition model but does not specify how the unfolded state was isolated from the native state in the analysis. This is important for understanding whether the reported dynamics are purely from the disordered population.
+  - **Required correction** Briefly describe how the two-state model was applied to separate contributions from native and unfolded populations, or refer to the methods section for this detail.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Activation energy value
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The activation energy of 33 kJ/mol is reported without an uncertainty estimate. This makes it difficult to assess the precision of the measurement.
+  - **Required correction** Include an error estimate for the activation energy, either in the abstract or by referencing the relevant table or figure in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The quantitative claims require full data presentation and model validation, and the analogy to folded protein dynamics requires mechanistic justification. R1-M3, while not blocking, needs to be addressed to support the generalizability claim.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of ZIF dynamics to neutron spin-echo data on an unfolded protein is a reasonable extension of existing polymer physics approaches, but the abstract does not demonstrate a fundamentally new conceptual advance. The claim that internal friction dominates is not unprecedented in the literature.
+  - Scientific importance: The question of what governs conformational relaxation in disordered proteins is important, and the study could contribute to this area if the evidence is robust. However, the abstract alone does not establish the significance of the findings beyond the specific system.
+  - Interdisciplinary readership: The work bridges polymer physics, biophysics, and neutron scattering, which could appeal to a broad readership. The abstract is written in a way that is accessible to nonspecialists in these fields.
+  - Technical soundness: Cannot be assessed from the abstract. The absence of methods and data prevents evaluation of the experimental and analytical rigor.
+  - Readability for nonspecialists: The abstract is concise and generally clear, though terms such as "Zimm dynamics with internal friction" and "overdamped elastic modes" may require background knowledge. The logical flow from experiment to conclusion is understandable at a high level.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting ideas and plausible conclusions, but the lack of supporting data and methodological detail means the case is not made. If the full manuscript provides robust evidence for the quantitative claims and addresses the concerns above, the work could be considered supportive.
+
+## Risk / unsupported claims
+- The activation energy of 33 kJ/mol is unsupported without data and error analysis.
+- The dominance of internal friction over solvent friction and hydrodynamic interactions is unsupported without model comparison and error analysis.
+- The analogy between overdamped elastic modes in the disordered chain and folded proteins is unsupported without mechanistic argument or comparative data.
+- The generalization to intrinsically disordered proteins is unsupported given the specific disulfide-bonded system studied.
+- The claim that disulfide bonds alter the disordered configuration to a more compact form relative to a Gaussian chain is plausible but cannot be verified without simulation details and comparison to experimental data.

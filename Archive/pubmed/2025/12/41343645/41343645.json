@@ -1,0 +1,701 @@
+{
+  "identity": {
+    "pmid": "41343645",
+    "doi": "10.1126/science.adv6588",
+    "title": "Multiscale structure of chromatin condensates explains phase separation and material properties."
+  },
+  "content": {
+    "abstract": "The structure and interaction networks of molecules within biomolecular condensates are poorly understood. Using cryo-electron tomography and molecular dynamics simulations, we elucidated the structure of phase-separated chromatin condensates across scales, from individual amino acids to network architecture. We found that internucleosomal DNA linker length controls nucleosome arrangement and histone tail interactions, shaping the structure of individual chromatin molecules within and outside condensates. This structural modulation determines the balance between intra- and intermolecular interactions, which governs the molecular network, thermodynamic stability, and material properties of chromatin condensates. Mammalian nuclei contain dense clusters of nucleosomes whose nonrandom organization is mirrored by the reconstituted condensates. Our work explains how the structure of individual chromatin molecules determines physical properties of chromatin condensates and cellular chromatin organization.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nucleosomes/chemistry/ultrastructure",
+      "Molecular Dynamics Simulation",
+      "Cryoelectron Microscopy",
+      "*Chromatin/chemistry/ultrastructure",
+      "Histones/chemistry",
+      "Electron Microscope Tomography",
+      "DNA/chemistry/ultrastructure",
+      "Animals",
+      "*Biomolecular Condensates/chemistry/ultrastructure",
+      "Humans",
+      "Thermodynamics",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Huabin",
+        "Huertas, Jan",
+        "Maristany, M Julia",
+        "Russell, Kieran",
+        "Hwang, June Ho",
+        "Yao, Run-Wen",
+        "Samanta, Nirnay",
+        "Hutchings, Joshua",
+        "Billur, Ramya",
+        "Shiozaki, Momoko",
+        "Zhao, Xiaowei",
+        "Doolittle, Lynda K",
+        "Gibson, Bryan A",
+        "Soranno, Andrea",
+        "Riggi, Margot",
+        "Espinosa, Jorge R",
+        "Yu, Zhiheng",
+        "Villa, Elizabeth",
+        "Collepardo-Guevara, Rosana",
+        "Rosen, Michael K"
+      ],
+      "short_names": [
+        "Zhou H",
+        "Huertas J",
+        "Maristany MJ",
+        "Russell K",
+        "Hwang JH",
+        "Yao RW",
+        "Samanta N",
+        "Hutchings J",
+        "Billur R",
+        "Shiozaki M",
+        "Zhao X",
+        "Doolittle LK",
+        "Gibson BA",
+        "Soranno A",
+        "Riggi M",
+        "Espinosa JR",
+        "Yu Z",
+        "Villa E",
+        "Collepardo-Guevara R",
+        "Rosen MK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7788-0806",
+        "ORCID: 0000-0003-2607-5214",
+        "ORCID: 0009-0009-8875-9225",
+        "ORCID: 0000-0001-6199-1467",
+        "ORCID: 0000-0002-6183-0273",
+        "ORCID: 0000-0002-5746-6907",
+        "ORCID: 0000-0002-5640-8959",
+        "ORCID: 0000-0002-9657-7466",
+        "ORCID: 0000-0001-8394-7993",
+        "ORCID: 0000-0002-8930-5331",
+        "ORCID: 0000-0001-9530-2658",
+        "ORCID: 0000-0002-7114-2570",
+        "ORCID: 0000-0003-4677-9809",
+        "ORCID: 0000-0002-0775-7917"
+      ],
+      "affiliations": [
+        "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Department of Genetics, University of Cambridge, Cambridge, UK.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, UK.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, UK.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA.",
+        "School of Biological Sciences, University of California San Diego, La Jolla, CA, USA.",
+        "Department of Cell and Molecular Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA.",
+        "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA.",
+        "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Department of Cell and Molecular Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Max Planck Institute for Biochemistry, Martinsried/Munich, Germany.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA.",
+        "School of Biological Sciences, University of California San Diego, La Jolla, CA, USA.",
+        "Howard Hughes Medical Institute, University of California San Diego, La Jolla, CA, USA.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+        "Department of Genetics, University of Cambridge, Cambridge, UK.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, UK.",
+        "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Huabin",
+        "short_name": "Zhou H",
+        "identifiers": [
+          "0000-0002-7788-0806"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA.",
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Huertas, Jan",
+        "short_name": "Huertas J",
+        "identifiers": [
+          "0000-0003-2607-5214"
+        ],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+          "Department of Genetics, University of Cambridge, Cambridge, UK.",
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Maristany, M Julia",
+        "short_name": "Maristany MJ",
+        "identifiers": [
+          "0009-0009-8875-9225"
+        ],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Russell, Kieran",
+        "short_name": "Russell K",
+        "identifiers": [],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Hwang, June Ho",
+        "short_name": "Hwang JH",
+        "identifiers": [
+          "0000-0001-6199-1467"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA.",
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Yao, Run-Wen",
+        "short_name": "Yao RW",
+        "identifiers": [
+          "0000-0002-6183-0273"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA.",
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Samanta, Nirnay",
+        "short_name": "Samanta N",
+        "identifiers": [
+          "0000-0002-5746-6907"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Hutchings, Joshua",
+        "short_name": "Hutchings J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, University of California San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Billur, Ramya",
+        "short_name": "Billur R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Shiozaki, Momoko",
+        "short_name": "Shiozaki M",
+        "identifiers": [
+          "0000-0002-5640-8959"
+        ],
+        "affiliations": [
+          "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiaowei",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Doolittle, Lynda K",
+        "short_name": "Doolittle LK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA.",
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Gibson, Bryan A",
+        "short_name": "Gibson BA",
+        "identifiers": [
+          "0000-0002-9657-7466"
+        ],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+          "Department of Cell and Molecular Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Soranno, Andrea",
+        "short_name": "Soranno A",
+        "identifiers": [
+          "0000-0001-8394-7993"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St. Louis, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Riggi, Margot",
+        "short_name": "Riggi M",
+        "identifiers": [
+          "0000-0002-8930-5331"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Biochemistry, Martinsried/Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [
+          "0000-0001-9530-2658"
+        ],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhiheng",
+        "short_name": "Yu Z",
+        "identifiers": [
+          "0000-0002-7114-2570"
+        ],
+        "affiliations": [
+          "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Villa, Elizabeth",
+        "short_name": "Villa E",
+        "identifiers": [
+          "0000-0003-4677-9809"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, University of California San Diego, La Jolla, CA, USA.",
+          "Howard Hughes Medical Institute, University of California San Diego, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+          "Department of Genetics, University of Cambridge, Cambridge, UK.",
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Rosen, Michael K",
+        "short_name": "Rosen MK",
+        "identifiers": [
+          "0000-0002-0775-7917"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, USA.",
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Science"
+    ],
+    "pub_date": "2025 Dec 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/04 19:37",
+    "fetched_at": "2026-09-17 22:37:00"
+  },
+  "links": {
+    "cites": [
+      "42573943",
+      "42404645",
+      "42399220",
+      "42395432",
+      "42282682",
+      "42244752",
+      "42226577",
+      "42186817",
+      "42146372",
+      "42056506",
+      "42055532",
+      "41993480",
+      "41902470",
+      "41863073",
+      "41784266",
+      "41728087",
+      "41663843",
+      "41657248",
+      "40974823",
+      "40463193",
+      "39026887"
+    ],
+    "refs": [
+      "41316707",
+      "40628730",
+      "40386802",
+      "40327693",
+      "40097852",
+      "39639006",
+      "39547207",
+      "39516712",
+      "39464253",
+      "39413416",
+      "39356108",
+      "39271915",
+      "39260373",
+      "39225536",
+      "39116228",
+      "38968124",
+      "38885177",
+      "38824902",
+      "38813824",
+      "38782894",
+      "38782890",
+      "38622120",
+      "38605007",
+      "38503281",
+      "38174879",
+      "38061626",
+      "37816746",
+      "37774136",
+      "37708029",
+      "37683647",
+      "37596139",
+      "37194953",
+      "37116470",
+      "37094140",
+      "37018405",
+      "36833426",
+      "36468689",
+      "36309499",
+      "36251681",
+      "36231107",
+      "36227480",
+      "36175408",
+      "35974095",
+      "35922507",
+      "35907400",
+      "35661389",
+      "35658044",
+      "35601683",
+      "35581345",
+      "35387991",
+      "35325593",
+      "35293953",
+      "35158124",
+      "34887356",
+      "34785657",
+      "34717733",
+      "34675434",
+      "34643712",
+      "34520722",
+      "34315935",
+      "34303931",
+      "34235262",
+      "34234347",
+      "34001913",
+      "33947895",
+      "33589918",
+      "33574602",
+      "33383034",
+      "33326747",
+      "33191055",
+      "33169001",
+      "33077913",
+      "33047670",
+      "33004511",
+      "32967822",
+      "32873929",
+      "32311333",
+      "32302572",
+      "32123395",
+      "32047248",
+      "32029630",
+      "31995729",
+      "31952807",
+      "31711756",
+      "31618757",
+      "31591575",
+      "31543265",
+      "31439799",
+      "31270472",
+      "31017394",
+      "30661750",
+      "30361340",
+      "30166492",
+      "30091658",
+      "29901776",
+      "29323273",
+      "29098179",
+      "28935776",
+      "28890085",
+      "28751582",
+      "28712725",
+      "28636604",
+      "28636597",
+      "28575670",
+      "28406749",
+      "28322915",
+      "28289288",
+      "28225081",
+      "28024297",
+      "27445307",
+      "27444392",
+      "27072995",
+      "26256537",
+      "26192632",
+      "26119342",
+      "25768910",
+      "25691803",
+      "25688036",
+      "25122771",
+      "24939988",
+      "24847063",
+      "24763583",
+      "23996014",
+      "23524394",
+      "22743772",
+      "22398450",
+      "22058573",
+      "21047799",
+      "20858435",
+      "20709077",
+      "20365652",
+      "20351095",
+      "19658751",
+      "19379699",
+      "19377481",
+      "19298048",
+      "19118688",
+      "19001093",
+      "18653199",
+      "17965724",
+      "17938198",
+      "17242202",
+      "16617109",
+      "16469925",
+      "16079127",
+      "16033758",
+      "16001076",
+      "15567867",
+      "15182349",
+      "15169197",
+      "12614610",
+      "10058972",
+      "9514715",
+      "9305837",
+      "9298957",
+      "9020030",
+      "3783706",
+      "2308168"
+    ],
+    "similar": [
+      "41343645",
+      "40327693",
+      "41657248",
+      "33667509",
+      "16782797",
+      "39413416",
+      "40628730",
+      "35907400",
+      "42399220",
+      "28475873",
+      "38782894",
+      "32017651",
+      "24763583",
+      "41332608",
+      "9826673",
+      "36227480",
+      "17142268",
+      "33238161",
+      "42186817",
+      "33460684",
+      "38215753",
+      "34001913",
+      "40766493",
+      "41663843",
+      "33309853",
+      "33221335",
+      "40223781",
+      "35863166",
+      "9635737",
+      "38664966",
+      "41786717",
+      "35158124",
+      "33650488",
+      "41629604",
+      "40954121",
+      "40776446",
+      "27698366",
+      "40029962",
+      "36104563",
+      "39596203",
+      "28732449",
+      "34520722",
+      "7753597",
+      "38346246",
+      "41875527",
+      "41916474",
+      "40304183",
+      "39103524",
+      "39613943",
+      "39677698",
+      "16617109",
+      "28855255",
+      "42173878",
+      "39796159",
+      "8522597",
+      "26872330",
+      "21703860",
+      "27748599",
+      "40311546",
+      "7662486",
+      "39116133",
+      "32911480",
+      "40108179",
+      "21969536",
+      "40985078",
+      "30514760",
+      "29643509",
+      "17934746",
+      "15567867",
+      "35952957",
+      "39168125",
+      "30392928",
+      "32664941",
+      "17211885",
+      "40748104",
+      "23071745",
+      "40874595",
+      "22724366",
+      "21835779",
+      "25418099",
+      "17936653",
+      "40058249",
+      "41187075",
+      "40464692",
+      "28973435",
+      "42522870",
+      "35727989",
+      "29018282",
+      "39984731",
+      "7698998",
+      "12023209",
+      "8357790",
+      "12927539",
+      "1892819",
+      "10386604",
+      "26192632",
+      "41587927",
+      "39737984",
+      "21326360",
+      "8632001"
+    ],
+    "review": [
+      "41343645",
+      "32017651",
+      "33460684",
+      "33309853",
+      "33221335",
+      "35863166",
+      "38346246",
+      "41875527",
+      "39613943",
+      "26872330",
+      "21703860",
+      "40311546",
+      "35952957",
+      "22724366",
+      "17936653",
+      "40058249",
+      "29018282",
+      "41587927"
+    ],
+    "pmc": [
+      "12929043"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/science.adv6588",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/41343645.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41343645/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://datadryad.org/discover?query=10.1126/science.adv6588",
+        "provider": "Dryad Digital Repository",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

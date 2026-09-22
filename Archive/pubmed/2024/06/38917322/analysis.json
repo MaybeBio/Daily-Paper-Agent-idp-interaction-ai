@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38917322",
+  "title": "Refining the pool of RNA-binding domains advances the classification and prediction of RNA-binding proteins.",
+  "authors": "Wassmer, Elsa; Koppany, Gergely; Hermes, Malte; Diederichs, Sven; Caudron-Herger, Maiwen",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-06-25",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用RBP2GO数据库分析RNA结合蛋白中RNA结合结构域与无序区域/低复杂度区域的共现关系，并改进RBP预测，虽涉及IDR与结合预测，但对象为RNA结合蛋白而非PPI，方法为生物信息学统计而非AI/物理模拟，故综合评分为5。",
+  "abstract": "From transcription to decay, RNA-binding proteins (RBPs) influence RNA metabolism. Using the RBP2GO database that combines proteome-wide RBP screens from 13 species, we investigated the RNA-binding features of 176 896 proteins. By compiling published lists of RNA-binding domains (RBDs) and RNA-related protein family (Rfam) IDs with lists from the InterPro database, we analyzed the distribution of the RBDs and Rfam IDs in RBPs and non-RBPs to select RBDs and Rfam IDs that were enriched in RBPs. We also explored proteins for their content in intrinsically disordered regions (IDRs) and low complexity regions (LCRs). We found a strong positive correlation between IDRs and RBDs and a co-occurrence of specific LCRs. Our bioinformatic analysis indicated that RBDs/Rfam IDs were strong indicators of the RNA-binding potential of proteins and helped predicting new RBP candidates, especially in less investigated species. By further analyzing RBPs without RBD, we predicted new RBDs that were validated by RNA-bound peptides. Finally, we created the RBP2GO composite score by combining the RBP2GO score with new quality factors linked to RBDs and Rfam IDs. Based on the RBP2GO composite score, we compiled a list of 2018 high-confidence human RBPs. The knowledge collected here was integrated into the RBP2GO database at https://RBP2GO-2-Beta.dkfz.de.",
+  "abstract_zh": "从转录到降解，RNA结合蛋白（RBPs）影响RNA代谢。利用结合了13个物种全蛋白质组RBP筛选的RBP2GO数据库，我们研究了176 896种蛋白质的RNA结合特征。通过汇编已发表的RNA结合结构域（RBDs）和RNA相关蛋白家族（Rfam）ID列表，并结合InterPro数据库中的列表，我们分析了RBDs和Rfam ID在RBPs和非RBPs中的分布，以选择在RBPs中富集的RBDs和Rfam ID。我们还探讨了蛋白质中 intrinsically disordered regions (IDRs) 和 low complexity regions (LCRs) 的含量。我们发现IDRs与RBDs之间存在强正相关性，并且特定LCRs共同出现。我们的生物信息学分析表明，RBDs/Rfam ID是蛋白质RNA结合潜力的强指标，有助于预测新的RBP候选者，尤其是在研究较少的物种中。通过进一步分析不含RBD的RBPs，我们预测了新的RBDs，并通过RNA结合肽段进行了验证。最后，我们通过将RBP2GO评分与与RBDs和Rfam ID相关的新质量因子结合，创建了RBP2GO综合评分。基于RBP2GO综合评分，我们编制了一份包含2018种高置信度人类RBPs的列表。此处收集的知识已整合到RBP2GO数据库中，网址为https://RBP2GO-2-Beta.dkfz.de。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38917322/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38917322/",
+  "paper_page_path": "papers/pubmed/38917322/index.html"
+}

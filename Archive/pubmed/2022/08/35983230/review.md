@@ -1,0 +1,113 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusion, and figure legends. Supplementary materials were referenced but not provided.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to the presented evidence, and suitability for a broad interdisciplinary readership.
+- **Shared manuscript claim summary** The authors construct virus-host protein interaction networks for HCMV, HPV16, HPV18, and JCV, map CRC-associated differentially expressed proteins onto these networks, derive a core virus-host CRC network signature, identify short linear motifs and disordered regions in top viral proteins, and use structure-based virtual screening plus molecular dynamics simulations to propose antiviral small molecules as potential therapeutic candidates against these viral targets.
+- **Visible evidence base** Main text figures (Figs 1-9), supplementary figure and table references, methods descriptions, and results narrative. Supplementary data files were not accessible for review.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S11, Tables S1-S3), raw network data, docking score distributions, MD simulation trajectories, and statistical test outputs were not provided. These are essential for verifying the quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational, integrative analysis that combines publicly available virus-host interaction data with CRC proteomics literature to nominate viral proteins and candidate antiviral compounds. The conceptual framework is interesting and the workflow is clearly described. However, the study is entirely in silico with no experimental validation, and several methodological choices and interpretive leaps are not adequately justified. The core claims regarding a "core virus network signature" and the therapeutic potential of the identified small molecules are not established from the evidence provided. The manuscript would benefit from substantial revision, additional analyses, and tempering of conclusions.
+- **Who would be interested in the results, and why** Researchers in computational virology, cancer bioinformatics, and network medicine may find the integrative workflow of interest. Those studying viral contributions to colorectal cancer pathogenesis, particularly the roles of HCMV, HPV, and JCV, might use the nominated proteins as hypotheses for future experimental work. The drug repurposing angle could attract interest from medicinal chemists, though the lack of validation limits immediate translational relevance.
+- **Major strengths**
+  1. The study addresses a timely and biologically important question regarding viral contributions to CRC.
+  2. The workflow integrates multiple public data sources in a logical and reproducible manner.
+  3. The use of SLiM and disorder prediction to identify potentially druggable regions is a thoughtful approach.
+  4. The inclusion of MD simulations and MM-PBSA free energy calculations adds a layer of rigor beyond simple docking.
+  5. The manuscript is generally clearly written and the figures are informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the identified "core virus-host CRC network signature" is biologically meaningful and that the four viruses "commonly regulate cell cycle related proteins in CRC."
+  - **Evidence pointer** Results section "Viruses modulates core colorectal cancer protein network", Figure 3, Supplementary Table S1
+  - **Concern** The core network is derived from only 14 shared CRC proteins across four virus-host networks, and the overlap analysis is purely descriptive. No statistical enrichment test (e.g., hypergeometric test) is performed to determine whether this overlap is greater than expected by chance. The functional enrichment analysis is based on a very small protein set, and the reported pathways (e.g., G1/S transition) are broad and could arise from any cancer-related dataset. The claim of a "core signature" is therefore not statistically supported.
+  - **Why it matters** The central premise of the paper rests on the existence of a meaningful shared network. Without statistical support, the core network could be an artifact of small numbers or biased data sources. This undermines all downstream analyses.
+  - **Resolution test** Perform a hypergeometric or permutation-based test to assess the significance of the overlap between virus-host interactomes and CRC proteins. Provide effect sizes and confidence intervals for enrichment. If the overlap is not significant, the "core signature" claim must be withdrawn or substantially reframed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validity
+  - **Claim pointer** The authors state that "SLiM regions could be targeted therapeutically" and use SLiM-containing disordered regions as docking sites for virtual screening.
+  - **Evidence pointer** Methods section "Short linear motif identification and disorder prediction", Results section "Virtual screening identified top antivirals against the viral proteins", Figure 4
+  - **Concern** The selection of SLiM regions as docking sites is not justified. SLiMs are typically short, linear motifs involved in protein-protein interactions, but they are not necessarily suitable or druggable binding pockets for small molecules. The authors do not demonstrate that the chosen SLiM regions are accessible, conformationally stable, or functionally critical. Docking into a short linear motif within a disordered region is methodologically questionable, as these regions are often highly flexible and may not present a well-defined binding site.
+  - **Why it matters** The entire drug discovery pipeline depends on the validity of the target site. If the SLiM regions are not genuine druggable pockets, the docking results and subsequent MD simulations are meaningless, and the proposed compounds cannot be considered credible leads.
+  - **Resolution test** Provide structural and biophysical justification for the druggability of the selected SLiM regions. This could include solvent accessibility analysis, pocket detection algorithms (e.g., fpocket), and comparison with known small-molecule binding sites. If the regions are not convincingly druggable, the virtual screening results should be presented as exploratory only, not as validated findings.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the identified compounds (temsavir, pimodivir, famotine, bictegravir) "will have functional impact on tumor promoting proteins" and could "treat virus-driven colorectal cancer."
+  - **Evidence pointer** Results sections "Virtual screening identified top antivirals against the viral proteins" and "Molecular dynamics simulation demonstrates the effect of antivirals on virus proteins", Figures 4-8
+  - **Concern** The binding affinities reported are modest (e.g., -5.2 to -6.4 kcal/mol for the primary targets), which are generally considered weak to moderate for drug-like molecules. The MD simulations show that the drugs induce changes in protein backbone structure, but this is not evidence of functional inhibition. No cellular or biochemical assays are performed to demonstrate that these compounds actually inhibit viral protein function or affect CRC cell viability. The leap from computational binding predictions to therapeutic claims is unsupported.
+  - **Why it matters** The translational relevance of the study hinges on the potential of these compounds. Without experimental validation, the claim that these are promising therapeutic candidates is speculative and potentially misleading.
+  - **Resolution test** Clearly state that these are computational predictions requiring experimental validation. Remove or soften claims of therapeutic potential. If possible, include a discussion of known activities of these compounds in CRC or viral contexts from the literature to contextualize the findings.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the homology model of large T antigen_JCV was built using a template with 76.5% sequence identity, and the RL6_HCMV model was built de novo.
+  - **Evidence pointer** Methods section "Retrieval of three-dimensional protein structures and druggability analysis", Supplementary Figure S6
+  - **Concern** The quality of the homology models is not adequately assessed. While TM scores and Ramachandran plots are mentioned, the authors do not report key validation metrics such as QMEAN, MolProbity score, or the percentage of residues in disallowed regions. The de novo model of RL6_HCMV is particularly concerning, as de novo models are generally less reliable than template-based models. The authors do not discuss the potential impact of model inaccuracies on the docking results.
+  - **Why it matters** Docking results are highly sensitive to the quality of the receptor structure. If the models are inaccurate, the predicted binding poses and affinities may be incorrect, undermining the reliability of the entire virtual screening pipeline.
+  - **Resolution test** Provide comprehensive model validation metrics, including QMEAN, MolProbity scores, and Ramachandran outliers. Discuss the limitations of the models and how they might affect the docking results. Consider using multiple models or ensemble docking to assess robustness.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe their data sources and methods, but key parameters and thresholds are not fully specified.
+  - **Evidence pointer** Methods sections throughout
+  - **Concern** The manuscript does not provide sufficient detail for reproducibility. For example, the exact parameters used for network construction, the criteria for selecting "top" proteins by degree, the specific settings for the ELM and Disprot searches, and the docking grid parameters are not fully described. The version of AutoDock Vina and the scoring function used are not stated. The MD simulation parameters (e.g., thermostat, barostat, equilibration protocol) are also incomplete.
+  - **Why it matters** Reproducibility is a cornerstone of scientific research. Without complete methodological details, other researchers cannot replicate or build upon this work.
+  - **Resolution test** Provide a detailed methods section with all parameters, software versions, and analysis scripts. Consider depositing the code and data in a public repository.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction do not clearly state the novelty of the approach relative to existing virus-host interaction studies in CRC. The phrase "core virus network signature" is used without a precise definition.
+  - **Required correction** Define what constitutes a "core signature" and explicitly state how this study advances beyond previous work.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 6
+  - **Evidence pointer** Results section "Residue level analysis revealed that drug related changes in SLiM regions", Figure 6
+  - **Issue** The Wilcoxon test is used to compare RMSF values between bound and apo forms, but the multiple testing problem across many residues is not addressed. The p-values reported may be inflated.
+  - **Required correction** Apply a multiple testing correction (e.g., Benjamini-Hochberg) or use a permutation-based approach to control the false discovery rate.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Results section "Colorectal cancer proteins are enriched in virus-host network modules", Figure 2
+  - **Issue** The UpSet plot in Figure 2B is difficult to interpret without a clear legend explaining the set sizes and intersections. The color coding for up/down regulation is not defined in the figure legend.
+  - **Required correction** Add a clear legend and define all color codes and symbols.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature support
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the biological relevance of the identified proteins (e.g., CD44, CDK2, TP53) is largely descriptive and does not critically engage with conflicting literature or alternative interpretations.
+  - **Required correction** Provide a more balanced discussion that acknowledges the complexity of the literature and the limitations of inferring causality from network data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The term "core virus network signature" is used interchangeably with "core virus-host CRC network," which may confuse readers. The term "signature" implies a diagnostic or prognostic biomarker, which is not demonstrated.
+  - **Required correction** Use consistent terminology and avoid overloading the term "signature" with implied clinical relevance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical support for core network), R1-M2 (unjustified druggability of SLiM regions), R1-M3 (overinterpretation of docking and MD results), R1-M4 (insufficient model validation), R1-M5 (incomplete methodological detail).
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The integration of multiple virus-host interactomes with CRC proteomics is somewhat novel, but the individual components (network analysis, SLiM prediction, virtual screening) are well-established. The study does not introduce a fundamentally new concept or method.
+  - **Scientific importance** Limited. The findings are entirely computational and lack experimental validation. The clinical or translational significance is speculative. The study does not provide new biological insights that could not be derived from existing literature.
+  - **Interdisciplinary readership** The topic bridges virology, cancer biology, and computational drug discovery, which could appeal to a broad audience. However, the technical depth and lack of validation may limit accessibility and interest beyond specialized computational researchers.
+  - **Technical soundness** The workflow is logical, but several methodological choices are questionable (e.g., SLiM-based docking) and key validations are missing (e.g., statistical significance of network overlap, model quality). The MD simulations are performed but not thoroughly analyzed.
+  - **Readability for nonspecialists** The manuscript is reasonably well-written, but the methods and results are dense and may be difficult for nonspecialists to follow. The figures are helpful but some lack sufficient annotation.
+- **Recommendation posture** Not established from the provided evidence. The manuscript presents an interesting computational hypothesis-generating workflow, but the core claims are not supported by the evidence presented. Major revisions are required, including additional statistical analyses, model validation, and a substantial tempering of conclusions. Experimental validation, while not strictly required for a computational paper, would be necessary to elevate the findings to the level of significance implied by the title and discussion.
+
+## Risk / unsupported claims
+- The claim that the identified compounds "will have functional impact on tumor promoting proteins" is unsupported without experimental data.
+- The claim that the "core virus-host CRC network signature" is biologically meaningful is not statistically substantiated.
+- The assertion that SLiM regions are suitable drug targets is not justified with structural or biophysical evidence.
+- The statement that the identified drugs could "treat virus-driven colorectal cancer" is speculative and not supported by any in vitro or in vivo data.
+- The biological interpretations of individual protein interactions (e.g., CD44, CDK2, TP53) are presented as if they are established facts, whereas they are hypotheses derived from network data.

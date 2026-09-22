@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, data availability, and supplementary figure legends.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript. No external validation of data or reproducibility checks performed.
+- **Shared manuscript claim summary** The authors report that HMG20A forms a complex with PHF14 through coiled-coil interactions, and that this complex modulates TGFβ and Hippo pathways, affecting epithelial-mesenchymal plasticity in breast cancer cells.
+- **Visible evidence base** Results sections on structure-function analysis, proteomics, co-immunoprecipitation, transcriptomics (RNA-seq), RT-qPCR, ChIP, and functional assays (migration, invasion, adhesion). Figures referenced but not fully visible in text.
+- **Missing materials affecting confidence** Full figures and supplementary data not provided; raw RNA-seq data not accessible; ChIP data for PHF14 not obtained; some statistical details and effect sizes not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a comprehensive characterization of a novel HMG20A-PHF14 interaction and its functional relevance in epithelial-mesenchymal plasticity. The combination of structural prediction, biochemical validation, and transcriptomic analysis is commendable. However, several claims regarding pathway regulation and direct versus indirect effects require stronger experimental support. The inability to perform PHF14 ChIP limits mechanistic depth. Overall, the work is of interest to the chromatin and cancer biology communities but needs additional validation to fully establish the proposed model.
+- **Who would be interested in the results, and why** Researchers studying chromatin regulators, histone readers, TGFβ and Hippo signaling, and epithelial-mesenchymal transition in cancer biology. The identification of a new HMG20A-PHF14 complex and its link to key developmental and oncogenic pathways will attract those interested in transcriptional regulation and therapeutic targeting.
+- **Major strengths** 1) Identification and validation of a novel protein-protein interaction between HMG20A and PHF14 using multiple approaches. 2) Use of AlphaFold2 for structural prediction followed by experimental validation. 3) Comprehensive transcriptomic analysis showing shared targets and pathway enrichment. 4) Functional assays demonstrating phenotypic consequences of knockdown. 5) Clear writing and logical flow of experiments.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** "The PHF14-HMG20A complex modulates the Hippo pathway through a direct interaction with the TEAD1 transcription factor."
+  - **Evidence pointer** Results section "PHF14 and HMG20A control migration, invasion and cell-cell adhesion"; Figure 5H
+  - **Concern** The claim of direct interaction with TEAD1 is based solely on co-immunoprecipitation. No functional evidence is provided that this interaction is required for the observed transcriptional changes. The authors do not demonstrate whether the interaction is DNA-dependent, whether it occurs on chromatin, or whether it affects TEAD1 occupancy or activity.
+  - **Why it matters** The title and abstract emphasize modulation of Hippo pathway via TEAD1. Without functional validation (e.g., reporter assays, ChIP for TEAD1, rescue experiments), the mechanistic model remains correlative. The observed changes in YAP/TAZ target genes could be indirect consequences of broader transcriptional changes.
+  - **Resolution test** Provide evidence that the HMG20A-PHF14 complex and TEAD1 co-occupy target gene promoters (e.g., ChIP-reChIP or proximity ligation). Show that TEAD1-dependent reporter activity is altered by HMG20A/PHF14 knockdown. Demonstrate that a TEAD1 mutant unable to interact with the complex fails to rescue phenotypes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal relationship
+  - **Claim pointer** "PHF14 or HMG20A deficiency increases epithelial markers, including E-cadherin and the epithelial master regulator TP63 and impaired normal TGFβ-triggered epithelial-to-mesenchymal transition."
+  - **Evidence pointer** Results section "HMG20A KD or PHF14 KD MDA-MB-231 cells have increased epithelial markers"; Figure 6
+  - **Concern** The causal link between HMG20A/PHF14 and TGFβ-induced EMT is not firmly established. The authors show that knockdown impairs TGFβ-induced changes in EMT markers, but do not demonstrate that this is due to direct regulation of these genes by the complex. The ChIP data for HMG20A at CDH1 and TP63 promoters is presented, but no functional assays (e.g., reporter assays, rescue experiments) confirm that this binding is required for the observed effects.
+  - **Why it matters** The paper's central claim is that the complex modulates TGFβ and Hippo pathways. Without demonstrating direct regulation of key EMT genes, alternative explanations (e.g., indirect effects through other transcription factors) remain plausible.
+  - **Resolution test** Perform reporter assays with CDH1 or TP63 promoters in the presence or absence of HMG20A/PHF14. Rescue experiments with HMG20A mutants that cannot bind DNA or PHF14 should restore TGFβ-induced EMT. Genome-wide binding analysis (ChIP-seq) for HMG20A and PHF14 would strengthen the case for direct regulation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data completeness
+  - **Claim pointer** "Transcriptomic analyses demonstrate that PHF14 and HMG20A share a large subset of targets."
+  - **Evidence pointer** Results section "PHF14 KD or HMG20A KD causes defects of the Hippo pathway"; Figure 5A-C
+  - **Concern** The RNA-seq analysis is based on only two biological replicates per condition. This is underpowered for robust differential expression analysis and may lead to false positives or negatives. The authors do not report validation of a broader set of differentially expressed genes by RT-qPCR, only a few selected targets.
+  - **Why it matters** The shared target analysis is a key piece of evidence for functional cooperation. With only two replicates, the reliability of the gene lists and the overlap analysis is questionable.
+  - **Resolution test** Increase the number of biological replicates to at least three, ideally four. Validate a larger panel of differentially expressed genes by RT-qPCR. Provide details on the statistical methods used for differential expression and how multiple testing was controlled.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** "HMG20A binds 4WJ DNA with higher affinity than linear double-stranded DNA."
+  - **Evidence pointer** Results section "Structure-function relationships in HMG20A"; Figure 1E
+  - **Concern** The EMSA experiments demonstrate binding to 4WJ DNA, but the physiological relevance is unclear. The authors do not show that HMG20A binds to 4WJ structures in cells or that this binding is important for its function. The claim of "higher affinity" is based on qualitative observations, not quantitative measurements.
+  - **Why it matters** The preference for bent DNA is used to support the model that HMG20A binds to nucleosomal or partially unwound DNA. Without quantitative binding data or cellular evidence, this remains speculative.
+  - **Resolution test** Perform quantitative EMSA or surface plasmon resonance to determine dissociation constants for 4WJ versus linear DNA. Use DNA substrates that mimic nucleosomal DNA or promoter structures to test binding in a more relevant context. Mutate the HMG box to abolish DNA binding and test functional consequences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "HMG20A is predicted by the AlphaFold2 software to contain three distinct structural elements" but does not mention that these predictions were experimentally validated.
+  - **Required correction** Rephrase to indicate that predictions were confirmed by functional assays, e.g., "We characterized three distinct structural elements of HMG20A, predicted by AlphaFold2 and validated experimentally."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 4B-D
+  - **Evidence pointer** Results section "PHF14 and HMG20A control migration, invasion and cell-cell adhesion"
+  - **Issue** The wound-healing and invasion assays show "weak" or "strong" effects, but no quantitative data or statistical analysis is provided in the text.
+  - **Required correction** Provide quantitative measurements (e.g., percentage wound closure, number of invaded cells) with error bars and statistical significance values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5H
+  - **Evidence pointer** Results section "PHF14 KD or HMG20A KD causes defects of the Hippo pathway"
+  - **Issue** The co-immunoprecipitation showing HMG20A/PHF14 interaction with TEAD1 is presented as a single experiment. No negative controls (e.g., IgG control) are described.
+  - **Required correction** Include appropriate negative controls and, if possible, show reciprocal co-immunoprecipitation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on PHF14-HMG20A complex and poised chromatin
+  - **Issue** The discussion speculates about the complex maintaining "poised" chromatin states, but no experimental evidence is provided to support this.
+  - **Required correction** Either provide supporting data (e.g., histone modification analysis at target loci) or clearly label this as speculation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct interaction with TEAD1 not functionally validated), R1-M2 (causal link to TGFβ-induced EMT not established), R1-M3 (underpowered RNA-seq analysis).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The identification of a novel HMG20A-PHF14 complex is original and adds to the understanding of chromatin regulator networks. The link to Hippo and TGFβ pathways is novel.
+  - **Scientific importance** The findings have potential implications for understanding epithelial-mesenchymal plasticity in cancer, a topic of high relevance. However, the mechanistic depth is currently insufficient to fully establish the importance.
+  - **Interdisciplinary readership** The work bridges chromatin biology, transcription regulation, and cancer biology, which will appeal to a broad audience.
+  - **Technical soundness** The experimental approaches are generally sound, but the RNA-seq analysis with only two replicates and the lack of functional validation for key claims reduce technical robustness.
+  - **Readability for nonspecialists** The manuscript is well-written and logically structured, making it accessible to readers beyond the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding of a novel interaction is solid, but the mechanistic claims require additional experimental support, particularly regarding direct regulation of Hippo and TGFβ pathways.
+
+## Risk / unsupported claims
+- The claim of "direct interaction with TEAD1" is supported only by co-immunoprecipitation and lacks functional validation.
+- The claim that the complex "modulates" Hippo and TGFβ pathways is based on transcriptomic correlations and limited functional assays; causal relationships are not fully established.
+- The statement that HMG20A binds 4WJ DNA with "higher affinity" is qualitative and not quantitatively supported.
+- The speculation about the complex maintaining "poised" chromatin states is not experimentally tested.
+- The RNA-seq analysis with two replicates per condition is underpowered; the robustness of the shared target analysis is uncertain.

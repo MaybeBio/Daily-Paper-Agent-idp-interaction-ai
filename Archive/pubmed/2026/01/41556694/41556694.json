@@ -1,0 +1,240 @@
+{
+  "identity": {
+    "pmid": "41556694",
+    "doi": "10.1021/acs.jcim.5c02665",
+    "title": "Recognition of Coexisting Phases in Model Membranes via an Unsupervised Method."
+  },
+  "content": {
+    "abstract": "Phase separation in bilayers composed of a few lipid species is widely used as a model for exploring the lateral heterogeneity of complex cell membranes. Molecular dynamics (MD) simulations offer atomistic insights into coexisting lipid phases. But identifying these phases from trajectories remains challenging. Here, we present an unsupervised method for lipid phase recognition in phase-separated bilayers. In this method, the membrane plane is first discretized into pixels. For each pixel, the local lipid packing degree, which is defined as the atomic density within that pixel, is calculated and assigned to the corresponding pixel. A threshold is then determined by fitting a two-component Gaussian mixture model (GMM) to the distribution of lipid packing degree, enabling phase state assignment to pixels and subsequent mapping back to lipids. Our method is applicable to different systems, regardless of their compositions or temperatures, thus minimizing potential artifacts. Tests on bilayers with diverse lipid compositions and temperatures show that our method outperforms the commonly used hidden Markov model (HMM) in both accuracy and robustness. Notably, in this method, phase recognition relies solely on bilayer-intrinsic properties (lipid packing degree), without requiring temporal information, labeled data, or assumptions about the local lipid environment. This makes our method broadly applicable to various tasks, including characterizing the phase transformation process before the system reaches equilibration and identifying coexisting phases in protein-containing bilayers. In summary, we provide a robust and accurate framework for identifying coexisting phases in bilayers and tracking their dynamic transitions in simulations.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Lipid Bilayers/chemistry",
+      "Phase Separation",
+      "*Molecular Dynamics Simulation",
+      "Temperature"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dai, Yuzhuo",
+        "Zhao, Jianwei",
+        "Wang, Beibei",
+        "Liang, Qing",
+        "Gu, Ruo-Xu"
+      ],
+      "short_names": [
+        "Dai Y",
+        "Zhao J",
+        "Wang B",
+        "Liang Q",
+        "Gu RX"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-3862-5159",
+        "ORCID: 0000-0003-2193-3777",
+        "ORCID: 0000-0003-3228-6982",
+        "ORCID: 0000-0003-2587-0232"
+      ],
+      "affiliations": [
+        "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Road, 200240 Shanghai, China.",
+        "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Road, 200240 Shanghai, China.",
+        "Centre for Advanced Materials Research, Beijing Normal University, 18 Jinfeng Road, 519087 Zhuhai, China.",
+        "Center for Statistical and Theoretical Condensed Matter Physics & Department of Physics, Zhejiang Normal University, Jinhua 321004, China.",
+        "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Road, 200240 Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dai, Yuzhuo",
+        "short_name": "Dai Y",
+        "identifiers": [
+          "0009-0001-3862-5159"
+        ],
+        "affiliations": [
+          "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Road, 200240 Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jianwei",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Road, 200240 Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Beibei",
+        "short_name": "Wang B",
+        "identifiers": [
+          "0000-0003-2193-3777"
+        ],
+        "affiliations": [
+          "Centre for Advanced Materials Research, Beijing Normal University, 18 Jinfeng Road, 519087 Zhuhai, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Qing",
+        "short_name": "Liang Q",
+        "identifiers": [
+          "0000-0003-3228-6982"
+        ],
+        "affiliations": [
+          "Center for Statistical and Theoretical Condensed Matter Physics & Department of Physics, Zhejiang Normal University, Jinhua 321004, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Ruo-Xu",
+        "short_name": "Gu RX",
+        "identifiers": [
+          "0000-0003-2587-0232"
+        ],
+        "affiliations": [
+          "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 800 Dongchuan Road, 200240 Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 Feb 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/20 14:03",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41556694",
+      "23805738",
+      "29262367",
+      "39025570",
+      "24892900",
+      "22369354",
+      "26890258",
+      "41160654",
+      "28810118",
+      "31964135",
+      "41765595",
+      "10396601",
+      "25331143",
+      "40318394",
+      "27526680",
+      "38689500",
+      "28433014",
+      "39978121",
+      "33121937",
+      "41855556",
+      "27121138",
+      "40946167",
+      "33080278",
+      "21473645",
+      "40197587",
+      "29709614",
+      "18805393",
+      "25059993",
+      "7946065",
+      "25150983",
+      "30096240",
+      "31209450",
+      "8519994",
+      "20017540",
+      "19805351",
+      "27771953",
+      "32941827",
+      "36604961",
+      "12324404",
+      "37774148",
+      "39111381",
+      "30414630",
+      "32716170",
+      "33160952",
+      "25383505",
+      "30594703",
+      "19804725",
+      "41707057",
+      "37962400",
+      "10545348",
+      "1643051",
+      "20550901",
+      "33034537",
+      "16055548",
+      "25747462",
+      "39025582",
+      "33441107",
+      "31332471",
+      "17588529",
+      "28886648",
+      "35859420",
+      "12829489",
+      "27574865",
+      "27071656",
+      "22894383",
+      "42156670",
+      "23777280",
+      "23320723",
+      "39025569",
+      "22836671",
+      "18983816",
+      "32979389",
+      "29983063",
+      "37742069",
+      "16905614",
+      "37254482",
+      "28267920",
+      "25340788",
+      "22418786",
+      "19453146",
+      "36403088",
+      "35651317",
+      "28201915",
+      "31560853",
+      "40498149",
+      "31317978",
+      "25369786",
+      "25514167",
+      "25820530",
+      "24582710",
+      "21793003",
+      "16851844",
+      "29858887",
+      "27302426",
+      "34398598",
+      "41452942",
+      "32432336",
+      "10866969",
+      "15668234",
+      "30605612"
+    ],
+    "review": [
+      "41556694",
+      "10396601"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c02665",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

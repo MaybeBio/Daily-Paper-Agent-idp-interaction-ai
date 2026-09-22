@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, conclusions, materials and methods, and supplementary material references.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented evidence. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors report that the phase-separation behavior of the multivalent SLP65–CIN85 complex can be quantitatively described by a LASSI-based computational model parameterized by experimentally measured individual SH3–PRM dissociation constants. They further report that the model identified a previously unknown intramolecular interaction within CIN85 that deactivates the SH3C domain, effectively rendering CIN85 bivalent rather than trivalent.
+- **Visible evidence base** Abstract, full main text, figure legends (Figures 1–4), methods section, and references to supplementary figures, tables, and deposited data.
+- **Missing materials affecting confidence** Supplementary figures and tables (SI Appendix, Figs. S1–S14, Tables S1–S2) are referenced but not provided. Raw data are deposited on Figshare but not accessible from the supplied material. Preprint is referenced but not included.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic and ambitious effort to connect quantitative binding affinities of individual SH3–PRM interactions to the macroscopic phase-separation behavior of a biologically relevant multivalent protein system. The combination of NMR and ITC measurements with LASSI simulations is appropriate and potentially powerful. However, the central claim that the model "reproduces the observed phase-separation properties quantitatively" is not fully supported by the data visible in the main text. Key quantitative comparisons between simulation and experiment are presented only as ratios or qualitative statements, and the critical discrepancy for the CIN85-ABC construct is explained by an intramolecular interaction whose existence is inferred but not directly demonstrated. The manuscript would be substantially strengthened by direct experimental validation of the proposed intramolecular interaction and by clearer presentation of the quantitative agreement between simulation and experiment.
+- **Who would be interested in the results, and why** Researchers studying biomolecular phase separation, particularly those interested in multivalent protein systems and the predictive power of coarse-grained simulations. The work is also relevant to immunologists studying B-cell receptor signaling, as it provides mechanistic insight into the presignaling condensates formed by SLP65 and CIN85. The methodological approach of combining experimental binding data with LASSI simulations may interest computational biologists developing predictive models of phase behavior.
+- **Major strengths** The study addresses a biologically important system with clear relevance to immune signaling. The experimental design is thoughtful, using both natural and designer constructs to dissect the contributions of individual interactions. The combination of multiple biophysical techniques (NMR, ITC, fluorescence microscopy) provides complementary perspectives. The use of LASSI to connect molecular-level binding parameters to phase behavior is a valuable approach that could have broader applicability. The identification of a potential intramolecular interaction that modulates valency is an interesting finding with implications for understanding how phase separation is regulated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that LASSI simulations "reproduced the observed phase-separation properties" and that the model provides a "quantitative" description of the system.
+  - **Evidence pointer** Figures 3 and 4; Results section "Modeling of SLP65-CIN85 phase separation indicates that CIN85-ABC is effectively bivalent"
+  - **Concern** The quantitative agreement between simulation and experiment is not clearly demonstrated in the main text. The authors state that simulated and experimental values "correlated" and show a plot (Fig. 4) with white and black symbols, but the actual numerical values, the correlation coefficient, and the error bars on the simulated values are not presented in the visible text. The claim of quantitative reproduction requires a direct, quantitative comparison.
+  - **Why it matters** The central thesis of the manuscript is that individual binding affinities can predict phase-separation behavior. Without a clear demonstration of quantitative agreement, this claim is not established. The reader cannot assess the accuracy of the model or the significance of the discrepancies.
+  - **Resolution test** Provide a table or figure with numerical values of ϕexp and ϕsim for all constructs, including error estimates, and report a statistical measure of agreement (e.g., correlation coefficient, root-mean-square deviation). Show the comparison explicitly rather than relying on qualitative statements.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that CIN85-PRM1 binds intramolecularly to SH3C, deactivating it and rendering CIN85 effectively bivalent.
+  - **Evidence pointer** Results section "The intramolecular interaction of CIN85-PRM1 impairs SH3C's contribution to phase separation"; Figure 4
+  - **Concern** The existence of the intramolecular interaction is inferred from the discrepancy between simulation and experiment for CIN85-ABC, and from the observation that CIN85-AB behaves similarly to CIN85-ABC. However, no direct experimental evidence for this interaction is presented. The authors reference a previous study (ref 26) for the identification of CIN85-PRM1, but the intramolecular binding to SH3C is not directly demonstrated here.
+  - **Why it matters** This is a key mechanistic claim of the manuscript. If the intramolecular interaction does not exist, the discrepancy between simulation and experiment remains unexplained, and the model's predictive power is called into question. The claim needs direct experimental support.
+  - **Resolution test** Provide direct experimental evidence for the intramolecular interaction, for example, by mutagenesis of CIN85-PRM1 (beyond the R227A/R229A mutations) and demonstration of restored SH3C binding to SLP65 PRMs, or by NMR or other biophysical methods showing intramolecular binding in the intact CIN85 protein.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The manuscript states that the LASSI model was parameterized using experimentally determined ΔG values derived from the measured KD values.
+  - **Evidence pointer** Materials and methods, "Computational model"; Results section "Disentanglement of the promiscuous SH3–PRM interactions"
+  - **Concern** The details of how the 18 individual KD values were incorporated into the LASSI energy matrix are not fully described in the visible text. It is unclear whether all 18 interactions were treated independently, how the promiscuous binding was handled, and how the energy parameters were scaled or normalized.
+  - **Why it matters** The predictive power of the model depends critically on the parameterization. Without a clear description, the reader cannot evaluate the validity of the model or reproduce the simulations.
+  - **Resolution test** Provide a detailed description of the parameterization procedure, including the mapping from KD to energy parameters, the treatment of promiscuous interactions, and any assumptions or approximations made. This could be in the main text or in a clearly referenced supplementary section.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2C and D
+  - **Evidence pointer** Results section "The strong-binding CIN85-BBB, but not the SLP65-3xPRM4 construct reduces the saturation concentration for tripartite phase separation"
+  - **Issue** The ϕ ratios are mentioned in the text ("ϕ ratios in Fig. 1C") but the figure legend for Figure 2 does not clearly explain how these ratios are calculated or what they represent.
+  - **Required correction** Clarify in the figure legend or text how the ϕ ratios are defined and calculated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "The intramolecular interaction of CIN85-PRM1 impairs SH3C's contribution to phase separation"
+  - **Evidence pointer** Figure 4
+  - **Issue** The statement "This is recapitulated in the simulations: CIN85-ABC that ignores the intramolecular CIN85 SH3C–PRM1 interaction has a ϕsim of 10.9 similar to 9.1 of CIN85-BBB" is confusing. It is unclear whether the simulation of CIN85-ABC already ignores the intramolecular interaction, or whether a separate simulation was performed with the interaction removed.
+  - **Required correction** Clarify which simulation corresponds to which construct and whether the intramolecular interaction was included or excluded in each case.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and methods, "Fluorescence microscopy assay and image analysis"
+  - **Evidence pointer** Materials and methods
+  - **Issue** The method for determining the saturation concentration ϕexp from the dispersion index is described, but the number of independent experiments and the statistical treatment of the data are not stated.
+  - **Required correction** Provide information on the number of replicates and the statistical methods used to determine the reported errors.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "The strong-binding CIN85-BBB, but not the SLP65-3xPRM4 construct reduces the saturation concentration for tripartite phase separation"
+  - **Evidence pointer** Figure 2
+  - **Issue** The text states that "the CIN85-BBB construct, but not the SLP65-3xPRM4 construct, did promote tripartite phase separation." However, the SLP65-3xPRM4 construct did show a lower ϕexp than the wild-type in the two-protein system (Fig. 2D). The distinction between the two systems could be made clearer.
+  - **Required correction** Clarify the context (with or without SUVs) when discussing the effects of each construct.
+- **Technical failings that need to be addressed before the case is established** The quantitative agreement between simulation and experiment must be demonstrated explicitly (R1-M1). The existence of the intramolecular interaction must be supported by direct experimental evidence (R1-M2). The parameterization of the LASSI model must be described in sufficient detail to allow evaluation and reproduction (R1-M3).
+
+## Risk / unsupported claims
+- The claim that the LASSI model "reproduces the observed phase-separation properties quantitatively" is not supported by the visible evidence, as no direct quantitative comparison is presented.
+- The claim that CIN85-PRM1 intramolecularly binds SH3C and deactivates it is inferred but not directly demonstrated.
+- The statement that "thermodynamic properties of the individual PRM/SH3 interactions allow us to model the phase-separation behavior of the SLP65/CIN85 system faithfully" is an overstatement given the unresolved discrepancy for CIN85-ABC.
+- The claim that "valency is a major determinant for CIN85's phase separation" is supported by the data, but the relative importance of valency versus affinity is not systematically tested.
+- The biological relevance of the findings to B-cell signaling is discussed but not experimentally addressed in this manuscript.

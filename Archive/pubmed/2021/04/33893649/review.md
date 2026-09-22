@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to show that disordered regions in the receptor binding domain (RBD) of the SARS-CoV-2 spike protein undergo disorder-to-order transition (DOT) upon binding to human ACE2. They report that DOT residues are located in functionally important regions, are enriched in hydrophilic and aromatic amino acids, show positively correlated motions with nearby residues, and contribute favorable binding energies to the spike-ACE2 complex. They suggest these findings may inform drug and vaccine discovery.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, statistical analyses, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, simulation setup and force field parameters, trajectory analysis details, definitions of disorder and DOT criteria, binding energy calculation methods, uncertainty estimates, and any validation against experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting application of molecular dynamics simulations to study conformational changes in disordered regions of the SARS-CoV-2 spike protein upon ACE2 binding. However, the evidence base is limited to a summary with no quantitative results, methodological detail, or validation. The central claims regarding DOT, residue composition, correlated motions, and binding energy contributions cannot be assessed from the supplied material. The clinical and translational implications stated in the final sentence are speculative and not supported by the evidence described.
+- **Who would be interested in the results, and why** Structural biologists and computational biophysicists studying protein-protein interactions involving intrinsically disordered regions, as well as researchers focused on SARS-CoV-2 entry mechanisms and therapeutic targeting of the spike-ACE2 interface. The work may also interest those developing simulation-based approaches to identify druggable conformational epitopes.
+- **Major strengths** The topic is timely and relevant to an ongoing public health challenge. The focus on disorder-to-order transitions in the RBD is a specific and mechanistically meaningful angle that has received limited attention in the context of SARS-CoV-2. The abstract clearly identifies a gap in existing knowledge and proposes a simulation-based approach to address it.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular dynamics simulations characterize structural changes in disordered regions of the spike protein resulting from ACE2 binding, and that DOT residues are located at functionally important regions of the RBD.
+  - **Evidence pointer** Abstract, methods and results sections not provided
+  - **Concern** No methodological details are provided regarding the simulation system, force field, simulation length, number of replicas, equilibration protocol, or criteria used to define disorder and disorder-to-order transition. Without this information, the reliability and reproducibility of the simulation results cannot be evaluated.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation parameters and analysis choices. The definition of DOT is particularly critical, as different criteria can yield different residue classifications. The absence of these details prevents assessment of whether the observed transitions are robust or artifacts of the chosen setup.
+  - **Resolution test** Provide full methods including force field, water model, simulation length, temperature and pressure control, number of independent simulations, and explicit criteria for identifying disordered regions and DOT residues. Show convergence of results across replicas or extended timescales.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that binding is strengthened via hydrophilic and aromatic amino acids mainly present in the DOTs, and that DOT residues contribute more favorable binding energies for the spike-ACE2 complex formation.
+  - **Evidence pointer** Abstract, quantitative results not provided
+  - **Concern** No quantitative data are presented to support these claims. There are no binding energy values, no statistical comparisons between DOT and non-DOT residues, and no error estimates. The phrase "more favorable binding energies" is vague and cannot be evaluated without numerical results and appropriate statistical testing.
+  - **Why it matters** The central mechanistic claims of the study rest on these quantitative comparisons. Without data showing effect sizes, variability, and significance, the claims are unsupported assertions rather than evidence-based conclusions.
+  - **Resolution test** Provide tables or figures with binding energy contributions for DOT versus non-DOT residues, including means, standard deviations, and statistical tests. Show that the observed differences are significant and not due to outliers or small sample sizes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the study emphasizes that intrinsically disordered residues in the RBD may provide insights into etiology and be useful for drug and vaccine discovery.
+  - **Evidence pointer** Abstract, discussion and conclusion sections not provided
+  - **Concern** The translational implications are stated without any connection to experimental validation, known drug targets, or vaccine design principles. The leap from simulation observations to therapeutic relevance is not justified within the abstract.
+  - **Why it matters** Overstating translational relevance without supporting evidence weakens the scientific credibility of the work and may mislead readers about the maturity of the findings. The claim goes beyond what simulation data alone can establish.
+  - **Resolution test** Either temper the conclusion to reflect the computational nature of the study, or provide a reasoned argument linking specific DOT residues to known functional or antigenic sites with supporting references or additional analysis.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "disordered-to-order transition" is used without a brief definition or context for readers unfamiliar with intrinsically disordered proteins.
+  - **Required correction** Add a short parenthetical explanation, for example "a process where flexible regions become structured upon binding," to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, methodology description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "molecular-dynamics simulations" were used but does not specify the system size, timescale, or whether the simulations were all-atom or coarse-grained.
+  - **Required correction** Include at least one sentence specifying the simulation type and approximate timescale to give readers a basic sense of the computational approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract, framing
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract claims this is the first study of its kind ("has not yet been studied") but provides no literature context to support this novelty claim.
+  - **Required correction** Either provide a brief statement of prior work and how this study differs, or soften the novelty claim to avoid overstatement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing methodological detail), R1-M2 (lack of quantitative evidence), R1-M3 (unsupported translational claims)
+- **Assessment against Nature-style criteria** 
+  - Originality: The focus on DOT in the RBD is a specific angle, but the abstract does not demonstrate how this differs from prior simulation studies of spike-ACE2 binding. Originality is plausible but not established from the supplied material.
+  - Scientific importance: The topic is important given the pandemic context, but the abstract does not show how the findings advance fundamental understanding or practical applications beyond a general suggestion.
+  - Interdisciplinary readership: The work sits at the interface of structural biology, biophysics, and virology, which could attract a broad audience, but the abstract is too technical and lacks context for nonspecialists.
+  - Technical soundness: Cannot be assessed due to absence of methodological and quantitative details.
+  - Readability for nonspecialists: The abstract is reasonably clear in structure but uses specialized terms without explanation and does not provide sufficient context for the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially interesting study, but the absence of methodological detail, quantitative results, and validation means the core claims cannot be evaluated. A supportive recommendation would require access to the full manuscript and resolution of the major concerns listed above.
+
+## Risk / unsupported claims
+- The claim that DOT residues are located at functionally important regions of the RBD is unsupported without a definition of "functionally important" and evidence linking specific residues to known functional sites.
+- The claim that binding is strengthened via hydrophilic and aromatic amino acids in DOTs is unsupported without quantitative composition analysis and statistical testing.
+- The claim that DOT residues contribute more favorable binding energies is unsupported without numerical energy values and error estimates.
+- The claim that the findings may be useful for drug and vaccine discovery is speculative and not supported by the evidence described in the abstract.
+- The novelty claim that this has "not yet been studied" is unverifiable from the abstract alone and requires literature context.

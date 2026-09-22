@@ -1,0 +1,6 @@
+# Exploration of the interaction between dynein intermediate chain and dynactin p150Glued
+ reveals a novel binding Interface
+
+
+## Abstract
+  Cytoplasmic dynein is a motor protein that plays a role in a number of cellular processes including retrograde transport. In many cases, dynein needs to interact with another protein, dynactin, to be fully active. An important step in the assembly of the dynein/dynactin complex is the interaction between the N‐terminal portion of the intermediate chain (IC) subunit of dynein and the coiled‐coil 1B (CC1B) region of the p150Glued subunit of dynactin. Despite evidence for this interaction from binding studies, the exact location of where these proteins bind has remained elusive due to the dynamic nature of the interaction and the presence of intrinsically disordered regions in IC. By using intermolecular paramagnetic relaxation enhancements, we have been able to constrain the location of IC binding on p150Glued to a position that is different from what has recently been hypothesized in a model of the dynein/dynactin complex based on cryo‐electron microscopy (cryo‐EM) data and AlphaFold predictions. In addition, although phosphorylation is important for regulating dynein/dynactin interactions, we show that a phosphomimetic mutation of IC is not sufficient to alter binding with p150Glued.

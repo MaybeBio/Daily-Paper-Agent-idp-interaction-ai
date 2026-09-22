@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or methods
+- **Shared manuscript claim summary** The authors report that extensive molecular dynamics simulations of alpha-synuclein binding to a mixed POPC/POPG bilayer reveal that binding is triggered by lysine adsorption to negatively charged PG headgroups, that membrane-binding residues are primarily located in the first nine residues and the five imperfect KTKEGV repeats, that N-terminus to C-terminus intramolecular interactions are the major interference factor in membrane binding, and that repeats 1, 3, and 5 show higher membrane-binding propensities while repeat 4 is least membrane-bound due to strong intramolecular contacts.
+- **Visible evidence base** Abstract text only; no simulation parameters, force field details, system setup, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, simulation protocols, force field and water model specifications, system size and composition, simulation timescales, replica or repeat information, analysis details for network analysis, structural figures, quantitative binding propensity data, and any validation or control simulations
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting computational study of alpha-synuclein membrane binding. The central claims are coherent and potentially valuable, but the abstract alone provides insufficient detail to assess the technical rigor of the simulations or the robustness of the conclusions. The claim that specific intramolecular interactions govern differential membrane-binding propensities of individual KTKEGV repeats is the most novel element, but its support cannot be evaluated from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying alpha-synuclein structure and function, computational biophysicists working on protein-membrane interactions, and investigators interested in the molecular basis of Parkinson's disease and other synucleinopathies. The identification of specific intramolecular contacts that modulate membrane binding could inform therapeutic strategies aimed at disrupting or enhancing these interactions.
+- **Major strengths** The study addresses a challenging and biologically important problem, namely the dynamic and heterogeneous nature of alpha-synuclein membrane binding. The use of extensive molecular dynamics simulations is appropriate for this question. The abstract proposes a specific mechanistic model, including a role for N-terminus to C-terminus interactions and differential repeat behavior, which is testable and potentially impactful.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "extensive molecular dynamics simulations" provide "atomic-level characterization" of the protein-membrane complex and that the binding process is "triggered by the adsorption of lysine residues to the negatively charged PG headgroups"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on simulation methodology, including force field, water model, system size, simulation length, number of independent runs, temperature and pressure coupling, or treatment of long-range electrostatics. Without these details, the reliability of the simulations and the robustness of the observed binding events cannot be assessed. The claim of "extensive" simulations is unverifiable.
+  - **Why it matters** Molecular dynamics results for intrinsically disordered proteins are highly sensitive to force field choice and sampling adequacy. If the simulations are under-sampled or use an inappropriate force field, the proposed binding mechanism and the differential repeat propensities could be artifacts.
+  - **Resolution test** Provide full simulation details in the methods section, including force field and water model, system composition, simulation length and number of replicates, and demonstrate convergence of the key observables (e.g., binding site occupancy, intramolecular contact maps) across independent runs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The claim that "the interaction between the N-terminus and C-terminus [is] the major interference factor in membrane binding" and that "Repeats 1, 3, and 5 which are less engaged in intramolecular contacts display higher membrane-binding propensities, whereas Repeat 4 is the least membrane-bound due to strong interactions with Repeat 3, Repeat 5, and the C-terminus"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that "network analysis of intramolecular interactions" identifies the N-terminus to C-terminus interaction as the major interference factor, but no quantitative data are provided. No metrics are given for "membrane-binding propensity" or "engagement in intramolecular contacts." The causal claim that repeat 4 is least membrane-bound "due to" specific interactions is asserted without supporting evidence.
+  - **Why it matters** These are the most novel and potentially impactful claims of the study. Without quantitative support, such as occupancy values, free energy estimates, or statistical comparisons across repeats, the conclusions remain speculative. The causal language implies a mechanism that may not be directly demonstrated by correlation in simulations.
+  - **Resolution test** Provide quantitative measures of membrane-binding propensity (e.g., contact probabilities, residence times, or free energy profiles) for each repeat and for the N- and C-termini, along with statistical analysis. Show that the proposed intramolecular interactions are significantly correlated with reduced membrane binding, ideally with perturbation or control simulations to test causality.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and generalizability
+  - **Claim pointer** The claim that the findings reveal "crucial intramolecular interactions governing the membrane binding of alpha-synuclein" and would "enlighten the development of therapeutic strategies"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The study uses a single lipid composition (POPC/POPG) and presumably a single protein construct and a limited set of initial conditions. The generalizability of the findings to other membrane compositions, ionic conditions, or protein variants is not addressed. The therapeutic implications are stated without discussion of how the identified interactions might be targeted.
+  - **Why it matters** Alpha-synuclein membrane binding is known to depend on lipid composition and solution conditions. If the conclusions are specific to this one system, the broader relevance and therapeutic potential are overstated.
+  - **Resolution test** Discuss the limitations of the single lipid system in the full text, and either provide additional simulations with different lipid compositions or temper the generalizability claims. Clarify the proposed therapeutic strategy in concrete terms.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "the binding process is triggered by the adsorption of lysine residues" implies a single initiating event, but the abstract also describes "differential binding modes stemming from the balance of heterogeneous intramolecular contacts." The relationship between the initial trigger and the subsequent diversity of binding modes is not clearly articulated.
+  - **Required correction** Clarify whether lysine adsorption is the sole initiating step or one of several contributing factors, and describe how the initial trigger leads to the observed differential binding modes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "membrane-binding propensity" is used without definition. It is unclear whether this refers to contact frequency, residence time, binding free energy, or another metric.
+  - **Required correction** Define the metric used to quantify membrane-binding propensity in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention the simulation timescale or the number of independent simulations, which are important for judging the statistical reliability of the results.
+  - **Required correction** Add a brief statement on simulation length and number of replicates to the abstract or ensure this is prominently presented in the results section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation methodology and sampling adequacy), R1-M2 (quantitative support for the proposed mechanism and causal claims)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The focus on differential behavior of individual KTKEGV repeats and the role of N-terminus to C-terminus interactions in modulating membrane binding is a potentially original contribution, though the abstract does not allow comparison with prior computational studies of alpha-synuclein membrane binding.
+  - **Scientific importance** The problem is important for understanding alpha-synuclein function and dysfunction in neurodegeneration. If the mechanistic claims are robust, the findings could have significant impact.
+  - **Interdisciplinary readership** The topic bridges biophysics, computational chemistry, and neurobiology, and the abstract is written in a way that is broadly accessible. However, the lack of methodological detail limits the ability of a computational specialist to evaluate the work.
+  - **Technical soundness** Cannot be assessed from the abstract alone. The absence of simulation parameters and convergence analysis is a major gap.
+  - **Readability for nonspecialists** The abstract is clearly written and avoids excessive jargon, making the main findings understandable to a broad scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the technical basis and quantitative support for the central claims are not verifiable from the supplied material. A decision would require full access to the methods, results, and figures.
+
+## Risk / unsupported claims
+- The claim that "extensive molecular dynamics simulations" were performed is unverifiable without simulation details.
+- The claim that lysine adsorption "triggers" the binding process is presented as a causal statement without supporting kinetic or thermodynamic data.
+- The claim that the N-terminus to C-terminus interaction is the "major interference factor" is unsupported by quantitative evidence in the abstract.
+- The differential membrane-binding propensities of repeats 1, 3, 4, and 5 are asserted without numerical data.
+- The causal explanation for repeat 4 being least membrane-bound is speculative without perturbation or control simulations.
+- The therapeutic implications are stated without a concrete mechanism or target.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38985766",
+  "title": "Control of G protein-coupled receptor function via membrane-interacting intrinsically disordered C-terminal domains.",
+  "authors": "Mancinelli, Chiara D; Marx, Dagan C; Gonzalez-Hernandez, Alberto J; Huynh, Kevin; Mancinelli, Lucia; Arefin, Anisul; Khelashvilli, George; Levitz, Joshua; Eliezer, David",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2024-07-10",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究GPCR无序C末端结构域与膜互作调控受体功能，结合NMR、MD模拟和突变分析，虽非典型PPI但涉及无序蛋白-膜互作机制建模，对IDR介导互作机制研究有方法学启发。",
+  "abstract": "G protein-coupled receptors (GPCRs) control intracellular signaling cascades via agonist-dependent coupling to intracellular transducers including heterotrimeric G proteins, GPCR kinases (GRKs), and arrestins. In addition to their critical interactions with the transmembrane core of active GPCRs, all three classes of transducers have also been reported to interact with receptor C-terminal domains (CTDs). An underexplored aspect of GPCR CTDs is their possible role as lipid sensors given their proximity to the membrane. CTD-membrane interactions have the potential to control the accessibility of key regulatory CTD residues to downstream effectors and transducers. Here, we report that the CTDs of two closely related family C GPCRs, metabotropic glutamate receptor 2 (mGluR2) and mGluR3, bind to membranes and that this interaction can regulate receptor function. We first characterize CTD structure with NMR spectroscopy, revealing lipid composition-dependent modes of membrane binding. Using molecular dynamics simulations and structure-guided mutagenesis, we then identify key conserved residues and cancer-associated mutations that modulate CTD-membrane binding. Finally, we provide evidence that mGluR3 transducer coupling is controlled by CTD-membrane interactions in live cells, which may be subject to regulation by CTD phosphorylation and changes in membrane composition. This work reveals an additional mechanism of GPCR modulation, suggesting that CTD-membrane binding may be a general regulatory mode throughout the broad GPCR superfamily.",
+  "abstract_zh": "G蛋白偶联受体（GPCRs）通过激动剂依赖的偶联作用控制细胞内信号级联反应，该过程涉及与包括异源三聚体G蛋白、GPCR激酶（GRKs）和抑制蛋白（arrestins）在内的细胞内转导因子的相互作用。除了与活性GPCR跨膜核心的关键相互作用外，这三类转导因子也被报道能与受体C末端结构域（CTDs）发生相互作用。GPCR CTDs一个尚未充分探索的方面是，鉴于其靠近膜，它们可能作为脂质传感器发挥作用。CTD-膜相互作用有可能控制关键调控性CTD残基对下游效应器和转导因子的可及性。在此，我们报道了两个密切相关的C家族GPCRs——代谢型谷氨酸受体2（mGluR2）和mGluR3——的CTDs能结合膜，且这种相互作用可调节受体功能。我们首先利用核磁共振波谱（NMR spectroscopy）表征CTD结构，揭示了依赖于脂质组成的膜结合模式。通过分子动力学模拟和结构引导的突变分析，我们随后鉴定了调节CTD-膜结合的关键保守残基和癌症相关突变。最后，我们提供了证据表明，在活细胞中，mGluR3转导因子偶联受CTD-膜相互作用控制，这可能受CTD磷酸化和膜组成变化的调节。这项工作揭示了GPCR调节的另一种机制，提示CTD-膜结合可能是整个广泛GPCR超家族中的一种普遍调节模式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38985766/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38985766/",
+  "paper_page_path": "papers/pubmed/38985766/index.html"
+}

@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "37722056",
+    "doi": "10.1073/pnas.2305603120",
+    "title": "Combined prediction and design reveals the target recognition mechanism of an intrinsically disordered protein interaction domain."
+  },
+  "content": {
+    "abstract": "An increasing number of protein interaction domains and their targets are being found to be intrinsically disordered proteins (IDPs). The corresponding target recognition mechanisms are mostly elusive because of challenges in performing detailed structural analysis of highly dynamic IDP-IDP complexes. Here, we show that by combining recently developed computational approaches with experiments, the structure of the complex between the intrinsically disordered C-terminal domain (CTD) of protein 4.1G and its target IDP region in NuMA can be dissected at high resolution. First, we carry out systematic mutational scanning using dihydrofolate reductase-based protein complementarity analysis to identify essential interaction regions and key residues. The results are found to be highly consistent with an alpha/beta-type complex structure predicted by AlphaFold2 (AF2). We then design mutants based on the predicted structure using a deep learning protein sequence design method. The solved crystal structure of one mutant presents the same core structure as predicted by AF2. Further computational prediction and experimental assessment indicate that the well-defined core structure is conserved across complexes of 4.1G CTD with other potential targets. Thus, we reveal that an intrinsically disordered protein interaction domain uses an alpha/beta-type structure module formed through synergistic folding to recognize broad IDP targets. Moreover, we show that computational prediction and experiment can be jointly applied to segregate true IDP regions from the core structural domains of IDP-IDP complexes and to uncover the structure-dependent mechanisms of some otherwise elusive IDP-IDP interactions.",
+    "keywords": [
+      "4.1G C-terminal domain",
+      "intrinsically disordered protein",
+      "protein prediction and design",
+      "recognition mechanism",
+      "synergetic folding"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/genetics",
+      "Furylfuramide",
+      "Amino Acid Sequence",
+      "Mutation",
+      "Protein Interaction Domains and Motifs"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Xiuhong",
+        "Xu, Yang",
+        "Wang, Chenchen",
+        "Liu, Yufeng",
+        "Zhang, Lu",
+        "Zhang, Jiahai",
+        "Wang, Wenning",
+        "Chen, Quan",
+        "Liu, Haiyan"
+      ],
+      "short_names": [
+        "Hu X",
+        "Xu Y",
+        "Wang C",
+        "Liu Y",
+        "Zhang L",
+        "Zhang J",
+        "Wang W",
+        "Chen Q",
+        "Liu H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7110-274X",
+        "ORCID: 0000-0002-3618-1670",
+        "ORCID: 0000-0002-3301-3065"
+      ],
+      "affiliations": [
+        "Department of Rheumatology and Immunology, Division of Life Sciences and Medicine, The First Affiliated Hospital, University of Science and Technology of China, Hefei, Anhui 230001, China.",
+        "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China.",
+        "Department of Rheumatology and Immunology, Division of Life Sciences and Medicine, The First Affiliated Hospital, University of Science and Technology of China, Hefei, Anhui 230001, China.",
+        "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China.",
+        "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China.",
+        "Department of Rheumatology and Immunology, Division of Life Sciences and Medicine, The First Affiliated Hospital, University of Science and Technology of China, Hefei, Anhui 230001, China.",
+        "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China.",
+        "Department of Rheumatology and Immunology, Division of Life Sciences and Medicine, The First Affiliated Hospital, University of Science and Technology of China, Hefei, Anhui 230001, China.",
+        "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China.",
+        "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China.",
+        "Department of Chemistry, Institutes of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China.",
+        "Department of Rheumatology and Immunology, Division of Life Sciences and Medicine, The First Affiliated Hospital, University of Science and Technology of China, Hefei, Anhui 230001, China.",
+        "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China.",
+        "Biomedical Sciences and Health Laboratory of Anhui Province, University of Science and Technology of China, Hefei, Anhui 230027, China.",
+        "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China.",
+        "Biomedical Sciences and Health Laboratory of Anhui Province, University of Science and Technology of China, Hefei, Anhui 230027, China.",
+        "School of Data Science, University of Science and Technology of China, Hefei, Anhui 230027, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Xiuhong",
+        "short_name": "Hu X",
+        "identifiers": [
+          "0000-0001-7110-274X"
+        ],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Division of Life Sciences and Medicine, The First Affiliated Hospital, University of Science and Technology of China, Hefei, Anhui 230001, China.",
+          "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Yang",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Division of Life Sciences and Medicine, The First Affiliated Hospital, University of Science and Technology of China, Hefei, Anhui 230001, China.",
+          "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chenchen",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0000-0002-3618-1670"
+        ],
+        "affiliations": [
+          "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yufeng",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Division of Life Sciences and Medicine, The First Affiliated Hospital, University of Science and Technology of China, Hefei, Anhui 230001, China.",
+          "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lu",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Division of Life Sciences and Medicine, The First Affiliated Hospital, University of Science and Technology of China, Hefei, Anhui 230001, China.",
+          "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiahai",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenning",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Institutes of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Quan",
+        "short_name": "Chen Q",
+        "identifiers": [
+          "0000-0002-3301-3065"
+        ],
+        "affiliations": [
+          "Department of Rheumatology and Immunology, Division of Life Sciences and Medicine, The First Affiliated Hospital, University of Science and Technology of China, Hefei, Anhui 230001, China.",
+          "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China.",
+          "Biomedical Sciences and Health Laboratory of Anhui Province, University of Science and Technology of China, Hefei, Anhui 230027, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Haiyan",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Ministry of Education Key Laboratory for Membraneless Organelles and Cellular Dynamics, Hefei National Laboratory for Physical Sciences at the Microscale, School of Life Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui 230027, China.",
+          "Biomedical Sciences and Health Laboratory of Anhui Province, University of Science and Technology of China, Hefei, Anhui 230027, China.",
+          "School of Data Science, University of Science and Technology of China, Hefei, Anhui 230027, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 Sep 26",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/18 18:42",
+    "fetched_at": "2026-09-21 01:28:31"
+  },
+  "links": {
+    "cites": [
+      "41647538",
+      "41245953",
+      "41169557",
+      "39158698",
+      "38094081"
+    ],
+    "refs": [
+      "38177863",
+      "36108050",
+      "35605677",
+      "35310482",
+      "35170314",
+      "34547592",
+      "34282049",
+      "34265844",
+      "34048569",
+      "33999203",
+      "33623120",
+      "33207556",
+      "32152544",
+      "31783325",
+      "31209395",
+      "31209393",
+      "30813629",
+      "30476243",
+      "30142698",
+      "30133175",
+      "29466338",
+      "28754896",
+      "28493424",
+      "26684000",
+      "26620784",
+      "26250657",
+      "25691742",
+      "25531225",
+      "24773235",
+      "24446368",
+      "24109598",
+      "23870127",
+      "23832629",
+      "23747363",
+      "23260655",
+      "22325280",
+      "21816348",
+      "20443879",
+      "20124693",
+      "20109190",
+      "18054235",
+      "17853867",
+      "17522630",
+      "16403649",
+      "15572765",
+      "12393927",
+      "11823864",
+      "10724160",
+      "9828140",
+      "8520220",
+      "8419986"
+    ],
+    "similar": [
+      "37722056",
+      "35310482",
+      "35762718",
+      "35739160",
+      "32702119",
+      "29228892",
+      "27844185",
+      "33087759",
+      "35609776",
+      "24329095",
+      "39093570",
+      "26742101",
+      "31441158",
+      "28914483",
+      "31683980",
+      "25496281",
+      "30278223",
+      "38739602",
+      "39163306",
+      "26195786",
+      "31756456",
+      "28493424",
+      "29276882",
+      "28597880",
+      "21766125",
+      "32323533",
+      "38018910",
+      "30813629",
+      "26513658",
+      "24278008",
+      "28661120",
+      "32771522",
+      "34504009",
+      "34461937",
+      "30992509",
+      "37892124",
+      "24606139",
+      "29197511",
+      "25307499",
+      "33361159",
+      "24211251",
+      "30514761",
+      "30909517",
+      "31667555",
+      "36250006",
+      "28425679",
+      "30366362",
+      "36714997",
+      "29394379",
+      "26226419",
+      "33230318",
+      "34358545",
+      "28394890",
+      "37990040",
+      "30979035",
+      "33936509",
+      "37992088",
+      "36929465",
+      "23760157",
+      "22399317",
+      "21268115",
+      "31092000",
+      "28425697",
+      "37883249",
+      "28365882",
+      "38987470",
+      "35139468",
+      "27752679",
+      "29694866",
+      "26851279",
+      "25207671",
+      "29716994",
+      "32184088",
+      "31824649",
+      "34390736",
+      "30066087",
+      "38124369",
+      "32112084",
+      "28934129",
+      "25974317",
+      "28448138",
+      "33321815",
+      "32933064",
+      "36711093",
+      "32139510",
+      "32936312",
+      "32393642",
+      "26253171",
+      "30528464",
+      "33187345",
+      "25244701",
+      "29944921",
+      "29990433",
+      "25511246",
+      "21732203",
+      "26301226",
+      "34174329",
+      "27936491",
+      "36829461",
+      "36674958",
+      "27503953",
+      "38238291",
+      "36969402",
+      "39354680",
+      "37985809",
+      "36865220"
+    ],
+    "review": [
+      "37722056",
+      "39093570",
+      "31441158",
+      "30278223",
+      "30813629",
+      "24606139",
+      "25307499",
+      "33361159",
+      "30909517",
+      "31667555",
+      "36250006",
+      "29394379",
+      "26226419",
+      "34358545",
+      "30979035",
+      "22399317",
+      "35139468",
+      "26851279",
+      "34390736",
+      "30066087",
+      "38124369",
+      "26301226",
+      "34174329"
+    ],
+    "pmc": [
+      "10523638"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2305603120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37722056/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37722056",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NUMA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-937",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

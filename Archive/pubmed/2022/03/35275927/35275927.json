@@ -1,0 +1,493 @@
+{
+  "identity": {
+    "pmid": "35275927",
+    "doi": "10.1371/journal.pcbi.1009911",
+    "title": "Characterization of intrinsically disordered regions in proteins informed by human genetic diversity."
+  },
+  "content": {
+    "abstract": "All proteomes contain both proteins and polypeptide segments that don't form a defined three-dimensional structure yet are biologically active-called intrinsically disordered proteins and regions (IDPs and IDRs). Most of these IDPs/IDRs lack useful functional annotation limiting our understanding of their importance for organism fitness. Here we characterized IDRs using protein sequence annotations of functional sites and regions available in the UniProt knowledgebase (\"UniProt features\": active site, ligand-binding pocket, regions mediating protein-protein interactions, etc.). By measuring the statistical enrichment of twenty-five UniProt features in 981 IDRs of 561 human proteins, we identified eight features that are commonly located in IDRs. We then collected the genetic variant data from the general population and patient-based databases and evaluated the prevalence of population and pathogenic variations in IDPs/IDRs. We observed that some IDRs tolerate 2 to 12-times more single amino acid-substituting missense mutations than synonymous changes in the general population. However, we also found that 37% of all germline pathogenic mutations are located in disordered regions of 96 proteins. Based on the observed-to-expected frequency of mutations, we categorized 34 IDRs in 20 proteins (DDX3X, KIT, RB1, etc.) as intolerant to mutation. Finally, using statistical analysis and a machine learning approach, we demonstrate that mutation-intolerant IDRs carry a distinct signature of functional features. Our study presents a novel approach to assign functional importance to IDRs by leveraging the wealth of available genetic data, which will aid in a deeper understating of the role of IDRs in biological processes and disease mechanisms.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Genetic Variation/genetics",
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Conformation",
+      "Proteome/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ahmed, Shehab S",
+        "Rifat, Zaara T",
+        "Lohia, Ruchi",
+        "Campbell, Arthur J",
+        "Dunker, A Keith",
+        "Rahman, M Sohel",
+        "Iqbal, Sumaiya"
+      ],
+      "short_names": [
+        "Ahmed SS",
+        "Rifat ZT",
+        "Lohia R",
+        "Campbell AJ",
+        "Dunker AK",
+        "Rahman MS",
+        "Iqbal S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6063-2689",
+        "ORCID: 0000-0001-7586-0783",
+        "ORCID: 0000-0002-3496-8197",
+        "ORCID: 0000-0003-3857-9727",
+        "ORCID: 0000-0001-9419-6478",
+        "ORCID: 0000-0001-7700-4374"
+      ],
+      "affiliations": [
+        "Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, ECE Building, West Palashi, Dhaka-1205, Bangladesh.",
+        "Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, ECE Building, West Palashi, Dhaka-1205, Bangladesh.",
+        "Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, United States of America.",
+        "Center for the Development of Therapeutics, Broad Institute of MIT and Harvard, Cambridge, Massachusetts, United States of America.",
+        "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, Massachusetts, United States of America.",
+        "Center for Computational Biology and Bioinformatics, Department of Biochemistry and Molecular Biology, Indiana University School of Medicine, Indianapolis, Indiana, United States of America.",
+        "Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, ECE Building, West Palashi, Dhaka-1205, Bangladesh.",
+        "Center for the Development of Therapeutics, Broad Institute of MIT and Harvard, Cambridge, Massachusetts, United States of America.",
+        "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, Massachusetts, United States of America.",
+        "Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, Massachusetts, United States of America.",
+        "Analytic and Translational Genetics Unit, Massachusetts General Hospital, Boston, Massachusetts, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ahmed, Shehab S",
+        "short_name": "Ahmed SS",
+        "identifiers": [
+          "0000-0002-6063-2689"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, ECE Building, West Palashi, Dhaka-1205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Rifat, Zaara T",
+        "short_name": "Rifat ZT",
+        "identifiers": [
+          "0000-0001-7586-0783"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, ECE Building, West Palashi, Dhaka-1205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Lohia, Ruchi",
+        "short_name": "Lohia R",
+        "identifiers": [
+          "0000-0002-3496-8197"
+        ],
+        "affiliations": [
+          "Cold Spring Harbor Laboratory, Cold Spring Harbor, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Campbell, Arthur J",
+        "short_name": "Campbell AJ",
+        "identifiers": [
+          "0000-0003-3857-9727"
+        ],
+        "affiliations": [
+          "Center for the Development of Therapeutics, Broad Institute of MIT and Harvard, Cambridge, Massachusetts, United States of America.",
+          "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, Massachusetts, United States of America."
+        ]
+      },
+      {
+        "full_name": "Dunker, A Keith",
+        "short_name": "Dunker AK",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology and Bioinformatics, Department of Biochemistry and Molecular Biology, Indiana University School of Medicine, Indianapolis, Indiana, United States of America."
+        ]
+      },
+      {
+        "full_name": "Rahman, M Sohel",
+        "short_name": "Rahman MS",
+        "identifiers": [
+          "0000-0001-9419-6478"
+        ],
+        "affiliations": [
+          "Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology, ECE Building, West Palashi, Dhaka-1205, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Iqbal, Sumaiya",
+        "short_name": "Iqbal S",
+        "identifiers": [
+          "0000-0001-7700-4374"
+        ],
+        "affiliations": [
+          "Center for the Development of Therapeutics, Broad Institute of MIT and Harvard, Cambridge, Massachusetts, United States of America.",
+          "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, Massachusetts, United States of America.",
+          "Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, Massachusetts, United States of America.",
+          "Analytic and Translational Genetics Unit, Massachusetts General Hospital, Boston, Massachusetts, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Mar",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/12 06:00",
+    "fetched_at": "2026-09-20 08:49:08"
+  },
+  "links": {
+    "cites": [
+      "42278235",
+      "41904596",
+      "41659523",
+      "41647538",
+      "41422228",
+      "41381739",
+      "41033554",
+      "40021654",
+      "39940934",
+      "39914051",
+      "38994097",
+      "38987470",
+      "38826236",
+      "38773180",
+      "38062275",
+      "37628652",
+      "36659984",
+      "36568162",
+      "35883444"
+    ],
+    "refs": [
+      "34718738",
+      "34702163",
+      "34680086",
+      "34656334",
+      "34335110",
+      "34316068",
+      "33875885",
+      "33806614",
+      "33542394",
+      "33325498",
+      "33237329",
+      "33156333",
+      "33106425",
+      "32461654",
+      "31915397",
+      "31840275",
+      "31797595",
+      "31797594",
+      "31713636",
+      "31680160",
+      "31626641",
+      "31521235",
+      "31299122",
+      "30988206",
+      "30531870",
+      "30298407",
+      "30002402",
+      "29858274",
+      "29740174",
+      "29726965",
+      "29626537",
+      "29466338",
+      "29425356",
+      "29413001",
+      "29385418",
+      "29165669",
+      "29136219",
+      "29036655",
+      "28680062",
+      "28516007",
+      "28387819",
+      "27911701",
+      "27636733",
+      "26801222",
+      "26651072",
+      "26517719",
+      "26047845",
+      "25741868",
+      "25555723",
+      "25348080",
+      "24939692",
+      "24773235",
+      "24178034",
+      "23901099",
+      "21482101",
+      "19744993",
+      "19260013",
+      "18508681",
+      "17578581",
+      "16845024",
+      "16761279",
+      "16645638",
+      "16602696",
+      "15019783",
+      "12381310",
+      "11381529",
+      "11093259",
+      "11025552",
+      "10550212",
+      "9697202",
+      "8625410"
+    ],
+    "similar": [
+      "35275927",
+      "31441158",
+      "34626492",
+      "35094056",
+      "38297118",
+      "36833360",
+      "28381244",
+      "34390736",
+      "29763584",
+      "20522251",
+      "33567297",
+      "36908253",
+      "33719450",
+      "35034725",
+      "37634152",
+      "31756456",
+      "32696395",
+      "34418423",
+      "36008992",
+      "38275091",
+      "33866372",
+      "36291695",
+      "36959451",
+      "30878482",
+      "35139468",
+      "33810353",
+      "19594884",
+      "24532081",
+      "23142703",
+      "32824743",
+      "35767567",
+      "38220424",
+      "35882686",
+      "37878721",
+      "21647374",
+      "35454181",
+      "33248138",
+      "31797594",
+      "38662765",
+      "35883444",
+      "23153654",
+      "38507044",
+      "25502193",
+      "35436286",
+      "31709918",
+      "29066345",
+      "33806614",
+      "33036302",
+      "34825861",
+      "34048569",
+      "32503351",
+      "31175370",
+      "23055912",
+      "30058229",
+      "38297184",
+      "30841624",
+      "36674574",
+      "24727949",
+      "24115198",
+      "39032884",
+      "26402567",
+      "27179590",
+      "29626537",
+      "33243935",
+      "31207240",
+      "25391399",
+      "30324701",
+      "24027208",
+      "33087759",
+      "39071267",
+      "38194282",
+      "35744058",
+      "32722039",
+      "25752799",
+      "33191750",
+      "31797595",
+      "36133101",
+      "32696354",
+      "34656333",
+      "32696391",
+      "27787828",
+      "35898309",
+      "26618856",
+      "38588835",
+      "37883249",
+      "27062995",
+      "34656334",
+      "26699268",
+      "35102880",
+      "39253485",
+      "36575582",
+      "25287424",
+      "27899601",
+      "24008243",
+      "39383002",
+      "32756939",
+      "26126425",
+      "36528065",
+      "26109352",
+      "29076577",
+      "26149687",
+      "33616531",
+      "34527192",
+      "38284524",
+      "32553192",
+      "32034199",
+      "35659505",
+      "32731489",
+      "30471696",
+      "29791766",
+      "39333476",
+      "36272675",
+      "29699482",
+      "38459060",
+      "34830151",
+      "24317797",
+      "31613621",
+      "33078839",
+      "30471705",
+      "28111343",
+      "27647212",
+      "39009827",
+      "36987865",
+      "31804089",
+      "34656327",
+      "30518031",
+      "29428839",
+      "28167781",
+      "34303077",
+      "37498545",
+      "25057855",
+      "35290420",
+      "38275292",
+      "36146764",
+      "36452990",
+      "39279844",
+      "36215254",
+      "38605029",
+      "29759983",
+      "34710373",
+      "38579676",
+      "37329857",
+      "38712287",
+      "37904768",
+      "34285781",
+      "25361972",
+      "36304335",
+      "36529689",
+      "38747347",
+      "33976270",
+      "22080206",
+      "37778184",
+      "39072126",
+      "35487971",
+      "37583961",
+      "36005688",
+      "39353735",
+      "36829461",
+      "36306150",
+      "38045241",
+      "39206127",
+      "37961106",
+      "39071356",
+      "26986070",
+      "36243772",
+      "33325498",
+      "38182699"
+    ],
+    "review": [
+      "35275927",
+      "31441158",
+      "36833360",
+      "34390736",
+      "33567297",
+      "34418423",
+      "36959451",
+      "35139468",
+      "24532081",
+      "38220424",
+      "35882686",
+      "33248138",
+      "25502193",
+      "31709918",
+      "26402567",
+      "33243935",
+      "24027208",
+      "25752799",
+      "36133101",
+      "38588835",
+      "34656334",
+      "35102880",
+      "25287424",
+      "24008243",
+      "26126425",
+      "32034199",
+      "33078839",
+      "30471705",
+      "27647212",
+      "29428839",
+      "34303077",
+      "37329857",
+      "34285781",
+      "22080206",
+      "37778184"
+    ],
+    "pmc": [
+      "8942211"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009911",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35275927/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35275927",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-898",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

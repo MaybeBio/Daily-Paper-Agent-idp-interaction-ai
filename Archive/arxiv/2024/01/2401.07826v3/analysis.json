@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2401.07826v3",
+  "title": "Predicting heteropolymer interactions: demixing and hypermixing of disordered protein sequences",
+  "authors": "Kyosuke Adachi; Kyogo Kawaguchi",
+  "journal": "",
+  "published_date": "2024-01-15",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过拟合分子动力学模拟构建异聚物相互作用有效理论，预测无序蛋白序列间的相分离/去混现象，直接聚焦IDR介导的PPI机制建模，兼具物理模拟与序列设计方法，高度契合本课题。",
+  "abstract": "Cells contain multiple condensates which spontaneously form due to the heterotypic interactions between their components. Although the proteins and disordered region sequences that are responsible for condensate formation have been extensively studied, the rule of interactions between the components that allow demixing, i.e., the coexistence of multiple condensates, is yet to be elucidated. Here we construct an effective theory of the interaction between heteropolymers by fitting it to the molecular dynamics simulation results obtained for more than 200 sequences sampled from the disordered regions of human proteins. We find that the sum of amino acid pair interactions across two heteropolymers predicts the Boyle temperature qualitatively well, which can be quantitatively improved by the dimer pair approximation, where we incorporate the effect of neighboring amino acids in the sequences. The improved theory, combined with the finding of a metric that captures the effective interaction strength between distinct sequences, allowed the selection of up to three disordered region sequences that demix with each other in multicomponent simulations, as well as the generation of artificial sequences that demix with a given sequence.The theory points to a generic sequence design strategy to demix or hypermix thanks to the low dimensional nature of the space of the interactions that we identify. As a consequence of the geometric arguments in the space of interactions, we find that the number of distinct sequences that can demix with each other is strongly constrained, irrespective of the choice of the coarse-grained model. Altogether, we construct a theoretical basis for methods to estimate the effective interaction between heteropolymers, which can be utilized in predicting phase separation properties as well as rules of assignment in the localization and functions of disordered proteins.",
+  "abstract_zh": "细胞含有多个凝聚体，这些凝聚体因其组分间的异型相互作用而自发形成。尽管负责凝聚体形成的蛋白质和无序区序列已被广泛研究，但允许去混合（即多个凝聚体共存）的组分间相互作用规则尚未阐明。在此，我们通过将异聚物间相互作用的有效理论拟合到从人类蛋白质无序区采样的200多个序列的分子动力学模拟结果中，构建了这一理论。我们发现，跨两个异聚物的氨基酸对相互作用之和能定性良好地预测玻意耳温度，而通过二聚体对近似（其中我们纳入序列中相邻氨基酸的影响）可定量改进这一预测。改进后的理论，结合一种捕捉不同序列间有效相互作用强度的度量的发现，使得在多组分模拟中能够选择多达三个彼此去混合的无序区序列，并能生成与给定序列去混合的人工序列。该理论指出了一种通用的序列设计策略，以实现去混合或超混合，这得益于我们所识别的相互作用空间的低维特性。由于相互作用空间中的几何论证，我们发现能够彼此去混合的不同序列数量受到强烈约束，无论粗粒化模型的选择如何。总之，我们为估计异聚物间有效相互作用的方法构建了理论基础，这些方法可用于预测相分离特性以及无序蛋白定位和功能的分配规则。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2401.07826v3",
+  "source_url": "https://arxiv.org/abs/2401.07826v3",
+  "paper_page_path": "papers/arxiv/2401.07826v3/index.html"
+}

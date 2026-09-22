@@ -1,0 +1,331 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.19.537507",
+  "title": "VoroIF-GNN: Voronoi tessellation-derived protein-protein interface assessment using a graph neural network",
+  "doi": "10.1101/2023.04.19.537507",
+  "abstract": "We present VoroIF-GNN, a novel single-model method for assessing inter-subunit interfaces in protein-protein complexes. Given a multimeric protein structural model, we derive interface contacts from the Voronoi tessellation of atomic balls, construct a graph of those contacts, and predict accuracy of every contact using an attention-based graph neural network. The contact-level predictions are then summarized to produce whole interface-level scores. VoroIF-GNN was blindly tested for its ability to estimate accuracy of protein complexes during CASP15 and showed strong performance in selecting the best multimeric model out of many. The method implementation is freely available at https://klimentolechnovic.github.io/voronota/expansion_js/ .",
+  "authors": [
+    "Kliment Olechnovič",
+    "Česlovas Venclovas"
+  ],
+  "published_date": "2023-04-21",
+  "updated_date": "2023-04-21T07:01:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.19.537507",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.19.537507.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            28
+          ]
+        ],
+        "date-time": "2026-01-28T13:43:11Z",
+        "timestamp": 1769607791954,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            21
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 29,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  We present VoroIF-GNN, a novel single-model method for assessing inter-subunit interfaces in protein-protein complexes. Given a multimeric protein structural model, we derive interface contacts from the Voronoi tessellation of atomic balls, construct a graph of those contacts, and predict accuracy of every contact using an attention-based graph neural network. The contact-level predictions are then summarized to produce whole interface-level scores. VoroIF-GNN was blindly tested for its ability to estimate accuracy of protein complexes during CASP15 and showed strong performance in selecting the best multimeric model out of many. The method implementation is freely available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://klimentolechnovic.github.io/voronota/expansion_js/\">https://klimentolechnovic.github.io/voronota/expansion_js/</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2023.04.19.537507",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            21
+          ]
+        ],
+        "date-time": "2023-04-21T07:01:14Z",
+        "timestamp": 1682060474000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "VoroIF-GNN: Voronoi tessellation-derived protein-protein interface assessment using a graph neural network"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4918-9505",
+          "authenticated-orcid": false,
+          "given": "Kliment",
+          "family": "Olechnovič",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4215-0213",
+          "authenticated-orcid": false,
+          "given": "Česlovas",
+          "family": "Venclovas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03828-1"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1061"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4379"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-33729-4"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2022.07.21.500999"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.26167"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.03.07.531468"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.23538"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.25278"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformat-ics/btab448"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.5b00512"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.24172"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "75",
+          "DOI": "10.1007/978-1-0716-0270-6_6",
+          "volume-title": "Structural Bioinformat-ics",
+          "volume": "2112",
+          "year": "2020"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformat-ics/btw756"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1997.1203"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa234"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arxiv.1912.01703"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arxiv.1903.02428"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arxiv.2105.14491"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arxiv.1511.07289"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arxiv.1412.6980"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz367"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.25408"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01585-1"
+        },
+        {
+          "key": "2023042408300712000_2023.04.19.537507v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt473"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.04.19.537507",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:34:21Z",
+        "timestamp": 1768451661000
+      },
+      "score": 76.59303,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.04.19.537507"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            21
+          ]
+        ]
+      },
+      "references-count": 29,
+      "URL": "https://doi.org/10.1101/2023.04.19.537507",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1002/prot.26554",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            21
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

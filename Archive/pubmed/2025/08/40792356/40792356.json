@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "pmid": "40792356",
+    "doi": "10.1021/acs.jpcb.5c02419",
+    "title": "Systematic Investigation of the Liquid-Liquid Phase Separation Propensity of Intrinsically Disordered Proteins by Molecular Simulations."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) has been intensively studied since P-granules in Caenorhabditis elegans drew the attention of researchers. Decades of studies have revealed that intrinsically disordered proteins or regions (IDP/Rs) are closely related to phase-separating (PS) proteins, and their multivalency is instrumental to the LLPS propensity. Here, we constructed a comprehensive database of PS and non-PS IDPs and introduced a framework to calculate the exact value of multivalence with molecular dynamics (MD) simulations. Also, we examined the correlation of the calculated multivalence to LLPS. Results show that the simulation-based classification of the LLPS propensity can achieve high consistency with experimental observations despite varying experimental conditions. Besides, inspired by a graph theoretical approach, we determined a recommended cutoff of multivalence for effectively differentiating IDPs with a high LLPS propensity. Last, studies on the role of amino acid types in the fused in sarcoma (FUS) protein and its mutants reveal context-dependent interactions in prion-like and RNA-binding domains. Our work deepens the understanding of LLPS and provides a cost-effective computational framework for studying LLPS for IDPs.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Molecular Dynamics Simulation",
+      "RNA-Binding Protein FUS/chemistry",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Zixin",
+        "Sun, Tiedong",
+        "Nordenskiold, Lars",
+        "Lu, Lanyuan"
+      ],
+      "short_names": [
+        "Hu Z",
+        "Sun T",
+        "Nordenskiold L",
+        "Lu L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3681-209X",
+        "ORCID: 0000-0003-4808-2431"
+      ],
+      "affiliations": [
+        "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, Singapore 637551, Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, Singapore 637551, Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, Singapore 637551, Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, Singapore 637551, Singapore."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Zixin",
+        "short_name": "Hu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, Singapore 637551, Singapore."
+        ]
+      },
+      {
+        "full_name": "Sun, Tiedong",
+        "short_name": "Sun T",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, Singapore 637551, Singapore."
+        ]
+      },
+      {
+        "full_name": "Nordenskiöld, Lars",
+        "short_name": "Nordenskiöld L",
+        "identifiers": [
+          "0000-0002-3681-209X"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, Singapore 637551, Singapore."
+        ]
+      },
+      {
+        "full_name": "Lu, Lanyuan",
+        "short_name": "Lu L",
+        "identifiers": [
+          "0000-0003-4808-2431"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, Singapore 637551, Singapore."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Aug 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/12 06:27",
+    "fetched_at": "2026-09-21 22:26:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40792356",
+      "39495179",
+      "38546977",
+      "35297101",
+      "28924037",
+      "39947751",
+      "39885825",
+      "40516596",
+      "37189373",
+      "40278867",
+      "31270472",
+      "35883530",
+      "34156864",
+      "38979955",
+      "37662293",
+      "38029395",
+      "40842365",
+      "40748104",
+      "33139563",
+      "32393642",
+      "33684117",
+      "41272974",
+      "40360271",
+      "33260713",
+      "39833115",
+      "35142991",
+      "34984754",
+      "31911439",
+      "39987501",
+      "39225535",
+      "41457474",
+      "38356260",
+      "39342654",
+      "33934416",
+      "40557590",
+      "36350034",
+      "34029402",
+      "41433062",
+      "34716273",
+      "35943083",
+      "33453922",
+      "33982369",
+      "33076213",
+      "36227468",
+      "29364893",
+      "29677513",
+      "38112495",
+      "39256186",
+      "39952269",
+      "34233002",
+      "31188823",
+      "40068541",
+      "38322526",
+      "33547841",
+      "37290157",
+      "34428231",
+      "29511089",
+      "35481633",
+      "36524527",
+      "36444977",
+      "29526694",
+      "39486437",
+      "36575582",
+      "33744316",
+      "36430801",
+      "26455390",
+      "32824618",
+      "39163306",
+      "39979561",
+      "32615218",
+      "40911789",
+      "36018855",
+      "36453011",
+      "36768473",
+      "32859072",
+      "31054969",
+      "38380794",
+      "41250174",
+      "30531905",
+      "34787417",
+      "31941785",
+      "40943551",
+      "35944496",
+      "33355572",
+      "33302617",
+      "40693919",
+      "37222424",
+      "37634152",
+      "34201262",
+      "36343363",
+      "33264400",
+      "34571015",
+      "33555894",
+      "37399327",
+      "30840442",
+      "31237369",
+      "37108059",
+      "31881311",
+      "36464283",
+      "38855848"
+    ],
+    "review": [
+      "40792356",
+      "39947751",
+      "38979955",
+      "38029395",
+      "33260713",
+      "35142991",
+      "31911439",
+      "36350034",
+      "39952269",
+      "40068541",
+      "36524527",
+      "32824618",
+      "31054969",
+      "33355572",
+      "37399327",
+      "30840442",
+      "31237369",
+      "36464283"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c02419",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

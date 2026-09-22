@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "41056214",
+    "doi": "10.1021/acs.jpcb.5c03253",
+    "title": "Stable Peptide Binding Achieved through an Intrinsically Ordered Spiral Conformation with Ten-Glycine Spacing: Insights from MD Simulation."
+  },
+  "content": {
+    "abstract": "Previous experimental studies on position-coded multivalent peptide-peptide interactions demonstrated that introducing two tryptophan residues at varying positions within a 14-mer intrinsically disordered polyglycine (GW) peptide significantly affects its binding affinity and selectivity toward a partner homoglycine (G14) peptide. However, these studies lacked atomistic resolution and were unable to elucidate the structural mechanisms underlying the observed \"volcano-like\" binding trend. To address this limitation, we performed all-atom molecular dynamics (MD) simulations with enhanced sampling via replica exchange molecular dynamics (REMD) to investigate how tryptophan spacing influences binding behavior. Our results show that peptides with a 10-glycine separation between dual tryptophans (GW10) exhibit the strongest binding affinity to G14, consistent with the experimental data and validating the simulation approach. Notably, GW10 and related arginine and serine variants (GR10 and GS10) adopt stable, intrinsically ordered spiral conformations that form favorable binding pockets for G14. Energy decomposition, hydrogen bonding, and conformational analyses underscore the critical role of these ordered structures in modulating peptide-peptide interactions. These findings provide atomic-level insights into sequence-dependent binding and offer potential applications for peptide design, protein engineering, and the understanding of prelasso motifs relevant to protein folding.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Peptides/chemistry/metabolism",
+      "*Glycine/chemistry",
+      "Protein Binding",
+      "Hydrogen Bonding",
+      "Protein Conformation",
+      "Tryptophan/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Onyemaobi, Obinna E",
+        "Zhao, Haipeng",
+        "Tu, Bin",
+        "Fang, Xiaocui",
+        "Wang, Chen",
+        "Yang, Yanlian",
+        "Fang, Qiaojun"
+      ],
+      "short_names": [
+        "Onyemaobi OE",
+        "Zhao H",
+        "Tu B",
+        "Fang X",
+        "Wang C",
+        "Yang Y",
+        "Fang Q"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-6976-6861",
+        "ORCID: 0009-0004-8528-4969",
+        "ORCID: 0000-0003-2306-9089",
+        "ORCID: 0000-0002-5607-5509",
+        "ORCID: 0000-0002-2856-3281"
+      ],
+      "affiliations": [
+        "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Sino-Danish Center for Education and Research, Beijing 101408, China.",
+        "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Sino-Danish Center for Education and Research, Beijing 101408, China.",
+        "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Sino-Danish Center for Education and Research, Beijing 101408, China.",
+        "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Sino-Danish Center for Education and Research, Beijing 101408, China.",
+        "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Sino-Danish Center for Education and Research, Beijing 101408, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Onyemaobi, Obinna E",
+        "short_name": "Onyemaobi OE",
+        "identifiers": [
+          "0009-0004-6976-6861"
+        ],
+        "affiliations": [
+          "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Haipeng",
+        "short_name": "Zhao H",
+        "identifiers": [
+          "0009-0004-8528-4969"
+        ],
+        "affiliations": [
+          "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "Sino-Danish Center for Education and Research, Beijing 101408, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Bin",
+        "short_name": "Tu B",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Xiaocui",
+        "short_name": "Fang X",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "Sino-Danish Center for Education and Research, Beijing 101408, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chen",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0000-0003-2306-9089"
+        ],
+        "affiliations": [
+          "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "Sino-Danish Center for Education and Research, Beijing 101408, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yanlian",
+        "short_name": "Yang Y",
+        "identifiers": [
+          "0000-0002-5607-5509"
+        ],
+        "affiliations": [
+          "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "Sino-Danish Center for Education and Research, Beijing 101408, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Qiaojun",
+        "short_name": "Fang Q",
+        "identifiers": [
+          "0000-0002-2856-3281"
+        ],
+        "affiliations": [
+          "Laboratory of Theoretical and Computational Nanoscience, CAS Key Laboratory for Biological Effects of Nanomaterials & Nanosafety, CAS Key Laboratory of Standardization and Measurement for Nanotechnology, National Center for Nanoscience and Technology, Beijing 100190, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China.",
+          "Sino-Danish Center for Education and Research, Beijing 101408, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Oct 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/07 18:29",
+    "fetched_at": "2026-09-17 20:55:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41056214",
+      "39871444",
+      "41493642",
+      "32583616",
+      "31136713",
+      "26301845",
+      "26465136",
+      "23811057",
+      "23912807",
+      "25963836",
+      "27975243",
+      "25207671",
+      "38877893",
+      "27329793",
+      "39378441",
+      "18186477",
+      "23298543",
+      "40108959",
+      "21056574",
+      "23340205",
+      "29137527",
+      "39754310",
+      "36565373",
+      "23922660",
+      "33401765",
+      "21800919",
+      "26889829",
+      "40707617",
+      "30802465",
+      "38574928",
+      "26178648",
+      "23951128",
+      "25220335",
+      "33200935",
+      "20377253",
+      "29095607",
+      "32914310",
+      "33289734",
+      "26030674",
+      "33030249",
+      "12596268",
+      "23423310",
+      "9351812",
+      "22803956",
+      "20159464",
+      "25387963",
+      "38958133",
+      "22125611",
+      "23926957",
+      "29557267",
+      "30192538",
+      "38018910",
+      "11427046",
+      "27263470",
+      "31461176",
+      "26033223",
+      "22506277",
+      "24318649",
+      "23839056",
+      "33383937",
+      "27450562",
+      "20964422",
+      "28355271",
+      "15959866",
+      "33355572",
+      "41666207",
+      "25973961",
+      "32184088",
+      "20232827",
+      "19941320",
+      "19173315",
+      "24028418",
+      "17113307",
+      "36988562",
+      "33122085",
+      "42129207",
+      "39148280",
+      "20533847",
+      "30134733",
+      "21761917",
+      "40188940",
+      "41139839",
+      "25885222",
+      "30134683",
+      "41712319",
+      "28279820",
+      "40720332",
+      "30840442",
+      "26419972",
+      "20919750",
+      "38615537",
+      "34612239",
+      "38196284",
+      "22899360",
+      "31738521",
+      "39046235",
+      "39954776",
+      "21289072",
+      "20423073",
+      "1594579"
+    ],
+    "review": [
+      "41056214",
+      "23298543",
+      "33355572"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c03253",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

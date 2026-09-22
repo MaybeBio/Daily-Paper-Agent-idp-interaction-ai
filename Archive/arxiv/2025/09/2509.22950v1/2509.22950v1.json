@@ -1,0 +1,31 @@
+{
+  "source": "arxiv",
+  "source_id": "2509.22950v1",
+  "title": "Twin Peaks: Dual-Head Architecture for Structure-Free Prediction of Protein-Protein Binding Affinity and Mutation Effects",
+  "doi": "",
+  "abstract": "We present a novel dual-head deep learning architecture for protein-protein interaction modeling that enables simultaneous prediction of binding affinity ($ΔG$) and mutation-induced affinity changes ($ΔΔG$) using only protein sequence information. Our approach offers a significant advancement over existing methods by employing specialized prediction heads that operate on a shared representation network, allowing direct and optimized prediction of both values. To ensure robust generalization, we integrated complementary datasets from SKEMPI v2 and PDBbind with a rigorous protein domain-based splitting strategy that prevents information leakage between training and validation sets. Our architecture combines transformer-based encoders with a novel cross-attention mechanism that processes paired protein sequences directly, without requiring any structural information. The network embeds input sequences using ESM3 representations, then employs a learnable sliced window embedding layer to manage variable-length sequences efficiently. A multi-layer transformer encoder with bidirectional self-attention captures intra-protein patterns, while cross-attention layers enable explicit modeling of interactions between protein pairs. This shared representation network feeds into separate $ΔG$ and $ΔΔG$ prediction heads, allowing task-specific optimization while leveraging common features. The model achieves $ΔΔG$ validation of Pearson correlation at 0.485, while maintaining strong $ΔG$ predictions (Pearson: 0.638). While existing approaches require protein structure data and binding interface information, our model eliminates these constraints. This provides a critical advantage for the numerous proteins with unknown structures or those challenging to crystallize, such as viral and intrinsically disordered proteins.",
+  "authors": [
+    "Supantha Dey",
+    "Ratul Chowdhury"
+  ],
+  "published_date": "2025-09-26T21:32:33Z",
+  "updated_date": "2025-09-26T21:32:33Z",
+  "journal": "",
+  "category": "q-bio.QM",
+  "landing_url": "https://arxiv.org/abs/2509.22950v1",
+  "pdf_url": "https://arxiv.org/pdf/2509.22950v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.QM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2509.22950v1",
+    "raw_categories": [
+      "q-bio.QM"
+    ],
+    "journal_ref": ""
+  }
+}

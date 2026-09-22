@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.21.629870",
+  "title": "Proteome-scale quantification of the interactions driving condensate formation of intrinsically disordered proteins",
+  "authors": "Norrild RK; von Bülow S; Halldórsson E; Lindorff-Larsen K; Rogers JM; Buell AK",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-21",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发CPmD高通量方法，量化无序蛋白肽段在凝聚体中的分配能量，揭示氨基酸组成驱动的分子语法并预测全长IDR凝聚体形成，虽非直接PPI建模，但聚焦IDR相分离互作机制且具方法学创新。",
+  "abstract": "Intrinsically disordered protein regions facilitate cellular organization through phase separation into biomolecular condensates. However, the molecular interactions driving this process remain poorly understood because of experimental limitations. Here, we advance experimental throughput by several orders of magnitude by developing Condensate Partitioning by mRNA-Display (CPmD). The method allows analysis of partitioning of hundred thousand peptides derived from the disordered proteome into reconstituted condensates. Our results demonstrate that the amino acid content, rather than specific sequence, primarily determines partitioning behavior. Importantly, quantification of the partitioning energies of peptides allows us to decipher the ‘molecular grammar’ of the relevant interactions, allowing accurate prediction of the formation of condensates of diverse full-length disordered protein regions. The results reveal how physicochemical properties of disordered regions encode biological functions through formation of biomolecular condensates.",
+  "abstract_zh": "固有无序蛋白区域通过相分离（phase separation）形成生物分子凝聚体，从而促进细胞组织化。然而，由于实验限制，驱动这一过程的分子相互作用仍知之甚少。在此，我们通过开发基于mRNA展示的凝聚体分配技术（Condensate Partitioning by mRNA-Display, CPmD），将实验通量提高了数个数量级。该方法能够分析来自无序蛋白质组的数十万条肽段在重构凝聚体中的分配情况。我们的结果表明，氨基酸组成而非特定序列主要决定分配行为。重要的是，对肽段分配能量的量化使我们能够解析相关相互作用的“分子语法”，从而准确预测多种全长无序蛋白区域凝聚体的形成。研究结果揭示了无序区域的理化性质如何通过形成生物分子凝聚体来编码生物学功能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.21.629870",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.21.629870",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.21.629870/index.html"
+}

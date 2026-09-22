@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38874407",
+  "title": "Single nucleotide variation catalog from clinical isolates mapped on tertiary and quaternary structures of ESX-1-related proteins reveals critical regions as putative Mtb therapeutic targets.",
+  "authors": "Tzfadia, Oren; Gijsbers, Abril; Vujkovic, Alexandra; Snobre, Jihad; Vargas, Roger; Dewaele, Klaas; Meehan, Conor J; Farhat, Maha; Hakke, Sneha; Peters, Peter J; de Jong, Bouke C; Siroy, Axel; Ravelli, Raimond B G",
+  "journal": "Microbiology spectrum",
+  "published_date": "2024-06-14",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究将临床结核分枝杆菌分离株的单核苷酸变异映射到ESX-1蛋白三级/四级结构上，识别保守区域及无序区作为潜在药物靶点，涉及IDR与蛋白互作界面分析，但方法为结构映射与序列分析，无AI/物理模拟建模，互作机制深度有限。",
+  "abstract": "Proteins encoded by the ESX-1 genes of interest are essential for full virulence in all Mycobacterium tuberculosis complex (Mtbc) lineages, the pathogens causing the highest mortality worldwide. Identifying critical regions in these ESX-1-related proteins could provide preventive or therapeutic targets for Mtb infection, the game changer needed for tuberculosis control. We analyzed a compendium of whole genome sequences of clinical Mtb isolates from all lineages from >32,000 patients and identified single nucleotide polymorphisms. When mutations corresponding to all non-synonymous single nucleotide polymorphisms were mapped on structural models of the ESX-1 proteins, fully conserved regions emerged. Some could be assigned to known quaternary structures, whereas others could be predicted to be involved in yet-to-be-discovered interactions. Some mutants had clonally expanded (found in >1% of the isolates); these mutants were mostly located at the surface of globular domains, remote from known intra- and inter-molecular protein-protein interactions. Fully conserved intrinsically disordered regions of proteins were found, suggesting that these regions are crucial for the pathogenicity of the Mtbc. Altogether, our findings highlight fully conserved regions of proteins as attractive vaccine antigens and drug targets to control Mtb virulence. Extending this approach to the whole Mtb genome as well as other microorganisms will enhance vaccine development for various pathogens. IMPORTANCE: We mapped all non-synonymous single nucleotide polymorphisms onto each of the experimental and predicted ESX-1 proteins' structural models and inspected their placement. Varying sizes of conserved regions were found. Next, we analyzed predicted intrinsically disordered regions within our set of proteins, finding two putative long stretches that are fully conserved, and discussed their potential essential role in immunological recognition. Combined, our findings highlight new targets for interfering with Mycobacterium tuberculosis complex virulence.",
+  "abstract_zh": "由ESX-1基因编码的蛋白质在所有结核分枝杆菌复合群（Mtbc）谱系中对完全毒力至关重要，这些病原体在全球范围内导致最高死亡率。识别这些ESX-1相关蛋白中的关键区域可能为结核分枝杆菌感染提供预防或治疗靶点，这是控制结核病所需的变革性突破。我们分析了来自>32,000名患者的所有谱系临床结核分枝杆菌分离株的全基因组序列汇编，并鉴定了单核苷酸多态性。当将所有非同义单核苷酸多态性对应的突变映射到ESX-1蛋白的结构模型上时，出现了完全保守的区域。其中一些可归属于已知的四级结构，而另一些则被预测参与尚未发现的相互作用。一些突变体发生了克隆扩增（在>1%的分离株中发现）；这些突变体主要位于球状结构域的表面，远离已知的分子内和分子间蛋白质-蛋白质相互作用。发现了完全保守的蛋白质固有无序区域，表明这些区域对Mtbc的致病性至关重要。总体而言，我们的发现强调了蛋白质的完全保守区域作为控制结核分枝杆菌毒力的有吸引力的疫苗抗原和药物靶点。将这种方法扩展到整个结核分枝杆菌基因组以及其他微生物，将促进针对各种病原体的疫苗开发。重要性：我们将所有非同义单核苷酸多态性映射到每个实验和预测的ESX-1蛋白结构模型上，并检查了它们的定位。发现了大小不一的保守区域。接下来，我们分析了我们蛋白质组中预测的固有无序区域，发现两个推测的完全保守长片段，并讨论了它们在免疫识别中潜在的关键作用。综合来看，我们的发现突出了干扰结核分枝杆菌复合群毒力的新靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38874407/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38874407/",
+  "paper_page_path": "papers/pubmed/38874407/index.html"
+}

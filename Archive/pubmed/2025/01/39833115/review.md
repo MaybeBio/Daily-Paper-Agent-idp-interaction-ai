@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary information
+- **Shared manuscript claim summary** The authors report a simplified phase-separating molecule, Nap-o-Nap, that undergoes liquid-liquid phase separation (LLPS) under physiological conditions. They claim reversible disassembly and reassembly of coacervate microdroplets via competitive host-guest interactions with Cucurbit[7]uril and Adamantane. They further report thermodynamic quantification of the LLPS process (DeltaS = 14.0 cal·mol⁻¹·K⁻¹, DeltaG = -2.1 kcal·mol⁻¹) and of host-guest binding (DeltaG = -14.9 kcal·mol⁻¹), and demonstrate that supramolecularly switched LLPS can modulate enzymatic reactions through selective client recruitment and exclusion.
+- **Visible evidence base** Abstract text only; no experimental methods, characterization data, figures, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, experimental procedures, characterization data (NMR, microscopy, ITC, kinetics), control experiments, statistical details, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing approach to mimic and regulate LLPS using a designed small molecule, with potential applications in enzyme kinetics modulation. The idea of using competitive host-guest chemistry to reversibly control coacervate formation is interesting and timely. However, the abstract alone provides insufficient experimental detail to evaluate the robustness of the claims. Key thermodynamic parameters are presented without indication of measurement methods, error analysis, or replicates. The connection between supramolecular switching and enzyme kinetics modulation is stated but not quantitatively supported. The work may be of interest to the supramolecular chemistry and biomolecular condensate communities, but the evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Supramolecular chemists interested in host-guest chemistry and stimuli-responsive systems; researchers studying biomolecular condensates and LLPS, particularly those seeking simplified model systems; enzymologists and synthetic biologists interested in spatiotemporal control of enzymatic activity; materials scientists working on adaptive or responsive soft materials.
+- **Major strengths** The design concept of using a simplified molecule inspired by IDP structural features is elegant and potentially generalizable. The use of competitive host-guest interactions for reversible LLPS control is a creative approach that may offer advantages over other stimuli. The claim of quantifying entropic contributions to LLPS is valuable if properly supported. The potential to modulate enzyme kinetics through client recruitment and exclusion is a compelling application.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Nap-o-Nap exhibits LLPS under physiological conditions and forms coacervate microdroplets that undergo multiple cycles of disassembly and reassembly.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No experimental evidence is presented to demonstrate LLPS. There is no mention of microscopy images, turbidity measurements, fluorescence recovery after photobleaching (FRAP), or any other standard characterization of liquid-liquid phase separation. The term "coacervate microdroplets" implies a specific morphology and physical state, but no data are shown to support this classification.
+  - **Why it matters** The entire premise of the manuscript rests on the claim that Nap-o-Nap undergoes LLPS. Without direct evidence of phase separation, including demonstration of liquid-like properties (e.g., fusion, dripping, wetting), the phenomenon could be precipitation, aggregation, or another form of assembly. This distinction is critical for the validity of the conclusions.
+  - **Resolution test** Provide microscopy images showing spherical droplets that fuse and relax over time, turbidity curves showing sharp transitions, and FRAP data demonstrating rapid fluorescence recovery. Include control experiments with a non-phase-separating analogue.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report quantitative thermodynamic parameters: DeltaS = 14.0 cal·mol⁻¹·K⁻¹ for the LLPS process, DeltaG = -2.1 kcal·mol⁻¹ for LLPS, and DeltaG = -14.9 kcal·mol⁻¹ for host-guest binding.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The thermodynamic values are presented without any indication of how they were measured. No method is mentioned (e.g., isothermal titration calorimetry, van't Hoff analysis, concentration-dependent studies). There is no error estimate, no replicate number, and no temperature specification. The entropic value is given to three significant figures, which implies precision that cannot be assessed.
+  - **Why it matters** Quantitative thermodynamic claims are central to the stated novelty of "quantifying entropically dominant nature within the LLPS process." If the methods are not rigorous or the values are not reproducible, the core scientific contribution is undermined. Furthermore, the comparison between DeltaG values for LLPS and host-guest binding is used to explain the regulatory mechanism, so accuracy is essential.
+  - **Resolution test** Specify the measurement technique, provide at least triplicate measurements with standard deviations, state the temperature and buffer conditions, and show the fitting model used to extract DeltaS and DeltaG. If ITC was used, provide raw thermograms and fitting residuals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for application claim
+  - **Claim pointer** The authors claim that supramolecularly switched LLPS, along with selective client recruitment and exclusion, provides a platform for boosting or retarding enzymatic reactions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No data are presented to support the enzyme kinetics modulation. There is no mention of which enzyme was used, which clients were recruited or excluded, what rate changes were observed, or how the switching was coupled to the enzymatic assay. The phrase "boosting or retarding" implies bidirectional control, but no quantitative results are shown.
+  - **Why it matters** The application to enzyme kinetics is a major selling point of the work and likely a key reason for publication in a broad-chemistry journal. Without evidence, this remains a speculative proposal rather than a demonstrated capability. The claim of "orchestrating biological enzyme kinetics" is strong and requires direct experimental support.
+  - **Resolution test** Provide enzyme activity assays (e.g., progress curves, initial rates) under three conditions: no condensate, condensate present, and condensate disassembled. Show that the effect is reversible over multiple cycles. Identify the client enzyme and the recruitment/exclusion mechanism with binding data.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Molecular design rationale
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the design was "inspired by the structural feature of IDPs that facilitates LLPS," but does not explain how the two naphthalene moieties and ethylene glycol linker recapitulate the relevant features of IDPs (e.g., multivalency, low sequence complexity, conformational flexibility).
+  - **Required correction** Briefly state which IDP features are mimicked by Nap-o-Nap and how the molecular structure maps to those features.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Reversibility claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims "multiple cycles" of disassembly and reassembly but does not specify the number of cycles tested or whether there was any degradation or loss of function over cycling.
+  - **Required correction** State the number of cycles demonstrated and any observed fatigue or hysteresis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "physiological conditions"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "physiological conditions" is vague. It is unclear whether this refers to pH 7.4, 150 mM salt, 37 °C, or some other combination. The composition of the buffer and temperature are not stated.
+  - **Required correction** Specify the exact buffer composition, pH, ionic strength, and temperature used for LLPS experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Units and notation
+  - **Affected element** Thermodynamic values
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The units for DeltaS are given as cal·mol⁻¹·K⁻¹ while DeltaG values are in kcal·mol⁻¹. This is not incorrect, but the mixed use of cal and kcal can be confusing. Also, the temperature at which these values were obtained is not stated.
+  - **Required correction** Use consistent units (e.g., kcal·mol⁻¹·K⁻¹ for entropy) and state the temperature for all thermodynamic measurements.
+
+## Risk / unsupported claims
+- The claim that Nap-o-Nap undergoes LLPS under physiological conditions is unsupported by any direct evidence in the abstract.
+- The quantitative thermodynamic parameters (DeltaS, DeltaG) are presented without methodology, error analysis, or replicate information, making them unverifiable from the supplied material.
+- The claim of reversible switching over "multiple cycles" is unsupported by cycle count or stability data.
+- The claim that the system can "boost or retard" enzymatic reactions is unsupported by any kinetic data.
+- The statement that the host-guest binding affinity "surpasses" the LLPS free energy is presented as an explanation for the regulatory mechanism, but the comparison is only meaningful if both values are measured under identical conditions, which is not stated.
+- The relevance of the simplified model to actual IDP behavior is asserted but not demonstrated with comparative experiments.

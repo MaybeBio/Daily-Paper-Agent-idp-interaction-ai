@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42182180",
+  "title": "Determinants of centromeric nucleosome conformation.",
+  "authors": "Paintsil, Emeleeta A; Lee, Joshua; Zahorodny, Sarah S Meidl; Wereszczynski, Jeff; Morrison, Emma A",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-05-25",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过粗粒化分子动力学模拟和实验，研究CENP-A无序N端区域对着丝粒核小体DNA构象开放性的协同调控，虽对象为核小体而非典型IDP-PPI，但无序区域介导构象灵活性的机制建模思路对IDR介导互作研究有可迁移启发。",
+  "abstract": "Centromeric chromatin is defined by the presence of the histone H3 variant CENP-A, which forms a specialized nucleosome required for kinetochore assembly. Compared to canonical H3 nucleosomes, CENP-A nucleosomes exhibit an open DNA conformation that leaves an additional 13 base pairs of DNA accessible at the entry and exit sites. While the CENP-A alphaN-helix has previously been implicated in promoting this enhanced DNA breathing, the contributions of the intrinsically disordered N-terminal tail and adjacent latch regions of CENP-A in nucleosome conformation remain unknown. The intrinsically disordered N-terminal regions of histone H3 are known to facilitate interactions with DNA to stabilize overall nucleosome conformation. Here, we systematically tested the contribution of each N-terminal histone region to maintaining H3 histones by utilizing a combination of MNase digestion assays and coarse-grained molecular dynamics simulations of H3/CENP-A chimera histone nucleosomes containing targeted swaps of the tail, latch, and alphaN-helix regions. Removal or substitution of individual H3 with CENP-A N-terminal regions increased DNA accessibility and nucleosome unwrapping. While any single CENP-A N-terminal region was sufficient to open the canonical nucleosomal DNA conformation, replacement of any single CENP-A N-terminal region with its H3 counterpart was insufficient to restore the wrapped DNA conformation characteristic of canonical H3 nucleosomes. Instead, progressive incorporation of multiple H3-derived regions produced increasingly closed DNA conformations, demonstrating that the H3 tail, latch, and alphaN-helices act cooperatively to stabilize wrapped nucleosomal DNA. Taken together, these findings demonstrate that the more restricted DNA breathing of canonical nucleosomes arises from coordinated contributions across multiple N-terminal regions and suggest that the multi-region redundancy in the conformational flexibility of the centromeric nucleosome could emphasize the importance of retaining flexibility in the centromeric nucleosome, even upon post-translational modification and binding to structural proteins.",
+  "abstract_zh": "着丝粒染色质以组蛋白H3变体CENP-A的存在为特征，该变体形成着丝粒组装所需的特化核小体。与经典H3核小体相比，CENP-A核小体表现出开放的DNA构象，在入口和出口位点额外暴露13个碱基对的DNA。尽管先前已提示CENP-A的alphaN-螺旋参与促进这种增强的DNA呼吸，但CENP-A的内在无序N端尾部及相邻闩锁区域在核小体构象中的贡献仍未知。已知组蛋白H3的内在无序N端区域促进与DNA的相互作用，以稳定整体核小体构象。在此，我们通过结合MNase消化实验和粗粒化分子动力学模拟，系统测试了每个N端组蛋白区域对维持H3组蛋白的贡献，研究对象为包含尾部、闩锁和alphaN-螺旋区域定向交换的H3/CENP-A嵌合组蛋白核小体。移除或替换单个H3区域为CENP-A N端区域增加了DNA可及性和核小体解旋。虽然任何单个CENP-A N端区域足以打开经典核小体DNA构象，但将任何单个CENP-A N端区域替换为其H3对应区域不足以恢复经典H3核小体特征性的包裹DNA构象。相反，逐步引入多个H3衍生区域产生越来越封闭的DNA构象，表明H3尾部、闩锁和alphaN-螺旋协同作用以稳定包裹的核小体DNA。综合来看，这些发现表明经典核小体更受限的DNA呼吸源于多个N端区域的协调贡献，并提示着丝粒核小体构象灵活性中的多区域冗余可能强调了即使在翻译后修饰和与结构蛋白结合后，保留着丝粒核小体灵活性的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42182180/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42182180/",
+  "paper_page_path": "papers/pubmed/42182180/index.html"
+}

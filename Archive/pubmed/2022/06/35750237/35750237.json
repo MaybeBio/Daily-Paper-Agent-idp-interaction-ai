@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "35750237",
+    "doi": "10.1016/j.jsb.2022.107877",
+    "title": "Insights into the dynamic interactions at chemokine-receptor interfaces and mechanistic models of chemokine binding."
+  },
+  "content": {
+    "abstract": "Chemokine receptors are the central signaling hubs of several processes such as cell migration, chemotaxis and cell positioning. In this graphical review, we provide an overview of the structural and mechanistic principles governing chemokine recognition that are currently emerging. Structural models of chemokine-receptor co-complexes with endogenous chemokines, viral chemokines and therapeutics have been resolved that highlight multiple interaction sites, termed as CRS1, CRS1.5 etc. The first site of interaction has been shown to be the N-terminal domain of the receptors (CRS1 site). A large structural flexibility of the N-terminal domain has been reported that was supported by both experimental and simulation studies. Upon chemokine binding, the N-terminal domain appears to show constricted dynamics and opens up to interact with the chemokine via a large interface. The subsequent sites such as CRS1.5 and CRS2 sites have been structurally well resolved although differences arise such as the localization of the N-terminus of the ligand to a major or minor pocket of the orthosteric binding site. Several computational studies have highlighted the dynamic protein-protein interface at the CRS1 site that seemingly appears to resolve the differences in NMR and mutagenesis studies. Interestingly, the differential dynamics at the CRS1 site suggests a mixed model of binding with complex signatures of both conformational selection and induced fit models. Integrative experimental and computational approaches could help unravel the structural basis of promiscuity and specificity in chemokine-receptor binding and open up new avenues of therapeutic design.",
+    "keywords": [
+      "Chemokine receptors",
+      "GPCRs",
+      "Intrinsically disordered protein domains",
+      "Protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "Chemokines/chemistry/metabolism",
+      "Protein Binding",
+      "*Receptors, Chemokine/genetics/metabolism",
+      "*Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sonawani, Archana",
+        "Kharche, Shalmali",
+        "Dasgupta, Debjani",
+        "Sengupta, Durba"
+      ],
+      "short_names": [
+        "Sonawani A",
+        "Kharche S",
+        "Dasgupta D",
+        "Sengupta D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Biotechnology and Bioinformatics, D.Y. Patil Deemed to be University, CBD Belapur, Navi Mumbai 400614, India.",
+        "CSIR-National Chemical Laboratory, Dr. Homi Bhabha Road, Pune 411 008, India.",
+        "School of Biotechnology and Bioinformatics, D.Y. Patil Deemed to be University, CBD Belapur, Navi Mumbai 400614, India.",
+        "CSIR-National Chemical Laboratory, Dr. Homi Bhabha Road, Pune 411 008, India. Electronic address: d.sengupta@ncl.res.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sonawani, Archana",
+        "short_name": "Sonawani A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology and Bioinformatics, D.Y. Patil Deemed to be University, CBD Belapur, Navi Mumbai 400614, India."
+        ]
+      },
+      {
+        "full_name": "Kharche, Shalmali",
+        "short_name": "Kharche S",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR-National Chemical Laboratory, Dr. Homi Bhabha Road, Pune 411 008, India."
+        ]
+      },
+      {
+        "full_name": "Dasgupta, Debjani",
+        "short_name": "Dasgupta D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology and Bioinformatics, D.Y. Patil Deemed to be University, CBD Belapur, Navi Mumbai 400614, India."
+        ]
+      },
+      {
+        "full_name": "Sengupta, Durba",
+        "short_name": "Sengupta D",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR-National Chemical Laboratory, Dr. Homi Bhabha Road, Pune 411 008, India. Electronic address: d.sengupta@ncl.res.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of structural biology"
+    ],
+    "journal_abbrev": [
+      "J Struct Biol"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/25 06:00",
+    "fetched_at": "2026-09-20 11:22:09"
+  },
+  "links": {
+    "cites": [
+      "42370190",
+      "42253974",
+      "41996512",
+      "41766151",
+      "40791660",
+      "39089252",
+      "38987472",
+      "37954206",
+      "37227653",
+      "36562003"
+    ],
+    "refs": [],
+    "similar": [
+      "35750237",
+      "38856028",
+      "25039782",
+      "31481523",
+      "31965639",
+      "27106080",
+      "31506383",
+      "22935450",
+      "30114340",
+      "39978339",
+      "24644289",
+      "39616240",
+      "14573861",
+      "25612609",
+      "24116930",
+      "33548230",
+      "21600920",
+      "40273912",
+      "28178200",
+      "28123055",
+      "32114437",
+      "34949837",
+      "29637711",
+      "41275296",
+      "37212620",
+      "30616825",
+      "29912865",
+      "12181451",
+      "14991608",
+      "39565315",
+      "28570817",
+      "34014914",
+      "33249087",
+      "28165741",
+      "28325822",
+      "24639348",
+      "24268109",
+      "21146524",
+      "27459124",
+      "15361546",
+      "38809680",
+      "35258997",
+      "10531332",
+      "9931005",
+      "26921953",
+      "11551942",
+      "15544331",
+      "31605402",
+      "21476969",
+      "10602038",
+      "10860738",
+      "15546882",
+      "23432589",
+      "23148226",
+      "31167786",
+      "19594424",
+      "34060588",
+      "31572374",
+      "11358512",
+      "16997914",
+      "31924303",
+      "21223963",
+      "29487134",
+      "37446102",
+      "32551791",
+      "32089162",
+      "26921959",
+      "36881626",
+      "10736178",
+      "32374043",
+      "9987599",
+      "9525891",
+      "30726064",
+      "32582148",
+      "38723106",
+      "34230484",
+      "26921946",
+      "32271748",
+      "14699797",
+      "14734646",
+      "10662803",
+      "24032673",
+      "29433906",
+      "31006548",
+      "16102831",
+      "27271913",
+      "9289016",
+      "39466725",
+      "20712376",
+      "33705662",
+      "39424605",
+      "32610344",
+      "11163977",
+      "24358950",
+      "32285441",
+      "9356988",
+      "10983246",
+      "10399063",
+      "38040762",
+      "15500866"
+    ],
+    "review": [
+      "35750237",
+      "38856028",
+      "25039782",
+      "31965639",
+      "27106080",
+      "22935450",
+      "24116930",
+      "21600920",
+      "28178200",
+      "32114437",
+      "29637711",
+      "37212620",
+      "28165741",
+      "21146524",
+      "27459124",
+      "31605402",
+      "21476969",
+      "23432589",
+      "19594424",
+      "34060588",
+      "21223963",
+      "37446102",
+      "32089162",
+      "9987599",
+      "32582148",
+      "26921946",
+      "14699797",
+      "29433906",
+      "31006548",
+      "24358950",
+      "32285441",
+      "10983246",
+      "10399063",
+      "15500866"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1047-8477(22)00047-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

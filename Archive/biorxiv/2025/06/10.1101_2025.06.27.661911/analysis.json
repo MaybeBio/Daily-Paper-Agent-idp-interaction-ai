@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.27.661911",
+  "title": "Variant characterization in the intrinsically disordered human proteome",
+  "authors": "Hubrich D; Alvarado Valverde J; Lee CY; Djokic M; Welzel M; Hintz K; Luck K",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-30",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合序列模式搜索、AlphaFold与实验，系统注释无序蛋白中短线性基序介导的PPI界面，并据此预测无序区错义变异的有害性，直接聚焦IDR介导的互作机制建模，方法上融合AI与实验验证，对本课题有高度启发。",
+  "abstract": "Variant effect prediction remains a key challenge to resolve in precision medicine. Sophisticated computational models that exploit sequence conservation and structure are increasingly successful in the characterization of missense variants in folded protein regions. However, 37% of all annotated missense variants reside in 25% of the proteome that is intrinsically disordered, lacking positional sequence conservation and stable structures. To significantly advance variant effect prediction in disordered protein regions, we combined sequence pattern searches with AlphaFold and experiments to structurally annotate 1,300 protein-protein interactions with interfaces mediated by short disordered motifs binding to folded domains in partner proteins. These interfaces were selected based on their overlap with uncertain missense variants enabling reliable prediction of deleterious effects of 1,187 uncertain variants in disordered protein regions. Extensive experimental efforts validate predicted interfaces and deleterious variant effects that were predicted as benign by AlphaMissense. This study demonstrates how critical structural information on protein interaction interfaces is for variant effect prediction especially in disordered protein regions and provides a clear avenue towards its system-wide implementation.",
+  "abstract_zh": "变异效应预测仍然是精准医学中亟待解决的关键挑战。利用序列保守性和结构的复杂计算模型在折叠蛋白区域中错义变异特征化方面日益成功。然而，所有已注释的错义变异中有37%位于 intrinsically disordered（内在无序）蛋白组中，占蛋白质组的25%，这些区域缺乏位置序列保守性和稳定结构。为了显著推进无序蛋白区域中的变异效应预测，我们将序列模式搜索与AlphaFold及实验相结合，对1,300个蛋白质-蛋白质相互作用进行了结构注释，这些相互作用的界面由短无序基序介导，与伴侣蛋白中的折叠结构域结合。这些界面基于其与不确定错义变异的重叠进行选择，从而能够可靠预测无序蛋白区域中1,187个不确定变异的致病效应。大量实验努力验证了预测的界面和致病变异效应，这些效应被AlphaMissense预测为良性。本研究展示了蛋白质相互作用界面的关键结构信息对变异效应预测的重要性，尤其是在无序蛋白区域中，并为其系统-wide实施提供了明确途径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.27.661911",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.27.661911",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.27.661911/index.html"
+}

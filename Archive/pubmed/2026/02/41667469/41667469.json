@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "41667469",
+    "doi": "10.1038/s41467-026-69376-2",
+    "title": "Oxygen depletion in biomolecular condensates is dominated by macromolecular density."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are dynamic cellular compartments formed by the self-assembly of proteins and nucleic acids. Many metabolites partition into condensates based on their interactions with the macromolecular constituents; yet, whether gases behave similarly remains unknown. Here, we show that oxygen partitions into protein-based condensates formed by intrinsically disordered repeat proteins with systematically varied sequences. Using microelectrodes, phosphorescence lifetime imaging microscopy, and molecular dynamics simulations, we find that oxygen is partially excluded from the condensate, and its partitioning does not correlate with the condensate hydrophobicity. Instead, oxygen concentration is inversely related to condensate protein density. These results suggest that the prevailing theory of small-molecule partitioning into condensates has to be augmented to consider the concentration of macromolecules as a dominant factor in the absence of interactions between the metabolite and the condensate. Our results suggest that biomolecular condensates can generate a nanoscale oxygen gradient, potentially modulating the local availability of oxygen for biochemical reactions within the cell.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Oxygen/metabolism/chemistry",
+      "*Biomolecular Condensates/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Macromolecular Substances/metabolism/chemistry",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry",
+      "Hydrophobic and Hydrophilic Interactions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Garg, Ankush",
+        "Brasnett, Christopher",
+        "Marrink, Siewert J",
+        "Koren, Klaus",
+        "Kjaergaard, Magnus"
+      ],
+      "short_names": [
+        "Garg A",
+        "Brasnett C",
+        "Marrink SJ",
+        "Koren K",
+        "Kjaergaard M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9235-1673",
+        "ORCID: 0000-0001-8423-5277",
+        "ORCID: 0000-0002-7020-9366"
+      ],
+      "affiliations": [
+        "Department of Molecular Biology and Genetics, Aarhus University, Aarhus, Denmark.",
+        "Interdisciplinary Nanoscience Center (iNANO), Aarhus University, Aarhus, Denmark.",
+        "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, The Netherlands.",
+        "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, The Netherlands.",
+        "Department of Biology, Aarhus University, Aarhus, Denmark.",
+        "Department of Molecular Biology and Genetics, Aarhus University, Aarhus, Denmark. magnus@mbg.au.dk.",
+        "Interdisciplinary Nanoscience Center (iNANO), Aarhus University, Aarhus, Denmark. magnus@mbg.au.dk.",
+        "The Danish Research Institute of Translational Neuroscience (DANDRITE), Aarhus University, Aarhus, Denmark. magnus@mbg.au.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Garg, Ankush",
+        "short_name": "Garg A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Aarhus University, Aarhus, Denmark.",
+          "Interdisciplinary Nanoscience Center (iNANO), Aarhus University, Aarhus, Denmark."
+        ]
+      },
+      {
+        "full_name": "Brasnett, Christopher",
+        "short_name": "Brasnett C",
+        "identifiers": [
+          "0000-0001-9235-1673"
+        ],
+        "affiliations": [
+          "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Marrink, Siewert J",
+        "short_name": "Marrink SJ",
+        "identifiers": [
+          "0000-0001-8423-5277"
+        ],
+        "affiliations": [
+          "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Koren, Klaus",
+        "short_name": "Koren K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Aarhus University, Aarhus, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kjaergaard, Magnus",
+        "short_name": "Kjaergaard M",
+        "identifiers": [
+          "0000-0002-7020-9366"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Aarhus University, Aarhus, Denmark. magnus@mbg.au.dk.",
+          "Interdisciplinary Nanoscience Center (iNANO), Aarhus University, Aarhus, Denmark. magnus@mbg.au.dk.",
+          "The Danish Research Institute of Translational Neuroscience (DANDRITE), Aarhus University, Aarhus, Denmark. magnus@mbg.au.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Feb 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/11 00:40",
+    "fetched_at": "2026-09-18 00:46:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40903498",
+      "40704402",
+      "40640131",
+      "40307210",
+      "40195042",
+      "40138576",
+      "39807536",
+      "39271915",
+      "39063190",
+      "38553587",
+      "38035387",
+      "37973889",
+      "37853696",
+      "37788237",
+      "37770698",
+      "37645312",
+      "37546704",
+      "37468629",
+      "37043540",
+      "36164646",
+      "35795820",
+      "35761089",
+      "35675815",
+      "35377637",
+      "35013176",
+      "34221333",
+      "34074792",
+      "33782607",
+      "33510441",
+      "33319830",
+      "33307683",
+      "32747754",
+      "32554597",
+      "32481818",
+      "32312191",
+      "31898464",
+      "31885385",
+      "29064502",
+      "28935776",
+      "28235861",
+      "28225081",
+      "26455390",
+      "26246428",
+      "25753230",
+      "25747659",
+      "25079965",
+      "24638858",
+      "23775387",
+      "23227132",
+      "22532338",
+      "22380020",
+      "21500218",
+      "19460965",
+      "17569554",
+      "17212484",
+      "8744570"
+    ],
+    "similar": [
+      "41667469",
+      "39232584",
+      "39271915",
+      "40229261",
+      "40136009",
+      "34090478",
+      "40521608",
+      "41481439",
+      "41662498",
+      "30099028",
+      "39826710",
+      "41670285",
+      "39486437",
+      "40455990",
+      "35179885",
+      "37468629",
+      "38832749",
+      "40985078",
+      "40094245",
+      "42230638",
+      "39356108",
+      "39510346",
+      "23912807",
+      "39987501",
+      "40748104",
+      "38383656",
+      "39071308",
+      "42055532",
+      "38987300",
+      "39537752",
+      "40913895",
+      "38824391",
+      "40009520",
+      "40420812",
+      "34772789",
+      "42143038",
+      "41342450",
+      "42260147",
+      "41337585",
+      "40747072",
+      "37020020",
+      "41524628",
+      "41991555",
+      "40962203",
+      "40028898",
+      "39042834",
+      "36004748",
+      "38649740",
+      "39929988",
+      "40848932",
+      "34716273",
+      "41917059",
+      "34772786",
+      "42531022",
+      "40954121",
+      "40325419",
+      "40195042",
+      "39947751",
+      "40588121",
+      "41700935",
+      "42290133",
+      "40972943",
+      "41027866",
+      "34772787",
+      "39390911",
+      "40804711",
+      "42065721",
+      "39271032",
+      "42420726",
+      "34598583",
+      "41166416",
+      "39725032",
+      "40468084",
+      "41933903",
+      "39591652",
+      "41983697",
+      "40093099",
+      "41703914",
+      "32822572",
+      "33139563",
+      "39636939",
+      "29509422",
+      "29306779",
+      "36657879",
+      "41480717",
+      "33302617",
+      "39534915",
+      "34916288",
+      "41629604",
+      "40925983",
+      "34588591",
+      "34772790",
+      "38781207",
+      "37470705",
+      "40082181",
+      "41540001",
+      "39673974",
+      "39663388",
+      "40782375",
+      "31790873"
+    ],
+    "review": [
+      "41667469",
+      "30099028",
+      "35179885",
+      "40913895",
+      "34772789",
+      "40962203",
+      "34772786",
+      "40325419",
+      "40195042",
+      "39947751",
+      "34772787",
+      "40804711",
+      "42065721",
+      "39271032",
+      "32822572",
+      "29509422",
+      "29306779",
+      "41480717",
+      "34772790"
+    ],
+    "pmc": [
+      "13002908"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-69376-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41667469/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34944399",
+  "title": "Planar Boronic Graphene and Nitrogenized Graphene Heterostructure for Protein Stretch and Confinement.",
+  "authors": "Su, Xuchang; He, Zhi; Meng, Lijun; Liang, Hong; Zhou, Ruhong",
+  "journal": "Biomolecules",
+  "published_date": "2021-12-25",
+  "window": {
+    "start": "2021-12-20",
+    "end": "2021-12-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用分子动力学模拟研究平面异质结构对无序蛋白的拉伸与约束，对象为IDP且用MD方法，但互作是蛋白-材料表面而非蛋白-蛋白互作，机制建模思路对IDP构象调控有启发。",
+  "abstract": "Single-molecule techniques such as electron tunneling and atomic force microscopy have attracted growing interests in protein sequencing. For these methods, it is critical to refine and stabilize the protein sample to a \"suitable mode\" before applying a high-fidelity measurement. Here, we show that a planar heterostructure comprising boronic graphene (BC(3)) and nitrogenized graphene (C(3)N) sandwiched stripe (BC(3)/C(3)N/BC(3)) is capable of the effective stretching and confinement of three types of intrinsically disordered proteins (IDPs), including amyloid-beta (1-42), polyglutamine (Q42), and alpha-Synuclein (61-95). Our molecular dynamics simulations demonstrate that the protein molecules interact more strongly with the C(3)N stripe than the BC(3) one, which leads to their capture, elongation, and confinement along the center C(3)N stripe of the heterostructure. The conformational fluctuations of IDPs are substantially reduced after being stretched. This design may serve as a platform for single-molecule protein analysis with reduced thermal noise.",
+  "abstract_zh": "单分子技术如电子隧穿和原子力显微镜在蛋白质测序领域引起了越来越多的关注。对于这些方法，关键在于在进行高保真测量之前，将蛋白质样品精炼并稳定至“适宜模式”。在此，我们展示了一种平面异质结构，由硼掺杂石墨烯（BC(3)）和氮掺杂石墨烯（C(3)N）夹层条带（BC(3)/C(3)N/BC(3)）组成，能够有效拉伸并限制三种类型的固有无序蛋白质（IDPs），包括淀粉样β蛋白（1-42）、多聚谷氨酰胺（Q42）和α-突触核蛋白（61-95）。我们的分子动力学模拟表明，蛋白质分子与C(3)N条带的相互作用强于BC(3)条带，这导致它们被捕获、拉伸并沿异质结构中心的C(3)N条带限制。IDPs的构象波动在拉伸后显著减少。该设计可能作为单分子蛋白质分析平台，以降低热噪声。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34944399/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34944399/",
+  "paper_page_path": "papers/pubmed/34944399/index.html"
+}

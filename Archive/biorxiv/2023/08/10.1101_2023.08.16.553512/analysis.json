@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.16.553512",
+  "title": "Coronaviruses Spike glycoprotein endodomains: the sequence and structure-based comprehensive study",
+  "authors": "Kumar P; Bhardwaj A; Mukherjee B; Joshi R; Giri R",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-16",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用生物信息学与分子动力学模拟研究多种冠状病毒刺突蛋白胞内尾端无序区域，虽聚焦IDR并涉及互作潜力，但未深入PPI机制建模，方法以序列/结构分析为主，整体相关但深度有限。",
+  "abstract": "The flexibility of proteins makes them available to interact with many biomolecules in the cell. Specifically, such interactions in viruses help them to perform more functions despite having a smaller genome. Therefore, these flexible regions can be exciting and essential targets to be explored for their role in pathogenicity and therapeutic developments as they achieve essential interactions. In the continuation with our previous study on disordered analysis of SARS-CoV-2 spike cytoplasmic tail (CTR), or endodomain, here we have explored the disordered potential endodomains of six other coronaviruses using multiple bioinformatics approaches and molecular dynamics simulations. Based on the comprehensive analysis of its sequence and structural composition, we report the varying disorder propensity in endodomains of spike proteins of coronaviruses. The observations of this study may help to understand the importance of spike glycoprotein endodomain and creating therapeutic interventions against them.",
+  "abstract_zh": "蛋白质的灵活性使其能够与细胞中的许多生物分子相互作用。具体而言，病毒中的此类相互作用帮助它们在拥有较小基因组的情况下执行更多功能。因此，这些柔性区域因其实现关键相互作用的能力，可成为探索其在致病性和治疗开发中作用的令人兴奋且至关重要的靶点。在我们先前对SARS-CoV-2刺突蛋白胞质尾区（CTR）或内结构域进行无序分析的研究基础上，此处我们利用多种生物信息学方法和分子动力学模拟，探索了其他六种冠状病毒的内结构域潜在无序性。基于对其序列和结构组成的综合分析，我们报告了冠状病毒刺突蛋白内结构域中不同的无序倾向性。本研究的观察结果可能有助于理解刺突糖蛋白内结构域的重要性，并为其治疗干预措施的制定提供支持。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.16.553512",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.16.553512",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.16.553512/index.html"
+}

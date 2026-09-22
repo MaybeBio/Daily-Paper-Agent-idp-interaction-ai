@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39345459",
+  "title": "Integrative Modeling of Protein-Polypeptide Complexes by Bayesian Model Selection using AlphaFold and NMR Chemical Shift Perturbation Data.",
+  "authors": "Benavides, Tiburon L; Montelione, Gaetano T",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-09-30",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出CSP_Rank，结合AlphaFold2增强采样与基于NMR化学位移扰动的贝叶斯模型选择，对蛋白-多肽复合物（含无序肽/IDR）进行整合建模，直接聚焦无序蛋白介导的PPI结构机制，方法上融合AI与实验数据，具有高度可迁移性。",
+  "abstract": "Protein-polypeptide interactions, including those involving intrinsically-disordered peptides and intrinsically-disordered regions of protein binding partners, are crucial for many biological functions. However, experimental structure determination of protein-peptide complexes can be challenging. Computational methods, while promising, generally require experimental data for validation and refinement. Here we present CSP_Rank, an integrated modeling approach to determine the structures of protein-peptide complexes. This method combines AlphaFold2 (AF2) enhanced sampling methods with a Bayesian conformational selection process based on experimental Nuclear Magnetic Resonance (NMR) Chemical Shift Perturbation (CSP) data and AF2 confidence metrics. Using a curated dataset of 108 protein-peptide complexes from the Biological Magnetic Resonance Data Bank (BMRB), we observe that while AF2 typically yields models with excellent consistency with experimental CSP data, applying enhanced sampling followed by data-guided conformational selection routinely results in ensembles of structures with improved agreement with NMR observables. For two systems, we cross-validate the CSP-selected models using independently acquired nuclear Overhauser effect (NOE) NMR data and demonstrate how CSP and NMR can be combined using our Bayesian framework for model selection. CSP_Rank is a novel method for integrative modeling of protein-peptide complexes and has broad implications for studies of protein-peptide interactions and aiding in understanding their biological functions.",
+  "abstract_zh": "蛋白质-多肽相互作用，包括涉及固有无序肽及蛋白质结合伴侣的固有无序区域的相互作用，对许多生物功能至关重要。然而，蛋白质-肽复合物的实验结构测定可能具有挑战性。计算方法虽有前景，但通常需要实验数据进行验证和细化。在此，我们提出CSP_Rank，一种用于确定蛋白质-肽复合物结构的集成建模方法。该方法将AlphaFold2 (AF2)增强采样技术与基于实验核磁共振 (NMR) 化学位移扰动 (CSP) 数据和AF2置信度指标的贝叶斯构象选择过程相结合。利用来自生物磁共振数据库 (BMRB) 的108个蛋白质-肽复合物的精选数据集，我们观察到，尽管AF2通常生成与实验CSP数据高度一致的模型，但应用增强采样后进行数据引导的构象选择，通常会产生与NMR可观测值一致性改善的结构集合。对于两个系统，我们使用独立获取的核欧弗豪森效应 (NOE) NMR数据对CSP选择的模型进行交叉验证，并展示了如何使用我们的贝叶斯框架结合CSP和NMR进行模型选择。CSP_Rank是一种用于蛋白质-肽复合物集成建模的新方法，对研究蛋白质-肽相互作用及帮助理解其生物功能具有广泛意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39345459/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39345459/",
+  "paper_page_path": "papers/pubmed/39345459/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33929486",
+  "title": "PLCgamma1 promotes phase separation of T cell signaling components.",
+  "authors": "Zeng, Longhui; Palaia, Ivan; Saric, Andela; Su, Xiaolei",
+  "journal": "The Journal of cell biology",
+  "published_date": "2021-05-01",
+  "window": {
+    "start": "2021-04-26",
+    "end": "2021-05-02"
+  },
+  "score": 9,
+  "one_liner_zh": "该文研究PLCgamma1通过SH2结构域交联LAT促进TCR信号组分相分离，并用patchy粒子计算机模拟揭示簇大小调控机制，直接契合无序蛋白介导的PPI与相分离机制建模。",
+  "abstract": "The T cell receptor (TCR) pathway receives, processes, and amplifies the signal from pathogenic antigens to the activation of T cells. Although major components in this pathway have been identified, the knowledge on how individual components cooperate to effectively transduce signals remains limited. Phase separation emerges as a biophysical principle in organizing signaling molecules into liquid-like condensates. Here, we report that phospholipase Cgamma1 (PLCgamma1) promotes phase separation of LAT, a key adaptor protein in the TCR pathway. PLCgamma1 directly cross-links LAT through its two SH2 domains. PLCgamma1 also protects LAT from dephosphorylation by the phosphatase CD45 and promotes LAT-dependent ERK activation and SLP76 phosphorylation. Intriguingly, a nonmonotonic effect of PLCgamma1 on LAT clustering was discovered. Computer simulations, based on patchy particles, revealed how the cluster size is regulated by protein compositions. Together, these results define a critical function of PLCgamma1 in promoting phase separation of the LAT complex and TCR signal transduction.",
+  "abstract_zh": "T细胞受体（TCR）通路接收、处理并放大来自病原抗原的信号，直至T细胞激活。尽管该通路中的主要组分已被识别，但关于各组分如何协同有效转导信号的知识仍然有限。相分离（phase separation）作为一种生物物理原理，将信号分子组织成液滴状凝聚体。在此，我们报道磷脂酶Cgamma1（PLCgamma1）促进LAT（TCR通路中的关键适配蛋白）的相分离。PLCgamma1通过其两个SH2结构域直接交联LAT。PLCgamma1还保护LAT免受磷酸酶CD45的去磷酸化作用，并促进LAT依赖的ERK激活及SLP76磷酸化。有趣的是，我们发现了PLCgamma1对LAT聚集的非单调效应。基于斑块粒子的计算机模拟揭示了簇大小如何受蛋白质组成调控。综合这些结果，定义了PLCgamma1在促进LAT复合物相分离及TCR信号转导中的关键功能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33929486/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33929486/",
+  "paper_page_path": "papers/pubmed/33929486/index.html"
+}

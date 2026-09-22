@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results and discussion, conclusions, experimental methods, and data availability statement.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, modeling approach, and claims as presented in the provided text. No external literature verification or replication of experiments was performed.
+- **Shared manuscript claim summary** The authors report a coacervate system based on catalase and DEAE-dextran that exhibits pH-responsive phase separation. They demonstrate that enzymatic decomposition of hydrogen peroxide raises local pH, destabilizing the coacervate droplets. They further show that the rate of pH increase depends on droplet size due to diffusion limitations, and propose that this negative feedback between enzymatic activity and phase stability could enable size control of coacervate droplets.
+- **Visible evidence base** Figures 2–5 as described in text; ESI sections referenced (Sections 1–8, Figs S3, S4, S11–S13, Tables SI, SII); experimental methods for pH measurements, turbidity assays, fluorescence labeling, and reaction rate comparisons.
+- **Missing materials affecting confidence** Full figures and raw data are not provided; ESI content is referenced but not included; numerical values for model parameters (e.g., diffusion coefficients, rate constants) are only partially given; no microscopy images are visible; statistical details for some comparisons are incomplete.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-conceived and carefully executed study of a catalase/DEAE-dextran coacervate system with potential for negative feedback control. The authors combine experimental measurements of pH changes, phase behavior, and reaction kinetics with a reaction-diffusion model to support their claims. The work is relevant to the growing field of biomolecular condensates and active materials. However, several technical concerns regarding model validation, quantitative support for key claims, and the interpretation of size-dependent effects need to be addressed before the central hypothesis is fully established.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, synthetic biology, soft matter physics, and active matter. The work provides a concrete example of coupling enzymatic reactions with phase separation, which is relevant for understanding cellular organization and for designing synthetic protocells or responsive materials. The reaction-diffusion framework may also interest theorists working on nonequilibrium phase behavior.
+- **Major strengths** The study addresses a timely and important question about feedback between enzymatic activity and phase separation. The choice of catalase and DEAE-dextran is well justified, and the experimental design includes appropriate controls. The reaction-diffusion model provides a quantitative framework for interpreting the results. The authors are transparent about limitations, including the inability to directly demonstrate size control due to bubble formation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "larger drops support larger changes in the local pH thereby enhancing their dissolution relative to smaller droplets" is central to the proposed negative feedback mechanism.
+  - **Evidence pointer** Figure 5 and associated text; ESI Sections 2.1, 6, 7
+  - **Concern** The experimental evidence for size-dependent pH changes is indirect. The comparison between "coacervates in solution" and "pellet + supernatant" shows a difference in t*, but the pellet is a macroscopic phase, not a collection of individual droplets of controlled size. The claim that individual droplets of different sizes exhibit different local pH changes is supported only by the model, not by direct measurement. The model parameters (e.g., diffusion coefficient of H2O2 inside the coacervate, rate constant kin) are estimated, not measured, and the sensitivity of the conclusions to these parameters is not explored.
+  - **Why it matters** The size-dependent feedback is the core novel claim of the manuscript. If the experimental system does not actually exhibit this behavior at the single-droplet level, the proposed mechanism for size control is not validated.
+  - **Resolution test** Provide direct measurements of pH or reaction rate in individual droplets of varying sizes, or at minimum, demonstrate that the model predictions are robust to parameter uncertainty and that the pellet behavior is representative of large droplets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "coacervate dissolution is caused by the pH increase induced by the enzymatic reaction" is supported by the buffer control experiment.
+  - **Evidence pointer** Figure 4 and associated text
+  - **Concern** The buffer control (100 mM Tris) shows that buffering prevents both pH change and turbidity decrease. However, the mechanism of dissolution is not fully characterized. It is not clear whether the pH increase acts solely by reducing the charge of DEAE-dextran, or whether other effects (e.g., changes in ionic strength from the reaction products, or direct interaction of H2O2 with the coacervate) contribute. The authors do not measure the charge state of DEAE-dextran as a function of pH under the coacervate conditions, nor do they test whether the observed dissolution is consistent with the predicted charge reduction.
+  - **Why it matters** The proposed negative feedback loop relies on a specific mechanism: pH increase reduces polycation charge, destabilizing the coacervate. If other factors contribute, the design principles for future systems may be incorrect.
+  - **Resolution test** Measure the zeta potential or charge of DEAE-dextran as a function of pH in the presence and absence of catalase. Test whether the dissolution threshold pH matches the predicted charge neutralization point. Consider control experiments with non-reactive pH changes (e.g., addition of base without H2O2).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that "these results provide a basis for achieving droplet size control based on negative feedback" is presented as a key outcome.
+  - **Evidence pointer** Conclusions section; ESI Section 2.2
+  - **Concern** The manuscript does not demonstrate size control experimentally. The authors state that experiments were inconclusive due to bubble formation. The model prediction of size control in an open system is plausible but not tested. The claim is therefore speculative and should be framed as a prediction rather than a demonstrated capability.
+  - **Why it matters** The potential for size control is a major motivation for the work. Without experimental demonstration, the significance of the study is reduced to a proof-of-principle of the coupling, which is still valuable but less impactful.
+  - **Resolution test** Either provide experimental evidence of size control in a system where bubble formation is mitigated, or clearly reframe the claim as a model prediction that remains to be tested.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation 4 and associated text
+  - **Evidence pointer** Results and discussion, section on diffusion limitations
+  - **Issue** The derivation of Equation 4 is not shown in the main text, and the meaning of the parameter f is not immediately clear from the context.
+  - **Required correction** Briefly explain the origin of Equation 4 and define all symbols in the text or in a table.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental methods for pH measurements
+  - **Evidence pointer** Experimental section, "ΔpH as a function of pH and H2O2 concentration"
+  - **Issue** The method for measuring pH is described, but the calibration procedure and the accuracy/precision of the pH measurements are not stated.
+  - **Required correction** Add details on pH electrode calibration and the estimated uncertainty in pH measurements.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5 and associated text
+  - **Evidence pointer** Results and discussion, section on diffusion limitations
+  - **Issue** The comparison of t* values between conditions is presented as mean ± standard deviation, but the number of replicates and the statistical test used are not stated.
+  - **Required correction** Report the number of independent replicates and the statistical method used for comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of model limitations
+  - **Evidence pointer** Results and discussion, section on diffusion limitations
+  - **Issue** The model assumes a uniform droplet size and does not account for polydispersity, which the authors acknowledge in the context of stirred samples but do not discuss in terms of model validity.
+  - **Required correction** Add a brief statement on how polydispersity might affect the model predictions and the interpretation of experimental results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The size-dependent feedback claim requires direct experimental support or a more rigorous model validation. The mechanism of dissolution needs to be confirmed as charge-mediated.
+- **Assessment against Nature-style criteria** Originality: The work is original in its specific combination of catalase, DEAE-dextran, and the focus on negative feedback. However, the concept of pH-responsive coacervates and enzyme-driven dissolution is not entirely new. Scientific importance: The study contributes to understanding feedback in biomolecular condensates and may inform design of active materials, but the lack of demonstrated size control limits its immediate impact. Interdisciplinary readership: The work will appeal to chemists, biologists, and physicists interested in phase separation and active matter. Technical soundness: The experimental methods are generally sound, but the model validation and the mechanism of dissolution require further support. Readability for nonspecialists: The manuscript is clearly written and accessible, with appropriate context provided in the introduction.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the experimental system is well chosen, but the central claims about size-dependent feedback and the dissolution mechanism need stronger evidence.
+
+## Risk / unsupported claims
+- The claim that "larger drops support larger changes in the local pH thereby enhancing their dissolution relative to smaller droplets" is not directly supported by experimental data; it is inferred from a model with estimated parameters.
+- The claim that coacervate dissolution is caused specifically by pH-induced charge reduction of DEAE-dextran is not fully established; alternative mechanisms are not ruled out.
+- The prediction of droplet size control in an open system is presented as a plausible outcome but is not experimentally demonstrated.
+- The estimate of a ~10^3-fold higher local enzyme concentration in the coacervate is based on assumptions about coacervate composition and volume fraction that are not directly measured.

@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "37285890",
+    "doi": "10.1016/j.ijbiomac.2023.125196",
+    "title": "A model for identification of potential phase-separated proteins based on protein sequence, structure and cellular distribution."
+  },
+  "content": {
+    "abstract": "The cells are like a highly industrialized and urbanized city, filled with numerous biological macromolecules and metabolites, forming a crowded environment. While, the cells have compartmentalized organelles to complete different biological processes efficiently and orderly. However, membraneless organelles are more dynamic and adaptable for transient events including signal transduction and molecular interactions. Liquid-liquid phase separation (LLPS) is a mechanism that is widespread in which macromolecules form condensates without membranes to exert biological functions in crowded environments. Due to the lack of deep understanding of phase-separated proteins, platforms exploring phase-separated proteins by high-throughput methods is lacking. Bioinformatics has its unique properties and has proven to be a great impetus in multiple fields. Here, We integrated the amino acid sequence, protein structure, and cellular localization, then developed a workflow for screening phase-separated proteins and identified a novel cell cycle-related phase separation protein, serine/arginine-rich splicing factor 2 (SRSF2). In conclusion, we developed a workflow as a useful resource for predicting phase-separated proteins based on multi-prediction tool, which has an important contribution to the further identification of phase-separated proteins and the development strategies for treating disease.",
+    "keywords": [
+      "AlphaFold",
+      "Cell cycle",
+      "Intrinsically disordered protein",
+      "Intrinsically disordered regions",
+      "SRSF2"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Organelles/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jiyan",
+        "Chang, Hongkai",
+        "Quan, Xiaojing",
+        "Dai, Xintong",
+        "Wang, Yan",
+        "Wang, Chenxi",
+        "Zhang, Shuai",
+        "Shan, Changliang"
+      ],
+      "short_names": [
+        "Wang J",
+        "Chang H",
+        "Quan X",
+        "Dai X",
+        "Wang Y",
+        "Wang C",
+        "Zhang S",
+        "Shan C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China. Electronic address: wangjiyan@nankai.edu.cn.",
+        "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China.",
+        "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China.",
+        "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China.",
+        "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China.",
+        "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China.",
+        "School of Integrative Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China. Electronic address: shuaizhang@tjutcm.edu.cn.",
+        "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China. Electronic address: changliangshan@nankai.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jiyan",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China. Electronic address: wangjiyan@nankai.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chang, Hongkai",
+        "short_name": "Chang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China."
+        ]
+      },
+      {
+        "full_name": "Quan, Xiaojing",
+        "short_name": "Quan X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China."
+        ]
+      },
+      {
+        "full_name": "Dai, Xintong",
+        "short_name": "Dai X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yan",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chenxi",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shuai",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Integrative Medicine, Tianjin University of Traditional Chinese Medicine, Tianjin 301617, China. Electronic address: shuaizhang@tjutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Shan, Changliang",
+        "short_name": "Shan C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medicinal Chemical Biology, College of Pharmacy and Tianjin Key Laboratory of Molecular Drug Research, Nankai University, Tianjin 300350, China. Electronic address: changliangshan@nankai.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2023 Jul 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/08 01:08",
+    "fetched_at": "2026-09-20 22:36:22"
+  },
+  "links": {
+    "cites": [
+      "42184109",
+      "41235398",
+      "39757214",
+      "38171931"
+    ],
+    "refs": [],
+    "similar": [
+      "37285890",
+      "36350034",
+      "32824618",
+      "31941785",
+      "37290157",
+      "35682883",
+      "35802394",
+      "38322526",
+      "36524527",
+      "38979955",
+      "34624295",
+      "35142991",
+      "27838525",
+      "28894006",
+      "23912807",
+      "31444270",
+      "29511089",
+      "31694155",
+      "32726575",
+      "36227468",
+      "32207864",
+      "37907762",
+      "31506351",
+      "34020549",
+      "29424691",
+      "32936641",
+      "27291647",
+      "29509422",
+      "33078839",
+      "29716768",
+      "33765580",
+      "32096047",
+      "37794023",
+      "34759902",
+      "34619090",
+      "28924037",
+      "30217894",
+      "36702825",
+      "35902591",
+      "33684117",
+      "38149872",
+      "33876938",
+      "34291921",
+      "34040255",
+      "29068531",
+      "36575582",
+      "27392146",
+      "34179096",
+      "31691822",
+      "32548680",
+      "36768473",
+      "31001538",
+      "31237369",
+      "32087632",
+      "36227478",
+      "31023505",
+      "37191277",
+      "34029402",
+      "33583140",
+      "35883530",
+      "34522448",
+      "33913240",
+      "33982369",
+      "29526694",
+      "31612960",
+      "33503380",
+      "33049214",
+      "36444977",
+      "30873835",
+      "36464283",
+      "32194074",
+      "34884563",
+      "35628304",
+      "30924287",
+      "36804705",
+      "33403854",
+      "30061688",
+      "26412307",
+      "31500307",
+      "25747659",
+      "33991007",
+      "34293345",
+      "37175815",
+      "35575335",
+      "35975930",
+      "34984754",
+      "32405004",
+      "34346674",
+      "32696386",
+      "36328544",
+      "38487243",
+      "38205268",
+      "37890707",
+      "31139718",
+      "39319382",
+      "39133858",
+      "30017918",
+      "37207400",
+      "37249032",
+      "33582138"
+    ],
+    "review": [
+      "37285890",
+      "36350034",
+      "32824618",
+      "35802394",
+      "36524527",
+      "38979955",
+      "35142991",
+      "27838525",
+      "31444270",
+      "31694155",
+      "32726575",
+      "37907762",
+      "27291647",
+      "29509422",
+      "33078839",
+      "29716768",
+      "33765580",
+      "32096047",
+      "34759902",
+      "34619090",
+      "34291921",
+      "29068531",
+      "32548680",
+      "31001538",
+      "31237369",
+      "31023505",
+      "33583140",
+      "34522448",
+      "33913240",
+      "33503380",
+      "33049214",
+      "36464283",
+      "32194074",
+      "34884563",
+      "35628304",
+      "30924287",
+      "36804705",
+      "34293345",
+      "37175815",
+      "30017918",
+      "37207400",
+      "37249032"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(23)02090-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

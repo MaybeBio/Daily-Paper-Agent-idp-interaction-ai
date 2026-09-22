@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the N-terminus of TRPM5 contains intracellular binding regions for the calcium-binding proteins calmodulin (CaM) and S100A1, identified via in vitro binding assays, and that molecular docking and molecular dynamics simulations of the resulting complexes confirm known common binding interface patterns and the uniqueness of basic residues in the TRPM5 binding regions for CaM/S100A1.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative results, or methodological specifics are provided
+- **Missing materials affecting confidence** Full manuscript, experimental protocols, binding assay data, docking and simulation parameters, structural models, statistical analyses, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting finding regarding TRPM5 regulation by calcium-binding proteins, but the evidence base is too limited to evaluate the validity, novelty, or technical rigor of the claims. The identification of CaM and S100A1 binding regions in the TRPM5 N-terminus is a reasonable hypothesis-driven result, yet the abstract lacks quantitative data, controls, and methodological detail necessary to assess the strength of the conclusions. The computational component, while suggestive, cannot be judged without specifics on force fields, simulation lengths, or validation against experimental structures.
+- **Who would be interested in the results, and why** Researchers in ion channel biology, particularly those studying TRP channel regulation and calcium signaling, would find these results relevant. Additionally, investigators interested in intrinsically disordered protein regions and their roles in protein-protein interactions, as well as those working on taste transduction mechanisms, may be interested. The potential therapeutic implications for conditions involving TRPM5 dysfunction, such as metabolic or taste disorders, could attract a broader audience.
+- **Major strengths** The study addresses a specific and mechanistically important question about TRPM5 regulation by calcium-binding proteins. The combination of in vitro binding assays with computational approaches (docking and molecular dynamics) is a reasonable strategy to identify and characterize binding interfaces. The focus on intrinsically disordered regions in the N-terminus is timely and aligns with current understanding of TRP channel modulation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "in vitro binding assays" identified intracellular regions for CaM and S100A1 in the TRPM5 N-terminus.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data, such as binding affinities, stoichiometry, or specificity controls, to support the claim of binding. It is unclear whether the assays included negative controls (e.g., unrelated proteins or mutated TRPM5 fragments) to rule out nonspecific interactions.
+  - **Why it matters** Without quantitative binding data and appropriate controls, the claim of specific CaM and S100A1 binding to TRPM5 cannot be established. Nonspecific electrostatic interactions are common with basic residues, which the authors themselves highlight as unique, raising the risk of false positives.
+  - **Resolution test** Provide binding curves with dissociation constants, include competition assays or mutations of key basic residues to demonstrate specificity, and show that binding is calcium-dependent if relevant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation
+  - **Claim pointer** The authors state that molecular docking and molecular dynamics simulations "confirmed their known common binding interface patterns and the uniqueness of the basic residues."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the docking methodology, scoring functions, simulation parameters, or how the "confirmation" was assessed. Without details on force fields, simulation timescales, convergence criteria, or comparison to experimental structures, the computational results are not reproducible or verifiable.
+  - **Why it matters** Computational predictions are only as reliable as their validation. The claim of "confirmation" implies a level of certainty that cannot be evaluated from the abstract, and overinterpretation of in silico results without experimental corroboration is a common pitfall.
+  - **Resolution test** Specify the software, parameters, and validation steps (e.g., cross-docking, comparison with known CaM/S100A1 complexes, or mutagenesis experiments) to support the computational conclusions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and context
+  - **Claim pointer** The abstract implies that the identified binding regions are novel, but it does not explicitly state this or compare with prior work on TRPM5 or other TRP channels.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not reference or discuss existing literature on CaM or S100A1 interactions with TRP channels, which could diminish the novelty of the finding. Without a clear statement of what is new, the contribution is unclear.
+  - **Why it matters** For a Nature-style assessment, originality is a key criterion. If similar interactions have been reported for other TRP channels, the authors must articulate the specific advance for TRPM5.
+  - **Resolution test** Add a comparative discussion in the full manuscript and explicitly state the novel aspects in the abstract, such as the specific binding sites or functional implications.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "the receptor exposed to calcium-mediated activation" is ambiguous; it is unclear whether TRPM5 is activated by calcium directly or indirectly.
+  - **Required correction** Rephrase to specify the mechanism, e.g., "TRPM5, which is activated by intracellular calcium" or "which mediates calcium-dependent taste transduction."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "calcium-binding protein S1 (S100A1)"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abbreviation "S1" is nonstandard; S100A1 is typically referred to as S100A1 without "S1."
+  - **Required correction** Use "S100A1" consistently and avoid the "S1" abbreviation unless defined elsewhere.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Functional implications
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the functional consequences of CaM or S100A1 binding to TRPM5, such as effects on channel activity or calcium sensitivity.
+  - **Required correction** Add a sentence on the predicted or observed functional impact to strengthen the significance of the finding.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of binding and computational confirmation are not supported by the abstract-level evidence. The lack of quantitative data and methodological detail prevents any assessment of technical soundness.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Not assessable from the abstract; the finding may be novel, but no comparison with prior work is provided.
+  - **Scientific importance** Potentially moderate to high, given the role of TRPM5 in taste and calcium signaling, but the abstract does not articulate broader implications.
+  - **Interdisciplinary readership** The topic bridges ion channel biophysics, structural biology, and computational chemistry, which could appeal to a broad audience, but the abstract is too specialized for nonspecialists.
+  - **Technical soundness** Not assessable; the abstract lacks experimental and computational details.
+  - **Readability for nonspecialists** The abstract is concise but uses jargon (e.g., "intrinsically disordered protein," "molecular dynamics simulations") without sufficient context, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a plausible and interesting study, but the lack of quantitative data, controls, and methodological detail means the claims cannot be evaluated. I would be supportive if the full manuscript provides robust binding data, computational validation, and clear novelty.
+
+## Risk / unsupported claims
+- The claim of specific CaM and S100A1 binding to TRPM5 N-terminus is unsupported without quantitative binding data and controls.
+- The claim that docking and simulations "confirmed" interface patterns is unsupported without methodological details and validation.
+- The functional relevance of the binding is not addressed and cannot be inferred from the abstract.
+- The novelty of the finding is unassessable due to lack of literature context.

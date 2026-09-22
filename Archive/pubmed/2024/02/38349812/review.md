@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that FapA, an intrinsically disordered chaperone from Pseudomonas, interacts with the major biofilm amyloid FapC and slows FapC fibrillation. They compare secondary structure propensities with AlphaFold models, identify specific residues on both proteins showing chemical shift perturbations upon titration, and report a temperature-dependent effect of FapA on FapC fibrillation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical data provided
+- **Missing materials affecting confidence** Full methods, NMR spectra and assignments, titration data, ThT kinetics curves, AlphaFold comparison details, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that a chaperone-like IDP slows fibrillation of a biofilm amyloid, with residue-level interaction mapping by NMR. However, the evidence as presented is insufficient to evaluate the robustness of the claims. Key quantitative data, experimental controls, and methodological details are absent. The claim of a specific interaction interface is plausible but not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying functional amyloids, biofilm formation, bacterial pathogenesis, and antimicrobial resistance. Also those interested in chaperone mechanisms, intrinsically disordered proteins, and amyloid inhibition strategies. The potential therapeutic angle for biofilm-associated infections broadens appeal to applied microbiology and drug development communities.
+- **Major strengths** The study addresses a clinically relevant topic (biofilm-associated infections and antimicrobial resistance). The use of NMR to map interaction sites at residue resolution is technically sophisticated. The observation that a chaperone slows rather than accelerates amyloid formation is mechanistically interesting. The comparison with AlphaFold predictions adds a modern structural biology dimension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that FapA "significantly slows down the formation of FapC fibrils" and that a "temperature-dependent effect of FapA was observed on FapC."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative data are provided to support the claim of significant slowing. The magnitude of the effect, the concentration dependence, and the statistical significance are not reported. The temperature-dependent effect is mentioned but not described in terms of direction, magnitude, or mechanism.
+  - **Why it matters** Without quantitative kinetics data and statistical analysis, the central functional claim cannot be assessed. The temperature dependence could indicate a specific mechanism or a trivial aggregation artifact, and the abstract does not allow discrimination.
+  - **Resolution test** Provide ThT fibrillation curves with replicates, fitted rate constants, statistical comparisons, and a clear description of the temperature effect including whether it is monotonic or non-monotonic.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "~18% of the resonances show FapA-induced chemical shift perturbations" and that specific residues (A82, N201, C237, C240, A241, G245) "may suggest a specific interaction site and/or hotspots of fibrillation inhibition/control interface."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The threshold for what constitutes a significant CSP is not defined. The claim that these residues form a specific interaction site is speculative, as the abstract itself uses "may suggest." No information is given on whether the CSPs are in fast, intermediate, or slow exchange, which affects interpretation. The functional relevance of the identified residues is not demonstrated.
+  - **Why it matters** Residue-level mapping is only meaningful if the criteria for significance are objective and if the perturbations are linked to function. Without exchange regime information and functional validation, the proposed interface remains correlative.
+  - **Resolution test** Define the CSP significance threshold, report exchange regimes, and show that mutation or truncation of the proposed interface residues alters FapA function or FapC fibrillation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "~90% of FapA NMR signals exhibit substantial CSPs upon titration with FapC."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** A 90% perturbation across the entire FapA protein is unusual and could indicate a non-specific, global interaction or an artifact such as sample precipitation, viscosity changes, or non-specific binding. The abstract does not address whether the interaction is specific or whether the perturbations are uniform or localized.
+  - **Why it matters** If the interaction is non-specific, the proposed chaperone mechanism and the specific inhibition interface on FapC are undermined. The interpretation of the data depends critically on demonstrating specificity.
+  - **Resolution test** Show that the CSPs are not uniform, provide a binding affinity or dissociation constant, and include control experiments with a non-interacting IDP or a mutated FapA.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "the secondary structure propensities (SSPs) are compared to alphafold models."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The outcome of this comparison is not reported. It is unclear whether the SSPs agree with AlphaFold predictions, and if not, what the implications are. The comparison appears to be a side observation rather than an integrated part of the study.
+  - **Why it matters** The comparison could validate or challenge AlphaFold predictions for IDPs, which is of general interest. As presented, the claim is incomplete and does not contribute to the main narrative.
+  - **Resolution test** Report the agreement or disagreement between SSPs and AlphaFold models, and discuss implications for IDP structure prediction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "which has not been previously observed" is ambiguous. It is unclear whether this refers to the CSPs themselves, the specific residues, or the interaction.
+  - **Required correction** Rephrase to specify exactly what is novel, for example "these CSPs have not been previously reported for the FapA-FapC interaction."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not state the concentrations of FapA and FapC used in the titrations or the temperature range studied.
+  - **Required correction** Include concentration ranges and temperature conditions in the abstract or indicate that these are provided in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Functional claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states the findings "have important implications for the development of therapeutic strategies" but does not provide any evidence that the FapA-FapC interaction is druggable or that modulation of this interaction affects biofilm formation in vivo.
+  - **Required correction** Soften the therapeutic claim or add a sentence indicating that in vivo relevance is not yet tested.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative fibrillation data missing), R1-M2 (CSP criteria and functional link not established), R1-M3 (specificity of FapA interaction not demonstrated)
+- **Assessment against Nature-style criteria** Originality: The study addresses a relatively underexplored area, namely chaperone regulation of functional amyloids in biofilms, which is a novel angle. Scientific importance: The topic is relevant to biofilm-associated infections and antimicrobial resistance, which are significant global health issues. Interdisciplinary readership: The work bridges structural biology, microbiology, and potentially therapeutic development, which could attract a broad audience. Technical soundness: The NMR approach is appropriate, but the abstract does not provide enough detail to assess the rigor of the experiments or the analysis. Readability for nonspecialists: The abstract is reasonably accessible, though terms like "chemical shift perturbations" and "secondary structure propensities" may require background knowledge. Overall, the study has potential but the evidence as presented is not sufficient to establish the central claims.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests an interesting finding, but the lack of quantitative data, specificity controls, and methodological details prevents a definitive assessment. Supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that FapA "significantly slows down" FapC fibrillation is unsupported without quantitative kinetics data.
+- The claim of a "specific interaction site" on FapC is speculative and not established from the abstract.
+- The claim that "~90% of FapA NMR signals exhibit substantial CSPs" is uninterpretable without specificity controls.
+- The therapeutic implications are overstated given the lack of in vivo or functional validation.
+- The outcome of the SSP versus AlphaFold comparison is not reported, making this claim unassessable.

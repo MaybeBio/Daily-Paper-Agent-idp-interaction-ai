@@ -1,0 +1,262 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.28.741257",
+  "title": "How a highly acidic SH3 domain binds to its intrinsically disordered partner through the formation of an encounter complex intermediate",
+  "doi": "10.64898/2026.07.28.741257",
+  "abstract": "Electrostatic interactions often play a role in determining the thermodynamic and kinetic properties of protein-protein interactions. However, the role of long-range electrostatic interactions in intrinsically disordered protein (IDP) binding is less clear, as they often bind in multiple steps including initial formation of a disordered encounter complex, followed by rearrangement into the bound state. We varied the salt concentration to probe the role of long-range electrostatic interactions in the binding of the highly charged AbpSH3 domain and the oppositely charged IDP ArkA. Using isothermal titration calorimetry, we observe that salt enthalpically destabilizes the bound complex. Molecular dynamics and NMR experiments reveal that salt has little effect on the bound state structure. However, simulations show that salt destabilizes the encounter complex intermediate, which primarily affects the association rate as measured by NMR. Consistent with these results, salt has the largest stabilizing effect on the apo SH3 domain, as cations substitute for the transient and long-range electrostatic interactions that can form with ArkA in the complex. We reveal a detailed picture of how a highly charged domain uses long-range, fuzzy, electrostatic interactions to help reach the bound state, a mechanism that is likely common among other highly charged domains that bind IDPs. <h4>TOC Image</h4>",
+  "authors": [
+    "Jaramillo-Martinez V",
+    "Kukreja R",
+    "Cohen MR",
+    "Mujica A",
+    "Barton S",
+    "Onwuzulu OC",
+    "Cardoso J",
+    "Dominguez MJ",
+    "Kekwick IM",
+    "Ali J",
+    "Bell GM",
+    "Rice S",
+    "Poaquiza D",
+    "McClure C",
+    "Anguiano F",
+    "Latham MP",
+    "Ball KA",
+    "Stollar EJ"
+  ],
+  "published_date": "2026-07-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.28.741257",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.28.741257.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1288801",
+    "raw_record": {
+      "id": "PPR1288801",
+      "source": "PPR",
+      "doi": "10.64898/2026.07.28.741257",
+      "title": "How a highly acidic SH3 domain binds to its intrinsically disordered partner through the formation of an encounter complex intermediate",
+      "authorString": "Jaramillo-Martinez V, Kukreja R, Cohen MR, Mujica A, Barton S, Onwuzulu OC, Cardoso J, Dominguez MJ, Kekwick IM, Ali J, Bell GM, Rice S, Poaquiza D, McClure C, Anguiano F, Latham MP, Ball KA, Stollar EJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Jaramillo-Martinez V",
+            "lastName": "Jaramillo-Martinez",
+            "firstName": "Valeria",
+            "initials": "V"
+          },
+          {
+            "fullName": "Kukreja R",
+            "lastName": "Kukreja",
+            "firstName": "Ritika",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-6247-9015"
+            }
+          },
+          {
+            "fullName": "Cohen MR",
+            "lastName": "Cohen",
+            "firstName": "Michaela",
+            "initials": "MR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0002-2775-4892"
+            }
+          },
+          {
+            "fullName": "Mujica A",
+            "lastName": "Mujica",
+            "firstName": "Ally",
+            "initials": "A"
+          },
+          {
+            "fullName": "Barton S",
+            "lastName": "Barton",
+            "firstName": "Samuel",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-5432-9323"
+            }
+          },
+          {
+            "fullName": "Onwuzulu OC",
+            "lastName": "Onwuzulu",
+            "firstName": "Oluebube",
+            "initials": "OC"
+          },
+          {
+            "fullName": "Cardoso J",
+            "lastName": "Cardoso",
+            "firstName": "Jorge",
+            "initials": "J"
+          },
+          {
+            "fullName": "Dominguez MJ",
+            "lastName": "Dominguez",
+            "firstName": "Matthew",
+            "initials": "MJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1033-5181"
+            }
+          },
+          {
+            "fullName": "Kekwick IM",
+            "lastName": "Kekwick",
+            "firstName": "Isabelle",
+            "initials": "IM"
+          },
+          {
+            "fullName": "Ali J",
+            "lastName": "Ali",
+            "firstName": "Jaden",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-7913-1843"
+            }
+          },
+          {
+            "fullName": "Bell GM",
+            "lastName": "Bell",
+            "firstName": "Gemma",
+            "initials": "GM"
+          },
+          {
+            "fullName": "Rice S",
+            "lastName": "Rice",
+            "firstName": "Sydney",
+            "initials": "S"
+          },
+          {
+            "fullName": "Poaquiza D",
+            "lastName": "Poaquiza",
+            "firstName": "Daniela",
+            "initials": "D"
+          },
+          {
+            "fullName": "McClure C",
+            "lastName": "McClure",
+            "firstName": "Colin",
+            "initials": "C"
+          },
+          {
+            "fullName": "Anguiano F",
+            "lastName": "Anguiano",
+            "firstName": "Frida",
+            "initials": "F"
+          },
+          {
+            "fullName": "Latham MP",
+            "lastName": "Latham",
+            "firstName": "Michael",
+            "initials": "MP"
+          },
+          {
+            "fullName": "Ball KA",
+            "lastName": "Ball",
+            "firstName": "Aurelia",
+            "initials": "KA"
+          },
+          {
+            "fullName": "Stollar EJ",
+            "lastName": "Stollar",
+            "firstName": "Elliott",
+            "initials": "EJ"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1033-5181"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0002-2775-4892"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-7913-1843"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0005-6247-9015"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-5432-9323"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Electrostatic interactions often play a role in determining the thermodynamic and kinetic properties of protein-protein interactions. However, the role of long-range electrostatic interactions in intrinsically disordered protein (IDP) binding is less clear, as they often bind in multiple steps including initial formation of a disordered encounter complex, followed by rearrangement into the bound state. We varied the salt concentration to probe the role of long-range electrostatic interactions in the binding of the highly charged AbpSH3 domain and the oppositely charged IDP ArkA. Using isothermal titration calorimetry, we observe that salt enthalpically destabilizes the bound complex. Molecular dynamics and NMR experiments reveal that salt has little effect on the bound state structure. However, simulations show that salt destabilizes the encounter complex intermediate, which primarily affects the association rate as measured by NMR. Consistent with these results, salt has the largest stabilizing effect on the apo SH3 domain, as cations substitute for the transient and long-range electrostatic interactions that can form with ArkA in the complex. We reveal a detailed picture of how a highly charged domain uses long-range, fuzzy, electrostatic interactions to help reach the bound state, a mechanism that is likely common among other highly charged domains that bind IDPs. <h4>TOC Image</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "U.S. National Science Foundation",
+            "grantId": "MCB-2324974",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute of General Medical Sciences",
+            "grantId": "R35GM128906",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.07.28.741257"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-07-31",
+      "firstPublicationDate": "2026-07-29",
+      "firstIndexDate": "2026-07-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

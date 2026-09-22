@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.28.650887",
+  "title": "PhysDock: A Physics-Guided All-Atom Diffusion Model for Protein-Ligand Complex Prediction",
+  "authors": "Kexin Zhang; Yuanyuan Ma; Jiale Yu; Huiting Luo; Jinyu Lin; Yifan Qin; Xiangcheng Li; Qian Jiang; Fang Bai; Jiayi Dou; Jie Zheng; Jingyi Yu; Liping Sun",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-02",
+  "window": {
+    "start": "2025-04-28",
+    "end": "2025-05-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出物理引导的全原子扩散模型PhysDock用于蛋白-配体复合物预测，虽对象为折叠蛋白与小分子而非IDP/PPI，但其物理引导扩散建模柔性/构象调整的思路对无序蛋白互作机制建模有可迁移启发。",
+  "abstract": "Accurate prediction of protein-ligand complexes remains a central challenge in structural biology. Traditional methods are computationally inefficient and prone to local minima, whereas deep learning approaches struggle to capture structural flexibility and physical plausibility. We introduce PhysDock, a physics-guided diffusion model that uniquely integrates (i) all-atom diffusion to model ligand flexibility and protein precision-flexibility ( i . e ., subtle conformational adjustments); (ii) physical priors as diffusion conditioning, alongside two-phase physics guidance during the denoising diffusion to ensure physical plausibility. PhysDock demonstrates state-of-the-art performance in redocking benchmarks and excels in the more challenging cross-docking assessments. For practical utility, PhysDock (i) resolves cannabinoid receptor selectivity across diverse molecules, achieving accuracy comparable to experiments; (ii) distinguishes most drug candidates from weak binders in virtual screening of NTRK3 kinase, while uncovering novel candidates with structural insights. PhysDock serves as a versatile tool for protein-ligand complex prediction, with substantial potential to accelerate structure-based drug discovery.",
+  "abstract_zh": "蛋白-配体复合物的精确预测仍是结构生物学中的核心挑战。传统方法计算效率低下且易陷入局部最小值，而深度学习方法则难以捕捉结构灵活性和物理合理性。我们引入了PhysDock，一种物理引导的扩散模型，其独特地整合了（i）全原子扩散以模拟配体灵活性和蛋白质精度-灵活性（即细微构象调整）；（ii）物理先验作为扩散条件，并在去噪扩散过程中结合两阶段物理引导以确保物理合理性。PhysDock在重对接基准测试中展现出最先进的性能，并在更具挑战性的交叉对接评估中表现卓越。在实际应用方面，PhysDock（i）解决了大麻素受体对不同分子的选择性，达到了与实验相当的准确性；（ii）在NTRK3激酶的虚拟筛选中区分了大多数药物候选物与弱结合剂，同时通过结构洞察发现了新型候选物。PhysDock作为蛋白-配体复合物预测的多功能工具，具有加速基于结构的药物发现的巨大潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.28.650887",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.28.650887",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.28.650887/index.html"
+}

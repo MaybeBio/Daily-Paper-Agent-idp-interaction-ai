@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35914331",
+  "title": "Remote communication between unstructured and structured regions of Bcl-2 tunes its ligand binding capacity: Mechanistic insights.",
+  "authors": "Paul, Debarati; Basak, Premananda; Ghosh Dastidar, Shubhra",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2022-08-02",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过全原子分子动力学模拟，揭示Bcl-2无序区(IDR)与结构化结合位点间的远程通讯机制，并阐明磷酸化如何增强其与Bax的结合亲和力，直接聚焦IDR介导的PPI机制建模。",
+  "abstract": "Bcl-2, the prototypic, anti-apoptotic member of Bcl-2 family possesses a long Intrinsically Disordered Region (IDR) of more than sixty amino acid residues. In spite of a number of experimental evidences on the influence of IDR to regulate the function of the protein, the molecular basis is not yet established. The present work with ~8micros conformational sampling of Bcl-2, using molecular dynamics in all atom description, offers a molecular mechanistic insight into the communication between the IDR and the structured region. The results indicate a highly significant role of the IDR in controlling the movements of the atoms which form the primary binding site. Although the influence of the IDR of the wild type Bcl-2 on its structured region, especially on the binding site, seems to be ordinary, but the hidden pathway of communication gets elucidated as the perturbation due to single-site phosphorylation on S70 works as a marker of the path; the contrast brought by the data obtained after truncating the IDR highlights it further. In wild type Bcl-2, apparently there is no direct communication between the IDR and binding site. But in the phosphorylated system, a communication channel between the IDR and the binding site has been established, as evidenced from the network analysis, which results in an increased correlation between the binding pocket residues and that redistributs the sampling of conformations of the system; one of the major consequences of these changes is witnessed in its enhanced affinity for binding with its partner Bax.",
+  "abstract_zh": "Bcl-2，作为Bcl-2家族中原型的抗凋亡成员，拥有一个超过六十个氨基酸残基的长内在无序区（IDR）。尽管有大量实验证据表明IDR对蛋白质功能的调节作用，但其分子基础尚未确立。本研究通过对Bcl-2进行约8微秒的构象采样，采用全原子描述的分子动力学（molecular dynamics）方法，提供了关于IDR与结构化区域之间通讯的分子机制性见解。结果表明，IDR在控制构成主要结合位点的原子运动中扮演着极其重要的角色。尽管野生型Bcl-2的IDR对其结构化区域，尤其是结合位点的影响看似平常，但隐藏的通讯路径在S70位点单磷酸化引起的扰动作为路径标记时得以阐明；截断IDR后获得的数据所带来的对比进一步凸显了这一点。在野生型Bcl-2中，IDR与结合位点之间显然没有直接通讯。但在磷酸化系统中，网络分析证据表明，IDR与结合位点之间建立了一条通讯通道，这导致结合口袋残基之间的相关性增强，并重新分配了系统构象的采样；这些变化的主要后果之一体现在其与伙伴Bax结合亲和力的增强上。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35914331/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35914331/",
+  "paper_page_path": "papers/pubmed/35914331/index.html"
+}

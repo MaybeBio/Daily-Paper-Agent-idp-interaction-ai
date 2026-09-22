@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, supplementary figure captions referenced but not provided in full)
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims relative to evidence presented, and suitability for the stated venue. Editorial or formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors present a coarse-grained (CG) model of poly(ADP-ribose) (PAR) with explicit divalent ions and implicit monovalent ions, validated against FRET and SAXS data. They report that PAR undergoes a sharper, more cooperative, length-dependent collapse in response to Mg²⁺ than RNA, driven by preferential ion binding and ion-mediated bridging between phosphate groups. They further report that PAR's ion atmosphere is more compact than RNA's, and that Ca²⁺ binds PAR more strongly via inner-sphere coordination than Mg²⁺. The authors argue these features explain PAR's distinct biological functions, including phase separation and protein recruitment.
+- **Visible evidence base** Main text figures (Fig. 1A–F, Fig. 2A–F, Fig. 3A–E, Fig. 4A–E, Fig. 5A–D) are referenced; supplementary figures (S1–S19) and tables (S1) are referenced but not provided in the submitted material. Equations (S8, S11) are referenced but not shown. Methods section is partially provided; simulation parameters, force constants, and validation details are not fully visible.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S19, Table S1), full methods (simulation protocol, parameterization details, equilibration, sampling times, error analysis), and the complete set of equations (S8, S11) are not provided. This limits verification of model construction, convergence, and statistical robustness of the reported results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and biologically important question: how PAR's unique physicochemical properties distinguish it from RNA. The development of a CG model for PAR is a valuable contribution, and the comparison with RNA across ion conditions is conceptually interesting. However, the current evidence base is insufficient to fully support the strong claims made, particularly regarding the mechanistic role of ion bridging, the generality of the length-dependent collapse, and the biological implications. Several technical aspects of the model and simulation protocol require clarification or additional validation before the conclusions can be considered established.
+- **Who would be interested in the results, and why** Researchers studying PAR biology, DNA damage repair, phase separation, and biomolecular condensates would be interested. The work also speaks to the biophysics community interested in polyelectrolyte behavior, ion-nucleic acid interactions, and coarse-grained modeling of intrinsically disordered or highly charged polymers. The claim that PAR's charge blockiness confers distinct ion sensitivity could inform the design of synthetic polyelectrolytes or biomimetic materials.
+- **Major strengths** 1. The manuscript introduces a novel CG model for PAR, which is a significant methodological advance given the lack of accurate PAR models. 2. The systematic comparison of PAR with RNA under identical ion conditions is a well-designed approach to isolate the effect of charge distribution. 3. The validation against FRET and SAXS data, if fully documented, would provide strong support for the model's reliability. 4. The discussion of biological implications, particularly regarding phase separation and competition with RNA, is thoughtful and connects simulation results to cellular function.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the CG model is "validated" by quantitative agreement with FRET and SAXS data (Results, "Validation of the FIS–PAR model").
+  - **Evidence pointer** Fig. 1B; Methods section; Supplementary Table S1; location not provided for full parameterization details
+  - **Concern** The validation is presented as quantitative agreement, but the details of the comparison are not fully visible. Specifically, the FRET efficiency calculation uses a single Förster radius (R0 = 59 Å) and assumes a specific dye attachment point, but the sensitivity of the result to this choice is not discussed. The SAXS comparison for PAR15 and PAR22 is mentioned but the quality of the fit (e.g., chi-squared values, residuals) is not reported. Furthermore, the model parameters (force constants, equilibrium values) are stated to be inherited from an RNA model, but the transferability of these parameters to PAR's distinct chemistry (e.g., the pyrophosphate linkage, ribose-ribose connectivity) is not justified.
+  - **Why it matters** If the model is not adequately validated, all subsequent conclusions about PAR's structural properties and ion interactions are called into question. The claim of "quantitative agreement" is a strong one and requires transparent reporting of the comparison metrics and uncertainties.
+  - **Resolution test** Provide a detailed comparison of simulated and experimental FRET efficiencies and SAXS profiles, including error bars and goodness-of-fit statistics. Justify the transferability of RNA-derived parameters to PAR, or re-parameterize and re-validate the model. Show that the validation is robust to reasonable variations in model parameters (e.g., R0, force constants).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "ion-mediated long-ranged bridging underlies PAR collapse" and that this is due to PAR's "blocky charge distribution" (Results, "Ion-mediated long-ranged bridging underlies PAR collapse").
+  - **Evidence pointer** Fig. 5A–D; Supplementary Figs S13–S19; location not provided for bridging distance definitions
+  - **Concern** The causal link between bridging and collapse is asserted but not rigorously established. The authors show a correlation between the number of bridging ions and the degree of collapse, but correlation does not imply causation. It is possible that the collapse brings phosphate groups closer together, thereby increasing the number of bridging ions, rather than the reverse. The authors do not perform a control experiment (e.g., a simulation where bridging is artificially suppressed) to demonstrate that bridging is necessary for collapse. Additionally, the definition of "long-ranged" bridging (contour distance >60 Å) is not clearly justified, and the relative contribution of short-range versus long-range bridging to collapse is not quantified.
+  - **Why it matters** The central mechanistic claim of the paper is that ion bridging drives PAR collapse. If this is not convincingly demonstrated, the paper's main conclusion is weakened. The distinction between correlation and causation is critical for the interpretation of the results.
+  - **Resolution test** Perform additional simulations to test causality, such as (a) a variant of the model where bridging interactions are disabled, or (b) an analysis that separates the energetic contribution of bridging from other interactions (e.g., electrostatics, excluded volume). Quantify the fraction of collapse that can be attributed to bridging versus other factors. Provide a clear definition of "long-ranged" and justify its relevance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their findings "offer mechanistic insight into how PAR nucleates phase separation and organizes protein interactions at sites of DNA damage" (Abstract) and that PAR's distinct ion sensitivity "helps explain why cells preferentially deploy PAR, rather than RNA, for specific biological functions" (Introduction).
+  - **Evidence pointer** Discussion section; location not provided for specific biological data
+  - **Concern** The leap from simulation results on isolated PAR chains to cellular function is not well supported. The simulations do not include proteins, other nucleic acids, or the complex cellular environment. The claim that PAR's compact ion atmosphere "restricts interactions to nearby, functionally relevant targets" is speculative and not directly tested. The comparison with RNA is made at equal chain length and charge, but in cells, PAR and RNA differ in length, concentration, and localization. The biological relevance of the specific ion concentrations used (e.g., 0.1 mM Mg²⁺) is not discussed.
+  - **Why it matters** The paper's significance is partly predicated on its biological implications. If these implications are overstated or not supported by the data, the impact of the work is reduced. The authors should either provide more direct evidence for the biological claims or temper their language.
+  - **Resolution test** Either (a) perform simulations that include protein partners or other relevant biomolecules to test the proposed mechanisms, or (b) revise the discussion to clearly distinguish between simulation-based findings and speculative biological implications. Provide a more nuanced discussion of the limitations of the model in a cellular context.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "PAR attracts more ions than RNAs with distinct ion atmosphere" and that this is due to "charge blockiness" (Results, "PAR attracts more ions than RNAs with distinct ion atmosphere").
+  - **Evidence pointer** Fig. 4D–E; Supplementary Figs S9–S10; location not provided for ion counting method
+  - **Concern** The comparison of ion atmosphere between PAR and RNA is made at equal net charge, but the authors do not clearly define how "ion atmosphere" is quantified. The use of Γ (excess ions) is standard, but the integration limits and the treatment of the reference state are not specified. The claim that PAR's ion atmosphere is "more compact" is based on the radial distribution function, but the authors do not report the integrated number of ions within a given radius, which would be a more direct measure of compactness. The role of "charge blockiness" is inferred but not directly manipulated or tested.
+  - **Why it matters** The quantitative comparison of ion atmospheres is a key part of the paper's argument. If the methodology is not transparent or the conclusions are not robust to the analysis choices, the validity of the comparison is undermined.
+  - **Resolution test** Provide a clear definition of the ion atmosphere and the method for calculating Γ, including integration limits and error estimates. Report the integrated number of ions within a defined radius for both PAR and RNA. Perform a control simulation where the charge distribution of PAR is altered (e.g., evenly distributed) to directly test the role of charge blockiness.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction assumes familiarity with PAR biology and phase separation. A brief explanation of why PAR's structure matters for its function would help nonspecialist readers.
+  - **Required correction** Add one or two sentences explaining the functional significance of PAR structure, e.g., how its conformation affects its ability to interact with proteins and promote phase separation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, electrostatic model
+  - **Evidence pointer** Methods section, "Electrostatic interaction" paragraph
+  - **Issue** The Debye-Hückel potential is used for phosphate-phosphate and divalent ion interactions, but the treatment of the dielectric constant and the Bjerrum length at the CG scale is not discussed. The choice of ε and its temperature dependence could affect the results.
+  - **Required correction** State the value of ε used and justify its choice. Discuss any sensitivity of the results to this parameter.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Ion identity affects PAR and RNA differently"
+  - **Evidence pointer** Results section, "Ion identity affects PAR and RNA differently"; Supplementary Fig. S10D
+  - **Issue** The claim that Ca²⁺ has a "lower free energy barrier for the OS-to-IS transition" is presented without direct calculation of this barrier. The authors infer this from the observed binding preferences, but this is an indirect measure.
+  - **Required correction** Either calculate the free energy barrier explicitly (e.g., via umbrella sampling) or rephrase the claim to state that the results are "consistent with" a lower barrier, rather than asserting it as a fact.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, paragraph on biological implications
+  - **Evidence pointer** Discussion section, paragraph 3
+  - **Issue** The discussion of PAR's role in bone mineralization is interesting but not directly connected to the simulation results. The link between Ca²⁺ binding and mineralization is speculative.
+  - **Required correction** Clarify that this is a speculative extension of the findings and not a direct conclusion from the simulations. Alternatively, provide additional simulation data on Ca²⁺ binding in a context more relevant to mineralization.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "PAR undergoes transition from rod to self-avoiding random walk (SAW)-like structure"
+  - **Evidence pointer** Results section, "PAR undergoes transition from rod to self-avoiding random walk (SAW)-like structure"
+  - **Issue** The terms "rod," "SAW," "Gaussian coil," and "globule" are used without definition. Nonspecialist readers may not be familiar with these polymer physics concepts.
+  - **Required correction** Briefly define these terms when first used, or add a short primer on polymer conformations in the introduction or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation), R1-M2 (causality of bridging), R1-M3 (biological overreach), R1-M4 (ion atmosphere quantification). These are blocking concerns that must be resolved before the manuscript's conclusions can be considered established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The work is original in its development of a CG model for PAR and its systematic comparison with RNA. The focus on charge blockiness as a distinguishing feature is a novel angle. However, the concept of ion-mediated bridging in polyelectrolytes is well established, and the novelty lies primarily in its application to PAR.  
+  - **Scientific importance** The question of how PAR's structure differs from RNA is important for understanding its unique biological functions. The potential implications for phase separation and DNA repair are significant. However, the current evidence does not fully support the broad biological claims made.  
+  - **Interdisciplinary readership** The work will appeal to biophysicists, computational chemists, and PAR biologists. The polymer physics concepts may be challenging for nonspecialists, but the biological context helps bridge disciplines.  
+  - **Technical soundness** The model is a reasonable first step, but the validation is incomplete, and the causal link between bridging and collapse is not established. The lack of full methods and supplementary data prevents a thorough assessment.  
+  - **Readability for nonspecialists** The manuscript is generally well-written, but the introduction and results assume familiarity with PAR biology and polymer physics. Some terms and concepts could be better explained for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a potentially valuable model, but the current evidence is insufficient to support the strong claims made. The authors must address the validation, causality, and quantification issues before the paper can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that the CG model is "quantitatively" validated against FRET and SAXS data is not fully supported by the visible evidence; the comparison metrics and uncertainties are not reported.
+- The claim that "ion-mediated long-ranged bridging underlies PAR collapse" is not causally established; correlation alone is insufficient.
+- The claim that PAR's compact ion atmosphere "restricts interactions to nearby, functionally relevant targets" is speculative and not directly tested.
+- The claim that Ca²⁺ has a "lower free energy barrier for the OS-to-IS transition" is inferred, not calculated.
+- The biological implications regarding phase separation and competition with RNA are plausible but not directly supported by the simulation data presented.

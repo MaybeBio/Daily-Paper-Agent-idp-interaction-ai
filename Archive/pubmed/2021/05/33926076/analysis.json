@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33926076",
+  "title": "The 'Shape-Shifter' Peptide from the Disulphide Isomerase PmScsC Shows Context-Dependent Conformational Preferences.",
+  "authors": "Smith, Lorna J; Green, Chloe W; Redfield, Christina",
+  "journal": "Biomolecules",
+  "published_date": "2021-05-01",
+  "window": {
+    "start": "2021-04-26",
+    "end": "2021-05-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过NMR和MD模拟表征PmScsC中无序'变形'肽段在溶液中的构象偏好，并分析晶体结构中分子间接触对其不同构象的稳定作用，虽对象为折叠蛋白内的无序区域而非典型IDP，但涉及无序肽段介导的蛋白互作机制建模，对IDR-PPI研究有方法学启发。",
+  "abstract": "Multiple crystal structures of the homo-trimeric protein disulphide isomerase PmScsC reveal that the peptide which links the trimerization stalk and catalytic domain can adopt helical, beta-strand and loop conformations. This region has been called a 'shape-shifter' peptide. Characterisation of this peptide using NMR experiments and MD simulations has shown that it is essentially disordered in solution. Analysis of the PmScsC crystal structures identifies the role of intermolecular contacts, within an assembly of protein molecules, in stabilising the different linker peptide conformations. These context-dependent conformational properties may be important functionally, allowing for the binding and disulphide shuffling of a variety of protein substrates to PmScsC. They also have a relevance for our understanding of protein aggregation and misfolding showing how intermolecular quaternary interactions can lead to beta-sheet formation by a sequence that in other contexts adopts a helical structure. This 'shape-shifting' peptide region within PmScsC is reminiscent of one-to-many molecular recognition features (MoRFs) found in intrinsically disordered proteins which are able to adopt different conformations when they fold upon binding to their protein partners.",
+  "abstract_zh": "同源三聚体蛋白二硫键异构酶PmScsC的多种晶体结构揭示，连接三聚化茎部与催化结构域的肽段可采取螺旋、β-链和环状构象。该区域被称为“变形”肽。通过NMR实验和分子动力学（MD）模拟对该肽段的表征表明，其在溶液中基本处于无序状态。对PmScsC晶体结构的分析确定了蛋白质分子组装体内分子间接触在稳定不同连接肽构象中的作用。这些依赖于环境的构象特性可能在功能上具有重要意义，使得PmScsC能够结合多种蛋白质底物并进行二硫键重排。它们也对我们理解蛋白质聚集和错误折叠具有相关性，展示了分子间四级相互作用如何导致序列形成β-折叠，而在其他情境下该序列则采用螺旋结构。PmScsC中的这一“变形”肽区域类似于内在无序蛋白质中发现的一对多分子识别特征（MoRFs），这些特征在与蛋白质伴侣结合折叠时能够采用不同构象。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33926076/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33926076/",
+  "paper_page_path": "papers/pubmed/33926076/index.html"
+}

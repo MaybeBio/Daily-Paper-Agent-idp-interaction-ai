@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "42401530",
+    "doi": "10.1016/j.tibs.2026.06.005",
+    "title": "Drugging the proteome via large-scale chemoproteomics."
+  },
+  "content": {
+    "abstract": "Genomic and proteomic initiatives have accelerated therapeutic target identification, yet many proteins remain difficult to drug, especially those lacking structural information, including those with intrinsically disordered regions. However, the conformational states of these proteins are shaped in living cells by chemical modifications, protein-protein interactions, oligomerization, and aggregation, offering new ligandable opportunities. In this article, we first discuss current approaches toward drugging the 'undruggable' proteins, in particular the advantages and limitations of structure-based drug design. We then describe the advantages of cellular protein-based strategies in identifying ligands for proteins that are hard to target, highlighting large-scale chemoproteomics approaches for drugging the proteome.",
+    "keywords": [
+      "artificial intelligence (AI)",
+      "chemoproteomics",
+      "intrinsically disordered regions (IDRs)",
+      "protein assemblies",
+      "structure-based drug design (SBDD)",
+      "'undruggable' proteins"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yushu",
+        "Wang, Jiaqi",
+        "Wang, Tiantian",
+        "Ke, Xisong",
+        "Qu, Yi"
+      ],
+      "short_names": [
+        "Li Y",
+        "Wang J",
+        "Wang T",
+        "Ke X",
+        "Qu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, P.R. China.",
+        "Center for Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, P.R. China.",
+        "Center for Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, P.R. China.",
+        "Center for Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, P.R. China; State Key Laboratory of Integration and Innovation of Classical Formula and Modern Chinese Medicine, Shanghai 201203, P.R. China. Electronic address: xisongke@shutcm.edu.cn.",
+        "Center for Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, P.R. China; State Key Laboratory of Integration and Innovation of Classical Formula and Modern Chinese Medicine, Shanghai 201203, P.R. China. Electronic address: yiqu@shutcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yushu",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiaqi",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tiantian",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Ke, Xisong",
+        "short_name": "Ke X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, P.R. China; State Key Laboratory of Integration and Innovation of Classical Formula and Modern Chinese Medicine, Shanghai 201203, P.R. China. Electronic address: xisongke@shutcm.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Qu, Yi",
+        "short_name": "Qu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, P.R. China; State Key Laboratory of Integration and Innovation of Classical Formula and Modern Chinese Medicine, Shanghai 201203, P.R. China. Electronic address: yiqu@shutcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Trends in biochemical sciences"
+    ],
+    "journal_abbrev": [
+      "Trends Biochem Sci"
+    ],
+    "pub_date": "2026 Jul 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/05 00:37",
+    "fetched_at": "2026-09-18 04:37:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42401530",
+      "42317555",
+      "23912807",
+      "33733731",
+      "36841635",
+      "40423592",
+      "40515985",
+      "28002650",
+      "33567297",
+      "39772527",
+      "35196007",
+      "26201486",
+      "37496997",
+      "38987470",
+      "26922996",
+      "38297118",
+      "37634152",
+      "31900363",
+      "42306853",
+      "18831774",
+      "40665815",
+      "30471705",
+      "34728376",
+      "40398752",
+      "38297184",
+      "38458740",
+      "39433443",
+      "33267376",
+      "41022992",
+      "32503351",
+      "26376097",
+      "41360220",
+      "24532081",
+      "25752799",
+      "19067583",
+      "34426091",
+      "42310771",
+      "36008992",
+      "40530859",
+      "36908253",
+      "27309814",
+      "35098694",
+      "36969402",
+      "32045581",
+      "35139468",
+      "36633073",
+      "41178343",
+      "38194282",
+      "28643779",
+      "40568634",
+      "17391016",
+      "35791387",
+      "24027208",
+      "40325419",
+      "39828029",
+      "38604802",
+      "41276815",
+      "34418423",
+      "36430530",
+      "41450654",
+      "40954985",
+      "41255992",
+      "40964370",
+      "28612216",
+      "36454645",
+      "31709918",
+      "32824743",
+      "40106150",
+      "39071267",
+      "38079339",
+      "42081963",
+      "40455106",
+      "27179590",
+      "23328411",
+      "34656333",
+      "34390736",
+      "40645561",
+      "34332092",
+      "41706900",
+      "34527192",
+      "19594884",
+      "38662832",
+      "40490488",
+      "29425497",
+      "40166291",
+      "40320551",
+      "35995906",
+      "32966806",
+      "39093570",
+      "37693436",
+      "31221609",
+      "38220424",
+      "26149687",
+      "38941236",
+      "42229348",
+      "24115198",
+      "39279844",
+      "35094056",
+      "40631955",
+      "36355565"
+    ],
+    "review": [
+      "42401530",
+      "42317555",
+      "33733731",
+      "36841635",
+      "40423592",
+      "33567297",
+      "39772527",
+      "26201486",
+      "37496997",
+      "26922996",
+      "42306853",
+      "40665815",
+      "30471705",
+      "34728376",
+      "40398752",
+      "41022992",
+      "41360220",
+      "24532081",
+      "25752799",
+      "34426091",
+      "42310771",
+      "35098694",
+      "36969402",
+      "32045581",
+      "35139468",
+      "36633073",
+      "28643779",
+      "40568634",
+      "35791387",
+      "24027208",
+      "40325419",
+      "39828029",
+      "38604802",
+      "34418423",
+      "36430530",
+      "41450654",
+      "40954985",
+      "28612216",
+      "36454645",
+      "31709918",
+      "42081963",
+      "23328411",
+      "34390736",
+      "40645561",
+      "34332092",
+      "40490488",
+      "35995906",
+      "39093570",
+      "31221609",
+      "38220424"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0968-0004(26)00181-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

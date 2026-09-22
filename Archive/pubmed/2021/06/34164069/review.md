@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table references.
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the reported computational strategy (IDPDVS) and the experimental validation of identified p53 TAD1-binding compounds. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors propose a hierarchical computational strategy (IDPDVS) for virtual screening against intrinsically disordered proteins (IDPs), combining conformational sampling, stepwise clustering, druggability evaluation, and multi-conformational docking. They apply this to p53 TAD1, identify two compounds (PKUMDL-RH-1047 and PKUMDL-RH-1050) that bind TAD1, disrupt p53-MDM2 interaction, and activate the p53 pathway in cells.
+- **Visible evidence base** MD simulation trajectories (cMD, REMD), docking results against eight selected conformations, SPR binding and competition assays, NMR chemical shift perturbation data, MTT cell viability assays, nanoBRET cellular interaction assays, Western blot, qPCR, and cell cycle analysis.
+- **Missing materials affecting confidence** Raw MD trajectory data, docking scores for all screened compounds, full SPR sensorgrams, NMR spectra assignments, detailed statistical analysis of replicates, compound purity and solubility data, and negative control compound structures and data.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable computational framework for IDP-targeted drug discovery, addressing a significant unmet need. The application to p53 TAD1 is biologically relevant, and the experimental validation is reasonably comprehensive. However, several technical concerns regarding the computational methodology, the strength of the experimental evidence, and the interpretation of cellular data need to be addressed before the central claims are fully established.
+- **Who would be interested in the results, and why** Researchers in drug discovery, chemical biology, and structural biology, particularly those focused on IDPs, p53 biology, and transcription factor targeting. The computational strategy may be of interest to method developers in virtual screening and molecular dynamics.
+- **Major strengths** The study tackles a challenging and important problem, the rational targeting of IDPs. The hierarchical strategy is logical and addresses key limitations of conventional docking. The experimental validation is multi-layered, including biophysical binding, cellular pathway activation, and selectivity controls. The use of multiple simulation methods and force fields is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of computational methodology
+  - **Claim pointer** The claim that the IDPDVS strategy is efficient and generally applicable for IDP drug discovery.
+  - **Evidence pointer** Results section "Conformation analysis of p53 TAD1 and virtual screening of binding compounds"; Materials and methods "Druggable conformation selection and virtual screening"
+  - **Concern** The selection of eight "druggable conformations" is based on criteria that are not fully justified. The threshold for CAVITY druggability score (average pKd > 6, volume > 300 Å³) appears arbitrary, and the "large cluster population" criterion is not quantitatively defined. More critically, the manuscript does not demonstrate that the selected conformations are representative of the full conformational ensemble or that they capture the relevant binding-competent states. The convergence of the cMD and REMD simulations is only assessed by secondary structure content, which is a weak metric for IDPs. The choice of clustering parameters (1.5 Å and 6 Å cutoffs) is not justified.
+  - **Why it matters** If the conformational selection is biased or incomplete, the subsequent docking results and the identified compounds may not be representative of true TAD1 binders. The general applicability of IDPDVS hinges on the robustness of this selection step.
+  - **Resolution test** Provide a quantitative comparison of the selected conformations against the full ensemble (e.g., RMSD distribution, principal component analysis). Justify the CAVITY thresholds and clustering cutoffs with reference to known IDP-ligand systems. Demonstrate that the docking results are not overly sensitive to the choice of conformations by repeating the screen with a different subset or with an ensemble docking approach.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Strength of experimental evidence for direct binding
+  - **Claim pointer** The claim that compounds 1047 and 1050 directly bind to p53 TAD1 with KD values of 13.8 ± 4.8 μM and 8.9 ± 3.7 μM, respectively.
+  - **Evidence pointer** Results section "p53 TAD1 binding and cell-growth inhibition activities of the selected compounds"; Figures 2A, 2B, 2D, 2E; Figure S4
+  - **Concern** The SPR binding data are presented as representative sensorgrams, but the fitting quality, the stoichiometry of binding, and the reproducibility across multiple experiments are not shown. The KD values are reported with standard deviations, but the number of independent experiments is not stated. The manuscript does not discuss whether the binding is specific to the TAD1 sequence or if it is driven by non-specific hydrophobic interactions, which is a common issue with small molecules and IDPs. The competition assay (Figure 2C, 2F) is qualitative and does not provide an IC50 for the inhibition of the p53-MDM2 interaction.
+  - **Why it matters** The central claim of the paper is that these compounds directly bind TAD1. If the binding is weak, non-specific, or not reproducible, the entire premise of the study is undermined.
+  - **Resolution test** Provide full SPR kinetic analysis (ka, kd) with fitting statistics, show replicate sensorgrams, and include a negative control peptide (e.g., a non-binding disordered peptide) to demonstrate specificity. Quantify the competition assay with an IC50 value and show that the compounds do not bind to MDM2 directly in the same assay.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of cellular data
+  - **Claim pointer** The claim that the compounds activate the p53 pathway in cancer cells, as evidenced by p53 accumulation, target gene upregulation, and cell cycle arrest.
+  - **Evidence pointer** Results section "p53 TAD1 binding compounds activate the p53 pathway in cells"; Figures 3A-3F
+  - **Concern** The nanoBRET assay shows a reduction in p53-MDM2 interaction, but the magnitude of the effect and the statistical significance are not clearly presented. The Western blot data (Figure 3B) show p53 accumulation and target gene upregulation for 1050, but the data for 1047 are less convincing, and the authors note that 1047 did not induce significant p21 and MDM2 accumulation. The cell cycle arrest data are presented as representative histograms, but the quantification across biological replicates is missing. The selectivity of the compounds for p53 wild-type cells is based on IC50 values that are only modestly different (e.g., 23.6 μM vs >50 μM), and the error bars are large.
+  - **Why it matters** The cellular data are used to support the therapeutic potential of the compounds. If the effects are weak, inconsistent, or not statistically robust, the claim of p53 pathway activation is not fully supported.
+  - **Resolution test** Provide quantitative data with error bars and statistical tests for all cellular assays. Show dose-response curves for the nanoBRET assay. Include Western blot quantification from multiple independent experiments. Clarify the discrepancy between 1047 and 1050 in terms of target gene induction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the strategy
+  - **Claim pointer** The claim that IDPDVS is a generally applicable strategy for IDP drug discovery.
+  - **Evidence pointer** Discussion section
+  - **Concern** The strategy is demonstrated on a single IDP target (p53 TAD1). The authors do not discuss the potential limitations of the approach for other IDPs with different sequence properties, degrees of disorder, or binding modes. The computational cost of the method (long MD simulations, multiple docking runs) is not discussed, which may limit its practical applicability.
+  - **Why it matters** The title and abstract imply a broad utility for the method. Without a discussion of its limitations and a demonstration on at least one additional IDP system, the claim of general applicability is overstated.
+  - **Resolution test** Add a discussion of the potential challenges and limitations of IDPDVS for other IDP targets. If possible, include a proof-of-concept application to a second IDP system, or at least a computational benchmark on a diverse set of IDP conformations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methodology
+  - **Affected element** Materials and methods section "MD simulations and analysis"
+  - **Evidence pointer** Materials and methods
+  - **Issue** The description of the MD simulation setup is incomplete. The number of replicates for the cMD simulations is not stated (the text mentions "Three 300 ns simulations" but it is unclear if these are independent or part of the same trajectory). The temperature and pressure coupling methods, the equilibration protocol, and the total simulation time for the cMD are not fully described.
+  - **Required correction** Provide a complete description of the simulation parameters, including the number of independent replicates, the thermostat/barostat algorithms, and the total simulation time.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Results section "p53 TAD1 binding compounds activate the p53 pathway in cells"
+  - **Issue** The figure labels for the nanoBRET assay and the cell cycle analysis are not fully defined in the figure legend. The units for the y-axis in Figure 3A are not specified.
+  - **Required correction** Add complete axis labels and figure legends, including units and statistical annotations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Compound characterization
+  - **Affected element** Results section "p53 TAD1 binding and cell-growth inhibition activities of the selected compounds"
+  - **Evidence pointer** Table S1 and S2
+  - **Issue** The purity and solubility of the test compounds are not reported. This is important for interpreting the cellular assays, as compound aggregation or precipitation could lead to false positives.
+  - **Required correction** Report compound purity (e.g., HPLC) and solubility data, or at least state that these were assessed and found to be acceptable.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** All experimental data
+  - **Evidence pointer** Figures 2 and 3
+  - **Issue** The number of independent biological replicates for each experiment is not consistently stated. Error bars are shown in some figures but not others.
+  - **Required correction** Clearly state the number of replicates (n) for each experiment and ensure that all quantitative data are presented with appropriate error bars and statistical tests.
+
+## Risk / unsupported claims
+- The claim that IDPDVS is "efficient" is not supported by any benchmarking or comparison with other methods.
+- The claim that the compounds "restore wild-type p53 function" is an overstatement; the data show partial activation of the p53 pathway, not full restoration.
+- The claim that "no strong evidence supporting the direct binding between RITA and the N-terminus of p53" is made without a comprehensive literature review and is not directly relevant to the study's findings.
+- The general applicability of IDPDVS to other IDPs is not demonstrated and remains speculative.
+- The statement that the two compounds "activate the p53 pathway" is supported by the data, but the magnitude and consistency of the effect across different assays and cell lines are not fully established.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36214227",
+  "title": "Distinct binding interactions trigger opposite conformational modulations on pathogenic and wildtype Huntingtin exon 1 proteins.",
+  "authors": "Guan, Jiaming; Song, Zhijian; Wei, Guanghong; Qiao, Qin",
+  "journal": "Physical chemistry chemical physics : PCCP",
+  "published_date": "2022-10-11",
+  "window": {
+    "start": "2022-10-10",
+    "end": "2022-10-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用增强采样分子动力学模拟揭示小分子药物Ispinesib对致病与野生型亨廷顿蛋白外显子1（无序蛋白）的差异化结合机制，阐明其选择性源于氢键锚定与疏水动态结合的差异，属于无序蛋白-配体互作机制建模，对IDP介导的PPI机制研究有直接启发。",
+  "abstract": "Abnormal elongation of the polyglutamine tract transforms exon 1 of the Huntingtin protein (Htt-exon-1) from wildtype to pathogenic form, and causes Huntington's disease. As an intrinsically disordered protein, the structural ensemble of Htt-exon-1 is highly heterogeneous and the detailed conformation of toxic species is still under debate. Ispinesib, a potential small-molecule drug, has been identified to selectively link the pathogenic Htt-exon-1 into the autophagosome to degrade, thus opening an innovative therapeutic direction. However, the molecular mechanisms behind this selectivity remain largely elusive. Herein, we carry out extensive molecular dynamics simulations with an enhanced sampling method to investigate the ispinesib inducing conformational changes of pathogenic and wildtype Htt-exon-1 and the corresponding binding mechanisms. Our simulations reveal that the ispinesib binding induces opposite conformational changes in pathogenic and wildtype Htt-exon-1, i.e., the 'entropy collapse' with significant reduction of beta-sheets versus the 'entropy expansion' with a slight increase of alpha-helices. Network analyses further reveal that there are two stable binding sites in the pathogenic Htt-exon-1, while the binding on the wildtype Htt-exon-1 is highly dynamic and non-specific. These dramatic differences originate from the underlying distinct binding interactions. More specifically, stronger hydrogen bonds serve as the specific binding anchors in pathogenic Htt-exon-1, while stronger hydrophobic interactions dominate in the dynamic binding with wildtype Htt-exon-1. Our simulations provide an atomistic mechanism for the ispinesib selective binding on the pathogenic Htt-exon-1, and further shed light on the general mechanisms of small molecule modulation on intrinsically disordered proteins.",
+  "abstract_zh": "多聚谷氨酰胺链的异常延伸将亨廷顿蛋白的外显子1（Htt-exon-1）从野生型转化为致病型，并导致亨廷顿病。作为一种固有无序蛋白，Htt-exon-1的结构集合高度异质，毒性物种的详细构象仍在争论中。Ispinesib，一种潜在的小分子药物，已被鉴定为能选择性地将致病型Htt-exon-1连接至自噬体进行降解，从而开辟了创新的治疗方向。然而，这种选择性背后的分子机制在很大程度上仍不明确。在此，我们进行了广泛的分子动力学 (molecular dynamics) 模拟，并采用增强采样方法，以研究ispinesib诱导致病型和野生型Htt-exon-1的构象变化及其相应的结合机制。我们的模拟揭示，ispinesib结合在致病型和野生型Htt-exon-1中诱导相反的构象变化，即显著减少β-折叠的“熵塌缩”与略微增加α-螺旋的“熵扩张”。网络分析进一步揭示，致病型Htt-exon-1中存在两个稳定的结合位点，而野生型Htt-exon-1上的结合则高度动态且非特异性。这些显著差异源于底层不同的结合相互作用。更具体地，较强的氢键在致病型Htt-exon-1中作为特异性结合锚点，而较强的疏水相互作用在野生型Htt-exon-1的动态结合中占主导。我们的模拟为ispinesib选择性结合致病型Htt-exon-1提供了原子级机制，并进一步阐明了小分子调控固有无序蛋白的一般机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36214227/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36214227/",
+  "paper_page_path": "papers/pubmed/36214227/index.html"
+}

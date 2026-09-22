@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "41053908",
+    "doi": "10.1186/s13059-025-03820-2",
+    "title": "SpatPPI: a geometric deep learning model for predicting protein-protein interactions involving intrinsically disordered regions."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins and regions (IDRs) lack stable 3D structures, posing challenges for interaction prediction. We present SpatPPI, a geometric deep learning model tailored for IDPPI prediction. SpatPPI leverages structural cues from folded domains to guide the dynamic adjustment of IDRs via geometric modeling, adaptive conformation refinement, and a two-stage decoding mechanism. It captures spatial variability without requiring supervised input and achieves state-of-the-art performance on benchmark datasets. Molecular dynamics simulations further validate its high adaptability to conformational changes in IDRs and strong capacity to generate distinct and structure-aware embeddings. A freely accessible server is available at http://liulab.top/SpatPPI/server .",
+    "keywords": [
+      "Conformational dynamics",
+      "Geometric deep learning",
+      "Intrinsically disordered proteins",
+      "Protein-protein interaction",
+      "Residue interaction characteristics"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Software",
+      "Protein Conformation",
+      "*Protein Interaction Mapping/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Zeyu",
+        "Zhu, Yanhao",
+        "Han, Jiyun",
+        "Liu, Juntao"
+      ],
+      "short_names": [
+        "Xu Z",
+        "Zhu Y",
+        "Han J",
+        "Liu J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Mathematics and Statistics, Shandong University, Weihai, 264209, China.",
+        "School of Mathematics and Statistics, Shandong University, Weihai, 264209, China.",
+        "School of Mathematics and Statistics, Shandong University, Weihai, 264209, China.",
+        "School of Mathematics and Statistics, Shandong University, Weihai, 264209, China. juntaosdu@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Zeyu",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Shandong University, Weihai, 264209, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Yanhao",
+        "short_name": "Zhu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Shandong University, Weihai, 264209, China."
+        ]
+      },
+      {
+        "full_name": "Han, Jiyun",
+        "short_name": "Han J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Shandong University, Weihai, 264209, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Juntao",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics and Statistics, Shandong University, Weihai, 264209, China. juntaosdu@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2025 Oct 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/07 06:29",
+    "fetched_at": "2026-09-17 20:55:31"
+  },
+  "links": {
+    "cites": [
+      "42344233",
+      "41341719"
+    ],
+    "refs": [
+      "39952928",
+      "38963838",
+      "38330793",
+      "38297118",
+      "38015872",
+      "37993136",
+      "37957331",
+      "37878721",
+      "37824738",
+      "37645312",
+      "37070217",
+      "37061423",
+      "36880207",
+      "36841846",
+      "36754681",
+      "36690744",
+      "36682013",
+      "36370105",
+      "36344848",
+      "35758793",
+      "35637310",
+      "35365655",
+      "35273146",
+      "35129612",
+      "35018418",
+      "34791371",
+      "34536380",
+      "34265844",
+      "33577689",
+      "33052851",
+      "31898477",
+      "31510705",
+      "30476243",
+      "30423091",
+      "29466338",
+      "26568635",
+      "25910212",
+      "25398609",
+      "25352545",
+      "25004990",
+      "24606139",
+      "23060610",
+      "19582228",
+      "18075579",
+      "16731699",
+      "9254694",
+      "6667333"
+    ],
+    "similar": [
+      "41053908",
+      "39093570",
+      "38275091",
+      "40403066",
+      "38297184",
+      "40133791",
+      "38747347",
+      "41378882",
+      "38297118",
+      "41454828",
+      "40360271",
+      "34418423",
+      "24027208",
+      "39446390",
+      "39952928",
+      "31441158",
+      "39522439",
+      "33567297",
+      "40133775",
+      "35609999",
+      "38987470",
+      "40254833",
+      "34390736",
+      "39163306",
+      "40138319",
+      "36987865",
+      "40221640",
+      "38781245",
+      "31804089",
+      "38892222",
+      "39576583",
+      "38739602",
+      "35098694",
+      "32034199",
+      "29763584",
+      "36908253",
+      "29076577",
+      "27819658",
+      "33248138",
+      "40728621",
+      "40650026",
+      "37657994",
+      "32824743",
+      "31756456",
+      "25387963",
+      "34825861",
+      "38942776",
+      "31207240",
+      "30002402",
+      "37646172",
+      "33779503",
+      "40133781",
+      "36959451",
+      "31889261",
+      "35562983",
+      "25871264",
+      "33076213",
+      "26562397",
+      "38053335",
+      "29791766",
+      "40042172",
+      "36272675",
+      "37878721",
+      "40944448",
+      "24589355",
+      "31999450",
+      "38018910",
+      "35102880",
+      "33122085",
+      "39555603",
+      "27807972",
+      "40441416",
+      "24532081",
+      "40828855",
+      "33167839",
+      "34680137",
+      "32696383",
+      "33810353",
+      "30840442",
+      "32112084",
+      "35469832",
+      "38701796",
+      "30135358",
+      "30855964",
+      "29735687",
+      "33806614",
+      "37905972",
+      "32696395",
+      "30866736",
+      "36008992",
+      "29990433",
+      "30878482",
+      "40244295",
+      "31136713",
+      "39246251",
+      "25502193",
+      "29550429",
+      "34358545",
+      "28381244",
+      "34509724"
+    ],
+    "review": [
+      "41053908",
+      "39093570",
+      "34418423",
+      "24027208",
+      "31441158",
+      "39522439",
+      "33567297",
+      "34390736",
+      "35098694",
+      "32034199",
+      "33248138",
+      "40650026",
+      "37657994",
+      "36959451",
+      "35102880",
+      "39555603",
+      "24532081",
+      "33167839",
+      "30840442",
+      "25502193"
+    ],
+    "pmc": [
+      "12498438"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03820-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41053908/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

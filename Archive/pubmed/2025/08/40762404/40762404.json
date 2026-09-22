@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "40762404",
+    "doi": "10.1002/prot.70030",
+    "title": "Accurate Biomolecular Structure Prediction in CASP16 With Optimized Inputs to State-Of-The-Art Predictors."
+  },
+  "content": {
+    "abstract": "Biomolecular structure prediction has reached an unprecedented level of accuracy, partly attributed to the use of advanced deep learning algorithms. We participated in the CASP16 experiments across the categories of protein domains, protein multimers, and RNA monomers, achieving official rankings of first, second, and fourth (top for server groups), respectively. We hypothesized that by leveraging state-of-the-art structure predictors such as AlphaFold2, AlphaFold3, trRosettaX2, and trRosettaRNA2, accurate structure predictions could be achieved through careful optimization of input information. For protein structure prediction, we enhanced the input sequences by removing intrinsically disordered regions, a simple yet effective approach that yielded accurate models for protein domains. However, fewer than 25% of the protein multimers were predicted with high quality. In RNA structure prediction, optimizing the secondary structure input for trRosettaRNA2 resulted in more accurate predictions than AlphaFold3. In summary, our prediction results in CASP16 indicate that protein domain structure prediction has achieved high accuracy. However, predicting protein multimers and RNA structures remains challenging, and we anticipate new advancements in these areas in the coming years.",
+    "keywords": [
+      "CASP16",
+      "RNA structure prediction",
+      "protein structure prediction",
+      "protein-protein complex"
+    ],
+    "mesh_terms": [
+      "*Computational Biology/methods",
+      "*Proteins/chemistry",
+      "*RNA/chemistry",
+      "Algorithms",
+      "Models, Molecular",
+      "Protein Conformation",
+      "*Software",
+      "Protein Domains",
+      "Deep Learning",
+      "Databases, Protein",
+      "Nucleic Acid Conformation",
+      "Protein Folding",
+      "Protein Multimerization",
+      "Protein Structure, Secondary"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Wenkai",
+        "Luo, Yuxian",
+        "Peng, Zhenling",
+        "Yang, Jianyi"
+      ],
+      "short_names": [
+        "Wang W",
+        "Luo Y",
+        "Peng Z",
+        "Yang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2912-7737"
+      ],
+      "affiliations": [
+        "MOE Frontiers Science Center for Nonlinear Expectations, State Key Laboratory of Cryptography and Digital Economy Security, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, China.",
+        "MOE Frontiers Science Center for Nonlinear Expectations, State Key Laboratory of Cryptography and Digital Economy Security, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, China.",
+        "MOE Frontiers Science Center for Nonlinear Expectations, State Key Laboratory of Cryptography and Digital Economy Security, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, China.",
+        "MOE Frontiers Science Center for Nonlinear Expectations, State Key Laboratory of Cryptography and Digital Economy Security, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Wenkai",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Frontiers Science Center for Nonlinear Expectations, State Key Laboratory of Cryptography and Digital Economy Security, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Yuxian",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Frontiers Science Center for Nonlinear Expectations, State Key Laboratory of Cryptography and Digital Economy Security, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Zhenling",
+        "short_name": "Peng Z",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Frontiers Science Center for Nonlinear Expectations, State Key Laboratory of Cryptography and Digital Economy Security, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jianyi",
+        "short_name": "Yang J",
+        "identifiers": [
+          "0000-0003-2912-7737"
+        ],
+        "affiliations": [
+          "MOE Frontiers Science Center for Nonlinear Expectations, State Key Laboratory of Cryptography and Digital Economy Security, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/05 12:34",
+    "fetched_at": "2026-09-21 22:09:01"
+  },
+  "links": {
+    "cites": [
+      "41998492",
+      "41951853",
+      "41565789",
+      "41178755",
+      "41170922"
+    ],
+    "refs": [],
+    "similar": [
+      "40762404",
+      "40452318",
+      "40820259",
+      "41170922",
+      "40851426",
+      "40488225",
+      "41014267",
+      "40751131",
+      "41313605",
+      "41165252",
+      "41147497",
+      "40847537",
+      "41249430",
+      "40161604",
+      "40778521",
+      "41088961",
+      "40810260",
+      "40905273",
+      "41178755",
+      "40585263",
+      "40502139",
+      "40641120",
+      "40195868",
+      "40661500",
+      "39125995",
+      "40501681",
+      "41478913",
+      "28845538",
+      "41201924",
+      "31365149",
+      "40874652",
+      "39795988",
+      "37565699",
+      "39868559",
+      "41454828",
+      "36801945",
+      "41081541",
+      "39936575",
+      "39576583",
+      "39746897",
+      "36112717",
+      "40325375",
+      "41380080",
+      "34240477",
+      "17688429",
+      "38986287",
+      "40655015",
+      "40890987",
+      "40961942",
+      "16187360",
+      "35536281",
+      "41017158",
+      "40279361",
+      "29071738",
+      "16351752",
+      "41166421",
+      "40332289",
+      "31114906",
+      "35034173",
+      "37485822",
+      "38167654",
+      "31344267",
+      "28913931",
+      "40188941",
+      "26677002",
+      "40715235",
+      "40121710",
+      "39317944",
+      "41045049",
+      "30985027",
+      "24854765",
+      "31942072",
+      "34074028",
+      "40950168",
+      "27383535",
+      "40696837",
+      "38398585",
+      "16187341",
+      "28056090",
+      "40233800",
+      "40661027",
+      "39576579",
+      "30075707",
+      "22747589",
+      "18847492",
+      "25534081",
+      "34599769",
+      "40750568",
+      "29071742",
+      "39862760",
+      "38079339",
+      "25910700",
+      "39858443",
+      "24564983",
+      "38979621",
+      "26205532",
+      "40326701",
+      "39840793",
+      "16187359",
+      "40322921"
+    ],
+    "review": [
+      "40762404",
+      "41088961",
+      "39125995",
+      "39936575",
+      "38986287",
+      "40332289",
+      "40121710",
+      "34074028",
+      "38398585",
+      "40233800"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/prot.70030",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

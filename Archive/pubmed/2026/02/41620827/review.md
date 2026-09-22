@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, acknowledgments) as provided by the user. No figures, tables, or supplementary materials were included.
+- **Assessment boundary** The review is limited to the claims, methods, and interpretations presented in the provided text. No external literature verification or independent data analysis was performed.
+- **Shared manuscript claim summary** The authors claim that (1) MD simulations show the C-terminal region of Dsup binds DNA via Arg/Lys interactions with backbone phosphates and nucleobases, (2) FLIM-FRET demonstrates Dsup-DNA binding in live mammalian cells, (3) Dsup expression enhances survival of HEK293T cells and yeast under H2O2-induced oxidative stress, and (4) the protective effect is mediated by the C-terminal DNA-binding region.
+- **Visible evidence base** Methods sections for MD simulations, FLIM-FRET, cell culture, stable cell line generation, CCK-8 assay, yeast culture, and yeast viability experiments. Results sections describing outcomes of these experiments. Figure references (Fig. 1–5) are cited but figures are not provided.
+- **Missing materials affecting confidence** All figures and tables are absent. No source data, statistical details beyond p-values, or supplementary information were provided. The manuscript is incomplete for a full technical assessment.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and interesting question regarding the DNA-binding properties and stress-protective function of the tardigrade protein Dsup. The combination of MD simulations and live-cell FLIM-FRET is a reasonable approach to bridge in silico and in situ evidence. However, the current text has several technical gaps that prevent full evaluation. The absence of figures is a major limitation for assessing data quality. The statistical reporting is incomplete, and some claims in the abstract and discussion are not fully supported by the described experiments. The work is potentially valuable but requires substantial revision and additional detail before the case is established.
+- **Who would be interested in the results, and why** Researchers in extremophile biology, DNA damage and repair, oxidative stress biology, and biophysics of intrinsically disordered proteins. The FLIM-FRET methodology for detecting protein-DNA interactions in live cells may also interest cell biologists and method developers. The potential application of Dsup for enhancing stress resistance in therapeutic or biotechnological contexts could attract a broader audience.
+- **Major strengths** The study addresses a clear gap in the field by visualizing Dsup-DNA interactions in live cells, which has not been previously reported. The use of multiple model systems (mammalian cells and yeast) strengthens the functional claims. The MD simulations provide mechanistic detail at atomic resolution. The inclusion of mutant controls (Dsup-ΔC and Dsup-20E) is a good experimental design to link the DNA-binding region to the protective effect.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MD simulations show Dsup protects DNA against melting, and that this is due to Arg/Lys interactions with both backbone phosphates and nucleobases.
+  - **Evidence pointer** Results section "MD simulations of Dsup-DNA interactions"; Figures 1 and 2 (not provided)
+  - **Concern** The description of the MD simulations is incomplete. The authors state that three Dsup chains were placed in a box with a 35-bp DNA, but the initial placement and orientation of the chains relative to the DNA are not described. The criteria for selecting the three conformations from TraDES are vague. The analysis of contacts is described only as "contacts within 3.5 Å between heavy atoms," but it is unclear how this was averaged over time and over the four replicates. The melting simulations at 500 K are a non-physiological condition, and the authors do not justify why this temperature was chosen or how it relates to oxidative stress protection. The claim that Dsup "slows down" melting is based on a single time point comparison (110 ns) without a quantitative analysis of melting kinetics. The statement that "Dsup has a much greater stabilizing effect" compared to KCl is not supported by a direct comparison of melting times or free energies.
+  - **Why it matters** The mechanistic claim of how Dsup protects DNA is central to the paper. If the simulation setup or analysis is flawed, the conclusion that Dsup forms a protective layer via Arg/Lys interactions is not established. The lack of quantitative metrics (e.g., melting rates, contact lifetimes) weakens the evidence.
+  - **Resolution test** Provide a detailed description of the simulation setup, including initial coordinates and equilibration protocol. Show time-dependent melting curves for DNA alone, with WT Dsup, and with the 20E mutant, with statistical analysis across replicates. Quantify the number of contacts and their persistence over time. Justify the use of 500 K and discuss its relevance to oxidative stress.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that FLIM-FRET demonstrates Dsup binding to DNA in live mammalian cells, and that the C-terminal region is the main DNA-binding region.
+  - **Evidence pointer** Results section "FLIM-FRET demonstrates Dsup binding to DNA in living mammalian cells"; Figure 3 (not provided)
+  - **Concern** The FLIM-FRET experiments are described with insufficient detail. The authors report fluorescence lifetimes (e.g., τ = 1.78 ± 0.02 ns for H2B-EGFP with SYTO 59) but do not specify how many cells were analyzed per condition, whether the measurements were repeated in independent experiments, or how the bi-exponential decay model was validated. The negative control with EGFP-NLS is appropriate, but the authors do not report the lifetime values for this control in the text. The claim that Dsup-ΔC and Dsup-20E show no significant difference in lifetime compared to non-stained cells is stated, but the actual values and statistical test results are not given. The authors do not discuss the possibility that the SYTO 59 dye might alter Dsup-DNA binding or that the EGFP tag might affect Dsup localization or function.
+  - **Why it matters** The live-cell evidence is a key novelty of the paper. Without proper statistical reporting and controls, the claim that Dsup binds DNA in live cells is not rigorously supported. The lack of detail on the mutant experiments undermines the conclusion that the C-terminal region is responsible for DNA binding.
+  - **Resolution test** Provide the number of cells analyzed, the number of independent experiments, and the statistical test used for each comparison. Report lifetime values for all conditions, including the EGFP-NLS negative control. Show representative FLIM images and decay curves. Discuss potential artifacts of SYTO 59 staining and EGFP tagging.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Dsup expression enhances cell survival in HEK293T cells and yeast under H2O2-induced oxidative stress.
+  - **Evidence pointer** Results sections "Dsup expression enhances cell survival in the presence of hydrogen peroxide" and "Effects of Tardigrade Dsup on stress resistance of yeast"; Figures 4 and 5 (not provided)
+  - **Concern** The cell survival experiments are described with insufficient detail. For the CCK-8 assay, the authors state that cells were exposed to H2O2 for 24 or 48 hours, but the concentration range tested is not fully specified. The statistical analysis is mentioned as "performed using GraphPad Prism 8" but the specific tests and results are not reported. The yeast experiments use PI staining, but the gating strategy, the number of cells counted, and the time points are not described. The authors report a significant difference at 5 hours after H2O2 addition, but do not show time-course data or dose-response curves. The claim that the protective effect is due to the C-terminal region is based on the mutant experiments, but the survival data for the mutants are not shown in the text.
+  - **Why it matters** The functional claim of protection against oxidative stress is a major conclusion. Without proper experimental detail and statistical reporting, the effect cannot be evaluated. The lack of dose-response and time-course data limits the interpretation of the protective effect.
+  - **Resolution test** Provide full dose-response curves for H2O2 at multiple time points for both cell types. Report the number of replicates, the statistical test used, and the exact p-values for each comparison. Show survival data for the mutant Dsup constructs. Describe the PI staining protocol and the number of cells analyzed.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "All reported data are presented in figures" and that "Source data for line plots will be shared upon reasonable request."
+  - **Evidence pointer** Data and code availability section
+  - **Concern** The data availability statement is insufficient for a modern scientific publication. The authors do not provide a repository link, a data DOI, or a statement about code availability for the MD simulations. The phrase "upon reasonable request" is not in line with current best practices for data sharing, especially for a study that relies heavily on computational simulations.
+  - **Why it matters** Reproducibility is a core principle of scientific publishing. Without access to the simulation input files, analysis scripts, and raw data, other researchers cannot verify or build upon the findings.
+  - **Resolution test** Deposit all simulation input files, analysis scripts, and raw data in a public repository (e.g., Zenodo, Figshare, or a dedicated MD database) and provide a persistent DOI. Include a code availability statement.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "partially attributed to Dsup" is vague. The authors should specify what proportion or in what context Dsup is responsible for the stress resistance.
+  - **Required correction** Rephrase to indicate the specific evidence or context, e.g., "Dsup has been shown to contribute to stress resistance in vitro and in heterologous systems."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The sentence "Dsup has been found in the tardigrade Ramazzottius varieornatus and is partially responsible for the tardigrade's resistive qualities" is repeated in the abstract and introduction. This redundancy should be avoided.
+  - **Required correction** Remove the duplicate statement from the introduction and focus on the specific gap the study addresses.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, MD simulations
+  - **Evidence pointer** Methods section "MD simulations"
+  - **Issue** The authors state that the Dsup sequence was from Uniprot entry P0DOW4, but they do not specify which residues correspond to the "C-terminal region" beyond the sequence given. The sequence shown is 85 residues, but the text says "residues 361–445," which is 85 residues. This is consistent, but the authors should clarify that the sequence shown is the full C-terminal region used.
+  - **Required correction** Add a sentence stating that the sequence shown corresponds to residues 361–445 of the full-length Dsup protein.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, FLIM-FRET
+  - **Evidence pointer** Results section "FLIM-FRET demonstrates Dsup binding to DNA in living mammalian cells"
+  - **Issue** The authors state that "the absence of Dsup-C or high negative charges in it might alter the localization of these Dsup mutants in the nucleus" and therefore fused EGFP-NLS. This is a reasonable control, but the authors should also confirm that the EGFP-NLS tag does not affect Dsup function in the WT context.
+  - **Required correction** Add a control experiment or a statement that the EGFP-NLS tag was also tested with WT Dsup to ensure no functional interference.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The sentence "It would be interesting to examine how Dsup impacts the progression of these key aging hallmarks" is speculative and does not add to the discussion of the results.
+  - **Required correction** Either remove this sentence or replace it with a more concrete hypothesis based on the data presented.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MD simulation detail and analysis), R1-M2 (FLIM-FRET statistical reporting and controls), R1-M3 (cell survival experimental detail and statistics). These are blocking because the central claims of the manuscript depend on these experiments.
+- **Assessment against Nature-style criteria** Originality: The study is original in its combination of MD simulations and live-cell FLIM-FRET to study Dsup-DNA interactions. The finding that Dsup protects against oxidative stress in both mammalian cells and yeast is a useful extension of prior work. Scientific importance: The results are of moderate importance. They provide mechanistic insight into Dsup function but do not fundamentally change the understanding of DNA damage protection or oxidative stress. The potential applications for stress resistance are speculative. Interdisciplinary readership: The topic is relevant to biophysics, cell biology, and extremophile biology. The methods section is written for a specialized audience, but the abstract and introduction are accessible. Technical soundness: The technical soundness cannot be fully assessed due to missing figures and incomplete methods. The MD simulation approach is reasonable but lacks detail. The FLIM-FRET and cell survival experiments are described at a level that is insufficient for replication. Readability for nonspecialists: The abstract is clear, but the results and methods sections assume significant background knowledge. The discussion is somewhat repetitive and could be more focused. Overall, the manuscript has potential but does not currently meet the standard for a high-impact journal due to technical gaps and incomplete reporting.
+
+## Risk / unsupported claims
+- The claim that Dsup "slows down" DNA melting is not quantitatively supported by the described analysis.
+- The claim that the protective effect of Dsup is "primarily through the C-terminal region binding to DNA" is not directly tested; the mutant experiments show a correlation but not causation.
+- The claim that Dsup expression "enhanced cell survival" in HEK293T cells is based on a single assay (CCK-8) without confirmation by other methods (e.g., clonogenic survival or apoptosis assays).
+- The claim that the FLIM-FRET assay is "efficient" and "should be readily extensible to other systems" is speculative and not supported by data.
+- The statement that "Dsup's protective function against oxidative stress is conserved in the two eukaryotic models tested here" is an overgeneralization, as only two cell types were tested and the mechanism may differ.

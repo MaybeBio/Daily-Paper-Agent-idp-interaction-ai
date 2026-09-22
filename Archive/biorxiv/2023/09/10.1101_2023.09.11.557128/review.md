@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a pipeline combining AlphaFold2 (AF2) and cross-linking mass spectrometry (XL-MS) to model proteins with multiple conformations. The pipeline generates an ensemble of conformers with AF2 and selects the correct conformer using two new scores, the monolink probability score (MP) and the crosslink probability score (XLP), both based on residue depth. The scores are benchmarked on decoy structures and applied to three proteins with open and closed conformations. In five of six cases, the XLP score identified the most accurate AF2 model or one within 1 Å; in the remaining case, the MP score identified the open conformation of QBP. The AF2 pTM score identified the most accurate conformation in only two of six cases.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, benchmark dataset details, decoy generation protocol, XL-MS experimental data, AF2 ensemble generation parameters, score definitions and equations, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially useful approach for integrating AF2 with XL-MS to address conformational heterogeneity in protein structure prediction. The proposed MP and XLP scores are novel in their use of residue depth, and the proof-of-concept on three proteins with open and closed conformations is a reasonable test. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the scores, the rigor of the benchmarking, or the statistical significance of the reported results. The claim that the scores "outperform previously developed scores" is not substantiated with quantitative comparisons. The evidence for the pipeline's effectiveness is promising but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists, computational biologists, and researchers working on protein conformational dynamics and integrative structural biology. The work is relevant to those using AF2 for flexible proteins and those seeking to incorporate experimental restraints such as XL-MS into model selection. The potential to use monolinks, which are often discarded, as a scoring metric may also interest mass spectrometrists and method developers.
+- **Major strengths** The combination of AF2 with XL-MS addresses a recognized limitation of AF2, namely its tendency to predict a single static conformation. The introduction of residue-depth-based scores for both crosslinks and monolinks is a creative and potentially practical contribution. The use of three well-characterized proteins with known open and closed conformations provides a clear and interpretable test case. The comparison with pTM as a baseline is appropriate and highlights the added value of experimental data.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that MP and XLP "outperform previously developed scores" based on benchmarking on a large dataset of decoy protein structures.  
+  - **Evidence pointer** Abstract only; benchmarking details not provided  
+  - **Concern** The abstract states that MP and XLP outperform previous scores, but no quantitative results, comparator methods, or statistical tests are described. Without details on the decoy dataset, the nature of the comparators, and the magnitude of improvement, this claim cannot be evaluated.  
+  - **Why it matters** The central contribution of the work is the new scoring functions. If their superiority over existing methods is not rigorously demonstrated, the value of the pipeline is substantially weakened.  
+  - **Resolution test** Provide a table or figure comparing MP and XLP against at least two established scores (e.g., XL-MS-based scores or AF2 confidence metrics) on the same decoy set, with error bars and statistical significance tests.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence strength  
+  - **Claim pointer** The authors claim that in five of six cases, the XLP score identified the most accurate model or one within 1 Å, and in the remaining case, the MP score identified the open conformation of QBP.  
+  - **Evidence pointer** Abstract only; no figures or tables  
+  - **Concern** The abstract reports success in five of six cases but does not specify which case failed for XLP, what the accuracy of the selected models was in absolute terms (e.g., RMSD values), or how "most accurate" was defined. The single success of MP for QBP is presented as a proof-of-concept, but the criteria for success and the margin of improvement over pTM are not quantified.  
+  - **Why it matters** The proof-of-concept is the primary evidence for the pipeline's utility. Without quantitative details on model accuracy, selection success, and comparison to pTM, the reader cannot assess whether the improvement is meaningful or coincidental.  
+  - **Resolution test** Provide a table listing for each of the six cases the RMSD of the best AF2 model, the RMSD of the model selected by XLP and MP, the pTM values, and the rank of the selected model within the ensemble.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The pipeline consists of ensemble generation using AF2 and conformer selection using XL-MS data, with scores based on residue depth.  
+  - **Evidence pointer** Abstract only; methods not provided  
+  - **Concern** The abstract does not describe how AF2 ensembles were generated (e.g., multiple sequence alignment depth, dropout, or other stochastic approaches), how XL-MS data were obtained or filtered, or how residue depth was calculated. These details are essential for reproducibility.  
+  - **Why it matters** Without a clear description of the pipeline steps, other groups cannot apply the method to their own systems, limiting the broader impact of the work.  
+  - **Resolution test** Include a methods section with full details on AF2 ensemble generation, XL-MS data acquisition and processing, residue depth calculation, and score formulation.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, sentence on benchmarking  
+  - **Issue** The phrase "large dataset of decoy protein structures" is vague. The number of decoys, protein types, and source of decoys are not stated.  
+  - **Required correction** Specify the number of decoys, the proteins included, and how decoys were generated.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract results  
+  - **Evidence pointer** Abstract, sentence on pTM comparison  
+  - **Issue** The comparison with pTM is mentioned only in terms of the number of cases where pTM identified the most accurate conformation (two of six). The actual pTM values and their relationship to model accuracy are not shown.  
+  - **Required correction** Provide pTM values for the selected models and the best models in each case, or state that these are shown in a figure.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "monolink probability score" and "crosslink probability score"  
+  - **Evidence pointer** Abstract, score definitions  
+  - **Issue** The terms "probability" in the score names suggest a probabilistic interpretation, but the abstract does not clarify whether these are true probabilities or heuristic scores.  
+  - **Required correction** Clarify whether the scores are calibrated probabilities or empirical scoring functions.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The claim of outperforming previous scores requires quantitative benchmarking data. The proof-of-concept results require detailed accuracy metrics and a clear definition of success. R1-M3 is not blocking but is necessary for reproducibility and should be addressed in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that MP and XLP "outperform previously developed scores" is unsupported in the abstract due to lack of quantitative comparison.
+- The claim that the pipeline successfully identified the correct conformation in five of six cases via XLP and in one case via MP is not fully assessable without RMSD values and selection criteria.
+- The statement that the results "highlight the complementarity of AF2 with experimental methods like XL-MS" is a reasonable interpretation but is not quantitatively supported in the abstract.
+- The claim that the MP score provides a "compelling proof-of-concept for the effectiveness of monolinks" is based on a single case and is therefore weak without additional supporting data.

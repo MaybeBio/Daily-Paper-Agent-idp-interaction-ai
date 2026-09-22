@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "41734846",
+    "doi": "10.1016/j.ijbiomac.2026.151040",
+    "title": "Targeting phase separation of TSWV nucleocapsid protein with novel methyl vanillate derivative A10 to inhibit biomacromolecule aggregate formation."
+  },
+  "content": {
+    "abstract": "Phase separation (PS)-driven biomolecular condensates have recently emerged as crucial elements in the life cycles of numerous phytoviruses and their interactions with host plants. While inhibiting the formation of these aggregates presents a promising plant protection strategy, research into discovering such inhibitors remains scarce. Here, we report a novel achievement in this field. Through biological screening of a series of structurally designed methyl vanillate derivatives incorporating N-Acetyl-D-glucosamines, a novel compound A10 is discovered to possess excellent antiviral potency against tomato spotted wilt virus (TSWV). Compared with the commercial control ribavirin, A10 demonstrates superior curative (56.9%), protective (50.5%), and inactivating (62.2%) activities, with its EC(50) based on inactivation effect (181.7 mug/mL) being lower than that of ribavirin (EC(50) = 748.5 mug/mL). A10 treatment significantly reduces the formation of TSWV nucleocapsid (N) protein condensates. Molecular docking, Molecular dynamics simulations, and Bio-layer interferometry analyses identify Arg94, Tyr184, and Lys192 as key residues on the N protein for A10 binding. Combining Agrobacterium-mediated infiltration assays and confocal microscopy observations allows A10 to mechanistically inhibit PS and aggregate generation of the N protein, thereby significantly suppressing viral RNP proliferation and systemic infection in host plants. This study contributes a valuable new lead compound for phytoviral management by targeting PS.",
+    "keywords": [
+      "Agrochemical",
+      "Biomolecular condensate",
+      "Phase separation"
+    ],
+    "mesh_terms": [
+      "*Tospovirus/drug effects/metabolism/chemistry",
+      "*Nucleocapsid Proteins/chemistry/metabolism",
+      "Phase Separation",
+      "*Antiviral Agents/pharmacology/chemistry",
+      "Molecular Docking Simulation",
+      "*Protein Aggregates/drug effects",
+      "Molecular Dynamics Simulation",
+      "*Biomolecular Condensates/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ge, Qiangsheng",
+        "Wang, Yanju",
+        "Wang, Ziming",
+        "Yang, Yuyuan",
+        "Yang, Tangbing",
+        "Zhao, Chunni",
+        "Hu, Deyu",
+        "Song, Runjiang"
+      ],
+      "short_names": [
+        "Ge Q",
+        "Wang Y",
+        "Wang Z",
+        "Yang Y",
+        "Yang T",
+        "Zhao C",
+        "Hu D",
+        "Song R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China.",
+        "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China.",
+        "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China.",
+        "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China.",
+        "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China.",
+        "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China.",
+        "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China. Electronic address: dyhu@gzu.edu.cn.",
+        "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China. Electronic address: songrj@gzu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ge, Qiangsheng",
+        "short_name": "Ge Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanju",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ziming",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yuyuan",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Tangbing",
+        "short_name": "Yang T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Chunni",
+        "short_name": "Zhao C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Deyu",
+        "short_name": "Hu D",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China. Electronic address: dyhu@gzu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Song, Runjiang",
+        "short_name": "Song R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Green Pesticide, Key Laboratory of Green Pesticide and Agricultural Bioengineering, Ministry of Education, Center for R&D of Fine Chemicals of Guizhou University, Guiyang, 550025, China. Electronic address: songrj@gzu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/25 00:30",
+    "fetched_at": "2026-09-18 01:08:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41734846",
+      "40016246",
+      "41493236",
+      "37052574",
+      "28904194",
+      "34623814",
+      "34516131",
+      "35905694",
+      "28768868",
+      "40481804",
+      "25540203",
+      "33081049",
+      "41053575",
+      "34737160",
+      "39740810",
+      "31413126",
+      "39402740",
+      "34807587",
+      "34896121",
+      "40573417",
+      "24032608",
+      "32640381",
+      "41188391",
+      "34037422",
+      "18722487",
+      "9705250",
+      "16963098",
+      "42234960",
+      "10688879",
+      "41145208",
+      "30634979",
+      "40483757",
+      "40915818",
+      "34834996",
+      "34437921",
+      "18973913",
+      "40500054",
+      "42145089",
+      "40371698",
+      "39286955",
+      "41346115",
+      "26080477",
+      "38718862",
+      "25666522",
+      "39201466",
+      "42105592",
+      "37704176",
+      "37965748",
+      "24025049",
+      "41524628",
+      "39350560",
+      "40938765",
+      "15542672",
+      "41818145",
+      "36854107",
+      "22020361",
+      "41933903",
+      "39436195",
+      "41084624",
+      "23722858",
+      "37776002",
+      "34905356",
+      "35576166",
+      "31879355",
+      "42043606",
+      "30453630",
+      "41363845",
+      "37842924",
+      "40954121",
+      "36626162",
+      "37943715",
+      "38407203",
+      "28549856",
+      "32357298",
+      "9874771",
+      "41264774",
+      "28105914",
+      "8128638",
+      "39639531",
+      "31536833",
+      "35163430",
+      "41575805",
+      "38896477",
+      "38242331",
+      "33808721",
+      "39476948",
+      "32120300",
+      "32828372",
+      "6532320",
+      "39937582",
+      "41831872",
+      "35532092",
+      "18944602",
+      "40733589",
+      "36866809",
+      "15737412",
+      "38376366",
+      "33800072",
+      "26542199",
+      "37271938"
+    ],
+    "review": [
+      "41734846",
+      "41346115",
+      "28549856"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(26)00966-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

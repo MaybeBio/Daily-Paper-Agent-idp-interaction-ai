@@ -1,0 +1,457 @@
+{
+  "identity": {
+    "pmid": "37386790",
+    "doi": "10.1002/advs.202207742",
+    "title": "Location and Concentration of Aromatic-Rich Segments Dictates the Percolating Inter-Molecular Network and Viscoelastic Properties of Ageing Condensates."
+  },
+  "content": {
+    "abstract": "Maturation of functional liquid-like biomolecular condensates into solid-like aggregates has been linked to the onset of several neurodegenerative disorders. Low-complexity aromatic-rich kinked segments (LARKS) contained in numerous RNA-binding proteins can promote aggregation by forming inter-protein beta-sheet fibrils that accumulate over time and ultimately drive the liquid-to-solid transition of the condensates. Here, atomistic molecular dynamics simulations are combined with sequence-dependent coarse-grained models of various resolutions to investigate the role of LARKS abundance and position within the amino acid sequence in the maturation of condensates. Remarkably, proteins with tail-located LARKS display much higher viscosity over time than those in which the LARKS are placed toward the center. Yet, at very long timescales, proteins with a single LARKS-independently of its location-can still relax and form high viscous liquid condensates. However, phase-separated condensates of proteins containing two or more LARKS become kinetically trapped due to the formation of percolated beta-sheet networks that display gel-like behavior. Furthermore, as a work case example, they demonstrate how shifting the location of the LARKS-containing low-complexity domain of FUS protein toward its center effectively precludes the accumulation of beta-sheet fibrils in FUS-RNA condensates, maintaining functional liquid-like behavior without ageing.",
+    "keywords": [
+      "computer simulations",
+      "condensate ageing",
+      "liquid-liquid phase separation",
+      "protein aggregation",
+      "beta-sheet folding"
+    ],
+    "mesh_terms": [
+      "*RNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Blazquez, Samuel",
+        "Sanchez-Burgos, Ignacio",
+        "Ramirez, Jorge",
+        "Higginbotham, Tim",
+        "Conde, Maria M",
+        "Collepardo-Guevara, Rosana",
+        "Tejedor, Andres R",
+        "Espinosa, Jorge R"
+      ],
+      "short_names": [
+        "Blazquez S",
+        "Sanchez-Burgos I",
+        "Ramirez J",
+        "Higginbotham T",
+        "Conde MM",
+        "Collepardo-Guevara R",
+        "Tejedor AR",
+        "Espinosa JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6218-3880",
+        "ORCID: 0000-0002-1160-3945",
+        "ORCID: 0000-0002-8946-3786",
+        "ORCID: 0000-0003-2822-9141",
+        "ORCID: 0000-0001-9530-2658"
+      ],
+      "affiliations": [
+        "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid, 28040, Spain.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK.",
+        "Department of Chemical Engineering, Universidad Politecnica de Madrid, Jose Gutierrez Abascal 2, Madrid, 28006, Spain.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK.",
+        "Department of Chemical Engineering, Universidad Politecnica de Madrid, Jose Gutierrez Abascal 2, Madrid, 28006, Spain.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Department of Genetics, University of Cambridge, Cambridge, CB2 3EH, UK.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK.",
+        "Department of Chemical Engineering, Universidad Politecnica de Madrid, Jose Gutierrez Abascal 2, Madrid, 28006, Spain.",
+        "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid, 28040, Spain.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Blazquez, Samuel",
+        "short_name": "Blazquez S",
+        "identifiers": [
+          "0000-0002-6218-3880"
+        ],
+        "affiliations": [
+          "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid, 28040, Spain.",
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK."
+        ]
+      },
+      {
+        "full_name": "Sanchez-Burgos, Ignacio",
+        "short_name": "Sanchez-Burgos I",
+        "identifiers": [
+          "0000-0002-1160-3945"
+        ],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK."
+        ]
+      },
+      {
+        "full_name": "Ramirez, Jorge",
+        "short_name": "Ramirez J",
+        "identifiers": [
+          "0000-0002-8946-3786"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, Universidad Politécnica de Madrid, José Gutiérrez Abascal 2, Madrid, 28006, Spain."
+        ]
+      },
+      {
+        "full_name": "Higginbotham, Tim",
+        "short_name": "Higginbotham T",
+        "identifiers": [],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK."
+        ]
+      },
+      {
+        "full_name": "Conde, Maria M",
+        "short_name": "Conde MM",
+        "identifiers": [
+          "0000-0003-2822-9141"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, Universidad Politécnica de Madrid, José Gutiérrez Abascal 2, Madrid, 28006, Spain."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+          "Department of Genetics, University of Cambridge, Cambridge, CB2 3EH, UK."
+        ]
+      },
+      {
+        "full_name": "Tejedor, Andres R",
+        "short_name": "Tejedor AR",
+        "identifiers": [],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK.",
+          "Department of Chemical Engineering, Universidad Politécnica de Madrid, José Gutiérrez Abascal 2, Madrid, 28006, Spain."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [
+          "0000-0001-9530-2658"
+        ],
+        "affiliations": [
+          "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid, 28040, Spain.",
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/30 06:42",
+    "fetched_at": "2026-09-20 23:10:48"
+  },
+  "links": {
+    "cites": [
+      "42189893",
+      "42072681",
+      "41999312",
+      "41957285",
+      "41909144",
+      "41224766",
+      "41191214",
+      "40894760",
+      "40877270",
+      "40801528",
+      "40160200",
+      "40028356",
+      "39610751",
+      "39185151",
+      "38963823",
+      "38961263",
+      "38885177",
+      "38429263",
+      "37215004",
+      "36883003"
+    ],
+    "refs": [
+      "37749234",
+      "37194953",
+      "36883003",
+      "36755024",
+      "36551199",
+      "36175408",
+      "35727989",
+      "35641495",
+      "35364104",
+      "35293386",
+      "35108264",
+      "35001622",
+      "34931046",
+      "34862761",
+      "34785657",
+      "34762868",
+      "34759379",
+      "34716273",
+      "34537246",
+      "33982369",
+      "33969989",
+      "33898525",
+      "33896178",
+      "33597515",
+      "33510441",
+      "33446423",
+      "33311513",
+      "33303613",
+      "33264400",
+      "33174726",
+      "33139563",
+      "32934220",
+      "32853565",
+      "32747754",
+      "32661370",
+      "32514159",
+      "32414928",
+      "32393642",
+      "32302571",
+      "32169484",
+      "32003979",
+      "31783713",
+      "31681941",
+      "31618757",
+      "31606941",
+      "31430179",
+      "31270472",
+      "31043593",
+      "30926670",
+      "30742796",
+      "30682370",
+      "30498217",
+      "30455313",
+      "30217894",
+      "30100264",
+      "29961577",
+      "29913160",
+      "29786080",
+      "29735687",
+      "29723523",
+      "29677515",
+      "29650702",
+      "29610493",
+      "29602697",
+      "29547565",
+      "29511089",
+      "29490200",
+      "29472250",
+      "29439243",
+      "29438978",
+      "29364893",
+      "29301985",
+      "29289458",
+      "29091028",
+      "29065286",
+      "29064502",
+      "28942918",
+      "28935776",
+      "28819146",
+      "28790177",
+      "28575670",
+      "28556382",
+      "28432364",
+      "28342303",
+      "28303942",
+      "28225081",
+      "27554449",
+      "27374333",
+      "26557057",
+      "26544936",
+      "26526393",
+      "26474065",
+      "26474062",
+      "26455390",
+      "26412307",
+      "26406374",
+      "26317470",
+      "26015579",
+      "25453086",
+      "25453085",
+      "24268778",
+      "24010479",
+      "23238392",
+      "23232809",
+      "22579281",
+      "22444279",
+      "21700347",
+      "20969366",
+      "20385029",
+      "20055378",
+      "19460965",
+      "19251628",
+      "16626213",
+      "16501222",
+      "10908649",
+      "10779324"
+    ],
+    "similar": [
+      "37386790",
+      "36175408",
+      "37194953",
+      "35293386",
+      "34862761",
+      "38347806",
+      "37549257",
+      "36883003",
+      "37155880",
+      "34762868",
+      "35727989",
+      "38546977",
+      "34537246",
+      "35709363",
+      "37066350",
+      "36993212",
+      "32661370",
+      "34785657",
+      "35646935",
+      "33307683",
+      "36222390",
+      "37720552",
+      "34648275",
+      "37231298",
+      "37252985",
+      "37065458",
+      "34784177",
+      "33672806",
+      "32936641",
+      "37782826",
+      "34767801",
+      "34487489",
+      "34129687",
+      "39070659",
+      "38915678",
+      "32474299",
+      "39134696",
+      "37205474",
+      "37503034",
+      "37952770",
+      "38175843",
+      "35108264",
+      "37179431",
+      "37408305",
+      "36350032",
+      "33300985",
+      "32632317",
+      "37749234",
+      "39398199",
+      "33510441",
+      "35481633",
+      "37770446",
+      "33515602",
+      "36191226",
+      "36503242",
+      "38999934",
+      "34304571",
+      "39071308",
+      "35881789",
+      "35320624",
+      "37468629",
+      "35001622",
+      "38172614",
+      "35364105",
+      "37837191",
+      "31805282",
+      "36369755",
+      "35943083",
+      "34573116",
+      "37013374",
+      "39225536",
+      "36227474",
+      "37735186",
+      "34391803",
+      "36028355",
+      "35298090",
+      "28924037",
+      "36524527",
+      "33607084",
+      "37267850",
+      "32426986",
+      "36758221",
+      "33650968",
+      "38971830",
+      "34772786",
+      "38429263",
+      "33982350",
+      "38363841",
+      "37019112",
+      "34163700",
+      "32482873",
+      "33558506",
+      "30948513",
+      "28942918",
+      "36689740",
+      "38621751",
+      "36595668",
+      "39386612",
+      "39319382",
+      "39386700",
+      "39331998",
+      "37586643"
+    ],
+    "review": [
+      "37386790",
+      "37720552",
+      "37065458",
+      "34767801",
+      "32474299",
+      "39134696",
+      "38175843",
+      "36350032",
+      "33300985",
+      "32632317",
+      "33510441",
+      "36503242",
+      "34573116",
+      "36028355",
+      "36524527",
+      "37267850",
+      "34772786",
+      "30948513",
+      "38621751"
+    ],
+    "pmc": [
+      "10477902"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37386790/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37386790",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

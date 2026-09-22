@@ -1,0 +1,143 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.06.531372",
+  "title": "Exploring the evolution and function of Canoe’s intrinsically disordered region in linking cell-cell junctions to the cytoskeleton during embryonic morphogenesis",
+  "doi": "10.1101/2023.03.06.531372",
+  "abstract": "One central question for cell and developmental biologists is defining how epithelial cells can change shape and move during embryonic development without tearing tissues apart. This requires robust yet dynamic connections of cells to one another, via the cell-cell adherens junction, and of junctions to the actin and myosin cytoskeleton, which generates force. The last decade revealed that these connections involve a multivalent network of proteins, rather than a simple linear pathway. We focus on Drosophila Canoe, homolog of mammalian Afadin, as a model for defining the underlying mechanisms. Canoe and Afadin are complex, multidomain proteins that share multiple domains with defined and undefined binding partners. Both also share a long carboxy-terminal intrinsically disordered region (IDR), whose function is less well defined. IDRs are found in many proteins assembled into large multiprotein complexes. We have combined bioinformatic analysis and the use of a series of canoe mutants with early stop codons to explore the evolution and function of the IDR. Our bioinformatic analysis reveals that the IDRs of Canoe and Afadin differ dramatically in sequence and sequence properties. When we looked over shorter evolutionary time scales, we identified multiple conserved motifs. Some of these are predicted by AlphaFold to be alpha-helical, and two correspond to known protein interaction sites for alpha-catenin and F-actin. We next identified the lesions in a series of eighteen canoe mutants, which have early stop codons across the entire protein coding sequence. Analysis of their phenotypes are consistent with the idea that the IDR, including its C-terminal conserved motifs, are important for protein function. These data provide the foundation for further analysis of IDR function.",
+  "authors": [
+    "Gurley NJ",
+    "Szymanski RA",
+    "Dowen RH",
+    "Butcher TA",
+    "Ishiyama N",
+    "Peifer M"
+  ],
+  "published_date": "2023-03-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.06.531372",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.06.531372.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR626590",
+    "raw_record": {
+      "id": "PPR626590",
+      "source": "PPR",
+      "doi": "10.1101/2023.03.06.531372",
+      "title": "Exploring the evolution and function of Canoe’s intrinsically disordered region in linking cell-cell junctions to the cytoskeleton during embryonic morphogenesis",
+      "authorString": "Gurley NJ, Szymanski RA, Dowen RH, Butcher TA, Ishiyama N, Peifer M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gurley NJ",
+            "lastName": "Gurley",
+            "firstName": "Noah",
+            "initials": "NJ"
+          },
+          {
+            "fullName": "Szymanski RA",
+            "lastName": "Szymanski",
+            "firstName": "Rachel",
+            "initials": "RA"
+          },
+          {
+            "fullName": "Dowen RH",
+            "lastName": "Dowen",
+            "firstName": "Robert",
+            "initials": "RH"
+          },
+          {
+            "fullName": "Butcher TA",
+            "lastName": "Butcher",
+            "firstName": "Amber",
+            "initials": "TA"
+          },
+          {
+            "fullName": "Ishiyama N",
+            "lastName": "Ishiyama",
+            "firstName": "Noboru",
+            "initials": "N"
+          },
+          {
+            "fullName": "Peifer M",
+            "lastName": "Peifer",
+            "firstName": "Mark",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1412-3987"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1412-3987"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "One central question for cell and developmental biologists is defining how epithelial cells can change shape and move during embryonic development without tearing tissues apart. This requires robust yet dynamic connections of cells to one another, via the cell-cell adherens junction, and of junctions to the actin and myosin cytoskeleton, which generates force. The last decade revealed that these connections involve a multivalent network of proteins, rather than a simple linear pathway. We focus on  Drosophila Canoe, homolog of mammalian Afadin, as a model for defining the underlying mechanisms. Canoe and Afadin are complex, multidomain proteins that share multiple domains with defined and undefined binding partners. Both also share a long carboxy-terminal intrinsically disordered region (IDR), whose function is less well defined. IDRs are found in many proteins assembled into large multiprotein complexes. We have combined bioinformatic analysis and the use of a series of  canoe mutants with early stop codons to explore the evolution and function of the IDR. Our bioinformatic analysis reveals that the IDRs of Canoe and Afadin differ dramatically in sequence and sequence properties. When we looked over shorter evolutionary time scales, we identified multiple conserved motifs. Some of these are predicted by AlphaFold to be alpha-helical, and two correspond to known protein interaction sites for alpha-catenin and F-actin. We next identified the lesions in a series of eighteen  canoe mutants, which have early stop codons across the entire protein coding sequence. Analysis of their phenotypes are consistent with the idea that the IDR, including its C-terminal conserved motifs, are important for protein function. These data provide the foundation for further analysis of IDR function.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.03.06.531372"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37535684",
+            "reference": "PloS one. 2023 ;18(8):e0289224",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-03-09",
+      "firstPublicationDate": "2023-03-07",
+      "firstIndexDate": "2023-03-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

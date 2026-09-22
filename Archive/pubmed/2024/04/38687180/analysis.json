@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38687180",
+  "title": "Quantum Defect Sensitization via Phase-Changing Supercharged Antibody Fragments.",
+  "authors": "Kim, Mijin; McCann, James J; Fortner, Jacob; Randall, Ewelina; Chen, Chen; Chen, Yu; Yaari, Zvi; Wang, YuHuang; Koder, Ronald L; Heller, Daniel A",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2024-04-30",
+  "window": {
+    "start": "2024-04-29",
+    "end": "2024-05-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用超电荷抗体片段的无序-折叠相变调控量子缺陷发光，涉及IDP构象转变与配体结合，但互作对象为纳米管而非蛋白-蛋白互作，且方法以量子化学模拟为主，对PPI机制建模启发有限。",
+  "abstract": "Quantum defects in single-walled carbon nanotubes promote exciton localization, which enables potential applications in biodevices and quantum light sources. However, the effects of local electric fields on the emissive energy states of quantum defects and how they can be controlled are unexplored. Here, we investigate quantum defect sensitization by engineering an intrinsically disordered protein to undergo a phase change at a quantum defect site. We designed a supercharged single-chain antibody fragment (scFv) to enable a full ligand-induced folding transition from an intrinsically disordered state to a compact folded state in the presence of a cytokine. The supercharged scFv was conjugated to a quantum defect to induce a substantial local electric change upon ligand binding. Employing the detection of a proinflammatory biomarker, interleukin-6, as a representative model system, supercharged scFv-coupled quantum defects exhibited robust fluorescence wavelength shifts concomitant with the protein folding transition. Quantum chemical simulations suggest that the quantum defects amplify the optical response to the localization of charges produced upon the antigen-induced folding of the proteins, which is difficult to achieve in unmodified nanotubes. These findings portend new approaches to modulate quantum defect emission for biomarker sensing and protein biophysics and to engineer proteins to modulate binding signal transduction.",
+  "abstract_zh": "单壁碳纳米管中的量子缺陷促进激子局域化，这使其在生物器件和量子光源中具有潜在应用。然而，局部电场对量子缺陷发射能态的影响及其可控方式尚未被探索。在此，我们通过工程化一种 intrinsically disordered protein（内在无序蛋白）在量子缺陷位点发生相变，研究量子缺陷的敏化作用。我们设计了一种超电荷单链抗体片段（scFv），使其在细胞因子存在下能够实现从内在无序状态到紧凑折叠状态的完全配体诱导折叠转变。超电荷scFv被共轭至量子缺陷，以在配体结合时诱导显著的局部电场变化。以检测促炎生物标志物白细胞介素-6作为代表性模型系统，超电荷scFv偶联的量子缺陷在蛋白质折叠转变过程中表现出稳健的荧光波长位移。量子化学模拟表明，量子缺陷放大了对抗原诱导蛋白质折叠所产生的电荷局域化的光学响应，这在未修饰的纳米管中难以实现。这些发现预示着调节量子缺陷发射用于生物标志物传感和蛋白质生物物理学的新方法，以及工程化蛋白质以调节结合信号转导的新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38687180/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38687180/",
+  "paper_page_path": "papers/pubmed/38687180/index.html"
+}

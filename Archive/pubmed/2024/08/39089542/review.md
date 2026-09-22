@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the N-terminal region of TFIP11 is a polyampholytic intrinsically disordered protein, exhibiting structural duality with coexisting ordered and disordered assemblies, and that increasing salt concentration enhances conformational flexibility, promotes a more globule-like shape, and produces a fuzzier unstructured arrangement that may favor liquid-liquid phase separation and protein-RNA interactions. The most charged and hydrophilic regions, including the G-Patch domain, are most impacted.
+- **Visible evidence base** Abstract text only; methods mentioned include disorder prediction, molecular dynamics, and spectroscopy
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation parameters, statistical analyses, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting biophysical characterization of an understudied splicing factor. However, the evidence base available for review is limited to the abstract, which prevents verification of the central claims regarding structural duality, salt-dependent conformational changes, and functional implications. The claims are internally consistent but cannot be evaluated for technical soundness without the underlying data.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, splicing regulation, liquid-liquid phase separation, and the molecular basis of spliceosome assembly. The work may also interest biophysicists using integrative approaches combining prediction, simulation, and spectroscopy.
+- **Major strengths** The study addresses a genuine gap in structural knowledge of TFIP11, a functionally important splicing regulator. The combination of computational prediction, molecular dynamics, and spectroscopy is appropriate for characterizing intrinsically disordered proteins. The focus on salt-dependent behavior and its potential link to phase separation is timely and mechanistically relevant.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims "first evidence TFIP11 N-TER is a polyampholytic IDP, exhibiting a structural duality with the coexistence of ordered and disordered assemblies, depending on the ionic strength."
+  - **Evidence pointer** Abstract only; specific figures and tables not provided
+  - **Concern** The central claim of structural duality is presented as established, but the abstract does not provide quantitative data, representative spectra, simulation trajectories, or statistical comparisons that would substantiate this interpretation. The coexistence of ordered and disordered assemblies is a strong claim that requires direct experimental evidence, such as circular dichroism spectra, nuclear magnetic resonance chemical shift deviations, or small-angle X-ray scattering profiles, none of which are visible in the abstract.
+  - **Why it matters** If the structural duality claim is not robustly supported, the entire conceptual framework of the paper, including the salt-dependent model and the implications for phase separation, is weakened. Overinterpretation of IDP behavior is a common pitfall, and the reviewers and readers need to see the raw evidence to judge whether the "duality" is real or an artifact of the methods used.
+  - **Resolution test** Provide representative experimental data (e.g., far-UV circular dichroism spectra at multiple salt concentrations, nuclear magnetic resonance or small-angle X-ray scattering profiles) with quantitative fitting and error analysis, and clearly show how these data support the coexistence of ordered and disordered populations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional inference
+  - **Claim pointer** The abstract states that the salt-dependent conformational changes "could favour LLPS and protein-RNA interaction" and that the G-Patch domain is "essential to TFIP11 function."
+  - **Evidence pointer** Abstract only; no functional assays or interaction data provided
+  - **Concern** The abstract extrapolates from conformational observations to functional consequences (phase separation and protein-RNA interaction) without presenting any direct experimental evidence for these functions. The G-Patch domain is described as "essential," but no mutagenesis, binding, or activity data are shown. The link between salt-dependent conformational changes and biological function is speculative at this stage.
+  - **Why it matters** The stated biological relevance of the study rests on these functional inferences. Without direct evidence, the claims risk being perceived as overreach, which could undermine the credibility of the work for a broad readership. The authors should either provide functional data or temper the language to clearly distinguish hypothesis from observation.
+  - **Resolution test** Include experimental data on phase separation (e.g., turbidity or droplet formation assays) and RNA binding (e.g., electrophoretic mobility shift or fluorescence anisotropy) at different salt concentrations, or revise the abstract to explicitly frame these as hypotheses requiring future testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "combining disorder prediction, molecular dynamics, and spectroscopy methods" was used to reach the conclusions.
+  - **Evidence pointer** Abstract only; no methodological details provided
+  - **Concern** The abstract does not specify which disorder prediction algorithms were used, the force field and simulation length for molecular dynamics, or the specific spectroscopic techniques and conditions. This lack of detail prevents assessment of whether the methods are appropriate and whether the conclusions are robust to methodological choices.
+  - **Why it matters** For IDP studies, results can be highly sensitive to force field selection, simulation time scales, and buffer conditions. Without this information, the technical soundness of the work cannot be evaluated, and reproducibility is compromised.
+  - **Resolution test** Provide a detailed methods summary in the abstract or ensure the full manuscript includes complete methodological parameters, including software versions, force fields, simulation durations, and spectroscopic acquisition parameters.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology "fuzzier unstructured arrangement"
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "fuzzier unstructured arrangement" is vague and not a standard biophysical descriptor. It is unclear what quantitative measure this refers to.
+  - **Required correction** Replace with a specific observable, such as increased ensemble heterogeneity, reduced secondary structure content, or broader conformational sampling, and cite the corresponding data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Statement "the most charged and hydrophilic regions are the most impacted"
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not define how "impacted" is measured or which regions are compared. This statement is too general to be meaningful without specific residue-level or domain-level data.
+  - **Required correction** Specify the metric used (e.g., changes in secondary structure propensity, solvent accessibility, or conformational flexibility) and identify the exact regions or residues affected.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison with prior TFIP11 studies
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not contextualize the findings with respect to any prior structural or functional studies of TFIP11, making it difficult to assess the novelty beyond the claim of "first evidence."
+  - **Required correction** Add a brief sentence in the abstract or introduction that explicitly states what was previously known about TFIP11 structure and how this work advances that knowledge.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central structural claim and the functional implications cannot be verified from the abstract alone. R1-M3 is non-blocking but important for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The focus on TFIP11 N-terminal disorder and salt-dependent behavior is a novel contribution to a poorly characterized protein, but the conceptual approach is not unprecedented in the IDP field.
+  - Scientific importance: The potential link to splicing regulation and phase separation is significant, but the importance is not fully established without functional data.
+  - Interdisciplinary readership: The topic bridges structural biology, biophysics, and RNA biology, which could attract a broad audience, but the abstract is written in a specialized manner that may limit accessibility.
+  - Technical soundness: Cannot be assessed from the abstract; the methods are mentioned but not described in sufficient detail.
+  - Readability for nonspecialists: The abstract uses field-specific jargon (e.g., "polyampholytic," "fuzzier") without adequate explanation, which may hinder comprehension for readers outside the IDP community.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible approach, but the central claims require access to the full data. If the full manuscript provides robust experimental and simulation evidence for structural duality and salt-dependent behavior, and if the functional implications are either supported or appropriately framed as hypotheses, the work could be considered for publication in a specialized biophysics or biochemistry journal. The current abstract alone does not provide sufficient evidence to support the strong claims made.
+
+## Risk / unsupported claims
+- The claim of "first evidence" for TFIP11 N-terminal being a polyampholytic IDP is unverifiable from the abstract alone and requires a thorough literature comparison.
+- The coexistence of ordered and disordered assemblies is asserted without visible quantitative data.
+- The statement that salt-dependent changes "could favour LLPS and protein-RNA interaction" is speculative and not supported by direct functional evidence in the abstract.
+- The designation of the G-Patch domain as "essential" is presented without supporting mutagenesis or functional data.
+- The phrase "fuzzier unstructured arrangement" is not defined operationally and cannot be evaluated.

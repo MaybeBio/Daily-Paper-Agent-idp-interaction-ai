@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42182307",
+  "title": "Membrane Phase, Charge, and Curvature Regulate alpha-Synuclein Binding Dynamics.",
+  "authors": "Kou, Orianna H; Sakurai, Cailyn M; Ramirez, Stephanie Y; Kim, Brian H; Johnson, David H; Zhang, Zixin; Lee, Christopher T; Zeno, Wade F",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-05-25",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合实验与粗粒化MD模拟，系统探究膜相态、电荷和曲率对无序蛋白α-突触核蛋白膜结合动力学与曲率敏感性的协同调控，虽对象为IDP-膜互作而非PPI，但其无序蛋白-界面结合机制建模思路对IDR介导互作研究有迁移启发。",
+  "abstract": "alpha-Synuclein (alphaSyn) is an intrinsically disordered protein whose interactions with lipid membranes are central to both its physiological function and its role in synucleopathies. While membrane charge, phase, and curvature are each known to influence alphaSyn binding, these properties are typically examined independently, leaving their combined effects on both equilibrium and dynamic membrane association unresolved. Here, we systematically investigate how membrane phase and charge jointly regulate alphaSyn binding, curvature sensitivity, and exchange dynamics using fluorescence microscopy, circular dichroism spectroscopy, and fluorescence recovery after photobleaching (FRAP), complemented by coarse-grained molecular dynamics simulations. Under zwitterionic conditions, alphaSyn preferentially binds highly curved gel-phase membranes, driven by curvature-dependent enrichment of packing defects arising from faceted vesicle morphologies. Incorporation of anionic lipids selectively enhances binding in liquid-phase membranes while attenuating curvature-dependent partitioning in gel-phase membranes. Dynamic measurements reveal that membrane phase and charge also govern the stability of membrane-associated alphaSyn, with gel-phase membranes and anionic lipids promoting kinetically stabilized states. Simulations show that curvature-induced defect formation is strongly amplified in gel-phase membranes but largely insensitive to charge. These findings establish that alphaSyn-membrane interactions are governed by a cooperative interplay between membrane phase, curvature, and charge and highlight the importance of resolving both thermodynamic and kinetic contributions to protein-membrane binding.",
+  "abstract_zh": "α-突触核蛋白（alpha-Synuclein, alphaSyn）是一种 intrinsically disordered protein（固有无序蛋白），其与脂质膜的相互作用对其生理功能和突触核蛋白病（synucleopathies）中的作用均至关重要。尽管膜电荷、相态和曲率各自已知会影响alphaSyn结合，但这些特性通常被独立研究，导致它们对平衡态和动态膜关联的联合效应尚未明确。在此，我们利用荧光显微镜、圆二色光谱和荧光恢复后光漂白（FRAP）技术，并结合粗粒化分子动力学模拟，系统研究了膜相态和电荷如何共同调控alphaSyn结合、曲率敏感性和交换动力学。在 zwitterionic（两性离子）条件下，alphaSyn优先结合高曲率的凝胶相膜，这由曲率依赖性堆积缺陷富集驱动，而这些缺陷源于多面体囊泡形态。阴离子脂质的掺入选择性增强液相膜中的结合，同时减弱凝胶相膜中曲率依赖性分配。动态测量揭示，膜相态和电荷也调控膜关联alphaSyn的稳定性，其中凝胶相膜和阴离子脂质促进动力学稳定状态。模拟表明，曲率诱导的缺陷形成在凝胶相膜中显著增强，但对电荷基本不敏感。这些发现确立了alphaSyn-膜相互作用受膜相态、曲率和电荷之间的协同作用调控，并强调了解析蛋白-膜结合中热力学和动力学贡献的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42182307/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42182307/",
+  "paper_page_path": "papers/pubmed/42182307/index.html"
+}

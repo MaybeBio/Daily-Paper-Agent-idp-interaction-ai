@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "41673459",
+    "doi": "10.1038/s42004-026-01933-8",
+    "title": "Scaffold-client behavior and structural organization in multicomponent protein condensates as revealed by studying tau/TDP-43 droplets."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is known to modulate pathological aggregation of proteins implicated in neurodegenerative diseases, such as tau and TDP-43. While LLPS mechanisms of individual proteins are well characterized, much less is known about phase behavior of multicomponent protein systems. Here, we investigated the LLPS behavior of mixtures of tau and TDP-43 low complexity domain (LCD), two proteins known to co-aggregate in Alzheimer's disease. We found that, depending on the concentration, each protein can function either as a scaffold (driving condensate formation) or as a client (passively recruited into condensates formed by the other). Notably, scaffold-client roles can be modulated by selectively inhibiting the interactions driving LLPS: electrostatic for tau, and hydrophobic for TDP-43 LCD. A striking feature of this system is the formation of a tau \"halo\" around TDP-43 LCD droplets, which coarse-grained simulations reveal to arise from tau's amphiphilic organization at condensate interfaces. Together, these findings provide molecular-level insights into the general principles governing the assembly and organization of multicomponent protein condensates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Monnaka, Vitor Ulisses",
+        "Shipley, Brandon",
+        "Boyko, Solomiia",
+        "de Carvalho Aguiar, Patricia Maria",
+        "Hinczewski, Michael",
+        "Surewicz, Witold K"
+      ],
+      "short_names": [
+        "Monnaka VU",
+        "Shipley B",
+        "Boyko S",
+        "de Carvalho Aguiar PM",
+        "Hinczewski M",
+        "Surewicz WK"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7313-0437",
+        "ORCID: 0000-0003-2957-9573",
+        "ORCID: 0000-0003-2837-7697",
+        "ORCID: 0000-0001-7940-6027"
+      ],
+      "affiliations": [
+        "Faculdade Israelita de Ciencias da Saude Albert Einstein, Hospital Israelita Albert Einstein, Sao Paulo, Brazil.",
+        "Department of Physiology and Biophysics, Case Western Reserve University, Cleveland, OH, USA.",
+        "Department of Physics, Case Western Reserve University, Cleveland, OH, USA.",
+        "Department of Physiology and Biophysics, Case Western Reserve University, Cleveland, OH, USA.",
+        "Faculdade Israelita de Ciencias da Saude Albert Einstein, Hospital Israelita Albert Einstein, Sao Paulo, Brazil.",
+        "Department of Physics, Case Western Reserve University, Cleveland, OH, USA. mxh605@case.edu.",
+        "Department of Physiology and Biophysics, Case Western Reserve University, Cleveland, OH, USA. wks3@case.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Monnaka, Vitor Ulisses",
+        "short_name": "Monnaka VU",
+        "identifiers": [
+          "0000-0001-7313-0437"
+        ],
+        "affiliations": [
+          "Faculdade Israelita de Ciências da Saúde Albert Einstein, Hospital Israelita Albert Einstein, São Paulo, Brazil.",
+          "Department of Physiology and Biophysics, Case Western Reserve University, Cleveland, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Shipley, Brandon",
+        "short_name": "Shipley B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Case Western Reserve University, Cleveland, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Boyko, Solomiia",
+        "short_name": "Boyko S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Case Western Reserve University, Cleveland, OH, USA."
+        ]
+      },
+      {
+        "full_name": "de Carvalho Aguiar, Patricia Maria",
+        "short_name": "de Carvalho Aguiar PM",
+        "identifiers": [
+          "0000-0003-2957-9573"
+        ],
+        "affiliations": [
+          "Faculdade Israelita de Ciências da Saúde Albert Einstein, Hospital Israelita Albert Einstein, São Paulo, Brazil."
+        ]
+      },
+      {
+        "full_name": "Hinczewski, Michael",
+        "short_name": "Hinczewski M",
+        "identifiers": [
+          "0000-0003-2837-7697"
+        ],
+        "affiliations": [
+          "Department of Physics, Case Western Reserve University, Cleveland, OH, USA. mxh605@case.edu."
+        ]
+      },
+      {
+        "full_name": "Surewicz, Witold K",
+        "short_name": "Surewicz WK",
+        "identifiers": [
+          "0000-0001-7940-6027"
+        ],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Case Western Reserve University, Cleveland, OH, USA. wks3@case.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications chemistry"
+    ],
+    "journal_abbrev": [
+      "Commun Chem"
+    ],
+    "pub_date": "2026 Feb 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/12 00:47",
+    "fetched_at": "2026-09-18 00:46:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40028356",
+      "39302099",
+      "38178578",
+      "37973891",
+      "37717144",
+      "37645312",
+      "37075845",
+      "36115352",
+      "36071192",
+      "35795820",
+      "35773489",
+      "35181198",
+      "35112738",
+      "33934416",
+      "33814344",
+      "33672806",
+      "33571491",
+      "33453922",
+      "33335017",
+      "33262278",
+      "33049211",
+      "33017094",
+      "32873929",
+      "32482873",
+      "32326697",
+      "32214243",
+      "32169484",
+      "32132204",
+      "31958956",
+      "31097543",
+      "30814253",
+      "30682370",
+      "30362243",
+      "30217894",
+      "30100264",
+      "29602697",
+      "29511089",
+      "29364893",
+      "28935776",
+      "28537592",
+      "28281308",
+      "28225081",
+      "27838525",
+      "27602576",
+      "27545621",
+      "27392146",
+      "27374333",
+      "27289443",
+      "27212236",
+      "26727894",
+      "26526393",
+      "26406374",
+      "26317470",
+      "26017223",
+      "24606139",
+      "24120937",
+      "19460965",
+      "18576630",
+      "17963732",
+      "16489609",
+      "12032079",
+      "1420991"
+    ],
+    "similar": [
+      "41673459",
+      "39342654",
+      "39302099",
+      "41001641",
+      "38585945",
+      "40149872",
+      "33672806",
+      "36993212",
+      "30814253",
+      "37006777",
+      "35644946",
+      "32482873",
+      "41169547",
+      "36310222",
+      "36499553",
+      "37230179",
+      "42283756",
+      "42442913",
+      "36471564",
+      "41854301",
+      "37075845",
+      "36841957",
+      "39421885",
+      "35381286",
+      "35320624",
+      "40098319",
+      "37205474",
+      "37574035",
+      "31097543",
+      "39370876",
+      "29511089",
+      "33955104",
+      "35980344",
+      "41535729",
+      "42418847",
+      "38997630",
+      "41785961",
+      "36688583",
+      "38960272",
+      "37293933",
+      "33307683",
+      "41824494",
+      "41206815",
+      "38160320",
+      "33917983",
+      "40616404",
+      "34575888",
+      "36621842",
+      "39612640",
+      "41587927",
+      "29555476",
+      "39804953",
+      "35181198",
+      "31324714",
+      "41807382",
+      "42575917",
+      "34374536",
+      "34102212",
+      "42103118",
+      "38512667",
+      "32096047",
+      "41457474",
+      "33017094",
+      "38029395",
+      "41727138",
+      "41547174",
+      "38526948",
+      "40439464",
+      "40074668",
+      "29734651",
+      "41363845",
+      "33139563",
+      "33279579",
+      "40915256",
+      "39148776",
+      "42068244",
+      "40149942",
+      "36310207",
+      "30950394",
+      "38178578",
+      "36595668",
+      "36939323",
+      "42438122",
+      "42383738",
+      "40583215",
+      "35293386",
+      "42126444",
+      "40954121",
+      "35016968",
+      "40661423",
+      "37684240",
+      "33262278",
+      "41871974",
+      "41614607",
+      "40865571",
+      "40585370",
+      "29472250",
+      "32881044",
+      "39044475",
+      "40708482"
+    ],
+    "review": [
+      "41673459",
+      "37230179",
+      "42442913",
+      "35980344",
+      "42418847",
+      "41206815",
+      "40616404",
+      "39612640",
+      "41587927",
+      "35181198",
+      "32096047",
+      "38029395",
+      "41547174",
+      "40865571"
+    ],
+    "pmc": [
+      "13003091"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42004-026-01933-8",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41673459/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "42039469",
+    "doi": "10.64898/2026.04.14.718529",
+    "title": "FlyPredictome: A structural atlas of predicted protein-protein interactions in Drosophila."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions (PPIs) are fundamental to cellular function. Yet most Drosophila PPIs remain structurally uncharacterized despite the wealth of genetic and biochemical data available for this organism. Here we present FlyPredictome, a structural interactome based on 1.5 million pairwise AlphaFold-Multimer predictions. Using a local confidence metric that performs robustly for interactions involving flexible and disordered proteins, we systematically assess experimentally reported Drosophila PPIs and predict direct binding interfaces at residue-level resolution. Testing their functional relevance, we find that phenotype-associated missense mutations are enriched at predicted interaction interfaces. Building on these validated predictions, we construct an evidence-supported PPI network, revealing modular organization from signaling pathways to individual protein complexes. FlyPredictome is available as an open database, providing a structural foundation for interaction discovery in Drosophila.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Ah-Ram",
+        "Comjean, Aram",
+        "Veal, Austin",
+        "Rodiger, Jonathan",
+        "Han, Myeonghoon",
+        "Hu, Yanhui",
+        "Perrimon, Norbert"
+      ],
+      "short_names": [
+        "Kim AR",
+        "Comjean A",
+        "Veal A",
+        "Rodiger J",
+        "Han M",
+        "Hu Y",
+        "Perrimon N"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9597-6759",
+        "ORCID: 0000-0003-4125-0703",
+        "ORCID: 0000-0002-1540-5030",
+        "ORCID: 0009-0004-1952-8056",
+        "ORCID: 0000-0003-1494-1402",
+        "ORCID: 0000-0001-7542-472X"
+      ],
+      "affiliations": [
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+        "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+        "Howard Hughes Medical Institute, Harvard Medical School, Boston, MA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Ah-Ram",
+        "short_name": "Kim AR",
+        "identifiers": [
+          "0000-0001-9597-6759"
+        ],
+        "affiliations": [
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Comjean, Aram",
+        "short_name": "Comjean A",
+        "identifiers": [
+          "0000-0003-4125-0703"
+        ],
+        "affiliations": [
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Veal, Austin",
+        "short_name": "Veal A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Rodiger, Jonathan",
+        "short_name": "Rodiger J",
+        "identifiers": [
+          "0000-0002-1540-5030"
+        ],
+        "affiliations": [
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Han, Myeonghoon",
+        "short_name": "Han M",
+        "identifiers": [
+          "0009-0004-1952-8056"
+        ],
+        "affiliations": [
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Yanhui",
+        "short_name": "Hu Y",
+        "identifiers": [
+          "0000-0003-1494-1402"
+        ],
+        "affiliations": [
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Perrimon, Norbert",
+        "short_name": "Perrimon N",
+        "identifiers": [
+          "0000-0001-7542-472X"
+        ],
+        "affiliations": [
+          "Department of Genetics, Blavatnik Institute, Harvard Medical School, Boston, MA, USA.",
+          "Howard Hughes Medical Institute, Harvard Medical School, Boston, MA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 May 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/27 12:34",
+    "fetched_at": "2026-09-18 02:54:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41570036",
+      "40259744",
+      "40080667",
+      "40015271",
+      "39223191",
+      "38944040",
+      "38301657",
+      "38230566",
+      "37962385",
+      "37405868",
+      "37061542",
+      "36690744",
+      "35637307",
+      "35273146",
+      "34762488",
+      "34282049",
+      "34265844",
+      "33956157",
+      "33070389",
+      "32881101",
+      "30914743",
+      "29155944",
+      "27881472",
+      "25531225",
+      "24773235",
+      "24530508",
+      "23732470",
+      "22855721",
+      "22036573",
+      "21880147",
+      "19858363",
+      "19060903",
+      "18719252",
+      "16714294",
+      "16710298",
+      "15630418",
+      "12389031",
+      "12072470",
+      "12045153",
+      "11972155",
+      "11702069",
+      "10688916",
+      "9716412",
+      "9674432",
+      "9334334",
+      "5420325"
+    ],
+    "similar": [
+      "42039469",
+      "42248543",
+      "40568179",
+      "41570036",
+      "42243177",
+      "36261849",
+      "40894573",
+      "29745830",
+      "22369691",
+      "41296720",
+      "38844045",
+      "29560828",
+      "27043210",
+      "18215330",
+      "37162909",
+      "41512952",
+      "40015271",
+      "24015873",
+      "40687997",
+      "14960460",
+      "23912807",
+      "42475469",
+      "36453556",
+      "22587966",
+      "25602759",
+      "41935050",
+      "40954205",
+      "37061542",
+      "38076945",
+      "42539006",
+      "25350354",
+      "36933822",
+      "40661495",
+      "41292827",
+      "27744178",
+      "38225382",
+      "39446390",
+      "38851299",
+      "41882029",
+      "22230699",
+      "25707505",
+      "38645019",
+      "25402006",
+      "41155451",
+      "25241761",
+      "38314883",
+      "36909476",
+      "24564941",
+      "28298180",
+      "36815589",
+      "33001599",
+      "17567909",
+      "41296544",
+      "26799490",
+      "19673500",
+      "40119464",
+      "30441473",
+      "40691152",
+      "23282181",
+      "39448882",
+      "40777349",
+      "29446725",
+      "26555698",
+      "37398436",
+      "42222300",
+      "24708540",
+      "39150724",
+      "42467519",
+      "37633550",
+      "42359198",
+      "28376709",
+      "28729757",
+      "21992011",
+      "41941631",
+      "28150242",
+      "41319238",
+      "24913703",
+      "22252508",
+      "36232803",
+      "28002650",
+      "40661470",
+      "42129940",
+      "19594875",
+      "37964489",
+      "37350526",
+      "26415726",
+      "35850298",
+      "28118365",
+      "35567424",
+      "41559231",
+      "18840285",
+      "21605386",
+      "41279736",
+      "41407521",
+      "41983709",
+      "40023148",
+      "33916178",
+      "20043823",
+      "36576775",
+      "38467836"
+    ],
+    "review": [
+      "42039469",
+      "40687997",
+      "29446725",
+      "39150724"
+    ],
+    "pmc": [
+      "13104844"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42039469/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.04.14.718529",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

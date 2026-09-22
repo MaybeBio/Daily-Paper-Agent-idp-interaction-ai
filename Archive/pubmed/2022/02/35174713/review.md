@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, conclusions, and methods sections. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions relative to presented evidence, and clarity of presentation. No assessment of formatting or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors compare two enhanced sampling methods (bias-exchange metadynamics and parallel-tempering well-tempered metadynamics) combined with two force fields (CHARMM36m and CHARMM22*) to characterize the conformational ensemble of a 46-residue intrinsically disordered peptide (DHH1N). They report largely congruent conformational landscapes across method/force-field combinations, with minor differences in fine details, and identify features explaining the peptide's low self-association propensity.
+- **Visible evidence base** Main text figures (Figures 1–6), tables (Table 1), and methods descriptions. Supplementary figures and tables referenced but not available for review.
+- **Missing materials affecting confidence** Supplementary Notes 1–10, Supplementary Figures S1–S14, Supplementary Tables, PLUMED input files, and convergence/error analysis details. These are essential for verifying statistical robustness, convergence criteria, and reproducibility.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant methodological question in the simulation of intrinsically disordered proteins, namely the consistency of results obtained from different enhanced sampling methods and force fields. The study design is reasonable and the comparison is potentially useful to the community. However, the evidence presented in the main text is insufficient to fully support several key claims, particularly regarding convergence, statistical significance of observed differences, and the generalizability of the conclusions. The reliance on a single short peptide limits the scope of the claims. The manuscript would benefit from clearer presentation of convergence metrics and error analysis, which are currently relegated to inaccessible supplementary material.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists working on intrinsically disordered proteins, particularly those interested in enhanced sampling methodologies and force field validation. Researchers studying phase separation and biomolecular condensates may also find the characterization of a non-phase-separating sequence useful as a comparator. The methodological comparison has potential utility for practitioners selecting simulation protocols for IDP studies.
+- **Major strengths** The systematic comparison of two state-of-the-art enhanced sampling methods across two force fields is a valuable contribution. The use of multiple initial structures and the inclusion of unbiased simulations as a reference point strengthen the analysis. The identification of method-specific biases, such as the β-sheet propensity in CHARMM36m BEMD, is an interesting observation that could inform future protocol choices. The authors are appropriately cautious in interpreting differences between methods.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "the conformational landscapes emerging from our simulations are largely congruent across methods and force fields" and that the study "demonstrates the importance of using multiple force-field and sampling method combinations for accurate structural and thermodynamic information."
+  - **Evidence pointer** Figures 1–6, Table 1; convergence and error analysis in Supplementary Note 10 (not provided)
+  - **Concern** The central claim of congruence rests on qualitative visual comparisons of free energy profiles and contact maps. No quantitative similarity metrics (e.g., Jensen-Shannon divergence between distributions, root-mean-square deviation between free energy surfaces) are provided in the main text. Furthermore, the error analysis that would support the significance of observed differences is entirely relegated to supplementary material that was not available for review. Without quantitative convergence assessment and error bars on the free energy surfaces, the claim of congruence cannot be rigorously evaluated.
+  - **Why it matters** The primary conclusion of the paper is that different method/force-field combinations yield consistent results. If this claim is not quantitatively supported, the practical recommendation to use multiple combinations is weakened. Conversely, if differences are within statistical noise, the claim of meaningful differences in fine details is unsupported.
+  - **Resolution test** Provide quantitative measures of similarity between free energy surfaces from different methods, with associated uncertainties. Show convergence plots (e.g., free energy difference as a function of simulation time) for each method/force-field combination. Include error bars on all reported free energy differences and populations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that "our work demonstrates the importance of using multiple force-field and sampling method combinations for accurate structural and thermodynamic information in the study of disordered proteins."
+  - **Evidence pointer** Entire study; single peptide sequence (DHH1N)
+  - **Concern** The study is performed on a single 46-residue peptide. The conclusion that multiple force-field/sampling method combinations are necessary for accurate IDP studies is a strong general claim that cannot be supported by evidence from one sequence. Different IDPs with varying charge distributions, hydrophobicity, and secondary structure propensities may respond differently to force field and sampling method choices. The authors acknowledge this limitation implicitly but do not temper the conclusion accordingly.
+  - **Why it matters** The stated conclusion has methodological implications for the broader IDP simulation community. Overgeneralizing from a single case could mislead practitioners into unnecessary computational expense or, conversely, into false confidence in single-method results.
+  - **Resolution test** Either temper the conclusion to be specific to this peptide and similar sequences, or provide additional evidence from a diverse set of IDP sequences with different physicochemical properties.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that "BEMD tends to explore wider ranges of Cα–Cα and Cγ–Cγ contacts than PTMetaD-WTE" and that "CHARMM36m BEMD shows a tendency to sample more β-sheet-displaying conformations than the other method/force-field combinations."
+  - **Evidence pointer** Figures 4, 5, 6; Supplementary Note 5 and Figures S7–S9 (not provided)
+  - **Concern** The observation of method-specific biases is interesting, but the mechanistic explanation is speculative. The authors suggest that the β-sheet propensity in CHARMM36m BEMD may be due to the explicit biasing of β-content as a collective variable, but they do not test this hypothesis. Additionally, the claim that BEMD explores wider ranges of contacts is presented without quantitative support in the main text.
+  - **Why it matters** Understanding why different methods produce different results is crucial for guiding method selection. A speculative explanation without testing leaves the reader uncertain about the robustness of the observation and its implications.
+  - **Resolution test** Perform additional simulations where β-content is not biased in BEMD, or where α-content and β-content are biased in PTMetaD-WTE, to isolate the effect of collective variable choice. Quantify the explored range of contacts with numerical metrics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "the PLUMED input files required to reproduce the PTMetaD-WTE simulations are available on PLUMED-NEST under the project ID plumID:21.036."
+  - **Evidence pointer** Methods section; PLUMED-NEST repository
+  - **Concern** While the PLUMED input files are commendably provided, the manuscript does not specify the exact versions of GROMACS and PLUMED used beyond "GROMACS 2019.3" and "PLUMED 2.5.2". It is unclear whether the provided input files are compatible with these versions or with each other. Additionally, the random seed initialization, the number of independent simulations performed, and the criteria for determining when the bias had converged are not stated in the main text.
+  - **Why it matters** Reproducibility is a cornerstone of computational research. Without complete information on simulation parameters and convergence criteria, other groups cannot reliably reproduce or build upon these results.
+  - **Resolution test** Provide a complete list of simulation parameters, including random seeds, number of independent runs, and convergence criteria. Verify that the PLUMED input files are compatible with the stated software versions and include instructions for their use.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "structure–function paradigm" is used without definition. For a general audience, it would be helpful to briefly explain what is meant by this in the context of IDPs.
+  - **Required correction** Replace with a more explicit phrase such as "the relationship between conformational ensemble and biological function."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results and Discussion, PTMetaD-WTE section
+  - **Evidence pointer** Figure 1 and accompanying text
+  - **Issue** The text states that "results from the unbiased CHARMM22* simulations with nine different initial structures are also included for comparison" but does not specify how these unbiased simulations were analyzed or whether they were concatenated. This information is presumably in the supplementary material but should be briefly stated in the main text.
+  - **Required correction** Add one sentence specifying that the nine unbiased trajectories were concatenated for analysis, or refer explicitly to the supplementary note where this is described.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results and Discussion, Bias-Exchange Metadynamics section
+  - **Evidence pointer** Figure 5 and accompanying text
+  - **Issue** The term "weakly funneled landscapes" is used without definition. This is not a standard term in the IDP literature and may confuse readers.
+  - **Required correction** Define the term or replace with a more standard description such as "landscapes with a broad global minimum and multiple shallow local minima."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions, final paragraph
+  - **Issue** The authors state that the approach "represents a prospecting platform to investigate the conformational ensemble and thermodynamic driving force of other IDPs" but do not discuss limitations of the method, such as the choice of collective variables or the transferability of the findings to longer or more complex IDPs.
+  - **Required correction** Add a brief paragraph acknowledging limitations and suggesting directions for future work.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The table reports average Rg values but does not include standard deviations or confidence intervals. Given that the authors emphasize the importance of statistical rigor, this omission is notable.
+  - **Required correction** Add standard deviations or confidence intervals to the reported values.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative support for congruence claim) and R1-M2 (overgeneralization from single sequence) must be addressed. The lack of convergence and error analysis in the main text is a significant gap that prevents full evaluation of the central claims.
+- **Assessment against Nature-style criteria** Originality: The comparison of two enhanced sampling methods across two force fields for an IDP is not entirely novel, but the specific combination and the focus on a non-phase-separating sequence provide some originality. Scientific importance: The work addresses a practical need in the IDP simulation community, but the single-sequence focus limits its impact. Interdisciplinary readership: The topic is primarily of interest to computational biophysicists and physical chemists; the broader biological community may find limited direct relevance. Technical soundness: The simulation protocols appear reasonable, but the lack of quantitative convergence and error analysis in the main text undermines confidence. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with enhanced sampling methods and IDP terminology; some terms are used without definition.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript has potential value as a methodological comparison, but the central claims require quantitative support and the conclusions need to be tempered to reflect the single-sequence scope. Addressing the concerns above would substantially strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that "the conformational landscapes emerging from our simulations are largely congruent across methods and force fields" is unsupported without quantitative similarity metrics and error analysis.
+- The claim that the study "demonstrates the importance of using multiple force-field and sampling method combinations" is overgeneralized from a single peptide sequence.
+- The hypothesis that the β-sheet propensity in CHARMM36m BEMD is due to the explicit biasing of β-content as a collective variable is speculative and untested.
+- The statement that "the fact that the averages of the combined unbiased data agree with the biased results is probably associated with a lucky choice of initial structures" is presented without supporting evidence or analysis.
+- The claim that DHH1N's low propensity to self-associate is explained by the identified features is not directly tested against experimental data beyond the cited observation of no phase separation.

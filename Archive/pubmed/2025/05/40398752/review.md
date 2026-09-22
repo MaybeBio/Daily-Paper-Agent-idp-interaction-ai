@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract
+- **Shared manuscript claim summary** The abstract claims that AI-based methods, particularly deep learning and end-to-end frameworks such as AlphaFold and derivatives, now dominate protein-protein interaction (PPI) modeling. It states that the review surveys traditional docking approaches and recent AI-driven advances, discusses key challenges (flexibility, co-evolutionary signal reliance, large assemblies, intrinsically disordered regions), highlights innovations in sampling diversity, experimental data integration, and robustness, and concludes that classical methods remain relevant in specific contexts while AI tools offer transformative potential for structural biology and therapeutic design.
+- **Visible evidence base** Abstract text only; no figures, tables, or body sections provided
+- **Missing materials affecting confidence** Full manuscript text, figures, tables, references, and any quantitative benchmarks or case studies are not available. The abstract provides no specific data, performance metrics, or comparative analyses to substantiate its claims.
+
+## Reviewer
+- **Overall assessment** The abstract presents a broad and timely overview of computational PPI modeling in the AI era. The topic is of high current interest, and the authors correctly identify key challenges and recent innovations. However, the abstract is largely descriptive and lacks specific evidence, quantitative comparisons, or critical evaluation of the methods discussed. The claims of "dominance" by AI methods and "transformative potential" are asserted without supporting data or nuanced discussion. The scientific contribution of the review cannot be fully assessed from the abstract alone, and the lack of specificity limits its impact.
+- **Who would be interested in the results, and why** Structural biologists, computational biologists, and researchers in drug discovery would be interested in this review as a landscape summary of PPI modeling tools. Those seeking practical guidance on method selection, particularly in the context of AI adoption, would find value. However, the abstract does not yet demonstrate the depth or critical insight needed to distinguish it from existing reviews in this rapidly evolving field.
+- **Major strengths** The topic is highly relevant and timely. The abstract identifies important challenges, including flexibility, co-evolutionary signal dependence, large assemblies, and IDRs, which are central to current PPI modeling limitations. The inclusion of both classical and AI-based methods suggests a balanced scope. The stated focus on innovations in sampling diversity and experimental data integration indicates awareness of active research directions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that AI methods "now dominating the field" and that classical methods "remain relevant in specific contexts," implying a comparative assessment.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract asserts a dominance of AI methods and a specific role for classical methods without providing any comparative data, benchmarks, or criteria for this assessment. No evidence is presented to support the claimed relative performance or applicability of different method classes.
+  - **Why it matters** The central thesis of the review appears to be a shift in methodological landscape. Without evidence or a clear framework for comparison, the claim of dominance is unsupported and may mislead readers about the current state of the field.
+  - **Resolution test** The full manuscript should include a systematic comparison of AI-based and classical methods, with quantitative performance metrics on benchmark datasets, and a clear discussion of contexts where each approach is preferred.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and depth
+  - **Claim pointer** The abstract states that the review "surveys" and "highlights" various methods and innovations, implying a comprehensive and detailed treatment.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract is generic and lacks specific examples of methods, innovations, or challenges. It does not name any specific AI tools beyond AlphaFold, nor does it describe any particular innovation in sampling diversity or experimental data integration. The level of detail is insufficient to evaluate the review's contribution or its utility to readers.
+  - **Why it matters** A review in a rapidly advancing field must provide specific, actionable information to be valuable. The abstract does not demonstrate that the manuscript offers new insights or a unique synthesis beyond what is already known.
+  - **Resolution test** The full manuscript should include detailed descriptions of specific methods, their underlying principles, performance characteristics, and limitations, with concrete examples and case studies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Critical evaluation
+  - **Claim pointer** The abstract concludes that AI tools offer "transformative potential" and are "poised to deepen our understanding," implying a forward-looking and positive assessment.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract presents a largely uncritical view of AI-based methods. It mentions challenges but does not indicate whether the review critically evaluates the limitations of current AI approaches, such as failure modes, generalization issues, or over-reliance on training data. The conclusion appears promotional rather than balanced.
+  - **Why it matters** A credible review should provide a balanced assessment, including limitations and open problems. An uncritical endorsement reduces scientific credibility and may not serve readers seeking to understand the risks and caveats of adopting AI methods.
+  - **Resolution test** The full manuscript should include a critical discussion of AI method limitations, with examples of failure cases, and a balanced outlook that acknowledges uncertainties and unresolved issues.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "end-to-end frameworks" is used without definition or context, which may be unclear to nonspecialist readers.
+  - **Required correction** Define "end-to-end" in the context of PPI modeling, or rephrase to describe the approach more plainly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Coverage of methods
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "traditional docking approaches" but does not specify which methods are included or how they are treated.
+  - **Required correction** Provide a brief enumeration of classical docking methods or a reference to a section where they are described.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract is a single dense paragraph without clear logical segmentation, which reduces readability.
+  - **Required correction** Consider restructuring the abstract into distinct sentences or short paragraphs that separate scope, challenges, innovations, and conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The abstract does not provide sufficient evidence or specificity to establish the review's contribution or the validity of its central claims. The full manuscript must include comparative data, detailed method descriptions, and a critical evaluation to support the stated conclusions.
+- **Assessment against Nature-style criteria** Originality: The topic is timely but not novel; many reviews on AI for PPI modeling exist. The abstract does not demonstrate a unique angle or new synthesis. Scientific importance: High, given the relevance to structural biology and drug discovery, but the importance is not substantiated with specific insights. Interdisciplinary readership: The abstract is accessible to a broad audience but lacks depth that would engage specialists. Technical soundness: Cannot be assessed from the abstract; no methods or data are presented. Readability for nonspecialists: The abstract is generally readable but uses jargon without definition. Overall, the abstract does not yet meet the bar for a high-impact review; it requires more substance and critical analysis.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is promising in scope but lacks the specificity, evidence, and critical depth required to support its claims. A revised manuscript with detailed comparative analysis, concrete examples, and balanced discussion could change this assessment.
+
+## Risk / unsupported claims
+- The claim that AI methods "now dominating the field" is unsupported by any data or comparative analysis in the abstract.
+- The assertion that classical methods "remain relevant in specific contexts" is vague and not substantiated.
+- The statement that AI tools offer "transformative potential" and are "poised to deepen our understanding" is promotional and not backed by evidence.
+- The abstract implies a comprehensive survey but provides no indication of the scope, criteria, or depth of the review, making the coverage claim unverifiable.

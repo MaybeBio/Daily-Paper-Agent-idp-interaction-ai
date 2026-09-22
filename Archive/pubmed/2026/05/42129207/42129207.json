@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "42129207",
+    "doi": "10.1038/s41467-026-73067-3",
+    "title": "Transient tertiary structure in intrinsically disordered proteins revealed by multithermal enhanced sampling."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins populate heterogeneous conformational ensembles that are challenging to characterise. While all-atom molecular dynamics simulations can provide detailed insights into dynamic ensembles, achieving sufficient sampling remains difficult. Here, we show that On-the-fly Probability Enhanced Sampling (OPES) in the multithermal ensemble enables efficient generation of atomistic ensembles for disordered peptides and proteins ranging from 15 to 71 residues in length. OPES achieves multithermal sampling within a single simulation replica, without replica exchange or extensive parameter tuning. Across multiple systems, OPES yields reweighted ensembles broadly consistent with replica-exchange with solute tempering (REST2) and unbiased simulations, while accelerating convergence and enabling broader exploration of low-population conformational states. Applied to the intrinsically disordered transcriptional coactivator ACTR, OPES reveals transiently structured states in which multiple alpha-helices involved in partner binding fold cooperatively and form tertiary contacts. These rare, partially structured conformations are reversibly sampled during the simulations, are consistent with extensive NMR and SAXS data, and could facilitate folding-upon-binding through conformational selection. They may also represent viable targets for drug design or for engineering disordered proteins with customised conformational landscapes. More broadly, our results establish OPES multithermal sampling as a robust and accessible approach for uncovering functionally relevant conformations in intrinsically disordered proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Scattering, Small Angle",
+      "Protein Structure, Tertiary",
+      "Protein Folding",
+      "X-Ray Diffraction",
+      "Protein Conformation",
+      "Nuclear Magnetic Resonance, Biomolecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Streit, Julian O",
+        "Invernizzi, Michele",
+        "Bottaro, Sandro",
+        "Tamiola, Kamil",
+        "Lindorff-Larsen, Kresten"
+      ],
+      "short_names": [
+        "Streit JO",
+        "Invernizzi M",
+        "Bottaro S",
+        "Tamiola K",
+        "Lindorff-Larsen K"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6114-3636",
+        "ORCID: 0000-0003-1606-890X",
+        "ORCID: 0000-0002-4750-6039"
+      ],
+      "affiliations": [
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen N, Denmark.",
+        "Institute of Structural and Molecular Biology, Department of Structural and Molecular Biology, University College London, London, UK.",
+        "Peptone Switzerland AG, Bellinzona, CH, Switzerland.",
+        "Peptone Switzerland AG, Bellinzona, CH, Switzerland.",
+        "Peptone Switzerland AG, Bellinzona, CH, Switzerland.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen N, Denmark. lindorff@bio.ku.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Streit, Julian O",
+        "short_name": "Streit JO",
+        "identifiers": [
+          "0000-0001-6114-3636"
+        ],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen N, Denmark.",
+          "Institute of Structural and Molecular Biology, Department of Structural and Molecular Biology, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Invernizzi, Michele",
+        "short_name": "Invernizzi M",
+        "identifiers": [],
+        "affiliations": [
+          "Peptone Switzerland AG, Bellinzona, CH, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Bottaro, Sandro",
+        "short_name": "Bottaro S",
+        "identifiers": [
+          "0000-0003-1606-890X"
+        ],
+        "affiliations": [
+          "Peptone Switzerland AG, Bellinzona, CH, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Tamiola, Kamil",
+        "short_name": "Tamiola K",
+        "identifiers": [],
+        "affiliations": [
+          "Peptone Switzerland AG, Bellinzona, CH, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Lindorff-Larsen, Kresten",
+        "short_name": "Lindorff-Larsen K",
+        "identifiers": [
+          "0000-0002-4750-6039"
+        ],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen N, Denmark. lindorff@bio.ku.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 May 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/14 00:31",
+    "fetched_at": "2026-09-18 03:16:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41708867",
+      "41644540",
+      "41309611",
+      "41298416",
+      "41139839",
+      "41082321",
+      "41073429",
+      "40638710",
+      "40446154",
+      "40289673",
+      "40128232",
+      "40068541",
+      "39952928",
+      "39908323",
+      "39746907",
+      "39412378",
+      "39112704",
+      "39103332",
+      "38550690",
+      "38506664",
+      "38297118",
+      "37957331",
+      "37645312",
+      "37603295",
+      "37468629",
+      "37433228",
+      "36864173",
+      "36791464",
+      "36774359",
+      "36484770",
+      "36302916",
+      "35795820",
+      "35649268",
+      "34929201",
+      "34706940",
+      "34627764",
+      "34473923",
+      "34273400",
+      "34265844",
+      "33934416",
+      "33574233",
+      "33481784",
+      "33411518",
+      "33148639",
+      "32939066",
+      "32191470",
+      "32006288",
+      "31809054",
+      "31548393",
+      "31048691",
+      "30047198",
+      "29735687",
+      "29466338",
+      "29399725",
+      "28471369",
+      "26963394",
+      "26866899",
+      "26574392",
+      "26498066",
+      "26488642",
+      "25400522",
+      "25140435",
+      "24748852",
+      "24449148",
+      "24128758",
+      "23758617",
+      "23503848",
+      "22829760",
+      "22768169",
+      "22496841",
+      "22384157",
+      "22339051",
+      "21714551",
+      "21500218",
+      "21038907",
+      "20628786",
+      "20616042",
+      "20556825",
+      "19514729",
+      "18506808",
+      "18388951",
+      "17212484",
+      "16494409",
+      "16392929",
+      "12271136",
+      "11823864",
+      "10027275",
+      "8303294",
+      "7462208",
+      "7108955",
+      "6667333"
+    ],
+    "similar": [
+      "42129207",
+      "30840442",
+      "41073429",
+      "33574233",
+      "32840111",
+      "34817999",
+      "40042172",
+      "31548393",
+      "22253588",
+      "33725442",
+      "38018910",
+      "36791464",
+      "33623120",
+      "42178622",
+      "26052838",
+      "38996889",
+      "32859072",
+      "32585849",
+      "32696370",
+      "31402649",
+      "30979035",
+      "30134733",
+      "30933517",
+      "30554840",
+      "26574339",
+      "24763499",
+      "40907012",
+      "39340152",
+      "41298416",
+      "30204435",
+      "26387110",
+      "32323533",
+      "32696368",
+      "22829760",
+      "41706900",
+      "25897952",
+      "35213160",
+      "29571687",
+      "30865820",
+      "36641212",
+      "26387099",
+      "34252246",
+      "26195786",
+      "28092832",
+      "34680048",
+      "28625737",
+      "26320411",
+      "29808548",
+      "30125451",
+      "26548662",
+      "34115515",
+      "37108059",
+      "42340349",
+      "37646172",
+      "31617035",
+      "26807783",
+      "24174539",
+      "31241933",
+      "39056166",
+      "42014948",
+      "31809054",
+      "41851975",
+      "32074499",
+      "28841239",
+      "24995857",
+      "30708285",
+      "39499823",
+      "35174713",
+      "23811057",
+      "30878202",
+      "21766125",
+      "42284526",
+      "29792674",
+      "40147456",
+      "31362509",
+      "32929427",
+      "33382616",
+      "33030907",
+      "41082321",
+      "39651234",
+      "29080468",
+      "23373423",
+      "33030249",
+      "22095648",
+      "34845619",
+      "29218556",
+      "29990433",
+      "27844185",
+      "35725761",
+      "41302413",
+      "30876367",
+      "36934808",
+      "29548755",
+      "29573987",
+      "27588692",
+      "24449148",
+      "28780862",
+      "27551949",
+      "34627764",
+      "39190324"
+    ],
+    "review": [
+      "42129207",
+      "30840442",
+      "30979035",
+      "26387110",
+      "26387099",
+      "34680048",
+      "28625737",
+      "26320411",
+      "31617035",
+      "26807783",
+      "42014948",
+      "29080468"
+    ],
+    "pmc": [
+      "13291234"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-73067-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42129207/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "37094111",
+    "doi": "10.1021/acs.langmuir.2c03259",
+    "title": "Naringenin-Functionalized Gold Nanoparticles and Their Role in alpha-Synuclein Stabilization."
+  },
+  "content": {
+    "abstract": "Misfolding and self-assembly of several intrinsically disordered proteins into ordered beta-sheet-rich amyloid aggregates emerged as hallmarks of several neurodegenerative disorders such as Alzheimer's and Parkinson's diseases. Here we show how the naringenin-embedded nanostructure effectively retards aggregation and fibril formation of alpha-synuclein, which is strongly associated with the pathology of Parkinson's-like diseases. Naringenin is a polyphenolic compound from a plant source, and in our current investigation, we reported the one-pot synthesis of naringenin-coated spherical and monophasic gold nanoparticles (NAR-AuNPs) under optimized conditions. The average hydrodynamic diameter of the produced nanoparticle was  approximately 24 nm and showed a distinct absorption band at 533 nm. The zeta potential of the nanocomposite was  approximately -22 mV and indicated the presence of naringenin on the surface of nanoparticles. Core-level XPS spectrum analysis showed prominent peaks at 84.02 and 87.68 eV, suggesting the zero oxidation state of metal in the nanostructure. Additionally, the peaks at 86.14 and 89.76 eV were due to the Au-O bond, induced by the hydroxyl groups of the naringenin molecule. The FT-IR analysis further confirmed strong interactions of the molecule with the gold nanosurface via the phenolic oxygen group. The composite surface was found to interact with monomeric alpha-synuclein and caused a red shift in the nanoparticle absorption band by  approximately 5 nm. The binding affinity of the composite nanostructure toward alpha-synuclein was in the micromolar range (K(a) approximately  5.02 x 10(6) M(-1)) and may produce a protein corona over the gold nanosurface. A circular dichroism study showed that the nanocomposite can arrest the conformational fluctuation of the protein and hindered its transformation into a compact cross-beta-sheet conformation, a prerequisite for amyloid fibril formation. Furthermore, it was found that naringenin and its nanocomplex did not perturb the viability of neuronal cells. It thus appeared that engineering of the nanosurface with naringenin could be an alternative strategy in developing treatment approaches for Parkinson's and other diseases linked to protein conformation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "alpha-Synuclein/chemistry",
+      "*Parkinson Disease/etiology/metabolism/pathology",
+      "Gold/chemistry",
+      "Spectroscopy, Fourier Transform Infrared",
+      "*Metal Nanoparticles/chemistry",
+      "Amyloid/chemistry",
+      "Flavanones"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maity, Anupam",
+        "Mondal, Animesh",
+        "Kundu, Shubham",
+        "Shome, Gourav",
+        "Misra, Rajdip",
+        "Singh, Aakriti",
+        "Pal, Uttam",
+        "Mandal, Atin Kumar",
+        "Bera, Kaushik",
+        "Maiti, Nakul C"
+      ],
+      "short_names": [
+        "Maity A",
+        "Mondal A",
+        "Kundu S",
+        "Shome G",
+        "Misra R",
+        "Singh A",
+        "Pal U",
+        "Mandal AK",
+        "Bera K",
+        "Maiti NC"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6446-4996",
+        "ORCID: 0000-0003-4698-3922",
+        "ORCID: 0000-0003-2110-4610",
+        "ORCID: 0000-0002-8498-6502"
+      ],
+      "affiliations": [
+        "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), CSIR-Human Resource Development Centre, (CSIR-HRDC) Campus, Postal Staff College Area, Sector 19, Kamla Nehru Nagar, Ghaziabad, Uttar Pradesh 201 002, India.",
+        "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India.",
+        "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India.",
+        "Division of Molecular Medicine, Bose Institute, Kolkata 700091, India.",
+        "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India.",
+        "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India.",
+        "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India.",
+        "Division of Molecular Medicine, Bose Institute, Kolkata 700091, India.",
+        "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India.",
+        "Department of Chemistry, The Heritage School, 994 Chowbaga Road, Anandapur, East Kolkata Twp, Kolkata 700107, India.",
+        "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), CSIR-Human Resource Development Centre, (CSIR-HRDC) Campus, Postal Staff College Area, Sector 19, Kamla Nehru Nagar, Ghaziabad, Uttar Pradesh 201 002, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maity, Anupam",
+        "short_name": "Maity A",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), CSIR-Human Resource Development Centre, (CSIR-HRDC) Campus, Postal Staff College Area, Sector 19, Kamla Nehru Nagar, Ghaziabad, Uttar Pradesh 201 002, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Animesh",
+        "short_name": "Mondal A",
+        "identifiers": [
+          "0000-0001-6446-4996"
+        ],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Kundu, Shubham",
+        "short_name": "Kundu S",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Shome, Gourav",
+        "short_name": "Shome G",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Medicine, Bose Institute, Kolkata 700091, India."
+        ]
+      },
+      {
+        "full_name": "Misra, Rajdip",
+        "short_name": "Misra R",
+        "identifiers": [
+          "0000-0003-4698-3922"
+        ],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Aakriti",
+        "short_name": "Singh A",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Pal, Uttam",
+        "short_name": "Pal U",
+        "identifiers": [
+          "0000-0003-2110-4610"
+        ],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Mandal, Atin Kumar",
+        "short_name": "Mandal AK",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Molecular Medicine, Bose Institute, Kolkata 700091, India."
+        ]
+      },
+      {
+        "full_name": "Bera, Kaushik",
+        "short_name": "Bera K",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India.",
+          "Department of Chemistry, The Heritage School, 994 Chowbaga Road, Anandapur, East Kolkata Twp, Kolkata 700107, India."
+        ]
+      },
+      {
+        "full_name": "Maiti, Nakul C",
+        "short_name": "Maiti NC",
+        "identifiers": [
+          "0000-0002-8498-6502"
+        ],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, CSIR-Indian Institute of Chemical Biology, 4 Raja S.C. Mullick Road, Kolkata 700032, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), CSIR-Human Resource Development Centre, (CSIR-HRDC) Campus, Postal Staff College Area, Sector 19, Kamla Nehru Nagar, Ghaziabad, Uttar Pradesh 201 002, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Langmuir : the ACS journal of surfaces and colloids"
+    ],
+    "journal_abbrev": [
+      "Langmuir"
+    ],
+    "pub_date": "2023 May 30",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/24 18:42",
+    "fetched_at": "2026-09-20 21:27:37"
+  },
+  "links": {
+    "cites": [
+      "42613903",
+      "42200795",
+      "41097036",
+      "40708508",
+      "40670563",
+      "40423094",
+      "38741193",
+      "38397037",
+      "38163101"
+    ],
+    "refs": [],
+    "similar": [
+      "37094111",
+      "24219503",
+      "28968082",
+      "23272053",
+      "10704204",
+      "29621630",
+      "31142553",
+      "26845568",
+      "32004598",
+      "25123491",
+      "34830391",
+      "18464436",
+      "29531058",
+      "16752390",
+      "24635210",
+      "34360737",
+      "29704492",
+      "28238838",
+      "35014532",
+      "23477540",
+      "37666396",
+      "30755483",
+      "33260436",
+      "31809698",
+      "26799377",
+      "12900507",
+      "38741193",
+      "29853639",
+      "36199282",
+      "34651357",
+      "32005664",
+      "38668883",
+      "32672441",
+      "18775438",
+      "33903234",
+      "24374342",
+      "30476794",
+      "16533927",
+      "31096048",
+      "35749730",
+      "30098337",
+      "18692132",
+      "16162499",
+      "30917654",
+      "24551051",
+      "32398693",
+      "21348834",
+      "30216674",
+      "31604086",
+      "23390095",
+      "35041853",
+      "34161822",
+      "29601727",
+      "28759722",
+      "19759002",
+      "16081040",
+      "35681426",
+      "37782491",
+      "22573613",
+      "31181290",
+      "34410317",
+      "26479553",
+      "25659910",
+      "25255476",
+      "26152159",
+      "27573854",
+      "28671142",
+      "31761041",
+      "36500474",
+      "27982082",
+      "33352154",
+      "36944862",
+      "26119103",
+      "12115139",
+      "20423294",
+      "28710275",
+      "22771474",
+      "26161848",
+      "26106942",
+      "28460628",
+      "32699326",
+      "30175941",
+      "26193769",
+      "16037493",
+      "31939603",
+      "17189262",
+      "24527756",
+      "23339399",
+      "28624352",
+      "38885454",
+      "24947141",
+      "38194428",
+      "38438083",
+      "36133855",
+      "38524031",
+      "37623243",
+      "32344165"
+    ],
+    "review": [
+      "37094111",
+      "33260436",
+      "38741193",
+      "16533927",
+      "21348834",
+      "30216674",
+      "23390095",
+      "35681426",
+      "28671142",
+      "20423294",
+      "38524031"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://pubs.acs.org/langd5/article-lookup/doi/10.1021/acs.langmuir.2c03259",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

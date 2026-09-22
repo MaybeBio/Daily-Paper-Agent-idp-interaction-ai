@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.04.657832",
+  "title": "Quantifying Protein-Protein Interaction with a Spatial Attention Kinetic Graph Neural Network",
+  "authors": "Yuzhi Xu; Wei Xia; Chao Zhang; Xinxin Liu; Chengwei Ju; Xuhang Dai; Pujun Xie; Yuanqing Wang; Guangyong Chen; John Z.H. Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-08",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出SAKE-PP，一种空间注意力等变图神经网络，直接回归界面RMSD以排序蛋白-蛋白互作模型，虽非针对无序蛋白，但其物理启发的互作评分方法对IDR介导的PPI机制建模具有可迁移的启发价值。",
+  "abstract": "Accurate prioritisation of near-native protein–protein interaction (PPI) models remains a major bot-tleneck in structural biology. Here we present SAKE-PP, a physics-inspired, spatial-attention equivariant graph neural network that directly regresses interface RMSD (iRMSD) without any native references. Trained on docking decoys generated through our novel hierarchical sampling strategy applied to PDB-Bind dataset, SAKE-PP combines force-field-like attention with Laplacian-eigenvector orientation to couple local interaction forces with global topology. On the 2024PDB benchmark comprising 176 het-erodimers, SAKE-PP demonstrates effective optimization and selection of AF3 decoys, achieving improvements of 13.75% based on iRMSD statistics and 12.5% based on DockQ scores. It consistently outperforms the AF3 ranking score in multiple metrics, including overlap, hit rate, and correlation. In zero-shot evaluation of 139 antibody–antigen complexes, SAKE-PP improves the score–iRMSD correlation by 0.4. By unifying geometric deep learning with physics-based realism, SAKE-PP provides a robust, plug-and-play scoring function that streamlines reliable PPI evaluation and accelerates downstream structure-guided drug-design workflows.",
+  "abstract_zh": "准确地对近天然蛋白质-蛋白质相互作用（PPI）模型进行优先级排序仍是结构生物学中的主要瓶颈。在此，我们提出SAKE-PP，一种受物理启发的、空间注意力等变图神经网络，可直接回归界面RMSD（iRMSD），无需任何天然参考。通过在PDB-Bind数据集上应用我们新颖的分层采样策略生成的对接诱饵进行训练，SAKE-PP将类力场注意力与拉普拉斯特征向量定向相结合，以耦合局部相互作用力与全局拓扑。在包含176个异二聚体的2024PDB基准上，SAKE-PP展示了对AF3诱饵的有效优化和选择，基于iRMSD统计实现了13.75%的提升，基于DockQ评分实现了12.5%的提升。它在多个指标上持续优于AF3排名评分，包括重叠率、命中率和相关性。在对139个抗体-抗原复合物的零样本评估中，SAKE-PP将评分-iRMSD相关性提高了0.4。通过将几何深度学习与基于物理的现实性相统一，SAKE-PP提供了一种稳健的即插即用评分函数，简化了可靠的PPI评估，并加速了下游结构导向的药物设计工作流程。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.04.657832",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.04.657832",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.04.657832/index.html"
+}

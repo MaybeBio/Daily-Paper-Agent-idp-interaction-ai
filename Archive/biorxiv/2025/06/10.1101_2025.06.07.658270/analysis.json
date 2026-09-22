@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.07.658270",
+  "title": "De novo acyl carrier proteins display structure-independent modification and sequence novelty",
+  "authors": "Herrera MA; King GK; Ozols Z; Tiburtini GA; Schiavo N; Spyrakis F; Charkoudian LK; Campopiano DJ",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-11",
+  "window": {
+    "start": "2025-06-09",
+    "end": "2025-06-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用计算算法设计酰基载体蛋白变体，结合MD模拟研究其结构可塑性与修饰功能，虽涉及蛋白互作热点但非IDP/相分离对象，机制建模可迁移性有限。",
+  "abstract": "Acyl carrier proteins (ACPs) are dynamic, structurally conserved α-helical proteins central to many primary and secondary metabolic processes. Whilst prior engineering efforts have focused on strategic mutagenesis and “helix swaps”, much of the ACP sequence design space remains underexplored. Here, we create diverse variants of the archetypal ACP subclass – AcpP – using a bespoke sequence-generating algorithm (ALGO-CP), which utilises a combined evolutionary and physicochemical design approach. Using ALGO-CP, we generated two soluble candidates – ALGO-055 and ALGO-059 – that can undergo full post-translational modification from apo → holo →acyl forms in vitro , using recombinant modifying enzymes. Building on these successful designs, we further adapted ALGO-CP to produce several chimeras, two of which – ch ALGO-012 and ch ALGO-024 – also exhibit full modifiability. We explore the structural plasticity of our ALGO variants via robust molecular dynamic simulations, and we further reveal by circular dichroism spectroscopy that ALGO-055 and ALGO-059 lack the canonical α-helical fold of an ACP, whilst remaining soluble and readily modifiable. Upon acylation of ALGO-055 and ALGO-059, we observe a marked increase in helicity indicative of partial restructuring. Of note, both ALGO-055 and ALGO-059 harbour several rare amino acid variations across their sequences, whilst preserving many important acidic “hotspots” involved in key protein-protein interactions. By testing the limits of the AcpP design space, our findings suggest that some key aspects of ACP behaviour (specifically post-translational modification) can be retained independently of the canonical structure. This work establishes a foundation for probing ACP sequence diversity through a hybrid computational-experimental approach. ALGO-CP is available under AGPL3.0 license: https://github.com/MAHerrera-94/ALGO_CP .",
+  "abstract_zh": "酰基载体蛋白（acyl carrier proteins, ACPs）是动态、结构保守的α-螺旋蛋白，在许多初级和次级代谢过程中起核心作用。尽管先前的工程努力集中于策略性诱变和“螺旋交换”，ACP序列设计空间的大部分仍未得到充分探索。在此，我们利用一种定制的序列生成算法（ALGO-CP），该算法采用进化与理化设计相结合的方法，创建了典型ACP亚类——AcpP——的多种变体。使用ALGO-CP，我们生成了两个可溶性候选体——ALGO-055和ALGO-059——它们能够在体外利用重组修饰酶经历从apo→holo→acyl形式的完全翻译后修饰。基于这些成功的设计，我们进一步调整ALGO-CP以产生若干嵌合体，其中两个——ch ALGO-012和ch ALGO-024——也表现出完全的修饰能力。我们通过稳健的分子动力学模拟探索了ALGO变体的结构可塑性，并通过圆二色光谱进一步揭示，ALGO-055和ALGO-059缺乏ACP的典型α-螺旋折叠，同时保持可溶性和易于修饰性。在ALGO-055和ALGO-059酰化后，我们观察到螺旋度显著增加，表明部分结构重组。值得注意的是，ALGO-055和ALGO-059在其序列中携带若干稀有氨基酸变异，同时保留了参与关键蛋白质-蛋白质相互作用的许多重要酸性“热点”。通过测试AcpP设计空间的极限，我们的发现表明，ACP行为的某些关键方面（特别是翻译后修饰）可以在不依赖典型结构的情况下得以保留。这项工作为通过混合计算-实验方法探索ACP序列多样性奠定了基础。ALGO-CP在AGPL3.0许可下可用：https://github.com/MAHerrera-94/ALGO_CP。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.07.658270",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.07.658270",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.07.658270/index.html"
+}

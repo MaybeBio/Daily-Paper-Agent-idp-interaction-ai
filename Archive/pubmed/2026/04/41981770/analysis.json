@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41981770",
+  "title": "Transient Aggregation-Prone States in Disordered Proteins as Therapeutic Targets: The Amyloid-beta Case.",
+  "authors": "Bini, Margherita; Tozzini, Valentina; Bellucci, Luca",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2026-04-15",
+  "window": {
+    "start": "2026-04-13",
+    "end": "2026-04-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用T-REMD分子动力学生成Aβ无序蛋白构象系综，通过自对接描述符识别聚集倾向的亚稳态构象，并验证分子伴侣DNAJB6优先结合这些构象，为IDP互作机制建模和药物靶点识别提供了可迁移的物理模拟框架。",
+  "abstract": "The amyloid-beta (Abeta) peptide is an intrinsically disordered protein whose self-association into toxic oligomers underlies Alzheimer's disease. Because of its dynamic and heterogeneous nature, identifying the conformational states that nucleate aggregation remains a central challenge. In this work, we introduce a chemically interpretable descriptor of amyloidogenic propensity derived from self-docking analyses of conformational ensembles generated through temperature-replica exchange molecular dynamics (T-REMD) using different and complementary force fields. This descriptor classifies individual conformers within the generated ensembles according to their intrinsic aggregation tendency, enabling the identification of metastable, aggregation-prone states. The resulting ensembles reproduce experimental observables, and their classification based on amyloidogenic propensity provides a consistent structural basis for the rationalization and study of these metastable conformers. As a test, we demonstrate that the molecular chaperone DNAJB6, experimentally known to bind amyloidogenic conformations, preferentially interacts with aggregation-prone conformers, thus supporting both the proposed protocol and the consistency of the classification scheme. More broadly, this framework outlines a potentially generalizable strategy to identify metastable states in intrinsically disordered proteins as prospective pharmacological targets to help develop drugs or biomolecules capable of inhibiting the early stages of their aggregation.",
+  "abstract_zh": "淀粉样蛋白-β（Abeta）肽是一种 intrinsically disordered protein（固有无序蛋白），其自组装成毒性寡聚体是阿尔茨海默病的根本原因。由于其动态和异质性特征，识别引发聚集的构象状态仍是一个核心挑战。在本工作中，我们引入了一种化学上可解释的淀粉样变性倾向描述符，该描述符源自对通过温度副本交换分子动力学（T-REMD）并使用不同且互补的力场生成的构象集合进行的自对接分析。此描述符根据个体构象的内在聚集倾向对生成集合中的各构象进行分类，从而能够识别亚稳态、易聚集状态。所得集合重现了实验观测值，且基于淀粉样变性倾向的分类为这些亚稳态构象的合理化和研究提供了一致的结构基础。作为测试，我们证明分子伴侣DNAJB6（实验已知其结合淀粉样变性构象）优先与易聚集构象相互作用，从而支持了所提出的方案及分类方案的一致性。更广泛地，该框架概述了一种可能具有普适性的策略，用于识别固有无序蛋白中的亚稳态，作为潜在药理学靶点，以帮助开发能够抑制其聚集早期阶段的药物或生物分子。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41981770/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41981770/",
+  "paper_page_path": "papers/pubmed/41981770/index.html"
+}

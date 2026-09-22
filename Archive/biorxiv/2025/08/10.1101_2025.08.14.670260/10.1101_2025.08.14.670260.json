@@ -1,0 +1,158 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.14.670260",
+  "title": "DynaRepo: The repository of macromolecular conformational dynamics",
+  "doi": "10.1101/2025.08.14.670260",
+  "abstract": "Proteins, RNA, and DNA are central to virtually all cellular processes, often assembling into macro-molecular complexes to perform their functions. While these molecules are inherently dynamic, most methods for studying their mechanisms focus on static structures. Recent deep learning advances in protein structure prediction highlight the potential of data-driven approaches, yet dynamic behavior that is critical for interactions such as antibody–antigen recognition, intrinsically disordered proteins, and protein–nucleic acid binding, remains underexplored. To address this gap, we present DynaRepo, a repository of macromolecular conformational dynamics comprising ~450 complexes and ~270 single-chain proteins from PDBbind, the Structural Antibody Database (SAbDab), and benchmark sets. Each complex was simulated in triplicate for 500 ns, totaling >1100 µ s of molecular dynamics data, with extensive pre-calculated analyses. DynaRepo provides a foundation for dynamics-aware deep learning frameworks and is freely available at: https://dynarepo.inria.fr/ .",
+  "authors": [
+    "Mokhtari O",
+    "Bignon E",
+    "Khakzad H",
+    "Karami Y"
+  ],
+  "published_date": "2025-08-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.14.670260",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.14.670260.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1068583",
+    "raw_record": {
+      "id": "PPR1068583",
+      "source": "PPR",
+      "doi": "10.1101/2025.08.14.670260",
+      "title": "DynaRepo: The repository of macromolecular conformational dynamics",
+      "authorString": "Mokhtari O, Bignon E, Khakzad H, Karami Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mokhtari O",
+            "lastName": "Mokhtari",
+            "firstName": "Omid",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0000-8751-8117"
+            }
+          },
+          {
+            "fullName": "Bignon E",
+            "lastName": "Bignon",
+            "firstName": "Emmanuelle",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9475-5049"
+            }
+          },
+          {
+            "fullName": "Khakzad H",
+            "lastName": "Khakzad",
+            "firstName": "Hamed",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8556-0650"
+            }
+          },
+          {
+            "fullName": "Karami Y",
+            "lastName": "Karami",
+            "firstName": "Yasaman",
+            "initials": "Y"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9475-5049"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8556-0650"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0000-8751-8117"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Proteins, RNA, and DNA are central to virtually all cellular processes, often assembling into macro-molecular complexes to perform their functions. While these molecules are inherently dynamic, most methods for studying their mechanisms focus on static structures. Recent deep learning advances in protein structure prediction highlight the potential of data-driven approaches, yet dynamic behavior that is critical for interactions such as antibody–antigen recognition, intrinsically disordered proteins, and protein–nucleic acid binding, remains underexplored. To address this gap, we present DynaRepo, a repository of macromolecular conformational dynamics comprising ~450 complexes and ~270 single-chain proteins from PDBbind, the Structural Antibody Database (SAbDab), and benchmark sets. Each complex was simulated in triplicate for 500 ns, totaling >1100  µ s of molecular dynamics data, with extensive pre-calculated analyses. DynaRepo provides a foundation for dynamics-aware deep learning frameworks and is freely available at:  https://dynarepo.inria.fr/ .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.08.14.670260"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.14.670260"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41231767",
+            "reference": "Nucleic acids research. 2026 Jan;54(D1):D393-D401",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-08-22",
+      "firstPublicationDate": "2025-08-18",
+      "firstIndexDate": "2025-08-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

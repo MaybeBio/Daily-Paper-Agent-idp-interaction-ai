@@ -1,0 +1,231 @@
+{
+  "identity": {
+    "pmid": "37292850",
+    "doi": "10.1101/2023.05.19.541513",
+    "title": "A coarse-grained DNA model to study protein-DNA interactions and liquid-liquid phase separation."
+  },
+  "content": {
+    "abstract": "Recent advances in coarse-grained (CG) computational models for DNA have enabled molecular-level insights into the behavior of DNA in complex multiscale systems. However, most existing CG DNA models are not compatible with CG protein models, limiting their applications for emerging topics such as protein-nucleic acid assemblies. Here, we present a new computationally efficient CG DNA model. We first use experimental data to establish the model's ability to predict various aspects of DNA behavior, including melting thermodynamics and relevant local structural properties such as the major and minor grooves. We then employ an all-atom hydropathy scale to define non-bonded interactions between protein and DNA sites, to make our DNA model compatible with an existing CG protein model (HPS-Urry), that is extensively used to study protein phase separation, and show that our new model reasonably reproduces the experimental binding affinity for a prototypical protein-DNA system. To further demonstrate the capabilities of this new model, we simulate a full nucleosome with and without histone tails, on a microsecond timescale, generating conformational ensembles and provide molecular insights into the role of histone tails in influencing the liquid-liquid phase separation (LLPS) of HP1alpha proteins. We find that histone tails interact favorably with DNA, influencing the conformational ensemble of the DNA and antagonizing the contacts between HP1alpha and DNA, thus affecting the ability of DNA to promote LLPS of HP1alpha. These findings shed light on the complex molecular framework that fine-tunes the phase transition properties of heterochromatin proteins and contributes to heterochromatin regulation and function. Overall, the CG DNA model presented here is suitable to facilitate micron-scale studies with sub-nm resolution in many biological and engineering applications and can be used to investigate protein-DNA complexes, such as nucleosomes, or LLPS of proteins with DNA, enabling a mechanistic understanding of how molecular information may be propagated at the genome level.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kapoor, Utkarsh",
+        "Kim, Young C",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Kapoor U",
+        "Kim YC",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4977-3405",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 78743, United States.",
+        "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, District of Columbia.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 78743, United States.",
+        "Department of Chemistry, Texas A&M University, College Station, Texas 78743, United States.",
+        "Interdisciplinary Graduate Program in Genetics in Genomics, Texas A&M University, College Station, Texas 78743, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kapoor, Utkarsh",
+        "short_name": "Kapoor U",
+        "identifiers": [
+          "0000-0002-4977-3405"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 78743, United States."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, District of Columbia."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 78743, United States.",
+          "Department of Chemistry, Texas A&M University, College Station, Texas 78743, United States.",
+          "Interdisciplinary Graduate Program in Genetics in Genomics, Texas A&M University, College Station, Texas 78743, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 May 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/09 06:41",
+    "fetched_at": "2026-09-20 22:36:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37292850",
+      "37988476",
+      "33934416",
+      "36537242",
+      "37870432",
+      "34001913",
+      "31952807",
+      "38592759",
+      "26699921",
+      "33453922",
+      "33076213",
+      "37915169",
+      "26575522",
+      "37398008",
+      "22243406",
+      "38048471",
+      "28764380",
+      "38746378",
+      "38979955",
+      "37662293",
+      "17142268",
+      "33876938",
+      "28185115",
+      "28636604",
+      "38862770",
+      "38429335",
+      "30845353",
+      "35158124",
+      "21361530",
+      "39148776",
+      "24116642",
+      "30643172",
+      "26956528",
+      "23912807",
+      "21155552",
+      "22385856",
+      "29466859",
+      "35381009",
+      "33660589",
+      "32610441",
+      "38547652",
+      "21905717",
+      "37189373",
+      "19280018",
+      "38106110",
+      "33133421",
+      "23418426",
+      "22298285",
+      "31984192",
+      "18270964",
+      "18601324",
+      "38512104",
+      "38546977",
+      "36841957",
+      "22852610",
+      "34352244",
+      "31106383",
+      "34716273",
+      "29339721",
+      "22475134",
+      "35580041",
+      "21682507",
+      "30565944",
+      "27757454",
+      "30153027",
+      "26583735",
+      "29481754",
+      "34489435",
+      "25903863",
+      "31176328",
+      "31370551",
+      "18808094",
+      "36066390",
+      "26615701",
+      "35626506",
+      "30514760",
+      "35351518",
+      "28958932",
+      "26626671",
+      "28682610",
+      "36778479",
+      "26575730",
+      "29186229",
+      "30354110",
+      "30702887",
+      "38664966",
+      "35166834",
+      "26579774",
+      "16494412",
+      "37325682",
+      "25517156",
+      "36710442",
+      "19280011",
+      "36681649",
+      "25387958",
+      "17290360",
+      "33978410",
+      "25443957"
+    ],
+    "review": [
+      "37292850",
+      "26575522",
+      "38979955",
+      "26956528",
+      "38547652",
+      "36710442"
+    ],
+    "pmc": [
+      "10245785"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37292850/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37292850",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.05.19.541513",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.09.426049",
+  "title": "An Intrinsically Disordered Pathological Variant of the Prion Protein Y145Stop Transforms into Self-Templating Amyloids via Liquid-Liquid Phase Separation",
+  "authors": "Aishwarya Agarwal; Sandeep K. Rai; Anamika Avni; Samrat Mukhopadhyay",
+  "journal": "bioRxiv",
+  "published_date": "2021-01-09",
+  "window": {
+    "start": "2021-01-04",
+    "end": "2021-01-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过实验与多方法表征，揭示朊蛋白病理截短变体Y145Stop的无序N端经液-液相分离形成液滴并转化为自模板淀粉样聚集体，聚焦IDR介导的相分离与互作机制，虽以实验为主但机制建模深度高，对本课题有直接启发。",
+  "abstract": "Biomolecular condensation via liquid-liquid phase separation of intrinsically disordered proteins/regions (IDPs/IDRs) along with other biomolecules is thought to govern critical cellular functions, whereas, aberrant phase transitions are associated with a range of deadly neurodegenerative diseases. Here we show, a naturally occurring pathological truncation variant of the prion protein (PrP) by a mutation of a tyrosine residue at 145 to a stop codon (Y145Stop) yielding a highly disordered N-terminal IDR that spontaneously phase-separates into liquid-like droplets. Phase separation of this N-terminal segment that is rich in positively charged and aromatic residues is promoted by the electrostatic screening and a multitude of other transient, intermolecular, noncovalent interactions. Single-droplet Raman measurements in conjunction with an array of bioinformatic, spectroscopic, microscopic, and mutagenesis studies revealed that the intrinsic disorder and dynamics are retained in the liquid-like condensates. Lower concentrations of RNA promote the phase transition of Y145Stop at low micromolar protein concentrations under physiological condition. Whereas, higher RNA to protein ratios inhibit condensation indicating the role of RNA in modulating the phase behavior of Y145Stop. Highly dynamic liquid-like droplets eventually transform into dynamically-arrested, ordered, β-rich, amyloid-like aggregates via liquid-to-solid transition upon aging. These amyloid-like aggregates formed via phase separation display the self-templating characteristic and are capable of recruiting and autocatalytically converting monomeric Y145Stop into amyloid fibrils. In contrast to this disease-associated intrinsically disordered Y145 truncated variant, the wild-type full-length PrP exhibited a much lower propensity for phase separation and liquid-to-solid maturation into amyloid-like aggregates hinting at a potentially crucial, chaperone-like, protecting role of the globular C-terminal domain that remains largely conserved in vertebrate evolution. Such an intriguing interplay in the modulation of the protein phase behavior will have much broader implications in cell physiology and disease.",
+  "abstract_zh": "intrinsically disordered proteins/regions (IDPs/IDRs) 等生物分子通过液-液相分离进行的生物分子凝聚被认为调控关键细胞功能，而异常的相变与一系列致命性神经退行性疾病相关。在此，我们展示了一种天然存在的病理性截短变异体朊蛋白（prion protein, PrP），该变异体由145位酪氨酸残基突变为终止密码子（Y145Stop）产生，形成高度无序的N端IDR，该区域自发相分离为液滴状液滴。富含正电荷和芳香族残基的N端片段的相分离由静电屏蔽及多种其他瞬时的、分子间的、非共价相互作用促进。单液滴拉曼测量结合一系列生物信息学、光谱学、显微镜学和突变研究揭示，内在无序性和动态性在液滴状凝聚体中得以保留。低浓度RNA在生理条件下促进Y145Stop在低微摩尔蛋白浓度下的相变，而较高的RNA与蛋白比例抑制凝聚，表明RNA在调节Y145Stop相行为中的作用。高度动态的液滴状液滴最终通过液-固转变在老化过程中转化为动态停滞的、有序的、富含β的淀粉样蛋白样聚集体。这些通过相分离形成的淀粉样蛋白样聚集体表现出自模板特性，并能够招募和自催化转化单体Y145Stop为淀粉样纤维。与此疾病相关的内在无序Y145截短变异体相比，野生型全长PrP表现出显著较低的相分离倾向和液-固成熟为淀粉样蛋白样聚集体的能力，暗示了在脊椎动物进化中高度保守的球状C端结构域可能具有关键的、类似伴侣的保护作用。这种在蛋白相行为调节中的有趣相互作用将在细胞生理学和疾病中具有更广泛的意义。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.09.426049",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.09.426049",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.09.426049/index.html"
+}

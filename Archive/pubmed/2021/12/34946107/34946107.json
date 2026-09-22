@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "34946107",
+    "doi": "10.3390/microorganisms9122506",
+    "title": "Insights into the Neutralization and DNA Binding of Toxin-Antitoxin System ParE(SO)-CopA(SO) by Structure-Function Studies."
+  },
+  "content": {
+    "abstract": "ParE(SO)-CopA(SO) is a new type II toxin-antitoxin (TA) system in prophage CP4So that plays an essential role in circular CP4So maintenance after the excision in Shewanella oneidensis. The toxin ParE(SO) severely inhibits cell growth, while CopA(SO) functions as an antitoxin to neutralize ParE(SO) toxicity through direct interactions. However, the molecular mechanism of the neutralization and autoregulation of the TA operon transcription remains elusive. In this study, we determined the crystal structure of a ParE(SO)-CopA(SO) complex that adopted an open V-shaped heterotetramer with the organization of ParE(SO)-(CopA(SO))(2)-ParE(SO). The structure showed that upon ParE(SO) binding, the intrinsically disordered C-terminal domain of CopA(SO) was induced to fold into a partially ordered conformation that bound into a positively charged and hydrophobic groove of ParE(SO). Thermodynamics analysis showed the DNA-binding affinity of CopA(SO) was remarkably higher than that of the purified TA complex, accompanied by the enthalpy change reversion from an exothermic reaction to an endothermic reaction. These results suggested ParE(SO) acts as a de-repressor of the TA operon transcription at the toxin:antitoxin level of 1:1. Site-directed mutagenesis of ParE(SO) identified His91 as the essential residue for its toxicity by cell toxicity assays. Our structure-function studies therefore elucidated the transcriptional regulation mechanism of the ParE(SO)-CopA(SO) pair, and may help to understand the regulation of CP4So maintenance in S. oneidensis.",
+    "keywords": [
+      "ParE toxin",
+      "crystal structure",
+      "neutralization mechanism",
+      "toxin-antitoxin"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Juan",
+        "Du, Xue-Jian",
+        "Liu, Ying",
+        "Gao, Zeng-Qiang",
+        "Geng, Zhi",
+        "Dong, Yu-Hui",
+        "Zhang, Heng"
+      ],
+      "short_names": [
+        "Zhou J",
+        "Du XJ",
+        "Liu Y",
+        "Gao ZQ",
+        "Geng Z",
+        "Dong YH",
+        "Zhang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Health Sciences and School of Life Science, Anhui University, Hefei 230601, China.",
+        "Institute of Health Sciences and School of Life Science, Anhui University, Hefei 230601, China.",
+        "Beijing Synchrotron Radiation Facility, Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, China.",
+        "Beijing Synchrotron Radiation Facility, Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, China.",
+        "Beijing Synchrotron Radiation Facility, Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, China.",
+        "Beijing Synchrotron Radiation Facility, Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Beijing Synchrotron Radiation Facility, Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Juan",
+        "short_name": "Zhou J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Health Sciences and School of Life Science, Anhui University, Hefei 230601, China."
+        ]
+      },
+      {
+        "full_name": "Du, Xue-Jian",
+        "short_name": "Du XJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Health Sciences and School of Life Science, Anhui University, Hefei 230601, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Ying",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Synchrotron Radiation Facility, Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Zeng-Qiang",
+        "short_name": "Gao ZQ",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Synchrotron Radiation Facility, Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Geng, Zhi",
+        "short_name": "Geng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Synchrotron Radiation Facility, Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Yu-Hui",
+        "short_name": "Dong YH",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Synchrotron Radiation Facility, Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Heng",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Synchrotron Radiation Facility, Institute of High Energy Physics, Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Microorganisms"
+    ],
+    "journal_abbrev": [
+      "Microorganisms"
+    ],
+    "pub_date": "2021 Dec 3",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/25 06:00",
+    "fetched_at": "2026-09-20 07:16:34"
+  },
+  "links": {
+    "cites": [
+      "41931616",
+      "38004763",
+      "37415454",
+      "36504814"
+    ],
+    "refs": [
+      "34196617",
+      "33342606",
+      "33045733",
+      "32382148",
+      "31101334",
+      "30427086",
+      "29878152",
+      "29411516",
+      "27754618",
+      "27379032",
+      "27169810",
+      "26996937",
+      "26991085",
+      "26478181",
+      "24923448",
+      "24806488",
+      "22495927",
+      "21927020",
+      "20383002",
+      "20383001",
+      "20143871",
+      "20124702",
+      "20057044",
+      "20005802",
+      "19712680",
+      "19423702",
+      "19124462",
+      "18532983",
+      "16929101",
+      "16109374",
+      "15864262",
+      "15718296",
+      "14659018",
+      "12787364",
+      "12526800",
+      "12010492",
+      "10944333"
+    ],
+    "similar": [
+      "34946107",
+      "29411516",
+      "31101334",
+      "29555683",
+      "32043192",
+      "26112399",
+      "32038588",
+      "20143871",
+      "27047942",
+      "30936373",
+      "33000860",
+      "33045733",
+      "29518409",
+      "30814507",
+      "30797012",
+      "34795695",
+      "27159580",
+      "31213559",
+      "32845304",
+      "27376329",
+      "28637172",
+      "28575388",
+      "32519742",
+      "23172222",
+      "28986943",
+      "33342606",
+      "34077263",
+      "29878152",
+      "37737533",
+      "23011806",
+      "37106997",
+      "32458560",
+      "30718814",
+      "30793388",
+      "22334680",
+      "30630415",
+      "25112480",
+      "30298644",
+      "28266056",
+      "30315706",
+      "33260607",
+      "25450593",
+      "27672196",
+      "19712680",
+      "27998932",
+      "24163334",
+      "29440365",
+      "20345661",
+      "30428568",
+      "34429367",
+      "33786944",
+      "16430700",
+      "31018964",
+      "30523873",
+      "31375497",
+      "25622615",
+      "30337369",
+      "31771094",
+      "23432955",
+      "17656583",
+      "16838793",
+      "24725376",
+      "16257530",
+      "31101613",
+      "32234815",
+      "27169810",
+      "33921033",
+      "28213540",
+      "31014676",
+      "22140099",
+      "19445953",
+      "30441856",
+      "25538952",
+      "25943309",
+      "31848281",
+      "22287572",
+      "33096014",
+      "33527318",
+      "28536573",
+      "32328049",
+      "30152212",
+      "22247505",
+      "30987346",
+      "21336656",
+      "33877415",
+      "19866893",
+      "36275627"
+    ],
+    "review": [
+      "34946107",
+      "27047942",
+      "33342606",
+      "33786944",
+      "16257530"
+    ],
+    "pmc": [
+      "8706911"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=microorganisms9122506",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34946107/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34946107",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

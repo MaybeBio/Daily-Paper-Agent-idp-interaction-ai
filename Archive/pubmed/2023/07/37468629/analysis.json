@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37468629",
+  "title": "Extreme dynamics in a biomolecular condensate.",
+  "authors": "Galvanetto, Nicola; Ivanovic, Milos T; Chowdhury, Aritra; Sottini, Andrea; Nuesch, Mark F; Nettels, Daniel; Best, Robert B; Schuler, Benjamin",
+  "journal": "Nature",
+  "published_date": "2023-07-20",
+  "window": {
+    "start": "2023-07-17",
+    "end": "2023-07-23"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合单分子光谱与全原子分子动力学模拟，揭示高粘度生物分子凝聚体中无序蛋白链在亚微秒尺度的极端动态及短寿命电荷相互作用，直接聚焦IDR介导的相分离互作机制建模，高度契合本课题。",
+  "abstract": "Proteins and nucleic acids can phase-separate in the cell to form concentrated biomolecular condensates(1-4). The functions of condensates span many length scales: they modulate interactions and chemical reactions at the molecular scale(5), organize biochemical processes at the mesoscale(6) and compartmentalize cells(4). Understanding the underlying mechanisms of these processes will require detailed knowledge of the rich dynamics across these scales(7). The mesoscopic dynamics of biomolecular condensates have been extensively characterized(8), but their behaviour at the molecular scale has remained more elusive. Here, as an example of biomolecular phase separation, we study complex coacervates of two highly and oppositely charged disordered human proteins(9). Their dense phase is 1,000 times more concentrated than the dilute phase, and the resulting percolated interaction network(10) leads to a bulk viscosity 300 times greater than that of water. However, single-molecule spectroscopy optimized for measurements within individual droplets reveals that at the molecular scale, the disordered proteins remain exceedingly dynamic, with their chain configurations interconverting on submicrosecond timescales. Massive all-atom molecular dynamics simulations reproduce the experimental observations and explain this apparent discrepancy: the underlying interactions between individual charged side chains are short-lived and exchange on a pico- to nanosecond timescale. Our results indicate that, despite the high macroscopic viscosity of phase-separated systems, local biomolecular rearrangements required for efficient reactions at the molecular scale can remain rapid.",
+  "abstract_zh": "蛋白质和核酸可以在细胞内发生相分离（phase separation），形成浓缩的生物分子凝聚体（biomolecular condensates）(1-4)。凝聚体的功能跨越多个长度尺度：它们在分子尺度上调节相互作用和化学反应(5)，在介观尺度上组织生化过程(6)，并在细胞内进行区室化(4)。理解这些过程的潜在机制需要详细了解跨这些尺度的丰富动力学(7)。生物分子凝聚体的介观动力学已被广泛表征(8)，但其在分子尺度上的行为仍然较为难以捉摸。在此，作为生物分子相分离的一个例子，我们研究了两种高度且相反带电的无序人类蛋白质的复合凝聚层（complex coacervates）(9)。其致密相比稀相浓缩1,000倍，由此产生的渗透相互作用网络(10)导致其整体粘度比水高300倍。然而，针对单个液滴内测量优化的单分子光谱学揭示，在分子尺度上，无序蛋白质仍然极其动态，其链构象在亚微秒时间尺度上相互转换。大规模全原子分子动力学（molecular dynamics）模拟重现了实验观察结果，并解释了这一明显差异：单个带电侧链之间的潜在相互作用是短暂的，并在皮秒至纳秒时间尺度上交换。我们的结果表明，尽管相分离系统的宏观粘度较高，但分子尺度上高效反应所需的局部生物分子重排仍可保持快速。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37468629/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37468629/",
+  "paper_page_path": "papers/pubmed/37468629/index.html"
+}

@@ -1,0 +1,157 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.30.596451",
+  "title": "Structural dynamics of the intrinsically disordered linker region of cardiac troponin T",
+  "doi": "10.1101/2024.05.30.596451",
+  "abstract": "<h4>ABSTRACT</h4> The cardiac troponin complex, composed of troponins I, T, and C, plays a central role in regulating the calcium-dependent interactions between myosin and the thin filament. Mutations in troponin can cause cardiomyopathies; however, it is still a major challenge to connect how changes in sequence affect troponin’s function. Recent high-resolution structures of the thin filament revealed critical insights into the structure-function relationship of troponin, but there remain large, unresolved segments of troponin, including the troponin-T linker region that is a hotspot for cardiomyopathy mutations. This linker region is predicted to be intrinsically disordered, with behaviors that are not well described by traditional structural approaches; however, this proposal has not been experimentally verified. Here, we used a combination of single-molecule Förster resonance energy transfer (FRET), molecular dynamics simulations, and functional reconstitution assays to investigate the troponin-T linker region. We show that in the context of both isolated troponin and the fully regulated troponin complex, the linker behaves as a dynamic, intrinsically disordered region. This region undergoes polyampholyte expansion in the presence of high salt and distinct conformational changes during the assembly of the troponin complex. We also examine the ΔE160 hypertrophic cardiomyopathy mutation in the linker and demonstrate that it does not affect the conformational dynamics of the linker, rather it allosterically affects interactions with other troponin complex subunits, leading to increased molecular contractility. Taken together, our data clearly demonstrate the importance of disorder within the troponin-T linker and provide new insights into the molecular mechanisms driving the pathogenesis of cardiomyopathies. <h4>SIGNIFICANCE STATEMENT</h4> Troponin plays a central role in regulating heart contraction, and mutations in troponin can cause human cardiomyopathies. There are several functionally-significant regions of troponin that have not been structurally resolved, including the troponin T linker region that contains multiple cardiomyopathy mutations. In these unresolved regions, it is not possible to understand how changes in sequence affect function. We used computational and experimental techniques to demonstrate that this linker is dynamic and intrinsically disordered both in isolation and in the fully regulated thin filament. Moreover, we show how a cardiomyopathy mutation in this region affects function via allosteric disruption of intermolecular interactions. Our results highlight the need to consider how key mutations affect troponin disorder rather than the structure-function relationship.",
+  "authors": [
+    "Cubuk J",
+    "Greenberg L",
+    "Greenberg AE",
+    "Emenecker RJ",
+    "Stuchell-Brereton MD",
+    "Holehouse AS",
+    "Soranno A",
+    "Greenberg MJ"
+  ],
+  "published_date": "2024-05-31",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.30.596451",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.30.596451.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR859787",
+    "raw_record": {
+      "id": "PPR859787",
+      "source": "PPR",
+      "doi": "10.1101/2024.05.30.596451",
+      "title": "Structural dynamics of the intrinsically disordered linker region of cardiac troponin T",
+      "authorString": "Cubuk J, Greenberg L, Greenberg AE, Emenecker RJ, Stuchell-Brereton MD, Holehouse AS, Soranno A, Greenberg MJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Cubuk J",
+            "lastName": "Cubuk",
+            "firstName": "Jasmine",
+            "initials": "J"
+          },
+          {
+            "fullName": "Greenberg L",
+            "lastName": "Greenberg",
+            "firstName": "Lina",
+            "initials": "L"
+          },
+          {
+            "fullName": "Greenberg AE",
+            "lastName": "Greenberg",
+            "firstName": "Akiva",
+            "initials": "AE"
+          },
+          {
+            "fullName": "Emenecker RJ",
+            "lastName": "Emenecker",
+            "firstName": "Ryan",
+            "initials": "RJ"
+          },
+          {
+            "fullName": "Stuchell-Brereton MD",
+            "lastName": "Stuchell-Brereton",
+            "firstName": "Melissa",
+            "initials": "MD"
+          },
+          {
+            "fullName": "Holehouse AS",
+            "lastName": "Holehouse",
+            "firstName": "Alex",
+            "initials": "AS"
+          },
+          {
+            "fullName": "Soranno A",
+            "lastName": "Soranno",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8394-7993"
+            }
+          },
+          {
+            "fullName": "Greenberg MJ",
+            "lastName": "Greenberg",
+            "firstName": "Michael",
+            "initials": "MJ"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8394-7993"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1320-3547"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  The cardiac troponin complex, composed of troponins I, T, and C, plays a central role in regulating the calcium-dependent interactions between myosin and the thin filament. Mutations in troponin can cause cardiomyopathies; however, it is still a major challenge to connect how changes in sequence affect troponin’s function. Recent high-resolution structures of the thin filament revealed critical insights into the structure-function relationship of troponin, but there remain large, unresolved segments of troponin, including the troponin-T linker region that is a hotspot for cardiomyopathy mutations. This linker region is predicted to be intrinsically disordered, with behaviors that are not well described by traditional structural approaches; however, this proposal has not been experimentally verified. Here, we used a combination of single-molecule Förster resonance energy transfer (FRET), molecular dynamics simulations, and functional reconstitution assays to investigate the troponin-T linker region. We show that in the context of both isolated troponin and the fully regulated troponin complex, the linker behaves as a dynamic, intrinsically disordered region. This region undergoes polyampholyte expansion in the presence of high salt and distinct conformational changes during the assembly of the troponin complex. We also examine the ΔE160 hypertrophic cardiomyopathy mutation in the linker and demonstrate that it does not affect the conformational dynamics of the linker, rather it allosterically affects interactions with other troponin complex subunits, leading to increased molecular contractility. Taken together, our data clearly demonstrate the importance of disorder within the troponin-T linker and provide new insights into the molecular mechanisms driving the pathogenesis of cardiomyopathies. <h4>SIGNIFICANCE STATEMENT</h4>  Troponin plays a central role in regulating heart contraction, and mutations in troponin can cause human cardiomyopathies. There are several functionally-significant regions of troponin that have not been structurally resolved, including the troponin T linker region that contains multiple cardiomyopathy mutations. In these unresolved regions, it is not possible to understand how changes in sequence affect function. We used computational and experimental techniques to demonstrate that this linker is dynamic and intrinsically disordered both in isolation and in the fully regulated thin filament. Moreover, we show how a cardiomyopathy mutation in this region affects function via allosteric disruption of intermolecular interactions. Our results highlight the need to consider how key mutations affect troponin disorder rather than the structure-function relationship.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.05.30.596451"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.05.30.596451"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-06-02",
+      "firstPublicationDate": "2024-05-31",
+      "firstIndexDate": "2024-06-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

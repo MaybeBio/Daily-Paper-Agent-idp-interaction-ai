@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41223292",
+  "title": "Poly(1-naphthylamine)-Reinforced Chitosan Films for Smart Packaging: Enhanced Mechanical, Morphological, and Antibacterial Properties.",
+  "authors": "Taylor, Mary; Jenkins, Jayla; Rodriguez, Cristian; Adcock, Audrey; Yang, Liju; Mohiuddin, Mohammad; Riaz, Ufana",
+  "journal": "Langmuir : the ACS journal of surfaces and colloids",
+  "published_date": "2025-11-12",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 3,
+  "one_liner_zh": "该文研究聚(1-萘胺)增强壳聚糖复合膜用于智能包装，虽含分子对接但对象为材料膜与细菌蛋白，非无序蛋白PPI，机制建模启发有限。",
+  "abstract": "The development of sustainable smart packaging materials has driven interest in chitosan (CS) films, reinforced with conducting polymers. In the present work, poly(1-naphthylamine) (PNA) was incorporated into CS matrix at low weight fractions (0.15-1.0 wt %) of PNA to produce composite films with enhanced mechanical and antibacterial performance. Characterizations using Fourier transform infrared, X-ray photoelectron, ultraviolet-visible, and fluorescence spectroscopy revealed significant interfacial interactions, as evidenced by distinct shifts in characteristic absorption peaks and the appearance of polaronic signatures. SEM and confocal imaging confirmed homogeneous PNA dispersion up to 0.5 wt %. The morphological transition from uniform network domains to the formation of agglomerates causes phase separation, which was noticed in composite films with higher PNA content (0.75 and 1 wt %). Mechanical testing indicated a substantial increase in tensile strength to 40 MPa for 0.15-PNA/CS compared to  approximately 5 MPa for pristine CS. The hybrid films exhibited reduced moisture uptake <20% and improved antibacterial activity against Bacillus subtilis, with zones of inhibition increasing from  approximately 0.9 cm for CS to 1.5-2.0 cm for PNA/CS composites. Molecular docking studies supported these findings, showing PNA bound strongly to bacterial target proteins, with the highest affinity (-10.0 kcal mol(-1)) at cavity 3 involving residues HIS353, GLU352, ASP339, and ARG364. Additional binding at cavities 1 and 2 (-7.9 and -7.0 kcal mol(-1)) suggests multisite inhibition of bacterial function. Collectively, these results demonstrate that PNA/CS hybrid films combine structural integrity, moisture resistance, and antimicrobial efficacy, making them promising candidates for active food packaging applications.",
+  "abstract_zh": "可持续智能包装材料的发展推动了人们对以导电聚合物增强的壳聚糖（CS）薄膜的兴趣。在本研究中，将聚（1-萘胺）（PNA）以低质量分数（0.15-1.0 wt %）掺入CS基质中，制备出具有增强机械性能和抗菌性能的复合薄膜。通过傅里叶变换红外光谱、X射线光电子能谱、紫外-可见光谱和荧光光谱的表征揭示了显著的界面相互作用，表现为特征吸收峰的明显位移和极化子特征的出现。扫描电子显微镜和共聚焦成像确认了PNA在高达0.5 wt %时均匀分散。从均匀网络域到团聚体形成的形态转变导致了相分离（phase separation），这在PNA含量较高（0.75和1 wt %）的复合薄膜中被观察到。机械测试表明，与纯CS约5 MPa相比，0.15-PNA/CS的拉伸强度显著增加至40 MPa。混合薄膜表现出降低的水分吸收率（<20%），并增强了对枯草芽孢杆菌（Bacillus subtilis）的抗菌活性，抑菌圈从CS的约0.9 cm增加到PNA/CS复合材料的1.5-2.0 cm。分子对接研究支持了这些发现，显示PNA与细菌靶蛋白强结合，在腔3处亲和力最高（-10.0 kcal mol(-1)），涉及残基HIS353、GLU352、ASP339和ARG364。在腔1和腔2处的额外结合（-7.9和-7.0 kcal mol(-1)）表明对细菌功能的多位点抑制。总体而言，这些结果表明PNA/CS混合薄膜结合了结构完整性、抗湿性和抗菌效能，使其成为活性食品包装应用的有前景候选材料。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41223292/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41223292/",
+  "paper_page_path": "papers/pubmed/41223292/index.html"
+}

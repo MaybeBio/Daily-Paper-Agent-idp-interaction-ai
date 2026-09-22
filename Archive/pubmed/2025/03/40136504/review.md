@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, claims, and evidence presented in the manuscript
+- **Shared manuscript claim summary** The authors review the PE_PGRS protein family in mycobacteria, propose that some members have specialized virulence functions, and present new bioinformatic analyses suggesting that a specific M. marinum PE_PGRS gene is linked to host sterol responses and that PE_PGRS proteins have high phase separation propensity.
+- **Visible evidence base** Manuscript text, figures referenced (Figures 1-6), supplemental figures and tables referenced, published literature citations
+- **Missing materials affecting confidence** Figures and supplemental materials not provided; RNAseq data described as unpublished and personal communication; no experimental validation data
+
+## Reviewer
+- **Overall assessment** This review article synthesizes existing knowledge on PE_PGRS proteins and presents new computational analyses. The topic is timely and relevant given the global burden of tuberculosis. The authors raise interesting hypotheses, particularly regarding phase separation and sterol-responsive PE_PGRS genes. However, the manuscript has significant structural issues, including a mismatch between the broad title and the narrow focus on a few specific findings, overinterpretation of computational predictions, and reliance on unpublished data. The review would benefit from a clearer distinction between established knowledge, the authors' new analyses, and speculative hypotheses.
+- **Who would be interested in the results, and why** Researchers studying mycobacterial pathogenesis, PE/PPE protein families, host-pathogen interactions, and tuberculosis vaccine or therapy development. The phase separation hypothesis may also interest researchers studying biomolecular condensates in bacterial systems.
+- **Major strengths** The manuscript provides a useful synthesis of PE_PGRS biology, highlights the value of non-pathogenic mycobacteria and the zebrafish model, and introduces novel computational approaches using AlphaFold3. The phase separation hypothesis is creative and potentially field-opening.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that M. marinum PE_PGRS1 is involved in host sterol response based on genomic context and unpublished RNAseq data.
+  - **Evidence pointer** Section 4, Figure 3, "personal communication"
+  - **Concern** The central novel claim regarding PE_PGRS1 sterol responsiveness rests entirely on unpublished RNAseq data described as "personal communication" and genomic context inference. No experimental data, statistical analysis, or methodological details are provided.
+  - **Why it matters** This claim is presented as a key finding of the review and is used to support the broader argument about specialized PE_PGRS functions. Without verifiable evidence, the claim cannot be evaluated.
+  - **Resolution test** Provide the RNAseq data, including experimental conditions, replicates, statistical analysis, and differential expression results, or clearly label this as a hypothesis rather than a finding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Overinterpretation of computational predictions
+  - **Claim pointer** The authors state that AlphaFold3 analysis "shows that the strongest, most stable binding occurs in the PE region" for PE_PGRS-TLR2 interactions and that this "surpasses" previous descriptions.
+  - **Evidence pointer** Section 5, Figure 6, Supplemental Figure S4
+  - **Concern** AlphaFold3 predictions of protein-protein interactions, especially for intrinsically disordered or low-complexity regions, are not experimentally validated. The claim that the modeling "surpasses" prior work is subjective and not supported by quantitative comparison.
+  - **Why it matters** The phase separation and TLR2 interaction model is a central speculative framework. Overstating confidence in computational predictions could mislead readers.
+  - **Resolution test** Clearly state the limitations of AlphaFold3 for this application, provide confidence metrics, and frame the interaction model as a testable hypothesis rather than a demonstrated finding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and focus
+  - **Claim pointer** The title asks whether all PE_PGRS proteins are equal or some are "more equal," implying a comprehensive comparative analysis.
+  - **Evidence pointer** Title, entire manuscript
+  - **Concern** The manuscript does not deliver a systematic comparison of PE_PGRS proteins across species or within M. tuberculosis. The focus narrows quickly to M. marinum PE_PGRS1 and phase separation, leaving the broader question largely unanswered.
+  - **Why it matters** The title sets expectations that the content does not meet, which may disappoint readers and dilute the impact of the specific findings presented.
+  - **Resolution test** Either broaden the comparative analysis to address the title question directly or revise the title to reflect the actual scope.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and transparency
+  - **Claim pointer** The authors state that "our own bioinformatic investigation reveals that no identifiable genes encoding PE_PGRS domain proteins can be found in the genome of various pathogenic NTM strains such as M. avium and M. abscessus."
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Concern** The methods for this bioinformatic investigation are not described. No search parameters, databases, thresholds, or validation approaches are given. The manual inspection is mentioned but not detailed.
+  - **Why it matters** A negative result of this nature requires clear methodology to be credible, especially given the authors acknowledge issues with BLAST searches in high-GC regions.
+  - **Resolution test** Provide detailed methods, including search parameters, databases used, and how false negatives were excluded.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, statement about M. avium and M. abscessus
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The statement that M. avium and M. abscessus lack PE_PGRS genes contradicts some published literature. The authors should acknowledge potential discrepancies with existing annotations.
+  - **Required correction** Add a brief discussion of conflicting reports or clarify the specific strains and databases used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 5, "HPS box"
+  - **Evidence pointer** Section 4, Figure 3
+  - **Issue** The authors introduce the term "HPS box" and then suggest it could also stand for "highly preserved sterol response." This dual naming is confusing.
+  - **Required correction** Choose one name and use it consistently, or explicitly state that the acronym is provisional.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Section 4, PE_PGRS1 sterol induction
+  - **Evidence pointer** Section 4, "personal communication"
+  - **Issue** Reliance on personal communication for a key claim is unusual in a review article.
+  - **Required correction** Either provide the data as a supplementary item or cite a preprint or published source.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1-6
+  - **Evidence pointer** Figures 1-6, not provided
+  - **Issue** Figures are referenced but not available for review. Their quality and informativeness cannot be assessed.
+  - **Required correction** Ensure figures are high-resolution, self-explanatory, and include clear legends.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (unpublished data for sterol claim), R1-M2 (overinterpretation of AlphaFold3), R1-M4 (undocumented bioinformatic methods)
+
+## Risk / unsupported claims
+- The claim that M. marinum PE_PGRS1 is induced by host sterols is unsupported by verifiable evidence.
+- The claim that AlphaFold3 modeling "surpasses" previous descriptions of PE_PGRS-TLR2 interactions is not substantiated.
+- The assertion that PE_PGRS proteins have "an exceptionally powerful and unprecedented ability to undergo phase separation" is based solely on computational prediction and lacks experimental validation.
+- The negative finding of no PE_PGRS genes in M. avium and M. abscessus lacks methodological transparency.
+- The statement that PE_PGRS proteins "might serve other functions in M. tuberculosis unrelated to pathogenicity" is speculative and not developed with evidence.

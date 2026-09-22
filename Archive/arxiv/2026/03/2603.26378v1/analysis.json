@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2603.26378v1",
+  "title": "Generative Modeling in Protein Design: Neural Representations, Conditional Generation, and Evaluation Standards",
+  "authors": "Senura Hansaja Wanasekara; Minh-Duong Nguyen; Xiaochen Liu; Nguyen H. Tran; Ken-Tye Yong",
+  "journal": "",
+  "published_date": "2026-03-27",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 7,
+  "one_liner_zh": "这是一篇关于蛋白质设计生成式AI的系统综述，涵盖表示、架构和任务设置，并明确将无序区域建模列为开放挑战，虽非专门针对IDR-PPI机制建模，但为相关方法迁移提供了框架性启发。",
+  "abstract": "Generative modeling has become a central paradigm in protein research, extending machine learning beyond structure prediction toward sequence design, backbone generation, inverse folding, and biomolecular interaction modeling. However, the literature remains fragmented across representations, model classes, and task formulations, making it difficult to compare methods or identify appropriate evaluation standards. This survey provides a systematic synthesis of generative AI in protein research, organized around (i) foundational representations spanning sequence, geometric, and multimodal encodings; (ii) generative architectures including $\\mathrm{SE}(3)$-equivariant diffusion, flow matching, and hybrid predictor-generator systems; and (iii) task settings from structure prediction and de novo design to protein-ligand and protein-protein interactions. Beyond cataloging methods, we compare assumptions, conditioning mechanisms, and controllability, and we synthesize evaluation best practices that emphasize leakage-aware splits, physical validity checks, and function-oriented benchmarks. We conclude with critical open challenges: modeling conformational dynamics and intrinsically disordered regions, scaling to large assemblies while maintaining efficiency, and developing robust safety frameworks for dual-use biosecurity risks. By unifying architectural advances with practical evaluation standards and responsible development considerations, this survey aims to accelerate the transition from predictive modeling to reliable, function-driven protein engineering.",
+  "abstract_zh": "生成建模已成为蛋白质研究中的核心范式，将机器学习从结构预测扩展到序列设计、骨架生成、逆折叠及生物分子相互作用建模。然而，相关文献在表示形式、模型类别和任务设定上仍显分散，使得方法比较或评估标准的确立变得困难。本综述对蛋白质研究中的生成式人工智能进行了系统综合，围绕以下三个方面组织：（i）基础表示，涵盖序列、几何和多模态编码；（ii）生成架构，包括$\\mathrm{SE}(3)$-等变扩散、流匹配及混合预测-生成系统；以及（iii）任务设定，从结构预测和从头设计到蛋白质-配体及蛋白质-蛋白质相互作用。除方法编目外，我们还比较了假设、条件机制和可控性，并综合了强调泄漏感知数据划分、物理有效性检查和功能导向基准的评估最佳实践。最后，我们指出关键开放挑战：构象动力学和固有无序区域的建模、在保持效率的同时扩展到大型组装体，以及为双重用途生物安全风险制定稳健的安全框架。通过将架构进展与实际评估标准和负责任开发考量相统一，本综述旨在加速从预测建模向可靠、功能驱动的蛋白质工程的转变。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2603.26378v1",
+  "source_url": "https://arxiv.org/abs/2603.26378v1",
+  "paper_page_path": "papers/arxiv/2603.26378v1/index.html"
+}

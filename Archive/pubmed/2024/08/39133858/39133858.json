@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "39133858",
+    "doi": "10.1073/pnas.2315005121",
+    "title": "AlphaFold2-based prediction of the co-condensation propensity of proteins."
+  },
+  "content": {
+    "abstract": "The process of protein phase separation into liquid condensates has been implicated in the formation of membraneless organelles (MLOs), which selectively concentrate biomolecules to perform essential cellular functions. Although the importance of this process in health and disease is increasingly recognized, the experimental identification of proteins forming MLOs remains a complex challenge. In this study, we addressed this problem by harnessing the power of AlphaFold2 to perform computational predictions of the conformational properties of proteins from their amino acid sequences. We thus developed the CoDropleT (co-condensation into droplet transformer) method of predicting the propensity of co-condensation of protein pairs. The method was trained by combining experimental datasets of co-condensing proteins from the CD-CODE database with curated negative datasets of non-co-condensing proteins. To illustrate the performance of the method, we applied it to estimate the propensity of proteins to co-condense into MLOs. Our results suggest that CoDropleT could facilitate functional and therapeutic studies on protein condensation by predicting the composition of protein condensates.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Parkinson's disease",
+      "liquid-liquid phase separation",
+      "protein misfolding",
+      "supersaturation"
+    ],
+    "mesh_terms": [
+      "*Proteins/chemistry/metabolism",
+      "Computational Biology/methods",
+      "Organelles/metabolism",
+      "Protein Conformation",
+      "Databases, Protein",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Shengyu",
+        "Lim, Christine M",
+        "Occhetta, Martina",
+        "Vendruscolo, Michele"
+      ],
+      "short_names": [
+        "Zhang S",
+        "Lim CM",
+        "Occhetta M",
+        "Vendruscolo M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5169-6672",
+        "ORCID: 0009-0006-6434-3733",
+        "ORCID: 0000-0002-3616-1610"
+      ],
+      "affiliations": [
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Shengyu",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Lim, Christine M",
+        "short_name": "Lim CM",
+        "identifiers": [
+          "0000-0002-5169-6672"
+        ],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Occhetta, Martina",
+        "short_name": "Occhetta M",
+        "identifiers": [
+          "0009-0006-6434-3733"
+        ],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Vendruscolo, Michele",
+        "short_name": "Vendruscolo M",
+        "identifiers": [
+          "0000-0002-3616-1610"
+        ],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2024 Aug 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/12 18:43",
+    "fetched_at": "2026-09-21 09:32:18"
+  },
+  "links": {
+    "cites": [
+      "42573943",
+      "42184109",
+      "41969219",
+      "41688461",
+      "39133840"
+    ],
+    "refs": [
+      "37207400",
+      "37171907",
+      "37024650",
+      "36979462",
+      "36528388",
+      "36528065",
+      "36138006",
+      "36009025",
+      "35974095",
+      "35687670",
+      "35610022",
+      "35474477",
+      "35168563",
+      "34265844",
+      "34108660",
+      "33827920",
+      "33535034",
+      "33510441",
+      "33318217",
+      "33169001",
+      "31594803",
+      "31252218",
+      "30994888",
+      "30682370",
+      "29961577",
+      "29602697",
+      "29439243",
+      "29424691",
+      "29064502",
+      "28935776",
+      "28844694",
+      "28225081",
+      "27602576",
+      "27552079",
+      "27056844",
+      "26474065",
+      "26406374",
+      "25747659",
+      "25288112",
+      "24825614",
+      "22398450",
+      "19460965",
+      "17344885"
+    ],
+    "similar": [
+      "39133858",
+      "33126250",
+      "34391803",
+      "38757367",
+      "41814089",
+      "42214054",
+      "38063081",
+      "32194074",
+      "41405960",
+      "31584089",
+      "33077592",
+      "40498985",
+      "36768473",
+      "32947964",
+      "37207400",
+      "33517364",
+      "29758260",
+      "31612960",
+      "35610022",
+      "34342271",
+      "24564523",
+      "37287138",
+      "36945618",
+      "42088442",
+      "39711079",
+      "42336024",
+      "37582439",
+      "40672301",
+      "41351266",
+      "38316988",
+      "19165315",
+      "39592156",
+      "18421371",
+      "37285890",
+      "37464880",
+      "24283794",
+      "34291921",
+      "31252218",
+      "29632271",
+      "34377363",
+      "38773325",
+      "35484036",
+      "32580303",
+      "32936641",
+      "42119874",
+      "39663388",
+      "42018649",
+      "40971691",
+      "24953126",
+      "27115638",
+      "27759121",
+      "40595555",
+      "28166227",
+      "38226524",
+      "35168563",
+      "26315852",
+      "16960974",
+      "16790841",
+      "42336922",
+      "38913900",
+      "33453922",
+      "40867524",
+      "41325268",
+      "35682883",
+      "36702317",
+      "40251890",
+      "26517836",
+      "25148528",
+      "41092354",
+      "37486784",
+      "35687670",
+      "33535034",
+      "41174312",
+      "35680863",
+      "32080961",
+      "32436937",
+      "37664947",
+      "36164646",
+      "34767801",
+      "35883463",
+      "22194998",
+      "32726575",
+      "35762716",
+      "32700504",
+      "42337419",
+      "33081049",
+      "29534977",
+      "17888743",
+      "36227470",
+      "31506351",
+      "31604601",
+      "36288994",
+      "21034480",
+      "41261173",
+      "33318217",
+      "40174317",
+      "33323120",
+      "40141424",
+      "15773999",
+      "22643026"
+    ],
+    "review": [
+      "39133858",
+      "41814089",
+      "32194074",
+      "32947964",
+      "37207400",
+      "29758260",
+      "37582439",
+      "39592156",
+      "37464880",
+      "34291921",
+      "31252218",
+      "29632271",
+      "38773325",
+      "35484036",
+      "42018649",
+      "36702317",
+      "32080961",
+      "37664947",
+      "36164646",
+      "34767801",
+      "35883463",
+      "32726575",
+      "32700504"
+    ],
+    "pmc": [
+      "11348322"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2315005121?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39133858/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

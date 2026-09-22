@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36884001",
+  "title": "IDP Force Fields Applied to Model PPII-Rich 33-mer Gliadin Peptides.",
+  "authors": "Amundarain, Maria J; Vietri, Agustin; Dodero, Veronica I; Costabel, Marcelo D",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2023-03-09",
+  "window": {
+    "start": "2023-03-06",
+    "end": "2023-03-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用IDP专用力场对PPII-rich无序33-mer麦胶蛋白肽进行MD构象系综采样，虽未直接研究PPI，但为后续无序肽与其他蛋白互作的机制建模奠定了方法基础。",
+  "abstract": "The 33-mer gliadin peptide and its deamidated metabolite, 33-mer DGP, are the immunodominant peptides responsible for the adaptive immune response in celiac disease (CD). CD is a complex autoimmune chronic disorder triggered by gluten ingestion that affects the small intestine and affects  approximately 1% of the global population. The 33-mers are polyproline II-rich (PPII) and intrinsically disordered peptides (IDPs), whose structures remain elusive. We sampled the conformational ensembles of both 33-mer peptides via molecular dynamics simulations employing two force fields (FFs) (Amber ff03ws and Amber ff99SB-disp) specifically validated for other IDPs. Our results show that both FFs allow the extensive exploration of the conformational landscape, which was not possible with the standard FF GROMOS53A6 reported before. Clustering analysis of the trajectories showed that the five largest clusters (78-88% of the total structures) present elongated, semielongated, and curved conformations in both FFs. Large average radius of gyration and solvent-exposed surfaces characterized these structures. While the structures sampled are similar, the Amber ff99SB-disp trajectories explored folded conformations with a higher probability. In addition, PPII secondary structure was preserved throughout the trajectories (58-73%) together with a non-negligible content of beta structures (11-23%), in agreement with previous experimental results. This work represents the initial step in studying further the interaction of these peptides with other biologically relevant molecules, which could lead to finally disclose the molecular events that lead to CD.",
+  "abstract_zh": "33-mer 麦胶蛋白肽及其脱酰胺代谢物 33-mer DGP，是乳糜泻（celiac disease, CD）中适应性免疫反应的主要免疫优势肽。CD 是一种由麸质摄入引发的复杂自身免疫性慢性疾病，影响小肠，并波及全球约 1% 的人口。33-mer 肽富含聚脯氨酸 II 型（polyproline II, PPII）结构，且为固有无序肽（intrinsically disordered peptides, IDPs），其结构至今尚不明确。我们通过分子动力学（molecular dynamics）模拟，采用两种针对其他 IDP 验证过的力场（force fields, FFs）（Amber ff03ws 和 Amber ff99SB-disp），对两种 33-mer 肽的构象系综进行了采样。结果表明，两种力场均能广泛探索构象景观，而此前报道的标准力场 GROMOS53A6 则无法实现这一点。轨迹的聚类分析显示，在两种力场下，最大的五个聚类（占总结构的 78-88%）呈现延伸、半延伸和弯曲构象。这些结构以较大的平均回转半径和溶剂暴露表面为特征。尽管采样的结构相似，但 Amber ff99SB-disp 轨迹以更高概率探索了折叠构象。此外，PPII 二级结构在整个轨迹中得以保留（58-73%），同时伴有不可忽略的 β 结构含量（11-23%），这与先前的实验结果一致。本研究是进一步探讨这些肽与其他生物相关分子相互作用的初步步骤，有望最终揭示导致 CD 的分子事件。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36884001/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36884001/",
+  "paper_page_path": "papers/pubmed/36884001/index.html"
+}

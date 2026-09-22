@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a sequence- and structure-based bioinformatics and molecular dynamics study of the cytoplasmic tail (endodomain) of spike glycoproteins from six coronaviruses (in addition to their prior work on SARS-CoV-2), concluding that disorder propensity varies across these endodomains and suggesting relevance for understanding pathogenicity and therapeutic development.
+- **Visible evidence base** Abstract text only; no methodological details, sequence identifiers, structural data, simulation parameters, or quantitative results are provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, methods section, sequence accession numbers, simulation protocols, and statistical analyses are not available for assessment.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful extension of prior work on SARS-CoV-2 spike endodomain disorder to other coronaviruses. However, the abstract lacks sufficient methodological detail, quantitative results, and explicit evidence to evaluate the robustness of the claims. The conclusion that disorder propensity varies across endodomains is reasonable but not substantiated from the abstract alone. The stated therapeutic implications are speculative and not supported by the presented evidence.
+- **Who would be interested in the results, and why** Researchers studying coronavirus spike protein biology, intrinsically disordered regions in viral proteins, and structure-based antiviral target discovery. The work may also interest computational biologists applying bioinformatics and molecular dynamics to viral protein regions.
+- **Major strengths** The study addresses a relatively underexplored region of coronavirus spike proteins, the cytoplasmic endodomain, which is relevant to viral assembly and host interactions. The combination of multiple bioinformatics approaches with molecular dynamics simulations is a reasonable strategy for assessing disorder propensity. The continuity with prior work on SARS-CoV-2 provides a coherent research trajectory.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "we report the varying disorder propensity in endodomains of spike proteins of coronaviruses" based on "comprehensive analysis of its sequence and structural composition."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data, no comparative metrics, no statistical significance, and no specific examples of disorder propensity differences among the six coronaviruses. The claim of "varying disorder propensity" is asserted without any visible supporting numbers, scores, or comparisons.
+  - **Why it matters** Without quantitative evidence, the central conclusion cannot be evaluated for validity or significance. The reader cannot determine whether the observed variation is biologically meaningful or within noise.
+  - **Resolution test** Provide specific disorder propensity scores (e.g., from IUPred, PONDR, or similar tools) for each endodomain, with statistical comparisons and confidence intervals, and show that differences are robust across methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The study uses "multiple bioinformatics approaches and molecular dynamics simulations" to explore endodomain disorder.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which bioinformatics tools were used, which coronaviruses were analyzed, what simulation length or force field was employed, or how disorder was defined and quantified. This lack of detail prevents reproducibility and critical assessment.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without tool names, parameters, and virus strain identifiers, the work cannot be independently verified or compared with existing literature.
+  - **Resolution test** List all tools and versions, sequence accession numbers, simulation parameters, and analysis pipelines in the methods section, and summarize key parameters in the abstract or a table.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim scope
+  - **Claim pointer** The authors state that "these flexible regions can be exciting and essential targets to be explored for their role in pathogenicity and therapeutic developments."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract implies therapeutic relevance without presenting any functional, experimental, or clinical evidence linking endodomain disorder to pathogenicity or drug targeting. This is a speculative extrapolation from sequence-based predictions.
+  - **Why it matters** Overstating translational implications without functional validation can mislead readers and overstate the study's practical significance.
+  - **Resolution test** Either temper the language to clearly indicate that therapeutic relevance is a hypothesis requiring experimental testing, or provide functional data (e.g., mutagenesis, cellular assays) supporting the claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract background statement
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence "Any protein's flexibility or region makes it available to interact with many biomolecules in the cell" is imprecise and grammatically awkward. It conflates flexibility with region and does not clearly define the concept.
+  - **Required correction** Rewrite for clarity, for example: "Regions of intrinsic flexibility in proteins enable interactions with multiple biomolecules, a property that viruses exploit to expand functional complexity despite small genomes."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Study scope
+  - **Evidence pointer** Abstract, "six other coronaviruses"
+  - **Issue** The abstract does not name the six coronaviruses studied, which limits the reader's ability to assess the breadth and relevance of the analysis.
+  - **Required correction** List the six coronavirus species or strains in the abstract or provide a table in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "endodomain" and "cytoplasmic tail"
+  - **Evidence pointer** Abstract, "cytoplasmic tail (CTR), or endodomain"
+  - **Issue** The terms are used interchangeably, but "endodomain" is broader and may include transmembrane-adjacent regions. Clarify the exact sequence boundaries analyzed.
+  - **Required correction** Define the residue range or domain boundaries for the endodomain in the methods and state whether the full cytoplasmic tail or a subregion was analyzed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claim of varying disorder propensity is not supported by visible quantitative evidence, and the methodology is insufficiently described for evaluation. R1-M3 is non-blocking but should be addressed to avoid overstatement.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The extension of disorder analysis to six additional coronaviruses is a useful incremental contribution, but the approach is not novel in itself.  
+  - Scientific importance: Moderate. Understanding endodomain disorder may inform viral biology, but the abstract does not demonstrate functional consequences.  
+  - Interdisciplinary readership: Limited. The work is primarily of interest to virologists and computational biologists; broader appeal is not evident from the abstract.  
+  - Technical soundness: Not assessable from the abstract. No methodological details or validation metrics are provided.  
+  - Readability for nonspecialists: The abstract is accessible but contains vague phrasing and undefined terms that reduce clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient quantitative or methodological detail to support the central claims. A revised version with explicit data, tool names, and tempered conclusions could be reconsidered.
+
+## Risk / unsupported claims
+- The claim of "varying disorder propensity" is unsupported by any visible quantitative data in the abstract.
+- The statement that endodomains are "essential targets" for therapeutic development is speculative and not supported by functional evidence.
+- The relevance of the findings to "pathogenicity" is asserted without experimental or clinical correlation.
+- The general claim that flexibility enables interactions and thereby enhances viral function is presented as a premise but not tested or referenced within the abstract.

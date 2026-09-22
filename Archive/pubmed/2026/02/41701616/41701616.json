@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "41701616",
+    "doi": "10.1093/plcell/koag028",
+    "title": "Molecular determinants underlying NPH3 condensation and function in phototropism: an integrative approach."
+  },
+  "content": {
+    "abstract": "The plasma membrane-associated protein NON-PHOTOTROPIC HYPOCOTYL 3 (NPH3) is a key component of plant phototropism. In response to blue light, NPH3 is released into the cytosol, where it undergoes a dynamic transition into membrane-less biomolecular condensates; these processes are both reversible. In this study, we combined experimental evidence with artificial intelligence-based protein structure predictions to uncover a C-terminal bipartite motif that mediates NPH3 self-interaction to differing extents and enables NPH3 trimer formation. We demonstrate that this self-association motif is essential for both NPH3 association with the plasma membrane and condensate assembly in the cytosol, with a different part of the motif playing the key role in each case. Formation of cytosolic condensates also requires the cooperative action of an N-terminal NPH3 motif yet appears to proceed independently of other proteins. Our findings suggest that NPH3 assembles into a polymerization-driven single-component condensate through self-crosslinking of homo-oligomers. NPH3 variants deficient in condensate formation retain key features of NPH3 but are nonfunctional. Based on current knowledge, this suggests that phase separation, likely involving transient cytosolic sequestration of NPH3, plays an important role in mediating phototropic responses. This structural snapshot may assist in future studies of the plant-specific NPH3/ROOT PHOTOTROPISM 2-Like protein family.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Arabidopsis Proteins/metabolism/genetics/chemistry",
+      "*Arabidopsis/metabolism/genetics/physiology",
+      "*Phototropism/physiology",
+      "Cytosol/metabolism",
+      "Cell Membrane/metabolism",
+      "Light",
+      "Amino Acid Motifs",
+      "*Membrane Proteins/metabolism/genetics",
+      "Protein Multimerization"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Manishankar, Prabha",
+        "Fernandez, Atiara",
+        "Rohr, Leander",
+        "Yigit, Yeliz Idil",
+        "Reuter, Lea",
+        "Schmidt, Tanja",
+        "Droste-Borel, Irina",
+        "Keicher, Jutta",
+        "Bock, Andrea",
+        "Oecking, Claudia"
+      ],
+      "short_names": [
+        "Manishankar P",
+        "Fernandez A",
+        "Rohr L",
+        "Yigit YI",
+        "Reuter L",
+        "Schmidt T",
+        "Droste-Borel I",
+        "Keicher J",
+        "Bock A",
+        "Oecking C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3178-8510",
+        "ORCID: 0009-0000-5369-2387",
+        "ORCID: 0000-0003-4592-4197",
+        "ORCID: 0009-0007-2304-6158",
+        "ORCID: 0000-0002-3244-9967",
+        "ORCID: 0000-0001-9203-8847",
+        "ORCID: 0000-0001-5491-7162",
+        "ORCID: 0009-0004-5255-7895",
+        "ORCID: 0009-0005-9227-3851",
+        "ORCID: 0000-0003-0635-6457"
+      ],
+      "affiliations": [
+        "Center for Plant Molecular Biology (ZMBP), University of Tubingen, Tubingen, Germany.",
+        "Center for Plant Molecular Biology (ZMBP), University of Tubingen, Tubingen, Germany.",
+        "Center for Plant Molecular Biology (ZMBP), University of Tubingen, Tubingen, Germany.",
+        "Center for Plant Molecular Biology (ZMBP), University of Tubingen, Tubingen, Germany.",
+        "Center for Plant Molecular Biology (ZMBP), University of Tubingen, Tubingen, Germany.",
+        "Center for Plant Molecular Biology (ZMBP), University of Tubingen, Tubingen, Germany.",
+        "Proteome Center Tubingen, University of Tubingen, Tubingen, Germany.",
+        "Center for Plant Molecular Biology (ZMBP), University of Tubingen, Tubingen, Germany.",
+        "Center for Plant Molecular Biology (ZMBP), University of Tubingen, Tubingen, Germany.",
+        "Center for Plant Molecular Biology (ZMBP), University of Tubingen, Tubingen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Manishankar, Prabha",
+        "short_name": "Manishankar P",
+        "identifiers": [
+          "0000-0002-3178-8510"
+        ],
+        "affiliations": [
+          "Center for Plant Molecular Biology (ZMBP), University of Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Fernandez, Atiara",
+        "short_name": "Fernandez A",
+        "identifiers": [
+          "0009-0000-5369-2387"
+        ],
+        "affiliations": [
+          "Center for Plant Molecular Biology (ZMBP), University of Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Rohr, Leander",
+        "short_name": "Rohr L",
+        "identifiers": [
+          "0000-0003-4592-4197"
+        ],
+        "affiliations": [
+          "Center for Plant Molecular Biology (ZMBP), University of Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Yigit, Yeliz Idil",
+        "short_name": "Yigit YI",
+        "identifiers": [
+          "0009-0007-2304-6158"
+        ],
+        "affiliations": [
+          "Center for Plant Molecular Biology (ZMBP), University of Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Reuter, Lea",
+        "short_name": "Reuter L",
+        "identifiers": [
+          "0000-0002-3244-9967"
+        ],
+        "affiliations": [
+          "Center for Plant Molecular Biology (ZMBP), University of Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Tanja",
+        "short_name": "Schmidt T",
+        "identifiers": [
+          "0000-0001-9203-8847"
+        ],
+        "affiliations": [
+          "Center for Plant Molecular Biology (ZMBP), University of Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Droste-Borel, Irina",
+        "short_name": "Droste-Borel I",
+        "identifiers": [
+          "0000-0001-5491-7162"
+        ],
+        "affiliations": [
+          "Proteome Center Tübingen, University of Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Keicher, Jutta",
+        "short_name": "Keicher J",
+        "identifiers": [
+          "0009-0004-5255-7895"
+        ],
+        "affiliations": [
+          "Center for Plant Molecular Biology (ZMBP), University of Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Bock, Andrea",
+        "short_name": "Bock A",
+        "identifiers": [
+          "0009-0005-9227-3851"
+        ],
+        "affiliations": [
+          "Center for Plant Molecular Biology (ZMBP), University of Tübingen, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Oecking, Claudia",
+        "short_name": "Oecking C",
+        "identifiers": [
+          "0000-0003-0635-6457"
+        ],
+        "affiliations": [
+          "Center for Plant Molecular Biology (ZMBP), University of Tübingen, Tübingen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Plant cell"
+    ],
+    "journal_abbrev": [
+      "Plant Cell"
+    ],
+    "pub_date": "2026 Mar 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/17 18:52",
+    "fetched_at": "2026-09-18 00:58:41"
+  },
+  "links": {
+    "cites": [
+      "42410257"
+    ],
+    "refs": [],
+    "similar": [
+      "41701616",
+      "34675219",
+      "29393576",
+      "34675214",
+      "39365781",
+      "17493935",
+      "41719245",
+      "39604288",
+      "30918082",
+      "24486545",
+      "22374399",
+      "27545835",
+      "16777956",
+      "10542152",
+      "31907539",
+      "35068333",
+      "36629282",
+      "25873385",
+      "23674105",
+      "34608954",
+      "21990941",
+      "34620442",
+      "15031408",
+      "36794876",
+      "26414490",
+      "30941890",
+      "21367967",
+      "25281709",
+      "30265188",
+      "27578868",
+      "39425258",
+      "20071603",
+      "33713940",
+      "7773019",
+      "17913786",
+      "8819327",
+      "30694462",
+      "23196397",
+      "12172018",
+      "22374392",
+      "39121213",
+      "29490064",
+      "15598797",
+      "24076239",
+      "12821778",
+      "23888933",
+      "15119436",
+      "18000043",
+      "11537679",
+      "17662032",
+      "32554507",
+      "21490067",
+      "30373470",
+      "18266898",
+      "10662859",
+      "26867612",
+      "20031920",
+      "24465665",
+      "11371609",
+      "22209764",
+      "20202166",
+      "26095327",
+      "11594371",
+      "32193212",
+      "36972404",
+      "22293854",
+      "37676522",
+      "22843667",
+      "25738325",
+      "12959132",
+      "23709629",
+      "27717456",
+      "18024556",
+      "38833579",
+      "19689999",
+      "24286493",
+      "40939587",
+      "22864452",
+      "15546364",
+      "10557359",
+      "15308754",
+      "28720608",
+      "16908503",
+      "25643813",
+      "27889263",
+      "11289607",
+      "21394084",
+      "14730061",
+      "38305934",
+      "28663371",
+      "9565033",
+      "27029353",
+      "19293157",
+      "23757399",
+      "11538049",
+      "23562459",
+      "24711292",
+      "39883074",
+      "11181717",
+      "18643969"
+    ],
+    "review": [
+      "41701616",
+      "36629282",
+      "39425258",
+      "22293854",
+      "37676522",
+      "22864452",
+      "28720608"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://academic.oup.com/plcell/article-lookup/doi/10.1093/plcell/koag028",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "35119898",
+    "doi": "10.1103/PhysRevLett.128.038102",
+    "title": "Stoichiometry Controls the Dynamics of Liquid Condensates of Associative Proteins."
+  },
+  "content": {
+    "abstract": "Multivalent associative proteins with strong complementary interactions play a crucial role in phase separation of intracellular liquid condensates. We study the internal dynamics of such \"bond-network\" condensates comprising two complementary proteins via scaling analysis and molecular dynamics. We find that when stoichiometry is balanced, relaxation slows down dramatically due to a scarcity of alternative binding partners following bond breakage. This microscopic slow-down strongly affects the bulk diffusivity, viscosity, and mixing, which provides a means to experimentally test this prediction.",
+    "keywords": [],
+    "mesh_terms": [
+      "Biophysical Phenomena",
+      "*Models, Chemical",
+      "Molecular Dynamics Simulation",
+      "*Proteins",
+      "Viscosity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ronceray, Pierre",
+        "Zhang, Yaojun",
+        "Liu, Xichong",
+        "Wingreen, Ned S"
+      ],
+      "short_names": [
+        "Ronceray P",
+        "Zhang Y",
+        "Liu X",
+        "Wingreen NS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for the Physics of Biological Function, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Aix Marseille Univ, CNRS, CINAM, Turing Center for Living Systems, Marseille, France.",
+        "Center for the Physics of Biological Function, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Department of Physics and Astronomy and Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Stanford University School of Medicine, Stanford, California 94305, USA.",
+        "Department of Molecular Biology, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ronceray, Pierre",
+        "short_name": "Ronceray P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for the Physics of Biological Function, Princeton University, Princeton, New Jersey 08544, USA.",
+          "Aix Marseille Univ, CNRS, CINAM, Turing Center for Living Systems, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yaojun",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for the Physics of Biological Function, Princeton University, Princeton, New Jersey 08544, USA.",
+          "Department of Physics and Astronomy and Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Xichong",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA.",
+          "Stanford University School of Medicine, Stanford, California 94305, USA."
+        ]
+      },
+      {
+        "full_name": "Wingreen, Ned S",
+        "short_name": "Wingreen NS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Princeton University, Princeton, New Jersey 08544, USA.",
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical review letters"
+    ],
+    "journal_abbrev": [
+      "Phys Rev Lett"
+    ],
+    "pub_date": "2022 Jan 21",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/05 06:00",
+    "fetched_at": "2026-09-20 08:03:14"
+  },
+  "links": {
+    "cites": [
+      "42599996",
+      "41991555",
+      "41482580",
+      "41481439",
+      "40830340",
+      "40791470",
+      "40455990",
+      "39755440",
+      "39674888",
+      "39642206",
+      "39589726",
+      "39398199",
+      "39320949",
+      "39253471",
+      "39152221",
+      "38751116",
+      "38591689",
+      "38429263",
+      "37996438",
+      "37873097",
+      "37215004",
+      "36804705",
+      "35911447",
+      "35731007"
+    ],
+    "refs": [
+      "34785657",
+      "33704061",
+      "33303613",
+      "33212590",
+      "32767698",
+      "32484438",
+      "32312191",
+      "32214099",
+      "32004090",
+      "31634364",
+      "31540706",
+      "30914457",
+      "30791483",
+      "30323334",
+      "29537440",
+      "29091028",
+      "28938114",
+      "28225081",
+      "27374333",
+      "27212236",
+      "26015579",
+      "24368804",
+      "22398450",
+      "19460965"
+    ],
+    "similar": [
+      "35119898",
+      "36397514",
+      "33704061",
+      "33453268",
+      "37194953",
+      "23912807",
+      "35198903",
+      "31634364",
+      "35501484",
+      "34391803",
+      "36175408",
+      "37468629",
+      "33514117",
+      "33087563",
+      "33629837",
+      "37146746",
+      "36524527",
+      "33119461",
+      "39091847",
+      "30608810",
+      "35597653",
+      "34965250",
+      "30560249",
+      "34624295",
+      "21528972",
+      "32726575",
+      "35815989",
+      "34271007",
+      "35597639",
+      "34291921",
+      "33765580",
+      "34772789",
+      "2049527",
+      "34636323",
+      "33982350",
+      "35881789",
+      "33571491",
+      "35126984",
+      "34330769",
+      "37252985",
+      "35016968",
+      "37261897",
+      "33864415",
+      "35982794",
+      "16035819",
+      "33231755",
+      "32405004",
+      "36595668",
+      "24994710",
+      "36227468",
+      "32275819",
+      "24206485",
+      "23181902",
+      "34995711",
+      "37287688",
+      "35179885",
+      "35171683",
+      "35594491",
+      "33503405",
+      "32822449",
+      "35903998",
+      "37489654",
+      "37105967",
+      "22299897"
+    ],
+    "review": [
+      "35119898",
+      "36524527",
+      "32726575",
+      "35815989",
+      "34271007",
+      "34291921",
+      "33765580",
+      "34772789",
+      "24994710",
+      "34995711"
+    ],
+    "pmc": [
+      "10497325"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://link.aps.org/abstract/PRL/v128/p038102",
+        "provider": "American Physical Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35119898/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35119898",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

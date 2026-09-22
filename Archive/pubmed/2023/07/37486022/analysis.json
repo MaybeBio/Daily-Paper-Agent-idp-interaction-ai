@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37486022",
+  "title": "Competition between beta-Sheet and Coacervate Domains Yields Diverse Morphologies in Mixtures of Oppositely Charged Homochiral Polypeptides.",
+  "authors": "Sinha, Nairiti J; Cunha, Keila Cristina; Murphy, Robert; Hawker, Craig J; Shea, Joan-Emma; Helgeson, Matthew E",
+  "journal": "Biomacromolecules",
+  "published_date": "2023-07-24",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合实验与全原子MD模拟，研究带相反电荷同手性多肽混合物中β-折叠与凝聚体域竞争导致的多样形态及再入相分离，虽对象为模型多肽而非天然IDP，但聚焦凝聚体形成中互作机制与二级结构竞争的物理建模，对本课题的相分离PPI机制模拟有可迁移启发。",
+  "abstract": "Biomolecular assembly processes involving competition between specific intermolecular interactions and thermodynamic phase instability have been implicated in a number of pathological states and technological applications of biomaterials. As a model for such processes, aqueous mixtures of oppositely charged homochiral polypeptides such as poly-l-lysine and poly-l-glutamic acid have been reported to form either beta-sheet-rich solid-like precipitates or liquid-like coacervate droplets depending on competing hydrogen bonding interactions. Herein, we report studies of polypeptide mixtures that reveal unexpectedly diverse morphologies ranging from partially coalescing and aggregated droplets to bulk precipitates, as well as a previously unreported re-entrant liquid-liquid phase separation at high polypeptide concentration and ionic strength. Combining our experimental results with all-atom molecular dynamics simulations of folded polypeptide complexes reveals a concentration dependence of beta-sheet-rich secondary structure, whose relative composition correlates with the observed macroscale morphologies of the mixtures. These results elucidate a crucial balance of interactions that are important for controlling morphology during coacervation in these and potentially similar biologically relevant systems.",
+  "abstract_zh": "涉及特定分子间相互作用与热力学相不稳定性之间竞争的生物分子组装过程，已被认为与多种病理状态及生物材料的技术应用相关。作为此类过程的模型，带相反电荷的同手性多肽（如聚-L-赖氨酸和聚-L-谷氨酸）的水混合物，据报道可根据竞争性氢键相互作用形成富含β-折叠的固态样沉淀或液态样凝聚层液滴。本文中，我们报告了对多肽混合物的研究，揭示了出乎意料的多样化形态，范围从部分聚结和聚集的液滴到块状沉淀，以及在高多肽浓度和离子强度下先前未报道的重入液-液相分离。将我们的实验结果与折叠多肽复合物的全原子分子动力学 (molecular dynamics) 模拟相结合，揭示了β-折叠丰富二级结构的浓度依赖性，其相对组成与观察到的混合物宏观形态相关。这些结果阐明了在这些及可能类似的生物相关系统中，控制凝聚过程中形态至关重要的相互作用平衡。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37486022/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37486022/",
+  "paper_page_path": "papers/pubmed/37486022/index.html"
+}

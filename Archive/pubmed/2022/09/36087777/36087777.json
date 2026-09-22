@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "pmid": "36087777",
+    "doi": "10.1016/j.jmb.2022.167817",
+    "title": "Membrane Tethering of SepF, a Membrane Anchor for the Mycobacterium tuberculosis Z-ring."
+  },
+  "content": {
+    "abstract": "Bacterial cell division begins with the formation of the Z-ring via polymerization of FtsZ and the localization of Z-ring beneath the inner membrane through membrane anchors. In Mycobacterium tuberculosis (Mtb), SepF is one such membrane anchor, but our understanding of the underlying mechanism is very limited. Here we used molecular dynamics simulations to characterize how SepF itself, a water-soluble protein, tethers to acidic membranes that mimic the Mtb inner membrane. In addition to an amphipathic helix (residues 1-12) at the N-terminus, membrane binding also occurs through two stretches of positively charged residues (Arg27-Arg37 and Arg95-Arg107) in the long linker preceding the FtsZ-binding core domain (residues 128-218). The additional interactions via the disordered linker stabilize the membrane tethering of SepF, and keep the core domain of SepF and hence the attached Z-ring close to the membrane. The resulting membrane proximity of the Z-ring in turn enables its interactions with and thus recruitment of two membrane proteins, FtsW and CrgA, at the late stage of cell division.",
+    "keywords": [
+      "Z-ring",
+      "cell division",
+      "intrinsically disordered regions",
+      "membrane anchor",
+      "membrane binding"
+    ],
+    "mesh_terms": [
+      "*Bacterial Proteins/chemistry",
+      "*Cell Division",
+      "*Cytoskeletal Proteins/chemistry",
+      "*Mycobacterium tuberculosis/cytology/physiology",
+      "Molecular Dynamics Simulation",
+      "*Cell Membrane/chemistry",
+      "Protein Domains",
+      "Membrane Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dey, Souvik",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "Dey S",
+        "Zhou HX"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois at Chicago, IL 60607, USA.",
+        "Department of Chemistry, University of Illinois at Chicago, IL 60607, USA; Department of Physics, University of Illinois at Chicago, IL 60607, USA. Electronic address: hzhou43@uic.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dey, Souvik",
+        "short_name": "Dey S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Chicago, IL 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Chicago, IL 60607, USA; Department of Physics, University of Illinois at Chicago, IL 60607, USA. Electronic address: hzhou43@uic.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2022 Nov 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/11 06:00",
+    "fetched_at": "2026-09-20 14:51:43"
+  },
+  "links": {
+    "cites": [
+      "41959284",
+      "39952269",
+      "38560754",
+      "37919400",
+      "37524757",
+      "37503768",
+      "36959324",
+      "36889962",
+      "36863659",
+      "36710643"
+    ],
+    "refs": [],
+    "similar": [
+      "36087777",
+      "24218584",
+      "32242019",
+      "25943244",
+      "29209072",
+      "35799411",
+      "25971440",
+      "22912848",
+      "36959324",
+      "31871036",
+      "37250168",
+      "21531798",
+      "16420366",
+      "31932314",
+      "28500527",
+      "12101218",
+      "30466358",
+      "37716126",
+      "34088904",
+      "27021560",
+      "28100778",
+      "35411648",
+      "31512605",
+      "25548160",
+      "30006469",
+      "21224850",
+      "36680940",
+      "32900832",
+      "16484196",
+      "37503768",
+      "26655719",
+      "18782755",
+      "28065316",
+      "16040206",
+      "25305578",
+      "23692518",
+      "33443155",
+      "28687675",
+      "34903053",
+      "17654828",
+      "23457247",
+      "34938281",
+      "27091999",
+      "29045877",
+      "30010220",
+      "21335646",
+      "19648234",
+      "30261644",
+      "29921670",
+      "33729912",
+      "33737746",
+      "31045565",
+      "27088231",
+      "23888039",
+      "33021149",
+      "24209842",
+      "23002219",
+      "28114338",
+      "26258635",
+      "22298780",
+      "29089389",
+      "20711458",
+      "16159787",
+      "27871169",
+      "26286692",
+      "10960100",
+      "30455283",
+      "25954894",
+      "31036719",
+      "27028265",
+      "35297088",
+      "32279872",
+      "21205868",
+      "32041796",
+      "24595368",
+      "15752196",
+      "17098054",
+      "37158088",
+      "31034983",
+      "33077634",
+      "15882999",
+      "25425238",
+      "31209564",
+      "25418183",
+      "28743721",
+      "24316672",
+      "25490152",
+      "28249098",
+      "23485464",
+      "17043359",
+      "32617695",
+      "23848262",
+      "20625433",
+      "17493130",
+      "16484179",
+      "34103513",
+      "31390865",
+      "29451601",
+      "22787144",
+      "10209756"
+    ],
+    "review": [
+      "36087777",
+      "28500527",
+      "32900832",
+      "37503768",
+      "25305578",
+      "17654828",
+      "23457247",
+      "17098054"
+    ],
+    "pmc": [
+      "9992448"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(22)00436-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36087777/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36087777",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

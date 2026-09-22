@@ -1,0 +1,200 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.07.06.451329",
+  "title": "Investigating the conformational dynamics of SARS-CoV-2 NSP6 protein with emphasis on non-transmembrane 91-112 & 231-290 regions",
+  "doi": "10.1101/2021.07.06.451329",
+  "abstract": "The NSP6 protein of SARS-CoV-2 is a transmembrane protein, with some regions lying outside the membrane. Besides, a brief role of NSP6 in autophagosome formation, this is not studied significantly. Also, there is no structural information available till date. Based on the prediction by TMHMM server for transmembrane prediction, it is found that the N-terminal residues (1-11), middle region residues (91-112) and C-terminal residues (231-290) lies outside the membrane. Molecular Dynamics (MD) simulations showed that NSP6 consisting of helical structures, whereas membrane outside lying region (91-112) showed partial helicity, which further used as model and obtain disordered type conformation after 1.5 microsecond. Whereas, the residues 231-290 has both helical and beta sheet conformations in its structure model. A 200ns simulations resulted in the loss of beta sheet structures, while helical regions remained intact. Further, we have characterized the residue 91-112 by using reductionist approaches. The NSP6 (91-112) was found disordered like in isolation, which gain helical conformation in different biological mimic environmental conditions. These studies can be helpful to study NSP6 (91-112) interactions with host proteins, where different protein conformation might play significant role. The present study adds up more information about NSP6 protein aspect, which could be exploited for its host protein interaction and pathogenesis. <h4>Graphical Abstract</h4> The schematic representation of NSP6 membrane topology and conformational dynamics of residue 91-112. The N-terminal and C-terminal are shown in cytoplasmic side based on the experimental evidence on coronaviruses reported by Oostra et al., 2008. The membrane anchoring domain are shown based on the TMHMM server prediction.",
+  "authors": [
+    "Kumar A",
+    "Kumar P",
+    "Saumya KU",
+    "Giri R"
+  ],
+  "published_date": "2021-07-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.07.06.451329",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.07.06.451329.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR366299",
+    "raw_record": {
+      "id": "PPR366299",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR366299"
+        ]
+      },
+      "doi": "10.1101/2021.07.06.451329",
+      "title": "Investigating the conformational dynamics of SARS-CoV-2 NSP6 protein with emphasis on non-transmembrane 91-112 & 231-290 regions",
+      "authorString": "Kumar A, Kumar P, Saumya KU, Giri R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kumar A",
+            "lastName": "Kumar",
+            "firstName": "Amit",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kumar P",
+            "lastName": "Kumar",
+            "firstName": "Prateek",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saumya KU",
+            "lastName": "Saumya",
+            "firstName": "Kumar Udit",
+            "initials": "KU",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Giri R",
+            "lastName": "Giri",
+            "firstName": "Rajanish",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2046-836X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7392-5045"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9118-7971"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2046-836X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The NSP6 protein of SARS-CoV-2 is a transmembrane protein, with some regions lying outside the membrane. Besides, a brief role of NSP6 in autophagosome formation, this is not studied significantly. Also, there is no structural information available till date. Based on the prediction by TMHMM server for transmembrane prediction, it is found that the N-terminal residues (1-11), middle region residues (91-112) and C-terminal residues (231-290) lies outside the membrane. Molecular Dynamics (MD) simulations showed that NSP6 consisting of helical structures, whereas membrane outside lying region (91-112) showed partial helicity, which further used as model and obtain disordered type conformation after 1.5 microsecond. Whereas, the residues 231-290 has both helical and beta sheet conformations in its structure model. A 200ns simulations resulted in the loss of beta sheet structures, while helical regions remained intact. Further, we have characterized the residue 91-112 by using reductionist approaches. The NSP6 (91-112) was found disordered like in isolation, which gain helical conformation in different biological mimic environmental conditions. These studies can be helpful to study NSP6 (91-112) interactions with host proteins, where different protein conformation might play significant role. The present study adds up more information about NSP6 protein aspect, which could be exploited for its host protein interaction and pathogenesis. <h4>Graphical Abstract</h4>  The schematic representation of NSP6 membrane topology and conformational dynamics of residue 91-112. The N-terminal and C-terminal are shown in cytoplasmic side based on the experimental evidence on coronaviruses reported by Oostra et al., 2008. The membrane anchoring domain are shown based on the TMHMM server prediction.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/07/07/2021.07.06.451329.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.07.06.451329"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR366299"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR366299&type=FILE&fileName=EMS129766-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34648928",
+            "reference": "Microbial pathogenesis. 2021 Dec;161(Pt A):105236",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS129766",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-07-08",
+      "firstPublicationDate": "2021-07-07",
+      "firstIndexDate": "2021-07-08",
+      "fullTextReceivedDate": "2021-07-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

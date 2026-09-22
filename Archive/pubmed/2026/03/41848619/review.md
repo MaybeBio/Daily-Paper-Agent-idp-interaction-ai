@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a systematic study of peptide stereocomplexation using short tripeptides and their enantiomers, driven by hydrophobic and electrostatic interactions, and apply this understanding to design a D-peptide targeting the -FFAE- motif of amyloid beta42, which inhibits fibrillization and cytotoxicity in neuronal-like cells and outperforms a clinical candidate peptide drug RD2.
+- **Visible evidence base** Abstract text only; mentions single-crystal X-ray diffraction, calorimetry, simulations, fluorescence assays, and cell-based assays, but no numerical data, statistical details, or methodological specifics are provided
+- **Missing materials affecting confidence** Full manuscript, experimental procedures, crystallographic data, thermodynamic parameters, simulation details, assay protocols, statistical analyses, and comparison data for RD2
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting strategy that links peptide stereocomplexation to the design of D-peptide ligands for intrinsically disordered proteins. The rationale is plausible and the reported outcomes are potentially significant. However, the abstract alone provides insufficient evidence to evaluate the rigor of the experimental design, the robustness of the structural and thermodynamic claims, or the validity of the functional comparisons. The case is not yet established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in peptide chemistry, protein misfolding and aggregation, drug design for neurodegenerative diseases, and structural biology would find the results relevant. The proposed strategy for targeting intrinsically disordered proteins via stereocomplexation principles could appeal to those seeking novel ligand design approaches beyond conventional structured targets.
+- **Major strengths** The conceptual framework is original, linking stereocomplexation of short peptides to a rational design principle for D-peptide ligands. The use of multiple complementary techniques, including X-ray crystallography, calorimetry, simulations, and fluorescence assays, suggests a multidisciplinary approach. The reported functional outcome, inhibition of amyloid beta42 fibrillization and cytotoxicity, with a comparison to a clinical candidate, adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that stereocomplexation is driven by hydrophobic interactions between phenylalanine residues and electrostatic interactions involving lysine and the C-terminus
+  - **Evidence pointer** Abstract mentions single-crystal X-ray diffraction, calorimetry, simulations, and fluorescence assays, but specific data are not provided
+  - **Concern** The abstract asserts specific molecular driving forces for stereocomplexation without presenting quantitative data, such as binding affinities, thermodynamic parameters, or structural details from crystallography. The relative contributions of hydrophobic versus electrostatic interactions are not substantiated.
+  - **Why it matters** The mechanistic basis is central to the proposed design strategy. Without quantitative evidence, the claim that these interactions are the primary drivers remains speculative, and the generalizability of the approach to other sequences is unclear.
+  - **Resolution test** Provide thermodynamic data, such as enthalpy and entropy changes from calorimetry, and structural evidence from crystallography that directly demonstrates the roles of phenylalanine, lysine, and the C-terminus in complex formation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the designed D-peptide (Ac-fffakr5-NH2) inhibits fibrillization and cytotoxicity of amyloid beta42 and outperforms RD2
+  - **Evidence pointer** Abstract mentions inhibition in neuronal-like cells and comparison to RD2, but no quantitative results, dose-response data, or statistical analyses are provided
+  - **Concern** The abstract reports functional inhibition and superiority over a clinical candidate without presenting any numerical outcomes, such as percent inhibition, IC50 values, or cell viability data. The basis for the comparison to RD2 is not described, including whether equivalent doses and conditions were used.
+  - **Why it matters** The translational significance of the work hinges on the demonstrated efficacy of the D-peptide. Without quantitative and statistically validated data, the claim of outperforming RD2 cannot be assessed, and the practical utility of the strategy remains unverified.
+  - **Resolution test** Include dose-response curves, quantitative fibrillization assays, cell viability data with appropriate controls, and a clear description of the experimental conditions and statistical methods used for the RD2 comparison.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and specificity
+  - **Claim pointer** The claim that the D-peptide targets the -FFAE- motif of amyloid beta42
+  - **Evidence pointer** Abstract mentions rational design based on the -FFAE- motif, but no binding or mutagenesis data are provided
+  - **Concern** The abstract states that the D-peptide was designed to target the -FFAE- motif, but no direct evidence of binding to this specific motif is presented. It is unclear whether the inhibitory effects are due to specific motif recognition or nonspecific interactions.
+  - **Why it matters** Specificity is essential for establishing the proposed strategy as a viable approach for sequence-targeting ligands. Without evidence of motif-specific binding, alternative mechanisms, such as general hydrophobic interactions, cannot be excluded.
+  - **Resolution test** Provide binding assays, such as fluorescence or surface plasmon resonance, with mutant amyloid beta42 variants lacking the -FFAE- motif, and demonstrate reduced or abolished binding and inhibition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "stereocomplexes" is used without a definition, which may be unclear to readers outside the peptide chemistry field.
+  - **Required correction** Define stereocomplexes explicitly, for example, as co-crystals or assemblies formed between enantiomeric peptides.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental scope
+  - **Evidence pointer** Abstract, description of tripeptide study
+  - **Issue** The abstract does not specify the number of tripeptide sequences examined or the range of sequence variations tested, limiting the assessment of the systematic nature of the study.
+  - **Required correction** State the number and diversity of tripeptide sequences used in the systematic investigation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Cell-based assay details
+  - **Evidence pointer** Abstract, mention of neuronal-like cells
+  - **Issue** The type of neuronal-like cells and the specific cytotoxicity assay are not identified, which hampers reproducibility.
+  - **Required correction** Specify the cell line and the assay used to measure cytotoxicity.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative data and methodological details necessary to support the mechanistic, functional, and specificity claims.
+- **Assessment against Nature-style criteria** Originality is high, as the concept of applying stereocomplexation principles to target intrinsically disordered proteins is novel. Scientific importance is potentially high given the relevance to Alzheimer's disease and the limitations of current peptide drugs. Interdisciplinary readership is plausible, spanning chemistry, biology, and medicine. Technical soundness cannot be assessed from the abstract alone, as no data are presented. Readability for nonspecialists is adequate, though some terms require definition. Overall, the work has promise but is not yet supported by the provided evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual advance is interesting, but the abstract does not provide sufficient data to validate the mechanistic claims, functional outcomes, or specificity. A revised submission with full quantitative results and methodological transparency would be required to assess the case.
+
+## Risk / unsupported claims
+- The claim that stereocomplexation is driven by specific hydrophobic and electrostatic interactions is unsupported without quantitative thermodynamic or structural data.
+- The claim that the D-peptide inhibits fibrillization and cytotoxicity of amyloid beta42 is unsupported without numerical results and statistical analysis.
+- The claim that the D-peptide outperforms RD2 is unsupported without a described comparison methodology.
+- The claim that the D-peptide specifically targets the -FFAE- motif is unsupported without direct binding or mutagenesis evidence.
+- The generalizability of the strategy to other intrinsically disordered proteins is not assessable from the abstract.

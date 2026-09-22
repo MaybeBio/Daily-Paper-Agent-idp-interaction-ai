@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supporting information references.
+- **Assessment boundary** Scientific content, methodological rigor, conceptual novelty, and clarity of the presented claims. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors propose that for polymers with specific, saturating, heterotypic binding motifs, the sequence of motifs strongly influences phase separation behavior. They argue that this effect is primarily mediated by the conformational entropy of intra-polymer self-bonding, rather than the energy of inter-polymer interactions. They support this with lattice-polymer Monte Carlo simulations and a mean-field theory, and introduce a "condensation parameter" Ψ to predict phase separation propensity.
+- **Visible evidence base** Monte Carlo simulations on a 30×30×30 FCC lattice, mean-field theory derivations, density of states calculations, and comparisons to experimental observations from the literature (e.g., LAF-1).
+- **Missing materials affecting confidence** The manuscript references "S1 Text" for derivations and additional figures (Fig F, G, H, I) that are not provided in the submitted material. Off-lattice molecular dynamics simulations are mentioned but not described in detail. Experimental validation is not included.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the field of biomolecular condensates: how the sequence of specific, saturating binding motifs controls phase separation. The authors combine lattice simulations with mean-field theory to propose a mechanism based on conformational entropy of self-bonding, which is a conceptually interesting departure from energy-centric views. The work is technically sound in its simulation methodology, and the introduction of a predictive parameter (Ψ) is a useful contribution. However, the manuscript has several weaknesses that need to be addressed: the mean-field theory's quantitative accuracy is limited, the connection to experimental systems is speculative, and the presentation of key derivations in the supplementary material hampers full evaluation. The central claim that entropy, not energy, dominates the sequence dependence is plausible but not fully proven from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying biomolecular phase separation, particularly those interested in sequence-encoded determinants of condensate formation and material properties. The work is also relevant to the broader community working on polymer physics, lattice simulations, and mean-field theories of associating polymers. Experimentalists studying IDPs, RNA repeat expansions, and synthetic biology systems with designed interaction motifs would find the predictions testable and useful.
+- **Major strengths** The manuscript identifies a clear and under-explored question: how specific, saturating interactions differ from nonspecific ones in driving phase separation. The use of grand canonical Monte Carlo with multicanonical sampling to obtain full phase diagrams is rigorous. The mean-field theory, while approximate, provides a transparent link between single-polymer properties and phase behavior. The condensation parameter Ψ is a practical tool that could guide experimental design. The discussion of biological implications, including regulatory strategies and disease relevance, is thoughtful and well-contextualized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for central claim
+  - **Claim pointer** The authors claim that "the sequence of binding motifs influences phase separation primarily by determining the conformational entropy of self-bonding by single polymers."
+  - **Evidence pointer** Results section, Fig 2c and 2d; Discussion section
+  - **Concern** The central claim that entropy of self-bonding is the primary determinant is inferred from the correlation between the single-polymer density of states g(s) and the phase diagram. However, the mean-field theory, which incorporates g(s), does not quantitatively reproduce the simulation Tc values (the authors note a discrepancy that they attribute to the nonspecific interaction parameter χ). This leaves open the possibility that other factors, such as inter-polymer correlations or the specific form of the trans-bond entropy, contribute significantly. The authors do not provide a direct test that isolates the role of self-bond entropy, such as a comparison of sequences with similar g(s) but different phase behavior, or a perturbation analysis where g(s) is artificially modified.
+  - **Why it matters** The proposed mechanism is the main conceptual contribution of the paper. If the evidence is only correlational and the theory is not quantitatively accurate, the claim is not fully established. This weakens the paper's impact and its ability to guide experimental predictions.
+  - **Resolution test** The authors should provide a more direct test of the entropy mechanism. For example, they could compare the phase behavior of sequences with identical g(s) but different spatial arrangements of motifs, or they could modify the mean-field theory to include corrections for inter-polymer correlations and show that the entropy term remains dominant. Alternatively, they could perform simulations where the self-bond entropy is artificially suppressed (e.g., by constraining the polymer to a specific conformation) and show that the phase diagram changes accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings
+  - **Claim pointer** The authors state that "block size is a robust predictor of phase separation" and extend this to random sequences via the Ψ parameter.
+  - **Evidence pointer** Results section, Fig 3a-3d; Supporting Information Fig H
+  - **Concern** The simulations are limited to a single chain length (L=24) for the main analysis, with some additional data for other lengths in the supplementary material. The claim of robustness across sequence lengths is based on limited data. Furthermore, the Ψ parameter is derived from a heuristic argument and its predictive power is only tested against the same set of sequences used to fit the linear relationship. A more stringent test would involve predicting Tc for sequences not used in the fitting procedure, or for sequences with different lengths or stoichiometries.
+  - **Why it matters** The generality of the design principles is a key selling point. If the findings are only valid for a narrow parameter range, their biological relevance is diminished.
+  - **Resolution test** The authors should validate Ψ on a held-out set of sequences, or on sequences with different lengths (e.g., L=12, L=48) and different stoichiometries (e.g., a≠b). They could also test the prediction that Ψ correlates with Tc for a sequence with a known experimental phase diagram.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Connection to experiments
+  - **Claim pointer** The authors suggest that their findings explain experimental results on LAF-1 and RNA repeat expansions.
+  - **Evidence pointer** Discussion section
+  - **Concern** The connection to experiments is qualitative and speculative. For LAF-1, the authors argue that their model is consistent with the observation that blocky sequences phase separate better, but they do not perform any quantitative comparison or modeling of the specific LAF-1 sequence. For RNA repeat expansions, the link is even more tenuous, as the model does not include RNA-specific features such as secondary structure or base-pairing. The authors acknowledge this but do not provide a concrete path to test their predictions.
+  - **Why it matters** The paper's impact on the experimental community depends on the testability and specificity of its predictions. Vague connections to existing data are less compelling than a clear, falsifiable prediction.
+  - **Resolution test** The authors should either (a) perform a more detailed analysis of a specific experimental system, such as modeling the LAF-1 sequence with their lattice model and comparing predicted phase boundaries to measured ones, or (b) provide a specific, quantitative prediction (e.g., a threshold value of Ψ for phase separation) that can be directly tested in a designed experiment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Methods section, "Single-polymer properties"
+  - **Evidence pointer** Methods section, paragraph on single-polymer properties
+  - **Issue** The description of how g(s) is extracted from simulations is brief. The multihistogram method is mentioned but not explained, and the inversion procedure is not detailed.
+  - **Required correction** Provide a more detailed description of the multihistogram method and the inversion procedure, or refer to a specific reference where this is described in detail.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation of results
+  - **Affected element** Fig 2d
+  - **Evidence pointer** Results section, Fig 2d
+  - **Issue** The mean-field phase diagrams are shown to capture the qualitative trend, but the quantitative discrepancy with simulations is not discussed in the main text. The reader is left wondering how significant this discrepancy is.
+  - **Required correction** Add a sentence or two in the main text discussing the magnitude of the discrepancy and its potential sources, and how it affects the interpretation of the results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The term "conformational entropy of self-bonding" is used throughout, but it is not clearly defined at first use. It could be confused with the entropy of the polymer chain itself.
+  - **Required correction** Define the term explicitly, e.g., "the entropy associated with the number of distinct conformations a single polymer can adopt while forming a given number of intra-molecular bonds."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Introduction, Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript cites several relevant studies but does not discuss recent work on sequence-specific phase separation in detail, particularly those using coarse-grained or all-atom simulations.
+  - **Required correction** Add a brief discussion of recent computational studies on sequence-encoded phase behavior to contextualize the novelty of the present approach.
+- **Technical failings that need to be addressed before the case is established** The central claim (R1-M1) is not fully established due to the lack of a direct test of the entropy mechanism and the quantitative limitations of the mean-field theory. The generalizability claim (R1-M2) is based on limited data. These need to be addressed with additional analysis or simulations.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The manuscript presents a novel perspective by focusing on specific, saturating interactions and proposing an entropy-based mechanism. This is a distinct contribution compared to prior work on nonspecific interactions. However, the idea that single-chain properties correlate with phase behavior is not entirely new, and the originality lies in the specific application to motif sequences.
+  - **Scientific importance** The question of how sequence encodes phase behavior is of high importance for understanding biological condensates and for engineering synthetic systems. The proposed mechanism, if validated, could have broad implications.
+  - **Interdisciplinary readership** The topic is inherently interdisciplinary, spanning biophysics, polymer science, and cell biology. The manuscript is written in a way that should be accessible to researchers in these fields, though some familiarity with statistical mechanics is assumed.
+  - **Technical soundness** The simulation methodology is rigorous, and the use of multicanonical sampling is appropriate. The mean-field theory is a reasonable approximation but has limitations that are not fully addressed. The derivation of Ψ is heuristic and its predictive power is not fully tested.
+  - **Readability for nonspecialists** The manuscript is generally well-written and clear. The abstract and introduction effectively convey the main questions and findings. However, the methods section is dense and may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a plausible mechanism, but the central claim needs stronger evidence and the generalizability needs further testing. With additional analysis, this could be a valuable contribution.
+
+## Risk / unsupported claims
+- The claim that "sequence acts primarily by controlling the entropy of self-bonds" is not directly proven; it is inferred from correlations and a mean-field theory that is not quantitatively accurate.
+- The claim that "block size is a robust predictor of phase separation" is based on a limited set of simulations and may not hold for all sequence lengths or compositions.
+- The predictive power of the condensation parameter Ψ is not validated on independent data.
+- The connection to experimental systems (LAF-1, RNA repeats) is qualitative and speculative; no quantitative comparison is made.
+- The off-lattice molecular dynamics simulations mentioned in the text are not described, and their results are not presented, making it impossible to assess their support for the conclusions.

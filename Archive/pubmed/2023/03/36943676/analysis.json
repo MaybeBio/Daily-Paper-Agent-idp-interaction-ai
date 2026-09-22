@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36943676",
+  "title": "Cyanobacterial Phycobilisome Allostery as Revealed by Quantitative Mass Spectrometry.",
+  "authors": "Liu, Haijun",
+  "journal": "Biochemistry",
+  "published_date": "2023-03-22",
+  "window": {
+    "start": "2023-03-20",
+    "end": "2023-03-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用定量质谱和AlphaFold研究藻胆体中含IDR的rod-core与core-membrane界面间的长程变构协同，虽非AI/物理模拟为主，但聚焦IDR介导的蛋白复合物界面互作机制，对本课题有方法迁移启发。",
+  "abstract": "Phycobilisomes (PBSs) are the major photosynthetic light-harvesting complexes in cyanobacteria and red algae. PBS, a multisubunit protein complex, has two major interfaces that comprise intrinsically disordered regions (IDRs): rod-core and core-membrane. IDRs do not form regular, three-dimensional structures on their own. Their presence in the photosynthetic pigment-protein complexes portends their structural and functional importance. A recent model suggests that PB-loop, an IDR located on the PBS subunit ApcE and C-terminal extension (CTE) of the PBS subunit ApcG, forms a structural protrusion on the PBS core-membrane side, facing the thylakoid membrane. Here, the structural synergy between the rod-core region and the core-membrane region was investigated using quantitative mass spectrometry (MS). The AlphaFold-predicted CpcG-CTE structure was first modeled onto the PBS rod-core region, guided and justified by the isotopically encoded structural MS data. Quantitative cross-linking MS analysis revealed that the structural proximity of the PB-loop in ApcE and ApcG-CTE is significantly disturbed in the absence of six PBS rods, which are attached to PBS via CpcG-CTE, indicative of drastic conformational changes and decreased structural integrity. These results suggest that CpcG-rod attachment on the PBS rod-core side is essentially required for the PBS core-membrane structural assembly. The hypothesized long-range synergy between the rod-core interface (where the orange carotenoid protein also functions) and the terminal energy emitter of PBS must have important regulatory roles in PBS core assembly, light-harvesting, and excitation energy transmission. These data also lend strategies that genetic truncation of the light-harvesting antennas aimed for improved photosynthetic productivity must rely on an in-depth understanding of their global structural integrity.",
+  "abstract_zh": "藻胆体（Phycobilisomes, PBSs）是蓝藻和红藻中主要的光合光捕获复合物。PBS是一种多亚基蛋白复合物，具有两个主要界面，包含 intrinsically disordered regions (IDRs)：杆-核心界面和核心-膜界面。IDRs本身不形成规则的三维结构。它们在光合色素-蛋白复合物中的存在预示了其结构和功能的重要性。近期模型提出，PB-loop（位于PBS亚基ApcE上的IDR）和PBS亚基ApcG的C端延伸（C-terminal extension, CTE）在PBS核心-膜侧形成结构突起，面向类囊体膜。本研究利用定量质谱（mass spectrometry, MS）探讨了杆-核心区域与核心-膜区域之间的结构协同作用。首先，基于同位素编码的结构MS数据，将AlphaFold预测的CpcG-CTE结构建模到PBS杆-核心区域上，并以此为引导和验证。定量交联MS分析显示，在缺乏六个PBS杆（这些杆通过CpcG-CTE附着于PBS）的情况下，ApcE中PB-loop与ApcG-CTE的结构邻近性显著受到干扰，表明构象发生剧烈变化且结构完整性降低。这些结果表明，CpcG-杆在PBS杆-核心侧的附着对于PBS核心-膜结构组装至关重要。杆-核心界面（橙色类胡萝卜素蛋白也在此发挥作用）与PBS末端能量发射体之间的假设长程协同作用，必定在PBS核心组装、光捕获和激发能量传递中具有重要调控作用。这些数据还提示，旨在提高光合生产力的光捕获天线基因截短策略，必须依赖于对其整体结构完整性的深入理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36943676/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36943676/",
+  "paper_page_path": "papers/pubmed/36943676/index.html"
+}

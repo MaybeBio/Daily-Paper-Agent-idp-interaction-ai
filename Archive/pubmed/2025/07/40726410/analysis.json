@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40726410",
+  "title": "Exploring the effects of macromolecular crowding on the conformation and NuMA binding of 4.1G-CTD.",
+  "authors": "Yu, Shi; Yang, Ming; Perrett, Sarah; Wu, Si; Liu, Zhijun; Wang, Wenning",
+  "journal": "Physical chemistry chemical physics : PCCP",
+  "published_date": "2025-07-29",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过多种生物物理技术研究大分子拥挤对无序蛋白4.1G-CTD与NuMA无序区域形成fuzzy复合物的构象和结合动力学的影响，对象和互作轴契合，但方法以实验为主、缺乏AI或物理模拟建模，故综合评7分。",
+  "abstract": "The C-terminal domain of protein 4.1G is an intrinsically disordered region that forms a fuzzy complex with the disordered C-terminus of the nuclear mitotic apparatus (NuMA) protein, playing a crucial role in regulating spindle orientation during cell division. However, how these interactions adapt to the physiologically crowded environments of the cell remains unclear. In this study, we employ multiple biophysical techniques to systematically investigate the effects of macromolecular crowding on the structure, conformational dynamics, and binding capacity of 4.1G-CTD. Our findings reveal that crowding induces structural compaction in 4.1G-CTD, while preserving its intrinsically disordered characteristics, despite crowder-specific modulation of transient secondary structures. Moreover, crowding consistently enhances the binding affinity of 4.1G-CTD for NuMA and accelerates the kinetics of their association; however, the extent of these effects varies significantly among different types of crowders. Collectively, our results demonstrate that intracellular crowding fine-tunes the functionality of intrinsically disordered proteins (IDPs) by exerting complex influences on their conformational landscapes as well as the thermodynamics and kinetics of their interactions.",
+  "abstract_zh": "蛋白4.1G的C端结构域是一个 intrinsically disordered region（内在无序区域），与核有丝分裂装置（NuMA）蛋白的无序C端形成模糊复合物，在细胞分裂过程中对纺锤体方向的调控起关键作用。然而，这些相互作用如何适应细胞内的生理性拥挤环境仍不清楚。在本研究中，我们采用多种生物物理技术，系统研究了 macromolecular crowding（大分子拥挤）对4.1G-CTD结构、构象动力学及结合能力的影响。我们的发现表明，拥挤诱导4.1G-CTD发生结构压缩，同时保留其内在无序特性，尽管不同拥挤剂对瞬时二级结构有特异性调节。此外，拥挤一致性地增强了4.1G-CTD与NuMA的结合亲和力，并加速了其结合的动力学过程；然而，这些效应的程度在不同类型的拥挤剂间存在显著差异。总体而言，我们的结果证明，细胞内拥挤通过对其构象景观以及相互作用的熱力学和动力学施加复杂影响，精细调节了 intrinsically disordered proteins (IDPs)（内在无序蛋白）的功能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40726410/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40726410/",
+  "paper_page_path": "papers/pubmed/40726410/index.html"
+}

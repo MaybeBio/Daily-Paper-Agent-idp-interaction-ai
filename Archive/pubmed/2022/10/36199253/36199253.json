@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "36199253",
+    "doi": "10.1016/j.bpj.2022.10.001",
+    "title": "The stoichiometric interaction model for mesoscopic MD simulations of liquid-liquid phase separation."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) has received considerable attention in recent years for explaining the formation of cellular biomolecular condensates. The fluidity and the complexity of their components make molecular simulation approaches indispensable for gaining structural insights. Domain-resolution mesoscopic model simulations have been explored for cases in which condensates are formed by multivalent proteins with tandem domains. One problem with this approach is that interdomain pairwise interactions cannot regulate the valency of the binding domains. To overcome this problem, we propose a new potential, the stoichiometric interaction (SI) potential. First, we verified that the SI potential maintained the valency of the interacting domains for the test systems. We then examined a well-studied LLPS model system containing tandem repeats of SH3 domains and proline-rich motifs. We found that the SI potential alone cannot reproduce the phase diagram of LLPS quantitatively. We had to combine the SI and a pairwise interaction; the former and the latter represent the specific and nonspecific interactions, respectively. Biomolecular condensates with the mixed SI and pairwise interaction exhibited fluidity, whereas those with the pairwise interaction alone showed no detectable diffusion. We also compared the phase diagrams of the systems containing different numbers of tandem domains with those obtained from the experiments and found quantitative agreement in all but one case.",
+    "keywords": [],
+    "mesh_terms": [
+      "src Homology Domains",
+      "*Models, Statistical"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Murata, Yutaka",
+        "Niina, Toru",
+        "Takada, Shoji"
+      ],
+      "short_names": [
+        "Murata Y",
+        "Niina T",
+        "Takada S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan. Electronic address: takada@biophys.kyoto-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Murata, Yutaka",
+        "short_name": "Murata Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Niina, Toru",
+        "short_name": "Niina T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Takada, Shoji",
+        "short_name": "Takada S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan. Electronic address: takada@biophys.kyoto-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2022 Nov 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/07 06:00",
+    "fetched_at": "2026-09-20 15:36:01"
+  },
+  "links": {
+    "cites": [
+      "38885177",
+      "37496268",
+      "36791720"
+    ],
+    "refs": [
+      "34862761",
+      "34716273",
+      "34637756",
+      "34236318",
+      "34135122",
+      "33876938",
+      "33577557",
+      "33510441",
+      "33139563",
+      "32802734",
+      "32632317",
+      "32482873",
+      "32403923",
+      "32312191",
+      "32118433",
+      "31830196",
+      "31634364",
+      "31270472",
+      "31226513",
+      "30857399",
+      "30846599",
+      "30397688",
+      "30078712",
+      "29712961",
+      "29364893",
+      "29323488",
+      "29091028",
+      "28225081",
+      "27022092",
+      "26553976",
+      "26351690",
+      "25321392",
+      "24880268",
+      "23656109",
+      "23407163",
+      "22753508",
+      "22579281",
+      "22398450",
+      "21943426",
+      "19193167"
+    ],
+    "similar": [
+      "36199253",
+      "33672806",
+      "28924037",
+      "32482873",
+      "34637756",
+      "36575582",
+      "30397184",
+      "23912807",
+      "29511089",
+      "35802394",
+      "31941785",
+      "34029402",
+      "32881044",
+      "32615218",
+      "35562294",
+      "36444977",
+      "31506351",
+      "37293933",
+      "31237369",
+      "33076213",
+      "34759902",
+      "34522448",
+      "35142991",
+      "37489654",
+      "32696384",
+      "34772789",
+      "30659095",
+      "33982350",
+      "36310223",
+      "36350034",
+      "37727870",
+      "37130439",
+      "18234212",
+      "38463037",
+      "34573116",
+      "34200781",
+      "16326715",
+      "37895097",
+      "29677513",
+      "36972455",
+      "24878663",
+      "10986122",
+      "32997736",
+      "29526694",
+      "33934561",
+      "32405004",
+      "37230179",
+      "32696386",
+      "33765580",
+      "31872783",
+      "31430708",
+      "33081049",
+      "18067320",
+      "31444270",
+      "33583140",
+      "34291921",
+      "20509626",
+      "36594499",
+      "36524527",
+      "26237070",
+      "9343926",
+      "15834155",
+      "38262618",
+      "34236318",
+      "37287827",
+      "15123602",
+      "30682370",
+      "34156864",
+      "35709363",
+      "35975930",
+      "26553976",
+      "30846599",
+      "37084706",
+      "34102212",
+      "35895272",
+      "33517364",
+      "26893375",
+      "21098279",
+      "33744316"
+    ],
+    "review": [
+      "36199253",
+      "35802394",
+      "32881044",
+      "35562294",
+      "31237369",
+      "34759902",
+      "34522448",
+      "35142991",
+      "34772789",
+      "36350034",
+      "34573116",
+      "34200781",
+      "37895097",
+      "33934561",
+      "37230179",
+      "33765580",
+      "31444270",
+      "33583140",
+      "34291921",
+      "36524527"
+    ],
+    "pmc": [
+      "9703007"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(22)00821-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36199253/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36199253",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

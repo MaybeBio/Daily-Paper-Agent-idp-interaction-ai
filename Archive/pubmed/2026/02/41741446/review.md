@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, supplementary figure/table references)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no external data or unpublished materials consulted
+- **Shared manuscript claim summary** The authors report that fusing the membrane protein LacY to a condensate-forming PopTag induces phase separation in the E. coli inner membrane, yielding functional condensates that preserve transport activity, enhance performance under hyperosmotic stress, reduce membrane deformation, and support heterotypic co-condensation with LacZ, with curvature implicated in spatial organization.
+- **Visible evidence base** Figures 1–5 (described in text), Supplementary Figures 1–14, Supplementary Tables 1–4, Supplementary Videos 1–2, Methods section
+- **Missing materials affecting confidence** Raw microscopy images, full statistical outputs, simulation parameter files, strain validation data, and supplementary figure details were not available for independent verification
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and underexplored question: whether membrane proteins can undergo functional liquid-liquid phase separation in vivo. The authors combine advanced light microscopy (PALM, SMdM, FRAP), electron microscopy, coarse-grained molecular dynamics, and transport assays to characterize LacY-PopTag condensates. The work is conceptually interesting and the data are generally consistent with the main claims. However, several technical concerns, particularly around the interpretation of FRAP recovery, the quantitative link between simulations and experiments, and the statistical treatment of some comparisons, need to be resolved before the case is fully established. The claim that condensates "outperform" non-condensed LacY under osmotic stress is intriguing but requires more rigorous demonstration of mechanism.
+- **Who would be interested in the results, and why** Researchers in phase separation, membrane protein biophysics, bacterial cell biology, and synthetic biology. The work provides a framework for engineering membrane-associated condensates and may inform efforts to co-localize transporters with metabolic enzymes. The curvature-dependent localization mechanism could interest cell biologists studying bacterial polarity and membrane organization.
+- **Major strengths** (1) The study tackles a novel and important question with a well-designed fusion strategy. (2) The combination of super-resolution imaging, single-molecule tracking, and simulations provides complementary evidence for condensate formation and dynamics. (3) The functional assays (transport, osmotic stress) connect biophysical observations to biological activity. (4) The heterocondensate experiments extend the work toward metabolic engineering applications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The fluorescence recovery of LacYmEos-Pop had a half-time of 134 ± 47 s and reached ~14% of the initial fluorescence" and "the majority of the molecules partition inside punctuated condensates upon recovery"
+  - **Evidence pointer** Figure 1d, Supplementary Figure 1, Methods (FRAP)
+  - **Concern** The FRAP recovery of ~14% is very low, and the authors interpret this as exchange between the bleached pole and the lateral membrane. However, the recovery half-time of 134 s is extremely slow compared to typical membrane protein diffusion. The authors do not report the mobile fraction explicitly, nor do they account for the possibility that the recovery is due to photoconversion artifacts or slow exchange of a subpopulation. The claim that "the majority of molecules partition inside punctuated condensates upon recovery" is not directly supported by the data shown, as the recovery plateau is only 14%. The authors should provide a more detailed analysis of the recovery kinetics, including the immobile fraction, and discuss whether the slow recovery reflects true exchange or photobleaching-induced artifacts.
+  - **Why it matters** The dynamic exchange of molecules between condensates and the surrounding membrane is central to the claim that these are liquid-like, dynamic structures. If the recovery is not properly characterized, the interpretation of condensate dynamics and the comparison to cytoplasmic condensates is weakened.
+  - **Resolution test** Provide full FRAP recovery curves with error bars, report mobile and immobile fractions, and perform control experiments with fully bleached cells to rule out recovery from photoconversion. If possible, perform fluorescence loss in photobleaching (FLIP) experiments to confirm exchange between pole and lateral membrane.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular dynamics simulations show how the PopTag domain drives the condensate-like association dynamics of LacYPop through hydrophobic sticker interactions."
+  - **Evidence pointer** Figure 2, Methods (Molecular dynamics simulations)
+  - **Concern** The simulations are performed with only nine proteins in a 35 nm × 35 nm membrane, which is a very small system. The claim that this captures "condensate-like association dynamics" is not well supported, as the system size is far below what would be needed to observe phase separation. The authors should clarify whether they are modeling a pre-formed condensate or the nucleation of one, and how the system size affects the interpretation. Additionally, the use of AlphaFold3 models with restraints from an outward-facing structure is reasonable, but the validation of these models is not described in sufficient detail.
+  - **Why it matters** The simulations are used to propose a molecular mechanism for condensate formation. If the system size is too small to observe phase separation, the conclusions about "condensate-like" behavior may be overstated.
+  - **Resolution test** Perform simulations with larger systems (e.g., 50–100 proteins) to demonstrate that the observed clustering is not a finite-size artifact. Alternatively, clearly state the limitations of the system size and frame the simulations as demonstrating short-range interactions rather than phase separation per se.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "In osmotically stressed cells, membrane-bound biomolecular condensates also reduce deformation of the cytoplasmic membrane" and "LacYPop outperforms the non-condensed LacY under mild hyperosmotic stress"
+  - **Evidence pointer** Figure 4c–e, Supplementary Figure 7
+  - **Concern** The claim that condensates reduce membrane deformation and improve transport under osmotic stress is based on a comparison between LacYmEos and LacYmEos-Pop. However, the authors do not rule out that the observed differences are due to the PopTag itself (e.g., via interactions with the membrane or other proteins) rather than condensate formation per se. A control with a non-condensable PopTag mutant (e.g., with disrupted hydrophobic stickers) would be needed to attribute the effect to phase separation. Additionally, the mechanism by which condensates reduce membrane deformation is not explored; the authors speculate about mechanical support but provide no direct evidence.
+  - **Why it matters** The functional advantage under stress is a key selling point of the paper. If this effect is not specifically due to condensation, the broader implications for engineering are weakened.
+  - **Resolution test** Include a control with a PopTag mutant that cannot self-associate. If this is not feasible, temper the claims and discuss alternative explanations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Co-condensation of LacY and β-galactosidase LacZ slightly reduces their activity and results in remarkable cellular reorganization of the proteins."
+  - **Evidence pointer** Figure 5, Supplementary Figures 9–13
+  - **Concern** The heterocondensate experiments are interesting, but the interpretation is complicated by the fact that LacZ is a large tetrameric protein. The authors report that LacZ activity is reduced in heterocondensates, but the mechanism is unclear. Is the reduction due to altered enzyme conformation, substrate accessibility, or the assay conditions? The authors should provide more mechanistic insight or at least discuss alternative explanations.
+  - **Why it matters** The heterocondensate system is presented as a step toward engineering metabolic networks. Understanding why activity is reduced is important for future design.
+  - **Resolution test** Perform activity assays with varying substrate concentrations to determine if the reduction is due to changes in Vmax or Km. Consider structural modeling of the LacY-PopTag-LacZ complex to assess potential steric effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses jargon ("sticker interactions", "condensate-like association dynamics") without sufficient context for a general reader.
+  - **Required correction** Briefly define key terms and consider a more accessible summary of the main findings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods (Statistics)
+  - **Evidence pointer** Methods (Statistics and reproducibility)
+  - **Issue** The statistical methods section states that normality was tested, but the specific tests used for each comparison are not always clear. For example, the comparison of UMAX values uses an extra sum-of-squares F-test, but it is not stated whether the data met the assumptions of this test.
+  - **Required correction** Provide a more detailed description of the statistical tests used for each figure panel, including tests for normality and variance homogeneity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 1c
+  - **Evidence pointer** Figure 1c
+  - **Issue** The fraction of localizations at the cell poles is reported as 0.62 ± 0.06 for LacYmEos-Pop and 0.30 ± 0.04 for LacYmEos. It is unclear how the "cell pole" region was defined, and whether the analysis was blinded.
+  - **Required correction** Describe the criteria for defining the cell pole region and state whether the analysis was performed blinded to the sample identity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of alternative mechanisms for polar localization (e.g., cardiolipin interactions, physical trapping) is brief and could be expanded.
+  - **Required correction** Provide a more balanced discussion of alternative mechanisms and how they might be tested.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (FRAP interpretation), R1-M2 (simulation system size), R1-M3 (lack of non-condensable control)
+- **Assessment against Nature-style criteria** Originality: High. The study addresses a novel question (membrane protein phase separation) with a creative approach. Scientific importance: Moderate to high. The findings could have implications for understanding membrane organization and for engineering metabolic pathways, but the functional advantages need to be more rigorously demonstrated. Interdisciplinary readership: Good. The topic bridges biophysics, cell biology, and synthetic biology. Technical soundness: Moderate. The microscopy and simulation approaches are sophisticated, but several controls and quantitative analyses are missing. Readability for nonspecialists: Adequate but could be improved with clearer explanations of key concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation (LacY-PopTag forms condensates) is likely correct, but the functional claims and mechanistic interpretations require additional controls and analyses.
+
+## Risk / unsupported claims
+- The claim that condensates "outperform" non-condensed LacY under osmotic stress is not fully supported without a non-condensable control.
+- The claim that simulations demonstrate "condensate-like association dynamics" is overstated given the small system size.
+- The claim that membrane curvature "drives" accumulation at poles is inferred from correlation, not causation; the Spearman correlation of 0.24 is weak.
+- The claim that LacZ activity is reduced in heterocondensates is reported without mechanistic explanation.
+- The claim that LacYPop is "fully active" in condensates is based on a single assay (14C-lactose uptake) and may not reflect all aspects of transporter function.

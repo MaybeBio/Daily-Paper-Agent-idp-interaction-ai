@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "39781370",
+    "doi": "10.1039/D4PY00341A",
+    "title": "Insights into conformational ensembles of compositionally identical disordered peptidomimetics."
+  },
+  "content": {
+    "abstract": "While the conformational ensembles of disordered peptides and peptidomimetics are complex and challenging to characterize, they are a critical component in the paradigm connecting macromolecule sequence, structure, and function. In molecules that do not adopt a single predominant conformation, the conformational ensemble contains rich structural information that, if accessible, can provide a fundamental understanding related to desirable functions such as cell penetration of a therapeutic or the generation of tunable enzyme-mimetic architecture. To address the fundamental challenge of describing broad conformational ensembles, we developed a model system of peptidomimetics comprised of polar glycine and hydrophobic N-butylglycine to characterize using a suite of analytical techniques. Using replica exchange molecular dynamics atomistic simulations and liquid chromatography coupled to ion mobility spectrometry, we were able to distinguish the conformations of compositionally identical model sequences. However, differences between these model sequences were more challenging to resolve with characterization tools developed for intrinsically disordered proteins and polymers, including double electron-electron resonance (DEER) spectroscopy and diffusion ordered spectroscopy (DOSY) NMR. Finally, we introduce a facile colorimetric assay using immobilized sequences that leverages a solvatochromic probe, Reichardt's dye, to visually reveal conformational trends consistent with the experimental and computational analysis. This rapid colorimetric technique provides a complementary method to characterize the disorder of macromolecules and examine conformational ensembles as an isolated or multiplexed technique.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Day, Erin C",
+        "Cunha, Keila C",
+        "Zhao, Roy J",
+        "DeStefano, Audra J",
+        "Dodds, James N",
+        "Yu, Melissa A",
+        "Bemis, Jaina R",
+        "Han, Songi",
+        "Baker, Erin S",
+        "Shea, Joan-Emma",
+        "Berlow, Rebecca B",
+        "Knight, Abigail S"
+      ],
+      "short_names": [
+        "Day EC",
+        "Cunha KC",
+        "Zhao RJ",
+        "DeStefano AJ",
+        "Dodds JN",
+        "Yu MA",
+        "Bemis JR",
+        "Han S",
+        "Baker ES",
+        "Shea JE",
+        "Berlow RB",
+        "Knight AS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9278-9560",
+        "ORCID: 0000-0001-5246-2213",
+        "ORCID: 0000-0003-1934-0139",
+        "ORCID: 0000-0003-1524-473X"
+      ],
+      "affiliations": [
+        "Department of Chemistry, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Barbara, Santa Barbara, California 93106, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Barbara, Santa Barbara, California 93106, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Barbara, Santa Barbara, California 93106, USA.",
+        "Department of Chemistry, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA.",
+        "Department of Chemistry, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA.",
+        "Department of Chemistry, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Barbara, Santa Barbara, California 93106, USA.",
+        "Department of Chemistry, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Barbara, Santa Barbara, California 93106, USA.",
+        "Department of Biochemistry and Biophysics and Lineberger Comprehensive Cancer Center, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA.",
+        "Department of Chemistry, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Day, Erin C",
+        "short_name": "Day EC",
+        "identifiers": [
+          "0000-0001-9278-9560"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Cunha, Keila C",
+        "short_name": "Cunha KC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Barbara, Santa Barbara, California 93106, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Roy J",
+        "short_name": "Zhao RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Barbara, Santa Barbara, California 93106, USA."
+        ]
+      },
+      {
+        "full_name": "DeStefano, Audra J",
+        "short_name": "DeStefano AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Barbara, Santa Barbara, California 93106, USA."
+        ]
+      },
+      {
+        "full_name": "Dodds, James N",
+        "short_name": "Dodds JN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Melissa A",
+        "short_name": "Yu MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Bemis, Jaina R",
+        "short_name": "Bemis JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Han, Songi",
+        "short_name": "Han S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Barbara, Santa Barbara, California 93106, USA."
+        ]
+      },
+      {
+        "full_name": "Baker, Erin S",
+        "short_name": "Baker ES",
+        "identifiers": [
+          "0000-0001-5246-2213"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Shea, Joan-Emma",
+        "short_name": "Shea JE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Barbara, Santa Barbara, California 93106, USA."
+        ]
+      },
+      {
+        "full_name": "Berlow, Rebecca B",
+        "short_name": "Berlow RB",
+        "identifiers": [
+          "0000-0003-1934-0139"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics and Lineberger Comprehensive Cancer Center, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Knight, Abigail S",
+        "short_name": "Knight AS",
+        "identifiers": [
+          "0000-0003-1524-473X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina 27599, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Polymer chemistry"
+    ],
+    "journal_abbrev": [
+      "Polym Chem"
+    ],
+    "pub_date": "2024 Aug 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/09 06:21",
+    "fetched_at": "2026-09-21 14:31:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38700091",
+      "37252353",
+      "37221918",
+      "37178478",
+      "37171393",
+      "36890370",
+      "36379007",
+      "35596476",
+      "35197296",
+      "35041390",
+      "35037351",
+      "34942695",
+      "34723259",
+      "34375094",
+      "34342071",
+      "34336395",
+      "34325788",
+      "33141567",
+      "32991160",
+      "32391314",
+      "32034159",
+      "32011866",
+      "31945292",
+      "31873018",
+      "31538782",
+      "31417196",
+      "29506382",
+      "28832117",
+      "28831002",
+      "28375705",
+      "28067047",
+      "26895750",
+      "26444241",
+      "24773235",
+      "24195610",
+      "24146410",
+      "24050710",
+      "24016337",
+      "23984855",
+      "23302862",
+      "23180855",
+      "22180910",
+      "21950636",
+      "21939206",
+      "21266014",
+      "20383129",
+      "20017524",
+      "19799914",
+      "19799382",
+      "19479663",
+      "19343235",
+      "19206425",
+      "17824612",
+      "16464101",
+      "16236315",
+      "14611236",
+      "12203303",
+      "12031671",
+      "7603994",
+      "6317443",
+      "3972906",
+      "3442318",
+      "2207096",
+      "2025683"
+    ],
+    "similar": [
+      "39781370",
+      "39582487",
+      "30840442",
+      "32840111",
+      "25897952",
+      "26807783",
+      "23912807",
+      "36774359",
+      "29925019",
+      "36934808",
+      "33481784",
+      "33030907",
+      "32502383",
+      "30731089",
+      "34252246",
+      "26052838",
+      "20404210",
+      "24995857",
+      "35129612",
+      "33267376",
+      "18481860",
+      "23811057",
+      "40147456",
+      "35923464",
+      "19576220",
+      "39651234",
+      "39735932",
+      "32345021",
+      "39190324",
+      "37418278",
+      "38053335",
+      "33421906",
+      "30708285",
+      "40042172",
+      "39983022",
+      "38781245",
+      "37433228",
+      "30979035",
+      "28003858",
+      "30204435",
+      "38370653",
+      "38869513",
+      "31797597",
+      "37163076",
+      "34115515",
+      "26387102",
+      "17250999",
+      "31241933",
+      "21056574",
+      "36917561",
+      "36930141",
+      "22253588",
+      "35213160",
+      "30125451",
+      "36757376",
+      "33525784",
+      "23205890",
+      "33581430",
+      "40198698",
+      "37023001",
+      "38297118",
+      "38996889",
+      "39984300",
+      "36084124",
+      "38505224",
+      "37646172",
+      "25221447",
+      "37155239",
+      "18831040",
+      "32579908",
+      "35308859",
+      "26030674",
+      "39588651",
+      "37108059",
+      "24763499",
+      "38617283",
+      "34680137",
+      "23606332",
+      "33076213",
+      "38018910",
+      "27844185",
+      "27346493",
+      "26574339",
+      "29235155",
+      "37338049",
+      "24187427",
+      "28841239",
+      "37144719",
+      "24008243",
+      "39553926",
+      "37607621",
+      "24089737",
+      "33078950",
+      "39093570",
+      "36899114",
+      "34817999",
+      "33310020",
+      "34820109",
+      "37463458",
+      "27300592"
+    ],
+    "review": [
+      "39781370",
+      "30840442",
+      "26807783",
+      "35129612",
+      "33421906",
+      "30979035",
+      "28003858",
+      "26387102",
+      "17250999",
+      "38505224",
+      "24008243"
+    ],
+    "pmc": [
+      "11709448"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39781370/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38505224",
+  "title": "Intrinsically disordered proteins: Ensembles at the limits of Anfinsen's dogma.",
+  "authors": "Kulkarni, Prakash; Leite, Vitor B P; Roy, Susmita; Bhattacharyya, Supriyo; Mohanty, Atish; Achuthan, Srisairam; Singh, Divyoj; Appadurai, Rajeswari; Rangarajan, Govindan; Weninger, Keith; Orban, John; Srivastava, Anand; Jolly, Mohit Kumar; Onuchic, Jose N; Uversky, Vladimir N; Salgia, Ravi",
+  "journal": "Biophysics reviews",
+  "published_date": "2022-03-17",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述聚焦无序蛋白(IDP)的构象系综与能量景观，强调其通过构象动态识别多个结合伴侣的机制，并介绍基于知识和物理的模拟采样方法（如分子动力学）来建模IDP互作，与本课题的IDP-PPI机制建模高度相关。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are proteins that lack rigid 3D structure. Hence, they are often misconceived to present a challenge to Anfinsen's dogma. However, IDPs exist as ensembles that sample a quasi-continuum of rapidly interconverting conformations and, as such, may represent proteins at the extreme limit of the Anfinsen postulate. IDPs play important biological roles and are key components of the cellular protein interaction network (PIN). Many IDPs can interconvert between disordered and ordered states as they bind to appropriate partners. Conformational dynamics of IDPs contribute to conformational noise in the cell. Thus, the dysregulation of IDPs contributes to increased noise and \"promiscuous\" interactions. This leads to PIN rewiring to output an appropriate response underscoring the critical role of IDPs in cellular decision making. Nonetheless, IDPs are not easily tractable experimentally. Furthermore, in the absence of a reference conformation, discerning the energy landscape representation of the weakly funneled IDPs in terms of reaction coordinates is challenging. To understand conformational dynamics in real time and decipher how IDPs recognize multiple binding partners with high specificity, several sophisticated knowledge-based and physics-based in silico sampling techniques have been developed. Here, using specific examples, we highlight recent advances in energy landscape visualization and molecular dynamics simulations to discern conformational dynamics and discuss how the conformational preferences of IDPs modulate their function, especially in phenotypic switching. Finally, we discuss recent progress in identifying small molecules targeting IDPs underscoring the potential therapeutic value of IDPs. Understanding structure and function of IDPs can not only provide new insight on cellular decision making but may also help to refine and extend Anfinsen's structure/function paradigm.",
+  "abstract_zh": "固有无序蛋白（IDPs）是指缺乏刚性三维结构的蛋白质。因此，它们常被误解为对Anfinsen法则构成挑战。然而，IDPs以集合形式存在，采样快速互转换构象的准连续体，因此可能代表处于Anfinsen假说极端极限的蛋白质。IDPs在生物学中扮演重要角色，是细胞蛋白质相互作用网络（PIN）的关键组成部分。许多IDPs在结合适当伙伴时，可在无序与有序状态之间互转换。IDPs的构象动态性 contributes to 细胞中的构象噪声。因此，IDPs的失调 contributes to 增加的噪声和“混杂”相互作用。这导致PIN重新布线以输出适当响应，凸显了IDPs在细胞决策中的关键作用。尽管如此，IDPs在实验上不易处理。此外，在缺乏参考构象的情况下，以反应坐标描述弱漏斗状IDPs的能量景观表征具有挑战性。为了实时理解构象动态并解析IDPs如何以高特异性识别多个结合伙伴，已开发了多种基于知识和基于物理的计算采样技术。在此，我们通过具体实例，强调能量景观可视化和分子动力学模拟在辨别构象动态方面的最新进展，并讨论IDPs的构象偏好如何调节其功能，尤其是在表型转换中。最后，我们讨论针对IDPs的小分子识别的最新进展，强调IDPs的潜在治疗价值。理解IDPs的结构与功能不仅能提供对细胞决策的新见解，还可能有助于完善和扩展Anfinsen的结构/功能范式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38505224/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38505224/",
+  "paper_page_path": "papers/pubmed/38505224/index.html"
+}

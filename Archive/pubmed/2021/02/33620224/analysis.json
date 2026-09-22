@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33620224",
+  "title": "Secondary Structures of Proteins: A Comparison of Models and Experimental Results.",
+  "authors": "Bokor, Monika; Tantos, Agnes",
+  "journal": "Journal of proteome research",
+  "published_date": "2021-02-24",
+  "window": {
+    "start": "2021-02-22",
+    "end": "2021-02-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文比较多种二级结构预测工具与宽线NMR实验，评估无序蛋白（胸腺素β4、stabilin-2、α-突触核蛋白）的无序区域和结合位点，但未涉及PPI机制建模或AI/物理模拟方法，仅作预测对比，故为中档。",
+  "abstract": "Secondary structure predictions of proteins were compared to experimental results by wide-line (1)H NMR. IUPred2A was used to generate predictions of disordered protein or binding regions. Thymosin-beta(4) and the stabilin-2 cytoplasmic domain were found to be mainly disordered, in agreement with the experimental results. alpha-Synuclein variants were predicted to be disordered, as in the experiments, but the A53T mutant showed less predicted disorder, in contrast with the wide-line (1)H NMR result. A disordered binding site was found for thymosin-beta(4), whereas the stabilin-2 cytoplasmic domain was indicated as such in its entire length. The last third of the alpha-synuclein variant's sequence was a disordered binding site. Thymosin-beta(4) and the stabilin-2 cytoplasmic domain contained only coils and helices according to five secondary structure prediction methods (SPIDER3-SPOT-1D, PSRSM, MUFold-SSW, Porter 5, and RaptorX). beta-Sheets are present in alpha-synucleins, and they extend to more amino acid residues in the A53T mutant according to the predictions. The latter is verified by experiments. The comparison of the predictions with the experiments suggests that helical parts are buried.",
+  "abstract_zh": "将蛋白质的二级结构预测结果与宽线(1)H NMR实验所得结果进行了比较。使用IUPred2A生成无序蛋白或结合区域的预测。发现胸腺素-beta(4)和stabilin-2胞质域主要呈无序状态，与实验结果一致。α-突触核蛋白变体被预测为无序，与实验相符，但A53T突变体预测的无序程度较低，这与宽线(1)H NMR结果相反。胸腺素-beta(4)发现了一个无序结合位点，而stabilin-2胞质域则在其全长范围内被指示为无序结合位点。α-突触核蛋白变体序列的最后三分之一为无序结合位点。根据五种二级结构预测方法（SPIDER3-SPOT-1D、PSRSM、MUFold-SSW、Porter 5和RaptorX），胸腺素-beta(4)和stabilin-2胞质域仅包含卷曲和螺旋。α-突触核蛋白中存在β-折叠，且根据预测，在A53T突变体中这些β-折叠延伸至更多氨基酸残基。后者已通过实验验证。预测与实验的比较表明，螺旋部分被埋藏。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33620224/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33620224/",
+  "paper_page_path": "papers/pubmed/33620224/index.html"
+}

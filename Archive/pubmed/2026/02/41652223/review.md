@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors introduce GRAPE-LM, a generative AI framework combining a transformer-based conditional autoencoder with nucleic acid language models, guided by CRISPR-Cas-based aptamer screening data from intracellular environments. They claim that GRAPE-LM enables single-round evolution of RNA aptamers and, when informed by only one round of CRISPR-Cas-based screening, outperforms aptamers obtained through multiple rounds of human selection and optimization across three targets: CD3epsilon, SARS-CoV-2 spike RBD, and c-Myc.
+- **Visible evidence base** Abstract text only; no quantitative results, experimental details, or validation data are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, sequence data, binding assay details, statistical analyses, and comparison datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting application of language models to RNA aptamer evolution, a problem of genuine relevance. However, the claims of single-round superiority over multi-round human selection are strong and currently rest on no visible quantitative evidence. The technical architecture is described only at a high level, and the validation across three targets is stated without any performance metrics. The case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in directed evolution, RNA biology, aptamer engineering, and generative AI for biomolecular design would be interested. The potential to compress multi-round screening into a single round has practical appeal for diagnostic and therapeutic aptamer development, and the integration of intracellular screening data with language models could interest computational biologists working on sequence-function landscapes.
+- **Major strengths** The problem is well chosen and timely. The use of intracellular CRISPR-Cas-based screening data as a training signal is a distinctive design choice that may address a known limitation of in vitro aptamer selections. The choice of three disparate targets, including an intracellular disordered protein, suggests an attempt at generalizability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** GRAPE-LM, informed with only a single round of CRISPR-Cas-based screening, successfully obtains RNA aptamers that outperform those driven from multiple rounds of human selection and optimization.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The central performance claim is presented without any quantitative data. No binding affinities, enrichment ratios, specificity measurements, or statistical comparisons are reported. The phrase "outperform" is undefined in the abstract.
+  - **Why it matters** This is the core claim of the manuscript. Without visible metrics, the reader cannot assess the magnitude of the reported advantage, the variability across targets, or whether the comparison to human selection was controlled for experimental conditions, library diversity, and selection stringency.
+  - **Resolution test** Provide binding affinity values (for example Kd) for GRAPE-LM-derived aptamers versus multi-round selected aptamers for all three targets, with replicates and appropriate statistical tests. Specify the comparison conditions and define the performance metric used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical reproducibility
+  - **Claim pointer** GRAPE-LM integrates a transformer-based conditional autoencoder with nucleic acid language models and is guided by CRISPR-Cas-based aptamer screening data derived from intracellular environments.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The model architecture is described at a level that does not permit evaluation or reproduction. The nature of the conditional inputs, the training objective, the role of the nucleic acid language models, and the manner in which CRISPR-Cas screening data are encoded as labels or rewards are not specified.
+  - **Why it matters** For a methods-driven manuscript in a biotechnology venue, the architectural details and training scheme are essential for assessing novelty relative to existing generative models and for enabling independent implementation.
+  - **Resolution test** Provide a full methods description including model architecture diagrams, training data construction, loss functions, hyperparameters, and the exact procedure for converting CRISPR-Cas screening outputs into training signals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation completeness
+  - **Claim pointer** We validate GRAPE-LM on three disparate targets: the human T cell receptor CD3epsilon, the receptor-binding domain of the SARS-CoV-2 spike protein and the human oncogenic transcription factor c-Myc.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** Validation is claimed for three targets, but no experimental readouts are shown. For an intracellular disordered protein such as c-Myc, the challenges of nonspecific binding and cellular context are substantial, and the abstract does not indicate how these were addressed.
+  - **Why it matters** The claim of generalizability across target classes depends on the quality and rigor of the validation. Without visible data on specificity, off-target binding, and functional activity, the reader cannot judge whether the approach is broadly applicable or only effective under favorable conditions.
+  - **Resolution test** Show per-target validation data including specificity controls, dose-response curves, and functional assays where applicable. For c-Myc, provide evidence of intracellular target engagement and discrimination against related transcription factors.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "single-round evolution" is used without a precise definition. It is unclear whether this refers to one round of CRISPR-Cas screening, one round of model training, or one round of aptamer generation and testing.
+  - **Required correction** Define "single-round" explicitly in the abstract or introduction, and distinguish it from the number of model training iterations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Comparability
+  - **Affected element** Benchmarking description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The comparison to "multiple rounds of human selection and optimization" is mentioned without specifying the origin of the comparator aptamers, the number of rounds, or whether the same targets and assay conditions were used.
+  - **Required correction** Specify the source of the comparator aptamers, the number of selection rounds, and the assay conditions under which the comparison was performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Resource availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No mention is made of code availability, model weights, or data deposition. For a generative AI framework, these are important for community adoption and independent verification.
+  - **Required correction** State in the abstract or a data availability section whether code, models, and screening datasets will be made publicly available.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative performance data, the lack of architectural detail, and the absence of per-target validation results collectively prevent the core claims from being assessed.
+- **Assessment against Nature-style criteria** Originality is potentially high, as the combination of intracellular CRISPR-Cas screening data with language models for RNA aptamer generation appears novel. Scientific importance is potentially substantial given the labor-intensive nature of aptamer discovery, but the importance cannot be confirmed without evidence of robust performance gains. Interdisciplinary readership is plausible, spanning AI, RNA biology, and biotechnology. Technical soundness cannot be evaluated from the abstract alone. Readability for nonspecialists is adequate, though the abstract would benefit from a clearer definition of key terms and a quantitative summary of outcomes.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing is promising, and the manuscript may become supportive if the technical concerns are resolved with full data and methods.
+
+## Risk / unsupported claims
+- The claim that GRAPE-LM outperforms multi-round human selection is unsupported by any visible quantitative data.
+- The claim of successful validation on three targets is unverifiable without experimental readouts.
+- The claim that the approach constitutes "single-round evolution" is ambiguous and not defined with sufficient precision.
+- The generalizability of the method across target classes is asserted but not demonstrated in the abstract.

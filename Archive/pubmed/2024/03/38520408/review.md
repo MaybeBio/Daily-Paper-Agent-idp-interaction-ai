@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, funding, acknowledgements)
+- **Assessment boundary** Scientific content, experimental logic, evidence quality, and claims as presented in the provided text. No external data, figures, or supplementary materials were available for inspection.
+- **Shared manuscript claim summary** The authors propose that ARGLU1, an intrinsically disordered protein, enhances promoter-proximal pausing of RNA polymerase II by displacing BRD4 from JMJD6, and that this activity promotes DNA damage repair and cancer cell resistance to genotoxic drugs. They also report that ARGLU1 binds adenovirus E1A and negatively regulates viral replication.
+- **Visible evidence base** Text descriptions of results, including mass spectrometry, co-immunoprecipitation, ChIP, comet assays, cell growth assays, and reporter-based DNA repair assays. Figure and table references are present but the actual data are not provided.
+- **Missing materials affecting confidence** All figures, supplementary figures, tables, and supplementary tables. Proteomics raw data and analysis details. Statistical details beyond general statements. Experimental protocols for ChIP, comet assays, and reporter assays are described only by reference to prior work.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a poorly understood protein, ARGLU1, and proposes a mechanistic link between transcriptional pausing and DNA damage repair. The topic is of potential interest to the transcription and DNA repair communities. However, the evidence as described is largely correlative and several key claims are not supported by the data presented in the text. The mechanistic model, while plausible, rests on indirect observations and a single co-immunoprecipitation experiment. The manuscript would benefit from more direct biochemical and genetic evidence to establish causality.
+- **Who would be interested in the results, and why** Researchers studying RNA polymerase II pausing and transcriptional regulation, the DNA damage response and repair pathways, and the role of intrinsically disordered proteins in these processes. The potential connection to chemotherapy resistance may also interest cancer biologists.
+- **Major strengths** The study focuses on a relatively uncharacterized protein and proposes a novel connection between transcriptional pausing and DNA repair. The use of adenovirus E1A as a probe is a creative approach. The observation that ARGLU1 overexpression confers resistance to genotoxic drugs has potential translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for mechanistic claim
+  - **Claim pointer** The central claim that ARGLU1 enhances promoter-proximal pausing by inhibiting the interaction between JMJD6 and BRD4.
+  - **Evidence pointer** Results section, Figure 5D and 5E (co-immunoprecipitation), Figure 5A and 5B (ChIP)
+  - **Concern** The only direct evidence for the proposed mechanism is a co-immunoprecipitation showing that ARGLU1 overexpression reduces BRD4 association with JMJD6. This is a single experiment in one cell line. The ChIP data show changes in paused and elongating Pol II, but these are correlative and do not demonstrate that the effect is mediated by the proposed displacement mechanism. No rescue experiments, mutagenesis of the putative interaction interface, or in vitro binding studies are described.
+  - **Why it matters** The proposed mechanism is the core of the paper. Without direct evidence that ARGLU1 competes with BRD4 for JMJD6 binding and that this competition is causally linked to the observed changes in Pol II pausing, the model remains speculative.
+  - **Resolution test** Provide in vitro binding assays showing direct competition between ARGLU1 and BRD4 for JMJD6. Mutate the conserved residues in ARGLU1 predicted to mediate JMJD6 binding and show loss of function. Rescue the pausing phenotype with a JMJD6 mutant that cannot bind ARGLU1.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between pausing and DNA repair
+  - **Claim pointer** The claim that enhanced promoter-proximal pausing promotes DNA damage repair.
+  - **Evidence pointer** Results section, Figure 4C-4M (comet assays, reporter assays)
+  - **Concern** The manuscript shows that ARGLU1 overexpression enhances DNA repair and increases pausing, but no experiment directly links these two phenomena. The connection is inferred from the observation that both occur when ARGLU1 is overexpressed. It is equally possible that ARGLU1 affects DNA repair through a separate, pausing-independent mechanism.
+  - **Why it matters** The title and abstract imply a mechanistic link between pausing and repair. If this link is not established, the central thesis of the paper is weakened.
+  - **Resolution test** Disrupt the pausing function of ARGLU1 (e.g., via mutation) and show that DNA repair is no longer enhanced. Alternatively, artificially induce pausing in the absence of ARGLU1 and show that repair is enhanced.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of the effect
+  - **Claim pointer** The claim that ARGLU1 specifically affects genes regulated by anti-pause enhancers.
+  - **Evidence pointer** Results section, Figure 5A and 5B
+  - **Concern** The ChIP analysis was performed on only two genes (RHOB and ALDOA) reported to be regulated by anti-pause enhancers, and three genes not reported to be regulated by such enhancers. This is a very small sample size. The text states that for the latter genes, no significant difference in elongating Pol II was observed, but a significant enhancement in paused Pol II was seen. This is confusing and suggests the effect may not be specific to anti-pause enhancer-regulated genes.
+  - **Why it matters** The proposed mechanism implies specificity for anti-pause enhancer-regulated genes. The data as described do not clearly support this specificity.
+  - **Resolution test** Perform a genome-wide analysis of Pol II pausing (e.g., PRO-seq) in HT versus HT-A cells to determine the global effect of ARGLU1 on pausing and whether it correlates with the presence of anti-pause enhancers.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Relevance of adenovirus findings
+  - **Claim pointer** The claim that ARGLU1 is a negative regulator of adenovirus replication.
+  - **Evidence pointer** Results section, Figure 2E-2G
+  - **Concern** The connection between the adenovirus experiments and the main thesis of the paper (pausing and DNA repair) is not clearly articulated. The authors show that ARGLU1 knockdown enhances viral growth and gene expression, but how this relates to the proposed mechanism of pausing and DNA repair is not explained.
+  - **Why it matters** The adenovirus data may be of interest to virologists, but it is not clear how it strengthens the main argument of the paper. It may be better placed in a separate manuscript or more explicitly integrated into the mechanistic model.
+  - **Resolution test** Clarify the connection. For example, does ARGLU1 knockdown affect viral DNA damage or repair? Does the E1A-ARGLU1 interaction affect pausing at viral promoters?
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5A and 5B
+  - **Evidence pointer** Results section, Figure 5A and 5B
+  - **Issue** The ChIP enrichment values are described as "low" in the text. This raises concerns about the signal-to-noise ratio of the experiment.
+  - **Required correction** Provide a clear demonstration that the ChIP signal is specific, such as a no-antibody control or a negative control region. Show the data as percent input with appropriate controls.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative experiments
+  - **Evidence pointer** Methods, Statistical analysis section
+  - **Issue** The statistical methods are described only as "two-tailed Student's t-test or ANOVA with Tukey's test where appropriate." The text does not specify which test was used for which experiment, nor are effect sizes or confidence intervals reported.
+  - **Required correction** Specify the statistical test used for each figure panel. Report exact p-values and effect sizes. Consider reporting confidence intervals.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Mechanistic model
+  - **Affected element** Discussion, Figure 6
+  - **Evidence pointer** Discussion section
+  - **Issue** The model in Figure 6 is not described in the text. It is unclear how the authors envision the spatial and temporal coordination of pausing, DNA repair, and BRD4/JMJD6 displacement.
+  - **Required correction** Add a description of the model in the text, explaining the proposed sequence of events and the role of each factor.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Cell line choice
+  - **Affected element** HT1080 cells
+  - **Evidence pointer** Methods, Cell and virus culture
+  - **Issue** The study relies on a single cell line (HT1080). The authors note that they attempted to generate stable ARGLU1-overexpressing A549 cells but failed. This limits the generalizability of the findings.
+  - **Required correction** Discuss the limitations of using a single cell line. If possible, perform key experiments in an additional cell line, even with transient overexpression or knockdown.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Antibody validation
+  - **Affected element** ChIP experiments
+  - **Evidence pointer** Methods, Antibodies
+  - **Issue** The ChIP-grade antibodies for Pol II (CTD, CTD-S2p, CTD-S5p) are from Abcam. No validation data are shown for their use in ChIP.
+  - **Required correction** Provide validation data for ChIP-grade antibodies, such as a ChIP-seq track or a demonstration that the signal is lost upon knockdown of the target.
+- **Technical failings that need to be addressed before the case is established** The lack of direct evidence for the proposed displacement mechanism (R1-M1) and the lack of a causal link between pausing and DNA repair (R1-M2) are the primary technical failings. The limited gene sampling in the ChIP experiments (R1-M3) also needs to be addressed.
+- **Assessment against Nature-style criteria** Originality: The connection between ARGLU1, pausing, and DNA repair is novel. Scientific importance: The potential link between transcriptional pausing and DNA repair is of broad interest, and the implications for chemotherapy resistance are significant. Interdisciplinary readership: The topic bridges transcription, DNA repair, and cancer biology, which should appeal to a broad audience. Technical soundness: The core mechanistic claim is not sufficiently supported by the evidence presented. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the mechanistic model could be explained more clearly.
+- **Recommendation posture** Not currently established from the provided evidence. The central mechanistic claims require substantially stronger evidence, including direct biochemical demonstration of the proposed competition and a causal link between pausing and repair. The manuscript is not suitable for publication in its current form.
+
+## Risk / unsupported claims
+- The claim that ARGLU1 enhances promoter-proximal pausing by inhibiting the BRD4-JMJ6 interaction is not supported by direct evidence.
+- The claim that enhanced pausing promotes DNA repair is correlative and not causally established.
+- The claim that ARGLU1 promotes cancer cell resistance to genotoxic drugs via enhanced DNA repair is plausible but not definitively proven.
+- The claim that ARGLU1 is a negative regulator of adenovirus replication is supported by knockdown data, but the mechanism is unclear.
+- The relevance of the adenovirus findings to the main thesis is not established.

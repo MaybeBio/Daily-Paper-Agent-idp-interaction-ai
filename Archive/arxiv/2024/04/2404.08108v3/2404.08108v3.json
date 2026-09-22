@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2404.08108v3",
+  "title": "DisorderUnetLM: Validating ProteinUnet for efficient protein intrinsic disorder prediction",
+  "doi": "10.1016/j.compbiomed.2024.109586",
+  "abstract": "The prediction of intrinsic disorder regions has significant implications for understanding protein functions and dynamics. It can help to discover novel protein-protein interactions essential for designing new drugs and enzymes. Recently, a new generation of predictors based on protein language models (pLMs) is emerging. These algorithms reach state-of-the-art accuracy with-out calculating time-consuming multiple sequence alignments (MSAs). The article introduces the new DisorderUnetLM disorder predictor, which builds upon the idea of ProteinUnet. It uses the Attention U-Net convolutional neural network and incorporates features from the ProtTrans pLM. DisorderUnetLM achieves top results in the direct comparison with recent predictors exploiting MSAs and pLMs. Moreover, among 43 predictors from the latest CAID-2 benchmark, it ranks 1st for the Disorder-NOX subset (ROC-AUC of 0.844) and 10th for the Disorder-PDB subset (ROC-AUC of 0.924). The code and model are publicly available and fully reproducible at doi.org/10.24433/CO.7350682.v1.",
+  "authors": [
+    "Krzysztof Kotowski",
+    "Irena Roterman",
+    "Katarzyna Stapor"
+  ],
+  "published_date": "2024-04-11T20:14:14Z",
+  "updated_date": "2024-07-17T07:19:59Z",
+  "journal": "",
+  "category": "cs.LG, q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2404.08108v3",
+  "pdf_url": "https://arxiv.org/pdf/2404.08108v3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "3",
+  "keywords": [
+    "cs.LG",
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2404.08108v3",
+    "raw_categories": [
+      "cs.LG",
+      "q-bio.BM"
+    ],
+    "journal_ref": ""
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "41661310",
+    "doi": "10.1021/acsnano.5c17943",
+    "title": "Terminal-Directed Supramolecular Liquid Crystal Formation by Designed Coiled-Coil Interparticle Stacking."
+  },
+  "content": {
+    "abstract": "Elucidation of the sequence-level dynamics that direct the hierarchical assembly of peptides remains a challenge. Herein, a simulation-guided experimental framework demonstrates that computationally designed, single charge-type (SC), coiled-coil peptides exhibit multiple lyotropic liquid-crystalline (LC) phases via programmable, robust, nonionic, end-to-end stacking. This macroscopic phase behavior is encoded directly in the molecular interaction among terminal residues of the coiled-coil constituent peptides. Specifically, the conformational flexibility of the N-terminus and attractive interactions at the C-terminus promote end-to-end stacking between adjacent coiled coils, providing a lever for fine-tuning of interfacial interactions and, thus, the critical LC-forming concentration (CLC). The phase behavior of SC particles is presented with variation of added salt as well as peptide particle concentration, revealing a rich lyotropic behavior spanning nematic, hexagonal columnar, smectic A, and smectic B phases. Harnessing the molecular control over the stacked interface, tryptophan-mediated cross-linking at the terminal residues was performed, which significantly enhanced the mechanical properties of the liquid crystal system. These findings establish a clear strategy for encoding macroscopic material properties at the molecular level, offering a versatile blueprint for future de novo peptide design with coiled-coil building blocks.",
+    "keywords": [
+      "coiled coil",
+      "computational design",
+      "interparticle interaction",
+      "liquid crystal",
+      "liquid-liquid crystal phase separation",
+      "molecular simulation",
+      "self-assembly"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Tianren",
+        "Shi, Yi",
+        "Schwartz, Jacob R",
+        "Zhang, Zihan",
+        "Liskey, Sabrina E",
+        "Kloxin, Christopher J",
+        "Saven, Jeffery G",
+        "Pochan, Darrin J"
+      ],
+      "short_names": [
+        "Zhang T",
+        "Shi Y",
+        "Schwartz JR",
+        "Zhang Z",
+        "Liskey SE",
+        "Kloxin CJ",
+        "Saven JG",
+        "Pochan DJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2899-5727",
+        "ORCID: 0000-0002-5912-2497",
+        "ORCID: 0000-0002-1679-0022",
+        "ORCID: 0000-0001-5027-7241",
+        "ORCID: 0000-0002-0454-2339"
+      ],
+      "affiliations": [
+        "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States.",
+        "Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania 19104, United States.",
+        "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States.",
+        "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States.",
+        "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States.",
+        "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States.",
+        "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States.",
+        "Department of Chemical and Biomolecular Engineering, University of Delaware, Newark, Delaware 19716, United States.",
+        "Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania 19104, United States.",
+        "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Tianren",
+        "short_name": "Zhang T",
+        "identifiers": [
+          "0000-0003-2899-5727"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States.",
+          "Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania 19104, United States."
+        ]
+      },
+      {
+        "full_name": "Shi, Yi",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States."
+        ]
+      },
+      {
+        "full_name": "Schwartz, Jacob R",
+        "short_name": "Schwartz JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zihan",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0002-5912-2497"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States."
+        ]
+      },
+      {
+        "full_name": "Liskey, Sabrina E",
+        "short_name": "Liskey SE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States."
+        ]
+      },
+      {
+        "full_name": "Kloxin, Christopher J",
+        "short_name": "Kloxin CJ",
+        "identifiers": [
+          "0000-0002-1679-0022"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States.",
+          "Department of Chemical and Biomolecular Engineering, University of Delaware, Newark, Delaware 19716, United States."
+        ]
+      },
+      {
+        "full_name": "Saven, Jeffery G",
+        "short_name": "Saven JG",
+        "identifiers": [
+          "0000-0001-5027-7241"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Pennsylvania, Philadelphia, Pennsylvania 19104, United States."
+        ]
+      },
+      {
+        "full_name": "Pochan, Darrin J",
+        "short_name": "Pochan DJ",
+        "identifiers": [
+          "0000-0002-0454-2339"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, University of Delaware, Newark, Delaware 19716, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS nano"
+    ],
+    "journal_abbrev": [
+      "ACS Nano"
+    ],
+    "pub_date": "2026 Feb 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/09 12:54",
+    "fetched_at": "2026-09-18 00:46:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41661310",
+      "41369930",
+      "41643020",
+      "39508488",
+      "39454098",
+      "40052932",
+      "31647865",
+      "29923575",
+      "20108940",
+      "39567535",
+      "12064934",
+      "8151708",
+      "16680794",
+      "41391169",
+      "12578390",
+      "18704948",
+      "9578482",
+      "38717062",
+      "27500907",
+      "12824486",
+      "18753226",
+      "16519526",
+      "11731294",
+      "8117695",
+      "10873472",
+      "24071513",
+      "16042394",
+      "28763578",
+      "21354179",
+      "20027625",
+      "7592719",
+      "9878444",
+      "9230486",
+      "38110299",
+      "30393526",
+      "34837474",
+      "9007979",
+      "12064940",
+      "35415953",
+      "28553984",
+      "19693805",
+      "28574073",
+      "27219681",
+      "8626731",
+      "17713844",
+      "10745004",
+      "37501532",
+      "7757012",
+      "29866835",
+      "14623192",
+      "21456677",
+      "14690427",
+      "8003969",
+      "39698821",
+      "32159574",
+      "37690796",
+      "18076193",
+      "21642537",
+      "11859089",
+      "40698635",
+      "11724584",
+      "40042175",
+      "26370878",
+      "9585569",
+      "25027861",
+      "23912807",
+      "38797707",
+      "24729132",
+      "9261070",
+      "40468782",
+      "24598042",
+      "41047210",
+      "33523941",
+      "17140192",
+      "8831793",
+      "36988077",
+      "17278362",
+      "12054832",
+      "37293020",
+      "39720134",
+      "25446089",
+      "37181761",
+      "31738361",
+      "16150975",
+      "8366074",
+      "38497125",
+      "19591838",
+      "15084581",
+      "27192036",
+      "19016556",
+      "30299966",
+      "11297420",
+      "8251485",
+      "1478776",
+      "40169349",
+      "25049381",
+      "38042897",
+      "41206632",
+      "36172799",
+      "7602597"
+    ],
+    "review": [
+      "41661310",
+      "40169349",
+      "41206632"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/ancac3/article-lookup/doi/10.1021/acsnano.5c17943",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

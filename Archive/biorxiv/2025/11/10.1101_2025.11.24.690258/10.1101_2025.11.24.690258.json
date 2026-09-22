@@ -1,0 +1,453 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.24.690258",
+  "title": "Mapping high resolution, multidimensional phase diagrams of physiological protein condensates",
+  "doi": "10.1101/2025.11.24.690258",
+  "abstract": "Biomolecular condensates are membraneless compartments, crucial for organising and regulating diverse cellular processes. Current approaches to study condensate biology either use simplified recombinant protein systems with limited physiological relevance, or complex live-cell models with restricted experimental control and scalability. Here, we present ExVivo PhaseScan, a droplet microfluidics platform that couples mammalian lysate-based reconstitution with scalable analysis to generate high-resolution phase diagrams of physiological protein condensates. We apply this approach to study two complex multicomponent condensate systems, stress granules and nucleoli, and dissect the physicochemical interactions that influence their stability. We further developed a machine learning pipeline to analyse condensate morphology which we use to reveal how mutations in the ALS-linked protein FUS remodels condensate phase landscapes. We identify liquid-to-solid transitions of mutant FUS within stress granules and nucleoli, and show that these transitions can be reversed by RNA aptamer-based interventions. Together, these findings establish ExVivo PhaseScan as a versatile tool for dissecting the physicochemical and pathological regulation of condensates, with potential to inform therapeutic strategies for diseases driven by aberrant phase transitions.",
+  "authors": [
+    "Agarwal T",
+    "Sneideris T",
+    "Svara F",
+    "Jermakovs K",
+    "Coyle H",
+    "Qamar S",
+    "Kava E",
+    "Scrutton R",
+    "Pleschka N",
+    "Peres P",
+    "Cereghetti G",
+    "Andrzejewska E",
+    "Diaz-Barreiro A",
+    "Palmer G",
+    "Costa-Filho AJ",
+    "Krainer G",
+    "Knowles TP",
+    "Nixon-Abell J"
+  ],
+  "published_date": "2025-11-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690258",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690258.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1125170",
+    "raw_record": {
+      "id": "PPR1125170",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1125170"
+        ]
+      },
+      "doi": "10.1101/2025.11.24.690258",
+      "title": "Mapping high resolution, multidimensional phase diagrams of physiological protein condensates",
+      "authorString": "Agarwal T, Sneideris T, Svara F, Jermakovs K, Coyle H, Qamar S, Kava E, Scrutton R, Pleschka N, Peres P, Cereghetti G, Andrzejewska E, Diaz-Barreiro A, Palmer G, Costa-Filho AJ, Krainer G, Knowles TP, Nixon-Abell J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Agarwal T",
+            "lastName": "Agarwal",
+            "firstName": "Tanushree",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0001-5270-9420"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Centre for Misfolding Disease, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sneideris T",
+            "lastName": "Sneideris",
+            "firstName": "Tomas",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5285-871X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Centre for Misfolding Disease, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Svara F",
+            "lastName": "Svara",
+            "firstName": "Fabian",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-7883-4789"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "ariadne.ai ag, Buchrain, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jermakovs K",
+            "lastName": "Jermakovs",
+            "firstName": "Klavs",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Centre for Misfolding Disease, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Coyle H",
+            "lastName": "Coyle",
+            "firstName": "Helena",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-3340-4153"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Qamar S",
+            "lastName": "Qamar",
+            "firstName": "Seema",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kava E",
+            "lastName": "Kava",
+            "firstName": "Emanuel",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physics, Ribeirão Preto School of Philosophy, Science and Literature, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Scrutton R",
+            "lastName": "Scrutton",
+            "firstName": "Rob",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-0012-0703"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Centre for Misfolding Disease, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pleschka N",
+            "lastName": "Pleschka",
+            "firstName": "Nicole",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Peres P",
+            "lastName": "Peres",
+            "firstName": "Priyanka",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cereghetti G",
+            "lastName": "Cereghetti",
+            "firstName": "Gea",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Centre for Misfolding Disease, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andrzejewska E",
+            "lastName": "Andrzejewska",
+            "firstName": "Ewa",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Centre for Misfolding Disease, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Diaz-Barreiro A",
+            "lastName": "Diaz-Barreiro",
+            "firstName": "Alejandro",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Rheumatology, Department of Medicine, Faculty of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Department of Pathology and Immunology, Faculty of Medicine, , , ; Geneva Centre for Inflammation Research, Geneva, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Palmer G",
+            "lastName": "Palmer",
+            "firstName": "Gaby",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Rheumatology, Department of Medicine, Faculty of Medicine, , ,"
+                },
+                {
+                  "affiliation": "Department of Pathology and Immunology, Faculty of Medicine, , , ; Geneva Centre for Inflammation Research, Geneva, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Costa-Filho AJ",
+            "lastName": "Costa-Filho",
+            "firstName": "Antonio",
+            "initials": "AJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6730-8737"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physics, Ribeirão Preto School of Philosophy, Science and Literature, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Krainer G",
+            "lastName": "Krainer",
+            "firstName": "Georg",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Centre for Misfolding Disease, , ,"
+                },
+                {
+                  "affiliation": "Biophysics, Institute of Molecular Biosciences (IMB), , , , ; Field of Excellence BioHealth, , , ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Knowles TP",
+            "lastName": "Knowles",
+            "firstName": "Tuomas PJ",
+            "initials": "TP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Centre for Misfolding Disease, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nixon-Abell J",
+            "lastName": "Nixon-Abell",
+            "firstName": "Jonathon",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, Department of Clinical Neurosciences, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5285-871X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6730-8737"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0001-5270-9420"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0005-3340-4153"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-0012-0703"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-7883-4789"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Biomolecular condensates are membraneless compartments, crucial for organising and regulating diverse cellular processes. Current approaches to study condensate biology either use simplified recombinant protein systems with limited physiological relevance, or complex live-cell models with restricted experimental control and scalability. Here, we present ExVivo PhaseScan, a droplet microfluidics platform that couples mammalian lysate-based reconstitution with scalable analysis to generate high-resolution phase diagrams of physiological protein condensates. We apply this approach to study two complex multicomponent condensate systems, stress granules and nucleoli, and dissect the physicochemical interactions that influence their stability. We further developed a machine learning pipeline to analyse condensate morphology which we use to reveal how mutations in the ALS-linked protein FUS remodels condensate phase landscapes. We identify liquid-to-solid transitions of mutant FUS within stress granules and nucleoli, and show that these transitions can be reversed by RNA aptamer-based interventions. Together, these findings establish ExVivo PhaseScan as a versatile tool for dissecting the physicochemical and pathological regulation of condensates, with potential to inform therapeutic strategies for diseases driven by aberrant phase transitions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "227745/Z/23/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "219251",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101001615",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101164135",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.24.690258"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1125170"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1125170&type=FILE&fileName=EMS211145-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS211145",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-11-26",
+      "firstPublicationDate": "2025-11-25",
+      "firstIndexDate": "2025-11-26",
+      "fullTextReceivedDate": "2025-12-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

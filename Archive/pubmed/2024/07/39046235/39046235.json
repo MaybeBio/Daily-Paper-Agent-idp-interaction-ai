@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "39046235",
+    "doi": "10.1021/acs.jcim.4c00965",
+    "title": "Wild-Type alpha-Synuclein Structure and Aggregation: A Comprehensive Coarse-Grained and All-Atom Molecular Dynamics Study."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein (alpha-syn) is a 140 amino acid intrinsically disordered protein (IDP) and the primary component of cytotoxic oligomers implicated in the etiology of Parkinson's disease (PD). While IDPs lack a stable three-dimensional structure, they sample a heterogeneous ensemble of conformations that can, in principle, be assessed through molecular dynamics simulations. However, describing the structure and aggregation of large IDPs is challenging due to force field (FF) accuracy and sampling limitations. To cope with the latter, coarse-grained (CG) FFs emerge as a potential alternative at the expense of atomic detail loss. Whereas CG models can accurately describe the structure of the monomer, less is known about aggregation. The latter is key for assessing aggregation pathways and designing aggregation inhibitor drugs. Herein, we investigate the structure and dynamics of alpha-syn using different resolution CG (Martini3 and Sirah2) and all-atom (Amber99sb and Charmm36m) FFs to gain insight into the differences and resemblances between these models. The dependence of the magnitude of protein-water interactions and the putative need for enhanced sampling (replica exchange) methods in CG simulations are analyzed to distinguish between force field accuracy and sampling limitations. The stability of the CG models of an alpha-syn fibril was also investigated. Additionally, alpha-syn aggregation was studied through umbrella sampling for the CG models and CG/all-atom models for an 11-mer peptide (NACore) from an amyloidogenic domain of alpha-syn. Our results show that despite the alpha-syn structures of Martini3 and Sirah2 with enhanced protein-water interactions being similar, major differences exist concerning aggregation. The Martini3 fibril is not stable, and the binding free energy of alpha-syn and NACore is positive, opposite to Sirah2. Sirah2 peptides in a zwitterionic form, in turn, display termini interactions that are too strong, resulting in end-to-end orientation. Sirah2, with enhanced protein-water interactions and neutral termini, provides, however, a peptide aggregation free energy profile similar to that found with all-atom models. Overall, we find that Sirah2 with enhanced protein-water interactions is suitable for studying protein-protein and protein-drug aggregation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*alpha-Synuclein/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*Protein Aggregates",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Martins, Gabriel F",
+        "Galamba, Nuno"
+      ],
+      "short_names": [
+        "Martins GF",
+        "Galamba N"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1704-2242"
+      ],
+      "affiliations": [
+        "BioISI horizontal line Biosystems and Integrative Sciences Institute, Faculty of Sciences of the University of Lisbon, C8, Campo Grande, 1749-016 Lisbon, Portugal.",
+        "BioISI horizontal line Biosystems and Integrative Sciences Institute, Faculty of Sciences of the University of Lisbon, C8, Campo Grande, 1749-016 Lisbon, Portugal."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Martins, Gabriel F",
+        "short_name": "Martins GF",
+        "identifiers": [],
+        "affiliations": [
+          "BioISI─Biosystems and Integrative Sciences Institute, Faculty of Sciences of the University of Lisbon, C8, Campo Grande, 1749-016 Lisbon, Portugal."
+        ]
+      },
+      {
+        "full_name": "Galamba, Nuno",
+        "short_name": "Galamba N",
+        "identifiers": [
+          "0000-0003-1704-2242"
+        ],
+        "affiliations": [
+          "BioISI─Biosystems and Integrative Sciences Institute, Faculty of Sciences of the University of Lisbon, C8, Campo Grande, 1749-016 Lisbon, Portugal."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2024 Aug 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/24 12:45",
+    "fetched_at": "2026-09-21 08:59:00"
+  },
+  "links": {
+    "cites": [
+      "42334185",
+      "41817953",
+      "41652163",
+      "40544328",
+      "39819820",
+      "39377660"
+    ],
+    "refs": [
+      "38113378",
+      "37788237",
+      "37462852",
+      "37452752",
+      "37189428",
+      "37158748",
+      "37125909",
+      "37106781",
+      "37047286",
+      "36877087",
+      "36514832",
+      "36403437",
+      "36278939",
+      "36232847",
+      "35950933",
+      "35616516",
+      "35377637",
+      "34147836",
+      "33854052",
+      "33782607",
+      "33719460",
+      "33591749",
+      "32623047",
+      "31903719",
+      "30933517",
+      "30913885",
+      "30873322",
+      "30810317",
+      "30635607",
+      "30091924",
+      "29735687",
+      "28498720",
+      "28293421",
+      "28109332",
+      "27819658",
+      "27727496",
+      "27398307",
+      "27018801",
+      "26965454",
+      "26931727",
+      "26773132",
+      "26723627",
+      "26621095",
+      "26575407",
+      "26352473",
+      "26193124",
+      "25400877",
+      "25400522",
+      "24361273",
+      "23254192",
+      "22024360",
+      "21714551",
+      "21325059",
+      "20639465",
+      "20548957",
+      "20524659",
+      "20408171",
+      "20190788",
+      "19745811",
+      "19576220",
+      "18493022",
+      "17722123",
+      "17569554",
+      "17212484",
+      "17131434",
+      "16981200",
+      "16211538",
+      "16172406",
+      "15272267",
+      "15267980",
+      "12956606",
+      "12704221",
+      "11604526",
+      "11461974",
+      "11286556",
+      "11152691",
+      "10878819",
+      "10746727",
+      "10678833",
+      "9895674",
+      "9600990",
+      "9278044",
+      "8744570",
+      "8248242",
+      "8108382",
+      "3654"
+    ],
+    "similar": [
+      "39046235",
+      "38700150",
+      "30933517",
+      "29286644",
+      "39175373",
+      "30769283",
+      "31547734",
+      "37125909",
+      "29364151",
+      "36379279",
+      "26723627",
+      "36514832",
+      "17381514",
+      "30853581",
+      "31903719",
+      "32394304",
+      "28024449",
+      "33350818",
+      "26601760",
+      "33649211",
+      "29715424",
+      "26119103",
+      "37433401",
+      "38964522",
+      "28796507",
+      "23607785",
+      "38928405",
+      "20888834",
+      "37741548",
+      "26972727",
+      "33625841",
+      "22947936",
+      "32457390",
+      "28373279",
+      "30917654",
+      "30065316",
+      "25296841",
+      "29866153",
+      "35011320",
+      "27737778",
+      "20550147",
+      "30277753",
+      "29851342",
+      "19576220",
+      "36550041",
+      "26931727",
+      "37407505",
+      "29853639",
+      "35836937",
+      "25937088",
+      "32623047",
+      "37574034",
+      "33186020",
+      "31477241",
+      "31756328",
+      "28330770",
+      "36373662",
+      "31809054",
+      "25389903",
+      "27934063",
+      "23214618",
+      "29604892",
+      "26052838",
+      "36877087",
+      "26479553",
+      "35815598",
+      "36826732",
+      "27587396",
+      "35414168",
+      "23648364",
+      "28872299",
+      "35690099",
+      "36513068",
+      "29959225",
+      "23374072",
+      "37431676",
+      "37189428",
+      "37198991",
+      "23339399",
+      "28650719",
+      "33382616",
+      "33945282",
+      "23811057",
+      "23374074",
+      "36623616",
+      "31196755",
+      "15180968",
+      "21056574",
+      "28460628",
+      "29642031",
+      "36961221",
+      "28330339",
+      "37923923",
+      "33631264",
+      "37783321",
+      "39082221",
+      "38727274",
+      "31575115",
+      "26851933",
+      "38272228",
+      "38996889",
+      "34015255",
+      "36563129",
+      "39306670",
+      "39354189",
+      "35755809",
+      "35974556",
+      "35104408"
+    ],
+    "review": [
+      "39046235",
+      "29364151",
+      "30853581",
+      "26972727",
+      "35011320",
+      "27737778",
+      "36373662",
+      "23648364"
+    ],
+    "pmc": [
+      "11323248"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/39046235/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39046235/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c00965",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

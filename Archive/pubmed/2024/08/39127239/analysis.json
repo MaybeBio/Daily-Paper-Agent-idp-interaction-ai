@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39127239",
+  "title": "The effect of phosphorylation efficiency on the oncogenic properties of the protein E7 from high-risk HPV.",
+  "authors": "Malone, Madison; Maeyama, Ava; Ogden, Naomi; Perry, Kayla N; Kramer, Andrew; Bates, Caleb; Marble, Camryn; Orlando, Ryan; Rausch, Amy; Smeraldi, Caleb; Lowey, Connor; Fees, Bronson; Dyson, H Jane; Dorrell, Michael; Kast-Woelbern, Heidi; Jansma, Ariane L",
+  "journal": "Virus research",
+  "published_date": "2024-08-11",
+  "window": {
+    "start": "2024-08-05",
+    "end": "2024-08-11"
+  },
+  "score": 4,
+  "one_liner_zh": "研究HPV E7蛋白磷酸化效率差异如何影响其与pRb结合及致癌性，涉及无序蛋白E7的互作机制，但方法为NMR和细胞实验，无AI或物理模拟建模。",
+  "abstract": "The Human papillomavirus (HPV) causes tumors in part by hijacking the host cell cycle and forcing uncontrolled cellular division. While there are >200 genotypes of HPV, 15 are classified as high-risk and have been shown to transform infected cells and contribute to tumor formation. The remaining low-risk genotypes are not considered oncogenic and result in benign skin lesions. In high-risk HPV, the oncoprotein E7 contributes to the dysregulation of cell cycle regulatory mechanisms. High-risk E7 is phosphorylated in cells at two conserved serine residues by Casein Kinase 2 (CK2) and this phosphorylation event increases binding affinity for cellular proteins such as the tumor suppressor retinoblastoma (pRb). While low-risk E7 possesses similar serine residues, it is phosphorylated to a lesser degree in cells and has decreased binding capabilities. When E7 binding affinity is decreased, it is less able to facilitate complex interactions between proteins and therefore has less capability to dysregulate the cell cycle. By comparing E7 protein sequences from both low- and high-risk HPV variants and using site-directed mutagenesis combined with NMR spectroscopy and cell-based assays, we demonstrate that the presence of two key nonpolar valine residues within the CK2 recognition sequence, present in low-risk E7, reduces serine phosphorylation efficiency relative to high-risk E7. This results in significant loss of the ability of E7 to degrade the retinoblastoma tumor suppressor protein, thus also reducing the ability of E7 to increase cellular proliferation and reduce senescence. This provides additional insight into the differential E7-mediated outcomes when cells are infected with high-risk verses low-risk HPV. Understanding these oncogenic differences may be important to developing targeted treatment options for HPV-induced cancers.",
+  "abstract_zh": "人乳头瘤病毒（HPV）部分通过劫持宿主细胞周期并强制进行不受控制的细胞分裂来引发肿瘤。尽管存在超过200种HPV基因型，其中15种被归类为高风险型，并已被证明能转化受感染细胞并促进肿瘤形成。其余低风险基因型不被视为致癌性，导致良性皮肤病变。在高风险HPV中，癌蛋白E7促成细胞周期调控机制的失调。高风险E7在细胞中由酪蛋白激酶2（CK2）在两个保守的丝氨酸残基上磷酸化，此磷酸化事件增强了对细胞蛋白（如肿瘤抑制因子视网膜母细胞瘤蛋白（pRb））的结合亲和力。虽然低风险E7具有相似的丝氨酸残基，但它在细胞中的磷酸化程度较低，且结合能力减弱。当E7结合亲和力降低时，其促进蛋白质间复杂相互作用的能力减弱，因此失调细胞周期的能力也降低。通过比较低风险和高风险HPV变体的E7蛋白序列，并结合定点突变、核磁共振波谱（NMR spectroscopy）及细胞实验，我们证明低风险E7中CK2识别序列内存在两个关键的非极性缬氨酸残基，相对于高风险E7，这些残基降低了丝氨酸磷酸化效率。这导致E7降解视网膜母细胞瘤肿瘤抑制蛋白的能力显著丧失，从而也降低了E7促进细胞增殖和减少衰老的能力。这为细胞感染高风险与低风险HPV时E7介导结果的差异提供了额外见解。理解这些致癌差异可能对开发针对HPV诱导癌症的靶向治疗选项具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39127239/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39127239/",
+  "paper_page_path": "papers/pubmed/39127239/index.html"
+}

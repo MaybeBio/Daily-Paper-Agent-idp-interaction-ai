@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.18.618793",
+  "title": "Phosphorylation-dependent tuning of mRNA deadenylation rates",
+  "authors": "Stowell JA; Yu CW; Chen ZA; Lee G; Morgan T; Sinn L; Agnello S; O’Reilly FJ; Rappsilber J; Freund SM; Passmore LA",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-19",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过结构生物学和生化重构揭示RNA适配器IDR与Ccr4-Not复合物的多价互作及磷酸化调控脱腺苷酸化速率，虽以实验为主、无AI/物理模拟方法，但聚焦IDR介导的PPI机制建模，对本课题有直接启发。",
+  "abstract": "mRNA decay is a major determinant of gene regulation that is controlled through shortening of mRNA poly(A) tails by the Ccr4-Not complex. The specificity of deadenylation can be mediated through RNA adaptors – RNA-binding proteins that tether substrate mRNAs to Ccr4-Not in a regulated and context-specific manner. Interaction with Ccr4-Not is mediated by intrinsically disordered regions (IDRs) within the RNA adaptors. Due to the difficulty in studying large IDR-containing complexes, the determinants of specificity and their regulation remain unclear. Here we use structural biology and biochemical reconstitution to show that dispersed segments within IDRs of RNA adaptors bind to several distinct binding sites on Ccr4-Not through multivalent interactions. We further demonstrate that binding can be modulated by phosphorylation, altering the consequent deadenylation rate in a continuously tunable manner. This mechanism is broadly applicable in evolutionarily divergent IDRs from multiple RNA adaptors including fission yeast Puf3, and human Pumilio/PUM1 and Tristetraprolin/TTP. Together, our work suggests that multivalent interactions and phosphorylation represent conserved strategies for regulating gene expression. Thus, in response to cellular cues, mRNA decay can be regulated by a graded mechanism, rather than a bistable on/off switch, rationalizing how post-transcriptional gene expression is fine-tuned.",
+  "abstract_zh": "mRNA decay是基因调控的主要决定因素，通过Ccr4-Not复合物缩短mRNA poly(A)尾来控制。去腺苷酸化的特异性可通过RNA适配器介导——这些RNA结合蛋白以受调控且情境特异的方式将底物mRNA拴系至Ccr4-Not。与Ccr4-Not的相互作用由RNA适配器内的固有无序区域（IDRs）介导。由于研究含大IDR复合物的困难，特异性的决定因素及其调控仍不清楚。在此，我们利用结构生物学和生化重构表明，RNA适配器IDR内的分散片段通过多价相互作用结合至Ccr4-Not上的多个不同结合位点。我们进一步证明，这种结合可被磷酸化调节，以连续可调的方式改变随后的去腺苷酸化速率。该机制广泛适用于进化上分化的多个RNA适配器IDR，包括裂殖酵母Puf3，以及人类Pumilio/PUM1和Tristetraprolin/TTP。总之，我们的工作表明，多价相互作用和磷酸化代表调控基因表达的保守策略。因此，响应细胞信号，mRNA decay可通过分级机制而非双稳态开关来调控，这合理化了转录后基因表达如何被精细调节。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.18.618793",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.18.618793",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.18.618793/index.html"
+}

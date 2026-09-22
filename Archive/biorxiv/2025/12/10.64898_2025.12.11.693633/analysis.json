@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.11.693633",
+  "title": "The N-terminal region of malaria vaccine candidate Plasmodium falciparum asparagine-rich merozoite antigen is immunodominant and targeted by polyreactive antibodies",
+  "authors": "Garza R; Marchioni JM; Honeycutt JD; Hurlburt NK; Torres C; Garcia A; Loranc E; Yemington E; Towers D; Ssewanyana I; Pancera M; Lavinder JJ; Jagannathan P; Greenhouse B; Bol S; Bunnik EM",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-13",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究疟疾疫苗候选蛋白PfARMA的N端无序区(IDR1)被天然抗体靶向的免疫学特征，涉及IDR与抗体的结合但无PPI机制建模或AI/物理模拟方法，仅对象相关、互作与方法均弱。",
+  "abstract": "<h4>ABSTRACT</h4> The development of malaria blood-stage vaccines has been hampered by sequence variation in many Plasmodium falciparum proteins involved in erythrocyte invasion. In the past few years, asparagine-rich merozoite antigen (PfARMA) has emerged as a potential vaccine candidate due to its low amino acid sequence diversity and the association between anti-PfARMA antibody levels and protection to malaria. Here, we used samples from P. falciparum -exposed individuals to study naturally acquired B cell and antibody responses to PfARMA. B cell responses to PfARMA were dominated by IgM + B cells that recognized the N-terminal intrinsically disordered region 1 (IDR1) of PfARMA. A human monoclonal antibody (hmAb) to IDR1 was non-neutralizing, while a second hmAb binding to the folded domain showed weak neutralizing activity. Both PfARMA-specific plasma IgM and IgG responses predominately targeted IDR1 and their levels increased with P. falciparum exposure. However, in contrast to previous reports, these antibody responses did not correlate with protection in age and exposure-matched children. Interestingly, approximately 30% of unexposed individuals had IgG that also targeted IDR1 and was polyreactive, binding to regions with high asparagine content. Finally, we determined that PfARMA is located in or near PfEBA-175 + micronemes. These data suggest that while IgG to the folded domain of PfARMA may inhibit parasite growth, antibody responses to PfARMA are primarily directed to IDR1 and may not directly contribute to protection against malaria.",
+  "abstract_zh": "<h4>摘要</h4> 疟疾血液期疫苗的开发一直受到许多参与红细胞入侵的恶性疟原虫（*Plasmodium falciparum*）蛋白序列变异的阻碍。近年来，富含天冬酰胺的裂殖子抗原（PfARMA）因其氨基酸序列多样性低以及抗PfARMA抗体水平与疟疾保护之间的关联，已成为潜在的疫苗候选抗原。在此，我们利用暴露于恶性疟原虫的个体样本，研究了针对PfARMA的自然获得性B细胞和抗体反应。针对PfARMA的B细胞反应以识别PfARMA N端 intrinsically disordered region 1 (IDR1) 的IgM⁺ B细胞为主。一种针对IDR1的人源单克隆抗体（hmAb）无中和活性，而另一种结合折叠结构域的hmAb显示出弱中和活性。PfARMA特异性的血浆IgM和IgG反应均主要靶向IDR1，其水平随恶性疟原虫暴露增加而升高。然而，与先前报道相反，这些抗体反应在年龄和暴露匹配的儿童中与保护作用无相关性。有趣的是，约30%未暴露个体具有也靶向IDR1的IgG，且这些IgG具有多反应性，结合富含天冬酰胺的区域。最后，我们确定PfARMA位于或邻近PfEBA-175⁺微线体。这些数据表明，虽然针对PfARMA折叠结构域的IgG可能抑制寄生虫生长，但针对PfARMA的抗体反应主要指向IDR1，可能不直接有助于疟疾保护。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693633",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693633",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.11.693633/index.html"
+}

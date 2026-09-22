@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42192130",
+  "title": "Phosphorylation tunes strain-specific protein condensation during rotavirus replication organelle assembly.",
+  "authors": "Acker, Julia; Wang, Xinyu; Pardal, Alonso J; Desiro, Daniel; Agarwal, Tanushree; Colyer, Alice; Tollervey, Aidan; Scrutton, Rob; Haller, Cyril; Sherry, Lee; Saar, Kadi L; Fominykh, Ksenia; Johncock, Margaret L L Y; Chong, Sai Hou; Murray, Rosie; Terry, Jamie; Schmit, Jeremy D; Calabrese, Antonio N; Knowles, Tuomas P J; Borodavka, Alexander",
+  "journal": "The EMBO journal",
+  "published_date": "2026-05-27",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合机器学习与HDX-MS，揭示轮状病毒无序蛋白NSP5的磷酸化通过变构开关调控NSP5-NSP2互作及相分离凝聚体形成的株特异性机制，直接契合无序蛋白介导PPI的机制建模主题。",
+  "abstract": "In many viruses, intrinsically disordered proteins (IDPs) drive the formation of replicative organelles via liquid-liquid phase separation (LLPS). In species A rotaviruses, the disordered protein NSP5 forms condensates with NSP2, but its high sequence diversity raises questions about whether this mechanism is conserved across strains. Using a machine learning approach, we show that NSP5 variants differ significantly in LLPS propensity. We engineered an NSP5 variant with features derived from strains with low-LLPS propensity (low-LLPS). Despite lacking the ability to phase separate in vitro unless phosphorylated, this variant nevertheless supported condensate formation and viral replication in cells. We found that low-LLPS variants require phosphorylation to nucleate phase separation, whereas high-LLPS variants do not, suggesting distinct nucleation mechanisms between viral strains. Hydrogen-deuterium exchange mass spectrometry revealed a phosphorylation-driven allosteric switch that alters NSP2 interactions depending on the NSP5 variant. These findings suggest that phosphorylation plays a context-dependent role in condensate formation, tuning NSP5-NSP2 interactions in a strain-specific manner and highlighting the mechanistic diversity underpinning replicative organelle formation among viral strains.",
+  "abstract_zh": "在许多病毒中， intrinsically disordered proteins (IDPs) 通过液-液相分离 (liquid-liquid phase separation, LLPS) 驱动复制细胞器的形成。在A种轮状病毒中，无序蛋白NSP5与NSP2形成凝聚体，但其高序列多样性引发了关于该机制是否在不同毒株间保守的问题。利用机器学习方法，我们显示NSP5变体在LLPS倾向性上存在显著差异。我们设计了一种NSP5变体，其特征来源于低LLPS倾向性毒株（low-LLPS）。尽管该变体在体外除非被磷酸化否则缺乏相分离能力，但它仍支持细胞内的凝聚体形成和病毒复制。我们发现，low-LLPS变体需要磷酸化来启动相分离，而高LLPS变体则不需要，这表明不同病毒毒株之间存在不同的成核机制。氢-氘交换质谱揭示了一个磷酸化驱动的变构开关，该开关根据NSP5变体改变NSP2相互作用。这些发现表明，磷酸化在凝聚体形成中发挥背景依赖性作用，以毒株特异性方式调节NSP5-NSP2相互作用，并突显了病毒毒株间复制细胞器形成背后的机制多样性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42192130/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42192130/",
+  "paper_page_path": "papers/pubmed/42192130/index.html"
+}

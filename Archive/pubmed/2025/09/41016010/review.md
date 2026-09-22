@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, methods, discussion, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and claims as supported by the provided evidence
+- **Shared manuscript claim summary** The authors propose a workflow using AlphaFold (AF2 and AF3) via ColabFold to identify novel SLiM-mediated interactions, benchmark it against a structure-independent dataset of 26 interactions, introduce an adaptive scoring threshold to address specificity limitations in unbalanced screening conditions, and validate predictions experimentally using proximity labeling and analog-sensitive kinase assays for RSK2.
+- **Visible evidence base** Benchmark datasets (ELM_dataset, noPDB_dataset, nonBinder_dataset), ROC and precision-recall analyses, metric comparisons (AlphaSLiM, MC, average_model, MinD, MiniPAE), power-law fitting for adaptive thresholds, experimental validation data for RSK2-binding SLiMs (proximity labeling, phosphorylation assays), and referenced supplementary materials
+- **Missing materials affecting confidence** Supplementary figures and tables (S1, S2, S3, S4) are referenced but not provided; full benchmark data files are not accessible in this review; detailed statistical outputs (e.g., exact p-values, confidence intervals) are not fully reported; the power-law equation and adaptive threshold formula are not explicitly stated in the visible text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a timely and practically oriented workflow for SLiM discovery using AlphaFold, with a thoughtful benchmark design that avoids structure-derived bias and a clear demonstration of the specificity challenge in unbalanced screening. The experimental validation for RSK2 is a strong addition, providing biological evidence for the computational predictions. However, several technical details are incomplete in the visible text, particularly the exact formulation of the adaptive threshold, the statistical treatment of experimental replicates, and the full benchmark composition. The claim that MiniPAE is "the most suited" metric requires more rigorous statistical comparison across metrics and datasets. The workflow's generalizability beyond the RSK2 case is plausible but not fully established.
+- **Who would be interested in the results, and why** Researchers in computational biology, protein interaction prediction, and SLiM biology would find this workflow directly applicable. The practical, no-installation approach via Colab Notebook lowers the barrier for experimental biologists seeking to use AlphaFold for interaction screening. The benchmark results and adaptive threshold strategy are relevant to the broader AlphaFold user community. The RSK2 findings may interest signaling biologists studying kinase-substrate interactions and Coffin-Lowry syndrome.
+- **Major strengths**
+  1. The structure-independent benchmark (noPDB_dataset) is a meaningful methodological improvement over prior work, directly addressing a known confound in AlphaFold evaluation.
+  2. The systematic evaluation of specificity under unbalanced conditions (1:1, 1:5, 1:25) is a realistic and important contribution, highlighting a limitation often overlooked in optimistic benchmark reports.
+  3. The adaptive threshold strategy is a practical solution to a real screening problem, and the power-law fitting approach is conceptually sound.
+  4. The experimental validation using proximity labeling and analog-sensitive kinase assays provides biological confirmation beyond computational metrics, strengthening the translational value of the workflow.
+  5. The provision of a Colab Notebook and simplified MiniPAE scripts enhances accessibility and reproducibility, aligning with open-science practices.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "MiniPAE is the most suited AlphaFold metric for SLiM screening" based on their benchmark results.
+  - **Evidence pointer** Results section "Comparison of different AF2/3 metrics to discriminate SLiM-binders from non-binders"; Figure 1B; Supplementary Fig. S1A
+  - **Concern** The claim of MiniPAE being "most suited" is not supported by the visible data. The authors report AUC values around 70% (±3%) for all metrics in the ELM_dataset, with no statistically significant difference demonstrated. In the noPDB_dataset, results are described as "consistent" (AUC = 70% ± 4%), but no per-metric breakdown is provided in the visible text. Without formal statistical comparison (e.g., DeLong test for correlated ROC curves, or confidence intervals for AUC differences), the claim of superiority is not justified. The localization analysis (Figure 2) shows MiniPAE outperforming at FDR = 0 in the ELM_dataset, but this advantage disappears in the noPDB_dataset, which the authors attribute to structural bias. This nuance is not reflected in the strong claim made in the abstract.
+  - **Why it matters** The central methodological recommendation of the paper hinges on this claim. If MiniPAE is not demonstrably superior, the workflow's specific advantage over existing metrics is unclear, and users may be misled into adopting a metric without evidence of its superiority.
+  - **Resolution test** Provide a formal statistical comparison of AUC values across all metrics for both datasets, including confidence intervals and appropriate tests. If MiniPAE is not significantly better, revise the claim to reflect equivalence or context-dependent superiority.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The adaptive threshold formula is presented as a key output of the workflow, enabling dynamic adjustment of scoring thresholds based on screening scale.
+  - **Evidence pointer** Results section "Comparison of different AF2/3 metrics to identify new SLiMs within full-length proteins"; Figure 2F; Methods section "Fitting of power-law model on MiniPAE score"
+  - **Concern** The exact equation for the adaptive threshold is not provided in the visible text. The Methods section describes fitting a power-law function but does not state the fitted parameters or the final formula. The equation is referenced in the Results as "defined in Fig. 2F" but the figure is not available for review. This is a critical omission because the adaptive threshold is a central contribution and cannot be implemented or evaluated without the explicit formula.
+  - **Why it matters** Reproducibility is a core requirement for a workflow paper. Without the exact threshold equation, other researchers cannot apply the method, and the claimed practical utility is undermined.
+  - **Resolution test** Provide the explicit adaptive threshold equation with fitted parameters, and include a worked example demonstrating its application to a screening scenario.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that their workflow "provides a scalable and widely accessible strategy for identifying functional SLiMs in proteins of interest" and that it was used to identify 13 new SLiMs for RSK2.
+  - **Evidence pointer** Abstract; Results section "Illustration of the use of our workflow to find hRSK2-binding SLiMs"; Figure 4
+  - **Concern** The experimental validation is described as confirming "seven out of eight tested SLiMs" in the Discussion, but the Results section describes validation of six DDVF-like motifs and two substrate motifs, with one DDVF-like motif (TRM9B) not reaching statistical significance. The discrepancy between "seven out of eight" and the visible data needs clarification. Additionally, the functional significance of the identified SLiMs is not established beyond binding/phosphorylation assays; the authors acknowledge this for GTSE1 but do not discuss the broader biological implications for the other validated SLiMs.
+  - **Why it matters** The claim of identifying 13 new SLiMs is a key outcome, but the validation rate and the biological relevance of these interactions are not fully transparent. Overstating validation success could mislead readers about the reliability of the workflow.
+  - **Resolution test** Clarify the exact number of validated SLiMs and the criteria for validation. Provide a table summarizing all predicted SLiMs, their validation status, and the statistical significance of each experimental result. Discuss the potential biological functions of the validated SLiMs in the context of RSK2 signaling.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "AF3 showed slightly lower performance than AF2 in this task" (localization) and recommend AF2 for most cases.
+  - **Evidence pointer** Results section "Comparison of different AF2/3 metrics to identify new SLiMs within full-length proteins"; Figure 2C; Supplementary Fig. S1B
+  - **Concern** The comparison between AF2 and AF3 is based on a small dataset (26 interactions in noPDB_dataset) and the difference is described as "slight" without statistical testing. The authors also note that AF3 MC does not provide a clear advantage for discrimination. However, the recommendation to use AF2 is based on this limited comparison and does not account for potential improvements in AF3 for other interaction types or the rapid evolution of AF3 models. The generalizability of this recommendation is questionable.
+  - **Why it matters** The choice between AF2 and AF3 has practical implications for users. A recommendation based on a small, possibly underpowered comparison could lead to suboptimal choices, especially as AF3 continues to improve.
+  - **Resolution test** Provide a more robust statistical comparison, including effect sizes and confidence intervals. Discuss the limitations of the comparison and consider whether the recommendation should be conditional on interaction type or dataset characteristics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses technical terms (e.g., "MiniPAE", "adaptive scoring threshold") without sufficient context for a general reader. The phrase "structure-independent benchmark" is not explained.
+  - **Required correction** Briefly define MiniPAE and the concept of a structure-independent benchmark in the abstract, or rephrase to be more accessible to a broad bioinformatics audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "AF prediction"
+  - **Evidence pointer** Methods section "AF prediction"
+  - **Issue** The Methods state that AF2 predictions were performed via ColabFold in multimer V3 mode with default parameters, but no version numbers or specific settings are provided. AF3 predictions were performed using the AF Server, but the exact model version is not specified.
+  - **Required correction** Specify the exact versions of ColabFold, AF2, and AF3 used, and list any non-default parameters. This is essential for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Comparison of different AF2/3 metrics to discriminate SLiM-binders from non-binders"
+  - **Evidence pointer** Figure 1B; Supplementary Fig. S1A
+  - **Issue** The authors report AUC values with ±3% and ±4% ranges but do not specify whether these are standard deviations, standard errors, or confidence intervals. The number of bootstrap replicates or the method for calculating these ranges is not described.
+  - **Required correction** Clarify the statistical measure used and describe how it was calculated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion compares the workflow to "high-throughput phage display screening" and reports a recall of 23% for phage display versus 30% for the proposed workflow. However, the basis for the 23% figure is not cited or explained.
+  - **Required correction** Provide a citation for the phage display recall figure and briefly describe the context of that comparison.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Benchmark"
+  - **Evidence pointer** Methods section "Benchmark"
+  - **Issue** The Methods describe filtering ELM database entries but do not specify the exact criteria for selecting the 121 representative instances from 161 ELM_Classes. The rationale for excluding 40 classes is not provided.
+  - **Required correction** Describe the selection criteria in detail and justify the exclusions.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of statistical comparison for metric superiority claim
+  - R1-M2: Missing explicit adaptive threshold equation
+  - R1-M3: Inconsistency in reported validation numbers
+  - R1-M4: Underpowered AF2 vs AF3 comparison
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is moderately original. The use of AlphaFold for SLiM discovery is not entirely new, but the structure-independent benchmark, the focus on unbalanced screening conditions, and the adaptive threshold strategy represent incremental contributions. The experimental validation adds a practical dimension not always present in computational workflow papers.
+  - **Scientific importance** The problem of SLiM discovery is biologically significant, and the practical limitations of AlphaFold in this context are important to document. The RSK2 findings have potential relevance to signaling biology. However, the importance is somewhat limited by the narrow scope of the case study and the lack of broader biological validation.
+  - **Interdisciplinary readership** The work bridges computational biology, structural biology, and cell biology. The workflow is designed for accessibility, which could attract experimental biologists. However, the technical density of the benchmark sections may limit appeal to non-specialists.
+  - **Technical soundness** The benchmark design is thoughtful, but the lack of statistical rigor in metric comparisons and the incomplete reporting of the adaptive threshold formula are significant weaknesses. The experimental methods are described in sufficient detail for replication, but the statistical treatment of the validation data is incomplete.
+  - **Readability for nonspecialists** The manuscript is generally well-written and logically structured. The workflow is clearly described in the Results and Discussion. However, the abstract and some benchmark sections assume familiarity with AlphaFold metrics and SLiM biology, which may hinder accessibility for a broader readership.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is valuable and the experimental validation is a strength, but the manuscript currently does not fully establish the superiority of MiniPAE, the adaptive threshold is not reproducible as presented, and the validation numbers need clarification. Addressing these issues would significantly strengthen the case.
+
+## Risk / unsupported claims
+- The claim that MiniPAE is "the most suited AlphaFold metric for SLiM screening" is not statistically supported by the visible data.
+- The adaptive threshold equation is referenced but not provided, making the claim of a "dynamic adjustment" strategy unverifiable.
+- The statement that "seven out of eight tested SLiMs" were confirmed is inconsistent with the visible results for TRM9B and needs clarification.
+- The comparison of recall (30% vs 23% for phage display) lacks a cited source for the phage display figure and a clear methodological basis for the comparison.
+- The generalizability of the workflow beyond RSK2 is asserted but not demonstrated; the case study is limited to a single protein target.
+- The claim that AF2 is preferable to AF3 is based on a small dataset and may not be robust; the recommendation is not conditional on interaction type or other factors.

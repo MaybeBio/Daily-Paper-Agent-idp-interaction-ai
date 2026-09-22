@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "35782738",
+    "doi": "10.1016/j.csbj.2022.06.041",
+    "title": "KDM6A missense variants hamper H3 histone demethylation in lung squamous cell carcinoma."
+  },
+  "content": {
+    "abstract": "KDM6A is the disease causative gene of type 2 Kabuki Syndrome, a rare multisystem disease; it is also a known cancer driver gene, with multiple somatic mutations found in a few cancer types. In this study, we looked at eleven missense variants in lung squamous cell carcinoma, one of the most common lung cancer subtypes, to see how they affect the KDM6A catalytic mechanisms. We found that they influence the interaction with histone H3 and the exposure of the trimethylated Lys27, which is critical for wild-type physiological function to varying degrees, by altering the conformational transition.",
+    "keywords": [
+      "DCCM, dynamic cross-correlation map",
+      "Epigenetics",
+      "GaMD, gaussian accelerated molecular dynamics",
+      "IDR, intrinsically disordered region",
+      "LUSC, lung squamous cell carcinoma",
+      "MD, molecular dynamics",
+      "Molecular Dynamics simulation",
+      "PCA, principal component analysis",
+      "PMF, potential of mean force",
+      "Pathogenicity estimation",
+      "RMSD, root mean squared deviation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Biagini, Tommaso",
+        "Petrizzelli, Francesco",
+        "Bianco, Salvatore Daniele",
+        "Liorni, Niccolo",
+        "Napoli, Alessandro",
+        "Castellana, Stefano",
+        "Luigi Vescovi, Angelo",
+        "Carella, Massimo",
+        "Caputo, Viviana",
+        "Mazza, Tommaso"
+      ],
+      "short_names": [
+        "Biagini T",
+        "Petrizzelli F",
+        "Bianco SD",
+        "Liorni N",
+        "Napoli A",
+        "Castellana S",
+        "Luigi Vescovi A",
+        "Carella M",
+        "Caputo V",
+        "Mazza T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy.",
+        "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy.",
+        "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy.",
+        "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy.",
+        "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy.",
+        "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy.",
+        "ISBReMIT Institute for Stem Cell Biology, Regenerative Medicine and Innovative Therapies, Fondazione IRCSS Casa Sollievo della Sofferenza, San Giovanni Rotondo (FG), Italy.",
+        "Medical Genetics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy.",
+        "Department of Experimental Medicine, Sapienza University of Rome, Rome 00161, Italy.",
+        "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Biagini, Tommaso",
+        "short_name": "Biagini T",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy."
+        ]
+      },
+      {
+        "full_name": "Petrizzelli, Francesco",
+        "short_name": "Petrizzelli F",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy."
+        ]
+      },
+      {
+        "full_name": "Bianco, Salvatore Daniele",
+        "short_name": "Bianco SD",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy."
+        ]
+      },
+      {
+        "full_name": "Liorni, Niccolò",
+        "short_name": "Liorni N",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy."
+        ]
+      },
+      {
+        "full_name": "Napoli, Alessandro",
+        "short_name": "Napoli A",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy."
+        ]
+      },
+      {
+        "full_name": "Castellana, Stefano",
+        "short_name": "Castellana S",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy."
+        ]
+      },
+      {
+        "full_name": "Luigi Vescovi, Angelo",
+        "short_name": "Luigi Vescovi A",
+        "identifiers": [],
+        "affiliations": [
+          "ISBReMIT Institute for Stem Cell Biology, Regenerative Medicine and Innovative Therapies, Fondazione IRCSS Casa Sollievo della Sofferenza, San Giovanni Rotondo (FG), Italy."
+        ]
+      },
+      {
+        "full_name": "Carella, Massimo",
+        "short_name": "Carella M",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Genetics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy."
+        ]
+      },
+      {
+        "full_name": "Caputo, Viviana",
+        "short_name": "Caputo V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Experimental Medicine, Sapienza University of Rome, Rome 00161, Italy."
+        ]
+      },
+      {
+        "full_name": "Mazza, Tommaso",
+        "short_name": "Mazza T",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Unit, Fondazione IRCCS Casa Sollievo della Sofferenza, S. Giovanni Rotondo, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/06 06:00",
+    "fetched_at": "2026-09-20 11:48:06"
+  },
+  "links": {
+    "cites": [
+      "42137243",
+      "41570117",
+      "39063924",
+      "38957406",
+      "38239854",
+      "36438625"
+    ],
+    "refs": [
+      "35615018",
+      "34859531",
+      "34702163",
+      "34293799",
+      "34265844",
+      "33672117",
+      "33546721",
+      "33003334",
+      "32881101",
+      "32817139",
+      "32802275",
+      "31221981",
+      "31205410",
+      "30753822",
+      "30661751",
+      "30628063",
+      "30371878",
+      "30371827",
+      "30002791",
+      "29533787",
+      "28794409",
+      "28698146",
+      "28334084",
+      "27322406",
+      "26704973",
+      "26300708",
+      "20856692",
+      "19339519",
+      "15285897"
+    ],
+    "similar": [
+      "35782738",
+      "32802275",
+      "33546721",
+      "35615018",
+      "34702163",
+      "34012382",
+      "31097364",
+      "31935506",
+      "24527667",
+      "29220567",
+      "28850897",
+      "33089759",
+      "23913813",
+      "34904097",
+      "32817139",
+      "24633898",
+      "33030249",
+      "28698146",
+      "27302555",
+      "25972376",
+      "25225064",
+      "30556125",
+      "29048999",
+      "23076834",
+      "24739679",
+      "29125030",
+      "34247129",
+      "34745015",
+      "35080892",
+      "29725259",
+      "30628063",
+      "27835590",
+      "35099676",
+      "32434476",
+      "27294188",
+      "27777708",
+      "33674768",
+      "32552529",
+      "28284523",
+      "29663862",
+      "32765772",
+      "28139835",
+      "34814861",
+      "31587141",
+      "35357594",
+      "33368310",
+      "31686597",
+      "24664873",
+      "29550429",
+      "22056667",
+      "33661858",
+      "22840376",
+      "35254116",
+      "28442529",
+      "32879445",
+      "34883116",
+      "30810839",
+      "30374835",
+      "33363036",
+      "22002947",
+      "30626401",
+      "33298158",
+      "23844048",
+      "27568880",
+      "32533869",
+      "34006303",
+      "32036209",
+      "23907119",
+      "22197486",
+      "34583087",
+      "32016472",
+      "27037822",
+      "24274367",
+      "34887858",
+      "31837325",
+      "30823702",
+      "28228601",
+      "33982037",
+      "34942070",
+      "29945500",
+      "33717076",
+      "33907270",
+      "30544007"
+    ],
+    "review": [
+      "35782738",
+      "31097364",
+      "32817139",
+      "30628063",
+      "28139835",
+      "31587141",
+      "24664873"
+    ],
+    "pmc": [
+      "9232545"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(22)00255-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35782738/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35782738",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

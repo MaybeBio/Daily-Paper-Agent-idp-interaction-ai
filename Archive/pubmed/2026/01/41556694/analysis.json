@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41556694",
+  "title": "Recognition of Coexisting Phases in Model Membranes via an Unsupervised Method.",
+  "authors": "Dai, Yuzhuo; Zhao, Jianwei; Wang, Beibei; Liang, Qing; Gu, Ruo-Xu",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2026-01-20",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用无监督GMM方法识别脂质双层膜中的共存相，对象为膜脂相分离而非无序蛋白/IDR介导的PPI，虽涉及MD模拟和相分离，但无蛋白互作机制建模，仅方法上对相识别有间接启发。",
+  "abstract": "Phase separation in bilayers composed of a few lipid species is widely used as a model for exploring the lateral heterogeneity of complex cell membranes. Molecular dynamics (MD) simulations offer atomistic insights into coexisting lipid phases. But identifying these phases from trajectories remains challenging. Here, we present an unsupervised method for lipid phase recognition in phase-separated bilayers. In this method, the membrane plane is first discretized into pixels. For each pixel, the local lipid packing degree, which is defined as the atomic density within that pixel, is calculated and assigned to the corresponding pixel. A threshold is then determined by fitting a two-component Gaussian mixture model (GMM) to the distribution of lipid packing degree, enabling phase state assignment to pixels and subsequent mapping back to lipids. Our method is applicable to different systems, regardless of their compositions or temperatures, thus minimizing potential artifacts. Tests on bilayers with diverse lipid compositions and temperatures show that our method outperforms the commonly used hidden Markov model (HMM) in both accuracy and robustness. Notably, in this method, phase recognition relies solely on bilayer-intrinsic properties (lipid packing degree), without requiring temporal information, labeled data, or assumptions about the local lipid environment. This makes our method broadly applicable to various tasks, including characterizing the phase transformation process before the system reaches equilibration and identifying coexisting phases in protein-containing bilayers. In summary, we provide a robust and accurate framework for identifying coexisting phases in bilayers and tracking their dynamic transitions in simulations.",
+  "abstract_zh": "由少数脂质种类组成的双层膜中的相分离，被广泛用作探索复杂细胞膜横向异质性的模型。分子动力学（molecular dynamics, MD）模拟为共存的脂质相提供原子层面的见解。但从轨迹中识别这些相仍具挑战性。在此，我们提出一种无监督方法，用于相分离双层膜中的脂质相识别。在该方法中，膜平面首先被离散化为像素。对于每个像素，计算局部脂质堆积程度（定义为该像素内的原子密度），并将其分配给相应像素。然后，通过将双组分高斯混合模型（Gaussian mixture model, GMM）拟合到脂质堆积程度的分布来确定阈值，从而实现对像素的相态分配，并随后映射回脂质。我们的方法适用于不同系统，无论其组成或温度如何，从而最小化潜在伪影。对具有不同脂质组成和温度的双层膜测试表明，我们的方法在准确性和鲁棒性上均优于常用的隐马尔可夫模型（hidden Markov model, HMM）。值得注意的是，在该方法中，相识别仅依赖于双层膜固有属性（脂质堆积程度），无需时间信息、标记数据或对局部脂质环境的假设。这使得我们的方法广泛适用于各种任务，包括表征系统达到平衡前的相变过程，以及识别含蛋白质双层膜中的共存相。总之，我们提供了一个稳健且准确的框架，用于识别双层膜中的共存相，并在模拟中追踪其动态转变。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41556694/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41556694/",
+  "paper_page_path": "papers/pubmed/41556694/index.html"
+}

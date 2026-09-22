@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors propose that hydration free energy, calculated from static globular protein structures, is a significant predictor of the partitioning of globular proteins into biomolecular condensates. They compare multiple hydration free energy predictors, identify limitations of relying solely on this descriptor, and discuss additional factors such as specific interactions, scaffold net charge, and water properties in condensates.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or results sections provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods description, statistical analyses, and dataset details are not available
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational approach for predicting client partitioning into condensates, with a clear conceptual rationale. However, the evidence base is limited to the abstract, and the central claim of predictive significance cannot be evaluated without quantitative results, validation metrics, or methodological detail. The discussion of limitations is commendable but the abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers in biomolecular condensate biology, computational biophysics, and protein biophysics would be interested. The approach could offer a rapid screening tool for predicting client behavior, relevant to understanding cellular organization and designing condensate-modulating molecules.
+- **Major strengths** The study addresses a timely and important question in condensate biology. The proposed predictor is computationally simple and based on static structures, which could be broadly applicable. The authors explicitly acknowledge limitations, indicating a balanced perspective.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that hydration free energy is a significant predictor of globular protein incorporation into condensates.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative evidence is presented to support the claim of significance. There are no correlation coefficients, p-values, effect sizes, or comparisons against alternative predictors.
+  - **Why it matters** Without quantitative validation, the central claim is unsubstantiated. The term "significant" implies statistical testing, which cannot be assessed from the abstract.
+  - **Resolution test** Provide statistical metrics (e.g., R-squared, p-values, cross-validation results) demonstrating predictive performance against experimental partitioning data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that hydration free energy can be calculated from static globular protein structures.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The specific method for calculating hydration free energy is not described. Different predictors are mentioned but not named or compared in detail.
+  - **Why it matters** Reproducibility and assessment of methodological validity require knowing which calculation approach was used and how it was implemented.
+  - **Resolution test** Describe the calculation method, software, and parameters in the methods section, and specify which predictors were compared.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope of validation
+  - **Claim pointer** The abstract implies the predictor applies broadly to globular proteins.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is given on the number or diversity of proteins tested, the range of condensate systems, or whether the predictor generalizes beyond the training set.
+  - **Why it matters** A claim of general predictive power requires demonstration across a representative dataset. Without this, the scope of applicability is unknown.
+  - **Resolution test** Provide details on dataset size, protein diversity, condensate types, and validation on held-out or independent data.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Significance Statement
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The phrase "higlight" is a typographical error for "highlight."
+  - **Required correction** Correct the typo to "highlight."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Significance Statement
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The term "precitions" is a typographical error for "predictions."
+  - **Required correction** Correct the typo to "predictions."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The discussion of additional factors (specific interactions, net charge, water properties) is mentioned but not elaborated, leaving the reader without a sense of their relative importance.
+  - **Required correction** Briefly indicate how these factors were assessed or why they are considered relevant, even in summary form.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative validation, methodological detail, and dataset description prevents assessment of the core claim.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of using hydration free energy as a predictor for condensate partitioning appears novel, but novelty cannot be fully assessed without comparison to existing literature.
+  - Scientific importance: The question is important for condensate biology, but the abstract does not demonstrate that the predictor offers a meaningful advance over existing approaches.
+  - Interdisciplinary readership: The topic bridges biophysics and cell biology, with potential appeal to computational biologists, but the abstract lacks sufficient detail to engage a broad audience.
+  - Technical soundness: Not assessable from the abstract; no methods or results are provided.
+  - Readability for nonspecialists: The abstract is generally clear, but technical terms (e.g., hydration free energy) are not defined for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the quantitative and methodological support needed to evaluate the claim. Supportive if the full manuscript provides robust validation and clear methods.
+
+## Risk / unsupported claims
+- The claim that hydration free energy is a "significant predictor" is unsupported without statistical evidence.
+- The claim that the approach is "simple" and applicable to static structures is plausible but not verifiable without methodological detail.
+- The discussion of limitations and additional factors is presented without supporting data, making these statements unassessable.

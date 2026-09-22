@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The assessment is limited to the claims, arguments, and evidence presented in the abstract. No full-text manuscript, figures, tables, or supplementary materials were provided.
+- **Shared manuscript claim summary** The abstract argues that AI-based protein structure prediction tools, such as AlphaFold and RoseTTAFold, have entered nephrology and provide useful but potentially misleading structural models for renal proteins. It claims that these models are increasingly used to interpret inherited kidney diseases and to guide experimental design, but that their apparent precision can be misleading due to underrepresented protein classes, static snapshot limitations, and modest performance in variant effect prediction. The abstract advocates for integrative, hypothesis-driven approaches that treat AI predictions as working scaffolds requiring cross-validation.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or data are available for inspection.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, methods section, supplementary materials, and any underlying data or validation analyses. The absence of these materials prevents independent verification of the claims made in the abstract.
+
+## Reviewer
+- **Overall assessment** The abstract presents a timely and conceptually important perspective on the use of AI-based structural prediction in nephrology. It correctly identifies key limitations of current tools and proposes a balanced, integrative approach. However, the abstract is largely opinion-driven and lacks specific evidence, examples, or quantitative support for its claims. The scientific case is plausible but not established from the provided material.
+- **Who would be interested in the results, and why** Nephrologists with an interest in inherited kidney diseases, structural biologists working on membrane proteins and protein complexes, computational biologists developing or applying AI-based prediction tools, and clinicians involved in genetic diagnosis and variant interpretation. The perspective is relevant to anyone navigating the translation of AI structural predictions into mechanistic and clinical insights.
+- **Major strengths** The abstract addresses a rapidly evolving and highly relevant topic. It correctly highlights the risk of overinterpreting AI-generated models, particularly for protein classes that are underrepresented in training data. The call for integrative validation using complementary experimental methods is scientifically sound and practically important. The writing is clear and accessible to a broad audience.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that AI-based predictions "now underpin mechanistic interpretations of inherited kidney diseases, including autosomal-dominant polycystic kidney disease, cystinosis and Alport syndrome."
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The claim that AI predictions underpin mechanistic interpretations of specific diseases is presented without any supporting data, examples, or references. No specific findings, validation studies, or clinical cases are cited to substantiate this assertion.
+  - **Why it matters** This is a strong, specific claim that implies a level of established use and reliability. Without evidence, the reader cannot assess whether this is a general trend, a few isolated examples, or an overstatement. The credibility of the entire perspective rests on the accuracy of such foundational claims.
+  - **Resolution test** Provide specific examples or citations demonstrating how AlphaFold or RoseTTAFold predictions have directly informed mechanistic interpretations in these diseases, including the nature of the structural insights and how they were validated.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "confidence scores may not accurately reflect model reliability" for renal proteins in underrepresented classes.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** This is a critical technical claim, but no data, benchmarks, or comparative analyses are provided to support it. The statement is plausible and consistent with known limitations of AI predictors, but the abstract does not show any specific evidence for renal proteins.
+  - **Why it matters** The entire argument for caution in using AI predictions depends on this claim. If confidence scores are generally reliable for renal proteins, the central warning of the abstract is weakened. The claim needs empirical support to be convincing.
+  - **Resolution test** Provide benchmark data or case studies showing instances where confidence scores for renal proteins were misleading, with comparisons to experimentally determined structures or functional data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "attempts to use AlphaFold directly for variant classification or to estimate changes in thermodynamic stability or function show only modest agreement with mutagenesis data."
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** This is a quantitative claim about the performance of AlphaFold in variant effect prediction, but no specific studies, correlation coefficients, or comparative metrics are provided. The statement is presented as a general finding without supporting literature or data.
+  - **Why it matters** Variant interpretation is a major potential clinical application of AI structural predictions. If the performance is only modest, this has direct implications for clinical use. The claim needs to be backed by specific evidence to be credible and useful.
+  - **Resolution test** Cite specific studies with quantitative results, such as correlation coefficients or area under the curve values, comparing AlphaFold-based predictions to experimental mutagenesis data for renal or related proteins.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and generalizability
+  - **Claim pointer** The abstract states that "integrative approaches combining cryo-electron tomography, crosslinking mass spectrometry and molecular dynamics can mitigate these limitations but remain labour-intensive and low-throughput."
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The claim that integrative approaches can mitigate limitations is presented as a solution, but no examples, success cases, or practical guidance are provided. The statement that these approaches are labour-intensive and low-throughput is plausible but not quantified or contextualized.
+  - **Why it matters** The proposed path forward is a central part of the abstract's message. Without concrete examples of successful integration or a discussion of feasibility, the recommendation remains abstract and may not be actionable for readers.
+  - **Resolution test** Provide case studies where integrative approaches successfully resolved limitations of AI predictions for renal proteins, and discuss the practical requirements and throughput considerations in more detail.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The term "powerful scaffolds, fragile certainties" in the title is evocative but not defined or explained in the abstract. The metaphor may be unclear to some readers.
+  - **Required correction** Briefly clarify the intended meaning of the title metaphor in the abstract or introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Disease examples
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract mentions three diseases (autosomal-dominant polycystic kidney disease, cystinosis, Alport syndrome) but does not explain why these were chosen or how they illustrate the general points about AI limitations.
+  - **Required correction** Provide brief context for each disease example, explaining how AI predictions have been used and where limitations were encountered.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The phrase "human-specific isoforms with shallow multiple sequence alignments" is technically dense and may not be immediately clear to all nephrology readers.
+  - **Required correction** Define or briefly explain what is meant by "shallow multiple sequence alignments" and why this matters for AI prediction reliability.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Balance
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract focuses heavily on limitations and risks of AI predictions but does not acknowledge the significant successes and validated applications of these tools in structural biology.
+  - **Required correction** Add a brief statement acknowledging the validated successes of AI-based prediction in other protein classes or contexts, to provide a balanced perspective.
+
+## Risk / unsupported claims
+- The claim that AI-based predictions "underpin mechanistic interpretations" of specific inherited kidney diseases is unsupported by any evidence in the abstract.
+- The claim that confidence scores "may not accurately reflect model reliability" for renal proteins is plausible but unsupported by data.
+- The claim that AlphaFold-based variant classification shows "only modest agreement" with mutagenesis data is presented without quantitative support.
+- The claim that integrative approaches "can mitigate these limitations" is presented without examples or evidence of efficacy.
+- The overall recommendation for "explainable, hypothesis-driven use of AI" is reasonable but not supported by specific case studies or practical guidance in the abstract.

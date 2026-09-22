@@ -1,0 +1,319 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.20.492819",
+  "title": "Revealing druggable cryptic pockets in the Nsp-1 of SARS-CoV-2 and other β-coronaviruses by simulations and crystallography",
+  "doi": "10.1101/2022.05.20.492819",
+  "abstract": "Non-structural protein 1 (Nsp1) is a main pathogenicity factor of α - and β -coronaviruses. Nsp1 of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) suppresses the host gene expression by sterically blocking 40S host ribosomal subunits and promoting host mRNA degradation. This mechanism leads to the downregulation of the translation-mediated innate immune response in host cells, ultimately mediating the observed immune evasion capabilities of SARS-CoV-2. Here, by combining extensive Molecular Dynamics simulations, fragment screening and crystallography, we reveal druggable pockets in Nsp1. Structural and computational solvent mapping analyses indicate the partial crypticity of these newly discovered and druggable binding sites. The results of fragment-based screening via X-ray crystallography confirm the druggability of the major pocket of Nsp1. Finally, we show how the targeting of this pocket could disrupt the Nsp1-mRNA complex and open a novel avenue to design new inhibitors for other Nsp1s present in homologous β -coronaviruses.",
+  "authors": [
+    "Borsatto A",
+    "Akkad O",
+    "Galdadas I",
+    "Ma S",
+    "Damfo S",
+    "Haider S",
+    "Kozielski F",
+    "Estarellas C",
+    "Gervasio FL"
+  ],
+  "published_date": "2022-05-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.20.492819",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.20.492819.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR496495",
+    "raw_record": {
+      "id": "PPR496495",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR496495"
+        ]
+      },
+      "doi": "10.1101/2022.05.20.492819",
+      "title": "Revealing druggable cryptic pockets in the Nsp-1 of SARS-CoV-2 and other β-coronaviruses by simulations and crystallography",
+      "authorString": "Borsatto A, Akkad O, Galdadas I, Ma S, Damfo S, Haider S, Kozielski F, Estarellas C, Gervasio FL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Borsatto A",
+            "lastName": "Borsatto",
+            "firstName": "Alberto",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8889-6491"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmaceutical Sciences, University of Geneva, Genève, Switzerland"
+                },
+                {
+                  "affiliation": "ISPSO, University of Geneva, Genève, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Akkad O",
+            "lastName": "Akkad",
+            "firstName": "Obaeda",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmaceutical Sciences, University of Geneva, Genève, Switzerland"
+                },
+                {
+                  "affiliation": "ISPSO, University of Geneva, Genève, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Galdadas I",
+            "lastName": "Galdadas",
+            "firstName": "Ioannis",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmaceutical Sciences, University of Geneva, Genève, Switzerland"
+                },
+                {
+                  "affiliation": "ISPSO, University of Geneva, Genève, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ma S",
+            "lastName": "Ma",
+            "firstName": "Shumeng",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9560-5082"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmacy, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Damfo S",
+            "lastName": "Damfo",
+            "firstName": "Shymaa",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmacy, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Haider S",
+            "lastName": "Haider",
+            "firstName": "Shozeb",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2650-2925"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmacy, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kozielski F",
+            "lastName": "Kozielski",
+            "firstName": "Frank",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6096-9102"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmacy, University College London, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Estarellas C",
+            "lastName": "Estarellas",
+            "firstName": "Carolina",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nutrition, Food Science and Gastronomy, Faculty of Pharmacy and Food Sciences, and Institute of Theoretical and Computational Chemistry (IQTCUB), University of Barcelona, Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gervasio FL",
+            "lastName": "Gervasio",
+            "firstName": "Francesco Luigi",
+            "initials": "FL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4831-5039"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmaceutical Sciences, University of Geneva, Genève, Switzerland"
+                },
+                {
+                  "affiliation": "ISPSO, University of Geneva, Genève, Switzerland"
+                },
+                {
+                  "affiliation": "Chemistry Department, University College London, London, UK"
+                },
+                {
+                  "affiliation": "Institute of Structural and Molecular Biology, University College London, London, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6096-9102"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8889-6491"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9560-5082"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2650-2925"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4831-5039"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Non-structural protein 1 (Nsp1) is a main pathogenicity factor of  α - and  β -coronaviruses. Nsp1 of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) suppresses the host gene expression by sterically blocking 40S host ribosomal subunits and promoting host mRNA degradation. This mechanism leads to the downregulation of the translation-mediated innate immune response in host cells, ultimately mediating the observed immune evasion capabilities of SARS-CoV-2. Here, by combining extensive Molecular Dynamics simulations, fragment screening and crystallography, we reveal druggable pockets in Nsp1. Structural and computational solvent mapping analyses indicate the partial crypticity of these newly discovered and druggable binding sites. The results of fragment-based screening via X-ray crystallography confirm the druggability of the major pocket of Nsp1. Finally, we show how the targeting of this pocket could disrupt the Nsp1-mRNA complex and open a novel avenue to design new inhibitors for other Nsp1s present in homologous  β -coronaviruses.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/06/06/2022.05.20.492819.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.05.20.492819"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR496495"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.05.20.492819"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36412088",
+            "reference": "eLife. 2022 Nov;11:e81167",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS161310",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "refseq",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-05-24",
+      "firstPublicationDate": "2022-05-20",
+      "firstIndexDate": "2022-05-24",
+      "fullTextReceivedDate": "2023-02-18",
+      "hasEvaluations": "Y"
+    }
+  }
+}

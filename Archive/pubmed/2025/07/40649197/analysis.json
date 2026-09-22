@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40649197",
+  "title": "Purification and Inhibitor Screening of the Full-Length SARS-CoV-2 Nucleocapsid Protein.",
+  "authors": "Chen, Chen; Zhang, Zhengfu; Zheng, Qiao; Zhou, Yingshun; Zhang, Shujun",
+  "journal": "Molecules (Basel, Switzerland)",
+  "published_date": "2025-07-13",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文聚焦SARS-CoV-2核衣壳蛋白（含IDR、可发生LLPS）的纯化及基于虚拟筛选与生物层干涉的抑制剂筛选，涉及无序蛋白与配体结合，但互作对象为小分子而非PPI，机制建模深度有限。",
+  "abstract": "Severe acute respiratory syndrome coronavirus 2 has undergone several mutations since 2020, and novel variants continue to emerge to this day. The immune escape ability of the emerging mutants is enhanced and results in robust transmissibility. The neutralizing ability of the antibodies produced in the human body during previous infections is decreased against some of these mutants, which poses a severe challenge to the preventive and therapeutic effectiveness of vaccines and antibody drugs. The nucleocapsid protein is one of the main structural proteins of the coronavirus and plays an important role in the life cycle of the novel coronavirus. This protein is one of the key targets for drug development, and the first major step in drug development is to obtain pure nucleocapsid proteins. However, since nucleocapsid proteins have a nucleic acid-binding function and automatically undergo liquid-liquid phase separation and agglomeration, the purification of full-length nucleocapsids is challenging. In this context, a set of easy-to-operate processes was developed in this study for the purification of nucleocapsid proteins. Finally, a pure full-length nucleocapsid protein without nucleic acid contamination was obtained, which exhibited significantly enhanced accessibility for structural and functional virological studies, vaccine development, and related research applications. Further, the nucleic acid-binding domain of the nucleocapsid protein was targeted, and potential severe acute respiratory syndrome coronavirus 2 inhibitors were identified using virtual screening and biolayer interferometry technology. Notably, the eukaryotically expressed nucleocapsid protein demonstrated a significantly greater binding affinity for Light Green SF Yellowish (K(D) = 119.7 nM) compared to that demonstrated by its prokaryotic counterpart (K(D) = 19.9 x 10(3) nM). The findings of this study suggest the importance of considering both protein source and post-translational modifications of the target proteins to be used in drug screening workflows. Therefore, this compound not only represents a novel therapeutic candidate for COVID-19 but also a critical tool for elucidating antiviral mechanisms.",
+  "abstract_zh": "严重急性呼吸综合征冠状病毒2自2020年以来经历了多次突变，至今新型变异株持续出现。新出现突变株的免疫逃逸能力增强，导致其传播力强劲。人体既往感染产生的抗体对其中一些突变株的中和能力下降，这对疫苗和抗体药物的预防及治疗效果构成了严峻挑战。核衣壳蛋白是冠状病毒的主要结构蛋白之一，在新型冠状病毒的生命周期中发挥重要作用。该蛋白是药物开发的关键靶点之一，而药物开发的首要步骤是获得纯化的核衣壳蛋白。然而，由于核衣壳蛋白具有核酸结合功能，并自动发生液-液相分离 (liquid-liquid phase separation) 和聚集，全长核衣壳的纯化颇具挑战性。在此背景下，本研究开发了一套易于操作的核衣壳蛋白纯化工艺。最终获得了无核酸污染的高纯度全长核衣壳蛋白，其可及性显著增强，适用于结构和功能病毒学研究、疫苗开发及相关研究应用。此外，针对核衣壳蛋白的核酸结合域，利用虚拟筛选 (virtual screening) 和生物层干涉技术 (biolayer interferometry) 鉴定了潜在的严重急性呼吸综合征冠状病毒2抑制剂。值得注意的是，真核表达的核衣壳蛋白对淡绿SF黄 (Light Green SF Yellowish) 的结合亲和力 (K(D) = 119.7 nM) 显著高于原核表达蛋白 (K(D) = 19.9 x 10(3) nM)。本研究结果提示，在药物筛选流程中，需考虑靶蛋白的来源及翻译后修饰的重要性。因此，该化合物不仅代表了COVID-19的新型治疗候选药物，也是阐明抗病毒机制的关键工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40649197/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40649197/",
+  "paper_page_path": "papers/pubmed/40649197/index.html"
+}

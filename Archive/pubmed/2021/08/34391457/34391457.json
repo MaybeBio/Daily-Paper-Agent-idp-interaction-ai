@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "34391457",
+    "doi": "10.1186/s13040-021-00275-6",
+    "title": "Prediction of MoRFs based on sequence properties and convolutional neural networks."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Intrinsically disordered proteins possess flexible 3-D structures, which makes them play an important role in a variety of biological functions. Molecular recognition features (MoRFs) act as an important type of functional regions, which are located within longer intrinsically disordered regions and undergo disorder-to-order transitions upon binding their interaction partners. RESULTS: We develop a method, MoRF(CNN), to predict MoRFs based on sequence properties and convolutional neural networks (CNNs). The sequence properties contain structural and physicochemical properties which are used to describe the differences between MoRFs and non-MoRFs. Especially, to highlight the correlation between the target residue and adjacent residues, three windows are selected to preprocess the selected properties. After that, these calculated properties are combined into the feature matrix to predict MoRFs through the constructed CNN. Comparing with other existing methods, MoRF(CNN) obtains better performance. CONCLUSIONS: MoRF(CNN) is a new individual MoRFs prediction method which just uses protein sequence properties without evolutionary information. The simulation results show that MoRF(CNN) is effective and competitive.",
+    "keywords": [
+      "Convolutional neural network",
+      "Intrinsically disordered proteins",
+      "Molecular recognition features",
+      "Prediction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Hao",
+        "Zhou, Yatong",
+        "Chi, Yue",
+        "He, Jingfei"
+      ],
+      "short_names": [
+        "He H",
+        "Zhou Y",
+        "Chi Y",
+        "He J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6593-6334"
+      ],
+      "affiliations": [
+        "School of Electronic and Information Engineering, Hebei University of Technology, Tianjin, China.",
+        "School of Electronic and Information Engineering, Hebei University of Technology, Tianjin, China. zyt@hebut.edu.cn.",
+        "School of Electronic and Information Engineering, Hebei University of Technology, Tianjin, China.",
+        "School of Electronic and Information Engineering, Hebei University of Technology, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Hao",
+        "short_name": "He H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Hebei University of Technology, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yatong",
+        "short_name": "Zhou Y",
+        "identifiers": [
+          "0000-0001-6593-6334"
+        ],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Hebei University of Technology, Tianjin, China. zyt@hebut.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chi, Yue",
+        "short_name": "Chi Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Hebei University of Technology, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "He, Jingfei",
+        "short_name": "He J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic and Information Engineering, Hebei University of Technology, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioData mining"
+    ],
+    "journal_abbrev": [
+      "BioData Min"
+    ],
+    "pub_date": "2021 Aug 14",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/16 06:00",
+    "fetched_at": "2026-09-20 04:59:13"
+  },
+  "links": {
+    "cites": [
+      "42288727",
+      "41023685",
+      "39576585",
+      "38213902",
+      "36851914",
+      "36833360"
+    ],
+    "refs": [
+      "33267349",
+      "32112084",
+      "31660849",
+      "30717652",
+      "29360926",
+      "28968848",
+      "27174932",
+      "26517836",
+      "25637562",
+      "25307499",
+      "24773235",
+      "23988124",
+      "23028280",
+      "22689782",
+      "22190692",
+      "20823312",
+      "18704931",
+      "18579567",
+      "17998252",
+      "17973494",
+      "17142228",
+      "16455751",
+      "16156658",
+      "15955779",
+      "15044227",
+      "12824398",
+      "9254694"
+    ],
+    "similar": [
+      "34391457",
+      "34992646",
+      "33267349",
+      "31660849",
+      "24093637",
+      "22689782",
+      "17488107",
+      "32019410",
+      "30866736",
+      "16935303",
+      "26651072",
+      "29042212",
+      "23328413",
+      "38812466",
+      "23233352",
+      "30717652",
+      "28155710",
+      "36458437",
+      "30324701",
+      "29360926",
+      "31007871",
+      "37709009",
+      "21152297",
+      "23894139",
+      "25637562",
+      "25424537",
+      "31521236",
+      "30298407",
+      "26517836",
+      "33304713",
+      "31504193",
+      "32535960",
+      "27587688",
+      "35350759",
+      "31459119",
+      "26230689",
+      "32173600",
+      "37674132",
+      "22280012",
+      "29080786",
+      "28597880",
+      "30808287",
+      "31861935",
+      "26366527",
+      "30419785",
+      "35421114",
+      "28365882",
+      "32980530",
+      "31208331",
+      "32938374",
+      "29535023",
+      "32821925",
+      "31756456",
+      "16939197",
+      "30395465",
+      "23988124",
+      "31228283",
+      "27307636",
+      "30819075",
+      "27174932",
+      "17201922",
+      "21732419",
+      "31299122",
+      "33076258",
+      "34283094",
+      "33671602",
+      "31480319",
+      "31881982",
+      "29982330",
+      "30366362",
+      "32743208",
+      "25439765",
+      "29722865",
+      "23760157",
+      "27307608",
+      "23798504",
+      "30840449",
+      "31299053",
+      "34527190",
+      "35330096",
+      "32973187",
+      "37538557"
+    ],
+    "review": [
+      "34391457",
+      "31007871",
+      "31521236",
+      "35350759",
+      "22280012"
+    ],
+    "pmc": [
+      "8364704"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biodatamining.biomedcentral.com/articles/10.1186/s13040-021-00275-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34391457/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34391457",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

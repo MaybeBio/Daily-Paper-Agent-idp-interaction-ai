@@ -1,0 +1,185 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.18.580885",
+  "title": "Intrinsic Disorder and Salt-dependent Conformational Changes of the N-terminal Region of TFIP11 Splicing Factor",
+  "doi": "10.1101/2024.02.18.580885",
+  "abstract": "Tuftelin Interacting Protein 11 (TFIP11) was recently identified as a critical human spliceosome assembly regulator, interacting with multiple spliceosome proteins and localises in several membrane-less organelles. However, there is a lack of structural information on TFIP11, limiting the rationalisation of its biological role. TFIP11 has been predicted as a highly disordered protein, and more specifically concerning its N-terminal (N-TER) region. Intrinsically disordered proteins (IDPs) lack a defined tertiary structure, existing as a dynamic conformational ensemble, favouring their role as hubs in protein-protein and protein-RNA interaction networks. Furthermore, IDPs are involved in liquid-liquid phase separation (LLPS), driving the formation of subnuclear compartments. Combining disorder prediction, molecular dynamics, and spectroscopy methods, this contribution shows the first evidence TFIP11 N-TER may be described as a polyampholytic IDP, exhibiting a structural duality with the coexistence of ordered and disordered assemblies, depending on the ionic strength of the protein environment. Increasing the salt concentration enhances the protein conformational flexibility, presenting a fuzzier conformational landscape, a more globule-like shape, and an unstructured arrangement that could favour LLPS segregation and protein-RNA interaction. The regions mostly composed of charged and hydrophilic residues are the most impacted, including the G-Patch domain which is of crucial importance to TFIP11 function.",
+  "authors": [
+    "Juniku B",
+    "Mignon J",
+    "Carême R",
+    "Genco A",
+    "Obeid AM",
+    "Mottet D",
+    "Monari A",
+    "Michaux C"
+  ],
+  "published_date": "2024-02-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.18.580885",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.18.580885.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR810988",
+    "raw_record": {
+      "id": "PPR810988",
+      "source": "PPR",
+      "doi": "10.1101/2024.02.18.580885",
+      "title": "Intrinsic Disorder and Salt-dependent Conformational Changes of the N-terminal Region of TFIP11 Splicing Factor",
+      "authorString": "Juniku B, Mignon J, Carême R, Genco A, Obeid AM, Mottet D, Monari A, Michaux C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Juniku B",
+            "lastName": "Juniku",
+            "firstName": "Blinera",
+            "initials": "B"
+          },
+          {
+            "fullName": "Mignon J",
+            "lastName": "Mignon",
+            "firstName": "Julien",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1223-4501"
+            }
+          },
+          {
+            "fullName": "Carême R",
+            "lastName": "Carême",
+            "firstName": "Rachel",
+            "initials": "R"
+          },
+          {
+            "fullName": "Genco A",
+            "lastName": "Genco",
+            "firstName": "Alexia",
+            "initials": "A"
+          },
+          {
+            "fullName": "Obeid AM",
+            "lastName": "Obeid",
+            "firstName": "Anna Maria",
+            "initials": "AM"
+          },
+          {
+            "fullName": "Mottet D",
+            "lastName": "Mottet",
+            "firstName": "Denis",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9464-1463"
+            }
+          },
+          {
+            "fullName": "Monari A",
+            "lastName": "Monari",
+            "firstName": "Antonio",
+            "initials": "A"
+          },
+          {
+            "fullName": "Michaux C",
+            "lastName": "Michaux",
+            "firstName": "Catherine",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8208-3310"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8208-3310"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9464-1463"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1223-4501"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Tuftelin Interacting Protein 11 (TFIP11) was recently identified as a critical human spliceosome assembly regulator, interacting with multiple spliceosome proteins and localises in several membrane-less organelles. However, there is a lack of structural information on TFIP11, limiting the rationalisation of its biological role. TFIP11 has been predicted as a highly disordered protein, and more specifically concerning its N-terminal (N-TER) region. Intrinsically disordered proteins (IDPs) lack a defined tertiary structure, existing as a dynamic conformational ensemble, favouring their role as hubs in protein-protein and protein-RNA interaction networks. Furthermore, IDPs are involved in liquid-liquid phase separation (LLPS), driving the formation of subnuclear compartments. Combining disorder prediction, molecular dynamics, and spectroscopy methods, this contribution shows the first evidence TFIP11 N-TER may be described as a polyampholytic IDP, exhibiting a structural duality with the coexistence of ordered and disordered assemblies, depending on the ionic strength of the protein environment. Increasing the salt concentration enhances the protein conformational flexibility, presenting a fuzzier conformational landscape, a more globule-like shape, and an unstructured arrangement that could favour LLPS segregation and protein-RNA interaction. The regions mostly composed of charged and hydrophilic residues are the most impacted, including the G-Patch domain which is of crucial importance to TFIP11 function.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/05/30/2024.02.18.580885.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.02.18.580885"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39089542",
+            "reference": "International journal of biological macromolecules. 2024 Oct;277(Pt 3):134291",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-02-28",
+      "firstPublicationDate": "2024-02-21",
+      "firstIndexDate": "2024-02-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

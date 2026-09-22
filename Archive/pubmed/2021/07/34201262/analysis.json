@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34201262",
+  "title": "Molecular Dynamics Simulations of Human FOXO3 Reveal Intrinsically Disordered Regions Spread Spatially by Intramolecular Electrostatic Repulsion.",
+  "authors": "Weinzierl, Robert O J",
+  "journal": "Biomolecules",
+  "published_date": "2021-07-03",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用MD模拟研究无序转录因子FOXO3的构象，揭示IDR通过分子内静电排斥形成伸展构象以促进互作，虽未直接建模PPI，但为IDP构象与互作机制提供了可迁移的物理模拟方法。",
+  "abstract": "The human transcription factor FOXO3 (a member of the 'forkhead' family of transcription factors) controls a variety of cellular functions that make it a highly relevant target for intervention in anti-cancer and anti-aging therapies. FOXO3 is a mostly intrinsically disordered protein (IDP). Absence of knowledge of its structural properties outside the DNA-binding domain constitutes a considerable obstacle to a better understanding of structure/function relationships. Here, I present extensive molecular dynamics (MD) simulation data based on implicit solvation models of the entire FOXO3/DNA complex, and accelerated MD simulations under explicit solvent conditions of a central region of particular structural interest (FOXO3(120-530)). A new graphical tool for studying and visualizing the structural diversity of IDPs, the Local Compaction Plot (LCP), is introduced. The simulations confirm the highly disordered nature of FOXO3 and distinguish various degrees of folding propensity. Unexpectedly, two 'linker' regions immediately adjacent to the DNA-binding domain are present in a highly extended conformation. This extended conformation is not due to their amino acid composition, but rather is caused by electrostatic repulsion of the domains connected by the linkers. FOXO3 is thus an IDP present in an unusually extended conformation to facilitate interaction with molecular interaction partners.",
+  "abstract_zh": "人类转录因子FOXO3（转录因子‘叉头’家族成员）调控多种细胞功能，使其成为抗癌和抗衰老治疗干预中高度相关的靶点。FOXO3主要是一种内在无序蛋白（IDP）。对其DNA结合域之外结构特性的缺乏了解，构成了更好理解结构/功能关系的重大障碍。在此，我展示了基于隐式溶剂模型的整个FOXO3/DNA复合物的广泛分子动力学（MD）模拟数据，以及在显式溶剂条件下对特别具有结构意义的中心区域（FOXO3(120-530)）的加速MD模拟。引入了一种用于研究和可视化IDP结构多样性的新图形工具——局部压缩图（LCP）。模拟确认了FOXO3的高度无序特性，并区分了折叠倾向的不同程度。出乎意料的是，紧邻DNA结合域的两个‘连接’区域呈现高度伸展构象。这种伸展构象并非源于其氨基酸组成，而是由连接区域所连接结构域的静电排斥所致。因此，FOXO3是一种以异常伸展构象存在的IDP，以促进与分子相互作用伙伴的交互。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34201262/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34201262/",
+  "paper_page_path": "papers/pubmed/34201262/index.html"
+}

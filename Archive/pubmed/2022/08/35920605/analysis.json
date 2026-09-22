@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35920605",
+  "title": "Accurate Description of Solvent-Exposed Salt Bridges with a Non-polarizable Force Field Incorporating Solvent Effects.",
+  "authors": "Liu, Han; Fu, Haohao; Chipot, Christophe; Shao, Xueguang; Cai, Wensheng",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2022-08-04",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过QM/MM和NBFIX参数化改进非极化力场对溶剂暴露盐桥的描述，并应用于无序蛋白模拟，虽非直接研究PPI机制，但为IDP中盐桥互作建模提供了可迁移的物理模拟方法。",
+  "abstract": "The strength of salt bridges resulting from the interaction of cations and anions is modulated by their environment. However, polarization of the solvent molecules by the charged moieties makes the accurate description of cation-anion interactions in an aqueous solution by means of a pairwise additive potential energy function and classical combination rules particularly challenging. In this contribution, aiming at improving the representation of solvent-exposed salt-bridge interactions with an all-atom non-polarizable force field, we put forth here a parametrization strategy. First, the interaction of a cation and an anion is characterized by hybrid quantum mechanical/molecular mechanics (QM/MM) potential of mean force (PMF) calculations, whereby constantly exchanging solvent molecules around the ions are treated at the quantum mechanical level. The Lennard-Jones (LJ) parameters describing the salt-bridge ion pairs are then optimized to match the reference QM/MM PMFs through the so-called nonbonded FIX, or NBFIX, feature of the CHARMM force field. We apply the new set of parameters, coined CHARMM36m-SBFIX, to the calculation of association constants for the ammonium-acetate and guanidinium-acetate complexes, the osmotic pressures for glycine zwitterions, guanidinium, and acetate ions, and to the simulation of both folded and intrinsically disordered proteins. Our findings indicate that CHARMM36m-SBFIX improves the description of solvent-exposed salt-bridge interactions, both structurally and thermodynamically. However, application of this force field to the standard binding free-energy calculation of a protein-ligand complex featuring solvent-excluded salt-bridge interactions leads to a poor reproduction of the experimental value, suggesting that the parameters optimized in an aqueous solution cannot be readily transferred to describe solvent-excluded salt-bridge interactions. Put together, owing to their sensitivity to the environment, modeling salt-bridge interactions by means of a single, universal set of LJ parameters remains a daunting theoretical challenge.",
+  "abstract_zh": "由阳离子和阴离子相互作用形成的盐桥强度受其环境调控。然而，带电基团对溶剂分子的极化作用使得通过成对加性势能函数和经典组合规则准确描述水溶液中阳离子-阴离子相互作用尤为困难。在本研究中，旨在改进全原子非极化力场对溶剂暴露盐桥相互作用的描述，我们提出了一种参数化策略。首先，通过混合量子力学/分子力学（QM/MM）平均力势（PMF）计算表征阳离子和阴离子的相互作用，其中离子周围不断交换的溶剂分子在量子力学水平上处理。随后，通过CHARMM力场的所谓非键FIX（NBFIX）特性，优化描述盐桥离子对的Lennard-Jones（LJ）参数，以匹配参考QM/MM PMF。我们将新参数集命名为CHARMM36m-SBFIX，并将其应用于计算铵-乙酸和胍-乙酸复合物的缔合常数、甘氨酸两性离子、胍和乙酸离子的渗透压，以及折叠和 intrinsically disordered 蛋白质的模拟。我们的研究结果表明，CHARMM36m-SBFIX在结构和热力学上均改善了溶剂暴露盐桥相互作用的描述。然而，将该力场应用于具有溶剂排除盐桥相互作用的蛋白质-配体复合物的标准结合自由能计算时，未能良好重现实验值，这表明在水溶液中优化的参数不能直接转移用于描述溶剂排除的盐桥相互作用。综合来看，由于盐桥相互作用对环境敏感，通过单一通用LJ参数集建模盐桥相互作用仍是一个艰巨的理论挑战。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35920605/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35920605/",
+  "paper_page_path": "papers/pubmed/35920605/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37348142",
+  "title": "Excluded Volume and Weak Interactions in Crowded Solutions Modulate Conformations and RNA Binding of an Intrinsically Disordered Tail.",
+  "authors": "Stringer, Madison A; Cubuk, Jasmine; Incicco, J Jeremias; Roy, Debjit; Hall, Kathleen B; Stuchell-Brereton, Melissa D; Soranno, Andrea",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2023-06-22",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合单分子FRET实验与理论建模，系统解析拥挤环境（PEG）通过排空体积与弱相互作用调控SARS-CoV-2核衣壳蛋白无序尾部构象及其RNA结合亲和力的机制，虽以实验为主但为无序蛋白互作机制建模提供了关键数据与概念框架。",
+  "abstract": "The cellular milieu is a solution crowded with a significant concentration of different components (proteins, nucleic acids, metabolites, etc.). Such a crowded environment affects protein conformations, dynamics, and interactions. Intrinsically disordered proteins and regions are particularly sensitive to these effects. Here, we investigate the impact on an intrinsically disordered tail that flanks a folded domain, the N-terminal domain, and the RNA-binding domain of the SARS-CoV-2 nucleocapsid protein. We mimic the crowded environment of the cell using polyethylene glycol (PEG) and study its impact on protein conformations using single-molecule Forster resonance energy transfer. We found that high-molecular-weight PEG induces a collapse of the disordered N-terminal tail, whereas low-molecular-weight PEG induces a chain expansion. Our data can be explained by accounting for two opposing contributions: favorable interactions between the protein and crowder molecules and screening of excluded volume interactions. We further characterized the interaction between protein and RNA in the presence of crowding agents. While for all PEG molecules tested, we observed an increase in the binding affinity, the trend is not monotonic as a function of the degree of PEG polymerization. This points to the role of nonspecific protein-PEG interactions on binding in addition to the entropic effects due to crowding. To separate the enthalpic and entropic components of the effects, we investigated the temperature dependence of the association constants in the absence and presence of crowders. Finally, we compared the effects of crowding across mutations in the disordered region and found that the threefold difference in association constants for two naturally occurring variants of the SARS-CoV-2 nucleocapsid protein is reduced to almost identical affinities in the presence of crowders. Overall, our data provide new insights into understanding and modeling the contribution of crowding effects on disordered regions, including the impact of interactions between proteins and crowders and their interplay when binding a ligand.",
+  "abstract_zh": "细胞环境是一种含有高浓度不同组分（蛋白质、核酸、代谢物等）的拥挤溶液。这种拥挤环境会影响蛋白质的构象、动力学和相互作用。固有无序蛋白质及区域对这些效应尤为敏感。在此，我们研究了拥挤环境对折叠结构域侧翼的无序尾部、N端结构域以及SARS-CoV-2核衣壳蛋白RNA结合结构域的影响。我们使用聚乙二醇（PEG）模拟细胞拥挤环境，并通过单分子福斯特共振能量转移研究其对蛋白质构象的影响。我们发现，高分子量PEG诱导无序N端尾部发生塌缩，而低分子量PEG则导致链扩展。我们的数据可以通过考虑两种相反贡献来解释：蛋白质与拥挤剂分子之间的有利相互作用以及排除体积效应的屏蔽。我们进一步表征了在拥挤剂存在下蛋白质与RNA之间的相互作用。虽然对于所有测试的PEG分子，我们观察到结合亲和力增加，但该趋势并非随PEG聚合度单调变化。这表明非特异性蛋白质-PEG相互作用在结合中起作用，此外还有拥挤引起的熵效应。为了分离效应的焓和熵组分，我们研究了在有无拥挤剂条件下结合常数的温度依赖性。最后，我们比较了无序区域突变对拥挤效应的影响，发现SARS-CoV-2核衣壳蛋白两种自然变异体的结合常数存在三倍差异，但在拥挤剂存在下几乎变为相同亲和力。总体而言，我们的数据为理解和建模拥挤效应对无序区域的影响提供了新见解，包括蛋白质与拥挤剂之间相互作用及其在配体结合时的协同作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37348142/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37348142/",
+  "paper_page_path": "papers/pubmed/37348142/index.html"
+}

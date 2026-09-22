@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "38347806",
+    "doi": "10.1039/d3nr05130g",
+    "title": "Elucidating the reversible and irreversible self-assembly mechanisms of low-complexity aromatic-rich kinked peptides and steric zipper peptides."
+  },
+  "content": {
+    "abstract": "Many RNA-binding proteins such as fused-in sarcoma (FUS) can self-assemble into reversible liquid droplets and fibrils through the self-association of their low-complexity (LC) domains. Recent experiments have revealed that SYG-rich segments in the FUS LC domains play critical roles in the reversible self-assembly behaviors of FUS. These FUS LC segments alone can self-assemble into reversible kinked fibrils, which are markedly different from the canonical irreversible steric zipper beta-sheet fibrils. However, the molecular determinants underlying the reversible and irreversible self-assembly are poorly understood. Herein we conducted extensive all-atom and coarse-grained molecular dynamics simulations of four representative hexapeptides: two low-complexity aromatic-rich kinked peptides from the amyotrophic lateral sclerosis-related FUS protein, FUS(37-42) (SYSGYS) and FUS(54-59) (SYSSYG); and two steric zipper peptides from Alzheimer's-associated Abeta and Tau proteins, Abeta(16-21) (KLVFFA) and Tau(306-311) (VQIVYK). We dissected their reversible and irreversible self-assembly dynamics, predicted their phase separation behaviors, and elucidated the underpinning molecular interactions. Our simulations showed that alternating stickers (Tyr) and spacers (Gly and Ser) in FUS(37-42) and FUS(54-59) facilitate the formation of highly dynamic coil-rich oligomers and lead to reversible self-assembly, while consecutive hydrophobic residues of LVFF in Abeta(16-21) and IVY in Tau(306-311) act as hydrophobic patches, favoring the formation of stable beta-sheet-rich oligomers and driving the irreversible self-assembly. Intriguingly, we found that FUS(37-42) and FUS(54-59) peptides, possessing the same amino acid composition and the same number of sticker and spacer residues, display differential self-assembly propensities. This finding suggests that the self-assembly behaviors of FUS peptides are fine-tuned by the site-specific patterning of spacer residues (Ser and Gly). This study provides significant mechanistic insights into reversible and irreversible peptide self-assembly, which would be helpful for understanding the molecular mechanisms underlying the formation of biological liquid condensates and pathological solid amyloid fibrils.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Conformation",
+      "*Amyloid/chemistry",
+      "*Peptides/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation, beta-Strand"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lao, Zenghui",
+        "Tang, Yiming",
+        "Dong, Xuewei",
+        "Tan, Yuan",
+        "Li, Xuhua",
+        "Liu, Xianshi",
+        "Li, Le",
+        "Guo, Cong",
+        "Wei, Guanghong"
+      ],
+      "short_names": [
+        "Lao Z",
+        "Tang Y",
+        "Dong X",
+        "Tan Y",
+        "Li X",
+        "Liu X",
+        "Li L",
+        "Guo C",
+        "Wei G"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-7900-7146",
+        "ORCID: 0000-0003-3253-0746",
+        "ORCID: 0000-0001-8655-0780",
+        "ORCID: 0000-0001-5814-3328"
+      ],
+      "affiliations": [
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, China. ghwei@fudan.edu.cn.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, China. ghwei@fudan.edu.cn.",
+        "Center for Soft Condensed Matter Physics and Interdisciplinary Research & School of Physical Science and Technology, Soochow University, Suzhou 215006, Jiangsu, China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, China. ghwei@fudan.edu.cn.",
+        "MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter, School of Physics, Xi'an Jiaotong University, Xi'an 710049, China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, China. ghwei@fudan.edu.cn.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, China. ghwei@fudan.edu.cn.",
+        "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, Shanghai, China. congguo@shu.edu.cn.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, China. ghwei@fudan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lao, Zenghui",
+        "short_name": "Lao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, China. ghwei@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tang, Yiming",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, China. ghwei@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Dong, Xuewei",
+        "short_name": "Dong X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Soft Condensed Matter Physics and Interdisciplinary Research & School of Physical Science and Technology, Soochow University, Suzhou 215006, Jiangsu, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Yuan",
+        "short_name": "Tan Y",
+        "identifiers": [
+          "0009-0001-7900-7146"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, China. ghwei@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Xuhua",
+        "short_name": "Li X",
+        "identifiers": [
+          "0000-0003-3253-0746"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory for Nonequilibrium Synthesis and Modulation of Condensed Matter, School of Physics, Xi'an Jiaotong University, Xi'an 710049, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xianshi",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, China. ghwei@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Le",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, China. ghwei@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Guo, Cong",
+        "short_name": "Guo C",
+        "identifiers": [
+          "0000-0001-8655-0780"
+        ],
+        "affiliations": [
+          "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, Shanghai, China. congguo@shu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghong",
+        "short_name": "Wei G",
+        "identifiers": [
+          "0000-0001-5814-3328"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai, China. ghwei@fudan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nanoscale"
+    ],
+    "journal_abbrev": [
+      "Nanoscale"
+    ],
+    "pub_date": "2024 Feb 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/13 06:45",
+    "fetched_at": "2026-09-22 01:04:05"
+  },
+  "links": {
+    "cites": [
+      "42626249",
+      "41756850",
+      "39125845"
+    ],
+    "refs": [],
+    "similar": [
+      "38347806",
+      "31271401",
+      "35709363",
+      "33184287",
+      "28432364",
+      "24368046",
+      "28942918",
+      "34648275",
+      "29610493",
+      "38546977",
+      "22020870",
+      "37119915",
+      "31895552",
+      "39226847",
+      "37924907",
+      "20476794",
+      "29508987",
+      "21559277",
+      "31805282",
+      "26301845",
+      "19810108",
+      "29019683",
+      "19280623",
+      "21174134",
+      "23267112",
+      "28684415",
+      "22326493",
+      "30605312",
+      "19385701",
+      "21568346",
+      "30995840",
+      "33758287",
+      "39037281",
+      "37231298",
+      "37386790",
+      "20938982",
+      "27091578",
+      "36456917",
+      "34491058",
+      "29566504",
+      "31369236",
+      "27642651",
+      "33706107",
+      "12623017",
+      "24513105",
+      "21428404",
+      "34286587",
+      "29786080",
+      "25029558",
+      "19057640",
+      "33576533",
+      "35134456",
+      "24498083",
+      "34151480",
+      "19778093",
+      "37070341",
+      "31022909",
+      "35036880",
+      "18937396",
+      "34796404",
+      "35467349",
+      "19108587",
+      "37211763",
+      "24449257",
+      "24041993",
+      "37155880",
+      "34862761",
+      "35901284",
+      "25050788",
+      "35132852",
+      "24468750",
+      "36052514",
+      "25776887",
+      "35943083",
+      "34516126",
+      "21135968",
+      "36069400",
+      "19415895",
+      "22724381",
+      "11444969",
+      "26473431",
+      "27693688",
+      "37306611",
+      "36594671",
+      "35561002",
+      "23904252",
+      "38294417",
+      "21347488",
+      "18469082",
+      "23294335",
+      "19668872",
+      "36098068",
+      "33607084",
+      "22420540",
+      "26619132",
+      "39372747",
+      "28562008",
+      "30355736",
+      "37399327",
+      "19730673",
+      "21687730",
+      "30821624",
+      "33307683",
+      "38971830",
+      "39211498",
+      "34812835",
+      "39424799",
+      "38640598",
+      "37134270",
+      "36945688",
+      "33776061",
+      "38489817",
+      "37931005",
+      "31861408",
+      "38416758",
+      "29292825",
+      "38467846",
+      "38350068",
+      "37873097",
+      "29127706",
+      "38602372",
+      "39403745",
+      "37186597",
+      "36945632"
+    ],
+    "review": [
+      "38347806",
+      "24368046",
+      "29508987",
+      "31022909",
+      "23294335"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d3nr05130g",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

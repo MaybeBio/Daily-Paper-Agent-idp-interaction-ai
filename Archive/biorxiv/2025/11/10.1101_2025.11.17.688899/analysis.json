@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.17.688899",
+  "title": "Near-atomistic simulations reveal the molecular principles that control chromatin structure and phase separation",
+  "authors": "Russell K; Chen Y; Espinosa JR; Gil DF; Zhou H; Maristany MJ; Lopez JIP; Huertas J; Orozco M; Rosen MK; Collepardo-Guevara R",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-17",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用近原子级粗粒化模拟研究染色质纤维与凝聚体的相分离结构，虽对象为染色质而非典型IDP，但通过组蛋白尾部无序区域介导的相互作用网络和相分离机制建模，对无序区域介导PPI的物理模拟方法有直接借鉴价值。",
+  "abstract": "Understanding how chromatin's physicochemical properties shape its emergent organization is central to deciphering genome function. To address this, we present OpenCGChromatin, a high-performance coarse-grained model that achieves near-atomistic simulations of chromatin systems an order of magnitude larger than previously possible, spanning biomolecular condensates and fibers tens of kilobases in length. OpenCGChromatin simulations independently predict, from physicochemical principles, the linker-DNA-dependent chromatin structures observed by cryo-ET and the relative thermodynamic stability of condensates inferred from biochemical assays. Crucially, OpenCGChromatin resolves histone-tail dynamics and interaction networks that remain inaccessible experimentally, explaining how linker-DNA length controls histone tail accessibility and the resulting multiscale structure of chromatin condensates. Extending simulations to 108-nucleosome fibers shows that acetylation disrupts chromatin compaction in a pattern-specific manner by weakening key tail-mediated interactions, with H4K16 and H3K9 emerging as the most energetically disruptive modifications. These results position OpenCGChromatin as a powerful framework for linking molecular detail to emergent chromatin organization.",
+  "abstract_zh": "理解染色质的物理化学性质如何塑造其涌现性组织，是解读基因组功能的核心。为此，我们提出了OpenCGChromatin，一种高性能粗粒化模型，能够实现对染色质系统的近原子级模拟，其规模比以往可能达到的大一个数量级，涵盖生物分子凝聚体和长度达数十千碱基的纤维。OpenCGChromatin模拟从物理化学原理出发，独立预测了冷冻电子断层扫描（cryo-ET）观察到的连接子DNA依赖性染色质结构，以及从生化测定推断出的凝聚体相对热力学稳定性。关键的是，OpenCGChromatin解析了实验上无法触及的组蛋白尾部动力学和相互作用网络，解释了连接子DNA长度如何控制组蛋白尾部的可及性，以及由此产生的染色质凝聚体的多尺度结构。将模拟扩展到108核小体纤维表明，乙酰化通过削弱关键的尾部介导相互作用，以模式特异性的方式破坏染色质压缩，其中H4K16和H3K9成为能量上最具破坏性的修饰。这些结果将OpenCGChromatin定位为一个强大的框架，用于将分子细节与涌现性染色质组织联系起来。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688899",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688899",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.17.688899/index.html"
+}

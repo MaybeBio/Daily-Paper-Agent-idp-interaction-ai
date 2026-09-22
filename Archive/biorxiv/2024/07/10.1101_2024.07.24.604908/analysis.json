@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.24.604908",
+  "title": "PredIDR: Accurate prediction of protein intrinsic disorder regions using deep convolutional neural network",
+  "authors": "Kun-Sop Han; Su-Jong Yun; Chol-Song Kim; Chol-Pyok Ri; Alessio Del Conte; Damiano Piovesan",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-24",
+  "window": {
+    "start": "2024-07-22",
+    "end": "2024-07-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度卷积神经网络预测蛋白质内在无序区域，对象为IDR且方法为AI，但未涉及PPI或互作机制建模，故综合评分为5。",
+  "abstract": "The involvement of protein intrinsic disorder in essential biological processes, it is well known in structural biology. However, experimental methods for detecting intrinsic structural disorder and directly measuring highly dynamic behavior of protein structure are limited. To address this issue, several computational methods to predict intrinsic disorder from protein sequences were developed and their performance is evaluated by the Critical Assessment of protein Intrinsic Disorder (CAID). In this paper, we describe a new computational method, PredIDR, which provides accurate prediction of intrinsically disordered regions in proteins, mimicking experimental X-ray missing residues. Indeed, missing residues in Protein Data Bank (PDB) were used as positive examples to train a deep convolutional neural network which produces two types of output for short and long regions. PredIDR took part in the second round of CAID and was as accurate as the top state-of-the-art IDR prediction methods. PredIDR can be freely used through the CAID Prediction Portal available at https://caid.idpcentral.org/portal or downloaded as a Singularity container from https://biocomputingup.it/shared/caid-predictors/ .",
+  "abstract_zh": "蛋白质内在无序性在基本生物过程中的参与，在结构生物学中是众所周知的。然而，用于检测内在结构无序性并直接测量蛋白质结构高度动态行为的实验方法有限。为解决这一问题，开发了几种从蛋白质序列预测内在无序性的计算方法，其性能通过蛋白质内在无序性关键评估（CAID）进行评价。本文描述了一种新的计算方法PredIDR，它能准确预测蛋白质中的内在无序区域，模拟实验X射线缺失残基。实际上，蛋白质数据银行（PDB）中的缺失残基被用作阳性示例来训练深度卷积神经网络，该网络为短区域和长区域产生两种类型的输出。PredIDR参与了CAID第二轮评估，其准确性与最先进的IDR预测方法相当。PredIDR可通过CAID预测门户（https://caid.idpcentral.org/portal）免费使用，或从https://biocomputingup.it/shared/caid-predictors/ 下载为Singularity容器。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.24.604908",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.24.604908",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.24.604908/index.html"
+}

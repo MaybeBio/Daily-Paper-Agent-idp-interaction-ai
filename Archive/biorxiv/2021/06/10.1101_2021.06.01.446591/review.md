@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table references
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript; no external data or unpublished materials considered
+- **Shared manuscript claim summary** The authors report high-resolution crystal structures of three llama-derived single-domain antibodies (sdAbs) binding to the SARS-CoV-2 Nucleocapsid (N) protein, mapping their epitopes to specific folded domains, and demonstrating that two of these antibodies affect RNA binding and phase separation. They further claim that all three antibodies recognize highly conserved surfaces on N, suggesting utility in diagnostic tests across SARS-CoV-2 variants.
+- **Visible evidence base** Abstract, introduction, results sections (sdAb domain recognition, complex structures, variability analysis, RNA binding and phase separation assays), materials and methods, and references to supplementary figures and tables (Figure S1-S3, Tables S1-S3)
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S3, T1-T3) not provided; raw diffraction data and refinement statistics not shown; full experimental details for phase separation quantitation partially described; sequence alignment data for sdAb CDR analysis not shown
+
+## Reviewer
+- **Overall assessment** This manuscript presents structurally and biochemically valuable data on sdAb recognition of the SARS-CoV-2 N protein, with potential diagnostic relevance. The crystallographic work appears technically sound, and the functional assays provide meaningful insights into how these antibodies may perturb N protein activities. However, the claim of broad variant recognition relies on indirect sequence conservation analysis rather than direct binding experiments, and the phase separation data are presented without full quantitative rigor. The manuscript would benefit from additional experimental validation to fully support the translational claims.
+- **Who would be interested in the results, and why** Structural biologists studying protein-antibody interactions, researchers developing SARS-CoV-2 diagnostics, and investigators interested in the molecular biology of the N protein, particularly its RNA binding and phase separation properties. The work may also appeal to those developing nanobody-based reagents for viral detection.
+- **Major strengths** High-resolution crystal structures (1.42 Å for one complex) provide definitive epitope mapping. The combination of structural, biochemical, and biophysical assays offers a comprehensive view of sdAb-N interactions. The conservation analysis across a large dataset (nearly 500,000 sequences) is a notable effort to address variant coverage. The functional data linking sdAb binding to altered RNA binding and phase separation add biological relevance beyond simple structural characterization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "All three antibodies recognize highly-conserved surfaces on the Nucleocapsid protein, suggesting that they could be used to develop affordable diagnostic tests to detect all circulating SARS-CoV-2 variants."
+  - **Evidence pointer** Results section "Variability of sdAb-recognition surfaces on SARS-CoV-2 N", Figure S2, Table S3
+  - **Concern** The claim that the sdAbs will recognize "all circulating SARS-CoV-2 variants" is extrapolated from sequence conservation analysis of epitope residues, not from direct binding experiments with variant N proteins. The analysis identifies low mutation frequencies in epitope residues, but this does not guarantee functional binding, as mutations outside the epitope could affect protein folding or stability. Furthermore, the analysis is based on a static dataset from early 2021, and the emergence of new variants with mutations in or near these epitopes cannot be excluded.
+  - **Why it matters** The translational claim of broad diagnostic utility is a central motivation for the work. Overstating variant coverage based on indirect evidence could mislead developers and users of such diagnostic tests, particularly in a rapidly evolving pandemic context.
+  - **Resolution test** Direct binding assays (e.g., ELISA or surface plasmon resonance) using N proteins from major variants of concern (e.g., Alpha, Beta, Gamma, Delta, and later variants) should be performed to demonstrate that the sdAbs retain high affinity. Alternatively, the claim should be tempered to reflect that the epitopes are conserved in currently sampled sequences, without asserting universal coverage.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Both sdAbs significantly reduced the progressive band-shift observed with wild-type N protein, especially for the dsRNA binding assays. This observation suggests that the two sdAbs affect the N protein-RNA interaction not by interfering with RNA binding of a single N protein protomer, but rather by compromising large-scale self-assembly of N."
+  - **Evidence pointer** Results section "sdAb binding compromises RNA binding and phase separation of SARS-CoV-2 N", Figure 4a-b, Figure S3
+  - **Concern** The interpretation that the sdAbs compromise large-scale self-assembly rather than direct RNA binding is inferred from EMSA band-shift patterns, but the data are not quantitatively analyzed to distinguish between these mechanisms. The Hill coefficient of ~5 is fixed in the fitting model, which may obscure alternative binding modes. Additionally, the phase separation assays show qualitative differences in condensate morphology, but the quantitation method (total fluorescence and volume percentages) is not fully described, and statistical significance is not reported.
+  - **Why it matters** The mechanistic claim about how the sdAbs perturb N function is a key finding. Without rigorous quantitative analysis and appropriate controls, the conclusion that the antibodies act by disrupting self-assembly rather than direct RNA competition remains speculative.
+  - **Resolution test** Perform competition assays with excess RNA to determine if sdAb binding is competitive or allosteric. Use sedimentation assays or size-exclusion chromatography to directly assess N oligomerization in the presence of sdAbs. Provide statistical analysis of phase separation quantitation with replicates and appropriate controls (e.g., a non-binding sdAb).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "We determined structures of these complexes to 1.42 Å and 2.56 Å resolution, respectively" and "The model, comprising four identical copies of a complex with a dimers N 269-364 bound to a single sdAb-E2, was manually rebuilt in COOT and refined in phenix.refine."
+  - **Evidence pointer** Results section "Structures of sdAb-N protein complexes", Table S2
+  - **Concern** The crystallographic refinement details are incomplete. For the N 269-364 :sdAb-E2 complex, the authors note strong diffraction anisotropy and translational non-crystallographic symmetry, and they pruned ~17% of reflections and applied NCS restraints. However, key validation metrics (R-free, Ramachandran statistics, coordinate errors) are not reported in the main text, and the supplementary table is not available for review. The use of a pruned dataset and NCS restraints may affect the reliability of the model, and this is not adequately discussed.
+  - **Why it matters** Structural claims are central to the manuscript. Incomplete reporting of refinement statistics and validation metrics undermines confidence in the atomic models, which are the basis for epitope mapping and functional interpretations.
+  - **Resolution test** Provide full refinement and validation statistics in Table S2, including R-work/R-free, bond length and angle deviations, Ramachandran outliers, and MolProbity scores. Discuss the impact of anisotropy and tNCS on model quality and consider depositing the structure factors and coordinates in the PDB for independent validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "the most severe public health event of the twenty-first century" without qualification. This is a subjective claim that may be debated and is not essential to the scientific content.
+  - **Required correction** Rephrase to a more neutral statement, such as "a major public health event of the twenty-first century."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "sdAbs recognize distinct domains of the SARS-CoV-2 N protein"
+  - **Evidence pointer** Figure 1d-g, Figure S1
+  - **Issue** The pulldown assays are described qualitatively ("robustly bind"), but the data in Figure S1 are not shown. The authors should provide a quantitative measure of binding (e.g., densitometry) or at least a clear representative image with proper controls.
+  - **Required correction** Include a representative gel image in the main text or supplementary, with a description of the controls used (e.g., beads alone, non-specific protein).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and methods, "Phase separation assays"
+  - **Evidence pointer** Methods section
+  - **Issue** The quantitation method for phase separation is described as "total fluorescence inside condensates and the total volume of condensates... divided by the total fluorescence in the field or the total volume of the field." This is ambiguous, and the thresholding method for identifying condensates is not specified.
+  - **Required correction** Clarify the image analysis pipeline, including threshold settings, and report the number of fields analyzed and statistical tests used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "Variability of sdAb-recognition surfaces on SARS-CoV-2 N"
+  - **Evidence pointer** Figure S2, Table S3
+  - **Issue** The analysis of mutation frequencies in epitope residues is presented as a single comparison (IDRs vs. ordered domains), but the authors do not provide a statistical test or confidence intervals for the observed differences.
+  - **Required correction** Provide statistical analysis (e.g., Fisher's exact test or a permutation test) to support the claim that ordered domains are significantly less mutated than IDRs.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (variant coverage claim requires direct binding data), R1-M3 (incomplete crystallographic validation), and the lack of statistical rigor in the phase separation and mutation frequency analyses (R1-M2, R1-m3, R1-m4) are the primary technical issues. The manuscript is otherwise well-structured and the core structural findings are likely sound.
+- **Assessment against Nature-style criteria** Originality: The work is original in its specific sdAb-N structures and functional characterization, though the general approach of nanobody epitope mapping is well-established. Scientific importance: The findings are relevant to SARS-CoV-2 diagnostics and N protein biology, but the translational claims are not fully substantiated. Interdisciplinary readership: The work will appeal to structural biologists, virologists, and diagnostic developers, but the narrow focus on three antibodies may limit broader interest. Technical soundness: The crystallography appears competent, but incomplete reporting and indirect functional evidence weaken the overall case. Readability for nonspecialists: The manuscript is generally clear, but the significance of the structural details and the limitations of the conservation analysis could be better explained for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core structural and biochemical data are valuable, but the claims of broad variant coverage and the mechanistic interpretation of functional disruption require additional experimental support and more rigorous analysis. The manuscript would be suitable for publication after these issues are addressed.
+
+## Risk / unsupported claims
+- The claim that the sdAbs "could be used to develop affordable diagnostic tests to detect all circulating SARS-CoV-2 variants" is unsupported by direct binding data with variant N proteins.
+- The assertion that the sdAbs act by compromising large-scale self-assembly rather than direct RNA binding is not fully supported by the presented EMSA and phase separation data.
+- The statement that the N protein's ordered domains are under "strong selective pressure" is inferred from mutation frequency data without statistical testing.
+- The generalizability of the findings to all SARS-CoV-2 variants, including those emerging after the dataset was compiled, is not established.

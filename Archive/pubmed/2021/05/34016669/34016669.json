@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "34016669",
+    "doi": "10.1124/pharmrev.120.000090",
+    "title": "The Emerging Role of the Innate Immune Response in Idiosyncratic Drug Reactions."
+  },
+  "content": {
+    "abstract": "Idiosyncratic drug reactions (IDRs) range from relatively common, mild reactions to rarer, potentially life-threatening adverse effects that pose significant risks to both human health and successful drug discovery. Most frequently, IDRs target the liver, skin, and blood or bone marrow. Clinical data indicate that most IDRs are mediated by an adaptive immune response against drug-modified proteins, formed when chemically reactive species of a drug bind to self-proteins, making them appear foreign to the immune system. Although much emphasis has been placed on characterizing the clinical presentation of IDRs and noting implicated drugs, limited research has focused on the mechanisms preceding the manifestations of these severe responses. Therefore, we propose that to address the knowledge gap between drug administration and onset of a severe IDR, more research is required to understand IDR-initiating mechanisms; namely, the role of the innate immune response. In this review, we outline the immune processes involved from neoantigen formation to the result of the formation of the immunologic synapse and suggest that this framework be applied to IDR research. Using four drugs associated with severe IDRs as examples (amoxicillin, amodiaquine, clozapine, and nevirapine), we also summarize clinical and animal model data that are supportive of an early innate immune response. Finally, we discuss how understanding the early steps in innate immune activation in the development of an adaptive IDR will be fundamental in risk assessment during drug development. SIGNIFICANCE STATEMENT: Although there is some understanding that certain adaptive immune mechanisms are involved in the development of idiosyncratic drug reactions, the early phase of these immune responses remains largely uncharacterized. The presented framework refocuses the investigation of IDR pathogenesis from severe clinical manifestations to the initiating innate immune mechanisms that, in contrast, may be quite mild or clinically silent. A comprehensive understanding of these early influences on IDR onset is crucial for accurate risk prediction, IDR prevention, and therapeutic intervention.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Disease Models, Animal",
+      "*Drug-Related Side Effects and Adverse Reactions",
+      "Humans",
+      "Immunity, Innate",
+      "*Pharmaceutical Preparations"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sernoskie, Samantha Christine",
+        "Jee, Alison",
+        "Uetrecht, Jack Paul"
+      ],
+      "short_names": [
+        "Sernoskie SC",
+        "Jee A",
+        "Uetrecht JP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmaceutical Sciences, Leslie Dan Faculty of Pharmacy (S.C.S., J.P.U.), and Department of Pharmacology and Toxicology, Temerty Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada (A.J., J.P.U.).",
+        "Department of Pharmaceutical Sciences, Leslie Dan Faculty of Pharmacy (S.C.S., J.P.U.), and Department of Pharmacology and Toxicology, Temerty Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada (A.J., J.P.U.).",
+        "Department of Pharmaceutical Sciences, Leslie Dan Faculty of Pharmacy (S.C.S., J.P.U.), and Department of Pharmacology and Toxicology, Temerty Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada (A.J., J.P.U.) jack.uetrecht@utoronto.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sernoskie, Samantha Christine",
+        "short_name": "Sernoskie SC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Leslie Dan Faculty of Pharmacy (S.C.S., J.P.U.), and Department of Pharmacology and Toxicology, Temerty Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada (A.J., J.P.U.)."
+        ]
+      },
+      {
+        "full_name": "Jee, Alison",
+        "short_name": "Jee A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Leslie Dan Faculty of Pharmacy (S.C.S., J.P.U.), and Department of Pharmacology and Toxicology, Temerty Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada (A.J., J.P.U.)."
+        ]
+      },
+      {
+        "full_name": "Uetrecht, Jack Paul",
+        "short_name": "Uetrecht JP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, Leslie Dan Faculty of Pharmacy (S.C.S., J.P.U.), and Department of Pharmacology and Toxicology, Temerty Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada (A.J., J.P.U.) jack.uetrecht@utoronto.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmacological reviews"
+    ],
+    "journal_abbrev": [
+      "Pharmacol Rev"
+    ],
+    "pub_date": "2021 Jul",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/22 06:00",
+    "fetched_at": "2026-09-20 03:15:49"
+  },
+  "links": {
+    "cites": [
+      "42453403",
+      "42244311",
+      "41200300",
+      "40665079",
+      "40547023",
+      "40076629",
+      "38767978",
+      "38636494",
+      "38230816",
+      "38037613",
+      "37117846",
+      "37047633",
+      "36831304",
+      "36674761",
+      "35876116",
+      "35687011",
+      "35269830",
+      "34935985"
+    ],
+    "refs": [],
+    "similar": [
+      "34016669",
+      "27775332",
+      "35687011",
+      "21084762",
+      "17125404",
+      "38262745",
+      "23476052",
+      "19149477",
+      "18052104",
+      "22776640",
+      "30873473",
+      "20020274",
+      "39811883",
+      "33799477",
+      "38636494",
+      "23616580",
+      "38767978",
+      "19171927",
+      "32037821",
+      "12963319",
+      "24877608",
+      "12399158",
+      "15522261",
+      "24350727",
+      "32976738",
+      "2664753",
+      "12093356",
+      "38230816",
+      "11090946",
+      "10323325",
+      "28653285",
+      "22394356",
+      "26735163",
+      "39150724",
+      "39933697",
+      "25772430",
+      "22879874",
+      "11465079",
+      "26501190",
+      "25424130",
+      "25199801",
+      "16879083",
+      "26314789",
+      "9391694",
+      "20071422",
+      "15931258",
+      "20927685",
+      "22235834",
+      "25832837",
+      "14982156",
+      "11727323",
+      "38825461",
+      "25747444",
+      "16584133",
+      "35911693",
+      "29746101",
+      "15989140",
+      "28525267",
+      "24164504",
+      "21702456",
+      "25245507",
+      "22970684",
+      "20214587",
+      "28104833",
+      "25832838",
+      "8660393",
+      "32852280",
+      "17145699",
+      "35640615",
+      "16584124",
+      "22850321",
+      "23889370",
+      "12505285",
+      "22279281",
+      "12109041",
+      "16958561",
+      "34935985",
+      "39949719",
+      "12971795",
+      "11092609",
+      "31679171",
+      "38006373",
+      "34179096",
+      "20846520",
+      "25953690",
+      "16922655",
+      "23555622",
+      "2068978",
+      "39262163",
+      "30318948",
+      "28017537",
+      "1628536",
+      "27933067",
+      "26614821",
+      "20020271",
+      "30619355",
+      "16245793",
+      "27015977",
+      "19603009",
+      "30473694"
+    ],
+    "review": [
+      "34016669",
+      "27775332",
+      "35687011",
+      "21084762",
+      "17125404",
+      "23476052",
+      "19149477",
+      "18052104",
+      "22776640",
+      "30873473",
+      "20020274",
+      "39811883",
+      "33799477",
+      "12963319",
+      "12399158",
+      "2664753",
+      "12093356",
+      "11090946",
+      "10323325",
+      "22394356",
+      "26735163",
+      "39150724",
+      "11465079",
+      "25424130",
+      "25199801",
+      "16879083",
+      "9391694",
+      "20071422",
+      "15931258",
+      "20927685",
+      "22235834",
+      "25832837",
+      "14982156",
+      "11727323",
+      "38825461",
+      "16584133",
+      "35911693",
+      "15989140",
+      "24164504",
+      "21702456",
+      "25245507",
+      "20214587",
+      "28104833",
+      "25832838",
+      "8660393",
+      "32852280",
+      "17145699",
+      "16584124",
+      "22850321",
+      "12505285",
+      "12109041",
+      "16958561",
+      "39949719",
+      "11092609",
+      "16922655",
+      "2068978",
+      "39262163",
+      "30318948",
+      "28017537",
+      "1628536",
+      "26614821",
+      "20020271",
+      "30619355",
+      "30473694"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0031-6997(24)00674-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/drugreactions.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Drug Reactions"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/34016669",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and body as provided)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and alignment with Nature-style criteria based solely on the supplied text
+- **Shared manuscript claim summary** The authors report the rational design of D-box peptides containing unnatural amino acids that bind to Cdc20, a substrate-recognition subunit of the APC/C E3 ubiquitin ligase. They claim these peptides inhibit APC/C ubiquitination activity with greater potency than the small-molecule inhibitor Apcin, stabilise Cdc20 in cells, and function as portable degrons for targeted protein degradation. They further report that inhibitory activity correlates with binding affinity, whereas degradation efficacy does not.
+- **Visible evidence base** Text describes thermal-shift assays, surface plasmon resonance, structural determination of Cdc20-peptide complexes, cellular thermal shift assays, ubiquitination activity assays, and degron-mediated degradation experiments. No figures, tables, or numerical data are provided in the supplied material.
+- **Missing materials affecting confidence** All primary data, including figures, tables, numerical values, statistical analyses, structural coordinates, and experimental protocols, are absent. This severely limits the ability to assess technical soundness and the validity of quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem, namely the development of peptide-based inhibitors targeting the APC/C, a complex of high biological and therapeutic interest. The rational design strategy incorporating unnatural amino acids is conceptually sound and potentially innovative. However, the provided text lacks all experimental data, making it impossible to verify the central claims. The observation that binding affinity correlates with inhibition but not degradation is intriguing, but without data, its significance cannot be evaluated. The manuscript has clear potential, but the evidence base as supplied is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in cell cycle biology, ubiquitin-proteasome system enzymology, and targeted protein degradation would find these results relevant. Additionally, medicinal chemists and drug discovery groups focused on challenging protein-protein interaction targets, particularly those exploring peptide-based therapeutics, would be interested. The potential application to cancer therapy via APC/C inhibition broadens the appeal to translational oncology researchers.
+- **Major strengths** The rational design approach using unnatural amino acids to improve pocket filling is a thoughtful and potentially generalisable strategy. The combination of biophysical, structural, cellular, and functional assays represents a comprehensive experimental framework. The finding that inhibition and degradation activities are decoupled is conceptually interesting and could have implications for degron design. The dual potential application, both blocking APC/C and harnessing it for targeted degradation, increases the translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that the D-box peptides inhibit APC/C ubiquitination activity and are more potent than Apcin.
+  - **Evidence pointer** Text description of ubiquitination activity assays, location not provided
+  - **Concern** No quantitative data, dose-response curves, or statistical comparisons are provided. The claim of superior potency relative to Apcin cannot be assessed without IC50 values or equivalent metrics.
+  - **Why it matters** Potency comparison is a central claim that directly supports the therapeutic potential of the peptides. Without quantitative evidence, the claim is unverifiable.
+  - **Resolution test** Provide dose-response curves, IC50 values with confidence intervals, and appropriate statistical tests comparing peptide and Apcin activities.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that the D-box peptides bind to and stabilise Cdc20 in cells based on cellular thermal shift assays.
+  - **Evidence pointer** Text description of cellular thermal shift assays, location not provided
+  - **Concern** No data are shown for the cellular thermal shift assays, including melting curves, replicate numbers, or controls. The claim of in-cell binding is therefore unsupported.
+  - **Why it matters** In-cell target engagement is critical for establishing that the peptides are cell-permeable and engage the intended target in a relevant environment. Without this evidence, the translational relevance is weakened.
+  - **Resolution test** Show representative melting curves, replicate data, and appropriate controls, such as a non-binding peptide or a Cdc20 mutant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that the peptides function as portable degrons capable of driving degradation of a fused fluorescent protein.
+  - **Evidence pointer** Text description of degradation experiments, location not provided
+  - **Concern** No degradation kinetics, dose-response, or specificity data are provided. The claim that degradation efficacy does not correlate with binding affinity is stated without supporting data.
+  - **Why it matters** The decoupling of inhibition and degradation is a novel and potentially important finding. Without quantitative degradation data, this claim cannot be evaluated, and its mechanistic implications remain speculative.
+  - **Resolution test** Provide degradation time courses, concentration dependence, and a comparison of multiple peptide variants with different affinities to substantiate the correlation claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim to have determined structures of a number of Cdc20-peptide complexes.
+  - **Evidence pointer** Text description of structural determination, location not provided
+  - **Concern** No structural details, resolution statistics, or coordinates are provided. The structural basis for the improved binding of unnatural amino acids cannot be assessed.
+  - **Why it matters** Structural data are central to the rational design claim. Without them, the design rationale and the mechanism of improved binding remain unverified.
+  - **Resolution test** Provide structural figures, refinement statistics, and deposition numbers for the coordinates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and introduction
+  - **Evidence pointer** Text description, location not provided
+  - **Issue** The distinction between the APC/C as a whole and the Cdc20 subunit is not always clear, which could confuse readers unfamiliar with the system.
+  - **Required correction** Clarify the relationship between Cdc20 and APC/C throughout, particularly in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Text description, location not provided
+  - **Issue** The text mentions unnatural amino acids but does not specify which ones were used or how they were selected.
+  - **Required correction** Provide details on the unnatural amino acids, their selection rationale, and their incorporation method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of degradation versus inhibition
+  - **Evidence pointer** Text description, location not provided
+  - **Issue** The proposed explanation for the decoupling of inhibition and degradation is speculative and not tied to any specific data.
+  - **Required correction** Either provide supporting data or clearly frame this as a hypothesis requiring further testing.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. All four major concerns relate to the absence of primary data, which collectively prevents verification of the central claims.
+- **Assessment against Nature-style criteria** Originality: The use of unnatural amino acids in D-box peptides to improve Cdc20 binding is a novel approach, though the general concept of degron-derived peptides is established. Scientific importance: The APC/C is a validated and important target, and the dual application of inhibition and targeted degradation is of high significance. Interdisciplinary readership: The work bridges structural biology, chemical biology, and cell cycle research, which would appeal to a broad audience. Technical soundness: Cannot be assessed due to missing data. Readability for nonspecialists: The text is generally clear but assumes familiarity with ubiquitin ligase terminology; the abstract could be more accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has clear potential and the experimental design is appropriate, but the absence of all primary data prevents any assessment of validity. A revised version with full data would be required for further consideration.
+
+## Risk / unsupported claims
+- The claim of superior potency relative to Apcin is unsupported without quantitative data.
+- The claim of in-cell binding and stabilisation of Cdc20 is unsupported without cellular thermal shift assay data.
+- The claim of portable degron function is unsupported without degradation data.
+- The claim that degradation efficacy does not correlate with binding affinity is unsupported.
+- The structural basis for improved binding is unassessable without coordinates or statistics.
+- The overall therapeutic potential of the peptides is speculative without in vivo or more advanced cellular data.

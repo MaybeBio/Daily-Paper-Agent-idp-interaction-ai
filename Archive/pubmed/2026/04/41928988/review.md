@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, STAR methods) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, and evidentiary support as presented in the provided text; supplementary materials referenced but not independently assessed
+- **Shared manuscript claim summary** The authors report that C16orf87 (renamed MHAP1) forms a stable complex with HDAC2 and MIER1, and that an integrative structural modeling approach combining XL-MS data with computational tools (I-TASSER, HADDOCK, AlphaFold) yields a structural model of the trimeric complex in which the intrinsically disordered C-terminal domain of HDAC2 folds into α-helices and mediates interactions with MIER1 and MHAP1, in contrast to AlphaFold-only predictions.
+- **Visible evidence base** Abstract; Introduction; Results sections (four subsections); Discussion; STAR Methods; references to Supplementary Figures S1–S5, Supplementary Tables S1–S5, and Supplementary Videos 1–2 (not independently assessed)
+- **Missing materials affecting confidence** Supplementary figures, tables, and videos; raw mass spectrometry data; AlphaFold model confidence metrics (pLDDT plots, PAE); XL-MS spectra validation details; statistical details for FRET and activity assays; PDB accession for the final integrative model
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a genuinely important problem: the structural characterization of IDR-driven protein complexes that are refractory to both experimental structure determination and AlphaFold-based prediction. The authors present a plausible workflow combining XL-MS restraints with multi-tool computational modeling and report a compelling biological finding: the previously unresolved HDAC2 C-terminal domain folds into α-helices and mediates the trimeric assembly. However, the manuscript as provided has several critical gaps that prevent full evaluation. The central claim that the integrative model is more accurate than AlphaFold predictions rests on indirect evidence (agreement with prior crosslinking data, compactness, and qualitative comparisons) rather than on quantitative validation metrics. The absence of key supplementary data, the lack of statistical detail for several assays, and the incomplete description of the modeling pipeline (e.g., how XL-MS restraints were weighted, how model selection was performed, whether the final model was deposited) substantially limit the ability to assess technical soundness. The writing is generally clear but the Results section would benefit from more explicit quantitative reporting. The work is potentially significant for the IDP structural biology community, but the case is not fully established from the provided materials.
+- **Who would be interested in the results, and why** Structural biologists studying intrinsically disordered proteins and IDR-mediated complexes; researchers in the chromatin remodeling and HDAC fields; computational biologists developing or using integrative modeling approaches; method developers interested in benchmarking AlphaFold limitations and hybrid approaches. The generalizable workflow will be of interest to anyone facing similar challenges with IDR-containing assemblies.
+- **Major strengths** 1) The biological question is important and the target complex is therapeutically relevant. 2) The combination of XL-MS with multiple computational tools is a sensible and increasingly recognized strategy for IDR systems. 3) The authors provide experimental validation of the complex (AP-MS, co-localization, FRET, activity assay) before proceeding to modeling. 4) The comparison between AlphaFold-only and integrative models is a useful demonstration of the limitations of deep learning approaches for IDRs. 5) The identification of a SAH domain in MHAP1 is a specific, testable structural prediction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the integrative model
+  - **Claim pointer** The authors claim that the integrative structural model, built using XL-MS data with I-TASSER and HADDOCK, provides a reliable representation of the trimeric complex, including the folding of the HDAC2 C-terminal domain into six α-helices.
+  - **Evidence pointer** Results section "Integrative Structural Model of the Trimeric HDAC2:MIER1:MHAP1 Complex"; Figure 3; Supplementary Figure S3; Supplementary Table S4
+  - **Concern** The manuscript does not provide sufficient detail to evaluate the quality of the integrative model. Key missing information includes: (a) the number and distribution of XL-MS restraints used for each protein and interface; (b) how restraint satisfaction was quantified (XL score thresholds, percentage of satisfied restraints); (c) whether the final model was validated against the crosslinking data (e.g., a plot of calculated vs. experimental distances); (d) how model selection was performed among multiple I-TASSER and HADDOCK clusters; (e) whether the final model was deposited in a public repository (e.g., PDB-dev or ModelArchive); and (f) any metrics of model quality (e.g., MolProbity, clash scores, Ramachandran outliers). Without these details, the claim that the integrative model is more accurate than the AlphaFold model cannot be rigorously assessed.
+  - **Why it matters** The central methodological claim of the paper is that the integrative approach outperforms AlphaFold for IDR-containing complexes. This claim requires quantitative evidence of model quality and restraint satisfaction. Without such evidence, the model could be an artifact of the modeling pipeline rather than a genuine structural representation.
+  - **Resolution test** Provide a supplementary table listing all XL-MS restraints (residue pairs, measured distances, whether satisfied in the final model), a plot of calculated vs. experimental Cα-Cα distances, model quality metrics, and a deposition ID for the final model. If restraint satisfaction is low or model quality metrics are poor, the claim of an improved model would need to be revised.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the biological claim of complex formation
+  - **Claim pointer** The authors claim that MHAP1 forms a stable complex with HDAC2 and MIER1, and that this complex is enzymatically competent.
+  - **Evidence pointer** Results section "Establishing C16orf87 as an HDAC1 and HDAC2 Interacting Protein"; Figure 1; Supplementary Figures S1; Supplementary Tables S1–S2
+  - **Concern** The evidence for complex formation is presented qualitatively. For the AP-MS data, the manuscript states that C16orf87 was "significantly enriched" with log2FC >2 and FDR <0.05, but does not report the magnitude of enrichment for the key interactions (HDAC2, MIER1) in the main text. The FRET data are described as showing "a significant increase in FRET efficiency compared to negative control," but the actual FRET efficiencies, number of cells analyzed, and statistical test used are not reported in the main text. The activity assay shows that HDAC2 co-purified with MHAP1 retains activity, but the quantitative values and the comparison to appropriate controls (e.g., HDAC2 alone) are not provided. The pulldown experiments (Figure 1E) are shown qualitatively without quantification in the main text.
+  - **Why it matters** The biological foundation of the paper rests on the claim that MHAP1 is a bona fide component of an HDAC2-containing complex. If the interaction evidence is not quantitatively robust, the subsequent structural modeling lacks a solid biological basis.
+  - **Resolution test** Report quantitative values for AP-MS enrichment (fold change and FDR for each key interaction), FRET efficiency (mean ± SD, n, p-value), activity assay values (with appropriate controls), and pulldown quantification (e.g., band intensities normalized to input). If the quantitative data are already in the supplementary tables, they should be summarized in the main text.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the approach
+  - **Claim pointer** The authors claim that the integrative approach "can be generalized to study other complexes" involving IDRs.
+  - **Evidence pointer** Discussion section; Abstract
+  - **Concern** The manuscript demonstrates the approach on a single complex. While the workflow is reasonable, the claim of generalizability is not supported by any additional examples or a discussion of potential limitations (e.g., cases where XL-MS data are sparse, where IDRs are too dynamic to yield sufficient crosslinks, or where homology models are unavailable). The authors also do not discuss how the approach would scale to larger complexes or whether the computational cost is prohibitive.
+  - **Why it matters** The broader impact of the paper depends on the extent to which the method can be adopted by others. A claim of generalizability requires at least a discussion of the conditions under which the approach is likely to succeed or fail.
+  - **Resolution test** Add a paragraph in the Discussion addressing the applicability and limitations of the approach, including the minimum number of XL-MS restraints needed, the sensitivity to model initialization, and potential failure modes. Alternatively, provide a second example (even a proof-of-concept on a simpler system) to demonstrate generalizability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison with AlphaFold predictions
+  - **Claim pointer** The authors claim that the AlphaFold-only model of the trimer is missing or incorrectly modeling the HDAC2 C-terminal domain, and that the integrative model corrects this.
+  - **Evidence pointer** Results section "Comparison of the 3D Models Generated by AlphaFold and Integrative Structural Modeling"; Figure 4; Supplementary Videos 1–2
+  - **Concern** The comparison between the AlphaFold and integrative models is described qualitatively. The manuscript states that the models "do not agree" and that the AlphaFold model has "unstructured" regions, but does not provide quantitative metrics of structural similarity (e.g., TM-score, RMSD over the ordered regions) or a per-residue comparison of predicted versus modeled secondary structure. The claim that the AlphaFold C-terminal domain is "missing" is not supported by a specific figure showing the AlphaFold prediction with the C-terminal domain absent or unstructured.
+  - **Why it matters** A key message of the paper is that AlphaFold alone is insufficient for this system. This claim requires a clear, quantitative demonstration of what AlphaFold fails to capture and how the integrative model improves upon it.
+  - **Resolution test** Provide a figure showing the AlphaFold-predicted trimer with the C-terminal domain highlighted, a quantitative comparison (e.g., TM-score or RMSD) between the AlphaFold and integrative models, and a per-residue confidence comparison (pLDDT vs. the integrative model's per-residue scores, if available).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of nomenclature
+  - **Affected element** Introduction and Results
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript uses "HDAC1:MIER2:MHAP1" in the Abstract but "HDAC2:MIER1:MHAP1" in the Results and Discussion. This inconsistency is confusing and could indicate an error.
+  - **Required correction** Verify the correct complex composition and use consistent nomenclature throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Figure 1
+  - **Evidence pointer** Figure 1C; Supplementary Table S2A
+  - **Issue** The FRET data are described as showing a "significant increase" but the statistical test, p-value, and effect size are not reported in the main text.
+  - **Required correction** Report the statistical details in the figure legend or main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** STAR Methods, "Protein Docking"
+  - **Evidence pointer** STAR Methods section
+  - **Issue** The description of the HADDOCK docking procedure is brief. It is unclear how many models were generated, how clusters were defined, and what the final cluster size and HADDOCK score were.
+  - **Required correction** Provide additional details on the docking parameters, cluster selection criteria, and final model scores.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** STAR Methods, "Crosslinking Mass Spectrometry and Data Analysis"
+  - **Evidence pointer** STAR Methods section
+  - **Issue** The mass spectrometry data are deposited in PeptideAtlas or MassIVE, but the specific accession numbers are only listed in Supplementary Table S5, which was not provided for review.
+  - **Required correction** Include the accession numbers in the main text or ensure they are prominently listed in the supplementary materials.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 4
+  - **Evidence pointer** Figure 4
+  - **Issue** The superimposition of the AlphaFold and integrative models (Figure 4A) is described but the figure itself is not available for review. The description suggests that the differences are visually apparent, but quantitative measures would strengthen the comparison.
+  - **Required correction** Add quantitative structural comparison metrics to the figure or legend.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of quantitative validation of the integrative model against XL-MS restraints (R1-M1). 2) Insufficient statistical reporting for the biological validation experiments (R1-M2). 3) Inconsistent nomenclature for the complex (R1-m1). 4) Incomplete description of the docking and model selection procedure (R1-m3). 5) No quantitative comparison between AlphaFold and integrative models (R1-M4).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its specific application of integrative modeling to the HDAC2:MIER1:MHAP1 complex and in the identification of a SAH domain in MHAP1. The general concept of combining XL-MS with computational modeling is not new, but the specific system and the focus on the HDAC2 C-terminal domain provide a novel contribution.
+  - **Scientific importance** The HDAC2 C-terminal domain is a functionally important but structurally uncharacterized region. The finding that it folds into α-helices and mediates complex formation has potential implications for understanding HDAC2 regulation and for drug design. The generalizable workflow is also of potential importance to the IDP community.
+  - **Interdisciplinary readership** The work bridges structural biology, proteomics, and computational biology. It will appeal to researchers in these fields, as well as to those in chromatin biology and epigenetics. The potential readership is broad but specialized.
+  - **Technical soundness** The technical soundness cannot be fully assessed from the provided materials. The biological validation experiments appear reasonable but lack quantitative detail. The modeling pipeline is plausible but lacks key validation metrics. The absence of supplementary data is a significant limitation.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The introduction provides sufficient background. However, the Results section assumes familiarity with structural modeling terminology (e.g., pLDDT, HADDOCK, I-TASSER) that may not be accessible to all readers. A brief explanation of these tools would improve readability.
+- **Recommendation posture** Supportive if technical concerns are resolved. The biological finding is potentially important and the approach is timely, but the manuscript in its current form does not provide sufficient evidence to fully establish the central claims. The authors should address the quantitative gaps in the validation of the integrative model and the biological interaction data before the case is convincing.
+
+## Risk / unsupported claims
+- The claim that the integrative model is more accurate than the AlphaFold model is not quantitatively supported (no restraint satisfaction metrics, no model quality scores, no structural comparison metrics).
+- The claim that the HDAC2 C-terminal domain folds into six α-helices in the trimeric complex is based on the integrative model but is not validated by any independent experimental method (e.g., circular dichroism, NMR, or mutagenesis).
+- The claim that MHAP1 contains a SAH domain is based on sequence analysis and the integrative model but is not experimentally validated.
+- The claim that the approach "can be generalized" is not supported by additional examples or a discussion of limitations.
+- The biological interaction data (AP-MS, FRET, pulldown) are described qualitatively in the main text; the quantitative values are only in supplementary tables that were not provided for review, making the strength of the interactions unassessable.

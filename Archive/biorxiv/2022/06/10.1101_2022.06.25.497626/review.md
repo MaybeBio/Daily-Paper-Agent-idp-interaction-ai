@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text and abstract
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the provided text; no external validation performed
+- **Shared manuscript claim summary** The authors use coarse-grained SOP-IDP simulations to show that pH change from neutral to acidic induces compaction of proTα, particularly in the E-region (E41-D80), increases β-sheet propensity in this region, and that conformations with high β-sheet content act as aggregation-prone N* states that nucleate dimer formation and potentially fibril formation.
+- **Visible evidence base** Abstract, main text sections (Kratky plots, compaction analysis, secondary structure analysis, N* ensemble characterization, dimer simulations, mechanism, conclusions), Materials and Methods summary, figure references (Figures 1-6, S1-S3)
+- **Missing materials affecting confidence** Full simulation parameters and energy function details (deferred to SI), complete figure data and statistical analyses, detailed methods for PCASSO application, quantitative comparison metrics for experimental validation, full trajectory analysis details
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question regarding pH-induced conformational changes in IDPs and their link to aggregation. The computational approach using SOP-IDP is appropriate and the authors provide a plausible mechanistic hypothesis. However, several technical aspects require clarification and the evidence for the central claim that N* states nucleate aggregation is indirect. The connection between simulated dimer formation and actual fibril formation remains speculative without more direct evidence or experimental validation.
+- **Who would be interested in the results, and why** Researchers studying IDP conformational ensembles, protein aggregation mechanisms, pH-dependent protein behavior, and computational biophysics. The findings could inform experimental design for studying proTα aggregation and potentially other acidic IDPs. The methodological approach may interest computational biologists working on coarse-grained models of IDPs.
+- **Major strengths** The study addresses a biologically relevant question with a well-established computational model. The authors provide a clear mechanistic hypothesis linking pH-induced compaction to aggregation propensity. The use of multiple analysis techniques (Kratky plots, scaling exponents, PCASSO, t-SNE) strengthens the characterization. The comparison with experimental SAXS data provides validation for the model.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "conformations with high β-sheet content act as aggregation-prone N* states" and that these states "form dimers readily" and "can be critical to nucleation in the early stages of aggregation."
+  - **Evidence pointer** Section "Ensemble of N* state conformations is heterogeneous" and "N* conformations readily form dimers at low pH", Figures 4 and 5
+  - **Concern** The definition of N* states relies solely on the presence of a single β-sheet residue in the E-region, which is an extremely permissive criterion. With β-sheet content of only 2-3% per residue, this criterion could classify a large fraction of conformations as N*. The authors do not provide the distribution of β-sheet content across the ensemble or demonstrate that N* states are statistically distinct from non-N* states. Furthermore, the dimer simulations show that only 68% of N*-initiated trajectories form dimers within 4.5 μs, and the interchain contact fraction oscillates between 0.4-1, suggesting transient rather than stable dimer formation. The claim that N* states "readily form dimers" is not strongly supported by these data.
+  - **Why it matters** The central mechanistic claim of the paper depends on the identification of N* states and their enhanced aggregation propensity. If the N* criterion is too broad or the dimer formation is not robust, the proposed mechanism loses its foundation.
+  - **Resolution test** Provide a quantitative comparison of β-sheet content distributions between N* and non-N* ensembles, demonstrate that the N* population is a distinct sub-ensemble, and show that dimer formation is statistically significant compared to control simulations with random initial conformations. Additionally, provide a more robust definition of dimer formation (e.g., stable contact persistence over time rather than instantaneous contact fraction).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the near quantitative agreement between the computed and experimental Kratky plots shows that the assumptions we made are reasonable and the SOP-IDP model captures the changes in the proTα conformational ensembles with the pH change from neutral to acidic."
+  - **Evidence pointer** Section "Kratky plots of proTα at neutral and acidic pH", Figure 1A
+  - **Concern** The authors claim "near quantitative agreement" but provide no quantitative metric for this comparison. The Kratky plot comparison appears qualitative, and the reported Rg values (38.3 Å vs 38 Å at neutral; 30.7 Å vs 28 Å at acidic) show a discrepancy of approximately 10% at acidic pH. The authors do not provide error bars, statistical measures of fit, or discuss whether this discrepancy is within acceptable limits for the model. The scaling exponent change from 0.6 to 0.5 is presented without uncertainty estimates.
+  - **Why it matters** The validation of the model against experimental data is crucial for establishing confidence in the simulation results. Without quantitative comparison metrics, the claim of agreement is not verifiable.
+  - **Resolution test** Provide quantitative measures of agreement (e.g., chi-squared statistics, RMSD between computed and experimental curves), include uncertainty estimates for Rg and scaling exponents, and discuss the significance of the 10% discrepancy at acidic pH.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "the region in the IDP with maximum compaction on pH change is critical to aggregation and forms the fibril core" and generalize this to "a class of IDPs, which aggregate on pH change from neutral to acidic."
+  - **Evidence pointer** Section "Conclusions"
+  - **Concern** This generalization is based on only one protein (proTα) and a comparison with α-synuclein from the literature. The authors do not provide a systematic analysis of multiple IDPs to support this claim. The statement that the E-region "can form the fibril core" is presented as a hypothesis but is not directly tested in this study. No experimental validation of the predicted fibril core is provided.
+  - **Why it matters** The broader significance of the work depends on the generality of the proposed mechanism. Without evidence from multiple systems or direct experimental validation, the generalization is speculative.
+  - **Resolution test** Either temper the generalization to be specific to proTα, provide additional simulations of other acidic IDPs, or clearly frame the generalization as a testable hypothesis requiring further validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The first sentence contains a typographical error: "neu-rodegenerative" should be "neurodegenerative".
+  - **Required correction** Correct the typographical error.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Section "Materials and Methods"
+  - **Issue** The methods section is incomplete, with detailed parameters deferred to SI. Key information such as simulation length, number of independent runs for monomer simulations, equilibration protocol, and convergence criteria is not provided in the main text.
+  - **Required correction** Provide at least a summary of key simulation parameters in the main text or ensure the SI contains all necessary details for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 5
+  - **Evidence pointer** Section "N* conformations readily form dimers at low pH", Figure 5
+  - **Issue** The authors report that dimerization was observed in 68% of trajectories with N* states, but do not report the corresponding percentage for non-N* states at acidic pH beyond stating that "dimerization was not observed in 87% of trajectories." This implies 13% of non-N* trajectories did form dimers, which is not discussed.
+  - **Required correction** Clarify the dimerization rate for non-N* states and discuss the significance of the 13% dimerization in this control condition.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction assumes familiarity with IDP terminology and aggregation concepts. A brief explanation of why IDP aggregation is relevant to disease and what N* states are would improve accessibility.
+  - **Required correction** Add a brief introductory explanation of IDP aggregation and N* states for nonspecialist readers.
+
+## Risk / unsupported claims
+- The claim that the E-region "can form the fibril core" is presented as a conclusion but is not directly tested; no experimental validation is provided.
+- The generalization of the proposed mechanism to "a class of IDPs" is not supported by the data presented, which only includes proTα and a literature comparison with α-synuclein.
+- The statement that N* states "readily form dimers" is based on a permissive N* definition and transient contact formation; the robustness of this claim is questionable.
+- The claim of "near quantitative agreement" with experimental Kratky plots is not supported by quantitative metrics.
+- The assertion that "the dominant fraction of the aggregation-prone N* conformations at low pH are compact" is based on t-SNE clustering but the relationship between cluster identity and compaction is not rigorously quantified.
+- The proposed mechanism of fibril formation (Figure 6) is speculative and not directly tested in the simulations.

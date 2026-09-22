@@ -175,7 +175,7 @@
   },
   "metadata": {
     "entrez_date": "2026/09/11 17:36",
-    "fetched_at": "2026-09-14 15:56:33"
+    "fetched_at": "2026-09-18 06:22:09"
   },
   "links": {
     "cites": [],
@@ -308,7 +308,7 @@
         "linkname": ""
       },
       {
-        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FHL1-1",
         "provider": "NCI CPTC Antibody Characterization Program",
         "category": "Research Materials",
         "attribute": "free resource",

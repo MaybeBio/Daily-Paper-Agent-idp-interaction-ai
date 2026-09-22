@@ -1,0 +1,369 @@
+{
+  "identity": {
+    "pmid": "38903189",
+    "doi": "10.3389/fbioe.2024.1391957",
+    "title": "Comparative FEM study on intervertebral disc modeling: Holzapfel-Gasser-Ogden vs. structural rebars."
+  },
+  "content": {
+    "abstract": "Introduction: Numerical modeling of the intervertebral disc (IVD) is challenging due to its complex and heterogeneous structure, requiring careful selection of constitutive models and material properties. A critical aspect of such modeling is the representation of annulus fibers, which significantly impact IVD biomechanics. This study presents a comparative analysis of different methods for fiber reinforcement in the annulus fibrosus of a finite element (FE) model of the human IVD. Methods: We utilized a reconstructed L4-L5 IVD geometry to compare three fiber modeling approaches: the anisotropic Holzapfel-Gasser-Ogden (HGO) model (HGO fiber model) and two sets of structural rebar elements with linear-elastic (linear rebar model) and hyperelastic (nonlinear rebar model) material definitions, respectively. Prior to calibration, we conducted a sensitivity analysis to identify the most important model parameters to be calibrated and improve the efficiency of the calibration. Calibration was performed using a genetic algorithm and in vitro range of motion (RoM) data from a published study with eight specimens tested under four loading scenarios. For validation, intradiscal pressure (IDP) measurements from the same study were used, along with additional RoM data from a separate publication involving five specimens subjected to four different loading conditions. Results: The sensitivity analysis revealed that most parameters, except for the Poisson ratio of the annulus fibers and C(01) from the nucleus, significantly affected the RoM and IDP outcomes. Upon calibration, the HGO fiber model demonstrated the highest accuracy (R(2) = 0.95), followed by the linear (R(2) = 0.89) and nonlinear rebar models (R(2) = 0.87). During the validation phase, the HGO fiber model maintained its high accuracy (RoM R(2) = 0.85; IDP R(2) = 0.87), while the linear and nonlinear rebar models had lower validation scores (RoM R(2) = 0.71 and 0.69; IDP R(2) = 0.86 and 0.8, respectively). Discussion: The results of the study demonstrate a successful calibration process that established good agreement with experimental data. Based on our findings, the HGO fiber model appears to be a more suitable option for accurate IVD FE modeling considering its higher fidelity in simulation results and computational efficiency.",
+    "keywords": [
+      "calibration",
+      "fiber reinforcement",
+      "finite element method",
+      "intervertebral disc",
+      "sensitivity analysis",
+      "spine",
+      "validation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gruber, Gabriel",
+        "Nicolini, Luis Fernando",
+        "Ribeiro, Marx",
+        "Lerchl, Tanja",
+        "Wilke, Hans-Joachim",
+        "Jaramillo, Hector Enrique",
+        "Senner, Veit",
+        "Kirschke, Jan S",
+        "Nispel, Kati"
+      ],
+      "short_names": [
+        "Gruber G",
+        "Nicolini LF",
+        "Ribeiro M",
+        "Lerchl T",
+        "Wilke HJ",
+        "Jaramillo HE",
+        "Senner V",
+        "Kirschke JS",
+        "Nispel K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Diagnostic and Interventional Neuroradiology, School of Medicine and Health, Klinikum rechts der Isar, Technical University of Munich, Munich, Germany.",
+        "Department of Mechanical Engineering, Federal University of Santa Maria, Av. Santa Maria, Brazil.",
+        "Department for Orthopedics, Trauma and Reconstructive Surgery, University Hospital RWTH Aachen, Aachen, Germany.",
+        "Department of Mechanical Engineering, Federal University of Santa Catarina, Florianopolis, Brazil.",
+        "Department of Diagnostic and Interventional Neuroradiology, School of Medicine and Health, Klinikum rechts der Isar, Technical University of Munich, Munich, Germany.",
+        "Associate Professorship of Sport Equipment and Sport Materials, School of Engineering and Design, Technical University of Munich, Garching, Germany.",
+        "Institute of Orthopaedic Research and Biomechanics, Trauma Research Centre Ulm, University of Ulm, Ulm, Germany.",
+        "Department of Mechanical Engineering, Autonoma de Occidente University, Cali, Colombia.",
+        "Associate Professorship of Sport Equipment and Sport Materials, School of Engineering and Design, Technical University of Munich, Garching, Germany.",
+        "Department of Diagnostic and Interventional Neuroradiology, School of Medicine and Health, Klinikum rechts der Isar, Technical University of Munich, Munich, Germany.",
+        "Department of Diagnostic and Interventional Neuroradiology, School of Medicine and Health, Klinikum rechts der Isar, Technical University of Munich, Munich, Germany.",
+        "Associate Professorship of Sport Equipment and Sport Materials, School of Engineering and Design, Technical University of Munich, Garching, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gruber, Gabriel",
+        "short_name": "Gruber G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic and Interventional Neuroradiology, School of Medicine and Health, Klinikum rechts der Isar, Technical University of Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Nicolini, Luis Fernando",
+        "short_name": "Nicolini LF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical Engineering, Federal University of Santa Maria, Av. Santa Maria, Brazil."
+        ]
+      },
+      {
+        "full_name": "Ribeiro, Marx",
+        "short_name": "Ribeiro M",
+        "identifiers": [],
+        "affiliations": [
+          "Department for Orthopedics, Trauma and Reconstructive Surgery, University Hospital RWTH Aachen, Aachen, Germany.",
+          "Department of Mechanical Engineering, Federal University of Santa Catarina, Florianópolis, Brazil."
+        ]
+      },
+      {
+        "full_name": "Lerchl, Tanja",
+        "short_name": "Lerchl T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic and Interventional Neuroradiology, School of Medicine and Health, Klinikum rechts der Isar, Technical University of Munich, Munich, Germany.",
+          "Associate Professorship of Sport Equipment and Sport Materials, School of Engineering and Design, Technical University of Munich, Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Wilke, Hans-Joachim",
+        "short_name": "Wilke HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Orthopaedic Research and Biomechanics, Trauma Research Centre Ulm, University of Ulm, Ulm, Germany."
+        ]
+      },
+      {
+        "full_name": "Jaramillo, Héctor Enrique",
+        "short_name": "Jaramillo HE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical Engineering, Autonoma de Occidente University, Cali, Colombia."
+        ]
+      },
+      {
+        "full_name": "Senner, Veit",
+        "short_name": "Senner V",
+        "identifiers": [],
+        "affiliations": [
+          "Associate Professorship of Sport Equipment and Sport Materials, School of Engineering and Design, Technical University of Munich, Garching, Germany."
+        ]
+      },
+      {
+        "full_name": "Kirschke, Jan S",
+        "short_name": "Kirschke JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic and Interventional Neuroradiology, School of Medicine and Health, Klinikum rechts der Isar, Technical University of Munich, Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Nispel, Kati",
+        "short_name": "Nispel K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Diagnostic and Interventional Neuroradiology, School of Medicine and Health, Klinikum rechts der Isar, Technical University of Munich, Munich, Germany.",
+          "Associate Professorship of Sport Equipment and Sport Materials, School of Engineering and Design, Technical University of Munich, Garching, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioengineering and biotechnology"
+    ],
+    "journal_abbrev": [
+      "Front Bioeng Biotechnol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/21 06:41",
+    "fetched_at": "2026-09-21 08:00:23"
+  },
+  "links": {
+    "cites": [
+      "42378214",
+      "41749773",
+      "40785023",
+      "40454657",
+      "40160481",
+      "39830685",
+      "39473927"
+    ],
+    "refs": [
+      "36068039",
+      "34449646",
+      "34252706",
+      "34222211",
+      "34121532",
+      "32986570",
+      "32476282",
+      "31792641",
+      "31767286",
+      "31326631",
+      "30646556",
+      "30396284",
+      "29298959",
+      "28733922",
+      "28010945",
+      "27017302",
+      "26415632",
+      "26409082",
+      "26090359",
+      "25717471",
+      "24767702",
+      "24665116",
+      "24529470",
+      "23930818",
+      "22842275",
+      "22436639",
+      "22224724",
+      "21783132",
+      "21748426",
+      "21523456",
+      "21311928",
+      "21289568",
+      "21229413",
+      "20952242",
+      "20532944",
+      "20361341",
+      "20353258",
+      "20186441",
+      "19909959",
+      "19121822",
+      "18499316",
+      "17943481",
+      "17257603",
+      "17204355",
+      "16712856",
+      "16524582",
+      "16439042",
+      "16426979",
+      "16198356",
+      "15800435",
+      "15778871",
+      "8658249",
+      "7846593",
+      "3824069",
+      "2632144",
+      "2363068"
+    ],
+    "similar": [
+      "38903189",
+      "26090359",
+      "34252706",
+      "28582905",
+      "36380845",
+      "24998992",
+      "32476282",
+      "34793958",
+      "22070332",
+      "37668078",
+      "33453409",
+      "34121532",
+      "31326631",
+      "30074099",
+      "32643308",
+      "33248365",
+      "28733037",
+      "37583909",
+      "16439042",
+      "35891924",
+      "33901222",
+      "36815687",
+      "30347039",
+      "36068039",
+      "36478033",
+      "22094033",
+      "37487934",
+      "31568880",
+      "31956529",
+      "34838701",
+      "37650042",
+      "31513702",
+      "24818795",
+      "37797841",
+      "23637671",
+      "31035068",
+      "34164388",
+      "36218332",
+      "32535739",
+      "31727375",
+      "34389025",
+      "36582835",
+      "29507433",
+      "32321632",
+      "32174428",
+      "33453608",
+      "36068588",
+      "22224724",
+      "25104546",
+      "38915337",
+      "29065672",
+      "12365788",
+      "38070844",
+      "12661192",
+      "32626699",
+      "26101030",
+      "37499432",
+      "34340051",
+      "36234026",
+      "32462554",
+      "18258345",
+      "23507531",
+      "34298452",
+      "32061252",
+      "33639778",
+      "37773639",
+      "32882679",
+      "36634387",
+      "31415944",
+      "32333186",
+      "23083194",
+      "26415632",
+      "29397111",
+      "28532164",
+      "30083805",
+      "23924518",
+      "32463324",
+      "28934161",
+      "34012180",
+      "36239382",
+      "30029245",
+      "28943155",
+      "37376375",
+      "17887888",
+      "36842775",
+      "33794848",
+      "30980210",
+      "35293827",
+      "21748426",
+      "20229171",
+      "33111576",
+      "23043866",
+      "31606816",
+      "38233311",
+      "24671515",
+      "38244146",
+      "24981720",
+      "28549604",
+      "21783119",
+      "37235184",
+      "39414653",
+      "36418389"
+    ],
+    "review": [
+      "38903189"
+    ],
+    "pmc": [
+      "11188472"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38903189/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38903189",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbioe.2024.1391957",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38903189",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

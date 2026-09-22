@@ -1,0 +1,455 @@
+{
+  "identity": {
+    "pmid": "37246935",
+    "doi": "10.1021/acs.jcim.3c00414",
+    "title": "SEVI Inhibits Abeta Amyloid Aggregation by Capping the beta-Sheet Elongation Edges."
+  },
+  "content": {
+    "abstract": "Inhibiting the aggregation of amyloid peptides with endogenous peptides has broad interest due to their intrinsically high biocompatibility and low immunogenicity. Here, we investigated the inhibition mechanism of the prostatic acidic phosphatase fragment SEVI (semen-derived enhancer of viral infection) against Abeta42 fibrillization using atomistic discrete molecular dynamic simulations. Our result revealed that SEVI was intrinsically disordered with dynamic formation of residual helices. With a high positive net charge, the self-aggregation tendency of SEVI was weak. Abeta42 had a strong aggregation propensity by readily self-assembling into beta-sheet-rich aggregates. SEVI preferred to interact with Abeta42, rather than SEVI themselves. In the heteroaggregates, Abeta42 mainly adopted beta-sheets buried inside and capped by SEVI in the outer layer. SEVI could bind to various Abeta aggregation species horizontal line including monomers, dimers, and proto-fibrils horizontal line by capping the exposed beta-sheet elongation edges. The aggregation processes Abeta42 from the formation of oligomers to conformational nucleation into fibrils and fibril growth should be inhibited as their beta-sheet elongation edges are being occupied by the highly charged SEVI. Overall, our computational study uncovered the molecular mechanism of experimentally observed inhibition of SEVI against Abeta42 aggregation, providing novel insights into the development of therapeutic strategies against Alzheimer's disease.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Protein Conformation, beta-Strand",
+      "*Amyloid/chemistry",
+      "Peptides",
+      "Amyloidogenic Proteins",
+      "*Alzheimer Disease/metabolism",
+      "Protein Structure, Secondary",
+      "Amyloid beta-Peptides/chemistry",
+      "Peptide Fragments/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ying",
+        "Xu, Jia",
+        "Huang, Fengjuan",
+        "Yan, Jiajia",
+        "Fan, Xinjie",
+        "Zou, Yu",
+        "Wang, Chuang",
+        "Ding, Feng",
+        "Sun, Yunxiang"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Xu J",
+        "Huang F",
+        "Yan J",
+        "Fan X",
+        "Zou Y",
+        "Wang C",
+        "Ding F",
+        "Sun Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5699-5869",
+        "ORCID: 0000-0002-3816-230X",
+        "ORCID: 0000-0003-1850-6336",
+        "ORCID: 0000-0001-9799-7131"
+      ],
+      "affiliations": [
+        "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+        "Ningbo Institute of Innovation for Combined Medicine and Engineering (NIIME), Ningbo Medical Center Lihuili Hospital, Ningbo 315211, China.",
+        "School of Medicine, Ningbo University, Ningbo 315211, China.",
+        "Ningbo Institute of Innovation for Combined Medicine and Engineering (NIIME), Ningbo Medical Center Lihuili Hospital, Ningbo 315211, China.",
+        "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+        "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+        "Department of Sport and Exercise Science, Zhejiang University, Hangzhou 310058, China.",
+        "School of Medicine, Ningbo University, Ningbo 315211, China.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States.",
+        "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+        "Ningbo Institute of Innovation for Combined Medicine and Engineering (NIIME), Ningbo Medical Center Lihuili Hospital, Ningbo 315211, China.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+          "Ningbo Institute of Innovation for Combined Medicine and Engineering (NIIME), Ningbo Medical Center Lihuili Hospital, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jia",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Fengjuan",
+        "short_name": "Huang F",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Institute of Innovation for Combined Medicine and Engineering (NIIME), Ningbo Medical Center Lihuili Hospital, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Jiajia",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Xinjie",
+        "short_name": "Fan X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Yu",
+        "short_name": "Zou Y",
+        "identifiers": [
+          "0000-0001-5699-5869"
+        ],
+        "affiliations": [
+          "Department of Sport and Exercise Science, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chuang",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0000-0002-3816-230X"
+        ],
+        "affiliations": [
+          "School of Medicine, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Feng",
+        "short_name": "Ding F",
+        "identifiers": [
+          "0000-0003-1850-6336"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+        ]
+      },
+      {
+        "full_name": "Sun, Yunxiang",
+        "short_name": "Sun Y",
+        "identifiers": [
+          "0000-0001-9799-7131"
+        ],
+        "affiliations": [
+          "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+          "Ningbo Institute of Innovation for Combined Medicine and Engineering (NIIME), Ningbo Medical Center Lihuili Hospital, Ningbo 315211, China.",
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2023 Jun 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/29 13:05",
+    "fetched_at": "2026-09-20 22:28:49"
+  },
+  "links": {
+    "cites": [
+      "40853068",
+      "39778221",
+      "39761900",
+      "39382320",
+      "39226847",
+      "39073874",
+      "38921060",
+      "38321243",
+      "38271485",
+      "38164981",
+      "37964757",
+      "37782573"
+    ],
+    "refs": [
+      "36302506",
+      "36278939",
+      "36153964",
+      "36098068",
+      "36008417",
+      "35513705",
+      "35025654",
+      "34687758",
+      "34472835",
+      "34276942",
+      "33991558",
+      "33961416",
+      "33936250",
+      "33543942",
+      "33119314",
+      "33004626",
+      "32959853",
+      "32778792",
+      "31695851",
+      "31683043",
+      "31421408",
+      "31245536",
+      "31188372",
+      "31183916",
+      "31170426",
+      "30716371",
+      "30502402",
+      "30350837",
+      "30237470",
+      "29988049",
+      "29490247",
+      "29404817",
+      "29210123",
+      "28882996",
+      "28702523",
+      "28695211",
+      "28691099",
+      "28586203",
+      "28157327",
+      "27934893",
+      "27620620",
+      "27213520",
+      "27091578",
+      "26763863",
+      "26589055",
+      "26458046",
+      "25371168",
+      "24987794",
+      "24737040",
+      "24711386",
+      "23925979",
+      "23811057",
+      "23215256",
+      "23089868",
+      "22393064",
+      "22354963",
+      "22286176",
+      "22280505",
+      "21780295",
+      "21677644",
+      "21283773",
+      "21262195",
+      "21112305",
+      "20385841",
+      "19995078",
+      "19902966",
+      "19883590",
+      "19706468",
+      "19564620",
+      "19165839",
+      "19015532",
+      "18672869",
+      "18611374",
+      "18511942",
+      "18083097",
+      "17538626",
+      "17046788",
+      "16444756",
+      "16343694",
+      "15533443",
+      "15059976",
+      "12646572",
+      "10753811",
+      "6667333"
+    ],
+    "similar": [
+      "37246935",
+      "33119314",
+      "35876740",
+      "36069400",
+      "33024142",
+      "35041853",
+      "27091578",
+      "26827680",
+      "32427336",
+      "33573350",
+      "38921060",
+      "37549471",
+      "36342244",
+      "30793584",
+      "38109787",
+      "23259691",
+      "36456917",
+      "28427941",
+      "23507280",
+      "10583407",
+      "31162715",
+      "20946608",
+      "38271485",
+      "37126408",
+      "29493036",
+      "25281743",
+      "15459202",
+      "19595795",
+      "37306611",
+      "31771980",
+      "36291126",
+      "16079141",
+      "36310194",
+      "32732434",
+      "25330398",
+      "35080857",
+      "18537541",
+      "29508987",
+      "21290543",
+      "35905824",
+      "37186848",
+      "31710458",
+      "36982248",
+      "26084577",
+      "35568004",
+      "23703910",
+      "28162045",
+      "34152264",
+      "36179370",
+      "30821624",
+      "24368046",
+      "28406293",
+      "28976547",
+      "24948476",
+      "36368353",
+      "37782573",
+      "28881033",
+      "21832091",
+      "18694930",
+      "33337368",
+      "22860190",
+      "20050679",
+      "28207276",
+      "21668291",
+      "32794732",
+      "37964757",
+      "23421682",
+      "21486030",
+      "28584111",
+      "32061932",
+      "37390790",
+      "29379133",
+      "31566950",
+      "38811408",
+      "29953467",
+      "32235842",
+      "23904252",
+      "35778843",
+      "26535489",
+      "33289734",
+      "32031066",
+      "38809059",
+      "25029558",
+      "29900443",
+      "34687758",
+      "33862455",
+      "37040092",
+      "35580288",
+      "25700145",
+      "37307445",
+      "17653279",
+      "30722990",
+      "12023906",
+      "26069943",
+      "26097047",
+      "27602722",
+      "37228136",
+      "38438446",
+      "31474736",
+      "30787102",
+      "12944403",
+      "29963623",
+      "35458686",
+      "34582216",
+      "37253119",
+      "35513705",
+      "39226847",
+      "35344326",
+      "36197009",
+      "37023330",
+      "26815332",
+      "38503834",
+      "36416010",
+      "37414583",
+      "38235697",
+      "38126710",
+      "39022923",
+      "36411082",
+      "39159070",
+      "35649268",
+      "39361095",
+      "37170496",
+      "34128680",
+      "38849109",
+      "39282376",
+      "36203800",
+      "26923710",
+      "39024903"
+    ],
+    "review": [
+      "37246935",
+      "29493036",
+      "18537541",
+      "29508987",
+      "24368046",
+      "35458686",
+      "36416010"
+    ],
+    "pmc": [
+      "10363411"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37246935/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37246935",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.3c00414",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

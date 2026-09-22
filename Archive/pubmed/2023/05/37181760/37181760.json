@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "37181760",
+    "doi": "10.1039/d2sc03838b",
+    "title": "Designing negative feedback loops in enzymatic coacervate droplets."
+  },
+  "content": {
+    "abstract": "Membraneless organelles within the living cell use phase separation of biomolecules coupled with enzymatic reactions to regulate cellular processes. The diverse functions of these biomolecular condensates motivate the pursuit of simpler in vitro models that exhibit primitive forms of self-regulation based on internal feedback mechanisms. Here, we investigate one such model based on complex coacervation of the enzyme catalase with an oppositely charge polyelectrolyte DEAE-dextran to form pH-responsive catalytic droplets. Upon addition of hydrogen peroxide \"fuel\", enzyme activity localized within the droplets causes a rapid increase in the pH. Under appropriate conditions, this reaction-induced pH change triggers coacervate dissolution owing to its pH-responsive phase behavior. Notably, this destabilizing effect of the enzymatic reaction on phase separation depends on droplet size owing to the diffusive delivery and removal of reaction components. Reaction-diffusion models informed by the experimental data show that larger drops support larger changes in the local pH thereby enhancing their dissolution relative to smaller droplets. Together, these results provide a basis for achieving droplet size control based on negative feedback between pH-dependent phase separation and pH-changing enzymatic reactions.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Modi, Nisha",
+        "Chen, Siwei",
+        "Adjei, Imelda N A",
+        "Franco, Briana L",
+        "Bishop, Kyle J M",
+        "Obermeyer, Allie C"
+      ],
+      "short_names": [
+        "Modi N",
+        "Chen S",
+        "Adjei INA",
+        "Franco BL",
+        "Bishop KJM",
+        "Obermeyer AC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8332-6078",
+        "ORCID: 0000-0002-2509-4299",
+        "ORCID: 0000-0002-7467-3668",
+        "ORCID: 0000-0003-2412-2021"
+      ],
+      "affiliations": [
+        "Department of Chemical Engineering, Columbia University New York USA kyle.bishop@columbia.edu aco2134@columbia.edu.",
+        "Department of Chemical Engineering, Columbia University New York USA kyle.bishop@columbia.edu aco2134@columbia.edu.",
+        "Department of Biomedical Engineering, Columbia University New York USA.",
+        "Department of Chemical Engineering, Columbia University New York USA kyle.bishop@columbia.edu aco2134@columbia.edu.",
+        "Department of Chemical Engineering, Columbia University New York USA kyle.bishop@columbia.edu aco2134@columbia.edu.",
+        "Department of Chemical Engineering, Columbia University New York USA kyle.bishop@columbia.edu aco2134@columbia.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Modi, Nisha",
+        "short_name": "Modi N",
+        "identifiers": [
+          "0000-0002-8332-6078"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, Columbia University New York USA kyle.bishop@columbia.edu aco2134@columbia.edu."
+        ]
+      },
+      {
+        "full_name": "Chen, Siwei",
+        "short_name": "Chen S",
+        "identifiers": [
+          "0000-0002-2509-4299"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, Columbia University New York USA kyle.bishop@columbia.edu aco2134@columbia.edu."
+        ]
+      },
+      {
+        "full_name": "Adjei, Imelda N A",
+        "short_name": "Adjei INA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Columbia University New York USA."
+        ]
+      },
+      {
+        "full_name": "Franco, Briana L",
+        "short_name": "Franco BL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, Columbia University New York USA kyle.bishop@columbia.edu aco2134@columbia.edu."
+        ]
+      },
+      {
+        "full_name": "Bishop, Kyle J M",
+        "short_name": "Bishop KJM",
+        "identifiers": [
+          "0000-0002-7467-3668"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, Columbia University New York USA kyle.bishop@columbia.edu aco2134@columbia.edu."
+        ]
+      },
+      {
+        "full_name": "Obermeyer, Allie C",
+        "short_name": "Obermeyer AC",
+        "identifiers": [
+          "0000-0003-2412-2021"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, Columbia University New York USA kyle.bishop@columbia.edu aco2134@columbia.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2023 May 10",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/14 19:13",
+    "fetched_at": "2026-09-20 21:51:42"
+  },
+  "links": {
+    "cites": [
+      "42529597",
+      "41667852",
+      "41613751",
+      "41580903",
+      "41318935",
+      "40916479",
+      "40127264",
+      "40084439",
+      "39954260",
+      "39655501",
+      "39588807"
+    ],
+    "refs": [
+      "34772787",
+      "34725341",
+      "34474085",
+      "34186016",
+      "34164043",
+      "34155210",
+      "34151335",
+      "34049872",
+      "33333019",
+      "33169001",
+      "33056997",
+      "32929202",
+      "32922586",
+      "32744309",
+      "32239914",
+      "31995710",
+      "31974256",
+      "31943629",
+      "31928844",
+      "31792412",
+      "31753533",
+      "31435012",
+      "31001538",
+      "30951647",
+      "30916112",
+      "30682370",
+      "30045872",
+      "29569441",
+      "29210575",
+      "28556382",
+      "27599198",
+      "26965053",
+      "26844692",
+      "26791895",
+      "25535836",
+      "24979791",
+      "21860462",
+      "14938361",
+      "13259645",
+      "4682891"
+    ],
+    "similar": [
+      "37181760",
+      "34164043",
+      "30179001",
+      "35792669",
+      "33453932",
+      "38968602",
+      "31943629",
+      "34856104",
+      "29199758",
+      "33056997",
+      "35657164",
+      "33453931",
+      "37549224",
+      "36594499",
+      "37462244",
+      "37984848",
+      "34155210",
+      "35773489",
+      "31004960",
+      "34186016",
+      "32584581",
+      "39066731",
+      "34664748",
+      "31001538",
+      "36067054",
+      "30703324",
+      "34328340",
+      "33750125",
+      "37350455",
+      "23912807",
+      "32239914",
+      "18851071",
+      "32601183",
+      "30996987",
+      "31063381",
+      "15244462",
+      "37707425",
+      "34877509",
+      "35551426",
+      "36686257",
+      "36625520",
+      "39232074",
+      "39119638",
+      "16827592",
+      "29231947",
+      "29265152",
+      "29689157",
+      "38620052",
+      "38724503",
+      "36327740",
+      "29210575",
+      "16553461",
+      "27599198",
+      "19947624",
+      "21413681",
+      "32261908",
+      "32800925",
+      "34755724",
+      "20814445",
+      "26965053",
+      "30194374",
+      "31408263",
+      "34636323",
+      "37039565",
+      "36595668",
+      "36444977",
+      "34123122",
+      "35656128",
+      "30384692",
+      "37291907",
+      "36279601",
+      "34045455",
+      "32422749",
+      "31783713",
+      "36219462",
+      "31188388",
+      "26791895",
+      "32119509",
+      "9145386",
+      "30996302",
+      "8558381",
+      "35176203",
+      "33373232",
+      "37253064",
+      "32194074",
+      "35865903",
+      "32945817",
+      "34314106",
+      "32852935",
+      "31418555",
+      "39073969",
+      "37907095"
+    ],
+    "review": [
+      "37181760",
+      "37462244",
+      "31001538",
+      "36686257",
+      "36625520",
+      "32800925",
+      "36279601",
+      "36219462",
+      "32194074"
+    ],
+    "pmc": [
+      "10171067"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37181760/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d2sc03838b",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37181760",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

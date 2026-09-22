@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2102.03687v2",
+  "title": "A Simple Explicit-Solvent Model of Polyampholyte Phase Behaviors and its Ramifications for Dielectric Effects in Biomolecular Condensates",
+  "authors": "Jonas Wessén; Tanmoy Pal; Suman Das; Yi-Hsuan Lin; Hue Sun Chan",
+  "journal": "J. Phys. Chem. B 125, 4337-4358 (2021)",
+  "published_date": "2021-02-06",
+  "window": {
+    "start": "2021-02-01",
+    "end": "2021-02-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用显式溶剂多链模型与场论模拟研究多聚两性电解质（无序蛋白模型）的相分离行为，揭示LLPS介电异质性对凝聚体PPI静电作用的补偿机制，对象、互作机制与方法三者齐备且具机制深度。",
+  "abstract": "Biomolecular condensates such as membraneless organelles, underpinned by liquid-liquid phase separation (LLPS), are important for physiological function, with electrostatics -- among other interaction types -- being a prominent force in their assembly. Charge interactions of intrinsically disordered proteins (IDPs) and other biomolecules are sensitive to the aqueous dielectric environment. Because the relative permittivity of protein is significantly lower than that of water, the interior of an IDP condensate is a relatively low-dielectric regime, which, aside from its possible functional effects on client molecules, should facilitate stronger electrostatic interactions among the scaffold IDPs. To gain insight into this LLPS-induced dielectric heterogeneity, addressing in particular whether a low-dielectric condensed phase entails more favorable LLPS than that posited by assuming IDP electrostatic interactions are uniformly modulated by the higher dielectric constant of the pure solvent, we consider a simplified multiple-chain model of polyampholytes immersed in explicit solvents that are either polarizable or possess a permanent dipole. Notably, simulated phase behaviors of these systems exhibit only minor to moderate differences from those obtained using implicit-solvent models with a uniform relative permittivity equals to that of pure solvent. Buttressed by theoretical treatments developed here using random phase approximation and polymer field-theoretic simulations, these observations indicate a partial compensation of effects between favorable solvent-mediated interactions among the polyampholytes in the condensed phase and favorable polyampholyte-solvent interactions in the dilute phase, often netting only a minor enhancement of overall LLPS propensity from the very dielectric heterogeneity that arises from the LLPS itself. Further ramifications of this principle are discussed.",
+  "abstract_zh": "生物分子凝聚体，如无膜细胞器，以液-液相分离（liquid-liquid phase separation, LLPS）为基础，对生理功能至关重要，其中静电相互作用——在其他相互作用类型中——是其组装中的主要驱动力。 intrinsically disordered proteins (IDPs) 及其他生物分子的电荷相互作用对水相介电环境敏感。由于蛋白质的相对介电常数显著低于水，IDP凝聚体内部是一个相对低介电区域，这除了可能对客户分子产生功能效应外，还应促进支架IDP之间更强的静电相互作用。为深入理解这种由LLPS诱导的介电异质性，特别关注低介电凝聚相是否比假设IDP静电相互作用由纯溶剂较高介电常数均匀调节时更有利于LLPS，我们考虑了一个简化的多链模型，其中聚两性电解质浸没在显式溶剂中，这些溶剂要么可极化，要么具有永久偶极。值得注意的是，这些系统的模拟相行为与使用均匀相对介电常数等于纯溶剂的隐式溶剂模型所得结果相比，仅表现出轻微至中等的差异。通过本文开发的随机相位近似和聚合物场论模拟的理论处理支持，这些观察表明，凝聚相中聚两性电解质间有利的溶剂介导相互作用与稀释相中有利的聚两性电解质-溶剂相互作用之间存在部分补偿效应，通常仅导致由LLPS本身产生的介电异质性对整体LLPS倾向的轻微增强。进一步讨论了这一原理的其他影响。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2102.03687v2",
+  "source_url": "https://arxiv.org/abs/2102.03687v2",
+  "paper_page_path": "papers/arxiv/2102.03687v2/index.html"
+}

@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "pmid": "34240882",
+    "doi": "10.1021/acs.jpcb.1c03964",
+    "title": "Mechanistic Insights on ATP's Role as a Hydrotrope."
+  },
+  "content": {
+    "abstract": "Hydrotropes are the small amphiphilic molecules which help in solubilizing hydrophobic entities in an aqueous medium. Recent experimental investigation has provided convincing evidence that adenosine triphosphate (ATP), besides being the energy currency of cell, also can act as a hydrotrope to inhibit the formation of protein condensates. In this work, we have designed computer simulations of prototypical macromolecules in aqueous ATP solution to dissect the molecular mechanism underlying ATP's newly discovered role as a hydrotrope. The simulation demonstrates that ATP can unfold a single chain of hydrophobic macromolecule as well as can disrupt the aggregation process of a hydrophobic assembly. Moreover, the introduction of charges in the macromolecule is found to reinforce ATP's disaggregation effects in a synergistic fashion, a behavior reminiscent of recent experimental observation of pronounced hydrotropic action of ATP in intrinsically disordered proteins. Molecular analysis indicates that this newfound ability of ATP is ingrained in its propensity of preferential binding to the polymer surface, which gets fortified in the presence of charges. The investigation also renders evidence that the key to the ATP's superior hydrotropic role over chemical hydrotropes (sodium xylene sulfonate, NaXS) may lie in its inherent self-aggregation propensity. Overall, via employing a bottom-up approach, the current investigation provides fresh mechanistic insights into the dual solubilizing and denaturing abilities of ATP.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adenosine Triphosphate",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Ions",
+      "*Polymers",
+      "*Water"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sarkar, Susmita",
+        "Mondal, Jagannath"
+      ],
+      "short_names": [
+        "Sarkar S",
+        "Mondal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1090-5199"
+      ],
+      "affiliations": [
+        "Center for Interdisciplinary Sciences, Tata Institute of Fundamental Research, Hyderabad 500046, India.",
+        "Center for Interdisciplinary Sciences, Tata Institute of Fundamental Research, Hyderabad 500046, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sarkar, Susmita",
+        "short_name": "Sarkar S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Interdisciplinary Sciences, Tata Institute of Fundamental Research, Hyderabad 500046, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Jagannath",
+        "short_name": "Mondal J",
+        "identifiers": [
+          "0000-0003-1090-5199"
+        ],
+        "affiliations": [
+          "Center for Interdisciplinary Sciences, Tata Institute of Fundamental Research, Hyderabad 500046, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2021 Jul 22",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/10 06:00",
+    "fetched_at": "2026-09-20 04:11:51"
+  },
+  "links": {
+    "cites": [
+      "41763418",
+      "41318811",
+      "41056468",
+      "39684527",
+      "39475790",
+      "37772172",
+      "37575958",
+      "36103543",
+      "35379800",
+      "34573116"
+    ],
+    "refs": [],
+    "similar": [
+      "34240882",
+      "39361827",
+      "25602712",
+      "36251789",
+      "26684411",
+      "28522535",
+      "21352878",
+      "31669043",
+      "37458354",
+      "34622264",
+      "33853331",
+      "26982198",
+      "37736631",
+      "11017728",
+      "23236952",
+      "28900640",
+      "28530396",
+      "15779937",
+      "24594032",
+      "16008386",
+      "24640493",
+      "8963948",
+      "24189644",
+      "34338526",
+      "20112429",
+      "25144510",
+      "35294517",
+      "36653942",
+      "22568748",
+      "15072791",
+      "34805708",
+      "17716879",
+      "19366609",
+      "15588894",
+      "37656203",
+      "25712807",
+      "31539258",
+      "27031284",
+      "36571860",
+      "28825492",
+      "3380863",
+      "16166157",
+      "29901998",
+      "20607808",
+      "26170324",
+      "15571660",
+      "33792323",
+      "1002684",
+      "10364185",
+      "10568825",
+      "18302342",
+      "10933883",
+      "30015615",
+      "17303654",
+      "27711657",
+      "25434738",
+      "15496477",
+      "28511780",
+      "27700087",
+      "29295865",
+      "37772172",
+      "31079926",
+      "29017102",
+      "23841588",
+      "21433182",
+      "24387681",
+      "12880288",
+      "9261337",
+      "32238638",
+      "23509926",
+      "37887425",
+      "9483546",
+      "17681515",
+      "1688928",
+      "22380061",
+      "33107535",
+      "15317453",
+      "32262267",
+      "15965536",
+      "10550984",
+      "15862108",
+      "28984125",
+      "31642322",
+      "16483751",
+      "25919930",
+      "32996537",
+      "21648072",
+      "6930302",
+      "31498431",
+      "20149676",
+      "19245806",
+      "30858367",
+      "1369424",
+      "8974449",
+      "22148262",
+      "26045147",
+      "6296072",
+      "31750656",
+      "28183606",
+      "32760995",
+      "26923530",
+      "17043148",
+      "28623782",
+      "26712721",
+      "37577500",
+      "35629965",
+      "34229180",
+      "36103543"
+    ],
+    "review": [
+      "34240882",
+      "31669043",
+      "37656203",
+      "32238638",
+      "10550984",
+      "15862108",
+      "26923530",
+      "35629965"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.1c03964",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

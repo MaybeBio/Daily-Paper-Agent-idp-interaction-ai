@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39214280",
+  "title": "The Enigma of Transcriptional Activation Domains.",
+  "authors": "Erkine, Alexandre M; Oliveira, Marcos A; Class, Caleb A",
+  "journal": "Journal of molecular biology",
+  "published_date": "2024-08-31",
+  "window": {
+    "start": "2024-08-26",
+    "end": "2024-09-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述提出转录激活域(AD)作为无序蛋白通过类表面活性剂的近随机相互作用与启动子核小体互作的新机制模型，并联系液-液相分离，虽非具体PPI建模，但聚焦IDR互作机制且涉及机器学习方法，对本课题有重要启发。",
+  "abstract": "Activation domains (ADs) of eukaryotic gene activators remain enigmatic for decades as short, extremely variable sequences which often are intrinsically disordered in structure and interact with an uncertain number of targets. The general absence of specificity increasingly complicates the utilization of the widely accepted mechanism of AD function by recruitment of coactivators. The long-standing enigma at the heart of molecular biology demands a fundamental rethinking of established concepts. Here, we review the experimental evidence supporting a novel mechanistic model of gene activation, based on ADs functioning via surfactant-like near-stochastic interactions with gene promoter nucleosomes. This new model is consistent with recent information-rich experimental data obtained using high-throughput synthetic biology and bioinformatics analysis methods, including machine learning. We clarify why the conventional biochemical principle of specificity for sequence, structures, and interactions fails to explain activation domain function. This perspective provides connections to the liquid-liquid phase separation model, signifies near-stochastic interactions as fundamental for the biochemical function, and can be generalized to other cellular functions.",
+  "abstract_zh": "真核基因激活因子的激活结构域（ADs）数十年来一直令人费解，它们是短小且高度可变的序列，通常在结构上呈内在无序状态，并与数量不确定的靶标相互作用。这种普遍缺乏特异性的现象，日益使通过招募共激活因子这一广泛接受的AD功能机制变得复杂化。这一长期存在的谜团处于分子生物学的核心，要求对既有概念进行根本性反思。在此，我们回顾了支持一种新型基因激活机制模型的实验证据，该模型基于ADs通过与基因启动子核小体发生类似表面活性剂的近随机相互作用来发挥功能。这一新模型与近期通过高通量合成生物学和生物信息学分析方法（包括机器学习）获得的信息丰富的实验数据相一致。我们阐明了为何传统的关于序列、结构和相互作用的特异性生化原则无法解释激活结构域的功能。这一视角与液-液相分离模型建立了联系，表明近随机相互作用是生化功能的基础，并可推广至其他细胞功能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39214280/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39214280/",
+  "paper_page_path": "papers/pubmed/39214280/index.html"
+}

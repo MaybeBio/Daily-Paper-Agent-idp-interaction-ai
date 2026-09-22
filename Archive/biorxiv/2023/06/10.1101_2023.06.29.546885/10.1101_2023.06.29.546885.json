@@ -1,0 +1,495 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.29.546885",
+  "title": "Interaction between host G3BP and viral nucleocapsid protein regulates SARS-CoV-2 replication",
+  "doi": "10.1101/2023.06.29.546885",
+  "abstract": "G3BP1/2 are paralogous proteins that promote stress granule formation in response to cellular stresses, including viral infection. G3BP1/2 are prominent interactors of the nucleocapsid (N) protein of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). However, the functional consequences of the G3BP1-N interaction in the context of viral infection remain unclear. Here we used structural and biochemical analyses to define the residues required for G3BP1-N interaction, followed by structure-guided mutagenesis of G3BP1 and N to selectively and reciprocally disrupt their interaction. We found that mutation of F17 within the N protein led to selective loss of interaction with G3BP1 and consequent failure of the N protein to disrupt stress granule assembly. Introduction of SARS-CoV-2 bearing an F17A mutation resulted in a significant decrease in viral replication and pathogenesis in vivo, indicating that the G3BP1-N interaction promotes infection by suppressing the ability of G3BP1 to form stress granules.",
+  "authors": [
+    "Yang Z",
+    "Johnson BA",
+    "Meliopoulos VA",
+    "Ju X",
+    "Zhang P",
+    "Hughes MP",
+    "Wu J",
+    "Koreski KP",
+    "Chang T",
+    "Wu G",
+    "Hixon J",
+    "Duffner J",
+    "Wong K",
+    "Lemieux R",
+    "Lokugamage KG",
+    "Alvardo RE",
+    "Crocquet-Valdes PA",
+    "Walker DH",
+    "Plante KS",
+    "Plante JA",
+    "Weaver SC",
+    "Kim HJ",
+    "Meyers R",
+    "Schultz-Cherry S",
+    "Ding Q",
+    "Menachery VD",
+    "Taylor JP"
+  ],
+  "published_date": "2023-06-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.29.546885",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.29.546885.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR684384",
+    "raw_record": {
+      "id": "PPR684384",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR684384"
+        ]
+      },
+      "doi": "10.1101/2023.06.29.546885",
+      "title": "Interaction between host G3BP and viral nucleocapsid protein regulates SARS-CoV-2 replication",
+      "authorString": "Yang Z, Johnson BA, Meliopoulos VA, Ju X, Zhang P, Hughes MP, Wu J, Koreski KP, Chang T, Wu G, Hixon J, Duffner J, Wong K, Lemieux R, Lokugamage KG, Alvardo RE, Crocquet-Valdes PA, Walker DH, Plante KS, Plante JA, Weaver SC, Kim HJ, Meyers R, Schultz-Cherry S, Ding Q, Menachery VD, Taylor JP.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yang Z",
+            "lastName": "Yang",
+            "firstName": "Zemin",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Molecular Biology, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Johnson BA",
+            "lastName": "Johnson",
+            "firstName": "Bryan",
+            "initials": "BA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Immunology, University of Texas Medical Branch, Galveston, TX, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meliopoulos VA",
+            "lastName": "Meliopoulos",
+            "firstName": "Victoria",
+            "initials": "VA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Infectious Diseases, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ju X",
+            "lastName": "Ju",
+            "firstName": "Xiaohui",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Medicine, Tsinghua University, Beijing, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang P",
+            "lastName": "Zhang",
+            "firstName": "Peipei",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Molecular Biology, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hughes MP",
+            "lastName": "Hughes",
+            "firstName": "Michael",
+            "initials": "MP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Molecular Biology, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu J",
+            "lastName": "Wu",
+            "firstName": "Jinjun",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Molecular Biology, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Koreski KP",
+            "lastName": "Koreski",
+            "firstName": "Kaitlin",
+            "initials": "KP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Molecular Biology, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chang T",
+            "lastName": "Chang",
+            "firstName": "Ti-Cheng",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Applied Bioinformatics, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu G",
+            "lastName": "Wu",
+            "firstName": "Gang",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Applied Bioinformatics, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hixon J",
+            "lastName": "Hixon",
+            "firstName": "Jeff",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faze Medicines, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Duffner J",
+            "lastName": "Duffner",
+            "firstName": "Jay",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faze Medicines, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wong K",
+            "lastName": "Wong",
+            "firstName": "Kathy",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faze Medicines, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lemieux R",
+            "lastName": "Lemieux",
+            "firstName": "Rene",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faze Medicines, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lokugamage KG",
+            "lastName": "Lokugamage",
+            "firstName": "Kumari",
+            "initials": "KG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Immunology, University of Texas Medical Branch, Galveston, TX, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alvardo RE",
+            "lastName": "Alvardo",
+            "firstName": "Rojelio",
+            "initials": "RE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Immunology, University of Texas Medical Branch, Galveston, TX, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Crocquet-Valdes PA",
+            "lastName": "Crocquet-Valdes",
+            "firstName": "Patricia",
+            "initials": "PA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, University of Texas Medical Branch, Galveston, TX, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Walker DH",
+            "lastName": "Walker",
+            "firstName": "David",
+            "initials": "DH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, University of Texas Medical Branch, Galveston, TX, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Plante KS",
+            "lastName": "Plante",
+            "firstName": "Kenneth",
+            "initials": "KS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "World Reference Center for Emerging Viruses and Arboviruses, University of Texas Medical Branch, Galveston, TX, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Plante JA",
+            "lastName": "Plante",
+            "firstName": "Jessica",
+            "initials": "JA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "World Reference Center for Emerging Viruses and Arboviruses, University of Texas Medical Branch, Galveston, TX, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weaver SC",
+            "lastName": "Weaver",
+            "firstName": "Scott",
+            "initials": "SC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "World Reference Center for Emerging Viruses and Arboviruses, University of Texas Medical Branch, Galveston, TX, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim HJ",
+            "lastName": "Kim",
+            "firstName": "Hong Joo",
+            "initials": "HJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Molecular Biology, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meyers R",
+            "lastName": "Meyers",
+            "firstName": "Rachel",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faze Medicines, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schultz-Cherry S",
+            "lastName": "Schultz-Cherry",
+            "firstName": "Stacey",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Infectious Diseases, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ding Q",
+            "lastName": "Ding",
+            "firstName": "Qiang",
+            "initials": "Q",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Medicine, Tsinghua University, Beijing, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Menachery VD",
+            "lastName": "Menachery",
+            "firstName": "Vineet",
+            "initials": "VD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Immunology, University of Texas Medical Branch, Galveston, TX, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Taylor JP",
+            "lastName": "Taylor",
+            "firstName": "Paul",
+            "initials": "JP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Molecular Biology, St. Jude Children’s Research Hospital, Memphis, TN, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "G3BP1/2 are paralogous proteins that promote stress granule formation in response to cellular stresses, including viral infection. G3BP1/2 are prominent interactors of the nucleocapsid (N) protein of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). However, the functional consequences of the G3BP1-N interaction in the context of viral infection remain unclear. Here we used structural and biochemical analyses to define the residues required for G3BP1-N interaction, followed by structure-guided mutagenesis of G3BP1 and N to selectively and reciprocally disrupt their interaction. We found that mutation of F17 within the N protein led to selective loss of interaction with G3BP1 and consequent failure of the N protein to disrupt stress granule assembly. Introduction of SARS-CoV-2 bearing an F17A mutation resulted in a significant decrease in viral replication and pathogenesis in vivo, indicating that the G3BP1-N interaction promotes infection by suppressing the ability of G3BP1 to form stress granules.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/30/2023.06.29.546885.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.29.546885"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR684384"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR684384&type=FILE&fileName=EMS178370-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS178370",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-07-02",
+      "firstPublicationDate": "2023-06-30",
+      "firstIndexDate": "2023-07-02",
+      "fullTextReceivedDate": "2023-07-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

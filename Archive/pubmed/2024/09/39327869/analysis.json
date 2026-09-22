@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39327869",
+  "title": "Breaking Down the Bottlebrush: Atomically Detailed Structural Dynamics of Mucins.",
+  "authors": "Kearns, Fiona L; Rosenfeld, Mia A; Amaro, Rommie E",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2024-09-27",
+  "window": {
+    "start": "2024-09-23",
+    "end": "2024-09-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用全原子分子动力学模拟揭示粘蛋白MUC5B（本质无序蛋白骨架）的糖基化驱动的瓶刷状结构动态，虽未直接研究PPI，但为IDP构象与互作机制建模提供了可迁移的物理模拟工作流。",
+  "abstract": "Mucins, the biomolecular components of mucus, are glycoproteins that form a thick physical barrier at all tissue-air interfaces, forming a first line of defense against pathogens. Structural features of mucins and their interactions with other biomolecules remain largely unexplored due to the challenges associated with their high-resolution characterization. Combining limited mass spectrometry glycomics and protein sequencing data, we present all-atom, explicitly solvated molecular dynamics simulations of a major respiratory mucin, MUC5B. We detail key forces and degrees of freedom imposed by the extensive O-glycosylation, which imbue the canonically observed bottlebrush-like structures to these otherwise intrinsically disordered protein backbones. We compare our simulation results to static structures observed in recent scanning tunneling microscopy experiments as well as other published experimental efforts. Our work represents the demonstration of a workflow applied to a mucin example, which we hope will be employed by other groups to investigate the dynamics and interactions of other mucins, which can inform on structural details currently inaccessible to experimental techniques.",
+  "abstract_zh": "黏蛋白（mucins）是黏液中的生物分子组分，属于糖蛋白，在所有组织-空气界面形成一层厚实的物理屏障，构成抵御病原体的第一道防线。由于高分辨率表征的挑战，黏蛋白的结构特征及其与其他生物分子的相互作用在很大程度上仍未得到探索。结合有限的质谱糖组学和蛋白质测序数据，我们展示了一种主要呼吸道黏蛋白MUC5B的全原子、显式溶剂化分子动力学（molecular dynamics）模拟。我们详细阐述了广泛的O-糖基化所施加的关键作用力和自由度，这些因素赋予了这些本质上无序的蛋白质骨架以经典观察到的瓶刷状结构。我们将模拟结果与近期扫描隧道显微镜实验中观察到的静态结构以及其他已发表的实验工作进行了比较。我们的工作展示了一种应用于黏蛋白实例的工作流程，希望其他研究团队能够采用该方法来探究其他黏蛋白的动态和相互作用，从而揭示当前实验技术无法触及的结构细节。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39327869/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39327869/",
+  "paper_page_path": "papers/pubmed/39327869/index.html"
+}

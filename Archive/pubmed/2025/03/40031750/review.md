@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract
+- **Shared manuscript claim summary** The authors propose Trans-MoRFs, a transformer-based predictor for molecular recognition features (MoRFs) in intrinsically disordered protein regions. They claim superior accuracy and adaptability across sequence lengths relative to existing tools, with a mean area under the curve (AUC) of 0.94 on multiple benchmark datasets.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, dataset descriptions, or statistical details are provided.
+- **Missing materials affecting confidence** Full manuscript, benchmark dataset specifications, model architecture details, training and evaluation protocols, baseline comparisons, statistical significance tests, and any code or data availability statements.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible application of transformer architecture to MoRF prediction, a topic of ongoing interest in computational biology. However, the evidence provided is insufficient to evaluate the validity of the central performance claims. Key methodological details, dataset compositions, and statistical rigor are absent. The claim of outperforming all existing models cannot be assessed without full benchmark results and significance testing.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics working on intrinsically disordered proteins, protein function annotation, and machine learning applications to biological sequences. The potential for improved MoRF prediction could also interest structural biologists and drug discovery groups targeting protein-protein interactions involving disordered regions.
+- **Major strengths** The problem is well motivated, given the biological importance of MoRFs and the limited number of experimentally validated examples. The choice of transformer architecture is reasonable for capturing long-range residue interactions, which is relevant to MoRF prediction. The claim of robust performance across sequence lengths addresses a practical limitation of existing tools.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model "attained a mean area under the curve score of 0.94, which is higher than those of all existing models, and significantly outperformed existing combined and single MoRF prediction tools on multiple performance metrics."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract reports a single mean AUC value and states superiority over all existing models without providing benchmark names, the number of datasets, variance measures, or statistical significance tests. The term "significantly outperformed" implies formal testing, but no p-values, confidence intervals, or effect sizes are reported.
+  - **Why it matters** Without these details, the central claim of state-of-the-art performance cannot be verified. AUC values are sensitive to dataset composition and class imbalance, and a mean across datasets may mask poor performance on specific benchmarks. The claim of superiority over all existing models is strong and requires comprehensive comparison under standardized conditions.
+  - **Resolution test** Provide per-dataset AUC values, standard deviations, the full list of compared methods, and results of statistical significance tests (e.g., Wilcoxon signed-rank test or DeLong test for paired ROC curves). Show that the performance advantage holds across all benchmarks, not only on average.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "Trans-MoRFs employ the self-attention mechanism of the transformer to efficiently capture the interactions of distant residues in protein sequences."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** No architectural details are given, including the number of layers, attention heads, embedding dimensions, training data, hyperparameters, or how the model handles variable-length sequences. The abstract also does not state whether the model is trained from scratch or fine-tuned from a pretrained protein language model.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without architectural and training details, other groups cannot implement or validate the method. The claim of efficiency and stability across sequence lengths cannot be assessed without information on sequence length distributions and computational cost.
+  - **Resolution test** Provide a full methods section with model architecture, training procedure, hyperparameter selection, and details on how sequences of different lengths are processed. Include code or a public repository link.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "Trans-MoRFs have excellent accuracy and a wide range of applications for predicting MoRFs and other functionally important fragments in the disordered regions of proteins."
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract claims broad applicability to "other functionally important fragments" but provides no evidence that the model was tested on such fragments. The generalization from MoRFs to other disordered region features is asserted without supporting data.
+  - **Why it matters** Overstating the scope of a method can mislead potential users. If the model is only validated on MoRF benchmarks, claims about other fragment types are unsupported and may not hold given the diversity of functional elements in disordered regions.
+  - **Resolution test** Either remove the claim about other fragment types or provide validation results on additional datasets covering other disordered region features, such as molecular recognition sites or short linear motifs.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model naming and grammar
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The model name "Trans-MoRFs" is used with plural verb forms in some places, e.g., "Trans-MoRFs employ" and "Trans-MoRFs have," which is inconsistent with a singular model name.
+  - **Required correction** Use singular verb forms consistently, e.g., "Trans-MoRFs employs" and "Trans-MoRFs has," or clarify that the name refers to a family of models.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "multiple benchmark datasets" but does not name them. Standard MoRF benchmarks exist in the literature, and naming them would help readers contextualize the results.
+  - **Required correction** List the specific benchmark datasets used, such as MoRFpred, MoRFCHiBi, or others, in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Performance metric reporting
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract reports only AUC. Other metrics such as sensitivity, specificity, precision, and Matthews correlation coefficient are commonly used in MoRF prediction and would provide a more complete picture.
+  - **Required correction** Report additional performance metrics in the abstract or state that they are provided in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The performance claim is not verifiable without detailed benchmark results and statistical testing, and the method is not reproducible without architectural and training details.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. Applying transformers to MoRF prediction is a reasonable incremental step, but the abstract does not demonstrate a novel conceptual contribution beyond architecture choice.
+  - Scientific importance: Moderate. Improved MoRF prediction would be useful, but the abstract does not show biological insights or downstream applications that elevate the significance.
+  - Interdisciplinary readership: Limited. The abstract is written for a specialized computational biology audience and does not frame the work for a broader readership.
+  - Technical soundness: Not assessable from the abstract. The absence of methodological and statistical details prevents evaluation.
+  - Readability for nonspecialists: Acceptable for a specialized audience, but the abstract uses field-specific terms without brief definitions.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the central claims. A full manuscript with detailed methods, comprehensive benchmark results, and statistical analysis would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of a mean AUC of 0.94 and superiority over all existing models is unsupported without per-dataset results, variance measures, and statistical significance tests.
+- The claim of "significantly outperformed" is unsupported without formal statistical testing.
+- The claim of broad applicability to "other functionally important fragments" is unsupported by any evidence in the abstract.
+- The claim of "stability and high efficiency" across sequence lengths is not assessable without computational cost data and sequence length distribution details.
+- The claim of facilitating "the discovery of novel drug targets" is speculative and not supported by any experimental or translational evidence.

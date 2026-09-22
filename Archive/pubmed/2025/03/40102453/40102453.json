@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "40102453",
+    "doi": "10.1038/s41598-025-88499-y",
+    "title": "RNA guanine content and G-quadruplex structure tune the phase behavior and material properties of biomolecular condensates."
+  },
+  "content": {
+    "abstract": "RNA binding proteins (RBPs) are enriched in phase separated biomolecular assemblies across cell types. These RBPs often harbor arginine-glycine rich RGG motifs, which can drive phase separation, and can preferentially interact with RNA G-quadruplex (G4) structures, particularly in the neuron. Increasing evidence underscores the important role that RNA sequence and structure play in contributing to the form and function of protein condensates, however, less is known about the role of G4 RNAs and their interaction with RGG domains specifically. In this study we focused on the model protein, Fragile X mental retardation protein (FMRP), to investigate how G4-containing RNA sequences impact the phase behavior and material properties of condensates. FMRP is implicated in the development of Fragile X Syndrome, and is enriched in neuronal granules where it is thought to aid in mRNA trafficking and translational control. Here, we examined RNA sequences with increasing G content and G4 propensity in complex with the RGG-containing low complexity region (LCR) of FMRP. We found, that while increasing G content triggers aggregation of poly-arginine, all RNA sequences supported phase separation into liquid droplets with FMRP-LCR. Combining microrheology, and fluorescence recovery after photobleaching, we measured a moderate increase in viscosity and decrease in dynamics for increasing G-content, and detected no measurable increase in elasticity as a function of G4 structure. Additionally, we found that while methylation of FMRP decreased RNA binding affinity, this modification did not impact condensate material properties suggesting that RNA sequence/structure can play a greater role than binding affinity in determining the emergent properties of condensates. Together, this work lends much needed insight into the ways in which G-rich RNA sequences tune the assembly, dynamics and material properties of protein/RNA condensates and/or granules.",
+    "keywords": [],
+    "mesh_terms": [
+      "*G-Quadruplexes",
+      "*Fragile X Messenger Ribonucleoprotein 1/chemistry/metabolism/genetics",
+      "*Biomolecular Condensates/chemistry/metabolism",
+      "*RNA/chemistry/metabolism",
+      "Humans",
+      "*Guanine/chemistry/metabolism",
+      "RNA-Binding Proteins/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vidal Ceballos, Alfredo",
+        "Geissmann, Anna",
+        "Favaro, Denize C",
+        "Deshpande, Priyasha",
+        "Elbaum-Garfinkle, Shana"
+      ],
+      "short_names": [
+        "Vidal Ceballos A",
+        "Geissmann A",
+        "Favaro DC",
+        "Deshpande P",
+        "Elbaum-Garfinkle S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Structural Biology Initiative, Advanced Science Research Center, CUNY, New York, NY, USA.",
+        "Structural Biology Initiative, Advanced Science Research Center, CUNY, New York, NY, USA.",
+        "Ph.D. Program in Chemistry, Graduate Center of the City University of New York, New York, NY, USA.",
+        "Structural Biology Initiative, Advanced Science Research Center, CUNY, New York, NY, USA.",
+        "Structural Biology Initiative, Advanced Science Research Center, CUNY, New York, NY, USA.",
+        "Ph.D. Program in Biochemistry, Graduate Center of the City University of New York, New York, NY, USA.",
+        "Structural Biology Initiative, Advanced Science Research Center, CUNY, New York, NY, USA. selbaumgarfinkle@gc.cuny.edu.",
+        "Ph.D. Program in Chemistry, Graduate Center of the City University of New York, New York, NY, USA. selbaumgarfinkle@gc.cuny.edu.",
+        "Ph.D. Program in Biochemistry, Graduate Center of the City University of New York, New York, NY, USA. selbaumgarfinkle@gc.cuny.edu.",
+        "Ph.D. Program in Biology, Graduate Center of the City University of New York, New York, NY, USA. selbaumgarfinkle@gc.cuny.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vidal Ceballos, Alfredo",
+        "short_name": "Vidal Ceballos A",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Initiative, Advanced Science Research Center, CUNY, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Geissmann, Anna",
+        "short_name": "Geissmann A",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Initiative, Advanced Science Research Center, CUNY, New York, NY, USA.",
+          "Ph.D. Program in Chemistry, Graduate Center of the City University of New York, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Favaro, Denize C",
+        "short_name": "Favaro DC",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Initiative, Advanced Science Research Center, CUNY, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Deshpande, Priyasha",
+        "short_name": "Deshpande P",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Initiative, Advanced Science Research Center, CUNY, New York, NY, USA.",
+          "Ph.D. Program in Biochemistry, Graduate Center of the City University of New York, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Elbaum-Garfinkle, Shana",
+        "short_name": "Elbaum-Garfinkle S",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Initiative, Advanced Science Research Center, CUNY, New York, NY, USA. selbaumgarfinkle@gc.cuny.edu.",
+          "Ph.D. Program in Chemistry, Graduate Center of the City University of New York, New York, NY, USA. selbaumgarfinkle@gc.cuny.edu.",
+          "Ph.D. Program in Biochemistry, Graduate Center of the City University of New York, New York, NY, USA. selbaumgarfinkle@gc.cuny.edu.",
+          "Ph.D. Program in Biology, Graduate Center of the City University of New York, New York, NY, USA. selbaumgarfinkle@gc.cuny.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Mar 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/19 06:21",
+    "fetched_at": "2026-09-21 16:45:24"
+  },
+  "links": {
+    "cites": [
+      "42627687",
+      "42454371",
+      "41888132",
+      "41272271",
+      "41155397"
+    ],
+    "refs": [
+      "37202301",
+      "36689740",
+      "36329008",
+      "36321741",
+      "34977886",
+      "33608673",
+      "33523882",
+      "33264409",
+      "32934220",
+      "32865115",
+      "32632317",
+      "32510328",
+      "32343993",
+      "32179589",
+      "31439799",
+      "31200506",
+      "30926670",
+      "30833787",
+      "30765518",
+      "30216987",
+      "29650703",
+      "29424691",
+      "28575444",
+      "28225081",
+      "27594427",
+      "27462983",
+      "27098781",
+      "26474065",
+      "26385636",
+      "26374839",
+      "26015579",
+      "25979174",
+      "25747659",
+      "25692235",
+      "24008580",
+      "21784246",
+      "21642970",
+      "20516077",
+      "18579868",
+      "16845096",
+      "16636078",
+      "16319129",
+      "15028757",
+      "13130134",
+      "11719189",
+      "7688265"
+    ],
+    "similar": [
+      "40102453",
+      "24249225",
+      "26374839",
+      "21642970",
+      "19396385",
+      "19487368",
+      "28612854",
+      "33483368",
+      "34896112",
+      "39847338",
+      "22134704",
+      "16819831",
+      "36689740",
+      "32510328",
+      "25692235",
+      "17693432",
+      "32343993",
+      "24876161",
+      "20064924",
+      "18579868",
+      "39366355",
+      "34772789",
+      "36328245",
+      "17170008",
+      "34772786",
+      "37239436",
+      "31740951",
+      "20570707",
+      "31112584",
+      "15805463",
+      "34772787",
+      "34270902",
+      "26412477",
+      "21072162",
+      "38709899",
+      "13130134",
+      "34304571",
+      "21868366",
+      "34767801",
+      "31439799",
+      "33053340",
+      "34090478",
+      "39256186",
+      "28575444",
+      "16636078",
+      "30517002",
+      "39455581",
+      "33106247",
+      "35653700",
+      "9624140",
+      "39537752",
+      "39892695",
+      "32945655",
+      "39956242",
+      "10973830",
+      "14994288",
+      "18653529",
+      "37949069",
+      "27860518",
+      "15381419",
+      "32128583",
+      "34916288",
+      "39636939",
+      "32525608",
+      "27378784",
+      "25416280",
+      "19464371",
+      "36883003",
+      "34706978",
+      "37408305",
+      "39135270",
+      "27462983",
+      "12378270",
+      "40291420",
+      "38521588",
+      "16571602",
+      "34302476",
+      "11719189",
+      "27338369",
+      "26250109",
+      "39969154",
+      "12417734",
+      "33599256",
+      "34785657",
+      "39827079",
+      "39505696",
+      "18664458",
+      "19166269",
+      "39303698",
+      "34903621",
+      "27820800",
+      "23408971",
+      "15096575",
+      "18093976",
+      "29913160",
+      "34670845",
+      "36282946",
+      "38781207",
+      "16098134",
+      "21846770"
+    ],
+    "review": [
+      "40102453",
+      "33483368",
+      "39366355",
+      "34772789",
+      "34772786",
+      "37239436",
+      "20570707",
+      "34772787",
+      "34767801",
+      "14994288",
+      "34706978",
+      "27338369",
+      "33599256",
+      "39827079",
+      "39303698",
+      "29913160",
+      "34670845"
+    ],
+    "pmc": [
+      "11920403"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-88499-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40102453/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors propose a computational and experimental pipeline to convert monoclonal antibodies into functional intrabodies by addressing charge and isoelectric point mismatches with the cytoplasmic environment, using sequence analysis, experimental characterization of scFv variants, linker and domain orientation optimization, and AI-led inverse folding, resulting in over six hundred intrabody sequences targeting sixty cytoplasmic proteins with validated interactions for several disease-relevant targets.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, sequence data, validation datasets, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially impactful approach to a long-standing problem in intracellular antibody engineering. The scale of the proposed dataset (over six hundred intrabodies) and the breadth of targets are impressive. However, the abstract alone provides insufficient detail to assess the validity of the central claims. Key methodological steps, quantitative results, and validation criteria are not described. The claim that charge is the "greatest impact on solubility" is presented without supporting data. The role of AI-led inverse folding is mentioned but not explained. The validation of interactions for seven proteins is stated but not substantiated with any metrics. As presented, the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in antibody engineering, intracellular protein targeting, cell biology, and therapeutic protein development would be interested. The potential to repurpose the vast existing antibody repertoire for intracellular applications has broad relevance to studying and treating diseases involving cytoplasmic protein misfolding, aggregation, and post-translational modifications, including neurodegeneration and cancer.
+- **Major strengths** The problem addressed is significant and widely recognized. The proposed solution combines computational analysis with experimental validation, which is a sound overall strategy. The scale of the described intrabody library is notable. The inclusion of diverse target specificities (linear, conformational, PTM, oligomeric) suggests a generalizable platform.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "Characterisation of forty-five single-chain variable fragment (scFv) intrabodies expressed in human cells confirmed charge to have the greatest impact on solubility."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The claim that charge is the dominant determinant of solubility is presented as a definitive conclusion, but no quantitative data, statistical analysis, or comparison with other physicochemical properties is provided. The sample size of forty-five is modest, and it is unclear how representative these scFvs are of the broader antibody repertoire.  
+  - **Why it matters** This claim underpins the entire optimization strategy. If charge is not the primary driver of insolubility across diverse antibody frameworks, the proposed pipeline may not generalize.  
+  - **Resolution test** Provide a quantitative comparison of charge, hydrophobicity, and other biophysical properties against solubility measurements, with appropriate statistical tests and effect sizes. Show that charge remains the dominant predictor after controlling for confounders.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "This is applied in combination to reduce the search space and refine the products of AI-led inverse folding to create highly soluble, abundant and thermally stable intrabodies that maintain parent antibody epitope recognition."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The role of AI-led inverse folding is mentioned but not described. No details are given on the algorithm, training data, validation, or how the computational predictions were integrated with experimental screening. The claim of "highly soluble, abundant and thermally stable" is not supported by any quantitative thresholds or comparative data.  
+  - **Why it matters** The novelty of the approach appears to rest partly on the AI component. Without details, the reader cannot assess whether this is a genuine advance or an incremental application of existing tools. The performance claims need benchmarks.  
+  - **Resolution test** Describe the AI method, its inputs and outputs, and provide quantitative comparisons of solubility, abundance, thermal stability, and epitope binding between parent antibodies, naive scFvs, and optimized intrabodies, with appropriate controls and statistics.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence quality  
+  - **Claim pointer** "Interactions were validated for p53, α-synuclein, SOD1, polyQ, FUS/TLS, UCHL1 and GFP."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The validation of interactions is stated without any description of the methods used (e.g., co-immunoprecipitation, immunofluorescence, proximity ligation, functional assays) or the criteria for success. No quantitative readouts, controls, or reproducibility data are mentioned.  
+  - **Why it matters** For a paper whose central claim is the reliable repurposing of antibodies, the validation of target engagement is critical. Without methodological detail and quantitative evidence, the claim cannot be evaluated.  
+  - **Resolution test** Provide a detailed description of validation assays, including positive and negative controls, quantitative metrics (e.g., affinity, specificity, cellular localization), and statistical analysis. Show that the validated intrabodies retain functional activity, not just binding.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** "Over six hundred intrabody sequences are described targeting sixty cytoplasmic proteins with linear, conformational, post-translational modification or oligomeric state specificity."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The scale of the dataset is impressive, but no information is provided on how the sequences were generated, selected, or verified. The criteria for assigning specificity type (linear, conformational, etc.) are not described. The completeness and quality of the sequence data cannot be assessed.  
+  - **Why it matters** The utility of the dataset depends on its accuracy and completeness. If sequences are not fully validated or if specificity annotations are unreliable, the resource may mislead downstream users.  
+  - **Resolution test** Provide a detailed description of the sequence generation and selection pipeline, including quality control metrics, and make the dataset available with clear annotations and validation status for each entry.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract background  
+  - **Evidence pointer** Abstract first sentence  
+  - **Issue** The statement "eighty-five percent of the human proteome has at least one documented interacting monoclonal antibody" is striking but lacks a citation or context. It is unclear what constitutes "documented" and whether this refers to experimentally validated or predicted interactions.  
+  - **Required correction** Provide a citation and clarify the source and definition of this statistic.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract methods description  
+  - **Evidence pointer** Abstract middle section  
+  - **Issue** The phrase "found variable heavy domain framework sites to be generally positively charged, and promote insolubility, but be amenable to optimisation" is grammatically awkward and could be misinterpreted. It is unclear whether all framework sites are positively charged or only a subset.  
+  - **Required correction** Rewrite for clarity, specifying which framework sites were analyzed and the nature of the optimization.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract conclusions  
+  - **Evidence pointer** Abstract final sentence  
+  - **Issue** The claim that this approach "removes obstacles hindering intracellular repurposing of the vast sequenced antibody interactome" is overly broad. The abstract describes validation for only seven targets, and the generalizability to all antibodies is not demonstrated.  
+  - **Required correction** Soften the claim to reflect the demonstrated scope, or provide evidence that the approach is broadly applicable beyond the tested examples.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient methodological detail, quantitative results, or validation criteria to support the central claims. The case is not established from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of systematically adapting antibody frameworks for intracellular use by targeting charge and isoelectric point is not entirely new, but the combination with AI-led inverse folding and the scale of the proposed dataset may represent a novel contribution. However, the abstract does not clearly differentiate this work from prior efforts in intrabody engineering.  
+  - **Scientific importance** The problem is important, and a reliable platform for generating functional intrabodies would have broad utility. The potential applications to neurodegeneration and cancer are significant.  
+  - **Interdisciplinary readership** The work spans structural biology, computational biology, cell biology, and therapeutic development, which could attract a broad audience. However, the abstract is written in a way that assumes familiarity with antibody engineering terminology, which may limit accessibility.  
+  - **Technical soundness** Cannot be assessed from the abstract. The lack of methodological detail and quantitative results is a major limitation.  
+  - **Readability for nonspecialists** The abstract is dense and uses specialized terminology without sufficient explanation. The logical flow is clear, but the technical content is not accessible to a general scientific audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting premise and potentially valuable resource, but the absence of methods, data, and validation details prevents any assessment of the validity or significance of the claims. A full manuscript with detailed methods, quantitative results, and rigorous validation would be required to evaluate the work properly.
+
+## Risk / unsupported claims
+- The claim that charge is the greatest impact on solubility is unsupported without quantitative data and statistical analysis.
+- The claim that the optimization pipeline creates "highly soluble, abundant and thermally stable intrabodies" is unsupported without defined thresholds and comparative benchmarks.
+- The claim that interactions were validated for seven targets is unsupported without description of assays, controls, and quantitative readouts.
+- The claim that the approach "removes obstacles hindering intracellular repurposing of the vast sequenced antibody interactome" is overreaching given the limited validation described.
+- The statistic that 85% of the human proteome has a documented interacting monoclonal antibody is unverifiable without a citation and definition of "documented."

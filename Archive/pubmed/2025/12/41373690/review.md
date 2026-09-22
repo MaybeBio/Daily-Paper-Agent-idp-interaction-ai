@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided by the user
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the reported findings; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors report that polyQ expansion in N-terminal fragments of Ataxin-2 (Atx2-N317 and Atx2-N81) drives biomolecular condensation and irreversible aggregation, that the polyQ tract is sufficient for these processes independent of LSm/LSmAD domains and RNA interactions, and that this behavior may modulate full-length Atx2 dynamics relevant to neurodegeneration
+- **Visible evidence base** Figures 1-6 (referenced but not shown), Figure S1-S3 (referenced but not shown), Tables S1-S2 (referenced but not shown), Materials and Methods section
+- **Missing materials affecting confidence** All figures and supplementary data are referenced but not provided; no raw quantitative data (e.g., FRAP recovery curves with error bars, statistical tests, droplet size distributions with replicates); no information on sample sizes, number of independent experiments, or statistical analysis methods; no negative controls for in vitro phase separation; no data on protein purity or folding state after purification
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the field of polyglutamine diseases, namely whether the N-terminal polyQ tract of Ataxin-2 is sufficient to drive condensation and aggregation. The experimental design comparing two N-terminal fragments with varying polyQ lengths is logical, and the combination of cellular and in vitro approaches is appropriate. However, the conclusions are substantially weakened by the absence of quantitative data, statistical analysis, and key controls. The claim that the polyQ tract is "sufficient" for condensation and aggregation is not fully supported by the evidence described, as the comparison between Atx2-N317 and Atx2-N81 does not isolate the polyQ contribution from other sequence features. The manuscript would benefit from more rigorous quantitative analysis and a clearer distinction between condensation and aggregation.
+- **Who would be interested in the results, and why** Researchers studying polyglutamine diseases, particularly spinocerebellar ataxia type 2 and amyotrophic lateral sclerosis, would be interested in the potential role of the N-terminal polyQ tract in Ataxin-2 pathology. The work may also appeal to investigators in the biomolecular condensation field who study how sequence features, particularly low-complexity and repetitive regions, drive phase transitions. The claim that polyQ expansion controls the transition from reversible condensation to irreversible aggregation has broad relevance to the mechanisms linking phase separation to neurodegeneration.
+- **Major strengths** The study addresses a timely and important question about the role of the polyQ tract in Ataxin-2 condensation and aggregation. The use of two N-terminal fragments with different domain compositions is a reasonable strategy to dissect sequence determinants. The combination of cellular imaging, FRAP, and in vitro reconstitution provides complementary perspectives. The finding that polyQ expansion progressively reduces molecular mobility across both fragments is internally consistent and aligns with established concepts in polyQ biology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "the polyQ tract is a direct and sufficient element for protein condensation and aggregation, while the LSm and LSmAD domains and their interactions with RNA are not necessary for these processes"
+  - **Evidence pointer** Section 2.2, Section 2.3, Section 2.4, Figures 3-6 (not provided)
+  - **Concern** The claim of sufficiency is not established by the experimental design. The comparison between Atx2-N317 (which contains LSm/LSmAD domains) and Atx2-N81 (which lacks them) shows similar behaviors, but this does not demonstrate that the polyQ tract alone is sufficient. Atx2-N81 still contains 81 residues of flanking sequence beyond the polyQ tract, which could contribute to condensation. A construct containing only the polyQ tract, or a variant with the polyQ tract removed from Atx2-N81, would be needed to establish sufficiency. Furthermore, the in vitro experiments use EGFP-tagged proteins, and EGFP is known to dimerize, which could confound the interpretation of condensation behavior.
+  - **Why it matters** The central conclusion of the manuscript rests on this claim of sufficiency. If the polyQ tract is not demonstrated to be sufficient, the interpretation that polyQ expansion "controls" condensation and aggregation is overstated. The distinction between necessity and sufficiency is critical for the mechanistic model proposed.
+  - **Resolution test** Provide data from a construct containing only the polyQ tract with minimal flanking sequence, or a polyQ-deleted version of Atx2-N81, to demonstrate that the polyQ tract is both necessary and sufficient. Alternatively, revise the claim to state that the polyQ tract is a major driver within the N-terminal region, without asserting sufficiency.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors report FRAP recovery percentages (e.g., 60% for 23Q, 5-10% for 33Q and 41Q) and droplet size differences, and state that "the average droplet diameter from 33Q or 41Q was significantly larger than that from 9Q or 23Q"
+  - **Evidence pointer** Section 2.1, Section 2.3, Section 2.4, Figures 2, 4, 5, 6 (not provided)
+  - **Concern** The manuscript reports quantitative measurements but provides no statistical analysis, no error bars, no sample sizes, and no description of how many independent experiments or cells were analyzed. The term "significantly" is used without any statistical test being described. The FRAP recovery curves are described qualitatively, and the recovery percentages are presented without variance measures. Without these data, the reader cannot assess the robustness of the reported differences between polyQ lengths.
+  - **Why it matters** The central finding is a graded response of molecular mobility and droplet properties to polyQ length. Without quantitative rigor, it is impossible to determine whether the observed differences are reproducible and meaningful, or whether the threshold behavior around 23Q-33Q is statistically supported.
+  - **Resolution test** Provide full statistical analysis including number of replicates, error bars, and appropriate tests (e.g., ANOVA with post-hoc comparisons) for all quantitative measurements. Include representative FRAP curves with confidence intervals and report the number of cells or droplets analyzed per condition.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors state that "polyQ expansion promotes a gradual phase transition to an irreversible and insoluble state" and that this "is consistent with the protein aggregation observed under the pathological condition of SCA2"
+  - **Evidence pointer** Section 2.1, Section 2.3, Section 2.4, Figures 2, 4, 6 (not provided)
+  - **Concern** The manuscript does not directly demonstrate irreversibility. The FRAP experiments show reduced recovery for longer polyQ lengths, but the observation window is limited to 300 s in cells and 150 s in vitro. No experiments are described that test whether the fluorescence recovery is truly irreversible over longer time scales, or whether the lack of recovery reflects immobility within a liquid-like condensate rather than a solid-like aggregate. The distinction between reduced mobility and irreversible aggregation is important for the proposed model of liquid-to-solid phase transition.
+  - **Why it matters** The model proposed in the discussion depends on a transition from reversible condensation to irreversible aggregation. Without direct evidence for irreversibility, the interpretation that polyQ expansion drives a liquid-to-solid transition is speculative.
+  - **Resolution test** Perform longer-term FRAP experiments (e.g., over hours) or use complementary approaches such as fluorescence recovery after full photobleaching, fluorescence correlation spectroscopy, or rheological measurements to distinguish reduced mobility from irreversible aggregation. Alternatively, test whether the immobile fraction can be recovered by disrupting condensates with chemical agents.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors conclude that "polyQ expansion controls the biomolecular condensation and aggregation of the N-terminal fragments of Atx2 and is thus thought to modulate the dynamic behaviors of the full-length protein as well"
+  - **Evidence pointer** Section 3, Discussion
+  - **Concern** The extrapolation from N-terminal fragments to full-length Ataxin-2 is not directly tested. The authors acknowledge that Atx2-N317 lacks C-terminal IDRs and the PAM2 domain, but they do not provide any data on full-length Atx2 in this study. The previous work cited (reference 26) is mentioned but not described in sufficient detail to support the claim that full-length Atx2 behaves similarly. The C-terminal IDRs could modulate or override the effects of the polyQ tract.
+  - **Why it matters** The relevance to disease mechanisms depends on whether the findings with fragments reflect the behavior of the full-length protein. If the C-terminal region has a dominant effect on condensation, the conclusions about polyQ control may not translate.
+  - **Resolution test** Include experiments with full-length Atx2, or at minimum, provide a more detailed comparison with previously published data on full-length Atx2 to support the extrapolation. Alternatively, temper the conclusion to state that the polyQ tract controls condensation in N-terminal fragments, without asserting relevance to the full-length protein.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, description of Atx2-N317 distribution
+  - **Evidence pointer** Figure 1 (not provided)
+  - **Issue** The text states that 9Q and 23Q variants were "distributed in both the nucleus and cytoplasm" while 33Q and 41Q were "only observed in the cytoplasm." The basis for this distinction is not explained, and it is unclear whether this reflects a biological difference or an artifact of aggregation.
+  - **Required correction** Clarify whether the nuclear-cytoplasmic distribution difference was quantified and whether it was consistent across cells. If this is a qualitative observation, state it as such and discuss potential explanations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Section 4.6, FRAP methodology
+  - **Evidence pointer** Section 4.6
+  - **Issue** The FRAP protocol describes bleaching with a 405 nm laser for cellular experiments and a 488 nm laser for in vitro experiments, but the rationale for this difference is not provided. Additionally, the laser intensities and number of bleach iterations differ between the two setups, which may affect comparability.
+  - **Required correction** Explain the choice of laser wavelengths and provide details on how the FRAP data were normalized and analyzed. State whether the different bleaching protocols could affect the interpretation of recovery kinetics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 2.4, in vitro droplet analysis
+  - **Evidence pointer** Figure 5 (not provided)
+  - **Issue** The text reports droplet number and size differences but does not describe how droplets were identified and counted, or whether the analysis was automated or manual. The threshold for what constitutes a droplet versus background is not defined.
+  - **Required correction** Provide details on the image analysis pipeline, including any software used, thresholding criteria, and whether the analysis was blinded to the polyQ length.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 1, Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction cites previous work on Atx2 C-terminal IDRs but does not discuss whether the N-terminal region has been studied in the context of phase separation by other groups. This limits the reader's ability to assess the novelty of the findings.
+  - **Required correction** Add a brief discussion of prior studies on Atx2 N-terminal fragments or polyQ-mediated phase separation in other proteins to contextualize the novelty of the current work.
+
+## Risk / unsupported claims
+- The claim that the polyQ tract is "sufficient" for condensation and aggregation is not supported by the experimental design, as no construct lacking the polyQ tract or containing only the polyQ tract was tested
+- The claim of a "gradual phase transition to an irreversible and insoluble state" is not supported by direct evidence of irreversibility; the FRAP data show reduced mobility but do not demonstrate irreversibility
+- The extrapolation from N-terminal fragments to full-length Ataxin-2 is not supported by data presented in this manuscript
+- The statement that "the condensation capability of Atx2-N81 in vitro is proportional to the degree of glutamine repeats" is based on qualitative or semi-quantitative observations without statistical validation
+- The prediction that "there may be a transition turn point around 23Q-33Q residues" is speculative and not supported by a formal threshold analysis
+- The claim that the findings "challenge the previous understanding that the biomolecular condensation and aggregation of Atx2 are mediated by RNA binding and the C-terminal IDR sequences" is overstated, as the study does not directly test the role of RNA binding or C-terminal IDRs in the same experimental system

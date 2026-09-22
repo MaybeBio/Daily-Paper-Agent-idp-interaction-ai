@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41628219",
+  "title": "Regulation of tension-dependent localization of LATS1 and LATS2 to adherens junctions.",
+  "authors": "De Silva, Chamika; Kelch, Brian A; McCollum, Dannel",
+  "journal": "PloS one",
+  "published_date": "2026-02-02",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过AlphaFold建模和生化实验揭示LIMD1通过LATS-LATCH线性基序及N端IDR将LATS1/2招募至黏附连接的双模块机制，涉及IDR介导的蛋白互作机制建模，但对象为信号通路蛋白而非相分离/凝聚体，互作机制有深度但方法以AlphaFold为主。",
+  "abstract": "The LIM domain protein LIMD1 is a critical regulator of the Hippo signaling pathway, acting to sequester the kinases LATS1/2 to adherens junctions (AJs) in response to mechanical strain. Here, we identify the molecular basis for LIMD1 binding and recruitment of LATS1/2 to AJs. We show that while the LIM domains of LIMD1 are sufficient for AJ localization and binding to LATS1/2, recruitment of LATS1 to AJ requires both the intrinsically disordered region (IDR) in the N-terminus as well as the LIM domains. We further dissected the LIM domains and found that LIM1 and LIM2, but not LIM3, are necessary for LATS1 AJ localization. Point mutations that disrupt strain sensitivity in either the first or second LIM domain disrupt both binding and recruitment of LATS1/2 to AJs. Mechanistically, LIMD1 binds LATS1/2 through a conserved linear motif, the LATS-LATCH, which we identified by AlphaFold modeling and confirmed by biochemical and localization assays. The LATS-LATCH is required for mechanical strain-dependent recruitment of LATS1 and LATS2 to AJs. Further analysis of the LATS2-LATCH showed that it is sufficient for binding to LIMD1 and localization to AJs. Mutation of predicted contact residues within the LATS2-LATCH both disrupts its binding to LIMD1 and localization to AJs. These findings define a bipartite mechanism for LIMD1-dependent recruitment of LATS1/2 involving LIM domain-LATCH interactions and N-terminal IDR functions, providing insight into how mechanical signals are transduced through the Hippo pathway.",
+  "abstract_zh": "LIM结构域蛋白LIMD1是Hippo信号通路的关键调控因子，通过将激酶LATS1/2隔离至黏附连接（adherens junctions, AJs）以响应机械应变。在此，我们确定了LIMD1结合并将LATS1/2招募至AJs的分子基础。我们表明，虽然LIMD1的LIM结构域足以实现AJ定位及与LATS1/2的结合，但将LATS1招募至AJs既需要N端 intrinsically disordered region (IDR) 也需要LIM结构域。我们进一步解析了LIM结构域，发现LIM1和LIM2（而非LIM3）对于LATS1的AJ定位是必需的。破坏第一或第二LIM结构域中应变敏感性的点突变会同时破坏LATS1/2与AJs的结合及招募。机制上，LIMD1通过一个保守的线性基序——LATS-LATCH——与LATS1/2结合，该基序由AlphaFold建模识别，并通过生化和定位实验确认。LATS-LATCH对于机械应变依赖性的LATS1和LATS2招募至AJs是必需的。对LATS2-LATCH的进一步分析表明，它足以与LIMD1结合并定位于AJs。预测的LATS2-LATCH内接触残基的突变会破坏其与LIMD1的结合及AJ定位。这些发现定义了LIMD1依赖性招募LATS1/2的双部分机制，涉及LIM结构域-LATCH相互作用和N端IDR功能，为机械信号如何通过Hippo通路传导提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41628219/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41628219/",
+  "paper_page_path": "papers/pubmed/41628219/index.html"
+}

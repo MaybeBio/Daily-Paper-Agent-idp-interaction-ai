@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure legends.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript. No external data or literature beyond the manuscript was consulted.
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered L2 linker of KANK1 is converted into an elongated, rigid, rod-like structure through cooperative multivalent binding to the hub protein LC8. This assembly is claimed to be long enough to bridge the 35–50 nm membrane–microtubule gap, resolving a paradox in cellular architecture. The authors further suggest that this mechanism represents a generalizable design principle for protein assemblies.
+- **Visible evidence base** In-cell colocalization and knockdown experiments (Fig. 2a), pulldown assays (Figs. 2b,c, 3a,b, S1), ITC binding studies (Figs. 3d, 4a,d,e, 6d), SEC-MALS (Figs. 3e,f, 4b,c,f,g, 6f), SV-AUC (Figs. S2, 6e), AlphaFold motif predictions (Figs. 5a–d, 6a), AlphaFold multimer titrations (Figs. 5e,f, 6b,c, S3–S13), and negative-stain electron microscopy (Fig. 6g–j).
+- **Missing materials affecting confidence** The manuscript states that Figures S1 to S13 are in associated supplementary materials, but these were not provided for review. This limits the ability to fully evaluate the AlphaFold titration data, SV-AUC data, and additional pulldown results. No source data or statistical analysis details were provided.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and novel hypothesis regarding the role of LC8 in converting a disordered protein region into a structured, functional rod. The combination of cellular, biochemical, biophysical, and computational approaches is ambitious and largely appropriate. The central claim of cooperative multivalency driving this conversion is well-supported by the ITC and SEC-MALS data, and the electron microscopy images are striking. However, several concerns need to be addressed, particularly regarding the quantitative interpretation of the ITC stoichiometry, the generalizability of the AlphaFold predictions, and the in vivo relevance of the proposed mechanism. The manuscript is well-written and will be of interest to a broad readership, but the current evidence does not fully establish all claims, especially the in vivo functional significance.
+- **Who would be interested in the results, and why** Cell biologists studying focal adhesions, microtubule dynamics, and cytoskeletal architecture. Biochemists and biophysicists interested in intrinsically disordered proteins, multivalency, and protein-protein interactions. Structural biologists using integrative approaches combining computational prediction and experimental validation. The broader community interested in design principles of cellular structures.
+- **Major strengths** The study addresses a significant and long-standing question in cell biology with a novel and plausible mechanism. The combination of in-cell, in vitro, and in silico methods is powerful. The discovery of a highly cooperative, multivalent interaction involving weak, non-canonical motifs is an important conceptual advance. The electron microscopy data directly visualizing the rod-like structures is compelling. The manuscript is clearly written and the logic is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and quantitative rigor
+  - **Claim pointer** The ITC data for KANK1595–720 is interpreted as a 7:1 LC8:KANK1 stoichiometry, and for KANK1500–805 as an 18:1 stoichiometry, supporting the formation of a defined multivalent complex.
+  - **Evidence pointer** Figure 3d, Figure 6d, Methods section "Isothermal titration calorimetry"
+  - **Concern** The ITC-derived stoichiometries (n = 5.78 for KANK1595–720 and n = 17.98 for KANK1500–805) are central to the proposed model. However, the authors acknowledge that the independent-sites model may not be reliable for such complex systems. The n value for KANK1595–720 is not an integer, and the fit for KANK1500–805 required a non-standard correction due to software limitations. This raises concerns about the accuracy of these values. The authors should provide a more rigorous analysis, such as a global fit of multiple ITC experiments, a discussion of potential systematic errors, or validation with an orthogonal method like mass spectrometry of the assembled complex.
+  - **Why it matters** The entire model of a defined, stoichiometric rod assembly rests on these numbers. If the stoichiometry is incorrect, the structural model and the proposed mechanism of length determination are not valid.
+  - **Resolution test** Provide a detailed error analysis of the ITC fits, including confidence intervals for n. Validate the stoichiometry using an independent method, such as native mass spectrometry or analytical ultracentrifugation with a more detailed model. If the stoichiometry is variable, discuss the implications for the proposed structural model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo relevance and functional significance
+  - **Claim pointer** The authors claim that the LC8-induced rod formation of KANK1 L2 is functionally significant, as it allows KANK1 to bridge the membrane–microtubule gap and organize microtubules at focal adhesions.
+  - **Evidence pointer** Figure 2a, Discussion section
+  - **Concern** The only in-cell evidence is colocalization of LC8 and KANK1 at focal adhesions and the loss of this colocalization upon KANK1 knockdown. This is correlative. The manuscript does not provide any functional data showing that disrupting the LC8-KANK1 interaction (e.g., by mutating the identified binding motifs) affects microtubule organization, focal adhesion dynamics, or cell behavior. The proposed role in bridging the gap is purely speculative without such experiments.
+  - **Why it matters** The title and abstract promise a resolution of a paradox in cellular architecture. Without demonstrating a functional consequence of the LC8-KANK1 interaction, the physiological relevance of the in vitro findings remains unproven.
+  - **Resolution test** Perform experiments where the LC8-binding motifs in KANK1 are mutated. Show that this mutation abolishes LC8 binding, prevents rod formation in vitro, and leads to defects in microtubule organization or focal adhesion function in cells.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural model validation
+  - **Claim pointer** The authors propose a specific structural model of the LC8-KANK1 rod based on AlphaFold multimer predictions, with a defined arrangement of LC8 dimers along the KANK1 dimer.
+  - **Evidence pointer** Figures 5e, 6c, Methods section "AlphaFold protein titrations"
+  - **Concern** The structural model is entirely based on AlphaFold predictions. While AlphaFold is a powerful tool, its accuracy for predicting the structure of a complex with 15+ copies of a protein bound to a long disordered region is not established. The authors do not provide any experimental validation of this model, such as cross-linking mass spectrometry, small-angle X-ray scattering, or high-resolution cryo-EM. The negative-stain EM images show rod-like shapes but at a resolution too low to validate the atomic-level arrangement.
+  - **Why it matters** The claim of a "rod-like assembly" is well-supported, but the specific arrangement of LC8 dimers and the KANK1 conformation are key to understanding the mechanism of length determination and rigidity. An unvalidated model is a weak foundation for the proposed design principles.
+  - **Resolution test** Provide experimental validation of the structural model, or clearly state that the model is a hypothesis to be tested. If validation is not possible, temper the claims about the specific architecture.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the proposed mechanism
+  - **Claim pointer** The authors suggest that the mechanism of cooperative multivalency converting disorder into a functional rod is a "generalizable strategy for tuning length, rigidity, and flexibility in large protein architectures."
+  - **Evidence pointer** Discussion section
+  - **Concern** This is a broad claim based on a single example. While the concept is interesting, the authors do not provide evidence that this mechanism is used elsewhere or that it can be applied as a design principle. The discussion of other LC8 partners (ASCIZ, Nup159) highlights differences rather than similarities.
+  - **Why it matters** Overgeneralization can mislead the field. The claim should be framed as a hypothesis or a potential design principle, not a demonstrated one.
+  - **Resolution test** Either provide additional examples or soften the claim to reflect that this is a proposed principle based on a single, detailed case study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 2a
+  - **Evidence pointer** Figure 2a
+  - **Issue** The colocalization images are qualitative. Quantification of colocalization (e.g., Pearson's coefficient) across multiple cells would strengthen the claim.
+  - **Required correction** Provide a quantitative analysis of colocalization.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** ITC figures
+  - **Evidence pointer** Figures 3d, 4a,d,e, 6d
+  - **Issue** The ITC figures show raw data and fits, but the derived thermodynamic parameters (Kd, ΔH, ΔS) are only mentioned in the text for some experiments. A summary table of all ITC parameters would be helpful.
+  - **Required correction** Add a table summarizing all ITC-derived parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** AlphaFold predictions
+  - **Evidence pointer** Methods section "AlphaFold LC8 motif predictions"
+  - **Issue** The methods for AlphaFold predictions are described, but the specific version of AlphaFold/ColabFold and the confidence metrics used are not fully detailed.
+  - **Required correction** Provide the exact software version and the specific thresholds used for the exclusive and inclusive criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of EM data
+  - **Affected element** Figure 6g–j
+  - **Evidence pointer** Figure 6g–j
+  - **Issue** The EM class averages are shown, but the number of particles in each class is only mentioned in the text for some. The heterogeneity of the samples is acknowledged but not fully discussed.
+  - **Required correction** Clearly state the number of particles in each class average in the figure legend.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors do not discuss alternative explanations for the observed rod-like structures, such as liquid-liquid phase separation or simple charge-charge interactions.
+  - **Required correction** Add a brief discussion of alternative models and why the proposed cooperative multivalency model is preferred.
+- **Technical failings that need to be addressed before the case is established** The lack of functional in-cell experiments (R1-M2) is a significant gap. The quantitative reliability of the ITC stoichiometry (R1-M1) needs to be addressed. The structural model requires experimental validation or should be presented as a hypothesis (R1-M3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The concept of using cooperative multivalency of a hub protein to convert a disordered region into a rigid, functional rod is novel and not previously described for LC8 or KANK1.
+  - **Scientific importance** High. The findings address a fundamental question in cell biology regarding how disordered proteins can achieve defined structures and functions. The proposed mechanism could have broad implications for understanding other multivalent assemblies.
+  - **Interdisciplinary readership** High. The work bridges cell biology, biochemistry, biophysics, and computational biology, making it of interest to a wide audience.
+  - **Technical soundness** Moderate. The combination of methods is appropriate, but the quantitative rigor of the ITC analysis and the lack of experimental validation for the structural model are weaknesses. The in vivo relevance is not established.
+  - **Readability for nonspecialists** Good. The manuscript is clearly written, with a logical flow and helpful figures. The abstract is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the in vitro data are suggestive. However, the lack of functional validation and the quantitative uncertainties in key measurements prevent the case from being fully established. The authors should be encouraged to address these concerns with additional experiments and a more cautious interpretation of their data.
+
+## Risk / unsupported claims
+- The claim that the LC8-KANK1 interaction is functionally significant for bridging the membrane-microtubule gap is unsupported by direct experimental evidence.
+- The specific structural model of the LC8-KANK1 rod, including the exact arrangement of 15 LC8 dimers, is not validated by experimental data.
+- The claim that this mechanism is a "generalizable strategy" is an extrapolation from a single example and is not supported by evidence.
+- The in vivo relevance of the observed colocalization is not established, as no functional perturbation experiments were performed.
+- The quantitative accuracy of the ITC-derived stoichiometries is uncertain due to acknowledged limitations in the fitting model and software.

@@ -1,0 +1,243 @@
+{
+  "identity": {
+    "pmid": "41498278",
+    "doi": "10.1039/d5sm00828j",
+    "title": "Dynamics of phase separation in non-local elastic networks."
+  },
+  "content": {
+    "abstract": "Phase separation of a liquid mixture embedded within an elastic network is relevant to a wide range of natural and industrial systems, including biomolecular condensates interacting with the cytoskeleton, structural colouring in bird feathers, and gas bubbles forming within soft sediments. Recent experiments in synthetic polymer gels have demonstrated that when the size of phase-separated domains is comparable to the characteristic pore size of the network, a patterned phase with a well-defined length scale may emerge. Theoretical works based on an equilibrium approach have attributed this pattern formation to non-local elastic effects arising from heterogeneity of the underlying network. Here, we extend these ideas by developing a dynamic theory in which phase separation is coupled to non-local elasticity via the framework of large-deformation poroelasticity. We study our model via both linear stability analysis and numerical simulation, identifying the parameter space in which phase separation occurs, and investigating the impact of different elasticity models. We find that although local elasticity can inhibit phase separation and affect domain count, it is unable to completely suppress coarsening. In contrast, non-local elasticity arrests coarsening to form patterned domains with a well-defined length scale that decreases with increasing stiffness. Our modelling framework thus paves the way for quantitative comparisons between simulations and experiments, for example by considering a strain-stiffening network rheology.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Paulin, Oliver W",
+        "Qiang, Yicheng",
+        "Zwicker, David"
+      ],
+      "short_names": [
+        "Paulin OW",
+        "Qiang Y",
+        "Zwicker D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5922-7996",
+        "ORCID: 0000-0003-2053-079X",
+        "ORCID: 0000-0002-3909-3334"
+      ],
+      "affiliations": [
+        "Max Planck Institute for Dynamics and Self-Organization, Am Fassberg 17, 37077 Gottingen, Germany. david.zwicker@ds.mpg.de.",
+        "Max Planck Institute for Dynamics and Self-Organization, Am Fassberg 17, 37077 Gottingen, Germany. david.zwicker@ds.mpg.de.",
+        "Max Planck Institute for Dynamics and Self-Organization, Am Fassberg 17, 37077 Gottingen, Germany. david.zwicker@ds.mpg.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Paulin, Oliver W",
+        "short_name": "Paulin OW",
+        "identifiers": [
+          "0000-0001-5922-7996"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Dynamics and Self-Organization, Am Faßberg 17, 37077 Göttingen, Germany. david.zwicker@ds.mpg.de."
+        ]
+      },
+      {
+        "full_name": "Qiang, Yicheng",
+        "short_name": "Qiang Y",
+        "identifiers": [
+          "0000-0003-2053-079X"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Dynamics and Self-Organization, Am Faßberg 17, 37077 Göttingen, Germany. david.zwicker@ds.mpg.de."
+        ]
+      },
+      {
+        "full_name": "Zwicker, David",
+        "short_name": "Zwicker D",
+        "identifiers": [
+          "0000-0002-3909-3334"
+        ],
+        "affiliations": [
+          "Max Planck Institute for Dynamics and Self-Organization, Am Faßberg 17, 37077 Göttingen, Germany. david.zwicker@ds.mpg.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Soft matter"
+    ],
+    "journal_abbrev": [
+      "Soft Matter"
+    ],
+    "pub_date": "2026 Feb 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/07 13:17",
+    "fetched_at": "2026-09-17 23:38:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41400267",
+      "41084487",
+      "40981576",
+      "37884672",
+      "37770446",
+      "37523528",
+      "36958180",
+      "36565390",
+      "35540725",
+      "35098222",
+      "34588303",
+      "33449767",
+      "33048111",
+      "32525198",
+      "32519711",
+      "32289983",
+      "32273899",
+      "29542442"
+    ],
+    "similar": [
+      "41498278",
+      "41400267",
+      "23912807",
+      "37770446",
+      "19243107",
+      "33568666",
+      "31922166",
+      "37675940",
+      "39630960",
+      "31462779",
+      "33449767",
+      "38489385",
+      "34871298",
+      "36436394",
+      "29136577",
+      "22502548",
+      "36321557",
+      "32273899",
+      "35280962",
+      "39590032",
+      "19658531",
+      "39817976",
+      "35596490",
+      "40782375",
+      "33528485",
+      "23781818",
+      "38976113",
+      "41279444",
+      "26247391",
+      "36565390",
+      "40343860",
+      "21234741",
+      "23234176",
+      "17930270",
+      "36932516",
+      "21257141",
+      "37489654",
+      "38376695",
+      "19809103",
+      "40291420",
+      "40349388",
+      "23748051",
+      "29323685",
+      "28166607",
+      "33704061",
+      "23916723",
+      "35098222",
+      "18366204",
+      "40791191",
+      "35610970",
+      "21709319",
+      "37464704",
+      "16035871",
+      "33289764",
+      "37523528",
+      "15446995",
+      "32082069",
+      "22988067",
+      "33218226",
+      "34636323",
+      "19872548",
+      "36829460",
+      "38631100",
+      "29262162",
+      "27480733",
+      "20481756",
+      "33113512",
+      "31680703",
+      "37181784",
+      "40981576",
+      "11415131",
+      "35796975",
+      "38907389",
+      "32708547",
+      "31497836",
+      "41637578",
+      "31238110",
+      "26274211",
+      "40534071",
+      "31152942",
+      "35844477",
+      "21632610",
+      "36993212",
+      "36771812",
+      "41535729",
+      "28437698",
+      "38526948",
+      "41467681",
+      "38349628",
+      "17358194",
+      "41480717",
+      "24730856",
+      "23215400",
+      "27112937",
+      "39526744",
+      "36222390",
+      "31259347",
+      "37094002",
+      "31574668",
+      "25956121"
+    ],
+    "review": [
+      "41498278",
+      "36321557",
+      "23748051",
+      "23916723",
+      "35098222",
+      "33289764",
+      "21632610"
+    ],
+    "pmc": [
+      "12776658"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41498278/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d5sm00828j",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

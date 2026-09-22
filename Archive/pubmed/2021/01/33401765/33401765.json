@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "33401765",
+    "doi": "10.3390/molecules26010198",
+    "title": "Binding Ensembles of p53-MDM2 Peptide Inhibitors by Combining Bayesian Inference and Atomistic Simulations."
+  },
+  "content": {
+    "abstract": "Designing peptide inhibitors of the p53-MDM2 interaction against cancer is of wide interest. Computational modeling and virtual screening are a well established step in the rational design of small molecules. But they face challenges for binding flexible peptide molecules that fold upon binding. We look at the ability of five different peptides, three of which are intrinsically disordered, to bind to MDM2 with a new Bayesian inference approach (MELD x MD). The method is able to capture the folding upon binding mechanism and differentiate binding preferences between the five peptides. Processing the ensembles with statistical mechanics tools depicts the most likely bound conformations and hints at differences in the binding mechanism. Finally, the study shows the importance of capturing two driving forces to binding in this system: the ability of peptides to adopt bound conformations (DeltaGconformation) and the interaction between interface residues (DeltaGinteraction).",
+    "keywords": [
+      "IDP 1",
+      "MDM2 7",
+      "MELDxMD 4",
+      "advanced sampling 5",
+      "binding 2",
+      "molecular dynamics 3",
+      "p53 6"
+    ],
+    "mesh_terms": [
+      "Bayes Theorem",
+      "Cluster Analysis",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Models, Molecular",
+      "Molecular Dynamics Simulation",
+      "Peptides/*chemistry/*metabolism/pharmacology",
+      "Protein Conformation",
+      "Protein Interaction Domains and Motifs",
+      "Proto-Oncogene Proteins c-mdm2/chemistry/*metabolism",
+      "Tumor Suppressor Protein p53/chemistry/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lang, Lijun",
+        "Perez, Alberto"
+      ],
+      "short_names": [
+        "Lang L",
+        "Perez A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6076-2187",
+        "ORCID: 0000-0002-5054-5338"
+      ],
+      "affiliations": [
+        "Chemistry Department, University of Florida, Gainesville, FL 32611, USA.",
+        "Chemistry Department, University of Florida, Gainesville, FL 32611, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lang, Lijun",
+        "short_name": "Lang L",
+        "identifiers": [
+          "0000-0001-6076-2187"
+        ],
+        "affiliations": [
+          "Chemistry Department, University of Florida, Gainesville, FL 32611, USA."
+        ]
+      },
+      {
+        "full_name": "Perez, Alberto",
+        "short_name": "Perez A",
+        "identifiers": [
+          "0000-0002-5054-5338"
+        ],
+        "affiliations": [
+          "Chemistry Department, University of Florida, Gainesville, FL 32611, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2021 Jan 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/01/07 06:00",
+    "fetched_at": "2026-09-20 00:35:30"
+  },
+  "links": {
+    "cites": [
+      "42013870",
+      "41979361",
+      "40766644",
+      "40136079",
+      "39893583",
+      "38680429",
+      "37993971",
+      "37496997",
+      "37014944",
+      "36860646",
+      "36715303",
+      "35207548",
+      "34207044",
+      "34095231"
+    ],
+    "refs": [
+      "32324992",
+      "31161213",
+      "30407805",
+      "30368849",
+      "29746661",
+      "29733895",
+      "29643228",
+      "29547695",
+      "29289136",
+      "29281622",
+      "29092940",
+      "28937668",
+      "28746339",
+      "28460116",
+      "28430871",
+      "28042966",
+      "27492236",
+      "26976603",
+      "26588361",
+      "26583988",
+      "26574453",
+      "26574392",
+      "26574340",
+      "26574266",
+      "26351667",
+      "26038552",
+      "25969449",
+      "25943545",
+      "25788871",
+      "25255057",
+      "24756026",
+      "23946421",
+      "23822324",
+      "23516555",
+      "21545110",
+      "21295684",
+      "21075307",
+      "19910468",
+      "19217391",
+      "19147532",
+      "18573087",
+      "18094406",
+      "17938582",
+      "17302414",
+      "16981200",
+      "15953616",
+      "15116359",
+      "14707283",
+      "12395429",
+      "12381304",
+      "12101245",
+      "8875929",
+      "8749853",
+      "8744570"
+    ],
+    "similar": [
+      "33401765",
+      "18800837",
+      "21528875",
+      "38916177",
+      "19713735",
+      "38679255",
+      "21541066",
+      "26032728",
+      "31421630",
+      "29142290",
+      "27538695",
+      "26701330",
+      "27905468",
+      "27532687",
+      "25115702",
+      "16474402",
+      "31473433",
+      "24211465",
+      "18256546",
+      "26138282",
+      "24491548",
+      "28425639",
+      "31282659",
+      "28042966",
+      "25362358",
+      "26046940",
+      "19305137",
+      "28834715",
+      "24264557",
+      "25840370",
+      "32651397",
+      "26676832",
+      "30679555",
+      "21764342",
+      "24342622",
+      "31795143",
+      "19958516",
+      "29878773",
+      "17302414",
+      "31253862",
+      "25584963",
+      "16817233",
+      "12381304",
+      "28916339",
+      "21904608",
+      "24207125",
+      "20436290",
+      "28042965",
+      "24418072",
+      "32353067",
+      "25377899",
+      "26742101",
+      "33140956",
+      "17002294",
+      "16789731",
+      "35536362",
+      "28000315",
+      "17938582",
+      "23922660",
+      "29696695",
+      "16159876",
+      "21191186",
+      "25275651",
+      "16338385",
+      "32192337",
+      "27269808",
+      "31781989",
+      "22815859",
+      "32001262",
+      "17957142",
+      "21088491",
+      "18435534",
+      "22617389",
+      "20190571",
+      "30855964",
+      "25808617",
+      "28992700",
+      "22148351",
+      "27907876",
+      "20056466",
+      "27792778",
+      "28871352",
+      "25207671",
+      "21425995",
+      "39064955",
+      "18826207",
+      "25591003",
+      "28712389",
+      "20226197",
+      "29326019",
+      "33905247",
+      "30513790",
+      "31089613",
+      "24210632",
+      "15001357",
+      "14741215",
+      "23214419",
+      "35702782",
+      "23660015",
+      "20490618",
+      "30255959",
+      "27050388",
+      "22916232",
+      "39190324",
+      "19457663",
+      "34739233",
+      "34799573",
+      "23892546",
+      "35758642",
+      "37014944",
+      "35037401",
+      "34534740",
+      "25354189",
+      "39002136",
+      "23028280",
+      "35962177",
+      "34228913",
+      "20158215",
+      "38078851",
+      "39269272",
+      "22949826",
+      "21409387",
+      "35749260",
+      "22777995",
+      "21943426",
+      "25135216",
+      "20449836",
+      "25099811",
+      "33980885",
+      "36774359",
+      "30702850",
+      "36988562",
+      "33926076",
+      "38973087",
+      "18004834",
+      "18777159",
+      "39361673",
+      "34164069",
+      "35298819",
+      "22174265",
+      "36727436",
+      "19241367",
+      "29062047",
+      "19827079",
+      "38863138",
+      "37236147",
+      "38946265",
+      "37024567",
+      "26038552",
+      "35655546",
+      "35166067"
+    ],
+    "review": [
+      "33401765",
+      "26676832",
+      "21425995",
+      "22949826",
+      "21409387"
+    ],
+    "pmc": [
+      "7795311"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules26010198",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33401765/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33401765",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33401765",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

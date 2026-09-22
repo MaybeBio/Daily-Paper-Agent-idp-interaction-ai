@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (title, abstract, introduction, materials sections)
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the presented review chapter; no assessment of formatting or editorial compliance
+- **Shared manuscript claim summary** The chapter reviews computational and theoretical approaches for studying protein-RNA liquid-liquid phase separation (LLPS), emphasizing the need for multiscale models that capture both equilibrium thermodynamics and nonequilibrium processes such as transcription. It surveys atomistic, coarse-grained, and field-theoretic methods, highlighting their strengths, limitations, and recent applications.
+- **Visible evidence base** Abstract, Introduction, Materials section with subsections on Molecular Dynamics Simulations and Field-Theoretical Models; equations for HPS and minimalistic energy functions; references to figures (Fig. 1-4) and prior studies
+- **Missing materials affecting confidence** Figures and their captions; full reference list; any concluding or discussion sections; details of model parameterization and validation beyond brief mentions; experimental datasets used for comparison
+
+## Reviewer
+- **Overall assessment** This is a well-structured review chapter that provides a useful overview of computational methods for studying protein-RNA condensation. The authors successfully bridge equilibrium and nonequilibrium perspectives, which is a timely and important contribution to the field. The technical descriptions of models are generally accurate, though some claims lack sufficient detail or supporting evidence within the provided text. The chapter would benefit from clearer articulation of model limitations and more explicit guidance for model selection.
+- **Who would be interested in the results, and why** Researchers in biophysics, computational biology, and cell biology studying biomolecular condensates, particularly those interested in protein-RNA interactions and phase separation. The chapter is also relevant for experimentalists seeking to understand the theoretical frameworks behind condensate behavior and for modelers looking for an entry point into multiscale approaches.
+- **Major strengths** The chapter provides a comprehensive and accessible overview of both particle-based and field-theoretic methods, which is valuable for a broad audience. The emphasis on nonequilibrium aspects, particularly the coupling of phase separation to transcription, is a forward-looking perspective that distinguishes this work from other reviews. The inclusion of specific model equations and examples of recent applications adds practical value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The chapter claims that the HPS model, as generalized for protein-RNA interactions, makes a "stringent assumption that RNA base behaves the same way as the typically charged protein residue."
+  - **Evidence pointer** Materials section, Molecular Dynamics Simulations subsection, location not provided
+  - **Concern** The claim about the HPS model's assumption regarding RNA bases is presented without direct citation or detailed explanation of how the generalization was implemented. The authors state that lambda values were assigned to RNA bases, but the specific nature of this assignment and its implications for the model's accuracy are not fully elaborated. This is a critical point because it underpins the subsequent critique of the model's transferability.
+  - **Why it matters** If the characterization of the HPS model's limitation is inaccurate or incomplete, it could mislead readers about the model's applicability. The claim is central to the authors' argument that current coarse-grained models are not fully predictive, which is a key message of the chapter.
+  - **Resolution test** The authors should provide a more detailed description of how the HPS model was extended to RNA, including the specific parameterization strategy, and cite the original study (Mittal group) more explicitly. They should also clarify whether the "stringent assumption" is a limitation acknowledged by the original authors or an interpretation by the current authors.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence support
+  - **Claim pointer** The chapter states that "using experiment and bioinformatic derived potentials will remain crucial" for improving coarse-grained models, based on a study of Ddx4 mutations.
+  - **Evidence pointer** Materials section, Molecular Dynamics Simulations subsection, location not provided
+  - **Concern** The discussion of the Ddx4 study is brief and lacks specific details about the experimental data used, the mutations tested, and the quantitative comparison between model predictions and experiments. The conclusion that "neither hydrophobicity scheme nor one augmented with arginine/lysine-aromatic cation–π interactions consistently accounted for available experimental LLPS data" is stated without showing the actual data or error metrics.
+  - **Why it matters** This is a strong claim about the limitations of current models, and it is used to justify the authors' recommendation for using experiment-derived potentials. Without sufficient evidence, the claim appears anecdotal rather than systematic, which weakens the chapter's authority.
+  - **Resolution test** The authors should provide more quantitative details from the Ddx4 study, such as the range of predicted versus experimental phase separation propensities, the number of mutations tested, and the statistical measures used to assess agreement. Alternatively, they could cite additional studies that support this conclusion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and completeness
+  - **Claim pointer** The chapter claims to provide "an overview of computational models and theoretical ideas" for protein-RNA condensation, with a focus on equilibrium and nonequilibrium aspects.
+  - **Evidence pointer** Abstract and Introduction, location not provided
+  - **Concern** The chapter's scope is ambitious, but the provided text only covers two main categories of methods (molecular dynamics and field-theoretic models). Other important approaches, such as lattice models, machine-learning potentials, or hybrid methods, are mentioned only in passing. The nonequilibrium discussion is largely limited to transcription-coupled processes, leaving out other relevant nonequilibrium phenomena (e.g., active transport, enzymatic regulation beyond simple binding).
+  - **Why it matters** The title and abstract promise a broad multiscale perspective, but the actual content is narrower. This discrepancy could disappoint readers seeking a comprehensive review and may limit the chapter's utility as a reference.
+  - **Resolution test** The authors should either expand the coverage to include a more balanced treatment of all major method categories or adjust the title and abstract to reflect the actual scope. They should also consider adding a section on open challenges and future directions to contextualize the reviewed methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 3
+  - **Evidence pointer** Location not provided
+  - **Issue** The sentence "This emerging view of the connection between phase separation and gene regulation promises new perspectives for the development of new synthetic pot cellular systems" contains a typo ("pot" should likely be "potent" or "prototypical") and is awkwardly phrased.
+  - **Required correction** Revise the sentence for clarity and correct the typo, e.g., "This emerging view promises new perspectives for the development of synthetic cellular systems and pharmaceutical strategies."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Materials section, Field-Theoretical Models subsection
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states "The dynamics phase separation of the system is resolved either via conservative (Cahn-Hilliard or Model B) or nonconservative (Allen-Cahn or Model B) order parameters." The Allen-Cahn equation is typically associated with Model A, not Model B, in the standard classification of dynamic critical phenomena.
+  - **Required correction** Correct the model classification: "conservative (Cahn-Hilliard or Model B) or nonconservative (Allen-Cahn or Model A) order parameters."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Materials section, Molecular Dynamics Simulations subsection
+  - **Evidence pointer** Location not provided
+  - **Issue** The equation for the HPS energy function is presented without defining all variables (e.g., the meaning of epsilon in the context of the equation is unclear, and the cutoff radius rc is not explained).
+  - **Required correction** Add a brief explanation of all symbols in the equation, including epsilon and rc, to make the model accessible to nonspecialist readers.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Evidence support
+  - **Affected element** Materials section, Field-Theoretical Models subsection
+  - **Evidence pointer** Location not provided
+  - **Issue** The claim that "phase-field methods could be a valuable tool alongside more traditional polymeric simulations" is supported only by references to two studies on chromatin organization. The authors do not discuss potential limitations of phase-field methods (e.g., parameter fitting, numerical stability) in this context.
+  - **Required correction** Add a brief discussion of the limitations and challenges of phase-field methods to provide a balanced perspective.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because they involve claims about model limitations that are central to the chapter's message but are not sufficiently supported by the provided evidence. R1-M3 is non-blocking but should be addressed to align the chapter's scope with its stated aims.
+- **Assessment against Nature-style criteria** Originality: The chapter offers a useful synthesis of equilibrium and nonequilibrium approaches, which is not commonly found in existing reviews. Scientific importance: The topic is highly relevant given the growing interest in biomolecular condensates and their role in disease. Interdisciplinary readership: The chapter is accessible to both modelers and experimentalists, though some technical sections may be challenging for nonspecialists. Technical soundness: The descriptions of models are generally accurate, but the lack of detail on parameterization and validation weakens the technical rigor. Readability for nonspecialists: The writing is clear overall, but the equations and some technical terms could benefit from more explanation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The chapter has clear value as a review, but the blocking concerns regarding the HPS model critique and the Ddx4 study need to be addressed with more detailed evidence and citations. The minor comments should also be incorporated to improve clarity and accuracy.
+
+## Risk / unsupported claims
+- The claim that the HPS model's generalization to RNA makes a "stringent assumption" is not fully supported by the provided text, as the specific implementation details are not described.
+- The conclusion that "neither hydrophobicity scheme nor one augmented with arginine/lysine-aromatic cation–π interactions consistently accounted for available experimental LLPS data" is stated without quantitative evidence from the cited Ddx4 study.
+- The statement that "kinetic processes can lead to completely inverted topologies compared to the equilibrium picture" (from Laghmach et al.) is presented without showing the specific results or conditions under which this occurs.
+- The chapter's claim to cover "multiscale" modeling is only partially fulfilled, as the text focuses on two method categories without discussing how they integrate across scales.

@@ -1,0 +1,127 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided.
+- **Assessment boundary** Technical and scientific evaluation of the proposed GCN-based methods for protein complex detection, based solely on the supplied text. No external data, code, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors propose multiple graph convolutional network (GCN) variants for detecting protein complexes from PPI networks, including multi-class and multi-label classification formulations, a sparse matrix implementation for efficiency, an unsupervised NOCD model, and a representation learning approach combining GCN features with mean-shift clustering. They claim significant performance improvements over state-of-the-art methods on Human, Mouse, Collins, and Gavin datasets.
+- **Visible evidence base** Results reported in text for test accuracy (84.26% on Collins), Hamming loss/score and subset accuracy (multi-label, 100 communities), precision/recall/F-score (0.676/0.837/0.748 on Human), NMI scores (0.5 for top 10, 0.105 for top 100 on Human), and grid search outcomes for MCLA (237 complexes) and HBGF (66 complexes) on Gavin. Tables 2 and 3 are referenced but not provided.
+- **Missing materials affecting confidence** All tables and figures (Tables 1-3, Figures 1-3) are referenced but not included. Dataset preprocessing details, hyperparameter choices beyond those stated, baseline method configurations, statistical significance tests, and runtime comparisons are absent. The code repository is mentioned but was not evaluated.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely protein complex detection from PPI networks using modern graph neural network architectures. The authors explore several reasonable formulations and report promising numerical results. However, the manuscript in its current form has substantial gaps in experimental reporting, methodological clarity, and comparative evaluation that prevent a full assessment of the claims. The core ideas are not entirely novel, as GCNs have been applied to community detection and protein function prediction, but the specific combination of techniques and the focus on protein complexes may offer incremental value. The writing is generally accessible but contains several unclear passages and potential technical inaccuracies.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-protein interaction network analysis, protein complex prediction, and graph-based machine learning applications in biology. Researchers developing GCN methods for biological network problems may also find the methodological variations of interest.
+- **Major strengths** The manuscript addresses a biologically important problem with modern deep learning tools. The authors explore multiple GCN formulations, including supervised and unsupervised approaches, which demonstrates a systematic exploration of the problem space. The inclusion of sparse matrix operations to address scalability is a practical consideration. The use of multiple datasets across species adds some breadth to the evaluation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental rigor
+  - **Claim pointer** The authors claim "significantly better performance than the previous state-of-the-art methods" across multiple datasets.
+  - **Evidence pointer** Section 3, Tables 2 and 3 (not provided)
+  - **Concern** The central performance claims cannot be verified because all comparison tables are missing from the provided material. No baseline method results, no error bars, no statistical significance tests, and no clear description of which methods are compared against which are presented. The single reported F-score of 0.748 on Human data is presented without context of what state-of-the-art methods achieve on the same dataset.
+  - **Why it matters** Without a complete comparative evaluation, the central claim of outperforming existing methods is unsupported. The reader cannot assess whether the proposed methods offer genuine improvements or merely comparable performance with higher computational cost.
+  - **Resolution test** Provide complete tables with all baseline method results, include standard deviations or confidence intervals across multiple runs, and perform statistical significance testing (e.g., Wilcoxon signed-rank test) against each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The multi-class GCN classification method with label size 2N is described as a key contribution, where N is the number of complexes.
+  - **Evidence pointer** Section 2.2, Section 3.1
+  - **Concern** The description of the label encoding scheme is confusing. The authors state that labels are one-hot encoded with length 2N, but it is unclear what the 2N represents. If N is the number of complexes, why is the label length 2N rather than N? The relationship between the label encoding and the actual complex membership is not explained. Additionally, the ground truth labels are derived from CORUM reference complexes, but the mapping between predicted labels and known complexes is not described.
+  - **Why it matters** The core methodological contribution is the classification formulation, but if the label encoding is not clearly specified, the method cannot be reproduced or properly evaluated. This ambiguity affects the validity of all reported results.
+  - **Resolution test** Provide a clear formal definition of the label space, including how complexes are assigned to label positions, how overlapping membership is handled, and how predictions are mapped back to complex assignments for evaluation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The NOCD model is described as a "completely unsupervised method" that learns community structure from the adjacency matrix and node features.
+  - **Evidence pointer** Section 2.3, Section 3.2
+  - **Concern** The NOCD model, as originally proposed, is a generative model that requires specification of the number of communities and uses a Bernoulli-Poisson model for link prediction. The authors state they implemented it on "50 communities" but do not explain how this number was chosen, how the model was evaluated against ground truth complexes, or what the NMI scores represent. The evaluation appears to use CORUM complexes as ground truth, but the matching procedure between predicted communities and known complexes is not described.
+  - **Why it matters** Unsupervised community detection methods require careful evaluation protocols to establish that detected communities correspond to biologically meaningful complexes. Without this, the reported NMI scores are difficult to interpret.
+  - **Resolution test** Describe the evaluation protocol for unsupervised methods, including how predicted communities are matched to known complexes, how the number of communities is selected, and whether the results are robust to this choice.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental completeness
+  - **Claim pointer** The authors claim the sparse matrix implementation "significantly improves the scalability of the existing GCN network."
+  - **Evidence pointer** Section 2.3, Section 3
+  - **Concern** No runtime, memory usage, or scalability experiments are reported. The claim of improved scalability is made without any supporting measurements. The manuscript does not compare dense versus sparse implementations in terms of computational cost on any dataset.
+  - **Why it matters** Scalability is presented as a key contribution, but without empirical evidence, this claim is unsubstantiated. For large PPI networks, computational efficiency is a practical concern, and the authors should demonstrate the claimed improvement.
+  - **Resolution test** Include runtime and memory measurements for dense versus sparse implementations across datasets of increasing size, and compare against at least one existing method.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological validation
+  - **Claim pointer** The authors state the proposed methods "accurately detected human complexes such as EXT1/EXT2 complex, SUFU/GLIS3 complex, and NELF complex."
+  - **Evidence pointer** Section 4, Figure 3 (not provided)
+  - **Concern** The biological validation is limited to three examples mentioned in the discussion. No systematic functional enrichment analysis, GO term analysis, or comparison with known complex databases beyond CORUM is presented. The biological significance of the detected complexes is not thoroughly evaluated.
+  - **Why it matters** For a biology-focused application, demonstrating biological relevance beyond overlap with known complexes strengthens the case for the method's utility. The current evidence is anecdotal.
+  - **Resolution test** Include functional enrichment analysis of detected complexes, comparison with additional reference databases, and case studies with biological interpretation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, label encoding description
+  - **Evidence pointer** Section 2.2
+  - **Issue** The notation for the loss function in the multi-label case is incomplete. The equation is cut off and the summation over classes is not fully specified.
+  - **Required correction** Provide the complete loss function equation with all terms clearly defined.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1, dataset preprocessing
+  - **Evidence pointer** Section 2.1
+  - **Issue** The preprocessing steps are described only briefly ("removing duplicate nodes/interaction edges"). The criteria for including or excluding interactions, handling of self-loops, and any filtering thresholds are not specified.
+  - **Required correction** Provide detailed preprocessing steps, including any confidence score thresholds, filtering criteria, and the final number of nodes and edges in each dataset.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Section 2.3, mean-shift kernel
+  - **Evidence pointer** Section 2.3
+  - **Issue** The kernel function for mean-shift is written as "where u is the data point and h is the bandwidth," but the actual functional form of the kernel is not provided. The equation appears incomplete.
+  - **Required correction** Provide the complete kernel function and specify how the bandwidth parameter was selected.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.1, hyperparameters
+  - **Evidence pointer** Section 3.1
+  - **Issue** The learning rate is given as 0.01 and epochs as 200, but other hyperparameters such as number of layers, hidden dimensions (except for the NOCD model), dropout rates, and weight initialization are not specified for the classification models.
+  - **Required correction** Provide a complete list of hyperparameters for all models used in the experiments.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 3.2, NOCD results
+  - **Evidence pointer** Section 3.2, Table 2
+  - **Issue** The NMI scores are reported for top 10 and top 100 complexes, but the criteria for "top" complexes is not defined. It is unclear whether this refers to the largest predicted communities, the highest-confidence predictions, or the most well-known complexes.
+  - **Required correction** Define what "top" means in this context and explain why this subset analysis is informative.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, MCLA and HBGF description
+  - **Evidence pointer** Section 2.3
+  - **Issue** The description of MCLA and HBGF is very brief and assumes prior knowledge. The grid search procedure is mentioned but the range of parameters searched and the selection criteria for the "best" performance are not specified.
+  - **Required correction** Provide a brief description of how MCLA and HBGF work in this context, and specify the grid search range and selection criteria.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** Multiple sections
+  - **Issue** Several sentences contain grammatical errors or unclear phrasing (e.g., "The RNA-RNA clusters are labeled with unique IDs" appears as a standalone fragment; "the higher value of the indicates" is incomplete).
+  - **Required correction** Proofread the manuscript for grammatical correctness and clarity.
+
+## Risk / unsupported claims
+- The claim of "significantly better performance than the previous state-of-the-art methods" is unsupported because comparison tables are not provided.
+- The claim that the sparse matrix implementation "significantly improves scalability" is unsupported by any empirical measurements.
+- The claim that the proposed methods "outperformed all the state-of-the-art clustering algorithms" is unverifiable without the referenced tables.
+- The biological significance claims based on three example complexes are anecdotal and not systematically validated.
+- The performance of the multi-class GCN with label size 2N cannot be assessed due to unclear label encoding.
+- The NOCD model results cannot be interpreted without details on community number selection and evaluation matching.
+- The effectiveness of the custom feature matrix derived from RNA interaction networks is not clearly demonstrated, as results are only mentioned for NOCD with and without this feature.
+- The claim that the proposed methods "detect small complexes in which most of the state-of-the-art methods struggled" is not supported by quantitative comparison.
+
+## Assessment against Nature-style criteria
+- **Originality** Moderate. The application of GCNs to protein complex detection is a reasonable extension of existing graph neural network methods to a biological problem. However, GCNs have been previously applied to community detection and protein function prediction, so the novelty is incremental rather than fundamental. The specific combination of techniques, including the sparse matrix implementation and the use of RNA-derived features, adds some originality.
+- **Scientific importance** Moderate. Protein complex detection is an important problem in systems biology, and improved methods could have practical value. However, the manuscript does not demonstrate a substantial advance over existing methods, and the biological insights derived from the approach are limited.
+- **Interdisciplinary readership** Limited. The manuscript is primarily of interest to computational biologists and bioinformaticians. The lack of biological validation and the absence of clear biological findings limit its appeal to a broader biological audience. The methods are not presented in a way that would attract machine learning researchers, as the technical novelty is limited.
+- **Technical soundness** Currently insufficient. The methodological descriptions contain ambiguities, the experimental reporting is incomplete, and the evaluation lacks statistical rigor. The missing tables and figures prevent a full technical assessment.
+- **Readability for nonspecialists** The manuscript is written in a generally accessible style, but several technical passages are unclear or incomplete. The introduction provides useful biological context, but the methods section assumes familiarity with GCNs and clustering algorithms without adequate explanation.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript addresses a relevant problem and the authors have explored a reasonable set of approaches, but the missing experimental details, incomplete reporting of results, and unsupported performance claims prevent a positive recommendation. The authors should be encouraged to resubmit a revised version with complete results tables, detailed methodological descriptions, statistical significance testing, and scalability measurements. If the revised manuscript addresses these concerns and the results genuinely demonstrate improvements over state-of-the-art methods, the work could be suitable for publication in a specialized bioinformatics journal.

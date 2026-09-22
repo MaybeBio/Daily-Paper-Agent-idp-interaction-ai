@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "42444326",
+    "doi": "10.1021/jacs.6c04891",
+    "title": "A Glimpse into the Initial Microsecond of Biomolecular Condensation."
+  },
+  "content": {
+    "abstract": "Biomolecular condensation is a key process for cells to maintain their normal physiological activities. However, the process of phase transition remains mysterious, especially for the initial moments of condensation. Herein, we investigated the first microsecond of peptide condensation through temperature jump infrared spectroscopy and molecular dynamics simulations. These techniques overcome the limited spatiotemporal resolution of traditional approaches, allowing us to capture the molecular events and kinetic information on the initial moment for phase transition. The results reveal that structural transitions and early assembly of intrinsically disordered proteins occur on ultrafast time scales. Unexpectedly, backbone hydrogen bonding emerges as the overlooked key mediator to stabilize the local structure for the ultrafast condensation of hydrophobic polypeptides compared to hydrophobicity. By locking local structures, hydrogen bonds help to form more stable interaction interfaces. These findings indicate that hydrogen bonding could enable hydrophobic disordered proteins to adopt preorganized conformations in response to environmental stimuli and serve as a key factor in mediating the assembly kinetics in complex cellular environments.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Hydrogen Bonding",
+      "Kinetics",
+      "*Peptides/chemistry",
+      "Phase Transition",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Temperature"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Longchen",
+        "Liao, Guohong",
+        "Zhang, Yumeng",
+        "Guo, Yinfeng",
+        "Chen, Junlin",
+        "Zhou, Shuqi",
+        "Wu, Zhili",
+        "Huang, Yanan",
+        "Lu, Xingyu",
+        "Chen, Chunlai",
+        "Chen, Hailong",
+        "Weng, Yuxiang",
+        "Zhang, Xin"
+      ],
+      "short_names": [
+        "Zhu L",
+        "Liao G",
+        "Zhang Y",
+        "Guo Y",
+        "Chen J",
+        "Zhou S",
+        "Wu Z",
+        "Huang Y",
+        "Lu X",
+        "Chen C",
+        "Chen H",
+        "Weng Y",
+        "Zhang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6405-8362",
+        "ORCID: 0009-0002-4478-8699",
+        "ORCID: 0000-0002-0128-7766",
+        "ORCID: 0000-0002-3456-7836",
+        "ORCID: 0000-0003-0423-2266",
+        "ORCID: 0000-0001-6686-1645"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Westlake University, 600 Dunyu Road, Hangzhou310030Zhejiang, P. R. China.",
+        "Laboratory of Soft Matter Physics, Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences, Beijing100190, P. R. China.",
+        "University of Chinese Academy of Sciences, Beijing100049, P. R. China.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts02139, United States.",
+        "Department of Chemistry, Westlake University, 600 Dunyu Road, Hangzhou310030Zhejiang, P. R. China.",
+        "School of Life Sciences, Westlake University, Hangzhou310030, P. R. China.",
+        "Department of Chemistry, Westlake University, 600 Dunyu Road, Hangzhou310030Zhejiang, P. R. China.",
+        "School of Life Sciences, Westlake University, Hangzhou310030, P. R. China.",
+        "State Key Laboratory of Membrane Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing100084, P. R. China.",
+        "Department of Chemistry, Westlake University, 600 Dunyu Road, Hangzhou310030Zhejiang, P. R. China.",
+        "Department of Chemistry, Westlake University, 600 Dunyu Road, Hangzhou310030Zhejiang, P. R. China.",
+        "Instrumentation and Service Center for Molecular Sciences, Westlake University, Hangzhou310024, China.",
+        "State Key Laboratory of Membrane Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing100084, P. R. China.",
+        "Laboratory of Soft Matter Physics, Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences, Beijing100190, P. R. China.",
+        "University of Chinese Academy of Sciences, Beijing100049, P. R. China.",
+        "Songshan Lake Materials Laboratory, Dongguan523808, P. R. China.",
+        "Laboratory of Soft Matter Physics, Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences, Beijing100190, P. R. China.",
+        "University of Chinese Academy of Sciences, Beijing100049, P. R. China.",
+        "Songshan Lake Materials Laboratory, Dongguan523808, P. R. China.",
+        "Department of Chemistry, Westlake University, 600 Dunyu Road, Hangzhou310030Zhejiang, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Longchen",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Westlake University, 600 Dunyu Road, Hangzhou310030Zhejiang, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Liao, Guohong",
+        "short_name": "Liao G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Soft Matter Physics, Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences, Beijing100190, P. R. China.",
+          "University of Chinese Academy of Sciences, Beijing100049, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yumeng",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0002-6405-8362"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts02139, United States."
+        ]
+      },
+      {
+        "full_name": "Guo, Yinfeng",
+        "short_name": "Guo Y",
+        "identifiers": [
+          "0009-0002-4478-8699"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Westlake University, 600 Dunyu Road, Hangzhou310030Zhejiang, P. R. China.",
+          "School of Life Sciences, Westlake University, Hangzhou310030, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Junlin",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Westlake University, 600 Dunyu Road, Hangzhou310030Zhejiang, P. R. China.",
+          "School of Life Sciences, Westlake University, Hangzhou310030, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Shuqi",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing100084, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhili",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Westlake University, 600 Dunyu Road, Hangzhou310030Zhejiang, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yanan",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Westlake University, 600 Dunyu Road, Hangzhou310030Zhejiang, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Lu, Xingyu",
+        "short_name": "Lu X",
+        "identifiers": [],
+        "affiliations": [
+          "Instrumentation and Service Center for Molecular Sciences, Westlake University, Hangzhou310024, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Chunlai",
+        "short_name": "Chen C",
+        "identifiers": [
+          "0000-0002-0128-7766"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing100084, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hailong",
+        "short_name": "Chen H",
+        "identifiers": [
+          "0000-0002-3456-7836"
+        ],
+        "affiliations": [
+          "Laboratory of Soft Matter Physics, Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences, Beijing100190, P. R. China.",
+          "University of Chinese Academy of Sciences, Beijing100049, P. R. China.",
+          "Songshan Lake Materials Laboratory, Dongguan523808, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Weng, Yuxiang",
+        "short_name": "Weng Y",
+        "identifiers": [
+          "0000-0003-0423-2266"
+        ],
+        "affiliations": [
+          "Laboratory of Soft Matter Physics, Beijing National Laboratory for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences, Beijing100190, P. R. China.",
+          "University of Chinese Academy of Sciences, Beijing100049, P. R. China.",
+          "Songshan Lake Materials Laboratory, Dongguan523808, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xin",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0000-0001-6686-1645"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Westlake University, 600 Dunyu Road, Hangzhou310030Zhejiang, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2026 Jul 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/14 06:35",
+    "fetched_at": "2026-09-18 04:57:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42444326",
+      "23912807",
+      "42475469",
+      "40136009",
+      "31667345",
+      "31470695",
+      "24571104",
+      "42556189",
+      "29734867",
+      "39561991",
+      "39466031",
+      "27819658",
+      "32866390",
+      "30259679",
+      "40748104",
+      "26301845",
+      "26579778",
+      "25855872",
+      "39907269",
+      "21999759",
+      "32393642",
+      "28593765",
+      "37815389",
+      "23484883",
+      "19425543",
+      "34941264",
+      "23822733",
+      "30134733",
+      "31136713",
+      "20494507",
+      "40062555",
+      "25207671",
+      "19680431",
+      "21289072",
+      "29509422",
+      "21534580",
+      "41266368",
+      "26698374",
+      "31270472",
+      "20888834",
+      "31259246",
+      "30021108",
+      "33139563",
+      "35384652",
+      "33302617",
+      "32579908",
+      "26325592",
+      "25387963",
+      "23382249",
+      "38252962",
+      "39808585",
+      "25048204",
+      "19260666",
+      "36179370",
+      "23811057",
+      "33812316",
+      "38348795",
+      "40455990",
+      "17068817",
+      "24897620",
+      "30192538",
+      "33076213",
+      "42334185",
+      "25381795",
+      "24050152",
+      "41433062",
+      "20232827",
+      "29548979",
+      "15326301",
+      "32087632",
+      "33122085",
+      "34576338",
+      "25804723",
+      "16283291",
+      "34152264",
+      "20098498",
+      "32184088",
+      "41662498",
+      "39936184",
+      "31356683",
+      "22335541",
+      "21761818",
+      "24892900",
+      "10686106",
+      "28507126",
+      "31784535",
+      "28355271",
+      "31021441",
+      "32592801",
+      "38112495",
+      "40944421",
+      "41667469",
+      "42083166",
+      "38949285",
+      "20687533",
+      "28639674",
+      "40970659",
+      "33454008",
+      "34904892",
+      "20690697"
+    ],
+    "review": [
+      "42444326",
+      "19425543",
+      "20494507",
+      "29509422",
+      "26325592",
+      "33812316",
+      "38348795"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.6c04891",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

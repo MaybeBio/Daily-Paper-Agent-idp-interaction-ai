@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39914390",
+  "title": "Liquid-like condensates that bind actin promote assembly and bundling of actin filaments.",
+  "authors": "Walker, Caleb; Chandrasekaran, Aravind; Mansour, Daniel; Graham, Kristin; Torres, Andrea; Wang, Liping; Lafer, Eileen M; Rangamani, Padmini; Stachowiak, Jeanne C",
+  "journal": "Developmental cell",
+  "published_date": "2025-02-07",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究液-液相分离凝聚体结合肌动蛋白并促进其组装和成束，通过agent-based计算模型揭示多价交联机制，虽对象为细胞骨架蛋白而非IDP，但凝聚体介导互作机制建模思路对本课题有迁移启发。",
+  "abstract": "Biomolecular condensates perform diverse physiological functions. Previous work showed that VASP, a processive actin polymerase, forms condensates that assemble and bundle actin. Here, we show that this behavior does not require proteins with specific polymerase activity. Specifically, condensates composed of Lamellipodin, a protein that binds actin but is not an actin polymerase, were also capable of assembling actin filaments. To probe the minimum requirements for condensate-mediated actin bundling, we developed an agent-based computational model. Guided by its predictions, we hypothesized that any condensate-forming protein that binds filamentous actin could bundle filaments through multivalent crosslinking. To test this, we added a filamentous-actin-binding motif to Eps15, a condensate-forming protein that does not normally bind actin. The resulting chimera formed condensates that facilitated efficient assembly and bundling of actin filaments. Collectively, these findings broaden the family of proteins that could organize cytoskeletal filaments to include any filamentous-actin-binding protein that participates in protein condensation.",
+  "abstract_zh": "生物分子凝聚体执行多种多样的生理功能。先前的研究表明，VASP，一种持续性肌动蛋白聚合酶，形成能够组装和束状排列肌动蛋白的凝聚体。在此，我们展示这种行为并不需要具有特定聚合酶活性的蛋白质。具体而言，由Lamellipodin（一种结合肌动蛋白但非肌动蛋白聚合酶的蛋白质）组成的凝聚体同样能够组装肌动蛋白丝。为了探究凝聚体介导的肌动蛋白束状排列的最低要求，我们开发了一个基于代理的计算模型。根据其预测，我们假设任何结合丝状肌动蛋白的凝聚体形成蛋白都能通过多价交联作用束状排列丝状体。为验证此假设，我们将一个丝状肌动蛋白结合基序添加到Eps15（一种通常不结合肌动蛋白的凝聚体形成蛋白）上。所得嵌合体形成凝聚体，促进了肌动蛋白丝的高效组装和束状排列。总体而言，这些发现拓宽了能够组织细胞骨架丝状体的蛋白质家族，包括任何参与蛋白质凝聚的丝状肌动蛋白结合蛋白。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39914390/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39914390/",
+  "paper_page_path": "papers/pubmed/39914390/index.html"
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (Background, Introduction, Materials & Methods, Results, Discussion, Conclusions) as provided.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims, and presentation quality of the in silico study. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors use molecular docking (Haddock 2.4, ClusPro) and binding affinity prediction (PRODIGY) to show that linear conformations of the histone H3 N-terminal tail bind ING family PHD fingers with statistically significantly higher affinity than helical conformations, and that this conformational preference is consistent with known experimental binding patterns.
+- **Visible evidence base** Text describing methods and results; references to Figures 1–7 and Tables 1–2; statistical results (p < 0.0001, 99% confidence); PRODIGY values for selected models; LigPlot interaction summaries. No raw data, PDB IDs for modeled histone conformations, or docking output files are provided.
+- **Missing materials affecting confidence** No coordinates or generation protocols for the four histone tail models; no docking scores or Z-scores for all models; no full PRODIGY output tables; no statistical test details (sample sizes, normality checks); no validation metrics for docking quality; no accession codes for ING structures beyond general PDB references.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and under-explored question in epigenetic recognition: whether histone tail conformation, beyond post-translational modifications, influences ING family binding. The study design is straightforward and the use of two docking servers for cross-validation is commendable. However, the evidence as presented is insufficient to establish the central claim. Critical methodological details are missing, particularly regarding the construction and validation of the histone tail conformations, the statistical treatment of docking results, and the comparability of models across different ING proteins. The conclusion that linear conformations are preferred may be an artifact of the modeling approach rather than a biological property. The manuscript requires substantial revision and additional analysis before the case is convincing.
+- **Who would be interested in the results, and why** Researchers in epigenetics, chromatin biology, and structural biology, particularly those studying histone reader proteins, intrinsically disordered regions, and protein-protein interaction prediction. The methodological approach may also interest computational biologists developing or applying docking protocols to disordered peptides.
+- **Major strengths** The research question is timely and biologically meaningful. The use of two independent docking algorithms (Haddock 2.4 and ClusPro) provides a degree of cross-validation. The inclusion of a positive control (MOZ PHD) to test the methodology is a good idea. The statistical comparison between conformational groups is appropriate in principle. The manuscript is generally clearly written and the figures are referenced appropriately.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The study claims to compare binding affinities of ING proteins to "four histone H3 tails with two different conformations" (linear vs. helical).
+  - **Evidence pointer** Materials & Methods, "Structural design"; Figure 1
+  - **Concern** The generation of the four histone tail conformations is not described. No details are given on how the linear and helical models were built, what template structures or software parameters were used, whether the conformations were energy-minimized, or how their structural validity was assessed. Without this information, the reader cannot judge whether the conformations are representative or biased.
+  - **Why it matters** The central comparison depends entirely on the quality and representativeness of the input conformations. If the helical models are strained or the linear models are artificially extended, the affinity differences could be trivial artifacts.
+  - **Resolution test** Provide a detailed protocol for model construction, including software versions, force fields, and validation (e.g., Ramachandran plots, RMSD to known structures). Deposit the coordinates of all four models.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical analysis
+  - **Claim pointer** "The linear histone conformations in predicted INGs-histone H3 complexes exhibit statistically significant higher binding affinity than their helical counterparts (confidence level of 99%)."
+  - **Evidence pointer** Results, "Linear conformations are preferred while docking"; Figure 4
+  - **Concern** The statistical analysis is described only as a "two-sample t-test" with p < 0.0001. No details are given on the number of models per group (stated as 32 values per histone protein, but the independence of these values is unclear), whether the data met normality assumptions, or whether a multiple comparison correction was applied. The use of "best four models" from each docking run introduces selection bias, as these are not random samples.
+  - **Why it matters** The claim of statistical significance is a cornerstone of the paper. If the test is misapplied or the samples are not independent, the conclusion is unsupported.
+  - **Resolution test** Report full descriptive statistics, test assumptions, and effect sizes. Consider using a mixed-effects model that accounts for docking run and model selection. Provide the raw PRODIGY values for all models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation
+  - **Claim pointer** "The protein-protein interactions are examined using LigPlot" and "our calculated models show that in both linear and helical conformations, ING PHD-histone H3 complex is also mainly based on these two amino acids [K4, R2]."
+  - **Evidence pointer** Results, "Similar binding patterns in different conformations"; Figures 5–7
+  - **Concern** The manuscript claims consistency with experimental binding patterns but provides no quantitative comparison. The LigPlot analysis is qualitative. No docking quality metrics (e.g., fraction of native contacts, interface RMSD) are reported. The positive control with MOZ is mentioned in the Discussion but not shown with data.
+  - **Why it matters** Without validation against known structures or binding data, the docking predictions could be systematically wrong. The claim of consistency is not substantiated.
+  - **Resolution test** Provide a quantitative comparison of predicted contacts with crystallographic contacts for at least one known complex. Report docking quality scores (e.g., Haddock score, ClusPro energy) and, if possible, re-dock a known complex to assess accuracy.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of conclusions
+  - **Claim pointer** "The results show that the conformation of the histone tail is significantly affecting the binding affinity of the docking protein."
+  - **Evidence pointer** Conclusion
+  - **Concern** The study only tests four ING proteins and two conformations per histone tail. The conclusion is generalized to "the histone tail" and "the ING family" without testing other histone tails (e.g., H4) or other ING members (ING3 was excluded). The biological relevance of the modeled conformations is not established.
+  - **Why it matters** Overgeneralization from a limited in silico dataset could mislead readers. The claim should be scoped to the specific systems tested.
+  - **Resolution test** Either expand the study to include more histone tails and ING proteins, or temper the conclusion to reflect the limited scope.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials & Methods, "Structural design"
+  - **Evidence pointer** Text
+  - **Issue** The statement "As there was no crystal structure for the ING2 protein derived from humans in the database, it was decided to use the structure from a mouse" is unclear. The authors should specify the PDB IDs and the exact sequence identity of the PHD domain used.
+  - **Required correction** Provide PDB accession codes for all ING structures and state the sequence identity percentage for the ING2 mouse construct.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials & Methods, "Molecular docking analysis"
+  - **Evidence pointer** Text
+  - **Issue** The description of Haddock 2.4 parameters is incomplete. The authors mention "active and passive residues" from CASTP but do not specify how these were chosen or how many were used.
+  - **Required correction** List the active and passive residues for each ING protein and describe the CASTP parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results, "Similar binding patterns in different conformations"
+  - **Evidence pointer** Figures 6 and 7
+  - **Issue** The figures are described as showing interactions, but the captions are not provided in the text. The reader cannot interpret the figures without captions.
+  - **Required correction** Include full figure captions in the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, "Linear conformations are preferred while docking"
+  - **Evidence pointer** Figure 4
+  - **Issue** The figure shows reference lines from crystallographic data, but the source of these values is not described in the text.
+  - **Required correction** State which PDB structures were used for the reference values and how the PRODIGY calculations were performed on them.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model construction), R1-M2 (statistical validity), R1-M3 (validation against experiment).
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The question of conformational effects on histone tail binding is not entirely new, but the specific focus on ING family proteins and the systematic comparison of conformations is a useful contribution.  
+  - **Scientific importance** Moderate. The findings could inform understanding of epigenetic recognition, but the in silico nature and lack of experimental validation limit immediate impact.  
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to computational biologists and epigenetics researchers.  
+  - **Technical soundness** Currently insufficient. The missing methodological details and statistical concerns prevent a robust assessment.  
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally clear, but the methods section assumes familiarity with docking tools.
+- **Recommendation posture** Currently not established from the provided evidence. The central claim is plausible but not rigorously supported. Major revisions are required to address methodological transparency, statistical rigor, and validation.
+
+## Risk / unsupported claims
+- The claim that linear conformations are preferred by ING proteins is unsupported without details on model construction and validation.
+- The claim of consistency with experimental binding patterns is unsubstantiated without quantitative comparison.
+- The generalization to the entire ING family is unsupported as ING3 was excluded and only one histone tail was tested.
+- The statistical significance claim is not reliable without full test details and raw data.
+- The reliability of the methodology, as inferred from the MOZ control, is not assessable because no data are shown.

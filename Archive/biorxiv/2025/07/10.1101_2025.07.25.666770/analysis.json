@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.25.666770",
+  "title": "Molecular basis for the activation of Aurora A and Plk1 kinases during mitotic entry",
+  "authors": "Pillan A; Ormancey P; Ben Choug C; Orlicky S; Nicolas Tavernier N; Van Hove L; Ossareh-Nazari B; Joly N; Sicheri F; Lorca T; Pintard L",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-25",
+  "window": {
+    "start": "2025-07-21",
+    "end": "2025-07-27"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合AlphaFold 3结构建模与体外实验，揭示无序蛋白Bora包裹Aurora A并引导其磷酸化Plk1的互作机制，属于IDP介导PPI的机制建模研究，高度契合课题。",
+  "abstract": "The evolutionarily conserved, intrinsically disordered protein Bora is critical for initiating the activation of mitotic kinases. Once phosphorylated at Ser112 by Cyclin A-Cdk1 kinase, phospho-(p)Bora activates unphosphorylated Aurora A kinase (AURKA), directing it towards Polo-like kinase 1 (Plk1), thus promoting Cyclin B-Cdk1 activation and mitotic entry. Here, by combining structural modelling and in vitro assays, we provide evidence that Bora wraps around the N-terminal lobe of AURKA to position its phospho-Ser112 near AURKA’s T-loop, mimicking T-loop phosphorylation. Additionally, Bora transiently interacts with the Alpha C helix of the Plk1 kinase domain through a conserved motif, guiding AURKA activity towards the Plk1 T-loop, which is otherwise impervious to phosphorylation by AURKA. We highlight the importance of this motif for Bora function in vitro and during mitotic entry in Xenopus egg extracts. Our results reveal critical molecular details of mitotic kinase activation, which could lead to the development of pathway-specific inhibitors. <h4>Highlights</h4> MITOKINAC: a versatile approach that reconstitutes Bora and AURKA-dependent Plk1 T-loop phosphorylation in E. coli . AlphaFold 3 structural modeling of the phospho-Bora – AURKA complex tested by MITOKINAC using 39 Bora variants. Phospho-Bora wraps around the N-terminal lobe of AURKA to position its essential phospho-Serine 112 in the activation loop of AURKA. pBora delivers the AURKA activity to the Plk1 T-loop, which is otherwise impervious to AURKA phosphorylation.",
+  "abstract_zh": "进化上保守的固有无序蛋白Bora对于启动有丝分裂激酶的激活至关重要。一旦在Ser112位点被Cyclin A-Cdk1激酶磷酸化，磷酸化(p)Bora即激活未磷酸化的Aurora A激酶(AURKA)，将其导向Polo样激酶1 (Plk1)，从而促进Cyclin B-Cdk1激活和有丝分裂进入。在此，通过结合结构建模和体外实验，我们提供证据表明Bora环绕AURKA的N端叶状结构，将其磷酸化Ser112定位至AURKA的T环附近，模拟T环磷酸化。此外，Bora通过一个保守基序与Plk1激酶结构域的Alpha C螺旋瞬时相互作用，将AURKA活性引导至Plk1 T环，而该T环原本对AURKA磷酸化不敏感。我们强调了该基序在体外及非洲爪蟾卵提取物有丝分裂进入过程中对Bora功能的重要性。我们的结果揭示了有丝分裂激酶激活的关键分子细节，这可能有助于开发通路特异性抑制剂。<h4>亮点</h4> MITOKINAC：一种在大肠杆菌中重构Bora和AURKA依赖性Plk1 T环磷酸化的多功能方法。通过MITOKINAC使用39种Bora变体测试的磷酸化Bora–AURKA复合物的AlphaFold 3结构建模。磷酸化Bora环绕AURKA的N端叶状结构，将其必需的磷酸化丝氨酸112定位至AURKA的激活环中。pBora将AURKA活性传递至Plk1 T环，而该T环原本对AURKA磷酸化不敏感。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.25.666770",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.25.666770",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.25.666770/index.html"
+}

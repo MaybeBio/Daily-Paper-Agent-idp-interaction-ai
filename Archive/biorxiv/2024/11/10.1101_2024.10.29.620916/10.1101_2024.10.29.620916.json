@@ -1,0 +1,118 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.29.620916",
+  "title": "COCOMO2: A coarse-grained model for interacting folded and disordered proteins",
+  "doi": "10.1101/2024.10.29.620916",
+  "abstract": "<h4>ABSTRACT</h4> Biomolecular interactions are essential in many biological processes, including complex formation and phase separation processes. Coarse-grained computational models are especially valuable for studying such processes via simulation. Here, we present COCOMO2, an updated residue-based coarse-grained model that extends its applicability from intrinsically disordered peptides to folded proteins. This is accomplished with the introduction of a surface exposure scaling factor, which adjusts interaction strengths based on solvent accessibility, to enable the more realistic modeling of interactions involving folded domains without additional computational costs. COCOMO2 was parameterized directly with solubility and phase separation data to improve its performance on predicting concentration-dependent phase separation for a broader range of biomolecular systems compared to the original version. COCOMO2 enables new applications including the study of condensates that involve IDPs together with folded domains and the study of complex assembly processes. COCOMO2 also provides an expanded foundation for the development of multi-scale approaches for modeling biomolecular interactions that span from residue-level to atomistic resolution. <h4>Table of Contents Figure</h4>",
+  "authors": [
+    "Jussupow A",
+    "Bartley D",
+    "Lapidus LJ",
+    "Feig M"
+  ],
+  "published_date": "2024-11-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.29.620916",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.29.620916.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR933894",
+    "raw_record": {
+      "id": "PPR933894",
+      "source": "PPR",
+      "doi": "10.1101/2024.10.29.620916",
+      "title": "COCOMO2: A coarse-grained model for interacting folded and disordered proteins",
+      "authorString": "Jussupow A, Bartley D, Lapidus LJ, Feig M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Jussupow A",
+            "lastName": "Jussupow",
+            "firstName": "Alexander",
+            "initials": "A"
+          },
+          {
+            "fullName": "Bartley D",
+            "lastName": "Bartley",
+            "firstName": "Divya",
+            "initials": "D"
+          },
+          {
+            "fullName": "Lapidus LJ",
+            "lastName": "Lapidus",
+            "firstName": "Lisa",
+            "initials": "LJ"
+          },
+          {
+            "fullName": "Feig M",
+            "lastName": "Feig",
+            "firstName": "Michael",
+            "initials": "M"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Biomolecular interactions are essential in many biological processes, including complex formation and phase separation processes. Coarse-grained computational models are especially valuable for studying such processes via simulation. Here, we present COCOMO2, an updated residue-based coarse-grained model that extends its applicability from intrinsically disordered peptides to folded proteins. This is accomplished with the introduction of a surface exposure scaling factor, which adjusts interaction strengths based on solvent accessibility, to enable the more realistic modeling of interactions involving folded domains without additional computational costs. COCOMO2 was parameterized directly with solubility and phase separation data to improve its performance on predicting concentration-dependent phase separation for a broader range of biomolecular systems compared to the original version. COCOMO2 enables new applications including the study of condensates that involve IDPs together with folded domains and the study of complex assembly processes. COCOMO2 also provides an expanded foundation for the development of multi-scale approaches for modeling biomolecular interactions that span from residue-level to atomistic resolution. <h4>Table of Contents Figure</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.29.620916"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39908323",
+            "reference": "Journal of chemical theory and computation. 2025 Feb;21(4):2095-2107",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-11-03",
+      "firstPublicationDate": "2024-11-01",
+      "firstIndexDate": "2024-11-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

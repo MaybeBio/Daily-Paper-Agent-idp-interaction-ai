@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that electronegative clusters (ENCs) modulate the folding status and RNA binding of unstructured RNA-binding proteins (RBPs). Using NMR, MD simulations, and fluorescence polarization, they show that ENC phosphorylation stabilizes a folded, RNA-bound-like conformation in the unstructured RBD of SLBP, enhancing RNA binding via interactions with a distal loop. They extend this to an engineered ENC on DCL1's DRBM1, showing ENC-induced folding and inhibition of RNA binding, with basic residue introduction mitigating this inhibition.
+- **Visible evidence base** Abstract, full text including Results, Discussion, Materials and Methods, figure legends (as embedded in text), tables (referenced as Table 1, 2, S1–S3), and supplementary figure references (S1–S9)
+- **Missing materials affecting confidence** Figures and supplementary materials (actual images, spectra, MD trajectories, movies) are not provided; only textual descriptions and references. This limits independent verification of spectral quality, CEST fitting, MD convergence, and structural interpretations.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the biology of intrinsically disordered proteins and RNA binding. The central observation that ENCs can promote folding of unstructured RBDs and that their effect on RNA binding depends on surface electrostatics is conceptually novel and potentially generalizable. The combination of NMR CEST, relaxation measurements, and MD simulations is powerful and appropriate. However, several technical concerns must be addressed to fully support the claims, particularly regarding the interpretation of CEST data, the robustness of MD simulations, and the quantitative link between folding population and binding affinity.
+- **Who would be interested in the results, and why** Researchers studying RNA-binding proteins, intrinsically disordered proteins, protein-RNA interactions, and protein engineering. The findings have implications for understanding how post-translational modifications (phosphorylation) and sequence composition modulate binding affinity and specificity, and for designing RNA-binding proteins with tunable affinities.
+- **Major strengths** 1. The study addresses a significant gap in understanding how ENCs, which are abundant in RBPs, function beyond simple electrostatic inhibition. 2. The use of CEST to detect and characterize sparsely populated folding intermediates in an unstructured protein is technically demanding and well-executed in principle. 3. The combination of experimental (NMR, binding) and computational (MD) approaches provides complementary views. 4. The demonstration of generality using a heterologous system (DRBM1) strengthens the conceptual claim. 5. The writing is clear and logically structured.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of CEST analysis
+  - **Claim pointer** The claim that apo SLBP transiently samples a folded, RNA-bound-like conformation, and that phosphorylation increases the population of this state from 0.3% to 1.3%.
+  - **Evidence pointer** Results section "apo SLBP transiently samples the conformation that resembles the RNA‐bound state", Figures 1 and S1–S3, Table 1
+  - **Concern** The CEST analysis relies on a two-state global fit. The manuscript does not provide sufficient detail on how the two-state model was validated, whether alternative models (e.g., three-state) were tested, or how the chemical shifts of the excited state were independently confirmed. The statement that "the minor dip of T208 slightly differs from its chemical shift in the RNA-bound state" is attributed to the absence of RNA proximity effects, but this is speculative. The authors should provide a more rigorous validation of the CEST-derived parameters, including error analysis and a demonstration that the fitted excited-state chemical shifts are consistent across multiple residues and B1 fields.
+  - **Why it matters** The population of the folded state (PB) and the rate constants are central to the mechanistic claim that phosphorylation stabilizes a pre-formed binding-competent conformation. If the CEST analysis is not robust, the quantitative conclusions (0.3% to 1.3%) and the proposed mechanism are not reliable.
+  - **Resolution test** Provide a detailed description of the CEST fitting procedure, including the model selection criteria, error estimates from Monte Carlo or bootstrap analysis, and a comparison of fitted excited-state chemical shifts with those of the RNA-bound state for all residues showing CEST. Show that the two-state model adequately describes the data and that the extracted parameters are unique.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of MD simulations
+  - **Claim pointer** The claim that MD simulations reveal a dynamic but persistent network of salt-bridge and hydrogen bond interactions between the phosphorylated ENC and the distal loop, and that this explains the enhanced binding affinity.
+  - **Evidence pointer** Results section "The ENC of RNA-bound SLBP interacts with the loop region distal to the RNA-binding site", Figures 3 and S5, Table S2, Movies S1–S3
+  - **Concern** The MD simulations are 300 ns in length, with the last 100 ns used for analysis. This is a relatively short timescale for capturing the dynamics of an intrinsically disordered region. The manuscript does not report on convergence of the simulations, the number of independent replicates, or the statistical significance of the observed interactions. The claim of a "persistent" network is based on a single trajectory per construct. The authors should demonstrate that the observed interactions are reproducible across multiple independent simulations and that the system has reached equilibrium with respect to the relevant collective variables.
+  - **Why it matters** The MD simulations are used to provide an atomic-level mechanism for the NMR observations. If the simulations are not converged or are under-sampled, the specific interactions identified (salt bridges, H-bonds) may be artifacts of the initial conditions or insufficient sampling.
+  - **Resolution test** Provide evidence of convergence (e.g., RMSD vs time for multiple runs, block averaging of key observables), run at least three independent simulations per construct, and report the standard error of the interaction occupancies. Show that the key interactions are consistently observed across replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative link between folding and binding
+  - **Claim pointer** The claim that ENC-induced folding of the apo state and stabilization of the RNA-bound state together explain the sub-picomolar binding affinity of phosphorylated SLBP.
+  - **Evidence pointer** Abstract, Discussion, Results sections
+  - **Concern** The manuscript does not provide a quantitative model linking the observed changes in folding population (PB) and the stabilization of the bound state to the measured binding affinity. The binding affinity of phosphorylated SLBP is stated to be sub-picomolar, but no binding data are shown in the provided text. The authors should present a thermodynamic cycle or kinetic model that connects the CEST-derived populations and the MD-observed interactions to the binding free energy.
+  - **Why it matters** The claim that ENCs "promote" RNA binding for unstructured RBDs is a central conclusion. Without a quantitative link, the relative contributions of folding pre-organization versus direct stabilization of the bound state cannot be deconvoluted.
+  - **Resolution test** Present a thermodynamic model (e.g., coupled folding and binding) and use the experimentally determined populations and binding affinities to test whether the model quantitatively recapitulates the observed sub-picomolar affinity. Alternatively, provide direct binding measurements for all constructs (nonPi, Pi, noENC) and discuss the relationship between folding population and affinity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the DRBM1 results
+  - **Claim pointer** The claim that the engineered ENC on DRBM1 promotes folding and inhibits RNA binding, and that this effect is generalizable to other unstructured RBDs.
+  - **Evidence pointer** Results section "An engineered ENC can modulate folding status and RNA binding of unstructured RNA-binding domains", Figures 4 and 5, Table 3
+  - **Concern** The DRBM1 experiments are presented as evidence for generality, but only one heterologous system is tested. The manuscript does not discuss potential confounding factors, such as the specific sequence context of the grafted ENC, the length of the linker, or the possibility that the observed effects are specific to DRBM1. The authors should either test additional RBDs or temper the claim of generality.
+  - **Why it matters** The title and abstract imply a general principle. If the effect is only demonstrated in two systems (one native, one engineered), the claim of generality is overstated.
+  - **Resolution test** Either add a second heterologous RBD system to demonstrate generality, or revise the claims to be more specific to the systems studied.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Materials and Methods, "Chemical exchange saturation transfer NMR"
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The description of the CEST data analysis is brief. It is unclear how the global fitting was performed, what parameters were floated, and how the errors were estimated.
+  - **Required correction** Provide a more detailed description of the CEST fitting procedure, including the software used, the model, and the error analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Table 3, binding affinities
+  - **Evidence pointer** Table 3
+  - **Issue** The binding affinities are reported with errors, but the number of replicates and the statistical test used to compare different constructs are not stated.
+  - **Required correction** State the number of independent measurements and the statistical test used to assess significance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 1–6
+  - **Evidence pointer** Figure legends (as embedded in text)
+  - **Issue** The figure legends are not provided in the manuscript text, making it difficult to interpret the figures without the actual images.
+  - **Required correction** Ensure that figure legends are included in the manuscript and that all panels are clearly labeled and referenced in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The term "electronegative clusters" is used throughout, but the authors also refer to "acidic residues and/or phosphorylation sites." It would be clearer to define the term explicitly at first use and to distinguish between constitutive (acidic) and inducible (phosphorylation) negative charge.
+  - **Required correction** Add a brief definition of ENCs in the Introduction and clarify the distinction between acidic and phosphorylated ENCs.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (CEST analysis robustness) and R1-M2 (MD simulation convergence and reproducibility) are the most critical. Without addressing these, the central mechanistic claims are not fully supported.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept that ENCs can promote folding of unstructured RBDs and that their effect on RNA binding is context-dependent is novel and extends previous work on structured RBDs. This is a fresh perspective on the role of acidic stretches in RBPs.
+  - **Scientific importance** The findings have implications for understanding the regulation of RNA binding by post-translational modifications and for the design of RNA-binding proteins. The potential generalizability to many RBPs makes this important.
+  - **Interdisciplinary readership** The work bridges structural biology, biophysics, and protein engineering. It will appeal to researchers in these fields, but the technical nature of the NMR and MD methods may limit broader readership.
+  - **Technical soundness** The combination of methods is appropriate, but the concerns raised above about CEST analysis and MD simulations need to be resolved. The lack of direct binding data for SL constructs is a gap.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, the Methods section is dense and assumes familiarity with advanced NMR and MD techniques. A brief introductory explanation of CEST for nonspecialists would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and potentially important, but the current evidence base is insufficient to fully establish the mechanistic claims. The authors should address the concerns about CEST analysis, MD simulation robustness, and provide a quantitative link between folding and binding.
+
+## Risk / unsupported claims
+- The claim that ENC phosphorylation increases RNA-binding affinity to the sub-picomolar range is stated but not supported by data shown in the provided text (no binding curves or affinity values for SL constructs are presented).
+- The claim that the excited state populated in apo SLBP "resembles the RNA-bound state" is based on CEST chemical shifts, but the comparison is not rigorously quantified (e.g., no correlation plot or RMSD between CEST-derived shifts and RNA-bound shifts is shown).
+- The claim that the engineered ENC on DRLM1 "promotes folding" is based on CEST population increases, but the absolute population values and the structural nature of the folded state are not fully characterized.
+- The claim of generalizability to "unstructured RNA-binding proteins" is based on only two systems and is therefore overstated.

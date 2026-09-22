@@ -1,0 +1,483 @@
+{
+  "identity": {
+    "pmid": "41756950",
+    "doi": "10.64898/2026.02.18.706652",
+    "title": "Unleashed condensation by recurrent mutations of an epigenetic regulator promotes cancer."
+  },
+  "content": {
+    "abstract": "The pathological mechanisms and significance for the prevalent hotspot mutations in disordered protein regions are poorly understood. ASXL1 is an obligate co-factor for BAP1 in H2AK119 deubiquitination. ASXL1 mutations are very frequent in myeloid malignancies, and are mostly C-terminal truncating mutations concentrated in a specific disordered region of ASXL1. ASXL1 truncations are gain-of-function mutations that promote myeloid malignancies, but the underlying mechanisms remain poorly understood. Here we show that the frequently truncated mutants of ASXL1 possess an intrinsic property of forming phase-separated biomolecular condensates, and this property is normally suppressed by the frequently deleted regions. A disease-mutant of the endogenous ASXL1 in leukemia cells forms dynamic nuclear co-condensates with other endogenous factors important for gene activation. The ASXL1 disease-mutants can greatly enhance H2A deubiquitination activity of BAP1 in cells and in vitro reconstituted system, enhance myeloid leukemia cell growth, and promote leukemogenesis in a mouse transplant model by turning on myeloid leukemogenic transcriptional programs. However, substitution of residues important for condensation disrupted or impaired all these abilities, suggesting that the condensation property is crucially important for the ASXL1 mutants in promoting cancer. Moreover, we discover that the conserved negative charges in the highly disordered and frequently deleted region on ASXL1 suppress the condensation of the wild type ASXL1. Charge-neutralizing mutations in this region restores condensation of the full-length ASXL1, and are sufficient to turn ASXL1 into a leukemogenic protein. Biochemical, biophysical, and simulation analyses suggest the intramolecular interactions normally mask the N-terminal region in engaging intermolecular interactions required for phase separation, and disease truncations escape from the regulatory interactions and unleash the phase separation property to form nuclear hubs to promote expression of tumorigenic gene programs. Finally, by showing a striking correlation of the mutation frequencies with the condensation properties and leukemogenesis activity for a series of human patient mutations, we suggest that dysregulation of condensation is a central mechanism for ASXL1 mutations in promoting myeloid malignancies. This suggests that dysregulation of condensation may be a key mechanism for some of the prevalent hotspot disease mutations in the disordered proteomes.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Yansu",
+        "Hao, Yi",
+        "Latacz, Maria",
+        "Cykowiak, Marta",
+        "Kirylczuk, Julia",
+        "Quan, Xuebo",
+        "Palomba, Francesco",
+        "Ni, Songwei",
+        "Liu, Linjie",
+        "Hu, Jing",
+        "Shi, Bi",
+        "Posey, Ammon",
+        "Li, Qiaoli",
+        "Yuan, Haoran",
+        "Sun, Jie",
+        "Pappu, Rohit",
+        "Digman, Michelle A",
+        "Huang, Kai",
+        "Jiang, Hao"
+      ],
+      "short_names": [
+        "Song Y",
+        "Hao Y",
+        "Latacz M",
+        "Cykowiak M",
+        "Kirylczuk J",
+        "Quan X",
+        "Palomba F",
+        "Ni S",
+        "Liu L",
+        "Hu J",
+        "Shi B",
+        "Posey A",
+        "Li Q",
+        "Yuan H",
+        "Sun J",
+        "Pappu R",
+        "Digman MA",
+        "Huang K",
+        "Jiang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, Guangdong, China.",
+        "Laboratory of Fluorescence Dynamics, The Henry Samueli School of Engineering, University of California, Irvine, CA, USA.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Zhengzhou Research Institute, Harbin Institute of Technology, Zhengzhou, China.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Hunan Provincial Key Laboratory of Medical Virology, College of Biology, Hunan University, Changsha, Hunan, China.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "Department of Biomedical Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Department of Biomedical Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Laboratory of Fluorescence Dynamics, The Henry Samueli School of Engineering, University of California, Irvine, CA, USA.",
+        "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, Guangdong, China.",
+        "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+        "UVA Comprehensive Cancer Center, University of Virginia School of Medicine, Charlottesville, VA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Yansu",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Hao, Yi",
+        "short_name": "Hao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Latacz, Maria",
+        "short_name": "Latacz M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Cykowiak, Marta",
+        "short_name": "Cykowiak M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Kirylczuk, Julia",
+        "short_name": "Kirylczuk J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Quan, Xuebo",
+        "short_name": "Quan X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Palomba, Francesco",
+        "short_name": "Palomba F",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Fluorescence Dynamics, The Henry Samueli School of Engineering, University of California, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ni, Songwei",
+        "short_name": "Ni S",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Linjie",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Jing",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "Zhengzhou Research Institute, Harbin Institute of Technology, Zhengzhou, China.",
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Shi, Bi",
+        "short_name": "Shi B",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Provincial Key Laboratory of Medical Virology, College of Biology, Hunan University, Changsha, Hunan, China.",
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Posey, Ammon",
+        "short_name": "Posey A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Qiaoli",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Haoran",
+        "short_name": "Yuan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Sun, Jie",
+        "short_name": "Sun J",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Pappu, Rohit",
+        "short_name": "Pappu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Digman, Michelle A",
+        "short_name": "Digman MA",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Fluorescence Dynamics, The Henry Samueli School of Engineering, University of California, Irvine, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Huang, Kai",
+        "short_name": "Huang K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Hao",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+          "Department of Biochemistry and Molecular Genetics, University of Virginia School of Medicine, Charlottesville, VA, USA.",
+          "UVA Comprehensive Cancer Center, University of Virginia School of Medicine, Charlottesville, VA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Feb 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/27 06:31",
+    "fetched_at": "2026-09-18 01:08:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37872387",
+      "37043540",
+      "36129058",
+      "36028355",
+      "36005555",
+      "35122023",
+      "35061901",
+      "34735227",
+      "34536441",
+      "34526716",
+      "34433054",
+      "34271007",
+      "34265844",
+      "34234347",
+      "34186160",
+      "34163069",
+      "33751773",
+      "33483612",
+      "32719551",
+      "32690542",
+      "32684431",
+      "32683582",
+      "32554597",
+      "32302572",
+      "31945396",
+      "31853060",
+      "31640815",
+      "31481798",
+      "31006630",
+      "30927018",
+      "30639226",
+      "30568592",
+      "30515738",
+      "29967380",
+      "29961577",
+      "29643185",
+      "29556021",
+      "29113963",
+      "28935776",
+      "28844694",
+      "28697759",
+      "28225081",
+      "28076807",
+      "27723796",
+      "27385790",
+      "27203111",
+      "26700326",
+      "26620784",
+      "26412307",
+      "26206304",
+      "26184878",
+      "24973361",
+      "24442206",
+      "24255920",
+      "24218140",
+      "24216483",
+      "24132290",
+      "23690417",
+      "23104886",
+      "22935333",
+      "22897849",
+      "22770212",
+      "22436456",
+      "22047558",
+      "21972209",
+      "21816040",
+      "21706002",
+      "21455215",
+      "20436459",
+      "15728125",
+      "9724721",
+      "8744570"
+    ],
+    "similar": [
+      "41756950",
+      "31640815",
+      "32683582",
+      "30013160",
+      "30927018",
+      "35122023",
+      "32236560",
+      "34186160",
+      "41556087",
+      "38359087",
+      "26700326",
+      "29113963",
+      "30226831",
+      "30515738",
+      "32378586",
+      "39777477",
+      "33483612",
+      "26095772",
+      "39803572",
+      "34536441",
+      "42523271",
+      "28697759",
+      "41968849",
+      "40562788",
+      "41648490",
+      "37062051",
+      "37673622",
+      "42160388",
+      "36272410",
+      "29532865",
+      "39752521",
+      "26416890",
+      "36865140",
+      "32492700",
+      "25306901",
+      "29037253",
+      "26623729",
+      "24216483",
+      "32399015",
+      "22897849",
+      "36068610",
+      "37103105",
+      "31945396",
+      "35301312",
+      "26470845",
+      "35831189",
+      "25130853",
+      "29643185",
+      "29284740",
+      "30367089",
+      "34699595",
+      "42475469",
+      "40440957",
+      "42492906",
+      "37917239",
+      "40588121",
+      "32719551",
+      "39316611",
+      "32381577",
+      "41524628",
+      "41910388",
+      "37053013",
+      "40501735",
+      "22058207",
+      "37886503",
+      "16209039",
+      "38884929",
+      "37961424",
+      "36183966",
+      "41609052",
+      "35345371",
+      "20693432",
+      "38146893",
+      "20678218",
+      "30266822",
+      "36307398",
+      "37556531",
+      "41192422",
+      "42246060",
+      "40661385",
+      "33502020",
+      "34737230",
+      "33764257",
+      "35902731",
+      "23294243",
+      "25596267",
+      "34627254",
+      "38941236",
+      "34548471",
+      "29423272",
+      "23103552",
+      "29411666",
+      "41814508",
+      "31638252",
+      "19861679",
+      "32650416",
+      "42026085",
+      "37921062",
+      "33840380",
+      "23952244"
+    ],
+    "review": [
+      "41756950",
+      "30927018",
+      "30515738",
+      "40562788",
+      "37062051",
+      "37673622",
+      "36068610",
+      "31945396",
+      "35831189",
+      "25130853",
+      "16209039",
+      "36183966",
+      "32650416"
+    ],
+    "pmc": [
+      "12934752"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41756950/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.02.18.706652",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

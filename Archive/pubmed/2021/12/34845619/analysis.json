@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34845619",
+  "title": "Molecular Simulations of Intrinsically Disordered Proteins and Their Binding Mechanisms.",
+  "authors": "Chu, Xiakun; Nagpal, Suhani; Munoz, Victor",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2021-12-01",
+  "window": {
+    "start": "2021-11-29",
+    "end": "2021-12-05"
+  },
+  "score": 9,
+  "one_liner_zh": "该文系统介绍了结合全原子MD与粗粒度模拟研究IDP折叠耦合结合机制的计算框架，直接针对无序蛋白PPI的机制建模，方法上以物理模拟为核心，高度契合本课题。",
+  "abstract": "Intrinsically disordered proteins (IDPs) lack well-defined secondary or tertiary structures in solution but are found to be involved in a wide range of critical cellular processes that highlight their functional importance. IDPs usually undergo folding upon binding to their targets. Such binding coupled to folding behavior has widened our perspective on the protein structure-dynamics-function paradigm in molecular biology. However, characterizing the folding upon binding mechanism of IDPs experimentally remains quite challenging. Molecular simulations emerge as a potentially powerful tool that offers information complementary to experiments. Here we present a general computational framework for the molecular simulations of IDP folding upon binding processes that combines all-atom molecular dynamics (MD) and coarse-grained simulations. The classical all-atom molecular dynamics approach using GPU acceleration allows the researcher to explore the properties of the IDP conformational ensemble, whereas coarse-grained structure-based models implemented with parameters carefully calibrated to available experimental measurements can be used to simulate the entire folding upon binding process. We also discuss a set of tools for the analysis of MD trajectories and describe the details of the computational protocol to follow so that it can be adapted by the user to study any IDP in isolation and in complex with partners.",
+  "abstract_zh": "固有无序蛋白（IDPs）在溶液中缺乏明确的二级或三级结构，但被发现参与多种关键细胞过程，这凸显了它们的功能重要性。IDPs通常在与靶标结合时发生折叠。这种结合偶联折叠的行为拓宽了我们对分子生物学中蛋白质结构-动力学-功能范式的理解。然而，实验上表征IDPs的结合偶联折叠机制仍极具挑战性。分子模拟作为一种潜在的有力工具应运而生，能提供与实验互补的信息。在此，我们提出一个通用的计算框架，用于IDPs结合偶联折叠过程的分子模拟，该框架结合了全原子分子动力学（MD）和粗粒化模拟。利用GPU加速的经典全原子分子动力学方法使研究者能够探索IDP构象集合的性质，而基于粗粒化结构模型（其参数经过仔细校准以匹配现有实验测量）可用于模拟整个结合偶联折叠过程。我们还讨论了一套用于分析MD轨迹的工具，并详细描述了计算协议的具体步骤，以便用户能够将其应用于研究任何IDP的孤立状态及其与伙伴复合物的状态。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34845619/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34845619/",
+  "paper_page_path": "papers/pubmed/34845619/index.html"
+}

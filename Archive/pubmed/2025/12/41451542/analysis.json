@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41451542",
+  "title": "Direct Visualization of Lipid Raft Domains in Plasma Membranes via Cryo-Electron Tomography and In Situ Gold Nanoparticle Labeling.",
+  "authors": "Zhang, Yaxuan; Cheng, Sihang; Wu, Junbo; Zou, Tianyi; Zhang, Minghan; Pan, Yangang; Zhang, Jinrui; Wang, Hongda",
+  "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+  "published_date": "2025-12-26",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用冷冻电镜断层扫描和分子动力学模拟研究质膜脂筏结构域，涉及相分离和膜蛋白定位机制，但对象为膜脂/膜蛋白而非无序蛋白，互作机制建模可迁移启发有限。",
+  "abstract": "Since the proposal of the lipid raft model, it has serves as an explanation for lateral membrane inhomogeneity, supported by evidence that certain lipids preferentially interact, engage in collective behavior, and form large-scale lateral domains due to liquid-liquid phase separation. However, the existence and structural characteristics of these ordered domains in vivo remain uncertain due to the absence of direct observations. Here, we employ cryo-ET to investigate the structural characteristics of plasma membranes. We next engineer the raft-associated protein trLAT with MTn, which facilitates the in situ synthesis of gold nanoparticles (AuNPs). Cryo-ET analysis reveals that AuNPs label the outer leaflet of the membrane, enabling high-resolution visualization of MTn-trLAT-GFP in situ spatial distribution, and the AuNP markers localize predominantly within the thicker membrane regions, demonstrating that raft-like domains consistently correspond to thicker membrane regions. Molecular dynamics simulations reveal that glycosphingolipids increase local thickness by  approximately 0.6 nm relative to unsaturated lipids, driving preferential localization of palmitoylated MTn-trLAT-GFP to ordered domains in asymmetric membranes and synergistic stabilization with glycosphingolipid/PIP2. These findings provide direct structural insight into raft-like domains and advance understanding of membrane organization in vivo.",
+  "abstract_zh": "自脂筏模型提出以来，它一直作为侧向膜不均一性的解释，其依据是某些脂质优先相互作用、参与集体行为，并因液-液相分离而形成大尺度侧向结构域。然而，由于缺乏直接观察，这些有序结构域在体内的存在及其结构特征仍不确定。在此，我们采用冷冻电子断层扫描 (cryo-ET) 研究质膜的结构特征。接下来，我们用MTn改造筏相关蛋白trLAT，该蛋白促进金纳米颗粒 (AuNPs) 的原位合成。Cryo-ET分析显示，AuNPs标记膜的外叶，实现MTn-trLAT-GFP原位空间分布的高分辨率可视化，且AuNP标记物主要定位于较厚的膜区域，表明筏样结构域始终对应于较厚的膜区域。分子动力学 (molecular dynamics) 模拟揭示，糖鞘脂相对于不饱和脂质使局部厚度增加约0.6 nm，驱动棕榈酰化的MTn-trLAT-GFP优先定位于不对称膜中的有序结构域，并与糖鞘脂/PIP2协同稳定。这些发现为筏样结构域提供了直接的结构见解，并推进了对体内膜组织的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41451542/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41451542/",
+  "paper_page_path": "papers/pubmed/41451542/index.html"
+}

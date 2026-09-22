@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.07.687251",
+  "title": "Reconstitution of multistep recruitment of ULK1 to membranes in autophagy",
+  "authors": "Duan Y; Lu Y; Paul S; Betz J; Wilhelm LP; Cook ASI; Ren X; Adriaenssens E; Martens S; Ganley IG; Hummer G; Hurley JH",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-09",
+  "window": {
+    "start": "2025-11-03",
+    "end": "2025-11-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过生化重构、细胞实验和MD模拟，揭示ATG13:ATG101与WIPI2/3结合并插入膜、ULK1 IDR中PVP基序对接至HORMA二聚体将激酶结构域招募至膜的多步机制，涉及IDR介导的蛋白-膜/蛋白互作机制建模，对无序蛋白介导PPI及膜上复合物组装机制有直接启发。",
+  "abstract": "The Human ULK1 autophagy-initiating complex consists of ULK1, FIP200, and the HORMA domain heterodimer ATG13:ATG101. PI3P is essential to recruit ULK1C to membranes for ULK1, but ULK1C subunits do not contain PI3P-binding domains. Here we show that the ATG13:ATG101 dimer forms a complex with the PI3P-binding protein WIPI3, as well as WIPI2. Bound to WIPI2-3, ATG13:ATG101 inserts its Trp-Phe (WF) finger into the membrane. MD simulations show that WIPIs and the WF finger cooperatively stabilizes the complex on membranes. Biochemical reconstitution and cell-based assays show that WIPI3:ATG13 engagement promotes ATG16L1 phosphorylation, autophagy and mitophagy. A kinase domain (KD)-proximal PVP motif in the ULK1 IDR docks onto the ATG13:ATG101 HORMA dimer brings the ULK1 KD close to the membrane. The PVP motif is essential for in vitro ULK1 phosphorylation of ATG16L1 and important for autophagy and mitophagy. These data establish a stepwise pathway for recruitment of the ULK1 KD to the vicinity of the membrane surface.",
+  "abstract_zh": "人类ULK1自噬起始复合物由ULK1、FIP200以及HORMA结构域异二聚体ATG13:ATG101组成。PI3P对于将ULK1C招募至膜上以激活ULK1至关重要，但ULK1C亚基并不包含PI3P结合结构域。在此，我们展示ATG13:ATG101二聚体与PI3P结合蛋白WIPI3及WIPI2形成复合物。结合WIPI2-3后，ATG13:ATG101将其Trp-Phe（WF）指状结构插入膜中。分子动力学（MD）模拟显示，WIPIs与WF指状结构协同稳定膜上的复合物。生化重构和细胞实验表明，WIPI3:ATG13的相互作用促进ATG16L1磷酸化、自噬及线粒体自噬。ULK1 IDR中靠近激酶结构域（KD）的PVP基序对接至ATG13:ATG101 HORMA二聚体上，使ULK1 KD接近膜。PVP基序对于体外ULK1磷酸化ATG16L1至关重要，并对自噬和线粒体自噬具有重要意义。这些数据确立了ULK1 KD被招募至膜表面附近的逐步途径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.07.687251",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.07.687251",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.07.687251/index.html"
+}

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided.
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality. Editorial and stylistic issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The author presents a computational method (WmegaCouplings) that combines direct coupling analysis (DCA) of multiple sequence alignments (MSAs) with AlphaFold (AF) structural models to identify coevolving residue pairs that are not in spatial contact. Applied to 2012 protein families, the method reports that ~12% of predicted coevolutionary couplings are not satisfied in any AF model, and that these distal couplings are more likely to involve disordered regions. The author interprets these as potential indicators of homo-oligomerization, conformational dynamics, or allosteric regulation, and discusses several case examples.
+- **Visible evidence base** Methods section (simulations, dataset, DCA protocol, AF model usage); Results section (Figures 1, 2, 3, 4 referenced; Figure S1 referenced); Conclusions. No raw data, code output, or supplementary material were provided for independent verification.
+- **Missing materials affecting confidence** The manuscript references figures and supplementary information that were not included in the provided text. The GitHub repository is mentioned but not accessible in this review context. No statistical details, full result tables, or validation metrics beyond those described in the text are available. The absence of these materials limits the ability to fully assess the robustness of the claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and interesting question: can coevolutionary signals that are not explained by static 3D structure be identified using AF models, and do they carry functional meaning? The proposed method is conceptually simple and the author is appropriately cautious in interpreting results. However, the manuscript has several significant weaknesses. The validation of the method is largely anecdotal, with no systematic benchmarking against known functional couplings or alternative approaches. The statistical analysis is minimal, and the interpretation of the ~12% violation rate as meaningful is not well supported. The case studies, while illustrative, are not rigorously analyzed. The manuscript reads more like a perspective or a preliminary report than a fully established method paper. The writing is generally clear but occasionally informal. Overall, the idea has merit, but the evidence presented does not yet establish the method's utility or the biological significance of the findings.
+- **Who would be interested in the results, and why** Computational biologists and protein chemists interested in coevolutionary analysis, protein dynamics, allostery, and the use of AF models beyond static structure prediction. The method could be of interest to those developing or using evolutionary couplings for functional annotation or for identifying regulatory elements. The paper may also appeal to a broader structural biology audience curious about the limitations and opportunities of AF models.
+- **Major strengths** 1) The question is timely and relevant, given the widespread adoption of AF models. 2) The method is simple and accessible, with code made available. 3) The author acknowledges limitations and discusses alternative interpretations. 4) The use of AF models to address the issue of structural variation within families is a reasonable and potentially useful approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of core claim
+  - **Claim pointer** The manuscript claims that ~12% of coevolving residue pairs are "spatially distant" and that these represent "long-range functional couplings" or "allosteric cross-talk."
+  - **Evidence pointer** Results section, Figure 3; location not provided for specific data points.
+  - **Concern** The central claim that the identified non-contacting couplings are functionally meaningful is not supported by the evidence presented. The ~12% figure is presented as a headline result, but there is no control or null model to show that this rate is higher than expected by chance. The author does not compare the properties of these distal couplings (e.g., sequence separation, conservation, coevolution score distribution) to those of contacting couplings in a systematic way. The case studies are anecdotal and lack quantitative validation (e.g., mutagenesis, functional assays, or comparison to known allosteric networks). Without such controls, the claim that these are "functional" rather than "artifactual" is not established.
+  - **Why it matters** The entire premise of the paper rests on the interpretation that non-contacting coevolution is biologically meaningful. If the observed violations are simply due to noise, alignment errors, or limitations of the AF models, the method provides little new insight. The current analysis does not distinguish between these possibilities.
+  - **Resolution test** The author should provide a rigorous statistical framework to show that the observed number of non-contacting couplings exceeds what would be expected from a null model (e.g., randomized MSAs or shuffled coevolution scores). Additionally, the author should demonstrate, using a benchmark set of proteins with known allosteric sites or functional residues, that the method can recover these known couplings with high precision and recall. The case studies should be strengthened with quantitative predictions that can be tested experimentally.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The method is presented as a tool for identifying "long-range evolutionary couplings" that are "not satisfied in any of the AF models."
+  - **Evidence pointer** Methods section, "Identification of coevolving pairs in single chains"; Results section, Figure 2.
+  - **Concern** The method's parameters are not systematically optimized or validated. The choice of top 20 couplings, the distance cutoff of 5.0 Å (or 7.0 Å for complexes), and the pLDDT threshold of 60 are all presented without justification or sensitivity analysis. The author does not show how the results change with different parameter choices. Furthermore, the use of only 50 AF models per family is arbitrary, and the impact of this choice on the stability of the "violation" calls is not assessed. The method's performance is not compared to any existing approach for identifying non-contact coevolution (e.g., methods that explicitly model conformational heterogeneity).
+  - **Why it matters** A method's utility depends on its robustness to parameter choices and its performance relative to existing tools. Without such validation, it is unclear whether the reported results are an artifact of the specific settings used or a general property of the data.
+  - **Resolution test** The author should perform a sensitivity analysis, varying the number of top couplings, distance cutoffs, pLDDT thresholds, and the number of AF models used. The results should be shown to be stable across a reasonable range of parameters. The method should also be benchmarked against a set of proteins with known conformational changes or allosteric regulation, comparing its performance to existing approaches (e.g., EVfold, PconsC2, or methods based on molecular dynamics).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript states that distal coevolving residues are "more likely to be disordered than their contacting counterparts."
+  - **Evidence pointer** Results section, Figure 3b and Figure S1.
+  - **Concern** The statistical analysis supporting this claim is minimal. The author reports a Pearson correlation coefficient of -0.37 between distance and pLDDT, but no significance testing, confidence intervals, or effect sizes are provided. The comparison of pLDDT distributions between contacting and non-contacting pairs is described qualitatively, but no statistical test (e.g., Mann-Whitney U test) is mentioned. The analysis does not account for potential confounding factors, such as the sequence separation between the coupled residues or the local sequence context.
+  - **Why it matters** The claim that distal couplings are associated with disorder is a key observation that could have implications for understanding protein dynamics. However, without proper statistical support, this claim is not convincing and could be a spurious correlation.
+  - **Resolution test** The author should provide a full statistical analysis, including appropriate tests for comparing distributions, and should control for potential confounders. The analysis should be repeated on a hold-out set of protein families to ensure the findings are not overfitted to the specific dataset used.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of case studies
+  - **Claim pointer** The manuscript presents specific examples (ZapA, CutA, TorI, DNAJB6) as evidence that the method can identify biologically relevant non-contacting couplings.
+  - **Evidence pointer** Results section, Figure 4.
+  - **Concern** The case studies are presented descriptively, without quantitative analysis. For example, for ZapA and CutA, the author notes that some couplings are in oligomeric interfaces, but does not provide a systematic analysis of how many of the identified non-contacting couplings in these families are in interfaces versus elsewhere. For TorI, the claim that the couplings are in dynamic loops is based on pLDDT scores, but no experimental validation is provided. For DNAJB6, the speculation about auto-inhibition is interesting but entirely untested. The selection of these examples appears to be post-hoc, and there is no evidence that they are representative of the broader dataset.
+  - **Why it matters** Anecdotal examples can be illustrative, but they do not constitute evidence for the method's general utility. The reader is left wondering whether these are cherry-picked cases or typical results.
+  - **Resolution test** The author should provide a systematic analysis of the non-contacting couplings across all 2012 families, categorizing them by potential origin (e.g., oligomerization, dynamics, function) using automated or semi-automated criteria. The case studies should be presented as part of this broader analysis, with quantitative support for their classification.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, "Identification of coevolving pairs in single chains"
+  - **Evidence pointer** Location not provided.
+  - **Issue** The description of the method for identifying non-contacting couplings is somewhat brief. It is not entirely clear how the "top 20" couplings are selected (by raw score? by normalized score?) and how the "violation" is defined when multiple AF models are used (is it a violation if the distance is >5.0 Å in all models, or in any model?).
+  - **Required correction** Please provide a more detailed, step-by-step description of the algorithm, including pseudocode or a flowchart. Clarify the exact criteria for defining a "violation" and how the 50 AF models are used in the decision.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section, "Input dataset"
+  - **Evidence pointer** Location not provided.
+  - **Issue** The dataset selection criteria are not fully described. The author states that 4000 PFAM families were identified, but only 2012 passed the diversity criteria. It is not clear how the initial 4000 were selected (e.g., random? all families with a PDB structure?) and what the distribution of N_eff values was for the excluded families.
+  - **Required correction** Please provide more details on the dataset selection process, including the exact criteria for inclusion and exclusion. A histogram of N_eff values for the initial 4000 families would be helpful.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section, Figure 3
+  - **Evidence pointer** Location not provided.
+  - **Issue** The figure is described as having multiple panels, but the text does not clearly explain what each panel shows. The reader is left to infer the meaning of the distributions and the correlation plot.
+  - **Required correction** Please ensure that each panel of Figure 3 is explicitly described in the text, including the variables plotted and the interpretation of the results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** Location not provided.
+  - **Issue** The manuscript contains some informal language and colloquialisms (e.g., "straggle to confidently predict" in the Conclusions). While this does not affect the science, it detracts from the professional tone expected in a journal article.
+  - **Required correction** Please revise the language to be more formal and precise throughout.
+
+## Risk / unsupported claims
+- The claim that ~12% of coevolving pairs are "spatially distant" and "more likely to be disordered" is presented without a statistical null model or significance testing, making it unsupported as a general finding.
+- The interpretation of specific non-contacting couplings as evidence for allostery or functional regulation (e.g., in DNAJB6) is speculative and not backed by experimental or additional computational evidence.
+- The assertion that the method "achieves predictions comparable with those obtained from <2 Å resolution crystal structures" is not directly demonstrated; it is inferred from a comparison to a previous study, but no direct benchmark is provided.
+- The generalizability of the method to proteins with different characteristics (e.g., IDPs, membrane proteins) is claimed as a future possibility but is not tested, and the current dataset is acknowledged to be biased toward folded proteins.
+- The effectiveness of the method for identifying "long-range functional couplings" is not validated against any known set of allosteric or functional residues, so the central premise remains unproven.

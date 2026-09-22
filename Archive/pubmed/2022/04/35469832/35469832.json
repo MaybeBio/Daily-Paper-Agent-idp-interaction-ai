@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "35469832",
+    "doi": "10.1016/j.jmb.2022.167579",
+    "title": "Prediction of Disordered Regions in Proteins with Recurrent Neural Networks and Protein Dynamics."
+  },
+  "content": {
+    "abstract": "The role of intrinsically disordered protein regions (IDRs) in cellular processes has become increasingly evident over the last years. These IDRs continue to challenge structural biology experiments because they lack a well-defined conformation, and bioinformatics approaches that accurately delineate disordered protein regions remain essential for their identification and further investigation. Typically, these predictors use the protein amino acid sequence, without taking into account likely sequence-dependent emergent properties, such as protein backbone dynamics. Here we present DisoMine, a method that predicts protein'long disorder' with recurrent neural networks from simple predictions of protein dynamics, secondary structure and early folding. The tool is fast and requires only a single sequence, making it applicable for large-scale screening, including poorly studied and orphan proteins. DisoMine is a top performer in its category and compares well to disorder prediction approaches using evolutionary information. DisoMine is freely available through an interactive webserver at https://bio2byte.be/disomine/.",
+    "keywords": [
+      "Intrinsically disordered proteins",
+      "Machine learning",
+      "Neural networks",
+      "Protein backbone dynamics",
+      "Protein disorder prediction"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Computational Biology/methods",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Neural Networks, Computer",
+      "Protein Structure, Secondary",
+      "*Sequence Analysis, Protein/methods",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Orlando, Gabriele",
+        "Raimondi, Daniele",
+        "Codice, Francesco",
+        "Tabaro, Francesco",
+        "Vranken, Wim"
+      ],
+      "short_names": [
+        "Orlando G",
+        "Raimondi D",
+        "Codice F",
+        "Tabaro F",
+        "Vranken W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Interuniversity Institute of Bioinformatics in Brussels, ULB-VUB, 1050 Brussels, Belgium; Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium.",
+        "ESAT-STADIUS, KU Leuven, 3001 Leuven, Belgium.",
+        "Department of Computer Science and Engineering, University of Bologna, 40127 Bologna, Italy.",
+        "Institute of Biosciences and Medical Technology, Arvo Ylpon katu 34, 33520 Tampere, Finland.",
+        "Interuniversity Institute of Bioinformatics in Brussels, ULB-VUB, 1050 Brussels, Belgium; Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium. Electronic address: wim.vranken@vub.be."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Orlando, Gabriele",
+        "short_name": "Orlando G",
+        "identifiers": [],
+        "affiliations": [
+          "Interuniversity Institute of Bioinformatics in Brussels, ULB-VUB, 1050 Brussels, Belgium; Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Raimondi, Daniele",
+        "short_name": "Raimondi D",
+        "identifiers": [],
+        "affiliations": [
+          "ESAT-STADIUS, KU Leuven, 3001 Leuven, Belgium."
+        ]
+      },
+      {
+        "full_name": "Codicè, Francesco",
+        "short_name": "Codicè F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science and Engineering, University of Bologna, 40127 Bologna, Italy."
+        ]
+      },
+      {
+        "full_name": "Tabaro, Francesco",
+        "short_name": "Tabaro F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biosciences and Medical Technology, Arvo Ylpön katu 34, 33520 Tampere, Finland."
+        ]
+      },
+      {
+        "full_name": "Vranken, Wim",
+        "short_name": "Vranken W",
+        "identifiers": [],
+        "affiliations": [
+          "Interuniversity Institute of Bioinformatics in Brussels, ULB-VUB, 1050 Brussels, Belgium; Structural Biology Brussels, Vrije Universiteit Brussel, 1050 Brussels, Belgium. Electronic address: wim.vranken@vub.be."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2022 Jun 30",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/27 06:00",
+    "fetched_at": "2026-09-20 09:58:54"
+  },
+  "links": {
+    "cites": [
+      "41885242",
+      "41689628",
+      "40573384",
+      "40315131",
+      "39888268",
+      "39543027",
+      "39476286",
+      "39243101",
+      "39240327",
+      "38984065",
+      "38765610",
+      "38540707",
+      "38450250",
+      "38213902",
+      "38213891",
+      "38059674",
+      "37740110",
+      "37674132",
+      "37246642",
+      "36833360",
+      "36139085",
+      "35992270",
+      "35883444",
+      "35562983",
+      "35356546",
+      "34290238",
+      "34057475",
+      "33892639",
+      "33348379"
+    ],
+    "refs": [],
+    "similar": [
+      "35469832",
+      "32535960",
+      "24573480",
+      "27787828",
+      "34830151",
+      "24573479",
+      "27115638",
+      "34905768",
+      "32621220",
+      "34048569",
+      "16618368",
+      "31756456",
+      "30135358",
+      "25391399",
+      "34418423",
+      "30099775",
+      "26230689",
+      "29228892",
+      "28369666",
+      "28765603",
+      "32034199",
+      "26109352",
+      "29360926",
+      "26198229",
+      "25534081",
+      "29076577",
+      "34390736",
+      "37883249",
+      "32901090",
+      "31207240",
+      "32696351",
+      "33875885",
+      "29066345",
+      "26090958",
+      "27179590",
+      "31870849",
+      "35562983",
+      "30819075",
+      "36458437",
+      "36959451",
+      "30395465",
+      "29763584",
+      "32696352",
+      "30301243",
+      "25637562",
+      "30657889",
+      "35507260",
+      "34290238",
+      "28365882",
+      "30866736",
+      "27787826",
+      "34487138",
+      "36908253",
+      "31889261",
+      "31521235",
+      "38747347",
+      "34057475",
+      "31797595",
+      "32696354",
+      "28076807",
+      "35883444",
+      "26307973",
+      "32702119",
+      "32019410",
+      "38297184",
+      "35767567",
+      "19774619",
+      "26674530",
+      "35367597",
+      "32173600",
+      "16856179",
+      "38701796",
+      "36210722",
+      "31616935",
+      "34626492",
+      "39237195",
+      "23466039",
+      "32112084",
+      "25502193",
+      "35436286",
+      "32112804",
+      "24027208",
+      "29036616",
+      "35149212",
+      "26287166",
+      "33866372",
+      "30324701",
+      "16844983",
+      "34992646",
+      "32696395",
+      "32142788",
+      "28934129",
+      "29595057",
+      "26138206",
+      "19439068",
+      "28821744",
+      "32503351",
+      "24668165",
+      "24739163",
+      "24203321",
+      "26555596",
+      "38048333",
+      "26801222",
+      "39240327",
+      "34864847",
+      "37740110",
+      "36315580",
+      "34533455",
+      "36847334",
+      "36334049",
+      "38540707",
+      "32756939",
+      "34702851",
+      "31642118",
+      "34480923",
+      "35356546",
+      "31710725",
+      "20100603",
+      "38910419",
+      "38039154",
+      "36304335",
+      "38404711",
+      "38552697",
+      "35974061",
+      "35544232",
+      "35591946",
+      "37574757",
+      "37621223",
+      "30299594",
+      "37246642",
+      "38297185",
+      "39310778",
+      "32973187"
+    ],
+    "review": [
+      "35469832",
+      "34418423",
+      "32034199",
+      "34390736",
+      "36959451",
+      "30657889",
+      "31521235",
+      "35367597",
+      "16856179",
+      "31616935",
+      "23466039",
+      "25502193",
+      "24027208",
+      "26287166",
+      "37740110",
+      "35356546"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(22)00159-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35469832",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

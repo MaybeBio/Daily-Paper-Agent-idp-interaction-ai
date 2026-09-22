@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41667433",
+  "title": "Mitochondrial DNA drives NLRP3-IL-1beta axis activation in microglia by binding to NLRP3, leading to neurodegeneration in Parkinson's disease models.",
+  "authors": "Gan, Qinglin; Fu, Xiaolong; Zhou, Ting; Fan, Naiyu; Nan, Nan; Wang, Yi; Yang, Yonggang; Gou, Shiyi; Hu, Lizhen; Zhou, Shaoyu",
+  "journal": "Cell death & disease",
+  "published_date": "2026-02-11",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究揭示氧化mtDNA与NLRP3的IDR结合激活NLRP3-IL-1beta轴导致帕金森神经退行，虽以核酸-蛋白互作为对象而非PPI，但通过分子对接和IDR分析预测结合机制，对无序区域介导互作的建模思路有可迁移启发。",
+  "abstract": "Dysregulated mitochondrial DNA (mtDNA) promotes inflammatory response and disease progression. However, the mechanism and role of mtDNA-mediated inflammatory activation in the pathogenesis of Parkinson's disease (PD) are not yet clear. This study demonstrates that the injection of mtDNA into the substantia nigra pars compacta induces PD pathology in mice, characterized by the loss of dopaminergic (DA) neurons and the activation of microglia. Transcriptomic profiling of magnetic-activated cell sorting (MACS)-sorted cells reveals a pronounced upregulation of genes associated with the NLRP3 inflammasome pathway in microglia following the mtDNA administration. Critically, lipopolysaccharide (LPS) and rotenone induced in vivo and in vitro PD models show oxidized mtDNA (ox-mtDNA) release and microglial NLRP3-IL-1beta axis activation as evidenced by upregulation of NLRP3 and IL-1beta, caspase-1 cleavage, and IL-1beta release. The role of mtDNA in activating the NLRP3-IL-1beta axis is further validated in BV2 cells through exogeneous mtDNA transfection, while the NLRP3-IL-1beta activation is negated in the LPS and rotenone induced model when mtDNA release is inhibited. Especially, oxidized mtDNA is superior to nonoxidized mtDNA in activating the NLRP3-IL-1beta axis. NLRP3 knockdown in BV2 cells abolishes the activation of NLRP3-IL-1beta axis induced by mtDNA or exposure of LPS and rotenone and mitigates the damage to SH-SY5Y cells in co-culture systems. Ox-mtDNA-mediated neuronal cell damage is initiated through binding to NLRP3, as demonstrated by co-immunoprecipitation and co-localization in BV2 cells. Molecular docking prediction and analysis of intrinsically disordered region (IDR) of NLRP3 indicate that ox-mtDNA interacts with the positively charged IDR of NLRP3. This interaction is validated by electrophoretic mobility shift and in vitro PYD-caspase-1 cleavage assays, demonstrating the formation of the ox-mtDNA-NLRP3 complex and subsequent activation of NLRP3. This study describes a critical role of mtDNA in activating microglial NLRP3-IL-1beta axis, leading to neurodegeneration in PD pathology, which provides clear clues for developing anti-PD drugs targeting NLRP3.",
+  "abstract_zh": "失调的线粒体DNA（mtDNA）促进炎症反应和疾病进展。然而，mtDNA介导的炎症激活在帕金森病（PD）发病机制中的作用和机制尚不清楚。本研究证明，将mtDNA注射到黑质致密部可诱导小鼠PD病理，其特征为多巴胺能（DA）神经元丢失和小胶质细胞激活。对磁激活细胞分选（MACS）分选细胞的转录组分析显示，在mtDNA给药后，小胶质细胞中与NLRP3炎症小体通路相关的基因显著上调。关键的是，脂多糖（LPS）和鱼藤酮诱导的体内和体外PD模型显示氧化型mtDNA（ox-mtDNA）释放和小胶质细胞NLRP3-IL-1beta轴激活，表现为NLRP3和IL-1beta上调、caspase-1裂解及IL-1beta释放。通过外源性mtDNA转染BV2细胞，进一步验证了mtDNA在激活NLRP3-IL-1beta轴中的作用，而在LPS和鱼藤酮诱导模型中，当mtDNA释放被抑制时，NLRP3-IL-1beta激活被消除。特别地，氧化型mtDNA在激活NLRP3-IL-1beta轴方面优于非氧化型mtDNA。在BV2细胞中敲低NLRP3可消除由mtDNA或LPS和鱼藤酮暴露诱导的NLRP3-IL-1beta轴激活，并减轻共培养系统中对SH-SY5Y细胞的损伤。通过免疫共沉淀和BV2细胞中的共定位实验证明，ox-mtDNA介导的神经元细胞损伤通过与NLRP3结合启动。分子对接预测和NLRP3内在无序区域（IDR）分析表明，ox-mtDNA与NLRP3带正电的IDR相互作用。该相互作用通过电泳迁移率变动和体外PYD-caspase-1裂解实验得到验证，证明ox-mtDNA-NLRP3复合物的形成及随后的NLRP3激活。本研究描述了mtDNA在激活小胶质细胞NLRP3-IL-1beta轴中的关键作用，导致PD病理中的神经退行性变，这为开发靶向NLRP3的抗PD药物提供了明确线索。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41667433/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41667433/",
+  "paper_page_path": "papers/pubmed/41667433/index.html"
+}

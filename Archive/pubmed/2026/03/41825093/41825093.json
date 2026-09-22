@@ -1,0 +1,272 @@
+{
+  "identity": {
+    "pmid": "41825093",
+    "doi": "10.1016/j.ceb.2026.102628",
+    "title": "Functions and regulated material states of cytoskeletal condensates."
+  },
+  "content": {
+    "abstract": "Numerous biomolecular condensates associate with the cytoskeleton. Their membrane-less interface enables rapid collection of specific cytoskeleton components and polymerases to modulate cytoskeleton dynamics. To function properly, these cytoskeletal condensates must achieve seemingly contradictory properties: they must have an internally fluid environment to concentrate and polymerize cytoskeletal proteins, while also being rigid enough to resist fiber-generated forces. While many condensing proteins have been identified, very little is known about the regulatory factors that influence their functional molecular dynamics and material states. This review covers recently identified key factors that alter the physical characteristics of cytoskeletal condensates and highlights the influence that newly nucleated cytoskeletal fibers, in turn, have on the condensates.",
+    "keywords": [
+      "Actin",
+      "Biomolecular condensates",
+      "Cytoskeleton",
+      "Intermediate filaments",
+      "Material properties",
+      "Microtubules",
+      "Phase separation"
+    ],
+    "mesh_terms": [
+      "*Cytoskeleton/metabolism",
+      "Humans",
+      "Animals",
+      "*Cytoskeletal Proteins/metabolism",
+      "*Biomolecular Condensates/metabolism",
+      "Microtubules/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yaguchi, Kan",
+        "Woodruff, Jeffrey B"
+      ],
+      "short_names": [
+        "Yaguchi K",
+        "Woodruff JB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Dept. of Cell Biology, UT Southwestern Medical Center, Dallas, TX, 75390, USA.",
+        "Dept. of Cell Biology, UT Southwestern Medical Center, Dallas, TX, 75390, USA; Dept. of Biophysics, UT Southwestern Medical Center, Dallas, TX, 75390, USA. Electronic address: Jeffrey.woodruff@utsouthwestern.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yaguchi, Kan",
+        "short_name": "Yaguchi K",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Cell Biology, UT Southwestern Medical Center, Dallas, TX, 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Woodruff, Jeffrey B",
+        "short_name": "Woodruff JB",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Cell Biology, UT Southwestern Medical Center, Dallas, TX, 75390, USA; Dept. of Biophysics, UT Southwestern Medical Center, Dallas, TX, 75390, USA. Electronic address: Jeffrey.woodruff@utsouthwestern.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in cell biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Cell Biol"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/14 00:31",
+    "fetched_at": "2026-09-18 01:31:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41825093",
+      "36690162",
+      "40184990",
+      "40424940",
+      "40194320",
+      "39914390",
+      "33048111",
+      "39109673",
+      "40593207",
+      "34152688",
+      "31003495",
+      "9224761",
+      "42161866",
+      "38429263",
+      "20335501",
+      "41461602",
+      "39827079",
+      "23761374",
+      "42102188",
+      "10919716",
+      "38622120",
+      "39271032",
+      "41017767",
+      "31435791",
+      "40174834",
+      "15180824",
+      "34145230",
+      "7019221",
+      "41977250",
+      "37252985",
+      "25460780",
+      "39079387",
+      "17499243",
+      "40429758",
+      "24603606",
+      "33409284",
+      "34445080",
+      "40462686",
+      "26104829",
+      "31098891",
+      "40557772",
+      "34033796",
+      "39880155",
+      "40999735",
+      "41904007",
+      "25395197",
+      "34767801",
+      "35938818",
+      "36555194",
+      "41027866",
+      "34090478",
+      "10810928",
+      "33478069",
+      "27041483",
+      "41480717",
+      "41629872",
+      "35587127",
+      "41698919",
+      "20116259",
+      "39929532",
+      "40494278",
+      "24117814",
+      "25957399",
+      "2412718",
+      "29843920",
+      "34033784",
+      "40962203",
+      "39146259",
+      "33576841",
+      "37759550",
+      "29949753",
+      "26965374",
+      "23175336",
+      "40095243",
+      "37770446",
+      "41873788",
+      "12417938",
+      "39672748",
+      "38773325",
+      "33453924",
+      "39320949",
+      "41004001",
+      "41983697",
+      "19768431",
+      "38499848",
+      "37898404",
+      "41240313",
+      "25244344",
+      "33597155",
+      "37162152",
+      "36609753",
+      "39116228",
+      "37125775",
+      "38360555",
+      "40804711",
+      "40730570",
+      "31879898",
+      "38207079",
+      "39168125",
+      "34772786"
+    ],
+    "review": [
+      "41825093",
+      "36690162",
+      "40184990",
+      "40424940",
+      "40194320",
+      "33048111",
+      "39109673",
+      "40593207",
+      "34152688",
+      "31003495",
+      "9224761",
+      "42161866",
+      "39827079",
+      "23761374",
+      "39271032",
+      "31435791",
+      "15180824",
+      "41977250",
+      "25460780",
+      "17499243",
+      "40429758",
+      "33409284",
+      "34445080",
+      "40462686",
+      "26104829",
+      "31098891",
+      "40557772",
+      "34033796",
+      "39880155",
+      "40999735",
+      "41904007",
+      "34767801",
+      "36555194",
+      "10810928",
+      "27041483",
+      "41480717",
+      "41629872",
+      "20116259",
+      "39929532",
+      "24117814",
+      "25957399",
+      "2412718",
+      "40962203",
+      "39146259",
+      "33576841",
+      "37759550",
+      "29949753",
+      "23175336",
+      "40095243",
+      "41873788",
+      "39672748",
+      "38773325",
+      "41004001",
+      "37898404",
+      "41240313",
+      "33597155",
+      "36609753",
+      "37125775",
+      "38360555",
+      "40804711",
+      "34772786"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0955-0674(26)00016-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0955-0674(26)00016-5",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,114 @@
+## Review setup
+
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results and discussion, conclusions, and supplementary figure references.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented evidence. No assessment of formatting, grammar, or journal policy compliance.
+- **Shared manuscript claim summary** The authors investigate the effect of phosphorylation at S138 and S348 on the structural and aggregation properties of the intrinsically disordered protein DPF3a. Using phosphomimetic mutants (S138E, S348E) characterized by CD and fluorescence spectroscopy, combined with all-atom MD simulations of phosphorylated variants, they report that phosphorylation induces extended conformations, local folding near phosphosites, and slower fibrillation kinetics with distinct aggregation mechanisms compared to wild-type DPF3a.
+- **Visible evidence base** Far-UV CD spectra (Fig. 1), intrinsic tryptophan and tyrosine fluorescence spectra (Figs. 2, 10, 11), MD simulation analyses including RMSD, RMSF, Rg, SASA, radial distribution functions, contact maps, and secondary structure content (Figs. 3-8), aggregation kinetics via deep-blue autofluorescence (Fig. 12), excitation-emission matrices (Fig. 13), TEM micrographs (Fig. 14), AFM-IR data (Fig. 15), and a proposed fibrillation pathway schematic (Fig. 16). Supplementary figures S1-S4 are referenced.
+- **Missing materials affecting confidence** No raw data files, no statistical analysis details, no replicate numbers for spectroscopic experiments, no explicit error bars or standard deviations in figures, no Thioflavin T or other orthogonal aggregation assays, no secondary structure deconvolution of CD spectra, no force field validation for phosphorylated residues, no convergence analysis for MD simulations, and no information on whether the phosphomimetic mutations were validated to faithfully mimic phosphorylation at these specific sites.
+
+## Reviewer
+
+- **Overall assessment** The manuscript addresses a relevant question regarding how phosphorylation modulates the conformational behavior and aggregation propensity of an amyloidogenic IDP. The combination of in vitro phosphomimetics and in silico phosphorylated variants is a reasonable approach. However, several concerns limit the strength of the conclusions. The phosphomimetic strategy is used without validation that glutamate substitution faithfully reproduces phosphorylation effects at these specific sites. The MD simulations lack convergence analysis and the comparison between phosphomimetics and phosphorylated variants is indirect. The aggregation kinetics data rely primarily on a single intrinsic fluorescence readout without orthogonal confirmation. The claim of distinct aggregation mechanisms is supported by limited morphological data. The link between structural changes and functional implications for DPF3a biology remains speculative.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, post-translational modification effects on protein conformation, amyloid formation mechanisms, and the growing family of amyloidogenic epigenetic regulators. The work may also interest those investigating how phosphorylation modulates aggregation in disease-relevant IDPs, given the established roles of phosphorylation in tau and alpha-synuclein aggregation.
+- **Major strengths** The study addresses an under-explored question about phosphorylation effects on an amyloidogenic IDP that is not a classical neurodegeneration-associated protein. The combination of experimental phosphomimetics with computational modeling of actual phosphorylated variants is a thoughtful design. The use of multiple spectroscopic techniques and the observation of distinct aggregation kinetics and fibril morphologies provide a foundation for further investigation. The MD simulations include analysis of specific electrostatic interactions between phosphoserines and basic residues, which provides mechanistic insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and validation
+  - **Claim pointer** The authors use S138E and S348E phosphomimetics to draw conclusions about the effects of phosphorylation at S138 and S348 on DPF3a structure and aggregation.
+  - **Evidence pointer** Section 2.1, Section 3.1, Section 3.3
+  - **Concern** The manuscript relies entirely on phosphomimetic mutants to represent phosphorylated DPF3a in vitro, yet provides no validation that glutamate substitution at these specific sites reproduces the structural or electrostatic effects of a phosphate group. The authors do not compare phosphomimetic behavior to enzymatically phosphorylated protein, nor do they discuss known limitations of the phosphomimetic approach for this particular protein. The MD simulations use actual phosphoserine, but the experimental data use glutamate, creating a disconnect between the two approaches that is not addressed.
+  - **Why it matters** Phosphomimetics are imperfect proxies for phosphorylation. Glutamate carries a single negative charge versus the dianionic phosphate group, has different geometry and hydrogen-bonding capacity, and may not reproduce phosphorylation-dependent conformational changes. Without validation, conclusions about "the effect of phosphorylation" on DPF3a properties are not firmly established.
+  - **Resolution test** Provide evidence that S138E and S348E faithfully mimic phosphorylated DPF3a, for example by comparing to in vitro phosphorylated protein (e.g., using CK2) via CD, fluorescence, or other biophysical methods. Alternatively, clearly reframe all conclusions as being about the phosphomimetic mutations rather than phosphorylation per se.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational methodology and validation
+  - **Claim pointer** The MD simulations show that phosphorylation at S138 and S348 induces extended conformations, local folding near phosphosites, and specific electrostatic interactions with Arg and Lys residues.
+  - **Evidence pointer** Section 2.8, Section 3.2, Figs. 3-8
+  - **Concern** The MD simulation analysis lacks essential validation. No convergence assessment is reported, no block averaging or error estimation for computed properties is shown, and the simulation length (1000 ns) may be insufficient for an IDP of this size to sample its conformational ensemble. The comparison to WT trajectories from a previous publication is mentioned but the comparability of simulation conditions is not established. The force field parameters for phosphoserine are not described, and the use of CMAP corrections for IDRs is mentioned but not detailed.
+  - **Why it matters** IDPs are notoriously difficult to simulate due to their rugged energy landscapes and slow conformational sampling. Without demonstrated convergence and appropriate error analysis, the reported differences between WT and phosphorylated systems may reflect insufficient sampling rather than genuine phosphorylation effects.
+  - **Resolution test** Provide convergence analysis (e.g., block averaging, cumulative averages of Rg and RMSD), report simulation lengths and replicate variability with error bars, describe force field parameters for phosphoserine, and demonstrate that the WT reference simulations are directly comparable in terms of system setup and simulation protocol.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Aggregation kinetics methodology
+  - **Claim pointer** Both phosphomimetics exhibit slower fibrillation kinetics compared to WT DPF3a, with S348E showing higher final amyloid content and S138E showing delayed aggregation.
+  - **Evidence pointer** Section 3.3, Figs. 9-12
+  - **Concern** The aggregation kinetics are assessed primarily through deep-blue autofluorescence at 456 nm. While this intrinsic signal has been associated with amyloid formation, it is not a standard quantitative measure of fibril formation. No Thioflavin T fluorescence, Congo red binding, or sedimentation assays are used to corroborate the kinetics. The relationship between dbAF intensity and fibril mass is not calibrated. The claim of "distinct aggregation mechanisms" is based on kinetic differences and morphological observations, but the mechanistic basis is not explored.
+  - **Why it matters** Amyloid formation kinetics should be measured by multiple orthogonal methods to ensure that the observed signal reflects fibril formation rather than other aggregation-related phenomena. Without calibration or corroboration, the quantitative claims about relative rates and final fibril amounts are not robust.
+  - **Resolution test** Include Thioflavin T fluorescence kinetics or another orthogonal amyloid-specific assay. Calibrate dbAF intensity against fibril concentration or provide evidence that dbAF correlates with fibril mass. If dbAF is used as the primary readout, provide a more detailed characterization of its relationship to amyloid structure.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data presentation and statistical rigor
+  - **Claim pointer** The manuscript reports differences in secondary structure content, fluorescence properties, and aggregation kinetics between WT and phosphomimetic DPF3a.
+  - **Evidence pointer** Figs. 1, 2, 9-12
+  - **Concern** No statistical analysis is presented for any of the experimental comparisons. Figures appear to show representative spectra or single experiments without replicates, error bars, or statistical tests. The number of independent experiments is not stated. The CD spectra are presented as smoothed curves without estimates of variability. The fluorescence kinetics curves in Fig. 12 lack error bars or confidence intervals.
+  - **Why it matters** Without replicate information and statistical analysis, it is impossible to assess whether the reported differences between WT and phosphomimetics are significant and reproducible. This is particularly important given the subtle spectral differences described.
+  - **Resolution test** Provide replicate numbers for all experiments, include error bars or confidence intervals on all quantitative data, and perform appropriate statistical tests for comparisons between WT and mutant proteins.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance and mechanistic interpretation
+  - **Claim pointer** The phosphorylation-induced structural changes could affect DPF3a function and its interaction with binding partners, particularly HEY1.
+  - **Evidence pointer** Section 3.2, Section 4
+  - **Concern** The functional implications are speculative. While the authors note that S348 phosphorylation is critical for DPF3a-HEY1 interaction, they do not test whether the structural changes observed in simulations or phosphomimetics affect this interaction. The connection between extended conformations, local folding, and functional outcomes is not experimentally addressed.
+  - **Why it matters** The broader significance of the findings depends on whether phosphorylation-induced conformational changes have functional consequences. Without functional assays, the relevance of the structural observations to DPF3a biology remains unclear.
+  - **Resolution test** Perform binding assays (e.g., pull-down, ITC, or MST) with WT and phosphomimetic DPF3a against HEY1 or other known interaction partners. Alternatively, test the effect of phosphorylation on a functional readout such as chromatin binding or transcriptional activity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and throughout
+  - **Evidence pointer** Abstract, Section 1
+  - **Issue** The term "hybrid IDP" is used without clear definition. The manuscript states that WT DPF3a is a hybrid IDP based on previous work, but the criteria for this classification are not explained.
+  - **Required correction** Define "hybrid IDP" or use more standard terminology such as "partially disordered protein" or specify the structural characteristics that justify this classification.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The purification protocol mentions TEV protease cleavage of the GST tag, but the final protein sequence after cleavage is not described. It is unclear whether any residual amino acids remain after tag removal, which could affect the biophysical properties.
+  - **Required correction** State the exact amino acid sequence of the final purified proteins, including any cloning artifacts or residual tag sequences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Section 3.1, Fig. 2
+  - **Issue** The interpretation of the ITF blue shift as indicating more buried Trp residues is reasonable, but the contribution of the two Trp residues (W56 and W79) cannot be distinguished. The authors do not discuss whether both residues contribute equally or whether one dominates the signal.
+  - **Required correction** Acknowledge the limitation that the fluorescence signal is an ensemble average of both Trp residues and discuss whether the structural models from MD simulations can help assign the observed changes to specific residues.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figs. 3-8
+  - **Evidence pointer** Section 3.2
+  - **Issue** The MD simulation figures lack error bars or shaded regions representing variability across replicates. The Rg distributions in Fig. 3D appear to be single histograms without replicate information.
+  - **Required correction** Add error bars or shaded confidence intervals to all time-dependent and distribution plots, and clearly indicate the number of replicates used.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 1
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction cites general reviews on PTMs and phosphorylation but does not discuss specific prior work on phosphorylation effects on IDP conformation and aggregation in sufficient depth. The comparison to well-studied systems like tau and alpha-synuclein is mentioned only briefly.
+  - **Required correction** Expand the introduction to include more specific examples of how phosphorylation modulates IDP structure and aggregation, particularly for proteins where both phosphomimetics and enzymatically phosphorylated forms have been compared.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability section
+  - **Issue** The data availability statement indicates that data will be made available upon request, which is less transparent than depositing data in public repositories. For MD simulations, trajectory data and analysis scripts should be made accessible.
+  - **Required correction** Deposit MD simulation inputs, trajectories, and analysis scripts in a public repository (e.g., Zenodo, Figshare) and provide accession numbers. Make experimental raw data available in a repository or as supplementary files.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (phosphomimetic validation), R1-M2 (MD simulation validation and convergence), R1-M3 (aggregation assay orthogonality), R1-M4 (statistical rigor).
+- **Assessment against Nature-style criteria** Originality: The question of how phosphorylation modulates an amyloidogenic IDP that is not a classical neurodegeneration protein is somewhat novel, but the approaches used are standard. Scientific importance: Moderate. The findings could be relevant to understanding phosphorylation-dependent regulation of IDP aggregation, but the functional significance is not established. Interdisciplinary readership: The work bridges biophysics, computational chemistry, and cell biology, but the presentation is primarily biophysical. Technical soundness: The experimental and computational methods are generally appropriate, but key validations are missing as detailed in major concerns. Readability for nonspecialists: The manuscript is written in a technical style that assumes familiarity with IDP biophysics and MD simulation terminology. Some concepts could be explained more clearly for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and the combination of approaches is commendable, but the lack of phosphomimetic validation, insufficient MD simulation rigor, and reliance on a single aggregation readout prevent the conclusions from being firmly supported. The authors should address the major concerns, particularly R1-M1 and R1-M2, before the case for phosphorylation-specific effects on DPF3a structure and aggregation can be considered established.
+
+## Risk / unsupported claims
+
+- The claim that phosphorylation at S138 and S348 induces extended conformations is based on MD simulations of phosphorylated variants, but the experimental data use phosphomimetics. The connection between the two is assumed, not demonstrated.
+- The claim that both phosphomimetics exhibit "slower fibrillation kinetics" compared to WT is based on dbAF measurements without orthogonal validation or statistical analysis.
+- The claim that phosphorylation induces "local folding" near phosphosites is inferred from MD simulations without experimental confirmation.
+- The statement that "phosphorylation of S348 has been identified as critical for the DPF3a-HEY1 interaction" is cited from prior work, but the current study does not test this interaction.
+- The proposed fibrillation pathway in Fig. 16 is speculative and extends beyond the direct experimental evidence presented.
+- The statement that "both phosphomimetics are hybrid IDPs, with increased turn and antiparallel β-sheet content" is based on qualitative interpretation of CD spectra without deconvolution or quantitative analysis.
+- The claim that "the C 2 H 2 ZnF domain and the C-terminal extremity of pS138 have exhibited an increased flexibility" is based on RMSF analysis, but the statistical significance of these differences is not established.

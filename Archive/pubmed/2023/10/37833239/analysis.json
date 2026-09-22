@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37833239",
+  "title": "Coronaviruses spike glycoprotein endodomains: The sequence and structure-based comprehensive study.",
+  "authors": "Kumar, Prateek; Bhardwaj, Aparna; Mukherjee, Bodhidipra; Joshi, Richa; Giri, Rajanish",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2023-10-14",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究用生物信息学与分子动力学模拟分析多种冠状病毒刺突蛋白内结构域（endodomain）的无序性，虽聚焦病毒蛋白而非直接PPI，但无序区域机制建模思路对IDR介导互作研究有参考价值。",
+  "abstract": "Any protein's flexibility or region makes it available to interact with many biomolecules in the cell. Specifically, such interactions in viruses help them to perform more functions despite having a smaller genome. Therefore, these flexible regions can be exciting and essential targets to be explored for their role in pathogenicity and therapeutic developments as they achieve essential interactions. In the continuation with our previous study on disordered analysis of SARS-CoV-2 spike protein's cytoplasmic tail (CTR), or endodomain, here we have explored the endodomain's disordered potential of six other coronaviruses using multiple bioinformatics approaches and molecular dynamics simulations. Based on the comprehensive analysis of its sequence and structural composition, we report the varying disorder propensity in endodomains of spike proteins of coronaviruses. The observations of this study may help to understand the importance of spike glycoprotein endodomain and creating therapeutic interventions against them.",
+  "abstract_zh": "任何蛋白质的灵活性或区域使其能够与细胞中的许多生物分子相互作用。具体而言，病毒中的此类相互作用帮助它们在基因组较小的情况下执行更多功能。因此，这些灵活区域因其实现关键相互作用，可成为探索其在致病性和治疗开发中作用的令人兴奋且重要的靶点。在我们先前对SARS-CoV-2刺突蛋白胞质尾区（CTR）或内结构域的无序性分析研究基础上，此处我们利用多种生物信息学方法和分子动力学模拟，探索了其他六种冠状病毒内结构域的无序潜力。基于对其序列和结构组成的综合分析，我们报告了冠状病毒刺突蛋白内结构域中不同的无序倾向性。本研究的观察结果可能有助于理解刺突糖蛋白内结构域的重要性，并制定针对它们的治疗干预措施。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37833239/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37833239/",
+  "paper_page_path": "papers/pubmed/37833239/index.html"
+}

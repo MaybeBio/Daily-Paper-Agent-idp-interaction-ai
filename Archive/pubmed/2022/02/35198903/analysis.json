@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35198903",
+  "title": "Surface tension and super-stoichiometric surface enrichment in two-component biomolecular condensates.",
+  "authors": "Pyo, Andrew G T; Zhang, Yaojun; Wingreen, Ned S",
+  "journal": "iScience",
+  "published_date": "2022-02-25",
+  "window": {
+    "start": "2022-02-21",
+    "end": "2022-02-27"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究双组分生物分子凝聚体的表面张力与超化学计量表面富集，聚焦无序蛋白类多价聚合物互作界面的物理机制，虽未直接涉及AI，但物理模拟方法深入揭示PPI介导的凝聚体表面调控机制，对本课题的互作机制建模有直接启发。",
+  "abstract": "Cells can achieve internal organization by exploiting liquid-liquid phase separation to form biomolecular condensates. Here we focus on the surface properties of condensates composed of two multivalent associative polymers held together by one-to-one \"sticker\" bonds. Using coarse-grained molecular-dynamics simulations, we study the influence of component stoichiometry on condensate surface properties. We find that unequal stoichiometry results in enrichment of the majority species at the interface and a sharp reduction of surface tension. To relate these two effects, we show that the reduction in surface tension scales linearly with the excess concentration of free binding sites at the interface. Our results imply that each excess free site contributes an approximately fixed additional energy and entropy to the interface, with the latter dominating such that enrichment of free majority sites lowers the surface tension. Our work provides insight into novel physical mechanisms by which cells can regulate condensate surface properties.",
+  "abstract_zh": "细胞能够通过利用液-液相分离形成生物分子凝聚体来实现内部组织。在此，我们聚焦于由一对一的“粘附”键连接两种多价缔合聚合物所组成的凝聚体的表面性质。利用粗粒化分子动力学模拟，我们研究了组分化学计量比对凝聚体表面性质的影响。我们发现，不等化学计量比导致界面处多数物种富集，并显著降低表面张力。为关联这两种效应，我们证明表面张力的降低与界面处自由结合位点的过量浓度呈线性关系。我们的结果表明，每个过量自由位点对界面贡献约固定的额外能量和熵，其中熵占主导，使得多数自由位点的富集降低表面张力。我们的工作为细胞调控凝聚体表面性质的新颖物理机制提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35198903/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35198903/",
+  "paper_page_path": "papers/pubmed/35198903/index.html"
+}

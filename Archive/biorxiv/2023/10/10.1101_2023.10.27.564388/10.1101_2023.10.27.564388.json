@@ -1,0 +1,192 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.27.564388",
+  "title": "Structural adaptability and surface activity of tardigrade-inspired peptides",
+  "doi": "10.1101/2023.10.27.564388",
+  "abstract": "<h4>ABSTRACT</h4> Tardigrades are unique micro-animals that withstand harsh conditions, such as extreme temperatures and desiccation. Recently, it was found that specific cytoprotective proteins are essential for ensuring this high environmental tolerance. In particular, cytoplasmic abundant heat soluble (CAHS) proteins, which are intrinsically disordered, adopt more ordered conformations upon desiccation, and are involved in the vitrification of the cytoplasm. The design and synthesis short peptides capable of mimicking the structural behavior (and thus the cytoprotective properties) of CAHS proteins would be beneficial for potential biomedical applications, including the development of novel heat-resistant preservatives for sensitive drug formulations. As a first step in this direction, we selected several model peptides of varying lengths derived from the conserved CAHS motifs 1 and 2, which are part of the intrinsically disordered CAHS-c2 region. We then studied their structures using circular dichroism and linear and two-dimensional infrared spectroscopy in the presence of the desolvating agent TFE (2,2,2-trifluoroethanol), which mimics desiccation. We found that the CAHS model peptides are mostly disordered at 0% TFE (a result that we confirmed by molecular dynamics simulations), but adopt a more α-helical structure upon the addition of the desolvating agent, similar to what is observed for full CAHS proteins. Additionally, we employed sum frequency generation to investigate the surface activity of the peptides at the air/water interface to mimic a partial dehydration effect. Interestingly, all model peptides are surface active and also adopt a helical structure at the air/water interface. Thus, the selected sequences represent promising model peptides that show similarities in the physicochemical behavior to full CAHS proteins. Our results also suggest that arginine might be a crucial element in defining the strong propensity of these peptides to adopt a helical structure. In the future, the use CAHS model peptides to design new synthetic peptide-based materials could make it possible to mimic and exploit the cytoprotective properties of naturally occurring tardigrade proteins. <h4>SIGNIFICANCE</h4> Tardigrades are micro-animals that can survive extreme conditions such as desiccation and high temperatures. Recent work has shown that this capability is related to the presence of specific proteins that can remodel in order to protect the organism’s cells. Mimicking this behavior using small peptides that preserve the structural properties of the full proteins is highly desirable in potential biomedical applications, such as the storage of heat-sensitive drugs. Here, we study the structural properties of model peptides derived from the conserved region of cytoplastic tardigrade proteins, and show that these peptides preserve some of the conformational behavior of the full protein under drying conditions. These peptides can therefore be used as a starting point for the design of synthetic model systems based on tardigrade-inspired peptides for tailored applications.",
+  "authors": [
+    "Giubertoni G",
+    "Chagri S",
+    "Argudo PG",
+    "Caporaletti F",
+    "Greco A",
+    "Prädel L",
+    "Pavan A",
+    "M.Ilie I",
+    "Ren Y",
+    "Ng D",
+    "Bonn M",
+    "Weil T",
+    "Woutersen S"
+  ],
+  "published_date": "2023-10-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.27.564388",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.27.564388.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR749178",
+    "raw_record": {
+      "id": "PPR749178",
+      "source": "PPR",
+      "doi": "10.1101/2023.10.27.564388",
+      "title": "Structural adaptability and surface activity of tardigrade-inspired peptides",
+      "authorString": "Giubertoni G, Chagri S, Argudo PG, Caporaletti F, Greco A, Prädel L, Pavan A, M.Ilie I, Ren Y, Ng D, Bonn M, Weil T, Woutersen S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Giubertoni G",
+            "lastName": "Giubertoni",
+            "firstName": "Giulia",
+            "initials": "G"
+          },
+          {
+            "fullName": "Chagri S",
+            "lastName": "Chagri",
+            "firstName": "Sarah",
+            "initials": "S"
+          },
+          {
+            "fullName": "Argudo PG",
+            "lastName": "Argudo",
+            "firstName": "Pablo",
+            "initials": "PG"
+          },
+          {
+            "fullName": "Caporaletti F",
+            "lastName": "Caporaletti",
+            "firstName": "Federico",
+            "initials": "F"
+          },
+          {
+            "fullName": "Greco A",
+            "lastName": "Greco",
+            "firstName": "Alessandro",
+            "initials": "A"
+          },
+          {
+            "fullName": "Prädel L",
+            "lastName": "Prädel",
+            "firstName": "Leon",
+            "initials": "L"
+          },
+          {
+            "fullName": "Pavan A",
+            "lastName": "Pavan",
+            "firstName": "Alberto",
+            "initials": "A"
+          },
+          {
+            "fullName": "M.Ilie I",
+            "lastName": "M.Ilie",
+            "firstName": "Ioana",
+            "initials": "I"
+          },
+          {
+            "fullName": "Ren Y",
+            "lastName": "Ren",
+            "firstName": "Yong",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Ng D",
+            "lastName": "Ng",
+            "firstName": "David",
+            "initials": "D"
+          },
+          {
+            "fullName": "Bonn M",
+            "lastName": "Bonn",
+            "firstName": "Mischa",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6851-8453"
+            }
+          },
+          {
+            "fullName": "Weil T",
+            "lastName": "Weil",
+            "firstName": "Tanja",
+            "initials": "T"
+          },
+          {
+            "fullName": "Woutersen S",
+            "lastName": "Woutersen",
+            "firstName": "Sander",
+            "initials": "S"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6851-8453"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Tardigrades are unique micro-animals that withstand harsh conditions, such as extreme temperatures and desiccation. Recently, it was found that specific cytoprotective proteins are essential for ensuring this high environmental tolerance. In particular, cytoplasmic abundant heat soluble (CAHS) proteins, which are intrinsically disordered, adopt more ordered conformations upon desiccation, and are involved in the vitrification of the cytoplasm. The design and synthesis short peptides capable of mimicking the structural behavior (and thus the cytoprotective properties) of CAHS proteins would be beneficial for potential biomedical applications, including the development of novel heat-resistant preservatives for sensitive drug formulations. As a first step in this direction, we selected several model peptides of varying lengths derived from the conserved CAHS motifs 1 and 2, which are part of the intrinsically disordered CAHS-c2 region. We then studied their structures using circular dichroism and linear and two-dimensional infrared spectroscopy in the presence of the desolvating agent TFE (2,2,2-trifluoroethanol), which mimics desiccation. We found that the CAHS model peptides are mostly disordered at 0% TFE (a result that we confirmed by molecular dynamics simulations), but adopt a more α-helical structure upon the addition of the desolvating agent, similar to what is observed for full CAHS proteins. Additionally, we employed sum frequency generation to investigate the surface activity of the peptides at the air/water interface to mimic a partial dehydration effect. Interestingly, all model peptides are surface active and also adopt a helical structure at the air/water interface. Thus, the selected sequences represent promising model peptides that show similarities in the physicochemical behavior to full CAHS proteins. Our results also suggest that arginine might be a crucial element in defining the strong propensity of these peptides to adopt a helical structure. In the future, the use CAHS model peptides to design new synthetic peptide-based materials could make it possible to mimic and exploit the cytoprotective properties of naturally occurring tardigrade proteins. <h4>SIGNIFICANCE</h4>  Tardigrades are micro-animals that can survive extreme conditions such as desiccation and high temperatures. Recent work has shown that this capability is related to the presence of specific proteins that can remodel in order to protect the organism’s cells. Mimicking this behavior using small peptides that preserve the structural properties of the full proteins is highly desirable in potential biomedical applications, such as the storage of heat-sensitive drugs. Here, we study the structural properties of model peptides derived from the conserved region of cytoplastic tardigrade proteins, and show that these peptides preserve some of the conformational behavior of the full protein under drying conditions. These peptides can therefore be used as a starting point for the design of synthetic model systems based on tardigrade-inspired peptides for tailored applications.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/27/2023.10.27.564388.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.10.27.564388"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-10-30",
+      "firstPublicationDate": "2023-10-27",
+      "firstIndexDate": "2023-10-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

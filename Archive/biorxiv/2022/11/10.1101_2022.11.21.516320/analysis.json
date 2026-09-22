@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.21.516320",
+  "title": "Uncharacterized protein c17orf80: a novel interactor of human mitochondrial nucleoids",
+  "authors": "Potter A; Hangas A; Goffart S; Huynen MA; Cabrera-Orefice A; Spelbrink JN",
+  "journal": "bioRxiv",
+  "published_date": "2022-11-22",
+  "window": {
+    "start": "2022-11-21",
+    "end": "2022-11-27"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过免疫荧光、蛋白质组学和生化实验表征未表征蛋白c17orf80与线粒体核仁的互作，但对象非无序蛋白/相分离，且无AI或物理模拟方法，仅实验性互作表征，与本课题机制建模关联微弱。",
+  "abstract": "Molecular functions of many human proteins remain unstudied, despite the demonstrated association with diseases or pivotal molecular structures, such as mitochondrial DNA (mtDNA). This small genome is crucial for proper functioning of mitochondria, the energy-converting organelles. In mammals, mtDNA is arranged into macromolecular complexes called nucleoids that serve as functional stations for its maintenance and expression. Here, we aimed to explore an uncharacterized protein c17orf80, which was previously detected close to the nucleoid components by proximity-labelling mass spectrometry. To investigate the subcellular localization and function of c17orf80, we took an advantage of immunofluorescence microscopy, interaction proteomics and several biochemical assays. We demonstrate that c17orf80 is a mitochondrial membrane-associated protein that interacts with nucleoids even when mtDNA replication is inhibited. In addition, we show that c17orf80 is not essential for mtDNA maintenance and mitochondrial gene expression in cultured human cells. These results provide a basis for uncovering the molecular function of c17orf80 and the nature of its association with nucleoids, possibly leading to new insights about mtDNA and its expression.",
+  "abstract_zh": "许多人类蛋白质的分子功能尚未被研究，尽管它们已被证明与疾病或关键分子结构（如线粒体DNA (mitochondrial DNA, mtDNA)）相关。这个小基因组对于线粒体（能量转换细胞器）的正常功能至关重要。在哺乳动物中，mtDNA被组织成大分子复合物，称为核仁（nucleoids），作为其维持和表达的功能站点。在此，我们旨在探索一种未表征的蛋白质c17orf80，该蛋白质先前通过邻近标记质谱法在核仁组分附近被检测到。为了研究c17orf80的亚细胞定位和功能，我们利用了免疫荧光显微镜、相互作用蛋白质组学及多种生化实验。我们证明c17orf80是一种线粒体膜相关蛋白，即使在mtDNA复制被抑制时也能与核仁相互作用。此外，我们显示c17orf80对于培养的人类细胞中mtDNA的维持和线粒体基因表达并非必需。这些结果为揭示c17orf80的分子功能及其与核仁关联的性质提供了基础，可能为mtDNA及其表达带来新的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.21.516320",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.21.516320",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.21.516320/index.html"
+}

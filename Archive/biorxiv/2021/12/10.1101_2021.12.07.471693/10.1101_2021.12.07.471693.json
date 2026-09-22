@@ -1,0 +1,481 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.12.07.471693",
+  "title": "Interpretable and Generalizable Attention-Based Model for Predicting Drug-Target Interaction Using 3D Structure of Protein Binding Sites: SARS-CoV-2 Case Study and in-Lab Validation",
+  "doi": "10.1101/2021.12.07.471693",
+  "abstract": "In this study, we introduce and implement an interpretable graph-based deep learning prediction model, which utilizes protein binding sites along with self-attention to learn which protein binding sites interact with a given ligand. Our proposed model enables interpretability by identifying the protein binding sites that contribute the most towards the Drug-Target Interaction. Results on three benchmark datasets show improved performance compared to previous graph-based models. More significantly, unlike previous studies our model performance remains close to the optimal performance when tested with new proteins (ie., high generalizablity). Through multidisciplinary collaboration, we further experimentally evaluate the practical potential of our proposed approach. To achieve this, we first computationally predict binding interaction of some candidate compounds with a target protein, then experimentally validate the binding interactions for these pairs in the laboratory. The high agreement between the computationally-predicted and experimentally-observed (measured) DTIs illustrates the potential of our method as an effective pre-screening tool in drug re-purposing applications.",
+  "authors": [
+    "Mehdi Yazdani-Jahromi",
+    "Niloofar Yousefi",
+    "Aida Tayebi",
+    "Ozlem Ozmen Garibay",
+    "Sudipta Seal",
+    "Elayaraja Kolanthai",
+    "Craig J. Neal"
+  ],
+  "published_date": "2021-12-09",
+  "updated_date": "2021-12-09T13:35:40Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.12.07.471693",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.12.07.471693.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2026-08-17T23:50:22Z",
+        "timestamp": 1787010622993,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            9
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 38,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>In this study, we introduce and implement an interpretable graph-based deep learning prediction model, which utilizes protein binding sites along with self-attention to learn which protein binding sites interact with a given ligand. Our proposed model enables interpretability by identifying the protein binding sites that contribute the most towards the Drug-Target Interaction. Results on three benchmark datasets show improved performance compared to previous graph-based models. More significantly, unlike previous studies our model performance remains close to the optimal performance when tested with new proteins (ie., high generalizablity). Through multidisciplinary collaboration, we further experimentally evaluate the practical potential of our proposed approach. To achieve this, we first computationally predict binding interaction of some candidate compounds with a target protein, then experimentally validate the binding interactions for these pairs in the laboratory. The high agreement between the computationally-predicted and experimentally-observed (measured) DTIs illustrates the potential of our method as an effective pre-screening tool in drug re-purposing applications.</jats:p>",
+      "DOI": "10.1101/2021.12.07.471693",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            9
+          ]
+        ],
+        "date-time": "2021-12-09T13:35:40Z",
+        "timestamp": 1639056940000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Interpretable and Generalizable Attention-Based Model for Predicting Drug-Target Interaction Using 3D Structure of Protein Binding Sites: SARS-CoV-2 Case Study and in-Lab Validation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Mehdi",
+          "family": "Yazdani-Jahromi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Niloofar",
+          "family": "Yousefi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Aida",
+          "family": "Tayebi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ozlem Ozmen",
+          "family": "Garibay",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sudipta",
+          "family": "Seal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elayaraja",
+          "family": "Kolanthai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Craig J.",
+          "family": "Neal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq112"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa524"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.3",
+          "unstructured": "J. Du , S. Zhang , G. Wu , J. M. F. Moura , and S. Kar . Topology adaptive graph convolutional networks, 2018."
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci2003889"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Fokoue , M. Sadoghi , O. Hassanzadeh , and P. Zhang . Predicting drug-drug interactions through large-scale similarity-based link prediction. In European Semantic Web Conference, pages 774–789. Springer, 2016.",
+          "DOI": "10.1007/978-3-319-34129-3_47"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.6",
+          "first-page": "3371",
+          "article-title": "Interpretable drug target prediction using deep neural representation",
+          "volume": "2018",
+          "year": "2018",
+          "journal-title": "In IJCAI"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1072"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.8",
+          "article-title": "Atomic convolutional networks for predicting protein-ligand binding affinity",
+          "year": "2017",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "1",
+          "key": "2022022011350875000_2021.12.07.471693v2.9",
+          "first-page": "1",
+          "article-title": "Simboost: a read-across approach for predicting drug–target binding affinities using gradient boosting machines",
+          "volume": "9",
+          "year": "2017",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "issue": "35",
+          "key": "2022022011350875000_2021.12.07.471693v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "20701",
+          "DOI": "10.1039/D0RA02297G",
+          "article-title": "Drug–target affinity prediction using graph neural network and contact maps",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "RSC Advances"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz111"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.12",
+          "unstructured": "T. N. Kipf and M. Welling . Semi-supervised classification with graph convolutional networks, 2017."
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci300604z"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.14",
+          "unstructured": "Y. Li , D. Tarlow , M. Brockschmidt , and R. Zemel . Gated graph sequence neural networks, 2017."
+        },
+        {
+          "issue": "1",
+          "key": "2022022011350875000_2021.12.07.471693v2.15",
+          "first-page": "1",
+          "article-title": "Improved genome-scale multi-target virtual screening via a novel collaborative filtering approach to cold-start problem",
+          "volume": "6",
+          "year": "2016",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "issue": "9",
+          "key": "2022022011350875000_2021.12.07.471693v2.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "3981",
+          "DOI": "10.1021/acs.jcim.9b00387",
+          "article-title": "Predicting drug–target interaction using a novel graph neural network with 3d structure-embedded graph representation",
+          "volume": "59",
+          "year": "2019",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv256"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv256"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm300687e"
+        },
+        {
+          "issue": "8",
+          "key": "2022022011350875000_2021.12.07.471693v2.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "1140",
+          "DOI": "10.1093/bioinformatics/btaa921",
+          "article-title": "Graphdta: Predicting drug–target binding affinity with graph neural networks",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbu010"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20084"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.6b00740"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1472-6807-14-18"
+        },
+        {
+          "issue": "4",
+          "key": "2022022011350875000_2021.12.07.471693v2.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0249404",
+          "DOI": "10.1371/journal.pone.0249404",
+          "article-title": "Development of a graph convolutional neural network model for efficient prediction of protein-ligand binding affinities",
+          "volume": "16",
+          "year": "2021",
+          "journal-title": "PloS one"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty374"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00628"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4419-9863-7_980"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21334"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty535"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.31",
+          "unstructured": "A. Vaswani , N. Shazeer , N. Parmar , J. Uszkoreit , L. Jones , A. N. Gomez , L. Kaiser , and I. Polosukhin . Attention is all you need, 2017."
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.32",
+          "unstructured": "P. Veličković , G. Cucurull , A. Casanova , A. Romero , P. Liò , and Y. Bengio . Graph attention networks, 2018."
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.33",
+          "article-title": "Atomnet: a deep convolutional neural network for bioactivity prediction in structure-based drug discovery",
+          "year": "2015",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2196/17643"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jproteome.6b00618"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Wu , M. Gao , M. Zeng , F. Chen , M. Li , and J. Zhang . BridgeDPI: A Novel Graph Neural Network for Predicting Drug-Protein Interactions. arXiv, 2021.",
+          "DOI": "10.1093/bioinformatics/btac155"
+        },
+        {
+          "issue": "2",
+          "key": "2022022011350875000_2021.12.07.471693v2.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "134",
+          "DOI": "10.1038/s42256-020-0152-y",
+          "article-title": "Predicting drug–protein interaction using quasi-visual question answering system",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2022022011350875000_2021.12.07.471693v2.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P. Zhou , W. Shi , J. Tian , Z. Qi , B. Li , H. Hao , and B. Xu . Attention-based bidirectional long shortterm memory networks for relation classification. In Proceedings of the 54th annual meeting of the association for computational linguistics (volume 2: Short papers), pages 207–212, 2016.",
+          "DOI": "10.18653/v1/P16-2034"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.12.07.471693",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:27:59Z",
+        "timestamp": 1768444079000
+      },
+      "score": 42.49984,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.12.07.471693"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            9
+          ]
+        ]
+      },
+      "references-count": 38,
+      "URL": "https://doi.org/10.1101/2021.12.07.471693",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bib/bbac272",
+            "asserted-by": "subject"
+          }
+        ],
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.32388/HNE9VU",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            9
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

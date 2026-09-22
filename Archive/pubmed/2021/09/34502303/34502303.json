@@ -1,0 +1,478 @@
+{
+  "identity": {
+    "pmid": "34502303",
+    "doi": "10.3390/ijms22179390",
+    "title": "PGRS Domain of Rv0297 of Mycobacterium tuberculosis Functions in A Calcium Dependent Manner."
+  },
+  "content": {
+    "abstract": "Mycobacterium tuberculosis (M.tb), the pathogen causing tuberculosis, is a major threat to human health worldwide. Nearly 10% of M.tb genome encodes for a unique family of PE/PPE/PGRS proteins present exclusively in the genus Mycobacterium. The functions of most of these proteins are yet unexplored. The PGRS domains of these proteins have been hypothesized to consist of Ca(2+) binding motifs that help these intrinsically disordered proteins to modulate the host cellular responses. Ca(2+) is an important secondary messenger that is involved in the pathogenesis of tuberculosis in diverse ways. This study presents the calcium-dependent function of the PGRS domain of Rv0297 (PE_PGRS5) in M.tb virulence and pathogenesis. Tandem repeat search revealed the presence of repetitive Ca(2+) binding motifs in the PGRS domain of the Rv0297 protein (Rv0297PGRS). Molecular Dynamics simulations and fluorescence spectroscopy revealed Ca(2+) dependent stabilization of the Rv0297PGRS protein. Calcium stabilized Rv0297PGRS enhances the interaction of Rv0297PGRS with surface localized Toll like receptor 4 (TLR4) of macrophages. The Ca(2+) stabilized binding of Rv0297PGRS with the surface receptor of macrophages enhances its downstream consequences in terms of Nitric Oxide (NO) production and cytokine release. Thus, this study points to hitherto unidentified roles of calcium-modulated PE_PGRS proteins in the virulence of M.tb. Understanding the pathogenic potential of Ca(2+) dependent PE_PGRS proteins can aid in targeting these proteins for therapeutic interventions.",
+    "keywords": [
+      "PE_PGRS",
+      "TLR4 signaling",
+      "calcium",
+      "cytokine release",
+      "host-pathogen interaction",
+      "intrinsically disordered proteins",
+      "mycobacteria",
+      "nitric oxide",
+      "tuberculosis"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Animals",
+      "Antigens, Bacterial/chemistry/genetics/*metabolism",
+      "Bacterial Proteins/chemistry/genetics/*metabolism",
+      "Calcium/*metabolism",
+      "*Gene Expression Regulation, Bacterial",
+      "Humans",
+      "Macrophages/*metabolism/microbiology",
+      "Membrane Proteins/chemistry/genetics/*metabolism",
+      "Mice",
+      "Molecular Dynamics Simulation",
+      "Mycobacterium tuberculosis/growth & development/*metabolism",
+      "Protein Conformation",
+      "Sequence Homology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sharma, Tarina",
+        "Singh, Jasdeep",
+        "Grover, Sonam",
+        "P, Manjunath",
+        "Firdos, Firdos",
+        "Alam, Anwar",
+        "Ehtesham, Nasreen Z",
+        "Hasnain, Seyed E"
+      ],
+      "short_names": [
+        "Sharma T",
+        "Singh J",
+        "Grover S",
+        "P M",
+        "Firdos F",
+        "Alam A",
+        "Ehtesham NZ",
+        "Hasnain SE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1983-5863",
+        "ORCID: 0000-0002-4318-8360"
+      ],
+      "affiliations": [
+        "Kusuma School of Biological Sciences, Indian Institute of Technology, Hauz Khas, New Delhi 110016, India.",
+        "ICMR-National Institute of Pathology, Safdarjung Hospital Campus, New Delhi 110029, India.",
+        "JH-Institute of Molecular Medicine, Jamia Hamdard, Tughlaqabad, New Delhi 110062, India.",
+        "JH-Institute of Molecular Medicine, Jamia Hamdard, Tughlaqabad, New Delhi 110062, India.",
+        "ICMR-National Institute of Pathology, Safdarjung Hospital Campus, New Delhi 110029, India.",
+        "JH-Institute of Molecular Medicine, Jamia Hamdard, Tughlaqabad, New Delhi 110062, India.",
+        "Kusuma School of Biological Sciences, Indian Institute of Technology, Hauz Khas, New Delhi 110016, India.",
+        "ICMR-National Institute of Pathology, Safdarjung Hospital Campus, New Delhi 110029, India.",
+        "ICMR-National Institute of Pathology, Safdarjung Hospital Campus, New Delhi 110029, India.",
+        "Department of Biochemical Engineering and Biotechnology, Indian Institute of Technology, Hauz Khas, New Delhi 110016, India.",
+        "Dr. Reddy's Institute of Life Sciences, University of Hyderabad Campus, Prof C.R. Rao Road, Hyderabad 500019, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sharma, Tarina",
+        "short_name": "Sharma T",
+        "identifiers": [
+          "0000-0002-1983-5863"
+        ],
+        "affiliations": [
+          "Kusuma School of Biological Sciences, Indian Institute of Technology, Hauz Khas, New Delhi 110016, India.",
+          "ICMR-National Institute of Pathology, Safdarjung Hospital Campus, New Delhi 110029, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Jasdeep",
+        "short_name": "Singh J",
+        "identifiers": [
+          "0000-0002-4318-8360"
+        ],
+        "affiliations": [
+          "JH-Institute of Molecular Medicine, Jamia Hamdard, Tughlaqabad, New Delhi 110062, India."
+        ]
+      },
+      {
+        "full_name": "Grover, Sonam",
+        "short_name": "Grover S",
+        "identifiers": [],
+        "affiliations": [
+          "JH-Institute of Molecular Medicine, Jamia Hamdard, Tughlaqabad, New Delhi 110062, India."
+        ]
+      },
+      {
+        "full_name": "P, Manjunath",
+        "short_name": "P M",
+        "identifiers": [],
+        "affiliations": [
+          "ICMR-National Institute of Pathology, Safdarjung Hospital Campus, New Delhi 110029, India.",
+          "JH-Institute of Molecular Medicine, Jamia Hamdard, Tughlaqabad, New Delhi 110062, India."
+        ]
+      },
+      {
+        "full_name": "Firdos, Firdos",
+        "short_name": "Firdos F",
+        "identifiers": [],
+        "affiliations": [
+          "Kusuma School of Biological Sciences, Indian Institute of Technology, Hauz Khas, New Delhi 110016, India."
+        ]
+      },
+      {
+        "full_name": "Alam, Anwar",
+        "short_name": "Alam A",
+        "identifiers": [],
+        "affiliations": [
+          "ICMR-National Institute of Pathology, Safdarjung Hospital Campus, New Delhi 110029, India."
+        ]
+      },
+      {
+        "full_name": "Ehtesham, Nasreen Z",
+        "short_name": "Ehtesham NZ",
+        "identifiers": [],
+        "affiliations": [
+          "ICMR-National Institute of Pathology, Safdarjung Hospital Campus, New Delhi 110029, India."
+        ]
+      },
+      {
+        "full_name": "Hasnain, Seyed E",
+        "short_name": "Hasnain SE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Engineering and Biotechnology, Indian Institute of Technology, Hauz Khas, New Delhi 110016, India.",
+          "Dr. Reddy's Institute of Life Sciences, University of Hyderabad Campus, Prof C.R. Rao Road, Hyderabad 500019, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Aug 30",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/11 06:00",
+    "fetched_at": "2026-09-20 05:18:02"
+  },
+  "links": {
+    "cites": [
+      "42390684",
+      "42315648",
+      "42055340",
+      "41778017",
+      "38803374",
+      "38563966",
+      "36441815",
+      "36258102",
+      "35806210",
+      "35008950"
+    ],
+    "refs": [
+      "33190592",
+      "33125651",
+      "33042856",
+      "32628954",
+      "32457723",
+      "32416199",
+      "32113573",
+      "31643141",
+      "31249195",
+      "30837375",
+      "30153074",
+      "29921671",
+      "29893907",
+      "29368691",
+      "29362230",
+      "29335553",
+      "28626766",
+      "28440335",
+      "28079879",
+      "27987050",
+      "27483162",
+      "27378301",
+      "27242739",
+      "27129781",
+      "26978522",
+      "26933057",
+      "26445027",
+      "25703561",
+      "25475989",
+      "25312698",
+      "24975480",
+      "24904584",
+      "24474513",
+      "24467650",
+      "23284742",
+      "23167250",
+      "22618876",
+      "22544925",
+      "22170064",
+      "22050772",
+      "22005451",
+      "21732963",
+      "21603213",
+      "21318182",
+      "21112299",
+      "21081760",
+      "20360767",
+      "20234378",
+      "20221673",
+      "20176745",
+      "19919859",
+      "19602152",
+      "18957600",
+      "18284468",
+      "18267304",
+      "18083096",
+      "17632049",
+      "17517781",
+      "17223373",
+      "17095513",
+      "16497588",
+      "16207947",
+      "16203168",
+      "15101979",
+      "12775723",
+      "12626530",
+      "12368089",
+      "11973159",
+      "11967065",
+      "11705904",
+      "11500435",
+      "10918217",
+      "10868275",
+      "10827956",
+      "9634230",
+      "9025233",
+      "8641767",
+      "8253063"
+    ],
+    "similar": [
+      "34502303",
+      "29921671",
+      "33217152",
+      "33042856",
+      "35008950",
+      "24975480",
+      "18267304",
+      "15101979",
+      "20221673",
+      "24106104",
+      "32713249",
+      "18957600",
+      "27483162",
+      "17095513",
+      "16203168",
+      "20638467",
+      "25390359",
+      "27129781",
+      "16207947",
+      "11705904",
+      "27987050",
+      "24425732",
+      "16798044",
+      "29912964",
+      "11500435",
+      "16672626",
+      "33467487",
+      "34346699",
+      "11967065",
+      "29335553",
+      "19602152",
+      "10827956",
+      "30837375",
+      "10627046",
+      "26275158",
+      "21732963",
+      "30366125",
+      "27721064",
+      "30207307",
+      "23284742",
+      "31643141",
+      "29362230",
+      "28440335",
+      "17374885",
+      "17399860",
+      "22658664",
+      "30937925",
+      "17105670",
+      "29116636",
+      "28484686",
+      "22496726",
+      "31641771",
+      "26104967",
+      "23663047",
+      "18313360",
+      "27660000",
+      "32126449",
+      "38314675",
+      "30478834",
+      "22050772",
+      "19128836",
+      "11349098",
+      "20176745",
+      "21081760",
+      "28161108",
+      "31843799",
+      "23448669",
+      "37022460",
+      "20558725",
+      "14585500",
+      "38337112",
+      "26978522",
+      "31134163",
+      "17172340",
+      "15207495",
+      "30192424",
+      "22340629",
+      "20837474",
+      "17259625",
+      "30366126",
+      "22427668",
+      "35572598",
+      "27120981",
+      "19068228",
+      "38908454",
+      "20676709",
+      "27147522",
+      "28209712",
+      "38785795",
+      "36258102",
+      "26158346",
+      "24530527",
+      "21814507",
+      "31580738",
+      "36584479",
+      "36048802",
+      "31661176",
+      "19602151",
+      "23154833",
+      "25504154",
+      "38615303",
+      "19651861",
+      "18719176",
+      "28911035",
+      "24245765",
+      "18584054",
+      "25987613",
+      "24755630",
+      "34750243",
+      "37565603",
+      "24904584",
+      "22618876",
+      "36739922",
+      "37238682",
+      "33757409",
+      "16973866",
+      "23705005",
+      "25359006",
+      "35065357",
+      "31068617",
+      "38718566",
+      "21370306",
+      "35750685",
+      "25321481",
+      "35073464",
+      "35140886",
+      "21905117",
+      "25041568",
+      "33824847",
+      "36778852",
+      "37931681",
+      "37791794",
+      "37156406",
+      "36805109",
+      "30969995",
+      "21398546",
+      "22110736",
+      "23259719",
+      "37876785",
+      "22837694",
+      "33469971",
+      "22073123",
+      "23198822",
+      "22984256",
+      "17938218",
+      "34922100",
+      "9864257",
+      "30930064",
+      "33650800",
+      "36625169",
+      "37356289",
+      "36441815"
+    ],
+    "review": [
+      "34502303",
+      "33217152",
+      "35008950",
+      "24975480",
+      "32713249",
+      "20638467",
+      "33467487",
+      "30837375",
+      "26275158",
+      "29116636",
+      "26104967",
+      "27660000",
+      "30478834",
+      "23448669",
+      "38908454",
+      "31580738",
+      "31661176",
+      "24245765",
+      "34750243",
+      "35073464",
+      "36805109",
+      "23198822"
+    ],
+    "pmc": [
+      "8430768"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22179390",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34502303/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34502303",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.17.562595",
+  "title": "Measuring age-dependent viscoelastic properties of organelles, cells and organisms via Time-Shared Optical Tweezer Microrheology",
+  "doi": "10.1101/2023.10.17.562595",
+  "abstract": "Recording the mechanical response of biological samples, the cell’s interior and complex fluids in general, would enable deeper understanding of cellular differentiation, ageing and drug discovery. Here, we present a time-shared optical tweezer microrheology (TimSOM) pipeline to determine the frequency- and age-dependent viscoelastic properties of biological materials. Our approach consists in splitting a single laser beam into two near-instantaneous time-shared optical traps to carry out simultaneous force and displacement measurements with sub-nanometer and sub-picoNewton accuracy during sinusoidal perturbations. Leveraging numerical and analytical models, we find solutions to commonly encountered deviations, to build a practical and robust nanorheometer. We demonstrate the versatility of the technique by 1) measuring the phase transitions of an ageing biomolecular condensate, 2) quantifying the complex viscoelastic properties of three intracellular compartments of zebrafish progenitor cells, and, 3) using Caenorhabditis elegans , we uncover how mutations causing nuclear envelopathies soften the cytosol of intestinal cells during organismal age. Together, our advances afford rapid phenotyping of material properties inside cells and proteins blends, opening avenues for biomedical and drug screening applications.",
+  "authors": [
+    "Català-Castro F",
+    "Ortiz-Vásquez S",
+    "Martínez-Fernández C",
+    "Pezzano F",
+    "Garcia-Cabau C",
+    "Fernández-Campo M",
+    "Sanfeliu-Cerdán N",
+    "Jiménez-Delgado S",
+    "Salvatella X",
+    "Ruprecht V",
+    "Frigeri P",
+    "Krieg M"
+  ],
+  "published_date": "2023-10-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.17.562595",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.17.562595.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR745475",
+    "raw_record": {
+      "id": "PPR745475",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR745475"
+        ]
+      },
+      "doi": "10.1101/2023.10.17.562595",
+      "title": "Measuring age-dependent viscoelastic properties of organelles, cells and organisms via Time-Shared Optical Tweezer Microrheology",
+      "authorString": "Català-Castro F, Ortiz-Vásquez S, Martínez-Fernández C, Pezzano F, Garcia-Cabau C, Fernández-Campo M, Sanfeliu-Cerdán N, Jiménez-Delgado S, Salvatella X, Ruprecht V, Frigeri P, Krieg M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Català-Castro F",
+            "lastName": "Català-Castro",
+            "firstName": "Frederic",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Castelldefels, The Barcelona Institute of Science and Technology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ortiz-Vásquez S",
+            "lastName": "Ortiz-Vásquez",
+            "firstName": "Santiago",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Castelldefels, The Barcelona Institute of Science and Technology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martínez-Fernández C",
+            "lastName": "Martínez-Fernández",
+            "firstName": "Carmen",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Castelldefels, The Barcelona Institute of Science and Technology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pezzano F",
+            "lastName": "Pezzano",
+            "firstName": "Fabio",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", The Barcelona Institute of Science and Technology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garcia-Cabau C",
+            "lastName": "Garcia-Cabau",
+            "firstName": "Carla",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", The Barcelona Institute of Science and Technology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fernández-Campo M",
+            "lastName": "Fernández-Campo",
+            "firstName": "Martín",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Castelldefels, The Barcelona Institute of Science and Technology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sanfeliu-Cerdán N",
+            "lastName": "Sanfeliu-Cerdán",
+            "firstName": "Neus",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Castelldefels, The Barcelona Institute of Science and Technology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jiménez-Delgado S",
+            "lastName": "Jiménez-Delgado",
+            "firstName": "Senda",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", The Barcelona Institute of Science and Technology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Salvatella X",
+            "lastName": "Salvatella",
+            "firstName": "Xavier",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", The Barcelona Institute of Science and Technology, ,"
+                },
+                {
+                  "affiliation": ", Pg. Lluis Companys 23 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ruprecht V",
+            "lastName": "Ruprecht",
+            "firstName": "Verena",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0501-5036"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", The Barcelona Institute of Science and Technology, ,"
+                },
+                {
+                  "affiliation": ", Pg. Lluis Companys 23 , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Frigeri P",
+            "lastName": "Frigeri",
+            "firstName": "Paolo-Antonio",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Impetux Optics, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Krieg M",
+            "lastName": "Krieg",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Castelldefels, The Barcelona Institute of Science and Technology, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0501-5036"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3704-1861"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Recording the mechanical response of biological samples, the cell’s interior and complex fluids in general, would enable deeper understanding of cellular differentiation, ageing and drug discovery. Here, we present a time-shared optical tweezer microrheology (TimSOM) pipeline to determine the frequency- and age-dependent viscoelastic properties of biological materials. Our approach consists in splitting a single laser beam into two near-instantaneous time-shared optical traps to carry out simultaneous force and displacement measurements with sub-nanometer and sub-picoNewton accuracy during sinusoidal perturbations. Leveraging numerical and analytical models, we find solutions to commonly encountered deviations, to build a practical and robust nanorheometer. We demonstrate the versatility of the technique by 1) measuring the phase transitions of an ageing biomolecular condensate, 2) quantifying the complex viscoelastic properties of three intracellular compartments of zebrafish progenitor cells, and, 3) using  Caenorhabditis elegans , we uncover how mutations causing nuclear envelopathies soften the cytosol of intestinal cells during organismal age. Together, our advances afford rapid phenotyping of material properties inside cells and proteins blends, opening avenues for biomedical and drug screening applications.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "648201",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "715243",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/20/2023.10.17.562595.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.10.17.562595"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR745475"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR745475&type=FILE&fileName=EMS189943-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS189943",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-10-22",
+      "firstPublicationDate": "2023-10-20",
+      "firstIndexDate": "2023-10-22",
+      "fullTextReceivedDate": "2024-10-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

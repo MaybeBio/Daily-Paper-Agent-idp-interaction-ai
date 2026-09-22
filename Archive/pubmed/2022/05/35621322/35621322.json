@@ -1,0 +1,220 @@
+{
+  "identity": {
+    "pmid": "35621322",
+    "doi": "10.1002/cphc.202200211",
+    "title": "Influence of Ion Specificity and Concentration on the Conformational Transition of Intrinsically Disordered Sheep Prion Peptide."
+  },
+  "content": {
+    "abstract": "The structural sensitivity of the intrinsically disordered proteins with the ions has been observed experimentally; however, it is still unclear how the presence of different metal ions affects structural stability. We performed an atomistic molecular dynamics simulation of sheep prion peptide (142-167) in presence of different monovalent, divalent ions at various concentrations to find out the effect of the size, charge, and ionic concentration on the structure of the peptide. It is found that Li(+) ions have a higher survival probability compared to Na(+) , K(+,) and Mg(2+) affecting the solvation structure of the protein leading to the alpha-helix structure. At high concentration, due to the increase in the ion-solvent and counter-ion interactions, the effect of the ions is screened on the surface of the protein and hence no ion specificity is observed. This study demonstrates how ions can be used to regulate the protein structure and function that can help in designing drugs.",
+    "keywords": [
+      "alpha to beta transition",
+      "atomistic molecular dynamics simulation",
+      "intrinsically disordered protein",
+      "preferential binding affinity of ions",
+      "prion peptide"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Ions/chemistry",
+      "Molecular Conformation",
+      "*Molecular Dynamics Simulation",
+      "Peptides",
+      "*Prions/chemistry",
+      "Sheep"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Omkar",
+        "Kumar Das, Bratin",
+        "Chakraborty, Debashree"
+      ],
+      "short_names": [
+        "Singh O",
+        "Kumar Das B",
+        "Chakraborty D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, National Institute of Technology Karnataka, Surathkal, Mangalore, 575025, India.",
+        "Department of Chemistry, National Institute of Technology Karnataka, Surathkal, Mangalore, 575025, India.",
+        "Department of Chemistry, National Institute of Technology Karnataka, Surathkal, Mangalore, 575025, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Omkar",
+        "short_name": "Singh O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, National Institute of Technology Karnataka, Surathkal, Mangalore, 575025, India."
+        ]
+      },
+      {
+        "full_name": "Kumar Das, Bratin",
+        "short_name": "Kumar Das B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, National Institute of Technology Karnataka, Surathkal, Mangalore, 575025, India."
+        ]
+      },
+      {
+        "full_name": "Chakraborty, Debashree",
+        "short_name": "Chakraborty D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, National Institute of Technology Karnataka, Surathkal, Mangalore, 575025, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemphyschem : a European journal of chemical physics and physical chemistry"
+    ],
+    "journal_abbrev": [
+      "Chemphyschem"
+    ],
+    "pub_date": "2022 Aug 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/28 06:00",
+    "fetched_at": "2026-09-20 10:40:13"
+  },
+  "links": {
+    "cites": [
+      "38222622",
+      "37106781"
+    ],
+    "refs": [],
+    "similar": [
+      "35621322",
+      "38569130",
+      "12829502",
+      "30637529",
+      "20453935",
+      "18455265",
+      "18205409",
+      "27131566",
+      "30811210",
+      "10529232",
+      "11577109",
+      "24386462",
+      "31095382",
+      "10350074",
+      "25059842",
+      "30933519",
+      "20936829",
+      "24184221",
+      "23153112",
+      "36451081",
+      "32284601",
+      "22987112",
+      "23912807",
+      "19326878",
+      "23276223",
+      "21869995",
+      "20411530",
+      "10716185",
+      "26248730",
+      "22803956",
+      "24498083",
+      "21469747",
+      "15041684",
+      "25101991",
+      "38189361",
+      "15095015",
+      "25105226",
+      "22441317",
+      "35838152",
+      "24443090",
+      "33982037",
+      "39283928",
+      "26911543",
+      "12206674",
+      "16471693",
+      "40207671",
+      "34152264",
+      "29907048",
+      "9585530",
+      "16204250",
+      "20109469",
+      "32419254",
+      "21526434",
+      "34576338",
+      "19508225",
+      "30192538",
+      "37163663",
+      "24370255",
+      "26052838",
+      "24918957",
+      "34737343",
+      "26919915",
+      "26864861",
+      "36409899",
+      "32267674",
+      "11089645",
+      "7907586",
+      "16925523",
+      "41301485",
+      "23458153",
+      "40977118",
+      "33030907",
+      "14623188",
+      "25855580",
+      "7619055",
+      "25353518",
+      "25799319",
+      "16252284",
+      "34382391",
+      "20692152",
+      "29989407",
+      "39225633",
+      "29967919",
+      "29289137",
+      "41085093",
+      "33004902",
+      "15377536",
+      "22663162",
+      "15249223",
+      "37746887",
+      "32107511",
+      "28197405",
+      "30261281",
+      "18845890",
+      "22934595",
+      "21689534",
+      "37855150",
+      "32316569",
+      "21692466",
+      "24586266"
+    ],
+    "review": [
+      "35621322",
+      "30933519",
+      "21869995",
+      "21526434",
+      "24370255"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/cphc.202200211",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

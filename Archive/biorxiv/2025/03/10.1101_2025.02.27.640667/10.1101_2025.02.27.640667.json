@@ -1,0 +1,397 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.02.27.640667",
+  "title": "CLIMBS: assessing carbohydrate-protein interactions through a graph neural network classifier using synthetic negative data",
+  "doi": "10.1101/2025.02.27.640667",
+  "abstract": "Carbohydrate-protein interactions are essential for biological processes, such as cellular signaling and metabolism, and represent a large pool of untapped targets for diagnostics and therapeutics. However, current design and prediction methods fail to accurately evaluate the affinity and specificity of proteins for carbohydrates such as glucose and galactose. Here, we describe a machine learning classifier, named CLIMBS, as a novel scoring method for protein-carbohydrate interactions and train it on crystal structures and synthetic data from unsuccessfully designed binders, to effectively assess if carbohydrate-protein complexes represent realistic, native like structures. Compared to other methods, CLIMBS has outstanding accuracy, excellent carbohydrate specificity, sub-second runtime per sample, minimal bias towards either negative or positive samples, and can be employed to improve selection of successful docking and design models of carbohydrate-protein complexes.",
+  "authors": [
+    "Yijie Luo",
+    "Fabio Parmeggiani"
+  ],
+  "published_date": "2025-03-05",
+  "updated_date": "2025-03-05T23:05:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.02.27.640667",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.02.27.640667.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T14:47:15Z",
+        "timestamp": 1785422835911,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            5
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 37,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                5
+              ]
+            ],
+            "date-time": "2025-03-05T00:00:00Z",
+            "timestamp": 1741132800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "EPSRC, UK"
+        },
+        {
+          "id": [
+            {
+              "id": "https://ror.org/04atp4p48",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            14
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Carbohydrate-protein interactions are essential for biological processes, such as cellular signaling and metabolism, and represent a large pool of untapped targets for diagnostics and therapeutics. However, current design and prediction methods fail to accurately evaluate the affinity and specificity of proteins for carbohydrates such as glucose and galactose. Here, we describe a machine learning classifier, named CLIMBS, as a novel scoring method for protein-carbohydrate interactions and train it on crystal structures and synthetic data from unsuccessfully designed binders, to effectively assess if carbohydrate-protein complexes represent realistic, native like structures. Compared to other methods, CLIMBS has outstanding accuracy, excellent carbohydrate specificity, sub-second runtime per sample, minimal bias towards either negative or positive samples, and can be employed to improve selection of successful docking and design models of carbohydrate-protein complexes.</jats:p>",
+      "DOI": "10.1101/2025.02.27.640667",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            5
+          ]
+        ],
+        "date-time": "2025-03-05T23:05:12Z",
+        "timestamp": 1741215912000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "CLIMBS: assessing carbohydrate-protein interactions through a graph neural network classifier using synthetic negative data"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6760-4253",
+          "authenticated-orcid": false,
+          "given": "Yijie",
+          "family": "Luo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8548-1090",
+          "authenticated-orcid": false,
+          "given": "Fabio",
+          "family": "Parmeggiani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/811"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/9780470392881.ch2"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-016-2250-x"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-060614-033930"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nri2569"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm1428"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/advs.202103807"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acschembio.1c00689"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3762/bjoc.20.180"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.accb.2023.10.003"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.9b00591"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.7b00125"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21256"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c00203"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.5b08424"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13321-021-00522-2"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-022-04762-3"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw390"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liao, Z. et al. DeepDock: Enhancing Ligand-protein Interaction Prediction by a Combination of Ligand and Structure Information. 2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), 311–317 (2019).",
+          "DOI": "10.1109/BIBM47256.2019.8983365"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.20",
+          "unstructured": "Corso, G. a. S. , Hannes and Jing, Bowen and Barzilay, Regina and Jaakkola, Tommi . DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking. International Conference on Learning Representations (ICLR) (2023)."
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07487-w"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20820"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab512"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D3SC04185A"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fbinf.2023.1186531"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.beth.2020.05.002"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.10.09.561603"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou, Z. et al. in 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 4761–4772.",
+          "DOI": "10.1109/CVPR.2017.506"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11704-022-2163-9"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja026939x"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/mbio.01490-21"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.22765"
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.34",
+          "unstructured": "Liu, Y. et al. Spherical Message Passing for 3D Graph Networks. arXiv pre-print server, doi:None arxiv:2102.05013 (2021)."
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.35",
+          "unstructured": "Corso, G. , Cavalleri, L. , Beaini, D. , Li\\ó, P. & Veli\\vkovi\\’c, P. Principal Neighbourhood Aggregation for Graph Nets. arXiv pre-print server, doi:None 2004.05718 (2020)."
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.36",
+          "unstructured": "Ying, R. et al. Hierarchical Graph Representation Learning with Differentiable Pooling. arXiv pre-print server, doi:None 1806.08804 (2019)."
+        },
+        {
+          "key": "2025031023401093000_2025.02.27.640667v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0059004"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.02.27.640667",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:13:02Z",
+        "timestamp": 1782277982000
+      },
+      "score": 60.10479,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.02.27.640667"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            5
+          ]
+        ]
+      },
+      "references-count": 37,
+      "URL": "https://doi.org/10.1101/2025.02.27.640667",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jcim.6c00126",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.07.652675",
+  "title": "ZapC crosslinks FtsZ filaments through a dual-binding mechanism modulated by the intrinsically disordered linker of FtsZ",
+  "doi": "10.1101/2025.05.07.652675",
+  "abstract": "Most bacteria divide through binary fission, which is mediated by a large protein complex called the divisome. Assembly of the divisome is initiated by formation a Z ring at midcell consisting of polymers of the bacterial tubulin FtsZ. A series of FtsZ-associated proteins (Zaps), which crosslink FtsZ filaments, promote Z ring formation in Escherichia coli . However, how these proteins interact with FtsZ is still unclear. In this study, we discover that ZapC binds to both FtsZ’s globular domain and its conserved C-terminal peptide (CCTP) to crosslink FtsZ filaments. An AlphaFold 3 structural model of the FtsZ-ZapC complex indicates that ZapC binds to the globular domain of FtsZ via a loop region connecting its N-terminal and C-terminal domains and to the CCTP of FtsZ via a hydrophobic pocket in the N-terminal domain. Substitutions in these regions of ZapC disrupt its binding to FtsZ, validating the dual binding mode. Strikingly, we find that the intrinsically disordered C-terminal linker (CTL) of FtsZ affects the interaction of FtsZ with ZapC as well as other partners, indicating an important role of the CTL in FtsZ functionality. Taken together, these results indicate that ZapC, although it exists as a monomer, can crosslink FtsZ filaments by a two-pronged mechanism, binding to the globular domain of FtsZ in one filament and to the CCTP of FtsZ in another filament. Furthermore, the CTL plays an important role in regulating FtsZ interaction with its partners. <h4>Importance</h4> Bacterial cytokinesis requires the Z ring, a highly dynamic cytoskeletal element consisting of polymers of the bacterial tubulin FtsZ. Formation of a coherent and functional Z ring is facilitated by FtsZ-associated proteins (Zap), which can crosslink FtsZ polymers, but how these proteins work is still incompletely understood. In this study, we find that ZapC, one of the FtsZ crosslinkers, binds to both FtsZ’s globular domain and its conserved C-terminal peptide to crosslink FtsZ filaments. Moreover, the intrinsically disordered C-terminal linker (CTL) of FtsZ modulates its binding to ZapC and many other FtsZ binding proteins. These findings reveal a novel mechanism to crosslink FtsZ filaments and reveal an important and highly conserved role of the CTL in FtsZ functionality.",
+  "authors": [
+    "Li Y",
+    "Gong H",
+    "Zhan R",
+    "Cui Y",
+    "Chen X",
+    "Lutkenhaus J",
+    "Du S"
+  ],
+  "published_date": "2025-05-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.07.652675",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.07.652675.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1015431",
+    "raw_record": {
+      "id": "PPR1015431",
+      "source": "PPR",
+      "doi": "10.1101/2025.05.07.652675",
+      "title": "ZapC crosslinks FtsZ filaments through a dual-binding mechanism modulated by the intrinsically disordered linker of FtsZ",
+      "authorString": "Li Y, Gong H, Zhan R, Cui Y, Chen X, Lutkenhaus J, Du S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Li Y",
+            "lastName": "Li",
+            "firstName": "Ying",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Gong H",
+            "lastName": "Gong",
+            "firstName": "Han",
+            "initials": "H"
+          },
+          {
+            "fullName": "Zhan R",
+            "lastName": "Zhan",
+            "firstName": "Rui",
+            "initials": "R"
+          },
+          {
+            "fullName": "Cui Y",
+            "lastName": "Cui",
+            "firstName": "Yuanyuan",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Chen X",
+            "lastName": "Chen",
+            "firstName": "Xiangdong",
+            "initials": "X"
+          },
+          {
+            "fullName": "Lutkenhaus J",
+            "lastName": "Lutkenhaus",
+            "firstName": "Joe",
+            "initials": "J"
+          },
+          {
+            "fullName": "Du S",
+            "lastName": "Du",
+            "firstName": "Shishen",
+            "initials": "S"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Most bacteria divide through binary fission, which is mediated by a large protein complex called the divisome. Assembly of the divisome is initiated by formation a Z ring at midcell consisting of polymers of the bacterial tubulin FtsZ. A series of FtsZ-associated proteins (Zaps), which crosslink FtsZ filaments, promote Z ring formation in  Escherichia coli . However, how these proteins interact with FtsZ is still unclear. In this study, we discover that ZapC binds to both FtsZ’s globular domain and its conserved C-terminal peptide (CCTP) to crosslink FtsZ filaments. An AlphaFold 3 structural model of the FtsZ-ZapC complex indicates that ZapC binds to the globular domain of FtsZ via a loop region connecting its N-terminal and C-terminal domains and to the CCTP of FtsZ via a hydrophobic pocket in the N-terminal domain. Substitutions in these regions of ZapC disrupt its binding to FtsZ, validating the dual binding mode. Strikingly, we find that the intrinsically disordered C-terminal linker (CTL) of FtsZ affects the interaction of FtsZ with ZapC as well as other partners, indicating an important role of the CTL in FtsZ functionality. Taken together, these results indicate that ZapC, although it exists as a monomer, can crosslink FtsZ filaments by a two-pronged mechanism, binding to the globular domain of FtsZ in one filament and to the CCTP of FtsZ in another filament. Furthermore, the CTL plays an important role in regulating FtsZ interaction with its partners.  <h4>Importance</h4>  Bacterial cytokinesis requires the Z ring, a highly dynamic cytoskeletal element consisting of polymers of the bacterial tubulin FtsZ. Formation of a coherent and functional Z ring is facilitated by FtsZ-associated proteins (Zap), which can crosslink FtsZ polymers, but how these proteins work is still incompletely understood. In this study, we find that ZapC, one of the FtsZ crosslinkers, binds to both FtsZ’s globular domain and its conserved C-terminal peptide to crosslink FtsZ filaments. Moreover, the intrinsically disordered C-terminal linker (CTL) of FtsZ modulates its binding to ZapC and many other FtsZ binding proteins. These findings reveal a novel mechanism to crosslink FtsZ filaments and reveal an important and highly conserved role of the CTL in FtsZ functionality.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/07/2025.05.07.652675.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.07.652675"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-05-09",
+      "firstPublicationDate": "2025-05-07",
+      "firstIndexDate": "2025-05-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

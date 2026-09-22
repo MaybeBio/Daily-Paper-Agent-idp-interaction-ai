@@ -1,0 +1,214 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.27.581919",
+  "title": "Dock-and-lock binding of SxIP ligands is required for stable and selective EB1 interactions",
+  "doi": "10.1101/2024.02.27.581919",
+  "abstract": "<h4>SUMMARY</h4> End Binding protein 1 (EB1) is a key component of the signalling networks located at the plus ends of microtubules. It incorporates an N-terminal microtubule binding CH domain and the C-terminal EBH domain that interacts with the SxIP-containing sequences of other microtubule plus end tracking proteins (+TIPs). By using a series of SxIP containing peptides derived from the microtubule-actin cross-linking factor, MACF, we show that the SxIP motif itself binds to EBH with low affinity, and the full interaction requires contribution of the post-SxIP residues. Based on the solution structure and dynamics of the EBH/MACF complex we proposed a two-step ‘dock-and-lock’ model for the EBH interaction with targets, where the SxIP motif initially binds to a partially formed EBH pocket, which subsequently induces folding of the unstructured C-terminus and transition to the stable complex. We dissect contributions from different interactions into the binding and design MACF mutations of the post-SxIP region that enhance the affinity by two orders of magnitude, leading to a nanomolar interaction. We verify the enhanced recruitment of the mutated peptide to the dynamic plus ends of MTs in a live cell experiment. Our model explains EB1’s interaction with the SxIP-containing ligands and can be used to design of small molecule inhibitors that can block SxIP interaction with EB1.",
+  "authors": [
+    "Almeida T",
+    "Hargreaves E",
+    "Zech T",
+    "Barsukov I"
+  ],
+  "published_date": "2024-02-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.27.581919",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.27.581919.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR813250",
+    "raw_record": {
+      "id": "PPR813250",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR813250"
+        ]
+      },
+      "doi": "10.1101/2024.02.27.581919",
+      "title": "Dock-and-lock binding of SxIP ligands is required for stable and selective EB1 interactions",
+      "authorString": "Almeida T, Hargreaves E, Zech T, Barsukov I.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Almeida T",
+            "lastName": "Almeida",
+            "firstName": "Teresa",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell Signalling and Systems Biology, Institute of Systems, Molecular and Integrative Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hargreaves E",
+            "lastName": "Hargreaves",
+            "firstName": "Eleanor",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9287-8480"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell Signalling and Systems Biology, Institute of Systems, Molecular and Integrative Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zech T",
+            "lastName": "Zech",
+            "firstName": "Tobias",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8394-088X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular & Clinical Cancer Medicine, Institute of Systems, Molecular and Integrative Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barsukov I",
+            "lastName": "Barsukov",
+            "firstName": "Igor",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4406-9803"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell Signalling and Systems Biology, Institute of Systems, Molecular and Integrative Biology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8394-088X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9287-8480"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4406-9803"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>SUMMARY</h4>  End Binding protein 1 (EB1) is a key component of the signalling networks located at the plus ends of microtubules. It incorporates an N-terminal microtubule binding CH domain and the C-terminal EBH domain that interacts with the SxIP-containing sequences of other microtubule plus end tracking proteins (+TIPs). By using a series of SxIP containing peptides derived from the microtubule-actin cross-linking factor, MACF, we show that the SxIP motif itself binds to EBH with low affinity, and the full interaction requires contribution of the post-SxIP residues. Based on the solution structure and dynamics of the EBH/MACF complex we proposed a two-step ‘dock-and-lock’ model for the EBH interaction with targets, where the SxIP motif initially binds to a partially formed EBH pocket, which subsequently induces folding of the unstructured C-terminus and transition to the stable complex. We dissect contributions from different interactions into the binding and design MACF mutations of the post-SxIP region that enhance the affinity by two orders of magnitude, leading to a nanomolar interaction. We verify the enhanced recruitment of the mutated peptide to the dynamic plus ends of MTs in a live cell experiment. Our model explains EB1’s interaction with the SxIP-containing ligands and can be used to design of small molecule inhibitors that can block SxIP interaction with EB1.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/02/29/2024.02.27.581919.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.02.27.581919"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR813250"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR813250&type=FILE&fileName=EMS205800-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41370336",
+            "reference": "eLife. \n    2025 Dec;13:RP98063",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS205800",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-03-02",
+      "firstPublicationDate": "2024-02-29",
+      "firstIndexDate": "2024-03-02",
+      "fullTextReceivedDate": "2025-05-27",
+      "hasEvaluations": "Y"
+    }
+  }
+}

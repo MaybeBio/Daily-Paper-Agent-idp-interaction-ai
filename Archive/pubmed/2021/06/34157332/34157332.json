@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "34157332",
+    "doi": "10.1016/j.ijbiomac.2021.06.092",
+    "title": "Normal mode calculation and infrared spectroscopy of proteins in water solution: Relationship between amide I transition dipole strength and secondary structure."
+  },
+  "content": {
+    "abstract": "Dipole Strength (DS) of the amides has gained a renewed interest in chemical physics since it provides an important tool to disclose the on-site vibrational energy distributions. Apart from earlier experimental efforts on polypeptides, little is still known about DS in complex proteins. We accurately measured the Fourier Transform Infrared absorption spectra of nine proteins in water solution obtaining their Molar Extinction Coefficient in the amide I and II spectral region. Our results show that the amide I DS value depends on the protein secondary structure, being that of the alpha-rich and unstructured proteins lower by a factor of 2 than that of the beta-rich proteins. The average DS for amino acids in alpha and beta secondary structures confirms this finding. Normal Mode calculation and Molecular Dynamics were performed and used as tools for data analysis and interpretation. The present outcomes corroborate the hypothesis that antiparallel beta-sheet environment is more prone to delocalize the on-site CO stretching vibration through coupling mechanisms between carbonyl groups, whereas alpha-helix structures are energetically less stable to permit vibrational mode delocalization.",
+    "keywords": [
+      "Amide I",
+      "Infrared spectroscopy",
+      "Transition dipole moment"
+    ],
+    "mesh_terms": [
+      "Amides/*chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Structure, Secondary",
+      "Proteins/*chemistry",
+      "Spectrophotometry, Infrared",
+      "Spectroscopy, Fourier Transform Infrared",
+      "Water/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ripanti, Francesca",
+        "Luchetti, Nicole",
+        "Nucara, Alessandro",
+        "Minicozzi, Velia",
+        "Venere, Almerinda Di",
+        "Filabozzi, Alessandra",
+        "Carbonaro, Marina"
+      ],
+      "short_names": [
+        "Ripanti F",
+        "Luchetti N",
+        "Nucara A",
+        "Minicozzi V",
+        "Venere AD",
+        "Filabozzi A",
+        "Carbonaro M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, Sapienza University of Rome, P.le A. Moro 5, 00185 Rome, Italy.",
+        "Department of Physics and INFN, Tor Vergata University of Rome, Via della Ricerca Scientifica 1, 00133 Rome, Italy.",
+        "Department of Physics, Sapienza University of Rome, P.le A. Moro 5, 00185 Rome, Italy. Electronic address: alessandro.nucara@roma1.infn.it.",
+        "Department of Physics and INFN, Tor Vergata University of Rome, Via della Ricerca Scientifica 1, 00133 Rome, Italy.",
+        "Department of Experimental Medicine, Tor Vergata University of Rome, Via Montpellier 1, 00133 Rome, Italy.",
+        "Department of Physics and INFN, Tor Vergata University of Rome, Via della Ricerca Scientifica 1, 00133 Rome, Italy.",
+        "Council for Agricultural Research and Economics (CREA), Research Centre for Food and Nutrition, Via Ardeatina 546, 00178 Rome, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ripanti, Francesca",
+        "short_name": "Ripanti F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Sapienza University of Rome, P.le A. Moro 5, 00185 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Luchetti, Nicole",
+        "short_name": "Luchetti N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and INFN, Tor Vergata University of Rome, Via della Ricerca Scientifica 1, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Nucara, Alessandro",
+        "short_name": "Nucara A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Sapienza University of Rome, P.le A. Moro 5, 00185 Rome, Italy. Electronic address: alessandro.nucara@roma1.infn.it."
+        ]
+      },
+      {
+        "full_name": "Minicozzi, Velia",
+        "short_name": "Minicozzi V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and INFN, Tor Vergata University of Rome, Via della Ricerca Scientifica 1, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Venere, Almerinda Di",
+        "short_name": "Venere AD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Experimental Medicine, Tor Vergata University of Rome, Via Montpellier 1, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Filabozzi, Alessandra",
+        "short_name": "Filabozzi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and INFN, Tor Vergata University of Rome, Via della Ricerca Scientifica 1, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Carbonaro, Marina",
+        "short_name": "Carbonaro M",
+        "identifiers": [],
+        "affiliations": [
+          "Council for Agricultural Research and Economics (CREA), Research Centre for Food and Nutrition, Via Ardeatina 546, 00178 Rome, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2021 Aug 31",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/23 06:00",
+    "fetched_at": "2026-09-20 03:54:49"
+  },
+  "links": {
+    "cites": [
+      "41756636",
+      "40806728",
+      "38665643",
+      "35890251",
+      "35682687"
+    ],
+    "refs": [],
+    "similar": [
+      "34157332",
+      "18288813",
+      "25498816",
+      "15212548",
+      "23163364",
+      "38486393",
+      "23113791",
+      "24328259",
+      "23228111",
+      "10457593",
+      "19650636",
+      "18582018",
+      "31059891",
+      "12621861",
+      "11414848",
+      "8355280",
+      "22458674",
+      "17177399",
+      "16851775",
+      "19814574",
+      "19256572",
+      "26049431",
+      "23924300",
+      "15631459",
+      "26049457",
+      "22957563",
+      "32040320",
+      "22435481",
+      "38364823",
+      "12496131",
+      "15267740",
+      "27348022",
+      "38686860",
+      "11673883",
+      "35291778",
+      "17692815",
+      "22191886",
+      "16471899",
+      "14992591",
+      "28851219",
+      "15563219",
+      "12452707",
+      "9485436",
+      "27023758",
+      "15125676",
+      "22397736",
+      "21208013",
+      "22680405",
+      "16888772",
+      "27802648",
+      "7516187",
+      "17256894",
+      "21174476",
+      "21740644",
+      "24018327",
+      "8564016",
+      "17286519",
+      "1374654",
+      "19425543",
+      "12139044",
+      "16164328",
+      "19812835",
+      "17725341",
+      "17419612",
+      "12124929",
+      "7479920",
+      "37086661",
+      "36234809",
+      "17665944",
+      "2271555",
+      "20845957",
+      "25307016",
+      "7919013",
+      "29762006",
+      "10653812",
+      "16863201",
+      "16986892",
+      "19166806",
+      "16851862",
+      "16852448",
+      "28632082",
+      "19485468",
+      "11749547",
+      "33558954",
+      "1438182",
+      "22390232",
+      "16392951",
+      "20537229",
+      "11159403",
+      "36436263",
+      "24436080",
+      "15620888",
+      "25654756",
+      "31927236",
+      "33464100",
+      "32200231",
+      "21405034",
+      "31448608",
+      "8923971",
+      "34890871",
+      "27868210",
+      "27322779",
+      "12080139",
+      "26153570",
+      "25275795",
+      "24050152",
+      "32777421",
+      "14636070",
+      "25636064",
+      "1633164",
+      "35217087",
+      "36329374",
+      "38240637",
+      "36681646",
+      "18757727",
+      "36792507",
+      "36375289",
+      "23574217",
+      "35993989",
+      "36598929",
+      "2159334",
+      "35387451",
+      "24654732",
+      "24228619",
+      "19873996",
+      "38099625",
+      "19469574",
+      "21636774",
+      "36002950",
+      "37213084",
+      "38836292",
+      "35884333",
+      "32605072",
+      "36656527",
+      "24037120",
+      "31649821",
+      "33433190",
+      "34559531",
+      "38806061",
+      "20643079",
+      "25225785",
+      "33706523"
+    ],
+    "review": [
+      "34157332",
+      "18288813",
+      "12621861",
+      "38364823",
+      "17692815",
+      "27023758",
+      "24018327",
+      "8564016",
+      "19425543"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(21)01321-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

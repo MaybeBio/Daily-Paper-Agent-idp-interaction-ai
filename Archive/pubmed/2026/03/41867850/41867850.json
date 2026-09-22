@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "41867850",
+    "doi": "10.64898/2026.03.06.710195",
+    "title": "Tubulin C-terminal tails are pH sensors that regulate microtubule function."
+  },
+  "content": {
+    "abstract": "Changes in intracellular pH are critical for maintaining homeostasis, mediating signaling pathways, and enabling cellular responses to stress, injury, and disease. There is increasing evidence that clusters of acidic residues, primarily glutamates, are both highly prevalent and conserved in disordered regions of proteins and can play an important role in cellular pH response. Tubulin C-terminal tails (CTTs) are glutamate rich regions which protrude from the microtubule surface. These tails are a primary site of for both posttranslational modifications and binding of microtubule-associated proteins. Motivated by these observations, we measured the pH response of tubulin CTTs using NMR spectroscopy, circular dichroism, and computational simulations. We find that glutamate residues in CTTs taken from organisms across eukaryotes exhibit a robust upshift in their pK (a) values, that the sequential context of glutamate residues creates hot spots for protonation, and that hydrogen bonding between side chains stabilizes interactions that alter the conformation of the CTT. To determine whether the CTT pH response plays a potentially important role in microtubule interactions, we measured the pH dependence of the binding of the yeast kinesin-5, Cin8, to microtubules. We find that Cin8 binding is modulated by pH in a CTT-dependent manner. Our results demonstrate that acidic clusters are important mediators of cellular pH response and establish that pH can regulate interactions at the microtubule surface.",
+    "keywords": [
+      "Biological Sciences",
+      "Biophysics and Computational Biology",
+      "acidic residues",
+      "intrinsically disordered regions",
+      "pH-dependence",
+      "tubulin"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Whited, A M",
+        "DeLear, Patrick",
+        "Thomas, Ezekiel C",
+        "Allen, Jeffre",
+        "Ferrer-Imbert, Genesis",
+        "Acharya, Nirbhik",
+        "Castaneda, Carlos A",
+        "Sept, David",
+        "Moore, Jeffrey K",
+        "Hough, Loren E"
+      ],
+      "short_names": [
+        "Whited AM",
+        "DeLear P",
+        "Thomas EC",
+        "Allen J",
+        "Ferrer-Imbert G",
+        "Acharya N",
+        "Castaneda CA",
+        "Sept D",
+        "Moore JK",
+        "Hough LE"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5655-7332",
+        "ORCID: 0000-0002-1013-0138",
+        "ORCID: 0000-0002-9810-0477",
+        "ORCID: 0009-0000-5201-8833",
+        "ORCID: 0000-0003-0323-9423",
+        "ORCID: 0000-0003-4591-5215",
+        "ORCID: 0000-0001-9634-0867",
+        "ORCID: 0000-0003-3719-2483",
+        "ORCID: 0000-0003-3262-3248",
+        "ORCID: 0000-0002-1104-0126"
+      ],
+      "affiliations": [
+        "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA.",
+        "Department of Biophysics, University of Michigan, Ann Arbor, MI, USA.",
+        "University of Colorado Anschutz Medical Campus, Aurora, CO, USA.",
+        "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA.",
+        "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA.",
+        "Current address, University of California Berkeley, CA, USA.",
+        "Departments of Biology and Chemistry, Syracuse University, NY, USA.",
+        "Departments of Biology and Chemistry, Syracuse University, NY, USA.",
+        "Department of Biophysics, University of Michigan, Ann Arbor, MI, USA.",
+        "Department of Biomedical Engineering, University of Michigan, Ann Arbor, MI, USA.",
+        "University of Colorado Anschutz Medical Campus, Aurora, CO, USA.",
+        "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Whited, A M",
+        "short_name": "Whited AM",
+        "identifiers": [
+          "0000-0001-5655-7332"
+        ],
+        "affiliations": [
+          "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA."
+        ]
+      },
+      {
+        "full_name": "DeLear, Patrick",
+        "short_name": "DeLear P",
+        "identifiers": [
+          "0000-0002-1013-0138"
+        ],
+        "affiliations": [
+          "Department of Biophysics, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Thomas, Ezekiel C",
+        "short_name": "Thomas EC",
+        "identifiers": [
+          "0000-0002-9810-0477"
+        ],
+        "affiliations": [
+          "University of Colorado Anschutz Medical Campus, Aurora, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Allen, Jeffre",
+        "short_name": "Allen J",
+        "identifiers": [
+          "0009-0000-5201-8833"
+        ],
+        "affiliations": [
+          "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Ferrer-Imbert, Génesis",
+        "short_name": "Ferrer-Imbert G",
+        "identifiers": [
+          "0000-0003-0323-9423"
+        ],
+        "affiliations": [
+          "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA.",
+          "Current address, University of California Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Acharya, Nirbhik",
+        "short_name": "Acharya N",
+        "identifiers": [
+          "0000-0003-4591-5215"
+        ],
+        "affiliations": [
+          "Departments of Biology and Chemistry, Syracuse University, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Castañeda, Carlos A",
+        "short_name": "Castañeda CA",
+        "identifiers": [
+          "0000-0001-9634-0867"
+        ],
+        "affiliations": [
+          "Departments of Biology and Chemistry, Syracuse University, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Sept, David",
+        "short_name": "Sept D",
+        "identifiers": [
+          "0000-0003-3719-2483"
+        ],
+        "affiliations": [
+          "Department of Biophysics, University of Michigan, Ann Arbor, MI, USA.",
+          "Department of Biomedical Engineering, University of Michigan, Ann Arbor, MI, USA."
+        ]
+      },
+      {
+        "full_name": "Moore, Jeffrey K",
+        "short_name": "Moore JK",
+        "identifiers": [
+          "0000-0003-3262-3248"
+        ],
+        "affiliations": [
+          "University of Colorado Anschutz Medical Campus, Aurora, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Hough, Loren E",
+        "short_name": "Hough LE",
+        "identifiers": [
+          "0000-0002-1104-0126"
+        ],
+        "affiliations": [
+          "BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Mar 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/23 06:32",
+    "fetched_at": "2026-09-18 01:57:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39248414",
+      "39020174",
+      "38503281",
+      "37716348",
+      "36481511",
+      "36206480",
+      "36138781",
+      "36128977",
+      "34022132",
+      "33894201",
+      "32983969",
+      "32857502",
+      "32823616",
+      "32762843",
+      "32302572",
+      "31784535",
+      "31402660",
+      "31362509",
+      "30185874",
+      "30098073",
+      "28496209",
+      "28202602",
+      "27821494",
+      "27541566",
+      "27003290",
+      "26727467",
+      "26306046",
+      "26190377",
+      "25307498",
+      "25262612",
+      "25135932",
+      "24835459",
+      "23778968",
+      "23341755",
+      "22949268",
+      "20660380",
+      "20581803",
+      "19997129",
+      "16761087",
+      "16362501",
+      "15971082",
+      "12947095",
+      "11297406",
+      "11276087",
+      "10555983",
+      "9778358",
+      "9370472",
+      "8756684",
+      "8072525",
+      "7926030",
+      "7760939",
+      "7682848",
+      "2052551",
+      "1967194",
+      "1379548",
+      "1358676"
+    ],
+    "similar": [
+      "41867850",
+      "33137305",
+      "42168523",
+      "24835459",
+      "17993481",
+      "41662400",
+      "40281262",
+      "30992364",
+      "37499261",
+      "38479245",
+      "27541566",
+      "25307498",
+      "41040367",
+      "40920139",
+      "29777059",
+      "40074328",
+      "28701465",
+      "37345829",
+      "37189368",
+      "37519241",
+      "17692336",
+      "20071331",
+      "14976555",
+      "41002034",
+      "32245812",
+      "11864572",
+      "30079401",
+      "39688542",
+      "34022132",
+      "21905119",
+      "28300595",
+      "42475469",
+      "42179625",
+      "40489183",
+      "10339593",
+      "39386529",
+      "40894690",
+      "25805498",
+      "31896752",
+      "42489236",
+      "22674872",
+      "36472095",
+      "17563362",
+      "30770469",
+      "35511030",
+      "32462384",
+      "42381291",
+      "16113108",
+      "42405052",
+      "24227885",
+      "9880330",
+      "42427032",
+      "27872189",
+      "28290671",
+      "19778897",
+      "31699899",
+      "36065637",
+      "41422841",
+      "23912807",
+      "11747426",
+      "28483842",
+      "30655442",
+      "25720490",
+      "29127738",
+      "22467876",
+      "28710275",
+      "9406432",
+      "19913027",
+      "9415375",
+      "24995158",
+      "42374736",
+      "30968464",
+      "33865866",
+      "30980604",
+      "27353867",
+      "8703922",
+      "37645938",
+      "2138610",
+      "41519300",
+      "7664757",
+      "29963657",
+      "19619244",
+      "24633327",
+      "26055718",
+      "19074767",
+      "37572662",
+      "26165356",
+      "36416224",
+      "23973083",
+      "24927501",
+      "28697331",
+      "42523501",
+      "27475079",
+      "36051882",
+      "28978447",
+      "41933762",
+      "36866642",
+      "25059720",
+      "23814063",
+      "27551082"
+    ],
+    "review": [
+      "41867850",
+      "25307498",
+      "24995158"
+    ],
+    "pmc": [
+      "13001339"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41867850/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.03.06.710195",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

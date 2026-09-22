@@ -1,0 +1,199 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.02.21.529454",
+  "title": "Reconstruction of TrkB complex assemblies and localizing antidepressant targets using Artificial Intelligence",
+  "doi": "10.1101/2023.02.21.529454",
+  "abstract": "Since Major Depressive Disorder (MDD) represents a neurological pathology caused by inter-synaptic messaging errors, membrane receptors, the source of signal cascades, constitute appealing drugs targets. G protein-coupled receptors (GPCRs) and ion channel receptors chelated antidepressants (ADs) high-resolution architectures were reported to realize receptors physical mechanism and design prototype compounds with minimal side effects. Tyrosine kinase receptor 2 (TrkB), a receptor that directly modulates synaptic plasticity, has a finite three-dimensional chart due to its high molecular mass and intrinsically disordered regions (IDRs). Leveraging breakthroughs in deep learning, the meticulous architecture of TrkB was projected employing Alphfold 2 (AF2). Furthermore, the Alphafold Multimer algorithm (AF-M) models the coupling of intra- and extra-membrane topologies to chaperones: mBDNF, SHP2, Etc. Conjugating firmly dimeric transmembrane helix with novel compounds like 2R,6R-hydroxynorketamine (2R,6R-HNK) expands scopes of drug screening to encompass all coding sequences throughout genomes. The operational implementation of TrkB kinase-SHP2, PLCγ1, and SHC1 ensembles has paved the path for machine learning in which it can forecast structural transitions in the self-assembly and self-dissociation of molecules during trillions of cellular mechanisms. In silicon, the cornerstone of the alteration will be artificial intelligence (AI), empowering signal networks to operate at the atomic level and picosecond timescales.",
+  "authors": [
+    "Xiang X",
+    "Qian C",
+    "Yao H",
+    "Li P",
+    "Cheng B",
+    "Wei D",
+    "An W",
+    "Lu Y",
+    "Chu M",
+    "Wei L",
+    "Liu B",
+    "Xu J",
+    "Liu X",
+    "Xia F"
+  ],
+  "published_date": "2023-02-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.02.21.529454",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.02.21.529454.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR619936",
+    "raw_record": {
+      "id": "PPR619936",
+      "source": "PPR",
+      "doi": "10.1101/2023.02.21.529454",
+      "title": "Reconstruction of TrkB complex assemblies and localizing antidepressant targets using Artificial Intelligence",
+      "authorString": "Xiang X, Qian C, Yao H, Li P, Cheng B, Wei D, An W, Lu Y, Chu M, Wei L, Liu B, Xu J, Liu X, Xia F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Xiang X",
+            "lastName": "Xiang",
+            "firstName": "Xufu",
+            "initials": "X",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-9977-1561"
+            }
+          },
+          {
+            "fullName": "Qian C",
+            "lastName": "Qian",
+            "firstName": "Chungen",
+            "initials": "C"
+          },
+          {
+            "fullName": "Yao H",
+            "lastName": "Yao",
+            "firstName": "Hanbo",
+            "initials": "H"
+          },
+          {
+            "fullName": "Li P",
+            "lastName": "Li",
+            "firstName": "Pengjie",
+            "initials": "P"
+          },
+          {
+            "fullName": "Cheng B",
+            "lastName": "Cheng",
+            "firstName": "Bangning",
+            "initials": "B"
+          },
+          {
+            "fullName": "Wei D",
+            "lastName": "Wei",
+            "firstName": "Daoshun",
+            "initials": "D"
+          },
+          {
+            "fullName": "An W",
+            "lastName": "An",
+            "firstName": "Wenjun",
+            "initials": "W"
+          },
+          {
+            "fullName": "Lu Y",
+            "lastName": "Lu",
+            "firstName": "Yuming",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Chu M",
+            "lastName": "Chu",
+            "firstName": "Ming",
+            "initials": "M"
+          },
+          {
+            "fullName": "Wei L",
+            "lastName": "Wei",
+            "firstName": "Lanlan",
+            "initials": "L"
+          },
+          {
+            "fullName": "Liu B",
+            "lastName": "Liu",
+            "firstName": "Bi-Feng",
+            "initials": "B"
+          },
+          {
+            "fullName": "Xu J",
+            "lastName": "Xu",
+            "firstName": "Junfa",
+            "initials": "J"
+          },
+          {
+            "fullName": "Liu X",
+            "lastName": "Liu",
+            "firstName": "Xin",
+            "initials": "X"
+          },
+          {
+            "fullName": "Xia F",
+            "lastName": "Xia",
+            "firstName": "Fuzhen",
+            "initials": "F"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0009-0009-9977-1561"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Since Major Depressive Disorder (MDD) represents a neurological pathology caused by inter-synaptic messaging errors, membrane receptors, the source of signal cascades, constitute appealing drugs targets. G protein-coupled receptors (GPCRs) and ion channel receptors chelated antidepressants (ADs) high-resolution architectures were reported to realize receptors physical mechanism and design prototype compounds with minimal side effects. Tyrosine kinase receptor 2 (TrkB), a receptor that directly modulates synaptic plasticity, has a finite three-dimensional chart due to its high molecular mass and intrinsically disordered regions (IDRs). Leveraging breakthroughs in deep learning, the meticulous architecture of TrkB was projected employing Alphfold 2 (AF2). Furthermore, the Alphafold Multimer algorithm (AF-M) models the coupling of intra- and extra-membrane topologies to chaperones: mBDNF, SHP2, Etc. Conjugating firmly dimeric transmembrane helix with novel compounds like 2R,6R-hydroxynorketamine (2R,6R-HNK) expands scopes of drug screening to encompass all coding sequences throughout genomes. The operational implementation of TrkB kinase-SHP2, PLCγ1, and SHC1 ensembles has paved the path for machine learning in which it can forecast structural transitions in the self-assembly and self-dissociation of molecules during trillions of cellular mechanisms. In silicon, the cornerstone of the alteration will be artificial intelligence (AI), empowering signal networks to operate at the atomic level and picosecond timescales.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/02/23/2023.02.21.529454.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.02.21.529454"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-02-24",
+      "firstPublicationDate": "2023-02-22",
+      "firstIndexDate": "2023-02-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

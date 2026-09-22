@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41129692",
+  "title": "Energy Landscape and Kinetic Analysis of Molecular Dynamics Simulations for Intrinsically Disordered Proteins.",
+  "authors": "Schaffler, Moritz; Wales, David J; Strodel, Birgit",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-10-23",
+  "window": {
+    "start": "2025-10-20",
+    "end": "2025-10-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于MD模拟的能量景观与动力学分析流程（DRID降维+聚类+动力学网络），用于表征无序蛋白Aβ的构象态与转变路径，虽未直接研究PPI，但为IDP构象机制建模提供了可迁移的方法框架。",
+  "abstract": "Understanding the conformational dynamics of biomolecules requires methods that go beyond structural sampling and provide a quantitative description of thermodynamics and kinetics. For intrinsically disordered proteins (IDPs), energy landscape characterization is particularly crucial to unravel their complex conformational behavior. Here, we present a comprehensive protocol for analyzing molecular dynamics (MD) simulations in terms of energy landscapes, metastable states, and transition pathways. Our approach is based on the distribution of reciprocal interatomic distances (DRID) for dimensionality reduction, followed by clustering and kinetic modeling. Free energy surfaces and transition state barriers are computed directly from the simulation data and visualized using disconnectivity graphs. The method integrates two Python packages, DRIDmetric and freenet, with standard energy landscape tools based on kinetic transition networks, including PATHSAMPLE and disconnectionDPS. We demonstrate this workflow for simulations of the intrinsically disordered, aggregation-prone Alzheimer's amyloid-beta peptide in physiologically relevant environments. This modular framework offers a robust and interpretable way to extract thermodynamic and kinetic insights from MD data and is especially valuable for characterizing the diverse conformational states of IDPs.",
+  "abstract_zh": "理解生物分子的构象动力学需要超越结构采样的方法，并提供热力学和动力学的定量描述。对于固有无序蛋白（intrinsically disordered proteins, IDPs），能量景观表征对于揭示其复杂构象行为尤为关键。在此，我们提出一个全面的协议，用于从能量景观、亚稳态和转变路径的角度分析分子动力学（molecular dynamics, MD）模拟。我们的方法基于倒数原子间距离分布（distribution of reciprocal interatomic distances, DRID）进行降维，随后进行聚类和动力学建模。自由能表面和过渡态势垒直接从模拟数据计算，并使用断连图（disconnectivity graphs）进行可视化。该方法整合了两个Python包，DRIDmetric和freenet，以及基于动力学转变网络的标准能量景观工具，包括PATHSAMPLE和disconnectionDPS。我们展示了该工作流在生理相关环境中对固有无序、易聚集的阿尔茨海默病淀粉样β肽模拟的应用。这一模块化框架提供了一种稳健且可解释的方式，从MD数据中提取热力学和动力学见解，尤其适用于表征IDPs的多样构象状态。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41129692/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41129692/",
+  "paper_page_path": "papers/pubmed/41129692/index.html"
+}

@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "42556189",
+    "doi": "10.1016/j.jcis.2026.141211",
+    "title": "Length-encoded phase transitions in proline-alanine-serine peptides: from nanoaggregates to condensates."
+  },
+  "content": {
+    "abstract": "PAS-based polypeptides, composed of uncharged Proline, Alanine, and Serine residues, are intrinsically disordered polymers used to enhance biologics' solubility and pharmacokinetics. Despite their biomedical relevance, their aggregation and phase separation behaviour remain underexplored. Here we combined spectroscopy, microscopy and molecular dynamics simulations to investigate the structure of PAS peptides of varying lengths (20-80 residues). We found that all peptides form nanoscale aggregates (50-350 nm) above their critical concentrations, yet only the longest PAS80 chains undergo liquid-liquid phase separation, yielding micrometre-scale condensates over a broad concentration range (0.15-6 mM), as revealed by the phase diagram. Monitoring the phase-separation process over time provided direct evidence that condensates undergo fusion with droplet sizes increasing from approximately 1 mum to 5 mum. Fluorescence recovery after photobleaching (FRAP) microscopy and nuclear magnetic resonance (NMR) spectroscopy revealed that PAS80 condensates retain a high degree of molecular mobility and exhibit characteristic liquid-like behaviour. Furthermore, treatment of the condensates with a hydrogen-bond-disrupting agent, an amphiphilic solvent, and heating demonstrated that weak interactions between hydrophobic amino acids and the entropic gain associated with the hydrophobic effect are the primary driving forces underlying the formation of condensates. In contrast, hydrogen bonding was found to play a secondary role, likely contributing to the further stabilization of the assembled structures. Molecular dynamics simulations of isolated and clustered PAS chains revealed that individual PAS peptides mainly exist as highly flexible but compact random-coil structures, and that the transition from extended to compact conformations is driven by entropic effects. Furthermore, PAS peptides rapidly self-assemble into clusters that maintain random-coil conformations and display substantial structural flexibility and configurational heterogeneity. These findings elucidate the molecular basis of PAS peptides phase behaviour and establish PAS peptides as promising building blocks for the rational design of bioengineered coacervates with potential applications in drug delivery and compartmentalized biocatalysis.",
+    "keywords": [
+      "Liquid-liquid phase separation",
+      "Molecular dynamics",
+      "PAS peptides",
+      "SMLM-PAINT imaging"
+    ],
+    "mesh_terms": [
+      "*Proline/chemistry",
+      "*Peptides/chemistry",
+      "Phase Transition",
+      "Molecular Dynamics Simulation",
+      "*Serine/chemistry",
+      "Phase Separation",
+      "*Alanine/chemistry",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Particle Size",
+      "*Nanostructures/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Garay-Perez, Hilda",
+        "Savioli, Marco",
+        "Petrella, Greta",
+        "de la Caridad Murillo Fernandez, Dhayme",
+        "Hernandez, Yanet Tambara",
+        "Abad, Matilde Lopez",
+        "Ferrara, Annachiara",
+        "Quattrociocchi, Miriam",
+        "Cicero, Daniel",
+        "Venanzi, Mariano",
+        "Bhangu, Sukhvir Kaur",
+        "Bocchinfuso, Gianfranco",
+        "Cavalieri, Francesca"
+      ],
+      "short_names": [
+        "Garay-Perez H",
+        "Savioli M",
+        "Petrella G",
+        "de la Caridad Murillo Fernandez D",
+        "Hernandez YT",
+        "Abad ML",
+        "Ferrara A",
+        "Quattrociocchi M",
+        "Cicero D",
+        "Venanzi M",
+        "Bhangu SK",
+        "Bocchinfuso G",
+        "Cavalieri F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy; Centre for Genetic Engineering and Biotechnology, PO Box 6162, 11600 Havana, Cuba.",
+        "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy.",
+        "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy.",
+        "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy; Centre for Genetic Engineering and Biotechnology, PO Box 6162, 11600 Havana, Cuba.",
+        "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy; Centre for Genetic Engineering and Biotechnology, PO Box 6162, 11600 Havana, Cuba.",
+        "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy; Centre for Genetic Engineering and Biotechnology, PO Box 6162, 11600 Havana, Cuba.",
+        "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy.",
+        "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy.",
+        "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy.",
+        "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy.",
+        "Department of Chemical Engineering, The University of Melbourne, Parkville, Victoria 31010, Australia; The Department of Diabetes, School of Translational Medicine, Monash University, 10, Melbourne, Victoria 3004, Australia.",
+        "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy. Electronic address: gianfranco.bocchinfuso@uniroma2.it.",
+        "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy. Electronic address: francesca.cavalieri@uniroma2.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Garay-Perez, Hilda",
+        "short_name": "Garay-Perez H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy; Centre for Genetic Engineering and Biotechnology, PO Box 6162, 11600 Havana, Cuba."
+        ]
+      },
+      {
+        "full_name": "Savioli, Marco",
+        "short_name": "Savioli M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Petrella, Greta",
+        "short_name": "Petrella G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "de la Caridad Murillo Fernández, Dhayme",
+        "short_name": "de la Caridad Murillo Fernández D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy; Centre for Genetic Engineering and Biotechnology, PO Box 6162, 11600 Havana, Cuba."
+        ]
+      },
+      {
+        "full_name": "Hernández, Yanet Támbara",
+        "short_name": "Hernández YT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy; Centre for Genetic Engineering and Biotechnology, PO Box 6162, 11600 Havana, Cuba."
+        ]
+      },
+      {
+        "full_name": "Abad, Matilde Lopez",
+        "short_name": "Abad ML",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy; Centre for Genetic Engineering and Biotechnology, PO Box 6162, 11600 Havana, Cuba."
+        ]
+      },
+      {
+        "full_name": "Ferrara, Annachiara",
+        "short_name": "Ferrara A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Quattrociocchi, Miriam",
+        "short_name": "Quattrociocchi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Cicero, Daniel",
+        "short_name": "Cicero D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Venanzi, Mariano",
+        "short_name": "Venanzi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Bhangu, Sukhvir Kaur",
+        "short_name": "Bhangu SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, The University of Melbourne, Parkville, Victoria 31010, Australia; The Department of Diabetes, School of Translational Medicine, Monash University, 10, Melbourne, Victoria 3004, Australia."
+        ]
+      },
+      {
+        "full_name": "Bocchinfuso, Gianfranco",
+        "short_name": "Bocchinfuso G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy. Electronic address: gianfranco.bocchinfuso@uniroma2.it."
+        ]
+      },
+      {
+        "full_name": "Cavalieri, Francesca",
+        "short_name": "Cavalieri F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences and Technology, University of Rome Tor Vergata, 00133 Rome, Italy. Electronic address: francesca.cavalieri@uniroma2.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of colloid and interface science"
+    ],
+    "journal_abbrev": [
+      "J Colloid Interface Sci"
+    ],
+    "pub_date": "2026 Dec 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/06 11:36",
+    "fetched_at": "2026-09-18 05:26:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42556189",
+      "40748104",
+      "37815389",
+      "42475469",
+      "32627748",
+      "38252962",
+      "23912807",
+      "40291420",
+      "28876055",
+      "33076213",
+      "39964249",
+      "28593765",
+      "36307781",
+      "26301845",
+      "40351163",
+      "40281357",
+      "27693688",
+      "38862770",
+      "23554376",
+      "41909948",
+      "41001641",
+      "41524628",
+      "39591652",
+      "33629837",
+      "39670461",
+      "40069227",
+      "34737230",
+      "42106138",
+      "41064885",
+      "39422512",
+      "27677734",
+      "40136009",
+      "39342654",
+      "37310801",
+      "40782375",
+      "42537606",
+      "41703914",
+      "31667345",
+      "39922493",
+      "37231298",
+      "31606529",
+      "40108179",
+      "41609052",
+      "39826709",
+      "28507126",
+      "40455990",
+      "25802000",
+      "40985078",
+      "41685698",
+      "36702825",
+      "39865610",
+      "24070311",
+      "38804888",
+      "33087563",
+      "37480340",
+      "26686226",
+      "19714895",
+      "42315359",
+      "36705662",
+      "25434738",
+      "38348795",
+      "32661370",
+      "38690757",
+      "41662498",
+      "40610768",
+      "29120326",
+      "38526948",
+      "39924792",
+      "32930440",
+      "41457474",
+      "32936641",
+      "36321557",
+      "39178343",
+      "37307457",
+      "39983547",
+      "38260590",
+      "22849577",
+      "33971237",
+      "32393642",
+      "17068817",
+      "42478940",
+      "40439464",
+      "21761818",
+      "34202468",
+      "42444326",
+      "42446172",
+      "23822733",
+      "35946870",
+      "42103118",
+      "26053471",
+      "33302617",
+      "41187075",
+      "36524527",
+      "24877752",
+      "37313785",
+      "41703712",
+      "39432826",
+      "42105540",
+      "33982350",
+      "39421885"
+    ],
+    "review": [
+      "42556189",
+      "39964249",
+      "42537606",
+      "38348795",
+      "39924792",
+      "36321557",
+      "39178343"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9797(26)01388-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

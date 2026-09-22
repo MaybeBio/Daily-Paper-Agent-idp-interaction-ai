@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33987205",
+  "title": "Post-translational Control of RNA-Binding Proteins and Disease-Related Dysregulation.",
+  "authors": "Velazquez-Cruz, Alejandro; Banos-Jaime, Blanca; Diaz-Quintana, Antonio; De la Rosa, Miguel A; Diaz-Moreno, Irene",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2021-05-15",
+  "window": {
+    "start": "2021-05-10",
+    "end": "2021-05-16"
+  },
+  "score": 5,
+  "one_liner_zh": "综述RNA结合蛋白的翻译后修饰调控及其在疾病中的失调，涉及RBP相变和凝聚体招募，但未聚焦PPI机制建模，且无AI/物理模拟方法。",
+  "abstract": "Cell signaling mechanisms modulate gene expression in response to internal and external stimuli. Cellular adaptation requires a precise and coordinated regulation of the transcription and translation processes. The post-transcriptional control of mRNA metabolism is mediated by the so-called RNA-binding proteins (RBPs), which assemble with specific transcripts forming messenger ribonucleoprotein particles of highly dynamic composition. RBPs constitute a class of trans-acting regulatory proteins with affinity for certain consensus elements present in mRNA molecules. However, these regulators are subjected to post-translational modifications (PTMs) that constantly adjust their activity to maintain cell homeostasis. PTMs can dramatically change the subcellular localization, the binding affinity for RNA and protein partners, and the turnover rate of RBPs. Moreover, the ability of many RBPs to undergo phase transition and/or their recruitment to previously formed membrane-less organelles, such as stress granules, is also regulated by specific PTMs. Interestingly, the dysregulation of PTMs in RBPs has been associated with the pathophysiology of many different diseases. Abnormal PTM patterns can lead to the distortion of the physiological role of RBPs due to mislocalization, loss or gain of function, and/or accelerated or disrupted degradation. This Mini Review offers a broad overview of the post-translational regulation of selected RBPs and the involvement of their dysregulation in neurodegenerative disorders, cancer and other pathologies.",
+  "abstract_zh": "细胞信号传导机制响应内外刺激调节基因表达。细胞适应需要转录和翻译过程的精确协调调控。mRNA代谢的转录后控制由所谓的RNA结合蛋白（RBPs）介导，这些蛋白与特定转录本组装形成高度动态组成的信使核糖核蛋白颗粒。RBPs构成一类反式作用调控蛋白，对mRNA分子中存在的某些共有元件具有亲和力。然而，这些调控因子受到翻译后修饰（PTMs）的影响，这些修饰不断调整其活性以维持细胞稳态。PTMs可显著改变RBPs的亚细胞定位、对RNA和蛋白质伙伴的结合亲和力以及周转率。此外，许多RBPs经历相分离（phase transition）的能力和/或被招募至先前形成的无膜细胞器（如应激颗粒）的过程也受特定PTMs调控。有趣的是，RBPs中PTMs的失调与多种疾病的病理生理学相关。异常的PTM模式可因错误定位、功能丧失或获得以及/或加速或中断的降解而导致RBPs生理作用的扭曲。本迷你综述广泛概述了选定RBPs的翻译后调控及其失调在神经退行性疾病、癌症和其他病理中的参与。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33987205/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33987205/",
+  "paper_page_path": "papers/pubmed/33987205/index.html"
+}

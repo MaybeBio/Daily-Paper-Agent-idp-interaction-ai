@@ -1,0 +1,428 @@
+{
+  "identity": {
+    "pmid": "36835439",
+    "doi": "10.3390/ijms24044028",
+    "title": "Germline NUP98 Variants in Two Siblings with a Rothmund-Thomson-Like Spectrum: Protein Functional Changes Predicted by Molecular Modeling."
+  },
+  "content": {
+    "abstract": "Two adult siblings born to first-cousin parents presented a clinical phenotype reminiscent of Rothmund-Thomson syndrome (RTS), implying fragile hair, absent eyelashes/eyebrows, bilateral cataracts, mottled pigmentation, dental decay, hypogonadism, and osteoporosis. As the clinical suspicion was not supported by the sequencing of RECQL4, the RTS2-causative gene, whole exome sequencing was applied and disclosed the homozygous variants c.83G>A (p.Gly28Asp) and c.2624A>C (p.Glu875Ala) in the nucleoporin 98 (NUP98) gene. Though both variants affect highly conserved amino acids, the c.83G>A looked more intriguing due to its higher pathogenicity score and location of the replaced amino acid between phenylalanine-glycine (FG) repeats within the first NUP98 intrinsically disordered region. Molecular modeling studies of the mutated NUP98 FG domain evidenced a dispersion of the intramolecular cohesion elements and a more elongated conformational state compared to the wild type. This different dynamic behavior may affect the NUP98 functions as the minor plasticity of the mutated FG domain undermines its role as a multi-docking station for RNA and proteins, and the impaired folding can lead to the weakening or the loss of specific interactions. The clinical overlap of NUP98-mutated and RTS2/RTS1 patients, accounted by converging dysregulated gene networks, supports this first-described constitutional NUP98 disorder, expanding the well-known role of NUP98 in cancer.",
+    "keywords": [
+      "FG repeats",
+      "NUP98 variants",
+      "Rothmund-Thomson spectrum",
+      "endocrine perturbation",
+      "intrinsic disordered regions",
+      "juvenile cataracts",
+      "protein molecular modeling",
+      "whole exome sequencing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Nuclear Pore Complex Proteins/chemistry/genetics",
+      "*Rothmund-Thomson Syndrome/genetics",
+      "Siblings",
+      "*Germ-Line Mutation",
+      "Male",
+      "Female",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Case Reports",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Colombo, Elisa Adele",
+        "Valiante, Michele",
+        "Uggeri, Matteo",
+        "Orro, Alessandro",
+        "Majore, Silvia",
+        "Grammatico, Paola",
+        "Gentilini, Davide",
+        "Finelli, Palma",
+        "Gervasini, Cristina",
+        "D'Ursi, Pasqualina",
+        "Larizza, Lidia"
+      ],
+      "short_names": [
+        "Colombo EA",
+        "Valiante M",
+        "Uggeri M",
+        "Orro A",
+        "Majore S",
+        "Grammatico P",
+        "Gentilini D",
+        "Finelli P",
+        "Gervasini C",
+        "D'Ursi P",
+        "Larizza L"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9062-3188",
+        "ORCID: 0000-0002-2581-9579",
+        "ORCID: 0000-0002-6864-2574",
+        "ORCID: 0000-0001-8464-6906",
+        "ORCID: 0000-0002-1165-7935",
+        "ORCID: 0000-0003-1554-429X",
+        "ORCID: 0000-0002-1367-7227"
+      ],
+      "affiliations": [
+        "Genetica Medica, Dipartimento di Scienze Della Salute, Universita Degli Studi di Milano, 20142 Milano, Italy.",
+        "Laboratory of Medical Genetics, Department of Experimental Medicine, Sapienza University, San Camillo-Forlanini Hospital, 00152 Roma, Italy.",
+        "Department of Biomedical Sciences National Research Council, Institute for Biomedical Technologies, 20054 Segrate, Italy.",
+        "Department of Pharmacy, Section of Medicinal Chemistry, School of Medical and Pharmaceutical Sciences, University of Genoa, 16132 Genoa, Italy.",
+        "Department of Biomedical Sciences National Research Council, Institute for Biomedical Technologies, 20054 Segrate, Italy.",
+        "Laboratory of Medical Genetics, Department of Experimental Medicine, Sapienza University, San Camillo-Forlanini Hospital, 00152 Roma, Italy.",
+        "Laboratory of Medical Genetics, Department of Experimental Medicine, Sapienza University, San Camillo-Forlanini Hospital, 00152 Roma, Italy.",
+        "Bioinformatics and Statistical Genomics Unit, IRCCS Istituto Auxologico Italiano, Via Ariosto 13, 20145 Milan, Italy.",
+        "Department of Brain and Behavioral Sciences, University of Pavia, 27100 Pavia, Italy.",
+        "Experimental Research Laboratory of Medical Cytogenetics and Molecular Genetics, IRCCS Istituto Auxologico Italiano, Via Ariosto 13, 20145 Milan, Italy.",
+        "Department of Medical Biotechnology and Translational Medicine, University of Milan, 20133 Milan, Italy.",
+        "Genetica Medica, Dipartimento di Scienze Della Salute, Universita Degli Studi di Milano, 20142 Milano, Italy.",
+        "Department of Biomedical Sciences National Research Council, Institute for Biomedical Technologies, 20054 Segrate, Italy.",
+        "Experimental Research Laboratory of Medical Cytogenetics and Molecular Genetics, IRCCS Istituto Auxologico Italiano, Via Ariosto 13, 20145 Milan, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Colombo, Elisa Adele",
+        "short_name": "Colombo EA",
+        "identifiers": [
+          "0000-0001-9062-3188"
+        ],
+        "affiliations": [
+          "Genetica Medica, Dipartimento di Scienze Della Salute, Università Degli Studi di Milano, 20142 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Valiante, Michele",
+        "short_name": "Valiante M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Medical Genetics, Department of Experimental Medicine, Sapienza University, San Camillo-Forlanini Hospital, 00152 Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Uggeri, Matteo",
+        "short_name": "Uggeri M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences National Research Council, Institute for Biomedical Technologies, 20054 Segrate, Italy.",
+          "Department of Pharmacy, Section of Medicinal Chemistry, School of Medical and Pharmaceutical Sciences, University of Genoa, 16132 Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Orro, Alessandro",
+        "short_name": "Orro A",
+        "identifiers": [
+          "0000-0002-2581-9579"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences National Research Council, Institute for Biomedical Technologies, 20054 Segrate, Italy."
+        ]
+      },
+      {
+        "full_name": "Majore, Silvia",
+        "short_name": "Majore S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Medical Genetics, Department of Experimental Medicine, Sapienza University, San Camillo-Forlanini Hospital, 00152 Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Grammatico, Paola",
+        "short_name": "Grammatico P",
+        "identifiers": [
+          "0000-0002-6864-2574"
+        ],
+        "affiliations": [
+          "Laboratory of Medical Genetics, Department of Experimental Medicine, Sapienza University, San Camillo-Forlanini Hospital, 00152 Roma, Italy."
+        ]
+      },
+      {
+        "full_name": "Gentilini, Davide",
+        "short_name": "Gentilini D",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics and Statistical Genomics Unit, IRCCS Istituto Auxologico Italiano, Via Ariosto 13, 20145 Milan, Italy.",
+          "Department of Brain and Behavioral Sciences, University of Pavia, 27100 Pavia, Italy."
+        ]
+      },
+      {
+        "full_name": "Finelli, Palma",
+        "short_name": "Finelli P",
+        "identifiers": [
+          "0000-0001-8464-6906"
+        ],
+        "affiliations": [
+          "Experimental Research Laboratory of Medical Cytogenetics and Molecular Genetics, IRCCS Istituto Auxologico Italiano, Via Ariosto 13, 20145 Milan, Italy.",
+          "Department of Medical Biotechnology and Translational Medicine, University of Milan, 20133 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Gervasini, Cristina",
+        "short_name": "Gervasini C",
+        "identifiers": [
+          "0000-0002-1165-7935"
+        ],
+        "affiliations": [
+          "Genetica Medica, Dipartimento di Scienze Della Salute, Università Degli Studi di Milano, 20142 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "D'Ursi, Pasqualina",
+        "short_name": "D'Ursi P",
+        "identifiers": [
+          "0000-0003-1554-429X"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences National Research Council, Institute for Biomedical Technologies, 20054 Segrate, Italy."
+        ]
+      },
+      {
+        "full_name": "Larizza, Lidia",
+        "short_name": "Larizza L",
+        "identifiers": [
+          "0000-0002-1367-7227"
+        ],
+        "affiliations": [
+          "Experimental Research Laboratory of Medical Cytogenetics and Molecular Genetics, IRCCS Istituto Auxologico Italiano, Via Ariosto 13, 20145 Milan, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Feb 16",
+    "pub_year": "2023",
+    "pub_types": [
+      "Case Reports",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/26 06:00",
+    "fetched_at": "2026-09-20 19:29:20"
+  },
+  "links": {
+    "cites": [
+      "41597772",
+      "40097984",
+      "39273335",
+      "37908226",
+      "37240412"
+    ],
+    "refs": [
+      "37342232",
+      "35664819",
+      "35107131",
+      "34946868",
+      "34358284",
+      "33629655",
+      "33548309",
+      "33219223",
+      "32586274",
+      "31303264",
+      "30361777",
+      "29642415",
+      "29490246",
+      "28854430",
+      "28453649",
+      "28366641",
+      "28221134",
+      "27999437",
+      "27807035",
+      "27535533",
+      "27268795",
+      "27097363",
+      "27085162",
+      "27071718",
+      "26791761",
+      "26731471",
+      "26485365",
+      "26456112",
+      "26432245",
+      "26109352",
+      "25863585",
+      "25851949",
+      "25741868",
+      "24487276",
+      "23161011",
+      "21502404",
+      "21478889",
+      "21439391",
+      "21030234",
+      "20498086",
+      "20144760",
+      "20113479",
+      "20080505",
+      "19505943",
+      "18688269",
+      "17932917",
+      "17215516",
+      "16651408",
+      "11846609",
+      "11387327",
+      "10087256",
+      "9858599"
+    ],
+    "similar": [
+      "36835439",
+      "24518840",
+      "29462647",
+      "34155702",
+      "36164748",
+      "37228773",
+      "38714656",
+      "29642415",
+      "29367366",
+      "20113479",
+      "34964962",
+      "17372760",
+      "39273335",
+      "38131666",
+      "31303264",
+      "36138110",
+      "33294214",
+      "22100335",
+      "39055085",
+      "35616152",
+      "25562883",
+      "35219053",
+      "18616953",
+      "27287744",
+      "12220274",
+      "23840580",
+      "35086131",
+      "37013901",
+      "38021400",
+      "2616390",
+      "8737976",
+      "33548309",
+      "12218919",
+      "23427268",
+      "32416578",
+      "12734318",
+      "10606946",
+      "22039056",
+      "38780165",
+      "10986997",
+      "8950673",
+      "10319867",
+      "28039508",
+      "21143835",
+      "33479542",
+      "31276497",
+      "12838562",
+      "20375145",
+      "20233715",
+      "7736573",
+      "10678659",
+      "16271439",
+      "11248054",
+      "34965247",
+      "37055165",
+      "7712640",
+      "35664819",
+      "18647888",
+      "27463631",
+      "12952869",
+      "21418107",
+      "6318363",
+      "17589499",
+      "9719007",
+      "26311873",
+      "27247962",
+      "36765044",
+      "24927547",
+      "18688269",
+      "16141230",
+      "11950939",
+      "33361189",
+      "26658558",
+      "12379465",
+      "10552928",
+      "16630167",
+      "20618321",
+      "24832598",
+      "32766874",
+      "18504617",
+      "18287282",
+      "33849972",
+      "25441286",
+      "20545767",
+      "10995009",
+      "15960976",
+      "20817924",
+      "17178481",
+      "27694926",
+      "15558713",
+      "16105755",
+      "11782354",
+      "8447670",
+      "17079785",
+      "20004881",
+      "15207818",
+      "16651408",
+      "21467841",
+      "2196075"
+    ],
+    "review": [
+      "36835439",
+      "20113479",
+      "39273335",
+      "27287744",
+      "38021400",
+      "16271439",
+      "7712640",
+      "27463631",
+      "32766874",
+      "25441286",
+      "20545767",
+      "17178481",
+      "16105755"
+    ],
+    "pmc": [
+      "9965077"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/963157",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms24044028",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36835439/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36835439",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

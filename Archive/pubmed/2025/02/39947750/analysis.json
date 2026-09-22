@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39947750",
+  "title": "Molecular crowding and amyloidogenic self-assembly: Emergent perspectives from modern computations.",
+  "authors": "Chatterjee, Hindol; Sengupta, Neelanjana",
+  "journal": "Progress in molecular biology and translational science",
+  "published_date": "2025-02-14",
+  "window": {
+    "start": "2025-02-10",
+    "end": "2025-02-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述探讨分子拥挤环境下无序蛋白自聚集与淀粉样生成的物理模拟方法，虽聚焦自聚集而非典型PPI，但对象为IDP且方法涉及增强采样等物理模拟，对无序蛋白互作机制建模有参考价值。",
+  "abstract": "In recent decades, the conventional protein folding paradigm has been challenged by intriguing properties of disordered peptide sequences that do not adopt stably folded conformations. Such intrinsically disordered proteins and protein regions (IDPs and IDRs) are poised uniquely in biology due to their propensity for self-aggregation, amyloidogenesis, and correlations with a cluster of debilitating diseases. Complexities underlying their structural and functional manifestations are enhanced in the presence of molecular crowding via non-specific protein-protein and protein-solvent contacts. Enabled by technological advances, physics-based algorithms, and data science, modern computer simulations provide unprecedented insights into the structure, function, dynamics, and thermodynamics of complex macromolecular systems. These characteristics are frequently correlated and manifest into unique observables. This chapter presents an overview of how such methodologies can lend insights and drive investigations into the molecular trifecta of crowding, protein self-aggregation, and amyloidogenesis. It begins with a general overview of disordered proteins in relation to biological function and of a suite of relevant experimental methods. Specific examples are showcased in the biological context. This is followed by a description of the computational approaches that supplant experimental efforts, with an elaboration on enhanced molecular simulation methods. The chapter concludes by alluding to expanded possibilities in disease amelioration.",
+  "abstract_zh": "近几十年来，传统蛋白质折叠范式受到了无序肽序列的有趣特性的挑战，这些序列不采用稳定折叠构象。这类固有无序蛋白质及蛋白质区域（IDPs 和 IDRs）因其自我聚集倾向、淀粉样蛋白生成以及与一系列致残疾病的关联，在生物学中占据独特地位。在分子拥挤环境下，通过非特异性蛋白质-蛋白质和蛋白质-溶剂接触，其结构和功能表现背后的复杂性进一步增强。得益于技术进步、基于物理的算法和数据科学，现代计算机模拟为复杂大分子系统的结构、功能、动力学和热力学提供了前所未有的见解。这些特性常常相互关联，并表现为独特的可观测现象。本章概述了这些方法如何为拥挤、蛋白质自我聚集和淀粉样蛋白生成这一分子三重奏提供洞见并推动研究。首先，概述了无序蛋白质与生物功能的关系以及一系列相关实验方法，并在生物学背景下展示了具体实例。随后，描述了补充实验工作的计算方法，并详细阐述了增强分子模拟方法。本章最后提及了在疾病改善方面扩展的可能性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39947750/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39947750/",
+  "paper_page_path": "papers/pubmed/39947750/index.html"
+}

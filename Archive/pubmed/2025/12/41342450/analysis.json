@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41342450",
+  "title": "Crossover in aromatic amino acid interaction strength between tyrosine and phenylalanine in biomolecular condensates.",
+  "authors": "De Sancho, David; Lopez, Xabier",
+  "journal": "eLife",
+  "published_date": "2025-12-04",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用MD模拟和量子化学计算研究凝聚体中酪氨酸与苯丙氨酸芳香族氨基酸粘附强度反转的机制，聚焦无序蛋白相分离中的PPI化学环境调控，方法扎实且机制建模深入，虽非直接预测特定PPI但高度相关。",
+  "abstract": "Biomolecular condensates often form through the self-assembly of disordered proteins with low-complexity sequences. In these polypeptides, the aromatic amino acids phenylalanine and tyrosine act as key 'sticker' residues, driving the cohesion of dense phases. Recent studies on condensates suggest a hierarchy in sticker strength, with tyrosine being more adhesive than phenylalanine. This hierarchy aligns with experimental data on amino acids solubilities and potentials of mean force derived from atomistic simulations. However, it contradicts conventional chemical intuition based on hydrophobicity scales and pairwise contact statistics from experimental structures of proteins, which suggest that phenylalanine should be the stronger sticker. In this work, we use molecular dynamics simulations and quantum chemistry calculations to resolve this apparent discrepancy. Using simple model peptides and side-chain analogues, we demonstrate that the experimentally observed hierarchy arises from the lower free energy of transfer of tyrosine into the condensate, mediated by both stronger protein-protein interactions and solvation effects in the condensate environment. Notably, as the dielectric constant of the media surrounding the stickers approaches that of an apolar solvent, the trend reverses, and phenylalanine becomes the stronger sticker. These findings highlight the role of the chemical environment in modulating protein-protein interactions, providing a clear explanation for the crossover in sticker strength between tyrosine and phenylalanine in different media.",
+  "abstract_zh": "生物分子凝聚体通常通过具有低复杂度序列的无序蛋白质的自组装形成。在这些多肽中，芳香族氨基酸苯丙氨酸和酪氨酸作为关键的“粘附”残基，驱动致密相的凝聚。近期对凝聚体的研究表明，粘附强度存在层级关系，其中酪氨酸的粘附性高于苯丙氨酸。这一层级与基于氨基酸溶解度的实验数据及原子模拟导出的平均力势相符。然而，它却与基于疏水性标度和蛋白质实验结构中成对接触统计的常规化学直觉相矛盾，后者提示苯丙氨酸应为更强的粘附残基。在本工作中，我们利用分子动力学模拟和量子化学计算来解决这一明显的不一致。通过使用简单模型肽和侧链类似物，我们证明实验观察到的层级源于酪氨酸向凝聚体转移的自由能较低，这由更强的蛋白质-蛋白质相互作用及凝聚体环境中的溶剂化效应共同介导。值得注意的是，当粘附残基周围介质的介电常数接近非极性溶剂时，趋势发生反转，苯丙氨酸成为更强的粘附残基。这些发现强调了化学环境在调节蛋白质-蛋白质相互作用中的作用，为酪氨酸和苯丙氨酸在不同介质中粘附强度的交叉提供了清晰解释。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41342450/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41342450/",
+  "paper_page_path": "papers/pubmed/41342450/index.html"
+}

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure references
+- **Assessment boundary** Scientific claims, technical soundness, evidence quality, and alignment with stated conclusions based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors report the first structural and biophysical characterization of the full-length RSK2:ERK2 complex using HDX-MS, cryo-EM, and AlphaFold modeling, proposing a compact triangular architecture with a potential minor tertiary interface between the NTK and ERK2
+- **Visible evidence base** HDX-MS deuterium uptake data (Figures 1, 2, S1-S3), cryo-EM 2D classes and 7.8 Å map (Figure 4, S6, S7), AlphaFold models (Figure 5, S6), NTK crystal structure comparisons (Figure 3, S4), immunoblot data (Figure S5C), SEC profiles (Figure S8)
+- **Missing materials affecting confidence** Raw HDX-MS uptake plots with statistical comparisons, cryo-EM map validation metrics (FSC curves, local resolution), AlphaFold confidence scores (pLDDT, PAE), model-map fitting statistics, exact sample sizes for HDX-MS replicates, and negative stain or other orthogonal validation of complex stoichiometry
+
+## Reviewer
+- **Overall assessment** This manuscript presents a multi-technique investigation of a challenging kinase complex, with HDX-MS data of high coverage and a plausible low-resolution cryo-EM reconstruction. The work is timely given the biological importance of RSK2 in cancer and the lack of full-length structural information. However, the central claims regarding the compact triangular architecture and the proposed NTK-ERK2 interface rest on a 7.8 Å cryo-EM map and AlphaFold predictions without sufficient validation. The HDX-MS data are the strongest component, but the interpretation of NTK N-lobe dynamics from crystal structures requires more rigorous quantitative support. The manuscript would benefit from clearer presentation of statistical analyses and a more cautious framing of the structural conclusions given the resolution limitations.
+- **Who would be interested in the results, and why** Researchers studying kinase regulation, particularly the RSK family and ERK signaling pathways, would find the HDX-MS data and the first glimpse of full-length RSK2 architecture valuable. Structural biologists interested in multi-domain kinase complexes and the application of integrative approaches (HDX-MS, cryo-EM, AlphaFold) to flexible systems would also be engaged. The work may inform drug discovery efforts targeting RSK2, though the low-resolution structural data limit immediate translational impact.
+- **Major strengths** The manuscript addresses a significant gap in the field by studying the full-length RSK2:ERK2 complex, which has been refractory to structural characterization. The HDX-MS coverage is excellent (99% for RSK2, 98% for ERK2), and the comparison of free versus bound ERK2 provides useful mechanistic insight into the docking interaction. The integration of multiple complementary techniques is commendable and reflects best practices for studying dynamic complexes. The observation of NTK N-lobe conformational diversity across crystal structures is an interesting finding that may have broader implications for kinase regulation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality for structural claims
+  - **Claim pointer** The authors claim that the RSK2:ERK2 complex adopts a compact triangular shape based on a 7.8 Å cryo-EM map and AlphaFold modeling
+  - **Evidence pointer** Figure 4C, D; Figure 5A; Supplementary Figure S6
+  - **Concern** At 7.8 Å resolution, secondary structure elements are not resolved, and the assignment of individual kinase domains within the density is speculative without high-resolution features or fiducial markers. The map-to-model fitting is described qualitatively ("generally aligned well") without quantitative metrics such as cross-correlation coefficients or Fourier shell correlation between model and map. The claim of a "compact triangular shape" may be an artifact of the limited particle number and the pseudosymmetry the authors themselves acknowledge. The AlphaFold model is used to interpret the cryo-EM map, but this creates a circular argument when the same model is then validated by the map.
+  - **Why it matters** The central structural conclusion of the paper, the compact triangular architecture, is the primary novel claim. If this cannot be rigorously supported, the manuscript's contribution is substantially diminished. The field requires reliable structural information to guide functional hypotheses and drug design.
+  - **Resolution test** Provide quantitative map-model fitting statistics (e.g., cross-correlation, Q-score) and show that the assignment of kinase domains is robust to alternative AlphaFold models or manual placement. If possible, obtain a higher-resolution reconstruction with a larger dataset or use orthogonal validation such as cross-linking mass spectrometry to confirm the domain arrangement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor of HDX-MS comparisons
+  - **Claim pointer** The authors report "modest, yet statistically significant" protection at the ERK2 DRS site and additional protection at the DFG phenylalanine, APE motif, and MAPK insert upon RSK2 binding
+  - **Evidence pointer** Figure 1B, C; Supplementary Figure S2
+  - **Concern** The manuscript states that ANOVA and t tests with a P value cutoff of 0.05 were used, but the actual statistical results (P values, effect sizes, confidence intervals) are not presented in the figures or text. The claim of "modest" protection is subjective without quantitative thresholds. The use of three technical replicates with SEM is noted, but the lack of biological replicates raises concerns about the generalizability of the findings. The back-exchange correction using a global factor of ~25% is a potential source of systematic error that is not discussed in the context of the specific peptides analyzed.
+  - **Why it matters** The HDX-MS data are the most robust component of the study, but the interpretation of differential protection between free and bound states requires rigorous statistical support. Without clear presentation of significance, the reader cannot assess whether the observed differences are meaningful or within experimental noise.
+  - **Resolution test** Include a supplementary table with all peptide-level HDX-MS data, including uptake values, standard errors, and P values for each time point. Provide volcano plots or similar visualizations to show the magnitude and significance of protection. Consider adding biological replicates to strengthen the statistical power.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of NTK conformational states
+  - **Claim pointer** The authors state that the NTK N-lobe is "malleable" and can adopt three major conformational states based on comparison of published crystal structures
+  - **Evidence pointer** Figure 3; Supplementary Figure S4
+  - **Concern** The comparison of NTK crystal structures from different isoforms (RSK1 vs RSK2), different ligands, and different crystallization conditions is confounded by multiple variables. The classification into "Conformations A, B1, and B2" appears to be based on visual inspection of αC helix position and secondary structure, but no quantitative metrics (e.g., RMSD calculations, principal component analysis) are provided. The claim that these represent physiologically relevant states rather than crystallization artifacts is not adequately supported.
+  - **Why it matters** The authors use this analysis to support the idea that the NTK is highly dynamic, which is then linked to the HDX-MS data. If the conformational classification is not robust, this interpretation weakens.
+  - **Resolution test** Perform a systematic structural comparison with quantitative metrics (e.g., pairwise RMSD of the N-lobe, dihedral angle analysis of the αC helix) and discuss the potential influence of crystal packing and ligand binding on the observed conformations. Consider molecular dynamics simulations to assess the intrinsic dynamics of the NTK N-lobe.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Role of ORF45 in the complex
+  - **Claim pointer** The authors used ORF45 to stabilize the RSK2:ERK2 complex for cryo-EM, and the cryo-EM data were collected on the RSK2:ERK2:ORF45 complex
+  - **Evidence pointer** Methods section; Figure 4; Supplementary Figure S8
+  - **Concern** The manuscript does not clearly describe how ORF45 affects the complex architecture. The HDX-MS experiments were performed on the binary RSK2:ERK2 complex, while the cryo-EM was performed on the ternary complex with ORF45. The authors do not discuss whether ORF45 binding induces conformational changes in the RSK2:ERK2 complex that could affect the interpretation of the structural data. The AF model appears to be of the binary complex, but this is not explicitly stated.
+  - **Why it matters** If ORF45 alters the complex conformation, the cryo-EM structure may not represent the native RSK2:ERK2 complex. The manuscript should clarify the relationship between the different complex compositions used in each experiment.
+  - **Resolution test** Clearly state the composition of each sample used for each technique. Discuss whether ORF45 is expected to induce conformational changes and whether the AF model includes ORF45. If possible, compare the HDX-MS data of the binary and ternary complexes to assess ORF45-induced changes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1B, C
+  - **Issue** The differential HDX data are presented as "protection" but the color scale and threshold for significance are not defined in the figure legend.
+  - **Required correction** Add a clear color scale with the magnitude of deuterium uptake difference and indicate which regions pass the statistical significance threshold.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Cryo-EM data processing
+  - **Evidence pointer** Methods section
+  - **Issue** The methods describe the final map resolution but do not provide details on the number of particles in the final reconstruction, the resolution estimation method (gold-standard FSC), or local resolution variation.
+  - **Required correction** Include the final particle count, FSC curve with the 0.143 criterion, and a local resolution map in the supplementary materials.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract; Discussion
+  - **Issue** The term "compact triangular shape" is used to describe the complex, but this is a low-resolution observation and may be misleading without appropriate caveats.
+  - **Required correction** Use more cautious language such as "the cryo-EM map at 7.8 Å resolution is consistent with a compact arrangement of the three kinase domains" and acknowledge the resolution limitations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability section
+  - **Evidence pointer** Data Availability section
+  - **Issue** The data availability statement is vague and does not specify where the cryo-EM map, HDX-MS data, or AlphaFold models have been deposited.
+  - **Required correction** Provide accession codes for the cryo-EM map (EMDB), HDX-MS data (e.g., ProteomeXchange), and AlphaFold models (e.g., ModelArchive) in the data availability statement.
+- **Technical failings that need to be addressed before the case is established** The cryo-EM map at 7.8 Å is insufficient to support the detailed architectural claims without quantitative model fitting. The HDX-MS statistical analysis is not fully presented, preventing assessment of the significance of the observed protection. The comparison of NTK crystal structures lacks quantitative rigor. The relationship between the binary and ternary complex compositions used in different experiments is not clarified.
+- **Assessment against Nature-style criteria** Originality: The work addresses a gap in the field, as no full-length RSK2 structure exists, and the integrative approach is commendable. However, the low-resolution cryo-EM map limits the novelty of the structural claims. Scientific importance: The RSK2:ERK2 interaction is biologically significant in cancer and development, and understanding its architecture could inform therapeutic strategies. The HDX-MS data on the full-length complex are valuable. Interdisciplinary readership: The work bridges structural biology, biophysics, and kinase signaling, and would appeal to a broad audience if the claims are properly supported. Technical soundness: The HDX-MS methodology appears sound, but the cryo-EM and AF interpretations require additional validation. Readability for nonspecialists: The manuscript is generally well-written and accessible, though the structural details may be challenging for non-experts. Overall, the manuscript has potential but does not yet meet the standard for a high-impact journal due to the limitations in structural evidence.
+- **Recommendation posture** Supportive if technical concerns are resolved. The HDX-MS data are a solid contribution, and the integrative approach is valuable. However, the structural claims require substantial additional validation, including quantitative map fitting, more rigorous statistical presentation, and clarification of the complex composition used in each experiment. If these issues are addressed, the manuscript could make a meaningful contribution to the field.
+
+## Risk / unsupported claims
+- The claim of a "compact triangular shape" for the RSK2:ERK2 complex is not adequately supported by the 7.8 Å cryo-EM map without quantitative model fitting and validation.
+- The proposed "potential tertiary interaction between the ERK2 MAPK insert and the APE motif with the C-lobe of the NTK" is speculative and based on modest HDX protection and AF predictions without direct experimental validation.
+- The classification of NTK conformations into three distinct states (A, B1, B2) is not quantitatively supported and may reflect crystallization artifacts rather than physiologically relevant conformations.
+- The statement that the NTK N-lobe is "malleable" and can adopt a "wide range of conformations" is inferred from crystal structures and HDX data but lacks direct dynamic measurements (e.g., NMR relaxation, MD simulations).
+- The claim that the cryo-EM and AF models "generally aligned well" is not supported by quantitative metrics and is therefore not assessable.

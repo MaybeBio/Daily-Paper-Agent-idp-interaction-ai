@@ -1,0 +1,414 @@
+{
+  "identity": {
+    "pmid": "34213045",
+    "doi": "10.1002/chem.202101674",
+    "title": "Midkine Interaction with Chondroitin Sulfate Model Synthetic Tetrasaccharides and Their Mimetics: The Role of Aromatic Interactions."
+  },
+  "content": {
+    "abstract": "Midkine (MK) is a neurotrophic factor that participates in the embryonic central nervous system (CNS) development and neural stem cell regulation, interacting with sulfated glycosaminoglycans (GAGs). Chondroitin sulfate (CS) is the natural ligand in the CNS. In this work, we describe the interactions between a library of synthetic models of CS-types and mimics. We did a structural study of this library by NMR and MD (Molecular Dynamics), concluding that the basic shape is controlled by similar geometry of the glycosidic linkages. Their 3D structures are a helix with four residues per turn, almost linear. We have studied the tetrasaccharide-midkine complexes by ligand observed NMR techniques and concluded that the shape of the ligands does not change upon binding. The ligand orientation into the complex is very variable. It is placed inside the central cavity of MK formed by the two structured beta-sheets domains linked by an intrinsically disordered region (IDR). Docking analysis confirmed the participation of aromatics residues from MK completed with electrostatic interactions. Finally, we test the biological activity by increasing the MK expression using CS tetrasaccharides and their capacity in enhancing the growth stimulation effect of MK in NIH3T3 cells.",
+    "keywords": [
+      "MD",
+      "STD NMR spectroscopy",
+      "carbohydrate-protein complexes",
+      "chondroitin sulfate",
+      "midkine",
+      "transient NMRspectroscopy"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Chondroitin Sulfates",
+      "Glycosaminoglycans",
+      "Mice",
+      "Midkine",
+      "NIH 3T3 Cells",
+      "*Oligosaccharides"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Garcia-Jimenez, Maria Jose",
+        "Gil-Caballero, Sergio",
+        "Maza, Susana",
+        "Corzana, Francisco",
+        "Juarez-Vicente, Francisco",
+        "Miles, Jonathan R",
+        "Sakamoto, Kazuma",
+        "Kadomatsu, Kenji",
+        "Garcia-Dominguez, Mario",
+        "de Paz, Jose L",
+        "Nieto, Pedro M"
+      ],
+      "short_names": [
+        "Garcia-Jimenez MJ",
+        "Gil-Caballero S",
+        "Maza S",
+        "Corzana F",
+        "Juarez-Vicente F",
+        "Miles JR",
+        "Sakamoto K",
+        "Kadomatsu K",
+        "Garcia-Dominguez M",
+        "de Paz JL",
+        "Nieto PM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4074-9011"
+      ],
+      "affiliations": [
+        "Glycosystems Laboratory, Instituto de Investigaciones Quimicas (IIQ), cicCartuja, CSIC, Universidad de Sevilla, C/ Americo Vespucio, 49, 41092, Sevilla, Spain.",
+        "Glycosystems Laboratory, Instituto de Investigaciones Quimicas (IIQ), cicCartuja, CSIC, Universidad de Sevilla, C/ Americo Vespucio, 49, 41092, Sevilla, Spain.",
+        "Current Address: Universitat de Girona, Edifici Jaume Casademont Porta E, Parc Cientific, Girona, Spain.",
+        "Glycosystems Laboratory, Instituto de Investigaciones Quimicas (IIQ), cicCartuja, CSIC, Universidad de Sevilla, C/ Americo Vespucio, 49, 41092, Sevilla, Spain.",
+        "Department of Chemistry, University of La Rioja, Logrono (La Rioja), Spain.",
+        "Andalusian Center for Molecular Biology and Regenerative Medicine-CABIMER, CSIC-Universidad de Sevilla-Universidad Pablo de Olavide, C/ Americo Vespucio, 24, 41092, Sevilla, Spain.",
+        "Glycosystems Laboratory, Instituto de Investigaciones Quimicas (IIQ), cicCartuja, CSIC, Universidad de Sevilla, C/ Americo Vespucio, 49, 41092, Sevilla, Spain.",
+        "Institute for Glyco-core Research (iGCORE), Departments of Biochemistry, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya, 466-8550, Japan.",
+        "Institute for Glyco-core Research (iGCORE), Departments of Biochemistry, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya, 466-8550, Japan.",
+        "Andalusian Center for Molecular Biology and Regenerative Medicine-CABIMER, CSIC-Universidad de Sevilla-Universidad Pablo de Olavide, C/ Americo Vespucio, 24, 41092, Sevilla, Spain.",
+        "Glycosystems Laboratory, Instituto de Investigaciones Quimicas (IIQ), cicCartuja, CSIC, Universidad de Sevilla, C/ Americo Vespucio, 49, 41092, Sevilla, Spain.",
+        "Glycosystems Laboratory, Instituto de Investigaciones Quimicas (IIQ), cicCartuja, CSIC, Universidad de Sevilla, C/ Americo Vespucio, 49, 41092, Sevilla, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "García-Jiménez, María José",
+        "short_name": "García-Jiménez MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Glycosystems Laboratory, Instituto de Investigaciones Químicas (IIQ), cicCartuja, CSIC, Universidad de Sevilla, C/ Américo Vespucio, 49, 41092, Sevilla, Spain."
+        ]
+      },
+      {
+        "full_name": "Gil-Caballero, Sergio",
+        "short_name": "Gil-Caballero S",
+        "identifiers": [],
+        "affiliations": [
+          "Glycosystems Laboratory, Instituto de Investigaciones Químicas (IIQ), cicCartuja, CSIC, Universidad de Sevilla, C/ Américo Vespucio, 49, 41092, Sevilla, Spain.",
+          "Current Address: Universitat de Girona, Edifici Jaume Casademont Porta E, Parc Científic, Girona, Spain."
+        ]
+      },
+      {
+        "full_name": "Maza, Susana",
+        "short_name": "Maza S",
+        "identifiers": [],
+        "affiliations": [
+          "Glycosystems Laboratory, Instituto de Investigaciones Químicas (IIQ), cicCartuja, CSIC, Universidad de Sevilla, C/ Américo Vespucio, 49, 41092, Sevilla, Spain."
+        ]
+      },
+      {
+        "full_name": "Corzana, Francisco",
+        "short_name": "Corzana F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of La Rioja, Logroño (La Rioja), Spain."
+        ]
+      },
+      {
+        "full_name": "Juárez-Vicente, Francisco",
+        "short_name": "Juárez-Vicente F",
+        "identifiers": [],
+        "affiliations": [
+          "Andalusian Center for Molecular Biology and Regenerative Medicine-CABIMER, CSIC-Universidad de Sevilla-Universidad Pablo de Olavide, C/ Américo Vespucio, 24, 41092, Sevilla, Spain."
+        ]
+      },
+      {
+        "full_name": "Miles, Jonathan R",
+        "short_name": "Miles JR",
+        "identifiers": [],
+        "affiliations": [
+          "Glycosystems Laboratory, Instituto de Investigaciones Químicas (IIQ), cicCartuja, CSIC, Universidad de Sevilla, C/ Américo Vespucio, 49, 41092, Sevilla, Spain."
+        ]
+      },
+      {
+        "full_name": "Sakamoto, Kazuma",
+        "short_name": "Sakamoto K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Glyco-core Research (iGCORE), Departments of Biochemistry, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya, 466-8550, Japan."
+        ]
+      },
+      {
+        "full_name": "Kadomatsu, Kenji",
+        "short_name": "Kadomatsu K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Glyco-core Research (iGCORE), Departments of Biochemistry, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya, 466-8550, Japan."
+        ]
+      },
+      {
+        "full_name": "García-Domínguez, Mario",
+        "short_name": "García-Domínguez M",
+        "identifiers": [],
+        "affiliations": [
+          "Andalusian Center for Molecular Biology and Regenerative Medicine-CABIMER, CSIC-Universidad de Sevilla-Universidad Pablo de Olavide, C/ Américo Vespucio, 24, 41092, Sevilla, Spain."
+        ]
+      },
+      {
+        "full_name": "de Paz, José L",
+        "short_name": "de Paz JL",
+        "identifiers": [],
+        "affiliations": [
+          "Glycosystems Laboratory, Instituto de Investigaciones Químicas (IIQ), cicCartuja, CSIC, Universidad de Sevilla, C/ Américo Vespucio, 49, 41092, Sevilla, Spain."
+        ]
+      },
+      {
+        "full_name": "Nieto, Pedro M",
+        "short_name": "Nieto PM",
+        "identifiers": [
+          "0000-0002-4074-9011"
+        ],
+        "affiliations": [
+          "Glycosystems Laboratory, Instituto de Investigaciones Químicas (IIQ), cicCartuja, CSIC, Universidad de Sevilla, C/ Américo Vespucio, 49, 41092, Sevilla, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemistry (Weinheim an der Bergstrasse, Germany)"
+    ],
+    "journal_abbrev": [
+      "Chemistry"
+    ],
+    "pub_date": "2021 Aug 25",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/03 06:00",
+    "fetched_at": "2026-09-20 04:02:18"
+  },
+  "links": {
+    "cites": [
+      "41891761",
+      "41301436",
+      "40867602",
+      "36325647",
+      "35631323",
+      "35328448",
+      "35053225"
+    ],
+    "refs": [
+      "31801970",
+      "31061498",
+      "30888803",
+      "29662983",
+      "29409708",
+      "28694940",
+      "28603292",
+      "27410264",
+      "26991839",
+      "26784281",
+      "26164146",
+      "25747117",
+      "24148269",
+      "24125182",
+      "23992440",
+      "23947484",
+      "23903025",
+      "23746256",
+      "23715525",
+      "23625998",
+      "23605458",
+      "23595496",
+      "23418741",
+      "23275130",
+      "23143902",
+      "22410317",
+      "21375488",
+      "20974281",
+      "19621396",
+      "19575349",
+      "19499576",
+      "19173361",
+      "18975926",
+      "18720494",
+      "17928217",
+      "16878128",
+      "16807015",
+      "16420040",
+      "16242378",
+      "16200636",
+      "15385557",
+      "15027865",
+      "14699094",
+      "12949874",
+      "12491369",
+      "12221095",
+      "12045103",
+      "11414845",
+      "9500895",
+      "9441876",
+      "9020479",
+      "2610682",
+      "2370663",
+      "2331699",
+      "2049087"
+    ],
+    "similar": [
+      "34213045",
+      "35328448",
+      "26784281",
+      "10978312",
+      "34048524",
+      "37879181",
+      "22237251",
+      "36409210",
+      "35631323",
+      "15226297",
+      "28621483",
+      "11925507",
+      "15323565",
+      "11601990",
+      "34299163",
+      "26991839",
+      "8872118",
+      "17680989",
+      "21658254",
+      "701280",
+      "10866805",
+      "28963345",
+      "23129769",
+      "9242620",
+      "25752983",
+      "10993828",
+      "16192264",
+      "23275130",
+      "35989030",
+      "20584902",
+      "11384972",
+      "23349846",
+      "14741373",
+      "17928217",
+      "26123275",
+      "9452446",
+      "28049392",
+      "8621465",
+      "8181004",
+      "29402610",
+      "36822013",
+      "37659488",
+      "12204104",
+      "9184834",
+      "16336265",
+      "15625183",
+      "15385557",
+      "17094944",
+      "17893095",
+      "36374421",
+      "33720131",
+      "8900154",
+      "23992440",
+      "2941416",
+      "34626390",
+      "21873605",
+      "19190026",
+      "11231269",
+      "12221095",
+      "29409708",
+      "28731518",
+      "25982530",
+      "26315937",
+      "16901907",
+      "12634322",
+      "38054387",
+      "20087964",
+      "9534226",
+      "18835578",
+      "8508806",
+      "19806451",
+      "22410317",
+      "23019154",
+      "15212495",
+      "16004957",
+      "37985053",
+      "32939673",
+      "10739964",
+      "14699094",
+      "29229841",
+      "18079434",
+      "19826794",
+      "25150694",
+      "30878449",
+      "33757834",
+      "20022001",
+      "31455633",
+      "17513885",
+      "35941485",
+      "19278856",
+      "8340404",
+      "9134432",
+      "25803296",
+      "17541818",
+      "23570717",
+      "10764827",
+      "10723065",
+      "7530935",
+      "25820496",
+      "8774738"
+    ],
+    "review": [
+      "34213045",
+      "17928217",
+      "28049392",
+      "37659488",
+      "12204104",
+      "23992440"
+    ],
+    "pmc": [
+      "8457220"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://hdl.handle.net/10261/246992",
+        "provider": "Digital CSIC Spanish National Research Council - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from DIGITALCSIC"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34213045/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://hdl.handle.net/10668/18144",
+        "provider": "Andalusian Health Repository - access to free full text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full Text at the institutional repository"
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34213045",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/chem.202101674",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ZAP70-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

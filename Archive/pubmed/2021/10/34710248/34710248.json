@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "34710248",
+    "doi": "10.1002/adma.202106633",
+    "title": "Super-Resolution Imaging of Highly Curved Membrane Structures in Giant Vesicles Encapsulating Molecular Condensates."
+  },
+  "content": {
+    "abstract": "Molecular crowding is an inherent feature of cell interiors. Synthetic cells as provided by giant unilamellar vesicles (GUVs) encapsulating macromolecules (poly(ethylene glycol) and dextran) represent an excellent mimetic system to study membrane transformations associated with molecular crowding and protein condensation. Similarly to cells, such GUVs exhibit highly curved structures like nanotubes. Upon liquid-liquid phase separation their membrane deforms into apparent kinks at the contact line of the interface between the two aqueous phases. These structures, nanotubes, and kinks, have dimensions below optical resolution. Here, these are studied with super-resolution stimulated emission depletion (STED) microscopy facilitated by immobilization in a microfluidic device. The cylindrical nature of the nanotubes based on the superior resolution of STED and automated data analysis is demonstrated. The deduced membrane spontaneous curvature is in excellent agreement with theoretical predictions. Furthermore, the membrane kink-like structure is resolved as a smoothly curved membrane demonstrating the existence of the intrinsic contact angle, which describes the wettability contrast of the encapsulated phases to the membrane. Resolving these highly curved membrane structures with STED imaging provides important insights in the membrane properties and interactions underlying cellular activities.",
+    "keywords": [
+      "aqueous two-phase systems (ATPSs)",
+      "giant unilamellar vesicles (GUVs)",
+      "membrane nanotubes",
+      "microfluidics",
+      "polymers",
+      "spontaneous curvature",
+      "stimulated emission depletion (STED)"
+    ],
+    "mesh_terms": [
+      "Microscopy",
+      "*Nanotubes/chemistry",
+      "Proteins",
+      "*Unilamellar Liposomes/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Ziliang",
+        "Roy, Debjit",
+        "Steinkuhler, Jan",
+        "Robinson, Tom",
+        "Lipowsky, Reinhard",
+        "Dimova, Rumiana"
+      ],
+      "short_names": [
+        "Zhao Z",
+        "Roy D",
+        "Steinkuhler J",
+        "Robinson T",
+        "Lipowsky R",
+        "Dimova R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8723-7312",
+        "ORCID: 0000-0001-8986-9359",
+        "ORCID: 0000-0003-4226-7945",
+        "ORCID: 0000-0001-5236-7179",
+        "ORCID: 0000-0001-8417-8567",
+        "ORCID: 0000-0002-3872-8502"
+      ],
+      "affiliations": [
+        "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, Science Park Golm, 14424, Potsdam, Germany.",
+        "Leibniz Institute of Photonic Technology e.V., Albert-Einstein-Strasse 9, 07745, Jena, Germany.",
+        "Institute of Applied Optics and Biophysics, Friedrich-Schiller-University Jena, Max-Wien Platz 1, 07743, Jena, Germany.",
+        "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, Science Park Golm, 14424, Potsdam, Germany.",
+        "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, Science Park Golm, 14424, Potsdam, Germany.",
+        "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, Science Park Golm, 14424, Potsdam, Germany.",
+        "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, Science Park Golm, 14424, Potsdam, Germany.",
+        "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, Science Park Golm, 14424, Potsdam, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Ziliang",
+        "short_name": "Zhao Z",
+        "identifiers": [
+          "0000-0002-8723-7312"
+        ],
+        "affiliations": [
+          "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, Science Park Golm, 14424, Potsdam, Germany.",
+          "Leibniz Institute of Photonic Technology e.V., Albert-Einstein-Straße 9, 07745, Jena, Germany.",
+          "Institute of Applied Optics and Biophysics, Friedrich-Schiller-University Jena, Max-Wien Platz 1, 07743, Jena, Germany."
+        ]
+      },
+      {
+        "full_name": "Roy, Debjit",
+        "short_name": "Roy D",
+        "identifiers": [
+          "0000-0001-8986-9359"
+        ],
+        "affiliations": [
+          "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, Science Park Golm, 14424, Potsdam, Germany."
+        ]
+      },
+      {
+        "full_name": "Steinkühler, Jan",
+        "short_name": "Steinkühler J",
+        "identifiers": [
+          "0000-0003-4226-7945"
+        ],
+        "affiliations": [
+          "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, Science Park Golm, 14424, Potsdam, Germany."
+        ]
+      },
+      {
+        "full_name": "Robinson, Tom",
+        "short_name": "Robinson T",
+        "identifiers": [
+          "0000-0001-5236-7179"
+        ],
+        "affiliations": [
+          "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, Science Park Golm, 14424, Potsdam, Germany."
+        ]
+      },
+      {
+        "full_name": "Lipowsky, Reinhard",
+        "short_name": "Lipowsky R",
+        "identifiers": [
+          "0000-0001-8417-8567"
+        ],
+        "affiliations": [
+          "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, Science Park Golm, 14424, Potsdam, Germany."
+        ]
+      },
+      {
+        "full_name": "Dimova, Rumiana",
+        "short_name": "Dimova R",
+        "identifiers": [
+          "0000-0002-3872-8502"
+        ],
+        "affiliations": [
+          "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, Science Park Golm, 14424, Potsdam, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced materials (Deerfield Beach, Fla.)"
+    ],
+    "journal_abbrev": [
+      "Adv Mater"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/29 06:00",
+    "fetched_at": "2026-09-20 06:17:12"
+  },
+  "links": {
+    "cites": [
+      "42608397",
+      "42048188",
+      "41917059",
+      "41372463",
+      "40948232",
+      "40579437",
+      "40113768",
+      "38900795",
+      "38799362",
+      "38582523",
+      "37770422",
+      "37371505",
+      "37217523",
+      "36837726",
+      "36809878",
+      "36739277",
+      "35630111",
+      "35549547"
+    ],
+    "refs": [],
+    "similar": [
+      "34710248",
+      "38900795",
+      "29286431",
+      "31024898",
+      "32320255",
+      "23805747",
+      "34963074",
+      "21978148",
+      "31730350",
+      "36397672",
+      "38890456",
+      "29597298",
+      "34761904",
+      "29106974",
+      "32468728",
+      "23871914",
+      "29659246",
+      "30096847",
+      "21383120",
+      "35089720",
+      "29465241",
+      "29382193",
+      "22444482",
+      "32712477",
+      "20211599",
+      "28703789",
+      "22450237",
+      "32648708",
+      "25413588",
+      "27043009",
+      "31740134",
+      "19703410",
+      "33712188",
+      "31141589",
+      "29450934",
+      "18353990",
+      "35129984",
+      "32938177",
+      "24480645",
+      "22155692",
+      "30456959",
+      "23621019",
+      "20493165",
+      "26920999",
+      "30145889",
+      "38158637",
+      "21524642",
+      "28299707",
+      "31587827",
+      "32987317",
+      "23589883",
+      "21320442",
+      "23738716",
+      "23711826",
+      "26010661",
+      "20366179",
+      "22750641",
+      "23496549",
+      "32416194",
+      "30573758",
+      "18214374",
+      "20135103",
+      "33667121",
+      "24991878",
+      "27288275",
+      "26222552",
+      "26628330",
+      "26039163",
+      "35181295",
+      "25650630",
+      "31365179",
+      "31187801",
+      "26756162",
+      "25640441",
+      "22926929",
+      "39122664",
+      "24632023",
+      "17209626",
+      "26752650",
+      "32028133",
+      "20013393",
+      "31306917",
+      "21171656",
+      "29930377",
+      "29793863",
+      "30070077",
+      "27285399",
+      "26038815",
+      "33084207",
+      "31055199",
+      "34600914",
+      "21998666",
+      "20866045",
+      "23535634",
+      "29852433",
+      "29298041",
+      "30828532",
+      "30213985",
+      "38099299",
+      "38343063",
+      "34369922",
+      "36837726",
+      "37414881",
+      "38179539"
+    ],
+    "review": [
+      "34710248",
+      "31024898",
+      "20211599",
+      "32648708",
+      "33667121",
+      "26222552",
+      "22926929",
+      "24632023"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/adma.202106633",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33577826",
+  "title": "Coamorphous System of Florfenicol-Oxymatrine for Improving the Solubility and Dissolution Rate of Florfenicol: Preparation, Characterization and Molecular Dynamics Simulation.",
+  "authors": "Li, Bin; Hu, Yi; Guo, Yujie; Xu, Renjie; Fang, Xiaoping; Xiao, Xuecheng; Jiang, Cuiping; Lu, Shan",
+  "journal": "Journal of pharmaceutical sciences",
+  "published_date": "2021-02-13",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究制备氟苯尼考-苦参碱共无定形体系以改善溶解性，并用分子动力学模拟分析氢键作用，但对象为小分子药物而非无序蛋白/IDR，且无蛋白互作，仅MD方法可迁移性有限。",
+  "abstract": "Coamorphous system has proved to be an effective approach to improve the solubility of BCSⅡ drugs. Florfenicol (FF) is a widely used veterinary antibiotic but has poor aqueous solubility. Therefore, the coamorphous system of florfenicol and oxymatrine (OMT) formulated at 1:1 and 1:2 M ratios were prepared by using solvent evaporation, followed by a series of characterization in terms of PXRD, DSC, FTIR and Raman spectroscopy. It was found that FF and OMT are miscible according to Hansen solubility parameters. The molecular electrostatic potential (MEP) and radial distribution function (RDF) analysis demonstrated the possible hydrogen bond interaction in coamorphous system, which was confirmed by FTIR and Raman spectra. The coamorphous FF-OMT (1:1) maintained stability for 60 days at 25  degrees C/0% RH and 30 days at 40  degrees C/75% RH, which may be attributed to better molecular miscibility of FF and OMT and the strong hydrogen bond of O-H (FF)cdots, three dots, centeredO-N (OMT) and N-H (FF)cdots, three dots, centeredO-N (OMT). In addition, the apparent solubility and permeability, dissolution and intrinsic dissolution rate (IDR) of the acquired coamorphous solids were obviously increased compared with crystalline FF. In conclusion, a drug-drug coamorphous formulation can be applied to improve the solubility and dissolution of crystalline FF.",
+  "abstract_zh": "共无定形体系已被证明是提高BCSⅡ类药物溶解度的有效方法。氟苯尼考（FF）是一种广泛使用的兽用抗生素，但其水溶性较差。因此，通过溶剂蒸发法制备了氟苯尼考与氧化苦参碱（OMT）以1:1和1:2摩尔比配制的共无定形体系，并采用PXRD、DSC、FTIR和拉曼光谱进行了一系列表征。研究发现，根据Hansen溶解度参数，FF和OMT是可混溶的。分子静电势（MEP）和径向分布函数（RDF）分析表明，共无定形体系中可能存在氢键相互作用，这通过FTIR和拉曼光谱得到了证实。共无定形FF-OMT（1:1）在25°C/0%相对湿度下保持稳定60天，在40°C/75%相对湿度下保持稳定30天，这可能归因于FF和OMT更好的分子混溶性以及O-H（FF）⋯O-N（OMT）和N-H（FF）⋯O-N（OMT）的强氢键作用。此外，与结晶FF相比，所得共无定形固体的表观溶解度、渗透性、溶出度和固有溶出速率（IDR）均显著提高。总之，药物-药物共无定形制剂可用于提高结晶FF的溶解度和溶出度。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33577826/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33577826/",
+  "paper_page_path": "papers/pubmed/33577826/index.html"
+}

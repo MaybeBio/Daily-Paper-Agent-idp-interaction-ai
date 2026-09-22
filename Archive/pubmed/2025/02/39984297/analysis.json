@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39984297",
+  "title": "Structural Heterogeneity of Intermediate States Facilitates CRIPT Peptide Binding to the PDZ3 Domain: Insights from Molecular Dynamics and Markov State Model Analysis.",
+  "authors": "Song, Xingyu; Wang, Dongdong; Ji, Jie; Weng, Jingwei; Wang, Wenning",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2025-02-22",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究通过分子动力学模拟和马尔可夫态模型，揭示无序CRIPT肽与PDZ3结构域结合时中间态的结构异质性如何加速折叠-结合过程，直接聚焦IDP介导的PPI机制建模，与本课题高度契合。",
+  "abstract": "Intrinsically disordered proteins (IDPs), characterized by a lack of defined tertiary structure, are ubiquitous and indispensable components of cellular machinery. These proteins participate in a diverse array of biological processes, often undergoing conformational transitions upon binding to their target, a phenomenon termed \"folding-upon-binding.\" The finding raises the question of how to achieve rapid binding kinetics in the presence of intrinsic disorder, and the underlying molecular mechanism remains elusive. This study investigated the interaction between the C-terminal region of CRIPT and the third PDZ domain of PSD-95, a critical complex in neuronal development. Upon binding, the CRIPT peptide adopts a beta-strand conformation, a process meticulously characterized through extensive molecular dynamics simulations totaling 67.7 mus. Our findings reveal a funnel-like binding landscape in which IDPs can adopt multiple conformations prior to binding, forming structurally heterogeneous intermediate complexes and leading to diverse binding pathways. The stabilization of these intermediate complexes necessitates a dynamic interplay of native and non-native interactions. Markov state model analysis underscores the important role of structural heterogeneity as it contributes to accelerated binding. These findings enrich the classical fly-casting mechanism and provide novel insights into the functional advantages conferred by intrinsic disorder.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs)，以缺乏明确三级结构为特征，是细胞机制中普遍存在且不可或缺的组成部分。这些蛋白质参与多种多样的生物过程，通常在与其靶标结合时经历构象转变，这一现象被称为“结合诱导折叠 (folding-upon-binding)”。这一发现提出了一个问题：在存在内在无序的情况下如何实现快速结合动力学，其潜在分子机制仍不清楚。本研究探讨了CRIPT的C端区域与PSD-95的第三个PDZ结构域之间的相互作用，这是神经元发育中的一个关键复合物。结合时，CRIPT肽采用β-折叠构象，这一过程通过总计67.7微秒的广泛分子动力学 (molecular dynamics) 模拟得到了细致表征。我们的发现揭示了一个漏斗状结合景观，其中IDPs在结合前可采用多种构象，形成结构异质的中间复合物，并导致多样的结合途径。这些中间复合物的稳定化需要天然和非天然相互作用的动态协调。马尔可夫状态模型分析强调了结构异质性的重要作用，因为它有助于加速结合。这些发现丰富了经典的飞镖机制 (fly-casting mechanism)，并为内在无序所赋予的功能优势提供了新颖见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39984297/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39984297/",
+  "paper_page_path": "papers/pubmed/39984297/index.html"
+}

@@ -1,0 +1,208 @@
+{
+  "identity": {
+    "pmid": "37609146",
+    "doi": "10.1101/2023.08.06.552128",
+    "title": "Conserved molecular recognition by an intrinsically disordered region in the absence of sequence conservation."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) are critical for cellular function, yet often appear to lack sequence conservation when assessed by multiple sequence alignments. This raises the question of if and how function can be encoded and preserved in these regions despite massive sequence variation. To address this question, we have applied coarse-grained molecular dynamics simulations to investigate non-specific RNA binding of coronavirus nucleocapsid proteins. Coronavirus nucleocapsid proteins consist of multiple interspersed disordered and folded domains that bind RNA. We focussed here on the first two domains of coronavirus nucleocapsid proteins, the disordered N-terminal domain (NTD) followed by the folded RNA binding domain (RBD). While the NTD is highly variable across evolution, the RBD is structurally conserved. This combination makes the NTD-RBD a convenient model system to explore the interplay between an IDR adjacent to a folded domain, and how changes in IDR sequence can influence molecular recognition of a partner. Our results reveal a surprising degree of sequence-specificity encoded by both the composition and the precise order of the amino acids in the NTD. The presence of an NTD can - depending on the sequence - either suppress or enhance RNA binding. Despite this sensitivity, large-scale variation in NTD sequences is possible while certain sequence features are retained. Consequently, a conformationally-conserved fuzzy RNA:protein complex is found across nucleocapsid protein orthologs, despite large-scale changes in both NTD sequence and RBD surface chemistry. Taken together, these insights shed light on the ability of disordered regions to preserve functional characteristics despite their sequence variability.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alston, Jhullian J",
+        "Soranno, Andrea",
+        "Holehouse, Alex S"
+      ],
+      "short_names": [
+        "Alston JJ",
+        "Soranno A",
+        "Holehouse AS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8227-6892",
+        "ORCID: 0000-0001-8394-7993",
+        "ORCID: 0000-0002-4155-5729"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Alston, Jhullian J",
+        "short_name": "Alston JJ",
+        "identifiers": [
+          "0000-0001-8227-6892"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Soranno, Andrea",
+        "short_name": "Soranno A",
+        "identifiers": [
+          "0000-0001-8394-7993"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [
+          "0000-0002-4155-5729"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Aug 7",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/23 06:42",
+    "fetched_at": "2026-09-21 00:43:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37609146",
+      "38883712",
+      "38153183",
+      "34179096",
+      "35883485",
+      "34557680",
+      "29944921",
+      "35551296",
+      "29066345",
+      "24704038",
+      "26684000",
+      "33929321",
+      "29763584",
+      "36139141",
+      "39174826",
+      "31441158",
+      "19052082",
+      "31852780",
+      "34734665",
+      "32765822",
+      "23912807",
+      "36148633",
+      "28924037",
+      "32100577",
+      "32553192",
+      "29334709",
+      "22241479",
+      "36209362",
+      "26894667",
+      "32469265",
+      "35098694",
+      "35108439",
+      "23995840",
+      "31678340",
+      "33170884",
+      "36845554",
+      "33200826",
+      "26790343",
+      "32696354",
+      "33078839",
+      "33036302",
+      "38895487",
+      "33779503",
+      "34656333",
+      "23501675",
+      "16228284",
+      "36959451",
+      "29716994",
+      "19782089",
+      "24027208",
+      "35310482",
+      "23076520",
+      "31514372",
+      "36987865",
+      "36291695",
+      "37986933",
+      "30802457",
+      "36851914",
+      "36317101",
+      "34607456",
+      "19933326",
+      "36774964",
+      "32824743",
+      "34908442",
+      "36533523",
+      "21203940",
+      "35139468",
+      "22669939",
+      "28167781",
+      "37286558",
+      "32511362",
+      "27098855",
+      "32639157",
+      "24668165",
+      "34197802",
+      "37535684",
+      "31642121",
+      "36610391",
+      "33627133",
+      "37986812",
+      "36908253",
+      "34656334",
+      "36711874",
+      "37961106",
+      "39180270"
+    ],
+    "review": [
+      "37609146",
+      "31441158",
+      "36148633",
+      "32100577",
+      "35098694",
+      "35108439",
+      "31678340",
+      "33078839",
+      "36959451",
+      "24027208",
+      "36851914",
+      "35139468",
+      "27098855",
+      "34656334"
+    ],
+    "pmc": [
+      "10441348"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37609146/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.08.06.552128",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

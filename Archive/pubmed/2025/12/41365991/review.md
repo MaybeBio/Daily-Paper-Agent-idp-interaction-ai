@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including Introduction, Results, Discussion, Methods, and figure legends. Supplementary material not accessible.
+- **Assessment boundary** Evaluation is limited to the claims and evidence presented in the provided manuscript text. Structural models, sequence data, and simulation outputs are referenced but not independently verifiable from the supplied material.
+- **Shared manuscript claim summary** The authors report that FAM222A and FAM222B arose from a gene duplication in the gnathostome ancestor, contain a conserved intrinsically disordered region (DCD222) present from hagfish to humans, and that DCD222 binds specifically to the MAP kinase NLK through a revD motif and a β-sheet motif, without occluding the active site. The interaction is proposed to be ancestral and functionally conserved.
+- **Missing materials affecting confidence** Supplementary figures, tables, videos, AlphaFold3 model files, PAE plots, sequence alignments, and simulation trajectory data are referenced but not provided. Experimental validation of the predicted FAM222-NLK interaction is not included in the supplied text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a bioinformatics-driven evolutionary and structural analysis of the FAM222 protein family, identifying a novel conserved disordered domain and predicting its interaction with NLK. The evolutionary analysis is straightforward and adequately supported by the phylogenetic reconstruction. The structural predictions are plausible and internally consistent, but the central claim of a specific, conserved interaction between DCD222 and NLK rests entirely on AlphaFold3 modeling and in silico deletion, without any experimental corroboration. The absence of wet-lab validation, combined with the acknowledged gray-zone ipTM scores for the full-length interaction, limits the strength of the conclusions. The manuscript is clearly written and the topic is of interest to researchers studying intrinsically disordered proteins and MAPK signaling, but the evidence base is currently insufficient to fully establish the functional claims.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and their roles in signaling, particularly those interested in MAPK regulation and the evolution of disordered domains. The identification of a conserved disordered domain with a predicted NLK-binding function may also be of interest to those working on NLK-related pathways in development and disease.
+- **Major strengths** The evolutionary analysis is well executed, with a clear phylogenetic framework and appropriate sequence sampling across vertebrates. The identification of a conserved disordered region with a defined SLiM (revD motif) is a valuable contribution. The use of AlphaFold3 for interaction prediction is methodologically current, and the authors appropriately acknowledge the gray-zone confidence of some predictions. The writing is clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that DCD222 "preferentially interacts with NLK" and that this interaction is "essential" for the FAM222-NLK association, based on AlphaFold3 predictions and in silico deletion.
+  - **Evidence pointer** Results section "The disordered conserved region of FAM222 proteins directly binds to NLK"; Figure 4B and 4C
+  - **Concern** The central functional claim of the manuscript, that DCD222 directly binds NLK, is supported only by computational predictions. No experimental data (e.g., co-immunoprecipitation, pull-down, surface plasmon resonance, isothermal titration calorimetry, or cellular assays) are presented to validate the predicted interaction. The authors reference prior experimental work showing FAM222A-NLK interaction, but do not demonstrate that DCD222 is the mediating domain experimentally. The ipTM values for the full-length FAM222-NLK interaction fall in the gray zone (0.6-0.8), which the authors acknowledge as prone to false positives. The in silico deletion experiment is a useful computational test, but it does not substitute for direct biochemical evidence.
+  - **Why it matters** The title and abstract emphasize a novel interaction between a conserved disordered domain and NLK. Without experimental validation, the claim that DCD222 "directly binds" NLK is not established. The manuscript's contribution is weakened if the interaction remains purely predictive.
+  - **Resolution test** Provide experimental evidence of DCD222-NLK binding, such as co-immunoprecipitation of DCD222 with NLK, a pull-down assay using recombinant DCD222 and NLK, or a cellular assay demonstrating co-localization and interaction. Alternatively, temper the claims to clearly state that the interaction is predicted in silico and requires experimental confirmation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance
+  - **Claim pointer** The authors propose that FAM222 proteins may act as "modulators of NLK" and that the interaction "could have implications in various cellular processes."
+  - **Evidence pointer** Discussion section
+  - **Concern** The manuscript does not provide any functional data to support the proposed modulatory role of FAM222 on NLK activity. No experiments are shown to test whether DCD222 binding affects NLK kinase activity, substrate phosphorylation, or downstream signaling. The discussion speculates on possible roles in differentiation, stress response, and transcriptional regulation, but these are not tested.
+  - **Why it matters** The proposed functional significance of the interaction is a key part of the manuscript's narrative. Without functional assays, the biological relevance of the predicted interaction remains speculative.
+  - **Resolution test** Perform kinase assays to test whether DCD222 or full-length FAM222 proteins affect NLK activity. Alternatively, use cellular assays to assess whether FAM222 expression modulates NLK-dependent signaling. If functional data are not available, the discussion should be revised to clearly separate speculation from established findings.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of interaction
+  - **Claim pointer** The authors claim that DCD222 interacts specifically with NLK and not with other MAPKs, based on AlphaFold3 predictions showing ipTM values below 0.6 for other MAPKs.
+  - **Evidence pointer** Results section "The DCD222 region contains a RevD motif"; Figure 5D
+  - **Concern** The specificity claim is based solely on ipTM thresholds from AlphaFold3. The authors tested 12 additional MAPKs, but the manuscript does not report the full distribution of ipTM values or the structural details of the failed predictions. It is unclear whether the low ipTM values reflect true lack of binding or simply lower confidence in the models. The revD motif is a known MAPK-docking motif, and it is surprising that it would not engage other MAPKs with some affinity.
+  - **Why it matters** Specificity is a central claim of the manuscript. If DCD222 also binds other MAPKs under different conditions or with lower affinity, the proposed exclusive interaction with NLK would be incorrect.
+  - **Resolution test** Provide the full ipTM data for all MAPKs tested, including standard deviations across the five models. Consider experimental validation of specificity, such as a peptide array or competition assay with other MAPK docking domains.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Methods section "Structural prediction and protein-protein interaction analysis"
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript states that AlphaFold3 was used "through its web server" with default parameters, but does not specify the version of AlphaFold3 used, the number of recycles, or whether the models were ranked by ipTM or by other metrics. The criteria for selecting the best model among the five generated are not described.
+  - **Required correction** Provide the AlphaFold3 version, model selection criteria, and any relevant parameters that could affect reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Molecular dynamics simulations section
+  - **Evidence pointer** Methods section "Molecular dynamics simulations"
+  - **Issue** The simulation section reports mean temperature and pressure fluctuations but does not provide error estimates or convergence criteria. The number of replicates (three) is stated, but the manuscript does not report whether the simulations were analyzed for statistical significance of the contact and hydrogen-bond differences between DCD222 and H1.
+  - **Required correction** Report standard deviations or standard errors for the simulation metrics, and state the criteria used to determine convergence and statistical significance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Supplementary material
+  - **Evidence pointer** Supplementary Information section
+  - **Issue** The manuscript references 11 supplementary items, including alignments, videos, and tables, but the content of these items is not described in the text. The reader cannot assess the quality of the MSA, the structural models, or the simulation data without accessing the supplementary files.
+  - **Required correction** Provide a brief description of each supplementary item in the main text or a supplementary information file, and ensure the files are accessible for review.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of disorder prediction
+  - **Affected element** Results section "FAM222 proteins contain a highly conserved IDR in vertebrates"
+  - **Evidence pointer** Figure 2B
+  - **Issue** The manuscript reports an average disorder percentage of 60% for the conserved region, which is above the 0.5 threshold used by DR-BERT, but the text does not discuss the distribution of disorder scores across the region. The statement that the region "can be classified as an IDR" is based on a single prediction tool; no corroborating evidence from other disorder predictors is provided.
+  - **Required correction** Consider using a second disorder prediction method (e.g., IUPred, PONDR) to confirm the classification, or discuss the limitations of relying on a single predictor.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction cites general reviews on IDRs but does not discuss specific examples of disordered domains that interact with MAPKs through non-canonical mechanisms. The discussion mentions the STE5/FUS3 complex, but this comparison is introduced only briefly.
+  - **Required correction** Expand the discussion of known disordered MAPK interactors to better contextualize the novelty of the DCD222-NLK interaction.
+- **Technical failings that need to be addressed before the case is established** The absence of experimental validation for the DCD222-NLK interaction is the primary technical shortcoming. The manuscript's central claim rests on computational prediction alone. Additionally, the specificity claim against other MAPKs requires more detailed reporting of the prediction metrics. The molecular dynamics simulations are described but not fully analyzed in the text, and the supplementary data needed to evaluate them are not provided.
+- **Assessment against Nature-style criteria** Originality: The identification of a conserved disordered domain in FAM222 proteins with a predicted NLK-binding function is a novel observation. The evolutionary framing, from cyclostomes to humans, adds a useful dimension. Scientific importance: The potential role of FAM222 proteins in NLK regulation is of interest, but the importance is currently limited by the lack of functional validation. If the interaction is confirmed experimentally, the work could have broader implications for understanding how disordered domains contribute to signaling specificity. Interdisciplinary readership: The work bridges evolutionary biology, structural bioinformatics, and cell signaling, and would appeal to readers in these areas. Technical soundness: The phylogenetic and bioinformatic methods are appropriate and well described. The AlphaFold3 predictions are state-of-the-art, but the reliance on a single prediction method for the central claim is a weakness. Readability for nonspecialists: The manuscript is clearly written and the figures are well designed. The concepts are explained sufficiently for a general scientific audience, though some familiarity with structural prediction and IDR terminology is assumed.
+
+## Risk / unsupported claims
+- The claim that DCD222 "directly binds" NLK is unsupported by experimental evidence; it is a computational prediction.
+- The claim that FAM222 proteins "may act as modulators of NLK" is speculative and not tested.
+- The claim that the DCD222-NLK interaction is "ancestral and evolutionarily conserved" is inferred from sequence conservation and structural prediction, but not experimentally demonstrated.
+- The claim that the interaction is specific to NLK among MAPKs is based on ipTM thresholds and requires more detailed reporting and experimental validation.
+- The statement that the DCD222-NLK interaction "occurs without obstructing the catalytic site" is a structural inference from AlphaFold3 models and is not experimentally verified.

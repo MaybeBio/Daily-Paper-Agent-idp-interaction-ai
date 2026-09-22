@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "33773141",
+    "doi": "10.1016/j.bbrc.2021.03.047",
+    "title": "Bok binds to a largely disordered loop in the coupling domain of type 1 inositol 1,4,5-trisphosphate receptor."
+  },
+  "content": {
+    "abstract": "Bcl-2-related ovarian killer (Bok) binds tightly to inositol 1,4,5-trisphosphate receptors (IP(3)Rs). To better understand this interaction, we sought to elucidate the Bok binding determinants in IP(3)R1, focusing on the  approximately 75 amino acid loop (residues 1882-1957) between alpha helices 72 and 73. Bioinformatic analysis revealed that the majority of this loop is intrinsically disordered, with two flanking regions of high disorder next to a low disorder central region ( approximately residues 1914-1926) that is predicted to contain two fused, disjointed transient helical elements. Experiments with IP(3)R1 mutants, combined with computational analysis, indicated that small deletions in this central region block Bok binding due to perturbation of the helical elements. Studies in vitro with purified Bok and IP(3)R1-derived peptides revealed high affinity binding to amino acids 1898-1940 of IP(3)R1 (K(d)  approximately 65 nM) and that binding affinity is also dependent upon both of the high disorder flanking regions. The strength of the Bok-IP(3)R1 interaction was demonstrated by the ability of IP(3)R1 or Bok to recruit transmembrane domain-free Bok or IP(3)R1 mutants, respectively, to membranes in intact cells, and that these two mutants can bind in the cytosol independently of membrane association. Overall, we show that Bok binding to IP(3)R1 occurs within a largely disordered loop between alpha helices 72 and 73 and that high affinity binding is mediated by multivalent interactions.",
+    "keywords": [
+      "Bcl-2 related ovarian killer (Bok)",
+      "Calcium",
+      "Inositol 1,4,5-trisphosphate receptor",
+      "Intrinsically disordered region",
+      "Protein-protein interaction",
+      "Secondary structure"
+    ],
+    "mesh_terms": [
+      "Binding Sites/genetics",
+      "Humans",
+      "Inositol 1,4,5-Trisphosphate Receptors/chemistry/genetics/*metabolism",
+      "Models, Molecular",
+      "Molecular Targeted Therapy",
+      "Protein Binding/genetics",
+      "Protein Domains",
+      "Protein Structure, Secondary",
+      "Proto-Oncogene Proteins c-bcl-2/chemistry/*metabolism",
+      "Sequence Deletion"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Szczesniak, Laura M",
+        "Bonzerato, Caden G",
+        "Schulman, Jacqualyn J",
+        "Bah, Alaji",
+        "Wojcikiewicz, Richard J H"
+      ],
+      "short_names": [
+        "Szczesniak LM",
+        "Bonzerato CG",
+        "Schulman JJ",
+        "Bah A",
+        "Wojcikiewicz RJH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacology, SUNY Upstate Medical University, Syracuse, NY, USA.",
+        "Department of Pharmacology, SUNY Upstate Medical University, Syracuse, NY, USA.",
+        "Department of Pharmacology, SUNY Upstate Medical University, Syracuse, NY, USA.",
+        "Department of Biochemistry, Department of Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA.",
+        "Department of Pharmacology, SUNY Upstate Medical University, Syracuse, NY, USA. Electronic address: wojcikir@upstate.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Szczesniak, Laura M",
+        "short_name": "Szczesniak LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, SUNY Upstate Medical University, Syracuse, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Bonzerato, Caden G",
+        "short_name": "Bonzerato CG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, SUNY Upstate Medical University, Syracuse, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Schulman, Jacqualyn J",
+        "short_name": "Schulman JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, SUNY Upstate Medical University, Syracuse, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Bah, Alaji",
+        "short_name": "Bah A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Department of Molecular Biology, SUNY Upstate Medical University, Syracuse, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Wojcikiewicz, Richard J H",
+        "short_name": "Wojcikiewicz RJH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, SUNY Upstate Medical University, Syracuse, NY, USA. Electronic address: wojcikir@upstate.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical and biophysical research communications"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Res Commun"
+    ],
+    "pub_date": "2021 May 14",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/28 06:00",
+    "fetched_at": "2026-09-20 02:13:58"
+  },
+  "links": {
+    "cites": [
+      "39810210",
+      "38932171",
+      "37123400",
+      "36650950",
+      "36601536"
+    ],
+    "refs": [
+      "33450506",
+      "33291826",
+      "33243935",
+      "33043006",
+      "32237272",
+      "31694155",
+      "31501195",
+      "30976095",
+      "30745293",
+      "30470765",
+      "30053503",
+      "29768206",
+      "28076807",
+      "27053113",
+      "27048566",
+      "26949185",
+      "26458101",
+      "24137498",
+      "23884412",
+      "23839960",
+      "17502376",
+      "7664054"
+    ],
+    "similar": [
+      "33773141",
+      "23884412",
+      "27053113",
+      "30989245",
+      "30976095",
+      "35568199",
+      "23058917",
+      "38627970",
+      "20377523",
+      "9804769",
+      "26009182",
+      "33691099",
+      "28598420",
+      "28072885",
+      "25982403",
+      "30429331",
+      "30127460",
+      "15284241",
+      "15015936",
+      "28526746",
+      "28179071",
+      "7755592",
+      "19706527",
+      "23681227",
+      "36601536",
+      "28495269",
+      "8663526",
+      "15364918",
+      "11171121",
+      "30228182",
+      "16134970",
+      "16198415",
+      "20843799",
+      "21827954",
+      "26827887",
+      "27048566",
+      "29768206",
+      "17327232",
+      "27444647",
+      "39067448",
+      "19845505",
+      "9867847",
+      "31256144",
+      "23009366",
+      "21389686",
+      "18990696",
+      "18657507",
+      "19056433",
+      "22703638",
+      "33375812",
+      "10456332",
+      "22803956",
+      "27076518",
+      "34035440",
+      "22643045",
+      "33291826",
+      "29131545",
+      "9867846",
+      "22207335",
+      "37123400",
+      "34136494",
+      "26259730",
+      "17038520",
+      "10208862",
+      "32675284",
+      "16091359",
+      "16874461",
+      "24078636",
+      "29357415",
+      "28395930",
+      "32320395",
+      "23955339",
+      "14761954",
+      "20189983",
+      "32770009",
+      "22286060",
+      "14593123",
+      "9356461",
+      "11274965",
+      "10095099",
+      "33093207",
+      "23479737",
+      "30244130",
+      "34400171",
+      "31671865",
+      "9231705",
+      "23650371",
+      "24768714",
+      "24806027",
+      "24109434",
+      "16772296",
+      "29024661",
+      "30925290",
+      "30408477",
+      "8987786",
+      "31391379",
+      "20824138",
+      "30053503",
+      "26317541"
+    ],
+    "review": [
+      "33773141",
+      "26009182",
+      "26827887",
+      "19056433",
+      "33291826",
+      "37123400",
+      "24768714"
+    ],
+    "pmc": [
+      "8052301"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(21)00430-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/33773141/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33773141/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33773141",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33773141",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

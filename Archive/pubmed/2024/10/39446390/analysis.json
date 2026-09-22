@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39446390",
+  "title": "AlphaFold-Multimer accurately captures interactions and dynamics of intrinsically disordered protein regions.",
+  "authors": "Omidi, Alireza; Moller, Mads Harder; Malhis, Nawar; Bui, Jennifer M; Gsponer, Jorg",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2024-10-24",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 9,
+  "one_liner_zh": "该文系统评估AlphaFold-Multimer对无序蛋白区域（IDR）介导互作的结构与动态预测能力，并开发minD工具定位全长蛋白中的互作IDR，直接契合无序蛋白PPI的AI建模与机制解析。",
+  "abstract": "Interactions mediated by intrinsically disordered protein regions (IDRs) pose formidable challenges in structural characterization. IDRs are highly versatile, capable of adopting diverse structures and engagement modes. Motivated by recent strides in protein structure prediction, we embarked on exploring the extent to which AlphaFold-Multimer can faithfully reproduce the intricacies of interactions involving IDRs. To this end, we gathered multiple datasets covering the versatile spectrum of IDR binding modes and used them to probe AlphaFold-Multimer's prediction of IDR interactions and their dynamics. Our analyses revealed that AlphaFold-Multimer is not only capable of predicting various types of bound IDR structures with high success rate, but that distinguishing true interactions from decoys, and unreliable predictions from accurate ones is achievable by appropriate use of AlphaFold-Multimer's intrinsic scores. We found that the quality of predictions drops for more heterogeneous, fuzzy interaction types, most likely due to lower interface hydrophobicity and higher coil content. Notably though, certain AlphaFold-Multimer scores, such as the Predicted Aligned Error and residue-ipTM, are highly correlated with structural heterogeneity of the bound IDR, enabling clear distinctions between predictions of fuzzy and more homogeneous binding modes. Finally, our benchmarking revealed that predictions of IDR interactions can also be successful when using full-length proteins, but not as accurate as with cognate IDRs. To facilitate identification of the cognate IDR of a given partner, we established \"minD,\" which pinpoints potential interaction sites in a full-length protein. Our study demonstrates that AlphaFold-Multimer can correctly identify interacting IDRs and predict their mode of engagement with a given partner.",
+  "abstract_zh": "由固有无序蛋白区域（IDRs）介导的相互作用在结构表征中构成巨大挑战。IDRs高度多变，能够采用多样化的结构和结合模式。受蛋白质结构预测近期进展的启发，我们着手探索AlphaFold-Multimer在多大程度上能忠实再现涉及IDRs的相互作用的复杂性。为此，我们收集了覆盖IDR结合模式多样谱系的多个数据集，并用它们来检验AlphaFold-Multimer对IDR相互作用及其动态的预测。我们的分析表明，AlphaFold-Multimer不仅能以高成功率预测多种类型的结合态IDR结构，而且通过适当利用AlphaFold-Multimer的内在评分，可以将真实相互作用与诱饵区分开来，并将不可靠预测与准确预测区分开来。我们发现，对于更异质、模糊的相互作用类型，预测质量会下降，这很可能归因于较低的界面疏水性和较高的卷曲含量。然而值得注意的是，某些AlphaFold-Multimer评分，如预测对齐误差（Predicted Aligned Error）和残基级ipTM，与结合态IDR的结构异质性高度相关，从而能够清晰区分模糊结合模式与更均质结合模式的预测。最后，我们的基准测试显示，使用全长蛋白质时，IDR相互作用的预测也能成功，但准确性不如使用同源IDRs时。为便于识别给定伴侣的同源IDR，我们建立了“minD”，它能在全长蛋白质中精确定位潜在相互作用位点。我们的研究表明，AlphaFold-Multimer能正确识别相互作用的IDRs，并预测它们与给定伴侣的结合模式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39446390/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39446390/",
+  "paper_page_path": "papers/pubmed/39446390/index.html"
+}

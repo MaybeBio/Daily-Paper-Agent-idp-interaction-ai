@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "40823810",
+    "doi": "10.1093/nar/gkaf763",
+    "title": "Peripheral heterochromatin tethering is required for chromatin-based nuclear mechanical response."
+  },
+  "content": {
+    "abstract": "The cell nucleus is a mechanically responsive structure that governs how external forces affect chromosomes. Chromatin, particularly transcriptionally inactive heterochromatin, resists nuclear deformations through its mechanical response. However, chromatin also exhibits liquid-like properties, casting ambiguity on the physical mechanisms of chromatin-based nuclear elasticity. To determine how heterochromatin strengthens nuclear mechanical response, we performed polymer physics simulations of a nucleus model validated by micromechanical measurements and chromosome conformation capture data. The attachment of peripheral heterochromatin to the lamina is required to transmit forces directly to the chromatin and elicit its elastic response. Thus, increases in heterochromatin levels increase nuclear rigidity by increasing the linkages between chromatin and the lamina. Crosslinks within heterochromatin, such as HP1alpha proteins, can also stiffen nuclei, but only if chromatin is peripherally tethered. In contrast, heterochromatin affinity interactions that may drive liquid-liquid phase separation do not contribute to nuclear rigidity. When the nucleus is stretched, gel-like peripheral heterochromatin can bear stresses and deform, while the more fluid-like interior euchromatin is less perturbed. Thus, heterochromatin's internal structure and stiffness may regulate nuclear mechanics via peripheral attachment to the lamina, while also enabling nuclear mechanosensing of external forces and external measurement of the nucleus' internal architecture.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Heterochromatin/chemistry/metabolism",
+      "*Cell Nucleus/chemistry/metabolism",
+      "*Chromatin/chemistry",
+      "Chromobox Protein Homolog 5",
+      "Biomechanical Phenomena",
+      "Elasticity",
+      "Nuclear Lamina",
+      "Euchromatin/chemistry",
+      "Chromosomal Proteins, Non-Histone/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Attar, Ali Goktug",
+        "Paturej, Jaroslaw",
+        "Sariyer, Ozan S",
+        "Banigan, Edward J",
+        "Erbas, Aykut"
+      ],
+      "short_names": [
+        "Attar AG",
+        "Paturej J",
+        "Sariyer OS",
+        "Banigan EJ",
+        "Erbas A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6064-392X",
+        "ORCID: 0000-0001-5478-7425",
+        "ORCID: 0000-0003-2192-8804"
+      ],
+      "affiliations": [
+        "UNAM - National Nanotechnology Research Center and Institute of Materials Science & Nanotechnology, Bilkent University, 06800 Ankara, Turkey.",
+        "School of Life Sciences, Ecole Polytechnique Federale Lausanne, CH-1015 Lausanne, Switzerland.",
+        "Institute of Physics, University of Silesia, 40-007 Katowice, Poland.",
+        "School of Arts and Sciences, Piri Reis University, Tuzla 34940, Istanbul, Turkey.",
+        "Institute for Medical Engineering and Science and Department of Physics, Massachusetts Institute of Technology, Cambridge, MA02139, United States.",
+        "UNAM - National Nanotechnology Research Center and Institute of Materials Science & Nanotechnology, Bilkent University, 06800 Ankara, Turkey.",
+        "Institute of Physics, University of Silesia, 40-007 Katowice, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Attar, Ali Göktuğ",
+        "short_name": "Attar AG",
+        "identifiers": [],
+        "affiliations": [
+          "UNAM - National Nanotechnology Research Center and Institute of Materials Science & Nanotechnology, Bilkent University, 06800 Ankara, Turkey.",
+          "School of Life Sciences, École Polytechnique Fédérale Lausanne, CH-1015 Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Paturej, Jarosław",
+        "short_name": "Paturej J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, University of Silesia, 40-007 Katowice, Poland."
+        ]
+      },
+      {
+        "full_name": "Sarıyer, Ozan S",
+        "short_name": "Sarıyer OS",
+        "identifiers": [
+          "0000-0001-6064-392X"
+        ],
+        "affiliations": [
+          "School of Arts and Sciences, Pîrî Reis University, Tuzla 34940, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Banigan, Edward J",
+        "short_name": "Banigan EJ",
+        "identifiers": [
+          "0000-0001-5478-7425"
+        ],
+        "affiliations": [
+          "Institute for Medical Engineering and Science and Department of Physics, Massachusetts Institute of Technology, Cambridge, MA02139, United States."
+        ]
+      },
+      {
+        "full_name": "Erbaş, Aykut",
+        "short_name": "Erbaş A",
+        "identifiers": [
+          "0000-0003-2192-8804"
+        ],
+        "affiliations": [
+          "UNAM - National Nanotechnology Research Center and Institute of Materials Science & Nanotechnology, Bilkent University, 06800 Ankara, Turkey.",
+          "Institute of Physics, University of Silesia, 40-007 Katowice, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Aug 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/18 12:32",
+    "fetched_at": "2026-09-21 22:45:27"
+  },
+  "links": {
+    "cites": [
+      "42273831",
+      "41711300",
+      "41495604",
+      "40777249",
+      "40740516"
+    ],
+    "refs": [
+      "40337942",
+      "39815045",
+      "39724779",
+      "39705376",
+      "39412986",
+      "39168125",
+      "39160964",
+      "39121805",
+      "38900638",
+      "38753956",
+      "38600372",
+      "38214505",
+      "38088876",
+      "37756607",
+      "37639585",
+      "37330288",
+      "37018405",
+      "36117991",
+      "35969179",
+      "35901134",
+      "35733342",
+      "35513718",
+      "34857921",
+      "34187806",
+      "34106828",
+      "33929233",
+      "33812325",
+      "33712293",
+      "33661100",
+      "33574602",
+      "33444439",
+      "33330932",
+      "33326770",
+      "33326747",
+      "33277502",
+      "32528959",
+      "32320674",
+      "32302590",
+      "32270037",
+      "32267206",
+      "31952807",
+      "31618757",
+      "31543422",
+      "31543265",
+      "31533042",
+      "31365328",
+      "31356042",
+      "31235807",
+      "31168090",
+      "31042484",
+      "30889417",
+      "30886333",
+      "30477489",
+      "30171044",
+      "29967174",
+      "29777038",
+      "29742017",
+      "29467443",
+      "29336876",
+      "29235574",
+      "29227210",
+      "29142071",
+      "29045860",
+      "29033129",
+      "28808261",
+      "28751582",
+      "28712725",
+      "28636604",
+      "28636597",
+      "28525751",
+      "28428255",
+      "28241138",
+      "28057760",
+      "27697922",
+      "27548707",
+      "27398909",
+      "27268411",
+      "27013428",
+      "27013426",
+      "26938331",
+      "26917770",
+      "26287620",
+      "26074052",
+      "25559185",
+      "25092923",
+      "24304807",
+      "24209742",
+      "23523135",
+      "23374351",
+      "23324461",
+      "23200040",
+      "23038068",
+      "21211724",
+      "20530575",
+      "20356876",
+      "19815776",
+      "19141474",
+      "18463634",
+      "17822403",
+      "17496030",
+      "17451276",
+      "10748524"
+    ],
+    "similar": [
+      "40823810",
+      "39990304",
+      "38753956",
+      "34106828",
+      "31168090",
+      "38168411",
+      "38900638",
+      "36633363",
+      "34087208",
+      "25609380",
+      "39160964",
+      "39126157",
+      "9378752",
+      "24637393",
+      "26359759",
+      "28525751",
+      "32784937",
+      "15564378",
+      "24209742",
+      "40719377",
+      "18664736",
+      "28636597",
+      "32317397",
+      "37958755",
+      "11124534",
+      "28057760",
+      "38808669",
+      "31365328",
+      "34653387",
+      "28636604",
+      "36537242",
+      "39193905",
+      "41094145",
+      "23996328",
+      "40740516",
+      "40777249",
+      "33435761",
+      "37549295",
+      "12560555",
+      "24145303",
+      "38048471",
+      "31618757",
+      "33446668",
+      "31118512",
+      "33448065",
+      "39083950",
+      "37339933",
+      "39383876",
+      "10330177",
+      "21122806",
+      "10318760",
+      "40343993",
+      "30625026",
+      "40057003",
+      "33661100",
+      "34849911",
+      "31533042",
+      "15475964",
+      "33326747",
+      "40640210",
+      "30793190",
+      "19948116",
+      "35858189",
+      "30514760",
+      "21647300",
+      "32302590",
+      "35803582",
+      "21576353",
+      "29467217",
+      "32101700",
+      "19927119",
+      "36533441",
+      "38802567",
+      "30901179",
+      "38889500",
+      "21271610",
+      "29227210",
+      "16457612",
+      "39192031",
+      "41272271",
+      "30744037",
+      "36672260",
+      "10612261",
+      "25946202",
+      "41486942",
+      "28341771",
+      "31701657",
+      "17496030",
+      "21070966",
+      "40153514",
+      "32590202",
+      "26603343",
+      "38642177",
+      "36830746",
+      "41044070",
+      "21666677",
+      "18396345",
+      "28056360",
+      "18208336",
+      "34428454"
+    ],
+    "review": [
+      "40823810",
+      "24637393",
+      "28525751",
+      "32784937",
+      "18664736",
+      "37958755",
+      "39083950",
+      "37339933",
+      "40057003",
+      "30901179",
+      "38889500",
+      "21271610",
+      "16457612",
+      "30744037",
+      "32590202"
+    ],
+    "pmc": [
+      "12359041"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40823810/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf763",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

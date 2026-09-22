@@ -1,0 +1,205 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.13.705735",
+  "title": "Cryo-EM of a Divergent Herpesvirus Reveals Structural Conservation and Novelty Including a Portal-Vertex Tegument Protein with Multiple Macrodomain-like Folds",
+  "doi": "10.64898/2026.02.13.705735",
+  "abstract": "Ictalurid herpesvirus 1 (channel catfish virus) is an evolutionarily distant relative of human herpesviruses, from which it is thought to have diverged >400M years ago. Using cryogenic electron microscopy (cryo-EM) combined with symmetry-breaking and particle subtraction approaches, we determined structures of both the immature capsid and virion of IcHV-1. Due to limited genome annotation, we used the machine learning-based tool ModelAngelo for de novo model building, enabling unambiguous protein identification even at marginal resolutions. Notably, the IcHV-1 virion was found to have a substantial and elaborate portal-vertex associated tegument (PVAT) complex. Overall, we determined the identities and structures of ten IcHV-1 proteins: the major capsid protein; the triplex proteins; two novel virion-associated inner tegument proteins; the portal protein; and a further four PVAT proteins. Our findings reveal a high degree of fold conservation in the core capsid proteins when compared with those of human herpesviruses, but also considerable structural novelty, including for the first time in a herpesvirus, identification of a protein that has four putative macrodomains.",
+  "authors": [
+    "Meir Ben Efraim A",
+    "Petrov F",
+    "McElwee M",
+    "Streetley J",
+    "Holm L",
+    "Grove J",
+    "Davison AJ",
+    "Rixon FJ",
+    "Bhella D"
+  ],
+  "published_date": "2026-02-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705735",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705735.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1223950",
+    "raw_record": {
+      "id": "PPR1223950",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1223950"
+        ]
+      },
+      "doi": "10.64898/2026.02.13.705735",
+      "title": "Cryo-EM of a Divergent Herpesvirus Reveals Structural Conservation and Novelty Including a Portal-Vertex Tegument Protein with Multiple Macrodomain-like Folds",
+      "authorString": "Meir Ben Efraim A, Petrov F, McElwee M, Streetley J, Holm L, Grove J, Davison AJ, Rixon FJ, Bhella D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Meir Ben Efraim A",
+            "lastName": "Meir Ben Efraim",
+            "firstName": "Amit",
+            "initials": "A"
+          },
+          {
+            "fullName": "Petrov F",
+            "lastName": "Petrov",
+            "firstName": "Filip",
+            "initials": "F"
+          },
+          {
+            "fullName": "McElwee M",
+            "lastName": "McElwee",
+            "firstName": "Marion",
+            "initials": "M"
+          },
+          {
+            "fullName": "Streetley J",
+            "lastName": "Streetley",
+            "firstName": "James",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7808-605X"
+            }
+          },
+          {
+            "fullName": "Holm L",
+            "lastName": "Holm",
+            "firstName": "Liisa",
+            "initials": "L"
+          },
+          {
+            "fullName": "Grove J",
+            "lastName": "Grove",
+            "firstName": "Joe",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5390-7579"
+            }
+          },
+          {
+            "fullName": "Davison AJ",
+            "lastName": "Davison",
+            "firstName": "Andrew",
+            "initials": "AJ"
+          },
+          {
+            "fullName": "Rixon FJ",
+            "lastName": "Rixon",
+            "firstName": "Frazer",
+            "initials": "FJ"
+          },
+          {
+            "fullName": "Bhella D",
+            "lastName": "Bhella",
+            "firstName": "David",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2096-8310"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5390-7579"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7808-605X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9635-1021"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2096-8310"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Ictalurid herpesvirus 1 (channel catfish virus) is an evolutionarily distant relative of human herpesviruses, from which it is thought to have diverged >400M years ago. Using cryogenic electron microscopy (cryo-EM) combined with symmetry-breaking and particle subtraction approaches, we determined structures of both the immature capsid and virion of IcHV-1. Due to limited genome annotation, we used the machine learning-based tool  ModelAngelo for  de novo model building, enabling unambiguous protein identification even at marginal resolutions. Notably, the IcHV-1 virion was found to have a substantial and elaborate portal-vertex associated tegument (PVAT) complex. Overall, we determined the identities and structures of ten IcHV-1 proteins: the major capsid protein; the triplex proteins; two novel virion-associated inner tegument proteins; the portal protein; and a further four PVAT proteins. Our findings reveal a high degree of fold conservation in the core capsid proteins when compared with those of human herpesviruses, but also considerable structural novelty, including for the first time in a herpesvirus, identification of a protein that has four putative macrodomains.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.13.705735"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1223950"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1223950&type=FILE&fileName=EMS215698-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215698",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-13",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

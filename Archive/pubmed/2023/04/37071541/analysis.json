@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37071541",
+  "title": "Functional DNA Superstructures Exhibit Positive Homotropic Allostery in Ligand Binding.",
+  "authors": "Yin, Qingxin; Zhao, Dan; Chang, Yangyang; Liu, Bo; Liu, Yi; Liu, Meng",
+  "journal": "Angewandte Chemie (International ed. in English)",
+  "published_date": "2023-04-19",
+  "window": {
+    "start": "2023-04-17",
+    "end": "2023-04-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文受无序蛋白启发，构建多价DNA适体超结构实现正协同配体结合，虽对象为DNA而非IDP，但机制建模思路（无序介导协同互作）对无序蛋白PPI研究有可迁移启发。",
+  "abstract": "Inspired by intrinsically disordered proteins in nature, DNA aptamers can be engineered to display strongly homotropic allosteric (or cooperative) ligand binding, representing a unique feature that could be of great utility in applications such as biosensing, imaging and drug delivery. The use of an intrinsic disorder mechanism, however, comes with an inherent drawback of significantly reduced overall binding affinity. We hypothesize that it could be addressed via the design of multivalent supramolecular aptamers. We built functional DNA superstructures (denoted as 3D DNA), made of long-chain DNA containing tandem repeating DNA aptamers (or concatemeric aptamers). The 3D DNA systems exhibit highly cooperative binding to both small molecules and proteins, without loss of binding affinities of their parent aptamers. We further produced a highly responsive sensor for fluorescence imaging of glutamate stimulation-evoked adenosine triphosphate (ATP) release in neurons, as well as force stimulus-triggered ATP release in astrocytes.",
+  "abstract_zh": "受自然界中固有无序蛋白的启发，DNA适配体可以被设计成表现出强烈的同向别构（或协同）配体结合，这一独特特性在生物传感、成像和药物递送等应用中具有巨大潜力。然而，利用固有无序机制伴随着一个固有缺陷，即整体结合亲和力显著降低。我们假设这一问题可以通过设计多价超分子适配体来解决。我们构建了功能性DNA超结构（记为3D DNA），由含有串联重复DNA适配体（或串联体适配体）的长链DNA组成。3D DNA系统对小分子和蛋白质均表现出高度协同结合，且不损失其母体适配体的结合亲和力。我们进一步制备了一种高响应性传感器，用于荧光成像监测神经元中谷氨酸刺激诱发的三磷酸腺苷（ATP）释放，以及星形胶质细胞中力刺激触发的ATP释放。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37071541/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37071541/",
+  "paper_page_path": "papers/pubmed/37071541/index.html"
+}

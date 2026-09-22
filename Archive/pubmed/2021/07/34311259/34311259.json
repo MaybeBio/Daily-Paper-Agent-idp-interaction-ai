@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "34311259",
+    "doi": "10.1016/j.jmgm.2021.107984",
+    "title": "Disulfide-stapled design of alpha-helical bundles to target the trimer-of-hairpins motif of human respiratory syncytial virus fusion protein."
+  },
+  "content": {
+    "abstract": "Human respiratory syncytial virus (RSV) is the major cause of acute lower respiratory tract infections worldwide in infants and young children. The RSV F glycoprotein is a class I fusion protein that mediates viral entry into host cells and is a major target of neutralizing antibodies. Targeting F glycoprotein has been recognized as a promising antiviral therapeutic strategy against RSV infection. Here, we reported the disulfide-stapled design of alpha-helical bundle to target the trimer-of-hairpins (TOH) motif of RSV F glycoprotein, which is the central regulatory module that triggers viral membrane fusion event. In TOH motif, three N-terminal heptad repeat (NtHR) helices form a trimeric coiled-coil core and other three C-terminal heptad repeat (CtHR) helices add to the core in an antiparallel manner. Interaction analysis between NtHR and CtHR revealed that the C-terminal tail of CtHR packs tightly against NtHR as compared to the N-terminal and middle regions of CtHR. A core binding site in CtHR C-terminus was identified, which represents a 13-mer chp peptide and can effectively interact with NtHR helix in native ordered conformation but would become largely disordered when splitting from the protein context of CtHR helix. Two chp helices were stapled together in a parallel manner with single, double or triple disulfide bridges, thus systematically resulting in seven disulfide-stapled alpha-helical bundles. Molecular simulations revealed that the double and triple stapling can effectively stabilize the structured conformation of alpha-helical bundles, whereas the free conformation of single-stapled bundles still remain intrinsically disordered in solvent. The double-stapled bundle chp-ds[508,516] and the triple-stapled bundle chp-ts[508,512,516] were rationally designed to have high potency; they can form a tight three-helix bundle with NtHR helix, thus potently targeting NtHR-CtHR interactions involved in RSV-F TOH motif through a competitive disruption mechanism.",
+    "keywords": [
+      "Disulfide stapling",
+      "Fusion protein",
+      "Helical bundle",
+      "Molecular modeling",
+      "Pediatric pneumonia",
+      "Respiratory syncytial virus",
+      "Trimer-of-hairpins motif"
+    ],
+    "mesh_terms": [
+      "Child, Preschool",
+      "Disulfides",
+      "Humans",
+      "Protein Conformation, alpha-Helical",
+      "*Respiratory Syncytial Virus Infections",
+      "*Respiratory Syncytial Virus, Human",
+      "Viral Fusion Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhuang, Xinrong",
+        "Shen, Xuefeng",
+        "Niu, Wensi",
+        "Kong, Lingjun"
+      ],
+      "short_names": [
+        "Zhuang X",
+        "Shen X",
+        "Niu W",
+        "Kong L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Internal Medicine, Children's Hospital of Wujiang District, Suzhou 215200, China.",
+        "Department of Internal Medicine, Children's Hospital of Wujiang District, Suzhou 215200, China.",
+        "Department of Internal Medicine, Children's Hospital of Wujiang District, Suzhou 215200, China.",
+        "Department of Internal Medicine, Children's Hospital of Wujiang District, Suzhou 215200, China. Electronic address: lingjunkkong@yeah.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhuang, Xinrong",
+        "short_name": "Zhuang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Children's Hospital of Wujiang District, Suzhou 215200, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Xuefeng",
+        "short_name": "Shen X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Children's Hospital of Wujiang District, Suzhou 215200, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Wensi",
+        "short_name": "Niu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Children's Hospital of Wujiang District, Suzhou 215200, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Lingjun",
+        "short_name": "Kong L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Internal Medicine, Children's Hospital of Wujiang District, Suzhou 215200, China. Electronic address: lingjunkkong@yeah.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular graphics & modelling"
+    ],
+    "journal_abbrev": [
+      "J Mol Graph Model"
+    ],
+    "pub_date": "2021 Nov",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/27 06:00",
+    "fetched_at": "2026-09-20 04:35:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "34311259",
+      "34111463",
+      "30776182",
+      "19922971",
+      "28137809",
+      "29212939",
+      "11106388",
+      "24743147",
+      "10846072",
+      "28835504",
+      "26098893",
+      "16312179",
+      "25010277",
+      "30389195",
+      "30340881",
+      "31416644",
+      "29500665",
+      "27581977",
+      "28539444",
+      "33046486",
+      "15681582",
+      "32660994",
+      "37738240",
+      "30651356",
+      "31852779",
+      "26157122",
+      "29925656",
+      "30987852",
+      "16731928",
+      "29054341",
+      "29743373",
+      "31268705",
+      "30984206",
+      "14996844",
+      "8117695",
+      "30885457",
+      "28194013",
+      "30071204",
+      "37537859",
+      "28468888",
+      "29442512",
+      "28148790",
+      "31761502",
+      "27764150",
+      "33115881",
+      "29876771",
+      "39177727",
+      "28414749",
+      "15883025",
+      "18305034",
+      "31004621",
+      "26355098",
+      "34118428",
+      "26223633",
+      "31306469",
+      "33408176",
+      "39004634",
+      "10995236",
+      "31542260",
+      "26164949",
+      "28259002",
+      "11254387",
+      "17251585",
+      "27099320",
+      "26107504",
+      "27009962",
+      "27182820",
+      "15469910",
+      "30192544",
+      "12692208",
+      "39023308",
+      "34935163",
+      "34579643",
+      "36424780",
+      "36343393",
+      "37884515",
+      "21307202",
+      "29899942",
+      "37415824",
+      "38496587",
+      "36547692",
+      "36422520",
+      "38177138",
+      "31066556",
+      "36401896",
+      "39158951",
+      "34500324",
+      "38191871",
+      "37750576",
+      "28630153",
+      "34596860",
+      "36580278",
+      "37102465",
+      "37836285",
+      "37130830",
+      "32550994",
+      "38333694",
+      "37950389",
+      "37224449",
+      "36128502",
+      "36891840",
+      "38799318",
+      "33851163",
+      "37505921",
+      "38784464",
+      "39362065",
+      "30108949",
+      "36597505",
+      "38886033",
+      "23801563",
+      "33087350",
+      "35047078",
+      "39167026",
+      "30567318",
+      "37031229",
+      "35450365",
+      "38308437"
+    ],
+    "review": [
+      "34311259",
+      "15681582",
+      "29054341",
+      "37537859",
+      "29876771",
+      "26164949",
+      "37415824",
+      "38191871",
+      "37750576",
+      "28630153",
+      "36580278",
+      "38784464",
+      "39362065"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093-3263(21)00155-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/respiratorysyncytialvirusinfections.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Respiratory Syncytial Virus Infections"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

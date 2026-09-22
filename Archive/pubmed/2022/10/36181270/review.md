@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, significance statement, introduction, materials and methods, results and discussion, conclusions, and supporting material references.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to presented evidence, and alignment with Nature-style criteria. Editorial or formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors propose that liquid-liquid phase separation (LLPS) in amino acid mixtures is an emergent property governed by composition, using atomistic molecular dynamics simulations of capped amino acid residues (Gly, Ser, Tyr) as a minimal model system. They report that spacer-type amino acids (Gly, Ser) do not phase separate alone, while the sticker-type Tyr does, and that ternary mixtures phase separate with intermediate compaction and greater fluidity than Tyr-only condensates. They further derive a phase diagram and report a critical temperature of 414 K for the equimolar Gly/Ser/Tyr mixture.
+- **Visible evidence base** Main text figures (Figures 1–5), supplementary figure references (Figures S1–S7), simulation methodology descriptions, and phase diagram fitting equations. No raw simulation trajectories, force field parameter files, or detailed numerical data tables were provided in the manuscript text.
+- **Missing materials affecting confidence** Detailed numerical values for density profiles, cluster size distributions, and diffusion coefficients are not tabulated in the main text. Convergence criteria for replica-exchange simulations are not fully specified. Force field validation data against experimental benchmarks are referenced but not shown. The exact composition ranges explored in the phase diagram (Figure 4) are not fully enumerated in the text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting and computationally tractable minimal model for LLPS, with results that qualitatively align with established observations in disordered protein systems. The central claim that composition alone can drive phase separation in simple amino acid mixtures is plausible and potentially valuable. However, the evidence base is incomplete in several respects: the phase diagram derivation relies on assumptions that are not fully justified, the force field dependence is acknowledged but not systematically explored, and the connection to biological relevance is asserted rather than demonstrated. The work is technically sound in its execution but the strength of the conclusions exceeds what the presented data can support.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, intrinsically disordered proteins, and computational biophysics would find this work relevant. The minimal model approach offers a potentially useful reductionist framework for understanding compositional determinants of LLPS, which could inform experimental design in synthetic biology and studies of membraneless organelles. The methodological approach may also interest computational chemists developing force fields for condensed-phase simulations.
+- **Major strengths** The use of atomistic MD simulations with direct coexistence and replica-exchange methods is methodologically appropriate for the question posed. The systematic comparison of pure, binary, and ternary systems provides a clear compositional gradient. The inclusion of dynamical properties (diffusion, torsion autocorrelations) adds a useful dimension beyond static density profiles. The acknowledgment of force field limitations is honest and the comparison across two additional force fields strengthens robustness claims.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors claim that "LLPS is an emergent property of amino acid mixtures determined by composition" and that the phase diagram (Figure 4) maps composition-dependent behavior.
+  - **Evidence pointer** Figure 4, Section "Phase behavior in the ternary amino acid mixtures", location not provided
+  - **Concern** The phase diagram in Figure 4 is derived from simulations at varying Tyr fractions, but the text does not specify the total number of compositions explored, the statistical uncertainty in the binodal curves, or how the critical point was determined for each composition. The fitting procedure (equations 1 and 2) assumes a mean-field critical exponent, which may not be valid for this system. Without error bars on the phase boundaries or a clear description of how many independent simulations were averaged, the quantitative phase diagram is not fully supported.
+  - **Why it matters** The central claim of composition-dependent phase behavior rests on the accuracy of the phase diagram. If the binodal curves are not robustly determined, the conclusion that composition alone governs LLPS is weakened.
+  - **Resolution test** Provide a table of all simulated compositions, the number of replicas and simulation lengths, and error estimates for ρH and ρL at each temperature. Show the fitted critical parameters with confidence intervals and justify the use of the mean-field exponent.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The authors state that "the properties of the simulated amino acid condensates will depend on the choice of the force field" and report that ff03⋆ gives comparable results to ff99SB-ILDN, while ff99SB-disp fails to phase separate.
+  - **Evidence pointer** Section "Composition determines phase behavior in amino acid solutions", Figure S2, location not provided
+  - **Concern** The force field comparison is presented as a robustness check, but only one alternative force field (ff03⋆) is shown to reproduce the phase separation, while ff99SB-disp does not. The text attributes this to known limitations of ff99SB-disp but does not provide quantitative comparison (e.g., density values, cluster sizes) or discuss whether the failure is due to specific interaction parameters. This leaves open the possibility that the observed phase behavior is an artifact of the chosen force field.
+  - **Why it matters** The claim that composition governs LLPS should be independent of the specific force field. If the result is force field dependent, the generalizability of the conclusion is questionable.
+  - **Resolution test** Provide quantitative comparison of density profiles, cluster distributions, and phase boundaries across force fields. Discuss the physical basis for differences and, if possible, benchmark against experimental solubility data for the amino acids studied.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The authors suggest that their results "recapitulate many properties of more complex condensates" and that the sticker-spacer framework applies broadly to biological LLPS.
+  - **Evidence pointer** Abstract, Section "Conclusions", location not provided
+  - **Concern** The connection between the minimal amino acid model and biological phase separation is asserted but not quantitatively established. The authors do not compare their simulated condensate properties (e.g., density, dynamics) to experimental values for relevant protein systems beyond a qualitative reference to prior work. The claim that "small amounts of a sticker" suffice to drive phase separation is not tested against a range of sticker fractions or in the presence of other amino acid types.
+  - **Why it matters** The broader significance of the work depends on its relevance to biological LLPS. Without a clear quantitative link, the study risks being seen as a purely computational exercise with limited translational value.
+  - **Resolution test** Compare simulated condensate densities, water content, and dynamics to experimental measurements for model systems (e.g., FUS, LAF-1) where available. Discuss how the minimal model maps onto sequence-level features of real proteins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, replica exchange description
+  - **Evidence pointer** Section "MD simulations", location not provided
+  - **Issue** The replica-exchange protocol is described briefly; the number of replicas, temperature spacing, and exchange acceptance rates are not reported.
+  - **Required correction** Provide these details to allow reproducibility and assessment of sampling quality.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 2B, aggregation propensity and clustering degree
+  - **Evidence pointer** Figure 2, location not provided
+  - **Issue** Error bars are shown but the number of independent blocks used for averaging is not stated.
+  - **Required correction** Specify the block size and number of blocks used for error estimation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of Tyr-only condensates
+  - **Evidence pointer** Section "Composition determines phase behavior in amino acid solutions", location not provided
+  - **Issue** The authors describe Tyr-only condensates as "dynamically arrested" but do not quantify the degree of arrest relative to a reference state.
+  - **Required correction** Provide quantitative comparison of diffusion coefficients or relaxation times relative to dilute solution values.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (phase diagram robustness) and R1-M2 (force field dependence) are the primary technical issues. The phase diagram is central to the main claim and requires more rigorous statistical treatment. The force field dependence, while acknowledged, needs quantitative analysis to establish that the qualitative conclusions are not artifacts.
+- **Assessment against Nature-style criteria** 
+  - Originality: The minimal model approach is a creative simplification, but similar ideas have been explored in coarse-grained simulations. The specific application to capped amino acids is novel but incremental.
+  - Scientific importance: The work addresses a timely and important question in LLPS research. However, the significance is limited by the lack of direct experimental validation and the narrow scope of the model.
+  - Interdisciplinary readership: The topic bridges biophysics, physical chemistry, and cell biology, but the presentation is heavily computational and may not be accessible to experimentalists without additional context.
+  - Technical soundness: The simulation methodology is appropriate and generally well executed, but the phase diagram fitting and force field comparison require more rigor.
+  - Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with MD simulation techniques and phase separation concepts. The significance statement helps, but the main text could benefit from more explicit explanations of key terms.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the simulations are competently performed, but the quantitative claims require strengthening before the case for composition-governed LLPS is fully established.
+
+## Risk / unsupported claims
+- The claim that "LLPS is an emergent property of amino acid mixtures determined by composition" is only partially supported by the data, as the phase diagram is derived from a limited set of compositions without full statistical characterization.
+- The assertion that the results "recapitulate many properties of more complex condensates" is not quantitatively demonstrated and should be tempered or supported with direct comparisons.
+- The statement that "small amounts of this amino acid may have drastic effects in properties of mixtures" is extrapolated from simulation data without experimental validation.
+- The claim that ff99SB-disp failure to phase separate is due to known limitations is not substantiated with specific references or data.
+- The phase diagram critical temperature (Tc = 414 K) is presented without confidence intervals or discussion of systematic uncertainties.

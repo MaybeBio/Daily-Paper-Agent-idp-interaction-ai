@@ -1,0 +1,138 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.04.425297",
+  "title": "SARS-CoV-2 Fusion Peptide has a Greater Membrane Perturbating Effect than SARS-CoV with Highly Specific Dependence on Ca 2+",
+  "doi": "10.1101/2021.01.04.425297",
+  "abstract": "Coronaviruses are a major infectious disease threat, and include the zoonotic-origin human pathogens SARS-CoV-2, SARS-CoV, and MERS-CoV (SARS-2, SARS-1, and MERS). Entry of coronaviruses into host cells is mediated by the spike (S) protein. In our previous ESR studies, the local membrane ordering effect of the fusion peptide (FP) of various viral glycoproteins including the S of SARS-1 and MERS has been consistently observed. We previously determined that the sequence immediately downstream from the S2’ cleavage site is the bona fide SARS-1 FP. In this study, we used sequence alignment to identify the SARS-2 FP, and studied its membrane ordering effect. Although there are only three residue difference, SARS-2 FP induces even greater membrane ordering than SARS-1 FP, possibly due to its greater hydrophobicity. This may be a reason that SARS-2 is better able to infect host cells. In addition, the membrane binding enthalpy for SARS-2 is greater. Both the membrane ordering of SARS-2 and SARS-1 FPs are dependent on Ca 2+ , but that of SARS-2 shows a greater response to the presence of Ca 2+ . Both FPs bind two Ca 2+ ions as does SARS-1 FP, but the two Ca 2+ binding sites of SARS-2 exhibit greater cooperativity. This Ca 2+ dependence by the SARS-2 FP is very ion-specific. These results show that Ca 2+ is an important regulator that interacts with the SARS-2 FP and thus plays a significant role in SARS-2 viral entry. This could lead to therapeutic solutions that either target the FP-calcium interaction or block the Ca 2+ channel.",
+  "authors": [
+    "Lai AL",
+    "Freed JH"
+  ],
+  "published_date": "2021-01-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.04.425297",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.04.425297.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR261313",
+    "raw_record": {
+      "id": "PPR261313",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR261313"
+        ]
+      },
+      "doi": "10.1101/2021.01.04.425297",
+      "title": "SARS-CoV-2 Fusion Peptide has a Greater Membrane Perturbating Effect than SARS-CoV with Highly Specific Dependence on Ca  <sup>2+</sup>",
+      "authorString": "Lai AL, Freed JH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lai AL",
+            "lastName": "Lai",
+            "firstName": "Alex",
+            "initials": "AL"
+          },
+          {
+            "fullName": "Freed JH",
+            "lastName": "Freed",
+            "firstName": "Jack",
+            "initials": "JH"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Coronaviruses are a major infectious disease threat, and include the zoonotic-origin human pathogens SARS-CoV-2, SARS-CoV, and MERS-CoV (SARS-2, SARS-1, and MERS). Entry of coronaviruses into host cells is mediated by the spike (S) protein. In our previous ESR studies, the local membrane ordering effect of the fusion peptide (FP) of various viral glycoproteins including the S of SARS-1 and MERS has been consistently observed. We previously determined that the sequence immediately downstream from the S2’ cleavage site is the  bona fide SARS-1 FP. In this study, we used sequence alignment to identify the SARS-2 FP, and studied its membrane ordering effect. Although there are only three residue difference, SARS-2 FP induces even greater membrane ordering than SARS-1 FP, possibly due to its greater hydrophobicity. This may be a reason that SARS-2 is better able to infect host cells. In addition, the membrane binding enthalpy for SARS-2 is greater. Both the membrane ordering of SARS-2 and SARS-1 FPs are dependent on Ca  2+ , but that of SARS-2 shows a greater response to the presence of Ca  2+ . Both FPs bind two Ca  2+ ions as does SARS-1 FP, but the two Ca  2+ binding sites of SARS-2 exhibit greater cooperativity. This Ca  2+ dependence by the SARS-2 FP is very ion-specific. These results show that Ca  2+ is an important regulator that interacts with the SARS-2 FP and thus plays a significant role in SARS-2 viral entry. This could lead to therapeutic solutions that either target the FP-calcium interaction or block the Ca  2+ channel.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/01/04/2021.01.04.425297.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.04.425297"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR261313"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR261313&type=FILE&fileName=EMS109919-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "33744314",
+            "reference": "Journal of molecular biology. 2021 May;433(10):166946",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS109919",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-01-05",
+      "firstPublicationDate": "2021-01-04",
+      "firstIndexDate": "2021-01-07",
+      "fullTextReceivedDate": "2021-01-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

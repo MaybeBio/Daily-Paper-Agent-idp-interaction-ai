@@ -1,0 +1,238 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.25.505250",
+  "title": "Deciphering the alphabet of disorder — Glu and Asp act differently on local but not global properties",
+  "doi": "10.1101/2022.08.25.505250",
+  "abstract": "Compared to folded proteins, the sequences of intrinsically disordered proteins (IDPs) are enriched in polar and charged amino acids. Glutamate is one of the most enriched amino acids in IDPs, while the chemically similar amino acid aspartate is less enriched. So far, the underlying functional differences of glutamates and aspartates in IDPs remain poorly understood. In this study, we examine the differential effects of aspartate and glutamates in IDPs by comparing the function and conformational ensemble of glutamate and aspartate variants of the disordered protein Dss1, using a range of assays, including interaction studies, nuclear magnetic resonance spectroscopy, small angle X-ray scattering and molecular dynamics simulation. First, we analyze the sequences of the rapidly growing data base of experimentally verified IDPs (DisProt) and show that the glutamate enrichment is not caused by a taxonomy bias in IDPs. From analyses of local and global structural properties as well as cell growth and protein-protein interactions using a model acidic IDP from yeast and three Glu/Asp variants, we find that while Glu/Asp support similar function and global dimensions, the variants differ in their binding affinities and population of local transient structural elements. We speculate that these local structural differences may play roles in functional diversity where glutamates can support increased helicity important for folding and binding, while aspartates support extended structures and form helical caps, as well as playing more relevant roles in e.g., transactivation domains and ion-binding.",
+  "authors": [
+    "Roesgaard MA",
+    "Lundsgaard JE",
+    "Newcombe EA",
+    "Jacobsen NL",
+    "Pesce F",
+    "Tranchant EE",
+    "Lindemose S",
+    "Prestel A",
+    "Hartmann-Petersen R",
+    "Lindorff-Larsen K",
+    "Kragelund BB"
+  ],
+  "published_date": "2022-08-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.25.505250",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.25.505250.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR535826",
+    "raw_record": {
+      "id": "PPR535826",
+      "source": "PPR",
+      "doi": "10.1101/2022.08.25.505250",
+      "title": "Deciphering the alphabet of disorder — Glu and Asp act differently on local but not global properties",
+      "authorString": "Roesgaard MA, Lundsgaard JE, Newcombe EA, Jacobsen NL, Pesce F, Tranchant EE, Lindemose S, Prestel A, Hartmann-Petersen R, Lindorff-Larsen K, Kragelund BB.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Roesgaard MA",
+            "lastName": "Roesgaard",
+            "firstName": "Mette Ahrensback",
+            "initials": "MA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7927-8704"
+            }
+          },
+          {
+            "fullName": "Lundsgaard JE",
+            "lastName": "Lundsgaard",
+            "firstName": "Jeppe",
+            "initials": "JE"
+          },
+          {
+            "fullName": "Newcombe EA",
+            "lastName": "Newcombe",
+            "firstName": "Estella",
+            "initials": "EA"
+          },
+          {
+            "fullName": "Jacobsen NL",
+            "lastName": "Jacobsen",
+            "firstName": "Nina",
+            "initials": "NL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8264-0057"
+            }
+          },
+          {
+            "fullName": "Pesce F",
+            "lastName": "Pesce",
+            "firstName": "Francesco",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3403-2524"
+            }
+          },
+          {
+            "fullName": "Tranchant EE",
+            "lastName": "Tranchant",
+            "firstName": "Emil",
+            "initials": "EE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4755-1796"
+            }
+          },
+          {
+            "fullName": "Lindemose S",
+            "lastName": "Lindemose",
+            "firstName": "Søren",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5459-9608"
+            }
+          },
+          {
+            "fullName": "Prestel A",
+            "lastName": "Prestel",
+            "firstName": "Andreas",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4155-7791"
+            }
+          },
+          {
+            "fullName": "Hartmann-Petersen R",
+            "lastName": "Hartmann-Petersen",
+            "firstName": "Rasmus",
+            "initials": "R"
+          },
+          {
+            "fullName": "Lindorff-Larsen K",
+            "lastName": "Lindorff-Larsen",
+            "firstName": "Kresten",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7454-1761"
+            }
+          },
+          {
+            "fullName": "Kragelund BB",
+            "lastName": "Kragelund",
+            "firstName": "Birthe",
+            "initials": "BB"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3403-2524"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4155-7791"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4755-1796"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5459-9608"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7454-1761"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7927-8704"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8264-0057"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Compared to folded proteins, the sequences of intrinsically disordered proteins (IDPs) are enriched in polar and charged amino acids. Glutamate is one of the most enriched amino acids in IDPs, while the chemically similar amino acid aspartate is less enriched. So far, the underlying functional differences of glutamates and aspartates in IDPs remain poorly understood. In this study, we examine the differential effects of aspartate and glutamates in IDPs by comparing the function and conformational ensemble of glutamate and aspartate variants of the disordered protein Dss1, using a range of assays, including interaction studies, nuclear magnetic resonance spectroscopy, small angle X-ray scattering and molecular dynamics simulation. First, we analyze the sequences of the rapidly growing data base of experimentally verified IDPs (DisProt) and show that the glutamate enrichment is not caused by a taxonomy bias in IDPs. From analyses of local and global structural properties as well as cell growth and protein-protein interactions using a model acidic IDP from yeast and three Glu/Asp variants, we find that while Glu/Asp support similar function and global dimensions, the variants differ in their binding affinities and population of local transient structural elements. We speculate that these local structural differences may play roles in functional diversity where glutamates can support increased helicity important for folding and binding, while aspartates support extended structures and form helical caps, as well as playing more relevant roles in e.g., transactivation domains and ion-binding.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/09/19/2022.08.25.505250.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.08.25.505250"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36291634",
+            "reference": "Biomolecules. 2022 Oct;12(10):1426",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-08-26",
+      "firstPublicationDate": "2022-08-25",
+      "firstIndexDate": "2022-08-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "identity": {
+    "pmid": "34639238",
+    "doi": "10.3390/ijms221910898",
+    "title": "Characterizing Binding Interactions That Are Essential for Selective Transport through the Nuclear Pore Complex."
+  },
+  "content": {
+    "abstract": "Specific macromolecules are rapidly transported across the nuclear envelope via the nuclear pore complex (NPC). The selective transport process is facilitated when nuclear transport receptors (NTRs) weakly and transiently bind to intrinsically disordered constituents of the NPC, FG Nups. These two types of proteins help maintain the selective NPC barrier. To interrogate their binding interactions in vitro, we deployed an NPC barrier mimic. We created the stationary phase by covalently attaching fragments of a yeast FG Nup called Nsp1 to glass coverslips. We used a tunable mobile phase containing NTR, nuclear transport factor 2 (NTF2). In the stationary phase, three main factors affected binding: the number of FG repeats, the charge of fragments, and the fragment density. We also identified three main factors affecting binding in the mobile phase: the avidity of the NTF2 variant for Nsp1, the presence of nonspecific proteins, and the presence of additional NTRs. We used both experimentally determined binding parameters and molecular dynamics simulations of Nsp1FG fragments to create an agent-based model. The results suggest that NTF2 binding is negatively cooperative and dependent on the density of Nsp1FG molecules. Our results demonstrate the strengths of combining experimental and physical modeling approaches to study NPC-mediated transport.",
+    "keywords": [
+      "FG Nups",
+      "NPC barrier mimic",
+      "agent-based modeling",
+      "molecular dynamics",
+      "nuclear pore complex",
+      "nuclear transport receptors",
+      "single molecule localization microscopy (SMLM)"
+    ],
+    "mesh_terms": [
+      "Active Transport, Cell Nucleus",
+      "Cell Nucleus/*metabolism",
+      "Models, Molecular",
+      "Molecular Dynamics Simulation",
+      "Mutation",
+      "Nuclear Pore/*physiology",
+      "Nuclear Pore Complex Proteins/genetics/*metabolism",
+      "Nuclear Proteins/genetics/*metabolism",
+      "Nucleocytoplasmic Transport Proteins/genetics/*metabolism",
+      "Protein Interaction Domains and Motifs",
+      "Saccharomyces cerevisiae/genetics/growth & development/*metabolism",
+      "Saccharomyces cerevisiae Proteins/genetics/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lennon, Kathleen M",
+        "Soheilypour, Mohammad",
+        "Peyro, Mohaddeseh",
+        "Wakefield, Devin L",
+        "Choo, Grace E",
+        "Mofrad, Mohammad R K",
+        "Jovanovic-Talisman, Tijana"
+      ],
+      "short_names": [
+        "Lennon KM",
+        "Soheilypour M",
+        "Peyro M",
+        "Wakefield DL",
+        "Choo GE",
+        "Mofrad MRK",
+        "Jovanovic-Talisman T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3043-331X",
+        "ORCID: 0000-0002-1605-3559",
+        "ORCID: 0000-0002-0914-0558",
+        "ORCID: 0000-0001-7004-4859",
+        "ORCID: 0000-0003-1928-4763"
+      ],
+      "affiliations": [
+        "Department of Molecular Medicine, Beckman Research Institute of the City of Hope Comprehensive Cancer Center, Duarte, CA 91010, USA.",
+        "Department of Bioengineering and Mechanical Engineering, Molecular Cell Biomechanics Laboratory, University of California, Berkeley, CA 94720, USA.",
+        "Department of Bioengineering and Mechanical Engineering, Molecular Cell Biomechanics Laboratory, University of California, Berkeley, CA 94720, USA.",
+        "Department of Molecular Medicine, Beckman Research Institute of the City of Hope Comprehensive Cancer Center, Duarte, CA 91010, USA.",
+        "Department of Molecular Medicine, Beckman Research Institute of the City of Hope Comprehensive Cancer Center, Duarte, CA 91010, USA.",
+        "Department of Bioengineering and Mechanical Engineering, Molecular Cell Biomechanics Laboratory, University of California, Berkeley, CA 94720, USA.",
+        "Molecular Biophysics and Integrative Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.",
+        "Department of Molecular Medicine, Beckman Research Institute of the City of Hope Comprehensive Cancer Center, Duarte, CA 91010, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lennon, Kathleen M",
+        "short_name": "Lennon KM",
+        "identifiers": [
+          "0000-0003-3043-331X"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, Beckman Research Institute of the City of Hope Comprehensive Cancer Center, Duarte, CA 91010, USA."
+        ]
+      },
+      {
+        "full_name": "Soheilypour, Mohammad",
+        "short_name": "Soheilypour M",
+        "identifiers": [
+          "0000-0002-1605-3559"
+        ],
+        "affiliations": [
+          "Department of Bioengineering and Mechanical Engineering, Molecular Cell Biomechanics Laboratory, University of California, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Peyro, Mohaddeseh",
+        "short_name": "Peyro M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering and Mechanical Engineering, Molecular Cell Biomechanics Laboratory, University of California, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Wakefield, Devin L",
+        "short_name": "Wakefield DL",
+        "identifiers": [
+          "0000-0002-0914-0558"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, Beckman Research Institute of the City of Hope Comprehensive Cancer Center, Duarte, CA 91010, USA."
+        ]
+      },
+      {
+        "full_name": "Choo, Grace E",
+        "short_name": "Choo GE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Beckman Research Institute of the City of Hope Comprehensive Cancer Center, Duarte, CA 91010, USA."
+        ]
+      },
+      {
+        "full_name": "Mofrad, Mohammad R K",
+        "short_name": "Mofrad MRK",
+        "identifiers": [
+          "0000-0001-7004-4859"
+        ],
+        "affiliations": [
+          "Department of Bioengineering and Mechanical Engineering, Molecular Cell Biomechanics Laboratory, University of California, Berkeley, CA 94720, USA.",
+          "Molecular Biophysics and Integrative Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Jovanovic-Talisman, Tijana",
+        "short_name": "Jovanovic-Talisman T",
+        "identifiers": [
+          "0000-0003-1928-4763"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, Beckman Research Institute of the City of Hope Comprehensive Cancer Center, Duarte, CA 91010, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Oct 8",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/14 06:00",
+    "fetched_at": "2026-09-20 05:57:09"
+  },
+  "links": {
+    "cites": [
+      "37945593",
+      "37099395",
+      "37064528",
+      "35328452",
+      "35308827",
+      "35098921"
+    ],
+    "refs": [
+      "35892075",
+      "34473567",
+      "33920577",
+      "33617830",
+      "33479542",
+      "32616075",
+      "32168597",
+      "31723007",
+      "31170242",
+      "30256630",
+      "29882969",
+      "29374059",
+      "29350911",
+      "28700925",
+      "28506892",
+      "28384479",
+      "27805000",
+      "27682590",
+      "27470900",
+      "27198189",
+      "27136131",
+      "27058170",
+      "26967283",
+      "26589045",
+      "26456112",
+      "26371551",
+      "25748139",
+      "25692596",
+      "25429850",
+      "25253717",
+      "25229147",
+      "24929341",
+      "24806932",
+      "24739174",
+      "24626154",
+      "24282617",
+      "23407358",
+      "23404701",
+      "23043112",
+      "22357553",
+      "21966493",
+      "21685911",
+      "21414590",
+      "21402022",
+      "20603006",
+      "20548778",
+      "20379223",
+      "20368288",
+      "19922867",
+      "19274657",
+      "19098896",
+      "18824568",
+      "18487299",
+      "18228033",
+      "18046406",
+      "18046405",
+      "17630825",
+      "16786527",
+      "16769882",
+      "15657394",
+      "15522285",
+      "15306682",
+      "14624840",
+      "12917401",
+      "12196509",
+      "12189172",
+      "11250898",
+      "10930427",
+      "10929717",
+      "10554006",
+      "9822603",
+      "8918934",
+      "8744570",
+      "3072197"
+    ],
+    "similar": [
+      "34639238",
+      "25692596",
+      "35098921",
+      "26658558",
+      "24626154",
+      "29374059",
+      "17875746",
+      "28506890",
+      "15557115",
+      "34473567",
+      "12543930",
+      "24931410",
+      "24705649",
+      "29033133",
+      "22008473",
+      "33790297",
+      "17082456",
+      "26456112",
+      "31753862",
+      "39205388",
+      "22357553",
+      "23295456",
+      "17418788",
+      "32696372",
+      "16682526",
+      "23202855",
+      "26530420",
+      "24165936",
+      "21659568",
+      "27673359",
+      "32794558",
+      "30704069",
+      "20498018",
+      "29572326",
+      "21576265",
+      "31262825",
+      "28068389",
+      "22901806",
+      "15522285",
+      "19278659",
+      "33428378",
+      "15039779",
+      "25797490",
+      "25778920",
+      "37307457",
+      "12917401",
+      "11489893",
+      "21647294",
+      "26878241",
+      "12473689",
+      "33617830",
+      "29429880",
+      "35412248",
+      "22213798",
+      "33002012",
+      "24165935",
+      "38018404",
+      "24144701",
+      "29590630",
+      "38302116",
+      "36040030",
+      "31723007",
+      "34339633",
+      "28883038",
+      "19801417",
+      "16118201",
+      "33333016",
+      "28669824",
+      "32713250",
+      "22331846",
+      "28887410",
+      "33217650",
+      "27058170",
+      "25562883",
+      "17630825",
+      "19414608",
+      "35491934",
+      "32453403",
+      "24213245",
+      "26311873",
+      "24857739",
+      "30902367",
+      "21447814",
+      "15208322",
+      "33268786",
+      "18688269",
+      "21346187",
+      "23404701",
+      "17897934",
+      "12189172",
+      "22020388",
+      "19414609",
+      "26872259",
+      "26791761",
+      "35679397",
+      "33856346",
+      "22956913",
+      "26541386",
+      "16783364",
+      "18046406",
+      "21576266",
+      "33909044",
+      "21673865",
+      "30342747",
+      "39282864",
+      "39320946",
+      "39127037",
+      "37100914",
+      "39356635",
+      "22110603",
+      "19596381",
+      "38267583",
+      "27194810",
+      "38507240",
+      "35269721",
+      "37738963",
+      "37066338",
+      "38766144",
+      "37924814",
+      "38640928",
+      "35412250",
+      "36857168",
+      "39209961",
+      "31673318",
+      "27713975",
+      "34132758",
+      "39246336",
+      "35308827",
+      "38260487",
+      "37974978",
+      "31770897",
+      "38586009"
+    ],
+    "review": [
+      "34639238",
+      "28506890",
+      "27673359",
+      "32794558",
+      "19801417",
+      "28669824",
+      "33217650",
+      "22020388",
+      "26791761",
+      "39282864",
+      "19596381",
+      "35269721",
+      "27713975",
+      "35308827"
+    ],
+    "pmc": [
+      "8509584"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms221910898",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34639238/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/34639238",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34639238",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt2kw356f5",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

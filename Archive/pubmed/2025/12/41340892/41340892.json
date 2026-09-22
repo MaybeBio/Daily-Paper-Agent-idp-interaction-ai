@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "41340892",
+    "doi": "10.1016/j.csbj.2025.11.029",
+    "title": "Modeling liquid-liquid phase separation and its impact on proteasomal substrate degradation."
+  },
+  "content": {
+    "abstract": "The proteasome, central to ubiquitin-proteasome mediated degradation of substrate proteins, undergoes liquid-liquid phase separation (LLPS) during substrate processing. However, the mechanisms governing proteasomal LLPS and its functional interplay with degradation dynamics remain elusive. Here, we developed a reaction-diffusion model with thermodynamic constraints to quantitatively characterize proteasome-associated LLPS mediated by the substrate-shuttling factor Radiation-sensitive 23 homolog B (RAD23B). The model successfully captures experimental LLPS dynamics, revealing a concentration-dependent phase transition boundary influenced by proteasome activity and molecular interactions. Significantly, LLPS was found to have bidirectional (enhancing or suppressing), context-dependent effects on degradation efficiency. This work elucidates regulatory mechanisms and functional roles of LLPS in proteasome-mediated degradation, offering a predictive quantitative model and testable hypotheses for future investigation.",
+    "keywords": [
+      "Liquid-liquid phase separation",
+      "Proteasome",
+      "Reaction-diffusion model"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Di",
+        "Ouyang, Qi",
+        "Wang, Hongli"
+      ],
+      "short_names": [
+        "Wu D",
+        "Ouyang Q",
+        "Wang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The State Key Laboratory for Artificial Microstructures and Mesoscopic Physics, School of Physics, Peking University, Beijing, China.",
+        "School of Physics, Zhejiang University, Hangzhou, China.",
+        "The State Key Laboratory for Artificial Microstructures and Mesoscopic Physics, School of Physics, Peking University, Beijing, China.",
+        "Center for Quantitative Biology, Peking University, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Di",
+        "short_name": "Wu D",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory for Artificial Microstructures and Mesoscopic Physics, School of Physics, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Ouyang, Qi",
+        "short_name": "Ouyang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongli",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "The State Key Laboratory for Artificial Microstructures and Mesoscopic Physics, School of Physics, Peking University, Beijing, China.",
+          "Center for Quantitative Biology, Peking University, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/04 06:27",
+    "fetched_at": "2026-09-17 22:37:00"
+  },
+  "links": {
+    "cites": [
+      "41348251"
+    ],
+    "refs": [
+      "40315273",
+      "36563145",
+      "35803926",
+      "35477760",
+      "35050852",
+      "34848715",
+      "34385323",
+      "34334791",
+      "33252727",
+      "32917864",
+      "32025036",
+      "31778111",
+      "31727826",
+      "30929903",
+      "30479383",
+      "30309908",
+      "30287680",
+      "29652515",
+      "29507397",
+      "29343546",
+      "27791164",
+      "26274171",
+      "25859050",
+      "24151080",
+      "22716912",
+      "18756251",
+      "17190603",
+      "12408819"
+    ],
+    "similar": [
+      "41340892",
+      "41363845",
+      "29526694",
+      "32881044",
+      "32585960",
+      "32025036",
+      "38446061",
+      "39865610",
+      "39601287",
+      "34431665",
+      "41442811",
+      "35762418",
+      "34911929",
+      "41235230",
+      "34206440",
+      "41247240",
+      "40315273",
+      "41206815",
+      "41085284",
+      "33809541",
+      "36444977",
+      "41457544",
+      "34156864",
+      "39302099",
+      "39342654",
+      "36310223",
+      "38862770",
+      "39307116",
+      "40684934",
+      "35764611",
+      "39256186",
+      "38811080",
+      "38322526",
+      "37130439",
+      "41120586",
+      "34787417",
+      "31911439",
+      "35883530",
+      "34385323",
+      "38526948",
+      "34029402",
+      "40502018",
+      "40792356",
+      "34816836",
+      "34306032",
+      "39920037",
+      "37557974",
+      "40456342",
+      "35198873",
+      "32961238",
+      "35142991",
+      "39162498",
+      "33057154",
+      "40985478",
+      "40509257",
+      "36876423",
+      "41307542",
+      "33279579",
+      "39162855",
+      "40445273",
+      "37796176",
+      "40915256",
+      "40795920",
+      "39067723",
+      "39150479",
+      "38847095",
+      "40646517",
+      "38547652",
+      "41365436",
+      "38657863",
+      "41000164",
+      "37662293",
+      "39148776",
+      "39990825",
+      "41196678",
+      "38511533",
+      "38984715",
+      "37866939",
+      "33929866",
+      "39909287",
+      "36920190",
+      "38167731",
+      "38404378",
+      "38418913",
+      "37672734",
+      "31941785",
+      "26301997",
+      "36471564",
+      "35943083",
+      "34233002",
+      "37230179",
+      "40616404",
+      "41272974",
+      "36762833",
+      "33259919",
+      "35351518",
+      "41074186",
+      "41001640",
+      "33139563",
+      "34787433"
+    ],
+    "review": [
+      "41340892",
+      "32881044",
+      "32585960",
+      "41442811",
+      "41247240",
+      "41206815",
+      "41457544",
+      "39307116",
+      "38811080",
+      "31911439",
+      "34816836",
+      "34306032",
+      "39920037",
+      "37557974",
+      "40456342",
+      "35142991",
+      "40985478",
+      "41307542",
+      "38547652",
+      "41365436",
+      "39990825",
+      "37866939",
+      "39909287",
+      "38167731",
+      "37230179"
+    ],
+    "pmc": [
+      "12671354"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(25)00497-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41340892/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-707",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

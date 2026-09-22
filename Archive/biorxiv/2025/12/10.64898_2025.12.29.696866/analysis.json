@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.29.696866",
+  "title": "A Mechanism-Aware Dual Attention Deep Model for Molecular-Protein Binding Affinity Prediction with Enhanced Generalizability and Interpretability",
+  "authors": "Richard Brown; Daniel Thompson",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-29",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出机制感知的双注意力深度模型BindMecNet，通过预测原子-残基相互作用图来提升分子-蛋白结合亲和力预测的泛化性和可解释性；虽非无序蛋白对象，但其显式建模互作界面的思路对IDR介导的PPI机制建模有可迁移启发。",
+  "abstract": "Accurate prediction of molecular-protein binding affinity (MPBA) is paramount in drug discovery, yet current computational models often lack generalizability, interpretability, and explicit mechanistic understanding. To address these limitations, we introduce BindMecNet (Binding Mechanism Network), a novel mechanism-aware, multi-scale deep model. BindMec-Net’s core innovation lies in its Interfacial Interaction Prediction Module, which explicitly predicts an atom-residue level interaction map, serving as a crucial mechanistic inductive bias. This map guides a Mechanism-Aware Dual Attention Interaction Module, ensuring that information exchange between protein and ligand representations is focused on genuinely interacting regions, fostering a deeper understanding of binding mechanisms. We employ a robust two-stage training strategy: initial pre-training on PDBBind with a multi-task loss (affinity and interaction prediction), followed by fine-tuning on challenging generalization datasets using predicted protein and ligand structures. Our comprehensive evaluations on unseen protein families using predicted binding conformations demonstrate BindMecNet’s superior performance, significantly outperforming state-of-the-art deep learning baselines. Ablation studies confirm that both the PDBBind pre-training and the explicit mechanistic inductive bias are critical for achieving this enhanced generalizability and accuracy. Furthermore, BindMecNet’s predicted interaction maps offer valuable, interpretable insights into binding hotspots, paving the way for more rational and mechanism-driven drug design.",
+  "abstract_zh": "分子-蛋白质结合亲和力（MPBA）的准确预测在药物发现中至关重要，然而当前的计算模型往往缺乏泛化性、可解释性和明确的机制理解。为解决这些局限性，我们引入了BindMecNet（结合机制网络），一种新颖的机制感知、多尺度深度模型。BindMec-Net的核心创新在于其界面相互作用预测模块，该模块显式预测原子-残基水平的相互作用图谱，作为关键的机制归纳偏置。该图谱引导机制感知的双重注意力相互作用模块，确保蛋白质与配体表示之间的信息交换聚焦于真正相互作用的区域，从而促进对结合机制的更深入理解。我们采用稳健的两阶段训练策略：首先在PDBBind上进行多任务损失（亲和力和相互作用预测）的预训练，随后使用预测的蛋白质和配体结构在具有挑战性的泛化数据集上进行微调。我们在未见蛋白质家族上使用预测结合构象的综合评估表明，BindMecNet表现出优越性能，显著优于最先进的深度学习基线。消融研究证实，PDBBind预训练和显式机制归纳偏置对于实现这种增强的泛化性和准确性均至关重要。此外，BindMecNet预测的相互作用图谱为结合热点提供了有价值的、可解释的见解，为更合理和机制驱动的药物设计铺平了道路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.29.696866",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.29.696866",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.29.696866/index.html"
+}

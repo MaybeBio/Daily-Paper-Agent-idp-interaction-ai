@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "40430862",
+    "doi": "10.3390/pharmaceutics17050570",
+    "title": "Intrinsic Dissolution Modeling: Interdependence Between Dissolution Rate, Solubility, and Boundary Layer Thickness."
+  },
+  "content": {
+    "abstract": "Background/Objectives: In the past, many drug release models have been presented which attempt to describe the interaction of drugs and excipients in a formulation. Nevertheless, modeling the intrinsic dissolution behavior is essential for understanding the fundamental dissolution mechanisms of drugs and for enhancing the quality of computational approaches in the long term. Methods: In this study, the intrinsic dissolution of various pharmaceutical model substances (benzocaine, carbamazepine, griseofulvin, ibuprofen, naproxen, phenytoin, theophylline monohydrate, and trimethoprim) was investigated in dissolution experiments, taking into account the flow conditions in a dissolution channel apparatus. A practicable and generally valid representation was identified to describe the diffusion properties of the drugs in terms of the boundary layer thickness without considering the particle size distribution, physical state, or viscoelastic properties. This representation was supported by numerical simulations using a high-resolution mesh. The influence of the topography on the modeling was also examined. Results: Besides the prediction of the influence of a surface reaction limitation or the solubility of a diffusion controlled drug, the boundary layer thickness at the tablet surface is modellable in terms of a freely selectable length and as a function of the diffusion coefficient, drug solubility, and the flow velocity of the dissolution medium. Conclusions: Using different methods and a large dataset, this study presents a modeling approach that can contribute to a deeper understanding of intrinsic dissolution behavior.",
+    "keywords": [
+      "IDR",
+      "Reynolds number",
+      "boundary layer",
+      "diffusion",
+      "dissolution rate",
+      "flow channel",
+      "hydrodynamics",
+      "solubility",
+      "surface reaction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mattusch, Amelie Marie",
+        "Schaldach, Gerhard",
+        "Bartsch, Jens",
+        "Thommes, Markus"
+      ],
+      "short_names": [
+        "Mattusch AM",
+        "Schaldach G",
+        "Bartsch J",
+        "Thommes M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2341-5375",
+        "ORCID: 0000-0002-6217-9902"
+      ],
+      "affiliations": [
+        "Laboratory of Solids Process Engineering, Department of Biochemical and Chemical Engineering, TU Dortmund University, Emil-Figge-Str. 68, 44227 Dortmund, Germany.",
+        "Laboratory of Solids Process Engineering, Department of Biochemical and Chemical Engineering, TU Dortmund University, Emil-Figge-Str. 68, 44227 Dortmund, Germany.",
+        "Laboratory of Solids Process Engineering, Department of Biochemical and Chemical Engineering, TU Dortmund University, Emil-Figge-Str. 68, 44227 Dortmund, Germany.",
+        "Laboratory of Solids Process Engineering, Department of Biochemical and Chemical Engineering, TU Dortmund University, Emil-Figge-Str. 68, 44227 Dortmund, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mattusch, Amelie Marie",
+        "short_name": "Mattusch AM",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Solids Process Engineering, Department of Biochemical and Chemical Engineering, TU Dortmund University, Emil-Figge-Str. 68, 44227 Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Schaldach, Gerhard",
+        "short_name": "Schaldach G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Solids Process Engineering, Department of Biochemical and Chemical Engineering, TU Dortmund University, Emil-Figge-Str. 68, 44227 Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Bartsch, Jens",
+        "short_name": "Bartsch J",
+        "identifiers": [
+          "0000-0003-2341-5375"
+        ],
+        "affiliations": [
+          "Laboratory of Solids Process Engineering, Department of Biochemical and Chemical Engineering, TU Dortmund University, Emil-Figge-Str. 68, 44227 Dortmund, Germany."
+        ]
+      },
+      {
+        "full_name": "Thommes, Markus",
+        "short_name": "Thommes M",
+        "identifiers": [
+          "0000-0002-6217-9902"
+        ],
+        "affiliations": [
+          "Laboratory of Solids Process Engineering, Department of Biochemical and Chemical Engineering, TU Dortmund University, Emil-Figge-Str. 68, 44227 Dortmund, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmaceutics"
+    ],
+    "journal_abbrev": [
+      "Pharmaceutics"
+    ],
+    "pub_date": "2025 Apr 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/28 06:29",
+    "fetched_at": "2026-09-21 19:21:24"
+  },
+  "links": {
+    "cites": [
+      "41374898"
+    ],
+    "refs": [
+      "38983121",
+      "38501605",
+      "38401511",
+      "36152951",
+      "34959392",
+      "34199985",
+      "33499428",
+      "32831241",
+      "32481718",
+      "32061919",
+      "28620887",
+      "28445056",
+      "26107071",
+      "21843609",
+      "20524422",
+      "19900519",
+      "19442726",
+      "18206324",
+      "17097189",
+      "17084051",
+      "15771225",
+      "12968888",
+      "11297896",
+      "10878326",
+      "9487541",
+      "7784339",
+      "2871148"
+    ],
+    "similar": [
+      "40430862",
+      "32886520",
+      "38501605",
+      "16109624",
+      "36066377",
+      "26906172",
+      "33499428",
+      "3735090",
+      "34428047",
+      "36152951",
+      "35398291",
+      "23727464",
+      "11835211",
+      "20012167",
+      "38115627",
+      "12907290",
+      "9344170",
+      "3989683",
+      "38589647",
+      "40010416",
+      "8877894",
+      "31016440",
+      "32061919",
+      "33851132",
+      "15000464",
+      "1255434",
+      "39426564",
+      "21843609",
+      "38718973",
+      "23912807",
+      "28029341",
+      "7816758",
+      "30742835",
+      "32501703",
+      "30560468",
+      "25749073",
+      "35944878",
+      "21485300",
+      "27106916",
+      "16529883",
+      "886452",
+      "33817465",
+      "18431663",
+      "33709248",
+      "16883682",
+      "23618956",
+      "37884158",
+      "3989682",
+      "38771120",
+      "34666045",
+      "1865343",
+      "28620887",
+      "32481718",
+      "27155254",
+      "3373426",
+      "38796155",
+      "9188056",
+      "29288433",
+      "17027244",
+      "22626886",
+      "7855040",
+      "37882573",
+      "14984270",
+      "24621340",
+      "38802025",
+      "3783452",
+      "19691104",
+      "3958917",
+      "35474157",
+      "10393573",
+      "31988030",
+      "37816185",
+      "28743550",
+      "15648262",
+      "38127789",
+      "38580072",
+      "19900519",
+      "39433646",
+      "12532392",
+      "18644441",
+      "36336104",
+      "12885387",
+      "18206324",
+      "22623113",
+      "28829134",
+      "34725748",
+      "34399050",
+      "39458664",
+      "18675891",
+      "29368623",
+      "11775954",
+      "30076953",
+      "18648912",
+      "23500116",
+      "39187035",
+      "34363918",
+      "37328006",
+      "22686341",
+      "21419202",
+      "35772613"
+    ],
+    "review": [
+      "40430862",
+      "26906172",
+      "23618956",
+      "38127789"
+    ],
+    "pmc": [
+      "12114800"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=pharmaceutics17050570",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40430862/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

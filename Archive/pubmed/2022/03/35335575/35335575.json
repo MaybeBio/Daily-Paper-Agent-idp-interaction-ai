@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "35335575",
+    "doi": "10.3390/polym14061245",
+    "title": "Modulating Role of Co-Solutes in Complexation between Bovine Serum Albumin and Sodium Polystyrene Sulfonate."
+  },
+  "content": {
+    "abstract": "The action of three types of co-solutes: (i) salts (NaCl, NaBr, NaI), (ii) polymer (polyethylene glycol; PEG-400, PEG-3000, PEG-20000), and (iii) sugars (sucrose, sucralose) on the complexation between bovine serum albumin (BSA) and sodium polystyrene sulfonate (NaPSS) was studied. Three critical pH parameters were extracted from the pH dependence of the solution's turbidity: pHc corresponding to the formation of the soluble complexes, pHPhi corresponding to the formation of the insoluble complexes, and pHopt corresponding to the charge neutralization of the complexes. In the presence of salts, the formation of soluble and insoluble complexes as well as the charge neutralization of complexes was hindered, which is a consequence of the electrostatic screening of attractive interactions between BSA and NaPSS. Distinct anion-specific trends were observed in which the stabilizing effect of the salt increased in the order: NaCl < NaBr < NaI. The presence of PEG, regardless of its molecular weight, showed no measurable effect on the formation of soluble complexes. PEG-400 and PEG-3000 showed no effect on the formation of insoluble complexes, but PEG-20000 in high concentrations promoted their formation due to the molecular crowding effect. The presence of sugar molecules had little effect on BSA-NaPSS complexation. Sucralose showed a minor stabilizing effect with respect to the onset of complex formation, which was due to its propensity to the protein surface. This was confirmed by the fluorescence quenching assay (Stern-Volmer relationship) and all-atom MD simulations. This study highlights that when evaluating the modulatory effect of co-solutes on protein-polyelectrolyte interactions, (co-solute)-protein interactions and their subsequent impact on protein aggregation must also be considered.",
+    "keywords": [
+      "electrostatic screening",
+      "molecular crowding",
+      "protein-PE complexation",
+      "solid-liquid phase separation",
+      "sucralose",
+      "sucrose"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Simoncic, Matjaz",
+        "Luksic, Miha"
+      ],
+      "short_names": [
+        "Simoncic M",
+        "Luksic M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0758-0891",
+        "ORCID: 0000-0001-7190-4013"
+      ],
+      "affiliations": [
+        "Faculty of Chemistry and Chemical Technology, University of Ljubljana, Vecna pot 113, SI-1000 Ljubljana, Slovenia.",
+        "Faculty of Chemistry and Chemical Technology, University of Ljubljana, Vecna pot 113, SI-1000 Ljubljana, Slovenia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Simončič, Matjaž",
+        "short_name": "Simončič M",
+        "identifiers": [
+          "0000-0002-0758-0891"
+        ],
+        "affiliations": [
+          "Faculty of Chemistry and Chemical Technology, University of Ljubljana, Večna pot 113, SI-1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Lukšič, Miha",
+        "short_name": "Lukšič M",
+        "identifiers": [
+          "0000-0001-7190-4013"
+        ],
+        "affiliations": [
+          "Faculty of Chemistry and Chemical Technology, University of Ljubljana, Večna pot 113, SI-1000 Ljubljana, Slovenia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Polymers"
+    ],
+    "journal_abbrev": [
+      "Polymers (Basel)"
+    ],
+    "pub_date": "2022 Mar 19",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/27 06:00",
+    "fetched_at": "2026-09-20 09:07:24"
+  },
+  "links": {
+    "cites": [
+      "39254158",
+      "36134887"
+    ],
+    "refs": [
+      "36703474",
+      "35082451",
+      "35082450",
+      "34877780",
+      "33455241",
+      "32907160",
+      "32791839",
+      "32261674",
+      "31909321",
+      "31735174",
+      "31418555",
+      "31261765",
+      "30960066",
+      "30872874",
+      "30769990",
+      "30352231",
+      "30015031",
+      "29265152",
+      "29128042",
+      "28949513",
+      "28683256",
+      "28225081",
+      "27773339",
+      "27548408",
+      "26771205",
+      "26757773",
+      "26630921",
+      "26596171",
+      "26277164",
+      "24299810",
+      "24282124",
+      "23330911",
+      "22993082",
+      "22975397",
+      "21855584",
+      "21834579",
+      "21533652",
+      "21413681",
+      "21190340",
+      "21056401",
+      "20886835",
+      "20444658",
+      "20097167",
+      "19947624",
+      "19705859",
+      "19170635",
+      "18851071",
+      "17760417",
+      "17266278",
+      "16674260",
+      "15875399",
+      "12625724",
+      "12625722",
+      "11846464",
+      "11709831",
+      "8994593",
+      "7298647",
+      "5389440"
+    ],
+    "similar": [
+      "35335575",
+      "36134887",
+      "35082451",
+      "18851071",
+      "30872874",
+      "22697399",
+      "35082450",
+      "23775068",
+      "22251456",
+      "30448052",
+      "15607262",
+      "31443488",
+      "17803303",
+      "35008466",
+      "25865167",
+      "21067247",
+      "23567967",
+      "16266769",
+      "18701343",
+      "11474795",
+      "38837230",
+      "17585805",
+      "35164264",
+      "16800527",
+      "23198846",
+      "9864473",
+      "38801711",
+      "19399596",
+      "17439239",
+      "37268604",
+      "19714827",
+      "38442614",
+      "18809481",
+      "23911538",
+      "35603811",
+      "698249",
+      "20097167",
+      "22975397",
+      "16142960",
+      "18942877",
+      "17367849",
+      "6892775",
+      "36809739",
+      "26300416",
+      "11905540",
+      "26086855",
+      "31720639",
+      "10942294",
+      "10866136",
+      "37244028",
+      "27162056",
+      "20057950",
+      "34799129",
+      "30939013",
+      "31445214",
+      "38142881",
+      "34410719",
+      "25793709",
+      "20095700",
+      "19235548",
+      "24161686",
+      "17266278",
+      "17657479",
+      "32121491",
+      "25553974",
+      "23912807",
+      "37955264",
+      "24060564",
+      "23897315",
+      "16852314",
+      "35550965",
+      "11825611",
+      "31146641",
+      "26527418",
+      "32222605",
+      "10639081",
+      "31927393",
+      "16768506",
+      "29058916",
+      "31520921",
+      "19727573",
+      "30766774",
+      "35745980",
+      "15177154",
+      "16004416",
+      "8575035",
+      "37563993",
+      "23968994",
+      "26564279",
+      "17689001",
+      "19947624",
+      "19424966",
+      "26748065",
+      "26668672",
+      "22187343",
+      "6706381",
+      "11161527",
+      "20615751",
+      "22173815",
+      "29489360",
+      "21417252"
+    ],
+    "review": [
+      "35335575",
+      "30766774"
+    ],
+    "pmc": [
+      "8953846"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=polym14061245",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35335575/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35335575",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

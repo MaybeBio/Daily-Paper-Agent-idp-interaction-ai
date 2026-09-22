@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "33865866",
+    "doi": "10.1016/j.jmb.2021.166988",
+    "title": "Modulating Microtubules: A Molecular Perspective on the Effects of Tail Modifications."
+  },
+  "content": {
+    "abstract": "Microtubules (MTs), an essential component of the eukaryotic cytoskeleton, are a lattice of polymerized tubulin dimers and are crucial for various cellular processes. The genetic and chemical diversity of tubulin and their disordered tails gives rise to a \"tubulin code\". The functional role of tubulin post-translational modifications (PTMs), which contribute to the chemical diversity of the tubulin code, is gradually being unraveled. However, variation in the length and spatial organization of tubulin poly-modifications leads to an enormous combinatorial PTM space, which is difficult to study experimentally. Hence, the impact of the combinatorial tubulin PTM space on the biophysical properties of tubulin tails and their interactions with other proteins remains elusive. Here, we combine all-atom and coarse-grained molecular dynamics simulations to elucidate the biophysical implications of the large combinatorial tubulin PTM space in the context of an MT lattice. We find that tail-body interactions are more dominant in the tubulin dimer than in an MT lattice, and are more significant for the tails of alpha compared with beta tubulin. In addition, polyglutamylation, but not polyglycylation, expands the dimensions of the tubulin tails. Polyglutamylation also leads to a decrease in the diffusion rate of MT-associated protein EB1 on MTs, while polyglycylation often increases diffusion rate. These observations are generally not sensitive to the organization of the polymodifications. The effect of PTMs on MT charge density and tail dynamics are also discussed. Overall, this study presents a molecular quantification of the biophysical properties of tubulin tails and their polymodifications, and provides predictions on the functional importance of tubulin PTMs.",
+    "keywords": [
+      "diffusion",
+      "intrinsically disordered proteins",
+      "microtubule",
+      "post-translational modifications",
+      "tubulin code"
+    ],
+    "mesh_terms": [
+      "Glycosylation",
+      "Microtubules/*chemistry/*metabolism",
+      "*Models, Molecular",
+      "Polyglutamic Acid/metabolism",
+      "Protein Conformation",
+      "Protein Multimerization",
+      "Tubulin/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bigman, Lavi S",
+        "Levy, Yaakov"
+      ],
+      "short_names": [
+        "Bigman LS",
+        "Levy Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel. Electronic address: Koby.Levy@weizmann.ac.il."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bigman, Lavi S",
+        "short_name": "Bigman LS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel."
+        ]
+      },
+      {
+        "full_name": "Levy, Yaakov",
+        "short_name": "Levy Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel. Electronic address: Koby.Levy@weizmann.ac.il."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2021 Jun 25",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/19 06:00",
+    "fetched_at": "2026-09-20 02:44:09"
+  },
+  "links": {
+    "cites": [
+      "41519300",
+      "40599826",
+      "40400346",
+      "37074962",
+      "36347241",
+      "34680162"
+    ],
+    "refs": [],
+    "similar": [
+      "33865866",
+      "32245812",
+      "25307498",
+      "26165356",
+      "27541566",
+      "37386282",
+      "25957412",
+      "34022132",
+      "33394042",
+      "8869236",
+      "18566597",
+      "33137305",
+      "33482309",
+      "17499049",
+      "21905119",
+      "36769099",
+      "11084355",
+      "11864572",
+      "21773920",
+      "31593193",
+      "20708587",
+      "28483842",
+      "28300595",
+      "32634400",
+      "37106761",
+      "32107477",
+      "33325152",
+      "35181405",
+      "34671113",
+      "29652248",
+      "23659998",
+      "25468068",
+      "29852176",
+      "19250341",
+      "30958582",
+      "22086369",
+      "32170815",
+      "10564653",
+      "30466050",
+      "29660626",
+      "29804676",
+      "30770469",
+      "23973077",
+      "10602255",
+      "17761526",
+      "11002306",
+      "26460824",
+      "30213517",
+      "38701611",
+      "34922809",
+      "24089738",
+      "35399537",
+      "20541813",
+      "38431715",
+      "11434769",
+      "30364995",
+      "34309047",
+      "28003186",
+      "15722432",
+      "23541590",
+      "28322917",
+      "30247519",
+      "26306046",
+      "20923653",
+      "20031384",
+      "24801181",
+      "37074962",
+      "16818889",
+      "22385515",
+      "31539262",
+      "30804205",
+      "27594515",
+      "11983898",
+      "38805123",
+      "35014548",
+      "21397191",
+      "25805498",
+      "28716960",
+      "19152315",
+      "28325758",
+      "30144301",
+      "20466131",
+      "11862218",
+      "22173449",
+      "10535310",
+      "16799566",
+      "28290671",
+      "28576883",
+      "26682813",
+      "28903043",
+      "29207274",
+      "30336771",
+      "39147600",
+      "32843576",
+      "36368428",
+      "24835459",
+      "34436545",
+      "19439658",
+      "24058841",
+      "31896752",
+      "38543539",
+      "9348671",
+      "35357568",
+      "38064432",
+      "34314694",
+      "33941924",
+      "32712744",
+      "21604102",
+      "12972506",
+      "37398431",
+      "32400163",
+      "17993481",
+      "35865635",
+      "32747782",
+      "34782749",
+      "20159162",
+      "32005831",
+      "34776926",
+      "27790223",
+      "25096813",
+      "23930594",
+      "38060156",
+      "20643083",
+      "36775975",
+      "35008169",
+      "35326374",
+      "30958194",
+      "38658656",
+      "34937365",
+      "29856960",
+      "33815687",
+      "35011707",
+      "19669419",
+      "29293441",
+      "35547397",
+      "19669447",
+      "30443035"
+    ],
+    "review": [
+      "33865866",
+      "25307498",
+      "25957412",
+      "8869236",
+      "18566597",
+      "33482309",
+      "36769099",
+      "11084355",
+      "32634400",
+      "37106761",
+      "32107477",
+      "33325152",
+      "35181405",
+      "34671113",
+      "25468068",
+      "19250341",
+      "22086369",
+      "30466050",
+      "30213517",
+      "38701611",
+      "34922809",
+      "35399537",
+      "20541813",
+      "30364995",
+      "28003186",
+      "30247519",
+      "20031384",
+      "22385515",
+      "31539262",
+      "38805123",
+      "28325758",
+      "20466131",
+      "29207274",
+      "36368428",
+      "34436545",
+      "38543539",
+      "9348671",
+      "35357568",
+      "35865635",
+      "34776926",
+      "35008169",
+      "35326374"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(21)00189-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33865866",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

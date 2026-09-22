@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The review article’s stated scope, structure, and claims as presented in the abstract
+- **Shared manuscript claim summary** The article presents an up-to-date overview of computational modeling concepts, developments, and applications for protein-carbohydrate interactions, then discusses current issues and future perspectives driven by deep learning, immersive analytics, and virtual reality, with applications to crowded media, glycoside transferases, the extracellular matrix, and intrinsically disordered proteins
+- **Visible evidence base** Abstract text only; no figures, tables, or main text sections provided
+- **Missing materials affecting confidence** Full manuscript text, figures, tables, references, and any methodological or illustrative details
+
+## Reviewer
+- **Overall assessment** The abstract describes a review article that appears timely and potentially useful for the glycoscience and computational biology communities. The scope is broad, covering established computational approaches and emerging technologies. However, the abstract provides limited specific information about the depth of coverage, the criteria for selecting topics, or the critical evaluation offered. The claims about future directions are plausible but not substantiated within the abstract alone. The article’s value will depend heavily on the quality and critical depth of the full text, which cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Computational chemists and biophysicists working on molecular recognition, glycoscientists studying carbohydrate-active enzymes and glycan-binding proteins, and developers of molecular visualization and machine learning tools. The discussion of crowded media and intrinsically disordered proteins may also interest researchers in cell biology and structural biology who study complex biological environments.
+- **Major strengths** The topic is relevant and timely, bridging established computational methods with emerging technologies. The abstract signals a broad integrative perspective, connecting methodological advances to specific biological applications. The inclusion of glycoside transferases, extracellular matrix, and intrinsically disordered proteins suggests attention to biologically important and technically challenging systems.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The article presents an up-to-date presentation of concepts, developments, and main applications of computational modeling for protein-carbohydrate interactions  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract asserts that the presentation is up-to-date and covers main applications, but no specific methods, software, benchmark studies, or representative results are mentioned. The reader cannot evaluate the currency, completeness, or critical depth of the coverage.  
+  - **Why it matters** For a review article, the core value lies in the comprehensiveness and critical assessment of the field. Without visible evidence of the specific topics covered, the criteria for inclusion, or the comparative evaluation of methods, the claim of being up-to-date and covering main applications is unverifiable.  
+  - **Resolution test** Provide the full text or a detailed outline listing the computational methods covered, the biological systems discussed, and the time frame of literature surveyed.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim substantiation  
+  - **Claim pointer** Such methodological developments would greatly benefit a wide range of scientific endeavors in carbohydrate chemistry and biochemistry, including crowded media, glycoside transferases, extracellular matrix, and intrinsically disordered proteins  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract states that deep learning, immersive analytics, and virtual reality would greatly benefit the listed applications, but no examples, case studies, or preliminary evidence are provided to support this assertion. The connection between these technologies and the specific biological problems is asserted rather than demonstrated.  
+  - **Why it matters** The forward-looking claims are a central component of the article’s stated purpose. If the full text does not provide concrete examples or reasoned arguments linking these technologies to the listed applications, the perspective section would be speculative rather than informative.  
+  - **Resolution test** Provide specific examples in the full text where deep learning, immersive analytics, or virtual reality have been applied or show clear potential for the listed systems, with references or preliminary data.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scope clarity  
+  - **Claim pointer** The article leads the reader through an up-to-date presentation of concepts, developments, and main applications, followed by current issues and perspectives  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not indicate the intended audience level, the depth of treatment, or the balance between established methods and emerging technologies. It is unclear whether the article is a beginner-level introduction, an advanced technical review, or a critical perspective piece.  
+  - **Why it matters** Review articles serve different purposes for different audiences. Without clarity on the intended readership and depth, potential readers cannot determine whether the article meets their needs, and the authors’ choices of what to include or exclude cannot be evaluated.  
+  - **Resolution test** State the intended audience and the level of detail in the abstract or introduction, and indicate the balance between foundational material and advanced topics.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract structure  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract is a single dense paragraph that combines scope, applications, and future perspectives without clear signposting.  
+  - **Required correction** Consider structuring the abstract with brief sentences that separate the review scope, the methodological focus, and the future outlook.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Specificity  
+  - **Affected element** Future directions  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The mention of deep learning, immersive analytics, and virtual reality is generic and does not indicate which specific aspects of these technologies are most relevant to protein-carbohydrate interactions.  
+  - **Required correction** Name one or two concrete examples, such as specific deep learning architectures for glycan structure prediction or virtual reality platforms for molecular docking, to give readers a clearer sense of the content.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of the term highly crowded media  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term highly crowded media is used without definition or context, which may be unclear to readers outside the biophysics community.  
+  - **Required correction** Briefly define or contextualize the term, for example by referencing macromolecular crowding in cellular environments.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The abstract alone does not provide sufficient evidence to establish that the review is comprehensive, current, or that the future directions are well grounded. The full text must be examined to verify these claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of computational modeling with emerging technologies such as immersive analytics and virtual reality for protein-carbohydrate interactions is not common in the literature, suggesting some originality. However, the abstract does not indicate how the treatment differs from existing reviews.  
+  - Scientific importance: Protein-carbohydrate interactions are central to many biological processes, and computational approaches are increasingly important. The topic is scientifically important.  
+  - Interdisciplinary readership: The abstract bridges computational biology, glycoscience, and structural biology, which could attract a broad readership. The inclusion of intrinsically disordered proteins and crowded media extends the potential audience.  
+  - Technical soundness: Cannot be assessed from the abstract. The claims about future benefits of specific technologies are not supported by evidence in the abstract.  
+  - Readability for nonspecialists: The abstract is accessible but uses some specialized terms without definition. The full text would need to be assessed for readability.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable review, but the core claims of comprehensiveness and the potential benefits of emerging technologies cannot be verified without the full text. A decision would require examination of the complete manuscript.
+
+## Risk / unsupported claims
+- The claim that the presentation is up-to-date and covers main applications is unsupported in the abstract.
+- The claim that deep learning, immersive analytics, and virtual reality would greatly benefit the listed applications is unsupported in the abstract.
+- The specific relevance of the listed applications (glycoside transferases, extracellular matrix, intrinsically disordered proteins) to the methodological developments is asserted but not demonstrated.
+- The overall quality, depth, and critical evaluation of the review cannot be assessed from the abstract alone.

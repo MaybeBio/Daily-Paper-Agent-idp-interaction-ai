@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "41040036",
+    "doi": "10.1021/acs.jcim.5c01298",
+    "title": "Clustering and Analyzing Ensembles of Residue Interaction Networks from Molecular Dynamics Simulations."
+  },
+  "content": {
+    "abstract": "Network methods and molecular dynamics (MD) simulations have become essential tools for studying protein dynamics. However, applying network methods to MD simulations of flexible proteins is a major challenge, since the high conformational heterogeneity in such multistate systems can lead to vastly different network topologies across an ensemble. To address this, tools that can disentangle conformational ensembles on a network level are needed. Here, we propose a graph-based clustering framework that provides state-specific insight into the residue interactions of flexible proteins. The framework hinges on using the set of graph-theoretic closeness centralities of all amino acid residues as a structural fingerprint and input for unsupervised machine learning algorithms to perform dimensionality reduction and clustering. The resulting clusters horizontal line states with shared network topology horizontal line are subsequently fed back into the upstream workflow and characterized at every representation level. Based on the example of FAT10 horizontal line a protein with intrinsically disordered regions and two folded domains connected by a flexible linker horizontal line we demonstrate how this approach can be used to understand the protein's residue interactions on different, interconnected levels and to characterize its most populated states. Due to the modularity of the framework, it can be easily adapted, which makes it a suitable method to support network-based analyses of MD simulations for a wide variety of proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Cluster Analysis",
+      "*Proteins/chemistry/metabolism",
+      "Protein Conformation",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Franke, Leon",
+        "Peter, Christine"
+      ],
+      "short_names": [
+        "Franke L",
+        "Peter C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8877-438X",
+        "ORCID: 0000-0002-1471-5440"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Konstanz, 78457 Konstanz, Germany.",
+        "Department of Chemistry, University of Konstanz, 78457 Konstanz, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Franke, Leon",
+        "short_name": "Franke L",
+        "identifiers": [
+          "0000-0002-8877-438X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Konstanz, 78457 Konstanz, Germany."
+        ]
+      },
+      {
+        "full_name": "Peter, Christine",
+        "short_name": "Peter C",
+        "identifiers": [
+          "0000-0002-1471-5440"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Konstanz, 78457 Konstanz, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Oct 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/03 06:31",
+    "fetched_at": "2026-09-17 20:40:26"
+  },
+  "links": {
+    "cites": [
+      "41373876"
+    ],
+    "refs": [
+      "40081192",
+      "39900284",
+      "39862593",
+      "39655478",
+      "39569152",
+      "39432675",
+      "39332048",
+      "38984715",
+      "38688074",
+      "38506664",
+      "38442651",
+      "37437128",
+      "37122117",
+      "37061494",
+      "36468086",
+      "36438625",
+      "35853932",
+      "35554554",
+      "35319195",
+      "35129612",
+      "34589183",
+      "33973773",
+      "33945269",
+      "33606945",
+      "33032427",
+      "32939066",
+      "32196332",
+      "31972477",
+      "31647645",
+      "31275943",
+      "31268315",
+      "31005087",
+      "30911759",
+      "30744993",
+      "30632745",
+      "30530700",
+      "30500196",
+      "30342445",
+      "30236283",
+      "30127417",
+      "29956925",
+      "29226011",
+      "28710774",
+      "27058020",
+      "26922996",
+      "26889708",
+      "26488642",
+      "26412788",
+      "26216263",
+      "23613730",
+      "23333871",
+      "23186336",
+      "21730167",
+      "21533652",
+      "19351898",
+      "18704933",
+      "16882992",
+      "16355416",
+      "15544817",
+      "15264254",
+      "12084924"
+    ],
+    "similar": [
+      "41040036",
+      "37122117",
+      "38978294",
+      "31793290",
+      "22082218",
+      "36934808",
+      "40742756",
+      "30840442",
+      "21617814",
+      "32525675",
+      "29800260",
+      "21569575",
+      "23912807",
+      "39432675",
+      "41129692",
+      "24211466",
+      "23548025",
+      "41346034",
+      "40042172",
+      "39499823",
+      "37418278",
+      "31660848",
+      "40907012",
+      "26735936",
+      "35705565",
+      "39099394",
+      "40524624",
+      "39190324",
+      "40960922",
+      "36987865",
+      "38019981",
+      "40509337",
+      "20082384",
+      "37646172",
+      "38053335",
+      "22720789",
+      "39093570",
+      "31809054",
+      "23934896",
+      "34364321",
+      "32929427",
+      "36774359",
+      "34021153",
+      "25873944",
+      "40360271",
+      "38830621",
+      "41137856",
+      "39412378",
+      "37079739",
+      "29513352",
+      "37241789",
+      "38173388",
+      "30731089",
+      "35934194",
+      "38275091",
+      "24089737",
+      "37933128",
+      "36084124",
+      "33030907",
+      "31445064",
+      "30878202",
+      "31877033",
+      "26807783",
+      "30582223",
+      "33078950",
+      "41432303",
+      "28623339",
+      "39684679",
+      "39163306",
+      "41257331",
+      "30447084",
+      "21530234",
+      "24975328",
+      "34627764",
+      "27292100",
+      "35129612",
+      "35834424",
+      "41214806",
+      "38116756",
+      "26218832",
+      "39014286",
+      "40914688",
+      "31994887",
+      "20453929",
+      "34680137",
+      "39332396",
+      "32383869",
+      "38739602",
+      "39588651",
+      "30204435",
+      "37116337",
+      "24486230",
+      "20965786",
+      "39655478",
+      "31548393",
+      "30617833",
+      "38018910",
+      "32119546",
+      "24671380",
+      "26487681"
+    ],
+    "review": [
+      "41040036",
+      "31793290",
+      "30840442",
+      "23548025",
+      "39093570",
+      "37241789",
+      "26807783",
+      "21530234",
+      "35129612",
+      "40914688",
+      "20453929",
+      "20965786"
+    ],
+    "pmc": [
+      "12570133"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41040036/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01298",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

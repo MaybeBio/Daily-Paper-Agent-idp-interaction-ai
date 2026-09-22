@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34681718",
+  "title": "The Effect of Multisite Phosphorylation on the Conformational Properties of Intrinsically Disordered Proteins.",
+  "authors": "Rieloff, Ellen; Skepo, Marie",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-10-24",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用全原子MD模拟研究tau、statherin和beta-casein无序肽段的多位点磷酸化对其构象性质的影响，揭示盐桥和电荷分布调控机制，虽未直接研究PPI，但为IDP磷酸化调控互作构象的机制建模提供了可迁移的物理模拟思路。",
+  "abstract": "Intrinsically disordered proteins are involved in many biological processes such as signaling, regulation, and recognition. A common strategy to regulate their function is through phosphorylation, as it can induce changes in conformation, dynamics, and interactions with binding partners. Although phosphorylated intrinsically disordered proteins have received increased attention in recent years, a full understanding of the conformational and structural implications of phosphorylation has not yet been achieved. Here, we present all-atom molecular dynamics simulations of five disordered peptides originated from tau, statherin, and beta-casein, in both phosphorylated and non-phosphorylated state, to compare changes in global dimensions and structural elements, in an attempt to gain more insight into the controlling factors. The changes are in qualitative agreement with experimental data, and we observe that the net charge is not enough to predict the impact of phosphorylation on the global dimensions. Instead, the distribution of phosphorylated and positively charged residues throughout the sequence has great impact due to the formation of salt bridges. In statherin, a preference for arginine-phosphoserine interaction over arginine-tyrosine accounts for a global expansion, despite a local contraction of the phosphorylated region, which implies that also non-charged residues can influence the effect of phosphorylation.",
+  "abstract_zh": "intrinsically disordered proteins（固有无序蛋白）参与许多生物过程，如信号传导、调控和识别。调控其功能的常见策略是通过磷酸化，因为它能诱导构象、动力学以及与结合伙伴相互作用的改变。尽管近年来磷酸化的固有无序蛋白受到越来越多的关注，但对其磷酸化在构象和结构上的影响尚未完全理解。在此，我们展示了来自tau、statherin和beta-casein的五个无序肽段在磷酸化和非磷酸化状态下的全原子分子动力学模拟，以比较整体尺寸和结构元件的变化，旨在更深入地了解控制因素。这些变化与实验数据定性一致，我们观察到净电荷不足以预测磷酸化对整体尺寸的影响。相反，磷酸化和带正电残基在整个序列中的分布由于盐桥的形成而具有重大影响。在statherin中，精氨酸-磷酸丝氨酸相互作用优于精氨酸-酪氨酸的偏好导致了整体扩张，尽管磷酸化区域局部收缩，这暗示非带电残基也能影响磷酸化的效应。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34681718/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34681718/",
+  "paper_page_path": "papers/pubmed/34681718/index.html"
+}

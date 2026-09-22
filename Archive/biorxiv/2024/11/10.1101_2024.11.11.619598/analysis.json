@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.11.619598",
+  "title": "Identification of methylation-sensitive human transcription factors using meSMiLE-seq",
+  "authors": "Gralak AJ; Faltejskova K; Yang AW; Steiner C; Russeil J; Grenningloh N; Inukai S; Demir M; Dainese R; Owen C; Pankevich E; Hughes TR; Kulakovskiy IV; Kribelbauer-Swietek JF; van Mierlo G; Deplancke B",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-12",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究转录因子与甲基化DNA的结合特异性，对象为折叠蛋白与DNA互作，不涉及无序蛋白/IDR/相分离，且无AI或物理模拟方法，与本课题无关。",
+  "abstract": "Transcription factors (TFs) are key players in eukaryotic gene regulation, but the DNA binding specificity of many TFs remains unknown. Here, we assayed 284 mostly poorly characterized, putative human TFs using selective microfluidics-based ligand enrichment followed by sequencing (SMiLE-seq), revealing 72 new DNA binding motifs. To investigate whether some of the 158 TFs for which we did not find motifs preferably bind epigenetically modified DNA (i.e. methylated CG dinucleotides), we developed methylation-sensitive SMiLE-seq (meSMiLE-seq). This microfluidic assay simultaneously probes the affinity of a protein to methylated and unmethylated DNA, augmenting the capabilities of the original method to infer methylation-aware binding sites. We assayed 114 TFs with meSMiLE-seq and identified DNA-binding models for 48 proteins, including the known methylation-sensitive binding modes for POU5F1 and RFX5. For 11 TFs, binding to methylated DNA was preferred or resulted in the discovery of alternative, methylation-dependent motifs (e.g. PRDM13), while aversion towards methylated sequences was found for 13 TFs (e.g. USF3). Finally, we uncovered a potential role for ZHX2 as a putative binder of Z-DNA, a left-handed helical DNA structure which is adopted more frequently upon CpG methylation. Altogether, our study significantly expands the human TF codebook by identifying DNA binding motifs for 98 TFs, while providing a versatile platform to quantitatively assay the impact of DNA modifications on TF binding.",
+  "abstract_zh": "转录因子（TFs）是真核基因调控中的关键角色，但许多TFs的DNA结合特异性仍属未知。在此，我们利用基于选择性微流体的配体富集后测序（SMiLE-seq）技术，对284个大多特征不明、推定的人类TFs进行了检测，揭示了72个新的DNA结合基序。为了探究我们未发现基序的158个TFs中是否有部分偏好结合表观遗传修饰的DNA（即甲基化的CG二核苷酸），我们开发了甲基化敏感的SMiLE-seq（meSMiLE-seq）。这种微流体检测方法同时探测蛋白质对甲基化和非甲基化DNA的亲和力，增强了原始方法推断甲基化感知结合位点的能力。我们使用meSMiLE-seq检测了114个TFs，并为48种蛋白质确定了DNA结合模型，包括已知的POU5F1和RFX5的甲基化敏感结合模式。对于11个TFs，与甲基化DNA的结合被偏好，或导致发现替代的、依赖甲基化的基序（如PRDM13），而13个TFs（如USF3）则表现出对甲基化序列的回避。最后，我们揭示了ZHX2作为Z-DNA推定结合物的潜在作用，Z-DNA是一种左手螺旋DNA结构，在CpG甲基化后更频繁地采用。总体而言，我们的研究通过识别98个TFs的DNA结合基序显著扩展了人类TF编码手册，同时提供了一个多功能平台，用于定量评估DNA修饰对TF结合的影响。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.11.619598",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.619598",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.11.619598/index.html"
+}

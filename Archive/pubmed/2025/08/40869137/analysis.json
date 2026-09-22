@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40869137",
+  "title": "Importin alpha3 Is Tolerant to Nuclear Localization Signal Chirality.",
+  "authors": "Hornos, Felipe; Rizzuti, Bruno; Neira, Jose L",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2025-08-30",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过实验与分子模拟考察无序NLS肽段D-对映体与importin alpha3的结合，虽涉及无序肽段与PPI及模拟，但核心是手性耐受性而非互作机制建模，且对象为短肽而非完整IDP/相分离，故给6分。",
+  "abstract": "Several carrier proteins are involved in nuclear translocation from the cytoplasm to the nucleus in eukaryotic cells. We have previously demonstrated the binding of several intact folded and disordered proteins to the human isoform importin alpha3 (Impalpha3); furthermore, disordered peptides, corresponding to their nuclear localization signals (NLSs), also interact with Impalpha3. These proteins and their isolated NLSs also bind to the truncated importin species ∆Impalpha3, which does not contain the N-terminal disordered importin binding domain (IBB). In this work, we added a further 'layer' of conformational disorder to our studies, testing whether the isolated D-enantiomers of NLSs of selected proteins, either folded or unfolded, were capable of binding to both Impalpha3 and ∆Impalpha3. The D-enantiomers, like their L-form counterparts, were monomeric and disordered in isolation, as shown by nuclear magnetic resonance (NMR). We measured the ability of such D-enantiomeric NLSs to interact with both importin species by using fluorescence, biolayer interferometry (BLI), isothermal titration calorimetry (ITC), and molecular simulations. In all cases, the binding affinities were within the same range as those measured for their L-isomer counterparts for either Impalpha3 or ∆Impalpha3, and the binding locations corresponded to the major NLS binding site of the protein. Thus, the stereoisomeric nature is not important in defining the binding of proteins to the main component of classical cellular translocation machinery, although the primary structure of the hot-spot site for NLS binding of importin is well defined.",
+  "abstract_zh": "多种载体蛋白参与真核细胞中从细胞质到细胞核的核转位过程。我们先前已证明多种完整折叠和 disordered 蛋白与人源异构体 importin alpha3 (Impalpha3) 的结合；此外，对应于其核定位信号 (NLSs) 的 disordered 肽段也能与 Impalpha3 相互作用。这些蛋白及其分离的 NLSs 同样能与截短的 importin 变体 ∆Impalpha3 结合，该变体不包含 N 端 disordered importin 结合域 (IBB)。在本研究中，我们为实验增加了构象无序的又一“层次”，测试所选蛋白（无论折叠或未折叠）的 NLSs 分离的 D-对映异构体是否能够与 Impalpha3 和 ∆Impalpha3 结合。D-对映异构体与其 L-型对应物一样，在分离状态下为单体且 disordered，这通过核磁共振 (NMR) 得以证实。我们利用荧光、生物层干涉法 (BLI)、等温滴定量热法 (ITC) 和分子模拟测量了这些 D-对映异构体 NLSs 与两种 importin 物种的相互作用能力。在所有情况下，结合亲和力均与其 L-异构体对应物对 Impalpha3 或 ∆Impalpha3 的测量值处于相同范围内，且结合位点对应于蛋白的主要 NLS 结合位点。因此，立体异构性质在定义蛋白与经典细胞转位机制主要组分的结合中并不重要，尽管 importin 的 NLS 结合热点位点的一级结构是明确界定的。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40869137/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40869137/",
+  "paper_page_path": "papers/pubmed/40869137/index.html"
+}

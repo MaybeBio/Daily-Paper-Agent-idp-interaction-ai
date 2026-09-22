@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "33727072",
+    "doi": "10.1016/j.ymeth.2021.03.005",
+    "title": "Hybrid resolution molecular dynamics simulations of amyloid proteins interacting with membranes."
+  },
+  "content": {
+    "abstract": "A broad range of human diseases, including Alzheimer's and Parkinson's diseases, arise from or have as key players intrinsically disordered proteins. The aggregation of these amyloid proteins into fibrillar aggregates are the key events of such diseases. Characterizing the conformation dynamics of the proteins involved is crucial for understanding the molecular mechanisms of aggregation, which in turn is important for drug development efforts against these diseases. Computational approaches have provided extensive detail about some steps of the aggregation process, however the biologically relevant elements responsible for the aggregation and or aggregation propagation have not been fully characterized. Here we describe a hybrid resolution molecular dynamics simulation method that can be employed to investigate the interaction of amyloid proteins with lipid membranes, shown to dramatically accelerate the aggregation propensity of amyloid proteins. The hybrid resolution method enables routine and accurate simulation of multi-protein and complex membrane systems, mimicking biologically relevant lipid membranes, on microsecond time scales. The hybrid resolution method was applied to computer modeling of the interactions of alpha -synuclein protein with a mixed lipid bilayer.",
+    "keywords": [
+      "Amyloid oligomer",
+      "Coarse-grained",
+      "Hybrid resolution",
+      "Lipid bilayer",
+      "Molecular dynamics",
+      "Neurodegeneration",
+      "Protein-lipid interaction"
+    ],
+    "mesh_terms": [
+      "Amyloid beta-Peptides",
+      "Amyloidogenic Proteins",
+      "Humans",
+      "*Intrinsically Disordered Proteins",
+      "Lipid Bilayers",
+      "Molecular Dynamics Simulation",
+      "*Parkinson Disease"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hashemi, Mohtadin",
+        "Lyubchenko, Yuri L"
+      ],
+      "short_names": [
+        "Hashemi M",
+        "Lyubchenko YL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmaceutical Science, University of Nebraska Medical Center, 986025 Nebraska Medical Center, Omaha, NE 68198-6025, United States.",
+        "Department of Pharmaceutical Science, University of Nebraska Medical Center, 986025 Nebraska Medical Center, Omaha, NE 68198-6025, United States. Electronic address: ylyubchenko@unmc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hashemi, Mohtadin",
+        "short_name": "Hashemi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Science, University of Nebraska Medical Center, 986025 Nebraska Medical Center, Omaha, NE 68198-6025, United States."
+        ]
+      },
+      {
+        "full_name": "Lyubchenko, Yuri L",
+        "short_name": "Lyubchenko YL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Science, University of Nebraska Medical Center, 986025 Nebraska Medical Center, Omaha, NE 68198-6025, United States. Electronic address: ylyubchenko@unmc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods (San Diego, Calif.)"
+    ],
+    "journal_abbrev": [
+      "Methods"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/18 06:00",
+    "fetched_at": "2026-09-20 02:06:52"
+  },
+  "links": {
+    "cites": [
+      "38542338"
+    ],
+    "refs": [
+      "33492944",
+      "32752662",
+      "32463238",
+      "32046252",
+      "31867969",
+      "31589781",
+      "31395777",
+      "31260119",
+      "31226488",
+      "31135820",
+      "30236283",
+      "29113676",
+      "28811267",
+      "27830791",
+      "26723627",
+      "26621095",
+      "26617092",
+      "26596171",
+      "26592891",
+      "26276603",
+      "26051935",
+      "24624945",
+      "23638301",
+      "23204949",
+      "22837695",
+      "22582033",
+      "22403391",
+      "22286176",
+      "22101602",
+      "20961626",
+      "20383142",
+      "19481095",
+      "19444816",
+      "19216516",
+      "18774805",
+      "18723507",
+      "18351591",
+      "17569554",
+      "16756495",
+      "16481071",
+      "15851687",
+      "15653506",
+      "15615727",
+      "15516999",
+      "15272267",
+      "15134647",
+      "15036202",
+      "11286556",
+      "10915790",
+      "9545270",
+      "9356260",
+      "8744570"
+    ],
+    "similar": [
+      "33727072",
+      "33269918",
+      "37329644",
+      "35144022",
+      "35167081",
+      "32623047",
+      "37486638",
+      "28585804",
+      "31655893",
+      "30973229",
+      "30216674",
+      "33328273",
+      "35167075",
+      "32551617",
+      "19133272",
+      "25581460",
+      "37686208",
+      "31521231",
+      "33973758",
+      "34268903",
+      "30170005",
+      "31342431",
+      "32584021",
+      "36232847",
+      "35298810",
+      "26479553",
+      "33492944",
+      "23493873",
+      "35269945",
+      "36310204",
+      "33174726",
+      "21910473",
+      "32046252",
+      "32557766",
+      "22281438",
+      "31903719",
+      "33167839",
+      "26453205",
+      "33538595",
+      "36550041",
+      "33845574",
+      "35869787",
+      "35670831",
+      "35167078",
+      "27934063",
+      "28665188",
+      "22874669",
+      "21192698",
+      "35034725",
+      "30917651",
+      "32711259",
+      "23331195",
+      "27936589",
+      "22181459",
+      "23408546",
+      "32371882",
+      "26426973",
+      "29595197",
+      "29378116",
+      "35167084",
+      "26453216",
+      "35681426",
+      "30657326",
+      "24892900",
+      "19186121",
+      "26923286",
+      "24094402",
+      "32846182",
+      "17292851",
+      "30971084",
+      "18769546",
+      "24970204",
+      "32770501",
+      "21625573",
+      "36922119",
+      "28154182",
+      "31928730",
+      "38237885",
+      "35167072",
+      "30315896",
+      "25719673",
+      "26827904",
+      "23952054",
+      "20946608",
+      "29453901",
+      "30142705",
+      "36615582",
+      "33279865",
+      "29853639",
+      "35635892",
+      "35579427",
+      "34784548",
+      "37037120",
+      "30605312",
+      "36179370",
+      "29601727",
+      "31595905",
+      "36756755",
+      "36889133",
+      "26989481",
+      "37433124",
+      "36514832",
+      "39124852",
+      "38681860",
+      "32268219",
+      "27413767",
+      "38761107",
+      "37967012"
+    ],
+    "review": [
+      "33727072",
+      "35144022",
+      "30973229",
+      "30216674",
+      "31521231",
+      "33167839",
+      "35670831",
+      "35681426",
+      "17292851",
+      "24970204",
+      "32770501",
+      "31928730",
+      "35167072",
+      "30315896",
+      "29453901",
+      "33279865",
+      "31595905",
+      "36889133",
+      "38681860",
+      "32268219",
+      "38761107"
+    ],
+    "pmc": [
+      "8435541"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1046-2023(21)00071-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33727072/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33727072",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33727072",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

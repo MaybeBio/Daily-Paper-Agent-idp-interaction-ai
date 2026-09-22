@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The study reports that KEIF, the intrinsically disordered N-terminal region of the magnesium transporter MgtA, undergoes a disorder-to-order transition, with increased alpha-helical content, upon adsorption to lipid bilayers. The peptide localizes primarily in the hydrophobic tail region of the bilayer, may displace lipids, and its adsorption is modulated by electrostatic interactions dependent on bilayer charge and ionic strength. These observations are interpreted as evidence that KEIF's conformational changes and bilayer interactions may modulate MgtA function in the plasma membrane.
+- **Visible evidence base** Abstract text only; no experimental data, figures, tables, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation parameters, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting biophysical study of an intrinsically disordered protein region interacting with model lipid membranes. The combination of multiple experimental techniques with MD simulations is commendable. However, the abstract provides insufficient quantitative detail to evaluate the robustness of the findings. The central claims regarding conformational change, peptide localization, lipid displacement, and electrostatic modulation are stated without supporting data. The interpretive leap from in vitro bilayer experiments to a modulatory role in MgtA function within the plasma membrane is speculative and not supported by the evidence described. The work may be of interest to the membrane biophysics and intrinsically disordered protein communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, membrane protein regulation, protein-lipid interactions, and biophysical methods for interfacial studies. The work could also interest those focused on magnesium transport mechanisms and the role of disordered regions in membrane protein function.
+- **Major strengths** The study employs a multi-technique approach, combining neutron reflectometry, QCM-D, SRCD, OCD, and MD simulations, which is a rigorous strategy for characterizing peptide-bilayer interactions. The systematic variation of bilayer composition and ionic strength is a sensible design for probing electrostatic effects. The focus on an intrinsically disordered region of a membrane transporter addresses an understudied aspect of membrane protein biology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** KEIF transitions from a disordered to a more structured state, notably increasing alpha-helical content upon adsorption to lipid bilayers.
+  - **Evidence pointer** Abstract, Findings section; specific figures or tables not provided
+  - **Concern** The abstract states that KEIF increases alpha-helical content upon adsorption but provides no quantitative data, such as percent helicity values, spectral comparisons, or statistical significance. No information is given on how the helical content was calculated from SRCD or OCD data, nor how the disordered state was defined.
+  - **Why it matters** The central claim of the study is a conformational transition. Without quantitative evidence, the magnitude and reproducibility of this transition cannot be assessed. The claim is foundational to the interpretation of functional relevance.
+  - **Resolution test** Provide quantitative helical content values for KEIF in solution and in the presence of each bilayer type, with error estimates and statistical comparisons. Show representative spectra and fitting details.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The peptide resides primarily in the hydrophobic tail region of the bilayer, where it may displace lipids.
+  - **Evidence pointer** Abstract, Findings section; specific figures or tables not provided
+  - **Concern** The abstract claims peptide localization in the hydrophobic tail region and possible lipid displacement, but no data from neutron reflectometry or MD simulations are presented to support this. The depth of insertion, the extent of lipid displacement, and the structural basis for these conclusions are not described.
+  - **Why it matters** Localization within the bilayer is a key mechanistic claim. If the peptide is not deeply inserted, the proposed modulatory role would be less plausible. Lipid displacement has implications for membrane integrity and function, and this claim requires direct evidence.
+  - **Resolution test** Show neutron reflectometry scattering length density profiles with fitted peptide distributions, and MD simulation density profiles for peptide and lipid components. Quantify lipid displacement if claimed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-scope match
+  - **Claim pointer** These results suggest that KEIF's conformational changes and bilayer interactions can be integral to its potential modulatory role in MgtA function within the plasma membrane.
+  - **Evidence pointer** Abstract, Findings and concluding statements
+  - **Concern** The abstract extrapolates from in vitro experiments on an isolated peptide fragment with model bilayers to a functional role in a full-length membrane transporter in a cellular context. No experiments with full-length MgtA, native membranes, or functional assays are described. The connection between the observed biophysical phenomena and MgtA function is purely speculative.
+  - **Why it matters** The stated hypothesis is that KEIF influences MgtA function. The presented evidence cannot test this hypothesis. Overstating the functional implications may mislead readers about the study's scope.
+  - **Resolution test** Either temper the conclusion to state that the findings are consistent with a potential modulatory role but require functional validation, or add experiments with full-length MgtA or cellular assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract, Experiments section
+  - **Issue** The abstract mentions zwitterionic versus anionic bilayers and different salt concentrations but does not specify which lipids were used, the range of salt concentrations, or the rationale for these choices.
+  - **Required correction** Specify lipid compositions and salt concentration range in the abstract or refer to methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "KEIF"
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The acronym KEIF is introduced without defining what it stands for. This may confuse readers unfamiliar with MgtA biology.
+  - **Required correction** Define KEIF at first use, for example, as the N-terminal intrinsically disordered region of MgtA, with the acronym expanded.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Adsorption behavior
+  - **Evidence pointer** Abstract, Findings section
+  - **Issue** The abstract states that electrostatic interactions play a critical role but provides no quantitative measures such as binding affinities, surface coverages, or changes in dissipation from QCM-D.
+  - **Required correction** Include representative quantitative values for adsorption under different conditions, or state that such data are in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or mechanistic evidence to support the central claims of conformational transition, bilayer localization, and functional relevance.
+- **Assessment against Nature-style criteria** Originality: The study addresses a relevant and somewhat underexplored topic, the role of an intrinsically disordered region in a membrane transporter, which is a reasonable contribution to the field. Scientific importance: The potential link between disorder-to-order transitions and membrane protein regulation is of interest, but the abstract does not establish a generalizable principle or a clear advance beyond a case study. Interdisciplinary readership: The topic could appeal to biophysicists, biochemists, and cell biologists, but the abstract is written in a specialized manner that may limit broader accessibility. Technical soundness: The multi-technique approach is sound in principle, but the abstract does not demonstrate that the data are robust or that the interpretations are well constrained. Readability for nonspecialists: The abstract is concise but assumes familiarity with techniques and concepts, and the acronym KEIF is undefined, which reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable study, but the central claims are not supported by the data presented in the abstract. A full manuscript with quantitative results and appropriate caveats on functional interpretation would be needed to assess the work properly.
+
+## Risk / unsupported claims
+- The claim that KEIF increases alpha-helical content upon adsorption is unsupported by quantitative data in the abstract.
+- The claim that KEIF resides primarily in the hydrophobic tail region and may displace lipids is unsupported by any presented data.
+- The claim that KEIF's conformational changes and bilayer interactions are integral to a modulatory role in MgtA function is speculative and not testable from the described experiments.
+- The statement that electrostatic interactions play a critical role is plausible but not quantitatively supported in the abstract.

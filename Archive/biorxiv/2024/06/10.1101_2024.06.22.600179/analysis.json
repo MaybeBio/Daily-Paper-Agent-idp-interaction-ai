@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.22.600179",
+  "title": "AllergenAI: a deep learning model predicting allergenicity based on protein sequence",
+  "authors": "Chengyuan Yang; Surendra S Negi; Catherine H Schein; Werner Braun; Pora Kim",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-27",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用CNN基于序列预测蛋白致敏性，虽涉及蛋白互作表位但非IDP/PPI机制建模，方法可迁移性有限。",
+  "abstract": "Innovations in protein engineering can help redesign allergenic proteins to reduce adverse reactions in sensitive individuals. To accomplish this aim, a better knowledge of the molecular properties of allergenic proteins and the molecular features that make a protein allergenic is needed. We present a novel AI-based tool, AllergenAI, to quantify the allergenic potential of a given protein. Our approach is solely based on protein sequences, differentiating it from previous tools that use some knowledge of the allergens’ physicochemical and other properties in addition to sequence homology. We used the collected data on protein sequences of allergenic proteins as archived in the three well-established databases, SDAP 2.0, COMPARE, and AlgPred 2, to train a convolutional neural network and assessed its prediction performance by cross-validation. We then used Allergen AI to find novel potential proteins of the cupin family in date palm, spinach, maize, and red clover plants with a high allergenicity score that might have an adverse allergenic effect on sensitive individuals. By analyzing the feature importance scores (FIS) of vicilins, we identified a proline-alanine-rich (P-A) motif in the top 50% of FIS regions that overlapped with known IgE epitope regions of vicilin allergens. Furthermore, using∼ 1600 allergen structures in our SDAP database, we showed the potential to incorporate 3D information in a CNN model. Future, incorporating 3D information in training data should enhance the accuracy. AllergenAI is a novel foundation for identifying the critical features that distinguish allergenic proteins.",
+  "abstract_zh": "蛋白质工程领域的创新有助于重新设计致敏蛋白，以减少敏感个体中的不良反应。为实现这一目标，需要更深入地了解致敏蛋白的分子特性以及使蛋白质具有致敏性的分子特征。我们提出了一种基于人工智能的新型工具AllergenAI，用于量化给定蛋白质的致敏潜力。我们的方法仅基于蛋白质序列，这区别于以往那些除序列同源性外还利用过敏原理化性质及其他特性知识的工具。我们利用三个公认数据库（SDAP 2.0、COMPARE和AlgPred 2）中存档的致敏蛋白序列数据，训练了一个卷积神经网络，并通过交叉验证评估了其预测性能。随后，我们使用AllergenAI在枣椰树、菠菜、玉米和红三叶草植物中发现了新的潜在cupin家族蛋白，这些蛋白具有高致敏性评分，可能对敏感个体产生不良过敏效应。通过分析vicilins的特征重要性评分（FIS），我们在前50%的FIS区域中识别出一个脯氨酸-丙氨酸富集（P-A）基序，该基序与已知的vicilin过敏原IgE表位区域重叠。此外，利用我们SDAP数据库中约1600个过敏原结构，我们展示了在CNN模型中整合3D信息的可能性。未来，在训练数据中加入3D信息应能提高准确性。AllergenAI是识别区分致敏蛋白关键特征的新基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.22.600179",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.22.600179",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.22.600179/index.html"
+}

@@ -1,0 +1,501 @@
+{
+  "identity": {
+    "pmid": "40216775",
+    "doi": "10.1038/s41467-025-58736-z",
+    "title": "Differential interactions determine anisotropies at interfaces of RNA-based biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates form via macromolecular phase separation. Here, we report results from our characterization of synthetic condensates formed by phase separation of mixtures comprising two types of RNA molecules and the biocompatible polymer polyethylene glycol. Purine-rich RNAs are scaffolds that drive phase separation via heterotypic interactions. Conversely, pyrimidine-rich RNA molecules are adsorbents defined by weaker heterotypic interactions. They adsorb onto and wet the interfaces of coexisting phases formed by scaffolds. Lattice-based simulations reproduce the phenomenology observed in experiments and these simulations predict that scaffolds and adsorbents have different non-random orientational preferences at interfaces. Dynamics at interfaces were probed using single-molecule tracking of fluorogenic probes bound to RNA molecules. These experiments revealed dynamical anisotropy at interfaces whereby motions of probe molecules parallel to the interface are faster than motions perpendicular to the interface. Taken together, our findings have broad implications for designing synthetic condensates with tunable interfacial properties.",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA/chemistry",
+      "*Biomolecular Condensates/chemistry",
+      "Polyethylene Glycols/chemistry",
+      "Anisotropy",
+      "Fluorescent Dyes/chemistry",
+      "Adsorption"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Erkamp, Nadia A",
+        "Farag, Mina",
+        "Qiu, Yuanxin",
+        "Qian, Daoyuan",
+        "Sneideris, Tomas",
+        "Wu, Tingting",
+        "Welsh, Timothy J",
+        "Ausserwoger, Hannes",
+        "Krug, Tommy J",
+        "Chauhan, Gaurav",
+        "Weitz, David A",
+        "Lew, Matthew D",
+        "Knowles, Tuomas P J",
+        "Pappu, Rohit V"
+      ],
+      "short_names": [
+        "Erkamp NA",
+        "Farag M",
+        "Qiu Y",
+        "Qian D",
+        "Sneideris T",
+        "Wu T",
+        "Welsh TJ",
+        "Ausserwoger H",
+        "Krug TJ",
+        "Chauhan G",
+        "Weitz DA",
+        "Lew MD",
+        "Knowles TPJ",
+        "Pappu RV"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4095-2105",
+        "ORCID: 0000-0002-6457-6848",
+        "ORCID: 0009-0008-4548-3057",
+        "ORCID: 0000-0002-8539-3346",
+        "ORCID: 0000-0001-5285-871X",
+        "ORCID: 0000-0003-0762-8872",
+        "ORCID: 0000-0003-2510-8635",
+        "ORCID: 0000-0001-6678-5208",
+        "ORCID: 0000-0002-5614-3292",
+        "ORCID: 0000-0002-7879-0140",
+        "ORCID: 0000-0003-2568-1378"
+      ],
+      "affiliations": [
+        "Yusuf Hamied Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK.",
+        "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Institute for Complex Molecular Systems (ICMS), Department of Biomedical Engineering, Eindhoven University of Technology, Eindhoven, The Netherlands.",
+        "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biomedical Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Electrical and Systems Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Yusuf Hamied Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK.",
+        "Department of Electrical and Systems Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Yusuf Hamied Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK.",
+        "Yusuf Hamied Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK.",
+        "John A. Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, USA.",
+        "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biomedical Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Chemical Engineering, Indian Institute of Technology, Indore, Madhya Pradesh, India.",
+        "John A. Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, USA.",
+        "Department of Physics, Harvard University, Cambridge, MA, USA.",
+        "Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, MA, USA.",
+        "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA. mdlew@wustl.edu.",
+        "Department of Electrical and Systems Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA. mdlew@wustl.edu.",
+        "Yusuf Hamied Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK. tpjk2@cam.ac.uk.",
+        "Department of Physics, Cavendish Laboratory, University of Cambridge, Cambridge, UK. tpjk2@cam.ac.uk.",
+        "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA. pappu@wustl.edu.",
+        "Department of Biomedical Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA. pappu@wustl.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Erkamp, Nadia A",
+        "short_name": "Erkamp NA",
+        "identifiers": [
+          "0000-0003-4095-2105"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK.",
+          "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+          "Institute for Complex Molecular Systems (ICMS), Department of Biomedical Engineering, Eindhoven University of Technology, Eindhoven, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Farag, Mina",
+        "short_name": "Farag M",
+        "identifiers": [
+          "0000-0002-6457-6848"
+        ],
+        "affiliations": [
+          "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+          "Department of Biomedical Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Qiu, Yuanxin",
+        "short_name": "Qiu Y",
+        "identifiers": [
+          "0009-0008-4548-3057"
+        ],
+        "affiliations": [
+          "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+          "Department of Electrical and Systems Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Qian, Daoyuan",
+        "short_name": "Qian D",
+        "identifiers": [
+          "0000-0002-8539-3346"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Sneideris, Tomas",
+        "short_name": "Sneideris T",
+        "identifiers": [
+          "0000-0001-5285-871X"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Wu, Tingting",
+        "short_name": "Wu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Systems Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Welsh, Timothy J",
+        "short_name": "Welsh TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Ausserwöger, Hannes",
+        "short_name": "Ausserwöger H",
+        "identifiers": [
+          "0000-0003-0762-8872"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Krug, Tommy J",
+        "short_name": "Krug TJ",
+        "identifiers": [],
+        "affiliations": [
+          "John A. Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Chauhan, Gaurav",
+        "short_name": "Chauhan G",
+        "identifiers": [
+          "0000-0003-2510-8635"
+        ],
+        "affiliations": [
+          "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+          "Department of Biomedical Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA.",
+          "Department of Chemical Engineering, Indian Institute of Technology, Indore, Madhya Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Weitz, David A",
+        "short_name": "Weitz DA",
+        "identifiers": [
+          "0000-0001-6678-5208"
+        ],
+        "affiliations": [
+          "John A. Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, USA.",
+          "Department of Physics, Harvard University, Cambridge, MA, USA.",
+          "Wyss Institute for Biologically Inspired Engineering, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Lew, Matthew D",
+        "short_name": "Lew MD",
+        "identifiers": [
+          "0000-0002-5614-3292"
+        ],
+        "affiliations": [
+          "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA. mdlew@wustl.edu.",
+          "Department of Electrical and Systems Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA. mdlew@wustl.edu."
+        ]
+      },
+      {
+        "full_name": "Knowles, Tuomas P J",
+        "short_name": "Knowles TPJ",
+        "identifiers": [
+          "0000-0002-7879-0140"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, Centre for Misfolding Disease, University of Cambridge, Cambridge, UK. tpjk2@cam.ac.uk.",
+          "Department of Physics, Cavendish Laboratory, University of Cambridge, Cambridge, UK. tpjk2@cam.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [
+          "0000-0003-2568-1378"
+        ],
+        "affiliations": [
+          "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA. pappu@wustl.edu.",
+          "Department of Biomedical Engineering, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, USA. pappu@wustl.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Apr 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/12 00:42",
+    "fetched_at": "2026-09-21 17:42:44"
+  },
+  "links": {
+    "cites": [
+      "42610615",
+      "42360027",
+      "42032061",
+      "41952265",
+      "41863073",
+      "41636358",
+      "41287583",
+      "41271557",
+      "41203642",
+      "41160155",
+      "41022793",
+      "40964071",
+      "40894760",
+      "40727669",
+      "40441157",
+      "40386802",
+      "39554013",
+      "38464104",
+      "36747818"
+    ],
+    "refs": [
+      "40131954",
+      "39562556",
+      "39464253",
+      "39385023",
+      "39356108",
+      "39320949",
+      "39225536",
+      "39102550",
+      "38503281",
+      "38467846",
+      "38383656",
+      "38316988",
+      "37996438",
+      "37932412",
+      "37862690",
+      "37837191",
+      "37749234",
+      "37684240",
+      "37546704",
+      "37196085",
+      "36881934",
+      "36755024",
+      "36747054",
+      "36543777",
+      "36513655",
+      "36463407",
+      "36191226",
+      "35001622",
+      "34931046",
+      "34766758",
+      "34507991",
+      "34475202",
+      "33690542",
+      "32956958",
+      "32873929",
+      "32832582",
+      "32661370",
+      "32648275",
+      "32632317",
+      "32619404",
+      "32553117",
+      "32405004",
+      "32302572",
+      "32302571",
+      "32302570",
+      "32029630",
+      "31958956",
+      "31928844",
+      "31634364",
+      "31437398",
+      "31175012",
+      "30926670",
+      "30682370",
+      "30323334",
+      "29972809",
+      "29133588",
+      "28935776",
+      "28537592",
+      "28225081",
+      "27298435",
+      "27212236",
+      "27056844",
+      "24464134",
+      "23558786",
+      "22763747",
+      "22743772",
+      "1614866"
+    ],
+    "similar": [
+      "40216775",
+      "39356108",
+      "36993212",
+      "39591652",
+      "37684240",
+      "39987501",
+      "37996438",
+      "37205474",
+      "33864415",
+      "36883003",
+      "40009520",
+      "30926670",
+      "37408305",
+      "39661936",
+      "38446881",
+      "39320949",
+      "34772789",
+      "35108264",
+      "39042834",
+      "34772786",
+      "40102453",
+      "36747818",
+      "39005320",
+      "38472406",
+      "36243979",
+      "34371110",
+      "40074825",
+      "39080253",
+      "36513655",
+      "34772787",
+      "39636939",
+      "39168125",
+      "34767801",
+      "37856873",
+      "38773325",
+      "34785657",
+      "36798397",
+      "36711465",
+      "35727989",
+      "34916288",
+      "38591689",
+      "40229261",
+      "36463407",
+      "39303698",
+      "39578406",
+      "39366355",
+      "39034215",
+      "39071308",
+      "40098319",
+      "40203038",
+      "39271032",
+      "38832749",
+      "36227472",
+      "39673974",
+      "38251748",
+      "34129784",
+      "38360555",
+      "38429263",
+      "36227474",
+      "31017394",
+      "34706978",
+      "39826709",
+      "37772963",
+      "39227569",
+      "33558506",
+      "38649740",
+      "35881789",
+      "36028355",
+      "36106018",
+      "39994485",
+      "37489654",
+      "38175843",
+      "40183356",
+      "38885177",
+      "39964249",
+      "33982350",
+      "37252985",
+      "38626504",
+      "39257779",
+      "40168179",
+      "37194953",
+      "39655866",
+      "37480229",
+      "40108179",
+      "38363841",
+      "35179885",
+      "40069227",
+      "40136009",
+      "39271915",
+      "34271007",
+      "39725032",
+      "37468629",
+      "38781207",
+      "39196681",
+      "35597639",
+      "34636323",
+      "35001622",
+      "40094245",
+      "39080489",
+      "23912807"
+    ],
+    "review": [
+      "40216775",
+      "34772789",
+      "34772786",
+      "36243979",
+      "34371110",
+      "34772787",
+      "34767801",
+      "38773325",
+      "39303698",
+      "39366355",
+      "39034215",
+      "39271032",
+      "34129784",
+      "38360555",
+      "34706978",
+      "37772963",
+      "36028355",
+      "36106018",
+      "38175843",
+      "38885177",
+      "39964249",
+      "35179885"
+    ],
+    "pmc": [
+      "11992113"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-58736-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40216775/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

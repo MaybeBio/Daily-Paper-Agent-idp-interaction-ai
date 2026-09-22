@@ -1,0 +1,463 @@
+{
+  "identity": {
+    "pmid": "38261971",
+    "doi": "10.1093/nar/gkae011",
+    "title": "Checkpoint activation by Spd1: a competition-based system relying on tandem disordered PCNA binding motifs."
+  },
+  "content": {
+    "abstract": "DNA regulation, replication and repair are processes fundamental to all known organisms and the sliding clamp proliferating cell nuclear antigen (PCNA) is central to all these processes. S-phase delaying protein 1 (Spd1) from S. pombe, an intrinsically disordered protein that causes checkpoint activation by inhibiting the enzyme ribonucleotide reductase, has one of the most divergent PCNA binding motifs known. Using NMR spectroscopy, in vivo assays, X-ray crystallography, calorimetry, and Monte Carlo simulations, an additional PCNA binding motif in Spd1, a PIP-box, is revealed. The two tandemly positioned, low affinity sites exchange rapidly on PCNA exploiting the same binding sites. Increasing or decreasing the binding affinity between Spd1 and PCNA through mutations of either motif compromised the ability of Spd1 to cause checkpoint activation in yeast. These results pinpoint a role for PCNA in Spd1-mediated checkpoint activation and suggest that its tandemly positioned short linear motifs create a neatly balanced competition-based system, involving PCNA, Spd1 and the small ribonucleotide reductase subunit, Suc22R2. Similar mechanisms may be relevant in other PCNA binding ligands where divergent binding motifs so far have gone under the PIP-box radar.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "DNA Replication",
+      "Intrinsically Disordered Proteins/chemistry",
+      "*Proliferating Cell Nuclear Antigen/metabolism",
+      "Protein Binding",
+      "Ribonucleotide Reductases/genetics",
+      "Schizosaccharomyces/genetics",
+      "*Schizosaccharomyces pombe Proteins/chemistry/metabolism",
+      "*Cell Cycle Proteins/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Olsen, Johan G",
+        "Prestel, Andreas",
+        "Kassem, Noah",
+        "Broendum, Sebastian S",
+        "Shamim, Hossain Mohammad",
+        "Simonsen, Signe",
+        "Grysbaek, Martin",
+        "Mortensen, Josefine",
+        "Rytkjaer, Louise Lund",
+        "Haxholm, Gitte W",
+        "Marabini, Riccardo",
+        "Holmberg, Christian",
+        "Carr, Antony M",
+        "Crehuet, Ramon",
+        "Nielsen, Olaf",
+        "Kragelund, Birthe B"
+      ],
+      "short_names": [
+        "Olsen JG",
+        "Prestel A",
+        "Kassem N",
+        "Broendum SS",
+        "Shamim HM",
+        "Simonsen S",
+        "Grysbaek M",
+        "Mortensen J",
+        "Rytkjaer LL",
+        "Haxholm GW",
+        "Marabini R",
+        "Holmberg C",
+        "Carr AM",
+        "Crehuet R",
+        "Nielsen O",
+        "Kragelund BB"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5459-9608",
+        "ORCID: 0000-0001-9224-0543",
+        "ORCID: 0000-0001-7440-5201",
+        "ORCID: 0000-0002-7454-1761"
+      ],
+      "affiliations": [
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark.",
+        "Cell cycle and Genome Stability Group, Functional Genomics, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark.",
+        "Cell cycle and Genome Stability Group, Functional Genomics, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark.",
+        "Cell cycle and Genome Stability Group, Functional Genomics, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark.",
+        "Cell cycle and Genome Stability Group, Functional Genomics, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark.",
+        "Cell cycle and Genome Stability Group, Functional Genomics, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark.",
+        "Genome Damage and Stability Centre, University of Sussex, John Maynard Smith Building, Falmer, BN1 9RQ, Brighton.",
+        "Institute for Advanced Chemistry of Catalonia (IQAC), CSIC, c/ Jordi Girona 18-26, 08034 Barcelona.",
+        "Cell cycle and Genome Stability Group, Functional Genomics, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Olsen, Johan G",
+        "short_name": "Olsen JG",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Prestel, Andreas",
+        "short_name": "Prestel A",
+        "identifiers": [
+          "0000-0002-5459-9608"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kassem, Noah",
+        "short_name": "Kassem N",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Broendum, Sebastian S",
+        "short_name": "Broendum SS",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Shamim, Hossain Mohammad",
+        "short_name": "Shamim HM",
+        "identifiers": [],
+        "affiliations": [
+          "Cell cycle and Genome Stability Group, Functional Genomics, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Simonsen, Signe",
+        "short_name": "Simonsen S",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Grysbæk, Martin",
+        "short_name": "Grysbæk M",
+        "identifiers": [],
+        "affiliations": [
+          "Cell cycle and Genome Stability Group, Functional Genomics, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Mortensen, Josefine",
+        "short_name": "Mortensen J",
+        "identifiers": [],
+        "affiliations": [
+          "Cell cycle and Genome Stability Group, Functional Genomics, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Rytkjær, Louise Lund",
+        "short_name": "Rytkjær LL",
+        "identifiers": [],
+        "affiliations": [
+          "Cell cycle and Genome Stability Group, Functional Genomics, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Haxholm, Gitte W",
+        "short_name": "Haxholm GW",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Marabini, Riccardo",
+        "short_name": "Marabini R",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Holmberg, Christian",
+        "short_name": "Holmberg C",
+        "identifiers": [
+          "0000-0001-9224-0543"
+        ],
+        "affiliations": [
+          "Cell cycle and Genome Stability Group, Functional Genomics, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Carr, Antony M",
+        "short_name": "Carr AM",
+        "identifiers": [],
+        "affiliations": [
+          "Genome Damage and Stability Centre, University of Sussex, John Maynard Smith Building, Falmer, BN1 9RQ, Brighton."
+        ]
+      },
+      {
+        "full_name": "Crehuet, Ramon",
+        "short_name": "Crehuet R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Advanced Chemistry of Catalonia (IQAC), CSIC, c/ Jordi Girona 18-26, 08034 Barcelona."
+        ]
+      },
+      {
+        "full_name": "Nielsen, Olaf",
+        "short_name": "Nielsen O",
+        "identifiers": [
+          "0000-0001-7440-5201"
+        ],
+        "affiliations": [
+          "Cell cycle and Genome Stability Group, Functional Genomics, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kragelund, Birthe B",
+        "short_name": "Kragelund BB",
+        "identifiers": [
+          "0000-0002-7454-1761"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science and REPIN, Department of Biology, Ole Maaloes Vej 5, University of Copenhagen, 2200 Copenhagen N, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Feb 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/23 18:42",
+    "fetched_at": "2026-09-21 04:29:42"
+  },
+  "links": {
+    "cites": [
+      "38814467",
+      "37957331"
+    ],
+    "refs": [
+      "35974206",
+      "34101805",
+      "32221299",
+      "32029630",
+      "31659043",
+      "31134302",
+      "30102405",
+      "29988559",
+      "29917264",
+      "29533233",
+      "29141206",
+      "29095607",
+      "28951215",
+      "28793210",
+      "28441348",
+      "28225081",
+      "26488642",
+      "26170230",
+      "25797046",
+      "25762514",
+      "25466257",
+      "24922507",
+      "24652833",
+      "24423875",
+      "23790209",
+      "22537629",
+      "22464192",
+      "22303007",
+      "21493688",
+      "21460454",
+      "20516199",
+      "20483348",
+      "20428473",
+      "19844027",
+      "19736315",
+      "19595719",
+      "19208623",
+      "18506808",
+      "18428767",
+      "18361621",
+      "17512402",
+      "16641370",
+      "15815974",
+      "15681588",
+      "15572765",
+      "15314214",
+      "15210332",
+      "15201901",
+      "12968183",
+      "12829735",
+      "12695334",
+      "12226657",
+      "11069778",
+      "10493861",
+      "10033814",
+      "9631646",
+      "8887552",
+      "8520220",
+      "7903401",
+      "7630882",
+      "2005825"
+    ],
+    "similar": [
+      "38261971",
+      "14701809",
+      "22464192",
+      "24652833",
+      "16317005",
+      "31134302",
+      "28441348",
+      "32413071",
+      "20516199",
+      "23986475",
+      "25762514",
+      "21493688",
+      "12695334",
+      "17264117",
+      "38969056",
+      "22537629",
+      "16252005",
+      "14752051",
+      "9891039",
+      "23747975",
+      "29917264",
+      "26903512",
+      "29357057",
+      "28165677",
+      "33984330",
+      "30301766",
+      "16641370",
+      "41606318",
+      "11739777",
+      "35942639",
+      "10698951",
+      "10871397",
+      "29095607",
+      "22003126",
+      "19781553",
+      "10846170",
+      "19342888",
+      "31149897",
+      "30655288",
+      "16000169",
+      "15155581",
+      "21123655",
+      "11077446",
+      "16771839",
+      "19208623",
+      "25972089",
+      "30102405",
+      "14624239",
+      "12032307",
+      "40888629",
+      "22383522",
+      "8663159",
+      "11955075",
+      "15342632",
+      "12296822",
+      "15533944",
+      "12124382",
+      "22362778",
+      "35262697",
+      "25438756",
+      "41547900",
+      "34292936",
+      "40748045",
+      "28934471",
+      "16407840",
+      "37767622",
+      "12239216",
+      "12930957",
+      "23152873",
+      "35731009",
+      "36861970",
+      "23076824",
+      "38880460",
+      "12237462",
+      "26272819",
+      "25602519",
+      "14762204",
+      "16611994",
+      "19595719",
+      "36410434",
+      "22115746",
+      "20679488",
+      "10409743",
+      "12052858",
+      "32276417",
+      "30826376",
+      "30700555",
+      "25372384",
+      "15471884",
+      "26688547",
+      "7780738",
+      "26201080",
+      "18032376",
+      "28073635",
+      "26368543",
+      "16782870",
+      "23139781",
+      "11595739",
+      "12400013",
+      "10454995"
+    ],
+    "review": [
+      "38261971",
+      "29357057"
+    ],
+    "pmc": [
+      "10939359"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38261971/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38261971",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-558",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae011",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

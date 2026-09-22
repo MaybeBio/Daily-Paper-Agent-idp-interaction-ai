@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "42169426",
+    "doi": "10.1111/cbdd.70319",
+    "title": "STGAT: A Novel Spatiotemporal Graph Attention Approach for Dynamical Trajectory Prediction."
+  },
+  "content": {
+    "abstract": "Predicting the complex motion trajectories of biological macromolecules, especially proteins, poses a significant challenge in biology. Although the traditional molecular dynamics (MD) simulation method offers insights into molecular motion, it is constrained by intensive computational demands and relatively short time scales. To address these challenges, we developed the STGAT (spatiotemporal graph attention networks) model, integrating protein locus timing analysis and graph attention mechanism to predict dynamics trajectory of proteins. This approach could accurately and quickly predict and analyze the motion trajectory of proteins. To verify our model, we selected a variety of intrinsically disordered proteins (IDP) and structured proteins for experiments. The model was evaluated comprehensively using four important criteria: RMSD, Laplace Diagram, Rg, and Calpha chemical shift. The RMSD values of test systems are relatively low (below 20 A), and the RMSD values of shorter IDP and structured proteins can be maintained below 15 A. The distribution of 𝜑 and 𝜓 angles between the predicted values and the real values from MD trajectories is similar, and the Rg value of the predicted trajectory is also very close to that from MD trajectories. Furthermore, the predicted value of Calpha chemical shift was very close to the experimental value. This shows that our STGAT model can not only accurately identify the spatial characteristics of proteins, but also accurately predict the dynamic behavior of IDPs. In subsequent experiments, our STGAT model successfully extended predictions over longer trajectory prediction, demonstrating high accuracy within the initial 0-80 ns time frame. Ablation experiment shows that four edge and node features are advantageous for enhancing model performance. Our research provides a new perspective and a powerful tool for predicting the real-time dynamic trajectory of biomacromolecules.",
+    "keywords": [
+      "deep learning",
+      "molecular dynamics simulation",
+      "protein trajectory prediction",
+      "spatiotemporal graph attention networks"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Graph Neural Networks",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tong, Haowei",
+        "Zhang, Ningjie",
+        "Lu, Zhouyu",
+        "Wei, Ting",
+        "Chen, Hai-Feng"
+      ],
+      "short_names": [
+        "Tong H",
+        "Zhang N",
+        "Lu Z",
+        "Wei T",
+        "Chen HF"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7496-4182"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tong, Haowei",
+        "short_name": "Tong H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ningjie",
+        "short_name": "Zhang N",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Zhouyu",
+        "short_name": "Lu Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Ting",
+        "short_name": "Wei T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hai-Feng",
+        "short_name": "Chen HF",
+        "identifiers": [
+          "0000-0002-7496-4182"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical biology & drug design"
+    ],
+    "journal_abbrev": [
+      "Chem Biol Drug Des"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/22 06:34",
+    "fetched_at": "2026-09-18 03:25:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42169426",
+      "38018910",
+      "23912807",
+      "39163306",
+      "41082321",
+      "40360271",
+      "15959866",
+      "38972499",
+      "37108059",
+      "34845619",
+      "25207671",
+      "30840442",
+      "41086136",
+      "41310253",
+      "40907012",
+      "40172236",
+      "41644540",
+      "33355572",
+      "36084124",
+      "37133846",
+      "40183298",
+      "31411026",
+      "38960406",
+      "30865832",
+      "39461117",
+      "38987470",
+      "28448138",
+      "35044776",
+      "42398019",
+      "39555603",
+      "39349594",
+      "38365583",
+      "38739602",
+      "32112084",
+      "35770143",
+      "27844185",
+      "32525675",
+      "38116756",
+      "30708285",
+      "40068541",
+      "39093570",
+      "39056166",
+      "33623120",
+      "32859072",
+      "42334640",
+      "32693598",
+      "32816485",
+      "38166858",
+      "37883249",
+      "36373847",
+      "41386531",
+      "30813315",
+      "39223474",
+      "40315419",
+      "40072940",
+      "41570305",
+      "41864877",
+      "39848362",
+      "28493424",
+      "40128232",
+      "29571687",
+      "41505730",
+      "32034199",
+      "41174305",
+      "41053908",
+      "38996889",
+      "38000312",
+      "37511544",
+      "40270304",
+      "40887198",
+      "35562983",
+      "34546059",
+      "34706640",
+      "39639046",
+      "41945943",
+      "34198207",
+      "39952928",
+      "41259435",
+      "29023395",
+      "35351887",
+      "34504009",
+      "41921096",
+      "35934194",
+      "36468450",
+      "41280230",
+      "28834051",
+      "40742756",
+      "42288985",
+      "31793290",
+      "26218832",
+      "34944432",
+      "41471460",
+      "37646172",
+      "34680048",
+      "39541085",
+      "41435823",
+      "38275091",
+      "30091924",
+      "28765603",
+      "41105005"
+    ],
+    "review": [
+      "42169426",
+      "30840442",
+      "33355572",
+      "39555603",
+      "40068541",
+      "39093570",
+      "32034199",
+      "31793290",
+      "34680048"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1111/cbdd.70319",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

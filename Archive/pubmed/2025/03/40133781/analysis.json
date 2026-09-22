@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40133781",
+  "title": "AIUPred - Binding: Energy Embedding to Identify Disordered Binding Regions.",
+  "authors": "Erdos, Gabor; Deutsch, Norbert; Dosztanyi, Zsuzsanna",
+  "journal": "Journal of molecular biology",
+  "published_date": "2025-03-26",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出AIUPred-binding，利用能量嵌入和AlphaMissense致病性评分的迁移学习预测无序蛋白中的结合区域，直接针对IDR介导的PPI功能位点识别，方法上结合AI与能量表示，对无序互作机制建模有直接参考价值。",
+  "abstract": "Intrinsically disordered regions (IDRs) play critical roles in various cellular processes, often mediating interactions through disordered binding regions that transition to ordered states. Experimental characterization of these functional regions is highly challenging, underscoring the need for fast and accurate computational tools. Despite their importance, predicting disordered binding regions remains a significant challenge due to limitations in existing datasets and methodologies. In this study, we introduce AIUPred-binding, a novel prediction tool leveraging a high dimensional mathematical representation of structural energies - we call energy embedding - and pathogenicity scores from AlphaMissense. By employing a transfer learning approach, AIUPred-binding demonstrates improved accuracy in identifying functional sites within IDRs. Our results highlight the tool's ability to discern subtle features within disordered regions, addressing biases and other challenges associated with manually curated datasets. We present AIUPred-binding integrated into the AIUPred web framework as a versatile and efficient resource for understanding the functional roles of IDRs. AIUPred-binding is freely accessible at https://aiupred.elte.hu.",
+  "abstract_zh": "固有无序区域（IDRs）在多种细胞过程中扮演关键角色，常通过无序结合区域介导相互作用，这些区域会过渡到有序状态。对这些功能区域的实验表征极具挑战性，凸显了对快速且准确的计算工具的需求。尽管其重要性显著，但由于现有数据集和方法论的局限性，预测无序结合区域仍是一项重大挑战。在本研究中，我们引入了AIUPred-binding，一种新型预测工具，利用结构能量的高维数学表示——我们称之为能量嵌入——以及来自AlphaMissense的致病性评分。通过采用迁移学习方法，AIUPred-binding在识别IDRs内功能位点方面展现出更高的准确性。我们的结果强调了该工具在辨别无序区域内细微特征的能力，解决了与手动策划数据集相关的偏差及其他挑战。我们将AIUPred-binding集成到AIUPred网络框架中，作为理解IDRs功能角色的多功能且高效的资源。AIUPred-binding可免费访问，网址为https://aiupred.elte.hu。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40133781/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40133781/",
+  "paper_page_path": "papers/pubmed/40133781/index.html"
+}

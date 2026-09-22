@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.10.15.464579",
+  "title": "MspA Porin as a Local Nanopore Probe for Membrane-bound Proteins",
+  "authors": "Hoogerheide DP; Gurnev PA; Gundlach J; Laszlo A; Rostovtseva TK; Bezrukov SM",
+  "journal": "bioRxiv",
+  "published_date": "2021-10-15",
+  "window": {
+    "start": "2021-10-11",
+    "end": "2021-10-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用M2MspA纳米孔研究无序蛋白αSyn的捕获与易位机制，涉及IDP与膜蛋白互作及物理模型，但非典型PPI且无AI/分子模拟方法，仅具部分机制启发。",
+  "abstract": "Nanopore sensing is based on detection and analysis of nanopore transient conductance changes induced by analyte capture. We have recently shown that α-Synuclein (αSyn), an intrinsically disordered, membrane-active, neuronal protein implicated in Parkinson disease, can be reversibly captured by the VDAC nanopore. The capture process is a highly voltage dependent complexation of the two proteins where transmembrane potential drives the polyanionic C-terminal domain of αSyn into VDAC—exactly the mechanism by which generic nanopore-based interrogation of proteins and polynucleotides proceeds. The complex formation, and the motion of αSyn in the nanopore, thus may be expected to be only indirectly dependent on the pore identity. Here, we confirm this prediction by demonstrating that when VDAC is replaced with a different transmembrane pore, the engineered mycobacterial porin M2MspA, all the qualitative features of the αSyn/nanopore interaction are preserved. The rate of αSyn capture by M2MspA rises exponentially with the applied field, while the residence time displays a crossover behavior, indicating that at voltages >50 mV M2MspA-bound αSyn largely undergoes translocation to the other side of the membrane. The translocation is directly confirmed using the selectivity tag method, in which the polyanionic C-terminal and neutral N-terminal regions of αSyn alter the selectivity of the M2MspA channel differently, allowing direct discrimination of translocation vs retraction for single αSyn molecules. We thus prove that the physical model of the motion of disordered protein chains in the nanopore confinement and the selectivity tag technique are not limited to VDAC but are broadly applicable to nanopore-based protein detection, analysis, and separation technologies.",
+  "abstract_zh": "纳米孔传感基于对分析物捕获引起的纳米孔瞬态电导变化的检测与分析。我们近期已证明，α-突触核蛋白（αSyn），一种与帕金森病相关的 intrinsically disordered、膜活性神经元蛋白，可被VDAC纳米孔可逆捕获。捕获过程是两个蛋白质的高度电压依赖性复合，其中跨膜电位驱动αSyn的多聚阴离子C端结构域进入VDAC——这正是基于纳米孔的蛋白质和多核苷酸探测所采用的一般机制。因此，复合物的形成以及αSyn在纳米孔中的运动，可能预期仅间接依赖于孔的同一性。在此，我们通过证明当VDAC被替换为另一种跨膜孔——工程化的分枝杆菌孔蛋白M2MspA时，αSyn/纳米孔相互作用的所有定性特征均得以保留，从而确认了这一预测。αSyn被M2MspA捕获的速率随施加电场呈指数增长，而驻留时间表现出交叉行为，表明在电压>50 mV时，结合于M2MspA的αSyn大部分发生跨膜转位至膜的另一侧。转位通过选择性标签方法直接确认，其中αSyn的多聚阴离子C端和中性N端区域对M2MspA通道的选择性产生不同影响，从而允许对单个αSyn分子的转位与回缩进行直接区分。因此，我们证明了无序蛋白链在纳米孔限制中运动的物理模型以及选择性标签技术不仅限于VDAC，而是广泛适用于基于纳米孔的蛋白质检测、分析和分离技术。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.10.15.464579",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.10.15.464579",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.10.15.464579/index.html"
+}

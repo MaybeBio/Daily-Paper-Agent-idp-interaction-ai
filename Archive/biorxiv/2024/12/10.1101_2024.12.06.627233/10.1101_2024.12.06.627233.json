@@ -1,0 +1,156 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.06.627233",
+  "title": "An all-atom view into the disordered interaction interface of the TRIM5 α PRYSPRY domain and the HIV capsid",
+  "doi": "10.1101/2024.12.06.627233",
+  "abstract": "Tripartite motif-containing protein 5, alpha isoform (TRIM5 α ) is an innate immune factor that provides rhesus macaques with immunity to HIV. Despite high sequence similarity to rhesus TRIM5 α , human TRIM5 α weakly restricts HIV without the introduction of mutations. The structural underpinnings of this functional difference are poorly understood because the interaction interface between TRIM5 α and its target, the HIV capsid, involves intrinsically disordered regions. Here, we use all-atom molecular dynamics simulations to study several TRIM5 α variants: rhesus TRIM5 α , human TRIM5 α , and human TRIM5 α with an R332P mutation (a mutation known to enhance HIV restriction). Our data reveal differences in the conformational ensembles of wild-type and R332P human TRIM5 α , including a significant increase in the formation of a turn that includes the mutation site residue. We also carried out simulations of rhesus TRIM5 α in complex with the HIV capsid protein. Our results indicate that the variable loops of TRIM5 α are highly flexible, both in solution and in the complex with the capsid, indicative of a fuzzy interaction interface. Simulations of the complex, as well as experimental infections, indicate the basis for weak HIV restriction by human TRIM5 α that is improved by an R332P mutation: replacing the positively charged arginine with a neutral residue decreases electrostatic repulsion with residue R82 of the capsid protein, which can be phenocopied by neutralizing mutations at capsid residue R82. Overall, our simulations provide a first view of the atomistic details of the HIV capsid-TRIM5 α binding interface and a molecular mechanism for the observed functional differences between variants of the TRIM5 α protein. <h4>Significance Statement</h4> Humans and viruses are engaged in an evolutionary arms race, which involves evolutionary cycles in which viruses escape host defense and hosts evolve to chase after them. The protein TRIM5 α is a crucial part of the immune system’s defense against viruses, and the region of TRIM5 α that interacts with viral capsids is evolving rapidly. While a wealth of structural information is separately available for the HIV capsid protein and TRIM5 α , the interaction interface between these two proteins remains poorly understood because it involves multiple disordered regions. We present a first atomistic view of the TRIM5 α -capsid interaction interface using all-atom molecular dynamics simulations. We use our model of the interface and the probabilistic description of interactions to explain the improved HIV restriction of a mutation in the human TRIM5 α protein, which has been proposed for human gene therapy, in terms of specific electrostatic interactions. Finally, we validate our findings with experimental infections. Our data provide detailed structural insight into how TRIM5 evolves improved restriction against its retroviral targets.",
+  "authors": [
+    "Haas-Neill L",
+    "Meneksedag-Erol D",
+    "Andeejani I",
+    "del Banco S",
+    "Tenthorey J",
+    "Rauscher S"
+  ],
+  "published_date": "2024-12-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.06.627233",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.06.627233.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR951875",
+    "raw_record": {
+      "id": "PPR951875",
+      "source": "PPR",
+      "doi": "10.1101/2024.12.06.627233",
+      "title": "An all-atom view into the disordered interaction interface of the TRIM5  <i>α</i>  PRYSPRY domain and the HIV capsid",
+      "authorString": "Haas-Neill L, Meneksedag-Erol D, Andeejani I, del Banco S, Tenthorey J, Rauscher S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Haas-Neill L",
+            "lastName": "Haas-Neill",
+            "firstName": "Liam",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3852-8786"
+            }
+          },
+          {
+            "fullName": "Meneksedag-Erol D",
+            "lastName": "Meneksedag-Erol",
+            "firstName": "Deniz",
+            "initials": "D"
+          },
+          {
+            "fullName": "Andeejani I",
+            "lastName": "Andeejani",
+            "firstName": "Ibraheem",
+            "initials": "I"
+          },
+          {
+            "fullName": "del Banco S",
+            "lastName": "del Banco",
+            "firstName": "Serena",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9860-3237"
+            }
+          },
+          {
+            "fullName": "Tenthorey J",
+            "lastName": "Tenthorey",
+            "firstName": "Jeannette",
+            "initials": "J"
+          },
+          {
+            "fullName": "Rauscher S",
+            "lastName": "Rauscher",
+            "firstName": "Sarah",
+            "initials": "S"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9860-3237"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3466-1865"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3852-8786"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Tripartite motif-containing protein 5, alpha isoform (TRIM5  α ) is an innate immune factor that provides rhesus macaques with immunity to HIV. Despite high sequence similarity to rhesus TRIM5  α , human TRIM5  α weakly restricts HIV without the introduction of mutations. The structural underpinnings of this functional difference are poorly understood because the interaction interface between TRIM5  α and its target, the HIV capsid, involves intrinsically disordered regions. Here, we use all-atom molecular dynamics simulations to study several TRIM5  α variants: rhesus TRIM5  α , human TRIM5  α , and human TRIM5  α with an R332P mutation (a mutation known to enhance HIV restriction). Our data reveal differences in the conformational ensembles of wild-type and R332P human TRIM5  α , including a significant increase in the formation of a turn that includes the mutation site residue. We also carried out simulations of rhesus TRIM5  α in complex with the HIV capsid protein. Our results indicate that the variable loops of TRIM5  α are highly flexible, both in solution and in the complex with the capsid, indicative of a fuzzy interaction interface. Simulations of the complex, as well as experimental infections, indicate the basis for weak HIV restriction by human TRIM5  α that is improved by an R332P mutation: replacing the positively charged arginine with a neutral residue decreases electrostatic repulsion with residue R82 of the capsid protein, which can be phenocopied by neutralizing mutations at capsid residue R82. Overall, our simulations provide a first view of the atomistic details of the HIV capsid-TRIM5  α binding interface and a molecular mechanism for the observed functional differences between variants of the TRIM5  α protein.  <h4>Significance Statement</h4>  Humans and viruses are engaged in an evolutionary arms race, which involves evolutionary cycles in which viruses escape host defense and hosts evolve to chase after them. The protein TRIM5  α is a crucial part of the immune system’s defense against viruses, and the region of TRIM5  α that interacts with viral capsids is evolving rapidly. While a wealth of structural information is separately available for the HIV capsid protein and TRIM5  α , the interaction interface between these two proteins remains poorly understood because it involves multiple disordered regions. We present a first atomistic view of the TRIM5  α -capsid interaction interface using all-atom molecular dynamics simulations. We use our model of the interface and the probabilistic description of interactions to explain the improved HIV restriction of a mutation in the human TRIM5  α protein, which has been proposed for human gene therapy, in terms of specific electrostatic interactions. Finally, we validate our findings with experimental infections. Our data provide detailed structural insight into how TRIM5 evolves improved restriction against its retroviral targets.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.06.627233"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.06.627233"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-12-11",
+      "firstPublicationDate": "2024-12-09",
+      "firstIndexDate": "2024-12-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

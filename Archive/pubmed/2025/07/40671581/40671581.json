@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "40671581",
+    "doi": "10.1002/pro.70232",
+    "title": "A coarse-grained model for disordered proteins under crowded conditions."
+  },
+  "content": {
+    "abstract": "Macromolecular crowding may strongly affect the dynamics and function of proteins, with intrinsically disordered proteins being particularly sensitive to their crowded environment. To understand the influences of crowding on chain compaction and phase separation (PS) behavior of disordered proteins, both experiments with synthetic crowders-like polyethylene glycol (PEG) and ficoll-and theoretical models and molecular simulation approaches have been applied. Here, we developed a residue-based coarse-grained model for PEG that is compatible with the protein CALVADOS model. To achieve this, we optimized model parameters by comparing simulations with experimental data on single-chain PEG and on PEG-induced compaction of disordered proteins. With our model we show how titrations of PEG can be used to quantify PS propensities of proteins that are not prone to phase separate strongly. We illustrate this for both variants of the low-complexity domain of hnRNPA1 (A1-LCD), and for wild-type and a redesigned variant of alpha-synuclein. Notably, we observe that the PEG crowding response changes between charge patterning variants of alpha-synuclein, which is not the case for the variants that vary the number of aromatic residues in the A1-LCD. We expect that our model will be useful for the interpretation of crowding experiments with disordered proteins, and we envisage it to be a starting point for explorations of proteins with weak propensities to phase separate.",
+    "keywords": [
+      "PEG",
+      "condensates",
+      "crowding",
+      "intrinsically disordered proteins"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*alpha-Synuclein/chemistry/genetics",
+      "*Polyethylene Glycols/chemistry",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rauh, Arrien Symon",
+        "Tesei, Giulio",
+        "Lindorff-Larsen, Kresten"
+      ],
+      "short_names": [
+        "Rauh AS",
+        "Tesei G",
+        "Lindorff-Larsen K"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4339-4460",
+        "ORCID: 0000-0002-4750-6039"
+      ],
+      "affiliations": [
+        "Structural Biology and NMR Laboratory, Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory, Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory, Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rauh, Arriën Symon",
+        "short_name": "Rauh AS",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Tesei, Giulio",
+        "short_name": "Tesei G",
+        "identifiers": [
+          "0000-0003-4339-4460"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Lindorff-Larsen, Kresten",
+        "short_name": "Lindorff-Larsen K",
+        "identifiers": [
+          "0000-0002-4750-6039"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/17 06:27",
+    "fetched_at": "2026-09-21 21:02:36"
+  },
+  "links": {
+    "cites": [
+      "42418429",
+      "42301231",
+      "42055532",
+      "41481363",
+      "41169547",
+      "40944421"
+    ],
+    "refs": [
+      "40131954",
+      "39908323",
+      "39820805",
+      "39660892",
+      "39412378",
+      "39384813",
+      "39213496",
+      "39196930",
+      "38643169",
+      "38535831",
+      "38466779",
+      "37957331",
+      "37794023",
+      "37717144",
+      "37657994",
+      "37645312",
+      "37486948",
+      "37348142",
+      "37337111",
+      "36881934",
+      "36829460",
+      "36691735",
+      "36463407",
+      "35795820",
+      "35675815",
+      "35298090",
+      "35219215",
+      "35126984",
+      "34931046",
+      "34911929",
+      "34716273",
+      "34431665",
+      "34179888",
+      "33934416",
+      "33876938",
+      "33826337",
+      "33724431",
+      "33577679",
+      "33453922",
+      "33188202",
+      "33141567",
+      "32824618",
+      "32514159",
+      "32499559",
+      "32487732",
+      "32399570",
+      "32312191",
+      "32029630",
+      "31792379",
+      "31356058",
+      "30791483",
+      "30217894",
+      "29966087",
+      "29961577",
+      "29960369",
+      "29930091",
+      "29364893",
+      "29065286",
+      "28746339",
+      "28510157",
+      "28483149",
+      "28306301",
+      "28283059",
+      "28225081",
+      "27669651",
+      "27410731",
+      "25723249",
+      "25643150",
+      "25531225",
+      "24639500",
+      "23901099",
+      "23740802",
+      "23442920",
+      "23137188",
+      "20662522",
+      "19754083",
+      "19265418",
+      "19045161",
+      "18576630",
+      "18573087",
+      "18261982",
+      "18083189",
+      "17827232",
+      "17123959",
+      "16740119",
+      "15596487",
+      "12391331",
+      "7771319",
+      "7298647",
+      "6084525",
+      "5683507",
+      "5420960",
+      "2669964",
+      "2081264",
+      "1748995"
+    ],
+    "similar": [
+      "40671581",
+      "23912807",
+      "40629690",
+      "37348142",
+      "30230839",
+      "40009520",
+      "42427316",
+      "42012824",
+      "39412378",
+      "27410731",
+      "33386904",
+      "40131954",
+      "24312701",
+      "30066087",
+      "39968832",
+      "25611326",
+      "38358134",
+      "39648588",
+      "33577679",
+      "40847259",
+      "32487732",
+      "34716273",
+      "27936623",
+      "33587794",
+      "35167072",
+      "27860069",
+      "42309023",
+      "42350353",
+      "31903719",
+      "37645312",
+      "24072065",
+      "42316432",
+      "32393642",
+      "30933517",
+      "41169547",
+      "36272811",
+      "40651157",
+      "39285530",
+      "31714774",
+      "38996889",
+      "36463407",
+      "39087984",
+      "29539394",
+      "33337879",
+      "42284179",
+      "25919930",
+      "39486437",
+      "27936491",
+      "34270995",
+      "30184304",
+      "35408509",
+      "23189168",
+      "30217894",
+      "28425679",
+      "41381387",
+      "33934416",
+      "32623047",
+      "39908323",
+      "42535650",
+      "33581430",
+      "40943551",
+      "35543707",
+      "29874605",
+      "41877588",
+      "29364151",
+      "39319382",
+      "41804277",
+      "36227468",
+      "23214618",
+      "32436706",
+      "37407505",
+      "39499823",
+      "32709107",
+      "25244701",
+      "30529354",
+      "40278867",
+      "36066390",
+      "26894933",
+      "42057422",
+      "24559993",
+      "26452170",
+      "38965780",
+      "39531035",
+      "23137188",
+      "36004748",
+      "33345970",
+      "26851933",
+      "39947751",
+      "23607785",
+      "32087632",
+      "32859072",
+      "26723627",
+      "39804953",
+      "31699336",
+      "25375525",
+      "38928405",
+      "33139563",
+      "41301496",
+      "26474212",
+      "39248414"
+    ],
+    "review": [
+      "40671581",
+      "30066087",
+      "35167072",
+      "42309023",
+      "29364151"
+    ],
+    "pmc": [
+      "12268113"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40671581.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40671581/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70232",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "40156755",
+    "doi": "10.1007/s12104-025-10226-5",
+    "title": "Backbone resonance assignments of the CPEB3 [101-200] and CPEB3 [294-410]."
+  },
+  "content": {
+    "abstract": "Cytoplasmic polyadenylation element-binding protein 3 (CPEB3) is an RNA-binding protein that plays a pivotal role in the formation of long-term memory. The N-terminal region (residues 1-459) of CPEB3 is a highly aggregative intrinsically disordered region (IDR) that regulates the translation of specific targets, such as AMPA subunits, through mechanisms including liquid-liquid phase separation (LLPS) and the formation of fibrous aggregates. Despite its significance, the underlying mechanisms remain poorly understood. In this study, we present the backbone resonance assignments of residues 101-200 and 294-410 segments of the CPEB3 IDR. In agreement with sequence-based predictions, CPEB3 [101-200] was found to be disordered, whereas two partial alpha-helices were identified within CPEB3 [294-410].",
+    "keywords": [
+      "CPEB3",
+      "IDR",
+      "LLPS",
+      "Long-term memory",
+      "Protein aggregation"
+    ],
+    "mesh_terms": [
+      "*Nuclear Magnetic Resonance, Biomolecular",
+      "*RNA-Binding Proteins/chemistry",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saito, Harunobu",
+        "Lee, Yujin",
+        "Ueno, Motoharu",
+        "Sekiyama, Naotaka",
+        "So, Masatomo",
+        "Furukawa, Ayako",
+        "Sugase, Kenji"
+      ],
+      "short_names": [
+        "Saito H",
+        "Lee Y",
+        "Ueno M",
+        "Sekiyama N",
+        "So M",
+        "Furukawa A",
+        "Sugase K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kyoto, Japan.",
+        "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kyoto, Japan.",
+        "Division of Biological Sciences, Graduate School of Science, Kyoto University, Kyoto, Japan.",
+        "Division of Biological Sciences, Graduate School of Science, Kyoto University, Kyoto, Japan.",
+        "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kyoto, Japan.",
+        "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kyoto, Japan.",
+        "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kyoto, Japan. sugase.kenji.8c@kyoto-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saito, Harunobu",
+        "short_name": "Saito H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Lee, Yujin",
+        "short_name": "Lee Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Ueno, Motoharu",
+        "short_name": "Ueno M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biological Sciences, Graduate School of Science, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Sekiyama, Naotaka",
+        "short_name": "Sekiyama N",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biological Sciences, Graduate School of Science, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "So, Masatomo",
+        "short_name": "So M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Furukawa, Ayako",
+        "short_name": "Furukawa A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugase, Kenji",
+        "short_name": "Sugase K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Applied Life Sciences, Graduate School of Agriculture, Kyoto University, Kyoto, Japan. sugase.kenji.8c@kyoto-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecular NMR assignments"
+    ],
+    "journal_abbrev": [
+      "Biomol NMR Assign"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/30 23:01",
+    "fetched_at": "2026-09-21 17:08:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40156755",
+      "37898314",
+      "35658951",
+      "38319152",
+      "36716374",
+      "25066254",
+      "26074071",
+      "26074072",
+      "29511089",
+      "31416913",
+      "32848053",
+      "24155305",
+      "22711986",
+      "36719842",
+      "17024188",
+      "22153079",
+      "22730302",
+      "20003455",
+      "40153110",
+      "32619199",
+      "36346822",
+      "32968053",
+      "26074003",
+      "37333407",
+      "21336257",
+      "26915043",
+      "39994587",
+      "39307336",
+      "38786074",
+      "33146632",
+      "32648330",
+      "33941859",
+      "32454494",
+      "26915047",
+      "36068334",
+      "28924037",
+      "36723824",
+      "20524672",
+      "27822178",
+      "34081983",
+      "33506034",
+      "30834603",
+      "34930897",
+      "37644621",
+      "38446061",
+      "33433806",
+      "33982369",
+      "39537752",
+      "34571015",
+      "34436734",
+      "30799082",
+      "32653013",
+      "20639532",
+      "34179096",
+      "22875687",
+      "25404896",
+      "40155964",
+      "33812045",
+      "37368134",
+      "30531905",
+      "31911439",
+      "25842244",
+      "35481633",
+      "39908090",
+      "35451884",
+      "33318303",
+      "19503753",
+      "32371601",
+      "38476610",
+      "29332449",
+      "12392550",
+      "35474152",
+      "31439799",
+      "26966151",
+      "37961614",
+      "33099959",
+      "33139563",
+      "32229518",
+      "32225071",
+      "34900520",
+      "38000031",
+      "22752847",
+      "33742389",
+      "25577242",
+      "37540843",
+      "33720319",
+      "34029402",
+      "33200826",
+      "33159015",
+      "38466543",
+      "20711761",
+      "28258549",
+      "33496636",
+      "40343665",
+      "33684117",
+      "34102212",
+      "34710113",
+      "33744316",
+      "39952269",
+      "29850575"
+    ],
+    "review": [
+      "40156755",
+      "32619199",
+      "31911439"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12104-025-10226-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "http://hdl.handle.net/2433/295112",
+        "provider": "Kyoto University Research Information Repository - Articles",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

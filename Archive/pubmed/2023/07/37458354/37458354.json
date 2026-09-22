@@ -1,0 +1,202 @@
+{
+  "identity": {
+    "pmid": "37458354",
+    "doi": "10.1063/5.0158046",
+    "title": "Tuning the ATP-ATP and ATP-disordered protein interactions in high ATP concentration by altering water models."
+  },
+  "content": {
+    "abstract": "The adenosine triphosphate (ATP)-protein interactions have been of great interest since the recent experimental finding of ATP's role as a hydrotrope. The interaction between ATP and disordered proteins is fundamental to the dissolution of protein aggregates and the regulation of liquid-liquid phase separation by ATP. Molecular dynamics simulation is a powerful tool for analyzing these interactions in molecular detail but often suffers from inaccuracies in describing disordered proteins and ATPs in high concentrations. Recently, several water models have been proposed to improve the description of the protein-disordered states, yet how these models work with ATP has not been explored. To this end, here, we study how water models affect ATP and alter the ATP-ATP and ATP-protein interactions for the intrinsically disordered protein, alpha-Synuclein. Three water models, TIP4P-D, OPC, and TIP3P, are compared, while the protein force field is fixed to ff99SBildn. The results show that ATP over-aggregates into a single cluster in TIP3P water, but monomers and smaller clusters are found in TIP4P-D and OPC waters. ATP-protein interaction is also over-stabilized in TIP3P, whereas repeated binding/unbinding of ATP to alpha-Synuclein is observed in OPC and TIP4P-D waters, which is in line with the recent nuclear magnetic resonance experiment. The adenine ring-mediated interaction is found to play a major role in ATP-ATP and ATP-protein contacts. Interestingly, changing Mg2+ into Na+ strengthened the electrostatic interaction and promoted ATP oligomerization and ATP-alpha-Synuclein binding. Overall, this study shows that changing the water model can be an effective approach to improve the properties of ATP in high concentration.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein",
+      "Water/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mori, Toshifumi",
+        "Yoshida, Norio"
+      ],
+      "short_names": [
+        "Mori T",
+        "Yoshida N"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0188-0794",
+        "ORCID: 0000-0002-2023-7254"
+      ],
+      "affiliations": [
+        "Institute for Materials Chemistry and Engineering, Kyushu University, Kasuga, Fukuoka 816-8580, Japan.",
+        "Department of Interdisciplinary Engineering Sciences, Interdisciplinary Graduate School of Engineering Sciences, Kyushu University, Kasuga, Fukuoka 816-8580, Japan.",
+        "Graduate School of Informatics, Nagoya University, Chikusa, Nagoya 464-8601, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mori, Toshifumi",
+        "short_name": "Mori T",
+        "identifiers": [
+          "0000-0003-0188-0794"
+        ],
+        "affiliations": [
+          "Institute for Materials Chemistry and Engineering, Kyushu University, Kasuga, Fukuoka 816-8580, Japan.",
+          "Department of Interdisciplinary Engineering Sciences, Interdisciplinary Graduate School of Engineering Sciences, Kyushu University, Kasuga, Fukuoka 816-8580, Japan."
+        ]
+      },
+      {
+        "full_name": "Yoshida, Norio",
+        "short_name": "Yoshida N",
+        "identifiers": [
+          "0000-0002-2023-7254"
+        ],
+        "affiliations": [
+          "Graduate School of Informatics, Nagoya University, Chikusa, Nagoya 464-8601, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2023 Jul 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/17 15:09",
+    "fetched_at": "2026-09-20 23:37:19"
+  },
+  "links": {
+    "cites": [
+      "41275060",
+      "39684527"
+    ],
+    "refs": [],
+    "similar": [
+      "37458354",
+      "35950933",
+      "31903719",
+      "34025949",
+      "30865832",
+      "33382616",
+      "34546059",
+      "31699336",
+      "34240882",
+      "30933517",
+      "32859072",
+      "32623047",
+      "25919886",
+      "35543707",
+      "32367806",
+      "34338526",
+      "26030189",
+      "30184304",
+      "36387274",
+      "31445446",
+      "22947936",
+      "24589355",
+      "35297101",
+      "23912807",
+      "29548979",
+      "37736631",
+      "29080468",
+      "35384652",
+      "35167072",
+      "28805390",
+      "29874605",
+      "33345970",
+      "33004902",
+      "27243806",
+      "24072065",
+      "29104751",
+      "25367087",
+      "29648448",
+      "32510956",
+      "31657215",
+      "36080494",
+      "28095698",
+      "30865820",
+      "25207671",
+      "23004766",
+      "33903234",
+      "36115020",
+      "25331250",
+      "25611326",
+      "24551051",
+      "26910732",
+      "29621630",
+      "36468418",
+      "31613621",
+      "30771183",
+      "29715424",
+      "23567152",
+      "29735687",
+      "29553735",
+      "29474083",
+      "25764013",
+      "27159340",
+      "25814479",
+      "25871264",
+      "33140640",
+      "23607785",
+      "20620148",
+      "30514082",
+      "32323533",
+      "26575776",
+      "31259246",
+      "29603125",
+      "36040869",
+      "31809054",
+      "39361827",
+      "33739081",
+      "29492731",
+      "20359221",
+      "35130691",
+      "31477241",
+      "27588692",
+      "29704492",
+      "28834051",
+      "34509724",
+      "38174879",
+      "26735936",
+      "36232847",
+      "33355572",
+      "32709107",
+      "31297688",
+      "25345588",
+      "37772172",
+      "39354680",
+      "34723279"
+    ],
+    "review": [
+      "37458354",
+      "29080468",
+      "35167072",
+      "25814479"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0158046",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

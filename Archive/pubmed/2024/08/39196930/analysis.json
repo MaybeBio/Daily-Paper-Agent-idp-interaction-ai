@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39196930",
+  "title": "Design of intrinsically disordered protein variants with diverse structural properties.",
+  "authors": "Pesce, Francesco; Bremer, Anne; Tesei, Giulio; Hopkins, Jesse B; Grace, Christy R; Mittag, Tanja; Lindorff-Larsen, Kresten",
+  "journal": "Science advances",
+  "published_date": "2024-08-29",
+  "window": {
+    "start": "2024-08-26",
+    "end": "2024-09-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出计算算法设计具有特定构象性质（如压实度、长程接触、相分离倾向）的无序蛋白变体，并用机器学习加速，虽聚焦单蛋白设计而非直接PPI互作机制，但对象为IDP且涉及相分离，方法含AI，对无序蛋白构象-功能建模有启发。",
+  "abstract": "Intrinsically disordered proteins (IDPs) perform a broad range of functions in biology, suggesting that the ability to design IDPs could help expand the repertoire of proteins with novel functions. Computational design of IDPs with specific conformational properties has, however, been difficult because of their substantial dynamics and structural complexity. We describe a general algorithm for designing IDPs with specific structural properties. We demonstrate the power of the algorithm by generating variants of naturally occurring IDPs that differ in compaction, long-range contacts, and propensity to phase separate. We experimentally tested and validated our designs and analyzed the sequence features that determine conformations. We show how our results are captured by a machine learning model, enabling us to speed up the algorithm. Our work expands the toolbox for computational protein design and will facilitate the design of proteins whose functions exploit the many properties afforded by protein disorder.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在生物学中执行广泛的功能，这表明设计IDPs的能力可能有助于扩展具有新功能蛋白质的库。然而，由于IDPs具有显著的动态性和结构复杂性，设计具有特定构象特性的IDPs的计算方法一直较为困难。我们描述了一种用于设计具有特定结构特性的IDPs的通用算法。通过生成天然IDPs的变体，这些变体在紧凑性、长程接触和相分离倾向方面有所不同，我们展示了该算法的能力。我们实验测试并验证了我们的设计，并分析了决定构象的序列特征。我们展示了我们的结果如何被机器学习模型捕获，从而加速了算法。我们的工作扩展了计算蛋白质设计的工具箱，并将促进利用蛋白质无序性所提供的多种特性的蛋白质设计。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39196930/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39196930/",
+  "paper_page_path": "papers/pubmed/39196930/index.html"
+}

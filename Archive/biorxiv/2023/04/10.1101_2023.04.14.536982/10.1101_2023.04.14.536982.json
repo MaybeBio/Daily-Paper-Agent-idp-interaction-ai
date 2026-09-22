@@ -1,0 +1,603 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.14.536982",
+  "title": "Discovery of novel multi-functional peptides by using protein language models and graph-based deep learning",
+  "doi": "10.1101/2023.04.14.536982",
+  "abstract": "Functional peptides are one kind of short protein fragments that have a wide range of beneficial functions for living organisms. The majority of previous research focused on mono-functional peptides, but a growing number of multi-functional peptides have been discovered. Although enormous experimental efforts endeavor to assay multi-functional peptides, only a small fraction of millions of known peptides have been explored. Effective and precise techniques for identifying multi-functional peptides can facilitate their discovery and mechanistic understanding. In this article, we presented a novel method, called iMFP-LG, for identifying multi-functional peptides based on protein language models (pLMs) and graph attention networks (GATs). Comparison results showed iMFP-LG significantly outperforms state-of-the-art methods on both multifunctional bioactive peptides and multi-functional therapeutic peptides datasets. The interpretability of iMFP-LG was also illustrated by visualizing attention patterns in pLMs and GATs. Regarding to the outstanding performance of iMFP-LG on the identification of multi-functional peptides, we employed iMFP-LG to screen novel candidate peptides with both ACP and AMP functions from millions of known peptides in the UniRef90. As a result, 8 candidate peptides were identified, and 1 candidate that exhibits significant antibacterial and anticancer effect was confirmed through molecular structure alignment and biological experiments. We anticipate iMFP-LG can assist in the discovery of multi-functional peptides and contribute to the advancement of peptide drug design. Availability and implementation The models and associated code are available at: https://github.com/chen-bioinfo/iMFP-LG . Supplementary information Supplementary data are available online.",
+  "authors": [
+    "Jiawei Luo",
+    "Kejuan Zhao",
+    "Junjie Chen",
+    "Caihua Yang",
+    "Fuchuan Qu",
+    "Ke Yan",
+    "Yang Zhang",
+    "Bin Liu"
+  ],
+  "published_date": "2023-04-17",
+  "updated_date": "2023-04-17T13:30:38Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.14.536982",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.14.536982.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2026-04-01T21:11:40Z",
+        "timestamp": 1775077900227,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            17
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 49,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Functional peptides are one kind of short protein fragments that have a wide range of beneficial functions for living organisms. The majority of previous research focused on mono-functional peptides, but a growing number of multi-functional peptides have been discovered. Although enormous experimental efforts endeavor to assay multi-functional peptides, only a small fraction of millions of known peptides have been explored. Effective and precise techniques for identifying multi-functional peptides can facilitate their discovery and mechanistic understanding. In this article, we presented a novel method, called iMFP-LG, for identifying multi-functional peptides based on protein language models (pLMs) and graph attention networks (GATs). Comparison results showed iMFP-LG significantly outperforms state-of-the-art methods on both multifunctional bioactive peptides and multi-functional therapeutic peptides datasets. The interpretability of iMFP-LG was also illustrated by visualizing attention patterns in pLMs and GATs. Regarding to the outstanding performance of iMFP-LG on the identification of multi-functional peptides, we employed iMFP-LG to screen novel candidate peptides with both ACP and AMP functions from millions of known peptides in the UniRef90. As a result, 8 candidate peptides were identified, and 1 candidate that exhibits significant antibacterial and anticancer effect was confirmed through molecular structure alignment and biological experiments. We anticipate iMFP-LG can assist in the discovery of multi-functional peptides and contribute to the advancement of peptide drug design.</jats:p>\n                <jats:sec id=\"s1\">\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>\n                    The models and associated code are available at:\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/chen-bioinfo/iMFP-LG\">https://github.com/chen-bioinfo/iMFP-LG</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec id=\"s2\">\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary data are available online.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2023.04.14.536982",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            17
+          ]
+        ],
+        "date-time": "2023-04-17T13:30:38Z",
+        "timestamp": 1681738238000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 5,
+      "title": [
+        "Discovery of novel multi-functional peptides by using protein language models and graph-based deep learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Jiawei",
+          "family": "Luo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kejuan",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0483-303X",
+          "authenticated-orcid": false,
+          "given": "Junjie",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Caihua",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fuchuan",
+          "family": "Qu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ke",
+          "family": "Yan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3503-5161",
+          "authenticated-orcid": false,
+          "given": "Yang",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bin",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1990.9999"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "issue": "4",
+          "key": "2023071221251257000_2023.04.14.536982v2.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbaa367",
+          "DOI": "10.1093/bib/bbaa367",
+          "article-title": "Itp-pred: an interpretable method for predicting, therapeutic peptides with fused features low-dimension representation",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "issue": "17",
+          "key": "2023071221251257000_2023.04.14.536982v2.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2556",
+          "DOI": "10.1093/bioinformatics/btab133",
+          "article-title": "Bert4bitter: a bidirectional encoder representations from transformers (bert)-based model for improving the prediction of bitter peptides",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "8",
+          "key": "2023071221251257000_2023.04.14.536982v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "3789",
+          "DOI": "10.1021/acs.jcim.1c00181",
+          "article-title": "and Shirley WI Siu. xdeep-acpep: deep learning method for anticancer peptide activity prediction based on convolutional neural network and multitask learning",
+          "volume": "61",
+          "year": "2021",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "issue": "W1",
+          "key": "2023071221251257000_2023.04.14.536982v2.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "W434",
+          "DOI": "10.1093/nar/gkac351",
+          "article-title": "iFeatureOmega: an integrative platform for engineering, visualization and analysis of features from molecular sequences, structural and ligand data sets",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.7",
+          "unstructured": "Jacob Devlin , Ming-Wei Chang , Kenton Lee , and Kristina Toutanova . Bert: Pretraining of deep bidirectional transformers for language understanding. arXiv preprint arXiv:1810.04805, 2018."
+        },
+        {
+          "issue": "1",
+          "key": "2023071221251257000_2023.04.14.536982v2.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "50",
+          "DOI": "10.14314/polimery.2003.050",
+          "article-title": "Computer-aided characteristics of proteins as potential precursors of bioactive peptides",
+          "volume": "48",
+          "year": "2003",
+          "journal-title": "POLIMERY-WARSAW"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky995"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2014.10.003"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts565"
+        },
+        {
+          "issue": "2",
+          "key": "2023071221251257000_2023.04.14.536982v2.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "133",
+          "DOI": "10.1007/s10994-008-5064-8",
+          "article-title": "Multilabel classification via calibrated label ranking",
+          "volume": "73",
+          "author": "Johannes Fürnkranz, Eyke Hüllermeier, Eneldo Loza Menćıa, and Klaus Brinker",
+          "year": "2008",
+          "journal-title": "Machine learning"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Geetha Govindan and Achuthsankar S Nair . Composition, transition and distribution (ctd)—a dynamic feature for predictions based on hierarchical structure of cellular sorting. In 2011 Annual IEEE India Conference, pages 1–6. Ieee, 2011.",
+          "DOI": "10.1109/INDCON.2011.6139332"
+        },
+        {
+          "issue": "2",
+          "key": "2023071221251257000_2023.04.14.536982v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "357",
+          "DOI": "10.1016/j.bbamem.2007.11.008",
+          "article-title": "Studies on anticancer activities of antimicrobial peptides",
+          "volume": "1778",
+          "year": "2008",
+          "journal-title": "Biochimica et Biophysica Acta (BBA)-Biomembranes"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Junru Jin , Yingying Yu , Ruheng Wang , Xin Zeng , Chao Pang , Yi Jiang , Zhongshen Li , Yutong Dai , Ran Su , Quan Zou , Kenta Nakai , and Leyi Wei . iDNA-ABF: multiscale deep biological language learning model for the interpretable prediction of DNA methylations. Genome Biology, 23(1):219, October 2022.",
+          "DOI": "10.1186/s13059-022-02780-1"
+        },
+        {
+          "issue": "suppl 1",
+          "key": "2023071221251257000_2023.04.14.536982v2.16",
+          "first-page": "D202",
+          "article-title": "Aaindex: amino acid index database, progress report 2008",
+          "volume": "36",
+          "year": "2007",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "issue": "1",
+          "key": "2023071221251257000_2023.04.14.536982v2.17",
+          "first-page": "111",
+          "article-title": "Antitumor activity of antimicrobial peptides against u937 histiocytic cell line",
+          "volume": "58",
+          "year": "2011",
+          "journal-title": "Acta Biochimica Polonica"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky678"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "You Li , Xueyong Li , Yuewu Liu , Yuhua Yao , and Guohua Huang . Mpmabp: A cnn and bi-lstm-based method for predicting multi-activities of bioactive peptides. Pharmaceuticals, 15(6):707, 2022.",
+          "DOI": "10.3390/ph15060707"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0106691"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.22",
+          "unstructured": "Ilya Loshchilov and Frank Hutter . Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017."
+        },
+        {
+          "issue": "6",
+          "key": "2023071221251257000_2023.04.14.536982v2.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "921",
+          "DOI": "10.1038/s41587-022-01226-0",
+          "article-title": "Identification of antimicrobial peptides from the human gut microbiome using deep learning",
+          "volume": "40",
+          "year": "2022",
+          "journal-title": "Nature Biotechnology"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Balachandran Manavalan , Tae H Shin , Myeong O Kim , and Gwang Lee . Aippred: sequence-based prediction of anti-inflammatory peptides using random forest. Frontiers in pharmacology, 9:276, 2018.",
+          "DOI": "10.3389/fphar.2018.00276"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.25",
+          "unstructured": "Takeru Miyato , Andrew M Dai , and Ian Goodfellow . Adversarial training methods for semi-supervised text classification. arXiv preprint arXiv:1605.07725, 2016."
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.26",
+          "unstructured": "Alec Radford , Karthik Narasimhan , Tim Salimans , Ilya Sutskever , et al. Improving language understanding by generative pre-training. 2018."
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.27",
+          "unstructured": "Roshan Rao , Nicholas Bhattacharya , Neil Thomas , Yan Duan , Peter Chen , John Canny , Pieter Abbeel , and Yun Song . Evaluating protein transfer learning with tape. Advances in neural information processing systems, 32, 2019."
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "issue": "1",
+          "key": "2023071221251257000_2023.04.14.536982v2.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "29",
+          "DOI": "10.1093/fqs/fyx006",
+          "article-title": "Bioactive peptides: A review",
+          "volume": "1",
+          "author": "Adrián Śanchez and Alfredo Vázquez",
+          "year": "2017",
+          "journal-title": "Food Quality and Safety"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ab.2007.10.012"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "441",
+          "DOI": "10.1016/j.compbiolchem.2019.05.008",
+          "article-title": "Thpep: a machine learning-based approach for predicting tumor homing peptides",
+          "volume": "80",
+          "year": "2019",
+          "journal-title": "Computational Biology and Chemistry"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1432-1033.1996.0788r.x"
+        },
+        {
+          "issue": "1",
+          "key": "2023071221251257000_2023.04.14.536982v2.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbab414",
+          "DOI": "10.1093/bib/bbab414",
+          "article-title": "Identifying multi-functional bioactive peptide functions using multi-label deep learning",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Felix Teufel , Jośe Juan Almagro Armenteros , Alexander Rosenberg Johansen , Magnús Halldór Gíslason , Silas Irby Pihl , Konstantinos D Tsirigos , Ole Winther , Søren Brunak , Gunnar von Heijne , and Henrik Nielsen . Signalp 6.0 predicts all five types of signal peptides using protein language models. Nature biotechnology, pages 1–3, 2022.",
+          "DOI": "10.1038/s41587-021-01156-3"
+        },
+        {
+          "issue": "W1",
+          "key": "2023071221251257000_2023.04.14.536982v2.35",
+          "first-page": "W199",
+          "article-title": "AVPpred: collection and prediction of highly effective antiviral peptides",
+          "volume": "40",
+          "year": "05",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grigorios Tsoumakas and Ioannis Vlahavas . Random k-labelsets: An ensemble method for multilabel classification. In European conference on machine learning, pages 406–417. Springer, 2007.",
+          "DOI": "10.1007/978-3-540-74958-5_38"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Salman Sadullah Usmani , Gursimran Bedi , Jesse S Samuel , Sandeep Singh , Sourav Kalra , Pawan Kumar , Anjuman Arora Ahuja , Meenu Sharma , Ankur Gautam , and Gajendra PS Raghava . Thpdb: Database of fda-approved peptide and protein therapeutics. PloS one, 12(7):e0181748, 2017.",
+          "DOI": "10.1371/journal.pone.0181748"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.38",
+          "unstructured": "Laurens Van der Maaten and Geoffrey Hinton . Visualizing data using t-sne. Journal of machine learning research, 9(11), 2008."
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.39",
+          "unstructured": "Ashish Vaswani , Noam Shazeer , Niki Parmar , Jakob Uszkoreit , Llion Jones , Aidan N Gomez , L: ukasz Kaiser , and Illia Polosukhin . Attention is all you need. Advances in neural information processing systems, 30, 2017."
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.40",
+          "unstructured": "Petar Veličkovíc , Guillem Cucurull , Arantxa Casanova , Adriana Romero , Pietro Lio , and Yoshua Bengio . Graph attention networks. arXiv preprint arXiv:1710.10903, 2017."
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.41",
+          "unstructured": "Jesse Vig . Bertviz: A tool for visualizing multihead self-attention in the bert model. In ICLR workshop: Debugging machine learning models, 2019."
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "24",
+          "DOI": "10.1016/j.neunet.2019.10.002",
+          "article-title": "Joint ranking svm and binary relevance with robust low-rank learning for multi-label classification",
+          "volume": "122",
+          "year": "2020",
+          "journal-title": "Neural Networks"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "882",
+          "DOI": "10.1016/j.omtn.2020.05.006",
+          "article-title": "Deep-ampep30: improve short antimicrobial peptides prediction with deep learning",
+          "volume": "20",
+          "year": "2020",
+          "journal-title": "Molecular Therapy-Nucleic Acids"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wenhui Yan , Wending Tang , Lihua Wang , Yannan Bin , and Junfeng Xia . Prmftp: Multi-functional therapeutic peptides prediction based on multi-head self-attention mechanism and class weight optimization. PLoS computational biology, 18(9):e1010511, 2022.",
+          "DOI": "10.1371/journal.pcbi.1010511"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.45",
+          "unstructured": "Liang Yang , Xi-Zhu Wu , Yuan Jiang , and Zhi-Hua Zhou . Multi-label learning with deep forest. arXiv preprint arXiv:1911.06557, 2019."
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "862",
+          "DOI": "10.1016/j.omtn.2020.10.005",
+          "article-title": "Deepacp: a novel computational approach for accurate identification of anticancer peptides by deep learning algorithm",
+          "volume": "22",
+          "year": "2020",
+          "journal-title": "Molecular Therapy-Nucleic Acids"
+        },
+        {
+          "key": "2023071221251257000_2023.04.14.536982v2.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "176600",
+          "DOI": "10.1109/ACCESS.2019.2953990",
+          "article-title": "Improving bert-based text classification with auxiliary sentence and domain knowledge",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "issue": "1",
+          "key": "2023071221251257000_2023.04.14.536982v2.48",
+          "first-page": "258",
+          "article-title": "Predapp: Predicting anti-parasitic peptides with undersampling and ensemble approaches",
+          "volume": "14",
+          "year": "2022",
+          "journal-title": "Interdisciplinary Sciences: Computational Life Sciences"
+        },
+        {
+          "issue": "6",
+          "key": "2023071221251257000_2023.04.14.536982v2.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "):bbab200",
+          "DOI": "10.1093/bib/bbab200",
+          "article-title": "A novel antibacterial peptide recognition algorithm based on bert",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Briefings in Bioinformatics"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.04.14.536982",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:33:37Z",
+        "timestamp": 1768451617000
+      },
+      "score": 48.855854,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.04.14.536982"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            17
+          ]
+        ]
+      },
+      "references-count": 49,
+      "URL": "https://doi.org/10.1101/2023.04.14.536982",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

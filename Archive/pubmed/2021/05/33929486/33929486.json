@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "33929486",
+    "doi": "10.1083/jcb.202009154",
+    "title": "PLCgamma1 promotes phase separation of T cell signaling components."
+  },
+  "content": {
+    "abstract": "The T cell receptor (TCR) pathway receives, processes, and amplifies the signal from pathogenic antigens to the activation of T cells. Although major components in this pathway have been identified, the knowledge on how individual components cooperate to effectively transduce signals remains limited. Phase separation emerges as a biophysical principle in organizing signaling molecules into liquid-like condensates. Here, we report that phospholipase Cgamma1 (PLCgamma1) promotes phase separation of LAT, a key adaptor protein in the TCR pathway. PLCgamma1 directly cross-links LAT through its two SH2 domains. PLCgamma1 also protects LAT from dephosphorylation by the phosphatase CD45 and promotes LAT-dependent ERK activation and SLP76 phosphorylation. Intriguingly, a nonmonotonic effect of PLCgamma1 on LAT clustering was discovered. Computer simulations, based on patchy particles, revealed how the cluster size is regulated by protein compositions. Together, these results define a critical function of PLCgamma1 in promoting phase separation of the LAT complex and TCR signal transduction.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Cattle",
+      "Humans",
+      "Jurkat Cells",
+      "Lymphocyte Activation/*immunology",
+      "Phospholipase C gamma/genetics/*metabolism",
+      "Phosphorylation",
+      "Protein Binding",
+      "Receptors, Antigen, T-Cell/*metabolism",
+      "T-Lymphocytes/immunology/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeng, Longhui",
+        "Palaia, Ivan",
+        "Saric, Andela",
+        "Su, Xiaolei"
+      ],
+      "short_names": [
+        "Zeng L",
+        "Palaia I",
+        "Saric A",
+        "Su X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cell Biology, Yale School of Medicine, New Haven, CT.",
+        "Department of Physics and Astronomy, Institute for the Physics of Living Systems, University College London, London, UK.",
+        "Medical Research Council Laboratory for Molecular Cell Biology, University College London, London, UK.",
+        "Department of Physics and Astronomy, Institute for the Physics of Living Systems, University College London, London, UK.",
+        "Medical Research Council Laboratory for Molecular Cell Biology, University College London, London, UK.",
+        "Department of Cell Biology, Yale School of Medicine, New Haven, CT.",
+        "Yale Cancer Center, Yale University, New Haven, CT."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeng, Longhui",
+        "short_name": "Zeng L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Yale School of Medicine, New Haven, CT."
+        ]
+      },
+      {
+        "full_name": "Palaia, Ivan",
+        "short_name": "Palaia I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, Institute for the Physics of Living Systems, University College London, London, UK.",
+          "Medical Research Council Laboratory for Molecular Cell Biology, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Šarić, Anđela",
+        "short_name": "Šarić A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, Institute for the Physics of Living Systems, University College London, London, UK.",
+          "Medical Research Council Laboratory for Molecular Cell Biology, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Su, Xiaolei",
+        "short_name": "Su X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Yale School of Medicine, New Haven, CT.",
+          "Yale Cancer Center, Yale University, New Haven, CT."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of cell biology"
+    ],
+    "journal_abbrev": [
+      "J Cell Biol"
+    ],
+    "pub_date": "2021 Jun 7",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/01 06:00",
+    "fetched_at": "2026-09-20 02:51:16"
+  },
+  "links": {
+    "cites": [
+      "42544577",
+      "41975457",
+      "41930348",
+      "41760814",
+      "41675989",
+      "41279981",
+      "41132090",
+      "41023404",
+      "40849651",
+      "40796680",
+      "40445763",
+      "40104511",
+      "39990825",
+      "39879116",
+      "39763946",
+      "39757214",
+      "39696498",
+      "39520894",
+      "39253472",
+      "38279272",
+      "38222302",
+      "38037341",
+      "37873222",
+      "37788587",
+      "37668985",
+      "37488826",
+      "37399423",
+      "37299526",
+      "37287688",
+      "36875159",
+      "36528418",
+      "36480602",
+      "36439121",
+      "36322659",
+      "36085373",
+      "35967844",
+      "35764611",
+      "35711141",
+      "35507881",
+      "35260878",
+      "35061003",
+      "34649777",
+      "34230650"
+    ],
+    "refs": [
+      "32643825",
+      "32405004",
+      "31889510",
+      "31591574",
+      "31268421",
+      "30846600",
+      "30510001",
+      "30139739",
+      "29269020",
+      "29186690",
+      "28978037",
+      "28280247",
+      "28255696",
+      "27396911",
+      "27374333",
+      "27056844",
+      "26970734",
+      "26354432",
+      "23777354",
+      "23545499",
+      "22404679",
+      "22396725",
+      "20965175",
+      "20807769",
+      "20510673",
+      "19960312",
+      "19348745",
+      "18848472",
+      "17283063",
+      "16906159",
+      "16467851",
+      "16216891",
+      "16061254",
+      "15764700",
+      "12646565",
+      "12496416",
+      "12356870",
+      "11390650",
+      "10913276",
+      "10811803",
+      "10229072",
+      "9570517",
+      "9489702",
+      "8275435",
+      "8022819"
+    ],
+    "similar": [
+      "33929486",
+      "20544725",
+      "16467851",
+      "27759161",
+      "11368773",
+      "10940929",
+      "19917685",
+      "24412752",
+      "12186560",
+      "27693916",
+      "22922463",
+      "24523509",
+      "35055028",
+      "11259588",
+      "17220479",
+      "15192708",
+      "22055681",
+      "24204825",
+      "25916191",
+      "17250586",
+      "11564877",
+      "20940326",
+      "10811803",
+      "10593514",
+      "19412549",
+      "12717426",
+      "28465009",
+      "21152094",
+      "11094067",
+      "21642986",
+      "16493040",
+      "23666293",
+      "16938345",
+      "22474331",
+      "12646565",
+      "12496416",
+      "25393474",
+      "20534575",
+      "10360968",
+      "20123962",
+      "29677469",
+      "9846483",
+      "34143834",
+      "25452106",
+      "21487392",
+      "10744652",
+      "12898421",
+      "10488157",
+      "15214048",
+      "20889506",
+      "22837484",
+      "11752630",
+      "20130215",
+      "15100278",
+      "18424699",
+      "11754815",
+      "10636929",
+      "22998346",
+      "17562776",
+      "11395491",
+      "32979494",
+      "24101378",
+      "17938199",
+      "16055701",
+      "22665519",
+      "10427998",
+      "11709085",
+      "10506128",
+      "11756537",
+      "27221712",
+      "24595757",
+      "29915297",
+      "31402911",
+      "30723173",
+      "11572860",
+      "28951535",
+      "26590318",
+      "29440364",
+      "10657671",
+      "15879121",
+      "9029091",
+      "8649391",
+      "10523627",
+      "10779414",
+      "19915061",
+      "28598420",
+      "22285373",
+      "10082557",
+      "28698260",
+      "11457888",
+      "10202147",
+      "21463338",
+      "33562083",
+      "12640133",
+      "20460646",
+      "27396911",
+      "27056844",
+      "35061003",
+      "37668985",
+      "35259248",
+      "34344833",
+      "26116243",
+      "37126554",
+      "36460640",
+      "31918402",
+      "33461072"
+    ],
+    "review": [
+      "33929486",
+      "11752630",
+      "31402911",
+      "20460646",
+      "34344833"
+    ],
+    "pmc": [
+      "8094118"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/33929486.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33929486/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33929486",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTPRC-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2786",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33929486",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://rupress.org/jcb/article-lookup/doi/10.1083/jcb.202009154",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

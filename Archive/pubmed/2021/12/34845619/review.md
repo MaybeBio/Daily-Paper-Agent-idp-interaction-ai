@@ -1,0 +1,59 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The abstract describes a computational framework for molecular simulations of intrinsically disordered proteins (IDPs) and their folding upon binding processes, combining all-atom molecular dynamics and coarse-grained simulations.
+- **Shared manuscript claim summary** The authors claim that a general computational framework combining all-atom MD and coarse-grained structure-based models, with parameters calibrated to experimental measurements, can be used to simulate IDP folding upon binding processes and can be adapted by users to study any IDP in isolation and in complex with partners.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or results are provided.
+- **Missing materials affecting confidence** Full manuscript text, methodological details, parameter calibration procedures, validation data, simulation protocols, and analysis tool descriptions are not available. The assessment is therefore limited to the claims as stated in the abstract.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful methodological framework for studying IDP folding upon binding, a topic of significant interest in molecular biophysics. The combination of all-atom MD for conformational ensemble exploration and coarse-grained models for full binding processes is conceptually sound and aligns with current practices in the field. However, the abstract provides insufficient detail to evaluate the technical robustness, novelty, or generalizability of the proposed framework. The claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, molecular dynamics simulation, and protein biophysics would be interested, as the framework addresses a challenging problem in characterizing IDP binding mechanisms. Experimentalists studying IDPs may also find the complementary simulation approach useful for interpreting their data.
+- **Major strengths** The abstract clearly identifies a significant challenge in the field, namely the experimental difficulty of characterizing IDP folding upon binding. The proposed framework leverages complementary strengths of all-atom MD and coarse-grained models, which is a reasonable strategy. The emphasis on providing a general and adaptable protocol is a practical strength for potential users.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that coarse-grained structure-based models with parameters calibrated to available experimental measurements can be used to simulate the entire folding upon binding process.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify how the parameters are calibrated to experimental measurements, nor does it provide any validation data or benchmarks demonstrating that the coarse-grained models accurately reproduce experimental observations of folding upon binding.
+  - **Why it matters** Without evidence of parameter calibration and validation, the reliability of the coarse-grained simulations for capturing the entire binding process is unsubstantiated. This is central to the framework's utility.
+  - **Resolution test** Provide details of the calibration procedure, including which experimental data are used, and show comparisons between simulation results and experimental data for at least one test case.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract claims that the protocol can be adapted by the user to study any IDP in isolation and in complex with partners.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of general applicability to "any IDP" is broad and unsupported. The abstract does not discuss potential limitations, such as system size, force field accuracy, or the need for system-specific parameter adjustments.
+  - **Why it matters** Overstating generalizability without addressing limitations could mislead potential users and undermine the framework's practical value.
+  - **Resolution test** Specify the scope of applicability, including known limitations and conditions under which the framework may fail, and provide examples of diverse IDP systems tested.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses technical terms such as "coarse-grained structure-based models" and "GPU acceleration" without brief explanations, which may reduce accessibility for experimental biologists.
+  - **Required correction** Add a brief clarification of these terms or provide context for nonspecialist readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "a set of tools for the analysis of MD trajectories" but does not name or describe these tools, leaving the reader without a sense of their availability or functionality.
+  - **Required correction** List the specific tools or provide references to their documentation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of validation data and the overbroad generalizability claim must be resolved before the framework's utility can be assessed.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of all-atom MD and coarse-grained models is not novel in itself, but the specific framework as described may offer a practical integration. However, originality cannot be fully assessed from the abstract.
+  - Scientific importance: The topic is important, as IDP binding mechanisms are poorly understood and simulations can provide complementary insights.
+  - Interdisciplinary readership: The work is likely to appeal to computational and experimental biophysicists, but the abstract's technical density may limit broader interdisciplinary reach.
+  - Technical soundness: Not assessable from the abstract; the lack of methodological detail and validation is a major concern.
+  - Readability for nonspecialists: The abstract is moderately readable but could be improved with brief explanations of key terms.
+- **Recommendation posture** Currently not established from the provided evidence. The framework is plausible and potentially useful, but the abstract alone does not provide sufficient evidence to support the core claims of reliability and generalizability. A full manuscript with methodological details and validation would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that the framework can simulate the "entire folding upon binding process" is unsupported without validation data.
+- The claim that the protocol can be adapted to "any IDP" is unsupported and likely overstated.
+- The effectiveness of the all-atom MD approach for exploring IDP conformational ensembles is asserted but not demonstrated.
+- The availability and utility of the analysis tools are mentioned but not described or referenced.

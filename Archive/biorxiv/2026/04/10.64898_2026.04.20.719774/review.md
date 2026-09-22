@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the supplied text; no external data or supplementary materials were available for verification
+- **Shared manuscript claim summary** The authors propose a "molecular grammar" based on sequence features (charge patterning, net charge balance, ensemble dimensions) that predicts the sensitivity of intrinsically disordered protein regions (IDRs) to hyperosmotic stress in living cells, demonstrate necessity and sufficiency of homogeneous charge mixing for high sensitivity, show modulation by protein domain context, and apply the grammar to the WNK kinase crowding-sensing system
+- **Visible evidence base** Text descriptions of FRET experiments, statistical comparisons, logistic regression model performance metrics, and sequence analyses; no raw data, figures, or supplementary tables were accessible
+- **Missing materials affecting confidence** All figures, extended data figures, supplementary tables, and extended files referenced in the text were not provided; raw FRET data, statistical outputs, model validation details, and sequence-level information for the IDR library were unavailable
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the biology of intrinsically disordered proteins: whether sequence-encoded features can predict environmental sensitivity of IDR ensembles in living cells. The authors present a large dataset of 188 IDRs measured by FRET in yeast, identify statistical associations between sequence features and sensitivity, test causality through mutagenesis and de novo design, and apply their framework to a physiologically relevant system (WNK kinases). The conceptual framework is appealing and the potential impact is high. However, the provided text alone does not allow verification of the central claims. Key methodological details, statistical validations, and control experiments are referenced but not shown. The causal claims (necessity and sufficiency) rest on experiments described only in text, and the quantitative strength of the associations is not assessable without figures. The manuscript is likely to be of interest to a broad readership in biophysics, cell biology, and protein engineering, but the case as presented is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and phase separation, biophysicists interested in sequence-ensemble relationships, cell biologists studying stress responses and osmosensing, and protein engineers interested in designing environmental sensors. The WNK kinase application provides a direct physiological link that will interest signaling biologists and physiologists studying cell volume regulation.
+- **Major strengths** 1) The study addresses a fundamental question with broad implications using a large, phylogenetically diverse dataset. 2) The combination of statistical association, causal testing, and physiological application is a strong logical structure. 3) The identification of charge patterning as a key determinant is mechanistically plausible and consistent with prior in vitro work. 4) The demonstration that domain context modulates sensitivity adds an important layer of complexity. 5) The WNK application provides translational relevance and a concrete example of the framework's utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "We show that ensemble sensitivity is significantly associated with specific sequence features and predicted ensemble dimensions, with homogeneous patterning of oppositely charged residues emerging as a strong predictor of high sensitivity in charged IDRs."
+  - **Evidence pointer** Figure 2, Extended Data Figures 2-3, location not provided
+  - **Concern** The statistical associations between sequence features and sensitivity are described in text with means, confidence intervals, and p-values, but the actual distributions, effect sizes, and overlap between groups are not visible. The claim that charge patterning is a "strong predictor" requires visual evidence of separation between hypersensitive and insensitive groups. Additionally, the logistic regression model performance (accuracy 0.82, sensitivity 0.85, specificity 0.79) is reported, but no ROC curve, calibration plot, or cross-validation results are shown.
+  - **Why it matters** The central thesis of the manuscript is that a predictive grammar exists. Without visual evidence of the strength and reliability of the associations, the reader cannot judge whether the model is genuinely predictive or merely descriptive. Overlapping distributions or model overfitting would substantially weaken the claims.
+  - **Resolution test** Provide scatter plots or violin plots showing the distribution of κ, |NCPR|, and Re for hypersensitive versus insensitive groups. Show ROC curves with AUC, cross-validated performance metrics, and calibration plots for the logistic regression model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "This sequence organization is necessary for high sensitivity in naturally-occurring IDRs and sufficient to confer high responsiveness in de novo designed low-complexity sequences."
+  - **Evidence pointer** Figures 3-4, Extended Data Figures 4-6, location not provided
+  - **Concern** The necessity claim is based on mutagenesis experiments (V1, V2, V3 κ variants) and the sufficiency claim on a de novo designed sequence (Syn1). However, the text does not describe the design principles for Syn1 beyond "similar to the wild type CA LR proteins," nor does it show the actual FRET responses of these variants. The number of replicates, the statistical comparison between variants, and the specificity of the effect (i.e., whether the loss of sensitivity is specifically due to charge patterning rather than other sequence changes) are not assessable.
+  - **Why it matters** The causal claims are the strongest in the manuscript and distinguish it from purely correlative studies. If the mutagenesis does not cleanly separate charge patterning from other sequence features, or if the de novo design does not demonstrate that charge patterning alone is sufficient, the central thesis is weakened.
+  - **Resolution test** Show FRET response curves for WT and all variants across NaCl concentrations. Provide sequence alignments and charge patterning diagrams for WT, variants, and Syn1. Include statistical comparisons of ΔFRET between variants. Describe the design algorithm for Syn1 and demonstrate that it is not simply a consensus sequence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Context-dependence claim
+  - **Claim pointer** "We further demonstrate that the presence of additional structured domains within IDR-containing proteins can substantially modulate ensemble sensitivity relative to isolated IDRs, revealing an additional layer of modulation at the multi-domain protein level."
+  - **Evidence pointer** Figure 5, Extended Data Figure 7, location not provided
+  - **Concern** The claim that domain context modulates sensitivity is based on comparisons between isolated IDRs and full-length proteins (FL_HeCAHS8, 2X_LR, FL_Proline, NLN, CLC). However, the text does not describe how the FRET readout is affected by the presence of folded domains, whether the FRET pair placement is identical in all constructs, or whether the observed differences could be due to altered expression, folding, or oligomerization rather than intrinsic ensemble properties.
+  - **Why it matters** This claim adds an important nuance to the grammar framework, but if the experimental design does not control for potential confounds, the conclusion that domain context modulates sensitivity may be premature.
+  - **Resolution test** Show domain architectures of all constructs, confirm identical FRET pair placement, and provide control experiments demonstrating that differences in FRET are not due to altered protein levels or aggregation. Consider including a construct where a folded domain is attached to a known insensitive IDR to show specificity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model applicability
+  - **Claim pointer** "Applying the molecular grammar to the with-no-lysine (WNK) kinase crowding-sensing system, we find that regions within the disordered C-terminal domain – the domain necessary for crowding-induced phase separation and cell volume recovery – are predicted as hypersensitive, a property that is conserved across distant WNK homologues despite sequence divergence, and that is shared by heterologous IDRs capable of functionally replacing it."
+  - **Evidence pointer** Figure 6, location not provided
+  - **Concern** The application to WNK is presented as a validation of the grammar, but the text does not describe how the prediction was made (which sequence features were used, what threshold was applied) or how the prediction compares to experimental data beyond the statement that the domain is "necessary." The claim that heterologous IDRs capable of functionally replacing the WNK CTD are also predicted as hypersensitive is intriguing but not substantiated with data.
+  - **Why it matters** This section is meant to demonstrate the physiological relevance and predictive power of the grammar. Without a clear description of the prediction process and a quantitative comparison to experimental outcomes, the validation is incomplete.
+  - **Resolution test** Provide a detailed description of the prediction pipeline for WNK CTD. Show predicted sensitivity profiles along the CTD sequence. Compare predictions for functional vs. non-functional heterologous IDRs. If possible, include experimental validation of predicted sensitive regions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "homogeneous patterning of oppositely charged residues emerging as a strong predictor" but does not define "homogeneous patterning" or provide a quantitative metric.
+  - **Required correction** Define the metric used (e.g., κ) and provide a brief explanation of what values indicate homogeneous patterning.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "Sequence organization and predicted ensemble dimensions bias ensemble sensitivity"
+  - **Evidence pointer** Figure 2, location not provided
+  - **Issue** The text reports 99% confidence intervals for differences in means, which is unusual; standard practice is 95% CI. The choice of 99% CI should be justified.
+  - **Required correction** Justify the use of 99% CI or report 95% CI for consistency with common practice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The term "grammar" is used throughout, but its definition is only provided in the Discussion. Consider defining it earlier in the Results.
+  - **Required correction** Define "grammar" in the Introduction or at the start of Results to avoid ambiguity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methods clarity
+  - **Affected element** Methods section "Sliding window sensitivity analysis"
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The sliding window analysis is described for IDRs larger than 200 residues, but the rationale for this threshold and the choice of window size (100 residues) and stride (10 residues) are not explained.
+  - **Required correction** Provide justification for the window size and stride, and explain why 200 residues was chosen as the cutoff.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The methods reference Supplementary Tables 1 and 2 for the IDR library and constructs, but these are not provided in the supplied material.
+  - **Required correction** Ensure all supplementary materials are accessible to reviewers and readers.
+- **Technical failings that need to be addressed before the case is established** 1) The statistical model performance metrics are reported without cross-validation or external validation, which is essential for a predictive model. 2) The causal experiments (mutagenesis and de novo design) are described without sufficient detail on design rationale, controls, or replicate numbers. 3) The FRET methodology is referenced to previous work but the specific conditions, data analysis pipeline, and quality controls for the 188-IDR screen are not described. 4) The WNK application lacks a clear description of the prediction pipeline and quantitative comparison to experimental data.
+- **Assessment against Nature-style criteria** Originality: High. The concept of a predictive grammar for environmental sensitivity of IDRs is novel and extends prior work on sequence-ensemble relationships. Scientific importance: High. If substantiated, the framework could transform understanding of how cells sense physicochemical changes and enable engineering of environmental sensors. Interdisciplinary readership: Broad. The work bridges biophysics, cell biology, and protein engineering. Technical soundness: Not fully assessable from the provided text. The statistical and experimental details are insufficient to evaluate rigor. Readability for nonspecialists: Good. The text is generally clear, though some terms (e.g., κ, NCPR) could benefit from brief definitions for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is compelling and the study addresses an important question, but the provided material does not allow verification of the central claims. The authors should provide full access to figures, supplementary data, and detailed methods to enable a complete assessment.
+
+## Risk / unsupported claims
+- The claim that "homogeneous patterning of oppositely charged residues" is a "strong predictor" of high sensitivity is not verifiable without visual evidence of the distributions and model performance.
+- The claim that charge patterning is "necessary" for high sensitivity is based on mutagenesis experiments that are not described in sufficient detail to assess whether the effect is specific to charge patterning.
+- The claim that de novo designed sequences are "sufficient" to confer high sensitivity is not substantiated with data on the design process or the FRET responses.
+- The claim that domain context "substantially modulates" sensitivity is not supported by control experiments ruling out alternative explanations.
+- The WNK application is presented as validation but the prediction process and quantitative comparison to experimental data are not described.
+- The statement that "21 IDRs of the hypersensitive group (44.7%) belong to proteins involved in stress response" is presented without a statistical test comparing this enrichment to the insensitive group or the full library.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors propose that in the autoinhibited kinesin-1 heterotetramer, KHC coiled coil 1 (CC1) docks the KLC TPR domains to form the "shoulder" feature; binding of an activating SLiM or disruption of the CC1-TPR interaction dislocates this shoulder, freeing the motor domains and promoting the transition from closed to open states, which facilitates MAP7 binding. The authors conclude that cargo-mediated TPR shoulder dislocation is a key initial step in kinesin-1 activation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, computational modelling details, biophysical data, electron microscopy images and reconstructions, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically appealing model for kinesin-1 activation that integrates structural, biophysical, and computational approaches. The proposed role of the TPR shoulder as an allosteric switch is plausible and would be of considerable interest to the cytoskeletal motor and cell biology communities. However, the abstract alone provides insufficient evidence to evaluate the robustness of the key claims. The central conclusion rests on correlative observations, and the causal relationship between SLiM binding, TPR shoulder dislocation, and motor domain freeing is asserted rather than demonstrated. The claim that MAP7 binding is facilitated by opening requires direct experimental support that is not visible in the abstract. The work has clear potential, but the case as presented is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Cell biologists studying intracellular transport, biophysicists interested in allosteric regulation of motor proteins, structural biologists working on macromolecular complexes, and researchers investigating kinesin-related pathologies. The proposed mechanism of cargo-mediated allosteric activation would also interest those studying how short linear motifs regulate protein complex dynamics more broadly.
+- **Major strengths** The study combines multiple orthogonal approaches, which strengthens the potential robustness of the findings. The identification of a specific structural feature, the TPR shoulder, and its proposed role as an allosteric switch provides a concrete and testable mechanistic model. The connection between cargo binding and motor domain freeing addresses a long-standing question in the field. The proposed link to MAP7 cofactor binding integrates the activation mechanism with the broader kinesin-1 regulatory network.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors claim that "disrupting this interaction or binding an activating SLiM dislocates the TPR shoulder, freeing the motor domains and promoting transition between its closed, inactive, and open states."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract presents the dislocation of the TPR shoulder as the cause of motor domain freeing and state transition, but the evidence described is correlative. The abstract does not specify whether the experiments distinguish between dislocation as a necessary prerequisite, a coincident event, or a consequence of other conformational changes. The causal ordering is asserted without visible experimental support.
+  - **Why it matters** The central mechanistic claim of the paper is that TPR shoulder dislocation is a key initial step in activation. If the evidence only shows correlation, the mechanistic model is not established. Establishing causality is essential for the paper to make a significant conceptual advance.
+  - **Resolution test** Provide experiments that manipulate the TPR shoulder independently of SLiM binding, such as engineered crosslinks or mutations that stabilise or destabilise the CC1-TPR interaction, and show that these manipulations alone can promote or block the open state and MAP7 binding. Alternatively, time-resolved experiments showing that shoulder dislocation precedes motor domain freeing would support the proposed ordering.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "opening the kinesin-1 complex facilitates binding to the microtubule-associated kinesin-1 cofactor, MAP7."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that opening facilitates MAP7 binding, but no experimental data are described that directly test this relationship. It is unclear whether MAP7 binding was measured in the closed versus open states, whether the effect is specific to MAP7, or whether the observed facilitation is indirect.
+  - **Why it matters** The MAP7 connection is presented as a functional consequence of the proposed activation mechanism. Without direct evidence, this claim is unsupported and weakens the overall model. If MAP7 binding is not directly demonstrated to be enhanced by opening, the physiological relevance of the proposed mechanism remains speculative.
+  - **Resolution test** Include binding assays, such as pull-downs or biophysical measurements, comparing MAP7 binding to kinesin-1 in the closed and open states. Show that the effect is specific to MAP7 and not a general consequence of conformational change. Ideally, demonstrate that MAP7 binding is enhanced by SLiM-mediated activation in a cellular or reconstituted system.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative support
+  - **Claim pointer** The authors claim that the complex "adopts a compact, autoinhibited state" and that SLiM binding promotes "transition between its closed, inactive, and open states."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide quantitative information about the conformational states, such as equilibrium constants, free energy differences, or population distributions. The terms "closed," "inactive," and "open" are used without defining the structural or biophysical criteria that distinguish these states.
+  - **Why it matters** Without quantitative definitions, the proposed conformational transitions cannot be rigorously evaluated or compared with existing models. The field would benefit from knowing the magnitude of the conformational change and the energetic cost of the transition.
+  - **Resolution test** Provide quantitative biophysical data, such as FRET measurements, SAXS profiles, or single-molecule analyses, that define the distinct states and report on the populations and transition rates. Include error estimates and statistical comparisons.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "shoulder" is used to describe a structural feature, but it is not defined in the abstract. Readers unfamiliar with the kinesin-1 literature may not understand what this feature represents.
+  - **Required correction** Provide a brief definition or description of the shoulder feature in the abstract, or refer to it with a more descriptive term that conveys its structural nature.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists "protein design, computational modelling, biophysical analysis, and electron microscopy" as methods, but provides no details on the design strategy, the modelling approach, or the resolution of the electron microscopy reconstructions.
+  - **Required correction** Include brief methodological details in the abstract, such as the type of computational modelling, the resolution range of the EM structures, and the key biophysical techniques used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** SLiM description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "an activating SLiM" without specifying which SLiM or from which cargo adaptor protein it is derived. This limits the reader's ability to assess the generality of the findings.
+  - **Required correction** Specify the SLiM sequence and the cargo adaptor protein used in the study, or state whether multiple SLiMs were tested.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The causal relationship between TPR shoulder dislocation and motor domain freeing must be demonstrated with direct experiments. The MAP7 binding claim requires direct binding data. R1-M3, while not blocking, should be addressed to strengthen the quantitative basis of the model.
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed allosteric mechanism linking cargo binding to motor domain freeing via TPR shoulder dislocation is conceptually novel and would represent a significant advance if fully supported.
+  - Scientific importance: The mechanism of kinesin-1 activation is a fundamental question in cell biology, and the proposed model has broad implications for understanding motor protein regulation.
+  - Interdisciplinary readership: The work bridges structural biology, biophysics, and cell biology, and would appeal to a broad readership if the evidence is compelling.
+  - Technical soundness: Cannot be fully assessed from the abstract alone. The combination of methods is appropriate, but the causal claims require stronger experimental support.
+  - Readability for nonspecialists: The abstract is generally clear, but the undefined term "shoulder" and the lack of quantitative context may limit accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The proposed model is interesting and potentially important, but the current abstract does not provide sufficient evidence to establish the causal claims. The authors should address R1-M1 and R1-M2 with direct experiments and provide quantitative definitions of the conformational states.
+
+## Risk / unsupported claims
+- The claim that TPR shoulder dislocation is the cause, rather than a correlate, of motor domain freeing is unsupported by the abstract evidence.
+- The claim that opening the kinesin-1 complex facilitates MAP7 binding is unsupported without direct binding data.
+- The existence of distinct "closed, inactive, and open" states is asserted without quantitative or structural definitions.
+- The generalisability of the mechanism to different cargo adaptors and SLiMs is not established from the abstract.

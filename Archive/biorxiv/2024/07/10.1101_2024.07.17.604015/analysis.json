@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.17.604015",
+  "title": "Rapid protein evolution by few-shot learning with a protein language model",
+  "authors": "Kaiyi Jiang; Zhaoqing Yan; Matteo Di Bernardo; Samantha R. Sgrizzi; Lukas Villiger; Alisan Kayabolen; Byungji Kim; Josephine K. Carscadden; Masahiro Hiraizumi; Hiroshi Nishimasu; Jonathan S. Gootenberg; Omar O. Abudayyeh",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-18",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出EVOLVEpro，用蛋白语言模型和少样本主动学习进行蛋白定向进化，优化蛋白活性；对象为折叠蛋白（如聚合酶、核酸酶、抗体），非IDP/相分离，且不涉及PPI互作机制建模，仅方法上AI可迁移，故评分较低。",
+  "abstract": "Directed evolution of proteins is critical for applications in basic biological research, therapeutics, diagnostics, and sustainability. However, directed evolution methods are labor intensive, cannot efficiently optimize over multiple protein properties, and are often trapped by local maxima. In silico- directed evolution methods incorporating protein language models (PLMs) have the potential to accelerate this engineering process, but current approaches fail to generalize across diverse protein families. We introduce EVOLVEpro, a few-shot active learning framework to rapidly improve protein activity using a combination of PLMs and protein activity predictors, achieving improved activity with as few as four rounds of evolution. EVOLVEpro substantially enhances the efficiency and effectiveness of in silico protein evolution, surpassing current state-of-the-art methods and yielding proteins with up to 100-fold improvement of desired properties. We showcase EVOLVEpro for five proteins across three applications: T7 RNA polymerase for RNA production, a miniature CRISPR nuclease, a prime editor, and an integrase for genome editing, and a monoclonal antibody for epitope binding. These results demonstrate the advantages of few-shot active learning with small amounts of experimental data over zero-shot predictions. EVOLVEpro paves the way for broader applications of AI-guided protein engineering in biology and medicine.",
+  "abstract_zh": "蛋白质的定向进化对于基础生物学研究、治疗、诊断和可持续性领域的应用至关重要。然而，定向进化方法劳动密集，无法高效优化多种蛋白质特性，且常陷入局部最优解。结合蛋白质语言模型（PLMs）的计算机模拟定向进化方法有潜力加速这一工程过程，但当前方法难以在不同蛋白质家族间泛化。我们引入EVOLVEpro，一种少样本主动学习框架，通过结合PLMs和蛋白质活性预测器快速改善蛋白质活性，仅需四轮进化即可实现活性提升。EVOLVEpro显著增强了计算机模拟蛋白质进化的效率和效果，超越当前最先进方法，并产生所需特性提升高达100倍的蛋白质。我们展示了EVOLVEpro在三种应用中的五种蛋白质上的表现：用于RNA生产的T7 RNA聚合酶、一种微型CRISPR核酸酶、一种先导编辑器、一种用于基因组编辑的整合酶，以及一种用于表位结合的单克隆抗体。这些结果证明了少量实验数据下的少样本主动学习优于零样本预测的优势。EVOLVEpro为AI引导的蛋白质工程在生物学和医学中的更广泛应用铺平了道路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.17.604015",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.17.604015",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.17.604015/index.html"
+}

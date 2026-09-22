@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40626470",
+  "title": "Enhanced condensate fluidity in modified patchy particle models.",
+  "authors": "Taskina, Alena; Magan, Devika; Dannenberg, Simon; Klumpp, Stefan",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2025-07-08",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过改进patchy粒子粗粒化模型加速生物分子凝聚体动力学模拟，虽对象为模型粒子而非具体IDP，但聚焦相分离凝聚体形成与内部结构，且方法上属物理模拟建模，对无序蛋白介导的PPI相分离机制建模有直接方法学启发。",
+  "abstract": "Biomolecular condensates are formed via liquid-liquid phase separation of proteins, often together with nucleic acids, typically driven by interactions between low-affinity binding sites. The computational study of such condensates that accounts for both the droplet-scale fluid behavior and the internal structure of the condensate requires coarse-grained models. Recently, patchy particle models, representing proteins as spheres with a repulsive core and directional attractive patches, have emerged as a powerful tool. However, these simulations typically exhibit slow dynamics and often show glass-like rather than fluid condensates as required for the description of many biomolecular condensates, establishing a need for model variants with accelerated dynamics, both to speed up simulations and to better represent fluid biomolecular condensates. Here, we study several modified patchy particle models suited to simulate the formation and dynamics of biomolecular condensates. These variants incorporate flexible patches and weak isotropic attractions between cores. They significantly accelerate the system dynamics while preserving key equilibrium characteristics of the classical patchy particle model, including the phase behavior and the local structure of the condensate. These modifications thereby enable the simulation of larger, more complex systems previously inaccessible due to prohibitive relaxation times and provide a versatile tool for studying condensate dynamics.",
+  "abstract_zh": "生物分子凝聚体通过蛋白质的液-液相分离形成，通常与核酸共同参与，主要由低亲和力结合位点之间的相互作用驱动。对这种凝聚体的计算研究，需同时考虑液滴尺度的流体行为及凝聚体内部结构，因此需要粗粒化模型。近年来，斑块粒子模型（patchy particle models）——将蛋白质表示为具有排斥核心和方向性吸引斑块的球体——已成为一种强大工具。然而，这些模拟通常表现出缓慢的动力学，且往往呈现玻璃态而非流体态凝聚体，这不符合描述许多生物分子凝聚体的需求，因此需要具有加速动力学的模型变体，既用于加快模拟速度，也用于更准确地表征流体生物分子凝聚体。在此，我们研究了几种适用于模拟生物分子凝聚体形成和动力学的改进斑块粒子模型。这些变体引入了柔性斑块和核心间的弱各向同性吸引。它们显著加速了系统动力学，同时保留了经典斑块粒子模型的关键平衡特性，包括相行为和凝聚体的局部结构。这些改进因此使得模拟更大、更复杂的系统成为可能，这些系统此前因过长的弛豫时间而难以触及，并为研究凝聚体动力学提供了多功能工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40626470/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40626470/",
+  "paper_page_path": "papers/pubmed/40626470/index.html"
+}

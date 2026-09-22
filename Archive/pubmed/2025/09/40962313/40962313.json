@@ -1,0 +1,215 @@
+{
+  "identity": {
+    "pmid": "40962313",
+    "doi": "10.1021/acs.jcim.5c01281",
+    "title": "CGBack: Diffusion Model for Backmapping Large-Scale and Complex Coarse-Grained Molecular Systems."
+  },
+  "content": {
+    "abstract": "Molecular dynamics simulations based on coarse-grained (CG) models are used to accelerate conformational dynamics of biomolecules and other chemical systems with reduced computational costs. CG models achieve this by discarding atomic information necessary for downstream structural analysis. Recovering the atomic detail from CG structures, i.e., backmapping, remains a fundamental challenge in multiscale modeling, especially for proteins and complex biomolecular assemblies. Recent machine learning methods have shown promise in reconstructing atomistic details, but most approaches only target simple systems at a small scale. In particular, conventional backmapping pipelines often fail to preserve stereochemistry, induce high-energy configurations, or require extensive minimization. Here we present CGBack, a backmapping framework that employs a denoising diffusion probabilistic model to reconstruct all-atom molecular structures from CG representations. CGBack consists of backmapping and refinement procedures and accurately recovers atomic coordinates across diverse protein systems from small to large scales. We show that CGBack is capable of accurately backmapping both single-chain and multichain molecular systems, including densely packed intrinsically disordered proteins in condensates. These results suggest that CGBack can be a powerful tool for multiscale molecular simulation pipelines. We anticipate that CGBack will enable more efficient workflows for protein modeling, as well as for other biomolecules across different CG models.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Diffusion",
+      "*Proteins/chemistry",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ugarte La Torre, Diego",
+        "Sugita, Yuji"
+      ],
+      "short_names": [
+        "Ugarte La Torre D",
+        "Sugita Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9738-9216"
+      ],
+      "affiliations": [
+        "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe 650-0047, Japan.",
+        "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe 650-0047, Japan.",
+        "Theoretical Molecular Science Laboratory, RIKEN Pioneering Research Institute, Saitama 351-0198, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ugarte La Torre, Diego",
+        "short_name": "Ugarte La Torre D",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugita, Yuji",
+        "short_name": "Sugita Y",
+        "identifiers": [
+          "0000-0001-9738-9216"
+        ],
+        "affiliations": [
+          "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe 650-0047, Japan.",
+          "Theoretical Molecular Science Laboratory, RIKEN Pioneering Research Institute, Saitama 351-0198, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Oct 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/18 00:31",
+    "fetched_at": "2026-09-17 20:10:48"
+  },
+  "links": {
+    "cites": [
+      "42564957",
+      "42376920"
+    ],
+    "refs": [],
+    "similar": [
+      "40962313",
+      "40452189",
+      "40827669",
+      "37906711",
+      "31965325",
+      "30908042",
+      "36417670",
+      "41454855",
+      "26677962",
+      "40339149",
+      "41114531",
+      "40544328",
+      "32752654",
+      "25387958",
+      "22298285",
+      "41210784",
+      "40184371",
+      "39772562",
+      "38542881",
+      "38758598",
+      "35866871",
+      "26579771",
+      "32385270",
+      "26575522",
+      "29397721",
+      "38427962",
+      "34944432",
+      "36379782",
+      "29204882",
+      "19843465",
+      "23912807",
+      "36157043",
+      "38049145",
+      "30915396",
+      "25443957",
+      "31375023",
+      "32199430",
+      "26930392",
+      "26773132",
+      "40324844",
+      "26668124",
+      "40681718",
+      "30404229",
+      "36347700",
+      "28992696",
+      "30550276",
+      "21494747",
+      "35381009",
+      "21682507",
+      "41088757",
+      "20017540",
+      "27333362",
+      "25903863",
+      "23406326",
+      "35352898",
+      "16884212",
+      "23203075",
+      "29248728",
+      "34940778",
+      "33301208",
+      "23451897",
+      "28128949",
+      "23665897",
+      "39124960",
+      "39754120",
+      "18757560",
+      "39250520",
+      "28530269",
+      "38928405",
+      "21740053",
+      "30543257",
+      "37529288",
+      "22411308",
+      "17400700",
+      "39908323",
+      "37688551",
+      "26574442",
+      "24028092",
+      "26615701",
+      "24511980",
+      "37456111",
+      "40172489",
+      "16851243",
+      "38314956",
+      "38053335",
+      "36966691",
+      "38374639",
+      "33333836",
+      "40009520",
+      "39053012",
+      "28195464",
+      "40146906",
+      "32610441",
+      "16361345",
+      "37535543",
+      "37788237",
+      "40928103",
+      "31025999",
+      "19280011",
+      "40960922"
+    ],
+    "review": [
+      "40962313",
+      "40544328",
+      "26575522",
+      "29204882",
+      "25443957",
+      "31375023",
+      "40324844",
+      "30404229",
+      "27333362",
+      "23451897",
+      "37529288",
+      "24028092",
+      "40172489",
+      "36966691"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01281",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

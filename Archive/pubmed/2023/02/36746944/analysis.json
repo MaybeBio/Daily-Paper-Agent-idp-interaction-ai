@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36746944",
+  "title": "Direct digital sensing of protein biomarkers in solution.",
+  "authors": "Krainer, Georg; Saar, Kadi L; Arter, William E; Welsh, Timothy J; Czekalska, Magdalena A; Jacquat, Raphael P B; Peter, Quentin; Traberg, Walther C; Pujari, Arvind; Jayaram, Akhila K; Challa, Pavankumar; Taylor, Christopher G; van der Linden, Lize-Mari; Franzmann, Titus; Owens, Roisin M; Alberti, Simon; Klenerman, David; Knowles, Tuomas P J",
+  "journal": "Nature communications",
+  "published_date": "2023-02-07",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文介绍一种无表面捕获的单分子微流控免疫传感平台，用于溶液中蛋白生物标志物的直接数字检测，虽涉及生物分子凝聚体等对象，但核心是实验检测方法，无PPI机制建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "The detection of proteins is of central importance to biomolecular analysis and diagnostics. Typical immunosensing assays rely on surface-capture of target molecules, but this constraint can limit specificity, sensitivity, and the ability to obtain information beyond simple concentration measurements. Here we present a surface-free, single-molecule microfluidic sensing platform for direct digital protein biomarker detection in solution, termed digital immunosensor assay (DigitISA). DigitISA is based on microchip electrophoretic separation combined with single-molecule detection and enables absolute number/concentration quantification of proteins in a single, solution-phase step. Applying DigitISA to a range of targets including amyloid aggregates, exosomes, and biomolecular condensates, we demonstrate that the assay provides information beyond stoichiometric interactions, and enables characterization of immunochemistry, binding affinity, and protein biomarker abundance. Taken together, our results suggest a experimental paradigm for the sensing of protein biomarkers, which enables analyses of targets that are challenging to address using conventional immunosensing approaches.",
+  "abstract_zh": "蛋白质检测在生物分子分析和诊断中具有核心重要性。典型的免疫传感检测依赖于靶分子的表面捕获，但这种限制可能影响特异性、灵敏度以及获取超出简单浓度测量之外信息的能力。在此，我们提出一种无表面、单分子微流控传感平台，用于溶液中蛋白质生物标志物的直接数字检测，称为数字免疫传感器检测（DigitISA）。DigitISA基于微芯片电泳分离结合单分子检测，能够在单一溶液相步骤中实现蛋白质的绝对数量/浓度定量。将DigitISA应用于多种靶标，包括淀粉样聚集体、外泌体和生物分子凝聚体，我们证明该检测能提供超出化学计量相互作用的信息，并能够表征免疫化学、结合亲和力及蛋白质生物标志物丰度。综合来看，我们的结果提出了一种用于蛋白质生物标志物传感的实验范式，能够分析传统免疫传感方法难以处理的靶标。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36746944/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36746944/",
+  "paper_page_path": "papers/pubmed/36746944/index.html"
+}

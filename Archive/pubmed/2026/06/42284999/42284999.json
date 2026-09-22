@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "42284999",
+    "doi": "10.1016/j.cis.2026.103965",
+    "title": "Nanoscale interrogation of alpha-Synuclein oligomers: Bridging biophysics, interface science, and neurobiology."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein (alpha-syn) is an intrinsically disordered presynaptic protein. In synucleinopathies, it undergoes a structural transition into beta-sheet-rich conformers that promote the formation of amyloid fibrils and pathological inclusions. Although fibrillar aggregates have been studied extensively, soluble oligomers, which may have the greatest neurotoxic potential, remain poorly understood because of their transient nature and structural heterogeneity. This review critically examines alpha-syn oligomeric species, with particular emphasis on advanced biophysical and surface characterization techniques and neurobiological models to elucidate oligomer formation, membrane interactions, and toxic mechanisms. Recent advances in spectroscopy, high-resolution microscopy, and mass spectrometry have significantly expanded the ability to characterize alpha-syn oligomers and their aggregation pathways. Nanopore-based and single-molecule approaches enable the investigation of transient and structurally heterogeneous oligomeric species at the level of individual particles. Interface science has further clarified direct interactions between oligomers and lipid membranes, providing mechanistic insight into neurotoxicity and the lipid-dependent modulation of alpha-syn conformation and stability. Neurobiological models have revealed multi-organelle disruption, prion-like propagation, and disease subtype-specific seeding. However, no single approach fully captures oligomer pathogenicity, which emerges from the interplay of structure, interfacial behavior, and cellular vulnerability. However, existing frameworks do not adequately address this complexity. Additional barriers include poor reproducibility and limited sensitivity across approaches. Future work should integrate these technologies with standardized biological protocols, advanced artificial intelligence algorithms, and biocompatible nanomaterials. Such an interdisciplinary approach could enable the development of multiscale platforms for real-time studies of alpha-syn soluble conformers, with clinical utility in the management of synucleinopathies.",
+    "keywords": [
+      "Interface science",
+      "Nanoscale biophysics",
+      "Oligomer membrane interactions",
+      "Oligomer-induced neurotoxicity",
+      "Parkinson's disease",
+      "Synucleinopathies",
+      "alpha-synuclein oligomers"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "Humans",
+      "Animals",
+      "*Nanotechnology/methods",
+      "Biophysics",
+      "Protein Multimerization",
+      "Synucleinopathies/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Goncerz, Magdalena",
+        "Rubis, Blazej",
+        "Szukalska, Marta",
+        "Toton, Ewa",
+        "Nehra, Monika",
+        "Malesza, Ida",
+        "Sujka-Kordowska, Patrycja",
+        "Jachimska, Barbara",
+        "Florek, Ewa",
+        "Madry, Edyta",
+        "Kumar, Sandeep",
+        "Kujawska, Malgorzata"
+      ],
+      "short_names": [
+        "Goncerz M",
+        "Rubis B",
+        "Szukalska M",
+        "Toton E",
+        "Nehra M",
+        "Malesza I",
+        "Sujka-Kordowska P",
+        "Jachimska B",
+        "Florek E",
+        "Madry E",
+        "Kumar S",
+        "Kujawska M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Toxicology, Poznan University of Medical Sciences, Poznan 60-806, Poland.",
+        "Department of Clinical Chemistry and Molecular Diagnostics, Poznan University of Medical Sciences, Poznan 60-806, Poland.",
+        "Laboratory of Environmental Research, Department of Toxicology, Poznan University of Medical Sciences, Poznan 60-806, Poland.",
+        "Department of Clinical Chemistry and Molecular Diagnostics, Poznan University of Medical Sciences, Poznan 60-806, Poland.",
+        "CSIR-National Physical Laboratory, Dr K. S. Krishnan Marg, New Delhi 110012, India; Academy of Scientific & Innovative Research (AcSIR), Ghaziabad 201002, India.",
+        "Department of Pediatric Gastroenterology and Metabolic Diseases, Poznan University of Medical Sciences, Poznan 60-572, Poland.",
+        "Department of Histology and Embryology, Poznan University of Medical Sciences, Poznan 60-781, Poland.",
+        "Jerzy Haber Institute of Catalysis and Surface Chemistry, Polish Academy of Sciences, Cracow 30-239, Poland.",
+        "Laboratory of Environmental Research, Department of Toxicology, Poznan University of Medical Sciences, Poznan 60-806, Poland.",
+        "Physiology Department, Poznan University of Medical Sciences, Poznan 60-781, Poland.",
+        "Department of Physics, Punjab Engineering College (Deemed to be University), Chandigarh 160012, India. Electronic address: sandeepkumar@pec.edu.in.",
+        "Department of Toxicology, Poznan University of Medical Sciences, Poznan 60-806, Poland. Electronic address: kujawska@ump.edu.pl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Goncerz, Magdalena",
+        "short_name": "Goncerz M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Toxicology, Poznan University of Medical Sciences, Poznan 60-806, Poland."
+        ]
+      },
+      {
+        "full_name": "Rubiś, Błażej",
+        "short_name": "Rubiś B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Chemistry and Molecular Diagnostics, Poznan University of Medical Sciences, Poznan 60-806, Poland."
+        ]
+      },
+      {
+        "full_name": "Szukalska, Marta",
+        "short_name": "Szukalska M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Environmental Research, Department of Toxicology, Poznan University of Medical Sciences, Poznan 60-806, Poland."
+        ]
+      },
+      {
+        "full_name": "Totoń, Ewa",
+        "short_name": "Totoń E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Chemistry and Molecular Diagnostics, Poznan University of Medical Sciences, Poznan 60-806, Poland."
+        ]
+      },
+      {
+        "full_name": "Nehra, Monika",
+        "short_name": "Nehra M",
+        "identifiers": [],
+        "affiliations": [
+          "CSIR-National Physical Laboratory, Dr K. S. Krishnan Marg, New Delhi 110012, India; Academy of Scientific & Innovative Research (AcSIR), Ghaziabad 201002, India."
+        ]
+      },
+      {
+        "full_name": "Malesza, Ida",
+        "short_name": "Malesza I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatric Gastroenterology and Metabolic Diseases, Poznan University of Medical Sciences, Poznan 60-572, Poland."
+        ]
+      },
+      {
+        "full_name": "Sujka-Kordowska, Patrycja",
+        "short_name": "Sujka-Kordowska P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Histology and Embryology, Poznan University of Medical Sciences, Poznan 60-781, Poland."
+        ]
+      },
+      {
+        "full_name": "Jachimska, Barbara",
+        "short_name": "Jachimska B",
+        "identifiers": [],
+        "affiliations": [
+          "Jerzy Haber Institute of Catalysis and Surface Chemistry, Polish Academy of Sciences, Cracow 30-239, Poland."
+        ]
+      },
+      {
+        "full_name": "Florek, Ewa",
+        "short_name": "Florek E",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Environmental Research, Department of Toxicology, Poznan University of Medical Sciences, Poznan 60-806, Poland."
+        ]
+      },
+      {
+        "full_name": "Mądry, Edyta",
+        "short_name": "Mądry E",
+        "identifiers": [],
+        "affiliations": [
+          "Physiology Department, Poznan University of Medical Sciences, Poznan 60-781, Poland."
+        ]
+      },
+      {
+        "full_name": "Kumar, Sandeep",
+        "short_name": "Kumar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Punjab Engineering College (Deemed to be University), Chandigarh 160012, India. Electronic address: sandeepkumar@pec.edu.in."
+        ]
+      },
+      {
+        "full_name": "Kujawska, Małgorzata",
+        "short_name": "Kujawska M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Toxicology, Poznan University of Medical Sciences, Poznan 60-806, Poland. Electronic address: kujawska@ump.edu.pl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advances in colloid and interface science"
+    ],
+    "journal_abbrev": [
+      "Adv Colloid Interface Sci"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/13 00:40",
+    "fetched_at": "2026-09-18 04:01:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42284999",
+      "42475469",
+      "32971232",
+      "36373662",
+      "42379257",
+      "30769283",
+      "31925956",
+      "31142553",
+      "34923391",
+      "31254394",
+      "41368826",
+      "42212534",
+      "36707462",
+      "36498957",
+      "31603909",
+      "41511697",
+      "35244787",
+      "30853581",
+      "23339399",
+      "29991596",
+      "17715357",
+      "38063360",
+      "27075649",
+      "34750787",
+      "40508212",
+      "25937088",
+      "35681426",
+      "29924993",
+      "37198991",
+      "33415971",
+      "30741954",
+      "25851527",
+      "41067404",
+      "32347706",
+      "40015369",
+      "25143382",
+      "28109332",
+      "24066973",
+      "20858207",
+      "19914207",
+      "29364151",
+      "35041853",
+      "32350746",
+      "32143619",
+      "31004503",
+      "29246724",
+      "26915902",
+      "17381514",
+      "26138444",
+      "34556785",
+      "32424162",
+      "31140178",
+      "38272228",
+      "29960040",
+      "39947752",
+      "35787838",
+      "36566800",
+      "35286811",
+      "23744071",
+      "37071750",
+      "38545462",
+      "31306510",
+      "38727274",
+      "38104957",
+      "33138150",
+      "29524323",
+      "37824095",
+      "25676491",
+      "41270468",
+      "33110167",
+      "25816357",
+      "26926877",
+      "41683750",
+      "22316405",
+      "36966976",
+      "26845568",
+      "35209093",
+      "33373595",
+      "26564470",
+      "39684761",
+      "30142705",
+      "24527756",
+      "20148295",
+      "35552614",
+      "34361100",
+      "39550891",
+      "22009045",
+      "41258277",
+      "42001477",
+      "35347432",
+      "41723982",
+      "29704492",
+      "36140270",
+      "31693290",
+      "19538146",
+      "41814068",
+      "26972727",
+      "35327628",
+      "22575665",
+      "21179192"
+    ],
+    "review": [
+      "42284999",
+      "36373662",
+      "42379257",
+      "34923391",
+      "31254394",
+      "42212534",
+      "41511697",
+      "35244787",
+      "30853581",
+      "38063360",
+      "34750787",
+      "40508212",
+      "35681426",
+      "37198991",
+      "41067404",
+      "28109332",
+      "29364151",
+      "31004503",
+      "31140178",
+      "39947752",
+      "35787838",
+      "36566800",
+      "41270468",
+      "25816357",
+      "41683750",
+      "36966976",
+      "33373595",
+      "39684761",
+      "34361100",
+      "41258277",
+      "42001477",
+      "35347432",
+      "31693290",
+      "19538146",
+      "26972727"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0001-8686(26)00190-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

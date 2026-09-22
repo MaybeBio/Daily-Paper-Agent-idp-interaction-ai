@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific validity of the parameterization approach, benchmarking claims, and interpretative conclusions based on the provided text alone
+- **Shared manuscript claim summary** The authors develop Slab-PTM, an additive parameter patch for coarse-grained slab-geometry force fields (CALVADOS2 and Mpipi), derived from all-atom umbrella sampling PMF calculations, to model the effects of five PTM types on IDP phase behavior. They claim accurate reproduction of experimentally observed PTM-induced changes in LLPS across multiple systems and transferability across force fields.
+- **Visible evidence base** Methods description, results narrative, references to Figures 1-5 and Tables S1-S3, GitHub repository URL
+- **Missing materials affecting confidence** All figures, all supplementary tables (S1-S3), all supplementary figures (S1-S56), quantitative comparison metrics, simulation convergence data, PMF curves, error estimates, and the actual parameter values
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a genuine and timely gap in coarse-grained modeling of biomolecular condensates, namely the lack of transferable PTM parameters. The conceptual approach of deriving PMF-based interaction parameters from all-atom umbrella sampling and patching them into existing force fields is sound and potentially valuable. However, the provided text alone does not permit verification of the central claims. Key quantitative results, validation metrics, and methodological details are either absent or deferred to inaccessible supplementary materials. The benchmarking narrative is largely qualitative, and the absence of error analysis, convergence assessment, and direct comparison with experimental data in the main text weakens the evidentiary basis. The manuscript is promising but currently not established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biophysicists and physical chemists studying IDP phase behavior and LLPS; experimental biologists investigating PTM-regulated condensate formation who seek molecular-level mechanistic insight; developers of coarse-grained force fields for biomolecular simulation. The potential for cross-force-field transferability and the identification of molecular grammar elements would appeal to a broad readership at the interface of computational and experimental cell biology.
+- **Major strengths** The problem addressed is important and currently underserved. The strategy of using all-atom umbrella sampling to derive PMF-based parameters for PTM residues is physically well motivated. The additive patching approach, rather than full reparameterization, is pragmatic and enhances potential adoption. The inclusion of both phosphorylation and methylation systems, as well as acetylation, covers the most biologically relevant PTM classes for condensate regulation. The cross-validation across two distinct force fields (CALVADOS2 and Mpipi) is a strong design choice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that PMF-derived parameters were systematically integrated into CALVADOS2 and Mpipi via an additive module, and that benchmark simulations demonstrate accurate capture of PTM effects on IDP phase behavior.
+  - **Evidence pointer** Methods (Parameterization, Umbrella Sampling), Results (Benchmark sections), Figures 1-5, Tables S1-S3
+  - **Concern** The manuscript does not provide the actual PMF curves, the derived parameter values, or any quantitative comparison between simulated and experimental phase behavior. The benchmarking results are described qualitatively (e.g., "forms a condensed phase" vs. "fails to condense") without reporting condensate densities, critical temperatures, or coexistence curves in the main text. The claim of quantitative accuracy cannot be assessed without these data. Furthermore, the umbrella sampling methodology lacks critical details: no assessment of sampling convergence, no error bars on PMFs, no validation that the chosen reaction coordinate and window spacing adequately sample the relevant configurational space, and no comparison with existing PMF calculations for unmodified residues to establish baseline accuracy.
+  - **Why it matters** The central contribution of this work is a set of interaction parameters. Without presenting the parameters themselves, their uncertainties, and quantitative validation against experiment, the scientific community cannot evaluate or reproduce the results. The qualitative benchmarking narrative is insufficient to establish that the parameters are accurate or transferable.
+  - **Resolution test** Provide the PMF curves and derived parameters for all five PTM types in the main text or supplementary material. Report quantitative comparisons between simulated and experimental condensate properties (e.g., saturation concentrations, critical temperatures, density differences) with appropriate uncertainty estimates. Include convergence assessment for umbrella sampling (e.g., overlap between adjacent windows, cumulative average analysis, or block error analysis).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that detailed parameter values are available at the GitHub repository, and that an automated script is provided for generating Slab-PTM patches compatible with new or evolving IDP models.
+  - **Evidence pointer** Methods (Parameterization), Discussion, GitHub URL
+  - **Concern** The manuscript text alone does not contain the parameter values, the patching equations in complete form, or the input files required to reproduce the simulations. The equations presented in the Methods section are incomplete (several are referenced but not shown, e.g., the equation for the Debye-Hückel potential is stated but the full form is not given, and the scaling equations for the AH potential are described verbally with partial formulas). The reliance on an external repository is acceptable practice, but the manuscript should include sufficient information in the main text or supplementary material for a reader to understand the parameterization without accessing external resources. Additionally, the relationship between the PMF-derived energy scales and the existing force field parameters is not fully specified.
+  - **Why it matters** Reproducibility is a core requirement for computational methodology papers. If the parameterization scheme cannot be understood and implemented from the manuscript and its supplements, the work has limited utility to the community regardless of its conceptual merit.
+  - **Resolution test** Include the complete set of parameter values and scaling equations in the main text or supplementary material. Provide a worked example of the patching procedure for at least one PTM residue. Ensure that the GitHub repository contains all necessary input files, topology files, and analysis scripts for reproducing the benchmark simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that Slab-PTM enables the identification of molecular grammar elements through which PTMs modulate IDP-driven phase separation.
+  - **Evidence pointer** Results (Benchmark sections), Discussion, Figures 2-5
+  - **Concern** The claim of identifying molecular grammar elements is presented as a key outcome, but the manuscript does not clearly articulate what specific grammar elements were identified beyond generic statements about disruption of pi-pi interactions and electrostatic repulsion. The interaction probability Z-score analysis is mentioned but the actual findings are not presented in sufficient detail. For example, the authors state that phosphorylation at specific tyrosine residues in hnRNP A2 plays important roles, but do not provide a mechanistic framework or generalizable principles that would constitute "molecular grammar."
+  - **Why it matters** The identification of molecular grammar is positioned as a distinctive contribution beyond parameter development. If this claim is not substantiated with specific, generalizable insights, the manuscript's significance is reduced to a parameter set, which is valuable but less impactful.
+  - **Resolution test** Clearly articulate the specific molecular grammar rules or principles derived from the simulations. Provide a comparative analysis across the different PTM types and systems that reveals generalizable patterns. If the claim is premature, temper the language in the abstract and discussion.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the scaling strategy for the AH potential lambda parameter achieves specific mathematical properties, including monotonic increase with the ratio s and specific limiting behaviors.
+  - **Evidence pointer** Methods (Parameterization), Figure S1
+  - **Concern** The described scaling function for lambda has a potential issue. The authors state that when the ratio s is significantly less than 1, the modified parameter can be approximated as being scaled multiplicatively by s. However, the exact functional form is not fully specified in the text, and the behavior near the limits (s approaching 0 or infinity) is not rigorously analyzed. More critically, the physical justification for this particular scaling form, as opposed to alternatives, is not provided. The choice of scaling function directly affects the resulting interaction strengths and therefore the benchmark results.
+  - **Why it matters** The scaling function is a key methodological choice that determines the parameter values. Without a clear physical rationale and sensitivity analysis, the choice appears arbitrary, which weakens confidence in the derived parameters.
+  - **Resolution test** Provide the complete functional form of the scaling equation. Justify the choice of scaling function based on physical arguments or systematic comparison with alternative forms. Include a sensitivity analysis showing how benchmark results depend on the scaling function parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods (Parameterization)
+  - **Issue** The Methods section presents equations in a fragmented manner, with several equations referenced but not displayed (e.g., the Debye-Hückel potential, the full form of the scaling equations). This makes the methodology difficult to follow.
+  - **Required correction** Present all equations in complete form with proper numbering. Ensure that every symbol is defined at first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section
+  - **Evidence pointer** Results (Benchmark on Phosphorylation System)
+  - **Issue** The text states "The interaction probability Z-score (Figure 2f, j)" but this figure reference appears in multiple places with inconsistent labeling. The Z-score analysis is mentioned but its definition and calculation are not described in the Methods.
+  - **Required correction** Define the Z-score calculation in the Methods section. Ensure figure references are consistent and accurate.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section
+  - **Evidence pointer** Results (Benchmark on Acetylation System)
+  - **Issue** The authors mention a "relatively good correlation" between simulated critical temperatures and experimental turbidity data for single-site PTM variants, but no correlation coefficient or statistical measure is reported.
+  - **Required correction** Report the correlation coefficient, sample size, and statistical significance. If the correlation is not statistically robust, temper the claim accordingly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Results section
+  - **Evidence pointer** Results (Benchmark on Methylation System)
+  - **Issue** In the methylation section, the authors refer to "the acetylated protein in Figure S45 (patched Mpipi)" when describing the DDX4 system, which appears to be a typographical error (should be "methylated").
+  - **Required correction** Correct the typographical error in the figure reference.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods (Umbrella Sampling)
+  - **Evidence pointer** Methods (Umbrella Sampling)
+  - **Issue** The umbrella sampling methodology does not specify the temperature, pressure, or ionic conditions used in the simulations, nor the number of independent replicates. The equilibration time of 2 ns out of 10 ns total per window is relatively short for converged PMF calculations.
+  - **Required correction** Specify all simulation conditions. Justify the equilibration time or provide convergence evidence. Report the number of replicates and statistical uncertainties on the PMFs.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion mentions limitations including the limited PTM coverage and the absence of RNA interactions, but does not discuss potential limitations of the PMF-based approach itself, such as the assumption of pairwise additivity or the transferability of PMFs derived from short peptides to full-length IDPs.
+  - **Required correction** Add a paragraph discussing the inherent approximations of the PMF-based parameter derivation and their potential impact on accuracy.
+
+## Risk / unsupported claims
+- The claim that Slab-PTM "accurately captures" PTM effects on phase behavior is not quantitatively supported in the provided text. No numerical comparisons with experimental data are presented.
+- The claim of "excellent agreement with experimental observations" in the Introduction is not substantiated with specific data.
+- The claim that Slab-PTM enables "identification of molecular grammar elements" is not supported with specific, generalizable findings in the provided text.
+- The claim of cross-force-field transferability is based on qualitative consistency between CALVADOS2 and Mpipi results, but no quantitative measure of agreement is provided.
+- The assertion that the scaling strategy for the AH potential lambda parameter achieves specific mathematical properties is not fully verifiable from the incomplete equations provided.
+- The claim of "relatively good correlation" between simulated and experimental single-site PTM data is not supported with statistical measures.
+- The statement that the five PTM types "collectively encompass the majority of PTM scenarios relevant to IDP LLPS" is an assertion without supporting evidence or citation.

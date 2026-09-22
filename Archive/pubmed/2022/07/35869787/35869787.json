@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "pmid": "35869787",
+    "doi": "10.1002/prot.26401",
+    "title": "The effect of lipid composition on the dynamics of tau fibrils."
+  },
+  "content": {
+    "abstract": "Knowledge of the interaction of the tau fibrils with the cell membrane is critical for the understanding of the underlying tauopathy pathogenesis. Lipid composition is found to affect the conformational ensemble of the tau fibrils. Using coarse-grained and all-atom molecular dynamics simulations we have shown the effect of the lipid composition in modulating the tau structure and dynamics. Molecular dynamics simulations show that tau proteins interact differentially with the zwitterionic compared to the charged lipid membranes. The negatively charged POPG lipid membranes increase the binding propensity of the tau fibrils. The addition of cholesterol is also found to modify the tau binding to the membrane. The binding of tau fibril leads to the concomitant loss of the beta-sheet structures across the tau residues alongside the change in the membrane properties (like area per lipid, bilayer thickness, and order parameter of the lipid tails) over the pure bilayers.",
+    "keywords": [
+      "Alzheimer's disease",
+      "cholesterol",
+      "intrinsically disordered proteins",
+      "lipid bilayers",
+      "molecular dynamics",
+      "tau fibrils"
+    ],
+    "mesh_terms": [
+      "*Lipid Bilayers/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Cell Membrane/metabolism",
+      "Molecular Conformation",
+      "Protein Conformation, beta-Strand"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chowdhury, Unmesh Dutta",
+        "Paul, Arnav",
+        "Bhargava, B L"
+      ],
+      "short_names": [
+        "Chowdhury UD",
+        "Paul A",
+        "Bhargava BL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0671-7347",
+        "ORCID: 0000-0003-0042-3831"
+      ],
+      "affiliations": [
+        "School of Chemical Sciences, National Institute of Science Education & Research-Bhubaneswar, OCC of Homi Bhabha National Institute, Khurda, Odisha, India.",
+        "School of Chemical Sciences, National Institute of Science Education & Research-Bhubaneswar, OCC of Homi Bhabha National Institute, Khurda, Odisha, India.",
+        "School of Chemical Sciences, National Institute of Science Education & Research-Bhubaneswar, OCC of Homi Bhabha National Institute, Khurda, Odisha, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chowdhury, Unmesh Dutta",
+        "short_name": "Chowdhury UD",
+        "identifiers": [
+          "0000-0003-0671-7347"
+        ],
+        "affiliations": [
+          "School of Chemical Sciences, National Institute of Science Education & Research-Bhubaneswar, OCC of Homi Bhabha National Institute, Khurda, Odisha, India."
+        ]
+      },
+      {
+        "full_name": "Paul, Arnav",
+        "short_name": "Paul A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Sciences, National Institute of Science Education & Research-Bhubaneswar, OCC of Homi Bhabha National Institute, Khurda, Odisha, India."
+        ]
+      },
+      {
+        "full_name": "Bhargava, B L",
+        "short_name": "Bhargava BL",
+        "identifiers": [
+          "0000-0003-0042-3831"
+        ],
+        "affiliations": [
+          "School of Chemical Sciences, National Institute of Science Education & Research-Bhubaneswar, OCC of Homi Bhabha National Institute, Khurda, Odisha, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/24 06:00",
+    "fetched_at": "2026-09-20 12:05:04"
+  },
+  "links": {
+    "cites": [
+      "42212095",
+      "37894559",
+      "37465125",
+      "37031392",
+      "36984665"
+    ],
+    "refs": [],
+    "similar": [
+      "35869787",
+      "35476504",
+      "37117483",
+      "37104971",
+      "35759677",
+      "28597209",
+      "37143763",
+      "22401494",
+      "27936589",
+      "22281438",
+      "32770092",
+      "37843472",
+      "21192698",
+      "21477580",
+      "23493873",
+      "25237736",
+      "29353693",
+      "28780125",
+      "28604248",
+      "22947861",
+      "29595197",
+      "24506488",
+      "28585804",
+      "22108168",
+      "29971510",
+      "29122611",
+      "32179374",
+      "24892900",
+      "37162535",
+      "33221946",
+      "32368578",
+      "22181459",
+      "31142762",
+      "30790265",
+      "33080278",
+      "36984665",
+      "28455099",
+      "30019106",
+      "25068451",
+      "22693597",
+      "32207622",
+      "22369354",
+      "26833387",
+      "33973758",
+      "22500755",
+      "27526680",
+      "27216316",
+      "28342211",
+      "27465729",
+      "30448729",
+      "27557558",
+      "28991313",
+      "25581460",
+      "36624348",
+      "31944772",
+      "29240407",
+      "34152739",
+      "31453700",
+      "21473645",
+      "38942776",
+      "29262367",
+      "22387432",
+      "25719673",
+      "36363654",
+      "24652350",
+      "26073602",
+      "31358628",
+      "36563129",
+      "19161285",
+      "28395954",
+      "16042398",
+      "25290376",
+      "26651735",
+      "33712196",
+      "30053406",
+      "26947182",
+      "24429702",
+      "26723629",
+      "29169746",
+      "23052977",
+      "24150904",
+      "33727072",
+      "23343574",
+      "23805738",
+      "24946141",
+      "25829174",
+      "23588697",
+      "34095684",
+      "22325271",
+      "25819781",
+      "21910473",
+      "28447449",
+      "27794424",
+      "19691017",
+      "32343957",
+      "35524411",
+      "26462464",
+      "22521809",
+      "38325816",
+      "37919400",
+      "38418487",
+      "34570511",
+      "39250520",
+      "35104125",
+      "33913729",
+      "36479861",
+      "37866689",
+      "37336895",
+      "37478737",
+      "37475582",
+      "37502896",
+      "28903085"
+    ],
+    "review": [
+      "35869787",
+      "36984665"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/prot.26401",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

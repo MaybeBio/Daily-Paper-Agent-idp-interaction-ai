@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "37398035",
+    "doi": "10.1101/2023.05.31.543124",
+    "title": "Coiled-coil domains are sufficient to drive liquid-liquid phase separation of proteins in molecular models."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is thought to be a main driving force in the formation of membraneless organelles. Examples of such organelles include the centrosome, central spindle, and stress granules. Recently, it has been shown that coiled-coil (CC) proteins, such as the centrosomal proteins pericentrin, spd-5, and centrosomin, might be capable of LLPS. CC domains have physical features that could make them the drivers of LLPS, but it is unknown if they play a direct role in the process. We developed a coarse-grained simulation framework for investigating the LLPS propensity of CC proteins, in which interactions which support LLPS arise solely from CC domains. We show, using this framework, that the physical features of CC domains are sufficient to drive LLPS of proteins. The framework is specifically designed to investigate how the number of CC domains, as well as multimerization state of CC domains, can affect LLPS. We show that small model proteins with as few as two CC domains can phase separate. Increasing the number of CC domains up to four per protein can somewhat increase LLPS propensity. We demonstrate that trimer-forming and tetramer-forming CC domains have a dramatically higher LLPS propensity than dimer-forming coils, which shows that multimerization state has a greater effect on LLPS than the number of CC domains per protein. These data support the hypothesis of CC domains as drivers of protein LLPS, and has implications in future studies to identify the LLPS-driving regions of centrosomal and central spindle proteins.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramirez, Dominique A",
+        "Hough, Loren E",
+        "Shirts, Michael R"
+      ],
+      "short_names": [
+        "Ramirez DA",
+        "Hough LE",
+        "Shirts MR"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, University of Colorado Boulder, Boulder CO, 80309.",
+        "Department of Physics and BioFrontiers Institute, University of Colorado Boulder, Boulder CO, 80309.",
+        "Department of Chemical and Biological Engineering, University of Colorado Boulder, Boulder CO, 80309."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramirez, Dominique A",
+        "short_name": "Ramirez DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Colorado Boulder, Boulder CO, 80309."
+        ]
+      },
+      {
+        "full_name": "Hough, Loren E",
+        "short_name": "Hough LE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and BioFrontiers Institute, University of Colorado Boulder, Boulder CO, 80309."
+        ]
+      },
+      {
+        "full_name": "Shirts, Michael R",
+        "short_name": "Shirts MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, University of Colorado Boulder, Boulder CO, 80309."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Jul 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/03 13:05",
+    "fetched_at": "2026-09-20 23:18:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38456967",
+      "37668016",
+      "37497046",
+      "37194953",
+      "36881934",
+      "36424481",
+      "36179193",
+      "36148614",
+      "35802394",
+      "35795820",
+      "35721931",
+      "35675815",
+      "35639776",
+      "35412456",
+      "35333653",
+      "34716273",
+      "34598580",
+      "34308971",
+      "33822884",
+      "33798566",
+      "33782607",
+      "33744316",
+      "33672806",
+      "33303613",
+      "32881044",
+      "32802734",
+      "32699013",
+      "32270045",
+      "32203417",
+      "32029630",
+      "32004090",
+      "31833055",
+      "31043738",
+      "30904175",
+      "30791483",
+      "30601942",
+      "30217894",
+      "30100262",
+      "29751016",
+      "29602697",
+      "29364893",
+      "29319301",
+      "29166010",
+      "29091028",
+      "29068531",
+      "28836317",
+      "28575671",
+      "28575670",
+      "28483149",
+      "28225081",
+      "27884598",
+      "27815530",
+      "27492088",
+      "25288112",
+      "24979791",
+      "23717802",
+      "23671615",
+      "22398450",
+      "21707065",
+      "21471012",
+      "21081088",
+      "19461947",
+      "19229944",
+      "19045161",
+      "18462757",
+      "17438295",
+      "11166216",
+      "11025552",
+      "10686107"
+    ],
+    "similar": [
+      "37398035",
+      "38356260",
+      "38042897",
+      "33453922",
+      "37662293",
+      "33876938",
+      "39342654",
+      "33809541",
+      "29526694",
+      "33264400",
+      "34522448",
+      "33517364",
+      "33139563",
+      "33744316",
+      "35142991",
+      "29511089",
+      "38547652",
+      "38322526",
+      "37668019",
+      "31612960",
+      "38063081",
+      "38979955",
+      "35682883",
+      "33982369",
+      "37189373",
+      "31911439",
+      "34179096",
+      "39302099",
+      "31506351",
+      "34156864",
+      "31941785",
+      "29712961",
+      "35678569",
+      "32824618",
+      "39006762",
+      "38262205",
+      "31444270",
+      "36528388",
+      "36920190",
+      "34233002",
+      "36453011",
+      "34619090",
+      "37866939",
+      "33149109",
+      "34029402",
+      "31691822",
+      "33582133",
+      "35802394",
+      "38614097",
+      "32405004",
+      "31971365",
+      "30217894",
+      "37764358",
+      "37287828",
+      "32615218",
+      "36575582",
+      "37794023",
+      "34909733",
+      "38624529",
+      "36310223",
+      "38205268",
+      "35168563",
+      "36444977",
+      "39256186",
+      "26756795",
+      "34718734",
+      "33260713",
+      "32312191",
+      "34214535",
+      "33442696",
+      "34206440",
+      "36551199",
+      "32699013",
+      "30045872",
+      "33330512",
+      "38546977",
+      "31430708",
+      "38512104",
+      "36841957",
+      "36464283",
+      "31375591",
+      "32947964",
+      "36016945",
+      "36703474",
+      "38446061",
+      "38418913",
+      "34334791",
+      "39434494",
+      "39460625",
+      "33076213",
+      "34428231",
+      "36227468",
+      "36843414",
+      "38948786",
+      "37290157",
+      "37230179",
+      "36227470",
+      "38862770",
+      "37796176",
+      "38804888"
+    ],
+    "review": [
+      "37398035",
+      "34522448",
+      "35142991",
+      "38547652",
+      "38979955",
+      "31911439",
+      "32824618",
+      "39006762",
+      "38262205",
+      "31444270",
+      "34619090",
+      "37866939",
+      "35802394",
+      "37764358",
+      "34909733",
+      "33260713",
+      "32312191",
+      "32699013",
+      "30045872",
+      "36464283",
+      "32947964",
+      "36016945",
+      "34334791",
+      "37230179"
+    ],
+    "pmc": [
+      "10312653"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37398035/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37398035",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.05.31.543124",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2302.10348v1",
+  "title": "Binding-and-folding recognition of an intrinsically disordered protein using online learning molecular dynamics",
+  "authors": "Pablo Herrera-Nieto; Adrià Pérez; Gianni De Fabritiis",
+  "journal": "",
+  "published_date": "2023-02-20",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用在线学习分子动力学无偏重建c-Myb无序反式激活域与KIX域的偶联折叠-结合过程，揭示初始接触与构象选择/诱导拟合混合机制，是IDP-PPI机制建模的典型代表。",
+  "abstract": "Intrinsically disordered proteins participate in many biological processes by folding upon binding with other proteins. However, coupled folding and binding processes are not well understood from an atomistic point of view. One of the main questions is whether folding occurs prior to or after binding. Here we use a novel unbiased high-throughput adaptive sampling approach to reconstruct the binding and folding between the disordered transactivation domain of \\mbox{c-Myb} and the KIX domain of the CREB-binding protein. The reconstructed long-term dynamical process highlights the binding of a short stretch of amino acids on \\mbox{c-Myb} as a folded $α$-helix. Leucine residues, specially Leu298 to Leu302, establish initial native contacts that prime the binding and folding of the rest of the peptide, with a mixture of conformational selection on the N-terminal region with an induced fit of the C-terminal.",
+  "abstract_zh": "固有无序蛋白通过与其他蛋白质结合时折叠，参与许多生物过程。然而，从原子层面来看，偶联的折叠与结合过程尚未被充分理解。主要问题之一是折叠发生在结合之前还是之后。在此，我们采用一种新颖的无偏高通量自适应采样方法，重建了无序转录激活域 \\mbox{c-Myb} 与 CREB 结合蛋白 KIX 域之间的结合与折叠过程。重建的长期动力学过程突显了 \\mbox{c-Myb} 上短氨基酸序列以折叠的 $α$-螺旋形式结合。亮氨酸残基，特别是 Leu298 至 Leu302，建立了初始的天然接触，为肽段其余部分的结合与折叠提供了启动，其中 N 端区域表现为构象选择与 C 端诱导拟合的混合机制。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2302.10348v1",
+  "source_url": "https://arxiv.org/abs/2302.10348v1",
+  "paper_page_path": "papers/arxiv/2302.10348v1/index.html"
+}

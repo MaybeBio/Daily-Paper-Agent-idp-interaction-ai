@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2502.17294v2",
+  "title": "Integrating protein sequence embeddings with structure via graph-based deep learning for single-residue property prediction",
+  "authors": "Kevin Michalewicz; Mauricio Barahona; Barbara Bravi",
+  "journal": "",
+  "published_date": "2025-02-24",
+  "window": {
+    "start": "2025-02-24",
+    "end": "2025-03-02"
+  },
+  "score": 7,
+  "one_liner_zh": "提出融合序列语言模型与结构图网络的深度学习框架INFUSSE，用于单残基性质预测，并显示结构信息对无序区域和蛋白互作位点预测的增强，虽非直接研究IDR介导的PPI机制，但其序列-结构融合建模思路对无序蛋白互作预测有可迁移启发。",
+  "abstract": "Understanding the intertwined contributions of amino acid sequence and spatial structure is essential to explain protein behaviour. Here, we introduce INFUSSE (Integrated Network Framework Unifying Structure and Sequence Embeddings), a deep learning framework for the prediction of single-residue properties that combines fine-tuning of sequence embeddings derived from a Large Language Model with the inclusion of graph-based representations of protein structures via a diffusive Graph Convolutional Network. To illustrate the benefits of jointly leveraging sequence and structure, we apply INFUSSE to the prediction of B-factors in antibodies, a residue property that reflects the local flexibility shaped by biochemical and structural constraints in these highly variable and dynamic proteins. Using a dataset of 1510 antibody and antibody-antigen complexes from the database SAbDab, we show that INFUSSE improves performance over current machine learning (ML) methods based on sequence or structure alone, and allows for the systematic disentanglement of sequence and structure contributions to the performance. Our results show that adding structural information via geometric graphs enhances predictions especially for intrinsically disordered regions, protein-protein interaction sites, and highly variable amino acid positions -- all key structural features for antibody function which are not well captured by purely sequence-based ML descriptions.",
+  "abstract_zh": "理解氨基酸序列与空间结构的交织贡献对于解释蛋白质行为至关重要。在此，我们引入INFUSSE（整合网络框架统一结构与序列嵌入），这是一种用于预测单残基属性的深度学习框架，它结合了从大型语言模型衍生的序列嵌入的微调，以及通过扩散图卷积网络纳入基于图的蛋白质结构表示。为说明联合利用序列和结构的优势，我们将INFUSSE应用于抗体中B因子的预测，这是一种反映局部灵活性的残基属性，该灵活性由这些高度可变和动态蛋白质中的生化和结构约束所塑造。使用来自数据库SAbDab的1510个抗体及抗体-抗原复合物数据集，我们表明INFUSSE在性能上优于当前仅基于序列或结构的机器学习（ML）方法，并允许系统性地解耦序列和结构对性能的贡献。我们的结果显示，通过几何图添加结构信息可增强预测，尤其是在内在无序区域、蛋白质-蛋白质相互作用位点和高度可变的氨基酸位置——这些均为抗体功能的关键结构特征，而纯基于序列的ML描述无法充分捕捉这些特征。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2502.17294v2",
+  "source_url": "https://arxiv.org/abs/2502.17294v2",
+  "paper_page_path": "papers/arxiv/2502.17294v2/index.html"
+}

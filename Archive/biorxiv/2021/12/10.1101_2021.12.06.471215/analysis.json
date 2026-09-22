@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.12.06.471215",
+  "title": "The influence of new SARS-CoV-2 variant Omicron (B.1.1.529) on vaccine efficacy, its correlation to Delta Variants: a computational approach",
+  "authors": "Ranjan P; Neha; Devi C; Devar KA; Das P",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-08",
+  "window": {
+    "start": "2021-12-06",
+    "end": "2021-12-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用分子对接和MD模拟研究Omicron刺突蛋白RBD突变对ACE2及抗体结合的影响，涉及无序性预测但非IDP/相分离核心，PPI机制建模可迁移，方法为物理模拟。",
+  "abstract": "The newly discovered COVID variant B.1.1.529 in Botswana has more than 30 mutations in spike and many other in non-spike proteins, far more than any other SARS-CoV-2 variant accepted as a variant of concern by the WHO and officially named Omicron, and has sparked concern among scientists and the general public. Our findings provide insights into structural modification caused by the mutations in the Omicrons receptor-binding domain and look into the effects on interaction with the hosts neutralising antibodies CR3022, B38, CB6, P2B-2F6, and REGN, as well as ACE2R using an in silico approach. We have employed secondary structure prediction, structural superimposition, protein disorderness, molecular docking, and MD simulation to investigate host-pathogen interactions, immune evasion, and transmissibility caused by mutations in the RBD region of the spike protein of the Omicron variant and compared it to the Delta variants (AY.1, AY.2, & AY.3) and wild type. Computational analysis revealed that the Omicron variant has a higher binding affinity for the human ACE2 receptor than the wild and Delta (AY.1 and AY.2 strains), but lower than the Delta AY.3 strain. MD simulation and docking analysis suggest that the omicron and Delta AY.3 were found to have relatively unstable and compact RBD structures and hampered interactions with antibodies more than wild and Delta (AY.1 and AY.2), which may lead to relatively more pathogenicity and antibody escape. In addition, we observed lower binding affinity of Omicron for human monoclonal antibodies (CR3022, B38, CB6, and P2B2F6) when compared to wild and Delta (AY.1 & AY.2). However, the binding affinity of Omicron RBD variants for CR3022, B38, and P2B2F6 antibodies is lower as compared to Delta AY.3, which might promote immune evasion and reinfection and needs further experimental investigation.",
+  "abstract_zh": "在博茨瓦纳新发现的COVID变异株B.1.1.529在刺突蛋白中拥有超过30个突变，并在非刺突蛋白中也有许多其他突变，远超世界卫生组织认定为关切变异株并正式命名为奥密克戎（Omicron）的任何其他SARS-CoV-2变异株，这引发了科学家和公众的担忧。我们的研究通过计算机模拟方法，揭示了奥密克戎受体结合域（receptor-binding domain）突变引起的结构改变，并探讨了这些突变对与宿主中和抗体CR3022、B38、CB6、P2B-2F6和REGN，以及ACE2R相互作用的影响。我们采用了二级结构预测、结构叠加、蛋白质无序性分析、分子对接和分子动力学（molecular dynamics）模拟，来研究奥密克戎变异株刺突蛋白RBD区域突变引起的宿主-病原体相互作用、免疫逃逸和传播性，并将其与德尔塔变异株（AY.1、AY.2和AY.3）及野生型进行比较。计算分析显示，奥密克戎变异株对人类ACE2受体的结合亲和力高于野生型和德尔塔（AY.1和AY.2毒株），但低于德尔塔AY.3毒株。分子动力学模拟和对接分析表明，奥密克戎和德尔塔AY.3的RBD结构相对不稳定且紧凑，与抗体的相互作用比野生型和德尔塔（AY.1和AY.2）更受阻碍，这可能导致相对更高的致病性和抗体逃逸。此外，我们观察到奥密克戎对人类单克隆抗体（CR3022、B38、CB6和P2B2F6）的结合亲和力低于野生型和德尔塔（AY.1和AY.2）。然而，与德尔塔AY.3相比，奥密克戎RBD变异株对CR3022、B38和P2B2F6抗体的结合亲和力更低，这可能促进免疫逃逸和再感染，需要进一步的实验研究。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.12.06.471215",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.12.06.471215",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.12.06.471215/index.html"
+}

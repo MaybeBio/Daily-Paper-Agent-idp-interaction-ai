@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.19.638975",
+  "title": "Controlling the Formation of Multiple Condensates in the Synapse",
+  "authors": "Safari N; do Rego Barros Fernandes Lima MA; Rossetto R; Zwicker D; D’Este E; Tetzlaff C",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-23",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过计算建模揭示突触后致密区中局部蛋白浓度与结合强度协同调控凝聚体/纳米簇形成与数量，结合MINFLUX数据预测突触可塑性下的簇重组机制，虽未直接聚焦IDP，但凝聚体形成与PPI结合调控的机制建模思路对本课题有直接启发。",
+  "abstract": "The postsynaptic density (PSD) is a molecule rich structure that continuously adapts its organization controlling synaptic physiology and transmission. Experimental studies have shown that this organization is dominated by the formation of condensates or (nano)clusters and by the seamless transition in their numbers as response to synaptic plasticity. In this study, we utilize different computational modeling frameworks to show that variations in the level of local protein concentrations together with the modulation of protein binding strengths can be key molecular factors in controlling the formation and number of clusters in the synapse. Comparison to MINFLUX data of spatial localization of PSD95 in the postsynapse under different activity conditions allowed us to derive predictions about the correlation between these two factors across a population of synapses. Co-variations of the factors, to mimic a simple LTP protocol, shows that a PSD containing a single cluster can reorganize to form multiple clusters that persists for long periods of time, providing a potential explanation of recent experimental data of PSD reorganization.",
+  "abstract_zh": "突触后密度（PSD）是一种分子丰富的结构，其组织不断适应以控制突触生理和传递。实验研究表明，这种组织主要由凝聚体或（纳米）簇的形成以及其数量随突触可塑性变化而无缝转变所主导。在本研究中，我们利用不同的计算建模框架来表明，局部蛋白质浓度水平的变化以及蛋白质结合强度的调节，可能是控制突触中簇形成和数量的关键分子因素。与不同活动条件下突触后PSD95空间定位的MINFLUX数据进行比较，使我们能够推导出关于这两个因素在突触群体中相关性的预测。为模拟简单的LTP协议而进行的因素共变显示，包含单个簇的PSD可以重组形成多个簇，并持续较长时间，这为近期PSD重组的实验数据提供了潜在解释。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.19.638975",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.19.638975",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.19.638975/index.html"
+}

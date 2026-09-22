@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors used molecular dynamics simulations and free energy calculations to investigate how phosphorylation of Ser/Thr residues in the FUS low-complexity domain affects its phase separation. They report that phosphorylation disrupts the fibril core structure by breaking interchain interactions, particularly contacts involving Tyr, Ser, and Gln, and that Ser61 and Ser84 are the most influential phosphorylation sites among six examined.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, free energy values, or structural data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation protocols, force field parameters, free energy calculation details, structural figures, quantitative results, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study on a biologically relevant topic. However, the evidence base available for review is limited to the abstract alone, which precludes verification of the methodological rigor, the validity of the free energy calculations, and the robustness of the conclusions. The central claims regarding the disruptive effects of phosphorylation on FUS-LC fibril stability are stated without quantitative support, and the relative importance of Ser61 and Ser84 is asserted without comparative data. The work may be of interest to the biophysics and neurodegeneration communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, RNA-binding proteins, post-translational modifications, and neurodegenerative disease mechanisms would be interested. The potential regulatory role of phosphorylation in modulating FUS aggregation is directly relevant to understanding disease pathology and could inform therapeutic strategies targeting aberrant phase transitions.
+- **Major strengths** The topic is timely and of significant biological importance. The use of molecular dynamics simulations and free energy calculations to address a mechanistic question is appropriate. The identification of specific residues and interaction types provides a level of molecular detail that could be valuable for the field.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that phosphorylation "can destroy the fibril core structure of FUS-LC by breaking interchain interactions, particularly contacts involving residues like Tyr, Ser, and Gln."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data, such as free energy differences, contact probability changes, or structural order parameters, to support the claim that phosphorylation destroys the fibril core. Without numerical results or statistical measures, the strength and significance of the observed effects cannot be assessed.
+  - **Why it matters** The central conclusion of the study rests on the magnitude and reproducibility of the simulated disruption. Qualitative statements are insufficient to establish that phosphorylation has a meaningful thermodynamic or kinetic effect on fibril stability.
+  - **Resolution test** Provide quantitative free energy changes (e.g., binding free energies or potential of mean force profiles) for phosphorylated versus unphosphorylated states, along with error estimates and replicate simulations, to demonstrate that the destabilizing effect is significant and robust.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "Ser61 and Ser84 may have more important effects on the stability of the fibril core" among six phosphorylation sites.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The basis for ranking Ser61 and Ser84 as more important is not described. No comparative data across the six sites are presented, and the criteria for "importance" (e.g., magnitude of destabilization, structural impact, or energetic contribution) are undefined.
+  - **Why it matters** This claim implies a specific mechanistic hierarchy that could guide experimental validation. Without a clear and quantitative comparison, the assertion is unsupported and may mislead subsequent studies.
+  - **Resolution test** Present a systematic comparison of all six phosphorylation sites, including quantitative metrics such as free energy changes, contact disruption indices, or structural RMSD shifts, with appropriate statistical treatment, to justify the relative ranking.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodology
+  - **Claim pointer** The study uses "molecular dynamics simulations and free energy calculations" to investigate phosphorylation effects.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No methodological details are provided, including force field parameters, water model, simulation length, system setup, phosphorylation parameterization, or the specific free energy method (e.g., umbrella sampling, thermodynamic integration, or MM-PBSA). These choices critically affect the reliability of the results.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without this information, the validity of the simulations and the derived conclusions cannot be evaluated or replicated by others.
+  - **Resolution test** Provide a complete methods section in the full manuscript, including all simulation parameters, software versions, and validation of the phosphorylation parameters, to enable independent reproduction.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "may regulate phase separation" is vague and does not specify the direction or mechanism of regulation beyond the stated disruption of the fibril core.
+  - **Required correction** Clarify whether phosphorylation promotes or inhibits phase separation overall, and specify whether the effect is on fibril formation, droplet stability, or both.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention whether the simulations consider the full FUS-LC domain or a fragment, nor whether the phosphorylation sites are studied individually or in combination.
+  - **Required correction** State the system size and the phosphorylation patterns simulated to avoid ambiguity about the biological relevance of the findings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that the study "reveals structural and dynamic details" is broad and not substantiated by specific examples of such details in the abstract.
+  - **Required correction** Provide one or two concrete examples of the structural or dynamic insights obtained, such as specific conformational changes or timescale information, to support this statement.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, comparative site analysis, and methodological transparency prevents verification of the central claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: The topic is not entirely novel, as phosphorylation effects on FUS phase separation have been studied experimentally, but the computational approach may offer new molecular-level insights. The originality cannot be fully assessed from the abstract alone.
+  - Scientific importance: The potential link between phosphorylation and FUS aggregation is of high importance for understanding neurodegeneration, but the significance of the specific findings depends on the robustness of the simulations, which is not verifiable here.
+  - Interdisciplinary readership: The work bridges biophysics, computational chemistry, and neurobiology, and would likely appeal to a broad audience if the results are well supported.
+  - Technical soundness: Not assessable from the abstract. The lack of methodological and quantitative detail is a major limitation.
+  - Readability for nonspecialists: The abstract is concise and generally accessible, but the technical terms and lack of context for the significance of the findings may limit comprehension for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising direction, but the absence of quantitative data, methodological detail, and comparative analysis means the claims cannot be evaluated. A full manuscript with complete methods and results would be required to assess whether the case is convincing.
+
+## Risk / unsupported claims
+- The claim that phosphorylation "can destroy the fibril core structure" is unsupported without quantitative free energy or structural data.
+- The assertion that Ser61 and Ser84 are more important than other sites is unsupported without comparative analysis.
+- The statement that the study "reveals structural and dynamic details" is not substantiated with specific examples.
+- The overall relevance of the findings to in vivo phase separation and disease is implied but not demonstrated in the abstract.

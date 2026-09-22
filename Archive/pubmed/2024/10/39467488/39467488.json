@@ -1,0 +1,259 @@
+{
+  "identity": {
+    "pmid": "39467488",
+    "doi": "10.1016/j.compbiolchem.2024.108268",
+    "title": "Key genes and pathways in the molecular landscape of pancreatic ductal adenocarcinoma: A bioinformatics and machine learning study."
+  },
+  "content": {
+    "abstract": "Pancreatic ductal adenocarcinoma (PDAC) is recognized for its aggressive nature, dismal prognosis, and a notably low five-year survival rate, underscoring the critical need for early detection methods and more effective therapeutic approaches. This research rigorously investigates the molecular mechanisms underlying PDAC, with a focus on the identification of pivotal genes and pathways that may hold therapeutic relevance and prognostic value. Through the construction of a protein-protein interaction (PPI) network and the examination of differentially expressed genes (DEGs), the study uncovers key hub genes such as CDK1, KIF11, and BUB1, demonstrating their substantial role in the pathogenesis of PDAC. Notably, the dysregulation of these genes is consistent across a spectrum of cancers, positing them as potential targets for wide-ranging cancer therapeutics. This study also brings to the fore significant genes encoding intrinsically disordered proteins, in particular GPRC5A and KRT7, unveiling promising new pathways for therapeutic intervention. Advanced machine learning techniques were harnessed to classify PDAC patients with high accuracy, utilizing the key genetic markers as a dataset. The Support Vector Machine (SVM) model leveraged the hub genes to achieve a sensitivity of 91 % and a specificity of 85 %, while the RandomForest model notched a sensitivity of 91 % and specificity of 92.5 %. Crucially, when the identified genes were cross-referenced with TCGA-PAAD clinical datasets, a tangible correlation with patient survival rates was discovered, reinforcing the potential of these genes as prognostic biomarkers and their viability as targets for therapeutic intervention. This study's findings serve as a potent testament to the value of molecular analysis in enhancing the understanding of PDAC and in advancing the pursuit for more effective diagnostic and treatment strategies.",
+    "keywords": [
+      "Biomarkers",
+      "Early diagnosis",
+      "Hub genes",
+      "Machine learning models",
+      "Pancreatic cancer",
+      "Survival analysis"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Carcinoma, Pancreatic Ductal/genetics",
+      "*Pancreatic Neoplasms/genetics",
+      "*Computational Biology",
+      "*Machine Learning",
+      "*Kinesins/genetics",
+      "Protein Interaction Maps/genetics",
+      "CDC2 Protein Kinase/genetics",
+      "Biomarkers, Tumor/genetics",
+      "Protein Serine-Threonine Kinases/genetics",
+      "Receptors, G-Protein-Coupled/genetics",
+      "Cell Cycle Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Eyuboglu, Sinan",
+        "Alpsoy, Semih",
+        "Uversky, Vladimir N",
+        "Coskuner-Weber, Orkid"
+      ],
+      "short_names": [
+        "Eyuboglu S",
+        "Alpsoy S",
+        "Uversky VN",
+        "Coskuner-Weber O"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Turkish-German University, Molecular Biotechnology, Sahinkaya Caddesi, No. 106, Beykoz, Istanbul 34820, Turkey.",
+        "Turkish-German University, Molecular Biotechnology, Sahinkaya Caddesi, No. 106, Beykoz, Istanbul 34820, Turkey.",
+        "USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA.",
+        "Turkish-German University, Molecular Biotechnology, Sahinkaya Caddesi, No. 106, Beykoz, Istanbul 34820, Turkey. Electronic address: weber@tau.edu.tr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Eyuboglu, Sinan",
+        "short_name": "Eyuboglu S",
+        "identifiers": [],
+        "affiliations": [
+          "Turkish-German University, Molecular Biotechnology, Sahinkaya Caddesi, No. 106, Beykoz, Istanbul 34820, Turkey."
+        ]
+      },
+      {
+        "full_name": "Alpsoy, Semih",
+        "short_name": "Alpsoy S",
+        "identifiers": [],
+        "affiliations": [
+          "Turkish-German University, Molecular Biotechnology, Sahinkaya Caddesi, No. 106, Beykoz, Istanbul 34820, Turkey."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA."
+        ]
+      },
+      {
+        "full_name": "Coskuner-Weber, Orkid",
+        "short_name": "Coskuner-Weber O",
+        "identifiers": [],
+        "affiliations": [
+          "Turkish-German University, Molecular Biotechnology, Sahinkaya Caddesi, No. 106, Beykoz, Istanbul 34820, Turkey. Electronic address: weber@tau.edu.tr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/29 00:22",
+    "fetched_at": "2026-09-21 12:02:18"
+  },
+  "links": {
+    "cites": [
+      "41986639",
+      "40382732",
+      "40230862"
+    ],
+    "refs": [],
+    "similar": [
+      "39467488",
+      "41415264",
+      "35403252",
+      "41716413",
+      "31311829",
+      "40711603",
+      "30173393",
+      "31926587",
+      "41966742",
+      "37794108",
+      "30633213",
+      "40328901",
+      "40320470",
+      "35996248",
+      "40522604",
+      "41350704",
+      "42170968",
+      "34187556",
+      "32934754",
+      "36116415",
+      "31731384",
+      "41405958",
+      "27240826",
+      "34007003",
+      "34257566",
+      "39375436",
+      "32241274",
+      "32216644",
+      "31257501",
+      "30428899",
+      "29115420",
+      "39806429",
+      "39348994",
+      "35068444",
+      "36049413",
+      "32093976",
+      "40129158",
+      "39231457",
+      "28205147",
+      "38795761",
+      "31569425",
+      "41006883",
+      "38902676",
+      "41121153",
+      "41766855",
+      "41852002",
+      "34072728",
+      "40869429",
+      "39118438",
+      "41136472",
+      "32218868",
+      "39071134",
+      "31871312",
+      "31232492",
+      "30765611",
+      "37923686",
+      "38773913",
+      "31991068",
+      "38530028",
+      "33777046",
+      "39507054",
+      "37247279",
+      "40997906",
+      "30898709",
+      "41605175",
+      "39400774",
+      "41496017",
+      "39375405",
+      "40406126",
+      "38324544",
+      "39888730",
+      "40443651",
+      "40530146",
+      "41189173",
+      "41211507",
+      "26993610",
+      "25824797",
+      "40172749",
+      "29608985",
+      "41044520",
+      "32005189",
+      "40355485",
+      "38124367",
+      "35477379",
+      "31987036",
+      "30013637",
+      "38863714",
+      "41226349",
+      "40114140",
+      "32756534",
+      "41342434",
+      "34397869",
+      "39872533",
+      "34814332",
+      "38986720",
+      "32598242",
+      "34603487",
+      "33282565",
+      "38817665",
+      "33194391"
+    ],
+    "review": [
+      "39467488",
+      "34257566",
+      "29115420",
+      "38324544",
+      "26993610"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(24)00256-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT7-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-797",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

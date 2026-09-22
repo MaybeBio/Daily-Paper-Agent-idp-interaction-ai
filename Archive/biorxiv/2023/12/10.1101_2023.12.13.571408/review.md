@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present SurfDock, a geometric diffusion model that integrates protein sequence, structural graphs, and surface representations for protein-ligand binding pose prediction. They claim superior docking success rates over existing methods, improved physical plausibility, generalizability to unseen proteins, and state-of-the-art virtual screening performance.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmarks, datasets, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, benchmark definitions, baseline comparisons, statistical analyses, and code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract describes a technically ambitious approach that combines multiple protein representations within a diffusion framework for docking. The claimed performance improvements are substantial, but the abstract provides no quantitative evidence, no benchmark specifications, and no methodological detail sufficient to evaluate the validity of these claims. The work may be of interest to the computational drug design community, but the current evidence base is insufficient to assess whether the stated contributions are established.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on structure-based drug design, particularly those developing or applying deep learning methods for molecular docking and virtual screening. The integration of surface-level information with diffusion models is a potentially useful direction that could inform future methodological developments.
+- **Major strengths** The conceptual combination of multiple protein representations (sequence, graph, surface) within a single equivariant diffusion framework is a reasonable and potentially powerful design choice. The explicit attention to physical plausibility and the optional post-docking energy minimization step address a known weakness of many deep learning docking methods. The claimed generalizability and extensibility to virtual screening suggest a broad applicability if substantiated.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "SurfDock achieves significantly improved docking success rates over all existing methods, excelling in both accuracy and adherence to physical constraints"  
+  - **Evidence pointer** Abstract only; no figures, tables, or benchmark details provided  
+  - **Concern** The central performance claim is presented without any quantitative data. No success rates, baseline names, dataset descriptions, or statistical significance measures are given.  
+  - **Why it matters** Without specific numbers and benchmark definitions, the claim of superiority over "all existing methods" cannot be verified or compared against prior work. This is the core contribution of the manuscript and must be supported by reproducible evidence.  
+  - **Resolution test** Provide docking success rates on standard benchmarks (e.g., PoseBusters, DockGen, or similar) with explicit baseline comparisons, error bars, and statistical tests.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "SurfDock employs a generative diffusion model on a non-Euclidean manifold, enabling precise optimization of molecular translations, rotations, and torsions"  
+  - **Evidence pointer** Abstract only; no methodological details provided  
+  - **Concern** The abstract does not describe how the non-Euclidean manifold is constructed, how the multiple representations are fused within the equivariant architecture, or how the diffusion process handles the discrete and continuous aspects of molecular geometry.  
+  - **Why it matters** The technical novelty and feasibility of the approach depend on these details. Without them, the reader cannot assess whether the method is sound, reproducible, or genuinely distinct from prior diffusion-based docking models.  
+  - **Resolution test** Include a detailed methods section describing the manifold construction, representation fusion, diffusion process, and training procedure, with sufficient specificity for replication.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability and extensibility  
+  - **Claim pointer** "SurfDock demonstrates excellent generalizability to unseen proteins and extensibility to virtual screening tasks with state-of-the-art performance"  
+  - **Evidence pointer** Abstract only; no results on unseen proteins or virtual screening benchmarks provided  
+  - **Concern** The claims of generalizability and virtual screening performance are made without any supporting data. No definitions of "unseen proteins" or "state-of-the-art performance" are given.  
+  - **Why it matters** These claims extend the applicability of the method beyond simple docking accuracy. If unsupported, they overstate the contribution and could mislead potential users.  
+  - **Resolution test** Provide results on held-out protein sets and standard virtual screening benchmarks (e.g., DUD-E or LIT-PCBA) with clear baseline comparisons and metrics.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Physical plausibility  
+  - **Claim pointer** "the plausibility of generated poses is further enhanced" via post-docking energy minimization  
+  - **Evidence pointer** Abstract only; no metrics for physical plausibility provided  
+  - **Concern** The claim that energy minimization enhances plausibility is plausible but unquantified. No metrics such as steric clash rates, strain energies, or violation frequencies are reported.  
+  - **Why it matters** Physical plausibility is a stated motivation for the work. Without quantitative evidence, the improvement remains anecdotal.  
+  - **Resolution test** Report specific plausibility metrics with and without energy minimization on benchmark poses.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract  
+  - **Issue** The phrase "reliable and accurate" in the title is vague and not defined operationally.  
+  - **Required correction** Define what constitutes "reliable" and "accurate" in the context of the reported metrics.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Data and code availability  
+  - **Evidence pointer** Abstract  
+  - **Issue** No mention of code or data availability.  
+  - **Required correction** State whether code, trained models, and benchmark data will be made publicly available.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Comparison fairness  
+  - **Affected element** Baseline selection  
+  - **Evidence pointer** Abstract  
+  - **Issue** The claim of superiority over "all existing methods" is broad and may depend on benchmark choice.  
+  - **Required correction** Specify which methods were compared and justify the selection of benchmarks and baselines.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and benchmark definitions means the core claims are currently unverifiable.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of surface-level information with diffusion models for docking is a potentially original contribution, but the abstract does not provide enough context to establish novelty relative to prior diffusion-based docking methods.  
+  - Scientific importance: If the claims are substantiated, the work could have significant impact on structure-based drug design. However, importance cannot be assessed without evidence.  
+  - Interdisciplinary readership: The topic bridges machine learning, chemistry, and structural biology, which could attract a broad audience. The abstract is written in accessible language.  
+  - Technical soundness: Not assessable from the abstract. The methodological claims require detailed scrutiny.  
+  - Readability for nonspecialists: The abstract is generally clear, though terms like "non-Euclidean manifold" and "equivariant architecture" may be challenging for some readers.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents promising ideas but lacks the quantitative and methodological support required to evaluate the claims. A full manuscript with detailed methods, benchmark results, and statistical analyses would be necessary to assess whether the contributions are valid.
+
+## Risk / unsupported claims
+- "Significantly improved docking success rates over all existing methods" is unsupported without quantitative comparisons.
+- "Excellent generalizability to unseen proteins" is unsupported without held-out test results.
+- "State-of-the-art performance" in virtual screening is unsupported without benchmark data.
+- "Adherence to physical constraints" and "enhanced plausibility" are unquantified.
+- The claim of being a "transformative contribution" is editorial and not evidence-based.

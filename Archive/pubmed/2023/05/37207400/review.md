@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The claims and arguments presented in the abstract, without access to the full text, figures, or supplementary materials
+- **Shared manuscript claim summary** The authors review sequence-based principles for predicting protein phase separation, propose that entropic contributions are more important for stabilizing the droplet state than for native or amyloid states, note progress in estimating these contributions, and outline challenges for extending predictions to quantitative in vivo characterization
+- **Visible evidence base** Abstract text only; no figures, tables, or detailed methods provided
+- **Missing materials affecting confidence** Full manuscript text, figures, tables, references, and any quantitative data or methodological details; the review's scope and depth cannot be assessed
+
+## Reviewer
+- **Overall assessment** The abstract presents a timely and conceptually interesting perspective on sequence-based prediction of protein phase separation, with a clear central thesis regarding the role of entropic contributions. However, the abstract provides limited specific evidence or examples to support the claims, and the lack of full text prevents evaluation of the depth and rigor of the review. The framing is accessible but the scientific case is not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in biophysics, molecular biology, and computational biology studying biomolecular condensates, protein aggregation, and sequence-function relationships. The review could also interest those developing predictive tools for protein behavior in cellular contexts, given the emphasis on in vivo characterization.
+- **Major strengths** The abstract identifies a clear and potentially important conceptual distinction, namely the differential role of entropy in droplet versus native and amyloid states. It also connects fundamental biophysical principles to practical prediction challenges, which is valuable for a broad audience. The writing is concise and accessible.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "entropic contributions are generally more important to stabilise the droplet state than they are for the native and amyloid states" is presented as a guiding concept without supporting data or examples in the abstract.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The central thesis is stated without any quantitative or illustrative evidence. No specific systems, experimental results, or computational analyses are cited to substantiate the claim that entropy plays a greater role in droplet stabilization.
+  - **Why it matters** This claim is the conceptual foundation of the review. Without evidence, the reader cannot judge whether this is a well-supported principle or a speculative hypothesis, which affects the credibility and utility of the review.
+  - **Resolution test** Provide at least one concrete example or reference in the abstract, or in the full text, that demonstrates the differential entropic contribution, such as comparative free energy calculations or mutational studies.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope and completeness
+  - **Claim pointer** The abstract states that "recent studies indicate that the amino acid sequences of most proteins may harbour not only the code for folding into the native state but also for condensing into the liquid-like droplet state and the solid-like amyloid state," implying a broad and general principle.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract does not specify which recent studies are referenced, what types of proteins are covered, or how "most proteins" is defined. This overgeneralization is not supported by the visible evidence.
+  - **Why it matters** If the claim is overstated, it could mislead readers about the universality of the sequence-condensation code, which has implications for how predictive methods are applied.
+  - **Resolution test** Clarify the scope by citing specific studies and defining the protein classes or sequence features that support this claim, either in the abstract or in the full text.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and detail
+  - **Claim pointer** The abstract mentions "some progress that has been recently made" in estimating entropic contributions, but provides no details on methods or outcomes.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The description of progress is vague. The reader cannot assess what approaches were used, whether they are computational or experimental, or how successful they were.
+  - **Why it matters** For a review, summarizing recent progress is a core function. Lack of specificity reduces the review's value as a resource for researchers seeking to understand or apply these methods.
+  - **Resolution test** Include specific method names, key findings, or representative references in the abstract or full text to illustrate the progress.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The term "sequence-based principles" is used but not defined. It is unclear whether this refers to specific algorithms, statistical patterns, or physicochemical rules.
+  - **Required correction** Define or clarify what constitutes "sequence-based principles" in the context of this review.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract moves from a broad claim about sequence codes to a specific focus on entropy without a clear transition, which may confuse nonspecialist readers.
+  - **Required correction** Add a sentence linking the general sequence-code concept to the specific entropic argument to improve logical flow.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Future directions
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The final statement about "quantitative in vivo characterisations" is mentioned but not elaborated. It is unclear what specific challenges are anticipated.
+  - **Required correction** Provide one or two examples of the challenges, such as measurement limitations or model complexity, to give readers a clearer sense of the outlook.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims are not supported by the visible evidence. R1-M3 is non-blocking but should be addressed to improve the review's utility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract offers a potentially novel framing of entropy in phase separation, but the originality cannot be fully assessed without the full text.
+  - Scientific importance: The topic is important given the growing interest in biomolecular condensates, and the focus on prediction methods is timely.
+  - Interdisciplinary readership: The abstract is written in a way that could appeal to biophysicists, cell biologists, and computational scientists, though the lack of specific examples may limit engagement.
+  - Technical soundness: Not assessable from the abstract alone; the claims are plausible but unverified.
+  - Readability for nonspecialists: The abstract is generally clear, but the central concept of entropy is not explained in accessible terms, which may hinder nonspecialist understanding.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting perspective, but the lack of supporting detail and the overgeneralized claims prevent a supportive recommendation. If the full text provides adequate evidence and clarification, the review could be valuable, but this cannot be confirmed from the abstract alone.
+
+## Risk / unsupported claims
+- The claim that "the amino acid sequences of most proteins may harbour not only the code for folding into the native state but also for condensing into the liquid-like droplet state and the solid-like amyloid state" is unsupported in the abstract, as no studies or protein examples are cited.
+- The claim that "entropic contributions are generally more important to stabilise the droplet state than they are for the native and amyloid states" is unsupported, as no quantitative or comparative evidence is provided.
+- The statement that "some progress has been recently made" in estimating entropic contributions is vague and not assessable without specific references or method descriptions.

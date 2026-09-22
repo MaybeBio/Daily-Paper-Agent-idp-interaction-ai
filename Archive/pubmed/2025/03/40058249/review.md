@@ -1,0 +1,21 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The claims presented in the abstract, not the full manuscript content
+- **Shared manuscript claim summary** The abstract states that biomolecular condensate formation and properties are governed by an interplay of microscopic driving forces involving macromolecular interactions with solvent and ions, that molecular simulations increasingly provide mechanistic insights at residue or atom resolution, and that recent advances in coarse-grained and all-atom molecular dynamics simulations are summarized with future challenges identified regarding computational efficiency and physical accuracy for larger systems.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or results sections provided
+- **Missing materials affecting confidence** Full text, figures, tables, references, and any quantitative results or simulation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a concise and accurate overview of the role of molecular simulations in understanding biomolecular phase separation. It is well framed as a review article, and the focus on coarse-grained and all-atom MD simulations is appropriate for the target readership. However, the abstract is largely descriptive and provides no specific examples, quantitative claims, or critical evaluation of the cited advances. The scientific contribution cannot be fully assessed from the abstract alone, and the lack of detail limits the ability to evaluate originality or technical depth.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, molecular dynamics method development, and the broader condensate biology community would be interested. The abstract addresses a timely topic, and a review summarizing recent simulation advances would be valuable for experimentalists seeking mechanistic interpretation and for simulators seeking methodological guidance.
+- **Major strengths** The abstract clearly identifies the scope of the review, namely coarse-grained and all-atom MD simulations of biocondensates. It correctly emphasizes the importance of solvent and ion interactions, which are often underappreciated. The stated focus on future challenges regarding computational efficiency and physical accuracy is relevant and forward-looking.
+- **Major Concerns** None identified from the supplied material, as the abstract does not make specific scientific claims that can be challenged without the full text.
+- **Minor Comments** None identified from the supplied material, as the abstract is too brief to contain minor technical issues.
+- **Technical failings that need to be addressed before the case is established** None identified from the supplied material, given the abstract-only scope.
+- **Assessment against Nature-style criteria** Originality cannot be assessed from the abstract alone, as no specific novel insights or comparative analysis are presented. Scientific importance is plausible given the topic's relevance, but the abstract does not demonstrate a unique contribution. Interdisciplinary readership is likely, spanning chemistry, biology, and physics, but the abstract does not explicitly bridge these communities. Technical soundness is not assessable without methods or results. Readability for nonspecialists is adequate, as the language is clear and jargon is minimal, though terms such as "coarse-grained" and "all-atom" are not defined.
+- **Recommendation posture** Currently not established from the provided evidence, as the abstract alone does not permit evaluation of the review's depth, accuracy, or novelty. A full manuscript review would be required to determine whether the case is supported.
+
+## Risk / unsupported claims
+- The claim that simulations "yield mechanistic understanding and aid the interpretation of experiments" is plausible but unsupported by specific examples in the abstract.
+- The claim that recent advances are summarized is unverifiable without the full text.
+- The identification of "future challenges" is stated but not substantiated with concrete examples or rationale.

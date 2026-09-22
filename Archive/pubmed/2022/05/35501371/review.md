@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends. Supplementary information was referenced but not provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the manuscript. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors report that in liquid droplets of FUS, disordered guest proteins are recruited more efficiently than folded guest proteins, and that this difference arises from physical size exclusion from droplet voids rather than from electrostatic or cation–π interactions. They further report that diffusion of folded guest proteins is size-dependent with a large scaling exponent, while disordered guest proteins diffuse slowly and comparably to the host, and they propose a model of structure-dependent recruitment and diffusion.
+- **Visible evidence base** Fluorescence microscopy images, enrichment index (EI) measurements, single-molecule tracking data, mean square displacement (MSD) analyses, diffusion coefficient (D) values, and scaling analyses presented in Figures 1–4 and Table 1. Methods section describes protein preparation, labeling, and measurement procedures.
+- **Missing materials affecting confidence** Supplementary figures (S1–S3) and supplementary information were referenced but not provided. Raw trajectory data, statistical details of fitting procedures, and control experiments for potential dye effects or photobleaching artifacts were not fully described. No information on replicate numbers for single-molecule measurements beyond what is stated in the methods.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the field of liquid–liquid phase separation, namely how host protein identity affects the recruitment and diffusion of guest proteins. The comparison between FUS and p53 droplets is a useful approach. However, the central claim that size exclusion, rather than intermolecular interactions, governs recruitment in FUS droplets is not fully supported by the data presented. The evidence for void size differences between FUS and p53 droplets is indirect, and the lack of correlation with physical parameters is based on a small number of data points. The diffusion measurements are more convincing but would benefit from additional controls and statistical rigor. The manuscript is clearly written and the figures are generally informative, but several technical aspects require clarification before the conclusions can be considered robust.
+- **Who would be interested in the results, and why** Researchers studying liquid–liquid phase separation, membraneless organelles, and the biophysical properties of intrinsically disordered proteins. The work may also be of interest to those investigating molecular sieving and size-dependent transport in biological condensates, as well as to groups working on FUS and its role in neurodegeneration.
+- **Major strengths** The study uses a systematic series of guest proteins with varied size, structure, and charge, which is a strength. The single-molecule tracking approach provides quantitative diffusion data. The comparison between two host proteins with different physical properties is a valuable design. The proposed model is clearly articulated and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that recruitment of guest proteins into FUS droplets is governed by size exclusion from droplet voids rather than by electrostatic or cation–π interactions, and that this explains the preferential recruitment of disordered over folded proteins.
+  - **Evidence pointer** Figure 2A–C, Table 1, Supplementary Figure S2 (not provided)
+  - **Concern** The conclusion that size exclusion dominates over intermolecular interactions is based on the absence of correlation between EI and three physical parameters (length, charge, R+Y count). However, the number of guest proteins tested is limited, and the range of values for each parameter may be insufficient to detect a correlation. Moreover, the authors do not provide a quantitative estimate of void size in FUS droplets, nor do they directly measure or manipulate void size to test their model. The claim that FUS droplets have smaller voids than p53 droplets is speculative and not supported by direct evidence. The proposed trade-off between interactions and exclusion is plausible but remains a hypothesis rather than a demonstrated mechanism.
+  - **Why it matters** The central mechanistic claim of the paper rests on this interpretation. Without direct evidence for void size differences or a more robust correlation analysis, the conclusion that size exclusion is the dominant factor is not established.
+  - **Resolution test** Provide direct measurements or estimates of void size in FUS and p53 droplets, for example using electron microscopy, fluorescence correlation spectroscopy, or rheological measurements. Alternatively, perform experiments where void size is systematically varied, for example by changing host concentration or cross-linking density, and show that recruitment of folded proteins changes accordingly. Increase the number of guest proteins tested to improve statistical power for correlation analyses.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report diffusion coefficients (D) for guest proteins in FUS droplets and compare them with those in p53 droplets, concluding that diffusion of folded proteins is size-dependent with a large scaling exponent (α = −1.55 ± 0.04).
+  - **Evidence pointer** Figure 3B–F, Figure 4A–B, Table 1
+  - **Concern** The scaling exponent is derived from fitting D values against molecular weight for a small number of folded proteins. The authors do not report the number of proteins used in the fit, the goodness of fit, or confidence intervals. The comparison with p53 droplets is made using data from a previous publication, and it is unclear whether the measurement conditions were identical. Additionally, the authors report that D values for individual molecules are widely distributed, suggesting heterogeneity, but the average D values are used for the scaling analysis without discussing how this heterogeneity affects the interpretation. The potential influence of fluorescent labeling on diffusion is not fully addressed.
+  - **Why it matters** The scaling exponent is a key quantitative result that supports the molecular sieving model. If the fit is not robust or the comparison is not valid, the conclusion is weakened.
+  - **Resolution test** Report the number of proteins used in the scaling fit, the R² value, and the confidence interval for α. Perform measurements under identical conditions for both FUS and p53 droplets. Include control experiments with different labeling positions or dye types to rule out labeling artifacts. Discuss how the heterogeneity in single-molecule D values affects the average and the scaling analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that guest proteins, except p53, originate from other species and no significant interaction between FUS and p53 has been shown, implying no specific interactions between FUS and the guest proteins.
+  - **Evidence pointer** Results section, first paragraph; Methods section
+  - **Concern** The assumption of no specific interactions is critical for interpreting the recruitment data as being governed by physical properties rather than specific binding. However, the authors do not provide experimental evidence to support this assumption for each guest protein. For example, no binding assays or competition experiments are shown. The statement that p53 has been reported to be recruited into FUS droplets in vivo is cited, but the relevance of this to the in vitro system is not discussed.
+  - **Why it matters** If some guest proteins do interact specifically with FUS, the recruitment data would reflect a combination of specific and non-specific effects, complicating the interpretation.
+  - **Resolution test** Perform binding assays, such as pull-downs or fluorescence anisotropy, to test for direct interactions between FUS and each guest protein under the conditions used for droplet formation. Alternatively, use a competitive excess of unlabeled guest protein to test whether recruitment is saturable.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1C and 1E
+  - **Evidence pointer** Figure 1C, 1E
+  - **Issue** The error bars are described as standard errors of the average EI of each droplet, but it is unclear how many droplets were analyzed and whether the variation is between droplets or between measurements within a droplet.
+  - **Required correction** Specify the number of droplets analyzed and clarify the source of variation in the figure legend or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section, single-molecule measurements
+  - **Evidence pointer** Methods, "Single-molecule measurements"
+  - **Issue** The methods state that trajectories with at least six consecutive points were selected, but the number of trajectories analyzed per condition is not reported. This information is important for assessing the reliability of the D values.
+  - **Required correction** Report the number of trajectories analyzed for each guest protein and condition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, first paragraph
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The authors state that the different recruitment properties between FUS and p53 droplets are due to void size differences, but they do not discuss alternative explanations, such as differences in host–guest interaction strength or network dynamics.
+  - **Required correction** Acknowledge alternative explanations and discuss how the data distinguish between them.
+- **Technical failings that need to be addressed before the case is established** The lack of direct evidence for void size differences between FUS and p53 droplets (R1-M1) and the insufficient statistical detail in the scaling analysis (R1-M2) are the primary technical issues. The assumption of no specific interactions (R1-M3) also needs experimental support.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study is original in its systematic comparison of guest protein recruitment and diffusion between two different host droplets. However, the concept of size-dependent exclusion in condensates has been reported previously, and the novelty lies mainly in the specific system and the quantitative comparison.
+  - Scientific importance: The findings are of moderate importance. They contribute to the understanding of how host protein properties influence guest protein behavior in condensates, but the mechanistic insight is limited by the indirect evidence for size exclusion.
+  - Interdisciplinary readership: The work is primarily of interest to biophysicists and cell biologists working on phase separation. It may also appeal to soft matter physicists, but the appeal beyond these fields is limited.
+  - Technical soundness: The experimental methods are generally sound, but the analysis and interpretation have weaknesses as detailed above. The single-molecule tracking is a strength, but the scaling analysis and the lack of direct void size measurements reduce confidence.
+  - Readability for nonspecialists: The manuscript is clearly written and the concepts are explained well. The figures are helpful, though some panels are dense. A nonspecialist could follow the main arguments.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and the data are potentially interesting, but the central mechanistic claim is not fully established from the provided evidence. The authors should address the concerns regarding void size evidence, statistical rigor of the scaling analysis, and the assumption of no specific interactions.
+
+## Risk / unsupported claims
+- The claim that size exclusion from droplet voids is the dominant factor governing recruitment in FUS droplets is not directly supported by the data.
+- The claim that FUS droplets have smaller voids than p53 droplets is speculative and not experimentally demonstrated.
+- The scaling exponent for folded protein diffusion in FUS droplets (α = −1.55 ± 0.04) is reported without sufficient statistical detail to assess its robustness.
+- The assumption that no specific interactions occur between FUS and the guest proteins is not experimentally verified.
+- The comparison of diffusion data between FUS and p53 droplets relies on data from a previous publication, and the equivalence of measurement conditions is not established.

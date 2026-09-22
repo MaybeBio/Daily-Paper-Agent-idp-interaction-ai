@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42280206",
+  "title": "Enhanced Condensation of RNA Repeats Induced by Terahertz Oscillatory Fields.",
+  "authors": "Zhang, Qin; Valerio, Mariana; Wang, Kaicheng; Yang, Lixia; Wang, Shaomeng; Souza, Paulo C T; Gong, Yubin",
+  "journal": "Molecules (Basel, Switzerland)",
+  "published_date": "2026-06-12",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究太赫兹振荡场对致病RNA重复序列相分离凝聚的增强作用，虽对象为RNA而非无序蛋白，但聚焦凝聚体形成机制且采用物理模拟方法，对IDR介导的相分离PPI机制建模有方法学启发。",
+  "abstract": "Liquid-liquid phase separation (LLPS) of RNA drives the formation of membraneless organelles, and its dysregulation is closely linked to major human diseases, including cancer, neurodegenerative disorders, and various rare genetic diseases. Current strategies for modulating LLPS often require the introduction of exogenous molecules or specific genetic modifications. Here, coarse-grained molecular dynamics (CGMD) simulations suggest that terahertz (THz) oscillatory fields may influence the condensation of pathogenic G4C2 RNA repeats under the simulated conditions. Oscillatory fields at 10 THz and 37.3 THz are shown to effectively counteract salt-induced condensate dissolution. At the molecular level, THz oscillatory fields are associated with reduced phosphate-sodium contacts at low ionic strengths and with faster water diffusion in the hydration layer at higher salt levels. These changes correlate with an increase in stable intermolecular contacts and a more compact RNA state, suggesting a field-driven shift in the balance of interactions. These findings provide a conceptual and mechanistic basis for understanding how oscillatory fields may influence biomolecular condensation, establishing a microscopic framework for using external variable fields to manipulate biomolecular assemblies.",
+  "abstract_zh": "RNA的液-液相分离（liquid-liquid phase separation, LLPS）驱动无膜细胞器的形成，其失调与重大人类疾病密切相关，包括癌症、神经退行性疾病及多种罕见遗传病。当前调控LLPS的策略通常需要引入外源分子或特定基因修饰。在此，粗粒化分子动力学（coarse-grained molecular dynamics, CGMD）模拟表明，太赫兹（terahertz, THz）振荡场可能在模拟条件下影响致病性G4C2 RNA重复序列的凝聚。10 THz和37.3 THz的振荡场被证明能有效对抗盐诱导的凝聚体溶解。在分子层面，THz振荡场与低离子强度下磷酸盐-钠接触减少及高盐水平下 hydration layer 中水扩散加快相关。这些变化与稳定分子间接触增加及RNA状态更紧凑相关联，提示场驱动了相互作用平衡的转变。这些发现为理解振荡场如何影响生物分子凝聚提供了概念性和机制性基础，建立了利用外部变量场操控生物分子组装体的微观框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42280206/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42280206/",
+  "paper_page_path": "papers/pubmed/42280206/index.html"
+}

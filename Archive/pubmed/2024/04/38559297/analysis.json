@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38559297",
+  "title": "Molecular Deformation Is a Key Factor in Screening Aggregation Inhibitor for Intrinsically Disordered Protein Tau.",
+  "authors": "Chai, Keke; Yang, Jian; Tu, Ying; Wu, Junjie; Fang, Kang; Shi, Shuo; Yao, Tianming",
+  "journal": "ACS central science",
+  "published_date": "2024-04-01",
+  "window": {
+    "start": "2024-04-01",
+    "end": "2024-04-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过分子对接和MD模拟揭示小分子IPP1以‘分子夹’方式多点多价结合并固定tau无序蛋白链、抑制其聚集的机制，对象为IDP且涉及互作机制建模，但互作对象是小分子而非蛋白-蛋白互作，故综合评分为6。",
+  "abstract": "Direct inhibitor of tau aggregation has been extensively studied as potential therapeutic agents for Alzheimer's disease. However, the natively unfolded structure of tau complicates the structure-based ligand design, and the relatively large surface areas that mediate tau-tau interactions in aggregation limit the potential for identifying high-affinity ligand binding sites. Herein, a group of isatin-pyrrolidinylpyridine derivative isomers (IPP1-IPP4) were designed and synthesized. They are like different forms of molecular \"transformers\". These isatin isomers exhibit different inhibitory effects on tau self-aggregation or even possess a depolymerizing effect. Our results revealed for the first time that the direct inhibitor of tau protein aggregation is not only determined by the previously reported conjugated structure, substituent, hydrogen bond donor, etc. but also depends more importantly on the molecular shape. In combination with molecular docking and molecular dynamics simulations, a new inhibition mechanism was proposed: like a \"molecular clip\", IPP1 could noncovalently bind and fix a tau polypeptide chain at a multipoint to prevent the transition from the \"natively unfolded conformation\" to the \"aggregation competent conformation\" before nucleation. At the cellular and animal levels, the effectiveness of the inhibitor of the IPP1 has been confirmed, providing an innovative design strategy as well as a lead compound for Alzheimer's disease drug development.",
+  "abstract_zh": "tau蛋白聚集的直接抑制剂作为阿尔茨海默病的潜在治疗药物已被广泛研究。然而，tau蛋白天然无序的结构使基于结构的配体设计复杂化，且介导tau-tau相互作用的相对较大表面积限制了高亲和力配体结合位点的识别潜力。本文设计并合成了一组靛红-吡咯烷基吡啶衍生物异构体（IPP1-IPP4），它们如同不同形式的分子“变形金刚”。这些靛红异构体对tau蛋白自聚集表现出不同的抑制效果，甚至具有解聚作用。我们的结果首次揭示，tau蛋白聚集的直接抑制剂不仅由先前报道的共轭结构、取代基、氢键供体等因素决定，更重要的是取决于分子形状。结合分子对接和分子动力学模拟，提出了一种新的抑制机制：像“分子夹”一样，IPP1能在多点非共价结合并固定tau多肽链，从而在成核前阻止从“天然无序构象”向“聚集胜任构象”的转变。在细胞和动物水平上，IPP1抑制剂的有效性已得到证实，为阿尔茨海默病药物开发提供了创新设计策略及先导化合物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38559297/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38559297/",
+  "paper_page_path": "papers/pubmed/38559297/index.html"
+}

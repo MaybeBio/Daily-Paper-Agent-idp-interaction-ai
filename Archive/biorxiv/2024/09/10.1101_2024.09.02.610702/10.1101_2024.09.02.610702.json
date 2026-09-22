@@ -1,0 +1,211 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.02.610702",
+  "title": "Wall teichoic acids regulate peptidoglycan synthesis by paving cell wall nanostructure",
+  "doi": "10.1101/2024.09.02.610702",
+  "abstract": "<h4>Summary</h4> The bacterial cell wall is a polymeric exoskeleton, composed largely of peptidoglycan, that determines cell size and shape. Two systems synthesize peptidoglycan during the growth of rod-shaped bacteria, which are found pervasively across diverse bacterial taxa: the multi-protein Rod complexes are critical for cell shape because they synthesize anisotropic peptidoglycan oriented along the cell circumference 1–3 , whereas PBP1 synthesizes isotropic peptidoglycan 1,4 (Fig. 1A). In Gram-positive bacteria, rod shape is also dependent on wall teichoic acids 5 , an abundant cell wall polymer, for entirely unknown reasons. Here, we show that teichoic acids occlude nanoscopic pores in the cell wall, which simultaneously promotes Rod complex activity and inhibits PBP1. Depletion of teichoic acids exposed these pores within minutes, coinciding with a rapid activation of PBP1. In contrast to previous steady-state measurements 6,7 , we found that teichoic acid depletion also caused the transient arrest of Rod complexes prior to the onset of amorphous growth. Teichoic acids, therefore, are a new critical factor in peptidoglycan synthesis regulation. Our work further identifies the cell wall, via its molecular-scale structure, as a non-canonical auto-regulatory factor in its own synthesis. Since teichoic acids additionally govern peptidoglycan hydrolysis 8–13 , our results position these polymers as “master regulators” of rod-shaped cell growth.",
+  "authors": [
+    "Barber F",
+    "Akbary Z",
+    "Yuan Z",
+    "Biboy J",
+    "Vollmer W",
+    "Rojas ER"
+  ],
+  "published_date": "2024-09-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.02.610702",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.02.610702.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR905079",
+    "raw_record": {
+      "id": "PPR905079",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR905079"
+        ]
+      },
+      "doi": "10.1101/2024.09.02.610702",
+      "title": "Wall teichoic acids regulate peptidoglycan synthesis by paving cell wall nanostructure",
+      "authorString": "Barber F, Akbary Z, Yuan Z, Biboy J, Vollmer W, Rojas ER.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Barber F",
+            "lastName": "Barber",
+            "firstName": "Felix",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Genomics and Systems Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Akbary Z",
+            "lastName": "Akbary",
+            "firstName": "Zarina",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Genomics and Systems Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yuan Z",
+            "lastName": "Yuan",
+            "firstName": "Zhe",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Genomics and Systems Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Biboy J",
+            "lastName": "Biboy",
+            "firstName": "Jacob",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Bacterial Cell Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vollmer W",
+            "lastName": "Vollmer",
+            "firstName": "Waldemar",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecular Bioscience, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rojas ER",
+            "lastName": "Rojas",
+            "firstName": "Enrique",
+            "initials": "ER",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Genomics and Systems Biology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Summary</h4>  The bacterial cell wall is a polymeric exoskeleton, composed largely of peptidoglycan, that determines cell size and shape. Two systems synthesize peptidoglycan during the growth of rod-shaped bacteria, which are found pervasively across diverse bacterial taxa: the multi-protein Rod complexes are critical for cell shape because they synthesize anisotropic peptidoglycan oriented along the cell circumference  1–3 , whereas PBP1 synthesizes isotropic peptidoglycan  1,4 (Fig. 1A). In Gram-positive bacteria, rod shape is also dependent on wall teichoic acids  5 , an abundant cell wall polymer, for entirely unknown reasons. Here, we show that teichoic acids occlude nanoscopic pores in the cell wall, which simultaneously promotes Rod complex activity and inhibits PBP1. Depletion of teichoic acids exposed these pores within minutes, coinciding with a rapid activation of PBP1. In contrast to previous steady-state measurements  6,7 , we found that teichoic acid depletion also caused the transient arrest of Rod complexes prior to the onset of amorphous growth. Teichoic acids, therefore, are a new critical factor in peptidoglycan synthesis regulation. Our work further identifies the cell wall, via its molecular-scale structure, as a non-canonical auto-regulatory factor in its own synthesis. Since teichoic acids additionally govern peptidoglycan hydrolysis  8–13 , our results position these polymers as “master regulators” of rod-shaped cell growth.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/W013630/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.09.02.610702"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.09.02.610702"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR905079"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR905079&type=FILE&fileName=EMS198557-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42192115",
+            "reference": "Nature microbiology. 2026 Jul;11(7):1893-1906",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS198557",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-09-05",
+      "firstPublicationDate": "2024-09-03",
+      "firstIndexDate": "2024-09-05",
+      "fullTextReceivedDate": "2026-01-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.17.670156",
+  "title": "Unveiling the effect of phosphorylation on the structural and aggregation properties of the amyloidogenic intrinsically disordered protein DPF3a",
+  "authors": "Tanguy Leyder; Julien Mignon; Emma Bongiovanni; Quentin Machiels; Jehan Waeytens; Vincent Raussens; Antonio Monari; Denis Mottet; Catherine Michaux",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-22",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究结合实验与计算模拟，探究磷酸化对无序蛋白DPF3a构象和聚集性质的影响，虽聚焦单蛋白聚集而非PPI互作机制，但无序蛋白构象调控的建模思路对IDR介导互作研究有参考价值。",
+  "abstract": "The double plant homeodomain fingers 3a (DPF3 isoform a) is a human epigenetic regulator involved in chromatin remodelling, cell division, and ciliogenesis. Most notably, this protein is deregulated in various cancer types and neurodegenerative diseases. In our previous work, the disorder nature of DPF3a, as well as its propensity to aggregate into amyloid fibrils, have been highlighted, making it an amyloidogenic intrinsically disordered protein (IDP). Due to their high chain accessibility, IDPs structure and function are modulated by phosphorylation. It has been reported that phosphorylation of DPF3a at S348 (pS348) by the casein kinase 2 (CK2) is implicated in cardiac hypertrophy. CK2 can also phosphorylate DPF3a at S138 (pS138), which is also located in an intrinsically disordered region (IDR). However, no structural information is available on phosphorylated DPF3a. In the present study, we investigated the effect of phosphorylation on DPF3a structural and aggregation properties. Two single-mutated phosphomimetics (S138E and S348E) were characterised in vitro and compared to DPF3a WT, while in silico analyses were performed on pS138 and pS348 to assess structural changes at the molecular level. Circular dichroism and fluorescence spectroscopy revealed that both phosphomimetics are hybrid IDPs, with increased turn and antiparallel β-sheet content as well as more buried aromatic residues compared to DPF3a WT, suggesting conformational rearrangements and a more folded N-terminal region. In silico characterisation supported these results, showing that phosphorylation of S138 and S348 induce extended conformation, especially the C-terminal extremity, due to electrostatic repulsion, while local folding occurs due to a proximity with arginine and lysine residues. Furthermore, spectroscopic and microscopic analyses unveiled that S138E and S348E exhibit slower fibrillation kinetics compared to DPF3a WT involving distinct aggregation mechanisms.",
+  "abstract_zh": "双植物同源结构域手指3a（DPF3异构体a）是一种人类表观遗传调控因子，参与染色质重塑、细胞分裂和纤毛发生。尤为重要的是，该蛋白在多种癌症类型和神经退行性疾病中发生失调。在我们先前的工作中，已强调DPF3a的无序特性及其聚集成淀粉样纤维的倾向，使其成为一种淀粉样生成性 intrinsically disordered protein (IDP)。由于其高链可及性，IDP的结构和功能受磷酸化调节。已有报道指出，casein kinase 2 (CK2) 对DPF3a在S348位点的磷酸化（pS348）与心脏肥大相关。CK2还可磷酸化DPF3a在S138位点（pS138），该位点同样位于 intrinsically disordered region (IDR) 内。然而，目前尚无关于磷酸化DPF3a的结构信息。在本研究中，我们探讨了磷酸化对DPF3a结构和聚集特性的影响。我们表征了两种单突变磷酸模拟物（S138E和S348E）在体外与DPF3a WT的比较，同时对pS138和pS348进行了 in silico 分析，以评估分子水平上的结构变化。圆二色光谱和荧光光谱显示，两种磷酸模拟物均为混合型IDP，与DPF3a WT相比，其转角含量和反平行β-折叠含量增加，芳香族残基更埋藏，表明构象重排及N端区域更折叠。In silico 表征支持了这些结果，显示S138和S348的磷酸化诱导延伸构象，尤其是C端末端，这归因于静电排斥，而局部折叠则因与精氨酸和赖氨酸残基的邻近而发生。此外，光谱和显微分析揭示，S138E和S348E相比DPF3a WT表现出更慢的纤维化动力学，涉及不同的聚集机制。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.17.670156",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.17.670156",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.17.670156/index.html"
+}

@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific and technical evaluation of the blobulator toolkit as presented, including algorithm description, tool implementations, and example applications
+- **Shared manuscript claim summary** The authors present the blobulator toolkit, comprising a webtool, command line interface, and VMD plugin, for detecting, visualizing, and characterizing contiguous hydrophobic modules ("blobs") in protein sequences. They claim this fills a gap in available bioinformatics tools, that the toolkit is accessible and scalable, and that blobulation provides biologically meaningful modular annotations across globular proteins, membrane proteins, and intrinsically disordered proteins.
+- **Visible evidence base** Abstract, Introduction, Blobulation (algorithm description), Toolkit description (webtool, CLI, VMD plugin), Example application on lysozyme, Conclusion, Data availability statement
+- **Missing materials affecting confidence** Supplementary figures and methods referenced but not provided; full example applications for membrane proteins and IDPs referenced but not included; no performance benchmarks or validation statistics; no comparison against existing tools; no user study or usability assessment
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful toolkit for a niche but relevant problem in protein sequence analysis. The core algorithm (blobulation) has been previously published and applied, and the present work focuses on tool dissemination and accessibility. The writing is clear and the motivation is reasonable. However, the manuscript as presented lacks quantitative validation, systematic benchmarking, and sufficient detail on the example applications to fully support the claims of utility and biological relevance. The lysozyme example is illustrative but largely qualitative. The membrane protein and IDP applications are referenced but not shown in the provided text. The technical soundness of the implementation cannot be fully assessed without the supplementary materials and code review.
+- **Who would be interested in the results, and why** Researchers working on intrinsically disordered proteins, membrane protein bioinformatics, protein evolution, and disease variant interpretation may find the toolkit useful. The ability to define sequence modules based on hydrophobicity without requiring structural data could appeal to those studying proteins where structures are unavailable or where sequence-based features are of primary interest. The VMD plugin may attract computational biophysicists already using VMD for simulation analysis.
+- **Major strengths** The manuscript addresses a genuine gap in available tools, as few existing resources define sequence modules based on contiguous hydrophobicity. The toolkit offers multiple access points (webtool, CLI, VMD plugin), which is commendable for accessibility. The interactive parameter tuning in the webtool is a thoughtful feature. The lysozyme example demonstrates that blobulation can identify biologically relevant hydrophobic regions and respond to single-residue mutations in a way that structure prediction tools do not. The connection to prior work on disease-associated mutations provides external context for potential utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims the toolkit is "scalable" and that the CLI "scales about four times more efficiently with sequence length" compared to secondary structure predictors.
+  - **Evidence pointer** Conclusion section; location not provided
+  - **Concern** No benchmark data, timing measurements, or comparison methodology are presented to support the scalability claim. The statement appears in the conclusion without supporting data in the visible text.
+  - **Why it matters** Scalability is a concrete, quantitative claim that directly affects whether the tool is usable for high-throughput applications, which is a stated goal. Without evidence, this claim is unverifiable.
+  - **Resolution test** Provide benchmark results comparing runtime and memory usage against at least one secondary structure prediction tool across a range of sequence lengths, with methodology described.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract and introduction state that the toolkit is demonstrated through "three example applications: a globular protein, two orthologous membrane proteins, and an IDP."
+  - **Evidence pointer** Abstract; Introduction; Example application section for lysozyme only; location not provided
+  - **Concern** Only the lysozyme application is presented in the visible text. The membrane protein and IDP applications are referenced but not shown. The conclusion also references "example applications" in plural, but the supporting content is absent from the provided material.
+  - **Why it matters** The stated scope of demonstration is broader than what is actually shown. The membrane protein and IDP cases are important because they represent distinct use cases where blobulation may behave differently, and the authors explicitly mention these as motivating scenarios.
+  - **Resolution test** Include the full example applications for the membrane proteins and IDP in the main text or clearly indicate they are in the supplementary material with sufficient detail to evaluate the claims.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation
+  - **Claim pointer** The lysozyme example claims that blobulation provides "a hydrophobicity-based framework for identifying protein modularity" and that blob groups are "akin to tertiary elements formed from a network of secondary interacting structure elements."
+  - **Evidence pointer** Example application section on lysozyme; Figures 4 and 5; location not provided
+  - **Concern** The interpretation of blob groups as tertiary-like elements is presented without quantitative support. No statistical analysis, comparison to known structural domains, or systematic evaluation is provided. The claim that h-blobs "tend to be buried in structured proteins" is stated as consistent with prior work, but no enrichment analysis is shown here.
+  - **Why it matters** The biological interpretability of blobs is central to the toolkit's value proposition. Qualitative visual inspection of one protein is insufficient to establish that blobulation reliably captures meaningful structural or functional modules.
+  - **Resolution test** Provide quantitative analysis, such as enrichment of h-blobs in buried residues across a set of proteins, comparison of blob boundaries to known domain boundaries, or statistical assessment of blob group conservation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript states that the VMD plugin "stores identified blobs for analysis across simulation trajectories" and that the webtool supports "smooth real-time parameter adjustment."
+  - **Evidence pointer** Toolkit description sections; location not provided
+  - **Concern** No details are provided on how the VMD plugin handles trajectory data, what analysis capabilities are exposed, or how the webtool manages state and performance during real-time adjustment. The TCL reimplementation is mentioned but not described in terms of correctness verification against the Python version.
+  - **Why it matters** For a toolkit paper, implementation details and verification are essential for users to trust and adopt the tools. Discrepancies between implementations could lead to inconsistent results.
+  - **Resolution test** Describe the VMD plugin architecture and trajectory analysis workflow. Provide verification that the TCL and Python implementations produce identical results on test cases.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Algorithm description
+  - **Evidence pointer** Blobulation section; location not provided
+  - **Issue** The description of the digitization step is brief. The pseudocode is relegated to supplementary materials, which are not provided. The relationship between the hydropathy scale, H∗, and Lmin is described but the mathematical formulation is not fully specified.
+  - **Required correction** Include the formal definition of the digitization step in the main text, or ensure the supplementary pseudocode is accessible and referenced clearly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Table 1
+  - **Evidence pointer** Introduction; Table 1; location not provided
+  - **Issue** Table 1 is described as listing existing tools, but the table itself is not visible in the provided text. The comparison framework is therefore not assessable.
+  - **Required correction** Ensure Table 1 is included and that the categorization of tools is accurate and current.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Usability
+  - **Affected element** Webltool description
+  - **Evidence pointer** Toolkit section; Figure 2; location not provided
+  - **Issue** The webtool description mentions layers of annotations including disease-associated mutations, but the source of these annotations is not specified.
+  - **Required correction** State the data source for disease-associated mutation annotations and the version or date of the data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Lysozyme mutation analysis
+  - **Evidence pointer** Example application section; Figure 6; location not provided
+  - **Issue** The claim that the T157I mutation creates a "Janus region" is based on the Das-Pappu phase diagram, but the classification criteria are not explained in the text.
+  - **Required correction** Briefly define what a Janus region is in this context and how the classification is determined.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Data and software availability
+  - **Evidence pointer** Data and software availability statement; location not provided
+  - **Issue** The statement provides a GitHub link but does not specify the license, versioning scheme, or whether the webtool is hosted on a persistent platform.
+  - **Required correction** Specify the software license, version number, and any plans for long-term hosting of the webtool.
+- **Technical failings that need to be addressed before the case is established** The scalability claim (R1-M1) is unsupported by data. The example applications for membrane proteins and IDPs are missing from the visible text (R1-M2). The biological interpretability claims lack quantitative validation (R1-M3). Implementation verification between the Python and TCL versions is not described (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The concept of defining sequence modules by contiguous hydrophobicity is not entirely new, as the authors have previously published the blobulation algorithm, but the toolkit packaging and accessibility features are a useful contribution. Scientific importance: The potential utility for IDP research and variant interpretation is real, but the evidence presented here is largely qualitative and does not yet demonstrate broad impact. Interdisciplinary readership: The tool could appeal to structural biologists, bioinformaticians, and clinical geneticists, but the manuscript does not yet make a compelling case for why each community should adopt it. Technical soundness: The core algorithm is described, but the implementation details, verification, and performance characteristics are insufficiently documented. Readability for nonspecialists: The writing is generally clear, but the lack of a worked example with quantitative output and the absence of the membrane protein and IDP applications limit accessibility for readers unfamiliar with the prior work.
+- **Recommendation posture** Supportive if technical concerns are resolved. The toolkit addresses a real gap and the authors have made a reasonable effort at accessibility. However, the manuscript in its current form does not provide sufficient evidence to establish the claimed scalability, the full scope of demonstrated applications is not visible, and the biological interpretability claims require quantitative support. These issues are addressable and the core contribution is potentially valuable.
+
+## Risk / unsupported claims
+- Scalability claim ("scales about four times more efficiently with sequence length") is unsupported by any data in the visible text.
+- The claim that the toolkit is demonstrated through three example applications is not fully supported, as only the lysozyme case is presented.
+- The interpretation of blob groups as "akin to tertiary elements" is speculative without quantitative analysis.
+- The claim that blobulation is "critical" in prior work (references 1 and 2) is stated but not substantiated within this manuscript.
+- The assertion that no current tools focus on hydrophobicity-based module identification is presented as a gap, but the literature search methodology is not described.
+- The statement that the T157I mutation creates a Janus region relies on an external classification system not explained in the text.

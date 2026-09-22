@@ -1,0 +1,301 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.20.624447",
+  "title": "CTCF depletion decouples enhancer-mediated gene activation from chromatin hub formation during cellular differentiation",
+  "doi": "10.1101/2024.11.20.624447",
+  "abstract": "<h4>ABSTRACT</h4> Enhancers and promoters interact in 3D chromatin structures to regulate gene expression. Here, we characterize the mechanisms that drive the formation of these structures and their function in gene regulation in a lymphoid-to-myeloid transdifferentiation system. Based on analyses at base-pair resolution, we demonstrate a close correlation between binding of regulatory proteins, formation of chromatin interactions, and gene expression. Integration of multi-way interaction analyses and computational modeling shows that tissue-specific gene loci are organized into chromatin hubs, characterized by cooperative interactions between multiple enhancers, promoters, and CTCF-binding sites. Depletion of CTCF strongly impairs the formation of these structures. However, the effects of CTCF depletion on gene expression are modest and can be explained by rewired enhancer-promoter interactions. This demonstrates an instructive role for enhancer-promoter interactions in gene regulation that is independent of cooperative interactions in chromatin hubs. Together, these results contribute to a mechanistic understanding of the structure-function relationship of the genome during cellular differentiation.",
+  "authors": [
+    "Karpinska MA",
+    "Zhu Y",
+    "Ghazvini ZF",
+    "Ramasamy S",
+    "Barbieri M",
+    "Cao TBN",
+    "Varahram N",
+    "Aljahani A",
+    "Lidschreiber M",
+    "Papantonis A",
+    "Oudelaar AM"
+  ],
+  "published_date": "2024-11-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.20.624447",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.20.624447.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR943928",
+    "raw_record": {
+      "id": "PPR943928",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR943928"
+        ]
+      },
+      "doi": "10.1101/2024.11.20.624447",
+      "title": "CTCF depletion decouples enhancer-mediated gene activation from chromatin hub formation during cellular differentiation",
+      "authorString": "Karpinska MA, Zhu Y, Ghazvini ZF, Ramasamy S, Barbieri M, Cao TBN, Varahram N, Aljahani A, Lidschreiber M, Papantonis A, Oudelaar AM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Karpinska MA",
+            "lastName": "Karpinska",
+            "firstName": "Magdalena",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Genome Organization and Regulation, ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhu Y",
+            "lastName": "Zhu",
+            "firstName": "Yi",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Genome Organization and Regulation, ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ghazvini ZF",
+            "lastName": "Ghazvini",
+            "firstName": "Zahra Fakhraei",
+            "initials": "ZF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Genome Organization and Regulation, ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ramasamy S",
+            "lastName": "Ramasamy",
+            "firstName": "Shyam",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Genome Organization and Regulation, ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barbieri M",
+            "lastName": "Barbieri",
+            "firstName": "Mariano",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pathology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cao TBN",
+            "lastName": "Cao",
+            "firstName": "Ngoc",
+            "initials": "TBN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Genome Organization and Regulation, ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Varahram N",
+            "lastName": "Varahram",
+            "firstName": "Natalie",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Molecular Biology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aljahani A",
+            "lastName": "Aljahani",
+            "firstName": "Abrar",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7551-1073"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pathology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lidschreiber M",
+            "lastName": "Lidschreiber",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4016-6158"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Genome Organization and Regulation, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Papantonis A",
+            "lastName": "Papantonis",
+            "firstName": "Argyris",
+            "initials": "A"
+          },
+          {
+            "fullName": "Oudelaar AM",
+            "lastName": "Oudelaar",
+            "firstName": "Marieke",
+            "initials": "AM"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7551-1073"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4016-6158"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Enhancers and promoters interact in 3D chromatin structures to regulate gene expression. Here, we characterize the mechanisms that drive the formation of these structures and their function in gene regulation in a lymphoid-to-myeloid transdifferentiation system. Based on analyses at base-pair resolution, we demonstrate a close correlation between binding of regulatory proteins, formation of chromatin interactions, and gene expression. Integration of multi-way interaction analyses and computational modeling shows that tissue-specific gene loci are organized into chromatin hubs, characterized by cooperative interactions between multiple enhancers, promoters, and CTCF-binding sites. Depletion of CTCF strongly impairs the formation of these structures. However, the effects of CTCF depletion on gene expression are modest and can be explained by rewired enhancer-promoter interactions. This demonstrates an instructive role for enhancer-promoter interactions in gene regulation that is independent of cooperative interactions in chromatin hubs. Together, these results contribute to a mechanistic understanding of the structure-function relationship of the genome during cellular differentiation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101115401",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.11.20.624447"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.20.624447"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR943928"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR943928&type=FILE&fileName=EMS200690-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS200690",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-11-23",
+      "firstPublicationDate": "2024-11-21",
+      "firstIndexDate": "2024-11-23",
+      "fullTextReceivedDate": "2024-12-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

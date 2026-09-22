@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table references
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors identify U2AF1 as a protein that binds both R-loops and DNA G4 structures, demonstrate that R-loop binding promotes U2AF1 phase separation, and propose that promoter R-loops recruit U2AF1 to modulate RNA splicing by affecting RNA polymerase II distribution between transcription initiation and elongation
+- **Visible evidence base** Bioinformatic overlap analysis of public ChIP-seq datasets, in vitro binding assays (fluorescence anisotropy, EMSA), in vitro phase separation assays, cell-based imaging, ChIP-qPCR, ChIP-seq, CLIP-qPCR, and RT-PCR
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S11, Tables S1-S7) referenced but not provided; detailed statistical analysis information; raw sequencing data quality metrics; replicate information for key experiments
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting connection between promoter R-loops and splicing factor U2AF1, with a novel proposal that R-loop binding promotes U2AF1 phase separation and modulates splicing. The bioinformatic discovery approach is reasonable, and the in vitro binding data are generally convincing. However, several major concerns limit the strength of the conclusions. The mechanistic link between U2AF1 phase separation and splicing modulation is largely speculative, the in vivo relevance of the proposed competition model is not directly tested, and the causal relationship between R-loop binding, phase separation, and splicing changes is not established. The manuscript would benefit from more direct functional experiments linking the observed biochemical phenomena to splicing outcomes.
+- **Who would be interested in the results, and why** Researchers studying R-loop biology, nucleic acid secondary structures, RNA splicing regulation, phase separation in gene expression control, and the functions of splicing factors beyond canonical RNA processing. The identification of U2AF1 as an R-loop binding protein and the proposed connection between promoter structures and splicing regulation would be of interest to those investigating cotranscriptional processing and the integration of transcriptional and post-transcriptional regulation.
+- **Major strengths** The bioinformatic approach to identify candidate R-loop and G4 binding proteins is systematic and leverages public datasets effectively. The biochemical characterization of U2AF1 binding to various nucleic acid structures is thorough, with multiple complementary methods. The demonstration that R-loops specifically promote U2AF1 phase separation, while other nucleic acid structures do not, is an interesting and potentially important finding. The inclusion of cell-based experiments and ChIP-seq analysis adds functional context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for causal mechanism
+  - **Claim pointer** The authors claim that U2AF1-R-loop interaction "modulates cotranscriptional pre-mRNA splicing" and that this occurs through competition between promoter R-loop binding and 3' splice site recognition, affecting RNAPII distribution
+  - **Evidence pointer** Results sections "U2AF1-R-Loop Interaction Interferes with U2AF1's Recognition of the 3' Splicing Site" and "U2AF1-Promoter R-Loop Interaction Enhances the Occupancy of RNA Polymerase II in Gene Promoters"
+  - **Concern** The causal chain from R-loop binding to splicing modulation is not directly demonstrated. The authors show that DHX9 depletion increases R-loop levels and U2AF1 promoter occupancy, and decreases U2AF1 occupancy at 3' splice sites, but they do not directly demonstrate that this leads to altered splicing of specific transcripts. The RT-PCR experiments examine splicing changes in U2AF1-depleted cells, but the connection between R-loop levels and splicing changes is correlative. The proposed competition model is plausible but not directly tested.
+  - **Why it matters** The central claim of the paper is that promoter R-loops modulate splicing through U2AF1 sequestration. Without direct evidence that increased R-loop levels cause specific splicing changes through U2AF1 redistribution, the mechanistic model remains speculative.
+  - **Resolution test** Provide direct evidence that manipulating R-loop levels (e.g., through DHX9 depletion or RNase H1 overexpression) causes specific splicing changes that depend on U2AF1. This could include RNA-seq analysis of splicing changes in cells with altered R-loop levels, with and without U2AF1 knockdown, and demonstration that the affected genes are those with promoter R-loops.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo relevance of phase separation
+  - **Claim pointer** The authors claim that R-loop binding promotes U2AF1 phase separation and that this is relevant to U2AF1 function in cells
+  - **Evidence pointer** Results section "R-Loop Binding Promotes the Phase Separation of U2AF1"
+  - **Concern** The phase separation experiments are conducted in vitro with purified proteins and in cells with overexpressed mCherry-U2AF1. The physiological relevance of these observations is unclear. The authors do not demonstrate that endogenous U2AF1 forms phase-separated condensates in cells, nor do they show that R-loop levels affect U2AF1 phase separation in a cellular context. The connection between the in vitro phase separation observations and the proposed mechanism of splicing modulation is not established.
+  - **Why it matters** Phase separation is a concentration-dependent phenomenon, and the relevance of in vitro observations at micromolar protein concentrations to cellular conditions is uncertain. Without evidence that endogenous U2AF1 forms condensates and that these are modulated by R-loops, the phase separation aspect of the model remains speculative.
+  - **Resolution test** Demonstrate that endogenous U2AF1 forms nuclear condensates that are sensitive to R-loop levels, for example by modulating R-loop levels and examining U2AF1 distribution. Alternatively, show that disrupting U2AF1 phase separation (e.g., through mutations in the RS domain) affects splicing in a manner consistent with the proposed model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of R-loop versus G4 binding
+  - **Claim pointer** The authors claim that U2AF1 binds directly to R-loops and DNA G4 structures at low-nM affinity, and that R-loops specifically promote phase separation
+  - **Evidence pointer** Results section "U2AF1 Is a R-Loop-Binding Protein"
+  - **Concern** The binding data show that U2AF1 binds to G4, M4, R-loop, and RNA/DNA hybrid structures with similar affinities (all in the low-nM range). However, only R-loops promote phase separation. The structural basis for this specificity is not addressed. Additionally, the M4 mutants are described as "incompetent in folding into G4 structures," yet U2AF1 binds them with similar affinity, suggesting that the binding is not G4-structure-specific. This raises questions about the physiological relevance of the G4 binding and the specificity of the proposed mechanism.
+  - **Why it matters** The paper proposes that U2AF1 recognizes both R-loops and G4 structures, but the binding data suggest relatively non-specific nucleic acid binding. Understanding the structural basis for the specific functional outcome (phase separation) is important for evaluating the model.
+  - **Resolution test** Provide structural or mutagenesis data identifying the determinants of R-loop-specific phase separation. Address whether the G4 binding observed in vitro is relevant in cells, given that M4 mutants bind with similar affinity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the proposed mechanism
+  - **Claim pointer** The authors propose a general model where promoter R-loops recruit U2AF1 to modulate splicing genome-wide
+  - **Evidence pointer** Results sections on bioinformatic analysis and RNAPII ChIP-seq
+  - **Concern** The functional experiments focus on only six genes, and the RNAPII ChIP-seq analysis appears to be genome-wide but the presentation of results is limited. The authors do not provide a genome-wide analysis of splicing changes associated with R-loop levels or U2AF1 redistribution. The proposed model would predict that genes with promoter R-loops and U2AF1-dependent splicing should show specific patterns of RNAPII distribution changes, but this is not systematically demonstrated.
+  - **Why it matters** The title and abstract imply a general mechanism for how promoter R-loops modulate splicing. Without genome-wide evidence linking R-loop levels, U2AF1 occupancy, RNAPII distribution, and splicing outcomes, the generalizability of the model is not established.
+  - **Resolution test** Provide genome-wide analysis integrating R-loop maps, U2AF1 ChIP-seq, RNAPII ChIP-seq, and splicing analysis to demonstrate that the proposed mechanism operates broadly across the genome.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Binding affinity measurements
+  - **Evidence pointer** Results section "U2AF1 Is a R-Loop-Binding Protein"
+  - **Issue** The Kd values are reported with standard deviations, but the number of independent replicates and the statistical tests used for comparisons are not stated.
+  - **Required correction** Specify the number of replicates and statistical methods used for binding affinity comparisons.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Control experiments
+  - **Affected element** Phase separation assays
+  - **Evidence pointer** Results section "R-Loop Binding Promotes the Phase Separation of U2AF1"
+  - **Issue** The phase separation experiments would benefit from additional controls, such as testing a non-RNA binding protein or a mutant U2AF1 that cannot bind nucleic acids, to confirm the specificity of the observed effects.
+  - **Required correction** Include additional negative controls in the phase separation experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** ChIP-seq datasets
+  - **Evidence pointer** Materials and Methods section "ChIP-qPCR and ChIP-seq"
+  - **Issue** The accession numbers for the newly generated ChIP-seq data are not provided.
+  - **Required correction** Provide data accession numbers for the ChIP-seq datasets generated in this study.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Quantification of microscopy data
+  - **Affected element** Cell-based phase separation experiments
+  - **Evidence pointer** Results section "R-Loop Binding Promotes the Phase Separation of U2AF1"
+  - **Issue** The quantification of foci or condensates in cells is not described. It is unclear how the authors determined that U2AF1 undergoes phase separation in cells versus simply forming aggregates.
+  - **Required correction** Provide quantitative analysis of the cell-based imaging data, including criteria for identifying phase-separated condensates.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation of RNAPII ChIP-seq
+  - **Affected element** RNAPII distribution analysis
+  - **Evidence pointer** Results section "U2AF1-Promoter R-Loop Interaction Enhances the Occupancy of RNA Polymerase II in Gene Promoters"
+  - **Issue** The metagene analysis shows changes in RNAPII distribution, but the authors do not discuss whether these changes are specific to genes with promoter R-loops or reflect global changes in transcription.
+  - **Required correction** Clarify whether the RNAPII distribution changes are specific to R-loop-containing genes and discuss potential confounding factors.
+- **Technical failings that need to be addressed before the case is established** The causal link between R-loop binding, phase separation, and splicing modulation is not directly demonstrated. The manuscript would be substantially strengthened by experiments that manipulate R-loop levels and directly measure splicing outcomes in a U2AF1-dependent manner. Additionally, the physiological relevance of the phase separation observations needs to be established with endogenous protein and under conditions that reflect cellular concentrations.
+
+## Risk / unsupported claims
+- The claim that U2AF1-R-loop interaction "modulates cotranscriptional pre-mRNA splicing" is not directly supported by functional splicing assays that link R-loop levels to splicing changes through U2AF1
+- The claim that phase separation of U2AF1 is relevant to its function in cells is not supported by experiments with endogenous protein or by demonstrating that disrupting phase separation affects splicing
+- The proposal that promoter R-loops act as a "molecular scaffold" for assembling splicing factors is speculative and not directly tested
+- The genome-wide significance of the proposed mechanism is not established, as the functional validation is limited to a small number of genes
+- The specificity of U2AF1 binding to R-loops versus other nucleic acid structures is not fully resolved, given that M4 mutants bind with similar affinity to G4 structures

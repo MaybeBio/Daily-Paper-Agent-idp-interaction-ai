@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.02.08.430344",
+  "title": "Energetic and structural features of SARS-CoV-2 N-protein co-assemblies with nucleic acids",
+  "authors": "Zhao H; Wu D; Nguyen A; Li Y; Adão RC; Valkov E; Patterson GH; Piszczek G; Schuck P",
+  "journal": "bioRxiv",
+  "published_date": "2021-02-09",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合生物物理实验研究SARS-CoV-2 N蛋白（含IDR）与核酸的共组装及相分离过程中的结构/能量变化，虽无AI/物理模拟方法，但聚焦IDR介导的凝聚体形成机制，对无序蛋白互作机制建模有直接参考价值。",
+  "abstract": "<h4>Summary</h4> Nucleocapsid (N) protein of the SARS-CoV-2 virus packages the viral genome into well-defined ribonucleoprotein particles, but the molecular pathway is still unclear. N-protein is dimeric and consists of two folded domains with nucleic acid (NA) binding sites, surrounded by intrinsically disordered regions that promote liquid-liquid phase separation. Here we use biophysical tools to study N-protein interactions with oligonucleotides of different length, examining the size, composition, secondary structure, and energetics of the resulting states. We observe formation of supramolecular clusters or nuclei preceding growth into phase-separated droplets. Short hexanucleotide NA forms compact 2:2 N-protein/NA complexes with reduced disorder. Longer oligonucleotides expose additional N-protein interactions and multi-valent protein-NA interactions, which generate higher-order mixed oligomers and simultaneously promote growth of droplets. Phase separation is accompanied by a significant increase in protein secondary structure, different from that caused by initial NA binding, which may contribute to the assembly of ribonucleoprotein particles within molecular condensates.",
+  "abstract_zh": "<h4>摘要</h4> SARS-CoV-2病毒的核衣壳（N）蛋白将病毒基因组包装成明确的核糖核蛋白颗粒，但分子途径仍不清楚。N蛋白为二聚体，包含两个具有核酸（NA）结合位点的折叠结构域，周围环绕着促进液-液相分离的内在无序区域。在此，我们利用生物物理工具研究N蛋白与不同长度寡核苷酸的相互作用，考察所得状态的大小、组成、二级结构及能量学特征。我们观察到超分子簇或核的形成先于相分离液滴的生长。短六核苷酸NA形成紧凑的2:2 N蛋白/NA复合物，无序性降低。较长寡核苷酸暴露额外的N蛋白相互作用和多价蛋白-NA相互作用，生成高阶混合寡聚体，并同时促进液滴生长。相分离伴随蛋白质二级结构的显著增加，这与初始NA结合引起的结构变化不同，可能有助于分子凝聚体内核糖核蛋白颗粒的组装。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.02.08.430344",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.02.08.430344",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.02.08.430344/index.html"
+}

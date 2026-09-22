@@ -1,0 +1,9 @@
+# Tightly Knotted Enzymes Inhibit Protein-Protein Aggregation
+
+
+## Abstract
+  Neurodegenerative diseases are closely linked to aberrant protein aggregation arising from failures in cellular proteostasis, yet the physical determinants governing transitions between soluble states, liquid–liquid phase separation (LLPS), and aggregation remain incompletely understood. Here, we investigate how protein backbone topology influences phase behavior using ubiquitin C-terminal hydrolase L1 (UCH-L1), a highly neuron-enriched deubiquitinase in the ubiquitin–proteasome system harboring a rare, evolutionarily conserved knotted backbone topology, and its Parkinson’s disease–associated I93M mutant. Through multiscale molecular dynamics (MD) simulations of single-chain and multichain systems, we show that knot integrity acts as a conformational constraint that limits access to expanded states, and suppresses LLPS propensity. Destabilization of the native knotted ensemble in I93M reshapes the conformational ensemble, enhancing intermolecular contacts, strengthening hydrophobic interaction, and reducing solvation penalties, thereby stabilizing protein-rich phases. Within condensates, these changes lead to persistent interchain contacts, increased topological entanglement, and slower relaxation dynamics, indicative of a transition toward viscoelastic assemblies, whereas intact topology maintains dynamic, liquid-like behavior. Our results identify topological integrity as a key physical determinant of protein phase behavior and establish a mechanistic link between topological stability and condensate material properties, with implications for aggregation-associated neurodegeneration.
+
+
+## Full Text Availability
+  The license terms selected by the author(s) for this preprint version do not permit archiving in PMC. The full text is available from the preprint server.

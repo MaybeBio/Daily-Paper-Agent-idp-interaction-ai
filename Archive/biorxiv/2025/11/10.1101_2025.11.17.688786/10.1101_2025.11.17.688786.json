@@ -1,0 +1,401 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.17.688786",
+  "title": "ProtAttn-QuadNet: An attention-based deep learning framework for protein–protein interaction prediction using ProtBERT embeddings",
+  "doi": "10.1101/2025.11.17.688786",
+  "abstract": "Protein–protein interactions (PPIs) form the backbone of most cellular processes, governing signal transduction, gene regulation, and metabolic control. However, experimental approaches to identifying PPIs remain expensive, laborious, and often incomplete. Recent advances in protein language models (PLMs) have transformed sequence-based PPI prediction by enabling deep contextual encoding of biochemical and structural information directly from amino acid sequences. Building upon this progress, we present ProtAttn-QuadNet, an attention-based deep learning framework that leverages ProtBERT embeddings to model reciprocal dependencies between protein pairs. The proposed model employs a quad-stream attention mechanism that integrates individual protein features, synergistic interactions, and complementary differences through multi-level self- and cross-attention layers. This architecture enables the discovery of fine-grained relational patterns while ensuring balanced bidirectional modeling of interacting proteins. Evaluated on large-scale dataset from UniProt, ProtAttn-QuadNet achieves 97.16% accuracy (AUC-ROC 99.00%) on balanced data and 99.19% accuracy (AUC-ROC 99.76%) on oversampled datasets, surpassing several recent state-of-the-art PPI prediction methods. Statistical validation using the Chi-square and Wilcoxon signed-rank tests confirms the model’s predictive significance and reliability. ProtAttn-QuadNet offers a powerful computational framework for large-scale PPI prediction. Author summary Proteins work together to carry out almost every function in living cells, from sending signals to controlling metabolism. Knowing which proteins interact with each other helps scientists understand how cells work and how diseases develop. However, finding these interactions in the laboratory is often slow, costly, and incomplete. In this study, a computational model called ProtAttn-QuadNet is developed to predict protein–protein interactions using only the amino acid sequences of proteins. The model analyses each pair of proteins to find shared features and differences that indicate whether they interact. It also uses a set of attention layers that allow the model to focus on the most relevant sequence patterns. When tested on a large protein dataset, ProtAttn-QuadNet produced highly accurate and consistent results, performing better than several existing methods. These results suggest that ProtAttn-QuadNet can serve as a reliable tool for studying protein networks and may help guide future research in biology, medicine, and drug development.",
+  "authors": [
+    "Md. Shahidul Islam",
+    "Md. Muhtasim Rahman Mim",
+    "Md. Raihan Kabir"
+  ],
+  "published_date": "2025-11-17",
+  "updated_date": "2025-11-18T00:55:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688786",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688786.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T02:05:19Z",
+        "timestamp": 1768529119769,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 30,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                17
+              ]
+            ],
+            "date-time": "2025-11-17T00:00:00Z",
+            "timestamp": 1763337600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Protein–protein interactions (PPIs) form the backbone of most cellular processes, governing signal transduction, gene regulation, and metabolic control. However, experimental approaches to identifying PPIs remain expensive, laborious, and often incomplete. Recent advances in protein language models (PLMs) have transformed sequence-based PPI prediction by enabling deep contextual encoding of biochemical and structural information directly from amino acid sequences. Building upon this progress, we present ProtAttn-QuadNet, an attention-based deep learning framework that leverages ProtBERT embeddings to model reciprocal dependencies between protein pairs. The proposed model employs a quad-stream attention mechanism that integrates individual protein features, synergistic interactions, and complementary differences through multi-level self- and cross-attention layers. This architecture enables the discovery of fine-grained relational patterns while ensuring balanced bidirectional modeling of interacting proteins. Evaluated on large-scale dataset from UniProt, ProtAttn-QuadNet achieves 97.16% accuracy (AUC-ROC 99.00%) on balanced data and 99.19% accuracy (AUC-ROC 99.76%) on oversampled datasets, surpassing several recent state-of-the-art PPI prediction methods. Statistical validation using the Chi-square and Wilcoxon signed-rank tests confirms the model’s predictive significance and reliability. ProtAttn-QuadNet offers a powerful computational framework for large-scale PPI prediction.</jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>Proteins work together to carry out almost every function in living cells, from sending signals to controlling metabolism. Knowing which proteins interact with each other helps scientists understand how cells work and how diseases develop. However, finding these interactions in the laboratory is often slow, costly, and incomplete. In this study, a computational model called ProtAttn-QuadNet is developed to predict protein–protein interactions using only the amino acid sequences of proteins. The model analyses each pair of proteins to find shared features and differences that indicate whether they interact. It also uses a set of attention layers that allow the model to focus on the most relevant sequence patterns. When tested on a large protein dataset, ProtAttn-QuadNet produced highly accurate and consistent results, performing better than several existing methods. These results suggest that ProtAttn-QuadNet can serve as a reliable tool for studying protein networks and may help guide future research in biology, medicine, and drug development.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2025.11.17.688786",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            18
+          ]
+        ],
+        "date-time": "2025-11-18T00:55:11Z",
+        "timestamp": 1763427311000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "ProtAttn-QuadNet: An attention-based deep learning framework for protein–protein interaction prediction using ProtBERT embeddings"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1159-8688",
+          "authenticated-orcid": false,
+          "given": "Md. Shahidul",
+          "family": "Islam",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Md. Muhtasim",
+          "family": "Rahman Mim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Md. Raihan",
+          "family": "Kabir",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2005.08.029"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35001009"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules28135169"
+        },
+        {
+          "issue": "1",
+          "key": "2025111903051526000_2025.11.17.688786v1.4",
+          "first-page": "17",
+          "article-title": "Protein-protein interaction networks (PPI) and complex diseases",
+          "volume": "7",
+          "year": "2014",
+          "journal-title": "Gastroenterology and Hepatology from bed to bench"
+        },
+        {
+          "issue": "10",
+          "key": "2025111903051526000_2025.11.17.688786v1.5",
+          "first-page": "7112",
+          "article-title": "Prottrans: Toward understanding the language of life through self-supervised learning",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+        },
+        {
+          "issue": "1",
+          "key": "2025111903051526000_2025.11.17.688786v1.6",
+          "first-page": "147648",
+          "article-title": "Protein-protein interaction detection: methods and analysis",
+          "volume": "2014",
+          "year": "2014",
+          "journal-title": "International journal of proteomics"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn159"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhou YZ , Gao Y , Zheng YY . Prediction of protein-protein interactions using local description of amino acid sequence. In: Advances in Computer Science and Education Applications: International Conference, CSE 2011, Qingdao, China, July 9-10, 2011. Proceedings, Part II. Springer; 2011. p. 254–262.",
+          "DOI": "10.1007/978-3-642-22456-0_37"
+        },
+        {
+          "issue": "1",
+          "key": "2025111903051526000_2025.11.17.688786v1.9",
+          "first-page": "155",
+          "article-title": "Extracting coevolutionary features from protein sequences for predicting protein-protein interactions",
+          "volume": "14",
+          "year": "2016",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2025111903051526000_2025.11.17.688786v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "398",
+          "DOI": "10.1186/s12859-016-1253-9",
+          "article-title": "Predicting protein-protein interactions via multivariate mutual information of protein sequences",
+          "volume": "17",
+          "year": "2016",
+          "journal-title": "BMC bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2025111903051526000_2025.11.17.688786v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "e62",
+          "DOI": "10.1002/cpps.62",
+          "article-title": "Computational methods for predicting protein-protein interactions using various protein features",
+          "volume": "93",
+          "year": "2018",
+          "journal-title": "Current protocols in protein science"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty535"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti443"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2748",
+          "DOI": "10.7717/peerj-cs.2748",
+          "article-title": "Protein-protein interaction prediction using enhanced features with spaced conjoint triad and amino acid pairwise distance",
+          "volume": "11",
+          "year": "2025",
+          "journal-title": "PeerJ Computer Science"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2006.02.002"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00028"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty573"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz328"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-023-05594-5"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac020"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-024-05725-6"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae359"
+        },
+        {
+          "issue": "1",
+          "key": "2025111903051526000_2025.11.17.688786v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "116",
+          "DOI": "10.1186/s12859-025-06123-2",
+          "article-title": "PPI-Graphomer: enhanced protein-protein affinity prediction using pretrained and graph transformer models",
+          "volume": "26",
+          "year": "2025",
+          "journal-title": "BMC bioinformatics"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku989"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Asim MN , Ibrahim MA , Malik MI , Dengel A , Ahmed S. ADH-PPI: An attention-based deep hybrid model for protein-protein interaction prediction. Iscience. 2022;25(10).",
+          "DOI": "10.1016/j.isci.2022.105169"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhao Z , Qian P , Yang X , Zeng Z , Guan C , Tam WL , et al. Semignn-ppi: Self-ensembling multi-graph neural network for efficient and generalizable protein-protein interaction prediction. arXiv preprint arXiv:230508316. 2023;.",
+          "DOI": "10.24963/ijcai.2023/554"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang Z , Wang Z , Zhao L , Wang J , Wang C. Multimodal Contrastive Learning for Protein–Protein Interaction Inhibitor Prediction. In: 2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). IEEE; 2024. p. 1327–1333.",
+          "DOI": "10.1109/BIBM62325.2024.10822227"
+        },
+        {
+          "issue": "1",
+          "key": "2025111903051526000_2025.11.17.688786v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "236",
+          "DOI": "10.1186/s12915-025-02359-9",
+          "article-title": "Prediction of protein–protein interaction based on interaction-specific learning and hierarchical information",
+          "volume": "23",
+          "year": "2025",
+          "journal-title": "BMC biology"
+        },
+        {
+          "key": "2025111903051526000_2025.11.17.688786v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5555/1953048.2078195"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.11.17.688786",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T10:02:24Z",
+        "timestamp": 1768471344000
+      },
+      "score": 66.864624,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.11.17.688786"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ]
+      },
+      "references-count": 30,
+      "URL": "https://doi.org/10.1101/2025.11.17.688786",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "identity": {
+    "pmid": "38108299",
+    "doi": "10.1021/acs.jpcb.3c07654",
+    "title": "Correction to \"Analytical Formulation and Field-Theoretic Simulation of Sequence-Specific Phase Separation of Protein-Like Heteropolymers with Short- and Long-Spatial-Range Interactions\"."
+  },
+  "content": {
+    "abstract": "",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Published Erratum"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wessen, Jonas",
+        "Das, Suman",
+        "Pal, Tanmoy",
+        "Chan, Hue Sun"
+      ],
+      "short_names": [
+        "Wessen J",
+        "Das S",
+        "Pal T",
+        "Chan HS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2557-8709",
+        "ORCID: 0000-0002-1381-923X"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Wessén, Jonas",
+        "short_name": "Wessén J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Das, Suman",
+        "short_name": "Das S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Pal, Tanmoy",
+        "short_name": "Pal T",
+        "identifiers": [
+          "0000-0003-2557-8709"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chan, Hue Sun",
+        "short_name": "Chan HS",
+        "identifiers": [
+          "0000-0002-1381-923X"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2023 Dec 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Published Erratum"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/18 12:42",
+    "fetched_at": "2026-09-21 03:36:09"
+  },
+  "links": {
+    "cites": [
+      "40028898"
+    ],
+    "refs": [],
+    "similar": [
+      "38108299",
+      "36343363",
+      "36227467",
+      "28338151",
+      "33629837",
+      "25494740",
+      "15268153",
+      "24689358",
+      "36227468",
+      "35597632",
+      "9218957",
+      "26237070",
+      "9348663",
+      "17358153",
+      "37377157",
+      "20095660",
+      "12833265",
+      "30950394",
+      "20925359",
+      "36736121",
+      "22260612",
+      "30873835",
+      "33069007",
+      "29531260",
+      "36703474",
+      "34266260",
+      "29590071",
+      "15267512",
+      "30769132",
+      "7568020",
+      "36563254",
+      "34585714",
+      "37464654",
+      "22404189",
+      "28694466",
+      "21029774",
+      "15903458",
+      "30948640",
+      "35471906",
+      "33220073",
+      "33555894",
+      "34352244",
+      "36993212",
+      "30918892",
+      "11088925",
+      "11440185",
+      "27797100",
+      "17929971",
+      "28665666",
+      "35705412",
+      "11308684",
+      "22587062",
+      "32709342",
+      "36141168",
+      "30555907",
+      "15032516",
+      "19695282",
+      "35533203",
+      "15169504",
+      "25556561",
+      "429100",
+      "24952506",
+      "12059650",
+      "9539732",
+      "17155776",
+      "12935060",
+      "33441794",
+      "3435719",
+      "37815389",
+      "36380169",
+      "37873956",
+      "24116516",
+      "31962425",
+      "26671398",
+      "33412047",
+      "32680236",
+      "29347079",
+      "36638823",
+      "29961577",
+      "27914418",
+      "17904862",
+      "19894803",
+      "18554054",
+      "34653387",
+      "16543276",
+      "31297868",
+      "26825128",
+      "32151413",
+      "27017836"
+    ],
+    "review": [
+      "38108299",
+      "9348663",
+      "33069007",
+      "36141168",
+      "19695282",
+      "32680236"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.3c07654",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

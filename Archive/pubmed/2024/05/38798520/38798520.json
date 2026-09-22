@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "38798520",
+    "doi": "10.1101/2024.05.12.593783",
+    "title": "A novel motif in calcimembrin/C16orf74 dictates multimeric dephosphorylation by calcineurin."
+  },
+  "content": {
+    "abstract": "Calcineurin, the Ca (2+) /calmodulin-activated protein phosphatase, recognizes substrates and regulators via short linear motifs, PxIxIT and LxVP, which dock to distinct sites on calcineurin to determine enzyme distribution and catalysis, respectively. Calcimembrin/C16orf74 (CLMB), an intrinsically disordered microprotein whose expression correlates with poor cancer outcomes, targets calcineurin to membranes where it may promote oncogenesis by shaping calcineurin signaling. We show that CLMB associates with membranes via lipidation, i.e. N-myristoylation and reversible S-acylation. Furthermore, CLMB contains an unusual composite 'LxVPxIxIT' motif, that binds the PxIxIT-docking site on calcineurin with extraordinarily high affinity when phosphorylated, (33) LDVPDIIITPP(p)T (44) . Calcineurin dephosphorylates CLMB to decrease this affinity, but Thr44 is protected from dephosphorylation when PxIxIT-bound. We propose that CLMB is dephosphorylated in multimeric complexes, where one PxIxIT-bound CLMB recruits calcineurin to membranes, allowing a second CLMB to engage via its LxVP motif to be dephosphorylated. In vivo and in vitro data, including nuclear magnetic resonance (NMR) analyses of CLMB-calcineurin complexes, support this model. Thus, CLMB with its composite motif imposes unique properties to calcineurin signaling at membranes including sensitivity to CLMB:calcineurin ratios, CLMB phosphorylation and dynamic S-acylation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bradburn, Devin A",
+        "Reis, Joana C",
+        "Moreno, R Yvette",
+        "Qayyum, Shariq",
+        "Viennet, Thibault",
+        "Arthanari, Haribabu",
+        "Cyert, Martha S"
+      ],
+      "short_names": [
+        "Bradburn DA",
+        "Reis JC",
+        "Moreno RY",
+        "Qayyum S",
+        "Viennet T",
+        "Arthanari H",
+        "Cyert MS"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-4465-6255",
+        "ORCID: 0000-0003-3124-4377",
+        "ORCID: 0000-0001-5349-0179",
+        "ORCID: 0000-0002-7281-1289",
+        "ORCID: 0000-0003-3825-7437"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Bradburn, Devin A",
+        "short_name": "Bradburn DA",
+        "identifiers": [
+          "0009-0003-4465-6255"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Reis, Joana C",
+        "short_name": "Reis JC",
+        "identifiers": [
+          "0000-0003-3124-4377"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Moreno, R Yvette",
+        "short_name": "Moreno RY",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Qayyum, Shariq",
+        "short_name": "Qayyum S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Viennet, Thibault",
+        "short_name": "Viennet T",
+        "identifiers": [
+          "0000-0001-5349-0179"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Arthanari, Haribabu",
+        "short_name": "Arthanari H",
+        "identifiers": [
+          "0000-0002-7281-1289"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Cyert, Martha S",
+        "short_name": "Cyert MS",
+        "identifiers": [
+          "0000-0003-3825-7437"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/27 06:44",
+    "fetched_at": "2026-09-21 07:30:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38798520",
+      "41224739",
+      "16407284",
+      "19285944",
+      "31633908",
+      "32645368",
+      "17386265",
+      "26106221",
+      "23486469",
+      "31941790",
+      "17502104",
+      "24954618",
+      "17498738",
+      "24930733",
+      "35218735",
+      "19996458",
+      "7508382",
+      "23732701",
+      "12601010",
+      "2546935",
+      "16738335",
+      "36191737",
+      "38001892",
+      "35697294",
+      "30404891",
+      "15189990",
+      "25202008",
+      "27109380",
+      "11877380",
+      "19273587",
+      "19332797",
+      "7727417",
+      "22869619",
+      "29555327",
+      "10861750",
+      "15364589",
+      "37013443",
+      "28842480",
+      "16569637",
+      "11328597",
+      "27974827",
+      "7864622",
+      "19189965",
+      "9635276",
+      "8576111",
+      "23115171",
+      "9727000",
+      "16148011",
+      "26864964",
+      "35550603",
+      "21447388",
+      "27911714",
+      "33482473",
+      "22343722",
+      "25821446",
+      "36525928",
+      "1688057",
+      "34894973",
+      "2550447",
+      "21730063",
+      "17694572",
+      "11279262",
+      "28890387",
+      "15123671",
+      "11467941",
+      "40355556",
+      "28077617",
+      "21689596",
+      "21945277",
+      "25209144",
+      "8985861",
+      "22688515",
+      "11588168",
+      "41504448",
+      "40583197",
+      "7787767",
+      "23990785",
+      "21084295",
+      "3023342",
+      "16511445",
+      "2987415",
+      "35640493",
+      "9121455",
+      "23799035",
+      "2842800",
+      "8663324",
+      "35163061",
+      "23468591",
+      "34443374",
+      "21199863",
+      "28554535",
+      "1373650",
+      "6330098",
+      "30718414",
+      "28716922",
+      "19608982",
+      "10866678",
+      "21287611",
+      "12065642",
+      "31483613"
+    ],
+    "review": [
+      "38798520",
+      "19996458",
+      "36191737",
+      "9635276",
+      "27911714",
+      "1688057"
+    ],
+    "pmc": [
+      "11118366"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38798520/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.05.12.593783",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

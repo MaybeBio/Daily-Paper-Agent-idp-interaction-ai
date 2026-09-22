@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusions, availability, supplementary methods) as provided.
+- **Assessment boundary** Scientific and technical soundness of the claims as supported by the provided text. No code execution, no reproduction of experiments, no access to supplementary figures or tables beyond what is described.
+- **Shared manuscript claim summary** The authors present DeepRank-GNN-esm, a graph neural network that replaces computationally expensive PSSM features with ESM-2 protein language model embeddings for scoring protein-protein interaction models. They claim equivalent or improved performance on two tasks (docking pose scoring and crystal artifact detection) and a substantial speedup in feature generation.
+- **Visible evidence base** Abstract, introduction, methods (datasets, graph generation, model training), results (cross-validation, independent test sets, comparison with other methods), conclusions, availability statement, and two supplementary method descriptions. References to figures and tables are present but the figures and tables themselves are not included in the provided material.
+- **Missing materials affecting confidence** All figures (Figure 1, Figure 2), all tables (Table 1-4), all supplementary figures (S1-S6) and supplementary tables (S1, S2) are referenced but not provided. The exact hyperparameters, architecture details, and training configurations beyond those stated are not fully specified. The code repository is not inspected.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a practical limitation of the previously published DeepRank-GNN method by replacing PSSM features with ESM-2 embeddings. The motivation is clear and the potential impact on usability is real. However, the evidence presented in the text is insufficient to fully evaluate the central claims. Key performance comparisons are described qualitatively or with single metrics, and the absence of the actual figures and tables prevents verification of statistical significance, variance, and case-level behavior. The claim of "no cost in performance" is supported by selected metrics but the robustness of this conclusion across all evaluated scenarios is not fully demonstrated from the provided material.
+- **Who would be interested in the results, and why** Researchers in computational structural biology, specifically those working on protein-protein docking, model scoring, and interface prediction. Practitioners who use DeepRank-GNN and find PSSM generation a bottleneck would be directly interested. The work may also appeal to those exploring applications of protein language model embeddings beyond structure prediction, such as in scoring functions or interface classification.
+- **Major strengths** The problem addressed is real and well articulated. The proposed solution is simple and practical, leveraging a readily available pre-trained model. The evaluation covers two distinct tasks and includes comparison with several existing methods. The claim of a 100-fold speedup in feature generation is compelling and directly addresses the stated limitation. The software is made freely available.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "DeepRank-GNN-esm-pssm model has the highest AUC (0.95) during training" and "DeepRank-GNN-esm model demonstrated superiority over the original DeepRank-GNN model, with a 7.43% increase in recall and a 7.04% increase in MCC"
+  - **Evidence pointer** Section 3.1, Section 3.2, Table 2, Figure 1, Figure 2, location not provided
+  - **Concern** The central performance claims are presented without the actual data. Table 2 is referenced but not shown, so the reader cannot assess the variance, the number of test cases, or the statistical significance of the reported improvements. The AUC values for the independent test set are mentioned in the text but the corresponding figure (Figure 1) is not available. The per-complex AUC comparison in Figure 2 is described but the figure is missing. Without these data, the claim that ESM embeddings can substitute PSSMs "at no cost in performance" cannot be verified.
+  - **Why it matters** The core contribution of the paper is the demonstration that a cheaper feature set performs as well or better than an expensive one. This claim rests entirely on the comparative performance data. If the data are not available for inspection, the central conclusion is not established.
+  - **Resolution test** Provide the actual figures and tables with full numerical results, including per-complex breakdowns, standard deviations, and statistical tests (e.g., paired tests across complexes) to support the claim of equivalent or improved performance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Generating a single PSSM profile requires a non-redundant protein database of 176GB and takes approximately two hours when computed on a single core. In contrast, generating ESM-2 embeddings for the same sequence only requires a pre-trained model of 2.5GB size and takes approximately 5 seconds."
+  - **Evidence pointer** Section 3.3, Supplementary Table S2, location not provided
+  - **Concern** The speed comparison is presented as a key advantage, but the methodology for this benchmark is not described. It is unclear what hardware was used, whether the PSSM generation time includes database search or only matrix computation, whether the ESM-2 time includes model loading or only inference, and how many sequences were averaged. The reference to Supplementary Table S2 is insufficient without the table and the associated methods.
+  - **Why it matters** The usability argument is a major selling point of the paper. If the speed comparison is not rigorously benchmarked, the practical benefit is overstated.
+  - **Resolution test** Provide a detailed description of the benchmarking setup, including hardware, software versions, sequence length, and whether times are averaged over multiple runs. Include the full data in Supplementary Table S2.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "This new DeepRank version bypasses thus the need of generating PSSM, greatly improving the usability of the software and opening new application opportunities for systems for which PSSM profiles cannot be obtained or are irrelevant (e.g. antibody-antigen complexes)."
+  - **Evidence pointer** Section 1, Section 3.2, location not provided
+  - **Concern** The claim that ESM embeddings are applicable to systems where PSSMs are "irrelevant" (e.g., antibody-antigen complexes) is not tested. The BM5 dataset explicitly excludes antibody-antigen complexes. No experiment on such systems is presented. The claim is therefore speculative.
+  - **Why it matters** The stated new application opportunities are part of the motivation. Without any evidence on such systems, this part of the claim is unsupported.
+  - **Resolution test** Either add experiments on antibody-antigen or other PSSM-limited systems, or temper the claim to state this as a potential direction rather than an established benefit.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, "EMS-2 model" typo
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract contains a typo, "EMS-2" instead of "ESM-2".
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.3, model training details
+  - **Evidence pointer** Section 2.3, location not provided
+  - **Issue** The training procedure is described briefly. The number of parameters, the exact architecture (number of layers, hidden dimensions), the split of the 128 complexes into training and evaluation sets (80/20), and the random seed are not specified. The statement "we randomly divided" is not sufficient for reproduction.
+  - **Required correction** Provide full architecture details, hyperparameters, and the random seed used for data splitting.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 3.1, cross-validation results
+  - **Evidence pointer** Section 3.1, Supplementary Figure S1, location not provided
+  - **Issue** The cross-validation AUC is reported as 0.639±0.054. It is unclear whether this is the mean over folds of the evaluation set AUC, and whether the standard deviation is across folds. The text does not clarify the relationship between the cross-validation performance and the final model performance.
+  - **Required correction** Clarify the reporting of cross-validation results and how they relate to the final model selection.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.2, comparison with other methods
+  - **Evidence pointer** Section 3.2, Table 3, location not provided
+  - **Issue** The comparison with other methods (DeepRank, GNN-DOVE, HADDOCK, iScore, GOAP) is presented in Table 3, which is not provided. The text mentions "per-complex success rate" but does not define the threshold for "near-native" in this context.
+  - **Required correction** Define the near-native threshold and provide the full comparison table.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Section 3.2, "in par with"
+  - **Evidence pointer** Section 3.2, location not provided
+  - **Issue** The phrase "in par with" should be "on par with".
+  - **Required correction** Correct the phrasing.
+
+## Risk / unsupported claims
+- The claim that ESM-2 embeddings can substitute PSSM features "at no cost in performance" is not fully supported without the actual performance data (Table 2, Figures 1 and 2).
+- The claim of "more than 100-fold increase in efficiency" is not verifiable without the benchmarking methodology and data (Supplementary Table S2).
+- The claim that the method opens new application opportunities for antibody-antigen complexes is speculative and not tested.
+- The statement "DeepRank-GNN-esm is the first method to apply protein language models in graph neural networks for protein-protein models evaluation tasks" is a novelty claim that cannot be verified from the provided material alone.
+- The claim that combining PSSMs and ESM embeddings leads to "improvement in overall scoring performance" is based on a single comparison (Table 2) and is not statistically validated in the text.

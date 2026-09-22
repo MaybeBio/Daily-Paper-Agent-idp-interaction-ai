@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.10.557742",
+  "title": "Interface-aware molecular generative framework for protein-protein interaction modulators",
+  "authors": "Jianmin Wang; Jiashun Mao; Chunyan Li; Hongxin Xiang; Xun Wang; Shuang Wang; Zixu Wang; Yangyang Chen; Yuquan Li; Kyoung Tai No; Tao Song; Xiangxiang Zeng",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-10",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出面向PPI界面的分子生成框架GENiPPI，用AI生成靶向PPI界面的调节剂，虽对象非IDP且未涉及相分离，但PPI界面建模与生成方法对无序蛋白介导互作的机制建模有可迁移启发。",
+  "abstract": "Protein-protein interactions (PPIs) play a crucial role in numerous biochemical and biological processes. Although several structure-based molecular generative models have been developed, PPI interfaces and compounds targeting PPIs exhibit distinct physicochemical properties compared to traditional binding pockets and small-molecule drugs. As a result, generating compounds that effectively target PPIs, particularly by considering PPI complexes or interface hotspot residues, remains a significant challenge. In this work, we constructed a comprehensive dataset of PPI interfaces with active and inactive compound pairs. Based on this, we propose a novel molecular generative framework tailored to PPI interfaces, named GENiPPI. Our evaluation demonstrates that GENiPPI captures the implicit relationships between the PPI interfaces and the active molecules, and can generate novel compounds that target these interfaces. Moreover, GENiPPI can generate structurally diverse novel compounds with limited PPI interface modulators. To the best of our knowledge, this is the first exploration of a structure-based molecular generative model focused on PPI interfaces, which could facilitate the design of PPI modulators. The PPI interface-based molecular generative model enriches the existing landscape of structure-based (pocket/interface) molecular generative model.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）在众多生物化学和生物学过程中扮演着关键角色。尽管已开发出多种基于结构的分子生成模型，但PPI界面及靶向PPIs的化合物与传统结合口袋和小分子药物相比，展现出独特的物理化学性质。因此，生成有效靶向PPIs的化合物，特别是通过考虑PPI复合物或界面热点残基，仍是一项重大挑战。在本研究中，我们构建了一个包含活性与失活化合物对的PPI界面综合数据集。基于此，我们提出了一种针对PPI界面的新型分子生成框架，命名为GENiPPI。我们的评估表明，GENiPPI能够捕捉PPI界面与活性分子之间的隐含关系，并能生成靶向这些界面的新型化合物。此外，GENiPPI能在有限的PPI界面调节剂条件下，生成结构多样的新型化合物。据我们所知，这是首次探索专注于PPI界面的基于结构的分子生成模型，这可能有助于PPI调节剂的设计。基于PPI界面的分子生成模型丰富了现有基于结构（口袋/界面）的分子生成模型领域。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.10.557742",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.10.557742",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.10.557742/index.html"
+}

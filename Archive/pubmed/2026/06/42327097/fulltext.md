@@ -1,0 +1,9 @@
+# MOFF2: A Transferable Coarse-Grained Protein Force Field for Predictive Condensate Simulations
+
+
+## Abstract
+  Coarse-grained protein force fields enable simulations of biomolecular systems at length and time scales that are difficult to access with atomistic models, but achieving transferability across folded, intrinsically disordered, and multidomain proteins remains challenging. A central difficulty is that one-bead-per-residue models must represent chemically specific residue interactions while also absorbing solvent-mediated and many-body effects into a simplified energy function. Here, we present MOFF2, a transferable coarse-grained protein force field that combines residue-pair-specific interactions with a density-dependent many-body potential. MOFF2 is optimized using a two-stage strategy: bottom-up parameter learning from heterogeneous reference ensembles followed by refinement against experimental conformational observables. The resulting model provides balanced performance across ordered proteins, intrinsically disordered proteins, and multidomain proteins, and predicts condensate saturation-concentration trends for A1-LCD variant systems. Analysis of the learned parameters reveals chemically interpretable interaction patterns and density-dependent effects that explain the model’s improved transferability. These results demonstrate that combining a generalized coarse-grained energy function with data-driven optimization can produce a practical and interpretable force field for protein conformational and condensate simulations.
+
+
+## Full Text Availability
+  The license terms selected by the author(s) for this preprint version do not permit archiving in PMC. The full text is available from the preprint server.

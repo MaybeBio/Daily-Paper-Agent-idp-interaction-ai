@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38942776",
+  "title": "Intrinsically Disordered Membrane Anchors of Rheb, RhoA, and DiRas3 Small GTPases: Molecular Dynamics, Membrane Organization, and Interactions.",
+  "authors": "Hutchins, Chase M; Gorfe, Alemayehu A",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2024-06-29",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用原子级分子动力学模拟研究Rheb、RhoA和DiRas3三种小GTP酶无序膜锚定区与膜的相互作用、构象动态及脂质分选，虽对象为IDR-膜互作而非典型PPI，但无序蛋白构象机制建模方法对本课题有直接借鉴价值。",
+  "abstract": "Protein structure has been well established to play a key role in determining function; however, intrinsically disordered proteins and regions (IDPs and IDRs) defy this paradigm. IDPs and IDRs exist as an ensemble of structures rather than a stable 3D structure yet play essential roles in many cell-signaling processes. Nearly all Ras superfamily GTPases are tethered to membranes by a lipid tail at the end of a flexible IDR. The sequence of the IDR is a key determinant of membrane localization, and interaction between the IDR and the membrane has been shown to affect signaling in RAS proteins through the modulation of dynamic membrane organization. Here, we utilized atomistic molecular dynamics simulations to study the membrane interaction, conformational dynamics, and lipid sorting of three IDRs from small GTPases Rheb, RhoA, and DiRas3 in model membranes representing their physiological target membranes. We found that complementarity between the lipidated IDR sequence and target membrane lipid composition is a determinant of conformational plasticity. We also show that electrostatic interactions between anionic lipids and basic residues on IDRs are correlated with sampling of semistable conformational substates, and lack of these interactions is associated with greater conformational diversity. Finally, we show that small GTPase IDRs with a polybasic domain alter local lipid composition by segregating anionic lipids and, in some cases, excluding other lipids from their immediate vicinity in favor of anionic lipids.",
+  "abstract_zh": "蛋白质结构已被充分证明在决定功能中发挥关键作用；然而， intrinsically disordered proteins and regions (IDPs and IDRs) 违背了这一范式。IDPs 和 IDRs 以结构集合体的形式存在，而非稳定的三维结构，却在许多细胞信号传导过程中发挥重要作用。几乎所有 Ras 超家族 GTPases 都通过柔性 IDR 末端的脂质尾部锚定在膜上。IDR 的序列是膜定位的关键决定因素，且 IDR 与膜之间的相互作用已被证明通过调节动态膜组织来影响 RAS 蛋白中的信号传导。在此，我们利用原子级分子动力学 (molecular dynamics) 模拟，研究了来自小 GTPases Rheb、RhoA 和 DiRas3 的三个 IDRs 在代表其生理靶膜的模型膜中的膜相互作用、构象动力学和脂质分选。我们发现，脂化 IDR 序列与靶膜脂质组成之间的互补性是构象可塑性的决定因素。我们还表明，阴离子脂质与 IDRs 上碱性残基之间的静电相互作用与半稳定构象亚态的采样相关，而缺乏这些相互作用则与更大的构象多样性相关。最后，我们证明，具有多碱基结构域的小 GTPase IDRs 通过分离阴离子脂质来改变局部脂质组成，并在某些情况下，将其他脂质从其直接邻近区域排除，以利于阴离子脂质。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38942776/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38942776/",
+  "paper_page_path": "papers/pubmed/38942776/index.html"
+}

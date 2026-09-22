@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided by the author.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the supplied text. No supplementary figures or tables were provided for independent verification.
+- **Shared manuscript claim summary** The authors report tissue- and development-specific expression of novel RAPGEF1 (C3G) splice isoforms containing cassette exons 12-14 in adult mouse tissues, particularly brain, heart, testis, and skeletal muscle. They report isoform switching during myoblast and embryonic stem cell differentiation, and use in silico structural and docking analyses to propose that these isoforms adopt autoinhibited conformations with altered RAP1A binding.
+- **Visible evidence base** RT-PCR data (Figures 1-3), western blot of a GFP-fusion protein (Figure 4C), AlphaFold-based structural analysis (Figure 5), and LZerD docking predictions (Figure 6). Supplementary figures and tables are referenced but not provided.
+- **Missing materials affecting confidence** Supplementary figures (S1-S6), Table 1, Table S1, primer sequences, raw gel images, RNA-seq analysis details, and quantitative data. No statistical analysis is presented.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question regarding the expression and potential regulatory function of alternatively spliced RAPGEF1 isoforms. The RT-PCR data appear to support tissue-specific expression of novel isoforms, and the differentiation experiments are conceptually interesting. However, the study is largely descriptive, and the structural and docking conclusions are based on computational predictions without experimental validation. The absence of quantitative data, statistical analysis, and protein-level evidence for endogenous isoforms substantially weakens the central claims. The manuscript would benefit from a more focused presentation and additional experimental support.
+- **Who would be interested in the results, and why** Researchers studying RAPGEF1/C3G signaling, alternative splicing in development and differentiation, and the role of intrinsically disordered regions in protein regulation. The findings may also be of interest to those investigating isoform-specific functions of signaling proteins in post-mitotic tissues.
+- **Major strengths** The study addresses a gap in knowledge regarding RAPGEF1 isoform expression. The use of exon-junction-specific PCR is appropriate for detecting splice variants. The observation of isoform switching during differentiation in two independent models (C2C12 and mESC) is a notable finding. The identification of a serine-rich disordered region with predicted phosphorylation sites provides a plausible regulatory mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim tissue-specific expression of novel RAPGEF1 isoforms containing cassette exons 12-14 in adult mouse tissues.
+  - **Evidence pointer** Figure 1E, 1F; Figure 2A-C; location not provided
+  - **Concern** The RT-PCR data are presented as representative gel images without quantification, replication numbers, or statistical analysis. The claim of tissue-specific expression relies on qualitative band intensity differences. No loading controls beyond GAPDH are shown for the isoform-specific PCRs, and the dynamic range and linearity of the PCR assay are not established. The authors state PCR was performed under "saturating conditions of 35 cycles," which compromises the ability to draw quantitative conclusions about relative isoform abundance.
+  - **Why it matters** The central claim of the manuscript is that specific isoforms are expressed in a tissue- and development-specific manner. Without quantitative or semi-quantitative data with appropriate replication, the specificity and reproducibility of these patterns cannot be assessed. This weakens the foundation for all subsequent conclusions.
+  - **Resolution test** Provide quantification of band intensities from at least three independent biological replicates, with statistical comparison across tissues and developmental stages. Demonstrate that the PCR assay is within a linear amplification range for the targets of interest. Include appropriate negative controls and confirm isoform identity by sequencing all detected bands.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that isoform switching occurs during differentiation of C2C12 myoblasts and mouse embryonic stem cells.
+  - **Evidence pointer** Figure 3A, 3B; location not provided
+  - **Concern** The differentiation experiments are described qualitatively. No time-course quantification is provided, and the distinction between isoform switching and changes in total RAPGEF1 expression is not clearly separated. For the mESC experiment, the authors state that "a gradual increase in the transcript with incorporation of exon 14" was observed, but no quantification or statistical analysis is shown. The claim that this is specific to differentiation rather than general cellular stress or culture conditions is not rigorously tested.
+  - **Why it matters** The differentiation-associated isoform switching is a key finding that links the expression data to a functional context. If this is not robustly demonstrated, the developmental relevance of the isoforms remains speculative.
+  - **Resolution test** Quantify isoform-specific transcripts by qRT-PCR or digital PCR across a differentiation time course with at least three biological replicates. Include appropriate controls for proliferation arrest (e.g., serum starvation, contact inhibition) as already partially described, but with quantitative comparison. Show that the observed changes are statistically significant and specific to the differentiation program.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the amino acids encoded by cassette exons 12-14 form an intrinsically disordered, serine-rich region that is phosphorylated.
+  - **Evidence pointer** Figure 4A-C; location not provided
+  - **Concern** The phosphorylation claim is based solely on a mobility shift of a GFP-fusion protein expressed in HEK293T cells in the presence of phosphatase inhibitors. This is indirect evidence. The authors did not identify specific phosphorylated residues, use phospho-specific antibodies, perform mass spectrometry, or mutate predicted phosphorylation sites to confirm their contribution to the mobility shift. The claim that the region is phosphorylated by specific kinases (PKC, CKII, GSK3β, Cdk5, DNA-PK) is purely predictive and not experimentally tested.
+  - **Why it matters** Phosphorylation of the disordered region is proposed as a regulatory mechanism. Without direct evidence of phosphorylation on endogenous protein or at least on the fusion protein with site-specific mutagenesis, this claim is not established.
+  - **Resolution test** Perform mass spectrometry on the fusion protein to identify phosphorylated residues. Mutate predicted phosphorylation sites to alanine and demonstrate loss of the mobility shift. If possible, use phospho-specific antibodies or metabolic labeling to confirm phosphorylation of endogenous isoforms in tissues where they are expressed.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the additional exons alter intramolecular interactions, keeping RAPGEF1 in a closed conformation, and alter RAP1A binding.
+  - **Evidence pointer** Figure 5, Figure 6; location not provided
+  - **Concern** The structural conclusions are derived entirely from AlphaFold models and computational docking (LZerD). The authors state that isoform 2 interfaces with all three helices of the catalytic domain, while isoform 3 and 1 interface with only one. However, no experimental validation is provided. The claim that the isoforms adopt different conformations is not supported by any biochemical or biophysical data. The docking results are presented without clear metrics of confidence, and the selection of the "best docked pose" based on MM/GBSA scores is not described in sufficient detail. The functional significance of the predicted differences in RAP1A binding is not tested.
+  - **Why it matters** The proposed mechanism of autoinhibition and altered RAP1A interaction is a central conclusion of the manuscript. Computational predictions, while useful for generating hypotheses, are not sufficient to establish a mechanistic model without experimental support.
+  - **Resolution test** Perform experimental validation, such as hydrogen-deuterium exchange, limited proteolysis, or FRET-based conformational sensors to compare conformations of isoforms. Test RAP1A binding affinity and nucleotide exchange activity in vitro using purified proteins of each isoform. If such experiments are not feasible, the claims should be substantially softened to reflect their speculative nature.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The authors state that "eight alternate transcripts (and amplicons) can be predicted to arise with inclusion of the three cassette exons in various combinations, but only three amplicons of 660, 1072 and 1167 were expected from the previously identified transcripts."
+  - **Evidence pointer** Figure 1D, Table 1; location not provided
+  - **Concern** The manuscript does not provide a complete enumeration of the observed amplicons versus the predicted combinations. The authors mention a "novel isoform" in the testis and an unpredicted isoform with exon 14 alone, but the full set of observed isoforms is not systematically catalogued. Table 1 is referenced but not provided. The relationship between the observed PCR products and the predicted isoforms is not fully clarified.
+  - **Why it matters** A clear catalog of which isoforms are expressed in which tissues is essential for the reader to evaluate the specificity of the findings. Without this, the claim of "novel" isoforms is difficult to verify.
+  - **Resolution test** Provide a comprehensive table listing all observed amplicons, their sizes, the exon composition (confirmed by sequencing), and the tissues in which they are detected. Clarify which isoforms are novel and which correspond to previously predicted variants.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, "RNA isolation, cDNA Preparation, primer designing, Semi-quantitative PCR and sequencing"; location not provided
+  - **Issue** The methods section is brief and lacks critical details. The authors do not specify the number of PCR cycles for the isoform-specific reactions (only "35 cycles" is mentioned for some), the annealing temperatures for each primer pair, the amount of cDNA used, or the criteria for determining that a band corresponds to a specific isoform. The statement "validated by blasting in NCBI" for primers is insufficient.
+  - **Required correction** Provide a detailed methods section including primer sequences (in a table), PCR conditions for each primer pair, cycle numbers, template amounts, and the method used to confirm amplicon identity (e.g., Sanger sequencing of each band).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figures 1-3
+  - **Evidence pointer** Figures 1E, 1F, 2A-C, 3A, 3B; location not provided
+  - **Issue** The gel images are described but not shown in the provided text. The authors reference "Fig. 1E & F" etc., but the figures are not available for review. The text descriptions are insufficient to evaluate the quality of the data.
+  - **Required correction** Ensure that all figures are of high quality with clear labels, molecular weight markers, and negative controls. Provide raw, uncropped gel images as supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2; location not provided
+  - **Concern** The authors state that "the amino acids encoded by the cassette exons of RAPGEF1 also form a disordered segment" and that "these tissue specific segments are modified by reversible phosphorylation." This is presented as a finding, but the evidence is indirect (mobility shift of a fusion protein). The discussion would benefit from a clearer distinction between experimentally demonstrated facts and hypotheses.
+  - **Required correction** Revise the discussion to clearly separate established findings from speculative interpretations. Use cautious language when discussing the functional significance of the disordered region and its phosphorylation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, paragraph 1; Discussion, paragraph 1; location not provided
+  - **Issue** The manuscript cites several references but does not provide a comprehensive review of alternative splicing of RAPGEF1 or related signaling proteins. The novelty of the findings would be clearer if the authors positioned their work more explicitly relative to prior studies on RAPGEF1 isoforms.
+  - **Required correction** Expand the introduction and discussion to include a more thorough review of existing literature on RAPGEF1 splicing and isoform-specific functions, and clearly state what is new in this study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative and replicated expression data), R1-M2 (lack of quantitative differentiation data), R1-M3 (indirect evidence for phosphorylation), R1-M4 (unvalidated computational structural claims). These are blocking because the central claims of tissue-specific expression, differentiation-associated switching, and regulatory phosphorylation/autoinhibition are not robustly supported by the evidence provided.
+- **Assessment against Nature-style criteria** Originality: Moderate. The identification of novel splice isoforms of RAPGEF1 is of interest, but the approach is largely descriptive and the conceptual advance is limited without functional data. Scientific importance: Moderate. RAPGEF1 is an important signaling protein, and understanding isoform-specific regulation could be valuable, but the current study does not demonstrate functional consequences of the isoforms. Interdisciplinary readership: Limited. The manuscript is primarily of interest to specialists in RAPGEF1 signaling and splicing. Technical soundness: Weak. The lack of quantitative data, statistical analysis, and experimental validation of computational predictions are significant shortcomings. Readability for nonspecialists: Acceptable. The manuscript is generally clearly written, but the technical limitations and lack of clear figures (not provided) hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents interesting observations but lacks the quantitative rigor and experimental validation required to support its central claims. Major revisions and additional experiments are needed before the case for tissue-specific, functionally significant RAPGEF1 isoforms is convincing.
+
+## Risk / unsupported claims
+- The claim that the disordered region encoded by cassette exons undergoes phosphorylation is unsupported; only an indirect mobility shift of an overexpressed fusion protein is shown.
+- The claim that isoform 2 maintains a "closed conformation" with stronger autoinhibition is unsupported by experimental data; it is based solely on AlphaFold models and computational docking.
+- The claim that isoform switching is specific to differentiation rather than a general cellular response is not rigorously established due to lack of quantitative data and appropriate controls.
+- The claim that the novel isoforms are "previously neither identified, nor predicted" is not fully verifiable without a complete catalog of known isoforms and the provided Table 1.
+- The functional significance of the isoform switching for RAP1A activity and differentiation is speculative and not tested experimentally.

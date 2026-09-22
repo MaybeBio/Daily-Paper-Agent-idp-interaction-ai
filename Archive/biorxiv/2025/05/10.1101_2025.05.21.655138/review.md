@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors propose that the FG domain of the Nup98-HOXA9 (NHA9) chimeric transcription factor adopts distinct conformational states depending on assembly state, with the oligomeric state forming micelle-like assemblies in which the DNA-binding domain is surface-exposed, and that these assemblies grow in a concentration-dependent manner consistent with non-core-shell spherical micelles. Molecular dynamics simulations are claimed to support this expansion behavior and the micelle-like structural features.
+- **Visible evidence base** Abstract text only; no experimental or simulation data, figures, tables, or methodological details were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation parameters, statistical analyses, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant hypothesis regarding the conformational plasticity of an oncogenic fusion transcription factor across assembly states. However, the claims are stated with a level of certainty that cannot be evaluated from the abstract alone. The central assertions regarding micelle-like oligomer architecture, concentration-dependent size scaling, and simulation support require direct examination of the underlying data. As presented, the work is intriguing but the evidence base is insufficient to assess technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers in the fields of transcriptional regulation, intrinsically disordered proteins, phase separation and biomolecular condensates, and cancer biology would find these results of interest. The work addresses a fundamental question about how IDR conformational behavior changes across assembly states and links this to a clinically relevant oncoprotein, which could inform therapeutic strategies targeting condensate formation in leukemia.
+- **Major strengths** The study addresses a timely and important question about the conformational behavior of IDRs in different assembly states. The focus on a clinically relevant fusion oncoprotein adds translational significance. The integration of experimental and computational approaches is appropriate for the question. The proposal of a micelle-like architecture for oligomeric assemblies is a novel and testable hypothesis.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that the FG domain has different conformational compactness in monomeric, oligomeric, and condensate states, and that the oligomeric state exhibits micelle-like organization with the DNA-binding domain exposed at the periphery.  
+  - **Evidence pointer** Abstract text; no specific figures or tables referenced  
+  - **Concern** The abstract states these findings as established facts, but no experimental or simulation data are presented to support them. The methods used to determine conformational compactness, the evidence for micelle-like organization, and the basis for the claim of peripheral DNA-binding domain exposure are not described.  
+  - **Why it matters** These are the central claims of the study. Without access to the underlying data, it is impossible to assess whether the conclusions are justified, whether appropriate controls were performed, or whether alternative interpretations were excluded.  
+  - **Resolution test** Provide the relevant figures and methods sections demonstrating the measurements of conformational compactness, the structural characterization of oligomers, and the localization of the DNA-binding domain.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that oligomer sizes depend on NHA9 concentration, consistent with non-core-shell spherical micelles.  
+  - **Evidence pointer** Abstract text; no specific figures or tables referenced  
+  - **Concern** The concentration-dependent size scaling is a quantitative claim that requires careful measurement and statistical analysis. The abstract does not indicate how size was measured, over what concentration range, or how the data were fit to distinguish non-core-shell spherical micelles from other assembly models.  
+  - **Why it matters** This claim is central to the proposed structural model. If the size-concentration relationship is not robustly established, the micelle model is not supported.  
+  - **Resolution test** Provide the size measurements as a function of concentration, the fitting procedure, and the statistical analysis demonstrating the scaling relationship.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that molecular dynamics simulations support the expansion behavior of the NHA9 FG domain as oligomeric assemblies grow and reveal micelle-like structural features.  
+  - **Evidence pointer** Abstract text; no simulation details provided  
+  - **Concern** The abstract does not describe the simulation methodology, force field, system size, simulation timescale, or how the simulations were validated against experimental data. The claim that simulations "support" the experimental findings requires a clear description of how the two approaches were integrated.  
+  - **Why it matters** Simulation results are only meaningful if the methodology is appropriate and the comparison to experiment is rigorous. Without these details, the support provided by simulations cannot be evaluated.  
+  - **Resolution test** Provide simulation methods, validation against experimental observables, and a clear description of how simulation results were compared to experimental data.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Title  
+  - **Evidence pointer** Abstract title  
+  - **Issue** The term "micro- and macrophases" is unusual and not defined in the abstract. It is unclear whether this refers to specific assembly states or is a typographical error.  
+  - **Required correction** Define the terms or use more standard terminology such as "oligomeric and condensate states."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract content  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract does not state the experimental techniques used to characterize the conformational states. This information is essential for the reader to understand the nature of the evidence.  
+  - **Required correction** Briefly mention the key experimental methods in the abstract.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Discussion of implications  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The final sentence claims implications for understanding transcriptional regulation in cancer, but the abstract does not explain how the conformational transitions relate to transcriptional activity or oncogenic function.  
+  - **Required correction** Clarify the mechanistic link between the observed conformational behavior and transcriptional regulation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central claims of the abstract cannot be evaluated without the underlying data. The manuscript must provide the experimental and simulation evidence, including methods, controls, and statistical analyses, to support the proposed model.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of micelle-like oligomeric assemblies for a fusion transcription factor is novel and potentially original. However, originality cannot be fully assessed without a thorough literature comparison, which is not possible from the abstract alone.  
+  - **Scientific importance** The work addresses a fundamental question in IDR biology and phase separation, with direct relevance to a leukemia-associated oncoprotein. If the claims are substantiated, the findings would be of broad interest.  
+  - **Interdisciplinary readership** The topic bridges biophysics, molecular biology, and cancer research, and would appeal to a broad readership. The abstract is written in a way that is accessible to nonspecialists, though some terms could be clarified.  
+  - **Technical soundness** Cannot be assessed from the abstract. The methods and data are not provided.  
+  - **Readability for nonspecialists** The abstract is generally clear and well-structured, but the title and some terminology could be improved for broader accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the central claims are unsupported by the visible evidence base. A full review of the manuscript with all figures, methods, and data would be required to determine whether the case is made.
+
+## Risk / unsupported claims
+- The claim that the FG domain has different conformational compactness across monomeric, oligomeric, and condensate states is unsupported by the abstract alone.
+- The claim that the oligomeric state exhibits micelle-like organization with the DNA-binding domain exposed at the periphery is unsupported.
+- The claim that oligomer sizes depend on NHA9 concentration in a manner consistent with non-core-shell spherical micelles is unsupported.
+- The claim that molecular dynamics simulations support the expansion behavior and micelle-like features is unsupported without simulation details.
+- The implication that these findings have relevance for transcriptional regulation in cancer is speculative in the absence of functional data.

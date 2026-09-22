@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "38118365",
+    "doi": "10.1016/j.sbi.2023.102756",
+    "title": "Molecular simulations integrated with experiments for probing the interaction dynamics and binding mechanisms of intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) exploit their plasticity to deploy a rich panoply of soft interactions and binding phenomena. Advances in tailoring molecular simulations for IDPs combined with experimental cross-validation offer an atomistic view of the mechanisms that control IDP binding, function, and dysfunction. The emerging theme is that unbound IDPs autonomously form transient local structures and self-interactions that determine their binding behavior. Recent results have shed light on whether and how IDPs fold, stay disordered or drive condensation upon binding; how they achieve binding specificity and select among competing partners. The disorder-binding paradigm is now being proactively used by researchers to target IDPs for rational drug design and engineer molecular responsive elements for biosensing applications.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Drug Design",
+      "Protein Conformation",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ghosh, Catherine",
+        "Nagpal, Suhani",
+        "Munoz, Victor"
+      ],
+      "short_names": [
+        "Ghosh C",
+        "Nagpal S",
+        "Munoz V"
+      ],
+      "auids": [],
+      "affiliations": [
+        "NSF-CREST Center for Cellular and Biomolecular Machines (CCBM), University of California at Merced, Merced, 95343 CA, USA; Department of Bioengineering, University of California at Merced, Merced, 95343 CA, USA. Electronic address: https://twitter.com/cat_ghosh.",
+        "NSF-CREST Center for Cellular and Biomolecular Machines (CCBM), University of California at Merced, Merced, 95343 CA, USA; Department of Bioengineering, University of California at Merced, Merced, 95343 CA, USA; OpenEye, Cadence Molecular Sciences, Boston, 02114 MA, USA.",
+        "NSF-CREST Center for Cellular and Biomolecular Machines (CCBM), University of California at Merced, Merced, 95343 CA, USA; Department of Bioengineering, University of California at Merced, Merced, 95343 CA, USA. Electronic address: vmunoz3@ucmerced.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ghosh, Catherine",
+        "short_name": "Ghosh C",
+        "identifiers": [],
+        "affiliations": [
+          "NSF-CREST Center for Cellular and Biomolecular Machines (CCBM), University of California at Merced, Merced, 95343 CA, USA; Department of Bioengineering, University of California at Merced, Merced, 95343 CA, USA. Electronic address: https://twitter.com/cat_ghosh."
+        ]
+      },
+      {
+        "full_name": "Nagpal, Suhani",
+        "short_name": "Nagpal S",
+        "identifiers": [],
+        "affiliations": [
+          "NSF-CREST Center for Cellular and Biomolecular Machines (CCBM), University of California at Merced, Merced, 95343 CA, USA; Department of Bioengineering, University of California at Merced, Merced, 95343 CA, USA; OpenEye, Cadence Molecular Sciences, Boston, 02114 MA, USA."
+        ]
+      },
+      {
+        "full_name": "Muñoz, Victor",
+        "short_name": "Muñoz V",
+        "identifiers": [],
+        "affiliations": [
+          "NSF-CREST Center for Cellular and Biomolecular Machines (CCBM), University of California at Merced, Merced, 95343 CA, USA; Department of Bioengineering, University of California at Merced, Merced, 95343 CA, USA. Electronic address: vmunoz3@ucmerced.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2024 Feb",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/21 00:41",
+    "fetched_at": "2026-09-21 03:36:09"
+  },
+  "links": {
+    "cites": [
+      "42057422",
+      "41865079",
+      "41647538",
+      "41249866",
+      "41096841",
+      "41009799",
+      "40462930",
+      "40349675",
+      "40325419",
+      "40068541",
+      "39811269",
+      "39681347"
+    ],
+    "refs": [
+      "37407505",
+      "37379390",
+      "37348142",
+      "37339604",
+      "37330280",
+      "37146977",
+      "37108059",
+      "37026598",
+      "36791464",
+      "36084347",
+      "36084124",
+      "35944496",
+      "35831295",
+      "35791387",
+      "35725761",
+      "35658083",
+      "35373198",
+      "35310482",
+      "35179885",
+      "35170314",
+      "35129612",
+      "34902817",
+      "34680048",
+      "34521831",
+      "34504002",
+      "34164069",
+      "33984364",
+      "33909430",
+      "33871257",
+      "33598107",
+      "33591749",
+      "33581430",
+      "33574233",
+      "33545530",
+      "33302617",
+      "33148639",
+      "32936641",
+      "32914959",
+      "32822536",
+      "32816485",
+      "32323533",
+      "32192337",
+      "31702919",
+      "31667555",
+      "31259246",
+      "31165735",
+      "30184055",
+      "29466338",
+      "29044256",
+      "29044255",
+      "27387657",
+      "26402567",
+      "23822324"
+    ],
+    "similar": [
+      "38118365",
+      "33355572",
+      "40068541",
+      "31441158",
+      "39163306",
+      "34656328",
+      "30813315",
+      "34845619",
+      "32859072",
+      "32579908",
+      "32403216",
+      "28554553",
+      "24098099",
+      "34680048",
+      "39807013",
+      "38275091",
+      "26387110",
+      "30813629",
+      "36674958",
+      "40128232",
+      "36084347",
+      "34504009",
+      "31809054",
+      "28226222",
+      "30352491",
+      "30979035",
+      "41082321",
+      "30066087",
+      "28493424",
+      "30840442",
+      "25863585",
+      "35658083",
+      "23170892",
+      "39740355",
+      "25611056",
+      "38739602",
+      "34799573",
+      "31702919",
+      "33591749",
+      "28448138",
+      "26742101",
+      "40532196",
+      "36291634",
+      "33567297",
+      "38296708",
+      "33623120",
+      "35762718",
+      "35139468",
+      "37108059",
+      "28834051",
+      "29990433",
+      "35053175",
+      "23794453",
+      "27004461",
+      "31021441",
+      "38928405",
+      "37452752",
+      "38116756",
+      "41174305",
+      "32227937",
+      "31667345",
+      "30865832",
+      "36641212",
+      "38987470",
+      "28095698",
+      "33411518",
+      "29276882",
+      "24211251",
+      "30091924",
+      "26387101",
+      "29808548",
+      "39225535",
+      "30278223",
+      "29364151",
+      "40907012",
+      "37338049",
+      "35044776",
+      "31425549",
+      "32623047",
+      "30230839",
+      "26549326",
+      "36750251",
+      "32696395",
+      "33945530",
+      "35934194",
+      "31241933",
+      "28926706",
+      "26387099",
+      "41073429",
+      "34201262",
+      "30909517",
+      "36083825",
+      "30445805",
+      "32771522",
+      "39056166",
+      "32621228",
+      "30184304",
+      "34626492",
+      "32323533",
+      "35074392"
+    ],
+    "review": [
+      "38118365",
+      "33355572",
+      "40068541",
+      "31441158",
+      "32403216",
+      "28554553",
+      "34680048",
+      "26387110",
+      "30813629",
+      "28226222",
+      "30352491",
+      "30979035",
+      "30066087",
+      "30840442",
+      "25863585",
+      "23170892",
+      "39740355",
+      "33591749",
+      "33567297",
+      "38296708",
+      "35139468",
+      "35053175",
+      "23794453",
+      "27004461",
+      "31021441",
+      "26387101",
+      "30278223",
+      "29364151",
+      "26549326",
+      "36750251",
+      "26387099",
+      "30909517",
+      "30445805"
+    ],
+    "pmc": [
+      "11242915"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959-440X(23)00230-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38118365/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

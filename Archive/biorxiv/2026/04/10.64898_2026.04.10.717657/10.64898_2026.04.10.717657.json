@@ -1,0 +1,713 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.10.717657",
+  "title": "Graph Machine Learning for Physiological Role Prediction in Protein Contact Networks: A Large-Scale Comparative Study on the Human Proteome",
+  "doi": "10.64898/2026.04.10.717657",
+  "abstract": "Proteins are fundamental macromolecules involved in virtually all biological processes. Their physiological roles are tightly linked to their three-dimensional structure, which can be naturally abstracted as Protein Contact Networks (PCNs), i.e., graphs where residues are nodes and edges encode spatial proximity. This representation enables the application of graph machine learning to address the protein functional annotation gap at proteome scale. In this work, protein function prediction is studied on the majority of the human proteome, focusing on enzymatic activity and enzyme class assignment as well-defined and biologically meaningful targets. A large-scale supervised analysis was conducted on PCNs derived from experimentally resolved human protein structures. Multiple graph-based learning paradigms were systematically compared under a unified evaluation protocol, including handcrafted graph embeddings, kernel methods, and end-to-end Graph Neural Networks (GNNs). Feature engineering approaches included (i) spectral density embeddings of the normalized graph Laplacian and (ii) higher-order topological representations based on simplicial complexes, with optional INDVAL-based feature selection. These representations were paired with linear, ensemble, and kernel classifiers, while GNNs were trained directly on raw PCNs exploiting a diverse set of message-passing strategies. Two tasks were considered: binary classification of enzymatic versus non-enzymatic proteins and multiclass prediction of first-level Enzyme Commission (EC) classes. Performance was assessed using repeated stratified splits to ensure robust and variance-aware evaluation. In the binary enzymatic classification task, the Jaccard-based graph kernel achieved the best performance with an adjusted balanced accuracy of 0.90, closely followed by GNNs trained end-to-end on PCNs. In the multiclass EC prediction task, GNNs demonstrated superior discriminative power, reaching an adjusted balanced accuracy of 0.92 and outperforming all explicit embedding and kernel-based approaches. Overall, results indicate that EC class prediction is intrinsically more complex than binary enzymatic discrimination and benefits from the higher expressivity of deep message-passing architectures. The findings demonstrate that graph-based representations of protein structure support competitive functional prediction at proteome scale, with classical kernel methods and modern GNNs offering complementary strengths in terms of accuracy, inference-time applicability, and flexibility.",
+  "authors": [
+    "Mattia Cervellini",
+    "Alessio Martino"
+  ],
+  "published_date": "2026-04-14",
+  "updated_date": "2026-04-14T16:15:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717657",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717657.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            7
+          ]
+        ],
+        "date-time": "2026-08-07T16:52:44Z",
+        "timestamp": 1786121564694,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            14
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 79,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                14
+              ]
+            ],
+            "date-time": "2026-04-14T00:00:00Z",
+            "timestamp": 1776124800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            5
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Proteins are fundamental macromolecules involved in virtually all biological processes. Their physiological roles are tightly linked to their three-dimensional structure, which can be naturally abstracted as Protein Contact Networks (PCNs), i.e., graphs where residues are nodes and edges encode spatial proximity. This representation enables the application of graph machine learning to address the protein functional annotation gap at proteome scale. In this work, protein function prediction is studied on the majority of the human proteome, focusing on enzymatic activity and enzyme class assignment as well-defined and biologically meaningful targets. A large-scale supervised analysis was conducted on PCNs derived from experimentally resolved human protein structures. Multiple graph-based learning paradigms were systematically compared under a unified evaluation protocol, including handcrafted graph embeddings, kernel methods, and end-to-end Graph Neural Networks (GNNs). Feature engineering approaches included (i) spectral density embeddings of the normalized graph Laplacian and (ii) higher-order topological representations based on simplicial complexes, with optional INDVAL-based feature selection. These representations were paired with linear, ensemble, and kernel classifiers, while GNNs were trained directly on raw PCNs exploiting a diverse set of message-passing strategies. Two tasks were considered: binary classification of enzymatic versus non-enzymatic proteins and multiclass prediction of first-level Enzyme Commission (EC) classes. Performance was assessed using repeated stratified splits to ensure robust and variance-aware evaluation. In the binary enzymatic classification task, the Jaccard-based graph kernel achieved the best performance with an adjusted balanced accuracy of 0.90, closely followed by GNNs trained end-to-end on PCNs. In the multiclass EC prediction task, GNNs demonstrated superior discriminative power, reaching an adjusted balanced accuracy of 0.92 and outperforming all explicit embedding and kernel-based approaches. Overall, results indicate that EC class prediction is intrinsically more complex than binary enzymatic discrimination and benefits from the higher expressivity of deep message-passing architectures. The findings demonstrate that graph-based representations of protein structure support competitive functional prediction at proteome scale, with classical kernel methods and modern GNNs offering complementary strengths in terms of accuracy, inference-time applicability, and flexibility.</jats:p>",
+      "DOI": "10.64898/2026.04.10.717657",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            14
+          ]
+        ],
+        "date-time": "2026-04-14T16:15:14Z",
+        "timestamp": 1776183314000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Graph Machine Learning for Physiological Role Prediction in Protein Contact Networks: A Large-Scale Comparative Study on the Human Proteome"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0003-2205-662X",
+          "authenticated-orcid": false,
+          "given": "Mattia",
+          "family": "Cervellini",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Information Engineering, Electronics and Telecommunications, University of Rome “La Sapienza”, Via Eudossiana 18, 00184 Rome, Italy"
+            },
+            {
+              "name": "Department of AI, Data and Decision Sciences, LUISS University, Viale Romania 32, 00197 Rome, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1730-5436",
+          "authenticated-orcid": false,
+          "given": "Alessio",
+          "family": "Martino",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of AI, Data and Decision Sciences, LUISS University, Viale Romania 32, 00197 Rome, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Akiba , S. Sano , T. Yanase , T. Ohta , and M. Koyama . Optuna: A next-generation hyperparameter optimization framework. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, KDD ’19, page 2623–2631, New York, NY, USA, 2019. Association for Computing Machinery.",
+          "DOI": "10.1145/3292500.3330701"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.2",
+          "unstructured": "B. Alberts , A. Johnson , J. Lewis , M. Raff , K. Roberts , and P. Walter . Molecular Biology of the Cell. Garland Science, 4 edition, 2002."
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1990.9999"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "e4750",
+          "DOI": "10.7717/peerj.4750",
+          "article-title": "EnzyNet: enzyme classification using 3D convolutional neural networks on spatial representation",
+          "volume": "6",
+          "year": "2018",
+          "journal-title": "PeerJ"
+        },
+        {
+          "issue": "3",
+          "key": "2026080622102821000_2026.04.10.717657v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "361",
+          "DOI": "10.1137/S0895480199359995",
+          "article-title": "Coloring the maximal cliques of graphs",
+          "volume": "17",
+          "year": "2004",
+          "journal-title": "SIAM Journal on Discrete Mathematics"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Bargiela and W. Pedrycz . The roots of granular computing. In 2006 IEEE International Conference on Granular Computing, pages 806–809, 2006.",
+          "DOI": "10.1109/GRC.2006.1635922"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.7",
+          "unstructured": "J. Bergstra , R. Bardenet , Y. Bengio , and B. Kégl . Algorithms for hyperparameter optimization. In J. Shawe-Taylor , R. Zemel , P. Bartlett , F. Pereira , and K. Weinberger , editors, Advances in Neural Information Processing Systems, volume 24. Curran Associates, Inc., 2011."
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti1007"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1010933404324"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Butler . Algebraic aspects of the normalized laplacian. In Recent Trends in Combinatorics, pages 295–315. Springer, 2016.",
+          "DOI": "10.1007/978-3-319-24298-9_13"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.11",
+          "unstructured": "M. Cervellini , E. De Santis , A. Rizzi , and A. Martino . Decoding functional multiplicity: Graph learning approaches to multifunctional proteins. In 2026 International Joint Conference on Neural Networks (IJCNN), pages 1–8, 2026. Accepted for Publication."
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Cervellini , B. Sinaimeri , C. Matias , and A. Martino . Comparing the ability of embedding methods on metabolic hypergraphs for capturing taxonomy-based features. Algorithms for Molecular Biology, 21(1):9, Apr 2026.",
+          "DOI": "10.1186/s13015-026-00298-w"
+        },
+        {
+          "issue": "3",
+          "key": "2026080622102821000_2026.04.10.717657v2.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "377",
+          "DOI": "10.1016/0097-3165(78)90067-5",
+          "article-title": "Matrix tree theorems",
+          "volume": "24",
+          "year": "1978",
+          "journal-title": "Journal of combinatorial theory, Series A"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp163"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.3303334"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "E. De Santis , A. Martino , A. Rizzi , and F. M. Frattale Mascioli . Dissimilarity space representations and automatic feature selection for protein function prediction. In 2018 International Joint Conference on Neural Networks (IJCNN), pages 1–8. IEEE, 2018.",
+          "DOI": "10.1109/IJCNN.2018.8489115"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr3002356"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(03)00628-4"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2004.10.024"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2963459"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "581",
+          "DOI": "10.1016/j.physa.2005.12.002",
+          "article-title": "Subgraph centrality and clustering in complex hyper-networks",
+          "volume": "364",
+          "year": "2006",
+          "journal-title": "Physica A: Statistical Mechanics and its Applications"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.22",
+          "first-page": "1871",
+          "article-title": "Li-blinear: A library for large linear classification",
+          "volume": "9",
+          "year": "2008",
+          "journal-title": "Journal of machine Learning research"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.23",
+          "unstructured": "M. Fey and J. E. Lenssen . Fast graph representation learning with pytorch geometric. arXiv preprint arXiv:1903.02428, 2019."
+        },
+        {
+          "issue": "2",
+          "key": "2026080622102821000_2026.04.10.717657v2.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "298",
+          "DOI": "10.21136/CMJ.1973.101168",
+          "article-title": "Algebraic connectivity of graphs",
+          "volume": "23",
+          "year": "1973",
+          "journal-title": "Czechoslovak mathematical journal"
+        },
+        {
+          "issue": "1",
+          "key": "2026080622102821000_2026.04.10.717657v2.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "3168",
+          "DOI": "10.1038/s41467-021-23303-9",
+          "article-title": "Structure-based protein function prediction using graph convolutional networks",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0005361"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "106529",
+          "DOI": "10.1016/j.cor.2024.106529",
+          "article-title": "Algorithms and computational study on a transportation system integrating public transit and ridesharing of personal vehicles",
+          "volume": "164",
+          "year": "2024",
+          "journal-title": "Computers & Operations Research"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. A. Hagberg , D. A. Schult , and P. J. Swart . Exploring network structure, dynamics, and function using networkx. In G. Varoquaux , T. Vaught , and J. Millman , editors, Proceedings of the 7th Python in Science Conference, pages 11–15, Pasadena, CA USA, 2008.",
+          "DOI": "10.25080/TCWV9851"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.29",
+          "unstructured": "W. L. Hamilton , R. Ying , and J. Leskovec . Inductive representation learning on large graphs. In Proceedings of the 31st International Conference on Neural Information Processing Systems, NIPS’17, page 1025–1035, Red Hook, NY, USA, 2017. Curran Associates Inc."
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.30",
+          "unstructured": "International Union of Biochemistry. Commission on Enzymes. Report of the Commission on Enzymes. I.U.B. Symposium Series, Vol. 20. Pergamon Press, Oxford, 1961."
+        },
+        {
+          "issue": "2-3",
+          "key": "2026080622102821000_2026.04.10.717657v2.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "667",
+          "DOI": "10.1016/j.physa.2007.09.026",
+          "article-title": "Random matrix analysis of network laplacians",
+          "volume": "387",
+          "year": "2008",
+          "journal-title": "Physica A: Statistical Mechanics and its Applications"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/07853890310004101"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "1301994",
+          "DOI": "10.3389/fphy.2023.1301994",
+          "article-title": "Hypergraph patterns and collaboration structure",
+          "volume": "11",
+          "year": "2024",
+          "journal-title": "Frontiers in Physics"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.520702"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.35",
+          "unstructured": "T. Kipf . Semi-supervised classification with graph convolutional networks. arXiv preprint arXiv:1609.02907, 2016."
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.36",
+          "unstructured": "T. Lewis and W. L. Stone . Biochemistry, Proteins Enzymes. StatPearls Publishing, Treasure Island, FL, Jan 2025."
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.37",
+          "unstructured": "Y. Li , C. Gu , T. Dullien , O. Vinyals , and P. Kohli . Graph matching networks for learning the similarity of graph structured objects. arXiv preprint arXiv:1904.12787, 2019."
+        },
+        {
+          "issue": "1",
+          "key": "2026080622102821000_2026.04.10.717657v2.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "106",
+          "DOI": "10.2174/1574893611666151109175216",
+          "article-title": "Characterization of graphs for protein structure modeling and recognition of solubility",
+          "volume": "11",
+          "year": "2016",
+          "journal-title": "Current Bioinformatics"
+        },
+        {
+          "issue": "7",
+          "key": "2026080622102821000_2026.04.10.717657v2.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "1441",
+          "DOI": "10.1080/07391102.2015.1077736",
+          "article-title": "A generative model for protein contact networks",
+          "volume": "34",
+          "year": "2016",
+          "journal-title": "Journal of Biomolecular Structure and Dynamics"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(03)00382-6"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "804",
+          "DOI": "10.1016/j.physa.2016.12.046",
+          "article-title": "Spectral reconstruction of protein contact networks",
+          "volume": "471",
+          "year": "2017",
+          "journal-title": "Physica A: Statistical Mechanics and its Applications"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Martino , A. Giuliani , and A. Rizzi . (Hyper)Graph Embedding and Classification via Simplicial Complexes. Algorithms, 12(11), 2019.",
+          "DOI": "10.3390/a12110223"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Martino , E. Maiorino , A. Giuliani , M. Giampieri , and A. Rizzi . Supervised approaches for function prediction of proteins contact networks from topological structure information. In P. Sharma and F. M. Bianchi , editors, Image Analysis, pages 285–296, Cham, 2017. Springer International Publishing.",
+          "DOI": "10.1007/978-3-319-59126-1_24"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Martino and A. Rizzi . (Hyper)graph Kernels over Simplicial Complexes. Entropy, 22(10), 2020.",
+          "DOI": "10.3390/e22101155"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/febs.16274"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02295996"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp269"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. Morris , M. Ritzert , M. Fey , W. L. Hamilton , J. E. Lenssen , G. Rat-tan , and M. Grohe . Weisfeiler and Leman go neural: higher-order graph neural networks. In Proceedings of the Thirty-Third AAAI Conference on Artificial Intelligence and Thirty-First Innovative Applications of Artificial Intelligence Conference and Ninth AAAI Symposium on Educational Advances in Artificial Intelligence, AAAI’19/IAAI’19/EAAI’19. AAAI Press, 2019.",
+          "DOI": "10.1609/aaai.v33i01.33014602"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.49",
+          "unstructured": "Nomenclature Committee of the International Union of Biochemistry. Enzyme nomenclature, 1978: Recommendations of the nomenclature Committee of the International Union of biochemistry on the nomenclature and classification of enzymes. Academic Press, 1979."
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.50",
+          "unstructured": "Y. Park , C. Priebe , D. Marchette , and A. Youssef . Anomaly detection using scan statistics on time series hypergraphs. In Link analysis, counterterrorism and security (LACTS) conference, page 9. SIAM Pennsylvania, 2009."
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.51",
+          "unstructured": "A. Paszke , S. Gross , F. Massa , A. Lerer , J. Bradbury , G. Chanan , T. Killeen , Z. Lin , N. Gimelshein , L. Antiga , A. Desmaison , A. Köpf , E. Yang , Z. DeVito , M. Raison , A. Tejani , S. Chilamkurthy , B. Steiner , L. Fang , J. Bai , and S. Chintala . PyTorch: an imperative style, high-performance deep learning library. Curran Associates Inc., Red Hook, NY, USA, 2019."
+        },
+        {
+          "issue": "1",
+          "key": "2026080622102821000_2026.04.10.717657v2.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "18",
+          "DOI": "10.1140/epjds/s13688-017-0114-8",
+          "article-title": "The shape of collaborations",
+          "volume": "6",
+          "year": "2017",
+          "journal-title": "EPJ Data Science"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.37.4.205"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.85.8.2444"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.patcog.2011.04.006"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "W. Pedrycz . Granular computing: an introduction. In Proceedings Joint 9th IFSA World Congress and 20th NAFIPS International Conference, volume 3, pages 1349–1354. IEEE, 2001.",
+          "DOI": "10.1109/NAFIPS.2001.943745"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.57",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Raschka . Biopandas: Working with molecular structures in pandas dataframes. The Journal of Open Source Software, 2(14), 2017.",
+          "DOI": "10.21105/joss.00279"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.58",
+          "unstructured": "T. K. Rusch , M. M. Bronstein , and S. Mishra . A survey on oversmooth-ing in graph neural networks. arXiv preprint arXiv:2303.10993, 2023."
+        },
+        {
+          "issue": "22",
+          "key": "2026080622102821000_2026.04.10.717657v2.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "16897",
+          "DOI": "10.1021/acscatal.4c04139",
+          "article-title": "An unusual his/asp dyad operates catalysis in agar-degrading glycosidases",
+          "volume": "14",
+          "year": "2024",
+          "journal-title": "ACS Catalysis"
+        },
+        {
+          "issue": "2",
+          "key": "2026080622102821000_2026.04.10.717657v2.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "353",
+          "DOI": "10.1137/18M1201019",
+          "article-title": "Random walks on simplicial complexes and the normalized hodge 1-laplacian",
+          "volume": "62",
+          "year": "2020",
+          "journal-title": "SIAM Review"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/089976600300015565"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi972766q"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.63",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. W. Scott . Multivariate density estimation: theory, practice, and visualization. John Wiley & Sons, 1992.",
+          "DOI": "10.1002/9780470316849"
+        },
+        {
+          "issue": "1",
+          "key": "2026080622102821000_2026.04.10.717657v2.64",
+          "first-page": "148",
+          "article-title": "Taking the human out of the loop: A review of bayesian optimization",
+          "volume": "104",
+          "year": "2015",
+          "journal-title": "Proceedings of the IEEE"
+        },
+        {
+          "issue": "1",
+          "key": "2026080622102821000_2026.04.10.717657v2.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "8180",
+          "DOI": "10.1038/s41467-024-52533-w",
+          "article-title": "Accurately predicting enzyme functions through geometric graph learning on ESMFold-predicted structures",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.3112942"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1139/bcb-2018-0007"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02289263"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.69",
+          "unstructured": "K. Tipton . Translocases (EC 7): A new EC Class. Technical report, Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (IUBMB), Aug. 2018."
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.70",
+          "unstructured": "K. Tipton and A. McDonald . A Brief Guide to Enzyme Nomenclature and Classification. Technical report, International Union of Biochemistry and Molecular Biology (NC-IUBMB), 2018. Revision November 2018."
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.71",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Tomii , Y. Sawada , and S. Honda . Convergent evolution in structural elements of proteins investigated using cross profile analysis. BMC Bioinformatics, 13(1):11, Jan 2012.",
+          "DOI": "10.1186/1471-2105-13-11"
+        },
+        {
+          "issue": "1",
+          "key": "2026080622102821000_2026.04.10.717657v2.72",
+          "doi-asserted-by": "crossref",
+          "first-page": "2737",
+          "DOI": "10.1038/s41467-025-57324-5",
+          "article-title": "TopEC: prediction of Enzyme Commission classes by 3D graph neural networks and localized 3D protein descriptor",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.73",
+          "unstructured": "P. Veličković , G. Cucurull , A. Casanova , A. Romero , P. Lio , and Y. Bengio . Graph attention networks. arXiv preprint arXiv:1710.10903, 2017."
+        },
+        {
+          "issue": "4",
+          "key": "2026080622102821000_2026.04.10.717657v2.74",
+          "doi-asserted-by": "crossref",
+          "first-page": "395",
+          "DOI": "10.1007/s11222-007-9033-z",
+          "article-title": "A tutorial on spectral clustering",
+          "volume": "17",
+          "year": "2007",
+          "journal-title": "Statistics and computing"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.75",
+          "doi-asserted-by": "crossref",
+          "first-page": "102828",
+          "DOI": "10.1016/j.media.2023.102828",
+          "article-title": "Dynamic weighted hypergraph convolutional network for brain functional connectome analysis",
+          "volume": "87",
+          "year": "2023",
+          "journal-title": "Medical image analysis"
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.76",
+          "unstructured": "D. Whitford . Proteins: Structure and Function. John Wiley & Sons, 2013."
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.77",
+          "unstructured": "K. Xu , W. Hu , J. Leskovec , and S. Jegelka . How powerful are graph neural networks? arXiv preprint arXiv:1810.00826, 2018."
+        },
+        {
+          "key": "2026080622102821000_2026.04.10.717657v2.78",
+          "unstructured": "J. Zhu , S. Rosset , R. Tibshirani , and T. Hastie . 1-norm support vector machines. In S. Thrun , L. Saul , and B. Schölkopf , editors, Advances in Neural Information Processing Systems, volume 16. MIT Press, 2003."
+        },
+        {
+          "issue": "3",
+          "key": "2026080622102821000_2026.04.10.717657v2.79",
+          "doi-asserted-by": "crossref",
+          "first-page": "263",
+          "DOI": "10.1016/j.cag.2010.03.007",
+          "article-title": "Fast construction of the vietoris-rips complex",
+          "volume": "34",
+          "year": "2010",
+          "journal-title": "Computers & Graphics"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.10.717657",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            7
+          ]
+        ],
+        "date-time": "2026-08-07T05:10:40Z",
+        "timestamp": 1786079440000
+      },
+      "score": 54.610126,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.10.717657"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            14
+          ]
+        ]
+      },
+      "references-count": 79,
+      "URL": "https://doi.org/10.64898/2026.04.10.717657",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            14
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

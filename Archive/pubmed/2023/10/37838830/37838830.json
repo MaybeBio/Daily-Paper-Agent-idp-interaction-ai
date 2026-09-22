@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "37838830",
+    "doi": "10.1016/j.bpj.2023.10.007",
+    "title": "Water molecule ordering on the surface of an intrinsically disordered protein."
+  },
+  "content": {
+    "abstract": "The dynamics and local structure of the hydration water on surfaces of folded proteins have been extensively investigated. However, our knowledge of the hydration of intrinsically disordered proteins (IDPs) is more limited. Here, we compare the local structure of water molecules hydrating a globular protein, lysozyme, and the intrinsically disordered N-terminal of c-Src kinase (SH4UD) using molecular dynamics simulation. The radial distributions from the protein surface of the first and the second hydration shells are similar for the folded protein and the IDP. However, water molecules in the first hydration shell of both the folded protein and the IDP are perturbed from the bulk. This perturbation involves a loss of tetrahedrality, which is, however, significantly more marked for the folded protein than the IDP. This difference arises from an increase in the first hydration shell of the IDP of the fraction of hydration water molecules interacting with oxygen. The water ordering is independent of the compactness of the IDP. In contrast, the lifetimes of water molecules in the first hydration shell increase with IDP compactness, indicating a significant impact of IDP configuration on water surface pocket kinetics, which here is linked to differential pocket volumes and polarities.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Water/chemistry",
+      "Molecular Dynamics Simulation",
+      "Membrane Proteins",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vural, Derya",
+        "Shrestha, Utsab R",
+        "Petridis, Loukas",
+        "Smith, Jeremy C"
+      ],
+      "short_names": [
+        "Vural D",
+        "Shrestha UR",
+        "Petridis L",
+        "Smith JC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, Marmara University, Istanbul, Turkiye; Oak Ridge National Laboratory, Biosciences Division, UT/ORNL Center for Molecular Biophysics, Oak Ridge, Tennessee; Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, Tennessee. Electronic address: derya.vural@marmara.edu.tr.",
+        "Oak Ridge National Laboratory, Biosciences Division, UT/ORNL Center for Molecular Biophysics, Oak Ridge, Tennessee; Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, Tennessee.",
+        "Oak Ridge National Laboratory, Biosciences Division, UT/ORNL Center for Molecular Biophysics, Oak Ridge, Tennessee; Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, Tennessee.",
+        "Oak Ridge National Laboratory, Biosciences Division, UT/ORNL Center for Molecular Biophysics, Oak Ridge, Tennessee; Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, Tennessee."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vural, Derya",
+        "short_name": "Vural D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Marmara University, Istanbul, Türkiye; Oak Ridge National Laboratory, Biosciences Division, UT/ORNL Center for Molecular Biophysics, Oak Ridge, Tennessee; Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, Tennessee. Electronic address: derya.vural@marmara.edu.tr."
+        ]
+      },
+      {
+        "full_name": "Shrestha, Utsab R",
+        "short_name": "Shrestha UR",
+        "identifiers": [],
+        "affiliations": [
+          "Oak Ridge National Laboratory, Biosciences Division, UT/ORNL Center for Molecular Biophysics, Oak Ridge, Tennessee; Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Petridis, Loukas",
+        "short_name": "Petridis L",
+        "identifiers": [],
+        "affiliations": [
+          "Oak Ridge National Laboratory, Biosciences Division, UT/ORNL Center for Molecular Biophysics, Oak Ridge, Tennessee; Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, Tennessee."
+        ]
+      },
+      {
+        "full_name": "Smith, Jeremy C",
+        "short_name": "Smith JC",
+        "identifiers": [],
+        "affiliations": [
+          "Oak Ridge National Laboratory, Biosciences Division, UT/ORNL Center for Molecular Biophysics, Oak Ridge, Tennessee; Department of Biochemistry and Cellular and Molecular Biology, University of Tennessee, Knoxville, Tennessee."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2023 Nov 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/15 06:42",
+    "fetched_at": "2026-09-21 02:00:41"
+  },
+  "links": {
+    "cites": [
+      "42147780",
+      "41316704",
+      "40427553"
+    ],
+    "refs": [
+      "33623120",
+      "31548393",
+      "30990694",
+      "30814556",
+      "29548755",
+      "29091442",
+      "27306013",
+      "27224484",
+      "27186992",
+      "27155577",
+      "26282040",
+      "26274468",
+      "26054933",
+      "25774711",
+      "25615860",
+      "25400522",
+      "24773235",
+      "24479585",
+      "24313531",
+      "23612685",
+      "22828339",
+      "22335572",
+      "22035184",
+      "21038907",
+      "20371332",
+      "19486540",
+      "19227357",
+      "18688541",
+      "18586840",
+      "18095715",
+      "18093918",
+      "17986611",
+      "17564431",
+      "17319669",
+      "16689642",
+      "16392929",
+      "16211538",
+      "16159150",
+      "15740089",
+      "15306377",
+      "15080722",
+      "12513215",
+      "12047201",
+      "11910019",
+      "11842218",
+      "11106628",
+      "11106604",
+      "11025552",
+      "9482874"
+    ],
+    "similar": [
+      "37838830",
+      "25871264",
+      "35074392",
+      "29553735",
+      "22828339",
+      "34509724",
+      "30091924",
+      "30865832",
+      "25774711",
+      "24479585",
+      "39163306",
+      "26418258",
+      "33587794",
+      "29548755",
+      "30909517",
+      "32816485",
+      "25679039",
+      "33355572",
+      "31548393",
+      "30840442",
+      "28448138",
+      "39093570",
+      "30813315",
+      "38739602",
+      "24278008",
+      "32859072",
+      "35762718",
+      "29716994",
+      "24671380",
+      "30979035",
+      "34504009",
+      "28834051",
+      "33403854",
+      "30058229",
+      "35609776",
+      "34986640",
+      "35944496",
+      "38928405",
+      "33230318",
+      "38018910",
+      "26195786",
+      "30703278",
+      "33810353",
+      "25331250",
+      "33581430",
+      "38743557",
+      "31756104",
+      "34656328",
+      "38396678",
+      "31441158",
+      "32579908",
+      "30277791",
+      "16997864",
+      "37936402",
+      "34799573",
+      "29990433",
+      "28970487",
+      "37133846",
+      "39056166",
+      "31552948",
+      "29262365",
+      "36750251",
+      "34358545",
+      "33945530",
+      "28926706",
+      "31259246",
+      "26387104",
+      "38118365",
+      "24211251",
+      "36468418",
+      "32227937",
+      "30184304",
+      "31809054",
+      "33591749",
+      "29091442",
+      "27243806",
+      "29780979",
+      "34641515",
+      "29907037",
+      "28914483",
+      "35053175",
+      "28805390",
+      "25207671",
+      "29276882",
+      "28394890",
+      "36084347",
+      "31021441",
+      "38177684",
+      "35089568",
+      "36674958",
+      "24329095",
+      "24446368",
+      "34504002",
+      "22512347",
+      "37831084",
+      "36542916",
+      "34185520",
+      "28493424",
+      "29571687",
+      "23848319"
+    ],
+    "review": [
+      "37838830",
+      "30909517",
+      "33355572",
+      "30840442",
+      "39093570",
+      "30979035",
+      "31441158",
+      "36750251",
+      "34358545",
+      "26387104",
+      "38118365",
+      "33591749",
+      "35053175"
+    ],
+    "pmc": [
+      "10722392"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(23)00643-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37838830/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-905",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.06.03.446973",
+  "title": "Protein Interaction Network-based Deep Learning Framework for Identifying Disease-Associated Human Proteins",
+  "authors": "Barnali Das; Pralay Mitra",
+  "journal": "bioRxiv",
+  "published_date": "2021-06-03",
+  "window": {
+    "start": "2021-05-31",
+    "end": "2021-06-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用图卷积网络整合蛋白互作网络预测疾病相关蛋白，虽涉及PPI和AI方法，但对象非无序蛋白/IDR/相分离，且未关注互作机制建模，仅作疾病关联预测，对本课题启发有限。",
+  "abstract": "Infectious diseases in humans appear to be one of the most primary public health issues. Identification of novel disease-associated proteins will furnish an efficient recognition of the novel therapeutic targets. Here, we develop a Graph Convolutional Network (GCN)-based model called PINDeL to identify the disease-associated host proteins by integrating the human Protein Locality Graph and its corresponding topological features. Because of the amalgamation of GCN with the protein interaction network, PINDeL achieves the highest accuracy of 83.45% while AUROC and AUPRC values are 0.90 and 0.88, respectively. With high accuracy, recall, F1-score, specificity, AUROC, and AUPRC, PINDeL outperforms other existing machine-learning and deep-learning techniques for disease gene/protein identification in humans. Application of PINDeL on an independent dataset of 24320 proteins, which are not used for training, validation, or testing purposes, predicts 6448 new disease-protein associations of which we verify 3196 disease-proteins through experimental evidence like disease ontology, Gene Ontology, and KEGG pathway enrichment analyses. Our investigation informs that experimentally-verified 748 proteins are indeed responsible for pathogen-host protein interactions of which 22 disease-proteins share their association with multiple diseases such as cancer, aging, chem-dependency, pharmacogenomics, normal variation, infection, and immune-related diseases. This unique Graph Convolution Network-based prediction model is of utmost use in large-scale disease-protein association prediction and hence, will provide crucial insights on disease pathogenesis and will further aid in developing novel therapeutics.",
+  "abstract_zh": "人类传染病似乎是首要的公共卫生问题之一。识别新的疾病相关蛋白将为发现新的治疗靶点提供有效途径。在此，我们开发了一种基于图卷积网络（GCN）的模型，称为PINDeL，通过整合人类蛋白质局部图及其相应的拓扑特征来识别疾病相关宿主蛋白。由于GCN与蛋白质相互作用网络的融合，PINDeL达到了83.45%的最高准确率，AUROC和AUPRC值分别为0.90和0.88。凭借高准确率、召回率、F1分数、特异性、AUROC和AUPRC，PINDeL在人类疾病基因/蛋白质识别方面优于其他现有的机器学习和深度学习技术。将PINDeL应用于一个包含24320个蛋白质的独立数据集（这些蛋白质未用于训练、验证或测试），预测出6448个新的疾病-蛋白质关联，其中我们通过实验证据（如疾病本体论、基因本体论和KEGG通路富集分析）验证了3196个疾病-蛋白质。我们的研究表明，实验验证的748个蛋白质确实负责病原体-宿主蛋白质相互作用，其中22个疾病-蛋白质与多种疾病相关，如癌症、衰老、化学依赖性、药物基因组学、正常变异、感染和免疫相关疾病。这种独特的基于图卷积网络的预测模型在大规模疾病-蛋白质关联预测中极为有用，因此将为疾病发病机制提供关键见解，并进一步有助于开发新型治疗方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.06.03.446973",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.06.03.446973",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.06.03.446973/index.html"
+}

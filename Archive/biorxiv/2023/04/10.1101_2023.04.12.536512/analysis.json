@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.12.536512",
+  "title": "Automated Protein Affinity Optimization using a 1D-CNN Deep Learning Model",
+  "authors": "J.Liam McWhirter; Abhishek Mukhopadhyay; Patrick Farber; Greg Lakatos; Surjit Dixit",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-13",
+  "window": {
+    "start": "2023-04-10",
+    "end": "2023-04-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用1D-CNN深度学习模型优化蛋白亲和力，以异二聚体Fc抗体设计为例，虽涉及PPI结合特异性，但对象非无序蛋白/IDR，且未涉及相分离或互作机制建模，方法可迁移但深度有限。",
+  "abstract": "Functional biologics design is a multi-objective optimization problem often with competing design objectives. We report on a novel deep learning based protein sequence prediction framework, ZymeSwapNet, that can be customized to handle a wide range of quantifiable design objectives, a current limitation of traditional protein design methods. We train a simple convolutional neural network (1D-CNN) on nonredundant curated protein crystal structures, using a set of geometric and topological features that describes a local protein environment, to predict the likelihood of each amino acid type for residue sites in the design region. While the model can be directly used to rank templates derived from mutagenesis campaigns, we extend the scope by developing a sequence/mutation generator that optimizes the desired multivariate distribution using a Monte-Carlo sampling. Using a case study – the design of a stable heterodimeric Fc (HetFc) antibody domain – we show that we can further include a Metropolis criterion to bias the sampling to enhance features such as the heterodimeric binding specificity, in addition to original sampling objective of enhancing stability. We demonstrate that ZymeSwapNet can generate stable HetFc designs, within minutes that had taken several rounds of rational structure and physical force-field based modeling attempts.",
+  "abstract_zh": "功能生物制剂设计是一个多目标优化问题，通常涉及相互竞争的设计目标。我们报告了一种新颖的基于深度学习的蛋白质序列预测框架ZymeSwapNet，该框架可定制以处理各种可量化的设计目标，这是传统蛋白质设计方法当前的一个局限。我们在非冗余精选蛋白质晶体结构上训练了一个简单的卷积神经网络（1D-CNN），利用描述局部蛋白质环境的一组几何和拓扑特征，来预测设计区域内残基位点每种氨基酸类型的可能性。虽然该模型可直接用于对诱变筛选产生的模板进行排序，但我们通过开发一个序列/突变生成器扩展了其应用范围，该生成器使用蒙特卡洛采样优化所需的多变量分布。通过一个案例研究——稳定异二聚体Fc（HetFc）抗体结构域的设计——我们展示了可以进一步引入Metropolis准则来偏置采样，以增强诸如异二聚体结合特异性等特征，除了原始采样目标即增强稳定性之外。我们证明ZymeSwapNet能在几分钟内生成稳定的HetFc设计，而这些设计此前需要多轮理性结构和基于物理力场的建模尝试。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.12.536512",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.12.536512",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.12.536512/index.html"
+}

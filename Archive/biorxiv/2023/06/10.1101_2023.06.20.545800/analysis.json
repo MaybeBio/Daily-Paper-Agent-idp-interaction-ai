@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.20.545800",
+  "title": "SRC family kinase inhibition rescues molecular and behavioral phenotypes, but not protein interaction network dynamics, in a mouse model of Fragile X syndrome",
+  "authors": "Vera Stamenkovic; Jonathan D. Lautz; Felicia M. Harsh; Stephen E.P. Smith",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-23",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过蛋白质互作网络分析揭示FMRP缺失导致突触信号网络预激活，并测试SFK抑制剂对脆性X综合征表型的挽救，但对象非无序蛋白/相分离，且方法为实验网络分析而非AI/物理模拟，仅对PPI网络机制有间接启发。",
+  "abstract": "Glutamatergic synapses encode information from extracellular inputs using dynamic protein interaction networks (PINs) that undergo widespread reorganization following synaptic activity, allowing cells to distinguish between signaling inputs and generate coordinated cellular responses. Here, we investigated how Fragile X Messenger Ribonucleoprotein (FMRP) deficiency disrupts signal transduction through a glutamatergic synapse PIN. In cultured cortical neurons or acute cortical slices from P7, P17 and P60 FMR1 -/y mice, the unstimulated protein interaction networks state resembled that of wildtype littermates stimulated with neurotransmitter agonists, demonstrating resting state pre-activation of signaling networks. We identified the Src family kinase (SFK) Fyn as a network hub, because many interactions involving Fyn were pre-activated. We tested whether targeting Fyn in FMR1 -/y mice could modify disease phenotypes, and found that Saracatinib (AZD-0530), an SFK inhibitor, normalized elevated basal protein synthesis, novel object recognition memory and social behavior in FMR1 -/y mice. However, SCB treatment did not normalize the PIN to a wild-type-like state in vitro or in vivo , but rather induced extensive changes to protein complexes containing Shank3, NMDARs and Fyn. We conclude that targeting abnormal nodes of a PIN can identify potential disease-modifying drugs, but behavioral rescue does not correlate with PIN normalization.",
+  "abstract_zh": "谷氨酸能突触通过动态蛋白相互作用网络（PINs）编码来自细胞外输入的信息，这些网络在突触活动后经历广泛重组，使细胞能够区分信号输入并产生协调的细胞反应。在此，我们研究了脆性X信使核糖核蛋白（FMRP）缺乏如何破坏通过谷氨酸能突触PIN的信号转导。在来自P7、P17和P60 FMR1 -/y小鼠的培养皮层神经元或急性皮层切片中，未刺激的蛋白相互作用网络状态类似于野生型同窝小鼠经神经递质激动剂刺激后的状态，表明静息状态下信号网络已预激活。我们鉴定出Src家族激酶（SFK）Fyn为网络枢纽，因为涉及Fyn的许多相互作用均被预激活。我们测试了在FMR1 -/y小鼠中靶向Fyn是否能改善疾病表型，发现SFK抑制剂Saracatinib（AZD-0530）能恢复FMR1 -/y小鼠中升高的基础蛋白合成、新物体识别记忆和社交行为。然而，SCB处理在体外或体内均未将PIN恢复至野生型样状态，反而诱导了含有Shank3、NMDARs和Fyn的蛋白复合物的广泛变化。我们得出结论，靶向PIN的异常节点可识别潜在的疾病修饰药物，但行为恢复与PIN正常化并不相关。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.20.545800",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.20.545800",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.20.545800/index.html"
+}

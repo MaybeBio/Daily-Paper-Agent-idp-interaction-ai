@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "40398752",
+    "doi": "10.1016/j.drudis.2025.104382",
+    "title": "Computational methods for modeling protein-protein interactions in the AI era: Current status and future directions."
+  },
+  "content": {
+    "abstract": "The modeling of protein-protein interactions (PPIs) has been revolutionized by artificial intelligence, with deep learning and end-to-end frameworks such as AlphaFold and its derivatives now dominating the field. This review surveys the current computational landscape for predicting protein complex structures, outlining the role of traditional docking approaches as well as focusing on recent advances in AI-driven methods. We discuss key challenges, including protein flexibility, reliance on co-evolutionary signals, modeling of large assemblies, and interactions involving intrinsically disordered regions (IDRs). Recent innovations aimed at improving sampling diversity, integrating experimental data, and enhancing robustness are also highlighted. Although classical methods remain relevant in specific contexts, the continued evolution of AI-based tools offers transformative potential for structural biology. These advances are poised to deepen our understanding of biomolecular interactions and accelerate the design of therapeutic interventions.",
+    "keywords": [
+      "artificial intelligence",
+      "complex structure prediction",
+      "deep learning",
+      "protein-protein docking",
+      "protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "*Artificial Intelligence",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Proteins/chemistry/metabolism",
+      "*Protein Interaction Mapping/methods",
+      "Protein Binding",
+      "Models, Molecular",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Hao",
+        "Nithin, Chandran",
+        "Kmiecik, Sebastian",
+        "Huang, Sheng-You"
+      ],
+      "short_names": [
+        "Li H",
+        "Nithin C",
+        "Kmiecik S",
+        "Huang SY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Physics, Huazhong University of Science and Technology, Wuhan, Hubei 430074, China.",
+        "University of Warsaw, Biological and Chemical Research Centre, Faculty of Chemistry, Warsaw, Poland.",
+        "University of Warsaw, Biological and Chemical Research Centre, Faculty of Chemistry, Warsaw, Poland. Electronic address: sekmi@chem.uw.edu.pl.",
+        "School of Physics, Huazhong University of Science and Technology, Wuhan, Hubei 430074, China. Electronic address: huangsy@hust.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Hao",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Huazhong University of Science and Technology, Wuhan, Hubei 430074, China."
+        ]
+      },
+      {
+        "full_name": "Nithin, Chandran",
+        "short_name": "Nithin C",
+        "identifiers": [],
+        "affiliations": [
+          "University of Warsaw, Biological and Chemical Research Centre, Faculty of Chemistry, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Kmiecik, Sebastian",
+        "short_name": "Kmiecik S",
+        "identifiers": [],
+        "affiliations": [
+          "University of Warsaw, Biological and Chemical Research Centre, Faculty of Chemistry, Warsaw, Poland. Electronic address: sekmi@chem.uw.edu.pl."
+        ]
+      },
+      {
+        "full_name": "Huang, Sheng-You",
+        "short_name": "Huang SY",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Huazhong University of Science and Technology, Wuhan, Hubei 430074, China. Electronic address: huangsy@hust.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug discovery today"
+    ],
+    "journal_abbrev": [
+      "Drug Discov Today"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/22 00:28",
+    "fetched_at": "2026-09-21 19:07:16"
+  },
+  "links": {
+    "cites": [
+      "42396649",
+      "42359048",
+      "42220438",
+      "41858591"
+    ],
+    "refs": [],
+    "similar": [
+      "40398752",
+      "40195117",
+      "37061423",
+      "40121710",
+      "39407556",
+      "38987470",
+      "39125995",
+      "40973394",
+      "41174317",
+      "38987469",
+      "38795564",
+      "40332289",
+      "38987466",
+      "37633550",
+      "39999605",
+      "26597230",
+      "40663654",
+      "22593000",
+      "40887563",
+      "40380914",
+      "38507213",
+      "39923288",
+      "28150242",
+      "41222234",
+      "38177398",
+      "40553329",
+      "27701780",
+      "40553326",
+      "40541232",
+      "40853597",
+      "41209584",
+      "40425414",
+      "37175454",
+      "39848140",
+      "38987465",
+      "38744148",
+      "39084437",
+      "38955920",
+      "23871100",
+      "40524056",
+      "39858535",
+      "27914049",
+      "41206113",
+      "41286386",
+      "28845596",
+      "41206398",
+      "38398585",
+      "40424178",
+      "26758670",
+      "38987476",
+      "40846079",
+      "41348251",
+      "38987467",
+      "19660471",
+      "36827465",
+      "40170305",
+      "38330793",
+      "19703312",
+      "41130640",
+      "40286982",
+      "39446541",
+      "41096653",
+      "35219216",
+      "26460190",
+      "32615514",
+      "22002942",
+      "39922965",
+      "39927816",
+      "41085653",
+      "40553344",
+      "23294579",
+      "40570050",
+      "40320311",
+      "25488330",
+      "21034480",
+      "39369244",
+      "41075082",
+      "38982912",
+      "40241963",
+      "38986166",
+      "34139639",
+      "41088961",
+      "22561014",
+      "39313455",
+      "36896624",
+      "39864242",
+      "41465283",
+      "37446831",
+      "34076296",
+      "39819459",
+      "41491252",
+      "35976160",
+      "41082567",
+      "40149959",
+      "39938866",
+      "39970826",
+      "40811188",
+      "39755458",
+      "20806233",
+      "38402744"
+    ],
+    "review": [
+      "40398752",
+      "40195117",
+      "37061423",
+      "40121710",
+      "39407556",
+      "39125995",
+      "40973394",
+      "38987469",
+      "38795564",
+      "40332289",
+      "39999605",
+      "40663654",
+      "22593000",
+      "40887563",
+      "40380914",
+      "39923288",
+      "41222234",
+      "38177398",
+      "40553329",
+      "40541232",
+      "40853597",
+      "41209584",
+      "40425414",
+      "37175454",
+      "39848140",
+      "38744148",
+      "39084437",
+      "38955920",
+      "23871100",
+      "40524056",
+      "39858535",
+      "41206113",
+      "41286386",
+      "38398585",
+      "26758670",
+      "40846079",
+      "41348251",
+      "36827465",
+      "40170305",
+      "38330793",
+      "41130640",
+      "40286982",
+      "41096653",
+      "35219216",
+      "26460190",
+      "32615514",
+      "39927816",
+      "41085653",
+      "23294579",
+      "40320311",
+      "38982912",
+      "40241963",
+      "38986166",
+      "34139639",
+      "41088961",
+      "22561014",
+      "39313455",
+      "39864242",
+      "41465283",
+      "37446831",
+      "39819459",
+      "41491252",
+      "35976160",
+      "40149959",
+      "39938866",
+      "39970826",
+      "39755458"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1359-6446(25)00095-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

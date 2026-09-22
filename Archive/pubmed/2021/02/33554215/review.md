@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) for the article "Fuzzy Association of an Intrinsically Disordered Protein with Acidic Membranes" by Hicks et al., published in JACS Au (2021), DOI 10.1021/jacsau.0c00039.
+- **Assessment boundary** Scientific content, technical soundness, and clarity of claims as presented in the provided text. No assessment of figures, tables, or supplementary materials beyond what is described in the text.
+- **Shared manuscript claim summary** The authors characterize the "extreme fuzzy" association of the disordered N-terminal region (NT) of the Mycobacterium tuberculosis divisome protein ChiZ with acidic membranes, using solution and solid-state NMR and molecular dynamics simulations. They report that NT remains disordered upon binding, that Arg residues in the C-terminal half of NT mediate membrane contacts via hydrogen bonding with acidic lipids, that acidic residues in the N-terminal half compete with lipids for Arg interactions, and that membrane tethering via the transmembrane helix accentuates an intrinsic asymmetry between the two halves of NT. They propose "semispecific" recognition as a general mechanism for disordered protein–membrane targeting.
+- **Visible evidence base** Text descriptions of NMR experiments (1H–15N HSQC, MAS 13C INEPT/CP, paramagnetic relaxation enhancement with Gd3+), MD simulation protocols and analyses (contact probabilities, hydrogen bonding, co-occurrence networks), and comparative analyses across three ChiZ constructs (ChiZ1-64, ChiZ1-86, ChiZ-FL).
+- **Missing materials affecting confidence** Figures, tables, and supplementary materials (including Movies S1–S3, Figures S1–S13) are referenced but not provided. Specific numerical data (e.g., chemical shift values, contact probability values, simulation convergence metrics) are not available. Experimental details for some NMR measurements (e.g., relaxation delays, temperature, field strengths for solid-state experiments) are incomplete.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and challenging question in membrane biology: how intrinsically disordered proteins associate with membranes in a highly dynamic, "fuzzy" manner. The combination of solution and solid-state NMR with extensive MD simulations is appropriate and ambitious. The central claims, that Arg residues in the C-terminal half of ChiZ NT drive membrane association and that acidic residues in the N-terminal half compete with lipids, are plausible and supported by the described data. However, the evidence as presented has notable gaps. The assignment of the putative stable motif A43PLR46 rests on limited spectral overlap and a single MD snapshot. The interpretation of paramagnetic relaxation enhancement data, particularly the claim that the spin label "senses the entire NT sequence," requires more quantitative analysis. The MD simulations, while extensive, lack clear validation against experimental observables beyond qualitative agreement. The manuscript would be strengthened by more rigorous quantitative comparisons between simulation and experiment, and by clearer presentation of the NMR assignment strategy. The conceptual framework of "semispecific" recognition is interesting but would benefit from more explicit definition and differentiation from other modes of membrane binding.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, membrane-protein interactions, bacterial cell division, and the biophysics of fuzzy complexes. The work is also relevant to those interested in the role of lipid composition in protein targeting and in the development of methods for characterizing dynamic membrane-bound states. The methodological combination of NMR and MD will appeal to a specialized but broad biophysical audience.
+- **Major strengths** The study tackles a difficult and under-characterized problem: extreme fuzzy membrane association. The combination of multiple NMR techniques (solution HSQC, solid-state INEPT/CP, paramagnetic relaxation enhancement) with extensive MD simulations is powerful and appropriate. The identification of Arg residues as key mediators of membrane contact is well supported by both experimental and computational data. The comparison across three constructs (NT alone, NT with transmembrane helix, full-length protein) provides a logical progression to dissect the role of membrane tethering. The discussion of "semispecific" recognition and the potential generalizability to other disordered membrane-associated proteins is thought-provoking and timely.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of NMR interpretation
+  - **Claim pointer** The authors claim that the CP spectrum of ChiZ1-64 bound to POPG:POPE liposomes shows a single prominent crosspeak for Arg Cα–Cβ, which they assign to a contiguous stable motif A43PLR46 in a subpopulation.
+  - **Evidence pointer** Results section "Membrane Association Is Fuzzy But There Is Hint for a Subpopulation with a Stable Binding Motif"; Figure 3a,b (not provided)
+  - **Concern** The assignment of the CP crosspeak to a specific contiguous motif (A43PLR46) is not adequately justified. The text states that the CP crosspeak overlaps with the non-RP Arg crosspeak in the INEPT spectrum, but this overlap alone does not establish that the signal arises from a single contiguous stretch. The authors note that "there is only a single such stretch, A43PLR46," but this assertion is based on sequence inspection, not on experimental evidence. The possibility that the CP signal arises from multiple Arg residues in different regions, or from a non-contiguous set of residues that are spatially clustered, is not excluded. The MD snapshot referenced (Figure S3) is not described in sufficient detail to assess whether it represents a dominant or rare conformation.
+  - **Why it matters** The claim of a stable binding motif is a specific and potentially important finding, but if the assignment is not robust, the conclusion is overstated. This affects the overall interpretation of the fuzzy complex and the proposed "semispecific" mechanism.
+  - **Resolution test** Provide additional experimental evidence for the assignment, such as site-specific labeling or mutagenesis of Arg residues within A43PLR46, or show that the CP crosspeak intensity is consistent with a single residue. Alternatively, present a more detailed analysis of the MD ensemble to demonstrate that A43PLR46 is a statistically dominant contiguous contact region.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for claims
+  - **Claim pointer** The authors claim that "lipids quickly redistribute, with acidic lipids, relative to zwitterionic lipids, preferentially taking up Arg-proximal positions" and that "the spin label senses the entire NT sequence" in ChiZ-FL.
+  - **Evidence pointer** Results sections "Arg Residues Engage in Direct Interactions with Lipid Headgroups" and "NT is Anchored to Membranes by Arg Residues in the Midsection"; Figure 4d (not provided)
+  - **Concern** The paramagnetic relaxation enhancement data are described qualitatively. The text states that Arg Cδ sites experience "the strongest loss of intensity" and that there is a "general loss in 1H–13C signals," but no quantitative metrics (e.g., intensity ratios, distance estimates) are provided. The claim that the spin label "senses the entire NT sequence" is based on a general loss of signal, but this could also arise from non-specific effects or from a subset of residues with particularly strong relaxation enhancement. The interpretation that lipids "quickly redistribute" is not directly supported by any time-resolved measurement; it is inferred from the MD simulations, but the timescale of lipid redistribution relative to the NMR observation window is not discussed.
+  - **Why it matters** The dynamic redistribution of lipids is a central aspect of the proposed "fuzzy" and "semispecific" mechanism. Without quantitative support, the claim remains speculative. The interpretation of the paramagnetic relaxation enhancement data is critical for identifying which residues contact the membrane, and a qualitative description is insufficient to support the strong conclusions drawn.
+  - **Resolution test** Provide quantitative intensity ratios for all resolved resonances in the presence and absence of the spin label, with estimates of uncertainty. Show that the loss of signal is consistent with a model where all NT residues are within a certain distance of the membrane surface. For the lipid redistribution claim, present a time-resolved analysis from the MD simulations showing the equilibration of lipid composition around Arg residues.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation of MD simulations
+  - **Claim pointer** The authors use MD simulations to interpret NMR data and to make quantitative claims about contact probabilities, hydrogen bonding, and the asymmetry between the N- and C-halves of NT.
+  - **Evidence pointer** Results sections "NT is Anchored to Membranes by Arg Residues in the Midsection" and "Competition between Acidic Residues and POPG Contributes to Asymmetry"; Figures 5, 6, 7 (not provided)
+  - **Concern** The MD simulations are described as "crucial" for interpreting the NMR data, but there is no explicit validation of the simulations against experimental observables. For example, the contact probabilities (Ci) are compared qualitatively to the paramagnetic relaxation enhancement data, but no quantitative correlation is shown. The force field combination (AMBER14SB, TIP4P-D, Lipid17) is appropriate, but the sensitivity of the results to force field parameters is not discussed. The simulation times (up to 1.9 μs) are substantial, but convergence of the contact probabilities is not demonstrated.
+  - **Why it matters** The MD simulations provide the atomistic detail that supports the proposed mechanism. If the simulations are not validated or if the results are not converged, the mechanistic conclusions are weakened.
+  - **Resolution test** Show a quantitative comparison between simulated contact probabilities and experimental paramagnetic relaxation enhancement data (e.g., a correlation plot). Provide an analysis of convergence (e.g., block averaging) for the contact probabilities. Discuss the potential impact of force field choices on the key conclusions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the proposed mechanism
+  - **Claim pointer** The authors propose that "semispecific" recognition, as exemplified by ChiZ NT, "may be a general mechanism by which disordered proteins target membranes."
+  - **Evidence pointer** Discussion section
+  - **Concern** The claim of generalizability is based on a single protein system. While the authors discuss α-synuclein and the Wiscott–Aldritch Syndrome protein, they do not provide a systematic comparison of sequence features or binding modes across these systems. The term "semispecific" is introduced but not rigorously defined; it is unclear how it differs from other descriptions of fuzzy or non-specific binding. The authors do not discuss potential limitations of their model system (e.g., the use of a 7:3 POPG:POPE lipid mixture, which may not represent physiological membranes).
+  - **Why it matters** The claim of generalizability is a key part of the paper's significance. Without a more careful definition and comparative analysis, the claim is not well supported.
+  - **Resolution test** Provide a more explicit definition of "semispecific" and discuss how it applies to other known disordered protein–membrane systems. Alternatively, temper the claim of generalizability and frame it as a hypothesis requiring further testing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The term "frolics" in the abstract is informal and may not be appropriate for a broad scientific audience. The Introduction could more clearly distinguish the "extreme fuzzy" complex studied here from other types of fuzzy complexes.
+  - **Required correction** Replace "frolics" with a more neutral term such as "associates dynamically" or "samples the membrane surface." Clarify the definition of "extreme fuzzy" in the Introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Materials and Methods, NMR Spectroscopy
+  - **Evidence pointer** Materials and Methods, NMR Spectroscopy
+  - **Issue** The methods section does not specify the temperature, magnetic field strength, or relaxation delays for the solid-state NMR experiments. The assignment strategy for the INEPT and CP spectra is not described in detail.
+  - **Required correction** Add the missing experimental parameters and describe the assignment strategy, including how spectral overlap was resolved.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, MD simulations
+  - **Evidence pointer** Results sections on MD simulations
+  - **Issue** The text reports average numbers of hydrogen bonds (e.g., "2.5 NT Arg residues... hydrogen bond with POPG lipids") without error estimates or information on the distribution across trajectories.
+  - **Required correction** Provide standard deviations or confidence intervals for these averages, and state the number of independent trajectories and frames used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of sequence conservation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The authors mention conservation of Arg residues in ChiZ homologues but do not provide a sequence alignment or statistical analysis to support this claim.
+  - **Required correction** Include a supplementary figure with a sequence alignment of ChiZ homologues and highlight the conserved Arg residues.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (assignment of A43PLR46), R1-M2 (quantitative support for paramagnetic relaxation enhancement and lipid redistribution claims). These are the primary technical issues that, if unresolved, would prevent the core conclusions from being fully established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study addresses a genuinely under-explored area: extreme fuzzy membrane association of a disordered protein. The combination of NMR and MD is not entirely novel, but the application to this specific problem and the focus on residue-level dynamics is original.
+  - **Scientific importance** The work has potential significance for understanding bacterial cell division and the general principles of disordered protein–membrane interactions. However, the importance is somewhat limited by the lack of functional validation (e.g., showing that the observed membrane association is required for ChiZ function in vivo).
+  - **Interdisciplinary readership** The topic bridges structural biology, biophysics, and membrane biology, and should appeal to researchers in these fields. The writing is generally accessible, though some sections (e.g., the MD analysis) may be challenging for non-specialists.
+  - **Technical soundness** The experimental and computational approaches are appropriate, but the analysis has gaps as detailed in the Major Concerns. The lack of quantitative rigor in some areas weakens the technical soundness.
+  - **Readability for nonspecialists** The abstract and introduction are clear, but the results section is dense and assumes significant background knowledge in NMR and MD. The concept of "semispecific" recognition is introduced but could be explained more clearly.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important and timely question, and the overall approach is sound. However, the specific concerns about the assignment of the stable motif and the quantitative support for the paramagnetic relaxation enhancement and lipid redistribution claims must be addressed before the core conclusions can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that A43PLR46 forms a stable binding motif in a subpopulation is not sufficiently supported by the presented evidence.
+- The claim that lipids "quickly redistribute" is not directly supported by time-resolved data.
+- The claim that the spin label "senses the entire NT sequence" is based on qualitative observations and requires quantitative analysis.
+- The claim that "semispecific" recognition is a general mechanism for disordered protein–membrane targeting is speculative and not supported by comparative analysis across multiple systems.
+- The statement that the NT of ChiZ homologues has a conserved C-terminal half is not supported by a sequence alignment or statistical analysis.

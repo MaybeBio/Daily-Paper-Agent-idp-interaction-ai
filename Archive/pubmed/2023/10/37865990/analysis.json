@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37865990",
+  "title": "Genipin and pyrogallol: Two natural small molecules targeting the modulation of disordered proteins in Alzheimer's disease.",
+  "authors": "Kim, Sujin; Hyun, Da Gyeong; Nam, Yunkwon; Shin, Soo Jung; Im, Dongjoon; Kim, Hyeon Soo; Leem, Seol Hwa; Park, Hyun Ha; Kim, Byeong-Hyeon; Park, Yong Ho; Cho, Eunbi; Goddard, William A 3rd; Kim, Dong Hyun; Kim, Hugh I; Moon, Minho",
+  "journal": "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie",
+  "published_date": "2023-10-23",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究筛选天然小分子genipin和pyrogallol，通过MD和对接模拟揭示其与Aβ和tau无序蛋白的互作机制，抑制聚集并解聚纤维，虽对象为无序蛋白且含物理模拟，但互作对象是小分子而非PPI，机制深度有限。",
+  "abstract": "Alzheimer's disease (AD) is characterized by the aggregation of disordered proteins, such as amyloid beta (Abeta) and tau, leading to neurotoxicity and disease progression. Despite numerous efforts, effective inhibitors of Abeta and tau aggregates have not been developed. Thus, we aimed to screen natural small molecules from crude extracts that target various pathologies and are prescribed for patients with neurological diseases. In this study, we screened 162 natural small molecules prescribed for neurological diseases and identified genipin and pyrogallol as hit compounds capable of simultaneously regulating the aggregation of Abeta and tau K18. Moreover, we confirmed the dual modulatory effects of these compounds on the reduction of amyloid-mediated neurotoxicity in vitro and the disassembly of preformed Abeta(42) and tau K18 fibrils. Furthermore, we observed the alleviatory effects of genipin and pyrogallol against AD-related pathologies in triple transgenic AD mice. Molecular dynamics and docking simulations revealed the molecular interaction dynamics of genipin and pyrogallol with Abeta(42) and tau K18, providing insights into their suppression of aggregation. Our findings suggest the therapeutic potential of genipin and pyrogallol as dual modulators for the treatment of AD by inhibiting aggregation or promoting dissociation of Abeta and tau.",
+  "abstract_zh": "阿尔茨海默病（Alzheimer's disease, AD）的特征是淀粉样蛋白β（amyloid beta, Abeta）和tau等无序蛋白的聚集，导致神经毒性和疾病进展。尽管付出了诸多努力，针对Abeta和tau聚集的有效抑制剂尚未开发成功。因此，我们旨在从粗提物中筛选靶向多种病理过程且用于神经疾病患者处方的天然小分子。在本研究中，我们筛选了162种用于神经疾病的天然小分子，并鉴定出京尼平（genipin）和焦性没食子酸（pyrogallol）为能够同时调控Abeta和tau K18聚集的命中化合物。此外，我们确认了这些化合物在体外减少淀粉样蛋白介导的神经毒性以及解聚预形成的Abeta(42)和tau K18纤维中的双重调节作用。进一步地，我们在三重转基因AD小鼠中观察到京尼平和焦性没食子酸对AD相关病理的缓解效果。分子动力学和对接模拟揭示了京尼平和焦性没食子酸与Abeta(42)和tau K18的分子相互作用动态，为其抑制聚集提供了见解。我们的发现表明，京尼平和焦性没食子酸作为双重调节剂，通过抑制Abeta和tau的聚集或促进其解离，具有治疗AD的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37865990/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37865990/",
+  "paper_page_path": "papers/pubmed/37865990/index.html"
+}

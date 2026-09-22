@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40588121",
+  "title": "Condensate Formation of the Human RNA-binding Protein SMAUG1 is Controlled by its Intrinsically Disordered Regions and Interactions with 14-3-3 Proteins.",
+  "authors": "Carey, Olivia; Fehilly, John; O'Leary, Eoghan Thomas; O'Shea, Stephen; Juda, Klaudia; Fitzel, Rahel; Selvaraj, Pooja; Burk, Katja; Lindsay, Andrew J; Young, Paul; Pancsa, Rita; Meszaros, Balint; Dean, Kellie",
+  "journal": "Journal of molecular biology",
+  "published_date": "2025-07-01",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合计算预测、结构建模与生化/细胞实验，揭示SMAUG1的朊病毒样无序区驱动液-液相分离，并由14-3-3蛋白通过多个磷酸化短线性基序协同结合来负调控凝聚体溶解，直接聚焦IDR介导的PPI与相分离机制建模。",
+  "abstract": "SMAUG1 is a human RNA-binding protein (RBP) that is dysregulated in a wide range of diseases. It is evolutionarily conserved and forms condensates containing translationally repressed RNAs. This indicates that condensation is central to SMAUG1 function. In this work, we show that a prion-like disordered region within the C-terminal half of SMAUG1 is required, but not sufficient, to drive formation of liquid-like condensates in cells. We use biochemical assays to show that SMAUG1 liquid-liquid phase separation (LLPS) appears to be independent of RNA binding and does not depend on other large, disordered regions of the protein that potentially harbor several binding sites for partner proteins. Using a combination of computational predictions, structural modeling, in vitro and in cell measurements, we show that SMAUG1-driven condensation is negatively regulated by direct interactions with members of the 14-3-3 protein family. These interactions are mediated by at least four distinct phospho-regulated short linear motifs within the disordered regions of SMAUG1, working synergistically. Interactions between SMAUG1 and dimeric 14-3-3 proteins drive the dissolution of condensates and are likely intertwined with other unknown regulatory mechanisms. Interestingly, a monomeric 14-3-3 variant cannot induce condensate dissolution, suggesting that the conformational constraints imposed on the SMAUG1 polypeptide chain by dimeric 14-3-3 proteins, potentially bridging distant binding sites, are important for the described phase separation-regulatory mechanism. Our results reinforce recent findings on the general regulatory role of 14-3-3 proteins in biological condensation and provide valuable novel insights into how SMAUG1 phase separation is regulated.",
+  "abstract_zh": "SMAUG1是一种人类RNA结合蛋白（RBP），在多种疾病中表达失调。它在进化上高度保守，并形成含有翻译抑制RNA的凝聚体。这表明凝聚作用对SMAUG1功能至关重要。在本研究中，我们展示了SMAUG1 C端一半内的朊病毒样无序区域是驱动细胞中液体样凝聚体形成所必需的，但并非充分条件。我们通过生化实验表明，SMAUG1的液-液相分离（LLPS）似乎独立于RNA结合，并且不依赖于蛋白质中可能含有多个伙伴蛋白结合位点的其他大型无序区域。结合计算预测、结构建模、体外和细胞内测量，我们证明SMAUG1驱动的凝聚作用受到与14-3-3蛋白家族成员直接相互作用的负调控。这些相互作用由SMAUG1无序区域内至少四个不同的磷酸化调控短线性基序介导，并协同作用。SMAUG1与二聚体14-3-3蛋白之间的相互作用驱动凝聚体解离，并可能与其他未知调控机制交织在一起。有趣的是，单体14-3-3变体无法诱导凝聚体解离，这表明二聚体14-3-3蛋白对SMAUG1多肽链施加的构象约束（可能桥接远距离结合位点）对于所描述的相分离调控机制至关重要。我们的结果强化了近期关于14-3-3蛋白在生物凝聚中普遍调控作用的发现，并为SMAUG1相分离如何被调控提供了有价值的新见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40588121/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40588121/",
+  "paper_page_path": "papers/pubmed/40588121/index.html"
+}

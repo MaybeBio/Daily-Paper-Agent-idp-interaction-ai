@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36714997",
+  "title": "Mutational scan inferred binding energetics and structure in intrinsically disordered protein CcdA.",
+  "authors": "Chandra, Soumyanetra; Manjunath, Kavyashree; Asok, Aparna; Varadarajan, Raghavan",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2023-01-31",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过深度突变扫描定量解析无序蛋白CcdA的结合能量与界面结构，并建立预测突变效应的模型，虽无AI/物理模拟方法，但聚焦IDP互作机制建模，对本课题有方法学启发。",
+  "abstract": "Unlike globular proteins, mutational effects on the function of Intrinsically Disordered Proteins (IDPs) are not well-studied. Deep Mutational Scanning of a yeast surface displayed mutant library yields insights into sequence-function relationships in the CcdA IDP. The approach enables facile prediction of interface residues and local structural signatures of the bound conformation. In contrast to previous titration-based approaches which use a number of ligand concentrations, we show that use of a single rationally chosen ligand concentration can provide quantitative estimates of relative binding constants for large numbers of protein variants. This is because the extended interface of IDP ensures that energetic effects of point mutations are spread over a much smaller range than for globular proteins. Our data also provides insights into the much-debated role of helicity and disorder in partner binding of IDPs. Based on this exhaustive mutational sensitivity dataset, a rudimentary model was developed in an attempt to predict mutational effects on binding affinity of IDPs that form alpha-helical structures upon binding.",
+  "abstract_zh": "与球状蛋白不同，内在无序蛋白（IDPs）功能上的突变效应研究尚不充分。通过对酵母表面展示的突变体文库进行深度突变扫描，我们获得了关于CcdA IDP序列-功能关系的见解。该方法便于预测界面残基及结合构象的局部结构特征。与先前基于滴定的方法（需使用多种配体浓度）相比，我们证明，使用单一合理选择的配体浓度即可为大量蛋白质变体提供相对结合常数的定量估计。这是因为IDP的扩展界面确保了点突变的能量效应分布范围远小于球状蛋白。我们的数据还为IDP结合伴侣中螺旋性和无序性的争议性作用提供了见解。基于这一详尽的突变敏感性数据集，我们开发了一个初步模型，旨在预测结合时形成α-螺旋结构的IDP突变对结合亲和力的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36714997/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36714997/",
+  "paper_page_path": "papers/pubmed/36714997/index.html"
+}

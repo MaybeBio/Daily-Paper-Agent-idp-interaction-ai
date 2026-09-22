@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors used AlphaFold and OmegaFold to predict structures of 71 candidate effector proteins from *Myzus persicae*, observed a continuous spectrum from disordered to globular structures, and used these predictions to infer protein function and interactions with host plant proteins, with the aim of guiding experimental validation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full methods, prediction confidence metrics (e.g., pLDDT, PAE), dataset details, interaction prediction methodology, validation or benchmarking against known effectors, and any experimental corroboration
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and timely computational study that leverages recent advances in protein structure prediction to address a biologically and agriculturally relevant question. However, the claims regarding functional and interaction predictions are not supported by the evidence visible in the abstract, and the absence of methodological detail and validation metrics prevents assessment of technical soundness. The study is positioned as hypothesis-generating, which is appropriate, but the current abstract overstates the reliability of computational inferences without presenting confidence measures or benchmarking.
+- **Who would be interested in the results, and why** Researchers studying insect-plant interactions, particularly aphid effector biology and host susceptibility mechanisms, would find the structural catalog useful. Computational biologists working on protein structure prediction applications to non-model organisms may also be interested. Agricultural scientists focused on pest management strategies could use these predictions to prioritize targets for functional studies.
+- **Major strengths** The study addresses a significant gap in aphid effector biology by applying state-of-the-art structure prediction tools. The use of two independent prediction methods (AlphaFold and OmegaFold) with reported mutual consistency is a reasonable approach to increase confidence. The focus on a continuous structural spectrum, rather than binary classification, reflects a nuanced understanding of effector diversity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that structural information was used to predict effector protein function and interaction with host plant proteins.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that function and interaction predictions were made, but no details are given on the computational methods used for these predictions, the confidence thresholds applied, or any benchmarking against known effectors or interaction databases. Without this information, the reliability of these predictions cannot be evaluated.
+  - **Why it matters** Functional and interaction predictions derived solely from predicted structures are prone to false positives and require careful validation. If the methods are not described or benchmarked, readers cannot assess whether the claims are robust or speculative.
+  - **Resolution test** Provide a description of the prediction pipelines, including any docking, interface prediction, or homology-based approaches, and include validation metrics such as comparison to experimentally characterized effectors or known protein-protein interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that AlphaFold and OmegaFold produced mutually consistent results.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not report any quantitative measure of consistency between the two prediction methods, such as TM-score, RMSD, or per-residue confidence agreement. The claim of mutual consistency is therefore unsupported.
+  - **Why it matters** Agreement between methods is a key justification for trusting predicted structures, especially in the absence of experimental validation. Without quantitative metrics, the claim is anecdotal and cannot be independently assessed.
+  - **Resolution test** Report a quantitative comparison metric for the 71 predicted structures, including a distribution of similarity scores and a threshold used to define consistency.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality and scientific importance
+  - **Claim pointer** The authors claim the study provides novel insights into prediction of structure, function, and interaction of *M. persicae* effector proteins.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify what is novel relative to existing computational studies of effector proteins in other aphids or related insects. The claim of novelty is asserted but not contextualized against prior work.
+  - **Why it matters** For a computational study, novelty must be demonstrated by comparison to existing predictions or by identifying previously unrecognized structural features. Without this context, the contribution is unclear.
+  - **Resolution test** Add a brief comparison to prior effector structure prediction studies, highlighting specific new findings or methodological advances.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "wide continuous spectrum of structures" is vague and could be misinterpreted. It is unclear whether this refers to a gradient of disorder, fold diversity, or something else.
+  - **Required correction** Clarify the structural spectrum by specifying the criteria used, such as predicted disorder content, secondary structure composition, or fold classification.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Selection criteria for effector candidates
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that 71 effector candidate proteins were analyzed but does not explain how these candidates were selected from the available proteomics and transcriptomics datasets.
+  - **Required correction** Briefly state the selection criteria, such as secretion signal presence, expression in salivary glands, or homology to known effectors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Interaction prediction methodology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions prediction of interaction with host plant proteins but does not indicate whether this was based on docking, co-evolution, or other approaches.
+  - **Required correction** Name the specific interaction prediction method used and note any limitations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of functional prediction and method consistency are not supported by the provided evidence. R1-M3 is non-blocking but should be addressed to establish novelty.
+- **Assessment against Nature-style criteria**  
+  - Originality: The application of structure prediction to aphid effectors is timely but not clearly differentiated from prior computational studies; originality is currently not established.  
+  - Scientific importance: The topic is relevant to plant-insect interactions and pest biology, but the importance of the findings depends on the reliability of the predictions, which is not yet demonstrated.  
+  - Interdisciplinary readership: The work bridges structural biology, computational biology, and entomology, which could appeal to a broad audience, but the abstract is too technical in places and lacks context for non-specialists.  
+  - Technical soundness: Not assessable from the abstract; the absence of confidence metrics and methodological detail is a major limitation.  
+  - Readability for nonspecialists: The abstract is generally clear but uses terms like "continuous spectrum" without definition, which may confuse readers outside the field.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not support the claims of reliable function and interaction prediction. A revised version with quantitative consistency metrics, methodological detail, and contextualization against prior work would be needed to assess suitability.
+
+## Risk / unsupported claims
+- The claim that AlphaFold and OmegaFold produced mutually consistent results is unsupported without quantitative metrics.
+- The claim that structural information was used to predict function and interaction is unsupported without methodological detail or validation.
+- The claim of "novel insights" is not substantiated without comparison to existing literature.
+- The generalizability of the findings to other aphid species or effector families is not addressed and cannot be inferred from the abstract.

@@ -1,0 +1,275 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.08.602551",
+  "title": "An avidity-driven mechanism of extracellular BMP regulation by Twisted gastrulation",
+  "doi": "10.1101/2024.07.08.602551",
+  "abstract": "During dorsoventral patterning of bilaterian embryos, the conserved regulator Twisted gastrulation (Tsg) modulates BMP signalling by binding Chordin/Short gastrulation (Sog). Here we elucidate the mechanism by which Tsg interacts with Sog/Chordin to promote formation of the inhibitory Tsg-Sog/Chordin-BMP complex and regulate BMP signalling extracellularly. We identify and validate in vitro a hydrophobic interface in the Tsg C-terminal domain that binds Chordin. Mutation of this epitope in Drosophila Tsg (Tsg L100A ) results in an unexpectedly mild perturbation to embryonic BMP gradient formation. We show that a protosome-specific Tsg C-terminal extension also binds Sog, and the presence of this second binding site allows partial rescue of Sog interaction with Tsg L100A in the presence of BMP. Consistent with this, a truncated Tsg protein lacking both Sog binding regions is unable to support BMP gradient formation in vivo . As our data show that disruption of either Sog binding site in Tsg, but not both, can be overcome by Tsg-BMP and Sog-BMP interactions, we present a new avidity-driven mechanism of BMP gradient formation that will be relevant to a broad range of developmental contexts. <h4>Summary statement</h4> Identification and mutational analysis of the binding epitopes that mediate Twisted gastrulation interaction with Short gastrulation/Chordin reveals an avidity-based model of embryonic BMP gradient formation.",
+  "authors": [
+    "Moore G",
+    "Revici R",
+    "Forbes Beadle L",
+    "Sutcliffe C",
+    "Birchenough H",
+    "Baldock C",
+    "Ashe HL"
+  ],
+  "published_date": "2024-07-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.08.602551",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.08.602551.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR878892",
+    "raw_record": {
+      "id": "PPR878892",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR878892"
+        ]
+      },
+      "doi": "10.1101/2024.07.08.602551",
+      "title": "An avidity-driven mechanism of extracellular BMP regulation by Twisted gastrulation",
+      "authorString": "Moore G, Revici R, Forbes Beadle L, Sutcliffe C, Birchenough H, Baldock C, Ashe HL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Moore G",
+            "lastName": "Moore",
+            "firstName": "Gareth",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6598-646X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Revici R",
+            "lastName": "Revici",
+            "firstName": "Raluca",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0982-3700"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Forbes Beadle L",
+            "lastName": "Forbes Beadle",
+            "firstName": "Lauren",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sutcliffe C",
+            "lastName": "Sutcliffe",
+            "firstName": "Catherine",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Birchenough H",
+            "lastName": "Birchenough",
+            "firstName": "Holly",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8379-7830"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biomolecular Analysis Core Facility, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baldock C",
+            "lastName": "Baldock",
+            "firstName": "Clair",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Manchester Cell-Matrix Centre, Faculty of Biology, Medicine and Health, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ashe HL",
+            "lastName": "Ashe",
+            "firstName": "Hilary",
+            "initials": "HL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6598-646X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8379-7830"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0982-3700"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "During dorsoventral patterning of bilaterian embryos, the conserved regulator Twisted gastrulation (Tsg) modulates BMP signalling by binding Chordin/Short gastrulation (Sog). Here we elucidate the mechanism by which Tsg interacts with Sog/Chordin to promote formation of the inhibitory Tsg-Sog/Chordin-BMP complex and regulate BMP signalling extracellularly. We identify and validate  in vitro a hydrophobic interface in the Tsg C-terminal domain that binds Chordin. Mutation of this epitope in  Drosophila Tsg (Tsg  L100A ) results in an unexpectedly mild perturbation to embryonic BMP gradient formation. We show that a protosome-specific Tsg C-terminal extension also binds Sog, and the presence of this second binding site allows partial rescue of Sog interaction with Tsg  L100A in the presence of BMP. Consistent with this, a truncated Tsg protein lacking both Sog binding regions is unable to support BMP gradient formation  in vivo . As our data show that disruption of either Sog binding site in Tsg, but not both, can be overcome by Tsg-BMP and Sog-BMP interactions, we present a new avidity-driven mechanism of BMP gradient formation that will be relevant to a broad range of developmental contexts.  <h4>Summary statement</h4>  Identification and mutational analysis of the binding epitopes that mediate Twisted gastrulation interaction with Short gastrulation/Chordin reveals an avidity-based model of embryonic BMP gradient formation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/V008099/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "203128/Z/16/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/M011208/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.07.08.602551"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.07.08.602551"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR878892"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR878892&type=FILE&fileName=EMS197479-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41503687",
+            "reference": "Development (Cambridge, England). 2026 Aug;153(16):dev204584",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS197479",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "cellosaurus",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-07-12",
+      "firstPublicationDate": "2024-07-10",
+      "firstIndexDate": "2024-07-12",
+      "fullTextReceivedDate": "2025-12-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

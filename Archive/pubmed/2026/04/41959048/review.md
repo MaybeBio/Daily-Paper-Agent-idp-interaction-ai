@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusions) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, and clarity of claims based solely on the supplied text; no external data or code verification performed
+- **Shared manuscript claim summary** The authors present IDBSpred, a sequence-based machine learning method using ESM-2 protein language model embeddings and a multilayer perceptron to predict IDP-binding residues on structured protein partners, trained on the DIBS database, achieving ROC AUC 0.87 and average precision 0.61, with amino acid composition analysis and structural case studies supporting the approach
+- **Visible evidence base** Abstract, Introduction, Model and Methods, Results, Conclusions, Figure references (Figures 1-4), one GitHub repository link
+- **Missing materials affecting confidence** No actual figures or figure data provided; no quantitative performance metrics beyond ROC AUC and average precision; no details on dataset splitting strategy (e.g., sequence identity thresholds); no baseline comparisons; no statistical significance tests; no hyperparameter tuning details; no cross-validation results; no error analysis; no code or data availability verification
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and understudied problem in computational biology, namely the prediction of IDP-binding sites on structured protein partners. The use of ESM-2 embeddings with a simple MLP is a reasonable and modern approach. However, the current manuscript lacks critical methodological details and rigorous evaluation that would be necessary to establish the validity and generalizability of the proposed method. The performance metrics reported are modest and presented without comparison to existing tools or baselines, making it difficult to assess the actual contribution. The structural case studies are described qualitatively without quantitative overlap measures. The manuscript is clearly written and accessible, but the scientific case is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein-protein interactions, and computational drug discovery would be interested. The method could be useful for identifying potential therapeutic hotspots on structured proteins that interact with IDPs, which is relevant for designing peptide-based or small-molecule therapeutics. The approach of using protein language model embeddings is also of general interest to the machine learning for biology community.
+- **Major strengths** The problem addressed is important and relatively underexplored. The use of ESM-2 embeddings is current and appropriate. The manuscript is well-written and logically structured. The amino acid composition analysis provides useful biological insight. The method is simple and potentially reproducible, given the code availability statement.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim the model achieves "an ROC AUC of 0.87 and an average precision of 0.61" and that this demonstrates "strong overall discrimination ability"
+  - **Evidence pointer** Results section, Figure 3
+  - **Concern** The performance evaluation is incomplete. Only ROC AUC and average precision are reported, without a confusion matrix with actual counts, precision, recall, F1-score, or Matthews correlation coefficient. More critically, there is no comparison to any baseline or existing method, such as Disobind, which is cited in the introduction. The dataset splitting strategy is not described in sufficient detail, particularly regarding sequence identity thresholds to prevent data leakage between training and test sets. No cross-validation is performed, and the reported metrics are from a single random split, which may not be representative.
+  - **Why it matters** Without proper baselines and robust evaluation, the claimed performance cannot be contextualized. A simple baseline, such as predicting all residues as non-binding, would likely achieve high accuracy given the class imbalance, and the reported average precision of 0.61 needs to be interpreted against such a baseline. The lack of cross-validation and unclear data splitting raises concerns about overfitting and generalizability.
+  - **Resolution test** The authors should provide a comprehensive evaluation including precision, recall, F1-score, and MCC, compare against at least one existing method or a simple sequence-based baseline, describe the dataset splitting strategy with sequence identity thresholds, and perform cross-validation or multiple random splits with variance estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the predicted sites largely recapitulate the major experimentally defined binding interfaces" based on structural case studies
+  - **Evidence pointer** Results section, Figure 4
+  - **Concern** The structural case studies are described only qualitatively. No quantitative measures of overlap between predicted and experimental binding sites are provided, such as precision, recall, or Jaccard index at the residue level. The selection criteria for the three representative complexes are not stated, which introduces potential selection bias. The figure itself is not available for inspection in the provided material.
+  - **Why it matters** Qualitative visual comparison is insufficient to support the claim of recapitulation. Without quantitative metrics, the reader cannot assess the accuracy of the predictions on these examples, and the choice of examples may not be representative of overall performance.
+  - **Resolution test** The authors should provide quantitative overlap metrics for the case studies, state the selection criteria for the examples, and ideally show a distribution of such metrics across a larger set of test complexes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "IDBSpred provides a practical framework for studying IDP-mediated interfaces and identifying potential therapeutic hotspots"
+  - **Evidence pointer** Abstract, Conclusions
+  - **Concern** The practical utility of the method is not demonstrated. No example of how the predictions could be used to identify therapeutic hotspots is provided. The method is purely sequence-based and does not incorporate structural information, which may limit its practical applicability for drug design. The improvement over existing methods is not established.
+  - **Why it matters** The claimed practical relevance is a key motivation for the work. Without a demonstration of utility or a clear advantage over existing tools, the significance of the contribution is unclear.
+  - **Resolution test** The authors should either provide a concrete example of how IDBSpred predictions could inform experimental or therapeutic studies, or temper the claims of practical utility to match the demonstrated capabilities.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The sentence "At least 33% of eukaryotic proteins contain regions that does not possess any stable structure" contains a grammatical error ("regions that does" should be "regions that do").
+  - **Required correction** Correct the grammatical error to "regions that do not possess any stable structure."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Model training
+  - **Evidence pointer** Model and Methods, Model training
+  - **Issue** The description of the train/test split is vague: "All positive and negative residues extracted from the database were randomly divided into training and test sets." It is unclear whether the split was performed at the residue level or the protein level. Residue-level splitting can lead to data leakage, as residues from the same protein may appear in both training and test sets.
+  - **Required Correction** Clarify the splitting unit. If residue-level splitting was used, justify this choice or perform protein-level splitting to avoid potential data leakage.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Model training
+  - **Evidence pointer** Model and Methods, Model training
+  - **Issue** The number of training epochs (25) and the learning rate (1e-3) are stated, but no early stopping criterion or learning rate scheduling is described. The validation loss is described as "relatively stable," but no details on model selection (e.g., best epoch based on validation loss) are provided.
+  - **Required Correction** Describe the model selection procedure, including whether early stopping was used and how the final model was chosen.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Dataset construction
+  - **Evidence pointer** Model and Methods, Based Dataset construction
+  - **Issue** The definition of "binding residues" is not precise. The authors state that residues "directly interact with the IDP" are positive, but the criteria for "direct interaction" (e.g., distance threshold in the crystal structure) are not specified.
+  - **Required Correction** Provide the specific criteria used to define binding residues from the DIBS database structures.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Results, amino acid composition analysis
+  - **Evidence pointer** Results, first paragraph
+  - **Issue** The amino acid composition analysis is described in the text, but no statistical significance is reported. The authors state that certain residues are "enriched" or "depleted" without providing confidence intervals or p-values.
+  - **Required Correction** Provide statistical measures (e.g., confidence intervals or p-values) to support the claims of enrichment and depletion.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Neural network classifier
+  - **Evidence pointer** Model and Methods, Neural network classifier
+  - **Issue** The MLP architecture is described as having one hidden layer with 128 neurons. No justification is given for this architecture choice, and no experiments with different architectures are reported.
+  - **Required Correction** Provide a brief justification for the architecture or report a small ablation study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (incomplete evaluation, no baselines, unclear data splitting), R1-M2 (qualitative case studies without quantitative metrics), R1-M3 (overstated practical utility without demonstration)
+- **Assessment against Nature-style criteria** 
+  - Originality: The problem of predicting IDP-binding sites on structured partners is relatively underexplored, and the use of ESM-2 embeddings is a modern approach. However, the methodological novelty is limited, as the combination of PLM embeddings with a simple MLP is straightforward.
+  - Scientific importance: The problem is biologically and clinically relevant, but the demonstrated impact is limited by the lack of rigorous evaluation and comparison to existing methods.
+  - Interdisciplinary readership: The topic is of interest to structural biologists, computational biologists, and drug discovery researchers. The manuscript is written in an accessible style, but the lack of quantitative details may limit its appeal to a broader audience.
+  - Technical soundness: The technical approach is reasonable but not rigorously validated. The evaluation is incomplete, and the case studies are qualitative.
+  - Readability for nonspecialists: The manuscript is generally well-written and understandable, with clear explanations of the problem and approach. However, some methodological details are vague, and the lack of quantitative results makes it harder for nonspecialists to assess the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem and uses a reasonable approach, but the evaluation is insufficient to support the claims. Major revisions are required, including a comprehensive performance evaluation with baselines, quantitative case study metrics, and clarification of the data splitting strategy. If these concerns are addressed, the work could be of interest to the community.
+
+## Risk / unsupported claims
+- The claim that the model "effectively capture[s] sequence features associated with IDP recognition" is not fully supported without comparison to other methods or feature sets.
+- The claim that IDBSpred can identify "potential therapeutic hotspots" is speculative and not demonstrated with any application example.
+- The claim that the model "recapitulate[s] the major experimentally defined binding interfaces" is based on qualitative visual inspection and lacks quantitative support.
+- The generalizability of the method to proteins outside the DIBS database is not assessed.
+- The performance metrics (ROC AUC 0.87, AP 0.61) are presented without confidence intervals or statistical significance testing.

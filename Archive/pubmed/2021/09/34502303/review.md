@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) for the article by Sharma et al., published in International Journal of Molecular Sciences, 2021.
+- **Assessment boundary** Scientific soundness, technical rigor, and support of claims based solely on the provided manuscript text. No external data, supplementary files, or unpublished materials were assessed beyond what is described in the text.
+- **Shared manuscript claim summary** The authors propose that the PGRS domain of Rv0297 (PE_PGRS5) of Mycobacterium tuberculosis binds calcium ions, that this binding stabilizes the domain, enhances its interaction with macrophage TLR4, and augments downstream pro-inflammatory responses (NO, TNF-α, IL-12), thereby implicating calcium-dependent PE_PGRS function in M.tb virulence.
+- **Visible evidence base** In silico motif prediction, homology modeling, molecular dynamics simulations, fluorescence spectroscopy (binding and thermal shift), circular dichroism, immunofluorescence microscopy, nitrite quantitation, and cytokine ELISA. Figures referenced: 1–8; Supplementary Figures S1–S5; Supplementary Table S1.
+- **Missing materials affecting confidence** Supplementary figures and table (S1–S5, Table S1) were not provided. Raw data, statistical details (exact p-values, n numbers per experiment), and full methodological parameters for MD simulations (force field validation, convergence criteria) are not fully described. No replication data or dose-response curves for cytokine/NO experiments are shown in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting hypothesis regarding calcium-dependent function of a PE_PGRS protein in M.tb. The combination of computational, biophysical, and cellular assays is commendable. However, several technical and interpretive gaps weaken the central claim. The evidence for calcium-specific binding is indirect, the MD simulation analysis is under-described, and the cellular assays lack critical controls (e.g., calcium ionophore alone, TLR4-blocking antibody, or mutant PGRS lacking calcium-binding motifs). The link between calcium binding, TLR4 stabilization, and downstream signaling is correlative rather than causal. The manuscript would benefit from more rigorous experimental design and clearer presentation of quantitative data.
+- **Who would be interested in the results, and why** Researchers studying mycobacterial PE/PPE protein families, host-pathogen interactions in tuberculosis, calcium signaling in innate immunity, and protein intrinsic disorder in virulence. The work may also interest those exploring TLR4 as a therapeutic target in TB.
+- **Major strengths** 1) Novel focus on calcium-dependent regulation of a PE_PGRS protein, which is underexplored. 2) Multi-method approach (bioinformatics, MD, biophysics, cell biology). 3) Clear demonstration of calcium-dependent stabilization of Rv0297PGRS in vitro. 4) Potential translational relevance for TB therapeutics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Calcium stabilized Rv0297PGRS enhances the interaction of Rv0297PGRS with surface localized Toll like receptor 4 (TLR4) of macrophages."
+  - **Evidence pointer** Section 2.5, Figure 5
+  - **Concern** The immunofluorescence data are presented as representative images without quantification. The claim of enhanced interaction in the presence of calcium is based on visual puncta, which is subjective. No statistical analysis of puncta number or intensity is provided. Additionally, the specificity of the interaction for TLR4 is not demonstrated in this experiment (e.g., using TLR4-blocking antibodies or TLR4-knockout cells).
+  - **Why it matters** Without quantitative and specific evidence, the central claim of calcium-enhanced TLR4 interaction is not established. This is the mechanistic linchpin of the paper.
+  - **Resolution test** Provide quantitative image analysis (e.g., puncta count per cell, integrated intensity) with statistical comparison across conditions. Include a TLR4-blocking antibody or siRNA/knockout control to confirm specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Rv0297PGRS was able to evoke a pro-inflammatory response by inducing the increased production of TNF-α and IL-12 cytokines in a calcium-dependent manner."
+  - **Evidence pointer** Section 2.7, Figure 7
+  - **Concern** The cytokine data are described but not shown in the text. The figure is not provided. The methods mention ELISA but do not specify the concentration range of rRv0297PGRS used, the time point of measurement, or the number of biological replicates. The claim of calcium-dependence is based on comparison between EGTA-treated and calcium-replenished conditions, but the text does not report whether the differences are statistically significant or the magnitude of effect.
+  - **Why it matters** The downstream functional claim is a key part of the paper's significance. Without clear quantitative data and statistical validation, the conclusion is unsupported.
+  - **Resolution test** Provide the actual data (bar graphs with error bars, individual data points, p-values). Specify experimental conditions (doses, time points, n). Include a control with calcium alone (no protein) to rule out non-specific effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular Dynamics simulations and fluorescence spectroscopy revealed Ca2+ dependent stabilization of the Rv0297PGRS protein."
+  - **Evidence pointer** Sections 2.2, 2.3, Figures 2, 3
+  - **Concern** The MD simulation methodology is under-described. The text does not specify the number of replicates, the equilibration protocol details, the force field parameters for calcium ions, or how convergence was assessed. The free energy landscapes are mentioned but not shown in the text. The fluorescence binding assay reports a Kd of 158 µM, which is relatively weak; the physiological relevance of this affinity is not discussed. The thermal shift of ~2.5°C is modest and may be within experimental error.
+  - **Why it matters** The biophysical evidence is central to the claim of calcium binding and stabilization. Weak or poorly described data undermine confidence in the mechanism.
+  - **Resolution test** Provide full MD simulation parameters, convergence metrics, and replicate analysis. Show the actual thermal shift curves and binding isotherms. Discuss the physiological relevance of the measured Kd and Tm shift in the context of extracellular calcium concentrations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "This study points to hitherto unidentified roles of calcium-modulated PE_PGRS proteins in the virulence of M.tb."
+  - **Evidence pointer** Discussion, Section 3
+  - **Concern** The claim of "hitherto unidentified roles" is overstated. The authors themselves cite previous work on calcium binding in PE_PGRS proteins (e.g., Rv1818c, Rv3653) and on calcium-dependent TLR interactions. The novelty is incremental rather than paradigm-shifting. The study does not directly demonstrate a role in virulence (e.g., in infection models), only in vitro cellular responses.
+  - **Why it matters** The significance framing affects the paper's impact. Overclaiming novelty may mislead readers.
+  - **Resolution test** Soften the novelty claim and explicitly state what is new (e.g., first demonstration for Rv0297 specifically). If possible, add a functional assay in a more physiologically relevant model (e.g., M.tb-infected macrophages) to support the virulence link.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses jargon (e.g., "GGXGXD/NXUX type") without defining it for a general reader.
+  - **Required correction** Briefly define the motif type or rephrase for accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Figure 1
+  - **Issue** The text states that the model "held close proximity to CD driven secondary structure estimation" but does not provide a quantitative comparison (e.g., percentage agreement).
+  - **Required correction** Provide a numerical comparison or a supplementary figure showing the overlay.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Figure 4
+  - **Issue** The free energy scores (ΔG) from docking are reported without error estimates or statistical comparison.
+  - **Required correction** Report standard deviations or confidence intervals, and state whether the difference is significant.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4.4
+  - **Evidence pointer** Methods
+  - **Issue** The fluorescence titration method does not specify the excitation/emission slit widths, the number of scans averaged, or the buffer conditions for calcium titration.
+  - **Required correction** Add these details to the methods.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Figure 6
+  - **Issue** The text mentions "20–30% enhanced production of NO" but does not specify the baseline or the statistical significance.
+  - **Required correction** Provide the actual values and p-values.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of quantitative image analysis for immunofluorescence (R1-M1). 2) Missing cytokine data and statistical details (R1-M2). 3) Incomplete MD simulation methodology and weak biophysical evidence (R1-M3). 4) Overstated novelty without direct virulence data (R1-M4).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The calcium-dependent function of a specific PE_PGRS protein is a new angle, but the concept of calcium binding in PE_PGRS proteins is not novel.
+  - **Scientific importance** Moderate. The findings are of interest to the TB field but do not fundamentally change current understanding of PE_PGRS function or TB pathogenesis.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to microbiologists and immunologists; the biophysical and computational aspects are standard.
+  - **Technical soundness** Weak to moderate. Several key experiments lack quantitative rigor and controls, as detailed above.
+  - **Readability for nonspecialists** Moderate. The abstract and introduction are accessible, but the results section is dense and assumes familiarity with MD simulations and biophysical methods.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting, but the technical and quantitative gaps must be addressed before the claims are convincing. I would be supportive if the authors provide rigorous quantitative data, proper controls, and a more measured interpretation of novelty.
+
+## Risk / unsupported claims
+- The claim that calcium binding "stabilizes" Rv0297PGRS is supported by MD and thermal shift data, but the modest Tm shift and lack of error analysis make this claim weak.
+- The claim of enhanced TLR4 interaction in the presence of calcium is unsupported due to lack of quantification and specificity controls.
+- The claim of calcium-dependent cytokine induction is unsupported as the data are not shown in the provided text.
+- The claim of "hitherto unidentified roles" in virulence is unsupported without direct infection studies.
+- The physiological relevance of the measured Kd (158 µM) is not discussed and may be questioned given typical extracellular calcium concentrations.

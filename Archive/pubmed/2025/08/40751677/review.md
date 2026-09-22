@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors report a charge-driven strategy for covalent modification of the folded domain of G3BP1 using carbonylacrylic amide small molecules, which alters the conformational dynamics of intrinsically disordered regions and inhibits stress granule formation. Cellular experiments with cysteine-mutated G3BP1 in HeLa cells, structure–activity relationship studies, and molecular dynamics simulations are cited as supporting evidence.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental procedures, characterization data, simulation parameters, statistical analyses, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to modulating biomolecular condensates through charge-driven covalent modification of a folded domain. The proposed mechanism, linking surface charge introduction to altered intrinsically disordered region dynamics and downstream condensate inhibition, is plausible and potentially generalizable. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental support, the specificity of the claimed mechanism, or the broader applicability of the strategy. The central mechanistic claim, that charge modification of the folded domain drives conformational changes in disordered regions, requires substantially more evidence than is presented here to be convincing.
+- **Who would be interested in the results, and why** Researchers in chemical biology, particularly those working on covalent drug discovery and targeted protein modification, would find the strategy of interest. The condensate biology community, including groups studying stress granules and their roles in neurodegeneration and cancer, would value a new small-molecule handle for modulating these assemblies. Additionally, investigators developing therapeutic approaches for condensate-associated diseases would be interested in the potential for rational design of condensate modulators.
+- **Major strengths** The strategy addresses a recognized challenge in the field, namely the difficulty of drugging condensate-forming proteins that are often considered undruggable. The use of a covalent warhead to introduce surface charges is a creative departure from conventional inhibitor design. The combination of cellular experiments, structure–activity relationship studies, and molecular dynamics simulations suggests a multi-pronged investigative approach. The proposed mechanism, involving allosteric coupling between a folded domain and intrinsically disordered regions, is mechanistically interesting and testable.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The abstract claims that small-molecule modification of the G3BP1 folded domain with surface charges leads to an alteration of the conformational dynamics of intrinsically disordered regions, and that this underlies stress granule inhibition.  
+  - **Evidence pointer** Abstract, cellular experiments and molecular dynamics simulations sections; specific figures and tables not provided  
+  - **Concern** The causal chain from covalent modification to charge introduction to conformational change in disordered regions to stress granule inhibition is asserted but not demonstrated with quantitative data in the abstract. The molecular dynamics simulations are described as suggesting a shift toward more compact conformations, but the relationship between this simulated conformational change and the experimentally observed inhibition is not established. The abstract does not report whether the simulations recapitulate the experimentally observed effects or whether the proposed mechanism is the only plausible explanation for the observed inhibition.  
+  - **Why it matters** The central novelty of the work rests on the mechanistic claim that charge-driven modification of a folded domain can allosterically modulate disordered regions. If this mechanism is not rigorously established, the work reduces to a phenomenological report of a covalent inhibitor, which would be of substantially less interest. The distinction between a charge-driven mechanism and alternative explanations, such as steric effects, altered hydrophobicity, or disruption of protein-protein interactions at the modification site, is critical.  
+  - **Resolution test** Provide quantitative evidence that the introduced charge, rather than other properties of the modification, is responsible for the observed effects. This could include control compounds with neutral or hydrophobic modifications at the same site, dose-response relationships between charge density and conformational change, and direct experimental measurement of disordered region dynamics, such as NMR or single-molecule FRET, in the presence and absence of modification.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Specificity and selectivity  
+  - **Claim pointer** The abstract implies that the strategy is specific to G3BP1 and that the observed effects are due to on-target modification of G3BP1 rather than off-target effects.  
+  - **Evidence pointer** Abstract, cellular experiments using HeLa cells expressing cysteine-mutated G3BP1; specific data not provided  
+  - **Concern** The abstract mentions the use of cysteine-mutated G3BP1 in HeLa cells, which suggests a strategy for controlling modification site, but does not report the extent of labeling efficiency, the selectivity of the small molecule for the intended cysteine over other cysteines in the proteome, or the functional consequences of the mutation itself. Without these data, it is unclear whether the observed stress granule inhibition is attributable to G3BP1 modification or to off-target effects.  
+  - **Why it matters** Covalent compounds are prone to promiscuous reactivity, and the therapeutic relevance of the strategy depends on achieving selective modification of the intended target. If the compound modifies multiple proteins or if the observed phenotype arises from non-specific stress responses, the mechanistic conclusions would be undermined.  
+  - **Resolution test** Report labeling efficiency and selectivity data, including proteomic profiling or competition experiments with excess nucleophile. Demonstrate that the cysteine-mutated G3BP1 is modified to a high stoichiometry and that the phenotype correlates with modification extent. Include negative controls with a non-reactive analog and with cells lacking the engineered cysteine.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The abstract frames the work as establishing a new strategy for the rational modulation of biomolecular condensates, implying broader applicability beyond G3BP1.  
+  - **Evidence pointer** Abstract, concluding statement; no additional examples provided  
+  - **Concern** The abstract presents only a single example, G3BP1, and does not provide evidence that the charge-driven strategy can be applied to other condensate-forming proteins. The generalizability of the approach is asserted but not demonstrated.  
+  - **Why it matters** The significance of the work for the broader field depends on whether the strategy is transferable to other targets. If the approach is idiosyncratic to G3BP1, its impact is considerably diminished.  
+  - **Resolution test** Provide at least one additional example of a condensate-forming protein modified using the same strategy, or clearly articulate the design principles that would enable application to other systems and provide preliminary evidence supporting those principles.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Quantitative reporting  
+  - **Affected element** Molecular dynamics simulations  
+  - **Evidence pointer** Abstract, molecular dynamics simulations section  
+  - **Issue** The abstract reports that the modification promotes a shift toward more compact conformations comparable to that induced by an approximately 26% increase in IDR1-IDR3 interaction. The basis for this comparison and the uncertainty associated with the 26% figure are not described.  
+  - **Required correction** Clarify how the 26% figure was derived and report the statistical uncertainty or confidence intervals associated with this comparison.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Strategy description  
+  - **Evidence pointer** Abstract, title and opening sentence  
+  - **Issue** The term charge-driven strategy is used without defining what specifically constitutes the charge-driven aspect, as opposed to other consequences of covalent modification.  
+  - **Required correction** Define the charge-driven aspect explicitly, for example by specifying the number and type of charges introduced and how they differ from the properties of the unmodified residue.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Experimental context  
+  - **Affected element** Cellular experiments  
+  - **Evidence pointer** Abstract, cellular experiments section  
+  - **Issue** The abstract does not specify the stress conditions used to induce stress granule formation, the time course of inhibition, or the concentration range of the compounds tested.  
+  - **Required correction** Provide these experimental parameters in the full manuscript and summarize the key values in the abstract if space permits.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking concerns. The mechanistic claim requires direct experimental evidence linking charge introduction to disordered region conformational changes, and the specificity of the modification must be demonstrated to exclude off-target effects. Without addressing these issues, the central case for a charge-driven mechanism is not established from the provided material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of using covalent modification to introduce charges for modulating condensate behavior is creative and not a straightforward extension of existing approaches. The originality is high, provided the mechanism is substantiated.  
+  - Scientific importance: The work addresses a significant challenge in condensate biology and drug discovery. If the strategy proves generalizable, it could have substantial impact. The importance is currently conditional on the strength of the mechanistic evidence.  
+  - Interdisciplinary readership: The work bridges chemical biology, biophysics, and cell biology, and would appeal to a broad readership if the claims are well supported. The current abstract is accessible but lacks the depth needed for specialists to evaluate the claims.  
+  - Technical soundness: The combination of cellular experiments, structure–activity relationship studies, and molecular dynamics simulations is appropriate, but the abstract does not provide enough detail to assess the technical quality of any of these components. The blocking concerns regarding mechanism and specificity must be resolved.  
+  - Readability for nonspecialists: The abstract is clearly written and the concept is understandable to a broad scientific audience. The mechanistic description is concise, though the lack of quantitative detail limits comprehension of the evidence base.  
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the work could be suitable for publication in a high-impact venue if the blocking concerns regarding mechanistic support and target specificity are resolved with rigorous experimental evidence. A revised manuscript with full experimental details, quantitative mechanistic data, and evidence of selectivity would be needed to support the claims made in the abstract.
+
+## Risk / unsupported claims
+- The claim that charge-driven modification of the folded domain alters the conformational dynamics of intrinsically disordered regions is unsupported by direct experimental evidence in the abstract; only simulation-based inference is mentioned.
+- The claim that the strategy is generalizable to other biomolecular condensates is unsupported, as only a single target is presented.
+- The quantitative comparison involving an approximately 26% increase in IDR1-IDR3 interaction is not interpretable without additional context and uncertainty estimates.
+- The specificity of the covalent modification for G3BP1 over other cellular proteins is not assessable from the abstract.
+- The relationship between the simulated compact conformations and the experimentally observed stress granule inhibition is not established.

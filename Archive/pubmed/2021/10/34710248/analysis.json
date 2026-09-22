@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34710248",
+  "title": "Super-Resolution Imaging of Highly Curved Membrane Structures in Giant Vesicles Encapsulating Molecular Condensates.",
+  "authors": "Zhao, Ziliang; Roy, Debjit; Steinkuhler, Jan; Robinson, Tom; Lipowsky, Reinhard; Dimova, Rumiana",
+  "journal": "Advanced materials (Deerfield Beach, Fla.)",
+  "published_date": "2021-10-29",
+  "window": {
+    "start": "2021-10-25",
+    "end": "2021-10-31"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用STED超分辨成像研究GUV中相分离凝聚体诱导的膜纳米管和弯曲结构，涉及相分离但非IDP-PPI，且无AI/物理模拟方法，仅实验成像，与课题关联较弱。",
+  "abstract": "Molecular crowding is an inherent feature of cell interiors. Synthetic cells as provided by giant unilamellar vesicles (GUVs) encapsulating macromolecules (poly(ethylene glycol) and dextran) represent an excellent mimetic system to study membrane transformations associated with molecular crowding and protein condensation. Similarly to cells, such GUVs exhibit highly curved structures like nanotubes. Upon liquid-liquid phase separation their membrane deforms into apparent kinks at the contact line of the interface between the two aqueous phases. These structures, nanotubes, and kinks, have dimensions below optical resolution. Here, these are studied with super-resolution stimulated emission depletion (STED) microscopy facilitated by immobilization in a microfluidic device. The cylindrical nature of the nanotubes based on the superior resolution of STED and automated data analysis is demonstrated. The deduced membrane spontaneous curvature is in excellent agreement with theoretical predictions. Furthermore, the membrane kink-like structure is resolved as a smoothly curved membrane demonstrating the existence of the intrinsic contact angle, which describes the wettability contrast of the encapsulated phases to the membrane. Resolving these highly curved membrane structures with STED imaging provides important insights in the membrane properties and interactions underlying cellular activities.",
+  "abstract_zh": "分子拥挤是细胞内部固有的特征。由巨型单层囊泡（GUVs）封装大分子（聚乙二醇和葡聚糖）提供的合成细胞，是研究分子拥挤和蛋白质凝聚相关膜转化的优秀模拟系统。与细胞类似，此类GUVs表现出高度弯曲的结构，如纳米管。在液-液相分离时，其膜在两种水相界面接触线处变形为明显的扭结。这些结构，即纳米管和扭结，尺寸低于光学分辨率极限。本文中，通过微流控装置中的固定化，利用超分辨受激发射损耗（STED）显微镜对这些结构进行研究。基于STED的卓越分辨率和自动化数据分析，展示了纳米管的圆柱形本质。推导出的膜自发曲率与理论预测高度一致。此外，膜扭结状结构被解析为平滑弯曲的膜，证明了固有接触角的存在，该角度描述了封装相与膜之间的润湿性对比。通过STED成像解析这些高度弯曲的膜结构，为理解细胞活动背后的膜特性和相互作用提供了重要见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34710248/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34710248/",
+  "paper_page_path": "papers/pubmed/34710248/index.html"
+}

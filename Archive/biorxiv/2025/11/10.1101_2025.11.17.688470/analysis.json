@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.17.688470",
+  "title": "Differential contribution of the RNA recognition motifs to SRSF1 protein interaction network",
+  "authors": "Pablo Mammi; Andrea Pawellek; Nicolás Gaioli; Laureano Bragado; Berta Pozzi; Hernan Grecco; Angus I. Lamond; Anabella Srebrow",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-17",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过SILAC蛋白质组学表征剪接因子SRSF1的互作组，并比较两个RNA识别基序突变对蛋白互作网络的影响，但对象非无序蛋白、无相分离背景，且方法为实验蛋白质组学而非AI或物理模拟，仅对PPI网络有间接参考价值。",
+  "abstract": "The protein SRSF1, initially identified as a splicing factor, is currently known to participate in a variety of cellular processes. However, its role and regulatory mechanisms in these processes remain incompletely understood. Using a SILAC proteomic approach, we have characterised the SRSF1 interactome, thereby identifying multiple diverse protein interaction partners of SRSF1 and the molecular complexes with which it is associated. Given that the RNA-binding ability of SRSF1 is necessary for many of its activities, we extended the analysis of the SRSF1 interactome to compare the wild type protein against two site-specific SRSF1 variants, bearing mutations in each of its two RNA recognition motifs (RRMs). The first mutation disrupted the canonical RRM (RRM1), while the second affected the pseudo-RRM (RRM2). Interestingly, the data show clear differences between the SRSF1 interacting proteins, depending on the functional status of each RRM domain. In particular, a functional RRM1 was critical for maintaining interactions with multiple partners, especially those involved in translation-related processes, showing a far greater loss of interactions upon mutation than RRM2. This study provides valuable new insights into the broader cellular roles and interaction landscape of SRSF1.",
+  "abstract_zh": "蛋白SRSF1最初被鉴定为剪接因子，目前已知其参与多种细胞过程。然而，其在这些过程中的作用及调控机制仍未完全阐明。利用SILAC蛋白质组学方法，我们表征了SRSF1相互作用组，从而鉴定了SRSF1的多种蛋白质相互作用伙伴及其相关的分子复合物。鉴于SRSF1的RNA结合能力对其许多活性是必需的，我们将SRSF1相互作用组的分析扩展至比较野生型蛋白与两种位点特异性SRSF1变体，这些变体在其两个RNA识别基序（RRMs）中各携带突变。第一个突变破坏了经典RRM（RRM1），而第二个突变影响了伪RRM（RRM2）。有趣的是，数据显示SRSF1相互作用蛋白之间存在明显差异，这取决于每个RRM结构域的功能状态。特别是，功能性RRM1对于维持与多个伙伴的相互作用至关重要，尤其是那些涉及翻译相关过程的伙伴，其突变导致的相互作用丧失远大于RRM2。本研究为SRSF1更广泛的细胞角色及相互作用景观提供了宝贵的新见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688470",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688470",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.17.688470/index.html"
+}

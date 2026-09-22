@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36756755",
+  "title": "Effect of substrate charge density on the adsorption of intrinsically disordered protein amyloid beta40: a molecular dynamics study.",
+  "authors": "Kalipillai, Pandurangan; Raghuram, E; Mani, Ethayaraja",
+  "journal": "Soft matter",
+  "published_date": "2023-02-10",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用分子动力学模拟研究无序蛋白Aβ40在金表面不同电荷密度下的吸附机制，揭示关键残基吸附与β-折叠形成的竞争关系，虽对象为IDP且涉及吸附互作机制，但互作对象是表面而非蛋白-蛋白，方法为物理模拟，整体对无序蛋白互作机制建模有启发。",
+  "abstract": "The inhibitory effect of negatively charged gold nanoparticles (AuNPs) on amyloidogenic protein fibrillation has been established from experiments and computer simulations. Here, we investigate the effect of the charge density (sigma) of gold (Au) surfaces on the adsorption of the intrinsically disordered amyloid beta40 (Abeta40) monomer using molecular dynamics (MD) simulations. On the basis of the binding free energy, some key residues (ARG5, LYS16, LYS28, LEU17-ALA21, ILE31-VAL38) were found to be responsible for preventing the beta-sheet formation, which is known to be a precursor for fibrillation. Until a critical charge density (sigma(c)) of -0.167 e nm(-2), the key residues remained adsorbed on the Au slab. A saturation in the number of condensed counterions (Na(+)) on Abeta40 was also observed at sigma(c). Beyond sigma(c), the condensation of Na(+) occurs only on the Au slab, leading to competition between positively charged key residues and condensed ions. This competition was found to be responsible for the lack of adsorption of the key residues, leading to beta-sheet formation for sigma > -0.167 e nm(-2). This study suggests that if the key residues are not adsorbed, then beta-sheet formation is observed, which can then lead to the development of proto-fibrils and subsequently fibrillation. Therefore the surface should have an optimal charge density to be an effective inhibitor of fibrillation.",
+  "abstract_zh": "带负电的金纳米颗粒（AuNPs）对淀粉样蛋白纤维化的抑制作用已通过实验和计算机模拟得到证实。在此，我们利用分子动力学（MD）模拟研究了金（Au）表面电荷密度（sigma）对 intrinsically disordered 淀粉样β40（Abeta40）单体吸附的影响。基于结合自由能，发现一些关键残基（ARG5、LYS16、LYS28、LEU17-ALA21、ILE31-VAL38）负责阻止β-折叠的形成，而β-折叠被认为是纤维化的前体。直到临界电荷密度（sigma(c)）为-0.167 e nm(-2)时，关键残基仍保持吸附在Au板上。在sigma(c)处，还观察到Abeta40上凝聚反离子（Na(+)）数量的饱和。超过sigma(c)后，Na(+)的凝聚仅发生在Au板上，导致带正电的关键残基与凝聚离子之间的竞争。研究发现，这种竞争是导致关键残基缺乏吸附的原因，从而在sigma > -0.167 e nm(-2)时促进β-折叠的形成。本研究提示，如果关键残基未被吸附，则会观察到β-折叠的形成，这随后可能导致原纤维的发展及纤维化。因此，表面应具有最佳电荷密度，才能成为有效的纤维化抑制剂。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36756755/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36756755/",
+  "paper_page_path": "papers/pubmed/36756755/index.html"
+}

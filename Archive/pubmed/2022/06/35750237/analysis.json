@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35750237",
+  "title": "Insights into the dynamic interactions at chemokine-receptor interfaces and mechanistic models of chemokine binding.",
+  "authors": "Sonawani, Archana; Kharche, Shalmali; Dasgupta, Debjani; Sengupta, Durba",
+  "journal": "Journal of structural biology",
+  "published_date": "2022-06-25",
+  "window": {
+    "start": "2022-06-20",
+    "end": "2022-06-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该综述聚焦趋化因子受体N端无序区域与配体的动态互作界面，结合实验与模拟提出构象选择与诱导契合混合结合模型，虽对象非典型IDP但机制建模思路可迁移。",
+  "abstract": "Chemokine receptors are the central signaling hubs of several processes such as cell migration, chemotaxis and cell positioning. In this graphical review, we provide an overview of the structural and mechanistic principles governing chemokine recognition that are currently emerging. Structural models of chemokine-receptor co-complexes with endogenous chemokines, viral chemokines and therapeutics have been resolved that highlight multiple interaction sites, termed as CRS1, CRS1.5 etc. The first site of interaction has been shown to be the N-terminal domain of the receptors (CRS1 site). A large structural flexibility of the N-terminal domain has been reported that was supported by both experimental and simulation studies. Upon chemokine binding, the N-terminal domain appears to show constricted dynamics and opens up to interact with the chemokine via a large interface. The subsequent sites such as CRS1.5 and CRS2 sites have been structurally well resolved although differences arise such as the localization of the N-terminus of the ligand to a major or minor pocket of the orthosteric binding site. Several computational studies have highlighted the dynamic protein-protein interface at the CRS1 site that seemingly appears to resolve the differences in NMR and mutagenesis studies. Interestingly, the differential dynamics at the CRS1 site suggests a mixed model of binding with complex signatures of both conformational selection and induced fit models. Integrative experimental and computational approaches could help unravel the structural basis of promiscuity and specificity in chemokine-receptor binding and open up new avenues of therapeutic design.",
+  "abstract_zh": "趋化因子受体是细胞迁移、趋化及细胞定位等多个过程的核心信号枢纽。在本图形化综述中，我们概述了当前 emerging 的调控趋化因子识别的结构与机制原理。已解析的趋化因子-受体共复合物结构模型，包括与内源性趋化因子、病毒趋化因子及治疗性分子的复合物，揭示了多个相互作用位点，称为CRS1、CRS1.5等。第一个相互作用位点已被证明是受体的N端结构域（CRS1位点）。实验和模拟研究均支持N端结构域具有较大的结构灵活性。在趋化因子结合后，N端结构域似乎表现出受限的动态变化，并通过大界面开放以与趋化因子相互作用。后续位点如CRS1.5和CRS2在结构上已得到良好解析，尽管存在差异，例如配体N端定位于正构结合位点的主要或次要口袋。多项计算研究强调了CRS1位点处的动态蛋白-蛋白界面，这似乎解决了NMR和突变研究中的差异。有趣的是，CRS1位点的差异动态表明一种混合结合模型，兼具构象选择和诱导拟合的复杂特征。整合实验与计算方法可能有助于揭示趋化因子-受体结合中混杂性和特异性的结构基础，并为治疗设计开辟新途径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35750237/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35750237/",
+  "paper_page_path": "papers/pubmed/35750237/index.html"
+}

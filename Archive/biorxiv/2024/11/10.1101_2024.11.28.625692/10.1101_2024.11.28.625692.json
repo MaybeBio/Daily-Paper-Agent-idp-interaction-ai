@@ -1,0 +1,221 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.28.625692",
+  "title": "Cross-tissue isoform switches by human transcription factors suggest a widespread regulatory mechanism",
+  "doi": "10.1101/2024.11.28.625692",
+  "abstract": "Many human genes, including transcription factor (TF) genes, produce alternative coding isoforms. Although some alternative coding TF isoforms have been experimentally studied, a genome-wide characterisation of all such isoforms in normal human physiology is still lacking. Here, we integrate RNA sequencing and protein domain data to reveal the expression levels, tissue specificity and putative functional classes of alternative coding isoforms of human TF genes. We found that isoforms lacking a DNA-binding domain (DBD) are annotated for almost a third of known TF genes, comprise 17% of all annotated TF isoforms and likely reverse the regulatory effects of DBD-containing isoforms. Considering all coding TF isoforms, we uncovered 536 switches between the highest-expressed alternative isoforms produced by 360 TF genes across 43 adult tissues. We predicted functional consequences of these switches using a functional annotation of structural domains present in switching isoforms. Furthermore, we found 45 isoform switches between the brain and non-brain tissues and interpreted six of these switches in detail. Finally, we assembled a literature-based compendium of human TF genes with experimentally studied alternative isoforms. In total, our results suggest that the switches of alternative coding TF isoforms between adult tissues represent a widespread, yet understudied, functional mechanism.",
+  "authors": [
+    "Sidorov S",
+    "Pal K",
+    "Lenhard B",
+    "Luscombe NM"
+  ],
+  "published_date": "2024-11-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.28.625692",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.28.625692.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR947725",
+    "raw_record": {
+      "id": "PPR947725",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR947725"
+        ]
+      },
+      "doi": "10.1101/2024.11.28.625692",
+      "title": "Cross-tissue isoform switches by human transcription factors suggest a widespread regulatory mechanism",
+      "authorString": "Sidorov S, Pal K, Lenhard B, Luscombe NM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sidorov S",
+            "lastName": "Sidorov",
+            "firstName": "Sviatoslav",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1730-265X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational Regulatory Genomics Group, MRC Laboratory of Medical Sciences, , Du Cane Road , ,"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences, Faculty of Medicine, , , Du Cane Road , ,"
+                },
+                {
+                  "affiliation": "Bioinformatics and Computational Biology Laboratory, , 1 Midland Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pal K",
+            "lastName": "Pal",
+            "firstName": "Koustav",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6891-1148"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics and Computational Biology Laboratory, , 1 Midland Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lenhard B",
+            "lastName": "Lenhard",
+            "firstName": "Boris",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1114-1509"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational Regulatory Genomics Group, MRC Laboratory of Medical Sciences, , Du Cane Road , ,"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences, Faculty of Medicine, , , Du Cane Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Luscombe NM",
+            "lastName": "Luscombe",
+            "firstName": "Nicholas",
+            "initials": "NM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5293-4778"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics and Computational Biology Laboratory, , 1 Midland Road , ,"
+                },
+                {
+                  "affiliation": "Genomics and Regulatory Systems Unit, , 1919-1 Tancha, Onna-son, Kunigami-gun , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5293-4778"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1114-1509"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1730-265X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6891-1148"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Many human genes, including transcription factor (TF) genes, produce alternative coding isoforms. Although some alternative coding TF isoforms have been experimentally studied, a genome-wide characterisation of all such isoforms in normal human physiology is still lacking. Here, we integrate RNA sequencing and protein domain data to reveal the expression levels, tissue specificity and putative functional classes of alternative coding isoforms of human TF genes. We found that isoforms lacking a DNA-binding domain (DBD) are annotated for almost a third of known TF genes, comprise 17% of all annotated TF isoforms and likely reverse the regulatory effects of DBD-containing isoforms. Considering all coding TF isoforms, we uncovered 536 switches between the highest-expressed alternative isoforms produced by 360 TF genes across 43 adult tissues. We predicted functional consequences of these switches using a functional annotation of structural domains present in switching isoforms. Furthermore, we found 45 isoform switches between the brain and non-brain tissues and interpreted six of these switches in detail. Finally, we assembled a literature-based compendium of human TF genes with experimentally studied alternative isoforms. In total, our results suggest that the switches of alternative coding TF isoforms between adult tissues represent a widespread, yet understudied, functional mechanism.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.11.28.625692"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.28.625692"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR947725"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR947725&type=FILE&fileName=EMS201585-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS201585",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-12-01",
+      "firstPublicationDate": "2024-11-29",
+      "firstIndexDate": "2024-12-01",
+      "fullTextReceivedDate": "2024-12-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

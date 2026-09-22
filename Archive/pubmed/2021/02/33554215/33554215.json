@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "33554215",
+    "doi": "10.1021/jacsau.0c00039",
+    "title": "Fuzzy Association of an Intrinsically Disordered Protein with Acidic Membranes."
+  },
+  "content": {
+    "abstract": "Many physiological and pathophysiological processes, including Mycobacterium tuberculosis (Mtb) cell division, may involve fuzzy membrane association by proteins via intrinsically disordered regions. The fuzziness is extreme when the conformation and pose of the bound protein and the composition of the proximal lipids are all highly dynamic. Here, we tackled the challenge in characterizing the extreme fuzzy membrane association of the disordered, cytoplasmic N-terminal region (NT) of ChiZ, an Mtb divisome protein, by combining solution and solid-state NMR spectroscopy and molecular dynamics simulations. While membrane-associated NT does not gain any secondary structure, its interactions with lipids are not random, but formed largely by Arg residues predominantly in the second, conserved half of the NT sequence. As NT frolics on the membrane, lipids quickly redistribute, with acidic lipids, relative to zwitterionic lipids, preferentially taking up Arg-proximal positions. The asymmetric engagement of NT arises partly from competition between acidic lipids and acidic residues, all in the first half of NT, for Arg interactions. This asymmetry is accentuated by membrane insertion of the downstream transmembrane helix. This type of semispecific molecular recognition may be a general mechanism by which disordered proteins target membranes.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hicks, Alan",
+        "Escobar, Cristian A",
+        "Cross, Timothy A",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "Hicks A",
+        "Escobar CA",
+        "Cross TA",
+        "Zhou HX"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Molecular Biophysics, Department of Physics, and Department of Chemistry and Biochemistry, Florida State University, Tallahassee, Florida 32306, United States.",
+        "Institute of Molecular Biophysics, Department of Physics, and Department of Chemistry and Biochemistry, Florida State University, Tallahassee, Florida 32306, United States.",
+        "Department of Chemistry and Department of Physics, University of Illinois at Chicago, Chicago, Illinois 60607, United States.",
+        "Institute of Molecular Biophysics, Department of Physics, and Department of Chemistry and Biochemistry, Florida State University, Tallahassee, Florida 32306, United States.",
+        "National High Magnetic Field Laboratory, Florida State University, Tallahassee, Florida 32310, United States.",
+        "Institute of Molecular Biophysics, Department of Physics, and Department of Chemistry and Biochemistry, Florida State University, Tallahassee, Florida 32306, United States.",
+        "Institute of Molecular Biophysics, Department of Physics, and Department of Chemistry and Biochemistry, Florida State University, Tallahassee, Florida 32306, United States.",
+        "National High Magnetic Field Laboratory, Florida State University, Tallahassee, Florida 32310, United States.",
+        "Department of Chemistry and Department of Physics, University of Illinois at Chicago, Chicago, Illinois 60607, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hicks, Alan",
+        "short_name": "Hicks A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biophysics, Department of Physics, and Department of Chemistry and Biochemistry, Florida State University, Tallahassee, Florida 32306, United States.",
+          "Institute of Molecular Biophysics, Department of Physics, and Department of Chemistry and Biochemistry, Florida State University, Tallahassee, Florida 32306, United States.",
+          "Department of Chemistry and Department of Physics, University of Illinois at Chicago, Chicago, Illinois 60607, United States."
+        ]
+      },
+      {
+        "full_name": "Escobar, Cristian A",
+        "short_name": "Escobar CA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biophysics, Department of Physics, and Department of Chemistry and Biochemistry, Florida State University, Tallahassee, Florida 32306, United States.",
+          "National High Magnetic Field Laboratory, Florida State University, Tallahassee, Florida 32310, United States."
+        ]
+      },
+      {
+        "full_name": "Cross, Timothy A",
+        "short_name": "Cross TA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biophysics, Department of Physics, and Department of Chemistry and Biochemistry, Florida State University, Tallahassee, Florida 32306, United States.",
+          "Institute of Molecular Biophysics, Department of Physics, and Department of Chemistry and Biochemistry, Florida State University, Tallahassee, Florida 32306, United States.",
+          "National High Magnetic Field Laboratory, Florida State University, Tallahassee, Florida 32310, United States."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Department of Physics, University of Illinois at Chicago, Chicago, Illinois 60607, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2021 Jan 25",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/02/09 06:00",
+    "fetched_at": "2026-09-20 01:21:12"
+  },
+  "links": {
+    "cites": [
+      "42437078",
+      "41712669",
+      "40185744",
+      "40068541",
+      "39952269",
+      "38985766",
+      "38560754",
+      "37645938",
+      "36959324",
+      "36889962",
+      "36863659",
+      "36710643",
+      "36084347",
+      "36005688",
+      "35725761",
+      "35664678",
+      "34396006",
+      "33951592"
+    ],
+    "refs": [
+      "32882186",
+      "32585849",
+      "31794729",
+      "31325636",
+      "31144503",
+      "31096049",
+      "31048377",
+      "30301810",
+      "29788355",
+      "29588369",
+      "29466338",
+      "28710774",
+      "28493424",
+      "27640673",
+      "27322406",
+      "27174498",
+      "26592383",
+      "26583988",
+      "26574453",
+      "25846210",
+      "25764013",
+      "25135664",
+      "25130509",
+      "24397368",
+      "23442912",
+      "22094151",
+      "21448735",
+      "19585006",
+      "16942606",
+      "16857939",
+      "16581836",
+      "16222654",
+      "11025552",
+      "10995437",
+      "10889206"
+    ],
+    "similar": [
+      "33554215",
+      "25548160",
+      "26684000",
+      "28893908",
+      "30813629",
+      "36005688",
+      "31386337",
+      "29590589",
+      "31483653",
+      "26735936",
+      "25632962",
+      "31325636",
+      "18004752",
+      "30133296",
+      "32783888",
+      "30591682",
+      "25902435",
+      "32316569",
+      "32132631",
+      "26910732",
+      "32585849",
+      "28914483",
+      "27082063",
+      "24056937",
+      "26195786",
+      "25387963",
+      "21999759",
+      "28325841",
+      "31218633",
+      "31394100",
+      "31500307",
+      "37609330",
+      "31757855",
+      "25944317",
+      "20921991",
+      "11838236",
+      "27881680",
+      "8637016",
+      "26650755",
+      "22465068",
+      "10529232",
+      "28493424",
+      "27810897",
+      "30443712",
+      "26918762",
+      "31511376",
+      "24415136",
+      "21425832",
+      "25207671",
+      "31672499",
+      "31794729",
+      "28892869",
+      "32112804",
+      "22399320",
+      "30206170",
+      "30802457",
+      "29208465",
+      "7767386",
+      "31756456",
+      "28780862",
+      "15489236",
+      "29276882",
+      "24960591",
+      "30819802",
+      "28355271",
+      "17368479",
+      "25492314",
+      "28295918",
+      "27288992",
+      "24150971"
+    ],
+    "review": [
+      "33554215",
+      "30813629",
+      "30591682",
+      "11838236",
+      "31672499",
+      "22399320"
+    ],
+    "pmc": [
+      "7851954"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/jacsau.0c00039",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33554215/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33554215",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.0c00039",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39319382",
+  "title": "Sequence determinants of protein phase separation and recognition by protein phase-separated condensates through molecular dynamics and active learning.",
+  "authors": "Changiarath, Arya; Arya, Aayush; Xenidis, Vasileios A; Padeken, Jan; Stelzl, Lukas S",
+  "journal": "Faraday discussions",
+  "published_date": "2024-09-25",
+  "window": {
+    "start": "2024-09-23",
+    "end": "2024-09-29"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用主动学习+粗粒化分子动力学建立无序蛋白序列-性质关系，并设计结合RNA Pol II CTD凝聚体的肽段及多相凝聚体，直接命中IDP/相分离、PPI与AI/物理模拟三轴，且聚焦互作机制建模。",
+  "abstract": "Elucidating how protein sequence determines the properties of disordered proteins and their phase-separated condensates is a great challenge in computational chemistry, biology, and biophysics. Quantitative molecular dynamics simulations and derived free energy values can in principle capture how a sequence encodes the chemical and biological properties of a protein. These calculations are, however, computationally demanding, even after reducing the representation by coarse-graining; exploring the large spaces of potentially relevant sequences remains a formidable task. We employ an \"active learning\" scheme introduced by Yang et al. (bioRxiv, 2022, https://doi.org/10.1101/2022.08.05.502972) to reduce the number of labelled examples needed from simulations, where a neural network-based model suggests the most useful examples for the next training cycle. Applying this Bayesian optimisation framework, we determine properties of protein sequences with coarse-grained molecular dynamics, which enables the network to establish sequence-property relationships for disordered proteins and their self-interactions and their interactions in phase-separated condensates. We show how iterative training with second virial coefficients derived from the simulations of disordered protein sequences leads to a rapid improvement in predicting peptide self-interactions. We employ this Bayesian approach to efficiently search for new sequences that bind to condensates of the disordered C-terminal domain (CTD) of RNA Polymerase II, by simulating molecular recognition of peptides to phase-separated condensates in coarse-grained molecular dynamics. By searching for protein sequences which prefer to self-interact rather than interact with another protein sequence we are able to shape the morphology of protein condensates and design multiphasic protein condensates.",
+  "abstract_zh": "阐明蛋白质序列如何决定无序蛋白质及其相分离凝聚体的性质，是计算化学、生物学和生物物理学中的重大挑战。定量分子动力学 (molecular dynamics) 模拟及其衍生的自由能值原则上可以捕捉序列如何编码蛋白质的化学和生物学性质。然而，即使通过粗粒化 (coarse-graining) 降低表示复杂度，这些计算仍计算量巨大；探索潜在相关序列的大空间仍是一项艰巨任务。我们采用Yang等人（bioRxiv, 2022, https://doi.org/10.1101/2022.08.05.502972）引入的“主动学习”方案，以减少模拟中所需标记示例的数量，其中基于神经网络的模型为下一训练周期建议最有用的示例。应用此贝叶斯优化框架，我们通过粗粒化分子动力学确定蛋白质序列的性质，使网络能够建立无序蛋白质及其自相互作用以及在相分离凝聚体中相互作用的序列-性质关系。我们展示了如何利用从无序蛋白质序列模拟中导出的第二维里系数进行迭代训练，从而快速提高肽自相互作用的预测能力。我们采用此贝叶斯方法，通过粗粒化分子动力学模拟肽对相分离凝聚体的分子识别，高效搜索与RNA聚合酶II无序C端结构域 (CTD) 凝聚体结合的新序列。通过搜索偏好自相互作用而非与另一蛋白质序列相互作用的蛋白质序列，我们能够塑造蛋白质凝聚体的形态并设计多相蛋白质凝聚体。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39319382/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39319382/",
+  "paper_page_path": "papers/pubmed/39319382/index.html"
+}

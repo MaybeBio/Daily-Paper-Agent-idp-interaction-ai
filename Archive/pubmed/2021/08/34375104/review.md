@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report molecular dynamics (MD) simulations of a tardigrade secretory-abundant heat-soluble protein, RvSAHS1, in solution and under dehydrating conditions, with comparative simulations of human liver-type fatty-acid binding protein (LFABP) in solution and high-speed atomic force microscopy (HS-AFM) observations. They claim three properties: (1) the entrance region of RvSAHS1 is more flexible and can be more extensive in solution than that of LFABP due to absence of a salt bridge between betaD and betaE strands; (2) the intrinsically disordered N-terminal domain significantly fluctuates and can form an amphiphilic alpha-helix; (3) the entrance region shrinks with dehydration while the beta-barrel structure is retained. The authors state the results provide atomic-level dynamics of SAHS proteins.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, simulation parameters, or experimental details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation setup and force field parameters, convergence criteria, HS-AFM experimental protocol and raw data, statistical analyses, and any comparison of simulation with experimental observables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting biophysical study of a tardigrade protein implicated in anhydrobiosis, combining MD simulations with HS-AFM. The three reported properties are plausible and could be of value to the fields of protein dynamics and extremophile biology. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the statistical robustness of the comparisons, or the validity of the structural interpretations. The claim that the beta-barrel structure is retained during dehydration is central but cannot be assessed without quantitative structural metrics. The study may be suitable for a specialized physical chemistry or biophysics journal, but the evidence base provided here is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers studying tardigrade anhydrobiosis and desiccation tolerance mechanisms, computational biophysicists interested in protein dynamics under extreme conditions, and structural biologists examining beta-barrel proteins or intrinsically disordered regions. The work could also appeal to those developing force fields or simulation protocols for dehydration processes.
+- **Major strengths** The study addresses a biologically relevant and understudied protein family with potential applications in stress tolerance. Combining MD simulations with HS-AFM is a commendable multi-technique approach. The focus on dynamic properties, including flexibility and disorder, goes beyond static structural characterization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the entrance region of RvSAHS1 is more flexible and can be more extensive in solution compared with LFABP because there is no salt bridge between betaD and betaE strands.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The causal attribution of increased flexibility to the absence of a specific salt bridge is presented as a definitive conclusion, but the abstract provides no quantitative measures of flexibility, such as root-mean-square fluctuations, B-factors, or principal component analysis. It is unclear whether the comparison with LFABP is statistically controlled for differences in sequence length, packing, or simulation conditions. The phrase "can be more extensive" is vague and does not specify which metric was used.
+  - **Why it matters** Without quantitative flexibility metrics and a rigorous comparative framework, the claim that the salt bridge absence is the causative factor is not established. Overinterpretation of a single structural difference could mislead readers about the determinants of protein dynamics.
+  - **Resolution test** Provide numerical flexibility measures for both proteins under identical simulation conditions, with error bars or replicate simulations, and demonstrate that the difference is statistically significant. Show that removal or addition of the salt bridge in a mutant or control simulation reproduces the effect.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the intrinsically disordered domain in the N-terminal region significantly fluctuates and can form an amphiphilic alpha-helix.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the simulation timescale, the force field used, or the method by which alpha-helix formation was detected. For intrinsically disordered regions, secondary structure propensity can be highly force-field dependent, and transient helix formation may be an artifact of the simulation setup. The term "significantly fluctuates" lacks a defined statistical threshold.
+  - **Why it matters** The biological relevance of the N-terminal domain dynamics depends on whether the observed helix formation is robust and reproducible. If the result is force-field dependent, the claim may not hold under different simulation conditions, undermining the generalizability of the findings.
+  - **Resolution test** Report the simulation length, force field, and secondary structure assignment method. Show that helix formation is observed across multiple independent simulations or with different force fields, and provide a free energy or population analysis to quantify the propensity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the size of the entrance region gets smaller along with dehydration, keeping the beta-barrel structure.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative definition of "entrance region size" or "beta-barrel structure retention." It is unclear whether the beta-barrel is assessed by root-mean-square deviation from a reference structure, hydrogen bond occupancy, or other metrics. The dehydration protocol is not described, including how water removal was modeled, which could strongly influence the results.
+  - **Why it matters** The central biological claim is that the protein maintains its fold during desiccation, which is essential for its proposed role in anhydrobiosis. Without clear structural metrics and a validated dehydration protocol, this claim cannot be evaluated, and the conclusion may not be reproducible.
+  - **Resolution test** Provide a quantitative measure of beta-barrel integrity, such as RMSD or contact maps, as a function of dehydration level. Describe the dehydration simulation method in detail and show that the result is robust to changes in the dehydration rate or protocol.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "a latent state of life induced by desiccation" is imprecise; anhydrobiosis is a specific term that could be defined more clearly for nonspecialist readers.
+  - **Required correction** Define anhydrobiosis as a reversible state of metabolic arrest induced by extreme water loss, to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract, methods summary
+  - **Issue** The abstract does not state the number of replicate simulations or the total simulation time, which are essential for assessing convergence and statistical reliability.
+  - **Required correction** Include the simulation length and number of independent runs in the abstract or refer to a methods section where these are specified.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental validation
+  - **Affected element** HS-AFM description
+  - **Evidence pointer** Abstract, HS-AFM mention
+  - **Issue** The abstract states that HS-AFM observations were conducted to "ascertain" the MD results, but no specific experimental findings are reported, leaving the reader uncertain about the degree of agreement.
+  - **Required correction** Briefly state the key HS-AFM observation and how it supports or contradicts the simulation predictions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative metrics, simulation details, and dehydration protocol prevents evaluation of the core claims.
+- **Assessment against Nature-style criteria** Originality: The study addresses a niche protein family and combines techniques in a way that is not entirely novel but is relevant. Scientific importance: The findings could inform understanding of desiccation tolerance, but the significance is moderate and specialized. Interdisciplinary readership: The work is likely to appeal mainly to biophysicists and tardigrade researchers, with limited broader appeal. Technical soundness: Not assessable from the abstract due to missing methodological detail. Readability for nonspecialists: The abstract is reasonably clear but uses jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially sound study, but the lack of quantitative results and methodological transparency means the core claims cannot be verified. A revised manuscript with full technical details and robust statistical analyses could change this assessment.
+
+## Risk / unsupported claims
+- The causal link between salt bridge absence and increased flexibility is unsupported without quantitative flexibility data.
+- The claim of alpha-helix formation in the N-terminal domain is unsupported without force field and simulation details.
+- The claim of beta-barrel retention during dehydration is unsupported without structural metrics and dehydration protocol.
+- The statement that HS-AFM "ascertains" the MD results is unsupported because no experimental results are reported in the abstract.
+- The overall claim of providing "atomic-level dynamics" is not verifiable from the abstract alone.

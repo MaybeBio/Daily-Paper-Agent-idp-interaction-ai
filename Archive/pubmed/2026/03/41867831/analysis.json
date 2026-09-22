@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41867831",
+  "title": "A molecular grammar for programmable multiphase protein-RNA vesicles.",
+  "authors": "Ramachandran, V; Potoyan, D A",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-03-23",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过残基级粗粒化模拟揭示蛋白-RNA多相凝聚体的分子语法，系统研究蛋白-蛋白与蛋白-RNA互作不对称性如何决定囊泡状等形态，虽对象为蛋白-RNA而非纯蛋白PPI，但互作机制建模与相分离架构设计对本课题高度可迁移。",
+  "abstract": "Protein-RNA phase separation gives rise to biomolecular condensates with rich internal organization, yet the molecular rules that connect sequence-encoded interactions and composition to the emergent architecture of these condensates remain poorly defined. Here, using large-scale residue-level coarse-grained simulations, we identify a molecular grammar that governs the formation and stability of multiphase protein-RNA condensates. We show that asymmetries in protein-protein and protein-RNA interactions, together with protein stoichiometry, chain length, and condensate density, collectively determine whether condensates adopt homogeneous, layered, biphasic, or vesicle-like morphologies. Across a broad parameter space, these rules yield hollow multiphase vesicles with dense shells surrounding dilute interiors. Remarkably, vesicular condensates form spontaneously from well-mixed initial conditions, without requiring flux-driven oversaturation or extreme charge imbalance, distinguishing this mechanism from previously proposed routes to condensate hollowing. Our results establish minimal and general design principles for programming internal condensate architecture solely through sequence and composition, and provide a framework for engineering membrane-free vesicles and multilayered condensates with tunable permeability, encapsulation, and responsiveness.",
+  "abstract_zh": "蛋白质-RNA相分离（phase separation）产生具有丰富内部组织的生物分子凝聚体，然而，连接序列编码的相互作用和组成与这些凝聚体涌现结构之间的分子规则仍不明确。在此，我们利用大规模残基级粗粒化模拟，识别出一种控制多相蛋白质-RNA凝聚体形成与稳定性的分子语法。我们表明，蛋白质-蛋白质和蛋白质-RNA相互作用的非对称性，连同蛋白质化学计量、链长和凝聚体密度，共同决定凝聚体呈现均质、层状、双相或囊泡状形态。在广泛的参数空间中，这些规则产生具有致密壳层包围稀薄内部的中空多相囊泡。值得注意的是，囊泡状凝聚体从充分混合的初始条件中自发形成，无需依赖通量驱动的过饱和或极端电荷失衡，这将该机制与先前提出的凝聚体中空化途径区分开来。我们的结果确立了仅通过序列和组成编程凝聚体内部结构的最小且通用的设计原则，并为工程化具有可调渗透性、封装性和响应性的无膜囊泡及多层凝聚体提供了框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41867831/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41867831/",
+  "paper_page_path": "papers/pubmed/41867831/index.html"
+}

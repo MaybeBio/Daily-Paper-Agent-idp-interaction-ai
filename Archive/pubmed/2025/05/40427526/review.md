@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the supplied text; no supplementary figures or raw data were available for inspection
+- **Shared manuscript claim summary** The authors report that the durum wheat intrinsically disordered protein TdRL1 interacts with the type one protein phosphatase TdPP1 in vivo, inhibits its phosphatase activity in vitro in a concentration-dependent manner, and that structural modeling suggests a mechanism involving occlusion of the active site, with differences from the Arabidopsis inhibitor At-I2
+- **Visible evidence base** Co-immunoprecipitation results (Figure 1), BiFC localization data (Figure 2, Supplementary Figure S1), in vitro phosphatase assays (Figure 3A), IC50 calculations (Figure 3B), structural models (Figures 4 and 5), recombinant protein purification (Supplementary Figure S2), sequence alignments (Supplementary Figure S3), and TdRL1 sequence features (Supplementary Figure S4)
+- **Missing materials affecting confidence** Raw immunoblot images, full BiFC image sets, raw phosphatase activity data with replicates, statistical output details, model validation metrics (e.g., ZDock scores, RMSD for complexes), and supplementary figures were not available for independent verification
+
+## Reviewer
+- **Overall assessment** The manuscript presents a straightforward and potentially useful contribution to the understanding of PP1 regulation in plants, specifically identifying TdRL1 as a novel PP1-interacting protein and inhibitor. The combination of interaction assays and in vitro activity measurements is appropriate, and the structural modeling provides a plausible mechanistic framework. However, several technical concerns, particularly regarding the quantitative rigor of the inhibition data, the interpretation of the mutant experiments, and the reliance on modeling without experimental validation, limit the strength of the conclusions as currently presented. The work is of interest to plant signaling researchers but does not yet fully establish the mechanistic novelty implied by the title and abstract.
+- **Who would be interested in the results, and why** Plant molecular biologists studying protein phosphatase regulation, abiotic stress signaling, and intrinsically disordered proteins. Researchers working on PP1-interacting proteins across kingdoms may also find the comparative aspects with At-I2 and mammalian I2 of interest. The potential connection to stress tolerance pathways could attract those working on crop improvement.
+- **Major strengths** The study addresses a relevant and under-explored area, namely the regulation of plant PP1s by intrinsically disordered proteins. The use of multiple complementary approaches (co-IP, BiFC, in vitro activity assays, structural modeling) strengthens the interaction claim. The identification of a new PP1 inhibitor in wheat with potential stress-related functions adds to the growing repertoire of PP1 regulatory proteins. The comparative analysis with At-I2 provides useful context.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of quantitative inhibition data
+  - **Claim pointer** The authors claim that TdRL1 inhibits TdPP1 activity in a concentration-dependent manner, with specific percentages of inhibition (59% at 26 nM, 89.7% at higher concentrations) and IC50 values (32 ± 2.9 nM for TdRL1).
+  - **Evidence pointer** Section 3.2, Figure 3A and 3B
+  - **Concern** The inhibition data are presented as percentages and IC50 values, but the methods section does not describe how the IC50 values were calculated beyond a brief statement in Section 2.6. The description states that "the inhibition curve was generated based on the percentage of inhibition at three different inhibitor concentrations," which is insufficient for a reliable IC50 determination. Only three concentrations are mentioned, which is generally inadequate for constructing a robust dose-response curve. Additionally, the statistical analysis section (2.7) mentions one-way ANOVA and Tukey's post hoc test, but it is unclear what comparisons were made and whether the IC50 differences between TdRL1 and At-I2, or between wild-type and mutant forms, are statistically significant. The error bars in Figure 3B are mentioned as mean ± SD, but the number of independent experiments and replicates is not clearly stated for the IC50 determinations.
+  - **Why it matters** The central claim of the paper is that TdRL1 is a negative regulator of TdPP1. The quantitative strength of this claim rests entirely on the reliability of the inhibition data. If the IC50 values are derived from only three concentrations without proper curve fitting or statistical validation, the reported values and the comparative statements about TdRL1 versus At-I2 potency are not robust. This undermines the confidence in the conclusion that TdRL1 is a potent inhibitor.
+  - **Resolution test** Provide full dose-response curves with at least 6-8 inhibitor concentrations spanning a wide range, describe the curve-fitting model used, report IC50 values with confidence intervals from at least three independent experiments, and include statistical comparisons between the different enzyme forms and inhibitors.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of mutant data
+  - **Claim pointer** The authors state that the T243M mutation decreased TdPP1 activity to 71.01% of wild-type and that the H135A mutation reduced activity to 16.44%, and that both mutants showed altered sensitivity to inhibition by TdRL1 and At-I2.
+  - **Evidence pointer** Section 3.2, Figure 3A
+  - **Concern** The interpretation of the mutant experiments is problematic. The T243M mutation is described as mimicking the dominant-negative topp1-4 mutant of Arabidopsis, but the authors do not provide a clear mechanistic rationale for why this mutation should affect inhibitor sensitivity. The statement that "TdPP1-T243M showed a lower inhibition level, suggesting that this mutation may decrease the enzyme's sensitivity to the inhibition by TdRL1" is speculative without structural or biochemical evidence. Similarly, the H135A mutant, which is nearly catalytically dead, shows the highest inhibition by At-I2 (100%), which is counterintuitive if inhibition is measured as a percentage of remaining activity. If the mutant has very low basal activity, the percentage inhibition calculation becomes unreliable. The authors do not address this potential artifact.
+  - **Why it matters** The mutant experiments are used to support the claim that specific residues (T243, H135) participate in the interaction with inhibitors. If the interpretation is flawed due to the low basal activity of the H135A mutant or the lack of mechanistic context for T243M, the conclusions about residue-specific contributions to inhibitor binding are not supported.
+  - **Resolution test** Clarify how percentage inhibition was calculated for mutants with low basal activity. Provide absolute activity values in addition to percentages. Discuss whether the H135A mutant's near-complete loss of activity confounds the inhibition measurements. Consider using alternative assays (e.g., binding assays) to directly test the effect of mutations on inhibitor affinity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural modeling validation
+  - **Claim pointer** The authors present structural models of TdPP1 in complex with At-I2 and TdRL1, claiming that both inhibitors block the active site and that TdRL1 traps the phosphatase with its N-terminal tail.
+  - **Evidence pointer** Section 3.3, Figures 4 and 5
+  - **Concern** The structural models are generated using homology modeling and ZDock docking, but no experimental validation (e.g., mutagenesis of predicted interface residues followed by binding or activity assays, or cross-linking) is provided. The models are used to explain the biochemical data, but the reverse validation is missing. The claim that TdRL1 "traps" the phosphatase with its N-terminal tail is a specific mechanistic statement that goes beyond what can be reliably concluded from docking predictions alone. The authors acknowledge the models are predictive, but the discussion treats them as if they provide direct evidence for the inhibition mechanism.
+  - **Why it matters** The structural models are a significant part of the paper's contribution, particularly the proposed difference between TdRL1 and At-I2 binding modes. Without experimental validation, these models remain speculative, and the mechanistic conclusions drawn from them are not firmly established.
+  - **Resolution test** Provide experimental validation of the predicted interfaces, such as site-directed mutagenesis of key contact residues followed by co-IP or activity assays. Alternatively, clearly frame the models as hypotheses and temper the mechanistic claims accordingly.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Phosphatase assay description
+  - **Evidence pointer** Section 2.6
+  - **Issue** The description of the phosphatase assay is brief. It is unclear what concentration of TdPP1 was used in the assays, what the substrate concentration was, and whether the reaction was linear over the incubation time. The pre-incubation time of 10 minutes for inhibitor-enzyme interaction is mentioned, but the total reaction time is not specified.
+  - **Required correction** Provide full details of the assay conditions, including enzyme and substrate concentrations, reaction time, and a statement confirming that the assay was optimized for linearity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 3
+  - **Evidence pointer** Section 2.7, Figure 3
+  - **Issue** The statistical analysis section states that one-way ANOVA with Tukey's post hoc test was used, but the specific comparisons and the results of these tests are not reported in the text or figure legends. It is unclear whether the differences in IC50 values or inhibition percentages between conditions are statistically significant.
+  - **Required correction** Report the statistical test results, including F-values, degrees of freedom, and p-values, either in the text or figure legends. Clearly indicate which comparisons were made.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality and completeness
+  - **Affected element** Figures 1 and 2
+  - **Evidence pointer** Section 3.1
+  - **Issue** The co-IP and BiFC results are described in the text, but the figures are not available for review. The description of the BiFC localization is limited to a statement about the microtubular network, but it is unclear how this was determined (e.g., co-staining with a microtubule marker).
+  - **Required correction** Ensure that the figures clearly show the appropriate controls (e.g., negative controls for co-IP and BiFC) and that the microtubule localization is supported by co-localization with a known marker.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Title and abstract
+  - **Evidence pointer** Title, Abstract
+  - **Issue** The title states that TdRL1 "negatively regulates" TdPP1. While the data support inhibition of phosphatase activity, the term "negatively regulates" could imply a broader regulatory role beyond direct enzymatic inhibition. The abstract also uses "negatively regulates" without specifying that this is demonstrated only in vitro.
+  - **Required correction** Consider revising the title and abstract to specify that the negative regulation is demonstrated through direct inhibition of phosphatase activity in vitro, to avoid overstating the in vivo relevance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (inadequate IC50 determination and statistical validation), R1-M2 (confounded interpretation of mutant inhibition data), R1-M3 (lack of experimental validation for structural models)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The identification of TdRL1 as a PP1 inhibitor in wheat is novel, but the concept of intrinsically disordered PP1 inhibitors is well established. The specific mechanistic details, particularly the proposed N-terminal trapping mechanism, are potentially original but not experimentally validated.
+  - Scientific importance: Moderate. The work adds to the understanding of PP1 regulation in plants and may have implications for stress tolerance, but the significance is limited by the lack of in vivo functional data connecting the inhibition to physiological outcomes.
+  - Interdisciplinary readership: Limited. The topic is of primary interest to plant signaling and phosphatase researchers. The broader cell biology community may find the microtubule localization interesting, but the overall scope is narrow.
+  - Technical soundness: The interaction assays are appropriate, but the quantitative analysis of inhibition data is insufficiently rigorous, and the structural modeling lacks experimental support. These issues need to be addressed to establish the technical reliability of the conclusions.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear explanations of the background and significance. However, some sections, particularly the structural modeling, may be challenging for readers without a background in protein structure.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding of a novel PP1 inhibitor in wheat is of interest, and the interaction data are convincing. However, the quantitative rigor of the inhibition assays, the interpretation of the mutant experiments, and the lack of validation for the structural models must be addressed before the mechanistic claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that TdRL1 "traps" TdPP1 with its N-terminal tail is unsupported by experimental evidence and relies solely on predictive modeling.
+- The statement that TdRL1 and At-I2 have "differential cellular localization" for their complexes with TdPP1 is based on qualitative BiFC observations without quantitative analysis or confirmation with additional markers.
+- The claim that T243 and H135 residues "may participate in the interaction with TdRL1" is speculative and not directly tested.
+- The physiological relevance of TdRL1-mediated PP1 inhibition to stress tolerance is inferred from prior studies but not directly demonstrated in this work.
+- The IC50 values reported are not reliably established given the limited methodological description and lack of statistical validation.

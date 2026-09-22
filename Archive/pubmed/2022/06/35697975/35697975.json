@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "35697975",
+    "doi": "10.1007/s00894-022-05180-1",
+    "title": "In silico studies of the human IAPP in the presence of osmolytes."
+  },
+  "content": {
+    "abstract": "The human islet amyloid polypeptide or amylin is secreted along with insulin by pancreatic islets. Under the drastic environmental conditions, amylin can aggregate to form amyloid fibrils. This amyloid plaque of hIAPP in the pancreatic cells is the cause of type II diabetes. Early stages of amylin aggregates are more cytotoxic than the matured fibrils. Here, we have used the all-atom molecular dynamic simulation to see the effect of water, TMAO, urea and urea/TMAO having ratio 2:1 of different concentrations on the amylin protein. Our study suggest that the amylin protein forms beta-sheets in its monomeric form and may cause the aggregation of protein through the residue 13-17 and the C-terminal region. alpha-Helical content of protein increases with an increase in TMAO concentration by decreasing the SASA value of protein, increase in intramolecular hydrogen bonds and on making the short-range hydrophobic interactions. Electrostatic potential surfaces show that hydrophobic groups are buried and normalised configurational entropy of backbone, and side-chain atoms is lesser in the presence of TMAO, whereas opposite behaviour is obtained in the case of urea. Counteraction effect of TMAO using Kast model towards urea is also observed in ternary solution of urea/TMAO.",
+    "keywords": [
+      "Aggregates",
+      "Human IAPP",
+      "IDPs",
+      "TMAO",
+      "Urea",
+      "alpha-Helix"
+    ],
+    "mesh_terms": [
+      "Amyloid/chemistry",
+      "*Diabetes Mellitus, Type 2",
+      "Humans",
+      "*Islet Amyloid Polypeptide/chemistry",
+      "Protein Structure, Secondary",
+      "Urea"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khan, Ashma",
+        "Jahan, Ishrat",
+        "Nayeem, Shahid M"
+      ],
+      "short_names": [
+        "Khan A",
+        "Jahan I",
+        "Nayeem SM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6478-9835"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Aligarh Muslim University, Aligarh, 202002, UP, India.",
+        "Department of Chemistry, Aligarh Muslim University, Aligarh, 202002, UP, India.",
+        "Department of Chemistry, Aligarh Muslim University, Aligarh, 202002, UP, India. msnayeem.ch@amu.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khan, Ashma",
+        "short_name": "Khan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Aligarh Muslim University, Aligarh, 202002, UP, India."
+        ]
+      },
+      {
+        "full_name": "Jahan, Ishrat",
+        "short_name": "Jahan I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Aligarh Muslim University, Aligarh, 202002, UP, India."
+        ]
+      },
+      {
+        "full_name": "Nayeem, Shahid M",
+        "short_name": "Nayeem SM",
+        "identifiers": [
+          "0000-0002-6478-9835"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Aligarh Muslim University, Aligarh, 202002, UP, India. msnayeem.ch@amu.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular modeling"
+    ],
+    "journal_abbrev": [
+      "J Mol Model"
+    ],
+    "pub_date": "2022 Jun 14",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/14 06:00",
+    "fetched_at": "2026-09-20 11:11:12"
+  },
+  "links": {
+    "cites": [
+      "40393987"
+    ],
+    "refs": [
+      "33134659",
+      "31456396",
+      "28949191",
+      "27270889",
+      "26967551",
+      "26876571",
+      "26147245",
+      "25645610",
+      "25531225",
+      "25144879",
+      "25138965",
+      "24672404",
+      "24591588",
+      "24218609",
+      "24128758",
+      "24009497",
+      "23822090",
+      "23614446",
+      "23493869",
+      "23331123",
+      "22787008",
+      "22720789",
+      "22583952",
+      "22187437",
+      "21916515",
+      "21250690",
+      "20408171",
+      "20121105",
+      "19950949",
+      "19883599",
+      "19769937",
+      "19475663",
+      "19405534",
+      "19244249",
+      "18573080",
+      "17979302",
+      "17787590",
+      "17580863",
+      "17373796",
+      "17212484",
+      "17172263",
+      "16968772",
+      "16043587",
+      "15811365",
+      "15096583",
+      "14729343",
+      "12097640",
+      "11170213",
+      "10940238",
+      "10933741",
+      "10760270",
+      "10548251",
+      "10191146",
+      "9450510",
+      "7756545",
+      "7112124",
+      "6667333",
+      "4046024",
+      "3978211",
+      "3035556"
+    ],
+    "similar": [
+      "35697975",
+      "23493869",
+      "24892388",
+      "33887213",
+      "21384830",
+      "23614446",
+      "25646717",
+      "11731221",
+      "32800950",
+      "23331123",
+      "21158384",
+      "25913357",
+      "30814273",
+      "33544470",
+      "28058779",
+      "28602716",
+      "36163697",
+      "14565847",
+      "21742788",
+      "24245879",
+      "33134659",
+      "10656810",
+      "21428404",
+      "26604727",
+      "30803034",
+      "34558100",
+      "22334700",
+      "30919775",
+      "7578065",
+      "8078905",
+      "21625904",
+      "26352401",
+      "21942864",
+      "34883118",
+      "7711888",
+      "31195047",
+      "37195541",
+      "18556473",
+      "18989933",
+      "39225636",
+      "39199339",
+      "23974296",
+      "28917147",
+      "32105649",
+      "27641459",
+      "23380070",
+      "27854243",
+      "30007378",
+      "25224501",
+      "8212454",
+      "23883044",
+      "14729343",
+      "20429571",
+      "23707907",
+      "28071890",
+      "30975901",
+      "35164285",
+      "26221949",
+      "25826050",
+      "30012886",
+      "22847497",
+      "18989932",
+      "10230646",
+      "29115353",
+      "7929617",
+      "30039399",
+      "35372496",
+      "21266296",
+      "23225004",
+      "31442763",
+      "29697253",
+      "8460100",
+      "30502402",
+      "1999270",
+      "25952953",
+      "9281227",
+      "28500395",
+      "29303519",
+      "24094407",
+      "8168639",
+      "18937465",
+      "28778718",
+      "34768769",
+      "35275530",
+      "28585804",
+      "32860895",
+      "31777253",
+      "23145779",
+      "25140605",
+      "27393137",
+      "35216095",
+      "19794060",
+      "1573849",
+      "7983808",
+      "32541895",
+      "21566116",
+      "37544243",
+      "35315738",
+      "21916515",
+      "39219407",
+      "34499498",
+      "35868166",
+      "36272537",
+      "37734431",
+      "36778414"
+    ],
+    "review": [
+      "35697975",
+      "11731221",
+      "33544470",
+      "21742788",
+      "26604727",
+      "34558100",
+      "30919775",
+      "23380070",
+      "25224501",
+      "8212454",
+      "35164285",
+      "7929617",
+      "23225004",
+      "1999270",
+      "9281227",
+      "1573849"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00894-022-05180-1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

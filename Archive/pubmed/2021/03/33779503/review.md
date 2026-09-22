@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors performed molecular dynamics simulations of 10 protein-RNA complexes to investigate the role of intrinsically disordered regions (IDRs) in RNA binding. They report that most disordered regions undergo disorder-to-order transitions upon binding, contribute significantly to binding affinity, are enriched at interfaces or as linkers between similarly moving regions, and overlap or flank experimentally reported functional residues.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, quantitative results, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, simulation setup and force field details, trajectory analysis protocols, definitions of disorder and order parameters, binding affinity calculations, interface residue identification, and any figures or tables supporting the claims
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of molecular dynamics simulations to a biologically relevant question, namely the role of IDRs in protein-RNA recognition. However, the claims are broad and lack quantitative support in the provided material. The central assertions regarding disorder-to-order transitions, their contribution to binding affinity, and the functional significance of the identified regions cannot be evaluated without access to the underlying data and methods. The work may be of interest to the computational biophysics and RNA biology communities, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, RNA-binding proteins, and molecular recognition mechanisms would find the topic relevant. Computational biophysicists interested in simulation-based approaches to conformational transitions and binding free energy analysis may also be interested. The potential link to experimentally characterized functional residues could attract experimentalists seeking mechanistic hypotheses.
+- **Major strengths** The topic addresses a timely and important question about the role of IDRs in protein-RNA complexes. The use of molecular dynamics simulations on a set of 10 complexes suggests a comparative approach that could yield generalizable insights. The attempt to connect simulation results to experimentally reported functional residues is commendable and could enhance biological relevance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that "most of the disordered regions are important for RNA-binding and have a transition from disordered-to-ordered conformation upon binding, which often contribute significantly towards the binding affinity."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no quantitative metrics for the disorder-to-order transition, such as changes in secondary structure content, radius of gyration, or residue-specific order parameters. The claim that these transitions "contribute significantly towards the binding affinity" is not supported by any free energy decomposition or mutational analysis.  
+  - **Why it matters** Without quantitative definitions and supporting data, the central mechanistic claim cannot be verified or reproduced. The contribution to binding affinity is a strong statement that requires energetic analysis, not just structural observation.  
+  - **Resolution test** Provide quantitative measures of disorder-to-order transitions (e.g., fraction of residues transitioning, order parameter changes) and binding free energy contributions (e.g., per-residue decomposition or alanine scanning) for each complex.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that "most of the disordered residues are present at the interface or located as a linker between two regions having similar movements."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The definition of "interface" and "linker" is not provided, and the analysis of "similar movements" is not described. No criteria for identifying correlated motions or defining linker regions are given.  
+  - **Why it matters** These terms are central to the structural interpretation. Without clear operational definitions and supporting analysis, the claim is ambiguous and cannot be assessed.  
+  - **Resolution test** Define interface residues based on distance cutoffs in the bound state, define linker regions based on sequence or structural criteria, and describe the method for identifying correlated movements (e.g., dynamic cross-correlation analysis). Provide representative examples.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors claim that "The DOT regions are overlaped or flanked with experimentally reported functionally important residues in the recognition of protein-RNA complexes."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify which experimental data are used, how overlap or flanking is defined, or how many of the 10 complexes show this pattern. The claim is presented as a general finding but lacks specificity.  
+  - **Why it matters** This claim is the key link to biological relevance. Without clear criteria and quantitative support, the significance of the simulation results for experimental understanding remains unclear.  
+  - **Resolution test** Specify the experimental sources, define overlap and flanking criteria (e.g., sequence distance), and report the number of complexes and residues satisfying these criteria.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The authors state that "we performed molecular dynamics simulations of 10 protein-RNA complexes."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No details on simulation length, force field, water model, temperature, pressure, or equilibration protocol are provided. The choice of starting structures and the handling of IDRs in initial models are also unspecified.  
+  - **Why it matters** Reproducibility is a core requirement for simulation studies. Without these details, the results cannot be replicated or compared with other work.  
+  - **Resolution test** Provide full simulation parameters in the methods section, including software version, force field, ensemble, simulation time, and convergence checks.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "DOT regions" is introduced without definition. It likely refers to "disorder-to-order transition" regions, but this is not stated.  
+  - **Required correction** Define "DOT" at first use, for example, "disorder-to-order transition (DOT) regions."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "overlaped" appears to be a typographical error for "overlapped."  
+  - **Required correction** Correct the spelling to "overlapped."  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not mention any limitations of the study, such as force field accuracy for IDRs or the limited number of complexes.  
+  - **Required correction** Add a sentence acknowledging potential limitations, such as the sensitivity of IDR behavior to force field choice and the need for experimental validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative definitions, energetic analysis, and methodological details prevents verification of the central claims.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The application of MD simulations to study IDRs in protein-RNA complexes is not entirely novel, but the comparative approach across 10 complexes may offer some new insights. The originality cannot be fully assessed from the abstract alone.  
+  - **Scientific importance** The role of IDRs in RNA binding is an important question, and the potential link to functional residues is of interest. However, the importance of the specific findings is not established without quantitative evidence.  
+  - **Interdisciplinary readership** The topic bridges computational biophysics and RNA biology, which could attract a broad audience. The abstract is written in a way that is accessible to nonspecialists, but the lack of detail limits its impact.  
+  - **Technical soundness** The technical soundness cannot be evaluated from the abstract. The absence of simulation parameters and analysis methods is a major gap.  
+  - **Readability for nonspecialists** The abstract is generally readable, but the undefined term "DOT" and the lack of context for "similar movements" may confuse nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses, but the lack of quantitative data and methodological detail prevents a supportive recommendation. The authors should provide the full manuscript with detailed methods and results to allow proper evaluation.
+
+## Risk / unsupported claims
+- The claim that disorder-to-order transitions "often contribute significantly towards the binding affinity" is unsupported without free energy analysis.
+- The claim that disordered residues are "located as a linker between two regions having similar movements" is unsupported without defined criteria for linker regions and correlated motion analysis.
+- The claim that DOT regions "overlap or flank" experimentally reported functional residues is unsupported without specification of the experimental data and overlap criteria.
+- The general statement that "most of the disordered regions are important for RNA-binding" is not quantified and cannot be assessed.

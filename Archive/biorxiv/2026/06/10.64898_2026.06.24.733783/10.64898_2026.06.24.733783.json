@@ -1,0 +1,653 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.06.24.733783",
+  "title": "The Hidden Disorder Divide: Reconciling Benchmark Inconsistencies in Intrinsically Disordered Protein Binding Site Prediction",
+  "doi": "10.64898/2026.06.24.733783",
+  "abstract": "Computational predictors of protein-binding sites within intrinsically disordered regions (IDRs) show highly inconsistent performance across high-quality benchmark datasets. To understand the origins of these discrepancies, we systematically compared predictors across three independent test sets: two CAID datasets updated with the latest DisProt annotations and a composite dataset (DBs) assembled from DIBS, FuzDB, IDEAL, and MFIB. Predictors trained predominantly on DisProt data achieved substantially higher AUCs on the CAID sets but performed poorly on the DBs. In contrast, predictors trained on older, low-quality PDB-based datasets showed balanced performance across all sets, with a slight preference for DBs. Predictors with mixed training exposure displayed intermediate behavior. Through controlled experiments using identical CNN architectures and feature analysis, we demonstrate that the dominant factor driving these performance differences is the intrinsic disorder propensity of the binding sites themselves. Binding residues in DisProt-based datasets exhibit markedly higher average disorder propensity scores than those in PDB-derived datasets. This previously unrecognized selection bias — literature studies preferentially characterizing more disordered binding sites, while PDB-derived annotations capture less disordered ones — effectively splits IDR-protein binding sites into two distinct categories. Predictors optimized on one category therefore generalize poorly to the other. Binding-site length and sequence conservation play only minor or negligible roles in explaining the observed inconsistencies. These findings highlight a critical limitation in current benchmarking practices and training strategies for IDR-binding site prediction, underscoring the need for more balanced and disorder-aware reference datasets. Finally, the diagnostic techniques introduced here could prove valuable beyond the specific application examined in this study. The data and code used to generate all figures and tables are available at: https://github.com/NawarMalhis/HDD",
+  "authors": [
+    "Nawar Malhis",
+    "Mahta Mehdiabadi",
+    "Gábor Erdős",
+    "Jörg Gsponer",
+    "Lukasz Kurgan",
+    "Silvio C E Tosatto",
+    "Zsuzsanna Dosztanyi",
+    "Damiano Piovesan"
+  ],
+  "published_date": "2026-06-27",
+  "updated_date": "2026-06-28T07:35:24Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.06.24.733783",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.24.733783.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            24
+          ]
+        ],
+        "date-time": "2026-07-24T13:02:56Z",
+        "timestamp": 1784898176223,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            27
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 67,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                27
+              ]
+            ],
+            "date-time": "2026-06-27T00:00:00Z",
+            "timestamp": 1782518400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            21
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Computational predictors of protein-binding sites within intrinsically disordered regions (IDRs) show highly inconsistent performance across high-quality benchmark datasets. To understand the origins of these discrepancies, we systematically compared predictors across three independent test sets: two CAID datasets updated with the latest DisProt annotations and a composite dataset (DBs) assembled from DIBS, FuzDB, IDEAL, and MFIB. Predictors trained predominantly on DisProt data achieved substantially higher AUCs on the CAID sets but performed poorly on the DBs. In contrast, predictors trained on older, low-quality PDB-based datasets showed balanced performance across all sets, with a slight preference for DBs. Predictors with mixed training exposure displayed intermediate behavior. Through controlled experiments using identical CNN architectures and feature analysis, we demonstrate that the dominant factor driving these performance differences is the intrinsic disorder propensity of the binding sites themselves. Binding residues in DisProt-based datasets exhibit markedly higher average disorder propensity scores than those in PDB-derived datasets. This previously unrecognized selection bias — literature studies preferentially characterizing more disordered binding sites, while PDB-derived annotations capture less disordered ones — effectively splits IDR-protein binding sites into two distinct categories. Predictors optimized on one category therefore generalize poorly to the other. Binding-site length and sequence conservation play only minor or negligible roles in explaining the observed inconsistencies. These findings highlight a critical limitation in current benchmarking practices and training strategies for IDR-binding site prediction, underscoring the need for more balanced and disorder-aware reference datasets. Finally, the diagnostic techniques introduced here could prove valuable beyond the specific application examined in this study.</jats:p>\n                <jats:p>\n                  The data and code used to generate all figures and tables are available at:\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/NawarMalhis/HDD\">https://github.com/NawarMalhis/HDD</jats:ext-link>\n                </jats:p>",
+      "DOI": "10.64898/2026.06.24.733783",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            28
+          ]
+        ],
+        "date-time": "2026-06-28T07:35:24Z",
+        "timestamp": 1782632124000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "The Hidden Disorder Divide: Reconciling Benchmark Inconsistencies in Intrinsically Disordered Protein Binding Site Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1317-833X",
+          "authenticated-orcid": false,
+          "given": "Nawar",
+          "family": "Malhis",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Michael Smith Laboratories, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-2044-541X",
+          "authenticated-orcid": false,
+          "given": "Mahta",
+          "family": "Mehdiabadi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Sciences, University of Padova, Padua, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gábor",
+          "family": "Erdős",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MTA-ELTE Momentum Bioinformatics Research Group, Department of Biochemistry, Eötvös Loránd University, Budapest, Hungary"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3672-6594",
+          "authenticated-orcid": false,
+          "given": "Jörg",
+          "family": "Gsponer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Michael Smith Laboratories, University of British Columbia, Vancouver, BC V6T 1Z4, Canada"
+            },
+            {
+              "name": "Department of Biochemistry and Molecular Biology, University of British Columbia, Vancouver, BC V6T 1Z3, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7749-0314",
+          "authenticated-orcid": false,
+          "given": "Lukasz",
+          "family": "Kurgan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, Virginia Commonwealth University, Richmond, VA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4525-7793",
+          "authenticated-orcid": false,
+          "given": "Silvio C E",
+          "family": "Tosatto",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Sciences, University of Padova, Padua, Italy"
+            },
+            {
+              "name": "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3624-5937",
+          "authenticated-orcid": false,
+          "given": "Zsuzsanna",
+          "family": "Dosztanyi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MTA-ELTE Momentum Bioinformatics Research Group, Department of Biochemistry, Eötvös Loránd University, Budapest, Hungary"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8210-2390",
+          "authenticated-orcid": false,
+          "given": "Damiano",
+          "family": "Piovesan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Sciences, University of Padova, Padua, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2004.02.002"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Oldfield CJ , Uversky VN , Dunker AK , et al. Chapter 1 - introduction to intrinsically disordered proteins and regions. In: Salvi N (ed). Intrinsically Disordered Proteins. Academic Press, Cambridge, Massachusetts, 2019, 1–34.",
+          "DOI": "10.1016/B978-0-12-816348-1.00001-6"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-072711-164947"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2011.03.011"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BJ20130545"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2012.05.039"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi012159+"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.0020100"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.febslet.2005.04.005"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c1mb05231d"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1291"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2006.07.087"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/pr0701411"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi050736e"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi7012273"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp518"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1000376"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms11103725"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts209"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2011.10.025"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0072838"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-14-300"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv060"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu744"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0141603"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv155"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C5MB00640F"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv585"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw409"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-016-1375-0"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx238"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-6406-2_14"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jtbi.2017.10.015"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky384"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty032"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pmic.201800058"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1142/S0219720019500045"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-3111-z"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1142/S0219720019400158"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/e21070635"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz691"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13040-021-00275-6"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-24773-7"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbab521"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab640"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4466"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac502"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12915-023-01803-y"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.12.18.629275"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms21010074"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/febs.15427"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijbiomac.2021.03.199"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12915-022-01364-6"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijbiomac.2022.07.102"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pld3.515"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijbiomac.2024.134291"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01117-3"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad430"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.70045"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaf1175"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx640"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1060"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1010"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae976"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.10.25.620288"
+        },
+        {
+          "key": "2026072405150867000_2026.06.24.733783v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa288"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.06.24.733783",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            24
+          ]
+        ],
+        "date-time": "2026-07-24T12:15:14Z",
+        "timestamp": 1784895314000
+      },
+      "score": 95.86267,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.06.24.733783"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            27
+          ]
+        ]
+      },
+      "references-count": 67,
+      "URL": "https://doi.org/10.64898/2026.06.24.733783",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

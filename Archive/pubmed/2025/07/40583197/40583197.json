@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "40583197",
+    "doi": "10.1002/advs.202503987",
+    "title": "Sequence- and Docking-Site-Dependent Contributions to Multi-Site Phosphorylation of an Intrinsically Disordered MAPK Substrate."
+  },
+  "content": {
+    "abstract": "Protein kinases often rely on docking site motifs to enhance substrate interactions and facilitate phosphorylation. For example, mitogen-activated protein kinases (MAPKs) utilize D- and F-motifs, which frequently act in concert to enable bipartite substrate binding. While these motifs are known to modulate phosphorylation efficiency, their quantitative impact on target site phosphorylation within long intrinsically disordered substrates remains largely unexplored. Using NMR spectroscopy, JNK1-dependent phosphorylation of JIP1, a 450-amino acid disordered substrate, is investigated, identifying eleven phosphosites with distinct phosphorylation efficiencies. By selectively disrupting JNK1 binding to the D- and F-motifs of JIP1, the determinants of phosphorylation efficiency are uncovered. Specifically, it is found that the D-motif selectively enhances phosphorylation in the C-terminal direction in a length-dependent manner, impressively increasing the phosphorylation efficiencies of sites located at sequence distances exceeding 120 amino acids, while the F-motif primarily promotes phosphorylation of a site located immediately N-terminal to the F-motif. Additionally, docking-site-independent phosphorylation is observed, whose efficiency is dictated by the intrinsic sequence preference of JNK1, as inferred from motif scores derived from positional scanning peptide arrays. The work highlights how docking site motifs and sequence context synergistically regulate phosphorylation efficiency, emphasizing the critical role of substrate architecture in determining MAPK-mediated signaling outcomes.",
+    "keywords": [
+      "NMR",
+      "docking sites",
+      "intrinsically disordered protein",
+      "local effective concentration",
+      "mitogen-activated protein kinases",
+      "scaffold protein",
+      "substrate phosphorylation"
+    ],
+    "mesh_terms": [
+      "Phosphorylation",
+      "Humans",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry",
+      "*Adaptor Proteins, Signal Transducing/metabolism/chemistry/genetics",
+      "*Mitogen-Activated Protein Kinases/metabolism",
+      "Binding Sites",
+      "*Mitogen-Activated Protein Kinase 8/metabolism",
+      "Amino Acid Motifs",
+      "Protein Binding",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Orand, Thibault",
+        "Delaforge, Elise",
+        "Chenal, Marion",
+        "Tengo, Maud",
+        "Herrmann, Torsten",
+        "Cortes, Juan",
+        "Bernado, Pau",
+        "Jensen, Malene Ringkjobing"
+      ],
+      "short_names": [
+        "Orand T",
+        "Delaforge E",
+        "Chenal M",
+        "Tengo M",
+        "Herrmann T",
+        "Cortes J",
+        "Bernado P",
+        "Jensen MR"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8014-5100",
+        "ORCID: 0000-0003-2115-4781",
+        "ORCID: 0000-0002-4660-0306",
+        "ORCID: 0000-0001-7395-5922",
+        "ORCID: 0000-0003-0419-2196"
+      ],
+      "affiliations": [
+        "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, 38044, France.",
+        "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, 38044, France.",
+        "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, 38044, France.",
+        "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, 38044, France.",
+        "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, 38044, France.",
+        "LAAS-CNRS, Universite de Toulouse, CNRS, Toulouse, 31400, France.",
+        "Centre de Biologie Structurale (CBS), Universite de Montpellier, INSERM, CNRS, Montpellier, 34090, France.",
+        "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, 38044, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Orand, Thibault",
+        "short_name": "Orand T",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, 38044, France."
+        ]
+      },
+      {
+        "full_name": "Delaforge, Elise",
+        "short_name": "Delaforge E",
+        "identifiers": [
+          "0000-0001-8014-5100"
+        ],
+        "affiliations": [
+          "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, 38044, France."
+        ]
+      },
+      {
+        "full_name": "Chenal, Marion",
+        "short_name": "Chenal M",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, 38044, France."
+        ]
+      },
+      {
+        "full_name": "Tengo, Maud",
+        "short_name": "Tengo M",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, 38044, France."
+        ]
+      },
+      {
+        "full_name": "Herrmann, Torsten",
+        "short_name": "Herrmann T",
+        "identifiers": [
+          "0000-0003-2115-4781"
+        ],
+        "affiliations": [
+          "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, 38044, France."
+        ]
+      },
+      {
+        "full_name": "Cortés, Juan",
+        "short_name": "Cortés J",
+        "identifiers": [
+          "0000-0002-4660-0306"
+        ],
+        "affiliations": [
+          "LAAS-CNRS, Université de Toulouse, CNRS, Toulouse, 31400, France."
+        ]
+      },
+      {
+        "full_name": "Bernadó, Pau",
+        "short_name": "Bernadó P",
+        "identifiers": [
+          "0000-0001-7395-5922"
+        ],
+        "affiliations": [
+          "Centre de Biologie Structurale (CBS), Université de Montpellier, INSERM, CNRS, Montpellier, 34090, France."
+        ]
+      },
+      {
+        "full_name": "Jensen, Malene Ringkjøbing",
+        "short_name": "Jensen MR",
+        "identifiers": [
+          "0000-0003-0419-2196"
+        ],
+        "affiliations": [
+          "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, 38044, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/01 04:06",
+    "fetched_at": "2026-09-21 20:31:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39999166",
+      "39539017",
+      "39093972",
+      "39013462",
+      "36631611",
+      "36350035",
+      "36253406",
+      "35581583",
+      "35173330",
+      "35061369",
+      "34439869",
+      "33876640",
+      "33482987",
+      "33188182",
+      "32817491",
+      "32696390",
+      "32433869",
+      "31504192",
+      "30554840",
+      "30320553",
+      "30026235",
+      "29544874",
+      "29276882",
+      "29225075",
+      "29093025",
+      "28716922",
+      "28656226",
+      "28126639",
+      "27738173",
+      "27083547",
+      "26851279",
+      "25737554",
+      "25505092",
+      "25038803",
+      "24186061",
+      "23897889",
+      "23807285",
+      "23461595",
+      "23455463",
+      "23267331",
+      "23171049",
+      "23047924",
+      "23011410",
+      "22889905",
+      "22796964",
+      "21955038",
+      "21551057",
+      "21372320",
+      "21215374",
+      "19965465",
+      "19438722",
+      "19196711",
+      "19091303",
+      "19008353",
+      "18482985",
+      "18339942",
+      "17918909",
+      "17243818",
+      "17052209",
+      "17052208",
+      "16536530",
+      "16456539",
+      "16424299",
+      "16195223",
+      "16045329",
+      "15273306",
+      "15141161",
+      "15068802",
+      "12756254",
+      "12511654",
+      "12471242",
+      "11749383",
+      "11728304",
+      "11562351",
+      "11371562",
+      "11283593",
+      "11242034",
+      "11157753",
+      "11029469",
+      "10973059",
+      "10828059",
+      "10655591",
+      "10490659",
+      "9925641",
+      "9733513",
+      "9691039",
+      "9624111",
+      "8945519",
+      "8520220",
+      "8062390"
+    ],
+    "similar": [
+      "40583197",
+      "39999166",
+      "12788955",
+      "19196711",
+      "11134045",
+      "26988444",
+      "10655591",
+      "19615338",
+      "18486448",
+      "12529172",
+      "23047924",
+      "36626580",
+      "23981301",
+      "17344281",
+      "20126615",
+      "22006927",
+      "26370088",
+      "10523642",
+      "12600273",
+      "21098038",
+      "27083547",
+      "11786537",
+      "37988460",
+      "34100859",
+      "25737554",
+      "18482985",
+      "28716922",
+      "29547722",
+      "16195223",
+      "10922375",
+      "15979847",
+      "34320339",
+      "21261310",
+      "15158451",
+      "15132737",
+      "30726174",
+      "14699111",
+      "15271995",
+      "31578253",
+      "31724233",
+      "23792175",
+      "11029469",
+      "20534829",
+      "11278799",
+      "15728578",
+      "25799139",
+      "21945277",
+      "25031324",
+      "41365991",
+      "32933064",
+      "19473979",
+      "33028677",
+      "12754209",
+      "12225289",
+      "24465549",
+      "33852892",
+      "16533805",
+      "11356842",
+      "24750137",
+      "11090222",
+      "38996909",
+      "35012986",
+      "15081531",
+      "17239901",
+      "28554535",
+      "26742101",
+      "12915550",
+      "15169919",
+      "25646663",
+      "18285339",
+      "15379552",
+      "34929201",
+      "27140628",
+      "19303851",
+      "20940326",
+      "21873571",
+      "30937482",
+      "21494553",
+      "23159405",
+      "15258148",
+      "11738041",
+      "29225075",
+      "15998799",
+      "11062067",
+      "14734536",
+      "16648477",
+      "12643765",
+      "10716930",
+      "12151396",
+      "28002650",
+      "23142346",
+      "24930733",
+      "34655613",
+      "21890632",
+      "12639708",
+      "9111004",
+      "12912989",
+      "12809513",
+      "28734076",
+      "15834155"
+    ],
+    "review": [
+      "40583197",
+      "12600273",
+      "34100859"
+    ],
+    "pmc": [
+      "12463012"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40583197/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MAPK8-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-889",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

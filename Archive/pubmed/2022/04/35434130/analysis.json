@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35434130",
+  "title": "Determination of B and T Cell Epitopes in Neospora caninum Immune Mapped Protein-1 (IMP-1): Implications in Vaccine Design against Neosporosis.",
+  "authors": "Nazari, Naser; Kordi, Bahareh; Maleki, Bahman; Shams, Morteza; Azizi, Esfandiar; Majidiani, Hamidreza; Naserifar, Razi",
+  "journal": "BioMed research international",
+  "published_date": "2022-04-19",
+  "window": {
+    "start": "2022-04-18",
+    "end": "2022-04-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用网络工具预测犬新孢子虫IMP-1蛋白的理化特征和免疫表位，虽涉及无序区域预测和表位结合，但对象非IDP介导的PPI机制，且方法为常规免疫信息学而非AI/物理模拟，与本课题关联较弱。",
+  "abstract": "Prevention of neosporosis is advantageous for cattle health and productivity. Previously, several vaccine candidates were nominated for vaccination against Neospora caninum. This study was premised on in silico evaluation of N. caninum IMP-1 in order to determine its physicochemical features and immunogenic epitopes. We employed a wide array of network-based tools for the prediction of antigenicity, allergenicity, solubility, posttranslational modification (PTM) sites, physicochemical properties, transmembrane domains and signal peptide, secondary and tertiary structures, and intrinsically disordered regions. Also, prediction and screening of potential continuous B cell peptides and those epitopes having stringent affinity to couple with mouse major histocompatibility complex (MHC) and cytotoxic T lymphocyte (CTL) receptors were accomplished. The protein had 393 residues with a molecular weight of 42.71 kDa, representing aliphatic index of 85.83 (thermotolerant) and GRAVY score of -0.447 (hydrophilic). There were 47 PTM sites without a signal peptide in the sequence. Secondary structure comprised mostly of extended strand and helices, followed by coils. The Ramachandran plot of the refined model showed 90.1%, 9.9%, 0.0%, and 0.0% residues in the favored, additional allowed, generously allowed, and disallowed regions, correspondingly. Additionally, various potential B cell (linear and conformational), CTL, and MHC binding epitopes were predicted for N. caninum IMP-1. The findings of the present study could be further directed for next-generation vaccine design against neosporosis.",
+  "abstract_zh": "预防新孢子虫病对牛的健康和生产性能有利。此前，已有若干候选疫苗被提名用于针对犬新孢子虫（Neospora caninum）的疫苗接种。本研究基于对犬新孢子虫IMP-1的计算机模拟（in silico）评估，旨在确定其理化特征和免疫原性表位。我们采用了一系列基于网络的工具，用于预测抗原性、过敏原性、可溶性、翻译后修饰（PTM）位点、理化性质、跨膜结构域和信号肽、二级和三级结构，以及固有无序区域。此外，还完成了潜在连续B细胞肽段以及那些与小鼠主要组织相容性复合体（MHC）和细胞毒性T淋巴细胞（CTL）受体具有严格亲和力的表位的预测和筛选。该蛋白含有393个残基，分子量为42.71 kDa，脂肪族指数为85.83（耐热性），GRAVY评分为-0.447（亲水性）。序列中有47个PTM位点，且无信号肽。二级结构主要由延伸链和螺旋组成，其次为卷曲结构。精炼模型的拉马钱德兰图显示，在允许区域、额外允许区域、宽松允许区域和不允许区域中的残基比例分别为90.1%、9.9%、0.0%和0.0%。此外，针对犬新孢子虫IMP-1预测了多种潜在的B细胞（线性和构象性）、CTL和MHC结合表位。本研究的发现可进一步用于针对新孢子虫病的下一代疫苗设计。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35434130/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35434130/",
+  "paper_page_path": "papers/pubmed/35434130/index.html"
+}

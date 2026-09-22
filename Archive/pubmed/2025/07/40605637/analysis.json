@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40605637",
+  "title": "Molecular dynamics simulation of the aggregation and folding mechanism of alpha-synuclein 47-56 in core peptide fragments induced by alpha-synuclein pentamer template.",
+  "authors": "Liu, Ruijuan; Liu, Xuewei",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2025-07-03",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用分子动力学模拟研究α-突触核蛋白无序蛋白核心肽段在五聚体模板诱导下的聚集与折叠机制，聚焦IDP的β-折叠延伸及氢键/静电/范德华互作，属于无序蛋白PPI机制建模，方法为物理模拟，对象与互作轴均强，但未涉及相分离/凝聚体，故评8分。",
+  "abstract": "The misfolding of intrinsically disordered alpha-synuclein protein, which can form beta-sheet-rich fibrillar amyloid structures, is closely associated with Parkinson's disease (PD). The peptide alpha-synuclein 47-56 has been identified as the toxic core of alpha-synuclein and plays a pivotal role in the aggregation and misfolding processes of this protein. Investigating the template induction behavior of this peptide is crucial for elucidating the molecular mechanisms underlying alpha-synuclein misfolding and aggregation. To explore the molecular mechanism of the peptide alpha-synuclein 47-56, guided by the alpha-synuclein pentamer template, we conducted a 400 ns molecular dynamics simulation. In this simulation, the peptide alpha-synuclein 47-56 was positioned on both sides of the alpha-synuclein pentamers. Our results demonstrate distinct elongation characteristics of the peptide alpha-synuclein 47-56 on the two sides of the pentamer. The beta-sheet structure readily formed on the left side of the alpha-synuclein pentamer, facilitating template induction. In contrast, the formation of beta-sheet secondary structures was hindered on the right side of the alpha-synuclein pentamer. Furthermore, our analysis reveals that hydrogen bonding, electrostatic interactions, and van der Waals forces between the alpha-synuclein pentamer and monomer are crucial for beta-sheet extension. Notably, we identified the alpha-synuclein 49-53 region as a key peptide segment in this process.",
+  "abstract_zh": "天然无序的α-突触核蛋白（alpha-synuclein）的错误折叠，可形成富含β-折叠的纤维状淀粉样结构，与帕金森病（Parkinson's disease, PD）密切相关。肽段α-突触核蛋白47-56已被鉴定为α-突触核蛋白的毒性核心，并在该蛋白的聚集和错误折叠过程中发挥关键作用。研究该肽段的模板诱导行为对于阐明α-突触核蛋白错误折叠和聚集的分子机制至关重要。为探索肽段α-突触核蛋白47-56的分子机制，在α-突触核蛋白五聚体模板的引导下，我们进行了400 ns的分子动力学（molecular dynamics）模拟。在该模拟中，肽段α-突触核蛋白47-56被置于α-突触核蛋白五聚体的两侧。我们的结果表明，肽段α-突触核蛋白47-56在五聚体两侧表现出不同的延伸特征。β-折叠结构在α-突触核蛋白五聚体左侧易于形成，从而促进模板诱导。相反，在α-突触核蛋白五聚体右侧，β-折叠二级结构的形成受到阻碍。此外，我们的分析揭示，α-突触核蛋白五聚体与单体之间的氢键、静电相互作用和范德华力对β-折叠延伸至关重要。值得注意的是，我们识别出α-突触核蛋白49-53区域是该过程中的关键肽段。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40605637/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40605637/",
+  "paper_page_path": "papers/pubmed/40605637/index.html"
+}

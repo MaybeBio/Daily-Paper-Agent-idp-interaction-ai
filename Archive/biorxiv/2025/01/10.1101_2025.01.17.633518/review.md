@@ -1,0 +1,95 @@
+## Review setup
+
+- **Input scope** Full preprint text (title, abstract, importance statement) as provided
+- **Assessment boundary** Claims and evidence presented in the supplied abstract and importance section only; no figures, methods, or supplementary materials were available for review
+- **Shared manuscript claim summary** The authors identify a 36 amino acid C-terminal intrinsically disordered region (IDR) in IBDV VP3 via structure prediction and molecular dynamics simulations, and report that this IDR promotes the formation of cytoplasmic puncta and modulates their physical properties, while not being strictly required for puncta formation
+- **Visible evidence base** Abstract text reporting structural predictions, MD simulations, live-cell imaging comparisons (wt VP3 vs VP3ΔC), FRAP measurements, fusion observations, and aliphatic diol sensitivity; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full methods, all figures and figure legends, statistical analysis details, construct validation data, MD simulation parameters and trajectories, FRAP raw data, and any supplementary information
+
+## Reviewer
+
+- **Overall assessment** The manuscript addresses a timely and important question in virology and cell biology, namely the molecular determinants of liquid-liquid phase separation in viral replication factories. The identification of a C-terminal IDR in VP3 and its functional characterization through comparative imaging and FRAP is a logical and potentially valuable contribution. However, the provided abstract alone does not permit verification of the central claims. Key methodological details, quantitative data, and controls are not visible. The conclusion that the IDR "promotes" puncta formation and "modulates" their physical properties is plausible but not fully established from the supplied material, particularly given the observation that VP3ΔC still forms puncta and retains liquid-like properties. The claim that VP3 does not form puncta when expressed alone is intriguing but requires supporting data not shown here.
+- **Who would be interested in the results, and why** Researchers studying birnavirus replication, particularly IBDV as an agricultural pathogen, will find this work directly relevant. The broader community investigating liquid-liquid phase separation in viral infection, and those interested in the role of intrinsically disordered regions in biomolecular condensate formation, will also be interested. The work may appeal to cell biologists studying the biophysical properties of cytoplasmic puncta and the molecular grammar of phase separation.
+- **Major strengths** The study combines computational prediction with experimental validation, a strong approach for characterizing IDR function. The use of FRAP to quantify mobile fractions provides quantitative evidence for changes in material properties. The inclusion of negative results, such as the failure of VP3 alone to form puncta and the persistence of liquid-like behavior in VP3ΔC, suggests a nuanced interpretation rather than an over-simplified model. The work addresses a significant gap in understanding the molecular basis of IBDV VF formation.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence sufficiency  
+    - **Claim pointer** The authors claim that the VP3 C-terminal IDR "promoted" the formation of cytoplasmic puncta, based on significant differences in puncta number, size, and shape between wt VP3 and VP3ΔC.  
+    - **Evidence pointer** Abstract, results section; location not provided  
+    - **Concern** The abstract reports p values for differences in puncta number, size, and shape, but no effect sizes, representative images, or quantification methods are shown. The claim of "promotion" implies a causal role, yet the observation that VP3ΔC still forms puncta, albeit fewer and smaller, suggests the IDR is modulatory rather than essential. The distinction between "promotion" and "modulation" is not clearly operationalized.  
+    - **Why it matters** Without visible quantification details and representative data, the reader cannot assess the magnitude or biological significance of the reported differences. The causal language may overstate the role of the IDR given that puncta formation persists in its absence.  
+    - **Resolution test** Provide representative confocal images, full quantification with effect sizes and confidence intervals, and a clear definition of what constitutes "promotion" versus "modulation" in this context.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical validation  
+    - **Claim pointer** The authors state that the C-terminal 36 amino acids form a "highly dynamic intrinsically disordered region" based on structure prediction and molecular dynamics simulations.  
+    - **Evidence pointer** Abstract, results section; location not provided  
+    - **Concern** No details of the prediction methods, simulation parameters, force fields, simulation timescales, or validation against experimental data are provided. The term "highly dynamic" is not quantitatively defined. Without this information, the computational identification of the IDR cannot be evaluated.  
+    - **Why it matters** The entire study hinges on the correct identification of this IDR. If the prediction is methodologically flawed or the dynamics are not adequately sampled, the subsequent experimental design and interpretation may be compromised.  
+    - **Resolution test** Include full methods for structure prediction and MD simulations, provide metrics of disorder (e.g., IUPred scores, RMSF profiles), and state simulation length and convergence criteria.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence sufficiency  
+    - **Claim pointer** The authors report that VP3ΔC puncta had a significantly reduced mobile fraction (0.29) compared to full-length VP3 (0.70), demonstrating that the IDR modulates physical properties.  
+    - **Evidence pointer** Abstract, FRAP results; location not provided  
+    - **Concern** FRAP mobile fraction is sensitive to experimental parameters such as bleach region size, imaging frequency, and protein concentration. No details of the FRAP protocol, number of replicates, or variability are provided. The claim that this demonstrates modulation of "physical properties" is an inference from a single parameter.  
+    - **Why it matters** The mobile fraction is a proxy for the exchange dynamics of the protein within the condensate, but it does not directly measure material properties such as viscosity or surface tension. Overinterpretation of FRAP data without supporting rheological measurements weakens the conclusion.  
+    - **Resolution test** Provide full FRAP methods, recovery curves, replicate numbers, and consider complementary measurements such as fluorescence loss in photobleaching or fluorescence correlation spectroscopy to support claims about physical properties.  
+  - **R1-M4**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Interpretation  
+    - **Claim pointer** The authors propose that VP3 forms part of a higher order complex with other biomolecules to drive LLPS, and that the IDR modulates the resulting structures.  
+    - **Evidence pointer** Abstract, discussion; location not provided  
+    - **Concern** The observation that VP3 alone does not form puncta is used to infer a requirement for other biomolecules. However, the identity of these biomolecules, whether they are viral or host-derived, and how they interact with VP3 is not addressed. The proposal is speculative and not directly tested.  
+    - **Why it matters** The proposed model is central to the broader significance of the work. Without experimental evidence for the composition of the higher order complex, the model remains a hypothesis rather than a conclusion.  
+    - **Resolution test** Perform co-expression or pulldown experiments to identify VP3 interaction partners, or test whether addition of candidate biomolecules reconstitutes puncta formation in vitro or in cells.  
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Terminology  
+    - **Evidence pointer** Abstract, results; location not provided  
+    - **Issue** The terms "promoted" and "modulated" are used to describe the IDR's effects, but the distinction is not defined.  
+    - **Required correction** Define these terms operationally, for example by specifying which measured parameters correspond to "promotion" versus "modulation."  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Statistical reporting  
+    - **Evidence pointer** Abstract, results; location not provided  
+    - **Issue** P values are reported without effect sizes, confidence intervals, or information on the statistical test used.  
+    - **Required correction** Include effect sizes, confidence intervals, and test names in the results or methods.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Reproducibility  
+    - **Affected element** Construct details  
+    - **Evidence pointer** Abstract, methods; location not provided  
+    - **Issue** The fluorescent reporter tags are mentioned but not described in terms of tag position, linker length, or validation of fusion protein functionality.  
+    - **Required correction** Provide details of construct design and validation, including whether the tags interfere with VP3 function.  
+  - **R1-m4**  
+    - **Severity** Minor  
+    - **Axis** Interpretation  
+    - **Affected element** Negative result  
+    - **Evidence pointer** Abstract, results; location not provided  
+    - **Issue** The statement that VP3 does not form puncta when expressed alone is presented without supporting data or discussion of potential artifacts such as expression level differences.  
+    - **Required correction** Show the negative result with appropriate controls, including expression level verification and a positive control for puncta formation.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns relate to insufficient evidence for the central claims of IDR identification, promotion of puncta formation, and modulation of physical properties. Without addressing these, the case is not established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The application of IDR analysis to a birnavirus VP3 protein and the link to LLPS is a novel angle, though the general concept of viral proteins using IDRs for phase separation is established. The specific findings are original but incremental.  
+  - **Scientific importance** The work has clear importance for IBDV biology and contributes to the growing field of viral LLPS. The potential to inform antiviral strategies or fundamental understanding of birnavirus replication adds significance.  
+  - **Interdisciplinary readership** The topic bridges virology, cell biology, and biophysics, and would appeal to readers across these fields. The abstract is written in a way that is accessible to nonspecialists, though some biophysical terms are used without explanation.  
+  - **Technical soundness** Cannot be fully assessed from the abstract alone. The computational and experimental approaches are appropriate in principle, but the lack of methodological detail prevents verification.  
+  - **Readability for nonspecialists** The abstract is generally clear, but terms such as "mobile fraction" and "aliphatic diols" may require prior knowledge. The importance section helps contextualize the work for a broader audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The study is potentially valuable and the approach is sound in principle, but the abstract alone does not provide sufficient detail to verify the central claims. I would be supportive if the technical concerns regarding IDR identification, quantification of puncta phenotypes, and FRAP methodology are resolved with full data and methods.
+
+## Risk / unsupported claims
+
+- The claim that the C-terminal 36 amino acids form a "highly dynamic intrinsically disordered region" is unsupported without details of prediction methods and MD simulation parameters.
+- The claim that the IDR "promotes" puncta formation is weakly supported without effect sizes and representative images.
+- The claim that the IDR "modulates" physical properties is an inference from FRAP mobile fraction alone and is not directly supported without additional rheological measurements.
+- The proposal that VP3 forms a higher order complex with other biomolecules is speculative and not tested in the provided material.
+- The statement that VP3 does not form puncta when expressed alone is unverifiable without supporting data and controls.

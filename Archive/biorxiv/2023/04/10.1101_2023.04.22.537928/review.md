@@ -1,0 +1,110 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Methods, Results, Conclusions, Statements and Declarations) as provided.
+- **Assessment boundary** The scientific content, methodology, data interpretation, and internal consistency of the presented bioinformatics analysis. No external validation of the cited databases or tools was performed beyond the manuscript's description.
+- **Shared manuscript claim summary** The authors present a bioinformatics analysis of 1,624 aging-related proteins, reporting that the proportion of intrinsically disordered proteins (IDPs) in this dataset is comparable to that of the whole human proteome. They further report that IDPs are enriched in specific aging-associated biological processes, particularly those related to genome regulation, and that aging-related signaling pathways contain IDPs at multiple hierarchical levels. The authors identify protein clusters with IDP enrichment and high liquid-liquid phase separation (LLPS) probability, and highlight two proteins (WNK1 and AMPK gamma-2) as potentially "dangerous" due to combined high disorder, LLPS, and aggregation propensity.
+- **Visible evidence base** The manuscript text, including descriptions of Methods (Sections 3.1-3.8), Results (Sections 4.1-4.7), and Conclusions. Figures are referenced but not fully visible in the provided text. Supplementary figures (S1-S12) and notes are referenced but not provided.
+- **Missing materials affecting confidence** The actual figures and supplementary materials are not available for inspection. This limits verification of the presented data distributions, network visualizations, and detailed statistical outputs. The specific lists of proteins within each cluster and the full dataset composition are not provided. The exact statistical test parameters and effect sizes beyond p-values are not fully detailed.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a relevant and timely question: the role of intrinsically disordered proteins in aging. The authors have assembled a substantial dataset from multiple sources and applied a range of established bioinformatics tools. The finding that the overall disorder content of the aging proteome is not elevated compared to the whole proteome is an important and somewhat counterintuitive result. The more nuanced analysis showing IDP enrichment in specific processes, particularly genome regulation, is potentially valuable. However, the manuscript has several significant weaknesses. The dataset assembly process is described in a fragmented manner, with some inconsistencies in the reported numbers. The statistical framework for comparing disorder distributions is not clearly defined. The identification of "dangerous" proteins relies on a correlative prediction-based approach without experimental validation, and the interpretation of this finding is speculative. The manuscript would benefit from a clearer articulation of the novelty relative to existing IDP-aging literature and a more rigorous treatment of the statistical analyses.
+- **Who would be interested in the results, and why** Researchers in the fields of aging biology, protein science, and computational biology would be interested. Specifically, those studying the molecular mechanisms of aging, the role of protein disorder in cellular function, and the application of bioinformatics to aging research would find the dataset and the process-specific analyses useful. The identification of specific IDP-enriched processes and potentially dangerous proteins could inform future experimental studies.
+- **Major strengths**
+    1.  The assembly of a large, multi-source dataset of aging-related proteins (1,624 proteins) is a valuable resource for the community.
+    2.  The study addresses a gap in the literature by systematically analyzing the disorder content of aging-related proteins, rather than focusing on individual proteins.
+    3.  The multi-level analysis, from global disorder content to specific biological processes, signaling pathways, and protein interaction networks, provides a comprehensive overview.
+    4.  The use of multiple, complementary disorder prediction tools and the correlation analysis to select representative metrics is a methodologically sound approach.
+    5.  The identification of a specific nuclear, DNA-associated, IDP- and LLPS-enriched cluster provides a focused hypothesis for future research.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The manuscript claims that the dataset of 1,624 proteins was assembled from "established aging databases and experimental studies" and that the final count is 1,624 due to intersections. However, the Methods section (3.1) lists sources that sum to 1,912 before intersection, and the text contains an apparent typo ("age-ralated"). The process of how the final 1,624 proteins were selected from the initial sources is not clearly described, and the exact contribution of each source is not detailed.
+    - **Evidence pointer** Methods Section 3.1, Results Section 4.1
+    - **Concern** The dataset is the foundation of the entire analysis. The description of its assembly is insufficiently detailed and contains inconsistencies. The sum of the listed sources (307+277+91+337+284+163+418+35 = 1,912) does not match the final number of 1,624, and the intersection process is not explained. It is unclear if all proteins from each source were included, or if specific filtering criteria were applied. This lack of clarity prevents a full assessment of the dataset's completeness and potential biases.
+    - **Why it matters** A poorly defined dataset undermines the validity of all downstream analyses. If the dataset is biased or incomplete, the conclusions about the prevalence and role of IDPs in aging would be unreliable. The reproducibility of the study is directly dependent on a clear and accurate description of the dataset construction.
+    - **Resolution test** The authors must provide a detailed, step-by-step description of the dataset assembly, including the exact number of proteins obtained from each source, the criteria for inclusion or exclusion, and a clear explanation of how the final 1,624 proteins were derived. A flow diagram or a supplementary table listing all proteins and their sources would be necessary to resolve this concern.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The manuscript claims that "Gene Ontology analysis of the our Aging proteome reveals an abundance of IDPs/IDRs in one-third of aging-associated processes, especially in genome regulation." It also claims that specific processes are enriched or depleted in IDPs based on comparisons to the whole proteome.
+    - **Evidence pointer** Results Section 4.4, Figures 5, 6, 7, S4-S7
+    - **Concern** The statistical methodology for determining "enrichment" or "depletion" of IDPs in biological processes is not described. The text mentions a "Fisher's test with False Discovery Rate (FDR) correction" for the PANTHER overrepresentation test of the aging proteome itself, but it is unclear how the disorder content of proteins within each biological process was compared to the expected disorder content. Was a hypergeometric test used? How was the "expected" disorder level for a process calculated? The comparison of disorder distributions between the aging dataset and the whole proteome (Figure 3) also lacks a clear statistical framework.
+    - **Why it matters** The central conclusion of the paper, that IDPs are enriched in specific aging processes, rests entirely on these statistical comparisons. Without a clear description of the statistical test, the null hypothesis, and the correction for multiple testing, the reported enrichments and depletions cannot be evaluated. The conclusions are not verifiable from the provided information.
+    - **Resolution test** The authors must provide a detailed description of the statistical tests used for all enrichment analyses. This should include the exact test used, the definition of the background/reference set, how multiple testing was handled, and the specific criteria for calling a process "enriched" or "depleted" in IDPs. The methods section must be updated to allow replication.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The manuscript claims that "Some IDPs related to aging with high LLPS propensity were identified as 'dangerous' based on the prediction of their propensity to aggregation." Specifically, WNK1 and AMPK gamma-2 are highlighted as potentially dangerous.
+    - **Evidence pointer** Results Section 4.7, Figure 12
+    - **Concern** The criteria for classifying a protein as "dangerous" are not clearly defined. The text states that a combination of high disorder, high LLPS, and high aggregation propensity is a "potential danger marker," but the specific thresholds for "high" are not provided. The selection of WNK1 and AMPK gamma-2 appears to be based on a small, manually curated subset of proteins (Figure 12), and the rationale for this selection is not clear. The claim that these proteins "could be dangerous" is highly speculative and not supported by functional data.
+    - **Why it matters** The "dangerous" label is a strong and potentially misleading claim. Without clear, pre-defined criteria and a systematic screen of the entire dataset, the identification of these two proteins appears arbitrary. This finding, as presented, is not a robust conclusion but rather a preliminary observation that requires significant qualification and further validation.
+    - **Resolution test** The authors should either (a) define clear, quantitative thresholds for "dangerous" and apply them systematically to the entire dataset, or (b) significantly soften the language and clearly frame this as a preliminary, hypothesis-generating observation based on a small subset. The criteria for selecting the proteins in Figure 12 must be stated.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Originality
+    - **Claim pointer** The manuscript claims to be the first to systematically analyze the link between IDPs and aging, stating "To the best of our knowledge, there is no systematic analysis linking aging-related proteins to their structural disorder, propensity for liquid-liquid phase separation (LLPS) and aggregation."
+    - **Evidence pointer** Introduction, Conclusions
+    - **Concern** The claim of novelty is strong, but the manuscript does not adequately discuss prior work on IDPs in the context of aging. While the authors cite literature on specific IDPs in age-related diseases, they do not address whether other bioinformatics analyses of disorder in aging-related protein sets have been performed. The claim of being the first requires a more thorough literature review to be substantiated.
+    - **Why it matters** The novelty of the study is a key part of its contribution. If similar analyses have been published, the manuscript's contribution is diminished. A more comprehensive review of the literature is needed to accurately position this work.
+    - **Resolution test** The authors should expand the introduction and discussion to more thoroughly review the existing literature on computational analyses of protein disorder in aging, explicitly addressing any prior studies that have examined disorder content in aging-related protein sets or pathways.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Abstract and Introduction
+    - **Evidence pointer** Abstract, Section 1
+    - **Issue** The abstract and introduction are dense with jargon (e.g., "structural plasticity," "conformational heterogeneity," "protein structure-function continuum") without sufficient explanation for a general scientific audience.
+    - **Required correction** Briefly define key terms like IDP, IDR, and LLPS in the abstract or introduction to make the work more accessible to a broader readership.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods Section 3.1
+    - **Evidence pointer** Methods Section 3.1
+    - **Issue** There is a typo in the text: "age-ralated" should be "age-related".
+    - **Required correction** Correct the typo.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods Section 3.4
+    - **Evidence pointer** Methods Section 3.4
+    - **Issue** The description of the Aggrescan parameters is somewhat unclear. The text states "Used NnHS parameter is a normalized number of Hot Spots for 100 residues" and "Normalized a4vSS for 100 residues (Na4vSS, a4vSS divided by the number of residues in the input amino-acid sequence and multiplied by 100, where a4vSS is a Sum of amino-acid aggregation-propensity value, averaged over a sliding window)." The definition of a4vSS is circular and confusing.
+    - **Required correction** Clarify the definition of a4vSS. It should be defined as the sum of aggregation-propensity values over a sliding window, and then Na4vSS is this value normalized per 100 residues.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Results Section 4.5
+    - **Evidence pointer** Results Section 4.5, Figure 8
+    - **Issue** The "brickwork" analogy is helpful, but the text could be clearer about what specific proteins or interactions are being described.
+    - **Required correction** Provide a specific example of a "brick" (ordered enzyme) and "viscous cement" (IDP-containing protein) within the described pathways to illustrate the concept.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods Section 3.7
+    - **Evidence pointer** Methods Section 3.7
+    - **Issue** The description of the bootstrapping method is incomplete. It states "Bootstrapping is a method of determining statistics by generating pseudo-samples of equal size" but does not specify the number of bootstrap replicates used or how the confidence intervals were calculated.
+    - **Required correction** Specify the number of bootstrap replicates and the method for calculating confidence intervals (e.g., percentile method, BCa).
+    - **Concern ID** R1-m6
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Results Section 4.2
+    - **Evidence pointer** Results Section 4.2, Figure 3
+    - **Issue** The text states "36% of proteins in the dataset are highly disordered and could be called IDPs (18% of proteins are in pink area and 18% of proteins are in the red area where PPIDR ≥ 30%)." It is unclear what the pink and red areas represent and how they differ.
+    - **Required correction** Clarify the definition of the pink and red areas in the figure legend and text.
+    - **Concern ID** R1-m7
+    - **Severity** Minor
+    - **Axis** Scientific importance
+    - **Affected element** Conclusions
+    - **Evidence pointer** Conclusions
+    - **Issue** The conclusion that "IDP and LLPS have a special role in aging but for the highest degree within the framework of processes associated with the genome regulation" is a strong statement. The evidence presented supports an enrichment of IDPs in genome regulation processes, but the causal or functional "role" is not directly demonstrated by this bioinformatics analysis.
+    - **Required correction** Soften the language to reflect that this is a correlative finding, e.g., "IDPs are enriched in genome regulation processes, suggesting a potentially important role that warrants further investigation."
+
+## Risk / unsupported claims
+- The claim that WNK1 and AMPK gamma-2 are potentially "dangerous" due to their predicted aggregation and LLPS propensity is unsupported by experimental evidence and is based on a non-systematic, small-scale analysis.
+- The claim that the analysis reveals "the special role of ID and LLPS in the genetic regulation of aging" is an overstatement, as the analysis is correlative and does not demonstrate a functional role.
+- The claim of being the first systematic analysis linking aging proteins to disorder, LLPS, and aggregation is not fully substantiated by the literature review presented.
+- The overall conclusion that the findings "will make it possible to deepen the understanding of the mechanisms of aging and outline ways to slow it down" is speculative and not directly supported by the data presented.
+- The statistical significance of the enrichment/depletion of IDPs in specific biological processes is not assessable due to the lack of a described statistical framework.

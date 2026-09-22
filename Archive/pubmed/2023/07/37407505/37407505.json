@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "37407505",
+    "doi": "10.1021/acs.biomac.3c00404",
+    "title": "Exploring Intra- and Inter-Regional Interactions in the IDP alpha-Synuclein Using smFRET and MD Simulations."
+  },
+  "content": {
+    "abstract": "Theoretical concepts from polymer physics are often used to describe intrinsically disordered proteins (IDPs). However, amino acid interactions within and between regions of the protein can lead to deviations from typical polymer scaling behavior and even to short-lived secondary structures. To investigate the key interactions in the dynamic IDP alpha-synuclein (alphaS) at the amino acid level, we conducted single-molecule fluorescence resonance energy transfer (smFRET) experiments and coarse-grained molecular dynamics (CG-MD) simulations. We find excellent agreement between experiments and simulations. Our results show that a physiological salt solution is a good solvent for alphaS and that the protein is highly dynamic throughout its entire chain, with local intra- and inter-regional interactions leading to deviations from global scaling. Specifically, we observe expansion in the C-terminal region, compaction in the NAC region, and a slightly smaller distance between the C- and N-termini than expected. Our simulations indicate that the compaction in the NAC region results from hydrophobic aliphatic contacts, mostly between valine and alanine residues, and cation-pi interactions between lysine and tyrosine. In addition, hydrogen bonds also seem to contribute to the compaction of the NAC region. The expansion of the C-terminal region is due to intraregional electrostatic repulsion and increased chain stiffness from several prolines. Overall, our study demonstrates the effectiveness of combining smFRET experiments with CG-MD simulations to investigate the key interactions in highly dynamic IDPs at the amino acid level.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry",
+      "Fluorescence Resonance Energy Transfer",
+      "Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Amino Acids",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Heesink, Gobert",
+        "Marseille, Mirjam J",
+        "Fakhree, Mohammad A A",
+        "Driver, Mark D",
+        "van Leijenhorst-Groener, Kirsten A",
+        "Onck, Patrick R",
+        "Blum, Christian",
+        "Claessens, Mireille M A E"
+      ],
+      "short_names": [
+        "Heesink G",
+        "Marseille MJ",
+        "Fakhree MAA",
+        "Driver MD",
+        "van Leijenhorst-Groener KA",
+        "Onck PR",
+        "Blum C",
+        "Claessens MMAE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8559-1377",
+        "ORCID: 0000-0002-8329-888X",
+        "ORCID: 0000-0002-6524-2495",
+        "ORCID: 0000-0002-2206-4422"
+      ],
+      "affiliations": [
+        "Nanobiophysics, Faculty of Science and Technology, MESA + Institute for Nanotechnology and Technical Medical Centre, University of Twente, PO Box 217, 7500 AE Enschede, The Netherlands.",
+        "Nanobiophysics, Faculty of Science and Technology, MESA + Institute for Nanotechnology and Technical Medical Centre, University of Twente, PO Box 217, 7500 AE Enschede, The Netherlands.",
+        "Nanobiophysics, Faculty of Science and Technology, MESA + Institute for Nanotechnology and Technical Medical Centre, University of Twente, PO Box 217, 7500 AE Enschede, The Netherlands.",
+        "Micromechanics, Zernike Institute for Advanced Materials, University of Groningen, 9747 AG Groningen, The Netherlands.",
+        "Nanobiophysics, Faculty of Science and Technology, MESA + Institute for Nanotechnology and Technical Medical Centre, University of Twente, PO Box 217, 7500 AE Enschede, The Netherlands.",
+        "Micromechanics, Zernike Institute for Advanced Materials, University of Groningen, 9747 AG Groningen, The Netherlands.",
+        "Nanobiophysics, Faculty of Science and Technology, MESA + Institute for Nanotechnology and Technical Medical Centre, University of Twente, PO Box 217, 7500 AE Enschede, The Netherlands.",
+        "Nanobiophysics, Faculty of Science and Technology, MESA + Institute for Nanotechnology and Technical Medical Centre, University of Twente, PO Box 217, 7500 AE Enschede, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Heesink, Gobert",
+        "short_name": "Heesink G",
+        "identifiers": [],
+        "affiliations": [
+          "Nanobiophysics, Faculty of Science and Technology, MESA + Institute for Nanotechnology and Technical Medical Centre, University of Twente, PO Box 217, 7500 AE Enschede, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Marseille, Mirjam J",
+        "short_name": "Marseille MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Nanobiophysics, Faculty of Science and Technology, MESA + Institute for Nanotechnology and Technical Medical Centre, University of Twente, PO Box 217, 7500 AE Enschede, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Fakhree, Mohammad A A",
+        "short_name": "Fakhree MAA",
+        "identifiers": [
+          "0000-0002-8559-1377"
+        ],
+        "affiliations": [
+          "Nanobiophysics, Faculty of Science and Technology, MESA + Institute for Nanotechnology and Technical Medical Centre, University of Twente, PO Box 217, 7500 AE Enschede, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Driver, Mark D",
+        "short_name": "Driver MD",
+        "identifiers": [
+          "0000-0002-8329-888X"
+        ],
+        "affiliations": [
+          "Micromechanics, Zernike Institute for Advanced Materials, University of Groningen, 9747 AG Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "van Leijenhorst-Groener, Kirsten A",
+        "short_name": "van Leijenhorst-Groener KA",
+        "identifiers": [],
+        "affiliations": [
+          "Nanobiophysics, Faculty of Science and Technology, MESA + Institute for Nanotechnology and Technical Medical Centre, University of Twente, PO Box 217, 7500 AE Enschede, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Onck, Patrick R",
+        "short_name": "Onck PR",
+        "identifiers": [],
+        "affiliations": [
+          "Micromechanics, Zernike Institute for Advanced Materials, University of Groningen, 9747 AG Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Blum, Christian",
+        "short_name": "Blum C",
+        "identifiers": [
+          "0000-0002-6524-2495"
+        ],
+        "affiliations": [
+          "Nanobiophysics, Faculty of Science and Technology, MESA + Institute for Nanotechnology and Technical Medical Centre, University of Twente, PO Box 217, 7500 AE Enschede, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Claessens, Mireille M A E",
+        "short_name": "Claessens MMAE",
+        "identifiers": [
+          "0000-0002-2206-4422"
+        ],
+        "affiliations": [
+          "Nanobiophysics, Faculty of Science and Technology, MESA + Institute for Nanotechnology and Technical Medical Centre, University of Twente, PO Box 217, 7500 AE Enschede, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2023 Aug 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/06 01:08",
+    "fetched_at": "2026-09-20 23:18:05"
+  },
+  "links": {
+    "cites": [
+      "42183579",
+      "42172735",
+      "41761630",
+      "41751977",
+      "40994307",
+      "40164612",
+      "39311028",
+      "39281894",
+      "39279844",
+      "38635928",
+      "38118365"
+    ],
+    "refs": [
+      "36278939",
+      "35543707",
+      "34307295",
+      "33790297",
+      "33482328",
+      "32840111",
+      "31263746",
+      "30917118",
+      "30184304",
+      "30171252",
+      "29604882",
+      "29570297",
+      "29474083",
+      "28288128",
+      "28259601",
+      "28131823",
+      "27911791",
+      "27477055",
+      "26589045",
+      "24565277",
+      "23199922",
+      "22984159",
+      "22806998",
+      "22550169",
+      "22492978",
+      "22315227",
+      "21500218",
+      "21108951",
+      "21044603",
+      "20798282",
+      "20486698",
+      "19553474",
+      "19334885",
+      "19293380",
+      "19107759",
+      "18957546",
+      "18512917",
+      "18198943",
+      "17586775",
+      "17408955",
+      "16866548",
+      "15699337",
+      "12614167",
+      "12578980",
+      "11286556",
+      "9600990",
+      "9545270",
+      "8901511"
+    ],
+    "similar": [
+      "37407505",
+      "23214618",
+      "33581430",
+      "25375525",
+      "30933517",
+      "35543707",
+      "30413085",
+      "25207671",
+      "37442414",
+      "35130691",
+      "30184304",
+      "39087984",
+      "35912724",
+      "31809054",
+      "39163306",
+      "28493424",
+      "39046235",
+      "19576220",
+      "30840442",
+      "23912807",
+      "31903719",
+      "33945530",
+      "32623047",
+      "23607785",
+      "34845619",
+      "29573987",
+      "29548979",
+      "33355572",
+      "24211251",
+      "34201262",
+      "30771181",
+      "29474083",
+      "38739602",
+      "29320696",
+      "32696379",
+      "28625737",
+      "25919886",
+      "23374074",
+      "26735936",
+      "26327565",
+      "35944496",
+      "33345970",
+      "28805390",
+      "27440558",
+      "32357776",
+      "22947936",
+      "39248414",
+      "32840111",
+      "36083825",
+      "30813629",
+      "23374072",
+      "27092002",
+      "33903234",
+      "23199922",
+      "27588692",
+      "25331250",
+      "35068142",
+      "36272811",
+      "20580965",
+      "36084347",
+      "29733855",
+      "35053175",
+      "29874605",
+      "36641212",
+      "31699336",
+      "30865832",
+      "32159932",
+      "32097582",
+      "33587794",
+      "35377637",
+      "29681525",
+      "36084124",
+      "32585849",
+      "30230839",
+      "30277791",
+      "30979035",
+      "30917118",
+      "31799519",
+      "29382046",
+      "19475665",
+      "32709107",
+      "26575776",
+      "25771525",
+      "34986640",
+      "33292065",
+      "37114769",
+      "29490247",
+      "27936491",
+      "29276882",
+      "29715424",
+      "30002265",
+      "36346711",
+      "37106781",
+      "36066390",
+      "36343363",
+      "38127117",
+      "23162382",
+      "35739160",
+      "38643169",
+      "38250712"
+    ],
+    "review": [
+      "37407505",
+      "30413085",
+      "30840442",
+      "33355572",
+      "28625737",
+      "30813629",
+      "35053175",
+      "32097582",
+      "30979035"
+    ],
+    "pmc": [
+      "10428166"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.biomac.3c00404",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37407505/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37407505",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.3c00404",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

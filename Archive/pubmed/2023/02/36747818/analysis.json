@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36747818",
+  "title": "Single fluorogen imaging reveals distinct environmental and structural features of biomolecular condensates.",
+  "authors": "Wu, Tingting; King, Matthew R; Qiu, Yuanxin; Farag, Mina; Pappu, Rohit V; Lew, Matthew D",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-02-08",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用单荧光团成像研究生物分子凝聚体的微环境和结构异质性，对象为相分离凝聚体，但无PPI机制建模且方法为实验成像，缺乏AI/物理模拟，故为中档。",
+  "abstract": "Biomolecular condensates are viscoelastic materials. Simulations predict that fluid-like condensations are defined by spatially inhomogeneous organization of the underlying molecules. Here, we test these predictions using single-fluorogen tracking and super-resolution imaging. Specifically, we leverage the localization and orientational preferences of freely diffusing fluorogens and the solvatochromic effect whereby specific fluorogens are turned on in response to condensate microenvironments. We deployed three different fluorogens to probe the microenvironments and molecular organization of different protein-based condensates. The spatiotemporal resolution and environmental sensitivity afforded by single-fluorogen imaging shows that the internal environments of condensates are more hydrophobic than coexisting dilute phases. Molecules within condensates are organized in a spatially inhomogeneous manner, and this gives rise to slow-moving nanoscale molecular clusters that coexist with fast-moving molecules. Fluorogens that localize preferentially to the interface help us map their distinct features. Our findings provide a structural and dynamical basis for the viscoelasticity of condensates.",
+  "abstract_zh": "生物分子凝聚体是粘弹性材料。模拟预测，流体状的凝聚体由底层分子的空间非均匀组织所定义。在此，我们利用单荧光团追踪和超分辨成像来检验这些预测。具体而言，我们利用了自由扩散荧光团的定位和取向偏好，以及溶剂化显色效应，即特定荧光团响应凝聚体微环境而被激活。我们部署了三种不同的荧光团，以探测不同蛋白质基凝聚体的微环境和分子组织。单荧光团成像所提供的时空分辨率和环境敏感性表明，凝聚体的内部环境比共存的稀相更为疏水。凝聚体内的分子以空间非均匀的方式组织，这导致了缓慢移动的纳米级分子簇与快速移动的分子共存。优先定位于界面的荧光团帮助我们描绘其独特特征。我们的发现为凝聚体的粘弹性提供了结构和动力学基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36747818/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36747818/",
+  "paper_page_path": "papers/pubmed/36747818/index.html"
+}

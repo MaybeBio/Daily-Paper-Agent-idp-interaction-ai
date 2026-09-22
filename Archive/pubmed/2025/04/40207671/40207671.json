@@ -1,0 +1,473 @@
+{
+  "identity": {
+    "pmid": "40207671",
+    "doi": "10.1021/jacs.4c13473",
+    "title": "Local Ionic Conditions Modulate the Aggregation Propensity and Influence the Structural Polymorphism of alpha-Synuclein."
+  },
+  "content": {
+    "abstract": "Parkinson's disease (PD) is linked to the aggregation of the intrinsically disordered protein alpha-synuclein (aSyn), but the precise triggers and mechanisms driving this process remain unclear. Local environmental factors, such as ion concentrations, can influence aSyn's conformational ensemble and its tendency to aggregate. In this study, we explore how physiologically relevant ions, mainly Ca(2+) and Na(+), affect aSyn aggregation, monomer structural dynamics, and fibril polymorphism. ThT fluorescence assays show that all ions speed up aggregation, with Ca(2+) having the strongest effect. Using heteronuclear single quantum correlation nuclear magnetic resonance ((1)H-(15)N HSQC NMR) spectroscopy, we validate that Ca(2+) binds at the C-terminus while Na(+) interacts nonspecifically across the sequence. Small-angle neutron scattering (SANS) and hydrogen-deuterium exchange mass spectrometry (HDX-MS) show that Na(+) leads to more extended aSyn structures, while Ca(2+) results in moderate extension. Molecular dynamics (MD) simulations support this, showing Na(+) increases extension between the NAC region and C-terminus, whereas Ca(2+) biases the ensemble toward a moderately elongated structure. MD also shows that Ca(2+) increases water persistence times in the hydration shell, indicating that aSyn aggregation propensity is due to a combination of conformational bias of the monomer and solvent mobility. Atomic force microscopy (AFM) points toward the formation of distinct fibril polymorphs under different ionic conditions, suggesting ion-induced monomer changes contribute to the diversity of fibril structures. These findings underscore the pivotal influence of the local ionic milieu in shaping the structure and aggregation propensity of aSyn, offering insights into the molecular underpinnings of PD and potential therapeutic strategies targeting aSyn dynamics.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Aggregates",
+      "Calcium/chemistry/metabolism",
+      "Humans",
+      "Sodium/chemistry",
+      "Ions/chemistry",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zacharopoulou, Maria",
+        "Seetaloo, Neeleema",
+        "Ross, James",
+        "Stephens, Amberley D",
+        "Fusco, Giuliana",
+        "McCoy, Thomas M",
+        "Dai, Wenyue",
+        "Mela, Ioanna",
+        "Fernandez-Villegas, Ana",
+        "Martel, Anne",
+        "Routh, Alexander F",
+        "De Simone, Alfonso",
+        "Phillips, Jonathan J",
+        "Kaminski Schierle, Gabriele S"
+      ],
+      "short_names": [
+        "Zacharopoulou M",
+        "Seetaloo N",
+        "Ross J",
+        "Stephens AD",
+        "Fusco G",
+        "McCoy TM",
+        "Dai W",
+        "Mela I",
+        "Fernandez-Villegas A",
+        "Martel A",
+        "Routh AF",
+        "De Simone A",
+        "Phillips JJ",
+        "Kaminski Schierle GS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3660-2797",
+        "ORCID: 0000-0002-4784-103X",
+        "ORCID: 0000-0002-7303-6392",
+        "ORCID: 0000-0002-2914-9971",
+        "ORCID: 0000-0002-3443-3053",
+        "ORCID: 0000-0002-5361-9582",
+        "ORCID: 0000-0002-1843-2202"
+      ],
+      "affiliations": [
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K.",
+        "Living Systems Institute, University of Exeter, Stocker Road, Exeter EX4 4QD, U.K.",
+        "School of Molecular and Cellular Biology and Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, U.K.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K.",
+        "Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, U.K.",
+        "Department of Life Sciences, Imperial College London, London SW7 2AZ, U.K.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K.",
+        "Institut Laue Langevin, 71 Avenue des Martyrs, Grenoble CS 20156 38042, France.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K.",
+        "Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, U.K.",
+        "Department of Life Sciences, Imperial College London, London SW7 2AZ, U.K.",
+        "Living Systems Institute, University of Exeter, Stocker Road, Exeter EX4 4QD, U.K.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zacharopoulou, Maria",
+        "short_name": "Zacharopoulou M",
+        "identifiers": [
+          "0000-0002-3660-2797"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K."
+        ]
+      },
+      {
+        "full_name": "Seetaloo, Neeleema",
+        "short_name": "Seetaloo N",
+        "identifiers": [],
+        "affiliations": [
+          "Living Systems Institute, University of Exeter, Stocker Road, Exeter EX4 4QD, U.K."
+        ]
+      },
+      {
+        "full_name": "Ross, James",
+        "short_name": "Ross J",
+        "identifiers": [
+          "0000-0002-4784-103X"
+        ],
+        "affiliations": [
+          "School of Molecular and Cellular Biology and Astbury Centre for Structural Molecular Biology, University of Leeds, Leeds LS2 9JT, U.K."
+        ]
+      },
+      {
+        "full_name": "Stephens, Amberley D",
+        "short_name": "Stephens AD",
+        "identifiers": [
+          "0000-0002-7303-6392"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K."
+        ]
+      },
+      {
+        "full_name": "Fusco, Giuliana",
+        "short_name": "Fusco G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, U.K.",
+          "Department of Life Sciences, Imperial College London, London SW7 2AZ, U.K."
+        ]
+      },
+      {
+        "full_name": "McCoy, Thomas M",
+        "short_name": "McCoy TM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K."
+        ]
+      },
+      {
+        "full_name": "Dai, Wenyue",
+        "short_name": "Dai W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K."
+        ]
+      },
+      {
+        "full_name": "Mela, Ioanna",
+        "short_name": "Mela I",
+        "identifiers": [
+          "0000-0002-2914-9971"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K."
+        ]
+      },
+      {
+        "full_name": "Fernandez-Villegas, Ana",
+        "short_name": "Fernandez-Villegas A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K."
+        ]
+      },
+      {
+        "full_name": "Martel, Anne",
+        "short_name": "Martel A",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Laue Langevin, 71 Avenue des Martyrs, Grenoble CS 20156 38042, France."
+        ]
+      },
+      {
+        "full_name": "Routh, Alexander F",
+        "short_name": "Routh AF",
+        "identifiers": [
+          "0000-0002-3443-3053"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K."
+        ]
+      },
+      {
+        "full_name": "De Simone, Alfonso",
+        "short_name": "De Simone A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, U.K.",
+          "Department of Life Sciences, Imperial College London, London SW7 2AZ, U.K."
+        ]
+      },
+      {
+        "full_name": "Phillips, Jonathan J",
+        "short_name": "Phillips JJ",
+        "identifiers": [
+          "0000-0002-5361-9582"
+        ],
+        "affiliations": [
+          "Living Systems Institute, University of Exeter, Stocker Road, Exeter EX4 4QD, U.K."
+        ]
+      },
+      {
+        "full_name": "Kaminski Schierle, Gabriele S",
+        "short_name": "Kaminski Schierle GS",
+        "identifiers": [
+          "0000-0002-1843-2202"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge CB3 0AS, U.K."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2025 Apr 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/10 12:34",
+    "fetched_at": "2026-09-21 17:42:44"
+  },
+  "links": {
+    "cites": [
+      "42307331",
+      "42006285",
+      "41874470",
+      "41702590",
+      "41560530",
+      "41279314",
+      "41134940",
+      "40994307",
+      "40410120"
+    ],
+    "refs": [
+      "38834068",
+      "37805934",
+      "37791366",
+      "36989206",
+      "36896500",
+      "36513068",
+      "36413494",
+      "36316279",
+      "36108674",
+      "35333515",
+      "35285533",
+      "35263087",
+      "34452994",
+      "34390833",
+      "33933456",
+      "33341693",
+      "33140640",
+      "33004902",
+      "32499486",
+      "32461689",
+      "32356200",
+      "32157247",
+      "32112991",
+      "32015135",
+      "31299481",
+      "30769283",
+      "30527975",
+      "30190461",
+      "30065316",
+      "29969391",
+      "29743672",
+      "28759722",
+      "28194941",
+      "28112214",
+      "28030591",
+      "27733604",
+      "26119103",
+      "26061766",
+      "25904081",
+      "25866658",
+      "24871041",
+      "24818134",
+      "24746362",
+      "24728187",
+      "24599158",
+      "24397337",
+      "24108358",
+      "24058647",
+      "24010662",
+      "23526723",
+      "23457019",
+      "23427326",
+      "23060904",
+      "22828339",
+      "22573613",
+      "22315227",
+      "22024360",
+      "21566660",
+      "21501695",
+      "21280118",
+      "20852670",
+      "20484626",
+      "19475665",
+      "19272336",
+      "18421773",
+      "15671169",
+      "15643843",
+      "15451224",
+      "14755719",
+      "14593171",
+      "12534279",
+      "11812782",
+      "9546347",
+      "9462735",
+      "9278044",
+      "9197268",
+      "2729542",
+      "1848297"
+    ],
+    "similar": [
+      "40207671",
+      "32499486",
+      "19576220",
+      "35815971",
+      "26321599",
+      "36413494",
+      "42117267",
+      "42411659",
+      "29750859",
+      "40994307",
+      "41368826",
+      "30769283",
+      "36749138",
+      "33345970",
+      "42093278",
+      "41262012",
+      "29601177",
+      "38239037",
+      "25756329",
+      "31096048",
+      "29364151",
+      "33004902",
+      "41874470",
+      "30605594",
+      "38964522",
+      "31676453",
+      "39046235",
+      "31699336",
+      "32900375",
+      "38458997",
+      "28075555",
+      "23272053",
+      "40410120",
+      "23811057",
+      "31181290",
+      "29286644",
+      "40605637",
+      "29601727",
+      "23607785",
+      "41301496",
+      "32394304",
+      "28330770",
+      "41560530",
+      "30917654",
+      "33933456",
+      "19655784",
+      "32735376",
+      "27482083",
+      "31903719",
+      "23912807",
+      "40508212",
+      "28939194",
+      "30184304",
+      "27708160",
+      "23374074",
+      "34830264",
+      "33140640",
+      "35952593",
+      "38700150",
+      "25389903",
+      "30840442",
+      "41723982",
+      "40421805",
+      "33784451",
+      "40853068",
+      "36278939",
+      "29382893",
+      "37189428",
+      "30527975",
+      "29866153",
+      "35836937",
+      "26950519",
+      "34015255",
+      "34973339",
+      "18423664",
+      "41965965",
+      "30591215",
+      "33333378",
+      "39082221",
+      "40198698",
+      "29191831",
+      "34530929",
+      "40785227",
+      "23583776",
+      "38801346",
+      "40453094",
+      "39232485",
+      "39504036",
+      "30755483",
+      "23374072",
+      "37125909",
+      "37889966",
+      "33903234",
+      "39947752",
+      "25886189",
+      "29715424",
+      "32019169",
+      "40403529",
+      "25393002",
+      "34360737"
+    ],
+    "review": [
+      "40207671",
+      "29364151",
+      "40508212",
+      "30840442",
+      "30527975"
+    ],
+    "pmc": [
+      "12023029"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40207671/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-649",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.4c13473",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/226074/",
+        "provider": "White Rose Research Online",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

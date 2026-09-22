@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38915484",
+  "title": "Direct computations of viscoelastic moduli of biomolecular condensates.",
+  "authors": "Cohen, Samuel R; Banerjee, Priya R; Pappu, Rohit V",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-06-25",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用广义Rouse模型结合蒙特卡洛模拟计算无序蛋白PLCD凝聚体的粘弹性模量，虽聚焦材料力学性质而非直接PPI结合机制，但为IDR凝聚体互作网络动力学提供了可迁移的物理建模方法。",
+  "abstract": "In vitro facsimiles of biomolecular condensates are formed by different types of intrinsically disordered proteins including prion-like low complexity domains (PLCDs). PLCD condensates are viscoelastic materials defined by time-dependent, sequence-specific complex shear moduli. Here, we show that viscoelastic moduli can be computed directly using a generalization of the Rouse model and information regarding intra- and inter-chain contacts that is extracted from equilibrium configurations of lattice-based Metropolis Monte Carlo (MMC) simulations. The key ingredient of the generalized Rouse model is the Zimm matrix that we compute from equilibrium MMC simulations. We compute two flavors of Zimm matrices, one referred to as the single-chain model that accounts only for intra-chain contacts, and the other referred to as a collective model, that accounts for inter-chain interactions. The single-chain model systematically overestimates the storage and loss moduli, whereas the collective model reproduces the measured moduli with greater fidelity. However, in the long time, low-frequency domain, a mixture of the two models proves to be most accurate. In line with the theory of Rouse, we find that a continuous distribution of relaxation times exists in condensates. The single crossover frequency between dominantly elastic versus dominantly viscous behaviors is influenced by the totality of the relaxation modes. Hence, our analysis suggests that viscoelastic fluid-like condensates are best described as generalized Maxwell fluids. Finally, we show that the complex shear moduli can be used to solve an inverse problem to obtain distributions of relaxation times that underlie the dynamics within condensates.",
+  "abstract_zh": "生物分子凝聚体的体外模拟由不同类型的固有无序蛋白形成，包括朊病毒样低复杂度结构域（PLCDs）。PLCD凝聚体是粘弹性材料，其特性由时间依赖、序列特异性的复数剪切模量定义。在此，我们展示粘弹性模量可直接通过Rouse模型的推广以及从基于格点的Metropolis Monte Carlo (MMC)模拟的平衡构型中提取的链内和链间接触信息来计算。广义Rouse模型的关键要素是Zimm矩阵，我们从平衡MMC模拟中计算得到。我们计算了两种类型的Zimm矩阵：一种称为单链模型，仅考虑链内接触；另一种称为集体模型，考虑链间相互作用。单链模型系统性地高估了储能模量和损耗模量，而集体模型以更高的保真度再现了实测模量。然而，在长时间、低频域中，两种模型的混合被证明最为准确。与Rouse理论一致，我们发现凝聚体中存在连续的弛豫时间分布。主导弹性与主导粘性行为之间的单一交叉频率受所有弛豫模式的总和影响。因此，我们的分析表明，粘弹性流体状凝聚体最好被描述为广义Maxwell流体。最后，我们展示复数剪切模量可用于求解逆问题，以获得凝聚体内部动力学基础的弛豫时间分布。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38915484/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38915484/",
+  "paper_page_path": "papers/pubmed/38915484/index.html"
+}

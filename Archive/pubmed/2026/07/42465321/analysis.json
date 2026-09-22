@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42465321",
+  "title": "The exchange dynamics of client molecules in biomolecular condensates.",
+  "authors": "Kliegman, Ross; Grigorev, Vladimir; Zhang, Yaojun",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-07-17",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用反应-扩散模型研究凝聚体中客户分子与支架蛋白结合的交换动力学，虽非AI/物理模拟方法，但聚焦IDR相分离凝聚体中的PPI结合-解离机制，对互作机制建模有直接启发。",
+  "abstract": "Biomolecular condensates are dynamic assemblies whose functions depend on continuous exchange of molecular components with the surrounding environment. While scaffold molecules drive phase separation and condensate architecture, many functional components are clients that are recruited through interactions with the scaffold-rich environment. Despite their prevalence, how client-scaffold interactions shape client exchange dynamics remains poorly understood. Here, we develop a reaction-diffusion model for client exchange in scaffold-driven condensates, in which clients switch between a scaffold-bound state and an unbound state. Bound clients exchange through scaffold-mediated transport, whereas unbound clients diffuse through the pore space of the condensate. Using the fluorescence recovery of fully photobleached condensates as a measure of client exchange, we compare transport through these two pathways with bound-unbound conversion and identify three limiting regimes. In the slow-conversion regime, bound and unbound clients recover through distinct scaffold- and pore-mediated pathways. In the intermediate-conversion regime, recovery of bound clients becomes limited by client unbinding. In the fast-conversion regime, local equilibrium between bound and unbound clients produces an effective single-state recovery. We further propose a unifying description that connects these regimes and quantitatively captures the apparent recovery timescales extracted from numerical simulations across condensate sizes. Our results provide a framework for interpreting component-specific exchange dynamics, and highlight client size, client-scaffold binding, and condensate porosity as key regulators of client turnover in multicomponent condensates.",
+  "abstract_zh": "生物分子凝聚体是动态组装体，其功能依赖于分子组分与周围环境的持续交换。尽管支架分子驱动相分离（phase separation）和凝聚体架构，许多功能组分是通过与富含支架的环境相互作用而被招募的客户分子。尽管客户分子普遍存在，但客户-支架相互作用如何塑造客户交换动力学仍知之甚少。在此，我们开发了一个用于支架驱动凝聚体中客户交换的反应-扩散模型，其中客户分子在支架结合态和未结合态之间切换。结合态客户通过支架介导的运输进行交换，而未结合态客户则通过凝聚体的孔隙空间扩散。利用完全光漂白凝聚体的荧光恢复作为客户交换的度量，我们比较了这两条途径的运输与结合-未结合转换，并识别出三种限制性区间。在慢转换区间，结合态和未结合态客户通过不同的支架介导和孔隙介导途径恢复。在中间转换区间，结合态客户的恢复受限于客户解离。在快转换区间，结合态与未结合态客户之间的局部平衡产生有效的单态恢复。我们进一步提出一个统一描述，连接这些区间，并定量捕捉从不同凝聚体尺寸的数值模拟中提取的表观恢复时间尺度。我们的结果为解释组分特异性交换动力学提供了框架，并强调客户大小、客户-支架结合以及凝聚体孔隙率是多组分凝聚体中客户周转的关键调节因子。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42465321/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42465321/",
+  "paper_page_path": "papers/pubmed/42465321/index.html"
+}

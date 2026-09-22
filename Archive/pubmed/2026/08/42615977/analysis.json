@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42615977",
+  "title": "Assessing reproducibility of Hi-C chromatin interactions using stratum-adjusted irreproducible discovery rate.",
+  "authors": "Xue, Chen; Zhang, Feipeng; Li, Qunhua",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2026-08-19",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 0,
+  "one_liner_zh": "该文开发Hi-C染色质互作可重复性评估统计方法SIDR，对象为染色质构象而非无序蛋白PPI，且无AI/物理模拟方法，与本课题无关。",
+  "abstract": "MOTIVATION: Hi-C is a powerful technology for mapping chromatin interactions genome-wide. However, interaction loops identified from Hi-C contact maps often vary across replicate experiments due to experimental noise, making reproducibility assessment essential. A major challenge lies in the genomic distance dependence of interaction strength, which systematically affects reproducibility but is overlooked by existing methods for reproducibility assessment. RESULTS: We introduce Stratum-Adjusted Irreproducible Discovery Rate (SIDR), a novel statistical model that integrates distance stratification into the widely-used Irreproducible Discovery Rate (IDR) framework. SIDR explicitly models the confounding effect of genomic distance, enabling global control of irreproducibility across interaction ranges. Through simulations and real Hi-C datasets, we demonstrate that SIDR improves discriminative power and recovers more biologically meaningful interactions than existing approaches, making it a valuable tool for robust and reproducible Hi-C analysis. AVAILABILITY: The R package SIDR is freely available on GitHub https://github.com/qunhualilab/SIDR.",
+  "abstract_zh": "动机：Hi-C是一种在全基因组范围内绘制染色质相互作用图谱的强大技术。然而，由于实验噪声，从Hi-C接触图谱中识别出的相互作用环在不同重复实验间往往存在差异，这使得可重复性评估至关重要。一个主要挑战在于相互作用强度的基因组距离依赖性，这种依赖性系统性地影响可重复性，但现有可重复性评估方法却忽视了这一点。结果：我们引入了分层调整的不可重复发现率（Stratum-Adjusted Irreproducible Discovery Rate, SIDR），这是一种新颖的统计模型，将距离分层整合到广泛使用的不可重复发现率（Irreproducible Discovery Rate, IDR）框架中。SIDR明确建模了基因组距离的混杂效应，从而能够全局控制不同相互作用范围内的不可重复性。通过模拟和真实Hi-C数据集，我们证明SIDR比现有方法提高了判别能力，并恢复了更多具有生物学意义的相互作用，使其成为稳健且可重复的Hi-C分析的有力工具。可用性：R包SIDR可在GitHub上免费获取，网址为https://github.com/qunhualilab/SIDR。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42615977/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42615977/",
+  "paper_page_path": "papers/pubmed/42615977/index.html"
+}

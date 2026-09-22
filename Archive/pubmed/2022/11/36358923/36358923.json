@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "36358923",
+    "doi": "10.3390/biom12111573",
+    "title": "Proline-Rich Region II (PRR2) Plays an Important Role in Tau-Glycan Interaction: An NMR Study."
+  },
+  "content": {
+    "abstract": "(1) Background: Prion-like transcellular spreading of tau pathology in Alzheimer's disease (AD) is mediated by tau binding to the cell-surface glycan heparan sulfate (HS). However, the structural determinants for tau-HS interaction are not well understood. (2) Methods and Results: Binding-site mapping using NMR showed two major binding regions in full-length tau responsible for heparin interaction. Thus, two tau constructs, tau PRR2* and tau R2*, were designed to investigate the molecular details at the tau-heparin binding interface. The 2D (1)H-(15)N HSQC of tau PRR2* and tau R2* lacked dispersion, which is characteristic for intrinsically disordered proteins. NMR titration of Arixtra into (15)N-labeled tau R2* induced large chemical shift perturbations (CSPs) in (275)VQIINK(280) and downstream residues K281-D283, in which L282 and I278 displayed the largest shifts. NMR titration of Arixtra into (15)N-labeled tau PRR2* induced the largest CSPs for residue R209 followed by residues S210 and R211. Residue-based CSP fitting showed that tau PRR2*-Arixtra interaction had a much stronger binding affinity (0.37-0.67 mM) than that of tau R2*-Arixtra (1.90-5.12 mM) interaction. (3) Conclusions: Our results suggested that PRR2 is a crucial domain for tau-heparin and tau-HS interaction.",
+    "keywords": [
+      "Alzheimer's disease",
+      "heparin",
+      "proline-rich region",
+      "tau"
+    ],
+    "mesh_terms": [
+      "Protein Binding",
+      "Fondaparinux",
+      "Binding Sites",
+      "*Heparan Sulfate/chemistry",
+      "*Heparin/chemistry",
+      "Proline/metabolism",
+      "tau Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Murray, Anqesha",
+        "Yan, Lufeng",
+        "Gibson, James M",
+        "Liu, Jian",
+        "Eliezer, David",
+        "Lippens, Guy",
+        "Zhang, Fuming",
+        "Linhardt, Robert J",
+        "Zhao, Jing",
+        "Wang, Chunyu"
+      ],
+      "short_names": [
+        "Murray A",
+        "Yan L",
+        "Gibson JM",
+        "Liu J",
+        "Eliezer D",
+        "Lippens G",
+        "Zhang F",
+        "Linhardt RJ",
+        "Zhao J",
+        "Wang C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8063-6575",
+        "ORCID: 0000-0002-6772-4615",
+        "ORCID: 0000-0002-9378-0135",
+        "ORCID: 0000-0003-2803-3704",
+        "ORCID: 0000-0003-2219-5833",
+        "ORCID: 0000-0001-5681-6058"
+      ],
+      "affiliations": [
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA.",
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA.",
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA.",
+        "Division of Chemical Biology and Medicinal Chemistry, Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27514, USA.",
+        "Program in Structural Biology, Department of Biochemistry, Weill Cornell Medical College, New York, NY 10065, USA.",
+        "Toulouse Biotechnology Institute, CNRS, INRA, INSA, University of Toulouse, 31077 Toulouse, France.",
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA.",
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA.",
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA.",
+        "College of Food Science and Nutritional Engineering, China Agricultural University, Beijing 100083, China.",
+        "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA.",
+        "College of Food Science and Nutritional Engineering, China Agricultural University, Beijing 100083, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Murray, Anqesha",
+        "short_name": "Murray A",
+        "identifiers": [
+          "0000-0001-8063-6575"
+        ],
+        "affiliations": [
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA."
+        ]
+      },
+      {
+        "full_name": "Yan, Lufeng",
+        "short_name": "Yan L",
+        "identifiers": [
+          "0000-0002-6772-4615"
+        ],
+        "affiliations": [
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA."
+        ]
+      },
+      {
+        "full_name": "Gibson, James M",
+        "short_name": "Gibson JM",
+        "identifiers": [
+          "0000-0002-9378-0135"
+        ],
+        "affiliations": [
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Jian",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Chemical Biology and Medicinal Chemistry, Eshelman School of Pharmacy, University of North Carolina, Chapel Hill, NC 27514, USA."
+        ]
+      },
+      {
+        "full_name": "Eliezer, David",
+        "short_name": "Eliezer D",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Structural Biology, Department of Biochemistry, Weill Cornell Medical College, New York, NY 10065, USA."
+        ]
+      },
+      {
+        "full_name": "Lippens, Guy",
+        "short_name": "Lippens G",
+        "identifiers": [],
+        "affiliations": [
+          "Toulouse Biotechnology Institute, CNRS, INRA, INSA, University of Toulouse, 31077 Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fuming",
+        "short_name": "Zhang F",
+        "identifiers": [
+          "0000-0003-2803-3704"
+        ],
+        "affiliations": [
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA."
+        ]
+      },
+      {
+        "full_name": "Linhardt, Robert J",
+        "short_name": "Linhardt RJ",
+        "identifiers": [
+          "0000-0003-2219-5833"
+        ],
+        "affiliations": [
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jing",
+        "short_name": "Zhao J",
+        "identifiers": [
+          "0000-0001-5681-6058"
+        ],
+        "affiliations": [
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA.",
+          "College of Food Science and Nutritional Engineering, China Agricultural University, Beijing 100083, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chunyu",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biotechnology and Interdisciplinary Studies, Department of Chemistry and Chemical Biology, Departments of Biological Sciences, Rensselaer Polytechnic Institute, Troy, New York, NY 12180, USA.",
+          "College of Food Science and Nutritional Engineering, China Agricultural University, Beijing 100083, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2022 Oct 27",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/12 06:00",
+    "fetched_at": "2026-09-20 16:35:03"
+  },
+  "links": {
+    "cites": [
+      "41881216",
+      "39940886",
+      "36551220"
+    ],
+    "refs": [
+      "31692167",
+      "29752409",
+      "29686391",
+      "29293892",
+      "28297651",
+      "27975251",
+      "27658420",
+      "25842390",
+      "25588378",
+      "25261551",
+      "24770491",
+      "24561662",
+      "24504409",
+      "23898162",
+      "23740819",
+      "23188818",
+      "22762014",
+      "22464332",
+      "22365544",
+      "22312444",
+      "19503072",
+      "19282288",
+      "17307736",
+      "17029411",
+      "10391244",
+      "8068626",
+      "1918161"
+    ],
+    "similar": [
+      "36358923",
+      "31692167",
+      "28297651",
+      "17029411",
+      "15007056",
+      "32954725",
+      "36876791",
+      "16436387",
+      "22593556",
+      "37167199",
+      "21913677",
+      "36589242",
+      "36564747",
+      "31699899",
+      "33794133",
+      "23891937",
+      "19858217",
+      "14695267",
+      "23240897",
+      "11463346",
+      "35623497",
+      "28104757",
+      "9190213",
+      "35287864",
+      "31974166",
+      "20665688",
+      "23659663",
+      "9407097",
+      "26395440",
+      "8849730",
+      "17311412",
+      "16815843",
+      "22072628",
+      "24334236",
+      "33232799",
+      "23334915",
+      "28294485",
+      "17855358",
+      "17588944",
+      "18482453",
+      "20416374",
+      "16225961",
+      "25711986",
+      "18507396",
+      "37450599",
+      "29570275",
+      "11278860",
+      "26216842",
+      "19117094",
+      "26872053",
+      "8594987",
+      "38492709",
+      "19895707",
+      "1613550",
+      "25623359",
+      "36669127",
+      "11882649",
+      "9218427",
+      "17307736",
+      "1601862",
+      "8276782",
+      "12077148",
+      "14707131",
+      "30259679",
+      "31018591",
+      "8760376",
+      "21910444",
+      "17062560",
+      "18669635",
+      "21757739",
+      "27502551",
+      "27653286",
+      "31358628",
+      "25628064",
+      "27821590",
+      "7931292",
+      "15138272",
+      "8729007",
+      "19114710",
+      "21514440",
+      "34494046",
+      "32979285",
+      "34784549",
+      "33597014",
+      "23152789",
+      "19591432",
+      "26115461",
+      "31112821",
+      "26371375",
+      "9488672",
+      "31046227",
+      "30260627",
+      "11087707",
+      "16373349",
+      "10066777",
+      "19959468",
+      "8157651"
+    ],
+    "review": [
+      "36358923",
+      "20416374",
+      "25628064"
+    ],
+    "pmc": [
+      "9687896"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom12111573",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bloodthinners.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Blood Thinners"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36358923/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36358923",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

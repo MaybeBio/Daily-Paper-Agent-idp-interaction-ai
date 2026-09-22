@@ -1,0 +1,67 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors use a coarse-grained polyampholyte model with equal numbers of glutamic acid and lysine residues to study how sequence pattern (from alternating to block-like) affects conformational transitions of intrinsically disordered proteins during phase separation. They report that dilute-phase conformations range from ideal-like to semi-compact depending on sequence, dense-phase conformations are approximately ideal regardless of sequence, assembly proceeds through small oligomeric clusters with gradual chain swelling, and interface chains are sequence-dependent but more collapsed than bulk dense-phase chains. They claim applicability to several natural proteins.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology, model parameters, sequence definitions, quantitative results, and validation against experimental or natural protein data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study addressing a relevant question in the field of biomolecular condensates, namely how sequence modulates IDP conformations across dilute, dense, and interfacial environments. The central claims are plausible and align with ongoing discussions in the field. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the robustness of the conclusions, or the strength of the evidence linking the model system to natural proteins. The claim of applicability to natural proteins is particularly under-supported in the absence of specific data or analysis. The work may be of interest to researchers studying phase separation and IDP biophysics, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, intrinsically disordered proteins, and polymer physics would be interested. The study addresses how sequence patterning influences chain conformations in different phases, which is central to understanding condensate material properties and function. The use of a simple polyampholyte model may also appeal to computational biophysicists seeking minimal models for phase behavior.
+- **Major strengths** The study addresses a timely and important question about sequence-dependent conformational behavior in condensates. The use of a systematic sequence pattern variation from alternating to block-like provides a clear design principle. The finding that dense-phase conformations are approximately ideal regardless of sequence is a potentially generalizable insight. The extension to natural proteins, if properly validated, would enhance relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that dense-phase chain conformation is approximately that of an ideal chain irrespective of protein sequence.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states this as a key finding, but no quantitative measures (e.g., radius of gyration scaling, Flory exponent, or comparison to ideal chain predictions) are provided. Without such data, it is impossible to assess whether the claim is robust across the range of sequences studied or whether it depends on specific model parameters such as interaction strengths, salt concentration, or chain length.
+  - **Why it matters** This claim is central to the paper's message. If the dense-phase ideality is an artifact of the coarse-grained model or specific parameter choices, the generalizability to real IDPs would be questionable. The field has debated whether dense-phase conformations are collapsed or expanded, and this claim needs strong quantitative support.
+  - **Resolution test** Provide quantitative conformational measures (e.g., radius of gyration as a function of chain length, scaling exponents, or distribution functions) for the dense phase across all sequence variants, with comparison to ideal chain behavior. Show that the result is insensitive to reasonable variations in model parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that their findings are applicable to several naturally occurring proteins involved in biological condensates.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on which natural proteins were studied, how they were mapped to the polyampholyte model, what sequence features were captured, or what quantitative comparisons were made. The claim of applicability is therefore unverifiable from the supplied material.
+  - **Why it matters** This claim extends the study's relevance beyond the model system. If the natural protein results are not rigorously demonstrated, the broader significance of the work is diminished. The field requires evidence that model predictions translate to real sequences, not just qualitative similarity.
+  - **Resolution test** Specify the natural proteins, the model construction for each, and provide quantitative comparisons between model predictions and any available experimental or computational data for those proteins. Show that the key findings (dense-phase ideality, interface collapse) hold for these proteins.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that chains assemble from the dilute phase through small oligomeric clusters to the dense phase, accompanied by gradual swelling of individual chains.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract describes a pathway of assembly, but no details are given on how this was determined (e.g., cluster size distributions, free energy profiles, or time-resolved analyses). The claim of "gradual swelling" implies a monotonic trend, but the abstract does not specify over what concentration range or how this was quantified.
+  - **Why it matters** Understanding the assembly pathway is important for connecting single-chain properties to phase behavior. If the pathway is not rigorously characterized, the mechanistic insight is limited.
+  - **Resolution test** Provide quantitative cluster size distributions or free energy surfaces as a function of concentration, and show the chain dimensions (e.g., radius of gyration) as a function of cluster size or concentration, with statistical uncertainties.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "ideal-like conformations" is used without definition. It is unclear whether this refers to theta-solvent conditions, Gaussian chain statistics, or a specific scaling exponent.
+  - **Required correction** Define "ideal-like" explicitly, for example by stating the expected scaling of radius of gyration with chain length or the Flory exponent used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions a "coarse-grained polyampholyte model" but provides no information on the resolution, interaction potentials, or how sequence patterns were varied.
+  - **Required correction** In the full manuscript, ensure the model is described with sufficient detail for reproduction, including bead types, nonbonded interactions, and sequence generation procedure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Interface claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that interface chains are "more collapsed than those in the bulk-like dense phase" is stated without context on how the interface was defined or how robust this finding is across sequences.
+  - **Required correction** Define the interface region operationally and report the range of collapse ratios across sequences, with uncertainties.
+
+## Risk / unsupported claims
+- The claim that dense-phase conformations are approximately ideal irrespective of sequence is unsupported without quantitative data.
+- The claim that findings apply to several natural proteins is unsupported without specification of proteins and comparative data.
+- The claim of assembly through small oligomeric clusters with gradual swelling is unsupported without cluster analysis or concentration-dependent data.
+- The claim that interface chains are sequence-dependent but more collapsed than bulk is unsupported without interface definitions and quantitative measures.

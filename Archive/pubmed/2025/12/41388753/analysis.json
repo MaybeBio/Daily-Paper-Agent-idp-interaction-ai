@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41388753",
+  "title": "Functional divergence of protein kinase A regulatory subunit Ibeta variants: the importance of N3A motifs in PKA regulation.",
+  "authors": "Wallbott, Maximilian; Weng, Jui-Hung; Pane, Valeria; Ma, Yuliang; Wu, Jian; Taylor, Susan S; Herberg, Friedrich W",
+  "journal": "The FEBS journal",
+  "published_date": "2025-12-13",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究PKA调节亚基RIbeta变体通过N3A基序影响cAMP结合与C亚基互作，并用高斯分子动力学模拟揭示域动态差异，涉及相分离但非IDP对象，互作机制建模有一定启发。",
+  "abstract": "Protein kinase A (PKA) regulatory subunit Ibeta (RIbeta) plays a crucial role in modulating PKA activity through its interaction with the catalytic (C) subunit. Recent studies have identified two variants of RIbeta that have not been distinguished until now. The variants differ in a single residue at Position 268 (alanine vs arginine), located within one of two structural motifs known as N3A motifs. Our study reveals distinct biochemical functions of the variants, highlighting the role of the second N3A motif at the N terminus of the cyclic nucleotide binding domain B (CNB-B). We demonstrate an enhanced binding affinity of the A268 variant for cAMP and an altered interaction with the C-subunit. Substitution in the N3A(B) motif also affects the cooperativity between the cAMP binding sites as well as kinase activity in the absence of cAMP. In HEK293 cells, we demonstrated a reduced cAMP-induced dissociation of RIbeta R268 PKA holoenzymes in a time-dependent manner. Gaussian molecular dynamics simulations revealed that the CNB-A domain is more flexible in A268 while the opposite is true for the CNB-B domain, which is more dynamic in the R268 protein. This study underscores the importance of distinguishing between the two RIbeta variants, as they exhibit distinct biochemical properties that alter PKA regulation. Comparison of cellular localization showed that both variants form small droplets in the cytoplasm that colocalize with the C-subunit in the presence of cAMP. These findings suggest that both RIbeta variants undergo liquid-liquid phase separation, similar to RIalpha.",
+  "abstract_zh": "蛋白激酶A（PKA）调节亚基Ibeta（RIbeta）通过其与催化（C）亚基的相互作用，在调节PKA活性中发挥关键作用。近期研究已鉴定出RIbeta的两种变体，此前尚未区分。这两种变体在第268位残基（丙氨酸与精氨酸）上存在差异，该位点位于两个被称为N3A基序的结构基序之一内。我们的研究揭示了这些变体的不同生化功能，强调了环核苷酸结合域B（CNB-B）N端第二个N3A基序的作用。我们证明了A268变体对cAMP的结合亲和力增强，并且与C亚基的相互作用发生改变。N3A(B)基序中的替换也影响cAMP结合位点之间的协同性，以及在无cAMP条件下的激酶活性。在HEK293细胞中，我们证明了RIbeta R268 PKA全酶在cAMP诱导下的解离以时间依赖性方式减少。高斯分子动力学模拟显示，在A268中CNB-A域更灵活，而在R268蛋白中CNB-B域则相反，更为动态。本研究强调了区分两种RIbeta变体的重要性，因为它们表现出改变PKA调节的不同生化特性。细胞定位比较显示，两种变体在细胞质中形成小液滴，并在cAMP存在下与C亚基共定位。这些发现表明，两种RIbeta变体均经历液-液相分离，类似于RIalpha。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41388753/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41388753/",
+  "paper_page_path": "papers/pubmed/41388753/index.html"
+}

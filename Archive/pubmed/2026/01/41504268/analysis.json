@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41504268",
+  "title": "Effect of sequence variations on the phase behavior of a functional IDP fragment.",
+  "authors": "Chakraborty, Sanchari; Mishra, Naveen; Biswas, Mithun",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2026-01-08",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过全原子分子动力学模拟研究α-Synuclein IDP片段P1的点突变对相分离行为的影响，揭示序列变异如何改变残基互作网络和凝聚路径，直接契合无序蛋白PPI与相分离的机制建模主题。",
+  "abstract": "Biomolecular phase separation can potentially influence processes such as signaling, transcription, and protein assembly. The driving force for phase separation is inter-molecular interactions, which are perturbed by amino acid mutations of phase-separating proteins. The pathogenic aggregated states of intrinsically disordered protein alpha-Syn are associated with several neurodegenerative diseases. A major pathway to form aggregates of alpha-Syn involves formation of liquid-like condensates, which may aid early assembly of alpha-Syn oligomers. Recent studies indicate that the P1 (residues 36-42) region in the N-terminal of alpha-Syn acts as a \"master-controller\" of its assembly and function. P1 can self-assemble and phase separate above a lower critical solution temperature. Here, we employ the P1 domain as a model peptide fragment to explore the role of sequence variation on phase behavior. In particular, the influence of point mutations Y39A and S42A of the P1 domain, known to be important for alpha-Syn assembly, are studied in detail by performing all-atom molecular dynamics simulations. The results reveal that both Y39A and S42A are able to self-assemble at elevated temperatures. Y39A exhibits similar thermo-responsive phase behavior to wild-type P1 and forms large oligomers. This indicates that although the presence of tyrosine stabilizes the network of interactions at lower temperatures, it is not crucial for forming the condensed phase at higher temperatures. In contrast, S42A shows anomalous temperature dependence and forms intermediate-sized oligomer assemblies. The study offers detailed insights into how sequence variation might affect the network of residue-residue interactions at different temperatures and alters the condensation pathway of IDP fragments.",
+  "abstract_zh": "生物分子相分离（phase separation）可能影响信号传导、转录和蛋白质组装等过程。相分离的驱动力是分子间相互作用，而这些相互作用会受到相分离蛋白氨基酸突变的影响。 intrinsically disordered protein alpha-Syn 的致病性聚集状态与多种神经退行性疾病相关。形成 alpha-Syn 聚集体的主要途径之一涉及液态样凝聚体的形成，这可能有助于 alpha-Syn 寡聚体的早期组装。近期研究表明，alpha-Syn N 端的 P1（残基 36-42）区域充当其组装和功能的“主控制器”。P1 在高于较低临界溶液温度时能够自组装并发生相分离。在此，我们采用 P1 结构域作为模型肽片段，探讨序列变异对相行为的作用。特别是，通过全原子分子动力学（molecular dynamics）模拟，详细研究了已知对 alpha-Syn 组装重要的 P1 结构域点突变 Y39A 和 S42A 的影响。结果显示，Y39A 和 S42A 均能在升高温度下自组装。Y39A 表现出与野生型 P1 相似的热响应相行为，并形成大型寡聚体。这表明，尽管酪氨酸的存在在较低温度下稳定了相互作用网络，但在较高温度下形成凝聚相并非关键。相比之下，S42A 显示出异常的温度依赖性，并形成中等大小的寡聚体组装。该研究提供了关于序列变异如何在不同温度下影响残基-残基相互作用网络并改变 IDP 片段凝聚途径的详细见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41504268/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41504268/",
+  "paper_page_path": "papers/pubmed/41504268/index.html"
+}

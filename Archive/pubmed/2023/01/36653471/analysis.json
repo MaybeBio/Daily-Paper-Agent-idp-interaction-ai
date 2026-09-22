@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36653471",
+  "title": "Evolutionary fine-tuning of residual helix structure in disordered proteins manifests in complex structure and lifetime.",
+  "authors": "Elkjaer, Steffie; Due, Amanda D; Christensen, Lise F; Theisen, Frederik F; Staby, Lasse; Kragelund, Birthe B; Skriver, Karen",
+  "journal": "Communications biology",
+  "published_date": "2023-01-19",
+  "window": {
+    "start": "2023-01-16",
+    "end": "2023-01-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过进化设计变异体，结合生物物理分析揭示无序转录因子DREB2A的残余螺旋结构调控其与RCD1-RST结合亲和力及复合物寿命的耦合折叠-结合机制，虽以实验为主但直接聚焦IDR介导的PPI机制建模，对无序蛋白互作预测有重要启发。",
+  "abstract": "Transcription depends on complex networks, where folded hub proteins interact with intrinsically disordered transcription factors undergoing coupled folding and binding. For this, local residual structure, a prototypical feature of intrinsic disorder, is key. Here, we dissect the unexplored functional potential of residual structure by comparing structure, kinetics, and thermodynamics within the model system constituted of the DREB2A transcription factor interacting with the alphaalpha-hub RCD1-RST. To maintain biological relevance, we developed an orthogonal evolutionary approach for the design of variants with varying amounts of structure. Biophysical analysis revealed a correlation between the amount of residual helical structure and binding affinity, manifested in altered complex lifetime due to changed dissociation rate constants. It also showed a correlation between helical structure in free and bound DREB2A variants. Overall, this study demonstrated how evolution can balance and fine-tune residual structure to regulate complexes in coupled folding and binding, potentially affecting transcription factor competition.",
+  "abstract_zh": "转录依赖于复杂网络，其中折叠的枢纽蛋白与经历偶联折叠和结合的内在无序转录因子相互作用。为此，局部残余结构——内在无序的原型特征——至关重要。在此，我们通过比较由DREB2A转录因子与alphaalpha-枢纽RCD1-RST相互作用构成的模型系统中的结构、动力学和热力学，剖析了残余结构未被探索的功能潜力。为保持生物学相关性，我们开发了一种正交进化方法，用于设计具有不同结构含量的变体。生物物理分析揭示了残余螺旋结构含量与结合亲和力之间的相关性，表现为由于解离速率常数改变而导致的复合物寿命变化。它还显示了游离和结合DREB2A变体中螺旋结构之间的相关性。总体而言，本研究展示了进化如何平衡和微调残余结构以调节偶联折叠和结合中的复合物，可能影响转录因子竞争。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36653471/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36653471/",
+  "paper_page_path": "papers/pubmed/36653471/index.html"
+}

@@ -1,0 +1,288 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.08.552407",
+  "title": "Whole genome structural predictions reveal hidden diversity in putative oxidative enzymes of the lignocellulose degrading ascomycete Parascedosporium putredinis NO1",
+  "doi": "10.1101/2023.08.08.552407",
+  "abstract": "Economic valorisation of lignocellulose is paramount to realising a true circular bioeconomy; however, this requires the development of systems and processes to expand the repertoire of bioproducts beyond current renewable fuels, chemicals, and sustainable materials. Parascedosporium putredinis NO1 is an ascomycete that thrived at the later stages of a wheat- straw composting community culture, indicating a propensity to degrade recalcitrant lignin- enriched biomass, but exists within an underrepresented and underexplored fungal lineage. This strain has proven an exciting candidate for the identification of new enzymes targeting recalcitrant components of lignocellulose following the recent discovery of a new lignin β-ether linkage cleaving enzyme. The first genome for the genus Parascedosporium for P. putredinis NO1 genome was sequenced, assembled, and annotated. The genome is 39 Mb in size, consisting of 21 contigs annotated to contain 9.998 protein-coding sequences. The carbohydrate-active enzyme (CAZyme) repertoire was compared to 2570 ascomycete genomes and in detail with Trichoderma reesei , Fusarium oxysporum, and sister taxa Scedosporium boydii. Significant expansion in the oxidative auxiliary activity class of CAZymes was observed in the P. putredinis NO1 genome resulting from increased sequences encoding putative lytic polysaccharide monooxygenases (LPMOs), oxidative enzymes acting within LPMO redox systems, and lignin-degrading laccases. P. putredinis NO1 scored above the 95 th percentile for AA gene density across the ascomycete phylum, suggesting a primarily oxidative strategy for lignocellulose breakdown. Novel structure-based searching approaches were employed, revealing 17 new sequences with structural similarity to LPMO, laccase, and peroxidase sequences and which are potentially new lignocellulose-degrading enzymes. <h4>Importance</h4> An annotated reference genome has revealed P. putredinis NO1 as a useful resource for the identification of new lignocellulose degrading enzymes for biorefining of woody plant biomass. Utilising a ‘structure-omics’ based searching strategy, new potentially lignocellulose-active sequences were identified that would have been missed by traditional sequence searching methods. These new identifications, alongside the discovery of novel enzymatic functions from this underexplored lineage with the recent discovery of a new phenol oxidase that cleaves the main structural β-O-4 linkage in lignin from P. putredinis NO1 highlights the underexplored and poorly represented family Microascaceae as particularly interesting candidates worthy of further exploration toward the valorisation of high value biorenewable products.",
+  "authors": [
+    "Scott CJ",
+    "Leadbeater DR",
+    "Oates NC",
+    "James SR",
+    "Newling K",
+    "Li Y",
+    "McGregor NG",
+    "Bird S",
+    "Bruce NC"
+  ],
+  "published_date": "2023-08-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.08.552407",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.08.552407.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR706707",
+    "raw_record": {
+      "id": "PPR706707",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR706707"
+        ]
+      },
+      "doi": "10.1101/2023.08.08.552407",
+      "title": "Whole genome structural predictions reveal hidden diversity in putative oxidative enzymes of the lignocellulose degrading ascomycete  <i>Parascedosporium putredinis</i>  NO1",
+      "authorString": "Scott CJ, Leadbeater DR, Oates NC, James SR, Newling K, Li Y, McGregor NG, Bird S, Bruce NC.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Scott CJ",
+            "lastName": "Scott",
+            "firstName": "Conor JR",
+            "initials": "CJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7404-7619"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Novel Agricultural Products, Department of Biology, University of York, York YO10 5DD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leadbeater DR",
+            "lastName": "Leadbeater",
+            "firstName": "Daniel",
+            "initials": "DR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Novel Agricultural Products, Department of Biology, University of York, York YO10 5DD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oates NC",
+            "lastName": "Oates",
+            "firstName": "Nicola",
+            "initials": "NC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Novel Agricultural Products, Department of Biology, University of York, York YO10 5DD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "James SR",
+            "lastName": "James",
+            "firstName": "Sally",
+            "initials": "SR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioscience Technology Facility, Department of Biology, University of York, York YO10 5DD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Newling K",
+            "lastName": "Newling",
+            "firstName": "Katherine",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioscience Technology Facility, Department of Biology, University of York, York YO10 5DD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li Y",
+            "lastName": "Li",
+            "firstName": "Yi",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioscience Technology Facility, Department of Biology, University of York, York YO10 5DD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McGregor NG",
+            "lastName": "McGregor",
+            "firstName": "Nicholas GS",
+            "initials": "NG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "York Structural Biology Laboratory, Department of Chemistry, The University of York, York, YO10 5DD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bird S",
+            "lastName": "Bird",
+            "firstName": "Susannah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Novel Agricultural Products, Department of Biology, University of York, York YO10 5DD, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bruce NC",
+            "lastName": "Bruce",
+            "firstName": "Neil",
+            "initials": "NC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Novel Agricultural Products, Department of Biology, University of York, York YO10 5DD, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7404-7619"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Economic valorisation of lignocellulose is paramount to realising a true circular bioeconomy; however, this requires the development of systems and processes to expand the repertoire of bioproducts beyond current renewable fuels, chemicals, and sustainable materials.  Parascedosporium putredinis NO1 is an ascomycete that thrived at the later stages of a wheat- straw composting community culture, indicating a propensity to degrade recalcitrant lignin- enriched biomass, but exists within an underrepresented and underexplored fungal lineage. This strain has proven an exciting candidate for the identification of new enzymes targeting recalcitrant components of lignocellulose following the recent discovery of a new lignin β-ether linkage cleaving enzyme.  The first genome for the genus  Parascedosporium for  P. putredinis NO1 genome was sequenced, assembled, and annotated. The genome is 39 Mb in size, consisting of 21 contigs annotated to contain 9.998 protein-coding sequences. The carbohydrate-active enzyme (CAZyme) repertoire was compared to 2570 ascomycete genomes and in detail with  Trichoderma reesei ,  Fusarium oxysporum, and sister taxa  Scedosporium boydii. Significant expansion in the oxidative auxiliary activity class of CAZymes was observed in the  P. putredinis NO1 genome resulting from increased sequences encoding putative lytic polysaccharide monooxygenases (LPMOs), oxidative enzymes acting within LPMO redox systems, and lignin-degrading laccases.  P. putredinis NO1 scored above the 95  th percentile for AA gene density across the ascomycete phylum, suggesting a primarily oxidative strategy for lignocellulose breakdown. Novel structure-based searching approaches were employed, revealing 17 new sequences with structural similarity to LPMO, laccase, and peroxidase sequences and which are potentially new lignocellulose-degrading enzymes.  <h4>Importance</h4>  An annotated reference genome has revealed  P. putredinis NO1 as a useful resource for the identification of new lignocellulose degrading enzymes for biorefining of woody plant biomass. Utilising a ‘structure-omics’ based searching strategy, new potentially lignocellulose-active sequences were identified that would have been missed by traditional sequence searching methods. These new identifications, alongside the discovery of novel enzymatic functions from this underexplored lineage with the recent discovery of a new phenol oxidase that cleaves the main structural β-O-4 linkage in lignin from  P. putredinis NO1 highlights the underexplored and poorly represented family Microascaceae as particularly interesting candidates worthy of further exploration toward the valorisation of high value biorenewable products.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/W000695/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/M011151/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/P027717/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/10/2023.08.08.552407.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.08.552407"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR706707"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR706707&type=FILE&fileName=EMS186744-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37811978",
+            "reference": "Microbiology spectrum. \n    2023 Oct;:e0103523",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS186744",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "gca",
+          "uniprot"
+        ]
+      },
+      "dateOfCreation": "2023-08-29",
+      "firstPublicationDate": "2023-08-10",
+      "firstIndexDate": "2023-08-31",
+      "fullTextReceivedDate": "2023-12-01",
+      "hasEvaluations": "N"
+    }
+  }
+}

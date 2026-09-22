@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "41332682",
+    "doi": "10.1101/2025.11.21.689827",
+    "title": "Impact of N-terminal dimerization on formin homology 1 domain polymer dynamics and actin assembly."
+  },
+  "content": {
+    "abstract": "Many proteins contain intrinsically disordered regions (IDRs) that lack stable 3-dimensional structure. IDR behavior is poorly understood, leading to challenges for biochemical and computational analysis of IDR-containing proteins. Formins are a diverse set of homodimers containing an IDR - the FH1 domain - that facilitates polymerization of the cytoskeletal protein actin by increasing the local concentration of actin monomers at the actin assembly site. A commonly accepted model of formin-based actin polymerization involves a capture-and-deliver process: one or more binding sites (proline-rich motifs, PRMs) \"capture\" actin monomers and then \"deliver\" actin to the actin assembly site. There is evidence that formin FH1 domains are dimerized on both ends, but much research has been performed with formin constructs lacking the N-terminal dimerization site. Here, we ask: What happens when N-terminal dimerization is added to the standard model of formin-mediated actin assembly? We extend the kinetic model of FH1-mediated actin polymerization by incorporating a coarse-grain polymer model of FH1 domain dynamics, modeling the FH1 domain as a freely-jointed chain. We find that N-terminal dimerization can impact polymerization rates by modifying binding site accessibility and/or local concentration of binding sites (PRMs) at the actin assembly site (FH2 domain). Which effect dominates depends on kinetic parameters and formin properties such as FH1 domain length and binding site location. Additionally, we demonstrate that our model can be fit to experimental data and used to make predictions for the effects of N-terminal dimerization on a variety of formin family members.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bogue, Katharine",
+        "Christian, Bryan",
+        "Quinlan, Margot",
+        "Allard, Jun"
+      ],
+      "short_names": [
+        "Bogue K",
+        "Christian B",
+        "Quinlan M",
+        "Allard J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8133-1033",
+        "ORCID: 0000-0002-2758-4515"
+      ],
+      "affiliations": [
+        "Department of Chemistry & Biochemistry, University of California Los Angeles, Los Angeles, CA 90095-1569 USA.",
+        "Department of Chemistry & Biochemistry, University of California Los Angeles, Los Angeles, CA 90095-1569 USA.",
+        "Department of Chemistry & Biochemistry, University of California Los Angeles, Los Angeles, CA 90095-1569 USA.",
+        "Department of Physics & Astronomy, Department of Mathematics, University of California Irvine, Irvine, CA 92697 USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bogue, Katharine",
+        "short_name": "Bogue K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California Los Angeles, Los Angeles, CA 90095-1569 USA."
+        ]
+      },
+      {
+        "full_name": "Christian, Bryan",
+        "short_name": "Christian B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California Los Angeles, Los Angeles, CA 90095-1569 USA."
+        ]
+      },
+      {
+        "full_name": "Quinlan, Margot",
+        "short_name": "Quinlan M",
+        "identifiers": [
+          "0000-0002-8133-1033"
+        ],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California Los Angeles, Los Angeles, CA 90095-1569 USA."
+        ]
+      },
+      {
+        "full_name": "Allard, Jun",
+        "short_name": "Allard J",
+        "identifiers": [
+          "0000-0002-2758-4515"
+        ],
+        "affiliations": [
+          "Department of Physics & Astronomy, Department of Mathematics, University of California Irvine, Irvine, CA 92697 USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Nov 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/03 07:41",
+    "fetched_at": "2026-09-17 22:37:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38603491",
+      "38097186",
+      "35948766",
+      "35485934",
+      "34685534",
+      "34033783",
+      "33285117",
+      "32075907",
+      "30442288",
+      "30392063",
+      "29282276",
+      "27792274",
+      "27695129",
+      "26967624",
+      "24861497",
+      "24773235",
+      "23444374",
+      "22875983",
+      "22247555",
+      "21865598",
+      "20927338",
+      "19251693",
+      "19217847",
+      "18573080",
+      "18160294",
+      "17373907",
+      "16556604",
+      "16483928",
+      "16439214",
+      "15950879",
+      "15923184",
+      "15591319",
+      "15509653",
+      "15006353",
+      "14992721",
+      "12022860",
+      "9698363"
+    ],
+    "similar": [
+      "41332682",
+      "42124354",
+      "27792274",
+      "29754461",
+      "22247555",
+      "40463035",
+      "18978356",
+      "18160294",
+      "19633191",
+      "30392063",
+      "12906795",
+      "30266808",
+      "24861497",
+      "39667500",
+      "32075907",
+      "20869367",
+      "28642367",
+      "25483300",
+      "20927338",
+      "33289668",
+      "22094460",
+      "14576350",
+      "23921379",
+      "34214524",
+      "18305104",
+      "22428073",
+      "12796476",
+      "15740615",
+      "15994911",
+      "14992721",
+      "22605659",
+      "35673994",
+      "17398099",
+      "26668326",
+      "16818491",
+      "20862687",
+      "40316024",
+      "17482208",
+      "15950879",
+      "16483928",
+      "26996265",
+      "19459187",
+      "15507212",
+      "17158576",
+      "23222643",
+      "24915113",
+      "12525176",
+      "15864301",
+      "38097186",
+      "21998204",
+      "17210567",
+      "21333540",
+      "16364624",
+      "15923338",
+      "34818061",
+      "24719456",
+      "16490788",
+      "20332108",
+      "18835814",
+      "15371418",
+      "34506773",
+      "16480715",
+      "21307283",
+      "15095401",
+      "35248815",
+      "22879592",
+      "15591319",
+      "31948069",
+      "20927343",
+      "28951543",
+      "28527698",
+      "15377785",
+      "23653364",
+      "29282276",
+      "38188541",
+      "12775772",
+      "20177055",
+      "22397711",
+      "12538772",
+      "19251693",
+      "40574713",
+      "37028467",
+      "36259517",
+      "18977251",
+      "21119010",
+      "15835906",
+      "16556604",
+      "25482541",
+      "19589360",
+      "31965350",
+      "14657240",
+      "14990563",
+      "17909294",
+      "18815276",
+      "9606213",
+      "25246531",
+      "37863260",
+      "23110170",
+      "16472660",
+      "17986009"
+    ],
+    "review": [
+      "41332682",
+      "30392063",
+      "25483300",
+      "15950879",
+      "19459187",
+      "16364624",
+      "12775772",
+      "18977251"
+    ],
+    "pmc": [
+      "12667827"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41332682/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3579",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.11.21.689827",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

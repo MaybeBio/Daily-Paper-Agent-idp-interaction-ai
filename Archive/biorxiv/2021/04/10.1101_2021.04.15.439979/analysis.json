@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.04.15.439979",
+  "title": "Parallel and sequential pathways of molecular recognition of a tandem-repeat protein and its intrinsically disordered binding partner",
+  "authors": "Ben M. Smith; Pamela J. E. Rowling; Chris M. Dobson; Laura S. Itzhaki",
+  "journal": "bioRxiv",
+  "published_date": "2021-04-15",
+  "window": {
+    "start": "2021-04-12",
+    "end": "2021-04-18"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究通过荧光报告系统与定点突变结合，解析了无序转录因子TCF7L2与β-catenin长界面结合的并行/顺序动力学路径，揭示了fuzzy复合物与双位点亲合力机制，直接聚焦IDR-PPI互作机制建模，虽方法偏实验但机制深度极高。",
+  "abstract": "The Wnt signalling pathway plays an important role in cell proliferation, differentiation and fate decisions in embryonic development and in the maintenance of adult tissues, and the twelve Armadillo (ARM) repeat-containing protein β-catenin acts as the signal transducer in this pathway. Here we investigate the interaction between β-catenin and the intrinsically disordered transcription factor TCF7L2, comprising a very long nanomolar-affinity interface of approximately 4800 Å 2 that spans ten of the twelve ARM repeats of β-catenin. First, a fluorescence reporter system for the interaction was engineered and used to determine the kinetic rate constants for the association and dissociation. The association kinetics of TCF7L2 and β-catenin was monophasic and rapid (7.3 ± 0.1 ×10 7 M -1 s -1 ), whereas dissociation was biphasic and slow (5.7 ± 0.4 ×10 −4 s -1 , 15.2 ± 2.8 ×10 −4 s -1 ). This reporter system was then combined with site-directed mutagenesis to investigate the striking variability in the conformation adopted by TCF7L2 in the three different crystal structures of the TCF7L2-β-catenin complex. We found that mutation of the N- and C-terminal subdomains of TCF7L2 that adopt relatively fixed conformations in the crystal structures has a large effect on the dissociation kinetics, whereas mutation of the labile sub-domain connecting them has negligible effect. These results point to a two-site avidity mechanism of binding with the linker region forming a “fuzzy” complex involving transient contacts that are not site-specific. Strikingly, two mutations in the N-terminal subdomain that have the largest effects on the dissociation kinetics showed two additional phases, indicating partial flux through an alternative dissociation pathway that is inaccessible to the wild type. The results presented here provide insights into the kinetics of molecular recognition of a long intrinsically disordered region with an elongated repeat-protein surface, a process found to involve parallel routes with sequential steps in each.",
+  "abstract_zh": "Wnt信号通路在胚胎发育及成体组织维持中的细胞增殖、分化和命运决定中发挥重要作用，含有十二个Armadillo (ARM) 重复序列的蛋白质β-catenin是该通路中的信号转导因子。在此，我们研究了β-catenin与本质无序转录因子TCF7L2之间的相互作用，该相互作用涉及一个约4800 Å²的极长纳摩尔亲和力界面，跨越β-catenin的十二个ARM重复序列中的十个。首先，我们设计了一个用于该相互作用的荧光报告系统，并用于测定结合和解离的动力学速率常数。TCF7L2与β-catenin的结合动力学呈单相且快速（7.3 ± 0.1 ×10⁷ M⁻¹ s⁻¹），而解离则呈双相且缓慢（5.7 ± 0.4 ×10⁻⁴ s⁻¹，15.2 ± 2.8 ×10⁻⁴ s⁻¹）。随后，我们将该报告系统与定点突变相结合，以研究TCF7L2在TCF7L2-β-catenin复合物的三种不同晶体结构中所采用构象的显著变异性。我们发现，在晶体结构中采用相对固定构象的TCF7L2 N端和C端子结构域的突变对解离动力学有显著影响，而连接它们的易变子结构域的突变则影响可忽略不计。这些结果表明，结合机制涉及双位点亲合力，其中连接区形成一种“模糊”复合物，包含非位点特异性的瞬时接触。值得注意的是，N端子结构域中对解离动力学影响最大的两个突变显示出两个额外的相，表明存在部分通量通过野生型无法触及的替代解离途径。本文呈现的结果为长本质无序区域与延伸重复蛋白表面之间的分子识别动力学提供了见解，该过程被发现涉及并行路径，每条路径中均包含连续步骤。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.04.15.439979",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.04.15.439979",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.04.15.439979/index.html"
+}

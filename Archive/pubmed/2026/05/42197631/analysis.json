@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42197631",
+  "title": "Genome-Wide Analysis of YTH Domain Proteins in Metasequoia glyptostroboides and Functional Validation of MgYTH5 as an m(6)A Reader.",
+  "authors": "Li, Bao; Hu, Xin; Guo, Wenhui; Yin, Huijuan; Ma, Yuke; Ji, Kongshu; Yu, Qiong",
+  "journal": "Plants (Basel, Switzerland)",
+  "published_date": "2026-05-27",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究对水杉YTH蛋白进行全基因组分析并验证MgYTH5作为m6A阅读蛋白的RNA结合能力，虽涉及LLPS预测和同源建模，但对象为RNA修饰蛋白而非无序蛋白介导的PPI，互作机制建模深度有限，与本课题关联较弱。",
+  "abstract": "N(6)-methyladenosine (m(6)A) is an important epigenetic modification of eukaryotic RNA, playing a significant role in various biological processes. Metasequoia glyptostroboides (M. glyptostroboides) is an ancient tree species in China, with a long history and excellent genetic characteristics. In this study, we identified six MgYTH genes in the genome of M. glyptostroboides, elucidating their phylogenetic relationships, conserved domains, gene structures, conserved motifs, chromosome locations, and prediction of LLPS. The analysis of the cis-regulatory elements in the promoter region suggested that MgYTH genes are associated with drought and the ABA-responsive expression patterns signaling pathway, which was further supported by expression pattern analysis. In addition, to directly evaluate the m(6)A binding ability of MgYTH proteins, we selected MgYTH5 as the representative for homology modeling analysis and electrophoretic mobility shift assay (EMSA). The results demonstrated that MgYTH5 has the ability to bind m(6)A in vitro, thereby providing biochemical evidence that MgYTH5 can bind m(6)A-modified RNA in vitro mRNAs. The subcellular localization results showed that MgYTH5 is located in the cytoplasm. These findings provide new insights into the epigenetic regulation mechanisms in gymnosperms and provide a resource for future functional studies in this species.",
+  "abstract_zh": "N(6)-甲基腺苷（m(6)A）是真核RNA的一种重要表观遗传修饰，在多种生物过程中发挥关键作用。水杉（M. glyptostroboides）是中国的一种古老树种，具有悠久的历史和优良的遗传特性。在本研究中，我们在水杉基因组中鉴定了六个MgYTH基因，阐明了它们的系统发育关系、保守结构域、基因结构、保守基序、染色体位置以及LLPS预测。启动子区域顺式调控元件的分析表明，MgYTH基因与干旱和ABA响应性表达模式信号通路相关，这一发现得到了表达模式分析的进一步支持。此外，为直接评估MgYTH蛋白的m(6)A结合能力，我们选择MgYTH5作为代表进行同源建模分析和电泳迁移率变动分析（EMSA）。结果表明，MgYTH5在体外具有结合m(6)A的能力，从而提供了MgYTH5能在体外结合m(6)A修饰RNA的生化证据。亚细胞定位结果显示，MgYTH5定位于细胞质中。这些发现为裸子植物中的表观遗传调控机制提供了新见解，并为该物种未来的功能研究提供了资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42197631/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42197631/",
+  "paper_page_path": "papers/pubmed/42197631/index.html"
+}

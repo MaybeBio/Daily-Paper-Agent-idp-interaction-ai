@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41037437",
+  "title": "multiSMD - A Python Toolset for Multidirectional Steered Molecular Dynamics.",
+  "authors": "Walczewska-Szewc, Katarzyna; Niklas, Beata; Szewc, Kamil; Nowak, Wieslaw",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-10-02",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发了多方向拉伸分子动力学工具集multiSMD，通过多向量力探测蛋白-蛋白复合物解离、配体释放及无序区域力诱导重塑的各向异性机制，直接涉及IDR对象与PPI结合机制，并采用物理模拟方法，对无序蛋白互作机制建模有直接启发。",
+  "abstract": "Molecular forces govern all biological processes from cellular mechanics to molecular recognition events. Understanding the direction-dependence of these forces is particularly critical for elucidating fundamental interactions, such as protein-protein binding, ligand dissociation, and signal mechanotransduction. While steered molecular dynamics (SMD) simulations enable the study of force-induced transitions, conventional single-direction approaches may overlook anisotropic mechanical responses inherent to biomolecular systems. Therefore, probing the mechanical stability of molecular systems with respect to a director of an external force may provide critical information. Here, we present multiSMD, a Python-based tool that automates the setup and analysis of multidirectional SMD simulations in NAMD and GROMACS. By systematically probing forces along multiple spatial vectors, multiSMD captures direction-dependent phenomena, such as changing energy barriers or structural resilience, that remain hidden in standard SMD. We demonstrate the utility of our approach through three distinct applications: (i) anisotropic unbinding in a protein-protein complex, (ii) search for ligand dissociation pathways dependent on the pulling direction, and (iii) force-induced remodeling of intrinsically disordered regions in proteins. multiSMD streamlines the exploration of nanomechanical anisotropy in biomolecules, offering a computational framework to guide experiments (e.g., atomic force microscopy - AFM or optical tweezers) and uncover mechanistic properties inaccessible to single-axis methods.",
+  "abstract_zh": "分子力支配着从细胞力学到分子识别事件的所有生物过程。理解这些力的方向依赖性对于阐明基本相互作用尤为关键，例如蛋白质-蛋白质结合、配体解离和信号机械转导。虽然定向分子动力学 (steered molecular dynamics, SMD) 模拟能够研究力诱导的转变，但传统的单方向方法可能忽略生物分子系统固有的各向异性机械响应。因此，探测分子系统相对于外力方向的机械稳定性可能提供关键信息。在此，我们提出multiSMD，一个基于Python的工具，用于自动化在NAMD和GROMACS中设置和分析多方向SMD模拟。通过系统性地沿多个空间向量探测力，multiSMD捕捉到方向依赖的现象，如变化的能量障碍或结构韧性，这些在标准SMD中仍然隐藏。我们通过三个不同的应用展示了我们方法的实用性：(i) 蛋白质-蛋白质复合物中的各向异性解离，(ii) 依赖于拉动方向的配体解离途径搜索，以及(iii) 力诱导的蛋白质内在无序区域重塑。multiSMD简化了生物分子中纳米力学各向异性的探索，提供了一个计算框架来指导实验（例如，原子力显微镜 (atomic force microscopy, AFM) 或光镊），并揭示单轴方法无法触及的机制特性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41037437/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41037437/",
+  "paper_page_path": "papers/pubmed/41037437/index.html"
+}

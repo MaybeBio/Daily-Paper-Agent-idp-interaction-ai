@@ -1,0 +1,308 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.03.31.486537",
+  "title": "A highly sensitive protein-RNA cross-linking mass spectrometry workflow with enhanced structural modelling potential",
+  "doi": "10.1101/2022.03.31.486537",
+  "abstract": "Protein-RNA interactions underpin many critical biological processes, demanding the development of technologies to precisely characterize their nature and functions. Many such technologies depend upon cross-linking under mild irradiation conditions to stabilize contacts between amino acids and nucleobases; for example, the cross-linking of stable isotope labelled RNA coupled to mass spectrometry (CLIR-MS) method. A deeper understanding of the CLIR-MS workflow is required to maximize its impact for structural biology, particularly addressing the low abundance of cross-linking products and the information content of spatial/geometric restraints reflected by a cross-link. Here, we present a vastly improved CLIR-MS pipeline that features enhanced sample preparation, data acquisition and interpretation. These advances significantly increase the number of detected cross-link products per sample. We demonstrate that the procedure is robust against variation of key experimental parameters, including irradiation energy and temperature. Using this improved protocol on four protein-RNA complexes representing canonical and non-canonical RNA-binding domains, we propose for the first time the distances encoded by protein-RNA cross-links, enabling their use as structural restraints. We also compared the cross-linking of canonical RNA with 4-thiouracil-labeled counterparts, showing slight, but noticeable differences. The improved understanding of protein-RNA cross-links refines the structural interpretation of complexes and facilitates the adoption of the method in integrative/hybrid structural biology.",
+  "authors": [
+    "Sarnowski CP",
+    "Knörlein A",
+    "de Vries T",
+    "Götze M",
+    "Beusch I",
+    "Aebersold R",
+    "Allain FH",
+    "Hall J",
+    "Leitner A"
+  ],
+  "published_date": "2022-03-31",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.03.31.486537",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.03.31.486537.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR476265",
+    "raw_record": {
+      "id": "PPR476265",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR476265"
+        ]
+      },
+      "doi": "10.1101/2022.03.31.486537",
+      "title": "A highly sensitive protein-RNA cross-linking mass spectrometry workflow with enhanced structural modelling potential",
+      "authorString": "Sarnowski CP, Knörlein A, de Vries T, Götze M, Beusch I, Aebersold R, Allain FH, Hall J, Leitner A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sarnowski CP",
+            "lastName": "Sarnowski",
+            "firstName": "Chris",
+            "initials": "CP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, , ,"
+                },
+                {
+                  "affiliation": "Systems Biology PhD Program, and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Knörlein A",
+            "lastName": "Knörlein",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmaceutical Sciences, Department of Chemistry and Applied Biosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Vries T",
+            "lastName": "de Vries",
+            "firstName": "Tebbe",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8851-3537"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Götze M",
+            "lastName": "Götze",
+            "firstName": "Michael",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beusch I",
+            "lastName": "Beusch",
+            "firstName": "Irene",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7758-4348"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aebersold R",
+            "lastName": "Aebersold",
+            "firstName": "Ruedi",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, , ,"
+                },
+                {
+                  "affiliation": "Faculty of Science, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Allain FH",
+            "lastName": "Allain",
+            "firstName": "Frédéric H.-T.",
+            "initials": "FH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hall J",
+            "lastName": "Hall",
+            "firstName": "Jonathan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4160-7135"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmaceutical Sciences, Department of Chemistry and Applied Biosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leitner A",
+            "lastName": "Leitner",
+            "firstName": "Alexander",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4126-0725"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7758-4348"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8851-3537"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4126-0725"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4160-7135"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Protein-RNA interactions underpin many critical biological processes, demanding the development of technologies to precisely characterize their nature and functions. Many such technologies depend upon cross-linking under mild irradiation conditions to stabilize contacts between amino acids and nucleobases; for example, the cross-linking of stable isotope labelled RNA coupled to mass spectrometry (CLIR-MS) method. A deeper understanding of the CLIR-MS workflow is required to maximize its impact for structural biology, particularly addressing the low abundance of cross-linking products and the information content of spatial/geometric restraints reflected by a cross-link. Here, we present a vastly improved CLIR-MS pipeline that features enhanced sample preparation, data acquisition and interpretation. These advances significantly increase the number of detected cross-link products per sample. We demonstrate that the procedure is robust against variation of key experimental parameters, including irradiation energy and temperature. Using this improved protocol on four protein-RNA complexes representing canonical and non-canonical RNA-binding domains, we propose for the first time the distances encoded by protein-RNA cross-links, enabling their use as structural restraints. We also compared the cross-linking of canonical RNA with 4-thiouracil-labeled counterparts, showing slight, but noticeable differences. The improved understanding of protein-RNA cross-links refines the structural interpretation of complexes and facilitates the adoption of the method in integrative/hybrid structural biology.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "670821",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/03/31/2022.03.31.486537.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.03.31.486537"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR476265"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR476265&type=FILE&fileName=EMS203631-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40530697",
+            "reference": "Nucleic acids research. 2025 Jun;53(11):gkaf523",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS203631",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "omim",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-04-02",
+      "firstPublicationDate": "2022-03-31",
+      "firstIndexDate": "2022-04-02",
+      "fullTextReceivedDate": "2025-03-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

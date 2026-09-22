@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2408.02288v3",
+  "title": "Spin glass model of in-context learning",
+  "authors": "Yuhao Li; Ruoran Bai; Haiping Huang",
+  "journal": "Phys. Rev. E 112, L013301 (2025)",
+  "published_date": "2024-08-05",
+  "window": {
+    "start": "2024-08-05",
+    "end": "2024-08-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用自旋玻璃模型解释大语言模型上下文学习的机制，虽涉及物理建模和AI，但对象为语言模型而非无序蛋白/IDR，且不涉及蛋白-蛋白互作，仅机制思路可迁移。",
+  "abstract": "Large language models show a surprising in-context learning ability -- being able to use a prompt to form a prediction for a query, yet without additional training, in stark contrast to old-fashioned supervised learning. Providing a mechanistic interpretation and linking the empirical phenomenon to physics are thus challenging and remain unsolved. We study a simple yet expressive transformer with linear attention and map this structure to a spin glass model with real-valued spins, where the couplings and fields explain the intrinsic disorder in data. The spin glass model explains how the weight parameters interact with each other during pre-training, and further clarifies why an unseen function can be predicted by providing only a prompt yet without further training. Our theory reveals that for single-instance learning, increasing the task diversity leads to the emergence of in-context learning, by allowing the Boltzmann distribution to converge to a unique correct solution of weight parameters. Therefore the pre-trained transformer displays a prediction power in a novel prompt setting. The proposed analytically tractable model thus offers a promising avenue for thinking about how to interpret many intriguing but puzzling properties of large language models.",
+  "abstract_zh": "大型语言模型展现出令人惊讶的上下文学习能力——能够利用提示（prompt）对查询形成预测，而无需额外训练，这与传统的监督学习形成鲜明对比。为此，提供一种机制性解释并将这一经验现象与物理学联系起来，既具挑战性又尚未解决。我们研究了一个简单但富有表现力的线性注意力变换器（transformer），并将此结构映射为一个具有实值自旋的自旋玻璃模型（spin glass model），其中耦合和场解释了数据中的内在无序性。该自旋玻璃模型阐明了预训练期间权重参数如何相互作用，并进一步解释了为何仅通过提供提示而无需额外训练即可预测未见函数。我们的理论揭示，对于单实例学习，增加任务多样性会导致上下文学习的出现，通过使玻尔兹曼分布（Boltzmann distribution）收敛到权重参数的唯一正确解。因此，预训练变换器在新颖提示设置中展现出预测能力。所提出的解析可处理模型因此为思考如何解释大型语言模型中许多引人入胜但令人困惑的特性提供了一条有前景的途径。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2408.02288v3",
+  "source_url": "https://arxiv.org/abs/2408.02288v3",
+  "paper_page_path": "papers/arxiv/2408.02288v3/index.html"
+}

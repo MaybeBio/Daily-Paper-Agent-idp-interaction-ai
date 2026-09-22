@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and alignment with stated conclusions
+- **Shared manuscript claim summary** The authors use coarse-grained Martini 3 molecular dynamics simulations to study α-synuclein (αS) multi-chain aggregation under different environmental conditions (aqueous, with crowders, with salt). They report liquid-liquid phase separation (LLPS)-like behavior, differential effects of crowders (entropy-driven) and salt (enthalpy-driven) on surface tension, extended chain conformations with perpendicular orientations in aggregates, reduced intra-chain C-terminal interactions favoring inter-chain contacts, and small-world-like network topology within droplets.
+- **Visible evidence base** Figures 2–7, figure supplements, equations 1–19, methods section, data availability statement
+- **Missing materials affecting confidence** Simulation trajectory files (only 1.5–2.0 µs segments uploaded), force field parameter files, full analysis scripts, supplementary figures referenced but not fully described in text, and details of the atomistic reference simulations used for calibration
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computationally intensive study of αS aggregation using a carefully calibrated Martini 3 model. The work addresses an important question about how environmental factors modulate αS phase behavior. The methodological choices are largely justified, and the analysis is thorough. However, several claims extend beyond what the simulation evidence can robustly support, particularly regarding thermodynamic interpretations, network topology classification, and the biological relevance of the observed aggregates. The distinction between LLPS-like behavior and simple oligomer formation requires more careful treatment. The study is potentially valuable but currently overstates some conclusions relative to the evidence presented.
+- **Who would be interested in the results, and why** Researchers studying protein phase separation, particularly those focused on intrinsically disordered proteins and neurodegeneration. The work provides a computational framework for studying αS aggregation under different solution conditions, which could inform experimental design. The graph-theoretic approach to analyzing aggregate connectivity may interest computational biophysicists. The force field calibration strategy could be useful for others using Martini 3 for IDP simulations.
+- **Major strengths** The force field calibration against extensive atomistic simulation data is a significant strength. The systematic comparison across three environmental conditions is well designed. The multi-pronged analysis approach (concentration differences, surface tension, conformational analysis, contact maps, network topology) provides a comprehensive view. The authors are appropriately cautious in some interpretations, such as acknowledging the limited system size preventing observation of droplet fusion.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors assert that the observed aggregates possess "LLPS-like properties" based primarily on a two-orders-of-magnitude concentration difference between dilute and dense phases.
+  - **Evidence pointer** Figure 4b, Figure 4—figure supplement 1, Equations 3–5
+  - **Concern** The concentration difference criterion is necessary but not sufficient to establish LLPS. The authors do not demonstrate key LLPS characteristics such as dynamic exchange of molecules between phases, surface tension scaling with droplet size, or reversible assembly/disassembly. The aggregates formed in 2.5 µs simulations may represent kinetically trapped oligomers rather than equilibrium phase-separated droplets. The term "LLPS-like" is used throughout without rigorous validation of phase behavior.
+  - **Why it matters** The central claim of the paper is that αS undergoes LLPS under the simulated conditions. If the aggregates are not true equilibrium phases, the thermodynamic interpretations (surface tension, free energy of transfer) may not be meaningful, and the conclusions about environmental modulation of LLPS would be substantially weakened.
+  - **Resolution test** Provide evidence for dynamic exchange (e.g., residence time distributions, exchange rate calculations), demonstrate that aggregate properties are independent of simulation starting conditions, or perform simulations at multiple system sizes to show convergence of phase behavior. Alternatively, temper the language to "oligomer formation with LLPS-like features" and discuss the distinction explicitly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Thermodynamic interpretation
+  - **Claim pointer** The authors claim that "salt decreases ΔGtransfer via enthalpic means by increasing the surface tension of the formed droplets" and that crowders act "via entropic means."
+  - **Evidence pointer** Figure 4c, Equations 1–2, 6
+  - **Concern** The decomposition into entropic and enthalpic contributions is not directly computed. The authors infer mechanism from the observation that surface tension changes differently with crowders versus salt, but surface tension is a macroscopic property that does not directly map to entropic versus enthalpic contributions to the free energy of transfer. No direct entropy or enthalpy calculations are presented. The claim that crowders do not affect surface tension while still promoting aggregation is interpreted as entropic, but excluded volume effects also have enthalpic components in explicit-solvent simulations.
+  - **Why it matters** The mechanistic distinction between entropy-driven and enthalpy-driven modulation is a key conclusion. Without direct thermodynamic decomposition, this claim is speculative and could mislead readers about the physical mechanisms underlying the observed aggregation differences.
+  - **Resolution test** Perform end-point free energy calculations (e.g., MM-PBSA or thermodynamic integration) to decompose ΔGtransfer into entropic and enthalpic components. Alternatively, compute entropy directly from trajectory data using quasi-harmonic analysis or two-phase thermodynamics methods. If direct decomposition is not feasible, revise the language to describe the observations without mechanistic attribution.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Network analysis validity
+  - **Claim pointer** The authors classify the droplet networks as "small-world-like" based on a small-worldness coefficient S with a mean of 3.4.
+  - **Evidence pointer** Figure 7g, Equation 7
+  - **Concern** The small-worldness coefficient S is defined as the ratio of clustering coefficient to path length, each normalized by random network values. A value of 3.4 is reported as evidence of small-world topology. However, the authors do not report the individual values of C/Cr and L/Lr. Small-world networks require both high clustering relative to random and similar path length to random. If the path length ratio is also elevated, the network may be more regular than small-world. Additionally, the comparison to Erdos-Renyi networks may not be appropriate for spatial networks where nodes have geometric constraints. The threshold for "small-world-like" classification is not justified.
+  - **Why it matters** The network topology claim is presented as a novel finding about the "consensus interaction patterns" within droplets. If the classification is not robust, this conclusion is unsupported and could misrepresent the structural organization of the aggregates.
+  - **Resolution test** Report C/Cr and L/Lr separately. Compare to additional null models appropriate for spatial networks (e.g., random geometric graphs, configuration models preserving degree distribution). Perform sensitivity analysis on the edge definition threshold (8 Å). If the classification is sensitive to these choices, temper the claim accordingly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Force field validation scope
+  - **Claim pointer** The authors state that the optimized Martini 3 parameters reproduce atomistic behavior based on matching Rg distributions and fraction of bound states in dimer simulations.
+  - **Evidence pointer** Methods section "Optimizing Martini 3 parameters for αS", Figure 9
+  - **Concern** The calibration is performed against single-chain Rg and dimer binding. However, the primary claims concern multi-chain aggregation and phase behavior. Validation against single-chain and dimer properties does not guarantee accuracy for higher-order assemblies. The authors do not validate against any experimental data for αS aggregation or phase separation. The choice of λ = 1.01 is based on simultaneous matching of two properties, but the sensitivity of the multi-chain results to this specific value is not explored.
+  - **Why it matters** The reliability of all conclusions depends on the accuracy of the force field for the phenomena being studied. If the model is only validated for monomer and dimer properties, extrapolation to 50-chain assemblies is uncertain. This is particularly important given known challenges in simulating IDP phase behavior with coarse-grained models.
+  - **Resolution test** Perform sensitivity analysis with λ values around 1.01 to show that conclusions are robust. Compare aggregate properties (e.g., cluster size distributions, internal densities) with any available experimental data on αS oligomers. If experimental comparison is not possible, explicitly discuss the limitations of the validation scope.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data availability section
+  - **Issue** Only trajectory segments from 1.5–2.0 µs are uploaded. The full trajectories, initial configurations, force field parameter files, and analysis scripts are not provided. This limits reproducibility and independent verification of the results.
+  - **Required correction** Upload complete simulation input files (topology, parameters, initial coordinates), all trajectory segments, and analysis scripts to the repository. Provide a README describing file formats and analysis workflows.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 2, cluster size analysis
+  - **Evidence pointer** Figure 2, Results section "Simulations capture enhanced aggregation beyond a threshold concentrations of αS"
+  - **Issue** The manuscript reports average number of free monomers and cluster sizes but does not report error bars or standard deviations. It is unclear how many independent simulations were performed and whether the reported differences between conditions are statistically significant.
+  - **Required correction** Report the number of independent simulations, error bars on all quantitative measurements, and statistical significance tests for comparisons between conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Abstract, Results, Discussion
+  - **Issue** The term "droplet" is used interchangeably with "aggregate" after the authors assert LLPS-like properties. Given the concerns in R1-M1, this terminology may be premature and could bias reader interpretation.
+  - **Required correction** Use "aggregate" or "cluster" throughout unless LLPS is rigorously established. If the LLPS-like language is retained, add explicit caveats about the distinction between simulation-observed aggregates and experimentally characterized phase-separated droplets.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Equation consistency
+  - **Affected element** Equations 1, 2, 19
+  - **Evidence pointer** Results section "Crowders and salt differentially modulate surface tension", Methods section "Calculation of surface tension"
+  - **Issue** Equation 19 appears to be a duplicate of Equation 1 with a typo in the denominator (missing square on the angular brackets). The methods section also contains a typo in Equation 17 where λ9 appears instead of λ2.
+  - **Required correction** Correct the typographical errors in Equations 17 and 19. Ensure all equations are consistent between the Results and Methods sections.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of αS LLPS does not reference several key experimental studies on αS phase separation, including work on post-translational modifications, familial mutations, and the relationship between LLPS and fibril formation. The discussion would benefit from a more comprehensive contextualization of the findings.
+  - **Required correction** Add references to recent experimental and computational studies on αS LLPS, particularly those addressing environmental factors, to better position the current findings within the existing literature.
+
+## Risk / unsupported claims
+- The claim that aggregates exhibit "LLPS-like properties" is not fully supported without evidence of dynamic exchange and equilibrium behavior (R1-M1).
+- The entropic versus enthalpic mechanistic distinction for crowders and salt is not directly computed and is therefore speculative (R1-M2).
+- The "small-world-like" network classification is based on a single summary statistic without reporting the individual components or testing alternative null models (R1-M3).
+- The assertion that "αS does not possess a strong and spontaneous self-aggregation tendency" in water is based on a single simulation condition and may not be generalizable.
+- The claim that "the interactions that drive the formation of droplet remain essentially the same" across conditions is inferred from contact map similarities but is not quantitatively tested.
+- The biological relevance of the observed aggregates (hexamers and larger) to pathological αS aggregation in Parkinson's disease is asserted but not critically examined.
+- The statement that "if these residue-level interactions can be disturbed then the stability of the formed droplets might be affected" is speculative and not tested in this study.

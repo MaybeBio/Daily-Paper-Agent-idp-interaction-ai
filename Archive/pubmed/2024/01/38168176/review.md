@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of methods, data, or figures
+- **Shared manuscript claim summary** The authors propose that PKA RIα phase separation is driven by two separate dimerization interfaces and by cAMP-induced release of PKA-C from the pseudosubstrate sequence, is antagonized by AKAP docking, and involves a non-canonical R:C complex that recruits active PKA-C to condensates to maintain low basal PKA activity, thereby facilitating cAMP compartmentation and spatially restraining active PKA-C.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, statistical analyses, all figures and tables, and any supplementary data; without these, the validity of the mechanistic claims cannot be independently assessed
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely hypothesis regarding the molecular determinants of RIα phase separation and its functional consequences for PKA signaling. The proposed mechanism, involving dual dimerization interfaces and a non-canonical R:C complex, is conceptually novel and could have broad implications for understanding cAMP compartmentation. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims. Key mechanistic assertions, such as the requirement for two dimerization interfaces and the existence of a non-canonical R:C complex, are stated without supporting data. The relevance to a general readership is plausible but not yet established from the provided material.
+- **Who would be interested in the results, and why** Researchers in cell signaling, particularly those studying PKA, cAMP compartmentation, and biomolecular condensates, would find these results relevant. The work may also interest biophysicists and cell biologists focused on phase separation mechanisms and their functional roles in signaling specificity. The potential link between condensate formation and basal PKA activity regulation could attract investigators studying kinase signaling dysregulation in disease.
+- **Major strengths** The abstract addresses a significant and current question in the field, namely the molecular basis of RIα LLPS and its signaling consequences. The proposed dual-interface mechanism and the non-canonical R:C complex offer a fresh perspective beyond existing models. The emphasis on functional outcomes, such as spatial restraint of active PKA-C, adds biological relevance beyond mere biophysical characterization.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "two separate dimerization interfaces combined with the cAMP-induced release of PKA-C from the pseudosubstrate inhibitory sequence are required to drive RIα condensate formation in cytosol."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract asserts a specific mechanistic requirement for two dimerization interfaces and cAMP-induced C-subunit release, but no experimental evidence, such as mutagenesis data, domain deletion constructs, or quantitative condensation assays, is presented to support this claim.  
+  - **Why it matters** Without direct evidence, the reader cannot determine whether the proposed determinants are necessary, sufficient, or merely correlative. This is central to the paper's main conclusion.  
+  - **Resolution test** Provide data from targeted mutations or truncations of the dimerization interfaces and pseudosubstrate region, showing loss or gain of condensate formation in cells or in vitro, with appropriate controls.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "the RIα pseudosubstrate region is critically involved in the formation of a non-canonical R:C complex, which serves to maintain low basal PKA activity in the cytosol by enabling the recruitment of active PKA-C to RIα condensates."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The existence and functional role of a non-canonical R:C complex are stated as established findings, but no structural, biochemical, or cellular data are provided to demonstrate its formation, stoichiometry, or activity effects.  
+  - **Why it matters** This is a novel and potentially controversial claim that challenges existing models of PKA holoenzyme architecture. Without evidence, the claim remains speculative.  
+  - **Resolution test** Include biochemical or structural data (e.g., co-immunoprecipitation, crosslinking, or cryo-EM) showing the non-canonical complex, and functional assays demonstrating that its disruption alters basal PKA activity and condensate recruitment.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Conceptual clarity  
+  - **Claim pointer** The authors state that RIα LLPS "not only facilitates cAMP compartmentation but also spatially restrains active PKA-C."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not clarify how spatial restraint of active PKA-C is reconciled with the claim that condensates maintain low basal activity. If active C-subunit is recruited to condensates, it is unclear whether this promotes or suppresses local phosphorylation activity.  
+  - **Why it matters** The functional interpretation is central to the paper's significance. Ambiguity here weakens the conceptual framework.  
+  - **Resolution test** Clarify the net effect on PKA activity within condensates versus the surrounding cytosol, and provide data on substrate phosphorylation in both compartments.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, "antagonized by docking to A-kinase anchoring proteins"  
+  - **Issue** The term "antagonized" is vague; it is unclear whether AKAP docking prevents condensation, reverses it, or alters its properties.  
+  - **Required correction** Specify the nature of the antagonism, such as inhibition of condensate formation or promotion of dissolution.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract, "non-canonical R:C complex"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "non-canonical" is not defined, leaving the reader uncertain about how this complex differs from the standard R2C2 holoenzyme.  
+  - **Required correction** Briefly define the structural or functional distinction from the canonical complex.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Abstract, "in cytosol"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract focuses on cytosolic condensates but does not address whether similar mechanisms apply in other cellular compartments, such as the nucleus, where RIα is also expressed.  
+  - **Required correction** Acknowledge the compartment-specific scope or provide comparative data if available.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core mechanistic claims are unsupported by the provided material. R1-M3 is non-blocking but requires clarification for conceptual coherence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The proposed dual-interface mechanism and non-canonical R:C complex are conceptually novel and extend current models of PKA regulation.  
+  - Scientific importance: The work addresses a fundamental question in cAMP signaling and phase separation, with potential implications for understanding signaling specificity.  
+  - Interdisciplinary readership: The topic bridges cell signaling, biophysics, and cell biology, which could attract a broad audience if the evidence is robust.  
+  - Technical soundness: Cannot be assessed from the abstract alone; no methods or data are available for evaluation.  
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terms (e.g., "pseudosubstrate inhibitory sequence") without sufficient context for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a compelling hypothesis, but the absence of supporting data prevents validation of the central claims. A full manuscript with rigorous experimental evidence would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The requirement of two separate dimerization interfaces for condensate formation is unsupported.
+- The existence and functional role of a non-canonical R:C complex is unsupported.
+- The claim that AKAP docking antagonizes condensation is unsupported.
+- The functional assertion that condensates maintain low basal PKA activity while recruiting active PKA-C is conceptually ambiguous and unsupported.
+- The broader claim that RIα LLPS drives cAMP compartmentation and signaling specificity is presented as established but is not verifiable from the abstract.

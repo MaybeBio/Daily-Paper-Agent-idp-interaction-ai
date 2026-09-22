@@ -1,0 +1,31 @@
+{
+  "source": "arxiv",
+  "source_id": "2604.02838v1",
+  "title": "Mechanistic insights into the spatial organization of RNA polymerase proteins and the chromosome in E. coli cells",
+  "doi": "",
+  "abstract": "Along the bacterial chromosome, regions called rrn operons contain genes that are transcribed into ribosomal RNA. These operons are among the most transcriptionally active sites in the genome. It has been observed in E. coli that RNA polymerase (RNAP), while binding to these genetic loci along the chromosome during transcription, forms dense clusters, leading to spatial colocalization of the operons within the cell. Recent experimental evidence suggests that liquid-liquid phase separation contributes to the formation of RNAP clusters, with the antitermination factor NusA playing a key role. We present a simulation model to investigate the mechanisms underlying the formation of these biomolecular condensates. We propose that mutual attraction between NusA proteins, which exhibit a miscibility gap at higher concentrations, drives condensate formation via a polymer-assisted condensation pathway, and we demonstrate how these condensates promote the colocalization of rrn operons. Our results reconcile seemingly disparate experimental observations of chromosomal organization reported in fluorescence-based imaging and Hi-C experiments.",
+  "authors": [
+    "Debarshi Mitra",
+    "Jens-Uwe Sommer"
+  ],
+  "published_date": "2026-04-03T07:57:26Z",
+  "updated_date": "2026-04-03T07:57:26Z",
+  "journal": "",
+  "category": "cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2604.02838v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.02838v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2604.02838v1",
+    "raw_categories": [
+      "cond-mat.soft"
+    ],
+    "journal_ref": ""
+  }
+}

@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, significance statement, introduction, materials and methods, results and discussion, conclusions, and figure legends. Supporting material (Figures S1–S9, Table S1) is referenced but not provided.
+- **Assessment boundary** Scientific content, technical soundness, logical coherence, and alignment with the stated claims. Editorial or stylistic issues are noted only where they affect comprehension.
+- **Shared manuscript claim summary** The authors propose that aging of initially homogeneous Dhh1-poly(U) condensates, driven by a time-dependent decrease in the relative strength of protein-RNA interactions, leads to RNA release and, in condensates above a critical size, to nucleation of a dilute phase inside the dense phase, forming kinetically arrested double-emulsion and core-shell structures. This mechanism is supported by fluorescence microscopy, FRAP, FCS, FLIM, and Cahn-Hilliard simulations.
+- **Visible evidence base** Main text figures (Figures 1–4), methods descriptions, and referenced equations. Supporting figures and table are mentioned but not available for review.
+- **Missing materials affecting confidence** Supporting material (Figures S1–S9, Table S1), raw data, fitting parameters, and full model derivation details. These are essential for verifying quantitative claims, especially the simulation results and the FCS/FLIM analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel and interesting observation: spontaneous formation of multicompartment condensates via aging, without external perturbation. The combination of experimental and theoretical approaches is appropriate and the central hypothesis is plausible. However, several technical aspects require clarification and additional evidence before the case is fully established. The role of the mCherry tag, the quantitative interpretation of FCS and FLIM data, and the uniqueness of the proposed mechanism relative to alternative explanations need to be addressed.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, RNA-binding proteins, and cellular organization. The work is also relevant to those studying aging and material properties of biological condensates, and to the broader soft matter community interested in multiphase droplet formation.
+- **Major strengths** The observation of aging-driven multicompartment formation is novel and extends previous work on externally triggered demixing. The combination of multiple experimental techniques (FRAP, FCS, FLIM) with theoretical modeling is rigorous. The size-dependent behavior provides a clear and testable prediction. The writing is clear and the logical flow is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the decrease in the relative strength of protein-RNA interactions over time drives RNA release and subsequent multicompartment formation.
+  - **Evidence pointer** Figures 2 and 3; FCS and FLIM methods; location not provided
+  - **Concern** The quantitative interpretation of the FCS data relies on the assumption that the fluorescently labeled poly(U) behaves identically to the unlabeled poly(U). The authors do not discuss potential differences in labeling efficiency, dye photophysics, or dye-induced changes in binding affinity. Furthermore, the FCS measurements are performed in the dilute phase, but the authors infer changes in the dense phase composition. The connection between the two is not explicitly established. The FLIM data are used to infer that the core of the aged condensates has the same properties as the dilute phase, but the interpretation of the lifetime changes is not fully quantified. The authors mention possible causes (refractive index, viscosity, pH, FRET) but do not provide a quantitative analysis to distinguish these.
+  - **Why it matters** The central claim of the paper rests on the interpretation of these fluorescence-based measurements. If the FCS or FLIM data are misinterpreted, the proposed mechanism may be incorrect.
+  - **Resolution test** Provide control experiments with different labeling ratios or dual-color labeling to confirm that the labeled species reports faithfully on the unlabeled population. Quantify the FLIM lifetime changes and provide a model that accounts for the observed changes. Show that the FCS-derived concentrations in the dilute phase are consistent with mass balance calculations based on the initial and final dense phase volumes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use the Cahn-Hilliard model to rationalize the formation of double-emulsion structures and claim that the model quantitatively captures the experimental observations.
+  - **Evidence pointer** Figure 4; Cahn-Hilliard model section; location not provided
+  - **Concern** The model parameters are not fully justified. The authors state that the interaction parameters were chosen to be consistent with experimental data, but the range of acceptable values and the sensitivity of the results to these parameters are not discussed. The linear increase of χpu and χps over time is an ad hoc assumption. The model is solved in spherical coordinates assuming radial symmetry, but the experimental condensates are not perfectly spherical, and the effect of this approximation is not discussed. The comparison between the simulation and the experiment is qualitative; no quantitative metrics are provided to assess the agreement.
+  - **Why it matters** The theoretical model is a key component of the paper's argument. If the model is not robust or the parameters are not constrained, the conclusions drawn from it are weakened.
+  - **Resolution test** Provide a sensitivity analysis of the model results to the choice of parameters. Justify the time-dependence of the interaction parameters with a physical mechanism. Show quantitative agreement between the simulated and experimental concentration profiles or droplet sizes. Discuss the limitations of the radial symmetry assumption.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that their findings illustrate a "new mechanism" of multicompartment formation, distinct from equilibrium or externally driven processes.
+  - **Evidence pointer** Introduction and Conclusions; location not provided
+  - **Concern** The authors reference the work of Erkamp et al. (15) on temperature-driven double-emulsion formation and the work on Whi3 (23) on aging-driven demixing. The distinction between the present work and the Whi3 study is not clearly articulated. If the Whi3 system also exhibits aging-driven demixing, what is the specific novelty here? The authors should more explicitly state what is mechanistically new in their system.
+  - **Why it matters** The novelty claim is central to the paper's significance. If the mechanism is not clearly distinct from prior work, the impact is reduced.
+  - **Resolution test** Provide a direct comparison with the Whi3 system, highlighting the specific differences in the underlying interactions or the resulting structures. Alternatively, state more precisely what aspect of the mechanism is new.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction; location not provided
+  - **Issue** The introduction assumes familiarity with the concept of "aging" in condensates. A brief definition or example would help nonspecialist readers.
+  - **Required correction** Add one or two sentences defining aging in the context of biomolecular condensates and why it is relevant.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, FCS
+  - **Evidence pointer** FCS methods; location not provided
+  - **Issue** The FCS fitting model is described as "a single diffusing component with a triplet contribution," but the triplet fraction and its physical interpretation are not discussed.
+  - **Required correction** Provide the triplet fraction values and briefly discuss their significance, or state that they were not significant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Figure 1
+  - **Evidence pointer** Figure 1; location not provided
+  - **Issue** The size threshold for double-emulsion formation is mentioned but not quantified. The authors state that only condensates above a certain size form double emulsions, but the threshold value is not given.
+  - **Required correction** Provide the approximate size threshold and how it was determined.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Figure 3
+  - **Evidence pointer** Figure 3; location not provided
+  - **Issue** The diffusion coefficient of poly(U) in the dense phase is estimated from the timescale of fluorescence increase, but the calculation is not shown.
+  - **Required correction** Show the calculation or provide the estimated value and the assumptions used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The quantitative interpretation of the fluorescence data and the robustness of the model need to be addressed. The lack of supporting material for review also limits the ability to fully assess the methods.
+- **Assessment against Nature-style criteria** Originality: High. The observation of aging-driven multicompartment formation is novel. Scientific importance: Moderate to high. The work has implications for understanding cellular organization and material properties of condensates, but the broader impact may be limited by the specific system studied. Interdisciplinary readership: Moderate. The work will appeal to biophysicists, cell biologists, and soft matter physicists, but may not attract a wider audience. Technical soundness: Currently not fully established. The quantitative interpretation of the fluorescence data and the model require further validation. Readability for nonspecialists: Good. The paper is clearly written and the logic is easy to follow, though some background on aging would help.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central observation is interesting and the proposed mechanism is plausible, but the quantitative evidence needs to be strengthened. The authors should address the concerns regarding the FCS/FLIM interpretation and the model robustness.
+
+## Risk / unsupported claims
+- The claim that the decrease in the relative strength of protein-RNA interactions is the sole driver of the observed aging effects is not fully supported, as other factors (e.g., changes in protein conformation, aggregation) could also contribute.
+- The claim that the core of the double-emulsion condensates has the same properties as the dilute phase is based on FLIM data that are not fully quantified.
+- The quantitative agreement between the Cahn-Hilliard model and the experiments is not demonstrated; the comparison is qualitative.
+- The size threshold for double-emulsion formation is not quantified.
+- The role of the mCherry tag in the aging process is not discussed.

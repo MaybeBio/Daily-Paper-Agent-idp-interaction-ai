@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.05.24.445464",
+  "title": "ProteinBERT: A universal deep-learning model of protein sequence and function",
+  "authors": "Nadav Brandes; Dan Ofer; Yam Peleg; Nadav Rappoport; Michal Linial",
+  "journal": "bioRxiv",
+  "published_date": "2021-05-25",
+  "window": {
+    "start": "2021-05-24",
+    "end": "2021-05-30"
+  },
+  "score": 4,
+  "one_liner_zh": "ProteinBERT 是一个蛋白质序列与功能的通用深度学习语言模型，虽涉及蛋白质预测但未聚焦无序蛋白或 PPI 互作机制，方法可迁移性有限。",
+  "abstract": "Self-supervised deep language modeling has shown unprecedented success across natural language tasks, and has recently been repurposed to biological sequences. However, existing models and pretraining methods are designed and optimized for text analysis. We introduce ProteinBERT, a deep language model specifically designed for proteins. Our pretraining scheme consists of masked language modeling combined with a novel task of Gene Ontology (GO) annotation prediction. We introduce novel architectural elements that make the model highly efficient and flexible to very large sequence lengths. The architecture of ProteinBERT consists of both local and global representations, allowing end-to-end processing of these types of inputs and outputs. ProteinBERT obtains state-of-the-art performance on multiple benchmarks covering diverse protein properties (including protein structure, post translational modifications and biophysical attributes), despite using a far smaller model than competing deep-learning methods. Overall, ProteinBERT provides an efficient framework for rapidly training protein predictors, even with limited labeled data. Code and pretrained model weights are available at https://github.com/nadavbra/protein_bert .",
+  "abstract_zh": "自监督深度语言建模在自然语言任务中展现出前所未有的成功，并最近被重新应用于生物序列。然而，现有模型和预训练方法是为文本分析设计和优化的。我们引入了ProteinBERT，一种专门为蛋白质设计的深度语言模型。我们的预训练方案包括掩码语言建模与一项新颖的基因本体（Gene Ontology, GO）注释预测任务相结合。我们引入了新颖的架构元素，使模型高效且能灵活处理极长的序列长度。ProteinBERT的架构包含局部和全局表示，允许端到端处理这些类型的输入和输出。尽管使用的模型远小于竞争性深度学习方法，ProteinBERT在涵盖多种蛋白质属性（包括蛋白质结构、翻译后修饰和生物物理属性）的多个基准上取得了最先进的性能。总体而言，ProteinBERT提供了一个高效框架，即使标记数据有限，也能快速训练蛋白质预测器。代码和预训练模型权重可在 https://github.com/nadavbra/protein_bert 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.05.24.445464",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.05.24.445464",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.05.24.445464/index.html"
+}

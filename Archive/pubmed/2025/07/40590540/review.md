@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a method to predict heteropolymer phase separation from two-chain simulations using contact maps, which preserve spatial interaction information, and claim that simple statistical properties of these maps outperform classifiers based on single-chain radius of gyration (Rg) and pairwise second virial coefficient (B22) in both a minimal heteropolymer model and a residue-level intrinsically disordered protein (IDP) model.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, classifier training details, dataset descriptions, and performance metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing and potentially impactful idea, namely that two-chain contact maps, rather than scalar metrics like Rg and B22, can serve as superior predictors of phase separation in heteropolymers. The claim of transferability across a minimal model and a chemically specific IDP model is intriguing. However, the abstract provides no quantitative evidence, no description of the classifier architecture or feature selection, and no statistical validation. As such, the central claims are currently unverifiable from the supplied material. The work may be of interest to the biophysics and polymer physics communities, but the case is not established at this stage.
+- **Who would be interested in the results, and why** Researchers studying phase separation of intrinsically disordered proteins, polymer physicists interested in sequence-encoded phase behavior, and computational biologists developing predictive tools for biomolecular condensates. The method's potential to infer phase behavior from dilute-solution simulations would appeal to those seeking computationally efficient alternatives to direct coexistence simulations.
+- **Major strengths** The idea of using contact maps to retain spatial information beyond scalar virial coefficients is conceptually novel and physically motivated. The claim of transferability across a minimal model and a residue-level IDP model suggests potential generality. The proposed method, if validated, would offer a computationally efficient route to screen IDP sequences for phase separation propensity.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "simple statistical properties of two-chain contact maps predict phase separation with high accuracy, vastly outperforming classifiers based on Rg and B22 alone."
+  - **Evidence pointer** Abstract, Results section (location not provided)
+  - **Concern** No quantitative performance metrics are provided. The abstract does not report accuracy, area under the receiver operating characteristic curve, precision, recall, or any comparison of classifier performance between contact-map-based and scalar-based features. The phrase "high accuracy" and "vastly outperforming" is unsupported without numbers or statistical tests.
+  - **Why it matters** The central claim of the paper rests on the comparative performance of the proposed method. Without quantitative evidence, the reader cannot assess whether the improvement is meaningful, robust, or statistically significant. This is a core claim, not a peripheral detail.
+  - **Resolution test** Provide classification performance metrics (e.g., accuracy, AUC, F1 score) for both contact-map-based and scalar-based classifiers, with confidence intervals or cross-validation results, in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "we train phase-separation classifiers for both a minimal heteropolymer model and a chemically specific, residue-level IDP model."
+  - **Evidence pointer** Abstract, Methods section (location not provided)
+  - **Concern** The abstract does not describe the classifier type (e.g., logistic regression, random forest, neural network), the feature engineering for contact maps, the training and test set construction, or the criteria for labeling sequences as phase-separating versus non-phase-separating. Without this information, the method cannot be reproduced or evaluated for potential biases.
+  - **Why it matters** Reproducibility is a cornerstone of computational studies. The lack of methodological detail prevents independent verification and limits the scientific utility of the proposed approach.
+  - **Resolution test** In the full manuscript, specify the classifier architecture, feature definitions, data splitting strategy, and labeling criteria, and provide code or pseudocode for the method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability evidence
+  - **Claim pointer** The abstract claims the method is "transferable" across a minimal model and a residue-level IDP model.
+  - **Evidence pointer** Abstract, Results section (location not provided)
+  - **Concern** The abstract does not specify how many sequences or IDPs were used in each model, whether the same classifier hyperparameters were applied across models, or whether the performance was consistent. Transferability is asserted but not demonstrated with comparative data.
+  - **Why it matters** The claim of transferability is central to the paper's broader significance. If the method works only for the minimal model or only for the specific IDP set, its utility is substantially diminished.
+  - **Resolution test** Report performance metrics separately for each model, describe the sequence datasets, and discuss any differences in classifier behavior across models.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, definition of contact maps
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract defines contact maps as capturing "how often specific monomers from the two chains are in physical proximity" but does not specify the distance cutoff or the normalization scheme. This ambiguity could lead to misinterpretation.
+  - **Required correction** In the full manuscript, clearly define the contact criterion (e.g., distance threshold relative to chain length or absolute cutoff) and how contact frequencies are normalized.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Abstract, motivation
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract mentions that Rg and B22 "can fail to distinguish phase-separating from non-phase-separating heteropolymers" but does not cite specific examples or explain the mechanistic reason for this failure.
+  - **Required correction** Add a brief explanation or citation in the introduction of the full manuscript to contextualize why scalar metrics are insufficient.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "simple statistical properties"
+  - **Evidence pointer** Abstract, final paragraph
+  - **Issue** The phrase "simple statistical properties" is vague. It is unclear whether these are means, variances, correlations, or other descriptors of the contact map.
+  - **Required correction** Specify the exact statistical features used in the full manuscript, and justify their selection.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative performance evidence), R1-M2 (insufficient methodological detail), R1-M3 (unsubstantiated transferability claim)
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of using contact maps for phase-separation prediction is novel and distinct from scalar-based approaches. This is a strength.
+  - Scientific importance: If validated, the method could significantly aid in screening IDP sequences for phase behavior, which is relevant to understanding biomolecular condensates. However, the importance is contingent on the robustness of the claims.
+  - Interdisciplinary readership: The topic bridges polymer physics, computational biology, and biophysics, and would attract a broad audience. The abstract is written in accessible language.
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological and quantitative detail precludes evaluation.
+  - Readability for nonspecialists: The abstract is clear and well-structured, with minimal jargon, making it accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual premise is promising, but the abstract lacks the quantitative and methodological substance required to support the central claims. A supportive stance would require the full manuscript to demonstrate robust performance, methodological transparency, and validated transferability.
+
+## Risk / unsupported claims
+- The claim that contact-map-based classifiers "vastly outperform" Rg- and B22-based classifiers is unsupported without quantitative comparison.
+- The claim of "high accuracy" is unquantified and not verifiable.
+- The claim of "transferable" method across models is asserted without comparative evidence.
+- The assertion that Rg and B22 "can fail" is mentioned but not substantiated with examples or data in the abstract.
+- The overall predictive performance of the method is not assessable from the supplied material.

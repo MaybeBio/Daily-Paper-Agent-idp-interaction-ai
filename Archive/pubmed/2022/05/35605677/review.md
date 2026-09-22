@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors investigate the role of disordered regions flanking the CID domain of NCOA3 in modulating its binding affinity to the NCBD domain of CBP. Using circular dichroism, kinetic measurements, site-directed mutagenesis, and molecular dynamics simulations, they report that flanking regions promote binding additively while retaining disorder in the complex, that the effect is not electrostatic in origin, and that short-lived non-specific hydrophobic contacts underlie the affinity enhancement. They propose that such "fuzzy binding" via flanking regions may represent a general regulatory mechanism.
+- **Visible evidence base** Abstract text only; no experimental data, numerical results, statistical analyses, or methodological details are available for verification
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation parameters, statistical details, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically plausible hypothesis regarding the role of disordered flanking regions in modulating binding affinity. The combination of experimental and computational approaches is appropriate in principle. However, the abstract alone provides insufficient detail to evaluate the robustness of the claims. Key quantitative results, control experiments, and simulation validation are not visible. The central conclusion that short-lived hydrophobic contacts drive affinity modulation is plausible but not verifiable from the supplied material. The broader claim of generalizability is speculative at this stage.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein-protein interaction thermodynamics and kinetics, transcriptional co-activator regulation, and the biophysical basis of "fuzzy" complexes. The work may also interest those developing force fields or simulation approaches for disordered systems, as well as investigators focused on drug discovery targeting disordered regions.
+- **Major strengths** The study addresses a relatively underexplored question, namely the functional contribution of disordered regions outside canonical binding interfaces. The use of combinatorial N- and C-terminal variants to dissect additive contributions is a sensible design. The combination of experimental kinetics, circular dichroism, mutagenesis, and molecular dynamics provides a multi-pronged approach. The finding that affinity enhancement is not electrostatic in origin is a useful negative result that narrows the mechanistic space.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "binding is promoted by short-lived non-specific hydrophobic contacts between the flanking regions and NCBD" based on site-directed mutagenesis and molecular dynamics simulations.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not provide any quantitative data linking specific mutations to changes in affinity or kinetics, nor does it describe how the molecular dynamics simulations were validated or how "short-lived" contacts were defined and distinguished from stable interactions. Without these details, the mechanistic conclusion cannot be assessed.  
+  - **Why it matters** The central mechanistic claim of the paper rests on this combination of mutagenesis and simulation. If the simulations are not experimentally validated or if the mutations do not clearly perturb the proposed hydrophobic contacts, the conclusion would be unsupported.  
+  - **Resolution test** Provide quantitative binding affinities and kinetic rate constants for wild-type and mutant constructs, show that mutations targeting predicted hydrophobic contacts reduce affinity in a manner consistent with simulation predictions, and include simulation validation metrics such as convergence checks and force-field sensitivity analysis.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim scope  
+  - **Claim pointer** The authors state that "flanking regions promote binding in an additive fashion while retaining a large degree of disorder in the complex."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify how "additive" was quantified, what the magnitude of the effect was, or how "large degree of disorder" was measured. Circular dichroism can report on secondary structure but does not directly measure disorder in a complex. The claim of retained disorder requires additional evidence, such as NMR or hydrogen-deuterium exchange.  
+  - **Why it matters** The "fuzzy binding" interpretation depends critically on demonstrating that the flanking regions remain disordered in the bound state. If the circular dichroism data are ambiguous or if the disorder claim is inferred rather than measured, the conceptual framework of the paper weakens.  
+  - **Resolution test** Provide quantitative circular dichroism spectra with deconvolution results, and ideally complementary data from NMR relaxation or chemical shift analysis showing that flanking regions remain dynamic in the complex. Specify how additivity was tested statistically.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The authors propose that "modulation of affinity via flanking regions could represent a general mechanism for functional regulation by intrinsically disordered protein regions."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** This generalization is based on a single protein pair. No comparative data from other systems are presented in the abstract.  
+  - **Why it matters** The broader significance of the work, and its appeal to a wide readership, depends on the plausibility of this generalization. Without supporting evidence from additional systems or a clear mechanistic rationale that would apply broadly, this claim remains speculative.  
+  - **Resolution test** Either temper the claim to be system-specific or provide preliminary data or a well-argued mechanistic framework that supports generalizability.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "fuzzy binding" is used without definition.  
+  - **Required correction** Define the term explicitly in the abstract or refer to a prior definition.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Methodological transparency  
+  - **Affected element** Experimental conditions  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The ionic strength experiments are mentioned but no range of salt concentrations or rationale for the chosen conditions is given.  
+  - **Required correction** Specify the ionic strength range tested and clarify why those conditions were selected.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Quantitative reporting  
+  - **Affected element** Affinity values  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No numerical binding affinities or kinetic constants are reported.  
+  - **Required correction** Include representative values, at least for the wild-type interaction, to allow readers to gauge the magnitude of the effects.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The mechanistic conclusion regarding hydrophobic contacts and the claim of retained disorder in the complex are not verifiable from the abstract. Without these, the core thesis of the paper is not established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The question of flanking disordered regions modulating affinity is relatively novel and not widely explored. The work has the potential to be original, but the abstract does not demonstrate how it advances beyond prior studies on fuzzy complexes.  
+  - **Scientific importance** If the claims are fully supported, the work could be important for understanding how disordered regions tune binding affinity. However, the current evidence base is insufficient to judge importance.  
+  - **Interdisciplinary readership** The topic bridges biophysics, structural biology, and cell signaling. The abstract is written in a way that is accessible to specialists but may be less clear to nonspecialists due to undefined terms such as "fuzzy binding."  
+  - **Technical soundness** The combination of methods is reasonable, but the abstract does not provide enough detail to assess technical rigor. Simulation validation and statistical treatment of additivity are not described.  
+  - **Readability for nonspecialists** The abstract is concise and generally clear, but the mechanistic claims would benefit from more explicit definitions and quantitative context.  
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is sensible, but the abstract alone does not provide sufficient quantitative or methodological detail to support the central claims. If the full manuscript addresses the blocking concerns, the work could become supportive.
+
+## Risk / unsupported claims
+- The claim that short-lived non-specific hydrophobic contacts promote binding is unsupported from the abstract alone.
+- The claim that flanking regions retain a large degree of disorder in the complex is not verifiable from the abstract.
+- The claim of additivity of flanking region contributions is not quantitatively supported.
+- The generalization to a "general mechanism" is speculative without comparative data.
+- The absence of numerical affinity or kinetic data prevents any quantitative assessment of the reported effects.

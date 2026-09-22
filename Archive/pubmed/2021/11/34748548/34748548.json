@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "34748548",
+    "doi": "10.1371/journal.pone.0245405",
+    "title": "Multivalent polymers can control phase boundary, dynamics, and organization of liquid-liquid phase separation."
+  },
+  "content": {
+    "abstract": "Multivalent polymers are a key structural component of many biocondensates. When interacting with their cognate binding proteins, multivalent polymers such as RNA and modular proteins have been shown to influence the liquid-liquid phase separation (LLPS) boundary to both control condensate formation and to influence condensate dynamics after phase separation. Much is still unknown about the function and formation of these condensed droplets, but changes in their dynamics or phase separation are associated with neurodegenerative diseases such as amyotrophic lateral sclerosis (ALS) and Alzheimer's Disease. Therefore, investigation into how the structure of multivalent polymers relates to changes in biocondensate formation and maturation is essential to understanding and treating these diseases. Here, we use a coarse-grain, Brownian Dynamics simulation with reactive binding that mimics specific interactions in order to investigate the difference between non-specific and specific multivalent binding polymers. We show that non-specific binding interactions can lead to much larger changes in droplet formation at lower protein-polymer interaction energies than their specific, valence-limited counterparts. We also demonstrate the effects of solvent conditions and polymer length on phase separation, and we present how modulating binding energy to the polymer can change the organization of a droplet in a three component system of polymer, binding protein, and solvent. Finally, we compare the effects of surface tension and polymer binding on the condensed phase dynamics, and show that both lower protein solubilities and higher attraction/affinity of the protein to the polymer result in slower droplet dynamics. This research will help to better understand experimental systems and provides additional insight into how multivalent polymers can control LLPS.",
+    "keywords": [],
+    "mesh_terms": [
+      "Biophysical Phenomena",
+      "*Computer Simulation",
+      "Humans",
+      "Neurodegenerative Diseases/*metabolism",
+      "Polymers/*chemistry",
+      "Proteins/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zumbro, Emiko",
+        "Alexander-Katz, Alfredo"
+      ],
+      "short_names": [
+        "Zumbro E",
+        "Alexander-Katz A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6825-968X"
+      ],
+      "affiliations": [
+        "Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, MA, United States of America.",
+        "Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, MA, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zumbro, Emiko",
+        "short_name": "Zumbro E",
+        "identifiers": [
+          "0000-0002-6825-968X"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, MA, United States of America."
+        ]
+      },
+      {
+        "full_name": "Alexander-Katz, Alfredo",
+        "short_name": "Alexander-Katz A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, MA, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/09 06:00",
+    "fetched_at": "2026-09-20 06:24:52"
+  },
+  "links": {
+    "cites": [
+      "41718093",
+      "41370336",
+      "38633880",
+      "38167731",
+      "35918061"
+    ],
+    "refs": [
+      "36179193",
+      "33303613",
+      "33091341",
+      "32484438",
+      "32484171",
+      "32482873",
+      "32455197",
+      "32405004",
+      "32302570",
+      "32029630",
+      "32004090",
+      "31634364",
+      "31434954",
+      "31400918",
+      "30999076",
+      "30914480",
+      "30608810",
+      "30506078",
+      "30099028",
+      "30045872",
+      "29961577",
+      "29711117",
+      "29650702",
+      "29602697",
+      "29091028",
+      "29064502",
+      "28935776",
+      "28562589",
+      "28256228",
+      "28225081",
+      "27838525",
+      "27374333",
+      "27250332",
+      "27212236",
+      "27051975",
+      "26412307",
+      "26406374",
+      "26317470",
+      "25747659",
+      "25592540",
+      "24880268",
+      "24003126",
+      "23455423",
+      "22398450",
+      "22181650",
+      "19659248",
+      "19323490",
+      "11752440",
+      "9302288",
+      "7535921",
+      "7518244",
+      "347575"
+    ],
+    "similar": [
+      "34748548",
+      "33091341",
+      "33672806",
+      "23912807",
+      "36471564",
+      "34866377",
+      "36444977",
+      "29472250",
+      "29511089",
+      "29091028",
+      "29526694",
+      "36499553",
+      "35459796",
+      "34431665",
+      "37972831",
+      "34787357",
+      "26179211",
+      "36227467",
+      "35943083",
+      "37446777",
+      "32828466",
+      "36227468",
+      "37453878",
+      "35721931",
+      "33929866",
+      "32584357",
+      "31400918",
+      "34102212",
+      "31634364",
+      "39171763",
+      "32484438",
+      "33515602",
+      "30914480",
+      "34787417",
+      "30948513",
+      "35198903",
+      "32426986",
+      "35181198",
+      "34156864",
+      "29712961",
+      "38322526",
+      "33704061",
+      "34624313",
+      "33081049",
+      "36310223",
+      "33549703",
+      "38526948",
+      "37009800",
+      "33076213",
+      "25019806",
+      "37189373",
+      "36890881",
+      "35643628",
+      "36030420",
+      "32132204",
+      "31506351",
+      "32096048",
+      "36310222",
+      "33955104",
+      "35628304",
+      "34352244",
+      "32169484",
+      "33599256",
+      "33212185",
+      "36771812",
+      "33300985",
+      "32455197",
+      "16852912",
+      "34291921",
+      "33765580",
+      "37130459",
+      "33997539",
+      "33453922",
+      "10949473",
+      "29738068",
+      "34737230",
+      "38251748",
+      "33836082",
+      "34291086",
+      "33139563",
+      "35381286",
+      "34233002",
+      "18729531",
+      "34391803",
+      "35293386",
+      "35982902",
+      "38441598",
+      "36837726",
+      "32175915",
+      "39328748",
+      "38746247",
+      "38745698",
+      "38641666",
+      "38089102",
+      "38039270",
+      "37906740",
+      "39269770"
+    ],
+    "review": [
+      "34748548",
+      "35459796",
+      "32828466",
+      "37453878",
+      "30914480",
+      "30948513",
+      "35181198",
+      "33549703",
+      "37009800",
+      "36890881",
+      "32096048",
+      "35628304",
+      "32169484",
+      "33599256",
+      "33300985",
+      "34291921",
+      "33765580",
+      "33997539",
+      "34291086",
+      "35982902",
+      "38441598",
+      "36837726"
+    ],
+    "pmc": [
+      "8575181"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/degenerativenervediseases.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Degenerative Nerve Diseases"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0245405",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34748548/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34748548",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "36416224",
+    "doi": "10.7554/eLife.80217",
+    "title": "Multivalency, autoinhibition, and protein disorder in the regulation of interactions of dynein intermediate chain with dynactin and the nuclear distribution protein."
+  },
+  "content": {
+    "abstract": "As the only major retrograde transporter along microtubules, cytoplasmic dynein plays crucial roles in the intracellular transport of organelles and other cargoes. Central to the function of this motor protein complex is dynein intermediate chain (IC), which binds the three dimeric dynein light chains at multivalent sites, and dynactin p150(Glued) and nuclear distribution protein (NudE) at overlapping sites of its intrinsically disordered N-terminal domain. The disorder in IC has hindered cryo-electron microscopy and X-ray crystallography studies of its structure and interactions. Here we use a suite of biophysical methods to reveal how multivalent binding of the three light chains regulates IC interactions with p150(Glued) and NudE. Using IC from Chaetomium thermophilum, a tractable species to interrogate IC interactions, we identify a significant reduction in binding affinity of IC to p150(Glued) and a loss of binding to NudE for constructs containing the entire N-terminal domain as well as for full-length constructs when compared to the tight binding observed with short IC constructs. We attribute this difference to autoinhibition caused by long-range intramolecular interactions between the N-terminal single alpha-helix of IC, the common site for p150(Glued), and NudE binding, and residues closer to the end of the N-terminal domain. Reconstitution of IC subcomplexes demonstrates that autoinhibition is differentially regulated by light chains binding, underscoring their importance both in assembly and organization of IC, and in selection between multiple binding partners at the same site.",
+    "keywords": [
+      "NMR",
+      "dynein",
+      "molecular biophysics",
+      "multivalency",
+      "p150 Glued",
+      "protein disorder",
+      "protein interactions",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "*Dyneins/metabolism",
+      "Dynactin Complex/metabolism",
+      "*Microtubule-Associated Proteins/metabolism",
+      "Nuclear Proteins/metabolism",
+      "Cryoelectron Microscopy",
+      "Microtubules/metabolism",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jara, Kayla A",
+        "Loening, Nikolaus M",
+        "Reardon, Patrick N",
+        "Yu, Zhen",
+        "Woonnimani, Prajna",
+        "Brooks, Coban",
+        "Vesely, Cat H",
+        "Barbar, Elisar J"
+      ],
+      "short_names": [
+        "Jara KA",
+        "Loening NM",
+        "Reardon PN",
+        "Yu Z",
+        "Woonnimani P",
+        "Brooks C",
+        "Vesely CH",
+        "Barbar EJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0406-2957",
+        "ORCID: 0000-0002-5074-6906",
+        "ORCID: 0000-0003-4892-5259"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States.",
+        "Department of Chemistry, Lewis & Clark College, Portland, United States.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States.",
+        "Oregon State University NMR Facility, Corvallis, United States.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jara, Kayla A",
+        "short_name": "Jara KA",
+        "identifiers": [
+          "0000-0003-0406-2957"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States."
+        ]
+      },
+      {
+        "full_name": "Loening, Nikolaus M",
+        "short_name": "Loening NM",
+        "identifiers": [
+          "0000-0002-5074-6906"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Lewis & Clark College, Portland, United States."
+        ]
+      },
+      {
+        "full_name": "Reardon, Patrick N",
+        "short_name": "Reardon PN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States.",
+          "Oregon State University NMR Facility, Corvallis, United States."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhen",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States."
+        ]
+      },
+      {
+        "full_name": "Woonnimani, Prajna",
+        "short_name": "Woonnimani P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States."
+        ]
+      },
+      {
+        "full_name": "Brooks, Coban",
+        "short_name": "Brooks C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States."
+        ]
+      },
+      {
+        "full_name": "Vesely, Cat H",
+        "short_name": "Vesely CH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States."
+        ]
+      },
+      {
+        "full_name": "Barbar, Elisar J",
+        "short_name": "Barbar EJ",
+        "identifiers": [
+          "0000-0003-4892-5259"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2022 Nov 23",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/24 06:00",
+    "fetched_at": "2026-09-20 16:56:57"
+  },
+  "links": {
+    "cites": [
+      "41542604",
+      "41224739",
+      "40713938",
+      "40107617",
+      "38391943",
+      "37083599"
+    ],
+    "refs": [
+      "36280744",
+      "34656330",
+      "34273400",
+      "33351266",
+      "32814057",
+      "32613009",
+      "32139510",
+      "31266884",
+      "31251384",
+      "30455356",
+      "30395287",
+      "30091878",
+      "29662141",
+      "29420470",
+      "29306779",
+      "29064600",
+      "28850609",
+      "28602352",
+      "28273070",
+      "28162951",
+      "26773477",
+      "26652654",
+      "26253171",
+      "26226419",
+      "25814576",
+      "25796327",
+      "25751425",
+      "25419851",
+      "25308773",
+      "25266423",
+      "25263009",
+      "24986880",
+      "24871939",
+      "24773235",
+      "24256262",
+      "23577064",
+      "23526461",
+      "23435576",
+      "23329690",
+      "22956769",
+      "22946863",
+      "22669947",
+      "22373868",
+      "21931160",
+      "21911489",
+      "21282465",
+      "21056974",
+      "20974845",
+      "20488990",
+      "20472935",
+      "19935668",
+      "19759397",
+      "19417004",
+      "19363495",
+      "18784752",
+      "18619997",
+      "17964931",
+      "17494871",
+      "17406547",
+      "16949604",
+      "15915565",
+      "15815974",
+      "15473967",
+      "15473859",
+      "14565986",
+      "12077152",
+      "11914076",
+      "11381529",
+      "11340075",
+      "11148215",
+      "11148209",
+      "10692345",
+      "9531547",
+      "9095674",
+      "8616269",
+      "8520220",
+      "7844818",
+      "7844817",
+      "7664054",
+      "1836789"
+    ],
+    "similar": [
+      "36416224",
+      "22669947",
+      "32814057",
+      "21931160",
+      "34273400",
+      "11425872",
+      "23577064",
+      "17325206",
+      "12119357",
+      "23874158",
+      "11071907",
+      "25059720",
+      "25419851",
+      "31445682",
+      "11340075",
+      "10564267",
+      "25185702",
+      "10921911",
+      "36711700",
+      "37730751",
+      "9342383",
+      "22106867",
+      "38547289",
+      "20479466",
+      "23985322",
+      "11571270",
+      "7593168",
+      "32238103",
+      "29490687",
+      "11112706",
+      "36125250",
+      "30615611",
+      "34014309",
+      "17283181",
+      "38758395",
+      "28162951",
+      "26253171",
+      "22279557",
+      "30143531",
+      "10318847",
+      "22887640",
+      "19228793",
+      "32023147",
+      "16772339",
+      "22542187",
+      "16343429",
+      "27482052",
+      "21911489",
+      "19293377",
+      "12686597",
+      "28406398",
+      "29420470",
+      "17449914",
+      "18922795",
+      "8824315",
+      "12388762",
+      "14565986",
+      "12902405",
+      "18221362",
+      "15375157",
+      "16731011",
+      "19935774",
+      "28572117",
+      "21633107",
+      "22777741",
+      "17532294",
+      "9677391",
+      "25751425",
+      "9348543",
+      "11889140",
+      "28248450",
+      "25774020",
+      "10601339",
+      "17352745",
+      "9786090",
+      "29416113",
+      "19061245",
+      "27365401",
+      "20679239",
+      "10212138",
+      "36602690",
+      "20394748",
+      "8522607",
+      "28320824",
+      "15381688",
+      "21915335",
+      "10226031",
+      "11509576",
+      "24829381",
+      "36071160",
+      "29401420",
+      "24025714",
+      "28576829",
+      "14600259",
+      "19759397",
+      "39214619",
+      "30702276",
+      "20298435",
+      "22956769",
+      "25342295",
+      "16474384",
+      "26773477",
+      "31501589",
+      "10545494",
+      "9722614",
+      "31320392",
+      "10525538",
+      "38240798",
+      "39276769",
+      "39115447",
+      "35346642",
+      "29944116",
+      "10704445",
+      "39366980",
+      "39024292",
+      "37292665",
+      "33063666",
+      "39416085",
+      "35312477",
+      "39305956",
+      "30674581",
+      "37577480",
+      "36909483",
+      "39071311",
+      "39416051",
+      "36710643",
+      "37083599"
+    ],
+    "review": [
+      "36416224",
+      "28248450"
+    ],
+    "pmc": [
+      "9771362"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36416224/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36416224",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.80217",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

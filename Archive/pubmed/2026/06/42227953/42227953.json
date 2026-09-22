@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "42227953",
+    "doi": "10.1002/advs.75904",
+    "title": "Intramolecular Interactions between Folded and Disordered Regions Shape Ubiquilin Structure and Function."
+  },
+  "content": {
+    "abstract": "Multidomain proteins consist of folded domains connected by intrinsically disordered regions. The flexibility afforded by the disordered regions, coupled to the structure and surface chemistry of folded regions, allows for unique structural and functional features in these proteins. Yet, how intramolecular interactions between disordered regions and folded domains affect multidomain protein structure and function remains poorly understood. Here, we use a range of biophysical and computational approaches to measure the intramolecular interactions between the folded domains and disordered regions of ubiquilins (UBQLNs), essential components of protein quality control that shuttle poly-ubiquitinated client proteins to proteasomal degradation or autophagy. Starting with the yeast UBQLN homolog Dsk2, we find that interactions between two folded domains located at the opposite ends of UBQLN bring about a closed topology. The prevalence of this closed topology, however, is modulated by intramolecular interactions involving the disordered regions and folded STI1 domain at the center of the protein. Simulations and analysis of UBQLN homologs across multiple eukaryotic lineages reveal that these disordered:folded domain interactions exist in some UBQLN homologs but are absent in others, indicating possible fundamental differences in function among proteins with the same multidomain architecture.",
+    "keywords": [
+      "IDR:folded domain interactions",
+      "NMR",
+      "SAXS",
+      "Ubiquilin",
+      "coarse grain models",
+      "intramolecular interactions",
+      "intrinsically disordered proteins",
+      "molecular dynamics simulations",
+      "multidomain proteins"
+    ],
+    "mesh_terms": [
+      "*Saccharomyces cerevisiae Proteins/chemistry/metabolism/genetics",
+      "Protein Folding",
+      "*Autophagy-Related Proteins/chemistry/metabolism/genetics",
+      "*Cell Cycle Proteins/chemistry/metabolism/genetics",
+      "Saccharomyces cerevisiae/metabolism/genetics",
+      "Protein Domains",
+      "Ubiquitins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Niblo, Jessica K",
+        "Acharya, Nirbhik",
+        "Watkins, Maxwell B",
+        "Castaneda, Carlos A",
+        "Sukenik, Shahar"
+      ],
+      "short_names": [
+        "Niblo JK",
+        "Acharya N",
+        "Watkins MB",
+        "Castaneda CA",
+        "Sukenik S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9378-6097",
+        "ORCID: 0000-0003-4591-5215",
+        "ORCID: 0000-0003-4559-2049",
+        "ORCID: 0000-0001-9634-0867",
+        "ORCID: 0000-0003-3855-9574"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Syracuse University, Syracuse, New York, USA.",
+        "Department of Chemistry, Syracuse University, Syracuse, New York, USA.",
+        "Biophysics Collaborative Access Team (BioCAT), Department of Biology, Illinois Institute of Technology, Chicago, Illinois, USA.",
+        "Department of Chemistry, Syracuse University, Syracuse, New York, USA.",
+        "Department of Biology, Syracuse University, Syracuse, New York, USA.",
+        "Department of Chemistry, Syracuse University, Syracuse, New York, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Niblo, Jessica K",
+        "short_name": "Niblo JK",
+        "identifiers": [
+          "0000-0001-9378-6097"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Syracuse University, Syracuse, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Acharya, Nirbhik",
+        "short_name": "Acharya N",
+        "identifiers": [
+          "0000-0003-4591-5215"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Syracuse University, Syracuse, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Watkins, Maxwell B",
+        "short_name": "Watkins MB",
+        "identifiers": [
+          "0000-0003-4559-2049"
+        ],
+        "affiliations": [
+          "Biophysics Collaborative Access Team (BioCAT), Department of Biology, Illinois Institute of Technology, Chicago, Illinois, USA."
+        ]
+      },
+      {
+        "full_name": "Castañeda, Carlos A",
+        "short_name": "Castañeda CA",
+        "identifiers": [
+          "0000-0001-9634-0867"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Syracuse University, Syracuse, New York, USA.",
+          "Department of Biology, Syracuse University, Syracuse, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Sukenik, Shahar",
+        "short_name": "Sukenik S",
+        "identifiers": [
+          "0000-0003-3855-9574"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Syracuse University, Syracuse, New York, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/02 12:47",
+    "fetched_at": "2026-09-18 03:49:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41862640",
+      "41673446",
+      "40042172",
+      "39755236",
+      "39412378",
+      "38408252",
+      "38041404",
+      "37962385",
+      "37957331",
+      "37645312",
+      "37501540",
+      "37201526",
+      "36379955",
+      "36265902",
+      "35675815",
+      "35637307",
+      "35177069",
+      "34931046",
+      "34716273",
+      "34480923",
+      "34303077",
+      "34265844",
+      "33620121",
+      "33414510",
+      "33078839",
+      "32151887",
+      "32029630",
+      "31659043",
+      "31270472",
+      "30846599",
+      "30807924",
+      "29526694",
+      "29074623",
+      "28445744",
+      "28075048",
+      "27919072",
+      "26876099",
+      "26851278",
+      "25531225",
+      "24740064",
+      "24674348",
+      "24462201",
+      "24115198",
+      "23972848",
+      "22398450",
+      "20064467",
+      "18234089",
+      "16421449",
+      "16159959",
+      "15837191",
+      "15815974",
+      "15242647",
+      "14645257",
+      "11805328",
+      "10675567",
+      "8570649",
+      "8520220",
+      "8254673",
+      "7844818",
+      "7664054",
+      "6502707"
+    ],
+    "similar": [
+      "42227953",
+      "34029402",
+      "41673446",
+      "40161686",
+      "42427316",
+      "32965492",
+      "23912807",
+      "31352862",
+      "19585546",
+      "27170182",
+      "27396824",
+      "39499823",
+      "38041404",
+      "41862640",
+      "27404361",
+      "33361159",
+      "20427284",
+      "39503309",
+      "39412378",
+      "16421449",
+      "33484718",
+      "29526694",
+      "35204709",
+      "23227221",
+      "21763274",
+      "36933821",
+      "31807700",
+      "29114050",
+      "34273246",
+      "42370432",
+      "42636357",
+      "18831774",
+      "34557680",
+      "32553192",
+      "40767353",
+      "41491828",
+      "29734798",
+      "24879155",
+      "40185744",
+      "37632170",
+      "41954606",
+      "24027208",
+      "23963781",
+      "19148225",
+      "38260441",
+      "32809042",
+      "28118060",
+      "16140271",
+      "38883712",
+      "29930177",
+      "12665577",
+      "41991555",
+      "20506404",
+      "40997106",
+      "30878482",
+      "26790343",
+      "27345149",
+      "23716602",
+      "23418572",
+      "40467883",
+      "23754493",
+      "40990245",
+      "34439881",
+      "18668512",
+      "35802394",
+      "29735687",
+      "37609146",
+      "25998554",
+      "40987384",
+      "21304520",
+      "27879200",
+      "35290420",
+      "42475469",
+      "40738115",
+      "29548755",
+      "26055717",
+      "40912879",
+      "40574713",
+      "30099026",
+      "26450923",
+      "31141701",
+      "39617253",
+      "40857360",
+      "21212361",
+      "29716994",
+      "39920309",
+      "41725507",
+      "33941673",
+      "29632904",
+      "19008353",
+      "37894717",
+      "19112176",
+      "39353735",
+      "16606443",
+      "22660624",
+      "38761906",
+      "15167887",
+      "39885130",
+      "25631540",
+      "15331663"
+    ],
+    "review": [
+      "42227953",
+      "32965492",
+      "19585546",
+      "33361159",
+      "35204709",
+      "34273246",
+      "24027208",
+      "35802394",
+      "40912879",
+      "30099026",
+      "41725507"
+    ],
+    "pmc": [
+      "13336661"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42227953/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

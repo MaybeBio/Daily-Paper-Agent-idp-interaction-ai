@@ -1,0 +1,481 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.01.17.524382",
+  "title": "GraphGPSM: a global scoring model for protein structure using graph neural networks",
+  "doi": "10.1101/2023.01.17.524382",
+  "abstract": "The scoring models used for protein structure modeling and ranking are mainly divided into unified field and protein-specific scoring functions. Although protein structure prediction has made tremendous progress since CASP14, the modeling accuracy still cannot meet the requirements to a certain extent. Especially, accurate modeling of multi-domain and orphan proteins remains a challenge. Therefore, an accurate and efficient protein scoring model should be developed urgently to guide the protein structure folding or ranking through deep learning. In this work, we propose a protein structure global scoring model based on equivariant graph neural network (EGNN), named GraphGPSM, to guide protein structure modeling and ranking. We construct an EGNN architecture, and a message passing mechanism is designed to update and transmit information between nodes and edges of the graph. Finally, the global score of the protein model is output through a multilayer perceptron. Residue-level ultrafast shape recognition is used to describe the relationship between residues and the overall structure topology, and distance and direction encoded by Gaussian radial basis functions are designed to represent the overall topology of the protein backbone. These two features are combined with Rosetta energy terms, backbone dihedral angles, and inter-residue distance and orientations to represent the protein model and embedded into the nodes and edges of the graph neural network. The experimental results on the CASP13, CASP14, and CAMEO test sets show that the scores of our developed GraphGPSM have a strong correlation with the TM-score of the models, which are significantly better than those of the unified field score function REF2015 and the state-of-the-art local lDDT-based scoring models ModFOLD8, ProQ3D, and DeepAccNet etc. The modeling experimental results on 484 test proteins demonstrate that GraphGPSM can greatly improve the modeling accuracy. GraphGPSM is further used to model 35 orphan proteins and 57 multi-domain proteins. The results show that the average TM-score of the models predicted by GraphGPSM is 13.2% and 7.1% higher than that of the models predicted by AlphaFold2. GraphGPSM also participates in CASP15 and achieves competitive performance in global accuracy estimation.",
+  "authors": [
+    "Guangxing He",
+    "Jun Liu",
+    "Dong Liu",
+    "Zhang Guijun"
+  ],
+  "published_date": "2023-01-19",
+  "updated_date": "2023-01-19T21:40:20Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.01.17.524382",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.01.17.524382.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:35:10Z",
+        "timestamp": 1768505710172,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            19
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 37,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The scoring models used for protein structure modeling and ranking are mainly divided into unified field and protein-specific scoring functions. Although protein structure prediction has made tremendous progress since CASP14, the modeling accuracy still cannot meet the requirements to a certain extent. Especially, accurate modeling of multi-domain and orphan proteins remains a challenge. Therefore, an accurate and efficient protein scoring model should be developed urgently to guide the protein structure folding or ranking through deep learning. In this work, we propose a protein structure global scoring model based on equivariant graph neural network (EGNN), named GraphGPSM, to guide protein structure modeling and ranking. We construct an EGNN architecture, and a message passing mechanism is designed to update and transmit information between nodes and edges of the graph. Finally, the global score of the protein model is output through a multilayer perceptron. Residue-level ultrafast shape recognition is used to describe the relationship between residues and the overall structure topology, and distance and direction encoded by Gaussian radial basis functions are designed to represent the overall topology of the protein backbone. These two features are combined with Rosetta energy terms, backbone dihedral angles, and inter-residue distance and orientations to represent the protein model and embedded into the nodes and edges of the graph neural network. The experimental results on the CASP13, CASP14, and CAMEO test sets show that the scores of our developed GraphGPSM have a strong correlation with the TM-score of the models, which are significantly better than those of the unified field score function REF2015 and the state-of-the-art local lDDT-based scoring models ModFOLD8, ProQ3D, and DeepAccNet etc. The modeling experimental results on 484 test proteins demonstrate that GraphGPSM can greatly improve the modeling accuracy. GraphGPSM is further used to model 35 orphan proteins and 57 multi-domain proteins. The results show that the average TM-score of the models predicted by GraphGPSM is 13.2% and 7.1% higher than that of the models predicted by AlphaFold2. GraphGPSM also participates in CASP15 and achieves competitive performance in global accuracy estimation.</jats:p>",
+      "DOI": "10.1101/2023.01.17.524382",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            19
+          ]
+        ],
+        "date-time": "2023-01-19T21:40:20Z",
+        "timestamp": 1674164420000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "GraphGPSM: a global scoring model for protein structure using graph neural networks"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Guangxing",
+          "family": "He",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jun",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Dong",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhang",
+          "family": "Guijun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0033583503003901"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "775",
+          "DOI": "10.1038/s43588-022-00378-y",
+          "article-title": "Predicting protein structure from single sequences",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Nature Computational Science"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.3",
+          "first-page": "536",
+          "article-title": "Underestimation-Assisted Global-Local Cooperative Differential Evolution and the Application to Protein Structure Prediction",
+          "volume": "24",
+          "year": "2020",
+          "journal-title": "IEEE transactions on evolutionary computation"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1288",
+          "DOI": "10.1109/TCBB.2016.2566617",
+          "article-title": "Enhancing Protein Conformational Space Sampling Using Distance Profile-Guided Differential Evolution",
+          "volume": "14",
+          "year": "2017",
+          "journal-title": "IEEE/ACM transactions on computational biology and bioinformatics"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "871",
+          "DOI": "10.1126/science.abj8754",
+          "article-title": "Accurate prediction of protein structures and interactions using a three-track neural network",
+          "volume": "373",
+          "year": "2021",
+          "journal-title": "Science (American Association for the Advancement of Science)"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "3031",
+          "DOI": "10.1021/acs.jctc.7b00125",
+          "article-title": "The Rosetta All-Atom Energy Function for Macromolecular Modeling and Design",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "100",
+          "DOI": "10.1002/prot.22588",
+          "article-title": "I-TASSER: Fully automated protein structure prediction in CASP8, Proteins, structure",
+          "volume": "77",
+          "year": "2009",
+          "journal-title": "function, and bioinformatics"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1496",
+          "DOI": "10.1073/pnas.1914677117",
+          "article-title": "Improved protein structure prediction using predicted interresidue orientations",
+          "volume": "117",
+          "year": "2020",
+          "journal-title": "Proceedings of the National Academy of Sciences - PNAS"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "99",
+          "DOI": "10.1093/bioinformatics/btab620",
+          "article-title": "A de novo protein structure prediction by iterative partition sampling, topology adjustment and residue-level distance deviation optimization",
+          "volume": "38",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1895",
+          "DOI": "10.1093/bioinformatics/btac056",
+          "article-title": "DeepUMQA: ultrafast shape recognition-based protein model quality assessment using deep learning",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu J , Zhao K , Zhang G. Improved model quality assessment using sequence and structural information by enhanced deep neural networks, Briefings in bioinformatics 2022.",
+          "DOI": "10.1101/2022.08.12.503819"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1340",
+          "DOI": "10.1038/s41467-021-21511-x",
+          "article-title": "Improved protein structure refinement guided by deep learning based accuracy estimation",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1694",
+          "DOI": "10.1038/s41467-022-29480-5",
+          "article-title": "Improved prediction of protein-protein interactions using AlphaFold2",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1061"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btg224"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2013.08.005"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.19",
+          "first-page": "5.6.1",
+          "article-title": "Comparative Protein Structure Modeling Using MODELLER",
+          "volume": "54",
+          "year": "2016",
+          "journal-title": "Current protocols in bioinformatics"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu J , He G-X , Zhao K-L et al. De novo protein structure prediction by incremental inter-residue geometries prediction and model quality assessment using deep learning, bioRxiv 2022:2022.2001.2011.475831.",
+          "DOI": "10.1101/2022.01.11.475831"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "65",
+          "DOI": "10.4155/fmc.10.280",
+          "article-title": "Ultrafast shape recognition: method and applications",
+          "volume": "3",
+          "year": "2011",
+          "journal-title": "Future medicinal chemistry"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.22",
+          "unstructured": "Gilmer J , Schoenholz SS , Riley PF et al. Neural message passing for quantum chemistry. p. 2053–2070."
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.23",
+          "unstructured": "Satorras VcG , Hoogeboom E , Welling M. E (n) equivariant graph neural networks. In: International Conference on Machine Learning. 2021, p. 9323–9332. PMLR."
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.1007/978-1-0716-0708-4_4",
+          "article-title": "Estimating the Quality of 3D Protein Models Using the ModFOLD7 Server",
+          "volume": "2165",
+          "year": "2020",
+          "journal-title": "Methods in molecular biology"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "1578",
+          "DOI": "10.1093/bioinformatics/btw819",
+          "article-title": "ProQ3D: improved model quality assessments using deep learning",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.26",
+          "first-page": "1131",
+          "article-title": "VoroMQA: Assessment of protein structure quality using interatomic contact areas, Proteins, structure, function",
+          "volume": "85",
+          "year": "2017",
+          "journal-title": "bioinformatics"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab321"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa455"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.29",
+          "first-page": "261",
+          "article-title": "QMEAN: A comprehensive scoring function for model quality assessment, Proteins, structure, function",
+          "volume": "71",
+          "year": "2008",
+          "journal-title": "bioinformatics"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "33509",
+          "DOI": "10.1038/srep33509",
+          "article-title": "ProQ3: Improved model quality assessments using Rosetta energy terms",
+          "volume": "6",
+          "year": "2016",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx332"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rohl CA , Strauss CEM , Misura KMS et al. Protein Structure Prediction Using Rosetta. In: Brand L. , Johnson M. L. eds). Methods in Enzymology. SAN DIEGO: Elsevier Science & Technology, 2004, 66–93.",
+          "DOI": "10.1016/S0076-6879(04)83004-0"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "665",
+          "DOI": "10.1038/s41592-020-0848-2",
+          "article-title": "Macromolecular modeling and design in Rosetta: recent methods and frameworks",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "1263",
+          "DOI": "10.1007/s12045-022-1419-x",
+          "article-title": "Equation of State Calculations by Fast Computing Machines",
+          "volume": "27",
+          "year": "2022",
+          "journal-title": "Resonance"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Peng C-X , Zhou X-G , Xia Y-H et al. Structural analogue-based protein structure domain assembly assisted by deep learning, Bioinformatics (Oxford, England) 2022.",
+          "DOI": "10.1101/2022.03.07.483151"
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.36",
+          "unstructured": "Kailong Z. et al. (2022) Proteins structure prediction based on enhanced remote homologous template recognition. In: Fifieenth Meeting of Critical Assessment of Techniques for Proteins Structure Prediction, pp. 120, Antalya, Turkey."
+        },
+        {
+          "key": "2023012113450550000_2023.01.17.524382v1.37",
+          "unstructured": "Jun L. et al. (2022) Deep learning-based protein structure prediction and complex model quality assessment. In: Fifieenth Meeting of Critical Assessment of Techniques for Proteins Structure Prediction, pp. 118, Antalya, Turkey."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.01.17.524382",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:09:13Z",
+        "timestamp": 1768450153000
+      },
+      "score": 57.374424,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.01.17.524382"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            19
+          ]
+        ]
+      },
+      "references-count": 37,
+      "URL": "https://doi.org/10.1101/2023.01.17.524382",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bib/bbad219",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

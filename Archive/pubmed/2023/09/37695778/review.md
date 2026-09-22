@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, conclusion, materials and methods) and metadata (title, authors, journal, date, DOI/ID, URL)
+- **Assessment boundary** Scientific and technical evaluation of the software package OpenABC as described in the manuscript, including claims about functionality, performance, validation, and usability
+- **Shared manuscript claim summary** The authors present OpenABC, a Python-based software package integrated with OpenMM, that simplifies setup and execution of coarse-grained (CG) simulations of biomolecular condensates using multiple force fields (HPS, Mpipi, SMOG, MOFF, MRG-CG DNA, 3SPN). They claim GPU-accelerated performance rivaling hundreds of CPUs, provide validation against existing implementations, and offer tools for CG-to-all-atom conversion.
+- **Visible evidence base** Abstract, Introduction, Results (four subsections), Conclusion, Materials and methods (two subsections), references to supporting information (S1 Text, Tables A-N, Figs A-C)
+- **Missing materials affecting confidence** Supporting information (S1 Text, all tables and figures referenced) not provided; code repository and tutorials not accessible; benchmark raw data not shown; detailed force field parameters not visible
+
+## Reviewer
+- **Overall assessment** The manuscript describes a timely and potentially valuable software tool for the condensate simulation community. The integration of multiple CG force fields into a single OpenMM-based framework with GPU support is a meaningful contribution. However, the evidence presented in the main text is largely qualitative, with quantitative validation and performance data relegated to supporting information that was not available for review. The performance claims, while plausible, are not fully substantiated from the visible material. The validation strategy is reasonable but limited in scope. Overall, the work is promising but the case for broad utility and robustness is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biophysicists and soft matter physicists studying phase separation and biomolecular condensates; developers of MD simulation tools; experimental biologists seeking accessible simulation methods to interpret condensate-related data. The software lowers the barrier to entry for CG simulations, which could accelerate hypothesis testing across these communities.
+- **Major strengths** (1) Addresses a real gap in software usability for CG condensate simulations. (2) Integration of multiple force fields in one framework facilitates cross-validation and benchmarking. (3) GPU acceleration via OpenMM is a practical advantage, especially for slab geometries where CPU parallelization is inefficient. (4) Provision of tutorials and Python scripting lowers the entry barrier. (5) Validation against multiple existing engines (GROMACS, HOOMD-Blue, LAMMPS) is a commendable approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "OpenMM single GPU performance matches GROMACS with hundreds of CPUs in the first four systems" and "OpenABC produces statistically indistinguishable results on the phase behavior of protein condensates as in previous studies"
+  - **Evidence pointer** Fig 3B; Tables J-M in S1 Text; Fig 5; Tables N-P in S1 Text
+  - **Concern** The quantitative performance comparison (Fig 3B) and the validation results (Tables J-M, N-P) are only referenced, not shown in the main text or available in the provided material. Without these data, the central claims of efficiency and accuracy cannot be independently assessed. The statement "statistically indistinguishable" requires statistical analysis that is not visible.
+  - **Why it matters** The core value proposition of OpenABC rests on (a) performance parity with established engines and (b) faithful reproduction of known phase behavior. If these are not demonstrated with accessible data, the claims are unverifiable.
+  - **Resolution test** Provide the benchmark data (e.g., wall-clock times, speedup curves) and validation results (energy comparisons, phase diagram fits with error bars) either in the main text or as accessible supplementary material. Include statistical tests supporting the "indistinguishable" claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We further introduced utility functions to reconstruct atomistic structures from coarse-grained protein configurations with only α carbons. This functionality relies on the software 'reconstruct atomic model from reduced representation (REMO)'"
+  - **Evidence pointer** Results section "Simplified setup of condensate simulations"; Fig 6
+  - **Concern** The CG-to-all-atom conversion is presented as a key feature, but the description is brief. The proof-of-principle (Fig 6) shows energy relaxation, but no assessment of structural fidelity (e.g., side-chain packing, backbone geometry, comparison to experimental structures) is provided. The limitations of REMO-based reconstruction for condensate systems (e.g., large, disordered assemblies) are not discussed.
+  - **Why it matters** Users may rely on this feature for downstream all-atom simulations. If the conversion produces poor structures, subsequent simulations could be misleading. The current evidence is insufficient to establish the reliability of this workflow.
+  - **Resolution test** Provide a more detailed validation of the conversion, including structural metrics (e.g., RMSD to known structures, Ramachandran plots, side-chain quality) and a discussion of limitations. Ideally, compare a converted condensate structure to an experimentally derived or independently simulated all-atom condensate.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and generalizability
+  - **Claim pointer** "OpenABC implements several existing force fields for coarse-grained (CG) modeling of protein, RNA, and DNA molecules" and "the Mpipi force field can be used to simulate RNA molecules"
+  - **Evidence pointer** Results section "Flexible force field selections for Biomolecular simulations"
+  - **Concern** The manuscript claims RNA support via Mpipi, but no RNA-specific validation or example is shown. The nucleic acid validation focuses on DNA (persistence length). The statement about RNA appears to be an assertion without supporting evidence in the visible material.
+  - **Why it matters** RNA is a critical component of many condensates (e.g., stress granules, nucleoli). If RNA simulations are not validated, users may encounter unexpected behavior. The claim of RNA support should be backed by at least a basic validation.
+  - **Resolution test** Add a validation example for RNA (e.g., a simple RNA hairpin or duplex) showing reasonable structural properties, or clearly state the level of support and any known limitations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Fig 2 (example code)
+  - **Evidence pointer** Results section "Simplified setup of condensate simulations"
+  - **Issue** The example code is described as "about 20 lines," but the actual code is not shown in the provided text. It would be helpful to see the code to assess the claimed simplicity.
+  - **Required correction** Include the example code in the main text or as a supplementary figure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation parameters
+  - **Evidence pointer** Materials and methods section "Details of molecular dynamics simulations"
+  - **Issue** The manuscript states "Six independent replicas were simulated to maintain temperatures at 300 K, 315.79 K, 333.33 K, 352.94 K, 375.00 K, and 400 K" but does not specify how these temperatures were chosen (e.g., geometric spacing) or whether replica exchange acceptance rates were monitored.
+  - **Required correction** Briefly justify the temperature selection and report acceptance rates or a reference to where this information can be found.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Force field combination rules
+  - **Evidence pointer** Results section "Flexible force field selections for Biomolecular simulations"
+  - **Issue** The manuscript mentions "care needs to be taken when modeling cross interactions" and lists validated combinations, but does not explain what happens if a user attempts an unvalidated combination. Will the software warn the user or allow it silently?
+  - **Required correction** Clarify the behavior of the software for unvalidated force field combinations, and whether any safeguards are in place.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Software availability
+  - **Evidence pointer** Results section "Simplified setup of condensate simulations"
+  - **Issue** The manuscript mentions "Tutorials in Jupyter Notebook format are available online at the OpenABC GitHub repository" but does not provide the repository URL or a DOI for the software version used.
+  - **Required correction** Provide a persistent identifier (e.g., Zenodo DOI) and the repository URL in the manuscript.
+- **Technical failings that need to be addressed before the case is established** (1) Quantitative performance and validation data not visible in the provided material (R1-M1). (2) Insufficient validation of the CG-to-all-atom conversion feature (R1-M2). (3) Unsubstantiated claim of RNA support (R1-M3).
+- **Assessment against Nature-style criteria** Originality: The software fills a niche by unifying multiple CG force fields in an accessible OpenMM-based framework; this is incremental but useful, not paradigm-shifting. Scientific importance: Potentially high for the condensate community, as it could standardize and simplify simulations, but the impact depends on the robustness and breadth of validation, which is not fully demonstrated. Interdisciplinary readership: The tool could appeal to biophysicists, chemists, and biologists, but the manuscript is written primarily for a computational audience; the biological motivation is clear but could be strengthened. Technical soundness: The approach is sound in principle, but the visible evidence is insufficient to fully verify the claims. Readability for nonspecialists: The manuscript is generally clear, but some sections (e.g., force field descriptions) assume familiarity with CG modeling; the example code and workflow description help.
+- **Recommendation posture** Supportive if technical concerns are resolved. The software addresses a genuine need, and the approach is reasonable. However, the key claims of performance and accuracy must be substantiated with accessible data, and the RNA and CG-to-all-atom features require additional validation.
+
+## Risk / unsupported claims
+- The claim that OpenABC performance "rivals the speed achieved by hundreds of CPUs" is not verifiable from the provided material (Fig 3B referenced but not shown).
+- The claim that OpenABC produces "statistically indistinguishable results" on phase behavior is unsupported without the referenced statistical comparisons (Tables N-P in S1 Text).
+- The claim of RNA simulation support via Mpipi is asserted but not validated in the visible text.
+- The CG-to-all-atom conversion feature is presented as functional, but its reliability for condensate systems is not established.
+- The statement that "the software is flexible" is qualitative and not quantified in terms of supported input formats, system sizes, or force field combinations.

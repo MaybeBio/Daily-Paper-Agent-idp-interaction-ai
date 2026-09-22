@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39968832",
+  "title": "PEG-mCherry interactions beyond classical macromolecular crowding.",
+  "authors": "Haas-Neill, Liam; Joron, Khalil; Lerner, Eitan; Rauscher, Sarah",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2025-02-19",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用MD模拟和实验研究PEG与折叠蛋白mCherry的特异性软相互作用及拥挤效应，虽非IDP对象，但互作机制建模思路（模拟+实验结合）对无序蛋白PPI研究有可迁移启发。",
+  "abstract": "The dense cellular environment influences bio-macromolecular structure, dynamics, interactions, and function. Despite advancements in understanding protein-crowder interactions, predicting their precise effects on protein structure and function remains challenging. Here, we elucidate the effects of PEG-induced crowding on the fluorescent protein mCherry using molecular dynamics simulations and fluorescence-based experiments. We identify and characterize specific PEG-induced structural and dynamical changes in mCherry. Importantly, we find interactions in which PEG molecules wrap around specific surface-exposed residues in a binding mode previously observed in protein crystal structures. Fluorescence correlation spectroscopy experiments capture PEG-induced changes, including aggregation, suggesting a potential role for the specific PEG-mCherry interactions identified in simulations. Additionally, mCherry fluorescence lifetimes are influenced by PEG and not by the bulkier crowder dextran or by another linear polymer, polyvinyl alcohol, highlighting the importance of crowder-protein soft interactions. This work augments our understanding of macromolecular crowding effects on protein structure and dynamics.",
+  "abstract_zh": "致密的细胞环境影响生物大分子的结构、动力学、相互作用及功能。尽管在理解蛋白质-拥挤剂相互作用方面取得了进展，但预测其对蛋白质结构和功能的精确影响仍具挑战性。在此，我们利用分子动力学模拟和基于荧光的实验，阐明了PEG诱导的拥挤效应对荧光蛋白mCherry的影响。我们识别并表征了PEG诱导的mCherry特定结构和动力学变化。重要的是，我们发现PEG分子以一种先前在蛋白质晶体结构中观察到的结合模式，缠绕在特定表面暴露残基上的相互作用。荧光相关光谱实验捕捉到了PEG诱导的变化，包括聚集现象，这表明模拟中识别的特定PEG-mCherry相互作用可能具有潜在作用。此外，mCherry的荧光寿命受PEG影响，而不受更庞大的拥挤剂葡聚糖或另一种线性聚合物聚乙烯醇的影响，这突显了拥挤剂-蛋白质软相互作用的重要性。这项工作增进了我们对大分子拥挤效应对蛋白质结构和动力学影响的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39968832/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39968832/",
+  "paper_page_path": "papers/pubmed/39968832/index.html"
+}

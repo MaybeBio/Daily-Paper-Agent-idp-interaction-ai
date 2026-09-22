@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.01.679751",
+  "title": "Arginine versus Lysine: Molecular Determinants of Cation–π Interactions in Biomolecular Condensates",
+  "authors": "Armentia L; López X; De Sancho D",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-02",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过MD模拟、alchemical变换和量子化学计算，定量解析了Arg/Lys与芳香残基阳离子-π相互作用在生物分子凝聚体中的强度差异，揭示了Lys脱水惩罚是Arg更有效促进相分离的分子机制，直接聚焦IDR凝聚体中的PPI机制建模。",
+  "abstract": "Biomolecular condensates formed by intrinsically disordered regions of proteins are primarily stabilised by specific types of amino acids, usually labelled “stickers” for their ability to crosslink distinct polypeptide chains into droplet-spanning networks. Both aromatic and positively charged residues can play this role, but they differ in their interaction types and relative strengths. An outstanding problem is the quantification of these differences, since they determine the fate of multicomponent mixtures. Here we focus on the interactions formed by aromatic residues with the two main positively charged stickers, Arg and Lys, whose experimental behaviour in condensates shows a clear hierarchy: Arg is consistently observed to promote phase separation more effectively than Lys. We use molecular dynamics simulations and alchemical transformations together with quantum chemical calculations to resolve the differences in their cation– π interaction strengths in different media. We find that, unlike the aromatic residues Phe and Tyr, Arg and Lys consistently maintain a hierarchy of interaction strengths across molecular environments, with Arg being favoured over Lys. While cation- π interactions are important, the primary factor underlying this difference is the higher dehydration penalty of Lys. By contrast, the identity of the aromatic partner that forms the strongest interaction with a cation depends on the dielectric environment. These results provide a clear molecular-level explanation for the distinct contributions of interactions between cationic and aromatic residues to condensate stability.",
+  "abstract_zh": "由蛋白质内在无序区域形成的生物分子凝聚体，主要依靠特定类型的氨基酸稳定，这些氨基酸通常被称为“粘附子”（stickers），因其能够将不同的多肽链交联成跨越液滴的网络。芳香族残基和带正电荷的残基均可发挥此作用，但它们在相互作用类型和相对强度上存在差异。一个悬而未决的问题是量化这些差异，因为它们决定了多组分混合物的命运。在此，我们聚焦于芳香族残基与两种主要正电荷粘附子Arg和Lys形成的相互作用，其在凝聚体中的实验行为显示出明确的层级：Arg被一致观察到比Lys更有效地促进相分离。我们使用分子动力学模拟和热力学积分变换，结合量子化学计算，来解析它们在不同介质中阳离子–π相互作用强度的差异。我们发现，与芳香族残基Phe和Tyr不同，Arg和Lys在分子环境中始终保持相互作用强度的层级，Arg优于Lys。尽管阳离子–π相互作用重要，但造成这一差异的主要因素是Lys更高的去溶剂化代价。相比之下，与阳离子形成最强相互作用的芳香族伙伴的身份取决于介电环境。这些结果为阳离子和芳香族残基间相互作用对凝聚体稳定性的不同贡献提供了清晰的分子层面解释。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.01.679751",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.01.679751",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.01.679751/index.html"
+}

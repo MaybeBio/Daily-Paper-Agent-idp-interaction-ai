@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "41762441",
+    "doi": "10.1002/cbic.70237",
+    "title": "Identification of ZFTA as a Novel KLHL20 Substrate and Mechanistic Insights Into Fuzzy Binding of Disordered Peptides via Biosensor Analysis and Computational Modelling."
+  },
+  "content": {
+    "abstract": "Interactions between peptides based on a region in the zinc finger translocation associated (ZFTA) protein and the Kelch domain of Kelch-like protein 20 (KLHL20(Kelch)) have been characterised by biosensor analysis, supported by AlphaFold2-based structure predictions of peptides bound to the protein. Residues critical for the interaction were identified. The analysis showed that all peptides exhibited relatively weak and complex interactions with KLHL20(Kelch). The original ZFTA peptide had a much higher affinity for KLHL20(Kelch) than for the Kelch domain of KLHL12 (KLHL12(Kelch)), indicating a specificity for KLHL20(Kelch). The estimated K(D) (app) of 35 microM was like that for a 21-mer peptide derived from death-associated protein kinase 1, a known KLHL20 substrate. Removal of flexible C-terminal residues generated a 12-mer, predicted to form a stable helix. This reduced the affinity 100-fold. Removal of N-terminal residues resulted in a 10-mer predicted to be flexible, which had a similar affinity as the original 16-mer. The similar affinities for peptides representing different regions of ZFTA suggest that the recognition is feature specific rather than sequence specific. The interaction mechanism reflects \"fuzzy binding\", consistent with the role of KLHL20 as an adaptor protein in the ubiquitination of disordered protein substrates by Cullin-3 E3 ubiquitin ligase.",
+    "keywords": [
+      "KLHL20",
+      "Kelch",
+      "biosensor",
+      "computational design",
+      "stapled peptide"
+    ],
+    "mesh_terms": [
+      "*Peptides/chemistry/metabolism",
+      "*Biosensing Techniques",
+      "Protein Binding",
+      "Substrate Specificity",
+      "Models, Molecular",
+      "Amino Acid Sequence",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Myers, Nadine E M",
+        "Whittaker, Joanna",
+        "Cadot, Marie Elodie Helene",
+        "Varga, Julia K",
+        "Diallo, Marcel",
+        "Nilsson, Jakob",
+        "Bach, Anders",
+        "Sandstrom, Anja",
+        "Schueler-Furman, Ora",
+        "Danielson, U Helena"
+      ],
+      "short_names": [
+        "Myers NEM",
+        "Whittaker J",
+        "Cadot MEH",
+        "Varga JK",
+        "Diallo M",
+        "Nilsson J",
+        "Bach A",
+        "Sandstrom A",
+        "Schueler-Furman O",
+        "Danielson UH"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-3440-2662",
+        "ORCID: 0000-0002-0048-6392",
+        "ORCID: 0009-0008-7954-2318",
+        "ORCID: 0000-0002-5318-2798",
+        "ORCID: 0000-0003-0056-7333",
+        "ORCID: 0000-0003-4100-1125",
+        "ORCID: 0000-0003-4305-9910",
+        "ORCID: 0000-0001-5720-2904",
+        "ORCID: 0000-0002-1624-0362",
+        "ORCID: 0000-0003-2728-0340"
+      ],
+      "affiliations": [
+        "Dept. of Chemistry for the Life Sciences, Uppsala University, Uppsala, Sweden.",
+        "Beactica Therapeutics AB, Uppsala, Sweden.",
+        "Dept. of Chemistry for the Life Sciences, Uppsala University, Uppsala, Sweden.",
+        "Dept. of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark.",
+        "Dept. of Microbiology and Molecular Genetics, Institute for Biomedical Research Israel-Canada, Faculty of Medicine, The Hebrew University of Jerusalem, Jerusalem, Israel.",
+        "Novo Nordisk Foundation Center for Protein Research, ICMM, University of Copenhagen, Copenhagen, Denmark.",
+        "Novo Nordisk Foundation Center for Protein Research, ICMM, University of Copenhagen, Copenhagen, Denmark.",
+        "Center for Epigenetic Cell Memory, Danish Cancer Institute, Copenhagen, Denmark.",
+        "Dept. of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark.",
+        "Dept. of Medicinal Chemistry, Uppsala University, Uppsala, Sweden.",
+        "Dept. of Microbiology and Molecular Genetics, Institute for Biomedical Research Israel-Canada, Faculty of Medicine, The Hebrew University of Jerusalem, Jerusalem, Israel.",
+        "Dept. of Chemistry for the Life Sciences, Uppsala University, Uppsala, Sweden.",
+        "Science for Life Laboratory, Uppsala University, Uppsala, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Myers, Nadine E M",
+        "short_name": "Myers NEM",
+        "identifiers": [
+          "0009-0004-3440-2662"
+        ],
+        "affiliations": [
+          "Dept. of Chemistry for the Life Sciences, Uppsala University, Uppsala, Sweden.",
+          "Beactica Therapeutics AB, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Whittaker, Joanna",
+        "short_name": "Whittaker J",
+        "identifiers": [
+          "0000-0002-0048-6392"
+        ],
+        "affiliations": [
+          "Dept. of Chemistry for the Life Sciences, Uppsala University, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Cadot, Marie Elodie Hélène",
+        "short_name": "Cadot MEH",
+        "identifiers": [
+          "0009-0008-7954-2318"
+        ],
+        "affiliations": [
+          "Dept. of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Varga, Julia K",
+        "short_name": "Varga JK",
+        "identifiers": [
+          "0000-0002-5318-2798"
+        ],
+        "affiliations": [
+          "Dept. of Microbiology and Molecular Genetics, Institute for Biomedical Research Israel-Canada, Faculty of Medicine, The Hebrew University of Jerusalem, Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Diallo, Marcel",
+        "short_name": "Diallo M",
+        "identifiers": [
+          "0000-0003-0056-7333"
+        ],
+        "affiliations": [
+          "Novo Nordisk Foundation Center for Protein Research, ICMM, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Nilsson, Jakob",
+        "short_name": "Nilsson J",
+        "identifiers": [
+          "0000-0003-4100-1125"
+        ],
+        "affiliations": [
+          "Novo Nordisk Foundation Center for Protein Research, ICMM, University of Copenhagen, Copenhagen, Denmark.",
+          "Center for Epigenetic Cell Memory, Danish Cancer Institute, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Bach, Anders",
+        "short_name": "Bach A",
+        "identifiers": [
+          "0000-0003-4305-9910"
+        ],
+        "affiliations": [
+          "Dept. of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Sandström, Anja",
+        "short_name": "Sandström A",
+        "identifiers": [
+          "0000-0001-5720-2904"
+        ],
+        "affiliations": [
+          "Dept. of Medicinal Chemistry, Uppsala University, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Schueler-Furman, Ora",
+        "short_name": "Schueler-Furman O",
+        "identifiers": [
+          "0000-0002-1624-0362"
+        ],
+        "affiliations": [
+          "Dept. of Microbiology and Molecular Genetics, Institute for Biomedical Research Israel-Canada, Faculty of Medicine, The Hebrew University of Jerusalem, Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Danielson, U Helena",
+        "short_name": "Danielson UH",
+        "identifiers": [
+          "0000-0003-2728-0340"
+        ],
+        "affiliations": [
+          "Dept. of Chemistry for the Life Sciences, Uppsala University, Uppsala, Sweden.",
+          "Science for Life Laboratory, Uppsala University, Uppsala, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chembiochem : a European journal of chemical biology"
+    ],
+    "journal_abbrev": [
+      "Chembiochem"
+    ],
+    "pub_date": "2026 Mar 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/28 12:53",
+    "fetched_at": "2026-09-18 01:08:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39233199",
+      "38490062",
+      "36504893",
+      "36328355",
+      "35860655",
+      "35637307",
+      "31442578",
+      "31279627",
+      "29524429",
+      "28597296",
+      "27042198",
+      "24366543",
+      "23912815",
+      "23349464",
+      "22996592",
+      "21840486",
+      "21194118",
+      "21036137",
+      "15325287",
+      "14872095"
+    ],
+    "similar": [
+      "41762441",
+      "31279627",
+      "32574548",
+      "20389280",
+      "25619834",
+      "21523491",
+      "32032490",
+      "25011449",
+      "39233199",
+      "29745220",
+      "19232439",
+      "16483255",
+      "22803956",
+      "36214804",
+      "18650440",
+      "25301376",
+      "23349464",
+      "23318954",
+      "34227356",
+      "31226791",
+      "27200299",
+      "27218803",
+      "27790836",
+      "17673295",
+      "27042198",
+      "28002650",
+      "15601839",
+      "11500950",
+      "32543267",
+      "12824157",
+      "35685361",
+      "24641320",
+      "19008229",
+      "33814345",
+      "23148689",
+      "24130096",
+      "41531205",
+      "12381325",
+      "33848699",
+      "16888629",
+      "33200935",
+      "29137527",
+      "15475350",
+      "26687681",
+      "17900862",
+      "9922142",
+      "23892546",
+      "8305252",
+      "11257508",
+      "27287023",
+      "18206907",
+      "27443979",
+      "15572695",
+      "18351707",
+      "30731167",
+      "16533038",
+      "21868452",
+      "8450553",
+      "41483313",
+      "26224628",
+      "19053519",
+      "12974625",
+      "30373771",
+      "31397025",
+      "41009417",
+      "20203056",
+      "23219468",
+      "26513470",
+      "20014030",
+      "8373777",
+      "28754059",
+      "14558884",
+      "1910462",
+      "12941967",
+      "24403073",
+      "15465056",
+      "20868722",
+      "29980598",
+      "18540680",
+      "21291263",
+      "10860756",
+      "22876914",
+      "9494117",
+      "11591726",
+      "23567842",
+      "9235976",
+      "11493606",
+      "9796830",
+      "12524435",
+      "24747150",
+      "11846567",
+      "7521735",
+      "20109515",
+      "21226479",
+      "40905359",
+      "20502673",
+      "28279820",
+      "9112755",
+      "33683866",
+      "38345234"
+    ],
+    "review": [
+      "41762441",
+      "39233199",
+      "34227356",
+      "27200299",
+      "27042198"
+    ],
+    "pmc": [
+      "12949624"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41762441/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/cbic.70237",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

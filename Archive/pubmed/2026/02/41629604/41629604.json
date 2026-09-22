@@ -1,0 +1,473 @@
+{
+  "identity": {
+    "pmid": "41629604",
+    "doi": "10.1038/s41594-025-01742-y",
+    "title": "The filamentous ultrastructure of the PopZ condensate is required for its cellular function."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates have key roles in regulating cellular processes. Yet, the relationship between atomic features and condensate function remains poorly understood. We studied this relationship using the polar organizing protein Z (PopZ). Here, we revealed hierarchical assembly of PopZ into a filamentous condensate by integrating cryo-electron tomography, biochemistry, single-molecule techniques and molecular dynamics simulations. The PopZ helical domain drives filamentation and condensation, while the disordered region inhibits them. Phase-dependent conformational changes prevent interfilament contacts in the dilute phase and expose client-binding sites in the dense phase. Perturbing filament formation in vitro alters the dynamics of scaffold and client proteins and the condensate's wetting behavior. In cells, perturbing either filament formation or the ability of filaments to condense impairs PopZ function and leads to growth phenotypes. These findings establish a multiscale framework linking molecular interactions and condensate ultrastructure to cellular function.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cryoelectron Microscopy",
+      "Molecular Dynamics Simulation",
+      "*Biomolecular Condensates/chemistry/metabolism/ultrastructure",
+      "Electron Microscope Tomography",
+      "Binding Sites",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Scholl, Daniel",
+        "Boyd, Tumara",
+        "Latham, Andrew P",
+        "Salazar, Alexandra",
+        "Khan, Asma M A M",
+        "Boeynaems, Steven",
+        "Holehouse, Alex S",
+        "Lander, Gabriel C",
+        "Sali, Andrej",
+        "Park, Donghyun",
+        "Deniz, Ashok A",
+        "Lasker, Keren"
+      ],
+      "short_names": [
+        "Scholl D",
+        "Boyd T",
+        "Latham AP",
+        "Salazar A",
+        "Khan AMAM",
+        "Boeynaems S",
+        "Holehouse AS",
+        "Lander GC",
+        "Sali A",
+        "Park D",
+        "Deniz AA",
+        "Lasker K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9338-7253",
+        "ORCID: 0000-0002-6428-9398",
+        "ORCID: 0000-0002-9705-9871",
+        "ORCID: 0000-0002-4155-5729",
+        "ORCID: 0000-0003-4921-1135",
+        "ORCID: 0000-0003-0435-6197",
+        "ORCID: 0000-0003-2048-6004",
+        "ORCID: 0000-0003-2819-4049",
+        "ORCID: 0000-0002-5480-4173"
+      ],
+      "affiliations": [
+        "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA.",
+        "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Pharmaceutical Chemistry, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA.",
+        "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA.",
+        "Department of Radiology and Imaging Sciences, National Institutes of Health, Bethesda, MD, USA.",
+        "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+        "Jan and Dan Duncan Neurological Research Institute, Texas Children's Hospital, Houston, TX, USA.",
+        "Therapeutic Innovation Center (THINC), Baylor College of Medicine, Houston, TX, USA.",
+        "Center for Alzheimer's and Neurodegenerative Diseases (CAND), Texas Children's Hospital, Houston, TX, USA.",
+        "Dan L Duncan Comprehensive Cancer Center (DLDCCC), Baylor College of Medicine, Houston, TX, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Pharmaceutical Chemistry, University of California, San Francisco, San Francisco, CA, USA.",
+        "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA. dopark@scripps.edu.",
+        "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA. deniz@scripps.edu.",
+        "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA. klasker@scripps.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Scholl, Daniel",
+        "short_name": "Scholl D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Boyd, Tumara",
+        "short_name": "Boyd T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Latham, Andrew P",
+        "short_name": "Latham AP",
+        "identifiers": [
+          "0000-0002-9338-7253"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Pharmaceutical Chemistry, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Salazar, Alexandra",
+        "short_name": "Salazar A",
+        "identifiers": [
+          "0000-0002-6428-9398"
+        ],
+        "affiliations": [
+          "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Khan, Asma M A M",
+        "short_name": "Khan AMAM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA.",
+          "Department of Radiology and Imaging Sciences, National Institutes of Health, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Boeynaems, Steven",
+        "short_name": "Boeynaems S",
+        "identifiers": [
+          "0000-0002-9705-9871"
+        ],
+        "affiliations": [
+          "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA.",
+          "Jan and Dan Duncan Neurological Research Institute, Texas Children's Hospital, Houston, TX, USA.",
+          "Therapeutic Innovation Center (THINC), Baylor College of Medicine, Houston, TX, USA.",
+          "Center for Alzheimer's and Neurodegenerative Diseases (CAND), Texas Children's Hospital, Houston, TX, USA.",
+          "Dan L Duncan Comprehensive Cancer Center (DLDCCC), Baylor College of Medicine, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [
+          "0000-0002-4155-5729"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Lander, Gabriel C",
+        "short_name": "Lander GC",
+        "identifiers": [
+          "0000-0003-4921-1135"
+        ],
+        "affiliations": [
+          "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sali, Andrej",
+        "short_name": "Sali A",
+        "identifiers": [
+          "0000-0003-0435-6197"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, San Francisco, CA, USA.",
+          "Department of Pharmaceutical Chemistry, University of California, San Francisco, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Park, Donghyun",
+        "short_name": "Park D",
+        "identifiers": [
+          "0000-0003-2048-6004"
+        ],
+        "affiliations": [
+          "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA. dopark@scripps.edu."
+        ]
+      },
+      {
+        "full_name": "Deniz, Ashok A",
+        "short_name": "Deniz AA",
+        "identifiers": [
+          "0000-0003-2819-4049"
+        ],
+        "affiliations": [
+          "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA. deniz@scripps.edu."
+        ]
+      },
+      {
+        "full_name": "Lasker, Keren",
+        "short_name": "Lasker K",
+        "identifiers": [
+          "0000-0002-5480-4173"
+        ],
+        "affiliations": [
+          "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, CA, USA. klasker@scripps.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature structural & molecular biology"
+    ],
+    "journal_abbrev": [
+      "Nat Struct Mol Biol"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/03 00:27",
+    "fetched_at": "2026-09-18 00:33:39"
+  },
+  "links": {
+    "cites": [
+      "41968525",
+      "40060647"
+    ],
+    "refs": [
+      "39516712",
+      "39464253",
+      "39356108",
+      "39134696",
+      "38718835",
+      "38297184",
+      "37933842",
+      "37695778",
+      "37171907",
+      "36881934",
+      "36792822",
+      "36690068",
+      "36480418",
+      "36456783",
+      "36440884",
+      "36309499",
+      "36163138",
+      "36071192",
+      "35675815",
+      "34971672",
+      "34767801",
+      "34536913",
+      "34265844",
+      "33934416",
+      "33826337",
+      "33779550",
+      "33510441",
+      "33473217",
+      "33453924",
+      "33332721",
+      "33169001",
+      "33058876",
+      "33022259",
+      "32822572",
+      "32167227",
+      "32004090",
+      "31959967",
+      "31790873",
+      "31611690",
+      "31326025",
+      "30244836",
+      "30217894",
+      "30171252",
+      "30099028",
+      "29700264",
+      "29642023",
+      "29364893",
+      "28935776",
+      "28746339",
+      "28250466",
+      "28225081",
+      "28202730",
+      "28165473",
+      "27791060",
+      "27572972",
+      "27517351",
+      "27220849",
+      "27212236",
+      "27056844",
+      "26863591",
+      "26592709",
+      "26278980",
+      "25863585",
+      "24778223",
+      "24102805",
+      "23751494",
+      "23146566",
+      "22743772",
+      "22404939",
+      "22383292",
+      "21500218",
+      "20660743",
+      "20657594",
+      "20149103",
+      "20110992",
+      "19324639",
+      "18805089",
+      "18805088",
+      "17905987",
+      "17136100",
+      "16973379",
+      "16935549",
+      "16571010",
+      "16182563",
+      "15314216",
+      "14482095",
+      "11489852",
+      "11152458",
+      "10801360",
+      "10692345"
+    ],
+    "similar": [
+      "41629604",
+      "39763716",
+      "40327693",
+      "41343645",
+      "40521608",
+      "40629499",
+      "40985078",
+      "39856105",
+      "41933903",
+      "40954121",
+      "39486437",
+      "40441156",
+      "42055532",
+      "34971672",
+      "41667469",
+      "36163138",
+      "36004748",
+      "40588121",
+      "33058876",
+      "41662498",
+      "41540001",
+      "39826710",
+      "37961422",
+      "39827079",
+      "40972943",
+      "37470705",
+      "40098319",
+      "38591689",
+      "36227480",
+      "36883003",
+      "37468629",
+      "39327453",
+      "38824391",
+      "34890409",
+      "40411406",
+      "41670285",
+      "42283388",
+      "40794831",
+      "39079387",
+      "38832749",
+      "41266615",
+      "40229261",
+      "41957206",
+      "41481439",
+      "41977250",
+      "40614690",
+      "41169547",
+      "35727989",
+      "40408482",
+      "41266168",
+      "34767801",
+      "42260147",
+      "34090478",
+      "37546967",
+      "40981365",
+      "34706978",
+      "40420812",
+      "40108179",
+      "37006777",
+      "41511470",
+      "39537752",
+      "42531022",
+      "41990454",
+      "40136009",
+      "40751677",
+      "39980393",
+      "41337585",
+      "33395293",
+      "38987300",
+      "42190656",
+      "39914390",
+      "41088757",
+      "39433596",
+      "39591652",
+      "37668016",
+      "40195119",
+      "40877270",
+      "40730570",
+      "40172489",
+      "40857360",
+      "39366355",
+      "41535729",
+      "42425985",
+      "40970906",
+      "41575805",
+      "42002974",
+      "42065721",
+      "32513734",
+      "40848932",
+      "38781207",
+      "37961424",
+      "40913895",
+      "39232584",
+      "40768359",
+      "41530973",
+      "40194320",
+      "41385797",
+      "35881789",
+      "40867025",
+      "34706979"
+    ],
+    "review": [
+      "41629604",
+      "39827079",
+      "39327453",
+      "41957206",
+      "41977250",
+      "40614690",
+      "41266168",
+      "34767801",
+      "34706978",
+      "41990454",
+      "39433596",
+      "40172489",
+      "39366355",
+      "41575805",
+      "42065721",
+      "40913895",
+      "40194320",
+      "41385797"
+    ],
+    "pmc": [
+      "12999525"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41594-025-01742-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41629604/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

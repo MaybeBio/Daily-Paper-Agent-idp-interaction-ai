@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supporting data were provided
+- **Shared manuscript claim summary** The authors propose that classical protein force fields underestimate protein-water interactions relative to protein-protein interactions, leading to overly compact structures and artificial aggregation. They investigate scaled Lennard-Jones (LJ) interactions as a correction, report optimal scaling parameters that reproduce hydration free energies of neutral amino acid side chain analogues without perturbing folded protein stability, and observe variable effects on intrinsically disordered proteins (IDPs). They further compare strategies of strengthening protein-water interactions versus weakening protein-protein or water-water interactions, and conclude that independent optimization of protein force fields and water models is necessary.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation protocols, error estimates, or comparative benchmarks are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation details, force field parameters, statistical analyses, and any validation datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful direction for improving protein force field balance, but the evidence base is insufficient to evaluate the validity, robustness, or generalizability of the claims. The central conclusions regarding optimal scaling parameters, comparative effectiveness of different interaction modifications, and the necessity of independent force field and water model optimization are stated without quantitative support. The work may be of interest to the molecular simulation community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers developing or refining classical force fields for biomolecular simulations, particularly those studying intrinsically disordered proteins or protein aggregation. The findings could inform choices of water models and LJ scaling strategies in simulation protocols.
+- **Major strengths** The abstract addresses a recognized and important problem in biomolecular simulation, namely the balance between protein-protein and protein-water interactions. The comparative analysis of different scaling strategies (LJ well depth, dispersion coefficients, water-water interactions) is conceptually useful. The conclusion that independent optimization of force fields and water models is needed is a clear and actionable message.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "the obtained optimal scaling parameters reproduce accurately hydration free energies of neutral amino acid side chain analogues and do not affect the compactness and structural stability of folded proteins significantly."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are presented to support the accuracy of hydration free energy reproduction or the lack of effect on folded protein stability. No error metrics, comparison to experimental values, or statistical measures are given.
+  - **Why it matters** The central quantitative claims of the work cannot be assessed without numerical results. The reader cannot determine whether the reported accuracy is adequate or whether the effects on folded proteins are within acceptable tolerances.
+  - **Resolution test** Provide numerical comparisons of computed versus experimental hydration free energies with uncertainties, and quantitative measures of folded protein compactness and stability (e.g., RMSD, radius of gyration) before and after scaling.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "strengthening the interactions between protein and water oxygen or hydrogen atoms by increasing the interacting LJ well depth (epsilon) appears more effective than weakening protein-protein interactions by reducing the interacting dispersion coefficients (C(6))."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The comparative effectiveness of the two strategies is stated without any quantitative comparison, such as the magnitude of changes in hydration free energies, IDP compactness, or folded protein stability achieved by each approach.
+  - **Why it matters** This is a key methodological conclusion that would guide future force field development. Without quantitative comparison, the claim is unsupported and potentially misleading.
+  - **Resolution test** Present side-by-side results for both scaling strategies, including the same metrics (hydration free energies, IDP dimensions, folded protein stability) with appropriate statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "weakening water-water interactions is a solution as well to obtaining more favorable protein-water interactions in an indirect way" and that "modern force fields like Amber ff19SB and a99SB-disp tend to use water models with strong water-water interactions."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim about water model characteristics is presented as a general statement without specific data or references. The effectiveness of weakening water-water interactions is not quantified, and the relationship between water-water interaction strength and protein-water balance is not demonstrated.
+  - **Why it matters** This claim has implications for water model selection in force field development. Without evidence, the reader cannot evaluate whether this strategy is viable or whether the characterization of modern force fields is accurate.
+  - **Resolution test** Provide data showing the effect of water-water interaction scaling on protein-water interaction balance, and cite or present specific parameters for the mentioned water models to support the characterization.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "independent optimization of protein force fields and water models is therefore needed to make both interactions more close to reality, leading to good accuracy without bias or scaling."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is a broad conclusion drawn from the presented work, but the abstract does not provide evidence that independent optimization is feasible or that it would achieve the stated outcome. The claim extends beyond the presented results.
+  - **Why it matters** This is the main takeaway message of the work. If not supported by sufficient evidence, the conclusion may be premature and could mislead future research directions.
+  - **Resolution test** Provide evidence from the full study that independent optimization of a protein force field and a water model yields accurate results without scaling, or clearly frame this as a recommendation based on the observed limitations of current approaches.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, statement on IDPs
+  - **Issue** The phrase "varies from case to case" regarding IDP compactness is vague and does not convey the range or pattern of effects.
+  - **Required correction** Specify the range of effects observed, such as the degree of compaction change across different IDPs, or state the conditions under which scaling has larger or smaller effects.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No information is given about the simulation systems, force fields used as starting points, or the range of scaling parameters tested.
+  - **Required correction** Include in the abstract or methods a brief description of the systems studied and the parameter ranges explored, or refer to the full manuscript for these details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "scaled Lennard-Jones interactions"
+  - **Evidence pointer** Abstract title and text
+  - **Issue** The term "scaled" is used without specifying whether scaling applies to epsilon, C6, or both, and whether the scaling is uniform or atom-type specific.
+  - **Required correction** Clarify the nature of the scaling in the abstract, or ensure the full manuscript clearly defines the scaling scheme early in the text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract lacks quantitative results, comparative data, and sufficient methodological detail to support the central claims. Without these, the conclusions cannot be evaluated.
+- **Assessment against Nature-style criteria** Originality: The approach of systematically comparing different LJ scaling strategies is not entirely novel but is a useful contribution. Scientific importance: The problem addressed is important for the simulation community, but the significance of the findings cannot be assessed without data. Interdisciplinary readership: The work is primarily relevant to computational chemists and biophysicists; broader interdisciplinary appeal is limited. Technical soundness: Cannot be evaluated from the abstract alone. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terminology without sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible research direction, but the absence of quantitative results and methodological detail prevents assessment of the validity and significance of the claims. A full manuscript with detailed results would be required to evaluate the work properly.
+
+## Risk / unsupported claims
+- The claim that optimal scaling parameters "reproduce accurately" hydration free energies is unsupported without numerical comparison to experimental data.
+- The claim that scaling "does not affect the compactness and structural stability of folded proteins significantly" is unsupported without quantitative measures.
+- The comparative effectiveness of epsilon scaling versus C6 scaling is stated without quantitative evidence.
+- The characterization of Amber ff19SB and a99SB-disp as using water models with "strong water-water interactions" is not supported by specific data or references in the abstract.
+- The conclusion that independent optimization of protein force fields and water models is needed is a reasonable recommendation but is not directly supported by evidence presented in the abstract.

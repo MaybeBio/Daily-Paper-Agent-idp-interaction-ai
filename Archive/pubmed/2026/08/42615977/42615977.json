@@ -1,0 +1,225 @@
+{
+  "identity": {
+    "pmid": "42615977",
+    "doi": "10.1093/bioinformatics/btag390",
+    "title": "Assessing reproducibility of Hi-C chromatin interactions using stratum-adjusted irreproducible discovery rate."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Hi-C is a powerful technology for mapping chromatin interactions genome-wide. However, interaction loops identified from Hi-C contact maps often vary across replicate experiments due to experimental noise, making reproducibility assessment essential. A major challenge lies in the genomic distance dependence of interaction strength, which systematically affects reproducibility but is overlooked by existing methods for reproducibility assessment. RESULTS: We introduce Stratum-Adjusted Irreproducible Discovery Rate (SIDR), a novel statistical model that integrates distance stratification into the widely-used Irreproducible Discovery Rate (IDR) framework. SIDR explicitly models the confounding effect of genomic distance, enabling global control of irreproducibility across interaction ranges. Through simulations and real Hi-C datasets, we demonstrate that SIDR improves discriminative power and recovers more biologically meaningful interactions than existing approaches, making it a valuable tool for robust and reproducible Hi-C analysis. AVAILABILITY: The R package SIDR is freely available on GitHub https://github.com/qunhualilab/SIDR.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin/metabolism/genetics/chemistry",
+      "Reproducibility of Results",
+      "Software",
+      "*Genomics/methods",
+      "*Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xue, Chen",
+        "Zhang, Feipeng",
+        "Li, Qunhua"
+      ],
+      "short_names": [
+        "Xue C",
+        "Zhang F",
+        "Li Q"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-1375-1196",
+        "ORCID: 0000-0003-0675-7648"
+      ],
+      "affiliations": [
+        "Department of Statistics, The Pennsylvania State University, University Park, PA 16802, United States.",
+        "School of Economics and Finance, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, PR China.",
+        "Department of Statistics, The Pennsylvania State University, University Park, PA 16802, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xue, Chen",
+        "short_name": "Xue C",
+        "identifiers": [
+          "0009-0003-1375-1196"
+        ],
+        "affiliations": [
+          "Department of Statistics, The Pennsylvania State University, University Park, PA 16802, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Feipeng",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Economics and Finance, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Qunhua",
+        "short_name": "Li Q",
+        "identifiers": [
+          "0000-0003-0675-7648"
+        ],
+        "affiliations": [
+          "Department of Statistics, The Pennsylvania State University, University Park, PA 16802, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2026 Aug 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/19 14:48",
+    "fetched_at": "2026-09-18 05:48:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42615977",
+      "28855260",
+      "32009147",
+      "31510653",
+      "42289051",
+      "35749574",
+      "30986246",
+      "41875404",
+      "42114088",
+      "39658249",
+      "38758956",
+      "38940142",
+      "30064362",
+      "29554289",
+      "39222712",
+      "38814811",
+      "33160308",
+      "28056762",
+      "42277293",
+      "41068581",
+      "41507775",
+      "32787954",
+      "37084258",
+      "40246224",
+      "30668639",
+      "33576390",
+      "32998764",
+      "35366792",
+      "42525289",
+      "40652995",
+      "42475469",
+      "39283448",
+      "31510693",
+      "37287135",
+      "32164554",
+      "36352464",
+      "29113562",
+      "41129292",
+      "42635245",
+      "41734268",
+      "32663510",
+      "34928392",
+      "39137961",
+      "31028255",
+      "26001583",
+      "40862515",
+      "39283452",
+      "30890172",
+      "34141136",
+      "40037641",
+      "28513628",
+      "35678507",
+      "35929807",
+      "29800273",
+      "34099725",
+      "40226920",
+      "28388874",
+      "31530818",
+      "39842868",
+      "40986587",
+      "32003791",
+      "40186170",
+      "34013331",
+      "27008015",
+      "29901812",
+      "37387127",
+      "42681530",
+      "38927609",
+      "33545029",
+      "32034421",
+      "29471801",
+      "41726976",
+      "40170155",
+      "39614138",
+      "31504161",
+      "26900130",
+      "34415534",
+      "29036650",
+      "31671634",
+      "37496267",
+      "40221401",
+      "40662782",
+      "35274679",
+      "34252966",
+      "31742318",
+      "40082674",
+      "31323892",
+      "33074315",
+      "33109075",
+      "32093610",
+      "42092759",
+      "31442560",
+      "32652235",
+      "27153668",
+      "36759336",
+      "26283514",
+      "33720325",
+      "42239130",
+      "28604721",
+      "33992531"
+    ],
+    "review": [
+      "42615977",
+      "40037641",
+      "31323892"
+    ],
+    "pmc": [
+      "13509955"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42615977/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag390",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

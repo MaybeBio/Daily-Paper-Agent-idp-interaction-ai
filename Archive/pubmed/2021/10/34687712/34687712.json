@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "34687712",
+    "doi": "10.1016/j.jmb.2021.167320",
+    "title": "Flanking Disorder of the Folded alphaalpha-Hub Domain from Radical Induced Cell Death1 Affects Transcription Factor Binding by Ensemble Redistribution."
+  },
+  "content": {
+    "abstract": "Protein intrinsic disorder is essential for organization of transcription regulatory interactomes. In these interactomes, the majority of transcription factors as well as their interaction partners have co-existing order and disorder. Yet, little attention has been paid to their interplay. Here, we investigate how order is affected by flanking disorder in the folded alphaalpha-hub domain RST from Radical-Induced Cell Death1 (RCD1), central in a large interactome of transcription factors. We show that the intrinsically disordered C-terminal tail of RCD1-RST shifts its conformational ensemble towards a pseudo-bound state through weak interactions with the ligand-binding pocket. An unfolded excited state is also accessible on the ms timescale independent of surrounding disordered regions, but its population is lowered by 50% in their presence. Flanking disorder additionally lowers transcription factor binding-affinity without affecting the dissociation rate constant, in accordance with similar bound-states assessed by NMR. The extensive dynamics of the RCD1-RST domain, modulated by flanking disorder, is suggestive of its adaptation to many different transcription factor ligands. The study illustrates how disordered flanking regions can tune fold and function through ensemble redistribution and is of relevance to modular proteins in general, many of which play key roles in regulation of genes.",
+    "keywords": [
+      "IDP",
+      "dynamics",
+      "flanking region",
+      "ligand selection",
+      "protein folding"
+    ],
+    "mesh_terms": [
+      "Arabidopsis/*genetics/*metabolism",
+      "Arabidopsis Proteins/*chemistry",
+      "*Gene Expression Regulation, Plant",
+      "Intrinsically Disordered Proteins/*chemistry",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Nuclear Proteins/*chemistry",
+      "Protein Binding",
+      "*Protein Folding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Staby, Lasse",
+        "Due, Amanda D",
+        "Kunze, Micha Ben Achim",
+        "Jorgensen, Maria Louise Monster",
+        "Skriver, Karen",
+        "Kragelund, Birthe B"
+      ],
+      "short_names": [
+        "Staby L",
+        "Due AD",
+        "Kunze MBA",
+        "Jorgensen MLM",
+        "Skriver K",
+        "Kragelund BB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biology, University of Copenhagen, 5 Ole Maaloes Vej, Copenhagen DK-2200, Denmark.",
+        "Department of Biology, University of Copenhagen, 5 Ole Maaloes Vej, Copenhagen DK-2200, Denmark.",
+        "Department of Biology, University of Copenhagen, 5 Ole Maaloes Vej, Copenhagen DK-2200, Denmark.",
+        "Department of Biology, University of Copenhagen, 5 Ole Maaloes Vej, Copenhagen DK-2200, Denmark.",
+        "Department of Biology, University of Copenhagen, 5 Ole Maaloes Vej, Copenhagen DK-2200, Denmark. Electronic address: kskriver@bio.ku.dk.",
+        "Department of Biology, University of Copenhagen, 5 Ole Maaloes Vej, Copenhagen DK-2200, Denmark. Electronic address: bbk@bio.ku.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Staby, Lasse",
+        "short_name": "Staby L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Copenhagen, 5 Ole Maaloes Vej, Copenhagen DK-2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Due, Amanda D",
+        "short_name": "Due AD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Copenhagen, 5 Ole Maaloes Vej, Copenhagen DK-2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kunze, Micha Ben Achim",
+        "short_name": "Kunze MBA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Copenhagen, 5 Ole Maaloes Vej, Copenhagen DK-2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Jørgensen, Maria Louise Mønster",
+        "short_name": "Jørgensen MLM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Copenhagen, 5 Ole Maaloes Vej, Copenhagen DK-2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Skriver, Karen",
+        "short_name": "Skriver K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Copenhagen, 5 Ole Maaloes Vej, Copenhagen DK-2200, Denmark. Electronic address: kskriver@bio.ku.dk."
+        ]
+      },
+      {
+        "full_name": "Kragelund, Birthe B",
+        "short_name": "Kragelund BB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Copenhagen, 5 Ole Maaloes Vej, Copenhagen DK-2200, Denmark. Electronic address: bbk@bio.ku.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2021 Dec 3",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/24 06:00",
+    "fetched_at": "2026-09-20 06:04:51"
+  },
+  "links": {
+    "cites": [
+      "41053265",
+      "40185744",
+      "39933695",
+      "39604735",
+      "39091801",
+      "38301272",
+      "37957331",
+      "37908230",
+      "37647499",
+      "37435805",
+      "36979465",
+      "36917561",
+      "36653471",
+      "35512095",
+      "35452682",
+      "35204709",
+      "35066947"
+    ],
+    "refs": [],
+    "similar": [
+      "34687712",
+      "27881680",
+      "29657132",
+      "33361159",
+      "28593560",
+      "35452682",
+      "34473923",
+      "25348421",
+      "31831797",
+      "23373423",
+      "33407551",
+      "26195786",
+      "25533957",
+      "27844185",
+      "36653471",
+      "19548978",
+      "20592818",
+      "19625634",
+      "37379390",
+      "29632904",
+      "26742101",
+      "28780862",
+      "23760157",
+      "31421981",
+      "25039985",
+      "29945970",
+      "32323533",
+      "35605677",
+      "27082063",
+      "33371315",
+      "29885328",
+      "29990433",
+      "19492112",
+      "28734076",
+      "30420606",
+      "28109185",
+      "29320165",
+      "30316104",
+      "27111521",
+      "28914483",
+      "25207671",
+      "24689869",
+      "24550736",
+      "28857320",
+      "32654182",
+      "29716994",
+      "23794453",
+      "32613009",
+      "32936312",
+      "22819467",
+      "21732203",
+      "28365882",
+      "34101805",
+      "29614221",
+      "25631540",
+      "23545493",
+      "30840442",
+      "29276882",
+      "26684000",
+      "28425697",
+      "30767893",
+      "26101256",
+      "24211251",
+      "31397874",
+      "29925531",
+      "34504002",
+      "26073260",
+      "23027878",
+      "34362249",
+      "25159688",
+      "33454008",
+      "26910732",
+      "24604825",
+      "32020911",
+      "29719201",
+      "26851278",
+      "28880537",
+      "30520528",
+      "21766125",
+      "32519353",
+      "16926493",
+      "33284914",
+      "33647291",
+      "30528464",
+      "31297688",
+      "30471688",
+      "33269926",
+      "23892546",
+      "32325001",
+      "34870419",
+      "32784707",
+      "37647499",
+      "39005418"
+    ],
+    "review": [
+      "34687712",
+      "33361159",
+      "33371315",
+      "30316104",
+      "23794453",
+      "32613009",
+      "22819467",
+      "34101805",
+      "25631540",
+      "23545493",
+      "30840442",
+      "31397874",
+      "26073260",
+      "32020911"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(21)00557-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

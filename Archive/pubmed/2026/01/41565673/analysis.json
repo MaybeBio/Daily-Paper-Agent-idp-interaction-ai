@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41565673",
+  "title": "Protein folding stability estimation with explicit consideration of unfolded states.",
+  "authors": "Lee, Heechan; Cho, Yugyeong; Yun, Jeongwon; Steinegger, Martin; Kim, Ho Min; Park, Hahnbeom",
+  "journal": "Nature communications",
+  "published_date": "2026-01-22",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出深度神经网络IFUM联合预测折叠稳定性与折叠/去折叠态距离分布，虽涉及无序蛋白并建模构象系综，但核心是单蛋白折叠稳定性而非PPI互作机制，方法可迁移但互作轴缺失。",
+  "abstract": "Folding stability is crucial for the vast majority of proteins. Computational methods suggested to date for the absolute folding stability (DeltaG) prediction, including those driven from protein structure prediction AIs, show clear limitations in reproducing quantitative experimental values. Here we present IFUM, a deep neural network that jointly estimates DeltaG and the equilibrium ensemble of folded and unfolded states represented by residue-pair distance probability distributions. This joint learning considerably enhances prediction accuracy compared to learning DeltaG alone. Trained on a dataset including Mega-scale small proteins, disordered proteins, and wild-type natural proteins, IFUM is robust to various protein types and can accurately predict complex mutational effects like insertions or deletions. Here, we show that IFUM effectively guides real-world design challenges, exhibiting strong correlation with experimental melting temperatures in protein engineering and outperforming AlphaFold-based metrics in de novo design selection.",
+  "abstract_zh": "折叠稳定性对绝大多数蛋白质至关重要。迄今为止提出的用于绝对折叠稳定性（DeltaG）预测的计算方法，包括那些由蛋白质结构预测AI驱动的方法，在重现定量实验值方面显示出明显局限性。在此，我们提出IFUM，一种深度神经网络，它联合估计DeltaG以及由残基对距离概率分布表示的折叠和未折叠状态的平衡系综。与单独学习DeltaG相比，这种联合学习显著提高了预测准确性。在包含兆规模小蛋白、无序蛋白和野生型天然蛋白的数据集上训练，IFUM对各种蛋白质类型具有鲁棒性，并能准确预测复杂的突变效应，如插入或缺失。在此，我们展示IFUM有效指导现实世界设计挑战，在蛋白质工程中与实验熔解温度表现出强相关性，并在从头设计选择中优于基于AlphaFold的指标。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41565673/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41565673/",
+  "paper_page_path": "papers/pubmed/41565673/index.html"
+}

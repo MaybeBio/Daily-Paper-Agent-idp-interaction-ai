@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.02.600619",
+  "title": "Poly(ADP-ribose) binding sites on collagen I fibrils for nucleating intrafibrillar bone mineral",
+  "authors": "Zecca MA; Greer HF; Duer MJ",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-04",
+  "window": {
+    "start": "2024-07-01",
+    "end": "2024-07-07"
+  },
+  "score": 3,
+  "one_liner_zh": "该文研究聚ADP核糖与I型胶原纤维的结合位点以介导骨矿化，对象为胶原而非无序蛋白，且无PPI机制建模或AI/物理模拟方法，仅与无序蛋白结合机制有间接关联。",
+  "abstract": "Bone calcification is essential for vertebrate life. The mechanism by which mineral ions are transported into collagen fibrils to induce intrafibrillar mineral formation requires a calcium binding biopolymer that also has highly selective binding to the collagen fibril hole zones where intrafibrillar calcification begins, over other bone extracellular matrix components. Poly(ADP-ribose) has been shown to be a candidate biopolymer for this process and we show here that poly(ADP-ribose) has high affinity, highly conserved binding sites in the collagen type I C-terminal telopeptides. The discovery of these poly(ADP-ribose)-collagen binding sites gives new insights into the chemical mechanisms underlying bone calcification and possible mechanisms behind pathologies where there is dysfunctional bone calcification.",
+  "abstract_zh": "骨钙化对脊椎动物生命至关重要。矿物离子被转运至胶原纤维内以诱导纤维内矿物形成的机制，需要一种钙结合生物聚合物，该聚合物还需对胶原纤维孔区（纤维内钙化起始处）具有高度选择性结合，且优先于其他骨细胞外基质成分。聚（ADP-核糖）已被证明是该过程的候选生物聚合物，我们在此展示聚（ADP-核糖）在I型胶原C端端肽中具有高亲和力、高度保守的结合位点。这些聚（ADP-核糖）-胶原结合位点的发现，为骨钙化背后的化学机制以及骨钙化功能障碍相关病理的可能机制提供了新见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.02.600619",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.02.600619",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.02.600619/index.html"
+}

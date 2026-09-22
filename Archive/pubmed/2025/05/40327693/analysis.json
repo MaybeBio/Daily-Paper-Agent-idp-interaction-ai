@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40327693",
+  "title": "Quantitative spatial analysis of chromatin biomolecular condensates using cryoelectron tomography.",
+  "authors": "Zhou, Huabin; Hutchings, Joshua; Shiozaki, Momoko; Zhao, Xiaowei; Doolittle, Lynda K; Yang, Shixin; Yan, Rui; Jean, Nikki; Riggi, Margot; Yu, Zhiheng; Villa, Elizabeth; Rosen, Michael K",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2025-05-06",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用冷冻电镜断层扫描结合深度学习分割分析染色质凝聚体内部核小体结构，虽对象为染色质而非典型IDP，但聚焦凝聚体互作网络与表面张力机制，方法可迁移至IDR介导的PPI建模。",
+  "abstract": "Phase separation is an important mechanism to generate certain biomolecular condensates and organize the cell interior. Condensate formation and function remain incompletely understood due to difficulties in visualizing the condensate interior at high resolution. Here, we analyzed the structure of biochemically reconstituted chromatin condensates through cryoelectron tomography. We found that traditional blotting methods of sample preparation were inadequate, and high-pressure freezing plus focused ion beam milling was essential to maintain condensate integrity. To identify densely packed molecules within the condensate, we integrated deep learning-based segmentation with context-aware template matching. Our approaches were developed on chromatin condensates and were also effective on condensed regions of in situ native chromatin. Using these methods, we determined the average structure of nucleosomes to 6.1 and 12 A resolution in reconstituted and native systems, respectively, found that nucleosomes form heterogeneous interaction networks in both cases, and gained insight into the molecular origins of surface tension in chromatin condensates. Our methods should be applicable to biomolecular condensates containing large and distinctive components in both biochemical reconstitutions and certain cellular systems.",
+  "abstract_zh": "相分离 (phase separation) 是生成某些生物分子凝聚体 (biomolecular condensates) 并组织细胞内部的重要机制。由于难以在高分辨率下可视化凝聚体内部，凝聚体的形成和功能仍未完全理解。在此，我们通过冷冻电子断层扫描 (cryoelectron tomography) 分析了生化重构染色质凝聚体的结构。我们发现传统的印迹法制样方法不足，而高压冷冻结合聚焦离子束铣削 (high-pressure freezing plus focused ion beam milling) 对于维持凝聚体完整性至关重要。为了识别凝聚体内密集堆积的分子，我们将基于深度学习的分割与上下文感知模板匹配相结合。我们的方法在染色质凝聚体上开发，并同样适用于原位天然染色质的凝聚区域。利用这些方法，我们分别确定了重构和天然系统中核小体的平均结构，分辨率达6.1和12 Å，发现核小体在两种情况下均形成异质相互作用网络，并深入了解了染色质凝聚体表面张力的分子起源。我们的方法应适用于包含大型且独特组分的生物分子凝聚体，在生化重构和特定细胞系统中均可应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40327693/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40327693/",
+  "paper_page_path": "papers/pubmed/40327693/index.html"
+}

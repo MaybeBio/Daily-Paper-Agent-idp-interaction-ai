@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2406.06416v2",
+  "title": "Discovering classical spin liquids by topological search of high symmetry nets",
+  "authors": "Joseph A. M. Paddison; Matthew J. Cliffe",
+  "journal": "",
+  "published_date": "2024-06-10",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 0,
+  "one_liner_zh": "该文通过拓扑搜索高对称网络发现经典自旋液体，研究对象为磁性自旋系统而非无序蛋白/IDR，且不涉及蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Spin liquids are a paradigmatic example of a non-trivial state of matter, and the search for new spin liquids is a key direction of physics, chemistry, and materials science. Geometric frustration -- where the geometry of the net that the spins occupy precludes the generation of a simple ordered state -- is a particularly fruitful way to generate these intrinsically disordered states. A particular focus has been on a handful of high symmetry nets. There are, however, many three-dimensional nets, each of which has the potential to form unique states. In this paper, we investigate the high symmetry nets -- those which are both node- and edge-transitive -- for the simplest possible interaction sets: nearest-neighbor couplings of antiferromagnetic Heisenberg and Ising spins. While the well-known crs (pyrochlore) net is the only nearest-neighbor Heisenberg antiferromagnet which does not order, we identify two new frustrated nets (lcx and thp) that possess finite temperature Heisenberg spin-liquid states with strongly suppressed magnetic ordering and non-collinear ground states. With Ising spins, we identify three new classical spin liquids that do not order down to $T/J = 0.01$. We highlight materials that contain these high symmetry nets, and which could, if substituted with appropriate magnetic ions, potentially host these unusual states. Our systematic survey will guide searches for novel magnetic phases.",
+  "abstract_zh": "自旋液体是非平凡物质状态的一个典型范例，寻找新的自旋液体是物理学、化学和材料科学的关键方向。几何阻挫——其中自旋所占据网络的几何结构阻止了简单有序态的产生——是生成这些本质上无序状态的一种特别有效的方式。特别关注集中在少数高对称性网络上。然而，存在许多三维网络，每个网络都有潜力形成独特的状态。在本文中，我们研究了高对称性网络——即那些既是节点传递又是边传递的网络——针对最简单的相互作用集合：最近邻耦合的反铁磁海森堡和伊辛自旋。虽然众所周知的crs（烧绿石）网络是唯一不有序化的最近邻反铁磁海森堡模型，但我们识别出两个新的阻挫网络（lcx和thp），它们具有有限温度的海森堡自旋液体态，表现出强烈抑制的磁有序和非共线基态。对于伊辛自旋，我们识别出三种新的经典自旋液体，它们在$T/J = 0.01$以下不有序化。我们强调了包含这些高对称性网络的材料，这些材料如果替换为适当的磁性离子，可能潜在地承载这些异常状态。我们的系统性调查将指导对新奇磁相的搜索。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2406.06416v2",
+  "source_url": "https://arxiv.org/abs/2406.06416v2",
+  "paper_page_path": "papers/arxiv/2406.06416v2/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42231671",
+  "title": "Phase-Transformable DNA Frameworks for Synthetic Condensates with Valency-Controlled Subcellular Sorting.",
+  "authors": "Yu, Haozhen; Zhao, Ziyi; Lv, Haoyue; Xu, Zhiqian; Han, Zhaoyu; Liu, Biwu; Zhao, Yongxi",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2026-06-03",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用粗粒化模拟与实验研究DNA纳米结构经价态控制相变为合成凝聚体并实现亚细胞分选，虽对象为DNA而非无序蛋白，但其相分离机制建模思路对IDR介导的PPI凝聚体研究有可迁移启发。",
+  "abstract": "Synthetic control of intracellular phase separation offers exciting opportunities for engineering artificial membraneless organelles (MLOs). However, achieving precise control of DNA-based condensates in complex cellular environments remains challenging. Here, we present a phase-transforming DNA framework that enables the in situ transition of tetrahedral DNA nanostructures into functional condensates through valency-controlled subcellular sorting. With coarse-grained simulations and experiments, we demonstrate that the condensation order is governed by binding valencies of transformed building blocks. Strikingly, we revealed distinct intracellular fates of synDNA condensates, with high-order condensates escaping the endolysosomal pathway and low-order condensates trapped in the lysosome. Furthermore, we demonstrate that spatially controlled DNA condensates serve as versatile artificial MLOs, facilitating the targeted degradation of membrane proteins and prolonging the cytosolic residence of the therapeutic payloads. Our findings establish a modular design principle for constructing programmable DNA condensates in cellulo, underscoring the profound interactions between synthetic biological constructs and cellular organelles.",
+  "abstract_zh": "细胞内相分离的合成控制为工程化人工无膜细胞器（MLOs）提供了令人兴奋的机会。然而，在复杂细胞环境中实现对基于DNA的凝聚体的精确控制仍然具有挑战性。在此，我们提出了一种相变DNA框架，通过价态控制的亚细胞分选，能够实现四面体DNA纳米结构原位转变为功能性凝聚体。结合粗粒化模拟和实验，我们证明了凝聚顺序由转化构建模块的结合价态决定。引人注目的是，我们揭示了synDNA凝聚体在细胞内的不同命运，其中高阶凝聚体逃逸内溶酶体途径，而低阶凝聚体则被困于溶酶体中。此外，我们证明了空间受控的DNA凝聚体可作为多功能人工MLOs，促进膜蛋白的靶向降解并延长治疗性载荷的胞质驻留时间。我们的发现为在细胞内构建可编程DNA凝聚体建立了模块化设计原则，强调了合成生物构建体与细胞器之间的深刻相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42231671/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42231671/",
+  "paper_page_path": "papers/pubmed/42231671/index.html"
+}

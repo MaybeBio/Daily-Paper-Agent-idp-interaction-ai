@@ -1,0 +1,231 @@
+{
+  "identity": {
+    "pmid": "42014948",
+    "doi": "10.1021/acs.jctc.6c00354",
+    "title": "Generative Machine Learning of Conformational Ensembles of Intrinsically Disordered Proteins: Progress and Opportunities."
+  },
+  "content": {
+    "abstract": "Machine-learning methods are increasingly shaping how conformational ensembles of intrinsically disordered proteins (IDPs) are generated and analyzed. Recent generative AI models provide efficient routes to sample IDP conformational space without relying exclusively on long-time scale simulations. These methods can recover many sequence-dependent features at substantially lower cost, but their performance remains uneven. Most models are trained on coarse-grained simulation data, whereas all-atom training is still limited to short peptides and narrow sequence families, constraining structural resolution and generalizability across diverse IDPs. Incorporating experimental observables into training or sampling is also still emerging rather than routine. In this Perspective, we review recent methodological advances, highlight conceptual insights, and identify key limitations and opportunities. We focus on hybrid simulation-ML strategies, approaches that integrate SAXS, NMR, and single-molecule data into generative frameworks, and practical challenges in scaling to longer, more complex IDPs while maintaining experimental grounding.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Conformation",
+      "Generative Artificial Intelligence",
+      "Molecular Dynamics Simulation",
+      "Nuclear Magnetic Resonance, Biomolecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Roy, Irawati",
+        "Mondal, Jagannath"
+      ],
+      "short_names": [
+        "Roy I",
+        "Mondal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1090-5199"
+      ],
+      "affiliations": [
+        "Tata Institute of Fundamental Research Hyderabad 36/P, Gopanpally Village, Serilingampally Mandal, Ranga Reddy District, Hyderabad500046, India.",
+        "Tata Institute of Fundamental Research Hyderabad 36/P, Gopanpally Village, Serilingampally Mandal, Ranga Reddy District, Hyderabad500046, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Roy, Irawati",
+        "short_name": "Roy I",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad 36/P, Gopanpally Village, Serilingampally Mandal, Ranga Reddy District, Hyderabad500046, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Jagannath",
+        "short_name": "Mondal J",
+        "identifiers": [
+          "0000-0003-1090-5199"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad 36/P, Gopanpally Village, Serilingampally Mandal, Ranga Reddy District, Hyderabad500046, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2026 May 12",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/22 00:37",
+    "fetched_at": "2026-09-18 02:46:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42014948",
+      "30840442",
+      "41073429",
+      "37108059",
+      "39555603",
+      "41082321",
+      "41706900",
+      "38018910",
+      "36774359",
+      "40264953",
+      "32840111",
+      "35725761",
+      "37241789",
+      "26387102",
+      "41385825",
+      "23794453",
+      "30204435",
+      "38275091",
+      "42475469",
+      "40960922",
+      "38781245",
+      "26387099",
+      "24410358",
+      "41644540",
+      "41137856",
+      "36641212",
+      "36934808",
+      "41086136",
+      "40068541",
+      "35129612",
+      "36674958",
+      "33355572",
+      "40907012",
+      "41851975",
+      "31809054",
+      "39093570",
+      "30979035",
+      "34680048",
+      "38053335",
+      "39851064",
+      "33574233",
+      "37904608",
+      "26387101",
+      "35053175",
+      "38987470",
+      "42129207",
+      "30876367",
+      "27844185",
+      "33623120",
+      "32579908",
+      "41259435",
+      "39740355",
+      "34032235",
+      "30527137",
+      "28095698",
+      "31552948",
+      "39499823",
+      "26387110",
+      "32816485",
+      "32859072",
+      "31617035",
+      "38928405",
+      "28834051",
+      "34845619",
+      "33945530",
+      "42427316",
+      "24008243",
+      "30865820",
+      "41803440",
+      "29808548",
+      "26807783",
+      "40360271",
+      "33421906",
+      "29157493",
+      "39504303",
+      "30909517",
+      "34817999",
+      "40128232",
+      "39651234",
+      "30708285",
+      "36178373",
+      "38370653",
+      "40532196",
+      "29571687",
+      "41932144",
+      "40095314",
+      "40172236",
+      "31548393",
+      "39273672",
+      "39807013",
+      "24656082",
+      "37144719",
+      "39984300",
+      "30091924",
+      "35543707",
+      "30230839",
+      "42140310",
+      "23545493",
+      "39475380",
+      "41053403"
+    ],
+    "review": [
+      "42014948",
+      "30840442",
+      "39555603",
+      "40264953",
+      "37241789",
+      "26387102",
+      "41385825",
+      "23794453",
+      "26387099",
+      "40068541",
+      "35129612",
+      "33355572",
+      "39093570",
+      "30979035",
+      "34680048",
+      "26387101",
+      "35053175",
+      "39740355",
+      "30527137",
+      "26387110",
+      "31617035",
+      "24008243",
+      "41803440",
+      "26807783",
+      "33421906",
+      "29157493",
+      "30909517",
+      "41932144",
+      "39273672",
+      "24656082",
+      "23545493"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.6c00354",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41278538",
+  "title": "Seq2Bind webserver for binding site prediction from sequences using fine-tuned protein language models.",
+  "authors": "Ma, Xiang; Dey, Supantha; Sr, Vaishnavey; Zelinski, Casey; Li, Qi; Chowdhury, Ratul",
+  "journal": "NAR genomics and bioinformatics",
+  "published_date": "2025-11-24",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用微调蛋白语言模型从序列直接预测结合位点和亲和力，无需结构，且明确声称可处理无序蛋白，为无序蛋白PPI界面预测提供了可迁移的AI方法，但未深入无序蛋白互作机制建模。",
+  "abstract": "Decoding protein-protein interactions at the residue level is crucial for understanding cellular mechanisms and developing targeted therapeutics. We present Seq2Bind webserver, a computational framework that leverages fine-tuned protein language models (PLMs) to determine binding affinity between proteins and identify critical binding residues directly from sequences, eliminating the structural requirements that limit affinity prediction tools. We fine-tuned four architectures, including ProtBERT, ProtT5, Evolutionary Scale Modeling 2 (ESM2), and Bidirectional Long Short-Term Memory on the SKEMPI 2.0 dataset. Through systematic alanine mutagenesis on each residue for 6063 dimer proteins from Protein Data Bank, we evaluated each model's ability to identify interface residues. Performance was assessed using N-factor metrics, where N-factor = 3 evaluates whether true residues appear within 3n top predictions for n-interface residues. ESM2 achieved 67.4% and ProtBERT 68.2% interface-residue recovery at N-factor = 3. On an independent panel of 14 human health-relevant protein complexes, Seq2Bind outperformed docking and mutation-based baselines, with ESM2 (37.2%) and ProtBERT (35.1%) exceeding the structural docking HADDOCK3 (32.1%) at N-factor = 2. Our sequence-based approach enables rapid screening, handles disordered proteins, and provides comparable accuracy, making Seq2Bind a valuable prior to steer blind docking protocols to identify putative binding residues from each protein for therapeutic targets. Seq2Bind webserver is freely accessible at https://agrivax.onrender.com/seq2bind/scan under StructF-suite.",
+  "abstract_zh": "在残基水平上解码蛋白质-蛋白质相互作用对于理解细胞机制和开发靶向治疗至关重要。我们提出了Seq2Bind网络服务器，这是一个计算框架，利用微调的蛋白质语言模型（PLMs）直接从序列中确定蛋白质之间的结合亲和力并识别关键结合残基，消除了限制亲和力预测工具的结构需求。我们在SKEMPI 2.0数据集上微调了四种架构，包括ProtBERT、ProtT5、进化尺度建模2（ESM2）和双向长短期记忆网络。通过对蛋白质数据银行中6063个二聚体蛋白的每个残基进行系统性丙氨酸突变扫描，我们评估了每个模型识别界面残基的能力。性能使用N因子指标进行评估，其中N因子=3评估真实残基是否出现在n个界面残基的3n个顶部预测中。ESM2在N因子=3时实现了67.4%的界面残基恢复率，ProtBERT为68.2%。在14个与人类健康相关的蛋白质复合物独立测试组上，Seq2Bind优于对接和基于突变的基线方法，其中ESM2（37.2%）和ProtBERT（35.1%）在N因子=2时超过了结构对接方法HADDOCK3（32.1%）。我们的基于序列的方法能够实现快速筛选，处理无序蛋白质，并提供相当的准确性，使Seq2Bind成为引导盲对接协议以从每个蛋白质中识别治疗靶点推定结合残基的有价值先验。Seq2Bind网络服务器可在https://agrivax.onrender.com/seq2bind/scan下免费访问，属于StructF-suite。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41278538/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41278538/",
+  "paper_page_path": "papers/pubmed/41278538/index.html"
+}

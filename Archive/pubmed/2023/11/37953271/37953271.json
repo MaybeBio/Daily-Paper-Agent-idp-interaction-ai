@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "37953271",
+    "doi": "10.1038/s41467-023-43098-1",
+    "title": "Intra- and inter-molecular regulation by intrinsically-disordered regions governs PUF protein RNA binding."
+  },
+  "content": {
+    "abstract": "PUF proteins are characterized by globular RNA-binding domains. They also interact with partner proteins that modulate their RNA-binding activities. Caenorhabditis elegans PUF protein fem-3 binding factor-2 (FBF-2) partners with intrinsically disordered Lateral Signaling Target-1 (LST-1) to regulate target mRNAs in germline stem cells. Here, we report that an intrinsically disordered region (IDR) at the C-terminus of FBF-2 autoinhibits its RNA-binding affinity by increasing the off rate for RNA binding. Moreover, the FBF-2 C-terminal region interacts with its globular RNA-binding domain at the same site where LST-1 binds. This intramolecular interaction restrains an electronegative cluster of amino acid residues near the 5' end of the bound RNA to inhibit RNA binding. LST-1 binding in place of the FBF-2 C-terminus therefore releases autoinhibition and increases RNA-binding affinity. This regulatory mechanism, driven by IDRs, provides a biochemical and biophysical explanation for the interdependence of FBF-2 and LST-1 in germline stem cell self-renewal.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*RNA/genetics/metabolism",
+      "*Caenorhabditis elegans Proteins/metabolism",
+      "Caenorhabditis elegans/genetics/metabolism",
+      "Protein Binding",
+      "RNA, Messenger/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qiu, Chen",
+        "Zhang, Zihan",
+        "Wine, Robert N",
+        "Campbell, Zachary T",
+        "Zhang, Jun",
+        "Hall, Traci M Tanaka"
+      ],
+      "short_names": [
+        "Qiu C",
+        "Zhang Z",
+        "Wine RN",
+        "Campbell ZT",
+        "Zhang J",
+        "Hall TMT"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1362-4229",
+        "ORCID: 0000-0002-3768-6996",
+        "ORCID: 0000-0002-5842-7424",
+        "ORCID: 0000-0001-6166-3009"
+      ],
+      "affiliations": [
+        "Epigenetics and Stem Cell Biology Laboratory, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, NC, USA.",
+        "Department of Chemistry, University of Alabama at Birmingham, Birmingham, AL, USA.",
+        "Epigenetics and Stem Cell Biology Laboratory, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, NC, USA.",
+        "Department of Anesthesiology, University of Wisconsin School of Medicine and Public Health, Madison, WI, USA.",
+        "Department of Chemistry, University of Alabama at Birmingham, Birmingham, AL, USA.",
+        "Epigenetics and Stem Cell Biology Laboratory, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, NC, USA. hall4@niehs.nih.gov."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qiu, Chen",
+        "short_name": "Qiu C",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Stem Cell Biology Laboratory, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zihan",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0003-1362-4229"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Alabama at Birmingham, Birmingham, AL, USA."
+        ]
+      },
+      {
+        "full_name": "Wine, Robert N",
+        "short_name": "Wine RN",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and Stem Cell Biology Laboratory, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Campbell, Zachary T",
+        "short_name": "Campbell ZT",
+        "identifiers": [
+          "0000-0002-3768-6996"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, University of Wisconsin School of Medicine and Public Health, Madison, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jun",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0002-5842-7424"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Alabama at Birmingham, Birmingham, AL, USA."
+        ]
+      },
+      {
+        "full_name": "Hall, Traci M Tanaka",
+        "short_name": "Hall TMT",
+        "identifiers": [
+          "0000-0001-6166-3009"
+        ],
+        "affiliations": [
+          "Epigenetics and Stem Cell Biology Laboratory, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, NC, USA. hall4@niehs.nih.gov."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Nov 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/13 00:42",
+    "fetched_at": "2026-09-21 02:50:54"
+  },
+  "links": {
+    "cites": [
+      "41999910",
+      "41540012",
+      "40890111",
+      "40631955",
+      "40163518",
+      "39984282",
+      "39925443",
+      "39747099",
+      "39484565",
+      "38915480",
+      "38870936",
+      "38705823",
+      "38290520"
+    ],
+    "refs": [
+      "37729202",
+      "37070766",
+      "36684428",
+      "35381329",
+      "34908132",
+      "34791371",
+      "34265844",
+      "34246632",
+      "34092811",
+      "33352065",
+      "32804074",
+      "32237272",
+      "31740451",
+      "31515205",
+      "31397673",
+      "30652968",
+      "30316580",
+      "29860432",
+      "29695507",
+      "29425497",
+      "29385744",
+      "29339797",
+      "29232700",
+      "28826489",
+      "27911701",
+      "27864381",
+      "27789691",
+      "27754618",
+      "27482653",
+      "27165521",
+      "27048167",
+      "27037624",
+      "26995783",
+      "26481498",
+      "25531225",
+      "25209665",
+      "25002523",
+      "24567412",
+      "24091060",
+      "23159559",
+      "23159558",
+      "22991439",
+      "22708079",
+      "22702725",
+      "22496444",
+      "22205700",
+      "20124702",
+      "19901328",
+      "19461840",
+      "19369425",
+      "19221201",
+      "18579869",
+      "16244662",
+      "15769874",
+      "15572765",
+      "15454534",
+      "15174133",
+      "14967144",
+      "13130134",
+      "12202039",
+      "12050669",
+      "11858839",
+      "11336708",
+      "11336677",
+      "11040214",
+      "10882122",
+      "10600390",
+      "9404893",
+      "9393998",
+      "1576962",
+      "1459455"
+    ],
+    "similar": [
+      "37953271",
+      "40769718",
+      "34908132",
+      "29232700",
+      "23159558",
+      "39747099",
+      "31740451",
+      "31515205",
+      "23159559",
+      "31397673",
+      "37070766",
+      "15769874",
+      "39984282",
+      "23696350",
+      "32804074",
+      "38915480",
+      "20431119",
+      "22205700",
+      "19901328",
+      "20142496",
+      "38290520",
+      "12050669",
+      "22991439",
+      "16037210",
+      "27864381",
+      "27165521",
+      "18579869",
+      "38427913",
+      "18166083",
+      "41495898",
+      "23444359",
+      "19221201",
+      "21968099",
+      "12431376",
+      "36824876",
+      "34478557",
+      "36063869",
+      "21372189",
+      "32196486",
+      "17234175",
+      "16908630",
+      "30459181",
+      "24638209",
+      "16244662",
+      "26268245",
+      "20427513",
+      "37729202",
+      "22496444",
+      "11157761",
+      "19369425",
+      "33231880",
+      "21911377",
+      "19461891",
+      "30652968",
+      "10508609",
+      "23050230",
+      "22797076",
+      "21653694",
+      "12546787",
+      "31975687",
+      "15454534",
+      "25254367",
+      "14511482",
+      "19100255",
+      "29775245",
+      "32117964",
+      "39484565",
+      "16319922",
+      "16000383",
+      "37464233",
+      "24106084",
+      "16407099",
+      "17412319",
+      "22467831",
+      "36766775",
+      "28782521",
+      "22231398",
+      "21455289",
+      "21822213",
+      "15525531",
+      "22635404",
+      "25146970",
+      "9393998",
+      "22708079",
+      "30096346",
+      "35100350",
+      "24254995",
+      "24258276",
+      "16641369",
+      "17276913",
+      "32039211",
+      "32294479",
+      "22548001",
+      "41022629",
+      "35816006",
+      "31294800",
+      "26757772",
+      "19601967",
+      "22399679",
+      "22363657"
+    ],
+    "review": [
+      "37953271",
+      "24638209",
+      "32117964"
+    ],
+    "pmc": [
+      "10641069"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-43098-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37953271/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37953271",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

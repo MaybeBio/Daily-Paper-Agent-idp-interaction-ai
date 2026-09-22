@@ -1,0 +1,338 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.23.707358",
+  "title": "Condensate-Driven Transcriptional Reprogramming Defines Core Vulnerabilities in Esophageal and Gastric Cancers",
+  "doi": "10.64898/2026.02.23.707358",
+  "abstract": "Biomolecular condensates organize key nuclear functions by compartmentalizing biomolecules, yet their contribution to gastrointestinal tumorigenesis remains poorly defined. Integrating multi-omics profiling, functional genomics, and molecular dynamics simulations, we reveal that esophageal and gastric cancers share a condensate-enriched transcriptional program driven by intrinsically disordered proteins involved in transcription, RNA processing, and replication stress. Transcriptomic analyses identify a hyperactive transcriptional state with upregulation of condensate-associated genes, including TOPBP1 and CHERP . Dependency mapping demonstrates that these proteins are essential for tumor cell viability, defining a conserved condensate core across different tumor types. Machine-learned predictions and residue-resolution coarse-grained simulations confirm that TOPBP1 and CHERP undergo phase separation through homotypic interactions mediated by intrinsically disordered regions, with saturation concentrations below 2 µM, consistent with spontaneous condensate formation observed in vitro. Together, these findings establish condensate organization as a fundamental mesoscale principle in upper gastrointestinal cancers and nominate condensate scaffolds as tractable therapeutic vulnerabilities.",
+  "authors": [
+    "Alvarez-Carrion L",
+    "Tejedor AR",
+    "Ardura JA",
+    "Alonso V",
+    "Alonso-Moreno C",
+    "Collepardo-Guevara R",
+    "Gutierrez-Rojas I",
+    "Privat C",
+    "Moreno V",
+    "Calvo E",
+    "Gyorffy B",
+    "Espinosa JR",
+    "Ocana A"
+  ],
+  "published_date": "2026-02-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.23.707358",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.23.707358.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1222532",
+    "raw_record": {
+      "id": "PPR1222532",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1222532"
+        ]
+      },
+      "doi": "10.64898/2026.02.23.707358",
+      "title": "Condensate-Driven Transcriptional Reprogramming Defines Core Vulnerabilities in Esophageal and Gastric Cancers",
+      "authorString": "Alvarez-Carrion L, Tejedor AR, Ardura JA, Alonso V, Alonso-Moreno C, Collepardo-Guevara R, Gutierrez-Rojas I, Privat C, Moreno V, Calvo E, Gyorffy B, Espinosa JR, Ocana A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Alvarez-Carrion L",
+            "lastName": "Alvarez-Carrion",
+            "firstName": "Luis",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cátedra INTHEOS-START-CEU de Oncología de precisión, Facultad de Medicina, , Montepríncipe , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tejedor AR",
+            "lastName": "Tejedor",
+            "firstName": "Andrés",
+            "initials": "AR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9437-6169"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physical Chemistry, , Av. Complutense s/n , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ardura JA",
+            "lastName": "Ardura",
+            "firstName": "Juan",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2827-3364"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cátedra INTHEOS-START-CEU de Oncología de precisión, Facultad de Medicina, , Montepríncipe , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alonso V",
+            "lastName": "Alonso",
+            "firstName": "Verónica",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cátedra INTHEOS-START-CEU de Oncología de precisión, Facultad de Medicina, , Montepríncipe , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alonso-Moreno C",
+            "lastName": "Alonso-Moreno",
+            "firstName": "Carlos",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7588-0781"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Departamento de Química Inorgánica, orgánica y bioquímica. Facultad de Farmacia-Centro de Innovación en Química Avanzada (ORFEO-CINQA), Unidad nanoDrug, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Collepardo-Guevara R",
+            "lastName": "Collepardo-Guevara",
+            "firstName": "Rosana",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1781-7351"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gutierrez-Rojas I",
+            "lastName": "Gutierrez-Rojas",
+            "firstName": "Irene",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cátedra INTHEOS-START-CEU de Oncología de precisión, Facultad de Medicina, , Montepríncipe , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Privat C",
+            "lastName": "Privat",
+            "firstName": "Cristian",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8288-6508"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Experimental Therapeutics CRIS Cancer Unit, and IdSCC and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moreno V",
+            "lastName": "Moreno",
+            "firstName": "Víctor",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "START Madrid-Fundación Jiménez Díaz (FJD) Early Phase Program, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Calvo E",
+            "lastName": "Calvo",
+            "firstName": "Emiliano",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "START Madrid-CIOCC, Centro Integral Oncológico Clara Campal, 28050 ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gyorffy B",
+            "lastName": "Gyorffy",
+            "firstName": "Balazs",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Dept. of Bioinformatics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Espinosa JR",
+            "lastName": "Espinosa",
+            "firstName": "Jorge",
+            "initials": "JR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physical Chemistry, , Av. Complutense s/n , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ocana A",
+            "lastName": "Ocana",
+            "firstName": "Alberto",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cátedra INTHEOS-START-CEU de Oncología de precisión, Facultad de Medicina, , Montepríncipe , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2827-3364"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7588-0781"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8288-6508"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9437-6169"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1781-7351"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Biomolecular condensates organize key nuclear functions by compartmentalizing biomolecules, yet their contribution to gastrointestinal tumorigenesis remains poorly defined. Integrating multi-omics profiling, functional genomics, and molecular dynamics simulations, we reveal that esophageal and gastric cancers share a condensate-enriched transcriptional program driven by intrinsically disordered proteins involved in transcription, RNA processing, and replication stress. Transcriptomic analyses identify a hyperactive transcriptional state with upregulation of condensate-associated genes, including  TOPBP1 and  CHERP . Dependency mapping demonstrates that these proteins are essential for tumor cell viability, defining a conserved condensate core across different tumor types. Machine-learned predictions and residue-resolution coarse-grained simulations confirm that  TOPBP1 and  CHERP undergo phase separation through homotypic interactions mediated by intrinsically disordered regions, with saturation concentrations below 2 µM, consistent with spontaneous condensate formation observed  in vitro. Together, these findings establish condensate organization as a fundamental mesoscale principle in upper gastrointestinal cancers and nominate condensate scaffolds as tractable therapeutic vulnerabilities.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.23.707358"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1222532"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1222532&type=FILE&fileName=EMS215541-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215541",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "go",
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-24",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

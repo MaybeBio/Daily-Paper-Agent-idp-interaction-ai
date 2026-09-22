@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose xCAPT5, a hybrid classifier combining a deep multi-kernel convolutional accumulated pooling siamese neural network (CAPT5) with XGBoost, for sequence-based protein-protein interaction (PPI) prediction. They claim that CAPT5 captures small- and large-scale local features via multi-deep convolutional channels with varying kernel sizes, and that this is the first study to extract amino acid embeddings from a protein language model using a deep convolutional network. They report that xCAPT5 outperforms several state-of-the-art methods on binary PPI prediction tasks, including intra-species, cross-species, inter-species, and stringent similarity benchmarks.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline specifications, or implementation details are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, experimental setup, dataset details, baseline comparisons, statistical significance tests, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible methodological contribution in combining a siamese multi-kernel CNN with XGBoost for PPI prediction, and the claim of being the first to integrate protein language model embeddings into a deep convolutional framework is potentially novel. However, the abstract lacks quantitative evidence, dataset descriptions, and baseline specifications, making the performance claims unverifiable from the supplied material. The writing contains grammatical errors and unclear phrasing that reduce readability. The core novelty claim regarding protein language model integration requires careful verification against existing literature, which cannot be performed from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, particularly those developing deep learning methods for PPI prediction. Researchers interested in applying protein language models to downstream tasks would also find the integration approach relevant. The potential for improved cross-species and stringent similarity performance could attract those working on less-studied organisms or on avoiding data leakage in benchmark design.
+- **Major strengths** The proposed architecture combines established components (siamese CNNs, multi-kernel convolution, XGBoost) in a way that may offer computational efficiency through depth-wise concatenation of pooling features. The explicit focus on extracting protein language model embeddings via deep convolutional networks addresses a gap in the field, as stated. The inclusion of multiple evaluation scenarios (intra-species, cross-species, inter-species, stringent similarity) suggests attention to realistic benchmarking challenges.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Experimental results demonstrate that xCAPT5 outperforms several state-of-the-art methods on binary PPI prediction, including generalized PPI on intra-species, cross-species, inter-species, and stringent similarity tasks."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative results, no dataset names, no baseline method names, and no performance metrics. The claim of outperforming state-of-the-art methods is entirely unsupported by the visible evidence.
+  - **Why it matters** Without specific numbers, dataset descriptions, and baseline comparisons, the reader cannot assess the magnitude of improvement, the statistical significance, or the generalizability of the results. This is the central claim of the paper and must be substantiated with concrete evidence.
+  - **Resolution test** Provide in the abstract or full manuscript: dataset names and sizes, evaluation metrics (e.g., AUC, precision, recall, F1), baseline method names and their reported performance, and statistical significance tests (e.g., p-values or confidence intervals) for the reported improvements.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty verification
+  - **Claim pointer** "This study is the first to extract information-rich amino acid embedding from a protein language model by a deep convolutional network"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of being "the first" to use protein language model embeddings in a deep convolutional network for PPI prediction is a strong novelty assertion. The abstract provides no literature review or comparison to prior work that may have used similar approaches, such as embedding-based methods with CNNs or other architectures.
+  - **Why it matters** Novelty is a key criterion for publication in high-impact venues. If prior work has already integrated protein language model embeddings into convolutional or other deep learning architectures for PPI prediction, this claim would be invalid. The authors must demonstrate thorough literature coverage to support this assertion.
+  - **Resolution test** Include a systematic literature review in the full manuscript that explicitly identifies prior uses of protein language model embeddings in deep learning for PPI prediction, and clearly articulate the specific novel contribution of this work relative to those studies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical clarity
+  - **Claim pointer** "By concatenating max and average pooling features in a depth-wise manner, CAPT5 effectively learns crucial features with low computational cost."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The description of the architecture is insufficiently detailed. The term "depth-wise manner" is ambiguous, and the mechanism by which concatenating max and average pooling features leads to "low computational cost" is not explained. The relationship between the CAPT5 architecture and the XGBoost integration is also unclear.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. Without a clear architectural description, other researchers cannot implement or evaluate the method. The computational cost claim needs justification, as multi-kernel CNNs can be computationally expensive.
+  - **Resolution test** Provide a detailed architectural diagram and pseudocode in the full manuscript, specify the exact layer dimensions, kernel sizes, pooling strategies, and the training procedure. Include a computational complexity analysis or empirical runtime comparison to support the "low computational cost" claim.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Language quality
+  - **Affected element** Abstract, first sentence of the final paragraph
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "we introduces" is grammatically incorrect; it should be "we introduce."
+  - **Required correction** Correct the grammatical error to "we introduce a novel hybrid classifier."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Abstract, description of CAPT5
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The acronym "CAPT5" is introduced without explaining what "5" refers to, and the relationship between "CAPT5" and the repository name "MCAPS" is unclear.
+  - **Required correction** Clarify the meaning of "5" in CAPT5 and explain the connection to the repository name "MCAPS" in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of abstract
+  - **Affected element** Abstract, overall
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention the size of the training data, the number of protein pairs used, or the species included in the evaluation, which limits the reader's ability to gauge the scope of the study.
+  - **Required correction** Add brief information about dataset sizes and species coverage in the abstract or ensure these details are prominently presented in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative evidence) and R1-M2 (unverified novelty claim) are the primary technical failings. R1-M3 (insufficient architectural detail) also needs resolution for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of protein language model embeddings with a multi-kernel siamese CNN and XGBoost is potentially original, but the novelty claim requires verification against prior literature, which is not possible from the abstract alone.
+  - **Scientific importance** PPI prediction from sequences is a fundamental problem, and improvements in cross-species and stringent similarity settings would be valuable. However, the importance of the contribution cannot be assessed without quantitative evidence of improvement over existing methods.
+  - **Interdisciplinary readership** The topic is relevant to computational biology, bioinformatics, and machine learning communities. The abstract is accessible to these audiences, though the grammatical errors and unclear terminology reduce readability.
+  - **Technical soundness** The architectural description is too vague to assess technical soundness. The "low computational cost" claim is unsupported, and the training and evaluation procedures are not described.
+  - **Readability for nonspecialists** The abstract assumes familiarity with siamese networks, protein language models, and XGBoost, which is appropriate for the target audience. However, the grammatical errors and ambiguous phrasing detract from clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach but lacks the quantitative results, dataset details, and literature context needed to evaluate the claims. The authors should provide the full manuscript with comprehensive experimental evidence and a thorough literature review to support the novelty and performance claims.
+
+## Risk / unsupported claims
+- The claim that xCAPT5 outperforms state-of-the-art methods is unsupported by any quantitative data in the abstract.
+- The claim of being "the first" to extract protein language model embeddings via a deep convolutional network for PPI prediction is unverifiable without a literature review.
+- The assertion of "low computational cost" is unsupported by any complexity analysis or runtime data.
+- The generalizability of the method across intra-species, cross-species, inter-species, and stringent similarity tasks is stated but not evidenced with specific results.

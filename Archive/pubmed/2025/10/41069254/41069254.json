@@ -1,0 +1,223 @@
+{
+  "identity": {
+    "pmid": "41069254",
+    "doi": "10.1039/d5nr02822a",
+    "title": "The significance of lipid membrane curvature and lipid order for nano-C60 uptake."
+  },
+  "content": {
+    "abstract": "Interactions that invasive mesoscopic nanoparticles (NPs) experience with the variety of lipid membranes present in our body have the potential to trigger diverse biological responses and endocytic pathways. From a safety perspective, it is therefore crucial to comprehend how these NPs are absorbed by complex biological environments and how they subsequently disperse and disassemble within them. Previous computational research has focussed on evaluating the compositional dependence of NP binding and translocation to 'model' lipid membranes, i.e. membranes that are in equilibrium, flat, fluid and composed of a few lipid species. The observation of strong local variation of curvature and phase along many membranes in biology, however, suggests that these features are important for membrane-related processes. In particular, the thermodynamic factors underlying curvature formation and phase separation appear to be essential for regulating intricate membrane functions such as insertion and dispersion in a precise and controllable manner. In this study, we have employed coarse-grained simulation to shed light on the role of curvature and phase on the adsorption and dispersion of a typical hydrophobic NPs like nano-C60 (or n-C60), for a model setup of a lung membrane at biologically relevant scales. The effect of curvature on n-C60 uptake, which is particularly striking when the membrane is in the gel phase, is explained in terms of lipid defects, and we find that uptake modulates the fluidity and defect characteristics of the resulting membrane in a state-dependent fashion, and will affect protein binding. Our discovery offers key functional insight in the role of the particular curvature and phase, i.e. a combination of a flat gel state and curved fluid state, that the lung membranes exhibits as a primary barrier.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nanoparticles/chemistry",
+      "*Fullerenes/chemistry",
+      "*Lipid Bilayers/chemistry",
+      "*Cell Membrane/chemistry/metabolism",
+      "Thermodynamics",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singhal, Ankush",
+        "van Daalen, T J J",
+        "Sevink, G J Agur"
+      ],
+      "short_names": [
+        "Singhal A",
+        "van Daalen TJJ",
+        "Sevink GJA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2949-6962",
+        "ORCID: 0000-0001-8005-0697"
+      ],
+      "affiliations": [
+        "Leiden Institute of Chemistry, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands. a.singhal@lic.leidenuniv.nl.",
+        "Leiden Institute of Chemistry, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands. a.singhal@lic.leidenuniv.nl.",
+        "Leiden Institute of Chemistry, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands. a.singhal@lic.leidenuniv.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singhal, Ankush",
+        "short_name": "Singhal A",
+        "identifiers": [
+          "0000-0003-2949-6962"
+        ],
+        "affiliations": [
+          "Leiden Institute of Chemistry, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands. a.singhal@lic.leidenuniv.nl."
+        ]
+      },
+      {
+        "full_name": "van Daalen, T J J",
+        "short_name": "van Daalen TJJ",
+        "identifiers": [],
+        "affiliations": [
+          "Leiden Institute of Chemistry, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands. a.singhal@lic.leidenuniv.nl."
+        ]
+      },
+      {
+        "full_name": "Sevink, G J Agur",
+        "short_name": "Sevink GJA",
+        "identifiers": [
+          "0000-0001-8005-0697"
+        ],
+        "affiliations": [
+          "Leiden Institute of Chemistry, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands. a.singhal@lic.leidenuniv.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nanoscale"
+    ],
+    "journal_abbrev": [
+      "Nanoscale"
+    ],
+    "pub_date": "2025 Oct 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/10 06:29",
+    "fetched_at": "2026-09-17 20:55:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41069254",
+      "26608905",
+      "32328605",
+      "32432336",
+      "38646798",
+      "38537131",
+      "27712070",
+      "26420659",
+      "28780125",
+      "24892900",
+      "36604961",
+      "37470374",
+      "26569041",
+      "25757187",
+      "40720670",
+      "30625163",
+      "20146444",
+      "28918189",
+      "35524412",
+      "30644502",
+      "41046336",
+      "29350922",
+      "30398246",
+      "31553568",
+      "40849683",
+      "23964686",
+      "39025583",
+      "31812867",
+      "21354400",
+      "22764423",
+      "25019215",
+      "21981729",
+      "39073356",
+      "24652350",
+      "34757373",
+      "31499808",
+      "38990314",
+      "30908057",
+      "25662630",
+      "27531962",
+      "18229908",
+      "23319147",
+      "27715135",
+      "24417311",
+      "24361870",
+      "28280822",
+      "9931276",
+      "35897670",
+      "31384870",
+      "39025574",
+      "17522680",
+      "29167583",
+      "24491948",
+      "16005959",
+      "25042518",
+      "15626713",
+      "24204827",
+      "32808796",
+      "17316055",
+      "20583770",
+      "33547940",
+      "31241342",
+      "23004787",
+      "23415670",
+      "27526680",
+      "24652483",
+      "25840649",
+      "19751668",
+      "23793773",
+      "30672546",
+      "36930719",
+      "19420432",
+      "26866469",
+      "25008278",
+      "35349297",
+      "36144641",
+      "30941901",
+      "33378379",
+      "16055548",
+      "33086798",
+      "39025573",
+      "23805747",
+      "28744008",
+      "29716201",
+      "22325271",
+      "25484487",
+      "31323177",
+      "28797162",
+      "20858422",
+      "36364637",
+      "40297234",
+      "29742404",
+      "25851418",
+      "25416907",
+      "40478164",
+      "28863515",
+      "23766730",
+      "27163659",
+      "21806937",
+      "29856992"
+    ],
+    "review": [
+      "41069254",
+      "31553568",
+      "35897670",
+      "24491948"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d5nr02822a",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-570",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

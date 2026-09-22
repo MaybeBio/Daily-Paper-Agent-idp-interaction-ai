@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "42508155",
+    "doi": "10.1016/j.bioadv.2026.215080",
+    "title": "AI-derived-intrinsically disordered proteins from antarctic nematode stabilize human cells under freezing stress."
+  },
+  "content": {
+    "abstract": "Cryopreservation and low-temperature stress pose a significant threat to cellular integrity due to ice crystal formation, dehydration, and apoptosis. Extremophiles such as the Antarctic nematode, Plectus murrayi, are a unique biological animal model of novel protective molecules to address this challenge. Here, we investigated the cryoprotective potential of Intrinsically Disordered Proteins (IDPs) derived from P. murray predicted by the \"in-house\" bioinformatic tool. Transcriptomic analysis of P. murray identified dur-1, a gene responsible for its freezing tolerance and homologous to the gene plin4 in humans. Functional validation studies in human 293T cells confirmed that overexpression of plin4 reduced apoptosis and enhanced proliferation significantly under low temperature stress at both 4  degrees C and -20  degrees C, indicating a cross-species conservation of its protective role. Furthermore, the molecular docking predicted strong binding affinities between Plin4 and P. murray-derived IDPs (1, 2, and 3), with IDP2 showing particular promise. Further validation in human skin cell lines (HaCaT, BJ) confirmed that IDP1 and IDP2 significantly enhanced cell viability under both 4  degrees C and freeze-dehydration (-20  degrees C) stresses, while IDP3 was effective specifically at 4  degrees C. However, the protective effect of IDP individually performed not stably along with the duration of low-temperature stress exposure of cells, while the mixture of three IDPs showed more efficient cellular uptake and perinuclear localization. Our findings identify a novel type of biomimetic cryoprotectants with significant potential for applications in cryobiology, biobanking, and the development of therapies for cold-induced cellular damage.",
+    "keywords": [
+      "Antarctic Nematodes",
+      "Cross-Species Conservation",
+      "Cryopreservation",
+      "Intrinsically Disordered Proteins",
+      "Stress Response"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "*Freezing",
+      "*Intrinsically Disordered Proteins/chemistry/pharmacology",
+      "*Nematoda/chemistry",
+      "Cryopreservation",
+      "Antarctic Regions",
+      "*Stress, Physiological/drug effects",
+      "HEK293 Cells",
+      "Cell Survival/drug effects",
+      "*Helminth Proteins/pharmacology/chemistry",
+      "Molecular Docking Simulation",
+      "*Cryoprotective Agents/pharmacology/chemistry",
+      "Apoptosis/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Haoyu",
+        "Zheng, Tianyu",
+        "Liu, Chang",
+        "Liu, Simeng",
+        "Sun, Xiangdong",
+        "Li, Ya",
+        "Xue, Xia"
+      ],
+      "short_names": [
+        "Wang H",
+        "Zheng T",
+        "Liu C",
+        "Liu S",
+        "Sun X",
+        "Li Y",
+        "Xue X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China.",
+        "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China.",
+        "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China.",
+        "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China.",
+        "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China.",
+        "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China.",
+        "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China; State Key Laboratory of Metabolic Dysregulation & Prevention and Treatment of Esophageal Cancer. Electronic address: xue-xiasophia@hotmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Haoyu",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Tianyu",
+        "short_name": "Zheng T",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Chang",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Simeng",
+        "short_name": "Liu S",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xiangdong",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China."
+        ]
+      },
+      {
+        "full_name": "Li, Ya",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Xia",
+        "short_name": "Xue X",
+        "identifiers": [],
+        "affiliations": [
+          "Henan Key Laboratory for Helicobacter pylori and Digestive Tract Microecology, The Fifth Affiliated Hospital of Zhengzhou University, Institute of Rehabilitation Medicine, Henan Academy of Innovations in Medical Science, Tianjian Laboratory of Advanced Biomedical Sciences, Zhengzhou University, Zhengzhou, 450000, Henan, China; Department of Gastroenterology, Fifth Affiliated Hospital of Zhengzhou University, Zhengzhou 450052, China; State Key Laboratory of Metabolic Dysregulation & Prevention and Treatment of Esophageal Cancer. Electronic address: xue-xiasophia@hotmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomaterials advances"
+    ],
+    "journal_abbrev": [
+      "Biomater Adv"
+    ],
+    "pub_date": "2026 Dec",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/27 18:35",
+    "fetched_at": "2026-09-18 05:15:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42508155",
+      "19203352",
+      "25576363",
+      "15710366",
+      "32696375",
+      "20472766",
+      "12477892",
+      "32529603",
+      "39265855",
+      "22987239",
+      "39918490",
+      "35470621",
+      "12686207",
+      "21041385",
+      "41371403",
+      "32756462",
+      "10935523",
+      "26499840",
+      "42323848",
+      "22342926",
+      "40628188",
+      "32423228",
+      "41313085",
+      "14615899",
+      "26509788",
+      "22974447",
+      "10456855",
+      "29330047",
+      "40554121",
+      "16374523",
+      "40184770",
+      "30898848",
+      "21524646",
+      "25542651",
+      "21153645",
+      "10357978",
+      "26370084",
+      "38987470",
+      "31593692",
+      "11912502",
+      "29385704",
+      "23142823",
+      "38592717",
+      "19622137",
+      "22020192",
+      "9660502",
+      "27364314",
+      "31580830",
+      "21815632",
+      "40912070",
+      "36515806",
+      "29478388",
+      "39921190",
+      "23325813",
+      "31102309",
+      "39210560",
+      "23868837",
+      "27660063",
+      "14670097",
+      "12623030",
+      "26376097",
+      "28353262",
+      "38530812",
+      "39863038",
+      "42475469",
+      "17712562",
+      "25098249",
+      "29660758",
+      "38768801",
+      "32014535",
+      "42364663",
+      "30959025",
+      "27021850",
+      "38948281",
+      "15009927",
+      "27916562",
+      "28082102",
+      "31429586",
+      "34827660",
+      "40252312",
+      "27837550",
+      "37328025",
+      "26049089",
+      "28497498",
+      "34508713",
+      "19948163",
+      "35080878",
+      "30288718",
+      "39618127",
+      "23270628",
+      "9130384",
+      "41136847",
+      "12686211",
+      "28525284",
+      "25158243",
+      "24662031",
+      "11672518",
+      "10328912",
+      "31972153",
+      "11751286"
+    ],
+    "review": [
+      "42508155",
+      "14615899",
+      "39210560",
+      "28353262",
+      "31429586",
+      "34827660",
+      "27837550",
+      "19948163",
+      "30288718"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2772-9508(26)00378-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PLIN4-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

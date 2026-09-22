@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, validation, and claims as presented in the provided text
+- **Shared manuscript claim summary** The authors present ReSMAP, a web server that predicts residue-specific membrane-association propensities of intrinsically disordered regions (IDRs) from sequence alone. The method uses a sequence-based partition function trained on molecular dynamics (MD) simulation data from seven IDRs, with additional validation against published NMR and other experimental data from six proteins. The authors claim robustness via leave-one-out cross-validation and demonstrate utility on additional mycobacterial cell division proteins.
+- **Visible evidence base** Main text including Abstract, Introduction, Computational Methods, Results, Discussion; references to Supplementary Figures S1–S5 and Tables S1–S3; web server URL
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S5, S1–S3) not provided; MD simulation details beyond those cited to prior work not fully described; NMR experimental protocols for α-synuclein and other proteins not detailed; web server functionality and interface not assessable from text alone
+
+## Reviewer
+- **Overall assessment** The manuscript describes a practically useful and timely tool for predicting IDR-membrane association from sequence. The conceptual approach, adapting a partition-function framework from nanoparticle binding to membrane association, is reasonable and the validation against multiple experimental datasets is commendable. However, the evidence base is incomplete in several respects, particularly regarding the training data, the treatment of amphipathic helices, and the statistical rigor of the validation. The claims of robustness and broad applicability are only partially supported by the presented material.
+- **Who would be interested in the results, and why** Researchers studying IDR function, membrane-protein interactions, cell signaling, and membrane-associated disease mechanisms. The tool offers rapid sequence-based screening, which could benefit experimentalists seeking candidate regions for mutagenesis or biophysical characterization. The method also has potential applications in synthetic biology and drug discovery where membrane targeting of disordered regions is relevant.
+- **Major strengths** The manuscript addresses a genuine gap in the field, as few sequence-based predictors exist for IDR-membrane association. The use of MD simulation data as training ground truth is a rigorous approach, and the validation against independent experimental data from six proteins is a significant strength. The web server implementation makes the method accessible to the community. The discussion of limitations, including the coarse amino acid grouping and the reduced accuracy for amphipathic helix-containing IDRs, is honest and constructive.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the partition function with three adjustable parameters (q+, q−, q0) accurately predicts residue-specific contact probabilities for fully disordered IDRs, with R² = 0.91.
+  - **Evidence pointer** Results section, Figure 1b,c, Figure S3a–c, Figure S4a
+  - **Concern** The R² = 0.91 is reported for the combined scatter plot of all five fully disordered IDRs, but individual R² values per IDR are not provided. Given the small training set (five IDRs) and the fact that ChiZ contributes 38 μs of simulation data versus 1–16 μs for others, the aggregate R² may be dominated by ChiZ. The leave-one-out cross-validation is mentioned but the resulting R² or RMSE values are not reported, making it impossible to assess generalization performance. Additionally, the RMSE values (0.011–0.043) are small in absolute terms, but the mean contact probabilities for some IDRs may be very low, making relative errors potentially large.
+  - **Why it matters** The central claim of the paper is that ReSMAP provides accurate predictions. Without per-IDR performance metrics and cross-validation results, the reader cannot judge whether the method is genuinely predictive or merely fitting noise in a small dataset. This is critical for establishing the method's utility.
+  - **Resolution test** Provide per-IDR R² and RMSE values for both training and leave-one-out cross-validation. Report the range of mean contact probabilities for each IDR to contextualize the RMSE values. If possible, include a scatter plot of cross-validated predictions versus MD data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that ReSMAP accurately predicts membrane association for IDRs containing amphipathic helices, with R² = 0.83 for FtsQ, SepF1, and α-synuclein combined.
+  - **Evidence pointer** Results section, Figure 1d, Figure S5a,b, Figure S4c
+  - **Concern** The authors acknowledge that prediction accuracy is lower for IDRs with amphipathic helices, but the R² = 0.83 is still presented as high. However, the training data for this case combines MD data (FtsQ, SepF1) with NMR data (α-synuclein, every third residue). These are different types of measurements with potentially different biases. The NMR data for α-synuclein are sparse (every third residue), and the fitting procedure for combining these heterogeneous data types is not described. Furthermore, the parameter values for this combined fit (q+ = 2.29, q− = 0.64, q0 = 1.17) differ substantially from the fully disordered case (q+ = 2.43, q− = 0.26, q0 = 0.59), suggesting the model is not transferable between these two classes of IDRs.
+  - **Why it matters** The authors claim the method works for both fully disordered and amphipathic helix-containing IDRs, but the evidence suggests the model parameters are not universal. If the method requires separate training for different IDR classes, its practical utility is reduced. The heterogeneous data fitting also raises questions about the validity of the R² = 0.83.
+  - **Resolution test** Describe the fitting procedure for combining MD and NMR data. Report per-protein R² and RMSE values for FtsQ, SepF1, and α-synuclein separately. Discuss whether a single set of parameters can be used for both IDR classes or whether class-specific parameters are needed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that the MD simulation protocol was as described by Hicks et al. [5], with simulation times ranging from 1 to 38 μs across the eight IDRs.
+  - **Evidence pointer** Computational Methods section, Table S2
+  - **Concern** The manuscript states that MD simulation details are as previously described, but the specific simulation parameters (e.g., temperature, pressure, salt concentration, membrane composition, equilibration time) are not provided in the text or supplementary material. The lipid compositions are listed in Table S2, but this table is not provided. The total simulation times vary widely (1–38 μs), and the number of replicate runs also varies (4–20), which may affect the statistical quality of the contact probability estimates. Without these details, the training data cannot be independently reproduced or evaluated.
+  - **Why it matters** Reproducibility is a cornerstone of scientific publishing. The training data are the foundation of the method, and if the simulation details are not fully documented, other researchers cannot replicate or extend the work. This is particularly important given the small training set.
+  - **Resolution test** Provide full simulation parameters in the supplementary material, including force field settings, ensemble, temperature, pressure, salt concentration, membrane composition, and equilibration protocol. Include Table S2 with lipid compositions and simulation times for each IDR.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation rigor
+  - **Claim pointer** The claim that experimental data from six proteins provide "mounting evidence in support of the ReSMAP method."
+  - **Evidence pointer** Results section, Figure 2a–f
+  - **Concern** The validation against experimental data is qualitative in nature. For the prolactin receptor, the authors state that ReSMAP predicts three interaction sites, one of which "partially overlaps" with NMR data. For the growth hormone receptor, the prediction matches a single site. For Src kinase Hck, the prediction agrees with one site and predicts an additional site at the N-terminus, which the authors speculate may be consistent with missing resonances. For synaptobrevin-2, the prediction shows a "similar trend" to NMR data. No quantitative metrics (e.g., correlation coefficients, overlap fractions) are provided for any of these comparisons. The T-cell receptor ζ chain and ADAM17 validations are based on mutation data, which are indirect.
+  - **Why it matters** The experimental validation is a key selling point of the paper, but the qualitative nature of the comparisons makes it difficult to assess the method's true predictive power. A method that predicts broad regions of high propensity may trivially overlap with experimental sites. Quantitative comparison would strengthen the claims considerably.
+  - **Resolution test** Provide quantitative measures of agreement for each experimental comparison, such as the fraction of experimentally identified residues within predicted high-propensity regions, or correlation coefficients between predicted propensities and experimental chemical shift changes. For the T-cell receptor and ADAM17, discuss how the mutation data constrain the predictions.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of claims
+  - **Claim pointer** The claim that ReSMAP "fulfills an urgent need" for predicting IDR-membrane association, with the implication that it is broadly applicable.
+  - **Evidence pointer** Discussion section
+  - **Concern** The training set consists of only seven IDRs, all of which are basic-rich and associate with acidic membranes. The validation set includes six additional proteins, but these are also predominantly basic-rich. The method has not been tested on IDRs that associate with neutral or zwitterionic membranes, or on IDRs with different amino acid compositions. The authors acknowledge the limitation of the three-group amino acid classification, but the broader question of whether the method generalizes beyond basic-rich IDRs is not addressed.
+  - **Why it matters** The stated goal is to provide a general tool for predicting IDR-membrane association. If the method only works for basic-rich IDRs, its utility is limited. The authors should either temper their claims or provide evidence of broader applicability.
+  - **Resolution test** Discuss the expected performance on IDRs with different charge distributions or hydrophobic content. If possible, test the method on additional IDRs from published studies that associate with membranes of different compositions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the method is "trained on the MD simulation results of seven IDRs," but the Results section indicates that one of these (SepF2) was used solely for testing, not training. This is inconsistent.
+  - **Required correction** Clarify in the abstract that the method is trained on six IDRs and tested on one, or rephrase to "trained on MD simulation results of six IDRs and tested on an additional IDR."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Computational Methods
+  - **Evidence pointer** Equation (1a) and (1b)
+  - **Issue** The conversion of ztip to contact probability via a smooth function is described, but the rationale for the specific functional form is not given. The fit parameters (z0, L1, L0, Lm, Lw) are stated to be fit to previous "raw" contact probability data, but the fitting procedure and the quality of the fit are not described.
+  - **Required correction** Provide a brief justification for the functional form and report the goodness of fit (e.g., R² or RMSE) for the conversion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section
+  - **Evidence pointer** Figure 2a–f
+  - **Issue** The figure captions for Figure 2 are not provided in the text, making it difficult to interpret the experimental data being compared. The text refers to "chemical shift differences" and "missing peaks" but does not specify the exact NMR observables or conditions.
+  - **Required correction** Ensure figure captions are complete and self-explanatory, including details on the NMR experiments and the specific residues or regions being compared.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Web server
+  - **Evidence pointer** Results section, web server URL
+  - **Issue** The web server URL is provided, but there is no description of the input format, output format, or usage instructions. The authors state that predictions for FtsB and FtsL are shown in Figures 3 and 4, but these figures are not described in the text.
+  - **Required correction** Add a brief description of the web server interface and usage in the main text or supplementary material. Ensure Figures 3 and 4 are referenced and described in the text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Title and Abstract
+  - **Evidence pointer** Title, Abstract
+  - **Issue** The title uses "Residue-Specific Membrane-Association Propensities," but the Discussion section refers to "membrane association propensities of intrinsically ordered proteins" (likely a typo for "disordered"). This inconsistency could confuse readers.
+  - **Required correction** Correct the typo in the Discussion section and ensure consistent terminology throughout.
+
+## Risk / unsupported claims
+- The claim that ReSMAP predictions are "robust" based on leave-one-out cross-validation is not supported by reported cross-validation metrics (R² or RMSE values not provided).
+- The claim that the method is broadly applicable to IDR-membrane association is not supported by the limited training and validation set, which is biased toward basic-rich IDRs and acidic membranes.
+- The claim that the method accurately predicts membrane association for amphipathic helix-containing IDRs is only weakly supported, given the heterogeneous data fitting and acknowledged lower accuracy.
+- The claim that the experimental validation provides "mounting evidence" is not quantitatively supported, as no statistical measures of agreement are provided.
+- The performance of the web server itself cannot be assessed from the provided material, as no usage examples or output demonstrations are given.

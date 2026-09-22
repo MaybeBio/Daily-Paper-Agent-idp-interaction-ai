@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "42000821",
+    "doi": "10.1038/s41598-026-46442-9",
+    "title": "Peptide ligands to explore interactions with intrinsically disordered multidomain proteins: the case of SARS-CoV-2 nucleocapsid protein."
+  },
+  "content": {
+    "abstract": "The SARS-CoV-2 nucleocapsid protein (N), essential for viral RNA packaging, comprises a structured RNA-binding domain, NTD(44-180), flanked by intrinsically disordered regions, IDR1 (1-43) and IDR2 (181-248). This extended, positively charged RNA-binding surface makes it an attractive target for synthetic ligands able to interfere with its function. In this study, peptide ligands were explored as synthetically accessible alternatives for modulating N interactions. After confirming the ability of a reference peptide (P0) in engaging IDRs in the interaction, we shifted our attention to key properties that modulate the interaction with the central domain NTD(44-180). Two new peptides (P1 and P2) were designed with identical amino acid compositions but distinct sequence arrangements. In each one a para-fluorinated phenylalanine residue was incorporated to introduce an aromatic component useful to mimic RNA bases and enable (19)F NMR detection. Molecular dynamics simulations, circular dichroism, and NMR spectroscopy were combined to characterize the structural, dynamic and binding properties of P1 and P2. Both peptides involve the RNA-binding groove of the N protein (NTD(44-180)). While P1 demonstrated higher alpha-helical propensity and favorable electrostatic interactions, P2 displayed stronger interactions through enhanced conformational adaptability. (19)F NMR experiments confirmed complex formation also from the ligand perspective. These findings support a modular peptide design strategy for targeting multidomain proteins.",
+    "keywords": [
+      "19F NMR spectroscopy",
+      "Intrinsically disordered protein regions (IDRs)",
+      "Molecular dynamics simulations",
+      "Peptide-protein interactions",
+      "SARS-CoV-2 nucleocapsid protein",
+      "Synthetic tailored peptides"
+    ],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "Ligands",
+      "*Peptides/chemistry/metabolism",
+      "*Coronavirus Nucleocapsid Proteins/metabolism/chemistry",
+      "*SARS-CoV-2/metabolism",
+      "Protein Binding",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry",
+      "*Nucleocapsid Proteins/metabolism/chemistry",
+      "Humans",
+      "Phosphoproteins/metabolism/chemistry",
+      "Circular Dichroism",
+      "Protein Domains",
+      "Magnetic Resonance Spectroscopy",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tino, A S",
+        "Quagliata, M",
+        "Schiavina, M",
+        "Attanasio, L",
+        "Santos, B P O",
+        "Pacini, L",
+        "Papini, A M",
+        "Pierattelli, R",
+        "Felli, I C"
+      ],
+      "short_names": [
+        "Tino AS",
+        "Quagliata M",
+        "Schiavina M",
+        "Attanasio L",
+        "Santos BPO",
+        "Pacini L",
+        "Papini AM",
+        "Pierattelli R",
+        "Felli IC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy.",
+        "Magnetic Resonance Center (CERM), University of Florence, Via Luigi Sacconi 6, 50019, Sesto Fiorentino, Florence, Italy.",
+        "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy.",
+        "Interdepartmental Research Unit of Peptide and Protein Chemistry and Biology (PeptLab), University of Florence, Via Della Lastruccia 13, 50019, Sesto Fiorentino, Florence, Italy.",
+        "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy.",
+        "Magnetic Resonance Center (CERM), University of Florence, Via Luigi Sacconi 6, 50019, Sesto Fiorentino, Florence, Italy.",
+        "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy.",
+        "Magnetic Resonance Center (CERM), University of Florence, Via Luigi Sacconi 6, 50019, Sesto Fiorentino, Florence, Italy.",
+        "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy.",
+        "Magnetic Resonance Center (CERM), University of Florence, Via Luigi Sacconi 6, 50019, Sesto Fiorentino, Florence, Italy.",
+        "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy.",
+        "Interdepartmental Research Unit of Peptide and Protein Chemistry and Biology (PeptLab), University of Florence, Via Della Lastruccia 13, 50019, Sesto Fiorentino, Florence, Italy.",
+        "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy. annamaria.papini@unifi.it.",
+        "Interdepartmental Research Unit of Peptide and Protein Chemistry and Biology (PeptLab), University of Florence, Via Della Lastruccia 13, 50019, Sesto Fiorentino, Florence, Italy. annamaria.papini@unifi.it.",
+        "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy. roberta.pierattelli@unifi.it.",
+        "Magnetic Resonance Center (CERM), University of Florence, Via Luigi Sacconi 6, 50019, Sesto Fiorentino, Florence, Italy. roberta.pierattelli@unifi.it.",
+        "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy. isabellacaterina.felli@unifi.it.",
+        "Magnetic Resonance Center (CERM), University of Florence, Via Luigi Sacconi 6, 50019, Sesto Fiorentino, Florence, Italy. isabellacaterina.felli@unifi.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tino, A S",
+        "short_name": "Tino AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy.",
+          "Magnetic Resonance Center (CERM), University of Florence, Via Luigi Sacconi 6, 50019, Sesto Fiorentino, Florence, Italy."
+        ]
+      },
+      {
+        "full_name": "Quagliata, M",
+        "short_name": "Quagliata M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy.",
+          "Interdepartmental Research Unit of Peptide and Protein Chemistry and Biology (PeptLab), University of Florence, Via Della Lastruccia 13, 50019, Sesto Fiorentino, Florence, Italy."
+        ]
+      },
+      {
+        "full_name": "Schiavina, M",
+        "short_name": "Schiavina M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy.",
+          "Magnetic Resonance Center (CERM), University of Florence, Via Luigi Sacconi 6, 50019, Sesto Fiorentino, Florence, Italy."
+        ]
+      },
+      {
+        "full_name": "Attanasio, L",
+        "short_name": "Attanasio L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy.",
+          "Magnetic Resonance Center (CERM), University of Florence, Via Luigi Sacconi 6, 50019, Sesto Fiorentino, Florence, Italy."
+        ]
+      },
+      {
+        "full_name": "Santos, B P O",
+        "short_name": "Santos BPO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy.",
+          "Magnetic Resonance Center (CERM), University of Florence, Via Luigi Sacconi 6, 50019, Sesto Fiorentino, Florence, Italy."
+        ]
+      },
+      {
+        "full_name": "Pacini, L",
+        "short_name": "Pacini L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy.",
+          "Interdepartmental Research Unit of Peptide and Protein Chemistry and Biology (PeptLab), University of Florence, Via Della Lastruccia 13, 50019, Sesto Fiorentino, Florence, Italy."
+        ]
+      },
+      {
+        "full_name": "Papini, A M",
+        "short_name": "Papini AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy. annamaria.papini@unifi.it.",
+          "Interdepartmental Research Unit of Peptide and Protein Chemistry and Biology (PeptLab), University of Florence, Via Della Lastruccia 13, 50019, Sesto Fiorentino, Florence, Italy. annamaria.papini@unifi.it."
+        ]
+      },
+      {
+        "full_name": "Pierattelli, R",
+        "short_name": "Pierattelli R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy. roberta.pierattelli@unifi.it.",
+          "Magnetic Resonance Center (CERM), University of Florence, Via Luigi Sacconi 6, 50019, Sesto Fiorentino, Florence, Italy. roberta.pierattelli@unifi.it."
+        ]
+      },
+      {
+        "full_name": "Felli, I C",
+        "short_name": "Felli IC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry \"Ugo Schiff\", University of Florence, Via Della Lastruccia 3-13, 50019, Sesto Fiorentino, Florence, Italy. isabellacaterina.felli@unifi.it.",
+          "Magnetic Resonance Center (CERM), University of Florence, Via Luigi Sacconi 6, 50019, Sesto Fiorentino, Florence, Italy. isabellacaterina.felli@unifi.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Apr 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/19 13:11",
+    "fetched_at": "2026-09-18 02:33:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40945576",
+      "40912879",
+      "40652394",
+      "40343796",
+      "40198698",
+      "40168619",
+      "39912211",
+      "39116133",
+      "39093972",
+      "38718862",
+      "38660732",
+      "38587193",
+      "38470351",
+      "38251829",
+      "38232879",
+      "37901441",
+      "37805934",
+      "37387789",
+      "37286558",
+      "36239115",
+      "36139141",
+      "35883485",
+      "35842466",
+      "35077748",
+      "35044811",
+      "34995480",
+      "34611326",
+      "34278794",
+      "34161778",
+      "34041264",
+      "33794152",
+      "33660218",
+      "33264373",
+      "33247108",
+      "33148639",
+      "32997265",
+      "32097611",
+      "32047258",
+      "31911439",
+      "31678340",
+      "30295487",
+      "29466338",
+      "29323432",
+      "28445744",
+      "28186245",
+      "27514284",
+      "26922996",
+      "26583988",
+      "24773235",
+      "24739139",
+      "24702702",
+      "24502763",
+      "23962882",
+      "23848319",
+      "22613562",
+      "22130572",
+      "19499576",
+      "19399780",
+      "18573080",
+      "16211538",
+      "8019138"
+    ],
+    "similar": [
+      "42000821",
+      "40945576",
+      "38941236",
+      "42511729",
+      "39912211",
+      "40912879",
+      "41264349",
+      "39653699",
+      "38718862",
+      "39174826",
+      "35551296",
+      "36139141",
+      "33660218",
+      "33730325",
+      "38885868",
+      "38587193",
+      "40375582",
+      "38153183",
+      "33782395",
+      "39766245",
+      "40820302",
+      "33270159",
+      "39412257",
+      "39380503",
+      "38018991",
+      "40664703",
+      "39082816",
+      "33477032",
+      "33990585",
+      "35883485",
+      "33264373",
+      "33479198",
+      "19052082",
+      "32323533",
+      "39093972",
+      "41672170",
+      "25207671",
+      "33200826",
+      "37526269",
+      "40490992",
+      "41596323",
+      "39708056",
+      "17379242",
+      "35240128",
+      "33664866",
+      "26030674",
+      "36708355",
+      "32640381",
+      "37704176",
+      "39489230",
+      "33314794",
+      "36748338",
+      "41903808",
+      "35796388",
+      "28002650",
+      "36040256",
+      "40558039",
+      "33095454",
+      "34161778",
+      "35696898",
+      "40097964",
+      "39201466",
+      "41651417",
+      "34406867",
+      "41468288",
+      "41600868",
+      "33122085",
+      "25492314",
+      "35196007",
+      "36533523",
+      "18561946",
+      "40830575",
+      "32749662",
+      "40113149",
+      "21203940",
+      "36985506",
+      "24501403",
+      "37750540",
+      "36209362",
+      "32829876",
+      "17002283",
+      "35077748",
+      "15759315",
+      "33248025",
+      "41665261",
+      "40858555",
+      "23912807",
+      "16228284",
+      "27844185",
+      "24418573",
+      "32562316",
+      "33030907",
+      "37348142",
+      "40259455",
+      "40631955",
+      "34734665",
+      "33794152",
+      "39341499",
+      "39541975",
+      "39186607"
+    ],
+    "review": [
+      "42000821",
+      "40912879"
+    ],
+    "pmc": [
+      "13254127"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-46442-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42000821/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

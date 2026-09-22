@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42657059",
+  "title": "Simulating Thermoresponsive Behavior of Disordered Proteins with Temperature-Dependent Coarse-Grained Potentials Derived from Hydration Free Energies.",
+  "authors": "Chen, Fangke; Zeng, Xiangze",
+  "journal": "JACS Au",
+  "published_date": "2026-08-27",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过全原子MD模拟建立温度依赖的粗粒化势能，将水合自由能与IDP相分离行为关联，实现了UCST/LCST热响应相变的物理建模，直接契合无序蛋白互作与相分离的机制模拟需求。",
+  "abstract": "Thermoresponsive phase transitions of intrinsically disordered proteins (IDPs), including both upper critical solution temperature (UCST) and lower critical solution temperature (LCST) transitions, are widely observed in natural and synthetic sequences. However, most existing coarse-grained (CG) models employ temperature-independent interactions and fail to capture solvation-driven LCST behavior. Here, we bridge the gap between atomistic hydration and macroscopic phase separation. Leveraging 500 mus long extensive all-atom molecular dynamics simulations, we reveal a fundamental linear correlation between the temperature-dependent inter-residue interaction strengths and hydration free energies. Furthermore, we demonstrate that the heterotypic interactions at the molecular level can be well approximated by a simple combination of the homotypic interactions. We incorporate these thermodynamic insights into a physics-based framework, TEA (Temperature-dependent Energetics derived from hydrAtion), which introduces temperature-dependent potentials with minimal phenomenological fitting. The TEA-augmented CG models robustly distinguish UCST- and LCST-type sequences, successfully identify experimentally reported outliers, and accurately reproduce LCST-type single-chain compaction trends and phase diagrams of multiple disordered proteins. Our work provides a transferable and physically interpretable framework that bridges atomistic hydration thermodynamics and phase behavior of IDPs, enabling the simulation of thermoresponsive sequences with minimal phenomenological fitting.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 的热响应相变，包括上临界溶解温度（UCST）和下临界溶解温度（LCST）转变，在天然和合成序列中被广泛观察到。然而，大多数现有的粗粒化（CG）模型采用与温度无关的相互作用，无法捕捉由溶剂化驱动的LCST行为。在此，我们弥合了原子级水合与宏观相分离之间的鸿沟。利用500微秒长的全原子分子动力学模拟，我们揭示了温度依赖的残基间相互作用强度与水合自由能之间的基本线性相关性。此外，我们证明分子层面的异型相互作用可以通过同型相互作用的简单组合来近似。我们将这些热力学见解整合到一个基于物理的框架TEA（Temperature-dependent Energetics derived from hydrAtion）中，该框架引入温度依赖的势能，且仅需最少的现象学拟合。TEA增强的CG模型稳健地区分UCST型和LCST型序列，成功识别实验报道的异常值，并准确再现多种无序蛋白的LCST型单链压缩趋势和相图。我们的工作提供了一个可转移且物理可解释的框架，桥接了原子级水合热力学与IDPs的相行为，使得以最少现象学拟合模拟热响应序列成为可能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42657059/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42657059/",
+  "paper_page_path": "papers/pubmed/42657059/index.html"
+}

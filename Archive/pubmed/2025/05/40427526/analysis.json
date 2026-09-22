@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40427526",
+  "title": "The Wheat Intrinsically Disordered Protein TdRL1 Negatively Regulates the Type One Protein Phosphatase TdPP1.",
+  "authors": "Amor, Fatma; Bradai, Mariem; Zaidi, Ikram; Amorim-Silva, Vitor; Miled, Nabil; Hanin, Moez; Ebel, Chantal",
+  "journal": "Biomolecules",
+  "published_date": "2025-05-28",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究小麦无序蛋白TdRL1与磷酸酶TdPP1的互作及抑制机制，结合结构建模揭示无序尾部的结合模式，虽对象为植物蛋白且方法偏结构建模而非AI/MD，但无序蛋白介导的PPI机制建模对本课题有直接启发。",
+  "abstract": "Type 1 protein phosphatases (PP1s) are crucial in various plant cellular processes. Their function is controlled by regulators known as PP1-interacting proteins (PIPs), often intrinsically disordered, such as Inhibitor 2 (I2), conserved across kingdoms. The durum wheat TdRL1 acts as a positive regulator of plant stress tolerance, presumably by inhibiting PP1 activity. In this work, co-immunoprecipitation and bimolecular fluorescence complementation (BiFC) assays demonstrate that the durum wheat TdPP1 interacts with both TdRL1 and At-I2 in vivo. YFP fluorescence restored after TdRL1-TdPP1 interaction decorated specifically the microtubular network of the tobacco co-infiltrated cells. In vitro phosphatase assays revealed that TdRL1 inhibited the activity of wild-type TdPP1 and two mutant forms (T243M and H135A) in a concentration-dependent manner, showing a novel and potent inhibition mechanism. Structural modeling of the TdPP1-inhibitor complexes suggested that both At-I2 and TdRL1 bind to TdPP1 by wrapping their flexible C-terminal tails around it, blocking access to the active site. Remarkably, the model showed that TdRL1 differs from At-I2 in its interaction with TdPP1 by trapping the phosphatase with its N-terminal tail. These findings provide important insights into the regulatory mechanisms governing the activity of PP1s in plants and highlight the potential for targeted inhibition to modulate plant stress responses.",
+  "abstract_zh": "1型蛋白磷酸酶（PP1s）在植物多种细胞过程中至关重要。其功能受称为PP1相互作用蛋白（PIPs）的调节因子控制，这些蛋白通常为内在无序蛋白，如抑制剂2（I2），在生物界中保守存在。硬粒小麦TdRL1作为植物胁迫耐受性的正调控因子，推测通过抑制PP1活性发挥作用。在本研究中，免疫共沉淀和双分子荧光互补（BiFC）实验表明，硬粒小麦TdPP1在体内与TdRL1和At-I2均发生相互作用。TdRL1-TdPP1相互作用后恢复的YFP荧光特异性地装饰于烟草共浸润细胞的微管网络。体外磷酸酶实验揭示，TdRL1以浓度依赖性方式抑制野生型TdPP1及其两种突变体（T243M和H135A）的活性，展示了一种新颖且强效的抑制机制。TdPP1-抑制剂复合物的结构建模表明，At-I2和TdRL1均通过将其柔性C末端尾部缠绕在TdPP1周围来结合，从而阻断活性位点的进入。值得注意的是，模型显示TdRL1与At-I2在TdPP1相互作用上的差异在于，其通过N末端尾部捕获磷酸酶。这些发现为植物中PP1s活性的调控机制提供了重要见解，并强调了靶向抑制在调节植物胁迫响应中的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40427526/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40427526/",
+  "paper_page_path": "papers/pubmed/40427526/index.html"
+}

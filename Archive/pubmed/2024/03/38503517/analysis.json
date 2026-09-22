@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38503517",
+  "title": "Protein domains of low sequence complexity-dark matter of the proteome.",
+  "authors": "McKnight, Steven L",
+  "journal": "Genes & development",
+  "published_date": "2024-03-20",
+  "window": {
+    "start": "2024-03-18",
+    "end": "2024-03-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该观点文章探讨低序列复杂度蛋白结构域（无序蛋白）的进化起源与功能，但未涉及PPI或AI/物理模拟方法，仅提供背景性启发。",
+  "abstract": "This perspective begins with a speculative consideration of the properties of the earliest proteins to appear during evolution. What did these primitive proteins look like, and how were they of benefit to early forms of life? I proceed to hypothesize that primitive proteins have been preserved through evolution and now serve diverse functions important to the dynamics of cell morphology and biological regulation. The primitive nature of these modern proteins is easy to spot. They are composed of a limited subset of the 20 amino acids used by traditionally evolved proteins and thus are of low sequence complexity. This chemical simplicity limits protein domains of low sequence complexity to forming only a crude and labile type of protein structure currently hidden from the computational powers of machine learning. I conclude by hypothesizing that this structural weakness represents the underlying virtue of proteins that, at least for the moment, constitute the dark matter of the proteome.",
+  "abstract_zh": "本视角始于对进化过程中最早出现的蛋白质特性的推测性思考。这些原始蛋白质长什么样，它们如何对早期生命形式有益？我进而假设，原始蛋白质在进化中被保留下来，如今在细胞形态动力学和生物调控中发挥着多种重要功能。这些现代蛋白质的原始性质易于识别。它们仅由传统进化蛋白质所使用的20种氨基酸中的有限子集组成，因此序列复杂度较低。这种化学简单性限制了低序列复杂度蛋白质结构域，使其只能形成一种粗糙且不稳定的蛋白质结构类型，目前这种结构仍超出机器学习计算能力的范围。我最后假设，这种结构上的弱点代表了蛋白质的内在优势，至少目前，它们构成了蛋白质组中的暗物质。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38503517/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38503517/",
+  "paper_page_path": "papers/pubmed/38503517/index.html"
+}

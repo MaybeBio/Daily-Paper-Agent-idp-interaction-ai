@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to characterize three disorder-to-order transition (DOT) regions in archaeal tRNA methyltransferase 5 (aTrm5), propose that these regions stabilize the protein-tRNA complex, and argue that a G37A mutation in tRNA reduces binding affinity and disrupts productive interactions with the AdoMet ligand, with Arg145 playing a key role.
+- **Visible evidence base** Abstract, Introduction, Methods and Materials, Results and Discussion, Conclusions, figure references (Figures 1–7, Figures S1–S13), equations for binding free energy
+- **Missing materials affecting confidence** Figures and supplementary figures not provided; simulation input files, force field parameters, and system setup details not provided; no experimental validation data; no statistical analysis of simulation replicates; no convergence criteria or error estimates reported
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question about the role of intrinsically disordered regions in tRNA-modifying enzymes, using MD simulations to study conformational transitions and binding energetics. The topic is of interest to the structural biology and RNA modification communities. However, the evidence presented is entirely computational, and several methodological details are missing or unclear. The central claims about the functional importance of DOT regions and the specific role of Arg145 are plausible but not fully established from the supplied material. The manuscript would benefit from clearer presentation of simulation protocols, quantitative comparisons, and a more cautious interpretation of the mutational analysis.
+- **Who would be interested in the results, and why** Researchers studying tRNA modification enzymes, intrinsically disordered proteins, protein-RNA recognition, and computational enzymology. The findings may also be relevant to those interested in the molecular basis of methyltransferase specificity and the design of inhibitors targeting disordered regions.
+- **Major strengths** The study addresses an under-explored aspect of aTrm5 function, namely the role of DOT regions in complex stabilization. The use of multiple simulation systems (free, unliganded, wild-type complex, mutant complex) is a reasonable approach. The identification of Arg145 as a potentially critical residue in DOT3 is a specific and testable hypothesis. The authors also consider structural compactness and domain distances, which adds some depth to the analysis.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that DOT residues are "important for stabilising the complex" and that "the energetic contribution shows that DOT residues are important for stabilising the complex."
+  - **Evidence pointer** Section 3.1, Section 3.5, Figures 6 and 7
+  - **Concern** The energetic analysis relies on MMGBSA and MMPBSA calculations, but no error estimates, convergence checks, or statistical comparisons between wild-type and mutant complexes are provided. The claim that DOT regions are "important" is based on per-residue decomposition, but the criteria for "importance" are not defined. Without standard deviations or replicate-level analysis, it is not possible to assess whether the reported differences are meaningful.
+  - **Why it matters** The central conclusion of the paper depends on the reliability of the binding free energy calculations. If the energetic differences are within noise, the functional interpretation is unsupported.
+  - **Resolution test** Provide per-replicate energy values, standard errors, and a statistical test (e.g., bootstrap or t-test) comparing wild-type and mutant complexes. Show that the per-residue contributions are consistent across replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the loss of productive interactions upon G37A mutation drives the AdoMet ligand away from the 37th nucleotide, and Arg145 in DOT3 plays a crucial role in stabilising the ligand, as well as the G37 nucleotide, in the wild-type complex."
+  - **Evidence pointer** Section 3.3, Figures 4 and 5
+  - **Concern** The mechanistic claim about Arg145 is based on visual inspection of a single trajectory frame (100 ns) and distance measurements. No quantitative analysis of interaction persistence, hydrogen bond occupancy, or contact lifetimes is provided. The claim that Arg145 "hinders" interactions in the mutant is not supported by quantitative data.
+  - **Why it matters** The proposed mechanism is a key finding of the study. Without quantitative interaction analysis, the interpretation remains speculative.
+  - **Resolution test** Provide time-averaged interaction distances, hydrogen bond occupancy plots, and contact maps for Arg145 with the ligand and nucleotide in both wild-type and mutant simulations. Show that the proposed loss of interaction is statistically robust across replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe simulation systems including "unliganded complex" and "free protein" but do not clearly define what these terms mean in terms of molecular composition.
+  - **Evidence pointer** Section 2.2
+  - **Concern** It is unclear whether the "unliganded complex" refers to the protein without tRNA, without the ligand, or without both. Similarly, the "free protein" is not clearly defined. This ambiguity affects the interpretation of all comparative analyses.
+  - **Why it matters** Reproducibility requires precise definition of all simulated systems. Without this, the reader cannot evaluate the validity of the comparisons.
+  - **Resolution test** Clearly define each simulated system in a table or in the text, including which components (protein, tRNA, ligand, ions, water) are present in each.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "targeting DOT regions for binding could improve the inhibition of Trm5."
+  - **Evidence pointer** Abstract, Section 4
+  - **Concern** This statement is presented as a practical implication, but no evidence is provided that DOT regions are druggable, that inhibition via these regions would be selective, or that the computational findings translate to experimental settings. The claim goes beyond the data.
+  - **Why it matters** Overstatement of translational relevance can mislead readers and is not supported by the computational evidence presented.
+  - **Resolution test** Either remove or soften this claim, or provide additional evidence (e.g., comparison with known inhibitors, binding site analysis, or experimental references) to support it.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** "The simulations of wild-type and G37A tRNA mutant complexes were repeated with a random seed to examine the consistency of the results."
+  - **Issue** The phrase "repeated with a random seed" is vague. It is unclear whether this means a second independent simulation with different initial velocities or a continuation of the same trajectory.
+  - **Required correction** Specify the exact protocol for the replicate simulations, including how initial velocities were generated and whether the same starting structure was used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** "The energy minimisation of each molecule was carried out for 50,000 steps."
+  - **Issue** The minimization protocol is described only by the number of steps. The algorithm, convergence criteria, and whether this was a single or multi-stage minimization are not stated.
+  - **Required correction** Provide details of the minimization algorithm and convergence criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** "The binding free energy calculations of wild-type and aTrm5 mutant tRNA complexes were performed using MMGBSA and MMPBSA methods with an ionic strength of 0.1 M."
+  - **Issue** The ionic strength is stated, but the salt concentration model and how it was implemented in the calculation are not described.
+  - **Required correction** Specify the salt model used and how ionic strength was incorporated into the MMGBSA/MMPBSA calculations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1
+  - **Evidence pointer** "The results showed that both AdoMet ligand and G37 are close to DOT3 regions with a distance of about 2.5 Å throughout the simulations."
+  - **Issue** The distance of 2.5 Å is very short and likely refers to a specific atom pair, but this is not specified. It is unclear which atoms were used for the distance measurement.
+  - **Required correction** Specify the atoms used for distance measurements and report the distance as a time-averaged value with standard deviation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.5
+  - **Evidence pointer** "Specifically, the residues Lys72, Arg78, Ser96, Arg136, and Arg145 have binding energies of less than −5 kcal/mol in the wild-type aTrm5 complex."
+  - **Issue** The threshold of −5 kcal/mol is arbitrary and not justified. It is unclear whether this threshold is meant to indicate significance.
+  - **Required correction** Justify the threshold or present the full per-residue energy profile so the reader can assess significance.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1
+  - **Evidence pointer** "we generated 10 models and selected the structure that had the lowest DOPE score"
+  - **Issue** The modeling of the DOT regions is a critical step, but the quality of the models is not assessed. No validation of the modeled regions is provided.
+  - **Required correction** Provide model validation metrics (e.g., Ramachandran plots, DOPE score distribution, or comparison with known structures).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical analysis of energetic calculations), R1-M2 (lack of quantitative interaction analysis), R1-M3 (ambiguous system definitions), R1-M4 (overstated translational claim)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of MD simulations to study DOT regions in aTrm5 is somewhat novel, but the general concept of disordered regions in RNA-binding proteins is well established.
+  - Scientific importance: Moderate. The findings are of interest to specialists in tRNA modification and protein-RNA interactions, but the impact is limited by the purely computational nature of the study and the lack of experimental validation.
+  - Interdisciplinary readership: Limited. The manuscript is likely to appeal mainly to computational biologists and structural biologists working on RNA modification enzymes. The broader readership may find the topic too specialized.
+  - Technical soundness: Weak. Several methodological details are missing, and the key quantitative claims are not supported by statistical analysis.
+  - Readability for nonspecialists: Adequate. The manuscript is generally well written, but some sections assume familiarity with MD simulation terminology and tRNA modification biology.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question, but the central claims are not sufficiently supported by the presented computational evidence. The authors need to provide more rigorous quantitative analysis, clearer system definitions, and a more cautious interpretation of their results before the case is established.
+
+## Risk / unsupported claims
+- The claim that DOT regions are "important for stabilising the complex" is not supported by statistical analysis of the energetic calculations.
+- The claim that Arg145 "plays a crucial role in stabilising the ligand, as well as the G37 nucleotide" is based on qualitative inspection of single frames and lacks quantitative interaction analysis.
+- The claim that "targeting DOT regions for binding could improve the inhibition of Trm5" is speculative and not supported by the data presented.
+- The statement that "the wild type is more stable than the G37A tRNA mutant complex" is based on energetic calculations without reported error estimates or statistical testing.
+- The assertion that "DOT1 and DOT2 are mainly observed to be important for stabilising the complex" is not quantitatively justified.

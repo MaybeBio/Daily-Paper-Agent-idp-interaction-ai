@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "42657784",
+    "doi": "10.1210/endocr/bqag099",
+    "title": "Ligand-induced stability studies at the TSH receptor show the linker region to be a chameleon."
+  },
+  "content": {
+    "abstract": "Glycoprotein hormone receptors share a conserved architecture, but the TSH receptor (TSHR) is unique in possessing a large 141-amino-acid region called the hinge or linker region (LR) that contains a 50-amino-acid posttranslational cleavage site. Our previous computational modeling of the full-length TSHR identified this LR as an intrinsically disordered protein that appears to serve as a critical bridge transmitting structural changes from the leucine-rich domain (LRD) to the transmembrane domain of the receptor during its activation. However, the behavior of the LR in response to different ligands that bind the LRD and its influence on receptor structure as a whole has not been systematically explored. Using molecular dynamics simulations of full-length TSHR complexes with various ligands, we have examined the influence of ligand on TSHR structural changes with a particular emphasis on those adopted by the LR upon ligand binding. Our analyses revealed that the LR did not maintain a stable secondary or tertiary structure in isolation but exhibited high conformational flexibility, adopting distinct structures depending on the bound ligand (ie, it is a chameleon). Notably, a beta-sheet structure was absent only in the complex with a TSHR blocking antibody (K1-70) and not with stimulating (M22) or LR-specific (MC1) antibodies. Furthermore, using a TSHR fragment (V1.3), absent the LR, when subjected to protein thermal shift analyses, we showed that TSH ligand was able to influence the entire TSHR structure and, therefore, not just the LR.",
+    "keywords": [
+      "DSSP",
+      "TSHR antibodies",
+      "linker region",
+      "molecular dynamics",
+      "thermal shift",
+      "thyroid-stimulating hormone receptor"
+    ],
+    "mesh_terms": [
+      "*Receptors, Thyrotropin/chemistry/metabolism",
+      "Ligands",
+      "Molecular Dynamics Simulation",
+      "Animals",
+      "Humans",
+      "Protein Stability",
+      "Protein Binding",
+      "Protein Conformation",
+      "Protein Domains",
+      "Protein Structure, Secondary"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mezei, Mihaly",
+        "Latif, Rauf",
+        "Xiang, Pingping",
+        "Davies, Terry F"
+      ],
+      "short_names": [
+        "Mezei M",
+        "Latif R",
+        "Xiang P",
+        "Davies TF"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0294-4307",
+        "ORCID: 0000-0002-4226-3728",
+        "ORCID: 0000-0003-3909-2750"
+      ],
+      "affiliations": [
+        "Department of Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+        "Thyroid Research Unit, Department of Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+        "Thyroid Research Unit, Department of Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+        "Thyroid Research Unit, Department of Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+        "Internal Medicine, James J. Peters VA Medical Center, New York, NY 10468, USA.",
+        "Thyroid Research Unit, Department of Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+        "Internal Medicine, James J. Peters VA Medical Center, New York, NY 10468, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mezei, Mihaly",
+        "short_name": "Mezei M",
+        "identifiers": [
+          "0000-0003-0294-4307"
+        ],
+        "affiliations": [
+          "Department of Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+          "Thyroid Research Unit, Department of Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA."
+        ]
+      },
+      {
+        "full_name": "Latif, Rauf",
+        "short_name": "Latif R",
+        "identifiers": [
+          "0000-0002-4226-3728"
+        ],
+        "affiliations": [
+          "Thyroid Research Unit, Department of Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA."
+        ]
+      },
+      {
+        "full_name": "Xiang, Pingping",
+        "short_name": "Xiang P",
+        "identifiers": [],
+        "affiliations": [
+          "Thyroid Research Unit, Department of Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+          "Internal Medicine, James J. Peters VA Medical Center, New York, NY 10468, USA."
+        ]
+      },
+      {
+        "full_name": "Davies, Terry F",
+        "short_name": "Davies TF",
+        "identifiers": [
+          "0000-0003-3909-2750"
+        ],
+        "affiliations": [
+          "Thyroid Research Unit, Department of Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029, USA.",
+          "Internal Medicine, James J. Peters VA Medical Center, New York, NY 10468, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Endocrinology"
+    ],
+    "journal_abbrev": [
+      "Endocrinology"
+    ],
+    "pub_date": "2026 Sep 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/27 12:36",
+    "fetched_at": "2026-09-18 06:01:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42657784",
+      "38373379",
+      "36305581",
+      "19221175",
+      "21834684",
+      "22829655",
+      "30689545",
+      "18606720",
+      "23183178",
+      "22957097",
+      "41263297",
+      "21247981",
+      "23300822",
+      "18218728",
+      "27129207",
+      "39116382",
+      "42374926",
+      "21846801",
+      "20181794",
+      "21050929",
+      "22792265",
+      "35940204",
+      "25340405",
+      "39821041",
+      "31399504",
+      "27875255",
+      "27921237",
+      "17199429",
+      "21190937",
+      "21106880",
+      "23002040",
+      "21525003",
+      "21628383",
+      "11917095",
+      "25860033",
+      "11298743",
+      "7726800",
+      "36069797",
+      "18441013",
+      "16488885",
+      "22359649",
+      "17542669",
+      "15650352",
+      "32738139",
+      "7919997",
+      "19299457",
+      "25696997",
+      "9442031",
+      "30366347",
+      "37767722",
+      "26545118",
+      "30822352",
+      "9459630",
+      "15231707",
+      "20719860",
+      "20195479",
+      "25012978",
+      "18388191",
+      "12810574",
+      "26361260",
+      "19530271",
+      "36223484",
+      "11201849",
+      "7901757",
+      "33108452",
+      "16955277",
+      "32676053",
+      "8095322",
+      "12588044",
+      "17725428",
+      "8070347",
+      "15320966",
+      "42218985",
+      "9675095",
+      "7540542",
+      "18074395",
+      "9328348",
+      "15319351",
+      "33693584",
+      "15722344",
+      "10965926",
+      "18631002",
+      "12706379",
+      "2023910",
+      "12223484",
+      "16075037",
+      "12639915",
+      "23645907",
+      "17412816",
+      "18719020",
+      "19386596",
+      "12488338",
+      "15297445",
+      "18202525",
+      "17900238",
+      "7958085",
+      "30666231",
+      "18927215",
+      "26000138",
+      "15304493"
+    ],
+    "review": [
+      "42657784",
+      "41263297",
+      "11917095",
+      "7726800",
+      "30366347",
+      "15231707",
+      "26361260",
+      "16075037",
+      "23645907",
+      "17900238",
+      "7958085"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://academic.oup.com/endo/article-lookup/doi/10.1210/endocr/bqag099",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors propose a new physically motivated feature, the bag-of-amino-acid-interactions, for representing intrinsically disordered proteins, and pair it with classical machine learning and deep learning models to predict radius of gyration and scaling exponent from composition or sequence. They report that this feature outperforms categorical and other physically motivated featurizations on a coarse-grained computational dataset of 10,000 sequences and shows solid extrapolation capabilities.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or quantitative results provided
+- **Missing materials affecting confidence** Full manuscript, dataset details, model architectures, hyperparameters, baseline definitions, quantitative performance metrics, extrapolation test protocols, and any comparison with existing IDP prediction methods
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to IDP representation learning, with a physically motivated feature that explicitly encodes pairwise interactions. The idea is timely given the limitations of structure prediction tools for IDPs. However, the abstract provides insufficient quantitative evidence to evaluate the central claims of outperformance and extrapolation capability. The scope of the dataset, the nature of the baselines, and the statistical significance of the reported improvements are not described. The claim of physical insight into temperature dependence is speculative and unsupported by the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, protein biophysics, and machine learning applied to molecular systems would be interested. The work addresses a known gap in IDP modeling where sequence-based predictors are underdeveloped relative to folded proteins. The proposed feature could also appeal to those studying sequence-to-property relationships in disordered proteins and to developers of coarse-grained simulation workflows.
+- **Major strengths** The proposed feature is physically motivated and explicitly encodes pairwise non-bonded interactions, which is a reasonable departure from purely categorical encodings. The compatibility with arbitrary sequence lengths is a practical advantage. The focus on IDPs addresses a genuine gap in the field, as AlphaFold and similar tools are not designed for disordered ensembles.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the bag-of-amino-acid-interactions feature outperforms other featurizations and possesses solid extrapolation capabilities.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative results are presented. The abstract does not report any performance metrics, such as R-squared, mean absolute error, or correlation coefficients, for any of the tested models or features. The claim of outperformance is therefore unverifiable from the supplied material.
+  - **Why it matters** The central contribution of the paper is the claimed superiority of the new feature. Without numerical evidence, the reader cannot assess whether the improvement is meaningful, marginal, or statistically significant. The claim of solid extrapolation is similarly unsupported, as the extrapolation protocol is not described.
+  - **Resolution test** Provide quantitative comparisons across all tested featurizations, including error metrics and confidence intervals, and describe the extrapolation test design, such as training and test sequence splits, and report performance on held-out sequence families or length regimes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope and generalizability
+  - **Claim pointer** The abstract states that the feature can potentially provide physical insights into amino acid interactions including their temperature dependence, and be applied to other protein spaces.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of temperature dependence is speculative. The abstract describes a dataset simulated at the coarse-grained level but does not state whether multiple temperatures were simulated or whether temperature is a variable in the models. The claim of applicability to other protein spaces is also unsupported, as no evidence of transfer to other protein types or experimental data is provided.
+  - **Why it matters** These claims extend the significance of the work beyond the presented scope. If they are not supported by data, they risk overstating the contribution and misleading readers about the generalizability of the method.
+  - **Resolution test** Clarify whether temperature-dependent simulations were included in the dataset. If so, report results across temperatures. If not, remove or explicitly reframe the temperature claim as a future direction. For generalizability, provide at least one demonstration on a different protein class or experimental dataset, or clearly state that such validation is pending.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline adequacy
+  - **Claim pointer** The abstract claims that the new feature outperforms both categorical and physically motivated featurization techniques.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which categorical and physically motivated baselines were used. Without this information, it is unclear whether the comparison is against state-of-the-art representations or simple baselines. The choice of baselines strongly affects the interpretation of the claimed improvement.
+  - **Why it matters** A fair comparison requires well-defined and competitive baselines. If the baselines are weak or poorly tuned, the claimed outperformance may not reflect a genuine advantage of the proposed feature.
+  - **Resolution test** List all baseline featurizations, their sources, and any hyperparameter tuning performed. Justify that these baselines represent reasonable or standard choices in the field.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract states that 10,000 sequences were simulated at the coarse-grained level but does not specify the simulation model, sequence length distribution, or sequence generation strategy.
+  - **Required correction** Provide details on the simulation model, sequence length range, and how sequences were generated or sampled.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract mentions classical machine learning and deep learning models but does not name the specific algorithms or architectures.
+  - **Required correction** Specify the model families and architectures used, and state whether hyperparameters were optimized.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Feature name
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The term bag-of-amino-acid-interactions is introduced but not formally defined in the abstract. The description of counting and weighting all possible non-bonded interactions is helpful but lacks formal notation.
+  - **Required correction** Provide a formal definition or equation for the feature in the main text, and clarify how interaction weights are determined.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Comparison to existing methods
+  - **Affected element** Contextualization
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract does not compare the proposed approach to existing IDP-specific predictors, such as those based on sequence composition or hydropathy.
+  - **Required correction** Add a brief comparison or discussion of how the proposed method relates to existing IDP prediction tools.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and the unsupported claims of temperature dependence and generalizability prevent the case from being established from the supplied material.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the feature design is novel and addresses a specific gap in IDP representation. Scientific importance is potentially high, given the need for sequence-based IDP property prediction, but the current evidence does not demonstrate a significant advance. Interdisciplinary readership is plausible, as the work bridges machine learning and biophysics, but the abstract does not clearly articulate the broader impact. Technical soundness cannot be assessed from the abstract alone, as no methodological details or results are provided. Readability for nonspecialists is adequate, though the abstract assumes familiarity with IDP biophysics and coarse-grained simulation.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising and the research direction is relevant, but the abstract lacks the quantitative and methodological detail needed to support the central claims. A revised submission with full results, baseline descriptions, and validation of the generalizability claims would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that the bag-of-amino-acid-interactions feature outperforms other featurizations is unsupported, as no performance metrics are provided.
+- The claim of solid extrapolation capabilities is unsupported, as the extrapolation protocol and results are not described.
+- The claim that the feature can provide physical insights into temperature dependence is unsupported, as no temperature-dependent data or analysis is mentioned.
+- The claim that the feature can be applied to other protein spaces is unsupported, as no evidence of transferability is provided.

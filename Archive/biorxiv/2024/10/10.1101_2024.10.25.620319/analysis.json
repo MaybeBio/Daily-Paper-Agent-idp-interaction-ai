@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.25.620319",
+  "title": "The phase separation landscape of genome-wide genetic perturbations",
+  "authors": "Heidenreich M; Mathur S; Shu T; Xie Y; Sriker D; Dubreuil B; Holt L; Levy ED",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-27",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过功能基因组学与合成生物学，在酵母中系统鉴定影响细胞内相分离的基因，虽非直接研究IDR介导的PPI机制，但揭示了相分离的全局遗传调控，对理解无序蛋白凝聚体环境有启发。",
+  "abstract": "<h4>Summary</h4> Biomolecular organization is central to cell function. While phase separation is a key mechanism orchestrating this organization, we lack a comprehensive view of genes that can globally influence this process in vivo . To identify such genes, we combined functional genomics and synthetic biology. We developed a bioorthogonal system that can identify changes in the intracellular milieu that globally tune phase separation. We measured in vivo phase diagrams of a synthetic system across >25 million cells in 2,888 yeast knockouts, and identified 68 genes whose deletion alters the phase boundaries of the synthetic system, an unexpected result given the system’s bioorthogonal design. Genes involved in TORC1 signaling and metabolism, particularly carbohydrate-, amino acid- and nucleotide synthesis were enriched. The mutants that changed phase separation also showed high pleiotropy, suggesting that phase separation interrelates with many aspects of biology. <h4>Highlights</h4> - A synthetic protein system reveals the genetic and environmental tunability of protein phase separation - Genetic knockouts affecting phase separation are highly pleiotropic - Carbohydrate, amino acid, and nucleotide metabolism contribute to modulating phase separation potential - Protein phase separation is a globally tunable property of the intracellular environment",
+  "abstract_zh": "<h4>摘要</h4> 生物分子组织是细胞功能的核心。虽然相分离（phase separation）是协调这一组织的关键机制，但我们缺乏对能够体内全局影响该过程的基因的全面认识。为识别此类基因，我们结合了功能基因组学与合成生物学。我们开发了一种生物正交系统，能够识别细胞内环境中全局调节相分离的变化。我们在2,888个酵母敲除株中，对超过2500万个细胞测量了合成系统的体内相图（phase diagrams），并鉴定出68个基因，其缺失会改变合成系统的相边界，鉴于该系统的生物正交设计，这一结果出乎意料。涉及TORC1信号传导和代谢的基因，特别是碳水化合物、氨基酸和核苷酸合成相关基因，显著富集。改变相分离的突变体也表现出高度多效性，表明相分离与生物学的许多方面相互关联。 <h4>亮点</h4> - 一种合成蛋白系统揭示了蛋白相分离的遗传和环境可调性 - 影响相分离的基因敲除具有高度多效性 - 碳水化合物、氨基酸和核苷酸代谢有助于调节相分离潜力 - 蛋白相分离是细胞内环境的一种全局可调特性",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.25.620319",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.25.620319",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.25.620319/index.html"
+}

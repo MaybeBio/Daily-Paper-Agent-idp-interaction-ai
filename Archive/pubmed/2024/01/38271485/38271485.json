@@ -1,0 +1,417 @@
+{
+  "identity": {
+    "pmid": "38271485",
+    "doi": "10.1093/bib/bbad526",
+    "title": "Computational insights into the cross-talk between medin and Abeta: implications for age-related vascular risk factors in Alzheimer's disease."
+  },
+  "content": {
+    "abstract": "The aggregation of medin forming aortic medial amyloid is linked to arterial wall degeneration and cerebrovascular dysfunction. Elevated levels of arteriolar medin are correlated with an increased presence of vascular amyloid-beta (Abeta) aggregates, a hallmark of Alzheimer's disease (AD) and vascular dementia. The cross-interaction between medin and Abeta results in the formation of heterologous fibrils through co-aggregation and cross-seeding processes both in vitro and in vivo. However, a comprehensive molecular understanding of the cross-interaction between medin and Abeta-two intrinsically disordered proteins-is critically lacking. Here, we employed atomistic discrete molecular dynamics simulations to systematically investigate the self-association, co-aggregation and also the phenomenon of cross-seeding between these two proteins. Our results demonstrated that both Abeta and medin were aggregation prone and their mixture tended to form beta-sheet-rich hetero-aggregates. The formation of Abeta-medin hetero-aggregates did not hinder Abeta and medin from recruiting additional Abeta and medin peptides to grow into larger beta-sheet-rich aggregates. The beta-barrel oligomer intermediates observed in the self-aggregations of Abeta and medin were also present during their co-aggregation. In cross-seeding simulations, preformed Abeta fibrils could recruit isolated medin monomers to form elongated beta-sheets. Overall, our comprehensive simulations suggested that the cross-interaction between Abeta and medin may contribute to their pathological aggregation, given the inherent amyloidogenic tendencies of both medin and Abeta. Targeting medin, therefore, could offer a novel therapeutic approach to preserving brain function during aging and AD by improving vascular health.",
+    "keywords": [
+      "amyloid aggregation",
+      "amyloid-beta",
+      "co-aggregation",
+      "cross-seeding",
+      "discrete molecular dynamics",
+      "medin"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Alzheimer Disease/metabolism",
+      "Amyloid beta-Peptides/chemistry/metabolism/therapeutic use",
+      "Molecular Dynamics Simulation",
+      "Amyloidogenic Proteins",
+      "Risk Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Fengjuan",
+        "Fan, Xinjie",
+        "Wang, Ying",
+        "Zou, Yu",
+        "Lian, Jiangfang",
+        "Wang, Chuang",
+        "Ding, Feng",
+        "Sun, Yunxiang"
+      ],
+      "short_names": [
+        "Huang F",
+        "Fan X",
+        "Wang Y",
+        "Zou Y",
+        "Lian J",
+        "Wang C",
+        "Ding F",
+        "Sun Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1850-6336",
+        "ORCID: 0000-0001-9799-7131"
+      ],
+      "affiliations": [
+        "Ningbo Institute of Innovation for Combined Medicine and Engineering, Lihuili Hospital Affiliated to Ningbo University, Ningbo University, Ningbo 315211, China.",
+        "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+        "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+        "Department of Sport and Exercise Science, Zhejiang University, Hangzhou 310058, China.",
+        "Ningbo Institute of Innovation for Combined Medicine and Engineering, Lihuili Hospital Affiliated to Ningbo University, Ningbo University, Ningbo 315211, China.",
+        "School of Medicine, Ningbo University, Ningbo 315211, China.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, United States.",
+        "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Fengjuan",
+        "short_name": "Huang F",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Institute of Innovation for Combined Medicine and Engineering, Lihuili Hospital Affiliated to Ningbo University, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Xinjie",
+        "short_name": "Fan X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Yu",
+        "short_name": "Zou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sport and Exercise Science, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Lian, Jiangfang",
+        "short_name": "Lian J",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Institute of Innovation for Combined Medicine and Engineering, Lihuili Hospital Affiliated to Ningbo University, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Chuang",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Feng",
+        "short_name": "Ding F",
+        "identifiers": [
+          "0000-0003-1850-6336"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, United States."
+        ]
+      },
+      {
+        "full_name": "Sun, Yunxiang",
+        "short_name": "Sun Y",
+        "identifiers": [
+          "0000-0001-9799-7131"
+        ],
+        "affiliations": [
+          "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+          "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2024 Jan 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/25 18:42",
+    "fetched_at": "2026-09-21 04:29:42"
+  },
+  "links": {
+    "cites": [
+      "40867593",
+      "40133283",
+      "39761900",
+      "39382320",
+      "39226847",
+      "39208885",
+      "38921060",
+      "38745385",
+      "38561980"
+    ],
+    "refs": [
+      "37782573",
+      "37651616",
+      "37620584",
+      "37253119",
+      "37246935",
+      "36456917",
+      "36385530",
+      "36098068",
+      "36095304",
+      "35901284",
+      "35538665",
+      "35447272",
+      "34530925",
+      "34516924",
+      "34472835",
+      "34051062",
+      "34042235",
+      "33936250",
+      "33616398",
+      "33543942",
+      "33445870",
+      "33119314",
+      "32900929",
+      "32875054",
+      "32816461",
+      "32402244",
+      "31647489",
+      "31260947",
+      "31183916",
+      "31097588",
+      "31001578",
+      "30908844",
+      "30502402",
+      "30237470",
+      "29985420",
+      "29725676",
+      "29338255",
+      "29038815",
+      "28882996",
+      "28702523",
+      "28695211",
+      "28327552",
+      "28157327",
+      "27352802",
+      "27281682",
+      "27091578",
+      "26700445",
+      "26638022",
+      "26636947",
+      "26562747",
+      "26331805",
+      "25938662",
+      "25614623",
+      "25004796",
+      "23811057",
+      "22836188",
+      "22670893",
+      "22403391",
+      "22280505",
+      "19706468",
+      "19415895",
+      "19341254",
+      "19196164",
+      "18672869",
+      "18611374",
+      "18271578",
+      "17906662",
+      "17679143",
+      "17538626",
+      "17397862",
+      "17142268",
+      "17046666",
+      "16444756",
+      "16407060",
+      "15478463",
+      "14971932",
+      "14517973",
+      "12124613",
+      "11580253",
+      "10533280",
+      "10411933",
+      "10223287",
+      "6667333",
+      "1562050"
+    ],
+    "similar": [
+      "38271485",
+      "38921060",
+      "37782573",
+      "39208885",
+      "39226847",
+      "36385530",
+      "25029558",
+      "40167418",
+      "24440525",
+      "29378116",
+      "37924907",
+      "37246935",
+      "39073874",
+      "30787102",
+      "32402244",
+      "32893436",
+      "37126408",
+      "30605312",
+      "25614623",
+      "27091578",
+      "33024142",
+      "21769359",
+      "39561091",
+      "37217059",
+      "26255739",
+      "33337368",
+      "28652220",
+      "36577130",
+      "21761818",
+      "20946608",
+      "31647489",
+      "37964757",
+      "23811057",
+      "36975100",
+      "37589476",
+      "31369236",
+      "29508987",
+      "35152697",
+      "17653279",
+      "29432676",
+      "35538665",
+      "34878460",
+      "32769117",
+      "36065931",
+      "30345755",
+      "38338914",
+      "31004062",
+      "29107146",
+      "29364151",
+      "32046006",
+      "29723530",
+      "32013170",
+      "39725269",
+      "39858424",
+      "38109338",
+      "26479553",
+      "33050199",
+      "28044060",
+      "26173078",
+      "37040092",
+      "37914766",
+      "35458686",
+      "31138770",
+      "29446720",
+      "16485107",
+      "31986005",
+      "31099449",
+      "26073444",
+      "37964619",
+      "39854227",
+      "29614860",
+      "29791461",
+      "31627745",
+      "36069400",
+      "30681866",
+      "36342244",
+      "38438446",
+      "29925792",
+      "29953467",
+      "28818091",
+      "35372522",
+      "33809196",
+      "23225010",
+      "32456156",
+      "26283068",
+      "31967782",
+      "33909969",
+      "38811408",
+      "38517352",
+      "35120558",
+      "39159070",
+      "39837793",
+      "24566672",
+      "19749401",
+      "30771375",
+      "39126645",
+      "38888453",
+      "25080056",
+      "21687730",
+      "23713771"
+    ],
+    "review": [
+      "38271485",
+      "31647489",
+      "29508987",
+      "29364151",
+      "38109338",
+      "33050199",
+      "35458686",
+      "29446720",
+      "28818091",
+      "23225010",
+      "32456156",
+      "24566672"
+    ],
+    "pmc": [
+      "10810335"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://www.ovid.com/38271485.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38271485/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38271485",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad526",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

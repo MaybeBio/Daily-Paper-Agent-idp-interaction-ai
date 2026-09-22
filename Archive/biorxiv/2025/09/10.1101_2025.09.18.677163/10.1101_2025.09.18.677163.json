@@ -1,0 +1,141 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.18.677163",
+  "title": "Destabilization of Structured RNAs by OPC and TIP4PD Water Models",
+  "doi": "10.1101/2025.09.18.677163",
+  "abstract": "The four-point OPC water model has recently gained reputation as the preferred choice for molecular dynamics (MD) simulations of nucleic acids and even proteins, providing more realistic reproduction of bulk physical properties of water than the older three-point models. It has been shown to improve for example simulations of unstructured biomolecules such as RNA tetranucleotides or intrinsically disordered proteins. However, the performance for folded RNA structures was not specifically explored. In this study, we present extensive testing of the OPC water model on three different RNAs with highly intricate tertiary structures - the ribosomal L1 stalk RNA-protein protuberance, the mini tetraloop-tetraloop receptor (miniTTR-6) folded RNA, and the GAAA tetraloop-tetraloop receptor homodimer. The OPC performance is directly compared against SPC/E, TIP3P, OPC3, and TIP4P-EW water models along with the common OL3 AMBER RNA force field (FF). We found substantial effect of the water model on simulation behavior. For all three systems, we observe large-scale unfolding of the RNA, and even loss of the L1 stalk protein-RNA interface, when simulated with the OPC. In contrast, the simulations are entirely stable with the three-point water models. The underlying cause seems to be the higher affinity of the OPC waters to H-bond donor and acceptor groups of the RNA, disrupting the native solute-solute interactions. An identical issue can be observed also for the similar and widely used TIP4PD water model combined with the DES-Amber RNA FF. Our findings suggest that caution is warranted when using the four-point OPC and TIP4PD water models for simulations of structured RNAs. In combination with the current AMBER RNA FFs, the three-point water models may provide more realistic alternatives.",
+  "authors": [
+    "Krepl M",
+    "Mlynsky V",
+    "Banas P",
+    "Otyepka M",
+    "Sponer J"
+  ],
+  "published_date": "2025-09-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.18.677163",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.18.677163.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1087716",
+    "raw_record": {
+      "id": "PPR1087716",
+      "source": "PPR",
+      "doi": "10.1101/2025.09.18.677163",
+      "title": "Destabilization of Structured RNAs by OPC and TIP4PD Water Models",
+      "authorString": "Krepl M, Mlynsky V, Banas P, Otyepka M, Sponer J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Krepl M",
+            "lastName": "Krepl",
+            "firstName": "Miroslav",
+            "initials": "M"
+          },
+          {
+            "fullName": "Mlynsky V",
+            "lastName": "Mlynsky",
+            "firstName": "Vojtech",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2769-1553"
+            }
+          },
+          {
+            "fullName": "Banas P",
+            "lastName": "Banas",
+            "firstName": "Pavel",
+            "initials": "P"
+          },
+          {
+            "fullName": "Otyepka M",
+            "lastName": "Otyepka",
+            "firstName": "Michal",
+            "initials": "M"
+          },
+          {
+            "fullName": "Sponer J",
+            "lastName": "Sponer",
+            "firstName": "Jiri",
+            "initials": "J"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2769-1553"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The four-point OPC water model has recently gained reputation as the preferred choice for molecular dynamics (MD) simulations of nucleic acids and even proteins, providing more realistic reproduction of bulk physical properties of water than the older three-point models. It has been shown to improve for example simulations of unstructured biomolecules such as RNA tetranucleotides or intrinsically disordered proteins. However, the performance for folded RNA structures was not specifically explored. In this study, we present extensive testing of the OPC water model on three different RNAs with highly intricate tertiary structures - the ribosomal L1 stalk RNA-protein protuberance, the mini tetraloop-tetraloop receptor (miniTTR-6) folded RNA, and the GAAA tetraloop-tetraloop receptor homodimer. The OPC performance is directly compared against SPC/E, TIP3P, OPC3, and TIP4P-EW water models along with the common OL3 AMBER RNA force field (FF). We found substantial effect of the water model on simulation behavior. For all three systems, we observe large-scale unfolding of the RNA, and even loss of the L1 stalk protein-RNA interface, when simulated with the OPC. In contrast, the simulations are entirely stable with the three-point water models. The underlying cause seems to be the higher affinity of the OPC waters to H-bond donor and acceptor groups of the RNA, disrupting the native solute-solute interactions. An identical issue can be observed also for the similar and widely used TIP4PD water model combined with the DES-Amber RNA FF. Our findings suggest that caution is warranted when using the four-point OPC and TIP4PD water models for simulations of structured RNAs. In combination with the current AMBER RNA FFs, the three-point water models may provide more realistic alternatives.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.18.677163"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41665624",
+            "reference": "Journal of chemical theory and computation. 2026 Feb;22(4):2013-2027",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-09-21",
+      "firstPublicationDate": "2025-09-19",
+      "firstIndexDate": "2025-09-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

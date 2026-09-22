@@ -1,0 +1,199 @@
+{
+  "identity": {
+    "pmid": "41967599",
+    "doi": "10.1016/j.jmb.2026.169806",
+    "title": "Mapping the conformational variability in mutants of the amyloid precursor protein intracellular domain."
+  },
+  "content": {
+    "abstract": "The amyloid precursor protein intracellular domain (AICD) is an intrinsically disordered regulatory segment whose conserved YENPTY motif mediates transient interactions with multiple adaptor and signaling proteins. How sequence perturbations within this motif modulate its accessibility and interaction potential within a disordered ensemble remains poorly understood. Here, we combine small-angle X-ray scattering, synchrotron radiation circular dichroism, and extensive atomistic molecular dynamics simulations to characterize conformational variability in three designed AICD variants (Y22G, T26A, and Y27A) that preserve overall charge while selectively altering local side-chain chemistry. All variants remain intrinsically disordered, yet each mutation induces a distinct redistribution of conformational populations. Y22G and T26A increase local flexibility and solvent exposure around the YENPTY motif and enhance motif-centered interaction propensities, whereas Y27A favors more compact conformations with reduced motif accessibility. Contact and network analyses reveal that these local perturbations propagate across the chain, reshaping long-range intramolecular coupling within the ensemble. Our results demonstrate that local changes in side-chain chemistry within YENPTY can tune motif accessibility and interaction potential through population shifts in a disordered ensemble, without stabilizing persistent secondary or tertiary structure.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Amyloid beta-Protein Precursor/genetics/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Mutation",
+      "Humans",
+      "Protein Conformation",
+      "Circular Dichroism",
+      "Protein Domains",
+      "Amino Acid Motifs"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mandal, Nabanita",
+        "Skepo, Marie"
+      ],
+      "short_names": [
+        "Mandal N",
+        "Skepo M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, P.O. Box 124, Lund SE-221 00, Sweden; NanoLund, Lund University, Box 118, Lund SE-221 00, Sweden.",
+        "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, P.O. Box 124, Lund SE-221 00, Sweden; NanoLund, Lund University, Box 118, Lund SE-221 00, Sweden. Electronic address: marie.skepo@chem.lu.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mandal, Nabanita",
+        "short_name": "Mandal N",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, P.O. Box 124, Lund SE-221 00, Sweden; NanoLund, Lund University, Box 118, Lund SE-221 00, Sweden."
+        ]
+      },
+      {
+        "full_name": "Skepö, Marie",
+        "short_name": "Skepö M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, P.O. Box 124, Lund SE-221 00, Sweden; NanoLund, Lund University, Box 118, Lund SE-221 00, Sweden. Electronic address: marie.skepo@chem.lu.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2026 Jul 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/13 00:31",
+    "fetched_at": "2026-09-18 02:33:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41967599",
+      "40817583",
+      "41832603",
+      "25244701",
+      "11517218",
+      "8887653",
+      "25137638",
+      "33984364",
+      "40198698",
+      "24655507",
+      "36538482",
+      "42171195",
+      "23811057",
+      "33030907",
+      "34161732",
+      "23943322",
+      "34948396",
+      "22952038",
+      "27475398",
+      "25897952",
+      "32316569",
+      "31597702",
+      "20674096",
+      "30840442",
+      "31130234",
+      "35167081",
+      "23912807",
+      "36331868",
+      "26242913",
+      "11727705",
+      "31241933",
+      "27682200",
+      "23879802",
+      "23799029",
+      "40853068",
+      "21266574",
+      "42129207",
+      "29719201",
+      "12496118",
+      "25528641",
+      "32679070",
+      "32486218",
+      "25863345",
+      "32145192",
+      "9201963",
+      "29550429",
+      "28597880",
+      "39056166",
+      "18702528",
+      "41616695",
+      "20042604",
+      "18833287",
+      "40504558",
+      "22001015",
+      "22125611",
+      "28914483",
+      "24086696",
+      "24021023",
+      "15044485",
+      "10869177",
+      "27844185",
+      "30853683",
+      "35667441",
+      "36050011",
+      "25227946",
+      "39982680",
+      "34986640",
+      "36291634",
+      "23607785",
+      "21650223",
+      "31557007",
+      "42332380",
+      "18201969",
+      "20230749",
+      "42189706",
+      "8894693",
+      "26658856",
+      "30581045",
+      "23965993",
+      "30071273",
+      "22543239",
+      "31180641",
+      "24671380",
+      "11010978",
+      "31626641",
+      "27891669",
+      "41969219",
+      "32787218",
+      "14736502",
+      "23570890",
+      "26445449",
+      "31548393",
+      "26008791",
+      "32585849",
+      "32925900",
+      "22319430",
+      "29966005",
+      "31550880",
+      "28602916",
+      "10460257"
+    ],
+    "review": [
+      "41967599",
+      "30840442",
+      "11727705"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(26)00179-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors hypothesize that machine learning algorithms can classify or identify protein-protein interaction (PPI) inhibitors. They report that random forest (RF) models using ECFP4 fingerprints achieved the best classification performance compared to ECFP6 or MACCS keys, that logistic regression models underperformed RF models, that ECFP4 was the most appropriate representation for linear regression, that ECFP4 also yielded high performance with support vector machines (SVM), and that ensemble models were constructed from top-performing models. The pipeline code and results are stated to be freely available at a GitHub repository.
+- **Visible evidence base** Abstract text only; no quantitative metrics, dataset descriptions, validation procedures, or code verification are provided
+- **Missing materials affecting confidence** Full manuscript, dataset composition and size, descriptor definitions, hyperparameter settings, cross-validation or external test set details, performance metric values, ensemble construction methodology, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful comparative study of machine learning models for PPI inhibitor classification. However, the evidence provided is insufficient to evaluate the validity, robustness, or generalizability of the reported findings. Key methodological details and quantitative results are absent, preventing an assessment of whether the claims are supported.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, chemoinformatics, and medicinal chemistry would be interested in comparative benchmarks of fingerprint representations and ML algorithms for PPI inhibitor prediction. The open-source pipeline could serve as a practical tool for screening compound libraries.
+- **Major strengths** The study addresses a relevant problem in drug discovery. The comparison of multiple algorithms and fingerprint types is a standard and useful approach. The commitment to open-source code and results enhances reproducibility potential.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that RF models with ECFP4 had the best classification performance compared to ECFP6 or MACCS keys.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative performance metrics (e.g., accuracy, AUC, F1 score) are reported. The abstract states relative performance without providing numerical values or statistical significance tests.
+  - **Why it matters** Without metrics and significance testing, the claim of "best" performance cannot be verified or compared to existing literature. The reader cannot assess the magnitude of differences or whether they are meaningful.
+  - **Resolution test** Provide performance metrics for all models and fingerprints, including confidence intervals or statistical tests, in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the developed models can classify or identify PPI inhibitors.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No information is given about the dataset used for training and validation, including the number of PPI inhibitors and non-inhibitors, the source of the data, or the potential for bias (e.g., class imbalance, redundant compounds). No external validation or independent test set is mentioned.
+  - **Why it matters** Model performance claims are only meaningful in the context of the data and validation strategy. Without this information, the generalizability of the models to new compounds is unknown.
+  - **Resolution test** Describe the dataset composition, splitting strategy, and any external validation in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that the pipeline code and all results are freely available at the provided GitHub repository.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states the code is available, but the repository contents, license, and documentation are not described. The reviewer cannot verify that the code is functional or that the results are reproducible.
+  - **Why it matters** Open-source availability is a key strength, but it is only meaningful if the code is complete, documented, and runnable. Without verification, the reproducibility claim is unsubstantiated.
+  - **Resolution test** Provide a description of the repository structure, dependencies, and usage instructions in the full manuscript or supplementary materials.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "ECFP6 o MACCS keys" contains a typographical error ("o" instead of "or").
+  - **Required correction** Correct the typo to "ECFP6 or MACCS keys".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Ensemble model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions ensemble models but does not specify how they were constructed (e.g., voting, stacking) or whether they improved performance over individual models.
+  - **Required correction** Provide a brief description of the ensemble method and its performance relative to individual models.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Related work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not reference prior studies on ML for PPI inhibitor prediction, making it difficult to assess novelty.
+  - **Required correction** Add a brief comparison to existing models or cite relevant prior work in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The comparative approach is not novel in itself, but the specific application to PPI inhibitors may offer incremental value. Scientific importance: PPI inhibitors are relevant to drug discovery, but the abstract does not demonstrate a significant advance over existing methods. Interdisciplinary readership: The topic is of interest to computational and medicinal chemists, but the abstract lacks sufficient detail to engage a broader audience. Technical soundness: Not assessable from the abstract due to missing metrics and validation details. Readability for nonspecialists: The abstract is generally clear but uses technical terms without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible but unsupported by the abstract alone. A full review would be required after examining the manuscript, data, and code.
+
+## Risk / unsupported claims
+- The claim that RF with ECFP4 is the best-performing model is unsupported without quantitative metrics.
+- The claim that the models can identify PPI inhibitors is unsupported without dataset and validation details.
+- The claim that the code and results are freely available is unverifiable from the abstract alone.
+- The claim that ensemble models were constructed and are part of the work is unsupported without performance comparison.

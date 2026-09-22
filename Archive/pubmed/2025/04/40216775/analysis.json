@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40216775",
+  "title": "Differential interactions determine anisotropies at interfaces of RNA-based biomolecular condensates.",
+  "authors": "Erkamp, Nadia A; Farag, Mina; Qiu, Yuanxin; Qian, Daoyuan; Sneideris, Tomas; Wu, Tingting; Welsh, Timothy J; Ausserwoger, Hannes; Krug, Tommy J; Chauhan, Gaurav; Weitz, David A; Lew, Matthew D; Knowles, Tuomas P J; Pappu, Rohit V",
+  "journal": "Nature communications",
+  "published_date": "2025-04-12",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过实验和格点模拟表征RNA基合成凝聚体界面处支架与吸附分子的各向异性取向和动力学，虽对象为RNA/聚合物而非蛋白IDR，但界面互作机制建模思路对无序蛋白凝聚体PPI研究有可迁移启发。",
+  "abstract": "Biomolecular condensates form via macromolecular phase separation. Here, we report results from our characterization of synthetic condensates formed by phase separation of mixtures comprising two types of RNA molecules and the biocompatible polymer polyethylene glycol. Purine-rich RNAs are scaffolds that drive phase separation via heterotypic interactions. Conversely, pyrimidine-rich RNA molecules are adsorbents defined by weaker heterotypic interactions. They adsorb onto and wet the interfaces of coexisting phases formed by scaffolds. Lattice-based simulations reproduce the phenomenology observed in experiments and these simulations predict that scaffolds and adsorbents have different non-random orientational preferences at interfaces. Dynamics at interfaces were probed using single-molecule tracking of fluorogenic probes bound to RNA molecules. These experiments revealed dynamical anisotropy at interfaces whereby motions of probe molecules parallel to the interface are faster than motions perpendicular to the interface. Taken together, our findings have broad implications for designing synthetic condensates with tunable interfacial properties.",
+  "abstract_zh": "生物分子凝聚体通过大分子相分离（phase separation）形成。在此，我们报告了对由两类RNA分子与生物相容性聚合物聚乙二醇（polyethylene glycol）混合物相分离形成的合成凝聚体的表征结果。富含嘌呤的RNA作为支架，通过异型相互作用驱动相分离。相反，富含嘧啶的RNA分子是吸附剂，其特征为较弱的异型相互作用。它们吸附并润湿由支架形成的共存相的界面。基于格点的模拟重现了实验中观察到的现象，且这些模拟预测支架和吸附剂在界面处具有不同的非随机取向偏好。界面动力学通过结合RNA分子的荧光探针的单分子追踪进行探测。这些实验揭示了界面处的动力学各向异性，即探针分子平行于界面的运动快于垂直于界面的运动。综合来看，我们的发现对设计具有可调界面性质的合成凝聚体具有广泛意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40216775/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40216775/",
+  "paper_page_path": "papers/pubmed/40216775/index.html"
+}

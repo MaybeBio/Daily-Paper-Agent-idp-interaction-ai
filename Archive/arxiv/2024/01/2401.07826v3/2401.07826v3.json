@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2401.07826v3",
+  "title": "Predicting heteropolymer interactions: demixing and hypermixing of disordered protein sequences",
+  "doi": "",
+  "abstract": "Cells contain multiple condensates which spontaneously form due to the heterotypic interactions between their components. Although the proteins and disordered region sequences that are responsible for condensate formation have been extensively studied, the rule of interactions between the components that allow demixing, i.e., the coexistence of multiple condensates, is yet to be elucidated. Here we construct an effective theory of the interaction between heteropolymers by fitting it to the molecular dynamics simulation results obtained for more than 200 sequences sampled from the disordered regions of human proteins. We find that the sum of amino acid pair interactions across two heteropolymers predicts the Boyle temperature qualitatively well, which can be quantitatively improved by the dimer pair approximation, where we incorporate the effect of neighboring amino acids in the sequences. The improved theory, combined with the finding of a metric that captures the effective interaction strength between distinct sequences, allowed the selection of up to three disordered region sequences that demix with each other in multicomponent simulations, as well as the generation of artificial sequences that demix with a given sequence.The theory points to a generic sequence design strategy to demix or hypermix thanks to the low dimensional nature of the space of the interactions that we identify. As a consequence of the geometric arguments in the space of interactions, we find that the number of distinct sequences that can demix with each other is strongly constrained, irrespective of the choice of the coarse-grained model. Altogether, we construct a theoretical basis for methods to estimate the effective interaction between heteropolymers, which can be utilized in predicting phase separation properties as well as rules of assignment in the localization and functions of disordered proteins.",
+  "authors": [
+    "Kyosuke Adachi",
+    "Kyogo Kawaguchi"
+  ],
+  "published_date": "2024-01-15T16:53:31Z",
+  "updated_date": "2024-06-23T01:42:06Z",
+  "journal": "",
+  "category": "cond-mat.soft, physics.bio-ph, q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2401.07826v3",
+  "pdf_url": "https://arxiv.org/pdf/2401.07826v3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "3",
+  "keywords": [
+    "cond-mat.soft",
+    "physics.bio-ph",
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2401.07826v3",
+    "raw_categories": [
+      "cond-mat.soft",
+      "physics.bio-ph",
+      "q-bio.BM"
+    ],
+    "journal_ref": ""
+  }
+}

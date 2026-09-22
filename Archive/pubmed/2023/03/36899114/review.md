@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary material descriptions.
+- **Assessment boundary** Scientific validity, methodological soundness, interpretation of results, and alignment with stated claims. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors present a two-step computational protocol (coarse-grained CafeMol simulations followed by all-atom MD refinement) to generate conformational ensembles of unfolded outer membrane proteins (uOMPs), guided by experimentally measured sedimentation coefficients (s20,w) as a function of urea concentration. They report that the resulting ensembles for uOmpA171 and uOmpX are more compact than unfolded soluble proteins, exhibit distinct ensemble distributions, and have polymer properties consistent with a theta solvent (Flory scaling exponent ν ≈ 0.5).
+- **Visible evidence base** Main text figures (Figures 1–7), tables (Tables 1 and S1), supplementary figures (S1–S5), and supplementary movies (Files 2 and 3). Experimental data from sedimentation velocity analytical ultracentrifugation (SV-AUC) and computational results from CafeMol, PULCHRA, NAMD, and HullRad.
+- **Missing materials affecting confidence** Supplementary files (Figures S1–S5, Table S1, movies) were not provided for direct inspection. Raw SV-AUC data and simulation trajectories were not available. Details of the CafeMol force field parameters beyond the hydrophobic potential (e.g., other energy terms) were not fully specified. The exact criteria for selecting the "optimal" cHP values were not described in detail.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a practical and potentially useful method for generating conformational ensembles of unfolded outer membrane proteins, a class of proteins that is experimentally challenging to study. The integration of experimental sedimentation coefficients with coarse-grained and all-atom simulations is a sensible approach, and the use of HullRad to bridge computation and experiment is appropriate. The main claims, that the ensembles are more compact than unfolded soluble proteins and that the method captures sequence-specific differences, are supported by the presented data, though the small sample size (two proteins) limits the generality of the conclusions. The manuscript is clearly written and the methodology is reproducible in principle, but several technical details and validations are missing or underdescribed, which tempers confidence in the robustness of the approach.
+- **Who would be interested in the results, and why** Researchers studying outer membrane protein biogenesis, particularly those interested in the conformational properties of unfolded states and chaperone interactions. The method may also appeal to computational biophysicists developing ensemble generation protocols for membrane proteins or other aggregation-prone polypeptides. The findings on polymer scaling and solvent quality could be of interest to the broader protein folding and intrinsically disordered protein communities.
+- **Major strengths** The study addresses an important and understudied problem: the conformational ensemble of unfolded membrane proteins. The experimental design is thoughtful, using SV-AUC at low concentrations to avoid aggregation, which is a practical advantage over scattering methods. The computational protocol is relatively simple and uses freely available software, enhancing its potential utility. The comparison of ensemble properties to unfolded soluble proteins and IDPs provides useful context. The authors are appropriately cautious in acknowledging the small sample size and the need for further validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The claim that the final ensembles are "consistent with experimentally determined hydrodynamic properties" and that the cHP values of 0.8 and 1.1 "reproduce the experimentally-observed data" for uOmpA171 and uOmpX, respectively.
+  - **Evidence pointer** Results section "CafeMol hydrophobic interaction potentials differ for uOmpA171 and uOmpX"; Figure 2; Methods section "Generation of structural ensembles"
+  - **Concern** The manuscript does not provide a quantitative comparison between the calculated and experimental s20,w values. It is unclear how the "optimal" cHP values were determined, what the tolerance for agreement was, and whether the match is within experimental error. Without a clear metric (e.g., chi-squared, root-mean-square deviation) or a plot showing calculated versus experimental s20,w across cHP values, the reader cannot assess the quality of the fit or the uniqueness of the chosen parameters. This is a critical gap because the entire ensemble generation is parameterized to match this single observable.
+  - **Why it matters** If the agreement between calculated and experimental s20,w is poor or the parameter selection is arbitrary, the resulting ensembles may not be reliable representations of the true unfolded state. This would undermine all subsequent analyses and conclusions about ensemble properties.
+  - **Resolution test** Provide a figure or table showing calculated s20,w (from HullRad) as a function of cHP for both proteins, with the experimental s20,w (0 M urea) and its error range overlaid. State the criterion used to select the optimal cHP (e.g., minimum deviation, within 1 standard deviation). Additionally, perform a sensitivity analysis to show how ensemble properties (e.g., RG, DMAX) vary with small changes in cHP.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of results
+  - **Claim pointer** The claim that "unfolded outer membrane proteins appear to have solution properties distinct from those of IDPs" based on the comparison of RT values and Flory scaling exponents.
+  - **Evidence pointer** Discussion section; Figure 6; Figure S5
+  - **Concern** The comparison to IDPs relies on a single reference (English et al. 2020) for the expected RT of an IDP of similar length. The manuscript does not discuss the variability of RT among different IDPs or the dependence of the scaling exponent on sequence composition. Furthermore, the conclusion that water is a "neutral solvent" for uOMPs (ν ≈ 0.5) is based on only two proteins, both of which are β-barrel OMPs with similar transmembrane architecture. It is unclear whether this finding is general or specific to these sequences. The authors acknowledge the small sample size but do not temper the strength of the claim accordingly.
+  - **Why it matters** Overgeneralizing from two examples could mislead the field into assuming all uOMPs behave similarly, which may not be true given the diversity of OMP sequences and lengths. The distinction from IDPs is an important claim that requires more robust support.
+  - **Resolution test** Expand the analysis to include additional uOMPs of varying length and sequence composition, or at least discuss the expected variability based on existing literature. Provide a more nuanced comparison to IDP ensembles, acknowledging the range of scaling exponents observed for different IDPs. Consider rephrasing the conclusion to be more tentative, e.g., "the two uOMPs studied here exhibit..."
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical completeness
+  - **Claim pointer** The claim that the method is "simple, modifiable, and time-efficient" and can be extended to other systems.
+  - **Evidence pointer** Discussion section; Methods section "Generation of structural ensembles"
+  - **Concern** The manuscript does not report computational cost (e.g., wall-clock time, number of CPU cores) for the coarse-grained and all-atom simulations. It also does not describe how the method would be adapted to other proteins, particularly those with different lengths or amino acid compositions. The statement that the method is "modifiable" is not supported by any demonstration or detailed guidance.
+  - **Why it matters** For other researchers to adopt this method, they need to know the computational requirements and the steps needed to apply it to their protein of interest. Without this information, the practical utility of the method is limited.
+  - **Resolution test** Add a paragraph in the Methods or Discussion reporting typical computational times and hardware requirements. Provide a step-by-step protocol or pseudocode for applying the method to a new protein, including how to choose simulation parameters and validate the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Sedimentation velocity as a function of urea concentration"
+  - **Evidence pointer** Methods section; Table S1
+  - **Issue** The buffer compositions (20 mM Tris or 20 mM sodium phosphate, pH 8) are stated, but the ionic strength is not reported. Since sedimentation coefficients can be affected by ionic strength, this omission makes it harder to reproduce the experiments.
+  - **Required correction** Report the ionic strength or the concentration of any added salts for both buffer conditions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "uOmpA171 and uOmpX sedimentation coefficients can be linearly extrapolated"
+  - **Evidence pointer** Figure 1E, F; Table 1
+  - **Issue** The errors on the extrapolated s20,w (0 M urea) values are reported as 95% confidence intervals, but the number of independent measurements (triplicate) is small. It would be helpful to also report the standard deviation or standard error of the mean for each data point.
+  - **Required correction** Add standard deviations or standard errors to Table 1 or the figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section "Unfolded state ensembles include a wide range of conformations"
+  - **Evidence pointer** Figure 4; Supplementary movies
+  - **Issue** The molecular surface models in Figure 4 are described qualitatively (e.g., "compact globules," "tadpole-like"), but no quantitative measure of shape (e.g., asphericity, gyration tensor) is provided. This makes the visual descriptions subjective.
+  - **Required correction** Consider adding a quantitative shape descriptor, such as the asphericity parameter, to support the qualitative descriptions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors mention that the method could be used to interpret structures of uOMP-chaperone complexes, but they do not provide an example or a detailed explanation of how the ensembles would be used in such an analysis.
+  - **Required correction** Add a brief paragraph or a schematic figure illustrating how the ensembles could be docked or compared to chaperone-bound structures.
+
+## Risk / unsupported claims
+- The claim that the method "reproduces" experimental data is not quantitatively supported, as no direct comparison metric is provided.
+- The conclusion that uOMPs are distinct from IDPs in their solution properties is based on only two proteins and a single literature comparison, making it insufficiently supported.
+- The statement that the method is "modifiable" and can be extended to other systems is not demonstrated or detailed.
+- The claim that the ensembles are "more compact than unfolded soluble proteins" is supported by the RG comparison in Figure 6, but the statistical significance of this difference is not assessed.
+- The assertion that the method is "time-efficient" is not supported by any reported computational cost data.

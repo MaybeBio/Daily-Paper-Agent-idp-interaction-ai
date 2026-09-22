@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42464491",
+  "title": "Chain collapse, reduced dielectric, and water release drive protein phase separation.",
+  "authors": "Perets, Ethan A; Spies, Jacob A; Cheong, Justin H; Shi, Lixue; Asamoto, DeeAnn K; Holehouse, Alex S; Kim, Judy E; Min, Wei; Neu, Jens; Yan, Elsa C Y",
+  "journal": "Biophysical journal",
+  "published_date": "2026-07-17",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合无标记光谱与深度学习预测无序蛋白构象，定量揭示凝聚体内部蛋白-蛋白/蛋白-溶剂互作，提出链塌缩、介电降低与水释放驱动相分离的机制模型，高度契合无序蛋白PPI机制建模主题。",
+  "abstract": "Biomolecular condensates represent unique microenvironments that organize intracellular biology and promote biochemical reactions. However, the biomolecular interactions driving condensate phase separation are often weak, transient, and heterogeneous. Investigating the structural biology and chemical properties of condensate interiors has therefore proven experimentally challenging, often requiring the use of perturbative probes. To overcome this challenge, we combine label-free optical scattering and vibrational spectroscopy approaches spanning ultraviolet, visible, mid-infrared, and terahertz wavelengths with deep-learning-based ensemble prediction of intrinsically disordered protein conformations. This suite of label-free approaches provides quantitative insights into protein-protein/protein-solvent interactions and the chemical properties of condensate interiors. Investigating the N-terminal domain of the RNA DEAD-box helicase 4, our experimental and computational results support a model of phase separation involving protein chain collapse, reduced dielectric, and water release. These molecular events are expected to enhance the strength of multivalent protein-protein interactions within condensates, creating a positive-feedback loop important for condensate growth and phase separation.",
+  "abstract_zh": "生物分子凝聚体代表了组织细胞内生物学并促进生化反应的独特微环境。然而，驱动凝聚体相分离的生物分子相互作用通常较弱、短暂且异质。因此，研究凝聚体内部的结构生物学和化学性质在实验上具有挑战性，通常需要使用扰动性探针。为克服这一挑战，我们结合了跨越紫外、可见光、中红外和太赫兹波长的无标记光学散射和振动光谱方法，以及基于深度学习的固有无序蛋白质构象集成预测。这套无标记方法提供了对蛋白质-蛋白质/蛋白质-溶剂相互作用及凝聚体内部化学性质的定量见解。通过研究RNA DEAD-box解旋酶4的N端结构域，我们的实验和计算结果支持一个涉及蛋白质链塌缩、介电常数降低和水释放的相分离模型。这些分子事件预期会增强凝聚体内多价蛋白质-蛋白质相互作用的强度，形成对凝聚体生长和相分离至关重要的正反馈回路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42464491/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42464491/",
+  "paper_page_path": "papers/pubmed/42464491/index.html"
+}

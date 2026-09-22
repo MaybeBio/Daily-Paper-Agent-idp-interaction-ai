@@ -1,0 +1,528 @@
+{
+  "identity": {
+    "pmid": "40729735",
+    "doi": "10.1002/advs.202501977",
+    "title": "A Prion-Like Domain in EBV EBNA1 Promotes Phase Separation and Enables SRRM1 Splicing."
+  },
+  "content": {
+    "abstract": "Epstein-Barr virus (EBV) nuclear antigen 1 (EBNA1) is necessary to maintain stability of EBV episomes, EBV replication, and causes host genomic instability and promotes tumor cells survival. Recent studies have shown that viruses utilize liquid-liquid phase separation (LLPS) within host cells to form sub-cellular compartments known as \"virus factories\". Prion-like domains (PrLDs), which resemble structural domains of low complexity, are shown to drive LLPS in vivo. In the current study, a PrLD is identified in EBNA1 and aggregation of EBNA1 proteins is observed in EBV-positive tumors. EBNA1 condensate interacting molecules are examined and are found that EBNA1 interacts with the splicing factor SRSF1 to regulate alternative splicing of SRRM1 and promote tumor progression. Deleting the EBNA1 PrLD results in defects in protein aggregation, LLPS, alternative splicing regulation, and nasopharyngeal carcinoma cells proliferation. Targeting the PrLD of EBNA1 inhibits the formation of protein aggregation, promotes alternative splicing of SRRM1, and inhibits the progression of nasopharyngeal carcinoma. Here, we report for the first time that EBNA1, a protein from the human oncogenic virus EBV, is a prion-like protein, combining algorithm prediction and experimental validation. That implies a possible molecular pathogenic mechanism of EBNA1 in neurodegenerative diseases.",
+    "keywords": [
+      "EBV-encoded nuclear antigen 1",
+      "alternative splicing",
+      "phase separation",
+      "prion-like domain",
+      "protein aggregation"
+    ],
+    "mesh_terms": [
+      "*Epstein-Barr Virus Nuclear Antigens/metabolism/genetics",
+      "Humans",
+      "*Herpesvirus 4, Human/genetics/metabolism",
+      "*Serine-Arginine Splicing Factors/metabolism/genetics",
+      "*Prions/metabolism/genetics",
+      "Alternative Splicing/genetics",
+      "*RNA-Binding Proteins/metabolism/genetics",
+      "Epstein-Barr Virus Infections/genetics/metabolism",
+      "Cell Line, Tumor",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xiaoyue",
+        "Li, Zhengshuo",
+        "Zheng, Run",
+        "Zheng, Xiang",
+        "Wang, Jia",
+        "Liu, Can",
+        "Wu, Yangge",
+        "Wen, Yuqing",
+        "Ou, Chunlin",
+        "Fan, Songqing",
+        "Xu, Chenxiao",
+        "Tian, Junrui",
+        "Yan, Qun",
+        "Nan, Hao",
+        "Xu, Xiaodong",
+        "Wang, Hui",
+        "Peng, Qiu",
+        "Ma, Jian"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Li Z",
+        "Zheng R",
+        "Zheng X",
+        "Wang J",
+        "Liu C",
+        "Wu Y",
+        "Wen Y",
+        "Ou C",
+        "Fan S",
+        "Xu C",
+        "Tian J",
+        "Yan Q",
+        "Nan H",
+        "Xu X",
+        "Wang H",
+        "Peng Q",
+        "Ma J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4028-5974",
+        "ORCID: 0000-0001-6452-8419",
+        "ORCID: 0000-0001-9395-0416"
+      ],
+      "affiliations": [
+        "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+        "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+        "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China.",
+        "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+        "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+        "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China.",
+        "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+        "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+        "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China.",
+        "Department of Pathology, The First Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541001, China.",
+        "Department of Immunology, Changzhi Medical College, Changzhi, Shanxi, 046000, China.",
+        "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+        "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+        "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China.",
+        "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+        "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+        "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China.",
+        "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+        "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+        "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China.",
+        "Department of Pathology, Xiangya Hospital, Central South University, Changsha, Hunan, 410008, China.",
+        "Department of Pathology, the Second Xiangya Hospital, Central South University, Changsha, Hunan, 410011, China.",
+        "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+        "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+        "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China.",
+        "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+        "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+        "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China.",
+        "Department of Clinical Laboratory, Xiangya Hospital, Central South University, Changsha, 410008, China.",
+        "College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China.",
+        "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+        "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China.",
+        "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+        "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China.",
+        "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+        "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+        "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xiaoyue",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+          "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+          "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhengshuo",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+          "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+          "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Run",
+        "short_name": "Zheng R",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+          "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+          "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Xiang",
+        "short_name": "Zheng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, The First Affiliated Hospital of Guilin Medical University, Guilin, Guangxi, 541001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jia",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Immunology, Changzhi Medical College, Changzhi, Shanxi, 046000, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Can",
+        "short_name": "Liu C",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+          "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+          "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yangge",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+          "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+          "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Yuqing",
+        "short_name": "Wen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+          "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+          "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China."
+        ]
+      },
+      {
+        "full_name": "Ou, Chunlin",
+        "short_name": "Ou C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, Xiangya Hospital, Central South University, Changsha, Hunan, 410008, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Songqing",
+        "short_name": "Fan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology, the Second Xiangya Hospital, Central South University, Changsha, Hunan, 410011, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Chenxiao",
+        "short_name": "Xu C",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+          "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+          "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Junrui",
+        "short_name": "Tian J",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+          "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+          "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Qun",
+        "short_name": "Yan Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Xiangya Hospital, Central South University, Changsha, 410008, China."
+        ]
+      },
+      {
+        "full_name": "Nan, Hao",
+        "short_name": "Nan H",
+        "identifiers": [
+          "0000-0002-4028-5974"
+        ],
+        "affiliations": [
+          "College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaodong",
+        "short_name": "Xu X",
+        "identifiers": [
+          "0000-0001-6452-8419"
+        ],
+        "affiliations": [
+          "College of Life Sciences, Northwest A&F University, Yangling, Shaanxi, 712100, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hui",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+          "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Qiu",
+        "short_name": "Peng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+          "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Jian",
+        "short_name": "Ma J",
+        "identifiers": [
+          "0000-0001-9395-0416"
+        ],
+        "affiliations": [
+          "Hunan Cancer Hospital and The Affiliated Cancer Hospital of Xiangya School of Medicine, Central South University, Changsha, Hunan, 410013, China.",
+          "Cancer Research Institute, Xiangya School of Basic Medical Science, Central South University, Changsha, Hunan, 410078, China.",
+          "NHC Key Laboratory of Carcinogenesis, Key Laboratory of Carcinogenesis and Cancer Invasion of the Chinese Ministry of Education, Hunan Key Laboratory of Nonresolving Inflammation and Cancer, Hunan Key Laboratory of Translational Radiation Oncology, Changsha, Hunan, 410078, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 18:32",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [
+      "41399527"
+    ],
+    "refs": [
+      "39390260",
+      "39384788",
+      "38537697",
+      "38497939",
+      "38424082",
+      "38304956",
+      "38091993",
+      "37379327",
+      "37179431",
+      "37046091",
+      "36709343",
+      "36560704",
+      "35821097",
+      "35819518",
+      "35208734",
+      "35181198",
+      "35149762",
+      "35073561",
+      "35025605",
+      "34705104",
+      "34526502",
+      "34459139",
+      "34427634",
+      "34233164",
+      "34102212",
+      "33744316",
+      "33482082",
+      "31941785",
+      "31097543",
+      "31043738",
+      "30944313",
+      "30664652",
+      "30555548",
+      "29961577",
+      "29895872",
+      "29525635",
+      "29187840",
+      "28935776",
+      "28838656",
+      "28663553",
+      "28389532",
+      "28082594",
+      "27687982",
+      "27114519",
+      "26317470",
+      "25772494",
+      "25579934",
+      "25288112",
+      "25027306",
+      "24825614",
+      "23931993",
+      "23746351",
+      "23629963",
+      "22579281",
+      "22504579",
+      "21852328",
+      "21782231",
+      "21536904",
+      "20308987",
+      "20133771",
+      "20029438",
+      "19690385",
+      "19345193",
+      "19066511",
+      "17409275",
+      "17046650",
+      "16168932",
+      "15931169",
+      "15510157",
+      "15194777",
+      "12849238",
+      "12624182",
+      "10668804",
+      "9531537",
+      "9160742",
+      "8288561",
+      "7909170",
+      "7884916",
+      "7785336",
+      "6282112",
+      "2859120",
+      "2542577",
+      "1675487",
+      "1660153",
+      "1655279"
+    ],
+    "similar": [
+      "40729735",
+      "26428370",
+      "18833293",
+      "23325328",
+      "28077791",
+      "31142669",
+      "40764753",
+      "22013060",
+      "29710517",
+      "22013061",
+      "22496234",
+      "30832682",
+      "40657913",
+      "25031339",
+      "25186125",
+      "28493890",
+      "31941781",
+      "36622166",
+      "26468528",
+      "20042495",
+      "19439552",
+      "16180023",
+      "20051109",
+      "28259949",
+      "40354417",
+      "36037477",
+      "28701406",
+      "26858444",
+      "40665173",
+      "39972676",
+      "30833082",
+      "33929613",
+      "24067969",
+      "39821265",
+      "37839162",
+      "36350639",
+      "34781735",
+      "39856614",
+      "20132216",
+      "24486954",
+      "21093004",
+      "34304093",
+      "30555548",
+      "34969765",
+      "23189182",
+      "34215536",
+      "21795327",
+      "26121143",
+      "31173968",
+      "16699006",
+      "37262099",
+      "29959331",
+      "18922874",
+      "26460969",
+      "15498777",
+      "21910783",
+      "17720884",
+      "37473831",
+      "15650182",
+      "15015577",
+      "30817940",
+      "19244333",
+      "17129209",
+      "27071030",
+      "23836915",
+      "32999023",
+      "26879316",
+      "16343579",
+      "15771960",
+      "16942443",
+      "20843307",
+      "18096263",
+      "20930215",
+      "40733516",
+      "20810723",
+      "19393319",
+      "14694109",
+      "19244323",
+      "17385682",
+      "27009860",
+      "31687403",
+      "15923612",
+      "32119176",
+      "24284322",
+      "19412732",
+      "9634087",
+      "9421526",
+      "18931081",
+      "33122398",
+      "30203133",
+      "19656898",
+      "27009953",
+      "26122471",
+      "23170171",
+      "25124688",
+      "19521517",
+      "32176739",
+      "24344309",
+      "26428372",
+      "30842315"
+    ],
+    "review": [
+      "40729735",
+      "26428370",
+      "23325328",
+      "25186125",
+      "30555548",
+      "37473831",
+      "19412732",
+      "23170171"
+    ],
+    "pmc": [
+      "12591112"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40729735/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

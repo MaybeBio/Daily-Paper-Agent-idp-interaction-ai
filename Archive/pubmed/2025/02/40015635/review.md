@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, experimental procedures, and data availability statements
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and structural claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report that cancer-associated hotspot mutations in the ERK2 common docking (CD) site selectively disrupt binding to a subset of docking peptides characterized by an I/L-x-x-R-R motif, while sparing many other interactions. They provide a co-crystal structure of WT ERK2 with an ISG20-derived peptide, biochemical validation of differential binding, and functional evidence that mutant ERK2 shows reduced phosphorylation of GEF-H1, a substrate harboring this motif.
+- **Visible evidence base** Y2H screening data (Dataset S1), quantitative IC50 measurements from competitive kinase assays (Table S1, Table 2, Fig. 3), co-crystal structure at 1.9 Å (PDB 7UGB, Table 1, Fig. 4), radiolabel kinase assays (Fig. 5), AlphaFold 3 model predictions (Fig. S6)
+- **Missing materials affecting confidence** Supplementary datasets (Dataset S1, S2, S3) were not provided for direct inspection. Raw sequencing data, complete IC50 curves, and full structural validation metrics beyond those in Table 1 were not available. The AlphaFold 3 model confidence metrics were not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-executed and conceptually interesting study that combines unbiased screening, structural biology, and biochemical validation to address how cancer-associated ERK2 mutations rewire docking interactions. The central claim that hotspot mutations selectively exclude a specific class of docking motifs, rather than globally disrupting all CD interactions, is supported by convergent evidence from multiple assays. The structural work provides a plausible mechanistic explanation for the observed selectivity. However, several concerns regarding the generalizability of the conclusions, the interpretation of the Y2H screen results, and the limited functional validation in cellular contexts temper the strength of the claims. The work is likely to be of interest to the kinase signaling community and to cancer biologists studying MAPK pathway mutations.
+- **Who would be interested in the results, and why** Researchers studying MAPK signaling specificity, particularly those interested in kinase docking interactions and their role in substrate selection. Cancer biologists investigating the functional consequences of ERK2 mutations in squamous cell carcinomas and other tumors will find the mechanistic insights relevant. Structural biologists working on protein kinase complexes may also be interested in the novel binding mode described. The findings have potential implications for understanding how oncogenic mutations rewire signaling networks, which is a topic of broad interest in the molecular oncology community.
+- **Major strengths** The study combines an unbiased screening approach with structural and biochemical validation, providing multiple lines of evidence for the central claim. The identification of a specific sequence motif (I/L-x-x-R-R) that distinguishes WT-selective from mutant-sensitive interactions is a clear and testable finding. The co-crystal structure at 1.9 Å resolution is of high quality and reveals a novel binding mode with an unoccupied ΦB pocket. The functional validation using GEF-H1, a physiologically relevant substrate, strengthens the biological significance of the findings. The authors are appropriately cautious in their interpretation of the Y2H screen limitations, particularly regarding the failure to reliably detect gained interactions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of conclusions
+  - **Claim pointer** The authors state that "cancer hotspot mutations at Glu81, Arg135, Asp321, and Glu322 selectively impact peptide binding" and that the I/L-x-x-R-R motif is diagnostic for docking sites disrupted by these mutations.
+  - **Evidence pointer** Fig. 3, Table 2, Fig. 4, Discussion section
+  - **Concern** The study focuses on two ERK2 mutants (D319N and E322K) in the Y2H screens, with R133K tested only in biochemical validation. The structural analysis is based on WT ERK2 only. The claim that all four hotspot residues (Glu81, Arg135, Asp321, Glu322) selectively impact binding is inferred from the structure and limited biochemical data, but the Y2H screen was not performed with R135K or E81 mutants. The generalizability of the I/L-x-x-R-R motif as a universal predictor of mutant sensitivity across all four hotspot mutations is therefore not fully established.
+  - **Why it matters** The title and abstract imply a broad conclusion about how cancer hotspot mutations rewire ERK2 specificity. If different hotspot mutations have distinct effects on the interactome, the conclusions would need to be qualified. The clinical relevance of the findings depends on whether the observed selectivity pattern holds across the spectrum of cancer-associated mutations.
+  - **Resolution test** The authors should either perform Y2H screens with additional hotspot mutants (at minimum R135K) or explicitly qualify their conclusions to the mutants tested. Alternatively, biochemical validation of a panel of I/L-x-x-R-R-containing peptides against all four hotspot mutants would strengthen the generalizability claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of Y2H screen results
+  - **Claim pointer** The authors state that "most sequences binding to WT ERK2 also interact with both mutant forms" and that only 32% of WT hits were unique to WT ERK2.
+  - **Evidence pointer** Fig. 2C, Dataset S2
+  - **Concern** The Y2H screen uses a competitive growth assay with enrichment scores derived from pooled library screening. The threshold for defining hits (Z > 3) is arbitrary, and the authors do not provide a clear discussion of the sensitivity and specificity of this cutoff. The finding that 31% of mutant hits were not WT hits (gained interactions) is dismissed as potentially artifactual, but the authors do not rigorously test this possibility. The lack of a clear statistical framework for comparing enrichment scores between WT and mutant screens is a limitation.
+  - **Why it matters** The quantitative comparison between WT and mutant interactomes is central to the claim of selective rather than global disruption. If the Z > 3 threshold is not well-calibrated, the proportion of lost versus maintained interactions could be misestimated. The interpretation of gained interactions as artifacts needs stronger justification.
+  - **Resolution test** The authors should provide a more detailed analysis of the screen statistics, including the distribution of enrichment scores, the reproducibility across replicates, and a rationale for the Z > 3 cutoff. A comparison of hit calling using different thresholds would help establish the robustness of the conclusions. The gained interactions should be tested more thoroughly, perhaps with a subset validated biochemically.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance of differential binding
+  - **Claim pointer** The authors conclude that "cancer-associated ERK2 mutations had decreased activity in phosphorylating GEF-H1/ARHGEF2, a known ERK substrate harboring a WT-selective docking motif."
+  - **Evidence pointer** Fig. 5, Discussion section
+  - **Concern** The functional validation is limited to a single substrate (GEF-H1) in an in vitro kinase assay. While this demonstrates that the differential binding observed in peptide assays translates to a full-length protein substrate, the broader physiological relevance is not established. The authors do not test whether the reduced phosphorylation of GEF-H1 has consequences for downstream signaling or cellular phenotypes. The claim that this represents "pathway rewiring" in cancers is speculative without cellular or in vivo evidence.
+  - **Why it matters** The title and abstract suggest that the rewiring of ERK2 specificity has implications for understanding cancer biology. Without demonstrating functional consequences in a cellular context, the significance of the biochemical findings for tumor biology remains uncertain. The clinical relevance of the work depends on establishing that the observed selectivity translates to altered signaling outputs.
+  - **Resolution test** The authors should either provide cellular evidence that ERK2 hotspot mutants show altered phosphorylation of endogenous substrates containing the I/L-x-x-R-R motif, or temper the conclusions about pathway rewiring in cancers. Experiments in relevant cell lines or patient-derived samples would substantially strengthen the translational relevance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors state that the co-crystal structure "demonstrated the mechanism by which cancer hotspot mutations at Glu81, Arg135, Asp321, and Glu322 selectively impact peptide binding."
+  - **Evidence pointer** Fig. 4, Table 1
+  - **Concern** The structure is of WT ERK2 bound to the ISG20 peptide. The mechanistic explanation for how mutations disrupt binding is inferred from the WT structure rather than demonstrated directly with mutant structures. The authors do not provide structures of mutant ERK2 with the ISG20 peptide, which would more directly reveal the structural basis for the loss of binding. The claim that the structure "demonstrated the mechanism" is stronger than what the data support.
+  - **Why it matters** The structural mechanism is a key contribution of the paper. If the interpretation relies on inference from the WT structure rather than direct structural evidence, the conclusions are less definitive. The authors' explanation of how mutations at Glu81, Arg135, Asp321, and Glu322 disrupt the I/L-x-x-R-R interaction would be more convincing with direct structural support.
+  - **Resolution test** The authors should either provide structures of mutant ERK2 with the ISG20 peptide, or soften the language to indicate that the mechanism is proposed based on the WT structure and mutational analysis. Molecular dynamics simulations or other computational approaches could also provide additional support for the proposed mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Fig. 5B-D
+  - **Evidence pointer** Fig. 5, Experimental procedures
+  - **Issue** The statistical analysis for the radiolabel kinase assays uses ordinary one-way ANOVA with Geisser-Greenhouse correction and Dunnett's multiple comparisons test. However, the number of replicates (n=3) is small, and the authors do not report effect sizes or confidence intervals for the differences between WT and mutant ERK2.
+  - **Required correction** The authors should report the exact p-values for all comparisons, including those that are not significant, and consider reporting effect sizes or confidence intervals to provide a more complete picture of the magnitude of the observed differences.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Fig. 2B
+  - **Evidence pointer** Fig. 2B
+  - **Issue** The waterfall plots in Fig. 2B show enrichment scores for individual sequences, but the labels for known interactors are only shown for a few sequences. It would be helpful to label more of the known interactors and to indicate which sequences were selected for further validation.
+  - **Required Correction** The authors should consider adding more labels to the waterfall plots or providing a supplementary table that lists all sequences with their enrichment scores and annotations for known interactors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** AlphaFold 3 modeling
+  - **Evidence pointer** Experimental procedures, Fig. S6
+  - **Issue** The AlphaFold 3 model of ERK2 bound to MKP3 is mentioned but the confidence metrics (pLDDT, PAE) are not reported. The authors state that the model was generated with default parameters but do not provide details on how the model was validated or how the specific complex was selected.
+  - **Required Correction** The authors should report the confidence metrics for the AlphaFold 3 model and describe how the model was assessed for reliability. If the model is used to support structural claims, the confidence in the prediction should be clearly stated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the I/L-x-x-R-R motif would benefit from a more thorough comparison with previously reported ERK2 docking motifs and the known structural basis for CD site interactions. The authors mention prior work but do not fully contextualize their findings within the broader literature on MAPK docking interactions.
+  - **Required Correction** The authors should expand the discussion to more thoroughly compare their findings with previous structural and biochemical studies of ERK2 docking interactions, particularly those that have characterized the CD site and its binding partners.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Title and abstract
+  - **Evidence pointer** Title, Abstract
+  - **Issue** The term "rewire" in the title and abstract implies a systems-level change in signaling connectivity. While the authors demonstrate selective loss of interactions, the term "rewire" may overstate the findings, particularly since gained interactions were not reliably detected.
+  - **Required Correction** The authors should consider whether "rewire" is the most accurate term, or whether "selective disruption" or "altered specificity" would more precisely describe the findings.
+
+## Risk / unsupported claims
+- The claim that the co-crystal structure "demonstrated the mechanism" for how all four hotspot mutations selectively impact peptide binding is not fully supported, as the structure is of WT ERK2 and mutations were not directly visualized.
+- The conclusion that cancer-associated ERK2 mutations contribute to "pathway rewiring in cancers" is speculative without cellular or in vivo evidence demonstrating functional consequences.
+- The interpretation that gained interactions in the Y2H screen are artifacts is not rigorously tested and may be premature.
+- The generalizability of the I/L-x-x-R-R motif as the key determinant of mutant sensitivity across all hotspot mutations is not fully established, as only two mutants were screened in Y2H.
+- The claim that the ΦB pocket is "likely" unoccupied due to the absence of a hydrophobic residue is presented with appropriate caution, but the functional significance of this observation for the differential binding phenotype is not directly tested.

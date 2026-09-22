@@ -1,0 +1,235 @@
+{
+  "identity": {
+    "pmid": "42364125",
+    "doi": "10.1080/07391102.2026.2693643",
+    "title": "The multifaceted nature of mollusk shell proteins: a complex interplay of protein sequence, function, and biomineralization."
+  },
+  "content": {
+    "abstract": "Mollusk shell formation represents a complex biomineralization process governed by diverse shell proteins, yet their sequence-structure-function relationships remain incompletely understood. We have presented a comprehensive bioinformatic synthesis of 210 shell-associated proteins from 30 molluscan species to delineate compositional, structural, regulatory and evolutionary principles underlying shell formation. Primary sequence analyses revealed highly biased amino acid compositions characterized by a predominance of hydrophilic residues, enrichment of glycine-, aspartate- and serine-rich regions, and reduced nonpolar content. Nearly 65% of proteins were either highly acidic or highly basic, aligning with the prevailing view that charged macromolecules influence calcium carbonate nucleation. Repetitive low-complexity motifs, extensive post-translational modification sites and secretory signals were widespread, supporting extracellular matrix localization and functional adaptability. Structural predictions indicated limited secondary structure and extensive intrinsic disorder, with almost three-quarters of proteins classified as partially or completely disordered. Quantitative analyses demonstrated strong coupling between intrinsic disorder and regulatory motif enrichment, suggesting that these proteins primarily act as flexible, multivalent scaffolds rather than rigid structural components. Charge-hydropathy profiling and aggregation analyses further highlighted diverse structural strategies associated with biomineralization and matrix assembly. The nacrein protein family, examined as a representative case, showed a conserved carbonic anhydrase catalytic core combined with lineage-specific flexible regions, illustrating how structural conservation and disorder-driven adaptability facilitate carbonate regulation and shell microstructure diversification. This integrative framework supports a model in which mollusk shell proteins function as disorder-rich, post-translationally regulated biomolecular networks orchestrating mineral nucleation, crystal growth and shell morphogenesis.",
+    "keywords": [
+      "Mollusk",
+      "bioinformatics",
+      "biomineralization",
+      "intrinsically disordered proteins",
+      "shell formation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sharma, Pratibha",
+        "Malhotra, Lakshay",
+        "Dhamija, Rajinder K",
+        "Srinivasan, Alagiri"
+      ],
+      "short_names": [
+        "Sharma P",
+        "Malhotra L",
+        "Dhamija RK",
+        "Srinivasan A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Neurology, Institute of Human Behaviour and Allied Sciences, Delhi, New Delhi, India.",
+        "Department of Biochemistry, Sri Venkateswara College, Delhi University, New Delhi, India.",
+        "Department of Neurology, Institute of Human Behaviour and Allied Sciences, Delhi, New Delhi, India.",
+        "Department of Biophysics, All India Institute of Medical Sciences, New Delhi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sharma, Pratibha",
+        "short_name": "Sharma P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Institute of Human Behaviour and Allied Sciences, Delhi, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Malhotra, Lakshay",
+        "short_name": "Malhotra L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Sri Venkateswara College, Delhi University, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Dhamija, Rajinder K",
+        "short_name": "Dhamija RK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Institute of Human Behaviour and Allied Sciences, Delhi, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Srinivasan, Alagiri",
+        "short_name": "Srinivasan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, All India Institute of Medical Sciences, New Delhi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2026 Jun 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/27 18:36",
+    "fetched_at": "2026-09-18 04:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42364125",
+      "31219243",
+      "23912807",
+      "25284052",
+      "18831774",
+      "23060620",
+      "41258516",
+      "40990046",
+      "15222016",
+      "31129291",
+      "27909912",
+      "40248912",
+      "40919894",
+      "30967473",
+      "34168677",
+      "33579194",
+      "39030865",
+      "17950376",
+      "41708038",
+      "24584662",
+      "41134001",
+      "17391016",
+      "32737956",
+      "38194282",
+      "15678422",
+      "27279892",
+      "30282805",
+      "25138014",
+      "20831150",
+      "21040589",
+      "38364902",
+      "35853523",
+      "22634174",
+      "30194872",
+      "29983641",
+      "34182126",
+      "21585656",
+      "19904951",
+      "34989931",
+      "33689053",
+      "37626310",
+      "32721629",
+      "33719450",
+      "22202112",
+      "37995944",
+      "34182125",
+      "31574084",
+      "41946080",
+      "16407336",
+      "11381529",
+      "39952539",
+      "31293836",
+      "27576138",
+      "41053545",
+      "28934129",
+      "18080162",
+      "39979561",
+      "18298090",
+      "12952167",
+      "39675600",
+      "34112105",
+      "40922549",
+      "35404090",
+      "30989236",
+      "26194158",
+      "21279408",
+      "37775818",
+      "42278235",
+      "23145877",
+      "32289403",
+      "40799657",
+      "31604125",
+      "31299122",
+      "24690273",
+      "42290021",
+      "27098855",
+      "27556926",
+      "38896299",
+      "34545666",
+      "26161976",
+      "19344178",
+      "28961798",
+      "34468131",
+      "23497088",
+      "21050442",
+      "21909575",
+      "27426695",
+      "38971311",
+      "37739291",
+      "26699268",
+      "11920437",
+      "30096183",
+      "24244223",
+      "24720254",
+      "22540284",
+      "37100317",
+      "22941536",
+      "26205040",
+      "39277725",
+      "41354639"
+    ],
+    "review": [
+      "42364125",
+      "31219243",
+      "33579194",
+      "39030865",
+      "17950376",
+      "41134001",
+      "32737956",
+      "27279892",
+      "34182126",
+      "22202112",
+      "11381529",
+      "27098855",
+      "34545666"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2026.2693643?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2026.2693643",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full manuscript, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce HTS-Oracle, an AI system combining molecular language modeling with cheminformatics, and claim it prospectively prioritizes bioactive small molecules for three immune targets (TREM2, CHI3L1, CD28) with up to >99% reduction in experimental screening requirements and up to 176-fold increased hit rates relative to traditional HTS, including an eightfold improvement for CD28 under extreme data sparsity.
+- **Visible evidence base** Abstract text only; no experimental protocols, datasets, model architecture details, or validation metrics are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, dataset descriptions, model training and evaluation details, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially impactful application of AI to a well-recognized problem in small molecule discovery, specifically targeting immune receptors and protein-protein interaction interfaces that are historically difficult for HTS. The reported performance gains are striking and, if fully substantiated, would represent a meaningful advance. However, the abstract alone provides insufficient detail to evaluate the validity of the core claims. Critical information on experimental design, comparator definitions, statistical rigor, and model generalizability is absent. The case is intriguing but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in drug discovery, medicinal chemistry, and chemical biology would be interested, particularly those working on challenging immune targets or protein-protein interaction inhibitors. Computational scientists developing AI methods for molecular property prediction and virtual screening would also find the approach relevant. The claim of generalizable performance under data sparsity could attract attention from groups applying machine learning to low-data regimes in chemistry.
+- **Major strengths** The problem addressed is of high practical importance, as HTS failure for immune receptor and PPI targets is well documented. The choice of three clinically validated but historically intractable targets provides a compelling testbed. The reported magnitude of improvement, if reproducible, would be substantial. The emphasis on prospective experimental validation is a notable strength relative to purely computational benchmarks.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that HTS-Oracle reduces experimental screening requirements by up to >99% and increases hit rates by up to 176-fold relative to traditional HTS.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on how these metrics were computed. The baseline for "traditional HTS" is not defined, and it is unclear whether the comparison is against a full-deck screen, a random subset, or an alternative computational method. The hit rate definition and the number of compounds tested per target are not stated.
+  - **Why it matters** Without a clear and consistent comparator, the reported fold-improvements and screening reduction percentages cannot be interpreted. These are the central quantitative claims of the work, and their validity depends entirely on the experimental design and metric definitions.
+  - **Resolution test** Provide explicit definitions of hit rate, screening reduction, and the HTS baseline. Report the number of compounds prioritized and tested per target, the number of confirmed hits, and the statistical significance of the enrichment relative to the defined baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The claim that HTS-Oracle is "generalizable" and "remains predictive under extreme data sparsity."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** Only three targets are described, each representing a distinct challenge class. The abstract does not report how the model was trained or whether the same model instance was applied across all targets without retraining. The claim of generalizability requires evidence that the method transfers across targets with different characteristics, not just that it works on three selected cases.
+  - **Why it matters** Generalizability is a core stated contribution. If the model was fine-tuned per target, the claim of a generalizable platform is weakened. The data sparsity claim for CD28 is mentioned but not contextualized with respect to training set size, active fraction, or comparison to alternative methods under the same sparsity conditions.
+  - **Resolution test** Clarify the training and inference protocol for each target. Provide details on training set sizes, active fractions, and whether a single model or target-specific models were used. Include a comparison to standard baselines under matched data sparsity conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The claim that HTS-Oracle is "experimentally validated" and "consistently enriching for experimentally validated hits."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states experimental validation but provides no information on the assay formats, concentrations tested, hit confirmation criteria, or the number of independent replicates. It is unclear whether hits were confirmed in dose-response, whether counterscreens were performed, or whether any hits were advanced to secondary assays.
+  - **Why it matters** Experimental validation is the key differentiator of this work from purely computational studies. Without details on assay quality, hit confirmation, and potential artifacts, the reliability of the reported hits cannot be assessed.
+  - **Resolution test** Describe the assay protocols, hit confirmation criteria, and any counterscreening or orthogonal validation. Report the number of confirmed hits per target and the potency range observed.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Target description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract describes TREM2, CHI3L1, and CD28 as representing "cryptic binding pockets, intrinsically disordered proteins, and protein-protein interaction-driven immune checkpoint, respectively." This categorization is not standard for all three targets and may oversimplify their biology.
+  - **Required correction** Provide a more precise description of the structural and functional features that make each target challenging, with appropriate references.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Molecular language modeling"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "molecular language modeling" is used without specification of the model architecture, training data, or representation (e.g., SMILES, SELFIES, molecular graphs).
+  - **Required correction** Specify the model type and input representation in the abstract or refer to a methods section where this is detailed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract reports fold-improvements and percentage reductions without confidence intervals, error bars, or statistical tests.
+  - **Required correction** Include measures of variability or statistical significance for the reported metrics, or state that these are point estimates from a single experiment.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core quantitative claims, the generalizability assertion, and the experimental validation status all require additional evidence that is not present in the abstract.
+- **Assessment against Nature-style criteria** Originality: The combination of molecular language modeling with cheminformatics for prospective hit prioritization on challenging immune targets is a plausible novel contribution, but the abstract does not distinguish it clearly from existing virtual screening and active learning methods. Scientific importance: The problem is important, and the reported results, if substantiated, would be of high significance. Interdisciplinary readership: The work bridges machine learning and drug discovery, which could appeal to a broad audience, but the abstract is too brief to convey the technical novelty to computational readers or the practical utility to experimental readers. Technical soundness: Cannot be assessed from the abstract alone; the absence of methodological detail and statistical reporting prevents evaluation. Readability for nonspecialists: The abstract is concise and accessible, but the lack of context on the targets and the AI method limits comprehension for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an intriguing premise, but the absence of methodological detail, comparator definitions, and experimental validation specifics means the core claims cannot be evaluated. A full manuscript with complete methods, results, and statistical analyses would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of "up to >99%" reduction in screening requirements is unsupported without a defined baseline and experimental protocol.
+- The claim of "up to 176-fold" increased hit rates is unsupported without hit rate definitions and comparator details.
+- The claim of "eightfold improvement for CD28 despite fewer than 2% actives in training" is unverifiable without training set composition and evaluation details.
+- The claim of "generalizable" performance is unsupported from three targets without evidence of a unified model or transfer protocol.
+- The claim of "experimentally validated" is unverifiable without assay details, hit confirmation criteria, or replicate information.
+- The characterization of the three targets as representative of distinct challenge classes is not substantiated with structural or functional evidence.

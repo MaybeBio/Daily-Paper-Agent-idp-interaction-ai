@@ -1,0 +1,404 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.09.06.506782",
+  "title": "Phase separation-based visualization of protein-protein interactions and kinase activities in plants",
+  "doi": "10.1101/2022.09.06.506782",
+  "abstract": "Protein activities depend heavily on protein complex formation and dynamic post-translational modifications, such as phosphorylation. Their dynamic nature is notoriously difficult to monitor in planta at cellular resolution, often requiring extensive optimization and high-end microscopy. Here, we generated and exploited the SYnthetic Multivalency in PLants (SYMPL)-vector set to study protein-protein interactions (PPIs) and kinase activities in planta based on phase separation. This technology enabled easy detection of inducible, binary and ternary protein-protein interactions among cytoplasmic, nuclear and plasma membrane proteins in plant cells via a robust image-based readout. Moreover, we applied the SYMPL toolbox to develop an in vivo reporter for SnRK1 kinase activity, allowing us to visualize tissue-specific, dynamic SnRK1 activation upon energy deprivation in stable transgenic Arabidopsis plants. The applications of the SYMPL cloning toolbox lay the foundation for the exploration of PPIs, phosphorylation and other post-translational modifications with unprecedented ease and sensitivity.",
+  "authors": [
+    "Safi A",
+    "Smagghe W",
+    "Gonçalves A",
+    "Xu K",
+    "Fernandez AI",
+    "Cappe B",
+    "Riquet FB",
+    "Mylle E",
+    "Van Damme D",
+    "Geelen D",
+    "Jaeger GD",
+    "Beeckman T",
+    "Leene JV",
+    "Vanneste S"
+  ],
+  "published_date": "2022-09-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.09.06.506782",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.09.06.506782.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR541329",
+    "raw_record": {
+      "id": "PPR541329",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR541329"
+        ]
+      },
+      "doi": "10.1101/2022.09.06.506782",
+      "title": "Phase separation-based visualization of protein-protein interactions and kinase activities in plants",
+      "authorString": "Safi A, Smagghe W, Gonçalves A, Xu K, Fernandez AI, Cappe B, Riquet FB, Mylle E, Van Damme D, Geelen D, Jaeger GD, Beeckman T, Leene JV, Vanneste S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Safi A",
+            "lastName": "Safi",
+            "firstName": "Alaeddine",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1532-5708"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smagghe W",
+            "lastName": "Smagghe",
+            "firstName": "Wouter",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gonçalves A",
+            "lastName": "Gonçalves",
+            "firstName": "Amanda",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Death and Inflammation Unit, VIB-UGent Center for Inflammation Research (IRC), Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Department of Biomedical Molecular Biology (DBMB), Ghent University, Ghent, Belgium"
+                },
+                {
+                  "affiliation": "VIB, Bioimaging Core, Technologiepark 71, B-9052, Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xu K",
+            "lastName": "Xu",
+            "firstName": "Ke",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fernandez AI",
+            "lastName": "Fernandez",
+            "firstName": "Ana Ibis",
+            "initials": "AI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cappe B",
+            "lastName": "Cappe",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Death and Inflammation Unit, VIB-UGent Center for Inflammation Research (IRC), Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Department of Biomedical Molecular Biology (DBMB), Ghent University, Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Riquet FB",
+            "lastName": "Riquet",
+            "firstName": "Franck",
+            "initials": "FB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8417-4283"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Death and Inflammation Unit, VIB-UGent Center for Inflammation Research (IRC), Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Department of Biomedical Molecular Biology (DBMB), Ghent University, Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Université de Lille, CNRS, UMR 8523-PhLAM-Physique des Lasers Atomes et Molécules, 59000 Lille, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mylle E",
+            "lastName": "Mylle",
+            "firstName": "Evelien",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Van Damme D",
+            "lastName": "Van Damme",
+            "firstName": "Daniël",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Geelen D",
+            "lastName": "Geelen",
+            "firstName": "Danny",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plants and Crops, Ghent University, 9000 Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jaeger GD",
+            "lastName": "Jaeger",
+            "firstName": "Geert De",
+            "initials": "GD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beeckman T",
+            "lastName": "Beeckman",
+            "firstName": "Tom",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leene JV",
+            "lastName": "Leene",
+            "firstName": "Jelle Van",
+            "initials": "JV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Center for Plant Systems Biology, VIB, 9052 Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vanneste S",
+            "lastName": "Vanneste",
+            "firstName": "Steffen",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9948-9672"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, Ghent University, 9052 Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Department of Plants and Crops, Ghent University, 9000 Ghent, Belgium"
+                },
+                {
+                  "affiliation": "Lab of Plant Growth Analysis, Ghent University Global Campus, Incheon 21985, Republic of Korea"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8417-4283"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9948-9672"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1532-5708"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Protein activities depend heavily on protein complex formation and dynamic post-translational modifications, such as phosphorylation. Their dynamic nature is notoriously difficult to monitor in planta at cellular resolution, often requiring extensive optimization and high-end microscopy. Here, we generated and exploited the SYnthetic Multivalency in PLants (SYMPL)-vector set to study protein-protein interactions (PPIs) and kinase activities in planta based on phase separation. This technology enabled easy detection of inducible, binary and ternary protein-protein interactions among cytoplasmic, nuclear and plasma membrane proteins in plant cells via a robust image-based readout. Moreover, we applied the SYMPL toolbox to develop an in vivo reporter for SnRK1 kinase activity, allowing us to visualize tissue-specific, dynamic SnRK1 activation upon energy deprivation in stable transgenic Arabidopsis plants. The applications of the SYMPL cloning toolbox lay the foundation for the exploration of PPIs, phosphorylation and other post-translational modifications with unprecedented ease and sensitivity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "682436",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/09/08/2022.09.06.506782.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.09.06.506782"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR541329"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR541329&type=FILE&fileName=EMS154018-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37378595",
+            "reference": "The Plant cell. 2023 Sep;35(9):3280-3302",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS154018",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-09-09",
+      "firstPublicationDate": "2022-09-08",
+      "firstIndexDate": "2022-09-09",
+      "fullTextReceivedDate": "2022-10-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

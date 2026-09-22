@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35045069",
+  "title": "Extended ensemble simulations of a SARS-CoV-2 nsp1-5'-UTR complex.",
+  "authors": "Sakuraba, Shun; Xie, Qilin; Kasahara, Kota; Iwakiri, Junichi; Kono, Hidetoshi",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-01-20",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用扩展系综分子动力学模拟研究SARS-CoV-2 nsp1与其5'-UTR RNA复合物，揭示nsp1无序区域参与RNA结合与逃逸机制，属于IDR介导的核酸-蛋白互作机制建模，方法为物理模拟，虽对象为RNA而非蛋白，但机制建模思路对IDR-PPI研究有直接启发。",
+  "abstract": "Nonstructural protein 1 (nsp1) of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a 180-residue protein that blocks translation of host mRNAs in SARS-CoV-2-infected cells. Although it is known that SARS-CoV-2's own RNA evades nsp1's host translation shutoff, the molecular mechanism underlying the evasion was poorly understood. We performed an extended ensemble molecular dynamics simulation to investigate the mechanism of the viral RNA evasion. Simulation results suggested that the stem loop structure of the SARS-CoV-2 RNA 5'-untranslated region (SL1) binds to both nsp1's N-terminal globular region and intrinsically disordered region. The consistency of the results was assessed by modeling nsp1-40S ribosome structure based on reported nsp1 experiments, including the X-ray crystallographic structure analysis, the cryo-EM electron density map, and cross-linking experiments. The SL1 binding region predicted from the simulation was open to the solvent, yet the ribosome could interact with SL1. Cluster analysis of the binding mode and detailed analysis of the binding poses suggest residues Arg124, Lys47, Arg43, and Asn126 may be involved in the SL1 recognition mechanism, consistent with the existing mutational analysis.",
+  "abstract_zh": "严重急性呼吸综合征冠状病毒2型（SARS-CoV-2）的非结构蛋白1（nsp1）是一个由180个残基组成的蛋白质，在SARS-CoV-2感染的细胞中阻断宿主mRNA的翻译。尽管已知SARS-CoV-2自身的RNA能逃避nsp1的宿主翻译关闭作用，但这一逃避机制背后的分子机制此前尚不清楚。我们进行了扩展系综分子动力学模拟，以研究病毒RNA逃避的机制。模拟结果表明，SARS-CoV-2 RNA 5‘-非翻译区（SL1）的茎环结构同时与nsp1的N端球状区域和 intrinsically disordered region（内在无序区域）结合。通过基于已报道的nsp1实验（包括X射线晶体结构分析、冷冻电镜电子密度图和交联实验）建模nsp1-40S核糖体结构，评估了结果的一致性。模拟预测的SL1结合区域暴露于溶剂中，但核糖体仍能与SL1相互作用。结合模式的聚类分析和结合姿态的详细分析表明，残基Arg124、Lys47、Arg43和Asn126可能参与SL1识别机制，这与现有的突变分析结果一致。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35045069/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35045069/",
+  "paper_page_path": "papers/pubmed/35045069/index.html"
+}

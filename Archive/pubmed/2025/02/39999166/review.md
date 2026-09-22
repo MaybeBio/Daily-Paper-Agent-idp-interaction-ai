@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, figure legends, methods summary, data availability)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided text. Supplementary figures and tables are referenced but not fully evaluated.
+- **Shared manuscript claim summary** The authors report an atomic-resolution structural characterization of the 450-residue intrinsically disordered tail of the scaffold protein JIP1 and its interaction with the kinase JNK1. They identify a bipartite binding mechanism involving the canonical D-motif and a newly described noncanonical F-motif (211ICLSDEL217), which binds to the FRS of JNK1 with weak intrinsic affinity (Kd ≈ 2.2 mM) but achieves high occupancy through tethering by the D-motif and linker interactions. A crystal structure of the complex at 2.35 Å resolution is presented, and cellular assays indicate the F-motif does not affect JNK1 activation.
+- **Visible evidence base** NMR chemical shift assignments, CSP analyses, SSP secondary structure propensities, 15N R1ρ relaxation data, CPMG relaxation dispersion experiments, ITC binding data, native mass spectrometry, X-ray crystallography (2.35 Å), co-immunoprecipitation, and JNK1 activation assays in COS-7 cells.
+- **Missing materials affecting confidence** Full SI Appendix (including Materials and Methods details, supplementary figures S1–S19, and Table S1–S2), raw NMR spectra, ITC thermograms, crystallographic refinement statistics, and sequence alignment details were not available for direct evaluation.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and technically rigorous structural biology study of the JIP1–JNK1 interaction. The combination of NMR, ITC, X-ray crystallography, and cellular assays provides a compelling case for a bipartite binding mechanism involving a noncanonical F-motif. The work is well-executed and the conclusions are largely supported by the data presented. The identification of an aliphatic F-motif in JIP1 extends current understanding of MAPK docking interactions. However, several concerns regarding the quantitative interpretation of the effective concentration, the functional significance of the F-motif, and the generalizability of the findings warrant careful consideration.
+- **Who would be interested in the results, and why** Structural biologists studying protein-protein interactions involving intrinsically disordered proteins; cell signaling researchers focused on MAPK pathways, particularly JNK signaling; investigators interested in scaffold protein function and multivalent binding mechanisms; and computational biologists developing predictors of kinase docking motifs.
+- **Major strengths** The study employs a complementary suite of biophysical techniques to characterize a challenging intrinsically disordered system. The NMR-based assignment strategy for the long IDR is methodologically sound. The identification of a noncanonical F-motif with aliphatic residues is novel and significant. The crystal structure provides atomic-level detail of the bipartite interaction. The use of multiple constructs to map binding regions is thorough. The cellular validation, while limited, appropriately tests the functional relevance of the F-motif.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative interpretation of effective concentration
+  - **Claim pointer** The authors claim that tethering via the D-motif and linker interactions results in a double-tethered state population of 78% based on a Ceff of 7.8 mM derived from CPMG relaxation dispersion data.
+  - **Evidence pointer** Figure 4, SI Appendix Figure S9
+  - **Concern** The estimation of Ceff from CPMG relaxation dispersion data relies on several assumptions that are not fully articulated. The two-site exchange model applied to the wild-type JIP1116–266 data assumes that the observed relaxation dispersion arises solely from the F-motif binding to the FRS while the D-motif remains bound. However, the authors note that the D-motif is in slow exchange, and the potential for coupled binding equilibria between the two motifs could complicate the interpretation. The derived Ceff of 7.8 mM is substantially higher than the WLC-predicted value of 2.8 mM, and the discrepancy is attributed to linker interactions. However, the quantitative relationship between the observed relaxation dispersion parameters and Ceff is not fully derived or justified. The authors should provide a more detailed explanation of how Ceff was extracted from the relaxation dispersion data, including the specific equations and assumptions used.
+  - **Why it matters** The population of the double-tethered state (78%) is a central quantitative claim of the paper, used to argue that the weak intrinsic F-motif affinity is compensated by tethering. If the Ceff estimation is not robust, the quantitative conclusion regarding the predominance of the double-tethered state is weakened, although the qualitative conclusion may still hold.
+  - **Resolution test** Provide a detailed derivation of Ceff from the relaxation dispersion data, including the kinetic model used, the relationship between the observed exchange parameters and Ceff, and a sensitivity analysis of the derived Ceff to the assumed model parameters. Alternatively, provide an independent experimental estimate of Ceff, such as through a bivalent binding model fit to ITC data or a direct measurement of the double-tethered population using a FRET-based or single-molecule approach.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance of the F-motif
+  - **Claim pointer** The authors state that the F-motif does not play a significant role in JNK1 activation, based on similar JNK1 phosphorylation levels observed for wild-type JIP1 and the IL mutant in COS-7 cells.
+  - **Evidence pointer** SI Appendix Figure S10B
+  - **Concern** The cellular assay for JNK1 activation is limited in scope. The experiment is performed under overexpression conditions with a single stimulus condition (coexpression of MLK3). The IL mutation abolishes F-motif binding in vitro, but the cellular assay only measures bulk JNK1 phosphorylation, which may not be sensitive enough to detect subtle differences in signaling dynamics, subcellular localization, or substrate specificity. The authors acknowledge this limitation but do not discuss alternative functional roles for the F-motif, such as processivity or fidelity of JIP1 phosphorylation by JNK1, which is mentioned in the Discussion but not tested. The conclusion that the F-motif is not involved in JNK1 activation may be premature given the limited assay conditions.
+  - **Why it matters** The functional relevance of the F-motif is a key aspect of the paper's significance. If the F-motif has no functional consequence, its biological importance is questionable. The authors should either strengthen the functional analysis or temper the conclusion to reflect the limited scope of the assay.
+  - **Resolution test** Perform additional cellular assays under different stimulation conditions (e.g., different MLK3 concentrations, time courses, or stress stimuli such as UV or anisomycin). Measure JNK1 activation using phospho-specific antibodies and also assess downstream signaling outputs, such as c-Jun phosphorylation or AP-1 transcriptional activity. Alternatively, test the effect of the IL mutation on JIP1 phosphorylation by JNK1 in cells, which would directly address the proposed role of the F-motif in substrate phosphorylation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the noncanonical F-motif
+  - **Claim pointer** The authors propose that the identification of the noncanonical F-motif in JIP1 "paves the way for finding F-motifs in other JNK1 substrates through sequence searches."
+  - **Evidence pointer** Discussion section
+  - **Concern** The claim that the aliphatic F-motif can be identified in other substrates through sequence searches is not substantiated by any bioinformatic analysis. The authors do not provide a sequence logo, consensus motif, or any statistical analysis of the prevalence of such motifs in known JNK1 substrates. The single example of JIP1 is insufficient to establish a generalizable motif. The authors should either perform a bioinformatic analysis to support this claim or temper the statement to reflect that this is a hypothesis requiring further investigation.
+  - **Why it matters** The broader significance of the work depends on whether the noncanonical F-motif represents a general binding mode for JNK1 substrates. Without evidence for its prevalence, the claim is speculative.
+  - **Resolution test** Perform a bioinformatic search for similar aliphatic motifs (e.g., I/L-x-x-L/I) in the disordered regions of known JNK1 substrates or interactors. Compare the frequency of such motifs to a background model. Alternatively, test a small number of predicted motifs experimentally for FRS binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of the effective concentration model
+  - **Affected element** Figure 4A and associated text
+  - **Evidence pointer** Figure 4A
+  - **Issue** The schematic in Figure 4A is not described in sufficient detail in the text. The transition from the single-tethered to double-tethered state is depicted, but the kinetic parameters (kon, koff) and the relationship to Ceff are not clearly defined in the figure legend or the text.
+  - **Required correction** Expand the figure legend to define all symbols and parameters. Add a brief description in the text of the kinetic model used to calculate the double-tethered population.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis of ITC data
+  - **Affected element** Figure 3A–D, SI Appendix Table S1
+  - **Evidence pointer** Figure 3A–D
+  - **Issue** The ITC data are presented as single representative experiments. No error bars or replicate numbers are shown in the figures. The authors should report the number of independent ITC experiments performed and provide the mean and standard deviation for the reported Kd and ΔH values.
+  - **Required correction** Add replicate information and error estimates to the ITC results, either in the figures or in SI Appendix Table S1.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Crystallographic data quality
+  - **Affected element** Figure 5, SI Appendix Table S2
+  - **Evidence pointer** Figure 5
+  - **Issue** The crystallographic statistics are only referenced in the SI Appendix. Key quality indicators such as Rfree, Ramachandran outliers, and B-factor information should be summarized in the main text or at least in the figure legend to allow readers to assess the structure quality without accessing the SI.
+  - **Required correction** Add a brief summary of crystallographic statistics to the main text or Figure 5 legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Nomenclature consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "F-motif" is used to describe the second binding site, but the authors also refer to "FRS" (FxFP recruitment site). The relationship between the F-motif and the FRS should be clarified early in the text to avoid confusion.
+  - **Required correction** Define both terms clearly in the Introduction or Results section and use them consistently.
+- **Technical failings that need to be addressed before the case is established** None identified from the supplied material. The experimental design and data collection appear technically sound. The primary concerns relate to the quantitative interpretation of Ceff and the scope of the functional validation.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The identification of a noncanonical aliphatic F-motif in JIP1 is novel and extends the current understanding of MAPK docking interactions. The bipartite binding mechanism, while previously observed in other MAPK systems, is demonstrated here for the first time in the JNK family.
+  - **Scientific importance** The work provides a detailed molecular understanding of how a scaffold protein engages its kinase partner, which is relevant to the broader field of signaling complex assembly. The findings may have implications for understanding JNK signaling specificity and for the design of inhibitors targeting JIP1-JNK1 interactions.
+  - **Interdisciplinary readership** The study bridges structural biology, biophysics, and cell signaling. The combination of techniques and the clear presentation of the binding mechanism should appeal to a broad readership in these fields.
+  - **Technical soundness** The experimental approach is rigorous and the data are of high quality. The NMR-based assignment strategy for the long IDR is particularly impressive. The crystal structure is well-resolved and provides clear evidence for the bipartite binding mode. The main technical concern is the quantitative interpretation of Ceff, which requires further justification.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The significance statement and introduction provide appropriate context. However, some sections, particularly the description of the relaxation dispersion analysis, may be challenging for nonspecialists. The authors could improve accessibility by providing a brief explanation of the key NMR parameters used.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are novel and well-supported by the data. The manuscript would be strengthened by addressing the quantitative concerns regarding Ceff estimation and by expanding the functional validation of the F-motif. The authors should also consider tempering the claim about the generalizability of the noncanonical F-motif until bioinformatic evidence is provided.
+
+## Risk / unsupported claims
+- The claim that the noncanonical F-motif can be identified in other JNK1 substrates through sequence searches is not supported by any bioinformatic analysis presented in the manuscript.
+- The quantitative claim of 78% double-tethered population relies on a Ceff estimation that is not fully derived or justified.
+- The conclusion that the F-motif does not play a significant role in JNK1 activation is based on a limited set of cellular assays and may not capture the full functional repertoire of the motif.
+- The statement that linker interactions "contribute positively to Ceff" is inferred from indirect evidence (ITC and NMR) and is not directly demonstrated.

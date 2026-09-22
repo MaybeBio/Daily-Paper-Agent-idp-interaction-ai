@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusion, methods summary) as provided
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the supplied text; no supplementary figures or methods details were available for direct inspection
+- **Shared manuscript claim summary** The authors propose that EWS interdomain self-association is driven by weak, non-specific, distributed contacts between the low-complexity domain (EWSLCD) and RNA-binding domains (RBDs), particularly RGG2, and that these interactions modulate condensate formation in a manner dependent on electrostatics, chain length, and sequence patterning.
+- **Visible evidence base** Abstract; Introduction; Results sections (Interdomain contacts occur throughout full-length EWS; RBDs of EWS impact EWSLCD condensate formation; Atomistic details of association between 15N-EWSLCD and EWSRRM-RGG2; Atomistic details of association between 15N-EWSRRM-RGG2 and EWSLCD; Numerous residue types contribute to the interaction between EWSLCD and EWSRRM-RGG2; Interdomain association between EWSLCD and EWSRRM-RGG2 in full-length EWS); Discussion; Conclusion; Materials and Methods summary; Data availability statement
+- **Missing materials affecting confidence** Supplementary figures (S1–S12) and detailed methods (Supporting Information S1) were not provided; specific experimental parameters (e.g., protein concentrations, buffer conditions, NMR acquisition details, simulation force fields and analysis protocols) could not be verified; figure panels referenced in text (Figures 1–5) were not available for direct inspection
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in the biology of EWS and EWS::FLI1 fusion proteins, namely the molecular basis of interdomain self-association and its contribution to condensate formation. The combination of biochemical assays, NMR spectroscopy, and molecular simulations is appropriate and potentially powerful. However, the central claims rest heavily on data presented in supplementary materials that were not available for review, and several conclusions regarding the specificity and functional relevance of the observed interactions are inferred from indirect evidence. The manuscript is well written and the conceptual framework is sound, but the strength of the evidence as presented in the main text is insufficient to fully establish the mechanistic model proposed.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and phase separation, particularly those focused on FET family proteins (FUS, EWS, TAF15) and their roles in cancer; structural biologists and biophysicists interested in intrinsically disordered proteins and transient protein-protein interactions; investigators working on Ewing sarcoma biology and the molecular mechanisms of EWS::FLI1 oncogenesis.
+- **Major strengths** 1) The study addresses a significant gap in understanding EWS biology by systematically examining interdomain interactions beyond the well-studied EWSLCD self-association. 2) The multi-technique approach (biochemical assays, NMR, simulations) provides complementary perspectives on the interaction. 3) The finding that different RGG domains have differential effects on condensate formation is novel and potentially important. 4) The use of both fragment-based and full-length protein simulations to validate the relevance of simplified systems is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "RBDs differentially influence EWSLCD condensate formation" and that "electrostatics and polypeptide-chain length likely contribute to this interaction."
+  - **Evidence pointer** Results section "RBDs of EWS impact EWSLCD condensate formation"; Figures 2a–g and S2–S3 (not directly available)
+  - **Concern** The quantitative data supporting the differential effects of RGG1, RGG2, and RGG3 on EWSLCD condensate formation are presented primarily in figures that were not available for review. The text describes turbidity measurements and partitioning assays, but specific values, replicates, and statistical analyses are not reported in the main text. The phase diagram in Figure 2d is described qualitatively, and the reentrant behavior at high salt is mentioned without quantitative characterization.
+  - **Why it matters** The differential effects of the three RGG domains are a central finding of the paper. Without access to the actual data, it is impossible to assess the magnitude of the effects, the reproducibility, or whether the conclusions are statistically justified. The claim that electrostatics and chain length are key drivers is inferred from salt dependence and fragment length experiments, but the text does not provide sufficient quantitative detail to evaluate this inference.
+  - **Resolution test** Provide the actual data from Figures 2 and S2–S3, including quantitative turbidity values, partitioning percentages, and statistical analyses. Include a clear description of how "differential influence" was defined and measured, and demonstrate that the observed differences are statistically significant and reproducible across independent experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that NMR spectroscopy and molecular dynamics simulations "demonstrate that EWSLCD and the central RNA-binding region, comprising the RRM and RGG2 domains, engage in transient, non-specific interactions that are broadly distributed across both regions and involve diverse residue types."
+  - **Evidence pointer** Results sections "Atomistic details of association between 15N-EWSLCD and EWSRRM-RGG2" and "Atomistic details of association between 15N-EWSRRM-RGG2 and EWSLCD"; Figures 3, 4, S4–S8
+  - **Concern** The NMR titration experiments are described as showing "numerous small chemical shift perturbations" and "minor line broadening," but the text does not provide quantitative thresholds for what constitutes a significant CSP or broadening. The statement that interactions are "non-specific" is based on the absence of a single binding site, but the criteria for distinguishing non-specific from weak but specific interactions are not articulated. The simulations are described as showing "non-specific contacts," but the analysis methods and statistical significance of these contacts are not detailed in the main text.
+  - **Why it matters** The claim of non-specific, distributed interactions is a key mechanistic conclusion. If the criteria for "non-specific" are not clearly defined, the conclusion is difficult to evaluate. Moreover, the interpretation of NMR CSPs in intrinsically disordered proteins is non-trivial, and the text does not provide sufficient detail on how the data were processed and interpreted.
+  - **Resolution test** Provide clear criteria for what constitutes a significant CSP and line broadening in the context of these experiments. Describe the simulation analysis methods, including how contacts were defined, how statistical significance was assessed, and how the fragment-based simulations were validated against the full-length protein. Include representative spectra and contact maps in the main text or ensure they are accessible in the supplementary materials.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The authors state that "the full-length protein exhibits a similar interaction profile with conserved chemical specificity" based on atomistic simulations, and that this "support[s] a model in which a network of weak, distributed interdomain contacts underlies EWS self-association."
+  - **Evidence pointer** Results section "Interdomain contacts occur throughout full-length EWS"; Figure 5 and S11–S12
+  - **Concern** The comparison between fragment-based and full-length simulations is described qualitatively. The text states that "the overall pattern of interactions between EWSLCD and EWSRRM-RGG2 is consistent" but also notes "an interesting deviation" in residues 150–200. The claim of "conserved chemical specificity" is based on residue-type analysis, but the text does not provide quantitative metrics for similarity or conservation.
+  - **Why it matters** The validation of the fragment-based approach is critical for the overall experimental strategy. If the full-length protein shows significant differences in interaction patterns, the relevance of the fragment-based NMR data to the full-length system is weakened. The claim of "conserved chemical specificity" needs to be supported by quantitative comparison.
+  - **Resolution test** Provide quantitative metrics for comparing interaction profiles between fragment and full-length simulations (e.g., contact frequency correlation coefficients, residue-type enrichment scores). Clearly describe the deviation in residues 150–200 and explain its implications for the fragment-based approach.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors conclude that their findings "provide molecular insight into the mechanisms of EWS condensate formation and lay the groundwork for understanding how interdomain interactions regulate EWS and EWS::FLI1 function."
+  - **Evidence pointer** Discussion and Conclusion sections
+  - **Concern** The manuscript does not directly test the functional consequences of the identified interdomain interactions in a biological context. The connection between the biophysical observations and EWS/EWS::FLI1 function in Ewing sarcoma is speculative and based on prior literature rather than new experimental evidence.
+  - **Why it matters** The title and framing of the manuscript suggest a role in condensate formation, which is demonstrated. However, the broader claim about regulating EWS and EWS::FLI1 function in disease is not directly supported by the data presented. This is a limitation that should be acknowledged more explicitly.
+  - **Resolution test** Either add experiments that directly test the functional relevance (e.g., mutagenesis of key interaction residues and assessment of effects on condensate properties or cellular function) or temper the claims in the Discussion to clearly distinguish between demonstrated biophysical properties and hypothesized functional implications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 1
+  - **Evidence pointer** Location not provided
+  - **Issue** The statement that EWS::FLI1 "directly interacts with and engages in a dynamic interplay with EWS" is made without citation or experimental support in the text.
+  - **Required correction** Add appropriate citations or clarify that this is a hypothesis based on prior work.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Materials and Methods summary
+  - **Evidence pointer** Location not provided
+  - **Issue** The methods section is extremely brief and refers to Supporting Information S1 for details. While this is acceptable for a journal with online supplementary materials, the main text should include at least a summary of key experimental conditions (e.g., protein concentrations, buffer compositions, NMR acquisition parameters, simulation force fields).
+  - **Required correction** Add a brief summary of key methods in the main text or ensure the supplementary methods are comprehensive and accessible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "Atomistic details of association between 15N-EWSLCD and EWSRRM-RGG2"
+  - **Evidence pointer** Figure 3
+  - **Issue** The text states that EWS1–120 "had the greatest proportion of both shifted and broadened peaks," but the quantitative difference compared to other fragments is not reported.
+  - **Required correction** Provide the actual proportions or a statistical comparison to support this claim.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "non-specific" is used frequently to describe interactions, but the authors do not define what constitutes "non-specific" in this context. This is particularly important given that the interactions do show some residue-type preferences.
+  - **Required correction** Define the term operationally (e.g., "non-specific" meaning no single binding site or sequence motif, but with residue-type preferences) and use it consistently.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of the reentrant phase behavior at high salt is brief and does not fully explore alternative explanations (e.g., salting-in effects, changes in protein conformation).
+  - **Required correction** Expand the discussion of the salt-dependent behavior and consider alternative interpretations.
+
+## Risk / unsupported claims
+- The claim that "RBDs differentially influence EWSLCD condensate formation" is not fully supported by quantitative data in the main text; the actual data are in supplementary figures not available for review.
+- The claim that "electrostatics and polypeptide-chain length likely contribute to this interaction" is presented as a conclusion but is based on indirect evidence (salt dependence, fragment length experiments) without direct mechanistic validation.
+- The claim that the fragment-based NMR approach "effectively recapitulates the interactions that occur in full-length EWS" is based on simulation comparisons that are described qualitatively and lack quantitative metrics.
+- The statement that "a network of weak, distributed interdomain contacts underlies EWS self-association" is a reasonable model but is not directly tested; the data show correlations and patterns but do not establish causality.
+- The functional relevance of the identified interactions for EWS and EWS::FLI1 function in Ewing sarcoma is hypothesized but not experimentally tested in this manuscript.
+- The claim that "the full-length protein exhibits a similar interaction profile with conserved chemical specificity" is based on simulations only and lacks experimental validation in the full-length context.
+
+## Assessment against Nature-style criteria
+- **Originality** The manuscript addresses a relatively underexplored aspect of EWS biology, namely the role of interdomain interactions between the LCD and RBDs in condensate formation. While studies on FUS have examined similar questions, the systematic comparison of different RGG domains in EWS is novel. However, the conceptual framework (weak, non-specific interactions driving phase separation) is not entirely new and builds on established principles in the field.
+- **Scientific importance** The findings have potential importance for understanding EWS and EWS::FLI1 function in Ewing sarcoma, a disease with significant clinical need. The demonstration that RBDs modulate LCD-driven condensate formation adds to the understanding of how multidomain proteins regulate phase separation. However, the direct relevance to disease mechanisms is not established in this manuscript.
+- **Interdisciplinary readership** The topic is of interest to researchers in biophysics, structural biology, cancer biology, and the phase separation community. The multi-technique approach (biochemistry, NMR, simulations) broadens the potential audience. However, the manuscript is written primarily for a specialist audience and may be challenging for non-experts in NMR or simulation methods.
+- **Technical soundness** The combination of techniques is appropriate, and the experimental design is generally sound. However, the lack of quantitative data in the main text and the reliance on supplementary materials for key results limit the ability to fully assess technical rigor. The NMR and simulation methods are described only briefly, and the criteria for interpreting CSPs and contact frequencies are not fully articulated.
+- **Readability for nonspecialists** The manuscript is clearly written and the logical flow is easy to follow. However, the heavy reliance on specialized terminology (e.g., "C sat," "charge decoration," "coarse-grained co-existence simulations") without adequate explanation may limit accessibility for readers outside the immediate field.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript addresses an important question and the multi-technique approach is commendable, but the central claims cannot be fully evaluated without access to the supplementary figures and detailed methods. The quantitative basis for several key conclusions (differential RGG effects, non-specific interaction model, fragment-to-full-length extrapolation) is not presented in the main text. The manuscript would be strengthened by including more quantitative data in the main text, clearly defining operational criteria for "non-specific" interactions, and either adding functional validation or tempering claims about disease relevance. Supportive if technical concerns are resolved and the supplementary data substantiate the claims made in the text.

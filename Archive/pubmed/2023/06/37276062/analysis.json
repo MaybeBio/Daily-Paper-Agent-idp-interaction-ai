@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37276062",
+  "title": "Theory and Simulation of Multiphase Coexistence in Biomolecular Mixtures.",
+  "authors": "Jacobs, William M",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2023-06-05",
+  "window": {
+    "start": "2023-06-05",
+    "end": "2023-06-11"
+  },
+  "score": 8,
+  "one_liner_zh": "综述理论与模拟方法预测生物分子混合物多相共存，聚焦相分离凝聚体形成机制，虽非直接PPI但为IDR介导互作与相分离建模提供核心方法框架。",
+  "abstract": "Biomolecular condensates constitute a newly recognized form of spatial organization in living cells. Although many condensates are believed to form as a result of phase separation, the physicochemical properties that determine the phase behavior of heterogeneous biomolecular mixtures are only beginning to be explored. Theory and simulation provide invaluable tools for probing the relationship between molecular determinants, such as protein and RNA sequences, and the emergence of phase-separated condensates in such complex environments. This review covers recent advances in the prediction and computational design of biomolecular mixtures that phase-separate into many coexisting phases. First, we review efforts to understand the phase behavior of mixtures with hundreds or thousands of species using theoretical models and statistical approaches. We then describe progress in developing analytical theories and coarse-grained simulation models to predict multiphase condensates with the molecular detail required to make contact with biophysical experiments. We conclude by summarizing the challenges ahead for modeling the inhomogeneous spatial organization of biomolecular mixtures in living cells.",
+  "abstract_zh": "生物分子凝聚体构成了活细胞中一种新认识的空间组织形式。尽管许多凝聚体被认为是通过相分离（phase separation）形成的，但决定异质生物分子混合物相行为的物理化学性质才刚刚开始被探索。理论和模拟为探究分子决定因素（如蛋白质和RNA序列）与复杂环境中相分离凝聚体出现之间的关系提供了宝贵工具。本综述涵盖了预测和计算设计可相分离成多种共存相的生物分子混合物的最新进展。首先，我们回顾了使用理论模型和统计方法理解含数百或数千种物种的混合物相行为的努力。随后，我们描述了在开发分析理论和粗粒化模拟模型以预测多相凝聚体方面取得的进展，这些模型具备与生物物理实验对接所需的分子细节。最后，我们总结了模拟活细胞中生物分子混合物非均匀空间组织所面临的挑战。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37276062/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37276062/",
+  "paper_page_path": "papers/pubmed/37276062/index.html"
+}

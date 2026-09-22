@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.13.544745",
+  "title": "SARS-CoV-2 Envelope protein alters calcium signaling via SERCA interactions",
+  "authors": "Berta B; Tordai H; Lukács GL; Papp B; Enyedi Á; Padányi R; Hegedűs T",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-13",
+  "window": {
+    "start": "2023-06-12",
+    "end": "2023-06-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究SARS-CoV-2 E蛋白与SERCA/regulin的互作及钙信号调控，涉及结构建模和分子动力学，但对象非IDP/相分离，互作机制建模可迁移性有限。",
+  "abstract": "The clinical management of severe COVID-19 cases is not yet well resolved. Therefore, it is important to identify and characterize cell signaling pathways involved in virus pathogenesis that can be targeted therapeutically. Envelope (E) protein is a structural protein of the virus, which is known to be highly expressed in the infected host cell and is a key virulence factor, however, its role is poorly characterized. The E protein is a single-pass transmembrane protein that can assemble into a pentamer forming a viroporin, perturbing Ca 2+ homeostasis. Because it is structurally similar to regulins such as, for example, phospholamban, that regulate the sarco/endoplasmic reticulum calcium ATPases (SERCA), we investigated whether the SARS-CoV-2 E protein affects the SERCA system as an exoregulin. Using FRET experiments we demonstrate that E protein can form oligomers with regulins, and thus can alter the monomer/multimer regulin ratio and consequently influence their interactions with SERCAs. We also confirmed that a direct interaction between E protein and SERCA2b results in a decrease in SERCA-mediated ER Ca 2+ reload. Structural modeling and molecular dynamics of the complexes indicates an overlapping interaction site for E protein and endogenous regulins. Our results reveal novel links in the host-virus interaction network that play an important role in viral pathogenesis and may provide a new therapeutic target for managing severe inflammatory responses induced by SARS-CoV-2.",
+  "abstract_zh": "重症COVID-19病例的临床管理尚未得到良好解决。因此，识别并表征参与病毒发病机制且可作为治疗靶点的细胞信号通路至关重要。包膜（E）蛋白是病毒的一种结构蛋白，已知在受感染的宿主细胞中高表达，并且是一个关键的毒力因子，然而其作用尚未被充分表征。E蛋白是一种单次跨膜蛋白，可组装成五聚体形成病毒孔蛋白（viroporin），扰乱Ca 2+ 稳态。由于其结构类似于调节蛋白（regulins），例如受磷蛋白（phospholamban），这些蛋白调节肌浆/内质网钙ATP酶（SERCA），我们研究了SARS-CoV-2 E蛋白是否作为外源调节蛋白（exoregulin）影响SERCA系统。通过FRET实验，我们证明E蛋白能与调节蛋白形成寡聚体，从而改变调节蛋白的单体/多聚体比例，并进而影响它们与SERCA的相互作用。我们还确认了E蛋白与SERCA2b之间的直接相互作用导致SERCA介导的内质网Ca 2+ 再装载减少。复合物的结构建模和分子动力学（molecular dynamics）表明，E蛋白与内源性调节蛋白存在重叠的相互作用位点。我们的结果揭示了宿主-病毒相互作用网络中的新联系，这些联系在病毒发病机制中发挥重要作用，并可能为管理SARS-CoV-2诱导的严重炎症反应提供新的治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.13.544745",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.13.544745",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.13.544745/index.html"
+}

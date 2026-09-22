@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36830723",
+  "title": "In Vivo Protein-Protein Binding Competition Assay Based on Split-GFP Reassembly: Proof of Concept.",
+  "authors": "Bignon, Christophe; Longhi, Sonia",
+  "journal": "Biomolecules",
+  "published_date": "2023-02-26",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 3,
+  "one_liner_zh": "该文开发基于split-GFP重组的体内蛋白结合竞争实验，用于筛选结合抑制剂，但对象非无序蛋白/相分离，且无AI或物理模拟方法，仅提供实验工具，对互作机制建模启发有限。",
+  "abstract": "The split-green fluorescent protein (GFP) reassembly assay is a well-established approach to study protein-protein interactions (PPIs). In this assay, when two interacting proteins X and Y, respectively fused to residues 1-157 and to residues 158-237 of GFP, are co-expressed in E. coli, the two GFP halves are brought to sufficient proximity to reassociate and fold to recreate the functional GFP. At constant protein expression level, the intensity of fluorescence produced by the bacteria is proportional to the binding affinity of X to Y. We hypothesized that adding a third partner (Z) endowed with an affinity for either X or Y would lead to an in vivo competition assay. We report here the different steps of the set-up of this competition assay, and define the experimental conditions required to obtained reliable results. Results show that this competition assay is a potentially interesting tool for screening libraries of binding inhibitors, Z being either a protein or a chemical reagent.",
+  "abstract_zh": "分裂绿色荧光蛋白（split-GFP）重组装实验是研究蛋白质-蛋白质相互作用（PPIs）的成熟方法。在该实验中，当两个相互作用的蛋白质X和Y分别与GFP的残基1-157和残基158-237融合，并在大肠杆菌（E. coli）中共表达时，两个GFP半段会因足够接近而重新结合并折叠，从而重建功能性GFP。在蛋白质表达水平恒定的条件下，细菌产生的荧光强度与X对Y的结合亲和力成正比。我们假设，引入一个对X或Y具有亲和力的第三伙伴（Z）将形成体内竞争实验。本文报告了该竞争实验建立的不同步骤，并定义了获得可靠结果所需的实验条件。结果表明，该竞争实验是筛选结合抑制剂库的潜在有用工具，其中Z可以是蛋白质或化学试剂。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36830723/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36830723/",
+  "paper_page_path": "papers/pubmed/36830723/index.html"
+}

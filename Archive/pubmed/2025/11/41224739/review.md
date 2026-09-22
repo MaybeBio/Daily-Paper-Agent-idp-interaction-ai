@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, methods, and figure legends
+- **Assessment boundary** Scientific validity, technical soundness, and conceptual advance of the claims presented; no assessment of editorial fit or publication decision
+- **Shared manuscript claim summary** The authors identify calcimembrin (CLMB), a lipidated intrinsically disordered microprotein, as a calcineurin substrate that contains a composite LxVPxIxIT motif. They propose that phosphorylated CLMB binds calcineurin with high affinity via the PxIxIT site, and that dephosphorylation of CLMB occurs in a multimeric complex where one CLMB molecule occupies the PxIxIT site while a second CLMB engages the LxVP site for dephosphorylation. The authors support this model with in vitro binding assays, NMR analyses, in-cell phosphorylation studies, and kinetic modeling.
+- **Missing materials affecting confidence** Supplementary figures and tables referenced in the text (Supplementary Figs. 1–9, Supplementary Tables 1–6) were not provided. Source data files and uncropped blots were not available for inspection. The manuscript states that NMR chemical shift data were deposited in the BMRB under accession code 52641, but this deposition was not verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a mechanistically interesting and potentially significant model for how a composite LxVPxIxIT motif in CLMB enables calcineurin-mediated dephosphorylation through multimeric complex formation. The combination of biochemical, biophysical, cellular, and computational approaches is commendable. However, several technical concerns and missing controls need to be addressed before the central claims are fully established. The proposed multimeric dephosphorylation model is supported by the data presented, but the evidence is not yet conclusive, particularly regarding the stoichiometry of the complex and the physiological relevance of the proposed mechanism.
+- **Who would be interested in the results, and why** Researchers studying calcineurin signaling, phosphatase-substrate specificity, short linear motifs, and membrane-associated signaling complexes. The work also has relevance for those interested in intrinsically disordered proteins and microproteins, as well as cancer biology given CLMB's association with poor outcomes in several cancer types.
+- **Major strengths**
+  1. The identification and characterization of a composite LxVPxIxIT motif in CLMB is novel and provides a clear mechanistic framework for understanding how calcineurin can bind substrates with exceptionally high affinity.
+  2. The combination of multiple orthogonal techniques (ITC, FP, NMR, in-cell assays, kinetic modeling) strengthens the conclusions.
+  3. The proposed multimeric dephosphorylation model is conceptually interesting and testable, and the authors provide initial experimental support for it.
+  4. The demonstration that CLMB is dually lipidated and dynamically S-acylated adds an important regulatory layer to the model.
+  5. The work is clearly written and the figures are generally well-organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "CLMB contains an unusual composite 'LxVPxIxIT' motif, that binds the PxIxIT-docking site on calcineurin with extraordinarily high affinity when phosphorylated, 33LDVPDIIITPP(p)T44."
+  - **Evidence pointer** Figure 3, "location not provided" for specific data points
+  - **Concern** The claim that the composite motif binds the PxIxIT-docking site with "extraordinarily high affinity" (KD = 14 nM) is based on FP and ITC measurements using peptides. However, the authors do not provide sufficient evidence that the full-length CLMB protein, rather than just the peptide, binds with similar affinity. The manuscript states that "CLMB peptides accurately mimic full-length CLMB binding to calcineurin" (Supplementary Fig. 3c, d), but this supplementary figure was not available for review. Additionally, the ITC data show a KD of 37 nM while FP shows 14 nM for the same interaction; the authors attribute this to the FITC tag, but this discrepancy should be discussed more thoroughly. The physiological relevance of such high affinity binding also needs to be considered in the context of other calcineurin substrates, which typically bind with much lower affinity.
+  - **Why it matters** The exceptionally high binding affinity is central to the proposed model, as it underlies the claim that CLMB can sequester calcineurin at membranes. If the affinity is overestimated or is an artifact of the peptide system, the model would need to be revised.
+  - **Resolution test** Provide binding data for full-length CLMB (unphosphorylated and phosphorylated) using a method that does not require labeling, such as surface plasmon resonance or bio-layer interferometry. Show the supplementary figure demonstrating that peptides mimic full-length protein binding. Discuss the discrepancy between ITC and FP KD values in more detail.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "Calcineurin dephosphorylates CLMB to decrease this affinity, but Thr44 is protected from dephosphorylation when PxIxIT-bound."
+  - **Evidence pointer** Figure 5, "location not provided"
+  - **Concern** The in vitro dephosphorylation assays use peptides, not full-length CLMB. The authors show that pCLMBWT is dephosphorylated less efficiently at higher calcineurin concentrations, which they interpret as evidence for substrate inhibition via PxIxIT binding. However, the kinetic modeling relies on several assumptions that are not fully validated. The authors state that "some parameters, particularly on and off rates for substrate binding, were poorly constrained by the model" and that they "manually manipulated different parameters" to understand the fit. This manual parameter adjustment raises concerns about overfitting. The model should be validated with additional experimental data, such as measuring dephosphorylation at different substrate concentrations or using mutant calcineurin that cannot bind the PxIxIT site.
+  - **Why it matters** The protection of Thr44 from dephosphorylation when PxIxIT-bound is a key prediction of the multimeric model. If this protection is not real or is an artifact of the peptide system, the model would be substantially weakened.
+  - **Resolution test** Perform dephosphorylation assays with full-length CLMB protein, not just peptides. Use a calcineurin mutant that cannot bind the PxIxIT site (e.g., mutations in the PxIxIT-binding groove) to test whether protection is lost. Validate the kinetic model with additional experimental conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "NMR confirms formation of these complexes in vitro" and that "when in excess (2 CLMB: 1 CNA/B), CLMB engages calcineurin (CNA/B) through both its LxVP and PxIxIT motifs."
+  - **Evidence pointer** Figure 4, "location not provided"
+  - **Concern** The NMR data are interpreted as showing that CLMB binds to two sites on calcineurin. However, the NMR experiments were performed with unphosphorylated CLMB, which has much lower affinity for calcineurin (KD = 291 nM for unphosphorylated vs 14 nM for phosphorylated). The authors state that they "were unable to examine CLMB containing pThr44 in NMR experiments due to technical limitations." This is a significant limitation, as the phosphorylated form is the physiologically relevant substrate. The line broadening observed could be due to non-specific interactions or aggregation, especially given the high concentrations used in NMR studies. The authors should provide more quantitative analysis of the NMR data, such as chemical shift perturbation mapping, to support their interpretation.
+  - **Why it matters** The NMR data are presented as key evidence for the multimeric complex model. If the NMR experiments were performed with a low-affinity form of CLMB, the relevance of these findings to the phosphorylated, high-affinity state is unclear.
+  - **Resolution test** Perform NMR experiments with phosphorylated CLMB, or use a phosphomimetic mutant (e.g., T44E) that may better mimic the phosphorylated state. Provide chemical shift perturbation data to map the binding interface more precisely. Alternatively, use other biophysical methods such as size-exclusion chromatography with multi-angle light scattering or analytical ultracentrifugation to determine the stoichiometry of the complex.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that "CLMB is dephosphorylated in multimeric complexes, where one PxIxIT-bound CLMB recruits calcineurin to membranes, allowing a second CLMB to engage via its LxVP motif to be dephosphorylated."
+  - **Evidence pointer** Figure 6, "location not provided"
+  - **Concern** The physiological relevance of the proposed multimeric mechanism is not directly tested. The in-cell experiments (Fig. 5a-c) show that CLMB phosphorylation increases with calcineurin overexpression and decreases with additional CLMB expression, but these experiments do not directly demonstrate that multimeric complex formation occurs in cells. The authors do not provide evidence for the stoichiometry of the CLMB-calcineurin complex in cells, nor do they test whether the proposed mechanism is required for CLMB function in a physiological context (e.g., in cancer cells where CLMB is implicated).
+  - **Why it matters** The proposed model has implications for understanding how calcineurin achieves specificity and how CLMB might promote oncogenesis. Without direct evidence for the multimeric mechanism in cells, the physiological relevance of the model remains speculative.
+  - **Resolution test** Perform experiments to directly test the multimeric model in cells, such as co-immunoprecipitation with differentially tagged CLMB constructs to demonstrate CLMB-CLMB interactions in the presence of calcineurin. Use FRET or proximity ligation assays to demonstrate complex formation. Test whether the proposed mechanism is required for CLMB's effects on cell proliferation or migration in cancer cell lines.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "location not provided"
+  - **Issue** The abstract states that CLMB "targets calcineurin to membranes where it may promote oncogenesis by shaping calcineurin signaling." The word "targets" implies an active role for CLMB in directing calcineurin localization, but the data presented show that CLMB recruits calcineurin to membranes, not that it "targets" calcineurin. This wording is imprecise.
+  - **Required correction** Revise to "recruits calcineurin to membranes" or "localizes calcineurin to membranes."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "location not provided"
+  - **Evidence pointer** Methods section, "location not provided"
+  - **Issue** The methods for the kinetic modeling are not described in sufficient detail. The authors state that "initial parameter values were chosen based on previously published rates, when available" but do not specify which rates were used or how they were obtained. The manual parameter adjustment is also not described in detail.
+  - **Required correction** Provide a more detailed description of the kinetic modeling procedure, including the specific equations used, the initial parameter values, and the criteria for accepting the final fit. Consider providing the model code or a detailed supplementary methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section, "location not provided"
+  - **Evidence pointer** Results section, "location not provided"
+  - **Issue** The Results section is dense and could benefit from clearer signposting of the main findings. The transition from the lipidomics section to the calcineurin binding section is abrupt.
+  - **Required correction** Add brief introductory sentences at the start of each subsection to guide the reader through the logical flow of the experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 2, "location not provided"
+  - **Evidence pointer** Figure 2, "location not provided"
+  - **Issue** The statistical analysis for the colocalization data (Fig. 2d) is not described in the figure legend. The authors state that p-values were calculated by Kruskal-Wallis with Dunn's multiple comparisons correction, but the number of cells analyzed and the criteria for inclusion are not stated.
+  - **Required correction** Add details about the number of cells analyzed, the criteria for cell selection, and the statistical methods used to the figure legend.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "location not provided"
+  - **Evidence pointer** Methods section, "location not provided"
+  - **Issue** The methods for the AlphaFold 3 modeling are not described in sufficient detail. The authors state that "modeling was done using AlphaFold 3 on AlphaFold server" but do not provide the input sequences, the number of models generated, or the criteria for selecting the best model.
+  - **Required correction** Provide the input sequences, the number of models generated, and the confidence metrics (e.g., pLDDT, PAE) for the models shown in Supplementary Fig. 6.
+- **Assessment against Nature-style criteria**
+  - **Originality** The identification of a composite LxVPxIxIT motif in CLMB and the proposal of a multimeric dephosphorylation mechanism are novel. While composite calcineurin-binding motifs have been previously identified, the specific mechanistic model proposed here, where one CLMB molecule recruits calcineurin while a second is dephosphorylated, is a new conceptual contribution.
+  - **Scientific importance** The work has the potential to be important for understanding calcineurin signaling specificity and the role of CLMB in cancer. However, the physiological relevance of the proposed mechanism is not yet fully established, which limits the current impact.
+  - **Interdisciplinary readership** The work will appeal to researchers in cell signaling, protein biochemistry, structural biology, and cancer biology. The use of multiple techniques (biochemistry, biophysics, NMR, cell biology, computational modeling) broadens the potential audience.
+  - **Technical soundness** The technical quality of the work is generally high, with appropriate controls and replicates for most experiments. However, the concerns raised above regarding the use of peptides instead of full-length protein, the lack of NMR data with phosphorylated CLMB, and the potential for overfitting in the kinetic model need to be addressed.
+  - **Readability for nonspecialists** The manuscript is clearly written and the main concepts are accessible. However, the Results section is dense and could benefit from clearer organization. The abstract is concise and effectively summarizes the main findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claims are interesting and potentially significant, but the evidence is not yet conclusive. The authors should address the concerns regarding the use of peptides, the NMR data with unphosphorylated CLMB, and the validation of the kinetic model. If these concerns are adequately addressed, the work would represent a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that CLMB binds calcineurin with "extraordinarily high affinity" (KD = 14 nM) is based on peptide studies and may not reflect the affinity of the full-length protein.
+- The claim that "NMR confirms formation of these complexes in vitro" is not fully supported, as the NMR experiments were performed with unphosphorylated CLMB, which has significantly lower affinity for calcineurin.
+- The proposed multimeric dephosphorylation mechanism is supported by in vitro and in-cell data, but direct evidence for the stoichiometry of the complex in cells is lacking.
+- The kinetic model is presented as supporting the proposed mechanism, but the manual adjustment of parameters and the lack of validation with additional experimental conditions raise concerns about overfitting.
+- The physiological relevance of the proposed mechanism for CLMB function in cancer is speculative and not directly tested.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41056214",
+  "title": "Stable Peptide Binding Achieved through an Intrinsically Ordered Spiral Conformation with Ten-Glycine Spacing: Insights from MD Simulation.",
+  "authors": "Onyemaobi, Obinna E; Zhao, Haipeng; Tu, Bin; Fang, Xiaocui; Wang, Chen; Yang, Yanlian; Fang, Qiaojun",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-10-07",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过REMD增强采样MD模拟，揭示双色氨酸十甘氨酸间隔的无序多肽形成有序螺旋构象并稳定结合同源甘氨酸肽的原子机制，虽对象为无序肽-肽互作而非典型IDP-PPI，但机制建模思路对无序蛋白介导互作研究有直接启发。",
+  "abstract": "Previous experimental studies on position-coded multivalent peptide-peptide interactions demonstrated that introducing two tryptophan residues at varying positions within a 14-mer intrinsically disordered polyglycine (GW) peptide significantly affects its binding affinity and selectivity toward a partner homoglycine (G14) peptide. However, these studies lacked atomistic resolution and were unable to elucidate the structural mechanisms underlying the observed \"volcano-like\" binding trend. To address this limitation, we performed all-atom molecular dynamics (MD) simulations with enhanced sampling via replica exchange molecular dynamics (REMD) to investigate how tryptophan spacing influences binding behavior. Our results show that peptides with a 10-glycine separation between dual tryptophans (GW10) exhibit the strongest binding affinity to G14, consistent with the experimental data and validating the simulation approach. Notably, GW10 and related arginine and serine variants (GR10 and GS10) adopt stable, intrinsically ordered spiral conformations that form favorable binding pockets for G14. Energy decomposition, hydrogen bonding, and conformational analyses underscore the critical role of these ordered structures in modulating peptide-peptide interactions. These findings provide atomic-level insights into sequence-dependent binding and offer potential applications for peptide design, protein engineering, and the understanding of prelasso motifs relevant to protein folding.",
+  "abstract_zh": "以往关于位置编码多价肽-肽相互作用的实验研究表明，在14聚体固有无序多聚甘氨酸（GW）肽中不同位置引入两个色氨酸残基，显著影响其与伙伴同聚甘氨酸（G14）肽的结合亲和力和选择性。然而，这些研究缺乏原子级分辨率，无法阐明观察到的“火山型”结合趋势背后的结构机制。为解决这一局限，我们进行了全原子分子动力学（MD）模拟，并通过副本交换分子动力学（REMD）增强采样，以研究色氨酸间距如何影响结合行为。我们的结果表明，双色氨酸之间间隔10个甘氨酸的肽（GW10）对G14表现出最强的结合亲和力，与实验数据一致，验证了模拟方法的有效性。值得注意的是，GW10及其相关的精氨酸和丝氨酸变体（GR10和GS10）采用稳定的、固有有序的螺旋构象，形成有利于G14结合的袋状结构。能量分解、氢键和构象分析强调了这些有序结构在调节肽-肽相互作用中的关键作用。这些发现为序列依赖性结合提供了原子级见解，并为肽设计、蛋白质工程以及理解与蛋白质折叠相关的前套索基序提供了潜在应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41056214/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41056214/",
+  "paper_page_path": "papers/pubmed/41056214/index.html"
+}

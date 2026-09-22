@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplemental material references
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors report the selection of a single-stranded DNA aptamer, N-Apt17, that binds the SARS-CoV-2 nucleocapsid protein with high affinity and specificity, disrupts N protein liquid-liquid phase separation, and inhibits viral replication in a transcription and replication-competent virus-like particle system. A circular bivalent derivative, cb-N-Apt17, is reported to show improved stability, binding affinity, and LLPS inhibition.
+- **Visible evidence base** Figures 1-8 as referenced in the text, Table S1, Supplemental Figures S1 and S2, methods descriptions for SELEX, MST, CCK-8, confocal microscopy, flow cytometry, and in vivo imaging
+- **Missing materials affecting confidence** Actual figure images and data plots are not provided in the manuscript text; raw numerical data, statistical outputs, and detailed SELEX enrichment data are not available; the specific sequences of aptamers are only referenced in Table S1 which is not included in the provided text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic, namely the development of nucleic acid aptamers targeting a conserved SARS-CoV-2 protein as a potential therapeutic strategy. The concept of targeting the nucleocapsid protein and disrupting its LLPS is scientifically interesting and potentially significant. However, the evidence presented in the text is insufficient to fully support the major claims. Several key experiments are described only qualitatively, quantitative data are not shown in the provided material, and critical controls and validations are not described in sufficient detail. The manuscript would benefit from a more rigorous presentation of the data and a clearer demonstration of the specificity and mechanism of action of the aptamers.
+- **Who would be interested in the results, and why** Researchers in the fields of antiviral drug development, aptamer technology, RNA virus biology, and specifically those studying SARS-CoV-2 and other coronaviruses. The potential for targeting a conserved internal protein rather than the variable spike protein is of broad interest to the infectious disease community. The LLPS aspect may also attract researchers studying biomolecular condensates and their role in viral replication.
+- **Major strengths** The manuscript addresses an important problem, namely the need for therapeutics that are less susceptible to viral escape through mutation. The choice of the conserved N protein as a target is well justified. The design of a circular bivalent aptamer to improve stability is a reasonable and potentially valuable approach. The use of multiple assay formats, including MST, flow cytometry, confocal microscopy, and a viral replication system, is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that N-Apt17 exhibits "remarkable affinity and specificity" for the N protein and that cb-N-Apt17 has "enhanced binding affinity" compared to N-Apt17.
+  - **Evidence pointer** Figure 2c, Figure 5a and 5b, MicroScale Thermophoresis section
+  - **Concern** The Kd values are reported as a range from 0.35 ± 0.04 µM to 0.06 ± 0.03 µM for the six aptamers, but the individual values for each aptamer are not presented. The comparison between N-Apt17 and cb-N-Apt17 is described qualitatively, but the actual Kd values for both molecules are not provided. Without these specific numbers, the claim of "enhanced" affinity cannot be evaluated. Furthermore, the specificity of the aptamers is not rigorously demonstrated. The text mentions colocalization and flow cytometry, but no negative control aptamers or unrelated proteins are described to demonstrate specificity.
+  - **Why it matters** The core premise of the manuscript rests on the high affinity and specificity of the aptamers. Without quantitative data and appropriate controls, the central claims are not substantiated. The reported Kd values in the micromolar range are relatively weak for a therapeutic candidate, and this point is not discussed.
+  - **Resolution test** Provide the individual Kd values for each aptamer and for cb-N-Apt17, with appropriate statistical analysis. Include binding assays against unrelated proteins, such as BSA or an irrelevant viral protein, to demonstrate specificity. Include a negative control aptamer with a scrambled sequence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim point** The authors claim that N-Apt17 and cb-N-Apt17 inhibit SARS-CoV-2 replication by disrupting N protein LLPS.
+  - **Evidence pointer** Figure 3, Figure 5, Figure 8, LLPS inhibition assay section
+  - **Concern** The causal link between LLPS inhibition and antiviral activity is not clearly established. The manuscript shows that N-Apt17 inhibits LLPS and that cb-N-Apt17 inhibits viral replication in a trVLP system, but it does not demonstrate that the antiviral effect is specifically due to LLPS disruption. The trVLP system used lacks the N gene, and N protein is provided in trans. It is not clear whether the aptamer is inhibiting the function of the provided N protein or if it has other effects. The manuscript does not address whether the aptamer affects other N protein functions, such as RNA binding or packaging, which are independent of LLPS.
+  - **Why it matters** The proposed mechanism of action is a key selling point of the manuscript. If the antiviral effect is not specifically due to LLPS disruption, the interpretation of the results is significantly weakened. The manuscript needs to provide evidence that the aptamer's antiviral activity is directly attributable to its effect on LLPS.
+  - **Resolution test** Perform experiments that separate LLPS inhibition from other N protein functions. For example, test whether the aptamer inhibits N protein-RNA binding. Use a mutant N protein that is defective in LLPS but retains other functions to see if the aptamer still inhibits replication. Alternatively, use a complementation assay where the aptamer is added and LLPS is restored in trans to see if antiviral activity is rescued.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data presentation and reproducibility
+  - **Claim point** The manuscript claims that cb-N-Apt17 inhibits viral replication in a dose-dependent manner and that this is demonstrated in Figure 8.
+  - **Evidence pointer** Figure 8, Production of trVLPs section, RNA extract and QRT-PCR section
+  - **Concern** The description of the antiviral experiments is insufficient. The text states that "a decrease in eGFP signal as the concentration of cb-N-Apt17 increased" was observed, but no quantitative data, such as IC50 values or dose-response curves, are presented in the text. The QRT-PCR data are described as "consistent" but the actual values are not given. The multiplicity of infection, the timing of aptamer addition relative to infection, and the method of aptamer delivery into cells are not clearly described. The trVLP system is described as "transcription and replication-competent," but the details of how the N protein is provided and how the system works are not fully explained.
+  - **Why it matters** The antiviral efficacy is the most important translational claim of the manuscript. Without quantitative data and a clear description of the experimental system, the results cannot be properly evaluated or reproduced by others.
+  - **Resolution test** Provide dose-response curves with IC50 values for cb-N-Apt17 against the trVLP system. Clearly describe the experimental protocol, including the timing of aptamer addition, the method of transfection, and the MOI used. Provide the raw QRT-PCR data and the standard curve used for quantification.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction states that the N protein "plays a critical role in evading host innate immunity by impairing interferon production," but this is not directly relevant to the study and is not addressed in the results or discussion.
+  - **Required correction** Consider removing this statement or providing a brief explanation of its relevance to the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Results section on aptamer identification
+  - **Evidence pointer** Figure 1b and 1c
+  - **Issue** The text states that six aptamers were identified, but the criteria for selection are not described. The secondary structure predictions are mentioned but not discussed in the context of function.
+  - **Required correction** Briefly describe the selection criteria and discuss whether the predicted secondary structures correlate with binding affinity or function.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions that "further investigation is needed to understand the specific distribution differences" for the in vivo imaging, but does not discuss the potential implications of the liver accumulation and bladder clearance for therapeutic applications.
+  - **Required correction** Add a brief discussion of the pharmacokinetic implications of the observed biodistribution.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and Methods, MicroScale Thermophoresis section
+  - **Evidence pointer** MicroScale Thermophoresis section
+  - **Issue** The MST buffer composition is not fully described, and the concentration range of the aptamer used in the assay is not specified.
+  - **Required correction** Provide the full buffer composition and the concentration range of the aptamer used in the MST experiments.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Statistical analysis section
+  - **Evidence pointer** Statistical analysis section
+  - **Issue** The statistical analysis section states that Student's t-tests were used, but it is not clear which experiments were analyzed and whether multiple comparisons were corrected for.
+  - **Required correction** Specify which experiments were analyzed statistically and whether corrections for multiple comparisons were applied.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative binding data for individual aptamers, the absence of a clear demonstration of specificity, the insufficient description of the antiviral assay, and the lack of a direct mechanistic link between LLPS inhibition and antiviral activity are the main technical issues that need to be addressed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of targeting the N protein with an aptamer to disrupt LLPS is relatively novel, although the general approach of using aptamers against viral proteins is well established. The circular bivalent design is a reasonable extension of existing work.
+  - **Scientific importance** The potential to develop a therapeutic that targets a conserved viral protein and is less susceptible to escape mutations is of high importance. However, the significance is tempered by the relatively weak binding affinities reported and the lack of in vivo efficacy data.
+  - **Interdisciplinary readership** The topic is of interest to virologists, structural biologists, and researchers in drug development. The LLPS aspect may attract cell biologists. However, the manuscript is written in a way that is accessible to a broad audience.
+  - **Technical soundness** The technical soundness is currently questionable due to the issues described above. The lack of quantitative data and appropriate controls prevents a full assessment of the experimental rigor.
+  - **Readability for nonspecialists** The manuscript is generally well-written and understandable. The key concepts are explained clearly. However, the lack of specific data in the text makes it difficult for a nonspecialist to fully appreciate the strength of the evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and has a reasonable hypothesis, but the evidence presented is insufficient to support the major claims. The authors need to provide quantitative data, appropriate controls, and a clearer demonstration of the mechanism of action before the case can be made.
+
+## Risk / unsupported claims
+- The claim that N-Apt17 exhibits "remarkable affinity" is not supported by the data presented, as the Kd values are in the micromolar range and individual values are not provided.
+- The claim that cb-N-Apt17 has "superior protein affinity" compared to N-Apt17 is not supported by quantitative data.
+- The claim that the aptamers inhibit viral replication specifically through LLPS disruption is not supported by the experiments described.
+- The claim that cb-N-Apt17 is a "promising candidate for antiviral therapy" is not supported by in vivo efficacy data, as only biodistribution was shown.
+- The specificity of the aptamers for the N protein over other proteins is not demonstrated with appropriate negative controls.

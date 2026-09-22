@@ -1,0 +1,240 @@
+{
+  "identity": {
+    "pmid": "42327072",
+    "doi": "10.64898/2026.06.12.731949",
+    "title": "Tightly Knotted Enzymes Inhibit Protein-Protein Aggregation."
+  },
+  "content": {
+    "abstract": "Neurodegenerative diseases are closely linked to aberrant protein aggregation arising from failures in cellular proteostasis, yet the physical determinants governing transitions between soluble states, liquid-liquid phase separation (LLPS), and aggregation remain incompletely understood. Here, we investigate how protein backbone topology influences phase behavior using ubiquitin C-terminal hydrolase L1 (UCH-L1), a highly neuron-enriched deubiquitinase in the ubiquitin-proteasome system harboring a rare, evolutionarily conserved knotted backbone topology, and its Parkinson's disease-associated I93M mutant. Through multiscale molecular dynamics (MD) simulations of single-chain and multichain systems, we show that knot integrity acts as a conformational constraint that limits access to expanded states, and suppresses LLPS propensity. Destabilization of the native knotted ensemble in I93M reshapes the conformational ensemble, enhancing intermolecular contacts, strengthening hydrophobic interaction, and reducing solvation penalties, thereby stabilizing protein-rich phases. Within condensates, these changes lead to persistent interchain contacts, increased topological entanglement, and slower relaxation dynamics, indicative of a transition toward viscoelastic assemblies, whereas intact topology maintains dynamic, liquid-like behavior. Our results identify topological integrity as a key physical determinant of protein phase behavior and establish a mechanistic link between topological stability and condensate material properties, with implications for aggregation-associated neurodegeneration.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sarkar, Susmita",
+        "Nagaiah, Hemanth Mandya",
+        "Klein, Michael L",
+        "Carnevale, Vincenzo"
+      ],
+      "short_names": [
+        "Sarkar S",
+        "Nagaiah HM",
+        "Klein ML",
+        "Carnevale V"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Sarkar, Susmita",
+        "short_name": "Sarkar S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Nagaiah, Hemanth Mandya",
+        "short_name": "Nagaiah HM",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Klein, Michael L",
+        "short_name": "Klein ML",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Carnevale, Vincenzo",
+        "short_name": "Carnevale V",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jun 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/22 13:42",
+    "fetched_at": "2026-09-18 04:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42327072",
+      "41001641",
+      "41804277",
+      "18250096",
+      "40291420",
+      "34374536",
+      "40516596",
+      "41169547",
+      "41609052",
+      "23912807",
+      "27067109",
+      "41587927",
+      "39045738",
+      "39739794",
+      "21251915",
+      "39189377",
+      "33076213",
+      "41993496",
+      "34102212",
+      "39148776",
+      "27515257",
+      "38597222",
+      "37238596",
+      "24832624",
+      "40916915",
+      "41889760",
+      "38160320",
+      "36841957",
+      "39476948",
+      "41930927",
+      "42065721",
+      "28002735",
+      "34109153",
+      "27339135",
+      "39421885",
+      "35787838",
+      "20231490",
+      "34737230",
+      "36524527",
+      "33982369",
+      "41415473",
+      "31928729",
+      "39507104",
+      "41279901",
+      "32169484",
+      "19476499",
+      "42212534",
+      "42272138",
+      "34767801",
+      "31525988",
+      "37805139",
+      "40502018",
+      "39342654",
+      "39954969",
+      "40305655",
+      "39504036",
+      "37549257",
+      "36350032",
+      "41736915",
+      "38797543",
+      "41433062",
+      "37146977",
+      "41547174",
+      "25844814",
+      "24023962",
+      "33982350",
+      "37782899",
+      "40550186",
+      "40420425",
+      "25326379",
+      "40794831",
+      "39116032",
+      "36373662",
+      "40616404",
+      "18550537",
+      "37720552",
+      "12705903",
+      "41363845",
+      "40406897",
+      "30982635",
+      "41311968",
+      "37503577",
+      "38464093",
+      "21693148",
+      "38118146",
+      "32653673",
+      "23608881",
+      "33930220",
+      "42126444",
+      "35709363",
+      "37386790",
+      "41524628",
+      "33302617",
+      "41509380",
+      "35181198",
+      "26756795",
+      "39612640",
+      "33829608",
+      "27627061",
+      "37267850"
+    ],
+    "review": [
+      "42327072",
+      "41587927",
+      "27515257",
+      "38597222",
+      "42065721",
+      "35787838",
+      "36524527",
+      "31928729",
+      "39507104",
+      "32169484",
+      "42212534",
+      "42272138",
+      "34767801",
+      "39954969",
+      "36350032",
+      "38797543",
+      "41547174",
+      "25844814",
+      "40550186",
+      "36373662",
+      "40616404",
+      "37720552",
+      "33930220",
+      "35181198",
+      "39612640",
+      "33829608"
+    ],
+    "pmc": [
+      "13277964"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42327072/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-601",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.06.12.731949",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

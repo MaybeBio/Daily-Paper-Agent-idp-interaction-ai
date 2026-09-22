@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that tyrosine residues act as primary "sticker" residues governing liquid-liquid phase separation (LLPS) and hierarchical assembly of silk fibroin, based on bioinformatic analysis, coarse-grained simulations, and experimental modulation with l-arginine.
+- **Visible evidence base** Bioinformatic sequence analysis; coarse-grained single- and multichain simulations; experimental spectroscopic and colloidal measurements; microscopy and nanoparticle tracking
+- **Missing materials affecting confidence** Full methods, simulation parameters, experimental protocols, all figures and tables, statistical analyses, and supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and potentially significant hypothesis that tyrosine-mediated aromatic interactions serve as a central regulatory mechanism for silk fibroin phase separation and assembly. The combination of computational and experimental approaches is commendable. However, the abstract alone provides insufficient detail to evaluate the rigor of the methods, the robustness of the conclusions, or the quantitative support for the central claims. Several claims appear plausible but are not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biomaterials, protein self-assembly, phase separation biology, and silk-based material engineering would find these results relevant. The mechanistic framework for controlling silk assembly via aromatic interactions could inform the design of silk-based and synthetic protein biomaterials, appealing to both fundamental biophysics and applied materials science communities.
+- **Major strengths** The study integrates multiple levels of analysis, from sequence bioinformatics to coarse-grained simulations to experimental validation, providing a multi-scale perspective. The identification of tyrosine as a specific residue-level driver of LLPS offers a testable and potentially generalizable mechanistic insight. The use of l-arginine as a reversible modulator of aromatic interactions presents a practical strategy with translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Coarse-grained single- and multichain simulations show that tyrosine content and patterning control chain compaction, condensate stability, and cluster dynamics."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that simulations demonstrate control of multiple properties, but no simulation parameters, force field details, system sizes, or quantitative results are provided. Without these, it is impossible to assess whether the simulations are adequately designed, whether the observed effects are statistically robust, or whether the conclusions follow from the data.
+  - **Why it matters** The simulation results form a core pillar of the mechanistic claim. If the simulations are underpowered, poorly parameterized, or overinterpreted, the central conclusion that tyrosine acts as the primary sticker residue is weakened.
+  - **Resolution test** Provide simulation methods, including force field, chain length, concentration ranges, and replicate numbers, along with quantitative metrics (e.g., radius of gyration, cluster size distributions, free energy estimates) that support the stated effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Spectroscopic and colloidal measurements demonstrate that l-arginine disrupts aromatic clustering without global denaturation, inhibiting phase separation, suppressing nanocluster formation, reducing viscosity, and enhancing thermal and colloidal stability."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract lists multiple experimental outcomes but provides no quantitative data, no description of the specific spectroscopic or colloidal techniques used, and no indication of the concentration ranges or conditions tested. The claim that l-arginine acts "without global denaturation" requires specific structural evidence (e.g., circular dichroism or NMR) that is not described.
+  - **Why it matters** The experimental results are essential to validate the computational predictions and to support the practical strategy for controlling silk assembly. Without quantitative and methodological detail, the robustness of these findings cannot be evaluated.
+  - **Resolution test** Provide experimental methods, including specific techniques (e.g., CD, DLS, rheology, turbidity), concentration ranges, replicate numbers, and quantitative results with statistical significance for each claimed effect.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and significance
+  - **Claim pointer** "These results establish tyrosine-mediated aromatic interactions as a central molecular driver of fibroin LLPS and hierarchical assembly."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims to "establish" tyrosine as a central driver, but the evidence presented is correlative and indirect. The simulations show effects of tyrosine content and patterning, and the experiments show that l-arginine modulates behavior, but the abstract does not demonstrate a direct causal link between specific tyrosine residues and the observed phase behavior. The claim of "central" driver may be overstated without comparative analysis of other potential sticker residues.
+  - **Why it matters** Overstatement of causal claims can mislead the field and reduce the impact of the work. A more measured interpretation would strengthen the paper's credibility.
+  - **Resolution test** Provide direct evidence, such as mutation studies or residue-specific perturbations, that specifically implicate tyrosine over other residues, and temper the language to reflect the strength of the evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "sticker-spacer architecture" is used without definition, which may be unfamiliar to some readers in the broader biomaterials community.
+  - **Required correction** Briefly define the sticker-spacer concept in the abstract or provide a one-sentence explanation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The distinction between "reversible amorphous condensates" and "irreversible aggregated nanoassembly states" is mentioned but not clearly explained in terms of physical characteristics or experimental signatures.
+  - **Required correction** Provide a brief description of how these states are distinguished experimentally and why this distinction is mechanistically important.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Experimental design
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the concentration range of l-arginine used or whether the effects are dose-dependent.
+  - **Required correction** Include dose-response information or state the concentration range tested to allow assessment of the practical relevance of the modulation strategy.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core computational and experimental evidence is not described in sufficient detail to verify the claims. R1-M3 is also blocking because the causal claim of tyrosine as the primary driver is not directly supported by the evidence described.
+- **Assessment against Nature-style criteria** Originality: The hypothesis that tyrosine acts as a primary sticker residue in silk fibroin LLPS is a novel and potentially important contribution, though the general concept of aromatic stickers in phase separation is not entirely new. Scientific importance: If fully supported, the findings could provide a mechanistic framework for controlling silk assembly, which has broad implications for biomaterials design. Interdisciplinary readership: The work bridges biophysics, materials science, and protein chemistry, which would appeal to a diverse audience. Technical soundness: Not assessable from the abstract alone; the lack of methodological detail is a significant limitation. Readability for nonspecialists: The abstract is generally clear but uses some specialized terminology without definition.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is intriguing and the multi-scale approach is promising, but the abstract does not provide sufficient detail to verify the technical soundness of the methods or the robustness of the conclusions. A revised manuscript with full methodological transparency and quantitative results could change this assessment.
+
+## Risk / unsupported claims
+- The claim that tyrosine is the "primary sticker residue" is not directly supported by the evidence described; no comparative analysis of other residues is mentioned.
+- The claim that l-arginine disrupts aromatic clustering "without global denaturation" is unsupported without specific structural data.
+- The claim that tyrosine content and patterning "control" chain compaction, condensate stability, and cluster dynamics is not quantitatively supported in the abstract.
+- The distinction between "reversible amorphous condensates" and "irreversible aggregated nanoassembly states" is asserted but not defined or evidenced in the abstract.
+- The practical claim that the work provides "a practical strategy for controlling silk self-assembly" is plausible but not demonstrated with specific application data.

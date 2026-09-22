@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or methods
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations and graph theoretical analysis to quantify the roles of cation-pi and pi-pi interactions in multicomponent phase separation of polypeptide systems. They report temperature- and chain length-dependent changes in condensate network parameters, a transition between assortativity and disassortativity, and differential contributions of specific amino acid residues. They also report that polyadenosine and polyguanosine form stable connections with aromatic and arginine-containing polypeptides, reducing involvement of other residues. The study is presented as a distinctive, precise, and quantitative approach to characterize multicomponent phase separation.
+- **Visible evidence base** Abstract text only; no simulation details, system definitions, parameter values, statistical analyses, or graphical data provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, force field parameters, system compositions, temperature ranges, chain length definitions, network construction criteria, graph metrics definitions, statistical error analysis, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of graph theory to analyze molecular dynamics simulations of multicomponent phase separation. The conceptual framing is timely given the growing interest in biomolecular condensates. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulation approach, the validity of the graph theoretical metrics, or the robustness of the reported conclusions. Several claims are stated without quantitative support or methodological context. The work may be of interest to the biophysics and soft matter communities, but the evidence base available for review is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation mechanisms, and the role of specific intermolecular interactions such as cation-pi and pi-pi contacts. Computational biophysicists interested in network-based analyses of molecular assemblies would also find the methodological approach relevant. The findings on nucleotide-polypeptide interactions may interest those studying RNA-protein condensates.
+- **Major strengths** The conceptual combination of molecular dynamics simulation with graph theoretical analysis is a potentially novel approach to quantify multicomponent phase separation. The focus on individual-molecule contributions and spatial organization within condensates addresses an important gap in the field. The identification of a transition between assortativity and disassortativity is an intriguing observation that could provide new insight into condensate network organization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The study demonstrates quantitatively the significant roles of cation-pi and pi-pi interactions in condensate formation
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims quantitative demonstration of the roles of cation-pi and pi-pi interactions, but no quantitative data, statistical measures, or comparison against control systems are presented. The term "significant" implies statistical testing, yet no p-values, confidence intervals, or effect sizes are reported.
+  - **Why it matters** Without quantitative evidence, the central claim of the study cannot be evaluated. The reader cannot assess whether the reported contributions are robust or within simulation uncertainty.
+  - **Resolution test** Provide specific numerical values for interaction contributions, statistical significance tests, and comparison with appropriate control systems lacking these interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Temperature and chain length-dependent alterations in condensate network parameters, such as the number of condensate network layers, and changes in aggregation and connectivity
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports temperature and chain length dependence of network parameters, but no specific temperature ranges, chain lengths, or parameter values are given. The definition of "condensate network layers" is not provided, and the criteria for determining aggregation and connectivity are unclear.
+  - **Why it matters** Without defined parameters and ranges, the claims cannot be reproduced or independently verified. The physical meaning of "network layers" is ambiguous and requires explicit definition.
+  - **Resolution test** Specify the temperature range, chain length values, and provide a clear operational definition of network layers, aggregation, and connectivity metrics with representative values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** A transition between assortativity and disassortativity in the condensate network
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The transition between assortativity and disassortativity is stated without any quantitative measure of assortativity, the conditions under which the transition occurs, or the physical interpretation of this transition.
+  - **Why it matters** Assortativity is a specific graph metric with a defined mathematical formulation. Without reporting the computed values and the conditions of the transition, this claim is not verifiable.
+  - **Resolution test** Report assortativity coefficients as a function of temperature and chain length, identify the transition point, and provide physical interpretation supported by structural analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Polypeptides W, Y, F, and R consistently promote condensate formation, while contributions of other charged and two polar polypeptides (Q and N) depend on temperature and chain length
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The classification of residues as "promoting" or "conditionally promoting" condensate formation is presented without quantitative thresholds, error estimates, or the specific conditions under which the conditional behavior is observed.
+  - **Why it matters** The differential roles of residues are a central finding. Without quantitative criteria for "promotion" and the conditions of dependence, the claim is not falsifiable.
+  - **Resolution test** Provide quantitative measures of condensate formation propensity for each residue type, with error bars and clear criteria for classification, and specify the temperature and chain length conditions for conditional behavior.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Polyadenosine and polyguanosine can establish stable connections with aromatic and R polypeptides, resulting in reduced involvement of K, E, D, Q, and N in phase separation
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim about nucleotide-polypeptide interactions and their effect on other residues is stated without quantitative binding data, stability measures, or demonstration of the causal link between nucleotide interactions and reduced involvement of other residues.
+  - **Why it matters** This claim has implications for RNA-protein condensates, but without quantitative evidence of interaction stability and the proposed competitive mechanism, the conclusion is not supported.
+  - **Resolution test** Provide interaction energies, contact lifetimes, or binding free energies for nucleotide-polypeptide pairs, and demonstrate the reduction in involvement of K, E, D, Q, and N with appropriate controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract moves rapidly between multiple findings without clear logical flow, making it difficult to follow the main narrative.
+  - **Required correction** Restructure the abstract to present the methodological approach, key findings in a logical sequence, and the broader significance more clearly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "condensate network layers" is used without definition, and the distinction between "aggregation" and "connectivity" as network parameters is unclear.
+  - **Required correction** Define all network-related terms explicitly and clarify the relationship between aggregation, connectivity, and network layers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextualization
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not contextualize the findings within existing experimental or computational studies of multicomponent phase separation, limiting the perceived novelty.
+  - **Required correction** Add a sentence situating the work relative to prior studies and highlighting the specific advance.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Quantitative reporting
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses qualitative descriptors such as "significant," "consistently," and "stable" without numerical support.
+  - **Required correction** Replace qualitative descriptors with specific quantitative values where possible, or indicate that full quantitative data are in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. The abstract lacks all quantitative evidence needed to support the central claims. Without access to the full manuscript, the simulation methodology, force field choices, system sizes, equilibration protocols, and statistical analyses cannot be assessed.
+- **Assessment against Nature-style criteria** Originality: The combination of graph theory with molecular dynamics for phase separation analysis appears conceptually novel, though the abstract does not fully establish novelty relative to prior network-based analyses of biomolecular systems. Scientific importance: The topic is important given the broad interest in biomolecular condensates, and the potential to quantify individual-molecule contributions is valuable. Interdisciplinary readership: The work could appeal to biophysicists, computational chemists, and cell biologists, but the abstract is written in a specialized manner that may limit accessibility. Technical soundness: Cannot be assessed from the abstract alone; the absence of methodological detail and quantitative results is a major limitation. Readability for nonspecialists: The abstract uses field-specific terminology without sufficient explanation, and the rapid succession of findings without context reduces readability.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting ideas but lacks the quantitative and methodological detail necessary to evaluate the claims. A full review of the complete manuscript would be required to determine whether the technical approach is sound and the conclusions are supported.

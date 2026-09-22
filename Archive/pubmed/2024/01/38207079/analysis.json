@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38207079",
+  "title": "Liquid-like condensates mediate competition between actin branching and bundling.",
+  "authors": "Graham, Kristin; Chandrasekaran, Aravind; Wang, Liping; Yang, Noel; Lafer, Eileen M; Rangamani, Padmini; Stachowiak, Jeanne C",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2024-01-11",
+  "window": {
+    "start": "2024-01-08",
+    "end": "2024-01-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究含VASP和Arp2/3的液-液相分离凝聚体如何通过竞争调控肌动蛋白分支与成束，涉及多组分凝聚体介导的蛋白互作机制，但对象为细胞骨架蛋白而非典型IDP，且方法以实验和agent-based模拟为主，缺乏AI或物理模拟深度。",
+  "abstract": "Cellular remodeling of actin networks underlies cell motility during key morphological events, from embryogenesis to metastasis. In these transformations, there is an inherent competition between actin branching and bundling, because steric clashes among branches create a mechanical barrier to bundling. Recently, liquid-like condensates consisting purely of proteins involved in either branching or bundling of the cytoskeleton have been found to catalyze their respective functions. Yet in the cell, proteins that drive branching and bundling are present simultaneously. In this complex environment, which factors determine whether a condensate drives filaments to branch or become bundled? To answer this question, we added the branched actin nucleator, Arp2/3, to condensates composed of VASP, an actin bundling protein. At low actin to VASP ratios, branching activity, mediated by Arp2/3, robustly inhibited VASP-mediated bundling of filaments, in agreement with agent-based simulations. In contrast, as the actin to VASP ratio increased, addition of Arp2/3 led to formation of aster-shaped structures, in which bundled filaments emerged from a branched actin core, analogous to filopodia emerging from a branched lamellipodial network. These results demonstrate that multi-component, liquid-like condensates can modulate the inherent competition between bundled and branched actin morphologies, leading to organized, higher-order structures, similar to those found in motile cells.",
+  "abstract_zh": "肌动蛋白网络的细胞重塑是细胞运动在关键形态事件（从胚胎发生到转移）中的基础。在这些转化过程中，肌动蛋白分支与成束之间存在固有的竞争，因为分支间的空间位阻形成了成束的机械屏障。近期，发现由纯参与细胞骨架分支或成束的蛋白质组成的液态凝聚体可催化各自的功能。然而，在细胞中，驱动分支和成束的蛋白质同时存在。在这种复杂环境中，哪些因素决定凝聚体是驱动丝状体分支还是成束？为回答此问题，我们将分支肌动蛋白成核因子Arp2/3添加到由肌动蛋白成束蛋白VASP组成的凝聚体中。在低肌动蛋白与VASP比例下，由Arp2/3介导的分支活性强烈抑制了VASP介导的丝状体成束，这与基于代理的模拟结果一致。相反，随着肌动蛋白与VASP比例增加，添加Arp2/3导致星形结构形成，其中成束丝状体从分支肌动蛋白核心中伸出，类似于从分支片状伪足网络中伸出的丝状伪足。这些结果表明，多组分液态凝聚体可调节分支与成束肌动蛋白形态之间的固有竞争，从而形成有序的高阶结构，类似于运动细胞中发现的结构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38207079/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38207079/",
+  "paper_page_path": "papers/pubmed/38207079/index.html"
+}

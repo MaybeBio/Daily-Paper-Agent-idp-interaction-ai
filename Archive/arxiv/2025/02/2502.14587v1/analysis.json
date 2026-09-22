@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2502.14587v1",
+  "title": "Mesoscopic heterogeneity in biomolecular condensates from sequence patterning",
+  "authors": "Luke K. Davis; Andrew J. Baldwin; Philip Pearce",
+  "journal": "",
+  "published_date": "2025-02-20",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模型研究IDP序列模式如何决定凝聚体中介观异质性组织，虽未直接聚焦PPI界面，但为无序蛋白相分离机制建模提供了可迁移的物理框架。",
+  "abstract": "Biomolecular condensates composed of intrinsically disordered proteins (IDPs) are vital for proper cellular function, and their dysfunction is associated with diseases including neurodegeneration and cancer. Despite their biological importance, the precise physical mechanisms underlying condensate (dys)function are unclear, in part owing to the difficulties in understanding how biomolecular sequence patterns influence emergent condensate behaviours across relevant length and timescales. Here, through minimal physical modelling, we explain how IDP sequence patterning gives rise to nano-scale organisational heterogeneities in condensates. By applying our coarse-grained molecular-dynamics polymer model, which accounts for steric, attractive, and electrostatic interactions, we systematically quantify and map out the emergent morphological phases resulting from a wide range of sequence patterns. We demonstrate how sequences that enable local coil-to-globule transitions within regions of single polymers - driven by a competition between the preferred crowding densities of different regions in the sequence - also exhibit cluster formation in condensates. Overall, our work provides a conceptual framework to understand how sequence properties determine mesoscopic organisation within biomolecular condensates.",
+  "abstract_zh": "由固有无序蛋白（IDPs）组成的生物分子凝聚体对正常细胞功能至关重要，其功能失调与神经退行性疾病及癌症等疾病相关。尽管具有重要的生物学意义，但凝聚体（功能失调）背后的精确物理机制尚不明确，部分原因在于难以理解生物分子序列模式如何跨相关长度和时间尺度影响涌现的凝聚体行为。在此，通过最小物理建模，我们解释了IDP序列模式如何导致凝聚体中纳米尺度的组织异质性。通过应用我们的粗粒化分子动力学 (molecular dynamics) 聚合物模型，该模型考虑了空间位阻、吸引和静电相互作用，我们系统量化并绘制了由广泛序列模式产生的涌现形态相。我们证明，能够实现单聚合物区域内局部线圈-球状转变的序列——由序列中不同区域偏好拥挤密度之间的竞争驱动——也在凝聚体中表现出簇形成。总体而言，我们的工作提供了一个概念框架，以理解序列特性如何决定生物分子凝聚体内的介观组织。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2502.14587v1",
+  "source_url": "https://arxiv.org/abs/2502.14587v1",
+  "paper_page_path": "papers/arxiv/2502.14587v1/index.html"
+}

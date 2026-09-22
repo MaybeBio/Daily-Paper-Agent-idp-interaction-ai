@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42056694",
+  "title": "Proteome-wide Ab Initio Structural Analysis of Viral Evolution.",
+  "authors": "Ali, Muhammad Asif; Caetano-Anolles, Gustavo",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2026-04-30",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用AlphaFold对病毒蛋白进行全蛋白质组从头结构分析，关注无序区域并评估其灵活性与生化性质，但未聚焦具体PPI或互作机制建模，方法上以AI结构预测为主，对无序蛋白互作机制研究有间接启发。",
+  "abstract": "The rapid advancement of sequencing technologies has outpaced experimental protein structure determination. AI-driven tools like AlphaFold now enable the prediction of near-experimental-quality atomic structures. However, certain protein regions-such as intrinsically disordered segments or those with transient or context-dependent conformations-may not be fully captured by experimental methods like NMR or cryo-EM. Here, we use AlphaFold to model a reference structure and bridge gaps in experimental models within a comparative framework for assessing structural deviations in sequences yet to be experimentally resolved. To achieve an accurate depiction of changes in protein structure, these regions are analyzed for their flexibility and biochemical properties. This approach provides a systematic strategy for refining structural interpretations of proteins in evolving viral populations, aiding in functional annotation, and improving our understanding of interactions and evolution of viral proteins.",
+  "abstract_zh": "测序技术的快速发展已超越了实验性蛋白质结构测定的步伐。以AlphaFold为代表的AI驱动工具如今能够预测接近实验质量的原子结构。然而，某些蛋白质区域——如 intrinsically disordered segments（内在无序片段）或具有瞬时或情境依赖性构象的区域——可能无法被NMR或cryo-EM等实验方法完全捕获。在此，我们利用AlphaFold建模一个参考结构，并在一个比较框架内填补实验模型的空白，以评估尚未通过实验解析的序列中的结构偏差。为准确描绘蛋白质结构的变化，这些区域被分析其灵活性和生化特性。该方法提供了一种系统策略，用于细化进化中病毒群体内蛋白质的结构解读，辅助功能注释，并增进我们对病毒蛋白质相互作用和进化的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42056694/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42056694/",
+  "paper_page_path": "papers/pubmed/42056694/index.html"
+}

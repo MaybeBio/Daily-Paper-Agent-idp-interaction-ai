@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36199253",
+  "title": "The stoichiometric interaction model for mesoscopic MD simulations of liquid-liquid phase separation.",
+  "authors": "Murata, Yutaka; Niina, Toru; Takada, Shoji",
+  "journal": "Biophysical journal",
+  "published_date": "2022-10-07",
+  "window": {
+    "start": "2022-10-03",
+    "end": "2022-10-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出化学计量互作(SI)势用于介观MD模拟液-液相分离，通过结合特异与非特异互作定量重现多价SH3/PRM串联域凝聚体的相图与流动性，直接针对无序蛋白介导的PPI与凝聚体机制建模。",
+  "abstract": "Liquid-liquid phase separation (LLPS) has received considerable attention in recent years for explaining the formation of cellular biomolecular condensates. The fluidity and the complexity of their components make molecular simulation approaches indispensable for gaining structural insights. Domain-resolution mesoscopic model simulations have been explored for cases in which condensates are formed by multivalent proteins with tandem domains. One problem with this approach is that interdomain pairwise interactions cannot regulate the valency of the binding domains. To overcome this problem, we propose a new potential, the stoichiometric interaction (SI) potential. First, we verified that the SI potential maintained the valency of the interacting domains for the test systems. We then examined a well-studied LLPS model system containing tandem repeats of SH3 domains and proline-rich motifs. We found that the SI potential alone cannot reproduce the phase diagram of LLPS quantitatively. We had to combine the SI and a pairwise interaction; the former and the latter represent the specific and nonspecific interactions, respectively. Biomolecular condensates with the mixed SI and pairwise interaction exhibited fluidity, whereas those with the pairwise interaction alone showed no detectable diffusion. We also compared the phase diagrams of the systems containing different numbers of tandem domains with those obtained from the experiments and found quantitative agreement in all but one case.",
+  "abstract_zh": "液-液相分离（LLPS）近年来在解释细胞生物分子凝聚体形成方面受到了广泛关注。其组分的流动性和复杂性使得分子模拟方法在获取结构见解方面不可或缺。对于由具有串联结构域的多价蛋白质形成的凝聚体，已探索了域分辨率介观模型模拟。该方法的一个问题是，域间成对相互作用无法调节结合结构域的价数。为克服此问题，我们提出了一种新的势能，即化学计量相互作用（SI）势能。首先，我们验证了SI势能能在测试系统中维持相互作用结构域的价数。随后，我们研究了一个经过充分研究的LLPS模型系统，该系统包含SH3结构域和富含脯氨酸基序的串联重复序列。我们发现，仅使用SI势能无法定量重现LLPS的相图。我们必须将SI势能与成对相互作用结合；前者代表特异性相互作用，后者代表非特异性相互作用。混合SI与成对相互作用的生物分子凝聚体表现出流动性，而仅含成对相互作用的凝聚体则未检测到明显扩散。我们还将含有不同数量串联结构域的系统的相图与实验所得结果进行了比较，发现除一种情况外，其余均定量一致。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36199253/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36199253/",
+  "paper_page_path": "papers/pubmed/36199253/index.html"
+}

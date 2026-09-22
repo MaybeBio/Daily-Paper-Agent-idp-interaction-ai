@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "38328089",
+    "doi": "10.1101/2024.01.23.576869",
+    "title": "Measurement of solubility product in a model condensate reveals the interplay of small oligomerization and self-association."
+  },
+  "content": {
+    "abstract": "Cellular condensates often consist of 10s to 100s of distinct interacting molecular species. Because of the complexity of these interactions, predicting the point at which they will undergo phase separation into discrete compartments is daunting. Using experiments and computation, we therefore studied a simple model system consisting of 2 proteins, polySH3 and polyPRM, designed for pentavalent heterotypic binding. We tested whether the peak solubility product, the product of dilute phase monomer concentrations, is a predictive parameter for the onset of phase separation. Titrating up equal total concentrations of each component showed that the maximum solubility product does approximately coincide with the threshold for phase separation in both the experiments and models. However, we found that measurements of dilute phase concentration include contributions from small oligomers, not just monomers; therefore, a quantitative comparison of the experiments and models required inclusion of small oligomers in the model analysis. We also examined full phase diagrams where the model results were almost symmetric along the diagonal, but the experimental results were highly asymmetric. This led us to perform dynamic light scattering experiments, where we discovered a weak homotypic interaction for polyPRM; when this was added to the computational model, it was able to recapitulate the experimentally observed asymmetry. Thus, comparing experiments to simulation reveals that the solubility product can be predictive of phase separation, even if small oligomers and low affinity homotypic interactions preclude experimental measurement of monomer concentration.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chattaraj, Aniruddha",
+        "Baltaci, Zeynep",
+        "Mayer, Bruce J",
+        "Loew, Leslie M",
+        "Ditlev, Jonathon A"
+      ],
+      "short_names": [
+        "Chattaraj A",
+        "Baltaci Z",
+        "Mayer BJ",
+        "Loew LM",
+        "Ditlev JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7105-6621",
+        "ORCID: 0000-0002-4580-3187",
+        "ORCID: 0000-0001-8287-7700"
+      ],
+      "affiliations": [
+        "R. D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut, United States of America.",
+        "Program in Molecular Medicine, Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario, Canada.",
+        "R. D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut, United States of America.",
+        "Genetics and Genome Sciences, University of Connecticut School of Medicine, Farmington, Connecticut, United States of America.",
+        "R. D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut, United States of America.",
+        "Program in Molecular Medicine, Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario, Canada.",
+        "Program in Cell Biology, Hospital for Sick Children, Toronto, Ontario, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chattaraj, Aniruddha",
+        "short_name": "Chattaraj A",
+        "identifiers": [
+          "0000-0002-7105-6621"
+        ],
+        "affiliations": [
+          "R. D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut, United States of America."
+        ]
+      },
+      {
+        "full_name": "Baltaci, Zeynep",
+        "short_name": "Baltaci Z",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, Hospital for Sick Children, Toronto, Ontario, Canada.",
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Mayer, Bruce J",
+        "short_name": "Mayer BJ",
+        "identifiers": [
+          "0000-0002-4580-3187"
+        ],
+        "affiliations": [
+          "R. D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut, United States of America.",
+          "Genetics and Genome Sciences, University of Connecticut School of Medicine, Farmington, Connecticut, United States of America."
+        ]
+      },
+      {
+        "full_name": "Loew, Leslie M",
+        "short_name": "Loew LM",
+        "identifiers": [],
+        "affiliations": [
+          "R. D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut, United States of America."
+        ]
+      },
+      {
+        "full_name": "Ditlev, Jonathon A",
+        "short_name": "Ditlev JA",
+        "identifiers": [
+          "0000-0001-8287-7700"
+        ],
+        "affiliations": [
+          "Program in Molecular Medicine, Hospital for Sick Children, Toronto, Ontario, Canada.",
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario, Canada.",
+          "Program in Cell Biology, Hospital for Sick Children, Toronto, Ontario, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jan 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/08 06:43",
+    "fetched_at": "2026-09-21 04:51:47"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37582808",
+      "37126554",
+      "36987392",
+      "36108633",
+      "35787038",
+      "35333653",
+      "34236318",
+      "34035521",
+      "33704061",
+      "33510441",
+      "33169001",
+      "32484438",
+      "32405004",
+      "32029630",
+      "31634364",
+      "31606941",
+      "31594803",
+      "31506351",
+      "31439799",
+      "31268421",
+      "30846600",
+      "30846599",
+      "30099028",
+      "30078712",
+      "29961577",
+      "29576456",
+      "29323488",
+      "29091028",
+      "28935776",
+      "28562589",
+      "28522535",
+      "28225081",
+      "27374333",
+      "27056844",
+      "26840718",
+      "26317470",
+      "24314076",
+      "22613834",
+      "22398450",
+      "9746507"
+    ],
+    "similar": [
+      "38328089",
+      "39046778",
+      "36987392",
+      "34236318",
+      "36993212",
+      "23912807",
+      "36993371",
+      "36321557",
+      "33672806",
+      "35333653",
+      "28924037",
+      "37039349",
+      "37043540",
+      "36972455",
+      "37549295",
+      "39042834",
+      "33577679",
+      "38987300",
+      "34179888",
+      "33087563",
+      "34585705",
+      "32696384",
+      "20039666",
+      "37926283",
+      "29358329",
+      "30395473",
+      "37261897",
+      "37461587",
+      "33307683",
+      "38383656",
+      "38326345",
+      "36291688",
+      "33653957",
+      "37549257",
+      "30926670",
+      "38466837",
+      "32405004",
+      "38429263",
+      "38999934",
+      "22098149",
+      "36856266",
+      "14978312",
+      "16090928",
+      "38591689",
+      "26169540",
+      "38526948",
+      "34636323",
+      "38405951",
+      "28572157",
+      "36412795",
+      "25709041",
+      "21082789",
+      "36993550",
+      "37586369",
+      "36310206",
+      "10547292",
+      "29677513",
+      "33955104",
+      "38309959",
+      "38316988",
+      "33510404",
+      "36179193",
+      "38349628",
+      "36611062",
+      "36199253",
+      "33302617",
+      "36224709",
+      "31606941",
+      "36758221",
+      "24824610",
+      "8241425",
+      "20361760",
+      "9894340",
+      "36004748",
+      "38593269",
+      "21391646",
+      "25512488",
+      "37468629",
+      "35054543",
+      "28428758"
+    ],
+    "review": [
+      "38328089",
+      "36321557",
+      "34179888"
+    ],
+    "pmc": [
+      "10849621"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38328089/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38328089",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.01.23.576869",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

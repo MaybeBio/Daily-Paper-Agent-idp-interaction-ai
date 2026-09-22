@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to figures, tables, methods, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a computational pipeline combining sequence pattern searches with AlphaFold to structurally annotate protein-protein interactions mediated by short linear motifs in intrinsically disordered regions (IDRs), and use these structural models to predict deleterious effects of missense variants in IDRs. They report experimental validation of selected predictions, including cases where AlphaMissense predicted benign effects.
+- **Visible evidence base** Abstract text only; no quantitative results, validation details, or methodological specifics provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, experimental validation protocols, statistical analyses, dataset descriptions, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable approach to a recognized gap in variant effect prediction, namely missense variants in intrinsically disordered regions. The combination of motif-based sequence analysis with AlphaFold structural modeling is conceptually sound and addresses a real need. However, the abstract provides insufficient quantitative detail to evaluate the robustness of the predictions, the rigor of the experimental validation, or the generalizability of the approach. The claim that 1,187 variants were characterized is notable, but the absence of performance metrics, comparison baselines, and validation outcomes limits the current assessment. The work is likely of interest to the structural biology and genomics communities, but the evidence as presented does not yet establish the case.
+- **Who would be interested in the results, and why** Researchers in variant effect prediction, precision medicine, and protein biophysics would find this work relevant. The approach offers a pathway to interpret variants in IDRs, which are often excluded from structure-based analyses. Computational biologists developing variant effect predictors and experimentalists studying protein-protein interactions mediated by short linear motifs would also benefit. The potential to generate testable hypotheses for functional studies in disordered regions broadens the appeal to cell and molecular biologists.
+- **Major strengths** The abstract identifies a clear and important gap in variant effect prediction, namely the 37% of missense variants in IDRs. The proposed combination of sequence pattern searches with AlphaFold is innovative and leverages existing tools in a novel context. The scale of the analysis, with 1,300 interactions and 1,187 variants, suggests a substantial dataset. The inclusion of experimental validation, particularly for variants predicted benign by AlphaMissense, demonstrates an effort to go beyond computational predictions.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "structural model-based prediction of deleterious effects of 1,187 of these variants in IDRs" was achieved, and that "extensive experimental efforts validated the predicted interfaces and deleterious variant effects."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative metrics for the prediction accuracy, such as sensitivity, specificity, or area under the receiver operating characteristic curve. The experimental validation is described as "extensive" but no details are given on the number of variants tested, the experimental assays used, or the concordance rate between predictions and experimental outcomes. Without these data, the reliability of the predictions cannot be assessed.
+  - **Why it matters** The core claim of the manuscript is that the pipeline can predict deleterious variant effects in IDRs. If the prediction accuracy is not quantified and the validation results are not reported, readers cannot determine whether the approach outperforms existing methods or is sufficiently reliable for practical use. This is essential for establishing the scientific case.
+  - **Resolution test** Provide performance metrics for the predictions, including comparison to baseline methods such as AlphaMissense. Report the number of variants experimentally tested, the types of assays used, and the proportion of predictions confirmed. Include these data in the main text or supplementary materials.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract states that "37% of all annotated missense variants reside in the 25% of the proteome that is intrinsically disordered," implying that the approach addresses a substantial fraction of the variant landscape.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not clarify how the 1,187 variants were selected from the broader set of variants in IDRs. The criteria for inclusion, such as the availability of motif matches or structural models, are not described. This raises questions about potential selection bias and whether the results generalize to all IDR variants or only a specific subset.
+  - **Why it matters** If the pipeline only applies to a narrow subset of IDR variants, the broader claim of addressing the 37% of variants in IDRs is overstated. The generalizability of the approach is central to its scientific importance.
+  - **Resolution test** Describe the selection criteria for the 1,187 variants, including the proportion of IDR variants that meet these criteria. Discuss the potential limitations and biases in the selection process.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "sequence pattern searches with AlphaFold" were used to "structurally annotate 1,300 protein-protein interactions with interfaces mediated by short disordered motifs binding to folded domains."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the confidence levels of the AlphaFold models or the criteria used to define a reliable interface. AlphaFold predictions for disordered regions are known to be less reliable, and the abstract does not address how this limitation was managed.
+  - **Why it matters** If the structural models are of low confidence, the subsequent variant effect predictions based on these models may be unreliable. The technical validity of the pipeline depends on the quality of the structural annotations.
+  - **Resolution test** Report the distribution of AlphaFold confidence scores for the annotated interfaces and describe any filtering criteria applied. Discuss how model uncertainty was incorporated into the variant effect predictions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "short disordered motifs" and "folded domains" without defining them, which may be unclear to readers outside structural biology.
+  - **Required correction** Briefly define these terms or provide context in the abstract to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention the specific protein-protein interactions or disease contexts studied, which limits the appeal to clinical and translational researchers.
+  - **Required correction** Include one or two examples of the interactions or variants studied, with relevance to disease, to broaden the readership.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that predictions were "predicted as benign by AlphaMissense," but it is unclear whether this refers to all 1,187 variants or a subset. The phrasing is ambiguous.
+  - **Required correction** Clarify the number of variants that were predicted benign by AlphaMissense and how many of these were experimentally validated.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of quantitative validation data and the unclear selection criteria for variants prevent the case from being established. R1-M3, while not blocking, requires attention to ensure the structural models are reliable.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach is novel in combining motif searches with AlphaFold for IDR variant characterization, which is a creative use of existing tools.
+  - Scientific importance: The problem addressed is significant, but the importance is not fully demonstrated without evidence of generalizability and performance.
+  - Interdisciplinary readership: The work has potential appeal across structural biology, genomics, and clinical genetics, but the abstract does not currently make this cross-disciplinary relevance explicit.
+  - Technical soundness: The technical approach is plausible, but the lack of quantitative validation and model confidence details undermines the current assessment.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon that could be simplified for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising and the scope is substantial, but the abstract lacks the quantitative and methodological details necessary to assess the validity of the claims. I would be supportive if the technical concerns are resolved with full data and methods.
+
+## Risk / unsupported claims
+- The claim that "extensive experimental efforts validated the predicted interfaces and deleterious variant effects" is unsupported without specific validation data.
+- The claim that the pipeline can "readily generate numerous testable hypotheses" is plausible but not quantitatively supported.
+- The generalizability of the approach to all IDR variants is not assessable from the abstract.
+- The reliability of the AlphaFold-based structural annotations is not assessable without confidence metrics.

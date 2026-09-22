@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "pmid": "40128232",
+    "doi": "10.1038/s41467-025-58199-2",
+    "title": "Martini3-IDP: improved Martini 3 force field for disordered proteins."
+  },
+  "content": {
+    "abstract": "Coarse-grained (CG) molecular dynamics (MD) is widely used for the efficient simulation of intrinsically disordered proteins (IDPs). The Martini model, one of the most popular CG force fields in biomolecular simulation, was reported to yield too compact IDP conformations, limiting its applications. Addressing this, we optimized the bonded parameters based on fitting to reference simulations of a diverse set of IDPs at atomistic resolution, resulting in a Martini3-based disordered protein model coined Martini3-IDP. This model leads to expanded IDP conformations, greatly improving the reproduction of the experimentally measured radii of gyration. Moreover, contrary to ad-hoc fixes based on scaling of protein-protein or protein-water interactions, Martini3-IDP keeps the overall interaction balance underlying Martini 3. To validate that, we perform a comprehensive testing including full-length multidomain proteins, IDP-lipid membrane binding and IDP-small molecule binding, confirming its ability to successfully capture the complex interplay between disordered proteins and diverse biomolecular components. Finally, the recently emerging concept of biomolecular condensate, through liquid-liquid phase separation, was also reproduced by Martini3-IDP for a number of both homotypic and heterotypic systems. With the improved Martini3-IDP model, we expand the ability to simulate processes involving IDPs in complex environments, at spatio-temporal scales inaccessible with all-atom models.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Water/chemistry",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Liguo",
+        "Brasnett, Christopher",
+        "Borges-Araujo, Luis",
+        "Souza, Paulo C T",
+        "Marrink, Siewert J"
+      ],
+      "short_names": [
+        "Wang L",
+        "Brasnett C",
+        "Borges-Araujo L",
+        "Souza PCT",
+        "Marrink SJ"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-2953-3973",
+        "ORCID: 0000-0001-9235-1673",
+        "ORCID: 0000-0003-3004-7750",
+        "ORCID: 0000-0003-0660-1301",
+        "ORCID: 0000-0001-8423-5277"
+      ],
+      "affiliations": [
+        "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, 9747AG, Groningen, The Netherlands.",
+        "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, 9747AG, Groningen, The Netherlands.",
+        "Laboratoire de Biologie et Modelisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Universite Claude Bernard Lyon 1, Ecole Normale Superieure de Lyon, Lyon, France.",
+        "Centre Blaise Pascal de Simulation et de Modelisation Numerique, Ecole Normale Superieure de Lyon, Lyon, France.",
+        "Laboratoire de Biologie et Modelisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Universite Claude Bernard Lyon 1, Ecole Normale Superieure de Lyon, Lyon, France.",
+        "Centre Blaise Pascal de Simulation et de Modelisation Numerique, Ecole Normale Superieure de Lyon, Lyon, France.",
+        "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, 9747AG, Groningen, The Netherlands. s.j.marrink@rug.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Liguo",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0009-0001-2953-3973"
+        ],
+        "affiliations": [
+          "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, 9747AG, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Brasnett, Christopher",
+        "short_name": "Brasnett C",
+        "identifiers": [
+          "0000-0001-9235-1673"
+        ],
+        "affiliations": [
+          "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, 9747AG, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Borges-Araújo, Luís",
+        "short_name": "Borges-Araújo L",
+        "identifiers": [
+          "0000-0003-3004-7750"
+        ],
+        "affiliations": [
+          "Laboratoire de Biologie et Modélisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Université Claude Bernard Lyon 1, Ecole Normale Supérieure de Lyon, Lyon, France.",
+          "Centre Blaise Pascal de Simulation et de Modélisation Numérique, Ecole Normale Supérieure de Lyon, Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Souza, Paulo C T",
+        "short_name": "Souza PCT",
+        "identifiers": [
+          "0000-0003-0660-1301"
+        ],
+        "affiliations": [
+          "Laboratoire de Biologie et Modélisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Université Claude Bernard Lyon 1, Ecole Normale Supérieure de Lyon, Lyon, France.",
+          "Centre Blaise Pascal de Simulation et de Modélisation Numérique, Ecole Normale Supérieure de Lyon, Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Marrink, Siewert J",
+        "short_name": "Marrink SJ",
+        "identifiers": [
+          "0000-0001-8423-5277"
+        ],
+        "affiliations": [
+          "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, 9747AG, Groningen, The Netherlands. s.j.marrink@rug.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Mar 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/25 06:25",
+    "fetched_at": "2026-09-21 17:08:33"
+  },
+  "links": {
+    "cites": [
+      "42573943",
+      "42527600",
+      "42395354",
+      "42370432",
+      "42301231",
+      "42166798",
+      "42159250",
+      "42154442",
+      "42143038",
+      "42129207",
+      "42095372",
+      "42055532",
+      "42035258",
+      "41991555",
+      "41911046",
+      "41863073",
+      "41818446",
+      "41741446",
+      "41721403",
+      "41712661",
+      "41576087",
+      "41519830",
+      "41472654",
+      "41441193",
+      "41068091",
+      "41024362",
+      "40894760",
+      "40801528",
+      "40790117",
+      "40596661",
+      "40544328"
+    ],
+    "refs": [
+      "39103332",
+      "38987470",
+      "38961263",
+      "38950000",
+      "38670324",
+      "38360555",
+      "38331917",
+      "38316988",
+      "38177684",
+      "37985798",
+      "37957331",
+      "37949765",
+      "37904608",
+      "37890457",
+      "37853696",
+      "37788237",
+      "37529288",
+      "37468629",
+      "37443299",
+      "37305927",
+      "37222424",
+      "36881934",
+      "36821400",
+      "36756326",
+      "36692364",
+      "36656159",
+      "36302916",
+      "36084347",
+      "36030416",
+      "35795820",
+      "35377637",
+      "35130691",
+      "35013176",
+      "34716273",
+      "34557680",
+      "34543365",
+      "34303077",
+      "34265844",
+      "34235484",
+      "34221333",
+      "34164069",
+      "33913726",
+      "33782607",
+      "33591749",
+      "33577679",
+      "33169001",
+      "33078839",
+      "33055165",
+      "32936312",
+      "32709852",
+      "32668227",
+      "32553192",
+      "32339173",
+      "32312191",
+      "32015543",
+      "31784535",
+      "31270472",
+      "30990694",
+      "29788355",
+      "29735687",
+      "29466338",
+      "29425497",
+      "29364893",
+      "28893908",
+      "28601983",
+      "27899672",
+      "27819658",
+      "27720588",
+      "27362226",
+      "27042944",
+      "26705895",
+      "26580045",
+      "26574417",
+      "26574340",
+      "25944044",
+      "25400522",
+      "24773235",
+      "24043820",
+      "22702725",
+      "22496841",
+      "21500218",
+      "21469160",
+      "19008886",
+      "6667333"
+    ],
+    "similar": [
+      "40128232",
+      "39163306",
+      "30091924",
+      "35377637",
+      "33355572",
+      "39046235",
+      "40278867",
+      "34845619",
+      "38928405",
+      "30865832",
+      "30840442",
+      "29808548",
+      "30933517",
+      "32816485",
+      "31756104",
+      "39499823",
+      "37442414",
+      "38291973",
+      "30979035",
+      "34680048",
+      "33945530",
+      "28448138",
+      "32393642",
+      "34504009",
+      "38112495",
+      "34656328",
+      "38018910",
+      "36641212",
+      "33382616",
+      "40095314",
+      "34081861",
+      "33623120",
+      "35944496",
+      "25207671",
+      "32859072",
+      "39807013",
+      "28805390",
+      "40172236",
+      "39225535",
+      "37838830",
+      "39056166",
+      "30865820",
+      "33411518",
+      "33591749",
+      "36674958",
+      "25919886",
+      "38739602",
+      "24329095",
+      "26575776",
+      "37989551",
+      "32227937",
+      "31809054",
+      "38987470",
+      "29080468",
+      "38979955",
+      "39093570",
+      "38118365",
+      "38296708",
+      "30372613",
+      "39885825",
+      "29276882",
+      "30913885",
+      "31441158",
+      "34032235",
+      "40072940",
+      "31552948",
+      "26052838",
+      "30813315",
+      "24278008",
+      "36750251",
+      "31021441",
+      "33587794",
+      "40101966",
+      "35053175",
+      "35912724",
+      "39908323",
+      "35762718",
+      "28493424",
+      "40129029",
+      "34799573",
+      "30204435",
+      "39579121",
+      "39977663",
+      "27844185",
+      "38950000",
+      "32403216",
+      "39103332",
+      "37452752",
+      "27243806",
+      "35074392",
+      "32621228",
+      "32579908",
+      "34716273",
+      "25375525",
+      "35755809",
+      "29186229",
+      "36468450",
+      "33934416",
+      "35725761",
+      "29306779"
+    ],
+    "review": [
+      "40128232",
+      "33355572",
+      "30840442",
+      "30979035",
+      "34680048",
+      "33591749",
+      "29080468",
+      "38979955",
+      "39093570",
+      "38118365",
+      "38296708",
+      "31441158",
+      "36750251",
+      "31021441",
+      "35053175",
+      "32403216",
+      "29306779"
+    ],
+    "pmc": [
+      "11933364"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-58199-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40128232/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

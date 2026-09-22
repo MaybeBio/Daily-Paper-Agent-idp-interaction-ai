@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors propose that in Arabidopsis, the cytoplasmic m6A reader YTHDF protein ECT2 requires association with ALBA proteins to bind m6A-modified mRNAs and execute its biological functions. They report physical interaction between ALBA and YTHDF proteins via a conserved short linear motif in the YTHDF intrinsically disordered region, overlapping mRNA target sets, juxtaposition of ALBA4 binding sites to m6A sites, and correspondence of these sites to pyrimidine-rich elements previously implicated in ECT2-m6A binding. They conclude that the YTHDF-ALBA complex constitutes the functional cytoplasmic m6A reader in plants and introduce a concept of facilitated m6A reading.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, statistical analyses, strain and construct details, raw data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding plant m6A biology by proposing a facilitated reading mechanism involving ALBA proteins. The claim is conceptually interesting and would likely attract attention from plant RNA biology and epitranscriptomics communities. However, the abstract alone provides insufficient evidence to evaluate the technical rigor, quantitative support, or reproducibility of the findings. Several key claims, including the physical interaction, binding site juxtaposition, and functional requirement, cannot be assessed without the underlying data. The conceptual framing is clear and the writing is accessible, but the evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Plant molecular biologists studying RNA modifications, epitranscriptomics researchers interested in m6A reader mechanisms, and comparative biologists examining conservation of RNA regulatory complexes across eukaryotes. The proposed facilitated reading concept may also interest researchers working on combinatorial control of mRNA fate.
+- **Major strengths** The abstract presents a clear and testable hypothesis with a novel conceptual contribution. The identification of a conserved short linear motif linking YTHDF and ALBA proteins provides a plausible molecular mechanism. The connection to previously identified pyrimidine-rich elements adds coherence to the model. The writing is concise and accessible to nonspecialists.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that ALBA and YTHDF proteins physically associate via a conserved short linear motif in the intrinsically disordered region of YTHDF proteins.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states a physical interaction but provides no details on the experimental approach, such as co-immunoprecipitation, pull-down, or in vitro binding assays, nor any quantitative measures of affinity or specificity. The claim of a conserved motif is presented without sequence alignment data or mutational validation.  
+  - **Why it matters** Physical interaction is the foundational claim upon which the entire facilitated reading model rests. Without evidence of direct binding and specificity, the model cannot be distinguished from indirect effects or artifacts.  
+  - **Resolution test** Provide experimental data showing direct interaction, including appropriate controls, quantitative binding measurements, and mutational disruption of the proposed motif that abolishes interaction.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that ALBA4 binding sites are juxtaposed to m6A sites and correspond to pyrimidine-rich elements important for ECT2 binding.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports genomic binding site data but provides no information on the methods used, such as CLIP-seq or RIP-seq, the number of biological replicates, the statistical thresholds for peak calling, or the definition of juxtaposition. The correspondence to pyrimidine-rich elements is stated without showing sequence logos, enrichment analyses, or functional validation.  
+  - **Why it matters** The spatial relationship between ALBA4 and m6A sites is central to the proposed mechanism. Without rigorous genomic evidence, the claim of juxtaposition could be coincidental or an artifact of data processing.  
+  - **Resolution test** Provide detailed methods for binding site identification, show enrichment statistics for m6A proximity, and demonstrate that the pyrimidine-rich elements are necessary and sufficient for ECT2 binding in vivo.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that both biological functions of ECT2 and its binding to m6A targets in vivo require ALBA association.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract asserts a functional requirement without presenting any loss-of-function or rescue experiments. No details are given on the phenotypes measured, the genetic backgrounds used, or the specificity of the ALBA requirement versus general mRNA-binding defects.  
+  - **Why it matters** The claim of functional requirement is the strongest in the abstract and directly supports the conclusion that the YTHDF-ALBA complex is the functional m6A reader. Without genetic evidence, the model remains correlative.  
+  - **Resolution test** Show that ALBA loss-of-function phenocopies ECT2 loss-of-function, that ECT2 binding to m6A targets is reduced in ALBA mutants, and that expression of an ALBA-binding-deficient ECT2 variant fails to rescue ECT2 mutant phenotypes.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The authors claim that the YTHDF-ALBA complex is the functional cytoplasmic m6A reader in plants and that this defines a concept of facilitated m6A reading.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract focuses on ECT2 and ALBA4 but generalizes to all YTHDF and ALBA proteins in plants. No evidence is presented for other family members, nor for whether the mechanism extends beyond Arabidopsis.  
+  - **Why it matters** The conceptual claim of a general facilitated reading mechanism requires demonstration across multiple family members and ideally across species. Overgeneralization from a single pair of proteins weakens the broader significance.  
+  - **Resolution test** Provide data for additional YTHDF and ALBA family members, and ideally comparative analyses with other plant species or evidence of motif conservation across eukaryotes.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "m6A exerts many of its regulatory effects" is vague and could be more specific about the types of effects, such as mRNA stability, translation, or localization.  
+  - **Required correction** Specify the regulatory outcomes relevant to the study.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "facilitated m6A reading"  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The term "facilitated m6A reading" is introduced without definition or contrast to existing models of m6A reading.  
+  - **Required correction** Define the term and briefly explain how it differs from direct m6A reading by YTHDF proteins alone.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, entire text  
+  - **Issue** No mention of the experimental systems, such as Arabidopsis ecotype, growth conditions, or tissue types used for the analyses.  
+  - **Required correction** Add brief context on the experimental system to aid interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking because the abstract alone does not provide sufficient evidence to establish the physical interaction, the genomic juxtaposition, or the functional requirement. These are the core claims of the manuscript and cannot be evaluated without full data.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The proposed facilitated reading mechanism is conceptually novel and extends current understanding of m6A reader function beyond direct recognition. This is a potentially original contribution.  
+  - **Scientific importance** If substantiated, the findings would have broad implications for plant epitranscriptomics and could inform studies in other organisms. The importance is high but contingent on evidence quality.  
+  - **Interdisciplinary readership** The topic bridges plant molecular biology, RNA biology, and epitranscriptomics, and the conceptual framing could attract readers from related fields. The abstract is written accessibly.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The absence of methods and data prevents evaluation of experimental rigor, controls, and statistical support.  
+  - **Readability for nonspecialists** The abstract is clear and concise, with jargon appropriately contextualized. The conceptual message is understandable.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual advance is promising, but the abstract alone does not provide sufficient data to support the core claims. A full manuscript with rigorous experimental evidence would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The physical interaction between ALBA and YTHDF proteins is stated without supporting data.
+- The conservation of the short linear motif is claimed without sequence or mutational evidence.
+- The overlap of mRNA target sets between ALBA and YTHDF proteins is asserted without quantitative comparison.
+- The juxtaposition of ALBA4 binding sites to m6A sites is stated without genomic data or statistical support.
+- The correspondence of binding sites to pyrimidine-rich elements is claimed without sequence or functional evidence.
+- The requirement of ALBA association for ECT2 biological functions and m6A binding is asserted without genetic or biochemical validation.
+- The generalization to "the functional cytoplasmic m6A reader in plants" is not supported by evidence for other family members or species.

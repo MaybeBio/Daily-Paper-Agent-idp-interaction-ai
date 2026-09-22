@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.01.07.573240",
+  "title": "Repeated duplications and losses shaped SMC complex evolution from archaeal ancestors to modern eukaryotes",
+  "authors": "van Hooff JJ; Raas MW; Tromer EC; Eme L",
+  "journal": "bioRxiv",
+  "published_date": "2024-01-08",
+  "window": {
+    "start": "2024-01-08",
+    "end": "2024-01-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该文通过系统发育重建SMC复合体在古菌到真核生物中的进化历史，属于进化生物学研究，不涉及无序蛋白、蛋白互作机制或AI/物理模拟方法，与本课题关联极弱。",
+  "abstract": "<h4>Summary</h4> Chromosome organization ensures accurate DNA replication, segregation, gene regulation and DNA damage repair. Across the tree of life, protein assemblages termed Structural Maintenance of Chromosomes (SMC) complexes determine chromosome organization. Eukaryotes usually have four SMC complex types (condensin I, condensin II, cohesin, and SMC5/6), whereas prokaryotes mostly have one. The expanded set is probably needed to accommodate the considerably larger eukaryotic genomes. Despite their essential functions, SMC complexes exhibit notable variation among model organisms, suggesting underexplored diversity across eukaryotes. Here, we provide a thorough reconstruction of the evolution of SMC complex subunits and accessory proteins across eukaryotes. We show that the last eukaryotic common ancestor (LECA) had all four complete SMC complexes, supporting the notion that LECA was already a sophisticated cell. At later timepoints, condensin II was lost at least thirty times, rendering it one of the most frequently lost eukaryotic cellular machineries. We identify multiple components (e.g., Sororin, Securin, Nse5, and Nse6) as much more ancient and widespread than previously appreciated. Finally, we traced the prokaryotic origins of these complexes and propose an ancient SMC complex was already duplicated in the ancestor of TACK and Asgard archaea, suggesting a sophisticated chromosome organization in the archaeal ancestor of eukaryotes. The eukaryotic SMC complex inventory was further expanded through gene duplications, highlighting the importance of these events in the emergence of eukaryotic complexity. Altogether, our results address questions and raise new ones about how SMC complex evolution affected the genome organizations of ancestral and contemporary organisms.",
+  "abstract_zh": "<h4>摘要</h4> 染色体组织确保DNA复制、分离、基因调控和DNA损伤修复的准确性。在生命之树中，被称为结构维持染色体（SMC）复合物的蛋白质组装体决定了染色体组织。真核生物通常拥有四种SMC复合物类型（凝缩蛋白I、凝缩蛋白II、黏连蛋白和SMC5/6），而原核生物大多只有一种。扩展的集合可能是为了适应显著更大的真核基因组。尽管其功能至关重要，SMC复合物在模式生物间表现出显著差异，暗示真核生物中尚未充分探索的多样性。在此，我们提供了SMC复合物亚基和辅助蛋白在真核生物中进化的全面重建。我们表明，最后真核共同祖先（LECA）拥有所有四种完整的SMC复合物，支持LECA已是一个复杂细胞的观点。在较晚的时间点，凝缩蛋白II至少丢失了三十次，使其成为真核细胞机制中最常丢失的之一。我们识别出多个组分（如Sororin、Securin、Nse5和Nse6）比以前认识到的更为古老和广泛。最后，我们追溯了这些复合物的原核起源，并提出一个古老的SMC复合物在TACK和Asgard古菌的祖先中已被复制，暗示真核生物的古菌祖先具有复杂的染色体组织。真核SMC复合物库通过基因复制进一步扩展，突显了这些事件在真核复杂性出现中的重要性。总体而言，我们的结果回答了关于SMC复合物进化如何影响祖先和现代生物基因组组织的问题，并提出了新的问题。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.01.07.573240",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.01.07.573240",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.01.07.573240/index.html"
+}

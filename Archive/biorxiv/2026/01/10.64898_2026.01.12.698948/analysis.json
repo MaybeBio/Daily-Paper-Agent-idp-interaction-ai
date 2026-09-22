@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.12.698948",
+  "title": "Hierarchical Deep Learning Framework Integrating Structural Interaction Potentials and Evolutionary Information for Protein-Protein Interaction Affinity Prediction",
+  "authors": "Ahmed Ibrahim; Mohamed Hassan; Youssef Ali",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-12",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 7,
+  "one_liner_zh": "提出融合结构相互作用势、进化信息与GNN的分层深度学习框架StructFuncNet预测蛋白互作亲和力，并在无序蛋白复合物基准上验证，虽非聚焦IDP机制建模，但方法可迁移至无序蛋白互作研究。",
+  "abstract": "Protein-protein interactions (PPIs) are fundamental to cellular biology, making accurate prediction of protein-protein interaction affinity (PPIA) crucial for drug discovery and disease mechanism elucidation. Existing computational methods often lack explicit physical constraints or operate as “black boxes,” hindering interpretability and generalization. To address these limitations, we introduce StructFuncNet, a novel hierarchical deep learning framework designed for highly accurate, generalizable, and interpretable PPIA prediction. Our approach uniquely integrates multi-level Structural Interaction Potentials (SIP) with rich evolutionary information and advanced graph neural networks (GNNs). This dual paradigm leverages SIP for physical and geometric realism, while GNNs and Transformer-like components learn synergistic dynamics and contextual corrections. StructFuncNet incorporates comprehensive input feature categories, including pre-trained protein residue features, SIP interface energies, evolutionary conservation scores, global molecular descriptors, and interface interaction counts. We extensively evaluated StructFuncNet on diverse and challenging benchmarks, including those for mutation affinity, multi-domain complexes, and intrinsically disordered proteins, as well as complexes derived from predicted structures. Our framework consistently achieves state-of-the-art performance, demonstrating high correlations across all tested scenarios. Furthermore, StructFuncNet proves robust on complexes derived from predicted structures. Ablation studies confirm the synergistic contributions of our multi-modal features and architectural components, underscoring StructFuncNet’s capacity to provide a robust, interpretable, and efficient solution for complex PPIA prediction challenges.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）是细胞生物学的基础，因此准确预测蛋白质-蛋白质相互作用亲和力（PPIA）对于药物发现和疾病机制阐明至关重要。现有计算方法往往缺乏明确的物理约束，或作为“黑箱”运行，阻碍了可解释性和泛化能力。为解决这些局限性，我们引入了StructFuncNet，一种新颖的分层深度学习框架，旨在实现高精度、可泛化且可解释的PPIA预测。我们的方法独特地将多层级结构相互作用势（SIP）与丰富的进化信息及先进图神经网络（GNNs）相结合。这种双范式利用SIP实现物理和几何真实性，而GNNs和类Transformer组件则学习协同动力学和上下文修正。StructFuncNet整合了全面的输入特征类别，包括预训练的蛋白质残基特征、SIP界面能量、进化保守性评分、全局分子描述符以及界面相互作用计数。我们在多样且具有挑战性的基准上广泛评估了StructFuncNet，包括突变亲和力、多结构域复合物、固有无序蛋白质以及源自预测结构的复合物基准。我们的框架持续达到最先进性能，在所有测试场景中均表现出高相关性。此外，StructFuncNet在源自预测结构的复合物上展现出鲁棒性。消融研究证实了我们多模态特征和架构组件的协同贡献，强调了StructFuncNet为复杂PPIA预测挑战提供稳健、可解释且高效解决方案的能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.698948",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.12.698948",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.12.698948/index.html"
+}

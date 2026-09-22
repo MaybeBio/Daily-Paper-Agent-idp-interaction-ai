@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "38947516",
+    "doi": "10.1016/j.isci.2024.110086",
+    "title": "Cellular lipids regulate the conformational ensembles of the disordered intracellular loop 3 in beta2-adrenergic receptor."
+  },
+  "content": {
+    "abstract": "The intracellular loops of G protein-coupled receptors (GPCRs) have been shown to play a key role in G protein coupling and selectivity. We recently showed that the intrinsically disordered third intracellular loop (ICL3) of beta2-adrenergic receptor is dynamic and equilibrates between open and closed conformations to regulate the G protein coupling. In this study, using the extensive molecular dynamics simulations in multi-lipid bilayer models, we show that the lipid phosphatidylinositol 4,5-bisphosphate (PIP2) stabilizes the active state of beta2-adrenergic receptor by keeping ICL3 in an open conformation. This stabilization results in a tilt of the receptor within the membrane. Additionally, the ganglioside lipid, GM3 interacts with extracellular loops, impacting the ligand binding site allosterically. This demonstrates the active role of the chemistry of lipids in stabilizing specific GPCR conformations.",
+    "keywords": [
+      "biophysics",
+      "molecular biology",
+      "structural biology"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mukhaleva, Elizaveta",
+        "Yang, Tianyi",
+        "Sadler, Fredrik",
+        "Sivaramakrishnan, Sivaraj",
+        "Ma, Ning",
+        "Vaidehi, Nagarajan"
+      ],
+      "short_names": [
+        "Mukhaleva E",
+        "Yang T",
+        "Sadler F",
+        "Sivaramakrishnan S",
+        "Ma N",
+        "Vaidehi N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Irell and Manella Graduate School of Biological Sciences, Beckman Research Institute of the City of Hope, Duarte, CA, USA.",
+        "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA.",
+        "Irell and Manella Graduate School of Biological Sciences, Beckman Research Institute of the City of Hope, Duarte, CA, USA.",
+        "Biochemistry, Molecular Biology and Biophysics Graduate Program, University of Minnesota, Minneapolis, MN, USA.",
+        "Department of Genetics, Cell Biology and Development, University of Minnesota, Minneapolis, MN, USA.",
+        "Biochemistry, Molecular Biology and Biophysics Graduate Program, University of Minnesota, Minneapolis, MN, USA.",
+        "Department of Genetics, Cell Biology and Development, University of Minnesota, Minneapolis, MN, USA.",
+        "Irell and Manella Graduate School of Biological Sciences, Beckman Research Institute of the City of Hope, Duarte, CA, USA.",
+        "Irell and Manella Graduate School of Biological Sciences, Beckman Research Institute of the City of Hope, Duarte, CA, USA.",
+        "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mukhaleva, Elizaveta",
+        "short_name": "Mukhaleva E",
+        "identifiers": [],
+        "affiliations": [
+          "Irell and Manella Graduate School of Biological Sciences, Beckman Research Institute of the City of Hope, Duarte, CA, USA.",
+          "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Tianyi",
+        "short_name": "Yang T",
+        "identifiers": [],
+        "affiliations": [
+          "Irell and Manella Graduate School of Biological Sciences, Beckman Research Institute of the City of Hope, Duarte, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sadler, Fredrik",
+        "short_name": "Sadler F",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry, Molecular Biology and Biophysics Graduate Program, University of Minnesota, Minneapolis, MN, USA.",
+          "Department of Genetics, Cell Biology and Development, University of Minnesota, Minneapolis, MN, USA."
+        ]
+      },
+      {
+        "full_name": "Sivaramakrishnan, Sivaraj",
+        "short_name": "Sivaramakrishnan S",
+        "identifiers": [],
+        "affiliations": [
+          "Biochemistry, Molecular Biology and Biophysics Graduate Program, University of Minnesota, Minneapolis, MN, USA.",
+          "Department of Genetics, Cell Biology and Development, University of Minnesota, Minneapolis, MN, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Ning",
+        "short_name": "Ma N",
+        "identifiers": [],
+        "affiliations": [
+          "Irell and Manella Graduate School of Biological Sciences, Beckman Research Institute of the City of Hope, Duarte, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Vaidehi, Nagarajan",
+        "short_name": "Vaidehi N",
+        "identifiers": [],
+        "affiliations": [
+          "Irell and Manella Graduate School of Biological Sciences, Beckman Research Institute of the City of Hope, Duarte, CA, USA.",
+          "Department of Computational and Quantitative Medicine, Beckman Research Institute of the City of Hope, Duarte, CA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2024 Jun 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/01 06:41",
+    "fetched_at": "2026-09-21 08:26:01"
+  },
+  "links": {
+    "cites": [
+      "42538433",
+      "42091878",
+      "41902748",
+      "41727267",
+      "40973726",
+      "40822851",
+      "39793883"
+    ],
+    "refs": [
+      "37371538",
+      "37037825",
+      "36890236",
+      "33149299",
+      "33054162",
+      "32610088",
+      "32272057",
+      "31999436",
+      "31855179",
+      "31362983",
+      "31102199",
+      "31080070",
+      "30713025",
+      "30581046",
+      "29995853",
+      "29685028",
+      "27362234",
+      "26571351",
+      "26517394",
+      "26427555",
+      "26275588",
+      "25284766",
+      "23940032",
+      "21540331",
+      "21500218",
+      "20054398",
+      "19839652",
+      "19258456",
+      "18490656",
+      "15519309",
+      "8744570"
+    ],
+    "similar": [
+      "38947516",
+      "38077083",
+      "27368374",
+      "37864328",
+      "36890236",
+      "32610088",
+      "35004696",
+      "24206668",
+      "35324173",
+      "30581046",
+      "36853938",
+      "39359104",
+      "36420156",
+      "34780174",
+      "30637937",
+      "32019899",
+      "27839952",
+      "27362234",
+      "21766860",
+      "33054162",
+      "34802238",
+      "34853152",
+      "28439254",
+      "18638482",
+      "17059214",
+      "26558323",
+      "38391238",
+      "24158800",
+      "23546002",
+      "27409812",
+      "18065472",
+      "24319111",
+      "37037825",
+      "18812316",
+      "35628258",
+      "29995853",
+      "30946584",
+      "27398998",
+      "37371538",
+      "22031696",
+      "32786510",
+      "34270937",
+      "29885563",
+      "28449310",
+      "33301977",
+      "27897972",
+      "30239054",
+      "27801588",
+      "24291490",
+      "9220972",
+      "22965891",
+      "34168117",
+      "27330078",
+      "36220484",
+      "25981665",
+      "28431242",
+      "23912807",
+      "32272057",
+      "27332120",
+      "23629648",
+      "16319069",
+      "18821775",
+      "39548888",
+      "25311205",
+      "31985399",
+      "26756780",
+      "39040950",
+      "31138704",
+      "38194225",
+      "39713392",
+      "29507218",
+      "32868434",
+      "31506010",
+      "37645938",
+      "23879802",
+      "22404225",
+      "9564860",
+      "31362983",
+      "25046433",
+      "38395122",
+      "29763833",
+      "24508605",
+      "31602675",
+      "40178795",
+      "24123518",
+      "33030907",
+      "20054398",
+      "38985766",
+      "17962519",
+      "32530095",
+      "31471645",
+      "24831005",
+      "34334369",
+      "30862702",
+      "28964335",
+      "23300522",
+      "30969408",
+      "35196859",
+      "25740347",
+      "23298417"
+    ],
+    "review": [
+      "38947516",
+      "24158800",
+      "37371538",
+      "33301977",
+      "30239054",
+      "36220484",
+      "31506010",
+      "38395122",
+      "29763833"
+    ],
+    "pmc": [
+      "11214514"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(24)01311-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38947516/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38947516",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

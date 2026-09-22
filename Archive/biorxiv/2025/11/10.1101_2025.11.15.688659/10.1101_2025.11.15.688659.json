@@ -1,0 +1,637 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.15.688659",
+  "title": "Sequence-aware Prediction of Point Mutation-induced Effects on Protein-Protein Binding Affinity using Deep Learning",
+  "doi": "10.1101/2025.11.15.688659",
+  "abstract": "Amino acid mutations may lead to significant changes in the binding affinity of protein complexes, thereby causing a series of cellular dysfunctions. Therefore, accurate prediction of protein-protein binding affinity changes (ΔΔG) induced by amino acid mutations is of great importance for understanding protein-protein interactions (PPIs). In this study, we propose SAMAffinity, a protein sequence-aware deep learning architecture for predicting changes in protein-protein binding affinity caused by amino acid mutations. SAMAffinity predicts mutation-induced ΔΔG by integrating multi-source sequence features, leveraging a Mutation-Site Identification (MSI) module to highlight local semantic shifts and a Binding-Interface Awareness (BIA) module to capture interaction changes. Benchmark evaluations on public datasets show that under the mutation-level data splitting strategy, SAMAffinity outperforms the state-of-the-art sequence-based method AttABseq by 33.3%, 72.3%, 31.8%, and 30.5% on S1131, S4169, S645, and M1101 datasets, respectively. Moreover, under the complex-level data splitting strategy, SAMAffinity surpasses the structure-based method MpbPPI by 22.9%, 22.7%, 5.0%, and 11.4% on the corresponding datasets. Beyond predictive accuracy, the strong consistency between the model’s predicted distribution and natural amino-acid mutation tendencies indicates that SAMAffinity effectively captures the underlying mutational landscape shaped by intrinsic biochemical and evolutionary factors. Based on this capability, SAMAffinity demonstrated strong generalization in a study of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) cases, suggesting its potential for optimizing therapeutic antibody design.",
+  "authors": [
+    "Jianan Zhuang",
+    "Zonghui Li",
+    "Suhui Wang",
+    "Renchao Zheng",
+    "Guijun Zhang"
+  ],
+  "published_date": "2025-11-16",
+  "updated_date": "2025-11-17T03:50:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.15.688659",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.15.688659.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            29
+          ]
+        ],
+        "date-time": "2026-08-29T05:50:11Z",
+        "timestamp": 1787982611693,
+        "version": "build-2784847793"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            16
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 50,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                16
+              ]
+            ],
+            "date-time": "2025-11-16T00:00:00Z",
+            "timestamp": 1763251200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100012166",
+          "name": "National Key R&D Program of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2022ZD0115103"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2022ZD0115103"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100012166",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Nature Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "62173304"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62173304"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Nature Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "62573386"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "62573386"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "“Pioneer” and “Leading Goose” R&D Program of Zhejiang",
+          "award": [
+            "2025C01190"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2025C01190"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Zhejiang Province High-level Talent Special Support Program",
+          "award": [
+            "2023R5248"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2023R5248"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Amino acid mutations may lead to significant changes in the binding affinity of protein complexes, thereby causing a series of cellular dysfunctions. Therefore, accurate prediction of protein-protein binding affinity changes (ΔΔG) induced by amino acid mutations is of great importance for understanding protein-protein interactions (PPIs). In this study, we propose SAMAffinity, a protein sequence-aware deep learning architecture for predicting changes in protein-protein binding affinity caused by amino acid mutations. SAMAffinity predicts mutation-induced ΔΔG by integrating multi-source sequence features, leveraging a Mutation-Site Identification (MSI) module to highlight local semantic shifts and a Binding-Interface Awareness (BIA) module to capture interaction changes. Benchmark evaluations on public datasets show that under the mutation-level data splitting strategy, SAMAffinity outperforms the state-of-the-art sequence-based method AttABseq by 33.3%, 72.3%, 31.8%, and 30.5% on S1131, S4169, S645, and M1101 datasets, respectively. Moreover, under the complex-level data splitting strategy, SAMAffinity surpasses the structure-based method MpbPPI by 22.9%, 22.7%, 5.0%, and 11.4% on the corresponding datasets. Beyond predictive accuracy, the strong consistency between the model’s predicted distribution and natural amino-acid mutation tendencies indicates that SAMAffinity effectively captures the underlying mutational landscape shaped by intrinsic biochemical and evolutionary factors. Based on this capability, SAMAffinity demonstrated strong generalization in a study of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) cases, suggesting its potential for optimizing therapeutic antibody design.</jats:p>",
+      "DOI": "10.1101/2025.11.15.688659",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            17
+          ]
+        ],
+        "date-time": "2025-11-17T03:50:13Z",
+        "timestamp": 1763351413000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Sequence-aware Prediction of Point Mutation-induced Effects on Protein-Protein Binding Affinity using Deep Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Jianan",
+          "family": "Zhuang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zonghui",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Suhui",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Renchao",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Guijun",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.4c01850"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt450"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw458"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1770",
+          "DOI": "10.1021/ct401022c",
+          "article-title": "Predicting the Impact of Missense Mutations on Protein-Protein Binding Affinity",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.CELL.2020.08.012/ATTACHMENT/FE8D0017-8DE9-419E-A27E-E3764D796022/MMC3.ZIP"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.6",
+          "unstructured": "ProstaNet: A Novel Geometric Vector Perceptrons-Graph Neural Network Algorithm for Protein Stability Prediction in Single- and Multiple-Point Mutations with Experimental Validation. Research 2025, 2025."
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "1152",
+          "DOI": "10.1126/science.2658060",
+          "article-title": "The role of somatic hypermutation in the generation of antibody diversity. Science (New York",
+          "volume": "244",
+          "year": "1989",
+          "journal-title": "N.Y"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.immuni.2016.09.001"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biochem.76.061705.090740"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.1007/978-1-59745-483-4_14",
+          "article-title": "Analysis of Biomolecules Using Surface Plasmons",
+          "volume": "544",
+          "year": "2009",
+          "journal-title": "Micro and Nano Technologies in Bioanalysis: Methods and Protocols"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "791",
+          "DOI": "10.1016/S1074-5521(96)90063-0",
+          "article-title": "Sensing the heat: The application of isothermal titration calorimetry to thermodynamic studies of biomolecular interactions",
+          "volume": "3",
+          "year": "1996",
+          "journal-title": "Chemistry and Biology (London"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tsishyn, M. ; Pucci, F. ; Rooman, M ., Quantification of biases in predictions of protein-protein binding affinity changes upon mutations. Briefings in Bioinformatics 2024, 25.",
+          "DOI": "10.1093/bib/bbad491"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki387"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "3031",
+          "DOI": "10.1021/acs.jctc.7b00125",
+          "article-title": "The Rosetta All-Atom Energy Function for Macromolecular Modeling and Design",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "5389",
+          "DOI": "10.1021/acs.jpcb.7b11367",
+          "article-title": "Flex ddG: Rosetta Ensemble-Based Estimation of Changes in Protein-Protein Binding Affinity upon Mutation",
+          "volume": "122",
+          "year": "2018",
+          "journal-title": "Journal of Physical Chemistry B"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Marabotti, A. ; Scafuri, B. ; Facchiano, A ., Predicting the stability of mutant proteins by computational approaches: an overview. Briefings in Bioinformatics 2021, 22.",
+          "DOI": "10.1093/bib/bbaa074"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, N. ; Chen, Y. ; Lu, H. ; Zhao, F. ; Alvarez, R. V. ; Goncearenco, A. ; Panchenko, A. R. ; Li, M ., MutaBind2: Predicting the Impacts of Single and Multiple Mutations on Protein-Protein Interactions. Iscience 2020, 23.",
+          "DOI": "10.1016/j.isci.2020.100939"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "116",
+          "DOI": "10.1038/s42256-020-0149-6",
+          "article-title": "A topology-based network tree for the prediction of protein-protein binding affinity changes following mutation",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu, X. ; Luo, Y. ; Li, P. ; Song, S. ; Peng, J ., Deep geometric representations for modeling effects of mutations on protein-protein binding affinity. Plos Computational Biology 2021, 17.",
+          "DOI": "10.1371/journal.pcbi.1009284"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yue, Y. ; Li, S. ; Wang, L. ; Liu, H. ; Tong, H. H. Y. ; He, S ., MpbPPI: a multi-task pre-training-based equivariant approach for the prediction of the effect of amino acid mutations on protein-protein interactions. Briefings in Bioinformatics 2023, 24.",
+          "DOI": "10.1093/bib/bbad310"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae412"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cai, H. ; Zhang, Z. ; Wang, M. ; Zhong, B. ; Li, Q. ; Zhong, Y. ; Wu, Y. ; Ying, T. ; Tang, J ., Pretrainable geometric graph neural network for antibody affinity maturation. Nature Communications 2024, 15.",
+          "DOI": "10.1038/s41467-024-51563-8"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TNN.2008.2005605"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.24",
+          "unstructured": "Vaswani, A. ; Shazeer, N. ; Parmar, N. ; Uszkoreit, J. ; Jones, L. ; Gomez, A. N. ; Kaiser, Ł. ; Polosukhin, I ., Attention is all you need. Advances in neural information processing systems 2017, 30."
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Siebenmorgen, T. ; Zacharias, M. , Computational prediction of protein-protein binding affinities. Wiley Interdisciplinary Reviews-Computational Molecular Science 2020, 10.",
+          "DOI": "10.1002/wcms.1448"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.26",
+          "unstructured": "Ruffolo, J. A. ; Gray, J. J. ; Sulam, J. , Deciphering antibody affinity maturation with language models and weakly supervised learning. arXiv preprint arXiv:2112.07782 2021."
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2021.3095381"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rao, R. ; Bhattacharya, N. ; Thomas, N. ; Duan, Y. ; Chen, X. ; Canny, J. ; Abbeel, P. ; Song, Y. S . Evaluating Protein Transfer Learning with TAPE. In 33rd Conference on Neural Information Processing Systems (NeurIPS), Vancouver, CANADA, 2019 Dec 08-14.",
+          "DOI": "10.1101/676825"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.1186/s13321-025-00979-5",
+          "article-title": "An interpretable deep geometric learning model to predict the effects of mutations on protein–protein interactions using large-scale protein language model",
+          "volume": "17",
+          "year": "2025",
+          "journal-title": "Journal of Cheminformatics"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jin, R. ; Ye, Q. ; Wang, J. ; Cao, Z. ; Jiang, D. ; Wang, T. ; Kang, Y. ; Xu, W. ; Hsieh, C.-Y. ; Hou, T ., AttABseq: an attention-based deep learning prediction method for antigen-antibody binding affinity changes based on protein sequences. Briefings in Bioinformatics 2024, 25.",
+          "DOI": "10.1093/bib/bbae304"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Xia, Y. ; Wang, Z. ; Huang, F. ; Xiong, Z. ; Wang, Y. ; Qiu, M. ; Zhang, W ., DeepInterAware: Deep Interaction Interface-Aware Network for Improving Antigen-Antibody Interaction Prediction from Sequence Data. Advanced Science 2025, 12.",
+          "DOI": "10.1002/advs.202412533"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2852-1"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sulea, T. ; Baardsnes, J. ; Stuible, M. ; Rohani, N. ; Tran, A. ; Parat, M. ; Donates, Y. C. ; Duchesne, M. ; Plante, P. ; Kour, G. ; Durocher, Y ., Structure-based dual affinity optimization of a SARS-CoV-1/2 cross-reactive single-domain antibody. Plos One 2022, 17.",
+          "DOI": "10.1371/journal.pone.0266250"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "360",
+          "DOI": "10.1007/s008940100038",
+          "article-title": "Generation and evaluation of dimension-reduced amino acid parameter representations by artificial neural networks",
+          "volume": "7",
+          "year": "2001",
+          "journal-title": "Journal of Molecular Modeling"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac439"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.89.22.10915"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "426",
+          "DOI": "10.1016/j.jmb.2016.11.022",
+          "article-title": "BindProfX: Assessing Mutation-Induced Binding Affinity Change by Protein Interface Profiles with Pseudo-Counts",
+          "volume": "429",
+          "year": "2017",
+          "journal-title": "Journal of Molecular Biology"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz383"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2829"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty635"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1233338"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kortemme, T. ; Kim, D. E. ; Baker, D ., Computational alanine scanning of protein-protein interfaces. Science’s STKE : signal transduction knowledge environment 2004, 2004, pl2.",
+          "DOI": "10.1126/stke.2192004pl2"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Abramson, J. ; Adler, J. ; Dunger, J. ; Evans, R. ; Green, T. ; Pritzel, A. ; Ronneberger, O. ; Willmore, L. ; Ballard, A. J. ; Bambrick, J. ; Bodenstein, S. W. ; Evans, D. A. ; Hung, C.-C. ; O’Neill, M. ; Reiman, D. ; Tunyasuvunakool, K. ; Wu, Z. ; Zemgulyte, A. ; Arvaniti, E. ; Beattie, C. ; Bertolli, O. ; Bridgland, A. ; Cherepanov, A. ; Congreve, M. ; Cowen-Rivers, A. I. ; Cowie, A. ; Figurnov, M. ; Fuchs, F. B. ; Gladman, H. ; Jain, R. ; Khan, Y. A. ; Low, C. M. R. ; Perlin, K. ; Potapenko, A. ; Savy, P. ; Singh, S. ; Stecula, A. ; Thillaisundaram, A. ; Tong, C. ; Yakneen, S. ; Zhong, E. D. ; Zielinski, M. ; Zidek, A. ; Bapst, V. ; Kohli, P. ; Jaderberg, M. ; Hassabis, D. ; Jumper, J. M ., Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 2024, 630.",
+          "DOI": "10.1038/s41586-024-07487-w"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad472"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yue, Y. ; Li, S. ; Wang, L. ; Liu, H. ; Tong, H. H. Y. ; He, S ., MpbPPI: a multi-task pre-training-based equivariant approach for the prediction of the effect of amino acid mutations on protein-protein interactions. Briefings in Bioinformatics 2023, 24.",
+          "DOI": "10.1093/bib/bbad310"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "360",
+          "DOI": "10.1007/s008940100038",
+          "article-title": "Generation and evaluation of dimension-reduced amino acid parameter representations by artificial neural networks",
+          "volume": "7",
+          "year": "2001",
+          "journal-title": "Journal of Molecular Modeling"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2852-1"
+        },
+        {
+          "key": "2025111816201160000_2025.11.15.688659v1.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sulea, T. ; Baardsnes, J. ; Stuible, M. ; Rohani, N. ; Tran, A. ; Parat, M. ; Donates, Y. C. ; Duchesne, M. ; Plante, P. ; Kour, G. ; Durocher, Y ., Structure-based dual affinity optimization of a SARS-CoV-1/2 cross-reactive single-domain antibody. Plos One 2022, 17.",
+          "DOI": "10.1371/journal.pone.0266250"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.11.15.688659",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T10:02:09Z",
+        "timestamp": 1768471329000
+      },
+      "score": 69.86491,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.11.15.688659"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            16
+          ]
+        ]
+      },
+      "references-count": 50,
+      "URL": "https://doi.org/10.1101/2025.11.15.688659",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

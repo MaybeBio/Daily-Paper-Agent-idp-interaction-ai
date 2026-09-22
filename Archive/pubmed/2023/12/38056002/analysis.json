@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38056002",
+  "title": "Liquid-Liquid Phase Separation of the Intrinsically Disordered Domain of the Fused in Sarcoma Protein Results in Substantial Slowing of Hydration Dynamics.",
+  "authors": "Krevert, Carola S; Chavez, Daniel; Chatterjee, Sayantan; Stelzl, Lukas S; Putz, Sabine; Roeters, Steven J; Rudzinski, Joseph F; Fawzi, Nicolas L; Girard, Martin; Parekh, Sapun H; Hunger, Johannes",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2023-12-06",
+  "window": {
+    "start": "2023-12-04",
+    "end": "2023-12-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合二维红外光谱与全原子分子动力学模拟，研究FUS蛋白无序低复杂度结构域形成的液-液相分离凝聚体中水-蛋白氢键动力学的显著减慢，直接聚焦IDR凝聚体中的分子机制，虽未直接涉及PPI，但为相分离凝聚体内部环境建模提供了可迁移的物理模拟思路。",
+  "abstract": "Formation of liquid condensates plays a critical role in biology via localization of different components or via altered hydrodynamic transport, yet the hydrogen-bonding environment within condensates, pivotal for solvation, has remained elusive. We explore the hydrogen-bond dynamics within condensates formed by the low-complexity domain of the fused in sarcoma protein. Probing the hydrogen-bond dynamics sensed by condensate proteins using two-dimensional infrared spectroscopy of the protein amide I vibrations, we find that frequency-frequency correlations of the amide I vibration decay on a picosecond time scale. Interestingly, these dynamics are markedly slower for proteins in the condensate than in a homogeneous protein solution, indicative of different hydration dynamics. All-atom molecular dynamics simulations confirm that lifetimes of hydrogen-bonds between water and the protein are longer in the condensates than in the protein in solution. Altered hydrogen-bonding dynamics may contribute to unique solvation and reaction dynamics in such condensates.",
+  "abstract_zh": "液体凝聚体的形成通过不同组分的定位或改变流体动力学输运在生物学中发挥关键作用，然而凝聚体内对溶剂化至关重要的氢键环境一直难以捉摸。我们探索了由融合肉瘤蛋白的低复杂性结构域形成的凝聚体中的氢键动力学。利用蛋白质酰胺I振动的二维红外光谱探测凝聚体蛋白质所感知的氢键动力学，我们发现酰胺I振动的频率-频率相关性在皮秒时间尺度上衰减。有趣的是，凝聚体中蛋白质的这些动力学明显慢于均匀蛋白质溶液中的情况，表明水合动力学存在差异。全原子分子动力学模拟证实，在凝聚体中，水与蛋白质之间的氢键寿命比溶液中的蛋白质更长。改变的氢键动力学可能有助于此类凝聚体中独特的溶剂化和反应动力学。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38056002/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38056002/",
+  "paper_page_path": "papers/pubmed/38056002/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38512658",
+  "title": "Characterization of Posttranslationally Modified PHF-1 Tau Peptides Using Gaussian Accelerated Molecular Dynamics Simulation.",
+  "authors": "Barbhuiya, Tabassum Khair; Jayarathna, Dulari K; Gilmour, Raechelle; Smet-Nocca, Caroline; Gandhi, Neha S",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2024-03-21",
+  "window": {
+    "start": "2024-03-18",
+    "end": "2024-03-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用GaMD增强采样模拟表征PHF-1 Tau无序肽段上磷酸化与O-GlcNAc修饰的构象变化，聚焦IDP构象机制，虽未直接研究PPI，但方法（无序蛋白模拟、力场与增强采样）对本课题的IDR互作机制建模有直接可迁移价值。",
+  "abstract": "The microtubule-associated protein, Tau, is an intrinsically disordered protein that plays a crucial role in neurodegenerative diseases like Alzheimer's disease. The posttranslational modifications across the Tau protein domains are involved in regulating Tau protein's function and disease onset. Of the various posttranslational modifications at Ser, Thr, and Tyr sites, O-GlcNAcylation and phosphorylation are the most critical ones, playing a vital role in Tau aggregation and tauopathies. To understand the function, it is essential to characterize the structural changes associated with Tau modification. Previous experimental studies have focused on high-resolution nuclear magnetic resonance techniques to structurally characterize the effect of phosphorylation, O-GlcNAcylation, and combination of both PTMs on Tau conformation in small peptides centered on the PHF-1 epitope from amino acid 392 to 411. The structural characterization using atomistic molecular dynamics simulation of such disordered peptides requires long simulation time, proper sampling method, and utilization of appropriate force fields for accurate determination of conformational ensembles, resembling the experimental data. This chapter details the protocol for the structural characterization of modified Tau peptides using the CHARMM36m force field and enhanced sampling methods like Gaussian accelerated molecular dynamics (GaMD) simulation. We have focused on a detailed explanation of the GaMD method and analyses of molecular dynamics trajectories to explain the relationship between two modifications, phospho- and glyco-, at C-terminus of Tau protein and its stable conformation over the longer simulation timeframes. The analyses involve energetics reweighting, clustering of simulation trajectories, and characterization of secondary structure using circular dichroism data from the simulation. The reader can utilize this protocol to investigate the structures of complex proteins, especially the disordered ones.",
+  "abstract_zh": "微管相关蛋白Tau是一种 intrinsically disordered protein（内在无序蛋白），在阿尔茨海默病等神经退行性疾病中发挥关键作用。Tau蛋白结构域上的翻译后修饰参与调控Tau蛋白的功能和疾病发生。在Ser、Thr和Tyr位点的各种翻译后修饰中，O-GlcNAcylation（O-连接N-乙酰葡糖胺修饰）和phosphorylation（磷酸化）是最关键的，在Tau聚集和tauopathies（tau蛋白病）中起重要作用。为理解其功能，表征与Tau修饰相关的结构变化至关重要。以往实验研究聚焦于高分辨率核磁共振技术，以结构表征磷酸化、O-GlcNAcylation及两者组合修饰对Tau构象的影响，研究对象为以PHF-1表位为中心、涵盖氨基酸392至411的小肽段。使用原子级分子动力学模拟对这类无序肽段进行结构表征，需要较长的模拟时间、适当的采样方法，以及利用合适的力场来准确确定构象系综，以与实验数据相符。本章详述了使用CHARMM36m力场和增强采样方法（如Gaussian accelerated molecular dynamics (GaMD)模拟）对修饰Tau肽段进行结构表征的协议。我们重点详细解释了GaMD方法及分子动力学轨迹分析，以阐明Tau蛋白C末端磷酸化和糖基化两种修饰之间的关系及其在较长模拟时间尺度上的稳定构象。分析涉及能量重加权、模拟轨迹聚类，以及利用模拟中的圆二色数据表征二级结构。读者可利用此协议研究复杂蛋白的结构，尤其是无序蛋白。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38512658/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38512658/",
+  "paper_page_path": "papers/pubmed/38512658/index.html"
+}

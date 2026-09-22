@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36542916",
+  "title": "Understanding the screening effect of aqueous DES on the IDPs: A molecular dynamics simulation study using amyloid beta(42) monomer.",
+  "authors": "Chowdhury, Unmesh D; Malayil, Insha; Bhargava, B L",
+  "journal": "Journal of molecular graphics & modelling",
+  "published_date": "2022-12-22",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究用全原子分子动力学模拟探究水合DES对Aβ(42)单体构象的稳定作用，对象为IDP且涉及分子机制，但未聚焦蛋白-蛋白互作，方法为物理模拟，整体相关但缺互作维度。",
+  "abstract": "Deep eutectic solvents (DESs) have emerged as the promising replacement to the ionic liquids in solvent engineering for bio-compatibility. We aim to understand the effect of aqueous deep eutectic solvents on the conformation of intrinsically disordered proteins (IDPs). In this context, we have studied the effect on amyloid beta (Abeta(42)) monomer in the hydrated DES composed of tetrabutylammonium chloride and ethylene glycol in a 3:1 ratio using all-atom molecular dynamics simulations. DES is found to effectively screen the interaction of four zones of the amyloid beta monomer with water. Water molecules and the DES constituents modulate the local protein-solvent interactions, in the solvation shell of the protein. In addition, the aqueous DES medium conserves the secondary structure of the Abeta(42) monomer by increasing the intramolecular hydrogen bonding and D23-K28 salt-bridge interactions when compared to the pure water medium. The current study provides insights into the impact of DES in stabilizing an IDP, at molecular level. We envisage the hindered aggregation of the amyloid beta structures in DES medium over the pure water medium due to the screening of hydrophobic intramolecular interactions.",
+  "abstract_zh": "低共熔溶剂（DESs）已成为溶剂工程中离子液体的有前景替代品，因其具有生物相容性。我们旨在理解含水低共熔溶剂对 intrinsically disordered proteins (IDPs) 构象的影响。在此背景下，我们使用全原子分子动力学模拟，研究了由四丁基氯化铵和乙二醇以3:1比例组成的水合DES对淀粉样β（Abeta(42)）单体的影响。发现DES能有效屏蔽淀粉样β单体四个区域与水的相互作用。水分子和DES组分调节蛋白质溶剂化壳层中的局部蛋白质-溶剂相互作用。此外，与纯水介质相比，含水DES介质通过增加分子内氢键和D23-K28盐桥相互作用，保持了Abeta(42)单体的二级结构。本研究在分子水平上提供了DES稳定IDP影响的见解。我们设想，在DES介质中，由于疏水性分子内相互作用的屏蔽，淀粉样β结构的聚集相较于纯水介质受到阻碍。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36542916/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36542916/",
+  "paper_page_path": "papers/pubmed/36542916/index.html"
+}

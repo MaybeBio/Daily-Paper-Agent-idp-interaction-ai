@@ -1,0 +1,200 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.09.561521",
+  "title": "Bsp1, a fungal CPI motif protein, regulates actin filament capping in endocytosis and cytokinesis",
+  "doi": "10.1101/2023.10.09.561521",
+  "abstract": "The capping of barbed filament ends is a fundamental mechanism for actin regulation. Capping protein controls filament growth and actin turnover in cells by binding to the barbed ends of the filaments with high affinity and slow off-rate. The interaction between Capping protein and actin is regulated by capping protein interaction (CPI) motif proteins. We identified a novel CPI motif protein, Bsp1, which is involved in cytokinesis and endocytosis in budding yeast. We demonstrate that Bsp1 is an actin binding protein with a high affinity for capping protein via its CPI motif. In cells, Bsp1 regulates capping protein at endocytic sites and is a major recruiter of capping protein to the cytokinetic actin ring. Lastly, we define Bsp1-related proteins as a distinct fungi-specific CPI protein group. Our results suggest that Bsp1 promotes actin filament capping by the capping protein. This study establishes Bsp1 as a new capping protein regulator and promising candidate to regulate actin networks in fungi.",
+  "authors": [
+    "Hummel DR",
+    "Hakala M",
+    "Toret CP",
+    "Kaksonen M"
+  ],
+  "published_date": "2023-10-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.09.561521",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.09.561521.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR738964",
+    "raw_record": {
+      "id": "PPR738964",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR738964"
+        ]
+      },
+      "doi": "10.1101/2023.10.09.561521",
+      "title": "Bsp1, a fungal CPI motif protein, regulates actin filament capping in endocytosis and cytokinesis",
+      "authorString": "Hummel DR, Hakala M, Toret CP, Kaksonen M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hummel DR",
+            "lastName": "Hummel",
+            "firstName": "Daniel",
+            "initials": "DR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8649-4907"
+            }
+          },
+          {
+            "fullName": "Hakala M",
+            "lastName": "Hakala",
+            "firstName": "Markku",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3485-6080"
+            }
+          },
+          {
+            "fullName": "Toret CP",
+            "lastName": "Toret",
+            "firstName": "Christopher",
+            "initials": "CP"
+          },
+          {
+            "fullName": "Kaksonen M",
+            "lastName": "Kaksonen",
+            "firstName": "Marko",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3645-7689"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3485-6080"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8649-4907"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3645-7689"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The capping of barbed filament ends is a fundamental mechanism for actin regulation. Capping protein controls filament growth and actin turnover in cells by binding to the barbed ends of the filaments with high affinity and slow off-rate. The interaction between Capping protein and actin is regulated by capping protein interaction (CPI) motif proteins. We identified a novel CPI motif protein, Bsp1, which is involved in cytokinesis and endocytosis in budding yeast. We demonstrate that Bsp1 is an actin binding protein with a high affinity for capping protein via its CPI motif. In cells, Bsp1 regulates capping protein at endocytic sites and is a major recruiter of capping protein to the cytokinetic actin ring. Lastly, we define Bsp1-related proteins as a distinct fungi-specific CPI protein group. Our results suggest that Bsp1 promotes actin filament capping by the capping protein. This study establishes Bsp1 as a new capping protein regulator and promising candidate to regulate actin networks in fungi.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "212288",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/10/2023.10.09.561521.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.10.09.561521"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR738964"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR738964&type=FILE&fileName=EMS189457-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38088874",
+            "reference": "Molecular biology of the cell. 2024 Feb;35(2):br6",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS189457",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-10-12",
+      "firstPublicationDate": "2023-10-10",
+      "firstIndexDate": "2023-10-12",
+      "fullTextReceivedDate": "2023-11-30",
+      "hasEvaluations": "Y"
+    }
+  }
+}

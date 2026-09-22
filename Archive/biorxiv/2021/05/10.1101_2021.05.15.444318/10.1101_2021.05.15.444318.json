@@ -1,0 +1,244 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.05.15.444318",
+  "title": "The Unconventional Self-Cleavage of Selenoprotein K",
+  "doi": "10.1101/2021.05.15.444318",
+  "abstract": "Through known association with other proteins, human selenoprotein K (selenok) is currently implicated in the palmitoylation of proteins, degradation of misfolded proteins, innate immune response, and the life cycle of SARS-CoV-2 virus. However, neither the catalytic function of selenok’s selenocysteine (Sec), which, curiously, resides in an intrinsically disordered protein segment nor selenok’s specific role in these pathways are known to date. This report casts these questions in a new light as it describes that selenok is able -both in vitro and in vivo- to cleave some of its own peptide bonds. The cleavages not only release selenok segments that contain its reactive Sec, but as the specific cleavage sites were identified, they proved to cluster tightly near sites through which selenok interacts with protein partners. Furthermore, it is shown that selenok’s cleavage activity is neither restricted to itself nor promiscuous but selectively extends to at least one of its protein partners. Together, selenok’s cleavage ability and its features have all hallmarks of a regulatory mechanism that could play a central role in selenok’s associations with other proteins and its cellular functions overall.",
+  "authors": [
+    "Cheng R",
+    "Liu J",
+    "Forstner MB",
+    "Woodward G",
+    "Heppard E",
+    "Hoffmann PR",
+    "Rozovsky S"
+  ],
+  "published_date": "2021-05-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.05.15.444318",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.05.15.444318.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR340590",
+    "raw_record": {
+      "id": "PPR340590",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR340590"
+        ]
+      },
+      "doi": "10.1101/2021.05.15.444318",
+      "title": "The Unconventional Self-Cleavage of Selenoprotein K",
+      "authorString": "Cheng R, Liu J, Forstner MB, Woodward G, Heppard E, Hoffmann PR, Rozovsky S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Cheng R",
+            "lastName": "Cheng",
+            "firstName": "Rujin",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7542-923X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, University of Delaware, Newark, DE 19716"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu J",
+            "lastName": "Liu",
+            "firstName": "Jun",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, University of Delaware, Newark, DE 19716"
+                },
+                {
+                  "affiliation": "Department of Pharmaceutical Chemistry, University of California, San Francisco, San Francisco, CA 94158"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Forstner MB",
+            "lastName": "Forstner",
+            "firstName": "Martin",
+            "initials": "MB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, University of Delaware, Newark, DE 19716"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Woodward G",
+            "lastName": "Woodward",
+            "firstName": "George",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, University of Delaware, Newark, DE 19716"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heppard E",
+            "lastName": "Heppard",
+            "firstName": "Elmer",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, University of Delaware, Newark, DE 19716"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoffmann PR",
+            "lastName": "Hoffmann",
+            "firstName": "Peter",
+            "initials": "PR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2417-7305"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell and Molecular Biology, University of Hawaii, Honolulu, HI 96813"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rozovsky S",
+            "lastName": "Rozovsky",
+            "firstName": "Sharon",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4902-0777"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, University of Delaware, Newark, DE 19716"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7542-923X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2417-7305"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4902-0777"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Through known association with other proteins, human selenoprotein K (selenok) is currently implicated in the palmitoylation of proteins, degradation of misfolded proteins, innate immune response, and the life cycle of SARS-CoV-2 virus. However, neither the catalytic function of selenok’s selenocysteine (Sec), which, curiously, resides in an intrinsically disordered protein segment nor selenok’s specific role in these pathways are known to date. This report casts these questions in a new light as it describes that selenok is able -both  in vitro and  in vivo- to cleave some of its own peptide bonds. The cleavages not only release selenok segments that contain its reactive Sec, but as the specific cleavage sites were identified, they proved to cluster tightly near sites through which selenok interacts with protein partners. Furthermore, it is shown that selenok’s cleavage activity is neither restricted to itself nor promiscuous but selectively extends to at least one of its protein partners. Together, selenok’s cleavage ability and its features have all hallmarks of a regulatory mechanism that could play a central role in selenok’s associations with other proteins and its cellular functions overall.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/05/16/2021.05.15.444318.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.05.15.444318"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR340590"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.05.15.444318"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS124672",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot"
+        ]
+      },
+      "dateOfCreation": "2021-05-18",
+      "firstPublicationDate": "2021-05-16",
+      "firstIndexDate": "2021-05-18",
+      "fullTextReceivedDate": "2021-05-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

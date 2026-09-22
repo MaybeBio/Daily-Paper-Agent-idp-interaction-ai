@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that C16orf87, renamed MHAP1, forms a stable complex with HDAC2 and MIER1, and that an integrative approach combining experimental crosslinking with computational modeling (I-TASSER, HADDOCK, AlphaFold) yields a structural model of the HDAC1:MIER2:MHAP1 complex, with the HDAC2 C-terminal IDR promoting interactions with the MIER1 ELM2 domain and MHAP1 termini, contrasting with AlphaFold-only predictions.
+- **Visible evidence base** Abstract text only; no experimental data, model coordinates, validation metrics, or methodological details are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, crosslinking data, model validation statistics, experimental protocols, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of integrative structural biology to a challenging IDR-containing complex, and the proposed generalizable workflow could be of value to the community. However, the abstract contains several internal inconsistencies and unsupported claims that prevent a reliable assessment of the work. The most serious issue is the apparent mismatch between the title and abstract, which refer to HDAC2, MIER1, and MHAP1, while the abstract text explicitly names the complex as HDAC1:MIER2:MHAP1. This discrepancy undermines confidence in the accuracy of the reported results. Additionally, the abstract claims a "stable complex" and specific interaction interfaces without providing any quantitative evidence, and the stated contrast with AlphaFold-only results is not substantiated by any comparative data. The work may have merit, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Structural biologists studying intrinsically disordered proteins and complexes, computational biologists developing integrative modeling pipelines, and researchers in chromatin biology and epigenetic regulation would find the proposed approach and the specific HDAC2 complex of interest. The generalizable workflow for combining crosslinking with multiple modeling tools could appeal to a broader audience seeking to overcome AlphaFold limitations for IDR-containing assemblies.
+- **Major strengths** The abstract addresses a genuine and timely challenge in structural biology, namely the difficulty of modeling IDR-driven interactions. The proposed integrative strategy, combining experimental crosslinking with multiple complementary computational tools, is conceptually sound and potentially generalizable. The identification and renaming of a poorly characterized protein (C16orf87 to MHAP1) and its placement in a functional complex adds biological novelty.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The abstract states that the work probes "the IDR-driven assembly of the HDAC1:MIER2:MHAP1 complex" and builds an integrative model of this complex, while the title and all other mentions refer to HDAC2, MIER1, and MHAP1.
+  - **Evidence pointer** Abstract text, title
+  - **Concern** The abstract contains a direct contradiction between the complex named in the title and the complex named in the methods description. The title specifies HDAC2 and MIER1, but the abstract text explicitly names HDAC1 and MIER2 in the complex being modeled. This is not a minor typographical issue because the entire structural model and interaction claims depend on which proteins are actually involved.
+  - **Why it matters** If the complex is misidentified, all downstream claims about interaction interfaces, the role of the HDAC2 C-terminal domain, and the contrast with AlphaFold results are potentially invalid. Readers cannot determine which complex was actually studied, and the scientific record would be compromised if this inconsistency is not resolved.
+  - **Resolution test** The authors must clarify which complex was studied and ensure the title, abstract, and all protein names are consistent throughout. If the complex is indeed HDAC1:MIER2:MHAP1, the title must be corrected. If the complex is HDAC2:MIER1:MHAP1, the abstract text must be corrected. The final version must contain no ambiguity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that MHAP1 "forms a stable complex with HDAC2 and MIER1" and that the HDAC2 C-terminal domain "promotes interactions" with specific domains of MIER1 and MHAP1.
+  - **Evidence pointer** Abstract text; no experimental data provided
+  - **Concern** The abstract asserts a stable complex and specific interaction interfaces without presenting any quantitative data, such as binding affinities, stoichiometry, crosslinking-derived distance restraints, or validation statistics for the model. The claim that the C-terminal domain "promotes" interactions implies a functional effect that requires experimental demonstration, such as deletion or mutation studies, which are not described.
+  - **Why it matters** The central scientific contribution is the structural model and the interaction mechanism. Without visible evidence for complex stability and the specific promoting role of the HDAC2 C-terminal domain, the claims are unsupported. The abstract alone does not allow a reader to assess whether the model is reliable or whether the interaction data are robust.
+  - **Resolution test** The full manuscript must provide experimental evidence for complex formation, such as co-purification, size-exclusion chromatography, or crosslinking mass spectrometry data, and must include functional assays or comparative experiments demonstrating the promoting role of the HDAC2 C-terminal domain. The model must be accompanied by validation metrics, such as crosslink satisfaction rates or model quality scores.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative claim support
+  - **Claim pointer** The abstract states that the results "contrast with most current literature, including the results from AlphaFold alone that are missing structural information on HDAC C-domain."
+  - **Evidence pointer** Abstract text; no comparative data provided
+  - **Concern** The claim that the integrative approach outperforms AlphaFold alone is presented as a key finding, but no AlphaFold predictions, comparison metrics, or literature references are provided in the abstract. The statement that AlphaFold results are "missing structural information" is vague and not quantified. It is unclear whether the comparison is against AlphaFold predictions for the same complex, for the isolated HDAC2 C-terminal domain, or against published structures.
+  - **Why it matters** The generalizable value of the approach depends on demonstrating a clear advantage over existing methods. Without a direct, quantitative comparison, the claim of contrast with AlphaFold is not established. This weakens the broader significance of the work.
+  - **Resolution test** The full manuscript must include AlphaFold predictions for the same complex or components, a direct comparison of the models, and quantitative metrics showing where and how the integrative approach provides additional structural information. The authors should also cite and discuss the relevant literature to support the claim of contrast.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Nomenclature clarity
+  - **Affected element** Protein naming
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that C16orf87 is renamed MHAP1, but the rationale for this new name is not provided. The name "MHAP1" is not self-explanatory, and readers may not understand its derivation.
+  - **Required correction** Provide a brief explanation for the new name, such as the basis for the acronym, or state that the name is proposed based on the protein's function or complex membership.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Integrative approach description
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract lists I-TASSER, HADDOCK, and AlphaFold as the computational tools used, but does not describe how these tools were integrated or what role each played in the workflow. The term "integrative approach" is used but not defined in terms of the data flow or the weighting of experimental versus computational information.
+  - **Required correction** Briefly describe the integration strategy, such as whether crosslinking data were used as restraints in HADDOCK, how AlphaFold predictions were used as starting models, or how the outputs were combined and validated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** Generalizability claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract claims the approach "can be generalized to study other complexes," but no evidence or discussion is provided to support this generalizability. The claim is plausible but not demonstrated.
+  - **Required correction** Either temper the claim to reflect that the approach is potentially generalizable, or provide a brief statement in the abstract or manuscript about the features of the workflow that make it transferable to other IDR-containing complexes.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (internal inconsistency in complex identity), R1-M2 (lack of evidence for stable complex and interaction-promoting role), R1-M3 (unsupported comparative claim against AlphaFold)
+- **Assessment against Nature-style criteria** Originality: The application of integrative modeling to an IDR-containing chromatin remodeling complex is potentially original, but the abstract does not clearly distinguish the novelty from prior integrative modeling studies. Scientific importance: The biological system and the general challenge of IDR modeling are important, but the significance is not fully established without evidence for the functional role of the complex. Interdisciplinary readership: The work could appeal to structural biologists, computational biologists, and chromatin researchers, but the abstract is too brief to convey the interdisciplinary relevance effectively. Technical soundness: Cannot be assessed from the abstract alone; the internal inconsistency in complex naming raises concerns about rigor. Readability for nonspecialists: The abstract is generally readable but uses jargon (IDR, ELM2, I-TASSER, HADDOCK) without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract contains a critical internal inconsistency and lacks the experimental and comparative evidence needed to support the central claims. The work may be valuable, but the case is not made in the current form. A revised abstract with consistent protein naming and clear statements of evidence, along with the full manuscript, would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that MHAP1 forms a stable complex with HDAC2 and MIER1 is unsupported in the abstract, as no experimental evidence is provided.
+- The claim that the HDAC2 C-terminal domain promotes interactions with the ELM2 domain of MIER1 and the N- and C-termini of MHAP1 is unsupported, as no functional or structural data are shown.
+- The claim that the integrative approach contrasts with AlphaFold alone is unsupported, as no AlphaFold predictions or comparisons are provided.
+- The claim that the approach can be generalized to other complexes is unsupported and not demonstrated.
+- The identity of the complex (HDAC1:MIER2:MHAP1 versus HDAC2:MIER1:MHAP1) is ambiguous and cannot be resolved from the abstract.

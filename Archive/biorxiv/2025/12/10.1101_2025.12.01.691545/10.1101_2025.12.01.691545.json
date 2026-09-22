@@ -1,0 +1,119 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.12.01.691545",
+  "title": "Molecular insights into the dual activation of PomZ, a ParA/MinD P-loop ATPase, by the two ATPase activating proteins PomX and PomY",
+  "doi": "10.1101/2025.12.01.691545",
+  "abstract": "Positioning of the division site is precisely regulated. In Myxococcus xanthus , the PomX/Y/Z assembly associates with and translocates across the nucleoid in a PomZ ATPase-dependent manner to position the cytokinetic FtsZ-ring at midcell. Unlike other systems incorporating a ParA/MinD ATPase, the PomX/Y/Z system incorporates two ATPase Activating Proteins (AAPs), PomX and PomY, that stimulate PomZ activity. While PomX AAP activity, similarly to other characterized AAPs of ParA/MinD ATPases, resides in a short positively charged N-terminal peptide (PomX NPEP ), the mechanism of PomY-mediated activation of PomZ remained unknown. We map PomY AAP activity to its C-terminal residues 496-682 (PomY 496-682 ) and show that this activity is important for division site positioning and the initiation of cell division. Structural modeling suggests a bipartite PomY 496-682 architecture, comprising a globular domain and an intrinsically disordered region containing the short α5 helix. However, modeling supported an interaction only between α5 and the PomZ dimer. The α5 binding site partially overlaps with that of the prototype AAP ParB on the ParA dimer but α5 lacks a positively charged residue critical for ParB AAP activity. Modeling supported that PomX NPEP binds the PomZ dimer at a site distinct from that of α5 and which overlaps with that of the prototype AAP MinE on the MinD dimer. These findings reveal a non-canonical AAP mechanism of PomY, while PomX NPEP likely functions analogously to MinE, indicating that PomX and PomY act in concert through distinct but complementary mechanisms to stimulate PomZ ATPase activity, thereby efficiently driving the positioning of the cytokinetic FtsZ-ring. <h4>Importance</h4> In bacteria, the regulatory systems that position the division site often incorporate a ParA/MinD ATPase. These ATPases also function in the positioning of numerous other macromolecular complexes in bacteria. Characteristically, these ATPases depend on stimulation of their ATPase activity by a single cognate ATPase activating protein (AAP). However, the Myxococcus xanthus cell division regulatory system PomX/Y/Z system stands out by incorporating two AAPs, PomX and PomY, that activate the PomZ ATPase. Similar to other AAPs, PomX uses a short, positively charged N-terminal peptide (PomX NPEP ) to stimulate PomZ activity. We map PomY AAP activity to a C-terminal region spanning residues 496-682 (PomY 496-682 ). Structural modeling using AlphaFold 3 supports that the AAP activity of PomY 496-682 and PomX NPEP involves two distinct, non-overlapping binding sites at the dimer interface of ATP-bound PomZ. Altogether, these results provide insights into the molecular mechanism of the activation by two AAPs of a ParA/MinD ATPase.",
+  "authors": [
+    "Klos P",
+    "Harms A",
+    "Søgaard-Andersen L"
+  ],
+  "published_date": "2025-12-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.12.01.691545",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.12.01.691545.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1129082",
+    "raw_record": {
+      "id": "PPR1129082",
+      "source": "PPR",
+      "doi": "10.1101/2025.12.01.691545",
+      "title": "Molecular insights into the dual activation of PomZ, a ParA/MinD P-loop ATPase, by the two ATPase activating proteins PomX and PomY",
+      "authorString": "Klos P, Harms A, Søgaard-Andersen L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Klos P",
+            "lastName": "Klos",
+            "firstName": "Philipp",
+            "initials": "P"
+          },
+          {
+            "fullName": "Harms A",
+            "lastName": "Harms",
+            "firstName": "Andrea",
+            "initials": "A"
+          },
+          {
+            "fullName": "Søgaard-Andersen L",
+            "lastName": "Søgaard-Andersen",
+            "firstName": "Lotte",
+            "initials": "L"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0674-0013"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Positioning of the division site is precisely regulated. In  Myxococcus xanthus , the PomX/Y/Z assembly associates with and translocates across the nucleoid in a PomZ ATPase-dependent manner to position the cytokinetic FtsZ-ring at midcell. Unlike other systems incorporating a ParA/MinD ATPase, the PomX/Y/Z system incorporates two ATPase Activating Proteins (AAPs), PomX and PomY, that stimulate PomZ activity. While PomX AAP activity, similarly to other characterized AAPs of ParA/MinD ATPases, resides in a short positively charged N-terminal peptide (PomX  NPEP ), the mechanism of PomY-mediated activation of PomZ remained unknown. We map PomY AAP activity to its C-terminal residues 496-682 (PomY  496-682 ) and show that this activity is important for division site positioning and the initiation of cell division. Structural modeling suggests a bipartite PomY  496-682 architecture, comprising a globular domain and an intrinsically disordered region containing the short α5 helix. However, modeling supported an interaction only between α5 and the PomZ dimer. The α5 binding site partially overlaps with that of the prototype AAP ParB on the ParA dimer but α5 lacks a positively charged residue critical for ParB AAP activity. Modeling supported that PomX  NPEP binds the PomZ dimer at a site distinct from that of α5 and which overlaps with that of the prototype AAP MinE on the MinD dimer. These findings reveal a non-canonical AAP mechanism of PomY, while PomX  NPEP likely functions analogously to MinE, indicating that PomX and PomY act in concert through distinct but complementary mechanisms to stimulate PomZ ATPase activity, thereby efficiently driving the positioning of the cytokinetic FtsZ-ring.  <h4>Importance</h4>  In bacteria, the regulatory systems that position the division site often incorporate a ParA/MinD ATPase. These ATPases also function in the positioning of numerous other macromolecular complexes in bacteria. Characteristically, these ATPases depend on stimulation of their ATPase activity by a single cognate ATPase activating protein (AAP). However, the  Myxococcus xanthus cell division regulatory system PomX/Y/Z system stands out by incorporating two AAPs, PomX and PomY, that activate the PomZ ATPase. Similar to other AAPs, PomX uses a short, positively charged N-terminal peptide (PomX  NPEP ) to stimulate PomZ activity. We map PomY AAP activity to a C-terminal region spanning residues 496-682 (PomY  496-682 ). Structural modeling using AlphaFold 3 supports that the AAP activity of PomY  496-682 and PomX  NPEP involves two distinct, non-overlapping binding sites at the dimer interface of ATP-bound PomZ. Altogether, these results provide insights into the molecular mechanism of the activation by two AAPs of a ParA/MinD ATPase.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.12.01.691545"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41983693",
+            "reference": "mBio. 2026 May;17(5):e0042526",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-12-03",
+      "firstPublicationDate": "2025-12-01",
+      "firstIndexDate": "2025-12-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35233453",
+  "title": "Cryo-EM, Protein Engineering, and Simulation Enable the Development of Peptide Therapeutics against Acute Myeloid Leukemia.",
+  "authors": "Zhang, Kaiming; Horikoshi, Naoki; Li, Shanshan; Powers, Alexander S; Hameedi, Mikhail A; Pintilie, Grigore D; Chae, Hee-Don; Khan, Yousuf A; Suomivuori, Carl-Mikael; Dror, Ron O; Sakamoto, Kathleen M; Chiu, Wah; Wakatsuki, Soichi",
+  "journal": "ACS central science",
+  "published_date": "2022-03-03",
+  "window": {
+    "start": "2022-02-28",
+    "end": "2022-03-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合冷冻电镜、蛋白工程与分子动力学模拟，针对CBP KIX结构域与无序pKID结构域的PPI设计阻断肽并解析复合物结构，对象涉及IDR互作且方法含MD模拟，但核心对象KIX为折叠域，机制建模深度有限。",
+  "abstract": "Cryogenic electron microscopy (cryo-EM) has emerged as a viable structural tool for molecular therapeutics development against human diseases. However, it remains a challenge to determine structures of proteins that are flexible and smaller than 30 kDa. The 11 kDa KIX domain of CREB-binding protein (CBP), a potential therapeutic target for acute myeloid leukemia and other cancers, is a protein which has defied structure-based inhibitor design. Here, we develop an experimental approach to overcome the size limitation by engineering a protein double-shell to sandwich the KIX domain between apoferritin as the inner shell and maltose-binding protein as the outer shell. To assist homogeneous orientations of the target, disulfide bonds are introduced at the target-apoferritin interface, resulting in a cryo-EM structure at 2.6 A resolution. We used molecular dynamics simulations to design peptides that block the interaction of the KIX domain of CBP with the intrinsically disordered pKID domain of CREB. The double-shell design allows for fluorescence polarization assays confirming the binding between the KIX domain in the double-shell and these interacting peptides. Further cryo-EM analysis reveals a helix-helix interaction between a single KIX helix and the best peptide, providing a possible strategy for developments of next-generation inhibitors.",
+  "abstract_zh": "冷冻电子显微镜（cryo-EM）已成为针对人类疾病开发分子治疗药物的可行结构工具。然而，确定灵活且小于30 kDa的蛋白质结构仍然是一个挑战。CREB结合蛋白（CBP）的11 kDa KIX结构域，作为急性髓系白血病及其他癌症的潜在治疗靶点，是一种阻碍了基于结构的抑制剂设计的蛋白质。在此，我们开发了一种实验方法，通过工程化蛋白质双壳层，将KIX结构域夹在作为内壳的脱铁铁蛋白和作为外壳的麦芽糖结合蛋白之间，以克服尺寸限制。为了辅助靶标的均匀取向，在靶标-脱铁铁蛋白界面引入了二硫键，从而获得了2.6 Å分辨率的cryo-EM结构。我们利用分子动力学模拟设计肽段，以阻断CBP的KIX结构域与CREB的内在无序pKID结构域之间的相互作用。双壳层设计允许通过荧光偏振分析确认双壳层中的KIX结构域与这些相互作用肽段之间的结合。进一步的cryo-EM分析揭示了单个KIX螺旋与最佳肽段之间的螺旋-螺旋相互作用，为开发下一代抑制剂提供了可能的策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35233453/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35233453/",
+  "paper_page_path": "papers/pubmed/35233453/index.html"
+}

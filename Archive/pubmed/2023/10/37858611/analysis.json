@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37858611",
+  "title": "MATT-DDI: Predicting multi-type drug-drug interactions via heterogeneous attention mechanisms.",
+  "authors": "Lin, Shenggeng; Mao, Xueying; Hong, Liang; Lin, Shuangjun; Wei, Dong-Qing; Xiong, Yi",
+  "journal": "Methods (San Diego, Calif.)",
+  "published_date": "2023-10-20",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用异构注意力机制预测药物-药物相互作用类型，对象为小分子药物而非无序蛋白/IDR，且不涉及PPI机制建模或相分离，与本课题无关。",
+  "abstract": "The joint use of multiple drugs can result in adverse drug-drug interactions (DDIs) and side effects that harm the body. Accurate identification of DDIs is crucial for avoiding accidental drug side effects and understanding potential mechanisms underlying DDIs. Several computational methods have been proposed for multi-type DDI prediction, but most rely on the similarity profiles of drugs as the drug feature vectors, which may result in information leakage and overoptimistic performance when predicting interactions between new drugs. To address this issue, we propose a novel method, MATT-DDI, for predicting multi-type DDIs based on the original feature vectors of drugs and multiple attention mechanisms. MATT-DDI consists of three main modules: the top k most similar drug pair selection module, heterogeneous attention mechanism module and multi‑type DDI prediction module. Firstly, based on the feature vector of the input drug pair (IDP), k drug pairs that are most similar to the input drug pair from the training dataset are selected according to cosine similarity between drug pairs. Then, the vectors of k selected drug pairs are averaged to obtain a new drug pair (NDP). Next, IDP and NDP are fed into heterogeneous attention modules, including scaled dot product attention and bilinear attention, to extract latent feature vectors. Finally, these latent feature vectors are taken as input of the classification module to predict DDI types. We evaluated MATT-DDI on three different tasks. The experimental results show that MATT-DDI provides better or comparable performance compared to several state-of-the-art methods, and its feasibility is supported by case studies. MATT-DDI is a robust model for predicting multi-type DDIs with excellent performance and no information leakage.",
+  "abstract_zh": "多种药物联合使用可能导致不良的药物-药物相互作用（DDIs）及副作用，从而损害身体。准确识别DDIs对于避免意外药物副作用和理解DDIs潜在机制至关重要。已有多种计算方法被提出用于多类型DDI预测，但大多数方法依赖药物的相似性特征作为药物特征向量，这可能导致信息泄露，并在预测新药间相互作用时产生过于乐观的性能。为解决此问题，我们提出了一种新方法MATT-DDI，基于药物的原始特征向量和多种注意力机制来预测多类型DDIs。MATT-DDI包含三个主要模块：前k个最相似药物对选择模块、异质注意力机制模块和多类型DDI预测模块。首先，根据输入药物对（IDP）的特征向量，通过药物对间的余弦相似度，从训练数据集中选择与输入药物对最相似的k个药物对。然后，将这k个选定药物对的向量平均化，得到一个新的药物对（NDP）。接下来，将IDP和NDP输入到异质注意力模块中，包括缩放点积注意力和双线性注意力，以提取潜在特征向量。最后，将这些潜在特征向量作为分类模块的输入，以预测DDI类型。我们在三个不同任务上评估了MATT-DDI。实验结果表明，与几种最先进的方法相比，MATT-DDI提供了更好或相当的性能，并通过案例研究证实了其可行性。MATT-DDI是一个稳健的模型，用于预测多类型DDIs，具有优异性能且无信息泄露。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37858611/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37858611/",
+  "paper_page_path": "papers/pubmed/37858611/index.html"
+}

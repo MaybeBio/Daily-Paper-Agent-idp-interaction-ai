@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33577583",
+  "title": "The intrinsically disordered N-terminus of the voltage-dependent anion channel.",
+  "authors": "Preto, Jordane; Krimm, Isabelle",
+  "journal": "PLoS computational biology",
+  "published_date": "2021-02-13",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用IDR专用力场和加速动力学模拟研究VDAC无序N端在通道门控中的构象重排与孔道堵塞机制，虽非典型PPI但聚焦IDR介导的蛋白构象互作机制，方法可迁移。",
+  "abstract": "The voltage-dependent anion channel (VDAC) is a critical beta-barrel membrane protein of the mitochondrial outer membrane, which regulates the transport of ions and ATP between mitochondria and the cytoplasm. In addition, VDAC plays a central role in the control of apoptosis and is therefore of great interest in both cancer and neurodegenerative diseases. Although not fully understood, it is presumed that the gating mechanism of VDAC is governed by its N-terminal region which, in the open state of the channel, exhibits an alpha-helical structure positioned midway inside the pore and strongly interacting with the beta-barrel wall. In the present work, we performed molecular simulations with a recently developed force field for disordered systems to shed new light on known experimental results, showing that the N-terminus of VDAC is an intrinsically disordered region (IDR). First, simulation of the N-terminal segment as a free peptide highlighted its disordered nature and the importance of using an IDR-specific force field to properly sample its conformational landscape. Secondly, accelerated dynamics simulation of a double cysteine VDAC mutant under applied voltage revealed metastable low conducting states of the channel representative of closed states observed experimentally. Related structures were characterized by partial unfolding and rearrangement of the N-terminal tail, that led to steric hindrance of the pore. Our results indicate that the disordered properties of the N-terminus are crucial to properly account for the gating mechanism of VDAC.",
+  "abstract_zh": "电压依赖性阴离子通道（VDAC）是线粒体外膜上一种关键的β-桶状膜蛋白，调控线粒体与细胞质之间离子和ATP的转运。此外，VDAC在细胞凋亡调控中发挥核心作用，因此在癌症和神经退行性疾病研究中备受关注。尽管尚未完全阐明，但推测VDAC的门控机制由其N端区域主导，在通道开放状态下，该区域呈现α-螺旋结构，定位于孔道内部中间位置，并与β-桶壁强烈相互作用。在本研究中，我们采用近期开发的适用于无序系统的力场进行分子模拟，以揭示已知实验结果的新见解，表明VDAC的N端是一个内在无序区域（IDR）。首先，对N端片段作为游离肽的模拟突出了其无序特性，并强调了使用IDR特异性力场以正确采样其构象景观的重要性。其次，在施加电压条件下对双半胱氨酸VDAC突变体的加速动力学模拟揭示了通道的亚稳态低电导状态，这些状态代表了实验中观察到的闭合状态。相关结构特征表现为N端尾部的部分解折叠和重排，导致孔道的空间位阻。我们的结果表明，N端的无序特性对于正确解释VDAC的门控机制至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33577583/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33577583/",
+  "paper_page_path": "papers/pubmed/33577583/index.html"
+}

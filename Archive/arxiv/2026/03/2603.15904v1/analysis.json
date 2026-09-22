@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2603.15904v1",
+  "title": "Condensate-mediated shape transformations of cellular membranes by capillary forces",
+  "authors": "Lukas Hauer; Katharina Sporbeck; Joseph F. McKenna; Dmytro Puchkov; Alexander I. May; Lorenzo Frigerio; Roland L. Knorr; Amir H. Bahrami",
+  "journal": "",
+  "published_date": "2026-03-16",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过活体成像、体外重构和弹性膜模型模拟，研究凝聚体毛细力驱动的膜形态转变（管/片/杯）及能量壁垒，虽对象为膜而非IDP-PPI，但其凝聚体界面力与形态转变的机制建模思路对IDR介导互作及相分离背景下的机制研究有可迁移启发。",
+  "abstract": "Phase-separated biomolecular condensates with liquid-like properties play a key role in the organization and compartmentalization of the intracellular environment. Condensate-mediated capillary forces acting on membranes drive physiologically important reshaping of membrane-bound organelles, such as vacuoles and autophagosomes. Here, we explore condensate-mediated membrane shape transformations. We employ {\\textit{in planta}} live-cell imaging, an \\textit{in vitro} reconstitution system with tunable interfacial tension, and computer simulations of an elastic membrane model to describe three morphologies of membrane structures localized at condensate interfaces: tubes, sheets, and cups. We find that the forces associated with high interfacial tension drive the formation of stable sheets, while tubes and cups prevail at lower interfacial tension. We calculate the free energies of each membrane shape and identify the energy barriers that govern the transitions between the shapes. With this approach, we find that shape transformations depend on the history of the interfacial membrane and exhibit a tube-to-cup hysteresis. These findings indicate that temporal control of condensate surface properties can mediate the morphogenesis of cup-like structures in cells, such as the formation of \"bulbs\" within plant vacuoles. Our results further generalize how the interplay of condensates and membranes contributes to intracellular organization.",
+  "abstract_zh": "具有液体性质的相分离生物分子凝聚体在细胞内环境的有序组织和区室化中发挥着关键作用。凝聚体介导的毛细力作用于膜上，驱动液泡和自噬体等膜结合细胞器发生生理上重要的形态重塑。在此，我们探索凝聚体介导的膜形态转变。我们采用植物体内（{\\textit{in planta}}）活细胞成像、具有可调界面张力的体外（\\textit{in vitro}）重构系统，以及弹性膜模型的计算机模拟，来描述凝聚体界面处膜结构的三种形态：管状、片状和杯状。我们发现，与高界面张力相关的力驱动稳定片状结构的形成，而管状和杯状结构在较低界面张力下占主导。我们计算了每种膜形态的自由能，并识别了控制形态间转变的能量壁垒。通过这种方法，我们发现形态转变依赖于界面膜的历史，并表现出管状到杯状的滞后现象。这些发现表明，凝聚体表面性质的时间控制可以介导细胞中杯状结构的形态发生，例如植物液泡内“球茎”的形成。我们的结果进一步推广了凝聚体与膜相互作用如何促进细胞内组织的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2603.15904v1",
+  "source_url": "https://arxiv.org/abs/2603.15904v1",
+  "paper_page_path": "papers/arxiv/2603.15904v1/index.html"
+}

@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "pmid": "36827983",
+    "doi": "10.1016/j.str.2023.01.012",
+    "title": "E6AP AZUL interaction with UBQLN1/2 in cells, condensates, and an AlphaFold-NMR integrated structure."
+  },
+  "content": {
+    "abstract": "The E3 ligase E6AP/UBE3A has a dedicated binding site in the 26S proteasome provided by the RAZUL domain of substrate receptor hRpn10/S5a/PSMD4. Guided by RAZUL sequence similarity, we test and demonstrate here that the E6AP AZUL binds transiently to the UBA of proteasomal shuttle factor UBQLN1/2. Despite a weak binding affinity, E6AP AZUL is recruited to UBQLN2 biomolecular condensates in vitro and E6AP interacts with UBQLN1/2 in cellulo. Steady-state and transfer nuclear Overhauser effect (NOE) experiments indicate direct interaction of AZUL with UBQLN1 UBA. Intermolecular contacts identified by NOE spectroscopy (NOESY) data were combined with AlphaFold2-Multimer predictions to yield an AZUL:UBA model structure. We additionally identify an oligomerization domain directly adjacent to UBQLN1/2 UBA (UBA adjacent [UBAA]) that is alpha-helical and allosterically reconfigured by AZUL binding to UBA. These data lead to a model of E6AP recruitment to UBQLN1/2 by AZUL:UBA interaction and provide fundamental information on binding requirements for interactions in condensates and cells.",
+    "keywords": [
+      "AlphaFold",
+      "E3 ligase",
+      "E6AP",
+      "UBE3A",
+      "UBQLN1/2",
+      "biomolecular condensates",
+      "proteasome"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Ubiquitin-Protein Ligases/chemistry",
+      "*Carrier Proteins/genetics/metabolism",
+      "Protein Domains",
+      "Cytoplasm/metabolism",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Buel, Gwen R",
+        "Chen, Xiang",
+        "Myint, Wazo",
+        "Kayode, Olumide",
+        "Folimonova, Varvara",
+        "Cruz, Anthony",
+        "Skorupka, Katarzyna A",
+        "Matsuo, Hiroshi",
+        "Walters, Kylie J"
+      ],
+      "short_names": [
+        "Buel GR",
+        "Chen X",
+        "Myint W",
+        "Kayode O",
+        "Folimonova V",
+        "Cruz A",
+        "Skorupka KA",
+        "Matsuo H",
+        "Walters KJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Protein Processing Section, Center for Structural Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Frederick, MD 21702, USA.",
+        "Protein Processing Section, Center for Structural Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Frederick, MD 21702, USA.",
+        "Cancer Innovation Laboratory, Frederick National Laboratory for Cancer Research, Frederick, MD 21702, USA.",
+        "Protein Processing Section, Center for Structural Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Frederick, MD 21702, USA.",
+        "Protein Processing Section, Center for Structural Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Frederick, MD 21702, USA.",
+        "Protein Processing Section, Center for Structural Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Frederick, MD 21702, USA.",
+        "Cancer Innovation Laboratory, Frederick National Laboratory for Cancer Research, Frederick, MD 21702, USA.",
+        "Cancer Innovation Laboratory, Frederick National Laboratory for Cancer Research, Frederick, MD 21702, USA.",
+        "Protein Processing Section, Center for Structural Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Frederick, MD 21702, USA. Electronic address: kylie.walters@nih.gov."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Buel, Gwen R",
+        "short_name": "Buel GR",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Processing Section, Center for Structural Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Frederick, MD 21702, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Xiang",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Processing Section, Center for Structural Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Frederick, MD 21702, USA."
+        ]
+      },
+      {
+        "full_name": "Myint, Wazo",
+        "short_name": "Myint W",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Innovation Laboratory, Frederick National Laboratory for Cancer Research, Frederick, MD 21702, USA."
+        ]
+      },
+      {
+        "full_name": "Kayode, Olumide",
+        "short_name": "Kayode O",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Processing Section, Center for Structural Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Frederick, MD 21702, USA."
+        ]
+      },
+      {
+        "full_name": "Folimonova, Varvara",
+        "short_name": "Folimonova V",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Processing Section, Center for Structural Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Frederick, MD 21702, USA."
+        ]
+      },
+      {
+        "full_name": "Cruz, Anthony",
+        "short_name": "Cruz A",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Processing Section, Center for Structural Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Frederick, MD 21702, USA."
+        ]
+      },
+      {
+        "full_name": "Skorupka, Katarzyna A",
+        "short_name": "Skorupka KA",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Innovation Laboratory, Frederick National Laboratory for Cancer Research, Frederick, MD 21702, USA."
+        ]
+      },
+      {
+        "full_name": "Matsuo, Hiroshi",
+        "short_name": "Matsuo H",
+        "identifiers": [],
+        "affiliations": [
+          "Cancer Innovation Laboratory, Frederick National Laboratory for Cancer Research, Frederick, MD 21702, USA."
+        ]
+      },
+      {
+        "full_name": "Walters, Kylie J",
+        "short_name": "Walters KJ",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Processing Section, Center for Structural Biology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Frederick, MD 21702, USA. Electronic address: kylie.walters@nih.gov."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Structure (London, England : 1993)"
+    ],
+    "journal_abbrev": [
+      "Structure"
+    ],
+    "pub_date": "2023 Apr 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/25 06:00",
+    "fetched_at": "2026-09-20 19:29:20"
+  },
+  "links": {
+    "cites": [
+      "41673446",
+      "41234208",
+      "40631187",
+      "40595513",
+      "40562354",
+      "40161686",
+      "39798888",
+      "39755440",
+      "39121161",
+      "39026758",
+      "38559018",
+      "38487241",
+      "38408252",
+      "38041404",
+      "37850517",
+      "37022617"
+    ],
+    "refs": [
+      "35891782",
+      "35817651",
+      "35762418",
+      "35362474",
+      "35046575",
+      "34981757",
+      "34848715",
+      "34376855",
+      "34293799",
+      "34265844",
+      "34216059",
+      "34035521",
+      "34029402",
+      "33625752",
+      "33431932",
+      "33211406",
+      "33202250",
+      "32881101",
+      "32157086",
+      "32071216",
+      "32025036",
+      "31739170",
+      "31235931",
+      "30664872",
+      "30442662",
+      "30257870",
+      "29976799",
+      "29526694",
+      "27641331",
+      "27396824",
+      "27345149",
+      "27114451",
+      "26455390",
+      "25505092",
+      "24811749",
+      "23283345",
+      "22911575",
+      "22743772",
+      "22645313",
+      "21947926",
+      "21125111",
+      "19548092",
+      "18497817",
+      "18241885",
+      "17934176",
+      "17323924",
+      "16787970",
+      "16645811",
+      "15615769",
+      "15571810",
+      "15282609",
+      "15263005",
+      "12972570",
+      "12565051",
+      "12408819",
+      "11988576",
+      "11827521",
+      "11805328",
+      "11805121",
+      "11584278",
+      "10983987",
+      "8988172",
+      "8988171",
+      "8520220",
+      "8393140",
+      "8380895",
+      "8221889",
+      "8069484",
+      "7470476",
+      "2077933"
+    ],
+    "similar": [
+      "36827983",
+      "32157086",
+      "37028393",
+      "30257870",
+      "28075048",
+      "39742997",
+      "37022617",
+      "31175912",
+      "21947926",
+      "38487241",
+      "32639967",
+      "24273172",
+      "34356632",
+      "39818213",
+      "38041404",
+      "31971989",
+      "32783951",
+      "30664872",
+      "34029402",
+      "30361475",
+      "18939944",
+      "28924046",
+      "39798888",
+      "23581475",
+      "32966807",
+      "23439649",
+      "18241885",
+      "32855237",
+      "9153201",
+      "23598402",
+      "10864652",
+      "22537386",
+      "17897937",
+      "17433363",
+      "37808720",
+      "26224628",
+      "35063704",
+      "39797819",
+      "31994269",
+      "34836490",
+      "33115863",
+      "25065467",
+      "17726107",
+      "12079361",
+      "22645313",
+      "37160462",
+      "30587576",
+      "25383876",
+      "16138082",
+      "12832454",
+      "12972570",
+      "11170455",
+      "29079575",
+      "38573110",
+      "17023019",
+      "15263005",
+      "39688415",
+      "18596201",
+      "29782878",
+      "26789255",
+      "21493713",
+      "15890204",
+      "23459205",
+      "39565083",
+      "14621999",
+      "26161728",
+      "22430200",
+      "18948116",
+      "31609195",
+      "29281732",
+      "15655249",
+      "32819562",
+      "17592138",
+      "26216987",
+      "28786561",
+      "31937588",
+      "38670961",
+      "29054411",
+      "20589759",
+      "17098253",
+      "25633294",
+      "27902311",
+      "22194841",
+      "28835500",
+      "30737286",
+      "37454373",
+      "34662469",
+      "38655618",
+      "39121161",
+      "26506232",
+      "35817651",
+      "9497376",
+      "29388081",
+      "10558980",
+      "12620801",
+      "35045253",
+      "16951183",
+      "20039703",
+      "19401465",
+      "14585839"
+    ],
+    "review": [
+      "36827983",
+      "35817651"
+    ],
+    "pmc": [
+      "10081965"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0969-2126(23)00033-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36827983/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36827983",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

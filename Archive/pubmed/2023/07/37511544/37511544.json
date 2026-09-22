@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "37511544",
+    "doi": "10.3390/ijms241411785",
+    "title": "A New Tool to Study the Binding Behavior of Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Understanding the binding behavior and conformational dynamics of intrinsically disordered proteins (IDPs) is crucial for unraveling their regulatory roles in biological processes. However, their lack of stable 3D structures poses challenges for analysis. To address this, we propose an algorithm that explores IDP binding behavior with protein complexes by extracting topological and geometric features from the protein surface model. Our algorithm identifies a geometrically favorable binding pose for the IDP and plans a feasible trajectory to evaluate its transition to the docking position. We focus on IDPs from Homo sapiens and Mus-musculus, investigating their interaction with the Plasmodium falciparum (PF) pathogen associated with malaria-related deaths. We compare our algorithm with HawkDock and HDOCK docking tools for quantitative (computation time) and qualitative (binding affinity) measures. Our results indicated that our method outperformed the compared methods in computation performance and binding affinity in experimental conformations.",
+    "keywords": [
+      "binding affinity",
+      "geometric features",
+      "intrinsically disordered proteins",
+      "protein-protein interaction",
+      "rigid-body docking"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Conformation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Upadhyay, Aakriti",
+        "Ekenna, Chinwe"
+      ],
+      "short_names": [
+        "Upadhyay A",
+        "Ekenna C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6490-1532"
+      ],
+      "affiliations": [
+        "Department of Computer Science, University at Albany, State University of New York, 1400 Washington Avenue, Albany, NY 12222, USA.",
+        "Department of Computer Science, University at Albany, State University of New York, 1400 Washington Avenue, Albany, NY 12222, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Upadhyay, Aakriti",
+        "short_name": "Upadhyay A",
+        "identifiers": [
+          "0000-0002-6490-1532"
+        ],
+        "affiliations": [
+          "Department of Computer Science, University at Albany, State University of New York, 1400 Washington Avenue, Albany, NY 12222, USA."
+        ]
+      },
+      {
+        "full_name": "Ekenna, Chinwe",
+        "short_name": "Ekenna C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University at Albany, State University of New York, 1400 Washington Avenue, Albany, NY 12222, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Jul 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/29 11:47",
+    "fetched_at": "2026-09-20 23:49:56"
+  },
+  "links": {
+    "cites": [
+      "40943090"
+    ],
+    "refs": [
+      "36367441",
+      "35771625",
+      "35634773",
+      "35273146",
+      "34791371",
+      "34787783",
+      "34665257",
+      "34170981",
+      "33417563",
+      "32968059",
+      "32649857",
+      "32269383",
+      "31488048",
+      "31419624",
+      "31182027",
+      "31106357",
+      "30979084",
+      "30582480",
+      "30527137",
+      "30316104",
+      "30278223",
+      "29276882",
+      "29201016",
+      "28780862",
+      "28612216",
+      "27490494",
+      "27153583",
+      "26922996",
+      "26402567",
+      "26195786",
+      "26111183",
+      "25650913",
+      "25531225",
+      "25418159",
+      "24532726",
+      "23661696",
+      "23545493",
+      "21829626",
+      "21514144",
+      "20028147",
+      "18573080",
+      "18302984",
+      "17201676",
+      "15264254",
+      "14579360",
+      "11839486",
+      "11425179",
+      "11083759",
+      "10592235",
+      "875032"
+    ],
+    "similar": [
+      "37511544",
+      "35609776",
+      "34799573",
+      "25287424",
+      "27844185",
+      "29276882",
+      "32621228",
+      "31021441",
+      "35883018",
+      "34504009",
+      "30527137",
+      "30979035",
+      "34845619",
+      "32579908",
+      "30909517",
+      "35139468",
+      "26195786",
+      "33087759",
+      "26513658",
+      "24604825",
+      "29990433",
+      "32020911",
+      "29716994",
+      "35762723",
+      "23170892",
+      "35944496",
+      "30840442",
+      "30316104",
+      "33355572",
+      "29306779",
+      "23794453",
+      "31756104",
+      "24871565",
+      "37026598",
+      "30992509",
+      "31136713",
+      "28493424",
+      "28111343",
+      "25863585",
+      "30471693",
+      "29382046",
+      "25207671",
+      "24656084",
+      "37108059",
+      "32503351",
+      "24329095",
+      "30471695",
+      "37133846",
+      "33230318",
+      "25611056",
+      "30471688",
+      "32859072",
+      "30058229",
+      "34610267",
+      "26387104",
+      "26226419",
+      "29982297",
+      "37626077",
+      "29614221",
+      "34358545",
+      "24898547",
+      "24606139",
+      "36750251",
+      "26387099",
+      "24098099",
+      "38396678",
+      "30865832",
+      "29733855",
+      "35436286",
+      "21686180",
+      "36358915",
+      "33945530",
+      "32696367",
+      "37219402",
+      "34626492",
+      "27794210",
+      "36215254",
+      "36714997",
+      "32426975",
+      "37847354",
+      "23531173",
+      "32145247",
+      "31521237",
+      "30708285",
+      "26931396",
+      "25849651",
+      "27988422",
+      "24532081",
+      "26387102",
+      "38861600",
+      "35245498",
+      "30632561",
+      "38034956",
+      "35335203"
+    ],
+    "review": [
+      "37511544",
+      "25287424",
+      "31021441",
+      "30527137",
+      "30979035",
+      "30909517",
+      "35139468",
+      "32020911",
+      "23170892",
+      "30840442",
+      "30316104",
+      "33355572",
+      "29306779",
+      "23794453",
+      "25863585",
+      "29382046",
+      "24656084",
+      "34610267",
+      "26387104",
+      "26226419",
+      "29982297",
+      "34358545",
+      "24606139",
+      "36750251",
+      "26387099",
+      "21686180",
+      "37219402",
+      "27794210",
+      "32145247",
+      "31521237",
+      "25849651",
+      "27988422",
+      "24532081",
+      "26387102"
+    ],
+    "pmc": [
+      "10380747"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms241411785",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37511544/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37511544",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

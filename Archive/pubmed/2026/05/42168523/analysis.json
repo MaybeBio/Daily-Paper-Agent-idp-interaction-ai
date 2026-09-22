@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42168523",
+  "title": "Deciphering the role of tubulin's C-terminal tail in kinesin binding using computational and clustering approaches.",
+  "authors": "Shen, Ting; Li, Yuyan; Li, Yangle; Zhao, Jingjing; Ma, Jianxin; Cheng, Haojie; Zhang, Jiayi; Zhou, Meng; Zheng, Wei; Hu, Dehua; Li, Lin; Liu, Kefu; Sun, Shengjie",
+  "journal": "Scientific reports",
+  "published_date": "2026-05-22",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用全原子MD模拟揭示微管蛋白无序C末端尾(CTT)通过构象转变增强kinesin-微管PPI的分子胶机制，对象、互作、方法三者齐备且聚焦无序IDR介导的互作机制建模。",
+  "abstract": "The C-terminal tails (CTTs) of alphabeta-tubulin heterodimer are intrinsically disordered regions (IDRs) which play critical roles in regulating the processivity and velocity of kinesin walking along microtubule. However, their involvement in the binding process of kinesin to microtubule remains poorly understood. To seek the binding process, a kinesin with high binding ability, KIF7 and its partner microtubule TUBA4A-TUBB8 complex were chosen. They were employed biphasic steered and long-term all-atom molecular dynamic simulation to study the CTTs' conformational changes induced by kinesin recruitment. We propose that the disordered CTTs extend outward to capture the surrounding kinesin. It then gradually transitions into alpha-helical conformation, stabilizing kinesin-microtubule interactions, akin to molecular glue. Further computationally biophysical analyses, including electrostatic analyses and binding free energies, showed that CTTs enhanced the binding affinity between kinesin and microtubule. Additionally, high-occupancy hydrogen bonds were such as arginine 308 in kinesin and glutamine 410 in beta-tubulin when CTTs were present, which contributed to the protein-protein interactions. Our findings provide atomistic insights into the regulatory function of the CTTs in kinesin-microtubule binding process, which may facilitate the development of therapeutic strategies targeting CTTs-mediated interactions.",
+  "abstract_zh": "αβ-微管蛋白异二聚体的C末端尾巴（CTTs）是 intrinsically disordered regions (IDRs)，在调控kinesin沿微管行走的持续性和速度中发挥关键作用。然而，它们在kinesin与微管结合过程中的参与仍知之甚少。为探究该结合过程，本研究选取了具有高结合能力的kinesin KIF7及其伴侣微管TUBA4A-TUBB8复合物。采用双相 steered 和长期全原子分子动力学 (molecular dynamics) 模拟，研究kinesin招募诱导的CTTs构象变化。我们提出，无序的CTTs向外延伸以捕获周围的kinesin，随后逐渐转变为α-螺旋构象，稳定kinesin-微管相互作用，类似于分子胶。进一步的计算生物物理分析，包括静电分析和结合自由能，表明CTTs增强了kinesin与微管之间的结合亲和力。此外，在CTTs存在时，高占据氢键如kinesin中的精氨酸308和β-微管蛋白中的谷氨酰胺410形成，促进了蛋白质-蛋白质相互作用。我们的发现为CTTs在kinesin-微管结合过程中的调控功能提供了原子层面的见解，这可能有助于开发靶向CTTs介导相互作用的治疗策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42168523/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42168523/",
+  "paper_page_path": "papers/pubmed/42168523/index.html"
+}

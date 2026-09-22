@@ -1,0 +1,103 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.20.513005",
+  "title": "Small molecule modulates α -Synuclein conformation and its oligomerization via Entropy Expansion",
+  "doi": "10.1101/2022.10.20.513005",
+  "abstract": "Aberrant misfolding and progressive aggregation of the intrinsically disordered protein (IDP), α -synuclein, are associated with the etiology of several neurodegenerative diseases. However, the structurally heterogeneous ensemble of this IDP and lack of a well-defined binding pocket make it difficult to probe the druggability of α -synuclein. Here, by building a comprehensive statistical model of the fuzzy ensemble of a millisecond-long atomistic simulation trajectory of monomeric α -synuclein interacting with the small-molecule drug fasudil, we identify exhaustive sets of metastable binding-competent states of α -synuclein. The model reveals that the interaction with the drug primes this IDP to explore both more compact and more extended conformational sub-ensemble than those in neat water, thereby broadening its structural repertoire in presence of small-molecule via an entropy expansion mechanism. Subsequent simulation of the dimerisation process shows that similar motif of entropic-expansion mechanism helps fasudil to retard the self-aggregation propensity of α -synuclein via trapping it into multiple distinct states of diverse compaction featuring aggregation-resistant long-range interactions. Furthermore, small-molecule binding interactions in dimerisation-competent relatively extended states have a screening effect that hinders the formation of stable dimer contacts. Together, the investigation demonstrates the ability of small-molecules to have an ensemble-modulatory effect on IDPs that can be effectively utilised in therapeutic strategies probing aggregation-related diseases.",
+  "authors": [
+    "Menon S",
+    "Mondal J"
+  ],
+  "published_date": "2022-10-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.20.513005",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.20.513005.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR563240",
+    "raw_record": {
+      "id": "PPR563240",
+      "source": "PPR",
+      "doi": "10.1101/2022.10.20.513005",
+      "title": "Small molecule modulates  <i>α</i>  -Synuclein conformation and its oligomerization via Entropy Expansion",
+      "authorString": "Menon S, Mondal J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Menon S",
+            "lastName": "Menon",
+            "firstName": "Sneha",
+            "initials": "S"
+          },
+          {
+            "fullName": "Mondal J",
+            "lastName": "Mondal",
+            "firstName": "Jagannath",
+            "initials": "J"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Aberrant misfolding and progressive aggregation of the intrinsically disordered protein (IDP),  α -synuclein, are associated with the etiology of several neurodegenerative diseases. However, the structurally heterogeneous ensemble of this IDP and lack of a well-defined binding pocket make it difficult to probe the druggability of  α -synuclein. Here, by building a comprehensive statistical model of the fuzzy ensemble of a millisecond-long atomistic simulation trajectory of monomeric  α -synuclein interacting with the small-molecule drug fasudil, we identify exhaustive sets of metastable binding-competent states of  α -synuclein. The model reveals that the interaction with the drug primes this IDP to explore both more compact and more extended conformational sub-ensemble than those in neat water, thereby broadening its structural repertoire in presence of small-molecule via an  entropy expansion mechanism. Subsequent simulation of the dimerisation process shows that similar motif of entropic-expansion mechanism helps fasudil to retard the self-aggregation propensity of  α -synuclein via trapping it into multiple distinct states of diverse compaction featuring aggregation-resistant long-range interactions. Furthermore, small-molecule binding interactions in dimerisation-competent relatively extended states have a screening effect that hinders the formation of stable dimer contacts. Together, the investigation demonstrates the ability of small-molecules to have an ensemble-modulatory effect on IDPs that can be effectively utilised in therapeutic strategies probing aggregation-related diseases.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/10/21/2022.10.20.513005.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.10.20.513005"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-10-28",
+      "firstPublicationDate": "2022-10-21",
+      "firstIndexDate": "2022-10-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

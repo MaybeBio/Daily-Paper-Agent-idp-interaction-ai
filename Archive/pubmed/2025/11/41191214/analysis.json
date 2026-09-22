@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41191214",
+  "title": "Biomolecular condensates: molecular structure, biological functions, diseases, and therapeutic targets.",
+  "authors": "Choi, Sunkyung; Lee, Jung-Min; Kim, Kee K",
+  "journal": "Molecular biomedicine",
+  "published_date": "2025-11-05",
+  "window": {
+    "start": "2025-11-03",
+    "end": "2025-11-09"
+  },
+  "score": 6,
+  "one_liner_zh": "这是一篇综述，系统总结生物分子凝聚体的结构、功能、疾病关联及治疗靶点，并提及AI预测工具，但未深入PPI机制建模，对象相关但互作与方法深度有限。",
+  "abstract": "Cells constantly encounter environmental and physiological fluctuations that challenge homeostasis and threaten viability. In response to these cues, specific proteins and nucleic acids engage in multivalent interactions and undergo phase separation to form membraneless assemblies known as biomolecular condensates. Nuclear condensates include paraspeckles, nuclear speckles, and Cajal bodies, while cytoplasmic condensates include stress granules, processing bodies, RNA transport granules, U-bodies, and Balbiani bodies. These assemblies regulate transcription, splicing fidelity, RNA stability, translational reprogramming, and integration of signaling pathways, thereby serving as dynamic platforms for metabolic regulation and physiological adaptation. However, dysregulation of these condensates has been increasingly recognized as a central pathogenic mechanism in neurodegenerative diseases, cancers, and viral infections, contributing to toxic protein aggregation, nucleic acid dysregulation, and aberrant cell survival signaling. This review provides a comprehensive synthesis of the molecular mechanisms governing condensation, delineates the diverse types and functions of major biomolecular condensates, and examines therapeutic approaches based on their pathophysiological relevance to disease development and progression. Furthermore, we highlight the cutting-edge technologies, including CRISPR/Cas-based imaging, optogenetic manipulation, and AI-driven phase separation prediction tools, which enable the real-time monitoring and precision targeting of cytoplasmic biomolecular condensates. These insights underscore the emerging potential of biomolecular condensates as both biomarkers and therapeutic targets, paving the way for precision medicine approaches in condensate-associated diseases.",
+  "abstract_zh": "细胞持续遭遇环境和生理波动，这些波动挑战稳态并威胁生存能力。为应对这些信号，特定蛋白质和核酸参与多价相互作用并进行相分离 (phase separation)，形成称为生物分子凝聚体 (biomolecular condensates) 的无膜组装体。核内凝聚体包括副斑点 (paraspeckles)、核斑点 (nuclear speckles) 和Cajal体，而胞质凝聚体包括应激颗粒 (stress granules)、加工体 (processing bodies)、RNA转运颗粒、U体和Balbiani体。这些组装体调控转录、剪接保真度、RNA稳定性、翻译重编程以及信号通路整合，从而作为代谢调控和生理适应的动态平台。然而，这些凝聚体的失调日益被认为是神经退行性疾病、癌症和病毒感染中的核心致病机制，导致毒性蛋白聚集、核酸失调和异常细胞存活信号传导。本综述全面综合了调控凝聚的分子机制，描绘了主要生物分子凝聚体的多样类型和功能，并基于其与疾病发生和进展的病理生理相关性，探讨了治疗方法。此外，我们重点介绍了前沿技术，包括基于CRISPR/Cas的成像、光遗传学操作和AI驱动的相分离预测工具，这些技术能够实现胞质生物分子凝聚体的实时监测和精准靶向。这些见解强调了生物分子凝聚体作为生物标志物和治疗靶点的新兴潜力，为凝聚体相关疾病的精准医学方法铺平了道路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41191214/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41191214/",
+  "paper_page_path": "papers/pubmed/41191214/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39357707",
+  "title": "Saloplastics based on protein-peptides complexes immobilizing organic molecules in gastrointestinal drug delivery for ulcerative colitis treatment.",
+  "authors": "Guo, Liang; Zheng, Ge-Ge; Li, Rong-Yi; Fu, Cheng-Yu; Chen, Jie; Meng, Yue-Cheng; Pan, Yang; Hu, Po",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2024-10-03",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究利用粗粒化分子动力学模拟表征酪蛋白酸钠与ε-聚赖氨酸形成的聚电解质复合物纳米棒结构，用于溃疡性结肠炎口服药物递送，虽涉及蛋白-多肽复合物和MD模拟，但对象非无序蛋白/IDR，互作机制非PPI，且核心为药物递送应用，与本课题关联较弱。",
+  "abstract": "Ulcerative colitis (UC) stands as a chronic inflammatory intestinal disease. This study aimed to explore a sustained-release strategy to alleviate DSS-induced colitis in mice using polyelectrolyte complexes (PECs) encapsulating an alkaloid, isoliensinine (ISO). The drug delivery platform, termed \"Saloplastics (SAL)\", was prepared by fabrication of PECs through the solid-liquid phase separation of sodium caseinate (SC) and epsilon-polylysine (EPL), followed by centrifugation to yield compact structures. Coarse-grained molecular dynamics simulations demonstrated that SAL had a nanorod-like structure formation between EPL and SC, which implied that the self-assembly of SAL is driven by hydrophobic aggregation and strong electrostatic attractions. A comprehensive evaluation of SAL was conducted, including characterizations of its physicochemical and biological properties. The results showed SAL had thermal plasticization properties and excellent swelling capacity as well as susceptibility to hydrolysis by pH and proteinase in simulated gastric fluid. Moreover, SAL displayed a porous morphology with high surface area for immobilizing organic molecules. ISO@SAL, formulated by ISO encapsulated in SAL, not only demonstrated high potency in alleviating DSS-induced colitis in mice, but also increased the dosing intervals from one day to three days. In conclusion, SAL is a biocompatible sustained-release oral drug delivery platform for gastrointestinal applications.",
+  "abstract_zh": "溃疡性结肠炎（UC）是一种慢性炎症性肠道疾病。本研究旨在利用聚电解质复合物（PECs）封装生物碱异莲心碱（ISO），探索一种缓释策略以缓解小鼠中DSS诱导的结肠炎。该药物递送平台被称为“Saloplastics (SAL)”，通过酪蛋白酸钠（SC）与ε-聚赖氨酸（EPL）的固液相分离制备PECs，随后经离心获得致密结构。粗粒化分子动力学模拟表明，SAL在EPL和SC之间形成纳米棒状结构，这意味着SAL的自组装由疏水聚集和强静电吸引驱动。对SAL进行了全面评估，包括其物理化学和生物学特性的表征。结果显示，SAL具有热塑化特性、优异的溶胀能力，以及在模拟胃液中对pH和蛋白酶的敏感性水解。此外，SAL呈现出多孔形态，具有高比表面积，可用于固定有机分子。通过将ISO封装于SAL中制备的ISO@SAL，不仅展现出缓解小鼠DSS诱导结肠炎的高效性，还将给药间隔从一天延长至三天。总之，SAL是一种生物相容性缓释口服药物递送平台，适用于胃肠道应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39357707/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39357707/",
+  "paper_page_path": "papers/pubmed/39357707/index.html"
+}

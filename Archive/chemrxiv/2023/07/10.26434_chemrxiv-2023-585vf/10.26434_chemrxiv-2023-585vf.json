@@ -1,0 +1,261 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2023-585vf",
+  "title": "Exploring protein-ligand binding affinity prediction with electron density-based geometric deep learning",
+  "doi": "10.26434/chemrxiv-2023-585vf",
+  "abstract": "Rational structure-based drug design relies on accurate predictions of protein-ligand binding affinity from structural molecular information. Some of the existing deep learning approaches for this purpose have been criticized for insufficiently capturing the underlying physical interactions between ligands and their macromolecular targets. Herein, we propose to include bond-critical points based on the electron density of a protein-ligand complex as a fundamental physical representation of protein-ligand interactions. Employing a geometric deep learning model, we explore the usefulness of these bond-critical points to predict absolute binding affinities of protein-ligand complexes, benchmark model performance against existing methods, and provide a critical analysis of this new approach. The models achieved root-mean-squared errors of 1.4-1.8 log units on the PDBbind dataset, and 1.0-1.7 log units on the PDE10A dataset, not indicating significant advantages over benchmark methods. The relationship between intermolecular electron density and corresponding binding affinity was analyzed, and Pearson correlation coefficients r > 0.7 were obtained for several macromolecular targets.",
+  "authors": [
+    "Clemens Isert",
+    "Kenneth Atz",
+    "Sereina Riniker",
+    "Gisbert Schneider"
+  ],
+  "published_date": "2023-07-03",
+  "updated_date": "2023-07-03T09:06:31Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2023-585vf",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-585vf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T09:14:52Z",
+        "timestamp": 1785402892839,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            3
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                3
+              ]
+            ],
+            "date-time": "2023-07-03T00:00:00Z",
+            "timestamp": 1688342400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Rational structure-based drug design relies on accurate predictions of protein-ligand binding affinity from structural molecular information. Some of the existing deep learning approaches for this purpose have been criticized for insufficiently capturing the underlying physical interactions between ligands and their macromolecular targets. Herein, we propose to include bond-critical points based on the electron density of a protein-ligand complex as a fundamental physical representation of protein-ligand interactions. Employing a geometric deep learning model, we explore the usefulness of these bond-critical points to predict absolute binding affinities of protein-ligand complexes, benchmark model performance against existing methods, and provide a critical analysis of this new approach. The models achieved root-mean-squared errors of 1.4-1.8 log units on the PDBbind dataset, and 1.0-1.7 log units on the PDE10A dataset, not indicating significant advantages over benchmark methods. The relationship between intermolecular electron density and corresponding binding affinity was analyzed, and Pearson correlation coefficients r &gt; 0.7 were obtained for several macromolecular targets.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2023-585vf",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            3
+          ]
+        ],
+        "date-time": "2023-07-03T09:06:31Z",
+        "timestamp": 1688375191000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 4,
+      "title": [
+        "Exploring protein-ligand binding affinity prediction with electron density-based geometric deep learning"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4176-7887",
+          "authenticated-orcid": false,
+          "given": "Clemens",
+          "family": "Isert",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05a28rw58",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "ETH Zurich",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kenneth",
+          "family": "Atz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05a28rw58",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "ETH Zurich",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sereina",
+          "family": "Riniker",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05a28rw58",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "ETH Zurich",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gisbert",
+          "family": "Schneider",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05a28rw58",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "ETH Zurich",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-585vf",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:01:14Z",
+        "timestamp": 1778749274000
+      },
+      "score": 66.07448,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-585vf"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            3
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2023-585vf",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1039/D3RA08650J",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

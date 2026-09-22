@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.09.663981",
+  "title": "Dynamic, yet well-defined organization of the FUS RGG3 dense phase",
+  "authors": "Polyansky AA; Frühbauer B; Žagrović B",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-15",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用微秒级原子模拟研究FUS RGG3无序区域凝聚体中的动态结合模式与多尺度组织，直接聚焦IDR相分离中的PPI机制建模，方法为MD模拟，高度契合课题。",
+  "abstract": "Intrinsically disordered protein regions (IDRs) play a key role in the formation of biomolecular condensates, a ubiquitous mode of cellular compartmentalization, but the underlying microscopic details remain unclear. Here, microsecond-level molecular dynamics simulations and fractal formalism are employed to study at atomistic resolution a model condensate composed of 24 copies of a C-terminal 73-residue arginine- and glycine-rich IDR (RGG3) of fused in sarcoma (FUS) protein. Specifically, RGG3 displays a highly dynamic behavior in the dense phase with only a small configurational entropy loss and a minor slowdown in diffusion as compared to the dilute phase. Despite rapid mixing, short contact residence times and structurally heterogenous binding interfaces in the dense phase, RGG3 exhibits a distinct dynamic binding mode, with statistically defined interaction motifs and a robust multi-scale topology of self-associated protein clusters. The results demonstrate how a well-defined organization of the disordered protein dense phase across scales emerges from highly heterogenous, transient interactions.",
+  "abstract_zh": "固有无序蛋白区域（IDRs）在生物分子凝聚体的形成中发挥关键作用，这是一种普遍的细胞区室化模式，但其背后的微观细节仍不清楚。本研究采用微秒级分子动力学模拟和分形形式，以原子分辨率研究由肉瘤融合蛋白（FUS）C端73残基富含精氨酸和甘氨酸的IDR（RGG3）的24个拷贝组成的模型凝聚体。具体而言，与稀相相比，RGG3在稠相中表现出高度动态行为，仅具有较小的构象熵损失和轻微的扩散减慢。尽管在稠相中存在快速混合、短接触驻留时间和结构异质的结合界面，RGG3仍展现出独特的动态结合模式，具有统计定义的相互作用基序和自关联蛋白簇的稳健多尺度拓扑结构。结果表明，无序蛋白稠相跨尺度的明确组织如何从高度异质、瞬时的相互作用中涌现。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.09.663981",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.09.663981",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.09.663981/index.html"
+}

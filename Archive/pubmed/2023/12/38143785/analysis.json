@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38143785",
+  "title": "On Robustness of Individualized Decision Rules.",
+  "authors": "Qi, Zhengling; Pang, Jong-Shi; Liu, Yufeng",
+  "journal": "Journal of the American Statistical Association",
+  "published_date": "2023-12-25",
+  "window": {
+    "start": "2023-12-25",
+    "end": "2023-12-31"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究个性化决策规则（IDR）的稳健性优化，属于统计决策与精准医学领域，与无序蛋白互作及AI/物理模拟建模完全无关。",
+  "abstract": "With the emergence of precision medicine, estimating optimal individualized decision rules (IDRs) has attracted tremendous attention in many scientific areas. Most existing literature has focused on finding optimal IDRs that can maximize the expected outcome for each individual. Motivated by complex individualized decision making procedures and the popular conditional value at risk (CVaR) measure, we propose a new robust criterion to estimate optimal IDRs in order to control the average lower tail of the individuals' outcomes. In addition to improving the individualized expected outcome, our proposed criterion takes risks into consideration, and thus the resulting IDRs can prevent adverse events. The optimal IDR under our criterion can be interpreted as the decision rule that maximizes the \"worst-case\" scenario of the individualized outcome when the underlying distribution is perturbed within a constrained set. An efficient non-convex optimization algorithm is proposed with convergence guarantees. We investigate theoretical properties for our estimated optimal IDRs under the proposed criterion such as consistency and finite sample error bounds. Simulation studies and a real data application are used to further demonstrate the robust performance of our methods. Several extensions of the proposed method are also discussed.",
+  "abstract_zh": "随着精准医学的出现，估计最优个体化决策规则（IDRs）在许多科学领域引起了广泛关注。现有文献大多聚焦于寻找能够最大化每个个体预期结果的最优IDRs。受复杂个体化决策过程及流行的条件风险价值（CVaR）度量的启发，我们提出了一种新的稳健准则来估计最优IDRs，以控制个体结果的平均下尾。除了改善个体化预期结果外，我们提出的准则还考虑了风险，因此所得IDRs能够预防不良事件。在我们准则下的最优IDR可解释为：当基础分布在受限集合内受到扰动时，最大化个体化结果“最坏情况”的决策规则。我们提出了一种具有收敛保证的高效非凸优化算法。我们研究了在提出准则下估计的最优IDRs的理论性质，如一致性和有限样本误差界。模拟研究和实际数据应用进一步展示了我们方法的稳健性能。此外，还讨论了所提方法的若干扩展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38143785/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38143785/",
+  "paper_page_path": "papers/pubmed/38143785/index.html"
+}

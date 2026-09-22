@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "37586706",
+    "doi": "10.1021/acs.nanolett.3c01301",
+    "title": "Amphiphiles Formed from Synthetic DNA-Nanomotifs Mimic the Stepwise Dispersal of Transcriptional Clusters in the Cell Nucleus."
+  },
+  "content": {
+    "abstract": "Stem cells exhibit prominent clusters controlling the transcription of genes into RNA. These clusters form by a phase-separation mechanism, and their size and shape are controlled via an amphiphilic effect of transcribed genes. Here, we construct amphiphile-nanomotifs purely from DNA, and we achieve similar size and shape control for phase-separated droplets formed from fully synthetic, self-interacting DNA-nanomotifs. Increasing amphiphile concentrations induce rounding of droplets, prevent droplet fusion, and, at high concentrations, cause full dispersal of droplets. Super-resolution microscopy data obtained from zebrafish embryo stem cells reveal a comparable transition for transcriptional clusters with increasing transcription levels. Brownian dynamics and lattice simulations further confirm that the addition of amphiphilic particles is sufficient to explain the observed changes in shape and size. Our work reproduces key aspects of transcriptional cluster formation in biological cells using relatively simple DNA sequence-programmable nanostructures, opening novel ways to control the mesoscopic organization of synthetic nanomaterials.",
+    "keywords": [
+      "Biomolecular condensates",
+      "Cell nucleus",
+      "DNA nanotechnology",
+      "Microemulsion",
+      "Phase separation",
+      "Synthetic biology"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Zebrafish",
+      "Cell Nucleus",
+      "*Nanostructures/chemistry",
+      "DNA/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tschurikow, Xenia",
+        "Gadzekpo, Aaron",
+        "Tran, Mai P",
+        "Chatterjee, Rakesh",
+        "Sobucki, Marcel",
+        "Zaburdaev, Vasily",
+        "Gopfrich, Kerstin",
+        "Hilbert, Lennart"
+      ],
+      "short_names": [
+        "Tschurikow X",
+        "Gadzekpo A",
+        "Tran MP",
+        "Chatterjee R",
+        "Sobucki M",
+        "Zaburdaev V",
+        "Gopfrich K",
+        "Hilbert L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4478-5607"
+      ],
+      "affiliations": [
+        "Institute of Biological and Chemical Systems, Karlsruhe Institute of Technology, Eggenstein-Leopoldshafen 76344, Germany.",
+        "Zoological Institute, Karlsruhe Institute of Technology, Karlsruhe 76131, Germany.",
+        "Institute of Biological and Chemical Systems, Karlsruhe Institute of Technology, Eggenstein-Leopoldshafen 76344, Germany.",
+        "Zoological Institute, Karlsruhe Institute of Technology, Karlsruhe 76131, Germany.",
+        "Center for Molecular Biology of Heidelberg University (ZMBH), Heidelberg 69120, Germany.",
+        "Max Planck Institute for Medical Research, Heidelberg 69120, Germany.",
+        "Max Planck Zentrum fur Physik und Medizin, Erlangen 91058, Germany.",
+        "Chair of Mathematics in Life Sciences, Friedrich-Alexander Universitat Erlangen-Nurnberg, Erlangen 91058, Germany.",
+        "Institute of Biological and Chemical Systems, Karlsruhe Institute of Technology, Eggenstein-Leopoldshafen 76344, Germany.",
+        "Max Planck Zentrum fur Physik und Medizin, Erlangen 91058, Germany.",
+        "Chair of Mathematics in Life Sciences, Friedrich-Alexander Universitat Erlangen-Nurnberg, Erlangen 91058, Germany.",
+        "Center for Molecular Biology of Heidelberg University (ZMBH), Heidelberg 69120, Germany.",
+        "Max Planck Institute for Medical Research, Heidelberg 69120, Germany.",
+        "Institute of Biological and Chemical Systems, Karlsruhe Institute of Technology, Eggenstein-Leopoldshafen 76344, Germany.",
+        "Zoological Institute, Karlsruhe Institute of Technology, Karlsruhe 76131, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tschurikow, Xenia",
+        "short_name": "Tschurikow X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological and Chemical Systems, Karlsruhe Institute of Technology, Eggenstein-Leopoldshafen 76344, Germany.",
+          "Zoological Institute, Karlsruhe Institute of Technology, Karlsruhe 76131, Germany."
+        ]
+      },
+      {
+        "full_name": "Gadzekpo, Aaron",
+        "short_name": "Gadzekpo A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological and Chemical Systems, Karlsruhe Institute of Technology, Eggenstein-Leopoldshafen 76344, Germany.",
+          "Zoological Institute, Karlsruhe Institute of Technology, Karlsruhe 76131, Germany."
+        ]
+      },
+      {
+        "full_name": "Tran, Mai P",
+        "short_name": "Tran MP",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Molecular Biology of Heidelberg University (ZMBH), Heidelberg 69120, Germany.",
+          "Max Planck Institute for Medical Research, Heidelberg 69120, Germany."
+        ]
+      },
+      {
+        "full_name": "Chatterjee, Rakesh",
+        "short_name": "Chatterjee R",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Zentrum für Physik und Medizin, Erlangen 91058, Germany.",
+          "Chair of Mathematics in Life Sciences, Friedrich-Alexander Universität Erlangen-Nürnberg, Erlangen 91058, Germany."
+        ]
+      },
+      {
+        "full_name": "Sobucki, Marcel",
+        "short_name": "Sobucki M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological and Chemical Systems, Karlsruhe Institute of Technology, Eggenstein-Leopoldshafen 76344, Germany."
+        ]
+      },
+      {
+        "full_name": "Zaburdaev, Vasily",
+        "short_name": "Zaburdaev V",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Zentrum für Physik und Medizin, Erlangen 91058, Germany.",
+          "Chair of Mathematics in Life Sciences, Friedrich-Alexander Universität Erlangen-Nürnberg, Erlangen 91058, Germany."
+        ]
+      },
+      {
+        "full_name": "Göpfrich, Kerstin",
+        "short_name": "Göpfrich K",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Molecular Biology of Heidelberg University (ZMBH), Heidelberg 69120, Germany.",
+          "Max Planck Institute for Medical Research, Heidelberg 69120, Germany."
+        ]
+      },
+      {
+        "full_name": "Hilbert, Lennart",
+        "short_name": "Hilbert L",
+        "identifiers": [
+          "0000-0003-4478-5607"
+        ],
+        "affiliations": [
+          "Institute of Biological and Chemical Systems, Karlsruhe Institute of Technology, Eggenstein-Leopoldshafen 76344, Germany.",
+          "Zoological Institute, Karlsruhe Institute of Technology, Karlsruhe 76131, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nano letters"
+    ],
+    "journal_abbrev": [
+      "Nano Lett"
+    ],
+    "pub_date": "2023 Sep 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/17 00:42",
+    "fetched_at": "2026-09-21 00:25:33"
+  },
+  "links": {
+    "cites": [
+      "42261829",
+      "41411368",
+      "40911651",
+      "40211087"
+    ],
+    "refs": [
+      "36998664",
+      "36741438",
+      "36603581",
+      "36539402",
+      "36470673",
+      "36240277",
+      "36191226",
+      "36112754",
+      "35971190",
+      "35537448",
+      "34916619",
+      "34916288",
+      "34788540",
+      "34569155",
+      "34039974",
+      "33649325",
+      "33367441",
+      "33333019",
+      "33169001",
+      "32960601",
+      "32958948",
+      "32537507",
+      "32311333",
+      "31868408",
+      "31570370",
+      "31543265",
+      "31527274",
+      "31462772",
+      "31398323",
+      "31391587",
+      "31211993",
+      "31155237",
+      "31038454",
+      "30981244",
+      "30824489",
+      "30818351",
+      "30741925",
+      "30716021",
+      "30361340",
+      "30127355",
+      "30109341",
+      "29930094",
+      "29930091",
+      "29930090",
+      "29503869",
+      "28935776",
+      "28793193",
+      "28712725",
+      "27690457",
+      "27412086",
+      "27362226",
+      "27203111",
+      "26351690",
+      "26274171",
+      "25768910",
+      "24979791",
+      "24097271",
+      "22743772",
+      "20365104",
+      "15892875"
+    ],
+    "similar": [
+      "37586706",
+      "38884477",
+      "34569155",
+      "15571664",
+      "23912807",
+      "38847600",
+      "22642503",
+      "28417635",
+      "33052654",
+      "32537507",
+      "24833515",
+      "27813009",
+      "15740278",
+      "34664748",
+      "35881789",
+      "35867936",
+      "20869905",
+      "31816934",
+      "30588792",
+      "38194964",
+      "18667705",
+      "31941785",
+      "35098232",
+      "39191726",
+      "38831645",
+      "27376244",
+      "34916288",
+      "34750602",
+      "31244030",
+      "31675207",
+      "29172534",
+      "34303933",
+      "24828105",
+      "31667765",
+      "37728515",
+      "24673483",
+      "21107369",
+      "20023646",
+      "38803334",
+      "35786832",
+      "34895465",
+      "35740532",
+      "18690736",
+      "35658421",
+      "29930091",
+      "32675239",
+      "29219966",
+      "33231755",
+      "31638820",
+      "35686962",
+      "39080489",
+      "32328600",
+      "34114952",
+      "32194074",
+      "26820483",
+      "30369060",
+      "32960601",
+      "29219968",
+      "28771977",
+      "35946870",
+      "30514760",
+      "28847269",
+      "28414914",
+      "38874522",
+      "30013119",
+      "24780000",
+      "33055158",
+      "35618207",
+      "32800925",
+      "30351920",
+      "37307918",
+      "33649325",
+      "24905088",
+      "25129816",
+      "7495845",
+      "28644472",
+      "31642494",
+      "35902591",
+      "30654610",
+      "33729228",
+      "11033084",
+      "16089364",
+      "36932052",
+      "17935065",
+      "25275962",
+      "37813939",
+      "25961418",
+      "10969006",
+      "28475327",
+      "28300237",
+      "34315935",
+      "30469529",
+      "30022011"
+    ],
+    "review": [
+      "37586706",
+      "15571664",
+      "22642503",
+      "20869905",
+      "31816934",
+      "34750602",
+      "31675207",
+      "34303933",
+      "35740532",
+      "32194074",
+      "32800925",
+      "25129816",
+      "33729228",
+      "25961418"
+    ],
+    "pmc": [
+      "10510709"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.nanolett.3c01301",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37586706/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/nalefd/article-lookup/doi/10.1021/acs.nanolett.3c01301",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

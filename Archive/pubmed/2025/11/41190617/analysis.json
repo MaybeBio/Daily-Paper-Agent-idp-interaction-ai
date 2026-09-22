@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41190617",
+  "title": "Using Multiple Isotope-Labeled Infrared Spectra for the Structural Characterization of an Intrinsically Disordered Peptide.",
+  "authors": "Bongalonta, Ian J A; Dinner, Aaron R; Tokmakoff, Andrei",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-11-05",
+  "window": {
+    "start": "2025-11-03",
+    "end": "2025-11-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用同位素标记红外光谱重加权模拟系综来表征无序肽GVGVPGVG的结构，涉及IDP对象和物理模拟方法，但聚焦单肽构象而非PPI互作机制，故为中档。",
+  "abstract": "Intrinsically disordered proteins (IDPs) rapidly interconvert between conformers, requiring an ensemble description. This complicates their experimental characterization, and force field limitations pose challenges for their simulation. Here, we use isotope-labeled and unlabeled infrared (IR) spectra to reweight simulated ensembles of the elastin-like peptide GVGVPGVG, a paradigmatic disordered peptide. By comparing the results obtained with different spectra, we explicitly show that the weights are underdetermined by the ensemble averaged data. We identify which labels and frequency regions maximize structural information while minimizing sensitivity to simulation error and show that these regions report on whether the peptide makes specific interactions. Our work shows the importance of incorporating simulations and simulated spectra at the planning stages of isotope-labeled IR experiments and more generally provides a framework for interpreting IR data for IDPs.",
+  "abstract_zh": "固有无序蛋白（IDPs）在构象体之间快速互变，需要集合描述。这使其实验表征复杂化，且力场局限性对其模拟构成挑战。在此，我们利用同位素标记和未标记的红外（IR）光谱，对弹性蛋白样肽GVGVPGVG（一种典型的无序肽）的模拟集合进行重新加权。通过比较不同光谱获得的结果，我们明确表明，集合平均数据对权重的确定是不充分的。我们识别出哪些标记和频率区域能最大化结构信息，同时最小化对模拟误差的敏感性，并显示这些区域报告肽是否发生特定相互作用。我们的工作强调了在规划同位素标记IR实验阶段纳入模拟和模拟光谱的重要性，并更广泛地为解释IDPs的IR数据提供了框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41190617/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41190617/",
+  "paper_page_path": "papers/pubmed/41190617/index.html"
+}

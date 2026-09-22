@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33761918",
+  "title": "A new type of flexible CP12 protein in the marine diatom Thalassiosira pseudonana.",
+  "authors": "Shao, Hui; Huang, Wenmin; Avilan, Luisana; Receveur-Brechot, Veronique; Puppo, Carine; Puppo, Remy; Lebrun, Regine; Gontero, Brigitte; Launay, Helene",
+  "journal": "Cell communication and signaling : CCS",
+  "published_date": "2021-03-26",
+  "window": {
+    "start": "2021-03-22",
+    "end": "2021-03-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究表征了海洋硅藻中一种新型柔性CP12蛋白，确认其具有无序区域特征并形成二聚体，但主要聚焦于蛋白结构表征而非PPI机制建模，方法上以实验为主、辅以生物信息学预测，与AI/物理模拟方法关联较弱。",
+  "abstract": "BACKGROUND: CP12 is a small chloroplast protein that is widespread in various photosynthetic organisms and is an actor of the redox signaling pathway involved in the regulation of the Calvin Benson Bassham (CBB) cycle. The gene encoding this protein is conserved in many diatoms, but the protein has been overlooked in these organisms, despite their ecological importance and their complex and still enigmatic evolutionary background. METHODS: A combination of biochemical, bioinformatics and biophysical methods including electrospray ionization-mass spectrometry, circular dichroism, nuclear magnetic resonance spectroscopy and small X ray scattering, was used to characterize a diatom CP12. RESULTS: Here, we demonstrate that CP12 is expressed in the marine diatom Thalassiosira pseudonana constitutively in dark-treated and in continuous light-treated cells as well as in all growth phases. This CP12 similarly to its homologues in other species has some features of intrinsically disorder protein family: it behaves abnormally under gel electrophoresis and size exclusion chromatography, has a high net charge and a bias amino acid composition. By contrast, unlike other known CP12 proteins that are monomers, this protein is a dimer as suggested by native electrospray ionization-mass spectrometry and small angle X-ray scattering. In addition, small angle X-ray scattering revealed that this CP12 is an elongated cylinder with kinks. Circular dichroism spectra indicated that CP12 has a high content of alpha-helices, and nuclear magnetic resonance spectroscopy suggested that these helices are unstable and dynamic within a millisecond timescale. Together with in silico predictions, these results suggest that T. pseudonana CP12 has both coiled coil and disordered regions. CONCLUSIONS: These findings bring new insights into the large family of dynamic proteins containing disordered regions, thus increasing the diversity of known CP12 proteins. As it is a protein that is more abundant in many stresses, it is not devoted to one metabolism and in particular, it is not specific to carbon metabolism. This raises questions about the role of this protein in addition to the well-established regulation of the CBB cycle. Choregraphy of metabolism by CP12 proteins in Viridiplantae and Heterokonta. While the monomeric CP12 in Viridiplantae is involved in carbon assimilation, regulating phosphoribulokinase (PRK) and glyceraldehyde-3-phosphate dehydrogenase (GAPDH) through the formation of a ternary complex, in Heterokonta studied so far, the dimeric CP12 is associated with Ferredoxin-NADP reductase (FNR) and GAPDH. The Viridiplantae CP12 can bind metal ions and can be a chaperone, the Heterokonta CP12 is more abundant in all stresses (C, N, Si, P limited conditions) and is not specific to a metabolism. Video Abstract.",
+  "abstract_zh": "背景：CP12是一种小型叶绿体蛋白，广泛存在于各种光合生物中，是参与卡尔文-本森-巴沙姆（Calvin Benson Bassham, CBB）循环调控的氧化还原信号通路中的一员。编码该蛋白的基因在许多硅藻中保守存在，但尽管这些生物具有生态重要性和复杂且仍待解明的进化背景，该蛋白在它们中却被忽视。方法：结合生物化学、生物信息学和生物物理学方法，包括电喷雾电离质谱、圆二色光谱、核磁共振波谱和小角X射线散射，对一种硅藻CP12进行了表征。结果：在此，我们证明CP12在海洋硅藻假微型海链藻（Thalassiosira pseudonana）中组成型表达，在暗处理、连续光照处理细胞以及所有生长阶段均如此。该CP12与其在其他物种中的同源物类似，具有固有无序蛋白家族的一些特征：在凝胶电泳和尺寸排阻色谱中表现异常，具有高净电荷和偏倚的氨基酸组成。相反，与其他已知的CP12蛋白（通常为单体）不同，该蛋白为二聚体，这由天然电喷雾电离质谱和小角X射线散射所提示。此外，小角X射线散射揭示该CP12是一个带有弯折的细长圆柱体。圆二色光谱表明CP12具有高含量的α-螺旋，核磁共振波谱提示这些螺旋在毫秒时间尺度内不稳定且动态变化。结合计算机模拟预测，这些结果表明假微型海链藻CP12同时具有卷曲螺旋和无序区域。结论：这些发现为含有无序区域的动态蛋白大家族带来了新见解，从而增加了已知CP12蛋白的多样性。由于该蛋白在许多胁迫条件下更为丰富，它并非专一于某一代谢途径，尤其不特定于碳代谢。这引发了关于该蛋白在已确立的CBB循环调控之外的作用的问题。绿色植物界和不等鞭毛类中CP12蛋白的代谢编排。绿色植物界中的单体CP12参与碳同化，通过形成三元复合物调控磷酸核酮糖激酶（PRK）和甘油醛-3-磷酸脱氢酶（GAPDH），而在迄今研究的不等鞭毛类中，二聚体CP12与铁氧还蛋白-NADP还原酶（FNR）和GAPDH相关联。绿色植物界CP12可结合金属离子并可作为分子伴侣，而不等鞭毛类CP12在所有胁迫条件下（C、N、Si、P限制条件）更为丰富，且不特定于某一代谢途径。视频摘要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33761918/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33761918/",
+  "paper_page_path": "papers/pubmed/33761918/index.html"
+}

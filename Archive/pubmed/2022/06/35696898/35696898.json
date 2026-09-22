@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "35696898",
+    "doi": "10.1016/j.bpc.2022.106843",
+    "title": "Conformational ensemble of the full-length SARS-CoV-2 nucleocapsid (N) protein based on molecular simulations and SAXS data."
+  },
+  "content": {
+    "abstract": "The nucleocapsid protein of the SARS-CoV-2 virus comprises two RNA-binding domains and three regions that are intrinsically disordered. While the structures of the RNA-binding domains have been solved using protein crystallography and NMR, current knowledge of the conformations of the full-length nucleocapsid protein is rather limited. To fill in this knowledge gap, we combined coarse-grained molecular simulations with data from small-angle X-ray scattering (SAXS) experiments using the ensemble refinement of SAXS (EROS) method. Our results show that the dimer of the full-length nucleocapsid protein exhibits large conformational fluctuations with its radius of gyration ranging from about 4 to 8 nm. The RNA-binding domains do not make direct contacts. The disordered region that links these two domains comprises a hydrophobic alpha-helix which makes frequent and nonspecific contacts with the RNA-binding domains. Each of the intrinsically disordered regions adopts conformations that are locally compact, yet on average, much more extended than Gaussian chains of equivalent lengths. We offer a detailed picture of the conformational ensemble of the nucleocapsid protein dimer under near-physiological conditions, which will be important for understanding the nucleocapsid assembly process.",
+    "keywords": [
+      "EROS",
+      "Nucleocapsid",
+      "SARS-CoV-2",
+      "SAXS"
+    ],
+    "mesh_terms": [
+      "*COVID-19",
+      "Humans",
+      "Nucleocapsid",
+      "Nucleocapsid Proteins/chemistry",
+      "Protein Conformation",
+      "*SARS-CoV-2",
+      "Scattering, Small Angle",
+      "X-Ray Diffraction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rozycki, Bartosz",
+        "Boura, Evzen"
+      ],
+      "short_names": [
+        "Rozycki B",
+        "Boura E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Physics, Polish Academy of Sciences, Al. Lotnikow 32/46, 02-668 Warsaw, Poland. Electronic address: rozycki@ifpan.edu.pl.",
+        "Institute of Organic Chemistry and Biochemistry, Academy of Sciences of the Czech Republic, v.v.i, Flemingovo nam. 2, 166 10, Prague 6, Czech Republic. Electronic address: boura@uochb.cas.cz."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Różycki, Bartosz",
+        "short_name": "Różycki B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Al. Lotników 32/46, 02-668 Warsaw, Poland. Electronic address: rozycki@ifpan.edu.pl."
+        ]
+      },
+      {
+        "full_name": "Boura, Evzen",
+        "short_name": "Boura E",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry, Academy of Sciences of the Czech Republic, v.v.i, Flemingovo nam. 2, 166 10, Prague 6, Czech Republic. Electronic address: boura@uochb.cas.cz."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical chemistry"
+    ],
+    "journal_abbrev": [
+      "Biophys Chem"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/14 06:00",
+    "fetched_at": "2026-09-20 11:11:12"
+  },
+  "links": {
+    "cites": [
+      "41468288",
+      "40761077",
+      "40664703",
+      "40568634",
+      "40568176",
+      "40448741",
+      "40353409",
+      "40077853",
+      "38941236",
+      "38930833",
+      "38928405",
+      "38587193",
+      "38045338",
+      "38045241",
+      "37974992",
+      "37286558",
+      "37018390",
+      "36533523",
+      "35781025"
+    ],
+    "refs": [
+      "35131265",
+      "35044811",
+      "34765991",
+      "34490842",
+      "34265844",
+      "33782395",
+      "33511102",
+      "33307683",
+      "33305318",
+      "33290746",
+      "33264373",
+      "33116300",
+      "32901111",
+      "32817270",
+      "32416961",
+      "32363136",
+      "32035901",
+      "31583778",
+      "31576635",
+      "31396910",
+      "31381608",
+      "31204190",
+      "30939006",
+      "30786229",
+      "30679637",
+      "30554840",
+      "30217894",
+      "29151218",
+      "28864297",
+      "27819658",
+      "27794210",
+      "26008791",
+      "25866658",
+      "25817386",
+      "25544475",
+      "25335513",
+      "22579254",
+      "21596998",
+      "21220121",
+      "19592714",
+      "19052082",
+      "18831774",
+      "18083189",
+      "17002283",
+      "16627473",
+      "15923225",
+      "8744570"
+    ],
+    "similar": [
+      "35696898",
+      "32416961",
+      "30840442",
+      "38941236",
+      "33725442",
+      "26894667",
+      "35551296",
+      "35317998",
+      "36641212",
+      "38153183",
+      "38718862",
+      "38930833",
+      "40095314",
+      "39340152",
+      "39503309",
+      "26548662",
+      "28689380",
+      "36040256",
+      "17182256",
+      "30617833",
+      "39082816",
+      "32914439",
+      "21220121",
+      "32696370",
+      "35483823",
+      "19781554",
+      "19052082",
+      "27440558",
+      "33264373",
+      "35638584",
+      "39174826",
+      "36139141",
+      "32840111",
+      "35883485",
+      "39653699",
+      "39766245",
+      "37348142",
+      "37819014",
+      "31073392",
+      "39093972",
+      "40490992",
+      "40820302",
+      "36748338",
+      "39642200",
+      "32654247",
+      "39912211",
+      "33039147",
+      "21947276",
+      "33177626",
+      "34022485",
+      "37863261",
+      "37686452",
+      "34115515",
+      "28224788",
+      "26946052",
+      "40945576",
+      "26320411",
+      "21203940",
+      "37018390",
+      "34197805",
+      "30878202",
+      "29573987",
+      "35377637",
+      "19933326",
+      "31402649",
+      "38587193",
+      "29548755",
+      "40503686",
+      "32829876",
+      "34817999",
+      "39056166",
+      "34627764",
+      "37191546",
+      "34499464",
+      "33730325",
+      "20801888",
+      "33782395",
+      "32696361",
+      "22639100",
+      "32679070",
+      "36807437",
+      "33794152",
+      "30291845",
+      "36427566",
+      "34381460",
+      "36985506",
+      "24888261",
+      "34193419",
+      "35131265",
+      "26610545",
+      "36303056",
+      "32119546",
+      "26008791",
+      "18561946",
+      "38260441",
+      "33200826",
+      "32323533",
+      "30865820",
+      "30558889",
+      "16285739"
+    ],
+    "review": [
+      "35696898",
+      "30840442",
+      "28689380",
+      "30617833",
+      "31073392",
+      "21947276",
+      "26320411",
+      "22639100"
+    ],
+    "pmc": [
+      "9172258"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301-4622(22)00085-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35696898/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35696898",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

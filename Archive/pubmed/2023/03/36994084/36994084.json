@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "36994084",
+    "doi": "10.1016/j.isci.2023.106300",
+    "title": "Statistical mechanics of biomolecular condensates via cavity methods."
+  },
+  "content": {
+    "abstract": "Physical mechanisms of phase separation in living systems play key physiological roles and have recently been the focus of intensive studies. The strongly heterogeneous nature of such phenomena poses difficult modeling challenges that require going beyond mean-field approaches based on postulating a free energy landscape. The pathway we take here is to calculate the partition function starting from microscopic interactions by means of cavity methods, based on a tree approximation for the interaction graph. We illustrate them on the binary case and then apply them successfully to ternary systems, in which simpler one-factor approximations are proved inadequate. We demonstrate the agreement with lattice simulations and contrast our theory with coacervation experiments of associative de-mixing of nucleotides and poly-lysine. Different types of evidence are provided to support cavity methods as ideal tools for modeling biomolecular condensation, giving an optimal balance between the consideration of spatial aspects and fast computational results.",
+    "keywords": [
+      "Molecular interaction",
+      "Statistical mechanics",
+      "Statistical physics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lauber, Nino",
+        "Tichacek, Ondrej",
+        "Bose, Rudrarup",
+        "Flamm, Christoph",
+        "Leuzzi, Luca",
+        "Tang, T-Y Dora",
+        "Ruiz-Mirazo, Kepa",
+        "De Martino, Daniele"
+      ],
+      "short_names": [
+        "Lauber N",
+        "Tichacek O",
+        "Bose R",
+        "Flamm C",
+        "Leuzzi L",
+        "Tang TD",
+        "Ruiz-Mirazo K",
+        "De Martino D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biofisika Institute (CSIC, UPV/EHU), Barrio Sarriena s/n. 48940 Leioa, Bizkaia, Spain.",
+        "Donostia International Physics Center (DIPC), Paseo Manuel de Lardizabal, 4, 20018 Donostia-San Sebastian, Gipuzkoa, Spain.",
+        "Department of Philosophy (UPV/EHU), Avenida de Tolosa 70, 20018 Donostia-San Sebastian, Gipuzkoa, Spain.",
+        "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo namesti 542/2, 160 00 Praha 6, Czech Republic.",
+        "Max Planck Institute of Molecular Cell Biology & Genetics, Pfotenhauerstrasse 108, 01307 Dresden, Germany.",
+        "Institute for Theoretical Chemistry, University of Vienna, Vienna, Austria.",
+        "Department of Physics, Universita di Roma la Sapienza, Piazzale Aldo Moro 5, 00185 Rome, Italy.",
+        "Institute of Nanotechnology, Soft and Living Matter Laboratory, Consiglio Nazionale delle Ricerche (CNR-NANOTEC), Piazzale Aldo Moro 5, 00185 Rome, Italy.",
+        "Max Planck Institute of Molecular Cell Biology & Genetics, Pfotenhauerstrasse 108, 01307 Dresden, Germany.",
+        "Biofisika Institute (CSIC, UPV/EHU), Barrio Sarriena s/n. 48940 Leioa, Bizkaia, Spain.",
+        "Department of Philosophy (UPV/EHU), Avenida de Tolosa 70, 20018 Donostia-San Sebastian, Gipuzkoa, Spain.",
+        "Biofisika Institute (CSIC, UPV/EHU), Barrio Sarriena s/n. 48940 Leioa, Bizkaia, Spain.",
+        "Ikerbasque Foundation, Alameda Urquijo, 36, 48011 Bilbao, Bizkaia, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lauber, Nino",
+        "short_name": "Lauber N",
+        "identifiers": [],
+        "affiliations": [
+          "Biofisika Institute (CSIC, UPV/EHU), Barrio Sarriena s/n. 48940 Leioa, Bizkaia, Spain.",
+          "Donostia International Physics Center (DIPC), Paseo Manuel de Lardizabal, 4, 20018 Donostia-San Sebastian, Gipuzkoa, Spain.",
+          "Department of Philosophy (UPV/EHU), Avenida de Tolosa 70, 20018 Donostia-San Sebastian, Gipuzkoa, Spain."
+        ]
+      },
+      {
+        "full_name": "Tichacek, Ondrej",
+        "short_name": "Tichacek O",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo náměstí 542/2, 160 00 Praha 6, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Bose, Rudrarup",
+        "short_name": "Bose R",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute of Molecular Cell Biology & Genetics, Pfotenhauerstraße 108, 01307 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Flamm, Christoph",
+        "short_name": "Flamm C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Theoretical Chemistry, University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Leuzzi, Luca",
+        "short_name": "Leuzzi L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Universitá di Roma la Sapienza, Piazzale Aldo Moro 5, 00185 Rome, Italy.",
+          "Institute of Nanotechnology, Soft and Living Matter Laboratory, Consiglio Nazionale delle Ricerche (CNR-NANOTEC), Piazzale Aldo Moro 5, 00185 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Tang, T-Y Dora",
+        "short_name": "Tang TD",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute of Molecular Cell Biology & Genetics, Pfotenhauerstraße 108, 01307 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Ruiz-Mirazo, Kepa",
+        "short_name": "Ruiz-Mirazo K",
+        "identifiers": [],
+        "affiliations": [
+          "Biofisika Institute (CSIC, UPV/EHU), Barrio Sarriena s/n. 48940 Leioa, Bizkaia, Spain.",
+          "Department of Philosophy (UPV/EHU), Avenida de Tolosa 70, 20018 Donostia-San Sebastian, Gipuzkoa, Spain."
+        ]
+      },
+      {
+        "full_name": "De Martino, Daniele",
+        "short_name": "De Martino D",
+        "identifiers": [],
+        "affiliations": [
+          "Biofisika Institute (CSIC, UPV/EHU), Barrio Sarriena s/n. 48940 Leioa, Bizkaia, Spain.",
+          "Ikerbasque Foundation, Alameda Urquijo, 36, 48011 Bilbao, Bizkaia, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2023 Apr 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/31 06:00",
+    "fetched_at": "2026-09-20 20:44:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36343363",
+      "36227468",
+      "35831310",
+      "35172289",
+      "34725154",
+      "34426986",
+      "34241502",
+      "34235141",
+      "34163823",
+      "34163069",
+      "34141141",
+      "34005864",
+      "33056997",
+      "31871201",
+      "31284181",
+      "30873835",
+      "28935776",
+      "28256228",
+      "27824447",
+      "24848239",
+      "19747931",
+      "16383468",
+      "14683134",
+      "13449108",
+      "10032314"
+    ],
+    "similar": [
+      "36994084",
+      "23912807",
+      "37276062",
+      "33704061",
+      "34074792",
+      "21693862",
+      "35881789",
+      "34636323",
+      "34552246",
+      "36004748",
+      "29509422",
+      "36227486",
+      "33982350",
+      "25019754",
+      "36279601",
+      "34965250",
+      "31634364",
+      "33049214",
+      "36080291",
+      "31266957",
+      "33300985",
+      "21230139",
+      "36311142",
+      "34236318",
+      "36537016",
+      "34303933",
+      "32800925",
+      "35796975",
+      "26821792",
+      "36524527",
+      "34753115",
+      "32405004",
+      "26465431",
+      "36758221",
+      "30506158",
+      "30506159",
+      "35954258",
+      "33539874",
+      "31604601",
+      "21920322",
+      "33864415",
+      "33113512",
+      "26596289",
+      "35291155",
+      "32530003",
+      "31574721",
+      "33812316",
+      "11970278",
+      "19754142",
+      "35016968",
+      "16089733",
+      "25176255",
+      "30682370",
+      "36436394",
+      "34772789",
+      "36227469",
+      "10708509"
+    ],
+    "review": [
+      "36994084",
+      "37276062",
+      "29509422",
+      "36279601",
+      "33049214",
+      "33300985",
+      "36311142",
+      "34303933",
+      "32800925",
+      "26821792",
+      "36524527",
+      "34753115",
+      "30506158",
+      "30506159",
+      "35954258",
+      "33539874",
+      "31604601",
+      "21920322",
+      "33812316",
+      "30682370"
+    ],
+    "pmc": [
+      "10040705"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(23)00377-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36994084/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36994084",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

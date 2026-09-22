@@ -1,0 +1,477 @@
+{
+  "identity": {
+    "pmid": "40950056",
+    "doi": "10.1101/2025.09.01.673455",
+    "title": "An electrostatic repulsion model of centromere organisation."
+  },
+  "content": {
+    "abstract": "During cell division, chromosomes reorganise into compact bodies in which centromeres localise precisely at the chromatin surface(1-4) to enable kinetochore-microtubule interactions essential for genome segregation(5-8). The physical principles guiding this centromere positioning remain unknown. Here, we reveal that human core centromeres are directed to the chromatin surface by repulsion of centromere-associated proteins - independent of condensin-mediated loop extrusion and microtubule engagement. Using cellular perturbations, biochemical reconstitution, and multiscale molecular dynamics simulations, we show that chromatin surface localisation emerges from repulsion between condensed chromatin and both the kinetochore and the highly negatively charged centromere protein, CENP-B. Together, these elements form a centromeric region composed of two domains with opposing affinities, one favouring integration within the mitotic chromosome and the other favouring exposure to the surrounding cytoplasm, thereby driving surface positioning. Tethering synthetic negatively charged proteins to chromatin was sufficient to recapitulate this surface localisation in cells and in vitro, indicating that electrostatic repulsion is a key determinant of surface localisation. These findings demonstrate that centromere layering is not hardwired by chromatin folding patterns but instead emerges from phase separation in chromatin. Our work uncovers electrostatic polarity as a general and programmable mechanism to spatially organise chromatin.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bell, Caelan",
+        "Chen, Lifeng",
+        "Maristany, M Julia",
+        "Blaukopf, Claudia",
+        "Zhou, Huabin",
+        "Huertas, Jan",
+        "Perez Lopez, Jose I",
+        "Langer, Christoph C H",
+        "Steinacker, Thomas L",
+        "Schutte, Nikki",
+        "Doolittle, Lynda K",
+        "Espinosa, Jorge R",
+        "Redding, Sy",
+        "Collepardo-Guevara, Rosana",
+        "Rosen, Michael K",
+        "Gerlich, Daniel W"
+      ],
+      "short_names": [
+        "Bell C",
+        "Chen L",
+        "Maristany MJ",
+        "Blaukopf C",
+        "Zhou H",
+        "Huertas J",
+        "Perez Lopez JI",
+        "Langer CCH",
+        "Steinacker TL",
+        "Schutte N",
+        "Doolittle LK",
+        "Espinosa JR",
+        "Redding S",
+        "Collepardo-Guevara R",
+        "Rosen MK",
+        "Gerlich DW"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9866-8353",
+        "ORCID: 0000-0002-7788-0806",
+        "ORCID: 0000-0003-1781-7351",
+        "ORCID: 0000-0002-0775-7917",
+        "ORCID: 0000-0003-1637-3365"
+      ],
+      "affiliations": [
+        "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter, 1030 Vienna, Austria.",
+        "Vienna BioCenter PhD Program, Doctoral School of the University of Vienna and Medical University of Vienna, 1030 Vienna, Austria.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+        "Department of Biophysics and Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK.",
+        "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter, 1030 Vienna, Austria.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+        "Department of Biophysics and Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK.",
+        "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter, 1030 Vienna, Austria.",
+        "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter, 1030 Vienna, Austria.",
+        "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter, 1030 Vienna, Austria.",
+        "Department of Biophysics and Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK.",
+        "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040, Madrid, Spain.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+        "Department of Biochemistry and Molecular Biotechnology, University of Massachusetts Chan Medical School, Worcester, MA, USA.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK.",
+        "Department of Genetics, University of Cambridge, Cambridge CB2 3EH, UK.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+        "Department of Biophysics and Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter, 1030 Vienna, Austria.",
+        "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bell, Caelan",
+        "short_name": "Bell C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter, 1030 Vienna, Austria.",
+          "Vienna BioCenter PhD Program, Doctoral School of the University of Vienna and Medical University of Vienna, 1030 Vienna, Austria.",
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Lifeng",
+        "short_name": "Chen L",
+        "identifiers": [
+          "0000-0002-9866-8353"
+        ],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+          "Department of Biophysics and Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Maristany, M Julia",
+        "short_name": "Maristany MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, UK.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Blaukopf, Claudia",
+        "short_name": "Blaukopf C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter, 1030 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huabin",
+        "short_name": "Zhou H",
+        "identifiers": [
+          "0000-0002-7788-0806"
+        ],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+          "Department of Biophysics and Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Huertas, Jan",
+        "short_name": "Huertas J",
+        "identifiers": [],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, UK.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Perez Lopez, Jose I",
+        "short_name": "Perez Lopez JI",
+        "identifiers": [],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Langer, Christoph C H",
+        "short_name": "Langer CCH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter, 1030 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Steinacker, Thomas L",
+        "short_name": "Steinacker TL",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter, 1030 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Schütte, Nikki",
+        "short_name": "Schütte N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter, 1030 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Doolittle, Lynda K",
+        "short_name": "Doolittle LK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK.",
+          "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Redding, Sy",
+        "short_name": "Redding S",
+        "identifiers": [],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+          "Department of Biochemistry and Molecular Biotechnology, University of Massachusetts Chan Medical School, Worcester, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [
+          "0000-0003-1781-7351"
+        ],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, UK.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK.",
+          "Department of Genetics, University of Cambridge, Cambridge CB2 3EH, UK."
+        ]
+      },
+      {
+        "full_name": "Rosen, Michael K",
+        "short_name": "Rosen MK",
+        "identifiers": [
+          "0000-0002-0775-7917"
+        ],
+        "affiliations": [
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA.",
+          "Department of Biophysics and Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Gerlich, Daniel W",
+        "short_name": "Gerlich DW",
+        "identifiers": [
+          "0000-0003-1637-3365"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biotechnology of the Austrian Academy of Sciences (IMBA), Vienna BioCenter, 1030 Vienna, Austria.",
+          "Marine Biological Laboratory Chromatin Collaborative, Marine Biological Laboratory, Woods Hole, MA 02543, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Sep 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/15 12:32",
+    "fetched_at": "2026-09-17 20:10:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40628730",
+      "39983411",
+      "38981198",
+      "38856923",
+      "38744280",
+      "38570684",
+      "37774136",
+      "37488172",
+      "37279615",
+      "37231112",
+      "36309499",
+      "35721504",
+      "35601683",
+      "35379945",
+      "35357915",
+      "35357911",
+      "34001913",
+      "33767413",
+      "33753005",
+      "33619390",
+      "32968280",
+      "32879492",
+      "32396063",
+      "31591575",
+      "31543265",
+      "31230958",
+      "30185825",
+      "30115751",
+      "29472443",
+      "28125021",
+      "27858158",
+      "26698661",
+      "26601620",
+      "26124289",
+      "25961503",
+      "25477464",
+      "25203206",
+      "24116630",
+      "22230574",
+      "21529714",
+      "20566683",
+      "20483991",
+      "19543270",
+      "19450515",
+      "19261808",
+      "19114591",
+      "16626213",
+      "16488867",
+      "16199875",
+      "15634350",
+      "15562006",
+      "14581192",
+      "11879637",
+      "11356361",
+      "9514715",
+      "9382805",
+      "2808515",
+      "1730770"
+    ],
+    "similar": [
+      "40950056",
+      "32250245",
+      "11682612",
+      "21874020",
+      "37343495",
+      "19714251",
+      "21695110",
+      "35179192",
+      "39855195",
+      "37295434",
+      "31363034",
+      "42216547",
+      "39415429",
+      "21738837",
+      "19641019",
+      "12928332",
+      "27807043",
+      "38690324",
+      "20012585",
+      "25104354",
+      "32049040",
+      "35721504",
+      "23661703",
+      "24531725",
+      "25943375",
+      "39937678",
+      "41137946",
+      "22536162",
+      "21911481",
+      "25476240",
+      "10219728",
+      "38086807",
+      "36412794",
+      "28167779",
+      "38856923",
+      "25365994",
+      "33081635",
+      "35422390",
+      "27858158",
+      "17339379",
+      "31679929",
+      "27880912",
+      "29565577",
+      "34734636",
+      "27270040",
+      "33653953",
+      "28840251",
+      "29653589",
+      "22540025",
+      "30498087",
+      "22617165",
+      "42303627",
+      "28827290",
+      "29280735",
+      "40631212",
+      "26076692",
+      "31160708",
+      "21413369",
+      "23184928",
+      "17825050",
+      "40147439",
+      "37958853",
+      "33725591",
+      "16756479",
+      "36037227",
+      "27581771",
+      "17222555",
+      "38979348",
+      "34493071",
+      "32931551",
+      "32150559",
+      "34193424",
+      "25027692",
+      "12719471",
+      "29569072",
+      "31597104",
+      "18347072",
+      "12515822",
+      "2335558",
+      "41145915",
+      "24762765",
+      "10619130",
+      "26845548",
+      "35320753",
+      "19656847",
+      "42262626",
+      "28840236",
+      "32859127",
+      "22495302",
+      "23028505",
+      "16199875",
+      "14612452",
+      "29273057",
+      "17651496",
+      "26151904",
+      "30445992",
+      "23893485",
+      "29621654",
+      "38403686",
+      "23818633"
+    ],
+    "review": [
+      "40950056",
+      "37343495",
+      "42216547",
+      "20012585",
+      "35721504",
+      "41137946",
+      "36412794",
+      "38856923",
+      "35422390",
+      "27858158",
+      "28840251",
+      "16756479",
+      "36037227",
+      "34493071",
+      "29569072",
+      "10619130",
+      "42262626",
+      "28840236"
+    ],
+    "pmc": [
+      "12424837"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40950056/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.09.01.673455",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

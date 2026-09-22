@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.02.18.481017",
+  "title": "Protein compactness and interaction valency define the architecture of a biomolecular condensate across scales",
+  "authors": "Polyansky AA; Gallego LD; Efremov RG; Köhler A; Zagrovic B",
+  "journal": "bioRxiv",
+  "published_date": "2022-02-19",
+  "window": {
+    "start": "2022-02-14",
+    "end": "2022-02-20"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过全原子MD模拟结合解析理论，从单链到多链尺度揭示Lge1无序片段相分离凝聚体的架构，将蛋白致密性与互作价态关联至凝聚体分形结构，是IDR介导PPI与相分离机制建模的典范。",
+  "abstract": "Non-membrane-bound biomolecular condensates have been proposed to represent an important mode of subcellular organization in diverse biological settings. However, the fundamental principles governing the spatial organization and dynamics of condensates at the atomistic level remain unclear. The S. cerevisiae Lge1 protein is required for histone H2B ubiquitination and its N-terminal intrinsically disordered fragment (Lge1 1-80 ) undergoes robust phase separation. This study connects single- and multi-chain all-atom molecular dynamics simulations of Lge1 1-80 with the in vitro behavior of Lge1 1-80 condensates. Analysis of modelled protein-protein interactions elucidates the key determinants of Lge1 1-80 condensate formation and links configurational entropy, valency and compactness of proteins inside the condensates. A newly derived analytical formalism, related to colloid fractal cluster formation, describes condensate architecture across length scales as a function of protein valency and compactness. In particular, the formalism provides an atomistically resolved model of Lge1 1-80 condensates on the scale of hundreds of nanometers starting from individual protein conformers captured in simulations. The simulation-derived fractal dimensions of condensates of Lge1 1-80 and its mutants agree with their in vitro morphologies. The presented framework enables a multiscale description of biomolecular condensates and embeds their study in a wider context of colloid self-organization.",
+  "abstract_zh": "非膜结合的生物分子凝聚体已被提出代表多种生物环境中亚细胞组织的一种重要模式。然而，控制凝聚体在原子层面上的空间组织和动力学的基本原理仍不清楚。酿酒酵母（S. cerevisiae）的Lge1蛋白是组蛋白H2B泛素化所必需的，其N端 intrinsically disordered 片段（Lge1 1-80）经历稳健的相分离 (phase separation)。本研究将Lge1 1-80的单链和多链全原子分子动力学 (molecular dynamics) 模拟与其体外凝聚体行为联系起来。对模拟蛋白质-蛋白质相互作用的分析阐明了Lge1 1-80凝聚体形成的关键决定因素，并将凝聚体内蛋白质的构象熵、价态和紧凑性联系起来。一个新推导的解析形式体系，与胶体分形簇形成相关，描述了跨长度尺度的凝聚体结构，作为蛋白质价态和紧凑性的函数。特别是，该形式体系提供了从模拟中捕获的单个蛋白质构象体出发，在数百纳米尺度上Lge1 1-80凝聚体的原子级分辨模型。模拟得出的Lge1 1-80及其突变体凝聚体的分形维度与其体外形态一致。所提出的框架能够对生物分子凝聚体进行多尺度描述，并将其研究嵌入到胶体自组织的更广泛背景中。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.02.18.481017",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.02.18.481017",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.02.18.481017/index.html"
+}

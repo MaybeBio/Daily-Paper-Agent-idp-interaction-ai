@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.21.713350",
+  "title": "CGRig: a rigid-body protein model with residue-level interaction sites for long-time and large-scale protein assembly simulation",
+  "authors": "Yosuke Teshirogi; Tohru Terada",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-24",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出CGRig刚性体粗粒化蛋白模型，以残基级位点模拟蛋白组装，虽非针对无序蛋白，但其长时程大规模PPI组装模拟方法对IDR介导互作机制建模具有可迁移启发。",
+  "abstract": "Molecular dynamics (MD) simulations are a powerful tool for investigating biomolecular dynamics underlying biological functions. However, the accessible spatiotemporal scales of conventional all-atom simulations remain limited by high computational costs. Coarse-graining reduces these costs by decreasing the number of interaction sites and enabling longer timesteps. In extreme cases, proteins are represented as single spherical particles; while such approximations facilitate cellular-scale simulations, they often sacrifice essential structural information, such as molecular shape and interaction anisotropy. Here, we present CGRig, a rigid-body protein model with residue-level interaction sites designed for long-time, large-scale simulations. In CGRig, each protein is treated as a single rigid-body embedding residue-level interaction sites. Its translational and rotational motions are described by the overdamped Langevin equation incorporating a shape-dependent friction matrix. Intermolecular interactions are calculated using Gō-like native contact potentials, Debye–Hückel electrostatics, and volume exclusion. We validated that CGRig accurately reproduces the translational and rotational diffusion coefficients expected from the friction matrix for an isolated protein. For dimeric systems, the model successfully maintained native complex structures. Furthermore, two initially separated proteins converged into the correct complex with an association rate consistent with all-atom simulations. Notably, CGRig achieved a simulation performance exceeding 17 μs/day for a 1,024-molecule system. These results demonstrate that CGRig provides an efficient framework for simulating protein assembly while retaining residue-level interaction specificity, making it a valuable tool for investigating large-scale biomolecular self-assembly.",
+  "abstract_zh": "分子动力学（molecular dynamics, MD）模拟是研究支撑生物功能的生物分子动力学的强大工具。然而，传统全原子模拟可访问的时空尺度受限于高昂的计算成本。粗粒化通过减少相互作用位点数量并允许更长的积分步长来降低这些成本。在极端情况下，蛋白质被表示为单个球形粒子；尽管这种近似促进了细胞尺度模拟，但往往牺牲了必要的结构信息，如分子形状和相互作用各向异性。在此，我们提出CGRig，一种具有残基级相互作用位点的刚体蛋白质模型，专为长时间、大规模模拟设计。在CGRig中，每个蛋白质被视为一个嵌入残基级相互作用位点的单一刚体。其平移和旋转运动由包含形状依赖性摩擦矩阵的过阻尼朗之万方程描述。分子间相互作用通过Gō样天然接触势、Debye–Hückel静电和体积排斥计算。我们验证了CGRig能准确再现孤立蛋白质由摩擦矩阵预期的平移和旋转扩散系数。对于二聚体系统，该模型成功维持了天然复合物结构。此外，两个初始分离的蛋白质收敛到正确复合物，其结合速率与全原子模拟一致。值得注意的是，CGRig在1,024分子系统上实现了超过17 μs/天的模拟性能。这些结果表明，CGRig提供了一种高效框架，用于模拟蛋白质组装，同时保留残基级相互作用特异性，使其成为研究大规模生物分子自组装的有价值工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.21.713350",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.21.713350",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.21.713350/index.html"
+}

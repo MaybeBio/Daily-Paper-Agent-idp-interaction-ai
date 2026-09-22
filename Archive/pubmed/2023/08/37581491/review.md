@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract
+- **Shared manuscript claim summary** The authors propose HydroDisPred (HDP), a single-parameter algorithm based on the fraction of hydrophobicity (lambda) per protein segment, for predicting disordered regions. They claim performance on par with or better than existing algorithms, validated against DisProt data, and independence from training data unlike machine learning approaches. A web server is provided.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or quantitative results provided
+- **Missing materials affecting confidence** Full manuscript, methods description, validation statistics, benchmark details, DisProt dataset version and filtering criteria, comparison algorithms and their parameter settings, web server implementation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually simple and potentially useful approach to disorder prediction, but the evidence provided is insufficient to evaluate the central claims. No quantitative performance metrics, benchmark methodology, or statistical comparisons are shown. The claim of superiority over existing algorithms and the distinction from machine learning approaches require detailed validation that is not visible in the abstract.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein structure and function prediction, particularly those developing or using disorder prediction tools. Experimental structural biologists studying intrinsically disordered proteins may also find a simple, training-free predictor attractive for rapid screening.
+- **Major strengths** The proposed method is conceptually simple, using a single physicochemical parameter, which could offer interpretability and ease of use. The claim of independence from training data, if substantiated, would address a practical limitation of many machine learning predictors. Provision of a public web server enhances accessibility and reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The algorithm "was found to be on par and, in some cases, more effective than the existing algorithms"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No quantitative performance metrics, benchmark datasets, or statistical tests are reported. The abstract does not specify which algorithms were compared, under what conditions, or with what evaluation criteria (e.g., AUC, Matthews correlation coefficient, precision-recall).
+  - **Why it matters** Without quantitative evidence, the claim of parity or superiority cannot be assessed. Performance claims in prediction method papers require rigorous benchmarking against established tools on standardized datasets.
+  - **Resolution test** Provide a table or figure with performance metrics (e.g., AUC, MCC, F1) for HDP and at least three existing predictors on a common benchmark set, with confidence intervals or statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "HDP uses a single parameter, the fraction of hydrophobicity (lambda) in each segment of the protein"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not define how segments are chosen, how lambda is computed, what threshold is used for disorder classification, or how the method handles sequence boundaries and variable segment lengths. The algorithm is not described in sufficient detail to be reproduced.
+  - **Why it matters** A prediction method must be described with enough specificity for independent implementation. The absence of methodological detail prevents verification and limits the scientific utility of the claim.
+  - **Resolution test** Provide a complete algorithmic description in the methods section, including segment definition, lambda calculation, threshold selection, and any preprocessing steps, with pseudocode or a flow diagram.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation scope
+  - **Claim pointer** "validated using experimental data from the DisProt database"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify the DisProt version, the number of proteins or regions used, the criteria for inclusion or exclusion, or how the validation set was split (if at all). It is unclear whether the method was tested on a held-out set or the same data used for any parameter tuning.
+  - **Why it matters** Validation on a biased or non-representative dataset can inflate performance estimates. The lack of dataset details prevents assessment of generalizability and comparability with other studies.
+  - **Resolution test** Describe the DisProt version, the exact number of proteins and disordered regions, inclusion and exclusion criteria, and whether any parameters were tuned on this dataset. If tuning occurred, describe cross-validation or independent test procedures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title, location not provided
+  - **Issue** The phrase "Hydrophobicity horizontal line" is ambiguous and does not clearly convey the method's nature. The title may mislead readers about the content.
+  - **Required correction** Revise the title to more accurately reflect the method, for example "A Single Hydrophobicity Parameter for Accurate Prediction of Disordered Regions in Proteins" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Web server
+  - **Evidence pointer** Abstract, URL provided
+  - **Issue** The abstract states the application is housed in a web server but does not describe the input format, output format, or any usage limitations. No information is given on whether the server is freely accessible, requires registration, or has usage quotas.
+  - **Required Correction** Add a brief description of the web server interface, input and output formats, and access conditions in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison fairness
+  - **Affected element** Comparison with existing algorithms
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The claim that HDP is "not affected by the availability of training data, unlike other ML approaches" implies a comparison with machine learning methods, but no specific ML algorithms are named or compared.
+  - **Required Correction** Specify which machine learning predictors were compared and provide details on their training data and versions to ensure a fair comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of performance, methodological clarity, and validation scope are not supported by the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The single-parameter approach is conceptually novel relative to complex machine learning predictors, but the abstract does not demonstrate how this novelty translates into practical advantage. Scientific importance: Disorder prediction is a relevant problem, and a simple, interpretable method could be valuable, but the importance is not established without robust validation. Interdisciplinary readership: The abstract is accessible to a broad structural biology and bioinformatics audience, but the lack of quantitative detail limits its appeal to method developers. Technical soundness: Not assessable from the abstract; the method description and validation are insufficient. Readability for nonspecialists: The abstract is clear and concise, but the title is confusing and the technical claims are unsubstantiated.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising idea, but the central claims require full manuscript review with detailed methods and quantitative validation. A revised abstract with performance metrics and methodological specifics could strengthen the case, but the current submission does not provide sufficient support.
+
+## Risk / unsupported claims
+- The claim of being "on par and, in some cases, more effective than the existing algorithms" is unsupported without quantitative comparisons.
+- The claim that prediction is "not affected by the availability of training data" is unverifiable from the abstract and requires a formal demonstration of parameter independence.
+- The general applicability of the method across diverse protein types and sequence lengths is not assessable from the abstract.
+- The web server's functionality, reliability, and user accessibility cannot be evaluated from the abstract alone.

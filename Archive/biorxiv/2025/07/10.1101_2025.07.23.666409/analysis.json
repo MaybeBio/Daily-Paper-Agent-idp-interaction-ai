@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.23.666409",
+  "title": "Spatially Resolved Reaction–Diffusion Modeling Reveals Effects of Intracellular Spatial Heterogeneity on Yeast Galactose Network Dynamics",
+  "authors": "Wu T; Spindler M; Apsley AT; Earnest E; Thornburg ZR; Mahamid J; Luthey-Schulten Z",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-28",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用反应-扩散模型模拟酵母半乳糖网络的空间异质性，但对象为折叠蛋白基因调控网络，不涉及无序蛋白/IDR/相分离PPI，且方法为传统建模而非AI或物理模拟，与本课题关联微弱。",
+  "abstract": "Eukaryotic cells are spatially organized into functionally-distinct compartments. This three-dimensional(3D) organization generates intracellular heterogeneities that can modulate regulatory dynamics. Despite this knowledge of subcellular organization, most quantitative gene-regulation models still assume a well-mixed environment in which molecules can react regardless of their spatial positions. Here, we use the well-established galactose switch in budding yeast ( Saccharomyces cerevisiae ) to develop spatially-resolved models that integrate experimentally-derived intracellular architectures, including chromosome organization, the endoplasmic reticulum (ER) and spatially distinct ribosome populations. We implement a hybrid stochastic–deterministic framework in which gene expression is modeled using a reaction–diffusion master equation that enforces locality (i.e., reactions occur only when molecules are in physical proximity), while metabolic and transport processes are captured by ordinary differential equations. Guided by electron microscopy and biochemical constraints, we quantify how accounting for intracellular spatial organization alters regulatory predictions in the galactose switch. We show that chromosome geometry has little effect on Gal2p output, whereas ER-associated translation reduces Gal2p delivery to the plasma membrane; the largest decrease of Gal2p abundance occurs when translation of GAL2 mRNA is restricted to a population of ribosomes physically bound to the ER. Together, these results demonstrate that more realistic 3D cellular architectures and local reaction rules can qualitatively change regulatory predictions, motivating integration of intracellular organization in future whole-cell models. <h4>Author Summary</h4> Eukaryotic cells are highly organized spaces with distinct subcellular compartments and heterogeneous distributions of molecules which influence how cells function. Yet, most computational models of gene regulation assume a spatially homogeneous intracellular environment. To quantify how intracellular architecture influences regulatory predictions, we developed spatially resolved models of the galactose switch in budding yeast, a well-characterized gene regulatory system controlling the response to extracellular galactose. We compared conventional well-stirred simulations with models that explicitly incorporate experimentally informed intracellular organization, including chromosome positioning, endoplasmic reticulum geometry, and functionally distinct ribosome populations. Incorporating these spatial features substantially altered the dynamics of predicted gene activity, protein production, and intracellular sugar levels. Our results demonstrate that the three-dimensional organization of eukaryotic cells can significantly change regulatory outcomes of computational models, underscoring the need for integrating realistic spatial architectures in future models of eukaryotic gene regulation.",
+  "abstract_zh": "真核细胞在空间上被组织成功能不同的区室。这种三维（3D）组织产生了细胞内异质性，可调节调控动态。尽管已知亚细胞组织的这一知识，大多数定量基因调控模型仍假设一个充分混合的环境，其中分子无论其空间位置如何都能发生反应。在此，我们利用芽殖酵母（Saccharomyces cerevisiae）中成熟的半乳糖开关，开发了空间分辨模型，整合了实验衍生的细胞内结构，包括染色体组织、内质网（ER）和空间上不同的核糖体群体。我们实施了一个混合随机-确定性框架，其中基因表达通过反应-扩散主方程建模，该方程强制局部性（即，反应仅在分子物理接近时发生），而代谢和运输过程由常微分方程捕获。在电子显微镜和生化约束的指导下，我们量化了考虑细胞内空间组织如何改变半乳糖开关中的调控预测。我们表明，染色体几何对Gal2p输出影响很小，而ER相关翻译减少了Gal2p向质膜的递送；当GAL2 mRNA的翻译被限制在物理上结合于ER的核糖体群体时，Gal2p丰度的最大下降发生。综合来看，这些结果表明，更真实的三维细胞结构和局部反应规则可以定性改变调控预测，激励在未来全细胞模型中整合细胞内组织。<h4>作者总结</h4>真核细胞是高度组织的空间，具有不同的亚细胞区室和异质性分子分布，这些影响细胞功能。然而，大多数基因调控的计算模型假设空间均匀的细胞内环境。为了量化细胞内结构如何影响调控预测，我们开发了芽殖酵母中半乳糖开关的空间分辨模型，这是一个特征明确的基因调控系统，控制对细胞外半乳糖的响应。我们比较了传统的充分搅拌模拟与明确纳入实验信息细胞内组织的模型，包括染色体定位、内质网几何和功能上不同的核糖体群体。纳入这些空间特征显著改变了预测基因活性、蛋白质生产和细胞内糖水平的动态。我们的结果表明，真核细胞的三维组织可以显著改变计算模型的调控结果，强调在未来真核基因调控模型中整合真实空间结构的必要性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666409",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666409",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.23.666409/index.html"
+}

@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "42519490",
+    "doi": "10.3389/fbinf.2026.1809047",
+    "title": "Integrative analysis of YTHDC1 phosphoproteome unveils its phosphomodulatory network linked to splicing and tumorigenesis."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: YTH domain-containing protein 1 (YTHDC1) is a nuclear m6A reader with well-known roles in mRNA splicing, nuclear mRNA export, and DNA damage response. Although over 44 phosphosites, including those within the YTH domain, are detected in phosphoproteomic datasets, the phosphoregulatory mechanism that governs YTHDC1 function remains unknown. METHODS: To delineate the phosphoregulatory landscape of YTHDC1, we conducted an integrative analysis of large-scale human phosphoproteomic datasets. The phosphosites were ranked according to their frequency of occurrence, and most recurrent sites were considered predominant. To explore their biological significance, we combined co-phosphorylation analysis with upstream kinase prediction and protein-interaction network mapping. RESULT: Three phosphosites, S308 and S146 located in the intrinsically disordered regions and S424 in the YTH domain, were identified as predominantly perturbed across datasets. Functional enrichment analysis of phosphosites in other proteins (PsOPs) co-regulated with these YTHDC1 phosphosites revealed their potential association with mRNA processing and splicing. Considering that no kinases are validated for these sites, phosphomotif-based analysis identified upstream kinases such as MAPK14, CDK7, AKT1, and PAK1. Annotation of phosphosites in these kinases co-regulated with the predominant YTHDC1 phosphosites demonstrated their association with kinase activity, reiterating their potential role as upstream kinases. The PsOPs, including these kinases, as well as many validated binary interactors associated with splicing-related functions, were enriched in the YTHDC1 phosphoregulatory network. Notably, 30 of the co-regulated PsOPs were enriched in pathways that are linked to carcinogenesis, and 4 were in DNA repair inhibition, thereby corroborating their possible role in phosphorylation-dependent signaling associated with cancer. CONCLUSION: Considering that targeted molecular biology experiments to explore the role of multiple phosphosites are challenging, our approach provides a suitable framework to infer phospho-site centric regulatory networks. Current findings suggest a putative role of YTHDC1 and its predominant phosphosites in RNA splicing and highlight its regulatory potential in tumor-associated signaling networks.",
+    "keywords": [
+      "YTHDC1",
+      "mRNA processing",
+      "phosphoproteomics",
+      "splicing",
+      "tumorigenesis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shaji, Megha",
+        "John, Levin",
+        "Subair, Suhail",
+        "Thomas, Jaytha",
+        "Sambreena, Alimath",
+        "Varghese, Susmi",
+        "Gopalakrishnan, Athira Perunelly",
+        "Gopalakrishnan, Vaishnavi",
+        "Krishna, Rajesh",
+        "Raju, Rajesh",
+        "Soman, Sowmya"
+      ],
+      "short_names": [
+        "Shaji M",
+        "John L",
+        "Subair S",
+        "Thomas J",
+        "Sambreena A",
+        "Varghese S",
+        "Gopalakrishnan AP",
+        "Gopalakrishnan V",
+        "Krishna R",
+        "Raju R",
+        "Soman S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India.",
+        "Institute for Regeneration and Repair, University of Edinburgh, Edinburgh, United Kingdom.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India.",
+        "Zulekha Yenepoya Institute of Oncology, Yenepoya Medical College Hospital, Mangalore, Karnataka, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India.",
+        "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shaji, Megha",
+        "short_name": "Shaji M",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "John, Levin",
+        "short_name": "John L",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India.",
+          "Institute for Regeneration and Repair, University of Edinburgh, Edinburgh, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Subair, Suhail",
+        "short_name": "Subair S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Thomas, Jaytha",
+        "short_name": "Thomas J",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Sambreena, Alimath",
+        "short_name": "Sambreena A",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Varghese, Susmi",
+        "short_name": "Varghese S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Gopalakrishnan, Athira Perunelly",
+        "short_name": "Gopalakrishnan AP",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Gopalakrishnan, Vaishnavi",
+        "short_name": "Gopalakrishnan V",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Krishna, Rajesh",
+        "short_name": "Krishna R",
+        "identifiers": [],
+        "affiliations": [
+          "Zulekha Yenepoya Institute of Oncology, Yenepoya Medical College Hospital, Mangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Raju, Rajesh",
+        "short_name": "Raju R",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Soman, Sowmya",
+        "short_name": "Soman S",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Integrative Omics Data Science, Yenepoya (Deemed to be University), Mangalore, Karnataka, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/28 18:35",
+    "fetched_at": "2026-09-18 05:15:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42123534",
+      "41341998",
+      "41160376",
+      "40995431",
+      "40595907",
+      "40521964",
+      "40501338",
+      "40404917",
+      "40087295",
+      "39725144",
+      "39558183",
+      "39552041",
+      "39414764",
+      "39377984",
+      "39251328",
+      "39135292",
+      "38951610",
+      "38877444",
+      "38762032",
+      "38705823",
+      "38662765",
+      "38203521",
+      "37903990",
+      "37781028",
+      "37151663",
+      "36922750",
+      "36631611",
+      "36582239",
+      "36511722",
+      "36384140",
+      "36339596",
+      "36243972",
+      "35974388",
+      "35966596",
+      "35501308",
+      "35361747",
+      "35351856",
+      "35281802",
+      "34920906",
+      "34850110",
+      "34389000",
+      "34255814",
+      "34205123",
+      "34092037",
+      "33994855",
+      "33070389",
+      "32663306",
+      "31701124",
+      "30016513",
+      "28984244",
+      "28884485",
+      "27141961",
+      "26876937",
+      "26438428",
+      "25670169",
+      "25514926",
+      "24807918",
+      "24771658",
+      "23818142",
+      "23474544",
+      "22135298",
+      "21062810",
+      "18988627",
+      "17981841",
+      "14597658",
+      "12519993"
+    ],
+    "similar": [
+      "42519490",
+      "42254072",
+      "41739315",
+      "41909809",
+      "42564255",
+      "41963591",
+      "38479581",
+      "42045291",
+      "42484065",
+      "42196307",
+      "42179918",
+      "42305666",
+      "41828375",
+      "42340729",
+      "40466753",
+      "42117847",
+      "41828364",
+      "41203242",
+      "42029489",
+      "41341998",
+      "41049126",
+      "41468100",
+      "40521964",
+      "38498023",
+      "41964706",
+      "42589402",
+      "34657574",
+      "36892464",
+      "41649124",
+      "41697101",
+      "40079160",
+      "42475469",
+      "40808719",
+      "42511730",
+      "41936939",
+      "42353285",
+      "41701571",
+      "41601480",
+      "24043427",
+      "35351856",
+      "40501338",
+      "38562798",
+      "35190939",
+      "37781028",
+      "41718090",
+      "34716659",
+      "26876937",
+      "35563766",
+      "42079590",
+      "38318069",
+      "40982243",
+      "42029122",
+      "35659261",
+      "42159329",
+      "40703672",
+      "41553462",
+      "41424949",
+      "35361747",
+      "40126188",
+      "35966596",
+      "36309313",
+      "35139397",
+      "26853621",
+      "27903465",
+      "24981518",
+      "36540966",
+      "41312000",
+      "40113755",
+      "32368386",
+      "40728433",
+      "41843233",
+      "39534605",
+      "41053551",
+      "26187819",
+      "39154757",
+      "41984215",
+      "39475123",
+      "41579257",
+      "38978074",
+      "35685361",
+      "41893729",
+      "28984244",
+      "37099974",
+      "35198364",
+      "40404917",
+      "39725796",
+      "37605650",
+      "27351695",
+      "36819785",
+      "18831774",
+      "31227600",
+      "38566422",
+      "41851027",
+      "29233185",
+      "23322592",
+      "25293948",
+      "29799838",
+      "42309608",
+      "38951610",
+      "40270594"
+    ],
+    "review": [
+      "42519490",
+      "42045291",
+      "35351856",
+      "42159329",
+      "32368386",
+      "41984215",
+      "39475123",
+      "41893729"
+    ],
+    "pmc": [
+      "13381505"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42519490/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAC1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-878",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbinf.2026.1809047",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

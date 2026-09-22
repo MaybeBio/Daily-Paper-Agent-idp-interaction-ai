@@ -1,0 +1,311 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.23.537985",
+  "title": "Mechanism of the Covalent Inhibition of Human Transmembrane Protease Serine 2 as an Original Antiviral Strategy",
+  "doi": "10.1101/2023.04.23.537985",
+  "abstract": "The Transmembrane Protease Serine 2 (TMPRSS2) is a human enzyme which is involved in the maturation and post-translation of different proteins. In addition of being overexpressed in cancer cells, TMPRSS2 plays a further fundamental role in favoring viral infections by allowing the fusion of the virus envelope and the cellular membrane, notably in SARS-CoV-2. In this contribution we resort to multiscale molecular modeling to unravel the structural and dynamical features of TMPRSS2 and its interaction with a model lipid bilayer. Furthermore, we shed light into the mechanism of action of a potential inhibitor (Nafamostat), determining the free-energy profile associated with the inhibition reaction, and showing the facile poisoning of the enzyme. Our study, while providing the first atomistically resolved mechanism of TMPRSS2 inhibition, is also fundamental in furnishing a solid framework for further rational design targeting transmembrane proteases in a host-directed antiviral strategy. <h4>TOC GRAPHICS</h4>",
+  "authors": [
+    "Spinello A",
+    "D’Anna L",
+    "Bignon E",
+    "Miclot T",
+    "Grandemange S",
+    "Terenzi A",
+    "Barone G",
+    "Barbault F",
+    "Monari A"
+  ],
+  "published_date": "2023-04-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.23.537985",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.23.537985.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR650274",
+    "raw_record": {
+      "id": "PPR650274",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR650274"
+        ]
+      },
+      "doi": "10.1101/2023.04.23.537985",
+      "title": "Mechanism of the Covalent Inhibition of Human Transmembrane Protease Serine 2 as an Original Antiviral Strategy",
+      "authorString": "Spinello A, D’Anna L, Bignon E, Miclot T, Grandemange S, Terenzi A, Barone G, Barbault F, Monari A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Spinello A",
+            "lastName": "Spinello",
+            "firstName": "Angelo",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological, Chemical and Pharmaceutical Sciences, University of Palermo, 90126 Palermo, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "D’Anna L",
+            "lastName": "D’Anna",
+            "firstName": "Luisa",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological, Chemical and Pharmaceutical Sciences, University of Palermo, 90126 Palermo, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bignon E",
+            "lastName": "Bignon",
+            "firstName": "Emmanuelle",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9475-5049"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Université de Lorraine and CNRS, UMR 7019 LPCT, F-54000 Nancy, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Miclot T",
+            "lastName": "Miclot",
+            "firstName": "Tom",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological, Chemical and Pharmaceutical Sciences, University of Palermo, 90126 Palermo, Italy"
+                },
+                {
+                  "affiliation": "Université de Lorraine and CNRS, UMR 7019 LPCT, F-54000 Nancy, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grandemange S",
+            "lastName": "Grandemange",
+            "firstName": "Stéphanie",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4101-6303"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Université de Lorraine and CNRS, UMR 7039 CRAN, F-54000 Nancy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Terenzi A",
+            "lastName": "Terenzi",
+            "firstName": "Alessio",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9751-1373"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological, Chemical and Pharmaceutical Sciences, University of Palermo, 90126 Palermo, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barone G",
+            "lastName": "Barone",
+            "firstName": "Giampaolo",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8773-2359"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological, Chemical and Pharmaceutical Sciences, University of Palermo, 90126 Palermo, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barbault F",
+            "lastName": "Barbault",
+            "firstName": "Florent",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6082-3194"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Université Paris Cité and CNRS, ITODYS F-75006 Paris, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Monari A",
+            "lastName": "Monari",
+            "firstName": "Antonio",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9464-1463"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Université Paris Cité and CNRS, ITODYS F-75006 Paris, France"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8773-2359"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9464-1463"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9475-5049"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9751-1373"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4101-6303"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6082-3194"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The Transmembrane Protease Serine 2 (TMPRSS2) is a human enzyme which is involved in the maturation and post-translation of different proteins. In addition of being overexpressed in cancer cells, TMPRSS2 plays a further fundamental role in favoring viral infections by allowing the fusion of the virus envelope and the cellular membrane, notably in SARS-CoV-2. In this contribution we resort to multiscale molecular modeling to unravel the structural and dynamical features of TMPRSS2 and its interaction with a model lipid bilayer. Furthermore, we shed light into the mechanism of action of a potential inhibitor (Nafamostat), determining the free-energy profile associated with the inhibition reaction, and showing the facile poisoning of the enzyme. Our study, while providing the first atomistically resolved mechanism of TMPRSS2 inhibition, is also fundamental in furnishing a solid framework for further rational design targeting transmembrane proteases in a host-directed antiviral strategy. <h4>TOC GRAPHICS</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/04/24/2023.04.23.537985.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.04.23.537985"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR650274"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR650274&type=FILE&fileName=EMS174801-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37428676",
+            "reference": "The journal of physical chemistry. B. 2023 Jul;127(28):6287-6295",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS174801",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-04-27",
+      "firstPublicationDate": "2023-04-24",
+      "firstIndexDate": "2023-04-27",
+      "fullTextReceivedDate": "2023-04-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

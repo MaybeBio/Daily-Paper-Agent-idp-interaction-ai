@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.22.701204",
+  "title": "ESMDisPred: A Structure-Aware CNN-Transformer Architecture for Intrinsically Disordered Protein Prediction",
+  "authors": "Md Wasi Ul Kabir; Ayon Dey; Farzeen Nafees; Md Tamjidul Hoque",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-24",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于ESM2语言模型和CNN-Transformer混合架构的IDP无序区域预测方法，对象轴（IDP）和方法轴（AI）命中，但仅预测无序性而非PPI互作机制，互作轴缺失，故综合评分为5。",
+  "abstract": "Intrinsically disordered proteins (IDPs) lack stable three-dimensional structures, yet play vital roles in key biological processes, including signaling, transcription regulation, and molecular scaffolding. Their structural flexibility presents significant challenges for experimental characterization and contributes to diseases such as cancer and neurodegenerative disorders. Accurate computational prediction of IDPs is important for advancing research and drug discovery, structural biology, and protein engineering. In this study, we introduce ESMDisPred, a novel structure-aware disorder predictor that builds on the representational power of Evolutionary Scale Modeling-2 (ESM2) protein language models. ESMDisPred integrates sequence embeddings with structural information from the Protein Data Bank (PDB) to deliver state-of-the-art prediction accuracy. Model performance is further enhanced through feature engineering strategies, including terminal residue encoding, statistical summarization, and sliding-window analysis. To capture both local sequence motifs and long-range dependencies, we designed a hybrid CNN-Transformer architecture that balances convolutional efficiency with the representational power of self-attention. On CAID3 benchmarks, our latest model achieves ROC-AUC 0.895, AP 0.778, and a max F1 of 0.759, outperforming recent methods. Our results highlight the importance of integrating protein language model embeddings with explicit structural information for improved disorder prediction.",
+  "abstract_zh": "固有无序蛋白（IDPs）缺乏稳定的三维结构，但在信号传导、转录调控和分子支架等关键生物过程中发挥重要作用。其结构灵活性为实验表征带来重大挑战，并参与癌症和神经退行性疾病等疾病的发生。对IDPs进行准确的计算预测对于推进研究、药物发现、结构生物学和蛋白质工程具有重要意义。在本研究中，我们引入了ESMDisPred，一种新型的结构感知无序预测器，基于进化尺度建模-2（ESM2）蛋白质语言模型的表征能力构建。ESMDisPred将序列嵌入与来自蛋白质数据银行（PDB）的结构信息相结合，以实现最先进的预测准确性。通过特征工程策略，包括末端残基编码、统计汇总和滑动窗口分析，模型性能得到进一步增强。为捕捉局部序列基序和长程依赖性，我们设计了一种混合CNN-Transformer架构，平衡了卷积效率与自注意力的表征能力。在CAID3基准测试中，我们最新模型实现了ROC-AUC 0.895、AP 0.778和最大F1 0.759，优于近期方法。我们的结果强调了将蛋白质语言模型嵌入与显式结构信息整合对改善无序预测的重要性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.22.701204",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.22.701204",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.22.701204/index.html"
+}

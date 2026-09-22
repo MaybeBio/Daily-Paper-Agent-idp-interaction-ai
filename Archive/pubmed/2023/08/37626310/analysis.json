@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37626310",
+  "title": "Intrinsic disorder in PRAME and its role in uveal melanoma.",
+  "authors": "Antonietti, Michael; Gonzalez, David J Taylor; Djulbegovic, Mak; Dayhoff, Guy W 2nd; Uversky, Vladimir N; Shields, Carol L; Karp, Carol L",
+  "journal": "Cell communication and signaling : CCS",
+  "published_date": "2023-08-26",
+  "window": {
+    "start": "2023-08-21",
+    "end": "2023-08-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过AlphaFold及多种无序预测器分析PRAME的IDR，并结合STRING揭示其复杂PPI网络，虽以生物信息学表征为主、缺乏机制建模深度，但对象与互作轴契合，方法上AI预测工具可迁移。",
+  "abstract": "INTRODUCTION: The PReferentially expressed Antigen in MElanoma (PRAME) protein has been shown to be an independent biomarker for increased risk of metastasis in Class 1 uveal melanomas (UM). Intrinsically disordered proteins and regions of proteins (IDPs/IDPRs) are proteins that do not have a well-defined three-dimensional structure and have been linked to neoplastic development. Our study aimed to evaluate the presence of intrinsic disorder in PRAME and the role these structureless regions have in PRAME( +) Class 1 UM. METHODS: A bioinformatics study to characterize PRAME's propensity for the intrinsic disorder. We first used the AlphaFold tool to qualitatively assess the protein structure of PRAME. Then we used the Compositional Profiler and a set of per-residue intrinsic disorder predictors to quantify the intrinsic disorder. The Database of Disordered Protein Prediction (D(2)P(2)) platform, IUPred, FuzDrop, fIDPnn, AUCpred, SPOT-Disorder2, and metapredict V2 allowed us to evaluate the potential functional disorder of PRAME. Additionally, we used the Search Tool for the Retrieval of Interacting Genes (STRING) to analyze PRAME's potential interactions with other proteins. RESULTS: Our structural analysis showed that PRAME contains intrinsically disordered protein regions (IDPRs), which are structureless and flexible. We found that PRAME is significantly enriched with serine (p-value < 0.05), a disorder-promoting amino acid. PRAME was found to have an average disorder score of 16.49% (i.e., moderately disordered) across six per-residue intrinsic disorder predictors. Our IUPred analysis revealed the presence of disorder-to-order transition (DOT) regions in PRAME near the C-terminus of the protein (residues 475-509). The D(2)P(2) platform predicted a region from approximately 140 and 175 to be highly concentrated with post-translational modifications (PTMs). FuzDrop predicted the PTM hot spot of PRAME to be a droplet-promoting region and an aggregation hotspot. Finally, our analysis using the STRING tool revealed that PRAME has significantly more interactions with other proteins than expected for randomly selected proteins of the same size, with the ability to interact with 84 different partners (STRING analysis result: p-value < 1.0 x 10(-16); model confidence: 0.400). CONCLUSION: Our study revealed that PRAME has IDPRs that are possibly linked to its functionality in the context of Class 1 UM. The regions of functionality (i.e., DOT regions, PTM sites, droplet-promoting regions, and aggregation hotspots) are localized to regions of high levels of disorder. PRAME has a complex protein-protein interaction (PPI) network that may be secondary to the structureless features of the polypeptide. Our findings contribute to our understanding of UM and suggest that IDPRs and DOT regions in PRAME may be targeted in developing new therapies for this aggressive cancer. Video Abstract.",
+  "abstract_zh": "引言：黑色素瘤中优先表达抗原（PRAME）蛋白已被证明是1类葡萄膜黑色素瘤（UM）转移风险增加的独立生物标志物。 intrinsically disordered proteins and regions of proteins (IDPs/IDPRs) 是指缺乏明确三维结构的蛋白质，并与肿瘤发生相关。本研究旨在评估PRAME中固有无序性的存在，以及这些无结构区域在PRAME（+）1类UM中的作用。方法：一项生物信息学研究，以表征PRAME对固有无序的倾向性。我们首先使用AlphaFold工具定性评估PRAME的蛋白质结构。然后，我们使用组成型分析器（Compositional Profiler）和一组逐残基固有无序预测器来量化固有无序性。无序蛋白质预测数据库（D(2)P(2)）平台、IUPred、FuzDrop、fIDPnn、AUCpred、SPOT-Disorder2和metapredict V2使我们能够评估PRAME潜在的功能性无序。此外，我们使用检索相互作用基因搜索工具（STRING）分析PRAME与其他蛋白质的潜在相互作用。结果：我们的结构分析显示，PRAME包含固有无序蛋白质区域（IDPRs），这些区域无结构且灵活。我们发现PRAME显著富集丝氨酸（p值 < 0.05），这是一种促进无序的氨基酸。PRAME在六个逐残基固有无序预测器中的平均无序评分为16.49%（即中度无序）。我们的IUPred分析揭示了PRAME中靠近蛋白质C末端（残基475-509）存在无序到有序转变（DOT）区域。D(2)P(2)平台预测了大约140至175的区域高度集中了翻译后修饰（PTMs）。FuzDrop预测PRAME的PTM热点为液滴促进区域和聚集热点。最后，我们使用STRING工具的分析显示，PRAME与其他蛋白质的相互作用显著多于随机选择的相同大小蛋白质的预期，能够与84个不同伙伴相互作用（STRING分析结果：p值 < 1.0 x 10(-16)；模型置信度：0.400）。结论：我们的研究揭示，PRAME具有IDPRs，这些区域可能与其在1类UM背景下的功能相关。功能区域（即DOT区域、PTM位点、液滴促进区域和聚集热点）定位于高无序水平区域。PRAME具有复杂的蛋白质-蛋白质相互作用（PPI）网络，这可能继发于多肽的无结构特征。我们的发现有助于理解UM，并提示PRAME中的IDPRs和DOT区域可能成为开发针对这种侵袭性癌症新疗法的靶点。视频摘要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37626310/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37626310/",
+  "paper_page_path": "papers/pubmed/37626310/index.html"
+}

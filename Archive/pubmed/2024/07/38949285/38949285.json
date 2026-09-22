@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "38949285",
+    "doi": "10.1063/5.0206190",
+    "title": "Atomistic insights into the reentrant phase-transitions in polyuracil and polylysine mixtures."
+  },
+  "content": {
+    "abstract": "The phase separation of protein and RNA mixtures underpins the assembly and regulation of numerous membraneless organelles in cells. The ubiquity of protein-RNA condensates in cellular regulatory processes is in part due to their sensitivity to RNA concentration, which affects their physical properties and stability. Recent experiments with poly-cationic peptide-RNA mixtures have revealed closed-loop phase diagrams featuring lower and upper critical solution temperatures. These diagrams indicate reentrant phase transitions shaped by biomolecular interactions and entropic forces such as solvent and ion reorganization. We employed atomistic simulations to study mixtures with various RNA-polylysine stoichiometries and temperatures to elucidate the microscopic driving forces behind reentrant phase transitions in protein-RNA mixtures. Our findings reveal an intricate interplay between hydration, ion condensation, and specific RNA-polylysine hydrogen bonding, resulting in distinct stoichiometry-dependent phase equilibria governing stabilities and structures of the condensate phase. Our simulations show that reentrant transitions are accompanied by desolvation around the phosphate groups of RNA, with increased contacts between phosphate and lysine side chains. In RNA-rich systems at lower temperatures, RNA molecules can form an extensive pi-stacking and hydrogen bond network, leading to percolation. In protein-rich systems, no such percolation-induced transitions are observed. Furthermore, we assessed the performance of three prominent water force fields-Optimal Point Charge (OPC), TIP4P-2005, and TIP4P-D-in capturing reentrant phase transitions. OPC provided a superior balance of interactions, enabling effective capture of reentrant transitions and accurate characterization of changes in solvent reorganization. This study offers atomistic insights into the nature of reentrant phase transitions using simple model peptide and nucleotide mixtures. We believe that our results are broadly applicable to larger classes of peptide-RNA mixtures exhibiting reentrant phase transitions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Polylysine/chemistry",
+      "*Phase Transition",
+      "*RNA/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Hydrogen Bonding",
+      "Poly U/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramachandran, Vysakh",
+        "Potoyan, Davit A"
+      ],
+      "short_names": [
+        "Ramachandran V",
+        "Potoyan DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5860-1699"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Iowa State University, Ames, Iowa 50011, USA.",
+        "Department of Chemistry, Iowa State University, Ames, Iowa 50011, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramachandran, Vysakh",
+        "short_name": "Ramachandran V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, Iowa 50011, USA."
+        ]
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [
+          "0000-0002-5860-1699"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, Iowa 50011, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2024 Jul 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/01 12:42",
+    "fetched_at": "2026-09-21 08:26:01"
+  },
+  "links": {
+    "cites": [
+      "42358691",
+      "41187075",
+      "41118627",
+      "39896463",
+      "39432826"
+    ],
+    "refs": [
+      "38571310",
+      "38383529",
+      "38363841",
+      "37932412",
+      "36875159",
+      "36443315",
+      "36378781",
+      "36193826",
+      "36181270",
+      "35378855",
+      "35364105",
+      "35293386",
+      "34984429",
+      "34785657",
+      "34645832",
+      "34563256",
+      "34330707",
+      "34297727",
+      "33982350",
+      "32632317",
+      "32571937",
+      "32475683",
+      "32040349",
+      "31754043",
+      "31455808",
+      "31117592",
+      "30045872",
+      "29735687",
+      "29718375",
+      "28556382",
+      "28225081",
+      "27212236",
+      "25764013",
+      "25400877",
+      "19474339",
+      "19229944",
+      "16392929",
+      "14685175",
+      "12930962"
+    ],
+    "similar": [
+      "38949285",
+      "33982350",
+      "34984429",
+      "33387533",
+      "41187075",
+      "39896463",
+      "39605385",
+      "41129218",
+      "33597515",
+      "38416758",
+      "36993212",
+      "30926670",
+      "37449795",
+      "40203038",
+      "39432826",
+      "36883003",
+      "39377398",
+      "31437398",
+      "32800925",
+      "39042834",
+      "39386696",
+      "40009520",
+      "33302617",
+      "37932412",
+      "32426986",
+      "29569441",
+      "31634364",
+      "38163950",
+      "40631837",
+      "40880224",
+      "23912807",
+      "1382582",
+      "39366355",
+      "19754142",
+      "38571310",
+      "35378855",
+      "37684240",
+      "32936641",
+      "39591652",
+      "37205474",
+      "39807887",
+      "40664121",
+      "14691935",
+      "40842365",
+      "29323488",
+      "28556382",
+      "30209295",
+      "32571076",
+      "35501484",
+      "40127800",
+      "38804888",
+      "41212947",
+      "21684127",
+      "32004090",
+      "20095700",
+      "40028898",
+      "33704061",
+      "35597639",
+      "36227470",
+      "33307683",
+      "20648266",
+      "28880549",
+      "15924452",
+      "36181270",
+      "35239358",
+      "36175408",
+      "39740486",
+      "37494702",
+      "33139563",
+      "40058249",
+      "32405004",
+      "38061016",
+      "15737331",
+      "40654645",
+      "36993371",
+      "41026125",
+      "40781776",
+      "34600899",
+      "40748104",
+      "19792142",
+      "37980572",
+      "27334393",
+      "31009934",
+      "40172489",
+      "26207171",
+      "37134270",
+      "23127123",
+      "24369105",
+      "21709330",
+      "33496264",
+      "34706979",
+      "33653957",
+      "40373290",
+      "22185337",
+      "30230340",
+      "37961424",
+      "22296566",
+      "28217775",
+      "38953296",
+      "35803825"
+    ],
+    "review": [
+      "38949285",
+      "33387533",
+      "32800925",
+      "39366355",
+      "40664121",
+      "32004090",
+      "40058249",
+      "40172489"
+    ],
+    "pmc": [
+      "11378353"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38949285/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0206190",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37060324",
+  "title": "Electronegative clusters modulate folding status and RNA binding of unstructured RNA-binding proteins.",
+  "authors": "Zaharias, Steve; Fargason, Talia; Greer, Rory; Song, Yuhua; Zhang, Jun",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2023-04-16",
+  "window": {
+    "start": "2023-04-10",
+    "end": "2023-04-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过NMR和分子动力学模拟揭示酸性/磷酸化簇(ENC)调控无序RNA结合蛋白的折叠状态与RNA结合机制，涉及无序蛋白构象与互作界面的变构调控，方法上结合物理模拟，对无序蛋白介导互作的机制建模有直接启发。",
+  "abstract": "Electronegative clusters (ENCs) made up of acidic residues and/or phosphorylation sites are the most abundant repetitive sequences in RNA-binding proteins. Previous studies have indicated that ENCs inhibit RNA binding for structured RNA-binding domains (RBDs). However, this is not the case for the unstructured RBD in histone pre-mRNA stem-loop binding protein (SLBP). The SLBP RBD contains 70 amino acids and is followed by a phosphorylatable ENC. ENC phosphorylation increases RNA-binding affinity of SLBP to the sub-picomolar range. In this study, we use NMR and molecular dynamics simulations to elucidate the mechanism for this tight binding. Our NMR data demonstrate that the ENC transiently folds apo SLBP into an RNA-bound resembling state. We find that in the RNA-bound state, the phosphorylated ENC interacts with the loop region opposite to the RNA-binding site. This allosteric interaction stabilizes the complex and therefore enhances RNA binding. To evaluate the generality of our findings, we graft an ENC onto endoribonuclease homolog 1's first double-stranded RNA-binding motif (DRBM1), an unstructured RBD that shares no homology with SLBP. We find that the engineered ENC increases the folded species of DRBM1 and inhibits RNA binding. On the contrary, introducing basic residues to DRBM1 makes the domain more unfolded, enhances RNA binding, and mitigates the inhibitory effect of the engineered ENC. In summary, our study suggests that ENCs promote folding of unstructured RNA-binding domains, and their effects on RNA binding depend on the electropositive charges on the RBD surface.",
+  "abstract_zh": "由酸性残基和/或磷酸化位点组成的电负性簇（ENCs）是RNA结合蛋白中最丰富的重复序列。先前的研究表明，ENCs抑制结构化RNA结合域（RBDs）的RNA结合。然而，对于组蛋白前体mRNA茎环结合蛋白（SLBP）中的非结构化RBD，情况并非如此。SLBP RBD包含70个氨基酸，其后接有一个可磷酸化的ENC。ENC磷酸化将SLBP的RNA结合亲和力提高至亚皮摩尔范围。在本研究中，我们使用核磁共振（NMR）和分子动力学模拟来阐明这种紧密结合的机制。我们的NMR数据表明，ENC瞬时将脱辅基SLBP折叠成类似RNA结合的状态。我们发现，在RNA结合状态下，磷酸化的ENC与RNA结合位点相对的环区域相互作用。这种变构相互作用稳定了复合物，从而增强了RNA结合。为了评估我们发现的普遍性，我们将一个ENC嫁接到内切核糖核酸酶同源物1的第一个双链RNA结合基序（DRBM1）上，这是一个与SLBP无同源性的非结构化RBD。我们发现，工程化的ENC增加了DRBM1的折叠物种并抑制了RNA结合。相反，向DRBM1引入碱性残基使该结构域更趋于未折叠，增强了RNA结合，并减轻了工程化ENC的抑制效应。总之，我们的研究表明，ENCs促进非结构化RNA结合域的折叠，其对RNA结合的影响取决于RBD表面的正电荷。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37060324/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37060324/",
+  "paper_page_path": "papers/pubmed/37060324/index.html"
+}

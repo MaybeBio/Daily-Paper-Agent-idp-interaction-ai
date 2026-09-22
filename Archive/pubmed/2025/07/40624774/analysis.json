@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40624774",
+  "title": "Elucidation of the Mutual Solubility of Amino Acids for the Rational Control of Phase-Separating Sequences.",
+  "authors": "Nomoto, Akira; Sugai, Hiroka; Shiraki, Kentaro; Tomita, Shunsuke",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-07-08",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过测量氨基酸间互溶度定量氨基酸-氨基酸相互作用，用于理解并调控LLPS相关序列的相分离，虽非直接PPI建模，但为IDR/相分离序列设计提供了可迁移的相互作用数据与思路。",
+  "abstract": "Understanding the mechanism of protein liquid-liquid phase separation (LLPS) is a fundamental challenge in biology. LLPS is known to stem from multivalent and noncovalent interactions among amino acids; however, experimental approaches for a quantitative evaluation of these interactions are still limited. In this study, we systematically measured amino acid-amino acid interactions (AAIs) based on their mutual solubility with the aim of elucidating the LLPS at the single-amino-acid level. Specifically, we determined the solubility of 15 uncharged amino acids in 20 different amino-acid-based solutions and compared the resulting transfer free energies. Beyond confirming that aromatic amino acids are stabilized by cationic amino acids, we discovered that glutamine, asparagine, and methionine, which are abundant in LLPS-prone proteins, are stabilized by charged amino acids. On the basis of these insights, we successfully achieved a significant solubilization of peptide segments in LLPS-related domains. A multivariate analysis suggested that our extensive AAI dataset reflects complex factors, including polarity and charge, which cannot be captured by existing amino-acid indices. Therefore, our solubility-based AAI framework paves the way for the improved prediction of biological LLPS and the rational design of sequences to regulate this process.",
+  "abstract_zh": "理解蛋白质液-液相分离（LLPS）的机制是生物学中的一个基本挑战。已知LLPS源于氨基酸之间的多价和非共价相互作用；然而，对这些相互作用进行定量评估的实验方法仍然有限。在本研究中，我们基于氨基酸的相互溶解度系统测量了氨基酸-氨基酸相互作用（AAIs），旨在从单氨基酸水平阐明LLPS。具体而言，我们测定了15种不带电荷的氨基酸在20种不同氨基酸基溶液中的溶解度，并比较了由此产生的转移自由能。除了确认芳香族氨基酸被阳离子氨基酸稳定外，我们还发现，在易发生LLPS的蛋白质中丰富的谷氨酰胺、天冬酰胺和甲硫氨酸被带电氨基酸稳定。基于这些见解，我们成功实现了LLPS相关结构域中肽段的显著增溶。多变量分析表明，我们广泛的AAI数据集反映了包括极性和电荷在内的复杂因素，这些因素无法通过现有的氨基酸指数捕捉。因此，我们基于溶解度的AAI框架为改进生物LLPS的预测以及合理设计序列以调控该过程铺平了道路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40624774/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40624774/",
+  "paper_page_path": "papers/pubmed/40624774/index.html"
+}

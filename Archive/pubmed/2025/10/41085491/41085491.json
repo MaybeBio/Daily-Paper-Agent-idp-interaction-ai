@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "pmid": "41085491",
+    "doi": "10.1094/MPMI-11-24-0144-R",
+    "title": "Structural Insights into WY Domain SLiM-Containing Conserved RxLR Effectors: A Case Study of Five Important Phytophthora Species."
+  },
+  "content": {
+    "abstract": "Pathogenicity in Phytophthora species is in part underpinned by a sophisticated arsenal of RxLR effectors, which function as molecular determinants of host immune manipulation. Among these, conserved RxLR effectors (CREs) represent an evolutionarily conserved subset that is indispensable for virulence. However, the structural basis of their function remains poorly understood. Here, we conducted in silico analysis of CREs across five agriculturally significant Phytophthora species, revealing a conserved subset that integrates WY domains with embedded short linear motifs (SLiMs), a previously recognized architectural feature with functional implications. Notably, our findings indicate that despite the canonical association of SLiMs with intrinsically disordered regions, their incorporation within the structured WY domain preserves domain integrity while potentially expanding the effector's interactome within host cells. To explore the functional relevance of this domain organization, we characterized Phytophthora nicotianae RxLR6 (PpRxLR6), a representative WY-SLiM CRE identified in this study. Using Agrobacterium-mediated transient expression assays, we demonstrate that PpRxLR6 activates key immune defense networks in Nicotiana and Solanum species, suggesting a role in modulating host immune signaling. Structural predictions further reveal that PpRxLR6 harbors its SLiM within a well-ordered WY-like helical core region, suggesting that SLiM-mediated interactions may occur within structured effector domains rather than being confined to intrinsically disordered regions. These findings enhance our understanding of the effector domain architecture of PpRxLR6, illustrating how structured domains in CREs may serve as scaffolds for SLiM-mediated interactions. This structural arrangement may represent an adaptive strategy in Phytophthora evolution, potentially enhancing effector versatility in host interactions and immune modulation. [Formula: see text] Copyright (c) 2026 The Author(s). This is an open access article distributed under the CC BY-NC-ND 4.0 International license.",
+    "keywords": [
+      "Phytophthora species",
+      "WY domains",
+      "core RxLR effectors",
+      "short linear motifs"
+    ],
+    "mesh_terms": [
+      "*Phytophthora/genetics/pathogenicity/metabolism",
+      "*Plant Diseases/parasitology/microbiology",
+      "Nicotiana/parasitology/immunology/microbiology",
+      "Protein Domains",
+      "Virulence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Salasini, B C",
+        "Chepsergon, J",
+        "Nxumalo, C I",
+        "Moleleki, L N"
+      ],
+      "short_names": [
+        "Salasini BC",
+        "Chepsergon J",
+        "Nxumalo CI",
+        "Moleleki LN"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1003-4621"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute, University of Pretoria, Pretoria, South Africa.",
+        "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute, University of Pretoria, Pretoria, South Africa.",
+        "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute, University of Pretoria, Pretoria, South Africa.",
+        "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute, University of Pretoria, Pretoria, South Africa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Salasini, B C",
+        "short_name": "Salasini BC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute, University of Pretoria, Pretoria, South Africa."
+        ]
+      },
+      {
+        "full_name": "Chepsergon, J",
+        "short_name": "Chepsergon J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute, University of Pretoria, Pretoria, South Africa."
+        ]
+      },
+      {
+        "full_name": "Nxumalo, C I",
+        "short_name": "Nxumalo CI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute, University of Pretoria, Pretoria, South Africa."
+        ]
+      },
+      {
+        "full_name": "Moleleki, L N",
+        "short_name": "Moleleki LN",
+        "identifiers": [
+          "0000-0002-1003-4621"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Genetics and Microbiology, Forestry and Agricultural Biotechnology Institute, University of Pretoria, Pretoria, South Africa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular plant-microbe interactions : MPMI"
+    ],
+    "journal_abbrev": [
+      "Mol Plant Microbe Interact"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/14 12:30",
+    "fetched_at": "2026-09-17 21:10:01"
+  },
+  "links": {
+    "cites": [
+      "42250277"
+    ],
+    "refs": [],
+    "similar": [
+      "41085491",
+      "35404090",
+      "37921637",
+      "30963588",
+      "25406848",
+      "38870619",
+      "33104763",
+      "41762195",
+      "41236934",
+      "36459530",
+      "30077372",
+      "41385628",
+      "37750829",
+      "32638523",
+      "35915586",
+      "39577746",
+      "30811314",
+      "29106332",
+      "33103962",
+      "33258418",
+      "23075041",
+      "26823972",
+      "30320960",
+      "22709376",
+      "39976585",
+      "26125490",
+      "40854374",
+      "29165046",
+      "41764099",
+      "31912634",
+      "38877698",
+      "39863922",
+      "16965554",
+      "22102810",
+      "39327921",
+      "21813644",
+      "39869754",
+      "41321044",
+      "33677602",
+      "36734982",
+      "34304703",
+      "19047742",
+      "23475996",
+      "29312401",
+      "41140028",
+      "23536880",
+      "25387135",
+      "39567537",
+      "34260624",
+      "35196108",
+      "40052255",
+      "18621946",
+      "35914305",
+      "17675403",
+      "28134441",
+      "40375562",
+      "30329083",
+      "22816601",
+      "32212906",
+      "29864524",
+      "40820577",
+      "29671919",
+      "33029873",
+      "31997517",
+      "21653195",
+      "22496844",
+      "30926664",
+      "26163574",
+      "21359810",
+      "39487604",
+      "40539224",
+      "33882622",
+      "35994659",
+      "26317500",
+      "23547905",
+      "26336092",
+      "36413345",
+      "25902521",
+      "40913801",
+      "32330072",
+      "37516252",
+      "33586843",
+      "24763622",
+      "38949402",
+      "18390593",
+      "30703565",
+      "32394464",
+      "34966585",
+      "38855473",
+      "30536576",
+      "17914356",
+      "32582295",
+      "23550527",
+      "41317012",
+      "33819070",
+      "18344324",
+      "16733545",
+      "36571808",
+      "26252511",
+      "32935441"
+    ],
+    "review": [
+      "41085491",
+      "26125490",
+      "38949402"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://apsjournals.apsnet.org/doi/10.1094/MPMI-11-24-0144-R?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FHL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

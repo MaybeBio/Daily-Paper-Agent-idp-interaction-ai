@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "40880224",
+    "doi": "10.1021/acs.jpclett.5c01743",
+    "title": "Beyond Electrostatic Interactions: H-Bond Dynamics in Arginine- versus Lysine-Rich Biocondensates."
+  },
+  "content": {
+    "abstract": "Eukaryotic cells can achieve spatiotemporal control over biological processes through biomolecular condensate assemblies. Biocondensates form a complex network driven by electrostatic interactions, with residues such as Arginine (Arg) and Lysine (Lys) contributing to these interactions. Both Arg and Lys have the same formal charge, but the different structures produce different complexation behavior. How these two distinct residues can produce different physical condensate properties is poorly understood. Using two-dimensional infrared spectroscopy (2D IR) in concert with molecular dynamics (MD) simulations on model condensates of either poly-Arg or poly-Lys, we demonstrate that Arg-based condensates show significantly slower hydration dynamics. We rationalize the differences observed in dynamics by characterizing structures and local interactions. Simulations show that poly-Arg forms a more compact and dense structure compared to poly-Lys-based condensates. These results highlight the role of strong electrostatic and H-bonding interactions in determining the local condensate environment.",
+    "keywords": [],
+    "mesh_terms": [
+      "Static Electricity",
+      "Hydrogen Bonding",
+      "Molecular Dynamics Simulation",
+      "*Arginine/chemistry",
+      "*Lysine/chemistry",
+      "*Peptides/chemistry",
+      "*Polylysine/chemistry",
+      "Spectrophotometry, Infrared"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lorenz-Ochoa, Keegan A",
+        "Lee, Euihyun",
+        "Baiz, Carlos R"
+      ],
+      "short_names": [
+        "Lorenz-Ochoa KA",
+        "Lee E",
+        "Baiz CR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1583-2048",
+        "ORCID: 0000-0003-0699-8468"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States.",
+        "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States.",
+        "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lorenz-Ochoa, Keegan A",
+        "short_name": "Lorenz-Ochoa KA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Lee, Euihyun",
+        "short_name": "Lee E",
+        "identifiers": [
+          "0000-0003-1583-2048"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Baiz, Carlos R",
+        "short_name": "Baiz CR",
+        "identifiers": [
+          "0000-0003-0699-8468"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2025 Sep 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/29 20:44",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40455990",
+      "39591652",
+      "38061016",
+      "38056002",
+      "37261897",
+      "36737456",
+      "36690068",
+      "36400991",
+      "35968816",
+      "35387451",
+      "34541184",
+      "34259508",
+      "34241502",
+      "33982350",
+      "33515602",
+      "33230101",
+      "32934220",
+      "32684431",
+      "32598850",
+      "31864235",
+      "31790873",
+      "31437398",
+      "31407910",
+      "30926670",
+      "30682370",
+      "30099028",
+      "28306503",
+      "28225081",
+      "28060489",
+      "25747659",
+      "25288112",
+      "24007457",
+      "23228111",
+      "22398665",
+      "21861514",
+      "21500218",
+      "21405034",
+      "18513030",
+      "18288813",
+      "17902917",
+      "16083292"
+    ],
+    "similar": [
+      "40880224",
+      "38416758",
+      "39591652",
+      "24007457",
+      "30638532",
+      "38061016",
+      "27276251",
+      "24024591",
+      "28583830",
+      "42192191",
+      "40203038",
+      "21864793",
+      "23912807",
+      "23697608",
+      "32652263",
+      "42172058",
+      "26899474",
+      "33982350",
+      "42475469",
+      "25646959",
+      "28287151",
+      "9294870",
+      "19354258",
+      "38949285",
+      "25730443",
+      "26049464",
+      "14653737",
+      "26574387",
+      "41880479",
+      "36674466",
+      "40910446",
+      "32845610",
+      "24328126",
+      "26049530",
+      "25575129",
+      "19072205",
+      "27090068",
+      "36769160",
+      "41251020",
+      "19624125",
+      "25786215",
+      "20726540",
+      "26317887",
+      "41655460",
+      "17277311",
+      "41481439",
+      "41566033",
+      "38008475",
+      "1384749",
+      "32400776",
+      "30012481",
+      "12727287",
+      "19585982",
+      "22792305",
+      "7487089",
+      "12681513",
+      "26301845",
+      "42267453",
+      "19378969",
+      "12596268",
+      "32866390",
+      "27935429",
+      "19425543",
+      "23472106",
+      "16402850",
+      "33371242",
+      "23869523",
+      "37791394",
+      "19435307",
+      "30529083",
+      "25207671",
+      "29113886",
+      "17064838",
+      "16852342",
+      "19496555",
+      "31769684",
+      "42300948",
+      "15578663",
+      "23999680",
+      "32397647",
+      "27362745",
+      "42290133",
+      "40877270",
+      "41433062",
+      "11427046",
+      "26207171",
+      "15035638",
+      "14691935",
+      "15683226",
+      "41984735",
+      "29969522",
+      "17249666",
+      "26883635",
+      "29037682",
+      "21684127",
+      "40178359",
+      "32698753",
+      "40455990",
+      "18078331",
+      "7718556"
+    ],
+    "review": [
+      "40880224",
+      "30638532"
+    ],
+    "pmc": [
+      "12958485"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40880224/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.5c01743",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

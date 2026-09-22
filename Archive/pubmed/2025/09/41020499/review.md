@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary figure/table legends as provided.
+- **Assessment boundary** Scientific content, logical coherence, methodological soundness, and alignment of claims with presented evidence. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors propose that the ParB-CTP cycle acts as a molecular switch that enhances ParB-ParB interactions, triggering a phase transition from vapor to liquid-like condensates in the ParABS DNA segregation system. This claim is supported by Monte Carlo simulations of droplet formation and experimental data using ParB variants with disrupted CTP binding or hydrolysis.
+- **Visible evidence base** Monte Carlo simulation results (Figs. 1B, 2A, 2B), experimental data from fluorescence microscopy (Fig. 3B), ChIP-seq profiles (Figs. 3C, 4A, Supplementary Figs. S2-S4), plasmid stability assays (Supplementary Table S1), and expression level analysis (Supplementary Fig. S1).
+- **Missing materials affecting confidence** Full resolution figures and figure legends are not provided. Supplementary figures and tables are referenced but not included in the supplied material. Detailed simulation parameters beyond those described in the text are not fully specified. Statistical analysis details for experimental replicates are not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting hypothesis that couples the Clamping and Sliding mechanism with phase separation to explain ParB droplet formation. The combination of theoretical modeling and experimental validation is commendable. However, the evidence provided does not fully establish the central claim that the ParB-CTP cycle activates phase separation through enhanced ParB-ParB interactions. The simulations demonstrate that an activation step is necessary for droplet formation within biologically relevant timescales, but the direct link between the specific CTP cycle steps and the proposed interaction energy enhancement remains inferential. The experimental data show that CTP cycle disruption impairs droplet formation, but the mechanistic interpretation relies heavily on the model rather than direct measurements of interaction energies or phase separation properties.
+- **Who would be interested in the results, and why** Researchers studying bacterial chromosome segregation, particularly the ParABS system, will find this work relevant. The broader community investigating biomolecular condensates and phase separation mechanisms, especially those interested in how nucleotide binding cycles regulate condensate formation, will also be interested. The theoretical framework connecting the Clamping and Sliding model to phase separation could inform future studies on other ParB homologs and related systems.
+- **Major strengths** The manuscript addresses a significant gap in understanding how ParB-CTP cycling contributes to partition complex formation. The integration of Monte Carlo simulations with experimental validation using well-characterized ParB variants is a strong approach. The identification of distinct phenotypes for N153A and R156A variants provides useful mechanistic insight. The authors are transparent about limitations of their model and alternative interpretations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The central claim that the ParB-CTP cycle activates phase separation by enhancing ParB-ParB interactions is presented as the main conclusion of the study.
+  - **Evidence pointer** Results section "ParB droplet formation requires an activation of ParB-ParB interactions", Figs. 2A, 2B, 3B, 3C
+  - **Concern** The simulations show that an activation of interaction energy (J) is required for droplet formation within a biologically relevant timescale, and the experimental data show that CTP cycle mutants fail to form droplets. However, the direct link between the CTP cycle and the specific enhancement of ParB-ParB interaction energy is not experimentally demonstrated. The authors infer this connection from the observation that CTP binding induces conformational changes, but no direct measurement of ParB-ParB interaction strength in the presence versus absence of CTP is provided. The ChIP-seq data for R156A show residual spreading consistent with the Clamping and Sliding model, but this does not directly demonstrate enhanced interaction energy.
+  - **Why it matters** The central mechanistic claim of the paper rests on the assumption that the CTP-bound clamped form of ParB has enhanced ParB-ParB interactions. Without direct evidence for this enhancement, the proposed model remains speculative. The experimental data are consistent with the model but do not uniquely support it over alternative explanations, such as CTP affecting ParB-DNA interactions or chromatin structure.
+  - **Resolution test** Provide direct experimental evidence for enhanced ParB-ParB interactions in the CTP-bound state, such as in vitro pull-down assays, analytical ultracentrifugation, or single-molecule FRET measurements comparing ParB-ParB affinity in the presence and absence of CTP. Alternatively, demonstrate that the model predictions uniquely match experimental observations in a way that alternative models cannot.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors claim that droplet formation occurs within a timescale corresponding to a fraction of the cell cycle based on their simulations.
+  - **Evidence pointer** Results section "ParB droplet formation requires an activation of ParB-ParB interactions", Fig. 2B
+  - **Concern** The simulation timescale calibration is based on a single diffusion coefficient value (D = 1 μm²/s) and the assumption that one MC step corresponds to one second. This calibration is critical for the claim that droplet formation occurs within a biologically relevant timescale. However, the sensitivity of this conclusion to the calibration is not explored. The diffusion coefficient of ParB in vivo may vary depending on cellular conditions, and the mapping between MC steps and real time is not rigorously justified. Additionally, the simulation box size (160 × 40 × 40) and the number of particles (300) may not accurately represent the in vivo conditions, where the nucleoid is a complex, crowded environment.
+  - **Why it matters** The biological relevance of the simulation results depends critically on the timescale calibration. If the calibration is off by even an order of magnitude, the conclusion that droplet formation occurs within a fraction of the cell cycle could be invalidated. The authors should demonstrate that their conclusions are robust to reasonable variations in the calibration parameters.
+  - **Resolution test** Perform sensitivity analysis on the timescale calibration, varying the diffusion coefficient and the MC step to real time mapping over a reasonable range. Show that the conclusion about droplet formation timescales remains valid. Alternatively, provide additional justification for the calibration based on experimental measurements of ParB diffusion and binding kinetics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors claim that the N153A variant is deficient in CTP binding and the R156A variant is deficient in the activation switch, based on their experimental data.
+  - **Evidence pointer** Results section "A functional ParB-CTP cycle is essential for droplet formation", Figs. 3B, 3C, 4A, Supplementary Figs. S3, S4
+  - **Concern** The biochemical characterization of the ParB variants is limited. The authors infer CTP binding deficiency for N153A based on the lack of spreading in ChIP-seq and the absence of foci in microscopy, but no direct biochemical measurement of CTP binding affinity is provided. Similarly, for R156A, the claim that it is locked in an inactive conformation is inferred from the ChIP-seq profile being consistent with the Clamping and Sliding model, but no direct structural or biochemical evidence supports this interpretation. The expression levels of the variants differ from wild-type, which could confound the interpretation of the phenotypic differences.
+  - **Why it matters** The mechanistic interpretation of the experimental results depends on the specific biochemical defects of the variants. Without direct biochemical characterization, alternative explanations for the observed phenotypes cannot be excluded. For example, the N153A variant might have reduced protein stability or altered DNA binding properties rather than specific CTP binding deficiency.
+  - **Resolution test** Perform direct biochemical assays to characterize the variants, such as CTP binding affinity measurements using fluorescence anisotropy or isothermal titration calorimetry, and structural characterization using limited proteolysis or hydrogen-deuterium exchange to assess conformational states.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and methods section "Definition and analyses of the skewness"
+  - **Evidence pointer** Materials and methods, "Definition and analyses of the skewness"
+  - **Issue** The equation for skewness is not fully displayed in the provided text. The formula appears incomplete.
+  - **Required correction** Provide the complete equation for skewness calculation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods section "Monte Carlo simulations"
+  - **Evidence pointer** Materials and methods, "Monte Carlo simulations"
+  - **Issue** The description of the simulation protocol is incomplete. The text mentions "30 independent cycles of increasing and decreasing of the interaction energy between ParB and J" but does not specify the range of J values, the step size, or the equilibration criteria.
+  - **Required correction** Provide complete simulation parameters including the range of J values, step sizes, equilibration times, and criteria for determining steady state.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Experimental data in Figs. 3B, 3C, and Supplementary Figs. S3, S4
+  - **Evidence pointer** Results section "A functional ParB-CTP cycle is essential for droplet formation"
+  - **Issue** The number of biological replicates and statistical analysis for the microscopy and ChIP-seq experiments are not clearly stated. Error bars and significance testing are not described.
+  - **Required correction** Clearly state the number of replicates, the statistical tests used, and include error bars and significance indicators in all figures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The statement that "the clamped form of ParBF-R156A is locked in a conformation that prevents the transition required for phase separation" is presented as a conclusion, but the evidence for this specific conformational state is indirect.
+  - **Required correction** Soften this statement to reflect that it is a hypothesis consistent with the data, and discuss alternative interpretations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns that need to be addressed. The lack of direct evidence for enhanced ParB-ParB interactions in the CTP-bound state (R1-M1) and the sensitivity of the timescale conclusions to calibration parameters (R1-M2) are critical gaps. The incomplete biochemical characterization of the variants (R1-M3) also needs to be addressed to strengthen the mechanistic interpretation.
+- **Assessment against Nature-style criteria** Originality: The hypothesis that the ParB-CTP cycle acts as a molecular switch for phase separation is novel and provides a new perspective on how nucleotide binding cycles can regulate condensate formation. Scientific importance: The work addresses a fundamental question in bacterial chromosome segregation and has potential implications for understanding the spatial control of intracellular condensates more broadly. Interdisciplinary readership: The work bridges biophysics, molecular biology, and computational modeling, making it potentially interesting to a broad readership. Technical soundness: The modeling approach is reasonable, but the lack of direct experimental evidence for the key mechanistic claim and the sensitivity of the timescale conclusions to calibration parameters weaken the technical foundation. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections on the Clamping and Sliding model and the lattice gas model may be challenging for readers without a physics background.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the combination of modeling and experiments is promising, but the current evidence does not fully establish the claim that the ParB-CTP cycle activates phase separation through enhanced ParB-ParB interactions. Direct experimental evidence for this interaction enhancement and a more rigorous treatment of the simulation timescale calibration are needed.
+
+## Risk / unsupported claims
+- The claim that the ParB-CTP cycle enhances ParB-ParB interactions is not directly supported by experimental evidence. The authors infer this from the necessity of an activation step in simulations and the failure of CTP cycle mutants to form droplets, but no direct measurement of interaction strength is provided.
+- The claim that the R156A variant is "locked in a conformation" that prevents activation is speculative and not directly supported by structural or biochemical data.
+- The claim that droplet formation occurs within a fraction of the cell cycle is based on a simulation timescale calibration that is not rigorously justified or tested for sensitivity.
+- The statement that this represents "the first identified CTP-controlled switching mechanism regulating liquid-like droplet formation" is a strong claim that may be difficult to verify without a comprehensive literature search.
+- The extrapolation of findings from the plasmid F ParB system to other ParB homologs is not discussed in sufficient detail to assess its validity.

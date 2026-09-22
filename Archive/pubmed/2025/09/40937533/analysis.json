@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40937533",
+  "title": "Intrinsic Disordered Network in Multiferroic YMnO(3) Single Crystals for In-Materio Physical Reservoir Computing Through Tuneable Domain-Wall Structure.",
+  "authors": "Xu, Muzhen; Furuta, Kyoka; Karacali, Ahmet; Umezaki, Yuki; Kamarol Zaman, Alif Syafiq; Usami, Yuki; Tanaka, Hirofumi; Horibe, Yoichi",
+  "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+  "published_date": "2025-09-12",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究多铁性YMnO3单晶中无序畴结构用于物理储备池计算，对象为材料物理系统而非无序蛋白，且无蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Physical reservoir computing (PRC) is an innovative computational paradigm that leverages intrinsic nonlinearity of physical systems to efficiently perform complex tasks. It is discovered that the intrinsically disordered domain structure in multiferroic YMnO(3) provides significant nonlinearity, making it a promising candidate for robust PRC with tuneability and functionality at high temperatures. This work explores the potential of YMnO(3) single crystals for PRC. PRC performance of YMnO(3) is systematically evaluated by analysing its nonlinear responses, phase shifts, and high dimensionality through benchmark tasks such as waveform generation (WG), memory capacity (MC), and second-order nonlinear autoregressive moving average (NARMA2) time-series prediction. This results demonstrate that YMnO(3) single crystals exhibit superior performance in these tasks, achieving high accuracy and low power consumption ( approximately 1.77 microW and  approximately 0.02 nW/domain). These crystals also performed well in practical application of low-power speech recognition. These findings establish YMnO(3) as a viable platform for next-generation PRC technologies, addressing critical challenges in the field.",
+  "abstract_zh": "物理储层计算（PRC）是一种创新的计算范式，利用物理系统的内在非线性来高效执行复杂任务。研究发现，多铁性YMnO(3)中 intrinsically 无序的畴结构提供了显著的非线性，使其成为在高温下具有可调性和功能性的稳健PRC的有前景候选材料。本研究探讨了YMnO(3)单晶在PRC中的潜力。通过基准任务，如波形生成（WG）、记忆容量（MC）和二阶非线性自回归移动平均（NARMA2）时间序列预测，系统评估了YMnO(3)的PRC性能，分析了其非线性响应、相移和高维特性。结果表明，YMnO(3)单晶在这些任务中表现出优越性能，实现了高精度和低功耗（约1.77微瓦和约0.02纳瓦/畴）。这些晶体在低功耗语音识别的实际应用中也表现良好。这些发现确立了YMnO(3)作为下一代PRC技术的可行平台，解决了该领域的关键挑战。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40937533/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40937533/",
+  "paper_page_path": "papers/pubmed/40937533/index.html"
+}

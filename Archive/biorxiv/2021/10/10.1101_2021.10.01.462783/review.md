@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, data availability statement, funding, conflict of interest, and acknowledgements. Figures and supplementary materials are referenced but not provided.
+- **Assessment boundary** The scientific claims, experimental design, data interpretation, and conclusions as presented in the manuscript text. No assessment of figures, tables, or supplementary data is possible as these were not supplied.
+- **Shared manuscript claim summary** The authors report that deletion of the C-terminal intrinsically disordered region (cIDR) of Ataxin-2 (Atx2) suppresses Huntingtin (Htt) polyQ-induced photoreceptor degeneration and reduces Htt aggregate formation in Drosophila eye imaginal discs, supporting a role for Atx2-dependent RNP granules in Huntington's disease pathology.
+- **Visible evidence base** Text descriptions of experimental procedures and results, including statistical test results (chi-squared tests, Student's t-tests) and quantitative data points (e.g., granule counts per 100 μm², Atx2 expression levels). No actual figures, images, or raw data are available for direct inspection.
+- **Missing materials affecting confidence** All figures (Figures 1-3), supplementary figures (Supplementary Figures 1-2), and supplementary tables are not provided. Western blot images, confocal microscopy images, and raw quantitative data are unavailable. This significantly limits the ability to verify the claims made in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question regarding the mechanism by which Ataxin-2 promotes neurodegeneration in Huntington's disease models. The finding that the Atx2-cIDR, previously implicated in ALS models, also contributes to Htt-polyQ pathology extends the potential generality of RNP granule involvement in proteinopathies. However, the evidence presented in the text alone is insufficient to fully support the conclusions. Key data, including images and quantitative analyses, are not available for verification. The authors acknowledge a significant caveat regarding differential survival rates that could confound the phenotypic comparisons. The mechanistic models proposed are speculative and not directly tested. The manuscript would benefit from additional experiments to strengthen the causal link between Atx2-cIDR, RNP granule assembly, and Htt aggregation.
+- **Who would be interested in the results, and why** Researchers studying neurodegenerative disease mechanisms, particularly those focused on protein aggregation, RNP granule biology, and the role of RNA-binding proteins in disease. The findings are relevant to those investigating shared pathways across ALS, Huntington's disease, and other proteinopathies. The potential therapeutic implications for Atx2-targeting strategies would interest translational researchers.
+- **Major strengths** The study addresses a timely and important question about the generality of RNP granule involvement in neurodegeneration. The use of Drosophila models allows for genetic manipulation and in vivo analysis. The authors acknowledge and discuss a significant caveat in their experimental design. The discussion of multiple mechanistic models provides a framework for future studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "removal of the Atx2-cIDR not only protects against photoreceptor degeneration in two Drosophila HD models but also greatly reduces the mHtt-polyQ aggregate size and number in eye imaginal disc cells" is central to the paper.
+  - **Evidence pointer** Results section, Figures 1 and 2 (not provided)
+  - **Concern** The primary evidence for the protective effect of Atx2-cIDR deletion relies on phenotypic scoring of eye degeneration and quantification of Htt aggregates. Without access to the actual images, quantification data, and statistical analyses, it is impossible to verify the magnitude and robustness of the reported effects. The text mentions that "a small subset of flies developed mild localised discoloration" at day 20 for mRFP-mHtt-138Q, which seems inconsistent with the claim of "clearly visible and progressive degeneration." The aggregate quantification data (1.01 vs 0.07 granules per 100 μm²) is presented without measures of variance or sample sizes in the text.
+  - **Why it matters** The central conclusion of the paper depends on the reliability and reproducibility of these phenotypic and quantitative measurements. If the effects are subtle or variable, the conclusions may not be well-supported.
+  - **Resolution test** Provide the actual figures with representative images, full quantitative data with statistical analyses (including effect sizes, confidence intervals, and sample sizes), and clear documentation of the scoring criteria and blinding procedures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design
+  - **Claim pointer** The authors state that "we cannot exclude the possibility that the above experiments inadvertently compare eyes of a healthy subset of experimental flies, for instance with low levels of Htt-polyQ, with a broader range of control flies" due to reduced survival rates in the Atx2-cIDR deletion background.
+  - **Evidence pointer** Results section, Figure 1 inserts and Supplementary Figure 1 (not provided)
+  - **Concern** The authors acknowledge a significant survival bias in their experimental groups. If flies with high Htt-polyQ expression or severe phenotypes die earlier in the Atx2-cIDR deletion background, the surviving population may not be representative. This could lead to an overestimation of the protective effect. The text does not provide details on survival curves, the magnitude of the survival difference, or whether any statistical correction was applied.
+  - **Why it matters** This is a potentially confounding factor that directly affects the interpretation of the main results. If not adequately addressed, the conclusion that Atx2-cIDR deletion is protective may be an artifact of differential survival.
+  - **Resolution test** Provide survival data for all genotypes, perform analyses that account for survival bias (e.g., competing risk analysis, analysis at multiple time points), or use experimental designs that minimize this issue (e.g., inducible expression systems).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors propose three models to explain how Atx2-cIDR promotes Htt aggregation, but state that "additional experiments will be required to test and establish these or alternative proposals."
+  - **Evidence pointer** Discussion section
+  - **Concern** The mechanistic models are entirely speculative and not directly tested in this manuscript. While the authors are appropriately cautious, the lack of any experimental evidence to distinguish between the models weakens the overall impact of the study. The observation that Htt aggregates do not colocalize with stress granule markers (Figure 3) is presented as a negative result that does not rule out a transient role, but this is not explored further.
+  - **Why it matters** Without mechanistic insight, the study remains largely descriptive. The significance of the finding would be greatly enhanced by experiments that address at least one of the proposed models.
+  - **Resolution test** Design experiments to test specific predictions of each model, such as examining Htt localization in live cells over time, testing for interactions between Htt and Atx2 or RNP granule components, or manipulating stress granule assembly independently of Atx2-cIDR.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, Drosophila husbandry
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The text states "Drosophila stocks were maintained at 25°C in cornmeal agar" but does not specify the type of cornmeal agar or provide a reference for the medium recipe.
+  - **Required correction** Provide a reference for the standard medium or specify the recipe.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section, Atx2 expression levels
+  - **Evidence pointer** Results section, Figure 1I
+  - **Issue** The text reports a "slightly (∼20%) but significantly lower" Atx2 level in Atx2-cIDR deletion flies compared to controls, with a p-value of 0.0000069. However, the text does not specify the statistical test used (it says "2-tailed Student's t-Test" but does not state whether it was paired or unpaired, or whether variance was assumed equal).
+  - **Required correction** Specify the exact statistical test used, including whether it was paired or unpaired, and report effect sizes and confidence intervals.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section, aggregate quantification
+  - **Evidence pointer** Results section, Figure 2E
+  - **Issue** The aggregate density data (0.04, 1.01, 0.07, 1.29 granules per 100 μm²) is presented without error bars, sample sizes, or statistical comparisons between all groups.
+  - **Required correction** Provide full descriptive statistics (mean, SD/SEM, n) and statistical comparisons for all groups, including the heterozygous control.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, Model 1
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors suggest that Htt may assemble into an "undefined Atx2-dependent macromolecular complex" but do not provide any evidence for the existence of such a complex.
+  - **Required correction** Clarify that this is a purely speculative model and consider citing any relevant literature on Htt-containing granules or complexes.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data Availability Statement
+  - **Issue** The statement says "Strains are available upon request" but does not mention the availability of raw data (e.g., image files, quantification data).
+  - **Required correction** Specify where raw data will be deposited or made available.
+
+## Risk / unsupported claims
+- The claim that Atx2-cIDR deletion "greatly reduces" Htt aggregate size and number is not verifiable without the actual quantification data and images.
+- The claim that the protective effect is due to the loss of Atx2-cIDR function in RNP granule assembly is not directly tested; the authors do not show that RNP granule assembly is impaired in their experimental conditions.
+- The statement that "these observations support a recently hypothesised, unexpected protein-handling function for RNP granules" is an interpretation that goes beyond the direct evidence presented.
+- The three mechanistic models proposed in the Discussion are entirely speculative and not supported by any experimental data in this manuscript.
+- The claim that the Atx2-cIDR deletion does not affect Htt transgene expression is only partially supported by the Western blot analysis mentioned in the text, but the actual data is not shown.
+- The generalizability of the findings to mammalian systems or human disease is not addressed experimentally and remains an open question.

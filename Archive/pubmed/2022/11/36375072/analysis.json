@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36375072",
+  "title": "Intrinsically disordered interaction network in an RNA chaperone revealed by native mass spectrometry.",
+  "authors": "Sarni, Samantha H; Roca, Jorjethe; Du, Chen; Jia, Mengxuan; Li, Hantian; Damjanovic, Ana; Malecka, Ewelina M; Wysocki, Vicki H; Woodson, Sarah A",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2022-11-15",
+  "window": {
+    "start": "2022-11-14",
+    "end": "2022-11-20"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用天然质谱与分子动力学模拟揭示RNA伴侣Hfq无序C端结构域通过无序互作网络调控RNA结合与六聚体稳定性，直接聚焦IDR介导的蛋白-RNA复合物机制建模，对无序蛋白互作机制研究有高度启发。",
+  "abstract": "RNA-binding proteins contain intrinsically disordered regions whose functions in RNA recognition are poorly understood. The RNA chaperone Hfq is a homohexamer that contains six flexible C-terminal domains (CTDs). The effect of the CTDs on Hfq's integrity and RNA binding has been challenging to study because of their sequence identity and inherent disorder. We used native mass spectrometry coupled with surface-induced dissociation and molecular dynamics simulations to disentangle the arrangement of the CTDs and their impact on the stability of Escherichia coli Hfq with and without RNA. The results show that the CTDs stabilize the Hfq hexamer through multiple interactions with the core and between CTDs. RNA binding perturbs this network of CTD interactions, destabilizing the Hfq ring. This destabilization is partially compensated by binding of RNAs that contact multiple surfaces of Hfq. By contrast, binding of short RNAs that only contact one or two subunits results in net destabilization of the complex. Together, the results show that a network of intrinsically disordered interactions integrate RNA contacts with the six subunits of Hfq. We propose that this CTD network raises the selectivity of RNA binding.",
+  "abstract_zh": "RNA结合蛋白含有内在无序区域，其在RNA识别中的功能尚不明确。RNA伴侣蛋白Hfq是一个同源六聚体，包含六个柔性的C端结构域（CTDs）。由于这些CTDs的序列同一性和内在无序性，研究它们对Hfq完整性和RNA结合的影响一直具有挑战性。我们使用原生质谱结合表面诱导解离和分子动力学模拟，来解析CTDs的排列及其对大肠杆菌Hfq在有或无RNA条件下稳定性的影响。结果表明，CTDs通过与核心及CTDs之间的多重相互作用稳定Hfq六聚体。RNA结合扰乱了这一CTD相互作用网络，导致Hfq环的不稳定。这种不稳定部分由接触Hfq多个表面的RNA结合所补偿。相反，仅接触一个或两个亚基的短RNA结合则导致复合物的净不稳定。综合来看，结果表明一个内在无序相互作用网络将RNA接触与Hfq的六个亚基整合在一起。我们提出，这一CTD网络提高了RNA结合的选择性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36375072/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36375072/",
+  "paper_page_path": "papers/pubmed/36375072/index.html"
+}

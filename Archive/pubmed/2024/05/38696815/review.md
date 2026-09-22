@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text, abstract, and supplementary material description (as provided)
+- **Assessment boundary** Scientific validity, methodological soundness, and claims as presented in the provided text; no external data or unpublished materials consulted
+- **Shared manuscript claim summary** The authors propose a rapid computational method (MDA+GLM) combining coarse-grained conformational sampling (globule-linker model) with the minimum dissipation approximation to predict hydrodynamic radii of intrinsically disordered proteins, validated against a benchmark set of 43 proteins (38 IDPs and 6 globular proteins) including new FCS measurements
+- **Visible evidence base** Abstract, main text (including equations, figure references, and table references), supplementary material description, acknowledgments
+- **Missing materials affecting confidence** Full figures, tables (Table 1, S1, S2, S3), supplementary methods, experimental protocols, and raw data are not provided; these are essential for verifying quantitative claims
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and practically useful approach to a challenging problem in biophysics. The combination of a simplified conformational model with the minimum dissipation approximation is well-motivated, and the benchmark set appears thoughtfully curated. However, the provided text lacks sufficient quantitative detail to fully assess the validity of the central claims. The authors assert superior accuracy over existing methods, but without access to the actual data and error metrics, this claim cannot be independently verified. The methodological description is clear at a conceptual level, but several technical aspects require clarification, particularly regarding the treatment of hydrodynamic interactions for overlapping beads and the sensitivity of results to model parameters.
+- **Who would be interested in the results, and why** Researchers in biophysics, computational chemistry, and structural biology studying intrinsically disordered proteins, particularly those interested in rapid prediction of hydrodynamic properties for long chains or multidomain systems. The method's speed (minutes on a laptop) makes it attractive for high-throughput screening or integration into broader pipelines. Experimentalists using FCS, AUC, SEC, or DLS to characterize IDPs would also find the benchmark data and comparative analysis valuable.
+- **Major strengths** 1) The methodological innovation of combining a minimal conformational model with the minimum dissipation approximation is well-justified by physical arguments. 2) The benchmark set is described as the largest of its kind, with careful attention to experimental conditions and data quality. 3) The authors provide a clear physical rationale for why the globule-linker model captures essential features of IDP hydrodynamics. 4) The computational efficiency (minutes vs. days for MD-based methods) is a significant practical advantage. 5) The analysis of experimental method-specific errors (FCS, SEC, DLS, AUC, PGF-NMR) is insightful and adds value beyond the core prediction method.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "In all evaluation metrics, the MDA+GLM approach performs the best. Surprisingly, it is the only model that performs better than the power law baseline in any of the evaluation metrics."
+  - **Evidence pointer** Table 1, Figure 4, location not provided
+  - **Concern** The central claim of superior performance is presented without the actual numerical values of the evaluation metrics. The text states that MDA+GLM performs best across all six metrics (RMSD, RMSRD, R2, R2adj, Q3AE, Q75RE), but the magnitude of improvement over competing methods is not quantified. Without these numbers, it is impossible to assess whether the improvement is statistically significant or practically meaningful. Furthermore, the claim that it is the "only model that performs better than the power law baseline" is surprising and requires careful scrutiny, as it implies that all other tested methods (including Kirkwood-based approaches) are worse than a simple scaling law.
+  - **Why it matters** The primary contribution of this work is the claimed improvement in prediction accuracy. If the improvement is marginal or within experimental uncertainty, the practical value of the method is substantially diminished. The lack of quantitative evidence prevents readers from making an informed judgment about the method's utility.
+  - **Resolution test** Provide the full Table 1 with all numerical values for each method and metric, including confidence intervals or standard errors where applicable. Additionally, perform a statistical test (e.g., paired t-test or Wilcoxon signed-rank test) comparing MDA+GLM against the best-performing alternative method to establish significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The results of tests performed for our four theoretical approaches against the benchmark set are listed in Table 1" and "we have obtained 15 new IDP constructs covering a wide range of chain lengths, folded domain contents, and charge states and determined their Rh using FCS"
+  - **Evidence pointer** Table S1, Figures S2–S6, location not provided
+  - **Concern** The experimental benchmark set is central to the validation, but the details of the new FCS measurements are not provided in the main text. Critical information includes: the protein constructs and their sequences, expression and purification protocols, FCS instrumentation and analysis methods, buffer conditions, temperature control, and how Rh values were extracted from autocorrelation functions. Without this information, the reliability of the new experimental data cannot be assessed. Additionally, the criteria for selecting literature data (temperature 20–26 °C, pH 7–8, ionic strength 75–300 mM NaCl) are stated, but the actual values for each protein in the benchmark set are not tabulated in the visible text.
+  - **Why it matters** The validation of the computational method depends entirely on the quality and consistency of the experimental reference data. If the new FCS measurements have systematic errors or if the literature data are heterogeneous in quality, the benchmark set may not be a reliable test of the method's accuracy.
+  - **Resolution test** Provide full experimental details for the new FCS measurements in the main text or supplementary material, including construct sequences, purification protocols, FCS setup, data analysis procedures, and raw Rh values with uncertainties. Tabulate the experimental conditions (temperature, pH, ionic strength) for all 43 proteins in the benchmark set.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The MDA corresponds to the calculation of the short-time diffusion coefficient of the diffusion center of a molecule, which is a point inside the molecule where Ds is minimal. Because Ds is always larger than its long-time counterpart, Dl, MDA provides the best estimation for the long-time diffusion coefficient of all of the methods that utilize Ds for this purpose."
+  - **Evidence pointer** Equations 1–4, refs 52–59, location not provided
+  - **Concern** The theoretical justification for why MDA provides the "best estimation" for the long-time diffusion coefficient is not fully elaborated. The authors state that Ds > Dl and that MDA minimizes Ds, but the connection between this minimization and the accuracy of the long-time limit is not rigorously established. The Fixman argument (refs 52, 53) is cited, but the specific derivation or logical steps are not presented. Furthermore, the claim that MDA is "more robust when dealing with large differences in the sizes of beads" is asserted without supporting evidence or a clear physical explanation.
+  - **Why it matters** The choice of MDA over the Kirkwood approximation is a key methodological decision. If the theoretical justification is incomplete, readers may question whether the improved performance is due to the method itself or to other factors (e.g., the conformational model). A clearer theoretical foundation would strengthen the case for MDA as the preferred approach.
+  - **Resolution test** Provide a more detailed derivation or explanation of why MDA yields a better estimate of Dl than the Kirkwood approximation, including a discussion of the conditions under which this holds. If possible, include a numerical demonstration using a simple model system where the exact Dl is known.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Our benchmark set, in which the previously known IDPs were complemented by a set of newly obtained proteins, constitutes a significant step forward in predicting the hydrodynamic properties of IDPs. It includes a higher degree of conformational variety, with a stronger emphasis on multidomain proteins, longer chains, and a much wider range of charge states compared to the reference sets used previously."
+  - **Evidence pointer** Table S1, refs 30, 112, location not provided
+  - **Concern** The claim that the benchmark set represents a "significant step forward" is not quantitatively supported. The text does not provide a comparison of the diversity metrics (e.g., chain length distribution, charge range, domain content) between the new benchmark set and previously used reference sets. Without such a comparison, it is difficult to assess whether the new set indeed offers greater conformational variety or whether the improvement is marginal.
+  - **Why it matters** The generalizability of the method depends on the diversity of the test set. If the new benchmark set is not substantially more diverse than previous ones, the claim of broader applicability is weakened.
+  - **Resolution test** Provide a quantitative comparison of the benchmark set's properties (e.g., chain length range, net charge range, number of domains) against those of reference sets used in prior studies (refs 30, 112). Include this comparison in a supplementary table or figure.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction of the minimum dissipation approximation
+  - **Evidence pointer** Equations 1–4, location not provided
+  - **Issue** The transition from the Kirkwood formula (Eq 1) to the MDA (Eq 4) is abrupt. A reader unfamiliar with the MDA concept may struggle to understand the physical meaning of the matrix B and the weights xi. A brief intuitive explanation of what the MDA does (e.g., "finds the optimal choice of reference point to minimize dissipation") would improve accessibility.
+  - **Required correction** Add one or two sentences explaining the physical interpretation of the MDA and why it is expected to improve the estimate of Dl.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Parameter choices in the model
+  - **Evidence pointer** Section "Main Text", location not provided
+  - **Issue** The choice of Rdisordered = 4.2 Å (median value for all amino acids) is stated, but the sensitivity of the results to this parameter is not discussed. The authors note that the impact is "minor" because of logarithmic dependence, but no quantitative analysis is provided.
+  - **Required correction** Include a brief sensitivity analysis (e.g., varying Rdisordered by ±1 Å and reporting the change in predicted Rh) or cite a reference where such analysis is performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Benchmark set composition
+  - **Evidence pointer** Table S1, location not provided
+  - **Issue** The benchmark set includes 38 IDPs and 6 globular proteins. The inclusion of globular proteins is useful for validation, but the text does not specify whether the globular proteins are treated as single rigid spheres in the model or as multi-bead assemblies. This affects the interpretation of the comparison.
+  - **Required correction** Clarify how globular proteins are modeled in the GLM framework and whether the same parameter values (e.g., Rdisordered) apply to them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion of experimental methods
+  - **Evidence pointer** Section "Main Text", location not provided
+  - **Issue** The discussion of experimental method-specific errors (FCS, SEC, DLS, AUC, PGF-NMR) is valuable but assumes familiarity with these techniques. A brief description of the physical basis of each method (e.g., "FCS measures diffusion via fluorescence fluctuations in a confocal volume") would help readers from computational backgrounds.
+  - **Required correction** Add one sentence per technique explaining the basic principle and the source of potential systematic errors.
+
+## Risk / unsupported claims
+- The claim that MDA+GLM is the "only model that performs better than the power law baseline" is unsupported without the full numerical results from Table 1.
+- The assertion that the benchmark set is the "largest" and represents a "significant step forward" is not quantitatively substantiated in the provided text.
+- The statement that "all excluded volume effects are already correctly accounted for" in the model is an overstatement; the model uses a simplified representation and cannot capture all possible excluded volume effects at atomic resolution.
+- The claim that the method can predict Rh "in a matter of minutes" is plausible but not verified with specific timing data for the benchmark set.
+- The discussion of the "intrinsic properties of the individual experimental methods" as a source of discrepancies is qualitative; no quantitative error analysis is provided to support the attribution of specific deviations to specific methods.

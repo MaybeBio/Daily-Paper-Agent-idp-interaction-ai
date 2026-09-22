@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "41556566",
+    "doi": "10.1002/pro.70446",
+    "title": "Unveiling the unfolded proteome: Evaluation and comparison of methods for the enrichment of intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) represent a family of proteins that given their structural peculiarity, that is, absence of defined secondary or tertiary structures, are very flexible and display great adaptability in binding to other molecules. For these reasons, IDPs are often key nodes in modulatory molecular networks. While 3D-structured proteins undergo aggregation and precipitation in denaturing conditions, due to the exposure of their hydrophobic core to the aqueous environment, IDPs are instead refractory to aggregation due to their naturally disordered state. This peculiarity has prompted the use of harsh conditions (i.e., heat or low pH) to selectively extract IDPs from complex protein samples. Here we provide the first comprehensive comparison and evaluation of the two strategies commonly adopted to enrich for IDPs, that is, heat- and perchloric acid-based extractions. We find that both methods allow the study of the intrinsically disordered \"dark side\" of the proteome, while displaying acute differences in their ability to enrich these peculiar IDPs.",
+    "keywords": [
+      "LC-MS",
+      "disorder prediction algorithm",
+      "heat extraction",
+      "intrinsically disordered proteins enrichment",
+      "label free quantification",
+      "perchloric acid extraction",
+      "prefractionation methods"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/isolation & purification",
+      "*Proteome/chemistry",
+      "Humans",
+      "Hot Temperature",
+      "Perchlorates/chemistry",
+      "*Proteomics/methods"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Secco, Luca",
+        "Rocca, Giulia",
+        "Ingo, Alberto Maria Davide",
+        "Pobega, Enrico",
+        "Laera, Valentina",
+        "Manfioletti, Guidalberto",
+        "Arrigoni, Giorgio",
+        "Sgarra, Riccardo"
+      ],
+      "short_names": [
+        "Secco L",
+        "Rocca G",
+        "Ingo AMD",
+        "Pobega E",
+        "Laera V",
+        "Manfioletti G",
+        "Arrigoni G",
+        "Sgarra R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5268-3198"
+      ],
+      "affiliations": [
+        "Life Sciences Department, University of Trieste, Trieste, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Life Sciences Department, University of Trieste, Trieste, Italy.",
+        "Life Sciences Department, University of Trieste, Trieste, Italy.",
+        "Life Sciences Department, University of Trieste, Trieste, Italy.",
+        "Life Sciences Department, University of Trieste, Trieste, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Life Sciences Department, University of Trieste, Trieste, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Secco, Luca",
+        "short_name": "Secco L",
+        "identifiers": [
+          "0000-0001-5268-3198"
+        ],
+        "affiliations": [
+          "Life Sciences Department, University of Trieste, Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Rocca, Giulia",
+        "short_name": "Rocca G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Ingo, Alberto Maria Davide",
+        "short_name": "Ingo AMD",
+        "identifiers": [],
+        "affiliations": [
+          "Life Sciences Department, University of Trieste, Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Pobega, Enrico",
+        "short_name": "Pobega E",
+        "identifiers": [],
+        "affiliations": [
+          "Life Sciences Department, University of Trieste, Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Laera, Valentina",
+        "short_name": "Laera V",
+        "identifiers": [],
+        "affiliations": [
+          "Life Sciences Department, University of Trieste, Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Manfioletti, Guidalberto",
+        "short_name": "Manfioletti G",
+        "identifiers": [],
+        "affiliations": [
+          "Life Sciences Department, University of Trieste, Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Arrigoni, Giorgio",
+        "short_name": "Arrigoni G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Sgarra, Riccardo",
+        "short_name": "Sgarra R",
+        "identifiers": [],
+        "affiliations": [
+          "Life Sciences Department, University of Trieste, Trieste, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/20 14:04",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41556566",
+      "32681491",
+      "37219402",
+      "31425549",
+      "26376097",
+      "31441158",
+      "40383327",
+      "21686180",
+      "22821542",
+      "25287424",
+      "39537071",
+      "32503351",
+      "25496281",
+      "20011072",
+      "38338831",
+      "32959512",
+      "30218496",
+      "26513658",
+      "28612216",
+      "37634152",
+      "29080786",
+      "30066087",
+      "23723000",
+      "31739058",
+      "30445805",
+      "28525284",
+      "29643398",
+      "25502193",
+      "30471705",
+      "31756456",
+      "20522251",
+      "35883018",
+      "26851286",
+      "31521236",
+      "34347206",
+      "34626492",
+      "35507264",
+      "32253236",
+      "27548131",
+      "27037624",
+      "24008243",
+      "36674958",
+      "32859072",
+      "32696358",
+      "38097100",
+      "38987470",
+      "39025183",
+      "24871565",
+      "32696395",
+      "34545666",
+      "40037507",
+      "32828470",
+      "24317797",
+      "36310204",
+      "34390736",
+      "30352491",
+      "23794453",
+      "27844185",
+      "31021441",
+      "27387657",
+      "23912807",
+      "35470621",
+      "24532081",
+      "35934194",
+      "37607621",
+      "25849651",
+      "30471704",
+      "29717210",
+      "30527137",
+      "31382021",
+      "38296708",
+      "28554553",
+      "36178373",
+      "36833360",
+      "28381244",
+      "31460093",
+      "35034725",
+      "33719450",
+      "26073257",
+      "31667555",
+      "38512660",
+      "32707418",
+      "35196007",
+      "29395045",
+      "38220424",
+      "32623047",
+      "31820049",
+      "35454181",
+      "33567297",
+      "34358545",
+      "34922214",
+      "35289333",
+      "33137381",
+      "23821606",
+      "24589355",
+      "24606139",
+      "34902817",
+      "30592560",
+      "39560655",
+      "29157493"
+    ],
+    "review": [
+      "41556566",
+      "37219402",
+      "31441158",
+      "21686180",
+      "25287424",
+      "20011072",
+      "32959512",
+      "28612216",
+      "30066087",
+      "30445805",
+      "25502193",
+      "30471705",
+      "26851286",
+      "31521236",
+      "34347206",
+      "32253236",
+      "27548131",
+      "24008243",
+      "38097100",
+      "34545666",
+      "40037507",
+      "32828470",
+      "34390736",
+      "30352491",
+      "23794453",
+      "31021441",
+      "24532081",
+      "25849651",
+      "30527137",
+      "31382021",
+      "38296708",
+      "28554553",
+      "36833360",
+      "26073257",
+      "31667555",
+      "38220424",
+      "33567297",
+      "34358545",
+      "34922214",
+      "24606139",
+      "34902817",
+      "29157493"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/pro.70446",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.23.581681",
+  "title": "The importance of stereochemistry in the disorder-order continuum of protein-protein interactions",
+  "doi": "10.1101/2024.02.23.581681",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically disordered proteins can bind via the formation of highly disordered protein complexes without the formation of 3D-structure. Most naturally occurring proteins are “left-handed” or levorotatory (L), made up only of L-amino acids, imprinting molecular structure and communication with stereochemistry. In contrast, their mirror image “right-handed” or dextrorotatory (D) amino acids are rare in Nature. Whether disordered protein complexes are truly independent of 3D-topology and thus of chiral constraints is not clear. To test the chiral constraints of disordered protein-protein interactions, a set of interacting protein pairs covering the disorder-order continuum was chosen as representative examples. By observing both the natural ligands and their stereochemical mirror images in free and bound states, we discovered that chirality was inconsequential in a fully disordered complex. However, if the interaction relied on the ligand undergoing coupled folding and binding, correct stereochemistry was essential. Between these extremes, binding could be observed for the D-ligand with a strength that correlated with the amount of disorder in the final complex. These findings have important implications for our understanding of protein-protein interactions, the molecular processes leading to complex formation, the use of D-peptides in drug discovery, and the chemistry of protein evolution of the first living entities on Earth.",
+  "authors": [
+    "Newcombe EA",
+    "Due AD",
+    "Sottini A",
+    "Fernandes CB",
+    "Staby L",
+    "Delaforge E",
+    "Bartling CRO",
+    "Brakti I",
+    "Bugge K",
+    "Schuler B",
+    "Skriver K",
+    "Olsen JG",
+    "Kragelund BB"
+  ],
+  "published_date": "2024-02-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.23.581681",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.23.581681.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR811424",
+    "raw_record": {
+      "id": "PPR811424",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR811424"
+        ]
+      },
+      "doi": "10.1101/2024.02.23.581681",
+      "title": "The importance of stereochemistry in the disorder-order continuum of protein-protein interactions",
+      "authorString": "Newcombe EA, Due AD, Sottini A, Fernandes CB, Staby L, Delaforge E, Bartling CRO, Brakti I, Bugge K, Schuler B, Skriver K, Olsen JG, Kragelund BB.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Newcombe EA",
+            "lastName": "Newcombe",
+            "firstName": "Estella",
+            "initials": "EA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "REPIN, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Structural Biology and NMR Laboratory, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Linderstrøm Lang Centre for Protein Science, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Due AD",
+            "lastName": "Due",
+            "firstName": "Amanda",
+            "initials": "AD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1905-4311"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "REPIN, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Structural Biology and NMR Laboratory, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Linderstrøm Lang Centre for Protein Science, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sottini A",
+            "lastName": "Sottini",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8014-5987"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fernandes CB",
+            "lastName": "Fernandes",
+            "firstName": "Catarina",
+            "initials": "CB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6198-3173"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "REPIN, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Structural Biology and NMR Laboratory, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Linderstrøm Lang Centre for Protein Science, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Staby L",
+            "lastName": "Staby",
+            "firstName": "Lasse",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5588-5163"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "REPIN, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Structural Biology and NMR Laboratory, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Linderstrøm Lang Centre for Protein Science, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Delaforge E",
+            "lastName": "Delaforge",
+            "firstName": "Elise",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "REPIN, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Structural Biology and NMR Laboratory, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Linderstrøm Lang Centre for Protein Science, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bartling CRO",
+            "lastName": "Bartling",
+            "firstName": "Christian",
+            "initials": "CRO",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0602-4738"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Drug Design and Pharmacology, Center for Biopharmaceuticals, University of Copenhagen, Universitetsparken 2, 2100 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brakti I",
+            "lastName": "Brakti",
+            "firstName": "Inna",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-2712-9836"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "REPIN, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Structural Biology and NMR Laboratory, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Linderstrøm Lang Centre for Protein Science, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bugge K",
+            "lastName": "Bugge",
+            "firstName": "Katrine",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6286-6243"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "REPIN, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Structural Biology and NMR Laboratory, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Linderstrøm Lang Centre for Protein Science, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schuler B",
+            "lastName": "Schuler",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5970-4251"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Skriver K",
+            "lastName": "Skriver",
+            "firstName": "Karen",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "REPIN, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Linderstrøm Lang Centre for Protein Science, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Olsen JG",
+            "lastName": "Olsen",
+            "firstName": "Johan",
+            "initials": "JG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "REPIN, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Structural Biology and NMR Laboratory, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Linderstrøm Lang Centre for Protein Science, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kragelund BB",
+            "lastName": "Kragelund",
+            "firstName": "Birthe",
+            "initials": "BB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "REPIN, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Structural Biology and NMR Laboratory, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                },
+                {
+                  "affiliation": "Linderstrøm Lang Centre for Protein Science, Department of Biology, Ole Maaløes Vej 5, DK-2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8014-5987"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0602-4738"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1905-4311"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5588-5163"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5970-4251"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6198-3173"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6286-6243"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-2712-9836"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Intrinsically disordered proteins can bind  via the formation of highly disordered protein complexes without the formation of 3D-structure. Most naturally occurring proteins are “left-handed” or levorotatory (L), made up only of L-amino acids, imprinting molecular structure and communication with stereochemistry. In contrast, their mirror image “right-handed” or dextrorotatory (D) amino acids are rare in Nature. Whether disordered protein complexes are truly independent of 3D-topology and thus of chiral constraints is not clear. To test the chiral constraints of disordered protein-protein interactions, a set of interacting protein pairs covering the disorder-order continuum was chosen as representative examples. By observing both the natural ligands and their stereochemical mirror images in free and bound states, we discovered that chirality was inconsequential in a fully disordered complex. However, if the interaction relied on the ligand undergoing coupled folding and binding, correct stereochemistry was essential. Between these extremes, binding could be observed for the D-ligand with a strength that correlated with the amount of disorder in the final complex. These findings have important implications for our understanding of protein-protein interactions, the molecular processes leading to complex formation, the use of D-peptides in drug discovery, and the chemistry of protein evolution of the first living entities on Earth.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.02.23.581681"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.02.23.581681"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR811424"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR811424&type=FILE&fileName=EMS194460-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS194460",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-02-28",
+      "firstPublicationDate": "2024-02-26",
+      "firstIndexDate": "2024-02-28",
+      "fullTextReceivedDate": "2024-03-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

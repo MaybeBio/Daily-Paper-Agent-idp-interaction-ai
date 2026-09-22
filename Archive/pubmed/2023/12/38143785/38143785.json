@@ -1,0 +1,221 @@
+{
+  "identity": {
+    "pmid": "38143785",
+    "doi": "10.1080/01621459.2022.2038180",
+    "title": "On Robustness of Individualized Decision Rules."
+  },
+  "content": {
+    "abstract": "With the emergence of precision medicine, estimating optimal individualized decision rules (IDRs) has attracted tremendous attention in many scientific areas. Most existing literature has focused on finding optimal IDRs that can maximize the expected outcome for each individual. Motivated by complex individualized decision making procedures and the popular conditional value at risk (CVaR) measure, we propose a new robust criterion to estimate optimal IDRs in order to control the average lower tail of the individuals' outcomes. In addition to improving the individualized expected outcome, our proposed criterion takes risks into consideration, and thus the resulting IDRs can prevent adverse events. The optimal IDR under our criterion can be interpreted as the decision rule that maximizes the \"worst-case\" scenario of the individualized outcome when the underlying distribution is perturbed within a constrained set. An efficient non-convex optimization algorithm is proposed with convergence guarantees. We investigate theoretical properties for our estimated optimal IDRs under the proposed criterion such as consistency and finite sample error bounds. Simulation studies and a real data application are used to further demonstrate the robust performance of our methods. Several extensions of the proposed method are also discussed.",
+    "keywords": [
+      "Conditional value at risk",
+      "Individualized decision rules",
+      "Non-convex optimization",
+      "Robustness",
+      "Tail controls"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qi, Zhengling",
+        "Pang, Jong-Shi",
+        "Liu, Yufeng"
+      ],
+      "short_names": [
+        "Qi Z",
+        "Pang JS",
+        "Liu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Decision Sciences, George Washington University.",
+        "Department of Industrial and Systems Engineering, University of Southern California, LA.",
+        "Department of Statistics and Operations Research, Department of Genetics, Department of Biostatistics, Carolina Center for Genome Sciences, Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, NC 27599, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qi, Zhengling",
+        "short_name": "Qi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Decision Sciences, George Washington University."
+        ]
+      },
+      {
+        "full_name": "Pang, Jong-Shi",
+        "short_name": "Pang JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Industrial and Systems Engineering, University of Southern California, LA."
+        ]
+      },
+      {
+        "full_name": "Liu, Yufeng",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Statistics and Operations Research, Department of Genetics, Department of Biostatistics, Carolina Center for Genome Sciences, Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, NC 27599, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Statistical Association"
+    ],
+    "journal_abbrev": [
+      "J Am Stat Assoc"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/25 06:42",
+    "fetched_at": "2026-09-21 03:47:12"
+  },
+  "links": {
+    "cites": [
+      "40795861"
+    ],
+    "refs": [],
+    "similar": [
+      "38143785",
+      "32002993",
+      "31309858",
+      "29534296",
+      "34177007",
+      "30740747",
+      "34219848",
+      "34733120",
+      "31440118",
+      "28255189",
+      "38393836",
+      "37588020",
+      "30799874",
+      "28943682",
+      "39371406",
+      "25937641",
+      "29254443",
+      "19122792",
+      "34658383",
+      "36550398",
+      "29403568",
+      "34024961",
+      "36321557",
+      "23630406",
+      "39053567",
+      "37015010",
+      "31095722",
+      "28960239",
+      "33311956",
+      "35088914",
+      "34937955",
+      "28742260",
+      "38098839",
+      "30416233",
+      "33215693",
+      "33041401",
+      "33731969",
+      "36104931",
+      "21666835",
+      "34786731",
+      "30034060",
+      "29358898",
+      "37997592",
+      "37323466",
+      "29088515",
+      "35511090",
+      "34181761",
+      "31650095",
+      "32380893",
+      "30931437",
+      "37576335",
+      "31190690",
+      "25883393",
+      "38014277",
+      "26893526",
+      "20161510",
+      "31440323",
+      "32196679",
+      "27835670",
+      "32523325",
+      "30996478",
+      "34263933",
+      "38371330",
+      "31774192",
+      "30365175",
+      "39105416",
+      "37520270",
+      "32852280",
+      "28781717",
+      "30984321",
+      "35499604",
+      "37319273",
+      "31395087",
+      "35321441",
+      "35793474",
+      "37131395",
+      "22665511",
+      "34335111",
+      "29805186",
+      "33397582",
+      "38323299",
+      "25222726",
+      "37479875",
+      "24807136",
+      "32952236",
+      "29228509",
+      "30014497",
+      "34239215",
+      "26115604",
+      "38372403",
+      "34633934",
+      "36322691",
+      "37015353",
+      "31534307",
+      "35699385",
+      "37736675",
+      "37786410",
+      "38487498",
+      "36721836",
+      "34177008",
+      "35737603",
+      "37274458",
+      "22754029",
+      "35873662"
+    ],
+    "review": [
+      "38143785",
+      "36321557"
+    ],
+    "pmc": [
+      "10746134"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38143785/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38143785",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

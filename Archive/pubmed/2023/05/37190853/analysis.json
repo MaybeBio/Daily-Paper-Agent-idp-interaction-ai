@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37190853",
+  "title": "Naphthoquinone-dopamine hybrids disrupt alpha-synuclein fibrils by their intramolecular synergistic interactions with fibrils and display a better effect on fibril disruption.",
+  "authors": "Zhou, Yun; Yao, Yifei; Yang, Zhongyuan; Tang, Yiming; Wei, Guanghong",
+  "journal": "Physical chemistry chemical physics : PCCP",
+  "published_date": "2023-05-16",
+  "window": {
+    "start": "2023-05-15",
+    "end": "2023-05-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用微秒级分子动力学模拟研究萘醌-多巴胺杂合分子解聚α-突触核蛋白纤维的机制，对象为IDP纤维但互作是小分子-蛋白而非PPI，方法为物理模拟，机制建模有启发但互作轴偏弱。",
+  "abstract": "alpha-Synuclein (alphaSyn) is an intrinsically disordered protein and its abnormal aggregation into amyloid fibrils is the main hallmark of Parkinson's disease (PD). The disruption of preformed alphaSyn fibrils using small molecules is considered as a potential strategy for PD treatment. Recent experiments have reported that naphthoquinone-dopamine hybrids (NQDA), synthesized by naphthoquinone (NQ) and dopamine (DA) molecules, can significantly disrupt alphaSyn fibrils and cross the blood-brain barrier. To unravel the fibril-disruptive mechanisms at the atomic level, we performed microsecond molecular dynamics simulations of alphaSyn fibrils in the absence and presence of NQDA, NQ, DA, or NQ+DA molecules. Our simulations showed that NQDA reduces the beta-sheet content, disrupts K45-E57 and E46-K80 salt-bridges, weakens the inter-protofibril interaction, and thus destabilizes the alphaSyn fibril structure. NQDA has the ability to form cation-pi and H-bonding interactions with K45/K80, and form pi-pi stacking interactions with Y39/F94. Those interactions between NQDA and alphaSyn fibrils play a crucial role in disaggregating alphaSyn fibrils. Moreover, we found that NQDA has a better fibril destabilization effect than that of NQ, DA, and NQ+DA molecules. This is attributed to the synergistic fibril-binding effect between NQ and DA groups in NQDA molecules. The DA group can form strong pi-pi stacking interactions with aromatic residues Y39/F94 of the alphaSyn fibril, while the DA molecule cannot. In addition, NQDA can form stronger cation-pi interactions with residues K45/K80 than those of both NQ and DA molecules. Our results provide the molecular mechanism underlying the disaggregation of the alphaSyn fibril by NQDA and its better performance in fibril disruption than NQ, DA, and NQ+DA molecules, which offers new clues for the screening and development of promising drug candidates to treat PD.",
+  "abstract_zh": "α-突触核蛋白（alphaSyn）是一种 intrinsically disordered protein，其异常聚集形成淀粉样纤维是帕金森病（PD）的主要标志。利用小分子破坏预先形成的alphaSyn纤维被视为治疗PD的潜在策略。近期实验报道，由萘醌（NQ）和多巴胺（DA）分子合成的萘醌-多巴胺杂合物（NQDA）能显著破坏alphaSyn纤维并穿越血脑屏障。为了在原子层面揭示纤维破坏机制，我们进行了微秒级分子动力学模拟，研究在无NQDA、NQ、DA或NQ+DA分子存在及存在情况下alphaSyn纤维的行为。模拟结果显示，NQDA减少了β-折叠含量，破坏了K45-E57和E46-K80盐桥，削弱了原纤维间相互作用，从而 destabilizes alphaSyn纤维结构。NQDA能与K45/K80形成阳离子-π和氢键相互作用，并与Y39/F94形成π-π堆积相互作用。这些NQDA与alphaSyn纤维之间的相互作用在解聚alphaSyn纤维中起着关键作用。此外，我们发现NQDA的纤维去稳定效果优于NQ、DA及NQ+DA分子。这归因于NQDA分子中NQ和DA基团之间的协同纤维结合效应。DA基团能与alphaSyn纤维的芳香族残基Y39/F94形成强π-π堆积相互作用，而单独的DA分子则不能。另外，NQDA与残基K45/K80形成的阳离子-π相互作用比NQ和DA分子都更强。我们的结果揭示了NQDA解聚alphaSyn纤维的分子机制及其在纤维破坏方面优于NQ、DA和NQ+DA分子的原因，为筛选和开发治疗PD的有前景药物候选物提供了新线索。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37190853/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37190853/",
+  "paper_page_path": "papers/pubmed/37190853/index.html"
+}

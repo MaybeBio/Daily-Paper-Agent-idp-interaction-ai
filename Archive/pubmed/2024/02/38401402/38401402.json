@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "38401402",
+    "doi": "10.1016/j.bioadv.2024.213801",
+    "title": "Towards bone regeneration: Understanding the nucleating ability of proline-rich peptides in biomineralisation."
+  },
+  "content": {
+    "abstract": "Obtaining rapid mineralisation is a challenge in current bone graft materials, which has been attributed to the difficulty of guiding the biological processes towards osteogenesis. Amelogenin, a key protein in enamel formation, inspired the design of two intrinsically disordered peptides (P2 and P6) that enhance in vivo bone formation, but the process is not fully understood. In this study, we have elucidated the mechanism by which these peptides induce improved mineralisation. Our molecular dynamics analysis demonstrated that in an aqueous environment, P2 and P6 fold to interact with the surrounding Ca(2+), PO(4)(3-) and OH(-) ions, which can lead to apatite nucleation. Although P2 has a less stable backbone, it folds to a stable structure that allows for the nucleation of larger calcium phosphate aggregates than P6. These results were validated experimentally in a concentrated simulated body fluid solution, where the peptide solutions accelerated the mineralisation process compared to the control and yielded mineral structures mimicking the amorphous calcium phosphate crystals that can be found in lamella bone. A pH drop for the peptide groups suggests depletion of calcium and phosphate, a prerequisite for intrinsic osteoinduction, while S/TEM and SEM suggested that the peptide regulated the mineral nucleation into lamella flakes. Evidently, the peptides accelerate and guide mineral formation, elucidating the mechanism for how these peptides can improve the efficacy of P2 or P6 containing devices for bone regeneration. The work also demonstrates how experimental mineralisation study coupled with molecular dynamics is a valid method for understanding and predicting in vivo performance prior to animal trials.",
+    "keywords": [
+      "Biomineralisation",
+      "Bone regeneration",
+      "Disordered peptides",
+      "Molecular dynamics",
+      "Regenerative medicine"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Osteogenesis",
+      "*Bone Regeneration",
+      "Apatites/chemistry",
+      "Peptides/pharmacology",
+      "Bone and Bones"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ovrebo, Oystein",
+        "De Lauretis, Angela",
+        "Ma, Qianli",
+        "Lyngstadaas, Stale Petter",
+        "Perale, Giuseppe",
+        "Nilsen, Ola",
+        "Rossi, Filippo",
+        "Haugen, Havard J"
+      ],
+      "short_names": [
+        "Ovrebo O",
+        "De Lauretis A",
+        "Ma Q",
+        "Lyngstadaas SP",
+        "Perale G",
+        "Nilsen O",
+        "Rossi F",
+        "Haugen HJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomaterials, Institute of Clinical Dentistry, University of Oslo, 0318 Oslo, Norway; Department of Chemistry, Materials and Chemical Engineering \"Giulio Natta\", Politecnico di Milano, 20133 Milano, Italy; Material Biomimetic AS, Oslo Science Park, 0349 Oslo, Norway.",
+        "Department of Biomaterials, Institute of Clinical Dentistry, University of Oslo, 0318 Oslo, Norway; Department of Chemistry, Materials and Chemical Engineering \"Giulio Natta\", Politecnico di Milano, 20133 Milano, Italy.",
+        "Department of Biomaterials, Institute of Clinical Dentistry, University of Oslo, 0318 Oslo, Norway.",
+        "Department of Biomaterials, Institute of Clinical Dentistry, University of Oslo, 0318 Oslo, Norway.",
+        "Industrie Biomediche Insubri SA, Mezzovico-Vira 6805, Switzerland; Faculty of Biomedical Sciences, University of Southern Switzerland, Lugano 6900, Switzerland; Ludwig Boltzmann Institute for Experimental and Clinical Traumatology, Donaueschingenstrasse 13, 1200 Vienna, Austria.",
+        "Centre for Materials Science and Nanotechnology, Department of Chemistry, University of Oslo, Gaustadalleen 21, NO-0349 Oslo, Norway.",
+        "Department of Chemistry, Materials and Chemical Engineering \"Giulio Natta\", Politecnico di Milano, 20133 Milano, Italy.",
+        "Department of Biomaterials, Institute of Clinical Dentistry, University of Oslo, 0318 Oslo, Norway. Electronic address: h.j.haugen@odont.uio.no."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Øvrebø, Øystein",
+        "short_name": "Øvrebø Ø",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomaterials, Institute of Clinical Dentistry, University of Oslo, 0318 Oslo, Norway; Department of Chemistry, Materials and Chemical Engineering \"Giulio Natta\", Politecnico di Milano, 20133 Milano, Italy; Material Biomimetic AS, Oslo Science Park, 0349 Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "De Lauretis, Angela",
+        "short_name": "De Lauretis A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomaterials, Institute of Clinical Dentistry, University of Oslo, 0318 Oslo, Norway; Department of Chemistry, Materials and Chemical Engineering \"Giulio Natta\", Politecnico di Milano, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Ma, Qianli",
+        "short_name": "Ma Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomaterials, Institute of Clinical Dentistry, University of Oslo, 0318 Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Lyngstadaas, Ståle Petter",
+        "short_name": "Lyngstadaas SP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomaterials, Institute of Clinical Dentistry, University of Oslo, 0318 Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Perale, Giuseppe",
+        "short_name": "Perale G",
+        "identifiers": [],
+        "affiliations": [
+          "Industrie Biomediche Insubri SA, Mezzovico-Vira 6805, Switzerland; Faculty of Biomedical Sciences, University of Southern Switzerland, Lugano 6900, Switzerland; Ludwig Boltzmann Institute for Experimental and Clinical Traumatology, Donaueschingenstrasse 13, 1200 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Nilsen, Ola",
+        "short_name": "Nilsen O",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Materials Science and Nanotechnology, Department of Chemistry, University of Oslo, Gaustadalléen 21, NO-0349 Oslo, Norway."
+        ]
+      },
+      {
+        "full_name": "Rossi, Filippo",
+        "short_name": "Rossi F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Materials and Chemical Engineering \"Giulio Natta\", Politecnico di Milano, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Haugen, Håvard J",
+        "short_name": "Haugen HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomaterials, Institute of Clinical Dentistry, University of Oslo, 0318 Oslo, Norway. Electronic address: h.j.haugen@odont.uio.no."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomaterials advances"
+    ],
+    "journal_abbrev": [
+      "Biomater Adv"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/25 00:42",
+    "fetched_at": "2026-09-21 05:15:46"
+  },
+  "links": {
+    "cites": [
+      "41783928",
+      "41777582",
+      "41711003",
+      "41340773",
+      "40294067",
+      "39224130"
+    ],
+    "refs": [],
+    "similar": [
+      "38401402",
+      "18288986",
+      "15101588",
+      "35025278",
+      "20438109",
+      "11771702",
+      "22320389",
+      "26176902",
+      "23241924",
+      "11523039",
+      "17619976",
+      "30302020",
+      "33455384",
+      "16238603",
+      "31729501",
+      "33610767",
+      "26545746",
+      "15332631",
+      "26207448",
+      "35519117",
+      "18200552",
+      "32228955",
+      "28351999",
+      "34502132",
+      "23917043",
+      "2364326",
+      "30942200",
+      "22503952",
+      "14585710",
+      "33061381",
+      "30740968",
+      "32497742",
+      "17537689",
+      "27301188",
+      "25594536",
+      "16850470",
+      "23560390",
+      "15647818",
+      "20972429",
+      "30853609",
+      "20566043",
+      "15522761",
+      "34748943",
+      "25568169",
+      "18058198",
+      "29752107",
+      "35859256",
+      "23897753",
+      "12557498",
+      "12224277",
+      "18622768",
+      "11374039",
+      "30905863",
+      "23201201",
+      "22429009",
+      "15949543",
+      "38413983",
+      "26406452",
+      "28864250",
+      "24692259",
+      "23985536",
+      "29266701",
+      "30368214",
+      "32096768",
+      "36180310",
+      "32682055",
+      "20526989",
+      "37651964",
+      "14624517",
+      "31028428",
+      "28807800",
+      "23432672",
+      "36973880",
+      "31926336",
+      "36982648",
+      "19095299",
+      "32806301",
+      "22961875",
+      "12726711",
+      "28884509",
+      "28527999",
+      "24411361",
+      "16689020",
+      "35533345",
+      "23242766",
+      "32737162",
+      "16044403",
+      "35502709",
+      "16701861",
+      "32858255",
+      "20219846",
+      "2229611",
+      "18053780",
+      "26354241",
+      "21774914",
+      "26194158",
+      "33149587",
+      "34455518",
+      "35923072"
+    ],
+    "review": [
+      "38401402",
+      "18288986",
+      "23241924",
+      "31729501",
+      "33610767",
+      "26545746",
+      "34502132",
+      "34748943",
+      "29266701",
+      "23432672",
+      "31926336",
+      "24411361",
+      "32858255"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2772-9508(24)00044-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A12-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38401402",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

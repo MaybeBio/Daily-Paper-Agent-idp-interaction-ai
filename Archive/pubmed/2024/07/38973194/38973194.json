@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "38973194",
+    "doi": "10.1002/advs.202308279",
+    "title": "Phase Separation and Aggregation of alpha-Synuclein Diverge at Different Salt Conditions."
+  },
+  "content": {
+    "abstract": "The coacervation of alpha-synuclein (alphaSyn) into cytotoxic oligomers and amyloid fibrils are considered pathological hallmarks of Parkinson's disease. While aggregation is central to amyloid diseases, liquid-liquid phase separation (LLPS) and its interplay with aggregation have gained increasing interest. Previous work shows that factors promoting or inhibiting aggregation have similar effects on LLPS. This study provides a detailed scanning of a wide range of parameters, including protein, salt and crowding concentrations at multiple pH values, revealing different salt dependencies of aggregation and LLPS. The influence of salt on aggregation under crowding conditions follows a non-monotonic pattern, showing increased effects at medium salt concentrations. This behavior can be elucidated through a combination of electrostatic screening and salting-out effects on the intramolecular interactions between the N-terminal and C-terminal regions of alphaSyn. By contrast, this study finds a monotonic salt dependence of LLPS due to intermolecular interactions. Furthermore, it observes time evolution of the two distinct assembly states, with macroscopic fibrillar-like bundles initially forming at medium salt concentration but subsequently converting into droplets after prolonged incubation. The droplet state is therefore capable of inhibiting aggregation or even dissolving aggregates through heterotypic interactions, thus preventing alphaSyn from its dynamically arrested state.",
+    "keywords": [
+      "aggregation",
+      "biomolecular condensates",
+      "intrinsically disordered proteins",
+      "liquid-liquid phase separation",
+      "molecular dynamics"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "*Protein Aggregates",
+      "Salts/chemistry",
+      "Humans",
+      "Parkinson Disease/metabolism",
+      "Amyloid/metabolism/chemistry",
+      "Hydrogen-Ion Concentration",
+      "Protein Aggregation, Pathological/metabolism",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sternke-Hoffmann, Rebecca",
+        "Sun, Xun",
+        "Menzel, Andreas",
+        "Pinto, Miriam Dos Santos",
+        "Venclovaite, Urte",
+        "Wordehoff, Michael",
+        "Hoyer, Wolfgang",
+        "Zheng, Wenwei",
+        "Luo, Jinghui"
+      ],
+      "short_names": [
+        "Sternke-Hoffmann R",
+        "Sun X",
+        "Menzel A",
+        "Pinto MDS",
+        "Venclovaite U",
+        "Wordehoff M",
+        "Hoyer W",
+        "Zheng W",
+        "Luo J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7014-8153"
+      ],
+      "affiliations": [
+        "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, Villigen, 5232, Switzerland.",
+        "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, Villigen, 5232, Switzerland.",
+        "Center for Photon Science, Paul Scherrer Institute, Forschungsstrasse 111, Villigen, 5232, Switzerland.",
+        "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, Villigen, 5232, Switzerland.",
+        "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, Villigen, 5232, Switzerland.",
+        "Institut fur Physikalische Biologie, Heinrich-Heine University Dusseldorf, 40225, Dusseldorf, Germany.",
+        "Institut fur Physikalische Biologie, Heinrich-Heine University Dusseldorf, 40225, Dusseldorf, Germany.",
+        "College of Integrative Sciences and Arts, Arizona State University, Mesa, AZ, 85212, USA.",
+        "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, Villigen, 5232, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sternke-Hoffmann, Rebecca",
+        "short_name": "Sternke-Hoffmann R",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, Villigen, 5232, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Sun, Xun",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, Villigen, 5232, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Menzel, Andreas",
+        "short_name": "Menzel A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Photon Science, Paul Scherrer Institute, Forschungsstrasse 111, Villigen, 5232, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Pinto, Miriam Dos Santos",
+        "short_name": "Pinto MDS",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, Villigen, 5232, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Venclovaite, Urte",
+        "short_name": "Venclovaite U",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, Villigen, 5232, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wördehoff, Michael",
+        "short_name": "Wördehoff M",
+        "identifiers": [],
+        "affiliations": [
+          "Institut für Physikalische Biologie, Heinrich-Heine University Düsseldorf, 40225, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Hoyer, Wolfgang",
+        "short_name": "Hoyer W",
+        "identifiers": [],
+        "affiliations": [
+          "Institut für Physikalische Biologie, Heinrich-Heine University Düsseldorf, 40225, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Zheng, Wenwei",
+        "short_name": "Zheng W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrative Sciences and Arts, Arizona State University, Mesa, AZ, 85212, USA."
+        ]
+      },
+      {
+        "full_name": "Luo, Jinghui",
+        "short_name": "Luo J",
+        "identifiers": [
+          "0000-0002-7014-8153"
+        ],
+        "affiliations": [
+          "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, Villigen, 5232, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2024 Sep",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/08 06:42",
+    "fetched_at": "2026-09-21 08:34:16"
+  },
+  "links": {
+    "cites": [
+      "42292944",
+      "42183579",
+      "42074305",
+      "41969219",
+      "41889760",
+      "41807382",
+      "41761630",
+      "41732904",
+      "41185093",
+      "40943551",
+      "40916915",
+      "40801528",
+      "40727229",
+      "40502018",
+      "40330620",
+      "39924792",
+      "39554085"
+    ],
+    "refs": [
+      "37749234",
+      "37684240",
+      "37528959",
+      "37337111",
+      "36697708",
+      "36567711",
+      "36459561",
+      "36115020",
+      "35952593",
+      "35736300",
+      "35485974",
+      "35380562",
+      "35276458",
+      "35145226",
+      "34950630",
+      "34871547",
+      "34431665",
+      "34259536",
+      "34242594",
+      "34163700",
+      "33587794",
+      "33547841",
+      "33452693",
+      "33386904",
+      "33255444",
+      "33004511",
+      "32514159",
+      "32484438",
+      "32414928",
+      "32157247",
+      "32112991",
+      "31815671",
+      "30520303",
+      "30217894",
+      "29472250",
+      "29364893",
+      "29358076",
+      "29299386",
+      "28483149",
+      "28332488",
+      "27545621",
+      "26474065",
+      "26455390",
+      "26406374",
+      "26352473",
+      "26317470",
+      "25288112",
+      "24817693",
+      "24368804",
+      "24120937",
+      "24050397",
+      "23199922",
+      "22695112",
+      "22682242",
+      "22579281",
+      "22398450",
+      "22012399",
+      "21643490",
+      "21500218",
+      "21368180",
+      "20923147",
+      "19460965",
+      "19045161",
+      "17145717",
+      "16338404",
+      "16024039",
+      "15671169",
+      "15643843",
+      "15610017",
+      "15498564",
+      "15451224",
+      "15362105",
+      "14593171",
+      "12428728",
+      "12237457",
+      "12217698",
+      "11943202",
+      "11352739",
+      "9197268",
+      "8889180"
+    ],
+    "similar": [
+      "38973194",
+      "38464093",
+      "38808534",
+      "39116032",
+      "38272228",
+      "40658845",
+      "41147343",
+      "40015369",
+      "34431665",
+      "40721018",
+      "40370127",
+      "41547174",
+      "35787838",
+      "37238596",
+      "36373662",
+      "39612640",
+      "39087984",
+      "34871547",
+      "40770610",
+      "32514159",
+      "40845355",
+      "34830264",
+      "29704492",
+      "26161848",
+      "40715768",
+      "40238878",
+      "31424918",
+      "31181290",
+      "30917654",
+      "39818366",
+      "35500664",
+      "35276458",
+      "35485974",
+      "26152159",
+      "35657723",
+      "30327435",
+      "40916915",
+      "39255305",
+      "33279579",
+      "38714700",
+      "40560766",
+      "33862084",
+      "30769283",
+      "36802433",
+      "41087580",
+      "26020724",
+      "37574035",
+      "29364151",
+      "25389903",
+      "38511533",
+      "39504036",
+      "40022877",
+      "39462681",
+      "33771571",
+      "39549813",
+      "41067404",
+      "41593006",
+      "36246407",
+      "40560620",
+      "40819250",
+      "31971365",
+      "32170541",
+      "40610077",
+      "28238838",
+      "26845568",
+      "41576203",
+      "35011320",
+      "34165838",
+      "32157247",
+      "27226637",
+      "40785227",
+      "32291284",
+      "39950286",
+      "38847095",
+      "39196271",
+      "39596523",
+      "32790707",
+      "39208301",
+      "31096048",
+      "41372188",
+      "34082772",
+      "40815456",
+      "41410608",
+      "34213307",
+      "30814253",
+      "33413679",
+      "33982369",
+      "38888453",
+      "36310218",
+      "28710275",
+      "41457474",
+      "40684934",
+      "39947752",
+      "40440171",
+      "33452693",
+      "36966976",
+      "22134915",
+      "31854188",
+      "29941606",
+      "32629061"
+    ],
+    "review": [
+      "38973194",
+      "38808534",
+      "41547174",
+      "35787838",
+      "36373662",
+      "39612640",
+      "29364151",
+      "41067404",
+      "36246407",
+      "40610077",
+      "35011320",
+      "39950286",
+      "41410608",
+      "38888453",
+      "39947752"
+    ],
+    "pmc": [
+      "11425899"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38973194/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.03.20.585962",
+  "title": "mRNA display in cell lysates enables identification of cyclic peptides targeting the BRD3 extraterminal domain",
+  "doi": "10.1101/2024.03.20.585962",
+  "abstract": "<h4>ABSTRACT</h4> mRNA display is a powerful technology to screen libraries of >10 12 cyclic peptides against a protein target, enabling the rapid discovery of high affinity ligands. These cyclic peptides are particularly well suited to challenging protein targets that have been difficult to drug with small molecules. However, target choice can still be limited as screens are typically performed against purified proteins which often demands the use of isolated domains and precludes the use of aggregation-prone targets. Here, we report a method to perform mRNA display selections in mammalian cell lysates without the need for prior target purification, vastly expanding the potential target scope of mRNA display. We have applied the methodology to identify low to sub-nanomolar peptide binders for two targets; a NanoLuc subunit (LgBiT) and full-length bromodomain-containing protein 3 (BRD3). Our cyclic peptides for BRD3 were found to bind to the extraterminal (ET) domain of BRD3 and the closely related BRD proteins, BRD2 and BRD4. While many chemical probes exist for the bromodomains of BRD proteins, the ET domain is relatively underexplored, making these peptides valuable additions to the BRD toolbox.",
+  "authors": [
+    "Hurd CA",
+    "Bush JT",
+    "Powell AJ",
+    "Walport LJ"
+  ],
+  "published_date": "2024-03-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.03.20.585962",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.03.20.585962.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR825597",
+    "raw_record": {
+      "id": "PPR825597",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR825597"
+        ]
+      },
+      "doi": "10.1101/2024.03.20.585962",
+      "title": "mRNA display in cell lysates enables identification of cyclic peptides targeting the BRD3 extraterminal domain",
+      "authorString": "Hurd CA, Bush JT, Powell AJ, Walport LJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hurd CA",
+            "lastName": "Hurd",
+            "firstName": "Catherine",
+            "initials": "CA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6213-6809"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Crick-GSK Biomedical LinkLabs, The Francis Crick Institute, London NW1 1AT, United Kingdom"
+                },
+                {
+                  "affiliation": "Department of Chemistry, Molecular Sciences Research Hub, Imperial College London, London W12 0BZ, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bush JT",
+            "lastName": "Bush",
+            "firstName": "Jacob",
+            "initials": "JT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Crick-GSK Biomedical LinkLabs, GSK, Gunnels Wood Road, Stevenage SG1 2NY, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Powell AJ",
+            "lastName": "Powell",
+            "firstName": "Andrew",
+            "initials": "AJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Crick-GSK Biomedical LinkLabs, GSK, Gunnels Wood Road, Stevenage SG1 2NY, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Walport LJ",
+            "lastName": "Walport",
+            "firstName": "Louise",
+            "initials": "LJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Molecular Sciences Research Hub, Imperial College London, London W12 0BZ, United Kingdom"
+                },
+                {
+                  "affiliation": "Protein-Protein Interaction Laboratory, The Francis Crick Institute, London NW1 1AT, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6213-6809"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  mRNA display is a powerful technology to screen libraries of >10  12 cyclic peptides against a protein target, enabling the rapid discovery of high affinity ligands. These cyclic peptides are particularly well suited to challenging protein targets that have been difficult to drug with small molecules. However, target choice can still be limited as screens are typically performed against purified proteins which often demands the use of isolated domains and precludes the use of aggregation-prone targets. Here, we report a method to perform mRNA display selections in mammalian cell lysates without the need for prior target purification, vastly expanding the potential target scope of mRNA display. We have applied the methodology to identify low to sub-nanomolar peptide binders for two targets; a NanoLuc subunit (LgBiT) and full-length bromodomain-containing protein 3 (BRD3). Our cyclic peptides for BRD3 were found to bind to the extraterminal (ET) domain of BRD3 and the closely related BRD proteins, BRD2 and BRD4. While many chemical probes exist for the bromodomains of BRD proteins, the ET domain is relatively underexplored, making these peptides valuable additions to the BRD toolbox.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/20/2024.03.20.585962.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.03.20.585962"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR825597"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR825597&type=FILE&fileName=EMS194949-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38899853",
+            "reference": "Angewandte Chemie (International ed. in English). 2024 Sep;63(38):e202406414",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS194949",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-03-23",
+      "firstPublicationDate": "2024-03-20",
+      "firstIndexDate": "2024-03-23",
+      "fullTextReceivedDate": "2024-04-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35059035",
+  "title": "Secondary structure dependence on simulation techniques and force field parameters: from disordered to ordered proteins.",
+  "authors": "Coskuner-Weber, Orkid; Caglayan, Sule Irem",
+  "journal": "Biophysical reviews",
+  "published_date": "2022-01-22",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文比较不同模拟技术与力场参数对有序和无序蛋白二级结构预测的影响，对象涉及无序蛋白但未聚焦PPI或互作机制，方法为MD/REMD物理模拟，对无序蛋白模拟方法选择有参考价值。",
+  "abstract": "Computer simulations are used for identifying the secondary structure properties of ordered and disordered proteins. However, our recent studies showed that the chosen computer simulation protocol, simulation technique, and force field parameter set for a disordered protein impact its predicted secondary structure properties. Here, we compare the outcome from computer simulations utilizing molecular dynamics simulations without parallel tempering techniques using various force field parameter sets and temperature-replica exchange molecular dynamics simulations both for a model ordered and two model disordered proteins. Specifically, the model ordered protein is the third IgG-binding domain of Protein G (GB3) and the two model disordered proteins are amyloid-beta(1-40) and alpha-synuclein in water. Our findings clearly indicate that temperature-replica exchange molecular dynamics simulations and molecular dynamics simulations without special sampling techniques yield similar results for the ordered GB3 protein whereas such agreement between simulation techniques using various force field parameter sets could not be obtained for disordered proteins. These findings clearly indicate that a consensus has to be reached via further development in computer simulation technique and force field parameter sets for disordered proteins.",
+  "abstract_zh": "计算机模拟被用于识别有序和无序蛋白质的二级结构特性。然而，我们近期的研究表明，对于无序蛋白质，所选择的计算机模拟协议、模拟技术及力场参数集会影响其预测的二级结构特性。在此，我们比较了使用不同力场参数集且未采用并行回火技术的分子动力学模拟，以及温度副本交换分子动力学模拟，针对一个模型有序蛋白质和两个模型无序蛋白质的结果。具体而言，模型有序蛋白质为蛋白质G的第三个IgG结合域（GB3），两个模型无序蛋白质分别为水溶液中的淀粉样β蛋白(1-40)和α-突触核蛋白。我们的发现明确指出，对于有序的GB3蛋白质，温度副本交换分子动力学模拟与未采用特殊采样技术的分子动力学模拟产生相似结果，而对于无序蛋白质，使用不同力场参数集的这些模拟技术之间无法获得如此一致性。这些发现明确表明，对于无序蛋白质，需通过计算机模拟技术和力场参数集的进一步开发来达成共识。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35059035/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35059035/",
+  "paper_page_path": "papers/pubmed/35059035/index.html"
+}

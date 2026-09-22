@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34901020",
+  "title": "Synuclein Regulates Synaptic Vesicle Clustering and Docking at a Vertebrate Synapse.",
+  "authors": "Fouke, Kaitlyn E; Wegman, M Elizabeth; Weber, Sarah A; Brady, Emily B; Roman-Vendrell, Cristina; Morgan, Jennifer R",
+  "journal": "Frontiers in cell and developmental biology",
+  "published_date": "2021-12-14",
+  "window": {
+    "start": "2021-12-13",
+    "end": "2021-12-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过抗体扰动实验揭示α-突触核蛋白调节突触囊泡聚集与对接，对象涉及突触核蛋白（含无序区域）但未聚焦IDR介导的PPI机制，且无AI或物理模拟方法，仅提供生物学表型证据。",
+  "abstract": "Neurotransmission relies critically on the exocytotic release of neurotransmitters from small synaptic vesicles (SVs) at the active zone. Therefore, it is essential for neurons to maintain an adequate pool of SVs clustered at synapses in order to sustain efficient neurotransmission. It is well established that the phosphoprotein synapsin 1 regulates SV clustering at synapses. Here, we demonstrate that synuclein, another SV-associated protein and synapsin binding partner, also modulates SV clustering at a vertebrate synapse. When acutely introduced to unstimulated lamprey reticulospinal synapses, a pan-synuclein antibody raised against the N-terminal domain of alpha-synuclein induced a significant loss of SVs at the synapse. Both docked SVs and the distal reserve pool of SVs were depleted, resulting in a loss of total membrane at synapses. In contrast, antibodies against two other abundant SV-associated proteins, synaptic vesicle glycoprotein 2 (SV2) and vesicle-associated membrane protein (VAMP/synaptobrevin), had no effect on the size or distribution of SV clusters. Synuclein perturbation caused a dose-dependent reduction in the number of SVs at synapses. Interestingly, the large SV clusters appeared to disperse into smaller SV clusters, as well as individual SVs. Thus, synuclein regulates clustering of SVs at resting synapses, as well as docking of SVs at the active zone. These findings reveal new roles for synuclein at the synapse and provide critical insights into diseases associated with alpha-synuclein dysfunction, such as Parkinson's disease.",
+  "abstract_zh": "神经传递关键依赖于小突触囊泡（SVs）在活性区的胞吐释放。因此，神经元必须维持足够的突触囊泡簇集在突触处以支持高效的神经传递。已明确，磷蛋白突触素1（synapsin 1）调节突触处的突触囊泡簇集。在此，我们证明突触核蛋白（synuclein），另一种与突触囊泡相关的蛋白及突触素的结合伙伴，也调节脊椎动物突触处的突触囊泡簇集。当将针对α-突触核蛋白N端结构域的全突触核蛋白抗体急性引入未受刺激的七鳃鳗网状脊髓突触时，突触处的突触囊泡显著减少。无论是停靠的突触囊泡还是远端储备池的突触囊泡均被耗尽，导致突触处总膜量减少。相比之下，针对另外两种丰富的突触囊泡相关蛋白——突触囊泡糖蛋白2（SV2）和囊泡相关膜蛋白（VAMP/突触小泡蛋白）的抗体，对突触囊泡簇的大小或分布无影响。突触核蛋白的扰动导致突触处突触囊泡数量呈剂量依赖性减少。有趣的是，大的突触囊泡簇似乎分散成较小的簇以及单个突触囊泡。因此，突触核蛋白调节静息突触处突触囊泡的簇集，以及活性区突触囊泡的停靠。这些发现揭示了突触核蛋白在突触处的新作用，并为与α-突触核蛋白功能障碍相关的疾病（如帕金森病）提供了关键见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34901020/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34901020/",
+  "paper_page_path": "papers/pubmed/34901020/index.html"
+}

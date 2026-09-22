@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42150060",
+  "title": "A functional map of the human intrinsically disordered proteome.",
+  "authors": "Pritisanac, Iva; Alderson, T Reid; Kolaric, Desika; Zarin, Taraneh; Xie, Shuting; Lu, Alex; Alam, Aqsa; Maqsood, Abdullah; Youn, Ji-Young; Forman-Kay, Julie D; Moses, Alan M",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2026-05-18",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过进化保守特征对整个人类无序蛋白组进行功能聚类，并预测IDR定位到生物分子凝聚体及互作伙伴中的短线性基序结合域，虽非直接建模具体PPI机制，但为无序蛋白互作与相分离的功能预测提供了可迁移的AI/生物信息学框架。",
+  "abstract": "Intrinsically disordered regions (IDRs) represent at least one-third of the human proteome and defy the established structure-function paradigm. Because IDRs often have limited positional sequence conservation, the functional classification of IDRs using standard bioinformatics is generally not possible. Here, we show that evolutionarily conserved molecular features of IDRs enable clustering of the human disordered proteome (IDRome) into a map with strong functional enrichments. We quantify how conserved IDR features correlate with functional terms and, for a subset of terms, provide proteome-wide predictions of annotations for IDRs. Further, we show that conserved features of IDRs can predict protein localization to different biomolecular condensates and underlie elevated intracluster connectivity in condensate-associated IDRs, as well as enrich for short-linear motif-binding domains among interaction partners. We highlight patterns of conservation in disordered proteins with unknown function and in clusters enriched for proteins encoded by disease-risk genes. Our map of the human IDR-ome should be a valuable resource that aids in the discovery of new IDR biology.",
+  "abstract_zh": "固有无序区域（IDRs）至少占人类蛋白质组的三分之一，并挑战了既定的结构-功能范式。由于IDRs通常具有有限的位置序列保守性，使用标准生物信息学对IDRs进行功能分类通常是不可能的。在此，我们展示了IDRs的进化保守分子特征能够将人类无序蛋白质组（IDRome）聚类成具有强烈功能富集的图谱。我们量化了保守的IDR特征如何与功能术语相关联，并针对一部分术语，提供了IDRs注释的全蛋白质组预测。此外，我们表明，IDRs的保守特征可以预测蛋白质在不同生物分子凝聚体中的定位，并构成凝聚体相关IDRs中升高的簇内连接性的基础，同时也在相互作用伙伴中富集短线性基序结合域。我们强调了功能未知的无序蛋白质以及由疾病风险基因编码的蛋白质富集簇中的保守模式。我们的人类IDR-ome图谱应成为有助于发现新IDR生物学的宝贵资源。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42150060/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42150060/",
+  "paper_page_path": "papers/pubmed/42150060/index.html"
+}

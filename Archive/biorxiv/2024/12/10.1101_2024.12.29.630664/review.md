@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, methods, and supplemental figure/movie legends. Figures and supplemental figures/tables were not provided as image files, only referenced.
+- **Assessment boundary** Scientific claims, experimental logic, methodological soundness, and consistency between stated results and conclusions, based solely on the text provided. No assessment of image quality, raw data, or statistical outputs beyond what is described.
+- **Shared manuscript claim summary** The authors propose that the RNA-binding protein Mei2, previously known for nuclear functions in promoting meiotic divisions in fission yeast, also acts in the cytosol to arrest mitotic growth and initiate zygotic development. They report that Mei2 is recruited to P-bodies specifically after fertilization, that this recruitment and cytosolic functions require RNA recognition motif 1 (RRM1), and that P-bodies are necessary for Mei2-driven development. They further show that Pat1 kinase phosphorylation inhibits P-body recruitment and that Mei2 can repress translation of tethered mRNAs in an RRM1-dependent manner.
+- **Visible evidence base** Text descriptions of live-cell imaging, FRAP, smFISH, genetic crosses, and reporter assays. Specific quantitative data (e.g., percentages, p-values, n numbers) are cited in the text but the corresponding figures are not viewable.
+- **Missing materials affecting confidence** All figures, supplemental figures, tables, and movies are referenced but not provided. This prevents independent verification of image quality, colocalization statistics, FRAP recovery curves, and the specificity of the PP7 reporter system. The manuscript is a preprint and has not undergone peer review.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant question in developmental biology: how a single RNA-binding protein can exert distinct functions in different subcellular compartments to control a developmental transition. The use of compartment-restricted alleles and live-cell imaging is a strong approach, and the finding that Mei2 functions in the cytosol and in P-bodies is novel and potentially important. However, the evidence as presented in the text is incomplete in several key areas. The claim that P-bodies are necessary for Mei2-driven development relies on a single mutant (ste13Δ) whose effects on P-body integrity and Mei2 expression are not fully disentangled. The translational repression assay, while clever, requires careful controls to rule out indirect effects. The mechanistic link between RRM1, P-body recruitment, and translational repression is correlative. The manuscript would be strengthened by more direct evidence for the proposed model, including rescue experiments and a clearer demonstration that the observed phenotypes are due to loss of cytosolic Mei2 function rather than indirect effects on protein stability or localization.
+- **Who would be interested in the results, and why** Researchers studying post-transcriptional regulation, RNA-binding proteins, P-bodies, and developmental transitions in fungi. The work also has broader relevance to those interested in how subcellular compartmentalization of RNA regulators controls cell fate decisions, a theme conserved across eukaryotes. The fission yeast community specifically will be interested given the central role of Mei2 in sexual differentiation.
+- **Major strengths** 1) The study addresses a clear and important gap: the cytosolic functions of Mei2 were previously unexplored. 2) The use of compartment-restricted alleles (NES/NLS fusions) is a powerful and appropriate strategy to dissect spatial functions. 3) The identification of Mei2 as a zygote-specific P-body component is novel and opens new questions about P-body function in development. 4) The PP7 tethering assay is a creative approach to test translational repression. 5) The writing is clear and the logical flow from observation to hypothesis to test is generally sound.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for central claim
+  - **Claim pointer** "P-bodies are necessary for Mei2-driven development" (Abstract, Results section "Mei2 functions are dependent on the P-body DEAD-box helicase Ste13")
+  - **Evidence pointer** Results section "Mei2 functions are dependent on the P-body DEAD-box helicase Ste13", Figure 6, Supplemental Figure S6
+  - **Concern** The central claim that P-bodies are required for Mei2 function rests almost entirely on experiments with the ste13Δ mutant. The text states that ste13Δ cells have fewer P-bodies, but also that ste13Δ severely downregulates Mei2 protein levels (Figure S6F). This is a critical confound: if Mei2 levels are reduced, then the failure to induce development could be due to insufficient Mei2, not to loss of P-bodies. The authors attempt to bypass this by overexpressing Mei2 SATA from a heterologous promoter, but the text does not clarify whether this restores Mei2 to levels comparable to wild-type, nor whether P-body integrity is still disrupted in this context. Without a clear demonstration that Mei2 levels are normalized and P-bodies are still disrupted, the conclusion that P-bodies are necessary is not established.
+  - **Why it matters** The claim that P-bodies are functionally required is a major conceptual advance of the paper. If the only evidence is a mutant that also reduces Mei2 levels, the conclusion is not supported. The distinction between "Mei2 needs P-bodies" and "Mei2 needs to be expressed at sufficient levels" is fundamental.
+  - **Resolution test** The authors should show that in the ste13Δ background with induced Mei2 SATA expression, Mei2 protein levels are comparable to wild-type induced levels. They should also show that P-body assembly is still disrupted in this background (e.g., by staining for Edc3 or Dcp2). Ideally, they would also test whether a ste13 allele that preserves P-body assembly but lacks helicase activity can support Mei2 function, or whether expression of a P-body-localized Mei2 fusion (e.g., tethered to Edc3) can rescue development in ste13Δ.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic link between RRM1 and translational repression
+  - **Claim pointer** "Mei2 inhibits translation of associated cytosolic transcripts through function of its RRM1" (Abstract, Results section "Mei2 regulates nuclear export of mamRNA and translation of tethered cytosolic transcripts")
+  - **Evidence pointer** Results section "Mei2 regulates nuclear export of mamRNA and translation of tethered cytosolic transcripts", Figure 7, Supplemental Figure S8
+  - **Concern** The PP7 tethering assay shows that Mei2-PP7 represses translation of a reporter mRNA, and that the F239A mutation in RRM1 abolishes this repression. However, the text does not provide evidence that the F239A mutation specifically disrupts a translational repression function rather than, for example, causing misfolding, mislocalization, or reduced protein stability. The authors show that F239A affects P-body recruitment, but the relationship between P-body recruitment and translational repression is not tested directly. It is possible that F239A disrupts an interaction with a translational repressor complex that is independent of P-body localization. The text also does not report whether the F239A mutant is expressed at levels comparable to wild-type in the tethering assay.
+  - **Why it matters** The claim that RRM1 mediates translational repression is a key mechanistic finding. Without ruling out trivial explanations (protein instability, misfolding), the conclusion is premature. The distinction between "RRM1 is required for P-body recruitment and therefore repression" versus "RRM1 directly recruits a repressor complex" has different implications for the model.
+  - **Resolution test** The authors should show that F239A Mei2-PP7 is expressed at levels comparable to wild-type Mei2-PP7 in the tethering assay. They should also test whether the F239A mutant can still bind RNA (e.g., by RNA immunoprecipitation) to rule out a general loss of RNA-binding function. Ideally, they would perform a reciprocal experiment where a P-body localization signal is added to the F239A mutant to see if forced P-body localization restores translational repression.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of the PP7 tethering system
+  - **Claim pointer** "Mei2-PP7 efficiently repressed translation of sfGFP:PP7 SL" (Results section "Mei2 regulates nuclear export of mamRNA and translation of tethered cytosolic transcripts")
+  - **Evidence pointer** Results section "Mei2 regulates nuclear export of mamRNA and translation of tethered cytosolic transcripts", Figure 7, Supplemental Figure S8
+  - **Concern** The PP7 tethering assay relies on the fusion of the PP7 coat protein to Mei2. The text states that the PP7 tag does not affect Mei2 function in sporulation, but it does not report whether the PP7 tag alone (without Mei2) has any effect on reporter expression. It is also unclear whether the 18 PP7 stem-loops in the reporter could sequester the reporter mRNA into P-bodies or other granules independently of Mei2, potentially affecting translation. The text mentions that the reporter mRNA forms similar numbers of cytosolic puncta in the presence and absence of Mei2-PP7, which is reassuring, but the localization of these puncta relative to P-bodies is not described.
+  - **Why it matters** The tethering assay is the primary evidence for translational repression. If the PP7 tag alone has non-specific effects, or if the reporter mRNA is localized to P-bodies regardless of Mei2, the interpretation is confounded.
+  - **Resolution test** The authors should include a control where the PP7 domain is fused to an unrelated RNA-binding protein or to a non-functional Mei2 mutant (e.g., a mutant that cannot bind RNA at all). They should also show that the reporter mRNA puncta do not colocalize with P-bodies in the absence of Mei2-PP7.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the ste13 requirement
+  - **Claim pointer** "Mei2 regulation of zygotic development is dependent on Ste13 functions, conceivably through regulation of P-body based processes" (Results section "Mei2 functions are dependent on the P-body DEAD-box helicase Ste13")
+  - **Evidence pointer** Results section "Mei2 functions are dependent on the P-body DEAD-box helicase Ste13", Figure 6
+  - **Concern** The text shows that ste13Δ mutants have fewer P-bodies and fail to support Mei2-driven development. However, it is not clear whether this is specific to Ste13 or whether disruption of P-bodies by other means (e.g., deletion of other core P-body components like Edc3 or Dcp2) would have the same effect. The text mentions that deleting edc1 or pdc2 causes aberrant sporulation, but does not test whether these mutants also block Mei2 function. Without testing multiple P-body components, the conclusion that P-bodies per se are required is not fully established.
+  - **Why it matters** The claim is that P-bodies are necessary for Mei2 function. If only one P-body regulator (Ste13) has been tested, it is possible that Ste13 has a P-body-independent function in Mei2 regulation.
+  - **Resolution test** The authors should test whether deletion of other core P-body components (e.g., dcp2, edc3, or the Lsm complex) also blocks Mei2-driven development. If multiple P-body mutants phenocopy ste13Δ, the conclusion is strengthened.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Results section "Mei3 and Pat1 are targeted to the nucleus in zygotes"
+  - **Evidence pointer** Figure 1, Supplemental Figure S1
+  - **Issue** The text states that Pat1-3sfGFP levels increase during mating and peak after cell fusion, but the quantification method is not described in the text. It is unclear whether this is based on total fluorescence intensity, nuclear intensity, or a ratio.
+  - **Required correction** Please specify the quantification method for Pat1-3sfGFP levels and whether the increase is in total protein, nuclear protein, or both.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "Mei2 regulates nuclear export of mamRNA and translation of tethered cytosolic transcripts"
+  - **Evidence pointer** Figure 7, Supplemental Figure S8
+  - **Issue** The text reports percentages of colocalization (e.g., 79±6%) but does not state the number of cells analyzed or the statistical test used to compare conditions.
+  - **Required correction** Please report n numbers and statistical tests for all colocalization and quantification data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and Methods, "Strains and genetic manipulations"
+  - **Evidence pointer** Materials and Methods section
+  - **Issue** The text mentions that "previously reported markers were either present in the lab stock, received as a gift from other labs, obtained from the National BioSource Project or Bioneer's fission yeast deletion library" but does not provide specific source information for each strain. This makes it difficult to assess potential background effects.
+  - **Required correction** Please provide a table or supplementary file listing the source of each strain and allele used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of FRAP data
+  - **Affected element** Results section "Fertilization and Mei3 expression regulate nucleocytoplasmic shuttling of Mei2"
+  - **Evidence pointer** Supplemental Figure S2C-S2F
+  - **Issue** The FRAP experiments are described qualitatively ("rapid recovery"). The text does not report the half-time of recovery or the mobile fraction, which are standard metrics for FRAP.
+  - **Required correction** Please report quantitative FRAP metrics (t1/2, mobile fraction) and the number of cells analyzed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Control for Mei2 NLS/NES fusions
+  - **Affected element** Results section "Fertilization and Mei3 expression regulate nucleocytoplasmic shuttling of Mei2"
+  - **Evidence pointer** Figure 2, Supplemental Figure S2
+  - **Issue** The text states that Mei2-NLS-sfGFP is exported to the cytosol upon fertilization, but it is not clear whether the NLS tag affects Mei2 function or localization dynamics in ways that might not reflect the endogenous protein.
+  - **Required correction** Please discuss whether the NLS/NES tags could alter Mei2 dynamics and whether any controls were performed to validate that the tagged protein behaves like the untagged version.
+
+## Risk / unsupported claims
+- The claim that "P-bodies are necessary for Mei2-driven development" is not fully supported because the primary evidence (ste13Δ) also reduces Mei2 protein levels, and no rescue experiment demonstrating restored Mei2 levels with disrupted P-bodies is described.
+- The claim that "RRM1 is required for translational repression" is supported by the F239A mutant, but the text does not rule out that F239A causes protein misfolding or instability, nor does it show that F239A specifically disrupts a repression function rather than a general RNA-binding function.
+- The claim that "Mei2 regulates nuclear export of mamRNA" is based on localization changes, but the text does not provide direct evidence for a mechanism (e.g., export factor recruitment) or exclude indirect effects.
+- The claim that "Mei3 promotes nuclear targeting of Pat1" is based on localization data, but the text does not show whether this is a direct interaction or an indirect consequence of other changes.
+- The text states that "Mei2 forms the nuclear dot in gametes independently of Mei3 and fertilization," but the functional significance of this observation is not explored, and it is unclear whether this dot is the same as the previously described meiotic dot.
+- The text mentions that "Mei2-PP7 repressed translation of sfGFP:PP7 SL also in mei3Δ zygotes," but the text does not report whether the reporter mRNA is still localized to P-bodies in this background, leaving open the possibility that repression occurs outside P-bodies.
+
+## Assessment against Nature-style criteria
+- **Originality** The finding that Mei2 has cytosolic functions and is recruited to P-bodies is novel and extends the known functions of this protein. The use of compartment-restricted alleles is a creative approach. However, the concept that RNA-binding proteins have compartment-specific functions is not new, and the paper would need to demonstrate a clear mechanistic advance to be considered highly original.
+- **Scientific importance** The work addresses a fundamental question in developmental biology: how a single protein can control multiple steps of a developmental program from different cellular locations. If the conclusions are fully supported, this would be an important contribution to the field. However, the current evidence is incomplete, and the importance of the findings is not yet fully established.
+- **Interdisciplinary readership** The work is primarily of interest to cell biologists and developmental biologists studying RNA regulation. The use of fission yeast as a model system may limit the immediate appeal to a broader readership, although the principles are likely conserved.
+- **Technical soundness** The experimental approaches are generally appropriate and well-described. However, the lack of key controls (e.g., for the ste13Δ experiment and the F239A mutant) and the absence of quantitative data for several key claims reduce confidence in the technical soundness of the conclusions.
+- **Readability for nonspecialists** The manuscript is clearly written and the logic is easy to follow. The use of figures and movies (not assessed here) would likely aid comprehension. However, the text assumes familiarity with fission yeast genetics and P-body biology, which may limit accessibility to a general audience.
+
+## Recommendation posture
+**Currently not established from the provided evidence.** The manuscript presents a potentially interesting model, but the key claims are not fully supported by the evidence as described in the text. The central issue is the ste13Δ experiment, which conflates loss of P-bodies with reduced Mei2 expression. The translational repression data are also incomplete without controls for protein stability and RNA binding. The authors should address these concerns with additional experiments and quantitative data before the conclusions can be considered established.

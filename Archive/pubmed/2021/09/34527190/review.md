@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and figure legends, as provided.
+- **Assessment boundary** Scientific content, methodological rigor, database utility, and claims as presented in the provided text. No external data, code, or database access was performed.
+- **Shared manuscript claim summary** The authors present MedProDB, described as the first dedicated database of Mediator protein subunits, containing 33,971 sequences from metazoans, fungi, and plants. The database integrates sequence information, physicochemical properties, repeat regions, intrinsically disordered regions (IDRs), molecular recognition features (MoRFs), post-translational modification (PTM) predictions, functional annotations, interactions, and disease associations. The authors claim this resource will accelerate research on Mediator complex structure, function, and evolution.
+- **Visible evidence base** Text descriptions of methods and results, including references to Supplementary Sheets 1.1–1.10, 2.1–2.5, and Figures 1–5. No actual data, screenshots, or database content were provided for verification.
+- **Missing materials affecting confidence** The manuscript text alone does not allow verification of database content, web interface functionality, sequence counts, or the accuracy of annotations. Supplementary data, figure content, and live database access are required for full assessment.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful community resource for researchers studying the Mediator complex. The scope is broad, covering three kingdoms and multiple sequence features. However, the text as provided has substantial issues: the methods are described at a level that prevents reproducibility, several claims are not supported by visible evidence, and the writing contains numerous typographical and grammatical errors that impair readability. The database itself may be valuable, but the manuscript does not currently establish this convincingly.
+- **Who would be interested in the results, and why** Researchers studying transcriptional regulation, Mediator complex structure and function, eukaryotic evolution, and bioinformatics tool developers. The database could serve as a one-stop resource for Mediator subunit sequences and features, potentially useful for comparative genomics, functional prediction, and experimental design.
+- **Major strengths** The concept of a dedicated Mediator protein database fills a clear gap in the field. The inclusion of multiple feature types (physicochemical, structural disorder, MoRFs, PTMs, disease associations) is comprehensive. The use of HMM profiles for sequence identification across kingdoms is a sound approach. The integration of analysis tools (BLAST, IUPred, MoRF-CHiBi) adds practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility of methods
+  - **Claim pointer** The methods section claims that HMM profiles were constructed and used to identify Mediator subunits across three kingdoms.
+  - **Evidence pointer** Materials and Methods, "Sequence retrieval and identification of Mediator subunits in fungi, metazoans, and plants"; location not provided
+  - **Concern** The description of the HMM-based identification pipeline is insufficient for reproducibility. Key parameters are missing, including the number of seed sequences per subunit, the specific HMMER tool version, the significance thresholds beyond the E-value, how redundancy was removed, and how false positives were filtered. The number of sequences identified (12,270 metazoan, 9,593 fungal, 11,479 plant) is stated without any validation metrics, such as how many known Mediator subunits were recovered or how many non-Mediator proteins were included.
+  - **Why it matters** Without a detailed and validated method, the core content of the database cannot be assessed for accuracy. If the sequence set is contaminated with non-Mediator proteins, all downstream analyses and user queries would be compromised.
+  - **Resolution test** Provide a step-by-step pipeline with all parameters, including seed sequence counts, HMMER version, inclusion thresholds, and redundancy removal criteria. Include a validation set showing recovery of known Mediator subunits and an estimate of false positive rate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for claims
+  - **Claim pointer** The results section claims that "Med15 of the tail module, and Med19 of the head module" have average disorder greater than 0.5 across all three kingdoms, and that specific IDR conservation patterns exist.
+  - **Evidence pointer** Results, "IDR analysis", Figures 1 and 2; location not provided
+  - **Concern** The text describes disorder and IDR conservation results, but the figures are not visible in the provided material. The claim that "the position of disordered regions is conserved in all kingdoms" is stated in the Discussion as a finding of this study, but no statistical test or quantitative comparison is described. The threshold for "conserved" IDRs is defined, but the results of applying this threshold are only partially described.
+  - **Why it matters** The IDR and MoRF analyses are presented as key features of the database. Without visible figures or statistical support, the reader cannot evaluate whether the conclusions are justified.
+  - **Resolution test** Provide the figures with clear legends, and add statistical comparisons (e.g., enrichment tests, permutation tests) to support claims of conservation. State the number of subunits with conserved IDRs per kingdom and per region.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Database utility and verification
+  - **Claim pointer** The authors claim that MedProDB is "the first Mediator protein database" and that it contains comprehensive information including disease associations.
+  - **Evidence pointer** Introduction, Results, "MedProDB: an interactive database of Mediator proteins"; location not provided
+  - **Concern** The claim of being "first" is not substantiated with a literature search. More importantly, the disease association data is described as "manually curated from the 8,525 research articles of Mediator complex," but no details are given on the curation process, inclusion criteria, or how disease associations were mapped to specific subunits. The database content cannot be verified from the text alone.
+  - **Why it matters** For a database paper, the utility and accuracy of the curated data are central. Without a clear curation protocol and without demonstrating the database is accessible and functional, the resource cannot be evaluated.
+  - **Resolution test** Provide a detailed curation protocol, including how articles were selected, how disease associations were extracted, and how conflicts were resolved. Provide a URL for the database and evidence of its accessibility and functionality.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Case study interpretation
+  - **Claim pointer** The case studies claim that CDK8 shows conserved "ATP binding" function across kingdoms based on similar disorder tendency patterns, and that specific Mediator subunits are associated with various cancers.
+  - **Evidence pointer** Results, "Case study I" and "Case study II", Figures 4 and 5; location not provided
+  - **Concern** The case studies are presented as demonstrations of database utility, but the interpretation is superficial. In Case Study I, the authors state that sequence alignment of CDK8 orthologs is "not good" but disorder tendency is "very much similar," yet no quantitative measure of similarity is provided. The verification of ATP binding function is described as "manually" checking UniProt, which is not a functional validation. In Case Study II, the cancer associations are listed without any statistical enrichment analysis or comparison to known cancer gene databases.
+  - **Why it matters** Case studies should demonstrate how the database can generate or support biological hypotheses. As presented, they are descriptive and do not add analytical value.
+  - **Resolution test** Add quantitative comparisons (e.g., disorder profile correlation coefficients, enrichment of cancer-associated subunits against a background set) and clearly state the limitations of the case studies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and language
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Multiple sections; location not provided
+  - **Issue** The text contains numerous typographical and grammatical errors, including "raltead" (likely "related"), "organim" (likely "organism"), "pattent" (likely "pattern"), "tandancy" (likely "tendency"), "vaified" (likely "verified"), "fuction" (likely "function"), "litrarure" (likely "literature"), and "desiging" (likely "designing"). These errors appear in both the main text and figure legends.
+  - **Required correction** The manuscript should be thoroughly proofread and edited for language quality before resubmission.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 1, 2, 4, and 5
+  - **Evidence pointer** Results section; location not provided
+  - **Issue** The figures are referenced but not visible in the provided text. Based on the legends, Figure 1 appears to be a bar plot, Figure 2 a heatmap or similar, Figure 4 a composite of Venn diagram and disorder plots, and Figure 5 a database screenshot. The resolution and readability of these figures cannot be assessed.
+  - **Required correction** Ensure all figures are high-resolution, clearly labeled, and self-explanatory. Add axis labels, legends, and color keys where applicable.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Database accessibility
+  - **Affected element** Web interface description
+  - **Evidence pointer** Results, "MedProDB web-interface features"; location not provided
+  - **Issue** The URL is only mentioned in the acknowledgements section. The manuscript should include the database URL in the abstract and main text, and state the date of last access.
+  - **Required correction** Add the URL prominently in the abstract and introduction, and include a statement on database availability and update frequency.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Supplementary data
+  - **Evidence pointer** Supplementary data section; location not provided
+  - **Issue** The supplementary data are mentioned but not described in detail. It is unclear what is contained in Supplementary Sheets 1.1–1.10 and 2.1–2.5.
+  - **Required correction** Provide a brief description of each supplementary file in the main text or a supplementary file legend.
+- **Technical failings that need to be addressed before the case is established** The HMM-based identification pipeline is not described in sufficient detail to be reproducible or validated. The IDR and MoRF analyses lack statistical support. The disease curation process is not described. The case studies do not provide quantitative evidence for the claims made. The database itself cannot be accessed or verified from the provided materials.
+- **Assessment against Nature-style criteria** Originality: The concept of a dedicated Mediator database is original and addresses a clear gap. Scientific importance: The Mediator complex is a fundamental and clinically relevant topic, and a comprehensive database could be valuable. Interdisciplinary readership: The resource could appeal to molecular biologists, bioinformaticians, and clinical researchers. Technical soundness: The methods as described are not sufficiently detailed or validated to establish technical soundness. Readability for nonspecialists: The manuscript is accessible in concept but is marred by language errors and a lack of clear figure presentation.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially useful resource, but the methods are not reproducible, the claims are not supported by visible evidence, and the database cannot be verified. Major revisions are required to address these issues.
+
+## Risk / unsupported claims
+- The claim that MedProDB is the "first" Mediator protein database is unsupported without a literature search.
+- The claim that IDR positions are conserved across kingdoms is unsupported without statistical analysis.
+- The claim that CDK8 ATP binding function is conserved based on disorder similarity is unsupported without quantitative comparison.
+- The disease associations listed in Case Study II are presented without a described curation or validation process.
+- The total sequence counts and species numbers (33,971 sequences, 1,113 species) cannot be verified from the provided text.

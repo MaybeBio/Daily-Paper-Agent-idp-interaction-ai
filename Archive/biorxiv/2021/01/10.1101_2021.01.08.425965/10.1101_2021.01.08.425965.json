@@ -1,0 +1,237 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.08.425965",
+  "title": "Molecular Dynamics Analysis of a Flexible Loop at the Binding Interface of the SARS-CoV-2 Spike Protein Receptor-Binding Domain",
+  "doi": "10.1101/2021.01.08.425965",
+  "abstract": "Since the identification of the SARS-CoV-2 virus as the causative agent of the current COVID-19 pandemic, considerable effort has been spent characterizing the interaction between the Spike protein receptor-binding domain (RBD) and the human angiotensin converting enzyme 2 (ACE2) receptor. This has provided a detailed picture of the end point structure of the RBD-ACE2 binding event, but what remains to be elucidated is the conformation and dynamics of the RBD prior to its interaction with ACE2. In this work we utilize molecular dynamics simulations to probe the flexibility and conformational ensemble of the unbound state of the receptor-binding domain from SARS-CoV-2 and SARS-CoV. We have found that the unbound RBD has a localized region of dynamic flexibility in Loop 3 and that mutations identified during the COVID-19 pandemic in Loop 3 do not affect this flexibility. We use a loop-modeling protocol to generate and simulate novel conformations of the CoV2-RBD Loop 3 region that sample conformational space beyond the ACE2 bound crystal structure. This has allowed for the identification of interesting substates of the unbound RBD that are lower energy than the ACE2-bound conformation, and that block key residues along the ACE2 binding interface. These novel unbound substates may represent new targets for therapeutic design.",
+  "authors": [
+    "Williams JK",
+    "Wang B",
+    "Sam A",
+    "Hoop CL",
+    "Case DA",
+    "Baum J"
+  ],
+  "published_date": "2021-01-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.08.425965",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.08.425965.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR264189",
+    "raw_record": {
+      "id": "PPR264189",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR264189"
+        ]
+      },
+      "doi": "10.1101/2021.01.08.425965",
+      "title": "Molecular Dynamics Analysis of a Flexible Loop at the Binding Interface of the SARS-CoV-2 Spike Protein Receptor-Binding Domain",
+      "authorString": "Williams JK, Wang B, Sam A, Hoop CL, Case DA, Baum J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Williams JK",
+            "lastName": "Williams",
+            "firstName": "Jonathan",
+            "initials": "JK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7272-6885"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, New Jersey 08854"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang B",
+            "lastName": "Wang",
+            "firstName": "Baifan",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, New Jersey 08854"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sam A",
+            "lastName": "Sam",
+            "firstName": "Andrew",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, New Jersey 08854"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoop CL",
+            "lastName": "Hoop",
+            "firstName": "Cody",
+            "initials": "CL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, New Jersey 08854"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Case DA",
+            "lastName": "Case",
+            "firstName": "David",
+            "initials": "DA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, New Jersey 08854"
+                },
+                {
+                  "affiliation": "Institute for Quantitative Biomedicine, Rutgers University, Piscataway, New Jersey 08854"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baum J",
+            "lastName": "Baum",
+            "firstName": "Jean",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6108-2535"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Chemical Biology, Rutgers University, Piscataway, New Jersey 08854"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6108-2535"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7272-6885"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Since the identification of the SARS-CoV-2 virus as the causative agent of the current COVID-19 pandemic, considerable effort has been spent characterizing the interaction between the Spike protein receptor-binding domain (RBD) and the human angiotensin converting enzyme 2 (ACE2) receptor. This has provided a detailed picture of the end point structure of the RBD-ACE2 binding event, but what remains to be elucidated is the conformation and dynamics of the RBD prior to its interaction with ACE2. In this work we utilize molecular dynamics simulations to probe the flexibility and conformational ensemble of the unbound state of the receptor-binding domain from SARS-CoV-2 and SARS-CoV. We have found that the unbound RBD has a localized region of dynamic flexibility in Loop 3 and that mutations identified during the COVID-19 pandemic in Loop 3 do not affect this flexibility. We use a loop-modeling protocol to generate and simulate novel conformations of the CoV2-RBD Loop 3 region that sample conformational space beyond the ACE2 bound crystal structure. This has allowed for the identification of interesting substates of the unbound RBD that are lower energy than the ACE2-bound conformation, and that block key residues along the ACE2 binding interface. These novel unbound substates may represent new targets for therapeutic design.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/01/11/2021.01.08.425965.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.08.425965"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR264189"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR264189&type=FILE&fileName=EMS110752-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34375467",
+            "reference": "Proteins. 2022 May;90(5):1044-1053",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS110752",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2021-01-15",
+      "firstPublicationDate": "2021-01-11",
+      "firstIndexDate": "2021-01-15",
+      "fullTextReceivedDate": "2021-01-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, acknowledgments) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretational validity based solely on the supplied text; no external data, figures, or supplementary materials were accessible
+- **Shared manuscript claim summary** The authors used AlphaFold2 and ESMFold to predict structures for unannotated proteins and domains ("dark matter") from a large set of orthornavirus genomes, constructed a "structurome" via structural clustering and comparison, and concluded that most broadly conserved domains are already known, while the remaining dark matter consists largely of disordered and all-α-helical elements, with a smaller set of lineage-specific globular domains including several novel findings
+- **Visible evidence base** Text descriptions of methods and results; references to figures (Fig. 1–8, Fig. S1–S19) and supplementary materials that were not provided; no numerical data, statistical analyses, or structural alignments were directly visible
+- **Missing materials affecting confidence** All figures, tables, supplementary files, and the Zenodo repository contents; detailed numerical outputs (e.g., clustering statistics, pLDDT distributions, Dali z-score tables); the EMRV dataset specifics beyond the cited DOI; methodological parameters for several steps (e.g., MobiDB-lite thresholds, TMHMM cutoffs, neighborhood analysis criteria)
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question: whether the protein domain repertoire of RNA viruses is nearing saturation, using state-of-the-art structure prediction. The conceptual framing is strong, and the scale of the analysis is impressive. However, the evidence as presented in the text alone is insufficient to fully evaluate the robustness of the central claims. Key quantitative results are referenced only through figures and supplementary materials that were not available for review. The conclusions regarding the "near completeness" of the known domain repertoire rest on a rarefaction analysis that is described only briefly, and the criteria for classifying structures as "new," "unclear," or "refined" are not fully operationalized. The manuscript would benefit from clearer presentation of validation metrics, explicit thresholds for confidence, and a more critical discussion of the limitations of structure-based annotation for rapidly evolving viral proteins.
+- **Who would be interested in the results, and why** Virologists studying RNA virus evolution and diversity; computational biologists working on protein structure prediction and function annotation; researchers interested in the "dark matter" of viral proteomes and the application of AlphaFold-class methods to understudied sequence space. The structurome resource itself could be valuable for the broader community studying Orthornavirae.
+- **Major strengths**
+  - Addresses a significant gap: systematic structure-based analysis of the uncharacterized "dark matter" of a major viral kingdom
+  - Large-scale approach combining sequence clustering, structure prediction, and structural comparison is methodologically ambitious and appropriate
+  - Identification of specific novel domains (e.g., Marnaviridae endonuclease, f.0181 exonuclease) provides concrete, testable hypotheses
+  - The concept of a "structurome" for a viral kingdom is novel and likely to be influential
+  - Discussion of exaptation of host enzymes (e.g., NucS-like endonuclease) is interesting and well-contextualized
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "the current catalog of widespread protein domains of orthornaviruses is effectively complete" is central to the paper's conclusion
+  - **Evidence pointer** Fig. 3E (rarefaction curve); location not provided for the specific analysis parameters
+  - **Concern** The rarefaction analysis is described in a single sentence in the Results and a brief paragraph in Methods. The curve's saturation is asserted but not demonstrated with quantitative metrics (e.g., confidence intervals, asymptotic estimates, proportion of singletons). Without these, the claim of "near completeness" is not rigorously supported. The analysis also depends on the clustering thresholds and the definition of "distinct domains," which are not fully specified.
+  - **Why it matters** This is the paper's headline conclusion. If the rarefaction analysis is not robust, the central message is undermined.
+  - **Resolution test** Provide the rarefaction curve with confidence intervals, a statistical test for saturation (e.g., Chao1 or similar), and a sensitivity analysis varying clustering thresholds and sampling strategies. Show that the conclusion holds under reasonable parameter choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The classification of OOIs and COIs into "new," "unclear," and "refined" categories is used to quantify the discovery of novel domains
+  - **Evidence pointer** Results section "Discovery of new domains in the orthornaviral structurome"; Fig. 3C and D; location not provided
+  - **Concern** The criteria for these classifications are described only qualitatively ("no conclusive Dali hits," "significant but too variable Dali hits," "refinement of the current profile-based annotation"). No explicit thresholds for Dali z-scores, sequence identity, or structural coverage are given. The manual inspection step is inherently subjective and not described with sufficient detail for reproducibility.
+  - **Why it matters** The counts of "new" and "unclear" domains are key outputs. Without clear, reproducible criteria, these numbers cannot be independently verified, and the boundary between "new" and "unclear" is ambiguous.
+  - **Resolution test** Define explicit, quantitative criteria for each category (e.g., Dali z-score thresholds, number of top hits, structural similarity cutoffs, sequence identity cutoffs). Provide a decision tree or pseudocode for the classification process. Ideally, provide a table listing all classified OOIs/COIs with their scores and final labels.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The manuscript implies that structure prediction and comparison are reliable for the analyzed sequences, including the identification of specific domains such as the Marnaviridae endonuclease
+  - **Evidence pointer** Results sections on specific domains; Fig. 7 and Fig. S14; location not provided
+  - **Concern** The manuscript does not report any validation of the predicted structures beyond pLDDT scores. For the key novel findings (e.g., MED, f.0181 exonuclease), there is no discussion of whether the predicted structures are stable across different prediction methods (e.g., AlphaFold2 vs. ESMFold), whether the domain boundaries are consistent, or whether the functional inferences are supported by additional evidence (e.g., conservation of catalytic residues, structural comparisons to experimentally determined structures). The statement that the MED "represents only the catalytic C-terminal domain of NucS-like endonucleases" is based on structural similarity, but the confidence in this assignment is not quantified.
+  - **Why it matters** The paper's contribution includes specific functional predictions. If these are based on low-confidence structural matches or artifacts of the prediction pipeline, they could mislead the field.
+  - **Resolution test** For each key novel domain, provide: (1) pLDDT plots or per-residue confidence scores; (2) a comparison of AlphaFold2 and ESMFold predictions (e.g., RMSD between models); (3) a detailed analysis of the Dali hits, including z-scores, alignment coverage, and the structural basis for the functional assignment; (4) if possible, validation against experimental structures or distant homologs with known function.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretational caution
+  - **Claim pointer** The statement that "the great majority of globular proteins and domains of RNA viruses are already known" is presented as a firm conclusion
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** This conclusion is based on the analysis of a specific dataset (EMRV set) that, while large, may not be fully representative of all Orthornavirae, particularly those from under-sampled environments or hosts. The authors acknowledge this partially but do not discuss the potential impact of sampling bias on the saturation claim. Additionally, the definition of "known" relies on profile-based annotation, which may miss highly divergent homologs that are nonetheless structurally related.
+  - **Why it matters** Overstating the completeness of the known domain repertoire could discourage further exploration of viral sequence space.
+  - **Resolution test** Discuss the limitations of the EMRV dataset in terms of environmental and host coverage. Consider a re-analysis using a more diverse dataset (e.g., including recently discovered viruses) to test whether the saturation claim holds. Acknowledge that "known" is defined by current profile databases and that structural comparisons may reveal more distant relationships.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract/Introduction
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "structurome" is used without a clear definition. While it is intuitive, a brief definition would help readers unfamiliar with the term.
+  - **Required correction** Add a brief definition, e.g., "the complete set of protein structures encoded by a given group of organisms."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "ORF and domain identification"
+  - **Evidence pointer** Methods section, first paragraph
+  - **Issue** The description of the clustering and alignment pipeline is terse. The specific versions of tools (e.g., MMseqs2, DIAMOND, MCL) are mentioned, but key parameters (e.g., sequence identity thresholds, e-value cutoffs, MCL inflation) are not all stated.
+  - **Required correction** Provide a complete list of parameters for each step, or refer to a configuration file in the supplementary materials.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "Annotated and unannotated domains and proteins"
+  - **Evidence pointer** Fig. 1B; location not provided
+  - **Issue** The comparison of functional assignments per virus family between the EMRV set and ICTV exemplars is described qualitatively ("comparable numbers"). No statistical test is reported.
+  - **Required correction** Add a statistical comparison (e.g., Wilcoxon rank-sum test) and report the p-value.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Discovery of new domains"
+  - **Evidence pointer** Fig. 3C and D; location not provided
+  - **Issue** The counts of "new," "unclear," and "refined" are given, but the total number of OOIs and COIs analyzed is not clearly stated in the text.
+  - **Required correction** State the total number of OOIs and COIs that were manually inspected and the number in each category.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data availability statement
+  - **Issue** The Zenodo link is provided, but it is not clear whether the structurome itself (i.e., the structural models and clustering results) is deposited there or only in the supplementary materials.
+  - **Required correction** Clarify what is deposited where, and consider depositing the full structurome in a dedicated database (e.g., Zenodo or a similar repository) with a persistent DOI.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1 (rarefaction saturation claim not quantitatively supported)
+  - R1-M2 (classification criteria for novel domains not reproducible)
+  - R1-M3 (lack of structural validation for key novel findings)
+- **Assessment against Nature-style criteria**
+  - **Originality** High. The application of large-scale structure prediction to the "dark matter" of an entire viral kingdom is novel and timely. The concept of a "structurome" for Orthornavirae is a new contribution.
+  - **Scientific importance** High. The question of whether the RNA virus domain repertoire is nearing saturation has implications for our understanding of viral evolution, the discovery of new viruses, and the limits of sequence-based annotation. The identification of specific novel domains provides new avenues for experimental research.
+  - **Interdisciplinary readership** Moderate to high. The work bridges virology, computational biology, and structural biology. The findings on the nature of viral "dark matter" (disordered and α-helical domains) are of interest to a broad audience, but the technical details may limit accessibility to specialists.
+  - **Technical soundness** Currently not fully assessable from the provided text. The overall approach is sound, but key methodological details and validation metrics are missing. The reliance on manual inspection and the lack of quantitative criteria for classification are concerns. The rarefaction analysis needs more rigorous statistical support.
+  - **Readability for nonspecialists** The abstract and introduction are accessible. The results section is dense and assumes familiarity with structural biology and virology. The discussion is clear and places the findings in a broader context. The manuscript would benefit from a figure summarizing the workflow and key findings in a more intuitive way.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question with a novel approach and provides a valuable resource. However, the central claims regarding the completeness of the known domain repertoire and the classification of novel domains are not sufficiently supported by the evidence presented in the text. The authors must provide quantitative validation, clearer methodological criteria, and a more critical discussion of limitations before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that "the current catalog of widespread protein domains of orthornaviruses is effectively complete" is not quantitatively supported by the text; the rarefaction analysis is described too briefly to assess its robustness.
+- The classification of OOIs and COIs into "new," "unclear," and "refined" is not reproducible without explicit criteria and thresholds.
+- The functional inference for the Marnaviridae endonuclease domain (MED) as a NucS-like endonuclease is based on structural similarity but the confidence and specificity of this assignment are not quantified.
+- The statement that "the great majority of globular proteins and domains of RNA viruses are already known" may overstate the case given the potential for sampling bias in the EMRV dataset and the limitations of profile-based annotation.
+- The claim that the f.0181 exonuclease domain has a "DEDDh catalytic site modified to DEDEh" is presented as a novel finding, but the functional significance of this modification is not discussed, and the claim is not verifiable from the text alone.

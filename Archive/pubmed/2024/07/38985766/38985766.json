@@ -1,0 +1,417 @@
+{
+  "identity": {
+    "pmid": "38985766",
+    "doi": "10.1073/pnas.2407744121",
+    "title": "Control of G protein-coupled receptor function via membrane-interacting intrinsically disordered C-terminal domains."
+  },
+  "content": {
+    "abstract": "G protein-coupled receptors (GPCRs) control intracellular signaling cascades via agonist-dependent coupling to intracellular transducers including heterotrimeric G proteins, GPCR kinases (GRKs), and arrestins. In addition to their critical interactions with the transmembrane core of active GPCRs, all three classes of transducers have also been reported to interact with receptor C-terminal domains (CTDs). An underexplored aspect of GPCR CTDs is their possible role as lipid sensors given their proximity to the membrane. CTD-membrane interactions have the potential to control the accessibility of key regulatory CTD residues to downstream effectors and transducers. Here, we report that the CTDs of two closely related family C GPCRs, metabotropic glutamate receptor 2 (mGluR2) and mGluR3, bind to membranes and that this interaction can regulate receptor function. We first characterize CTD structure with NMR spectroscopy, revealing lipid composition-dependent modes of membrane binding. Using molecular dynamics simulations and structure-guided mutagenesis, we then identify key conserved residues and cancer-associated mutations that modulate CTD-membrane binding. Finally, we provide evidence that mGluR3 transducer coupling is controlled by CTD-membrane interactions in live cells, which may be subject to regulation by CTD phosphorylation and changes in membrane composition. This work reveals an additional mechanism of GPCR modulation, suggesting that CTD-membrane binding may be a general regulatory mode throughout the broad GPCR superfamily.",
+    "keywords": [
+      "GPCR",
+      "NMR",
+      "disordered protein",
+      "mGluR",
+      "beta-arrestin"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Receptors, Metabotropic Glutamate/metabolism/chemistry/genetics",
+      "*Cell Membrane/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Protein Domains",
+      "Receptors, G-Protein-Coupled/metabolism/chemistry",
+      "Protein Binding",
+      "HEK293 Cells",
+      "Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "Signal Transduction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mancinelli, Chiara D",
+        "Marx, Dagan C",
+        "Gonzalez-Hernandez, Alberto J",
+        "Huynh, Kevin",
+        "Mancinelli, Lucia",
+        "Arefin, Anisul",
+        "Khelashvilli, George",
+        "Levitz, Joshua",
+        "Eliezer, David"
+      ],
+      "short_names": [
+        "Mancinelli CD",
+        "Marx DC",
+        "Gonzalez-Hernandez AJ",
+        "Huynh K",
+        "Mancinelli L",
+        "Arefin A",
+        "Khelashvilli G",
+        "Levitz J",
+        "Eliezer D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2653-4698",
+        "ORCID: 0000-0001-7235-8579",
+        "ORCID: 0000-0002-1311-7537"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065.",
+        "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065.",
+        "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065.",
+        "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065.",
+        "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065.",
+        "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065.",
+        "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065.",
+        "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065.",
+        "Department of Psychiatry, Weill Cornell Medicine, New York, NY 10065.",
+        "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065.",
+        "Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10065."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mancinelli, Chiara D",
+        "short_name": "Mancinelli CD",
+        "identifiers": [
+          "0000-0002-2653-4698"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      },
+      {
+        "full_name": "Marx, Dagan C",
+        "short_name": "Marx DC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      },
+      {
+        "full_name": "Gonzalez-Hernandez, Alberto J",
+        "short_name": "Gonzalez-Hernandez AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      },
+      {
+        "full_name": "Huynh, Kevin",
+        "short_name": "Huynh K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      },
+      {
+        "full_name": "Mancinelli, Lucia",
+        "short_name": "Mancinelli L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      },
+      {
+        "full_name": "Arefin, Anisul",
+        "short_name": "Arefin A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      },
+      {
+        "full_name": "Khelashvilli, George",
+        "short_name": "Khelashvilli G",
+        "identifiers": [
+          "0000-0001-7235-8579"
+        ],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      },
+      {
+        "full_name": "Levitz, Joshua",
+        "short_name": "Levitz J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065.",
+          "Department of Psychiatry, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      },
+      {
+        "full_name": "Eliezer, David",
+        "short_name": "Eliezer D",
+        "identifiers": [
+          "0000-0002-1311-7537"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Weill Cornell Medicine, New York, NY 10065.",
+          "Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10065."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2024 Jul 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/10 18:42",
+    "fetched_at": "2026-09-21 08:34:16"
+  },
+  "links": {
+    "cites": [
+      "41959284",
+      "41542604",
+      "40859360",
+      "40182590",
+      "40154615",
+      "39952269"
+    ],
+    "refs": [
+      "38326620",
+      "38237683",
+      "38183204",
+      "38055809",
+      "37669668",
+      "37037825",
+      "36368322",
+      "35637307",
+      "35625550",
+      "35483373",
+      "35236939",
+      "35004696",
+      "34838590",
+      "34469715",
+      "34265844",
+      "34194040",
+      "34194039",
+      "34146207",
+      "34135510",
+      "34135509",
+      "33910009",
+      "33748531",
+      "33735619",
+      "33554215",
+      "33268549",
+      "33155649",
+      "32861513",
+      "32851152",
+      "32579945",
+      "31945772",
+      "31945771",
+      "31776446",
+      "31251171",
+      "31096049",
+      "31073061",
+      "30771177",
+      "30675062",
+      "30581046",
+      "30471689",
+      "29995853",
+      "29953871",
+      "29604330",
+      "29335412",
+      "29298813",
+      "28753425",
+      "28753422",
+      "28746339",
+      "28603484",
+      "28596722",
+      "27905440",
+      "27819658",
+      "27356045",
+      "27254476",
+      "26571351",
+      "25229806",
+      "25229711",
+      "25042998",
+      "25001389",
+      "24603153",
+      "23881055",
+      "23604254",
+      "23075500",
+      "22536173",
+      "21946352",
+      "21868357",
+      "21606332",
+      "21438688",
+      "19274719",
+      "19013279",
+      "18463167",
+      "18193069",
+      "15111114",
+      "12787676",
+      "12097325",
+      "10973056",
+      "1600087"
+    ],
+    "similar": [
+      "38985766",
+      "37645938",
+      "31855381",
+      "12668664",
+      "15488186",
+      "33910009",
+      "28652372",
+      "34204297",
+      "11171937",
+      "31075355",
+      "16144832",
+      "26324936",
+      "15251227",
+      "30703488",
+      "32019899",
+      "27832483",
+      "35816644",
+      "32571882",
+      "40593764",
+      "29581292",
+      "41082500",
+      "32439801",
+      "35863432",
+      "11387315",
+      "33799570",
+      "11279203",
+      "28601983",
+      "23438363",
+      "31471645",
+      "27007855",
+      "34582793",
+      "33802765",
+      "40973726",
+      "25049229",
+      "15870073",
+      "19442183",
+      "20345371",
+      "15817468",
+      "21206474",
+      "29186792",
+      "16319069",
+      "16878684",
+      "40442125",
+      "23629648",
+      "33605032",
+      "35087057",
+      "30131371",
+      "25762450",
+      "24148810",
+      "35196859",
+      "25770216",
+      "29362235",
+      "31325455",
+      "21868354",
+      "25193666",
+      "24292823",
+      "32040695",
+      "32503917",
+      "30536564",
+      "35625550",
+      "38194225",
+      "27852822",
+      "11861753",
+      "33621418",
+      "26825061",
+      "38055809",
+      "23826079",
+      "28958779",
+      "37146613",
+      "29523687",
+      "26258295",
+      "30897742",
+      "41980512",
+      "31774292",
+      "32515353",
+      "42115176",
+      "11133983",
+      "42469195",
+      "30409826",
+      "41794036",
+      "40409556",
+      "21868357",
+      "17187376",
+      "8567679",
+      "14663150",
+      "32803684",
+      "35396120",
+      "11672421",
+      "19846537",
+      "21699508",
+      "24680432",
+      "30228224",
+      "29146594",
+      "33684444",
+      "35170592",
+      "30865424",
+      "10982802",
+      "21536126",
+      "33879605",
+      "25981300"
+    ],
+    "review": [
+      "38985766",
+      "34204297",
+      "11171937",
+      "31075355",
+      "15251227",
+      "30703488",
+      "27832483",
+      "35816644",
+      "32571882",
+      "35863432",
+      "28601983",
+      "31471645",
+      "19442183",
+      "29186792",
+      "16878684",
+      "21868354",
+      "30536564",
+      "11861753",
+      "33621418",
+      "26825061",
+      "30897742",
+      "17187376",
+      "32803684",
+      "35396120",
+      "11672421",
+      "21699508",
+      "24680432"
+    ],
+    "pmc": [
+      "11260148"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2407744121?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38985766/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

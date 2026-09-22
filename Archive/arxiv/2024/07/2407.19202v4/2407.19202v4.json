@@ -1,0 +1,41 @@
+{
+  "source": "arxiv",
+  "source_id": "2407.19202v4",
+  "title": "Material properties of biomolecular condensates emerge from nanoscale dynamics",
+  "doi": "",
+  "abstract": "Biomolecular condensates form by phase separation of biological polymers and have important functions in the cell $-$ functions that are inherently connected to their physical properties. A remarkable aspect of such condensates is that their viscoelastic properties can vary by orders of magnitude, but it has remained unclear how these pronounced differences are rooted in the nanoscale dynamics at the molecular level. Here we investigate a series of condensates formed by complex coacervation that span about two orders of magnitude in molecular dynamics, diffusivity, and viscosity. We find that the nanoscale chain dynamics on the nano- to microsecond timescale can be accurately related to both translational diffusion and mesoscale condensate viscosity by analytical relations from polymer physics. Atomistic simulations reveal that the observed differences in friction $-$ a key quantity underlying these relations $-$ are caused by differences in inter-residue contact lifetimes, leading to the vastly different dynamics among the condensates. The rapid exchange of inter-residue contacts we observe may be a general mechanism for preventing dynamic arrest in compartments densely packed with polyelectrolytes, such as the cell nucleus.",
+  "authors": [
+    "Nicola Galvanetto",
+    "Miloš T. Ivanović",
+    "Simone A. Del Grosso",
+    "Aritra Chowdhury",
+    "Andrea Sottini",
+    "Daniel Nettels",
+    "Robert B. Best",
+    "Benjamin Schuler"
+  ],
+  "published_date": "2024-07-27T08:12:12Z",
+  "updated_date": "2025-07-20T10:20:12Z",
+  "journal": "",
+  "category": "physics.bio-ph, cond-mat.soft, physics.chem-ph",
+  "landing_url": "https://arxiv.org/abs/2407.19202v4",
+  "pdf_url": "https://arxiv.org/pdf/2407.19202v4",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "4",
+  "keywords": [
+    "physics.bio-ph",
+    "cond-mat.soft",
+    "physics.chem-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2407.19202v4",
+    "raw_categories": [
+      "physics.bio-ph",
+      "cond-mat.soft",
+      "physics.chem-ph"
+    ],
+    "journal_ref": ""
+  }
+}

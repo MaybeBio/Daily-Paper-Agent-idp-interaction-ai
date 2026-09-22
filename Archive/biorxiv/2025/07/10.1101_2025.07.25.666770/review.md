@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure legends as provided.
+- **Assessment boundary** The scientific claims, experimental design, data interpretation, and methodological soundness as presented in the provided text. No external data or unpublished information was consulted.
+- **Shared manuscript claim summary** The authors propose a molecular mechanism whereby phospho-Bora (pBora) activates unphosphorylated Aurora A kinase (AURKA) by wrapping around its N-terminal lobe and positioning phospho-Ser112 near the T-loop, functionally mimicking T-loop phosphorylation. They further propose that pBora directs AURKA activity specifically toward Plk1 by transiently interacting with the Plk1 αC helix via a conserved motif, enabling phosphorylation of the otherwise poor Plk1 T-loop substrate. This mechanism is supported by AlphaFold 3 structural predictions, a novel E. coli-based reconstitution system (MITOKINAC), and structure-function analysis of 39 Bora variants, with functional validation in Xenopus egg extracts.
+- **Visible evidence base** Results sections describing MITOKINAC development, AlphaFold 3 modeling, mutagenesis screening, in vitro kinase assays, and Xenopus egg extract experiments. Methods sections for molecular biology, protein expression/purification, biochemistry, and statistical analysis. Supplementary figure legends referenced but not fully provided.
+- **Missing materials affecting confidence** Full supplementary figures and tables (including detailed mutagenesis data, raw Western blots, and AlphaFold 3 model quality metrics) were not provided. Statistical details for some experiments (e.g., number of replicates for Xenopus extracts, exact p-values) are incomplete. The accompanying manuscript by Esposito Verza et al. is referenced but not available for cross-validation.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and potentially significant model for how the intrinsically disordered protein Bora activates AURKA and directs it toward Plk1 during mitotic entry. The combination of AlphaFold 3 predictions with extensive mutagenesis and a novel high-throughput in vivo reconstitution system (MITOKINAC) is innovative and provides strong correlative evidence for the proposed mechanism. The identification of a conserved Bora motif that confers substrate specificity toward Plk1 is a notable advance. However, the manuscript has several weaknesses that need to be addressed. The reliance on AlphaFold 3 predictions without experimental structural validation is a concern, particularly given the known limitations of such models for disordered proteins. The mechanistic distinction between "activation" of AURKA and "substrate targeting" is not always clearly delineated in the data. The physiological relevance of the findings, while supported by Xenopus extract experiments, would be strengthened by additional cellular or in vivo validation. The writing is generally clear but some sections, particularly the methods, are dense and could be streamlined for a broader audience.
+- **Who would be interested in the results, and why** Cell biologists and biochemists studying cell cycle regulation, particularly mitotic entry and kinase signaling. Researchers interested in the molecular mechanisms of intrinsically disordered proteins in signaling complexes. Structural biologists using or evaluating AlphaFold for protein-protein interaction predictions. Cancer biologists interested in Aurora A and Plk1 as therapeutic targets, as the proposed mechanism could inform drug development strategies.
+- **Major strengths**
+    1.  The development of MITOKINAC is a significant technical achievement, providing a rapid, in vivo system to screen for functional effects of mutations in a kinase activation cascade. This is a versatile tool that could be applied to other kinase pathways.
+    2.  The combination of AlphaFold 3 structural predictions with extensive mutagenesis (39 variants) provides a robust, multi-pronged approach to test a structural model. The consistency between predictions and functional data is compelling.
+    3.  The identification of a specific, conserved motif (BSM) that is required for directing AURKA activity toward Plk1, but not for general AURKA activation, is a novel and important finding. This distinguishes the work from previous studies and provides a mechanistic basis for substrate specificity.
+    4.  The study addresses a fundamental and long-standing question in cell biology: how is Plk1 specifically activated by AURKA at mitotic entry? The proposed model provides a clear and testable framework.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Technical soundness / Evidence strength
+        - **Claim pointer** The claim that "phospho-Bora wraps around the N-terminal lobe of AURKA to position its essential phospho-Serine 112 in the activation loop of AURKA" is presented as a definitive structural model.
+        - **Evidence pointer** Results section "AlphaFold 3 structural modeling predicts that Bora 18–120 wraps around the N-terminal lobe of AURKA..." and Figure 3.
+        - **Concern** The central structural model is based entirely on AlphaFold 3 predictions. While the mutagenesis data are consistent with the model, they do not provide direct structural evidence. The authors state they could not obtain a crystal structure, but no alternative experimental validation (e.g., cross-linking mass spectrometry, NMR, or SAXS) is presented. AlphaFold 3, while powerful, is known to have limitations in predicting the precise conformation of intrinsically disordered regions and the exact nature of transient interactions. The model's prediction of a "wrap-around" conformation is a specific and testable hypothesis that requires experimental verification to be fully convincing.
+        - **Why it matters** The entire mechanistic narrative, including the "mimicry" of T-loop phosphorylation and the basis for substrate specificity, rests on this structural model. If the actual binding mode is different, the proposed mechanism could be incorrect. The field requires high-confidence structural information to build upon these findings.
+        - **Resolution test** Provide experimental structural validation of the pBora-AURKA interaction. This could be achieved through techniques such as hydrogen-deuterium exchange mass spectrometry (HDX-MS), cross-linking mass spectrometry (XL-MS), or NMR spectroscopy. Alternatively, a high-resolution cryo-EM structure of the complex, even of a stabilized variant, would be definitive. If such experiments are not feasible, the authors should clearly state the limitations of the AlphaFold model and temper the strength of their claims.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Scientific importance / Functional significance
+        - **Claim pointer** The claim that the Bora-specific motif (BSM) "dictates AURKA's specificity towards the Plk1 kinase domain" and that this interaction is "required for the ability of AURKA to phosphorylate the Plk1 T-loop."
+        - **Evidence pointer** Results section "The Bora-specific motif (aa 52-78) dictates AURKA's specificity towards the Plk1 kinase domain" and Figures 5 and 6.
+        - **Concern** While the data show that mutations in the BSM reduce Plk1 phosphorylation, the mechanistic basis for this specificity is not fully explored. The authors show that the BSM is not required for AURKA activation toward generic substrates (Kemptide, Histone H3), but the data do not directly demonstrate that the BSM binds to the Plk1 αC helix. The AlphaFold 3 model of the trimeric complex is mentioned, but the details of the predicted interaction between the BSM and Plk1 are not presented or validated. It is possible that the BSM mutations affect AURKA's conformation in a way that alters its ability to recognize Plk1, rather than directly tethering the two kinases.
+        - **Why it matters** The claim of a specific "tethering" mechanism is a key part of the novelty. If the BSM acts indirectly, the model is less specific and the potential for targeted therapeutic intervention is reduced. Understanding the exact molecular interaction is crucial for translating these findings.
+        - **Resolution test** Directly test the binding between the BSM and the Plk1 kinase domain. This could be done using pull-down assays with purified components, isothermal titration calorimetry (ITC), or NMR. Mutating the predicted interacting residues on the Plk1 αC helix (e.g., R48, R95, R106, E121) and showing that they disrupt the pBora-dependent phosphorylation of Plk1, but not AURKA activation, would provide strong evidence for a direct interaction.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Technical soundness / Reproducibility
+        - **Claim pointer** The claim that the MITOKINAC system is a "versatile approach that reconstitutes Bora and AURKA-dependent Plk1 T-loop phosphorylation in E. coli" and is suitable for high-throughput screening.
+        - **Evidence pointer** Results section "MITOKINAC: a versatile approach for high-throughput screening..." and Figure 4.
+        - **Concern** The description of the MITOKINAC system is incomplete. The authors do not provide sufficient detail on the dynamic range, sensitivity, and reproducibility of the assay. For example, what is the signal-to-noise ratio? How does the level of Plk1 phosphorylation in E. coli compare to the in vitro assays? The screening of 39 variants is presented, but the criteria for classifying a variant as "active" or "inactive" are not clearly defined. The potential for false positives or negatives due to differences in protein expression levels in E. coli is not addressed.
+        - **Why it matters** A key claim of the paper is the utility of this new method. If the assay is not robust and well-characterized, its value as a screening tool is diminished. The scientific community needs to be able to reproduce and trust the results from this system.
+        - **Resolution test** Provide a more detailed characterization of the MITOKINAC assay. Include data on the linear range of the assay, the reproducibility across biological replicates, and a comparison of the activity of wild-type and mutant proteins normalized for expression levels. Show that the assay can reliably distinguish between strong, weak, and inactive variants. Provide a clear description of the scoring system used for the screen.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity / Readability
+        - **Affected element** Abstract and Introduction
+        - **Evidence pointer** Abstract, first sentence.
+        - **Issue** The abstract states that Bora is "critical for initiating the activation of mitotic kinases" but does not specify which kinases or the context. The introduction is dense and assumes significant background knowledge.
+        - **Required correction** Briefly clarify in the abstract that Bora is specifically required for the AURKA-dependent activation of Plk1. In the introduction, provide a more accessible entry point for non-specialists, perhaps by briefly explaining the roles of AURKA and Plk1 in cell division before diving into the regulatory details.
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Technical soundness / Data presentation
+        - **Affected element** Results section "The pTpx2-Bora chimera potentiates AURKA T288V kinase activity but lacks the determinants needed to direct AURKA T288V activity toward the Plk1 kinase domain"
+        - **Evidence pointer** Figure 2.
+        - **Issue** The comparison of the activity of pBora and the pTpx2-Bora chimera towards the isolated Plk1 T-loop (GST-T-loop) is described as "poor efficacy" for both. However, the figure legend is not provided, and it is unclear if the concentrations of the two activators were normalized for their different affinities for AURKA.
+        - **Required correction** Clarify in the text and figure legend whether the concentrations of pBora and pTpx2-Bora were adjusted to achieve comparable AURKA binding/activation. If not, the comparison may be misleading.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Clarity / Readability
+        - **Affected element** Methods section "Recombinant protein purification"
+        - **Evidence pointer** Methods, "Recombinant protein purification" paragraph.
+        - **Issue** The methods section is written in a fragmented style, with incomplete sentences and missing protein names. For example, the paragraph begins with "was produced essentially as described" without specifying which protein. This makes it difficult to follow the purification protocols.
+        - **Required correction** Rewrite the methods section to clearly identify which protein is being purified in each paragraph. Use complete sentences and standard formatting.
+    - **R1-m4**
+        - **Severity** Minor
+        - **Axis** Technical soundness / Data presentation
+        - **Affected element** Results section "The Bora-specific motif is critically required for mitotic entry in Xenopus egg extracts"
+        - **Evidence pointer** Figure 8.
+        - **Issue** The Xenopus extract experiments are described as showing that BSM mutants fail to rescue mitotic entry. However, the specific readouts (e.g., H1 kinase activity, Plx1 T201 phosphorylation, Cdk1 Y15 dephosphorylation) are mentioned, but the quantification and statistical analysis of these data are not described in the text.
+        - **Required correction** Provide a clear description of how the rescue experiments were quantified and the statistical tests used. Include the number of independent experiments and the error bars in the figures.
+    - **R1-m5**
+        - **Severity** Minor
+        - **Axis** Clarity / Readability
+        - **Affected element** Discussion
+        - **Evidence pointer** Discussion, first paragraph.
+        - **Issue** The discussion begins with a summary of the findings but does not immediately place them in the broader context of the field. The potential implications for cancer therapy are mentioned but not elaborated upon.
+        - **Required correction** Briefly discuss how this mechanism fits with existing models of AURKA activation (e.g., by TPX2) and what the unique features of the Bora-dependent pathway are. Expand slightly on the therapeutic implications, as this is a key point of interest for a broad audience.
+- **Technical failings that need to be addressed before the case is established**
+    - Lack of experimental structural validation for the AlphaFold 3 model (R1-M1).
+    - Incomplete characterization of the MITOKINAC assay's dynamic range and reproducibility (R1-M3).
+    - The mechanistic link between the BSM and Plk1 binding is inferred but not directly demonstrated (R1-M2).
+- **Assessment against Nature-style criteria**
+    - **Originality** High. The proposed mechanism, particularly the role of the BSM in conferring substrate specificity, is a novel concept that goes beyond previous models of AURKA activation.
+    - **Scientific importance** High. Understanding the molecular basis of mitotic kinase activation is a fundamental question in cell biology. The findings have potential implications for cancer biology and drug development.
+    - **Interdisciplinary readership** Moderate. The topic is of primary interest to cell and molecular biologists. The use of AlphaFold 3 and the development of MITOKINAC may appeal to structural biologists and biochemists, but the overall topic is specialized.
+    - **Technical soundness** Moderate. The mutagenesis and functional data are solid, but the lack of experimental structural data and the incomplete characterization of the novel assay are significant weaknesses.
+    - **Readability for nonspecialists** Moderate. The abstract and introduction are somewhat dense. The results are clearly written, but the methods section is difficult to follow. The paper would benefit from a more accessible introduction and a clearer explanation of the significance of the findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially important and the proposed mechanism is compelling. However, the lack of experimental structural validation for the central model and the incomplete characterization of the MITOKINAC assay prevent the case from being fully established. The authors should be encouraged to provide additional experimental evidence to support their claims.
+
+## Risk / unsupported claims
+- The claim that pBora "mimics T-loop phosphorylation" is a mechanistic interpretation based on AlphaFold 3 and functional data, but it is not directly proven. The exact conformational changes in AURKA induced by pBora binding are not experimentally demonstrated.
+- The claim that the BSM "dictates AURKA's specificity" is supported by the data, but the precise molecular details of the interaction between the BSM and the Plk1 αC helix are not shown. The model predicts this interaction, but it is not experimentally validated.
+- The statement that the MITOKINAC system can be used to study "any kinase activation cascade or kinase-substrate relationship" is an overgeneralization based on a single example and is not supported by data in this manuscript.
+- The physiological relevance of the findings is supported by Xenopus extract experiments, but the authors do not discuss potential differences between Xenopus and human systems, nor do they provide evidence that the same mechanism operates in human cells beyond the cited previous work.

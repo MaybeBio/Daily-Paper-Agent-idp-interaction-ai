@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33421906",
+  "title": "Artificial intelligence techniques for integrative structural biology of intrinsically disordered proteins.",
+  "authors": "Ramanathan, Arvind; Ma, Heng; Parvatikar, Akash; Chennubhotla, S Chakra",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2021-01-10",
+  "window": {
+    "start": "2021-01-04",
+    "end": "2021-01-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文综述AI/ML技术用于整合结构生物学中IDP构象系综的建模，强调多尺度模拟与统计推断整合实验数据以揭示IDP功能机制，虽非直接PPI建模，但为IDP互作机制建模提供了关键方法框架。",
+  "abstract": "We outline recent developments in artificial intelligence (AI) and machine learning (ML) techniques for integrative structural biology of intrinsically disordered proteins (IDP) ensembles. IDPs challenge the traditional protein structure-function paradigm by adapting their conformations in response to specific binding partners leading them to mediate diverse, and often complex cellular functions such as biological signaling, self-organization and compartmentalization. Obtaining mechanistic insights into their function can therefore be challenging for traditional structural determination techniques. Often, scientists have to rely on piecemeal evidence drawn from diverse experimental techniques to characterize their functional mechanisms. Multiscale simulations can help bridge critical knowledge gaps about IDP structure-function relationships-however, these techniques also face challenges in resolving emergent phenomena within IDP conformational ensembles. We posit that scalable statistical inference techniques can effectively integrate information gleaned from multiple experimental techniques as well as from simulations, thus providing access to atomistic details of these emergent phenomena.",
+  "abstract_zh": "我们概述了人工智能（AI）和机器学习（ML）技术在 intrinsically disordered proteins (IDP)  ensembles 整合结构生物学中的最新进展。IDPs 通过响应特定结合伙伴调整其构象，挑战了传统的蛋白质结构-功能范式，从而使它们介导多样且通常复杂的细胞功能，如生物信号传导、自组织和区室化。因此，获取其功能的机制性见解对传统结构测定技术而言可能具有挑战性。通常，科学家必须依赖从多种实验技术中获得的零散证据来表征其功能机制。多尺度模拟有助于弥合关于 IDP 结构-功能关系的关键知识空白——然而，这些技术在解析 IDP 构象集合中的涌现现象方面也面临挑战。我们认为，可扩展的统计推断技术能够有效整合从多种实验技术及模拟中获取的信息，从而提供对这些涌现现象原子细节的访问途径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33421906/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33421906/",
+  "paper_page_path": "papers/pubmed/33421906/index.html"
+}

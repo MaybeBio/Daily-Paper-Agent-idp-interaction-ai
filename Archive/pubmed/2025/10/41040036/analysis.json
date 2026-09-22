@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41040036",
+  "title": "Clustering and Analyzing Ensembles of Residue Interaction Networks from Molecular Dynamics Simulations.",
+  "authors": "Franke, Leon; Peter, Christine",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-10-03",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于图论中心性和无监督聚类的框架，用于从MD模拟中解析含IDR的柔性蛋白FAT10的残基互作网络状态，虽未直接研究PPI，但为IDP构象集合的互作机制建模提供了可迁移方法。",
+  "abstract": "Network methods and molecular dynamics (MD) simulations have become essential tools for studying protein dynamics. However, applying network methods to MD simulations of flexible proteins is a major challenge, since the high conformational heterogeneity in such multistate systems can lead to vastly different network topologies across an ensemble. To address this, tools that can disentangle conformational ensembles on a network level are needed. Here, we propose a graph-based clustering framework that provides state-specific insight into the residue interactions of flexible proteins. The framework hinges on using the set of graph-theoretic closeness centralities of all amino acid residues as a structural fingerprint and input for unsupervised machine learning algorithms to perform dimensionality reduction and clustering. The resulting clusters horizontal line states with shared network topology horizontal line are subsequently fed back into the upstream workflow and characterized at every representation level. Based on the example of FAT10 horizontal line a protein with intrinsically disordered regions and two folded domains connected by a flexible linker horizontal line we demonstrate how this approach can be used to understand the protein's residue interactions on different, interconnected levels and to characterize its most populated states. Due to the modularity of the framework, it can be easily adapted, which makes it a suitable method to support network-based analyses of MD simulations for a wide variety of proteins.",
+  "abstract_zh": "网络方法和分子动力学（molecular dynamics, MD）模拟已成为研究蛋白质动力学的关键工具。然而，将网络方法应用于柔性蛋白质的MD模拟是一项重大挑战，因为这类多态系统中高度的构象异质性可能导致整个集合中网络拓扑结构差异巨大。为解决这一问题，需要能够在网络层面解耦构象集合的工具。在此，我们提出一种基于图的聚类框架，为柔性蛋白质的残基相互作用提供状态特异性的洞察。该框架的核心在于利用所有氨基酸残基的图论接近中心性集合作为结构指纹，并作为无监督机器学习算法的输入，以进行降维和聚类。所得聚类——即共享网络拓扑的状态——随后被反馈到上游工作流程中，并在每个表示层面上进行表征。以FAT10蛋白为例——该蛋白具有内在无序区域和由柔性连接子连接的两个折叠结构域——我们展示了如何利用这一方法在不同且相互关联的层面上理解蛋白质的残基相互作用，并表征其最常占据的状态。由于该框架的模块化特性，它易于调整，使其成为支持广泛蛋白质MD模拟基于网络分析的合适方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41040036/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41040036/",
+  "paper_page_path": "papers/pubmed/41040036/index.html"
+}

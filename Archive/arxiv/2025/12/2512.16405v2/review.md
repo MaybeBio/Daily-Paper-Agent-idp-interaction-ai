@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text including main text, methods, appendices, and figure captions (figures themselves not provided)
+- **Assessment boundary** Scientific content, theoretical framework, consistency with cited numerical results, and internal logic. Not a line-by-line editorial review.
+- **Shared manuscript claim summary** The authors propose a mean-field theory for associative polymers with multiple sticker types, using a single-chain nanoparticle (SCNP) reference fluid. They claim the theory captures the free energy cost of swapping intra- to inter-molecular bonds, predicts phase separation for two sticker types but not one, and matches available coarse-grained simulation results.
+- **Visible evidence base** Main text equations (Eqs. 1-13), Fig. 1-5 descriptions, Methods section (VI.1, VI.2), Appendix A and B derivations, references to prior simulation work (Refs. 27, 28, 38).
+- **Missing materials affecting confidence** Actual figure images, simulation trajectory data, numerical values for phase diagram points, and code or detailed parameter tables for the simulations. The manuscript states results "match" simulations but quantitative comparison metrics are not fully specified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually appealing and analytically tractable mean-field theory for associative polymers with multiple sticker types. The central idea, using the SCNP fluid as a reference and quantifying the entropic gain from swapping intra- to inter-molecular bonds, is physically transparent and addresses a question of current interest. The theory successfully reproduces the qualitative difference between one and two sticker types observed in simulations. However, the manuscript has several weaknesses that need to be addressed. The derivation of the bonding free energy relies on several assumptions whose validity is not fully tested. The comparison with simulation data is presented qualitatively, and the manuscript would benefit from a more quantitative assessment. The scaling analysis in Section IV is interesting but the regime of validity of the approximations is not clearly delineated. Overall, the work is a solid contribution but requires revisions to fully establish its claims.
+- **Who would be interested in the results, and why** Researchers in polymer physics, soft matter theory, and computational chemistry would be interested. Specifically, those studying associative polymers, single-chain nanoparticles, phase behavior of patchy or sticky polymers, and the design of self-assembling materials. The work provides a simple analytical framework that could be used to guide simulation and experimental studies on how sticker sequence and number of types control phase behavior.
+- **Major Strengths** The theoretical framework is elegant and physically motivated. The use of a virial expansion at the chain level, rather than the monomer level, is a sensible and important improvement. The theory makes a clear, testable prediction regarding the role of the number of sticker types, which is supported by existing simulations. The manuscript is generally well-written and the derivations in the appendices are helpful.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the theory "matches available numerical predictions obtained via coarse grained simulations" and that the predicted dense phase concentration is "in reasonable agreement with the numerical value."
+    - **Evidence pointer** Section III, Fig. 4, and the text following Eq. 13.
+    - **Concern** The comparison with simulation data is only qualitative. The manuscript states the theory predicts no phase separation for m=1 and phase separation for m=2, consistent with simulations. However, the quantitative agreement is only mentioned for one point (c_dense). The critical parameters (c_crit, B_2^crit) are not compared to simulation values. The statement "reasonable agreement" is vague. A more rigorous comparison, perhaps showing the predicted binodal against simulation data points, is needed to support the claim of quantitative or semi-quantitative agreement.
+    - **Why it matters** The central claim of the paper is that the theory captures the physics of these systems. Without a clear, quantitative comparison to simulation data, the predictive power of the theory is not established. The reader cannot judge how accurate the theory is.
+    - **Resolution test** Provide a figure or table comparing the theoretically predicted binodal and critical point with the simulation results for the m=2 case. Quantify the agreement (e.g., percentage difference in critical density and B_2). If such data is not available, temper the claim to "qualitative agreement" and state clearly what quantitative predictions the theory makes that could be tested.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The assumption that the system is in the fully-bonded limit and that the free energy can be written as a sum of a reference SCNF fluid term and a bonding term (Eq. 1).
+    - **Evidence pointer** Section II, Eq. 1, and the discussion following it.
+    - **Concern** The theory is built on the fully-bonded limit. The authors argue that this is valid for large attraction strengths. However, the theory is then used to predict phase separation, which occurs at finite concentrations. The validity of the fully-bonded assumption across the entire phase diagram, particularly near the critical point, is not discussed in detail. The authors mention that the fraction of inter-molecular bonds is small near the critical point, but this is an output of the theory, not an input. A more careful discussion of the regime of validity of the fully-bonded assumption is needed.
+    - **Why it matters** If the fully-bonded assumption breaks down in the region of interest, the predictions of the theory could be unreliable. The theory's applicability to real systems, where bonds are reversible and not all bonds are formed, needs to be clarified.
+    - **Resolution test** Provide a quantitative estimate of the fraction of stickers that are not bonded as a function of the model parameters (e.g., attraction strength, concentration) and show that this fraction is small in the region where the theory is applied. Alternatively, discuss how the theory could be extended to account for a finite fraction of broken bonds.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Originality
+    - **Claim pointer** The claim that the theory is a new mean-field approach, distinct from previous work.
+    - **Evidence pointer** Section II, the text following Eq. 8.
+    - **Concern** The authors note that their free energy expression has a similar structure to that derived by Rubinstein and Semenov (Ref. 35). The key difference appears to be the use of a chain-level virial expansion for the reference free energy and the explicit treatment of multiple sticker types. However, the novelty of the approach is not clearly articulated. What specific new physical insight does this theory provide that was not already captured by the Rubinstein-Semenov approach? The manuscript would benefit from a more explicit discussion of the differences and the new predictions that arise from them.
+    - **Why it matters** For a theory paper, establishing the novelty and the new physical understanding is crucial. If the theory is just a minor extension of existing work, its impact is limited.
+    - **Resolution test** Add a paragraph in the Introduction or Section II that explicitly contrasts the present theory with the Rubinstein-Semenov approach, highlighting the new physical mechanisms captured (e.g., the role of the number of sticker types on the loop statistics and the resulting phase behavior) and the new predictions that can be tested.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Introduction
+    - **Evidence pointer** Section I
+    - **Issue** The introduction is dense and assumes significant familiarity with the field. The concept of a "single-chain nanoparticle" and its relevance to the problem could be introduced more gently.
+    - **Required correction** Briefly explain what an SCNP is and why it is a useful reference state for the theory.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Section IV
+    - **Evidence pointer** Eq. 13 and the following text.
+    - **Issue** The scaling analysis is interesting but the notation is sometimes unclear. For example, the distinction between the scaling of B_2^crit with m and the dependence on l is not always explicit.
+    - **Required correction** Clarify the notation and state the scaling relations more explicitly, perhaps in a table or a set of equations.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Methods VI.2
+    - **Evidence pointer** Description of the B_2 calculation.
+    - **Issue** The method for calculating B_2 from the effective potential is described, but the details of the fitting procedure (e.g., the range of R used for the fit) are not given.
+    - **Required correction** Provide more details on the fitting procedure to ensure reproducibility.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Section III
+    - **Evidence pointer** Fig. 4
+    - **Issue** The figure caption is not provided, making it difficult to interpret the figure.
+    - **Required correction** Ensure the figure caption clearly explains what is plotted in each panel, including the meaning of the lines and symbols.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of a quantitative comparison with simulation data. The claim of "matching" or "reasonable agreement" is not sufficiently supported. The validity of the fully-bonded assumption across the phase diagram also needs to be addressed.
+- **Assessment against Nature-style criteria** 
+    - **Originality** The work presents a new theoretical framework, but its novelty relative to the Rubinstein-Semenov approach needs to be more clearly articulated. The specific focus on the number of sticker types and the chain-level virial expansion are potentially original contributions.
+    - **Scientific importance** The problem of understanding phase behavior in associative polymers is of significant importance for materials design and biophysics. A simple analytical theory that captures the essential physics could be valuable.
+    - **Interdisciplinary readership** The work is primarily of interest to polymer physicists and soft matter theorists. Its appeal to a broader interdisciplinary audience (e.g., biologists, engineers) is limited at present.
+    - **Technical soundness** The derivations appear sound, but the key assumptions (fully-bonded limit, chain-level virial expansion) need to be more carefully validated. The comparison with simulations is not rigorous enough.
+    - **Readability for nonspecialists** The manuscript is written for a specialist audience. The introduction and some sections are dense and would be challenging for a nonspecialist to follow.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the theory is a potentially useful contribution. However, the manuscript needs to provide a more rigorous and quantitative comparison with simulations, and the novelty and regime of validity of the theory need to be more clearly established.
+
+## Risk / unsupported claims
+- The claim that the theory "matches" numerical predictions is unsupported without a quantitative comparison.
+- The claim that the predicted dense phase concentration is in "reasonable agreement" with simulations is vague and not quantified.
+- The prediction that a system with m=1 and l>=50 will phase separate is a testable prediction, but it is not supported by any data in this manuscript.
+- The assumption that the fully-bonded limit is valid across the entire phase diagram is not rigorously justified.

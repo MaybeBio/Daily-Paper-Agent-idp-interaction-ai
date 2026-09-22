@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that full-length human NAP1 (hNAP1) dimer binds H2A-H2B heterodimers in a stepwise manner, with the first H2A-H2B binding primarily to the core domain and the second binding dynamically to both CTADs, and present a model for H2A-H2B eviction from nucleosomes based on integrative structural and biophysical data.
+- **Visible evidence base** NMR spectroscopy, atomic force microscopy, size exclusion chromatography, multi-angle light scattering, small angle X-ray scattering, modelling, and molecular dynamics simulations, all as described in the abstract
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, experimental details, statistical analyses, simulation parameters, and validation data; no quantitative results or error estimates are provided
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting integrative study addressing the dynamic and stepwise binding of hNAP1 to H2A-H2B heterodimers, a question relevant to chromatin biology. The combination of multiple biophysical techniques is commendable. However, the abstract alone provides insufficient quantitative detail to evaluate the robustness of the structural models, the validity of the mutant approach, or the strength of the proposed eviction mechanism. The claim of stepwise binding and the functional model are plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in chromatin dynamics, histone chaperone biology, and nucleosome assembly and remodeling would find these results relevant. The proposed eviction model could inform studies on histone exchange and chromatin accessibility. Structural biologists using integrative approaches may also be interested in the methodological combination.
+- **Major strengths** The study addresses a clear gap in understanding the distinct roles of the core and CTAD domains of NAP1. The use of multiple orthogonal techniques (NMR, AFM, SEC-MALS, SAXS, MD simulations) is a strength. The generation of a stable dimeric mutant to overcome oligomerization is a thoughtful experimental design. The stepwise binding model is a conceptually useful framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "the first H2A-H2B dimer binds mainly to the core domain of hNAP1, while the second H2A-H2B binds dynamically to both CTADs."
+  - **Evidence pointer** Abstract, methods listed as SEC, MALS, SAXS, modelling, and MD simulations; no specific figures or tables referenced
+  - **Concern** The abstract does not provide any quantitative data, such as binding affinities, stoichiometry measurements, or structural validation metrics (e.g., SAXS fit chi-square values, MD convergence criteria), to support the stepwise binding model. The distinction between "mainly" and "dynamically" is vague and not substantiated.
+  - **Why it matters** Without quantitative evidence, the proposed stepwise mechanism could be an artifact of the experimental conditions or the mutant used. The claim is central to the paper's novelty and the proposed eviction model.
+  - **Resolution test** Provide binding affinities for each step, structural ensemble statistics, and validation of the models against experimental data. Show that the mutant behaves identically to wild-type in all relevant assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "we generated a stable dimeric hNAP1 mutant exhibiting the same H2A-H2B binding affinity as wild-type hNAP1."
+  - **Evidence pointer** Abstract, methods listed as AFM and binding affinity comparison; no specific data provided
+  - **Concern** The abstract does not specify the mutation, the method used to measure binding affinity, or the quantitative comparison (e.g., Kd values and error ranges). It is unclear whether the mutant retains all functional properties beyond binding affinity, such as nucleosome binding or eviction activity.
+  - **Why it matters** The mutant is the basis for all subsequent structural analyses. If the mutation alters dynamics or interactions not captured by affinity measurements, the conclusions may not apply to wild-type hNAP1.
+  - **Resolution test** Specify the mutation, provide Kd values with statistical comparisons, and demonstrate that the mutant retains wild-type behavior in functional assays (e.g., nucleosome assembly or eviction).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract concludes with "we present a model of the eviction of H2A-H2B from nucleosomes by NAP1."
+  - **Evidence pointer** Abstract, no direct experimental evidence for eviction is described
+  - **Concern** The eviction model is presented as a conclusion, but the abstract does not describe any experiments directly testing eviction, such as nucleosome disassembly assays or chromatin remodeling experiments. The model appears to be inferred from the binding structures alone.
+  - **Why it matters** The eviction model is a major claim that extends beyond the structural data. Without functional validation, the model is speculative and may overreach the evidence.
+  - **Resolution test** Include direct eviction assays (e.g., nucleosome disruption measured by gel shift or FRET) or clearly label the model as a hypothesis with supporting indirect evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, terminology
+  - **Evidence pointer** Abstract, "CTAD" and "heterodimers" are used without definition
+  - **Issue** The abstract assumes familiarity with NAP1 domain nomenclature and histone terminology, which may limit accessibility for a broader readership.
+  - **Required correction** Define CTAD and H2A-H2B heterodimer at first use, or provide a brief contextual phrase.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract, stepwise binding description
+  - **Evidence pointer** Abstract, "stepwise dynamic complex structures"
+  - **Issue** The phrase "stepwise dynamic" is ambiguous; it is unclear whether the steps are kinetically resolved, thermodynamically distinct, or simply structural states observed at different stoichiometries.
+  - **Required correction** Clarify the meaning of "stepwise" in the context of the data, e.g., "sequential binding events" or "distinct structural states at increasing H2A-H2B concentrations."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, AFM observation
+  - **Evidence pointer** Abstract, "Atomic force microscopy revealed that hNAP1 forms oligomers of tandem repeated dimers"
+  - **Issue** The abstract does not specify the conditions under which oligomers form (e.g., concentration, buffer) or whether this is a physiological state or an artifact of surface deposition.
+  - **Required correction** Provide context for the AFM observation, such as concentration range and whether oligomerization was observed in solution or only on the mica surface.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative binding data, mutant validation, and direct eviction evidence prevents the case from being established from the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The stepwise binding model and the distinction between core and CTAD roles are potentially original, but the abstract does not clearly differentiate from prior work on NAP1 binding polymorphism. Scientific importance: The topic is relevant to chromatin biology, but the significance of the eviction model is not demonstrated without functional data. Interdisciplinary readership: The integrative approach may appeal to structural biologists and biophysicists, but the abstract is too specialized for a broad audience. Technical soundness: The combination of techniques is sound in principle, but the lack of quantitative details prevents assessment of rigor. Readability for nonspecialists: The abstract is dense and assumes domain knowledge, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient quantitative and functional validation to support the central claims. A full manuscript review would be needed to assess whether the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The stepwise binding model (first H2A-H2B to core, second to CTADs) is unsupported without quantitative binding or structural data.
+- The claim that the mutant has "the same H2A-H2B binding affinity" is unverifiable without Kd values and statistical comparison.
+- The eviction model is unsupported as a conclusion; it is presented without direct experimental evidence.
+- The functional relevance of the observed oligomerization is unclear and not addressed.

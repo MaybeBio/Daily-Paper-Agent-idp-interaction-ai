@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34328301",
+  "title": "Protamine-Controlled Reversible DNA Packaging: A Molecular Glue.",
+  "authors": "Mukherjee, Arnab; de Izarra, Ambroise; Degrouard, Jeril; Olive, Enrick; Maiti, Prabal K; Jang, Yun Hee; Lansac, Yves",
+  "journal": "ACS nano",
+  "published_date": "2021-07-31",
+  "window": {
+    "start": "2021-07-26",
+    "end": "2021-08-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究鱼精蛋白调控DNA凝聚的可逆机制，虽对象为DNA而非无序蛋白，但涉及凝聚体形成与相分离机制建模，对IDR介导的PPI相分离研究有方法迁移启发。",
+  "abstract": "Packaging paternal genome into tiny sperm nuclei during spermatogenesis requires 10(6)-fold compaction of DNA, corresponding to a 10-20 times higher compaction than in somatic cells. While such a high level of compaction involves protamine, a small arginine-rich basic protein, the precise mechanism at play is still unclear. Effective pair potential calculations and large-scale molecular dynamics simulations using a simple idealized model incorporating solely electrostatic and steric interactions clearly demonstrate a reversible control on DNA condensates formation by varying the protamine-to-DNA ratio. Microscopic states and condensate structures occurring in semidilute solutions of short DNA fragments are in good agreement with experimental phase diagram and cryoTEM observations. The reversible microscopic mechanisms induced by protamination modulation should provide valuable information to improve a mechanistic understanding of early and intermediate stages of spermatogenesis where an interplay between condensation and liquid-liquid phase separation triggered by protamine expression and post-translational regulation might occur. Moreover, recent vaccines to prevent virus infections and cancers using protamine as a packaging and depackaging agent might be fine-tuned for improved efficiency using a protamination control.",
+  "abstract_zh": "精子发生过程中，将父本基因组包装进微小的精子核内需要DNA的10^6倍压缩，这相当于比体细胞中的压缩程度高出10-20倍。尽管这种高水平的压缩涉及鱼精蛋白（protamine），一种富含精氨酸的小分子碱性蛋白，但其具体作用机制仍不清楚。通过仅包含静电和空间相互作用的简单理想化模型进行的有效对势计算和大规模分子动力学（molecular dynamics）模拟，清晰展示了通过改变鱼精蛋白与DNA比例对DNA凝聚体形成的可逆控制。短DNA片段半稀释溶液中出现的微观状态和凝聚体结构与实验相图和冷冻透射电镜（cryoTEM）观察结果高度一致。由鱼精蛋白调节诱导的可逆微观机制，应为提高对精子发生早期和中间阶段机制性理解提供宝贵信息，在这些阶段，鱼精蛋白表达及翻译后调控可能触发凝聚与液-液相分离（liquid-liquid phase separation）之间的相互作用。此外，近期使用鱼精蛋白作为包装和去包装剂的抗病毒和抗癌疫苗，可能通过鱼精蛋白调节进行微调以提高效率。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34328301/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34328301/",
+  "paper_page_path": "papers/pubmed/34328301/index.html"
+}

@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no external data or supplementary figures were available for independent verification
+- **Shared manuscript claim summary** The authors propose that Lsr2, a nucleoid-associated protein from Mycobacterium tuberculosis, compacts DNA via sequence-dependent co-condensation, where Lsr2 and DNA collectively form phase-separated condensates preferentially at AT-rich regions, and that this mechanism, distinct from individual protein-DNA binding, underlies genome organization and gene silencing
+- **Visible evidence base** Abstract; Introduction; Results sections (Lsr2 and DNA together undergo phase separation; Both multivalent binding and intrinsically disordered regions are required for phase-separation of Lsr2; Two-color single-molecule imaging reveals co-condensation of Lsr2 and DNA; Lsr2 forms sequence-dependent co-condensates with DNA at AT-rich regions); Discussion; Material and Methods (Lsr2 expression and purification; Fluorescent labelling; AFM; EMSA; TIRF microscopy; Phase separation assay; Analysis methods; Simulation methodology; Model parameters)
+- **Missing materials affecting confidence** Supplementary figures (referenced as Supplementary Figure 1–5) were not provided; specific numerical data (e.g., condensate counts, intensity values, statistical tests) are not fully reported in the text; raw simulation parameters and validation metrics are only partially described; no information on replicates for key single-molecule experiments beyond stated "more than 75 snapshots"
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and potentially significant advance in understanding bacterial nucleoid organization, proposing a novel mechanism of sequence-dependent co-condensation for Lsr2. The combination of biochemical assays, single-molecule imaging, and simulations is well conceived. However, the current text lacks sufficient quantitative detail and statistical rigor to fully substantiate the central claims, particularly regarding the distinction between co-condensation and classical binding, and the generality of the proposed "average binding energy landscape" sensing. The evidence base is promising but incomplete as presented.
+- **Who would be interested in the results, and why** Researchers in bacterial chromosome organization, nucleoid-associated proteins, phase separation in biology, and tuberculosis pathogenesis would find these results of high interest. The proposed mechanism offers a new paradigm for how NAPs may achieve genome-wide regulation, potentially bridging biophysical studies and in vivo observations. The work could also interest the broader gene regulation community studying how protein-DNA condensates contribute to transcriptional control.
+- **Major strengths** 1) The study addresses a fundamental and unresolved question in bacterial biology with a multi-pronged approach. 2) The observation that DNA lowers the phase separation threshold of Lsr2 is a clear and testable finding. 3) The single-molecule assay design, using DNA constructs with defined AT-rich segments, is elegant and directly tests sequence dependence. 4) The integration of simulations to provide a mechanistic model is a strong addition. 5) The proposed concept of "sensing" the average binding energy landscape is conceptually novel and thought-provoking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Evidence sufficiency
+  - **Claim pointer** The authors claim that "Lsr2 forms condensates with long stretches of AT-rich DNA, providing strong evidence for sequence-dependent co-condensation" and that this is "contrary to the classical view of sequence-dependent binding of individual protein molecules to DNA."
+  - **Evidence pointer** Results section "Lsr2 forms sequence-dependent co-condensates with DNA at AT-rich regions"; Figure 4 (referenced but not fully described in text)
+  - **Concern** The central claim of sequence-dependent co-condensation relies on the single-molecule experiments with the 21 kb DNA construct containing a 3 kb AT-rich segment. While the authors report that 86.4% of condensates formed at the AT-rich region, the text does not provide the number of molecules analyzed, the statistical significance of this preference (e.g., confidence intervals, comparison to a null distribution), or how the "moderate AT-content" control was quantitatively matched to the backbone. Furthermore, the distinction between co-condensation and simple preferential binding of individual Lsr2 molecules (which would also lead to condensate formation at AT-rich regions) is not clearly established. The authors argue for a collective effect, but the data as presented could be explained by enhanced local protein concentration due to higher affinity binding, followed by condensation. The simulations are used to support the collective model, but the parameters (e.g., binding energy varying from 3 to 5 kBT) may inherently bias toward the observed outcome.
+  - **Why it matters** This is the core novelty of the paper. If the observed sequence preference is simply a consequence of individual binding affinities, the proposed new mechanism of "average binding energy landscape sensing" is not supported. The claim of a new paradigm requires unambiguous evidence that the collective behavior is distinct from the sum of individual binding events.
+  - **Resolution test** The authors should provide a quantitative comparison of the observed condensate positions with a model based solely on individual binding site density and affinity. They should also show that the condensate formation is not merely a consequence of local protein accumulation but involves a cooperative, collective transition. This could be addressed by varying the spacing and density of AT-rich motifs and showing that the condensate formation threshold depends on the average energy over a long region, not just the presence of high-affinity sites. Statistical analysis of the positional preference across many molecules is essential.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Reproducibility
+  - **Claim pointer** The authors state that "addition of DNA substantially lowers the required concentration for its phase separation" and that Lsr2 alone phase separates at ~10 µM, while with DNA it forms condensates at ~1 µM.
+  - **Evidence pointer** Results section "Lsr2 and DNA together undergo phase separation"; Figure 1d–1f (referenced)
+  - **Concern** The phase separation threshold concentrations are stated, but the methods for determining these values are not described in the text. It is unclear how the "condensate area" was quantified to define a threshold, what constitutes a condensate (size cutoff?), and how the concentration dependence was measured (e.g., turbidity, microscopy). The effect of DNA length and sequence on the threshold is not explored. For instance, does the 1.8 kb DNA used in the bulk assay have a specific AT-content that is relevant? The claim that DNA "substantially lowers" the threshold is qualitative; the fold-change and its dependence on DNA concentration are not given.
+  - **Why it matters** The quantitative phase diagram of Lsr2-DNA co-condensation is fundamental to the proposed mechanism. Without a clear definition of the phase boundary and its dependence on DNA properties, the claim that DNA promotes condensation is not rigorously established. This also affects the interpretation of the single-molecule experiments, where the local protein concentration may be above or below the threshold.
+  - **Resolution test** The authors should provide a detailed description of the phase separation assay, including how condensates were identified and counted, and present a phase diagram showing the condensate formation as a function of Lsr2 and DNA concentrations. They should also test whether the threshold reduction depends on DNA length or AT-content, which would strengthen the sequence-dependence claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Generalizability
+  - **Claim pointer** The authors propose that "sequence-dependent co-condensation of Lsr2 with DNA" is a "novel mechanism for NAP-mediated genome organization in bacteria" and that it "can allow it to simultaneously regulate a large number of genes."
+  - **Evidence pointer** Discussion section; Figure 5 (referenced)
+  - **Concern** The extrapolation from in vitro experiments with purified components to the in vivo situation in M. tuberculosis is significant. The authors do not discuss the intracellular concentrations of Lsr2 and DNA, the presence of other DNA-binding proteins, or the topological state of the chromosome. The claim that this mechanism explains gene regulation of "hundreds of genes" is speculative, as the experiments do not directly measure gene expression. The model presented in Figure 5 is a schematic, but its quantitative predictions are not tested.
+  - **Why it matters** The broader significance of the work depends on its relevance to the cellular context. If the co-condensation only occurs at non-physiological concentrations or is outcompeted by other factors in vivo, the proposed mechanism may not be the primary driver of genome organization. The authors should temper their claims or provide additional evidence (e.g., from published in vivo data) that supports the physiological relevance of their observations.
+  - **Resolution test** The authors should discuss the estimated intracellular concentrations of Lsr2 and compare them to the in vitro phase separation thresholds. They could also perform experiments with a more complex in vitro system (e.g., with crowding agents or other NAPs) to test the robustness of the co-condensation. Alternatively, they could cite existing in vivo data that is consistent with their model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Reproducibility
+  - **Affected element** Methods section "Analysis of double-tethered DNA experiments"
+  - **Evidence pointer** Material and Methods, "Analysis of double-tethered DNA experiments"
+  - **Issue** The description of the threshold calculation for identifying condensate regions is incomplete. The text states "we define a threshold as Here, T represents..." but the actual formula is missing. This makes it impossible to reproduce the analysis.
+  - **Required correction** Provide the full equation for the threshold calculation and define all variables clearly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity / Data presentation
+  - **Affected element** Results section "Two-color single-molecule imaging reveals co-condensation of Lsr2 and DNA"
+  - **Evidence pointer** Results section; Figure 3 (referenced)
+  - **Issue** The authors mention "multiple clusters merging and coalescing over time" but do not provide quantitative data on this process (e.g., growth rates, frequency of fusion events). This observation is used to support the fluid nature of the condensates, but the evidence is anecdotal.
+  - **Required correction** Provide representative kymographs or time-lapse images showing the fusion events, and if possible, quantify the dynamics (e.g., fusion time, cluster size distribution over time).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness / Parameter justification
+  - **Affected element** Methods section "Model parameters"
+  - **Evidence pointer** Material and Methods, "Model parameters"
+  - **Issue** The choice of interaction energy between Lsr2 dimers (4 kBT) and the range for DNA-Lsr2 interaction (3-5 kBT) are stated, but the justification for these values is not provided. It is unclear if they are derived from experimental measurements or are arbitrary.
+  - **Required correction** Provide a rationale for the chosen interaction energies, ideally citing experimental measurements or showing that the results are robust to variations in these parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability / Context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction is brief and does not fully contextualize the work within the broader field of phase separation in bacteria. A brief mention of other NAPs that may undergo phase separation or of the general role of phase separation in gene regulation would help non-specialist readers appreciate the significance.
+  - **Required correction** Add a few sentences in the introduction to place the work in the context of recent advances in biomolecular condensates and bacterial chromosome organization.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The distinction between co-condensation and individual binding must be rigorously established, and the phase separation assay must be quantitatively defined. The missing threshold formula in the methods is a technical error that must be corrected.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The concept of sequence-dependent co-condensation as a mechanism for NAP function is novel and challenges the prevailing view of individual protein-DNA interactions. This is a fresh perspective on a long-standing problem.
+  - **Scientific importance** Potentially high. If the mechanism is validated, it could reshape understanding of bacterial genome organization and gene regulation, with implications for tuberculosis pathogenesis. However, the current evidence does not fully establish the physiological relevance.
+  - **Interdisciplinary readership** Moderate to high. The work bridges biophysics, molecular biology, and microbiology. The concepts of phase separation are of broad interest, but the specific system (Lsr2, M. tuberculosis) may limit appeal to a wider audience.
+  - **Technical soundness** The experimental approach is sound in principle, but the lack of quantitative detail and statistical rigor in the presented text undermines confidence. The simulations are a strength but their parameters need better justification.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the methods section is dense and some key concepts (e.g., the distinction between co-condensation and binding) could be explained more clearly for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is exciting and the experimental strategy is appropriate. However, the current manuscript does not provide sufficient evidence to fully distinguish the proposed co-condensation mechanism from classical binding, and the phase separation data are not quantitatively defined. These issues must be addressed before the claims can be considered established.
+
+## Risk / unsupported claims
+- The claim that Lsr2-DNA co-condensation "senses" the average binding energy landscape is not directly supported by the data presented; it is an interpretation that requires further validation.
+- The extrapolation to in vivo gene regulation of "hundreds of genes" is unsupported by the in vitro data presented.
+- The statement that the observations are "contrary to the classical view" is an overstatement; the data may be consistent with a model where individual binding events lead to local concentration increases that trigger condensation, which is not necessarily a new paradigm.
+- The claim that DNA "substantially lowers" the phase separation threshold is not quantitatively supported.
+- The physiological relevance of the co-condensation (e.g., whether it occurs at intracellular concentrations) is not established.

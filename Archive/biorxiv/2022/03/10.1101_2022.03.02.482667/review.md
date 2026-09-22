@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors investigate the stereochemical basis of transient protein-protein interactions involving the intrinsically disordered protein G3BP1 and its binding partners USP10 and Caprin1. They report quantitative binding affinities for wild-type and mutant G3BP1 NTF2 domains, a crystal structure of a triple mutant, and a peptide array analysis of binding motifs. They conclude that small changes in 1:1 binding affinity can have significant effects on cellular complex composition.
+- **Visible evidence base** Results sections describing fluorescence polarization binding assays, co-purification experiments, X-ray crystallography, and peptide array data. Tables 1-4 and Figures 1-7 are referenced but not fully visible in the provided text.
+- **Missing materials affecting confidence** Full figures and tables with numerical data, statistical analyses, raw binding curves, crystallographic validation metrics, and detailed peptide array quantification are not available. This limits independent verification of quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in the field of intrinsically disordered proteins and signaling hubs: how do modest changes in binding affinity translate to functional outcomes in cellular complexes? The combination of biophysical, structural, and cellular approaches is commendable and potentially impactful. However, several technical concerns and incomplete data presentation currently prevent full support of the conclusions.
+- **Who would be interested in the results, and why** Researchers studying G3BP1 biology, stress granules, deubiquitinase regulation, CFTR trafficking, and protein-protein interaction networks. The work may also interest structural biologists and biochemists focused on transient interactions involving disordered proteins and on the design of peptide-based modulators.
+- **Major strengths** The study combines multiple orthogonal methods to characterize protein-protein interactions. The use of fluorescence polarization to quantify binding affinities across a panel of mutants is systematic. The crystal structure of the triple mutant provides a structural rationale for the observed functional defects. The peptide array approach extends the analysis to comprehensive mutational scanning of binding motifs. The co-purification assay links in vitro affinities to cellular complex formation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "substitution of G3BP1 residues F15 or F33 to tryptophan reduces affinity for both the USP10 and Caprin1 motif peptides" and that these changes correlate with reduced complex formation in cells.
+  - **Evidence pointer** Results sections "G3BP1 phenylalanine residues contribute differentially to USP10 binding" and "Caprin1 is more sensitive than G3BP1 to NTF2 modifications"; Tables 1 and 2; Figures 1-4.
+  - **Concern** The quantitative binding data are presented as K D values, but no error estimates, replicate numbers, or statistical comparisons are provided in the text. The claim of "significant" differences is not supported by statistical analysis. Additionally, the co-purification data are reported as percentages relative to wild-type, but the variability across experiments and the number of independent biological replicates are not stated.
+  - **Why it matters** Without error bars and statistical tests, the reader cannot assess whether the reported differences in K D values and co-purification efficiencies are robust or within experimental noise. This is critical because the central conclusion depends on the magnitude and reproducibility of these differences.
+  - **Resolution test** Provide mean ± SD or SEM for at least three independent experiments for each K D determination and co-purification measurement. Include appropriate statistical tests (e.g., one-way ANOVA with post-hoc comparisons) to support claims of significant differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the crystal structure of G3BP1 TripleW (F15W/F33W/F124W) mutant reveals a clear reorientation of the side chain of W33, creating a steric clash with the USP10 and Caprin1 peptides."
+  - **Evidence pointer** Results section "TripleW can cause significant conformational changes"; Table 4; Figures 5 and 6.
+  - **Concern** The structural interpretation relies on a single crystal structure of the mutant in the absence of bound peptide. The claim of a "steric clash" is inferred from comparing the mutant structure with previously published complex structures, but no direct co-crystal structure with peptide is presented. The conformational heterogeneity of W33 between chains A and B is acknowledged, but the functional relevance of each conformation is speculative.
+  - **Why it matters** The structural mechanism is a key part of the paper's contribution. If the steric clash is not directly demonstrated, the mechanistic conclusion is weakened. The presence of two different W33 conformations in the same crystal suggests conformational flexibility that may not be fully captured by the static structure.
+  - **Resolution test** Provide additional structural evidence, such as a co-crystal structure of the mutant with a peptide ligand, or molecular dynamics simulations showing the predicted clash. Alternatively, temper the claim to state that the mutant structure is consistent with a steric clash based on modeling.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "small changes in 1:1 binding affinity can have significant effects on the composition of cellular interaction hubs."
+  - **Evidence pointer** Results sections on co-purification; Figures 2 and 4; Discussion.
+  - **Concern** The co-purification assay measures steady-state complex levels after overexpression, which may not directly reflect binding affinity. The relationship between K D and co-purification efficiency is not quantitatively modeled. The claim that small affinity changes cause "significant effects" is based on a limited set of mutants and may not be generalizable.
+  - **Why it matters** The broader significance of the work depends on establishing a quantitative link between in vitro affinity and cellular complex formation. Without a more rigorous analysis, the conclusion remains suggestive rather than definitive.
+  - **Resolution test** Perform a more detailed quantitative analysis, such as measuring binding kinetics or using a titration series in the co-purification assay. Alternatively, test additional mutants with a wider range of affinities to establish a correlation curve.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction
+  - **Issue** The abstract and introduction assume familiarity with G3BP1 biology and the CFTR system. A brief explanation of why CFTR deubiquitination is relevant and how G3BP1 fits into this pathway would improve accessibility.
+  - **Required correction** Add one or two sentences in the introduction to contextualize the CFTR connection and the significance of the G3BP1-USP10-Caprin1 axis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section on fluorescence polarization
+  - **Evidence pointer** Methods section "Fluorescence polarization"
+  - **Issue** The methods state that experiments were performed in triplicate, but it is unclear whether this refers to technical replicates within a single experiment or independent biological replicates. The buffer composition and temperature for the assay are not specified.
+  - **Required correction** Clarify the replicate structure and specify assay conditions (e.g., temperature, incubation time, and final DMSO concentration if applicable).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Peptide array experiments
+  - **Evidence pointer** Results sections on peptide arrays; Figure 7
+  - **Issue** The peptide array data are described qualitatively. No quantitative thresholds for "reduced" or "increased" binding are provided, and the normalization method is not described.
+  - **Required correction** Provide a description of how spot intensities were quantified and normalized, and define a threshold for significant changes in binding.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of therapeutic implications is brief and somewhat speculative. The connection between the peptide array findings and potential drug development could be more clearly articulated.
+  - **Required correction** Expand the discussion of how the identified high-affinity peptide variants could be used as tools or leads, and acknowledge the limitations of peptide-based approaches.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of statistical rigor in the binding and co-purification data, and the indirect nature of the structural evidence for the steric clash, must be addressed before the central conclusions can be considered established.
+- **Assessment against Nature-style criteria** Originality: The work is original in its systematic mutational analysis of both binding partners and the combination of structural and cellular approaches. Scientific importance: The findings have implications for understanding IDP hub function and for designing modulators of G3BP1 interactions, which is of broad interest. Interdisciplinary readership: The work will appeal to structural biologists, biochemists, and cell biologists, but the presentation could be more accessible. Technical soundness: The experimental design is generally sound, but the lack of statistical detail and the indirect structural evidence are significant weaknesses. Readability for nonspecialists: The manuscript is written for a specialist audience; improvements in contextualization would broaden its appeal.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially valuable, but the manuscript requires additional statistical rigor and more direct structural evidence before the conclusions can be fully supported.
+
+## Risk / unsupported claims
+- The claim that "small changes in 1:1 binding affinity can have significant effects on the composition of cellular interaction hubs" is not fully supported by the quantitative data presented, as no statistical analysis or correlation analysis is provided.
+- The claim of a "steric clash" between W33 and the peptide ligands is inferred from a mutant structure without bound peptide and is not directly demonstrated.
+- The suggestion that "peptide inhibitors based on these different motifs may have differential effects" is speculative and not tested experimentally.
+- The statement that "the data reported here provide additional evidence that affinity co-purification is a useful tool" is an overstatement, as the method is not validated against an independent approach in this study.

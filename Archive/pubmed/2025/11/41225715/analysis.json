@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41225715",
+  "title": "Mapping Conformational and Kinetic Landscapes of 14-3-3sigma/alpha-Synuclein Assembly via Variational Autoencoders and Markov State Models.",
+  "authors": "Chakraborty, Gourav; Patra, Niladri",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-11-13",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用VAE自适应采样与马尔可夫状态模型刻画14-3-3sigma与无序蛋白α-突触核蛋白组装的结构与动力学机制，揭示中间态与解离路径，是IDP-PPI机制建模的典范。",
+  "abstract": "The interaction between the molecular chaperone 14-3-3sigma and the intrinsically disordered protein alpha-synuclein is implicated in the pathogenesis of Parkinson's disease, yet its dynamic mechanism remains poorly understood at an atomistic level. The inherent flexibility and rugged energy landscape of this complex pose significant challenges to conventional molecular dynamics simulations. Here, we employ an advanced adaptive sampling framework that integrates variational autoencoders (VAEs) and Markov state models (MSMs) to overcome these limitations and obtain comprehensive atomistic insight into the 14-3-3sigma/alpha-synuclein assembly. Our VAE-driven approach iteratively learns a low-dimensional latent space of the system's dynamics, guiding simulations to efficiently explore and sample novel conformations. This strategy successfully captured over 90% of the conformational variance observed in a 17 mus reference trajectory using around 3 mus of simulation time. An MSM constructed from approximately 20 mus of combined simulation data revealed three key metastable states: a highly stable bound complex, a structurally distinct intermediate, and a disordered, largely unbound ensemble. The resulting kinetic model quantitatively characterized the transition pathways, identifying the final bound state as a deep kinetic trap with a dissociation time scale of over 100 mus, confirming its high stability. Furthermore, we elucidated the crucial role of the intermediate state as a primary steppingstone in the dissociation pathway. This work not only provides valuable atomistic insight into a key interaction relevant to neurodegeneration but also establishes the VAE-MSM pipeline as a powerful tool for dissecting the complex mechanisms of disordered protein-protein interactions.",
+  "abstract_zh": "分子伴侣14-3-3sigma与固有无序蛋白α-突触核蛋白之间的相互作用与帕金森病的发病机制相关，然而其动态机制在原子层面仍知之甚少。该复合物固有的柔性和崎岖的能量景观对常规分子动力学模拟构成重大挑战。在此，我们采用一种先进的适应性采样框架，整合变分自编码器（VAEs）和马尔可夫状态模型（MSMs），以克服这些限制并获得对14-3-3sigma/α-突触核蛋白组装体的全面原子级洞察。我们的VAE驱动方法迭代学习系统动力学的低维潜在空间，引导模拟高效探索和采样新构象。该策略成功捕获了在17微秒参考轨迹中观察到的超过90%的构象变异，而仅使用约3微秒的模拟时间。基于约20微秒组合模拟数据构建的MSM揭示了三个关键亚稳态：一个高度稳定的结合复合物、一个结构上不同的中间态，以及一个无序且大体上未结合的集合体。所得动力学模型定量表征了转变路径，将最终结合态识别为深层动力学陷阱，其解离时间尺度超过100微秒，确认了其高稳定性。此外，我们阐明了中间态在解离路径中作为主要踏脚石的关键作用。这项工作不仅为与神经退行性疾病相关的关键相互作用提供了宝贵的原子级洞察，还将VAE-MSM流程确立为解析无序蛋白-蛋白相互作用复杂机制的强大工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41225715/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41225715/",
+  "paper_page_path": "papers/pubmed/41225715/index.html"
+}

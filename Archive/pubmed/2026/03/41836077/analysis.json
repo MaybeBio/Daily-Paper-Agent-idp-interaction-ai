@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41836077",
+  "title": "Fluorine-Thiol Displacement Stapling on the Disordered alpha(B) of pKID Domain Increases Its Helicity and Affinity to KIX.",
+  "authors": "Cohen, Carson B; Andrews, Andrew J; Wang, Rongsheng E",
+  "journal": "Synlett : accounts and rapid communications in synthetic organic chemistry",
+  "published_date": "2026-03-16",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过氟-硫醇置换反应对无序pKID的alpha(B)螺旋进行订书肽修饰，实验研究螺旋稳定化对其与KIX结合亲和力的影响，对象为IDR-PPI且涉及结合机制，但方法为化学合成与实验表征，无AI或物理模拟建模，故综合评分为6。",
+  "abstract": "The development of high-affinity ligands specifically targeting intrinsically disordered protein interactions has remained challenging due to the lack of well-defined binding pockets and shallow binding surfaces commonly found at their interfaces. Here, we employed our fluorine-thiol displacement reaction (FTDR) peptide-stapling platform to synthesize a library of peptide-based ligands derived from the alpha(B)-helix of the disordered pKID to target its binding partner KIX. Our library revealed that helical formation and affinity to KIX is highly favored when the alpha(B) peptide was stapled at sites corresponding to Arg(135) and Ser(142), further supporting the hypothesis that stabilization of alpha(B) significantly influences the overall binding affinity of pKID to KIX. We also found that the highest binding peptide, alpha(B)-RSpS, may form secondary contacts at the MLL site on KIX in addition to binding at the primary pKID site. Lastly, no binding to KIX was observed for any alpha(B)-stapled peptide that lacked the conserved helix-flanking prolines Pro(132) and Pro(146). Conserved helix-flanking prolines have previously been shown to modulate the binding affinities of other disordered domains in other proteins including MLL and p53. However, to our knowledge this is the first evidence within alpha(B) of pKID.",
+  "abstract_zh": "针对固有无序蛋白相互作用的高亲和力配体的开发，由于缺乏明确的结合口袋及其界面常见的浅结合表面，一直面临挑战。在此，我们利用氟-硫醇置换反应（FTDR）肽装订平台，合成了一个基于无序pKID的alpha(B)-螺旋衍生的肽配体库，以靶向其结合伙伴KIX。我们的库显示，当alpha(B)肽在对应Arg(135)和Ser(142)的位点进行装订时，螺旋形成和对KIX的亲和力高度有利，进一步支持了alpha(B)的稳定化显著影响pKID与KIX整体结合亲和力的假设。我们还发现，最高结合力的肽alpha(B)-RSpS，除了在主要pKID位点结合外，可能在KIX的MLL位点形成次级接触。最后，任何缺乏保守螺旋侧翼脯氨酸Pro(132)和Pro(146)的alpha(B)-装订肽均未观察到与KIX的结合。保守螺旋侧翼脯氨酸此前已被证明可调节其他蛋白质（包括MLL和p53）中其他无序结构域的结合亲和力。然而，据我们所知，这是pKID的alpha(B)中首次出现此类证据。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41836077/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41836077/",
+  "paper_page_path": "papers/pubmed/41836077/index.html"
+}

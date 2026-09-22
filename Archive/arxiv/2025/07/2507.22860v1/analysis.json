@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2507.22860v1",
+  "title": "Complex topologies in phase separated droplets predicted from universal phase diagram",
+  "authors": "Amit Kumar; Gary H. Karpen; Samuel A. Safran",
+  "journal": "",
+  "published_date": "2025-07-30",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过通用相图预测相分离液滴内多溶质域形成的复杂拓扑结构，虽未直接聚焦IDP/PPI或AI/物理模拟方法，但为无序蛋白凝聚体中的多组分互作与相分离机制提供了可迁移的物理建模框架。",
+  "abstract": "Phase separation of two phase separating solutes in a common solvent can result in mesoscale (micron-sized) droplets with complex topologies of the domains of each solute within each droplet. Such topologies have been observed in-vitro in systems of chromatin oligomers, biomolecular condensates, and polymeric mixtures. In these systems the solutes phase separate from the solvent into droplets due to the relatively large free energy gain, which includes the energies and entropies of mixing with the solvent. Within each droplet, further phase separation can occur between the two solutes due to an additional free energy difference that promotes their demixing; in some systems, the extent of demixing can be, in some cases, be modulated by an additional component. The minimal free energy topologies are predicted as universal functions of the interfacial tension ratios and fractions of each solute within a droplet. We compare the predictions with several experimental systems to estimate the ranges of interfacial tensions. Experimental aspects that may depend on the kinetics or molecular weight variations in the system are also discussed.",
+  "abstract_zh": "两种相分离溶质在共同溶剂中的相分离可导致介观尺度（微米级）液滴的形成，这些液滴内各溶质区域具有复杂拓扑结构。此类拓扑已在染色质寡聚体、生物分子凝聚体及聚合物混合物的体外系统中观察到。在这些系统中，溶质因相对较大的自由能增益（包括与溶剂混合的能量和熵）而从溶剂中相分离形成液滴。在每个液滴内部，由于额外的自由能差异促进两种溶质间的去混合，可能发生进一步的相分离；在某些系统中，去混合程度有时可通过额外组分进行调节。最小自由能拓扑被预测为界面张力比和液滴内各溶质分数的通用函数。我们将预测与多个实验系统进行比较，以估算界面张力的范围。还讨论了可能依赖于系统中动力学或分子量变化的实验方面。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2507.22860v1",
+  "source_url": "https://arxiv.org/abs/2507.22860v1",
+  "paper_page_path": "papers/arxiv/2507.22860v1/index.html"
+}

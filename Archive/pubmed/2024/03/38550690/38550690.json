@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "38550690",
+    "doi": "10.1039/d3sc05230c",
+    "title": "Differentiable simulation to develop molecular dynamics force fields for disordered proteins."
+  },
+  "content": {
+    "abstract": "Implicit solvent force fields are computationally efficient but can be unsuitable for running molecular dynamics on disordered proteins. Here I improve the a99SB-disp force field and the GBNeck2 implicit solvent model to better describe disordered proteins. Differentiable molecular simulations with 5 ns trajectories are used to jointly optimise 108 parameters to better match explicit solvent trajectories. Simulations with the improved force field better reproduce the radius of gyration and secondary structure content seen in experiments, whilst showing slightly degraded performance on folded proteins and protein complexes. The force field, called GB99dms, reproduces the results of a small molecule binding study and improves agreement with experiment for the aggregation of amyloid peptides. GB99dms, which can be used in OpenMM, is available at https://github.com/greener-group/GB99dms. This work is the first to show that gradients can be obtained directly from nanosecond-length differentiable simulations of biomolecules and highlights the effectiveness of this approach to training whole force fields to match desired properties.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Greener, Joe G"
+      ],
+      "short_names": [
+        "Greener JG"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5154-1929"
+      ],
+      "affiliations": [
+        "Medical Research Council Laboratory of Molecular Biology Cambridge CB2 0QH UK jgreener@mrc-lmb.cam.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Greener, Joe G",
+        "short_name": "Greener JG",
+        "identifiers": [
+          "0000-0002-5154-1929"
+        ],
+        "affiliations": [
+          "Medical Research Council Laboratory of Molecular Biology Cambridge CB2 0QH UK jgreener@mrc-lmb.cam.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2024 Mar 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/29 06:46",
+    "fetched_at": "2026-09-21 06:10:59"
+  },
+  "links": {
+    "cites": [
+      "42397283",
+      "42194082",
+      "42129207",
+      "41937297",
+      "41542157",
+      "41452822",
+      "40434635",
+      "40143766",
+      "39913331",
+      "39829785",
+      "38989715",
+      "38963184",
+      "38928819"
+    ],
+    "refs": [
+      "38579003",
+      "38161379",
+      "38013814",
+      "37856313",
+      "37589304",
+      "37024649",
+      "36725529",
+      "36462448",
+      "36349096",
+      "35968960",
+      "35687842",
+      "35377637",
+      "35130691",
+      "35058472",
+      "34824254",
+      "34735764",
+      "34716273",
+      "34473813",
+      "34470360",
+      "33729795",
+      "33653960",
+      "33591749",
+      "33279865",
+      "33174726",
+      "32980615",
+      "32571067",
+      "32407511",
+      "31914313",
+      "31475155",
+      "30973229",
+      "30865832",
+      "30857399",
+      "30589834",
+      "30236283",
+      "29735687",
+      "29480910",
+      "29477047",
+      "28746339",
+      "28259050",
+      "27819658",
+      "27748599",
+      "27731628",
+      "27101974",
+      "26589047",
+      "26580355",
+      "26574453",
+      "26574339",
+      "26488642",
+      "26273869",
+      "25788871",
+      "25764013",
+      "25762327",
+      "25400522",
+      "25255057",
+      "24841242",
+      "24748852",
+      "24463371",
+      "22443635",
+      "22034434",
+      "21487594",
+      "21072141",
+      "19229944",
+      "18506808",
+      "18471007",
+      "15314214",
+      "15116359",
+      "12547762"
+    ],
+    "similar": [
+      "38550690",
+      "35950933",
+      "33580600",
+      "32816485",
+      "35968960",
+      "29735687",
+      "26574266",
+      "15959866",
+      "18348560",
+      "35408509",
+      "34473813",
+      "31552948",
+      "31241933",
+      "31903719",
+      "26020564",
+      "24748852",
+      "33174726",
+      "32367806",
+      "28448138",
+      "37134270",
+      "38700150",
+      "26574429",
+      "30250773",
+      "34546059",
+      "34152264",
+      "33382616",
+      "31657215",
+      "36884001",
+      "35059035",
+      "28024449",
+      "34491058",
+      "21038907",
+      "23912807",
+      "24028075",
+      "36798393",
+      "29480910",
+      "20094685",
+      "22043178",
+      "26626388",
+      "12596268",
+      "27731628",
+      "30990694",
+      "29235155",
+      "30811210",
+      "23479281",
+      "27727496",
+      "17489626",
+      "30514082",
+      "17075138",
+      "33810353",
+      "20085382",
+      "26784558",
+      "12116391",
+      "30933517",
+      "33444020",
+      "33459730",
+      "30865832",
+      "17040986",
+      "32227937",
+      "34524800",
+      "28456189",
+      "26331258",
+      "38967278",
+      "31265293",
+      "29808548",
+      "37646172",
+      "25400526",
+      "27532482",
+      "35670576",
+      "22339051",
+      "26629886",
+      "28805390",
+      "26575776",
+      "37167319",
+      "33078950",
+      "38928405",
+      "32859072",
+      "12242327",
+      "31877033",
+      "31914313",
+      "25952623",
+      "16928023",
+      "1304396",
+      "36349096",
+      "38161379",
+      "37050876",
+      "26583233",
+      "15067677",
+      "36232586",
+      "20408171",
+      "16852728",
+      "38963184",
+      "8601844",
+      "29737546",
+      "34185520",
+      "34651150",
+      "29120632",
+      "31613621",
+      "39340152",
+      "26077712"
+    ],
+    "review": [
+      "38550690",
+      "35059035"
+    ],
+    "pmc": [
+      "10966991"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38550690/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d3sc05230c",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38550690",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

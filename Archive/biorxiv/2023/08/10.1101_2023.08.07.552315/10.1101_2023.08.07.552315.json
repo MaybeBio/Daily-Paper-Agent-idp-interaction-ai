@@ -1,0 +1,291 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.07.552315",
+  "title": "Insights into human outer kinetochore assembly and force transmission from a structure-function analysis of the KMN network",
+  "doi": "10.1101/2023.08.07.552315",
+  "abstract": "The biorientation of chromosomes during cell division is necessary for precise dispatching of a mother cell’s chromosomes into its two daughters. Kinetochores, large layered structures built on specialized chromosome loci named centromeres, promote biorientation by binding and sensing spindle microtubules. The kinetochore outer layer consists of a 10-subunit apparatus comprising Knl1C, Mis12C, and Ndc80C subcomplexes (KMN network). The KMN network is highly elongated and docks on kinetochores and microtubules using interfaces at its opposite extremes. Here, we combine cryo-EM reconstructions and AlphaFold2 predictions to generate a model of the KMN network that reveals all intra-KMN interfaces. We identify and functionally validate two interaction interfaces that link Mis12C to Ndc80C and Knl1C. Through targeted interference experiments and molecular dynamics simulations we demonstrate this mutual organization stabilizes the KMN network. Our work reports the first comprehensive structural and functional analysis of the microtubule binding machinery of kinetochores and elucidates a path of microtubule-generated force transmission",
+  "authors": [
+    "Polley S",
+    "Raisch T",
+    "Koerner M",
+    "Terbeck M",
+    "Gräter F",
+    "Raunser S",
+    "Aponte-Santamaría C",
+    "Vetter IR",
+    "Musacchio A"
+  ],
+  "published_date": "2023-08-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.07.552315",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.07.552315.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR706988",
+    "raw_record": {
+      "id": "PPR706988",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR706988"
+        ]
+      },
+      "doi": "10.1101/2023.08.07.552315",
+      "title": "Insights into human outer kinetochore assembly and force transmission from a structure-function analysis of the KMN network",
+      "authorString": "Polley S, Raisch T, Koerner M, Terbeck M, Gräter F, Raunser S, Aponte-Santamaría C, Vetter IR, Musacchio A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Polley S",
+            "lastName": "Polley",
+            "firstName": "Soumitra",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Straße 11, 44227 Dortmund, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Raisch T",
+            "lastName": "Raisch",
+            "firstName": "Tobias",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural Biochemistry, Max-Planck Institute of Molecular Physiology, Otto-Hahn-Straße 11, 44227 Dortmund, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Koerner M",
+            "lastName": "Koerner",
+            "firstName": "Marie",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, 69118, Heidelberg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Terbeck M",
+            "lastName": "Terbeck",
+            "firstName": "Melina",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Straße 11, 44227 Dortmund, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gräter F",
+            "lastName": "Gräter",
+            "firstName": "Frauke",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, 69118, Heidelberg, Germany"
+                },
+                {
+                  "affiliation": "Max Planck School Matter to Life, Jahnstrasse 29, 69120 Heidelberg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Raunser S",
+            "lastName": "Raunser",
+            "firstName": "Stefan",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9373-3016"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural Biochemistry, Max-Planck Institute of Molecular Physiology, Otto-Hahn-Straße 11, 44227 Dortmund, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aponte-Santamaría C",
+            "lastName": "Aponte-Santamaría",
+            "firstName": "Camilo",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, 69118, Heidelberg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vetter IR",
+            "lastName": "Vetter",
+            "firstName": "Ingrid",
+            "initials": "IR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Straße 11, 44227 Dortmund, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Musacchio A",
+            "lastName": "Musacchio",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2362-8784"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mechanistic Cell Biology, Max Planck Institute of Molecular Physiology, Otto-Hahn-Straße 11, 44227 Dortmund, Germany"
+                },
+                {
+                  "affiliation": "Max Planck School Matter to Life, Jahnstrasse 29, 69120 Heidelberg, Germany"
+                },
+                {
+                  "affiliation": "Centre for Medical Biotechnology, Faculty of Biology, University Duisburg-Essen, Essen, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9373-3016"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8427-6965"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2362-8784"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2891-3381"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The biorientation of chromosomes during cell division is necessary for precise dispatching of a mother cell’s chromosomes into its two daughters. Kinetochores, large layered structures built on specialized chromosome loci named centromeres, promote biorientation by binding and sensing spindle microtubules. The kinetochore outer layer consists of a 10-subunit apparatus comprising Knl1C, Mis12C, and Ndc80C subcomplexes (KMN network). The KMN network is highly elongated and docks on kinetochores and microtubules using interfaces at its opposite extremes. Here, we combine cryo-EM reconstructions and AlphaFold2 predictions to generate a model of the KMN network that reveals all intra-KMN interfaces. We identify and functionally validate two interaction interfaces that link Mis12C to Ndc80C and Knl1C. Through targeted interference experiments and molecular dynamics simulations we demonstrate this mutual organization stabilizes the KMN network. Our work reports the first comprehensive structural and functional analysis of the microtubule binding machinery of kinetochores and elucidates a path of microtubule-generated force transmission",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "951430",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/07/2023.08.07.552315.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.07.552315"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR706988"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR706988&type=FILE&fileName=EMS186748-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS186748",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-08-29",
+      "firstPublicationDate": "2023-08-07",
+      "firstIndexDate": "2023-08-31",
+      "fullTextReceivedDate": "2024-01-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

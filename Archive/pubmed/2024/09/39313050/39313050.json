@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "39313050",
+    "doi": "10.1016/j.ijbiomac.2024.135825",
+    "title": "Exploring the effects of 4-chloro-o-phenylenediamine on human fibrinogen: A comprehensive investigation via biochemical, biophysical and computational approaches."
+  },
+  "content": {
+    "abstract": "Fibrinogen (Fg), an essential plasma glycoprotein involved in the coagulation cascade, undergoes structural alterations upon exposure to various chemicals, impacting its functionality and contributing to pathological conditions. This research article explored the effects of 4-Chloro-o-phenylenediamine (4-Cl-o-PD), a common hair dye component (IUPAC = 1-Chloro-3,4-diaminobenzene), on human fibrinogen through comprehensive computational, biophysical, and biochemical approaches. The formation of a stable ligand-protein complex is confirmed through molecular docking and molecular dynamics simulations, revealing possible interaction having a favorable -4.8 kcal/mol binding energy. Biophysical results, including UV-vis and fluorescence spectroscopies, corroborated with the computational findings, whereas Fourier transform infrared spectroscopy (FT-IR) and circular dichroism spectroscopy (CD) provide insights into the alterations of secondary structures upon interaction with 4-Cl-o-PD. Anilinonaphthalene-sulfonic acid (ANS) fluorescence showed a partially unfolded protein, with enhanced alpha to beta-sheet transition as evidenced by thioflavin T (ThT) spectroscopy and microscopy. Moreover, biochemical assays confirmed the formation of carbonyl compounds that may be responsible for the oxidation of methionine residues in fibrinogen. Electrophoresis and electron microscopy confirmed the formation of aggregates. Our findings elucidate the interaction pattern of 4-Cl-o-PD with Fg, leading to structural perturbation, which may have potential implications for fibrinogen misfolding or its aggregation. Protein aggregation or its misfolded products affect peripheral tissues and the central nervous system. Many chronic progressive diseases, like type II diabetes mellitus, Alzheimer's disease, Parkison's disease, and Creutzfeldt-Jakob disease are associated with intrinsically aberrant disordered proteins. Understanding these interactions may offer new perspectives on the safety and biocompatibility of dye compounds, which may contribute to developing improved strategies for acquired amyloidogenesis.",
+    "keywords": [
+      "4-Chloro-o-phenylenediamine",
+      "Human fibrinogen",
+      "Oxidative stress",
+      "Protein aggregation",
+      "Protein unfolding"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Fibrinogen/chemistry/metabolism",
+      "*Phenylenediamines/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*Molecular Docking Simulation",
+      "Protein Binding",
+      "Spectroscopy, Fourier Transform Infrared",
+      "Circular Dichroism",
+      "Protein Aggregates/drug effects",
+      "Protein Structure, Secondary"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Yogendra",
+        "Ahmad, Rizwan",
+        "Raza, Ali",
+        "Warsi, Mohd Sharib",
+        "Mustafa, Mohd",
+        "Khan, Hamda",
+        "Hassan, Md Imtaiyaz",
+        "Khan, Ruhi",
+        "Moinuddin",
+        "Habib, Safia"
+      ],
+      "short_names": [
+        "Singh Y",
+        "Ahmad R",
+        "Raza A",
+        "Warsi MS",
+        "Mustafa M",
+        "Khan H",
+        "Hassan MI",
+        "Khan R",
+        "Moinuddin",
+        "Habib S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India.",
+        "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India.",
+        "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India.",
+        "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India.",
+        "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India.",
+        "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India.",
+        "Center for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar, New Delhi 110025, India.",
+        "Department of Medicine, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India.",
+        "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India.",
+        "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India. Electronic address: safia.bh@amu.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Yogendra",
+        "short_name": "Singh Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Rizwan",
+        "short_name": "Ahmad R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Raza, Ali",
+        "short_name": "Raza A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Warsi, Mohd Sharib",
+        "short_name": "Warsi MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Mustafa, Mohd",
+        "short_name": "Mustafa M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Khan, Hamda",
+        "short_name": "Khan H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Hassan, Md Imtaiyaz",
+        "short_name": "Hassan MI",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar, New Delhi 110025, India."
+        ]
+      },
+      {
+        "full_name": "Khan, Ruhi",
+        "short_name": "Khan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Moinuddin",
+        "short_name": "Moinuddin",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Habib, Safia",
+        "short_name": "Habib S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Jawaharlal Nehru Medical College, Faculty of Medicine, Aligarh Muslim University, Aligarh 202002, Uttar Pradesh, India. Electronic address: safia.bh@amu.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/24 00:42",
+    "fetched_at": "2026-09-21 10:40:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39313050",
+      "27150313",
+      "38637513",
+      "32653381",
+      "37989033",
+      "30625358",
+      "32772827",
+      "28315735",
+      "38442614",
+      "29221856",
+      "29481950",
+      "25625571",
+      "26057098",
+      "39116971",
+      "30629454",
+      "28684415",
+      "36244155",
+      "34740688",
+      "26123604",
+      "37154523",
+      "28242448",
+      "31931063",
+      "29133088",
+      "31783644",
+      "36972817",
+      "33461141",
+      "35032760",
+      "24485317",
+      "28364684",
+      "28176657",
+      "37369258",
+      "31244422",
+      "35278515",
+      "32947069",
+      "29475050",
+      "25633876",
+      "31128176",
+      "34097957",
+      "30785041",
+      "37728535",
+      "29178153",
+      "35098895",
+      "26100600",
+      "26471709",
+      "28137461",
+      "23342075",
+      "27586184",
+      "16798066",
+      "30755483",
+      "32101072",
+      "35868967",
+      "28504004",
+      "31695369",
+      "38159065",
+      "34973990",
+      "34830348",
+      "36834523",
+      "28934908",
+      "29301411",
+      "36990415",
+      "37935297",
+      "30243119",
+      "28601753",
+      "25389780",
+      "32279803",
+      "23991043",
+      "30583353",
+      "12537464",
+      "34333005",
+      "19289061",
+      "30774341",
+      "33603022",
+      "24473177",
+      "38596890",
+      "38431536",
+      "36709446",
+      "25173679",
+      "33965487",
+      "24790138",
+      "26111912",
+      "35192903",
+      "22415204",
+      "23912807",
+      "28793850",
+      "28371207",
+      "30717459",
+      "31364512",
+      "37883823",
+      "15457437",
+      "32061846",
+      "28049370",
+      "38963284",
+      "30341600",
+      "38761474",
+      "31351151",
+      "15764666",
+      "30498348",
+      "36546697",
+      "25757642",
+      "33780895"
+    ],
+    "review": [
+      "39313050",
+      "28176657"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)06634-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

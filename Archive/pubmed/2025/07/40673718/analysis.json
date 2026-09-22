@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40673718",
+  "title": "Phosphorylation-Regulated Conformational Diversity and Topological Dynamics of an Intrinsically Disordered Nuclear Receptor.",
+  "authors": "Akulov, Vasily; Jimenez Panizo, Alba; Estebanez-Perpina, Eva; van Noort, John; Mashaghi, Alireza",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-07-17",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合原子模拟与电路拓扑分析，揭示磷酸化如何调控无序核受体GR NTD的构象多样性与拓扑动力学，虽未直接研究PPI，但为无序蛋白构象机制建模提供了可迁移的分析框架，与课题高度相关。",
+  "abstract": "Site-specific phosphorylation of disordered proteins is often considered a marker of protein activity, yet it remains unclear how phosphorylation alters the conformational dynamics of disordered protein chains, such as those in the nuclear receptor superfamily. In the case of the disordered human glucocorticoid receptor N-terminal domain (GR NTD), a negatively charged region known as core activation function 1 (AF1c) features three phosphorylation sites, regulating its function and intracellular localization. Deletion of this sequence dramatically reduces the GR transcriptional activation ability in cell experiments. By developing a circuit topology-based fold analysis approach, combined with atomistic simulations, we reveal that site-specific phosphorylation facilitates the formation of nonlocal contacts, leading to the emergence of disordered compact topologies with significant entanglement, which are distinct from solvent-exposed topologies. While we observe that the topological buildup of solvent-exposed states is similar across different phosphovariants, it depends on the exact phosphorylation site for the disordered topologically compact states. This study thus reveals the complex regulatory role of the GR phosphorylation and introduces a unique analysis framework that can be broadly applied to studying the topological dynamics of disordered proteins.",
+  "abstract_zh": "无序蛋白的位点特异性磷酸化常被视为蛋白质活性的标志，然而，磷酸化如何改变无序蛋白链（如核受体超家族中的那些）的构象动态仍不清楚。以无序的人糖皮质激素受体N端结构域（GR NTD）为例，一个称为核心激活功能1（AF1c）的负电荷区域包含三个磷酸化位点，调控其功能和细胞内定位。删除该序列在细胞实验中显著降低GR的转录激活能力。通过开发基于电路拓扑的折叠分析方法，并结合原子模拟，我们揭示位点特异性磷酸化促进非局部接触的形成，导致具有显著缠结的无序紧凑拓扑结构的出现，这些结构不同于溶剂暴露的拓扑结构。虽然我们观察到溶剂暴露状态的拓扑构建在不同磷酸化变体间相似，但对于无序拓扑紧凑状态，其依赖于确切的磷酸化位点。因此，本研究揭示了GR磷酸化的复杂调控作用，并引入了一种独特的分析框架，可广泛用于研究无序蛋白的拓扑动态。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40673718/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40673718/",
+  "paper_page_path": "papers/pubmed/40673718/index.html"
+}

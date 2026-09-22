@@ -1,0 +1,664 @@
+{
+  "identity": {
+    "pmid": "41394589",
+    "doi": "10.1101/2025.11.20.689494",
+    "title": "BoltzGen: Toward Universal Binder Design."
+  },
+  "content": {
+    "abstract": "We introduce BoltzGen, an all-atom generative model for designing proteins and peptides across all modalities to bind a wide range of biomolecular targets. BoltzGen builds strong structural reasoning capabilities about target-binder interactions into its generative design process. This is achieved by unifying design and structure prediction, resulting in a single model that also reaches state-of-the-art folding performance. BoltzGen's generation process can be controlled with a flexible design specification language over covalent bonds, structure constraints, binding sites, and more. We experimentally validate these capabilities in a total of eight diverse wetlab design campaigns with functional and affinity readouts across 26 targets. The experiments span binder modalities from nanobodies to disulfide-bonded peptides and include targets ranging from disordered proteins to small molecules. For instance, we test 15 nanobody and protein binder designs against each of nine novel targets with low similarity to any protein with a known bound structure. For both binder modalities, this yields nanomolar binders for 66% of targets. We release model weights, data, and both inference and training code at: https://github.com/HannesStark/boltzgen.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Stark, Hannes",
+        "Faltings, Felix",
+        "Choi, MinGyu",
+        "Xie, Yuxin",
+        "Hur, Eunsu",
+        "O'Donnell, Timothy",
+        "Bushuiev, Anton",
+        "Ucar, Talip",
+        "Passaro, Saro",
+        "Mao, Weian",
+        "Reveiz, Mateo",
+        "Bushuiev, Roman",
+        "Pluskal, Tomas",
+        "Sivic, Josef",
+        "Kreis, Karsten",
+        "Vahdat, Arash",
+        "Ray, Shamayeeta",
+        "Goldstein, Jonathan T",
+        "Savinov, Andrew",
+        "Hambalek, Jacob A",
+        "Gupta, Anshika",
+        "Taquiri-Diaz, Diego A",
+        "Zhang, Yaotian",
+        "Hatstat, A Katherine",
+        "Arada, Angelika",
+        "Kim, Nam Hyeong",
+        "Tackie-Yarboi, Ethel",
+        "Boselli, Dylan",
+        "Schnaider, Lee",
+        "Liu, Chang C",
+        "Li, Gene-Wei",
+        "Hnisz, Denes",
+        "Sabatini, David M",
+        "DeGrado, William F",
+        "Wohlwend, Jeremy",
+        "Corso, Gabriele",
+        "Barzilay, Regina",
+        "Jaakkola, Tommi"
+      ],
+      "short_names": [
+        "Stark H",
+        "Faltings F",
+        "Choi M",
+        "Xie Y",
+        "Hur E",
+        "O'Donnell T",
+        "Bushuiev A",
+        "Ucar T",
+        "Passaro S",
+        "Mao W",
+        "Reveiz M",
+        "Bushuiev R",
+        "Pluskal T",
+        "Sivic J",
+        "Kreis K",
+        "Vahdat A",
+        "Ray S",
+        "Goldstein JT",
+        "Savinov A",
+        "Hambalek JA",
+        "Gupta A",
+        "Taquiri-Diaz DA",
+        "Zhang Y",
+        "Hatstat AK",
+        "Arada A",
+        "Kim NH",
+        "Tackie-Yarboi E",
+        "Boselli D",
+        "Schnaider L",
+        "Liu CC",
+        "Li GW",
+        "Hnisz D",
+        "Sabatini DM",
+        "DeGrado WF",
+        "Wohlwend J",
+        "Corso G",
+        "Barzilay R",
+        "Jaakkola T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "MIT.",
+        "MIT.",
+        "MIT.",
+        "MIT.",
+        "MIT.",
+        "Open Athena.",
+        "CTU Prague.",
+        "Boltz.",
+        "Boltz.",
+        "MIT.",
+        "MIT.",
+        "CTU Prague.",
+        "IOCB Prague.",
+        "IOCB Prague.",
+        "CTU Prague.",
+        "NVIDIA.",
+        "NVIDIA.",
+        "IOCB Boston.",
+        "IOCB Boston.",
+        "MIT.",
+        "UC Irvine.",
+        "UC Irvine.",
+        "UC Irvine.",
+        "MPI.",
+        "UCSF.",
+        "UCSF.",
+        "UCSF.",
+        "UCSF.",
+        "UCSF.",
+        "UCSF.",
+        "UC Irvine.",
+        "MIT.",
+        "HHMI.",
+        "MPI.",
+        "IOCB Prague.",
+        "IOCB Boston.",
+        "UCSF.",
+        "Boltz.",
+        "Boltz.",
+        "MIT.",
+        "Jameel Clinic.",
+        "MIT."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Stark, Hannes",
+        "short_name": "Stark H",
+        "identifiers": [],
+        "affiliations": [
+          "MIT."
+        ]
+      },
+      {
+        "full_name": "Faltings, Felix",
+        "short_name": "Faltings F",
+        "identifiers": [],
+        "affiliations": [
+          "MIT."
+        ]
+      },
+      {
+        "full_name": "Choi, MinGyu",
+        "short_name": "Choi M",
+        "identifiers": [],
+        "affiliations": [
+          "MIT."
+        ]
+      },
+      {
+        "full_name": "Xie, Yuxin",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "MIT."
+        ]
+      },
+      {
+        "full_name": "Hur, Eunsu",
+        "short_name": "Hur E",
+        "identifiers": [],
+        "affiliations": [
+          "MIT."
+        ]
+      },
+      {
+        "full_name": "O'Donnell, Timothy",
+        "short_name": "O'Donnell T",
+        "identifiers": [],
+        "affiliations": [
+          "Open Athena."
+        ]
+      },
+      {
+        "full_name": "Bushuiev, Anton",
+        "short_name": "Bushuiev A",
+        "identifiers": [],
+        "affiliations": [
+          "CTU Prague."
+        ]
+      },
+      {
+        "full_name": "Uçar, Talip",
+        "short_name": "Uçar T",
+        "identifiers": [],
+        "affiliations": [
+          "Boltz."
+        ]
+      },
+      {
+        "full_name": "Passaro, Saro",
+        "short_name": "Passaro S",
+        "identifiers": [],
+        "affiliations": [
+          "Boltz."
+        ]
+      },
+      {
+        "full_name": "Mao, Weian",
+        "short_name": "Mao W",
+        "identifiers": [],
+        "affiliations": [
+          "MIT."
+        ]
+      },
+      {
+        "full_name": "Reveiz, Mateo",
+        "short_name": "Reveiz M",
+        "identifiers": [],
+        "affiliations": [
+          "MIT."
+        ]
+      },
+      {
+        "full_name": "Bushuiev, Roman",
+        "short_name": "Bushuiev R",
+        "identifiers": [],
+        "affiliations": [
+          "CTU Prague.",
+          "IOCB Prague."
+        ]
+      },
+      {
+        "full_name": "Pluskal, Tomáš",
+        "short_name": "Pluskal T",
+        "identifiers": [],
+        "affiliations": [
+          "IOCB Prague."
+        ]
+      },
+      {
+        "full_name": "Sivic, Josef",
+        "short_name": "Sivic J",
+        "identifiers": [],
+        "affiliations": [
+          "CTU Prague."
+        ]
+      },
+      {
+        "full_name": "Kreis, Karsten",
+        "short_name": "Kreis K",
+        "identifiers": [],
+        "affiliations": [
+          "NVIDIA."
+        ]
+      },
+      {
+        "full_name": "Vahdat, Arash",
+        "short_name": "Vahdat A",
+        "identifiers": [],
+        "affiliations": [
+          "NVIDIA."
+        ]
+      },
+      {
+        "full_name": "Ray, Shamayeeta",
+        "short_name": "Ray S",
+        "identifiers": [],
+        "affiliations": [
+          "IOCB Boston."
+        ]
+      },
+      {
+        "full_name": "Goldstein, Jonathan T",
+        "short_name": "Goldstein JT",
+        "identifiers": [],
+        "affiliations": [
+          "IOCB Boston."
+        ]
+      },
+      {
+        "full_name": "Savinov, Andrew",
+        "short_name": "Savinov A",
+        "identifiers": [],
+        "affiliations": [
+          "MIT."
+        ]
+      },
+      {
+        "full_name": "Hambalek, Jacob A",
+        "short_name": "Hambalek JA",
+        "identifiers": [],
+        "affiliations": [
+          "UC Irvine."
+        ]
+      },
+      {
+        "full_name": "Gupta, Anshika",
+        "short_name": "Gupta A",
+        "identifiers": [],
+        "affiliations": [
+          "UC Irvine."
+        ]
+      },
+      {
+        "full_name": "Taquiri-Diaz, Diego A",
+        "short_name": "Taquiri-Diaz DA",
+        "identifiers": [],
+        "affiliations": [
+          "UC Irvine."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yaotian",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "MPI."
+        ]
+      },
+      {
+        "full_name": "Hatstat, A Katherine",
+        "short_name": "Hatstat AK",
+        "identifiers": [],
+        "affiliations": [
+          "UCSF."
+        ]
+      },
+      {
+        "full_name": "Arada, Angelika",
+        "short_name": "Arada A",
+        "identifiers": [],
+        "affiliations": [
+          "UCSF."
+        ]
+      },
+      {
+        "full_name": "Kim, Nam Hyeong",
+        "short_name": "Kim NH",
+        "identifiers": [],
+        "affiliations": [
+          "UCSF."
+        ]
+      },
+      {
+        "full_name": "Tackie-Yarboi, Ethel",
+        "short_name": "Tackie-Yarboi E",
+        "identifiers": [],
+        "affiliations": [
+          "UCSF."
+        ]
+      },
+      {
+        "full_name": "Boselli, Dylan",
+        "short_name": "Boselli D",
+        "identifiers": [],
+        "affiliations": [
+          "UCSF."
+        ]
+      },
+      {
+        "full_name": "Schnaider, Lee",
+        "short_name": "Schnaider L",
+        "identifiers": [],
+        "affiliations": [
+          "UCSF."
+        ]
+      },
+      {
+        "full_name": "Liu, Chang C",
+        "short_name": "Liu CC",
+        "identifiers": [],
+        "affiliations": [
+          "UC Irvine."
+        ]
+      },
+      {
+        "full_name": "Li, Gene-Wei",
+        "short_name": "Li GW",
+        "identifiers": [],
+        "affiliations": [
+          "MIT.",
+          "HHMI."
+        ]
+      },
+      {
+        "full_name": "Hnisz, Denes",
+        "short_name": "Hnisz D",
+        "identifiers": [],
+        "affiliations": [
+          "MPI."
+        ]
+      },
+      {
+        "full_name": "Sabatini, David M",
+        "short_name": "Sabatini DM",
+        "identifiers": [],
+        "affiliations": [
+          "IOCB Prague.",
+          "IOCB Boston."
+        ]
+      },
+      {
+        "full_name": "DeGrado, William F",
+        "short_name": "DeGrado WF",
+        "identifiers": [],
+        "affiliations": [
+          "UCSF."
+        ]
+      },
+      {
+        "full_name": "Wohlwend, Jeremy",
+        "short_name": "Wohlwend J",
+        "identifiers": [],
+        "affiliations": [
+          "Boltz."
+        ]
+      },
+      {
+        "full_name": "Corso, Gabriele",
+        "short_name": "Corso G",
+        "identifiers": [],
+        "affiliations": [
+          "Boltz."
+        ]
+      },
+      {
+        "full_name": "Barzilay, Regina",
+        "short_name": "Barzilay R",
+        "identifiers": [],
+        "affiliations": [
+          "MIT.",
+          "Jameel Clinic."
+        ]
+      },
+      {
+        "full_name": "Jaakkola, Tommi",
+        "short_name": "Jaakkola T",
+        "identifiers": [],
+        "affiliations": [
+          "MIT."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Nov 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/15 13:09",
+    "fetched_at": "2026-09-17 23:05:16"
+  },
+  "links": {
+    "cites": [
+      "42218545",
+      "42137795",
+      "42123499",
+      "42050188",
+      "41794814",
+      "41748720"
+    ],
+    "refs": [
+      "40155723",
+      "39384986",
+      "39197447",
+      "38898281",
+      "38781598",
+      "38574125",
+      "38452047",
+      "38385084",
+      "38334797",
+      "37968394",
+      "37533128",
+      "37340443",
+      "36808719",
+      "36131294",
+      "36108050",
+      "36108048",
+      "35332283",
+      "34853475",
+      "34543656",
+      "34075693",
+      "33468235",
+      "33431044",
+      "33371447",
+      "32898476",
+      "32649804",
+      "32377723",
+      "31686399",
+      "31439943",
+      "31301408",
+      "31189914",
+      "30744146",
+      "29710509",
+      "29056322",
+      "28824615",
+      "26853939",
+      "26082327",
+      "21601648",
+      "21040557",
+      "18604198",
+      "15930158",
+      "11524133",
+      "11259830",
+      "11159447",
+      "10493799",
+      "9257752",
+      "9017204",
+      "8702613",
+      "7055625",
+      "3779000",
+      "2187536"
+    ],
+    "similar": [
+      "41394589",
+      "38515052",
+      "39266056",
+      "37873004",
+      "41562285",
+      "39091799",
+      "34415295",
+      "40667369",
+      "40832246",
+      "41409142",
+      "41040335",
+      "39605685",
+      "41333172",
+      "40804173",
+      "40897171",
+      "28981258",
+      "38000614",
+      "37674239",
+      "41251237",
+      "40674483",
+      "41310253",
+      "41030196",
+      "41332746",
+      "21461620",
+      "40691301",
+      "41088767",
+      "41570088",
+      "41519838",
+      "16832638",
+      "34535642",
+      "37636935",
+      "39677777",
+      "41723205",
+      "37343087",
+      "40739343",
+      "40799906",
+      "39071267",
+      "40524237",
+      "40306261",
+      "39803556",
+      "32195587",
+      "37433327",
+      "40915908",
+      "33629771",
+      "38582966",
+      "38109936",
+      "36542066",
+      "40542165",
+      "35332283",
+      "37749655",
+      "37880344",
+      "41509378",
+      "41256494",
+      "38940178",
+      "37557054",
+      "38867692",
+      "41391770",
+      "40027759",
+      "35020807",
+      "33724022",
+      "40671257",
+      "41346856",
+      "39506806",
+      "24005320",
+      "40739522",
+      "29214605",
+      "41270120",
+      "40083048",
+      "41607705",
+      "36193121",
+      "40560205",
+      "33738081",
+      "34881010",
+      "16806474",
+      "39962390",
+      "40662794",
+      "41096532",
+      "40944422",
+      "28719188",
+      "38174256",
+      "41377499",
+      "41676719",
+      "40866699",
+      "23912807",
+      "39841846",
+      "41648218",
+      "23121732",
+      "41253282",
+      "40964305",
+      "36971561",
+      "31693340",
+      "34423306",
+      "41236386",
+      "40011465",
+      "40155723",
+      "16214873",
+      "36453831",
+      "40678486",
+      "41707467",
+      "24729132"
+    ],
+    "review": [
+      "41394589",
+      "40897171",
+      "21461620",
+      "29214605"
+    ],
+    "pmc": [
+      "12697729"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41394589/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.11.20.689494",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

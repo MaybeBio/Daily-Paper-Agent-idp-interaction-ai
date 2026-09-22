@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations and previously published experimental data to examine the temperature-dependent behavior of histatin 5, a 24-residue disordered polypeptide. They test the hypothesis that increasing temperature leads to a loss of polyproline II (PPII) structure and more compact conformations. Simulated ensembles agree with small-angle X-ray scattering (SAXS) data but show discrepancies with pulsed-field gradient NMR (hydrodynamic radius) and circular dichroism (secondary structure). Reweighting against scattering and NMR data partially captures the temperature-dependent behavior and links decreased hydrodynamic radius to loss of PPII structure, but agreement with both data types within experimental errors is not achieved. Possible reasons discussed include force field inaccuracies, differences in experimental conditions, and issues in hydrodynamic radius calculation.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, reweighting methodology, or experimental data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, reweighting procedure details, experimental data sets, error estimates, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a scientifically meaningful and timely investigation of temperature-dependent conformational behavior in a disordered protein, integrating multiple experimental probes with simulation. The central hypothesis, that loss of PPII structure drives compaction with increasing temperature, is plausible and well motivated. However, the abstract alone provides insufficient quantitative detail to evaluate the strength of the evidence. The reported inability to reconcile all experimental data within errors is honest but leaves the central claim only partially supported. The work is likely of interest to the disordered protein and computational biophysics communities, but the case for a robust mechanistic conclusion is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, conformational ensembles, temperature-dependent biophysics, and the integration of simulation with multiple experimental techniques. The work is also relevant to those developing and benchmarking force fields for disordered systems and to methodologists interested in ensemble reweighting approaches.
+- **Major strengths** The study addresses a specific, testable hypothesis about temperature-dependent conformational changes in a disordered protein. The use of multiple complementary experimental probes (SAXS, NMR, CD) is appropriate and strengthens the integrative approach. The authors openly acknowledge discrepancies and limitations, which is scientifically honest. The reweighting strategy is a modern and relevant methodological choice.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that reweighting the conformational ensembles against scattering and NMR data allows them to "in part capture the temperature-dependent behavior" and "link the observed decrease in hydrodynamic radius with increasing temperature to a loss of PPII structure."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide quantitative measures of agreement or discrepancy between simulations and experiments, nor does it report the magnitude of the reweighting effect, the uncertainty in the reweighted ensembles, or the statistical significance of the observed trends. The claim that the decrease in hydrodynamic radius is linked to loss of PPII structure is presented without supporting numbers, such as correlation coefficients, changes in radius values, or PPII population shifts.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the observed effects are robust, reproducible, or within experimental uncertainty. The central mechanistic claim depends on demonstrating a clear and statistically meaningful relationship between temperature, PPII content, and compaction.
+  - **Resolution test** Provide quantitative values for hydrodynamic radius and PPII fraction as functions of temperature, with uncertainties, for both raw and reweighted ensembles. Show that the reweighted ensembles reproduce the experimental trends within stated errors and that the correlation between PPII loss and compaction is statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors state that the conformational ensembles "generally agree with small-angle X-ray scattering data" but "show some discrepancies" with NMR and CD data.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the nature, magnitude, or temperature dependence of these discrepancies. It is unclear whether the discrepancies are systematic, whether they vary with temperature, or whether they are within or outside experimental error. The phrase "generally agree" is vague and does not convey the quality of the fit.
+  - **Why it matters** The credibility of the simulation model and the reweighting approach depends on a clear characterization of where and why the model fails. Without this, the reader cannot judge whether the discrepancies are minor and correctable or fundamental and indicative of force field or methodological problems.
+  - **Resolution test** Report quantitative goodness-of-fit metrics (e.g., chi-squared, reduced chi-squared) for SAXS, NMR, and CD data as functions of temperature, and specify which data points or regions drive the discrepancies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that they "attempted to reconcile these differences by reweighting the conformational ensembles against the scattering and NMR data."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The reweighting methodology is not described. The abstract does not state which reweighting scheme was used, how the weights were optimized, whether cross-validation was performed, or how overfitting was avoided. The choice of reweighting approach can strongly influence the resulting ensembles and the conclusions drawn.
+  - **Why it matters** Reweighting methods can introduce biases or overfit to noisy data. Without methodological details, the reliability of the reweighted ensembles and the derived mechanistic conclusions cannot be assessed.
+  - **Resolution test** Describe the reweighting algorithm, the objective function, the regularization or prior used, and any validation steps. Show that the reweighted ensembles are stable and that the conclusions are robust to methodological choices.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence defines intrinsically disordered proteins in a general way that is well known to the target audience. This is not a flaw but could be shortened to focus more on the specific question.
+  - **Required correction** Consider condensing the introductory sentence to allow more space for quantitative results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The final statement about the importance of integrating multiple types of experimental data is general and not specific to the findings of this study.
+  - **Required correction** Tie the concluding statement more directly to the specific results and limitations identified in this work.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "loss of PPII structure"
+  - **Evidence pointer** Abstract, hypothesis statement
+  - **Issue** The term "loss of PPII structure" is used without defining what structural metric is being referenced (e.g., backbone dihedral angles, fraction of residues in PPII conformation).
+  - **Required correction** Specify the metric used to quantify PPII content in the full manuscript and, if space permits, in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic claim and the quality of agreement with experimental data are not quantitatively supported in the supplied material. R1-M3 is important but not blocking if the full manuscript provides adequate methodological detail.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The hypothesis and integrative approach are not entirely novel but are applied to a specific system with a clear mechanistic question. The work is a solid contribution but does not present a fundamentally new concept or method.
+  - **Scientific importance** The temperature-dependent behavior of disordered proteins is an important and understudied area. The findings, if robust, would contribute to understanding how environmental factors modulate disordered protein conformations.
+  - **Interdisciplinary readership** The work bridges biophysics, computational chemistry, and experimental structural biology. It would appeal to a specialized but not broad interdisciplinary audience.
+  - **Technical soundness** Cannot be fully assessed from the abstract. The reported inability to reconcile all data is a sign of rigor, but the lack of quantitative detail prevents a full evaluation.
+  - **Readability for nonspecialists** The abstract is clear and accessible, with appropriate context and terminology. It is readable for a broad scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting study, but the lack of quantitative results and methodological detail prevents a full assessment of the central claims. If the full manuscript provides the missing quantitative evidence and methodological transparency, the work could be considered supportive.
+
+## Risk / unsupported claims
+- The claim that reweighting links decreased hydrodynamic radius to loss of PPII structure is unsupported without quantitative correlation or trend data.
+- The claim that simulated ensembles "generally agree" with SAXS data is unsupported without goodness-of-fit metrics.
+- The claim that discrepancies with NMR and CD data are "some" is unsupported without specification of their nature or magnitude.
+- The discussion of possible reasons for discrepancies (force field inaccuracies, condition differences, hydrodynamic radius calculation issues) is plausible but not evaluable from the abstract.

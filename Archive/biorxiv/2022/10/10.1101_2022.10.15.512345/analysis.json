@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.10.15.512345",
+  "title": "Fast and Accurate Prediction of Intrinsically Disordered Protein by Protein Language Model",
+  "authors": "Shijie Xu; Akira Onoda",
+  "journal": "bioRxiv",
+  "published_date": "2022-10-18",
+  "window": {
+    "start": "2022-10-17",
+    "end": "2022-10-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用蛋白语言模型(IDP-PLM)从序列直接预测无序蛋白，不依赖MSA，虽聚焦IDP预测但未涉及PPI互作机制建模，方法可迁移但互作轴缺失。",
+  "abstract": "Motivation Intrinsically disordered proteins (IDPs) play a vital role in various biological processes and have attracted increasing attention in the last decades. Predicting IDPs from primary structures of proteins provides a very useful tool for protein analysis. However, most of the existing prediction methods heavily rely on multiple sequence alignments (MSAs) of homologous sequences which are formed by evolution over billions of years. Obtaining such information requires searching against the whole protein databases to find similar sequences and since this process becomes increasingly time-consuming, especially in large-scale practical applications, the alternative method is needed. Results In this paper, we proposed a novel IDP prediction method named IDP-PLM, based on the protein language model (PLM). The method does not rely on MSAs or MSA-based profiles but leverages only the protein sequences, thereby achieving state-of-the-art performance even compared with predictors using protein profiles. The proposed IDP-PLM is composed of stacked predictors designed for several different protein-related tasks: secondary structure prediction, linker prediction, and binding predictions. In addition, predictors for the single task also achieved the highest accuracy. All these are based on PLMs thus making IDP-PLM not rely on MSA-based profiles. The ablation study reveals that all these stacked predictors contribute positively to the IDP prediction performance of IDP-PLM. Availability The method is available at http://github.com/xu-shi-jie . Contact akira.onoda@ees.hokudai.ac.jp Supplementary information Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机  intrinsically disordered proteins (IDPs) 在多种生物过程中扮演着重要角色，并在过去几十年中引起了越来越多的关注。从蛋白质的一级结构预测IDPs为蛋白质分析提供了一个非常有用的工具。然而，大多数现有的预测方法严重依赖于同源序列的多序列比对 (MSAs)，这些序列是经过数十亿年进化形成的。获取此类信息需要搜索整个蛋白质数据库以寻找相似序列，而这一过程变得越来越耗时，尤其是在大规模实际应用中，因此需要替代方法。结果 在本文中，我们提出了一种基于蛋白质语言模型 (PLM) 的新型IDP预测方法，命名为IDP-PLM。该方法不依赖于MSAs或基于MSA的谱图，而仅利用蛋白质序列，从而即使与使用蛋白质谱图的预测器相比也达到了最先进的性能。所提出的IDP-PLM由为几种不同蛋白质相关任务设计的堆叠预测器组成：二级结构预测、连接子预测和结合预测。此外，针对单一任务的预测器也达到了最高准确率。所有这些都基于PLMs，因此使IDP-PLM不依赖于基于MSA的谱图。消融研究表明，所有这些堆叠预测器对IDP-PLM的IDP预测性能均有积极贡献。可用性 该方法可在 http://github.com/xu-shi-jie 获取。联系方式 akira.onoda@ees.hokudai.ac.jp 补充信息 补充数据可在Bioinformatics在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.10.15.512345",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.10.15.512345",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.10.15.512345/index.html"
+}

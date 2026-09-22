@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that ligand binding to intrinsically disordered proteins (IDPs) can be described as a dynamic process of transitions between residue-defined microstates, and that the resulting binding pathways are largely encoded by the peptide sequence rather than by ligand identity. They support this with all-atom MD simulations of Aβ42 and the C-terminal region of α-synuclein, Markov state models, enrichment-factor and AUC analyses, ensemble docking, and a prospective screening pipeline nominating 19 candidates.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, simulation parameters, or statistical analyses are visible.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, MSM construction details, docking parameters, ligand library composition, and the prospective screening pipeline details are not available. Statistical methods for enrichment and AUC calculations are not described.
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant framework for understanding small molecule binding to IDPs, with a clear conceptual advance in treating binding as pathway-based rather than pocket-based. However, the evidence base visible in the abstract is insufficient to evaluate the robustness of the central claims. The quantitative results cited (enrichment factors of 15-45, AUC ≥0.75) are promising but cannot be assessed without methodological detail. The prospective screening component adds translational value but its validity depends entirely on the underlying hotspot identification, which is not verifiable from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, molecular recognition, drug discovery for neurodegenerative diseases (particularly Alzheimer's and Parkinson's), and computational biophysics. The work is also relevant to those developing Markov state model applications for protein-ligand interactions and to method developers in ensemble-based virtual screening.
+- **Major strengths** The conceptual framing of ligand binding to IDPs as pathway-based rather than pocket-based is a genuine advance. The use of two different IDP systems (Aβ42 and α-synuclein C-terminal region) with chemically diverse ligands strengthens the generality of the claims. The inclusion of a urea control as a non-specific binder is a thoughtful experimental design element. The prospective screening component demonstrates a clear translational ambition.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Pairwise enrichment-factor and AUC analyses reveal strong conservation of the highest-ranked pathways across chemically diverse ligands, with enrichment factors of 15-45 for the top-ranked states and AUC values typically ≥0.75, well above random expectation."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports enrichment factors and AUC values without any description of how these metrics were computed, what constitutes the "random expectation" baseline, how many ligands were tested, or what statistical uncertainty accompanies these values. The range of enrichment factors (15-45) is very wide, and "typically ≥0.75" for AUC is vague.
+  - **Why it matters** These quantitative metrics are the primary evidence for the central claim that binding pathways are conserved across ligands. Without knowing the statistical framework, the number of comparisons, the multiple-testing correction (if any), and the variance across ligands, the reader cannot assess whether these values represent a robust signal or could arise from a small number of favorable cases.
+  - **Resolution test** Provide the full statistical analysis including the number of ligands, the distribution of enrichment factors and AUC values, confidence intervals, and a clear description of the null model used for comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "These dominant pathways are also preserved across changes in pH and temperature, whereas a urea control, included as a non-specific binder, shows reduced enrichment, indicating that ligands primarily modulate pathway weights rather than define the underlying network topology."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim that pathways are preserved across pH and temperature changes is stated without any quantitative support. The urea control is described as showing "reduced enrichment" but no values are given. The interpretation that ligands "modulate pathway weights rather than define the underlying network topology" is a strong mechanistic conclusion that requires demonstration that the network topology itself is invariant.
+  - **Why it matters** This claim distinguishes the authors' framework from alternative models where ligand binding could reshape the conformational ensemble. If the pathway topology changes with environmental conditions, the claim of sequence-encoded pathways would be weakened. The current evidence is insufficient to distinguish between weight modulation and topology changes.
+  - **Resolution test** Provide quantitative comparison of pathway networks across conditions (e.g., overlap coefficients, network similarity metrics) and show that the urea control differs significantly from specific ligands in a statistically robust manner.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Ensemble docking across chemically diverse libraries further supports the presence of recurrent ligand-accessible hotspots within the peptide conformational ensemble."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The ensemble docking results are described in a single sentence with no quantitative details. It is unclear how many conformations were used, how the docking was performed, what scoring function was applied, and how "recurrent hotspots" were defined and identified.
+  - **Why it matters** This is presented as independent supporting evidence for the pathway framework. Without details, the reader cannot assess whether the docking results are statistically meaningful or could reflect artifacts of the docking protocol.
+  - **Resolution test** Provide the ensemble docking methodology, the number of conformations and ligands, the criteria for hotspot identification, and a statistical comparison against a decoy or control set.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We apply a prospective screening pipeline to Aβ42, combining MSM-derived hotspots with sequence-based Ligand-Transformer scoring and Gnina docking across 1.66 million compounds, to nominate 19 candidates for prospective experimental evaluation."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The prospective screening pipeline is described at a high level, but no details are given about the Ligand-Transformer model (training data, architecture, performance metrics), the Gnina docking parameters, the criteria for selecting the 19 candidates, or any validation of the pipeline against known binders.
+  - **Why it matters** The prospective screening is a key translational component of the work. Without evidence that the pipeline can identify known binders or that the 19 candidates are enriched for plausible binders, the screening results cannot be evaluated.
+  - **Resolution test** Provide validation of the screening pipeline against known Aβ42 binders, describe the selection criteria for the 19 candidates, and include any preliminary experimental validation if available.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence contrasts ligand binding to IDPs with "conventional binding pockets" but does not briefly explain what a conventional binding pocket is, which may limit accessibility for readers outside structural biology.
+  - **Required correction** Add a brief parenthetical clarification of what constitutes a conventional binding pocket.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The concluding claim that "disordered protein sequences give rise to conformational ensembles that exhibit characteristic binding pathways" is presented as a general principle, but the evidence is based on only two IDP systems. The generality of the claim is not yet established.
+  - **Required correction** Soften the concluding claim to reflect the two-system evidence base, or explicitly state that the generality across IDPs remains to be tested.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, "enrichment factors of 15-45"
+  - **Issue** The enrichment factor range is very wide, and it is unclear whether this reflects variability across ligands, across pathway ranks, or across the two peptide systems.
+  - **Required correction** Specify what the range represents and provide a measure of central tendency and dispersion.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical basis for enrichment and AUC claims), R1-M2 (quantitative support for pathway preservation across conditions), R1-M3 (ensemble docking methodology and statistical significance), R1-M4 (screening pipeline validation).
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The pathway-based representation of IDP-ligand binding is a novel conceptual contribution that departs from conventional pocket-centric views.
+  - Scientific importance: Potentially high, given the relevance to neurodegenerative disease drug discovery and the fundamental understanding of IDP molecular recognition. However, the importance is contingent on the robustness of the pathway conservation claims.
+  - Interdisciplinary readership: The work bridges biophysics, computational chemistry, and drug discovery, and should appeal to a broad readership if the methods are made accessible.
+  - Technical soundness: Not assessable from the abstract alone. The quantitative claims require full methodological transparency and statistical rigor.
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terminology (e.g., "Markov state models," "enrichment-factor") without brief definitions, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the work addresses an important problem, but the abstract alone does not provide sufficient methodological detail to assess the validity of the central claims. A full review of the manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that binding pathways are "strongly conserved" across chemically diverse ligands is unsupported without the full statistical analysis.
+- The claim that ligands "primarily modulate pathway weights rather than define the underlying network topology" is unsupported without quantitative network comparison across conditions.
+- The claim that ensemble docking "further supports" the presence of recurrent hotspots is unsupported without docking methodology and statistical details.
+- The prospective screening pipeline's validity is unassessable without validation data or selection criteria for the 19 candidates.
+- The general conclusion that "disordered protein sequences give rise to conformational ensembles that exhibit characteristic binding pathways" is a broad generalization from two systems and is not yet established.

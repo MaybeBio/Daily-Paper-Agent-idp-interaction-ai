@@ -1,0 +1,231 @@
+{
+  "identity": {
+    "pmid": "35931183",
+    "doi": "10.1016/j.ab.2022.114828",
+    "title": "Review: Investigating the aggregation of amyloid beta with surface plasmon resonance: Do different approaches yield different results?"
+  },
+  "content": {
+    "abstract": "Aggregation of amyloid beta into amyloid plaques in the brain is a hallmark characteristic of Alzheimer's disease. Therapeutics aimed at preventing or retarding amyloid formation often rely on detailed characterization of the underlying mechanism and kinetics of protein aggregation. Surface plasmon resonance (SPR) spectroscopy is a robust technique used to determine binding affinity and kinetics of biomolecular interactions. This approach has been used to characterize the mechanism of aggregation of amyloid beta but there are multiple pitfalls that need to be addressed when working with this and other amyloidogenic proteins. The choice of method for analyte preparation and ligand immobilization to a sensor chip can lead to different theoretical and practical implications in terms of the mathematical modelling of binding data, different mechanisms of binding and the presence of different interacting species. This review examines preparation methods for SPR characterisation of the aggregation of amyloid beta and their influence on the findings derived from such studies.",
+    "keywords": [
+      "Aggregation",
+      "Amyloid-beta",
+      "Amyloidogenic",
+      "Intrinsically disordered protein",
+      "Neurodegenerative disease",
+      "Surface plasmon resonance"
+    ],
+    "mesh_terms": [
+      "*Alzheimer Disease/metabolism",
+      "Amyloid",
+      "*Amyloid beta-Peptides/chemistry",
+      "Amyloidogenic Proteins",
+      "Humans",
+      "Protein Aggregates",
+      "Surface Plasmon Resonance/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Young, Kimberly A",
+        "Mancera, Ricardo L"
+      ],
+      "short_names": [
+        "Young KA",
+        "Mancera RL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Curtin Medical School, Curtin Health Innovation Research Institute, Curtin University, GPO Box U1987, Perth, WA, 6845, Australia.",
+        "Curtin Medical School, Curtin Health Innovation Research Institute, Curtin University, GPO Box U1987, Perth, WA, 6845, Australia. Electronic address: R.Mancera@curtin.edu.au."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Young, Kimberly A",
+        "short_name": "Young KA",
+        "identifiers": [],
+        "affiliations": [
+          "Curtin Medical School, Curtin Health Innovation Research Institute, Curtin University, GPO Box U1987, Perth, WA, 6845, Australia."
+        ]
+      },
+      {
+        "full_name": "Mancera, Ricardo L",
+        "short_name": "Mancera RL",
+        "identifiers": [],
+        "affiliations": [
+          "Curtin Medical School, Curtin Health Innovation Research Institute, Curtin University, GPO Box U1987, Perth, WA, 6845, Australia. Electronic address: R.Mancera@curtin.edu.au."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Analytical biochemistry"
+    ],
+    "journal_abbrev": [
+      "Anal Biochem"
+    ],
+    "pub_date": "2022 Oct 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/06 06:00",
+    "fetched_at": "2026-09-20 12:22:47"
+  },
+  "links": {
+    "cites": [
+      "42624989",
+      "40076562",
+      "37530227"
+    ],
+    "refs": [],
+    "similar": [
+      "35931183",
+      "26558762",
+      "15639795",
+      "39684731",
+      "28751216",
+      "21112205",
+      "18303863",
+      "23109885",
+      "23665295",
+      "23352599",
+      "18198421",
+      "15505366",
+      "23276205",
+      "38888453",
+      "22631441",
+      "26613550",
+      "24475785",
+      "35152697",
+      "25982728",
+      "19775170",
+      "30809773",
+      "22163834",
+      "38271485",
+      "21769359",
+      "29364151",
+      "25469473",
+      "25712142",
+      "24440525",
+      "33984664",
+      "24594736",
+      "28667619",
+      "22736768",
+      "34110774",
+      "35167081",
+      "33909969",
+      "20217625",
+      "33419257",
+      "31967782",
+      "29508987",
+      "24519982",
+      "37246935",
+      "41202479",
+      "25820741",
+      "40617079",
+      "32155822",
+      "21575663",
+      "16485107",
+      "31194956",
+      "31829176",
+      "39393664",
+      "25557164",
+      "35466397",
+      "35609278",
+      "30787102",
+      "26884339",
+      "30113034",
+      "26513486",
+      "29791461",
+      "29893543",
+      "35484922",
+      "37953619",
+      "21713640",
+      "28584111",
+      "10583407",
+      "31892131",
+      "12427009",
+      "39126645",
+      "38636478",
+      "24871565",
+      "29378116",
+      "30225490",
+      "33670093",
+      "41173868",
+      "33040538",
+      "24970207",
+      "29866153",
+      "36065931",
+      "32228858",
+      "16141213",
+      "38802601",
+      "22812018",
+      "19625749",
+      "25080056",
+      "36931043",
+      "17253770",
+      "27455834",
+      "31282646",
+      "39755501",
+      "30170005",
+      "30973229",
+      "35752342",
+      "37764220",
+      "31710458",
+      "36310204",
+      "22976818",
+      "18725330",
+      "30254002",
+      "32013170",
+      "33522485",
+      "38849023"
+    ],
+    "review": [
+      "35931183",
+      "15639795",
+      "28751216",
+      "23665295",
+      "38888453",
+      "29364151",
+      "29508987",
+      "32155822",
+      "30225490",
+      "33670093",
+      "24970207",
+      "39755501",
+      "30973229",
+      "37764220"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0003-2697(22)00288-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      }
+    ],
+    "text_mined": []
+  }
+}

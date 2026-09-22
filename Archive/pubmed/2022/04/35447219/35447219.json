@@ -1,0 +1,264 @@
+{
+  "identity": {
+    "pmid": "35447219",
+    "doi": "10.1016/j.biochi.2022.04.006",
+    "title": "Serotonergic drugs modulate the phase behavior of complex lipid bilayers."
+  },
+  "content": {
+    "abstract": "Serotonin is an endogenous neurotransmitter involved in both physiological and pathophysiological processes. Traditionally, serotonin acts as a ligand for G protein-coupled receptors (GPCRs) leading to subsequent cell signaling. However, serotonin can also bind to lipid membranes with high affinity and modulate the phase behavior in 1-palmitoyl-2-oleoyl-glycero-3-phosphocholine (POPC)/N-palmitoyl-D-erythro-sphingosylphosphorylcholine (PSM)/cholesterol model membranes mimicking the outer leaflet of the plasma membrane. Here, we investigated if serotonergic drugs containing the pharmacophore from serotonin would also modulate phase behavior in lipid membranes in a similar fashion. We used (2)H NMR spectroscopy to explore the phase behavior of POPC/PSM/cholesterol (4/4/2 molar ratio) mixtures in the presence of the serotonergic drugs aripiprazole, BRL-54443, BW-723C86, and CP-135807 at a lipid to drug molar ratio of 10:1. POPC and PSM were perdeuterated in the palmitoyl chain, respectively, and prepared in individual samples. Numerical lineshape simulations of the (2)H NMR spectra were used to calculate the order parameter profiles and projected lengths of the saturated acyl chains. All serotonergic drugs induce two components in (2)H NMR spectra, indicating that they increased the hydrophobic mismatch between the thickness of the coexisting lipid phases leading to larger domain sizes, relatively similarly to serotonin. AFM force indentation and Raman spectral studies, which interrogate membrane mechanical properties, also indicate changes in membrane order in the presence of these drugs. These findings highlight how serotonergic drugs alter membrane phase behavior and could modulate both target and other membrane proteins, possibly explaining the side effects observed for serotonergic and other clinically relevant drugs.",
+    "keywords": [
+      "Lipid phase separation",
+      "Lipid-drug interactions",
+      "Serotonin",
+      "Solid state NMR",
+      "Sphingomyelin"
+    ],
+    "mesh_terms": [
+      "*Lipid Bilayers/chemistry",
+      "*Serotonin",
+      "Cholesterol/chemistry",
+      "Magnetic Resonance Spectroscopy",
+      "Serotonin Agents",
+      "Phosphatidylcholines/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Musabirova, Guzel",
+        "Engberg, Oskar",
+        "Gupta, Ankur",
+        "Roy, Debsankar Saha",
+        "Maiti, Sudipta",
+        "Huster, Daniel"
+      ],
+      "short_names": [
+        "Musabirova G",
+        "Engberg O",
+        "Gupta A",
+        "Roy DS",
+        "Maiti S",
+        "Huster D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Medical Physics and Biophysics, University of Leipzig, Hartelstr. 16/18, D-04107, Leipzig, Germany; Institute of Physics, Kazan (Volga Region) Federal University, 18 Kremlevskaya St, 420008, Kazan Kazan, Russian Federation.",
+        "Institute for Medical Physics and Biophysics, University of Leipzig, Hartelstr. 16/18, D-04107, Leipzig, Germany.",
+        "Department of Chemical Sciences, Tata Institute of Fundamental Research, Homi Bhabha Road, Colaba, Mumbai, 400 005, India.",
+        "Department of Chemical Sciences, Tata Institute of Fundamental Research, Homi Bhabha Road, Colaba, Mumbai, 400 005, India.",
+        "Department of Chemical Sciences, Tata Institute of Fundamental Research, Homi Bhabha Road, Colaba, Mumbai, 400 005, India.",
+        "Institute for Medical Physics and Biophysics, University of Leipzig, Hartelstr. 16/18, D-04107, Leipzig, Germany; Department of Chemical Sciences, Tata Institute of Fundamental Research, Homi Bhabha Road, Colaba, Mumbai, 400 005, India. Electronic address: daniel.huster@medizin.uni-leipzig.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Musabirova, Guzel",
+        "short_name": "Musabirova G",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Medical Physics and Biophysics, University of Leipzig, Härtelstr. 16/18, D-04107, Leipzig, Germany; Institute of Physics, Kazan (Volga Region) Federal University, 18 Kremlevskaya St, 420008, Kazan Kazan, Russian Federation."
+        ]
+      },
+      {
+        "full_name": "Engberg, Oskar",
+        "short_name": "Engberg O",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Medical Physics and Biophysics, University of Leipzig, Härtelstr. 16/18, D-04107, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Gupta, Ankur",
+        "short_name": "Gupta A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences, Tata Institute of Fundamental Research, Homi Bhabha Road, Colaba, Mumbai, 400 005, India."
+        ]
+      },
+      {
+        "full_name": "Roy, Debsankar Saha",
+        "short_name": "Roy DS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences, Tata Institute of Fundamental Research, Homi Bhabha Road, Colaba, Mumbai, 400 005, India."
+        ]
+      },
+      {
+        "full_name": "Maiti, Sudipta",
+        "short_name": "Maiti S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences, Tata Institute of Fundamental Research, Homi Bhabha Road, Colaba, Mumbai, 400 005, India."
+        ]
+      },
+      {
+        "full_name": "Huster, Daniel",
+        "short_name": "Huster D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Medical Physics and Biophysics, University of Leipzig, Härtelstr. 16/18, D-04107, Leipzig, Germany; Department of Chemical Sciences, Tata Institute of Fundamental Research, Homi Bhabha Road, Colaba, Mumbai, 400 005, India. Electronic address: daniel.huster@medizin.uni-leipzig.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimie"
+    ],
+    "journal_abbrev": [
+      "Biochimie"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/22 06:00",
+    "fetched_at": "2026-09-20 09:50:05"
+  },
+  "links": {
+    "cites": [
+      "41710741",
+      "41613886",
+      "40017165",
+      "38535667",
+      "38499042",
+      "37691996",
+      "36004780"
+    ],
+    "refs": [],
+    "similar": [
+      "35447219",
+      "18839945",
+      "31268447",
+      "9083676",
+      "23258433",
+      "18178660",
+      "25806833",
+      "14990483",
+      "31564102",
+      "31133285",
+      "33192582",
+      "23702462",
+      "33157120",
+      "24144541",
+      "17142279",
+      "21194522",
+      "11248205",
+      "17114220",
+      "28445758",
+      "31625744",
+      "17237202",
+      "19917223",
+      "23356741",
+      "16042398",
+      "31657431",
+      "7548131",
+      "23274277",
+      "23747364",
+      "11782182",
+      "12124282",
+      "16023614",
+      "15653729",
+      "8547239",
+      "31150136",
+      "22148674",
+      "26525664",
+      "31610877",
+      "33034537",
+      "2160270",
+      "23534606",
+      "11342156",
+      "17704143",
+      "18712919",
+      "32998467",
+      "28734478",
+      "20023823",
+      "29730243",
+      "19233121",
+      "7696506",
+      "30053406",
+      "19167304",
+      "16905614",
+      "21192915",
+      "21893026",
+      "9726938",
+      "26067631",
+      "32485258",
+      "29590592",
+      "21194215",
+      "15345554",
+      "26426766",
+      "1600079",
+      "11053135",
+      "19580752",
+      "11741426",
+      "16565051",
+      "28447449",
+      "25546840",
+      "16580657",
+      "15530446",
+      "26656184",
+      "20583789",
+      "28001077",
+      "23391155",
+      "10692325",
+      "16321609",
+      "9843449",
+      "30529459",
+      "36795947",
+      "9138572",
+      "37863350",
+      "22395854",
+      "10866969",
+      "23477347",
+      "15904115",
+      "4016105",
+      "12023232",
+      "19706142",
+      "18991419",
+      "31424941",
+      "22768941",
+      "9354634",
+      "12122478",
+      "27260273",
+      "22369354",
+      "18035041",
+      "8988008",
+      "15328048",
+      "33502812",
+      "38319949",
+      "23667384",
+      "37616238",
+      "34726840",
+      "36004780"
+    ],
+    "review": [
+      "35447219"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0300-9084(22)00101-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1491",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

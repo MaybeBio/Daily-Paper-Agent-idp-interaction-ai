@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33794191",
+  "title": "Glycine rich segments adopt polyproline II helices: Implications for biomolecular condensate formation.",
+  "authors": "Mompean, M; McAvan, B S; Felix, S S; Trevino, M A; Oroz, J; Lopez-Sanchez, R; Pantoja-Uceda, D; Cabrita, E J; Doig, A J; Laurents, D V",
+  "journal": "Archives of biochemistry and biophysics",
+  "published_date": "2021-04-02",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过NMR、CD和MD模拟研究FUS蛋白RGG富甘氨酸区域形成聚脯氨酸II螺旋，提出其可能稳定生物分子凝聚体，虽未直接研究PPI，但为IDR构象与相分离机制建模提供了可迁移的物理模拟思路。",
+  "abstract": "Many intrinsically disordered proteins contain Gly-rich regions which are generally assumed to be disordered. Such regions often form biomolecular condensates which play essential roles in organizing cellular processes. However, the bases of their formation and stability are still not completely understood. Based on NMR studies of the Gly-rich H. harveyi \"snow flea\" antifreeze protein, we recently proposed that Gly-rich sequences, such as the third \"RGG\" region of Fused in Sarcoma (FUS) protein, may adopt polyproline II helices whose association might stabilize condensates. Here, this hypothesis is tested with a polypeptide corresponding to the third RGG region of FUS. NMR spectroscopy and molecular dynamics simulations suggest that significant populations of polyproline II helix are present. These findings are corroborated in a model peptide Ac-RGGYGGRGGWGGRGGY-NH(2), where a peak characteristic of polyproline II helix is observed using CD spectroscopy. Its intensity suggests a polyproline II population of 40%. This result is supported by data from FTIR and NMR spectroscopies. In the latter, NOE correlations are observed between the Tyr and Arg, and Arg and Trp side chain hydrogens, confirming that side chains spaced three residues apart are close in space. Taken together, the data are consistent with a polyproline II helix, which is bent to optimize interactions between guanidinium and aromatic moieties, in equilibrium with a statistical coil ensemble. These results lend credence to the hypothesis that Gly-rich segments of disordered proteins may form polyproline II helices which help stabilize biomolecular condensates.",
+  "abstract_zh": "许多本质上无序的蛋白质含有甘氨酸富集区域，这些区域通常被认为是无序的。此类区域常形成生物分子凝聚体，在组织细胞过程中发挥关键作用。然而，其形成和稳定性的基础仍未完全明了。基于对甘氨酸富集的哈维氏弧菌“雪蚤”抗冻蛋白的核磁共振研究，我们近期提出，甘氨酸富集序列，如肉瘤融合蛋白（FUS）中的第三个“RGG”区域，可能采用聚脯氨酸II螺旋构象，其结合可能稳定凝聚体。在此，我们通过对应于FUS第三个RGG区域的多肽来检验这一假设。核磁共振波谱和分子动力学模拟表明，存在显著的聚脯氨酸II螺旋群体。这些发现在模型肽Ac-RGGYGGRGGWGGRGGY-NH(2)中得到证实，其中使用圆二色光谱观察到聚脯氨酸II螺旋的特征峰。其强度表明聚脯氨酸II群体占40%。这一结果得到傅里叶变换红外光谱和核磁共振波谱数据的支持。在后者的核欧赫效应相关中，观察到酪氨酸和精氨酸、精氨酸和色氨酸侧链氢之间的相关性，确认间隔三个残基的侧链在空间上接近。综合来看，这些数据与聚脯氨酸II螺旋一致，该螺旋弯曲以优化胍基和芳香族部分之间的相互作用，并与统计卷曲集合处于平衡状态。这些结果支持了以下假设：无序蛋白的甘氨酸富集片段可能形成聚脯氨酸II螺旋，从而有助于稳定生物分子凝聚体。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33794191/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33794191/",
+  "paper_page_path": "papers/pubmed/33794191/index.html"
+}

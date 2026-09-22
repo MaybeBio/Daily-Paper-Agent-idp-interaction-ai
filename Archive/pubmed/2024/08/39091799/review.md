@@ -1,0 +1,121 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and data availability statements.
+- **Assessment boundary** Scientific validity, technical soundness, clarity of claims, and adequacy of evidence presented in the manuscript. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors present PepPrCLIP, a sequence-based pipeline combining Gaussian perturbation of ESM-2 peptide embeddings with a CLIP-style contrastive discriminator, to design de novo linear peptide binders against conformationally diverse targets. They report in silico benchmarking against RFDiffusion and experimental validation of inhibitory peptides and ubiquibody fusions targeting UltraID, β-catenin, and SS18-SSX1.
+- **Visible evidence base** Abstract, full results sections, methods, figure legends referenced in text, supplementary figure and table references, data availability links.
+- **Missing materials affecting confidence** Supplementary figures and tables (including Supplementary Figures 1-4 and Supplementary Tables 1-3) were not provided. Raw data, code, and detailed experimental protocols referenced in the text were not accessible for review. Specific peptide sequences, numerical values for all experimental replicates, and full statistical outputs were not available.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach that combines generative and discriminative language model components for peptide binder design. The core idea of using contrastive learning to screen sequence-derived peptide candidates is timely and potentially useful. However, the evidence provided in the main text is insufficient to fully evaluate the robustness of the claims. Several key experimental details, quantitative results, and control experiments are either missing or only partially described. The in silico benchmarking is presented with limited statistical context, and the experimental validations, while promising, lack the depth and replication detail needed to establish generalizability. The manuscript would benefit from clearer presentation of negative results, more rigorous statistical comparisons, and access to the supplementary materials for full evaluation.
+- **Who would be interested in the results, and why** Researchers in computational protein design, peptide therapeutics, targeted protein degradation, and language model applications in biology would find this work relevant. The claim of a purely sequence-based pipeline for binder design, if fully validated, would be of interest to those working on undruggable or disordered protein targets where structure-based methods are limited.
+- **Major strengths**
+  - The conceptual framework of combining a generative language model with a contrastive discriminator for peptide prioritization is novel and well-motivated.
+  - The focus on sequence-only inputs addresses a real limitation of structure-based design methods for disordered targets.
+  - The experimental validation across multiple target classes (enzyme, transcription factor, fusion oncoprotein) is a strength, though details are limited.
+  - The comparison to RFDiffusion, a state-of-the-art structure-based method, provides a useful benchmark context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that PepPrCLIP achieves an in silico hit-rate of 17.7% compared to 30.1% for RFDiffusion on structured targets, and that this demonstrates competitive performance.
+  - **Evidence pointer** Results section "PepPrCLIP performs comparably to RFDiffusion on structured targets in silico", Figure 2B, 2C
+  - **Concern** The hit-rate metric is defined as the percentage of generated peptides with an ipTM score greater than or equal to that of the corresponding test set peptide. This is an unusual and stringent metric, but the statistical significance of the difference between PepPrCLIP and RFDiffusion is not reported. The number of targets tested, the distribution of ipTM scores, and the variance across targets are not provided. Without this information, it is unclear whether the observed difference is meaningful or within noise. Additionally, the comparison may be biased because RFDiffusion had access to structural information for these targets, while PepPrCLIP did not, which the authors acknowledge but do not fully contextualize.
+  - **Why it matters** The in silico benchmark is a central piece of evidence for the utility of the method. If the comparison is not statistically robust or is confounded by methodological differences, the claim of competitive performance is not established.
+  - **Resolution test** Provide the number of targets, per-target ipTM values, and a statistical test (e.g., paired Wilcoxon signed-rank test) comparing PepPrCLIP and RFDiffusion hit-rates. Report the distribution of ipTM scores and discuss the implications of the structural information advantage for RFDiffusion.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that PepPrCLIP-generated peptides inhibit UltraID catalytic activity, with 4 of 20 peptides showing over 75% inhibition.
+  - **Evidence pointer** Results section "PepPrCLIP-generated peptides inhibit the catalytic activity of UltraID", Figure 3B, 3C
+  - **Concern** The experimental details for the UltraID inhibition assay are incomplete. The text states that 20 PepPrCLIP peptides and 19 RFDiffusion peptides were tested, but the criteria for selecting these specific peptides from the larger generated pool are not described. The figure legend for Figure 3B is not provided, so it is unclear what exactly is plotted (e.g., fluorescence intensity, percentage inhibition, dose-response). The number of biological replicates, the statistical test used to determine significance, and the variability across replicates are not reported. The claim that the top 3 effective peptides were all generated by PepPrCLIP is based on a single experimental condition and lacks replication.
+  - **Why it matters** The experimental validation is the key evidence that the pipeline produces functional binders. Without clear experimental details, replication information, and statistical analysis, the robustness of the inhibition results cannot be assessed.
+  - **Resolution test** Provide full experimental details, including peptide selection criteria, number of replicates, statistical tests, and effect sizes. Include dose-response curves or at least multiple concentrations to demonstrate the dynamic range of inhibition. Clarify what is shown in Figure 3B and 3C.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that PepPrCLIP-derived ubiquibodies bind and degrade β-catenin, with sub-μM affinity (KD = 200 and 150 nM).
+  - **Evidence pointer** Results section "PepPrCLIP-generated ubiquibodies robustly bind and functionally degrade β-catenin", Figure 4D, 4E
+  - **Concern** The binding affinity data from biolayer interferometry (BLI) is presented for only two peptides (β-cat_PpC_3 and β-cat_PpC_4). The number of independent BLI experiments, the fitting model used, and the error estimates for the KD values are not reported. The degradation data in Figure 4C is shown as a single immunoblot, and the quantification method and number of replicates are not described. The specificity of degradation (e.g., whether other proteins are affected) is not addressed. The claim of "robust" degradation is based on a single experimental setup.
+  - **Why it matters** The affinity and degradation data are central to the claim that the pipeline generates functionally potent binders. Without proper replication, error analysis, and specificity controls, the strength of this claim is not established.
+  - **Resolution test** Provide replicate BLI measurements with standard errors, describe the fitting procedure, and show representative sensorgrams. Include quantification of immunoblots from at least three independent experiments with statistical analysis. Add a control to demonstrate specificity of degradation (e.g., a non-target protein or a scrambled peptide control).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that PepPrCLIP is effective for "conformationally diverse targets" and specifically for the "highly-disordered" SS18-SSX1 fusion oncoprotein.
+  - **Evidence pointer** Results section "PepPrCLIP-generated uAbs robustly degrade the highly-disordered fusion oncoprotein SS18-SSX1", Figure 5
+  - **Concern** The evidence for SS18-SSX1 degradation is presented as a single flow cytometry experiment (Figure 5B) and a single immunoblot (Figure 5C). The gating strategy is referenced to Supplementary Figure 3, which is not provided. The number of replicates, the statistical test used (the text mentions Wilcoxon Rank Sum Test for one comparison), and the effect size are not fully reported. The claim that SS18-SSX1 is "highly-disordered" is not supported by any structural or biophysical data in the manuscript. The authors do not provide evidence that the peptide binds to the disordered regions specifically.
+  - **Why it matters** The SS18-SSX1 result is used to support the key claim that the method works on disordered targets, which is the main differentiator from structure-based methods. If this evidence is not robust, the central claim of the manuscript is weakened.
+  - **Resolution test** Provide full flow cytometry data with replicates and statistical analysis. Show the gating strategy. Include quantification of immunoblots from multiple independent experiments. Provide evidence for the disordered nature of SS18-SSX1, such as predictions or published biophysical data. Consider a binding assay (e.g., pull-down or BLI) to demonstrate direct peptide-target interaction.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that all code and Colab notebooks are freely accessible after signing a non-commercial, research-only academic license.
+  - **Evidence pointer** Data and Materials Availability section
+  - **Concern** The requirement to sign a license agreement, even for academic use, limits the "freely accessible" claim. More importantly, the manuscript does not provide a detailed description of the model architecture, training hyperparameters, or the exact inference procedure for the peptide generation and screening steps. The pseudocode in Supplementary Figure 2 is referenced but not provided. This makes it difficult for others to reproduce the method.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. Without full methodological details and unrestricted access to code, the work cannot be independently verified or built upon.
+  - **Resolution test** Provide a complete description of the model architecture, training procedure, and inference steps in the main text or a clearly accessible supplement. Make the code available without restrictive licenses, or clearly justify the need for the license and provide a detailed manual for reproduction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states the method requires "only the amino acid sequence of the target protein," but the experimental validation uses known target structures or sequences from databases. The claim of "only sequence" is somewhat overstated given the training data requirements.
+  - **Required correction** Clarify that the method uses sequence information as input for design, while acknowledging that the training of the model relies on existing structural and interaction data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Gaussian perturbation generates naturalistic peptides for CLIP prioritization"
+  - **Evidence pointer** Figure 2A
+  - **Issue** The selection of k values (5 to 22) is described, but the relationship between k and peptide diversity or naturalness is only shown as a Hamming distance plot. The rationale for the specific range and the criteria for "naturalistic" are not fully explained.
+  - **Required correction** Provide a more detailed explanation of how the k range was chosen and what metrics, beyond Hamming distance, were used to assess peptide naturalness.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section "CLIP Architecture and Training"
+  - **Evidence pointer** Methods
+  - **Issue** The description of the CLIP architecture is brief. The number of layers, hidden dimensions, and the specific ESM-2 model variant used are not stated.
+  - **Required correction** Provide full architectural details, including the ESM-2 model size, the MLP layer dimensions, and the training hyperparameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results section "PepPrCLIP-generated ubiquibodies robustly bind and functionally degrade β-catenin"
+  - **Evidence pointer** Figure 4B
+  - **Issue** The TOPFlash assay results are described as showing "statistically significant reduction," but the specific p-values and the number of replicates are not reported in the text.
+  - **Required correction** Report the exact p-values, the number of independent experiments, and the statistical test used for the TOPFlash data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion mentions "CRISPR-like" programmability, but this analogy is not fully developed. The comparison to dTAG is mentioned but not elaborated.
+  - **Required correction** Either expand on the CRISPR analogy with specific comparisons or remove it to avoid overstatement.
+
+## Technical failings that need to be addressed before the case is established
+- R1-M1: Lack of statistical analysis for the in silico benchmark comparison.
+- R1-M2: Incomplete experimental details and missing statistical analysis for the UltraID inhibition assay.
+- R1-M3: Insufficient replication and error analysis for the β-catenin binding and degradation data.
+- R1-M4: Inadequate evidence for the SS18-SSX1 degradation claim and the disordered nature of the target.
+- R1-M5: Insufficient methodological detail for reproducibility.
+
+## Risk / unsupported claims
+- The claim that PepPrCLIP performs "competitively" to RFDiffusion is not statistically supported.
+- The claim of "robust" degradation of β-catenin and SS18-SSX1 is based on limited experimental evidence.
+- The claim that the method is effective for "conformationally diverse" and "highly-disordered" targets is not fully supported by the data presented.
+- The claim of "CRISPR-like" programmability is an overstatement without further evidence.
+- The generalizability of the pipeline to arbitrary targets is not established, as only three targets were tested.
+
+## Assessment against Nature-style criteria
+- **Originality** The combination of a generative language model with a contrastive discriminator for peptide design is a novel contribution. The idea of using sequence-only inputs to address disordered targets is conceptually original.
+- **Scientific importance** If fully validated, the approach could have significant implications for targeting undruggable proteins. However, the current evidence is insufficient to assess the true impact.
+- **Interdisciplinary readership** The work bridges machine learning, protein engineering, and cell biology. The potential applications in targeted protein degradation would be of broad interest.
+- **Technical soundness** The technical approach is reasonable, but the evidence presented is incomplete. Key statistical analyses, experimental details, and controls are missing, which undermines the technical rigor.
+- **Readability for nonspecialists** The manuscript is generally well-written and accessible. The abstract and introduction clearly frame the problem. However, some technical sections assume familiarity with language models and contrastive learning.
+
+## Recommendation posture
+Currently not established from the provided evidence. The conceptual framework is promising, but the evidence base is insufficient to support the central claims. The manuscript requires substantial additional data, including full experimental details, statistical analyses, and access to supplementary materials, before the claims can be evaluated. Supportive if technical concerns are resolved.

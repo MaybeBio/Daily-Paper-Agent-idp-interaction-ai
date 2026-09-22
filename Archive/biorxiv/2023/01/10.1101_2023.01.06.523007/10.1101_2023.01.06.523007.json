@@ -1,0 +1,251 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.01.06.523007",
+  "title": "CoVAMPnet: Comparative Markov State Analysis for Studying Effects of Drug Candidates on Disordered Biomolecules",
+  "doi": "10.1101/2023.01.06.523007",
+  "abstract": "<h4>ABSTRACT</h4> Computational study of the effect of drug candidates on intrinsically disordered biomolecules is challenging due to their vast and complex conformational space. Here we developed a Comparative Markov State Analysis (CoVAMPnet) framework to quantify changes in the conformational distribution and dynamics of a disordered biomolecule in the presence and absence of small organic drug candidate molecules. First, molecular dynamics trajectories are generated using enhanced sampling, in the presence and absence of small molecule drug candidates, and ensembles of soft Markov state models (MSMs) are learned for each system using unsupervised machine learning. Second, these ensembles of learned MSMs are aligned across different systems based on a solution to an optimal transport problem. Third, the directional importance of inter-residue distances for the assignment to different conformational states is assessed by a discriminative analysis of aggregated neural network gradients. This final step provides interpretability and biophysical context to the learned MSMs. We applied this novel computational framework to assess the effects of ongoing phase 3 therapeutics tramiprosate (TMP) and its metabolite 3-sulfopropanoic acid (SPA) on the disordered Aβ42 peptide involved in Alzheimer’s disease. Based on adaptive sampling molecular dynamics and CoVAMPnet analysis, we observed that both TMP and SPA preserved more structured conformations of Aβ42 by interacting non-specifically with charged residues. SPA impacted Aβ42 more than TMP, protecting α-helices and suppressing the formation of aggregation-prone β-strands. Experimental biophysical analyses showed only mild effects of TMP/SPA on Aβ42, and activity enhancement by the endogenous metabolization of TMP into SPA. Our data suggest that TMP/SPA may also target other biomolecules than Aβ peptides. The CoVAMPnet method is broadly applicable to study the effects of drug candidates on the conformational behavior of intrinsically disordered biomolecules. <h4>TOC Graphic</h4>",
+  "authors": [
+    "Marques SM",
+    "Kouba P",
+    "Legrand A",
+    "Sedlar J",
+    "Disson L",
+    "Planas-Iglesias J",
+    "Sanusi Z",
+    "Kunka A",
+    "Damborsky J",
+    "Pajdla T",
+    "Prokop Z",
+    "Mazurenko S",
+    "Sivic J",
+    "Bednar D"
+  ],
+  "published_date": "2023-01-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.01.06.523007",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.01.06.523007.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR593454",
+    "raw_record": {
+      "id": "PPR593454",
+      "source": "PPR",
+      "doi": "10.1101/2023.01.06.523007",
+      "title": "CoVAMPnet: Comparative Markov State Analysis for Studying Effects of Drug Candidates on Disordered Biomolecules",
+      "authorString": "Marques SM, Kouba P, Legrand A, Sedlar J, Disson L, Planas-Iglesias J, Sanusi Z, Kunka A, Damborsky J, Pajdla T, Prokop Z, Mazurenko S, Sivic J, Bednar D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Marques SM",
+            "lastName": "Marques",
+            "firstName": "Sérgio",
+            "initials": "SM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6281-7505"
+            }
+          },
+          {
+            "fullName": "Kouba P",
+            "lastName": "Kouba",
+            "firstName": "Petr",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9979-4159"
+            }
+          },
+          {
+            "fullName": "Legrand A",
+            "lastName": "Legrand",
+            "firstName": "Anthony",
+            "initials": "A"
+          },
+          {
+            "fullName": "Sedlar J",
+            "lastName": "Sedlar",
+            "firstName": "Jiri",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4704-3388"
+            }
+          },
+          {
+            "fullName": "Disson L",
+            "lastName": "Disson",
+            "firstName": "Lucas",
+            "initials": "L"
+          },
+          {
+            "fullName": "Planas-Iglesias J",
+            "lastName": "Planas-Iglesias",
+            "firstName": "Joan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6279-2483"
+            }
+          },
+          {
+            "fullName": "Sanusi Z",
+            "lastName": "Sanusi",
+            "firstName": "Zainab",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Kunka A",
+            "lastName": "Kunka",
+            "firstName": "Antonin",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1170-165X"
+            }
+          },
+          {
+            "fullName": "Damborsky J",
+            "lastName": "Damborsky",
+            "firstName": "Jiri",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7848-8216"
+            }
+          },
+          {
+            "fullName": "Pajdla T",
+            "lastName": "Pajdla",
+            "firstName": "Tomas",
+            "initials": "T"
+          },
+          {
+            "fullName": "Prokop Z",
+            "lastName": "Prokop",
+            "firstName": "Zbynek",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Mazurenko S",
+            "lastName": "Mazurenko",
+            "firstName": "Stanislav",
+            "initials": "S"
+          },
+          {
+            "fullName": "Sivic J",
+            "lastName": "Sivic",
+            "firstName": "Josef",
+            "initials": "J"
+          },
+          {
+            "fullName": "Bednar D",
+            "lastName": "Bednar",
+            "firstName": "David",
+            "initials": "D"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1170-165X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4704-3388"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6279-2483"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6281-7505"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7848-8216"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9979-4159"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Computational study of the effect of drug candidates on intrinsically disordered biomolecules is challenging due to their vast and complex conformational space. Here we developed a Comparative Markov State Analysis (CoVAMPnet) framework to quantify changes in the conformational distribution and dynamics of a disordered biomolecule in the presence and absence of small organic drug candidate molecules. First, molecular dynamics trajectories are generated using enhanced sampling, in the presence and absence of small molecule drug candidates, and ensembles of soft Markov state models (MSMs) are learned for each system using unsupervised machine learning. Second, these ensembles of learned MSMs are aligned across different systems based on a solution to an optimal transport problem. Third, the directional importance of inter-residue distances for the assignment to different conformational states is assessed by a discriminative analysis of aggregated neural network gradients. This final step provides interpretability and biophysical context to the learned MSMs. We applied this novel computational framework to assess the effects of ongoing phase 3 therapeutics tramiprosate (TMP) and its metabolite 3-sulfopropanoic acid (SPA) on the disordered Aβ42 peptide involved in Alzheimer’s disease. Based on adaptive sampling molecular dynamics and CoVAMPnet analysis, we observed that both TMP and SPA preserved more structured conformations of Aβ42 by interacting non-specifically with charged residues. SPA impacted Aβ42 more than TMP, protecting α-helices and suppressing the formation of aggregation-prone β-strands. Experimental biophysical analyses showed only mild effects of TMP/SPA on Aβ42, and activity enhancement by the endogenous metabolization of TMP into SPA. Our data suggest that TMP/SPA may also target other biomolecules than Aβ peptides. The CoVAMPnet method is broadly applicable to study the effects of drug candidates on the conformational behavior of intrinsically disordered biomolecules. <h4>TOC Graphic</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/01/06/2023.01.06.523007.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.01.06.523007"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38938816",
+            "reference": "JACS Au. 2024 Jun;4(6):2228-2245",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-01-08",
+      "firstPublicationDate": "2023-01-06",
+      "firstIndexDate": "2023-01-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "identity": {
+    "pmid": "36746944",
+    "doi": "10.1038/s41467-023-35792-x",
+    "title": "Direct digital sensing of protein biomarkers in solution."
+  },
+  "content": {
+    "abstract": "The detection of proteins is of central importance to biomolecular analysis and diagnostics. Typical immunosensing assays rely on surface-capture of target molecules, but this constraint can limit specificity, sensitivity, and the ability to obtain information beyond simple concentration measurements. Here we present a surface-free, single-molecule microfluidic sensing platform for direct digital protein biomarker detection in solution, termed digital immunosensor assay (DigitISA). DigitISA is based on microchip electrophoretic separation combined with single-molecule detection and enables absolute number/concentration quantification of proteins in a single, solution-phase step. Applying DigitISA to a range of targets including amyloid aggregates, exosomes, and biomolecular condensates, we demonstrate that the assay provides information beyond stoichiometric interactions, and enables characterization of immunochemistry, binding affinity, and protein biomarker abundance. Taken together, our results suggest a experimental paradigm for the sensing of protein biomarkers, which enables analyses of targets that are challenging to address using conventional immunosensing approaches.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biosensing Techniques/methods",
+      "Immunoassay",
+      "Biomarkers/analysis",
+      "Amyloid",
+      "Microfluidics/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Krainer, Georg",
+        "Saar, Kadi L",
+        "Arter, William E",
+        "Welsh, Timothy J",
+        "Czekalska, Magdalena A",
+        "Jacquat, Raphael P B",
+        "Peter, Quentin",
+        "Traberg, Walther C",
+        "Pujari, Arvind",
+        "Jayaram, Akhila K",
+        "Challa, Pavankumar",
+        "Taylor, Christopher G",
+        "van der Linden, Lize-Mari",
+        "Franzmann, Titus",
+        "Owens, Roisin M",
+        "Alberti, Simon",
+        "Klenerman, David",
+        "Knowles, Tuomas P J"
+      ],
+      "short_names": [
+        "Krainer G",
+        "Saar KL",
+        "Arter WE",
+        "Welsh TJ",
+        "Czekalska MA",
+        "Jacquat RPB",
+        "Peter Q",
+        "Traberg WC",
+        "Pujari A",
+        "Jayaram AK",
+        "Challa P",
+        "Taylor CG",
+        "van der Linden LM",
+        "Franzmann T",
+        "Owens RM",
+        "Alberti S",
+        "Klenerman D",
+        "Knowles TPJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9626-7636",
+        "ORCID: 0000-0002-5926-3628",
+        "ORCID: 0000-0002-3615-1885",
+        "ORCID: 0000-0001-7817-5722",
+        "ORCID: 0000-0002-4494-4463",
+        "ORCID: 0000-0002-8661-9722",
+        "ORCID: 0000-0002-8018-3059",
+        "ORCID: 0000-0003-2673-2253",
+        "ORCID: 0000-0002-5415-3411",
+        "ORCID: 0000-0002-4281-7209",
+        "ORCID: 0000-0001-7856-2108",
+        "ORCID: 0000-0003-4017-6505",
+        "ORCID: 0000-0001-7116-6954",
+        "ORCID: 0000-0002-7879-0140"
+      ],
+      "affiliations": [
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Fluidic Analytics Limited, Unit A The Paddocks Business Centre, Cherry Hinton Road, Cambridge, CB1 8DH, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge, CB3 0AS, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge, CB3 0AS, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Biotechnology Center (BIOTEC), Center for Molecular and Cellular Bioengineering (CMCB), Technische Universitat Dresden, Tatzberg 47/49, Dresden, Germany.",
+        "Biotechnology Center (BIOTEC), Center for Molecular and Cellular Bioengineering (CMCB), Technische Universitat Dresden, Tatzberg 47/49, Dresden, Germany.",
+        "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge, CB3 0AS, UK.",
+        "Biotechnology Center (BIOTEC), Center for Molecular and Cellular Bioengineering (CMCB), Technische Universitat Dresden, Tatzberg 47/49, Dresden, Germany.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK. tpjk2@cam.ac.uk.",
+        "Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Ave, Cambridge, CB3 0HE, UK. tpjk2@cam.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Krainer, Georg",
+        "short_name": "Krainer G",
+        "identifiers": [
+          "0000-0002-9626-7636"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Saar, Kadi L",
+        "short_name": "Saar KL",
+        "identifiers": [
+          "0000-0002-5926-3628"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Arter, William E",
+        "short_name": "Arter WE",
+        "identifiers": [
+          "0000-0002-3615-1885"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Welsh, Timothy J",
+        "short_name": "Welsh TJ",
+        "identifiers": [
+          "0000-0001-7817-5722"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Czekalska, Magdalena A",
+        "short_name": "Czekalska MA",
+        "identifiers": [
+          "0000-0002-4494-4463"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+          "Fluidic Analytics Limited, Unit A The Paddocks Business Centre, Cherry Hinton Road, Cambridge, CB1 8DH, UK."
+        ]
+      },
+      {
+        "full_name": "Jacquat, Raphaël P B",
+        "short_name": "Jacquat RPB",
+        "identifiers": [
+          "0000-0002-8661-9722"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Peter, Quentin",
+        "short_name": "Peter Q",
+        "identifiers": [
+          "0000-0002-8018-3059"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Traberg, Walther C",
+        "short_name": "Traberg WC",
+        "identifiers": [
+          "0000-0003-2673-2253"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge, CB3 0AS, UK."
+        ]
+      },
+      {
+        "full_name": "Pujari, Arvind",
+        "short_name": "Pujari A",
+        "identifiers": [
+          "0000-0002-5415-3411"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge, CB3 0AS, UK."
+        ]
+      },
+      {
+        "full_name": "Jayaram, Akhila K",
+        "short_name": "Jayaram AK",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Challa, Pavankumar",
+        "short_name": "Challa P",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Taylor, Christopher G",
+        "short_name": "Taylor CG",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "van der Linden, Lize-Mari",
+        "short_name": "van der Linden LM",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology Center (BIOTEC), Center for Molecular and Cellular Bioengineering (CMCB), Technische Universität Dresden, Tatzberg 47/49, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Franzmann, Titus",
+        "short_name": "Franzmann T",
+        "identifiers": [
+          "0000-0002-4281-7209"
+        ],
+        "affiliations": [
+          "Biotechnology Center (BIOTEC), Center for Molecular and Cellular Bioengineering (CMCB), Technische Universität Dresden, Tatzberg 47/49, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Owens, Roisin M",
+        "short_name": "Owens RM",
+        "identifiers": [
+          "0000-0001-7856-2108"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Biotechnology, University of Cambridge, Philippa Fawcett Drive, Cambridge, CB3 0AS, UK."
+        ]
+      },
+      {
+        "full_name": "Alberti, Simon",
+        "short_name": "Alberti S",
+        "identifiers": [
+          "0000-0003-4017-6505"
+        ],
+        "affiliations": [
+          "Biotechnology Center (BIOTEC), Center for Molecular and Cellular Bioengineering (CMCB), Technische Universität Dresden, Tatzberg 47/49, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Klenerman, David",
+        "short_name": "Klenerman D",
+        "identifiers": [
+          "0000-0001-7116-6954"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Knowles, Tuomas P J",
+        "short_name": "Knowles TPJ",
+        "identifiers": [
+          "0000-0002-7879-0140"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK. tpjk2@cam.ac.uk.",
+          "Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Ave, Cambridge, CB3 0HE, UK. tpjk2@cam.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Feb 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/07 06:00",
+    "fetched_at": "2026-09-20 19:05:35"
+  },
+  "links": {
+    "cites": [
+      "42441433",
+      "42299934",
+      "42177333",
+      "42092180",
+      "42064611",
+      "40677951",
+      "40493051",
+      "40422023",
+      "40420825",
+      "39868039",
+      "39231922",
+      "39153989",
+      "38782886",
+      "37972287",
+      "37754956",
+      "36881934"
+    ],
+    "refs": [],
+    "similar": [
+      "36746944",
+      "27098564",
+      "23202325",
+      "33382587",
+      "25459055",
+      "37068158",
+      "31724395",
+      "36421177",
+      "39215774",
+      "35940115",
+      "26553100",
+      "26774995",
+      "36140058",
+      "37458511",
+      "30070105",
+      "27583695",
+      "28004880",
+      "29766584",
+      "32867503",
+      "26755148",
+      "27865104",
+      "36655604",
+      "29040917",
+      "31132722",
+      "29888919",
+      "28910857",
+      "28456280",
+      "28152589",
+      "19704983",
+      "27836687",
+      "34607116",
+      "34700265",
+      "28296413",
+      "32217335",
+      "24961296",
+      "24212052",
+      "23495732",
+      "23235113",
+      "20978748",
+      "25765286",
+      "28220651",
+      "26606310",
+      "33032195",
+      "36563526",
+      "33167205",
+      "23210719",
+      "18298963",
+      "28193072",
+      "21152564",
+      "35843130",
+      "36229441",
+      "32364931",
+      "21286818",
+      "33524653",
+      "25626958",
+      "24449893",
+      "22248060",
+      "32589401",
+      "26208172",
+      "30081127",
+      "33283832",
+      "31883592",
+      "27668314",
+      "26720920",
+      "32966364",
+      "26589228",
+      "26735876",
+      "36625134",
+      "22386485",
+      "25557949",
+      "21910436",
+      "21747181",
+      "20553867",
+      "23624018",
+      "28336071",
+      "35078139",
+      "33461710",
+      "24144557",
+      "30500772",
+      "35072456",
+      "25016254",
+      "29985579",
+      "30142477",
+      "35297932",
+      "39231922",
+      "31525898",
+      "25660660",
+      "30347814",
+      "24467652",
+      "29501129",
+      "28766330",
+      "32800925",
+      "27931005",
+      "24055931"
+    ],
+    "review": [
+      "36746944",
+      "26774995",
+      "36140058",
+      "27583695",
+      "24212052",
+      "23495732",
+      "28220651",
+      "18298963",
+      "21152564",
+      "36625134",
+      "28336071",
+      "25660660",
+      "24467652",
+      "32800925"
+    ],
+    "pmc": [
+      "9902533"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-35792-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36746944/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36746944",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36746944",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

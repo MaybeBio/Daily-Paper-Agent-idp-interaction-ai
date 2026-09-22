@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.07.539709",
+  "title": "An intrinsically disordered kinetochore protein coordinates mechanical regulation of chromosome segregation by dynein",
+  "authors": "Jessica M. McGory; Dylan M. Barcelos; Vikash Verma; Thomas J. Maresca",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-09",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究着丝粒无序蛋白Spc105通过多聚化与BubR1/RZZ/动力蛋白形成物理连接，协调染色体分离的力学调控，虽未用AI/物理模拟方法，但聚焦IDP介导的PPI机制，对无序蛋白互作建模有参考价值。",
+  "abstract": "Kinetochores connect chromosomes and spindle microtubules to maintain genomic integrity through cell division. Crosstalk between the minus-end directed motor dynein and kinetochore-microtubule attachment factors promotes accurate chromosome segregation through a poorly understood pathway. Here we identify a physical linkage between the intrinsically disordered protein Spc105 (KNL1 orthologue) and dynein using an optogenetic oligomerization assay. Core pools of the checkpoint protein BubR1 and the adaptor complex RZZ mediate the connection of Spc105 to dynein. Furthermore, a minimal segment of Spc105 that contains regions with a propensity to multimerize and binding motifs for Bub1 and BubR1 is sufficient to functionally link Spc105 to RZZ and dynein. Deletion of the minimal region from Spc105 reduces recruitment of its binding partners to bioriented kinetochores and causes chromosome mis-segregation. Restoration of normal chromosome segregation and localization of BubR1 and RZZ requires both protein binding motifs and higher-order oligomerization of Spc105. Together, our results reveal that higher-order multimerization of Spc105 is required to recruit a core pool of RZZ that modulates microtubule attachment stability to promote accurate chromosome segregation.",
+  "abstract_zh": "着丝粒连接染色体和纺锤体微管，以在细胞分裂过程中维持基因组完整性。负端定向马达蛋白动力蛋白（dynein）与着丝粒-微管附着因子之间的串扰通过一条尚不明确的通路促进准确的染色体分离。在此，我们利用光遗传学寡聚化实验鉴定了 intrinsically disordered 蛋白 Spc105（KNL1 同源物）与动力蛋白之间的物理连接。检查点蛋白 BubR1 和衔接复合物 RZZ 的核心库介导 Spc105 与动力蛋白的连接。此外，Spc105 的一个最小片段，包含具有多聚化倾向的区域以及 Bub1 和 BubR1 的结合基序，足以在功能上将 Spc105 与 RZZ 和动力蛋白连接起来。从 Spc105 中删除该最小区域会减少其结合伙伴向双定向着丝粒的招募，并导致染色体错误分离。恢复正常的染色体分离以及 BubR1 和 RZZ 的定位需要蛋白质结合基序和 Spc105 的高阶寡聚化。综合来看，我们的结果揭示了 Spc105 的高阶多聚化是招募 RZZ 核心库所必需的，该核心库调节微管附着稳定性以促进准确的染色体分离。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.07.539709",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.07.539709",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.07.539709/index.html"
+}

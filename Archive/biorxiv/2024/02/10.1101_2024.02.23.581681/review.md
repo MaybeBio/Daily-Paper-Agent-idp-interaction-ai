@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full text, figures, or methods
+- **Shared manuscript claim summary** The authors propose that the importance of stereochemistry in protein-protein interactions (PPIs) varies along the disorder-order continuum. They report that chirality is inconsequential for fully disordered complexes, essential for coupled folding and binding, and intermediate in effect for complexes with partial disorder, with binding strength correlating with residual disorder. They extrapolate implications for PPI understanding, drug discovery with D-peptides, and early protein evolution.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or methodological descriptions provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, sequence details, and biophysical characterization data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis linking stereochemical constraints to the disorder-order continuum in PPIs. The central claim, that chiral sensitivity scales with the degree of structural ordering in the final complex, is plausible and potentially significant. However, the abstract provides no quantitative evidence, no methodological detail, and no explicit definition of the "disorder-order continuum" as operationalized here. The strength of the conclusions cannot be evaluated from the supplied material, and several statements appear to exceed what the described experiments could reasonably establish without additional controls and data.
+- **Who would be interested in the results, and why** Researchers in intrinsically disordered proteins, biophysics of molecular recognition, structural biology, and peptide-based drug design would find these results relevant. The potential link to prebiotic chemistry and homochirality in early evolution could attract a broader interdisciplinary audience in origins-of-life research.
+- **Major strengths** The hypothesis is clearly framed and addresses a genuine gap in the field, namely whether disordered complexes are truly exempt from chiral constraints. The choice to sample the disorder-order continuum with multiple interacting pairs is a sensible design. The potential practical implications for D-peptide therapeutics are timely and of broad interest.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "chirality was inconsequential in a fully disordered complex" and that "correct stereochemistry was essential" for coupled folding and binding.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states these findings as definitive conclusions but provides no quantitative data, no binding affinities, no error estimates, and no statistical comparisons. It is unclear how many replicates were performed, how binding was measured, and what threshold defined "inconsequential" versus "essential."
+  - **Why it matters** Without quantitative thresholds and statistical support, the central dichotomy may be an artifact of detection limits or assay sensitivity rather than a genuine biophysical principle. The claim of a correlation between binding strength and disorder also requires a defined metric for "amount of disorder."
+  - **Resolution test** Provide binding affinities or kinetic parameters for L- and D-ligands across all tested pairs, with appropriate statistical tests and explicit criteria for what constitutes a meaningful difference.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Construct validity
+  - **Claim pointer** The authors state that a set of interacting pairs "covering the disorder-order continuum" was chosen as representative.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which protein pairs were used, how the continuum was defined or measured, or whether the pairs are truly representative. Without this information, the generalizability of the conclusions is unverifiable.
+  - **Why it matters** If the selected pairs cluster at only a few points along the continuum, the claimed correlation may not be robust. The operational definition of the continuum is critical to interpreting the results.
+  - **Resolution test** List the protein pairs, their structural characterization in free and bound states, and a quantitative metric for disorder in the final complex.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of implications
+  - **Claim pointer** The authors claim implications for "the use of D-peptides in drug discovery" and "the chemistry of protein evolution of the first living entities on Earth."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** These extrapolations are presented without any direct experimental support in the abstract. While they may be reasonable speculations, they are framed as findings rather than hypotheses.
+  - **Why it matters** Overstatement of implications can mislead readers in applied fields and origins-of-life research, where the relevance of modern PPI stereochemistry to prebiotic chemistry is not established.
+  - **Resolution test** Clearly distinguish speculative implications from experimentally supported conclusions, or provide additional data linking the findings to these contexts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "highly disordered protein complexes without the formation of 3D-structure" is ambiguous, as all proteins have some 3D topology. The intended meaning is likely "without a well-defined folded structure."
+  - **Required correction** Rephrase to "without formation of a stable folded 3D structure" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Definition of "disorder-order continuum"
+  - **Evidence pointer** Abstract, methods not provided
+  - **Issue** The continuum is referenced but not defined. It is unclear whether it refers to the fraction of residues structured, the binding mechanism, or the lifetime of the complex.
+  - **Required correction** Define the continuum explicitly in the abstract or refer to a specific metric.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental system description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state which biophysical techniques were used to observe ligands "in free and bound states."
+  - **Required correction** Mention the primary methods, such as NMR, circular dichroism, or surface plasmon resonance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative data and the lack of a defined continuum prevent evaluation of the central claims. The abstract alone does not establish the case.
+- **Assessment against Nature-style criteria** Originality is high, as the chiral dimension of disordered PPIs is underexplored. Scientific importance is potentially substantial for biophysics and drug design. Interdisciplinary readership is plausible given the evolutionary angle. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is adequate, though some terms require clarification.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is intriguing and worthy of consideration, but the abstract does not provide sufficient data or methodological detail to support the conclusions. A full manuscript with quantitative results would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that chirality is "inconsequential" in fully disordered complexes is unsupported without quantitative binding data and statistical thresholds.
+- The claim that binding strength "correlated with the amount of disorder" is unsupported without a defined disorder metric and correlation analysis.
+- The implications for D-peptide drug discovery and early protein evolution are speculative and not directly evidenced in the abstract.
+- The representativeness of the chosen protein pairs for the disorder-order continuum is unverifiable from the supplied material.

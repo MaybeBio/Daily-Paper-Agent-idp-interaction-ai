@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose CrossPPI, a deep learning framework combining transformer-based cross-attention, Graph Attention Networks, and Convolutional Neural Networks to predict protein–protein binding affinity from sequence and structural features. They report performance metrics on a test set of 300 protein pairs, including PCC 0.7616, SCC 0.7644, MAE 1.2869, and RMSE 1.6824, and claim that the cross-fusion approach improves predictive capability.
+- **Visible evidence base** Abstract text only; no dataset description, baseline comparisons, ablation studies, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset construction details, baseline model definitions, hyperparameter settings, cross-validation procedures, error analysis, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful application of cross-attention mechanisms to protein–protein binding affinity prediction. However, the evidence provided is insufficient to evaluate the novelty, technical soundness, or generalizability of the proposed method. The reported performance metrics, while seemingly strong, cannot be interpreted without context regarding dataset composition, baseline comparisons, and experimental design. The claim that cross-attention is "often neglected" in current models is not substantiated with citations or a literature survey. The abstract alone does not establish the case for the method's superiority or practical utility.
+- **Who would be interested in the results, and why** Computational biologists, bioinformaticians, and researchers in drug discovery and protein engineering would be interested if the method demonstrates robust and generalizable performance. The potential to improve binding affinity prediction could aid in prioritizing protein interaction candidates and accelerating therapeutic development. However, interest will depend on validation against existing state-of-the-art methods and demonstration of practical applicability.
+- **Major strengths** The proposed architecture integrates multiple feature types (sequence and structure) and uses a cross-fusion mechanism, which is a conceptually reasonable approach to capturing inter-protein dependencies. The reported metrics on a test set of 300 pairs suggest the model is functional and achieves reasonable predictive accuracy. The problem addressed is of clear biological and clinical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CrossPPI achieves PCC 0.7616, SCC 0.7644, MAE 1.2869, and RMSE 1.6824 on a test dataset of 300 protein–protein pairs, indicating its ability to predict binding affinity.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information about the dataset used for training and testing, including source, composition, sequence identity thresholds, or how the 300 test pairs were selected. Without this context, the reported metrics cannot be assessed for generalizability or compared to other studies. Additionally, no baseline comparisons are provided, so it is unclear whether CrossPPI outperforms existing methods.
+  - **Why it matters** Binding affinity prediction benchmarks are highly sensitive to dataset construction and split strategies. If the test set is not representative or is biased toward easy cases, the reported performance may not reflect real-world utility. Without baseline comparisons, the claimed advantage of the cross-fusion approach is unsubstantiated.
+  - **Resolution test** Provide a detailed description of the dataset, including source, preprocessing, and train/test split criteria. Include performance comparisons against at least two established baseline models under identical experimental conditions. Report statistical significance or confidence intervals for the metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The authors state that "the application of cross-attention mechanisms between ligand and receptor protein sequences is often neglected in current computational models."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This claim is made without any literature survey or citations. Several existing models for protein interaction prediction already employ attention-based mechanisms, including cross-attention, and the abstract does not acknowledge or differentiate from these prior works.
+  - **Why it matters** The novelty of CrossPPI hinges on the claim that cross-attention is underexplored. If this premise is inaccurate, the contribution may be incremental rather than novel. The authors must situate their work within the existing literature to establish originality.
+  - **Resolution test** Provide a concise literature review in the full manuscript that surveys existing attention-based models for PPI prediction, explicitly identifying gaps that CrossPPI addresses. Cite relevant prior work and clarify what is genuinely new.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CrossPPI uses a "dual-view feature-extraction approach that combines Graph Attention Networks (GATs) and Convolutional Neural Networks (CNNs)" and a "transformer-based cross-fusion module."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on how structural features are represented, how GATs and CNNs are applied to these features, how the cross-fusion module operates, or how the outputs are integrated for final prediction. The architecture description is too vague to assess technical feasibility or reproducibility.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without architectural details, hyperparameters, training procedures, and feature engineering specifics, other researchers cannot implement or validate the method.
+  - **Resolution test** Provide a complete methods section with model architecture diagrams, input feature specifications, training details, and code availability. Include ablation studies to justify each architectural component.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses technical terms such as "cross-fusion module," "dual-view feature-extraction," and "Graph Attention Networks" without brief explanations, which may limit accessibility for readers outside computational biology.
+  - **Required correction** Add one sentence in the abstract that briefly explains the purpose of each architectural component in plain language, or provide a high-level analogy for the cross-fusion mechanism.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not discuss the practical implications of the reported performance, such as how the model could be used in drug discovery or large-scale interaction screening, or what limitations remain.
+  - **Required correction** Add a sentence in the discussion or conclusion section of the abstract that states the potential applications and acknowledges key limitations, such as dataset size or generalizability to unseen protein families.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract reports only point estimates of performance metrics without any measure of variance, such as standard deviation or confidence intervals, across multiple runs or cross-validation folds.
+  - **Required correction** Report metrics with standard deviations or confidence intervals, or state that results are from a single run and justify this choice.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of dataset and baseline context), R1-M2 (unsubstantiated novelty claim), R1-M3 (insufficient architectural detail)
+- **Assessment against Nature-style criteria** 
+  - Originality: Not established from the abstract. The claim of neglected cross-attention is unverified, and no comparison to prior work is provided.
+  - Scientific importance: The problem is important, but the abstract does not demonstrate that the method advances the field beyond existing approaches.
+  - Interdisciplinary readership: The topic is relevant to biology, computer science, and medicine, but the abstract is too technical and lacks context for nonspecialists.
+  - Technical soundness: Cannot be assessed. The architecture is described only at a high level, and no experimental details are available.
+  - Readability for nonspecialists: The abstract is concise but uses jargon without explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone is insufficient to support the claims of novelty and improved performance. A full manuscript with detailed methods, dataset description, baseline comparisons, and ablation studies is required to evaluate the contribution.
+
+## Risk / unsupported claims
+- The claim that cross-attention mechanisms are "often neglected" in current models is unsupported without a literature review.
+- The reported performance metrics (PCC 0.7616, SCC 0.7644, MAE 1.2869, RMSE 1.6824) are uninterpretable without dataset context and baseline comparisons.
+- The assertion that CrossPPI "improves" binding affinity prediction is not supported by any comparative evidence in the abstract.
+- The generalizability of the model to diverse protein families or interaction types is not addressed and cannot be assessed from the provided material.

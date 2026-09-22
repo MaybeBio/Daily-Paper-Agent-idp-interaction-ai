@@ -1,0 +1,89 @@
+## Review setup
+
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, technical soundness, and support for claims based solely on the provided manuscript text. No external data, figures, or supplementary materials were independently verified.
+- **Shared manuscript claim summary** The authors report a crystal structure of an APP/talin1 complex, propose a mechanical role for APP in synaptic adhesion and signalling, and present a series of six hypotheses linking APP/talin coupling to Alzheimer's disease pathology and memory loss.
+- **Visible evidence base** Crystal structure of APP(754-764)-talin(209-400) chimera at 2.7 Å resolution; NMR binding studies; fluorescence polarisation binding assays; proximity ligation assay (PLA) in HEK293 cells and primary neurons; synaptosomal fractionation; siRNA-based talin1 depletion with APP processing readouts; structural modelling using published APP domain structures and AlphaFold models.
+- **Missing materials affecting confidence** Full figures and supplementary tables (including crystallographic data collection and refinement statistics) were not provided. Detailed quantification of PLA signals, Western blot data, and statistical analyses for the talin1 depletion experiments are not shown. Coordinates and structure factors (PDB 8S4Y) were not independently assessed.
+
+## Reviewer
+
+- **Overall assessment** This manuscript presents a potentially interesting structural finding: a crystal structure of the APP cytoplasmic tail bound to the talin1 F2F3 domain, with supporting biochemical and cellular data. However, the manuscript extends far beyond the direct evidence into a broad theoretical framework involving mechanical signalling, binary memory storage, and a new theory of Alzheimer's disease. The structural and biochemical data are plausible but the functional claims, particularly those related to disease mechanism and therapeutic strategy, are largely speculative and not supported by the experimental evidence presented. The manuscript would benefit from a more focused presentation of the direct findings and a clearer separation of data from hypothesis.
+- **Who would be interested in the results, and why** Structural biologists studying protein-protein interactions involving NPxY motifs and FERM domains; cell biologists investigating APP function, synaptic adhesion, and mechanotransduction; and researchers in the Alzheimer's disease field interested in alternative models of APP processing and pathology. The structural data on a new talin binding partner could be of interest to those studying integrin-like signalling complexes.
+- **Major strengths** The crystal structure of the APP/talin1 complex, if validated, provides a novel molecular interaction with potential relevance to synaptic biology. The use of multiple orthogonal techniques (NMR, fluorescence polarisation, PLA, cellular assays) to support the interaction is commendable. The structural modelling integrating published APP domain structures with the new talin interaction is visually compelling and provides a clear framework for future experiments. The authors are transparent about the speculative nature of the hypotheses presented.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural determination
+  - **Claim pointer** The crystal structure of the APP/talin1 complex is reported at 2.7 Å resolution with an Rwork/Rfree of 21.1/26.7.
+  - **Evidence pointer** Methods section "Crystallization, X-Ray Crystallography and Structural Determination"; Supplementary Table 1 (not provided)
+  - **Concern** The crystallographic statistics are presented without the full data collection and refinement table. The Rfree is relatively high (26.7%) and the manuscript does not discuss the quality of the electron density for the APP peptide beyond stating that side chains for N759-F764 could be unambiguously placed. The "daisy chain" arrangement in the crystal, where the APP tail binds a symmetry-related molecule, raises questions about the physiological relevance of the interaction geometry. The authors do not provide any validation of the structure beyond MolProbity scores, and the missing residues (K322, N323) in the F3 domain are not discussed in terms of their potential role in the interaction.
+  - **Why it matters** The structural model is the foundation of the entire manuscript. If the structure is not of sufficient quality or if the crystallographic arrangement does not reflect a physiologically relevant interaction, the subsequent modelling and hypotheses are built on an unsound base. The high Rfree and the lack of detailed validation data prevent a full assessment of the structure's reliability.
+  - **Resolution test** Provide the full crystallographic data table (Supplementary Table 1) and a detailed description of the electron density for the APP peptide, including a figure showing the omit map. Discuss the biological relevance of the "daisy chain" arrangement and provide evidence (e.g., mutagenesis, solution studies) that the observed interface is relevant in a cellular context.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for functional claims
+  - **Claim pointer** "talin1 depletion has a dramatic effect on APP processing in cells" and "Our results support the involvement of talin expression level in the regulation of APP processing."
+  - **Evidence pointer** Results section "Talin1 depletion dramatically alters APP processing in cells"; Figure 5 (not provided)
+  - **Concern** The manuscript states that talin1 silencing leads to increased mature APP levels and accumulation of CTFα, CTFβ, and Aβ, but the actual data are not shown. No quantification, statistical analysis, or representative blots are presented. The claim of a "dramatic effect" is therefore not verifiable from the provided material. Furthermore, the mechanism by which talin1 depletion affects APP processing is not explored. It is unclear whether this is a direct effect of losing the APP/talin interaction or an indirect consequence of altered cytoskeletal dynamics or cell adhesion.
+  - **Why it matters** This is the only direct functional data linking the proposed interaction to APP biology. Without seeing the data and its quality, the central claim that talin regulates APP processing is unsubstantiated. The lack of mechanistic insight also limits the interpretation of the result.
+  - **Resolution test** Show the Western blot data and Aβ quantification with appropriate statistical analysis. Include a dose-response or rescue experiment (e.g., re-expression of talin1) to confirm specificity. Provide a mechanistic hypothesis, supported by data, for how talin1 depletion alters APP processing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Overreach of conclusions
+  - **Claim pointer** The six hypotheses presented in the Discussion, including the proposal that APP is a "mechanocoupler" and that AD involves "loss of mechanical integrity of the synapse" and "corruption and loss of mechanical binary data."
+  - **Evidence pointer** Discussion section, Hypotheses 1-6
+  - **Concern** The Discussion is presented as a series of hypotheses, which is appropriate, but the language often blurs the line between speculation and established fact. For example, the statement that "APP processing would therefore provide an essential signalling function in maintaining the mechanical integrity of the synapse" is presented as a logical conclusion from the structural data, but there is no direct experimental evidence for this. The connection to the MeshCODE theory and binary memory storage is highly speculative and goes well beyond the data presented. The claim that "mis-regulation of APP dynamics results in loss of mechanical integrity of the synapse, corruption and loss of mechanical binary data" is presented as a hypothesis but is not clearly framed as such in the abstract.
+  - **Why it matters** The manuscript's impact and potential for over-interpretation by the broader community depend on a clear distinction between data and hypothesis. The current presentation risks overstating the implications of the findings, which could mislead readers and hinder the development of more focused follow-up studies.
+  - **Resolution test** Clearly label the hypotheses as speculative and untested. In the abstract, avoid presenting the mechanical signalling framework as a conclusion. Consider moving the detailed theoretical discussion to a separate section or a "Perspectives" piece, and focus the main text on the direct experimental findings.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Relevance of the interaction in a cellular context
+  - **Claim pointer** The manuscript implies that the APP/talin interaction is relevant in neurons and at synapses, based on PLA data and co-localisation with Homer.
+  - **Evidence pointer** Results section "Talin1 is in close proximity to APP in synapses"; Figure 3E-H (not provided)
+  - **Concern** The PLA data are described but not shown. The specificity of the PLA signal is supported by siRNA knockdown, but the images and quantification are not provided. The co-localisation with Homer is presented as evidence for synaptic localisation, but the resolution of the assay and the degree of co-localisation are not quantified. The manuscript does not address whether the interaction is direct in cells or whether it is mediated by other proteins. The affinity measured in solution (Kd in the range of 100-1000 µM for integrin) is weak, and the authors do not discuss how this weak affinity might be overcome in a cellular context (e.g., by avidity, post-translational modifications, or localisation).
+  - **Why it matters** The physiological relevance of the interaction is a key claim. If the interaction is not shown to occur in cells at relevant concentrations and locations, the structural and biochemical data are of limited biological significance.
+  - **Resolution test** Provide representative PLA images and quantification, including negative controls. Show co-localisation statistics with Homer. Discuss the affinity in the context of cellular avidity and provide evidence for a direct interaction in cells (e.g., co-immunoprecipitation of endogenous proteins).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure references
+  - **Affected element** Figure 1
+  - **Evidence pointer** Introduction and Results sections
+  - **Issue** The manuscript refers to Figure 1D, E showing APP isoforms drawn to scale, but the figure itself is not provided. The text describing the domain structure and the invariant linker length is important for the modelling, but it is difficult to assess without the figure.
+  - **Required correction** Ensure the figure clearly shows the domain boundaries, the linker, and the scale. Add a scale bar and label all domains and the NPxY motif.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 5
+  - **Evidence pointer** Results section "Talin1 depletion dramatically alters APP processing in cells"
+  - **Issue** The text states that talin1 silencing is associated with a "significant increase" in fluorescence levels, but no statistical details are provided.
+  - **Required correction** Report the number of independent experiments, the statistical test used, and the p-values. Show error bars on all graphs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, Hypothesis 2
+  - **Issue** The comparison to Notch signalling is interesting, but the authors do not discuss the key differences, such as the fact that Notch cleavage is a one-way switch, whereas APP processing is a continuous cycle of cleavage and recycling.
+  - **Required correction** Add a brief discussion of the differences between Notch and APP signalling to strengthen the analogy and avoid over-simplification.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The term "mechanical basis of Alzheimer's Disease" in the title and abstract is strong and may be misleading given the speculative nature of the hypotheses. The term "mechanical" is used in multiple contexts (mechanical coupling, mechanical signalling, mechanical memory) which could be confusing.
+  - **Required correction** Consider using more precise language, such as "a potential mechanical component" or "a mechanical hypothesis for," and define the different uses of "mechanical" early in the manuscript.
+- **Technical failings that need to be addressed before the case is established** The crystallographic data and validation are not fully presented (R1-M1). The functional data on talin1 depletion and APP processing are not shown or quantified (R1-M2). The PLA data supporting the cellular relevance of the interaction are not shown (R1-M4).
+- **Assessment against Nature-style criteria** **Originality:** The structural finding of an APP/talin complex is novel and of potential interest. The theoretical framework, while speculative, is original. **Scientific importance:** The potential link between APP, talin, and mechanical signalling in the context of AD is important if substantiated. However, the current evidence is insufficient to establish this link. **Interdisciplinary readership:** The topic has the potential to appeal to structural biologists, cell biologists, and neuroscientists. The broad theoretical claims may attract wider interest but also risk alienating readers who find them unsupported. **Technical soundness:** The structural determination appears plausible but is not fully validated in the provided text. The biochemical and cellular data are described but not shown, preventing a full assessment. **Readability for nonspecialists:** The manuscript is generally well-written and the hypotheses are clearly stated, but the distinction between data and speculation needs to be sharper. The abstract is accessible but overstates the conclusions.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript contains a potentially interesting structural result, but the key functional claims are not supported by the data as presented. The authors should be encouraged to resubmit a revised version that focuses on the direct evidence, provides all supporting data, and clearly separates the experimental findings from the speculative hypotheses. Supportive if technical concerns are resolved and the scope is narrowed.
+
+## Risk / unsupported claims
+- The claim that talin1 depletion has a "dramatic effect" on APP processing is unsupported as the data are not shown.
+- The claim that the APP/talin interaction is relevant at synapses is not fully supported as the PLA data are not shown and the co-localisation with Homer is not quantified.
+- The six hypotheses presented in the Discussion, particularly those related to mechanical memory storage and the spread of AD, are speculative and not directly supported by the experimental data.
+- The statement in the abstract that the findings "indicate a mechanical basis of Alzheimer's Disease" is an overreach given the evidence presented.
+- The physiological relevance of the weak binding affinity (Kd in the 100-1000 µM range) is not addressed.

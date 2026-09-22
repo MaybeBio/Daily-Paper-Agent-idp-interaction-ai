@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, figure captions referenced, references list, acknowledgements)
+- **Assessment boundary** Scientific content, methodology, internal consistency, and support for claims as presented in the provided text. No assessment of supplementary material beyond what is referenced.
+- **Shared manuscript claim summary** The authors investigate the effect of macromolecular crowding on chemically active droplets using particle-based and field-based simulations. They report that increasing crowder concentration reduces individual droplet size but increases the total volume of the dense phase, contrary to equilibrium expectations. They attribute this to depletion interactions and enhanced reaction rates rather than purely diffusional slowing.
+- **Visible evidence base** Main text with descriptions of particle-based simulations (Figs. 1, 2), field-based simulations (Fig. 3), and an analytical scaling argument. References to Supplemental Material (Sections I–IV) are made but not provided.
+- **Missing materials affecting confidence** The Supplemental Material (SM) is referenced for simulation details, critical nucleation volume measurements, phase portraits, and robustness checks. Without the SM, several quantitative claims cannot be fully verified. Figure data are described but not shown in the provided text.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the biophysics of biomolecular condensates, namely the role of macromolecular crowding on chemically active droplets. The combination of particle-based and field-based simulations is appropriate and complementary. The main finding, that crowding reduces droplet size while increasing dense-phase volume, is counterintuitive and potentially significant. However, the manuscript as presented has several weaknesses that prevent full assessment. The reliance on the SM for key quantitative details, the lack of a clear mechanistic decomposition of the competing effects, and the absence of a direct comparison between the two simulation approaches in a common parameter regime limit the strength of the conclusions. The analytical argument is useful but does not fully capture the reported phenomenology. Overall, the work is promising but requires substantial revision and additional analysis before the claims are fully established.
+- **Who would be interested in the results, and why** Researchers in biophysics, soft matter physics, and physical chemistry studying phase separation, biomolecular condensates, and active matter. The results are also relevant to those interested in the physical chemistry of crowded cellular environments and the nonequilibrium thermodynamics of droplets. The methodological comparison between particle-based and field-based approaches will interest computational soft matter scientists.
+- **Major strengths** The study addresses a realistic and under-explored aspect of condensate physics, namely crowding. The use of two complementary simulation methodologies is a strength. The finding that crowding reduces droplet size while increasing dense-phase volume is counterintuitive and challenges simple equilibrium-based expectations. The authors make a reasonable effort to decouple diffusional and depletion effects through the implicit vs. explicit crowders comparison.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that crowding reduces droplet size while increasing the total dense-phase volume is presented as the central result, supported by Figs. 1 and 2.
+  - **Evidence pointer** Fig. 1 (a), (b); Fig. 2 (a)–(c); location not provided for quantitative values
+  - **Concern** The quantitative support for the central claim is not fully visible in the provided text. The figures are described but not shown, and the key numerical values (e.g., the magnitude of the droplet size reduction, the increase in dense-phase volume, and the statistical significance of these trends) are not stated. The SM is referenced for details, but without it, the reader cannot assess the robustness of the reported trends across the range of crowder volume fractions studied.
+  - **Why it matters** The central conclusion of the manuscript rests on the quantitative behavior of droplet size and dense-phase volume as functions of crowder concentration. Without visible quantitative evidence, the claim cannot be evaluated.
+  - **Resolution test** Provide the key quantitative results in the main text, including the range of crowder volume fractions studied, the magnitude of the observed changes, and error estimates or statistical measures. If space is limited, a summary table or a more detailed figure caption could suffice.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic attribution
+  - **Claim pointer** The authors attribute the observed reduction in droplet size to a combination of reduced diffusivity, reduced dilute-phase density, and enhanced reaction rates, with depletion interactions playing a key role.
+  - **Evidence pointer** Fig. 3 (b)–(d); Discussion section; location not provided
+  - **Concern** The mechanistic decomposition is not fully convincing. The implicit simulations show that reduced diffusivity alone leads to smaller droplets, but the authors state that this does not account for the increase in dense-phase volume or the reduced critical nucleation volume. The field-based simulations are used to argue that depletion and enhanced reaction rates are responsible, but the connection between the field-based parameters and the particle-based parameters is not established. The claim that reaction rates are enhanced by crowding is supported by Fig. 3 (d), but the mechanism for this enhancement is not explained.
+  - **Why it matters** The manuscript aims to identify the underlying mechanisms. If the attribution is not clearly supported, the conclusions are weakened.
+  - **Resolution test** Provide a more explicit comparison between the implicit and explicit simulations in terms of the same observables, and show that the difference can be attributed to depletion and reaction enhancement. Explain the physical origin of the reaction rate enhancement with crowding. Consider a parameter scan in the field-based model that isolates the effect of depletion from reaction enhancement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Analytical argument consistency
+  - **Claim pointer** The scaling argument predicts R ~ sqrt(D_B * phi_B^0 / K_BA), and the authors state that all three factors (reduced D_B, reduced phi_B^0, enhanced K_BA) contribute to reduced droplet size.
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** The scaling argument is presented as a rationalization, but it is not quantitatively tested against the simulation results. The authors do not show whether the predicted scaling holds, or whether the relative contributions of the three factors are consistent with the simulations. The argument also assumes a single isolated droplet, while the simulations involve many interacting droplets.
+  - **Why it matters** A quantitative test of the scaling argument would strengthen the mechanistic interpretation and provide a predictive framework.
+  - **Resolution test** Compare the scaling prediction with simulation results, e.g., by plotting the steady-state droplet radius against the predicted combination of parameters. Discuss the limitations of the single-droplet assumption.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Particle-based simulations description
+  - **Evidence pointer** Section "Particle-based simulations"; location not provided
+  - **Issue** The description of the reaction scheme is brief. The rates k_p and k_a are mentioned, but their functional dependence on local density or composition is not specified in the main text. The SM is referenced, but the main text should provide enough detail for the reader to understand the model.
+  - **Required correction** Briefly state the functional form of the reaction rates or refer to a specific equation in the SM with a clear description.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Field-based simulations
+  - **Evidence pointer** Section "Field-based simulations"; Eq. (1); location not provided
+  - **Issue** The field-based model is described only briefly. The free energy functional is given, but the parameters (e.g., the Flory-Huggins chi parameters, the interfacial width kappa, the diffusivities) are not specified in the main text. The SM is referenced, but the main text should give a sense of the parameter regime.
+  - **Required correction** Provide the key parameter values or a reference to a table in the SM with a brief summary in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figures
+  - **Evidence pointer** Figs. 1–3; location not provided
+  - **Issue** The figure captions are not provided in the text. The descriptions in the main text are helpful, but without captions, the reader cannot fully interpret the figures.
+  - **Required correction** Ensure that the figure captions are complete and self-contained, including definitions of all symbols and error bars.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Externally maintained" droplets
+  - **Evidence pointer** Section "Particle-based simulations"; location not provided
+  - **Issue** The term "externally maintained" is used without a clear definition. It is contrasted with "internally maintained" in the literature, but the distinction is not explained.
+  - **Required correction** Briefly define the term or provide a reference to the relevant literature.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The lack of visible quantitative data and the incomplete mechanistic attribution must be addressed. The consistency between the particle-based and field-based models also needs to be established more clearly.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work addresses a novel question, namely the effect of crowding on chemically active droplets, which has not been systematically studied in minimal physical models. The combination of particle-based and field-based approaches is not entirely new, but its application to this problem is original.
+  - **Scientific importance** The results are potentially important for understanding condensate behavior in cellular environments, where crowding is ubiquitous. The counterintuitive finding that crowding reduces droplet size challenges simple equilibrium expectations and could have implications for the regulation of condensate size in cells.
+  - **Interdisciplinary readership** The topic is of interest to biophysicists, soft matter physicists, and physical chemists. The methods and findings are likely to be accessible to these communities, though the manuscript assumes familiarity with phase separation and active matter concepts.
+  - **Technical soundness** The simulation methodologies are appropriate, and the comparison between implicit and explicit crowders is a good approach. However, the lack of visible quantitative data and the incomplete mechanistic decomposition are weaknesses that need to be addressed.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, some terms and concepts (e.g., "externally maintained", the reaction scheme) could be explained more clearly for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central question is timely and the approach is sound, but the evidence as presented is not fully sufficient to establish the claims. The authors should provide the key quantitative data in the main text, strengthen the mechanistic attribution, and clarify the relationship between the two simulation approaches.
+
+## Risk / unsupported claims
+- The claim that crowding reduces droplet size while increasing dense-phase volume is not fully supported by visible quantitative data.
+- The claim that depletion interactions and enhanced reaction rates, rather than diffusional slowing, are the primary mechanisms is not fully established.
+- The scaling argument is presented as a rationalization but is not quantitatively tested.
+- The robustness of the results to changes in model parameters is claimed but only supported by reference to the SM.
+- The relevance of the findings to real cellular environments is stated as a motivation but not directly tested.

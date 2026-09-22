@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and body as provided)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the supplied material; no external data or supplementary files were assessed
+- **Shared manuscript claim summary** The authors report that the piRNA pathway component Piwi6 mediates transcriptional silencing of LTR retrotransposons, including a newly identified endogenous retrovirus AalERV1, in both ovarian and somatic tissues of Aedes albopictus mosquitoes. They propose that Piwi6 acts via nuclear localization and H3K9me3 deposition, and that this mechanism is evolutionarily conserved across arthropods.
+- **Visible evidence base** The provided text includes descriptions of knockout cell lines, RNA-seq, nascent RNA-seq, CUT&Tag, immunofluorescence, and in vivo knockdown experiments. No figures, tables, or numerical data are included in the supplied material.
+- **Missing materials affecting confidence** Figures, tables, statistical analyses, experimental protocols, and supplementary data are not provided. This limits verification of effect sizes, reproducibility, and the robustness of the conclusions.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question about the role of the piRNA pathway in somatic tissues of disease-vector mosquitoes. The identification of Piwi6 as a nuclear regulator of LTR retrotransposon silencing is potentially significant. However, the provided text lacks the quantitative evidence and methodological detail necessary to fully evaluate the claims. The in vivo relevance is promising but the conservation argument is speculative given the limited phylogenetic sampling.
+- **Who would be interested in the results, and why** Researchers studying transposable element biology, piRNA pathways, mosquito genomics, and vector competence. The work may also interest those exploring nuclear functions of PIWI proteins beyond the germline, and those interested in epigenetic regulation in insects.
+- **Major strengths** The study addresses a gap in understanding somatic piRNA functions. The use of multiple complementary approaches (knockout, RNA-seq, CUT&Tag, localization studies, in vivo knockdown) is commendable. The identification of a specific endogenous retrovirus and the link to H3K9me3 provides a clear mechanistic hypothesis.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Piwi6 silences AalERV1 transcriptionally by guiding the deposition of the repressive H3K9me3 histone mark"
+  - **Evidence pointer** "Nascent RNA-sequencing and CUT&Tag analyses" (location not provided)
+  - **Concern** The claim of transcriptional silencing via H3K9me3 requires demonstration that changes in H3K9me3 at the AalERV1 locus are directly dependent on Piwi6 and that this mark is causal for repression. The text does not provide quantitative data on H3K9me3 enrichment or nascent RNA levels, nor does it show that loss of H3K9me3 alone leads to derepression.
+  - **Why it matters** Without direct evidence linking Piwi6 to H3K9me3 deposition and transcriptional repression, the mechanistic model is not established. Alternative explanations, such as post-transcriptional silencing or indirect effects, remain plausible.
+  - **Resolution test** Provide quantitative CUT&Tag data showing H3K9me3 enrichment at AalERV1 in wild-type versus Piwi6 knockout cells, and demonstrate that inhibition of H3K9me3 deposition (e.g., via chemical inhibitors or knockdown of histone methyltransferases) phenocopies the derepression.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Reintroduction of full-length GFP-Piwi6, but not a mutant GFP-Piwi6 defective in nuclear localization, rescued AalERV1 derepression in Piwi6 knockout cells"
+  - **Evidence pointer** "Reintroduction of full-length GFP-Piwi6" (location not provided)
+  - **Concern** The rescue experiment is described but no quantitative data are shown. It is unclear whether the mutant Piwi6 is expressed at comparable levels to the wild-type, whether nuclear localization is completely abolished, and whether the rescue is statistically significant.
+  - **Why it matters** The nuclear localization claim is central to the proposed mechanism. If the mutant is unstable or mislocalized for other reasons, the conclusion that nuclear localization is required for silencing would be weakened.
+  - **Resolution test** Show expression levels and localization of wild-type and mutant Piwi6 by Western blot and immunofluorescence, and provide quantitative rescue data with statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "somatic piRNA-mediated transposon silencing is evolutionarily conserved across arthropod species"
+  - **Evidence pointer** "in vivo as Piwi6 knockdown increased AalERV1 expression in both ovaries and somatic tissues of Ae. albopictus mosquitoes" (location not provided)
+  - **Concern** The conservation claim is based on a single species and a single transposon family. No comparative data from other arthropods are presented, and the text does not discuss the evolutionary context of Piwi6 or its orthologs.
+  - **Why it matters** Overstating conservation from limited data could mislead the field. The claim requires either direct comparative evidence or a more cautious interpretation.
+  - **Resolution test** Either provide data from additional arthropod species or revise the claim to state that the findings are consistent with a potentially conserved mechanism, pending further investigation.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract and introduction
+  - **Evidence pointer** "Despite its well-established function in the animal germline, piRNAs and PIWI proteins are expressed in somatic tissues across arthropod species" (location not provided)
+  - **Issue** The phrase "across arthropod species" is vague and could be misinterpreted as a broad generalization without specific citations.
+  - **Required correction** Specify which arthropod species have been shown to express somatic piRNAs and PIWI proteins, and cite the relevant literature.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods description
+  - **Evidence pointer** "We generated Piwi6 knockout Ae. albopictus cell lines" (location not provided)
+  - **Issue** The method of knockout generation (e.g., CRISPR-Cas9, homologous recombination) is not described, and the number of independent clones used is not stated.
+  - **Required correction** Provide details on the knockout strategy and the number of clones analyzed to ensure reproducibility and rule out off-target effects.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** In vivo experiments
+  - **Evidence pointer** "Piwi6 knockdown increased AalERV1 expression in both ovaries and somatic tissues" (location not provided)
+  - **Issue** The method of knockdown (e.g., siRNA, dsRNA) and the efficiency of knockdown are not reported, nor is the number of biological replicates.
+  - **Required correction** Specify the knockdown method, provide knockdown efficiency data, and state the number of replicates and statistical tests used.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is original in its focus on somatic piRNA function in mosquitoes, but the concept of nuclear PIWI-mediated silencing is not entirely new. The specific identification of AalERV1 and the link to H3K9me3 adds novelty.
+  - Scientific importance: The findings could have implications for understanding transposon control in disease vectors, but the conservation claim is overstated and the mechanistic evidence is incomplete.
+  - Interdisciplinary readership: The topic will appeal to molecular biologists, entomologists, and evolutionary biologists, but the current presentation may not be accessible to nonspecialists due to jargon and lack of context.
+  - Technical soundness: The experimental design is reasonable, but the lack of quantitative data and methodological detail prevents full assessment.
+  - Readability for nonspecialists: The abstract is clear, but the body text assumes familiarity with piRNA biology and may benefit from a brief primer on key concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the experimental approach is appropriate, but the current evidence does not fully establish the mechanistic claims or the conservation argument.
+
+## Risk / unsupported claims
+- The claim that Piwi6 directly guides H3K9me3 deposition is not supported by the provided data, as no quantitative enrichment or causality data are shown.
+- The claim that nuclear localization is required for silencing is not fully supported without quantitative rescue data and proper controls.
+- The claim of evolutionary conservation across arthropods is unsupported by the data presented, which only include a single species.
+- The identification of AalERV1 as a "full-length endogenous retrovirus" is stated without evidence of its genomic structure or intactness.

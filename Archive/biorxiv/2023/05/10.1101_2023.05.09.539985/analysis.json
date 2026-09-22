@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.09.539985",
+  "title": "MeCP2 binds to methylated DNA independently of phase separation and heterochromatin organisation",
+  "authors": "Pantier R; Brown M; Han S; Paton K; Meek S; Montavon T; McHugh T; Kelly DA; Hochepied T; Libert C; Jenuwein T; Burdon T; Bird A",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-10",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究MeCP2与甲基化DNA结合，反驳其通过相分离形成凝聚体的观点，对象涉及IDR但非PPI机制建模，且无AI/物理模拟方法，仅提供相关性证据，对本课题启发有限。",
+  "abstract": "Correlative evidence has suggested that DNA methylation promotes the formation of transcriptionally silent heterochromatin. Accordingly, the methyl-CpG binding domain protein MeCP2 is often portrayed as a constituent of heterochromatin. This interpretation has been reinforced by the use of mouse cells as an experimental system for studying the mammalian epigenome, as heterochromatin, DNA methylation and MeCP2 colocalise in prominent foci. The findings presented here revise this view. We show that focal localisation of MeCP2 in mice is independent of heterochromatin, as DNA methylation-dependent MeCP2 foci persist even when the signature heterochromatin histone mark H3K9me3 is absent and heterochromatin protein HP1 is diffuse. Contrary to the proposal that MeCP2 forms condensates at mouse heterochromatic foci via liquid-liquid phase transition, the short methyl-CpG binding domain, which lacks the disordered domains thought to be required for condensation, is sufficient to target foci in mouse cells. Importantly, we find that the formation of MeCP2 foci in mice is highly atypical, as they are indetectable in 14 out of 16 other mammalian species, including humans. Notably, MeCP2 foci are absent in Mus spretus which can interbreed with Mus musculus but lacks its highly methylated pericentric satellite DNA repeats. We conclude that MeCP2 has no intrinsic tendency to form nuclear condensates and its localisation is independent of heterochromatin formation. Instead, the distribution of MeCP2 in the nucleus is primarily determined by global DNA methylation patterns and is typically euchromatic.",
+  "abstract_zh": "相关证据提示DNA甲基化促进转录沉默异染色质的形成。因此，甲基-CpG结合域蛋白MeCP2常被描述为异染色质的组成部分。这一解释因使用小鼠细胞作为研究哺乳动物表观基因组的实验系统而得到加强，因为在显著灶点中，异染色质、DNA甲基化和MeCP2共定位。本文呈现的发现修正了这一观点。我们显示，小鼠中MeCP2的灶点定位独立于异染色质，因为即使标志性异染色质组蛋白标记H3K9me3缺失且异染色质蛋白HP1呈弥散分布时，DNA甲基化依赖的MeCP2灶点仍然存在。与MeCP2通过液-液相分离在小鼠异染色质灶点形成凝聚体的提议相反，缺乏被认为凝聚所需无序结构域的短甲基-CpG结合域，足以靶向小鼠细胞中的灶点。重要的是，我们发现小鼠中MeCP2灶点的形成高度非典型，因为在包括人类在内的其他16种哺乳动物物种中，有14种检测不到这些灶点。值得注意的是，在Mus spretus中，MeCP2灶点缺失，该物种能与Mus musculus杂交，但缺乏其高度甲基化的着丝粒周围卫星DNA重复序列。我们得出结论，MeCP2没有内在形成核凝聚体的倾向，其定位独立于异染色质形成。相反，MeCP2在核内的分布主要由全局DNA甲基化模式决定，且通常呈常染色质特征。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.09.539985",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.09.539985",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.09.539985/index.html"
+}

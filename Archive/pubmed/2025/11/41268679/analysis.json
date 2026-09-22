@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41268679",
+  "title": "The Liquid State of RIM1alpha and RBP Condensates is Maintained by Lipids.",
+  "authors": "Fischer, Charlotte M; Toprakcioglu, Zenon; de Csillery, Ella; Kaminski Schierle, Gabriele S; Knowles, Tuomas P J",
+  "journal": "ACS nano",
+  "published_date": "2025-11-21",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究突触前蛋白RIM1alpha与RBP的液-液相分离及液-固转变，并发现脂质维持凝聚体液态，虽聚焦相分离机制但以实验为主，缺乏AI或物理模拟方法，故评6分。",
+  "abstract": "At the presynapse, RIM1alpha and RIM-binding protein (RBP) play a crucial role in regulating vesicle docking and priming. Emerging evidence suggests that these proteins are involved in the organization of the active zone where they cluster with membrane proteins and lipids, forming protein condensates driven by liquid-liquid phase separation (LLPS). While protein phase separation has been associated with cellular function, it has also been linked to various disorders, as liquid condensates can promote protein aggregation, leading to dysfunction. In this work, we investigated the phase behavior of RIM1alpha and RBP. We find that under physiological conditions and in the absence of crowding agents, RIM1alpha and RBP have the ability to spontaneously form biomolecular condensates. Moreover, these liquid condensates have the propensity to mature over time, resulting in a liquid-to-solid transition. Using a combination of fluorescence microscopy with biophysical techniques and characterization methods, we confirm that these solid aggregates are beta-sheet-rich and fibrillar in nature. These observations not only add to the growing evidence that supports that RIM1alpha and RBP can phase separate, but we also show that these proteins can aggregate into fibrillar structures within condensates. Finally, we find that in the presence of lipid vesicles, this liquid-to-solid transition is suppressed, indicating the potential role that lipids play in maintaining the liquid state of RIM1alpha/RBP condensates. In the context of protein aggregation, these biophysical observations report on the mechanisms behind the phase separation and subsequent aggregation of RIM1alpha and RBP.",
+  "abstract_zh": "在突触前膜，RIM1alpha和RIM结合蛋白（RBP）在调控囊泡对接和启动中发挥关键作用。新兴证据表明，这些蛋白参与活性区的组织，在该区域它们与膜蛋白和脂质聚集，形成由液-液相分离（LLPS）驱动的蛋白凝聚体。虽然蛋白相分离与细胞功能相关，但它也与多种疾病有关，因为液态凝聚体可促进蛋白聚集，导致功能障碍。在本工作中，我们研究了RIM1alpha和RBP的相行为。我们发现，在生理条件下且无拥挤剂存在时，RIM1alpha和RBP能够自发形成生物分子凝聚体。此外，这些液态凝聚体随时间推移具有成熟倾向，导致液-固转变。通过结合荧光显微镜与生物物理技术和表征方法，我们确认这些固态聚集体富含β-折叠且具有纤维状性质。这些观察不仅增加了支持RIM1alpha和RBP可发生相分离的日益增多的证据，而且我们还表明这些蛋白能在凝聚体内聚集成纤维状结构。最后，我们发现，在脂质囊泡存在时，这种液-固转变被抑制，表明脂质在维持RIM1alpha/RBP凝聚体液态状态中可能发挥的作用。在蛋白聚集的背景下，这些生物物理观察揭示了RIM1alpha和RBP相分离及随后聚集背后的机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41268679/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41268679/",
+  "paper_page_path": "papers/pubmed/41268679/index.html"
+}

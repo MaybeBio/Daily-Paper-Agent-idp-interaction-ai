@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.10.06.463336",
+  "title": "Alphavirus infection triggers selective cytoplasmic translocation of nuclear RBPs with moonlighting antiviral roles",
+  "authors": "Kamel W; Ruscica V; Embarc-Buh A; de Laurent ZR; Garcia-Moreno M; Demyanenko Y; Madhusudhan M; Iselin L; Järvelin A; Hannan M; Kitano E; Moore S; Merits A; Davis I; Mohammed S; Castello A",
+  "journal": "bioRxiv",
+  "published_date": "2021-10-08",
+  "window": {
+    "start": "2021-10-04",
+    "end": "2021-10-10"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过病毒RNA互作组捕获鉴定宿主核内RNA结合蛋白在甲病毒感染的胞质转位及抗病毒功能，对象为病毒RNA-蛋白互作而非无序蛋白/IDR，且无AI或物理模拟方法，仅与PPI机制间接相关。",
+  "abstract": "RNA is a central molecule for RNA viruses, acting as mRNA and genome. However, the interactions that viral (v)RNA establishes with the host cell is only starting to be elucidated. Here, we determine with unprecedented depth the composition of the ribonucleoproteins (RNPs) of the prototypical arthropod-borne Sindbis virus (SINV) using viral RNA interactome capture. We show that SINV RNAs engage with hundreds of cellular proteins and pathways, including a group of nuclear RNA-binding proteins (RBPs) with unknown roles in infection. Combining subcellular fractionation and proteomics with several orthogonal approaches, we demonstrate that these nuclear RBPs are selectively redistributed to the cytoplasm after infection, where they associate with the viral replication organelles. These nuclear RBPs potently supress viral gene expression, with activities spanning viral species and families. Our study provides a comprehensive and systematic analysis of SINV RNP composition, revealing a network of nuclear RBPs with moonlighting antiviral function. <h4>Research highlights</h4> SINV RNAs interact with over four hundred cellular RBPs SINV induces selective cytoplasmic translocation of a subset of nuclear RBPs These nuclear RBPs display potent antiviral effects The SF3B complex binds to SINV RNA and supresses infection in a splicing-independent manner",
+  "abstract_zh": "RNA是RNA病毒的核心分子，兼具mRNA和基因组的功能。然而，病毒（v）RNA与宿主细胞之间建立的相互作用才刚刚开始被阐明。在此，我们利用病毒RNA相互作用组捕获技术，以前所未有的深度解析了典型节肢动物传播的辛德比斯病毒（SINV）的核糖核蛋白（RNPs）组成。我们表明，SINV RNAs与数百种细胞蛋白和通路相互作用，包括一组在感染中作用未知的核RNA结合蛋白（RBPs）。结合亚细胞分级分离和蛋白质组学与多种正交方法，我们证明这些核RBPs在感染后被选择性重新分布至细胞质，并在那里与病毒复制细胞器相关联。这些核RBPs强烈抑制病毒基因表达，其活性跨越病毒物种和家族。我们的研究提供了对SINV RNP组成的全面系统性分析，揭示了一个具有兼职抗病毒功能的核RBPs网络。<h4>研究亮点</h4> SINV RNAs与超过四百种细胞RBPs相互作用 SINV诱导特定核RBPs亚群的细胞质选择性转位 这些核RBPs显示出强效抗病毒效应 SF3B复合物结合SINV RNA并以剪接非依赖方式抑制感染",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.10.06.463336",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.10.06.463336",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.10.06.463336/index.html"
+}

@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "41278852",
+    "doi": "10.1101/2025.11.06.687016",
+    "title": "The Role of Linker Length and Composition in Actin Binding and Bundling by Palladin."
+  },
+  "content": {
+    "abstract": "Interdomain linkers in multidomain proteins influence spatial arrangement, flexibility, and cooperative binding, yet their functional roles remain underexplored. Palladin, an actin scaffold protein essential for cytoskeletal organization, contains tandem immunoglobulin domains (Ig3-4) separated by an unusually long (~41-residue), arginine-rich, intrinsically disordered linker. While Ig3 mediates direct F-actin binding, the adjacent Ig4 domain and linker enhance binding and bundling, suggesting active roles beyond passive connection. Using targeted mutagenesis, actin co-sedimentation, bundling assays, and SAXS, we show that linker length, charge, and residue patterning are critical for activity. Shortening or replacing the 41-residue linker with the native Ig4-Ig5 linker reduced binding and abolished bundling, while small internal deletions decreased affinity but unexpectedly increased bundling efficiency. Neutralizing basic residues eliminated activity, increasing net positive charge favored bundling at the cost of binding affinity, and scrambling the sequence impaired both functions-demonstrating that electrostatic tuning and residue order, not just net charge, are essential. SAXS revealed that the native linker supports a broad, dynamic interdomain ensemble, enabling multiple binding-competent geometries. Shortened linkers restricted this conformational space, locking domains in extended orientations incompatible with efficient actin engagement. These results establish the Ig3-Ig4 linker as a finely tuned structural and electrostatic module that coordinates domain flexibility and filament crosslinking. More broadly, these findings highlight long, intrinsically disordered linkers as active determinants of cytoskeletal scaffold function, providing a general mechanism for modulating multivalent interactions in actin-binding proteins.",
+    "keywords": [
+      "actin binding protein",
+      "immunoglobulin-like domain",
+      "linker regions",
+      "palladin",
+      "tandem domain repeats"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sargent, Rachel A",
+        "Bradford, Colby W",
+        "Hughes, Lauren M",
+        "Ta, Nathan H",
+        "Limpiado, MarcArthur J",
+        "Vattepu, Ravi",
+        "Brungardt, Joseph G",
+        "Beck, Moriah R"
+      ],
+      "short_names": [
+        "Sargent RA",
+        "Bradford CW",
+        "Hughes LM",
+        "Ta NH",
+        "Limpiado MJ",
+        "Vattepu R",
+        "Brungardt JG",
+        "Beck MR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1004-7147"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA.",
+        "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA.",
+        "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA.",
+        "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA.",
+        "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA.",
+        "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA.",
+        "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA.",
+        "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sargent, Rachel A",
+        "short_name": "Sargent RA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA."
+        ]
+      },
+      {
+        "full_name": "Bradford, Colby W",
+        "short_name": "Bradford CW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA."
+        ]
+      },
+      {
+        "full_name": "Hughes, Lauren M",
+        "short_name": "Hughes LM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA."
+        ]
+      },
+      {
+        "full_name": "Ta, Nathan H",
+        "short_name": "Ta NH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA."
+        ]
+      },
+      {
+        "full_name": "Limpiado, MarcArthur J",
+        "short_name": "Limpiado MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA."
+        ]
+      },
+      {
+        "full_name": "Vattepu, Ravi",
+        "short_name": "Vattepu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA."
+        ]
+      },
+      {
+        "full_name": "Brungardt, Joseph G",
+        "short_name": "Brungardt JG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA."
+        ]
+      },
+      {
+        "full_name": "Beck, Moriah R",
+        "short_name": "Beck MR",
+        "identifiers": [
+          "0000-0003-1004-7147"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Wichita State University, Wichita, Kansas, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Nov 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 18:21",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38588275",
+      "37269287",
+      "34216059",
+      "33833657",
+      "30392063",
+      "30122033",
+      "29490245",
+      "28808438",
+      "26889708",
+      "26607837",
+      "25484842",
+      "25307943",
+      "23663845",
+      "23524582",
+      "23225024",
+      "23055910",
+      "21314430",
+      "20471940",
+      "20110992",
+      "19466753",
+      "18978809",
+      "18851336",
+      "18180288",
+      "17411046",
+      "17331538",
+      "16492705",
+      "15950489",
+      "15923225",
+      "15880774",
+      "14983521",
+      "14594947",
+      "14506471",
+      "11892283",
+      "11237011",
+      "9541533",
+      "4254541",
+      "2351691"
+    ],
+    "similar": [
+      "41278852",
+      "41553766",
+      "41578973",
+      "18180288",
+      "37027210",
+      "25307943",
+      "27487483",
+      "23806659",
+      "26607837",
+      "40248864",
+      "26288220",
+      "28864776",
+      "39229147",
+      "33328310",
+      "27974828",
+      "41015114",
+      "40666912",
+      "36306263",
+      "26327373",
+      "28011271",
+      "41102979",
+      "15751987",
+      "32520642",
+      "17827159",
+      "20366178",
+      "24027208",
+      "23687615",
+      "40887664",
+      "31871036",
+      "23355471",
+      "30019371",
+      "32797644",
+      "28694070",
+      "18835565",
+      "26553976",
+      "19284992",
+      "20471940",
+      "31659043",
+      "20417732",
+      "34390855",
+      "17547371",
+      "23546604",
+      "29636431",
+      "29078291",
+      "36311348",
+      "19895707",
+      "30844403",
+      "23946424",
+      "29997204",
+      "16492705",
+      "10470015",
+      "37734553",
+      "20536449",
+      "31518611",
+      "16556604",
+      "19847840",
+      "15561150",
+      "30057320",
+      "38405682",
+      "32800921",
+      "38826190",
+      "20869367",
+      "35994621",
+      "31032817",
+      "8433963",
+      "32848067",
+      "20184389",
+      "39093617",
+      "40578670",
+      "18331358",
+      "11956202",
+      "11096113",
+      "15731355",
+      "20542041",
+      "14983521",
+      "28388671",
+      "39360826",
+      "28754691",
+      "10588661",
+      "27353427",
+      "40196613",
+      "21685497",
+      "29929984",
+      "21327074",
+      "21050850",
+      "26344835",
+      "11598191",
+      "17535256",
+      "1899024",
+      "41274547",
+      "20593886",
+      "36321948",
+      "23912807",
+      "19841658",
+      "1385810",
+      "37390893",
+      "21642440",
+      "19501595",
+      "17606992",
+      "25246531"
+    ],
+    "review": [
+      "41278852",
+      "24027208"
+    ],
+    "pmc": [
+      "12637626"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41278852/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.11.06.687016",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

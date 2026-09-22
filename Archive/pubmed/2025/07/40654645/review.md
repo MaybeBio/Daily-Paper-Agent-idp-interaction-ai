@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report all-atom molecular dynamics simulations of full-length FUS in dilute and condensed phases, comparing two force fields, and propose that folded domain stability modulates chain dimensions and that electrostatic interactions in the condensate correlate with those in the dilute phase.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or validation data are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameter details, convergence analyses, and experimental comparison data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable computational study addressing a challenging problem, namely the atomistic characterization of full-length FUS conformational behavior and phase separation. The use of all-atom simulations for a full-length protein in both dilute and condensed phases is ambitious and of interest to the biomolecular condensate community. However, the abstract alone provides insufficient quantitative detail to evaluate the robustness of the claims. The central assertions regarding force field performance, folded domain stability effects, and the correlation between dilute and condensed phase interactions are stated without supporting numbers or statistical measures. The study appears technically demanding, but the evidence base visible here does not yet establish the case.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, intrinsically disordered proteins, and RNA-binding proteins would find these results relevant. The comparison of force fields for simulating full-length proteins with folded and disordered regions is also of interest to the molecular simulation community. Those working on FUS-related pathologies, such as amyotrophic lateral sclerosis and frontotemporal dementia, may value the molecular-level insights, though the therapeutic relevance is stated rather than demonstrated.
+- **Major strengths** The study addresses a biologically important and technically challenging system, namely full-length FUS, which is difficult to study experimentally due to low solubility. The comparison of two modern force fields is a useful contribution to the simulation community. The inclusion of both dilute and condensed phase simulations within a single framework is ambitious and potentially informative. The observation that folded domain stability affects chain dimensions is a plausible and mechanistically interesting claim.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that the two force fields produced qualitatively similar intramolecular interaction profiles dominated by IDRs, and that folded domain stabilities led to discrepancies compared to experimental data.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No quantitative data are presented to support the claim of qualitative similarity between force fields, nor to substantiate the discrepancies with experimental data. The abstract does not report any numerical measures of interaction profiles, chain dimensions, or folded domain stability.  
+  - **Why it matters** Without quantitative comparison, the reader cannot assess whether the similarity between force fields is meaningful or whether the discrepancies with experiment are within acceptable ranges. This claim is central to the paper's contribution regarding force field evaluation.  
+  - **Resolution test** Provide quantitative metrics such as interdomain contact maps, radius of gyration distributions, and root-mean-square deviation of folded domains for both force fields, with statistical uncertainties and comparison to experimental values where available.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that the Amber ff99SBws-STQ force field with ZAFF bond parameters maintained stable folded domains and improved estimates of chain dimensions.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The claim of improvement is not supported by any numerical comparison. The abstract does not state the magnitude of improvement, the reference experimental values used, or the criteria for stability.  
+  - **Why it matters** This is a specific and actionable claim about force field choice that other researchers may adopt. Without quantitative evidence, the recommendation is not verifiable.  
+  - **Resolution test** Report numerical values for folded domain stability, such as root-mean-square fluctuation or native contact fraction, and chain dimensions, such as radius of gyration, for both force fields with and without ZAFF parameters, compared to experimental measurements.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that a microsecond-timescale simulation of the FL FUS condensate revealed an extensive network of electrostatic interactions strongly correlated with those modulating dilute phase chain dimensions.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The correlation between condensed and dilute phase interactions is stated without any statistical measure, such as a correlation coefficient, or any description of how the interaction networks were defined and compared.  
+  - **Why it matters** This correlation claim is the key conceptual bridge between the two simulation regimes and is presented as a major finding. Without quantitative support, the claim is not assessable.  
+  - **Resolution test** Provide a defined metric for interaction networks, such as residue-residue contact probabilities or electrostatic interaction energies, and report the correlation coefficient with appropriate significance testing.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract implies that the simulation results are reliable enough to draw conclusions about FUS conformational transitions and phase separation.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No information is provided on simulation length, number of replicas, equilibration protocols, system size, or convergence criteria for either the dilute or condensed phase simulations. For a system as complex as full-length FUS, sampling adequacy is a critical concern.  
+  - **Why it matters** Without evidence of adequate sampling, the conformational ensembles and interaction networks reported may not be converged, undermining all subsequent claims.  
+  - **Resolution test** Provide details on simulation length, replica number, convergence metrics such as block averaging or time series of key observables, and system composition for both dilute and condensed phase simulations.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The phrase "qualitatively similar intramolecular interaction profiles" is vague and could encompass a wide range of outcomes.  
+  - **Required correction** Specify which interaction types were compared and in what sense they were similar.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Force field description  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract mentions "bond parameters adopted from the Zinc Amber force field (ZAFF)" but does not clarify which bonds or why this modification was necessary.  
+  - **Required correction** Provide a brief justification and specify the affected residues or bond types.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Therapeutic claim  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The final sentence claims the work aids in developing new therapeutics, but no connection to disease mechanisms or drug targets is made in the abstract.  
+  - **Required correction** Either remove the therapeutic claim or provide a specific link to a disease-relevant mechanism.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient quantitative or methodological detail to establish any of the central claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The study addresses a challenging system and the force field comparison is useful, but the conceptual approach of simulating full-length proteins in dilute and condensed phases is not entirely new. The originality is moderate and depends on the specific findings, which are not visible here.  
+  - Scientific importance: The topic is important for understanding phase separation and FUS biology, but the abstract does not demonstrate that the findings change current understanding in a substantial way.  
+  - Interdisciplinary readership: The work bridges biophysics, computational chemistry, and cell biology, and would appeal to a broad readership if the findings are robust.  
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail and quantitative results prevents evaluation of technical rigor.  
+  - Readability for nonspecialists: The abstract is reasonably clear for a specialist audience but uses jargon such as "ff03ws" and "ff99SBws-STQ" without explanation, which may hinder nonspecialist access.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes an ambitious and potentially valuable study, but the absence of quantitative results and methodological detail means the claims cannot be evaluated. A supportive stance would require the full manuscript to demonstrate sampling adequacy, quantitative force field comparisons, and a statistically supported correlation between dilute and condensed phase interactions.
+
+## Risk / unsupported claims
+- The claim that the two force fields produced qualitatively similar interaction profiles is unsupported without quantitative data.
+- The claim that ff99SBws-STQ with ZAFF parameters improved chain dimension estimates is unsupported without numerical comparison to experimental values.
+- The claim of a strong correlation between condensed and dilute phase electrostatic interactions is unsupported without a defined metric and statistical measure.
+- The claim that folded domain stability significantly influenced chain dimensions is plausible but not quantitatively demonstrated.
+- The therapeutic relevance claim is unsupported by any specific evidence in the abstract.

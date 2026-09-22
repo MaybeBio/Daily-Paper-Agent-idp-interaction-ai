@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and figure legends (figures themselves not provided)
+- **Assessment boundary** Scientific soundness, technical rigor, logical coherence, and support of claims by presented evidence; limited to the provided text
+- **Shared manuscript claim summary** The authors propose that the length and composition of the disordered linker between the αB and αC binding motifs of the HIF-1α CTAD modulate the avidity of its interaction with the TAZ1 domain of CBP/p300, and that this modulation is critical for maintaining the unidirectional nature of the HIF-1α/CITED2 allosteric switch. They support this with mutagenesis, native gel competition assays, fluorescence anisotropy, and NMR spectroscopy.
+- **Visible evidence base** Text descriptions of native gel competition assays (Table 1, Figure 3, Figure S3), fluorescence anisotropy competition experiments (Figures 4, 6, Table 2), NMR chemical shift analyses (Figures 5, 7, S4–S7), sequence alignments (Figure 2, S1), and AlphaFold 3 structural models (Figure S2)
+- **Missing materials affecting confidence** Actual figures and tables are not provided; raw numerical data, error estimates, and statistical analyses are not fully described; NMR relaxation data referenced from prior work are not shown; AlphaFold 3 model confidence metrics are not reported
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in the field of intrinsically disordered proteins and multivalent interactions: how linker properties within disordered binding motifs tune binding avidity and the directionality of a biologically important allosteric switch. The experimental design is logical, combining mutagenesis with multiple biophysical methods. The central claim, that linker length and composition modulate avidity and reversibility, is supported by the described data. However, several technical concerns, particularly regarding the quantitative rigor of the native gel assay, the limited biophysical characterization of the mutants, and the indirect inference of thermodynamic coupling, need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, multivalent interactions, allosteric regulation, and the hypoxia signaling pathway. The work provides a mechanistic example of how disordered linkers can function as tunable elements in protein interaction networks, which is of broad interest to the biophysics and cell signaling communities.
+- **Major strengths** The study addresses a fundamental question about the role of disordered linkers in modulating binding avidity and allosteric switches. The combination of mutagenesis with multiple orthogonal biophysical techniques (native gels, fluorescence anisotropy, NMR) is a strength. The evolutionary analysis linking linker conservation to the presence of CITED2 provides a compelling biological rationale. The identification of a specific residue (R810) with a clear electrostatic role is a notable finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the primary assay
+  - **Claim pointer** The manuscript claims that the native gel competition assay provides a "semi-quantitative measure of relative affinity changes" and uses Ic/b values to rank mutant affinities.
+  - **Evidence pointer** Materials and Methods, "Native agarose gel competition assays"; Results, "Screening of variants by native gel electrophoresis"; Table 1
+  - **Concern** The native gel assay is described as "non-equilibrium" and "semi-quantitative," yet it is used to draw quantitative conclusions about relative affinities (e.g., Ic/b = 0.84 for ΔSR vs 0.55 for WT). The relationship between Ic/b and actual binding affinity is not calibrated or validated. The assay relies on band intensity ratios after gel electrophoresis, which can be affected by dissociation during electrophoresis, differential staining, and loading errors. The authors state that samples were run in triplicate, but no error bars or statistical analysis are presented for the Ic/b values in Table 1. Without a demonstrated quantitative relationship between Ic/b and Kd, the ranking of mutants based on this assay is not robust.
+  - **Why it matters** The central conclusion that specific linker mutations enhance or reduce TAZ1 binding affinity, and that this correlates with the ability to compete with CITED2, depends critically on the reliability of these Ic/b measurements. If the assay is only semi-quantitative, the conclusions about the relative effects of different mutations are weakened.
+  - **Resolution test** Provide a calibration of the native gel assay using mutants with known affinities (e.g., measured by ITC or SPR). Present Ic/b values with standard deviations and perform appropriate statistical tests to demonstrate significant differences between mutants. Alternatively, measure Kd values for all key mutants using a quantitative solution method (e.g., fluorescence anisotropy or ITC) and show that the native gel ranking correlates with these Kd values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for mechanistic claims
+  - **Claim pointer** The manuscript claims that changes in binding affinity arise from changes in linker length and composition, specifically through altered thermodynamic coupling between the αB and αC motifs, rather than from changes in the intrinsic binding of individual motifs.
+  - **Evidence pointer** Results, "Effect of linker mutations on interactions of the individual binding motifs with TAZ1"; Figures 5, S4, S5
+  - **Concern** The NMR data show that the chemical shifts of the binding motifs (LPQL, αB, αC) are unchanged in the free state of the mutants, and that the chemical shift changes upon TAZ1 binding are similar for WT and mutants. This is interpreted as evidence that the intrinsic binding of individual motifs is unchanged. However, this does not directly demonstrate that the thermodynamic coupling between motifs is altered. The claim about coupling is inferred from the observed changes in overall affinity, but no direct measurement of coupling (e.g., via double mutant cycles or analysis of binding curves) is presented. The manuscript does not provide a quantitative model linking linker length/composition to coupling strength.
+  - **Why it matters** The proposed mechanism, that linker properties modulate thermodynamic coupling, is a key part of the paper's conceptual framework. If this is not directly supported, the interpretation of the affinity changes remains speculative.
+  - **Resolution test** Perform a quantitative analysis of the binding isotherms (e.g., from fluorescence anisotropy) to extract cooperativity parameters or coupling energies. Alternatively, use a double mutant cycle approach to directly measure the coupling between the αB and αC motifs in WT and mutant linkers. If such analysis is not feasible, temper the mechanistic claims and present the data as showing that linker mutations affect overall avidity without specifying the exact mechanism.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of biophysical characterization
+  - **Claim pointer** The manuscript claims that the linker is "dynamically disordered" in the TAZ1-bound state and that its flexibility is important for function.
+  - **Evidence pointer** Discussion; Results, "Sequence conservation"; References to prior NMR relaxation data [15]
+  - **Concern** The manuscript relies on prior work for the claim that the linker is dynamically disordered in the bound state. While this is likely well-established, the current manuscript does not provide new data on the dynamics of the linker in the mutant constructs. The claim that the SGSGS mutant is "highly flexible" is inferred from its sequence, not from direct measurement. The manuscript would be strengthened by direct measurement of linker dynamics (e.g., via NMR relaxation or MD simulations) for at least a few key mutants.
+  - **Why it matters** The role of linker flexibility is central to the proposed mechanism. If the mutants with altered affinity also have altered flexibility, this would support the model. Without such data, the link between flexibility and affinity remains correlative.
+  - **Resolution test** Measure 15N relaxation parameters or R1ρ for the linker residues in a subset of mutants (e.g., WT, ΔSR, SGSGS) in the TAZ1-bound state to directly compare flexibility. Alternatively, perform MD simulations to estimate linker dynamics and correlate with affinity changes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative support for evolutionary claims
+  - **Claim pointer** The manuscript claims that "conservation of the linker length and sequence in all vertebrates suggests strong evolutionary pressure to tune HIF-1α binding affinity to be sub-optimal, to ensure unidirectionality of the hypoxic switch."
+  - **Evidence pointer** Results, "Sequence conservation"; Figure 2
+  - **Concern** The sequence alignment is described, but no quantitative analysis of conservation is presented. The claim that the linker is "highly conserved" is based on visual inspection of the alignment. The correlation between linker conservation and the presence of CITED2 is noted, but no statistical test is applied. The conclusion that conservation reflects selection for sub-optimal affinity is speculative and not directly testable from sequence data alone.
+  - **Why it matters** The evolutionary argument is used to support the biological significance of the findings. If the conservation analysis is not rigorous, this part of the discussion is weakened.
+  - **Resolution test** Perform a quantitative conservation analysis (e.g., using ConSurf or a similar tool) and apply statistical tests to compare conservation between species with and without CITED2. If possible, use phylogenetic methods to test for correlated evolution between linker properties and the presence of CITED2.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Results, "Screening of variants by native gel electrophoresis"
+  - **Evidence pointer** Table 1
+  - **Issue** The manuscript states that "a wide range of mutants" were generated, but Table 1 is not provided in the text. The reader cannot assess the full scope of the mutagenesis.
+  - **Required correction** Ensure Table 1 is complete and clearly lists all mutants, their linker sequences, and the corresponding Ic/b values with errors.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and Methods, "Fluorescence anisotropy"
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The description of the fluorescence anisotropy competition assay is brief. The concentrations of labeled probe, TAZ1, and competitor are not fully specified, and the fitting model is only referenced.
+  - **Required correction** Provide a more detailed description of the assay conditions, including concentrations, buffer, and the exact equations used for fitting. State the number of replicates and how errors were propagated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of NMR data
+  - **Affected element** Results, "Effect of linker mutations on interactions of the individual binding motifs with TAZ1"
+  - **Evidence pointer** Figures 5, S5
+  - **Issue** The manuscript states that chemical shift changes upon binding are "very similar" for WT and mutants. It is not clear if this is a qualitative or quantitative comparison. A quantitative measure (e.g., weighted average chemical shift difference per residue) would be more informative.
+  - **Required correction** Provide a quantitative comparison of chemical shift perturbations, perhaps as a plot or table, to support the claim of similarity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The manuscript does not explicitly discuss the limitations of the native gel assay as a non-equilibrium method, nor the potential for the mutations to affect the structure of the CTAD beyond the linker region.
+  - **Required correction** Add a brief paragraph acknowledging these limitations and how they might affect the interpretation of the results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative rigor of native gel assay) and R1-M2 (direct evidence for altered thermodynamic coupling) are the primary technical issues. R1-M3 (lack of direct flexibility measurements) is important but not necessarily blocking.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its systematic mutagenesis of a disordered linker within a biologically important switch and its integration of biophysical and evolutionary analyses. The concept that linker composition, not just length, tunes avidity is a valuable contribution.
+  - **Scientific importance** The findings are important for understanding the molecular basis of the HIF-1α/CITED2 switch and for the broader field of IDP-mediated interactions. The potential to render the switch reversible has implications for therapeutic intervention.
+  - **Interdisciplinary readership** The topic is of interest to biophysicists, biochemists, cell biologists, and structural biologists. The writing is generally accessible, though some sections assume familiarity with NMR and binding theory.
+  - **Technical soundness** The combination of methods is appropriate, but the quantitative rigor of the primary screening assay (native gels) is insufficient for the strength of the conclusions drawn. The lack of direct measurement of thermodynamic coupling is a gap.
+  - **Readability for nonspecialists** The abstract and introduction are clear. The results and discussion are dense but understandable for a specialist audience. The manuscript would benefit from a schematic figure summarizing the model.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are likely correct and interesting, but the manuscript needs to address the quantitative limitations of the native gel assay and provide more direct evidence for the proposed mechanism of altered thermodynamic coupling.
+
+## Risk / unsupported claims
+- The claim that the native gel assay provides a reliable ranking of mutant affinities is not fully supported due to the lack of calibration and statistical analysis.
+- The claim that changes in affinity are due to altered thermodynamic coupling between αB and αC is inferred, not directly demonstrated.
+- The claim that linker conservation reflects selection for sub-optimal affinity is speculative and not quantitatively supported.
+- The claim that the SGSGS mutant is "highly flexible" is inferred from sequence, not measured.
+- The statement that "as many as three residues can be deleted from the central region of the linker without affecting interactions" is based on AlphaFold 3 models, but the confidence of these models is not reported.

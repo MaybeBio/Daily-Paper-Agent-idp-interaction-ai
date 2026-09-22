@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or simulation details were provided for verification
+- **Shared manuscript claim summary** The authors claim, based on coarse-grained molecular dynamics simulations, that cross-β-sheet nucleation occurs preferentially at biomolecular condensate interfaces across systems of increasing chemical complexity, that this interface-driven ageing has a common physical origin involving increased mobility and alignment of terminal domains, that amphiphilic sequences amplify ageing via surfactant-like organisation, and that interfacial free energy decreases systematically with sequence asymmetry, thereby establishing a sequence-independent physical mechanism for liquid-to-solid transitions.
+- **Visible evidence base** Abstract text only; no simulation parameters, system definitions, quantitative results, or figures were supplied
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, force field parameters, system compositions, quantitative free energy data, nucleation rate measurements, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing hypothesis that condensate interfaces provide a generic physical environment promoting cross-β-sheet nucleation, with sequence chemistry acting as a modulator rather than a driver. The proposed mechanism, involving enhanced terminal domain mobility under dense packing and alignment, is plausible and potentially significant. However, the abstract alone provides no quantitative evidence, no methodological detail, and no comparative analysis against alternative mechanisms. The claim of a "sequence-independent physical mechanism" is not established from the supplied material, as the abstract itself acknowledges sequence-dependent modulation and the simulations are limited to coarse-grained models whose transferability to real proteins remains unverified. The work is likely to interest the biomolecular condensate and protein aggregation communities, but the current evidence base is insufficient to assess technical soundness or the strength of the central claims.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, protein aggregation, and neurodegenerative disease mechanisms would be interested. The work addresses a timely question about whether interfacial ageing is driven by generic physics or specific chemistry, which has implications for understanding pathological aggregation in diseases such as ALS and Alzheimer's. Computational biophysicists developing coarse-grained models of condensate behaviour would also find the proposed mechanism relevant to their modelling frameworks.
+- **Major strengths** The abstract identifies a potentially unifying physical mechanism for interface-driven ageing across chemically diverse systems. The distinction between sequence as a modulator versus driver is conceptually useful and could help reconcile conflicting observations in the literature. The proposed surfactant-like organisation of amphiphilic sequences provides a concrete, testable structural hypothesis linking sequence asymmetry to interfacial nucleation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that cross-β-sheet nucleation "generically occurs preferentially at condensate interfaces" across all studied systems  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states this preference was observed in all systems studied, but no quantitative data, such as nucleation rates, free energy barriers, or spatial density profiles of β-sheet content, are presented. Without these data, the reader cannot assess the magnitude of the interfacial preference, its statistical significance, or whether it holds across the full range of simulation conditions.  
+  - **Why it matters** The central thesis of the manuscript rests on the universality of interfacial nucleation preference. If the effect is weak in some systems or depends sensitively on simulation parameters, the claim of a generic mechanism would be substantially weakened.  
+  - **Resolution test** Provide quantitative nucleation rate comparisons between interface and bulk for each system, with error bars and statistical tests, and demonstrate that the interfacial preference is robust across variations in simulation parameters such as system size, concentration, and temperature.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic evidence  
+  - **Claim pointer** The claim that terminal domains at the interface "gain mobility while remaining densely packed and mutually aligned, creating favourable conditions for β-sheet nucleation"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The proposed mechanism is stated as a conclusion, but no evidence is presented for the mobility increase, the dense packing, or the mutual alignment. It is unclear how these properties were measured, whether they are statistically distinguishable from bulk behaviour, and how they mechanistically lower the barrier to β-sheet nucleation.  
+  - **Why it matters** This mechanistic claim is the physical explanation for the observed interfacial preference. Without supporting data, the mechanism remains speculative and could be an artefact of the coarse-grained model rather than a general physical principle.  
+  - **Resolution test** Present quantitative measurements of terminal domain mobility (e.g., mean squared displacement), packing density, and orientational order at the interface versus bulk, and show that these properties correlate with nucleation propensity in a way that supports the proposed causal chain.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalisability  
+  - **Claim pointer** The claim that the mechanism is "sequence-independent" while also stating that amphiphilic sequences amplify ageing  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract contains an apparent tension. It claims a sequence-independent physical mechanism, yet also states that ageing is amplified in amphiphilic sequences and that interfacial free energy falls with sequence asymmetry. This suggests sequence does matter quantitatively, and the claim of sequence independence requires careful definition. Is the mechanism qualitatively the same across sequences, with only quantitative modulation, or does the mechanism itself change with sequence composition?  
+  - **Why it matters** The distinction between a universal mechanism and sequence-modulated behaviour is central to the paper's significance. If the mechanism is only qualitatively universal but quantitatively strongly sequence-dependent, the claim of sequence independence may be overstated.  
+  - **Resolution test** Define precisely what is meant by "sequence-independent" and provide a systematic comparison across a range of sequence asymmetries showing that the qualitative mechanism is conserved while quantitative effects vary, or revise the claim to reflect the actual degree of sequence dependence.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Model validity  
+  - **Claim pointer** The claim that results from coarse-grained simulations of homopolymers and patterned amphiphilic sequences are representative of real biomolecular condensates  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify the coarse-grained model used, its resolution, or its validation against experimental or atomistic data. Coarse-grained models can introduce artefacts in interfacial behaviour, particularly regarding packing and alignment, that may not reflect real protein behaviour.  
+  - **Why it matters** The generalisability of the conclusions to real biological condensates depends on the fidelity of the model. Without validation, the results may be model-specific.  
+  - **Resolution test** Provide details of the coarse-grained model, its parameterisation, and validation against experimental data or atomistic simulations for at least one representative system, and discuss potential model limitations.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Quantitative support  
+  - **Claim pointer** The claim that interfacial free energy "falls systematically as sequence asymmetry grows"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No numerical values, error estimates, or statistical analysis are provided for the interfacial free energy trend. It is unclear over what range of sequence asymmetry the trend holds, how large the effect is, and whether it is significant relative to thermal fluctuations.  
+  - **Why it matters** This quantitative trend is used to support the surfactant-like mechanism. Without proper statistical support, the trend could be noise or an artefact of limited sampling.  
+  - **Resolution test** Present interfacial free energy values with uncertainties for multiple sequence asymmetries, include a statistical test for the trend, and show that the effect is robust across independent simulation replicates.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "ageing"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract uses "ageing" to refer to cross-β-sheet nucleation and fibril formation, but the term is not explicitly defined. It could be confused with other forms of condensate maturation, such as hardening or loss of dynamicity.  
+  - **Required correction** Define "ageing" operationally in the abstract or introduction, specifying that it refers to the nucleation and growth of cross-β-sheet structures.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Terminal domains"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "terminal domains" is used without specifying whether it refers to N-terminal, C-terminal, or both, and whether this is a general feature of the model or specific to certain sequences.  
+  - **Required correction** Clarify which terminal regions are meant and whether the observation is general across all studied systems.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Comparison to alternative mechanisms  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not discuss alternative explanations for interfacial nucleation preference, such as reduced water activity, altered dielectric environment, or local concentration effects, which could also contribute.  
+  - **Required correction** Briefly acknowledge and rule out or contextualise alternative mechanisms in the abstract or discussion.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Simulation details  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No information is given about simulation length, number of replicates, system size, or equilibration protocol, which are essential for assessing the reliability of the results.  
+  - **Required correction** Include key simulation parameters in the methods or supplementary information and reference them in the abstract where appropriate.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. The central claims of universal interfacial nucleation preference, the proposed mechanism, and the sequence-independence argument all require quantitative evidence and methodological detail that are not present in the abstract. Without these, the case for a general physical mechanism is not established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The hypothesis that interfacial ageing is driven by a generic physical mechanism rather than specific protein chemistry is conceptually novel and could provide a unifying framework. However, the abstract does not demonstrate how this advances beyond existing observations that several proteins nucleate fibrils at interfaces.  
+  - Scientific importance: If substantiated, the work would have significant implications for understanding pathological aggregation in condensates and for designing interventions targeting interfacial properties. The importance is high, but contingent on the evidence.  
+  - Interdisciplinary readership: The topic bridges biophysics, soft matter physics, and cell biology, and the abstract is written in a way that could appeal to researchers across these fields. The potential for broad interest is clear.  
+  - Technical soundness: Cannot be assessed from the abstract alone. The absence of methodological detail and quantitative results prevents evaluation of the simulations' reliability and the robustness of the conclusions.  
+  - Readability for nonspecialists: The abstract is clearly written and accessible, with jargon introduced in context. The logical flow from observation to hypothesis to proposed mechanism is easy to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the hypothesis is worth pursuing, but the abstract alone does not provide sufficient quantitative or methodological support for the central claims. A full manuscript with detailed methods, results, and validation would be required to assess whether the case can be made. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that cross-β-sheet nucleation "generically occurs preferentially at condensate interfaces" across all studied systems is unsupported without quantitative nucleation data.
+- The mechanistic claim that terminal domain mobility, packing, and alignment create favourable conditions for nucleation is unsupported without direct measurements.
+- The claim of a "sequence-independent physical mechanism" is not clearly defined and appears to be in tension with the stated sequence-dependent modulation of ageing and interfacial free energy.
+- The claim that interfacial free energy falls systematically with sequence asymmetry is unsupported without numerical values and statistical analysis.
+- The generalisability of coarse-grained simulation results to real biomolecular condensates is unverified and cannot be assessed from the abstract.

@@ -1,0 +1,281 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.13.653742",
+  "title": "Of condensates and coats - reciprocal regulation of clathrin assembly and the growth of protein networks",
+  "doi": "10.1101/2025.05.13.653742",
+  "abstract": "Clathrin-mediated endocytosis is essential for membrane traffic, impacting a diverse range of cellular processes including cell signaling homeostasis, cell adhesion, and receptor recycling. During endocytosis, invagination of the plasma membrane is coordinated by a network of proteins that recruit and assemble the clathrin coat. Recent work demonstrated that clathrin accessory proteins which arrive early at endocytic sites, such as Eps15 and Fcho2, form phase-separated condensates that recruit downstream machinery, promoting assembly and maturation of clathrin-coated vesicles. However, the mechanisms by which protein condensates regulate - and are regulated by - clathrin assembly remain unclear. Using in vitro reconstitution and nuclear magnetic resonance spectroscopy, we demonstrate that protein condensates provide a platform for recruitment and assembly of clathrin triskelia. This condensate driven assembly is enhanced in the presence of the accessory protein, AP2, which is readily incorporated within condensates. In turn, clathrin assembly restricted the growth of condensates, exhibiting surfactant-like behavior that stabilized protein-protein interactions while imposing the preferred curvature of the clathrin lattice. This mutual regulation promotes efficient assembly of clathrin-coated vesicles while preventing uncontrolled expansion of protein condensates. More broadly, reciprocal regulation of protein condensates and clathrin coats may provide a framework for understanding how intrinsically disordered and structured protein assemblies can work together to build complex cellular architectures.",
+  "authors": [
+    "Malady BT",
+    "Papagiannoula A",
+    "Kamatar A",
+    "Sarkar S",
+    "Lebrun GT",
+    "Wang L",
+    "Hayden CC",
+    "Lafer EM",
+    "Owen DJ",
+    "Milles S",
+    "Stachowiak JC"
+  ],
+  "published_date": "2025-05-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653742",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653742.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1020272",
+    "raw_record": {
+      "id": "PPR1020272",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1020272"
+        ]
+      },
+      "doi": "10.1101/2025.05.13.653742",
+      "title": "Of condensates and coats - reciprocal regulation of clathrin assembly and the growth of protein networks",
+      "authorString": "Malady BT, Papagiannoula A, Kamatar A, Sarkar S, Lebrun GT, Wang L, Hayden CC, Lafer EM, Owen DJ, Milles S, Stachowiak JC.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Malady BT",
+            "lastName": "Malady",
+            "firstName": "Brandon",
+            "initials": "BT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Engineering, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Papagiannoula A",
+            "lastName": "Papagiannoula",
+            "firstName": "Andromachi",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Department of Biology, Chemistry, Pharmacy of the"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kamatar A",
+            "lastName": "Kamatar",
+            "firstName": "Advika",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Engineering, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sarkar S",
+            "lastName": "Sarkar",
+            "firstName": "Susovan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Engineering, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lebrun GT",
+            "lastName": "Lebrun",
+            "firstName": "Gavin",
+            "initials": "GT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Engineering, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang L",
+            "lastName": "Wang",
+            "firstName": "Liping",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Structural Biology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hayden CC",
+            "lastName": "Hayden",
+            "firstName": "Carl",
+            "initials": "CC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Engineering, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lafer EM",
+            "lastName": "Lafer",
+            "firstName": "Eileen",
+            "initials": "EM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Structural Biology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Owen DJ",
+            "lastName": "Owen",
+            "firstName": "David",
+            "initials": "DJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Milles S",
+            "lastName": "Milles",
+            "firstName": "Sigrid",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stachowiak JC",
+            "lastName": "Stachowiak",
+            "firstName": "Jeanne",
+            "initials": "JC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Engineering, ,"
+                },
+                {
+                  "affiliation": "McKetta Department of Chemical Engineering, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Clathrin-mediated endocytosis is essential for membrane traffic, impacting a diverse range of cellular processes including cell signaling homeostasis, cell adhesion, and receptor recycling. During endocytosis, invagination of the plasma membrane is coordinated by a network of proteins that recruit and assemble the clathrin coat. Recent work demonstrated that clathrin accessory proteins which arrive early at endocytic sites, such as Eps15 and Fcho2, form phase-separated condensates that recruit downstream machinery, promoting assembly and maturation of clathrin-coated vesicles. However, the mechanisms by which protein condensates regulate - and are regulated by - clathrin assembly remain unclear. Using  in vitro reconstitution and nuclear magnetic resonance spectroscopy, we demonstrate that protein condensates provide a platform for recruitment and assembly of clathrin triskelia. This condensate driven assembly is enhanced in the presence of the accessory protein, AP2, which is readily incorporated within condensates. In turn, clathrin assembly restricted the growth of condensates, exhibiting surfactant-like behavior that stabilized protein-protein interactions while imposing the preferred curvature of the clathrin lattice. This mutual regulation promotes efficient assembly of clathrin-coated vesicles while preventing uncontrolled expansion of protein condensates. More broadly, reciprocal regulation of protein condensates and clathrin coats may provide a framework for understanding how intrinsically disordered and structured protein assemblies can work together to build complex cellular architectures.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.13.653742"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1020272"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1020272&type=FILE&fileName=EMS205541-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41093888",
+            "reference": "Nature communications. 2025 Oct;16(1):9139",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS205541",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot"
+        ]
+      },
+      "dateOfCreation": "2025-05-16",
+      "firstPublicationDate": "2025-05-14",
+      "firstIndexDate": "2025-05-21",
+      "fullTextReceivedDate": "2025-05-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

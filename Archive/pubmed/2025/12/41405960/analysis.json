@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41405960",
+  "title": "Prediction of liquid-liquid phase separation proteins based on protein language model.",
+  "authors": "Li, Wenbin; Deng, Xusheng; Xiang, Chunlin; Shen, Hengxiang; Zhang, Yongyou",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2025-12-17",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用蛋白语言模型ProtT5结合KmerConv和多头注意力预测LLPS蛋白，对象为无序相关相分离蛋白，方法为AI，但仅做分类预测、未涉及PPI或互作机制建模，故综合评6分。",
+  "abstract": "Liquid-liquid phase separation (LLPS) enables biomolecules to form membraneless condensates critical for cellular functions like RNA metabolism and protein synthesis. Identifying LLPS-associated proteins is essential for understanding their roles in cellular organization and disease. Current prediction methods are hindered by complex and inefficient feature extraction processes. Here, we present a novel framework combining a protein language model ProtT5 with a KmerConv module for local sequence pattern detection and a multi-head attention mechanism for global sequence information extraction. This integrated approach achieves high predictive performance across multiple diverse datasets and generalizes effectively across different species. Our method provides a robust and efficient tool for systematic LLPS protein identification, advancing research into biomolecular aggregation and its implications for health and disease.",
+  "abstract_zh": "液-液相分离（LLPS）使生物分子能够形成无膜凝聚体，这些凝聚体对RNA代谢和蛋白质合成等细胞功能至关重要。识别与LLPS相关的蛋白质对于理解其在细胞组织和疾病中的作用至关重要。当前的预测方法受限于复杂且低效的特征提取过程。在此，我们提出了一种新颖框架，结合蛋白质语言模型ProtT5与KmerConv模块用于局部序列模式检测，以及多头注意力机制用于全局序列信息提取。这种集成方法在多个多样化数据集上实现了高预测性能，并在不同物种间有效泛化。我们的方法为系统性LLPS蛋白质识别提供了稳健且高效的工具，推进了生物分子聚集及其对健康与疾病影响的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41405960/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41405960/",
+  "paper_page_path": "papers/pubmed/41405960/index.html"
+}

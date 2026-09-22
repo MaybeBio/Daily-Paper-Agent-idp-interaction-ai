@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "41543434",
+    "doi": "10.1039/d5tb01841b",
+    "title": "Molecular versatility of polyproline II helices: from natural proteins to biomimetic materials."
+  },
+  "content": {
+    "abstract": "The polyproline II helix is more common as a secondary structure than previously thought. Its significance extends to mediating various protein-protein interactions, both structurally and functionally, in natural systems. This structure is associated with the formation of supramolecular assemblies, which have been investigated for biomimetic applications. In this review, we highlight three examples of polyproline II helix utilization: structurally in collagen and in biomolecular condensates, and as functional motifs in hyperactive antifreeze proteins. The review examines the mechanisms underlying the properties of PPII and consolidates practical design principles for engineering PPII-based assemblies, with an emphasis on sequence composition, residue propensity, and crosslinking strategies that enhance stability and functionality. Additionally, by critically comparing spectroscopic methods (CD, VCD, ROA and NMR) and AI-based prediction tools, we summarize their respective strengths and limitations, providing a practical decision framework for selecting the most suitable characterization techniques for different sample types and research objectives.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Peptides/chemistry",
+      "*Biomimetic Materials/chemistry",
+      "Antifreeze Proteins/chemistry",
+      "Collagen/chemistry",
+      "Protein Structure, Secondary"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "C Seco, Francisco",
+        "Amador, Sandro",
+        "Conzuelo, Felipe",
+        "Baptista, Ana C",
+        "Morgado, Leonor",
+        "Pina, Ana S"
+      ],
+      "short_names": [
+        "C Seco F",
+        "Amador S",
+        "Conzuelo F",
+        "Baptista AC",
+        "Morgado L",
+        "Pina AS"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-2082-5758",
+        "ORCID: 0009-0001-4726-8122",
+        "ORCID: 0000-0002-3316-2642",
+        "ORCID: 0000-0003-1631-6248",
+        "ORCID: 0000-0002-3760-5180",
+        "ORCID: 0000-0001-9729-0371"
+      ],
+      "affiliations": [
+        "Instituto de Tecnologia Quimica e Biologica Antonio Xavier (ITQB), Universidade NOVA de Lisboa, Av. da Republica, 2780-157, Oeiras, Portugal. ana.pina@itqb.unl.pt.",
+        "CENIMAT/I3N, Department of Materials Science, NOVA School of Science and Technology, Universidade NOVA de Lisboa, 2829-516 Caparica, Portugal.",
+        "Instituto de Tecnologia Quimica e Biologica Antonio Xavier (ITQB), Universidade NOVA de Lisboa, Av. da Republica, 2780-157, Oeiras, Portugal. ana.pina@itqb.unl.pt.",
+        "CENIMAT/I3N, Department of Materials Science, NOVA School of Science and Technology, Universidade NOVA de Lisboa, 2829-516 Caparica, Portugal.",
+        "Instituto de Tecnologia Quimica e Biologica Antonio Xavier (ITQB), Universidade NOVA de Lisboa, Av. da Republica, 2780-157, Oeiras, Portugal. ana.pina@itqb.unl.pt.",
+        "CENIMAT/I3N, Department of Materials Science, NOVA School of Science and Technology, Universidade NOVA de Lisboa, 2829-516 Caparica, Portugal.",
+        "UCIBIO - Applied Molecular Biosciences Unit, Department of Chemistry, NOVA School of Science and Technology, Universidade NOVA de Lisboa, Caparica, Portugal. mlmorgado@fct.unl.pt.",
+        "Associate Laboratory i4HB - Institute for Health and Bioeconomy, NOVA School of Science and Technology, Universidade NOVA de Lisboa, 2829-516 Caparica, Portugal.",
+        "Instituto de Tecnologia Quimica e Biologica Antonio Xavier (ITQB), Universidade NOVA de Lisboa, Av. da Republica, 2780-157, Oeiras, Portugal. ana.pina@itqb.unl.pt."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "C Seco, Francisco",
+        "short_name": "C Seco F",
+        "identifiers": [
+          "0009-0002-2082-5758"
+        ],
+        "affiliations": [
+          "Instituto de Tecnologia Química e Biológica António Xavier (ITQB), Universidade NOVA de Lisboa, Av. da República, 2780-157, Oeiras, Portugal. ana.pina@itqb.unl.pt.",
+          "CENIMAT/I3N, Department of Materials Science, NOVA School of Science and Technology, Universidade NOVA de Lisboa, 2829-516 Caparica, Portugal."
+        ]
+      },
+      {
+        "full_name": "Amador, Sandro",
+        "short_name": "Amador S",
+        "identifiers": [
+          "0009-0001-4726-8122"
+        ],
+        "affiliations": [
+          "Instituto de Tecnologia Química e Biológica António Xavier (ITQB), Universidade NOVA de Lisboa, Av. da República, 2780-157, Oeiras, Portugal. ana.pina@itqb.unl.pt.",
+          "CENIMAT/I3N, Department of Materials Science, NOVA School of Science and Technology, Universidade NOVA de Lisboa, 2829-516 Caparica, Portugal."
+        ]
+      },
+      {
+        "full_name": "Conzuelo, Felipe",
+        "short_name": "Conzuelo F",
+        "identifiers": [
+          "0000-0002-3316-2642"
+        ],
+        "affiliations": [
+          "Instituto de Tecnologia Química e Biológica António Xavier (ITQB), Universidade NOVA de Lisboa, Av. da República, 2780-157, Oeiras, Portugal. ana.pina@itqb.unl.pt."
+        ]
+      },
+      {
+        "full_name": "Baptista, Ana C",
+        "short_name": "Baptista AC",
+        "identifiers": [
+          "0000-0003-1631-6248"
+        ],
+        "affiliations": [
+          "CENIMAT/I3N, Department of Materials Science, NOVA School of Science and Technology, Universidade NOVA de Lisboa, 2829-516 Caparica, Portugal."
+        ]
+      },
+      {
+        "full_name": "Morgado, Leonor",
+        "short_name": "Morgado L",
+        "identifiers": [
+          "0000-0002-3760-5180"
+        ],
+        "affiliations": [
+          "UCIBIO - Applied Molecular Biosciences Unit, Department of Chemistry, NOVA School of Science and Technology, Universidade NOVA de Lisboa, Caparica, Portugal. mlmorgado@fct.unl.pt.",
+          "Associate Laboratory i4HB - Institute for Health and Bioeconomy, NOVA School of Science and Technology, Universidade NOVA de Lisboa, 2829-516 Caparica, Portugal."
+        ]
+      },
+      {
+        "full_name": "Pina, Ana S",
+        "short_name": "Pina AS",
+        "identifiers": [
+          "0000-0001-9729-0371"
+        ],
+        "affiliations": [
+          "Instituto de Tecnologia Química e Biológica António Xavier (ITQB), Universidade NOVA de Lisboa, Av. da República, 2780-157, Oeiras, Portugal. ana.pina@itqb.unl.pt."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of materials chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Mater Chem B"
+    ],
+    "pub_date": "2026 Feb 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/16 15:05",
+    "fetched_at": "2026-09-17 23:51:24"
+  },
+  "links": {
+    "cites": [
+      "42252518",
+      "42243666"
+    ],
+    "refs": [],
+    "similar": [
+      "41543434",
+      "42252518",
+      "33934561",
+      "33794191",
+      "17971985",
+      "23507311",
+      "25212635",
+      "23305370",
+      "11297408",
+      "25262612",
+      "7756993",
+      "38593862",
+      "12395395",
+      "36815707",
+      "28185014",
+      "19791741",
+      "15657931",
+      "15700296",
+      "27637571",
+      "25380779",
+      "36060139",
+      "27562438",
+      "14579303",
+      "8429558",
+      "12945050",
+      "41037462",
+      "12418106",
+      "10091661",
+      "20058861",
+      "30540171",
+      "17073732",
+      "30430829",
+      "32218953",
+      "16231310",
+      "27693688",
+      "37740610",
+      "21483785",
+      "38661017",
+      "40184430",
+      "20027208",
+      "21794910",
+      "39613762",
+      "30025188",
+      "28193869",
+      "20556825",
+      "16373476",
+      "34710626",
+      "27007587",
+      "22667692",
+      "40610213",
+      "23912807",
+      "26727467",
+      "23523384",
+      "31577299",
+      "22712805",
+      "9779789",
+      "29651716",
+      "27815983",
+      "26457583",
+      "36206330",
+      "20862727",
+      "11724549",
+      "20831224",
+      "20158269",
+      "28722183",
+      "12091708",
+      "19609932",
+      "25945573",
+      "29237367",
+      "22425601",
+      "40607775",
+      "22038775",
+      "19424961",
+      "17191902",
+      "11892787",
+      "22847901",
+      "21941256",
+      "16438538",
+      "25353109",
+      "34524800",
+      "30961476",
+      "23925889",
+      "17945257",
+      "16085707",
+      "23209600",
+      "39659764",
+      "17575286",
+      "42105934",
+      "37899354",
+      "28949522",
+      "41438428",
+      "16193455",
+      "31094059",
+      "35446536",
+      "36602188",
+      "36179150",
+      "24571053",
+      "18095258",
+      "17158562",
+      "22170056"
+    ],
+    "review": [
+      "41543434",
+      "33934561",
+      "23507311",
+      "23305370",
+      "38593862",
+      "12395395",
+      "28185014",
+      "15700296",
+      "12418106",
+      "40184430",
+      "34710626",
+      "27815983",
+      "29237367",
+      "17191902",
+      "42105934",
+      "41438428",
+      "36602188"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d5tb01841b",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, experimental procedures, and data availability statements.
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the presented data. No assessment of editorial fit or journal-specific scope.
+- **Shared manuscript claim summary** The authors report that the intrinsically disordered transcription activation domain (TAD) of NFκB RelA increases the DNA binding affinity of the p50/RelA heterodimer, particularly for nonconsensus DNA sequences, thereby reducing overall DNA binding specificity. The TAD is described as compact and disordered in solution, and its presence promotes higher-order complex formation on tandem κB site DNA.
+- **Visible evidence base** SAXS data and modeling, HDX-MS, EMSA, fluorescence anisotropy binding assays, and computational predictions (Metapredict, AWSIM).
+- **Missing materials affecting confidence** Raw SAXS curves (only parameters and fits reported), full HDX-MS peptide-level uptake data (only representative plots), uncropped EMSA gels, and the MATLAB fitting code/equations for the two-site binding model are not fully provided in the text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a careful biophysical characterization of the NFκB p50/RelA heterodimer with and without the RelA TAD. The central observation, that the TAD enhances binding to nonconsensus DNA and reduces specificity, is novel and potentially significant for understanding NFκB target selection in vivo. The combination of solution techniques (SAXS, HDX-MS) with binding assays is appropriate and generally well executed. However, several technical concerns regarding the interpretation of the EMSA data, the quantitative model used for the two-site binding analysis, and the statistical treatment of the affinity differences need to be addressed before the central claims are fully supported.
+- **Who would be interested in the results, and why** Researchers studying NFκB signaling, transcription factor dynamics, intrinsically disordered proteins, and the biophysical basis of protein–DNA recognition. The finding that a TAD can modulate DNA binding specificity has broad implications for understanding how transcription factors achieve target selectivity in a crowded nuclear environment.
+- **Major strengths**
+  - The study addresses a timely and important question: whether TADs can influence DNA binding beyond their canonical role in coactivator recruitment.
+  - The combination of multiple biophysical techniques (SAXS, HDX-MS, EMSA, fluorescence anisotropy) provides a multi-pronged approach to characterize the system.
+  - The observation that the TAD increases affinity for nonconsensus DNA is a clear and potentially impactful result, offering a counterexample to the prevailing view that TADs generally reduce DNA binding affinity.
+  - The authors connect their in vitro findings to existing in vivo observations of nonconsensus NFκB binding, strengthening the potential physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation / quantitative analysis
+  - **Claim pointer** The claim that the TAD reduces DNA binding specificity is based on the observation that p50/RelAFL binds nonconsensus DNA with ~10-fold higher affinity than p50/RelARHD, while binding to consensus sites is only modestly enhanced.
+  - **Evidence pointer** Figure 6, Table 3, Results section "Quantitative determination of DNA binding affinity by p50/RelAFL"
+  - **Concern** The statistical significance of the affinity differences between p50/RelAFL and p50/RelARHD is only reported for the random DNA sequence (p = 0.0002) and the NFKBIA site 2 (p = 0.026). For the other sequences, including the consensus κB sites, the differences are stated as not statistically significant (p > 0.1). The conclusion that the TAD "reduces specificity" relies on the relative enhancement of nonconsensus versus consensus binding. If the enhancement for consensus sites is not statistically significant, the specificity change is driven entirely by the nonconsensus effect. The authors should provide a more rigorous statistical comparison, such as a two-way ANOVA with a interaction term between TAD presence and DNA sequence type, to directly test whether the TAD effect differs across sequence classes. Without this, the claim of reduced specificity is not quantitatively established.
+  - **Why it matters** The central conclusion of the manuscript hinges on the differential effect of the TAD on consensus versus nonconsensus DNA. A statistically robust demonstration of this differential effect is essential to support the claim of reduced specificity.
+  - **Resolution test** Provide a statistical test that directly compares the fold-enhancement (or ΔΔG) of binding between p50/RelAFL and p50/RelARHD across all DNA sequences, with a clear report of the interaction effect. If the interaction is not significant, the claim of reduced specificity should be tempered.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical methodology / data interpretation
+  - **Claim pointer** The claim that the TAD promotes binding of NFκB dimers in excess of the number of κB sites, leading to higher-order complexes.
+  - **Evidence pointer** Figures 3, 4, Results section "Binding stoichiometry analysis of NFκB constructs to DNA sequences with tandem sites"
+  - **Concern** The EMSA experiments show bands consistent with up to three NFκB dimers bound to a 33 bp DNA containing two κB sites. The authors interpret this as binding to nonconsensus sites. However, the DNA is only 33 bp long, and the crystal structure of two p50/RelA dimers on this sequence (PDB 1LE5) shows that the two dimers occupy most of the length. It is unclear how a third dimer could bind without significant steric clashes or partial unwinding. The authors should address whether the "third dimer" band could represent a different species, such as a dimer bound to a partially melted DNA, a non-specific aggregate, or a degradation product. A more rigorous analysis, such as using a longer DNA with well-separated sites or performing the EMSA with a competitor DNA, would help clarify this.
+  - **Why it matters** The observation of higher-order complexes is used to support the idea that the TAD promotes nonconsensus binding. If this interpretation is incorrect, the link between the TAD and nonconsensus binding is weakened.
+  - **Resolution test** Perform EMSA with a longer DNA substrate (e.g., 60-80 bp) where three dimers could bind without steric clashes, or use a defined nonconsensus sequence as a competitor to demonstrate specificity. Alternatively, use analytical ultracentrifugation or native mass spectrometry to confirm the stoichiometry of the complexes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical methodology / data interpretation
+  - **Claim pointer** The claim that the TAD is compact but disordered, based on SAXS and HDX-MS data.
+  - **Evidence pointer** Figure 1, Table 1, Results section "Solution characterization of p50/RelAFL, p50/RelARHD, and RelATAD"
+  - **Concern** The SAXS-derived Rg of the TAD (27.3 Å) is compared to theoretical values for a folded protein and an excluded volume polymer. However, the interpretation of "compact" is based on a single Rg value. The Kratky plot shows a plateau at high q, which is consistent with disorder, but the authors do not provide a quantitative comparison to other disordered proteins or to an ensemble of conformations. The conclusion that the TAD is "compact" would be strengthened by a more detailed analysis, such as a dimensionless Kratky plot or a comparison to a set of disordered proteins with known compactness.
+  - **Why it matters** The compactness of the TAD is a key structural finding that may be relevant to its function. A more rigorous analysis would strengthen this claim.
+  - **Resolution test** Provide a dimensionless Kratky plot or calculate the ratio of Rg to the expected Rg for a fully denatured protein of the same length. Compare the SAXS data to an ensemble of conformations generated by molecular dynamics or a polymer model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / presentation
+  - **Affected element** Figure 6
+  - **Evidence pointer** Figure 6, Results section "Quantitative determination of DNA binding affinity by p50/RelAFL"
+  - **Issue** The figure legend states that the same data are graphed twice in panel G to enable clear visualization of both binding curves. This is unusual and could be confusing to readers. It would be clearer to present the data in a single panel with a log-scale x-axis or to use different symbols/colors that are clearly distinguishable.
+  - **Required correction** Revise Figure 6G to present the data in a single plot with clear visual distinction between the two curves, or split into two separate panels with a shared legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail / reproducibility
+  - **Affected element** Experimental procedures, "Fluorescence anisotropy DNA-binding assay"
+  - **Evidence pointer** Experimental procedures section
+  - **Issue** The MATLAB-based fitting approach for the two-site binding model is described as being detailed in the supporting information, but the supporting information is not provided in the manuscript text. Without this, it is difficult to assess the robustness of the fitting procedure and the reported Kd values.
+  - **Required correction** Provide the full details of the fitting model, including the equations, in the main text or as a supplementary appendix that is accessible to reviewers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2, Results section "HDX-MS analysis of p50/RelAFL and p50/RelARHD"
+  - **Issue** The HDX-MS data are presented as representative deuterium uptake plots mapped to the structural model. It would be helpful to also show the full set of peptides with their uptake values, perhaps as a supplementary figure, to allow readers to assess the completeness of the coverage.
+  - **Required correction** Include a supplementary figure showing the deuterium uptake for all peptides, with the peptide coverage map.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation / overstatement
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors state that the TAD "sheds light on previous observations of extensive nonconsensus DNA binding by NFκB in vivo." While this is a reasonable speculation, it is not directly tested in this manuscript. The connection between the in vitro findings and the in vivo observations is correlative.
+  - **Required correction** Soften the language to indicate that the findings are "consistent with" or "may help explain" the in vivo observations, rather than "sheds light on."
+
+## Risk / unsupported claims
+- The claim that the TAD reduces DNA binding specificity is not fully supported by the statistical analysis presented, as the differential effect on consensus versus nonconsensus DNA is not directly tested.
+- The interpretation of the "third dimer" band in the EMSA as a specific higher-order complex is not fully supported, as alternative explanations (e.g., non-specific aggregation) are not ruled out.
+- The claim that the TAD is "compact" is based on a single Rg value and would benefit from a more detailed analysis.
+- The connection between the in vitro findings and in vivo nonconsensus binding is speculative and not directly tested.

@@ -1,0 +1,73 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report development of an enhanced polarizable force field, Drude2019IDPC, obtained by reweighting and CMAP optimization of five dipeptides that were underperforming in the parent Drude2019IDP model. They claim improved performance on dipeptides, disordered short peptides, and a representative IDP, and further apply the force field to wild-type and mutant insulin with Markov state model analysis to infer conformational differences and transition paths, concluding that mutation preserves monomorphic characteristics and that the force field can reveal structure-function relationships in other proteins.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, validation metrics, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameterization details, validation datasets, statistical analyses, and the insulin mutation identity and its functional context
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful incremental advance in polarizable force field development for IDPs, with a plausible workflow of targeted correction followed by validation and application. However, the evidence base available for review is limited to the abstract, which contains no quantitative results, no methodological detail, and no clear articulation of how the insulin application supports the stated structure-function conclusion. The central claims of improved performance and biological insight cannot be evaluated from the supplied material. The work may be of interest to the molecular simulation community, but the case as presented is not established.
+- **Who would be interested in the results, and why** Computational biophysicists and force field developers working on intrinsically disordered proteins, as well as researchers studying insulin conformational dynamics and engineering. The potential to improve polarizable force field accuracy for charged and disordered systems would appeal to those seeking more reliable simulations of IDPs and their mutants.
+- **Major strengths** The abstract identifies a specific deficiency in the parent force field and proposes a targeted correction strategy, which is a reasonable and focused approach. The inclusion of an application to a biologically relevant protein, insulin, with mutation analysis and Markov state modeling, suggests an attempt to connect force field development to functional insight. The stated goal of enabling structure-function studies for other proteins is a worthwhile objective.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that Drude2019IDPC shows "marked improvement" over Drude2019IDP and that it "could be used to reveal the structure-function relationship for other proteins."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No quantitative data are presented to support the claimed improvement. There are no numerical comparisons, error metrics, or statistical tests for the dipeptide, short peptide, or IDP validations. The insulin application is described only in qualitative terms, with no details on the mutation, the conformational differences observed, or the transition path analysis.  
+  - **Why it matters** Without quantitative evidence, the claims of improvement and biological insight are unsupported. The reader cannot assess the magnitude of the improvement, the robustness of the validation, or the validity of the insulin-related conclusions.  
+  - **Resolution test** Provide quantitative validation metrics for all test systems, including comparisons with experimental data or parent force field results, and present specific conformational and kinetic findings from the insulin simulations with appropriate statistical uncertainty estimates.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The abstract states that reweighting and grid-based energy correction map (CMAP) optimization were performed for five dipeptides.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The methodological details of the reweighting and CMAP optimization are not described. It is unclear what data were used for reweighting, what target properties were matched, how the CMAP grids were constructed, and whether the corrections transfer to other systems or risk overfitting.  
+  - **Why it matters** Force field corrections can introduce artifacts if not carefully designed and validated. Without methodological transparency, the reliability and generalizability of the corrections cannot be assessed, and the risk of overfitting to the five dipeptides is unknown.  
+  - **Resolution test** Describe the reweighting procedure, the target data, the CMAP construction and optimization protocol, and demonstrate transferability by testing on additional peptides or proteins not used in the fitting.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim substantiation  
+  - **Claim pointer** The abstract concludes that "mutation can maintain the monomorphic characteristics" of insulin and that this provides "insights for engineered insulin development."  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The biological conclusion is not supported by any presented evidence. The identity of the mutation, the structural or dynamical basis for "monomorphic characteristics," and the relevance to insulin engineering are not explained. The connection between the simulation results and the functional conclusion is not established.  
+  - **Why it matters** The stated structure-function insight is a key motivation for the work, but without a clear link between the simulated conformational properties and functional outcomes, the conclusion is speculative.  
+  - **Resolution test** Specify the mutation, define "monomorphic characteristics" in operational terms, present the conformational ensembles and transition paths that support the claim, and discuss how these findings relate to known insulin biology or engineering strategies.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The phrase "the performance in simulating 5 dipeptides was found to be underestimate" is grammatically awkward and unclear.  
+  - **Required correction** Rephrase to "the performance for 5 dipeptides was found to be underestimated" or similar.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Insulin application  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract does not state which insulin mutant was studied or why that particular mutation was chosen.  
+  - **Required correction** Include the mutation identity and a brief rationale for its selection.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Monomorphic characteristics"  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The term "monomorphic" is not defined in the context of insulin conformational behavior and may be ambiguous.  
+  - **Required correction** Define the term or use more standard language such as "preservation of native-like conformational preferences."
+
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative validation, methodological detail, and a substantiated biological conclusion means the core claims are not currently supported by the provided evidence.
+
+- **Assessment against Nature-style criteria**  
+  - **Originality** The approach of targeted correction for underperforming dipeptides within an existing polarizable force field is incremental rather than conceptually novel. The application to insulin is a reasonable extension but does not introduce a new paradigm.  
+  - **Scientific importance** Improved force fields for IDPs are of practical importance to the simulation community, but the significance of the specific improvement and the insulin finding cannot be assessed without data.  
+  - **Interdisciplinary readership** The work is likely to appeal primarily to computational chemists and biophysicists; the biological implications for insulin engineering could broaden interest if substantiated.  
+  - **Technical soundness** Cannot be evaluated from the abstract. The lack of methodological detail and quantitative results precludes assessment of technical rigor.  
+  - **Readability for nonspecialists** The abstract is accessible in its general framing but uses specialized terms without sufficient context, and the insulin conclusion is not explained in a way that a nonspecialist could evaluate.
+
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful force field refinement and an interesting application, but the absence of quantitative results, methodological transparency, and a substantiated biological conclusion means the case is not made. A full manuscript with detailed validation and analysis would be required to assess the claims properly.

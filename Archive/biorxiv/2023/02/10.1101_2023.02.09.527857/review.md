@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no figures, methods, or supplementary materials were provided for evaluation
+- **Shared manuscript claim summary** The authors report that the human RNA-binding protein SMAUG1 forms liquid-like condensates in cells via a C-terminal prion-like disordered region, that this condensation is independent of RNA binding and of other large disordered regions, and that interactions with 14-3-3 proteins, mediated by four phospho-regulated short linear motifs, negatively regulate condensation by promoting dissolution and altering condensate dynamics. The authors further claim this is the first described regulatory mechanism for SMAUG1-driven condensation and the first instance of 14-3-3 proteins completely dissolving condensates by directly interacting with a phase separation driver.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, statistical details, or supplementary information were supplied.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, computational prediction details, structural models, statistical analyses, and any control experiments. Without these, the majority of the claims cannot be independently evaluated.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and novel finding regarding the regulation of SMAUG1 condensation by 14-3-3 proteins. The topic is timely given the growing interest in biomolecular condensates and their regulation. However, the abstract alone provides insufficient detail to assess the rigor of the experimental support. Several claims are made without visible quantitative or methodological backing, and the novelty statements, while plausible, require verification against the broader literature. The manuscript may be of interest to the phase separation and RNA biology communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation and biomolecular condensates, particularly those focused on regulatory mechanisms involving 14-3-3 proteins or disordered regions. The RNA biology community, especially those studying SMAUG family proteins and translational repression, would also find the results relevant. Additionally, groups interested in phospho-regulated protein interactions and their role in condensate dynamics may be attracted to the findings.
+- **Major strengths** The abstract identifies a clear gap in knowledge regarding SMAUG1 condensation regulation and proposes a specific molecular mechanism involving 14-3-3 proteins. The claim of a first described regulatory mechanism for SMAUG1 condensation and the first instance of 14-3-3 proteins dissolving condensates by direct interaction with a phase separation driver, if substantiated, would represent a meaningful advance. The combination of computational, in vitro, and in cell approaches is appropriate for the question posed.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that SMAUG1 drives liquid-like condensate formation through its C-terminal prion-like disordered region and that this is independent of RNA binding and other large disordered regions.
+  - **Evidence pointer** Abstract only; specific figures and methods not provided
+  - **Concern** The abstract states that biochemical assays show phase separation is independent of RNA binding and other disordered regions, but no experimental details, quantification, or controls are visible. The criteria used to define "liquid-like" behavior (e.g., FRAP, fusion events, sensitivity to 1,6-hexanediol) are not described. The claim that the prion-like domain is the driver is presented without comparative data on the contributions of other regions.
+  - **Why it matters** The central mechanistic claim of the paper rests on identifying the specific region driving condensation and ruling out contributions from RNA and other disordered regions. Without visible evidence, the reader cannot assess whether the conclusions are robust or whether alternative interpretations are possible.
+  - **Resolution test** Provide the relevant figures and methods demonstrating liquid-like properties, domain truncation experiments, and RNA independence assays with appropriate controls and quantification.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that 14-3-3 proteins negatively regulate SMAUG1 condensation through four distinct phospho-regulated short linear motifs that work synergistically, and that these interactions drive condensate dissolution and alter dynamics.
+  - **Evidence pointer** Abstract only; specific figures and methods not provided
+  - **Concern** The abstract states that interactions with 14-3-3 proteins are mediated by four motifs and that these work synergistically, but no data are shown to support the number of motifs, their phospho-regulation, or the synergy claim. The statement that 14-3-3 interactions "drive the dissolution of condensates" and "alter the dynamics of the condensed state" is made without visible quantitative measurements or time-course data.
+  - **Why it matters** The novelty claim of the paper depends on establishing both the molecular details of the SMAUG1-14-3-3 interaction and the functional consequence of that interaction on condensate behavior. Without visible evidence, the mechanistic model cannot be evaluated.
+  - **Resolution test** Provide mutagenesis data for each of the four motifs, phospho-regulation evidence, binding measurements, and quantitative condensate dissolution and dynamics assays with appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty verification
+  - **Claim pointer** The authors claim this is the first described regulatory mechanism for SMAUG1-driven condensation and the first known instance of 14-3-3 proteins completely dissolving condensates by directly interacting with a phase separation driver.
+  - **Evidence pointer** Abstract only; literature context not provided
+  - **Concern** The abstract asserts novelty without visible comparison to existing literature. While the claim may be accurate, the abstract does not demonstrate that prior work on SMAUG1 condensation regulation or on 14-3-3 mediated condensate dissolution has been systematically considered.
+  - **Why it matters** Novelty claims are a key part of the paper's significance. If prior work has described related mechanisms, the framing of the findings would need adjustment.
+  - **Resolution test** Provide a clear literature review in the manuscript that substantiates the novelty claims, and ensure the discussion addresses any related findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The term "non-conventional C-terminal prion-like disordered region" is used without definition or context for what makes it non-conventional.
+  - **Required correction** Briefly define or clarify what distinguishes this region from conventional prion-like domains.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mechanistic model
+  - **Evidence pointer** Abstract, final paragraph
+  - **Issue** The statement that 14-3-3 interactions are "likely to be intertwined with currently unknown regulatory mechanisms" is vague and does not specify what these mechanisms might be or how they were inferred.
+  - **Required correction** Either specify the proposed unknown mechanisms or remove the speculative statement.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantification
+  - **Affected element** Condensate properties
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The abstract describes condensates as "liquid-like" but provides no quantitative parameters such as viscosity, diffusion coefficients, or FRAP recovery rates.
+  - **Required correction** Include representative quantitative values or refer to specific figures where these are reported.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic and regulatory claims cannot be evaluated from the abstract alone. R1-M3 is also blocking because the novelty claims require literature verification. The absence of any visible experimental detail prevents assessment of technical soundness.
+- **Assessment against Nature-style criteria** Originality: The claim of a first regulatory mechanism for SMAUG1 condensation and first 14-3-3 mediated condensate dissolution is potentially original, but cannot be verified from the abstract. Scientific importance: The topic is of interest to the phase separation and RNA biology communities, and a new regulatory mechanism would be valuable. Interdisciplinary readership: The work bridges cell biology, biophysics, and RNA biology, which could appeal to a broad audience. Technical soundness: Cannot be assessed from the abstract alone. Readability for nonspecialists: The abstract is generally clear but uses specialized terminology without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially interesting model, but the absence of figures, methods, and quantitative data prevents evaluation of the core claims. A full manuscript review would be required to determine whether the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that SMAUG1 condensation is independent of RNA binding is unsupported without visible experimental data.
+- The claim that the C-terminal prion-like disordered region is the sole or primary driver of condensation is unsupported without domain truncation or mutagenesis data.
+- The claim that four distinct phospho-regulated short linear motifs mediate 14-3-3 interactions and work synergistically is unsupported without visible mutagenesis and binding data.
+- The claim that 14-3-3 interactions drive condensate dissolution and alter dynamics is unsupported without quantitative measurements.
+- The novelty claims regarding the first regulatory mechanism for SMAUG1 condensation and the first instance of 14-3-3 mediated condensate dissolution cannot be evaluated without literature context.
+- The statement that 14-3-3 interactions are "likely to be intertwined with currently unknown regulatory mechanisms" is speculative and not supported by visible evidence.

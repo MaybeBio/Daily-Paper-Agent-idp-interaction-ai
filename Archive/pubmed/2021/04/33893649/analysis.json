@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33893649",
+  "title": "Tackling Covid-19 using disordered-to-order transition of residues in the spike protein upon angiotensin-converting enzyme 2 binding.",
+  "authors": "Yesudhas, Dhanusha; Srivastava, Ambuj; Sekijima, Masakazu; Gromiha, M Michael",
+  "journal": "Proteins",
+  "published_date": "2021-04-25",
+  "window": {
+    "start": "2021-04-19",
+    "end": "2021-04-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究用分子动力学模拟揭示SARS-CoV-2刺突蛋白RBD中无序残基在与ACE2结合时发生无序到有序转变(DOT)，并分析其构象重排、结合能量与协同运动，直接聚焦IDR介导的蛋白-蛋白互作机制建模，虽对象非相分离但方法与本课题高度契合。",
+  "abstract": "The 2019-novel coronavirus also known as severe acute respiratory syndrome-coronavirus 2 (SARS-CoV-2) is a common threat to animals and humans, and is responsible for the human SARS pandemic in 2019 to 2021. The infection of SARS-CoV-2 in humans involves a viral surface glycoprotein named as spike proteins, which bind to the human angiotensin-converting enzyme 2 (ACE2) proteins. Particularly, the receptor binding domains (RBDs) mediate the interaction and contain several disordered regions, which help in the binding. Investigations on the influence of disordered residues/regions in stability and binding of spike protein with ACE2 help to understand the disease pathogenesis, which has not yet been studied. In this study, we have used molecular-dynamics simulations to characterize the structural changes in disordered regions of the spike protein that result from ACE2 binding. We observed that the disordered regions undergo disorder-to-order transition (DOT) upon binding with ACE2, and the DOT residues are located at functionally important regions of RBD. Although the RBD is having rigid structure, DOT residues make conformational rearrangements for the spike protein to attach with ACE2. The binding is strengthened via hydrophilic and aromatic amino acids mainly present in the DOTs. The positively correlated motions of the DOT residues with its nearby residues also explain the binding profile of RBD with ACE2, and the residues are observed to be contributing more favorable binding energies for the spike-ACE2 complex formation. This study emphasizes that intrinsically disordered residues in the RBD of spike protein may provide insights into its etiology and be useful for drug and vaccine discovery.",
+  "abstract_zh": "2019新型冠状病毒，又称严重急性呼吸综合征冠状病毒2（SARS-CoV-2），对动物和人类构成共同威胁，并导致了2019年至2021年的人类SARS大流行。SARS-CoV-2感染人类的过程涉及一种病毒表面糖蛋白，称为刺突蛋白，其与人血管紧张素转换酶2（ACE2）蛋白结合。特别是，受体结合域（RBDs）介导这种相互作用，并包含若干无序区域，这些区域有助于结合。对无序残基/区域在刺突蛋白与ACE2结合稳定性及相互作用中影响的研究，有助于理解疾病发病机制，但此类研究尚未开展。在本研究中，我们利用分子动力学（molecular dynamics）模拟来表征ACE2结合引起的刺突蛋白无序区域的结构变化。我们观察到，无序区域在与ACE2结合时发生无序到有序转变（DOT），且DOT残基位于RBD的功能重要区域。尽管RBD具有刚性结构，但DOT残基通过构象重排使刺突蛋白能够附着于ACE2。结合作用主要通过DOTs中存在的亲水性和芳香族氨基酸得以增强。DOT残基与其邻近残基的正相关运动也解释了RBD与ACE2的结合特征，并观察到这些残基为刺突-ACE2复合物形成贡献了更有利的结合能。本研究强调，刺突蛋白RBD中的固有无序残基可能为其病因学提供见解，并有助于药物和疫苗的发现。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33893649/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33893649/",
+  "paper_page_path": "papers/pubmed/33893649/index.html"
+}

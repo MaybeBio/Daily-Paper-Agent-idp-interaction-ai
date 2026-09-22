@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors present a new computational tool, SWAXS-AMDE, for computing small and wide angle X-ray scattering profiles from molecular dynamics trajectories of solutes with explicit hydration layer waters. Using this tool, they report that the AMBER ff19SB protein force field, rather than water model dispersion modifications alone, is critical for obtaining accurate macromolecular ensembles of intrinsically disordered proteins and folded proteins, as benchmarked against experimental X-ray scattering data for polyampholyte peptides.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, validation statistics, or experimental comparisons are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation protocols, force field parameters, system details, error analysis, and comparison data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable methodological contribution in SWAXS-AMDE and a scientifically interesting claim regarding the relative importance of protein versus water force fields for IDP ensemble accuracy. However, the abstract alone provides insufficient evidence to evaluate the validity, robustness, or generalizability of the central claims. The claim that ff19SB "plays a crucial role" is stated without quantitative support, and the scope of validation (polyampholyte peptides) is narrow relative to the broad conclusion about IDPs generally. The work may be of interest to the molecular simulation and IDP communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and physical chemists developing or using force fields for disordered proteins; researchers studying IDP conformational ensembles; method developers in small-angle X-ray scattering analysis; and experimentalists who use scattering to validate simulations. The tool's compatibility with multiple MD engines could also appeal to a broader simulation community seeking standardized scattering validation.
+- **Major strengths** The development of a scattering model that explicitly accounts for hydration layer waters around a thermally fluctuating solute addresses a recognized gap in comparing simulations to X-ray scattering experiments. The stated compatibility with all popular MD software packages is a practical advantage that could facilitate wider adoption. The attempt to isolate protein versus water model contributions is a conceptually important question for the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "SWAXS-AMDE computed scattering profiles for polyampholyte peptides show the AMBER ff19SB protein force field to play a crucial role in obtaining accurate macromolecular ensembles of both folded proteins and IDPs."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The central claim that ff19SB plays a "crucial role" is presented without any quantitative comparison, such as chi-square values, root-mean-square deviations between computed and experimental scattering profiles, or statistical measures of ensemble agreement. No error bars, replicate analyses, or uncertainty estimates are mentioned. The abstract does not specify how many peptides were tested, what experimental data were used, or how "accurate" was defined.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the observed differences between force fields are statistically significant, practically meaningful, or within experimental uncertainty. The term "crucial" implies a strong effect that may not be supported by the actual magnitude of differences.
+  - **Resolution test** Provide quantitative agreement metrics (e.g., chi-square, R-factor) for ff19SB versus alternative protein force fields, with uncertainty estimates, for each tested peptide and for folded protein controls. Show that differences exceed experimental or computational noise.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** "the AMBER ff19SB protein force field to play a crucial role in obtaining accurate macromolecular ensembles of both folded proteins and IDPs"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The conclusion is drawn from polyampholyte peptides only, yet it is generalized to "both folded proteins and IDPs" broadly. Polyampholyte sequences represent a specific subclass of IDPs with particular charge patterning, and the abstract does not indicate whether diverse IDP sequences (e.g., low-complexity, prion-like, or globular-prone) or multiple folded proteins were tested. The number of systems is not stated.
+  - **Why it matters** Force field performance is known to be sequence-dependent for IDPs. A claim about general accuracy requires demonstration across a representative range of sequences and structural classes. Overgeneralization from a narrow test set could mislead users into assuming ff19SB is universally superior.
+  - **Resolution test** Specify the number and diversity of peptide and protein systems tested. Include at least one non-polyampholyte IDP and multiple folded proteins. Show consistent trends across systems, or explicitly limit the conclusion to the tested sequence class.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological validation
+  - **Claim pointer** "we have developed a new scattering model termed small and wide angle X-ray scattering for all molecular dynamics engines (SWAXS-AMDE)"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how SWAXS-AMDE was validated as a scattering calculation method independent of force field comparisons. No benchmarks against established scattering codes, experimental standards, or known analytical solutions are mentioned. The treatment of the hydration layer, which is stated as a key innovation, is not described in terms of its physical model or approximations.
+  - **Why it matters** A new computational tool must be validated on its own before its outputs can be used to draw conclusions about force fields. If the scattering model has systematic errors, the attributed differences between force fields could be artifacts of the tool rather than real physical effects.
+  - **Resolution test** Provide validation of SWAXS-AMDE against experimental scattering data for systems with known structures, against existing scattering software, and with convergence tests for hydration layer treatment. Show that the tool reproduces known results within stated tolerances.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Scope statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that water models with increased dispersion "have been proposed to produce extended conformational ensembles" but does not clarify whether the authors are challenging this proposal or refining it. The relationship between the present findings and prior work on TIP4P-D and OPC is unclear.
+  - **Required correction** Explicitly state how the present results confirm, refine, or contradict previous conclusions about water model effects on IDP ensembles.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Tool availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention is made of whether SWAXS-AMDE is open source, where it can be obtained, or what input formats are supported beyond "trajectory files from all of the popular molecular dynamics simulation softwares."
+  - **Required correction** State software availability, licensing, and a distribution URL or repository reference in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "accurate macromolecular ensembles"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "accurate" is used without an operational definition. It is unclear whether accuracy refers to agreement with experimental scattering profiles, conformational properties, or both.
+  - **Required correction** Define the accuracy metric used and specify which experimental observables were compared.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central conclusion is not quantitatively supported and is overgeneralized from the stated evidence. R1-M3 is important but not strictly blocking if the tool is validated in the full manuscript; however, without such validation, the reliability of the force field comparison cannot be assessed.
+- **Assessment against Nature-style criteria** Originality: The idea of isolating protein versus water force field contributions using an explicit hydration layer scattering model is conceptually valuable, though the underlying question is not entirely new. Scientific importance: The question of which force field components dominate IDP ensemble accuracy is of high importance to the simulation community, but the abstract does not yet demonstrate a definitive answer. Interdisciplinary readership: The work bridges simulation methodology and experimental scattering, which could interest a broad biophysics audience, but the abstract is written in a specialized manner. Technical soundness: Cannot be evaluated from the abstract alone; the lack of quantitative validation and methodological detail prevents assessment. Readability for nonspecialists: The abstract assumes familiarity with force fields, IDPs, and scattering techniques; it is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The methodological contribution is promising and the scientific question is relevant, but the abstract does not provide sufficient quantitative support for the central claim. I would be supportive if the full manuscript provides rigorous validation of SWAXS-AMDE, quantitative force field comparisons with uncertainty estimates, and a clearly scoped generalization of the conclusions.

@@ -1,0 +1,713 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.07.21.453232",
+  "title": "Structure insights, thermodynamic profiles, dsDNA melting activity, and liquid-liquid phase separation of the SARS-CoV-2 nucleocapsid N-terminal domain binding to DNA",
+  "doi": "10.1101/2021.07.21.453232",
+  "abstract": "<h4>ABSTRACT</h4> The SARS-CoV-2 nucleocapsid protein (N) is a multifunctional promiscuous nucleic acid-binding protein, which plays a major role in nucleocapsid assembly and discontinuous RNA transcription, facilitating the template switch of transcriptional regulatory sequences (TRS). Here, we dissect the structural features of the N protein N-terminal domain (N-NTD), either with or without the SR-rich motif (SR), upon binding to single and double-stranded TRS DNA, as well as their activities for dsTRS melting and TRS-induced liquid-liquid phase separation (LLPS). Our study gives insights on specificity for N-NTD/N-NTD-SR interaction with TRS, including an unfavorable energetic contribution to binding along with hydrogen bonds between the triple-thymidine (TTT) motif in the dsTRS and β-sheet II due to the defined position and orientation of the DNA duplex, a well-defined pattern (ΔH > 0 and ΔS > 0 for ssTRS, and ΔH < 0 and ΔS < 0 for dsTRS) for the thermodynamic profile of binding, and a preference for TRS in the formation of liquid condensates when compared to a non-specific sequence. Moreover, our results on DNA binding may serve as a starting point for the design of inhibitors, including aptamers, against N, a possible therapeutic target essential for the virus infectivity.",
+  "authors": [
+    "Caruso IP",
+    "dos Santos Almeida V",
+    "Juliani do Amaral M",
+    "de Andrade GC",
+    "de Araújo GR",
+    "de Araújo TS",
+    "de Azevedo JM",
+    "Barbosa GM",
+    "Bartkevihi L",
+    "Bezerra PR",
+    "dos Santos Cabral KM",
+    "Lourenço IO",
+    "Malizia-Motta CLF",
+    "de Luna Marques A",
+    "Mebus-Antunes NC",
+    "Neves-Martins TC",
+    "de Sá JM",
+    "Sanches K",
+    "Santana-Silva MC",
+    "Vasconcelos AA",
+    "da Silva Almeida M",
+    "de Amorim GC",
+    "Anobom CD",
+    "Da Poian AT",
+    "Gomes-Neto F",
+    "Pinheiro AS",
+    "Almeida FCL"
+  ],
+  "published_date": "2021-07-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.07.21.453232",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.07.21.453232.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR373628",
+    "raw_record": {
+      "id": "PPR373628",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR373628"
+        ]
+      },
+      "doi": "10.1101/2021.07.21.453232",
+      "title": "Structure insights, thermodynamic profiles, dsDNA melting activity, and liquid-liquid phase separation of the SARS-CoV-2 nucleocapsid N-terminal domain binding to DNA",
+      "authorString": "Caruso IP, dos Santos Almeida V, Juliani do Amaral M, de Andrade GC, de Araújo GR, de Araújo TS, de Azevedo JM, Barbosa GM, Bartkevihi L, Bezerra PR, dos Santos Cabral KM, Lourenço IO, Malizia-Motta CLF, de Luna Marques A, Mebus-Antunes NC, Neves-Martins TC, de Sá JM, Sanches K, Santana-Silva MC, Vasconcelos AA, da Silva Almeida M, de Amorim GC, Anobom CD, Da Poian AT, Gomes-Neto F, Pinheiro AS, Almeida FCL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Caruso IP",
+            "lastName": "Caruso",
+            "firstName": "Icaro Putinhon",
+            "initials": "IP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4464-0520"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Multiuser Center for Biomolecular Innovation (CMIB), Department of Physics, Sao Paulo State University (UNESP), São José do Rio Preto, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "dos Santos Almeida V",
+            "lastName": "dos Santos Almeida",
+            "firstName": "Vitor",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Center of Nuclear Magnetic Resonance (CNRMN), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Juliani do Amaral M",
+            "lastName": "Juliani do Amaral",
+            "firstName": "Mariana",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Pharmacy, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Protein Advanced Biochemistry (PAB), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Andrade GC",
+            "lastName": "de Andrade",
+            "firstName": "Guilherme Caldas",
+            "initials": "GC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "National Center of Nuclear Magnetic Resonance (CNRMN), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Araújo GR",
+            "lastName": "de Araújo",
+            "firstName": "Gabriela Rocha",
+            "initials": "GR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "National Center of Nuclear Magnetic Resonance (CNRMN), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Araújo TS",
+            "lastName": "de Araújo",
+            "firstName": "Talita Stelling",
+            "initials": "TS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Protein Advanced Biochemistry (PAB), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Azevedo JM",
+            "lastName": "de Azevedo",
+            "firstName": "Jéssica Moreira",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Protein Advanced Biochemistry (PAB), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barbosa GM",
+            "lastName": "Barbosa",
+            "firstName": "Glauce Moreno",
+            "initials": "GM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4285-4170"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "National Center of Nuclear Magnetic Resonance (CNRMN), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bartkevihi L",
+            "lastName": "Bartkevihi",
+            "firstName": "Leonardo",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "National Center of Nuclear Magnetic Resonance (CNRMN), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bezerra PR",
+            "lastName": "Bezerra",
+            "firstName": "Peter Reis",
+            "initials": "PR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2978-9159"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "National Center of Nuclear Magnetic Resonance (CNRMN), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "dos Santos Cabral KM",
+            "lastName": "dos Santos Cabral",
+            "firstName": "Katia Maria",
+            "initials": "KM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Protein Advanced Biochemistry (PAB), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lourenço IO",
+            "lastName": "Lourenço",
+            "firstName": "Isabella Otênio",
+            "initials": "IO",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Multiuser Center for Biomolecular Innovation (CMIB), Department of Physics, Sao Paulo State University (UNESP), São José do Rio Preto, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Malizia-Motta CLF",
+            "lastName": "Malizia-Motta",
+            "firstName": "Clara",
+            "initials": "CLF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Institute of Chemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Luna Marques A",
+            "lastName": "de Luna Marques",
+            "firstName": "Aline",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Multidisciplinary Center for Research in Biology (NUMPEX), Campus Duque de Caxias Federal University of Rio de Janeiro, Duque de Caxias, Brazil."
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mebus-Antunes NC",
+            "lastName": "Mebus-Antunes",
+            "firstName": "Nathane Cunha",
+            "initials": "NC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Neves-Martins TC",
+            "lastName": "Neves-Martins",
+            "firstName": "Thais Cristtina",
+            "initials": "TC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Sá JM",
+            "lastName": "de Sá",
+            "firstName": "Jéssica Maróstica",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Multiuser Center for Biomolecular Innovation (CMIB), Department of Physics, Sao Paulo State University (UNESP), São José do Rio Preto, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sanches K",
+            "lastName": "Sanches",
+            "firstName": "Karoline",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Multiuser Center for Biomolecular Innovation (CMIB), Department of Physics, Sao Paulo State University (UNESP), São José do Rio Preto, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Santana-Silva MC",
+            "lastName": "Santana-Silva",
+            "firstName": "Marcos Caique",
+            "initials": "MC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Multidisciplinary Center for Research in Biology (NUMPEX), Campus Duque de Caxias Federal University of Rio de Janeiro, Duque de Caxias, Brazil."
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vasconcelos AA",
+            "lastName": "Vasconcelos",
+            "firstName": "Ariana Azevedo",
+            "initials": "AA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "National Center of Nuclear Magnetic Resonance (CNRMN), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "da Silva Almeida M",
+            "lastName": "da Silva Almeida",
+            "firstName": "Marcius",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Protein Advanced Biochemistry (PAB), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Amorim GC",
+            "lastName": "de Amorim",
+            "firstName": "Gisele Cardoso",
+            "initials": "GC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Multidisciplinary Center for Research in Biology (NUMPEX), Campus Duque de Caxias Federal University of Rio de Janeiro, Duque de Caxias, Brazil."
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Anobom CD",
+            "lastName": "Anobom",
+            "firstName": "Cristiane Dinis",
+            "initials": "CD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Center of Nuclear Magnetic Resonance (CNRMN), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Department of Biochemistry, Institute of Chemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Da Poian AT",
+            "lastName": "Da Poian",
+            "firstName": "Andrea",
+            "initials": "AT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3969-704X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gomes-Neto F",
+            "lastName": "Gomes-Neto",
+            "firstName": "Francisco",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2668-9876"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Center of Nuclear Magnetic Resonance (CNRMN), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Laboratory of Toxinology, Oswaldo Cruz Foundation (FIOCRUZ), Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pinheiro AS",
+            "lastName": "Pinheiro",
+            "firstName": "Anderson",
+            "initials": "AS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Institute of Chemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Almeida FCL",
+            "lastName": "Almeida",
+            "firstName": "Fabio",
+            "initials": "FCL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4921-8185"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Biochemistry, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "National Center of Nuclear Magnetic Resonance (CNRMN), CENABIO, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil"
+                },
+                {
+                  "affiliation": "Rio BioNMR Network, Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2668-9876"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3969-704X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6439-1931"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8900-9997"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9761-9226"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0509-0386"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1247-2606"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1551-8972"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2978-9159"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4285-4170"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4348-9515"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4464-0520"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4921-8185"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>ABSTRACT</h4>  The SARS-CoV-2 nucleocapsid protein (N) is a multifunctional promiscuous nucleic acid-binding protein, which plays a major role in nucleocapsid assembly and discontinuous RNA transcription, facilitating the template switch of transcriptional regulatory sequences (TRS). Here, we dissect the structural features of the N protein N-terminal domain (N-NTD), either with or without the SR-rich motif (SR), upon binding to single and double-stranded TRS DNA, as well as their activities for dsTRS melting and TRS-induced liquid-liquid phase separation (LLPS). Our study gives insights on specificity for N-NTD/N-NTD-SR interaction with TRS, including an unfavorable energetic contribution to binding along with hydrogen bonds between the triple-thymidine (TTT) motif in the dsTRS and β-sheet II due to the defined position and orientation of the DNA duplex, a well-defined pattern (ΔH > 0 and ΔS > 0 for ssTRS, and ΔH < 0 and ΔS < 0 for dsTRS) for the thermodynamic profile of binding, and a preference for TRS in the formation of liquid condensates when compared to a non-specific sequence. Moreover, our results on DNA binding may serve as a starting point for the design of inhibitors, including aptamers, against N, a possible therapeutic target essential for the virus infectivity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/07/22/2021.07.21.453232.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.07.21.453232"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR373628"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR373628&type=FILE&fileName=EMS131334-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS131334",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refseq",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-07-24",
+      "firstPublicationDate": "2021-07-22",
+      "firstIndexDate": "2021-07-24",
+      "fullTextReceivedDate": "2021-10-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

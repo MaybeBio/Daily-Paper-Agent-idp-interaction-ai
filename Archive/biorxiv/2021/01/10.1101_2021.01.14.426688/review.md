@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, footnotes) as provided in the submission.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external data, supplementary figures, or unpublished materials were available for review beyond what is explicitly described in the manuscript.
+- **Shared manuscript claim summary** The authors claim that the C-terminal region of E. coli FtsZ is intrinsically disordered, that a specific sequence within this region (residues 352-358) acts as a conformation-specific enhancer for ClpXP-mediated degradation of polymerized FtsZ, and that this enhancement is dependent on the relative position of the motif within the polymer.
+- **Visible evidence base** NMR spectroscopy data (HSQC, secondary chemical shifts, δ2D analysis), fluorescence-based degradation assays, direct binding assays, ATP hydrolysis assays, sedimentation assays, and fluorescence microscopy, as described in the text and referenced figures/tables.
+- **Missing materials affecting confidence** Full figures and supplementary data (Fig. 1-5, Fig. S1-S2, Table S1-S2) were not provided. Detailed NMR assignment statistics, raw degradation curves, and statistical analyses (error bars, replicates) are referenced but not visible. The manuscript is a preprint and has not undergone peer review.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially important question: how the intrinsically disordered region (IDR) of FtsZ contributes to conformation-specific degradation by ClpXP. The NMR data supporting intrinsic disorder of the FtsZ C-terminal region are convincing based on the described analysis. The functional assays with engineered substrates are logically designed and the results are internally consistent. However, the central claim that the upstream motif acts as a "conformation-guided enhancer" is only partially supported by the data presented. The distinction between avidity effects from multivalency and true conformational specificity is not fully resolved. The manuscript would benefit from additional experiments or clearer quantitative analysis to distinguish these mechanisms. The writing is clear and the logical flow is strong, but the mechanistic conclusion is somewhat overstated relative to the evidence.
+- **Who would be interested in the results, and why** Researchers studying bacterial cell division, AAA+ proteases (particularly ClpXP), protein quality control, and the functional roles of intrinsically disordered regions in proteins. The work also has relevance for understanding how proteolytic machines recognize polymeric substrates and how conformational state can gate substrate selection.
+- **Major strengths** 1) The NMR analysis provides direct experimental evidence for the disordered nature of the FtsZ C-terminal region, which was previously only predicted. 2) The use of engineered chimeric substrates to dissect the contributions of distinct motifs is a clean and effective approach. 3) The mixed-polymer experiment (Fig. 4C-D) is a clever design to test trans-subunit effects. 4) The study addresses a broader conceptual question about how IDRs contribute to protease substrate recognition, which is of general interest.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors claim that the upstream motif (residues 352-358) acts as a "conformation-specific enhancer" for degradation of polymerized FtsZ, and that this enhancement is due to "conformationally-guided interactions."
+  - **Evidence pointer** Results section "The secondary motif in the FtsZ IDR acts as a conformation-specific enhancer for degradation of FtsZ by ClpXP", Fig. 3B-D
+  - **Concern** The data show that mutation of the upstream motif reduces degradation of polymerized FtsZ by approximately 48%. However, the authors do not provide a quantitative framework to distinguish between (a) a true conformational change in the IDR upon polymerization that creates a new binding site, and (b) a simple avidity effect where the upstream motif provides an additional weak binding site that becomes more effective when multiple subunits are arrayed in a polymer. The mixed-polymer experiment (Fig. 4C-D) is suggestive of a trans effect, but the interpretation relies on the assumption that the upstream motif does not alter polymer structure or dynamics. The authors do not test whether the upstream motif mutations affect FtsZ polymerization kinetics, polymer stability, or filament architecture. Without this control, the "conformational" aspect of the claim is not established.
+  - **Why it matters** The central mechanistic claim of the paper is that ClpXP recognizes a conformation-specific feature of polymerized FtsZ. If the effect is simply due to increased local concentration of a weak binding motif in the polymer, the conclusion is less novel and the "conformation-guided" framing is misleading. This distinction is critical for the paper's contribution to understanding how ClpXP achieves polymer-selective degradation.
+  - **Resolution test** The authors should perform polymerization assays (e.g., light scattering, sedimentation, or electron microscopy) to confirm that the upstream motif mutations do not alter FtsZ polymer assembly or stability. Additionally, they could perform binding assays with ClpX and isolated IDR peptides in the presence and absence of polymerization to directly measure affinity changes. Alternatively, a kinetic analysis of degradation rates as a function of polymer length or density could help distinguish avidity from conformational switching.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative support
+  - **Claim pointer** The authors state that the upstream motif is "dispensable and alone is not sufficient to robustly promote degradation" based on the Gfp-IDR FtsZ mut-1 results.
+  - **Evidence pointer** Results section "The intrinsically disordered C-terminal region of FtsZ is sufficient to target a model monomeric substrate for ClpXP degradation", Fig. 2B-C
+  - **Concern** The conclusion that the upstream motif is dispensable for monomeric substrate degradation is based on a comparison of degradation rates that are stated to be "within error." However, the actual rate values, error bars, and statistical tests are not shown in the text. The reader cannot assess whether the lack of a significant difference is due to genuine redundancy or insufficient statistical power. Similarly, the claim that Gfp-IDR FtsZ mut-2 is degraded "less efficiently" is supported by a 77.4% reduction, but the variability and number of replicates are not reported.
+  - **Why it matters** The paper's model depends on the idea that the upstream motif only becomes important in the polymer context. If the monomeric assays are underpowered, the conclusion that the motif is dispensable in monomers could be incorrect, which would weaken the conformational specificity argument.
+  - **Resolution test** Provide full statistical analysis of degradation rates, including individual replicate values, means, standard deviations, and appropriate statistical tests (e.g., t-tests or ANOVA) for all comparisons. If the sample size is small, acknowledge this limitation and consider additional replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vivo relevance
+  - **Claim pointer** The authors suggest that the IDR-mediated enhancement of ClpXP degradation is relevant to FtsZ regulation during cell division.
+  - **Evidence pointer** Discussion section
+  - **Concern** The manuscript does not provide any in vivo data to support the physiological relevance of the proposed mechanism. The authors mention that ClpXP degrades FtsZ in vivo and that deletion of clpX/clpP in certain genetic backgrounds leads to division defects, but they do not test whether the specific IDR motifs identified here are important for FtsZ turnover or division in cells. The in vitro system is well-controlled, but the leap to in vivo significance is speculative.
+  - **Why it matters** The title and framing of the paper suggest a functional role in cell division. Without in vivo validation, the significance of the proposed mechanism for bacterial physiology remains unclear. This is particularly important given that the authors themselves note that ClpXP-mediated FtsZ degradation is not essential for division under normal conditions.
+  - **Resolution test** Perform in vivo experiments, such as expressing FtsZ variants with mutations in the upstream motif in a strain where ClpXP-dependent FtsZ degradation is phenotypically relevant (e.g., ΔminC background) and assessing division phenotypes or FtsZ levels. Alternatively, measure FtsZ turnover rates in vivo for wild-type and mutant variants.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the IDR "enhance[s] the degradation by conformationally-guided interactions" but does not define what "conformationally-guided" means in this context. This term is vague and could be interpreted in multiple ways.
+  - **Required correction** Define the term in the abstract or rephrase to be more specific, e.g., "enhances degradation specifically when FtsZ is polymerized, likely through multivalent interactions with adjacent subunits."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** NMR sample concentration
+  - **Evidence pointer** Materials and Methods, "NMR Sample Preparation and NMR Spectroscopy"
+  - **Issue** The sample concentration is reported as "∼163 μ?" with a missing unit. This appears to be a typographical error.
+  - **Required correction** Correct the unit to "μM" or provide the appropriate concentration unit.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Fig. 2B
+  - **Evidence pointer** Results section "The intrinsically disordered C-terminal region of FtsZ is sufficient to target a model monomeric substrate for ClpXP degradation"
+  - **Issue** The text states that Gfp-IDR FtsZ fluorescence decreases with time, but the figure is not available for review. It would be helpful to show representative raw fluorescence traces in addition to normalized data.
+  - **Required correction** Include representative raw data traces in the figure or supplement to allow readers to assess the quality of the measurements.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Fig. 4A-B
+  - **Evidence pointer** Results section "Architectural arrangement of recognition motifs in the IDR confers the conformational specificity that regulates degradation"
+  - **Issue** The authors conclude that spacing between motifs is "dispensable" based on the similar degradation rates of Gfp-FtsZ and Gfp-FtsZ Δ space. However, the deletion of 16 amino acids could have unintended effects on the overall structure or dynamics of the IDR beyond simply changing spacing.
+  - **Required correction** Acknowledge this limitation and consider testing additional spacing variants or using a more conservative approach, such as inserting flexible linkers of varying lengths rather than deleting a large segment.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction cites several studies on FtsZ C-terminal region function but does not discuss the possibility that the IDR may also be involved in interactions with other division proteins beyond ClpXP in the context of degradation.
+  - **Required correction** Briefly mention that the IDR is a hub for multiple protein interactions and that the study focuses specifically on ClpXP, to set expectations for the scope of the work.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of polymerization assays to control for effects of IDR mutations on FtsZ polymer structure (R1-M1). 2) Incomplete statistical reporting for degradation rate comparisons (R1-M2). 3) Missing unit in NMR sample concentration (R1-m2). 4) No in vivo validation of the proposed mechanism (R1-M3).
+- **Assessment against Nature-style criteria** Originality: The work is original in providing direct NMR evidence for disorder in the FtsZ C-terminal region and in proposing a role for an IDR sequence in conformation-specific protease recognition. However, the concept of IDRs contributing to protease substrate recognition is not entirely new, and the novelty of the "conformation-guided" mechanism is not fully established. Scientific importance: The findings are of interest to the bacterial cell division and protease fields, but the broader significance is limited by the lack of in vivo data. The work does not fundamentally change current understanding of ClpXP substrate recognition or FtsZ regulation. Interdisciplinary readership: The topic is likely to appeal primarily to microbiologists, cell biologists, and biochemists. The NMR and biochemical approaches are standard within these fields, and the paper is unlikely to attract a broad interdisciplinary audience. Technical soundness: The experimental designs are generally sound, and the NMR analysis appears technically competent. However, the lack of key controls (polymerization assays) and incomplete statistical reporting weaken the technical foundation. Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow, but the mechanistic details of ClpXP and FtsZ biology may be challenging for readers outside the field. The abstract is accessible, but the results section assumes significant background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation that the FtsZ IDR is disordered and contains a sequence that enhances ClpXP degradation of polymerized FtsZ is interesting and potentially publishable. However, the mechanistic claim of "conformation-guided" enhancement requires additional experimental support, particularly regarding the effects of IDR mutations on polymer structure and a more rigorous quantitative analysis. The lack of in vivo data is a limitation but not necessarily a blocker for a specialized journal. The manuscript is not currently suitable for publication in a high-impact general journal such as Nature, given the limited scope and the need for additional experiments.
+
+## Risk / unsupported claims
+- The claim that the upstream motif acts as a "conformation-specific enhancer" is not fully supported without controls for polymer structure and dynamics.
+- The statement that the upstream motif is "dispensable" for monomeric degradation is based on underreported statistical analysis.
+- The suggestion that ClpXP-mediated degradation of FtsZ via this mechanism is relevant to cell division regulation is speculative without in vivo evidence.
+- The claim that the IDR does not self-interact is based on NMR data, but the concentration and conditions are not fully described, and the sensitivity of the assay to weak self-association is not discussed.
+- The conclusion that spacing between motifs is dispensable is based on a single deletion construct, which may have unintended structural effects.

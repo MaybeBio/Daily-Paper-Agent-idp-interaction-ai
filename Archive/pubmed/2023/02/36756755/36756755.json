@@ -1,0 +1,217 @@
+{
+  "identity": {
+    "pmid": "36756755",
+    "doi": "10.1039/d2sm01581a",
+    "title": "Effect of substrate charge density on the adsorption of intrinsically disordered protein amyloid beta40: a molecular dynamics study."
+  },
+  "content": {
+    "abstract": "The inhibitory effect of negatively charged gold nanoparticles (AuNPs) on amyloidogenic protein fibrillation has been established from experiments and computer simulations. Here, we investigate the effect of the charge density (sigma) of gold (Au) surfaces on the adsorption of the intrinsically disordered amyloid beta40 (Abeta40) monomer using molecular dynamics (MD) simulations. On the basis of the binding free energy, some key residues (ARG5, LYS16, LYS28, LEU17-ALA21, ILE31-VAL38) were found to be responsible for preventing the beta-sheet formation, which is known to be a precursor for fibrillation. Until a critical charge density (sigma(c)) of -0.167 e nm(-2), the key residues remained adsorbed on the Au slab. A saturation in the number of condensed counterions (Na(+)) on Abeta40 was also observed at sigma(c). Beyond sigma(c), the condensation of Na(+) occurs only on the Au slab, leading to competition between positively charged key residues and condensed ions. This competition was found to be responsible for the lack of adsorption of the key residues, leading to beta-sheet formation for sigma > -0.167 e nm(-2). This study suggests that if the key residues are not adsorbed, then beta-sheet formation is observed, which can then lead to the development of proto-fibrils and subsequently fibrillation. Therefore the surface should have an optimal charge density to be an effective inhibitor of fibrillation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "Amyloid beta-Peptides/chemistry",
+      "Gold",
+      "*Intrinsically Disordered Proteins",
+      "Adsorption",
+      "*Metal Nanoparticles/chemistry",
+      "Amyloid/chemistry",
+      "Amyloidogenic Proteins",
+      "Ions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kalipillai, Pandurangan",
+        "Raghuram, E",
+        "Mani, Ethayaraja"
+      ],
+      "short_names": [
+        "Kalipillai P",
+        "Raghuram E",
+        "Mani E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3338-4448",
+        "ORCID: 0000-0002-4091-1576"
+      ],
+      "affiliations": [
+        "Polymer Engineering and Colloid Science Lab, Department of Chemical Engineering, Indian Institute of Technology Madras, Chennai, 600036, India. ethaya@iitm.ac.in.",
+        "School of Chemical Engineering, Vellore Institute of Technology, Vellore, 632014, India.",
+        "Polymer Engineering and Colloid Science Lab, Department of Chemical Engineering, Indian Institute of Technology Madras, Chennai, 600036, India. ethaya@iitm.ac.in.",
+        "Polymer Engineering and Colloid Science Lab, Department of Chemical Engineering, Indian Institute of Technology Madras, Chennai, 600036, India. ethaya@iitm.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kalipillai, Pandurangan",
+        "short_name": "Kalipillai P",
+        "identifiers": [],
+        "affiliations": [
+          "Polymer Engineering and Colloid Science Lab, Department of Chemical Engineering, Indian Institute of Technology Madras, Chennai, 600036, India. ethaya@iitm.ac.in.",
+          "School of Chemical Engineering, Vellore Institute of Technology, Vellore, 632014, India."
+        ]
+      },
+      {
+        "full_name": "Raghuram, E",
+        "short_name": "Raghuram E",
+        "identifiers": [
+          "0000-0002-3338-4448"
+        ],
+        "affiliations": [
+          "Polymer Engineering and Colloid Science Lab, Department of Chemical Engineering, Indian Institute of Technology Madras, Chennai, 600036, India. ethaya@iitm.ac.in."
+        ]
+      },
+      {
+        "full_name": "Mani, Ethayaraja",
+        "short_name": "Mani E",
+        "identifiers": [
+          "0000-0002-4091-1576"
+        ],
+        "affiliations": [
+          "Polymer Engineering and Colloid Science Lab, Department of Chemical Engineering, Indian Institute of Technology Madras, Chennai, 600036, India. ethaya@iitm.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Soft matter"
+    ],
+    "journal_abbrev": [
+      "Soft Matter"
+    ],
+    "pub_date": "2023 Feb 22",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/10 06:00",
+    "fetched_at": "2026-09-20 19:05:35"
+  },
+  "links": {
+    "cites": [
+      "41603025"
+    ],
+    "refs": [],
+    "similar": [
+      "36756755",
+      "34612399",
+      "31661810",
+      "33375086",
+      "32189141",
+      "29200307",
+      "22674434",
+      "29925792",
+      "26125953",
+      "33289734",
+      "27064268",
+      "29299912",
+      "28162045",
+      "27214008",
+      "30170005",
+      "33486955",
+      "26353619",
+      "29490247",
+      "25330398",
+      "33068637",
+      "35569410",
+      "28032949",
+      "23904252",
+      "22915547",
+      "37627326",
+      "27454141",
+      "30315849",
+      "28970487",
+      "31637909",
+      "36302506",
+      "25454252",
+      "30636427",
+      "38829034",
+      "32926781",
+      "23526717",
+      "29953467",
+      "34464618",
+      "36173231",
+      "18835397",
+      "28248091",
+      "36615582",
+      "19032076",
+      "33727072",
+      "35167081",
+      "30225490",
+      "31046642",
+      "32623047",
+      "29898363",
+      "32151988",
+      "25131953",
+      "33806726",
+      "30708285",
+      "21769359",
+      "23421682",
+      "26871000",
+      "34152264",
+      "24594841",
+      "30933519",
+      "23101885",
+      "24871565",
+      "26275931",
+      "36500474",
+      "33903234",
+      "30476794",
+      "36542916",
+      "30371082",
+      "19414017",
+      "28850770",
+      "24060166",
+      "31162715",
+      "36069400",
+      "27454036",
+      "28229588",
+      "29459638",
+      "20674288",
+      "22468636",
+      "31245536",
+      "24691975",
+      "29548979",
+      "30844256",
+      "28241387",
+      "36142176",
+      "31470695",
+      "31271401",
+      "31020417",
+      "22108168",
+      "25361404",
+      "28684415",
+      "31185053",
+      "23679641",
+      "30821624",
+      "34042019",
+      "32143150",
+      "28080057",
+      "38183957",
+      "36922119"
+    ],
+    "review": [
+      "36756755",
+      "30225490"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d2sm01581a",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

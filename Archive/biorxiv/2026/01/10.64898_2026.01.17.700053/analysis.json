@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.17.700053",
+  "title": "Pangenome analysis reveals the evolutionary dynamics of repeat-based holocentromeres",
+  "authors": "Włodzimierz P; Perez-Roman E; Câmara AS; Robledillo LA; Thangavel G; Zhang M; González Isa J; Parteka LM; Castellani M; Huettel B; Vanzela ALL; Henderson IR; Bousios A; Marques A",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-18",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过泛基因组分析重复序列着丝粒的进化动态，并用聚合物模拟关联染色质环与染色体力学，但对象为着丝粒DNA而非无序蛋白/IDR，且无蛋白互作或AI/物理模拟的PPI机制建模，与本课题关联微弱。",
+  "abstract": "Centromeres are essential for chromosome segregation, yet their organisation and evolution remain poorly understood in holocentric species, where kinetochore activity is distributed along entire chromosomes 1,2 . While monocentric centromeres are often structured by megabase-sized satellite arrays 3–5 , the role of repetitive DNA in holocentric systems remains enigmatic. Here, we analyse the dynamics of centromeric Tyba satellite DNA repeats and transposable elements across a chromosome-scale pangenome comprising 56 long-read haplotype assemblies from 20 Rhynchospora species 6,7 , a plant genus with repeat-based holocentromeres 8,9 . We identify over 4.6 million monomers of the Tyba satellite repeat, arranged into 43,400 discrete arrays that span all chromosomes. CENH3 ChIP-seq reveals that, unexpectedly, the same Tyba satellite defines holocentromere across the entire genus, demonstrating deep conservation of centromeric DNA over over 40 million years despite extensive karyotype evolution and centromere array turnover. We show that Tyba arrays function as modular centromeric units whose number and spacing, but not size, scale with chromosome length. Tyba sequence diversity recapitulates species phylogeny, while higher-order repeat formation and antagonism with transposable elements shape array turnover. A novel synteny-aware algorithm reveals rapid gain, loss, and rearrangement of arrays across homologous chromosomes. Using cytogenetics and polymer simulations, we demonstrate that inter-array spacing governs chromatin loop length and chromatid thickness, linking repeat-based holocentromere organisation directly to chromosome mechanics. Our findings uncover a scalable, modular logic for holocentromere function and establish a framework for understanding the plasticity of repeat-based centromere evolution and genome architecture in eukaryotes.",
+  "abstract_zh": "着丝粒对于染色体分离至关重要，然而在 holocentric 物种中，其组织和进化仍知之甚少，在这些物种中，动粒活性分布在整个染色体上 1,2。虽然 monocentric 着丝粒通常由兆碱基大小的卫星阵列构成 3–5，但重复 DNA 在 holocentric 系统中的作用仍是个谜。在此，我们分析了着丝粒 Tyba 卫星 DNA 重复序列和转座因子在染色体尺度泛基因组中的动态，该泛基因组包含来自 20 个 Rhynchospora 物种的 56 个长读长单倍型组装 6,7，这是一个具有基于重复序列的 holocentromeres 的植物属 8,9。我们鉴定了超过 460 万个 Tyba 卫星重复单体，排列成 43,400 个离散阵列，跨越所有染色体。CENH3 ChIP-seq 揭示，出乎意料的是，相同的 Tyba 卫星定义了整个属的 holocentromere，表明着丝粒 DNA 在超过 4000 万年间深度保守，尽管核型进化广泛且着丝粒阵列周转频繁。我们表明，Tyba 阵列作为模块化着丝粒单位，其数量和间距（而非大小）与染色体长度成比例。Tyba 序列多样性重现了物种系统发育，而高阶重复形成和与转座因子的拮抗作用塑造了阵列周转。一种新颖的共线性感知算法揭示了同源染色体上阵列的快速获得、丢失和重排。利用细胞遗传学和聚合物模拟，我们证明阵列间间距控制染色质环长度和染色单体厚度，将基于重复序列的 holocentromere 组织直接与染色体力学联系起来。我们的发现揭示了 holocentromere 功能的可扩展模块化逻辑，并为理解真核生物中基于重复序列的着丝粒进化和基因组架构的可塑性建立了框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.17.700053",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.17.700053",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.17.700053/index.html"
+}

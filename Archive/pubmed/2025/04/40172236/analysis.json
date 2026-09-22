@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40172236",
+  "title": "Personalized Energy Adaptation through Reweighting Learning (PEARL) Force Field for Intrinsically Disordered Proteins.",
+  "authors": "Ji, Xiaoyue; Zhu, Junjie; Zhong, Bozitao; Li, Zhengxin; Choi, Taeyoung; Cui, Xiaochen; Wei, Ting; Chen, Hai-Feng",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-04-02",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发基于深度学习的PEARL力场优化方法，用于改进无序蛋白构象采样的MD模拟，虽未直接研究PPI，但为IDP互作机制建模提供了关键方法基础。",
+  "abstract": "Intrinsically disordered proteins (IDPs) have garnered significant attention due to their critical roles in complex human diseases. Molecular dynamics (MD) simulations have emerged as a valuable approach for studying IDPs, whose accuracy heavily depends on the accuracy of force fields. Despite this, the high conformational flexibility of IDPs presents limitations for current force fields in precisely capturing their conformational features. Here, we developed a tool for generating force field parameters, consisting of two main components: the construction and training of a model named DihedralProbNet to predict protein dihedral probability distributions and the DeepReweighting algorithm to optimize force field parameters. This personalized energy adaptation through reweighting learning was termed the PEARL force field. To evaluate its performance, 8 IDPs and 5 folded protein systems were used. The results demonstrate that the PEARL force field more accurately reproduces the conformational ensembles of IDPs than ff19SB and stabilizes the conformations of folded proteins. Therefore, by enabling a more accurate sampling of IDP conformations, PEARL has the potential to advance our understanding of the role of IDPs in biological processes and their involvement in disease mechanisms.",
+  "abstract_zh": "固有无序蛋白（IDPs）因其在复杂人类疾病中的关键作用而受到广泛关注。分子动力学（MD）模拟已成为研究IDPs的重要方法，其准确性在很大程度上依赖于力场的精确性。尽管如此，IDPs的高度构象灵活性对当前力场在精确捕捉其构象特征方面提出了限制。在此，我们开发了一种用于生成力场参数的工具，包含两个主要组成部分：构建并训练名为DihedralProbNet的模型以预测蛋白质二面角概率分布，以及用于优化力场参数的DeepReweighting算法。这种通过重加权学习实现的个性化能量适应被称为PEARL力场。为评估其性能，我们使用了8个IDPs和5个折叠蛋白系统。结果表明，与ff19SB相比，PEARL力场能更准确地再现IDPs的构象系综，并稳定折叠蛋白的构象。因此，通过实现更精确的IDP构象采样，PEARL有望增进我们对IDPs在生物过程中的作用及其在疾病机制中参与的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40172236/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40172236/",
+  "paper_page_path": "papers/pubmed/40172236/index.html"
+}

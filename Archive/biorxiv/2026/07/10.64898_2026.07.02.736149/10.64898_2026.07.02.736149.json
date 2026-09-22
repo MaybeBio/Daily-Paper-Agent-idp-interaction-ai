@@ -1,0 +1,184 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.02.736149",
+  "title": "Competing effects modulate the rate of poly(A) RNA deadenylation in a biomolecular condensate",
+  "doi": "10.64898/2026.07.02.736149",
+  "abstract": "<h4>ABSTRACT</h4> The unique solvent milieu found in biomolecular condensates can control cellular enzymatic reactions and shift reaction kinetics by modulating reactant concentrations, structural dynamics, and enzyme activities. Here we explore the interplay of multiple regulatory factors within a condensate to control poly(A) RNA deadenylation, the first and rate-limiting step in mRNA turnover. The deadenylase CNOT7, a subunit of the CCR4-NOT deadenylation complex, localizes to cytoplasmic RNA granules and shows increased degradation activity in vitro in condensates formed by the C-terminal low complexity disordered region of CAPRIN1, a component of RNA granules. We use a combination of enzymatic assays, kinetic modeling, microscopy, Nuclear Magnetic Resonance (NMR) spectroscopy, and molecular dynamics simulations to deconvolute and define the components that underlie this enhancement. We found that enzyme and RNA are concentrated in condensates relative to buffer, which increases CNOT7 activity, while the equilibrium between CNOT7’s active and inactive states remains unchanged. The concentration-dependent increase in enzymatic rates is counterbalanced by a substantial decrease in the enzyme’s catalytic efficiency, likely due to slower diffusion of CNOT7 and RNA within the condensates, which lessens the probability of enzyme-substrate complex formation. Molecular dynamics simulations reveal CNOT7-CAPRIN1 interactions that rely on conserved CAPRIN1 sequence features, hinting at an evolutionarily conserved role for CAPRIN1 condensation. With this quantitative kinetic analysis, we describe the multifaceted mechanism behind regulation of CNOT7 deadenylation by a condensate environment. <h4>GRAPHICAL ABSTRACT</h4>",
+  "authors": [
+    "Irwin RM",
+    "Harkness RW",
+    "Tsang B",
+    "Liu ZH",
+    "Sun K",
+    "Huang TH",
+    "Head-Gordon T",
+    "Kay LE",
+    "Forman-Kay JD"
+  ],
+  "published_date": "2026-07-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736149",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736149.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1271535",
+    "raw_record": {
+      "id": "PPR1271535",
+      "source": "PPR",
+      "doi": "10.64898/2026.07.02.736149",
+      "title": "Competing effects modulate the rate of poly(A) RNA deadenylation in a biomolecular condensate",
+      "authorString": "Irwin RM, Harkness RW, Tsang B, Liu ZH, Sun K, Huang TH, Head-Gordon T, Kay LE, Forman-Kay JD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Irwin RM",
+            "lastName": "Irwin",
+            "firstName": "Rose",
+            "initials": "RM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1147-4944"
+            }
+          },
+          {
+            "fullName": "Harkness RW",
+            "lastName": "Harkness",
+            "firstName": "Robert",
+            "initials": "RW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2095-9860"
+            }
+          },
+          {
+            "fullName": "Tsang B",
+            "lastName": "Tsang",
+            "firstName": "Brian",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7615-5397"
+            }
+          },
+          {
+            "fullName": "Liu ZH",
+            "lastName": "Liu",
+            "firstName": "Zi Hao",
+            "initials": "ZH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8357-8507"
+            }
+          },
+          {
+            "fullName": "Sun K",
+            "lastName": "Sun",
+            "firstName": "Kunyang",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6472-1665"
+            }
+          },
+          {
+            "fullName": "Huang TH",
+            "lastName": "Huang",
+            "firstName": "Tian Hao",
+            "initials": "TH"
+          },
+          {
+            "fullName": "Head-Gordon T",
+            "lastName": "Head-Gordon",
+            "firstName": "Teresa",
+            "initials": "T"
+          },
+          {
+            "fullName": "Kay LE",
+            "lastName": "Kay",
+            "firstName": "Lewis",
+            "initials": "LE"
+          },
+          {
+            "fullName": "Forman-Kay JD",
+            "lastName": "Forman-Kay",
+            "firstName": "Julie",
+            "initials": "JD"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6472-1665"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1147-4944"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7615-5397"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8357-8507"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2095-9860"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>ABSTRACT</h4>  The unique solvent milieu found in biomolecular condensates can control cellular enzymatic reactions and shift reaction kinetics by modulating reactant concentrations, structural dynamics, and enzyme activities. Here we explore the interplay of multiple regulatory factors within a condensate to control poly(A) RNA deadenylation, the first and rate-limiting step in mRNA turnover. The deadenylase CNOT7, a subunit of the CCR4-NOT deadenylation complex, localizes to cytoplasmic RNA granules and shows increased degradation activity  in vitro in condensates formed by the C-terminal low complexity disordered region of CAPRIN1, a component of RNA granules. We use a combination of enzymatic assays, kinetic modeling, microscopy, Nuclear Magnetic Resonance (NMR) spectroscopy, and molecular dynamics simulations to deconvolute and define the components that underlie this enhancement. We found that enzyme and RNA are concentrated in condensates relative to buffer, which increases CNOT7 activity, while the equilibrium between CNOT7’s active and inactive states remains unchanged. The concentration-dependent increase in enzymatic rates is counterbalanced by a substantial decrease in the enzyme’s catalytic efficiency, likely due to slower diffusion of CNOT7 and RNA within the condensates, which lessens the probability of enzyme-substrate complex formation. Molecular dynamics simulations reveal CNOT7-CAPRIN1 interactions that rely on conserved CAPRIN1 sequence features, hinting at an evolutionarily conserved role for CAPRIN1 condensation. With this quantitative kinetic analysis, we describe the multifaceted mechanism behind regulation of CNOT7 deadenylation by a condensate environment.  <h4>GRAPHICAL ABSTRACT</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.07.02.736149"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-07-04",
+      "firstPublicationDate": "2026-07-03",
+      "firstIndexDate": "2026-07-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

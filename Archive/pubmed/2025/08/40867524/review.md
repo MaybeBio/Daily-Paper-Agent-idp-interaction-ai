@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors evaluate eight sequence-based, amino acid-level predictors of phase-separating intrinsically disordered regions (IDRs) using a low-similarity, experimentally annotated test dataset under two scenarios: (1) distinguishing phase-separating IDRs from both structured and disordered residues, and (2) distinguishing them from other disordered residues only. They report that several predictors perform well in the first scenario, but most show modest performance in the second, and they recommend PSPHunter as the most accurate tool in both scenarios.
+- **Visible evidence base** Full text including abstract, introduction, methods, results, tables (Tables 1-3 referenced), figures (Figure 1 referenced), and discussion
+- **Missing materials affecting confidence** Supplementary data (test dataset, training protein lists, detailed per-protein results), actual table and figure contents, predictor output files, and code/scripts for reproducibility
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant question in the field of phase separation prediction, providing an independent comparison of eight amino acid-level predictors. The study design improves upon prior work by using experimentally annotated disorder and enforcing low sequence similarity to training data. However, the small test set (48 proteins, 16 per class) and the absence of detailed results in the provided text limit the robustness of the conclusions. The recommendation of PSPHunter is supported by the reported metrics, but the lack of access to the actual data prevents full verification. The manuscript is well-written and logically structured, but several methodological details and potential biases require clarification.
+- **Who would be interested in the results, and why** Researchers developing or using computational predictors of phase separation, particularly those focused on intrinsically disordered regions. The comparative analysis provides practical guidance for tool selection, and the identification of biases in existing predictors is valuable for improving future methods. The study also informs the broader community studying biomolecular condensates and their role in disease.
+- **Major strengths** (1) Independent evaluation using experimentally annotated disorder, addressing a key limitation of prior studies. (2) Low sequence similarity filtering (<30%) to training data, reducing potential overestimation of performance. (3) Inclusion of recent predictors (Seq2Phase, PSPHunter) not covered in previous assessments. (4) Two complementary evaluation scenarios that reveal different aspects of predictor performance. (5) Analysis of predictor bias toward disordered regions, providing mechanistic insight into performance differences.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness
+  - **Claim pointer** The authors claim that PSPHunter is the most accurate tool for identifying phase-separating IDRs in both scenarios, based on statistically significant differences from other predictors.
+  - **Evidence pointer** Section 3.1, Section 3.2, Tables 2 and 3 (contents not visible in provided text)
+  - **Concern** The test dataset comprises only 48 proteins (16 per class), and the statistical significance tests are performed on 10 random halves of this small set. With such a limited sample, the reported p-values may not be reliable, and the claim of PSPHunter's superiority could be driven by a few outlier proteins. The manuscript acknowledges the small dataset but does not provide power analysis or confidence intervals for the effect sizes.
+  - **Why it matters** The central recommendation of PSPHunter as the most accurate tool hinges on the statistical robustness of the comparison. If the differences are not stable across different random splits or if the small sample size inflates significance, the conclusion may not generalize to broader proteomes.
+  - **Resolution test** Provide confidence intervals for AUROC and AUPRC differences, perform leave-one-out or bootstrap analysis to assess stability, and report per-protein performance to identify potential outliers driving the results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Ground truth validity
+  - **Claim pointer** The authors state that the test dataset relies on "experimentally annotated intrinsic disorder" and "experimentally validated phase-separating IDRs" from DisProt and PhaSepDB.
+  - **Evidence pointer** Section 2.2
+  - **Concern** The manuscript does not specify the exact criteria used to define phase-separating IDRs from the databases, nor does it describe how conflicts between DisProt and PhaSepDB annotations were resolved. Additionally, the selection of non-phase-separating IDRs requires at least two functional annotations, but the types of functions and their relevance to phase separation are not detailed. This lack of transparency in ground truth construction could introduce biases that affect all predictors equally but may still impact the absolute performance estimates.
+  - **Why it matters** The validity of the entire evaluation depends on the accuracy and consistency of the ground truth annotations. If the phase-separating IDR annotations are incomplete or include false positives, the reported performance metrics may be underestimated, and the ranking of predictors could change.
+  - **Resolution test** Provide a detailed description of the annotation curation process, including inclusion/exclusion criteria, inter-annotator agreement if applicable, and a breakdown of the number of residues per class. Make the full test dataset with annotations available for independent verification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Predictor implementation
+  - **Claim pointer** The authors state that they collected predictions from the eight predictors using "either their web servers or the author-provided code."
+  - **Evidence pointer** Section 2.1
+  - **Concern** The manuscript does not specify the exact versions of the predictors used, the parameters employed (beyond defaults), or whether the web server and local code versions produce identical outputs. For methods like FuzDrop and PSPHunter, which may have been updated since their original release, version differences could affect performance. Additionally, the authors do not describe how they handled predictors that require multiple sequence alignments or external databases, which could introduce variability.
+  - **Why it matters** Reproducibility is a core requirement for comparative studies. Without precise version and parameter information, other researchers cannot replicate the results, and the conclusions may not hold for the latest versions of the tools.
+  - **Resolution test** Provide a table listing the exact version, access date, and parameters for each predictor. Include a statement on whether the authors verified consistency between web server and local code outputs for a subset of proteins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, statistical testing description
+  - **Evidence pointer** Section 2.3
+  - **Issue** The description of the statistical testing procedure is somewhat ambiguous. The authors state they "randomly sampled half of the test proteins, repeated it 10 times," but it is unclear whether the sampling is done with or without replacement, and whether the same random splits are used for all predictors.
+  - **Required correction** Clarify the sampling procedure (e.g., "we randomly sampled 24 proteins without replacement, repeated 10 times, using the same splits for all predictors") and specify the exact test used for each metric.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.2, discussion of FuzDrop bias
+  - **Evidence pointer** Section 3.2, Figure 1A
+  - **Issue** The authors attribute FuzDrop's poor performance in the second scenario to its bias toward predicting disordered regions as phase-separating, supported by high correlations with disorder predictors. However, the causal link is not fully established, as other predictors with similar correlations (e.g., LLyScore) show different performance patterns.
+  - **Required correction** Provide a more nuanced discussion, acknowledging that correlation with disorder predictions is a contributing factor but not the sole determinant of performance. Consider analyzing the spatial distribution of false positives to strengthen the argument.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.3, protein-level analysis
+  - **Evidence pointer** Section 3.3, Table 4
+  - **Issue** The protein-level analysis aggregates amino acid-level predictions by taking the median, but the manuscript does not discuss whether alternative aggregation methods (e.g., mean, maximum) would yield different conclusions. This is relevant because the choice of aggregation can affect the ranking of predictors.
+  - **Required correction** Add a brief sensitivity analysis using alternative aggregation methods, or justify the choice of median with reference to prior studies.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical robustness) and R1-M2 (ground truth validity) are blocking concerns that must be resolved before the central claims can be accepted. R1-M3 (predictor implementation) is important for reproducibility but does not invalidate the current conclusions.
+- **Assessment against Nature-style criteria** Originality: The study is original in its independent evaluation of eight amino acid-level predictors with a low-similarity, experimentally annotated dataset, addressing gaps in prior work. Scientific importance: The findings are important for guiding tool selection and improving future predictor development, with implications for understanding phase separation mechanisms. Interdisciplinary readership: The topic bridges computational biology, biophysics, and cell biology, and the writing is accessible to nonspecialists, though some methodological details may require domain expertise. Technical soundness: The overall design is sound, but the small test set and lack of detailed data in the provided text weaken the technical robustness. Readability for nonspecialists: The manuscript is clearly written, with a logical flow from introduction to conclusions, and the use of tables and figures (though not visible) is appropriate.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a relevant question with a reasonable design, but the blocking concerns regarding statistical robustness and ground truth validity must be addressed through additional analyses and data sharing. Once these are resolved, the manuscript would be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that PSPHunter is the most accurate tool in both scenarios is not fully supported without confidence intervals and stability analysis (R1-M1).
+- The assertion that the test dataset is "high-quality" and "well-annotated" is not verifiable without access to the actual annotations and curation details (R1-M2).
+- The statement that FuzDrop's bias toward disordered regions explains its poor performance is plausible but not conclusively demonstrated.
+- The protein-level analysis conclusions are explicitly acknowledged as tentative due to the small sample size, which is appropriate.
+- The generalizability of the findings beyond the 48 test proteins is not established and should be discussed more cautiously.

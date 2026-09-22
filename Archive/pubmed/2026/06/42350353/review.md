@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report development of a coarse-grained force-field patch (PSFF-PTM) for five post-translational modification types, parameterized from all-atom umbrella sampling PMF calculations, integrated into CALVADOS and Mpipi models, and applied to IDP phase-separation systems to capture PTM effects and reveal new molecular grammars beyond charge accumulation.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, validation metrics, or system descriptions are available
+- **Missing materials affecting confidence** Full methods, parameter tables, PMF curves, simulation protocols, validation against experimental data, system descriptions, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the coarse-grained modeling of PTM effects on biomolecular condensates. The concept of an additive parameter patch for modified residues is timely and practically useful. However, the abstract provides no quantitative evidence, no validation against experimental phase diagrams, and no comparison with existing approaches. The claim of identifying "new molecular grammars" is not substantiated by any presented data. The work cannot be evaluated for technical soundness or scientific impact from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular simulation, particularly those studying phase separation of IDPs; developers of coarse-grained force fields; experimental groups investigating PTM regulation of condensates who would benefit from improved predictive tools.
+- **Major strengths** The target problem is well-defined and important. The choice of five common PTM types covers a relevant chemical space. The additive module design is pragmatic and could lower barriers to adoption. Compatibility with established models (CALVADOS and Mpipi) is a sensible design choice.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "We computed residue-specific potentials of mean force (PMFs) between modified and canonical amino acid residues"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No details are given on the umbrella sampling setup, force-field used for the all-atom simulations, convergence criteria, error estimation, or how PMFs were converted into CG interaction parameters. Without this information, the reliability of the derived parameters cannot be assessed.  
+  - **Why it matters** The entire PSFF-PTM framework rests on the accuracy of these PMF-derived parameters. If the underlying all-atom calculations are not converged or the mapping to CG parameters is not validated, all downstream results are compromised.  
+  - **Resolution test** Provide full methods for umbrella sampling, PMF convergence analysis, and parameter fitting; show comparison of CG-predicted potentials with all-atom reference data.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Validation  
+  - **Claim pointer** "PSFF-PTM is able to capture the effects of PTMs on IDP phase behavior"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No quantitative comparison with experimental phase diagrams or known PTM effects is presented. The abstract states the model "is able to capture" effects but provides no data, no error metrics, and no benchmark systems.  
+  - **Why it matters** Without validation against experimental data, the claim of capturing PTM effects is unsupported. A model that reproduces known trends is necessary but not sufficient; quantitative agreement is required to establish utility.  
+  - **Resolution test** Show phase diagrams or saturation concentrations for at least one system with and without PTMs, compared directly to experimental measurements.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** "PSFF-PTM enables the identification of new molecular grammars of IDP-driven phase separation modulated by PTMs beyond simple 'charge accumulation' model to sequence and spatial distribution of both charge and aromatic residues"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** This is a strong claim of conceptual novelty, but no specific new grammar is described, no example is given, and no data supporting this claim is presented.  
+  - **Why it matters** If substantiated, this would be the most scientifically significant contribution. As written, it is an assertion without demonstration.  
+  - **Resolution test** Provide a concrete example of a newly identified grammar with supporting simulation data and, ideally, experimental correlation.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "These PMF-derived parameters were systematically integrated into the established slab-geometry coarse-grained models (CALVADOS and Mpipi) via an additive module"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not explain how the additive module interacts with existing parameters, whether there are any rebalancing or reweighting steps, or whether the module is transferable across different CG models without recalibration.  
+  - **Why it matters** Additive patches can introduce double-counting or inconsistencies if not carefully designed. The transferability claim is central to the practical value of the tool.  
+  - **Resolution test** Describe the integration scheme in detail and demonstrate that the module works in both CALVADOS and Mpipi without model-specific adjustments.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "slab-geometry coarse-grained models" is unusual and not standard in the field.  
+  - **Required correction** Clarify what is meant by "slab-geometry" or use standard terminology such as "residue-level" or "single-bead-per-residue" models.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** System description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions "several typical IDP-involving PS systems" but does not name any of them.  
+  - **Required correction** List the specific systems studied in the abstract or indicate that they are described in the main text.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Parameter availability  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No statement is made about availability of the PSFF-PTM parameters or the code.  
+  - **Required correction** Add a data and code availability statement.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (PMF calculation details and convergence), R1-M2 (quantitative validation against experiment), R1-M4 (integration scheme and transferability). R1-M3 is a claim that needs demonstration but is not strictly a technical failing.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of an additive PTM parameter patch is a reasonable incremental contribution, but the abstract does not demonstrate conceptual novelty beyond existing PTM-aware CG approaches.  
+  - Scientific importance: The problem is important, but the abstract does not establish that the tool provides new biological or biophysical insight.  
+  - Interdisciplinary readership: The work is primarily of interest to computational biophysicists; the abstract does not frame the findings for a broader biological audience.  
+  - Technical soundness: Cannot be assessed from the abstract; no methodological detail or validation is provided.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon without sufficient context.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful tool, but the absence of quantitative results, validation, and methodological detail prevents any assessment of technical soundness or scientific impact. A full manuscript with methods, validation, and specific findings would be required to evaluate the contribution.
+
+## Risk / unsupported claims
+- The claim that PSFF-PTM "captures the effects of PTMs on IDP phase behavior" is unsupported without quantitative comparison to experimental data.
+- The claim of identifying "new molecular grammars" is unsupported; no specific grammar or supporting data is presented.
+- The claim of "systematic integration" into CALVADOS and Mpipi is unverifiable without details of the integration scheme.
+- The general utility and transferability of the additive module cannot be assessed from the abstract.

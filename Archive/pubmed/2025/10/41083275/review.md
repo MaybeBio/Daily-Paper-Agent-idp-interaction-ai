@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or tables were available for evaluation
+- **Shared manuscript claim summary** The authors use unbiased molecular dynamics simulations of monomeric human amylin (hIAPP) and relative RMSD values as putative reaction coordinates to identify transition state ensemble (TSE) members among monomer conformations. They report that TSE conformations sit at a probabilistic midpoint between aggregation-prone and helical-rich reference states, validate a transition state candidate as a TSE member, identify additional kinetically similar conformations, and perform segment-level analysis to reveal early branching along the aggregation pathway. They conclude that relative RMSD is a useful parameter for characterizing conformational transitions in amylin and other intrinsically disordered proteins.
+- **Visible evidence base** Abstract text only. No simulation details, system setup, force field parameters, trajectory lengths, convergence criteria, or quantitative results are provided.
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation parameters, statistical analyses, and any validation of the relative RMSD reaction coordinate against established order parameters.
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting application of relative RMSD as a reaction coordinate to identify transition state ensembles in an intrinsically disordered protein. The idea of targeting TSE conformations as drug candidates is timely and potentially valuable. However, the abstract provides insufficient technical detail to assess the validity of the approach, the statistical robustness of the TSE identification, or the biological significance of the findings. The claim that relative RMSD is a "useful parameter" is plausible but not established from the evidence presented.
+- **Who would be interested in the results, and why** Researchers studying protein aggregation, intrinsically disordered proteins, and amyloid formation, particularly those interested in conformational ensembles and transition states. Computational biophysicists developing reaction coordinates and enhanced sampling methods would also find the methodological angle relevant. The potential therapeutic implication for type 2 diabetes could attract a broader biomedical audience, though this is not developed in the abstract.
+- **Major strengths** The study addresses a relevant problem, namely the lack of effective inhibitors for hIAPP fibril formation. The use of unbiased molecular dynamics simulations is appropriate for exploring conformational landscapes. The concept of identifying TSE members as drug targets is conceptually sound and could have practical implications. The segment-level analysis suggests a level of mechanistic detail that goes beyond simple ensemble characterization.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that relative RMSD values serve as putative reaction coordinates to identify and assess TSE membership of monomeric amylin conformations.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any justification for why relative RMSD is a valid reaction coordinate for this system. No comparison to established order parameters, no demonstration of committor analysis, and no discussion of the kinetic basis for the TSE assignment are presented. The validation of a "transition state candidate" is mentioned but the criteria for this validation are not described.
+  - **Why it matters** The central methodological claim of the paper rests on the validity of relative RMSD as a reaction coordinate. Without evidence that this coordinate captures the relevant slow degrees of freedom governing the aggregation pathway, the TSE assignments may be arbitrary and the conclusions unsupported.
+  - **Resolution test** The authors should provide a clear definition of the relative RMSD coordinate, demonstrate its correlation with known structural transitions, and ideally perform committor analysis or a similar test to validate that the identified TSE members have approximately equal probability of committing to either reference state.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that TSE conformations are located at the "probabilistic midpoint between aggregation-prone and helical-rich reference states."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify how the reference states were defined, how the probabilistic midpoint was computed, or what statistical confidence is associated with this assignment. The term "probabilistic midpoint" is ambiguous without a defined probability measure.
+  - **Why it matters** The identification of TSE members is the core finding of the study. If the reference states are poorly defined or the midpoint calculation is not statistically robust, the entire TSE assignment is questionable.
+  - **Resolution test** The authors should describe the structural criteria for the reference states, the probability measure used, and provide error estimates or confidence intervals for the TSE assignment.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "these findings establish relative RMSD as a useful parameter for characterizing transitions in amylin and other intrinsically disordered proteins."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract presents results from a single protein (hIAPP) in three environments. The generalization to "other intrinsically disordered proteins" is not supported by any comparative data or theoretical argument presented in the abstract.
+  - **Why it matters** The broad claim of generalizability is a key part of the paper's significance. Without evidence that the approach works on multiple IDPs or a theoretical basis for why it should, this claim overreaches the presented data.
+  - **Resolution test** The authors should either temper the claim to be specific to hIAPP or provide additional simulations on at least one other IDP to demonstrate generalizability.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "transition state ensemble," "relative RMSD," and "probabilistic midpoint" without defining them for readers who may not be experts in computational biophysics.
+  - **Required correction** Provide brief definitions or contextual explanations for these terms in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions that TSE conformations are "high-value drug targets" but does not explain how this insight could be translated into a drug discovery strategy.
+  - **Required correction** Add one sentence on the potential practical implications for inhibitor design.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that simulations were "unbiased" but does not specify the simulation length, number of replicas, or whether convergence was assessed.
+  - **Required correction** Include basic simulation parameters or refer to the methods section for these details.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (reaction coordinate validity), R1-M2 (reference state definition and statistical robustness), R1-M3 (overgeneralization beyond hIAPP)
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of relative RMSD as a reaction coordinate for TSE identification in IDPs is somewhat novel, though the concept of reaction coordinates for IDP transitions is not new. The originality is moderate.
+  - Scientific importance: The problem of hIAPP aggregation and the lack of inhibitors is important. However, the abstract does not demonstrate that the TSE identification leads to new biological or therapeutic insights beyond what is already known.
+  - Interdisciplinary readership: The work sits at the interface of biophysics, computational chemistry, and structural biology. The abstract is written in a way that is accessible to computational biophysicists but may be less accessible to experimentalists or clinicians.
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological detail prevents evaluation of the technical rigor.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon without definition, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting concept but lacks the technical detail needed to assess the validity of the approach. The authors should provide the full manuscript for a complete evaluation. If the full manuscript contains rigorous validation of the reaction coordinate and TSE assignment, the work could be of interest to the computational biophysics community.
+
+## Risk / unsupported claims
+- The claim that relative RMSD is a "useful parameter" for characterizing transitions in IDPs is unsupported by the abstract evidence.
+- The generalization to "other intrinsically disordered proteins" is unsupported.
+- The statement that TSE conformations are "high-value drug targets" is an assertion without demonstrated therapeutic relevance.
+- The identification of "additional kinetically similar conformations" is mentioned but not quantified or described.
+- The "segment-level analysis" is referenced but no results are presented.
+- The claim that the study "probes key features, such as transition states across the complex free energy landscape" is not substantiated with any free energy data in the abstract.

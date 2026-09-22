@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34032262",
+  "title": "Surface ligand rigidity modulates lipid raft affinity of ultra-small hydrophobic nanoparticles: insights from molecular dynamics simulations.",
+  "authors": "Lin, Xiaoqian; Lin, Xubo",
+  "journal": "Nanoscale",
+  "published_date": "2021-05-26",
+  "window": {
+    "start": "2021-05-24",
+    "end": "2021-05-30"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究超小疏水纳米颗粒表面配体刚性对脂筏亲和力的调控，对象为纳米颗粒与脂膜而非无序蛋白/IDR，且无蛋白-蛋白互作，但MD/自由能方法对膜界面互作机制建模有一定可迁移启发。",
+  "abstract": "Differential preferences between lipids and proteins drive the formation of dynamical nanoscale membrane domains (lipid rafts), which play key roles in the proper functioning of cells. On the other hand, due to the potent physicochemical properties of nanoparticles (NPs), they have been widely used in drug delivery, bio-imaging and regulating various essential biological processes of the cells. Hence, in this work, we aim to design ultra-small hydrophobic NPs with tunable raft affinity, which is supposed to partition into the hydrophobic region of lipid membranes and be able to regulate the dynamics of the lipid raft domains. A series of mus-scale coarse-grained molecular dynamics simulations and umbrella sampling free energy calculations were performed to investigate the role of surface ligand rigidity of ultra-small hydrophobicNPs in their raft affinity. Our results indicated that the preferred localization of NPs can be tuned by adjusting their surface ligand rigidity. Generally, rigid NPs tended to target the raft domain, while soft NPs preferred the interface of the raft and non-raft domains. The free energy analysis further indicated that the surface ligand rigidity of NPs can enhance their targeting to lipid raft domains. Besides, we found that these ultra-small NPs had no significant effects on the phase separation of the lipid membrane although they might cause some local interference to surrounding lipids. These results indicate that the targeting to the lipid raft domain can be achieved by the surface ligand rigidity of NPs, which provides helpful insights for further regulations of lipid raft-mediated biological processes.",
+  "abstract_zh": "脂质与蛋白质之间的差异性偏好驱动了动态纳米尺度膜域（脂筏）的形成，这些膜域在细胞的正常功能中扮演关键角色。另一方面，由于纳米颗粒（NPs）具有强大的理化性质，它们已被广泛应用于药物递送、生物成像以及调控细胞的各种基本生物过程。因此，在本工作中，我们旨在设计具有可调脂筏亲和性的超小疏水性NPs，这些NPs预计会分配到脂质膜的疏水区域，并能够调节脂筏域的动态。我们进行了一系列mus尺度的粗粒化分子动力学模拟和伞形采样自由能计算，以研究超小疏水性NPs的表面配体刚性在其脂筏亲和性中的作用。我们的结果表明，通过调整NPs的表面配体刚性可以调节其优先定位。一般而言，刚性NPs倾向于靶向脂筏域，而软性NPs则偏好脂筏与非脂筏域的界面。自由能分析进一步表明，NPs的表面配体刚性可以增强其对脂筏域的靶向性。此外，我们发现这些超小NPs对脂质膜的相分离没有显著影响，尽管它们可能对周围脂质造成一些局部干扰。这些结果表明，通过NPs的表面配体刚性可以实现对脂筏域的靶向，这为进一步调控脂筏介导的生物过程提供了有益的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34032262/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34032262/",
+  "paper_page_path": "papers/pubmed/34032262/index.html"
+}

@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "37782491",
+    "doi": "10.1021/acsnano.3c06606",
+    "title": "Biologically Representative Lipid-Coated Gold Nanoparticles and Phospholipid Vesicles for the Study of Alpha-Synuclein/Membrane Interactions."
+  },
+  "content": {
+    "abstract": "Alpha-synuclein is an intrinsically disordered protein whose formation of beta-sheet-rich protein aggregates in the brain is implicated in the development of Parkinson's disease. Due to its believed role in synaptic vesicle trafficking and neurotransmission, many studies have employed simple, synthetic model systems to investigate alpha-synuclein/membrane interactions in an attempt to gain a better understanding of the protein's native and pathogenic functions. Interestingly, these studies seem to suggest that alpha-synuclein interacts differently with rigid vesicle mimics in comparison to malleable vesicle mimics. However, the use of different mimic sizes and surface chemistries across existing studies makes it challenging to directly compare the effects of membrane mechanical properties on protein behavior observed thus far. In this work, we developed a synaptic vesicle mimic library comprising a range of both malleable and rigid synaptic vesicle mimics possessing the same size and biologically representative lipid surface chemistry. Limited proteolysis mass spectrometry experiments revealed distinct fragmentation patterns between rigid and malleable synaptic vesicle mimics. The N-terminal and C-terminal regions of alpha-synuclein were found to become less solvent-accessible upon binding to all synaptic vesicle mimics. Nevertheless, minor variations in digestion pattern were observed in the central region of the protein dependent upon mimic size, rigidity, and lipid composition. Higher binding affinities were observed for alpha-synuclein binding to rigid synaptic vesicle mimics compared to malleable synaptic vesicle mimics. Additionally, the binding affinity of alpha-synuclein toward small lipid vesicles and small lipid-coated gold nanoparticles without cholesterol was found to be lower than that of their respective malleable and rigid counterparts. Interestingly, the binding curves for the rigid synaptic vesicle mimics demonstrated a nontraditional peak and dip shape believed to arise from differences in alpha-synuclein orientation on the particle surface at different protein-to-particle incubation ratios.",
+    "keywords": [
+      "alpha-synuclein",
+      "cholesterol",
+      "gold nanoparticles",
+      "limited proteolysis",
+      "phospholipids",
+      "synaptic vesicle mimics"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry",
+      "Phospholipids",
+      "Gold/metabolism",
+      "*Metal Nanoparticles",
+      "Synaptic Vesicles/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "McClain, Sophia M",
+        "Milchberg, Moses H",
+        "Rienstra, Chad M",
+        "Murphy, Catherine J"
+      ],
+      "short_names": [
+        "McClain SM",
+        "Milchberg MH",
+        "Rienstra CM",
+        "Murphy CJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4407-8080",
+        "ORCID: 0000-0002-9912-5596",
+        "ORCID: 0000-0001-7066-5575"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois Urbana-Champaign, 600 South Mathews Avenue, Urbana, Illinois 61801, United States.",
+        "Department of Biochemistry, University of Wisconsin-Madison, 433 Babcock Drive, Madison, Wisconsin 53706, United States.",
+        "Department of Biochemistry, University of Wisconsin-Madison, 433 Babcock Drive, Madison, Wisconsin 53706, United States.",
+        "National Magnetic Resonance Facility at Madison, University of Wisconsin-Madison, 433 Babcock Drive, Madison, Wisconsin 53706, United States.",
+        "Department of Chemistry, University of Illinois Urbana-Champaign, 600 South Mathews Avenue, Urbana, Illinois 61801, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "McClain, Sophia M",
+        "short_name": "McClain SM",
+        "identifiers": [
+          "0000-0003-4407-8080"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Urbana-Champaign, 600 South Mathews Avenue, Urbana, Illinois 61801, United States."
+        ]
+      },
+      {
+        "full_name": "Milchberg, Moses H",
+        "short_name": "Milchberg MH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Wisconsin-Madison, 433 Babcock Drive, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Rienstra, Chad M",
+        "short_name": "Rienstra CM",
+        "identifiers": [
+          "0000-0002-9912-5596"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Wisconsin-Madison, 433 Babcock Drive, Madison, Wisconsin 53706, United States.",
+          "National Magnetic Resonance Facility at Madison, University of Wisconsin-Madison, 433 Babcock Drive, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Murphy, Catherine J",
+        "short_name": "Murphy CJ",
+        "identifiers": [
+          "0000-0001-7066-5575"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Urbana-Champaign, 600 South Mathews Avenue, Urbana, Illinois 61801, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS nano"
+    ],
+    "journal_abbrev": [
+      "ACS Nano"
+    ],
+    "pub_date": "2023 Oct 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/02 12:42",
+    "fetched_at": "2026-09-21 01:52:32"
+  },
+  "links": {
+    "cites": [
+      "42422483",
+      "42204590",
+      "41477482",
+      "41235238",
+      "41090860"
+    ],
+    "refs": [
+      "36812386",
+      "35089965",
+      "34473498",
+      "34343005",
+      "33568632",
+      "33437978",
+      "32699326",
+      "32672441",
+      "32157247",
+      "32063829",
+      "30771175",
+      "30605594",
+      "30427176",
+      "29933693",
+      "28282814",
+      "27573854",
+      "27018801",
+      "26808899",
+      "26407041",
+      "25147617",
+      "24871041",
+      "24099487",
+      "23477540",
+      "22352432",
+      "21945884",
+      "20923663",
+      "20706833",
+      "20500090",
+      "20152114",
+      "19891442",
+      "19660552",
+      "19348768",
+      "19293380",
+      "19220042",
+      "17939695",
+      "17110340",
+      "16725379",
+      "16581836",
+      "16565714",
+      "16564705",
+      "15498564",
+      "15028717",
+      "15016920",
+      "13671378",
+      "13428781",
+      "12873148",
+      "11286556",
+      "11060312",
+      "10866959",
+      "10777786",
+      "9756856",
+      "9545270",
+      "9278044",
+      "8901511"
+    ],
+    "similar": [
+      "37782491",
+      "32672441",
+      "31566224",
+      "23638301",
+      "42212534",
+      "37823961",
+      "36551244",
+      "29459792",
+      "26119565",
+      "35417693",
+      "35787839",
+      "39013013",
+      "39530449",
+      "37883437",
+      "33538574",
+      "33415971",
+      "19481095",
+      "25273557",
+      "16669622",
+      "23583776",
+      "25524885",
+      "25665896",
+      "24383916",
+      "42097409",
+      "42475469",
+      "24338013",
+      "35931109",
+      "32513706",
+      "23129765",
+      "27273030",
+      "22500765",
+      "18949627",
+      "21746853",
+      "16455667",
+      "39729359",
+      "32392751",
+      "34736896",
+      "40216248",
+      "34076426",
+      "36567199",
+      "34473498",
+      "31941659",
+      "16020543",
+      "30796693",
+      "32548120",
+      "25075858",
+      "33613189",
+      "40794544",
+      "37094111",
+      "8276902",
+      "30142705",
+      "31110017",
+      "36584779",
+      "42420167",
+      "25246573",
+      "23528131",
+      "28576942",
+      "37991902",
+      "41301496",
+      "23607785",
+      "33568632",
+      "32063829",
+      "2497106",
+      "28495859",
+      "32719116",
+      "27640673",
+      "32304757",
+      "19112474",
+      "27455358",
+      "33774037",
+      "33114222",
+      "29663556",
+      "31917569",
+      "31048377",
+      "12388586",
+      "40312501",
+      "33784451",
+      "33482036",
+      "20152114",
+      "29321725",
+      "32607605",
+      "24036317",
+      "29853639",
+      "16306404",
+      "14596606",
+      "25641873",
+      "31096049",
+      "41594727",
+      "20041693",
+      "33356274",
+      "26381411",
+      "24884175",
+      "28671142",
+      "19481090",
+      "20923663",
+      "24146972",
+      "42093278",
+      "39233262",
+      "33318779",
+      "41445182"
+    ],
+    "review": [
+      "37782491",
+      "42212534",
+      "35787839",
+      "35931109",
+      "32392751",
+      "36567199",
+      "42420167",
+      "32607605",
+      "31096049",
+      "41594727"
+    ],
+    "pmc": [
+      "13353514"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37782491/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/ancac3/article-lookup/doi/10.1021/acsnano.3c06606",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,741 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.07.652723",
+  "title": "Molecular dynamics simulations of intrinsically disordered protein regions enable biophysical interpretation of variant effect predictors",
+  "doi": "10.1101/2025.05.07.652723",
+  "abstract": "Predictive models for missense variant pathogenicity offer little functional interpretation for intrinsically disordered regions, since they rely on conservation and coevolution across homologous sequences. To understand the extent to which biophysics modulates model performance compared to genomic conservation, we model biophysics of IDRs explicitly for improved interpretation of variant effects. We develop MDmis, a method that uses biophysical features extracted from molecular dynamics (MD) simulations of IDRs to predict pathogenicity. We find that pathogenic variants in Long IDRs manifest differently, with transient order and depleted solvent access, compared to those in Short IDRs. Using MD simulations of sequences with single missense variants, we identify stronger evidence for pathogenic effects in Long IDRs compared to Short IDRs. MDmis, when combined with conservation information, achieves strong predictive accuracy of pathogenicity of variants in Long IDRs. Overall, extracting information from MD simulations can help understand the drivers of predictive performance and elucidate biophysical behaviors affected by pathogenic variants.",
+  "authors": [
+    "Aziz Zafar",
+    "Chao Hou",
+    "Naufa Amirani",
+    "Yufeng Shen"
+  ],
+  "published_date": "2025-05-12",
+  "updated_date": "2025-05-13T01:40:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.07.652723",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.07.652723.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T15:07:42Z",
+        "timestamp": 1785424062038,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            12
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 90,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2025-05-12T00:00:00Z",
+            "timestamp": 1747008000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "R35GM149527"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35GM149527"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100014370",
+          "name": "Simons Foundation Autism Research Initiative",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "1019623"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "1019623"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100014370",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Summary</jats:title>\n                <jats:p>Predictive models for missense variant pathogenicity offer little functional interpretation for intrinsically disordered regions, since they rely on conservation and coevolution across homologous sequences. To understand the extent to which biophysics modulates model performance compared to genomic conservation, we model biophysics of IDRs explicitly for improved interpretation of variant effects. We develop MDmis, a method that uses biophysical features extracted from molecular dynamics (MD) simulations of IDRs to predict pathogenicity. We find that pathogenic variants in Long IDRs manifest differently, with transient order and depleted solvent access, compared to those in Short IDRs. Using MD simulations of sequences with single missense variants, we identify stronger evidence for pathogenic effects in Long IDRs compared to Short IDRs. MDmis, when combined with conservation information, achieves strong predictive accuracy of pathogenicity of variants in Long IDRs. Overall, extracting information from MD simulations can help understand the drivers of predictive performance and elucidate biophysical behaviors affected by pathogenic variants.</jats:p>",
+      "DOI": "10.1101/2025.05.07.652723",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            13
+          ]
+        ],
+        "date-time": "2025-05-13T01:40:11Z",
+        "timestamp": 1747100411000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Molecular dynamics simulations of intrinsically disordered protein regions enable biophysical interpretation of variant effect predictors"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7284-3021",
+          "authenticated-orcid": false,
+          "given": "Aziz",
+          "family": "Zafar",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Informatics, Columbia University Irving Medical Center"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chao",
+          "family": "Hou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Systems Biology, Columbia University Irving Medical Center"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Naufa",
+          "family": "Amirani",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Informatics, Columbia University Irving Medical Center"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1299-5979",
+          "authenticated-orcid": false,
+          "given": "Yufeng",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomedical Informatics, Columbia University Irving Medical Center"
+            },
+            {
+              "name": "Department of Systems Biology, Columbia University Irving Medical Center"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-023-01465-0"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.add1250"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-04043-8"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2016.08.016"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/148353"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-022-00561-w"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.04.01.646619"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-52580-3"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-025-11534-9"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1093-3263(00)00138-8"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-0004(02)02169-2"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.02.027"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2017.12.007"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2016.06.022"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2015.08.009"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-022-00811-w"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1706083114"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja3008402"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c2mb25202c"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1304749110"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3789"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/biom9030095"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/ebc20220060"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/biom12101486"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aam7240"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.10.042"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biomac.4c01124"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.10.11.617911"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2017.01.006"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2023.102756"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2016.11.006"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cbic.200500002"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-61779-334-9_13"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-07004-5"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1113"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abn8197"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.02.20.581321"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2308-7"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.12688/openreseurope.14967.2"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1017"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac783"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2021.11.007"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1921473117"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh253"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S2052252515015250"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky170"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki935"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/micro3010003"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.12.11.23299809"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2023.10.013"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-020-0884-y"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2015.08.015"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.53",
+          "unstructured": "GetContacts: Interactive analysis for atomic interaction in protein structures. (n.d.). [Computer software]. https://getcontacts.github.io/"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.374"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abn5856"
+        },
+        {
+          "issue": "269",
+          "key": "2026041121322157000_2025.05.07.652723v1.56",
+          "first-page": "l1",
+          "article-title": "Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal",
+          "volume": "6",
+          "year": "2013",
+          "journal-title": "Science Signaling"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1015"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41698-018-0073-y"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00439-020-02199-3"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.60",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Notin, P. , Kollasch, A. , Ritter, D. , van Niekerk, L. , Paul, S. , Spinner, H. , Rollins, N. , Shaw, A. , Orenbuch, R. , Weitzman, R. , Frazer, J. , Dias, M. , Franceschi, D. , Gal, Y. , & Marks, D. (2023). ProteinGym: Large-Scale Benchmarks for Protein Fitness Prediction and Design. In A. Oh , T. Naumann , A. Globerson , K. Saenko , M. Hardt , & S. Levine (Eds.), Advances in Neural Information Processing Systems (Vol. 36, pp. 64331–64379). Curran Associates, Inc. https://proceedings.neurips.cc/paper_files/paper/2023/file/cac723e5ff29f65e3fcbb0739ae91bee-Paper-Datasets_and_Benchmarks.pdf",
+          "DOI": "10.52202/075280-2810"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/elife.54895"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41420-021-00799-0"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13073-020-0711-1"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.molpharmaceut.9b00418"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/elife.12125"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.66",
+          "unstructured": "Jiang, R. J . (2019). Exhaustive mapping of missense variation in coronary heart disease- related genes. University of Toronto (Canada)."
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.04.28.538612"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.08.03.551866"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2020.12.003"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2021.05.009"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-021-97871-7"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.3700"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-27699-2"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.06.08.544160"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13073-021-00984-x"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ajhg.2018.03.018"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-018-0204-y"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acschembio.9b00669"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.04.19.440442"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-022-04928-2"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acschembio.0c00339"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-08006-y"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1209751109"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1001025"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13073-020-00803-9"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct300857j"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0686-2"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MCSE.2007.55"
+        },
+        {
+          "key": "2026041121322157000_2025.05.07.652723v1.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.21105/joss.03021"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.07.652723",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:14:03Z",
+        "timestamp": 1782278043000
+      },
+      "score": 105.24958,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.05.07.652723"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            12
+          ]
+        ]
+      },
+      "references-count": 90,
+      "URL": "https://doi.org/10.1101/2025.05.07.652723",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.xhgg.2026.100618",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

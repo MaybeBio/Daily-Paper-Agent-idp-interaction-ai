@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "36481502",
+    "doi": "10.1016/j.actbio.2022.11.062",
+    "title": "Cell-inspired selective potassium removal towards hyperkalemia therapy by microphase-isolated core-shell microspheres."
+  },
+  "content": {
+    "abstract": "Hyperkalemia is a common metabolic problem in patients with chronic kidney disease. Although oral medications and hemodialysis are clinically applied for lowering serum potassium, the intrinsic limitations encourage alternative therapy in the trend of adsorbent-based miniaturized blood purification devices. Cells serve as the biological K(+) storage units that accumulate K(+) through multiple mechanisms. Inspired by cells, our strategy aims at favorable permeation and enrichment of K(+) in the microsphere. We incorporate cation-affinitive groups into core-shell structures with submicron-sized phase separation. These nano-spaced side-groups cooperate to form interlinked clusters, where crown ethers with Angstrom-scale ring for size-matched complexation, while ionic sulfonic acid groups for hydrophilicity and charge-buffering. The unique structure with such non-covalent interactions facilitates K(+) for permeation across the shell and binding to the core while also ensuring mechanical strength and anti-swelling durability in biofluids. The microspheres exhibit high selectivity ratios of K(+) (S(K/Na), S(K/Ca), S(K/Mg) up to 9.8, 21.6, and 17.7). As column adsorbents for hemoperfusion simulation, they effectively lower elevated K(+) levels to the normal range (clearance rates up to 44.4%/45.3% for hyperkalemic human serum/blood). Blood compatibility tests show low protein adsorption, preferable hemocyte compatibility, and anticoagulation property in vitro. This promising strategy has clinical potential for hyperkalemia in high-risk patients. STATEMENT OF SIGNIFICANCE: Hyperkalemia (serum potassium >5 mmol/L) is a common complication in chronic renal failure patients. The limitations of existing treatments prompt a shift to wearable artificial kidney technology for clinical convenience and efficacy. Existing treatments have limitations, and we turn to adsorbent-based miniaturized blood purification devices in the prospect of wearable artificial kidney technology. There exists a lack of ion-specific adsorbents applied in extracorporeal circuits to redress electrolyte imbalances like hyperkalemia. Inspired by cells, we aim at the favorable permeation and enrichment of K(+) by microspheres. The microspheres have a microphase-isolated core-shell structure, whose nano-spaced groups form cation-affinitive clusters. Selective K(+) removal and blood compatibility are achieved. We expect this strategy to enlighten alternative hyperkalemia therapy for these high-risk patients.",
+    "keywords": [
+      "Blood compatibility",
+      "Crown ether",
+      "Hyperkalemia",
+      "Potassium ion",
+      "Selective removal"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Hyperkalemia/drug therapy",
+      "Potassium/metabolism/therapeutic use",
+      "Microspheres",
+      "Renal Dialysis/adverse effects"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Zhoujun",
+        "Yuan, Rui",
+        "Li, Peiyang",
+        "Huang, Yanping",
+        "Zhao, Weifeng",
+        "Zhao, Changsheng"
+      ],
+      "short_names": [
+        "Wang Z",
+        "Yuan R",
+        "Li P",
+        "Huang Y",
+        "Zhao W",
+        "Zhao C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Polymer Science and Engineering, State Key Laboratory of Polymer Materials Engineering, Sichuan University, Chengdu 610065, China.",
+        "College of Polymer Science and Engineering, State Key Laboratory of Polymer Materials Engineering, Sichuan University, Chengdu 610065, China.",
+        "College of Polymer Science and Engineering, State Key Laboratory of Polymer Materials Engineering, Sichuan University, Chengdu 610065, China.",
+        "School of Chemical Engineering, Sichuan University, Chengdu 610065, China.",
+        "College of Polymer Science and Engineering, State Key Laboratory of Polymer Materials Engineering, Sichuan University, Chengdu 610065, China. Electronic address: weifeng@scu.edu.cn.",
+        "College of Polymer Science and Engineering, State Key Laboratory of Polymer Materials Engineering, Sichuan University, Chengdu 610065, China; School of Chemical Engineering, Sichuan University, Chengdu 610065, China; Med-X Center for Materials, Sichuan University, Chengdu, 610065, China. Electronic address: zhaochsh70@scu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Zhoujun",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Polymer Science and Engineering, State Key Laboratory of Polymer Materials Engineering, Sichuan University, Chengdu 610065, China."
+        ]
+      },
+      {
+        "full_name": "Yuan, Rui",
+        "short_name": "Yuan R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Polymer Science and Engineering, State Key Laboratory of Polymer Materials Engineering, Sichuan University, Chengdu 610065, China."
+        ]
+      },
+      {
+        "full_name": "Li, Peiyang",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Polymer Science and Engineering, State Key Laboratory of Polymer Materials Engineering, Sichuan University, Chengdu 610065, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yanping",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Engineering, Sichuan University, Chengdu 610065, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Weifeng",
+        "short_name": "Zhao W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Polymer Science and Engineering, State Key Laboratory of Polymer Materials Engineering, Sichuan University, Chengdu 610065, China. Electronic address: weifeng@scu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhao, Changsheng",
+        "short_name": "Zhao C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Polymer Science and Engineering, State Key Laboratory of Polymer Materials Engineering, Sichuan University, Chengdu 610065, China; School of Chemical Engineering, Sichuan University, Chengdu 610065, China; Med-X Center for Materials, Sichuan University, Chengdu, 610065, China. Electronic address: zhaochsh70@scu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta biomaterialia"
+    ],
+    "journal_abbrev": [
+      "Acta Biomater"
+    ],
+    "pub_date": "2023 Feb",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/09 06:00",
+    "fetched_at": "2026-09-20 17:30:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "36481502",
+      "30071530",
+      "35135481",
+      "35133576",
+      "35879718",
+      "23255245",
+      "33459923",
+      "16632019",
+      "3827459",
+      "12401936",
+      "24576893",
+      "31353054",
+      "31668450",
+      "10969103",
+      "15530477",
+      "6366094",
+      "26159448",
+      "31201218",
+      "35700151",
+      "8381483",
+      "3052050",
+      "11834878",
+      "24897191",
+      "26330193",
+      "25415807",
+      "29786183",
+      "30648222",
+      "29372448",
+      "10393376",
+      "32382848",
+      "27180623",
+      "33804015",
+      "7237977",
+      "10393377",
+      "28421299",
+      "20827508",
+      "3605230",
+      "34364782",
+      "29027620",
+      "32149451",
+      "12378013",
+      "35545234",
+      "29031357",
+      "21498041",
+      "26093176",
+      "33007353",
+      "30398481",
+      "26440515",
+      "16191080",
+      "33086450",
+      "32892634",
+      "25402495",
+      "31800078",
+      "2747008",
+      "30109784",
+      "23953806",
+      "20337915",
+      "25883703",
+      "33247727",
+      "26998854",
+      "35306438",
+      "23823207",
+      "19031348",
+      "20150448",
+      "25000676",
+      "1046684",
+      "12535291",
+      "25362223",
+      "35964658",
+      "35833768",
+      "31268919",
+      "19789539",
+      "25415805",
+      "34958299",
+      "19861864",
+      "33160639",
+      "15783126",
+      "35389084",
+      "35482610",
+      "31856891",
+      "25091596",
+      "18518934",
+      "15982543",
+      "17897250",
+      "19018744",
+      "26172895",
+      "8039040",
+      "31580544",
+      "23687902",
+      "25651363",
+      "8840939",
+      "29180023",
+      "11307320",
+      "21983985",
+      "25425465",
+      "8852501",
+      "38165062",
+      "37152530",
+      "36196521",
+      "35253014",
+      "35846839",
+      "39411060"
+    ],
+    "review": [
+      "36481502",
+      "33459923",
+      "12401936",
+      "31668450",
+      "26330193",
+      "29786183",
+      "29372448",
+      "27180623",
+      "20827508",
+      "34364782",
+      "29031357",
+      "21498041",
+      "26093176",
+      "30398481",
+      "32892634",
+      "31800078",
+      "23953806",
+      "26998854",
+      "20150448",
+      "12535291",
+      "35964658",
+      "31268919",
+      "33160639",
+      "15783126",
+      "35482610",
+      "15982543",
+      "17897250",
+      "19018744",
+      "25425465"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1742-7061(22)00797-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

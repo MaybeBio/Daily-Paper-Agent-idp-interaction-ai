@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2201.01920v3",
+  "title": "Numerical Techniques for Applications of Analytical Theories to Sequence-Dependent Phase Separations of Intrinsically Disordered Proteins",
+  "authors": "Yi-Hsuan Lin; Jonas Wessén; Tanmoy Pal; Suman Das; Hue Sun Chan",
+  "journal": "In: Phase-Separated Biomolecular Condensates, Methods and Protocols; edited by H.-X. Zhou, J.-H. Spille and P.R. Banerjee, Methods in Molecular Biology (Springer-Nature), Volume 2563, Chapter 3, pages 51-94 (2022)",
+  "published_date": "2022-01-06",
+  "window": {
+    "start": "2022-01-03",
+    "end": "2022-01-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该文系统介绍从解析理论提取序列依赖性无序蛋白相分离性质的数值技术，涵盖相边界、系线和场论模拟，并简述粗粒化分子动力学方法，直接聚焦IDP相分离的机制建模，虽偏方法指南但对象、互作与方法三者齐备。",
+  "abstract": "Biomolecular condensates, physically underpinned to a significant extent by liquid-liquid phase separation (LLPS), are now widely recognized by numerous experimental studies to be of fundamental biological, biomedical, and biophysical importance. In the face of experimental discoveries, analytical formulations emerged as a powerful yet tractable tool in recent theoretical investigations of the role of LLPS in the assembly and dissociation of these condensates. The pertinent LLPS often involves, though not exclusively, intrinsically disordered proteins engaging in multivalent interactions that are governed by their amino acid sequences. For researchers interested in applying these theoretical methods, here we provide a practical guide to a set of computational techniques devised for extracting sequence-dependent LLPS properties from analytical formulations. The numerical procedures covered include those for the determinination of spinodal and binodal phase boundaries from a general free energy function with examples based on the random phase approximation in polymer theory, construction of tie lines for multiple-component LLPS, and field-theoretic simulation of multiple-chain heteropolymeric systems using complex Langevin dynamics. Since a more accurate physical picture often requires comparing analytical theory against explicit-chain model predictions, a commonly utilized methodology for coarse-grained molecular dynamics simulations of sequence-specific LLPS is also briefly outlined.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）在很大程度上由液-液相分离（liquid-liquid phase separation, LLPS）物理支撑，众多实验研究现已广泛认识到其在生物学、生物医学和生物物理学中的根本重要性。面对实验发现，解析公式在近期关于LLPS在凝聚体组装与解离中作用的理论研究中，成为一种强大且易处理的手段。相关LLPS通常涉及（尽管并非排他性地）内在无序蛋白质，这些蛋白质通过其氨基酸序列控制的多价相互作用参与其中。对于有兴趣应用这些理论方法的研究人员，我们在此提供一套实用指南，涵盖旨在从解析公式中提取序列依赖性LLPS特性的计算技术。所涵盖的数值程序包括：基于聚合物理论中随机相位近似（random phase approximation）的示例，从一般自由能函数确定旋节线（spinodal）和双节线（binodal）相边界；多组分LLPS的系线（tie lines）构建；以及使用复朗之万动力学（complex Langevin dynamics）对多链杂聚物系统进行场论模拟。由于更精确的物理图景通常需要将解析理论与显式链模型预测进行比较，本文还简要概述了用于序列特异性LLPS的粗粒化分子动力学模拟（coarse-grained molecular dynamics simulations）的常用方法。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2201.01920v3",
+  "source_url": "https://arxiv.org/abs/2201.01920v3",
+  "paper_page_path": "papers/arxiv/2201.01920v3/index.html"
+}

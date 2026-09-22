@@ -1,0 +1,376 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.12.13.472521",
+  "title": "Sequence based prediction of protein phase separation into disordered condensates using machine learning",
+  "doi": "10.1101/2021.12.13.472521",
+  "abstract": "Several proteins which are responsible for neuro-degenrerative disorders (Alzheimer’s, Parkinson’s etc) are shown to undergo a mechanism known as liquid liquid phase separation (LLPS). We in this research build a predictor which would answer whether a protein molecule would undergo LLPS or not. For this we used some protein sequences for which we already knew the answer. The ones who undergo LLPS were considered as the positive set and the ones who do not, were taken as the negative set. Depending on the knowledge of amino-acid sequences we identified some relevant variables in the context of LLPS e.g. number of amino acids, length of the best pairings, average register shifts. Using these variables we built a number of scoring functions which were basically analytic functions involving these variables and we also combined some scores already existing in the literature. We considered a total of 43636 protein sequences, among them only 121 were positive. We applied logistic regression and performed cross validation, where 25% of the data were used as the training set and the performance of the obtained results were tested on the remaining 75% of the data. In the training process, we used Simplex algorithm to maximize area under the curve (AUC) in receiver operator characteristics (ROC) space for each of the scores we defined. The optimised parameters were then used to evaluate AUC on the test set to check the accuracy. The best performing score was identified as the predicting model to answer the question whether a protein chain would undergo phase separating behavior or not. Author summary Liquid-liquid phase separation (LLPS) is a classic subject in polymer physics. The essen- tial physics is aptly captured within the Flory-Huggins (FH) approach, a simple lattice mean-field theory. Evidence has been mounting in the last decade that protein LLPS underlies the formation of membrane-less organelles (MLOs) in living cells, explaining why proteins and other bio-molecules can remain in a dense liquid condensate without diffusing away. Intrinsically disordered regions (IDRs), with a sequence-intrinsic prefer- ence for conformational heterogeneity or disorder under native conditions, are enriched in proteins that have the ability of switching on LLPS. The detailed understanding of the biological function of disordered bio-molecular condensates, whose formation is driven by LLPS, is currently the focus of a major effort in cell biology. Several key proteins in neuro-degenerative disorders are components of MLOs, and a further liquid-to-solid transition to unsoluble amyloid aggregates may be triggered by pathogenic mutants. Non-equilibrium active processes are also known to drive non trivial spatio-temporal organization patterns in MLOs. In this research we aim to predict which proteins can undergo LLPS in physiological conditions in living cells, and the corresponding phase behavior, based on theoretical tools and on the knowledge of the amino-acid sequence alone. We derive specific knowledge-based potentials for the different kind of short-range interactions that are believed to drive protein LLPS and use them to build a simple yes/no predictor of phase separation in physiological conditions.",
+  "authors": [
+    "Pratik Mullick",
+    "Antonio Trovato"
+  ],
+  "published_date": "2021-12-14",
+  "updated_date": "2021-12-14T23:26:27Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.12.13.472521",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.12.13.472521.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:40:43Z",
+        "timestamp": 1768498843315,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            14
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 33,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            14
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Several proteins which are responsible for neuro-degenrerative disorders (Alzheimer’s, Parkinson’s etc) are shown to undergo a mechanism known as liquid liquid phase separation (LLPS). We in this research build a predictor which would answer whether a protein molecule would undergo LLPS or not. For this we used some protein sequences for which we already knew the answer. The ones who undergo LLPS were considered as the positive set and the ones who do not, were taken as the negative set. Depending on the knowledge of amino-acid sequences we identified some relevant variables in the context of LLPS e.g. number of amino acids, length of the best pairings, average register shifts. Using these variables we built a number of scoring functions which were basically analytic functions involving these variables and we also combined some scores already existing in the literature. We considered a total of 43636 protein sequences, among them only 121 were positive. We applied logistic regression and performed cross validation, where 25% of the data were used as the training set and the performance of the obtained results were tested on the remaining 75% of the data. In the training process, we used Simplex algorithm to maximize area under the curve (AUC) in receiver operator characteristics (ROC) space for each of the scores we defined. The optimised parameters were then used to evaluate AUC on the test set to check the accuracy. The best performing score was identified as the predicting model to answer the question whether a protein chain would undergo phase separating behavior or not.</jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>Liquid-liquid phase separation (LLPS) is a classic subject in polymer physics. The essen- tial physics is aptly captured within the Flory-Huggins (FH) approach, a simple lattice mean-field theory. Evidence has been mounting in the last decade that protein LLPS underlies the formation of membrane-less organelles (MLOs) in living cells, explaining why proteins and other bio-molecules can remain in a dense liquid condensate without diffusing away. Intrinsically disordered regions (IDRs), with a sequence-intrinsic prefer- ence for conformational heterogeneity or disorder under native conditions, are enriched in proteins that have the ability of switching on LLPS. The detailed understanding of the biological function of disordered bio-molecular condensates, whose formation is driven by LLPS, is currently the focus of a major effort in cell biology. Several key proteins in neuro-degenerative disorders are components of MLOs, and a further liquid-to-solid transition to unsoluble amyloid aggregates may be triggered by pathogenic mutants. Non-equilibrium active processes are also known to drive non trivial spatio-temporal organization patterns in MLOs. In this research we aim to predict which proteins can undergo LLPS in physiological conditions in living cells, and the corresponding phase behavior, based on theoretical tools and on the knowledge of the amino-acid sequence alone. We derive specific knowledge-based potentials for the different kind of short-range interactions that are believed to drive protein LLPS and use them to build a simple yes/no predictor of phase separation in physiological conditions.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2021.12.13.472521",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            14
+          ]
+        ],
+        "date-time": "2021-12-14T23:26:27Z",
+        "timestamp": 1639524387000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Sequence based prediction of protein phase separation into disordered condensates using machine learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0133-0354",
+          "authenticated-orcid": false,
+          "given": "Pratik",
+          "family": "Mullick",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1596-9477",
+          "authenticated-orcid": false,
+          "given": "Antonio",
+          "family": "Trovato",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rubinstein, M. and Colby, R. H. Polymer Physics, Oxford University Press (2003).",
+          "DOI": "10.1093/oso/9780198520597.001.0001"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/j150415a018"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1723621"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2018.02.004"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nphys3532"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-072711-164947"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alberti, S. et al. Consideration and challenges in studying liquid-liquid phase separation and biomolecular condensates (2019).",
+          "DOI": "10.1016/j.cell.2018.12.035"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.07.038"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.09.015"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.07.047"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aan6398"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11922"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biochem.75.101304.123901"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.05.004"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.117.178101"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.16",
+          "first-page": "1",
+          "article-title": "Physical chemistry of cellular liquid-phase separation",
+          "volume": "25",
+          "year": "2019",
+          "journal-title": "Cell. Biochem"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1404855111"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "4619",
+          "DOI": "10.1016/j.jmb.2018.06.031",
+          "article-title": "Advances in understanding stimulus-responsive phase behavior of intrinsically disordered protein polymers",
+          "volume": "430",
+          "year": "2018",
+          "journal-title": "J. Mol. Biol"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchem.2803"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "62",
+          "DOI": "10.1016/j.ceb.2017.03.003",
+          "article-title": "Sequence-encoded material properties dictate the structure and function of nuclear bodies",
+          "volume": "46",
+          "year": "2017",
+          "journal-title": "Curr. Opin. Cell Biol"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1005941"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1996.0114"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "012411",
+          "DOI": "10.1103/PhysRevE.99.012411",
+          "article-title": "Partial demixing of RNA-protein complexes leads to intradroplet patterning in phase-separated biological condensates",
+          "volume": "99",
+          "year": "2019",
+          "journal-title": "Phys. Rev. E"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcp.1030490404"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.8b00058"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.31486"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.0020170"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/gzm042"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.29",
+          "first-page": "W301",
+          "article-title": "PASTA 2.0: an improved server for protein aggregation prediction",
+          "volume": "12",
+          "year": "2014",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "351",
+          "DOI": "10.1038/srep00351",
+          "article-title": "A simple and efficient statistical potential for scoring ensembles of protein structures",
+          "volume": "2",
+          "year": "2012",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "621",
+          "DOI": "10.1002/prot.24764",
+          "article-title": "Native fold and docking pose discrimination by the same residue- based scoring function",
+          "volume": "83",
+          "year": "2015",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "393",
+          "DOI": "10.1002/prot.25454",
+          "article-title": "Vibrational entropy estimation can improve binding affinity prediction for non-obligatory protein complexes",
+          "volume": "86",
+          "year": "2018",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2021121705401065000_2021.12.13.472521v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.TM118.001190"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.12.13.472521",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:29:12Z",
+        "timestamp": 1768444152000
+      },
+      "score": 91.73451,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.12.13.472521"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            14
+          ]
+        ]
+      },
+      "references-count": 33,
+      "URL": "https://doi.org/10.1101/2021.12.13.472521",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            14
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

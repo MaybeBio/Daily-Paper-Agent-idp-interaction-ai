@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (main text only, no supplementary figures or tables were provided)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidentiary support as presented in the main text
+- **Shared manuscript claim summary** The authors use coarse-grained AWSEM-3SPN.2C simulations to predict the structure and dynamics of full-length human estrogen receptor α (hERα) dimers bound to DNA and various ligands. They propose a "marionette mechanism" whereby intrinsically disordered hinge domains transmit conformational changes from ligand-binding domains (LBDs) to DNA-binding domains (DBDs), with distinct patterns for antagonist, agonist, and coactivator-bound states. The mechanism is supported by free energy landscapes, frustration analysis, and comparisons to experimental SAXS data and binding affinities.
+- **Visible evidence base** Main text figures referenced (Figs. 1–6), simulation methodology descriptions, comparisons to experimental data (SAXS χ2, binding free energies), and references to SI Appendix figures and tables (not provided in this submission)
+- **Missing materials affecting confidence** All SI Appendix figures and tables (Figs. S1–S21, Tables S1–S4), supplementary movies (S1–S13), detailed Methods section, and the GitHub repository contents were not provided. These materials are essential for evaluating the technical soundness of the simulations, the statistical significance of the results, and the validity of the frustration analyses.
+
+## Reviewer
+- **Overall assessment** This manuscript presents an ambitious computational study aimed at elucidating the allosteric communication mechanism in a full-length nuclear receptor complex. The central hypothesis, that disordered hinge domains act as "strings" transmitting conformational signals between LBDs and DBDs, is conceptually appealing and potentially significant for the nuclear receptor field. However, the evidence presented in the main text is insufficient to fully establish this mechanism. Key quantitative validations, statistical analyses, and methodological details are relegated to the SI Appendix, which was not available for review. The study's reliance on a single coarse-grained force field without extensive cross-validation raises concerns about the robustness of the conclusions. The manuscript would benefit from clearer articulation of the predictive versus descriptive nature of the simulations and from more direct comparisons to experimental data beyond SAXS and binding affinities.
+- **Who would be interested in the results, and why** Researchers in the nuclear receptor field, particularly those studying estrogen receptor structure-function relationships and allosteric regulation. Computational biophysicists interested in coarse-grained modeling of large protein-DNA complexes and intrinsically disordered proteins would also find the methodological approach relevant. Clinically oriented researchers may be interested in the implications for understanding how mutations in hinge regions affect receptor function, though the translational relevance is not developed in this manuscript.
+- **Major strengths** The study addresses a significant and long-standing question in the nuclear receptor field: how ligand binding at the LBD is communicated to the DBD through disordered linkers. The use of a full-length receptor model including DNA is ambitious and represents an advance over domain-level studies. The integration of multiple computational approaches (structure prediction, molecular dynamics, free energy calculations, frustration analysis) provides a multi-faceted view of the system. The comparison to experimental SAXS data and binding affinities provides some validation of the predicted structures.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that their predicted hERα dimeric structure agrees well with experiments at the structural and energetic levels, citing a χ2 of 1.215 against SAXS data and a binding affinity of −11.14 kcal/mol.
+  - **Evidence pointer** Fig. 1C, SI Appendix Figs. S1–S3
+  - **Concern** The validation of the predicted structure rests on a single SAXS comparison and a binding free energy calculation. The χ2 value of 1.215 is presented as "very good agreement," but without seeing the SAXS profile comparison or the range of χ2 values that would constitute acceptable agreement, this claim is difficult to assess. The binding affinity calculation is compared to experimental values, but the error bars on the computed value and the sensitivity of this result to simulation parameters are not reported. Furthermore, the comparison to the Huang et al. model (χ2 = 1.339) is presented as favorable, but the difference between 1.215 and 1.339 may not be statistically significant without error estimates.
+  - **Why it matters** The entire subsequent analysis of domain-domain communication depends on the reliability of the predicted structure. If the structural model is not adequately validated, all downstream conclusions about the marionette mechanism are compromised.
+  - **Resolution test** Provide the SAXS profile fits with error estimates, report the statistical significance of the χ2 difference between models, include error bars on computed binding affinities, and demonstrate robustness of the predicted structure to simulation parameters (e.g., force field variations, template choices).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that principal component analysis of the simulation trajectories reveals distinct domain motion patterns for antagonist-bound, agonist-bound, and agonist-bound-with-coactivator states, with the agonist-bound form showing the most coordinated domain-domain communication.
+  - **Evidence pointer** Fig. 2, SI Appendix Fig. S4, Movies S1–S3
+  - **Concern** The PCA results are described qualitatively, with the largest PC contributing 33%, 46%, and 31% to fluctuations for the three states. The claim that the agonist-bound form shows "domain-domain communication" while the antagonist-bound form shows independent DBD motions is based on visual inspection of the PC modes. No quantitative metrics are provided to distinguish coordinated from independent motions. The statistical significance of the differences between the PC contributions across the three states is not assessed. Additionally, the choice of 20 trajectories and the sampling time (20 μs) may be insufficient to converge the PCA, especially for a system with intrinsically disordered regions.
+  - **Why it matters** The central claim of the paper, that different ligands induce different domain-domain communication patterns, rests entirely on the interpretation of these PCA modes. Without quantitative measures of coordination and statistical validation, the conclusions are not robustly supported.
+  - **Resolution test** Provide quantitative metrics for domain coordination (e.g., correlation coefficients between domain motions, mutual information measures), perform convergence analysis of the PCA modes, and assess the statistical significance of differences between the three ligand states using ensemble comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that free energy landscapes constructed from umbrella sampling simulations reveal distinct binding basins for the different hERα forms, with the agonist-bound form showing multiple basins that support domain-domain communication.
+  - **Evidence pointer** Fig. 3, SI Appendix Fig. S7
+  - **Concern** The free energy landscapes are projected onto two collective variables: electrostatic interaction between DBDs and DNA, and electrostatic interaction between hinge domains and DNA. The choice of these variables is not fully justified, and it is unclear whether they capture the relevant physics of the binding process. The umbrella sampling protocol is described only briefly, and convergence of the free energy calculations is not demonstrated. The identification of distinct basins and their interpretation in terms of binding preferences appears to be qualitative. The claim that "domain-domain communication exists only through the binding process of agonist-bound hERα" is a strong negative claim that requires careful statistical analysis to support.
+  - **Why it matters** The free energy landscapes provide the primary evidence for the proposed mechanism of domain-domain communication. If the landscapes are not converged or the collective variables are poorly chosen, the conclusions about the mechanism are unreliable.
+  - **Resolution test** Provide convergence tests for the umbrella sampling (e.g., overlap of histograms, block error analysis), justify the choice of collective variables, and provide quantitative measures of the free energy differences between basins with error estimates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that frustration analysis reveals distinct patterns for the different hERα states, with the agonist-bound form showing minimally frustrated interactions at specific interfaces that support the marionette mechanism.
+  - **Evidence pointer** SI Appendix Figs. S8–S10, S13–S15, S18–S20
+  - **Concern** The frustration analysis is described only in the main text, with all results relegated to the SI Appendix. The methodology for computing frustration patterns is not described in the main text, and the interpretation of the results in terms of the proposed mechanism is not clearly articulated. The claim that "the differences between the frustration patterns of agonist-bound hERα species implicate the allosteric coupling of the different domains" is not supported by any quantitative analysis in the main text. The relationship between frustration patterns and the proposed marionette mechanism is asserted rather than demonstrated.
+  - **Why it matters** The frustration analysis is presented as supporting evidence for the proposed mechanism, but without access to the SI figures and a clear description of the methodology, this evidence cannot be evaluated.
+  - **Resolution test** Provide a clear description of the frustration analysis methodology in the main text or ensure the SI Appendix is available for review. Provide quantitative comparisons of frustration patterns across states and demonstrate how these patterns relate to the proposed mechanism.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the marionette mechanism may be a universal mechanism for nuclear receptor action, based on structural and functional similarity to other nuclear receptors.
+  - **Evidence pointer** Fig. 6, Discussion section
+  - **Concern** The generalization from hERα to all nuclear receptors is made without any direct evidence from other receptor systems. The claim that "the structural similarity and functional similarity of these receptors to hERα suggest that the marionette mechanism may be a universal mechanism" is speculative and not supported by the data presented. While speculation in a discussion section is acceptable, the framing of this as a significant conclusion of the work overstates the evidence.
+  - **Why it matters** The significance of the work is partly based on the potential universality of the proposed mechanism. If this claim is not supported, the broader impact of the study is diminished.
+  - **Resolution test** Either temper the claim to be clearly speculative or provide additional evidence from other nuclear receptor systems to support the generalization.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The term "marionette mechanism" is introduced without a clear definition or analogy to the puppet metaphor. The abstract states that flexible regions "undergo a collective motion, much like the dancing of a marionette," but the specific mapping between the metaphor and the molecular mechanism is not explained until much later in the manuscript.
+  - **Required correction** Provide a brief definition or schematic of the marionette mechanism early in the manuscript to orient readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section
+  - **Issue** The Methods section is extremely brief, stating only that simulations were carried out using AWSEM-3SPN.2C in LAMMPS, with details relegated to the SI Appendix. This is insufficient for readers to assess the methodology or reproduce the work.
+  - **Required correction** Provide a more detailed summary of the simulation protocol in the main text, including system setup, simulation length, temperature control, and analysis methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of clinical implications is underdeveloped. The significance section mentions breast cancer management, but the discussion does not connect the proposed mechanism to potential therapeutic strategies or to understanding clinically relevant mutations beyond a brief mention.
+  - **Required correction** Expand the discussion of clinical implications or explicitly state that clinical applications are beyond the scope of this study.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figs. 1–6
+  - **Issue** The figure legends are not provided in the submitted text, making it difficult to interpret the figures referenced in the main text.
+  - **Required correction** Ensure figure legends are included in the final submission and provide sufficient detail for readers to interpret the figures without referring to the main text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Statistical analysis
+  - **Evidence pointer** Throughout
+  - **Issue** The manuscript does not report any statistical measures of uncertainty for the simulation results, such as standard errors or confidence intervals. Given the stochastic nature of molecular dynamics simulations, this is a significant omission.
+  - **Required correction** Report uncertainties for key quantitative results, such as binding free energies, PC contributions, and frustration metrics.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (structural validation), R1-M2 (PCA interpretation), R1-M3 (free energy convergence), R1-M4 (frustration analysis methodology)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of a "marionette mechanism" for domain-domain communication via disordered hinges is a novel framing that could provide a useful conceptual model for nuclear receptor allostery. However, the underlying idea that disordered linkers mediate allosteric communication is not entirely new, and the manuscript does not clearly articulate what is conceptually novel beyond the specific system studied.
+  - **Scientific importance** The estrogen receptor is a clinically important target, and understanding its allosteric regulation has potential translational relevance. However, the manuscript does not clearly demonstrate how the proposed mechanism advances our understanding beyond existing models or how it could inform therapeutic development. The claim of universality across nuclear receptors is not supported by the evidence presented.
+  - **Interdisciplinary readership** The work bridges structural biology, computational biophysics, and nuclear receptor biology, which could appeal to a broad readership. However, the heavy reliance on specialized computational methods without adequate explanation may limit accessibility to experimental biologists.
+  - **Technical soundness** The technical soundness cannot be fully assessed without the SI Appendix and supplementary materials. The main text provides insufficient detail on simulation protocols, convergence, and statistical analysis. The validation against experimental data is limited to SAXS and binding affinities, which may not be sufficient to establish the reliability of the predicted structures and dynamics.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the main concepts are accessible, but the significance of the results and the logic of the argument could be clearer. The metaphor of the marionette is engaging but is not fully developed until late in the manuscript.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis and a sophisticated computational approach, but the evidence provided in the main text is insufficient to support the central claims. The lack of access to the SI Appendix and supplementary materials prevents a full assessment of the technical soundness. The authors should be encouraged to resubmit after addressing the major concerns, particularly by providing quantitative validation of the structural predictions, statistical analysis of the PCA and free energy results, and a clearer articulation of the novelty and significance of the proposed mechanism.
+
+## Risk / unsupported claims
+- The claim that the predicted hERα structure "agrees well with experiments" is not fully supported without error estimates on the χ2 comparison and binding affinity calculations.
+- The claim that "domain-domain communication exists only through the binding process of agonist-bound hERα" is a strong negative claim that is not supported by the data presented.
+- The generalization of the marionette mechanism to all nuclear receptors is speculative and not supported by evidence from other systems.
+- The claim that clinically relevant mutations occur "primarily" in the hinge regions is not quantified in the main text.
+- The functional significance of the proposed mechanism for gene expression regulation is asserted but not demonstrated.

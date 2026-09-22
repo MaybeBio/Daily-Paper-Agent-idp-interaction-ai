@@ -1,0 +1,356 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.05.604734",
+  "title": "The molecular basis of lamin-specific chromatin interactions",
+  "doi": "10.1101/2024.08.05.604734",
+  "abstract": "In the cell nucleus, chromatin is anchored to the nuclear lamina, a network of lamin filaments and binding proteins that underly the inner nuclear membrane. The nuclear lamina is involved in chromatin organisation through the interaction of lamina-associated domains (LADs) within the densely packed heterochromatin regions. Employing cryo-focused ion beam (cryo-FIB) milling in conjunction with cryo-electron tomography (cryo-ET), we analysed the distribution of nucleosomes at the lamin-chromatin interface. Depletion of lamin A/C reduced the concentration of nucleosomes at the nuclear periphery, suggesting that lamins are directly involved in the interaction with chromatin. Using cryo-electron microscopy (cryo-EM), we then identified the specific binding motif of the lamin A tail domain that interacts with nucleosomes, distinguishing it from the other lamin isoforms. Furthermore, we examined chromatin structure dynamics using a genome-wide analysis that revealed lamin-dependent macroscopic-scale alterations in gene expression and chromatin remodelling. Our findings provide detailed insights into the dynamic and structural interplay between lamin isoforms and chromatin, molecular interactions which are shaping chromatin architecture and epigenetic regulation.",
+  "authors": [
+    "Wang B",
+    "Kronenberg-Tenga R",
+    "Rosti V",
+    "Di Patrizio Soldateschi E",
+    "Luo Q",
+    "Pinet L",
+    "Eibauer M",
+    "Boujemaa-Paterski R",
+    "Schuler B",
+    "Lanzuolo C",
+    "Medalia O"
+  ],
+  "published_date": "2024-08-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.05.604734",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.05.604734.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR891288",
+    "raw_record": {
+      "id": "PPR891288",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR891288"
+        ]
+      },
+      "doi": "10.1101/2024.08.05.604734",
+      "title": "The molecular basis of lamin-specific chromatin interactions",
+      "authorString": "Wang B, Kronenberg-Tenga R, Rosti V, Di Patrizio Soldateschi E, Luo Q, Pinet L, Eibauer M, Boujemaa-Paterski R, Schuler B, Lanzuolo C, Medalia O.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang B",
+            "lastName": "Wang",
+            "firstName": "Baihui",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Winterthurerstrasse 190 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kronenberg-Tenga R",
+            "lastName": "Kronenberg-Tenga",
+            "firstName": "Rafael",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Winterthurerstrasse 190 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rosti V",
+            "lastName": "Rosti",
+            "firstName": "Valentina",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Di Patrizio Soldateschi E",
+            "lastName": "Di Patrizio Soldateschi",
+            "firstName": "Emanuele",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Luo Q",
+            "lastName": "Luo",
+            "firstName": "Qiang",
+            "initials": "Q",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Winterthurerstrasse 190 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pinet L",
+            "lastName": "Pinet",
+            "firstName": "Louise",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5629-6187"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Winterthurerstrasse 190 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eibauer M",
+            "lastName": "Eibauer",
+            "firstName": "Matthias",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0638-9347"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Winterthurerstrasse 190 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boujemaa-Paterski R",
+            "lastName": "Boujemaa-Paterski",
+            "firstName": "Rajaa",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9645-387X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Winterthurerstrasse 190 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schuler B",
+            "lastName": "Schuler",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5970-4251"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Winterthurerstrasse 190 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lanzuolo C",
+            "lastName": "Lanzuolo",
+            "firstName": "Chiara",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2649-6334"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Medalia O",
+            "lastName": "Medalia",
+            "firstName": "Ohad",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Winterthurerstrasse 190 , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5629-6187"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9645-387X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5970-4251"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0638-9347"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2649-6334"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "In the cell nucleus, chromatin is anchored to the nuclear lamina, a network of lamin filaments and binding proteins that underly the inner nuclear membrane. The nuclear lamina is involved in chromatin organisation through the interaction of lamina-associated domains (LADs) within the densely packed heterochromatin regions. Employing cryo-focused ion beam (cryo-FIB) milling in conjunction with cryo-electron tomography (cryo-ET), we analysed the distribution of nucleosomes at the lamin-chromatin interface. Depletion of lamin A/C reduced the concentration of nucleosomes at the nuclear periphery, suggesting that lamins are directly involved in the interaction with chromatin. Using cryo-electron microscopy (cryo-EM), we then identified the specific binding motif of the lamin A tail domain that interacts with nucleosomes, distinguishing it from the other lamin isoforms. Furthermore, we examined chromatin structure dynamics using a genome-wide analysis that revealed lamin-dependent macroscopic-scale alterations in gene expression and chromatin remodelling. Our findings provide detailed insights into the dynamic and structural interplay between lamin isoforms and chromatin, molecular interactions which are shaping chromatin architecture and epigenetic regulation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "197776",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "207453",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.08.05.604734"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.08.05.604734"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR891288"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR891288&type=FILE&fileName=EMS198040-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40750945",
+            "reference": "Nature structural & molecular biology. 2025 Oct;32(10):1999-2011",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS198040",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-08-08",
+      "firstPublicationDate": "2024-08-05",
+      "firstIndexDate": "2024-08-08",
+      "fullTextReceivedDate": "2024-08-16",
+      "hasEvaluations": "N"
+    }
+  }
+}

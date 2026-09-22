@@ -1,0 +1,804 @@
+{
+  "identity": {
+    "pmid": "37972067",
+    "doi": "10.1073/pnas.2305215120",
+    "title": "A peptidomimetic modulator of the Ca(V)2.2 N-type calcium channel for chronic pain."
+  },
+  "content": {
+    "abstract": "Transmembrane Ca(v)2.2 (N-type) voltage-gated calcium channels are genetically and pharmacologically validated, clinically relevant pain targets. Clinical block of Ca(v)2.2 (e.g., with Prialt/Ziconotide) or indirect modulation [e.g., with gabapentinoids such as Gabapentin (GBP)] mitigates chronic pain but is encumbered by side effects and abuse liability. The cytosolic auxiliary subunit collapsin response mediator protein 2 (CRMP2) targets Ca(v)2.2 to the sensory neuron membrane and regulates their function via an intrinsically disordered motif. A CRMP2-derived peptide (CBD3) uncouples the Ca(v)2.2-CRMP2 interaction to inhibit calcium influx, transmitter release, and pain. We developed and applied a molecular dynamics approach to identify the A(1)R(2) dipeptide in CBD3 as the anchoring Ca(v)2.2 motif and designed pharmacophore models to screen 27 million compounds on the open-access server ZincPharmer. Of 200 curated hits, 77 compounds were assessed using depolarization-evoked calcium influx in rat dorsal root ganglion neurons. Nine small molecules were tested electrophysiologically, while one (CBD3063) was also evaluated biochemically and behaviorally. CBD3063 uncoupled Ca(v)2.2 from CRMP2, reduced membrane Ca(v)2.2 expression and Ca(2+) currents, decreased neurotransmission, reduced fiber photometry-based calcium responses in response to mechanical stimulation, and reversed neuropathic and inflammatory pain across sexes in two different species without changes in sensory, sedative, depressive, and cognitive behaviors. CBD3063 is a selective, first-in-class, CRMP2-based peptidomimetic small molecule, which allosterically regulates Ca(v)2.2 to achieve analgesia and pain relief without negative side effect profiles. In summary, CBD3063 could potentially be a more effective alternative to GBP for pain relief.",
+    "keywords": [
+      "Cav2.2",
+      "analgesia",
+      "chronic pain",
+      "electrophysiology",
+      "peptidomimetic"
+    ],
+    "mesh_terms": [
+      "Rats",
+      "Animals",
+      "*Chronic Pain/drug therapy/metabolism",
+      "Rats, Sprague-Dawley",
+      "*Peptidomimetics/pharmacology",
+      "Calcium/metabolism",
+      "Calcium Channels, N-Type/genetics/metabolism",
+      "Sensory Receptor Cells/metabolism",
+      "Ganglia, Spinal/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gomez, Kimberly",
+        "Santiago, Ulises",
+        "Nelson, Tyler S",
+        "Allen, Heather N",
+        "Calderon-Rivera, Aida",
+        "Hestehave, Sara",
+        "Rodriguez Palma, Erick J",
+        "Zhou, Yuan",
+        "Duran, Paz",
+        "Loya-Lopez, Santiago",
+        "Zhu, Elaine",
+        "Kumar, Upasana",
+        "Shields, Rory",
+        "Koseli, Eda",
+        "McKiver, Bryan",
+        "Giuvelis, Denise",
+        "Zuo, Wanhong",
+        "Inyang, Kufreobong E",
+        "Dorame, Angie",
+        "Chefdeville, Aude",
+        "Ran, Dongzhi",
+        "Perez-Miller, Samantha",
+        "Lu, Yi",
+        "Liu, Xia",
+        "Handoko",
+        "Arora, Paramjit S",
+        "Patek, Marcel",
+        "Moutal, Aubin",
+        "Khanna, May",
+        "Hu, Huijuan",
+        "Laumet, Geoffroy",
+        "King, Tamara",
+        "Wang, Jing",
+        "Damaj, M Imad",
+        "Korczeniewska, Olga A",
+        "Camacho, Carlos J",
+        "Khanna, Rajesh"
+      ],
+      "short_names": [
+        "Gomez K",
+        "Santiago U",
+        "Nelson TS",
+        "Allen HN",
+        "Calderon-Rivera A",
+        "Hestehave S",
+        "Rodriguez Palma EJ",
+        "Zhou Y",
+        "Duran P",
+        "Loya-Lopez S",
+        "Zhu E",
+        "Kumar U",
+        "Shields R",
+        "Koseli E",
+        "McKiver B",
+        "Giuvelis D",
+        "Zuo W",
+        "Inyang KE",
+        "Dorame A",
+        "Chefdeville A",
+        "Ran D",
+        "Perez-Miller S",
+        "Lu Y",
+        "Liu X",
+        "Handoko",
+        "Arora PS",
+        "Patek M",
+        "Moutal A",
+        "Khanna M",
+        "Hu H",
+        "Laumet G",
+        "King T",
+        "Wang J",
+        "Damaj MI",
+        "Korczeniewska OA",
+        "Camacho CJ",
+        "Khanna R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1867-5041",
+        "ORCID: 0000-0002-0129-2848",
+        "ORCID: 0000-0002-1837-521X",
+        "ORCID: 0000-0002-9940-363X",
+        "ORCID: 0000-0001-8729-8636",
+        "ORCID: 0000-0003-2690-9100",
+        "ORCID: 0000-0002-2350-9374",
+        "ORCID: 0000-0002-4812-4024",
+        "ORCID: 0000-0002-1447-5803",
+        "ORCID: 0000-0002-0735-6945",
+        "ORCID: 0000-0002-4433-3080",
+        "ORCID: 0000-0001-5315-401X",
+        "ORCID: 0000-0002-2512-9252",
+        "ORCID: 0000-0002-9989-6374",
+        "ORCID: 0000-0003-2306-2514",
+        "ORCID: 0000-0001-6752-3592",
+        "ORCID: 0000-0001-8399-794X",
+        "ORCID: 0000-0003-1741-8529",
+        "ORCID: 0000-0002-9066-2969"
+      ],
+      "affiliations": [
+        "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+        "New York University Pain Research Center, New York, NY 10010.",
+        "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15261.",
+        "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+        "New York University Pain Research Center, New York, NY 10010.",
+        "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+        "New York University Pain Research Center, New York, NY 10010.",
+        "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+        "New York University Pain Research Center, New York, NY 10010.",
+        "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+        "New York University Pain Research Center, New York, NY 10010.",
+        "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+        "New York University Pain Research Center, New York, NY 10010.",
+        "Department of Pharmacology, College of Medicine, University of Arizona, Tucson, AZ 85724.",
+        "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+        "New York University Pain Research Center, New York, NY 10010.",
+        "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+        "New York University Pain Research Center, New York, NY 10010.",
+        "Department of Anesthesiology, Perioperative Care and Pain Medicine, New York University Grossman School of Medicine, New York, NY 10016.",
+        "Interdisciplinary Pain Research Program, New York University Langone Health, New York, NY 10016.",
+        "Department of Diagnostic Sciences, Center for Orofacial Pain and Temporomandibular Disorders, Rutgers School of Dental Medicine, Newark, NJ 07101.",
+        "Rutgers School of Graduate Studies, Newark Health Science Campus, Newark, NJ 07101.",
+        "Department of Pharmacology and Toxicology and Translational Research Initiative for Pain and Neuropathy, Virginia Commonwealth University, Richmond, VA 23298.",
+        "Department of Pharmacology and Toxicology and Translational Research Initiative for Pain and Neuropathy, Virginia Commonwealth University, Richmond, VA 23298.",
+        "Department of Biomedical Sciences, College of Osteopathic Medicine, Center for Excellence in the Neurosciences, University of New England, Biddeford, ME 04005.",
+        "Department of Anesthesiology, Rutgers New Jersey Medical School, Newark, NJ 07103.",
+        "Department of Physiology, Michigan State University, East Lansing, MI 48824.",
+        "Department of Pharmacology, College of Medicine, University of Arizona, Tucson, AZ 85724.",
+        "Department of Pharmacology, College of Medicine, University of Arizona, Tucson, AZ 85724.",
+        "Department of Pharmacology, School of Pharmacy, Chongqing Medical University, Chongqing 400016, China.",
+        "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+        "New York University Pain Research Center, New York, NY 10010.",
+        "Department of Pharmacology, School of Pharmacy, Chongqing Medical University, Chongqing 400016, China.",
+        "Department of Pharmacology, School of Pharmacy, Chongqing Medical University, Chongqing 400016, China.",
+        "Department of Chemistry, New York University, New York, NY 10003.",
+        "Department of Chemistry, New York University, New York, NY 10003.",
+        "Bright Rock Path Limited Liability Company, Tucson, AZ 85724.",
+        "Department of Pharmacology and Physiology, School of Medicine, St. Louis University, St. Louis, MO 63104.",
+        "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+        "New York University Pain Research Center, New York, NY 10010.",
+        "Department of Anesthesiology, Rutgers New Jersey Medical School, Newark, NJ 07103.",
+        "Department of Physiology, Michigan State University, East Lansing, MI 48824.",
+        "Department of Biomedical Sciences, College of Osteopathic Medicine, Center for Excellence in the Neurosciences, University of New England, Biddeford, ME 04005.",
+        "Department of Anesthesiology, Perioperative Care and Pain Medicine, New York University Grossman School of Medicine, New York, NY 10016.",
+        "Interdisciplinary Pain Research Program, New York University Langone Health, New York, NY 10016.",
+        "Department of Neuroscience and Physiology and Neuroscience Institute, School of Medicine, New York University, New York, NY 10010.",
+        "Department of Pharmacology and Toxicology and Translational Research Initiative for Pain and Neuropathy, Virginia Commonwealth University, Richmond, VA 23298.",
+        "Department of Diagnostic Sciences, Center for Orofacial Pain and Temporomandibular Disorders, Rutgers School of Dental Medicine, Newark, NJ 07101.",
+        "Rutgers School of Graduate Studies, Newark Health Science Campus, Newark, NJ 07101.",
+        "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15261.",
+        "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+        "New York University Pain Research Center, New York, NY 10010.",
+        "Department of Neuroscience and Physiology and Neuroscience Institute, School of Medicine, New York University, New York, NY 10010.",
+        "Chemical, and Biomolecular Engineering Department, Tandon School of Engineering, New York University, New York City, NY 11201."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gomez, Kimberly",
+        "short_name": "Gomez K",
+        "identifiers": [
+          "0000-0003-1867-5041"
+        ],
+        "affiliations": [
+          "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+          "New York University Pain Research Center, New York, NY 10010."
+        ]
+      },
+      {
+        "full_name": "Santiago, Ulises",
+        "short_name": "Santiago U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15261."
+        ]
+      },
+      {
+        "full_name": "Nelson, Tyler S",
+        "short_name": "Nelson TS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+          "New York University Pain Research Center, New York, NY 10010."
+        ]
+      },
+      {
+        "full_name": "Allen, Heather N",
+        "short_name": "Allen HN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+          "New York University Pain Research Center, New York, NY 10010."
+        ]
+      },
+      {
+        "full_name": "Calderon-Rivera, Aida",
+        "short_name": "Calderon-Rivera A",
+        "identifiers": [
+          "0000-0002-0129-2848"
+        ],
+        "affiliations": [
+          "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+          "New York University Pain Research Center, New York, NY 10010."
+        ]
+      },
+      {
+        "full_name": "Hestehave, Sara",
+        "short_name": "Hestehave S",
+        "identifiers": [
+          "0000-0002-1837-521X"
+        ],
+        "affiliations": [
+          "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+          "New York University Pain Research Center, New York, NY 10010."
+        ]
+      },
+      {
+        "full_name": "Rodríguez Palma, Erick J",
+        "short_name": "Rodríguez Palma EJ",
+        "identifiers": [
+          "0000-0002-9940-363X"
+        ],
+        "affiliations": [
+          "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+          "New York University Pain Research Center, New York, NY 10010."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yuan",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, College of Medicine, University of Arizona, Tucson, AZ 85724."
+        ]
+      },
+      {
+        "full_name": "Duran, Paz",
+        "short_name": "Duran P",
+        "identifiers": [
+          "0000-0001-8729-8636"
+        ],
+        "affiliations": [
+          "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+          "New York University Pain Research Center, New York, NY 10010."
+        ]
+      },
+      {
+        "full_name": "Loya-Lopez, Santiago",
+        "short_name": "Loya-Lopez S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+          "New York University Pain Research Center, New York, NY 10010."
+        ]
+      },
+      {
+        "full_name": "Zhu, Elaine",
+        "short_name": "Zhu E",
+        "identifiers": [
+          "0000-0003-2690-9100"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative Care and Pain Medicine, New York University Grossman School of Medicine, New York, NY 10016.",
+          "Interdisciplinary Pain Research Program, New York University Langone Health, New York, NY 10016."
+        ]
+      },
+      {
+        "full_name": "Kumar, Upasana",
+        "short_name": "Kumar U",
+        "identifiers": [
+          "0000-0002-2350-9374"
+        ],
+        "affiliations": [
+          "Department of Diagnostic Sciences, Center for Orofacial Pain and Temporomandibular Disorders, Rutgers School of Dental Medicine, Newark, NJ 07101."
+        ]
+      },
+      {
+        "full_name": "Shields, Rory",
+        "short_name": "Shields R",
+        "identifiers": [],
+        "affiliations": [
+          "Rutgers School of Graduate Studies, Newark Health Science Campus, Newark, NJ 07101."
+        ]
+      },
+      {
+        "full_name": "Koseli, Eda",
+        "short_name": "Koseli E",
+        "identifiers": [
+          "0000-0002-4812-4024"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology and Translational Research Initiative for Pain and Neuropathy, Virginia Commonwealth University, Richmond, VA 23298."
+        ]
+      },
+      {
+        "full_name": "McKiver, Bryan",
+        "short_name": "McKiver B",
+        "identifiers": [
+          "0000-0002-1447-5803"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology and Translational Research Initiative for Pain and Neuropathy, Virginia Commonwealth University, Richmond, VA 23298."
+        ]
+      },
+      {
+        "full_name": "Giuvelis, Denise",
+        "short_name": "Giuvelis D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Osteopathic Medicine, Center for Excellence in the Neurosciences, University of New England, Biddeford, ME 04005."
+        ]
+      },
+      {
+        "full_name": "Zuo, Wanhong",
+        "short_name": "Zuo W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Rutgers New Jersey Medical School, Newark, NJ 07103."
+        ]
+      },
+      {
+        "full_name": "Inyang, Kufreobong E",
+        "short_name": "Inyang KE",
+        "identifiers": [
+          "0000-0002-0735-6945"
+        ],
+        "affiliations": [
+          "Department of Physiology, Michigan State University, East Lansing, MI 48824."
+        ]
+      },
+      {
+        "full_name": "Dorame, Angie",
+        "short_name": "Dorame A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, College of Medicine, University of Arizona, Tucson, AZ 85724."
+        ]
+      },
+      {
+        "full_name": "Chefdeville, Aude",
+        "short_name": "Chefdeville A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, College of Medicine, University of Arizona, Tucson, AZ 85724."
+        ]
+      },
+      {
+        "full_name": "Ran, Dongzhi",
+        "short_name": "Ran D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Perez-Miller, Samantha",
+        "short_name": "Perez-Miller S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+          "New York University Pain Research Center, New York, NY 10010."
+        ]
+      },
+      {
+        "full_name": "Lu, Yi",
+        "short_name": "Lu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xia",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Pharmacy, Chongqing Medical University, Chongqing 400016, China."
+        ]
+      },
+      {
+        "full_name": "Handoko",
+        "short_name": "Handoko",
+        "identifiers": [
+          "0000-0002-4433-3080"
+        ],
+        "affiliations": [
+          "Department of Chemistry, New York University, New York, NY 10003."
+        ]
+      },
+      {
+        "full_name": "Arora, Paramjit S",
+        "short_name": "Arora PS",
+        "identifiers": [
+          "0000-0001-5315-401X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, New York University, New York, NY 10003."
+        ]
+      },
+      {
+        "full_name": "Patek, Marcel",
+        "short_name": "Patek M",
+        "identifiers": [
+          "0000-0002-2512-9252"
+        ],
+        "affiliations": [
+          "Bright Rock Path Limited Liability Company, Tucson, AZ 85724."
+        ]
+      },
+      {
+        "full_name": "Moutal, Aubin",
+        "short_name": "Moutal A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Physiology, School of Medicine, St. Louis University, St. Louis, MO 63104."
+        ]
+      },
+      {
+        "full_name": "Khanna, May",
+        "short_name": "Khanna M",
+        "identifiers": [
+          "0000-0002-9989-6374"
+        ],
+        "affiliations": [
+          "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+          "New York University Pain Research Center, New York, NY 10010."
+        ]
+      },
+      {
+        "full_name": "Hu, Huijuan",
+        "short_name": "Hu H",
+        "identifiers": [
+          "0000-0003-2306-2514"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology, Rutgers New Jersey Medical School, Newark, NJ 07103."
+        ]
+      },
+      {
+        "full_name": "Laumet, Geoffroy",
+        "short_name": "Laumet G",
+        "identifiers": [
+          "0000-0001-6752-3592"
+        ],
+        "affiliations": [
+          "Department of Physiology, Michigan State University, East Lansing, MI 48824."
+        ]
+      },
+      {
+        "full_name": "King, Tamara",
+        "short_name": "King T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, College of Osteopathic Medicine, Center for Excellence in the Neurosciences, University of New England, Biddeford, ME 04005."
+        ]
+      },
+      {
+        "full_name": "Wang, Jing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Anesthesiology, Perioperative Care and Pain Medicine, New York University Grossman School of Medicine, New York, NY 10016.",
+          "Interdisciplinary Pain Research Program, New York University Langone Health, New York, NY 10016.",
+          "Department of Neuroscience and Physiology and Neuroscience Institute, School of Medicine, New York University, New York, NY 10010."
+        ]
+      },
+      {
+        "full_name": "Damaj, M Imad",
+        "short_name": "Damaj MI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Toxicology and Translational Research Initiative for Pain and Neuropathy, Virginia Commonwealth University, Richmond, VA 23298."
+        ]
+      },
+      {
+        "full_name": "Korczeniewska, Olga A",
+        "short_name": "Korczeniewska OA",
+        "identifiers": [
+          "0000-0001-8399-794X"
+        ],
+        "affiliations": [
+          "Department of Diagnostic Sciences, Center for Orofacial Pain and Temporomandibular Disorders, Rutgers School of Dental Medicine, Newark, NJ 07101.",
+          "Rutgers School of Graduate Studies, Newark Health Science Campus, Newark, NJ 07101."
+        ]
+      },
+      {
+        "full_name": "Camacho, Carlos J",
+        "short_name": "Camacho CJ",
+        "identifiers": [
+          "0000-0003-1741-8529"
+        ],
+        "affiliations": [
+          "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15261."
+        ]
+      },
+      {
+        "full_name": "Khanna, Rajesh",
+        "short_name": "Khanna R",
+        "identifiers": [
+          "0000-0002-9066-2969"
+        ],
+        "affiliations": [
+          "Department of Molecular Pathobiology, College of Dentistry, New York University, New York, NY 10010.",
+          "New York University Pain Research Center, New York, NY 10010.",
+          "Department of Neuroscience and Physiology and Neuroscience Institute, School of Medicine, New York University, New York, NY 10010.",
+          "Chemical, and Biomolecular Engineering Department, Tandon School of Engineering, New York University, New York City, NY 11201."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 Nov 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/17 15:24",
+    "fetched_at": "2026-09-21 02:50:54"
+  },
+  "links": {
+    "cites": [
+      "42511986",
+      "41884154",
+      "41710970",
+      "41511304",
+      "41092810",
+      "40895114",
+      "40759564",
+      "40660291",
+      "40642387",
+      "40579839",
+      "40566541",
+      "40520015",
+      "40487899",
+      "40444024",
+      "39720155",
+      "39656529",
+      "39276308",
+      "39233208",
+      "39106443",
+      "39022365",
+      "38948724",
+      "38895294"
+    ],
+    "refs": [
+      "36343228",
+      "35762989",
+      "35671441",
+      "34819636",
+      "34396549",
+      "33416017",
+      "33239627",
+      "31607850",
+      "31308225",
+      "30933958",
+      "30915713",
+      "30871964",
+      "30538200",
+      "30487217",
+      "29709527",
+      "29440821",
+      "28277940",
+      "28161890",
+      "27940916",
+      "26479676",
+      "26362469",
+      "25782368",
+      "25592638",
+      "24837843",
+      "24474686",
+      "23836888",
+      "23098566",
+      "23022559",
+      "22828369",
+      "22187436",
+      "21642979",
+      "21434879",
+      "20439438",
+      "20298215",
+      "19903690",
+      "19755421",
+      "18299583",
+      "17428562",
+      "17038030",
+      "15530640",
+      "15269345",
+      "15212625",
+      "14965208",
+      "14750968",
+      "12444477",
+      "12242089",
+      "12161429",
+      "11856971",
+      "11520183",
+      "11496122",
+      "11350923",
+      "11069598",
+      "9777739",
+      "8814901",
+      "8621722",
+      "8014856",
+      "2410796"
+    ],
+    "similar": [
+      "37972067",
+      "39022365",
+      "25782368",
+      "39233208",
+      "40487899",
+      "27537210",
+      "28161890",
+      "39656529",
+      "24152582",
+      "31025580",
+      "31118475",
+      "29655575",
+      "22891239",
+      "28767512",
+      "26967696",
+      "38895294",
+      "19903690",
+      "30565051",
+      "31359322",
+      "30946560",
+      "29198756",
+      "25878262",
+      "37751532",
+      "23510938",
+      "23831344",
+      "29847471",
+      "30933958",
+      "38531121",
+      "30169422",
+      "22828369",
+      "29343689",
+      "21829088",
+      "21050074",
+      "31697467",
+      "29709527",
+      "28809766",
+      "30104341",
+      "21642979",
+      "24889613",
+      "26887818",
+      "35341732",
+      "24582401",
+      "24755485",
+      "25846820",
+      "34353899",
+      "19170253",
+      "27823926",
+      "23106100",
+      "23022559",
+      "37862053",
+      "24474686",
+      "31995173",
+      "24628243",
+      "30487217",
+      "26247695",
+      "27629721",
+      "19755421",
+      "25839150",
+      "29335317",
+      "22617008",
+      "38157867",
+      "32571373",
+      "35029600",
+      "20439438",
+      "36245395",
+      "34738241",
+      "11799505",
+      "30355767",
+      "25425625",
+      "25681549",
+      "33054557",
+      "18471074",
+      "30961679",
+      "27917413",
+      "30404013",
+      "24369063",
+      "35050960",
+      "35267086",
+      "16049174",
+      "19850918",
+      "19892914",
+      "17602741",
+      "25516596",
+      "25195871",
+      "30871964",
+      "23843437",
+      "32569093",
+      "40619088",
+      "26702867",
+      "30397133",
+      "26708163",
+      "25218964",
+      "35420557",
+      "33416017",
+      "33986433",
+      "35842727",
+      "14749424",
+      "36540890",
+      "28837380",
+      "36754911"
+    ],
+    "review": [
+      "37972067",
+      "39022365"
+    ],
+    "pmc": [
+      "10666126"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2305215120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/chronicpain.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Chronic Pain"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37972067/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37972067",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LGALS1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

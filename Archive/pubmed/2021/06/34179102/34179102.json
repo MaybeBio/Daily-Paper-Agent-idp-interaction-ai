@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "34179102",
+    "doi": "10.3389/fmolb.2021.698182",
+    "title": "Progressive Phosphorylation Modulates the Self-Association of a Variably Modified Histone H3 Peptide."
+  },
+  "content": {
+    "abstract": "Protein phosphorylation is a key regulatory mechanism in eukaryotic cells. In the intrinsically disordered histone tails, phosphorylation is often a part of combinatorial post-translational modifications and an integral part of the \"histone code\" that regulates gene expression. Here, we study the association between two histone H3 tail peptides modified to different degrees, using fully atomistic molecular dynamics simulations. Assuming that the initial conformations are either alpha-helical or fully extended, we compare the propensity of the two peptides to associate with one another when both are unmodified, one modified and the other unmodified, or both modified. The simulations lead to the identification of distinct inter- and intramolecular interactions in the peptide dimer, highlighting a prominent role of a fine-tuned phosphorylation rheostat in peptide association. Progressive phosphorylation appears to modulate peptide charge, inducing strong and specific intermolecular interactions between the monomers, which do not result in the formation of amorphous or ordered aggregates, as documented by experimental evidence derived from Circular Dichroism and NMR spectroscopy. However, upon complete saturation of positive charges by phosphate groups, this effect is reversed: intramolecular interactions prevail and dimerization of zero-charge peptides is markedly reduced. These findings underscore the role of phosphorylation thresholds in the dynamics of intrinsically disordered proteins. Phosphorylation rheostats might account for the divergent effects of histone modifications on the modulation of chromatin structure.",
+    "keywords": [
+      "NMR",
+      "chromatin",
+      "histone",
+      "intrinsically disordered proteins",
+      "molecular dynamics",
+      "peptide structure",
+      "post-translational modification",
+      "protein phosphorylation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Papamokos, George V",
+        "Tziatzos, George",
+        "Papageorgiou, Dimitrios G",
+        "Georgatos, Spyros",
+        "Kaxiras, Efthimios",
+        "Politou, Anastasia S"
+      ],
+      "short_names": [
+        "Papamokos GV",
+        "Tziatzos G",
+        "Papageorgiou DG",
+        "Georgatos S",
+        "Kaxiras E",
+        "Politou AS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biomedical Division, The Institute of Molecular Biology and Biotechnology, FORTH-ITE, Ioannina, Greece.",
+        "Department of Physics and School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, United States.",
+        "Laboratory of Biological Chemistry, Medical School, University of Ioannina, Ioannina, Greece.",
+        "Department of Materials Science and Engineering, University of Ioannina, Ioannina, Greece.",
+        "Department of Materials Science and Engineering, University of Ioannina, Ioannina, Greece.",
+        "Biomedical Division, The Institute of Molecular Biology and Biotechnology, FORTH-ITE, Ioannina, Greece.",
+        "Laboratory of Biology, School of Medicine, University of Ioannina, Ioannina, Greece.",
+        "Department of Physics and School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, United States.",
+        "Biomedical Division, The Institute of Molecular Biology and Biotechnology, FORTH-ITE, Ioannina, Greece.",
+        "Laboratory of Biological Chemistry, Medical School, University of Ioannina, Ioannina, Greece."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Papamokos, George V",
+        "short_name": "Papamokos GV",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Division, The Institute of Molecular Biology and Biotechnology, FORTH-ITE, Ioannina, Greece.",
+          "Department of Physics and School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, United States.",
+          "Laboratory of Biological Chemistry, Medical School, University of Ioannina, Ioannina, Greece."
+        ]
+      },
+      {
+        "full_name": "Tziatzos, George",
+        "short_name": "Tziatzos G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Materials Science and Engineering, University of Ioannina, Ioannina, Greece."
+        ]
+      },
+      {
+        "full_name": "Papageorgiou, Dimitrios G",
+        "short_name": "Papageorgiou DG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Materials Science and Engineering, University of Ioannina, Ioannina, Greece."
+        ]
+      },
+      {
+        "full_name": "Georgatos, Spyros",
+        "short_name": "Georgatos S",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Division, The Institute of Molecular Biology and Biotechnology, FORTH-ITE, Ioannina, Greece.",
+          "Laboratory of Biology, School of Medicine, University of Ioannina, Ioannina, Greece."
+        ]
+      },
+      {
+        "full_name": "Kaxiras, Efthimios",
+        "short_name": "Kaxiras E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, United States."
+        ]
+      },
+      {
+        "full_name": "Politou, Anastasia S",
+        "short_name": "Politou AS",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Division, The Institute of Molecular Biology and Biotechnology, FORTH-ITE, Ioannina, Greece.",
+          "Laboratory of Biological Chemistry, Medical School, University of Ioannina, Ioannina, Greece."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/29 06:00",
+    "fetched_at": "2026-09-20 04:02:18"
+  },
+  "links": {
+    "cites": [
+      "41403695",
+      "40305347",
+      "37521912",
+      "36350035",
+      "36199288",
+      "35720189",
+      "34681718"
+    ],
+    "refs": [
+      "29466338",
+      "28250014",
+      "27926874",
+      "27807972",
+      "27538025",
+      "27387657",
+      "27010073",
+      "26726824",
+      "26675328",
+      "26578568",
+      "26555135",
+      "26498855",
+      "26226339",
+      "25688442",
+      "25625571",
+      "25538301",
+      "25533957",
+      "25531225",
+      "25488929",
+      "25450216",
+      "25038412",
+      "24896311",
+      "24673507",
+      "24606139",
+      "23901099",
+      "22948226",
+      "22796964",
+      "22768949",
+      "22744607",
+      "22467876",
+      "22385861",
+      "22253588",
+      "22034591",
+      "21884974",
+      "21272588",
+      "20813257",
+      "20639465",
+      "20404210",
+      "20190764",
+      "19622635",
+      "19506251",
+      "19039133",
+      "18619997",
+      "18054235",
+      "17522259",
+      "17243818",
+      "16981200",
+      "16571659",
+      "16301309",
+      "16246723",
+      "16222654",
+      "16222554",
+      "15994560",
+      "15859589",
+      "15738986",
+      "11734846",
+      "11057899",
+      "10638745",
+      "10217454",
+      "8744570",
+      "1390666"
+    ],
+    "similar": [
+      "34179102",
+      "26778125",
+      "25905561",
+      "27098855",
+      "28864776",
+      "23150245",
+      "25330109",
+      "22174274",
+      "32933064",
+      "33598107",
+      "25942635",
+      "18192367",
+      "39186607",
+      "29077417",
+      "28353152",
+      "33309853",
+      "33443163",
+      "32747537",
+      "17403666",
+      "24740714",
+      "29648537",
+      "11838236",
+      "16222246",
+      "21517079",
+      "29133117",
+      "31387991",
+      "30865832",
+      "32050065",
+      "32083791",
+      "31632982",
+      "32073728",
+      "16094450",
+      "12697747",
+      "12893172",
+      "15855410",
+      "26699921",
+      "15485804",
+      "16185068",
+      "26851279",
+      "26742101",
+      "15100215",
+      "32123956",
+      "12917355",
+      "4087298",
+      "33030907",
+      "19242092",
+      "17687328",
+      "21243718",
+      "32850821",
+      "10949293",
+      "12595522",
+      "16936834",
+      "27975243",
+      "34123170",
+      "26967163",
+      "30391375",
+      "18796537",
+      "17320987",
+      "29655483",
+      "10982840",
+      "12805238"
+    ],
+    "review": [
+      "34179102",
+      "27098855",
+      "23150245",
+      "33309853",
+      "11838236",
+      "16094450",
+      "15855410",
+      "26851279",
+      "12917355",
+      "19242092",
+      "21243718",
+      "32850821",
+      "16936834",
+      "30391375"
+    ],
+    "pmc": [
+      "8226166"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34179102/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34179102",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2021.698182",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

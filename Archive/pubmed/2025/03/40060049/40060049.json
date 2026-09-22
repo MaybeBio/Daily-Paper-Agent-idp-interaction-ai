@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "40060049",
+    "doi": "10.21203/rs.3.rs-5932820/v1",
+    "title": "Optimal scaling of protein-water interactions coupled with targeted torsional refinements yields balanced force fields suitable for simulations of single-chain folded proteins, disordered polypeptides, and protein-protein complexes."
+  },
+  "content": {
+    "abstract": "All-atom molecular dynamics (MD) simulations based on physics-based force fields, serve as an essential complement to experiments for investigating protein structure, dynamics, and interactions. Despite significant advances in force field development, achieving a consistent balance of molecular interactions that stabilize folded proteins and protein-protein complexes while simultaneously capturing the conformational dynamics of intrinsically disordered polypeptides (IDPs), remains challenging. In this work, we systematically evaluated two current state-of-the-art force fields (i) AMBER ff03ws, and (ii) AMBER ff99SBws, by comprehensively assessing their performance on both folded domains and IDPs. By selectively scaling side chain-water interactions for uncharged residues, the refined AMBER ff03w-sc force field demonstrated improved conformational stability of folded proteins while maintaining accurate representations of IDPs. However, AMBER ff03w-sc failed to correct the discrepancies in NMR-derived ps-ns timescale backbone dynamics associated with flexible loops. Interestingly, AMBER ff99SBws retained its structural stability despite the application of upscaled interactions with water for both sidechain and backbone atoms and displayed robust agreement with NMR-derived backbone dynamics. Further, a targeted refinement of glutamine backbone torsion parameters, yielded AMBER ff99SBws-STQ', which effectively resolved discrepancies associated with glutamine alpha-helicity predictions. Extensive validation against small angle X-ray scattering (SAXS) and NMR chemical shifts, revealed that both refined force fields accurately reproduced chain dimensions and secondary structure propensities of disordered peptides and prion-like domains. Importantly, both force fields reliably maintained the stability of protein-protein complexes over microsecond timescales. Our systematic refinement strategies provide improved accuracy and transferability for simulating diverse protein systems, from folded domains to IDPs and protein complexes.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mittal, Jeetain",
+        "Phan, Tien",
+        "Mohanty, Priyesh"
+      ],
+      "short_names": [
+        "Mittal J",
+        "Phan T",
+        "Mohanty P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Texas A&M University.",
+        "Texas A&M University.",
+        "Texas A&M University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Texas A&M University."
+        ]
+      },
+      {
+        "full_name": "Phan, Tien",
+        "short_name": "Phan T",
+        "identifiers": [],
+        "affiliations": [
+          "Texas A&M University."
+        ]
+      },
+      {
+        "full_name": "Mohanty, Priyesh",
+        "short_name": "Mohanty P",
+        "identifiers": [],
+        "affiliations": [
+          "Texas A&M University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Research square"
+    ],
+    "journal_abbrev": [
+      "Res Sq"
+    ],
+    "pub_date": "2025 Feb 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/10 17:18",
+    "fetched_at": "2026-09-21 16:32:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40289673",
+      "39437158",
+      "38655711",
+      "38592759",
+      "38492239",
+      "38465679",
+      "38160320",
+      "37579155",
+      "37459524",
+      "37133846",
+      "36537242",
+      "35802394",
+      "35129612",
+      "34025949",
+      "33833657",
+      "33725442",
+      "33174726",
+      "33078950",
+      "32929427",
+      "32402249",
+      "32132204",
+      "31914313",
+      "31714766",
+      "31657215",
+      "31363226",
+      "30990694",
+      "30865832",
+      "30049874",
+      "29735687",
+      "29648448",
+      "29547221",
+      "29359503",
+      "29319301",
+      "29080468",
+      "28945358",
+      "28915352",
+      "28808438",
+      "28790177",
+      "28651056",
+      "27819658",
+      "27787702",
+      "27617340",
+      "27082121",
+      "26632962",
+      "26619985",
+      "26606367",
+      "26588950",
+      "26580780",
+      "26575776",
+      "26574392",
+      "26574339",
+      "26030189",
+      "25764013",
+      "25400877",
+      "25400522",
+      "25358113",
+      "24854339",
+      "24706910",
+      "24702709",
+      "23503848",
+      "23341755",
+      "22577825",
+      "22492978",
+      "22443635",
+      "22384157",
+      "22360139",
+      "22082669",
+      "21539772",
+      "21234644",
+      "21038907",
+      "20866953",
+      "20628786",
+      "19514729",
+      "19033473",
+      "18456823",
+      "16643946",
+      "16392929",
+      "15369375",
+      "15267980",
+      "11960483",
+      "8744570",
+      "8043575",
+      "6667333",
+      "6414511",
+      "6210373",
+      "4856347"
+    ],
+    "similar": [
+      "40060049",
+      "41298416",
+      "33078950",
+      "40907012",
+      "30840442",
+      "40654645",
+      "32816485",
+      "40534127",
+      "40842365",
+      "31914313",
+      "31657215",
+      "29735687",
+      "20825228",
+      "23912807",
+      "33382616",
+      "33444020",
+      "32859072",
+      "30250773",
+      "42475469",
+      "35694853",
+      "30878202",
+      "26575776",
+      "36468450",
+      "39536029",
+      "34152264",
+      "26020564",
+      "31613621",
+      "26910732",
+      "15959866",
+      "25719206",
+      "34185520",
+      "20408171",
+      "21038907",
+      "25207671",
+      "24815738",
+      "31877033",
+      "27300587",
+      "28448138",
+      "38928405",
+      "35377637",
+      "25400522",
+      "29808548",
+      "31552948",
+      "41480867",
+      "28095698",
+      "29235155",
+      "40172236",
+      "26990788",
+      "33459730",
+      "24589355",
+      "42240685",
+      "39651234",
+      "41073429",
+      "32585849",
+      "42299722",
+      "33591749",
+      "32050065",
+      "31241933",
+      "39499823",
+      "26574339",
+      "31402649",
+      "32113361",
+      "42370432",
+      "37134270",
+      "39979079",
+      "32227937",
+      "10686106",
+      "29790608",
+      "33810353",
+      "37646172",
+      "38486445",
+      "41725507",
+      "29548755",
+      "30865832",
+      "26589046",
+      "36131545",
+      "34546059",
+      "34025949",
+      "19754142",
+      "30933517",
+      "36798393",
+      "31528808",
+      "30514082",
+      "24459460",
+      "29186229",
+      "22754404",
+      "28688107",
+      "40766644",
+      "33968988",
+      "41979361",
+      "30979035",
+      "34524800",
+      "33307679",
+      "30204435",
+      "26030189",
+      "23197420",
+      "28319659",
+      "34032235",
+      "37452752",
+      "16805629"
+    ],
+    "review": [
+      "40060049",
+      "30840442",
+      "33591749",
+      "41725507"
+    ],
+    "pmc": [
+      "11888540"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40060049/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21203/rs.3.rs-5932820/v1",
+        "provider": "Research Square",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

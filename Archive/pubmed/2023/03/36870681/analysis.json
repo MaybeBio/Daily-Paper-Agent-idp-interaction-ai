@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36870681",
+  "title": "NMR characterization of an assembling RHIM (RIP homotypic interaction motif) amyloid reveals a cryptic region for self-recognition.",
+  "authors": "Pham, Chi L L; Titaux-Delgado, Gustavo A; Varghese, Nikhil R; Polonio, Paula; Wilde, Karyn L; Sunde, Margaret; Mompean, Miguel",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2023-03-05",
+  "window": {
+    "start": "2023-02-27",
+    "end": "2023-03-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用溶液NMR表征RIPK3中RHIM单体为无序蛋白，并揭示组装中涉及RHIM外20残基的构象动态，虽聚焦IDP与组装机制，但方法为实验NMR而非AI/物理模拟，互作机制建模深度有限。",
+  "abstract": "The RIP homotypic interaction motif (RHIM) is an essential protein motif in inflammatory signaling and certain cell death pathways. RHIM signaling occurs following the assembly of functional amyloids, and while the structural biology of such higher-order RHIM complexes has started to emerge, the conformations and dynamics of nonassembled RHIMs remain unknown. Here, using solution NMR spectroscopy, we report the characterization of the monomeric form of the RHIM in receptor-interacting protein kinase 3 (RIPK3), a fundamental protein in human immunity. Our results establish that the RHIM of RIPK3 is an intrinsically disordered protein motif, contrary to prediction, and that exchange dynamics between free monomers and amyloid-bound RIPK3 monomers involve a 20-residue stretch outside the RHIM that is not incorporated within the structured cores of the RIPK3 assemblies determined by cryo-EM or solid-state NMR. Thus, our findings expand on the structural characterization of RHIM-containing proteins, specifically highlighting conformational dynamics involved in assembly processes.",
+  "abstract_zh": "RIP同型相互作用基序（RHIM）是炎症信号传导及某些细胞死亡通路中的关键蛋白基序。RHIM信号传导发生在功能性淀粉样蛋白组装之后，尽管此类高阶RHIM复合物的结构生物学研究已开始显现，但未组装的RHIM的构象和动态仍属未知。在此，我们利用溶液核磁共振波谱（NMR spectroscopy），报告了受体相互作用蛋白激酶3（RIPK3）中RHIM单体形式的表征，该蛋白在人类免疫中具有基础性作用。我们的结果表明，RIPK3的RHIM是一个内在无序蛋白基序，与预测相反，且自由单体与淀粉样蛋白结合的RIPK3单体之间的交换动态涉及RHIM外的一段20个残基序列，该序列未包含在通过冷冻电镜（cryo-EM）或固态核磁共振确定的RIPK3组装体的结构化核心中。因此，我们的发现扩展了对含RHIM蛋白的结构表征，特别强调了组装过程中涉及的构象动态。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36870681/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36870681/",
+  "paper_page_path": "papers/pubmed/36870681/index.html"
+}

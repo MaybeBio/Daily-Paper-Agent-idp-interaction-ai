@@ -1,0 +1,423 @@
+{
+  "identity": {
+    "pmid": "39663388",
+    "doi": "10.1038/s41467-024-55089-x",
+    "title": "PICNIC accurately predicts condensate-forming proteins regardless of their structural disorder across organisms."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are membraneless organelles that can concentrate hundreds of different proteins in cells to operate essential biological functions. However, accurate identification of their components remains challenging and biased towards proteins with high structural disorder content with focus on self-phase separating (driver) proteins. Here, we present a machine learning algorithm, PICNIC (Proteins Involved in CoNdensates In Cells) to classify proteins that localize to biomolecular condensates regardless of their role in condensate formation. PICNIC successfully predicts condensate members by learning amino acid patterns in the protein sequence and structure in addition to the intrinsic disorder. Extensive experimental validation of 24 positive predictions in cellulo shows an overall ~82% accuracy regardless of the structural disorder content of the tested proteins. While increasing disorder content is associated with organismal complexity, our analysis of 26 species reveals no correlation between predicted condensate proteome content and disorder content across organisms. Overall, we present a machine learning classifier to interrogate condensate components at whole-proteome levels across the tree of life.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Biomolecular Condensates/metabolism/chemistry",
+      "Algorithms",
+      "Proteome/metabolism",
+      "Animals",
+      "Humans",
+      "Amino Acid Sequence",
+      "Proteins/metabolism/chemistry",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hadarovich, Anna",
+        "Singh, Hari Raj",
+        "Ghosh, Soumyadeep",
+        "Scheremetjew, Maxim",
+        "Rostam, Nadia",
+        "Hyman, Anthony A",
+        "Toth-Petroczy, Agnes"
+      ],
+      "short_names": [
+        "Hadarovich A",
+        "Singh HR",
+        "Ghosh S",
+        "Scheremetjew M",
+        "Rostam N",
+        "Hyman AA",
+        "Toth-Petroczy A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4691-3636",
+        "ORCID: 0000-0003-0851-704X",
+        "ORCID: 0000-0002-0333-604X"
+      ],
+      "affiliations": [
+        "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany.",
+        "Center for Systems Biology Dresden, 01307, Dresden, Germany.",
+        "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany.",
+        "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany.",
+        "Center for Systems Biology Dresden, 01307, Dresden, Germany.",
+        "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany.",
+        "Center for Systems Biology Dresden, 01307, Dresden, Germany.",
+        "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany.",
+        "Center for Systems Biology Dresden, 01307, Dresden, Germany.",
+        "Department of Biology, College of Science, University of Sulaimani, Sulaymaniyah, Iraq.",
+        "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany.",
+        "Center for Systems Biology Dresden, 01307, Dresden, Germany.",
+        "Department of Biology, College of Science, University of Sulaimani, Sulaymaniyah, Iraq.",
+        "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany. toth-petroczy@mpi-cbg.de.",
+        "Center for Systems Biology Dresden, 01307, Dresden, Germany. toth-petroczy@mpi-cbg.de.",
+        "Cluster of Excellence Physics of Life, TU Dresden, 01062, Dresden, Germany. toth-petroczy@mpi-cbg.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hadarovich, Anna",
+        "short_name": "Hadarovich A",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany.",
+          "Center for Systems Biology Dresden, 01307, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Singh, Hari Raj",
+        "short_name": "Singh HR",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Soumyadeep",
+        "short_name": "Ghosh S",
+        "identifiers": [
+          "0000-0002-4691-3636"
+        ],
+        "affiliations": [
+          "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany.",
+          "Center for Systems Biology Dresden, 01307, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Scheremetjew, Maxim",
+        "short_name": "Scheremetjew M",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany.",
+          "Center for Systems Biology Dresden, 01307, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Rostam, Nadia",
+        "short_name": "Rostam N",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany.",
+          "Center for Systems Biology Dresden, 01307, Dresden, Germany.",
+          "Department of Biology, College of Science, University of Sulaimani, Sulaymaniyah, Iraq."
+        ]
+      },
+      {
+        "full_name": "Hyman, Anthony A",
+        "short_name": "Hyman AA",
+        "identifiers": [
+          "0000-0003-0851-704X"
+        ],
+        "affiliations": [
+          "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany.",
+          "Center for Systems Biology Dresden, 01307, Dresden, Germany.",
+          "Department of Biology, College of Science, University of Sulaimani, Sulaymaniyah, Iraq."
+        ]
+      },
+      {
+        "full_name": "Toth-Petroczy, Agnes",
+        "short_name": "Toth-Petroczy A",
+        "identifiers": [
+          "0000-0002-0333-604X"
+        ],
+        "affiliations": [
+          "Max Planck Institute of Molecular Cell Biology and Genetics, 01307, Dresden, Germany. toth-petroczy@mpi-cbg.de.",
+          "Center for Systems Biology Dresden, 01307, Dresden, Germany. toth-petroczy@mpi-cbg.de.",
+          "Cluster of Excellence Physics of Life, TU Dresden, 01062, Dresden, Germany. toth-petroczy@mpi-cbg.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Dec 11",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/12 00:24",
+    "fetched_at": "2026-09-21 13:38:43"
+  },
+  "links": {
+    "cites": [
+      "42517611",
+      "42425985",
+      "42310761",
+      "42288507",
+      "42231907",
+      "42204980",
+      "42190015",
+      "42184109",
+      "42159250",
+      "41721403",
+      "41481439",
+      "41337585",
+      "41325268",
+      "41265448",
+      "41232529",
+      "41207295",
+      "41118627",
+      "41066626",
+      "40867524",
+      "40629388",
+      "40557772",
+      "40524024",
+      "40396357",
+      "40196562",
+      "39979996"
+    ],
+    "refs": [
+      "38459060",
+      "37024650",
+      "36416085",
+      "36344848",
+      "36028355",
+      "35974095",
+      "35687670",
+      "35610022",
+      "35301494",
+      "35271311",
+      "35168563",
+      "34791371",
+      "34391803",
+      "34321199",
+      "34293799",
+      "34265844",
+      "34020549",
+      "33827920",
+      "33774037",
+      "33535034",
+      "33357399",
+      "33318217",
+      "33290552",
+      "33237286",
+      "33169001",
+      "33139563",
+      "32632317",
+      "32514159",
+      "32494070",
+      "32359423",
+      "32302571",
+      "32112804",
+      "32029630",
+      "31974256",
+      "31906602",
+      "31691822",
+      "31612960",
+      "31584089",
+      "31430179",
+      "31252218",
+      "31171700",
+      "30682370",
+      "30099028",
+      "29961577",
+      "29944854",
+      "29860432",
+      "29517898",
+      "29424691",
+      "29373831",
+      "28965817",
+      "28935776",
+      "27892958",
+      "27320918",
+      "26777405",
+      "25784353",
+      "24773235",
+      "24702702",
+      "22743772",
+      "22182830",
+      "18984612",
+      "16732559",
+      "15635413",
+      "15215436",
+      "12910457",
+      "12687005",
+      "10802651"
+    ],
+    "similar": [
+      "39663388",
+      "39826710",
+      "38987300",
+      "34090478",
+      "39827079",
+      "39232584",
+      "38824391",
+      "39987501",
+      "33535034",
+      "38499848",
+      "39271032",
+      "34716273",
+      "39510346",
+      "37020020",
+      "39537752",
+      "39390911",
+      "40069234",
+      "35687670",
+      "34390736",
+      "38832749",
+      "39929988",
+      "39947751",
+      "34767801",
+      "34916288",
+      "40136009",
+      "36979462",
+      "38885177",
+      "39042834",
+      "40325419",
+      "35179885",
+      "38383656",
+      "39303698",
+      "37464880",
+      "38698644",
+      "34129784",
+      "39356108",
+      "40195042",
+      "39134696",
+      "39725032",
+      "39486437",
+      "34862761",
+      "39928699",
+      "40172489",
+      "40028898",
+      "39271915",
+      "34772787",
+      "39326881",
+      "38848869",
+      "34290238",
+      "38360555",
+      "39433596",
+      "34598583",
+      "40327693",
+      "40113768",
+      "37162152",
+      "28934129",
+      "37735186",
+      "34890409",
+      "38936257",
+      "36004748",
+      "39434494",
+      "39196930",
+      "36269080",
+      "39856105",
+      "39138204",
+      "34624295",
+      "34772789",
+      "38773325",
+      "34655689",
+      "39824169",
+      "33934561",
+      "37470705",
+      "36163138",
+      "39620362",
+      "30926670",
+      "24939692",
+      "37468629",
+      "34865286",
+      "28369666",
+      "39260373",
+      "23466039",
+      "37735903",
+      "29511089",
+      "35881789",
+      "37770423",
+      "18831774",
+      "34291921",
+      "39675392",
+      "39400294",
+      "38226524",
+      "34905768",
+      "31444270",
+      "36702825",
+      "37549257",
+      "27085142",
+      "32456986",
+      "39383002",
+      "30002402",
+      "36350034",
+      "37770422"
+    ],
+    "review": [
+      "39663388",
+      "39827079",
+      "39271032",
+      "34390736",
+      "39947751",
+      "34767801",
+      "38885177",
+      "40325419",
+      "35179885",
+      "39303698",
+      "37464880",
+      "38698644",
+      "34129784",
+      "40195042",
+      "39134696",
+      "40172489",
+      "34772787",
+      "39326881",
+      "38360555",
+      "39433596",
+      "38936257",
+      "36269080",
+      "34772789",
+      "38773325",
+      "39824169",
+      "33934561",
+      "34865286",
+      "23466039",
+      "37735903",
+      "34291921",
+      "39675392",
+      "31444270",
+      "32456986"
+    ],
+    "pmc": [
+      "11634905"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-55089-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39663388/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39663388",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

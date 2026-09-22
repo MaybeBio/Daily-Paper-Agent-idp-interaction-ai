@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "33770266",
+    "doi": "10.1186/s13568-021-01208-6",
+    "title": "Design of a novel antimicrobial peptide 1018M targeted ppGpp to inhibit MRSA biofilm formation."
+  },
+  "content": {
+    "abstract": "Methicillin-resistant staphylococcus aureus (MRSA) and its biofilm infection were considered as one of the main international health issues. There are still many challenges for treatment using traditional antibiotics. In this study, a mutant peptide of innate defense regulator (IDR-)1018 named 1018M was designed based on molecular docking and amino acid substitution technology. The antibacterial/biofilm activity and mechanisms against MRSA of 1018M were investigated for the first time. The minimum inhibitory concentration (MIC) of 1018M was reduced 1 time (MIC = 2 mug/mL) compared to IDR-1018. After treatment with 32 mug/mL 1018M for 24 h, the percentage of biofilm decreased by 78.9%, which was more effective than the parental peptide. The results of mechanisms exploration showed that 1018M was more potent than IDR-1018 at destructing bacterial cell wall, permeating cell membrane (20.4%-50.1% vs 1.45%-10.6%) and binding to stringent response signaling molecule ppGpp (increased 27.9%). Additionally, the peptides could also exert their activity by disrupting genomic DNA, regulating the expression of ppGpp metabolism and biofilm forming related genes (RSH, relP, relQ, rsbU, sigB, spA, codY, agrA and icaD). Moreover, the higher temperature, pH and pepsase stabilities provide 1018M better processing, storage and internal environmental tolerance. These data indicated that 1018M may be a potential candidate peptide for the treatment of MRSA and its biofilm infections.",
+    "keywords": [
+      "Antibacterial",
+      "Antibiofilm",
+      "Antimicrobial peptide 1018M",
+      "MRSA",
+      "Mechanisms",
+      "PpGpp"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jiale, Zhou",
+        "Jian, Jiao",
+        "Xinyi, Tan",
+        "Haoji, Xie",
+        "Xueqin, Huang",
+        "Xiao, Wang"
+      ],
+      "short_names": [
+        "Jiale Z",
+        "Jian J",
+        "Xinyi T",
+        "Haoji X",
+        "Xueqin H",
+        "Xiao W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5579-9759"
+      ],
+      "affiliations": [
+        "Immunology Innovation Team, School of Medicine, Ningbo University, University, 818 Fenghua St., Jiangbei District, Ningbo, 315211, Zhejiang, China.",
+        "Department of biomedicine, Beijing City University, Beijing, 100094, China.",
+        "Immunology Innovation Team, School of Medicine, Ningbo University, University, 818 Fenghua St., Jiangbei District, Ningbo, 315211, Zhejiang, China.",
+        "Immunology Innovation Team, School of Medicine, Ningbo University, University, 818 Fenghua St., Jiangbei District, Ningbo, 315211, Zhejiang, China.",
+        "Immunology Innovation Team, School of Medicine, Ningbo University, University, 818 Fenghua St., Jiangbei District, Ningbo, 315211, Zhejiang, China.",
+        "Immunology Innovation Team, School of Medicine, Ningbo University, University, 818 Fenghua St., Jiangbei District, Ningbo, 315211, Zhejiang, China. wangxiao@nbu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jiale, Zhou",
+        "short_name": "Jiale Z",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Innovation Team, School of Medicine, Ningbo University, University, 818 Fenghua St., Jiangbei District, Ningbo, 315211, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Jian, Jiao",
+        "short_name": "Jian J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of biomedicine, Beijing City University, Beijing, 100094, China."
+        ]
+      },
+      {
+        "full_name": "Xinyi, Tan",
+        "short_name": "Xinyi T",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Innovation Team, School of Medicine, Ningbo University, University, 818 Fenghua St., Jiangbei District, Ningbo, 315211, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Haoji, Xie",
+        "short_name": "Haoji X",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Innovation Team, School of Medicine, Ningbo University, University, 818 Fenghua St., Jiangbei District, Ningbo, 315211, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Xueqin, Huang",
+        "short_name": "Xueqin H",
+        "identifiers": [],
+        "affiliations": [
+          "Immunology Innovation Team, School of Medicine, Ningbo University, University, 818 Fenghua St., Jiangbei District, Ningbo, 315211, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Wang",
+        "short_name": "Xiao W",
+        "identifiers": [
+          "0000-0002-5579-9759"
+        ],
+        "affiliations": [
+          "Immunology Innovation Team, School of Medicine, Ningbo University, University, 818 Fenghua St., Jiangbei District, Ningbo, 315211, Zhejiang, China. wangxiao@nbu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "AMB Express"
+    ],
+    "journal_abbrev": [
+      "AMB Express"
+    ],
+    "pub_date": "2021 Mar 26",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/27 06:00",
+    "fetched_at": "2026-09-20 02:13:58"
+  },
+  "links": {
+    "cites": [
+      "42076093",
+      "41474459",
+      "40650109",
+      "40291808",
+      "40067411",
+      "39728101",
+      "39687062",
+      "38995034",
+      "38667019",
+      "38567321",
+      "38450220",
+      "37810790",
+      "37129495",
+      "36928189",
+      "36532445",
+      "35744757",
+      "35327474",
+      "34769113"
+    ],
+    "refs": [
+      "32903406",
+      "32184775",
+      "32074086",
+      "31910883",
+      "31287287",
+      "31025073",
+      "30406400",
+      "30003180",
+      "29382854",
+      "29321257",
+      "28807042",
+      "28611436",
+      "28396544",
+      "28083516",
+      "27795369",
+      "27664726",
+      "27658736",
+      "27510863",
+      "27446000",
+      "27411324",
+      "27068589",
+      "26895237",
+      "26658071",
+      "25883148",
+      "25853779",
+      "25549265",
+      "25358509",
+      "24888414",
+      "24852171",
+      "24847653",
+      "24389234",
+      "23668380",
+      "23555622",
+      "23025745",
+      "22232686",
+      "22096200",
+      "21807550",
+      "21507177",
+      "20676145",
+      "20360767",
+      "19188357",
+      "19029328",
+      "18454629",
+      "18274517",
+      "17160061",
+      "16756942",
+      "12563302",
+      "2291653"
+    ],
+    "similar": [
+      "33770266",
+      "33672669",
+      "33072039",
+      "29397617",
+      "30915038",
+      "36532445",
+      "35884185",
+      "38551085",
+      "31613897",
+      "31520928",
+      "32457238",
+      "28487997",
+      "30949156",
+      "29738196",
+      "26800524",
+      "28692914",
+      "31404783",
+      "32051871",
+      "30802593",
+      "31797056",
+      "31910883",
+      "21549575",
+      "27339028",
+      "30455230",
+      "26930870",
+      "28782933",
+      "26666773",
+      "26873587",
+      "31926237",
+      "33324819",
+      "26961464",
+      "29178841",
+      "32994714",
+      "29737262",
+      "25836992",
+      "30364019",
+      "22572005",
+      "29653478",
+      "30224594",
+      "28118725",
+      "32182142",
+      "23711963",
+      "29326162",
+      "29372300",
+      "25385919",
+      "23988790",
+      "29348589",
+      "31916929",
+      "32338055",
+      "31341072",
+      "29567095",
+      "24759427",
+      "32590058",
+      "25923444",
+      "28799789",
+      "28659908",
+      "28370752",
+      "28885829",
+      "30031161",
+      "32882442",
+      "30769135",
+      "32074086",
+      "31114932",
+      "30682768",
+      "26571297",
+      "29625989"
+    ],
+    "review": [
+      "33770266",
+      "30023551"
+    ],
+    "pmc": [
+      "7997937"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33770266/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1186/s13568-021-01208-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33770266",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33770266",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/33770266",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

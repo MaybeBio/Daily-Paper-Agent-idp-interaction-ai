@@ -1,0 +1,400 @@
+{
+  "identity": {
+    "pmid": "42511729",
+    "doi": "10.3390/ijms27146386",
+    "title": "The Intrinsic Disordered N-Terminus of Nucleocapsid Protein of SARS-CoV-2 Is Critical in DNA Aptamer Binding."
+  },
+  "content": {
+    "abstract": "SARS-CoV-2 nucleocapsid protein (N protein) binds nucleic acids and packages viral RNA. DNA aptamers that specifically bind the N protein have been used in antigen-based COVID-19 detection and have potential clinical applications for preventing SARS-CoV-2 infection. However, the complex structures of the N protein with DNA aptamers and the mechanisms by which aptamers recognize the N protein remain unclear. Here, we report the NMR-derived complex structure of the N-terminal domain of the N protein (N-NTD) with a 58 nt DNA aptamer, A48. The complex structure reveals a distinct topology with a large contact area between A48 and N-NTD. The N-terminal intrinsically disordered region (IDR) of N-NTD forms close contact with A48, primarily stabilized by hydrophilic interactions. Deletion of the N-terminal IDR or substitution of positively charged arginine residues with negatively charged glutamate residues in the IDR region substantially reduced the binding affinity for A48. Because most previously determined N protein structures were obtained using constructs lacking the N-terminal IDR, this study reveals a topology of the N protein-nucleic acid complex and highlights the importance of the N-terminal IDR in nucleic acid binding.",
+    "keywords": [
+      "A48",
+      "DNA aptamer",
+      "NMR",
+      "SARS-CoV-2",
+      "intrinsically disordered region (IDR)",
+      "nucleocapsid protein (N protein)",
+      "protein-nucleic acid interaction"
+    ],
+    "mesh_terms": [
+      "*Aptamers, Nucleotide/metabolism/chemistry",
+      "Protein Binding",
+      "*Coronavirus Nucleocapsid Proteins/chemistry/metabolism",
+      "*SARS-CoV-2/metabolism",
+      "*Nucleocapsid Proteins/chemistry/metabolism",
+      "*Phosphoproteins/chemistry/metabolism",
+      "Humans",
+      "Models, Molecular",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Binding Sites",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lu, Hongye",
+        "Ma, Jiawen",
+        "Ma, Xiaomin",
+        "Wu, Yuanpeng",
+        "Sun, Xuan",
+        "Ma, Changxing",
+        "Li, Xiaoxian",
+        "Xu, Zhiyong",
+        "Lu, Pengxi",
+        "Luo, Zhaofeng",
+        "Zhang, Liyun",
+        "Zhang, Lixin",
+        "Wang, Shenlin"
+      ],
+      "short_names": [
+        "Lu H",
+        "Ma J",
+        "Ma X",
+        "Wu Y",
+        "Sun X",
+        "Ma C",
+        "Li X",
+        "Xu Z",
+        "Lu P",
+        "Luo Z",
+        "Zhang L",
+        "Zhang L",
+        "Wang S"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-0458-5132",
+        "ORCID: 0000-0003-2648-2637",
+        "ORCID: 0000-0002-2740-8204",
+        "ORCID: 0000-0002-0153-0578"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China.",
+        "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China.",
+        "Instrumental Analysis and Research Center, Sun Yan-sen University, Guangzhou 510006, China.",
+        "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China.",
+        "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China.",
+        "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China.",
+        "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China.",
+        "School of Life Sciences, University of Science and Technology of China, Hefei 230027, China.",
+        "State Key Laboratory of Medicinal Chemical Biology, Nankai University, Tianjin 300071, China.",
+        "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China.",
+        "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China.",
+        "Beijing NMR Center and College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lu, Hongye",
+        "short_name": "Lu H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Jiawen",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiaomin",
+        "short_name": "Ma X",
+        "identifiers": [
+          "0009-0006-0458-5132"
+        ],
+        "affiliations": [
+          "Instrumental Analysis and Research Center, Sun Yan-sen University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Yuanpeng",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xuan",
+        "short_name": "Sun X",
+        "identifiers": [
+          "0000-0003-2648-2637"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic and Developmental Sciences, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Changxing",
+        "short_name": "Ma C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoxian",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zhiyong",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Pengxi",
+        "short_name": "Lu P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Zhaofeng",
+        "short_name": "Luo Z",
+        "identifiers": [
+          "0000-0002-2740-8204"
+        ],
+        "affiliations": [
+          "School of Life Sciences, University of Science and Technology of China, Hefei 230027, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Liyun",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medicinal Chemical Biology, Nankai University, Tianjin 300071, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lixin",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Shenlin",
+        "short_name": "Wang S",
+        "identifiers": [
+          "0000-0002-0153-0578"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai 200237, China.",
+          "Beijing NMR Center and College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2026 Jul 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/28 06:37",
+    "fetched_at": "2026-09-18 05:15:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41674662",
+      "41651417",
+      "41053637",
+      "40974925",
+      "39704084",
+      "39380503",
+      "38376366",
+      "38169397",
+      "37805934",
+      "36354459",
+      "36317101",
+      "34471099",
+      "33794152",
+      "33782395",
+      "33479198",
+      "33264373",
+      "32953130",
+      "32914439",
+      "32756614",
+      "32733001",
+      "32723359",
+      "32661059",
+      "32645325",
+      "32610079",
+      "32451881",
+      "27300587",
+      "26574453",
+      "25299332",
+      "21778523",
+      "1737021"
+    ],
+    "similar": [
+      "42511729",
+      "42000821",
+      "38941236",
+      "39380503",
+      "41651417",
+      "39174826",
+      "38587193",
+      "39766245",
+      "38153183",
+      "39653699",
+      "38718862",
+      "39912211",
+      "38885868",
+      "41264349",
+      "33270159",
+      "41672170",
+      "33200826",
+      "33730325",
+      "39412257",
+      "39489230",
+      "35551296",
+      "36748338",
+      "40945576",
+      "33479198",
+      "33990585",
+      "39082816",
+      "35077748",
+      "33477032",
+      "17002283",
+      "34734665",
+      "40974925",
+      "36533523",
+      "40664703",
+      "18561946",
+      "40820302",
+      "40113149",
+      "40375582",
+      "39201466",
+      "39708056",
+      "39541975",
+      "41903808",
+      "19052082",
+      "17379242",
+      "36708355",
+      "33264373",
+      "24418573",
+      "40830575",
+      "21203940",
+      "32469265",
+      "41596323",
+      "36985506",
+      "40097964",
+      "40490992",
+      "41837652",
+      "39848104",
+      "36040256",
+      "32914439",
+      "33095454",
+      "39093972",
+      "33660218",
+      "34371045",
+      "17229691",
+      "40912879",
+      "33782395",
+      "33794152",
+      "34161778",
+      "36807437",
+      "31594639",
+      "33248025",
+      "40549905",
+      "32749662",
+      "38018991",
+      "19782089",
+      "40602456",
+      "33314794",
+      "33894414",
+      "40244295",
+      "36139141",
+      "37704176",
+      "39216563",
+      "40259455",
+      "37526269",
+      "22241479",
+      "32829876",
+      "26894667",
+      "16228284",
+      "36798118",
+      "35883485",
+      "39341499",
+      "32654247",
+      "35240128",
+      "33039147",
+      "35796388",
+      "34665939",
+      "37286558",
+      "41611807",
+      "15020242",
+      "34406867",
+      "39120134",
+      "34634033"
+    ],
+    "review": [
+      "42511729",
+      "24418573",
+      "40912879"
+    ],
+    "pmc": [
+      "13409943"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms27146386",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42511729/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

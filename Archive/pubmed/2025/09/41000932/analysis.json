@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41000932",
+  "title": "Transcriptome-wide analysis reveals sequence selection to avoid mRNA aggregation in E. coli.",
+  "authors": "Todisco, Marco; Jain, Ankur",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-09-26",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用大规模动力学模拟研究大肠杆菌转录组中mRNA聚集的序列选择，对象为RNA而非无序蛋白/IDR，虽涉及聚集和多价互作机制，但无PPI及AI/物理模拟方法针对蛋白互作，与本课题关联较弱。",
+  "abstract": "The stability of RNA base pairing and its limited four-letter code create an intrinsic potential for promiscuous RNA-RNA interactions. In vitro, such interactions drive RNA to self-assemble into aggregates. This raises a fundamental unanswered question: within a confined cellular volume at physiological mRNA abundances, how much aggregation would arise from sequence-encoded chemistry alone? Here, we establish this baseline with large-scale kinetic simulations of the E. coli transcriptome. Our simulations reveal that sequence-encoded base-pairing energetics is sufficient to generate a dynamic network of large aggregates, organized by long, multivalent mRNA hubs. Strikingly, evolutionary analysis shows that native E. coli sequences exhibit clear signatures of selection to counteract this propensity: they fold more stably, minimize unstructured regions, and form weaker intermolecular contacts than dinucleotide-preserving controls. These findings demonstrate that maintaining transcriptome solubility has been a significant, previously unrecognized constraint shaping genome evolution, and provide a new lens to interpret cellular RNA management.",
+  "abstract_zh": "RNA碱基配对的稳定性及其有限的四字母编码，为混杂的RNA-RNA相互作用创造了内在潜力。在体外，此类相互作用驱动RNA自组装成聚集体。这引出了一个根本性的未解问题：在生理mRNA丰度下的受限细胞体积内，仅由序列编码的化学作用会产生多少聚集？在此，我们通过大肠杆菌转录组的大规模动力学模拟建立了这一基线。我们的模拟揭示，序列编码的碱基配对能量学足以生成由长链、多价mRNA枢纽组织的大型聚集体的动态网络。引人注目的是，进化分析显示，天然大肠杆菌序列表现出明显的选择特征以对抗这一倾向：与保留二核苷酸组成的对照相比，它们折叠更稳定，最小化非结构化区域，并形成更弱的分子间接触。这些发现表明，维持转录组可溶性一直是塑造基因组进化的一个重要且此前未被认识到的约束，并为解读细胞RNA管理提供了新视角。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41000932/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41000932/",
+  "paper_page_path": "papers/pubmed/41000932/index.html"
+}

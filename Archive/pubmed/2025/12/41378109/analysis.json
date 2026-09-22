@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41378109",
+  "title": "Microscopy-based techniques for studying the material properties of biomolecular condensates in the cellular environment.",
+  "authors": "Ng, Tin Long Chris; Capalbo, Luisa; Kumita, Janet R",
+  "journal": "Biophysical reviews",
+  "published_date": "2025-12-11",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 4,
+  "one_liner_zh": "综述了用显微技术（FRAP、FLIM、BLS等）测量细胞内生物分子凝聚体材料性质的方法，对象为相分离凝聚体，但无PPI机制建模且无AI/物理模拟方法贡献。",
+  "abstract": "The material properties of biomolecular condensates, such as interfacial tension, viscoelasticity, stiffness, and molecular dynamics, are crucial for their biological functions in processes like signal transduction, stress response, and gene regulation. These properties influence both endogenous condensates, like the nucleolus and stress granules, and synthetic condensates engineered for potential drug delivery applications. In vitro studies, using purified components, provide controlled environments to explore the fundamental physics of phase separation, offering high precision in manipulating molecular components and conditions. However, cell-based characterisations are indispensable for understanding the physiological relevance of biomolecular condensates, accounting for molecular crowding, post-translational modifications, and interactions with cellular structures. Light-microscopy techniques offer the potential to bridge in vitro findings with in cellulo behaviour. This review outlines some fundamental challenges of in cellulo studies and discusses the potential of fluorescently labelling biomolecular condensates using the tetracysteine tag/biarsenical dye strategy. We describe how fluorescence-based techniques, including fluorescence recovery after photobleaching (FRAP) and emerging techniques like fluorescence lifetime imaging microscopy (FLIM), flicker spectroscopy, and raster image correlation spectroscopy (RICS), may be used to gain a detailed understanding of the material properties of biomolecular condensates within the cellular environment. Finally, we discuss the potential of Brillouin light scattering (BLS) microscopy, a label-free technique that holds potential for deciphering the cellular biophysics of biomolecular condensates.",
+  "abstract_zh": "生物分子凝聚体的材料特性，如界面张力、粘弹性、刚度和分子动力学 (molecular dynamics)，对其在信号转导、应激反应和基因调控等过程中的生物学功能至关重要。这些特性既影响内源性凝聚体，如核仁和应激颗粒，也影响为潜在药物递送应用而设计的合成凝聚体。使用纯化组分的体外研究提供了受控环境，以探索相分离 (phase separation) 的基础物理，并在操纵分子组分和条件方面具有高精度。然而，基于细胞的表征对于理解生物分子凝聚体的生理相关性不可或缺，需考虑分子拥挤、翻译后修饰以及与细胞结构的相互作用。光学显微镜技术有望将体外发现与细胞内 (in cellulo) 行为联系起来。本综述概述了细胞内研究的一些基本挑战，并讨论了使用四半胱氨酸标签/双砷染料策略对生物分子凝聚体进行荧光标记的潜力。我们描述了基于荧光的技术，包括荧光恢复后光漂白 (FRAP) 以及新兴技术如荧光寿命成像显微镜 (FLIM)、闪烁光谱法和光栅图像相关光谱法 (RICS)，如何用于深入了解细胞环境中生物分子凝聚体的材料特性。最后，我们讨论了布里渊光散射 (BLS) 显微镜的潜力，这是一种无标记技术，有望解析生物分子凝聚体的细胞生物物理学。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41378109/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41378109/",
+  "paper_page_path": "papers/pubmed/41378109/index.html"
+}

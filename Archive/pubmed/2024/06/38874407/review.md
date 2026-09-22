@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, data availability, acknowledgments) as provided by the user. No figures, tables, or supplementary material were available for inspection.
+- **Assessment boundary** The scientific claims, methodological soundness, and interpretive logic presented in the text. Structural biology claims are assessed based on the described modeling and experimental procedures, not on direct inspection of the structural models or data.
+- **Shared manuscript claim summary** The authors present a catalog of non-synonymous single nucleotide polymorphisms (nSNPs) in 31 ESX-1-related genes from over 32,000 clinical Mycobacterium tuberculosis complex isolates, mapped onto predicted and experimental protein structures. They identify conserved regions, including intrinsically disordered regions (IDRs), and propose these as potential therapeutic and vaccine targets. They also report convergent evolution in espI, hotspot mutations, and experimental validation of an EsxB E68K variant that retains EsxA binding.
+- **Visible evidence base** Text descriptions of results, methods, and figures (Fig. 1–6, Fig. S1–S9, Tables S1–S14). No actual data, structural coordinates, or supplementary files were provided.
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, structural models, SNP data, phylogenetic trees, and experimental validation data (e.g., gel images, mass spectrometry results) are referenced but not available. This substantially limits the ability to verify the central claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a relevant and timely question: the genetic variability of ESX-1 secretion system components across clinical M. tuberculosis complex isolates, mapped onto structural models to identify conserved regions of potential therapeutic value. The scale of the dataset (32,399 isolates) is impressive, and the combination of population genomics with structural bioinformatics is conceptually appealing. However, the manuscript as presented has several significant issues. The central claims regarding conservation of specific regions, the identification of IDRs, and the interpretation of hotspot mutations are difficult to evaluate without access to the figures and supplementary data. The methods section lacks critical details on how structural models were validated, how IDRs were defined, and how the composite ESX-1 core model was assessed for reliability. The experimental validation of the EsxB E68K variant is described only briefly, with no quantitative data. The discussion contains speculative interpretations that go beyond the presented evidence. The manuscript would benefit from a more rigorous and transparent presentation of the data and a more cautious interpretation of the findings.
+- **Who would be interested in the results, and why** Researchers studying M. tuberculosis virulence mechanisms, particularly the ESX-1 secretion system and its role in pathogenesis. The work may also be of interest to structural biologists working on type VII secretion systems, and to those involved in vaccine and therapeutic target discovery for tuberculosis. The large-scale SNP catalog could serve as a resource for the TB genomics community.
+- **Major strengths** 1) The use of a very large clinical isolate dataset (32,399 genomes) provides substantial statistical power for identifying SNP patterns. 2) The combination of population-level genomic data with structural modeling is a modern and potentially powerful approach. 3) The focus on ESX-1, a key virulence determinant, gives the work clear biological and clinical relevance. 4) The identification of conserved IDRs as potential functional regions is an interesting and relatively novel angle. 5) The experimental validation of the EsxB E68K variant, albeit briefly described, adds a functional dimension to the bioinformatic analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The manuscript claims to have mapped all nSNPs onto structural models and identified conserved regions, hotspots, and IDRs, but the supporting data (figures, tables, structural models) are not provided for verification.
+  - **Evidence pointer** Figures 1–6, Figures S1–S9, Tables S1–S14 (location not provided)
+  - **Concern** The central findings of this manuscript are presented almost entirely through figures and supplementary tables that were not available for review. The text descriptions are insufficient to evaluate the validity of the claims. For example, the claim that "78% of the nSNPs in so-called hotspots" were identified cannot be verified without the underlying data. The structural mapping of nSNPs, the identification of conserved regions, and the IDR analysis all depend on visual inspection of figures that are not accessible. This is a fundamental limitation that prevents a proper scientific assessment.
+  - **Why it matters** The core scientific contribution of this work is the spatial mapping of genetic variation onto protein structures. Without access to the actual data, figures, and models, the claims cannot be independently verified or reproduced. This is essential for a study of this nature.
+  - **Resolution test** The authors must provide all figures, supplementary tables, and structural models for review. The SNP data and analysis scripts should be made available in a public repository. The structural models used for mapping should be clearly identified and accessible.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The manuscript describes the construction of a composite model of the ESX-1 inner-membrane core complex by combining AlphaFold2 models with homologous ESX-3 and ESX-5 cryo-EM structures, but the methodology lacks critical details and validation.
+  - **Evidence pointer** Materials and Methods, "Modeling of the ESX-1 core complex" (location not provided)
+  - **Concern** The method for building the composite ESX-1 core model is described in a very general manner. Key details are missing: how were the domain boundaries defined? How were the structural alignments performed and validated? What was the quality of the final model (e.g., Ramachandran statistics, clash scores)? How were the relative orientations of the domains determined, particularly for the cytoplasmic regions of EccCa1 and EccCb1 where the cryo-EM density maps are of insufficient resolution? The use of a homologous structure from a different species (T. curvata) to orient the EccCb1 domains is a significant assumption that requires justification and validation. The manuscript does not provide any assessment of the reliability of the final composite model.
+  - **Why it matters** The structural interpretation of nSNP distribution depends entirely on the quality of the models used. An unreliable model would lead to incorrect conclusions about which regions are conserved or variable. The lack of methodological detail and validation undermines confidence in the structural claims.
+  - **Resolution test** The authors should provide a detailed step-by-step description of the modeling procedure, including software versions, parameters, and validation metrics. The final composite model should be validated using standard tools (e.g., MolProbity, EMRinger) and the results reported. The rationale for using the T. curvata structure should be clearly explained and justified.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and overreach
+  - **Claim pointer** The manuscript states that "conserved regions" and "critical regions" in ESX-1 proteins are "putative Mtb therapeutic targets" and that conserved IDRs may play a role in "immunological recognition."
+  - **Evidence pointer** Abstract, Introduction, Discussion (location not provided)
+  - **Concern** The leap from identifying conserved regions in a set of clinical isolates to proposing them as therapeutic or vaccine targets is a significant interpretive step that is not fully justified. Conservation of a region does not necessarily imply that it is a good drug or vaccine target. The authors do not discuss how these regions could be targeted, what the functional consequences of targeting them would be, or how they would be accessed by drugs or antibodies. The discussion of IDRs and their potential role in "immunological recognition" is highly speculative and not supported by any direct experimental evidence. The manuscript would benefit from a more measured interpretation of the findings.
+  - **Why it matters** Overinterpretation of bioinformatic findings can mislead the field and lead to wasted effort on targets that are not actually viable. The authors should clearly distinguish between what their data show (patterns of genetic variation) and what they speculate (therapeutic potential).
+  - **Resolution test** The authors should temper their conclusions and clearly state that the identification of conserved regions is a hypothesis-generating exercise. They should discuss the criteria that would need to be met for a region to be considered a viable therapeutic target and acknowledge the limitations of their approach.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental validation
+  - **Claim pointer** The manuscript claims to have "experimentally validated one unexpected mutation on the interaction interface of EsxA and EsxB, which still permits complex formation."
+  - **Evidence pointer** Results, "Quaternary structures" section; Figure 3 (location not provided)
+  - **Concern** The experimental validation of the EsxB E68K variant is described in a single sentence. No details are provided on the experimental methods used (e.g., co-expression, pull-down, size exclusion chromatography, analytical ultracentrifugation), the quantitative results, or the controls. The claim that the mutation "still permits complex formation" is presented without any supporting data. This is a critical piece of evidence for the manuscript's argument that interface mutations can be tolerated, and it needs to be presented in a rigorous and transparent manner.
+  - **Why it matters** The experimental validation is a key differentiator of this study from purely bioinformatic analyses. If the validation is not robust, the claim that interface mutations are tolerated is weakened. The lack of detail prevents the reader from assessing the quality of the experiment.
+  - **Resolution test** The authors should provide a full description of the experimental methods, including protein expression and purification details, the assays used to assess complex formation, and quantitative results (e.g., binding affinities, elution volumes). The data should be presented in a clear and complete manner.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript reports that "78% of the nSNPs in so-called hotspots" and that "the two most abundant nSNPs were excluded as hotspots" because they "included almost the entire data set."
+  - **Evidence pointer** Results, "Hotspots in ESX-1 GOI" section; Figure 2 (location not provided)
+  - **Concern** The definition of a "hotspot" as a mutation found in over 1% of clinical isolates (n > 300) is arbitrary and not statistically justified. The exclusion of the two most abundant nSNPs (T192I in EspA and E99* in PE35) because they "included almost the entire data set" is problematic. If these mutations are present in almost all isolates, they may represent ancestral polymorphisms or errors in the reference genome, and their exclusion could bias the analysis. The manuscript does not discuss the potential impact of these exclusions on the overall conclusions. A more rigorous statistical framework for defining hotspots and assessing their significance is needed.
+  - **Why it matters** The identification of hotspots is a central finding of the manuscript. If the definition is arbitrary and the exclusions are not well-justified, the conclusions about which regions are variable and which are conserved may be incorrect.
+  - **Resolution test** The authors should provide a clear and statistically justified definition of a hotspot. They should analyze the sensitivity of their results to the choice of threshold. They should also discuss the potential impact of the excluded mutations on their conclusions and consider whether these mutations should be treated differently in the analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods, "Whole-genome sequencing and phylogenetic analysis of 967 clinical isolates"
+  - **Evidence pointer** Materials and Methods (location not provided)
+  - **Issue** The description of the initial dataset of 967 isolates is unclear. The text states "A total of 967 genomes of clinical isolates from the Mtbc (n = 961; L1–L8) and from M. bovis (n = 6) were included, from Bangladesh and Gambia (58–60) (Supplemantary Table)." It is not clear if these 967 isolates are a subset of the 32,399 isolates mentioned elsewhere, or a separate dataset. The relationship between these two datasets needs to be clarified.
+  - **Required correction** Clarify the relationship between the 967-isolate dataset and the 32,399-isolate dataset. Are the 967 isolates part of the larger dataset? How were they selected? What is the "Supplemantary Table" referenced?
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods, "SNPPar analysis homoplasy"
+  - **Evidence pointer** Materials and Methods (location not provided)
+  - **Issue** The description of the SNPPar analysis is confusing. The text states "To screen for convergent SNP sites in the alignment, SNPPar was used. Based on the provided phylogenetic tree, SNPPar searches for SNPs that are the same mutation (e.g., C, G) at the same position in two or more unrelated isolates or different mutations that result in the same base (e.g., C, G, A, G) in the same position. It also detects revertant mutations back to the ancestral state (e.g., C G C) (68)." The examples given are not clear. What does "C, G" mean in this context? The description of the input and output of SNPPar needs to be more precise.
+  - **Required correction** Rewrite the description of the SNPPar analysis to be more precise and understandable. Provide clear definitions of the terms used and the types of mutations detected.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Results, "Essential motifs and binding interface regions"
+  - **Evidence pointer** Results section (location not provided)
+  - **Issue** The text states "Only nine nSNPs were found at the tryptophan and four at the glycine sites of the WxG motif, while for the YxxxD/E motif 13 and 2 nSNPs were identified at the tyrosine and aspartic acid sites, respectively." It is not clear how many total sites were analyzed for each motif, or what the total number of isolates with these nSNPs was. This makes it difficult to assess the significance of these findings.
+  - **Required correction** Provide the total number of sites analyzed for each motif and the number of isolates with each nSNP. This will allow the reader to assess the frequency and significance of the observed mutations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section (location not provided)
+  - **Issue** The discussion contains several statements that are not directly supported by the data presented. For example, the statement "The different levels of conservation observed for the different IDRs identified within the peripheral and secreted substrates of the ESX-1 machinery imply those regions may fulfill different roles, with the polymorphic IDRs acting on immune evasion, while the highly conserved ones assume functions essential to the survival and pathogenesis of Mtb" is speculative. The authors do not provide any direct evidence for the functional roles of these IDRs.
+  - **Required correction** Clearly distinguish between findings and speculation in the discussion. Support any claims about the functional roles of IDRs with direct evidence or clearly label them as hypotheses.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Methods, "Expression and purification of EsxA-EsxB wild type and E68K mutant"
+  - **Evidence pointer** Materials and Methods (location not provided)
+  - **Issue** The description of the experimental validation is very brief. It is not clear what assays were used to assess complex formation. The text states "We expressed and purified the mutant protein and showed an unharmed interaction with EsxA (Fig. 3)". What method was used to show this interaction? Was it a pull-down, size exclusion chromatography, or something else?
+  - **Required correction** Provide a detailed description of the experimental methods used to assess the EsxA-EsxB interaction, including the specific assays, conditions, and controls.
+- **Technical failings that need to be addressed before the case is established** 1) The lack of access to the primary data (figures, tables, structural models) prevents verification of the central claims. 2) The methodology for building the composite ESX-1 core model is under-specified and lacks validation. 3) The definition of "hotspots" is arbitrary and the exclusion of certain mutations is not well-justified. 4) The experimental validation of the EsxB E68K variant is described in insufficient detail. 5) The relationship between the 967-isolate and 32,399-isolate datasets is unclear.
+- **Assessment against Nature-style criteria** **Originality:** The approach of combining large-scale clinical isolate SNP data with structural modeling of a secretion system is not entirely novel, but the specific focus on ESX-1 and the scale of the dataset provide some originality. **Scientific importance:** The ESX-1 system is a key virulence factor, and understanding its variability is important. However, the manuscript does not clearly demonstrate that the identified conserved regions are functionally important or therapeutically relevant. **Interdisciplinary readership:** The work bridges genomics, structural biology, and microbiology, which could appeal to a broad audience. However, the presentation is likely too specialized for a general Nature readership. **Technical soundness:** The technical soundness cannot be fully assessed due to missing data and methodological details. The modeling approach, in particular, requires more rigorous validation. **Readability for nonspecialists:** The manuscript is written in a technical style that would be challenging for nonspecialists. The abstract and introduction are relatively accessible, but the results and methods are dense.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and has the potential to be a valuable contribution, but the lack of access to the primary data and the methodological gaps prevent a proper assessment. The authors should be encouraged to resubmit a revised version that addresses the major concerns, particularly by providing the data and a more rigorous and transparent methodology.
+
+## Risk / unsupported claims
+- The claim that conserved regions in ESX-1 proteins are "putative Mtb therapeutic targets" is not supported by functional evidence.
+- The claim that conserved IDRs may play a role in "immunological recognition" is speculative and not directly tested.
+- The claim that "78% of the nSNPs in so-called hotspots" is not verifiable without the underlying data.
+- The claim that the EsxB E68K mutation "still permits complex formation" is not supported by the limited experimental description.
+- The claim that the composite ESX-1 core model is a reliable representation of the native complex is not supported by validation data.
+- The interpretation of the two silent sSNPs in espI as evidence of convergent evolution is not fully justified, as the functional significance of these mutations is unknown.

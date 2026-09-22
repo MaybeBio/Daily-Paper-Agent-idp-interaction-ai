@@ -1,0 +1,279 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2026-kx9w0",
+  "title": "AMP-BMS/MM: A Multiscale Neural Network Potential for the Fast and Accurate Simulation of Protein Dynamics and Enzymatic Reactions",
+  "doi": "10.26434/chemrxiv-2026-kx9w0",
+  "abstract": "We present the next generation of AMP, a neural network potential (NNP) with anisotropic message passing designed to study large biomolecular systems at DFT accuracy in the condensed phase using a multiscale approach similar to quantum-mechanics/molecular-mechanics (QM/MM) with electrostatic embedding. We trained AMPv3 on our recently published biomolecular multiscale simulation (BMS25) dataset and demonstrated the model’s high eﬃciency, which enabled us to simulate proteins involving thousands of atoms at DFT accuracy in addition to explicit MM solvent for up to hundred nanoseconds, which presents a major leap for contemporary NNPs. We observe excellent scaling to large systems on a single GPU. AMPv3-BMS25 (or short AMP-BMS) shows promising performance on benchmarks and we demonstrate that the model can be used to accurately estimate experimental properties, including solvation free energies of small molecules and structural features of proteins. Finally, AMP-BMS/MM was employed to predict the free-energy profiles of reactions catalyzed by the enzymes chorismate mutase and fluoroacetate dehalogenase. In total, AMP-BMS/MM was used to simulate proteins in the condensed phase for a cumulative 23 µs simulation time or 48 billion integration steps. This work establishes AMP-BMS as a highly eﬃcient and accurate model for multiscale simulations of biomolecules.",
+  "authors": [
+    "Moritz Thürlemann",
+    "Felix Pultar",
+    "Igor Gordiy",
+    "Enrico Ruijsenaars",
+    "Sereina Riniker"
+  ],
+  "published_date": "2026-01-09",
+  "updated_date": "2026-01-09T17:22:09Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2026-kx9w0",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2026-kx9w0",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            5
+          ]
+        ],
+        "date-time": "2026-08-05T01:10:12Z",
+        "timestamp": 1785892212608,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            9
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                9
+              ]
+            ],
+            "date-time": "2026-01-09T00:00:00Z",
+            "timestamp": 1767916800000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>We present the next generation of AMP, a neural network potential (NNP) with anisotropic message passing designed to study large biomolecular systems at DFT accuracy in the condensed phase using a multiscale approach similar to quantum-mechanics/molecular-mechanics (QM/MM) with electrostatic embedding. We trained AMPv3 on our recently published biomolecular multiscale simulation (BMS25) dataset and demonstrated the model’s high eﬃciency, which enabled us to simulate proteins involving thousands of atoms at DFT accuracy in addition to explicit MM solvent for up to hundred nanoseconds, which presents a major leap for contemporary NNPs. We observe excellent scaling to large systems on a single GPU. AMPv3-BMS25 (or short AMP-BMS) shows promising performance on benchmarks and we demonstrate that the model can be used to accurately estimate experimental properties, including solvation free energies of small molecules and structural features of proteins. Finally, AMP-BMS/MM was employed to predict the free-energy profiles of reactions catalyzed by the enzymes chorismate mutase and fluoroacetate dehalogenase. In total, AMP-BMS/MM was used to simulate proteins in the condensed phase for a cumulative 23 µs simulation time or 48 billion integration steps. This work establishes AMP-BMS as a highly eﬃcient and accurate model for multiscale simulations of biomolecules.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2026-kx9w0",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            9
+          ]
+        ],
+        "date-time": "2026-01-09T17:22:09Z",
+        "timestamp": 1767979329000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "AMP-BMS/MM: A Multiscale Neural Network Potential for the Fast and Accurate Simulation of Protein Dynamics and Enzymatic Reactions"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Moritz",
+          "family": "Thürlemann",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05a28rw58",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "ETH Zurich",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Felix",
+          "family": "Pultar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05a28rw58",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "ETH Zurich",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Igor",
+          "family": "Gordiy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05a28rw58",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "ETH Zurich",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Enrico",
+          "family": "Ruijsenaars",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05a28rw58",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "ETH Zurich",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1893-4031",
+          "authenticated-orcid": false,
+          "given": "Sereina",
+          "family": "Riniker",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05a28rw58",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "ETH Zurich",
+              "place": [
+                "Switzerland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2026-kx9w0",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T09:59:22Z",
+        "timestamp": 1778752762000
+      },
+      "score": 56.220177,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2026-kx9w0"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            9
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2026-kx9w0",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            9
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, abstract, references cited in text, figure legends not provided)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript text; supplementary materials referenced but not fully available for independent verification
+- **Shared manuscript claim summary** The authors report that site-specific introduction of α-methylated amino acids into the intrinsically disordered activation domain AD1 of the transcriptional coactivator ACTR biases its conformational ensemble toward α-helical states, with a specific double substitution (1055meLeu;1076meLeu) yielding approximately 5-fold enhanced binding affinity for the NCBD domain of CBP (KD = 0.042 μM vs 0.206 μM for wild-type at 304 K by ITC), and up to 11–14-fold enhanced affinity for full-length CBP by SPR. The first X-ray structure of a modified ACTR–NCBD complex (PDB 6SQC) is presented, showing a distinct conformation compared to prior NMR structures. The authors propose α-methylation as a general strategy for "conformational editing" of IDPs.
+- **Visible evidence base** Main text figures referenced (Figs 1–6), tables cited in text (Tables S1–S17 in ESI), experimental methods section, deposited PDB structure 6SQC
+- **Missing materials affecting confidence** Supplementary figures and tables (ESI Figs S1–S25, Tables S1–S17), full experimental protocols, NMR assignment tables, crystallographic refinement statistics table, MD simulation details, pull-down raw data, and figure images themselves were not provided. These are essential for independent verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and technically ambitious study applying α-methylation to an intrinsically disordered protein domain, with a clear demonstration that specific substitution patterns can enhance binding affinity to a natural partner. The work combines chemical protein synthesis, biophysical characterization (ITC, SPR, CD, NMR), X-ray crystallography, and MD simulations. The central concept of "conformational editing" is interesting and potentially generalizable. However, several key claims, particularly regarding the mechanism of affinity enhancement and the uniqueness of the trapped conformation, are not fully established from the provided evidence. The manuscript would benefit from clearer quantitative comparisons, more direct evidence linking pre-folding to binding kinetics, and a more critical discussion of alternative interpretations.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein engineering, chemical biology, and biophysics. The work is also relevant to those studying transcriptional coactivator complexes (CBP/p300, ACTR/SRC3) and to investigators interested in strategies for targeting "undruggable" disordered proteins. The methodological advance in chemical synthesis of modified IDPs may interest synthetic protein chemists.
+- **Major strengths** 1) The combinatorial library approach is systematic and thorough, covering 47 variants with up to six simultaneous substitutions. 2) The identification of a "hot spot" residue (Leu1055) with a clear affinity-enhancing effect is a concrete and useful finding. 3) The first X-ray structure of a modified ACTR–NCBD complex is a significant technical achievement. 4) The combination of multiple biophysical techniques (ITC, SPR, CD, NMR, MD) provides a multi-faceted view of the system. 5) The demonstration that modified IDP variants can bind full-length CBP with enhanced affinity in a cellular context (pull-down) extends the relevance beyond isolated domains.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for mechanistic claim
+  - **Claim pointer** The authors state that α-methylation at Leu1055 leads to "partial folding of the N-terminal helix in free AD1-ACTR protein" and that this pre-folding contributes to enhanced binding affinity.
+  - **Evidence pointer** Section "α-Methylation induces helical structure in the free ACTR activation domain", Fig 4, ESI Tables S5, S7–S11
+  - **Concern** The claim that enhanced helical content in the free state directly causes enhanced binding affinity is not rigorously established. The CD data show increased helicity, and NMR chemical shifts indicate local helical propensity, but no direct correlation between the degree of pre-folding and binding affinity is demonstrated across the library. The authors do not provide a quantitative analysis (e.g., a plot of helical content vs KD for all variants) that would support a causal link. Alternative explanations, such as altered hydrophobic surface presentation or reduced conformational entropy penalty upon binding, are not experimentally distinguished.
+  - **Why it matters** The mechanistic interpretation is central to the proposed "conformational editing" concept. If pre-folding is not the operative mechanism, the generalizability of the strategy to other IDPs is weakened.
+  - **Resolution test** Provide a quantitative correlation between helical content (from CD or NMR) and binding affinity (KD) across a subset of variants spanning the full affinity range. Alternatively, perform kinetic binding experiments (e.g., stopped-flow or SPR kinetics) to determine whether the enhanced affinity arises from faster association (consistent with pre-folding) or slower dissociation. Mutational control experiments where the α-methylated residue is replaced with a non-natural residue that does not induce helicity but preserves side-chain chemistry would also help isolate the conformational effect.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors state that the X-ray structure of the [1055meLeu;1076meLeu]AD1-ACTR–NCBD complex "visualized a unique conformation of ACTR" and that this conformation is distinct from previously reported NMR structures.
+  - **Evidence pointer** Section "X-ray structure of the [1055meLeu;1076meLeu]AD1-ACTR complex with NCBD", Fig 5, ESI Figs S12–S15
+  - **Concern** The comparison between the X-ray structure and the NMR structures (1KBH, 6ES7, 2C52) is described qualitatively. The authors note differences in loop conformations, side-chain rotamers, hydrogen-bonding networks, and buried surface area, but no quantitative structural comparison (e.g., RMSD values for the ACTR domain alone, per-helix RMSD, or interaction energy calculations) is provided. The claim that the X-ray structure represents a "unique conformation" is therefore not rigorously supported. Furthermore, the possibility that the observed differences arise from crystal packing, the MBP fusion, or the specific crystallization conditions is discussed but not experimentally excluded beyond the statement that no symmetry-related contacts were found.
+  - **Why it matters** The structural claim is a key novelty of the paper. If the observed conformation is not genuinely distinct or if the differences are artefacts of the crystallization system, the conclusion that α-methylation traps a specific functional conformation is undermined.
+  - **Resolution test** Provide quantitative structural comparisons: per-residue RMSD between the X-ray and NMR structures for the ACTR domain, helix-by-helix superposition, and a table of key interhelical contacts. If possible, obtain a structure of the wild-type complex under the same crystallization conditions to control for the effect of the MBP fusion and crystal environment. Alternatively, validate the distinct conformation using an orthogonal method in solution, such as SAXS or FRET.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative claim accuracy
+  - **Claim pointer** The authors report that the [1055meLeu;1076meLeu]AD1-ACTR variant binds full-length CBP with an apparent KD of ~60 nM at 10 °C, compared to ~1.2 μM for wild-type, representing a ~20-fold improvement.
+  - **Evidence pointer** Section "Targeting NCBD domain in full length 265 kDa CBP", Fig 6, ESI Table S17
+  - **Concern** The SPR experiments with full-length CBP are described as measuring "apparent" KD values, but the experimental details are not provided in the main text. It is unclear whether the CBP was immobilized or in solution, whether the data were fit to a 1:1 binding model, and whether mass transport limitations or avidity effects (due to the dimeric nature of CBP) were considered. The temperature dependence of the binding (10 °C vs 20–31 °C for NCBD experiments) complicates direct comparison. The claim of a ~20-fold improvement for full-length CBP versus ~5-fold for isolated NCBD is not explained mechanistically.
+  - **Why it matters** The enhanced binding to full-length CBP is a headline result with potential translational relevance. If the SPR methodology is not rigorously controlled, the quantitative claim may be unreliable.
+  - **Resolution test** Provide full SPR experimental details, including immobilization strategy, analyte concentrations, fitting model, and a representative sensorgram with the fit overlaid. Report KD values at matched temperatures for both NCBD and full-length CBP. Discuss whether the difference in fold-improvement between NCBD and full-length CBP is statistically significant and mechanistically interpretable.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the approach
+  - **Claim pointer** The authors conclude that "conformational editing of IDPs through targeted site-specific modifications" is a general strategy, and they anticipate it will be useful for other IDP systems.
+  - **Evidence pointer** Conclusions section
+  - **Concern** The study is performed on a single IDP system (AD1-ACTR) with a single binding partner (NCBD). The authors do not test whether the approach works on a second IDP or a different binding interface. The claim of generalizability is therefore speculative. The authors do note that α-methylation can have destabilizing effects at many positions, which suggests the approach requires extensive screening and may not be straightforwardly transferable.
+  - **Why it matters** The broader significance of the work depends on whether the strategy is applicable beyond this specific system. Without a demonstration of transferability, the claim of generalizability is not supported.
+  - **Resolution test** Apply the same α-methylation strategy to a second IDP–partner pair, even in a preliminary form, to demonstrate that the approach is not idiosyncratic to ACTR–NCBD. Alternatively, temper the conclusion to reflect that the strategy is demonstrated for one system and requires validation in others.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** ITC data presentation
+  - **Evidence pointer** Fig 3, ESI Table S3
+  - **Issue** The ITC data are summarized as ΔG, ΔH, and −TΔS values, but the raw thermograms and binding isotherms are not shown in the main text. The stoichiometry (n) of binding is not reported.
+  - **Required correction** Include representative ITC thermograms and isotherms for wild-type and key variants in the main text or ESI. Report the stoichiometry (n) for all ITC experiments.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Binding affinity comparisons
+  - **Evidence pointer** Fig 3, ESI Table S3
+  - **Issue** The number of replicate measurements for ITC and SPR experiments is not stated. Error bars are not shown in Fig 3.
+  - **Required correction** State the number of independent replicates for each measurement and include error bars or confidence intervals in the figures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** MD simulations
+  - **Evidence pointer** Section "Experimental", "Biophysical characterization"
+  - **Issue** The MD simulation methods are described in a single sentence. No information is provided on the simulation protocol, equilibration time, number of replicas, or convergence criteria.
+  - **Required correction** Provide a more detailed description of the MD simulation setup, including the software version, force field parameters, water model, temperature and pressure coupling, simulation length, and analysis methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of NMR data
+  - **Affected element** Chemical shift analysis
+  - **Evidence pointer** Fig 4, ESI Tables S7–S9
+  - **Issue** The NMR analysis is limited to chemical shift deviations from random coil values. No relaxation dispersion or other dynamic measurements are presented to support the claim of altered dynamics on the μs–ms timescale.
+  - **Required correction** Either provide additional NMR dynamics data (e.g., CPMG relaxation dispersion) to support the dynamics claim, or temper the interpretation of the R2 data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The introduction cites references 1–8 for general IDP properties, but the discussion of alternative approaches to IDP conformational control (e.g., stapled peptides, hydrocarbon cross-linking, proline mutagenesis) is not referenced.
+  - **Required correction** Add appropriate references to prior work on conformational stabilization of IDPs and peptides to contextualize the novelty of the α-methylation approach.
+- **Technical failings that need to be addressed before the case is established** 1) The mechanistic link between pre-folding and enhanced affinity (R1-M1) is not quantitatively established. 2) The structural comparison between X-ray and NMR conformations (R1-M2) lacks quantitative metrics. 3) The SPR methodology for full-length CBP binding (R1-M3) is insufficiently detailed. 4) The generalizability claim (R1-M4) is not supported by data from additional systems.
+- **Assessment against Nature-style criteria** **Originality:** The application of α-methylation to an IDP for conformational editing is a novel concept, though the use of α-methylated amino acids for helix stabilization in short peptides is established. The extension to a full-length IDP domain and the demonstration of functional consequences (binding affinity) is original. **Scientific importance:** The work addresses a significant problem in IDP biology, namely how to characterize and manipulate conformational states of disordered proteins. The potential to generate high-affinity binders for IDP targets has broad relevance. However, the importance is somewhat tempered by the single-system demonstration. **Interdisciplinary readership:** The work bridges chemical biology, biophysics, and structural biology, and would appeal to a broad readership in these areas. The potential therapeutic implications for targeting "undruggable" IDPs would also attract interest from the drug discovery community. **Technical soundness:** The chemical synthesis approach is sound and well-established. The biophysical characterization is generally rigorous, but the quantitative support for the central mechanistic claim is incomplete. The X-ray structure is a technical achievement, but the comparison to NMR structures needs more rigor. **Readability for nonspecialists:** The manuscript is generally well-written and accessible. The concept of "conformational editing" is clearly introduced. However, some sections (e.g., the enthalpy–entropy compensation analysis) may be challenging for nonspecialists and could benefit from clearer explanatory text.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is interesting and the data are largely consistent with the conclusions, but the mechanistic claim linking pre-folding to affinity enhancement, the quantitative structural comparison, and the SPR methodology for full-length CBP need to be strengthened. The generalizability claim should be tempered or supported with additional data.
+
+## Risk / unsupported claims
+- The claim that α-methylation at Leu1055 causes "partial folding of the N-terminal helix in free AD1-ACTR protein" is supported by CD and NMR chemical shift data, but the direct causal link to enhanced binding affinity is not established.
+- The claim that the X-ray structure represents a "unique conformation" of ACTR is not quantitatively supported; the comparison to NMR structures is qualitative.
+- The claim that the enhanced binding affinity for full-length CBP (~20-fold) is greater than for isolated NCBD (~5-fold) is based on SPR data at different temperatures and with limited methodological detail; this difference is not mechanistically explained.
+- The claim that α-methylation is a general strategy for "conformational editing" of IDPs is speculative, as only one IDP system is studied.
+- The statement that "approximately 30% of the synthesized variants were found to bind the NCBD domain of CBP more tightly than wild-type" is presented without a clear definition of the threshold for "more tightly" and without statistical significance testing.

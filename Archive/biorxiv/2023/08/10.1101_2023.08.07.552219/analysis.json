@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.07.552219",
+  "title": "Systematic discovery of protein interaction interfaces using AlphaFold and experimental validation",
+  "authors": "Lee CY; Hubrich D; Varga JK; Schäfer C; Welzel M; Schumbera E; Đokić M; Strom JM; Schönfeld J; Geist JL; Polat F; Gibson TJ; Keller Valsecchi CI; Kumar M; Schueler-Furman O; Luck K",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-09",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该文系统评估AlphaFold-Multimer预测折叠结构域与短线性基序（含IDR背景）互作界面的能力，提出片段化策略并实验验证多个新界面，直接涉及无序蛋白介导的PPI机制建模，方法上以AI预测为主，兼具机制深度与可迁移性。",
+  "abstract": "Structural resolution of protein interactions enables mechanistic and functional studies as well as interpretation of disease variants. However, structural data is still missing for most protein interactions because we lack computational and experimental tools at scale. We thoroughly assessed AlphaFold-Multimer accuracy for structure prediction of interactions involving folded domains binding to short linear motifs from the ELM database. The structure predictions were highly sensitive but not very specific when using small protein fragments. Sensitivity decreased substantially when using long protein fragments or full length proteins with intrinsically disordered regions. We delineated a fragmentation strategy to optimize sensitivity and applied it to interactions between proteins associated with neurodevelopmental disorders. This enabled prediction of highly confident and likely disease-related novel interfaces, but also resulted in many high scoring false positive predictions. Experiments supported predicted interfaces between CREBZF-HCFC1, FBXO23-STX1B, STX1B-VAMP2, ESRRG-PSMC5, PEX3-PEX19, PEX3-PEX16, and SNRPB-GIGYF1 providing novel molecular insights for diverse biological processes. Our work highlights exciting perspectives, but also reveals clear limitations and the need for future developments to maximize the power of Alphafold-Multimer for interface predictions.",
+  "abstract_zh": "蛋白质相互作用的 structural resolution 能够推动机制性和功能性研究，以及疾病变异的解读。然而，由于缺乏大规模的计算和实验工具，大多数蛋白质相互作用的结构数据仍然缺失。我们全面评估了 AlphaFold-Multimer 在预测涉及折叠结构域与来自 ELM 数据库的短线性基序结合的相互作用方面的准确性。当使用小蛋白质片段时，结构预测具有高度敏感性，但特异性不高。使用长蛋白质片段或含有内在无序区的全长蛋白质时，敏感性显著下降。我们设计了一种片段化策略以优化敏感性，并将其应用于与神经发育障碍相关的蛋白质之间的相互作用。这使我们能够预测高置信度且可能涉及疾病的新型界面，但也产生了许多高评分的假阳性预测。实验支持了 CREBZF-HCFC1、FBXO23-STX1B、STX1B-VAMP2、ESRRG-PSMC5、PEX3-PEX19、PEX3-PEX16 和 SNRPB-GIGYF1 之间的预测界面，为多种生物过程提供了新的分子见解。我们的工作展示了令人兴奋的前景，但也揭示了明显的局限性以及未来发展的需求，以最大化 AlphaFold-Multimer 在界面预测中的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.07.552219",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.07.552219",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.07.552219/index.html"
+}

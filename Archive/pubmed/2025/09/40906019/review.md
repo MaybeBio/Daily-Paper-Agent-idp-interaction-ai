@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that CEP44, a centrosomal protein, contains intrinsically disordered regions and can form liquid droplets in vivo and in vitro. They report that CEP44 is O-GlcNAcylated, that O-GlcNAcylation promotes droplet fusion, and that prediction analysis suggests interplay between O-GlcNAcylation and phosphorylation. They conclude that O-GlcNAcylation regulates CEP44 droplet fusion and may influence its subcellular localization.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details
+- **Missing materials affecting confidence** Full manuscript, all figures and figure legends, experimental methods, statistical analyses, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that CEP44 undergoes liquid-liquid phase separation and that O-GlcNAcylation modulates this behavior. However, the evidence described is insufficient to evaluate the rigor of the claims. Key experimental details, quantitative data, and controls are absent. The link between O-GlcNAcylation, droplet fusion, and subcellular localization is asserted rather than demonstrated. The case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying centrosome biology, liquid-liquid phase separation, and post-translational modification of cytoskeletal and centrosomal proteins. The potential connection between O-GlcNAcylation and phase separation could interest those investigating how metabolic signaling influences cellular organization.
+- **Major strengths** The topic is timely given the growing interest in phase separation in centrosome assembly. The combination of in vivo and in vitro droplet assays, if properly executed, would provide complementary evidence. The focus on a specific post-translational modification adds mechanistic depth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that CEP44 forms liquid droplets in vivo and in vitro and that O-GlcNAcylation promotes droplet fusion.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that droplet formation assays confirmed liquid droplet capacity and that immunostaining demonstrated that O-GlcNAcylation promotes droplet fusion, but no quantitative data, representative images, or statistical comparisons are described. No controls are mentioned, such as mutations in the IDRs or inhibition of O-GlcNAcylation.
+  - **Why it matters** Without quantitative fusion rates, droplet size distributions, or time-lapse data, the claim that O-GlcNAcylation promotes fusion is not verifiable. The absence of controls weakens the causal interpretation.
+  - **Resolution test** Provide quantitative droplet fusion assays with and without O-GlcNAcylation, including statistical analysis and representative images. Include controls such as OGT knockdown or O-GlcNAcase treatment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that O-GlcNAcylation may influence CEP44 subcellular localization.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe any experiment directly testing the effect of O-GlcNAcylation on CEP44 localization. The claim is presented as a possibility, but no localization data under conditions of altered O-GlcNAcylation are described.
+  - **Why it matters** The title states that O-GlcNAcylation regulates localization, but the abstract only suggests this as a potential effect. This discrepancy between the title and the evidence described is problematic.
+  - **Resolution test** Include localization experiments comparing wild-type CEP44 with O-GlcNAcylation-deficient mutants or under OGT inhibition, with quantitative colocalization analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The authors claim that prediction analysis suggested interplay between O-GlcNAcylation and phosphorylation that may modulate structural dynamics.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract relies on prediction analysis without any experimental validation. The functional significance of the predicted interplay is not tested.
+  - **Why it matters** Prediction-based claims are speculative and do not establish a mechanistic role. Without experimental evidence, this claim does not support the conclusions.
+  - **Resolution test** Provide experimental data such as mass spectrometry to identify modification sites and mutagenesis studies to test the functional interplay.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "droplet fusion" is used without defining the assay or the metric used to measure fusion.
+  - **Required correction** Define the fusion assay and specify the quantitative metric used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the cell types or experimental conditions used for in vivo droplet assays.
+  - **Required correction** Include cell type and condition details in the abstract or refer to methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "potentially influencing its subcellular localization" is vague and not directly supported by described experiments.
+  - **Required correction** Either provide direct localization evidence or temper the conclusion to match the data presented.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of droplet formation, O-GlcNAcylation-dependent fusion, and localization regulation are not supported by the evidence described in the abstract.
+- **Assessment against Nature-style criteria** Originality is moderate, as phase separation of centrosomal proteins is an active area, but the specific role of O-GlcNAcylation adds novelty. Scientific importance is potentially high for centrosome biology, but the evidence is insufficient to judge significance. Interdisciplinary readership is limited, as the topic is specialized. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is acceptable but relies on jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The authors should provide the full manuscript with quantitative data, controls, and direct localization experiments to support the claims.
+
+## Risk / unsupported claims
+- The claim that O-GlcNAcylation promotes CEP44 droplet fusion is unsupported without quantitative data and controls.
+- The claim that O-GlcNAcylation may influence subcellular localization is unsupported, as no localization experiments are described.
+- The predicted interplay between O-GlcNAcylation and phosphorylation is speculative and not experimentally validated.
+- The general statement that CEP44 possesses LLPS properties is only weakly supported by the abstract description.

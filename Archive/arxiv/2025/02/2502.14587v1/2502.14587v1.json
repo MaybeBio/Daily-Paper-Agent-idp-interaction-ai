@@ -1,0 +1,32 @@
+{
+  "source": "arxiv",
+  "source_id": "2502.14587v1",
+  "title": "Mesoscopic heterogeneity in biomolecular condensates from sequence patterning",
+  "doi": "",
+  "abstract": "Biomolecular condensates composed of intrinsically disordered proteins (IDPs) are vital for proper cellular function, and their dysfunction is associated with diseases including neurodegeneration and cancer. Despite their biological importance, the precise physical mechanisms underlying condensate (dys)function are unclear, in part owing to the difficulties in understanding how biomolecular sequence patterns influence emergent condensate behaviours across relevant length and timescales. Here, through minimal physical modelling, we explain how IDP sequence patterning gives rise to nano-scale organisational heterogeneities in condensates. By applying our coarse-grained molecular-dynamics polymer model, which accounts for steric, attractive, and electrostatic interactions, we systematically quantify and map out the emergent morphological phases resulting from a wide range of sequence patterns. We demonstrate how sequences that enable local coil-to-globule transitions within regions of single polymers - driven by a competition between the preferred crowding densities of different regions in the sequence - also exhibit cluster formation in condensates. Overall, our work provides a conceptual framework to understand how sequence properties determine mesoscopic organisation within biomolecular condensates.",
+  "authors": [
+    "Luke K. Davis",
+    "Andrew J. Baldwin",
+    "Philip Pearce"
+  ],
+  "published_date": "2025-02-20T14:20:02Z",
+  "updated_date": "2025-02-20T14:20:02Z",
+  "journal": "",
+  "category": "cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2502.14587v1",
+  "pdf_url": "https://arxiv.org/pdf/2502.14587v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2502.14587v1",
+    "raw_categories": [
+      "cond-mat.soft"
+    ],
+    "journal_ref": ""
+  }
+}

@@ -1,0 +1,857 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.07.29.454330",
+  "title": "Discovering molecular features of intrinsically disordered regions by using evolution for contrastive learning",
+  "doi": "10.1101/2021.07.29.454330",
+  "abstract": "A major challenge to the characterization of intrinsically disordered regions (IDRs), which are widespread in the proteome, but relatively poorly understood, is the identification of molecular features that mediate functions of these regions, such as short motifs, amino acid repeats and physicochemical properties. Here, we introduce a proteome-scale feature discovery approach for IDRs. Our approach, which we call “reverse homology”, exploits the principle that important functional features are conserved over evolution. We use this as a contrastive learning signal for deep learning: given a set of homologous IDRs, the neural network has to correctly choose a held-out homologue from another set of IDRs sampled randomly from the proteome. We pair reverse homology with a simple architecture and standard interpretation techniques, and show that the network learns conserved features of IDRs that can be interpreted as motifs, repeats, or bulk features like charge or amino acid propensities. We also show that our model can be used to produce visualizations of what residues and regions are most important to IDR function, generating hypotheses for uncharacterized IDRs. Our results suggest that feature discovery using unsupervised neural networks is a promising avenue to gain systematic insight into poorly understood protein sequences.",
+  "authors": [
+    "Alex X Lu",
+    "Amy X Lu",
+    "Iva Pritišanac",
+    "Taraneh Zarin",
+    "Julie D Forman-Kay",
+    "Alan M Moses"
+  ],
+  "published_date": "2021-07-30",
+  "updated_date": "2021-07-30T16:40:23Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.07.29.454330",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.07.29.454330.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:24:31Z",
+        "timestamp": 1768494271467,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            30
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 125,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            3,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>A major challenge to the characterization of intrinsically disordered regions (IDRs), which are widespread in the proteome, but relatively poorly understood, is the identification of molecular features that mediate functions of these regions, such as short motifs, amino acid repeats and physicochemical properties. Here, we introduce a proteome-scale feature discovery approach for IDRs. Our approach, which we call “reverse homology”, exploits the principle that important functional features are conserved over evolution. We use this as a contrastive learning signal for deep learning: given a set of homologous IDRs, the neural network has to correctly choose a held-out homologue from another set of IDRs sampled randomly from the proteome. We pair reverse homology with a simple architecture and standard interpretation techniques, and show that the network learns conserved features of IDRs that can be interpreted as motifs, repeats, or bulk features like charge or amino acid propensities. We also show that our model can be used to produce visualizations of what residues and regions are most important to IDR function, generating hypotheses for uncharacterized IDRs. Our results suggest that feature discovery using unsupervised neural networks is a promising avenue to gain systematic insight into poorly understood protein sequences.</jats:p>",
+      "DOI": "10.1101/2021.07.29.454330",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2021-07-30T16:40:23Z",
+        "timestamp": 1627663223000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Discovering molecular features of intrinsically disordered regions by using evolution for contrastive learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9568-3155",
+          "authenticated-orcid": false,
+          "given": "Alex X",
+          "family": "Lu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Amy X",
+          "family": "Lu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9152-6555",
+          "authenticated-orcid": false,
+          "given": "Iva",
+          "family": "Pritišanac",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1253-3843",
+          "authenticated-orcid": false,
+          "given": "Taraneh",
+          "family": "Zarin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8265-972X",
+          "authenticated-orcid": false,
+          "given": "Julie D",
+          "family": "Forman-Kay",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alan M",
+          "family": "Moses",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pmic.201800061"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr400525m"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. Lindorff-Larsen and B. B. Kragelund , “On the potential of machine learning to examine the relationship between sequence, structure, dynamics and function of intrinsically disordered proteins,” Jun. 2021.",
+          "DOI": "10.1016/j.jmb.2021.167196"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2019.03.009"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-0716-0524-0_6"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz975"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01117-3"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu744"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky384"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2019.03.013"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-24773-7"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.60220"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky995"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3041"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2015.03.008"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.46883"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkzl030"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2007-8-2-r23"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/tra.12310"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2018.06.014"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1516277113"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaw8653"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2014.11.023"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.20188190"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cels.2018.01.015"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-8-1"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5772/65441"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.0000058"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature03441"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0501046102"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/scisigna1.2002515"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks854"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1118678109"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1614787114"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/genetics/iyab184"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3300"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.200535.115"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-021-00782-6"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01252-x"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.227819.117"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1007560"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2020.04.020"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/ELIFE.68068"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa942"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1007"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.49",
+          "unstructured": "L. Jing and Y. Tian , “Self-supervised Visual Feature Learning with Deep Neural Networks: A Survey,” Feb. 2019."
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-3220-8"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Rao et al., “Evaluating Protein Transfer Learning with TAPE,” NeurlPS 2019, Jun. 2019.",
+          "DOI": "10.1101/676825"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0598-1"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2020.09.04.283929"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.02.12.430858"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.02.027"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.57",
+          "unstructured": "A. X. Lu , A. X. Lu , and A. Moses , “Evolution Is All You Need: Phylogenetic Augmentation for Contrastive Learning,” Dec. 2020."
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.58",
+          "unstructured": "T. Chen , S. Kornblith , M. Norouzi , and G. Hinton , “A Simple Framework for Contrastive Learning of Visual Representations,” ICLR 2020, Feb. 2020."
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.59",
+          "unstructured": "A. van den Oord , Y. Li , and O. Vinyals , “Representation Learning with Contrastive Predictive Coding,” Jul. 2018."
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.60",
+          "doi-asserted-by": "crossref",
+          "unstructured": "X. Liu et al., “Self-supervised Learning: Generative or Contrastive,” arXiv, Jun. 2020.",
+          "DOI": "10.1109/TKDE.2021.3090866"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/0471250953.bi0301s42"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-39"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2011-12-2-r14"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/pr060048x"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/pr060049p"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1003030"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M109.028431"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.68",
+          "doi-asserted-by": "crossref",
+          "unstructured": "L. Mclnnes , J. Healy , and J. Melville , “UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction,” Feb. 2018.",
+          "DOI": "10.21105/joss.00861"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt1146"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BJ20110720"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1304749110"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4929391"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.73",
+          "unstructured": "A. Shanehsazzadeh , D. Belanger , and D. Dohan , “Is Transfer Learning Necessary for Protein Landscape Prediction?,” Oct. 2020."
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.74",
+          "unstructured": "T. Lu , A. X. Lu , and A. M. Moses , “Random Embeddings and Linear Regression can Predict Protein Function,” Apr. 2021."
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr1029"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2180-12-1"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-48"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/jb.177.11.3104-3110.1995"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/JB.183.9.2881-2887.2001"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.94.25.13804"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/febs.12468"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1567-1364.2009.00601.x"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.83",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/18.20.6097"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1126"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15476286.2019.1621623"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2097-z"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.31486"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1005499"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3978"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-80357-3"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2007.06.029"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M111.323253"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1007348"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aal3321"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BST20120092"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-008-8296-7"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.dnarep.2018.07.008"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nm761"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.06.006"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.100",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx1153"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41557-021-00840-w"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4161/rdis.25200"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.08.23.457426"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.104",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1049"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.105",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.0010026"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.106",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1003977"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.107",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msaa258"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.108",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-021-82656-9"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.109",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002709"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.110",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/e21070662"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.111",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.CELL.2020.11.050"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.112",
+          "unstructured": "R. M. Rao et al., “MSA Transformer,” in Proceedings of the 38th International Conference on Machine Learning, Jul. 2021, pp. 8844–8856. Accessed: Feb. 26, 2022. [Online]. Available: https://proceedings.mlr.press/v139/rao21a.html"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.113",
+          "unstructured": "P. Bryant and A. Elofsson , “Studying signal peptides with attention neural networks informs cleavage site predictions,” p. 16."
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.114",
+          "unstructured": "J. Devlin , M.-W. Chang , K. Lee , and K. Toutanova , “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,” ArXivl81004805 Cs, May 2019, Accessed: Mar. 02, 2022. [Online]. Available: http://arxiv.org/abs/1810.04805"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.115",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab083"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.116",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx432"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.117",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.3672305"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.118",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw678"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.119",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1067"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.120",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkf436"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.121",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/CB09780511819049.006"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.122",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF01734359"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.123",
+          "unstructured": "D. P. Kingma and J. Ba , “Adam: A Method for Stochastic Optimization,” ArXivl4l26980 Cs, Jan. 2017, Accessed: Feb. 27, 2022. [Online]. Available: http://arxiv.org/abs/1412.6980"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.124",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp163"
+        },
+        {
+          "key": "2022030511450454000_2021.07.29.454330v3.125",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz921"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.07.29.454330",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:00:33Z",
+        "timestamp": 1768442433000
+      },
+      "score": 75.618225,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.07.29.454330"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            30
+          ]
+        ]
+      },
+      "references-count": 125,
+      "URL": "https://doi.org/10.1101/2021.07.29.454330",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1371/journal.pcbi.1010238",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

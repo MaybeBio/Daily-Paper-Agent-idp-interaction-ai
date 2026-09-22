@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37756337",
+  "title": "Intrinsic disorder and conformational coexistence in auxin coreceptors.",
+  "authors": "Ramans-Harborough, Sigurd; Kalverda, Arnout P; Manfield, Iain W; Thompson, Gary S; Kieffer, Martin; Uzunova, Veselina; Quareshy, Mussa; Prusinska, Justyna M; Roychoudhry, Suruchi; Hayashi, Ken-Ichiro; Napier, Richard; Genio, Charo Del; Kepinski, Stefan",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2023-09-27",
+  "window": {
+    "start": "2023-09-25",
+    "end": "2023-10-01"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合NMR、CD与MD模拟，研究Aux/IAA无序蛋白N端结构域与TIR1受体形成共受体复合物的构象共存与结合机制，直接聚焦IDR介导的PPI机制建模，高度契合本课题。",
+  "abstract": "AUXIN/INDOLE 3-ACETIC ACID (Aux/IAA) transcriptional repressor proteins and the TRANSPORT INHIBITOR RESISTANT 1/AUXIN SIGNALING F-BOX (TIR1/AFB) proteins to which they bind act as auxin coreceptors. While the structure of TIR1 has been solved, structural characterization of the regions of the Aux/IAA protein responsible for auxin perception has been complicated by their predicted disorder. Here, we use NMR, CD and molecular dynamics simulation to investigate the N-terminal domains of the Aux/IAA protein IAA17/AXR3. We show that despite the conformational flexibility of the region, a critical W-P bond in the core of the Aux/IAA degron motif occurs at a strikingly high (1:1) ratio of cis to trans isomers, consistent with the requirement of the cis conformer for the formation of the fully-docked receptor complex. We show that the N-terminal half of AXR3 is a mixture of multiple transiently structured conformations with a propensity for two predominant and distinct conformational subpopulations within the overall ensemble. These two states were modeled together with the C-terminal PB1 domain to provide the first complete simulation of an Aux/IAA. Using MD to recreate the assembly of each complex in the presence of auxin, both structural arrangements were shown to engage with the TIR1 receptor, and contact maps from the simulations match closely observations of NMR signal-decreases. Together, our results and approach provide a platform for exploring the functional significance of variation in the Aux/IAA coreceptor family and for understanding the role of intrinsic disorder in auxin signal transduction and other signaling systems.",
+  "abstract_zh": "AUXIN/INDOLE 3-ACETIC ACID (Aux/IAA) 转录抑制蛋白及其结合的 TRANSPORT INHIBITOR RESISTANT 1/AUXIN SIGNALING F-BOX (TIR1/AFB) 蛋白作为生长素共受体发挥作用。尽管 TIR1 的结构已被解析，但负责生长素感知的 Aux/IAA 蛋白区域的结构表征因其预测的无序性而变得复杂。在此，我们使用核磁共振 (NMR)、圆二色谱 (CD) 和分子动力学 (molecular dynamics) 模拟来研究 Aux/IAA 蛋白 IAA17/AXR3 的 N 端结构域。我们表明，尽管该区域具有构象灵活性，但 Aux/IAA 降解子基序核心中的一个关键 W-P 键以显著高的顺式与反式异构体比例（1:1）存在，这与完全对接受体复合物形成所需的顺式构象一致。我们显示，AXR3 的 N 端半部分是多种瞬时结构化构象的混合物，整体集合中倾向于两种主要且不同的构象亚群。这两种状态与 C 端 PB1 结构域一起建模，提供了 Aux/IAA 的首次完整模拟。使用分子动力学 (MD) 在生长素存在下重建每个复合物的组装，两种结构排列均显示与 TIR1 受体结合，模拟中的接触图与 NMR 信号降低的观察结果高度匹配。总之，我们的结果和方法为探索 Aux/IAA 共受体家族变异的 functional 意义以及理解内在无序性在生长素信号转导及其他信号系统中的作用提供了一个平台。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37756337/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37756337/",
+  "paper_page_path": "papers/pubmed/37756337/index.html"
+}

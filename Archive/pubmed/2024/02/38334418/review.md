@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report experimental characterization of self-interactions and reversible self-association for two Fc-fusion proteins (monovalent and bivalent) and their fusion partner protein using static and dynamic light scattering across pH 5 and 6.5 and ionic strengths from 10 mM to at least 300 mM. They report pH-dependent net attractive versus repulsive electrostatic self-interactions, presence of higher molecular weight species in the bivalent Fc-fusion that precluded standard interaction parameter quantification, reversible self-association at pH 6.5 for all three proteins, and coarse-grained molecular simulations identifying cross-domain electrostatic interactions between fusion partner and Fc domains as the origin of attractive self-interactions.
+- **Visible evidence base** Abstract text only; no experimental data, simulation details, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, simulation parameters, raw data, error analyses, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting biophysical study addressing a relevant problem in therapeutic protein formulation. The combination of experimental light scattering and coarse-grained simulations is appropriate in principle. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental design, the validity of the simulation approach, or the robustness of the conclusions. Several claims, particularly regarding the molecular origin of attractive interactions, appear to extend beyond what can be supported from the summarized evidence. The work may be of interest to the biopharmaceutical community, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in biopharmaceutical formulation science, protein biophysics, and molecular simulation of protein solutions would be interested. The findings could inform development strategies for Fc-fusion therapeutics by linking electrostatic interaction mechanisms to solution behaviors such as viscosity and aggregation. The simulation approach may also interest computational biophysicists working on protein-protein interactions.
+- **Major strengths** The study addresses a practically important problem with a combination of experimental and computational methods. The pH and ionic strength dependence is systematically varied, which is appropriate for probing electrostatic contributions. The inclusion of a monovalent and bivalent Fc-fusion alongside the fusion partner provides a comparative design that could help isolate domain-specific contributions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "Mayer-weighted pairwise electrostatic energies from the simulations suggested that attractive electrostatic self-interactions at pH 6.5 for the two Fc-fusion proteins were due to cross-domain interactions between the fusion partner domain(s) and the Fc domain."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no information on the simulation methodology, including the coarse-grained model resolution, force field parameters, treatment of electrostatics, sampling approach, or how Mayer-weighted energies were computed. Without these details, it is impossible to assess whether the simulations are physically realistic or whether the attribution of attractive interactions to specific cross-domain contacts is robust. The claim of a mechanistic origin is a strong conclusion that requires substantial validation.
+  - **Why it matters** The central mechanistic conclusion of the abstract rests entirely on the simulation results. If the simulation approach is not adequately validated or the analysis is not statistically robust, the primary scientific contribution of the work is undermined. The claim goes beyond describing observed behavior to assigning a molecular cause, which has implications for how the results might be used in protein engineering or formulation design.
+  - **Resolution test** The full manuscript must provide a detailed description of the simulation model and parameters, validation against experimental data, convergence checks, and error estimates for the Mayer-weighted energies. The cross-domain interaction claim should be supported by systematic variation of simulation conditions and, ideally, by comparison with experimental mutants or charge variants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "All three of the proteins displayed reversible self-association at pH 6.5, where oligomers dissociated with increased ionic strength."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify how reversibility was established, what oligomer sizes were observed, or how dissociation with ionic strength was quantified. Reversible self-association is a kinetic and thermodynamic statement that requires careful experimental demonstration, such as concentration-dependent measurements, equilibrium constants, or time-resolved data. The abstract also does not clarify whether the bivalent Fc-fusion, which contained higher molecular weight species that precluded standard interaction parameter quantification, was included in this reversibility assessment or whether the claim applies only to the other two proteins.
+  - **Why it matters** Reversible self-association is a key claim with direct relevance to solution behavior. If the evidence for reversibility is weak or the bivalent protein behaves differently, the conclusions about the generality of the phenomenon across the three proteins are not supported. The ambiguity also affects the interpretation of the interaction parameters and the simulation results.
+  - **Resolution test** The full manuscript must provide experimental data demonstrating reversibility, such as dilution or temperature cycling experiments, and should clearly state which proteins were included in each analysis. Quantification of oligomer populations and their ionic strength dependence is required.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract implies that the findings on attractive self-interactions and reversible self-association are relevant to "irreversible aggregation, elevated viscosity, phase separation, and opalescence" in therapeutic proteins.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any direct link between the measured self-interactions and these macroscopic solution behaviors. No data on viscosity, aggregation kinetics, phase behavior, or opalescence are presented. The relevance statement appears to be an extrapolation from the measured interaction parameters to downstream phenomena without demonstrated correlation.
+  - **Why it matters** The broader significance of the work depends on establishing that the studied self-interactions are predictive of or causally related to the problematic behaviors listed. Without such a link, the practical importance of the findings for therapeutic protein development remains speculative.
+  - **Resolution test** The full manuscript should include data or discussion connecting the measured interaction parameters to at least one macroscopic behavior, or the authors should temper the relevance claim to reflect the indirect nature of the connection.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses technical terms such as B(22) and k(D) without defining them. While these are standard in the protein interaction field, nonspecialist readers in the broader biopharmaceutical community may not be familiar with them.
+  - **Required correction** Provide brief definitions or parenthetical explanations for these parameters in the abstract or ensure the full manuscript introduces them clearly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Experimental scope
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that ionic strength was varied from 10 mM to at least 300 mM, but the upper limit is not specified. This imprecision makes it difficult to assess the range of conditions tested.
+  - **Required correction** Specify the exact maximum ionic strength used in the experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract text
+  - **Issue** The study examines only two Fc-fusion proteins and one fusion partner. The abstract does not discuss whether the observed behavior is expected to be general across other Fc-fusion proteins or specific to these constructs.
+  - **Required correction** Add a sentence in the abstract or discussion addressing the potential generalizability or limitations of the findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic claim and the reversibility claim cannot be evaluated from the abstract alone. The lack of simulation details and reversibility evidence means the core conclusions are not currently supported by the provided material.
+- **Assessment against Nature-style criteria** Originality: The combination of experimental light scattering with coarse-grained simulations to probe domain-specific electrostatic interactions in Fc-fusion proteins appears to have some novelty, though the abstract does not clearly position it against prior work. Scientific importance: The topic is relevant to biopharmaceutical development, but the abstract does not establish a direct link to the problematic behaviors that motivate the study, limiting the demonstrated importance. Interdisciplinary readership: The work bridges biophysics, computational chemistry, and pharmaceutical science, which could attract a broad audience, but the abstract is written in a specialized manner that may limit accessibility. Technical soundness: Cannot be assessed from the abstract; the lack of methodological detail for both experiments and simulations is a significant concern. Readability for nonspecialists: The abstract is concise but uses field-specific jargon without explanation, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially valuable study, but the absence of methodological detail and the strength of the mechanistic claims require access to the full manuscript for proper evaluation. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that attractive self-interactions at pH 6.5 are due to cross-domain interactions between fusion partner and Fc domains is unsupported from the abstract alone, as no simulation details or validation are provided.
+- The claim that all three proteins displayed reversible self-association is not supported, as the abstract does not describe how reversibility was demonstrated and whether the bivalent protein was included.
+- The relevance of the findings to irreversible aggregation, elevated viscosity, phase separation, and opalescence is asserted without any direct experimental evidence linking the measured interactions to these behaviors.
+- The statement that the bivalent Fc-fusion contained higher molecular weight species that prevented quantification of B(22) and k(D) is reported but not contextualized, and the implications for the interpretation of other measurements are unclear.

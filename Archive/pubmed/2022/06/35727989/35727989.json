@@ -1,0 +1,469 @@
+{
+  "identity": {
+    "pmid": "35727989",
+    "doi": "10.1073/pnas.2119800119",
+    "title": "Aging can transform single-component protein condensates into multiphase architectures."
+  },
+  "content": {
+    "abstract": "Phase-separated biomolecular condensates that contain multiple coexisting phases are widespread in vitro and in cells. Multiphase condensates emerge readily within multicomponent mixtures of biomolecules (e.g., proteins and nucleic acids) when the different components present sufficient physicochemical diversity (e.g., in intermolecular forces, structure, and chemical composition) to sustain separate coexisting phases. Because such diversity is highly coupled to the solution conditions (e.g., temperature, pH, salt, composition), it can manifest itself immediately from the nucleation and growth stages of condensate formation, develop spontaneously due to external stimuli or emerge progressively as the condensates age. Here, we investigate thermodynamic factors that can explain the progressive intrinsic transformation of single-component condensates into multiphase architectures during the nonequilibrium process of aging. We develop a multiscale model that integrates atomistic simulations of proteins, sequence-dependent coarse-grained simulations of condensates, and a minimal model of dynamically aging condensates with nonconservative intermolecular forces. Our nonequilibrium simulations of condensate aging predict that single-component condensates that are initially homogeneous and liquid like can transform into gel-core/liquid-shell or liquid-core/gel-shell multiphase condensates as they age due to gradual and irreversible enhancement of interprotein interactions. The type of multiphase architecture is determined by the aging mechanism, the molecular organization of the gel and liquid phases, and the chemical makeup of the protein. Notably, we predict that interprotein disorder to order transitions within the prion-like domains of intracellular proteins can lead to the required nonconservative enhancement of intermolecular interactions. Our study, therefore, predicts a potential mechanism by which the nonequilibrium process of aging results in single-component multiphase condensates.",
+    "keywords": [
+      "biomolecular condensates",
+      "hollow condensates",
+      "liquid-liquid phase separation",
+      "multiscale modeling multiphase condensates"
+    ],
+    "mesh_terms": [
+      "*Aging/metabolism",
+      "*Biomolecular Condensates/chemistry/metabolism",
+      "Models, Biological",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation, beta-Strand",
+      "*RNA-Binding Protein FUS/chemistry/metabolism",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Garaizar, Adiran",
+        "Espinosa, Jorge R",
+        "Joseph, Jerelle A",
+        "Krainer, Georg",
+        "Shen, Yi",
+        "Knowles, Tuomas P J",
+        "Collepardo-Guevara, Rosana"
+      ],
+      "short_names": [
+        "Garaizar A",
+        "Espinosa JR",
+        "Joseph JA",
+        "Krainer G",
+        "Shen Y",
+        "Knowles TPJ",
+        "Collepardo-Guevara R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9320-2984",
+        "ORCID: 0000-0001-9530-2658",
+        "ORCID: 0000-0003-4525-180X",
+        "ORCID: 0000-0002-9626-7636",
+        "ORCID: 0000-0002-0456-3850",
+        "ORCID: 0000-0003-1781-7351"
+      ],
+      "affiliations": [
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, United Kingdom.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, United Kingdom.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, United Kingdom.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom.",
+        "Department of Genetics, University of Cambridge, Cambridge CB2 3EH, United Kingdom.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom.",
+        "School of Chemical and Biomolecular Engineering, The University of Sydney, Sydney, NSW 2006, Australia.",
+        "The University of Sydney Nano Institute, The University of Sydney, Sydney, NSW 2006, Australia.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, United Kingdom.",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, United Kingdom.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom.",
+        "Department of Genetics, University of Cambridge, Cambridge CB2 3EH, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Garaizar, Adiran",
+        "short_name": "Garaizar A",
+        "identifiers": [
+          "0000-0002-9320-2984"
+        ],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [
+          "0000-0001-9530-2658"
+        ],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Joseph, Jerelle A",
+        "short_name": "Joseph JA",
+        "identifiers": [
+          "0000-0003-4525-180X"
+        ],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, United Kingdom.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom.",
+          "Department of Genetics, University of Cambridge, Cambridge CB2 3EH, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Krainer, Georg",
+        "short_name": "Krainer G",
+        "identifiers": [
+          "0000-0002-9626-7636"
+        ],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Shen, Yi",
+        "short_name": "Shen Y",
+        "identifiers": [
+          "0000-0002-0456-3850"
+        ],
+        "affiliations": [
+          "School of Chemical and Biomolecular Engineering, The University of Sydney, Sydney, NSW 2006, Australia.",
+          "The University of Sydney Nano Institute, The University of Sydney, Sydney, NSW 2006, Australia."
+        ]
+      },
+      {
+        "full_name": "Knowles, Tuomas P J",
+        "short_name": "Knowles TPJ",
+        "identifiers": [],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, United Kingdom.",
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [
+          "0000-0003-1781-7351"
+        ],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, United Kingdom.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, United Kingdom.",
+          "Department of Genetics, University of Cambridge, Cambridge CB2 3EH, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2022 Jun 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/22 06:00",
+    "fetched_at": "2026-09-20 11:22:09"
+  },
+  "links": {
+    "cites": [
+      "42294232",
+      "42189893",
+      "42032061",
+      "41999312",
+      "41909144",
+      "41868013",
+      "41863073",
+      "41850298",
+      "41738287",
+      "41659251",
+      "41278840",
+      "41247240",
+      "41097365",
+      "41022842",
+      "40985078",
+      "40916915",
+      "40894760",
+      "40877270",
+      "40830340",
+      "40730570",
+      "40473633",
+      "40196628",
+      "40028356",
+      "39866835",
+      "39660892",
+      "39578406",
+      "39535884",
+      "39484615",
+      "39475644",
+      "39259851",
+      "39211498",
+      "39149291",
+      "39134696",
+      "38963823",
+      "38961263",
+      "38885177",
+      "38499848",
+      "38467846",
+      "38362920",
+      "38061016",
+      "37996438",
+      "37957147",
+      "37915170",
+      "37782826",
+      "37766941",
+      "37749234",
+      "37634152",
+      "37549257",
+      "37497046",
+      "37399327",
+      "37386790",
+      "37267850",
+      "37196085",
+      "37194953",
+      "37171907",
+      "37155880",
+      "37065433",
+      "36945688",
+      "36910151",
+      "36883003",
+      "36804705",
+      "36350032",
+      "36175408",
+      "36028485"
+    ],
+    "refs": [
+      "35795820",
+      "35293386",
+      "35001622",
+      "34852466",
+      "34598583",
+      "34315935",
+      "33942880",
+      "33597515",
+      "33558506",
+      "33547841",
+      "33510441",
+      "33335017",
+      "33307683",
+      "33303613",
+      "33302617",
+      "33174726",
+      "32936641",
+      "32934220",
+      "32857852",
+      "32802734",
+      "32661370",
+      "32571937",
+      "32484438",
+      "32482873",
+      "32302572",
+      "32214243",
+      "32029630",
+      "31958956",
+      "31743027",
+      "31430179",
+      "31043593",
+      "30926670",
+      "30260314",
+      "30045872",
+      "29961577",
+      "29921587",
+      "29786080",
+      "29735687",
+      "29723523",
+      "29677515",
+      "29610493",
+      "29602697",
+      "29531287",
+      "29490200",
+      "29439243",
+      "29364893",
+      "29091028",
+      "28942918",
+      "28935776",
+      "28790177",
+      "28636604",
+      "28636597",
+      "28256228",
+      "28225081",
+      "27819658",
+      "27646274",
+      "27452472",
+      "27212236",
+      "26996412",
+      "26777405",
+      "26526393",
+      "26406374",
+      "26317470",
+      "25453085",
+      "25288112",
+      "24120937",
+      "24116630",
+      "22579281",
+      "22398450",
+      "22191900",
+      "22053320",
+      "21442608",
+      "21368180",
+      "16626213",
+      "15102453"
+    ],
+    "similar": [
+      "35727989",
+      "34862761",
+      "37194953",
+      "39578406",
+      "33672806",
+      "36883003",
+      "36175408",
+      "38383656",
+      "38996511",
+      "34767801",
+      "33307683",
+      "33864415",
+      "36993212",
+      "39636939",
+      "39486437",
+      "37549257",
+      "36755024",
+      "35597639",
+      "39455581",
+      "34772789",
+      "39356108",
+      "39804953",
+      "37408305",
+      "40108179",
+      "35293386",
+      "34129784",
+      "36071192",
+      "40164149",
+      "37276062",
+      "40291420",
+      "40172489",
+      "38832749",
+      "39227569",
+      "40009520",
+      "32426986",
+      "34966005",
+      "39670461",
+      "37782826",
+      "32482873",
+      "39496836",
+      "37470705",
+      "33571491",
+      "36758221",
+      "39535884",
+      "35001622",
+      "35108264",
+      "39937084",
+      "37735903",
+      "39075031",
+      "34487489",
+      "34090478",
+      "37205474",
+      "39591652",
+      "39112465",
+      "36819870",
+      "34784177",
+      "37684240",
+      "40195119",
+      "39366355",
+      "32405004",
+      "36524527",
+      "34916288",
+      "37252985",
+      "34552246",
+      "38621751",
+      "40184654",
+      "37735186",
+      "37503034",
+      "38999934",
+      "40098319",
+      "40408482",
+      "38987300",
+      "34772786",
+      "39276934",
+      "33558506",
+      "38751116",
+      "37155880",
+      "39482532",
+      "40074825",
+      "40229261",
+      "38649740",
+      "38971830",
+      "39827079",
+      "39987501",
+      "38466837",
+      "38884477",
+      "38824391",
+      "34648275",
+      "34018649",
+      "37386790",
+      "38773325",
+      "40203038",
+      "37586369",
+      "39078082",
+      "33930220",
+      "40028898",
+      "40291709",
+      "40321778",
+      "33597515",
+      "34772787"
+    ],
+    "review": [
+      "35727989",
+      "34767801",
+      "34772789",
+      "34129784",
+      "36071192",
+      "37276062",
+      "40172489",
+      "34966005",
+      "37735903",
+      "39366355",
+      "36524527",
+      "38621751",
+      "34772786",
+      "39482532",
+      "39827079",
+      "38773325",
+      "33930220"
+    ],
+    "pmc": [
+      "9245653"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2119800119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35727989/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35727989",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

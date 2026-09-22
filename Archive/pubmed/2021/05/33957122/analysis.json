@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33957122",
+  "title": "From structure to the dynamic regulation of a molecular switch: A journey over 3 decades.",
+  "authors": "Taylor, Susan S; Wu, Jian; Bruystens, Jessica G H; Del Rio, Jason C; Lu, Tsan-Wen; Kornev, Alexandr P; Ten Eyck, Lynn F",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2021-05-07",
+  "window": {
+    "start": "2021-05-03",
+    "end": "2021-05-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文回顾cAMP依赖蛋白激酶分子开关30年结构研究，强调动态无序区域在蛋白互作界面中的重要性，并融合MD模拟等方法，但以综述为主且非直接聚焦IDP介导的PPI机制建模。",
+  "abstract": "It is difficult to imagine where the signaling community would be today without the Protein Data Bank. This visionary resource, established in the 1970s, has been an essential partner for sharing information between academics and industry for over 3 decades. We describe here the history of our journey with the protein kinases using cAMP-dependent protein kinase as a prototype. We summarize what we have learned since the first structure, published in 1991, why our journey is still ongoing, and why it has been essential to share our structural information. For regulation of kinase activity, we focus on the cAMP-binding protein kinase regulatory subunits. By exploring full-length macromolecular complexes, we discovered not only allostery but also an essential motif originally attributed to crystal packing. Massive genomic data on disease mutations allows us to now revisit crystal packing as a treasure chest of possible protein:protein interfaces where the biological significance and disease relevance can be validated. It provides a new window into exploring dynamic intrinsically disordered regions that previously were deleted, ignored, or attributed to crystal packing. Merging of crystallography with cryo-electron microscopy, cryo-electron tomography, NMR, and millisecond molecular dynamics simulations is opening a new world for the signaling community where those structure coordinates, deposited in the Protein Data Bank, are just a starting point!",
+  "abstract_zh": "很难想象，如果没有蛋白质数据库（Protein Data Bank），信号传导领域今天会是什么样子。这一具有远见卓识的资源，建立于20世纪70年代，三十多年来一直是学术界与工业界之间共享信息的重要伙伴。我们在此描述我们与蛋白激酶（protein kinases）的旅程历史，以cAMP依赖性蛋白激酶（cAMP-dependent protein kinase）作为原型。我们总结了自1991年首个结构发表以来所学到的内容，为什么我们的旅程仍在继续，以及为什么共享我们的结构信息至关重要。对于激酶活性的调控，我们聚焦于cAMP结合蛋白激酶调节亚基（regulatory subunits）。通过探索全长大分子复合物，我们不仅发现了变构效应（allostery），还发现了一个最初归因于晶体堆积（crystal packing）的关键基序。大量关于疾病突变的基因组数据使我们能够重新审视晶体堆积，将其视为可能的蛋白质：蛋白质界面的宝库，其中生物学意义和疾病相关性可以得到验证。这为探索动态的内在无序区域（intrinsically disordered regions）提供了新窗口，这些区域以前常被删除、忽略或归因于晶体堆积。晶体学与冷冻电子显微镜（cryo-electron microscopy）、冷冻电子断层扫描（cryo-electron tomography）、核磁共振（NMR）以及毫秒级分子动力学模拟（molecular dynamics simulations）的融合，正在为信号传导领域打开一个新世界，其中那些存放在蛋白质数据库中的结构坐标仅仅是一个起点！",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33957122/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33957122/",
+  "paper_page_path": "papers/pubmed/33957122/index.html"
+}

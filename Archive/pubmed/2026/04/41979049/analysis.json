@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41979049",
+  "title": "Construction and Application of Nucleic Acids-Based Biomolecular Condensates.",
+  "authors": "Ma, Yijie; Ren, Kewei",
+  "journal": "Accounts of chemical research",
+  "published_date": "2026-04-14",
+  "window": {
+    "start": "2026-04-13",
+    "end": "2026-04-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该文综述基于核酸的生物分子凝聚体的构建与应用，虽涉及相分离和凝聚体，但对象为核酸而非无序蛋白/IDR，且未聚焦蛋白-蛋白互作机制建模，方法上无AI或物理模拟贡献，仅部分思路（多价互作、序列设计调控）对IDR凝聚体设计有间接启发。",
+  "abstract": "Biomolecular condensates are membrane-less organelles formed via liquid-liquid phase separation (LLPS) in cells, which play crucial roles in organizing biochemical reactions, regulating gene expression, and responding to environmental stimuli. These dynamic membrane-less organelles, such as stress granules and nucleoli, could concentrate specific proteins and nucleic acids for spatiotemporally controlling cellular processes. The engineering of synthetic condensates is beneficial for understanding condensates formation, simulating cellular behavior, and exploration of biological pathologies. Nucleic acid, as an important component of biomolecular condensates in cells, offers a unique platform to engineer synthetic condensates due to its programmability and precise and predictable Watson-Crick base pairing. The nucleic acid-based condensates were assembled through multivalent forces among nucleic acids or nucleic acid-peptide complexes. By designing and modifying nucleic acid sequences, the interaction forces could be regulated with external stimuli to control the formation and decomposition of nucleic acid-based condensates for various fields application. Our group has constructed various nucleic acid-based biomolecular condensates and applied them in biosensing and cellular regulation. We designed CUG repeats-based condensates for improving fluorescent RNA aptamer properties (enzymatic degradation resistance, thermal stability, photostability, and binding affinity to fluorophores) and detecting in vitro and intracellular biomolecules (adenosylmethionine and tetracycline), as well as target cells with overexpressed epithelial cell adhesion molecules. In addition, we leveraged the strong Watson-Crick base pairing ability to recruit the intracellular target RNA into condensates for cellular regulation. In this Account, we give an overview of nucleic acid-based biomolecular condensates. We first discuss the intermolecular interactions and forces involved in the formation of nucleic acid-based biomolecular condensates. Subsequently, we summarize recent research about nucleic acid-based condensates and their applications in the fields of biological imaging and biosensing, cell simulation, cellular regulation, and drug delivery. Finally, we outline the current challenges and future opportunities of nucleic acid-based biomolecular condensates. We hope that this Account will afford significant inspiration in the design of nucleic acid-based condensates and the applications in cell biology and biomedicines.",
+  "abstract_zh": "生物分子凝聚体是通过液-液相分离（liquid-liquid phase separation, LLPS）在细胞内形成的无膜细胞器，它们在组织生化反应、调控基因表达以及响应环境刺激中发挥关键作用。这些动态的无膜细胞器，如应激颗粒和核仁，能够富集特定蛋白质和核酸，以时空控制细胞过程。合成凝聚体的工程化有助于理解凝聚体的形成、模拟细胞行为以及探索生物病理机制。核酸作为细胞内生物分子凝聚体的重要组成部分，凭借其可编程性以及精确可预测的Watson-Crick碱基配对，为工程化合成凝聚体提供了独特平台。基于核酸的凝聚体通过核酸或核酸-肽复合物之间的多价作用力组装而成。通过设计和修饰核酸序列，可以借助外部刺激调控相互作用力，以控制基于核酸的凝聚体的形成与分解，从而应用于多个领域。我们课题组构建了多种基于核酸的生物分子凝聚体，并将其应用于生物传感和细胞调控。我们设计了基于CUG重复序列的凝聚体，以改善荧光RNA适配体的性能（抗酶解性、热稳定性、光稳定性以及与荧光团的结合亲和力），并用于体外和细胞内生物分子（腺苷甲硫氨酸和四环素）的检测，以及过表达上皮细胞黏附分子的靶细胞识别。此外，我们利用强Watson-Crick碱基配对能力，将细胞内靶RNA招募至凝聚体中，以实现细胞调控。在本综述中，我们概述了基于核酸的生物分子凝聚体。首先，我们讨论了参与基于核酸的生物分子凝聚体形成的分子间相互作用和作用力。随后，我们总结了关于基于核酸的凝聚体的近期研究及其在生物成像与生物传感、细胞模拟、细胞调控和药物递送领域的应用。最后，我们概述了基于核酸的生物分子凝聚体当前面临的挑战和未来机遇。我们希望本综述能为基于核酸的凝聚体设计及其在细胞生物学和生物医学中的应用提供重要启发。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41979049/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41979049/",
+  "paper_page_path": "papers/pubmed/41979049/index.html"
+}

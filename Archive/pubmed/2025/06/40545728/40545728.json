@@ -1,0 +1,350 @@
+{
+  "identity": {
+    "pmid": "40545728",
+    "doi": "10.1002/pro.70199",
+    "title": "Mini-alphaA-crystallin protects a client lens protein from catastrophic aggregation due to heat stress."
+  },
+  "content": {
+    "abstract": "The clarity and refractivity of the eye lens are mediated by the highly soluble crystallin proteins. Post-translational modifications impact solubility and stability of the structural and refractive betagamma-crystallins, eventually leading to cataract. Such damaged proteins are kept in solution by the holdase chaperone alpha-crystallins, maintaining lens transparency over decades despite the absence of protein turnover. It was previously found that a short peptide from human alphaA-crystallin (mini-alphaA-crystallin [MAAC]) retains some chaperone activity, with hydrophobic interactions hypothesized to mediate chaperone-client interactions; MAAC has been hypothesized to have beta-strand structure in solution, although its conformational ensemble under these conditions has not been well-characterized. Here, we employ a combination of nuclear magnetic resonance (NMR), circular dichroism spectroscopy, dynamic light scattering, and molecular dynamics simulations to examine the behavior of MAAC in dilute solution and in combination with human gammaS-crystallin. Structural ensembles of two alanine variants of MAAC (I4A and L6A) show that the variants lack well-defined secondary structure, but have a preference for a bent conformation with some self-interaction. A partial alanine scan indicates that several hydrophobic residues are important for peptide solubility, also modifying the peptide's conformational ensemble. Tests of wild-type MAAC chaperone activity on thermally stressed gammaS-crystallin show little interaction between MAAC and the client protein below its unfolding temperature. However, MAAC does inhibit large-scale aggregation at the gammaS-crystallin unfolding temperature. NMR measurements indicate only weak, transient interaction with the client protein during the intermediate aggregation phase, suggesting a sharp phase transition in the MAAC-client system.",
+    "keywords": [
+      "NMR spectroscopy",
+      "crystallin",
+      "holdase chaperone",
+      "intrinsically disordered protein",
+      "mini-alpha-crystallin",
+      "molecular dynamics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*gamma-Crystallins/chemistry/metabolism",
+      "*alpha-Crystallin A Chain/chemistry/genetics/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Protein Aggregates",
+      "Hot Temperature",
+      "Nuclear Magnetic Resonance, Biomolecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sroge, Collin",
+        "Suk, Jaewon",
+        "Zhu, Jason",
+        "Padilla, Maria Sophia Teresa Lee",
+        "Baca, Christian F",
+        "Butts, Carter T",
+        "Martin, Rachel W"
+      ],
+      "short_names": [
+        "Sroge C",
+        "Suk J",
+        "Zhu J",
+        "Padilla MSTL",
+        "Baca CF",
+        "Butts CT",
+        "Martin RW"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9996-7411"
+      ],
+      "affiliations": [
+        "Department of Molecular Biology and Biochemistry, UC Irvine, Irvine, California, USA.",
+        "Department of Chemistry, UC Irvine, Irvine, California, USA.",
+        "Department of Chemistry, UC Irvine, Irvine, California, USA.",
+        "Department of Chemistry, UC Irvine, Irvine, California, USA.",
+        "Department of Molecular Biology and Biochemistry, UC Irvine, Irvine, California, USA.",
+        "Department of Sociology, UC Irvine, Irvine, California, USA.",
+        "Department of Statistics, UC Irvine, Irvine, California, USA.",
+        "Department of Computer Science, UC Irvine, Irvine, California, USA.",
+        "Department of Electrical Engineering and Computer Science, UC Irvine, Irvine, California, USA.",
+        "Department of Molecular Biology and Biochemistry, UC Irvine, Irvine, California, USA.",
+        "Department of Chemistry, UC Irvine, Irvine, California, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sroge, Collin",
+        "short_name": "Sroge C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biochemistry, UC Irvine, Irvine, California, USA."
+        ]
+      },
+      {
+        "full_name": "Suk, Jaewon",
+        "short_name": "Suk J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, UC Irvine, Irvine, California, USA."
+        ]
+      },
+      {
+        "full_name": "Zhu, Jason",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, UC Irvine, Irvine, California, USA."
+        ]
+      },
+      {
+        "full_name": "Padilla, Maria Sophia Teresa Lee",
+        "short_name": "Padilla MSTL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, UC Irvine, Irvine, California, USA."
+        ]
+      },
+      {
+        "full_name": "Baca, Christian F",
+        "short_name": "Baca CF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biochemistry, UC Irvine, Irvine, California, USA."
+        ]
+      },
+      {
+        "full_name": "Butts, Carter T",
+        "short_name": "Butts CT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Sociology, UC Irvine, Irvine, California, USA.",
+          "Department of Statistics, UC Irvine, Irvine, California, USA.",
+          "Department of Computer Science, UC Irvine, Irvine, California, USA.",
+          "Department of Electrical Engineering and Computer Science, UC Irvine, Irvine, California, USA."
+        ]
+      },
+      {
+        "full_name": "Martin, Rachel W",
+        "short_name": "Martin RW",
+        "identifiers": [
+          "0000-0001-9996-7411"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Biochemistry, UC Irvine, Irvine, California, USA.",
+          "Department of Chemistry, UC Irvine, Irvine, California, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/23 08:42",
+    "fetched_at": "2026-09-21 20:10:55"
+  },
+  "links": {
+    "cites": [
+      "41329261"
+    ],
+    "refs": [
+      "39014897",
+      "38401625",
+      "38211805",
+      "36830697",
+      "36719917",
+      "36478084",
+      "35566320",
+      "33569867",
+      "33321054",
+      "32752662",
+      "32734663",
+      "32383755",
+      "31792453",
+      "31762096",
+      "30251679",
+      "29162721",
+      "28391594",
+      "27819658",
+      "27663422",
+      "27322406",
+      "26579725",
+      "26149094",
+      "25478825",
+      "24835736",
+      "24275510",
+      "24183572",
+      "23532520",
+      "23389822",
+      "23340341",
+      "23188086",
+      "22096479",
+      "21735120",
+      "21464278",
+      "21244846",
+      "20167250",
+      "20160946",
+      "19921810",
+      "19558189",
+      "19463898",
+      "18618019",
+      "18232642",
+      "16503662",
+      "15663196",
+      "15575808",
+      "10660525",
+      "8749853",
+      "8744570",
+      "7881273",
+      "7545042",
+      "3052280",
+      "1959674",
+      "1438232"
+    ],
+    "similar": [
+      "40545728",
+      "31812542",
+      "25478825",
+      "19862354",
+      "15322286",
+      "15448619",
+      "21552534",
+      "22970163",
+      "31003047",
+      "32697405",
+      "28527593",
+      "33321054",
+      "32234236",
+      "20621668",
+      "17937660",
+      "32271004",
+      "32827531",
+      "31371024",
+      "32184356",
+      "31239355",
+      "22655036",
+      "17941823",
+      "39485632",
+      "29442498",
+      "15692462",
+      "20732317",
+      "30769148",
+      "17149363",
+      "22120592",
+      "24183572",
+      "22272318",
+      "30827504",
+      "27770023",
+      "28782478",
+      "23508955",
+      "28214988",
+      "23755258",
+      "18700785",
+      "21735120",
+      "10217479",
+      "24275510",
+      "21921988",
+      "19558189",
+      "39368693",
+      "24697516",
+      "18479247",
+      "28895938",
+      "30849387",
+      "20937351",
+      "17345631",
+      "31931001",
+      "9045637",
+      "10574947",
+      "29706763",
+      "29676852",
+      "36037967",
+      "25450505",
+      "36012609",
+      "19860667",
+      "18199971",
+      "21300147",
+      "18926820",
+      "26318015",
+      "25389780",
+      "38705506",
+      "20836128",
+      "24214907",
+      "12847419",
+      "21244846",
+      "24287181",
+      "31762096",
+      "29857103",
+      "31792453",
+      "20029648",
+      "25720831",
+      "15284238",
+      "12601044",
+      "9650074",
+      "8943244",
+      "31738854",
+      "25694240",
+      "41034105",
+      "28179137",
+      "41548873",
+      "18343237",
+      "17960114",
+      "31490062",
+      "19151380",
+      "20959464",
+      "11934279",
+      "17118727",
+      "30391002",
+      "24312215",
+      "20709056",
+      "30232732",
+      "12355063",
+      "24760011",
+      "18754677",
+      "17900621",
+      "21256113"
+    ],
+    "review": [
+      "40545728",
+      "33321054",
+      "32271004",
+      "29442498",
+      "10217479",
+      "19860667"
+    ],
+    "pmc": [
+      "12183329"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40545728.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40545728/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70199",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

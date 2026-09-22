@@ -1,0 +1,245 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.25.661454",
+  "title": "Advancing in silico drug design with Bayesian refinement of AlphaFold models",
+  "doi": "10.1101/2025.06.25.661454",
+  "abstract": "Virtual screening has become an indispensable tool in modern structure-based drug discovery, enabling the identification of candidate molecules by computationally evaluating their potential to bind target proteins. The accuracy of such screenings critically depends on the quality of the target structures employed. Recent advances in protein structure prediction, particularly AlphaFold2, have revolutionized this field with unprecedented accuracy. However, AlphaFold2 models often exhibit limitations in local structural details, especially within binding pockets, which limit their utility for small molecule docking. In contrast, molecular dynamics simulations with accurate atomistic force fields can refine protein structures, but lack the ability to leverage the structural information provided by deep learning approaches. Here, we introduce bAIes, an integrative method that bridges this gap by combining physics-based force fields with data-driven predictions through Bayesian inference. Crucially, bAIes demonstrates a superior ability to discriminate between binders and non-binders in virtual screening campaigns, outperforming both AlphaFold2 and molecular dynamics-refined models. By enhancing the usability of AlphaFold2 models without requiring extensive experimental or computational resources, bAIes offers a convenient solution to a longstanding challenge in structure-based drug design, potentially accelerating the early phases of drug discovery.",
+  "authors": [
+    "Sen S",
+    "Hoff SE",
+    "Morozova TI",
+    "Schnapka V",
+    "Bonomi M"
+  ],
+  "published_date": "2025-06-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661454",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661454.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1043283",
+    "raw_record": {
+      "id": "PPR1043283",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1043283"
+        ]
+      },
+      "doi": "10.1101/2025.06.25.661454",
+      "title": "Advancing in silico drug design with Bayesian refinement of AlphaFold models",
+      "authorString": "Sen S, Hoff SE, Morozova TI, Schnapka V, Bonomi M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sen S",
+            "lastName": "Sen",
+            "firstName": "Samiran",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1922-7796"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , UMR 3528, Computational Structural Biology Unit, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoff SE",
+            "lastName": "Hoff",
+            "firstName": "Samuel",
+            "initials": "SE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , UMR 3528, Computational Structural Biology Unit, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morozova TI",
+            "lastName": "Morozova",
+            "firstName": "Tatiana",
+            "initials": "TI",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3650-4772"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , UMR 3528, Computational Structural Biology Unit, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schnapka V",
+            "lastName": "Schnapka",
+            "firstName": "Vincent",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3902-5462"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , UMR 3528, Computational Structural Biology Unit, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bonomi M",
+            "lastName": "Bonomi",
+            "firstName": "Massimiliano",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7321-0004"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , UMR 3528, Computational Structural Biology Unit, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1922-7796"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3902-5462"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7321-0004"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3650-4772"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Virtual screening has become an indispensable tool in modern structure-based drug discovery, enabling the identification of candidate molecules by computationally evaluating their potential to bind target proteins. The accuracy of such screenings critically depends on the quality of the target structures employed. Recent advances in protein structure prediction, particularly AlphaFold2, have revolutionized this field with unprecedented accuracy. However, AlphaFold2 models often exhibit limitations in local structural details, especially within binding pockets, which limit their utility for small molecule docking. In contrast, molecular dynamics simulations with accurate atomistic force fields can refine protein structures, but lack the ability to leverage the structural information provided by deep learning approaches. Here, we introduce bAIes, an integrative method that bridges this gap by combining physics-based force fields with data-driven predictions through Bayesian inference. Crucially, bAIes demonstrates a superior ability to discriminate between binders and non-binders in virtual screening campaigns, outperforming both AlphaFold2 and molecular dynamics-refined models. By enhancing the usability of AlphaFold2 models without requiring extensive experimental or computational resources, bAIes offers a convenient solution to a longstanding challenge in structure-based drug design, potentially accelerating the early phases of drug discovery.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "acronym": "ERC_",
+            "grantId": "101086685 – bAIes",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/06/27/2025.06.25.661454.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.06.25.661454"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1043283"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1043283&type=FILE&fileName=EMS207036-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42441955",
+            "reference": "Journal of chemical theory and computation. \n    2026 Jul;22(14):7407-7419",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207036",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-06-29",
+      "firstPublicationDate": "2025-06-27",
+      "firstIndexDate": "2025-06-29",
+      "fullTextReceivedDate": "2025-07-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

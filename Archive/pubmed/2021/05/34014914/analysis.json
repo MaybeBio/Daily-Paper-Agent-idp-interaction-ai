@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34014914",
+  "title": "Conformational plasticity and dynamic interactions of the N-terminal domain of the chemokine receptor CXCR1.",
+  "authors": "Kharche, Shalmali; Joshi, Manali; Chattopadhyay, Amitabha; Sengupta, Durba",
+  "journal": "PLoS computational biology",
+  "published_date": "2021-05-21",
+  "window": {
+    "start": "2021-05-17",
+    "end": "2021-05-23"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究通过微秒级粗粒化模拟结合原子模型和NMR化学位移预测，揭示GPCR CXCR1无序N端结构域与配体IL8动态互作中构象可塑性受限并形成C形构象，直接聚焦IDR介导的PPI机制建模，方法上物理模拟与实验验证兼备。",
+  "abstract": "The dynamic interactions between G protein-coupled receptors (GPCRs) and their cognate protein partners are central to several cell signaling pathways. For example, the association of CXC chemokine receptor 1 (CXCR1) with its cognate chemokine, interleukin-8 (IL8 or CXCL8) initiates pathways leading to neutrophil-mediated immune responses. The N-terminal domain of chemokine receptors confers ligand selectivity, but unfortunately the conformational dynamics of this intrinsically disordered region remains unresolved. In this work, we have explored the interaction of CXCR1 with IL8 by microsecond time scale coarse-grain simulations, complemented by atomistic models and NMR chemical shift predictions. We show that the conformational plasticity of the apo-receptor N-terminal domain is restricted upon ligand binding, driving it to an open C-shaped conformation. Importantly, we corroborated the dynamic complex sampled in our simulations against chemical shift perturbations reported by previous NMR studies and show that the trends are similar. Our results indicate that chemical shift perturbation is often not a reporter of residue contacts in such dynamic associations. We believe our results represent a step forward in devising a strategy to understand intrinsically disordered regions in GPCRs and how they acquire functionally important conformational ensembles in dynamic protein-protein interfaces.",
+  "abstract_zh": "G蛋白偶联受体（GPCRs）与其同源蛋白伴侣之间的动态相互作用是多种细胞信号通路的核心。例如，CXC趋化因子受体1（CXCR1）与其同源趋化因子白细胞介素-8（IL8或CXCL8）的结合启动了导致中性粒细胞介导免疫反应的信号通路。趋化因子受体的N端结构域赋予配体选择性，但遗憾的是，这一固有无序区域的构象动态仍未得到解析。在本工作中，我们通过微秒时间尺度的粗粒化模拟，辅以原子模型和NMR化学位移预测，探索了CXCR1与IL8的相互作用。我们表明，脱辅基受体N端结构域的构象可塑性在配体结合后受到限制，促使其转变为开放的C形构象。重要的是，我们根据先前NMR研究报告的化学位移扰动，验证了模拟中采样的动态复合物，并显示其趋势相似。我们的结果表明，在这种动态关联中，化学位移扰动通常不能反映残基接触。我们相信，我们的结果在制定策略以理解GPCRs中的固有无序区域以及它们如何在动态蛋白质-蛋白质界面中获得功能重要的构象集合方面，迈出了一步。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34014914/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34014914/",
+  "paper_page_path": "papers/pubmed/34014914/index.html"
+}

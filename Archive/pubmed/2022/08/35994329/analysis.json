@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35994329",
+  "title": "Markov State Models and Molecular Dynamics Simulations Reveal the Conformational Transition of the Intrinsically Disordered Hypervariable Region of K-Ras4B to the Ordered Conformation.",
+  "authors": "Zhang, Hao; Ni, Duan; Fan, Jigang; Li, Minyu; Zhang, Jian; Hua, Chen; Nussinov, Ruth; Lu, Shaoyong",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2022-08-23",
+  "window": {
+    "start": "2022-08-22",
+    "end": "2022-08-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用马尔可夫状态模型与分子动力学模拟研究K-Ras4B无序HVR区域向有序构象转变的机制，虽非直接PPI但涉及HVR与催化域互作，方法上对无序蛋白构象转变建模有直接借鉴价值。",
+  "abstract": "K-Ras4B, the most frequently mutated Ras isoform in human tumors, plays a vital part in cell growth, differentiation, and survival. Its tail, the C-terminal hypervariable region (HVR), is involved in anchoring K-Ras4B at the cellular plasma membrane and in isoform-specific protein-protein interactions and signaling. In the inactive guanosine diphosphate-bound state, the intrinsically disordered HVR interacts with the catalytic domain at the effector-binding region, rendering K-Ras4B in its autoinhibited state. Activation releases the HVR from the catalytic domain, with its ensemble favoring an ordered alpha-helical structure. The large-scale conformational transition of the HVR from the intrinsically disordered to the ordered conformation remains poorly understood. Here, we deploy a computational scheme that integrates a transition path-generation algorithm, extensive molecular dynamics simulation, and Markov state model analysis to investigate the conformational landscape of the HVR transition pathway. Our findings reveal a stepwise pathway for the HVR transition and uncover several key conformational substates along the transition pathway. Importantly, key interactions between the HVR and the catalytic domain are unraveled, highlighting the pathogenesis of K-Ras4B mild mutations in several congenital developmental anomaly syndromes. Together, these findings provide a deeper understanding of the HVR transition mechanism and the regulation of K-Ras4B activity at an atomic level.",
+  "abstract_zh": "K-Ras4B是人类肿瘤中最常发生突变的Ras亚型，在细胞生长、分化和存活中发挥关键作用。其尾部，即C端高变区（HVR），参与将K-Ras4B锚定在细胞质膜上，并涉及亚型特异性蛋白-蛋白相互作用和信号传导。在非活性的鸟苷二磷酸结合状态下， intrinsically disordered HVR与催化结构域在效应子结合区域相互作用，使K-Ras4B处于自抑制状态。激活后，HVR从催化结构域释放，其构象集合倾向于有序的α-螺旋结构。HVR从 intrinsically disordered 到有序构象的大规模构象转变仍知之甚少。在此，我们部署了一种计算方案，该方案整合了转变路径生成算法、广泛的分子动力学 (molecular dynamics) 模拟和马尔可夫状态模型分析，以研究HVR转变路径的构象景观。我们的发现揭示了HVR转变的逐步路径，并揭示了沿转变路径的多个关键构象亚态。重要的是，我们解析了HVR与催化结构域之间的关键相互作用，突出了K-Ras4B轻度突变在几种先天性发育异常综合征中的发病机制。综合这些发现，我们在原子水平上提供了对HVR转变机制和K-Ras4B活性调控的更深入理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35994329/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35994329/",
+  "paper_page_path": "papers/pubmed/35994329/index.html"
+}

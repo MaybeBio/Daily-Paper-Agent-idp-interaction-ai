@@ -1,0 +1,289 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.21.629870",
+  "title": "Proteome-scale quantification of the interactions driving condensate formation of intrinsically disordered proteins",
+  "doi": "10.1101/2024.12.21.629870",
+  "abstract": "Intrinsically disordered protein regions facilitate cellular organization through phase separation into biomolecular condensates. However, the molecular interactions driving this process remain poorly understood because of experimental limitations. Here, we advance experimental throughput by several orders of magnitude by developing Condensate Partitioning by mRNA-Display (CPmD). The method allows analysis of partitioning of hundred thousand peptides derived from the disordered proteome into reconstituted condensates. Our results demonstrate that the amino acid content, rather than specific sequence, primarily determines partitioning behavior. Importantly, quantification of the partitioning energies of peptides allows us to decipher the ‘molecular grammar’ of the relevant interactions, allowing accurate prediction of the formation of condensates of diverse full-length disordered protein regions. The results reveal how physicochemical properties of disordered regions encode biological functions through formation of biomolecular condensates.",
+  "authors": [
+    "Norrild RK",
+    "von Bülow S",
+    "Halldórsson E",
+    "Lindorff-Larsen K",
+    "Rogers JM",
+    "Buell AK"
+  ],
+  "published_date": "2024-12-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.21.629870",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.21.629870.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR957360",
+    "raw_record": {
+      "id": "PPR957360",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR957360"
+        ]
+      },
+      "doi": "10.1101/2024.12.21.629870",
+      "title": "Proteome-scale quantification of the interactions driving condensate formation of intrinsically disordered proteins",
+      "authorString": "Norrild RK, von Bülow S, Halldórsson E, Lindorff-Larsen K, Rogers JM, Buell AK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Norrild RK",
+            "lastName": "Norrild",
+            "firstName": "Rasmus",
+            "initials": "RK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9120-2745"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology and Biomedicine, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "von Bülow S",
+            "lastName": "von Bülow",
+            "firstName": "Sören",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Halldórsson E",
+            "lastName": "Halldórsson",
+            "firstName": "Einar",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology and Biomedicine, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lindorff-Larsen K",
+            "lastName": "Lindorff-Larsen",
+            "firstName": "Kresten",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rogers JM",
+            "lastName": "Rogers",
+            "firstName": "Joseph",
+            "initials": "JM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1313-4089"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Drug Design and Pharmacology, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Buell AK",
+            "lastName": "Buell",
+            "firstName": "Alexander",
+            "initials": "AK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1161-3622"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology and Biomedicine, ; , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7125-5973"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1313-4089"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9120-2745"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1161-3622"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Intrinsically disordered protein regions facilitate cellular organization through phase separation into biomolecular condensates. However, the molecular interactions driving this process remain poorly understood because of experimental limitations. Here, we advance experimental throughput by several orders of magnitude by developing Condensate Partitioning by mRNA-Display (CPmD). The method allows analysis of partitioning of hundred thousand peptides derived from the disordered proteome into reconstituted condensates. Our results demonstrate that the amino acid content, rather than specific sequence, primarily determines partitioning behavior. Importantly, quantification of the partitioning energies of peptides allows us to decipher the ‘molecular grammar’ of the relevant interactions, allowing accurate prediction of the formation of condensates of diverse full-length disordered protein regions. The results reveal how physicochemical properties of disordered regions encode biological functions through formation of biomolecular condensates.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Novo Nordisk Foundation",
+            "grantId": "NNF18OC0033950",
+            "orderIn": 0
+          },
+          {
+            "agency": "Novo Nordisk Foundation",
+            "grantId": "NNFSA170028392",
+            "orderIn": 0
+          },
+          {
+            "agency": "Villum Foundation",
+            "grantId": "35823",
+            "orderIn": 0
+          },
+          {
+            "agency": "Novo Nordisk Foundation",
+            "grantId": "NNF18OC0032608",
+            "orderIn": 0
+          },
+          {
+            "agency": "EMBO Postdoctoral Fellowship",
+            "grantId": "ALTF 810-2022",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101088163",
+            "orderIn": 0
+          },
+          {
+            "agency": "Novo Nordisk Foundation",
+            "grantId": "NNF19OC0054441",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Union",
+            "grantId": "ERC CoG 101088163",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.21.629870"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.21.629870"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR957360"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR957360&type=FILE&fileName=EMS202282-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42425985",
+            "reference": "Nature communications. \n    2026 Jul;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 10,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS202282",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-12-22",
+      "firstPublicationDate": "2024-12-21",
+      "firstIndexDate": "2024-12-22",
+      "fullTextReceivedDate": "2025-05-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

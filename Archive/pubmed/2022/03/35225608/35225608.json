@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "35225608",
+    "doi": "10.1021/acs.biochem.1c00647",
+    "title": "TRPM5 Channel Binds Calcium-Binding Proteins Calmodulin and S100A1."
+  },
+  "content": {
+    "abstract": "Melastatin transient receptor potential (TRPM) channels belong to one of the most significant subgroups of the transient receptor potential (TRP) channel family. Here, we studied the TRPM5 member, the receptor exposed to calcium-mediated activation, resulting in taste transduction. It is known that most TRP channels are highly modulated through interactions with extracellular and intracellular agents. The binding sites for these ligands are usually located at the intracellular N- and C-termini of the TRP channels, and they can demonstrate the character of an intrinsically disordered protein (IDP), which allows such a region to bind various types of molecules. We explored the N-termini of TRPM5 and found the intracellular regions for calcium-binding proteins (CBPs) the calmodulin (CaM) and calcium-binding protein S1 (S100A1) by in vitro binding assays. Furthermore, molecular docking and molecular dynamics simulations (MDs) of the discovered complexes confirmed their known common binding interface patterns and the uniqueness of the basic residues present in the TRPM binding regions for CaM/S100A1.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "Calcium/metabolism",
+      "*Calmodulin/chemistry",
+      "Molecular Docking Simulation",
+      "S100 Proteins/metabolism",
+      "*TRPM Cation Channels/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bousova, Kristyna",
+        "Zouharova, Monika",
+        "Herman, Petr",
+        "Vymetal, Jiri",
+        "Vetyskova, Veronika",
+        "Jiraskova, Katerina",
+        "Vondrasek, Jiri"
+      ],
+      "short_names": [
+        "Bousova K",
+        "Zouharova M",
+        "Herman P",
+        "Vymetal J",
+        "Vetyskova V",
+        "Jiraskova K",
+        "Vondrasek J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9030-3811",
+        "ORCID: 0000-0002-2254-6480",
+        "ORCID: 0000-0002-0165-8707",
+        "ORCID: 0000-0002-6066-973X"
+      ],
+      "affiliations": [
+        "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo namesti 2, 16000 Prague, Czech Republic.",
+        "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo namesti 2, 16000 Prague, Czech Republic.",
+        "Second Faculty of Medicine, Charles University, V Uvalu 84, 150 06 Prague 5, Czech Republic.",
+        "Faculty of Mathematics and Physics, Charles University, Ke Karlovu 5, 12116 Prague, Czech Republic.",
+        "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo namesti 2, 16000 Prague, Czech Republic.",
+        "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo namesti 2, 16000 Prague, Czech Republic.",
+        "Department of Biochemistry and Microbiology, University of Chemistry and Technology Prague, Technicka 5, 166 28 Prague, Czech Republic.",
+        "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo namesti 2, 16000 Prague, Czech Republic.",
+        "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo namesti 2, 16000 Prague, Czech Republic."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bousova, Kristyna",
+        "short_name": "Bousova K",
+        "identifiers": [
+          "0000-0001-9030-3811"
+        ],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo namesti 2, 16000 Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Zouharova, Monika",
+        "short_name": "Zouharova M",
+        "identifiers": [
+          "0000-0002-2254-6480"
+        ],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo namesti 2, 16000 Prague, Czech Republic.",
+          "Second Faculty of Medicine, Charles University, V Uvalu 84, 150 06 Prague 5, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Herman, Petr",
+        "short_name": "Herman P",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Mathematics and Physics, Charles University, Ke Karlovu 5, 12116 Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Vymetal, Jiri",
+        "short_name": "Vymetal J",
+        "identifiers": [
+          "0000-0002-0165-8707"
+        ],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo namesti 2, 16000 Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Vetyskova, Veronika",
+        "short_name": "Vetyskova V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo namesti 2, 16000 Prague, Czech Republic.",
+          "Department of Biochemistry and Microbiology, University of Chemistry and Technology Prague, Technicka 5, 166 28 Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Jiraskova, Katerina",
+        "short_name": "Jiraskova K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo namesti 2, 16000 Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Vondrasek, Jiri",
+        "short_name": "Vondrasek J",
+        "identifiers": [
+          "0000-0002-6066-973X"
+        ],
+        "affiliations": [
+          "Institute of Organic Chemistry and Biochemistry of the Czech Academy of Sciences, Flemingovo namesti 2, 16000 Prague, Czech Republic."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemistry"
+    ],
+    "journal_abbrev": [
+      "Biochemistry"
+    ],
+    "pub_date": "2022 Mar 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/01 06:00",
+    "fetched_at": "2026-09-20 08:40:40"
+  },
+  "links": {
+    "cites": [
+      "41664275",
+      "39294615",
+      "37894842"
+    ],
+    "refs": [],
+    "similar": [
+      "35225608",
+      "31505788",
+      "29240297",
+      "32560560",
+      "22451665",
+      "27435061",
+      "22989896",
+      "25543978",
+      "37894842",
+      "34917797",
+      "38923985",
+      "29880196",
+      "15924238",
+      "27226555",
+      "25378404",
+      "31022885",
+      "9298970",
+      "11944917",
+      "38538847",
+      "32245175",
+      "14634208",
+      "23671622",
+      "23884414",
+      "15895246",
+      "33326749",
+      "12765699",
+      "15843919",
+      "29217581",
+      "29211714",
+      "24452633",
+      "21133676",
+      "17522321",
+      "21784520",
+      "26544986",
+      "19372375",
+      "12842017",
+      "30116787",
+      "25157108",
+      "16355226",
+      "34168372",
+      "23666671",
+      "15731110",
+      "15123711",
+      "28408431",
+      "11290752",
+      "21158685",
+      "28807149",
+      "24756718",
+      "14657398",
+      "31812825",
+      "12368808",
+      "32197840",
+      "33290768",
+      "29982164",
+      "8894274",
+      "34944467",
+      "17233613",
+      "17893195",
+      "11311128",
+      "28188885",
+      "26071843",
+      "24573286",
+      "29724821",
+      "31249525",
+      "9803314",
+      "22847436",
+      "23109337",
+      "16461353",
+      "32521253",
+      "30779808",
+      "20708613",
+      "28720517",
+      "21290294",
+      "15987684",
+      "29463718",
+      "25702612",
+      "28096388",
+      "29730291",
+      "12730238",
+      "20686070",
+      "35058176",
+      "28108595",
+      "30142967",
+      "24905744",
+      "28834354",
+      "17610722",
+      "24947426",
+      "29505720",
+      "31483613",
+      "32073143",
+      "34461097",
+      "32027773",
+      "23626724",
+      "15845551",
+      "23119017",
+      "17233606"
+    ],
+    "review": [
+      "35225608",
+      "37894842",
+      "15924238",
+      "15895246",
+      "15843919",
+      "21784520",
+      "28807149",
+      "24756718",
+      "31812825",
+      "17233613",
+      "28720517",
+      "21290294",
+      "28834354",
+      "32073143",
+      "32027773"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1452",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/bichaw/article-lookup/doi/10.1021/acs.biochem.1c00647",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

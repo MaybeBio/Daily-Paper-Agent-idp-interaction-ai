@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "38116756",
+    "doi": "10.1080/07391102.2023.2294837",
+    "title": "Prediction of interface between regions of varying degrees of order or disorderness in intrinsically disordered proteins from dihedral angles."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are proteins that do not form uniquely defined three-dimensional (3-D) structures. Experimental research on IDPs is difficult since they go against the traditional protein structure-function paradigm. Although there are several predictors of disorder based on amino acid sequences, but very limited based on the 3-D structures of proteins. Dihedral angles have a significant role in predicting protein structure because they establish a protein's backbone, which, coupled with its side chain, establishes its overall shape. Here, we have carried out atomistic Molecular Dynamics (MD) simulations on four different proteins: one ordered protein (Monellin), two partially disordered proteins (p53-TAD and Amyloid beta (Abeta(1-42)) peptide), and one completely disordered protein (Histatin 5). The MD simulation trajectories for the corresponding four proteins were used to conduct dihedral angle (varphi and ѱ) analysis. Then, the average dihedral angles for each of the residues were calculated and plotted against the residue index. We noticed steep rises or falls in the average varphi value at certain locations in the plot. These sudden shifts in the average varphi value reflect the interface between regions of varying degrees of order or disorderness in intrinsically disordered proteins. Using this method, the probable conformer of a protein with a higher degree of disorder can be found among the ensembles of structures sampled during the MD simulations. The results of our study offer new understandings on precisely identifying regions of various degrees of disorder in intrinsically disordered proteins.",
+    "keywords": [
+      "Dihedral angle",
+      "disordered regions",
+      "intrinsically disordered proteins",
+      "molecular dynamics simulations",
+      "unstructured proteins"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Amyloid beta-Peptides/chemistry",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sharma, Babli",
+        "Mattaparthi, Venkata Satish Kumar"
+      ],
+      "short_names": [
+        "Sharma B",
+        "Mattaparthi VSK"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-2071-2403",
+        "ORCID: 0000-0002-5238-753X"
+      ],
+      "affiliations": [
+        "Molecular Modelling and Simulation Laboratory, Department of Molecular Biology and Biotechnology, Tezpur University, Assam, India.",
+        "Molecular Modelling and Simulation Laboratory, Department of Molecular Biology and Biotechnology, Tezpur University, Assam, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sharma, Babli",
+        "short_name": "Sharma B",
+        "identifiers": [
+          "0009-0002-2071-2403"
+        ],
+        "affiliations": [
+          "Molecular Modelling and Simulation Laboratory, Department of Molecular Biology and Biotechnology, Tezpur University, Assam, India."
+        ]
+      },
+      {
+        "full_name": "Mattaparthi, Venkata Satish Kumar",
+        "short_name": "Mattaparthi VSK",
+        "identifiers": [
+          "0000-0002-5238-753X"
+        ],
+        "affiliations": [
+          "Molecular Modelling and Simulation Laboratory, Department of Molecular Biology and Biotechnology, Tezpur University, Assam, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/20 06:42",
+    "fetched_at": "2026-09-21 03:36:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38116756",
+      "30204435",
+      "30865832",
+      "28448138",
+      "35934194",
+      "31613621",
+      "32816485",
+      "30840442",
+      "24589355",
+      "32859072",
+      "33444020",
+      "38928405",
+      "27558720",
+      "35562983",
+      "23912807",
+      "26138206",
+      "33779503",
+      "29364151",
+      "38275091",
+      "31877033",
+      "41082321",
+      "31756456",
+      "24410358",
+      "36674958",
+      "37646172",
+      "31894361",
+      "29907037",
+      "38996889",
+      "36533639",
+      "31548393",
+      "32436706",
+      "33623120",
+      "23723000",
+      "29808548",
+      "38079339",
+      "32623047",
+      "40042172",
+      "31441158",
+      "27548131",
+      "34152264",
+      "17206849",
+      "37108059",
+      "34545666",
+      "28834051",
+      "30259679",
+      "36468450",
+      "29548979",
+      "30727987",
+      "31241933",
+      "35725761",
+      "41129692",
+      "28365882",
+      "26575776",
+      "25287424",
+      "25679039",
+      "42340349",
+      "32034199",
+      "36084124",
+      "36178373",
+      "38118365",
+      "38018910",
+      "40068541",
+      "31626641",
+      "32227937",
+      "18831774",
+      "42427316",
+      "32525675",
+      "30184304",
+      "40558039",
+      "38739602",
+      "34845619",
+      "36084347",
+      "31425549",
+      "32929427",
+      "38097100",
+      "32771522",
+      "30819075",
+      "36066390",
+      "24668165",
+      "25871264",
+      "41988656",
+      "26742101",
+      "30708285",
+      "37452752",
+      "33337879",
+      "28095698",
+      "31552948",
+      "31521236",
+      "30002265",
+      "31809054",
+      "29990433",
+      "34358545",
+      "28226222",
+      "34626492",
+      "38173388",
+      "33030249",
+      "36641212",
+      "27727496",
+      "33810353",
+      "28884933"
+    ],
+    "review": [
+      "38116756",
+      "30840442",
+      "29364151",
+      "31441158",
+      "27548131",
+      "34545666",
+      "25287424",
+      "32034199",
+      "38118365",
+      "40068541",
+      "38097100",
+      "31521236",
+      "34358545"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2294837?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2294837",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

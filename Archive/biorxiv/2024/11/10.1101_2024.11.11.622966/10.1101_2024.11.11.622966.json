@@ -1,0 +1,282 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.11.622966",
+  "title": "Dynamics of bicoid mRNA localisation and translation dictate morphogen gradient formation",
+  "doi": "10.1101/2024.11.11.622966",
+  "abstract": "The transcription factor Bicoid (Bcd) protein guides early Drosophila patterning and is the best-characterised morphogen. The source of the morphogen, bcd mRNA, is maternally deposited during oogenesis and localised to the anterior pole of the mature oocyte. While the spatiotemporal interpretation of the Bcd morphogen gradient has been intensely studied, when and where Bcd protein is produced and how this protein gradient is dynamically shaped remains contentious. Here, we use the SunTag reporter system to quantitatively examine the spatiotemporal profile of bcd mRNA translation in vivo . We show that association with Processing bodies (P bodies) in mature oocytes prevent premature bcd mRNA translation. Following egg activation, bcd mRNA dissociates from P bodies and translation is observed at the anterior pole. Translation remains restricted to the anterior domain throughout early development, even after nuclear migration in the syncytial blastoderm. At cellularisation, translation ceases and the remaining bcd mRNA associates with reformed P bodies, which appear to block any further translation. We use these observations to create a new modified source-diffusion-degradation model of Bcd gradient formation that has spatiotemporally varying production. Overall, our study reveals that bcd mRNA translation is tightly controlled in space and time during oogenesis and early embryogenesis.",
+  "authors": [
+    "Athilingam T",
+    "Wilby E",
+    "Bensidoun P",
+    "Trullo A",
+    "Verbrugghe M",
+    "Shi X",
+    "Lagha M",
+    "Saunders T",
+    "Weil T"
+  ],
+  "published_date": "2024-11-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622966",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.11.622966.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR938186",
+    "raw_record": {
+      "id": "PPR938186",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR938186"
+        ]
+      },
+      "doi": "10.1101/2024.11.11.622966",
+      "title": "Dynamics of  <i>bicoid</i>  mRNA localisation and translation dictate morphogen gradient formation",
+      "authorString": "Athilingam T, Wilby E, Bensidoun P, Trullo A, Verbrugghe M, Shi X, Lagha M, Saunders T, Weil T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Athilingam T",
+            "lastName": "Athilingam",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9260-4826"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Warwick Medical School, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilby E",
+            "lastName": "Wilby",
+            "firstName": "E.L.",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0608-6429"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Zoology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bensidoun P",
+            "lastName": "Bensidoun",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Trullo A",
+            "lastName": "Trullo",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Verbrugghe M",
+            "lastName": "Verbrugghe",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0006-2592-3671"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shi X",
+            "lastName": "Shi",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Zoology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lagha M",
+            "lastName": "Lagha",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7082-1950"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saunders T",
+            "lastName": "Saunders",
+            "firstName": "T.E.",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5755-0060"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Warwick Medical School, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weil T",
+            "lastName": "Weil",
+            "firstName": "T.T.",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Zoology, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5755-0060"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0608-6429"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7082-1950"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9260-4826"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0006-2592-3671"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The transcription factor Bicoid (Bcd) protein guides early  Drosophila patterning and is the best-characterised morphogen. The source of the morphogen,  bcd mRNA, is maternally deposited during oogenesis and localised to the anterior pole of the mature oocyte. While the spatiotemporal interpretation of the Bcd morphogen gradient has been intensely studied, when and where Bcd protein is produced and how this protein gradient is dynamically shaped remains contentious. Here, we use the SunTag reporter system to quantitatively examine the spatiotemporal profile of  bcd mRNA translation  in vivo . We show that association with Processing bodies (P bodies) in mature oocytes prevent premature  bcd mRNA translation. Following egg activation,  bcd mRNA dissociates from P bodies and translation is observed at the anterior pole. Translation remains restricted to the anterior domain throughout early development, even after nuclear migration in the syncytial blastoderm. At cellularisation, translation ceases and the remaining  bcd mRNA associates with reformed P bodies, which appear to block any further translation. We use these observations to create a new modified source-diffusion-degradation model of Bcd gradient formation that has spatiotemporally varying production. Overall, our study reveals that  bcd mRNA translation is tightly controlled in space and time during oogenesis and early embryogenesis.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.11.11.622966"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.11.622966"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR938186"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR938186&type=FILE&fileName=EMS200051-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS200051",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-11-13",
+      "firstPublicationDate": "2024-11-11",
+      "firstIndexDate": "2024-11-13",
+      "fullTextReceivedDate": "2025-10-08",
+      "hasEvaluations": "Y"
+    }
+  }
+}

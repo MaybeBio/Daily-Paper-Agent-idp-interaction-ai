@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36213119",
+  "title": "eIF4G1 N-terminal intrinsically disordered domain is a multi-docking station for RNA, Pab1, Pub1, and self-assembly.",
+  "authors": "Chaves-Arquero, Belen; Martinez-Lumbreras, Santiago; Sibille, Nathalie; Camero, Sergio; Bernado, Pau; Jimenez, M Angeles; Zorrilla, Silvia; Perez-Canadillas, Jose Manuel",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2022-10-11",
+  "window": {
+    "start": "2022-10-10",
+    "end": "2022-10-16"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究通过NMR和SAXS解析eIF4G1 N端无序区域与RNA、Pab1、Pub1及自组装的多价互作网络，属于无序蛋白介导PPI的机制建模，与本课题高度契合。",
+  "abstract": "Yeast eIF4G1 interacts with RNA binding proteins (RBPs) like Pab1 and Pub1 affecting its function in translation initiation and stress granules formation. We present an NMR and SAXS study of the N-terminal intrinsically disordered region of eIF4G1 (residues 1-249) and its interactions with Pub1, Pab1 and RNA. The conformational ensemble of eIF4G1(1-249) shows an alpha-helix within the BOX3 conserved element and a dynamic network of fuzzy pi-pi and pi-cation interactions involving arginine and aromatic residues. The Pab1 RRM2 domain interacts with eIF4G1 BOX3, the canonical interaction site, but also with BOX2, a conserved element of unknown function to date. The RNA1 region interacts with RNA through a new RNA interaction motif and with the Pub1 RRM3 domain. This later also interacts with eIF4G1 BOX1 modulating its intrinsic self-assembly properties. The description of the biomolecular interactions involving eIF4G1 to the residue detail increases our knowledge about biological processes involving this key translation initiation factor.",
+  "abstract_zh": "酵母eIF4G1与RNA结合蛋白（RBPs）如Pab1和Pub1相互作用，影响其在翻译起始和应激颗粒形成中的功能。我们展示了eIF4G1 N端 intrinsically disordered 区域（残基1-249）及其与Pub1、Pab1和RNA相互作用的NMR和SAXS研究。eIF4G1(1-249)的构象系综显示在BOX3保守元件内存在一个α-螺旋，以及一个涉及精氨酸和芳香族残基的动态fuzzy π-π和π-阳离子相互作用网络。Pab1 RRM2结构域与eIF4G1 BOX3（经典相互作用位点）相互作用，但也与BOX2（迄今功能未知的保守元件）相互作用。RNA1区域通过一个新的RNA相互作用基序与RNA相互作用，并与Pub1 RRM3结构域相互作用。后者还与eIF4G1 BOX1相互作用，调节其固有的自组装特性。对涉及eIF4G1的生物分子相互作用进行残基级描述，增进了我们对这一关键翻译起始因子所涉及的生物学过程的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36213119/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36213119/",
+  "paper_page_path": "papers/pubmed/36213119/index.html"
+}

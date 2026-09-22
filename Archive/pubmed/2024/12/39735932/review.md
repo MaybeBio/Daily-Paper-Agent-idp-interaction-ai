@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusions, materials and methods) as provided by the user. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented evidence. Not assessed: language editing, formatting, or journal fit beyond general Nature-style criteria.
+- **Shared manuscript claim summary** The authors present a set of 16 naturally occurring intrinsically disordered regions (IDRs) of identical length (57 residues) but diverse sequence compositions. Using single-molecule FRET, CD, NMR, and SAXS, they report a strong dependence of chain dimensions on sequence, with end-to-end distances varying by nearly a factor of 2 and chain volumes by up to a factor of 6. Atomistic ABSINTH simulations with ensemble reweighting identify residue-specific interaction networks, and a coarse-grained HPS model is parametrized against the experimental data to provide a transferable description with explicit fluorophore representation.
+- **Visible evidence base** Main text figures (Figures 1–4) and tables (Table S1, S2 referenced), methods descriptions, and in-text references to supplementary figures (Figures S1–S13). Supplementary material itself not provided.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S13, Table S1, S2), simulation input files and parameters (referenced via Zenodo), raw experimental data, and detailed error analysis. These are essential for full verification of statistical claims, reweighting procedures, and model validation.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in the field of intrinsically disordered proteins: how sequence composition and patterning determine chain dimensions. The experimental design is thoughtful, using a matched-length IDR set to isolate sequence effects, and the integration of multiple experimental techniques with both atomistic and coarse-grained simulations is commendable. The main claims, however, rest on a chain of inference that is only partially visible in the provided material. The correlation between FRET efficiency and sequence properties is clear, but the quantitative link to chain dimensions, the robustness of the reweighting procedure, and the transferability of the optimized coarse-grained model require additional scrutiny. The manuscript is likely to be of interest to a specialized biophysics and protein science audience, but the broader significance and methodological novelty need to be more clearly articulated.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and regions, particularly those interested in sequence-ensemble relationships, phase separation, and the development of predictive computational models. The dataset of 16 well-characterized IDRs under identical conditions will be a valuable benchmark for the community. The explicit treatment of fluorophores in the coarse-grained model is also relevant to the single-molecule FRET community.
+- **Major strengths** 1) A carefully designed experimental set of IDRs of identical length but diverse sequence properties, addressing a known limitation in the field. 2) Integration of multiple orthogonal experimental techniques (FRET, SAXS, NMR, CD) to characterize the conformational ensembles. 3) The use of ensemble reweighting to reconcile atomistic simulations with experimental data, and the subsequent parametrization of a coarse-grained model. 4) The explicit inclusion and parametrization of fluorophores in the coarse-grained model, which is a practical advance for comparing simulations with FRET experiments.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Data analysis
+  - **Claim pointer** The authors claim that the observed FRET efficiencies correspond to a factor of ~6 difference in chain volume between the most compact and most expanded IDRs.
+  - **Evidence pointer** Figure 2A, text in "Chain Dimensions Vary Widely among Sequences" section, location not provided
+  - **Concern** The conversion from FRET efficiency to chain dimensions (end-to-end distance, R, and volume) relies on the SAW-ν model, a semiempirical polymer model. The validity of this model for short, heteropolymeric IDRs with specific interaction patterns is not fully established. The authors acknowledge finite-size effects and heterogeneous interactions complicate interpretation, but the quantitative claim of a factor of 6 in volume depends critically on this model's assumptions. The uncertainty in this conversion is not quantified.
+  - **Why it matters** The factor of 6 in chain volume is a headline quantitative result. If the SAW-ν model is inappropriate for these sequences, the magnitude of the sequence effect could be over- or underestimated, affecting the central conclusion.
+  - **Resolution test** Provide a sensitivity analysis showing how the inferred R and volume change with different polymer models or with direct simulation predictions. Quantify the uncertainty in the SAW-ν fit parameters and propagate this through to the volume estimate. Alternatively, validate the SAW-ν model against the reweighted ABSINTH ensembles for a subset of sequences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Simulation methodology
+  - **Claim pointer** The authors claim that the reweighted ABSINTH ensembles provide "residue-specific intrachain interaction networks" that explain the observed sequence-dependent chain dimensions.
+  - **Evidence pointer** Figure 3, "Atomic-Level Characterization of Conformational Ensembles from Simulations" section, location not provided
+  - **Concern** The reweighting procedure (COPER) is used to force agreement with experimental FRET efficiencies. The manuscript reports a concordance correlation coefficient of 0.46 for the unweighted ABSINTH ensembles, which is low. After reweighting, the agreement is improved, but the physical plausibility of the reweighted ensembles is not assessed. The KL divergence is reported, but the manuscript does not discuss whether the reweighting introduces unphysical conformations or overfits to the limited experimental data (a single average FRET efficiency per sequence). The robustness of the identified interaction networks to the reweighting procedure is unclear.
+  - **Why it matters** The claim of identifying specific interaction networks (e.g., charged, aromatic, polar residues) is a key mechanistic insight. If the reweighting is not well-constrained, these networks may be artifacts of the procedure rather than genuine features of the ensembles.
+  - **Resolution test** Show that the reweighted ensembles are physically reasonable (e.g., by checking Ramachandran plots, contact densities, or comparing to independent experimental data like SAXS or NMR chemical shifts). Perform cross-validation, e.g., reweight using a subset of FRET data and predict the rest. Assess the uncertainty in the inferred interaction networks by repeating the reweighting with different priors or regularization strengths.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Generalizability
+  - **Claim pointer** The authors claim that the optimized coarse-grained HPS model provides a "transferable description of disordered protein regions" and can predict chain dimensions for other IDRs.
+  - **Evidence pointer** Figure 4, "Optimizing a Coarse-Grained IDP Model with Explicit Fluorophores" section, location not provided
+  - **Concern** The transferability of the model is tested on a limited set of sequences: a few IDRs from the same dataset and a small number of previously published SAXS datasets. The manuscript does not demonstrate predictive power on a diverse, independent set of IDRs with varying lengths and sequence compositions. The statement that the model "can be used to predict" is not fully supported by the evidence presented.
+  - **Why it matters** The broader impact of the work depends on the model's utility beyond the 16 training sequences. Without a more extensive validation, the claim of transferability is premature.
+  - **Resolution test** Apply the optimized HPS model to a larger, independent set of IDRs with known experimental chain dimensions (e.g., from the literature) and report the predictive accuracy. If such data are not available, temper the claim to reflect the model's demonstrated performance on the current dataset.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Reproducibility
+  - **Affected element** Methods section, "Sequence Selection and Characterization"
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The criteria for selecting the 16 IDRs from the initial pool are described qualitatively ("maximize the diversity of these properties"). The specific algorithm or thresholds used to achieve this diversity are not detailed.
+  - **Required correction** Provide a quantitative description of the selection process, e.g., the ranges of hydrophobicity, net charge, etc., and how the final set was chosen to cover the parameter space.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness / Data analysis
+  - **Affected element** Figure 2B, correlation analysis
+  - **Evidence pointer** Figure 2B, location not provided
+  - **Concern** The correlation between NCPR and transfer efficiency is reported, but the statistical significance and the influence of individual data points (e.g., sNh- as a potential outlier) are not discussed.
+  - **Required correction** Report the correlation coefficient with a p-value and show a leave-one-out analysis to assess the influence of individual sequences on the correlation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity / Reproducibility
+  - **Affected element** Methods, "Hydrophobicity Scale (HPS) Model Optimization and Simulations"
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The force balance optimization procedure is described briefly. The specific objective function, convergence criteria, and the number of iterations are not stated.
+  - **Required correction** Provide a more detailed description of the optimization procedure, including the objective function and stopping criteria, to ensure reproducibility.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion, location not provided
+  - **Issue** The manuscript assumes familiarity with polymer physics concepts (e.g., scaling exponent, theta conditions) and specific simulation methods (ABSINTH, COPER). A brief explanation of these concepts for a broader readership would improve accessibility.
+  - **Required correction** Add a short paragraph in the Introduction or a box explaining key polymer physics concepts and the rationale for using different simulation approaches.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The quantitative claim of a factor of 6 in chain volume and the mechanistic claim of specific interaction networks are not fully supported by the evidence presented. The transferability claim (R1-M3) is not blocking but requires additional validation or tempering.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is not conceptually novel, as sequence-ensemble relationships for IDPs have been studied extensively. However, the specific dataset of 16 matched-length IDRs and the explicit treatment of fluorophores in the coarse-grained model are useful contributions.
+  - **Scientific importance** The question of how sequence determines IDP dimensions is of high importance for understanding IDP function and for developing predictive models. The dataset and model have the potential to be valuable resources.
+  - **Interdisciplinary readership** The work is primarily of interest to biophysicists, computational chemists, and protein scientists. The methods and findings are less likely to appeal to a broader biological or chemical audience without additional context on the functional implications of IDP dimensions.
+  - **Technical soundness** The experimental techniques are well-established and carefully applied. The main technical concerns are in the data analysis and simulation reweighting, as detailed above.
+  - **Readability for nonspecialists** The manuscript is clearly written for a specialist audience. The abstract is accessible, but the main text assumes significant background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The experimental dataset is valuable, and the integration of experiments and simulations is a strength. However, the quantitative and mechanistic claims need to be more rigorously supported before the case is fully established.
+
+## Risk / unsupported claims
+- The factor of 6 difference in chain volume is not fully supported due to reliance on the SAW-ν model without sensitivity analysis.
+- The identification of specific residue-residue interaction networks from reweighted ABSINTH simulations is not robustly established, given the low initial concordance and lack of validation of the reweighted ensembles.
+- The claim of a "transferable" coarse-grained model is not fully supported by the limited independent validation presented.
+- The statement that "the remaining differences between the CD spectra are suggestive of sequence-specific contributions" is speculative and not quantitatively analyzed.
+- The claim that the dataset "allows many types of effects to be accounted for" is not demonstrated, as the analysis focuses on a limited set of sequence features.

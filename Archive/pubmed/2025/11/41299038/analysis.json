@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41299038",
+  "title": "A multimodal framework for comprehensive driver variant prediction in cancer.",
+  "authors": "Yang, Hai; Chen, Yijia; Zhou, Tianyi; Wang, Yingzhuo; Zhou, Qin; Xiao, Ting; Zhang, Qian; Zhang, Jing; Li, Dongdong; Wang, Zhe",
+  "journal": "Communications medicine",
+  "published_date": "2025-11-27",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 7,
+  "one_liner_zh": "ModVAR整合DNA序列、蛋白结构与癌症组学数据预测癌症驱动变异，并评估了无序蛋白区域中的变异建模，虽非直接研究PPI机制，但方法可迁移至IDR相关互作预测。",
+  "abstract": "BACKGROUND: Cancer genomes contain many mutations, but only a subset drive tumor development. Accurately pinpointing these driver variants remains challenging. We aim to build an accurate and interpretable model by combining DNA sequence, protein 3D structure, and cancer omics data. METHODS: We present ModVAR, a multimodal model that integrates DNA sequences, predicted protein tertiary structures, and cancer omics data to classify driver variants. The approach uses pre-trained models (DNAbert2 and ESMFold) and a self-supervised strategy for cancer omics profiles. We evaluate performance on clinically and experimentally validated driver variants with standard classification metrics, examine therapeutic relevance through molecular docking, assess modeling of variants in intrinsically disordered protein regions, and analyze modality contributions. RESULTS: Here we show that ModVAR achieves strong accuracy across benchmarks for identifying validated driver variants. It prioritizes variants with potential therapeutic actionability supported by docking analyses, and the inclusion of structural predictions enables effective modeling of variants in intrinsically disordered regions. Interpretation indicates that the protein structure modality contributes most to predictions. At scale, the method produces 3,971,946 publicly available variant annotations. CONCLUSIONS: ModVAR integrates sequence, structure, and cancer omics signals to aid driver-variant discovery. It provides robust performance across tasks, supports hypothesis generation and target discovery, and supplies a large-scale resource that advances cancer research and personalized therapy.",
+  "abstract_zh": "背景：癌症基因组包含许多突变，但只有一部分驱动肿瘤发展。准确识别这些驱动变异仍具挑战性。我们旨在通过结合DNA序列、蛋白质三维结构和癌症组学数据，构建一个准确且可解释的模型。方法：我们提出ModVAR，一种多模态模型，整合DNA序列、预测的蛋白质三级结构和癌症组学数据来分类驱动变异。该方法使用预训练模型（DNAbert2和ESMFold）以及针对癌症组学图谱的自监督策略。我们使用标准分类指标在临床和实验验证的驱动变异上评估性能，通过分子对接检查治疗相关性，评估对固有无序蛋白质区域中变异的建模，并分析模态贡献。结果：我们展示ModVAR在识别已验证驱动变异的基准测试中达到高准确性。它优先考虑具有潜在治疗可操作性且受对接分析支持的变异，并且结构预测的纳入使得对固有无序区域中变异的有效建模成为可能。解释表明，蛋白质结构模态对预测贡献最大。在大规模应用中，该方法产生3，971,946个公开可用的变异注释。结论：ModVAR整合序列、结构和癌症组学信号以辅助驱动变异发现。它在各项任务中提供稳健性能，支持假设生成和靶点发现，并提供大规模资源，推进癌症研究和个性化治疗。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41299038/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41299038/",
+  "paper_page_path": "papers/pubmed/41299038/index.html"
+}

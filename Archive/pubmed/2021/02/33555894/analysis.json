@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33555894",
+  "title": "Fundamental Challenges and Outlook in Simulating Liquid-Liquid Phase Separation of Intrinsically Disordered Proteins.",
+  "authors": "Bari, Khandekar Jishan; Prakashchand, Dube Dheeraj",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2021-02-09",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该综述系统评估了无近似场论模拟、增强采样、粗粒化力场和slab模拟等计算方法在无序蛋白液-液相分离模拟中的挑战与前景，直接聚焦IDP相分离机制建模，虽为综述但方法深度高，对本课题的模拟方法选择极具启发。",
+  "abstract": "Intrinsically disordered proteins (IDPs) populate an ensemble of dynamic conformations, making their structural characterization by experiments challenging. Many IDPs undergo liquid-liquid phase separation into dense membraneless organelles with myriad cellular functions. Multivalent interactions in low-complexity IDPs promote the formation of these subcellular coacervates. While solution NMR, Forster resonance energy transfer (FRET), and small-angle X-ray scattering (SAXS) studies on IDPs have their own challenges, recent computational methods draw a rational trade-off to characterize the driving forces underlying phase separation. In this Perspective, we critically evaluate the scope of approximation-free field theoretic simulations, well-tempered ensemble methods, enhanced sampling techniques, coarse-grained force fields, and slab simulation approaches to offer an improved understanding of phase separation. A synergy between simulation length scale and model resolution would reduce the existing caveats and enable theories of polymer physics to elucidate finer details of liquid-liquid phase separation (LLPS). These computational advances offer promise for rigorous characterization of the IDP proteome and designing peptides with tunable material and self-assembly properties.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 构成动态构象的集合体，使得通过实验对其结构表征颇具挑战。许多IDPs经历液-液相分离，形成具有多种细胞功能的致密无膜细胞器。低复杂度IDPs中的多价相互作用促进这些亚细胞凝聚体的形成。尽管溶液核磁共振、福斯特共振能量转移 (FRET) 和小角X射线散射 (SAXS) 对IDPs的研究各有挑战，但近期计算方法在表征相分离驱动力方面提供了合理的权衡。在本展望中，我们批判性地评估了无近似场论模拟、良态系综方法、增强采样技术、粗粒化力场及平板模拟方法的适用范围，以增进对相分离的理解。模拟尺度与模型分辨率之间的协同作用将减少现有局限，并使高分子物理理论能够阐明液-液相分离 (LLPS) 的更精细细节。这些计算进展为严格表征IDP蛋白质组及设计具有可调材料与自组装特性的肽段提供了前景。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33555894/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33555894/",
+  "paper_page_path": "papers/pubmed/33555894/index.html"
+}

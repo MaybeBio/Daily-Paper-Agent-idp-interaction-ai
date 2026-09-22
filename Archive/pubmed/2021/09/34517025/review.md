@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methodology, results, discussion, supplementary figure/table legends, and references cited within the text.
+- **Assessment boundary** The scientific claims, methodology, data interpretation, and conclusions as presented in the provided manuscript. No external validation of datasets, software, or databases was performed.
+- **Shared manuscript claim summary** The authors propose that G3BP1/2, key stress granule proteins, are sequestered by the SARS-CoV-2 N protein to inhibit stress granule formation, thereby promoting viral propagation. Using a genomics-guided meta-analysis (GSEA), they identify transcription factors and kinases that regulate G3BP1/2 expression, and subsequently nominate imatinib and decitabine as candidate drugs that may modulate these regulators and thus mitigate COVID-19. Molecular docking and MD simulations are used to support binding of these drugs to G3BP1/2.
+- **Visible evidence base** Results from Enrichr-based GSEA, GEO database mining, drug-gene interaction network analysis, molecular docking (HDock, AutoDock-Vina), and 100 ns MD simulations (RMSD, Rg, SASA, RMSF, PCA, FEL) for G3BP1-drug complexes.
+- **Missing materials affecting confidence** No experimental validation (e.g., cell-based assays, viral infection models) is provided. Supplementary figures and tables are referenced but not included in the supplied material. Details of GSEA parameters, statistical thresholds, and complete lists of enriched terms are not fully described. The source of the "809 human proteins" interactome and the criteria for drug-target interaction assignment are not fully transparent.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a bioinformatics-driven hypothesis that G3BP1/2 regulators could be therapeutically targeted to inhibit SARS-CoV-2, with imatinib and decitabine proposed as candidate drugs. The computational workflow is logical and the docking/MD analyses are technically competent. However, the study is entirely in silico, and the link between the identified regulators, drug effects, and actual antiviral activity is speculative. The core claim that these drugs "inhibit SARS-CoV-2 propagation" is not directly tested. The manuscript would benefit from experimental validation or a more cautious framing of the conclusions.
+- **Who would be interested in the results, and why** Researchers in virology, particularly those studying host-virus interactions and stress granule biology; computational biologists interested in drug repurposing; and clinicians exploring repurposed therapies for COVID-19. The identification of G3BP1/2 as a hub and the specific drug candidates may inform future experimental studies.
+- **Major strengths** 1. The study addresses a relevant and timely topic (COVID-19 therapeutics) with a rational hypothesis linking stress granule biology to viral replication. 2. The use of multiple bioinformatics tools (Enrichr, GEO, network analysis) provides a broad, if shallow, survey of potential regulatory nodes. 3. The docking and MD simulation protocols are standard and adequately described, providing preliminary structural insights. 4. The discussion of imatinib and decitabine in the context of existing clinical trials adds practical relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The abstract and conclusion state that imatinib and decitabine are "candidate drugs against SARS-CoV-2" and "could be repurposed to ameliorate the outcomes of COVID-19."
+  - **Evidence pointer** Results sections "GSEA identify imatinib and decitabine as potential drugs" and "Drug-gene interactions network"; Discussion.
+  - **Concern** The central claim of antiviral activity is based solely on computational predictions of gene expression modulation and docking scores. No experimental evidence (e.g., viral titer reduction, SG formation assays, G3BP1/2 expression changes upon drug treatment) is provided to support that these drugs actually inhibit SARS-CoV-2 propagation through the proposed mechanism.
+  - **Why it matters** The title and abstract promise a functional outcome ("inhibit SARS-CoV-2 propagation"), but the data presented cannot establish this. Without experimental validation, the conclusions remain speculative and the clinical relevance is unsubstantiated.
+  - **Resolution test** Provide cell-based or in vivo data showing that imatinib and/or decitabine reduce SARS-CoV-2 replication, and that this effect is dependent on G3BP1/2 expression or SG modulation. Alternatively, revise the claims to clearly state that these are hypotheses requiring experimental testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data provenance and methodology
+  - **Claim pointer** The authors state that "GSEA was performed through the Enrichr bioinformatics platform" and that "validation of the GSEA results was done by using the GEO2R tool."
+  - **Evidence pointer** Methodology section "Gene set enrichment analyses (GSEA) analysis of G3BP1 and G3BP2"; Results sections.
+  - **Concern** The description of the GSEA methodology is insufficiently detailed. Key parameters such as the specific gene set libraries used, the statistical significance thresholds (adjusted p-value, FDR), the number of permutations, and the criteria for selecting "top" hits are not reported. The "combined score" is mentioned but its interpretation and threshold for significance are unclear. Furthermore, the validation via GEO2R is described only vaguely; it is not clear which datasets were used, how differential expression was defined, or how the results corroborate the GSEA findings.
+  - **Why it matters** Reproducibility is a cornerstone of scientific reporting. Without detailed methods, other researchers cannot replicate the analysis or assess its robustness. The lack of clear statistical thresholds also makes it difficult to judge whether the identified regulators are genuinely enriched or artifacts of loose filtering.
+  - **Resolution test** Provide a detailed methods section including database versions, query parameters, significance cutoffs, and a list of all enriched terms with their scores. For GEO2R validation, specify dataset accession numbers, comparison groups, and the criteria for confirming differential expression.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of docking and MD results
+  - **Claim pointer** The authors conclude that "imatinib showed a stronger affinity to the NTD compared to decitabine" and that MD simulations show "imatinib binding significantly changes G3BP1 conformations."
+  - **Evidence pointer** Results sections "Molecular docking of imatinib and decitabine to G3BP1/2 and SARS-CoV-2 N protein" and "Molecular dynamics simulations analyses"; Table 2; Figures 5-9.
+  - **Concern** The docking scores are presented as absolute binding affinities, but the values are not contextualized. For example, a binding energy of -7.2 kcal/mol for NTD-imatinib is compared to -4.7 kcal/mol for NTD-decitabine, but no error estimates, standard deviations, or replicate runs are reported. The MD simulations are performed only for G3BP1-drug complexes, not for G3BP2 or the N protein complexes, limiting the generalizability. The claim that imatinib "significantly changes G3BP1 conformations" is based on qualitative observations of RMSD, Rg, and PCA; no quantitative comparison (e.g., statistical tests on trajectory ensembles) is provided.
+  - **Why it matters** Overinterpretation of computational binding data can mislead readers into thinking these drugs are validated binders. The lack of statistical rigor in MD analysis undermines the strength of the structural conclusions.
+  - **Resolution test** Include replicate docking runs with standard deviations, and perform statistical analysis on MD trajectories (e.g., block averaging, bootstrapping) to support claims of conformational change. Consider performing MD on G3BP2 complexes as well, or explicitly state the limitation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figures
+  - **Affected element** Figures 5 and 6
+  - **Evidence pointer** Results section "Molecular docking of imatinib and decitabine to G3BP1/2 and SARS-CoV-2 N protein"
+  - **Issue** The 2D interaction diagrams are referenced but not described in sufficient detail in the text. The reader cannot easily discern which interactions are hydrogen bonds versus hydrophobic contacts without closely inspecting the figures.
+  - **Required correction** Add a brief description in the text of the key interactions for each complex, or provide a supplementary table listing interaction types and distances.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract; Discussion section
+  - **Issue** The term "genomics-guided meta-analysis" is used, but the study does not perform a meta-analysis in the traditional statistical sense (i.e., pooling effect sizes from multiple studies). It is a bioinformatics enrichment analysis of existing datasets.
+  - **Required correction** Replace "meta-analysis" with "bioinformatics analysis" or "enrichment analysis" to accurately describe the methodology.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Missing data
+  - **Affected element** Supplementary figures and tables
+  - **Evidence pointer** Results sections referencing Supplementary Fig. S1-S13 and Tables S1-S2
+  - **Issue** The supplementary materials are not provided with the manuscript, making it impossible to verify the claims about tissue expression patterns, GEO validation, and additional enrichment results.
+  - **Required correction** Ensure all supplementary materials are included in the submission for review.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (experimental validation) is the primary blocking issue. R1-M2 (methodological transparency) and R1-M3 (statistical rigor in computational analyses) are also significant and should be addressed to strengthen the manuscript.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The application of GSEA to identify regulators of G3BP1/2 in the context of SARS-CoV-2 is somewhat novel, but the overall approach (bioinformatics-driven drug repurposing) is common. The specific focus on stress granule proteins is a useful angle.  
+  - **Scientific importance** Potentially high if the hypotheses are validated, as G3BP1/2 modulation could be a host-directed therapeutic strategy. However, the current evidence is insufficient to establish importance.  
+  - **Interdisciplinary readership** The topic bridges virology, cell biology, and computational drug discovery, which could appeal to a broad audience. However, the lack of experimental data limits its impact outside computational circles.  
+  - **Technical soundness** The docking and MD protocols are standard, but the lack of methodological detail and statistical validation weakens the technical rigor.  
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but some sections (e.g., GSEA methodology) assume familiarity with bioinformatics tools. A brief explanation of key terms would improve accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The computational findings are interesting and generate testable hypotheses, but the central claim of antiviral activity is unsupported. The manuscript could become suitable for publication if the authors provide experimental validation or substantially reframe the conclusions as purely predictive.

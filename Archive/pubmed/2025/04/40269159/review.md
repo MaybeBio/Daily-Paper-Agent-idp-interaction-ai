@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that intrinsically disordered regions (IDRs) control mRNA stability and translation through specific molecular features, particularly the presence and arrangement of aromatic residues, and that these effects are mediated by engagement with core mRNA decay machinery, as revealed by high-throughput mutagenesis and machine learning.
+- **Visible evidence base** Abstract text only; no experimental data, statistical details, or methodological descriptions provided
+- **Missing materials affecting confidence** Full text, all figures, tables, methods, supplementary data, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely finding regarding the role of disordered regions in mRNA regulation, with a plausible mechanistic link to decay machinery. However, the evidence base is entirely inaccessible from the supplied material, and several claims are stated without quantitative or methodological support. The work could be of broad interest if the underlying data are robust, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Researchers in RNA biology, post-transcriptional gene regulation, and intrinsically disordered protein function would find these results relevant. The proposed link between sequence features of IDRs and mRNA decay machinery could also appeal to computational biologists studying sequence-function relationships and to those interested in the broader role of unstructured proteins in cellular regulation.
+- **Major strengths** The abstract addresses a significant gap in understanding how disordered regions exert regulatory effects on mRNA. The use of high-throughput functional profiling and machine learning suggests a systematic approach that could yield generalizable principles. The focus on aromatic residues as predictive features is a concrete and testable claim that could have broad implications.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that "the presence and arrangement of aromatic residues strongly predicts the ability of seemingly diverse protein sequences to influence mRNA stability and translation."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No quantitative data, effect sizes, or statistical measures are provided to support the strength of this predictive relationship. The term "strongly predicts" is not substantiated by any visible metric, such as correlation coefficients, cross-validation performance, or comparison to alternative models.  
+  - **Why it matters** Without quantitative support, the central claim of the paper cannot be evaluated for its validity or generalizability. The strength of prediction is a core assertion that determines the paper's contribution.  
+  - **Resolution test** Provide specific performance metrics from the machine learning model, such as area under the curve, precision-recall values, or comparable benchmarks, along with validation on independent datasets.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic evidence  
+  - **Claim pointer** The abstract states that "many of these regulatory elements exert their effects by engaging core mRNA decay machinery."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The mechanistic claim is presented without any experimental evidence, such as direct binding assays, genetic perturbations, or epistasis analyses. The phrase "many" is vague and does not specify the proportion or the strength of the evidence.  
+  - **Why it matters** The proposed mechanism is a key part of the paper's significance. Without direct evidence, the claim remains speculative and could overstate the findings.  
+  - **Resolution test** Provide experimental data demonstrating physical or functional interaction between the identified IDRs and decay machinery components, including appropriate controls and quantitative measures.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scope and generalizability  
+  - **Claim pointer** The abstract claims that the findings "shed light on broader principles within functional, unstructured proteins."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe the diversity of the disordered elements tested, the range of biological contexts, or how the findings extend beyond the specific regulatory elements studied. The generalization to all functional unstructured proteins is not supported by the visible evidence.  
+  - **Why it matters** Overgeneralization could mislead readers about the applicability of the findings. The claim of broader principles requires demonstration across varied sequence families and cellular conditions.  
+  - **Resolution test** Describe the sequence diversity and functional range of the tested elements, and provide evidence that the identified features apply beyond the initial dataset, such as validation in orthogonal systems or natural variants.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "drive specific molecular functions despite lacking a defined structure" is somewhat redundant and could be more precise about what is meant by "defined structure."  
+  - **Required correction** Clarify whether "defined structure" refers to stable tertiary folds or to any ordered conformation, and consider rephrasing for conciseness.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Methodological transparency  
+  - **Affected element** Machine learning description  
+  - **Evidence pointer** Abstract, methods mention  
+  - **Issue** The abstract mentions "machine learning" but does not specify the type of model, feature set, or training data, which limits interpretability.  
+  - **Required correction** Briefly state the model type and key features used, or refer to a methods section where these details are provided.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Aromatic residues"  
+  - **Evidence pointer** Abstract, central claim  
+  - **Issue** The term "aromatic residues" is used without specifying which amino acids are included or whether the arrangement refers to spacing, clustering, or context.  
+  - **Required correction** Define the aromatic residues considered and the specific aspect of arrangement that is predictive.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative support for the predictive claim, direct evidence for the mechanistic link, and justification for the broad generalization. These are essential to establish the core conclusions.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of linking aromatic residue patterns in IDRs to mRNA decay is novel and could be a fresh contribution, but the abstract does not demonstrate how this advances beyond existing knowledge of IDR function.  
+  - Scientific importance: If substantiated, the findings could have significant implications for understanding post-transcriptional regulation and IDR biology, but the importance is not fully established from the abstract alone.  
+  - Interdisciplinary readership: The topic bridges RNA biology, protein science, and computational biology, which could attract a broad audience, but the abstract does not clearly frame the work for nonspecialists.  
+  - Technical soundness: Not assessable from the abstract; no methodological details or data are provided.  
+  - Readability for nonspecialists: The abstract is generally clear but uses jargon such as "high-throughput functional profiling" and "machine learning" without sufficient context for a general reader.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising direction, but the lack of accessible data and methodological detail prevents a supportive recommendation. If the full manuscript provides robust quantitative and mechanistic evidence, the work could be considered favorably, but this cannot be determined from the supplied material.
+
+## Risk / unsupported claims
+- The claim that aromatic residue presence and arrangement "strongly predicts" mRNA regulatory activity is unsupported without quantitative metrics.
+- The claim that regulatory elements act "by engaging core mRNA decay machinery" is unsupported without direct experimental evidence.
+- The claim that findings reveal "broader principles within functional, unstructured proteins" is unsupported and overreaches beyond the visible evidence.
+- The overall significance and novelty cannot be assessed due to the absence of full data and methods.

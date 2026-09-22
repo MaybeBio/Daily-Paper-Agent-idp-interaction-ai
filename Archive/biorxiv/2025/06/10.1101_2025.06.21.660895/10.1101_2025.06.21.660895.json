@@ -1,0 +1,604 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.21.660895",
+  "title": "Protein Language Model Based Structure-guided Antibody Screening for Disordered Protein Targets",
+  "doi": "10.1101/2025.06.21.660895",
+  "abstract": "A crucial step in the pathogenesis of Parkinson’s disease involves cell-to-cell transmission of α -Synuclein proto-fibrils via endocytosis, driven primarily by the interaction of its disordered C-terminal peptide with domain 1 of Lymphocyte Activation Gene 3 (LAG3) neuronal receptors. High-affinity antibodies have been proposed as therapeutic modalities to delay this progression and subsequent amyloid formation. In our work, we develop an end-to-end computational pipeline to enable rapid screening of antibody sequences that have a high-affinity for the disordered C-terminal peptide of α -Synuclein using no information of known binders. This de novo screening was enabled by a structural bioinformatics based in silico data generation pipeline combined with a deep learning framework. Our simple feed forward network model built upon sequence embeddings from a protein language model ranked the binding affinities (ΔG) of antibodies to α -Synuclein with a high accuracy (Spearman ρ = 0.86) when the training and the evaluation datasets contained sequences having some overlap in the complementarity determining regions (CDRs). However, for vastly different CDR sequences, a transformer encoder model trained using the antibody sequence embeddings showed a low Spearman rank correlation of ρ = 0.18. The models have a mean Precision@100 of 38 and 12 respectively, significantly outperforming a random process. Overall, our work demonstrates a computational protocol for generating a high quality dataset of antibody-antigen complexes spanning a very large diversity in antibody sequences followed by training of a deep learning model for prediction of high-affinity antibody sequences for a specific protein target with no known binders.",
+  "authors": [
+    "Akshay Chenna",
+    "Prasoon Priyadarshi",
+    "Keshav Kolluru",
+    "Saurabh Singal",
+    "Gaurav Goel"
+  ],
+  "published_date": "2025-06-26",
+  "updated_date": "2025-06-27T12:15:18Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.21.660895",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.21.660895.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T17:49:53Z",
+        "timestamp": 1776016193379,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            26
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 65,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                26
+              ]
+            ],
+            "date-time": "2025-06-26T00:00:00Z",
+            "timestamp": 1750896000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            26
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n                  A crucial step in the pathogenesis of Parkinson’s disease involves cell-to-cell transmission of\n                  <jats:italic>α</jats:italic>\n                  -Synuclein proto-fibrils via endocytosis, driven primarily by the interaction of its disordered C-terminal peptide with domain 1 of Lymphocyte Activation Gene 3 (LAG3) neuronal receptors. High-affinity antibodies have been proposed as therapeutic modalities to delay this progression and subsequent amyloid formation. In our work, we develop an end-to-end computational pipeline to enable rapid screening of antibody sequences that have a high-affinity for the disordered C-terminal peptide of\n                  <jats:italic>α</jats:italic>\n                  -Synuclein using no information of known binders. This de novo screening was enabled by a structural bioinformatics based\n                  <jats:italic>in silico</jats:italic>\n                  data generation pipeline combined with a deep learning framework. Our simple feed forward network model built upon sequence embeddings from a protein language model ranked the binding affinities (ΔG) of antibodies to\n                  <jats:italic>α</jats:italic>\n                  -Synuclein with a high accuracy (Spearman\n                  <jats:italic>ρ</jats:italic>\n                  = 0.86) when the training and the evaluation datasets contained sequences having some overlap in the complementarity determining regions (CDRs). However, for vastly different CDR sequences, a transformer encoder model trained using the antibody sequence embeddings showed a low Spearman rank correlation of\n                  <jats:italic>ρ</jats:italic>\n                  = 0.18. The models have a mean Precision@100 of 38 and 12 respectively, significantly outperforming a random process. Overall, our work demonstrates a computational protocol for generating a high quality dataset of antibody-antigen complexes spanning a very large diversity in antibody sequences followed by training of a deep learning model for prediction of high-affinity antibody sequences for a specific protein target with no known binders.\n                </jats:p>",
+      "DOI": "10.1101/2025.06.21.660895",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            27
+          ]
+        ],
+        "date-time": "2025-06-27T12:15:18Z",
+        "timestamp": 1751026518000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Protein Language Model Based Structure-guided Antibody Screening for Disordered Protein Targets"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6830-3751",
+          "authenticated-orcid": false,
+          "given": "Akshay",
+          "family": "Chenna",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Chemical Engineering, Indian Institute of Technology Delhi, Hauz Khas, New Delhi, 110016, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Prasoon",
+          "family": "Priyadarshi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemical Engineering, Indian Institute of Technology Delhi, Hauz Khas, New Delhi, 110016, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Keshav",
+          "family": "Kolluru",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "KnowDis Data Science LLP, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Saurabh",
+          "family": "Singal",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "KnowDis Data Science LLP, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Gaurav",
+          "family": "Goel",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemical Engineering, Indian Institute of Technology Delhi, Hauz Khas, New Delhi, 110016, India"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dawson, Pathological a - synuclein transmission initiated by binding lymphocyte-activation gene 3. Science 353 (2016).",
+          "DOI": "10.1126/science.aah3374"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbr.2022.114059"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "E Angelopoulou , YN Paudel , C Villa , MF Shaikh , C Piperi , Lymphocyte-activation gene 3 (LAG3) protein as a possible therapeutic target for Parkinson’s disease: Molecular mechanisms connecting neuroinflammation connecting neuroinflammation to α-synuclein spreading pathology. Biology 9 (2020).",
+          "DOI": "10.3390/biology9040086"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.2c10854"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S Zhang , et al., Mechanistic basis for receptor-mediated pathological α-synuclein fibril cell-to-cell transmission in Parkinson’s disease. Proc. Natl. Acad. Sci. 118 (2021).",
+          "DOI": "10.1073/pnas.2011196118"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s13311-022-01288-7"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "LM Oliveira , et al., Alpha-synuclein research: defining strategic moves in the battle against Parkinson’s disease. npj Park. Dis. 7 (2021).",
+          "DOI": "10.1038/s41531-021-00203-9"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M Disorder , S Unified , DR Scale , Mu P Iii , Mu P Iii , Prasinezumab slows motor progression in rapidly progressing early-stage Parkinson’s disease. 30 (2024).",
+          "DOI": "10.1038/s41591-024-02886-y"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/13543784.2020.1771693"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "YR Butler , et al., α-Synuclein fibril-specific nanobody reduces prion-like α-synuclein spreading in mice. Nat. Commun. 13 (2022).",
+          "DOI": "10.1038/s41467-022-31787-2"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.11",
+          "first-page": "1105",
+          "volume": "23",
+          "year": "2005",
+          "journal-title": "Selecting and screening recombinant antibody libraries"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2022.05.029"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2021.11.001"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "AM Hummer , C Schneider , L Chinery , M Charlotte , Investigating the Volume and Diversity of Data Needed for Generalizable Antibody-Antigen G Prediction. pp. 1–16 (2023).",
+          "DOI": "10.1101/2023.05.17.541222"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "155a",
+          "DOI": "10.1016/j.bpj.2021.11.1942",
+          "article-title": "Fast, accurate antibody structure prediction from deep learning on massive set of natural antibodies",
+          "volume": "121",
+          "year": "2022",
+          "journal-title": "Biophys. J"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/PRO.4205"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1106"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.5b00623"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C Liu , LM Denzler , OE Hood , AC Martin , Do antibody CDR loops change conformation upon binding? mAbs 16 (2024).",
+          "DOI": "10.1080/19420862.2024.2322533"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.STR.2021.01.005"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J Barton , JD Galson , J Leem , Enhancing Antibody Language Models with Structural Information. bioRxiv pp. 1–10 (2024).",
+          "DOI": "10.1101/2023.12.12.569610"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-019-0734-6"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2002956117"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.3194"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A Rives , et al., Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. (2020).",
+          "DOI": "10.1101/622803"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "PA Robert , et al., Unconstrained generation of synthetic antibody-antigen structures to guide machine learning methodology for real-world antibody specificity prediction Abstract Machine learning (ML) is a key technology for accurate prediction of antibody-antigen binding. (2022).",
+          "DOI": "10.1038/s43588-022-00372-4"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/19420862.2022.2031482"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06832-9"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "G Monteiro da Silva , JY Cui , DC Dalgarno , GP Lisi , BM Rubenstein , High-throughput prediction of protein conformational distributions with subsampled AlphaFold2. Nat. Commun. 15 (2024).",
+          "DOI": "10.1038/s41467-024-46715-9"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "BP Vani , A Aranganathan , D Wang , P Tiwary , From sequence to Boltzmann weighted ensemble of structures with AlphaFold2-RAVE. biorXiv pp. 1–5 (2022).",
+          "DOI": "10.1101/2022.05.25.493365"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2022.05.006"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3027"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M Lemos Duarte , et al., High-throughput screening and validation of antibodies against synaptic proteins to explore opioid signaling dynamics. Commun. Biol. 4 (2021).",
+          "DOI": "10.1038/s42003-021-01744-8"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cels.2018.12.004"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41551-021-00699-9"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A Greenshields-Watson , B Abanades , CM Deane , Investigating the ability of deep learning-based structure prediction to extrapolate and/or enrich the set of antibody CDR canonical forms. Front. Immunol. 15 (2024).",
+          "DOI": "10.3389/fimmu.2024.1352703"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "P Notin , N Rollins , S Paul , A Shaw , ProteinGym : Large-Scale Benchmarks for Protein Design and Fitness Prediction. pp. 1–48 (2023).",
+          "DOI": "10.1101/2023.12.07.570727"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R Singh , et al., Learning the Language of Antibody Hypervariability. pp. 1–45 (2023).",
+          "DOI": "10.1101/2023.04.26.538476"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-0879-y"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4049/jimmunol.1800708"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.41",
+          "unstructured": "L Chinery , et al., Baselining the Buzz Trastuzumab-HER2 Affinity, and Beyond. bioRxiv p. 2024.03.26.586756 (2024)."
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S Bachas , et al., Antibody optimization enabled by artificial intelligence predictions of binding affinity and naturalness. pp. 1–39 (2022).",
+          "DOI": "10.1101/2022.08.16.504181"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-39022-2"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-31457-3"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Z Zheng , et al., Structure-informed Language Models Are Protein Designers. (2023).",
+          "DOI": "10.1101/2023.02.03.526917"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.46",
+          "unstructured": "PS Kim , Inverse folding of protein complexes with a structure-informed language model enables unsupervised antibody evolution. (2023)."
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T Hamamsy , et al., Fast remote homology detection and structural alignment using deep learning. Nat. Biotechnol. provisiona (2023).",
+          "DOI": "10.1038/s41587-023-01917-2"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.48",
+          "unstructured": "Z Gao , et al., FoldToken : Learning Protein Language via Vector Quantization and Beyond. (2024)."
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T Widatalla , R Rafailov , B Hie , Aligning protein generative models with experimental fitness via Direct Preference Optimization. bioRxiv pp. 1–22 (2024).",
+          "DOI": "10.1101/2024.05.20.595026"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S Gelman , et al., Biophysics-based protein language models for protein engineering. bioRxiv p. 2024.03.15.585128 (2024).",
+          "DOI": "10.1101/2024.03.15.585128"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.51",
+          "first-page": "393",
+          "volume": "25",
+          "year": "2016",
+          "journal-title": "AB-Bind : Antibody binding mutational database for computational affinity predictions"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M Steinegger , J Söding , Clustering huge protein sequence sets in linear time. Nat. Commun. 9 (2018).",
+          "DOI": "10.1038/s41467-018-04964-5"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.53",
+          "unstructured": "RL Dunbrack , A penultimate classification of canonical antibody CDR conformations. bioRxiv : preprint server for biology (2022)."
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4067"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M Mirdita , et al., ColabFold - Making protein folding accessible to all. bioRxiv p. 2021.08.15.456425 (2022).",
+          "DOI": "10.21203/rs.3.rs-1032816/v1"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.STR.2019.10.011"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1997.1354"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv552"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.24078"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.26030"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.62",
+          "first-page": "1",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "RosettaAntibodyDesign (RAbD): A general framework for computational antibody design"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.63",
+          "doi-asserted-by": "crossref",
+          "unstructured": "SM Burbach , B Briney , Improving antibody language models with native pairing. Patterns 5 (2024).",
+          "DOI": "10.1016/j.patter.2024.100967"
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.64",
+          "unstructured": "M Blondel , O Teboul , Q Berthet , J Djolonga , Fast differentiable sorting and ranking. 37th Int. Conf. on Mach. Learn. ICML 2020 PartF16814, 927–936 (2020)."
+        },
+        {
+          "key": "2026041210320737000_2025.06.21.660895v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2021.3095381"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.06.21.660895",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T17:32:22Z",
+        "timestamp": 1776015142000
+      },
+      "score": 86.93471,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.06.21.660895"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            26
+          ]
+        ]
+      },
+      "references-count": 65,
+      "URL": "https://doi.org/10.1101/2025.06.21.660895",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38747347",
+  "title": "AIUPred: combining energy estimation with deep learning for the enhanced prediction of protein disorder.",
+  "authors": "Erdos, Gabor; Dosztanyi, Zsuzsanna",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-05-15",
+  "window": {
+    "start": "2024-05-13",
+    "end": "2024-05-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出AIUPred，将深度学习融入IUPred能量估计框架以改进无序蛋白/区域预测，虽涉及IDP对象但未聚焦PPI互作机制建模，方法上AI与物理模型结合，对本课题有方法参考价值。",
+  "abstract": "Intrinsically disordered proteins and protein regions (IDPs/IDRs) carry out important biological functions without relying on a single well-defined conformation. As these proteins are a challenge to study experimentally, computational methods play important roles in their characterization. One of the commonly used tools is the IUPred web server which provides prediction of disordered regions and their binding sites. IUPred is rooted in a simple biophysical model and uses a limited number of parameters largely derived on globular protein structures only. This enabled an incredibly fast and robust prediction method, however, its limitations have also become apparent in light of recent breakthrough methods using deep learning techniques. Here, we present AIUPred, a novel version of IUPred which incorporates deep learning techniques into the energy estimation framework. It achieves improved performance while keeping the robustness of the original method. Based on the evaluation of recent benchmark datasets, AIUPred scored amongst the top three single sequence based methods. With a new web server we offer fast and reliable visual analysis for users as well as options to analyze whole genomes in mere seconds with the downloadable package. AIUPred is available at https://aiupred.elte.hu.",
+  "abstract_zh": "固有无序蛋白质和蛋白质区域（IDPs/IDRs）在不依赖单一明确构象的情况下执行重要的生物学功能。由于这些蛋白质在实验研究中具有挑战性，计算方法在其表征中扮演着重要角色。常用的工具之一是IUPred网络服务器，它提供无序区域及其结合位点的预测。IUPred基于一个简单的生物物理模型，并使用有限数量的参数，这些参数主要仅从球状蛋白质结构中得出。这使得预测方法极为快速且稳健，然而，在近期使用深度学习技术的突破性方法背景下，其局限性也变得明显。在此，我们介绍AIUPred，这是IUPred的一个新版本，它将深度学习技术融入能量估计框架中。它在保持原始方法稳健性的同时，实现了性能提升。基于近期基准数据集的评估，AIUPred在基于单序列的方法中排名前三。通过新的网络服务器，我们为用户提供快速可靠的视觉分析，以及通过可下载包在短短几秒内分析整个基因组的功能。AIUPred可在https://aiupred.elte.hu获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38747347/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38747347/",
+  "paper_page_path": "papers/pubmed/38747347/index.html"
+}

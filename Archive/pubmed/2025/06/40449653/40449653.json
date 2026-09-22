@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "40449653",
+    "doi": "10.1016/j.cstres.2025.100086",
+    "title": "Pathogenic mechanism of the K141E mutation in HSPB8: Insights from smFRET and simulations."
+  },
+  "content": {
+    "abstract": "Pathogenic mutations can have a large impact on the conformational ensemble of intrinsically disordered proteins, but revealing those effects and their physiological relevance can be challenging. We used large-scale all-atom explicit-solvent molecular dynamics simulations and single-molecule Forster resonance energy transfer (smFRET) experiments to investigate the conformational dynamics of the chaperone protein HSPB8 and its K141E mutant that is linked to motor neuropathies. Our findings revealed that the HSPB8-K141E mutant exhibits increased conformational flexibility compared to the wild-type protein, particularly at high physiological ionic strengths, leading to a more extended conformational ensemble. Bayesian maximum entropy reweighting was applied to improve agreement between simulated and experimental smFRET data, further emphasizing the mutation's influence on protein dynamics. While both WT and K141E showed similar primary smFRET peaks after reweighting, the mutant displayed a higher occurrence of a secondary peak at lower FRET, indicative of an unfolded state. Additionally, differences in salt bridge networks between the variants highlighted the role of ionic interactions in modulating protein structure and suggest a possible connection between rapid dynamics and conformational stability. These results suggest that the pathogenicity of the K141E mutation may be, at least in part, due to the enhanced conformational variability that negatively influences the protein function. The study underscores the significance of ionic strength in the structural dynamics of intrinsically disordered proteins like HSPB8, providing insights into the functional implications of these changes and how stability changes can manifest across different timescales.",
+    "keywords": [
+      "Enhanced sampling simulations",
+      "Forster resonance energy transfer",
+      "Heat shock protein B8",
+      "Intrinsically disordered proteins",
+      "Neural networks",
+      "Protein mutations"
+    ],
+    "mesh_terms": [
+      "*Fluorescence Resonance Energy Transfer/methods",
+      "Molecular Dynamics Simulation",
+      "*Mutation/genetics",
+      "Humans",
+      "*Heat-Shock Proteins/genetics/chemistry/metabolism",
+      "Protein Conformation",
+      "Molecular Chaperones"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Montepietra, Daniele",
+        "Bjarnason, Sveinn",
+        "Oskarsson, Kristinn R",
+        "Cecconi, Ciro",
+        "Carra, Serena",
+        "Heidarsson, Petur O",
+        "Brancolini, Giorgia"
+      ],
+      "short_names": [
+        "Montepietra D",
+        "Bjarnason S",
+        "Oskarsson KR",
+        "Cecconi C",
+        "Carra S",
+        "Heidarsson PO",
+        "Brancolini G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, Computer Science and Mathematics, University of Modena and Reggio Emilia, Modena, Italy; Nanoscience Institute - CNR-NANO, Center S3, Modena, Italy.",
+        "Department of Biochemistry, University of Iceland, Reykjavik, Iceland.",
+        "Department of Biochemistry, University of Iceland, Reykjavik, Iceland.",
+        "Department of Physics, Computer Science and Mathematics, University of Modena and Reggio Emilia, Modena, Italy; Nanoscience Institute - CNR-NANO, Center S3, Modena, Italy.",
+        "Department of Biomedical, Metabolic and Neural Sciences, University of Modena and Reggio Emilia, Modena, Italy.",
+        "Department of Biochemistry, University of Iceland, Reykjavik, Iceland; Department of Biology, University of Copenhagen, Copenhagen N, Denmark. Electronic address: poh@bio.ku.dk.",
+        "Nanoscience Institute - CNR-NANO, Center S3, Modena, Italy. Electronic address: giorgia.brancolini@nano.cnr.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Montepietra, Daniele",
+        "short_name": "Montepietra D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Computer Science and Mathematics, University of Modena and Reggio Emilia, Modena, Italy; Nanoscience Institute - CNR-NANO, Center S3, Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "Bjarnason, Sveinn",
+        "short_name": "Bjarnason S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Iceland, Reykjavík, Iceland."
+        ]
+      },
+      {
+        "full_name": "Óskarsson, Kristinn R",
+        "short_name": "Óskarsson KR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Iceland, Reykjavík, Iceland."
+        ]
+      },
+      {
+        "full_name": "Cecconi, Ciro",
+        "short_name": "Cecconi C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Computer Science and Mathematics, University of Modena and Reggio Emilia, Modena, Italy; Nanoscience Institute - CNR-NANO, Center S3, Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "Carra, Serena",
+        "short_name": "Carra S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical, Metabolic and Neural Sciences, University of Modena and Reggio Emilia, Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "Heidarsson, Pétur O",
+        "short_name": "Heidarsson PO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Iceland, Reykjavík, Iceland; Department of Biology, University of Copenhagen, Copenhagen N, Denmark. Electronic address: poh@bio.ku.dk."
+        ]
+      },
+      {
+        "full_name": "Brancolini, Giorgia",
+        "short_name": "Brancolini G",
+        "identifiers": [],
+        "affiliations": [
+          "Nanoscience Institute - CNR-NANO, Center S3, Modena, Italy. Electronic address: giorgia.brancolini@nano.cnr.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell stress & chaperones"
+    ],
+    "journal_abbrev": [
+      "Cell Stress Chaperones"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/01 00:45",
+    "fetched_at": "2026-09-21 19:21:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39196930",
+      "39054966",
+      "38461354",
+      "38365983",
+      "37462824",
+      "37411010",
+      "36380940",
+      "34536387",
+      "34487489",
+      "32093037",
+      "32006288",
+      "31647645",
+      "31488718",
+      "30939006",
+      "30733602",
+      "30632745",
+      "30471690",
+      "30385502",
+      "29735687",
+      "29548979",
+      "29127110",
+      "27566405",
+      "27145874",
+      "26723635",
+      "26718575",
+      "25764013",
+      "23434281",
+      "22550169",
+      "22427357",
+      "21767525",
+      "20858900",
+      "20627168",
+      "20538880",
+      "19085932",
+      "19020079",
+      "18006506",
+      "17447125",
+      "17212484",
+      "17185422",
+      "16113120",
+      "15879436",
+      "15689503",
+      "15122253",
+      "12034431",
+      "8744570",
+      "3773761"
+    ],
+    "similar": [
+      "40449653",
+      "16949546",
+      "39588651",
+      "36380940",
+      "42475469",
+      "33151943",
+      "41536170",
+      "21767525",
+      "31071411",
+      "23607785",
+      "32159932",
+      "23912807",
+      "40838883",
+      "41406720",
+      "37824009",
+      "39807013",
+      "29490247",
+      "32840111",
+      "35428384",
+      "31189600",
+      "27793290",
+      "26327565",
+      "30840442",
+      "20538880",
+      "19845507",
+      "41795235",
+      "25296318",
+      "19933333",
+      "33096078",
+      "35543707",
+      "33831596",
+      "35923464",
+      "34817999",
+      "39548192",
+      "20157854",
+      "41192394",
+      "32579908",
+      "30776405",
+      "30776431",
+      "36693159",
+      "33723285",
+      "16935933",
+      "28223518",
+      "30471690",
+      "38502682",
+      "27730716",
+      "36854646",
+      "31035038",
+      "37198943",
+      "30413085",
+      "33138911",
+      "20570967",
+      "28625737",
+      "37411010",
+      "25816771",
+      "32088186",
+      "41930927",
+      "35019273",
+      "21985219",
+      "29055320",
+      "29981536",
+      "23214618",
+      "38346243",
+      "31117611",
+      "28877485",
+      "38895430",
+      "34389669",
+      "28542243",
+      "26049487",
+      "29897777",
+      "36416865",
+      "41131924",
+      "40243504",
+      "33581430",
+      "30708285",
+      "17251351",
+      "41964725",
+      "27145874",
+      "32097582",
+      "17922839",
+      "25207671",
+      "24061915",
+      "26566073",
+      "34143841",
+      "27583687",
+      "23389032",
+      "40509337",
+      "25625937",
+      "32696369",
+      "15122253",
+      "25343687",
+      "24024660",
+      "29058191",
+      "41491124",
+      "37407505",
+      "35163572",
+      "29443086",
+      "35667441",
+      "39698979",
+      "30008060"
+    ],
+    "review": [
+      "40449653",
+      "30840442",
+      "41795235",
+      "33096078",
+      "37198943",
+      "30413085",
+      "28625737",
+      "38346243",
+      "40243504",
+      "27145874",
+      "32097582",
+      "25625937"
+    ],
+    "pmc": [
+      "12192327"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1355-8145(25)00031-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40449653/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

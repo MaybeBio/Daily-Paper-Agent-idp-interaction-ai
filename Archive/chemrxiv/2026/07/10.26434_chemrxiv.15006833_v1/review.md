@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors compare AMBER99SB-ILDN and CHARMM36m force fields in all-atom MD simulations of full-length human prion protein (23–230), validate against experimental chemical shifts and SAXS data, and report that both force fields reproduce chemical shifts but produce over-compact ensembles, and that replicas do not converge in interdomain contact patterns.
+- **Visible evidence base** Abstract text only; no numerical data, simulation details, or experimental comparisons are shown
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, replica counts, convergence metrics, chemical-shift prediction details, SAXS data fitting, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important observation regarding force-field dependence and convergence in simulations of a multidomain intrinsically disordered protein. However, the provided material is insufficient to evaluate the technical rigor of the simulations, the statistical basis for the convergence claims, or the quantitative agreement with experimental data. The core message, that agreement with validation observables does not guarantee convergence of interdomain contacts, is plausible and of interest, but the evidence base is not visible.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular dynamics method development, particularly those studying intrinsically disordered proteins and multidomain systems. The work also speaks to the broader community interested in force-field validation and the interpretation of simulation ensembles against experimental data.
+- **Major strengths** The study addresses a timely and underappreciated issue, namely the distinction between agreement with global or local observables and convergence of specific interdomain interaction ensembles. The choice of the prion protein N-terminal region is relevant given its biological importance and structural heterogeneity. The comparison of two widely used force fields against multiple experimental observables is a sensible design.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that both force fields reproduce experimental backbone chemical shifts within the reported accuracy of the chemical-shift predictor.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative data are provided to support this claim. The abstract does not report root-mean-square deviations, correlation coefficients, or any statistical measure of agreement between predicted and experimental chemical shifts for either force field. The phrase "within the reported accuracy of the chemical-shift predictor" is vague and does not establish whether the agreement is meaningful or merely within a generous error tolerance.
+  - **Why it matters** This claim is foundational to the paper's premise that both force fields are "validated" against experiment. Without quantitative evidence, the reader cannot assess whether the agreement is comparable across force fields or whether it is sufficiently good to justify the subsequent conclusions about convergence.
+  - **Resolution test** Provide per-residue or per-atom chemical-shift deviations for both force fields, with appropriate statistical metrics, and demonstrate that the differences between force fields are significant or not relative to predictor uncertainty.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that both force fields generate conformational ensembles that are substantially more compact than the experimental SAXS radius of gyration.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No numerical values for the simulated or experimental radii of gyration are given. The claim of "substantially more compact" is not quantified, and the attribution to the TIP3P water model is presented as a known tendency without direct evidence from this study. The abstract does not indicate whether the discrepancy is within typical force-field error or whether it is statistically significant across replicas.
+  - **Why it matters** This is a central validation result. Without quantitative comparison, the reader cannot judge the magnitude of the discrepancy or whether the conclusion about over-compaction is robust.
+  - **Resolution test** Report mean and standard error of the radius of gyration for each force field, the experimental SAXS value, and a statistical comparison. If possible, include a control simulation with an alternative water model to support the TIP3P attribution.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that independent replicas generated with the same force field do not converge to similar ensemble-averaged interdomain contact patterns.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no information on the number of replicas, simulation length, or the metric used to assess convergence of interdomain contacts. Without these details, the claim of non-convergence cannot be evaluated. It is unclear whether the lack of convergence reflects insufficient sampling, a genuine ergodicity problem, or an artifact of the chosen contact definition.
+  - **Why it matters** This is the central novel claim of the study. If the convergence assessment is not rigorous, the conclusion that agreement with validation observables is insufficient to infer convergence is not established.
+  - **Resolution test** Specify the number of replicas, simulation time per replica, the contact definition, and the convergence metric (e.g., block averaging, split-half analysis, or similarity coefficients between replica contact maps). Show that the non-convergence is not due to insufficient simulation length.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses the term "interdomain interaction ensemble" without defining what constitutes an interaction or how it is quantified. Nonspecialist readers may not understand what is being compared across replicas.
+  - **Required correction** Briefly define the contact metric or interaction type in the abstract, or rephrase to "interdomain contact patterns" with a parenthetical clarification.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not state the simulation length or whether the simulations reached equilibrium for standard observables such as secondary structure content or backbone RMSD. This omission makes it difficult to contextualize the convergence claim.
+  - **Required correction** Add a sentence specifying simulation length and any standard equilibration checks, or state that these details are in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "the reported accuracy of the chemical-shift predictor" but does not name the predictor or its accuracy. This makes the claim difficult to verify.
+  - **Required correction** Name the chemical-shift predictor and its reported accuracy in the abstract or main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative evidence to support the central claims of experimental agreement and replica non-convergence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The focus on convergence of interdomain contacts as distinct from global observable agreement is a valuable and somewhat novel perspective, though the general issue of force-field dependence in IDPs is well studied.
+  - Scientific importance: The findings could be important for the simulation community if rigorously established, as they caution against over-reliance on standard validation metrics. However, the importance is not yet demonstrated from the abstract alone.
+  - Interdisciplinary readership: The topic is of interest to computational chemists, biophysicists, and structural biologists, but the abstract is written in a way that is accessible to these groups. Broader appeal is limited by the lack of quantitative context.
+  - Technical soundness: Not assessable from the abstract. The absence of simulation details, replica counts, and statistical metrics prevents evaluation.
+  - Readability for nonspecialists: The abstract is generally clear but uses some jargon without definition, and the lack of numbers makes the claims hard to interpret.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the quantitative evidence required to support the claims is not visible. A full review of the manuscript would be needed to determine whether the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that both force fields reproduce experimental chemical shifts is unsupported without quantitative data.
+- The claim that both force fields produce substantially more compact ensembles than SAXS is unsupported without numerical values.
+- The claim that replicas do not converge in interdomain contact patterns is unsupported without details on replica count, simulation length, and convergence metrics.
+- The attribution of over-compaction to the TIP3P water model is presented as a known fact but is not directly tested in this study.

@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "42465288",
+    "doi": "10.64898/2026.07.02.736097",
+    "title": "Molecular Origins of pH Gradients in Charge-Regulated Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates exhibit spontaneous electrochemical microenvironments characterized by asymmetric ion distributions and pH gradients that emerge from protein-sequence-dependent charge regulation. Despite their biological importance, mechanistic understanding of these microenvironments has been constrained by the absence of computationally tractable frameworks capable of treating proton exchange, counterion partitioning, and buffer equilibria on consistent thermodynamic footing. Here, we introduce the buffered Charge-Regulation Monte Carlo (b-CR-MC) framework, which couples grand-canonical exchange of ions and buffer species with explicit charge regulation of titratable residues. By extending the CR-MC ion-merging strategy to multicomponent reservoirs and employing the Restricted Primitive Model, b-CR-MC achieves computational efficiency while maintaining thermodynamic rigor, with quantitative agreement to the more expensive generalized G-RxMC approach. Applied to full-length FUS (net positive) and PGL-3 (net negative) under physiological conditions, the framework reveals sequence-dependent pH gradients: the dense phase of FUS exhibits an alkaline shift, while PGL-3 exhibits an acidic shift, in both cases driving the condensate interior toward the protein's isoelectric point. Slab-geometry simulations further resolve the Donnan potential and continuous ion profiles across the condensate interface, confirming the direction and magnitude of these electrochemical shifts. Additionally, we identify spatially resolved buffer depletion within dense phases, establishing that dynamic charge regulation is a primary determinant rather than a secondary correction to condensate electrochemistry. By establishing a sequence-resolved, thermodynamically consistent computational platform, b-CR-MC enables quantitative prediction of how mutations and post-translational modifications reprogram condensate microenvironments across biological and pathophysiological contexts.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Weng, Shuo-Lin",
+        "Rekhi, Shiv",
+        "Kim, Young C",
+        "Palmer, Jeremy C",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Weng SL",
+        "Rekhi S",
+        "Kim YC",
+        "Palmer JC",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-8082-8206",
+        "ORCID: 0009-0007-3625-903X",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Texas A&M University, College Station, TX 77843.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843.",
+        "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, DC 20375.",
+        "Department of Chemistry, University of Houston, Houston, TX, USA.",
+        "William A. Brookshire Department of Chemical & Biomolecular Engineering, University of Houston, Houston, TX, USA.",
+        "Welch Center for Advanced Bioactive Materials Crystallization, University of Houston, Houston, TX, USA.",
+        "Department of Chemistry, Texas A&M University, College Station, TX 77843.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX 77843."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Weng, Shuo-Lin",
+        "short_name": "Weng SL",
+        "identifiers": [
+          "0009-0009-8082-8206"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Rekhi, Shiv",
+        "short_name": "Rekhi S",
+        "identifiers": [
+          "0009-0007-3625-903X"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, DC 20375."
+        ]
+      },
+      {
+        "full_name": "Palmer, Jeremy C",
+        "short_name": "Palmer JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Houston, Houston, TX, USA.",
+          "William A. Brookshire Department of Chemical & Biomolecular Engineering, University of Houston, Houston, TX, USA.",
+          "Welch Center for Advanced Bioactive Materials Crystallization, University of Houston, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Texas A&M University, College Station, TX 77843.",
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX 77843."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jul 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/17 12:41",
+    "fetched_at": "2026-09-18 04:57:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41612036",
+      "41563727",
+      "41535729",
+      "40980987",
+      "40842365",
+      "39964136",
+      "39876835",
+      "39260373",
+      "39248414",
+      "38370910",
+      "38359410",
+      "37925715",
+      "37417757",
+      "37254920",
+      "37211763",
+      "36410222",
+      "36361989",
+      "35709363",
+      "35590547",
+      "35105090",
+      "33934416",
+      "33582133",
+      "33169001",
+      "32987654",
+      "32227994",
+      "29677515",
+      "29677514",
+      "29364893",
+      "28790177",
+      "28225081",
+      "26328871",
+      "26317470",
+      "23880425",
+      "21687785",
+      "18576630",
+      "15837173",
+      "15823030",
+      "5942950",
+      "1420991"
+    ],
+    "similar": [
+      "42465288",
+      "42475469",
+      "41612036",
+      "37904914",
+      "31362509",
+      "41662498",
+      "39005320",
+      "41524103",
+      "39356108",
+      "42232026",
+      "42261607",
+      "36251838",
+      "39260373",
+      "41542481",
+      "23005559",
+      "42081454",
+      "31795443",
+      "42497855",
+      "41481439",
+      "30307229",
+      "40074825",
+      "40653653",
+      "36883003",
+      "37549257",
+      "39026887",
+      "40093099",
+      "37791635",
+      "41360394",
+      "37819001",
+      "40236055",
+      "18618679",
+      "37980572",
+      "42143038",
+      "40791470",
+      "41134609",
+      "42244763",
+      "26764648",
+      "42517612",
+      "39896463",
+      "35727989",
+      "42531022",
+      "40877270",
+      "39605385",
+      "41187075",
+      "34598583",
+      "23912807",
+      "29346981",
+      "36847235",
+      "40747072",
+      "42350353",
+      "37215004",
+      "37194953",
+      "41755857",
+      "40690668",
+      "40954121",
+      "32426986",
+      "41566033",
+      "41134585",
+      "41457511",
+      "35105090",
+      "40857360",
+      "34076026",
+      "38429263",
+      "39087531",
+      "40028356",
+      "33302617",
+      "28847408",
+      "26616787",
+      "40661423",
+      "39677697",
+      "14995196",
+      "41251020",
+      "34862761",
+      "41670285",
+      "34573116",
+      "40672301",
+      "42065447",
+      "40899329",
+      "39937084",
+      "42154072",
+      "31665596",
+      "40985078",
+      "37461689",
+      "41457474",
+      "37546778",
+      "39227569",
+      "41540001",
+      "39763935",
+      "42182309",
+      "39868336",
+      "38722189",
+      "40744081",
+      "41728949",
+      "39149273",
+      "42528131",
+      "24011724",
+      "20925354",
+      "26881315",
+      "42329660",
+      "41535729"
+    ],
+    "review": [
+      "42465288",
+      "28847408",
+      "34573116"
+    ],
+    "pmc": [
+      "13370452"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42465288/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.07.02.736097",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

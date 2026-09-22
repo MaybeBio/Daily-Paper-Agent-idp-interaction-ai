@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "39282643",
+    "doi": "10.1039/d4sc02656j",
+    "title": "Different molecular recognition by three domains of the full-length GRB2 to SOS1 proline-rich motifs and EGFR phosphorylated sites."
+  },
+  "content": {
+    "abstract": "The adaptor protein human GRB2 plays crucial roles in mediating signal transduction from cell membrane receptors to RAS and its downstream proteins by recruiting SOS1. Recent studies have revealed that GRB2 also serves as a scaffold for liquid-liquid phase separation (LLPS) with SOS1 and transmembrane receptors, which is thought to regulate the magnitude of cell signalling pathways. In this study, we employed solution NMR spectroscopy to investigate the interactions of the full-length GRB2 with proline-rich motifs (PRMs) derived from ten potential GRB2-binding sites in SOS1, as well as a peptide from a phosphorylation site of EGFR. Our findings indicate that the binding affinity of the two SH3 domains of GRB2 for PRMs differs by a factor of ten to twenty, with the N-terminal SH3 domain (NSH3) exhibiting a markedly higher affinity. The interactions of PRMs with the SH3 domains affected not only the regions surrounding the PRM binding sites on the SH3 domains but also the linker area connecting the three domains and parts of the SH2 domain. Analysis of the interaction between the phosphorylated EGFR binding site and the SH2 domain revealed chemical shift perturbations in regions distal from the known binding site of SH2. Moreover, we observed that the inter-domain interactions of the two SH3 domains with the SH2 domain of GRB2 are asymmetric. These findings suggest that the local binding of PRMs and phosphorylated EGFR to GRB2 impacts the overall structure of the GRB2 molecule, including domain orientation and dimerisation, which may contribute to LLPS formation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tateno, Keita",
+        "Ando, Takami",
+        "Tabata, Maako",
+        "Sugasawa, Haruka",
+        "Hayashi, Toshifumi",
+        "Yu, Sangya",
+        "Pm, Sayeesh",
+        "Inomata, Kohsuke",
+        "Mikawa, Tsutomu",
+        "Ito, Yutaka",
+        "Ikeya, Teppei"
+      ],
+      "short_names": [
+        "Tateno K",
+        "Ando T",
+        "Tabata M",
+        "Sugasawa H",
+        "Hayashi T",
+        "Yu S",
+        "Pm S",
+        "Inomata K",
+        "Mikawa T",
+        "Ito Y",
+        "Ikeya T"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-5977-471X",
+        "ORCID: 0009-0006-1376-3340",
+        "ORCID: 0009-0007-3975-3500",
+        "ORCID: 0000-0002-1134-5712",
+        "ORCID: 0009-0006-4898-7141",
+        "ORCID: 0009-0006-4786-9215",
+        "ORCID: 0000-0003-0662-8248",
+        "ORCID: 0000-0002-6816-7961",
+        "ORCID: 0000-0003-2325-5084",
+        "ORCID: 0000-0002-1030-4660",
+        "ORCID: 0000-0002-6721-3727"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp.",
+        "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp.",
+        "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp.",
+        "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp.",
+        "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp.",
+        "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp.",
+        "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp.",
+        "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp.",
+        "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp.",
+        "RIKEN Center for Biosystems Dynamics Research, RIKEN 1-7-22 Suehiro-Cho, Tsurumi-Ku Yokohama 230-0045 Japan.",
+        "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp.",
+        "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tateno, Keita",
+        "short_name": "Tateno K",
+        "identifiers": [
+          "0009-0008-5977-471X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Ando, Takami",
+        "short_name": "Ando T",
+        "identifiers": [
+          "0009-0006-1376-3340"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Tabata, Maako",
+        "short_name": "Tabata M",
+        "identifiers": [
+          "0009-0007-3975-3500"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Sugasawa, Haruka",
+        "short_name": "Sugasawa H",
+        "identifiers": [
+          "0000-0002-1134-5712"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Hayashi, Toshifumi",
+        "short_name": "Hayashi T",
+        "identifiers": [
+          "0009-0006-4898-7141"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Yu, Sangya",
+        "short_name": "Yu S",
+        "identifiers": [
+          "0009-0006-4786-9215"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Pm, Sayeesh",
+        "short_name": "Pm S",
+        "identifiers": [
+          "0000-0003-0662-8248"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Inomata, Kohsuke",
+        "short_name": "Inomata K",
+        "identifiers": [
+          "0000-0002-6816-7961"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Mikawa, Tsutomu",
+        "short_name": "Mikawa T",
+        "identifiers": [
+          "0000-0003-2325-5084"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp.",
+          "RIKEN Center for Biosystems Dynamics Research, RIKEN 1-7-22 Suehiro-Cho, Tsurumi-Ku Yokohama 230-0045 Japan."
+        ]
+      },
+      {
+        "full_name": "Ito, Yutaka",
+        "short_name": "Ito Y",
+        "identifiers": [
+          "0000-0002-1030-4660"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Ikeya, Teppei",
+        "short_name": "Ikeya T",
+        "identifiers": [
+          "0000-0002-6721-3727"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University 1-1 Minamiosawa Hachioji Tokyo 192-0397 Japan tikeya@tmu.ac.jp ito-yutaka@tmu.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2024 Oct 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/17 10:43",
+    "fetched_at": "2026-09-21 10:27:51"
+  },
+  "links": {
+    "cites": [
+      "42161968",
+      "41835553",
+      "41685658",
+      "41578382",
+      "41463297"
+    ],
+    "refs": [
+      "37762438",
+      "37305168",
+      "36864087",
+      "35507881",
+      "35271311",
+      "34893542",
+      "33080222",
+      "32844357",
+      "32752665",
+      "32747626",
+      "31970984",
+      "31819267",
+      "31161213",
+      "29976799",
+      "27056844",
+      "26420231",
+      "26103942",
+      "23962882",
+      "23327446",
+      "22280219",
+      "21993244",
+      "21686117",
+      "21116482",
+      "20121194",
+      "19523899",
+      "15815974",
+      "15766546",
+      "15264834",
+      "11827484",
+      "11178911",
+      "10871282",
+      "9092826",
+      "8940013",
+      "7716522"
+    ],
+    "similar": [
+      "39282643",
+      "31970984",
+      "18778683",
+      "7566970",
+      "19323566",
+      "8670803",
+      "26079855",
+      "32752665",
+      "38275820",
+      "34232285",
+      "7537740",
+      "7521298",
+      "9108392",
+      "7773779",
+      "7881903",
+      "7527391",
+      "15834155",
+      "11827484",
+      "11127814",
+      "22022247",
+      "37762438",
+      "9383403",
+      "8491186",
+      "7799925",
+      "41578382",
+      "16906159",
+      "9209406",
+      "24105423",
+      "10395825",
+      "11127818",
+      "35952612",
+      "8188688",
+      "8524249",
+      "9135065",
+      "39175664",
+      "8621421",
+      "15929943",
+      "11178911",
+      "39199427",
+      "9569023",
+      "31527084",
+      "9009162",
+      "9175747",
+      "7520523",
+      "8702917",
+      "9694876",
+      "12112020",
+      "11960376",
+      "36864087",
+      "22396725",
+      "7520528",
+      "10749687",
+      "9307968",
+      "11314042",
+      "35703160",
+      "7752246",
+      "11726515",
+      "35276477",
+      "23334917",
+      "11007954",
+      "8816480",
+      "7518772",
+      "10903746",
+      "8479540",
+      "19464300",
+      "11964172",
+      "29173143",
+      "7773778",
+      "10318918",
+      "10913131",
+      "19735729",
+      "1322798",
+      "11533253",
+      "8649846",
+      "11606575",
+      "38959529",
+      "7518560",
+      "23936226",
+      "7629138",
+      "16520382",
+      "14498832",
+      "12169629",
+      "11885979",
+      "32510467",
+      "11746524",
+      "7721878",
+      "24475931",
+      "8940013",
+      "7542991",
+      "17180072",
+      "32844357",
+      "15210125",
+      "12522133",
+      "7791764",
+      "9174058",
+      "9417079",
+      "34068055",
+      "24775912",
+      "28060514",
+      "7716522"
+    ],
+    "review": [
+      "39282643",
+      "39175664",
+      "11007954",
+      "29173143"
+    ],
+    "pmc": [
+      "11391413"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39282643/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d4sc02656j",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GRB2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1554",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

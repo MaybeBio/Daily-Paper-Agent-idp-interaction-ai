@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, methodology, internal consistency, and support of claims by the provided evidence. No line numbers were provided; references to sections/figures are based on the manuscript structure.
+- **Shared manuscript claim summary** The authors propose a mechanism for the salt-dependent reentrant liquid-liquid phase separation (LLPS) of largely uncharged intrinsically disordered proteins (IDPs), exemplified by FUS. They claim that at low ionic strength, a highly correlated ionic plasma mediates long-range effective attractions between uncharged monomers, driving LLPS; at intermediate salt, screening dissolves the condensate; at high salt, an entropy-driven crowding/exclusion mechanism drives a second LLPS. These claims are supported by coarse-grained MARTINI simulations and a mean-field Voorn-Overbeek-type analytical theory.
+- **Visible evidence base** Main text: Abstract, Introduction, Materials and Methods, Results (including Figures 1–5 referenced), Discussion. Supplementary material is referenced but not provided in the submitted text.
+- **Missing materials affecting confidence** Supplementary figures and tables (Table S1, Figures S2–S9), full derivations of the theory, and details of the control simulations are referenced but not included. This limits verification of several quantitative claims and the robustness of the parameter choices.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and interesting question: why do largely uncharged IDPs exhibit reentrant LLPS as a function of salt concentration? The combination of explicit-ion coarse-grained simulations and analytical theory is appropriate and potentially powerful. The proposed mechanism, involving a correlated ionic plasma at low salt and entropy-driven exclusion at high salt, is physically plausible and conceptually novel in the context of uncharged IDPs. However, the current manuscript has several technical and presentational issues that need to be addressed before the case is fully established. The reliance on a single force field (MARTINI v3) without systematic validation against experimental observables, the lack of provided supplementary details, and some ambiguities in the theoretical treatment limit the strength of the conclusions. The work is likely of interest to the biophysics and soft-matter communities, and the qualitative predictions are testable, but the quantitative robustness and generalizability require further evidence.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, LLPS, IDP phase behavior, and the role of ions in polymer solutions. The work bridges polymer physics and cell biology and may also interest experimentalists seeking mechanistic predictions for salt-dependent phase behavior in uncharged or weakly charged IDPs.
+- **Major strengths**
+  - The question is well-motivated and addresses a gap in the literature: most salt-dependent LLPS studies focus on charged polymers, while uncharged IDPs are less understood.
+  - The combination of explicit-ion CG simulations and analytical theory is complementary and mutually reinforcing.
+  - The control simulations (e.g., chargeless FUS, chargeless salt) are well-designed to isolate the role of electrostatics.
+  - The proposed mechanism is physically plausible and provides a unifying explanation for the reentrant behavior.
+  - The connection to ψ-condensation is an interesting conceptual link that may stimulate further work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the MARTINI v3 force field with a scaling factor λ = 1.03 for protein-water interactions provides a reasonable transfer free-energy of FUS from dilute to dense phase, and that the simulations capture the reentrant behavior observed experimentally.
+  - **Evidence pointer** Materials and Methods, Results (Figure 1), Supporting Information (Section 5, Figure S6)
+  - **Concern** The manuscript relies on a single CG force field with a single adjusted parameter (λ = 1.03). The sensitivity of the results to this parameter and to other force-field choices is not systematically explored. The comparison to experiments is stated to be qualitative, but the quantitative predictive power of the model is unclear. The authors mention that MARTINI predicts NaCl solubility ~6 M, but the accuracy of the force field for the specific protein-water-ion interactions at high salt is not established. Without a systematic validation or a discussion of the limitations of the CG model, the robustness of the simulation results is uncertain.
+  - **Why it matters** The central claims of the paper rest on the simulation results. If the reentrant behavior is an artifact of the specific force-field parameterization, the mechanistic conclusions would be undermined. The lack of sensitivity analysis or comparison to alternative models weakens the confidence in the results.
+  - **Resolution test** Provide a systematic analysis of the dependence of the phase behavior on λ and other key force-field parameters. Compare simulation predictions (e.g., salt concentrations for LLPS boundaries, ion partitioning) to available experimental data for FUS or similar IDPs. If possible, perform at least one additional CG or atomistic simulation with a different force field to confirm the qualitative behavior.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The analytical theory predicts the reentrant LLPS and the ion distribution inside/outside the condensate, and the authors claim it explains the simulation observations.
+  - **Evidence pointer** Results (Theoretical Analysis, Figure 5), Supporting Information (Section 7)
+  - **Concern** The theory is presented in a condensed form, with key equations (Eqs. 2–5) and the derivation relegated to the Supporting Information, which is not provided. The assumptions of the model (e.g., the form of the Debye-Hückel term, the treatment of the excluded volume, the choice of Flory-Huggins parameters) are not fully justified. The theory treats the polymer as an uncharged homopolymer, but FUS has a small number of charges; the validity of this approximation is not discussed quantitatively. The comparison between theory and simulation is qualitative, and it is unclear whether the theory can quantitatively reproduce the simulation phase boundaries.
+  - **Why it matters** The theory is a key component of the paper's contribution. If the theoretical framework is not rigorously derived or its assumptions are not justified, the explanatory power of the paper is diminished. The lack of a quantitative comparison between theory and simulation makes it difficult to assess the accuracy of the theoretical predictions.
+  - **Resolution test** Provide the full derivation of the theory in the main text or a clearly accessible supplement. Justify the key approximations, particularly the treatment of the polymer as uncharged and the form of the Debye-Hückel term. Perform a quantitative comparison between the theoretical phase boundaries and the simulation results, including error bars or a measure of agreement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the mechanism is general and can be extended to other IDPs with a low number of charged residues.
+  - **Evidence pointer** Discussion, Introduction
+  - **Concern** The generality of the proposed mechanism is asserted but not demonstrated. The simulations and theory are performed for FUS-LCD (and full-length FUS in the supplement), but no other IDP sequences are tested. The claim that the framework can be extended to other IDPs is plausible but unsupported by direct evidence. The dependence of the mechanism on sequence-specific features (e.g., aromatic residues, glycine content) is not discussed.
+  - **Why it matters** The paper's impact would be significantly enhanced if the mechanism were shown to apply to a range of uncharged IDPs. Without such evidence, the claim of generality remains speculative.
+  - **Resolution test** Perform simulations or theoretical calculations for at least one or two additional uncharged or weakly charged IDPs to demonstrate that the reentrant behavior and the underlying mechanism are not specific to FUS. Alternatively, provide a clear argument based on sequence analysis for why the mechanism should be general.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the condensate at low salt absorbs ions, while at high salt it expels them, and that this is a key distinction between the two regimes.
+  - **Evidence pointer** Results (Figure 4), Theoretical Analysis (Figure 5b–5d)
+  - **Concern** The ion distribution results are presented qualitatively through density profiles and snapshots. The quantitative extent of ion enrichment/depletion is not reported (e.g., partition coefficients). The statistical significance of the differences between the low-salt and high-salt regimes is not assessed. The simulation box size and finite-size effects on the density profiles are not discussed.
+  - **Why it matters** The ion distribution is a central prediction of the proposed mechanism. A quantitative and statistically robust characterization is necessary to support the claim that the two regimes are mechanistically distinct.
+  - **Resolution test** Report quantitative ion partition coefficients (e.g., ratio of ion concentration inside to outside the condensate) with error bars for each salt concentration. Discuss potential finite-size effects and, if necessary, perform simulations with larger boxes to confirm the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript assumes familiarity with polymer physics concepts (e.g., Voorn-Overbeek, Debye-Hückel, Flory-Huggins) without brief explanations. A nonspecialist reader may struggle to follow the theoretical section.
+  - **Required correction** Add brief, accessible explanations of the key theoretical concepts when they are first introduced.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The choice of simulation box size (30 nm)³ and the number of FUS chains (42) is not justified. The concentration of FUS in the simulations is stated to be higher than in experiments, but the potential impact on the phase behavior is not discussed.
+  - **Required correction** Provide a justification for the chosen system size and concentration, and discuss the potential effects of these choices on the results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Figure 1
+  - **Evidence pointer** Results (Figure 1)
+  - **Issue** The error bars in Figure 1a are described as standard deviations, but the number of independent simulations or the method for estimating the error is not specified.
+  - **Required correction** Clarify the statistical analysis, including the number of independent simulations and how the standard deviations were calculated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the biological relevance of the high-salt LLPS regime is brief. The authors note it is "biologically non-relevant" but do not discuss whether the mechanism could be relevant in other contexts (e.g., intracellular ion concentrations in certain organelles).
+  - **Required correction** Expand the discussion to address the potential relevance of the high-salt regime in non-physiological or extreme environments, or clarify why it is not relevant.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, Results
+  - **Evidence pointer** Materials and Methods, Results (Figure 2)
+  - **Issue** The PMF calculations are performed for two FUS-LCD chains, but the manuscript does not specify whether the PMF is orientationally averaged or if multiple starting configurations were used.
+  - **Required correction** Provide details on the PMF calculation, including the treatment of orientational degrees of freedom and the number of independent metadynamics runs.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of force-field sensitivity analysis and validation against experimental data.
+  - R1-M2: Incomplete presentation of the theoretical derivation and lack of quantitative theory-simulation comparison.
+- **Assessment against Nature-style criteria**
+  - **Originality** The proposed mechanism, particularly the role of a correlated ionic plasma in mediating long-range attractions between uncharged IDPs, is a novel contribution. The connection to ψ-condensation is an interesting and original conceptual link. The work goes beyond existing studies that focus on charged polymers.
+  - **Scientific importance** The question of how salt modulates LLPS in uncharged IDPs is of significant importance for understanding biomolecular condensates in physiological and pathological contexts. The proposed mechanism, if validated, could have broad implications. However, the current evidence is primarily from simulations and theory, and the generality is not yet established.
+  - **Interdisciplinary readership** The work is likely to appeal to biophysicists, soft-matter physicists, polymer scientists, and cell biologists interested in phase separation. The conceptual framework is accessible, but the technical details may limit the readership to specialists.
+  - **Technical soundness** The combination of simulations and theory is appropriate, and the control simulations are well-designed. However, the lack of force-field validation, the incomplete presentation of the theory, and the qualitative nature of some comparisons weaken the technical soundness. The statistical analysis of the simulation results needs improvement.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but the theoretical section assumes significant background knowledge. The abstract and introduction are accessible, but the results and theory sections may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the approach is promising, but the current manuscript does not fully establish the case due to the concerns outlined above. The authors should address the force-field sensitivity, provide a more complete theoretical presentation, and strengthen the quantitative comparisons.
+
+## Risk / unsupported claims
+- The claim that the mechanism is general for uncharged IDPs is unsupported by direct evidence (only FUS is studied).
+- The claim that the MARTINI v3 force field with λ = 1.03 provides a "reasonable" transfer free-energy is not quantitatively supported in the main text.
+- The quantitative agreement between theory and simulation is not demonstrated; the comparison is qualitative.
+- The biological relevance of the high-salt regime is not discussed in detail, and the claim that it is "biologically non-relevant" is an assertion without supporting evidence.
+- The claim that the low-salt LLPS is driven by "highly correlated Debye-Hückel plasma" is supported by simulations and theory, but the direct experimental evidence for this mechanism is not provided.

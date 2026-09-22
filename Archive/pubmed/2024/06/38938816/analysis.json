@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38938816",
+  "title": "CoVAMPnet: Comparative Markov State Analysis for Studying Effects of Drug Candidates on Disordered Biomolecules.",
+  "authors": "Marques, Sergio M; Kouba, Petr; Legrand, Anthony; Sedlar, Jiri; Disson, Lucas; Planas-Iglesias, Joan; Sanusi, Zainab; Kunka, Antonin; Damborsky, Jiri; Pajdla, Tomas; Prokop, Zbynek; Mazurenko, Stanislav; Sivic, Josef; Bednar, David",
+  "journal": "JACS Au",
+  "published_date": "2024-06-28",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 9,
+  "one_liner_zh": "该文开发CoVAMPnet框架，结合增强采样MD、软马尔可夫状态模型和神经网络梯度判别分析，量化药物候选分子对无序Abeta42肽构象分布与动态的影响，直接聚焦IDP构象互作机制建模，方法可迁移至IDR介导的PPI研究。",
+  "abstract": "Computational study of the effect of drug candidates on intrinsically disordered biomolecules is challenging due to their vast and complex conformational space. Here, we developed a comparative Markov state analysis (CoVAMPnet) framework to quantify changes in the conformational distribution and dynamics of a disordered biomolecule in the presence and absence of small organic drug candidate molecules. First, molecular dynamics trajectories are generated using enhanced sampling, in the presence and absence of small molecule drug candidates, and ensembles of soft Markov state models (MSMs) are learned for each system using unsupervised machine learning. Second, these ensembles of learned MSMs are aligned across different systems based on a solution to an optimal transport problem. Third, the directional importance of inter-residue distances for the assignment to different conformational states is assessed by a discriminative analysis of aggregated neural network gradients. This final step provides interpretability and biophysical context to the learned MSMs. We applied this novel computational framework to assess the effects of ongoing phase 3 therapeutics tramiprosate (TMP) and its metabolite 3-sulfopropanoic acid (SPA) on the disordered Abeta42 peptide involved in Alzheimer's disease. Based on adaptive sampling molecular dynamics and CoVAMPnet analysis, we observed that both TMP and SPA preserved more structured conformations of Abeta42 by interacting nonspecifically with charged residues. SPA impacted Abeta42 more than TMP, protecting alpha-helices and suppressing the formation of aggregation-prone beta-strands. Experimental biophysical analyses showed only mild effects of TMP/SPA on Abeta42 and activity enhancement by the endogenous metabolization of TMP into SPA. Our data suggest that TMP/SPA may also target biomolecules other than Abeta peptides. The CoVAMPnet method is broadly applicable to study the effects of drug candidates on the conformational behavior of intrinsically disordered biomolecules.",
+  "abstract_zh": "对 intrinsically disordered biomolecules（内在无序生物分子）上药物候选分子效应的计算研究因其庞大且复杂的构象空间而具有挑战性。在此，我们开发了一个比较马尔可夫状态分析（CoVAMPnet）框架，以量化在存在和不存在小分子有机药物候选分子时，无序生物分子的构象分布和动力学变化。首先，使用增强采样生成分子动力学轨迹，在存在和不存在小分子药物候选分子的情况下，并利用无监督机器学习为每个系统学习软马尔可夫状态模型（MSMs）的集合。其次，基于最优传输问题的解，将这些学习到的MSM集合在不同系统间进行对齐。第三，通过聚合神经网络梯度的判别分析，评估残基间距离对不同构象状态分配的方向性重要性。这最后一步为学习到的MSMs提供了可解释性和生物物理背景。我们应用这一新型计算框架，评估正在进行的三期治疗药物曲米普酸（TMP）及其代谢物3-磺基丙酸（SPA）对涉及阿尔茨海默病的无序Abeta42肽的影响。基于自适应采样分子动力学和CoVAMPnet分析，我们观察到TMP和SPA均通过与带电残基非特异性相互作用，保留了Abeta42更多结构化的构象。SPA对Abeta42的影响大于TMP，保护了α-螺旋并抑制了易聚集的β-链的形成。实验性生物物理分析显示TMP/SPA对Abeta42仅有温和效应，且TMP内源性代谢为SPA增强了活性。我们的数据表明，TMP/SPA可能还靶向Abeta肽以外的生物分子。CoVAMPnet方法广泛适用于研究药物候选分子对内在无序生物分子构象行为的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38938816/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38938816/",
+  "paper_page_path": "papers/pubmed/38938816/index.html"
+}

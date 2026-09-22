@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34005864",
+  "title": "Subcompartmentalization of polyampholyte species in organelle-like condensates is promoted by charge-pattern mismatch and strong excluded-volume interaction.",
+  "authors": "Pal, Tanmoy; Wessen, Jonas; Das, Suman; Chan, Hue Sun",
+  "journal": "Physical review. E",
+  "published_date": "2021-05-20",
+  "window": {
+    "start": "2021-05-17",
+    "end": "2021-05-23"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过聚电解质场论和显式链分子动力学模拟，揭示电荷模式错配与排除体积协同驱动两种无序蛋白在凝聚体中的亚区室化，直接建模了无序蛋白互作与相分离机制，方法为物理模拟，高度契合本课题。",
+  "abstract": "Polyampholyte field theory and explicit-chain molecular dynamics models of sequence-specific phase separation of a system with two intrinsically disordered protein (IDP) species indicate consistently that a substantial polymer excluded volume and a significant mismatch of the IDP sequence charge patterns can act in concert, but not in isolation, to demix the two IDP species upon condensation. This finding reveals an energetic-geometric interplay in a stochastic, \"fuzzy\" molecular recognition mechanism that may facilitate subcompartmentalization of membraneless organelles.",
+  "abstract_zh": "两性聚电解质场论和显式链分子动力学模型对含两种内在无序蛋白（IDP）物种的序列特异性相分离研究表明，显著的聚合物排除体积与IDP序列电荷模式的不匹配可协同作用，但非孤立地，在凝聚时促使两种IDP物种分离。这一发现揭示了一种随机、“模糊”分子识别机制中的能量-几何相互作用，可能促进无膜细胞器的亚区室化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34005864/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34005864/",
+  "paper_page_path": "papers/pubmed/34005864/index.html"
+}

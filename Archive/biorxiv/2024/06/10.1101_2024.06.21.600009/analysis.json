@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.21.600009",
+  "title": "Targeted engineering of the phase separating PARCL protein",
+  "authors": "Veevers R; Ostendorp S; Ostendorp A; Kehr J; Morris RJ",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-25",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化分子动力学(HPS-Urry)模拟无序蛋白PARCL的相分离，结合残基接触分析识别驱动凝聚的关键残基，并通过突变实验验证，同时模拟RNA结合，实现了模型引导的凝聚体工程，对象、互作机制与物理模拟方法三者齐备。",
+  "abstract": "PARCL is a plant-specific RNA-binding protein (RBP) that exhibits chaperone activity, is abundant in the phloem, intrinsically disordered, and contains a prion-like domain (PLD). PARCL proteins have been observed to form large biomolecular condensates in vivo and in vitro . Biomolecular condensates are membraneless compartments, wherein biomolecules become partitioned from their surrounding liquid environment into liquid droplets with their own composition, dynamics, and function. Which molecular properties drive phase separation is of great interest for targeted engineering efforts. Here, we present results on residue interactions derived from simulations of PARCL using course-grained molecular dynamics with the HPS-Urry model. We adjust the parameters of the simulations to allow the inclusion of folded eYFP tags, since fluorescent tags are often used in phase separation experiments for visualising droplets, yet have not been included in simulations to date. While still simulating phase separation, these trajectories suggest minor changes to droplet and network structure when proteins contain eYFP. By analysing the residues of the PARCL molecules that come within contact distance in the simulations, we identify which individual residues drive phase separation. To experimentally validate these findings, we introduced mutations of the most contacted residues and could indeed confirm that these mutations prevent the formation of condensate droplets. To investigate the RNA-binding of PARCL, we added microRNA to the simulation and find a short region of PARCL consistently making contact with the miRNA, which is also in agreement with predictions and experiments. We discuss the implications of our findings in terms of model-guided engineering of biomolecular condensates.",
+  "abstract_zh": "PARCL是一种植物特有的RNA结合蛋白（RBP），具有伴侣活性，在韧皮部中丰富，本质无序，并含有一个朊病毒样结构域（PLD）。已观察到PARCL蛋白在体内和体外形成大型生物分子凝聚体。生物分子凝聚体是无膜区室，其中生物分子从周围液体环境中分离出来，进入具有自身组成、动力学和功能的液滴中。哪些分子特性驱动相分离，对于靶向工程改造具有重要意义。在此，我们展示了使用HPS-Urry模型进行粗粒化分子动力学模拟PARCL所得的残基相互作用结果。我们调整了模拟参数，以允许包含折叠的eYFP标签，因为荧光标签常用于相分离实验中可视化液滴，但迄今为止尚未纳入模拟中。虽然仍模拟相分离，但这些轨迹表明，当蛋白质含有eYFP时，液滴和网络结构发生微小变化。通过分析模拟中PARCL分子接触距离内的残基，我们识别出哪些单个残基驱动相分离。为实验验证这些发现，我们引入了接触最多残基的突变，并确实确认这些突变阻止了凝聚体液滴的形成。为研究PARCL的RNA结合特性，我们在模拟中添加了microRNA，并发现PARCL的一个短区域持续与miRNA接触，这也与预测和实验一致。我们讨论了我们的发现对模型引导的生物分子凝聚体工程改造的意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.21.600009",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.21.600009",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.21.600009/index.html"
+}

@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "34079903",
+    "doi": "10.1021/acscentsci.1c00119",
+    "title": "Heterogeneous Charged Complexes of Random Copolymers for the Segregation of Organic Molecules."
+  },
+  "content": {
+    "abstract": "Nature harnesses the disorder of intrinsically disordered proteins to organize enzymes and biopolymers into membraneless organelles. The heterogeneous nature of synthetic random copolymers with charged, polar, and hydrophobic groups has been exploited to mimic intrinsically disordered proteins, forming complexes with enzymatically active proteins and delivering them into nonbiological environments. Here, the properties of polyelectrolyte complexes composed of two random copolymer polyelectrolytes are studied experimentally and via simulation with the aim of exploiting such complexes for segregating organic molecules from water. The anionic polyelectrolyte contains hydrophilic and hydrophobic side chains and forms self-assembled hydrophobic domains. The cationic polymer is a high-molecular-weight copolymer of hydrophilic and charged side groups and acts as a flocculant. We find that the polyelectrolyte complexes obtained with this anionic and cationic random copolymer system are capable of absorbing small cationic, anionic, and hydrophobic organic molecules, including perfluorooctanoic acid, a compound of great environmental and toxicologic concern. Importantly, these macroscopic complexes can be easily removed from water, thereby providing a simple approach for organic contaminant removal in aqueous media. MARTINI and coarse-grained molecular dynamics simulations explore how the microscale heterogeneity of these random copolymer complexes relates to their segregation functionality.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jeremy",
+        "Waltmann, Curt",
+        "Umana-Kossio, Han",
+        "Olvera de la Cruz, Monica",
+        "Torkelson, John M"
+      ],
+      "short_names": [
+        "Wang J",
+        "Waltmann C",
+        "Umana-Kossio H",
+        "Olvera de la Cruz M",
+        "Torkelson JM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9802-3627",
+        "ORCID: 0000-0002-4875-4827"
+      ],
+      "affiliations": [
+        "Dept. of Materials Science and Engineering, Dept. of Chemical and Biological Engineering, Dept. of Chemistry, and Dept. of Physics and Astronomy, Northwestern University, Evanston, Illinois 60208, United States.",
+        "Dept. of Materials Science and Engineering, Dept. of Chemical and Biological Engineering, Dept. of Chemistry, and Dept. of Physics and Astronomy, Northwestern University, Evanston, Illinois 60208, United States.",
+        "Dept. of Materials Science and Engineering, Dept. of Chemical and Biological Engineering, Dept. of Chemistry, and Dept. of Physics and Astronomy, Northwestern University, Evanston, Illinois 60208, United States.",
+        "Dept. of Materials Science and Engineering, Dept. of Chemical and Biological Engineering, Dept. of Chemistry, and Dept. of Physics and Astronomy, Northwestern University, Evanston, Illinois 60208, United States.",
+        "Dept. of Materials Science and Engineering, Dept. of Chemical and Biological Engineering, Dept. of Chemistry, and Dept. of Physics and Astronomy, Northwestern University, Evanston, Illinois 60208, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jeremy",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Materials Science and Engineering, Dept. of Chemical and Biological Engineering, Dept. of Chemistry, and Dept. of Physics and Astronomy, Northwestern University, Evanston, Illinois 60208, United States."
+        ]
+      },
+      {
+        "full_name": "Waltmann, Curt",
+        "short_name": "Waltmann C",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Materials Science and Engineering, Dept. of Chemical and Biological Engineering, Dept. of Chemistry, and Dept. of Physics and Astronomy, Northwestern University, Evanston, Illinois 60208, United States."
+        ]
+      },
+      {
+        "full_name": "Umana-Kossio, Han",
+        "short_name": "Umana-Kossio H",
+        "identifiers": [],
+        "affiliations": [
+          "Dept. of Materials Science and Engineering, Dept. of Chemical and Biological Engineering, Dept. of Chemistry, and Dept. of Physics and Astronomy, Northwestern University, Evanston, Illinois 60208, United States."
+        ]
+      },
+      {
+        "full_name": "Olvera de la Cruz, Monica",
+        "short_name": "Olvera de la Cruz M",
+        "identifiers": [
+          "0000-0002-9802-3627"
+        ],
+        "affiliations": [
+          "Dept. of Materials Science and Engineering, Dept. of Chemical and Biological Engineering, Dept. of Chemistry, and Dept. of Physics and Astronomy, Northwestern University, Evanston, Illinois 60208, United States."
+        ]
+      },
+      {
+        "full_name": "Torkelson, John M",
+        "short_name": "Torkelson JM",
+        "identifiers": [
+          "0000-0002-4875-4827"
+        ],
+        "affiliations": [
+          "Dept. of Materials Science and Engineering, Dept. of Chemical and Biological Engineering, Dept. of Chemistry, and Dept. of Physics and Astronomy, Northwestern University, Evanston, Illinois 60208, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS central science"
+    ],
+    "journal_abbrev": [
+      "ACS Cent Sci"
+    ],
+    "pub_date": "2021 May 26",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/04 06:00",
+    "fetched_at": "2026-09-20 03:35:22"
+  },
+  "links": {
+    "cites": [
+      "41849279",
+      "40074826",
+      "39958485",
+      "39378183",
+      "36638823",
+      "35312375"
+    ],
+    "refs": [
+      "32134099",
+      "31769988",
+      "31739048",
+      "31167159",
+      "31041391",
+      "30901008",
+      "30384694",
+      "30384671",
+      "30204431",
+      "29590071",
+      "29493221",
+      "29459301",
+      "29199758",
+      "29097695",
+      "28683256",
+      "28225081",
+      "27336461",
+      "26785924",
+      "26757773",
+      "26477852",
+      "25981870",
+      "21705008",
+      "21138767",
+      "20633865",
+      "15332921",
+      "15267302",
+      "10062148"
+    ],
+    "similar": [
+      "34079903",
+      "29895685",
+      "19371031",
+      "23157343",
+      "16171330",
+      "32404554",
+      "17402774",
+      "35912826",
+      "27116478",
+      "35080232",
+      "38359799",
+      "32065906",
+      "26723636",
+      "22524634",
+      "15379462",
+      "31846895",
+      "31034239",
+      "17388489",
+      "22471950",
+      "26075948",
+      "33562022",
+      "36166427",
+      "26910617",
+      "18942877",
+      "31483428",
+      "27031284",
+      "23470131",
+      "16004416",
+      "29205035",
+      "37196238",
+      "17880199",
+      "26355463",
+      "32503350",
+      "10852341",
+      "24973703",
+      "28494408",
+      "22998222",
+      "19125562",
+      "22148262",
+      "29565433",
+      "21303089",
+      "16570598",
+      "33086835",
+      "28636369",
+      "29227890",
+      "17425360",
+      "25460712",
+      "15948231",
+      "25157931",
+      "17559254",
+      "19045874",
+      "15311274",
+      "17263257",
+      "11835158",
+      "17700868",
+      "30306164",
+      "18400474",
+      "29240395",
+      "25719673",
+      "16853464",
+      "17259279",
+      "31675790",
+      "31722322",
+      "21338138",
+      "31145393",
+      "35528594",
+      "21999929",
+      "28024608",
+      "24240173",
+      "17261051",
+      "23205740",
+      "32707655",
+      "17134228",
+      "28650657",
+      "36583123",
+      "30933716",
+      "28504881",
+      "33885305",
+      "26135325",
+      "16229512",
+      "27318960",
+      "28000446",
+      "15300242",
+      "21410223",
+      "29649875",
+      "29508992",
+      "29210575",
+      "28494589",
+      "15010900",
+      "29325212",
+      "24785197",
+      "33442667",
+      "15836087",
+      "38815215",
+      "35578518",
+      "35508536",
+      "35514832"
+    ],
+    "review": [
+      "34079903",
+      "32404554",
+      "10852341",
+      "32707655"
+    ],
+    "pmc": [
+      "8161480"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acscentsci.1c00119",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34079903/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34079903",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acscii/article-lookup/doi/10.1021/acscentsci.1c00119",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, acknowledgments) as provided
+- **Assessment boundary** Scientific content, methodological soundness, data interpretation, and internal consistency of the reported work
+- **Shared manuscript claim summary** The authors present integrative structural models of the intrinsically disordered protein 4E-BP2 in non-phosphorylated (NP) and five-fold phosphorylated (5P) states, generated using FastFloppyTail (FFT) sampling and refined with Bayesian Maximum Entropy (BME) against NMR, SAXS, and smFRET data. Clustering of the refined ensembles reveals distinct conformational subpopulations, including a NP cluster compatible with the eIF4E-bound state, and 5P clusters differentiated by N-IDR and C-IDR interactions with the folded domain.
+- **Visible evidence base** Methods descriptions for FFT, BME, SAXS, NMR, smFRET, and hierarchical clustering; results narrative with references to Figures 1–7 and Tables 1–2; discussion of mechanistic implications
+- **Missing materials affecting confidence** Figures and tables referenced but not provided; Supporting Information (including sections 1.1, 1.2, 2.1, 2.4–2.9, Figures S1–S14, Tables S1–S8) not available; experimental details for SAXS data collection and analysis are incomplete; no raw data or validation metrics beyond those described in text
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in the field of intrinsically disordered proteins: how phosphorylation modulates the conformational landscape of 4E-BP2 and its ability to bind eIF4E. The integrative approach combining multiple experimental restraints with computational sampling is appropriate and well-motivated. The authors present a plausible set of structural ensembles and identify potentially important contact patterns. However, the manuscript as provided has several critical limitations. The absence of all figures, tables, and Supporting Information makes it impossible to fully evaluate the quality of the fits, the robustness of the clustering, or the validity of the key claims. Several methodological details are underspecified, particularly regarding the treatment of the folded domain in the 5P state, the handling of FRET data, and the selection of the BME hyperparameter. The mechanistic conclusions, while interesting, are largely speculative and not directly tested. The claim that a specific NP cluster is "compatible with the eIF4E-bound state" rests on a limited comparison to only two FRET distances and requires stronger validation. Overall, the work has potential merit, but the case is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those interested in phosphorylation-dependent regulation of protein-protein interactions, conformational ensembles, and integrative structural biology. The methodological approach combining FFT, BME, and clustering will be of interest to computational biophysicists. The specific findings on 4E-BP2 will be relevant to the translation regulation and eIF4E signaling communities.
+- **Major strengths** The use of multiple complementary experimental techniques (NMR, SAXS, smFRET) to restrain the ensembles is a clear strength. The application of BME with careful attention to the balance between data fitting and prior preservation is methodologically sound. The clustering analysis provides a useful framework for interpreting heterogeneous IDP ensembles. The authors are appropriately cautious in some interpretations and acknowledge limitations of their approach. The work generates specific, testable hypotheses about the role of N-IDR interactions in stabilizing the folded domain of 5P 4E-BP2.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the optimized NP and 5P ensembles agree with experimental data from NMR, SAXS, and smFRET, and that these ensembles are suitable for structural interpretation.
+  - **Evidence pointer** Results section "Optimized 4E-BP2 Ensembles"; Figures 1, S1–S3; Tables 1, S1–S2
+  - **Concern** The manuscript states that the ensembles were refined against experimental data and that good agreement was achieved, but the actual quality of the fits is not presented in the provided text. No chi-squared values for individual restraints are given in the main text, and the referenced figures and tables that would show these fits are not available. The selection of the BME hyperparameter θ is described, but the rationale for the specific values chosen (θ = 35 for NP, θ = 27 for 5P) is not fully explained. The use of PRE data to select the knee point is described, but the actual PRE RMSD curves are not shown.
+  - **Why it matters** The central claim of the paper is that the ensembles are experimentally validated. Without seeing the quality of the fits, the reader cannot assess whether the ensembles are reliable enough to support the structural interpretations that follow. If the fits are poor or the ensembles are overfit, the subsequent clustering and contact analyses would be compromised.
+  - **Resolution test** The authors must provide the fit quality metrics for each restraint type (reduced chi-squared values, residuals plots) for both NP and 5P ensembles, and show the PRE RMSD curves used for knee point selection. They should also provide a sensitivity analysis showing how the choice of θ affects the resulting ensembles and conclusions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors claim that the 5P ensemble was generated with the folded domain (residues 18–62) fixed during FFT sampling, using 20 NMR-derived structures.
+  - **Evidence pointer** Methods section "Conformer Generation"; Results section "Optimized 4E-BP2 Ensembles"
+  - **Concern** The description of how the folded domain was treated in the 5P sampling is incomplete. The authors state that the folded domain was "fixed" during FFT sampling, but it is unclear whether this means the backbone was held rigid, whether side chains were allowed to move, or how the 20 different NMR structures were incorporated. The "bond" function in PyMOL used to concatenate the IDRs to the folded domain is mentioned, but the details of how this affects the local geometry at the junctions are not described. The potential artifacts introduced by this approach are not discussed.
+  - **Why it matters** The treatment of the folded domain is critical for the validity of the 5P ensemble. If the domain is held too rigidly, the ensemble may not capture realistic conformations at the domain-IDR junctions. If the 20 NMR structures are not properly weighted or sampled, the ensemble may be biased. These issues could affect the contact analyses and the conclusions about N-IDR and C-IDR interactions with the folded domain.
+  - **Resolution test** The authors should provide a detailed description of the sampling protocol for the 5P state, including how the folded domain was treated, how the 20 NMR structures were used, and how junction geometry was handled. They should also discuss potential artifacts and how they were mitigated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that Cluster 1 of the NP ensemble is "compatible with the eIF4E-bound state" based on agreement with smFRET data for the bound state.
+  - **Evidence pointer** Results section "Prominent 4E-BP2 Structural Propensities Revealed by Clustering"; Table 2
+  - **Concern** The claim that a specific cluster resembles the eIF4E-bound state is based on a comparison of only two mean FRET efficiencies (E32–91 and E73–121) between the cluster and the experimentally measured bound state. This is a very limited set of observables. The authors do not provide any structural comparison to the actual bound conformation of 4E-BP2 when bound to eIF4E, nor do they assess whether the cluster members share specific structural features with the bound state beyond the FRET distances. The z-test used for comparison is described, but the actual values and significance levels are not presented in the text.
+  - **Why it matters** The identification of a "bound-state-like" subpopulation is a key finding of the paper, with implications for the binding mechanism. If this claim is not well-supported, the mechanistic conclusions are weakened. A cluster that matches two FRET distances could be coincidental, especially given the large conformational space of IDPs.
+  - **Resolution test** The authors should provide the z-test values and significance levels for the cluster comparisons. They should also perform a more rigorous structural comparison, such as calculating the fraction of cluster members that have backbone conformations similar to the bound state (e.g., RMSD to the bound structure), or comparing additional observables that distinguish the bound from unbound states.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** The authors propose a sequential mechanism for 5P 4E-BP2 in which the N-IDR acts as both a chaperone and an inhibitor, guiding the C-IDR to interact with the folded domain.
+  - **Evidence pointer** Discussion section; Figures 4, 6, 7
+  - **Concern** The proposed mechanism is presented as a plausible interpretation of the clustering and contact analyses, but it is not directly tested. The authors describe a sequence of states (CIM-off to NIM-pT46 to NIM-pT37 to CIM-on) but do not provide evidence for the temporal ordering or the transitions between these states. The ensembles are static snapshots, and the clustering does not provide dynamical information. The claim that the N-IDR "leads" the C-IDR to the folded domain is speculative.
+  - **Why it matters** The mechanistic proposal is a significant part of the discussion and will likely be cited. If it is presented as a hypothesis, that should be made clear. If it is presented as a conclusion, it needs stronger support. Overinterpretation of static ensembles as dynamic processes is a common pitfall in IDP research.
+  - **Resolution test** The authors should clearly label the proposed mechanism as a hypothesis and discuss alternative interpretations. They could also perform additional analyses to support the mechanism, such as examining the distribution of distances between the N-IDR and C-IDR in the different clusters, or using the clusters to seed molecular dynamics simulations to test whether the proposed transitions are plausible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "SAXS Data and Calculations"
+  - **Evidence pointer** Methods section
+  - **Issue** The SAXS data collection and analysis description is incomplete. The authors mention using a SAXSpace instrument but do not provide details on the buffer conditions, temperature, data collection range, or the specific analysis software and procedures used to derive the scattering profiles and Guinier analysis.
+  - **Required correction** Provide complete experimental details for SAXS data collection and analysis, including buffer composition, temperature, q-range, and software used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Optimized 4E-BP2 Ensembles"
+  - **Evidence pointer** Table 1
+  - **Issue** Table 1 is referenced but not provided. The fitting parameters listed in the table are described in the text, but the actual values are not given.
+  - **Required correction** Ensure Table 1 is included with all fitting parameters and uncertainties clearly defined.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors state that "the NP ensemble appears to be more expanded overall than the 5P ensemble by Rg and Rh measures, while Rh measured by FCS and two internal distances measured by smFRET show the opposite trend." This discrepancy is noted but not fully discussed. The potential implications for the validity of the ensembles are not addressed.
+  - **Required correction** Provide a more thorough discussion of the discrepancy between different measures of size and what it might indicate about the ensembles or the experimental measurements.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Introduction section
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction cites reference 26 for the smFRET data on 4E-BP2, but the full citation is not provided in the reference list. The authors should ensure all references are complete and correctly formatted.
+  - **Required correction** Verify all references are complete and correctly cited.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Methods section "Hierarchical Clustering"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the hierarchical clustering procedure is brief. The authors mention using Ward's method and a Euclidean distance metric, but do not specify the software or implementation used, nor the criteria for determining the number of clusters beyond the L-curve analysis.
+  - **Required correction** Provide details on the software and implementation used for clustering, and describe the L-curve analysis more fully.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (fit quality not shown), R1-M2 (folded domain treatment underspecified), R1-M3 (limited evidence for bound-state compatibility claim)
+- **Assessment against Nature-style criteria** Originality: The work is original in its application of integrative modeling to a specific IDP system with a folded domain, and the clustering approach is a useful contribution. However, the methods themselves are not novel, and the findings are incremental. Scientific importance: The 4E-BP2/eIF4E system is biologically important, and understanding phosphorylation-dependent conformational changes has broad implications. However, the specific findings are largely descriptive and do not yet provide a mechanistic advance. Interdisciplinary readership: The work bridges computational biophysics, NMR spectroscopy, and single-molecule fluorescence, and will appeal to a reasonably broad readership in these areas. Technical soundness: The methodological framework is sound in principle, but the lack of presented fit quality and the underspecified treatment of the folded domain prevent full assessment. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with IDP ensemble modeling and Bayesian inference. Overall, the work is of moderate interest and technical quality, but does not yet meet the standard for a high-impact general journal.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question with an appropriate methodology, but the absence of key figures, tables, and Supporting Information, combined with underspecified methods and limited support for the central claims, prevents a positive recommendation. The authors should be invited to resubmit after addressing the major concerns, particularly by providing full fit quality metrics, clarifying the treatment of the folded domain, and strengthening the evidence for the bound-state-compatible cluster.
+
+## Risk / unsupported claims
+- The claim that the optimized ensembles agree with experimental data is not verifiable without the fit quality metrics and figures.
+- The claim that Cluster 1 of the NP ensemble is "compatible with the eIF4E-bound state" is weakly supported, as it rests on only two FRET distances.
+- The proposed sequential mechanism for 5P 4E-BP2 (CIM-off to NIM-pT46 to NIM-pT37 to CIM-on) is presented without direct evidence for the transitions or temporal ordering.
+- The statement that "the 5P state is overall more compact than the NP state" is based on back-calculated Rg values, but the discrepancy with smFRET and FCS data is not resolved.
+- The claim that specific contacts (e.g., between Y34/Y54 and K92/K107/R106) contribute to the ISP dip is speculative and not directly tested.
+- The assertion that the N-IDR acts as a "chaperone" for the C-IDR is an interpretation that goes beyond the presented data.

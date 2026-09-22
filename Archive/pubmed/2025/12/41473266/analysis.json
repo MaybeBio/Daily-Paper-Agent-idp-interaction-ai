@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41473266",
+  "title": "Microcompartments in archaeal ancestors of eukaryotes: a bioenergetic engine that could have fuelled eukaryogenesis.",
+  "authors": "Du, Huan; Xu, Aoxiang; Feng, Xiaoyuan; Huang, Wen-Cong; Li, Huayu; Liu, Li; Li, Yuling; Zhang, Siyu; Song, Ning; Appler, Kathryn E; Baker, Brett J; Koonin, Eugene V; Li, Meng; Liu, Yang",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-12-31",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该文报道古菌微区室(AMC)中IDR捕获DNA并增强能量代谢，虽非直接PPI建模，但IDR介导的互作与反应-扩散建模对无序蛋白互作机制有启发。",
+  "abstract": "Eukaryotic intracellular compartmentalization is a key innovation in the evolution of complex cellular life. While microcompartments enable metabolic specialization in many bacteria, to our knowledge, no analogous systems have been identified in Archaea. Here, we report the discovery of archaeal microcompartments (AMCs) in Hodarchaeales, an order within the phylum Promethearchaeati (Asgard archaea) that includes the closest known archaeal relatives of eukaryotes. Phylogenetic and structural analyses indicate that these catabolic AMCs, which are specialized for sugar-phosphate metabolism, were acquired by horizontal gene transfer from deep-rooted bacteria of the phylum Myxococcota. The shell pentamers of AMCs are fused to lysine/arginine-rich intrinsically disordered regions that capture cytosolic DNA, facilitating nutrient scavenging. Reaction-diffusion modelling predicts that enzyme colocalization and substrate channelling within AMCs can increase the NADH flux approximately 100-fold. Thus, the AMCs substantially boost energy production in the cell and might have primed the archaeal host for eukaryogenesis.",
+  "abstract_zh": "真核细胞内区室化是复杂细胞生命演化中的关键创新。尽管微区室使许多细菌能够实现代谢特化，但据我们所知，在古菌中尚未发现类似系统。在此，我们报告在Hodarchaeales目中发现了古菌微区室（AMCs），该目属于Promethearchaeati门（Asgard古菌），包含已知与真核生物最接近的古菌亲属。系统发育和结构分析表明，这些分解代谢型AMCs专用于糖磷酸代谢，是通过水平基因转移从深根细菌门Myxococcota获得的。AMCs的壳五聚体与富含赖氨酸/精氨酸的内在无序区域融合，这些区域捕获胞质DNA，促进营养清除。反应-扩散模型预测，AMCs内的酶共定位和底物通道化可使NADH通量增加约100倍。因此，AMCs显著提升细胞内的能量产生，并可能为古菌宿主向真核生物发生（eukaryogenesis）奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41473266/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41473266/",
+  "paper_page_path": "papers/pubmed/41473266/index.html"
+}

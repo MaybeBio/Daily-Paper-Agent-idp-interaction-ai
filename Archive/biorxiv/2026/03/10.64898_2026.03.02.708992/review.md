@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors propose that N-terminal myristoylation of the disordered enteroviral VP4 protein (Coxsackievirus B3 model) performs three hierarchical functions: membrane recruitment via hydrophobic anchoring, promotion of liquid-liquid phase separation leading to membrane-remodeling condensates that lower the penetration energy barrier, and stabilization of the final transmembrane pore. They further suggest this mechanism explains the variable myristoylation dependence across enteroviruses.
+- **Visible evidence base** Multi-scale molecular dynamics simulations and confocal microscopy, as stated in the abstract. No figures, tables, methods details, or quantitative results are provided.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, simulation parameters and force fields, experimental protocols, statistical analyses, control experiments, and any quantitative data supporting the phase separation and pore stabilization claims.
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing and potentially significant hypothesis that a single lipid modification can convert a disordered viral protein into a membrane-perforating agent through phase separation. The proposed hierarchical model is conceptually novel and could have broad implications for understanding viral entry mechanisms and the general role of lipid modifications in disordered proteins. However, the evidence base visible in the abstract is insufficient to evaluate the technical soundness of the claims. The central assertions regarding phase separation, membrane curvature generation, free energy barrier reduction, and pore stabilization are stated without quantitative support or methodological detail. The connection to the broader enterovirus context is speculative at this stage. The work is potentially important but currently not established from the provided material.
+- **Who would be interested in the results, and why** Virologists studying enterovirus entry mechanisms and myristoylation-dependent infectivity would find this directly relevant. Biophysicists and biochemists working on liquid-liquid phase separation, membrane remodeling, and protein-lipid interactions would be interested in the proposed paradigm of lipid-modified disordered proteins forming functional condensates. Cell biologists studying membrane perforation and pore formation mechanisms may also find the work relevant. The potential generalizability to other lipid-modified disordered proteins could attract a broader readership in molecular biology.
+- **Major strengths** The conceptual framework is novel, proposing a mechanistic link between myristoylation, phase separation, and membrane perforation that has not been previously articulated. The integration of multi-scale simulations with experimental confocal microscopy represents a potentially powerful combined approach. The hierarchical model with three distinct roles for the myristoyl group is elegant and testable. The potential to explain the puzzling context-dependent myristoylation requirement across enteroviruses adds biological significance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that myristoylation promotes liquid-liquid phase separation of VP4, leading to dynamic condensates on the membrane surface.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract states that the myristoyl group promotes phase separation and that condensates form on the membrane surface, but no experimental or simulation evidence is shown to support this specific claim. Phase separation is a complex phenomenon requiring careful demonstration of concentration dependence, reversibility, and the distinction between condensate formation and simple aggregation or non-specific clustering. The abstract provides no information on how phase separation was identified or characterized in either simulations or confocal microscopy.
+  - **Why it matters** The phase separation claim is the central mechanistic novelty of the work. If the observed phenomena are actually non-specific aggregation or membrane-induced clustering rather than bona fide liquid-liquid phase separation, the entire proposed paradigm collapses. The distinction between these possibilities is critical for the interpretation and for the broader significance of the work.
+  - **Resolution test** The full manuscript must provide unambiguous evidence for phase separation, including but not limited to: concentration-dependent droplet formation, fluorescence recovery after photobleaching (FRAP) data showing dynamic exchange, sensitivity to phase separation inhibitors or dilution, and clear distinction from amorphous aggregates. Simulation data should demonstrate spontaneous demixing with appropriate order parameters and finite-size analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that membrane condensates generate substantial curvature that lowers the free energy barrier for VP4 penetration.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract asserts a causal chain from condensate formation to membrane curvature generation to free energy barrier reduction for VP4 penetration. No quantitative data are presented to support any step of this chain. The magnitude of curvature generated, the relationship between curvature and penetration barrier, and the mechanism by which condensates exert mechanical force on the membrane are all unspecified.
+  - **Why it matters** This is the mechanistic core of the proposed paradigm. Without quantitative demonstration that condensates generate sufficient curvature to meaningfully reduce the penetration barrier, the claim that phase separation is functionally required for membrane perforation remains unsupported. The distinction between correlation and causation is critical here.
+  - **Resolution test** The full manuscript must provide quantitative measurements or calculations of membrane curvature induced by condensates, free energy profiles for VP4 penetration with and without condensate-induced curvature, and appropriate controls showing that curvature generation is specifically due to condensate formation rather than other factors such as protein density or lipid composition changes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the myristoyl group plays a third role in stabilizing the final transmembrane pore.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract states that evidence supports a third role for the myristoyl group in stabilizing the transmembrane pore, but no details are provided. The nature of the pore, the mechanism of stabilization, the lifetime of the pore, and the specific contribution of the myristoyl group relative to other parts of VP4 are all unspecified.
+  - **Why it matters** This claim extends the model beyond the initial membrane recruitment and phase separation steps to the final functional outcome of pore formation. If the pore stabilization claim is not well supported, the overall model of myristoylation as a multi-functional regulator is weakened, and the connection to viral infectivity becomes less direct.
+  - **Resolution test** The full manuscript must provide evidence for pore formation and stabilization, such as ion flux measurements, pore size estimates, molecular dynamics simulations of pore stability with and without myristoylation, and demonstration that the myristoyl group specifically contributes to pore stability rather than merely to initial membrane insertion.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the proposed mechanism may explain the conditional myristoylation requirement across enteroviruses.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract suggests that the proposed paradigm may explain why myristoylation is required for infectivity in some enteroviruses but dispensable in others. However, no comparative analysis is presented, and the connection between the proposed mechanism and the variable myristoylation dependence is not elaborated.
+  - **Why it matters** This claim extends the significance of the work beyond the specific Coxsackievirus B3 system to a broader enterovirus context. If the mechanism is truly general, it would have substantial implications for understanding viral evolution and entry strategies. However, without comparative data or a clear mechanistic rationale for the variability, this claim remains speculative.
+  - **Resolution test** The full manuscript should provide either comparative analysis across enteroviruses with different myristoylation dependencies or a clear mechanistic argument based on sequence, structural, or biophysical differences that explain the variability. Alternatively, the claim should be appropriately tempered as a hypothesis for future testing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses specialized terminology such as "liquid-liquid phase separation" and "condensates" without brief contextual explanation. While these terms are standard in the biophysics community, they may be less familiar to virologists and general readers.
+  - **Required correction** Consider adding a brief parenthetical explanation of phase separation and condensates in the abstract, or ensure the full manuscript provides accessible introductions to these concepts.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation and experimental integration
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that multi-scale molecular dynamics simulations were integrated with confocal microscopy but does not clarify how these two approaches were combined or what specific information each contributed to the overall conclusions.
+  - **Required correction** The full manuscript should clearly articulate the complementary roles of simulations and experiments, including how simulation predictions were validated experimentally and how experimental observations informed simulation design.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract implies that the proposed mechanism may apply broadly to disordered viral proteins and lipid modifications, but the scope of this generalizability is not defined.
+  - **Required correction** Consider specifying the intended scope of generalizability in the full manuscript, including which other viral proteins or lipid modifications might be relevant and what criteria would need to be met for the mechanism to apply.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The phase separation claim, the curvature-mediated barrier reduction claim, and the pore stabilization claim are all central to the proposed paradigm and none are supported by visible evidence in the abstract. These must be rigorously demonstrated with quantitative data and appropriate controls in the full manuscript.
+- **Assessment against Nature-style criteria** Originality: The proposed paradigm of a lipid modification enabling a disordered protein to form membrane-perforating condensates is highly original and not previously described. Scientific importance: If established, the mechanism would significantly advance understanding of viral entry and the functional roles of lipid modifications in disordered proteins. Interdisciplinary readership: The work bridges virology, biophysics, and membrane biology, potentially appealing to a broad audience. Technical soundness: Cannot be assessed from the abstract alone. The claims require substantial quantitative evidence from both simulations and experiments that is not visible in the provided material. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without explanation, which may limit accessibility for some readers.
+
+## Risk / unsupported claims
+- The claim that myristoylation promotes liquid-liquid phase separation of VP4 is unsupported in the abstract, as no evidence for phase separation is presented.
+- The claim that condensates generate substantial membrane curvature that lowers the free energy barrier for VP4 penetration is unsupported, as no quantitative data are provided.
+- The claim that the myristoyl group stabilizes the final transmembrane pore is unsupported, as no evidence for pore formation or stabilization is presented.
+- The claim that the proposed mechanism may explain the conditional myristoylation requirement across enteroviruses is speculative and not supported by comparative data.
+- The overall paradigm of a single lipid modification empowering a disordered protein to form a membrane-perforating condensate is not established from the abstract alone.

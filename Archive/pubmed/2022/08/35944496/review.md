@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a coarse-grained simulation methodology that incorporates experimentally measured water-to-salt solution transfer free energies of chemical groups to study salt-specific transitions in the conformational ensembles of intrinsically disordered proteins (IDPs). They report that five IDPs across different polymer classes behave as self-avoiding walks (SAWs) at physiological salt concentration, and that at high salt concentrations, transitions depend on salt identity and IDP sequence and composition, with anion substitution capable of driving SAW-like to collapsed globule transitions. They further suggest that suitable salts can be identified to induce IDP condensation via liquid-liquid phase separation (LLPS).
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, quantitative results, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology description, force field parameters, transfer free energy data sources, validation against experimental data, quantitative conformational metrics, statistical analysis, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful simulation framework for addressing a recognized gap in predicting salt-specific effects on IDP conformations at high ionic strength. The central idea of combining coarse-grained modeling with experimentally derived transfer free energies is conceptually appealing and could be of interest to the biophysics and soft matter communities. However, the abstract alone provides insufficient evidence to evaluate the technical soundness, robustness, or generalizability of the proposed methodology. Key claims regarding SAW behavior at physiological salt and salt-specific collapse transitions are stated without quantitative support or comparison to experimental data. The link to LLPS is suggestive but not substantiated. The case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying IDP conformational behavior, protein phase separation, and membraneless organelle formation would be interested. The work also targets the biophysics community focused on polymer theory applied to biological macromolecules, and those interested in Hofmeister effects on protein behavior. The potential to predict salt conditions for LLPS could attract researchers in cell biology and biomaterials.
+- **Major strengths** The abstract addresses a clear and important gap in the field, namely the lack of reliable theoretical models for salt-specific effects on IDPs at high ionic strength. The proposed approach of integrating experimentally measured transfer free energies into a coarse-grained model is innovative and physically motivated. The study spans multiple IDPs across different polymer classes, which suggests an attempt at generalizability.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The proposed simulation methodology using a coarse-grained IDP model and experimentally measured water-to-salt solution transfer free energies allows study of salt-specific transitions in IDP conformational ensembles.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on the coarse-grained model, how transfer free energies are incorporated, the simulation protocol, or the range of salt concentrations tested. Without this information, the technical validity of the methodology cannot be assessed.
+  - **Why it matters** The core contribution of the work is the methodology itself. If the model construction or the integration of transfer free energies is flawed, all subsequent claims about IDP behavior are compromised.
+  - **Resolution test** Provide a detailed description of the model, parameterization, simulation conditions, and validation against experimental data for at least one IDP system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** All five IDPs of different polymer classes behave as self-avoiding walks (SAWs) at physiological salt concentration.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This is a strong universal claim, but no quantitative metrics (e.g., radius of gyration scaling exponents, end-to-end distance distributions) or statistical uncertainties are provided. It is unclear how SAW behavior is defined and distinguished from other conformational classes.
+  - **Why it matters** The claim of universal SAW behavior at physiological salt is a central finding. Without quantitative evidence and error analysis, the claim cannot be evaluated or reproduced.
+  - **Resolution test** Present scaling exponents or other conformational metrics with uncertainties for each IDP at physiological salt, and compare to theoretical predictions for SAWs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** In high salt concentrations, transitions in IDP conformational ensembles are dependent on the salt used and the IDP sequence and composition, and changing the anion with the cation fixed can result in a transition from SAW-like behavior to a collapsed globule.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that salt-specific transitions occur but provides no quantitative data on the extent of collapse, the salt concentrations at which transitions occur, or the dependence on specific anions. The claim that anion substitution can drive collapse is not supported by any numerical results.
+  - **Why it matters** The salt-specificity of transitions is the key novel finding that distinguishes this work from salt-independent screening theories. Without quantitative evidence, the claim remains anecdotal.
+  - **Resolution test** Provide phase diagrams or transition curves showing conformational metrics as a function of salt concentration for each salt and IDP, with clear identification of collapsed states.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** External validity
+  - **Claim pointer** An important implication is that a suitable salt can be identified to induce condensation of an IDP through LLPS.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not present any data linking the observed conformational transitions to LLPS. No simulations or experiments of phase separation are described, and the connection between single-chain collapse and LLPS is not established.
+  - **Why it matters** The LLPS implication is presented as a significant outcome, but without direct evidence, it is speculative and may overstate the applicability of the findings.
+  - **Resolution test** Include simulations or experimental data demonstrating that the identified salt conditions promote LLPS for at least one IDP, or clearly frame the LLPS statement as a hypothesis.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of polymer classes
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "various polymer classes based on charged residue content" but does not define these classes or specify which IDPs belong to which class.
+  - **Required correction** Define the polymer classes (e.g., polyampholyte, polyelectrolyte, weak polyampholyte) and list the five IDPs with their class assignments.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Salt concentration ranges
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract distinguishes low and high ionic strength regimes but does not specify the concentration ranges studied or the physiological salt concentration used.
+  - **Required correction** State the salt concentration ranges and the specific physiological concentration used in the simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Transfer free energy data sources
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions experimentally measured transfer free energies but does not cite the sources or describe how these data were obtained.
+  - **Required correction** Provide references for the transfer free energy data and describe the experimental conditions under which they were measured.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims the methodology applies to IDPs broadly, but only five IDPs are studied, and the range of sequence compositions is not described.
+  - **Required correction** Clarify the sequence diversity of the five IDPs and discuss potential limitations in generalizing to the full IDP sequence space.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The methodology is not described in sufficient detail to assess its validity, the central conformational claims lack quantitative support, and the LLPS implication is not directly evidenced.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of combining transfer free energies with coarse-grained simulations is conceptually novel and addresses a recognized gap. However, the abstract does not demonstrate how this differs from existing approaches beyond a general statement.
+  - Scientific importance: The topic is important for understanding IDP behavior and phase separation, but the significance of the findings cannot be evaluated without quantitative results.
+  - Interdisciplinary readership: The work bridges biophysics, polymer science, and physical chemistry, which could attract a broad audience. The abstract is written in accessible language for specialists in these fields.
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail and quantitative results prevents evaluation of the technical rigor.
+  - Readability for nonspecialists: The abstract is reasonably clear for a specialist audience but uses jargon (e.g., SAW, Hofmeister effect, LLPS) without sufficient explanation for a general scientific readership.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract alone does not provide sufficient technical detail or quantitative support to assess the validity of the claims. A full manuscript with detailed methodology, validation, and results would be required to evaluate the work.
+
+## Risk / unsupported claims
+- The claim that all five IDPs behave as SAWs at physiological salt concentration is unsupported without quantitative conformational metrics.
+- The claim that anion substitution can drive SAW-like to collapsed globule transitions is unsupported without numerical data.
+- The implication that suitable salts can be identified to induce LLPS is speculative and not directly evidenced.
+- The general applicability of the methodology to IDPs beyond the five studied is not established.
+- The accuracy and reliability of the proposed simulation methodology cannot be assessed from the abstract alone.

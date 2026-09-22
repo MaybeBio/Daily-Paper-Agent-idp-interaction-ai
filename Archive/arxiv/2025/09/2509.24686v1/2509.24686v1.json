@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2509.24686v1",
+  "title": "Robust Majorana Platform Driven by a Meissner-Induced Anisotropic Doppler Shift",
+  "doi": "",
+  "abstract": "The realization of robust Majorana zero modes (MZMs), a cornerstone for fault-tolerant quantum computing, is hindered by the challenge of creating a platform that simultaneously offers a large topological gap, high tunability, and resilience to disorder. A system unifying these properties has remained elusive. Here, we propose and validate a novel platform that harnesses the Meissner effect in a topological insulator (TI) nanowire partially covered by a superconducting (SC) layer. Under an external magnetic field, Meissner screening currents in the SC induce a spatially varying Doppler shift on the TI surface. This effect generates a highly anisotropic effective g-factor, which selectively drives a topological phase transition localized on the nanowire's bottom surface. This mechanism is crucial as it spatially separates the topological phase from the SC/TI interface, permitting strong proximity-induced superconductivity while preventing detrimental band renormalization at the interface from closing the topological gap. Furthermore, by confining the topological superconducting phase to the gate-tunable bottom surface, our platform fully leverages the intrinsic disorder resilience of the TI's topologically protected surface states. Through a combination of supercurrent simulations, self-consistent Schrödinger-Poisson calculations, and large-scale tight-binding computations, we validate the platform's robustness. Our work establishes a practical pathway toward Meissner-mediated topological superconductivity for realizing robust MZMs in SC/TI hybrid systems.",
+  "authors": [
+    "Xiao-Hong Pan",
+    "Si-Qi Yu",
+    "Li Chen",
+    "Fu-Chun Zhang",
+    "Xin Liu"
+  ],
+  "published_date": "2025-09-29T12:22:07Z",
+  "updated_date": "2025-09-29T12:22:07Z",
+  "journal": "",
+  "category": "cond-mat.mes-hall, cond-mat.supr-con",
+  "landing_url": "https://arxiv.org/abs/2509.24686v1",
+  "pdf_url": "https://arxiv.org/pdf/2509.24686v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.mes-hall",
+    "cond-mat.supr-con"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2509.24686v1",
+    "raw_categories": [
+      "cond-mat.mes-hall",
+      "cond-mat.supr-con"
+    ],
+    "journal_ref": ""
+  }
+}

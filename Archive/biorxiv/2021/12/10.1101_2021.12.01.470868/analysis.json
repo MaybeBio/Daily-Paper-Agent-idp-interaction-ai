@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.12.01.470868",
+  "title": "DeepLPI: a novel deep learning-based model for protein-ligand interaction prediction for drug repurposing",
+  "authors": "Bomin Wei; Yue Zhang; Xiang Gong",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-03",
+  "window": {
+    "start": "2021-11-29",
+    "end": "2021-12-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习(ResNet-CNN+biLSTM)预测蛋白-配体(小分子药物)相互作用，对象为折叠蛋白与小分子，非无序蛋白/IDR/相分离，且仅做亲和力预测无互作机制建模，对无序蛋白PPI机制建模启发有限。",
+  "abstract": "The substantial cost of new drug research and development has consistently posed a huge burden for both pharmaceutical companies and patients. In order to lower the expenditure and development failure rate, repurposing existing and approved drugs by identifying interactions between drug molecules and target proteins based on computational methods have gained growing attention. Here, we propose the DeepLPI, a novel deep learning-based model that mainly consists of ResNet-based 1-dimensional convolutional neural network (1D CNN) and bi-directional long short term memory network (biLSTM), to establish an end-to-end framework for protein-ligand interaction prediction. We first encode the raw drug molecular sequences and target protein sequences into dense vector representations, which go through two ResNet-based 1D CNN modules to derive features, respectively. The extracted feature vectors are concatenated and further fed into the biLSTM network, followed by the MLP module to finally predict protein-ligand interaction. We downloaded the well-known BindingDB and Davis dataset for training and testing our DeepLPI model. We also applied DeepLPI on a COVID-19 dataset for externally evaluating the prediction ability of DeepLPI. To benchmark our model, we compared our DeepLPI with the state-of-the-art methods of DeepCDA and DeepDTA, and observed that our DeepLPI outperformed these methods, suggesting the high accuracy of the DeepLPI towards protein-ligand interaction prediction. The high prediction performance of DeepLPI on the different datasets displayed its high capability of protein-ligand interaction in generalization, demonstrating that the DeepLPI has the potential to pinpoint new drug-target interactions and to find better destinations for proven drugs.",
+  "abstract_zh": "新药研发的高昂成本一直给制药公司和患者带来巨大负担。为了降低开支和开发失败率，通过计算方法识别药物分子与靶蛋白之间的相互作用，重新利用现有已批准药物，已日益受到关注。在此，我们提出DeepLPI，一种基于深度学习的新型模型，主要由基于ResNet的一维卷积神经网络（1D CNN）和双向长短期记忆网络（biLSTM）组成，旨在建立蛋白质-配体相互作用预测的端到端框架。我们首先将原始药物分子序列和靶蛋白序列编码为密集向量表示，这些向量分别通过两个基于ResNet的1D CNN模块以提取特征。提取的特征向量被拼接后进一步输入biLSTM网络，随后通过MLP模块最终预测蛋白质-配体相互作用。我们下载了知名的BindingDB和Davis数据集用于训练和测试我们的DeepLPI模型。我们还应用DeepLPI于COVID-19数据集，以外部评估DeepLPI的预测能力。为了基准测试我们的模型，我们将DeepLPI与最先进的方法DeepCDA和DeepDTA进行了比较，并观察到我们的DeepLPI在这些方法中表现更优，表明DeepLPI在蛋白质-配体相互作用预测方面具有高准确性。DeepLPI在不同数据集上的高预测性能展示了其在蛋白质-配体相互作用泛化方面的高能力，证明DeepLPI有潜力识别新的药物-靶标相互作用，并为已验证药物找到更佳的应用方向。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.12.01.470868",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.12.01.470868",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.12.01.470868/index.html"
+}

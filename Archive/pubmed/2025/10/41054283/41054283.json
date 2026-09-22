@@ -1,0 +1,505 @@
+{
+  "identity": {
+    "pmid": "41054283",
+    "doi": "10.1002/acn3.70211",
+    "title": "SNUPN-Related Muscular Dystrophy: Novel Phenotypic, Pathological and Functional Protein Insights."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: SNUPN-related muscular dystrophy or LGMDR29 is a new entity that covers from a congenital or childhood onset pure muscular dystrophy to more complex phenotypes combining neurodevelopmental features, cataracts, or spinocerebellar ataxia. So far, 12 different variants have been described. Here we report the first family with SNUPN-related muscular dystrophy presenting an adult-onset myopathy as well as novel ultrastructural findings. METHODS: Clinical evaluation, muscle and brain magnetic resonance imaging (MRI), and muscle histopathological and electron microscopy analysis were conducted. Functional studies including protein modelling and interaction, immunofluorescence and splicing analysis were also performed. RESULTS: Two siblings carrying two novel deleterious variants in the SNUPN gene (p.Arg27Cys and p.Cys174Tyr) showed adult-onset proximo-distal and axial muscle weakness with early respiratory involvement. One patient presented with asymptomatic cerebellar atrophy. Muscle MRI identified involvement in the paravertebral, triceps brachii, sartorius and gracilis muscles. The histopathology revealed dystrophic changes and an abnormal pattern of cytoskeletal and myofibrillar proteins, while electron microscopy disclosed the proliferation of granules and vesicles associated with features of nuclear envelope and sarcolemma remodelling. Functional studies showed that SNUPN variants impair snurportin-1 function through reduced binding affinity to importin-beta and impaired folding, leading to disturbed nuclear import of small nuclear ribonucleoproteins and downstream splicing. INTERPRETATION: Our work expands the phenotype of SNUPN-related muscular dystrophy and provides more insights into their pathological profile. We advise SNUPN testing in patients with late-onset proximo-distal and axial weakness with early respiratory impairment and features reminding inclusion body myositis (IBM). Granular deposits suggestive of biomolecular condensates perturbed cell organelle traffic and membrane homeostasis, opening new avenues to understand the pathomechanisms involved in this novel disease.",
+    "keywords": [
+      "SNUPN",
+      "inclusion body myositis (IBM)",
+      "muscular dystrophy",
+      "neurogenetics",
+      "snurportin-1",
+      "splicing"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Male",
+      "*Muscular Dystrophies/genetics/pathology/physiopathology",
+      "Adult",
+      "Female",
+      "Phenotype",
+      "Middle Aged",
+      "Muscle, Skeletal/pathology",
+      "Magnetic Resonance Imaging",
+      "Pedigree"
+    ],
+    "pub_types": [
+      "Case Reports",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Muelas, Nuria",
+        "Iruzubieta, Pablo",
+        "Damborenea, Alberto",
+        "Perez-Fernandez, Laura",
+        "Azorin, Inmaculada",
+        "Jimenez Garcia, Juan Carlos",
+        "Topf, Ana",
+        "Marti, Pilar",
+        "Fores-Toribio, Lorena",
+        "Manterola, Maria",
+        "Blanco-Manez, Rosana",
+        "Pikatza-Menoio, Oihane",
+        "Alonso-Martin, Sonia",
+        "Straub, Volker",
+        "Cortajarena, Aitziber L",
+        "Lopez de Munain, Adolfo",
+        "De Sancho, David",
+        "Blazquez, Lorea",
+        "Vilchez, Juan J"
+      ],
+      "short_names": [
+        "Muelas N",
+        "Iruzubieta P",
+        "Damborenea A",
+        "Perez-Fernandez L",
+        "Azorin I",
+        "Jimenez Garcia JC",
+        "Topf A",
+        "Marti P",
+        "Fores-Toribio L",
+        "Manterola M",
+        "Blanco-Manez R",
+        "Pikatza-Menoio O",
+        "Alonso-Martin S",
+        "Straub V",
+        "Cortajarena AL",
+        "Lopez de Munain A",
+        "De Sancho D",
+        "Blazquez L",
+        "Vilchez JJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3254-0365",
+        "ORCID: 0000-0003-2885-3286"
+      ],
+      "affiliations": [
+        "Neuromuscular Diseases Unit, Department of Neurology, Hospital Universitari i Politecnic La Fe, Valencia, Spain.",
+        "Neuromuscular and Ataxias Research Group, Instituto de Investigacion Sanitaria La Fe, Valencia, Spain.",
+        "Centro de Investigacion Biomedica en Red de Enfermedades Raras (CIBERER), Instituto de Salud Carlos III, Madrid, Spain.",
+        "Department of Medicine, Universitat de Valencia, Valencia, Spain.",
+        "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastian, Spain.",
+        "Centro de Investigacion Biomedica en Red de Enfermedades Neurodegenerativas (CIBERNED), Instituto de Salud Carlos III, Madrid, Spain.",
+        "Department of Neurology and Neurosurgery, Montreal Neurological Hospital and Institute, McGill University, Montreal, Quebec, Canada.",
+        "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastian, Spain.",
+        "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastian, Spain.",
+        "Center for Cooperative Research in Biomaterials (CIC biomaGUNE), Basque Research and Technology Alliance (BRTA), San Sebastian, Spain.",
+        "Neuromuscular and Ataxias Research Group, Instituto de Investigacion Sanitaria La Fe, Valencia, Spain.",
+        "Centro de Investigacion Biomedica en Red de Enfermedades Raras (CIBERER), Instituto de Salud Carlos III, Madrid, Spain.",
+        "Center for Cooperative Research in Biomaterials (CIC biomaGUNE), Basque Research and Technology Alliance (BRTA), San Sebastian, Spain.",
+        "John Walton Muscular Dystrophy Research Centre, Newcastle University and Newcastle Hospitals NHS Foundation Trust, Newcastle Upon Tyne, UK.",
+        "Neuromuscular and Ataxias Research Group, Instituto de Investigacion Sanitaria La Fe, Valencia, Spain.",
+        "Centro de Investigacion Biomedica en Red de Enfermedades Raras (CIBERER), Instituto de Salud Carlos III, Madrid, Spain.",
+        "Neuromuscular and Ataxias Research Group, Instituto de Investigacion Sanitaria La Fe, Valencia, Spain.",
+        "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastian, Spain.",
+        "Electron-Microscopy Unit, Pathology Department, University Hospital La Fe, Valencia, Spain.",
+        "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastian, Spain.",
+        "Centro de Investigacion Biomedica en Red de Enfermedades Neurodegenerativas (CIBERNED), Instituto de Salud Carlos III, Madrid, Spain.",
+        "Stem Cells and Aging Group, Department of Bioengineering, Biogipuzkoa Health Research Institute, San Sebastian, Spain.",
+        "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastian, Spain.",
+        "Centro de Investigacion Biomedica en Red de Enfermedades Neurodegenerativas (CIBERNED), Instituto de Salud Carlos III, Madrid, Spain.",
+        "Stem Cells and Aging Group, Department of Bioengineering, Biogipuzkoa Health Research Institute, San Sebastian, Spain.",
+        "John Walton Muscular Dystrophy Research Centre, Newcastle University and Newcastle Hospitals NHS Foundation Trust, Newcastle Upon Tyne, UK.",
+        "Center for Cooperative Research in Biomaterials (CIC biomaGUNE), Basque Research and Technology Alliance (BRTA), San Sebastian, Spain.",
+        "Ikerbasque, Basque Foundation for Science, Bilbao, Spain.",
+        "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastian, Spain.",
+        "Centro de Investigacion Biomedica en Red de Enfermedades Neurodegenerativas (CIBERNED), Instituto de Salud Carlos III, Madrid, Spain.",
+        "Department of Neurology, Donostia University Hospital, Osakidetza Basque Health Service, San Sebastian, Spain.",
+        "Faculty of Medicine, University of the Basque Country, San Sebastian, Spain.",
+        "Faculty of Medicine, University of Deusto, Bilbao, Spain.",
+        "Donostia International Physics Center, San Sebastian, Spain.",
+        "Faculty of Chemistry, University of the Basque Country, San Sebastian, Spain.",
+        "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastian, Spain.",
+        "Centro de Investigacion Biomedica en Red de Enfermedades Neurodegenerativas (CIBERNED), Instituto de Salud Carlos III, Madrid, Spain.",
+        "Ikerbasque, Basque Foundation for Science, Bilbao, Spain.",
+        "Neuromuscular and Ataxias Research Group, Instituto de Investigacion Sanitaria La Fe, Valencia, Spain.",
+        "Centro de Investigacion Biomedica en Red de Enfermedades Raras (CIBERER), Instituto de Salud Carlos III, Madrid, Spain.",
+        "Department of Medicine, Universitat de Valencia, Valencia, Spain.",
+        "Institute of Biotechnology and Biomedicine (BIOTECMED), University of Valencia, Valencia, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Muelas, Nuria",
+        "short_name": "Muelas N",
+        "identifiers": [],
+        "affiliations": [
+          "Neuromuscular Diseases Unit, Department of Neurology, Hospital Universitari i Politècnic La Fe, Valencia, Spain.",
+          "Neuromuscular and Ataxias Research Group, Instituto de Investigación Sanitaria La Fe, Valencia, Spain.",
+          "Centro de Investigación Biomédica en Red de Enfermedades Raras (CIBERER), Instituto de Salud Carlos III, Madrid, Spain.",
+          "Department of Medicine, Universitat de València, Valencia, Spain."
+        ]
+      },
+      {
+        "full_name": "Iruzubieta, Pablo",
+        "short_name": "Iruzubieta P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastián, Spain.",
+          "Centro de Investigación Biomédica en Red de Enfermedades Neurodegenerativas (CIBERNED), Instituto de Salud Carlos III, Madrid, Spain.",
+          "Department of Neurology and Neurosurgery, Montreal Neurological Hospital and Institute, McGill University, Montreal, Quebec, Canada."
+        ]
+      },
+      {
+        "full_name": "Damborenea, Alberto",
+        "short_name": "Damborenea A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastián, Spain."
+        ]
+      },
+      {
+        "full_name": "Pérez-Fernández, Laura",
+        "short_name": "Pérez-Fernández L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastián, Spain.",
+          "Center for Cooperative Research in Biomaterials (CIC biomaGUNE), Basque Research and Technology Alliance (BRTA), San Sebastián, Spain."
+        ]
+      },
+      {
+        "full_name": "Azorín, Inmaculada",
+        "short_name": "Azorín I",
+        "identifiers": [],
+        "affiliations": [
+          "Neuromuscular and Ataxias Research Group, Instituto de Investigación Sanitaria La Fe, Valencia, Spain.",
+          "Centro de Investigación Biomédica en Red de Enfermedades Raras (CIBERER), Instituto de Salud Carlos III, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Jiménez García, Juan Carlos",
+        "short_name": "Jiménez García JC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Cooperative Research in Biomaterials (CIC biomaGUNE), Basque Research and Technology Alliance (BRTA), San Sebastián, Spain."
+        ]
+      },
+      {
+        "full_name": "Töpf, Ana",
+        "short_name": "Töpf A",
+        "identifiers": [],
+        "affiliations": [
+          "John Walton Muscular Dystrophy Research Centre, Newcastle University and Newcastle Hospitals NHS Foundation Trust, Newcastle Upon Tyne, UK."
+        ]
+      },
+      {
+        "full_name": "Martí, Pilar",
+        "short_name": "Martí P",
+        "identifiers": [],
+        "affiliations": [
+          "Neuromuscular and Ataxias Research Group, Instituto de Investigación Sanitaria La Fe, Valencia, Spain.",
+          "Centro de Investigación Biomédica en Red de Enfermedades Raras (CIBERER), Instituto de Salud Carlos III, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Fores-Toribio, Lorena",
+        "short_name": "Fores-Toribio L",
+        "identifiers": [],
+        "affiliations": [
+          "Neuromuscular and Ataxias Research Group, Instituto de Investigación Sanitaria La Fe, Valencia, Spain."
+        ]
+      },
+      {
+        "full_name": "Manterola, María",
+        "short_name": "Manterola M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastián, Spain."
+        ]
+      },
+      {
+        "full_name": "Blanco-Mañez, Rosana",
+        "short_name": "Blanco-Mañez R",
+        "identifiers": [],
+        "affiliations": [
+          "Electron-Microscopy Unit, Pathology Department, University Hospital La Fe, Valencia, Spain."
+        ]
+      },
+      {
+        "full_name": "Pikatza-Menoio, Oihane",
+        "short_name": "Pikatza-Menoio O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastián, Spain.",
+          "Centro de Investigación Biomédica en Red de Enfermedades Neurodegenerativas (CIBERNED), Instituto de Salud Carlos III, Madrid, Spain.",
+          "Stem Cells and Aging Group, Department of Bioengineering, Biogipuzkoa Health Research Institute, San Sebastián, Spain."
+        ]
+      },
+      {
+        "full_name": "Alonso-Martín, Sonia",
+        "short_name": "Alonso-Martín S",
+        "identifiers": [
+          "0000-0002-3254-0365"
+        ],
+        "affiliations": [
+          "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastián, Spain.",
+          "Centro de Investigación Biomédica en Red de Enfermedades Neurodegenerativas (CIBERNED), Instituto de Salud Carlos III, Madrid, Spain.",
+          "Stem Cells and Aging Group, Department of Bioengineering, Biogipuzkoa Health Research Institute, San Sebastián, Spain."
+        ]
+      },
+      {
+        "full_name": "Straub, Volker",
+        "short_name": "Straub V",
+        "identifiers": [],
+        "affiliations": [
+          "John Walton Muscular Dystrophy Research Centre, Newcastle University and Newcastle Hospitals NHS Foundation Trust, Newcastle Upon Tyne, UK."
+        ]
+      },
+      {
+        "full_name": "Cortajarena, Aitziber L",
+        "short_name": "Cortajarena AL",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Cooperative Research in Biomaterials (CIC biomaGUNE), Basque Research and Technology Alliance (BRTA), San Sebastián, Spain.",
+          "Ikerbasque, Basque Foundation for Science, Bilbao, Spain."
+        ]
+      },
+      {
+        "full_name": "López de Munain, Adolfo",
+        "short_name": "López de Munain A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastián, Spain.",
+          "Centro de Investigación Biomédica en Red de Enfermedades Neurodegenerativas (CIBERNED), Instituto de Salud Carlos III, Madrid, Spain.",
+          "Department of Neurology, Donostia University Hospital, Osakidetza Basque Health Service, San Sebastián, Spain.",
+          "Faculty of Medicine, University of the Basque Country, San Sebastián, Spain.",
+          "Faculty of Medicine, University of Deusto, Bilbao, Spain."
+        ]
+      },
+      {
+        "full_name": "De Sancho, David",
+        "short_name": "De Sancho D",
+        "identifiers": [],
+        "affiliations": [
+          "Donostia International Physics Center, San Sebastián, Spain.",
+          "Faculty of Chemistry, University of the Basque Country, San Sebastián, Spain."
+        ]
+      },
+      {
+        "full_name": "Blázquez, Lorea",
+        "short_name": "Blázquez L",
+        "identifiers": [
+          "0000-0003-2885-3286"
+        ],
+        "affiliations": [
+          "Department of Neurosciences, Biogipuzkoa Health Research Institute, San Sebastián, Spain.",
+          "Centro de Investigación Biomédica en Red de Enfermedades Neurodegenerativas (CIBERNED), Instituto de Salud Carlos III, Madrid, Spain.",
+          "Ikerbasque, Basque Foundation for Science, Bilbao, Spain."
+        ]
+      },
+      {
+        "full_name": "Vilchez, Juan J",
+        "short_name": "Vilchez JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Neuromuscular and Ataxias Research Group, Instituto de Investigación Sanitaria La Fe, Valencia, Spain.",
+          "Centro de Investigación Biomédica en Red de Enfermedades Raras (CIBERER), Instituto de Salud Carlos III, Madrid, Spain.",
+          "Department of Medicine, Universitat de València, Valencia, Spain.",
+          "Institute of Biotechnology and Biomedicine (BIOTECMED), University of Valencia, Valencia, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Annals of clinical and translational neurology"
+    ],
+    "journal_abbrev": [
+      "Ann Clin Transl Neurol"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Case Reports",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/07 06:30",
+    "fetched_at": "2026-09-17 20:55:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39967427",
+      "38936257",
+      "38718835",
+      "38544965",
+      "38413582",
+      "38366623",
+      "37906632",
+      "37733863",
+      "37205103",
+      "36789274",
+      "36461907",
+      "35342985",
+      "34880481",
+      "34265844",
+      "34067866",
+      "33849525",
+      "33207182",
+      "33134287",
+      "32528171",
+      "32029894",
+      "31192305",
+      "29401388",
+      "27766851",
+      "26667281",
+      "25406223",
+      "24449914",
+      "24362440",
+      "23667635",
+      "23543484",
+      "23279333",
+      "22345218",
+      "18547585",
+      "18187419",
+      "16030253",
+      "15920472",
+      "11815630"
+    ],
+    "similar": [
+      "41054283",
+      "38366623",
+      "41705730",
+      "39058449",
+      "31463572",
+      "27546599",
+      "33749658",
+      "26039504",
+      "25497877",
+      "38413582",
+      "40195250",
+      "15694138",
+      "24508248",
+      "33861953",
+      "11525887",
+      "30695889",
+      "24556424",
+      "29893365",
+      "20937510",
+      "12207929",
+      "11102913",
+      "31610034",
+      "10665485",
+      "27270537",
+      "24856141",
+      "39667923",
+      "35962550",
+      "20301676",
+      "26115655",
+      "32815318",
+      "11198284",
+      "31471117",
+      "31130378",
+      "26548592",
+      "22577215",
+      "17698502",
+      "12557291",
+      "18974568",
+      "40676230",
+      "27854214",
+      "32538860",
+      "18055494",
+      "41943552",
+      "29855340",
+      "39523858",
+      "12921792",
+      "31267206",
+      "9577386",
+      "1487757",
+      "27784478",
+      "12847162",
+      "41549703",
+      "31474437",
+      "40488356",
+      "36175989",
+      "23965878",
+      "37078404",
+      "34648194",
+      "38406381",
+      "11053679",
+      "12908758",
+      "12062252",
+      "9400354",
+      "31897643",
+      "11248459",
+      "41406637",
+      "21922472",
+      "28915917",
+      "23632945",
+      "20227276",
+      "32005491",
+      "34481707",
+      "39133882",
+      "16344347",
+      "24491487",
+      "37907725",
+      "41475242",
+      "7113658",
+      "30235762",
+      "8503797",
+      "34053846",
+      "7573762",
+      "1745277",
+      "39443859",
+      "40641151",
+      "22577218",
+      "34384384",
+      "33940562",
+      "27387980",
+      "29029362",
+      "9392017",
+      "29175898",
+      "15148145",
+      "23670307",
+      "11741828",
+      "41839840",
+      "20301468",
+      "32065942",
+      "12707425",
+      "7969245"
+    ],
+    "review": [
+      "41054283",
+      "18055494",
+      "36175989"
+    ],
+    "pmc": [
+      "12883674"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/musculardystrophy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Muscular Dystrophy"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41054283/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/acn3.70211",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

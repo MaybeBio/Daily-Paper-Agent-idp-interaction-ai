@@ -1,0 +1,205 @@
+{
+  "identity": {
+    "pmid": "37158088",
+    "doi": "10.1080/07391102.2023.2206917",
+    "title": "Escherichia coli FtsZ molecular dynamics simulations."
+  },
+  "content": {
+    "abstract": "Earlier molecular dynamics studies of the FtsZ protein revealed that the protein has high intrinsic flexibility which the crystal structures cannot reveal. However, the input structure in these simulation studies was based on the available crystal structure data and therefore, the effect of the C-terminal Intrinsically Disordered Region (IDR) of FtsZ could not be observed in any of these studies. Recent investigations have revealed that the C-terminal IDR is crucial for FtsZ assembly in vitro and Z ring formation in vivo. Therefore, in this study, we simulated FtsZ with the IDR. Simulations of the FtsZ monomer in different nucleotide bound forms (without nucleotide, GTP, GDP) were performed. In the conformations of FtsZ monomer with GTP, GTP binds variably with the protein. Such a variable interaction with the monomer has not been observed in any previous simulation studies of FtsZ and not observed in crystal structures. We found that central helix bends towards the C-terminal domain in the GTP bound form, hence, making way for polymerization. A nucleotide dependent shift/rotation of the C-terminal domain was observed in simulation time averaged structures.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "FtsZ",
+      "Gromacs Molecular Dynamics",
+      "Intrinsically Disordered Peptide"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Bacterial Proteins/chemistry",
+      "Cytoskeletal Proteins/chemistry",
+      "Nucleotides",
+      "Escherichia coli/metabolism",
+      "Guanosine Triphosphate/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Muthukumar, Vidyalakshmi C"
+      ],
+      "short_names": [
+        "Muthukumar VC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, University of Warwick, Coventry, England."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Muthukumar, Vidyalakshmi C",
+        "short_name": "Muthukumar VC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Warwick, Coventry, England."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2024 Mar",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/09 06:42",
+    "fetched_at": "2026-09-20 21:51:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37158088",
+      "38014448",
+      "22647609",
+      "25418101",
+      "23782014",
+      "23617789",
+      "30466358",
+      "32039891",
+      "26655719",
+      "28100778",
+      "41114597",
+      "21058659",
+      "27091999",
+      "31932314",
+      "11454202",
+      "22575662",
+      "38992051",
+      "29089389",
+      "26247422",
+      "38718863",
+      "27021560",
+      "27088231",
+      "23940054",
+      "29045877",
+      "32039890",
+      "26463348",
+      "18245292",
+      "35481648",
+      "11781090",
+      "40247617",
+      "23237472",
+      "15317782",
+      "32198113",
+      "36214571",
+      "30455283",
+      "27871169",
+      "12904563",
+      "8430073",
+      "24704635",
+      "29756735",
+      "24347164",
+      "20598544",
+      "12933789",
+      "41983697",
+      "18024502",
+      "30261644",
+      "29921670",
+      "31997533",
+      "15225606",
+      "40467574",
+      "28465423",
+      "17718511",
+      "17662960",
+      "22198391",
+      "24218584",
+      "11152458",
+      "8016071",
+      "28114338",
+      "28065316",
+      "15328358",
+      "19842714",
+      "9287012",
+      "24722340",
+      "21335646",
+      "24007276",
+      "26630542",
+      "10960100",
+      "14705956",
+      "31871036",
+      "9312004",
+      "12808143",
+      "10880432",
+      "22566654",
+      "11952901",
+      "30010220",
+      "22573335",
+      "16792016",
+      "23384248",
+      "19447111",
+      "1528267",
+      "34023403",
+      "22298780",
+      "17043359",
+      "23859153",
+      "36215496",
+      "15558053",
+      "26449557",
+      "23098212",
+      "23853099",
+      "33581219",
+      "24079270",
+      "17428494",
+      "21082789",
+      "11854462",
+      "31036719",
+      "28623318",
+      "23577149",
+      "21738567",
+      "39241998",
+      "15475583"
+    ],
+    "review": [
+      "37158088",
+      "20598544"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2206917?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://biocyc.org/gene?orgid=ECOLI&id=EG10347",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "ftsZ"
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2206917",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

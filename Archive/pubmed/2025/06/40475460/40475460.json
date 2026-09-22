@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "40475460",
+    "doi": "10.1101/2025.05.18.654709",
+    "title": "Cargo recognition of Nesprin-2 by the dynein adapter Bicaudal D2 for a nuclear positioning pathway that is important for neuronal migration."
+  },
+  "content": {
+    "abstract": "Nesprin-2 is a subunit of LINC complexes, which span the nuclear envelope and have key roles in mechanotransduction and nuclear positioning during brain and muscle development. Nesprin-2 interacts with the plus-end directed motor kinesin-1 and the dynein adapter Bicaudal D2 (BicD2), which in turn recruits the minus-end directed motor cytoplasmic dynein to position the nucleus during neuronal migration of postmitotic neurons, but the molecular details of these interactions are elusive. Here we present a structural model of a minimal Nesprin-2/BicD2 complex. A structure prediction with a PAE score in the high confidence range was obtained from AlphaFold and experimentally validated by mutagenesis, binding assays and biophysical studies. The core of the binding site is formed by spectrin repeats of Nesprin-2, which form an alpha-helical bundle with the cargo-binding domain of BicD2. The minimal Nesprin-2 fragment also interacts robustly with full-length BicD2. The BicD2-binding site is separated by a  approximately 65 residue intrinsically disordered linker from the LEWD sequence motif, that acts as kinesin-1 recruitment site, and we propose that both kinesin-1 and BicD2/dynein interact with Nesprin-2 simultaneously. We propose that structurally distinct interactions between BicD2 and its cargo adapters Nesprin-2, Nup358 and Rab6, as well as distinctions in the adjacent kinesin-1 recruiting sites could finetune overall motility for these transport pathways that have important roles in brain and muscle development. Mutations of Nesprin-2 and BicD2 cause devastating brain and muscle developmental diseases, including Emery-Dreifuss Muscular Dystrophy and spinal muscular atrophy, and results may help devise therapies for these diseases.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Putta, Sivasankar",
+        "Rodriguez Castro, Estrella D",
+        "Ali, M Yusuf",
+        "Garcia Martin, Jose M",
+        "Zhao, Xiaoxin",
+        "Sylvain, Samantha",
+        "Trybus, Kathleen M",
+        "Solmaz, Sozanne R"
+      ],
+      "short_names": [
+        "Putta S",
+        "Rodriguez Castro ED",
+        "Ali MY",
+        "Garcia Martin JM",
+        "Zhao X",
+        "Sylvain S",
+        "Trybus KM",
+        "Solmaz SR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3071-8526",
+        "ORCID: 0009-0001-5545-5470",
+        "ORCID: 0000-0003-2164-3323",
+        "ORCID: 0000-0002-5583-8500",
+        "ORCID: 0000-0002-1703-3701"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Putta, Sivasankar",
+        "short_name": "Putta S",
+        "identifiers": [
+          "0000-0003-3071-8526"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Rodriguez Castro, Estrella D",
+        "short_name": "Rodriguez Castro ED",
+        "identifiers": [
+          "0009-0001-5545-5470"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ali, M Yusuf",
+        "short_name": "Ali MY",
+        "identifiers": [
+          "0000-0003-2164-3323"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Garcia Martin, Jose M",
+        "short_name": "Garcia Martin JM",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhao, Xiaoxin",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sylvain, Samantha",
+        "short_name": "Sylvain S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Trybus, Kathleen M",
+        "short_name": "Trybus KM",
+        "identifiers": [
+          "0000-0002-5583-8500"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Solmaz, Sozanne R",
+        "short_name": "Solmaz SR",
+        "identifiers": [
+          "0000-0002-1703-3701"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 May 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/06 11:21",
+    "fetched_at": "2026-09-21 19:31:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40475460",
+      "41770881",
+      "32619477",
+      "37892127",
+      "36930595",
+      "38719748",
+      "35229716",
+      "41648486",
+      "31756096",
+      "41334889",
+      "39115447",
+      "20386726",
+      "40462900",
+      "30345745",
+      "22956769",
+      "30615611",
+      "32378283",
+      "31306018",
+      "37171063",
+      "32665036",
+      "26083340",
+      "11483508",
+      "28883039",
+      "28398466",
+      "36125250",
+      "25516977",
+      "36211453",
+      "29487227",
+      "19008300",
+      "25497877",
+      "32183910",
+      "36150379",
+      "25587885",
+      "28196890",
+      "38566066",
+      "29784648",
+      "14609947",
+      "17462627",
+      "23664120",
+      "27802164",
+      "17761684",
+      "23664119",
+      "24614806",
+      "40925371",
+      "30068656",
+      "29180435",
+      "36416224",
+      "29528393",
+      "19864491",
+      "26645154",
+      "15671068",
+      "38829892",
+      "27365401",
+      "28966089",
+      "37105961",
+      "32057122",
+      "31578382",
+      "31655624",
+      "12447383",
+      "22103514",
+      "24718612",
+      "23723415",
+      "33996355",
+      "30143531",
+      "22518138",
+      "18477613",
+      "30877148",
+      "27454819",
+      "27350129",
+      "19874786",
+      "33667600",
+      "28533284",
+      "26594138",
+      "35925868",
+      "31828088",
+      "22555292",
+      "38569934",
+      "25796327",
+      "39431827",
+      "32023147",
+      "33195284",
+      "24256262",
+      "37215084",
+      "30809891",
+      "30245107",
+      "26578860",
+      "29515126",
+      "41699082",
+      "23664116",
+      "21937718",
+      "12477385",
+      "20019668",
+      "25962623",
+      "22103509",
+      "15652351",
+      "28988861",
+      "26051540",
+      "23977161",
+      "29038173",
+      "28635954"
+    ],
+    "review": [
+      "40475460",
+      "37171063",
+      "29487227",
+      "38566066",
+      "29784648",
+      "32057122",
+      "22103514",
+      "30877148",
+      "33667600",
+      "26594138",
+      "31828088",
+      "33195284",
+      "24256262",
+      "37215084",
+      "26578860"
+    ],
+    "pmc": [
+      "12139881"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40475460/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-996",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.05.18.654709",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

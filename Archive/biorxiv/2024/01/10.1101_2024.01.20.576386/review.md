@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends referenced but not provided)
+- **Assessment boundary** Scientific and technical soundness of the claims as presented in the provided text; no assessment of figures or supplementary materials beyond what is described
+- **Shared manuscript claim summary** The authors present AFM-RL, a method that combines AlphaFold-Multimer (AFM) with reinforcement learning (RL) to predict the quaternary structures of large protein complexes (6-20 chains). The method uses forced sampling (presenting AFM with multiple copies of one chain) to diversify pairwise decoys, which are then assembled via an RL framework. The authors report improved performance over MoLPC on a benchmark of 57 complexes.
+- **Visible evidence base** Abstract, introduction, results narrative, discussion, methods, author contributions, data/code availability statements
+- **Missing materials affecting confidence** All figures (Figs 1-7), supplementary tables (S1, S2), the dataset composition details, and the actual numerical results per complex. The equations in the methods section are referenced but not rendered in the provided text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem: predicting the structures of large protein complexes with more than six chains. The proposed approach, combining AFM pairwise predictions with RL-based assembly, is a reasonable extension of the authors' prior work (RL-MLZerD). The forced sampling idea is interesting and appears to address a known limitation of AFM when applied to large complexes. However, the manuscript as provided has several critical gaps that prevent full evaluation: figures are not available, the dataset composition is not described in sufficient detail, and the comparison with MoLPC lacks statistical rigor. The central claims are plausible but not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Structural biologists, computational biologists, and researchers working on protein-protein interactions and complex assembly. The method addresses a practical bottleneck (GPU memory and accuracy for large complexes) and could be of interest to those studying large macromolecular assemblies where experimental structures are unavailable.
+- **Major strengths** The problem is well-motivated and practically important. The forced sampling approach is a creative solution to a known limitation of AFM. The method is benchmarked on a reasonably sized dataset (57 complexes) and compared against a relevant baseline (MoLPC). The authors provide code and data availability, which supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "AFM-RL demonstrated improved modeling performance when compared to existing methods for large protein complex docking" (abstract) and the specific comparison with MoLPC in the Results section.
+  - **Evidence pointer** Results section, "Comparison with MoLPC"; Figure 3; Supplementary Tables S1 and S2
+  - **Concern** The comparison with MoLPC is presented as average RMSD and TM-score values, but no statistical analysis (e.g., paired tests, confidence intervals) is reported. The claim of "improved performance" rests on averages that could be driven by a few outliers. Additionally, the comparison uses the "best-assembled model" from AFM-RL against a single output from MoLPC, which is not an equivalent comparison. The authors should clarify whether the reported AFM-RL numbers are the best out of many generated models, and if so, how this selection bias affects the comparison.
+  - **Why it matters** Without statistical rigor and a fair comparison protocol, the central claim of improved performance is not convincingly established. This is the primary contribution of the manuscript, and the evidence as presented is insufficient.
+  - **Resolution test** Provide per-target results with statistical tests (e.g., Wilcoxon signed-rank test) comparing AFM-RL and MoLPC. Clarify the model selection protocol for AFM-RL and justify the comparison against a single MoLPC output. If the best-of-N selection is used, discuss the implications for practical use.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The average root mean square deviation (RMSD) and TM-SCORE of the best-assembled model across all targets are 10.09 Å and 0.81, respectively" (abstract).
+  - **Evidence pointer** Abstract; Results section; Figure 3; Supplementary Tables S1 and S2
+  - **Concern** The reported average RMSD of 10.09 Å is high for a "best-assembled model." It is unclear whether this average is dominated by a few very poor predictions. The authors should report the distribution of results (e.g., median, interquartile range, number of successes defined by a threshold such as RMSD < 5 Å or TM-score > 0.8). Without this, the practical utility of the method is unclear.
+  - **Why it matters** A high average RMSD may indicate that the method works well for some targets but poorly for others. The authors need to characterize the success rate and identify the types of complexes where the method fails, as this is critical for users deciding whether to adopt the method.
+  - **Resolution test** Report per-target results in a supplementary table with a clear success/failure classification. Provide a histogram or scatter plot of RMSD and TM-score values. Discuss the characteristics of successful versus failed cases.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The methods section describes the RL framework, scoring function, and parameter settings.
+  - **Evidence pointer** Methods section, "Assembling pairwise decoys with RL"
+  - **Concern** The methods section references equations (Eq. 1, 2, 3, 4) that are not rendered in the provided text. The description of the RL algorithm is incomplete without these equations. Additionally, the hyperparameters (e.g., learning rate decay schedule, discount factor, exploration rates) are described but the rationale for their values is not provided. The authors state that parameters were "determined by a small number of tests on a couple of targets," which raises concerns about overfitting to the benchmark set.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without the full equations and a clearer description of parameter selection, other researchers cannot implement or validate the method independently.
+  - **Resolution test** Provide the full equations in the methods section. Describe the parameter tuning process in more detail, including which targets were used and how sensitive the results are to parameter choices. Consider a sensitivity analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Dataset composition
+  - **Claim pointer** "We evaluated AFM-RL on the same dataset as MoLPC. We selected complexes with 6 to 15 chains." (Methods, "Dataset construction")
+  - **Evidence pointer** Methods section, "Dataset construction"; Supplementary Table S1
+  - **Concern** The dataset selection criteria are described only briefly. The authors state that they selected complexes with 6 to 15 chains and limited to a minimum of three examples per chain count, but the total number of complexes is 57, which is inconsistent with a uniform selection of three per chain count (6-15 would be 10 chain counts, giving 30 complexes). The composition of the dataset (e.g., number of homo-oligomers vs. hetero-oligomers, symmetry types, sequence lengths) is not described. This makes it difficult to assess the generalizability of the results.
+  - **Why it matters** The benchmark set determines the scope of the claims. If the dataset is biased toward certain complex types, the reported performance may not generalize.
+  - **Resolution test** Provide a detailed description of the dataset, including the distribution of chain counts, symmetry types, and sequence lengths. Clarify the selection criteria and why the total number is 57.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "AFM-RL demonstrated improved modeling performance when compared to existing methods" but does not specify which methods beyond MoLPC are included in "existing methods."
+  - **Required correction** Specify the comparators or state that the comparison is specifically against MoLPC.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, "Comparison with AlphaFold-Multimer"
+  - **Evidence pointer** Results section, "Comparison with AlphaFold-Multimer"
+  - **Issue** The comparison with AFM is limited to 42 of 57 complexes because 15 could not be predicted due to GPU memory limits. The authors should clarify whether the comparison is fair, as the subset of 42 may not be representative of the full dataset.
+  - **Required correction** Discuss the potential bias introduced by excluding 15 complexes and consider reporting results on the full dataset using a memory-efficient AFM variant if available.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, "Example of docking models"
+  - **Evidence pointer** Results section, "Example of docking models"; Figures 4-6
+  - **Issue** The examples are described qualitatively, but the criteria for selecting these examples are not stated. It is unclear whether they are representative or best-case.
+  - **Required correction** State the selection criteria for the examples shown and consider including a table summarizing the performance for all targets.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section, "Pairwise docking"
+  - **Evidence pointer** Methods section, "Pairwise docking"
+  - **Issue** The forced sampling approach is described as providing "A1B3" input to AFM, but the details of how the three copies are handled by AFM (e.g., as separate chains or as a multimer) are not fully specified.
+  - **Required correction** Clarify the input format and how the multiple copies are treated by AFM.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion mentions that AFM-RL predictions can "aid experimental structural predictions," but no concrete examples or guidelines are provided.
+  - **Required correction** Provide a brief example or reference to support this claim, or soften the statement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of comparison), R1-M2 (distribution of results), R1-M3 (incomplete methods description), R1-M4 (dataset composition)
+- **Assessment against Nature-style criteria**
+  - **Originality** The forced sampling approach to diversify AFM pairwise predictions is a novel contribution. The combination of AFM with RL for assembly is an incremental extension of the authors' prior work but applied to a larger scale. The originality is moderate.
+  - **Scientific importance** The problem of large protein complex structure prediction is important and timely. The method addresses a practical limitation of AFM (memory and accuracy for large complexes). The potential impact is significant if the method is robust and generalizable.
+  - **Interdisciplinary readership** The work is primarily of interest to computational structural biologists. The methods are specialized, and the presentation assumes familiarity with protein docking and RL. The broader readership may find the topic relevant but the technical details are dense.
+  - **Technical soundness** The approach is plausible, but the evidence presented is insufficient to fully assess technical soundness. The missing equations, incomplete dataset description, and lack of statistical analysis are significant gaps.
+  - **Readability for nonspecialists** The abstract is accessible, but the results and methods sections are technical. The manuscript would benefit from a clearer explanation of the forced sampling concept and its significance for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, and the problem is important. However, the current evidence does not fully establish the claims of improved performance. The authors must address the statistical rigor of the comparison, provide a more detailed characterization of results, complete the methods description, and clarify the dataset composition.
+
+## Risk / unsupported claims
+- The claim of "improved modeling performance" over MoLPC is not statistically supported.
+- The average RMSD of 10.09 Å is presented without distribution or success-rate context, making it difficult to assess practical utility.
+- The claim that AFM-RL "can predict a diverse set of pairwise models" is supported only by the forced sampling description, but no quantitative diversity analysis is provided.
+- The statement that AFM-RL "does not have this limitation" (GPU memory) is not fully supported, as the memory usage of the RL assembly step is not discussed.
+- The claim that predictions can "aid experimental structural predictions" is speculative and not supported by examples or references.

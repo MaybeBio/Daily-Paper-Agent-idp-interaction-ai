@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38047768",
+  "title": "Umbrella-like Helical Structure of alpha-Synuclein at the Air-Water Interface Observed with Experimental and Theoretical Sum Frequency Generation Spectroscopy.",
+  "authors": "Strunge, Kris; Burgin, Tucker; Golbek, Thaddeus W; Roeters, Steven J; Pfaendtner, Jim; Weidner, Tobias",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2023-12-04",
+  "window": {
+    "start": "2023-12-04",
+    "end": "2023-12-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合SFG实验与MD模拟，揭示α-突触核蛋白（IDP）在空气-水界面折叠为伞状螺旋结构并解析其结合姿态，虽非直接PPI，但为无序蛋白界面互作机制建模提供了可迁移的物理模拟方法。",
+  "abstract": "The misfolding of alpha-synuclein (alphaS) into amyloid aggregates is catalyzed by hydrophobic surfaces and associated with severe brain disorders, such as Parkinson's disease. Despite the important role of interfaces, the three-dimensional structure of alphaS at the interfaces is still not clear. We report interface-specific sum frequency generation (SFG) experiments of monomeric alphaS binding to the air-water interface, a model system for the important hydrophobic surfaces. We combine the SFG spectra with calculations of theoretical spectra based on molecular dynamics simulations to show that alphaS, which is an intrinsically disordered protein in solution, folds into a defined, mostly helical secondary structure at the air-water interface. The binding pose resembles an umbrella shape, where the C-terminus protrudes into the water phase, while the N-terminus and the NAC region span the canopy at the interface. In this binding pose, alphaS is prone to aggregate, which could explain the catalytic effect of hydrophobic interfaces and air bubbles on alphaS fibrillation.",
+  "abstract_zh": "α-突触核蛋白（alphaS）错误折叠成淀粉样聚集体，这一过程由疏水表面催化，并与严重脑部疾病（如帕金森病）相关。尽管界面具有重要作用，但alphaS在界面上的三维结构仍不清楚。我们报告了单体alphaS结合到空气-水界面的界面特异性和频生成（SFG）实验，该界面作为重要疏水表面的模型系统。我们将SFG光谱与基于分子动力学模拟的理论光谱计算相结合，表明alphaS（在溶液中为 intrinsically disordered protein）在空气-水界面折叠成明确的、主要为螺旋的二级结构。其结合姿态类似于伞形，其中C端伸入水相，而N端和NAC区域在界面处展开成伞盖。在这种结合姿态下，alphaS易于聚集，这可能解释了疏水界面和气泡对alphaS纤维化的催化效应。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38047768/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38047768/",
+  "paper_page_path": "papers/pubmed/38047768/index.html"
+}

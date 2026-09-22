@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.26.661604",
+  "title": "Adaptable centriole biogenesis via the intrinsically disordered protein ALMS1",
+  "authors": "Kanako Ozaki; Ting-Jui Ben Chang; Wen-Qing Yang; Avital Shulman; Denisse Izquierdo; Wann-Neng Jane; Won-Jing Wang; Tim Stearns; Jens Lüders; T. Tony Yang; Meng-Fu Bryan Tsou",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-27",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究疾病相关无序蛋白ALMS1通过介导中心粒cartwheel种子组装-解聚循环来调控中心粒生物发生，虽非直接研究PPI结合机制，但以IDP为核心对象并涉及复合物动态组装，对无序蛋白介导互作与凝聚体动态的机制建模有启发。",
+  "abstract": "Biogenesis of subcellular structures like centrioles is viewed as a physical transformation wherein elementary constituents form order without preexisting templates. Centrioles grow with precision from a composite scaffold known as the cartwheel, which is thought to self-assemble without templates and disassemble following centriole growth; however, the mechanism governing cartwheel assembly-disassembly dynamics remains obscure. Here, we identify ALMS1, a disease-linked, intrinsically disordered protein (IDP), as an external mediator of cartwheel dynamics that causes a seed for cartwheel—and thus centriole—formation without itself incorporating into the seed structure. The cartwheel seed (CS), characterized as a dense composite of CEP152/CEP63 protein complexes, forms in interphase and adopts a nanoscale, concentric ring from which the cartwheel grows. Upon mitotic entry, CSs recruit ALMS1 while disassembling into constituents associating with ALMS1 in proximity, correlating with cartwheel assembly-disassembly cycles. Hypomorph, disease-linked ALMS1 mutations trigger cartwheel expansion and shedding by its own grown procentriole, in turn forming ectopic centrioles, leading to perpetual reciprocal amplification. Without ALMS1, CS formation fails, negating centriole biogenesis, whereas reintroducing ALMS1 initializes biogenesis anew, creating diverse yet heritable architectures that evolve through selection, instead of generating a single canonical form. These results suggest that centriole biogenesis is grounded on adaptable transformation cues extrinsic to its constituents, propagating via IDP-mediated CS assembly-disassembly cycles, a process we conjecture involves memory.",
+  "abstract_zh": "中心粒等亚细胞结构的生物发生被视为一种物理转化过程，其中基本组分在没有预先模板的情况下形成有序结构。中心粒从被称为车轮结构（cartwheel）的复合支架上精确生长，该支架被认为无需模板即可自组装，并在中心粒生长后解组装；然而，调控车轮结构组装-解组装动力学的机制仍不清楚。在此，我们鉴定出ALMS1——一种与疾病相关的固有无序蛋白（intrinsically disordered protein, IDP）——作为车轮结构动力学的外部介导因子，它引发车轮结构——进而中心粒——形成的种子，而自身不掺入种子结构中。车轮结构种子（cartwheel seed, CS）被表征为CEP152/CEP63蛋白复合物的致密聚集体，在间期形成并呈现纳米尺度的同心环状，车轮结构从中生长。进入有丝分裂期后，CSs招募ALMS1，同时解组装为与ALMS1邻近结合的组分，这与车轮结构组装-解组装周期相关联。低效型、疾病相关的ALMS1突变触发车轮结构扩张，并由其自身生长的原中心粒脱落，进而形成异位中心粒，导致永久的相互扩增。缺乏ALMS1时，CS形成失败，中心粒生物发生被否定，而重新引入ALMS1则重新启动生物发生，产生多样但可遗传的结构，这些结构通过选择演化，而非生成单一典型形态。这些结果表明，中心粒生物发生基于其组分外在的可适应转化线索，通过IDP介导的CS组装-解组装周期传播，我们推测这一过程涉及记忆。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.26.661604",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.26.661604",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.26.661604/index.html"
+}

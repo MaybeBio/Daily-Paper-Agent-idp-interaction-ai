@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41954258",
+  "title": "Quantitative description of protein configuration and viscoelasticity using first-principles hydrodynamics applied to quartz crystal microbalance experiments.",
+  "authors": "Bonet, Noel F; Alonso, Pablo Palacios; Velez, Marisela; Delgado-Buscalioni, Rafael",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2026-04-09",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用首性原理流体力学构建Virtual-QCM框架，结合粗粒化粘弹性网络模型定量解析含IDR的细菌蛋白FtsZ/ZipA在膜上的构象与粘弹性，虽非AI/分子动力学且PPI机制较弱，但为IDR构象与互作环境的物理建模提供了可迁移方法。",
+  "abstract": "The quartz crystal microbalance (QCM) is one of the few label-free techniques capable of sampling the response of proteins and their aggregates. However, QCM signals come encrypted by a complicated interaction between the biomolecular viscoelastic response and their hydrodynamic perturbations. This has hampered the quantitative interpretation of QCM signals of biomolecules. In addition, the large size disparity between proteins and the QCM flow penetration length of 100 nm creates a deadlock for standard simulation packages. Using first-principles modeling and adaptive schemes, we show that the ultrasensitive QCM sensor can be upgraded to a high-precision quantitative tool for protein analysis. We present a \"Virtual-QCM\" (VQCM) framework to introduce viscoelastic structures in a hydrodynamic solver for semi-infinite wall-bounded oscillatory flow. The fluid solver [R. P. Pelaez, P. Palacios-Alonso, and R. Delgado-Buscalioni, J. Fluid Mech. 1010, A57 (2025)] is spectral in time and space and implements open boundaries focusing on the relevant fluid layer around proteins with  approximately 104 speed-up. Biomolecules are modeled as viscoelastic networks connected to the atomistic level via coarse-graining theory. Integrating VQCM with experiments allows us to predict the physicochemical properties of FtsZ and ZipA; bacterial proteins with intrinsically disordered regions (IDRs) tethered to lipid membrane substrates. Quantitative match with experiments at all coverages permits us to measure substrate binding affinities, IDR extension l, stiffness k, and intrinsic friction xi. We find the polypeptide chains to be extremely sensitive to the buffer ionic strength, with protein friction affected by Mg+2. Measured intrinsic relaxation times xi/k  approximately  [3-30] ns are consistent with FRET analyses. Access to microscopic information using standard QCM sensors will help decipher the IDR structure-function and other protein aggregates.",
+  "abstract_zh": "石英晶体微天平（QCM）是少数能够采样蛋白质及其聚集体响应的无标记技术之一。然而，QCM信号因生物分子粘弹性响应与其流体动力学扰动之间的复杂相互作用而被加密。这阻碍了生物分子QCM信号的定量解释。此外，蛋白质与QCM流动穿透长度（100 nm）之间的大尺寸差异为标准模拟包造成了僵局。利用第一性原理建模和自适应方案，我们展示了超灵敏QCM传感器可升级为高精度定量蛋白质分析工具。我们提出了一种“虚拟QCM”（Virtual-QCM, VQCM）框架，用于在流体动力学求解器中引入粘弹性结构，以模拟半无限壁面约束的振荡流。该流体求解器 [R. P. Pelaez, P. Palacios-Alonso, and R. Delgado-Buscalioni, J. Fluid Mech. 1010, A57 (2025)] 在时间和空间上均为谱方法，并实现开放边界，聚焦于蛋白质周围的流体层，速度提升约10^4倍。生物分子被建模为通过粗粒化理论连接到原子级别的粘弹性网络。将VQCM与实验结合，使我们能够预测FtsZ和ZipA的物理化学性质；这些细菌蛋白具有锚定在脂质膜基底上的内在无序区域（intrinsically disordered regions, IDRs）。在所有覆盖度下与实验的定量匹配使我们能够测量基底结合亲和力、IDR延伸长度l、刚度k和固有摩擦ξ。我们发现多肽链对缓冲液离子强度极为敏感，蛋白质摩擦受Mg²⁺影响。测得的固有弛豫时间ξ/k约为[3-30] ns，与FRET分析一致。利用标准QCM传感器获取微观信息将有助于解读IDR的结构-功能关系及其他蛋白质聚集体。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41954258/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41954258/",
+  "paper_page_path": "papers/pubmed/41954258/index.html"
+}

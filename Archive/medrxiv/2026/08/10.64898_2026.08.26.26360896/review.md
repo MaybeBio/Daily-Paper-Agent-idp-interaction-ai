@@ -1,88 +1,105 @@
 ## Review setup
-- **Input scope** Abstract only
-- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
-- **Shared manuscript claim summary** The authors report that a germline SNP (p.S464T) in the intrinsically disordered region of KDM3C/JMJD1C is associated with chemoradiotherapy outcomes in locally advanced rectal cancer and head and neck squamous cell carcinoma. They propose that this substitution alters KDM3C phosphorylation-dependent interaction with the RNF8 FHA domain, impairs MDC1-RAP80 signaling and RAP80-BRCA1 colocalization, increases sensitivity to DNA-damaging agents, elevates cGAS-cGAMP innate immune signaling and apoptosis, and is associated with increased incidence of UV-induced skin and other cancers in population analyses.
-- **Visible evidence base** Abstract text only; no figures, tables, statistical details, cohort descriptions, or methods are available
-- **Missing materials affecting confidence** Full manuscript, all figures and tables, cohort characteristics, genotyping and phenotyping details, statistical analysis methods, in silico modeling parameters, cellular assay protocols, population study design, and any supplementary information
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, technical soundness, and support for claims based solely on the provided manuscript text; no external data or unpublished materials were consulted
+- **Shared manuscript claim summary** The authors report that a germline SNP (p.S464T, rs10761725) in KDM3C/JMJD1C is associated with favorable chemoradiotherapy outcomes in LARC and LA-HNSCC patients. They propose that this variant disrupts MDC1-RNF8-RAP80-BRCA1 DNA repair complex assembly, leading to impaired DNA repair, increased cGAS-STING signaling, and enhanced sensitivity to DNA-damaging agents. Population cohort analyses suggest increased cancer incidence, particularly skin cancer, among carriers.
+- **Visible evidence base** Results sections describing patient cohort genotyping (LARC n=84, HNSCC n=90), isogenic cell line experiments (RCM-1, CAL-27, SCC-9), AlphaFold2/3 structural modeling, transcriptomic analyses, and UK Biobank/All of Us population studies; methods sections for experimental procedures; supplementary table/figure references
+- **Missing materials affecting confidence** Supplementary figures and tables (referenced but not provided), detailed statistical outputs for population analyses, raw sequencing data, complete AlphaFold modeling parameters, and full gnomAD/TCGA analysis details; these omissions limit verification of several key claims
 
 ## Reviewer
-- **Overall assessment** The abstract presents a potentially interesting hypothesis linking a germline variant in a chromatin regulatory gene to DNA repair deficiency, therapeutic response, and cancer risk. However, the evidence base available for review is limited to the abstract, which contains no quantitative data, no cohort sizes, no effect sizes, no statistical measures, and no methodological detail. The causal chain from SNP to altered protein interaction to impaired DNA repair to clinical outcomes and population cancer incidence is plausible but currently unsupported by any verifiable evidence in the supplied material. The claim of clinical association is particularly concerning given the absence of any reported statistics or validation details.
-- **Who would be interested in the results, and why** Radiation oncologists and translational researchers in gastrointestinal and head and neck oncology would be interested in a potential germline biomarker for chemoradiotherapy response. Cancer geneticists and DNA repair biologists would be interested in the proposed functional link between KDM3C and the MDC1-RAP80-BRCA1 axis. Population geneticists studying cancer susceptibility might also find the reported association with UV-induced skin cancers relevant. The interdisciplinary appeal is real if the underlying evidence is robust.
-- **Major strengths** The hypothesis is mechanistically coherent and connects a germline variant to a defined DNA repair pathway. The use of AlphaFold modeling to predict a functional effect of a non-synonymous SNP in an intrinsically disordered region is a modern and interesting approach. The potential translational relevance for treatment stratification in two common cancer types is clinically meaningful. The link between inherited chromatin regulatory variation and innate immune signaling via cGAS-STING is conceptually novel.
-- **Major Concerns**
-  - **Concern ID** R1-M1
-  - **Severity** Major
-  - **Blocking** Yes
-  - **Axis** Clinical association claim
-  - **Claim pointer** The abstract states that the SNP is "associated with CRT outcomes in locally advanced rectal cancers (LARC) and head and neck squamous cell carcinoma (LA-HNSCC)."
-  - **Evidence pointer** Abstract text; location not provided
-  - **Concern** No cohort sizes, no hazard ratios, no odds ratios, no confidence intervals, no p-values, no validation cohort information, and no details on how CRT outcomes were defined or measured are provided. The abstract does not indicate whether the association was observed in discovery and replication cohorts, whether it was adjusted for known prognostic factors, or whether it was corrected for multiple testing.
-  - **Why it matters** The central clinical claim of the manuscript rests on this association. Without any quantitative evidence, the reader cannot assess the strength, direction, or reliability of the reported association. Genetic association studies in cancer are prone to false positives, and the absence of any statistical detail is a critical gap.
-  - **Resolution test** Provide cohort sizes, effect estimates with confidence intervals, p-values, multiple testing correction details, and validation cohort results. If the association is not replicated, the clinical claim should be withdrawn or substantially weakened.
-  - **Concern ID** R1-M2
-  - **Severity** Major
-  - **Blocking** Yes
-  - **Axis** Functional mechanism claim
-  - **Claim pointer** The abstract states that "S464T substitution impaired damage-induced MDC1-RAP80 signaling and downstream RAP80-BRCA1 colocalization" and that "SNP carrying cells impaired DNA repair causing genotoxic stress."
-  - **Evidence pointer** Abstract text; location not provided
-  - **Concern** No experimental details are provided for the cellular models used, the DNA-damaging agents tested, the doses and time points examined, the assays used to measure MDC1-RAP80 signaling and RAP80-BRCA1 colocalization, or the DNA repair endpoints assessed. The abstract does not specify which cell lines were used, whether isogenic controls were employed, or whether the effects were observed in multiple independent models.
-  - **Why it matters** The mechanistic chain is the intellectual core of the manuscript. Without knowing the experimental system and the assays, the reader cannot judge whether the reported effects are robust, specific to the S464T variant, or potentially confounded by cell line background or off-target effects.
-  - **Resolution test** Provide detailed methods for cell culture, CRISPR or overexpression approaches, DNA damage induction, immunofluorescence or biochemical assays for MDC1-RAP80 and RAP80-BRCA1, and DNA repair assays such as comet, γH2AX, or homologous recombination reporters. Show that the effects are specific to the S464T variant and reproducible across models.
-  - **Concern ID** R1-M3
-  - **Severity** Major
-  - **Blocking** Yes
-  - **Axis** In silico modeling claim
-  - **Claim pointer** The abstract states that "In silico modeling with AlphaFold predicted S464T substitution influenced interaction between phosphorylated KDM3C and RNF8 FHA domain."
-  - **Evidence pointer** Abstract text; location not provided
-  - **Concern** No details are provided on the AlphaFold model used, the confidence scores of the predicted interaction, the docking or simulation approach, or whether the predicted effect was validated experimentally. The abstract does not indicate whether the phosphorylation site on KDM3C was experimentally confirmed or whether the RNF8 FHA domain interaction was tested in binding assays.
-  - **Why it matters** AlphaFold predictions of protein-protein interaction changes from a single amino acid substitution in an intrinsically disordered region are inherently uncertain. The claim that the substitution "influenced" the interaction is vague and could mean a range of effects. Without experimental validation of the binding interaction, this claim remains speculative.
-  - **Resolution test** Provide AlphaFold confidence metrics, show the predicted structural context of the S464T substitution, and validate the KDM3C-RNF8 interaction with biochemical or biophysical assays such as pull-down, co-immunoprecipitation, or surface plasmon resonance using wild-type and S464T variants.
-  - **Concern ID** R1-M4
-  - **Severity** Major
-  - **Blocking** Yes
-  - **Axis** Population association claim
-  - **Claim pointer** The abstract states that "Population analyses with the SNP highlighted an increase incidence of UV-induced skin and other cancers."
-  - **Evidence pointer** Abstract text; location not provided
-  - **Concern** No details are provided on the population datasets used, the ancestry composition, the number of cases and controls, the cancer types included, the effect sizes, or the statistical significance. The abstract does not indicate whether the analyses were adjusted for known risk factors such as UV exposure, skin type, or age, nor whether multiple testing corrections were applied.
-  - **Why it matters** Population-level claims of cancer risk association require rigorous epidemiological design and careful control for confounders. The abstract provides no basis for evaluating whether this association is real or an artifact of population stratification, ascertainment bias, or multiple testing.
-  - **Resolution test** Provide dataset names, sample sizes, ancestry information, effect estimates with confidence intervals, p-values, adjustment covariates, and multiple testing correction details. If the population analyses are exploratory, they should be clearly labeled as such.
-- **Minor Comments**
-  - **Concern ID** R1-m1
-  - **Severity** Minor
-  - **Axis** Clarity of terminology
-  - **Affected element** "CRT outcomes"
-  - **Evidence pointer** Abstract text; location not provided
-  - **Issue** The abstract does not define what constitutes a "CRT outcome" in this context. It is unclear whether this refers to pathologic complete response, overall survival, progression-free survival, or another endpoint.
-  - **Required correction** Specify the clinical endpoint used in the association analysis.
-  - **Concern ID** R1-m2
-  - **Severity** Minor
-  - **Axis** Completeness of variant annotation
-  - **Affected element** "p.S464T"
-  - **Evidence pointer** Abstract text; location not provided
-  - **Issue** The abstract does not provide the rsID or genomic coordinates for the SNP, nor the minor allele frequency in relevant populations.
-  - **Required correction** Include the rsID, genomic position, and allele frequency data to allow readers to identify the variant and assess its population relevance.
-  - **Concern ID** R1-m3
-  - **Severity** Minor
-  - **Axis** Specificity of immune signaling claim
-  - **Affected element** "increased cGAS-cGAMP innate immune signaling"
-  - **Evidence pointer** Abstract text; location not provided
-  - **Issue** The abstract does not specify which downstream markers of cGAS-STING signaling were measured, such as STING phosphorylation, IRF3 activation, or interferon production.
-  - **Required correction** Specify the assays and markers used to measure cGAS-cGAMP signaling.
-  - **Concern ID** R1-m4
-  - **Severity** Minor
-  - **Axis** Consistency of terminology
-  - **Affected element** "KDM3C/JMJD1C"
-  - **Evidence pointer** Abstract text; location not provided
-  - **Issue** The abstract uses both gene names without explaining the relationship. This may confuse readers unfamiliar with the gene nomenclature.
-  - **Required correction** Use one approved gene symbol consistently and note the alias once.
-- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The clinical association, functional mechanism, in silico prediction, and population association claims are all unsupported by the supplied abstract-level evidence. Each requires substantial additional data and methodological detail before the overall case can be evaluated.
-- **Assessment against Nature-style criteria** Originality is moderate to high, as the link between a germline KDM3C variant and DNA repair deficiency is not a well-established concept. Scientific importance is potentially high if the clinical association is real, given the need for predictive biomarkers in chemoradiotherapy. Interdisciplinary readership is plausible, spanning oncology, genetics, and DNA repair biology. Technical soundness cannot be assessed from the abstract alone, as no methods or quantitative results are provided. Readability for nonspecialists is acceptable, though the abstract assumes familiarity with DNA repair pathways and chromatin regulation. The abstract is concise and the logic is clear, but the lack of evidence is a fundamental barrier to any positive assessment.
-- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the mechanistic logic is coherent, but the abstract provides no quantitative data, no methodological detail, and no validation. A supportive assessment would require the full manuscript with detailed methods, cohort descriptions, statistical analyses, and experimental validation of the proposed mechanism.
+- **Overall assessment** This manuscript presents a potentially interesting observation linking a common germline variant in KDM3C to chemoradiotherapy response, with a proposed mechanistic pathway involving DNA repair complex assembly. The clinical association data, while based on modest cohort sizes, are suggestive. However, the mechanistic evidence is largely indirect, relying on computational modeling and correlative cellular assays rather than direct biochemical validation. The population-level cancer incidence findings, while intriguing, lack sufficient methodological detail to assess robustness. The manuscript would benefit from stronger direct evidence of the proposed molecular mechanism and more rigorous statistical handling of the clinical associations.
+- **Who would be interested in the results, and why** Radiation oncologists and medical oncologists treating rectal and head and neck cancers would find the potential predictive biomarker clinically relevant. Cancer biologists studying DNA damage response, particularly the MDC1-RNF8-RAP80-BRCA1 axis, would be interested in the proposed mechanistic link. Genetic epidemiologists studying germline modifiers of cancer risk and treatment response would also find the population-level associations relevant. The work may also interest researchers studying intrinsically disordered regions in DNA repair proteins.
+- **Major strengths** The study addresses an important clinical need for predictive biomarkers in chemoradiotherapy. The multi-pronged approach, combining clinical cohorts, isogenic cell models, structural modeling, and population data, is commendable. The identification of a common variant with potential functional consequences in a chromatin regulator is novel. The use of patient-derived lymphoblastoid lines and organoids adds translational relevance. The structural modeling, while computational, provides a plausible mechanistic framework.
+- **Major Concerns** The mechanistic claims are not directly validated. The proposed disruption of KDM3C-MDC1 interaction and downstream RAP80-BRCA1 assembly is inferred from colocalization studies and computational modeling, but no direct binding assays, mutagenesis experiments, or rescue experiments are presented. The clinical associations, while statistically significant, are based on relatively small cohorts and lack adjustment for potential confounders. The population-level cancer incidence findings, particularly the skin cancer association, require more rigorous epidemiological analysis. The transcriptomic data show heterogeneous gene expression changes across cell lines, with only two consistently differentially expressed genes, which weakens the claim of a shared transcriptional program.
+- **Minor Comments** Several methodological details are missing, including the criteria for defining complete versus poor responders, the handling of multiple testing in the pathway enrichment analyses, and the specific parameters used in AlphaFold modeling. The manuscript would benefit from a more detailed description of the UK Biobank and All of Us analyses, including how cancer incidence was ascertained and how potential confounders were handled. The statement that the SNP is "associated with improved outcomes" in the abstract is somewhat stronger than the data support, given the observational nature of the clinical cohorts.
+- **Technical failings that need to be addressed before the case is established** The lack of direct biochemical evidence for the proposed mechanism is a significant gap. The colocalization data, while suggestive, do not demonstrate a causal link between the KDM3C variant and impaired repair complex assembly. The computational modeling, while informative, requires experimental validation. The clinical association data, while statistically significant, need to be replicated in larger, independent cohorts with appropriate adjustment for confounders. The population-level cancer incidence findings require more rigorous epidemiological analysis.
+- **Assessment against Nature-style criteria** Originality: The finding of a common germline variant in a chromatin regulator affecting DNA repair and treatment response is novel and potentially significant. Scientific importance: If validated, this could have implications for personalized cancer therapy and understanding of DNA repair regulation. Interdisciplinary readership: The work bridges clinical oncology, DNA repair biology, and genetic epidemiology, which could attract broad interest. Technical soundness: The experimental approaches are generally appropriate, but the lack of direct mechanistic validation and the reliance on computational modeling weaken the technical case. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections, particularly the structural modeling, may be challenging for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The clinical observation is potentially important, and the proposed mechanism is plausible. However, the current evidence does not fully establish the mechanistic link, and the clinical associations need replication. The manuscript would be strengthened by direct biochemical validation of the proposed mechanism, more rigorous clinical association analyses, and clearer presentation of the population-level findings.
+
+### Major Concerns
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Mechanistic validation
+- **Claim pointer** The authors claim that the KDM3C S464T variant "disrupts assembly of the MDC1–RNF8–RAP80–BRCA1 repair complex" and that this is the mechanistic basis for enhanced chemoradiotherapy sensitivity.
+- **Evidence pointer** Results sections "KDM3C SNP-S464T disrupts MDC1–RNF8–RAP80-BRCA1 pathway assembly" and "The highly conserved S464 residue localizes to an intrinsically disordered region associated with BRCA1 repair"; Figure 3; Supplementary Figure 2
+- **Concern** The evidence for disrupted complex assembly is indirect. The authors show reduced colocalization of MDC1-RAP80 and RAP80-BRCA1 by immunofluorescence, but do not directly demonstrate that the KDM3C variant impairs the physical interaction between KDM3C and MDC1, or that this leads to defective recruitment of downstream repair factors. The AlphaFold modeling is computational and requires experimental validation. No direct binding assays, co-immunoprecipitation with purified proteins, or mutagenesis studies are presented to confirm the proposed mechanism.
+- **Why it matters** The central mechanistic claim is the foundation of the paper's significance. Without direct evidence that the S464T variant disrupts KDM3C-MDC1 interaction and downstream repair complex assembly, the link between the genetic variant and the observed cellular phenotypes remains correlative rather than causal.
+- **Resolution test** The authors should provide direct biochemical evidence, such as co-immunoprecipitation or pull-down assays showing reduced binding between KDM3C (S464T) and MDC1 compared to wild-type, and demonstrate that this leads to impaired recruitment of RAP80 and BRCA1 to damage sites. Ideally, rescue experiments where wild-type KDM3C is reintroduced into S464T cells should restore normal repair complex assembly and sensitivity.
+
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Clinical association robustness
+- **Claim pointer** The authors claim that the KDM3C S464T variant is "associated with improved response to CRT in patients with LARC and LA-HNSCC" based on the initial discovery cohort and expanded genotyping.
+- **Evidence pointer** Results section "Germline missense polymorphism in KDM3C associates significantly with favorable outcomes"; Figure 1E-G; Supplementary Tables 9-10
+- **Concern** The clinical cohorts are relatively small (LARC n=84, HNSCC n=90) and the analyses do not appear to adjust for potential confounders such as age, sex, tumor stage, HPV status (for HNSCC), or treatment regimen. The definition of complete versus poor responders based on NAR score is described, but the distribution of clinical and demographic characteristics across genotype groups is not fully presented. The HNSCC analysis uses recurrence as an endpoint, which is reasonable, but the details of how recurrence was ascertained and the follow-up duration are not provided.
+- **Why it matters** The clinical association is the primary translational finding. If the association is confounded or not robust, the clinical utility of the biomarker is questionable. Small cohorts with potential confounding can lead to false-positive associations.
+- **Resolution test** The authors should provide a more detailed description of the clinical cohorts, including baseline characteristics by genotype group, and perform multivariable analyses adjusting for relevant confounders. Ideally, the association should be validated in an independent, larger cohort. The authors should also report the sensitivity and specificity of the genotype as a predictive biomarker.
+
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** No
+- **Axis** Population-level cancer incidence
+- **Claim pointer** The authors claim that the S464T variant is "associated with increased cancer incidence, particularly skin cancer" based on UK Biobank and All of Us analyses.
+- **Evidence pointer** Results section "KDM3C SNP-S464T is associated with increased cancer incidence in population cohorts"; Figure 7A-B
+- **Concern** The population-level analyses are presented with limited methodological detail. The specific cancer types, the number of cases, the statistical models used, and how potential confounders (e.g., sun exposure, skin type, family history) were handled are not described. The relative risk estimates are presented without confidence intervals or effect sizes. The finding of increased cervical carcinoma in situ in the UK Biobank but not in All of Us, and the inconsistent findings for breast and colorectal cancer across cohorts, raise questions about the robustness of the associations.
+- **Why it matters** The population-level findings support the broader relevance of the variant to cancer susceptibility. If these associations are not robust, they could be spurious and detract from the main clinical finding.
+- **Resolution test** The authors should provide a detailed description of the population cohort analyses, including the specific cancer types, number of cases and controls, statistical models, and adjustment for confounders. They should report effect sizes with confidence intervals and p-values. Ideally, the analyses should be replicated in additional independent cohorts.
+
+- **Concern ID** R1-M4
+- **Severity** Major
+- **Blocking** No
+- **Axis** Transcriptomic evidence
+- **Claim pointer** The authors state that transcriptomic analyses identified "hundreds of differentially expressed genes" but that only DAPK1 and CXCL8 were consistently changed across all three isogenic cell lines.
+- **Evidence pointer** Results section "KDM3C SNP-S464T induces S-phase stalling and γH2AX accumulation"; Supplementary Figure 5; Supplementary Table 17
+- **Concern** The transcriptomic data are presented as supporting evidence for a shared functional consequence of the variant, but the finding that only two genes are consistently differentially expressed across cell lines is a weak basis for this claim. The authors do not discuss whether the lack of overlap reflects biological heterogeneity, technical variability, or insufficient statistical power. The functional significance of DAPK1 downregulation and CXCL8 upregulation in the context of DNA repair is not explored.
+- **Why it matters** The transcriptomic data are used to support the claim that the variant has a consistent functional impact. If the transcriptional response is highly heterogeneous, it is difficult to attribute the observed phenotypes specifically to the KDM3C variant.
+- **Resolution test** The authors should provide a more detailed analysis of the transcriptomic data, including the number of differentially expressed genes in each cell line, the overlap between cell lines, and the statistical thresholds used. They should also discuss the potential reasons for the limited overlap and explore the functional relevance of the consistently changed genes.
+
+### Minor Comments
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Statistical reporting
+- **Affected element** Clinical association analyses
+- **Evidence pointer** Figure 1E-G; Results section "Germline missense polymorphism in KDM3C associates significantly with favorable outcomes"
+- **Issue** The p-values for the clinical associations are reported, but effect sizes, odds ratios, or confidence intervals are not provided. The authors state "p<0.0001" and "p<0.000001" but do not report the magnitude of the association.
+- **Required correction** Report effect sizes (e.g., odds ratios) with 95% confidence intervals for the genotype-outcome associations in both the LARC and HNSCC cohorts.
+
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Methodology clarity
+- **Affected element** AlphaFold modeling
+- **Evidence pointer** Methods section "Molecular modeling studies"; Figure 4
+- **Issue** The description of the AlphaFold modeling is brief. The specific parameters used, the selection of the peptide length, and the criteria for selecting the top models are not fully described. The use of binding free energy calculations from the PISA server is mentioned, but the limitations of this approach are not discussed.
+- **Required correction** Provide more detail on the modeling parameters, model selection criteria, and the limitations of the computational approach. Consider including a supplementary figure showing the distribution of model scores.
+
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Data presentation
+- **Affected element** Population cohort analyses
+- **Evidence pointer** Figure 7A-B; Results section "KDM3C SNP-S464T is associated with increased cancer incidence in population cohorts"
+- **Issue** The figure appears to show relative risk estimates, but the specific cancer types and the number of cases for each are not clearly labeled. The figure legend is not provided in the manuscript text.
+- **Required correction** Ensure that the figure clearly labels the cancer types, the number of cases, and the statistical significance. Provide a detailed figure legend.
+
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Interpretation
+- **Affected element** Discussion of clinical implications
+- **Evidence pointer** Discussion section
+- **Issue** The authors suggest that the variant could be used for "biomarker-driven stratification of patients receiving chemoradiotherapy," but they do not discuss the practical considerations, such as the prevalence of the variant in different populations, the number needed to test, or how the biomarker would be implemented in clinical practice.
+- **Required correction** Add a brief discussion of the practical considerations for clinical implementation, including the prevalence of the variant and potential study designs for prospective validation.
+
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Literature context
+- **Affected element** Introduction and Discussion
+- **Evidence pointer** Introduction; Discussion
+- **Issue** The authors mention that KDM3C has been implicated in DNA repair, but the discussion of prior work is brief. A more thorough review of the literature on KDM3C's role in DNA repair and cancer would strengthen the context.
+- **Required correction** Expand the discussion of prior work on KDM3C, particularly studies that have directly examined its role in DNA repair or its association with cancer outcomes.
 
 ## Risk / unsupported claims
-- The clinical association between the KDM3C p.S464T SNP and CRT outcomes in LARC and LA-HNSCC is unsupported by any reported statistics or cohort details.
-- The functional claim that S464T impairs MDC1-RAP80 signaling and RAP80-BRCA1 colocalization is unsupported by any experimental data in the abstract.
-- The claim that SNP-carrying cells have impaired DNA repair and increased cGAS-cGAMP signaling is unsupported by any assay descriptions or results.
-- The in silico prediction that S464T influences the KDM3C-RNF8 FHA domain interaction is unsupported by model details or experimental validation.
-- The population association between the SNP and increased incidence of UV-induced skin and other cancers is unsupported by any dataset descriptions, effect sizes, or statistical measures.
-- The statement that the SNP is "associated with" outcomes implies a causal or predictive relationship that is not established by the abstract-level evidence.
+- The claim that the S464T variant "disrupts assembly of the MDC1–RNF8–RAP80–BRCA1 repair complex" is not directly supported by the provided evidence, which relies on colocalization studies and computational modeling rather than direct biochemical validation.
+- The claim that the variant is "associated with improved response to CRT" in LARC and HNSCC is based on relatively small cohorts and lacks adjustment for potential confounders; the robustness of this association is not fully established.
+- The claim that the variant is "associated with increased cancer incidence, particularly skin cancer" in population cohorts is based on analyses with limited methodological detail; the consistency and robustness of these findings are not fully established.
+- The claim that the variant "creates a neo-phosphorylation motif" is based solely on in silico prediction and has not been experimentally validated.
+- The claim that the variant leads to "increased cGAS-cGAMP-STING signaling" is based on a limited set of experiments and the functional link to the proposed mechanism is not fully established.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42379439",
+  "title": "Nickel management by the accessory protein UreG during urease activation.",
+  "authors": "Frumenzio, Giorgia; Emerson, Andrew; Ciurli, Stefano; Musiani, Francesco",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2026-07-01",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全原子分子动力学模拟研究无序蛋白UreG在GTP水解后Ni(II)结合位点结构动态变化，揭示金属转移的机制模型，虽非典型PPI但聚焦IDP构象动态与结合机制，方法可迁移至无序蛋白互作建模。",
+  "abstract": "Urease is a nickel-dependent metalloenzyme whose activation requires the coordinated action of four accessory proteins that mediate Ni(II) trafficking and insertion into the active site. Among these proteins, UreG is the first reported case of an intrinsically disordered GTPase that transiently binds Ni(II) through a conserved Cys-Pro-His (CPH) motif and is thought to regulate metal delivery during urease maturation. In this study, we investigated how GTP hydrolysis affects Ni(II) binding and the structural dynamics of Klebsiella pneumoniae UreG using extended all-atom molecular dynamics simulations in explicit solvent. Removal of the GTP gamma-phosphate group and Mg(II) ion, thus modeling the effects of GTP hydrolysis, destabilizes the hydrogen-bonding network that connects the nucleotide-binding pocket to the CPH motif. This disruption increases the tendency of the UreG homodimer to undergo structural rearrangement, enhancing its flexibility, as well as displacing the Ni(II)-binding region outward, rendering it more exposed to the aqueous environment. Nevertheless, Ni(II) remains coordinated to the CPH motif throughout all simulations. These results support a model in which GTP hydrolysis primes UreG for Ni(II) transfer by weakening the structural constraints around the metal-binding site, rather than directly triggering metal release. Additional interactions, likely involving the accessory protein UreF, are required to promote nickel release and complete urease activation.",
+  "abstract_zh": "脲酶是一种依赖镍的金属酶，其激活需要四种辅助蛋白的协同作用，这些蛋白介导Ni(II)的转运及其插入活性位点。在这些蛋白中，UreG是首个被报道的固有无序GTPase案例，它通过保守的Cys-Pro-His (CPH) 基序瞬时结合Ni(II)，并被认为在脲酶成熟过程中调控金属递送。在本研究中，我们利用显式溶剂中的扩展全原子分子动力学 (molecular dynamics) 模拟，探讨了GTP水解如何影响肺炎克雷伯菌 (Klebsiella pneumoniae) UreG的Ni(II)结合及结构动力学。去除GTP的γ-磷酸基团和Mg(II)离子，从而模拟GTP水解效应，会破坏连接核苷酸结合口袋与CPH基序的氢键网络。这种破坏增加了UreG同源二聚体发生结构重排的倾向，增强了其柔韧性，同时使Ni(II)结合区域向外位移，使其更暴露于水环境。尽管如此，在所有模拟中，Ni(II)始终与CPH基序保持配位。这些结果支持一个模型，即GTP水解通过削弱金属结合位点周围的结构约束来为UreG的Ni(II)转移做准备，而非直接触发金属释放。额外的相互作用，可能涉及辅助蛋白UreF，是促进镍释放并完成脲酶激活所必需的。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42379439/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42379439/",
+  "paper_page_path": "papers/pubmed/42379439/index.html"
+}

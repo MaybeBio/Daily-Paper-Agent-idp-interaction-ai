@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.02.13.705746",
+  "title": "Rescue of pATOM36-depleted T. brucei by human MTCH1/2 reveals common features of protein insertases",
+  "authors": "Berger S; von Ballmoos C; Schneider A",
+  "journal": "bioRxiv",
+  "published_date": "2026-02-16",
+  "window": {
+    "start": "2026-02-16",
+    "end": "2026-02-22"
+  },
+  "score": 3,
+  "one_liner_zh": "该文研究线粒体外膜蛋白插入酶pATOM36与MTCH1/2的结构与功能，虽涉及蛋白-膜互作机制，但对象非无序蛋白/IDR，且无AI或物理模拟方法，与本课题关联微弱。",
+  "abstract": "Alpha-helically anchored proteins of the mitochondrial outer membrane depend on dedicated insertases, including the MIM complex in yeast, pATOM36 in trypanosomes, and MTCH1/MTCH2 in humans. These insertases lack sequence homology and arose by convergent evolution. Here we show that MTCH1 and an N-terminally modified MTCH2 can replace the OMM biogenesis function of trypanosomal pATOM36, demonstrating functional compatibility across a large phylogenetic distance. Moreover, like other insertases, pATOM36 has lipid scramblase activity and likely induces local membrane thinning. Structural modeling reveals that even though they have inverted membrane topologies, pATOM36 and MTCH1/MTCH2 adopt a similar architecture. They form a hydrophilic cavity comprising five transmembrane helices that is open to both the cytosol and laterally to the membrane core. The same features also extend to the large phylogenetically unrelated YidC-like insertase family of bacterial origin. Together, these findings suggest that membrane protein insertion is constrained to a small number of viable mechanistic solutions, providing evidence for “deterministic” evolution acting at the molecular level.",
+  "abstract_zh": "线粒体外膜的α-螺旋锚定蛋白依赖于专门的插入酶，包括酵母中的MIM复合物、锥虫中的pATOM36以及人类中的MTCH1/MTCH2。这些插入酶缺乏序列同源性，并通过趋同进化产生。在此，我们表明MTCH1和N端修饰的MTCH2可以替代锥虫pATOM36的OMM生物发生功能，证明了跨越巨大系统发育距离的功能兼容性。此外，与其他插入酶一样，pATOM36具有脂质爬行酶活性，并可能诱导局部膜变薄。结构建模揭示，尽管pATOM36和MTCH1/MTCH2具有相反的膜拓扑结构，它们却采用相似的架构。它们形成一个由五个跨膜螺旋组成的亲水腔，该腔对胞质溶胶开放，并侧向对膜核心开放。这些特征也延伸至细菌来源的大型系统发育无关的YidC样插入酶家族。综合来看，这些发现表明膜蛋白插入被限制在少数可行的机制解决方案中，为“确定性”进化在分子水平上的作用提供了证据。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705746",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705746",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.02.13.705746/index.html"
+}

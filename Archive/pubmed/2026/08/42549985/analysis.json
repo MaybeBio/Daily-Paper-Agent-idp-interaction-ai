@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42549985",
+  "title": "Inherent alpha-Helix Around Tyrosine 183 in the Intrinsically Disordered Tail of the Multi-Site Docking Platform Gab1.",
+  "authors": "Dietrich, Anne; Lewitzky, Marc; Gruber, Tobias; Balbach, Jochen; Feller, Stephan M; Weininger, Ulrich",
+  "journal": "Biopolymers",
+  "published_date": "2026-08-04",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过NMR和计算预测表征了Gab1无序尾部中Tyr183周围的内在α-螺旋，虽未直接研究PPI，但为IDR中局部结构基序介导互作提供了结构基础，对互作机制建模有启发。",
+  "abstract": "The biological function of intrinsically disordered proteins is frequently coupled to short linear motifs, which serve as protein binding sites. This goes often hand in hand with local transient structural element formation. The intrinsically disordered C-terminal region of the multi-site docking protein Grb2-associated binder 1 (Gab1) contains several well-characterized phosphotyrosine pairs, whereas the Tyr162 and Tyr183 epitopes have remained practically unstudied. Here, we combine computational prediction, circular dichroism and high-resolution NMR spectroscopy (chemical shift and relaxation analyses) to structurally characterize a Gab1 fragment containing residues 142-203. The here determined NMR structure shows an alpha-helix for residues Pro180 to Ile187, with Tyr183 positioned centrally, while all other parts of the fragment, including the region around Tyr162, are disordered. This helical conformation is maintained upon changes in pH, variation of peptide lengths and phosphorylation status. The inherent helix around Tyr183 distinguishes the local structural environment of Tyr162 and Tyr183 within the intrinsically disordered Gab1 tail and provides a structural framework for future studies on interaction partners and potential functional roles of this structural motif.",
+  "abstract_zh": "固有无序蛋白的生物学功能常与短线性基序相关联，这些基序作为蛋白质结合位点。这通常伴随着局部瞬时结构元件的形成。多位点对接蛋白Grb2相关结合蛋白1（Gab1）的固有无序C端区域包含多个特征明确的磷酸化酪氨酸对，而Tyr162和Tyr183表位几乎未被研究。在此，我们结合计算预测、圆二色光谱和高分辨率核磁共振波谱（化学位移和弛豫分析）对包含残基142-203的Gab1片段进行结构表征。此处确定的NMR结构显示，残基Pro180至Ile187形成α-螺旋，其中Tyr183位于中心位置，而片段的所有其他部分，包括Tyr162周围区域，均为无序状态。这种螺旋构象在pH变化、肽段长度变化及磷酸化状态改变时得以维持。Tyr183周围固有的螺旋结构区分了固有无序Gab1尾部中Tyr162和Tyr183的局部结构环境，并为未来研究该结构基序的相互作用伙伴及潜在功能角色提供了结构框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42549985/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42549985/",
+  "paper_page_path": "papers/pubmed/42549985/index.html"
+}

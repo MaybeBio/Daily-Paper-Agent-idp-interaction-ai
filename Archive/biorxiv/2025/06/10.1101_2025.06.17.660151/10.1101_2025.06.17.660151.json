@@ -1,0 +1,471 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.17.660151",
+  "title": "Condition-dependent, amorphous protein agglomerates control cytoplasmic rheology",
+  "doi": "10.1101/2025.06.17.660151",
+  "abstract": "<h4>Summary</h4> Molecular crowding in the bacterial cytoplasm restricts the diffusion of large molecules, impacting cellular processes. However, how nutrient availability influences cytoplasmic rheology is not well understood. With single-particle tracking in Escherichia coli , we observed a threefold variation in the diffusion of a 40-nm particle across exponential growth conditions. Previously suggested determinants of rheology did not account for this variation; instead, we found a strong anticorrelation between the diffusion coefficient and the abundance of amino acid metabolism proteins, persisting upon genetic perturbations and showing that lower diffusion is associated with increased viscoelasticity. Photoactivated light microscopy revealed that some amino acid metabolism proteins form clusters. Electron microscopy showed that these proteins could form amorphous agglomerates at physiological concentrations in vitro, likely driven by their low intrinsic disorder, high compactness and hydropathy score. These findings show that protein agglomerates regulate cytoplasmic rheology in a condition-dependent manner, suggesting an underappreciated level of cytoplasmic organization. <h4>Highlights</h4> Diffusion of 40-nm particles varies threefold across growth conditions in E. coli Cytoplasmic diffusion inversely correlates with COG-E protein abundance COG-E proteins form agglomerates that increase cytoplasmic viscoelasticity Protein compactness and hydrophobicity predict condition-dependent crowding effects",
+  "authors": [
+    "Losa J",
+    "Simon F",
+    "Linnik D",
+    "Kaya SG",
+    "Stuart MCA",
+    "Stetsenko A",
+    "de Boer R",
+    "Ho FY",
+    "Incarnato D",
+    "Stevens J",
+    "van Eck J",
+    "Fraaije MW",
+    "Weiss LE",
+    "van Teeffelen S",
+    "Abeln S",
+    "Guskov A",
+    "Marrink S",
+    "Poolman B",
+    "Heinemann M"
+  ],
+  "published_date": "2025-06-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.17.660151",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.17.660151.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1039507",
+    "raw_record": {
+      "id": "PPR1039507",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1039507"
+        ]
+      },
+      "doi": "10.1101/2025.06.17.660151",
+      "title": "Condition-dependent, amorphous protein agglomerates control cytoplasmic rheology",
+      "authorString": "Losa J, Simon F, Linnik D, Kaya SG, Stuart MCA, Stetsenko A, de Boer R, Ho FY, Incarnato D, Stevens J, van Eck J, Fraaije MW, Weiss LE, van Teeffelen S, Abeln S, Guskov A, Marrink S, Poolman B, Heinemann M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Losa J",
+            "lastName": "Losa",
+            "firstName": "José",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Simon F",
+            "lastName": "Simon",
+            "firstName": "François",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0737-2312"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Engineering Physics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Linnik D",
+            "lastName": "Linnik",
+            "firstName": "Dmitrii",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8046-9743"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Membrane Enzymology, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kaya SG",
+            "lastName": "Kaya",
+            "firstName": "Saniye Gül",
+            "initials": "SG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5663-1165"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Enzymology, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stuart MCA",
+            "lastName": "Stuart",
+            "firstName": "Marc",
+            "initials": "MCA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0667-6338"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Electron Microscopy Facility, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stetsenko A",
+            "lastName": "Stetsenko",
+            "firstName": "Artem",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3032-3794"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Electron Microscopy Facility, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Boer R",
+            "lastName": "de Boer",
+            "firstName": "Rinse",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5350-2683"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Cell Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ho FY",
+            "lastName": "Ho",
+            "firstName": "Franz",
+            "initials": "FY",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "GBB Proteomics, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Incarnato D",
+            "lastName": "Incarnato",
+            "firstName": "Danny",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3944-2327"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Genetics, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stevens J",
+            "lastName": "Stevens",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4841-6358"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Dynamics, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van Eck J",
+            "lastName": "van Eck",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "AI Technology for Life, Department of Computing and Information Sciences, Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fraaije MW",
+            "lastName": "Fraaije",
+            "firstName": "Marco",
+            "initials": "MW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Enzymology, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weiss LE",
+            "lastName": "Weiss",
+            "firstName": "Lucien",
+            "initials": "LE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Engineering Physics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van Teeffelen S",
+            "lastName": "van Teeffelen",
+            "firstName": "Sven",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Département de Microbiologie, Infectiologie, et Immunologie, Faculté de Médecine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abeln S",
+            "lastName": "Abeln",
+            "firstName": "Sanne",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2779-7174"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "AI Technology for Life, Department of Computing and Information Sciences, Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guskov A",
+            "lastName": "Guskov",
+            "firstName": "Albert",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biomolecular X-ray Crystallography, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marrink S",
+            "lastName": "Marrink",
+            "firstName": "Siewert-Jan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Dynamics, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Poolman B",
+            "lastName": "Poolman",
+            "firstName": "Bert",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Membrane Enzymology, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heinemann M",
+            "lastName": "Heinemann",
+            "firstName": "Matthias",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0737-2312"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2779-7174"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5350-2683"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5663-1165"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8046-9743"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0667-6338"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3032-3794"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3944-2327"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4841-6358"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Summary</h4>  Molecular crowding in the bacterial cytoplasm restricts the diffusion of large molecules, impacting cellular processes. However, how nutrient availability influences cytoplasmic rheology is not well understood. With single-particle tracking in  Escherichia coli , we observed a threefold variation in the diffusion of a 40-nm particle across exponential growth conditions. Previously suggested determinants of rheology did not account for this variation; instead, we found a strong anticorrelation between the diffusion coefficient and the abundance of amino acid metabolism proteins, persisting upon genetic perturbations and showing that lower diffusion is associated with increased viscoelasticity. Photoactivated light microscopy revealed that some amino acid metabolism proteins form clusters. Electron microscopy showed that these proteins could form amorphous agglomerates at physiological concentrations in vitro, likely driven by their low intrinsic disorder, high compactness and hydropathy score. These findings show that protein agglomerates regulate cytoplasmic rheology in a condition-dependent manner, suggesting an underappreciated level of cytoplasmic organization.  <h4>Highlights</h4>  Diffusion of 40-nm particles varies threefold across growth conditions in  E. coli Cytoplasmic diffusion inversely correlates with COG-E protein abundance COG-E proteins form agglomerates that increase cytoplasmic viscoelasticity Protein compactness and hydrophobicity predict condition-dependent crowding effects",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.06.17.660151"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.06.17.660151"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1039507"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1039507&type=FILE&fileName=EMS206995-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41966684",
+            "reference": "Molecular cell. 2026 May;86(9):1780-1796.e11",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS206995",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-06-22",
+      "firstPublicationDate": "2025-06-21",
+      "firstIndexDate": "2025-06-22",
+      "fullTextReceivedDate": "2025-07-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

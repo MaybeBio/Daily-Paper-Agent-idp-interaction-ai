@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations to show that small-molecule cosolutes can modulate the morphology of two-component biomolecular condensates, inducing transitions between core-shell and dewetted structures. They propose second virial coefficients as a framework to rationalize these transitions and argue that interaction strengths and stoichiometry jointly determine morphology. They further claim that fully miscible two-component condensates can transition to microphase-separated morphologies upon cosolute addition.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or figures are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology, parameter definitions, and any quantitative data supporting the claims
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely computational study on a topic of growing relevance in the biomolecular condensate field. The central idea, that small-molecule cosolutes can tune condensate morphology through interaction- and stoichiometry-dependent mechanisms, is plausible and could be of interest to a broad readership. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the simulations, the robustness of the observed morphological transitions, or the validity of the proposed second virial coefficient framework. The claims are stated with confidence but lack the quantitative detail necessary for assessment. The work may be suitable for a specialized journal, but the case for broad significance is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and intracellular organization would be the primary audience. The work may also appeal to computational biophysicists and soft matter scientists interested in multicomponent phase behavior and the role of cosolutes. The potential to rationally control condensate morphology could be relevant to those exploring therapeutic interventions targeting condensate structure.
+- **Major strengths** The topic is timely and addresses a gap in mechanistic understanding of how small molecules influence condensate morphology. The use of second virial coefficients as a rationalization framework is a conceptually appealing approach that could provide predictive power. The systematic variation of interaction strengths and stoichiometry suggests a thorough parametric exploration.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that coarse-grained molecular dynamics simulations reveal morphological transitions between core-shell and dewetted structures as a function of small-molecule interaction strengths.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on the simulation methodology, including the force field, system size, simulation time, or how morphological states were identified and classified. Without this information, the reliability of the observed transitions cannot be assessed.
+  - **Why it matters** Morphological classification in simulations is sensitive to system size, equilibration time, and analysis criteria. If the simulations are under-equilibrated or the system is too small, the reported transitions could be artifacts rather than equilibrium phenomena.
+  - **Resolution test** Provide full simulation details, including equilibration protocols, system sizes, and a clear definition of how core-shell and dewetted morphologies were distinguished. Show that the observed morphologies are stable over extended simulation times and robust to system size.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that second virial coefficients provide a molecular-level framework to capture shifts in effective homotypic and heterotypic interactions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that second virial coefficients were calculated but provides no indication of how these calculations were performed, whether they were validated against simulation results, or how well they predicted the observed morphological transitions.
+  - **Why it matters** The second virial coefficient framework is central to the paper's rationalization. If the framework does not quantitatively predict the simulation outcomes, the claim of a "molecular-level framework" is overstated.
+  - **Resolution test** Show a direct comparison between second virial coefficient predictions and simulation-observed morphologies across the parameter space. Provide details on the calculation method and demonstrate predictive accuracy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that stoichiometry and interaction strength jointly determine condensate morphology by altering relative interaction strengths among components.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts a joint role of stoichiometry and interaction strength but does not present any data showing how these two factors interact, whether their effects are independent, additive, or synergistic, or over what range of conditions the claim holds.
+  - **Why it matters** Without a clear demonstration of the joint effect, the claim is speculative. The relationship between stoichiometry and interaction strength could be trivial or could have a narrow validity range.
+  - **Resolution test** Present a phase diagram or equivalent systematic data showing morphology as a function of both stoichiometry and interaction strength, with clear boundaries and a discussion of the underlying mechanism.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The authors claim that fully miscible two-component condensates can undergo transitions to microphase-separated morphologies upon small molecule introduction.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract presents this as a general finding, but it is unclear whether this behavior is observed across a range of conditions or is limited to a narrow parameter regime. The generality of the claim is not supported by the abstract alone.
+  - **Why it matters** If the transition to microphase-separated morphologies occurs only under specific conditions, the claim of generalizability would be misleading and would limit the practical relevance of the findings.
+  - **Resolution test** Provide evidence that the transition occurs across multiple parameter combinations and discuss the conditions under which it does or does not occur.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "dewetted structures" is used without definition. This term may be familiar to soft matter physicists but could be unclear to a broader biological readership.
+  - **Required correction** Define "dewetted" in the context of condensate morphology, or use more accessible descriptive language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the number of components in the "two-component" condensates beyond the macromolecules, nor does it clarify whether the small-molecule cosolutes are considered a third component or are treated as a background.
+  - **Required correction** Clarify the component definitions and the role of the cosolutes in the simulation setup.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Biological relevance
+  - **Affected element** Contextualization
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not connect the simulation findings to any specific biological system or experimental observation, which limits the perceived relevance.
+  - **Required correction** Add a sentence linking the findings to a known biological context or experimental system where such cosolute-modulated morphology could be relevant.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient methodological detail or quantitative evidence to establish the technical soundness of the simulations or the validity of the proposed framework.
+- **Assessment against Nature-style criteria** Originality: The idea of using small-molecule cosolutes to modulate condensate morphology is not entirely new, but the systematic use of second virial coefficients as a predictive framework may offer a novel angle. Scientific importance: The topic is relevant, but the abstract does not demonstrate a conceptual advance that would elevate it beyond incremental progress. Interdisciplinary readership: The work could appeal to both biophysicists and cell biologists, but the abstract is written in a way that may be more accessible to computational researchers. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail is a significant limitation. Readability for nonspecialists: The abstract is generally clear but uses specialized terms without definition, which may hinder accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible ideas, but the lack of methodological detail and quantitative support prevents a positive assessment. A full manuscript with detailed methods, validation, and systematic results would be required to evaluate the claims properly.
+
+## Risk / unsupported claims
+- The claim that second virial coefficients provide a "molecular-level framework" is unsupported without details on the calculation and validation.
+- The claim that stoichiometry and interaction strength "jointly determine" morphology is unsupported without data showing their interaction.
+- The claim that fully miscible condensates can transition to microphase-separated morphologies is presented as general but is not supported by evidence of its range of validity.
+- The overall claim that condensate morphology can be "rationally tuned" is not supported by the abstract alone, as no quantitative demonstration of control is provided.

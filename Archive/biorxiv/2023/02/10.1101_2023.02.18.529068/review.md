@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or supplementary data were provided
+- **Shared manuscript claim summary** The authors propose that mRNA interactions with intrinsically disordered regions (IDRs) of transcription factors, specifically MYC, control protein complex formation and activity in a translation-compartment-dependent manner. They suggest that TG-enriched mRNAs bind to a novel RNA-binding domain in neutral or negatively charged IDRs, altering IDR conformational ensembles and enabling formation of nuclear-acting MYC complexes. They further propose a general mechanism of "IDR chaperone activity" for mRNAs and suggest that mRNA-dependent control of protein functional states is widespread.
+- **Visible evidence base** Abstract text only; no experimental data, figures, tables, or methodological details were supplied
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, statistical analyses, and any supporting data; without these, the experimental basis for each claim cannot be evaluated
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially significant hypothesis linking mRNA localization, IDR conformation, and protein complex formation. However, the claims are broad and mechanistically detailed, and the provided material contains no experimental evidence to support them. The novelty is plausible but the case is not established from the abstract alone. The writing is clear and accessible, but the scientific foundation cannot be assessed.
+- **Who would be interested in the results, and why** Researchers in RNA biology, post-transcriptional gene regulation, intrinsically disordered proteins, transcription factor function, and cytoplasmic compartmentalization would find these results relevant. The proposed mechanism could also interest those studying protein complex assembly and the functional consequences of mRNA localization.
+- **Major strengths** The hypothesis is conceptually novel and integrates RNA localization with IDR conformational regulation. The proposed "IDR chaperone activity" of mRNAs is an intriguing and potentially field-changing idea. The abstract is well written and accessible to a broad audience.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "RNA-IDR interaction changes the conformational ensemble of the IDR, enabling the formation of MYC protein complexes" is presented as a finding.
+  - **Evidence pointer** Location not provided
+  - **Concern** No experimental data are provided to demonstrate that RNA-IDR interactions alter IDR conformation or that this change is causally linked to MYC complex formation.
+  - **Why it matters** This is the central mechanistic claim of the abstract. Without direct evidence, the proposed mechanism remains speculative.
+  - **Resolution test** Provide experimental data showing conformational changes in the MYC IDR upon RNA binding, and demonstrate that these changes are required for complex formation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "TG-dependent protein complexes require TG-enriched mRNAs for assembly" is stated as a finding.
+  - **Evidence pointer** Location not provided
+  - **Concern** No data are shown to support the requirement of specific TG-enriched mRNAs for complex assembly.
+  - **Why it matters** This is a key step in the proposed model and is necessary to link mRNA localization to complex formation.
+  - **Resolution test** Provide loss-of-function experiments depleting TG-enriched mRNAs and show loss of MYC complex formation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "mRNA-dependent control of protein functional states is widespread" is presented as a general conclusion.
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract provides no evidence beyond MYC to support the generality of the proposed mechanism.
+  - **Why it matters** The broad claim of prevalence requires demonstration across multiple systems or a systematic analysis.
+  - **Resolution test** Provide evidence from multiple transcription factors or a genome-wide analysis showing widespread RNA-IDR interactions with functional consequences.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "TIS granules (TGs)"
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "TIS granules" is introduced without definition or context for nonspecialist readers.
+  - **Required correction** Define TIS granules or provide a brief description of their nature and relevance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "RNA-binding domain in neutral or negatively charged IDRs"
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "RNA-binding domain" is used for a region within an IDR, which may be unconventional and could confuse readers.
+  - **Required correction** Clarify whether this is a defined structural domain or a sequence feature, and consider using more precise terminology.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** "IDR chaperone activity"
+  - **Evidence pointer** Abstract text
+  - **Issue** The analogy to chaperones is evocative but may overstate the mechanism without direct evidence of folding or conformational assistance.
+  - **Required correction** Soften the claim or provide a clear operational definition of "chaperone activity" in this context.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The concept of mRNA-IDR interactions controlling protein activity is novel and not widely explored.
+  - Scientific importance: Potentially high if the mechanism is validated, as it could reshape understanding of post-transcriptional regulation and protein function.
+  - Interdisciplinary readership: Broad appeal across RNA biology, protein biophysics, and cell biology.
+  - Technical soundness: Cannot be assessed from the abstract alone; no methods or data are provided.
+  - Readability for nonspecialists: The abstract is well written and accessible, though some terms require definition.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is intriguing and worthy of consideration, but the abstract alone does not provide sufficient experimental support. A full manuscript with detailed methods and data would be required to assess the claims.
+
+## Risk / unsupported claims
+- The claim that RNA-IDR interactions change IDR conformational ensembles is unsupported by any data in the provided material.
+- The claim that TG-enriched mRNAs are required for MYC complex assembly is unsupported.
+- The claim that mRNA-dependent control of protein functional states is widespread is unsupported and cannot be evaluated from the abstract.
+- The proposal of "IDR chaperone activity" for mRNAs is presented as a conclusion but is not backed by evidence in the provided material.

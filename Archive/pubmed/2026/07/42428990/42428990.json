@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "42428990",
+    "doi": "10.1039/d6cp01106c",
+    "title": "Capturing the essence of liquid-liquid phase-separation at macroscopic scales via a continuum model."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) drives the formation of membraneless biomolecular condensates central to cellular organization, but predictive models bridging molecular interactions and macroscopic phase behaviour remain elusive. Here we present a continuum reaction-diffusion model that captures key multiscale features of LLPS. The framework maps the phase space for condensate nucleation and growth, revealing a threshold in dilute-phase diffusivity above which droplet formation is enhanced. We find that stronger interconversion kinetics between the dilute and dense phases accelerate droplet coarsening and Ostwald ripening, consistent with faster growth of large droplets at the expense of smaller ones. Remarkably, our multi-component framework naturally produces ring-like dilute-phase shells around condensates. This phenomenon, observed experimentally, is inaccessible in classical single-field phase-separation models which lack explicit multi-component interactions. Incorporating stochastic fluctuations further accelerates phase separation, highlighting noise-sensitive regimes. By integrating molecular-level interactions into a continuum framework, the model achieves mechanistic transparency alongside computational efficiency. It offers predictive power to interpret and control LLPS across diverse biological and materials contexts.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mukherjee, Nayana",
+        "Wasim, Abdul",
+        "Mondal, Jagannath",
+        "Ghosh, Pushpita"
+      ],
+      "short_names": [
+        "Mukherjee N",
+        "Wasim A",
+        "Mondal J",
+        "Ghosh P"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1090-5199",
+        "ORCID: 0000-0003-2241-9470"
+      ],
+      "affiliations": [
+        "Tata Institute of Fundamental Research Hyderabad, Telangana 500046, India. jmondal@tifrh.res.in.",
+        "Department of Mathematics, Mahindra University, Hyderabad, Telangana 500043, India.",
+        "Tata Institute of Fundamental Research Hyderabad, Telangana 500046, India. jmondal@tifrh.res.in.",
+        "Tata Institute of Fundamental Research Hyderabad, Telangana 500046, India. jmondal@tifrh.res.in.",
+        "School of Chemistry, Indian Institute of Science Education and Research, Thiruvananthapuram, Kerala 695551, India. pushpita@iisertvm.ac.in.",
+        "Center for High Performance Computing, Indian Institute of Science Education and Research, Thiruvananthapuram, Kerala 695551, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mukherjee, Nayana",
+        "short_name": "Mukherjee N",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad, Telangana 500046, India. jmondal@tifrh.res.in.",
+          "Department of Mathematics, Mahindra University, Hyderabad, Telangana 500043, India."
+        ]
+      },
+      {
+        "full_name": "Wasim, Abdul",
+        "short_name": "Wasim A",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad, Telangana 500046, India. jmondal@tifrh.res.in."
+        ]
+      },
+      {
+        "full_name": "Mondal, Jagannath",
+        "short_name": "Mondal J",
+        "identifiers": [
+          "0000-0003-1090-5199"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad, Telangana 500046, India. jmondal@tifrh.res.in."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Pushpita",
+        "short_name": "Ghosh P",
+        "identifiers": [
+          "0000-0003-2241-9470"
+        ],
+        "affiliations": [
+          "School of Chemistry, Indian Institute of Science Education and Research, Thiruvananthapuram, Kerala 695551, India. pushpita@iisertvm.ac.in.",
+          "Center for High Performance Computing, Indian Institute of Science Education and Research, Thiruvananthapuram, Kerala 695551, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2026 Jul 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/10 06:36",
+    "fetched_at": "2026-09-18 04:48:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42428990",
+      "42475469",
+      "34206440",
+      "36524527",
+      "41575805",
+      "36594499",
+      "41307542",
+      "41587927",
+      "41747393",
+      "42383738",
+      "35867936",
+      "38547652",
+      "42184109",
+      "32422749",
+      "23912807",
+      "39821688",
+      "40661408",
+      "34552246",
+      "32312191",
+      "41721403",
+      "37668016",
+      "42330462",
+      "34787417",
+      "31941785",
+      "42387255",
+      "41405960",
+      "41480717",
+      "41957206",
+      "41442811",
+      "41535729",
+      "41363845",
+      "40794947",
+      "37130439",
+      "39987501",
+      "40616404",
+      "33307683",
+      "39947751",
+      "33057154",
+      "40112030",
+      "38641666",
+      "42243951",
+      "33765580",
+      "40985078",
+      "42225537",
+      "41340892",
+      "35293386",
+      "35902591",
+      "40291420",
+      "40231263",
+      "31444270",
+      "39815790",
+      "37735903",
+      "41944040",
+      "41637578",
+      "33302617",
+      "39257779",
+      "33913240",
+      "42315359",
+      "33809541",
+      "41718328",
+      "42081454",
+      "39601287",
+      "37261897",
+      "40098319",
+      "31237369",
+      "41235230",
+      "41624473",
+      "41804277",
+      "42220425",
+      "34129784",
+      "34716273",
+      "35943083",
+      "37347214",
+      "36444977",
+      "33139563",
+      "34759902",
+      "39044475",
+      "41346115",
+      "33081049",
+      "41296980",
+      "33930220",
+      "39964249",
+      "39549813",
+      "36310223",
+      "33672806",
+      "39777266",
+      "42379163",
+      "36413745",
+      "32824618",
+      "41360394",
+      "37895097",
+      "38808958",
+      "37470705",
+      "36350034",
+      "37728515",
+      "37972831",
+      "36310218",
+      "40534071",
+      "39763716",
+      "36181270"
+    ],
+    "review": [
+      "42428990",
+      "36524527",
+      "41575805",
+      "41307542",
+      "41587927",
+      "38547652",
+      "42184109",
+      "32312191",
+      "41721403",
+      "41480717",
+      "41957206",
+      "41442811",
+      "40616404",
+      "39947751",
+      "42243951",
+      "33765580",
+      "42225537",
+      "40231263",
+      "31444270",
+      "37735903",
+      "33913240",
+      "31237369",
+      "41624473",
+      "42220425",
+      "34129784",
+      "34759902",
+      "41346115",
+      "33930220",
+      "39964249",
+      "39777266",
+      "42379163",
+      "32824618",
+      "37895097",
+      "38808958"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d6cp01106c",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

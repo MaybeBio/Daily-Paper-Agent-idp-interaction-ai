@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "pmid": "33620224",
+    "doi": "10.1021/acs.jproteome.0c00986",
+    "title": "Secondary Structures of Proteins: A Comparison of Models and Experimental Results."
+  },
+  "content": {
+    "abstract": "Secondary structure predictions of proteins were compared to experimental results by wide-line (1)H NMR. IUPred2A was used to generate predictions of disordered protein or binding regions. Thymosin-beta(4) and the stabilin-2 cytoplasmic domain were found to be mainly disordered, in agreement with the experimental results. alpha-Synuclein variants were predicted to be disordered, as in the experiments, but the A53T mutant showed less predicted disorder, in contrast with the wide-line (1)H NMR result. A disordered binding site was found for thymosin-beta(4), whereas the stabilin-2 cytoplasmic domain was indicated as such in its entire length. The last third of the alpha-synuclein variant's sequence was a disordered binding site. Thymosin-beta(4) and the stabilin-2 cytoplasmic domain contained only coils and helices according to five secondary structure prediction methods (SPIDER3-SPOT-1D, PSRSM, MUFold-SSW, Porter 5, and RaptorX). beta-Sheets are present in alpha-synucleins, and they extend to more amino acid residues in the A53T mutant according to the predictions. The latter is verified by experiments. The comparison of the predictions with the experiments suggests that helical parts are buried.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "Magnetic Resonance Spectroscopy",
+      "Protein Domains",
+      "Protein Structure, Secondary",
+      "*alpha-Synuclein/genetics"
+    ],
+    "pub_types": [
+      "Letter",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bokor, Monika",
+        "Tantos, Agnes"
+      ],
+      "short_names": [
+        "Bokor M",
+        "Tantos A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8883-1316"
+      ],
+      "affiliations": [
+        "Institute for Solid State Physics and Optics, Wigner Research Centre for Physics, Konkoly-Thege ut 29-33, 1121 Budapest, Hungary.",
+        "Institute of Enzymology, Research Centre for Natural Sciences, Magyar Tudosok Korutja 2, 1117 Budapest, Hungary."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bokor, Mónika",
+        "short_name": "Bokor M",
+        "identifiers": [
+          "0000-0001-8883-1316"
+        ],
+        "affiliations": [
+          "Institute for Solid State Physics and Optics, Wigner Research Centre for Physics, Konkoly-Thege út 29-33, 1121 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Tantos, Ágnes",
+        "short_name": "Tantos Á",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Enzymology, Research Centre for Natural Sciences, Magyar Tudósok Körútja 2, 1117 Budapest, Hungary."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of proteome research"
+    ],
+    "journal_abbrev": [
+      "J Proteome Res"
+    ],
+    "pub_date": "2021 Mar 5",
+    "pub_year": "2021",
+    "pub_types": [
+      "Letter",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/02/24 06:00",
+    "fetched_at": "2026-09-20 01:42:20"
+  },
+  "links": {
+    "cites": [
+      "36551274",
+      "35694516"
+    ],
+    "refs": [
+      "32784399",
+      "32503167",
+      "32469123",
+      "31532508",
+      "31451723",
+      "30535134",
+      "30424574",
+      "30118602",
+      "30075707",
+      "29959372",
+      "29931279",
+      "29860432",
+      "29492997",
+      "29076577",
+      "28516021",
+      "28430949",
+      "28066974",
+      "23607785",
+      "22814390",
+      "22067166",
+      "19412530",
+      "19067456",
+      "18539297",
+      "18519035",
+      "18382657",
+      "15769473",
+      "15039431",
+      "12719631",
+      "12428728",
+      "11590151"
+    ],
+    "similar": [
+      "33620224",
+      "34070204",
+      "32469123",
+      "35694516",
+      "32497661",
+      "18519035",
+      "29274195",
+      "15628875",
+      "18539297",
+      "8269922",
+      "19580781",
+      "10848969",
+      "26695014",
+      "8870673",
+      "14550771",
+      "27450730",
+      "16597821",
+      "12586824",
+      "17088319",
+      "15039431",
+      "10704204",
+      "15103328",
+      "29678776",
+      "16519533",
+      "10233052",
+      "17681534",
+      "31903719",
+      "8145250",
+      "16020550",
+      "10852703",
+      "8652535",
+      "10723093",
+      "11812782",
+      "14982446",
+      "9108730",
+      "17904099",
+      "15033366",
+      "25523747",
+      "8289306",
+      "24140056",
+      "9131995",
+      "10978144",
+      "11279280",
+      "11784308",
+      "8329398",
+      "10092675",
+      "16098186",
+      "14699135",
+      "15615727",
+      "31532508",
+      "8639599",
+      "14756560",
+      "18082181",
+      "10952980",
+      "9545270",
+      "15492000",
+      "10368286",
+      "8182744",
+      "11590151",
+      "17206849",
+      "15096050",
+      "17893145",
+      "8568893",
+      "28710275",
+      "2261438",
+      "12787676",
+      "7779806",
+      "16406146",
+      "29874605",
+      "8652536",
+      "15155902",
+      "27082063",
+      "7544285",
+      "28759722"
+    ],
+    "review": [
+      "33620224",
+      "27450730"
+    ],
+    "pmc": [
+      "8028322"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.jproteome.0c00986",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33620224/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33620224",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33620224",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jprobs/article-lookup/doi/10.1021/acs.jproteome.0c00986",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

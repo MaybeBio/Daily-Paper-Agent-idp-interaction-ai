@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41318999",
+  "title": "Backbone conformational entropy change in helix folding.",
+  "authors": "Zavrtanik, Uros; Lah, Jurij; Hadzi, San",
+  "journal": "Biophysical journal",
+  "published_date": "2025-11-30",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过量热实验与贝叶斯推断测定α-螺旋折叠的骨架构象熵变化，虽对象非IDP，但为无序蛋白结合时螺旋折叠的熵贡献提供了关键热力学参数，对互作机制建模有方法学启发。",
+  "abstract": "The main thermodynamic force opposing protein folding is the loss of the polypeptide conformational entropy. Backbone conformational entropy, as well as other thermodynamic forces associated with folding, are difficult to measure directly, even for simple model systems such as alpha-helices. Helix-coil theories describe alpha-helix folding as a process involving the loss of backbone conformational freedom and the formation of hydrogen bonds. However, measuring the parameters for these two processes is difficult due to their coupled nature and requires additional parameters associated with the experimental observables. Here, we determine the backbone conformational entropy change (DeltaS(BB)) accompanying alpha-helix formation by measuring the absolute heat capacities of a series of alanine peptides using differential scanning calorimetry. Directly measuring one of the system's thermodynamic properties enables a robust determination of helix-coil parameters using an ensemble-based statistical-thermodynamic model and Bayesian inference. The resulting backbone entropy change for the helix-to-coil transition is DeltaS(BB) = (5.2 +/- 0.3) cal mol(-1) K(-1) per peptide unit, less than previous experimental values but in line with the recent estimates from molecular dynamics simulations. Additionally, the determination of enthalpy and heat capacity changes offers a unified thermodynamic picture of alpha-helix formation. This has important implications for understanding the net energetic balance in protein folding and the interactions of intrinsically disordered proteins that undergo alpha-helix folding upon binding.",
+  "abstract_zh": "对抗蛋白质折叠的主要热力学驱动力是多肽构象熵的损失。骨架构象熵以及与折叠相关的其他热力学力，即使在α-螺旋等简单模型系统中也难以直接测量。螺旋-线圈理论将α-螺旋折叠描述为一个涉及骨架构象自由度损失和氢键形成的过程。然而，由于这两个过程的耦合性质，测量其参数较为困难，并且需要与实验观测量相关的额外参数。在此，我们通过使用差示扫描量热法测量一系列丙氨酸肽的绝对热容，确定了伴随α-螺旋形成的骨架构象熵变化（DeltaS(BB)）。直接测量系统的一个热力学性质，使得能够利用基于系综的统计热力学模型和贝叶斯推断稳健地确定螺旋-线圈参数。所得螺旋到线圈转变的骨架熵变化为每肽单位DeltaS(BB) = (5.2 +/- 0.3) cal mol(-1) K(-1)，低于先前的实验值，但与近期分子动力学模拟的估计一致。此外，焓和热容变化的测定为α-螺旋形成提供了统一的热力学图景。这对于理解蛋白质折叠中的净能量平衡以及内在无序蛋白在结合时经历α-螺旋折叠的相互作用具有重要意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41318999/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41318999/",
+  "paper_page_path": "papers/pubmed/41318999/index.html"
+}

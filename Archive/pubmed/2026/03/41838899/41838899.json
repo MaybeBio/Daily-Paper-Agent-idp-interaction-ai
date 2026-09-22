@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "41838899",
+    "doi": "10.1073/pnas.2424126123",
+    "title": "Condensate-mediated shape transformations of cellular membranes by capillary forces."
+  },
+  "content": {
+    "abstract": "Phase-separated biomolecular condensates with liquid-like properties play a key role in the organization and compartmentalization of the intracellular environment. Condensate-mediated capillary forces acting on membranes drive physiologically important reshaping of membrane-bound organelles, such as vacuoles and autophagosomes. Here, we explore condensate-mediated membrane shape transformations. We employ in planta live-cell imaging, an in vitro reconstitution system with tunable interfacial tension, and computer simulations of an elastic membrane model to describe three morphologies of membrane structures localized at condensate interfaces: tubes, sheets, and cups. We find that the forces associated with high interfacial tension drive the formation of stable sheets, while tubes and cups prevail at lower interfacial tension. We calculate the free energies of each membrane shape and identify the energy barriers that govern the transitions between the shapes. With this approach, we find that shape transformations depend on the history of the interfacial membrane and exhibit a tube-to-cup hysteresis. These findings indicate that temporal control of condensate surface properties can mediate the morphogenesis of cup-like structures in cells, such as the formation of \"bulbs\" within plant vacuoles. Our results further generalize how the interplay of condensates and membranes contributes to intracellular organization.",
+    "keywords": [
+      "Monte Carlo simulation",
+      "intracellular wetting",
+      "membrane tubule",
+      "phase-separated condensates",
+      "plant protein storage vacuoles"
+    ],
+    "mesh_terms": [
+      "*Cell Membrane/chemistry/metabolism/physiology",
+      "Vacuoles/metabolism",
+      "*Biomolecular Condensates/chemistry",
+      "Computer Simulation",
+      "Models, Biological",
+      "Surface Tension",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hauer, Lukas",
+        "Sporbeck, Katharina",
+        "McKenna, Joseph F",
+        "Puchkov, Dmytro",
+        "May, Alexander I",
+        "Frigerio, Lorenzo",
+        "Knorr, Roland L",
+        "Bahrami, Amir H"
+      ],
+      "short_names": [
+        "Hauer L",
+        "Sporbeck K",
+        "McKenna JF",
+        "Puchkov D",
+        "May AI",
+        "Frigerio L",
+        "Knorr RL",
+        "Bahrami AH"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1893-2124",
+        "ORCID: 0000-0002-2540-3258",
+        "ORCID: 0000-0003-4838-6048",
+        "ORCID: 0000-0001-8341-4847",
+        "ORCID: 0000-0002-3758-1545",
+        "ORCID: 0000-0003-4100-6022",
+        "ORCID: 0000-0002-6747-0088",
+        "ORCID: 0000-0001-5841-2516"
+      ],
+      "affiliations": [
+        "Center for Biochemistry, Faculty of Medicine, University of Cologne, University Hospital Cologne, Cologne, Germany.",
+        "Institute of Biology, Humboldt-Universitat zu Berlin, Berlin 10115, Germany.",
+        "Institute of Biology, Humboldt-Universitat zu Berlin, Berlin 10115, Germany.",
+        "School of Life Sciences, University of Warwick, Coventry CV4 7AL, United Kingdom.",
+        "Leibniz-Forschungsinstitut fur Molekulare Pharmakologie, Berlin, Germany.",
+        "Institute for Integrated Research, Institute of Science Tokyo, Tokyo, Japan.",
+        "School of Life Sciences, University of Warwick, Coventry CV4 7AL, United Kingdom.",
+        "Center for Biochemistry, Faculty of Medicine, University of Cologne, University Hospital Cologne, Cologne, Germany.",
+        "Institute of Biology, Humboldt-Universitat zu Berlin, Berlin 10115, Germany.",
+        "Graduate School and Faculty of Medicine, The University of Tokyo, Tokyo 113-0033, Japan.",
+        "Institute of Materials Science and Nanotechnology, Living Matter and Biophysics, National Nanotechnology Research Center (UNAM), Bilkent University, Ankara 06800, Turkiye."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hauer, Lukas",
+        "short_name": "Hauer L",
+        "identifiers": [
+          "0000-0003-1893-2124"
+        ],
+        "affiliations": [
+          "Center for Biochemistry, Faculty of Medicine, University of Cologne, University Hospital Cologne, Cologne, Germany.",
+          "Institute of Biology, Humboldt-Universität zu Berlin, Berlin 10115, Germany."
+        ]
+      },
+      {
+        "full_name": "Sporbeck, Katharina",
+        "short_name": "Sporbeck K",
+        "identifiers": [
+          "0000-0002-2540-3258"
+        ],
+        "affiliations": [
+          "Institute of Biology, Humboldt-Universität zu Berlin, Berlin 10115, Germany."
+        ]
+      },
+      {
+        "full_name": "McKenna, Joseph F",
+        "short_name": "McKenna JF",
+        "identifiers": [
+          "0000-0003-4838-6048"
+        ],
+        "affiliations": [
+          "School of Life Sciences, University of Warwick, Coventry CV4 7AL, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Puchkov, Dmytro",
+        "short_name": "Puchkov D",
+        "identifiers": [
+          "0000-0001-8341-4847"
+        ],
+        "affiliations": [
+          "Leibniz-Forschungsinstitut für Molekulare Pharmakologie, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "May, Alexander I",
+        "short_name": "May AI",
+        "identifiers": [
+          "0000-0002-3758-1545"
+        ],
+        "affiliations": [
+          "Institute for Integrated Research, Institute of Science Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Frigerio, Lorenzo",
+        "short_name": "Frigerio L",
+        "identifiers": [
+          "0000-0003-4100-6022"
+        ],
+        "affiliations": [
+          "School of Life Sciences, University of Warwick, Coventry CV4 7AL, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Knorr, Roland L",
+        "short_name": "Knorr RL",
+        "identifiers": [
+          "0000-0002-6747-0088"
+        ],
+        "affiliations": [
+          "Center for Biochemistry, Faculty of Medicine, University of Cologne, University Hospital Cologne, Cologne, Germany.",
+          "Institute of Biology, Humboldt-Universität zu Berlin, Berlin 10115, Germany.",
+          "Graduate School and Faculty of Medicine, The University of Tokyo, Tokyo 113-0033, Japan."
+        ]
+      },
+      {
+        "full_name": "Bahrami, Amir H",
+        "short_name": "Bahrami AH",
+        "identifiers": [
+          "0000-0001-5841-2516"
+        ],
+        "affiliations": [
+          "Institute of Materials Science and Nanotechnology, Living Matter and Biophysics, National Nanotechnology Research Center (UNAM), Bilkent University, Ankara 06800, Türkiye."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 Mar 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/16 21:58",
+    "fetched_at": "2026-09-18 01:43:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41838899",
+      "42674539",
+      "39385023",
+      "37217523",
+      "40466569",
+      "38360555",
+      "42475469",
+      "41957206",
+      "40113768",
+      "37352127",
+      "36071192",
+      "40867025",
+      "40557772",
+      "42556552",
+      "39112699",
+      "36642341",
+      "39482532",
+      "33864415",
+      "39168125",
+      "41984772",
+      "41917059",
+      "38579181",
+      "39856105",
+      "41670285",
+      "40708200",
+      "40661408",
+      "29632271",
+      "42497855",
+      "41007377",
+      "34475202",
+      "37791635",
+      "40424940",
+      "37496268",
+      "32726575",
+      "40577602",
+      "12059401",
+      "42292921",
+      "40954121",
+      "33473217",
+      "34654286",
+      "39677715",
+      "41692248",
+      "36993212",
+      "41223855",
+      "41251020",
+      "38900795",
+      "40985078",
+      "38971606",
+      "36436394",
+      "40095243",
+      "41461602",
+      "41979049",
+      "37770422",
+      "34516789",
+      "37183142",
+      "40666943",
+      "37252985",
+      "39987501",
+      "23912807",
+      "38971467",
+      "38936257",
+      "41888106",
+      "41877182",
+      "14682973",
+      "41279444",
+      "40219606",
+      "40782375",
+      "39260373",
+      "33376791",
+      "40159770",
+      "41480717",
+      "35727989",
+      "42692763",
+      "38582523",
+      "37735186",
+      "40664121",
+      "41965803",
+      "40136009",
+      "37470705",
+      "11088521",
+      "41857035",
+      "35054543",
+      "41351266",
+      "40462686",
+      "41575805",
+      "40098319",
+      "41662498",
+      "40184654",
+      "40848932",
+      "34552246",
+      "36883003",
+      "39574691",
+      "25747462",
+      "38987300",
+      "40411015",
+      "40727669",
+      "41675989",
+      "42065721",
+      "10768480",
+      "41524628"
+    ],
+    "review": [
+      "41838899",
+      "40466569",
+      "38360555",
+      "41957206",
+      "36071192",
+      "40557772",
+      "42556552",
+      "36642341",
+      "39482532",
+      "29632271",
+      "41007377",
+      "40424940",
+      "32726575",
+      "41692248",
+      "40095243",
+      "41979049",
+      "37183142",
+      "38971467",
+      "38936257",
+      "41480717",
+      "40664121",
+      "40462686",
+      "41575805",
+      "40727669",
+      "42065721"
+    ],
+    "pmc": [
+      "13012067"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2424126123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

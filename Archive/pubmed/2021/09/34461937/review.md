@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (editorial introduction to a thematic collection)
+- **Assessment boundary** The manuscript is an editorial introduction to a thematic collection of thirteen articles, not a primary research article. Assessment focuses on the editorial framing, the accuracy of the claims about IDPs/IDRs, and the adequacy of the presentation for the target audience.
+- **Shared manuscript claim summary** The manuscript argues that the sequence-structure-function paradigm is insufficient to explain protein function, that intrinsically disordered proteins and regions (IDPs/IDRs) play crucial roles in cell communication and signaling across diverse organisms, and that the thirteen articles in the collection collectively demonstrate the breadth and importance of disorder in signaling.
+- **Visible evidence base** The manuscript cites published literature (references 1-75), presents a figure showing publication trends (Fig. 1), and includes two tables (Tables 1 and 2) summarizing bioinformatics analyses of disorder association with biological processes. The descriptions of the thirteen collection articles are based on their content as summarized by the authors.
+- **Missing materials affecting confidence** The full text of the thirteen collection articles is not provided, so the accuracy of the summaries cannot be independently verified. The methods for the bioinformatics analysis leading to Tables 1 and 2 are not described in detail, and the source of the data (Swiss Protein database) is mentioned but the specific version or retrieval date is not given. The figure legend for Fig. 1 lacks details on the search methodology beyond the query string.
+
+## Reviewer
+- **Overall assessment** This editorial introduction provides a useful and generally accurate overview of the roles of intrinsically disordered proteins and regions in cell communication and signaling. The framing of the sequence-structure-function paradigm as an oversimplification is well supported by the literature cited. The descriptions of the thirteen articles in the collection are informative and give readers a clear sense of the scope of the topic. However, the manuscript has several weaknesses: the bioinformatics analysis presented in Tables 1 and 2 is not described with sufficient methodological detail, the figure on publication trends lacks a clear methodological explanation, and some claims about the universality of disorder in signaling could be more carefully qualified. The writing is generally clear but could be tightened in places. Overall, the manuscript serves its purpose as an editorial introduction, but the scientific evidence presented directly in the manuscript (as opposed to cited literature) is limited and would benefit from more rigorous presentation.
+- **Who would be interested in the results, and why** Researchers in cell biology, biochemistry, and molecular biology who study cell signaling, gene regulation, and protein function would find this editorial useful as an entry point to the thematic collection. Those working on intrinsically disordered proteins specifically would appreciate the synthesis of current knowledge. The manuscript may also be of interest to educators seeking to update their teaching materials to include disorder in protein structure-function relationships. The breadth of organisms covered (from humans to fruit flies to tardigrades) may attract comparative biologists and those interested in extremophile adaptations.
+- **Major strengths** The manuscript provides a clear and accessible introduction to the concept of intrinsically disordered proteins and regions, tracing the historical development of the field. The argument that the sequence-structure-function paradigm is incomplete is well supported by references to the literature. The descriptions of the thirteen articles in the collection are concise and give readers a good sense of the diversity of topics covered. The inclusion of Tables 1 and 2, showing the association of disorder with signaling-related biological processes, is a useful addition that grounds the editorial in data. The writing is generally clear and appropriate for a broad audience.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "a disorder predictor was applied to collections of proteins having the same annotation in the Swiss Protein database" and presents Z-scores for annotation-specific sets in Tables 1 and 2.
+  - **Evidence pointer** Section "Global analysis of protein function", Tables 1 and 2
+  - **Concern** The methodology for the bioinformatics analysis is described only in a single sentence. The specific disorder predictor used is not named, the version of the Swiss Protein database is not given, the criteria for selecting the 710 annotation-specific sets are not described, and the statistical approach (Z-score calculation) is presented but the details of how the random sets were constructed are incomplete. Without this information, the results in Tables 1 and 2 cannot be reproduced or fully evaluated.
+  - **Why it matters** The tables are presented as evidence for the claim that disorder is strongly associated with signaling and regulatory processes. If the methodology is not transparent, readers cannot assess the reliability of this evidence, which weakens the scientific foundation of the editorial.
+  - **Resolution test** Provide a detailed description of the disorder predictor used, the database version, the selection criteria for annotation sets, and the full statistical methodology. Ideally, include a reference to a published description of the method or provide supplementary materials with the complete analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that "disorder contributes to signaling in a broad spectrum of species, ranging from micro-organisms to plants and animals" and that the collection "only scratched the tip of the iceberg."
+  - **Evidence pointer** Abstract, Section "The IDP/IDR in signaling collection"
+  - **Concern** The claim that the collection demonstrates the breadth of disorder in signaling across species is based on the thirteen articles, but the editorial does not provide a systematic synthesis of how these articles collectively support this claim. The descriptions are individual summaries without a comparative or integrative analysis. The statement that the field has "only scratched the tip of the iceberg" is speculative and not supported by specific evidence.
+  - **Why it matters** The editorial aims to convince readers of the importance of IDPs/IDRs in signaling. Without a more integrated synthesis of the collection's contributions, the claim of breadth and importance remains asserted rather than demonstrated.
+  - **Resolution test** Add a synthesis section that explicitly draws connections between the thirteen articles, highlighting common themes, gaps, and how the collection advances the field. Provide specific examples of how the articles collectively demonstrate the roles of disorder across different organisms and signaling pathways.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The manuscript introduces several technical terms and concepts, including "foldons," "inducible foldons," "non-foldons," "semi-foldons," and "unfoldons," without adequate explanation.
+  - **Evidence pointer** Section "Global analysis of protein function"
+  - **Concern** These terms are introduced in a single paragraph without definitions or examples. For a reader not familiar with the disorder field, this passage is likely to be confusing. The terms are used to support the argument for a "structure-function continuum," but the explanation is too brief to be accessible.
+  - **Why it matters** The editorial is intended for a broad audience in cell communication and signaling, many of whom may not be specialists in protein disorder. If key concepts are not explained clearly, the manuscript fails in its educational purpose.
+  - **Resolution test** Provide clear definitions and brief examples for each term, or consider simplifying the discussion to focus on the core concept of a continuum without the specialized vocabulary.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 1
+  - **Evidence pointer** Fig. 1
+  - **Issue** The figure shows publication trends but the methodology for the literature search is only partially described in the legend. The search was performed on August 01, 2021, but the database coverage period is not stated, and the search query is given but not the number of results or how duplicates were handled.
+  - **Required correction** Provide a more complete description of the search methodology, including the date range of the database coverage, the number of results retrieved, and any filtering criteria applied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "The IDP/IDR in signaling collection"
+  - **Evidence pointer** Section "The IDP/IDR in signaling collection"
+  - **Issue** The descriptions of the thirteen articles vary in length and detail. Some are quite brief (e.g., the description of the article by Creamer) and do not clearly state the main findings or significance.
+  - **Required correction** Standardize the length and depth of the article descriptions to ensure each provides a clear statement of the main finding and its relevance to the collection's theme.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section "The IDP/IDR in signaling collection"
+  - **Evidence pointer** Section "The IDP/IDR in signaling collection"
+  - **Issue** The editorial does not mention any limitations or controversies in the field of IDP/IDR research, which could give readers an overly optimistic view.
+  - **Required correction** Add a brief paragraph acknowledging current challenges, such as the difficulty of characterizing disordered regions experimentally or the debate over the functional significance of some disordered regions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Global analysis of protein function"
+  - **Evidence pointer** Section "Global analysis of protein function"
+  - **Issue** The Z-score formula is presented in a mathematical format, but the explanation of what a Z-score of +1 or -1 means in practical terms is not given.
+  - **Required correction** Add a brief explanation of how to interpret the Z-scores, such as what a Z-score of +1 indicates about the disorder content of a set relative to the random distribution.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of methodological detail for the bioinformatics analysis presented in Tables 1 and 2. Without a clear description of the disorder predictor, database version, and statistical methods, the evidence base for the editorial's central claim is incomplete. This needs to be addressed before the case for the importance of disorder in signaling can be fully established from the data presented in the manuscript itself.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The manuscript does not present new primary research but synthesizes existing knowledge. The framing of the structure-function continuum is not novel, though the specific collection of articles may offer new perspectives. The editorial is not expected to be original in a research sense, but it should accurately represent the state of the field.  
+  - **Scientific importance** The topic is important, as the role of IDPs/IDRs in signaling is increasingly recognized. However, the manuscript's direct contribution to scientific knowledge is limited, as it is an editorial introduction. The importance lies in the collection it introduces, not in the editorial itself.  
+  - **Interdisciplinary readership** The topic has potential appeal across cell biology, biochemistry, and biophysics. The editorial is written at a level accessible to these audiences, though the specialized terminology in one section may be a barrier.  
+  - **Technical soundness** The technical soundness of the manuscript's own analysis is questionable due to the lack of methodological detail for Tables 1 and 2. The cited literature is presumably sound, but the direct evidence presented is not fully transparent.  
+  - **Readability for nonspecialists** The manuscript is generally readable, but the section introducing specialized terms (foldons, etc.) is not accessible to nonspecialists. The article descriptions are helpful but uneven in quality.
+- **Recommendation posture** Supportive if technical concerns are resolved. The editorial serves a useful purpose in introducing the thematic collection and providing context for the role of IDPs/IDRs in signaling. However, the lack of methodological detail for the bioinformatics analysis and the uneven accessibility of some sections need to be addressed. Once these issues are resolved, the manuscript would be suitable for publication as an editorial introduction.
+
+## Risk / unsupported claims
+- The claim that "fully 7% of a non-redundant set of structured proteins spanning the PDB are fully structured without any disordered residues" is presented without a citation in the text (reference 17 is cited, but the specific claim is not directly supported by the text provided).
+- The statement that "the top three predictors exhibited balanced accuracies on this dataset ranging from 76 to 80%" is presented without details on the dataset or the predictors, making it difficult to evaluate.
+- The claim that "disorder is pervasively conserved amongst the circadian clock proteins in the crown eukaryotes" is attributed to a collection article (reference 66) but cannot be verified from the provided text.
+- The descriptions of the thirteen collection articles are summaries and cannot be independently verified without access to the full articles.
+- The statement that the collection "only scratched the tip of the iceberg" is speculative and not supported by specific evidence.

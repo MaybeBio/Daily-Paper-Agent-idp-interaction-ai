@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "39807887",
+    "doi": "10.1021/jacs.4c16886",
+    "title": "Small CAG Repeat RNA Forms a Duplex Structure with Sticky Ends That Promote RNA Condensation."
+  },
+  "content": {
+    "abstract": "Biomolecular condensation lays the foundation of forming biologically important membraneless organelles, but abnormal condensation processes are often associated with human diseases. Ribonucleic acid (RNA) plays a critical role in the formation of biomolecular condensates by mediating the phase transition through its interactions with proteins and other RNAs. However, the physicochemical principles governing RNA phase transitions, especially for short RNAs, remain inadequately understood. Here, we report that small CAG repeat (sCAG) RNAs composed of six to seven CAG repeats, which are pathogenic factors in Huntington's disease, undergo phase transition in vitro and in cells. Leveraging solution nuclear magnetic resonance spectroscopy and advanced coarse-grained molecular dynamic simulations, we reveal that sCAG RNAs form duplex structures with 3'-sticky ends, where the GC stickers initiate intermolecular crosslinking and promote the formation of RNA condensates. Furthermore, we demonstrate that sCAG RNAs can form cellular condensates within nuclear speckles. Our work suggests that the RNA phase transition can be promoted by specific structural motifs, reducing the reliance on sequence length and multivalence. This opens avenues for exploring new functions of RNA in biomolecular condensates and designing novel biomaterials based on RNA condensation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*RNA/chemistry/genetics",
+      "Nucleic Acid Conformation",
+      "Molecular Dynamics Simulation",
+      "*Trinucleotide Repeats"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wan, Liqi",
+        "Zhang, Chengwei",
+        "Liu, Yu",
+        "Zhang, Jiacheng",
+        "He, Lei",
+        "Zhang, Yuchao",
+        "Chen, Guangyong",
+        "Guo, Pei",
+        "Han, Da"
+      ],
+      "short_names": [
+        "Wan L",
+        "Zhang C",
+        "Liu Y",
+        "Zhang J",
+        "He L",
+        "Zhang Y",
+        "Chen G",
+        "Guo P",
+        "Han D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3663-2678",
+        "ORCID: 0000-0001-7760-5786",
+        "ORCID: 0000-0002-0804-2964"
+      ],
+      "affiliations": [
+        "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China.",
+        "Institute of Molecular Medicine, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai 200127, China.",
+        "Zhejiang Laboratory, Hangzhou, Zhejiang 311100, China.",
+        "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China.",
+        "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China.",
+        "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China.",
+        "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China.",
+        "Zhejiang Laboratory, Hangzhou, Zhejiang 311100, China.",
+        "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China.",
+        "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China.",
+        "Institute of Molecular Medicine, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai 200127, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wan, Liqi",
+        "short_name": "Wan L",
+        "identifiers": [
+          "0000-0003-3663-2678"
+        ],
+        "affiliations": [
+          "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China.",
+          "Institute of Molecular Medicine, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai 200127, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chengwei",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Laboratory, Hangzhou, Zhejiang 311100, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yu",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiacheng",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China."
+        ]
+      },
+      {
+        "full_name": "He, Lei",
+        "short_name": "He L",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuchao",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Guangyong",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Laboratory, Hangzhou, Zhejiang 311100, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Pei",
+        "short_name": "Guo P",
+        "identifiers": [
+          "0000-0001-7760-5786"
+        ],
+        "affiliations": [
+          "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China."
+        ]
+      },
+      {
+        "full_name": "Han, Da",
+        "short_name": "Han D",
+        "identifiers": [
+          "0000-0002-0804-2964"
+        ],
+        "affiliations": [
+          "Hangzhou Institute of Medicine, Chinese Academy of Sciences, Hangzhou, Zhejiang 310022, China.",
+          "Institute of Molecular Medicine, Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai 200127, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2025 Jan 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/14 12:35",
+    "fetched_at": "2026-09-21 14:41:22"
+  },
+  "links": {
+    "cites": [
+      "42067433",
+      "41917466",
+      "41841436",
+      "41017414"
+    ],
+    "refs": [],
+    "similar": [
+      "39807887",
+      "39505326",
+      "39605385",
+      "28488797",
+      "41129218",
+      "9514249",
+      "26148061",
+      "41017414",
+      "42223083",
+      "40603603",
+      "41094266",
+      "41337585",
+      "33947817",
+      "28617590",
+      "39002937",
+      "41187075",
+      "37486784",
+      "35501484",
+      "25876062",
+      "42280206",
+      "39366355",
+      "8751857",
+      "36883003",
+      "30926670",
+      "40009520",
+      "38175843",
+      "41265448",
+      "40773731",
+      "31728006",
+      "37062072",
+      "20159983",
+      "38915678",
+      "39070659",
+      "23441937",
+      "41191214",
+      "31075282",
+      "36585400",
+      "40539511",
+      "27529325",
+      "37066290",
+      "22383888",
+      "38472406",
+      "36028355",
+      "21247881",
+      "40203038",
+      "28315749",
+      "39456210",
+      "41926793",
+      "40664121",
+      "28700917",
+      "40804711",
+      "38949285",
+      "36623192",
+      "37024008",
+      "42056202",
+      "24199621",
+      "23438338",
+      "37194953",
+      "21724553",
+      "18931668",
+      "38557079",
+      "37720552",
+      "28076812",
+      "32800925",
+      "41272271",
+      "38773325",
+      "28404480",
+      "38383656",
+      "37276412",
+      "33307683",
+      "26270660",
+      "20795690",
+      "37408305",
+      "39896463",
+      "39229124",
+      "31634364",
+      "16086590",
+      "41979049",
+      "21347256",
+      "17718541",
+      "33547932",
+      "31048495",
+      "36191226",
+      "38446881",
+      "40345379",
+      "37876230",
+      "35480881",
+      "21204525",
+      "21593608",
+      "41575805",
+      "28562589",
+      "33650968",
+      "41917466",
+      "40381401",
+      "39636939",
+      "38571310",
+      "39373474",
+      "38319692",
+      "36595668",
+      "23912807"
+    ],
+    "review": [
+      "39807887",
+      "39002937",
+      "39366355",
+      "38175843",
+      "41191214",
+      "27529325",
+      "36028355",
+      "28315749",
+      "39456210",
+      "40664121",
+      "40804711",
+      "37720552",
+      "32800925",
+      "38773325",
+      "41979049",
+      "21593608",
+      "41575805"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.4c16886",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

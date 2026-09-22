@@ -1,0 +1,205 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.12.06.471215",
+  "title": "The influence of new SARS-CoV-2 variant Omicron (B.1.1.529) on vaccine efficacy, its correlation to Delta Variants: a computational approach",
+  "doi": "10.1101/2021.12.06.471215",
+  "abstract": "The newly discovered COVID variant B.1.1.529 in Botswana has more than 30 mutations in spike and many other in non-spike proteins, far more than any other SARS-CoV-2 variant accepted as a variant of concern by the WHO and officially named Omicron, and has sparked concern among scientists and the general public. Our findings provide insights into structural modification caused by the mutations in the Omicrons receptor-binding domain and look into the effects on interaction with the hosts neutralising antibodies CR3022, B38, CB6, P2B-2F6, and REGN, as well as ACE2R using an in silico approach. We have employed secondary structure prediction, structural superimposition, protein disorderness, molecular docking, and MD simulation to investigate host-pathogen interactions, immune evasion, and transmissibility caused by mutations in the RBD region of the spike protein of the Omicron variant and compared it to the Delta variants (AY.1, AY.2, & AY.3) and wild type. Computational analysis revealed that the Omicron variant has a higher binding affinity for the human ACE2 receptor than the wild and Delta (AY.1 and AY.2 strains), but lower than the Delta AY.3 strain. MD simulation and docking analysis suggest that the omicron and Delta AY.3 were found to have relatively unstable and compact RBD structures and hampered interactions with antibodies more than wild and Delta (AY.1 and AY.2), which may lead to relatively more pathogenicity and antibody escape. In addition, we observed lower binding affinity of Omicron for human monoclonal antibodies (CR3022, B38, CB6, and P2B2F6) when compared to wild and Delta (AY.1 & AY.2). However, the binding affinity of Omicron RBD variants for CR3022, B38, and P2B2F6 antibodies is lower as compared to Delta AY.3, which might promote immune evasion and reinfection and needs further experimental investigation.",
+  "authors": [
+    "Ranjan P",
+    "Neha",
+    "Devi C",
+    "Devar KA",
+    "Das P"
+  ],
+  "published_date": "2021-12-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.12.06.471215",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.12.06.471215.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR429695",
+    "raw_record": {
+      "id": "PPR429695",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR429695"
+        ]
+      },
+      "doi": "10.1101/2021.12.06.471215",
+      "title": "The influence of new SARS-CoV-2 variant Omicron (B.1.1.529) on vaccine efficacy, its correlation to Delta Variants: a computational approach",
+      "authorString": "Ranjan P, Neha, Devi C, Devar KA, Das P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ranjan P",
+            "lastName": "Ranjan",
+            "firstName": "Prashant",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genetic Disorders, Institute of Science, Banaras Hindu University,Varanasi, Uttar Pradesh, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Neha",
+            "lastName": "Neha",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genetic Disorders, Institute of Science, Banaras Hindu University,Varanasi, Uttar Pradesh, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Devi C",
+            "lastName": "Devi",
+            "firstName": "Chandra",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genetic Disorders, Institute of Science, Banaras Hindu University,Varanasi, Uttar Pradesh, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Devar KA",
+            "lastName": "Devar",
+            "firstName": "Kaviyapriya Arulmozhi",
+            "initials": "KA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "PSG College of Pharmacy, Coimbatore, Tamilnadu, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Das P",
+            "lastName": "Das",
+            "firstName": "Parimal",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genetic Disorders, Institute of Science, Banaras Hindu University,Varanasi, Uttar Pradesh, India"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5719-6572"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The newly discovered COVID variant B.1.1.529 in Botswana has more than 30 mutations in spike and many other in non-spike proteins, far more than any other SARS-CoV-2 variant accepted as a variant of concern by the WHO and officially named Omicron, and has sparked concern among scientists and the general public. Our findings provide insights into structural modification caused by the mutations in the Omicrons receptor-binding domain and look into the effects on interaction with the hosts neutralising antibodies CR3022, B38, CB6, P2B-2F6, and REGN, as well as ACE2R using an  in silico approach. We have employed secondary structure prediction, structural superimposition, protein disorderness, molecular docking, and MD simulation to investigate host-pathogen interactions, immune evasion, and transmissibility caused by mutations in the RBD region of the spike protein of the Omicron variant and compared it to the Delta variants (AY.1, AY.2, & AY.3) and wild type. Computational analysis revealed that the Omicron variant has a higher binding affinity for the human ACE2 receptor than the wild and Delta (AY.1 and AY.2 strains), but lower than the Delta AY.3 strain. MD simulation and docking analysis suggest that the omicron and Delta AY.3 were found to have relatively unstable and compact RBD structures and hampered interactions with antibodies more than wild and Delta (AY.1 and AY.2), which may lead to relatively more pathogenicity and antibody escape. In addition, we observed lower binding affinity of Omicron for human monoclonal antibodies (CR3022, B38, CB6, and P2B2F6) when compared to wild and Delta (AY.1 & AY.2). However, the binding affinity of Omicron RBD variants for CR3022, B38, and P2B2F6 antibodies is lower as compared to Delta AY.3, which might promote immune evasion and reinfection and needs further experimental investigation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/12/08/2021.12.06.471215.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.12.06.471215"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR429695"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR429695&type=FILE&fileName=EMS141103-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35690234",
+            "reference": "Microbial pathogenesis. 2022 Aug;169:105619",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS141103",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2021-12-09",
+      "firstPublicationDate": "2021-12-08",
+      "firstIndexDate": "2021-12-09",
+      "fullTextReceivedDate": "2022-02-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

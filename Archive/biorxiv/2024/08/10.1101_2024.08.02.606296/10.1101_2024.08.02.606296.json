@@ -1,0 +1,174 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.02.606296",
+  "title": "The triad interaction of ULK1, ATG13, and FIP200 is required for ULK complex formation and autophagy",
+  "doi": "10.1101/2024.08.02.606296",
+  "abstract": "In mammals, autophagosome formation, a central event in autophagy, is initiated by the ULK complex comprising ULK1/2, FIP200, ATG13, and ATG101. However, the structural basis and mechanism underlying the ULK complex assembly have yet to be fully clarified. Here, we predicted the core interactions organizing the ULK complex using AlphaFold, which proposed that the intrinsically disordered region of ATG13 engages the bases of the two UBL domains in the FIP200 dimer via two phenylalanines and also binds the tandem MIT domain of ULK1, thereby yielding the 1:1:2 stoichiometry of the ULK1–ATG13–FIP200 complex. We validated the predicted interactions by point mutations and demonstrated direct triad interactions among ULK1, ATG13, and FIP200 in vitro and in cells, wherein each interaction was additively important for autophagic flux. These results indicate that the ULK1–ATG13– FIP200 triadic interaction is crucial for autophagosome formation and provide a structural basis and insights into the regulation mechanism of autophagy initiation in mammals.",
+  "authors": [
+    "Hama Y",
+    "Fujioka Y",
+    "Yamamoto H",
+    "Mizushima N",
+    "Noda NN"
+  ],
+  "published_date": "2024-08-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.02.606296",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.02.606296.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR890196",
+    "raw_record": {
+      "id": "PPR890196",
+      "source": "PPR",
+      "doi": "10.1101/2024.08.02.606296",
+      "title": "The triad interaction of ULK1, ATG13, and FIP200 is required for ULK complex formation and autophagy",
+      "authorString": "Hama Y, Fujioka Y, Yamamoto H, Mizushima N, Noda NN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hama Y",
+            "lastName": "Hama",
+            "firstName": "Yutaro",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7190-4547"
+            }
+          },
+          {
+            "fullName": "Fujioka Y",
+            "lastName": "Fujioka",
+            "firstName": "Yuko",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6905-0669"
+            }
+          },
+          {
+            "fullName": "Yamamoto H",
+            "lastName": "Yamamoto",
+            "firstName": "Hayashi",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2831-1463"
+            }
+          },
+          {
+            "fullName": "Mizushima N",
+            "lastName": "Mizushima",
+            "firstName": "Noboru",
+            "initials": "N"
+          },
+          {
+            "fullName": "Noda NN",
+            "lastName": "Noda",
+            "firstName": "Nobuo",
+            "initials": "NN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6940-8069"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2831-1463"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6905-0669"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6940-8069"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7190-4547"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "In mammals, autophagosome formation, a central event in autophagy, is initiated by the ULK complex comprising ULK1/2, FIP200, ATG13, and ATG101. However, the structural basis and mechanism underlying the ULK complex assembly have yet to be fully clarified. Here, we predicted the core interactions organizing the ULK complex using AlphaFold, which proposed that the intrinsically disordered region of ATG13 engages the bases of the two UBL domains in the FIP200 dimer via two phenylalanines and also binds the tandem MIT domain of ULK1, thereby yielding the 1:1:2 stoichiometry of the ULK1–ATG13–FIP200 complex. We validated the predicted interactions by point mutations and demonstrated direct triad interactions among ULK1, ATG13, and FIP200  in vitro and in cells, wherein each interaction was additively important for autophagic flux. These results indicate that the ULK1–ATG13– FIP200 triadic interaction is crucial for autophagosome formation and provide a structural basis and insights into the regulation mechanism of autophagy initiation in mammals.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.08.02.606296"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.08.02.606296"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40552710",
+            "reference": "eLife. \n    2025 Jun;13:RP101531",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-08-04",
+      "firstPublicationDate": "2024-08-02",
+      "firstIndexDate": "2024-08-04",
+      "hasEvaluations": "Y"
+    }
+  }
+}

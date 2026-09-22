@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors benchmark nine molecular dynamics force fields for all-atom simulations of the intrinsically disordered protein Fused in Sarcoma (FUS), using 5 μs simulations on Anton 2 for full-length FUS and 10 μs simulations for RNA-bound structured domains. They identify a99SB-disp and a99SB-star-ILDN as the best-performing force fields based on radius of gyration comparisons with dynamic light scattering experiments, and provide a NAMD implementation of these force fields for broader community use.
+- **Visible evidence base** Full text including abstract, introduction, methods, results, discussion, and figure captions; no supplementary information or actual figures/tables were provided
+- **Missing materials affecting confidence** Figures and tables (including Table 1 summarizing simulations, all figures referenced in text), supplementary information (SI Figs S1-S8, Supporting Notes 1-2), and the actual DLS data are not available for inspection
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely problem: the accuracy of molecular dynamics force fields for simulating proteins involved in biological condensate formation. The benchmarking approach is systematic, covering nine force field combinations, and the use of a full-length protein with both structured and disordered regions is a strength. The identification of a99SB-disp as a top performer aligns with prior literature on disordered proteins. However, the manuscript has several significant issues that need to be addressed: (1) the DLS measurement used as the primary experimental benchmark is described with insufficient detail and appears to be a single measurement without error analysis; (2) the comparison between simulation and experiment is qualitative rather than quantitative; (3) the claim that the NAMD implementation "enables" simulations of multimillion-atom systems is not fully supported by the validation data presented; and (4) the discussion of force field performance for RNA-protein interactions is limited by the short simulation timescales and the use of restraints in some systems. The work is potentially valuable, but the current manuscript does not fully establish its central claims.
+- **Who would be interested in the results, and why** Researchers in the molecular dynamics simulation community, particularly those studying intrinsically disordered proteins and phase separation; computational biophysicists interested in force field development and benchmarking; experimental biologists studying FUS and related proteins in the context of neurodegenerative diseases who need guidance on simulation methodology; and developers of simulation software packages who may benefit from the NAMD implementation workflow.
+- **Major strengths** 1) Systematic benchmarking of nine force field combinations, which is more comprehensive than most prior studies; 2) Use of a full-length protein with both structured and disordered regions, providing a realistic test case; 3) Direct comparison with experimental DLS measurements; 4) Provision of a practical NAMD implementation with detailed instructions, which addresses a real community need; 5) The analysis of residue-level contact propensities (stickers vs. spacers) provides mechanistic insight beyond simple radius of gyration comparisons.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** "Using the results of dynamic light scattering as a benchmark for the FUS radius of gyration, we identified several force fields that produced FUS conformations within the experimental range."
+  - **Evidence pointer** Results section, Figure 1f; Methods section "Dynamic light scattering (DLS) measurements"
+  - **Concern** The DLS measurement is described in only three sentences in the Methods. No information is provided about the number of replicate measurements, the error bars on the measured radius of gyration, the analysis method used to extract Rg from the autocorrelation function, or the polydispersity of the sample. The manuscript states that the DLS data "suggest a 30-to-50-Å range of Rg values," which is an unusually broad range for a single protein measurement and raises questions about sample quality or analysis methodology. Furthermore, the comparison between simulation and experiment appears to be purely qualitative, with no statistical test or quantitative metric for determining whether a given force field's Rg distribution is "within the experimental range."
+  - **Why it matters** The DLS measurement is the primary experimental benchmark against which all nine force fields are evaluated. If the experimental reference is not rigorously characterized, the entire benchmarking conclusion is compromised. A 20 Å range in Rg encompasses nearly the full range of values observed across all force fields, making it difficult to distinguish between force field performance.
+  - **Resolution test** Provide full details of the DLS experiments including number of replicates, error analysis, and the specific algorithm used to extract Rg from the correlation function. Present the DLS data as a distribution or with clear error bars, and perform a quantitative comparison (e.g., overlap of simulation Rg distributions with experimental confidence intervals) for each force field.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation methodology
+  - **Claim pointer** "we benchmarked the efficacy of nine presently available molecular force fields in describing the structure and dynamics of a Fused in sarcoma (FUS) protein"
+  - **Evidence pointer** Methods section "Preparation of full-length FUS systems"; Table 1
+  - **Concern** The manuscript states that for the ZnF domain, "we added four physical bonds between Zn and SG atom of cysteine to maintain the Zn2+ atom at the center of the four cysteine residues" for the ff14SB system, but for five other systems (c36m, desam, desam0.9, aastar, aadisp), "we were not able to enforce such restraints as extrabonds on Anton 2." This means that the ZnF domain was treated differently across force fields, with some having explicit Zn-S bonds and others not. This is a significant methodological inconsistency that could affect the comparison of ZnF stability across force fields. The manuscript later reports that ZnF unfolds in some force fields (tip4pd, aastar, aadisp) but does not clearly attribute this to the force field itself versus the absence of Zn-S bonds.
+  - **Why it matters** The benchmarking claim requires that all force fields are tested under equivalent conditions. If the ZnF domain is stabilized by explicit bonds in some simulations but not others, the comparison of ZnF stability is not a fair test of the force fields. This is particularly important because the manuscript uses ZnF stability as a criterion for force field evaluation.
+  - **Resolution test** Either apply the same Zn-S bonding treatment across all force fields, or clearly separate the analysis of ZnF stability from the force field comparison and discuss the differential treatment as a limitation. If the Zn-S bonds cannot be implemented for all force fields, the ZnF stability results should be presented as preliminary observations rather than as part of the benchmarking.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical analysis
+  - **Claim pointer** "we identified several force fields that produced FUS conformations within the experimental range" and "the highest average Rg values, ~34 Å and ~30 Å, were recorded for the aastar and aadisp parameter sets"
+  - **Evidence pointer** Results section "Global conformation ensemble of a full-length FUS protein"; Figures 1e, 2a-c
+  - **Concern** The manuscript reports average Rg values and distributions but does not provide any statistical analysis of the differences between force fields. For example, the claim that aastar and aadisp produce "the highest average Rg values" is based on single 5 μs trajectories per force field. Given that the protein is intrinsically disordered and expected to have large conformational fluctuations, the differences between force fields may not be statistically significant. The manuscript also does not report block error analysis or other measures of sampling convergence for the Rg distributions.
+  - **Why it matters** The central conclusion of the paper is that certain force fields perform better than others. Without statistical analysis, it is impossible to determine whether the observed differences are due to force field effects or simply to insufficient sampling. This is particularly critical for disordered proteins, which are known to require long simulation times to achieve converged ensembles.
+  - **Resolution test** Perform block error analysis on the Rg time series to estimate statistical uncertainties. Report confidence intervals for the mean Rg values and use appropriate statistical tests (e.g., bootstrap or Kolmogorov-Smirnov) to determine whether the Rg distributions from different force fields are significantly different. If single trajectories are insufficient, consider multiple independent simulations per force field.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of claims
+  - **Claim pointer** "Our NAMD implementation enables simulations of large (tens of millions of atoms) biological condensate systems and makes such simulations accessible to a broader scientific community."
+  - **Evidence pointer** Results section "Implementation of a99SB-disp force-field in NAMD"; Figure 9
+  - **Concern** The manuscript describes a 28-million-atom condensate system and reports near-linear scaling up to 128 nodes, but provides no data on the actual simulation speed achieved for this large system. The statement that the implementation "enables" such simulations is not supported by any performance metrics for the 28-million-atom system. The only performance data shown is for the single-protein system (150 ns/day on 64 nodes). The manuscript also notes that the 28-million-atom system is "near the upper limit of the system size that NAMD2 can run without using the memory-optimized input file formats," which suggests that the implementation may not be practical for routine use at this scale.
+  - **Why it matters** The claim of enabling multimillion-atom simulations is a key contribution of the paper, as it addresses a perceived limitation of the field. If the performance at this scale is not demonstrated, the claim is overstated and could mislead potential users.
+  - **Resolution test** Provide performance data (ns/day) for the 28-million-atom system, including the number of nodes used and the scaling behavior. If the performance is not competitive with existing implementations, temper the claim to reflect what is actually demonstrated.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of benchmarking
+  - **Claim pointer** "we benchmarked the efficacy of nine presently available molecular force fields in describing the structure and dynamics of a Fused in sarcoma (FUS) protein"
+  - **Evidence pointer** Table 1; Results sections
+  - **Concern** The manuscript benchmarks nine force field combinations, but the analysis focuses primarily on radius of gyration, end-to-end distance, self-contacts, and diffusion. The title and introduction suggest a broader evaluation of force fields for "biological condensates," yet the manuscript does not assess properties directly relevant to condensate formation, such as inter-molecular interactions, phase separation propensity, or the behavior of multiple protein copies. The single-molecule simulations provide information about conformational ensembles but not about the collective behavior that defines condensates.
+  - **Why it matters** The title promises benchmarking for "biological condensates," but the simulations are of single proteins or small complexes. While single-molecule properties are relevant, the connection to condensate behavior is not established. This limits the scope of the conclusions that can be drawn.
+  - **Resolution test** Either temper the title and claims to reflect that this is a single-molecule benchmark, or add simulations of multi-protein systems that directly probe condensate-relevant properties. If the latter is not feasible, clearly state in the discussion that the benchmark addresses single-molecule properties and that further work is needed to assess condensate behavior.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Preparation of full-length FUS systems"
+  - **Evidence pointer** "we replaced each bead with an amino acid, maintaining the CG backbone orientation but shrunk to 10% of it's original size"
+  - **Issue** The phrase "shrunk to 10% of it's original size" is ambiguous. Does this mean the linear dimensions are scaled to 10% of the original, or the volume is scaled to 10%? This affects the interpretation of the back-mapping procedure.
+  - **Required correction** Clarify whether the scaling factor applies to linear dimensions or volume, and correct the grammatical error ("it's" should be "its").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Dynamic light scattering (DLS) measurements"
+  - **Evidence pointer** "Following a protocol described earlier, we performed DLS measurements using 500 nM, 1 μM and 5 μM solution of wild type FUS protein"
+  - **Issue** The reference to the earlier protocol is not provided in the manuscript text. Without this reference, the DLS methodology cannot be fully evaluated.
+  - **Required correction** Provide the full citation for the earlier protocol.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "Global conformation ensemble of a full-length FUS protein"
+  - **Evidence pointer** Figure 1e
+  - **Issue** The manuscript states that the CG model predicts "considerably higher Rg values than any all-atom model" but does not provide a quantitative comparison or statistical analysis to support this claim.
+  - **Required correction** Provide numerical values for the mean and standard deviation of Rg for each force field and the CG model, and perform a statistical comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** "force fields" vs "force-field combinations"
+  - **Issue** The manuscript uses "force fields" and "force-field combinations" interchangeably. Some of the nine tested systems are combinations of protein and water models, while others are standalone force fields. This terminology inconsistency could confuse readers.
+  - **Required correction** Use consistent terminology, e.g., "force field parameter sets" or "force field combinations," throughout the manuscript.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** "we consider both aadisp and aastar to provide considerable advantage over other choices"
+  - **Issue** The discussion does not address the practical implications of the different behaviors observed for aadisp and aastar regarding RNA binding. The manuscript reports that aastar maintains stable RNA binding while aadisp shows dynamic binding/unbinding events, but does not discuss which behavior is more physically realistic or how users should choose between these force fields for RNA-protein systems.
+  - **Required correction** Add a paragraph discussing the trade-offs between aadisp and aastar for different applications, particularly for systems involving RNA-protein interactions.
+- **Technical failings that need to be addressed before the case is established** 1) The DLS experimental benchmark lacks sufficient detail and statistical rigor (R1-M1); 2) Inconsistent treatment of Zn-S bonds across force fields compromises the ZnF stability comparison (R1-M2); 3) No statistical analysis of force field differences, making it impossible to determine if observed differences are significant (R1-M3); 4) The claim of enabling multimillion-atom simulations is not supported by performance data for the large system (R1-M4); 5) The benchmarking does not directly address condensate-relevant properties despite the title's promise (R1-M5).
+- **Assessment against Nature-style criteria** Originality: The manuscript is original in its systematic comparison of nine force field combinations on a full-length protein with both structured and disordered regions. However, prior studies have benchmarked force fields on disordered proteins, and the novelty here is primarily in the scope and the specific protein system. Scientific importance: The work addresses a critical need in the field, as accurate force fields are essential for reliable simulations of condensate systems. The identification of a99SB-disp as a top performer is consistent with prior literature, which strengthens confidence in the findings. Interdisciplinary readership: The results are relevant to computational biophysicists, experimental biologists studying FUS and related proteins, and researchers in the condensate field. The manuscript is generally accessible, though some sections assume familiarity with MD simulation methodology. Technical soundness: The simulation protocols are generally sound, but the issues identified above regarding the DLS benchmark, Zn-S bond treatment, and lack of statistical analysis undermine the technical rigor of the benchmarking claims. Readability for nonspecialists: The manuscript is well-written and the main conclusions are clearly stated, but the methods section is dense and may be challenging for readers without a simulation background. Overall, the manuscript has the potential to be a valuable contribution, but the technical issues must be addressed before the conclusions can be fully accepted.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important problem and the overall approach is sound, but the issues with the DLS benchmark, Zn-S bond treatment, and lack of statistical analysis must be addressed before the central claims can be considered established.
+
+## Risk / unsupported claims
+- The claim that DLS measurements "suggest a 30-to-50-Å range of Rg values" is not supported by sufficient experimental detail or error analysis.
+- The claim that aastar and aadisp are the best-performing force fields is based on qualitative comparison with a single experimental measurement and lacks statistical analysis.
+- The claim that the NAMD implementation "enables simulations of large (tens of millions of atoms) biological condensate systems" is not supported by performance data for the 28-million-atom system.
+- The claim that "the aadisp model may capture the essence of the RNA-FUS recognition interactions" is based on a single simulation trajectory and requires additional validation.
+- The statement that "none of the all-atom force fields afforded sampling of the conformational ensemble captured by the DLS measurement" is not quantitatively supported, as the DLS measurement itself has large uncertainty.

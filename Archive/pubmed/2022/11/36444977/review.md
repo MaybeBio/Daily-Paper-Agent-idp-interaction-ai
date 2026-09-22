@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the provided manuscript. No external literature verification or replication of analyses was performed.
+- **Shared manuscript claim summary** The authors report that paraformaldehyde (PFA) fixation can alter the apparent liquid-liquid phase separation (LLPS) behavior of intrinsically disordered region (IDR)-containing proteins in cells, either enhancing or diminishing droplet-like puncta, and in some cases creating puncta where none existed in live cells. They propose a kinetic model in which the balance between protein-protein interaction dynamics and differential fixation rates inside versus outside puncta determines the direction and magnitude of the artifact, and they provide single-molecule imaging data consistent with the model's prediction that fast overall fixation relative to binding dynamics minimizes artifacts.
+- **Visible evidence base** Confocal fluorescence images before and after PFA fixation for FET family IDRs (FUS, EWS, TAF15) with different fluorescent tags; quantification of puncta number, surface roughness, and punctate percentage; time-course imaging during fixation; tests with different PFA concentrations and PFA/glutaraldehyde combinations; experiments with glycine competition; kinetic model simulations; single-particle tracking residence time measurements for Halo-TAF15(IDR) and TAF15(IDR)-Halo-FTH1.
+- **Missing materials affecting confidence** Source data files referenced but not provided; supplementary videos and figure supplements not available for inspection; full statistical output (exact p-values, effect sizes, confidence intervals) not reported in text; details of image analysis parameters beyond those described are not fully specified; no information on replicate numbers for each condition beyond "independent experiments across at least three days" for SPT.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and underappreciated problem in cell biology: whether PFA fixation faithfully preserves the appearance of LLPS. The observation that fixation can both enhance and diminish puncta, and even create puncta de novo, is significant and will be of broad interest to the LLPS community and to researchers using immunofluorescence-based approaches. The kinetic model is conceptually useful and provides a framework for understanding the artifact. However, the manuscript has several weaknesses that need to be addressed. The quantitative analysis relies on a small number of example cells without clear reporting of biological replicates and variability. The claim that the model is "consistent with" the single-molecule data is based on a qualitative comparison of residence times between two constructs, but the model's predictive power is not rigorously tested. The mechanism underlying differential fixation rates in and out of puncta is speculative and not directly measured. The generality of the findings across cell types and fixation protocols is not established. The writing is generally clear but some methodological details are insufficient for replication.
+- **Who would be interested in the results, and why** Researchers studying LLPS and biomolecular condensates, particularly those using fixed-cell imaging or immunofluorescence to detect puncta; cell biologists using fixation-based methods to study protein localization and interactions; methodologists interested in artifacts of chemical fixation; and potentially researchers studying transcription factor hubs and gene regulation where IDR-mediated clustering is implicated.
+- **Major strengths** The study addresses a timely and important question with direct practical implications. The experimental design of imaging the same cells before and after fixation is elegant and controls for cell-to-cell variability. The inclusion of multiple IDR-containing proteins and different fluorescent tags strengthens the generalizability of the observations. The kinetic model provides a mechanistic framework that generates testable predictions. The single-molecule residence time measurements are technically demanding and add quantitative support. The finding that glycine can reverse the direction of the artifact is a useful practical insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental rigor and reproducibility
+  - **Claim pointer** The authors claim significant changes in puncta number, surface roughness, and punctate percentage after fixation for FET family IDRs (Figure 1D-F, Figure 2D-F).
+  - **Evidence pointer** Figure 1, Figure 2, Figure 1-source data 1, Figure 2-source data 1
+  - **Concern** The quantitative analysis appears to be based on a small number of representative cells. The number of biological replicates, the number of cells analyzed per condition, and the statistical test details are not clearly reported in the text. The source data files are not provided for inspection, so the robustness of the statistical claims cannot be assessed. For a study whose central claim is that fixation changes LLSP appearance, it is essential to demonstrate that the effects are consistent across many cells and independent experiments.
+  - **Why it matters** Without clear reporting of replicates and variability, the reader cannot determine whether the observed effects are robust or driven by a few outlier cells. This is particularly important given the heterogeneity often observed in transient transfection experiments.
+  - **Resolution test** Provide the number of independent experiments, the number of cells analyzed per condition, and the distribution of the data (e.g., scatter plots with individual data points). Report exact p-values and effect sizes. Make the source data files available for review.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The authors state that "consistent with simulations, live-cell single-molecule imaging experiments showed that a fast overall rate of fixation relative to protein-protein interaction dynamics can minimize fixation artifacts."
+  - **Evidence pointer** Figure 6, Figure 6-source data 1
+  - **Concern** The model prediction is tested by comparing residence times of Halo-TAF15(IDR) (10.23 s) and TAF15(IDR)-Halo-FTH1 (64.15 s) and correlating this with the absence of a fixation artifact for the latter. However, this is a comparison of only two constructs. The model makes quantitative predictions about the relationship between residence time, fixation rate, and the magnitude of the artifact, but these are not tested. The claim of consistency is therefore weak. Additionally, the model assumes that the overall fixation rate is similar for the two constructs, but this is not directly measured.
+  - **Why it matters** The kinetic model is a central component of the paper's mechanistic explanation. A qualitative comparison of two constructs is insufficient to validate the model's predictions. Without a more systematic test, the model remains speculative.
+  - **Resolution test** Test the model with additional constructs that have a range of residence times. Directly measure or estimate fixation rates for the constructs used. Provide a quantitative comparison between model predictions and experimental measurements of the artifact magnitude as a function of residence time and fixation rate.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors propose that differential fixation rates in and out of puncta, due to distinct local protein composition and concentration, drive the artifact.
+  - **Evidence pointer** Figure 5, Discussion
+  - **Concern** The model assumes that fixation rates differ inside versus outside puncta, but this is not directly measured. The authors speculate that IDRs in puncta have better exposed reactive residues, but no experimental evidence is provided to support this. The model's key parameter (k3:k4) is not constrained by any direct measurement.
+  - **Why it matters** The proposed mechanism is plausible but remains unverified. Without direct evidence for differential fixation rates, alternative explanations (e.g., changes in protein conformation or solubility upon cross-linking) cannot be excluded.
+  - **Resolution test** Design experiments to measure or estimate fixation rates of proteins in different states. For example, use biochemical assays to compare cross-linking efficiency of IDRs in concentrated versus dilute phases, or use fluorescent recovery after photobleaching to estimate mobility changes during fixation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Methods, LLPS parameter quantification
+  - **Evidence pointer** Materials and methods, "LLPS parameter quantification"
+  - **Issue** The description of the puncta quantification is not fully detailed. The criteria for identifying a punctum, the size threshold, and the handling of overlapping puncta are not specified. The "find maxima" function in ImageJ requires a noise tolerance parameter, but the value used is not reported.
+  - **Required correction** Provide a more detailed description of the image analysis pipeline, including all parameters used. Consider providing a supplementary figure showing example images with identified puncta.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Figure legends
+  - **Evidence pointer** Figure 1, Figure 2, Figure 3, Figure 6
+  - **Issue** The figure legends do not report the number of cells analyzed, the number of independent experiments, or the statistical test used. The text mentions the Wilcoxon signed-rank test but does not specify which comparisons were tested.
+  - **Required correction** Add full statistical details to the figure legends, including n, the test used, and the exact p-values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The authors note that not all proteins tested showed fixation artifacts (e.g., FUS(FL), TAF15(IDR)-FTH1, EWS::FLI1), but the criteria for selecting these proteins and the range of behaviors observed are not systematically presented. The reader cannot assess how common the artifact is.
+  - **Required correction** Consider presenting a summary table of all proteins tested, their tags, their live-cell behavior, and the effect of fixation. This would strengthen the generalizability claims.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, SPT
+  - **Evidence pointer** Materials and methods, "Single-particle tracking (SPT)"
+  - **Issue** The SPT analysis uses a two-component exponential model to fit survival probability curves, but the criteria for distinguishing specific versus nonspecific residence times are not described. The fraction of trajectories classified as in-puncta versus out-of-puncta is not reported.
+  - **Required correction** Provide more detail on the SPT analysis, including the fitting procedure, the criteria for trajectory classification, and the number of trajectories analyzed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (replicate reporting and data availability) and R1-M2 (model validation) are the most critical. The manuscript's central claims depend on the robustness of the quantitative image analysis and the validity of the kinetic model. Without addressing these, the case is not fully established.
+- **Assessment against Nature-style criteria** Originality: The study is original in directly comparing live and fixed cells for LLSP appearance and in proposing a kinetic model for the artifact. Scientific importance: The findings are important for the LLPS field and for the broader use of fixation-based imaging. Interdisciplinary readership: The topic will appeal to cell biologists, biophysicists, and chemical biologists. Technical soundness: The experimental approaches are generally sound, but the quantitative analysis and model validation need strengthening. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some methodological details are dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation is significant and likely correct, but the manuscript needs to provide stronger evidence for the robustness of the quantitative findings and a more rigorous test of the model's predictions.
+
+## Risk / unsupported claims
+- The claim that "fixation can even cause their droplet-like puncta to artificially appear in cells that do not have any detectable puncta in the live condition" is supported by the example of EGFP-EWS(IDR) (Figure 1), but the frequency and reproducibility of this phenomenon across cells and experiments are not quantified.
+- The claim that "a fast overall rate of fixation relative to protein-protein interaction dynamics can minimize fixation artifacts" is supported by the comparison of Halo-TAF15(IDR) and TAF15(IDR)-Halo-FTH1, but this is based on only two constructs and the fixation rates are not directly measured.
+- The model's prediction that the artifact depends on the starting punctate percentage (Figure 5C) is not directly tested experimentally.
+- The speculation that IDRs in puncta cross-link faster due to better exposed reactive residues is not supported by direct evidence.
+- The generalizability of the findings to other cell types, fixation protocols, and LLPS systems is not established.

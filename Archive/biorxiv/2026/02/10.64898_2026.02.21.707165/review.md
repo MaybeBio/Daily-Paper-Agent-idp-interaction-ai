@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce IBPC-Kd, a curated dataset of 1,785 IDR-ordered protein complexes with experimentally measured dissociation constants, and IDRBindNet, a graph-transformer model that predicts binding affinities from complex structures. They report that global interfacial shape complementarity, partner surface order, and electrostatic asymmetry are consistent correlates of affinity, and that IDRBindNet achieves state-of-the-art accuracy (R² up to 0.911) with external validation on de novo designed binders.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were supplied
+- **Missing materials affecting confidence** Full manuscript, dataset details, model architecture and training procedures, benchmark comparisons, external validation dataset composition, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable resource and predictive model for IDR binding affinity, a topic of broad interest in protein science. The dataset size and affinity range are notable, and the reported performance is strong. However, the abstract alone does not permit verification of the central claims. Key methodological details, dataset curation criteria, benchmark rigor, and the nature of the external validation are not described. The claim of state-of-the-art performance cannot be assessed without comparison details. The biological correlates are presented as findings but without statistical support or effect sizes. The manuscript may be of interest to the biophysics and computational biology communities, but the evidence base provided is insufficient to establish the case.
+- **Who would be interested in the results, and why** Computational biologists and biophysicists studying protein-protein interactions, particularly those focused on intrinsically disordered proteins; researchers developing machine-learning models for biophysical property prediction; experimentalists studying IDR-mediated signaling and regulation who may use the predictor for candidate prioritization; and protein designers interested in targeting disordered regions.
+- **Major strengths** The dataset size (1,785 complexes) and affinity range (six orders of magnitude) appear substantial and potentially useful as a community resource. The integration of protein language model embeddings with interface geometry in a graph-transformer architecture is a reasonable and contemporary approach. The reported external validation on de novo designed binders is a meaningful generalization test if properly constructed. The identification of global physicochemical correlates of affinity, if statistically robust, could provide useful biophysical insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "IBPC-Kd, a curated dataset of 1,785 IDR-ordered protein complexes with experimentally measured dissociation constants (Kd), spanning more than six orders of magnitude in affinity"
+  - **Evidence pointer** Abstract; dataset details not provided
+  - **Concern** The dataset curation criteria are not described. It is unclear how IDRs were defined, how complexes were selected, how redundancy was managed, whether Kd values were curated from a single source or multiple sources with different measurement conditions, and how conflicts between measurements were resolved. The abstract does not state whether the dataset is limited to a particular organism, interaction type, or experimental method.
+  - **Why it matters** Dataset quality and curation rigor are foundational to all subsequent analyses and model training. Without clarity on inclusion and exclusion criteria, the resource cannot be evaluated for bias, completeness, or reproducibility. If the dataset contains redundant or inconsistently measured entries, the reported correlates and model performance could be artifacts.
+  - **Resolution test** Provide a detailed description of dataset curation, including IDR definition criteria, source databases, redundancy removal thresholds, Kd measurement condition normalization, and any quality filters applied. Report the distribution of complex types, organism coverage, and the number of unique protein families represented.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "IDRBindNet achieves state-of-the-art accuracy on held-out complexes (R² up to 0.911)"
+  - **Evidence pointer** Abstract; benchmark details not provided
+  - **Concern** The claim of state-of-the-art accuracy cannot be evaluated without specification of the benchmark protocol. It is unclear how the held-out set was constructed (random split, sequence-identity-based split, or complex-level split), what baselines were compared, whether the same training and evaluation splits were used across methods, and what the variance across splits was. The phrase "up to 0.911" suggests variability that is not characterized.
+  - **Why it matters** State-of-the-art claims require rigorous and fair comparison against existing methods on identical benchmarks. Without this information, the reported R² could reflect an easy test set, data leakage, or favorable but non-representative split conditions. The predictive value of the model for unseen IDR complexes cannot be established.
+  - **Resolution test** Describe the exact train-validation-test split protocol, including any sequence or structural similarity thresholds used to prevent leakage. Report performance of at least two existing predictors on the same splits. Provide mean and standard deviation of R² across multiple random seeds or cross-validation folds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "the framework generalizes through external validation on a set of recently reported de novo designed binders targeting the human surfaceome, showing encouraging concordance across nanomolar-to-micromolar affinities"
+  - **Evidence pointer** Abstract; external validation details not provided
+  - **Concern** The external validation is described only qualitatively. The number of designed binders, the source of the experimental Kd values, the structural basis for prediction (whether complex structures were available or modeled), and the quantitative agreement metrics are not reported. "Encouraging concordance" is not a measurable claim.
+  - **Why it matters** External validation on independently generated data is the strongest test of generalization, but only if the test set is sufficiently large, structurally well-defined, and quantitatively evaluated. Without these details, the claim of generalization cannot be distinguished from anecdotal success on a few favorable cases.
+  - **Resolution test** Report the number of external test complexes, the source of their structures and Kd values, the prediction protocol, and quantitative error metrics (e.g., RMSE, Pearson correlation, fold-error distribution). Discuss any cases where predictions failed and potential reasons.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "we find that global interfacial shape complementarity is a consistent correlate of affinity, followed by the structural order of the partner surface and a systematic electrostatic asymmetry between IDRs and their binders"
+  - **Evidence pointer** Abstract; statistical analyses not provided
+  - **Concern** The abstract reports correlational findings without any statistical support. No correlation coefficients, p-values, effect sizes, or comparisons against null models are given. It is unclear whether these correlates were identified in a hypothesis-driven manner or through exploratory analysis, and whether they were corrected for multiple testing.
+  - **Why it matters** If these correlates are intended as biological insights, they must be statistically robust and shown to be independent of confounding factors such as complex size, IDR length, or binding partner class. Without this support, they remain anecdotal observations.
+  - **Resolution test** Provide correlation statistics for each reported feature against Kd, with confidence intervals and multiple-testing corrections. Show that the correlates are not explained by trivial covariates. If possible, demonstrate predictive utility of these features in an ablation analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses terms such as "graph-transformer model," "protein language model embeddings," and "interfacial shape complementarity" without brief definitions or context. Nonspecialist readers in experimental biology may struggle to interpret the methodological novelty.
+  - **Required correction** Add one sentence in the abstract briefly explaining what a graph-transformer model is and why protein language model embeddings are useful, or rephrase to make the methodological contribution accessible to a broader audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Performance metric reporting
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract reports "R² up to 0.911" without specifying whether this is on a log-transformed or linear Kd scale. Binding affinities spanning six orders of magnitude are typically modeled on a logarithmic scale, and the metric interpretation differs substantially.
+  - **Required correction** Specify the scale on which R² is computed (e.g., log10 Kd) and report additional error metrics such as RMSE in log10 units to facilitate interpretation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Dataset accessibility
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not state where the IBPC-Kd dataset and the IDRBindNet model will be made available, nor under what license. For a resource paper, this is a key practical detail.
+  - **Required correction** State the intended repository (e.g., Zenodo, GitHub, a database) and the access conditions in the abstract or a data availability statement.
+
+## Risk / unsupported claims
+- The claim that IDRBindNet achieves "state-of-the-art accuracy" is unsupported without benchmark details and comparison baselines.
+- The claim of "encouraging concordance" on external validation is unsupported without quantitative metrics and test set description.
+- The reported correlates of affinity (shape complementarity, structural order, electrostatic asymmetry) are unsupported without statistical analyses.
+- The claim that the framework "provides a quantitative framework for interrogating determinants of IDR recognition" is not evaluable from the abstract alone.
+- The dataset size and affinity range are stated but cannot be verified without dataset documentation.
+- The statement that IDRBindNet "implicitly learns biologically relevant attention patterns" is unsupported without attention analysis details.

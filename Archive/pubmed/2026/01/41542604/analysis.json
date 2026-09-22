@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41542604",
+  "title": "Cooperative multivalency converts disorder into rods, resolving a paradox in cellular architecture.",
+  "authors": "Walker, Douglas R; Estelle, Aidan; Ammon, York-Christoph; Song, Yujuan; Lv, Qianru H; Reardon, Patrick N; Ichikawa, Muneyoshi; Akhmanova, Anna; Barbar, Elisar J",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-01-16",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合AlphaFold预测、生化与电镜等方法，揭示LC8通过多价弱相互作用将KANK1的无序长链L2转化为刚性棒状组装以跨越膜-微管间隙，直接聚焦IDR介导的PPI机制建模，对无序蛋白多价互作与组装设计具有高度启发性。",
+  "abstract": "The cortically anchored adaptor KANK1 organizes microtubules at focal adhesions through a long, intrinsically disordered linker (L2), yet how this linker spans the ~35-50 nm membrane-microtubule gap is unclear. Here, we combine in-cell, biochemical, and biophysical assays, predictions of motif interaction and multivalent assembly using AlphaFold, and structural analysis by electron microscopy to show that the hub protein LC8, which binds more than 100 clients, converts the intrinsically disordered 600 amino acid L2 into an elongated, multivalent, rod-like assembly. In contrast, isolated motif peptides fail to bind LC8 at physiologically relevant concentrations, indicating that strong complex formation arises from cooperativity among multiple weak sites. These results establish LC8 as a molecular switch that rigidifies and extends KANK1 L2 via distributed weak motifs and short linkers. This interaction produces compositionally homogeneous yet conformationally adaptable rods, long enough to bridge the membrane-microtubule gap, resolving the paradox. This work expands the LC8 binding repertoire, reveals design principles for multivalent assembly, and suggests a generalizable strategy for tuning length, rigidity, and flexibility in large protein architectures.",
+  "abstract_zh": "皮质锚定衔接蛋白KANK1通过一个长的内在无序连接子（L2）在黏着斑处组织微管，然而该连接子如何跨越约35-50纳米的膜-微管间隙尚不清楚。在此，我们结合细胞内、生物化学和生物物理测定、使用AlphaFold对基序相互作用和多价组装的预测，以及电子显微镜结构分析，表明枢纽蛋白LC8（其结合超过100种客户蛋白）将内在无序的600个氨基酸L2转化为细长的、多价的、杆状组装体。相反，分离的基序肽在生理相关浓度下无法结合LC8，表明强复合物的形成源于多个弱位点之间的协同性。这些结果确立了LC8作为分子开关，通过分布式的弱基序和短连接子使KANK1 L2刚化并延伸。这种相互作用产生组成均一但构象可适应的杆状结构，其长度足以桥接膜-微管间隙，从而解决了这一悖论。这项工作扩展了LC8的结合谱系，揭示多价组装的设计原理，并提出一种可推广的策略，用于调节大型蛋白质架构中的长度、刚性和灵活性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41542604/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41542604/",
+  "paper_page_path": "papers/pubmed/41542604/index.html"
+}

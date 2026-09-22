@@ -1,0 +1,195 @@
+{
+  "identity": {
+    "pmid": "37609330",
+    "doi": "10.1101/2023.08.11.553039",
+    "title": "Conformational ensemble dependent lipid recognition and segregation by prenylated intrinsically disordered regions in small GTPases."
+  },
+  "content": {
+    "abstract": "We studied diverse prenylated intrinsically disordered regions (PIDRs) of Ras and Rho family small GTPases using long timescale atomistic molecular dynamics simulations in an asymmetric model membrane of phosphatidylcholine (PC) and phosphatidylserine (PS) lipids. We show that conformational plasticity is a key determinant of lipid sorting by polybasic PIDRs and provide evidence for lipid sorting based on both headgroup and acyl chain structures. We further show that conformational ensemble-based lipid recognition is generalizable to all polybasic PIDRs, and that the sequence outside the polybasic domain (PBD) modulates the conformational plasticity, bilayer adsorption, and interactions of PIDRs with membrane lipids. Specifically, we found that palmitoylation, the ratio of basic to acidic residues, and the hydrophobic content of the sequence outside the PBD significantly impact the diversity of conformational substates and hence the extent of conformation-dependent lipid interactions. We thus propose that the PBD is required but not sufficient for the full realization of lipid sorting by prenylated PBD-containing membrane anchors, and that the membrane anchor is not only responsible for high affinity membrane binding but also directs the protein to the right target membrane where it participates in lipid sorting.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Araya, Mussie K",
+        "Gorfe, Alemayehu A"
+      ],
+      "short_names": [
+        "Araya MK",
+        "Gorfe AA"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Araya, Mussie K",
+        "short_name": "Araya MK",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gorfe, Alemayehu A",
+        "short_name": "Gorfe AA",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Aug 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/23 06:43",
+    "fetched_at": "2026-09-21 00:43:07"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37609330",
+      "37919400",
+      "38942776",
+      "38712287",
+      "35687481",
+      "33526670",
+      "29239694",
+      "28041850",
+      "29120102",
+      "26827904",
+      "35098229",
+      "32326637",
+      "33030907",
+      "22369354",
+      "24892900",
+      "23823878",
+      "8443184",
+      "17766350",
+      "21112291",
+      "20025847",
+      "38192346",
+      "25017730",
+      "29967243",
+      "22506277",
+      "38560754",
+      "16861229",
+      "34680072",
+      "33538574",
+      "27526681",
+      "7547927",
+      "14575862",
+      "22479423",
+      "12083922",
+      "8001180",
+      "24415755",
+      "18610985",
+      "33890127",
+      "30823702",
+      "8405165",
+      "32696378",
+      "35994329",
+      "23701821",
+      "26735936",
+      "36387274",
+      "29972814",
+      "31339036",
+      "33554215",
+      "28829144",
+      "33984364",
+      "35869787",
+      "19278259",
+      "32654182",
+      "31574222",
+      "15198596",
+      "22500755",
+      "31118479",
+      "28356535",
+      "33076213",
+      "31554397",
+      "1445893",
+      "25152957",
+      "18647648",
+      "26958889",
+      "12119034",
+      "27023605",
+      "36574700",
+      "22677381",
+      "24358048",
+      "27844185",
+      "24743023",
+      "11335720",
+      "2411805",
+      "24508757",
+      "23912807",
+      "31059259",
+      "9724538",
+      "22084244",
+      "17128968",
+      "11148042",
+      "34465095",
+      "12124281",
+      "31364837",
+      "20483331",
+      "35034725",
+      "20000327",
+      "27664502",
+      "26651735",
+      "30281048",
+      "15966741",
+      "8744332",
+      "9649334",
+      "24383916",
+      "27301269",
+      "24216154",
+      "36131545",
+      "6466608"
+    ],
+    "review": [
+      "37609330",
+      "29120102",
+      "32326637",
+      "38192346",
+      "34680072",
+      "14575862",
+      "8001180",
+      "25152957"
+    ],
+    "pmc": [
+      "10441427"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37609330/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.08.11.553039",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

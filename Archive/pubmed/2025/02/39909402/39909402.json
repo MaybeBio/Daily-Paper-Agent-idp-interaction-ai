@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "39909402",
+    "doi": "10.1021/jacs.4c13462",
+    "title": "Proline cis/trans Conformational Selection Controls 14-3-3 Binding."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered protein regions (IDRs) are structurally dynamic yet functional, often interacting with other proteins through short linear motifs (SLiMs). Proline residues in IDRs introduce conformational heterogeneity on a uniquely slow time scale arising from cis/trans isomerization of the Xaa-Pro peptide bond. Here, we explore the role of proline isomerization in the interaction between the prolactin receptor (PRLR) and 14-3-3. Using NMR spectroscopy, thermodynamic profiling, and molecular dynamics (MD) simulations, we uncover a unique proline isomer-dependent binding, with a cis conformation affinity 3 orders of magnitude higher than the trans. MD simulations identify structural constraints in the narrow 14-3-3 binding groove that provide an explanation for the observed isomer selectivity. The cis preference of WT PRLR introduces a slow kinetic component relevant to signal propagation and a steric component that impacts chain direction. Proline isomerization constitutes a previously unrecognized selective component relevant to the ubiquitous 14-3-3 interactome. Given the prevalence of prolines in IDRs and SLiMs, our study highlights the importance of considering the distinct properties of proline isomers in experimental design and data interpretation to fully comprehend IDR functionality.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Proline/chemistry/metabolism",
+      "*14-3-3 Proteins/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Thermodynamics",
+      "Protein Conformation",
+      "Humans",
+      "Isomerism",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Theisen, Frederik F",
+        "Prestel, Andreas",
+        "Jacobsen, Nina L",
+        "Nyhegn-Eriksen, Oline K",
+        "Olsen, Johan G",
+        "Kragelund, Birthe B"
+      ],
+      "short_names": [
+        "Theisen FF",
+        "Prestel A",
+        "Jacobsen NL",
+        "Nyhegn-Eriksen OK",
+        "Olsen JG",
+        "Kragelund BB"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3412-4242",
+        "ORCID: 0000-0002-5459-9608",
+        "ORCID: 0000-0002-7454-1761"
+      ],
+      "affiliations": [
+        "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, Copenhagen DK-2200, Denmark.",
+        "Institut de Biologie Structurale, 71 avenue des Martyrs, Grenoble 38000, France.",
+        "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, Copenhagen DK-2200, Denmark.",
+        "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, Copenhagen DK-2200, Denmark.",
+        "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, Copenhagen DK-2200, Denmark.",
+        "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, Copenhagen DK-2200, Denmark.",
+        "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, Copenhagen DK-2200, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Theisen, Frederik F",
+        "short_name": "Theisen FF",
+        "identifiers": [
+          "0000-0002-3412-4242"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, Copenhagen DK-2200, Denmark.",
+          "Institut de Biologie Structurale, 71 avenue des Martyrs, Grenoble 38000, France."
+        ]
+      },
+      {
+        "full_name": "Prestel, Andreas",
+        "short_name": "Prestel A",
+        "identifiers": [
+          "0000-0002-5459-9608"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, Copenhagen DK-2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Jacobsen, Nina L",
+        "short_name": "Jacobsen NL",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, Copenhagen DK-2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Nyhegn-Eriksen, Oline K",
+        "short_name": "Nyhegn-Eriksen OK",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, Copenhagen DK-2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Olsen, Johan G",
+        "short_name": "Olsen JG",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, Copenhagen DK-2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kragelund, Birthe B",
+        "short_name": "Kragelund BB",
+        "identifiers": [
+          "0000-0002-7454-1761"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, Copenhagen DK-2200, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2025 Feb 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/06 00:20",
+    "fetched_at": "2026-09-21 15:27:37"
+  },
+  "links": {
+    "cites": [
+      "42437078",
+      "41958232",
+      "41298223",
+      "40958938"
+    ],
+    "refs": [
+      "38718835",
+      "38238333",
+      "37957331",
+      "37694948",
+      "37395034",
+      "37232489",
+      "37224961",
+      "36018855",
+      "33247146",
+      "31794728",
+      "31308176",
+      "30368054",
+      "30127362",
+      "29915393",
+      "29382713",
+      "29064600",
+      "28516008",
+      "28506462",
+      "28497798",
+      "26888287",
+      "26236013",
+      "25846210",
+      "25840370",
+      "25542300",
+      "23504368",
+      "22773956",
+      "21909575",
+      "21708191",
+      "21159777",
+      "20408171",
+      "20141511",
+      "19662078",
+      "17289588",
+      "17032683",
+      "15937494",
+      "12819209",
+      "12475212",
+      "10922466",
+      "9699627",
+      "9642049",
+      "9428519",
+      "7823321",
+      "6378067",
+      "1579569"
+    ],
+    "similar": [
+      "39909402",
+      "25840370",
+      "39340152",
+      "37395034",
+      "8880915",
+      "34869581",
+      "15701032",
+      "40388619",
+      "12071739",
+      "23025283",
+      "8645165",
+      "30127362",
+      "38598681",
+      "38465868",
+      "6441592",
+      "9922166",
+      "10757978",
+      "23445547",
+      "38663546",
+      "15321715",
+      "28111343",
+      "25702031",
+      "1868097",
+      "10397796",
+      "19262980",
+      "16358327",
+      "33247146",
+      "9548941",
+      "28547731",
+      "10644952",
+      "35617919",
+      "14733553",
+      "8138351",
+      "24262149",
+      "16208767",
+      "37657438",
+      "30149861",
+      "7948734",
+      "2350544",
+      "24119155",
+      "11101301",
+      "8393714",
+      "7613463",
+      "15381311",
+      "22770126",
+      "7577948",
+      "29208911",
+      "17876319",
+      "37442414",
+      "25261131",
+      "34585830",
+      "30980380",
+      "20355726",
+      "26655856",
+      "11246204",
+      "8917450",
+      "29064600",
+      "15704965",
+      "38747689",
+      "10561591",
+      "19267429",
+      "16478167",
+      "20384356",
+      "15355356",
+      "20136113",
+      "26866899",
+      "27097793",
+      "23148796",
+      "1453444",
+      "10195439",
+      "12034441",
+      "17048963",
+      "16035738",
+      "38115231",
+      "17289588",
+      "17439267",
+      "12881523",
+      "12186545",
+      "26192015",
+      "34736898",
+      "2185035",
+      "26440300",
+      "22969011",
+      "40321189",
+      "16281040",
+      "25524218",
+      "11890798",
+      "30093407",
+      "9692984",
+      "19885922",
+      "16824540",
+      "16471763",
+      "8456095",
+      "18302366",
+      "21573188",
+      "34576292",
+      "28097692",
+      "24211251",
+      "31791173",
+      "9642049"
+    ],
+    "review": [
+      "39909402",
+      "17876319"
+    ],
+    "pmc": [
+      "11848828"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39909402/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.4c13462",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

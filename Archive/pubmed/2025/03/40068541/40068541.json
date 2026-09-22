@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "40068541",
+    "doi": "10.1016/j.sbi.2025.103029",
+    "title": "Atomistic molecular dynamics simulations of intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "Recent years have seen remarkable gains in the accuracy of atomistic molecular dynamics (MD) simulations of intrinsically disordered proteins (IDPs) and expansion in the types of calculated properties that can be directly compared with experimental measurements. These advances occurred due to the use of IDP-tested force fields and the porting of MD simulations to GPUs and other computational technologies. All-atom MD simulations are now explaining the sequence-dependent dynamics of IDPs; elucidating the mechanisms of their binding to other proteins, nucleic acids, and membranes; revealing the modes of drug action on them; and characterizing their phase separation. Artificial intelligence (AI) and machine learning (ML) are further expanding the reach of atomistic MD simulations.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Humans",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Muhammedkutty, Fidha Nazreen Kunnath",
+        "MacAinsh, Matthew",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "Muhammedkutty FNK",
+        "MacAinsh M",
+        "Zhou HX"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry and Department of Physics, University of Illinois Chicago, Chicago, IL, 60607, USA.",
+        "Department of Chemistry and Department of Physics, University of Illinois Chicago, Chicago, IL, 60607, USA.",
+        "Department of Chemistry and Department of Physics, University of Illinois Chicago, Chicago, IL, 60607, USA; Department of Physics, University of Illinois Chicago, Chicago, IL, 60607, USA. Electronic address: hzhou43@uic.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Muhammedkutty, Fidha Nazreen Kunnath",
+        "short_name": "Muhammedkutty FNK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Department of Physics, University of Illinois Chicago, Chicago, IL, 60607, USA."
+        ]
+      },
+      {
+        "full_name": "MacAinsh, Matthew",
+        "short_name": "MacAinsh M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Department of Physics, University of Illinois Chicago, Chicago, IL, 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Department of Physics, University of Illinois Chicago, Chicago, IL, 60607, USA; Department of Physics, University of Illinois Chicago, Chicago, IL, 60607, USA. Electronic address: hzhou43@uic.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/12 11:34",
+    "fetched_at": "2026-09-21 16:32:45"
+  },
+  "links": {
+    "cites": [
+      "42231907",
+      "42182867",
+      "42168213",
+      "42129207",
+      "41959284",
+      "41706900",
+      "41088755",
+      "41055109",
+      "41001635",
+      "40801528",
+      "40654683"
+    ],
+    "refs": [
+      "40028898",
+      "39952269",
+      "39531035",
+      "39513041",
+      "39475380",
+      "39469863",
+      "38885177",
+      "38297118",
+      "38294935",
+      "38217162",
+      "38177684",
+      "38174879",
+      "38118365",
+      "38039868",
+      "37468629",
+      "37341654",
+      "37108059",
+      "36353733",
+      "36302916",
+      "36084347",
+      "36084124",
+      "35950933",
+      "35725761",
+      "35655546",
+      "35649268",
+      "35446534",
+      "35130691",
+      "34680048",
+      "34464112",
+      "34265844",
+      "33579943",
+      "33577679",
+      "33554215",
+      "32929427",
+      "32585849",
+      "32323533",
+      "32192337",
+      "31914313",
+      "31877033",
+      "31714766",
+      "31476124",
+      "31259246",
+      "30527335",
+      "29735687",
+      "29295994",
+      "28805312",
+      "27819658",
+      "27399642",
+      "27356095",
+      "26592383",
+      "26574453",
+      "25764013",
+      "25400522",
+      "22744607",
+      "22492978",
+      "22154231",
+      "21714551",
+      "19917239",
+      "18435534",
+      "17981120",
+      "15235593",
+      "13517261",
+      "12575995"
+    ],
+    "similar": [
+      "40068541",
+      "33355572",
+      "30840442",
+      "39555603",
+      "34845619",
+      "40128232",
+      "38275091",
+      "39163306",
+      "38118365",
+      "32859072",
+      "33623120",
+      "38928405",
+      "40360271",
+      "33945530",
+      "25863585",
+      "25814479",
+      "39807013",
+      "35725761",
+      "34680048",
+      "40907012",
+      "29808548",
+      "32227937",
+      "39093570",
+      "36641212",
+      "38739602",
+      "40172236",
+      "28448138",
+      "38018910",
+      "32403216",
+      "37108059",
+      "29907037",
+      "33411518",
+      "41073429",
+      "25207671",
+      "36674958",
+      "30979035",
+      "30813315",
+      "32816485",
+      "26575776",
+      "31809054",
+      "33444020",
+      "40532196",
+      "31552948",
+      "34656328",
+      "31441158",
+      "28226222",
+      "28554553",
+      "30865832",
+      "34390736",
+      "28805390",
+      "29080468",
+      "30865820",
+      "38987470",
+      "24589355",
+      "39056166",
+      "39504303",
+      "33591749",
+      "41082321",
+      "37452752",
+      "36533639",
+      "39740355",
+      "38296708",
+      "28493424",
+      "41055109",
+      "35044776",
+      "36468450",
+      "36800279",
+      "36084347",
+      "31241933",
+      "29990433",
+      "33078950",
+      "37646172",
+      "29364151",
+      "25919886",
+      "38116756",
+      "37133846",
+      "30372613",
+      "33230318",
+      "33421906",
+      "32393642",
+      "35934194",
+      "39196930",
+      "29735687",
+      "28095698",
+      "39196938",
+      "30091924",
+      "37442414",
+      "33382616",
+      "32579908",
+      "31613621",
+      "35562983",
+      "34201262",
+      "34576338",
+      "33030249",
+      "31259246",
+      "36827446",
+      "30230839",
+      "36774359",
+      "33167839",
+      "32525675"
+    ],
+    "review": [
+      "40068541",
+      "33355572",
+      "30840442",
+      "39555603",
+      "38118365",
+      "25863585",
+      "25814479",
+      "34680048",
+      "39093570",
+      "32403216",
+      "30979035",
+      "31441158",
+      "28226222",
+      "28554553",
+      "34390736",
+      "29080468",
+      "33591749",
+      "39740355",
+      "38296708",
+      "29364151",
+      "33421906",
+      "39196938"
+    ],
+    "pmc": [
+      "12360891"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959-440X(25)00047-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40068541/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

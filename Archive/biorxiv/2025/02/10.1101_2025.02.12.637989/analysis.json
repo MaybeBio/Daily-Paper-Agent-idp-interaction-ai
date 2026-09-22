@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.12.637989",
+  "title": "Improved Graph-Based Antibody-Aware Epitope Prediction with Protein Language Model-Based Embeddings",
+  "authors": "Mansoor Ahmed; Sarwan Ali; Avais Jan; Imdad Ullah Khan; Murray Patterson",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-17",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用图卷积网络和蛋白语言模型预测B细胞表位，虽涉及蛋白互作界面预测，但对象非无序蛋白/IDR，且未涉及相分离或互作机制建模，方法可迁移性有限。",
+  "abstract": "The accurate identification of B-cell epitopes is critical in antibody design, diagnostics, and immunotherapies. Many in silico approaches have recently been proposed to predict epitopes, but these approaches struggle primarily because of the variational and conformational nature of epitopes. However, deep learning-based approaches have recently shown great promise in achieving better performance at the epitope prediction task. In this paper, we employ a graph convolutional network (GCN) coupled with pre-trained protein language model (PLM)-based embeddings for epitope prediction on a benchmark antibody-specific epitope prediction (AsEP) dataset. We explore the use of different PLM-embedding methods on the epitope prediction task and show that the choice of PLM embeddings impacts the performance. Specifically, we find that antibody-specific PLMs such as AntiBERTy and general PLMs such as ProtTrans and ESM-2 for antigens provide improved epitope prediction performance with an AUCROC of 0.65, precision of 0.28, and recall of 0.46. The source code is available at: https://github.com/mansoor181/walle-pp.git .",
+  "abstract_zh": "B细胞表位的准确识别在抗体设计、诊断和免疫治疗中至关重要。近年来，许多计算机模拟方法被提出用于预测表位，但这些方法主要因表位的变异性和构象特性而面临挑战。然而，基于深度学习的方法最近在表位预测任务中展现出实现更优性能的巨大潜力。在本文中，我们采用图卷积网络（GCN）结合预训练蛋白质语言模型（PLM）的嵌入，在基准抗体特异性表位预测（AsEP）数据集上进行表位预测。我们探索了不同PLM嵌入方法在表位预测任务中的应用，并表明PLM嵌入的选择会影响性能。具体而言，我们发现抗体特异性PLM如AntiBERTy和通用PLM如ProtTrans和ESM-2用于抗原时，提供了改进的表位预测性能，AUCROC为0.65，精确度为0.28，召回率为0.46。源代码可在以下网址获取：https://github.com/mansoor181/walle-pp.git。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.12.637989",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.12.637989",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.12.637989/index.html"
+}

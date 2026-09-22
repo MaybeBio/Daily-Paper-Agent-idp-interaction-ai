@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supporting information references.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions relative to evidence presented, and clarity of presentation. No assessment of editorial fit or publication priority beyond stated criteria.
+- **Shared manuscript claim summary** The authors propose that in human HSPB1, disordered N-terminal and C-terminal regions have coevolved with the Alpha-Crystallin domain to preserve regulatory interactions, specifically the 6VPFSLL11 motif (NTR) and 179ITIPV183 motif (CTR) binding to the lateral grooves of the ACD. They support this with evolutionary rate analyses of 474 orthologs and AlphaFold 2 structural modeling.
+- **Visible evidence base** Curated sequence dataset (474 orthologs), multiple sequence alignments, evolutionary rate calculations (protdist, Rate4Site), Kolmogorov-Smirnov tests, AF2 structural models (500 dimer predictions), interaction fingerprint analysis (ProLIF), distogram analysis from template-free AF2 runs, and reference to published experimental data (Clouser et al., Baughman et al.).
+- **Missing materials affecting confidence** No supplementary figures or tables were provided for direct inspection (S1 Fig, S1 Table, S2 Table, S3 Fig referenced but not included). No alignment files, raw evolutionary rate data, or AF2 model quality metrics beyond pLDDT summaries were available. No code or scripts for reproducibility were provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible and potentially interesting hypothesis regarding coevolution between disordered regions and the structured ACD in HSPB1. The authors combine evolutionary rate analysis with structural modeling to argue that functionally important motifs in disordered regions are under selective constraint. However, the evidence as presented has several gaps. The claim of "coevolution" is inferred from reduced evolutionary rates at interaction sites, but no formal coevolution analysis (e.g., correlated mutation analysis) is performed. The AF2 modeling, while supportive, is not definitive evidence of coevolution. The manuscript would benefit from clearer statistical comparisons, direct testing of the coevolution hypothesis, and more detailed presentation of supplementary data.
+- **Who would be interested in the results, and why** Researchers studying small heat shock proteins, molecular chaperones, protein evolution, intrinsically disordered proteins, and the structural basis of chaperone regulation. The work may also interest those using AlphaFold for evolutionary inference.
+- **Major strengths** 1. The study addresses a relevant question about the evolution of disordered regions in a disease-associated chaperone. 2. The use of a large, manually curated ortholog dataset is commendable. 3. The integration of evolutionary rates with structural modeling is a modern and potentially powerful approach. 4. The authors connect their findings to known disease-associated mutations, providing translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Conceptual validity of "coevolution" claim
+  - **Claim pointer** The central claim is that "these regions must have coevolved to maintain the critical interactions necessary for regulating its chaperone activity."
+  - **Evidence pointer** Results sections "Disordered regions show faster evolutionary rates than conserved ACD" and "Motifs in disordered regions interacting with the ACD show reduced evolutionary rates"; Discussion.
+  - **Concern** The term "coevolution" implies reciprocal evolutionary changes between interacting partners (e.g., correlated mutations between the ACD and the disordered motifs). The evidence presented only shows that certain positions in the disordered regions evolve slower than average, which is consistent with purifying selection but does not demonstrate coevolution. No analysis of correlated or compensatory mutations between the ACD and the motifs is performed. The authors infer coevolution from reduced rates, which is a logical leap.
+  - **Why it matters** The title and central thesis depend on the concept of coevolution. If the evidence only supports purifying selection on interaction motifs, the claim is overstated and the novelty is diminished.
+  - **Resolution test** The authors should either (a) perform a formal coevolution analysis (e.g., mutual information or direct coupling analysis between ACD and motif positions) or (b) revise the claim to "evolutionary constraint on interaction motifs" rather than "coevolution."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor of evolutionary rate comparisons
+  - **Claim pointer** "The KS statistic values for the comparisons between NTR and ACD, CTR and ACD, and NTR and CTR are 0.60, 0.80, and 0.31, respectively, with p-values < 1e-16 for all comparisons. These results confirm significant differences in the evolutionary rates of these regions."
+  - **Evidence pointer** Results section "Disordered regions show faster evolutionary rates than conserved ACD"; Figure 2.
+  - **Concern** The Kolmogorov-Smirnov test is used to compare distributions of pairwise evolutionary distances. However, these distances are not independent (each sequence pair contributes to multiple comparisons), which violates the assumption of the KS test. This pseudoreplication can inflate significance. The authors do not address this issue or provide an alternative statistical framework.
+  - **Why it matters** The conclusion that regions evolve at different rates is foundational to the paper. If the statistical test is invalid, the conclusion is not robustly supported.
+  - **Resolution test** The authors should use a method that accounts for phylogenetic non-independence (e.g., phylogenetic ANOVA or a permutation test that resamples sequences rather than pairs) or clearly justify why the KS test is appropriate despite the non-independence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of AlphaFold 2 results
+  - **Claim pointer** "In 98.2% of the predicted structures, the 6VPFSLL11 motif was in contact with one of the lateral grooves of the dimer through Van der Waals and H-bond interactions."
+  - **Evidence pointer** Results section "Structural modeling of human HSPB1 with AlphaFold 2 reveals insights on coevolution"; Figure 5.
+  - **Concern** The authors use AF2 to predict the dimer structure and then analyze contacts. However, AF2 is trained on evolutionary data and may predict contacts that reflect evolutionary coupling rather than actual physical interactions in a specific conformation. The authors acknowledge this indirectly but do not validate the AF2 predictions against experimental data for the wild-type dimer (only the phosphomimetic dimer structure is available). The high frequency of contact (98.2%) may be an artifact of the model's training.
+  - **Why it matters** The AF2 results are used as evidence for the "prevalence" of the interaction, which supports the coevolution claim. If the predictions are not validated, this line of evidence is weakened.
+  - **Resolution test** The authors should compare AF2 predictions with the experimental phosphomimetic dimer structure (if the NTR is resolved) or perform molecular dynamics simulations to assess the stability of the predicted contacts. Alternatively, they should temper their conclusions about the "prevalence" of the interaction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the coevolution mechanism
+  - **Claim pointer** "This coevolutionary mechanism may also extend to other small Heat Shock Proteins featuring interacting motifs in the NTR, CTR, or both, offering a new perspective for studying their molecular evolution."
+  - **Evidence pointer** Discussion.
+  - **Concern** The authors speculate that the coevolution mechanism extends to other sHSPs, but no data from other sHSPs are presented. The claim is speculative and not supported by the evidence in this manuscript.
+  - **Why it matters** This claim is part of the broader significance of the work. Without supporting data, it remains an untested hypothesis.
+  - **Resolution test** The authors should either provide preliminary data from other sHSPs or clearly label this as a hypothesis for future work, not a conclusion of this study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Methods section "Structural and evolutionary analysis"
+  - **Evidence pointer** Location not provided.
+  - **Issue** The description of the AF2 modeling is brief. Details such as the number of recycles, early stopping criteria, and whether the models were ranked by pLDDT or other metrics are not specified.
+  - **Required correction** Provide more details on AF2 settings and model selection criteria to ensure reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation of supplementary data
+  - **Affected element** Supporting information
+  - **Evidence pointer** S1 Fig, S1 Table, S2 Table, S3 Fig.
+  - **Issue** The manuscript references several supplementary items, but their content is not described in the text. This makes it difficult to assess the full evidence base.
+  - **Required correction** Briefly describe the content of each supplementary item in the main text or figure/table legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of disease-associated variants
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Location not provided.
+  - **Issue** The authors state that substitutions P7R, P7S, P182A, and P182L are associated with Charcot-Marie-Tooth disease, but they do not discuss whether these variants are known to affect the motif-ACD interaction experimentally.
+  - **Required correction** Add a brief discussion of any experimental evidence linking these variants to altered HSPB1 function or interaction, or state that such evidence is lacking.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Location not provided.
+  - **Issue** The term "coevolution" is used loosely. The authors should define what they mean by coevolution in this context (e.g., correlated evolution vs. shared selective pressure).
+  - **Required correction** Provide a clear definition of coevolution as used in this study and ensure the language is consistent with the evidence presented.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (coevolution claim not supported by formal analysis), R1-M2 (statistical test violates independence assumption), R1-M3 (AF2 predictions not validated against experimental data for wild-type dimer).
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The idea that disordered regions coevolve with structured domains is not entirely new, but applying it to HSPB1 with a combination of evolutionary rates and AF2 is a fresh angle.
+  - **Scientific importance** Moderate. The work has implications for understanding HSPB1 regulation and disease, but the conceptual advance is limited if the coevolution claim is not rigorously supported.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to evolutionary biologists and structural biologists studying sHSPs. The methods are specialized.
+  - **Technical soundness** The evolutionary rate analysis is standard, but the statistical approach has flaws. The AF2 methodology is appropriate but not fully validated. Overall, the technical execution is adequate but not exemplary.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the methods and results sections assume familiarity with evolutionary rate calculations and structural modeling.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claim of coevolution is not supported by the analysis presented. The statistical issues and lack of formal coevolution analysis are significant. The authors should revise the manuscript to either provide direct evidence of coevolution or temper their claims. If the technical concerns are addressed, the manuscript could be suitable for publication in a specialized journal.
+
+## Risk / unsupported claims
+- The claim of "coevolution" between the disordered regions and the ACD is not supported by formal coevolution analysis; only reduced evolutionary rates at interaction sites are shown.
+- The statement that "this coevolutionary mechanism may also extend to other small Heat Shock Proteins" is speculative and not supported by data in this manuscript.
+- The assertion that AF2 predictions reflect "coevolutionary signals" is inferred but not directly tested; AF2's training on evolutionary data makes this interpretation plausible but not proven.
+- The claim that the 6VPFSLL11 motif interacts with the lateral grooves in 98.2% of AF2 models is presented as evidence of prevalence, but the biological relevance of this frequency is not established without experimental validation.

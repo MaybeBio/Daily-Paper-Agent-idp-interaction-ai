@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41566033",
+  "title": "Sequence and length-scale dependent dynamics in biocondensates of highly charged disordered proteins.",
+  "authors": "Zhou, Haoke; Wu, Zongpei; Jiang, Lingxiang; Chen, Shensheng; Wang, Zhen-Gang",
+  "journal": "Communications chemistry",
+  "published_date": "2026-01-22",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过显式流体动力学和静电的分子动力学模拟，系统研究高电荷无序蛋白凝聚体中电荷序列对跨尺度动态的影响，揭示流体动力学与静电耦合及长度尺度依赖的黏度，为无序蛋白相分离凝聚体的动态机制建模提供了重要物理洞见。",
+  "abstract": "Highly-charged intrinsically disordered proteins (IDPs) underpin biomolecular condensate formation through liquid-liquid phase separation, yet the influence of charge sequences on the dynamics within the condensate phase remains poorly understood. Using extensive molecular dynamics simulations with explicit hydrodynamics and electrostatics, we study the dynamics in IDP condensates across different length and time scales, by systematically varying the charge sequences of the constituent IDPs. Contrary to the expectation that long-range interactions are heavily screened in dense semidilute polymer solutions, we find hydrodynamics and electrostatics significantly influence the dynamics in IDP condensates and their effects are strongly coupled to the charge sequence of the constituent IDPs. For condensates of low to intermediate-kappa IDPs, where kappa is a measure of the charge blockiness of the charge sequence, we find hydrodynamics dominates the dynamics up to the length scale of the chain and beyond. On the sub-chain level, segmental relaxation is highly coupled to intra-chain electrostatic correlations due to local charge patterns, where sections with more charge-balanced blocks have faster relaxation. Furthermore, the viscosity in IDP condensates is significantly length-scale-dependent, with condensates of high-kappa IDPs exhibiting large difference between microscopic and macroscopic viscosity. Such length-scale-dependent viscosity may be the key to understanding the experimentally observed extremely fast molecule-level dynamics in biocondensates of highly-charged IDPs. Our findings highlight the intricate relationship between charge sequences, hydrodynamics, and electrostatics in shaping the dynamics in IDP condensates at different length and time scales.",
+  "abstract_zh": "高电荷的内在无序蛋白质（IDPs）通过液-液相分离支撑生物分子凝聚体的形成，然而电荷序列对凝聚相内动力学的影响仍知之甚少。利用包含显式流体动力学和静电相互作用的广泛分子动力学模拟，我们通过系统改变组成IDPs的电荷序列，研究了不同长度和时间尺度下IDP凝聚体中的动力学。与在浓半稀释聚合物溶液中长程相互作用被高度屏蔽的预期相反，我们发现流体动力学和静电作用显著影响IDP凝聚体中的动力学，且其效应与组成IDPs的电荷序列强烈耦合。对于低至中等κ值的IDP凝聚体，其中κ是电荷序列电荷块状性的度量，我们发现流体动力学在链长度尺度及以上主导动力学。在亚链尺度上，段松弛与由局部电荷模式引起的链内静电相关性高度耦合，其中电荷更平衡的区块具有更快的松弛。此外，IDP凝聚体中的粘度显著依赖于长度尺度，高κ值IDPs的凝聚体在微观和宏观粘度之间表现出较大差异。这种长度尺度依赖的粘度可能是理解实验观察到的超高电荷IDPs生物凝聚体中极快分子级动力学的关键。我们的发现突显了电荷序列、流体动力学和静电作用在塑造不同长度和时间尺度下IDP凝聚体动力学中的复杂关系。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41566033/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41566033/",
+  "paper_page_path": "papers/pubmed/41566033/index.html"
+}

@@ -1,0 +1,386 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.30.667432",
+  "title": "Detecting Nuclear Pore Complex assembly in living cells",
+  "doi": "10.1101/2025.07.30.667432",
+  "abstract": "The formation of nuclear pore complexes (NPCs) — vital gateways regulating nuclear-cytoplasmic transport — is a highly orchestrated process requiring the integration of hundreds of nucleoporins into the nuclear envelope. A major challenge in studying this assembly process in living cells has been the difficulty to distinguish newly forming NPCs from their mature counterparts. Here, we present a powerful nanobody-based approach that overcomes this limitation. We demonstrate that a nanobody targeting the nucleoporin Nic96 from Saccharomyces cerevisiae selectively binds newly synthesized Nic96 subcomplexes prior to its incorporation into NPCs in vivo . Importantly, nanobody-bound Nic96 is incorporated in NPCs, and expression of the nanobody does not disrupt nuclear transport, cell growth, or lifespan, nor does it show genetic interactions with known NPC assembly surveillance pathways — making it an ideal, non-perturbing tool to study NPC biogenesis in yeast. Illustrating the use of the Nic96 nanobody we report novel aspects of the early stages of assembly, including co-recruitment of Kap121 and VHH[Nic96] to putative assembly sites. In addition, we show local enrichment of newly synthesized nucleoporins on nuclear envelope proximal lipid droplets, including a specific subset of Pdr16- and Ldo16-positive lipid droplets near the nucleus-vacuole junction. When NPC assembly is delayed, association of Nic96 subcomplexes with lipid droplets increases. These findings illustrate how the strategy to pulse-label newly forming NPCs opens new avenues for dissecting the spatiotemporal regulation of NPC assembly and misassembly.",
+  "authors": [
+    "Veldsink AC",
+    "Fischer JS",
+    "Terpstra HM",
+    "Mannino PJ",
+    "de Lange EM",
+    "Hell S",
+    "van Benthem KJ",
+    "Saba LJ",
+    "Steen A",
+    "Vlijm R",
+    "Heinemann M",
+    "Weis K",
+    "Lusk CP",
+    "Veenhoff LM"
+  ],
+  "published_date": "2025-07-31",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.30.667432",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.30.667432.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1057873",
+    "raw_record": {
+      "id": "PPR1057873",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1057873"
+        ]
+      },
+      "doi": "10.1101/2025.07.30.667432",
+      "title": "Detecting Nuclear Pore Complex assembly in living cells",
+      "authorString": "Veldsink AC, Fischer JS, Terpstra HM, Mannino PJ, de Lange EM, Hell S, van Benthem KJ, Saba LJ, Steen A, Vlijm R, Heinemann M, Weis K, Lusk CP, Veenhoff LM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Veldsink AC",
+            "lastName": "Veldsink",
+            "firstName": "Annemiek",
+            "initials": "AC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Research Institute for the Biology of Ageing, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fischer JS",
+            "lastName": "Fischer",
+            "firstName": "Jonas",
+            "initials": "JS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8652-1813"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Terpstra HM",
+            "lastName": "Terpstra",
+            "firstName": "Hanna",
+            "initials": "HM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-5928-438X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mannino PJ",
+            "lastName": "Mannino",
+            "firstName": "Philip",
+            "initials": "PJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6950-2314"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, Yale School of Medicine, CT, New Haven, USA, 06520"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Lange EM",
+            "lastName": "de Lange",
+            "firstName": "Eline MF",
+            "initials": "EM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9213-3211"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Cell Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , Nijenborgh 7 , ,"
+                },
+                {
+                  "affiliation": "Molecular Biophysics, Zernike Institute for Advanced Materials, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hell S",
+            "lastName": "Hell",
+            "firstName": "Sophie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van Benthem KJ",
+            "lastName": "van Benthem",
+            "firstName": "Koen",
+            "initials": "KJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3841-2110"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Groningen Institute for Evolutionary Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saba LJ",
+            "lastName": "Saba",
+            "firstName": "Leila",
+            "initials": "LJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Research Institute for the Biology of Ageing, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Steen A",
+            "lastName": "Steen",
+            "firstName": "Anton",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1064-6038"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Research Institute for the Biology of Ageing, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vlijm R",
+            "lastName": "Vlijm",
+            "firstName": "Rifka",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biophysics, Zernike Institute for Advanced Materials, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heinemann M",
+            "lastName": "Heinemann",
+            "firstName": "Matthias",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Systems Biology, Groningen Biomolecular Sciences and Biotechnology Institute, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weis K",
+            "lastName": "Weis",
+            "firstName": "Karsten",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lusk CP",
+            "lastName": "Lusk",
+            "firstName": "Patrick",
+            "initials": "CP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, Yale School of Medicine, CT, New Haven, USA, 06520"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Veenhoff LM",
+            "lastName": "Veenhoff",
+            "firstName": "Liesbeth",
+            "initials": "LM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0158-4728"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Research Institute for the Biology of Ageing, , , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6950-2314"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9213-3211"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0158-4728"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1064-6038"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3841-2110"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8652-1813"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-5928-438X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The formation of nuclear pore complexes (NPCs) — vital gateways regulating nuclear-cytoplasmic transport — is a highly orchestrated process requiring the integration of hundreds of nucleoporins into the nuclear envelope. A major challenge in studying this assembly process in living cells has been the difficulty to distinguish newly forming NPCs from their mature counterparts. Here, we present a powerful nanobody-based approach that overcomes this limitation. We demonstrate that a nanobody targeting the nucleoporin Nic96 from  Saccharomyces cerevisiae selectively binds newly synthesized Nic96 subcomplexes prior to its incorporation into NPCs  in vivo . Importantly, nanobody-bound Nic96 is incorporated in NPCs, and expression of the nanobody does not disrupt nuclear transport, cell growth, or lifespan, nor does it show genetic interactions with known NPC assembly surveillance pathways — making it an ideal, non-perturbing tool to study NPC biogenesis in yeast. Illustrating the use of the Nic96 nanobody we report novel aspects of the early stages of assembly, including co-recruitment of Kap121 and VHH[Nic96] to putative assembly sites. In addition, we show local enrichment of newly synthesized nucleoporins on nuclear envelope proximal lipid droplets, including a specific subset of Pdr16- and Ldo16-positive lipid droplets near the nucleus-vacuole junction. When NPC assembly is delayed, association of Nic96 subcomplexes with lipid droplets increases. These findings illustrate how the strategy to pulse-label newly forming NPCs opens new avenues for dissecting the spatiotemporal regulation of NPC assembly and misassembly.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "193740",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/31/2025.07.30.667432.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.30.667432"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1057873"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1057873&type=FILE&fileName=EMS207716-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207716",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-08-01",
+      "firstPublicationDate": "2025-07-31",
+      "firstIndexDate": "2025-08-01",
+      "fullTextReceivedDate": "2025-08-09",
+      "hasEvaluations": "Y"
+    }
+  }
+}

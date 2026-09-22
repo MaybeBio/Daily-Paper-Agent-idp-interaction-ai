@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.12.01.470731",
+  "title": "Protein structure dynamic prediction: a Machine Learning/Molecular Dynamic approach to investigate the protein conformational sampling",
+  "authors": "Martina Audagnotto; Werngard Czechtizky; Leonardo De Maria; Helena Käck; Garegin Papoian; Lars Tornberg; Christian Tyrchan; Johan Ulander",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-01",
+  "window": {
+    "start": "2021-11-29",
+    "end": "2021-12-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文结合深度学习距离预测与分子动力学，研究蛋白质构象系综采样，虽对象非无序蛋白且未聚焦PPI，但其构象动态建模思路对IDR介导互作的机制建模有可迁移启发。",
+  "abstract": "Proteins exist in several different conformations. These structural changes are often associated with fluctuations at the residue level. Recent findings show that co-evolutionary analysis coupled with machine- learning techniques improves the precision by providing quantitative distance predictions between pairs of residues. The predicted statistical distance distribution from Multi Sequence Analysis (MSA) reveals the presence of different local maxima suggesting the flexibility of key residue pairs. Here we investigate the ability of the residue-residue distance prediction to provide insights into the protein conformational ensemble. We combine deep learning approaches with mechanistic modeling to a set of proteins that experimentally showed conformational changes. The predicted protein models were filtered based on energy scores, RMSD clustering, and the centroids selected as the lowest energy structure per cluster. The models were compared to the experimental-Molecular Dynamics (MD) relaxed structure by analyzing the backbone residue torsional distribution and the sidechain orientations. Our pipeline not only allows us to retrieve the global experimental folding but also the experimental structural dynamics. We show the potential correlation between the experimental structure dynamics and the predicted model ensemble demonstrating the susceptibility of the current state-of-the-art methods in protein folding and dynamics prediction and pointing out the areas of improvement.",
+  "abstract_zh": "蛋白质存在于多种不同的构象中。这些结构变化通常与残基水平的波动相关。近期研究发现，协同进化分析结合机器学习技术，通过提供残基对之间的定量距离预测，提高了精度。来自多序列分析（MSA）的预测统计距离分布揭示了不同局部最大值的存在，表明关键残基对的灵活性。在此，我们研究了残基-残基距离预测提供蛋白质构象集合洞察的能力。我们将深度学习方法与机制建模相结合，应用于一组实验显示构象变化的蛋白质。预测的蛋白质模型基于能量分数、RMSD聚类进行筛选，并选择每个聚类中能量最低的结构作为质心。通过分析主链残基扭转分布和侧链取向，将模型与实验-分子动力学（MD）松弛结构进行比较。我们的流程不仅能够恢复全局实验折叠，还能恢复实验结构动力学。我们展示了实验结构动力学与预测模型集合之间的潜在相关性，证明了当前最先进方法在蛋白质折叠和动力学预测中的敏感性，并指出了改进领域。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.12.01.470731",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.12.01.470731",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.12.01.470731/index.html"
+}

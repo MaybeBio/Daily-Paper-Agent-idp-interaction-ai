@@ -1,0 +1,390 @@
+{
+  "identity": {
+    "pmid": "35408906",
+    "doi": "10.3390/ijms23073547",
+    "title": "In Silico Characterisation of the Late Embryogenesis Abundant (LEA) Protein Families and Their Role in Desiccation Tolerance in Ramonda serbica Panc."
+  },
+  "content": {
+    "abstract": "Ramonda serbica Panc. is an ancient resurrection plant able to survive a long desiccation period and recover metabolic functions upon watering. The accumulation of protective late embryogenesis abundant proteins (LEAPs) is a desiccation tolerance hallmark. To propose their role in R. serbica desiccation tolerance, we structurally characterised LEAPs and evaluated LEA gene expression levels in hydrated and desiccated leaves. By integrating de novo transcriptomics and homologues LEAP domains, 318 R. serbica LEAPs were identified and classified according to their conserved motifs and phylogeny. The in silico analysis revealed that hydrophilic LEA4 proteins exhibited an exceptionally high tendency to form amphipathic alpha-helices. The most abundant, atypical LEA2 group contained more hydrophobic proteins predicted to fold into the defined globular domains. Within the desiccation-upregulated LEA genes, the majority encoded highly disordered DEH1, LEA1, LEA4.2, and LEA4.3 proteins, while the greatest portion of downregulated genes encoded LEA2.3 and LEA2.5 proteins. While dehydrins might chelate metals and bind DNA under water deficit, other intrinsically disordered LEAPs might participate in forming intracellular proteinaceous condensates or adopt amphipathic alpha-helical conformation, enabling them to stabilise desiccation-sensitive proteins and membranes. This comprehensive LEAPs structural characterisation is essential to understanding their function and regulation during desiccation aiming at crop drought tolerance improvement.",
+    "keywords": [
+      "3D protein structure modelling",
+      "de novo transcriptome assembly",
+      "differentially expressed gene analysis",
+      "drought",
+      "intrinsically disordered proteins",
+      "liquid-liquid phase separation",
+      "resurrection plants",
+      "secondary structure prediction"
+    ],
+    "mesh_terms": [
+      "*Craterostigma",
+      "*Desiccation",
+      "Embryonic Development",
+      "Plant Leaves/metabolism",
+      "Plant Proteins/genetics/metabolism",
+      "Water/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pantelic, Ana",
+        "Stevanovic, Strahinja",
+        "Komic, Sonja Milic",
+        "Kilibarda, Natasa",
+        "Vidovic, Marija"
+      ],
+      "short_names": [
+        "Pantelic A",
+        "Stevanovic S",
+        "Komic SM",
+        "Kilibarda N",
+        "Vidovic M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6611-2457",
+        "ORCID: 0000-0002-4832-8668",
+        "ORCID: 0000-0001-5855-7192"
+      ],
+      "affiliations": [
+        "Laboratory for Plant Molecular Biology, Institute of Molecular Genetics and Genetic Engineering, University of Belgrade, Vojvode Stepe 444a, 11042 Belgrade, Serbia.",
+        "Laboratory for Plant Molecular Biology, Institute of Molecular Genetics and Genetic Engineering, University of Belgrade, Vojvode Stepe 444a, 11042 Belgrade, Serbia.",
+        "Department of Life Science, Institute for Multidisciplinary Research, University of Belgrade, Kneza Viseslava 1, 11000 Belgrade, Serbia.",
+        "Department of Pharmacy, Singidunum University, Danijelova 32, 11000 Belgrade, Serbia.",
+        "Laboratory for Plant Molecular Biology, Institute of Molecular Genetics and Genetic Engineering, University of Belgrade, Vojvode Stepe 444a, 11042 Belgrade, Serbia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pantelić, Ana",
+        "short_name": "Pantelić A",
+        "identifiers": [
+          "0000-0002-6611-2457"
+        ],
+        "affiliations": [
+          "Laboratory for Plant Molecular Biology, Institute of Molecular Genetics and Genetic Engineering, University of Belgrade, Vojvode Stepe 444a, 11042 Belgrade, Serbia."
+        ]
+      },
+      {
+        "full_name": "Stevanović, Strahinja",
+        "short_name": "Stevanović S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Plant Molecular Biology, Institute of Molecular Genetics and Genetic Engineering, University of Belgrade, Vojvode Stepe 444a, 11042 Belgrade, Serbia."
+        ]
+      },
+      {
+        "full_name": "Komić, Sonja Milić",
+        "short_name": "Komić SM",
+        "identifiers": [
+          "0000-0002-4832-8668"
+        ],
+        "affiliations": [
+          "Department of Life Science, Institute for Multidisciplinary Research, University of Belgrade, Kneza Višeslava 1, 11000 Belgrade, Serbia."
+        ]
+      },
+      {
+        "full_name": "Kilibarda, Nataša",
+        "short_name": "Kilibarda N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Singidunum University, Danijelova 32, 11000 Belgrade, Serbia."
+        ]
+      },
+      {
+        "full_name": "Vidović, Marija",
+        "short_name": "Vidović M",
+        "identifiers": [
+          "0000-0001-5855-7192"
+        ],
+        "affiliations": [
+          "Laboratory for Plant Molecular Biology, Institute of Molecular Genetics and Genetic Engineering, University of Belgrade, Vojvode Stepe 444a, 11042 Belgrade, Serbia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Mar 24",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/13 06:00",
+    "fetched_at": "2026-09-20 09:34:47"
+  },
+  "links": {
+    "cites": [
+      "41463430",
+      "41053316",
+      "40989568",
+      "40941925",
+      "39795377",
+      "39519881",
+      "38429694",
+      "37907961",
+      "37482543",
+      "37223790",
+      "37176950",
+      "35567200"
+    ],
+    "refs": [
+      "35637307",
+      "34944414",
+      "34455597",
+      "34265844",
+      "34048569",
+      "33925342",
+      "33885785",
+      "33649767",
+      "33290554",
+      "33077592",
+      "33037906",
+      "32760115",
+      "32610443",
+      "32550105",
+      "32015543",
+      "31683819",
+      "31247397",
+      "31167414",
+      "30898848",
+      "30804511",
+      "30781418",
+      "30650107",
+      "30593000",
+      "30541446",
+      "30519646",
+      "30407531",
+      "30388835",
+      "29859470",
+      "29398840",
+      "29385548",
+      "29334890",
+      "28650260",
+      "28649262",
+      "28523013",
+      "28191739",
+      "28186245",
+      "28109185",
+      "27471509",
+      "27006402",
+      "26370084",
+      "25950237",
+      "25907569",
+      "25902549",
+      "25883141",
+      "25764263",
+      "25400646",
+      "25296175",
+      "25063469",
+      "25005920",
+      "24454318",
+      "23805145",
+      "23329690",
+      "21909508",
+      "21897131",
+      "21816040",
+      "21736589",
+      "21715386",
+      "21572440",
+      "21447997",
+      "20875393",
+      "20668063",
+      "20637181",
+      "20510170",
+      "20444235",
+      "20003500",
+      "19458158",
+      "19439573",
+      "19304878",
+      "19183287",
+      "18772351",
+      "18662927",
+      "18318901",
+      "17517783",
+      "17446895",
+      "17145717",
+      "16714303",
+      "16565295",
+      "16131509",
+      "15746276",
+      "15631617",
+      "15608168",
+      "15012294",
+      "14729214",
+      "14583099",
+      "12917402",
+      "12647817",
+      "12520011",
+      "12231998",
+      "12114590",
+      "11933069",
+      "11752314",
+      "11152613",
+      "10592235",
+      "10592173",
+      "10493868",
+      "8808585",
+      "8220448",
+      "8180497",
+      "7284317",
+      "3447015",
+      "1525475"
+    ],
+    "similar": [
+      "35408906",
+      "35567200",
+      "24974326",
+      "33037906",
+      "35702035",
+      "22791833",
+      "22996258",
+      "28730594",
+      "21231934",
+      "16898021",
+      "29334890",
+      "24043848",
+      "36843450",
+      "37474779",
+      "29934376",
+      "31681372",
+      "21676819",
+      "35327618",
+      "33901322",
+      "21632376",
+      "18248509",
+      "25262421",
+      "32107542",
+      "34554447",
+      "20002332",
+      "35955654",
+      "28982538",
+      "34903234",
+      "24454318",
+      "37176950",
+      "26025524",
+      "28131342",
+      "19014980",
+      "22833170",
+      "25005920",
+      "26922182",
+      "28258486",
+      "24431502",
+      "24697723",
+      "26002527",
+      "31350933",
+      "16133164",
+      "8155876",
+      "26607676",
+      "16667902",
+      "11743072",
+      "25450698",
+      "35793147",
+      "30407531",
+      "38307936",
+      "20668063",
+      "26376004",
+      "32017123",
+      "34455597",
+      "30816196",
+      "12164809",
+      "36182030",
+      "17526751",
+      "25638043",
+      "12644649",
+      "19408952",
+      "18791196",
+      "23978448",
+      "26700652",
+      "25244376",
+      "36499377",
+      "28622918",
+      "1421157",
+      "16461389",
+      "15302829",
+      "20684298",
+      "24196671",
+      "21447997",
+      "38429694",
+      "33077592",
+      "35009023",
+      "15546486",
+      "38285274",
+      "25907569",
+      "18482228",
+      "24735127",
+      "18318901",
+      "24841476",
+      "19052774",
+      "35872573",
+      "28351347",
+      "17913289",
+      "31952948",
+      "9869415",
+      "20444235",
+      "38659213",
+      "27006402",
+      "31363993",
+      "31247397",
+      "28650260",
+      "26633550",
+      "21815981",
+      "30388835",
+      "32550105",
+      "22615859",
+      "33647452",
+      "39204671"
+    ],
+    "review": [
+      "35408906",
+      "32107542",
+      "24454318",
+      "22833170",
+      "26002527",
+      "11743072",
+      "35793147",
+      "26376004",
+      "28622918",
+      "20684298",
+      "35009023"
+    ],
+    "pmc": [
+      "8998581"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23073547",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35408906/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35408906",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

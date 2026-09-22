@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37506796",
+  "title": "Intrinsic disorder may drive the interaction of PROS1 and MERTK in uveal melanoma.",
+  "authors": "Djulbegovic, Mak; Taylor Gonzalez, David J; Antonietti, Michael; Uversky, Vladimir N; Shields, Carol L; Karp, Carol L",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2023-07-29",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究用AlphaFold/ColabFold模拟PROS1与MERTK的PPI，并分析其内在无序区域及无序-有序转变区，直接聚焦IDR介导的互作机制建模，对无序蛋白互作预测有直接启发。",
+  "abstract": "BACKGROUND: Class 2 uveal melanomas are associated with the inactivation of the BRCA1 ((breast cancer type 1 susceptibility protein)-associated protein 1 (BAP1)) gene. Inactivation of BAP1 promotes the upregulation of vitamin K-dependent protein S (PROS1), which interacts with the tyrosine-protein kinase Mer (MERTK) receptor on M2 macrophages to induce an immunosuppressive environment. METHODS: We simulated the interaction of PROS1 with MERTK with ColabFold. We evaluated PROS1 and MERTK for the presence of intrinsically disordered protein regions (IDPRs) and disorder-to-order (DOT) regions to understand their protein-protein interaction (PPI). We first evaluated the structure of each protein with AlphaFold. We then analyzed specific sequence-based features of the PROS1 and MERTK with a suite of bioinformatics tools. RESULTS: With high-resolution, moderate confidence, we successfully modeled the interaction between PROS1 and MERTK (predicted local distance difference test score (pDLLT) = 70.68). Our structural analysis qualitatively demonstrated IDPRs (i.e., spaghetti-like entities) in PROS1 and MERK. PROS1 was 23.37 % disordered, and MERTK was 23.09 % disordered, classifying them as moderately disordered and flexible proteins. PROS1 was significantly enriched in cysteine, the most order-promoting residue (p-value <0.05). Our IUPred analysis demonstrated that there are two disorder-to-order transition (DOT) regions in PROS1. MERTK was significantly enriched in proline, the most disorder-promoting residue (p-value <0.05), but did not contain DOT regions. Our STRING analysis demonstrated that the PPI network between PROS1 and MERTK is more complex than their assumed one-to-one binding (p-value <2.0 x 10(-6)). CONCLUSION: Our findings present a novel prediction for the interaction between PROS1 and MERTK. Our findings show that PROS1 and MERTK contain elements of intrinsic disorder. PROS1 has two DOT regions that are attractive immunotherapy targets. We recommend that IDPRs and DOT regions found in PROS1 and MERTK should be considered when developing immunotherapies targeting this PPI.",
+  "abstract_zh": "背景：2级葡萄膜黑色素瘤与BRCA1（乳腺癌1型易感蛋白）相关蛋白1（BAP1）基因的失活相关。BAP1的失活促进维生素K依赖性蛋白S（PROS1）的上调，该蛋白与M2巨噬细胞上的酪氨酸蛋白激酶Mer（MERTK）受体相互作用，诱导免疫抑制环境。方法：我们使用ColabFold模拟了PROS1与MERTK的相互作用。我们评估了PROS1和MERTK中是否存在固有无序蛋白区域（IDPRs）及无序到有序（DOT）区域，以理解其蛋白质-蛋白质相互作用（PPI）。我们首先使用AlphaFold评估了每个蛋白质的结构。随后，我们利用一系列生物信息学工具分析了PROS1和MERTK的特定序列特征。结果：我们成功以高分辨率、中等置信度建模了PROS1与MERTK之间的相互作用（预测局部距离差异测试分数（pDLLT）= 70.68）。我们的结构分析定性展示了PROS1和MERTK中的IDPRs（即意大利面状实体）。PROS1的23.37%为无序，MERTK的23.09%为无序，将其归类为中度无序和柔性蛋白质。PROS1在半胱氨酸（最促进有序的残基）上显著富集（p值<0.05）。我们的IUPred分析表明，PROS1中存在两个无序到有序转变（DOT）区域。MERTK在脯氨酸（最促进无序的残基）上显著富集（p值<0.05），但不含DOT区域。我们的STRING分析表明，PROS1与MERTK之间的PPI网络比其假设的一对一结合更为复杂（p值<2.0 x 10(-6)）。结论：我们的发现为PROS1与MERTK之间的相互作用提供了新的预测。我们的发现表明，PROS1和MERTK含有内在无序元素。PROS1具有两个DOT区域，这些区域是有吸引力的免疫治疗靶点。我们建议，在开发针对此PPI的免疫疗法时，应考虑PROS1和MERTK中发现的IDPRs和DOT区域。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37506796/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37506796/",
+  "paper_page_path": "papers/pubmed/37506796/index.html"
+}

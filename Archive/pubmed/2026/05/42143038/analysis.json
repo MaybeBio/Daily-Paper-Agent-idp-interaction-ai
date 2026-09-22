@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42143038",
+  "title": "De novo design of peptides localizing at the interface of biomolecular condensates.",
+  "authors": "Schneider, Timo N; Gil-Garcia, Marcos; Buhler, Marco A; Santos, Lucas F; Faltova, Lenka; Guillen-Gosalbez, Gonzalo; Arosio, Paolo",
+  "journal": "Nature communications",
+  "published_date": "2026-05-17",
+  "window": {
+    "start": "2026-05-11",
+    "end": "2026-05-17"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合粗粒化模拟、机器学习和混合整数线性规划，从头设计定位于生物分子凝聚体界面的肽段，并以无序蛋白区域形成的凝聚体为靶标验证，直接聚焦IDR介导的相分离界面互作机制建模，与课题高度契合。",
+  "abstract": "The interface of biomolecular condensates plays a key role in processes such as protein aggregation and biochemical reactions, making it an attractive target for engineering condensates. However, the molecular grammar that drives preferential localization to condensate interfaces remains poorly understood. Here, we develop a computational pipeline that integrates high-throughput coarse-grained simulations, machine learning, and mixed-integer linear programming to design peptides that partition at the interfaces of defined condensate targets. We validated the workflow by designing and synthesizing peptides that localize at the interface of three distinct condensates formed by intrinsically disordered protein regions. These peptides exhibit surfactant-like architectures. Specifically, one tail inserts into the condensate and is enriched in aromatic residues, while the opposite tail is excluded from the dense phase, with its sequence varying according to the scaffold's net charge. Overall, our pipeline offers a general strategy for rationally designing interface-localizing peptides and for unraveling the governing design principles.",
+  "abstract_zh": "生物分子凝聚体的界面在蛋白质聚集和生化反应等过程中发挥着关键作用，使其成为工程化凝聚体的一个有吸引力的靶点。然而，驱动优先定位至凝聚体界面的分子语法仍知之甚少。在此，我们开发了一个计算流程，该流程整合了高通量粗粒化模拟、机器学习和混合整数线性规划，以设计在特定凝聚体靶标界面分配的肽段。我们通过设计和合成定位于三种由内在无序蛋白区域形成的不同凝聚体界面的肽段，验证了该工作流程。这些肽段表现出类似表面活性剂的结构。具体而言，一个尾部插入凝聚体并富含芳香族残基，而相对的尾部则被排除在致密相之外，其序列根据支架的净电荷而变化。总体而言，我们的流程提供了一种通用策略，用于合理设计界面定位肽段，并揭示其主导设计原理。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42143038/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42143038/",
+  "paper_page_path": "papers/pubmed/42143038/index.html"
+}

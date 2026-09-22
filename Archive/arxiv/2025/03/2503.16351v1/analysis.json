@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2503.16351v1",
+  "title": "Lyra: An Efficient and Expressive Subquadratic Architecture for Modeling Biological Sequences",
+  "authors": "Krithik Ramesh; Sameed M. Siddiqui; Albert Gu; Michael D. Mitzenmacher; Pardis C. Sabeti",
+  "journal": "",
+  "published_date": "2025-03-20",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 6,
+  "one_liner_zh": "提出高效次二次复杂度序列建模架构Lyra，在多种生物任务中达SOTA，包括无序蛋白区域功能预测和抗体结合等，但未深入无序蛋白互作机制建模，方法可迁移但对象与互作轴较弱。",
+  "abstract": "Deep learning architectures such as convolutional neural networks and Transformers have revolutionized biological sequence modeling, with recent advances driven by scaling up foundation and task-specific models. The computational resources and large datasets required, however, limit their applicability in biological contexts. We introduce Lyra, a subquadratic architecture for sequence modeling, grounded in the biological framework of epistasis for understanding sequence-to-function relationships. Mathematically, we demonstrate that state space models efficiently capture global epistatic interactions and combine them with projected gated convolutions for modeling local relationships. We demonstrate that Lyra is performant across over 100 wide-ranging biological tasks, achieving state-of-the-art (SOTA) performance in many key areas, including protein fitness landscape prediction, biophysical property prediction (e.g. disordered protein region functions) peptide engineering applications (e.g. antibody binding, cell-penetrating peptide prediction), RNA structure analysis, RNA function prediction, and CRISPR guide design. It achieves this with orders-of-magnitude improvements in inference speed and reduction in parameters (up to 120,000-fold in our tests) compared to recent biology foundation models. Using Lyra, we were able to train and run every task in this study on two or fewer GPUs in under two hours, democratizing access to biological sequence modeling at SOTA performance, with potential applications to many fields.",
+  "abstract_zh": "卷积神经网络和Transformer等深度学习架构已经彻底改变了生物序列建模，近期进展主要由扩大基础模型和任务特定模型的规模所驱动。然而，所需的计算资源和大型数据集限制了它们在生物学背景下的适用性。我们引入了Lyra，一种用于序列建模的次二次架构，其基础是理解序列-功能关系的上位性（epistasis）生物学框架。在数学上，我们证明了状态空间模型能高效捕获全局上位性相互作用，并将其与投影门控卷积相结合，用于建模局部关系。我们证明Lyra在超过100项广泛的生物学任务中表现出色，在多个关键领域达到最先进（SOTA）性能，包括蛋白质适应度景观预测、生物物理性质预测（如无序蛋白区域功能）、肽工程应用（如抗体结合、细胞穿透肽预测）、RNA结构分析、RNA功能预测以及CRISPR引导设计。与近期生物学基础模型相比，它在推理速度上实现了数量级的提升，并在参数数量上大幅减少（在我们的测试中最多减少120,000倍）。利用Lyra，我们能够在两个或更少的GPU上、两小时内训练并运行本研究中的每项任务，从而以SOTA性能普及生物序列建模的访问，并具有应用于多个领域的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2503.16351v1",
+  "source_url": "https://arxiv.org/abs/2503.16351v1",
+  "paper_page_path": "papers/arxiv/2503.16351v1/index.html"
+}

@@ -1,0 +1,531 @@
+{
+  "identity": {
+    "pmid": "35796426",
+    "doi": "10.7554/eLife.71854",
+    "title": "An entropic safety catch controls hepatitis C virus entry and antibody resistance."
+  },
+  "content": {
+    "abstract": "E1 and E2 (E1E2), the fusion proteins of Hepatitis C Virus (HCV), are unlike that of any other virus yet described, and the detailed molecular mechanisms of HCV entry/fusion remain unknown. Hypervariable region-1 (HVR-1) of E2 is a putative intrinsically disordered protein tail. Here, we demonstrate that HVR-1 has an autoinhibitory function that suppresses the activity of E1E2 on free virions; this is dependent on its conformational entropy. Thus, HVR-1 is akin to a safety catch that prevents premature triggering of E1E2 activity. Crucially, this mechanism is turned off by host receptor interactions at the cell surface to allow entry. Mutations that reduce conformational entropy in HVR-1, or genetic deletion of HVR-1, turn off the safety catch to generate hyper-reactive HCV that exhibits enhanced virus entry but is thermally unstable and acutely sensitive to neutralising antibodies. Therefore, the HVR-1 safety catch controls the efficiency of virus entry and maintains resistance to neutralising antibodies. This discovery provides an explanation for the ability of HCV to persist in the face of continual immune assault and represents a novel regulatory mechanism that is likely to be found in other viral fusion machinery.",
+    "keywords": [
+      "antibodies",
+      "hepatitis c virus",
+      "infectious disease",
+      "microbiology",
+      "molecular biophysics",
+      "molecular dynamics",
+      "protein disorder",
+      "structural biology",
+      "virus entry",
+      "viruses"
+    ],
+    "mesh_terms": [
+      "Antibodies, Neutralizing",
+      "Entropy",
+      "*Hepacivirus/genetics/metabolism",
+      "*Hepatitis C",
+      "Humans",
+      "Viral Envelope Proteins/metabolism",
+      "Virus Internalization"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Stejskal, Lenka",
+        "Kalemera, Mphatso D",
+        "Lewis, Charlotte B",
+        "Palor, Machaela",
+        "Walker, Lucas",
+        "Daviter, Tina",
+        "Lees, William D",
+        "Moss, David S",
+        "Kremyda-Vlachou, Myrto",
+        "Kozlakidis, Zisis",
+        "Gallo, Giulia",
+        "Bailey, Dalan",
+        "Rosenberg, William",
+        "Illingworth, Christopher J R",
+        "Shepherd, Adrian J",
+        "Grove, Joe"
+      ],
+      "short_names": [
+        "Stejskal L",
+        "Kalemera MD",
+        "Lewis CB",
+        "Palor M",
+        "Walker L",
+        "Daviter T",
+        "Lees WD",
+        "Moss DS",
+        "Kremyda-Vlachou M",
+        "Kozlakidis Z",
+        "Gallo G",
+        "Bailey D",
+        "Rosenberg W",
+        "Illingworth CJR",
+        "Shepherd AJ",
+        "Grove J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9461-1117",
+        "ORCID: 0000-0002-5640-2266",
+        "ORCID: 0000-0002-2732-2304",
+        "ORCID: 0000-0002-0030-2784",
+        "ORCID: 0000-0003-0194-8613",
+        "ORCID: 0000-0001-5390-7579"
+      ],
+      "affiliations": [
+        "Institute of Immunity and Transplantation, Division of Infection and Immunity, University College London, London, United Kingdom.",
+        "Institute of Structural and Molecular Biology, Birkbeck College, London, United Kingdom.",
+        "Institute of Immunity and Transplantation, Division of Infection and Immunity, University College London, London, United Kingdom.",
+        "MRC-University of Glasgow Centre for Virus Research, Glasgow, United Kingdom.",
+        "Institute of Immunity and Transplantation, Division of Infection and Immunity, University College London, London, United Kingdom.",
+        "Institute of Immunity and Transplantation, Division of Infection and Immunity, University College London, London, United Kingdom.",
+        "Institute of Structural and Molecular Biology, Birkbeck College, London, United Kingdom.",
+        "Shared Research Facilities, The Institute of Cancer Research, London, United Kingdom.",
+        "Institute of Structural and Molecular Biology, Birkbeck College, London, United Kingdom.",
+        "Institute of Structural and Molecular Biology, Birkbeck College, London, United Kingdom.",
+        "Division of Infection and Immunity, University College London, London, United Kingdom.",
+        "International Agency for Research on Cancer, World Health Organization, Lyon, France.",
+        "The Pirbright Institute, Pirbright, United Kingdom.",
+        "The Pirbright Institute, Pirbright, United Kingdom.",
+        "Division of Medicine, Institute for Liver and Digestive Health, University College London, London, United Kingdom.",
+        "MRC-University of Glasgow Centre for Virus Research, Glasgow, United Kingdom.",
+        "Department of Genetics, University of Cambridge, Cambridge, United Kingdom.",
+        "Institut fur Biologische Physik, Universitat zu Koln, Cologne, Germany.",
+        "MRC Biostatistics Unit, University of Cambridge, Cambridge, United Kingdom.",
+        "Institute of Structural and Molecular Biology, Birkbeck College, London, United Kingdom.",
+        "Institute of Immunity and Transplantation, Division of Infection and Immunity, University College London, London, United Kingdom.",
+        "MRC-University of Glasgow Centre for Virus Research, Glasgow, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Stejskal, Lenka",
+        "short_name": "Stejskal L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Immunity and Transplantation, Division of Infection and Immunity, University College London, London, United Kingdom.",
+          "Institute of Structural and Molecular Biology, Birkbeck College, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Kalemera, Mphatso D",
+        "short_name": "Kalemera MD",
+        "identifiers": [
+          "0000-0001-9461-1117"
+        ],
+        "affiliations": [
+          "Institute of Immunity and Transplantation, Division of Infection and Immunity, University College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Lewis, Charlotte B",
+        "short_name": "Lewis CB",
+        "identifiers": [],
+        "affiliations": [
+          "MRC-University of Glasgow Centre for Virus Research, Glasgow, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Palor, Machaela",
+        "short_name": "Palor M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Immunity and Transplantation, Division of Infection and Immunity, University College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Walker, Lucas",
+        "short_name": "Walker L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Immunity and Transplantation, Division of Infection and Immunity, University College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Daviter, Tina",
+        "short_name": "Daviter T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural and Molecular Biology, Birkbeck College, London, United Kingdom.",
+          "Shared Research Facilities, The Institute of Cancer Research, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Lees, William D",
+        "short_name": "Lees WD",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural and Molecular Biology, Birkbeck College, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Moss, David S",
+        "short_name": "Moss DS",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Structural and Molecular Biology, Birkbeck College, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Kremyda-Vlachou, Myrto",
+        "short_name": "Kremyda-Vlachou M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Infection and Immunity, University College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Kozlakidis, Zisis",
+        "short_name": "Kozlakidis Z",
+        "identifiers": [],
+        "affiliations": [
+          "International Agency for Research on Cancer, World Health Organization, Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Gallo, Giulia",
+        "short_name": "Gallo G",
+        "identifiers": [],
+        "affiliations": [
+          "The Pirbright Institute, Pirbright, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Bailey, Dalan",
+        "short_name": "Bailey D",
+        "identifiers": [
+          "0000-0002-5640-2266"
+        ],
+        "affiliations": [
+          "The Pirbright Institute, Pirbright, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Rosenberg, William",
+        "short_name": "Rosenberg W",
+        "identifiers": [
+          "0000-0002-2732-2304"
+        ],
+        "affiliations": [
+          "Division of Medicine, Institute for Liver and Digestive Health, University College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Illingworth, Christopher J R",
+        "short_name": "Illingworth CJR",
+        "identifiers": [
+          "0000-0002-0030-2784"
+        ],
+        "affiliations": [
+          "MRC-University of Glasgow Centre for Virus Research, Glasgow, United Kingdom.",
+          "Department of Genetics, University of Cambridge, Cambridge, United Kingdom.",
+          "Institut für Biologische Physik, Universität zu Köln, Cologne, Germany.",
+          "MRC Biostatistics Unit, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Shepherd, Adrian J",
+        "short_name": "Shepherd AJ",
+        "identifiers": [
+          "0000-0003-0194-8613"
+        ],
+        "affiliations": [
+          "Institute of Structural and Molecular Biology, Birkbeck College, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Grove, Joe",
+        "short_name": "Grove J",
+        "identifiers": [
+          "0000-0001-5390-7579"
+        ],
+        "affiliations": [
+          "Institute of Immunity and Transplantation, Division of Infection and Immunity, University College London, London, United Kingdom.",
+          "MRC-University of Glasgow Centre for Virus Research, Glasgow, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2022 Jul 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/08 06:00",
+    "fetched_at": "2026-09-20 11:48:06"
+  },
+  "links": {
+    "cites": [
+      "42504823",
+      "38793684",
+      "37774128",
+      "37565536",
+      "37034976",
+      "36702826",
+      "36434005",
+      "34280245"
+    ],
+    "refs": [
+      "34526719",
+      "34166617",
+      "33431677",
+      "33162957",
+      "33147126",
+      "32923643",
+      "32868923",
+      "32754640",
+      "32634411",
+      "32386595",
+      "32109245",
+      "31408439",
+      "31371616",
+      "31116791",
+      "31040211",
+      "30883541",
+      "30613781",
+      "30439341",
+      "30439340",
+      "30420606",
+      "29967619",
+      "29951061",
+      "29904384",
+      "29758309",
+      "29544098",
+      "29522750",
+      "29090272",
+      "28512091",
+      "28469084",
+      "28235200",
+      "28235087",
+      "28207910",
+      "27801516",
+      "27791171",
+      "27791120",
+      "27630236",
+      "27455304",
+      "27351277",
+      "27279607",
+      "27152966",
+      "26248546",
+      "25931108",
+      "25790756",
+      "25531225",
+      "25525789",
+      "25500884",
+      "25473061",
+      "25224686",
+      "25142595",
+      "24990994",
+      "24695404",
+      "24553139",
+      "24288331",
+      "24257605",
+      "24018384",
+      "23783631",
+      "23665034",
+      "23618766",
+      "23300734",
+      "23084910",
+      "23079381",
+      "22846920",
+      "22503792",
+      "22492964",
+      "21737455",
+      "21731494",
+      "21543495",
+      "21516087",
+      "21123377",
+      "20617177",
+      "20357091",
+      "20237087",
+      "19451168",
+      "19343205",
+      "19321602",
+      "19182773",
+      "18829747",
+      "17766372",
+      "17325668",
+      "17258731",
+      "17215280",
+      "17005647",
+      "16912317",
+      "16809302",
+      "16476701",
+      "16439530",
+      "16357862",
+      "16200636",
+      "15947137",
+      "15596857",
+      "15264254",
+      "12913001",
+      "12761383",
+      "12356718",
+      "9794763"
+    ],
+    "similar": [
+      "35796426",
+      "32109245",
+      "24038151",
+      "24990994",
+      "28179528",
+      "31116791",
+      "30068644",
+      "26699643",
+      "24965471",
+      "29755477",
+      "26537674",
+      "34403905",
+      "31462563",
+      "28303031",
+      "29505618",
+      "9882313",
+      "21555519",
+      "28031364",
+      "28512091",
+      "26041282",
+      "32554700",
+      "21849281",
+      "21147916",
+      "18355410",
+      "29253863",
+      "30319614",
+      "36519897",
+      "26278021",
+      "20926639",
+      "27574733",
+      "28221101",
+      "21325403",
+      "8938159",
+      "32386595",
+      "32923643",
+      "26246575",
+      "29631174",
+      "28235087",
+      "27795422",
+      "12093180",
+      "29892287",
+      "19302336",
+      "21768113",
+      "24257605",
+      "20844034",
+      "30593644",
+      "24109215",
+      "26404951",
+      "31178869",
+      "22503792",
+      "22927442",
+      "20691736",
+      "19171049",
+      "29321304",
+      "7595420",
+      "30439392",
+      "27121372",
+      "35613596",
+      "16955684",
+      "23877701",
+      "15325070",
+      "23152512",
+      "39232163",
+      "23908491",
+      "27279607",
+      "15308717",
+      "37407593",
+      "35837406",
+      "32878891",
+      "28100619",
+      "33147126",
+      "23429668",
+      "17668556",
+      "11282207",
+      "17166909",
+      "29128754",
+      "22511875",
+      "38174935",
+      "20838466",
+      "30487284",
+      "18718838",
+      "27933781",
+      "29074219",
+      "27667373",
+      "34526719",
+      "23335805",
+      "29467319",
+      "23647953",
+      "40193609",
+      "23150224",
+      "17919789",
+      "25672345",
+      "31068427",
+      "38793684",
+      "25142595",
+      "33431677",
+      "7508488",
+      "17507469",
+      "15662481",
+      "26224633"
+    ],
+    "review": [
+      "35796426",
+      "29755477",
+      "34403905",
+      "30319614",
+      "29892287",
+      "16955684",
+      "15325070",
+      "23429668",
+      "27933781",
+      "23647953"
+    ],
+    "pmc": [
+      "9333995"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/hepatitisc.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Hepatitis C"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35796426/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35796426",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.71854",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

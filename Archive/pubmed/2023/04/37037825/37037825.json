@@ -1,0 +1,594 @@
+{
+  "identity": {
+    "pmid": "37037825",
+    "doi": "10.1038/s41467-023-37233-1",
+    "title": "Function and dynamics of the intrinsically disordered carboxyl terminus of beta2 adrenergic receptor."
+  },
+  "content": {
+    "abstract": "Advances in structural biology have provided important mechanistic insights into signaling by the transmembrane core of G-protein coupled receptors (GPCRs); however, much less is known about intrinsically disordered regions such as the carboxyl terminus (CT), which is highly flexible and not visible in GPCR structures. The beta(2) adrenergic receptor's (beta(2)AR) 71 amino acid CT is a substrate for GPCR kinases and binds beta-arrestins to regulate signaling. Here we show that the beta(2)AR CT directly inhibits basal and agonist-stimulated signaling in cell lines lacking beta-arrestins. Combining single-molecule fluorescence resonance energy transfer (FRET), NMR spectroscopy, and molecular dynamics simulations, we reveal that the negatively charged beta(2)AR-CT serves as an autoinhibitory factor via interacting with the positively charged cytoplasmic surface of the receptor to limit access to G-proteins. The stability of this interaction is influenced by agonists and allosteric modulators, emphasizing that the CT plays important role in allosterically regulating GPCR activation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Signal Transduction",
+      "beta-Arrestins/metabolism",
+      "Cell Line",
+      "*Receptors, G-Protein-Coupled/metabolism",
+      "Receptors, Adrenergic/metabolism",
+      "Receptors, Adrenergic, beta-2/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Heng, Jie",
+        "Hu, Yunfei",
+        "Perez-Hernandez, Guillermo",
+        "Inoue, Asuka",
+        "Zhao, Jiawei",
+        "Ma, Xiuyan",
+        "Sun, Xiaoou",
+        "Kawakami, Kouki",
+        "Ikuta, Tatsuya",
+        "Ding, Jienv",
+        "Yang, Yujie",
+        "Zhang, Lujia",
+        "Peng, Sijia",
+        "Niu, Xiaogang",
+        "Li, Hongwei",
+        "Guixa-Gonzalez, Ramon",
+        "Jin, Changwen",
+        "Hildebrand, Peter W",
+        "Chen, Chunlai",
+        "Kobilka, Brian K"
+      ],
+      "short_names": [
+        "Heng J",
+        "Hu Y",
+        "Perez-Hernandez G",
+        "Inoue A",
+        "Zhao J",
+        "Ma X",
+        "Sun X",
+        "Kawakami K",
+        "Ikuta T",
+        "Ding J",
+        "Yang Y",
+        "Zhang L",
+        "Peng S",
+        "Niu X",
+        "Li H",
+        "Guixa-Gonzalez R",
+        "Jin C",
+        "Hildebrand PW",
+        "Chen C",
+        "Kobilka BK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9287-8704",
+        "ORCID: 0000-0003-0805-4049",
+        "ORCID: 0000-0002-2507-8619",
+        "ORCID: 0000-0002-8597-0609",
+        "ORCID: 0000-0003-0397-9800",
+        "ORCID: 0000-0002-1352-2540",
+        "ORCID: 0000-0003-0063-1104",
+        "ORCID: 0000-0002-0128-7766",
+        "ORCID: 0000-0001-5958-3990"
+      ],
+      "affiliations": [
+        "School of Medicine, Tsinghua University, Beijing, 100084, China.",
+        "Beijing Advanced Innovation Center for Structural Biology, Tsinghua University, Beijing, 100084, China.",
+        "Beijing Frontier Research Center for Biological Structure, Tsinghua University, Beijing, 100084, China.",
+        "Tsinghua-Peking Joint Center for Life Sciences, Tsinghua University, Beijing, 100084, China.",
+        "Beijing Nuclear Magnetic Resonance Center, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China.",
+        "Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Science, Wuhan, 430071, China.",
+        "Charite Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin and Humboldt-Universitat zu Berlin, Institute of Medical Physics and Biophysics, Chariteplatz 1, 10117, Berlin, Germany.",
+        "Graduate School of Pharmaceutical Sciences, Tohoku University, Sendai, Miyagi, 980-8578, Japan.",
+        "Tsinghua-Peking Joint Center for Life Sciences, Tsinghua University, Beijing, 100084, China.",
+        "School of Life Sciences, Tsinghua University, Beijing, 100084, China.",
+        "School of Medicine, Tsinghua University, Beijing, 100084, China.",
+        "School of Medicine, Tsinghua University, Beijing, 100084, China.",
+        "Graduate School of Pharmaceutical Sciences, Tohoku University, Sendai, Miyagi, 980-8578, Japan.",
+        "Graduate School of Pharmaceutical Sciences, Tohoku University, Sendai, Miyagi, 980-8578, Japan.",
+        "Beijing Nuclear Magnetic Resonance Center, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China.",
+        "College of Life Sciences, Peking University, Beijing, 100871, China.",
+        "Beijing Nuclear Magnetic Resonance Center, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China.",
+        "School of Life Sciences, Tsinghua University, Beijing, 100084, China.",
+        "School of Life Sciences, Tsinghua University, Beijing, 100084, China.",
+        "Beijing Nuclear Magnetic Resonance Center, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China.",
+        "Beijing Nuclear Magnetic Resonance Center, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China.",
+        "Condensed Matter Theory Group, Paul Scherrer Institute, CH-5232, Villigen, PSI, Switzerland.",
+        "Beijing Nuclear Magnetic Resonance Center, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China.",
+        "Charite Universitatsmedizin Berlin, corporate member of Freie Universitat Berlin and Humboldt-Universitat zu Berlin, Institute of Medical Physics and Biophysics, Chariteplatz 1, 10117, Berlin, Germany.",
+        "Institute of Medical Physics and Biophysics, University Leipzig, 04107, Leipzig, Germany.",
+        "Berlin Institute of Health, 10178, Berlin, Germany.",
+        "Beijing Advanced Innovation Center for Structural Biology, Tsinghua University, Beijing, 100084, China. chunlai@mail.tsinghua.edu.cn.",
+        "Beijing Frontier Research Center for Biological Structure, Tsinghua University, Beijing, 100084, China. chunlai@mail.tsinghua.edu.cn.",
+        "Tsinghua-Peking Joint Center for Life Sciences, Tsinghua University, Beijing, 100084, China. chunlai@mail.tsinghua.edu.cn.",
+        "School of Life Sciences, Tsinghua University, Beijing, 100084, China. chunlai@mail.tsinghua.edu.cn.",
+        "Department of Molecular and Cellular Physiology, Stanford University School of Medicine, Stanford, CA, 94305, USA. kobilka@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Heng, Jie",
+        "short_name": "Heng J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Tsinghua University, Beijing, 100084, China.",
+          "Beijing Advanced Innovation Center for Structural Biology, Tsinghua University, Beijing, 100084, China.",
+          "Beijing Frontier Research Center for Biological Structure, Tsinghua University, Beijing, 100084, China.",
+          "Tsinghua-Peking Joint Center for Life Sciences, Tsinghua University, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yunfei",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Nuclear Magnetic Resonance Center, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China.",
+          "Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Science, Wuhan, 430071, China."
+        ]
+      },
+      {
+        "full_name": "Pérez-Hernández, Guillermo",
+        "short_name": "Pérez-Hernández G",
+        "identifiers": [
+          "0000-0002-9287-8704"
+        ],
+        "affiliations": [
+          "Charité Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt-Universität zu Berlin, Institute of Medical Physics and Biophysics, Charitéplatz 1, 10117, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Inoue, Asuka",
+        "short_name": "Inoue A",
+        "identifiers": [
+          "0000-0003-0805-4049"
+        ],
+        "affiliations": [
+          "Graduate School of Pharmaceutical Sciences, Tohoku University, Sendai, Miyagi, 980-8578, Japan."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jiawei",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Tsinghua-Peking Joint Center for Life Sciences, Tsinghua University, Beijing, 100084, China.",
+          "School of Life Sciences, Tsinghua University, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xiuyan",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Tsinghua University, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xiaoou",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Tsinghua University, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Kawakami, Kouki",
+        "short_name": "Kawakami K",
+        "identifiers": [
+          "0000-0002-2507-8619"
+        ],
+        "affiliations": [
+          "Graduate School of Pharmaceutical Sciences, Tohoku University, Sendai, Miyagi, 980-8578, Japan."
+        ]
+      },
+      {
+        "full_name": "Ikuta, Tatsuya",
+        "short_name": "Ikuta T",
+        "identifiers": [
+          "0000-0002-8597-0609"
+        ],
+        "affiliations": [
+          "Graduate School of Pharmaceutical Sciences, Tohoku University, Sendai, Miyagi, 980-8578, Japan."
+        ]
+      },
+      {
+        "full_name": "Ding, Jienv",
+        "short_name": "Ding J",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Nuclear Magnetic Resonance Center, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China.",
+          "College of Life Sciences, Peking University, Beijing, 100871, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yujie",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Nuclear Magnetic Resonance Center, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lujia",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Tsinghua University, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Sijia",
+        "short_name": "Peng S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Tsinghua University, Beijing, 100084, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Xiaogang",
+        "short_name": "Niu X",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Nuclear Magnetic Resonance Center, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China."
+        ]
+      },
+      {
+        "full_name": "Li, Hongwei",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Nuclear Magnetic Resonance Center, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China."
+        ]
+      },
+      {
+        "full_name": "Guixà-González, Ramon",
+        "short_name": "Guixà-González R",
+        "identifiers": [
+          "0000-0003-0397-9800"
+        ],
+        "affiliations": [
+          "Condensed Matter Theory Group, Paul Scherrer Institute, CH-5232, Villigen, PSI, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Jin, Changwen",
+        "short_name": "Jin C",
+        "identifiers": [
+          "0000-0002-1352-2540"
+        ],
+        "affiliations": [
+          "Beijing Nuclear Magnetic Resonance Center, College of Chemistry and Molecular Engineering, Peking University, Beijing, 100871, China."
+        ]
+      },
+      {
+        "full_name": "Hildebrand, Peter W",
+        "short_name": "Hildebrand PW",
+        "identifiers": [
+          "0000-0003-0063-1104"
+        ],
+        "affiliations": [
+          "Charité Universitätsmedizin Berlin, corporate member of Freie Universität Berlin and Humboldt-Universität zu Berlin, Institute of Medical Physics and Biophysics, Charitéplatz 1, 10117, Berlin, Germany.",
+          "Institute of Medical Physics and Biophysics, University Leipzig, 04107, Leipzig, Germany.",
+          "Berlin Institute of Health, 10178, Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Chen, Chunlai",
+        "short_name": "Chen C",
+        "identifiers": [
+          "0000-0002-0128-7766"
+        ],
+        "affiliations": [
+          "Beijing Advanced Innovation Center for Structural Biology, Tsinghua University, Beijing, 100084, China. chunlai@mail.tsinghua.edu.cn.",
+          "Beijing Frontier Research Center for Biological Structure, Tsinghua University, Beijing, 100084, China. chunlai@mail.tsinghua.edu.cn.",
+          "Tsinghua-Peking Joint Center for Life Sciences, Tsinghua University, Beijing, 100084, China. chunlai@mail.tsinghua.edu.cn.",
+          "School of Life Sciences, Tsinghua University, Beijing, 100084, China. chunlai@mail.tsinghua.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Kobilka, Brian K",
+        "short_name": "Kobilka BK",
+        "identifiers": [
+          "0000-0001-5958-3990"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Physiology, Stanford University School of Medicine, Stanford, CA, 94305, USA. kobilka@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Apr 10",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/11 06:00",
+    "fetched_at": "2026-09-20 21:13:04"
+  },
+  "links": {
+    "cites": [
+      "42538433",
+      "42463051",
+      "42439392",
+      "42091878",
+      "42062515",
+      "41454868",
+      "41187083",
+      "41041959",
+      "40973726",
+      "40927005",
+      "40667224",
+      "40645521",
+      "40593764",
+      "40280422",
+      "40154615",
+      "39919163",
+      "39869294",
+      "39746928",
+      "39693934",
+      "39638791",
+      "39554190",
+      "39468368",
+      "39013028",
+      "39008676",
+      "38985766",
+      "38947516",
+      "38867113",
+      "38748623",
+      "38641412",
+      "38600384",
+      "38332691",
+      "38077083",
+      "37892113",
+      "37645938",
+      "37569429",
+      "37208206"
+    ],
+    "refs": [
+      "34663067",
+      "33322210",
+      "33268549",
+      "33149304",
+      "32868434",
+      "32484557",
+      "32483378",
+      "31740855",
+      "31249059",
+      "31160049",
+      "31080070",
+      "31080064",
+      "30599712",
+      "30011005",
+      "29973731",
+      "29925258",
+      "29788355",
+      "29581292",
+      "29335412",
+      "29320734",
+      "28813418",
+      "28607487",
+      "28489817",
+      "28431242",
+      "28426733",
+      "28223524",
+      "27819658",
+      "26588361",
+      "26569370",
+      "26488642",
+      "25981665",
+      "25531225",
+      "25198166",
+      "24888500",
+      "24056936",
+      "23375259",
+      "23056231",
+      "22972754",
+      "21868357",
+      "21772288",
+      "21699508",
+      "21549313",
+      "21330366",
+      "21228869",
+      "21188472",
+      "20837485",
+      "20590599",
+      "19935667",
+      "19575467",
+      "19522502",
+      "19470481",
+      "19359576",
+      "18801735",
+      "18480818",
+      "18262662",
+      "17849009",
+      "17347144",
+      "16766620",
+      "15790574",
+      "15782185",
+      "15327956",
+      "15318002",
+      "12764156",
+      "12624524",
+      "11771996",
+      "11577089",
+      "11502890",
+      "10820006",
+      "10753752",
+      "10542263",
+      "10499588",
+      "9560162",
+      "8837779",
+      "8744570",
+      "8567630",
+      "8520220",
+      "7836357",
+      "7721803",
+      "3029101",
+      "2987243",
+      "2871555",
+      "2163110",
+      "1851762"
+    ],
+    "similar": [
+      "37037825",
+      "30131371",
+      "25043026",
+      "38194225",
+      "37490535",
+      "12668664",
+      "16280323",
+      "11117533",
+      "22728070",
+      "32019899",
+      "23629648",
+      "42538433",
+      "30254056",
+      "9145918",
+      "29581292",
+      "31978323",
+      "27908837",
+      "37774973",
+      "25395624",
+      "10097102",
+      "34757127",
+      "34802238",
+      "35196859",
+      "27007855",
+      "24319111",
+      "34853152",
+      "18801735",
+      "31362983",
+      "9422717",
+      "25537861",
+      "34580163",
+      "23879802",
+      "28130548",
+      "29146594",
+      "32096468",
+      "10196181",
+      "27226565",
+      "30707913",
+      "23201781",
+      "25981665",
+      "32571882",
+      "27187591",
+      "32786510",
+      "37844230",
+      "9341139",
+      "30919346",
+      "27362234",
+      "17675294",
+      "8702465",
+      "32868434",
+      "21868357",
+      "35625550",
+      "31740855",
+      "26324936",
+      "16687412",
+      "24561123",
+      "27330078",
+      "27409812",
+      "18086673",
+      "24534489",
+      "34106712",
+      "38985766",
+      "30969425",
+      "14599361",
+      "34663067",
+      "11309381",
+      "37864328",
+      "22611259",
+      "28607487",
+      "38391238",
+      "27342779",
+      "28813418",
+      "35352338",
+      "24351844",
+      "16038799",
+      "12379128",
+      "15634674",
+      "16319069",
+      "35275055",
+      "12473660",
+      "34455221",
+      "17925438",
+      "28467637",
+      "32515353",
+      "32692555",
+      "31855381",
+      "8837779",
+      "9924018",
+      "29588128",
+      "18435604",
+      "8553074",
+      "33257561",
+      "11356842",
+      "31774292",
+      "15843435",
+      "28339772",
+      "32326036",
+      "38719480",
+      "24338481",
+      "30301787"
+    ],
+    "review": [
+      "37037825",
+      "25537861",
+      "23201781",
+      "32571882",
+      "24534489",
+      "24351844"
+    ],
+    "pmc": [
+      "10085991"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-37233-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37037825/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37037825",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "42465487",
+    "doi": "10.64898/2026.07.02.736149",
+    "title": "Competing effects modulate the rate of poly(A) RNA deadenylation in a biomolecular condensate."
+  },
+  "content": {
+    "abstract": "The unique solvent milieu found in biomolecular condensates can control cellular enzymatic reactions and shift reaction kinetics by modulating reactant concentrations, structural dynamics, and enzyme activities. Here we explore the interplay of multiple regulatory factors within a condensate to control poly(A) RNA deadenylation, the first and rate-limiting step in mRNA turnover. The deadenylase CNOT7, a subunit of the CCR4-NOT deadenylation complex, localizes to cytoplasmic RNA granules and shows increased degradation activity in vitro in condensates formed by the C-terminal low complexity disordered region of CAPRIN1, a component of RNA granules. We use a combination of enzymatic assays, kinetic modeling, microscopy, Nuclear Magnetic Resonance (NMR) spectroscopy, and molecular dynamics simulations to deconvolute and define the components that underlie this enhancement. We found that enzyme and RNA are concentrated in condensates relative to buffer, which increases CNOT7 activity, while the equilibrium between CNOT7's active and inactive states remains unchanged. The concentration-dependent increase in enzymatic rates is counterbalanced by a substantial decrease in the enzyme's catalytic efficiency, likely due to slower diffusion of CNOT7 and RNA within the condensates, which lessens the probability of enzyme-substrate complex formation. Molecular dynamics simulations reveal CNOT7-CAPRIN1 interactions that rely on conserved CAPRIN1 sequence features, hinting at an evolutionarily conserved role for CAPRIN1 condensation. With this quantitative kinetic analysis, we describe the multifaceted mechanism behind regulation of CNOT7 deadenylation by a condensate environment.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Irwin, Rose M",
+        "Harkness, Robert W",
+        "Tsang, Brian",
+        "Liu, Zi Hao",
+        "Sun, Kunyang",
+        "Huang, Tian Hao",
+        "Head-Gordon, Teresa",
+        "Kay, Lewis E",
+        "Forman-Kay, Julie D"
+      ],
+      "short_names": [
+        "Irwin RM",
+        "Harkness RW",
+        "Tsang B",
+        "Liu ZH",
+        "Sun K",
+        "Huang TH",
+        "Head-Gordon T",
+        "Kay LE",
+        "Forman-Kay JD"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1147-4944",
+        "ORCID: 0000-0003-2095-9860",
+        "ORCID: 0000-0002-7615-5397",
+        "ORCID: 0000-0002-8357-8507",
+        "ORCID: 0000-0001-6472-1665",
+        "ORCID: 0009-0004-6506-3384",
+        "ORCID: 0000-0001-8265-972X"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Irwin, Rose M",
+        "short_name": "Irwin RM",
+        "identifiers": [
+          "0000-0002-1147-4944"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Harkness, Robert W",
+        "short_name": "Harkness RW",
+        "identifiers": [
+          "0000-0003-2095-9860"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Tsang, Brian",
+        "short_name": "Tsang B",
+        "identifiers": [
+          "0000-0002-7615-5397"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Liu, Zi Hao",
+        "short_name": "Liu ZH",
+        "identifiers": [
+          "0000-0002-8357-8507"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sun, Kunyang",
+        "short_name": "Sun K",
+        "identifiers": [
+          "0000-0001-6472-1665"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Huang, Tian Hao",
+        "short_name": "Huang TH",
+        "identifiers": [
+          "0009-0004-6506-3384"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Head-Gordon, Teresa",
+        "short_name": "Head-Gordon T",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kay, Lewis E",
+        "short_name": "Kay LE",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Forman-Kay, Julie D",
+        "short_name": "Forman-Kay JD",
+        "identifiers": [
+          "0000-0001-8265-972X"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jul 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/17 17:26",
+    "fetched_at": "2026-09-18 04:57:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42465487",
+      "25944446",
+      "31439799",
+      "39699231",
+      "39172789",
+      "24391663",
+      "23912807",
+      "40521608",
+      "31924127",
+      "35640718",
+      "37824065",
+      "38991204",
+      "19605561",
+      "26471122",
+      "34074792",
+      "26807845",
+      "37131735",
+      "35248544",
+      "38637545",
+      "11889047",
+      "40857360",
+      "41524628",
+      "41184513",
+      "20435044",
+      "40794831",
+      "22817755",
+      "26134871",
+      "36993212",
+      "41176196",
+      "11889048",
+      "36910576",
+      "42327241",
+      "41131140",
+      "20065043",
+      "37152278",
+      "41301481",
+      "25574774",
+      "31320642",
+      "22955276",
+      "39605385",
+      "41850298",
+      "36116370",
+      "39149291",
+      "36883003",
+      "31180491",
+      "34772789",
+      "27714489",
+      "40981365",
+      "40588121",
+      "18056425",
+      "40653653",
+      "20595394",
+      "41415473",
+      "34648259",
+      "42094516",
+      "36496075",
+      "36951092",
+      "37961424",
+      "42146575",
+      "40028898",
+      "38374449",
+      "42081454",
+      "29932901",
+      "41094266",
+      "36040869",
+      "30984545",
+      "12102557",
+      "39896463",
+      "41337585",
+      "16793774",
+      "21976065",
+      "37772963",
+      "17452359",
+      "30309886",
+      "15215893",
+      "41933903",
+      "39637853",
+      "39636939",
+      "16284618",
+      "34090478",
+      "37558691",
+      "37824078",
+      "36972455",
+      "37961422",
+      "40640131",
+      "42368024",
+      "23303381",
+      "25038453",
+      "23337855",
+      "17439972",
+      "31340047",
+      "29932902",
+      "37480229",
+      "24590800",
+      "42290133",
+      "40682822",
+      "40804711",
+      "40730570",
+      "32404348",
+      "41256622"
+    ],
+    "review": [
+      "42465487",
+      "24391663",
+      "22817755",
+      "41176196",
+      "37152278",
+      "25574774",
+      "36116370",
+      "34772789",
+      "12102557",
+      "37772963",
+      "40804711"
+    ],
+    "pmc": [
+      "13371035"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42465487/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-37",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.07.02.736149",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

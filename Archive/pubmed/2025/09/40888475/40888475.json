@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "40888475",
+    "doi": "10.7554/eLife.104238",
+    "title": "Development of D-box peptides to inhibit the anaphase-promoting complex/cyclosome."
+  },
+  "content": {
+    "abstract": "E3 ubiquitin ligases engage their substrates via 'degrons' - short linear motifs typically located within intrinsically disordered regions of substrates. As these enzymes are large, multi-subunit complexes that generally lack natural small-molecule ligands and are difficult to inhibit via conventional means, alternative strategies are needed to target them in diseases, and peptide-based inhibitors derived from degrons represent a promising approach. Here we explore peptide inhibitors of Cdc20, a substrate-recognition subunit and activator of the E3 ubiquitin ligase the anaphase-promoting complex/cyclosome (APC/C) that is essential in mitosis and consequently of interest as an anti-cancer target. APC/C engages substrates via degrons that include the 'destruction box' (D-box) motif. We used a rational design approach to construct binders containing unnatural amino acids aimed at better filling a hydrophobic pocket that contributes to the D-box binding site on the surface of Cdc20. We confirmed binding by thermal-shift assays and surface plasmon resonance and determined the structures of a number of the Cdc20-peptide complexes. Using a cellular thermal shift assay, we confirmed that the D-box peptides also bind to and stabilise Cdc20 in the cell. We found that the D-box peptides inhibit ubiquitination activity of APC/C(Cdc20) and are more potent than the small-molecule inhibitor Apcin. Lastly, these peptides function as portable degrons capable of driving the degradation of a fused fluorescent protein. Interestingly, we find that although inhibitory activity of the peptides correlates with Cdc20-binding affinity, degradation efficacy does not, which may be due to the complex nature of APC/C regulation and effects of degron binding of subunit recruitment and conformational changes. Our study lays the groundwork for the further development of these peptides as molecular therapeutics for blocking APC/C as well as potentially for harnessing the APC/C for targeted protein degradation.",
+    "keywords": [
+      "APC/C",
+      "E. coli",
+      "anaphase-promoting complex/cyclosome",
+      "biochemistry",
+      "chemical biology",
+      "degron",
+      "human",
+      "peptide inhibitor",
+      "protein-protein interaction",
+      "ubiquitin"
+    ],
+    "mesh_terms": [
+      "*Anaphase-Promoting Complex-Cyclosome/antagonists & inhibitors/metabolism",
+      "Humans",
+      "*Peptides/metabolism/pharmacology/chemistry",
+      "*Cdc20 Proteins/metabolism/antagonists & inhibitors/chemistry",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Eapen, Rohan",
+        "Okoye, Cynthia",
+        "Stubbs, Christopher",
+        "Schimpl, Marianne",
+        "Tischer, Thomas",
+        "Fisher, Eileen J",
+        "Zacharopoulou, Maria",
+        "Ferrer, Fernando",
+        "Barford, David",
+        "Spring, David R",
+        "Lindon, Catherine",
+        "Phillips, Christopher",
+        "Itzhaki, Laura S"
+      ],
+      "short_names": [
+        "Eapen R",
+        "Okoye C",
+        "Stubbs C",
+        "Schimpl M",
+        "Tischer T",
+        "Fisher EJ",
+        "Zacharopoulou M",
+        "Ferrer F",
+        "Barford D",
+        "Spring DR",
+        "Lindon C",
+        "Phillips C",
+        "Itzhaki LS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7269-3633",
+        "ORCID: 0000-0002-2373-5478",
+        "ORCID: 0000-0002-3660-2797",
+        "ORCID: 0000-0001-8810-950X",
+        "ORCID: 0000-0001-7355-2824",
+        "ORCID: 0000-0003-3554-2574",
+        "ORCID: 0000-0001-6504-2576"
+      ],
+      "affiliations": [
+        "Department of Pharmacology, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Pharmacology, University of Cambridge, Cambridge, United Kingdom.",
+        "AstraZeneca, Cambridge, United Kingdom.",
+        "AstraZeneca, Cambridge, United Kingdom.",
+        "MRC Laboratory of Molecular Biology, Cambridge, United Kingdom.",
+        "AstraZeneca, Cambridge, United Kingdom.",
+        "Department of Pharmacology, University of Cambridge, Cambridge, United Kingdom.",
+        "p53 Laboratory, Singapore, Singapore.",
+        "MRC Laboratory of Molecular Biology, Cambridge, United Kingdom.",
+        "Yusuf Hamid Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Pharmacology, University of Cambridge, Cambridge, United Kingdom.",
+        "AstraZeneca, Cambridge, United Kingdom.",
+        "Department of Pharmacology, University of Cambridge, Cambridge, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Eapen, Rohan",
+        "short_name": "Eapen R",
+        "identifiers": [
+          "0000-0001-7269-3633"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Okoye, Cynthia",
+        "short_name": "Okoye C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Stubbs, Christopher",
+        "short_name": "Stubbs C",
+        "identifiers": [
+          "0000-0002-2373-5478"
+        ],
+        "affiliations": [
+          "AstraZeneca, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Schimpl, Marianne",
+        "short_name": "Schimpl M",
+        "identifiers": [],
+        "affiliations": [
+          "AstraZeneca, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Tischer, Thomas",
+        "short_name": "Tischer T",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Fisher, Eileen J",
+        "short_name": "Fisher EJ",
+        "identifiers": [],
+        "affiliations": [
+          "AstraZeneca, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Zacharopoulou, Maria",
+        "short_name": "Zacharopoulou M",
+        "identifiers": [
+          "0000-0002-3660-2797"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Ferrer, Fernando",
+        "short_name": "Ferrer F",
+        "identifiers": [],
+        "affiliations": [
+          "p53 Laboratory, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Barford, David",
+        "short_name": "Barford D",
+        "identifiers": [
+          "0000-0001-8810-950X"
+        ],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Spring, David R",
+        "short_name": "Spring DR",
+        "identifiers": [
+          "0000-0001-7355-2824"
+        ],
+        "affiliations": [
+          "Yusuf Hamid Department of Chemistry, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Lindon, Catherine",
+        "short_name": "Lindon C",
+        "identifiers": [
+          "0000-0003-3554-2574"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Phillips, Christopher",
+        "short_name": "Phillips C",
+        "identifiers": [],
+        "affiliations": [
+          "AstraZeneca, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Itzhaki, Laura S",
+        "short_name": "Itzhaki LS",
+        "identifiers": [
+          "0000-0001-6504-2576"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2025 Sep 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/02 22:39",
+    "fetched_at": "2026-09-21 23:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39567505",
+      "36450448",
+      "35860655",
+      "35039540",
+      "34109183",
+      "32152539",
+      "31864160",
+      "31562243",
+      "30482618",
+      "30429481",
+      "29930256",
+      "29533229",
+      "29167309",
+      "28341713",
+      "27939943",
+      "27716480",
+      "27120157",
+      "27114510",
+      "26732515",
+      "26475525",
+      "25606571",
+      "25156254",
+      "25043029",
+      "24464857",
+      "24004664",
+      "23828940",
+      "23708605",
+      "23707760",
+      "23091007",
+      "22437499",
+      "21460798",
+      "21460441",
+      "21336306",
+      "21186364",
+      "21107322",
+      "20383002",
+      "20371356",
+      "19362536",
+      "19015261",
+      "18596038",
+      "18498748",
+      "18054235",
+      "17853878",
+      "15916960"
+    ],
+    "similar": [
+      "40888475",
+      "27120157",
+      "25156254",
+      "23091007",
+      "29883473",
+      "31562243",
+      "27716480",
+      "10632713",
+      "16455800",
+      "11553328",
+      "21107322",
+      "38844135",
+      "32152539",
+      "12956947",
+      "25540434",
+      "24004664",
+      "35860655",
+      "9651679",
+      "28366744",
+      "18556659",
+      "27226622",
+      "26716651",
+      "27509861",
+      "31945194",
+      "29432156",
+      "39231204",
+      "32431068",
+      "10733526",
+      "25383541",
+      "15916961",
+      "27522463",
+      "27114510",
+      "23979597",
+      "31101654",
+      "26573515",
+      "25825779",
+      "29343641",
+      "39614058",
+      "10500174",
+      "35952650",
+      "20733055",
+      "24930963",
+      "23160376",
+      "16921029",
+      "23288039",
+      "19286556",
+      "16878123",
+      "23707760",
+      "33137813",
+      "19475395",
+      "9734353",
+      "11562349",
+      "10848588",
+      "24100295",
+      "22079111",
+      "9637688",
+      "27939943",
+      "15649358",
+      "25669885",
+      "41130329",
+      "28189585",
+      "32165320",
+      "38776225",
+      "22437499",
+      "25505175",
+      "24464857",
+      "38307244",
+      "31588029",
+      "20053638",
+      "31939164",
+      "38337031",
+      "18591651",
+      "9501986",
+      "24569229",
+      "25025567",
+      "21186364",
+      "36001690",
+      "22193957",
+      "26083744",
+      "20937767",
+      "11562348",
+      "10582244",
+      "25287299",
+      "20054826",
+      "25673878",
+      "35039540",
+      "34382737",
+      "22086178",
+      "29987118",
+      "19026787",
+      "27991546",
+      "25490258",
+      "11566880",
+      "28617439",
+      "23007861",
+      "11907259",
+      "39401078",
+      "10871279",
+      "33789095",
+      "25789873"
+    ],
+    "review": [
+      "40888475",
+      "27716480",
+      "35860655",
+      "41130329",
+      "32165320",
+      "31939164",
+      "24569229"
+    ],
+    "pmc": [
+      "12401543"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40888475/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.104238",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

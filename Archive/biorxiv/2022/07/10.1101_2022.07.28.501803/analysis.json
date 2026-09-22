@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.28.501803",
+  "title": "A direct interaction between CPF and Pol II links RNA 3ʹ-end processing to transcription",
+  "authors": "Carminati M; Manav MC; Bellini D; Passmore LA",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-28",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过冷冻电镜和晶体学揭示CPF与RNA聚合酶II的互作及二聚化机制，但对象为折叠蛋白复合物而非无序蛋白/IDR，且无AI或物理模拟方法，仅对互作机制建模有间接启发。",
+  "abstract": "Transcription termination by RNA Polymerase II (Pol II) is linked to RNA 3ʹ-end processing by the cleavage and polyadenylation factor (CPF). CPF contains endonuclease, poly(A) polymerase and protein phosphatase activities that cleave and polyadenylate the pre-mRNA, and dephosphorylate Pol II to control transcription. Exactly how the RNA 3ʹ-end processing machinery is coupled to transcription remains unclear. Here, we combine in vitro reconstitution, electron cryo-microscopy and X-ray crystallography to show that CPF physically and functionally interacts with Pol II. Surprisingly, CPF-mediated dephosphorylation promotes the formation of a Pol II stalk-to-stalk homodimer. This dimer is compatible with transcription (unlike other Pol II dimers) but not with the binding of transcription elongation factors. We show that the Ref2 subunit of CPF contributes directly to the interaction with Pol II and also regulates the Glc7/PP1 CPF phosphatase. We hypothesize that Pol II dimerization may play a role in gene looping and may provide a mechanistic basis for the allosteric model of transcription termination.",
+  "abstract_zh": "RNA聚合酶II（Pol II）的转录终止与RNA 3ʹ端加工通过切割和多聚腺苷酸化因子（CPF）相关联。CPF包含核酸内切酶、poly(A)聚合酶和蛋白磷酸酶活性，这些活性负责切割前体mRNA并对其进行多聚腺苷酸化，同时使Pol II去磷酸化以控制转录。RNA 3ʹ端加工机制与转录之间的精确偶联方式仍不清楚。在此，我们结合体外重构、冷冻电子显微镜和X射线晶体学，证明CPF与Pol II在物理和功能上相互作用。令人惊讶的是，CPF介导的去磷酸化促进了Pol II茎部-茎部同源二聚体的形成。这种二聚体与转录兼容（不同于其他Pol II二聚体），但不与转录延伸因子的结合兼容。我们表明，CPF的Ref2亚基直接参与与Pol II的相互作用，并调节Glc7/PP1 CPF磷酸酶。我们假设Pol II二聚化可能在基因环化中发挥作用，并为转录终止的变构模型提供机制基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.28.501803",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.28.501803",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.28.501803/index.html"
+}

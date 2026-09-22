@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "38946265",
+    "doi": "10.1021/acs.jcim.4c00316",
+    "title": "Caspase-Based Fusion Protein Technology: Substrate Cleavability Described by Computational Modeling and Simulation."
+  },
+  "content": {
+    "abstract": "The Caspase-based fusion protein technology (CASPON) allows for universal cleavage of fusion tags from proteins of interest to reconstitute the native N-terminus. While the CASPON enzyme has been optimized to be promiscuous against a diversity of N-terminal peptides, the cleavage efficacy for larger proteins can be surprisingly low. We develop an efficient means to rationalize and predict the cleavage efficiency based on a structural representation of the intrinsically disordered N-terminal peptides and their putative interactions with the CASPON enzyme. The number of favorably interacting N-terminal conformations shows a very good agreement with the experimentally observed cleavage efficiency, in agreement with a conformational selection model. The method relies on computationally cheap molecular dynamics simulations to efficiently generate a diverse collection of N-terminal conformations, followed by a simple fitting procedure into the CASPON enzyme. It can be readily used to assess the CASPON cleavability a priori.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Protein Conformation",
+      "Caspases/metabolism/chemistry",
+      "Substrate Specificity",
+      "Recombinant Fusion Proteins/chemistry/metabolism",
+      "Peptides/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Jakob",
+        "Fischer, Andreas",
+        "Cserjan-Puschmann, Monika",
+        "Lingg, Nico",
+        "Oostenbrink, Chris"
+      ],
+      "short_names": [
+        "Liu J",
+        "Fischer A",
+        "Cserjan-Puschmann M",
+        "Lingg N",
+        "Oostenbrink C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9811-9709",
+        "ORCID: 0000-0002-3574-6991",
+        "ORCID: 0000-0002-4232-2556"
+      ],
+      "affiliations": [
+        "Austrian Centre of Industrial Biotechnology, Muthgasse 18, 1190 Vienna, Austria.",
+        "Institute of Molecular Modeling and Simulation, University of Natural Resources and Life Sciences, Vienna (BOKU), Muthgasse 18, 1190 Vienna, Austria.",
+        "Austrian Centre of Industrial Biotechnology, Muthgasse 18, 1190 Vienna, Austria.",
+        "Department of Biotechnology, Institute of Bioprocess Science and Engineering, University of Natural Resources and Life Sciences, Vienna (BOKU), Muthgasse 18, 1190 Vienna, Austria.",
+        "Austrian Centre of Industrial Biotechnology, Muthgasse 18, 1190 Vienna, Austria.",
+        "Department of Biotechnology, Institute of Bioprocess Science and Engineering, University of Natural Resources and Life Sciences, Vienna (BOKU), Muthgasse 18, 1190 Vienna, Austria.",
+        "Austrian Centre of Industrial Biotechnology, Muthgasse 18, 1190 Vienna, Austria.",
+        "Department of Biotechnology, Institute of Bioprocess Science and Engineering, University of Natural Resources and Life Sciences, Vienna (BOKU), Muthgasse 18, 1190 Vienna, Austria.",
+        "Institute of Molecular Modeling and Simulation, University of Natural Resources and Life Sciences, Vienna (BOKU), Muthgasse 18, 1190 Vienna, Austria.",
+        "Christian Doppler Laboratory for Molecular Informatics in the Biosciences, University of Natural Resources and Life Sciences, Vienna, Muthgasse 18, 1190 Vienna, Austria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Jakob",
+        "short_name": "Liu J",
+        "identifiers": [],
+        "affiliations": [
+          "Austrian Centre of Industrial Biotechnology, Muthgasse 18, 1190 Vienna, Austria.",
+          "Institute of Molecular Modeling and Simulation, University of Natural Resources and Life Sciences, Vienna (BOKU), Muthgasse 18, 1190 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Fischer, Andreas",
+        "short_name": "Fischer A",
+        "identifiers": [],
+        "affiliations": [
+          "Austrian Centre of Industrial Biotechnology, Muthgasse 18, 1190 Vienna, Austria.",
+          "Department of Biotechnology, Institute of Bioprocess Science and Engineering, University of Natural Resources and Life Sciences, Vienna (BOKU), Muthgasse 18, 1190 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Cserjan-Puschmann, Monika",
+        "short_name": "Cserjan-Puschmann M",
+        "identifiers": [
+          "0000-0002-9811-9709"
+        ],
+        "affiliations": [
+          "Austrian Centre of Industrial Biotechnology, Muthgasse 18, 1190 Vienna, Austria.",
+          "Department of Biotechnology, Institute of Bioprocess Science and Engineering, University of Natural Resources and Life Sciences, Vienna (BOKU), Muthgasse 18, 1190 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Lingg, Nico",
+        "short_name": "Lingg N",
+        "identifiers": [
+          "0000-0002-3574-6991"
+        ],
+        "affiliations": [
+          "Austrian Centre of Industrial Biotechnology, Muthgasse 18, 1190 Vienna, Austria.",
+          "Department of Biotechnology, Institute of Bioprocess Science and Engineering, University of Natural Resources and Life Sciences, Vienna (BOKU), Muthgasse 18, 1190 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Oostenbrink, Chris",
+        "short_name": "Oostenbrink C",
+        "identifiers": [
+          "0000-0002-4232-2556"
+        ],
+        "affiliations": [
+          "Institute of Molecular Modeling and Simulation, University of Natural Resources and Life Sciences, Vienna (BOKU), Muthgasse 18, 1190 Vienna, Austria.",
+          "Christian Doppler Laboratory for Molecular Informatics in the Biosciences, University of Natural Resources and Life Sciences, Vienna, Muthgasse 18, 1190 Vienna, Austria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2024 Jul 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/01 06:42",
+    "fetched_at": "2026-09-21 08:26:01"
+  },
+  "links": {
+    "cites": [
+      "41778964",
+      "40727744",
+      "40468089"
+    ],
+    "refs": [
+      "35926774",
+      "35887026",
+      "34418435",
+      "33570387",
+      "33255244",
+      "33166743",
+      "32432825",
+      "32173600",
+      "31809054",
+      "27771300",
+      "26717885",
+      "26598168",
+      "24600443",
+      "24490106",
+      "23418406",
+      "21533652",
+      "19892187",
+      "19892176",
+      "16427311",
+      "15922084",
+      "10094769",
+      "9636275",
+      "7738605",
+      "2863141",
+      "870379"
+    ],
+    "similar": [
+      "38946265",
+      "35926774",
+      "38509572",
+      "32432825",
+      "12824163",
+      "24916632",
+      "10947972",
+      "20173201",
+      "30708285",
+      "24085488",
+      "25207671",
+      "16672368",
+      "19595985",
+      "11068207",
+      "29528625",
+      "11313700",
+      "18722006",
+      "23505359",
+      "12589706",
+      "33122085",
+      "24556848",
+      "15961454",
+      "29652495",
+      "33577583",
+      "28931924",
+      "30372613",
+      "30414195",
+      "14711628",
+      "11701129",
+      "12097160",
+      "23912807",
+      "26030674",
+      "38703206",
+      "31128774",
+      "29335433",
+      "38018910",
+      "15630707",
+      "29754038",
+      "30620582",
+      "27921010",
+      "30840442",
+      "25426869",
+      "28696262",
+      "18309328",
+      "33150985",
+      "10544119",
+      "27108431",
+      "12356485",
+      "15297885",
+      "34680137",
+      "26785994",
+      "20130033",
+      "29662234",
+      "11937502",
+      "16186808",
+      "25691742",
+      "29410458",
+      "12650923",
+      "10998058",
+      "35807352",
+      "15154972",
+      "15020789",
+      "33401765",
+      "20800233",
+      "22506277",
+      "26513470",
+      "19863092",
+      "27101158",
+      "17397213",
+      "10952988",
+      "10611247",
+      "26784558",
+      "11752425",
+      "24877256",
+      "17975551",
+      "26883171",
+      "29453691",
+      "11181062",
+      "33620752",
+      "22309193",
+      "22153506",
+      "14600208",
+      "26052838",
+      "32788218",
+      "19585658",
+      "22892124",
+      "16492559",
+      "11355879",
+      "36178373",
+      "31509121",
+      "25360896",
+      "10964557",
+      "27975243",
+      "38816696",
+      "14505312",
+      "38275091"
+    ],
+    "review": [
+      "38946265",
+      "30620582"
+    ],
+    "pmc": [
+      "11267566"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38946265/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c00316",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

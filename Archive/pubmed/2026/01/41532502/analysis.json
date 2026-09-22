@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41532502",
+  "title": "A Mini-Spidroin Forms High-Performance Artificial Spider Silk via Edge-Cysteine-Locked beta-Sheet Assembly.",
+  "authors": "Li, Min; Chen, Huan; Zhang, Qi; Xu, Xiaoyun; Zheng, Yini; Lyu, Chunyu; Jia, Weibin; Fan, Jun; Chen, Fu-Rong; Liu, Wei; Hu, Jinlian",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2026-01-14",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过工程化迷你蛛丝蛋白，利用边缘半胱氨酸锁定β-折叠组装并借助LLPS和分子动力学模拟提升纤维性能，虽对象为纤维材料而非典型IDP-PPI，但其LLPS与MD机制建模思路对无序蛋白互作研究有可迁移启发。",
+  "abstract": "Spider silk's remarkable mechanical properties arise from its hierarchical organization, where beta-sheet nanocrystals confer strength and amorphous chains impart extensibility. However, replicating this performance in synthetic fibers has been hindered by the challenges of expressing high-molecular-weight spidroins and processing them into fibers. Here, we overcome these limitations by engineering a mini-spidroin ( approximately 33 kDa) that is both easily expressible and spinnable, yet yields fibers with exceptional strength and toughness. Our strategy introduces cysteine residues at the termini of polyalanine (polyA) segments, enabling inter-strand disulfide bonds that enhance molecular cohesion during liquid-liquid phase separation (LLPS). This \"edge-cysteine locking\" promotes directional beta-sheet assembly under extensional flow, resulting in fibers with an ultimate tensile strength of 531 +/- 33 MPa and toughness of 182 +/- 6 MJ/m(3), surpassing many bulkier (>100 kDa) recombinant spidroins. Molecular dynamics simulations indicate that disulfide bonds reinforce inter-strand interactions and prevent chain slippage under shear. By demonstrating that a small, easily produced protein can outperform larger, harder-to-process analogs, this work establishes a scalable and efficient route to high-performance biomimetic fibers, advancing both scientific understanding and practical applications of artificial spider silk.",
+  "abstract_zh": "蜘蛛丝卓越的力学性能源于其层级组织结构，其中β-折叠纳米晶赋予强度，无定形链赋予延展性。然而，在合成纤维中复制这一性能一直受到高分子量蛛丝蛋白表达及纺丝加工困难的阻碍。在此，我们通过工程化设计一种小型蛛丝蛋白（约33 kDa），既易于表达又具备可纺性，同时能产出具有卓越强度和韧性的纤维，从而克服了这些限制。我们的策略在多聚丙氨酸（polyA）片段的末端引入半胱氨酸残基，使链间二硫键在液-液相分离（LLPS）过程中增强分子内聚力。这种“边缘半胱氨酸锁定”促进了拉伸流动下的定向β-折叠组装，所得纤维的极限抗拉强度为531 ± 33 MPa，韧性为182 ± 6 MJ/m³，超越了多种更大分子量（>100 kDa）的重组蛛丝蛋白。分子动力学模拟表明，二硫键强化了链间相互作用，并在剪切条件下防止链滑移。通过证明一种小型、易生产的蛋白质能够胜过更大且更难加工的类似物，本研究为高性能仿生纤维建立了一条可扩展且高效的路径，推进了人工蜘蛛丝的科学理解与实际应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41532502/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41532502/",
+  "paper_page_path": "papers/pubmed/41532502/index.html"
+}

@@ -1,0 +1,393 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.22.727120",
+  "title": "ARACoFusion: Uncertainty-aware calibrated deep learning for protein-protein interaction network prediction in <i>Arabidopsis thaliana</i>",
+  "doi": "10.64898/2026.05.22.727120",
+  "abstract": "Accurate mapping of the Arabidopsis thaliana protein-protein interaction (PPI) network is essential for deciphering complexity of plant systems biology. Here, we present ARACoFusion, a specialized deep learning architecture designed to predict inter-protein connectivity directly from primary sequences. To capture the asymmetric dependencies between plant proteins, the framework utilizes a reciprocal cross-attention encoder combined with latent interaction projections and multi-source feature fusion. Addressing the severe class imbalance inherent in plant interactomes, the model integrates uncertainty-aware variance regularization and focal loss with label smoothing, further enhancing reliability through post-hoc probability calibration via temperature scaling. Extensive benchmarking on gold-standard Arabidopsis datasets demonstrates that ARACoFusion significantly outperforms existing plant-specific predictors, achieving superior scores in Area Under the Precision-Recall Curve (AUPRC), Balanced Accuracy, and Matthew’s Correlation Coefficient (MCC). Additionally, the model exhibits robust cross-species generalization and clear class separability in t-SNE latent space visualizations. To facilitate community-wide usage, we provide a dedicated web server for scalable network-level inference at https://ARAcofusion.compbiosysnbu.in/ .",
+  "authors": [
+    "Dipayan Sarkar",
+    "Chiranjib Sarkar"
+  ],
+  "published_date": "2026-05-26",
+  "updated_date": "2026-05-26T22:25:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.22.727120",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.22.727120.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            28
+          ]
+        ],
+        "date-time": "2026-05-28T17:03:52Z",
+        "timestamp": 1779987832629,
+        "version": "3.53.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 29,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                26
+              ]
+            ],
+            "date-time": "2026-05-26T00:00:00Z",
+            "timestamp": 1779753600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Accurate mapping of the\n                  <jats:italic>Arabidopsis thaliana</jats:italic>\n                  protein-protein interaction (PPI) network is essential for deciphering complexity of plant systems biology. Here, we present ARACoFusion, a specialized deep learning architecture designed to predict inter-protein connectivity directly from primary sequences. To capture the asymmetric dependencies between plant proteins, the framework utilizes a reciprocal cross-attention encoder combined with latent interaction projections and multi-source feature fusion. Addressing the severe class imbalance inherent in plant interactomes, the model integrates uncertainty-aware variance regularization and focal loss with label smoothing, further enhancing reliability through post-hoc probability calibration via temperature scaling. Extensive benchmarking on gold-standard Arabidopsis datasets demonstrates that ARACoFusion significantly outperforms existing plant-specific predictors, achieving superior scores in Area Under the Precision-Recall Curve (AUPRC), Balanced Accuracy, and Matthew’s Correlation Coefficient (MCC). Additionally, the model exhibits robust cross-species generalization and clear class separability in t-SNE latent space visualizations. To facilitate community-wide usage, we provide a dedicated web server for scalable network-level inference at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://ARAcofusion.compbiosysnbu.in/\">https://ARAcofusion.compbiosysnbu.in/</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.64898/2026.05.22.727120",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ],
+        "date-time": "2026-05-26T22:25:13Z",
+        "timestamp": 1779834313000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "ARACoFusion: Uncertainty-aware calibrated deep learning for protein-protein interaction network prediction in\n                  <i>Arabidopsis thaliana</i>"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0765-5689",
+          "authenticated-orcid": false,
+          "given": "Dipayan",
+          "family": "Sarkar",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Computational Systems Biology Laboratory, Department of Bioinformatics, University of North Bengal, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1536-7449",
+          "authenticated-orcid": false,
+          "given": "Chiranjib",
+          "family": "Sarkar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Computational Systems Biology Laboratory, Department of Bioinformatics, University of North Bengal, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/138920210790218016"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "2028",
+          "DOI": "10.3389/fpls.2017.02028",
+          "article-title": "Unravelling protein-protein interaction net-works linked to aliphatic and indole glucosinolate biosynthetic pathways in arabidopsis",
+          "volume": "8",
+          "year": "2017",
+          "journal-title": "Frontiers in plant science"
+        },
+        {
+          "issue": "2",
+          "key": "2026052809250476000_2026.05.22.727120v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "142",
+          "DOI": "10.1007/s00438-002-0656-7",
+          "article-title": "Development of a high-throughput yeast two-hybrid screening system to study protein-protein interactions in plants",
+          "volume": "267",
+          "year": "2002",
+          "journal-title": "Molecular Genetics and Genomics"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0006685"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alisa G Woods , Izabela Sokolowska , Rama Yakubu , Melissa Butkiewicz , Martin LaFleur , Christopher Talbot , and Costel C Darie . Blue native page and mass spectrometry as an approach for the investigation of stable and transient protein-protein interactions. In Oxidative stress: diagnostics, prevention, and therapy, pages 341–367. ACS Publications, 2011.",
+          "DOI": "10.1021/bk-2011-1083.ch012"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx407"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-018-2073-x"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "745228",
+          "DOI": "10.3389/fgene.2021.745228",
+          "article-title": "Prediction of protein–protein interactions in arabidopsis, maize, and rice by combining deep neural network with discrete hilbert transform",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Frontiers in Genetics"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn159"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0035495"
+        },
+        {
+          "issue": "1",
+          "key": "2026052809250476000_2026.05.22.727120v1.11",
+          "first-page": "305",
+          "article-title": "K-information gain scaled nearest neigh-bors: a novel approach to classifying protein-protein interaction-related documents",
+          "volume": "9",
+          "year": "2011",
+          "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Asif Ekbal , Sriparna Saha , Pushpak Bhattacharyya , et al. A deep learning architecture for protein-protein interaction article identification. In 2016 23rd international conference on pattern recognition (ICPR), pages 3128–3133. IEEE, 2016.",
+          "DOI": "10.1109/ICPR.2016.7900115"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "807522",
+          "DOI": "10.3389/fbioe.2022.807522",
+          "article-title": "Dwppi: a deep learning approach for predicting protein–protein interactions in plants based on multi-source information with a large-scale biological network",
+          "volume": "10",
+          "year": "2022",
+          "journal-title": "Frontiers in Bioengineering and Biotechnology"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.14",
+          "unstructured": "Ashish Vaswani , Noam Shazeer , Niki Parmar , Jakob Uszkoreit , Llion Jones , Aidan N Gomez , Lukasz Kaiser , and Illia Polosukhin . Attention is all you need. Advances in neural information processing systems, 30, 2017."
+        },
+        {
+          "issue": "10",
+          "key": "2026052809250476000_2026.05.22.727120v1.15",
+          "first-page": "7112",
+          "article-title": "Prottrans: Toward understanding the language of life through self-supervised learning",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac020"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dipayan Sarkar and Chiranjib Sarkar . Attnseq-ppi: Enhancing protein-protein interaction network prediction using transfer learning-driven hybrid attention. Biochimica et Biophysica Acta (BBA)-Proteins and Proteomics, page 141102, 2025.",
+          "DOI": "10.1016/j.bbapap.2025.141102"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "870",
+          "DOI": "10.3389/fpls.2019.00870",
+          "article-title": "Arappinet: an updated interactome for the analysis of hormone signaling crosstalk in arabidopsis thaliana",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Frontiers in Plant Science"
+        },
+        {
+          "issue": "4",
+          "key": "2026052809250476000_2026.05.22.727120v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "984",
+          "DOI": "10.1111/tpj.16188",
+          "article-title": "Deep learning-assisted prediction of protein–protein interactions in arabidopsis thaliana",
+          "volume": "114",
+          "year": "2023",
+          "journal-title": "The Plant Journal"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13007-023-01119-6"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Takuya Akiba , Shotaro Sano , Toshihiko Yanase , Takeru Ohta , and Masanori Koyama . Optuna: A next-generation hyperparameter optimization framework. In Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery & data mining, pages 2623–2631, 2019.",
+          "DOI": "10.1145/3292500.3330701"
+        },
+        {
+          "issue": "12",
+          "key": "2026052809250476000_2026.05.22.727120v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "1134",
+          "DOI": "10.1038/nmeth.2259",
+          "article-title": "Flaws in evaluation schemes for pair-input computational predictions",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.24",
+          "unstructured": "Yarin Gal and Zoubin Ghahramani . Dropout as a bayesian approximation: Representing model uncertainty in deep learning. In international conference on machine learning, pages 1050–1059. PMLR, 2016."
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.25",
+          "unstructured": "Chuan Guo , Geoff Pleiss , Yu Sun , and Kilian Q Weinberger . On calibration of modern neural networks. In International conference on machine learning, pages 1321–1330. PMLR, 2017."
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.26",
+          "unstructured": "Adam Paszke , Sam Gross , Francisco Massa , Adam Lerer , James Bradbury , Gregory Chanan , Trevor Killeen , Zeming Lin , Natalia Gimelshein , Luca Antiga , et al. Pytorch: An imperative style, high-performance deep learning library. Advances in neural information processing systems, 32, 2019."
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.28",
+          "first-page": "2579",
+          "article-title": "Visualizing data using t-sne",
+          "volume": "9",
+          "year": "2008",
+          "journal-title": "Journal of machine learning research"
+        },
+        {
+          "key": "2026052809250476000_2026.05.22.727120v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1000"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.05.22.727120",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            28
+          ]
+        ],
+        "date-time": "2026-05-28T16:25:16Z",
+        "timestamp": 1779985516000
+      },
+      "score": 81.90424,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.05.22.727120"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ]
+      },
+      "references-count": 29,
+      "URL": "https://doi.org/10.64898/2026.05.22.727120",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

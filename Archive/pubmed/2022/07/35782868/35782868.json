@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "35782868",
+    "doi": "10.3389/fmolb.2022.857217",
+    "title": "Plasticity of Membrane Binding by the Central Region of alpha-Synuclein."
+  },
+  "content": {
+    "abstract": "Membrane binding by alpha-synuclein (alphaS), an intrinsically disordered protein whose aggregation is associated with Parkinson's disease, is a key step in determining its biological properties under both physiological and pathological conditions. Upon membrane interaction, alphaS retains a partial level of structural disorder despite acquiring alpha-helical content. In the membrane-bound state, the equilibrium between the helical-bound and disordered-detached states of the central region of alphaS (residues 65-97) has been involved in a double-anchor mechanism that promotes the clustering of synaptic vesicles. Herein, we investigated the underlying molecular bases of this equilibrium using enhanced coarse-grained molecular dynamics simulations. The results enabled clarifying the conformational dependencies of the membrane affinity by this protein region that, in addition to playing a role in physiological membrane binding, has key relevance for the aggregation of alphaS and the mechanisms of the toxicity of the resulting assemblies.",
+    "keywords": [
+      "coarse-grained simulations",
+      "double-anchor mechanism",
+      "intrinsically disordered proteins",
+      "membrane binding",
+      "vesicle clustering",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Navarro-Paya, Carlos",
+        "Sanz-Hernandez, Maximo",
+        "De Simone, Alfonso"
+      ],
+      "short_names": [
+        "Navarro-Paya C",
+        "Sanz-Hernandez M",
+        "De Simone A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Life Sciences, Imperial College London, London, United Kingdom.",
+        "Department of Life Sciences, Imperial College London, London, United Kingdom.",
+        "Department of Life Sciences, Imperial College London, London, United Kingdom.",
+        "Department of Pharmacy, University of Naples Federico II, Naples, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Navarro-Paya, Carlos",
+        "short_name": "Navarro-Paya C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Imperial College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Sanz-Hernandez, Maximo",
+        "short_name": "Sanz-Hernandez M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Imperial College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "De Simone, Alfonso",
+        "short_name": "De Simone A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Imperial College London, London, United Kingdom.",
+          "Department of Pharmacy, University of Naples Federico II, Naples, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/06 06:00",
+    "fetched_at": "2026-09-20 11:48:06"
+  },
+  "links": {
+    "cites": [
+      "41445182",
+      "41404624",
+      "39133842",
+      "38938811",
+      "38928232",
+      "37345454",
+      "37183455",
+      "36768798",
+      "36551244"
+    ],
+    "refs": [
+      "33990334",
+      "33587036",
+      "33568632",
+      "33376223",
+      "32786289",
+      "32604928",
+      "32383602",
+      "32157247",
+      "32152544",
+      "32063829",
+      "31937832",
+      "31396901",
+      "31263746",
+      "30190461",
+      "29459792",
+      "29249285",
+      "29242346",
+      "29100107",
+      "28498720",
+      "28224980",
+      "27640673",
+      "27273030",
+      "27018801",
+      "26808899",
+      "26574417",
+      "26407041",
+      "25643172",
+      "25548530",
+      "25246573",
+      "25177278",
+      "24942732",
+      "24920162",
+      "24871041",
+      "24740651",
+      "24561157",
+      "24460028",
+      "24374342",
+      "24082088",
+      "24005412",
+      "23638301",
+      "23398174",
+      "23254192",
+      "23183883",
+      "23161999",
+      "22694188",
+      "22352310",
+      "22302797",
+      "22024360",
+      "20798282",
+      "20500090",
+      "20408171",
+      "19538146",
+      "19481095",
+      "19066219",
+      "18172022",
+      "18162536",
+      "17212484",
+      "16926154",
+      "16794039",
+      "16565714",
+      "15615727",
+      "14685248",
+      "14593171",
+      "12621030",
+      "11553616",
+      "11286556",
+      "10557341",
+      "9726379",
+      "9197268",
+      "8248242"
+    ],
+    "similar": [
+      "35782868",
+      "32604928",
+      "27273030",
+      "32063829",
+      "33719460",
+      "27640673",
+      "37345454",
+      "23607785",
+      "23583776",
+      "24871041",
+      "36584779",
+      "23374074",
+      "25075858",
+      "37372040",
+      "34439733",
+      "31937832",
+      "25135664",
+      "19481095",
+      "36712380",
+      "37027427",
+      "33538595",
+      "29451381",
+      "33568632",
+      "38938811",
+      "26477939",
+      "30315896",
+      "20923645",
+      "28820253",
+      "30028312",
+      "29100107",
+      "20041693",
+      "20947801",
+      "33434528",
+      "33345970",
+      "30271927",
+      "25524885",
+      "29474083",
+      "33903234",
+      "33482328",
+      "28911198",
+      "25209675",
+      "28667699",
+      "30933517",
+      "35167083",
+      "18031063",
+      "29364143",
+      "31351173",
+      "33428933",
+      "37201129",
+      "21044603",
+      "27477055",
+      "34695381",
+      "30917651",
+      "34254125",
+      "20620148",
+      "27612332",
+      "35836937",
+      "32709107",
+      "27455358",
+      "22211521",
+      "26931727",
+      "31903719",
+      "24983211",
+      "32607605",
+      "27378848",
+      "11286556",
+      "29246724",
+      "27398307",
+      "33103814",
+      "23978162",
+      "26016728",
+      "27809690",
+      "32356963",
+      "33538574",
+      "21524999",
+      "22024360",
+      "28671142",
+      "29621630",
+      "20592036",
+      "24984882",
+      "23199922",
+      "32623047",
+      "37066334",
+      "31799519",
+      "24338013",
+      "26703192",
+      "22552968",
+      "34912851",
+      "32371882",
+      "27356045",
+      "28370874",
+      "24551051",
+      "23912807",
+      "15096050",
+      "29715424",
+      "16581836",
+      "31356747",
+      "26332674",
+      "27531743"
+    ],
+    "review": [
+      "35782868",
+      "37345454",
+      "30315896",
+      "30028312",
+      "29100107",
+      "33434528",
+      "31351173",
+      "32607605",
+      "27378848",
+      "22024360",
+      "28671142"
+    ],
+    "pmc": [
+      "9240306"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35782868/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35782868",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2022.857217",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

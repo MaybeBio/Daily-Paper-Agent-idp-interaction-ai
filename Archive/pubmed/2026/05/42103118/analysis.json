@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42103118",
+  "title": "Polyamine and tau: a chemical framework for understanding the hyperphosphorylated tau condensation.",
+  "authors": "Lee, Jinmin; Lee, Kyubin; Kim, Minsoo; Kim, Min Wook; Lim, Manho; Yoo, Jejoong; Lee, Sang Hak",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2026-05-09",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合分子动力学模拟与实验，研究多胺通过电荷相互作用促进高磷酸化tau蛋白液-液相分离的机制，虽对象为tau而非典型IDP，但聚焦无序蛋白凝聚体中的PPI机制建模，对本课题有直接启发。",
+  "abstract": "The pathological aggregation of tau proteins is a defining feature of Alzheimer's disease (AD), yet the molecular mechanisms underlying this process remain unresolved. Hyperphosphorylated tau, which detaches from microtubules and disrupts neuronal integrity, carries a high net negative charge. Despite this, most current models of tau aggregation overlook the electrostatic repulsion that should prevent condensation. Here, we investigate the potential role of polyamines, ubiquitous and multivalent cations, as mediators that help compensate for this charge imbalance, using fluorescence microscopy and molecular dynamics simulations. We show that polyamines promote liquid-liquid phase separation (LLPS) of hyperphosphorylated tau through charge-charge interactions, enabling the formation of dense protein condensates. Importantly, we further demonstrated that polyamine-dependent tau condensates also formed in cellular environments, supporting the potential physiological relevance of this mechanism. Over time, these condensates undergo a transition into filament-like structures, suggesting a possible pathway linking polyamine-mediated LLPS to tau aggregation processes. The results reveal polyamines as important modulators of tau condensation and aggregation in both in vitro and cellular contexts.",
+  "abstract_zh": "tau蛋白的病理性聚集是阿尔茨海默病（Alzheimer's disease, AD）的一个标志性特征，然而这一过程背后的分子机制仍未明确。过度磷酸化的tau蛋白从微管上脱离并破坏神经元完整性，携带高净负电荷。尽管如此，目前大多数tau聚集模型忽视了本应阻止凝聚的静电排斥作用。在此，我们利用荧光显微镜和分子动力学模拟，研究多胺（polyamines）——一种普遍存在的多价阳离子——作为帮助补偿这种电荷失衡的介导因子的潜在作用。我们表明，多胺通过电荷-电荷相互作用促进过度磷酸化tau蛋白的液-液相分离（liquid-liquid phase separation, LLPS），从而形成致密的蛋白质凝聚体。重要的是，我们进一步证明，多胺依赖的tau凝聚体也在细胞环境中形成，支持了这一机制的潜在生理相关性。随时间推移，这些凝聚体转变为纤维样结构，提示了一条可能将多胺介导的LLPS与tau聚集过程联系起来的途径。这些结果揭示，多胺在体外和细胞环境中均是tau凝聚和聚集的重要调节因子。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42103118/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42103118/",
+  "paper_page_path": "papers/pubmed/42103118/index.html"
+}

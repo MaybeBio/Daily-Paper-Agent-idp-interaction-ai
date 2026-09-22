@@ -1,0 +1,31 @@
+{
+  "source": "arxiv",
+  "source_id": "2511.09514v2",
+  "title": "Force-induced Elastic Softening and Conformational Transitions in a Polyampholyte Chain",
+  "doi": "",
+  "abstract": "The mechanical response of intrinsically disordered proteins (IDPs) and polyampholyte (PA) chains is vital for understanding their biological functions and designing functional materials. We investigate the force-extension behavior of a PA chain with distinct charge sequences using molecular dynamics simulations and a theoretical approach based on the generalized random-phase approximation (GRPA). A diblock PA chain under extensional force undergoes a continuous coil-to-stretch transition at weak electrostatic coupling, which sharpens into a globule-coil-like transition at stronger coupling. The GRPA theory quantitatively captures these behaviors, including the sharp conformational transition and its dependence on electrostatic strength. Simulations reveal pronounced hysteresis during the force-extension and relaxation processes. Additionally, the elastic modulus exhibits four regimes: an initial plateau, stress stiffening, an exponential stress-softening behavior, and a stress stiffening regime. Using the theoretical model and structural input of the PA chain, we have demonstrated that the elastic modulus in the elastic softening regime decreases exponentially, $E\\sim \\exp(-α_0 f/Γ_e)$, as a function of $f$, which aligns with the simulation results. The elastic response of the PA chain is further examined across different charge sequences, where both elastic softening and sharp transitions are absent at smaller block lengths. Finally, coarse-grained models of IDPs such as LAF-1 and DDX4 exhibit similar nonlinear elasticity, highlighting the universality of these mechanisms. Our results establish a fundamental link between electrostatic correlations, charge sequence, and nonlinear elasticity, bridging molecular interactions and macroscopic mechanics.",
+  "authors": [
+    "Rakesh Palariya",
+    "Sunil P. Singh"
+  ],
+  "published_date": "2025-11-12T17:53:08Z",
+  "updated_date": "2025-11-13T07:11:18Z",
+  "journal": "",
+  "category": "cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2511.09514v2",
+  "pdf_url": "https://arxiv.org/pdf/2511.09514v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2511.09514v2",
+    "raw_categories": [
+      "cond-mat.soft"
+    ],
+    "journal_ref": ""
+  }
+}

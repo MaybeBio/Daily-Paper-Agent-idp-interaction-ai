@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34550709",
+  "title": "Transient Electrostatic Interactions between Fcp1 and Rap74 Bias the Conformational Ensemble of the Complex with Minimal Impact on Binding Affinity.",
+  "authors": "Prieto, Victor A; Namitz, Kevin E W; Showalter, Scott A",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-09-23",
+  "window": {
+    "start": "2021-09-20",
+    "end": "2021-09-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过PRE实验和电荷突变，探究无序蛋白Fcp1与Rap74复合物中瞬态静电相互作用对结合亲和力及构象ensemble的影响，对象为IDP且聚焦PPI机制，但方法以实验为主、无AI或物理模拟建模，故评7分。",
+  "abstract": "Intrinsically disordered protein (IDP) sequences often contain a high proportion of charged residues in conjunction with their high degree of hydrophilicity and solvation. For high net charge IDPs, long-range electrostatic interactions are thought to play a role in modulating the strength or kinetics of protein-protein interactions. In this work, we examined intramolecular interactions mediated by charged regions of a model IDP, the C-terminal tail of the phosphatase Fcp1. Specifically, this work focuses on intermolecular interactions between acidic and basic patches in the primary structure of Fcp1 and their contributions to binding its predominantly basic partner, the winged helix domain of Rap74. We observe both intramolecular and intermolecular interactions through paramagnetic relaxation enhancement (PRE) consistent with oppositely charged regions associating with one another, both in unbound Fcp1 and in the Fcp1-Rap74 complex. Formation of this complex is strongly driven by hydrophobic interactions in the minimal binding motif. Here, we test the hypothesis that charged residues in Fcp1 that flank the binding helix also contribute to the strength of binding. Charge inversion mutations in Fcp1 generally support this hypothesis, while PRE data suggest substitution of observed transient interactions in the unbound ensemble for similarly transient interactions with Rap74 in the complex.",
+  "abstract_zh": "intrinsically disordered protein (IDP) 序列通常含有高比例的带电残基，同时具有高度的亲水性和溶剂化特性。对于高净电荷的IDP，长程静电相互作用被认为在调节蛋白质-蛋白质相互作用的强度或动力学中发挥作用。在本工作中，我们研究了模型IDP——磷酸酶Fcp1的C末端尾部——中带电区域介导的分子内相互作用。具体而言，本工作聚焦于Fcp1一级结构中酸性斑块与碱性斑块之间的分子间相互作用，以及它们对其主要碱性伙伴Rap74的翼状螺旋结构域结合的贡献。我们通过顺磁弛豫增强 (paramagnetic relaxation enhancement, PRE) 观察到分子内和分子间相互作用，这与相反电荷区域相互关联一致，无论是在未结合的Fcp1中还是在Fcp1-Rap74复合物中。该复合物的形成主要由最小结合基序中的疏水相互作用强烈驱动。在此，我们测试了Fcp1中侧翼结合螺旋的带电残基是否也促进结合强度的假设。Fcp1中的电荷反转突变总体上支持这一假设，而PRE数据表明，未结合集合中观察到的瞬时相互作用被替换为复合物中与Rap74的类似瞬时相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34550709/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34550709/",
+  "paper_page_path": "papers/pubmed/34550709/index.html"
+}

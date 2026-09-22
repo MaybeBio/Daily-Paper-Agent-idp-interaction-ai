@@ -1,0 +1,316 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.12.03.518956",
+  "title": "Bioinformatics techniques for efficient structure prediction of SARS-CoV-2 protein ORF7a via structure prediction approaches",
+  "doi": "10.1101/2022.12.03.518956",
+  "abstract": "<h4>ABSTRACT</h4> Protein is the building block for all organisms. Protein structure prediction is always a complicated task in the field of proteomics. DNA and protein databases can find the primary sequence of the peptide chain and even similar sequences in different proteins. Mainly, there are two methodologies based on the presence or absence of a template for Protein structure prediction. Template-based structure prediction (threading and homology modeling) and Template-free structure prediction (ab initio). Numerous web-based servers that either use templates or do not can help us forecast the structure of proteins. In this current study, ORF7a, a transmembrane protein of the SARS-coronavirus, is predicted using Phyre2, IntFOLD, and Robetta. The protein sequence is straightforwardly entered into the sequence bar on all three web servers. Their findings provided information on the domain, the region with the disorder, the global and local quality score, the predicted structure, and the estimated error plot. Our study presents the structural details of the SARS-CoV protein ORF7a. This immunomodulatory component binds to immune cells and induces severe inflammatory reactions.",
+  "authors": [
+    "Kazmi A",
+    "Kazim M",
+    "Aslam F",
+    "Kazmi SM",
+    "Wahab A",
+    "Wahab A",
+    "Mikhlef RM",
+    "Khizar C",
+    "Kazmi A",
+    "Wazir NU",
+    "Mainali RP"
+  ],
+  "published_date": "2022-12-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.12.03.518956",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.12.03.518956.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR580195",
+    "raw_record": {
+      "id": "PPR580195",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR580195"
+        ]
+      },
+      "doi": "10.1101/2022.12.03.518956",
+      "title": "Bioinformatics techniques for efficient structure prediction of SARS-CoV-2 protein ORF7a via structure prediction approaches",
+      "authorString": "Kazmi A, Kazim M, Aslam F, Kazmi SM, Wahab A, Wahab A, Mikhlef RM, Khizar C, Kazmi A, Wazir NU, Mainali RP.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kazmi A",
+            "lastName": "Kazmi",
+            "firstName": "Aleeza",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Shaheed Benazir Bhutto Women University (SBBWU), Peshawar, Pakistan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kazim M",
+            "lastName": "Kazim",
+            "firstName": "Muhammad",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Medical Officer, Tehsil Headquarter Hospital, Kallur Kot, Bhakkar, Punjab, Pakistan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aslam F",
+            "lastName": "Aslam",
+            "firstName": "Faisal",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Tehsil Headquarter Hospital, Ahmad Pur East, Bahawalpur, Punjab, Pakistan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kazmi SM",
+            "lastName": "Kazmi",
+            "firstName": "Syeda Mahreen-ul-Hassan",
+            "initials": "SM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Shaheed Benazir Bhutto Women University (SBBWU), Peshawar, Pakistan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wahab A",
+            "lastName": "Wahab",
+            "firstName": "Abdul",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2905-1106"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Plant Stress Biology, CAS Center for Excellence in Molecular Plant Sciences, Chinese Academy of Sciences, Shanghai 200032, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wahab A",
+            "lastName": "Wahab",
+            "firstName": "Abdul",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1056-8260"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Shanghai Center for Plant Stress Biology, CAS Center for Excellence in Molecular Plant Sciences, Chinese Academy of Sciences, Shanghai 200032, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mikhlef RM",
+            "lastName": "Mikhlef",
+            "firstName": "Rafid Magid",
+            "initials": "RM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0091-3024"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "department of Biotechnology, University of Samarra, Iraq"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Khizar C",
+            "lastName": "Khizar",
+            "firstName": "Chandni",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Biology and Biotechnology, University of Lahore, Lahore, Pakistan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kazmi A",
+            "lastName": "Kazmi",
+            "firstName": "Abeer",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology, Faculty of Chemical and Life Sciences, Abdul Wali Khan University Mardan (AWKUM), Mardan, Pakistan"
+                },
+                {
+                  "affiliation": "Department of Genetics, Institute of Hydrobiology, University of Chinese Academy of Sciences (UCAS), Wuhan, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wazir NU",
+            "lastName": "Wazir",
+            "firstName": "Nadeem Ullah",
+            "initials": "NU",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacy, COMSATS University Islamabad, Abbottabad Campus, KPK, Pakistan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mainali RP",
+            "lastName": "Mainali",
+            "firstName": "Ram Parsad",
+            "initials": "RP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4637-3676"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Agriculture Genetic Resource Center (National Genebank), NARC, Khumaltar, Nepal"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0091-3024"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1056-8260"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2905-1106"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4637-3676"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5009-483X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8978-7983"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  Protein is the building block for all organisms. Protein structure prediction is always a complicated task in the field of proteomics. DNA and protein databases can find the primary sequence of the peptide chain and even similar sequences in different proteins. Mainly, there are two methodologies based on the presence or absence of a template for Protein structure prediction. Template-based structure prediction (threading and homology modeling) and Template-free structure prediction (ab initio). Numerous web-based servers that either use templates or do not can help us forecast the structure of proteins. In this current study, ORF7a, a transmembrane protein of the SARS-coronavirus, is predicted using Phyre2, IntFOLD, and Robetta. The protein sequence is straightforwardly entered into the sequence bar on all three web servers. Their findings provided information on the domain, the region with the disorder, the global and local quality score, the predicted structure, and the estimated error plot. Our study presents the structural details of the SARS-CoV protein ORF7a. This immunomodulatory component binds to immune cells and induces severe inflammatory reactions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/12/05/2022.12.03.518956.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.12.03.518956"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR580195"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.12.03.518956"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS161540",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-12-07",
+      "firstPublicationDate": "2022-12-05",
+      "firstIndexDate": "2022-12-07",
+      "fullTextReceivedDate": "2023-02-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

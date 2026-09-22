@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv 2023.05.19.541513)
+- **Assessment boundary** Technical soundness, methodological clarity, evidence support, and claims as presented in the provided text. No supplementary figures, tables, or movies were available for inspection.
+- **Shared manuscript claim summary** The authors present a new coarse-grained (CG) DNA model with two- and three-bead representations, parameterized to reproduce DNA melting thermodynamics and structural properties. The model is made compatible with the HPS-Urry CG protein model via an all-atom hydropathy scale for protein-DNA cross-interactions. The authors validate the model against experimental melting temperatures, structural features of dsDNA, and a protein-DNA binding affinity. They then apply the model to simulate a nucleosome with and without histone tails and investigate the role of histone tails in modulating the liquid-liquid phase separation (LLPS) of HP1α proteins.
+- **Visible evidence base** Main text figures (Figures 1, 3, 4, 6, 7, 8), Tables 1–6, equations 1–9, and references to supplementary items (Figures S1–S8, Tables S1–S4, Movies M1–M2). Supplementary materials were not provided.
+- **Missing materials affecting confidence** All supplementary figures, tables, and movies; simulation input files and source code; details of the optimization procedure; convergence criteria for umbrella sampling; error analysis methodology; and the full nucleosome model construction details.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a useful and potentially impactful CG DNA model that addresses a real gap in the field, namely the compatibility of CG DNA models with existing CG protein models for studying protein-DNA assemblies and LLPS. The parameterization strategy is reasonable, and the validation against experimental melting temperatures and structural properties is a strength. However, several technical aspects require clarification and additional evidence before the model's predictive power and the biological conclusions can be fully assessed. The claim that histone tails antagonize HP1α-DNA contacts and thereby modulate LLPS is interesting but rests on simulations whose sampling quality and statistical robustness are not fully demonstrated in the provided text.
+- **Who would be interested in the results, and why** Computational biophysicists and physical chemists working on coarse-grained modeling of nucleic acids and proteins, researchers studying chromatin structure and dynamics, and scientists investigating the molecular mechanisms of liquid-liquid phase separation in gene regulation. The model's compatibility with HPS-Urry makes it potentially attractive to the IDP/LLPS community.
+- **Major strengths** 1. The model addresses a clear need for CG DNA models that are directly compatible with widely used CG protein models. 2. The parameterization is grounded in experimental data for melting thermodynamics and structural properties. 3. The use of an all-atom hydropathy scale for protein-DNA cross-interactions is a principled approach that avoids system-specific reparameterization. 4. The application to nucleosome simulations and HP1α LLPS demonstrates the model's potential for addressing biologically relevant questions at scale.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model "accurately reproduces experimental measurements such as dsDNA melting temperatures and local structural properties of dsDNA, including duplex width, base rise, and major/minor groove widths."
+  - **Evidence pointer** Results section "Melting behavior of dsDNA" and "Structural properties of dsDNA"; Tables 2–6; Figures 4–5
+  - **Concern** The manuscript reports melting temperatures of 329.3 ± 2.8 K (2-bead) and 332.4 ± 1.2 K (3-bead) for a 14 bp sequence, compared to an experimental value of 333.2 ± 0.5 K. While the agreement appears good, the uncertainty estimates are not described. It is unclear whether these are standard errors from block averaging, standard deviations across replicas, or fitting uncertainties. Furthermore, the structural properties in Table 6 are compared to experimental values, but the statistical significance of the differences is not assessed. The claim of "accurate reproduction" requires a more rigorous error analysis and a statement of the acceptance criteria used during parameterization.
+  - **Why it matters** The central claim of the paper is that the model is predictive. Without a clear description of how uncertainties are computed and what tolerance was deemed acceptable, the reader cannot judge whether the agreement is meaningful or fortuitous.
+  - **Resolution test** Provide a detailed description of the error analysis methodology. Report confidence intervals for all reported quantities. State the target tolerance for melting temperature and structural properties used during parameter optimization. If possible, show a parity plot or table of model vs. experiment for multiple sequences to demonstrate transferability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We find that histone tails interact favorably with DNA, influencing the conformational ensemble of the DNA and antagonizing the contacts between HP1α and DNA, thus affecting the ability of DNA to promote LLPS of HP1α."
+  - **Evidence pointer** Results section "Molecular insights into the role of histone tails in modulating LLPS of HP1α proteins"; Figure 8; Supplementary Figures S5–S8
+  - **Concern** The conclusion that histone tails antagonize HP1α-DNA contacts is based on a comparison of contact maps between HP1α+free dsDNA and HP1α+nucleosome systems. However, the manuscript does not report quantitative measures of statistical uncertainty for these contact maps. It is unclear how many independent simulations were performed, whether the systems reached steady state, and whether the observed differences in contact probabilities are significant given the expected thermal fluctuations. Additionally, the claim that the nucleosome has a "less pronounced" influence on HP1α LLPS compared to free dsDNA is based on a single concentration profile comparison. No error bars or replicate simulations are shown.
+  - **Why it matters** The biological conclusion is the main novel application of the model. If the differences in contact probabilities and concentration profiles are within statistical noise, the conclusion is unsupported. The manuscript needs to demonstrate that the observed effects are robust and reproducible.
+  - **Resolution test** Report the number of independent simulations and the method used to estimate statistical errors (e.g., block averaging, bootstrapping). Show concentration profiles with error bars or shaded regions representing the standard error. Provide a statistical test (e.g., a permutation test or a t-test on block-averaged contact probabilities) to support the claim that histone tails significantly reduce HP1α-DNA contacts. If possible, perform a control simulation with a nucleosome lacking histone tails to directly test the antagonism hypothesis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We then employ an all-atom hydropathy scale to define non-bonded interactions between protein and DNA sites, to make our DNA model compatible with an existing CG protein model (HPS-Urry)... and show that our new model reasonably reproduces the experimental binding affinity for a prototypical protein-DNA system."
+  - **Evidence pointer** Results section "Protein-DNA interactions"; Figure 5; Equation 9
+  - **Concern** The manuscript reports Kd values of 73.4 nM and 75.6 nM for the 2-bead and 3-bead models, respectively, compared to an experimental value of 101 ± 20 nM. While the agreement is reasonable, the calculation of Kd from the PMF using Equation 9 requires the PMF to reach a plateau at large separations. The manuscript does not show the full PMF profile or indicate the value of the upper integration limit b. It is also unclear whether the PMF was corrected for the Jacobian contribution as stated, and whether the concentration units were handled correctly. The sensitivity of the calculated Kd to the choice of b and to the PMF tail should be discussed.
+  - **Why it matters** The validation against experimental binding affinity is a key demonstration of the model's transferability. If the Kd calculation is sensitive to arbitrary choices in the analysis, the validation is weakened.
+  - **Resolution test** Show the full PMF profile with the integration limit b clearly marked. Provide a sensitivity analysis showing how Kd varies with b. Describe the Jacobian correction in detail and verify that the Kd is converged with respect to simulation length and number of umbrella sampling windows.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "The source code required to run the 2-bead and 3-bead CG DNA models within the LAMMPS (Oct 2020) package is provided at the following location (https://github.com/utkarsk/CG-DNA-model)."
+  - **Evidence pointer** Data and Software Availability section
+  - **Concern** The manuscript states that source code is available, but the provided text does not include a version number, a commit hash, or a description of the repository contents. It is also unclear whether the code includes the parameter files for the 3-bead model and the protein-DNA cross-interaction parameters. Without these details, the reproducibility of the simulations is uncertain.
+  - **Why it matters** Reproducibility is a core requirement for computational modeling papers. The reader should be able to run the exact simulations described in the manuscript.
+  - **Resolution test** Provide a specific version identifier for the code repository. List the contents of the repository, including all parameter files and example inputs. If possible, provide a DOI for the code.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model description
+  - **Evidence pointer** Model and Methods, "Development of CG model for dsDNA"
+  - **Issue** The manuscript states that the 3-bead model introduces a "small dummy bead" for hydrogen bonding, but the size and mass of this bead are only given relative to the base bead. It would be helpful to state the absolute values in Å and amu.
+  - **Required correction** Report the absolute size and mass of the hydrogen-bonding bead in the 3-bead model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods
+  - **Evidence pointer** Model and Methods, "Simulation details"
+  - **Issue** The manuscript states that the Langevin damping parameter is set to 1000 time steps. This is an unusual way to report the damping parameter, which is typically given in units of inverse time or as a friction coefficient. It is unclear whether this is a typo or a specific convention.
+  - **Required correction** Clarify the units of the damping parameter and how it was converted to a friction coefficient.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results
+  - **Evidence pointer** Results section "Role of histone tails in stability and unwrapping of nucleosomal DNA"
+  - **Issue** The manuscript reports that nucleosomes with histone tails exhibit "minimal DNA unwrapping" but does not provide a quantitative measure of unwrapping. A metric such as the fraction of base pairs with broken hydrogen bonds or the distribution of end-to-end distances would be more informative.
+  - **Required correction** Provide a quantitative definition of "unwrapping" and report the corresponding values for the systems with and without histone tails.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Results section "Molecular insights into the role of histone tails in modulating LLPS of HP1α proteins"
+  - **Issue** The manuscript states that "the tails lose their preferential ability to interact with specific DNA regions" when the nucleosome is inside the HP1α condensate. It is unclear whether this is a statistically significant change or a qualitative observation.
+  - **Required correction** Provide a quantitative comparison of the contact maps (e.g., a difference map or a similarity metric) with an associated uncertainty estimate.
+
+## Risk / unsupported claims
+- The claim that the model "can be used to investigate protein-DNA complexes, such as nucleosomes, or LLPS of proteins with DNA, enabling a mechanistic understanding of how molecular information may be propagated at the genome level" is an extrapolation beyond the data presented. The manuscript demonstrates one application, but the general utility of the model for genome-level questions is not established.
+- The statement that "the regulation of nucleosome interactions with chromatin binding proteins and, consequently, epigenetic processes is largely governed by the modulation of DNA accessibility through histone tails" is a broad biological conclusion drawn from a single CG simulation study. This claim goes beyond what the simulations can directly demonstrate.
+- The quantitative accuracy of the Kd values (73.4 nM and 75.6 nM) is presented as "comparable" to experiment, but the manuscript does not discuss the sensitivity of these values to the choice of integration limit or the PMF tail, making the robustness of this agreement uncertain.
+- The claim that the 3-bead model shows "enhanced agreement with the experimental data" for structural properties is based on a visual comparison of mean values in Table 6. No statistical test is provided to support this claim.
+- The manuscript does not report the force field parameters for the DNA model in the main text, and the supplementary tables are not available for inspection. This limits the reader's ability to assess the model's transferability.

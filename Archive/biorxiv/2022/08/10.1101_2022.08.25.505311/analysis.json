@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.08.25.505311",
+  "title": "Genome-wide prediction of disease variants with a deep protein language model",
+  "authors": "Nadav Brandes; Grant Goldman; Charlotte H. Wang; Chun Jimmie Ye; Vasilis Ntranos",
+  "journal": "bioRxiv",
+  "published_date": "2022-08-26",
+  "window": {
+    "start": "2022-08-22",
+    "end": "2022-08-28"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用ESM1b蛋白语言模型全基因组预测错义突变致病性，对象是折叠蛋白变异效应而非无序蛋白互作，无PPI机制建模，仅方法上可迁移启发。",
+  "abstract": "Distinguishing between damaging and neutral missense variants is an ongoing challenge in human genetics, with profound implications for clinical diagnosis, genetic studies and protein engineering. Recently, deep-learning models have achieved state-of-the-art performance in classifying variants as pathogenic or benign. However, these models are currently unable to provide predictions over all missense variants, either because of dependency on close protein homologs or due to software limitations. Here we leveraged ESM1b, a 650M-parameter protein language model, to predict the functional impact of human coding variation at scale. To overcome existing technical limitations, we developed a modified ESM1b workflow and functionalized, for the first time, all proteins in the human genome, resulting in predictions for all ∼450M possible missense variant effects. ESM1b was able to distinguish between pathogenic and benign variants across ∼150K variants annotated in ClinVar and HGMD, outperforming existing state-of-the-art methods. ESM1b also exceeded the state of the art at predicting the experimental results of deep mutational scans. We further annotated ∼2M variants across ∼9K alternatively-spliced genes as damaging in certain protein isoforms while neutral in others, demonstrating the importance of considering all isoforms when functionalizing variant effects. The complete catalog of variant effect predictions is available at: https://huggingface.co/spaces/ntranoslab/esm_variants .",
+  "abstract_zh": "区分有害与中性错义变异是人类遗传学中一个持续的挑战，对临床诊断、遗传研究和蛋白质工程具有深远影响。近期，深度学习模型在将变异分类为致病性或良性方面已达到最先进性能。然而，这些模型目前无法对所有错义变异提供预测，原因在于对紧密同源蛋白的依赖或软件限制。在此，我们利用ESM1b，一个650M参数的蛋白质语言模型，以大规模预测人类编码变异的功能影响。为克服现有技术限制，我们开发了改进的ESM1b工作流程，并首次功能化了人类基因组中的所有蛋白质，从而对所有约450M种可能的错义变异效应进行了预测。ESM1b能够区分ClinVar和HGMD中注释的约150K种变异中的致病性与良性变异，性能优于现有最先进方法。ESM1b在预测深度突变扫描实验结果方面也超越了最先进水平。我们进一步对约9K个选择性剪接基因中的约2M种变异进行了注释，将其标记为在某些蛋白质亚型中有害而在其他亚型中中性，这强调了在功能化变异效应时考虑所有亚型的重要性。完整的变异效应预测目录可在以下网址获取：https://huggingface.co/spaces/ntranoslab/esm_variants 。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.08.25.505311",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.08.25.505311",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.08.25.505311/index.html"
+}

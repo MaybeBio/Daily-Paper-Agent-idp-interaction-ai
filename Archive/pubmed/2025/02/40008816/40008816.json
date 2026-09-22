@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "40008816",
+    "doi": "10.1002/adma.202419716",
+    "title": "De-Novo Design of Actively Spinning and Gyrating Spherical Micro-Vesicles."
+  },
+  "content": {
+    "abstract": "Self-propelled lipid-based artificial cells that can achieve controlled rotation and directed translation present significant potential for biomedical applications, yet their engineering poses considerable challenges. Lipid vesicles synthesized via solution-based methods naturally adopt isotropic spherical shapes. Active motion of these spherical objects requires symmetry breaking and rigidity. In this study, giant vesicles are employed as chassis, utilizing enzymes that undergo cyclic, non-reciprocal conformational changes as power sources. Weak, transient protein-protein interactions induce lipid ordering leading to rigidity and spontaneous symmetry breaking. Upon activation of enzyme reactions, these spherical vesicles demonstrate a variety of motion patterns, from pure spinning to 3D spiral trajectories. From experiments and simulations, it is demonstrated how such motion enables the vesicles to cross complex barriers. By utilizing biocompatible and scalable materials, The methodology establishes a solid framework for the design of such self-propelled systems. The work paves the way for advancements in biomedical and environmental technologies such as targeted drug delivery and active matter research.",
+    "keywords": [
+      "chiral active brownian particles",
+      "drug delivery agent",
+      "enzyme-powered motion",
+      "liquid-liquid phase separation",
+      "micro-spinners",
+      "self-propelled artificial cells",
+      "symmetry breaking"
+    ],
+    "mesh_terms": [
+      "*Artificial Cells/chemistry",
+      "Rotation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kaur, Veerpal",
+        "Khuntia, Subhashree Subhrasmita",
+        "Taneja, Charu",
+        "Chaudhuri, Abhishek",
+        "Yogendran, K P",
+        "Rakshit, Sabyasachi"
+      ],
+      "short_names": [
+        "Kaur V",
+        "Khuntia SS",
+        "Taneja C",
+        "Chaudhuri A",
+        "Yogendran KP",
+        "Rakshit S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8083-6857"
+      ],
+      "affiliations": [
+        "Department of Chemical Sciences, Indian Institute of Science Education and Research Mohali, Punjab, 140306, India.",
+        "Department of Physical Sciences, Indian Institute of Science Education and Research Mohali, Punjab, 140306, India.",
+        "Department of Chemical Sciences, Indian Institute of Science Education and Research Mohali, Punjab, 140306, India.",
+        "Department of Physical Sciences, Indian Institute of Science Education and Research Mohali, Punjab, 140306, India.",
+        "Department of Physical Sciences, Indian Institute of Science Education and Research Mohali, Punjab, 140306, India.",
+        "Department of Chemical Sciences, Indian Institute of Science Education and Research Mohali, Punjab, 140306, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kaur, Veerpal",
+        "short_name": "Kaur V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences, Indian Institute of Science Education and Research Mohali, Punjab, 140306, India."
+        ]
+      },
+      {
+        "full_name": "Khuntia, Subhashree Subhrasmita",
+        "short_name": "Khuntia SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Sciences, Indian Institute of Science Education and Research Mohali, Punjab, 140306, India."
+        ]
+      },
+      {
+        "full_name": "Taneja, Charu",
+        "short_name": "Taneja C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Sciences, Indian Institute of Science Education and Research Mohali, Punjab, 140306, India."
+        ]
+      },
+      {
+        "full_name": "Chaudhuri, Abhishek",
+        "short_name": "Chaudhuri A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Sciences, Indian Institute of Science Education and Research Mohali, Punjab, 140306, India."
+        ]
+      },
+      {
+        "full_name": "Yogendran, K P",
+        "short_name": "Yogendran KP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Sciences, Indian Institute of Science Education and Research Mohali, Punjab, 140306, India."
+        ]
+      },
+      {
+        "full_name": "Rakshit, Sabyasachi",
+        "short_name": "Rakshit S",
+        "identifiers": [
+          "0000-0002-8083-6857"
+        ],
+        "affiliations": [
+          "Department of Chemical Sciences, Indian Institute of Science Education and Research Mohali, Punjab, 140306, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced materials (Deerfield Beach, Fla.)"
+    ],
+    "journal_abbrev": [
+      "Adv Mater"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/26 12:23",
+    "fetched_at": "2026-09-21 16:07:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40008816",
+      "37338143",
+      "30346732",
+      "32999485",
+      "38307071",
+      "23912807",
+      "27809479",
+      "32510067",
+      "30179450",
+      "40035737",
+      "32734983",
+      "27575158",
+      "33097711",
+      "32648705",
+      "34308937",
+      "28702666",
+      "23719628",
+      "31189873",
+      "33687403",
+      "27400650",
+      "33823579",
+      "29158382",
+      "39056393",
+      "37132446",
+      "39729406",
+      "39873624",
+      "30379534",
+      "34216260",
+      "38079027",
+      "27880892",
+      "38032418",
+      "26345231",
+      "31574644",
+      "38781460",
+      "36919512",
+      "24125265",
+      "32937068",
+      "28573270",
+      "32393957",
+      "34824231",
+      "36459443",
+      "36043635",
+      "28720777",
+      "26497979",
+      "30672958",
+      "32785359",
+      "25708871",
+      "28841755",
+      "35648110",
+      "35576653",
+      "31429577",
+      "32640804",
+      "24651885",
+      "32364209",
+      "27768367",
+      "29500429",
+      "26700689",
+      "32874512",
+      "27494501",
+      "29309273",
+      "24579615",
+      "31081811",
+      "26421653",
+      "37022928",
+      "38146033",
+      "32879308",
+      "38865458",
+      "24735319",
+      "39837091",
+      "38556285",
+      "34344869",
+      "38182606",
+      "32578282",
+      "27666121",
+      "26416335",
+      "38039361",
+      "39841921",
+      "38222472",
+      "35796384",
+      "22463211",
+      "31128479",
+      "25378703",
+      "40247534",
+      "23477335",
+      "27051883",
+      "37083022",
+      "37553260",
+      "30384734",
+      "38624000",
+      "27073065",
+      "37936335",
+      "29548071",
+      "25679597",
+      "26490058",
+      "38723211",
+      "40297234",
+      "30160941",
+      "37272788",
+      "21941249",
+      "28530758"
+    ],
+    "review": [
+      "40008816",
+      "37338143",
+      "32648705",
+      "39729406",
+      "27880892",
+      "32937068",
+      "32393957",
+      "32785359",
+      "28841755",
+      "26421653",
+      "39837091",
+      "38556285",
+      "32578282",
+      "27666121",
+      "26416335",
+      "39841921",
+      "31128479",
+      "23477335",
+      "37553260"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/adma.202419716",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

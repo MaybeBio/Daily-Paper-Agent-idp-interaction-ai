@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.15.670491",
+  "title": "Ambroxol displaces α-synuclein from the membrane and inhibits the formation of early protein-lipid coaggregates †",
+  "authors": "Dreier JE; Stevenson A; Carles E; Michaels TC; Galvagnion C",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-20",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究小分子药物Ambroxol对α-synuclein与脂膜共聚集的抑制机制，涉及无序蛋白α-synuclein与膜脂的互作及成核过程，但方法为实验生化，无AI或物理模拟建模，故机制深度有限。",
+  "abstract": "Parkinson’s disease (PD) is a neurological disorder characterized by neuronal loss and the deposition of α -synuclein-lipid coaggregates in the brain of patients as well as disruptions in lipid metabolism. Mutations in the gene GBA , which encodes the lysosomal glycoprotein Glucocerebrosidase, are together the most important genetic risk factor for PD and have been associated with lysosomal dysfunction, accumulation of pathological α -synuclein as well as major changes in both the levels and properties of lipids. Ambroxol, a small molecule chaperone capable of binding and stabilizing Glucocerebrosidase, was found to revert changes in lipid levels and increase in α -synuclein levels due to GBA mutations potentially via restoring lysosomal function. Here, we show that Ambroxol also has a direct effect on α -synuclein-lipid co-aggregation by inhibiting the primary nucleation step in the aggregation process. We find that Ambroxol not only displaces α -synuclein from negatively charged membranes but also prevents the formation of early α -synuclein-lipid coaggregates during primary nucleation. These results suggest that Ambroxol may have beneficial effects on other synucleinopathies, such as multiple system atrophy and dementia with Lewy Bodies, that are also characterised by the aggregation of α -synuclein into amyloid fibrils.",
+  "abstract_zh": "帕金森病（Parkinson’s disease, PD）是一种神经系统疾病，其特征为患者脑内神经元丧失、α-突触核蛋白-脂质共聚集物沉积以及脂质代谢紊乱。编码溶酶体糖蛋白葡萄糖脑苷脂酶（Glucocerebrosidase）的GBA基因突变，共同构成PD最重要的遗传风险因素，并与溶酶体功能障碍、病理性α-突触核蛋白积累以及脂质水平和性质的主要变化相关。安布罗索（Ambroxol）是一种能够结合并稳定葡萄糖脑苷脂酶的小分子伴侣，研究发现其可通过恢复溶酶体功能，逆转由GBA突变引起的脂质水平变化及α-突触核蛋白水平升高。在此，我们表明安布罗索还通过抑制聚集过程中的初级成核步骤，对α-突触核蛋白-脂质共聚集具有直接作用。我们发现，安布罗索不仅将α-突触核蛋白从带负电的膜上置换下来，还阻止了初级成核过程中早期α-突触核蛋白-脂质共聚集物的形成。这些结果表明，安布罗索可能对其他突触核蛋白病（如多系统萎缩和路易体痴呆）具有有益效果，这些疾病同样以α-突触核蛋白聚集成淀粉样纤维为特征。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.15.670491",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.15.670491",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.15.670491/index.html"
+}

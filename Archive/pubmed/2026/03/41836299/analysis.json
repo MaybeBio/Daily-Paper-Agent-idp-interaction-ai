@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41836299",
+  "title": "Unlocking the undruggable spliceosome: generative AI and structural dynamics in cancer therapy.",
+  "authors": "Steuer, Jakob; Kahraman, Abdullah",
+  "journal": "Frontiers in cell and developmental biology",
+  "published_date": "2026-03-16",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述探讨用生成式AI与物理模拟结合靶向剪接体中的无序区域(IDR)及动态构象，虽对象非典型IDP-PPI，但机制建模思路（动态结构集合、隐蔽变构口袋）对无序蛋白互作研究有迁移启发。",
+  "abstract": "The spliceosome is a dynamic molecular machine essential for transcriptome diversity, yet its complexity creates specific vulnerabilities in cancer. Recurrent somatic mutations in core factors, particularly SF3B1, U2AF1, and SRSF2, drive malignancies by altering splice-site recognition. Such structural perturbations do not merely drive oncogenesis but manifest as distinctive molecular signatures that can serve as potent diagnostic and prognostic biomarkers. However, therapeutic exploitation of these defects remains challenging. This review argues that unlocking the spliceosome requires a shift from static cryo-EM snapshots to dynamic structural ensembles. We explore how physics-based molecular simulation and enhanced sampling methods are merging with generative Artificial Intelligence to identify intermediate states, map cryptic allosteric pockets and target intrinsically disordered regions. Translating these mechanistic insights into the clinic, we evaluate the next-generation of therapeutic strategies, ranging from novel molecular biomarkers to rationally designed allosteric modulators and synthetic lethality. Finally, we discuss how deciphering these altered structural dynamics can guide the identification of splicing-derived neoantigens and biomarkers, establishing a roadmap for precision immunotherapy.",
+  "abstract_zh": "剪接体（spliceosome）是一种动态分子机器，对转录组多样性至关重要，但其复杂性在癌症中形成了特定脆弱性。核心因子中的复发性体细胞突变，特别是SF3B1、U2AF1和SRSF2，通过改变剪接位点识别驱动恶性肿瘤。此类结构扰动不仅驱动肿瘤发生，还表现为独特的分子特征，可作为有效的诊断和预后生物标志物。然而，利用这些缺陷进行治疗仍具挑战性。本综述认为，解锁剪接体需要从静态冷冻电镜快照转向动态结构集合。我们探讨了基于物理的分子模拟（molecular simulation）和增强采样方法如何与生成式人工智能（generative Artificial Intelligence）融合，以识别中间状态、绘制隐秘变构口袋并靶向内在无序区域。将这些机制见解转化为临床应用，我们评估了下一代治疗策略，涵盖新型分子生物标志物、合理设计的变构调节剂和合成致死性。最后，我们讨论了解析这些改变的结构动力学如何指导剪接衍生新抗原和生物标志物的识别，为精准免疫治疗建立路线图。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41836299/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41836299/",
+  "paper_page_path": "papers/pubmed/41836299/index.html"
+}

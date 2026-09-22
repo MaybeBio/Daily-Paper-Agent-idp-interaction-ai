@@ -1,0 +1,219 @@
+{
+  "identity": {
+    "pmid": "39377398",
+    "doi": "10.1021/acs.biochem.4c00293",
+    "title": "Atomistic Insights into Sequence-Mediated Spontaneous Association of Short RNA Chains."
+  },
+  "content": {
+    "abstract": "RNA-RNA association and phase separation appear to be essential for the assembly of stress granules and underlie RNA foci formation in repeat expansion disorders. RNA molecules are found to play a significant role in gene-regulatory functions via condensate formation among themselves or with RNA-binding proteins. The interplay between driven versus spontaneous processes is likely to be an important factor for controlling the formation of RNA-mediated biomolecular condensate. However, the sequence-specific interactions and molecular mechanisms that drive the spontaneous RNA-RNA association and help to form RNA-mediated phase-separated condensate remain unclear. With microseconds-long atomistic molecular simulations here, we report how essential aspects of RNA chains, namely, base composition, metal ion binding, and hydration properties, contribute to the association of the series of simplest biologically relevant homopolymeric and heteropolymeric short RNA chains. We show that spontaneous processes make the key contributions governed by the sequence-intrinsic properties of RNA chains, where the definite roles of base-specific hydrogen bonding and stacking interactions are prominent in the association of the RNA chains. Purine versus pyrimidine contents of RNA chains can directly influence the association properties of RNA chains by modulating hydrogen bonding and base stacking interactions. This study determines the impact of ionic environment in sequence-specific spontaneous association of short RNA chains, hydration features, and base-specific interactions of Na(+), K(+), and Mg(2+) ions with RNA chains.",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA/chemistry/metabolism",
+      "*Hydrogen Bonding",
+      "Nucleic Acid Conformation",
+      "Molecular Dynamics Simulation",
+      "Base Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mondal, Manas",
+        "Gao, Yi Qin"
+      ],
+      "short_names": [
+        "Mondal M",
+        "Gao YQ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3919-539X",
+        "ORCID: 0000-0002-4309-9376"
+      ],
+      "affiliations": [
+        "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, 518107 Shenzhen, China.",
+        "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, 518107 Shenzhen, China.",
+        "Beijing National Laboratory for Molecular Sciences, College of Chemistry and Molecular Engineering, Peking University, 100871 Beijing, China.",
+        "Biomedical Pioneering Innovation Center, Peking University, 100871 Beijing, China.",
+        "Changping Laboratory, Beijing 102200, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mondal, Manas",
+        "short_name": "Mondal M",
+        "identifiers": [
+          "0000-0002-3919-539X"
+        ],
+        "affiliations": [
+          "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, 518107 Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yi Qin",
+        "short_name": "Gao YQ",
+        "identifiers": [
+          "0000-0002-4309-9376"
+        ],
+        "affiliations": [
+          "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, 518107 Shenzhen, China.",
+          "Beijing National Laboratory for Molecular Sciences, College of Chemistry and Molecular Engineering, Peking University, 100871 Beijing, China.",
+          "Biomedical Pioneering Innovation Center, Peking University, 100871 Beijing, China.",
+          "Changping Laboratory, Beijing 102200, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemistry"
+    ],
+    "journal_abbrev": [
+      "Biochemistry"
+    ],
+    "pub_date": "2024 Nov 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/08 12:24",
+    "fetched_at": "2026-09-22 01:47:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39377398",
+      "38949285",
+      "39605385",
+      "38571310",
+      "34706977",
+      "40203038",
+      "38416758",
+      "20701388",
+      "22607400",
+      "7544309",
+      "23912807",
+      "10908357",
+      "24144333",
+      "18457418",
+      "12654263",
+      "19754142",
+      "28001394",
+      "30926670",
+      "10903858",
+      "39896463",
+      "29590585",
+      "39459288",
+      "32845610",
+      "11891626",
+      "39432826",
+      "1719210",
+      "21899297",
+      "15683228",
+      "12842044",
+      "21806941",
+      "39042834",
+      "39467648",
+      "16978642",
+      "9000624",
+      "24341895",
+      "39172066",
+      "30611432",
+      "39225633",
+      "31804813",
+      "11162114",
+      "20795690",
+      "26860302",
+      "23933331",
+      "25268896",
+      "18603260",
+      "30780336",
+      "18597538",
+      "38501190",
+      "33982350",
+      "7684832",
+      "23730911",
+      "27657980",
+      "10438596",
+      "39386696",
+      "15665103",
+      "30011039",
+      "39110091",
+      "30088497",
+      "38619551",
+      "20000584",
+      "27295275",
+      "8841523",
+      "11955005",
+      "11788718",
+      "36993212",
+      "20163171",
+      "21910417",
+      "40053864",
+      "11469858",
+      "26580891",
+      "24043821",
+      "21315082",
+      "22525788",
+      "9195889",
+      "11478863",
+      "20345178",
+      "26522935",
+      "26574468",
+      "28965269",
+      "10360356",
+      "8201593",
+      "25255706",
+      "25344900",
+      "25355509",
+      "14523911",
+      "29913160",
+      "1602479",
+      "23157455",
+      "31584014",
+      "27240107",
+      "20345162",
+      "19523895",
+      "11929239",
+      "38112495",
+      "19523903",
+      "30515902",
+      "22199255",
+      "28714502",
+      "22385853",
+      "21372189"
+    ],
+    "review": [
+      "39377398",
+      "34706977",
+      "22607400",
+      "7544309",
+      "11891626",
+      "38501190",
+      "24043821",
+      "22525788",
+      "26522935",
+      "14523911",
+      "29913160"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/bichaw/article-lookup/doi/10.1021/acs.biochem.4c00293",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

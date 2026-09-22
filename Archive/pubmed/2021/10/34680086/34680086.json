@@ -1,0 +1,445 @@
+{
+  "identity": {
+    "pmid": "34680086",
+    "doi": "10.3390/biom11101453",
+    "title": "Design of Inhibitors of the Intrinsically Disordered Protein NUPR1: Balance between Drug Affinity and Target Function."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are emerging as attractive drug targets by virtue of their physiological ubiquity and their prevalence in various diseases, including cancer. NUPR1 is an IDP that localizes throughout the whole cell, and is involved in the development and progression of several tumors. We have previously repurposed trifluoperazine (TFP) as a drug targeting NUPR1 and, by using a ligand-based approach, designed the drug ZZW-115 starting from the TFP scaffold. Such derivative compound hinders the development of pancreatic ductal adenocarcinoma (PDAC) in mice, by hampering nuclear translocation of NUPR1. Aiming to further improve the activity of ZZW-115, here we have used an indirect drug design approach to modify its chemical features, by changing the substituent attached to the piperazine ring. As a result, we have synthesized a series of compounds based on the same chemical scaffold. Isothermal titration calorimetry (ITC) showed that, with the exception of the compound preserving the same chemical moiety at the end of the alkyl chain as ZZW-115, an increase of the length by a single methylene group (i.e., ethyl to propyl) significantly decreased the affinity towards NUPR1 measured in vitro, whereas maintaining the same length of the alkyl chain and adding heterocycles favored the binding affinity. However, small improvements of the compound affinity towards NUPR1, as measured by ITC, did not result in a corresponding improvement in their inhibitory properties and in cellulo functions, as proved by measuring three different biological effects: hindrance of the nuclear translocation of the protein, sensitization of cells against DNA damage mediated by NUPR1, and prevention of cancer cell growth. Our findings suggest that a delicate compromise between favoring ligand affinity and controlling protein function may be required to successfully design drugs against NUPR1, and likely other IDPs.",
+    "keywords": [
+      "biological assays",
+      "drug discovery",
+      "intrinsically disordered proteins",
+      "isothermal titration calorimetry",
+      "ligand-based design",
+      "nuclear protein 1"
+    ],
+    "mesh_terms": [
+      "Adenocarcinoma/*drug therapy/pathology",
+      "Animals",
+      "Basic Helix-Loop-Helix Proteins/*antagonists & inhibitors/chemistry",
+      "Calorimetry",
+      "Carcinoma, Pancreatic Ductal/*drug therapy",
+      "Humans",
+      "Intrinsically Disordered Proteins/*antagonists & inhibitors/genetics",
+      "Ligands",
+      "Mice",
+      "Neoplasm Proteins/*antagonists & inhibitors/chemistry",
+      "Piperazines/chemical synthesis/*chemistry/pharmacology",
+      "Thiazines/chemical synthesis/*chemistry/pharmacology",
+      "Trifluoperazine/chemistry/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rizzuti, Bruno",
+        "Lan, Wenjun",
+        "Santofimia-Castano, Patricia",
+        "Zhou, Zhengwei",
+        "Velazquez-Campoy, Adrian",
+        "Abian, Olga",
+        "Peng, Ling",
+        "Neira, Jose L",
+        "Xia, Yi",
+        "Iovanna, Juan L"
+      ],
+      "short_names": [
+        "Rizzuti B",
+        "Lan W",
+        "Santofimia-Castano P",
+        "Zhou Z",
+        "Velazquez-Campoy A",
+        "Abian O",
+        "Peng L",
+        "Neira JL",
+        "Xia Y",
+        "Iovanna JL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1110-764X",
+        "ORCID: 0000-0003-2506-5567",
+        "ORCID: 0000-0001-5702-4538",
+        "ORCID: 0000-0001-5664-1729",
+        "ORCID: 0000-0002-4933-0428",
+        "ORCID: 0000-0001-5863-7272"
+      ],
+      "affiliations": [
+        "CNR-NANOTEC, SS Rende (CS), Department of Physics, University of Calabria, Via P. Bucci, Cubo 31 C, 87036 Rende, Cosenza, Italy.",
+        "Instituto de Biocomputacion y Fisica de Sistemas Complejos, Joint Units IQFR-CSIC-BIFI, and GBsC-CSIC-BIFI, Universidad de Zaragoza, 50018 Zaragoza, Spain.",
+        "Centre de Recherche en Cancerologie de Marseille (CRCM), INSERM U1068, CNRS UMR 7258, Institut Paoli-Calmettes, Aix-Marseille Universite, 13288 Marseille, France.",
+        "Aix-Marseille Universite, CNRS, Centre Interdisciplinaire de Nanoscience de Marseille, UMR 7325, <<Equipe Labellisee Ligue Contre le Cancer>>, 13288 Marseille, France.",
+        "Centre de Recherche en Cancerologie de Marseille (CRCM), INSERM U1068, CNRS UMR 7258, Institut Paoli-Calmettes, Aix-Marseille Universite, 13288 Marseille, France.",
+        "Chongqing Key Laboratory of Natural Product Synthesis and Drug Research, School of Pharmaceutical Sciences, Chongqing University, Chongqing 401331, China.",
+        "Instituto de Biocomputacion y Fisica de Sistemas Complejos, Joint Units IQFR-CSIC-BIFI, and GBsC-CSIC-BIFI, Universidad de Zaragoza, 50018 Zaragoza, Spain.",
+        "Aragon Institute for Health Research (IIS Aragon), 50009 Zaragoza, Spain.",
+        "Centro de Investigacion Biomedica en Red en el Area Tematica de Enfermedades Hepaticas y Digestivas (CIBERehd), 28029 Barcelona, Spain.",
+        "Departamento de Bioquimica y Biologia Molecular y Celular, Universidad de Zaragoza, 50009 Zaragoza, Spain.",
+        "Fundacion ARAID, Government of Aragon, 50018 Zaragoza, Spain.",
+        "Instituto de Biocomputacion y Fisica de Sistemas Complejos, Joint Units IQFR-CSIC-BIFI, and GBsC-CSIC-BIFI, Universidad de Zaragoza, 50018 Zaragoza, Spain.",
+        "Aragon Institute for Health Research (IIS Aragon), 50009 Zaragoza, Spain.",
+        "Instituto Aragones de Ciencias de la Salud (IACS), 50009 Zaragoza, Spain.",
+        "Aix-Marseille Universite, CNRS, Centre Interdisciplinaire de Nanoscience de Marseille, UMR 7325, <<Equipe Labellisee Ligue Contre le Cancer>>, 13288 Marseille, France.",
+        "Instituto de Biocomputacion y Fisica de Sistemas Complejos, Joint Units IQFR-CSIC-BIFI, and GBsC-CSIC-BIFI, Universidad de Zaragoza, 50018 Zaragoza, Spain.",
+        "IDIBE, Universidad Miguel Hernandez, 03202 Elche, Alicante, Spain.",
+        "Chongqing Key Laboratory of Natural Product Synthesis and Drug Research, School of Pharmaceutical Sciences, Chongqing University, Chongqing 401331, China.",
+        "Centre de Recherche en Cancerologie de Marseille (CRCM), INSERM U1068, CNRS UMR 7258, Institut Paoli-Calmettes, Aix-Marseille Universite, 13288 Marseille, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rizzuti, Bruno",
+        "short_name": "Rizzuti B",
+        "identifiers": [
+          "0000-0003-1110-764X"
+        ],
+        "affiliations": [
+          "CNR-NANOTEC, SS Rende (CS), Department of Physics, University of Calabria, Via P. Bucci, Cubo 31 C, 87036 Rende, Cosenza, Italy.",
+          "Instituto de Biocomputación y Física de Sistemas Complejos, Joint Units IQFR-CSIC-BIFI, and GBsC-CSIC-BIFI, Universidad de Zaragoza, 50018 Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Lan, Wenjun",
+        "short_name": "Lan W",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherche en Cancérologie de Marseille (CRCM), INSERM U1068, CNRS UMR 7258, Institut Paoli-Calmettes, Aix-Marseille Université, 13288 Marseille, France.",
+          "Aix-Marseille Université, CNRS, Centre Interdisciplinaire de Nanoscience de Marseille, UMR 7325, «Equipe Labellisée Ligue Contre le Cancer», 13288 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Santofimia-Castaño, Patricia",
+        "short_name": "Santofimia-Castaño P",
+        "identifiers": [
+          "0000-0003-2506-5567"
+        ],
+        "affiliations": [
+          "Centre de Recherche en Cancérologie de Marseille (CRCM), INSERM U1068, CNRS UMR 7258, Institut Paoli-Calmettes, Aix-Marseille Université, 13288 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhengwei",
+        "short_name": "Zhou Z",
+        "identifiers": [],
+        "affiliations": [
+          "Chongqing Key Laboratory of Natural Product Synthesis and Drug Research, School of Pharmaceutical Sciences, Chongqing University, Chongqing 401331, China."
+        ]
+      },
+      {
+        "full_name": "Velázquez-Campoy, Adrián",
+        "short_name": "Velázquez-Campoy A",
+        "identifiers": [
+          "0000-0001-5702-4538"
+        ],
+        "affiliations": [
+          "Instituto de Biocomputación y Física de Sistemas Complejos, Joint Units IQFR-CSIC-BIFI, and GBsC-CSIC-BIFI, Universidad de Zaragoza, 50018 Zaragoza, Spain.",
+          "Aragon Institute for Health Research (IIS Aragon), 50009 Zaragoza, Spain.",
+          "Centro de Investigación Biomédica en Red en el Área Temática de Enfermedades Hepáticas y Digestivas (CIBERehd), 28029 Barcelona, Spain.",
+          "Departamento de Bioquímica y Biología Molecular y Celular, Universidad de Zaragoza, 50009 Zaragoza, Spain.",
+          "Fundacion ARAID, Government of Aragon, 50018 Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Abián, Olga",
+        "short_name": "Abián O",
+        "identifiers": [
+          "0000-0001-5664-1729"
+        ],
+        "affiliations": [
+          "Instituto de Biocomputación y Física de Sistemas Complejos, Joint Units IQFR-CSIC-BIFI, and GBsC-CSIC-BIFI, Universidad de Zaragoza, 50018 Zaragoza, Spain.",
+          "Aragon Institute for Health Research (IIS Aragon), 50009 Zaragoza, Spain.",
+          "Instituto Aragonés de Ciencias de la Salud (IACS), 50009 Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Peng, Ling",
+        "short_name": "Peng L",
+        "identifiers": [],
+        "affiliations": [
+          "Aix-Marseille Université, CNRS, Centre Interdisciplinaire de Nanoscience de Marseille, UMR 7325, «Equipe Labellisée Ligue Contre le Cancer», 13288 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Neira, José L",
+        "short_name": "Neira JL",
+        "identifiers": [
+          "0000-0002-4933-0428"
+        ],
+        "affiliations": [
+          "Instituto de Biocomputación y Física de Sistemas Complejos, Joint Units IQFR-CSIC-BIFI, and GBsC-CSIC-BIFI, Universidad de Zaragoza, 50018 Zaragoza, Spain.",
+          "IDIBE, Universidad Miguel Hernández, 03202 Elche, Alicante, Spain."
+        ]
+      },
+      {
+        "full_name": "Xia, Yi",
+        "short_name": "Xia Y",
+        "identifiers": [
+          "0000-0001-5863-7272"
+        ],
+        "affiliations": [
+          "Chongqing Key Laboratory of Natural Product Synthesis and Drug Research, School of Pharmaceutical Sciences, Chongqing University, Chongqing 401331, China."
+        ]
+      },
+      {
+        "full_name": "Iovanna, Juan L",
+        "short_name": "Iovanna JL",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Recherche en Cancérologie de Marseille (CRCM), INSERM U1068, CNRS UMR 7258, Institut Paoli-Calmettes, Aix-Marseille Université, 13288 Marseille, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2021 Oct 3",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/24 06:00",
+    "fetched_at": "2026-09-20 06:04:51"
+  },
+  "links": {
+    "cites": [
+      "42495706",
+      "41695483",
+      "40689753",
+      "40325419",
+      "40244295",
+      "39604425",
+      "37893166",
+      "36969402",
+      "36834596",
+      "36499669",
+      "36430530",
+      "36294800",
+      "36143474",
+      "35883608",
+      "35327561",
+      "35275927"
+    ],
+    "refs": [
+      "32832871",
+      "32814057",
+      "32780723",
+      "32315619",
+      "31744261",
+      "31667555",
+      "31528692",
+      "30920390",
+      "30278223",
+      "30015974",
+      "29634920",
+      "29596915",
+      "29530795",
+      "29510778",
+      "29257115",
+      "29186684",
+      "29158196",
+      "28720707",
+      "28225081",
+      "28144341",
+      "28054562",
+      "28000106",
+      "27336713",
+      "27077332",
+      "27046343",
+      "26620784",
+      "26275458",
+      "26208641",
+      "25765988",
+      "25764013",
+      "24205110",
+      "22961798",
+      "22536548",
+      "21514144",
+      "21344397",
+      "20873837",
+      "20658514",
+      "20408171",
+      "20345171",
+      "19926786",
+      "19499576",
+      "19153668",
+      "19039133",
+      "18278867",
+      "17391014",
+      "16478804",
+      "15236190",
+      "15116359",
+      "15103623",
+      "11818333",
+      "11056169",
+      "9405444",
+      "2610349"
+    ],
+    "similar": [
+      "34680086",
+      "29530795",
+      "32780723",
+      "31744261",
+      "30920390",
+      "28054562",
+      "32933064",
+      "32446862",
+      "33385445",
+      "29925531",
+      "36858171",
+      "31922247",
+      "38360999",
+      "31181156",
+      "31667555",
+      "31325636",
+      "28720707",
+      "27046343",
+      "33050086",
+      "32810364",
+      "33510144",
+      "22899799",
+      "23929272",
+      "31528692",
+      "24205110",
+      "32619170",
+      "26392315",
+      "22565310",
+      "25899918",
+      "22961798",
+      "33801927",
+      "29089084",
+      "30451898",
+      "24902898",
+      "31149049",
+      "30278223",
+      "19153668",
+      "33617091",
+      "33793788",
+      "34291085",
+      "26931396",
+      "32835767",
+      "35869257",
+      "27336713",
+      "25056123",
+      "34599149",
+      "34314755",
+      "22858377",
+      "24497499",
+      "27031958",
+      "34655613",
+      "18690848",
+      "33760183",
+      "30979035",
+      "26195786",
+      "30015974",
+      "31971825",
+      "26173068",
+      "22821859",
+      "22738338",
+      "25754492",
+      "28425697",
+      "25611056",
+      "38785968",
+      "26062422",
+      "27145457",
+      "30674641",
+      "10743949",
+      "36116561",
+      "27285315",
+      "32266819",
+      "29130426",
+      "34359572",
+      "24098099",
+      "26794349",
+      "30471705",
+      "33649793",
+      "31914690",
+      "28000106",
+      "33074669",
+      "29731362",
+      "32513898",
+      "29614221",
+      "26387110",
+      "27082063",
+      "34439869",
+      "30471704",
+      "31319114",
+      "25514156",
+      "19946894",
+      "23047430",
+      "30875980",
+      "31362197",
+      "33290870",
+      "37399862",
+      "34164069"
+    ],
+    "review": [
+      "34680086",
+      "31744261",
+      "31667555",
+      "32619170",
+      "30278223",
+      "19153668",
+      "32835767",
+      "33760183",
+      "30979035",
+      "36116561",
+      "34359572",
+      "30471705",
+      "26387110"
+    ],
+    "pmc": [
+      "8533202"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://clinicaltrials.gov/search?term=AREA%5BReferencePMID%5D34680086",
+        "provider": "ClinicalTrials.gov",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom11101453",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34680086/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34680086",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

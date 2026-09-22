@@ -1,0 +1,59 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The abstract states that several simulation studies recently published in Biophysical Journal investigate the formation of biomolecular condensates in the nucleus, and that these structures explain a range of biological phenomena including epigenetic inheritance, enhancer-promoter interactions, and spatial organization of the cell nucleus.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or results sections provided
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, simulation details, model parameters, validation procedures, and any quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract is extremely brief and provides no substantive scientific content. It functions as a general introductory statement rather than a report of specific findings. No simulation results, methodological innovations, or quantitative conclusions are presented. The claim that condensates "explain" a variety of biological phenomena is stated without any supporting evidence or citation context within the abstract. As supplied, the material does not constitute a complete or assessable scientific contribution.
+- **Who would be interested in the results, and why** Based on the abstract alone, researchers studying biomolecular condensates, chromatin organization, and nuclear architecture might find the topic relevant. However, the abstract does not specify what new insights or methods are offered, so the specific interest group cannot be identified with confidence.
+- **Major strengths** The abstract identifies a timely and active research area, namely the simulation of chromatin phase separation, and correctly notes the broad biological relevance of nuclear condensates. The writing is clear and accessible for a general biophysics audience.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific content
+  - **Claim pointer** The abstract implies that the manuscript presents simulation studies of chromatin phase separation, but no specific results, models, or findings are described.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract contains no description of the actual simulations performed, the model systems used, the parameters explored, or any quantitative outcomes. It reads as a general commentary rather than a report of original research.
+  - **Why it matters** A scientific manuscript must present specific, testable findings. Without any description of methods or results, the reader cannot evaluate the validity, novelty, or significance of the work.
+  - **Resolution test** The full manuscript must provide a detailed account of the simulation approach, the specific questions addressed, and the key results with supporting quantitative evidence.
+- **Major Concerns** 
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The abstract states that condensates "explain" epigenetic inheritance, enhancer-promoter interactions, and nuclear spatial organization.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** This is a strong causal claim presented without any supporting data or citation. The abstract does not indicate how the simulations connect to these biological phenomena, nor does it provide any evidence that such connections are established.
+  - **Why it matters** Overstated claims without evidence undermine the scientific credibility of the work. The relationship between simulated condensate formation and complex biological outcomes requires careful demonstration, not assertion.
+  - **Resolution test** The full manuscript must show specific simulation results that directly link condensate properties to at least one of the listed biological phenomena, with appropriate statistical and mechanistic support.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the main conclusion or take-home message of the study.
+  - **Required correction** Add a clear statement of the principal finding or advance reported in the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Literature framing
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "several simulation studies" but does not specify how the present work differs from or advances beyond those studies.
+  - **Required correction** Briefly indicate the novel contribution relative to prior simulation work on chromatin phase separation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are both blocking. The abstract provides no technical content whatsoever, so no technical assessment is possible. The full manuscript must be provided for any meaningful evaluation.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract. No specific claim of novelty is made.
+  - Scientific importance: The topic is important, but the abstract does not demonstrate that this particular work advances the field.
+  - Interdisciplinary readership: The abstract is written in accessible language, but the lack of specific content means the interdisciplinary appeal cannot be evaluated.
+  - Technical soundness: Not assessable. No methods or results are described.
+  - Readability for nonspecialists: The abstract is clear and jargon-free, which is a positive feature.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient scientific content to support any assessment of the manuscript's validity or significance. A full manuscript must be supplied for review.
+
+## Risk / unsupported claims
+- The claim that condensates "explain" epigenetic inheritance, enhancer-promoter interactions, and nuclear spatial organization is unsupported by any evidence in the supplied material.
+- The implicit claim that the manuscript presents original simulation studies is unverifiable from the abstract alone.
+- Any statement regarding the novelty or significance of the work is not assessable from the provided text.

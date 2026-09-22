@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36215496",
+  "title": "Connecting sequence features within the disordered C-terminal linker of Bacillus subtilis FtsZ to functions and bacterial cell division.",
+  "authors": "Shinn, Min Kyung; Cohan, Megan C; Bullock, Jessie L; Ruff, Kiersten M; Levin, Petra A; Pappu, Rohit V",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2022-10-11",
+  "window": {
+    "start": "2022-10-10",
+    "end": "2022-10-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合分子模拟与序列共变分析，研究枯草芽孢杆菌FtsZ无序C端连接子(CTL)中非随机序列模式如何介导与核心域T7环的互作并调控GTPase活性与细胞分裂，属于IDR介导的蛋白-蛋白互作机制建模，方法上采用MD模拟与统计耦合分析，高度契合本课题。",
+  "abstract": "Intrinsically disordered regions (IDRs) can function as autoregulators of folded enzymes to which they are tethered. One example is the bacterial cell division protein FtsZ. This includes a folded core and a C-terminal tail (CTT) that encompasses a poorly conserved, disordered C-terminal linker (CTL) and a well-conserved 17-residue C-terminal peptide (CT17). Sites for GTPase activity of FtsZs are formed at the interface between GTP binding sites and T7 loops on cores of adjacent subunits within dimers. Here, we explore the basis of autoregulatory functions of the CTT in Bacillus subtilis FtsZ (Bs-FtsZ). Molecular simulations show that the CT17 of Bs-FtsZ makes statistically significant CTL-mediated contacts with the T7 loop. Statistical coupling analysis of more than 1,000 sequences from FtsZ orthologs reveals clear covariation of the T7 loop and the CT17 with most of the core domain, whereas the CTL is under independent selection. Despite this, we discover the conservation of nonrandom sequence patterns within CTLs across orthologs. To test how the nonrandom patterns of CTLs mediate CTT-core interactions and modulate FtsZ functionalities, we designed Bs-FtsZ variants by altering the patterning of oppositely charged residues within the CTL. Such alterations disrupt the core-CTT interactions, lead to anomalous assembly and inefficient GTP hydrolysis in vitro and protein degradation, aberrant assembly, and disruption of cell division in vivo. Our findings suggest that viable CTLs in FtsZs are likely to be IDRs that encompass nonrandom, functionally relevant sequence patterns that also preserve three-way covariation of the CT17, the T7 loop, and core domain.",
+  "abstract_zh": "固有无序区域（IDRs）可作为其所连接的折叠酶的自调控因子。一个例子是细菌细胞分裂蛋白FtsZ。该蛋白包含一个折叠核心和一个C末端尾部（CTT），后者涵盖一个保守性差的、无序的C末端连接区（CTL）和一个高度保守的17残基C末端肽段（CT17）。FtsZs的GTPase活性位点形成于二聚体内相邻亚基核心上GTP结合位点与T7环之间的界面。在此，我们探讨了枯草芽孢杆菌FtsZ（Bs-FtsZ）中CTT自调控功能的基础。分子模拟显示，Bs-FtsZ的CT17通过CTL介导的方式与T7环形成统计学上显著的接触。对来自FtsZ直系同源物超过1000条序列的统计耦合分析揭示了T7环和CT17与核心结构域大部分区域的明显共变，而CTL则处于独立选择之下。尽管如此，我们发现了直系同源物中CTL内非随机序列模式的保守性。为了测试CTL的非随机模式如何介导CTT-核心相互作用并调节FtsZ功能，我们通过改变CTL内带相反电荷残基的模式设计了Bs-FtsZ变体。这些改变破坏了核心-CTT相互作用，导致体外异常组装和低效GTP水解，以及体内蛋白质降解、异常组装和细胞分裂中断。我们的发现表明，FtsZs中可行的CTLs可能是包含非随机、功能相关序列模式的IDRs，这些模式还保持了CT17、T7环和核心结构域的三方共变。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36215496/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36215496/",
+  "paper_page_path": "papers/pubmed/36215496/index.html"
+}

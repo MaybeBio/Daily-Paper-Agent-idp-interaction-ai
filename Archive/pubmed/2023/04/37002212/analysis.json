@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37002212",
+  "title": "Inhibitor-3 inhibits Protein Phosphatase 1 via a metal binding dynamic protein-protein interaction.",
+  "authors": "Srivastava, Gautam; Choy, Meng S; Bolik-Coulon, Nicolas; Page, Rebecca; Peti, Wolfgang",
+  "journal": "Nature communications",
+  "published_date": "2023-04-01",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究无序蛋白Inhibitor-3通过金属结合动态模糊互作抑制PP1的机制，结合生物物理与抑制实验揭示IDP-折叠蛋白互作直接调控酶活，虽无AI/物理模拟方法，但对象与互作机制高度契合，对无序蛋白介导PPI机制建模有重要启发。",
+  "abstract": "To achieve substrate specificity, protein phosphate 1 (PP1) forms holoenzymes with hundreds of regulatory and inhibitory proteins. Inhibitor-3 (I3) is an ancient inhibitor of PP1 with putative roles in PP1 maturation and the regulation of PP1 activity. Here, we show that I3 residues 27-68 are necessary and sufficient for PP1 binding and inhibition. In addition to a canonical RVxF motif, which is shared by nearly all PP1 regulators and inhibitors, and a non-canonical SILK motif, I3 also binds PP1 via multiple basic residues that bind directly in the PP1 acidic substrate binding groove, an interaction that provides a blueprint for how substrates bind this groove for dephosphorylation. Unexpectedly, this interaction positions a CCC (cys-cys-cys) motif to bind directly across the PP1 active site. Using biophysical and inhibition assays, we show that the I3 CCC motif binds and inhibits PP1 in an unexpected dynamic, fuzzy manner, via transient engagement of the PP1 active site metals. Together, these data not only provide fundamental insights into the mechanisms by which IDP protein regulators of PP1 achieve inhibition, but also shows that fuzzy interactions between IDPs and their folded binding partners, in addition to enhancing binding affinity, can also directly regulate enzyme activity.",
+  "abstract_zh": "为实现底物特异性，蛋白磷酸酶1（PP1）与数百种调控蛋白和抑制蛋白形成全酶。抑制剂-3（I3）是PP1的一种古老抑制剂，推测在PP1成熟及PP1活性调控中发挥作用。在此，我们展示I3残基27-68对PP1结合和抑制是必要且充分的。除了几乎所有PP1调控因子和抑制剂共有的经典RVxF基序，以及非经典SILK基序外，I3还通过多个碱性残基结合PP1，这些残基直接结合于PP1酸性底物结合沟槽，这一相互作用为底物如何结合该沟槽以进行去磷酸化提供了蓝图。出乎意料的是，这种相互作用使一个CCC（半胱氨酸-半胱氨酸-半胱氨酸）基序直接横跨PP1活性位点结合。利用生物物理和抑制实验，我们表明I3 CCC基序通过瞬时参与PP1活性位点金属离子，以意想不到的动态、模糊方式结合并抑制PP1。综合来看，这些数据不仅为PP1的内在无序蛋白（IDP）调控因子实现抑制的机制提供了基础性见解，还表明IDP与其折叠结合伴侣之间的模糊相互作用，除了增强结合亲和力外，还能直接调控酶活性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37002212/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37002212/",
+  "paper_page_path": "papers/pubmed/37002212/index.html"
+}

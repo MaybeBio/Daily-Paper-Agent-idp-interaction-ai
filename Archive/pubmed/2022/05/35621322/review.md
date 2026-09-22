@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors report atomistic molecular dynamics simulations of a sheep prion peptide (residues 142-167) in the presence of monovalent and divalent ions at various concentrations. They claim that Li(+) ions exhibit higher survival probability than Na(+), K(+), and Mg(2+), affecting the solvation structure and promoting an alpha-helical conformation. At high ion concentrations, they claim that ion specificity is lost due to screening by ion-solvent and counter-ion interactions. They further suggest that ions can regulate protein structure and function, with implications for drug design.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or simulation parameters are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, ion concentration ranges, trajectory analyses, structural metrics, statistical uncertainties, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study on ion-specific effects on an intrinsically disordered prion peptide. However, the claims as stated are not sufficiently supported by the evidence provided in the abstract. Key mechanistic assertions, such as the "survival probability" of ions and the screening mechanism at high concentration, lack quantitative detail and statistical context. The connection to drug design is speculative and not substantiated. The work may be of interest to the computational biophysics community, but the current evidence base is too limited to establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, intrinsically disordered proteins, and ion-protein interactions would be interested. The study addresses a fundamental question about how ion identity and concentration modulate conformational ensembles of disordered peptides, which is relevant to understanding prion misfolding and to the broader field of ion-specific effects in biology.
+- **Major strengths** The study addresses a relevant and under-explored question regarding ion specificity in intrinsically disordered proteins. The use of atomistic molecular dynamics simulations is appropriate for probing molecular-level mechanisms. The systematic variation of ion type and concentration is a reasonable approach to disentangle size, charge, and concentration effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Li(+) ions have a higher survival probability compared to Na(+), K(+), and Mg(2+), affecting the solvation structure and leading to alpha-helix structure.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The term "survival probability" is not defined in the abstract. It is unclear whether this refers to ion residence time near the peptide, binding lifetime, or another metric. Without a clear definition and quantitative values, the claim cannot be evaluated. Furthermore, the causal link between ion survival probability and alpha-helix formation is asserted but not demonstrated with structural data such as helicity percentages or free energy profiles.
+  - **Why it matters** The central mechanistic claim of the study rests on this correlation. If the metric is ambiguous or the causal relationship is not established, the main conclusion is unsupported.
+  - **Resolution test** Provide a clear definition of survival probability, report quantitative values with uncertainties for each ion, and show a direct correlation with secondary structure metrics (e.g., alpha-helical content over simulation time) for each condition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that at high concentration, ion-solvent and counter-ion interactions screen the effect of ions on the protein surface, resulting in no ion specificity.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The screening mechanism is described qualitatively without supporting data. No concentration values are given, and no comparison of structural outcomes across concentrations is presented. The claim that "no ion specificity is observed" requires statistical evidence, such as overlapping confidence intervals for structural metrics across ion types at high concentration.
+  - **Why it matters** This is the second major conclusion of the study. Without quantitative evidence, the claim of concentration-dependent loss of ion specificity is not established.
+  - **Resolution test** Report the specific concentrations used, show structural metrics (e.g., radius of gyration, helicity, or contact maps) for each ion at low and high concentrations, and provide statistical tests demonstrating that differences between ions vanish at high concentration.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the study demonstrates how ions can be used to regulate protein structure and function, which can help in designing drugs.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The translational claim regarding drug design is speculative and not supported by any data in the abstract. No connection is made to a specific disease mechanism, therapeutic target, or practical application.
+  - **Why it matters** Overstating implications can mislead readers and detract from the actual scientific contribution of the study.
+  - **Resolution test** Either remove the drug design claim or provide a concrete discussion in the full manuscript linking the findings to a specific prion-related pathology and a plausible therapeutic strategy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "survival probability" and "screening" without brief explanations, which may confuse readers outside the simulation community.
+  - **Required correction** Add a brief parenthetical definition of survival probability and clarify the screening concept in one sentence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Ion selection
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists Li(+), Na(+), K(+), and Mg(2+) but does not justify why these specific ions were chosen or whether other ions were tested.
+  - **Required correction** Briefly state the rationale for ion selection in the abstract or refer to a methods section in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextual framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions experimental observations of ion sensitivity in intrinsically disordered proteins but does not specify which experiments or how the simulations relate to those observations.
+  - **Required correction** Add one sentence referencing specific experimental findings and how the simulation results align or contrast with them.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic claims are not quantitatively supported. The definition of survival probability, the causal link to alpha-helix formation, and the concentration-dependent screening effect must be substantiated with data and statistical analysis.
+- **Assessment against Nature-style criteria** Originality: The question of ion-specific effects on intrinsically disordered proteins is timely, but the abstract does not clearly distinguish the findings from prior computational studies on similar systems. Scientific importance: The potential relevance to prion misfolding is interesting, but the abstract does not establish broader significance beyond a specific peptide fragment. Interdisciplinary readership: The abstract is likely accessible to biophysicists and computational chemists but may not engage a wider biological audience without clearer biological context. Technical soundness: Not assessable from the abstract alone; the missing definitions and quantitative evidence are major gaps. Readability for nonspecialists: The abstract is concise but uses jargon without explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible hypotheses but lacks the quantitative and statistical support needed to validate the central claims. A revised manuscript with detailed methods, clear metrics, and robust data presentation could change this assessment.
+
+## Risk / unsupported claims
+- The claim that Li(+) ions promote alpha-helix structure via higher survival probability is unsupported without defined metrics and structural data.
+- The claim that high ion concentration eliminates ion specificity is unsupported without concentration values and statistical comparisons.
+- The claim that ions can be used to regulate protein structure and function for drug design is speculative and not supported by the abstract.
+- The relevance of the sheep prion peptide fragment to full-length prion protein behavior is not addressed and cannot be assessed from the abstract.

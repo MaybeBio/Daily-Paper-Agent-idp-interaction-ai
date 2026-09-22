@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "40707209",
+    "doi": "10.1248/cpb.c25-00243",
+    "title": "Deciphering Glycan Dynamics through Nonlinear Correlation Analysis."
+  },
+  "content": {
+    "abstract": "Glycans, as one of the fundamental biomolecules alongside nucleic acids and proteins, play critical roles in biological processes, including glycoprotein folding, transport, degradation, and cell-cell interactions. Despite their biological importance, the structural analysis of glycans remains challenging due to their high flexibility and complex branched structures. This study addresses these challenges by combining molecular dynamics (MD) simulations and NMR spectroscopy to obtain dynamic conformational ensembles of glycans. Nonlinear correlation analyses, specifically Hilbert-Schmidt independence criterion and maximal information coefficient, were applied to decipher the structural dynamics of glycans. The study focused on GM3 trisaccharides and high-mannose glycans (GM9, M9, and M8B), uncovering the roles of glycosidic dihedral angles and intramolecular hydrogen bonds in stabilizing specific conformations. Key correlations between glycosidic linkages and hydrogen bonds were identified, offering insights into the conformational changes that underpin glycan bioactivity. Notably, the removal of specific mannose residues disrupts hydrogen bond networks, expanding conformational space and influencing glycoprotein fate in the endoplasmic reticulum. By integrating MD simulations, NMR validation, and nonlinear multivariate analysis, this study provides a robust framework for understanding glycan structural dynamics. These findings have broad implications for glycoengineering, glycan-based drug discovery, and the design of therapeutics targeting structurally dynamic biomolecules, such as intrinsically disordered proteins.",
+    "keywords": [
+      "conformational dynamics",
+      "glycan",
+      "intramolecular hydrogen bond",
+      "molecular simulation",
+      "nonlinear correlation analysis"
+    ],
+    "mesh_terms": [
+      "*Polysaccharides/chemistry",
+      "Molecular Dynamics Simulation",
+      "Hydrogen Bonding",
+      "Magnetic Resonance Spectroscopy",
+      "Carbohydrate Conformation",
+      "Nonlinear Dynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kato, Koichi",
+        "Watanabe, Tokio",
+        "Yamaguchi, Takumi"
+      ],
+      "short_names": [
+        "Kato K",
+        "Watanabe T",
+        "Yamaguchi T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji-cho, Okazaki, Aichi 444-8787, Japan.",
+        "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji-cho, Okazaki, Aichi 444-8787, Japan.",
+        "Core for Spin Life Sciences, Okazaki Collaborative Platform, National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji-cho, Okazaki, Aichi 444-8787, Japan.",
+        "Graduate School of Pharmaceutical Sciences, Nagoya City University, 3-1 Tanabe-dori, Mizuho-ku, Nagoya 467-8603, Japan.",
+        "Graduate School of Pharmaceutical Sciences, Nagoya City University, 3-1 Tanabe-dori, Mizuho-ku, Nagoya 467-8603, Japan.",
+        "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji-cho, Okazaki, Aichi 444-8787, Japan.",
+        "Core for Spin Life Sciences, Okazaki Collaborative Platform, National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji-cho, Okazaki, Aichi 444-8787, Japan.",
+        "Graduate School of Pharmaceutical Sciences, Nagoya City University, 3-1 Tanabe-dori, Mizuho-ku, Nagoya 467-8603, Japan.",
+        "School of Materials Science, Japan Advanced Institute of Science and Technology, 1-1 Asahidai, Nomi, Ishikawa 923-1292, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kato, Koichi",
+        "short_name": "Kato K",
+        "identifiers": [],
+        "affiliations": [
+          "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji-cho, Okazaki, Aichi 444-8787, Japan.",
+          "Institute for Molecular Science (IMS), National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji-cho, Okazaki, Aichi 444-8787, Japan.",
+          "Core for Spin Life Sciences, Okazaki Collaborative Platform, National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji-cho, Okazaki, Aichi 444-8787, Japan.",
+          "Graduate School of Pharmaceutical Sciences, Nagoya City University, 3-1 Tanabe-dori, Mizuho-ku, Nagoya 467-8603, Japan."
+        ]
+      },
+      {
+        "full_name": "Watanabe, Tokio",
+        "short_name": "Watanabe T",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Pharmaceutical Sciences, Nagoya City University, 3-1 Tanabe-dori, Mizuho-ku, Nagoya 467-8603, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamaguchi, Takumi",
+        "short_name": "Yamaguchi T",
+        "identifiers": [],
+        "affiliations": [
+          "Exploratory Research Center on Life and Living Systems (ExCELLS), National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji-cho, Okazaki, Aichi 444-8787, Japan.",
+          "Core for Spin Life Sciences, Okazaki Collaborative Platform, National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji-cho, Okazaki, Aichi 444-8787, Japan.",
+          "Graduate School of Pharmaceutical Sciences, Nagoya City University, 3-1 Tanabe-dori, Mizuho-ku, Nagoya 467-8603, Japan.",
+          "School of Materials Science, Japan Advanced Institute of Science and Technology, 1-1 Asahidai, Nomi, Ishikawa 923-1292, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical & pharmaceutical bulletin"
+    ],
+    "journal_abbrev": [
+      "Chem Pharm Bull (Tokyo)"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/25 00:28",
+    "fetched_at": "2026-09-21 21:23:30"
+  },
+  "links": {
+    "cites": [
+      "41387443"
+    ],
+    "refs": [],
+    "similar": [
+      "40707209",
+      "32350512",
+      "41087027",
+      "37465933",
+      "38180821",
+      "40306228",
+      "36228468",
+      "39645352",
+      "25196214",
+      "23531151",
+      "30292198",
+      "31066963",
+      "23912807",
+      "9465784",
+      "23522728",
+      "25116630",
+      "21158455",
+      "36179122",
+      "26405106",
+      "22098756",
+      "25753720",
+      "41065555",
+      "8298304",
+      "35262462",
+      "22530754",
+      "34576942",
+      "30091597",
+      "25139750",
+      "26971576",
+      "38393644",
+      "28632942",
+      "7578010",
+      "38981694",
+      "39378441",
+      "9874202",
+      "10821673",
+      "25999804",
+      "29274553",
+      "31565801",
+      "20576257",
+      "24252626",
+      "27385537",
+      "35275211",
+      "30482728",
+      "21545157",
+      "7794934",
+      "30840442",
+      "28510079",
+      "40600889",
+      "34225601",
+      "33813322",
+      "24878075",
+      "38474585",
+      "36156417",
+      "11457289",
+      "41320392",
+      "24155237",
+      "40168794",
+      "39982033",
+      "41387443",
+      "25647580",
+      "12542425",
+      "28177314",
+      "21823626",
+      "27346493",
+      "10447685",
+      "41261770",
+      "23104379",
+      "12433493",
+      "9798429",
+      "36607620",
+      "11928483",
+      "39793969",
+      "35921895",
+      "30204435",
+      "9250674",
+      "24909815",
+      "26030674",
+      "9719678",
+      "11343276",
+      "38602480",
+      "17202175",
+      "18630914",
+      "24571104",
+      "26735936",
+      "37666405",
+      "23788638",
+      "27759083",
+      "22118044",
+      "11787005",
+      "31835069",
+      "28816453",
+      "25753726",
+      "32900381",
+      "17606910",
+      "37883679",
+      "40430350",
+      "29726048",
+      "16853578",
+      "25527427"
+    ],
+    "review": [
+      "40707209",
+      "40306228",
+      "39645352",
+      "23522728",
+      "30091597",
+      "30840442",
+      "28510079",
+      "34225601",
+      "25647580",
+      "31835069"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1248/cpb.c25-00243",
+        "provider": "J-STAGE, Japan Science and Technology Information Aggregator, Electronic",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.medicalonline.jp/meteo_linkout.php?issn=0009-2363&volume=73&issue=7&spage=639",
+        "provider": "Medical Online, Meteo Inc",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

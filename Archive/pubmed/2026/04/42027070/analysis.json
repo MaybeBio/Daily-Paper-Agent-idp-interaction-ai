@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42027070",
+  "title": "Moiety-specific mechanism of ATP's hydrotropic action on alpha-synuclein.",
+  "authors": "Shuto, Yusuke; Mori, Toshifumi; Kohn, Benjamin; Walinda, Erik; Morimoto, Daichi; Scheler, Ulrich; So, Masatomo; Furukawa, Ayako; Yoshida, Norio; Sugase, Kenji",
+  "journal": "Physical chemistry chemical physics : PCCP",
+  "published_date": "2026-04-24",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合NMR与MD模拟，解析ATP各化学基团与无序蛋白α-突触核蛋白的弱多价互作及其构象调控机制，提出层级结合水溶机制，虽非直接PPI/相分离，但为IDP-配体互作机制建模提供了可迁移的物理模拟与能量分析范式。",
+  "abstract": "Adenosine triphosphate (ATP), the universal energy currency of life, also acts as a biological hydrotrope that maintains protein solubility. However, the molecular mechanism underlying its hydrotropic action, particularly how its distinct chemical moieties contribute to modulating protein conformation and preventing aggregation, remains unclear. Here, we combined NMR spectroscopy and molecular dynamics (MD) simulations to dissect the moiety-specific interactions between ATP and alpha-synuclein, an intrinsically disordered protein implicated in Parkinson's disease. NMR titration experiments monitoring ATP signals revealed that the adenine ring of ATP formed weak multisite interactions with alpha-synuclein, whereas the triphosphate group formed fewer but stronger contacts. MD simulations showed that the triphosphate-mediated contacts occurred primarily at N-terminal lysine residues and disrupted long-range intramolecular contacts, resulting in conformational expansion of alpha-synuclein. Energetic analysis indicated that this expansion incurred a conformational energy cost that was balanced by more favorable solvation. Based on these findings, we propose a \"hierarchical binding hydrotrope mechanism\", in which the predominant contribution of each ATP moiety shifts with ATP concentration because the two moieties differ in microscopic affinity and the number of accessible interaction sites. Triphosphate-mediated binding, limited by the number of available binding sites, increases preferentially at lower ATP concentrations, whereas adenine-mediated binding increases progressively at higher concentrations. This mechanism provides a molecular basis for the concentration-dependent hydrotropic effects of ATP and clarifies how this metabolite modulates the conformational properties of aggregation-prone proteins under physiological conditions.",
+  "abstract_zh": "三磷酸腺苷（ATP），作为生命的通用能量货币，同时也作为一种生物水溶助剂，维持蛋白质的溶解度。然而，其水溶助剂作用的分子机制，特别是其不同的化学部分如何有助于调节蛋白质构象并防止聚集，仍不清楚。在此，我们结合核磁共振波谱和分子动力学（MD）模拟，解析了ATP与α-突触核蛋白（一种与帕金森病相关的固有无序蛋白）之间的部分特异性相互作用。监测ATP信号的NMR滴定实验揭示，ATP的腺嘌呤环与α-突触核蛋白形成弱多位点相互作用，而三磷酸基团则形成较少但更强的接触。MD模拟显示，三磷酸介导的接触主要发生在N端赖氨酸残基处，并破坏了长程分子内接触，导致α-突触核蛋白的构象扩展。能量分析表明，这种扩展产生了构象能量代价，但被更有利的溶剂化所平衡。基于这些发现，我们提出了一种“分层结合水溶助剂机制”，其中每个ATP部分的主要贡献随ATP浓度变化，因为这两个部分在微观亲和力和可及相互作用位点数量上存在差异。三磷酸介导的结合受可用结合位点数量限制，在较低ATP浓度下优先增加，而腺嘌呤介导的结合在较高浓度下逐渐增加。该机制为ATP的浓度依赖性水溶助剂效应提供了分子基础，并阐明了这种代谢物在生理条件下如何调节易聚集蛋白的构象特性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42027070/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42027070/",
+  "paper_page_path": "papers/pubmed/42027070/index.html"
+}

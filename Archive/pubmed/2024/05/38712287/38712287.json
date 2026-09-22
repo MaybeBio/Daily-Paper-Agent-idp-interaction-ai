@@ -1,0 +1,210 @@
+{
+  "identity": {
+    "pmid": "38712287",
+    "doi": "10.1101/2024.04.25.591151",
+    "title": "Intrinsically disordered membrane anchors of Rheb, RhoA and DiRas3 small GTPases: Molecular dynamics, membrane organization, and interactions."
+  },
+  "content": {
+    "abstract": "Protein structure has been well established to play a key role in determining function; however, intrinsically disordered proteins and regions (IDPs and IDRs) defy this paradigm. IDPs and IDRs exist as an ensemble of structures rather than a stable 3D structure yet play essential roles in many cell signaling processes. Nearly all Ras Superfamily GTPases are tethered to membranes by a lipid tail at the end of a flexible IDR. The sequence of these IDRs are key determinants of membrane localization, and interactions between the IDR and the membrane have been shown to affect signaling in RAS proteins through modulation of dynamic membrane organization. Here we utilized atomistic molecular dynamics simulations to study the membrane interactions, conformational dynamics, and lipid sorting of three IDRs from small GTPases Rheb, RhoA and DiRas3 in model membranes representing their physiological target membranes. We found that complementarity between lipidated IDR sequence and target membrane lipid composition is a determinant of conformational plasticity. We also show that electrostatic interactions between anionic lipids and basic residues on IDRs generate semi-stable conformational sub-states, and a lack of these residues leads to greater conformational diversity. Finally, we show that small GTPase IDRs with a polybasic domain alter local lipid composition by segregating anionic membrane lipids, and, in some cases, excluding other lipids from their immediate proximity in favor of anionic lipids.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hutchins, Chase M",
+        "Gorfe, Alemayehu A"
+      ],
+      "short_names": [
+        "Hutchins CM",
+        "Gorfe AA"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Hutchins, Chase M",
+        "short_name": "Hutchins CM",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gorfe, Alemayehu A",
+        "short_name": "Gorfe AA",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Apr 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/07 06:42",
+    "fetched_at": "2026-09-21 07:01:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38712287",
+      "38942776",
+      "37609330",
+      "37919400",
+      "29763584",
+      "31441158",
+      "34557680",
+      "35034725",
+      "37657994",
+      "35882686",
+      "23142703",
+      "39453744",
+      "39539017",
+      "36674958",
+      "33267376",
+      "20522251",
+      "34825861",
+      "31709918",
+      "38943706",
+      "30878482",
+      "34390736",
+      "39093570",
+      "38915510",
+      "41571439",
+      "32824743",
+      "35930019",
+      "36005688",
+      "38297118",
+      "39433443",
+      "38220424",
+      "31756456",
+      "36987865",
+      "24115198",
+      "33076213",
+      "37986812",
+      "33719450",
+      "33194509",
+      "27807972",
+      "34656327",
+      "38297184",
+      "39253485",
+      "37634152",
+      "36833360",
+      "36693319",
+      "31999450",
+      "37961106",
+      "39653037",
+      "41394673",
+      "39071267",
+      "33243935",
+      "35094056",
+      "33036302",
+      "36131545",
+      "39446390",
+      "39933697",
+      "41276815",
+      "39763873",
+      "40042172",
+      "40574713",
+      "38275091",
+      "33567297",
+      "40631955",
+      "39232584",
+      "37736816",
+      "34461937",
+      "40317235",
+      "33517146",
+      "21354399",
+      "35139468",
+      "36291695",
+      "30058229",
+      "30802457",
+      "31724233",
+      "40403066",
+      "20483331",
+      "29626537",
+      "34285781",
+      "34179096",
+      "33260713",
+      "23153654",
+      "39713372",
+      "35275927",
+      "23409921",
+      "37443299",
+      "40530859",
+      "33248138",
+      "41232529",
+      "24027208",
+      "38662765",
+      "41647538",
+      "32743159",
+      "31804089",
+      "37463458",
+      "41534519",
+      "36908253",
+      "36824878",
+      "30022112",
+      "32696395",
+      "38194282",
+      "28041850"
+    ],
+    "review": [
+      "38712287",
+      "31441158",
+      "37657994",
+      "35882686",
+      "31709918",
+      "38943706",
+      "34390736",
+      "39093570",
+      "35930019",
+      "38220424",
+      "33194509",
+      "36833360",
+      "33243935",
+      "33567297",
+      "35139468",
+      "34285781",
+      "33260713",
+      "33248138",
+      "24027208"
+    ],
+    "pmc": [
+      "11071463"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38712287/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.04.25.591151",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

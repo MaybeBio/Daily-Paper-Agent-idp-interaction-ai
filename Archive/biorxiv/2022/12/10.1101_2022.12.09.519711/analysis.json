@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.09.519711",
+  "title": "Identifying key residues in intrinsically disordered regions of proteins using machine learning",
+  "authors": "Wen-Lin Ho; Hsuan-Cheng Huang; Jie-rong Huang",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-12",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用无监督对比学习与自注意力网络从人类IDR直系同源序列中识别功能关键残基，对象为IDR且用AI方法，但未涉及PPI或互作机制建模，故综合评分为5。",
+  "abstract": "Conserved residues in protein homolog sequence alignments are structurally or functionally important. For intrinsically disordered proteins (IDPs) or proteins with intrinsically disordered regions (IDRs), however, alignment often fails because they lack a steric structure to constrain evolution. Although sequences vary, the physicochemical features of IDRs may be preserved in maintaining function. Therefore, a method to retrieve common IDR features may help identify functionally important residues. We applied un-supervised contrastive learning to train a model with self-attention neuronal networks on human IDR orthologs. During training, parameters were optimized to match sequences in ortholog pairs but not in other IDRs. The trained model successfully identifies previously reported critical residues from experimental studies, especially those with an overall pattern (e.g. multiple aromatic residues or charged blocks) rather than short motifs. This predictive model can therefore be used to identify potentially important residues in other proteins. Availability and implementation The training scripts are available on GitHub ( https://github.com/allmwh/IFF ). The training datasets have been deposited in an Open Science Framework repository ( https://osf.io/jk29b ). The trained model can be run from the Jupyter Notebook in the GitHub repository using Binder ( mybinder.org ). The only required input is the primary sequence.",
+  "abstract_zh": "蛋白质同源序列比对中的保守残基在结构或功能上具有重要意义。然而，对于固有无序蛋白质（IDPs）或含有固有无序区域（IDRs）的蛋白质，比对常常失败，因为它们缺乏约束进化的空间结构。尽管序列各异，IDRs的理化特征可能在维持功能时得以保留。因此，一种提取常见IDR特征的方法可能有助于识别功能重要的残基。我们应用无监督对比学习，在人类IDR直系同源物上训练了一个具有自注意力神经网络的模型。在训练过程中，参数被优化以匹配直系同源对中的序列，而非其他IDRs中的序列。训练后的模型成功识别了实验研究中先前报道的关键残基，尤其是那些具有整体模式（如多个芳香族残基或带电块）而非短基序的残基。因此，该预测模型可用于识别其他蛋白质中潜在的重要残基。可用性与实现 训练脚本可在GitHub上获取（ https://github.com/allmwh/IFF ）。训练数据集已存放在开放科学框架仓库中（ https://osf.io/jk29b ）。训练后的模型可通过GitHub仓库中的Jupyter Notebook使用Binder（ mybinder.org ）运行。唯一需要的输入是初级序列。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.09.519711",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.09.519711",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.09.519711/index.html"
+}

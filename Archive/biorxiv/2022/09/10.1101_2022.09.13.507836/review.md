@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or full-text data were provided
+- **Shared manuscript claim summary** The authors propose that two intrinsically disordered proteins, SAID1/2, negatively regulate miRNA biogenesis in Arabidopsis through a dual mechanism: promoting PRP4KA-mediated phosphorylation and degradation of SERRATE (SE), and sequestering hairpin-structured pri-miRNAs from the microprocessor, while also exhibiting liquid-liquid phase condensation nucleated on SE
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or primary data are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, statistical details, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and novel mechanism for the regulation of miRNA biogenesis in plants, involving two previously uncharacterized IDPs. The proposed dual inhibitory function is conceptually appealing and could be of broad interest to the plant and RNA biology communities. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims. Key mechanistic steps, such as the direct binding of SAID1/2 to pri-miRNAs, the specificity of PRP4KA-mediated phosphorylation, and the functional significance of phase condensation, are stated without supporting quantitative or qualitative data. The pleiotropic phenotypes and transcriptomic overlaps with se mutants are mentioned but not substantiated. As such, the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Plant molecular biologists studying miRNA biogenesis and gene regulation; researchers interested in intrinsically disordered proteins and their roles in cellular condensates; and scientists working on post-transcriptional regulation in eukaryotes, given the potential parallels with animal systems
+- **Major strengths** The identification of SAID1/2 as negative regulators of miRNA biogenesis addresses a gap in understanding the regulatory layers of the microprocessor. The proposed dual mechanism, combining post-translational control of SE and substrate sequestration, is mechanistically distinct and intellectually stimulating. The involvement of phase separation adds a modern and potentially significant dimension to the study
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** SAID1/2 promote PRP4KA-mediated phosphorylation of SE, leading to its degradation in vivo
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that SAID1/2 promote PRP4KA-mediated phosphorylation of SE, but no data are shown to establish the directness of this interaction, the specificity of PRP4KA for SE, or the causal link between phosphorylation and degradation. It is unclear whether SAID1/2 act as scaffolds, activators, or substrates in this process
+  - **Why it matters** This is a central mechanistic pillar of the proposed dual inhibition model. Without evidence for the physical or enzymatic relationship between SAID1/2, PRP4KA, and SE, the claim remains speculative
+  - **Resolution test** Provide in vitro kinase assays with recombinant proteins, phospho-site mapping, and in vivo degradation assays with appropriate mutants (e.g., phospho-dead or phospho-mimetic SE) to demonstrate causality
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** SAID1/2 have strong binding affinity to hairpin-structured pri-miRNAs and can sequester them from SE
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of strong binding affinity to pri-miRNAs is presented without quantitative binding data (e.g., Kd values), specificity controls (e.g., binding to non-hairpin RNAs or other structured RNAs), or competition experiments demonstrating sequestration from SE. The term "sequester" implies a dynamic and competitive process that is not evidenced
+  - **Why it matters** This is the second pillar of the dual mechanism. If SAID1/2 merely bind pri-miRNAs without affecting SE access, the proposed inhibitory function would be weakened
+  - **Resolution test** Include electrophoretic mobility shift assays or surface plasmon resonance with purified proteins and pri-miRNA substrates, competition assays with SE, and in vivo crosslinking or RNA immunoprecipitation to show preferential binding
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** SAID1/2 directly inhibit pri-miRNA processing by microprocessor in vitro
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The in vitro inhibition claim is stated without details on the assay system, concentrations used, or whether inhibition is specific to SAID1/2 or a general protein effect. No data are shown to distinguish between direct enzyme inhibition and substrate sequestration in the same assay
+  - **Why it matters** This claim is critical for establishing a direct biochemical function. Without proper controls, the result could be artifactual
+  - **Resolution test** Provide dose-response curves, use catalytically inactive or truncated SAID1/2 as controls, and test unrelated IDPs to demonstrate specificity
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** SAID1/2 exhibit liquid-liquid phase condensation that is nucleated on SE
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The phase separation claim is made without any supporting microscopy, biophysical characterization (e.g., FRAP, turbidity assays), or demonstration that condensation is functionally relevant to miRNA inhibition. The nucleation on SE is stated but not mechanistically explained
+  - **Why it matters** Phase separation is a major claim that requires rigorous evidence. If it is not functionally linked to the inhibitory mechanism, it may be a correlative observation
+  - **Resolution test** Provide in vitro phase separation assays with purified proteins, in vivo imaging with controls, and functional assays (e.g., mutants that disrupt condensation) to link phase behavior to miRNA levels
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "hypothetic dentin sialophosphoprotein-like proteins" is vague and potentially misleading, as it implies a homology that is not explained
+  - **Required correction** Clarify the basis for this classification or remove it and describe SAID1/2 solely by their structural features
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantification
+  - **Affected element** Phenotypic description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** "Pleiotropic developmental defects" and "thousands of differentially-expressed genes" are stated without numbers or examples
+  - **Required correction** Provide specific phenotypes and the number of DEGs, with a brief note on the overlap with se mutants
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Subcellular localization
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The statement that SAID1/2 did not impact SE subcellular compartmentation is negative and lacks context on where each protein localizes
+  - **Required correction** Briefly state the localization of SAID1/2 and SE to make the negative result interpretable
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality is high, as the proposed dual mechanism for IDP-mediated regulation of miRNA biogenesis is novel. Scientific importance is potentially significant for plant development and RNA regulation, but the abstract does not yet demonstrate broad implications. Interdisciplinary readership is plausible, given the intersection of plant biology, RNA biology, and biophysics, but the abstract lacks sufficient detail to engage nonspecialists. Technical soundness cannot be assessed from the abstract alone, as no methods or data are shown. Readability for nonspecialists is moderate, but the abstract is dense and assumes familiarity with the miRNA biogenesis field
+- **Recommendation posture** Currently not established from the provided evidence. The claims are intriguing and warrant full evaluation, but the abstract alone does not provide the necessary data to support the mechanistic model. A revised submission with full experimental details and controls would be required to assess the case
+
+## Risk / unsupported claims
+- The claim that SAID1/2 promote PRP4KA-mediated phosphorylation of SE is unsupported without kinase assays or phospho-site data
+- The claim of strong binding affinity to pri-miRNAs is unsupported without quantitative binding data or specificity controls
+- The claim of direct inhibition of microprocessor activity in vitro is unsupported without assay details and controls
+- The claim of liquid-liquid phase condensation nucleated on SE is unsupported without imaging or biophysical characterization
+- The functional significance of phase condensation for miRNA inhibition is not established
+- The overlap of said1; said2 transcriptomes with se mutants is mentioned but not quantified or shown

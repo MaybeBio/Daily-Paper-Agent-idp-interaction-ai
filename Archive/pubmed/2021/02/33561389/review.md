@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical rigor as presented in the provided text
+- **Shared manuscript claim summary** The authors use single-molecule tracking and machine-learning-based classification to identify two distinct low-mobility states of the glucocorticoid receptor in live cells: one corresponding to specific chromatin binding and a novel confinement state mediated by an intrinsically disordered region. Both states exhibit power-law dwell-time distributions, and the confinement state is proposed to increase local TF concentration and modulate transcriptional output.
+- **Visible evidence base** Text descriptions of results (Figures 1-5, S1-S5), ChIP-seq and ATAC-seq analyses, statistical methods, and supplementary table references
+- **Missing materials affecting confidence** Figure panels and actual data plots, exact numerical values for dwell times and diffusion coefficients, ChIP-seq peak counts and genomic annotations, details of machine-learning classification parameters, and raw trajectory data
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in transcription factor biology: how intrinsically disordered regions contribute to nuclear dynamics and function. The combination of single-molecule tracking with unsupervised machine-learning classification is methodologically sophisticated and represents a valuable advance. The identification of a confinement state distinct from specific chromatin binding is potentially significant. However, the evidence linking the confinement state to IDR-mediated condensates and to transcriptional output is largely correlative, and several key controls and quantitative comparisons are missing. The power-law analysis, while interesting, requires more rigorous statistical treatment to distinguish it from alternative models. The manuscript is well written and accessible, but the central mechanistic claims are not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying transcription factor dynamics, nuclear organization, phase separation, and gene regulation. The methodological approach (pEM-based classification of single-molecule trajectories) will interest biophysicists and cell biologists. The proposed link between IDR-mediated confinement and transcriptional efficiency has broad implications for understanding how TFs search for binding sites in the nucleus.
+- **Major strengths** (1) The use of unsupervised machine learning to classify single-molecule trajectories without prior assumptions is a methodological strength. (2) The combination of multiple GR mutants (C428G, monomeric, GRdim, GR407C) provides a systematic approach to dissect contributions of DNA binding and IDRs. (3) The observation that both chromatin-bound and confined states follow power-law distributions, and that these can be separated, is novel and potentially important. (4) The inclusion of H2B as a chromatin reference and the tandem array experiments provide useful internal controls. (5) The manuscript is clearly written and the logical flow from observation to hypothesis is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Evidence for IDR-mediated confinement
+  - **Claim pointer** The authors claim that the second low-mobility state (confinement) is mediated by IDR-IDR interactions and represents a functionally distinct state from chromatin binding.
+  - **Evidence pointer** Figure 3B, Figure 3H, Figure S3C-S3D
+  - **Concern** The primary evidence for IDR-mediated confinement is the loss of this state in the GR407C mutant, which lacks the N-terminal IDR. However, GR407C also shows a significant reduction in chromatin binding (898 vs 4,410 peaks), making it difficult to disentangle whether the loss of confinement is due to loss of IDR interactions or simply a consequence of reduced overall nuclear retention. The PPARα comparison is informative but limited, as PPARα has a different DNA-binding domain and may have different nuclear interactions. The authors do not provide a rescue experiment (e.g., adding back the IDR to GR407C) or a direct demonstration that IDR-IDR interactions are responsible for the confinement.
+  - **Why it matters** The central claim of the paper is that IDR-mediated confinement is a distinct and functionally important state. Without direct evidence that IDRs are causally responsible for this state, the interpretation remains speculative. The alternative explanation, that confinement reflects weak, non-specific chromatin interactions that are reduced when overall DNA binding is impaired, is not excluded.
+  - **Resolution test** Provide a rescue experiment where the IDR is fused to GR407C and confinement is restored. Alternatively, use an IDR point mutant that disrupts condensate formation but preserves the N-terminal sequence. Directly measure IDR-IDR interactions (e.g., FRET or crosslinking) in the confined state.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Power-law vs. alternative models
+  - **Claim pointer** The authors claim that dwell-time distributions for both chromatin-bound and confined states follow a power-law distribution, and that this reflects a broad distribution of binding affinities.
+  - **Evidence pointer** Figure 5A-5E, Table 1
+  - **Concern** The statistical comparison between power-law and exponential models is described but the actual values are only partially presented. The authors use BIC and evidence in decibels, but the manuscript does not report the fitted parameters (e.g., power-law exponents, exponential time constants) or the confidence intervals for these fits. The claim that power-law is the best model requires that the comparison be made over a sufficient dynamic range, and the authors acknowledge that fluorophore photobleaching limits the observation of long dwell times. Without seeing the actual fits and the range over which the power law holds, it is difficult to assess whether the power-law is truly superior to a multi-exponential model or a stretched exponential.
+  - **Why it matters** The power-law claim is central to the interpretation that dwell times reflect a continuum of binding affinities. If a multi-exponential model fits equally well, the biological interpretation changes substantially. The distinction between power-law and exponential behavior has been contentious in the single-molecule tracking field, and the authors need to provide a more rigorous and transparent statistical analysis.
+  - **Resolution test** Provide the fitted parameters for all models, including power-law exponents and their uncertainties, for each condition. Show the dwell-time distributions on log-log and semi-log plots with the model fits overlaid. Report the dynamic range over which the power law is observed and discuss how photobleaching correction affects the tail of the distribution.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Link between confinement and transcriptional output
+  - **Claim pointer** The authors propose that the confinement state increases local TF concentration at specific sites and modulates transcriptional output.
+  - **Evidence pointer** Figure 5I, Discussion
+  - **Concern** The only direct link to transcriptional output is the comparison between GRwt and GRdim, where GRdim shows shorter chromatin-bound dwell times and reduced transcriptional activity. However, the confinement states for GRwt and GRdim are nearly identical (Figure 5I), which argues against a direct role of confinement in the transcriptional difference. The authors do not provide any perturbation experiment (e.g., disrupting condensates with aliphatic alcohols) to test whether loss of confinement affects transcription. The claim that confinement increases on-rates is a hypothesis, not a demonstrated mechanism.
+  - **Why it matters** The title and abstract emphasize the functional contribution of the confinement state. Without direct evidence that confinement affects transcription, the functional significance remains speculative. The GRdim comparison actually weakens the argument, as it shows that transcriptional differences can occur without differences in confinement.
+  - **Resolution test** Disrupt condensates (e.g., with 1,6-hexanediol) and measure both confinement and transcriptional output. Alternatively, use an IDR mutant that specifically abolishes confinement and measure effects on target gene expression. Provide quantitative correlation between confinement fraction and transcriptional activity across multiple conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of state nomenclature
+  - **Affected element** Results section, Figures 1-2
+  - **Evidence pointer** Figure 1B-1C, Figure 2A-2B
+  - **Issue** The authors refer to "low-mobility state 1" and "low-mobility state 2" but the relationship between these states and the later terms "chromatin-bound" and "confinement" is not explicitly defined at first use. The reader must infer this mapping.
+  - **Required correction** Define the terminology clearly when the states are first introduced, and use consistent naming throughout the text and figures.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantification of confinement fraction
+  - **Affected element** Results section, Figure 4C
+  - **Evidence pointer** Figure 4C
+  - **Issue** The authors report proportions of confinement and chromatin-bound populations for H2B and GRwt, but do not provide error bars or statistical comparisons between conditions. It is unclear whether the differences (e.g., 23% vs 17% confinement) are significant.
+  - **Required correction** Report the number of cells and tracks analyzed, provide error estimates, and perform statistical tests for the proportion comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** ChIP-seq peak comparison
+  - **Affected element** Results section, Figure 3C
+  - **Evidence pointer** Figure 3C, Table S1
+  - **Issue** The authors state that GR407C shows a significant reduction in binding compared to GRwt (898 vs 4,410 peaks), but do not provide details on how peak calling thresholds were set or whether the peaks are directly comparable given potential differences in expression levels.
+  - **Required correction** Provide information on peak calling parameters, normalization methods, and confirm that GR407C and GRwt are expressed at comparable levels in the cell lines used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Photobleaching correction
+  - **Affected element** Methods, Survival distribution calculation
+  - **Evidence pointer** Methods section
+  - **Issue** The photobleaching correction uses H2B as a reference, but H2B is incorporated into chromatin and may have different photobleaching kinetics than a mobile TF. The authors do not discuss this potential mismatch.
+  - **Required correction** Discuss the validity of using H2B for photobleaching correction and consider alternative approaches (e.g., measuring photobleaching of immobilized dye).
+- **Technical failings that need to be addressed before the case is established** (1) The causal link between IDR and confinement is not established, as the GR407C mutant confounds IDR loss with reduced chromatin binding. (2) The power-law vs. exponential model comparison lacks transparency in reporting fitted parameters and statistical details. (3) The functional significance of confinement is not directly tested. (4) The manuscript does not provide a quantitative model or simulation to support the claim that confinement increases on-rates.
+- **Assessment against Nature-style criteria** Originality: The work is original in its application of pEM to classify TF trajectories and in identifying a confinement state distinct from chromatin binding. However, the concept of IDR-mediated condensates in transcription is already established, and the novelty lies primarily in the single-molecule approach. Scientific importance: The question of how TFs navigate the nucleus is important, and the potential link between IDR-mediated confinement and transcriptional efficiency is of broad interest. However, the importance is tempered by the lack of direct functional evidence. Interdisciplinary readership: The work will appeal to cell biologists, biophysicists, and researchers studying gene regulation and phase separation. The methods and concepts are accessible across these fields. Technical soundness: The single-molecule tracking and pEM methodology appear sound, but the statistical treatment of dwell-time distributions and the lack of key controls (e.g., IDR rescue) weaken the technical rigor. Readability for nonspecialists: The manuscript is well written and the concepts are explained clearly, though some familiarity with single-molecule tracking and machine-learning methods is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially important advance in understanding TF dynamics, but the central claims regarding IDR-mediated confinement and its functional role require additional experimental evidence and more rigorous statistical analysis.
+
+## Risk / unsupported claims
+- The claim that the confinement state is mediated by IDR-IDR interactions is not directly supported, as the GR407C mutant confounds IDR loss with reduced chromatin binding.
+- The claim that confinement increases on-rates and modulates transcriptional output is speculative and not directly tested.
+- The claim that power-law dwell-time distributions reflect a broad distribution of binding affinities is plausible but not rigorously established, as alternative models are not fully excluded.
+- The claim that H2B exhibits both confinement and chromatin-bound populations is based on analogy with GR but lacks direct evidence for the mechanism of H2B confinement.
+- The statement that "the confined state can amplify transcriptional output by increasing the local concentration of TFs at specific sites" is presented as a conclusion but is a hypothesis without direct experimental support.

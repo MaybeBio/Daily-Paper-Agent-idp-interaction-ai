@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.29.518451",
+  "title": "Contrastive learning of protein representations with graph neural networks for structural and functional annotations",
+  "authors": "Jiaqi Luo; Yunan Luo",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-02",
+  "window": {
+    "start": "2022-11-28",
+    "end": "2022-12-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用GNN和对比学习整合蛋白结构进行功能/结构注释，虽涉及蛋白表示学习但非无序蛋白PPI或互作机制建模，方法可迁移性有限。",
+  "abstract": "Although protein sequence data is growing at an ever-increasing rate, the protein universe is still sparsely annotated with functional and structural annotations. Computational approaches have become efficient solutions to infer annotations for unlabeled proteins by transferring knowledge from proteins with experimental annotations. Despite the increasing availability of protein structure data and the high coverage of high-quality predicted structures, e.g., by AlphaFold, many existing computational tools still only rely on sequence data to predict structural or functional annotations, including alignment algorithms such as BLAST and several sequence-based deep learning models. Here, we develop PenLight, a general deep learning framework for protein structural and functional annotations. PenLight uses a graph neural network (GNN) to integrate 3D protein structure data and protein language model representations. In addition, PenLight applies a contrastive learning strategy to train the GNN for learning protein representations that reflect similarities beyond sequence identity, such as semantic similarities in the function or structure space. We benchmarked PenLight on a structural classification task and a functional annotation task, where PenLight achieved higher prediction accuracy and coverage than state-of-the-art methods.",
+  "abstract_zh": "尽管蛋白质序列数据以日益增长的速度积累，但蛋白质宇宙在功能和结构注释方面仍显稀疏。计算方法已成为通过从具有实验注释的蛋白质转移知识来推断未标记蛋白质注释的高效解决方案。尽管蛋白质结构数据的可用性不断增加，且高质量预测结构（如AlphaFold）覆盖率高，许多现有计算工具仍仅依赖序列数据来预测结构或功能注释，包括BLAST等比对算法及若干基于序列的深度学习模型。在此，我们开发了PenLight，一个用于蛋白质结构和功能注释的通用深度学习框架。PenLight利用图神经网络（GNN）整合3D蛋白质结构数据和蛋白质语言模型表示。此外，PenLight采用对比学习策略训练GNN，以学习反映超越序列同一性的蛋白质表示，如功能或结构空间中的语义相似性。我们在结构分类任务和功能注释任务上对PenLight进行了基准测试，结果显示PenLight在预测准确性和覆盖率上均优于现有最先进方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.29.518451",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.29.518451",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.29.518451/index.html"
+}

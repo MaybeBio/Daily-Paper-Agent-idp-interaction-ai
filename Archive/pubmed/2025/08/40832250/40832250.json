@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "40832250",
+    "doi": "10.1101/2025.08.12.669882",
+    "title": "Mechanism for oil-phase separation by the lipid droplet assembly complex."
+  },
+  "content": {
+    "abstract": "Cells store metabolic energy as triglyceride (TG) oils in lipid droplets (LDs). LDs form de novo from the endoplasmic reticulum. How the lipid droplet assembly complex (LDAC), composed of seipin and LDAF1(1,2), catalyzes the organized formation of an oil phase in a membrane bilayer before spontaneous phase separation is triggered is unknown. Here, we reconstitute LD formation in vitro using purified LDAC and membranes containing physiologic levels of TG, demonstrating that the LDAC is both necessary and sufficient to catalyze oil-phase formation below the threshold of spontaneous phase separation. Structural studies of the LDAC reveal that LDAF1 forms a central ring within a seipin cage, creating a toroidal, membrane-spanning structure. Molecular dynamics simulations and biochemical assays show that this structure forms a selective chamber within the ER bilayer that limits phospholipids but allows TG to access a reaction compartment between the inner and outer rings of the LDAC. Within this compartment, TG interacts with LDAF1 and each other to form an oil phase to initiate LD formation. Thus, the LDAC acts as a protein catalyst for oil-phase separation in cells, revealing a fundamental mechanism for how cells resolve the biophysical challenge of storing oils within a hydrophilic environment in an organized manner.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Malia, Pedro C",
+        "Kim, Siyoung",
+        "Ambaw, Yohannes",
+        "Voth, Gregory A",
+        "Walther, Tobias C",
+        "Farese, Robert V Jr"
+      ],
+      "short_names": [
+        "Malia PC",
+        "Kim S",
+        "Ambaw Y",
+        "Voth GA",
+        "Walther TC",
+        "Farese RV Jr"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cell Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Howard Hughes Medical Institute, NY, USA.",
+        "Pritzker School of Molecular Engineering, The University of Chicago, Chicago, IL, USA.",
+        "Cell Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Department of Chemistry, Chicago Center for Theoretical Chemistry, James Franck Institute, and Institute for Biophysical Dynamics, The University of Chicago, Chicago, IL, USA.",
+        "Cell Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "Howard Hughes Medical Institute, NY, USA.",
+        "These authors contributed equally.",
+        "Cell Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+        "These authors contributed equally."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Malia, Pedro C",
+        "short_name": "Malia PC",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+          "Howard Hughes Medical Institute, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Siyoung",
+        "short_name": "Kim S",
+        "identifiers": [],
+        "affiliations": [
+          "Pritzker School of Molecular Engineering, The University of Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Ambaw, Yohannes",
+        "short_name": "Ambaw Y",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Voth, Gregory A",
+        "short_name": "Voth GA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Chicago Center for Theoretical Chemistry, James Franck Institute, and Institute for Biophysical Dynamics, The University of Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Walther, Tobias C",
+        "short_name": "Walther TC",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+          "Howard Hughes Medical Institute, NY, USA.",
+          "These authors contributed equally."
+        ]
+      },
+      {
+        "full_name": "Farese, Robert V",
+        "short_name": "Farese RV",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, NY, USA.",
+          "These authors contributed equally."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Aug 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/20 06:30",
+    "fetched_at": "2026-09-21 22:45:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39250520",
+      "38718835",
+      "38049145",
+      "36332685",
+      "35969857",
+      "35938957",
+      "35583926",
+      "35210614",
+      "35021082",
+      "34939045",
+      "34625558",
+      "33674387",
+      "33481779",
+      "33293168",
+      "32962386",
+      "32881101",
+      "32433611",
+      "32433610",
+      "32349126",
+      "31708432",
+      "31591578",
+      "31178403",
+      "30901948",
+      "30327422",
+      "30293840",
+      "30049710",
+      "29187528",
+      "29187527",
+      "29067766",
+      "28768178",
+      "28165473",
+      "27879284",
+      "27819658",
+      "27806294",
+      "27564575",
+      "26621095",
+      "26589065",
+      "26275961",
+      "25218443",
+      "24807223",
+      "24024128",
+      "23589883",
+      "23250914",
+      "23138306",
+      "22743772",
+      "21829381",
+      "21551454",
+      "21500218",
+      "20877640",
+      "20496934",
+      "18093937",
+      "17569554",
+      "17311810",
+      "17212484",
+      "16211538",
+      "15890530",
+      "15572765",
+      "12393927",
+      "11481335",
+      "11479539",
+      "9895674",
+      "9789033",
+      "6947263"
+    ],
+    "similar": [
+      "40832250",
+      "37150040",
+      "31708432",
+      "35583926",
+      "35306312",
+      "31178403",
+      "32442467",
+      "33307187",
+      "32192830",
+      "33674387",
+      "35210614",
+      "38785192",
+      "35832014",
+      "32402516",
+      "28793795",
+      "34139844",
+      "33293168",
+      "36819093",
+      "24497546",
+      "26637296",
+      "37465010",
+      "27564575",
+      "33898445",
+      "38981533",
+      "33169432",
+      "23415954",
+      "28579322",
+      "30327422",
+      "34625558",
+      "27879284",
+      "27131867",
+      "34215489",
+      "35969857",
+      "39132700",
+      "33522484",
+      "34028531",
+      "28815525",
+      "34244767",
+      "29162371",
+      "26572621",
+      "24006263",
+      "37742390",
+      "41259152",
+      "33481779",
+      "36332685",
+      "39467186",
+      "35938957",
+      "34990551",
+      "31352131",
+      "36768395",
+      "24434579",
+      "36945645",
+      "34373922",
+      "26362606",
+      "25540432",
+      "36807572",
+      "29526591",
+      "38588730",
+      "33826368",
+      "31028912",
+      "32730754",
+      "37889293",
+      "36112368",
+      "34729868",
+      "21693588",
+      "32690719",
+      "32743002",
+      "27383728",
+      "35742827",
+      "38802378",
+      "31794714",
+      "36283490",
+      "33460598",
+      "33315072",
+      "31075519",
+      "37599471",
+      "38189157",
+      "29414709",
+      "18093937",
+      "40484276",
+      "39566075",
+      "26096381",
+      "30293840",
+      "20410140",
+      "12730355",
+      "29270019",
+      "31351098",
+      "32201131",
+      "33377012",
+      "31653673",
+      "30970241",
+      "35263109",
+      "35389430",
+      "25514167",
+      "28611060",
+      "32769983",
+      "41160906",
+      "33147895",
+      "21497513",
+      "41309574"
+    ],
+    "review": [
+      "40832250",
+      "37150040",
+      "35306312",
+      "32192830",
+      "38785192",
+      "32402516",
+      "28793795",
+      "33293168",
+      "36819093",
+      "33898445",
+      "27131867",
+      "34215489",
+      "28815525",
+      "37742390",
+      "31352131",
+      "31028912",
+      "31075519",
+      "39566075",
+      "31351098",
+      "32201131",
+      "35263109",
+      "41160906",
+      "33147895"
+    ],
+    "pmc": [
+      "12363775"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40832250/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3953",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.08.12.669882",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

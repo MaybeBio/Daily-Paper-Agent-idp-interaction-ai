@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report atomistic simulations of twenty distinct mixtures of minimal RNA and peptide fragments to quantify the phase-separation affinities of all twenty amino acids in the presence of RNA. They claim to identify chemically specific interactions, hydration profiles, and ionic effects that promote or suppress protein-RNA phase separation, and they map a ternary phase diagram that groups residues into four categories: promoting, maintaining, suppressing, or disrupting protein-RNA clusters.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or validation data are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field details, system compositions, convergence criteria, all figures and tables, and any statistical or error analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially valuable computational study aimed at dissecting the molecular grammar of protein-RNA phase separation. The conceptual framing is timely and the systematic coverage of all twenty amino acids is a strength. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the robustness of the classification scheme, or the biological relevance of the minimal fragment approach. The central claims regarding the four-group classification and the ternary phase diagram are stated without supporting quantitative evidence, making the current case not established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and membraneless organelles would find this work relevant, particularly those interested in the molecular determinants of protein-RNA interactions. Computational biophysicists and simulators working on coarse-grained or atomistic models of phase-separating systems would also be interested. Additionally, experimentalists seeking predictive rules for designing or engineering condensate-forming sequences could benefit from the proposed residue classification.
+- **Major strengths** The systematic coverage of all twenty amino acids in a single consistent simulation framework is a notable strength. The focus on chemically specific interactions, hydration, and ionic effects addresses multiple physical factors that are often treated separately. The proposed four-group classification of residues provides a potentially useful conceptual framework for organizing complex interaction data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that atomistic simulations of twenty distinct mixtures reveal phase-separating affinities of all twenty amino acids in the presence of RNA.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on simulation methodology, including force field selection, water model, ion parameters, system size, simulation length, replica exchange or enhanced sampling methods, or convergence criteria. Without these details, the reliability of the computed affinities cannot be assessed. Atomistic simulations of phase separation are notoriously sensitive to force field choices and finite-size effects, and the minimal fragment approach may not capture the multivalent interactions that dominate full-length protein-RNA systems.
+  - **Why it matters** The central claim of the paper rests on the quantitative accuracy of the simulated affinities. If the simulations are not converged or the force field is inappropriate for phase-separating systems, the entire classification scheme could be an artifact of the computational setup rather than a reflection of physical reality.
+  - **Resolution test** Provide full methods including force field parameters, system construction details, simulation lengths, convergence metrics, and validation against experimental or higher-level computational benchmarks. Show that the computed affinities are robust to reasonable variations in simulation parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim to map a ternary phase diagram of interactions and identify four distinct groups of residues that promote, maintain, suppress, or disrupt protein-RNA clusters.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states the existence of a ternary phase diagram and a four-group classification but provides no quantitative data, no definition of the phase diagram axes, no criteria for assigning residues to groups, and no statistical measures of confidence in the grouping. The terms "promote," "maintain," "suppress," and "disrupt" are not operationally defined.
+  - **Why it matters** The classification is the primary conceptual output of the study. Without clear definitions and supporting data, the grouping cannot be reproduced, tested, or compared with other classification schemes. The scientific value of the work depends on the robustness and interpretability of this grouping.
+  - **Resolution test** Define the phase diagram axes explicitly, provide the numerical values that support each residue assignment, and include error estimates or statistical tests demonstrating that the four groups are significantly distinct.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The authors imply that the findings on minimal RNA and peptide fragments inform the molecular grammar governing protein-RNA condensates in cellular contexts.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not address how the minimal fragment results translate to full-length proteins and RNAs in cellular environments. Real nucleoprotein condensates involve multivalent interactions, post-translational modifications, molecular crowding, and active processes that are absent from the simulated systems. The abstract also does not mention whether the identified residue groups correlate with known phase-separation behaviors of natural proteins.
+  - **Why it matters** The broader significance of the work depends on its relevance to biological phase separation. If the minimal system results do not extrapolate to physiological conditions, the practical utility of the classification is limited.
+  - **Resolution test** Discuss the relationship between the simulated fragment affinities and known phase-separation propensities of full-length proteins. Include comparisons with experimental data or predictions for specific biological systems.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "phase-separating affinities" is not standard terminology and its precise meaning is unclear. It could refer to binding free energies, transfer free energies, or some other thermodynamic quantity.
+  - **Required correction** Define the term explicitly or replace it with a more standard phrase such as "relative propensities to partition into condensate phases."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "twenty distinct mixtures" but does not specify how the mixtures are constructed, such as whether each contains a single amino acid type or combinations, and what RNA sequences are used.
+  - **Required correction** Briefly describe the composition of the mixtures in the abstract or indicate that full details are in the methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Classification scheme
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The four-group classification is presented as a binary outcome, but phase-separation behavior is likely continuous. The abstract does not discuss whether the groups are separated by clear boundaries or represent convenient bins along a continuum.
+  - **Required correction** Clarify whether the groups are discrete or represent a discretization of a continuous spectrum, and discuss the implications for interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of methodological detail and quantitative support for the central classification means the core claims cannot be evaluated from the provided material.
+- **Assessment against Nature-style criteria** Originality: The systematic atomistic scan of all twenty amino acids against RNA fragments is a novel approach, though the underlying concept of residue-level contributions to phase separation is not entirely new. Scientific importance: The potential to provide a predictive residue-level grammar for protein-RNA phase separation is significant, but the current evidence does not yet demonstrate that the proposed classification is robust or biologically meaningful. Interdisciplinary readership: The topic bridges biophysics, computational chemistry, and cell biology, and the findings could interest a broad audience if properly validated. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail is a major gap. Readability for nonspecialists: The abstract is reasonably accessible, though terms like "ternary phase diagram" and "atomistic simulations" may require some background.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the systematic approach is commendable, but the abstract does not provide sufficient methodological or quantitative support to evaluate the validity of the central claims. A full manuscript with detailed methods, validation, and data presentation would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that the simulations reveal "chemically specific interactions, hydration profiles, and ionic effects" is unsupported in the abstract, as no specific results are presented.
+- The four-group classification of residues is stated without operational definitions or supporting data.
+- The existence and structure of the "ternary phase diagram" is asserted without description of its axes or content.
+- Any implied biological relevance of the findings to cellular phase separation is not supported by evidence presented in the abstract.
+- The quantitative accuracy of the simulated affinities is not assessable without methodological details.

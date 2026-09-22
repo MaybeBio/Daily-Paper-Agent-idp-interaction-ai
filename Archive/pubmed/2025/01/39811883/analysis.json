@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39811883",
+  "title": "Molecular docking to investigate HLA-associated idiosyncratic drug reactions.",
+  "authors": "Li, Kejun; Lauschke, Volker M; Zhou, Yitian",
+  "journal": "Drug metabolism reviews",
+  "published_date": "2025-01-15",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 3,
+  "one_liner_zh": "综述分子对接在HLA相关药物不良反应研究中的应用，对象为HLA-药物结合而非无序蛋白PPI，且无AI/物理模拟机制建模，与本课题关联弱。",
+  "abstract": "Idiosyncratic drug reactions (IDRs) pose severe threats to patient health. Unlike conventionally dose-dependent side effects, they are unpredictable and more frequently manifest as life-threatening conditions, such as severe cutaneous adverse reactions (SCARs) and drug-induced liver injury (DILI). Some HLA alleles, such as HLA-B*57:01, HLA-B*15:02, and HLA-B*58:01, are known risk factors for adverse reactions induced by multiple drugs. However, the structural basis underlying most HLA-associated adverse events remains poorly understood. This review summarizes the application of molecular docking to reveal the mechanisms of IDR-related HLA associations, covering studies using this technique to examine drug-HLA binding pockets and identify key binding residues. We provide a comprehensive overview of risk HLA alleles associated with IDRs, followed by a discussion of the utility and limitations of commonly used molecular docking tools in simulating complex molecular interactions within the HLA binding pocket. Through examples, including the binding of abacavir and flucloxacillin to HLA-B*57:01, carbamazepine to HLA-B*15:02, and allopurinol to HLA-B*58:01, we demonstrate how docking analyses can provide insights into the drug and HLA allele-specificity of adverse events. Furthermore, the use of molecular docking to screen drugs with unknown IDR liability is examined, targeting either multiple HLA variants or a single specific variant. Despite multiple challenges, molecular docking presents a promising toolkit for investigating drug-HLA interactions and understanding IDR mechanisms, with significant implications for preemptive HLA typing and safer drug development.",
+  "abstract_zh": "特异质药物反应（IDRs）对患者健康构成严重威胁。与常规剂量依赖性副作用不同，它们不可预测，且更常表现为危及生命的状况，如严重皮肤不良反应（SCARs）和药物性肝损伤（DILI）。某些HLA等位基因，如HLA-B*57:01、HLA-B*15:02和HLA-B*58:01，是多种药物诱导不良反应的已知风险因素。然而，大多数HLA相关不良事件的结构基础仍知之甚少。本综述总结了分子对接在揭示IDR相关HLA关联机制中的应用，涵盖使用该技术检查药物-HLA结合口袋并识别关键结合残基的研究。我们全面概述了与IDRs相关的风险HLA等位基因，随后讨论了常用分子对接工具在模拟HLA结合口袋内复杂分子相互作用中的实用性和局限性。通过实例，包括阿巴卡韦和氟氯西林与HLA-B*57:01的结合、卡马西平与HLA-B*15:02的结合，以及别嘌醇与HLA-B*58:01的结合，我们展示了对接分析如何为不良事件的药物和HLA等位基因特异性提供见解。此外，还探讨了使用分子对接筛选未知IDR风险的药物，针对多个HLA变体或单个特定变体。尽管存在多重挑战，分子对接为研究药物-HLA相互作用和理解IDR机制提供了一种有前景的工具包，对预防性HLA分型和更安全的药物开发具有重要意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39811883/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39811883/",
+  "paper_page_path": "papers/pubmed/39811883/index.html"
+}

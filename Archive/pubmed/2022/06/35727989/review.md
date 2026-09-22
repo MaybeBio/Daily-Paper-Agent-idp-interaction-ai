@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, significance statement, materials and methods summary, acknowledgements) without supplementary figures, tables, or appendices
+- **Assessment boundary** Scientific claims, methodological soundness, and internal consistency of the presented simulation study; no assessment of experimental validation or clinical relevance
+- **Shared manuscript claim summary** The authors propose, via multiscale simulations, that single-component protein condensates can age into multiphase architectures (liquid-core/gel-shell or gel-core/liquid-shell) driven by the gradual accumulation of interprotein disorder-to-order transitions, which create imbalanced homotypic interactions without changes in chemical composition
+- **Visible evidence base** Main text figures referenced (Figs. 1–6), atomistic PMF calculations (two force fields), residue-resolution coarse-grained simulations (Mpipi model), minimal coarse-grained model with dynamical aging algorithm, direct coexistence simulations
+- **Missing materials affecting confidence** SI Appendix (all supplementary figures, tables, parameterizations, and methodological details), full simulation protocols, convergence criteria, error analysis details, and the specific parameter sets for the dynamical algorithm
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting and potentially significant hypothesis: that single-component protein condensates can develop multiphase architectures purely through aging-induced structural transitions. The multiscale simulation strategy is ambitious and the central prediction is thought-provoking. However, the evidence base available for review is incomplete, and several key claims rest on assumptions and parameter choices that cannot be fully evaluated from the main text alone. The connection between the atomistic PMF calculations and the coarse-grained model parameterization is plausible but not rigorously demonstrated. The dynamical aging algorithm introduces nonconservative interactions in a manner that requires careful scrutiny. The manuscript would benefit from clearer articulation of the limitations of the simulation approach and stronger justification for the transferability of the findings to experimental systems.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, and protein aggregation would find this work of interest. The prediction that single-component systems can form multiphase architectures challenges conventional assumptions in the field and may stimulate new experimental investigations. Computational biophysicists developing multiscale methods for condensate simulations would also be interested in the methodological innovations. The potential implications for understanding age-related pathologies involving protein aggregation (e.g., ALS, FTD) could attract a broader biomedical audience, though the authors do not overstate these connections.
+- **Major strengths** The multiscale approach is well conceived, connecting atomistic details to mesoscale behavior. The central hypothesis is clearly stated and the predictions are specific and testable. The use of two independent force fields for the PMF calculations strengthens the robustness of the atomistic results. The dynamical aging algorithm represents a creative approach to modeling nonequilibrium processes. The authors appropriately acknowledge the speculative nature of some extrapolations and situate their findings within the broader literature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the dynamical aging algorithm accurately captures the nonequilibrium process of condensate aging, including the gradual accumulation of interprotein β-sheet structures as a function of local protein density.
+  - **Evidence pointer** Section "Aging Simulations Predict Multiphase Condensate Formation from Single-Component Systems"; Figure 5; SI Appendix (referenced but not provided)
+  - **Concern** The dynamical algorithm introduces nonconservative interactions by forbidding reverse transitions from ordered to disordered states. This is a strong assumption that fundamentally drives the system out of equilibrium. The justification for this irreversibility is not adequately presented in the main text. Real protein systems may exhibit reversibility on relevant timescales, and the choice to forbid reverse transitions could predetermine the observed multiphase outcome. The sensitivity of the results to this assumption is not discussed.
+  - **Why it matters** The central conclusion that single-component condensates can age into multiphase architectures depends critically on the irreversibility assumption. If reverse transitions were permitted, the system might reach a different steady state or remain homogeneous. Without evidence that this assumption is physically justified, the predictive power of the model is questionable.
+  - **Resolution test** Provide a detailed justification for the irreversibility assumption based on physical or experimental evidence. Perform control simulations where reverse transitions are permitted with varying rates and demonstrate that the multiphase outcome is robust or characterize the conditions under which it emerges. Present a sensitivity analysis of the key parameters in the dynamical algorithm.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the minimal coarse-grained model faithfully reproduces the essential physics of the residue-resolution simulations, including the micelle-like organization of ordered FUS condensates and the homogeneous organization of disordered FUS condensates.
+  - **Evidence pointer** Section "The Presence of Distinct FUS Structural Ensembles Supports the Formation of Hollow Liquid-Core/Gel-Shell Condensates"; Figure 4; SI Appendix, Fig. S7 (referenced but not provided)
+  - **Concern** The minimal model reduces each FUS protein to 20 beads and parameterizes interaction strengths based on contact maps from residue-resolution simulations. The validation of this coarse-graining is only briefly mentioned (SI Appendix, Fig. S7) and the main text does not provide quantitative comparison between the minimal model and the residue-resolution model. The reduction from 526 residues to 20 beads represents a substantial loss of molecular detail, and it is unclear whether the minimal model captures the relevant physics or merely reproduces the expected outcome due to the imposed parameterization.
+  - **Why it matters** The multiphase predictions are generated using the minimal model. If this model is not adequately validated against the higher-resolution simulations, the reliability of the central predictions is uncertain. The claim that the minimal model "recapitulates" the residue-resolution results needs quantitative support.
+  - **Resolution test** Provide a detailed quantitative comparison between the minimal model and residue-resolution simulations, including structural observables (e.g., density profiles, radial distribution functions) and thermodynamic quantities (e.g., surface tensions, coexistence densities). Demonstrate that the minimal model captures the essential physics across a range of conditions, not just the specific cases shown.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the findings have "widespread physiological and pathological implications," including relevance to stress granules, TDP-43 pathology, and other subcellular structures.
+  - **Evidence pointer** Section "Conclusions"; references to prior experimental work (refs. 38, 42, 46)
+  - **Concern** The extrapolation from simulation predictions to physiological and pathological relevance is speculative. The authors do not provide a concrete experimental framework for testing their predictions in cellular systems, nor do they discuss potential alternative explanations for observed multiphase architectures in vivo. The connection between the specific simulation conditions and the complex cellular environment is not established.
+  - **Why it matters** While speculative discussion is appropriate in a research article, the authors present these implications as if they follow naturally from the simulations. Overstating the biological relevance without experimental validation or a clear experimental roadmap may mislead readers about the strength of the evidence.
+  - **Resolution test** Either temper the claims of physiological relevance or provide a specific, testable experimental prediction that could distinguish the proposed mechanism from alternative explanations. Discuss potential challenges in translating the simulation predictions to cellular contexts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Significance statement
+  - **Evidence pointer** Section "Significance"
+  - **Issue** The significance statement is dense and uses technical terminology (e.g., "nonequilibrium liquid-core/gel-shell") without sufficient context for a broad readership. The key conceptual advance could be stated more accessibly.
+  - **Required correction** Simplify the language and provide a brief explanation of why multiphase architectures in single-component systems are surprising or important.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Atomistic PMC calculations
+  - **Evidence pointer** Section "A Disorder to Order Structural Transition Diversifies the Interactions among Chemically Identical FUS Proteins"; Figure 2
+  - **Issue** The PMF calculations are performed on small peptide fragments (LARKS sequences) rather than full-length FUS PLD domains. The extrapolation from peptide-level binding strengths to full-length protein behavior is not discussed.
+  - **Required correction** Acknowledge this limitation and discuss whether the relative differences between disordered and ordered states are expected to be preserved at the full-length protein level.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Surface tension calculations
+  - **Evidence pointer** Section "Strengthening of PLD Interactions Dramatically Transforms the Molecular Organization of FUS Condensates"
+  - **Issue** The surface tension values are reported with uncertainties (γ=0.06±0.04 mJ/m2 and γ=0.32±0.06 mJ/m2), but the method for estimating these uncertainties is not described in the main text.
+  - **Required correction** Briefly state how the uncertainties were estimated (e.g., block averaging, multiple independent simulations) or refer to the SI Appendix for details.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion of timescales
+  - **Evidence pointer** Section "Formation of Liquid-Core/Gel-Shell vs. Gel-Core/Liquid-Shell Condensates"
+  - **Issue** The comparison of timescales (β-sheet transition barriers, protein self-diffusion, density fluctuation) is presented without clear units or context. Nonspecialist readers may struggle to interpret the significance of these comparisons.
+  - **Required correction** Provide the timescales in explicit units and briefly explain why the ordering of these timescales is important for the proposed mechanism.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (irreversibility assumption in dynamical algorithm), R1-M2 (inadequate validation of minimal model against residue-resolution simulations)
+- **Assessment against Nature-style criteria** 
+  - Originality: The hypothesis that single-component condensates can form multiphase architectures through aging-induced structural transitions is genuinely novel and challenges prevailing assumptions in the field. The multiscale approach is creative.
+  - Scientific importance: If validated, the findings would have significant implications for understanding condensate aging and the emergence of complex architectures in biological systems. However, the current evidence is entirely computational, and the gap between simulation predictions and experimental reality remains substantial.
+  - Interdisciplinary readership: The work bridges molecular biophysics, computational biology, and cell biology. The conceptual message is broadly accessible, though some technical details may limit full comprehension by nonspecialists.
+  - Technical soundness: The multiscale strategy is well conceived, but the key assumptions in the dynamical algorithm and the validation of the minimal model are not adequately addressed in the available material. The technical foundation requires strengthening.
+  - Readability for nonspecialists: The main text is generally well written, but the significance statement and some technical sections could be more accessible. The figures appear informative, though they could not be fully evaluated.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and potentially important, but the current evidence base does not fully establish the case. The irreversibility assumption and the validation of the minimal model must be addressed. The authors should also temper the claims of physiological relevance or provide a concrete experimental roadmap.
+
+## Risk / unsupported claims
+- The claim that the dynamical aging algorithm accurately represents the physical process of condensate aging is unsupported without a detailed justification of the irreversibility assumption and sensitivity analysis.
+- The claim that the minimal model faithfully reproduces the residue-resolution simulation results is unverifiable from the main text alone; quantitative validation is required.
+- The extrapolation to physiological and pathological implications (stress granules, TDP-43, etc.) is speculative and not supported by direct evidence.
+- The claim that the findings are "fully transferable to other protein systems" is an overstatement given that only FUS is studied and the transferability is asserted rather than demonstrated.
+- The timescale comparisons (β-sheet transitions, diffusion, density fluctuations) are presented without sufficient context to evaluate their significance.

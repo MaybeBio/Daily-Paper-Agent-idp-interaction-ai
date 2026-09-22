@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The claims and evidence presented in the abstract, as supplied
+- **Shared manuscript claim summary** The authors report a homozygous nonsense variant (NM_018017.4:c.535C>T, p.Arg179Ter) in CCDC186 in a Turkish child with a neurodevelopmental phenotype, supported by co-segregation analysis, qRT-PCR showing reduced expression, protein modeling, and comparison with five previously reported patients, concluding that biallelic loss-of-function variants in CCDC186 cause a novel neurodevelopmental phenotype.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, clinical phenotype details, variant interpretation criteria, qRT-PCR data, protein modeling outputs, STRING analysis results, and the five literature cases are not available for independent verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important finding linking a novel homozygous CCDC186 loss-of-function variant to a neurodevelopmental phenotype. However, the evidence as summarized is insufficient to fully establish causality or the novelty of the phenotype. The functional data are described qualitatively, and the literature comparison lacks detail. The claim of a "novel neurodevelopmental phenotype" requires clearer delineation against existing reports. The work is of interest to the neurodevelopmental genetics community, but the case is not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Clinicians and researchers in neurodevelopmental disorders, neurogenetics, and vesicle trafficking biology. The study adds a new variant to a small but growing list of CCDC186-related cases, which may inform diagnostic panels and functional studies of dense-core vesicle transport.
+- **Major strengths** Identification of a rare homozygous nonsense variant in a gene with a plausible biological role in neuronal secretion. The use of co-segregation and expression analysis to support pathogenicity is appropriate. The inclusion of a literature review of five prior cases strengthens the genotype-phenotype correlation argument.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for causality
+  - **Claim pointer** "Our findings support that the homozygous LOF variants of the CCDC186 gene are associated with a novel neurodevelopmental phenotype."
+  - **Evidence pointer** Abstract, Results and Conclusion sections; location not provided
+  - **Concern** The abstract does not provide sufficient clinical detail to assess whether the phenotype is truly novel or distinct from the five previously reported cases. No specific developmental, neurological, or systemic features are described for the proband, nor is a comparison table or summary of the literature cases provided.
+  - **Why it matters** Without a clear phenotypic delineation, the claim of a "novel" phenotype cannot be evaluated. The novelty may be limited to the specific variant rather than the phenotype, which would weaken the conclusion.
+  - **Resolution test** Provide a detailed clinical description of the proband and a comparative summary of all six cases (including the five from the literature) in the full manuscript, with explicit phenotypic overlap and differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence robustness
+  - **Claim pointer** "This variant was associated with a marked downregulation of CCDC186 expression in the proband, with moderate reductions observed in heterozygous family members, suggesting dysregulated gene expression resulting from the mutation."
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The qRT-PCR results are described only qualitatively. No quantitative data (e.g., fold change, statistical significance, sample sizes, normalization method) are provided. The claim of "dysregulated gene expression" is not supported by any numerical evidence in the abstract.
+  - **Why it matters** The functional consequence of the variant is central to the loss-of-function argument. Without quantitative validation, the interpretation that the variant causes reduced expression is speculative.
+  - **Resolution test** Include qRT-PCR data with statistical analysis, control samples, and a clear description of the experimental design in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural modeling interpretation
+  - **Claim pointer** "Protein modeling indicated structural alterations, including a shift from intrinsically disordered regions to helix-loop-helix motifs in the mutant protein, as well as reduced binding probabilities for most interacting partners."
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The modeling results are presented as definitive findings, but the abstract does not specify the methods, confidence scores, or whether the predictions are validated experimentally. The biological relevance of a shift from disordered to helical regions in a truncated protein is unclear, especially since the variant introduces a premature stop codon.
+  - **Why it matters** Overinterpretation of in silico predictions can mislead readers about the mechanistic basis of the phenotype. The claim of reduced binding probabilities is not supported by any interaction data in the abstract.
+  - **Resolution test** Provide modeling details, confidence metrics, and clearly state the speculative nature of these predictions. If possible, include experimental validation of protein stability or interaction changes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Language and accuracy
+  - **Affected element** Background section
+  - **Evidence pointer** Abstract, Background; location not provided
+  - **Issue** The word "Resent" is a typographical error and should be "Recent."
+  - **Required correction** Correct the typo in the revised manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Methods section
+  - **Evidence pointer** Abstract, Methods; location not provided
+  - **Issue** The abstract states that "five patients with CCDC186-associated phenotypes previously described in the literature were evaluated," but it is unclear what "evaluated" means. Were these patients re-analyzed, or were their published data summarized?
+  - **Required correction** Clarify whether the five cases were re-analyzed or only reviewed from the literature, and specify the criteria for inclusion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Variant interpretation
+  - **Affected element** Results section
+  - **Evidence pointer** Abstract, Results; location not provided
+  - **Issue** The variant is described as "novel," but no confirmation is provided that it is absent from population databases (e.g., gnomAD) or that it meets ACMG criteria for pathogenicity.
+  - **Required correction** State the allele frequency and ACMG classification in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of quantitative expression data and the absence of detailed phenotypic comparison prevent the core claims from being fully supported.
+- **Assessment against Nature-style criteria** Originality: Moderate. The variant is novel, but the phenotype is not clearly distinguished from prior reports. Scientific importance: Moderate. The study adds to a rare disease gene list but does not provide new mechanistic insight beyond what is known about CCDC186 function. Interdisciplinary readership: Limited. The work is primarily relevant to clinical genetics and neurodevelopmental biology. Technical soundness: Not fully assessable from the abstract; the functional data are described without quantitative support. Readability for nonspecialists: The abstract is generally clear but uses technical terms without sufficient context for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The authors should be encouraged to resubmit with full quantitative data and a detailed phenotypic comparison. If those are provided and support the claims, the work could be considered for publication in a specialized clinical genetics journal.
+
+## Risk / unsupported claims
+- The claim of a "novel neurodevelopmental phenotype" is unsupported without detailed clinical data and comparison to prior cases.
+- The claim of "dysregulated gene expression" is unsupported without quantitative qRT-PCR data.
+- The structural modeling predictions are presented as factual but are not validated or described in sufficient detail.
+- The association of CCDC186 loss-of-function with the phenotype is plausible but not fully established from the abstract alone.

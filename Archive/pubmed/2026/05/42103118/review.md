@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that polyamines, as multivalent cations, compensate for the high net negative charge of hyperphosphorylated tau, thereby promoting liquid-liquid phase separation (LLPS) of tau through charge-charge interactions. They report that polyamine-dependent tau condensates form in vitro and in cellular environments, and that these condensates transition over time into filament-like structures, suggesting a pathway linking polyamine-mediated LLPS to tau aggregation in Alzheimer's disease.
+- **Visible evidence base** Fluorescence microscopy and molecular dynamics simulations are mentioned as methods; no quantitative results, experimental details, or statistical analyses are presented in the abstract
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, methods section, supplementary information, and any statistical or simulation parameters
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that polyamines may bridge the electrostatic gap that should prevent hyperphosphorylated tau condensation. The proposed mechanism is plausible and could be of interest to the tau aggregation and neurodegeneration communities. However, the abstract provides only qualitative claims without quantitative evidence, and several key assertions, particularly regarding cellular relevance and the transition to filament-like structures, cannot be evaluated from the supplied material. The case is not yet established from the evidence provided.
+- **Who would be interested in the results, and why** Researchers studying tau pathology in Alzheimer's disease and other tauopathies, investigators focused on liquid-liquid phase separation in neurodegeneration, and biophysicists interested in polyelectrolyte behavior and charge-mediated protein condensation. The work may also appeal to those exploring polyamine metabolism as a therapeutic target in neurodegeneration.
+- **Major strengths** The hypothesis addresses a genuine gap in current tau aggregation models, namely the electrostatic repulsion problem. The combination of experimental fluorescence microscopy with molecular dynamics simulations is a potentially powerful approach. The inclusion of cellular experiments, if rigorously performed, would strengthen physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that polyamines promote LLPS of hyperphosphorylated tau through charge-charge interactions, enabling the formation of dense protein condensates.
+  - **Evidence pointer** Abstract; methods mentioned as fluorescence microscopy and molecular dynamics simulations; location not provided
+  - **Concern** The abstract provides no quantitative data, such as saturation concentrations, turbidity measurements, or droplet size distributions, to support the claim that polyamines promote LLPS. No control experiments are described, such as testing polyamines with non-phosphorylated tau or with other negatively charged proteins to establish specificity. The molecular dynamics simulation results are not summarized in any quantitative way.
+  - **Why it matters** Without quantitative evidence and appropriate controls, the claim that polyamines specifically promote hyperphosphorylated tau LLPS via charge-charge interactions cannot be distinguished from nonspecific polyelectrolyte effects or artifacts of the experimental conditions.
+  - **Resolution test** Provide quantitative phase diagrams showing the concentration dependence of LLPS on polyamine and tau concentrations, include control experiments with non-phosphorylated tau and unrelated negatively charged proteins, and present simulation-derived binding energies or charge-charge interaction profiles that quantitatively support the proposed mechanism.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that polyamine-dependent tau condensates also formed in cellular environments, supporting the potential physiological relevance of this mechanism.
+  - **Evidence pointer** Abstract; cellular experiments mentioned but no details provided; location not provided
+  - **Concern** The abstract does not specify the cell type, the method of tau expression or delivery, the concentration of polyamines used, or how condensate formation was distinguished from other cellular aggregates or artifacts. No mention is made of whether endogenous polyamine levels were manipulated or measured.
+  - **Why it matters** Cellular environments contain many multivalent species and molecular crowding agents. Without details on how the observed condensates were attributed specifically to polyamines, the claim of physiological relevance is unsupported.
+  - **Resolution test** Describe the cellular system, include quantitative imaging data with appropriate markers for condensates, show that condensate formation is dependent on polyamine levels through depletion or supplementation experiments, and rule out alternative explanations such as stress granule formation or nonspecific aggregation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that over time, these condensates undergo a transition into filament-like structures, suggesting a possible pathway linking polyamine-mediated LLPS to tau aggregation processes.
+  - **Evidence pointer** Abstract; time-course experiments mentioned but no data shown; location not provided
+  - **Concern** The abstract provides no information on the timescale of this transition, the conditions under which it occurs, or the structural characterization of the filament-like structures. It is unclear whether these structures are bona fide amyloid fibrils, amorphous aggregates, or simply dehydrated condensates.
+  - **Why it matters** The claim that LLPS is a precursor to pathological tau aggregation is a central and highly consequential assertion. Without structural evidence, such as electron microscopy or thioflavin T binding data, the link between polyamine-mediated LLPS and tau aggregation remains speculative.
+  - **Resolution test** Provide time-resolved imaging data with defined time points, characterize the filament-like structures using electron microscopy and amyloid-specific dyes, and demonstrate that the transition is specific to polyamine-mediated condensates rather than a general property of concentrated tau solutions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "chemical framework" in the title is vague and does not clearly convey the mechanistic scope of the work.
+  - **Required correction** Consider a more descriptive title that reflects the specific role of polyamines in mediating tau condensation, or define what the chemical framework entails in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions molecular dynamics simulations but does not state the force field, simulation timescale, or system size, which are critical for assessing the reliability of the computational results.
+  - **Required correction** Include brief simulation parameters in the abstract or refer to a methods section where these details are provided.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Mechanistic claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that polyamines compensate for charge imbalance but does not address whether this is a general electrostatic screening effect or a specific binding interaction.
+  - **Required correction** Clarify whether the proposed mechanism involves specific polyamine binding sites on tau or a more general counterion condensation effect.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence, appropriate controls, and structural characterization for the central claims. Without these, the proposed mechanism and its physiological relevance cannot be assessed.
+- **Assessment against Nature-style criteria** Originality: The hypothesis that polyamines mediate hyperphosphorylated tau condensation is a novel angle that has not been widely explored, and it addresses a real conceptual gap in the field. Scientific importance: If substantiated, the work could have significant implications for understanding tau pathology and for identifying polyamine-related therapeutic targets. Interdisciplinary readership: The topic bridges biophysics, cell biology, and neurodegeneration, which could attract a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the lack of quantitative data and controls is a major limitation. Readability for nonspecialists: The abstract is generally clear and accessible, though the mechanistic details are sparse.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and worth pursuing, but the abstract does not provide sufficient quantitative or mechanistic support. A full manuscript with rigorous experimental controls, quantitative phase behavior data, cellular validation, and structural characterization of the filament-like products would be needed to make a convincing case.
+
+## Risk / unsupported claims
+- The claim that polyamines promote LLPS of hyperphosphorylated tau through charge-charge interactions is unsupported without quantitative phase diagrams and control experiments.
+- The claim that polyamine-dependent tau condensates form in cellular environments and are physiologically relevant is unsupported without details on cell type, polyamine manipulation, and condensate identification.
+- The claim that condensates transition into filament-like structures linking LLPS to tau aggregation is unsupported without time-resolved data and structural characterization.
+- The overall implication that this mechanism is relevant to Alzheimer's disease pathology is speculative based on the abstract alone.

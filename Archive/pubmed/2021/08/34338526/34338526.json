@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "34338526",
+    "doi": "10.1021/jacs.0c13118",
+    "title": "Effects of Weak Nonspecific Interactions with ATP on Proteins."
+  },
+  "content": {
+    "abstract": "Adenosine triphosphate (ATP) is an immensely well-studied metabolite serving multiple key biochemical roles as the major chemical energy currency in living systems, a building block of ribonucleic acids, and a phosphoryl group donor in kinase-mediated signaling. Intriguingly, ATP has been recently proposed to act as a hydrotrope that inhibits aggregation of amyloidogenic proteins; however, the underlying mechanism and the general physicochemical effect that coexistence with ATP exerts on proteins remain unclear. By combining NMR spectroscopy and MD simulations, here we observed weak but unambiguously measurable and concentration-dependent noncovalent interactions between ATP and various proteins. The interactions were most pronounced for an intrinsically disordered protein (alpha-synuclein) and for residues in flexible regions (e.g., loops or termini) of two representative folded proteins (ubiquitin and the dimeric ubiquitin-binding domain of p62). As shown by solution NMR, a consequence of the ATP-protein interaction was altered hydration of solvent-exposed residues in the protein. The observation that ATP interacted with all three proteins suggests that ATP is a general nonspecific binder of proteins. Several complementary biophysical methods further confirmed that, at physiological concentrations of  approximately 5-10 mM, ATP starts to form oligomeric states via magnesium-chelating and chelation-independent mechanisms, in agreement with previous studies. Although the observed ATP-protein interaction was relatively weak overall, the high ratio of ATP (monomeric free ATP, mono- and divalent ion-bound ATP, oligomeric and chelated ATP) to proteins in cells suggests that most proteins are likely to encounter transient interactions with ATP (and chemically similar metabolites) that confer metabolite-mediated protein surface protection.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adenosine Triphosphate/*chemistry",
+      "Binding Sites",
+      "Magnetic Resonance Spectroscopy",
+      "Molecular Dynamics Simulation",
+      "Sequestosome-1 Protein/*chemistry",
+      "Ubiquitin/*chemistry",
+      "alpha-Synuclein/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nishizawa, Mayu",
+        "Walinda, Erik",
+        "Morimoto, Daichi",
+        "Kohn, Benjamin",
+        "Scheler, Ulrich",
+        "Shirakawa, Masahiro",
+        "Sugase, Kenji"
+      ],
+      "short_names": [
+        "Nishizawa M",
+        "Walinda E",
+        "Morimoto D",
+        "Kohn B",
+        "Scheler U",
+        "Shirakawa M",
+        "Sugase K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4039-6738",
+        "ORCID: 0000-0003-1882-6401",
+        "ORCID: 0000-0002-7672-2136",
+        "ORCID: 0000-0002-4714-316X",
+        "ORCID: 0000-0001-8623-7743"
+      ],
+      "affiliations": [
+        "Department of Molecular Engineering, Graduate School of Engineering, Kyoto University, Kyoto-Daigaku Katsura, Nishikyo-ku, Kyoto 615-8510, Japan.",
+        "Department of Molecular and Cellular Physiology, Graduate School of Medicine, Kyoto University, Yoshida Konoe-cho, Sakyo-ku, Kyoto 606-8501, Japan.",
+        "Department of Molecular Engineering, Graduate School of Engineering, Kyoto University, Kyoto-Daigaku Katsura, Nishikyo-ku, Kyoto 615-8510, Japan.",
+        "Leibniz-Institut fur Polymerforschung Dresden e.V., Hohe Strasse 6, 01069 Dresden, Germany.",
+        "Leibniz-Institut fur Polymerforschung Dresden e.V., Hohe Strasse 6, 01069 Dresden, Germany.",
+        "Department of Molecular Engineering, Graduate School of Engineering, Kyoto University, Kyoto-Daigaku Katsura, Nishikyo-ku, Kyoto 615-8510, Japan.",
+        "Department of Molecular Engineering, Graduate School of Engineering, Kyoto University, Kyoto-Daigaku Katsura, Nishikyo-ku, Kyoto 615-8510, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nishizawa, Mayu",
+        "short_name": "Nishizawa M",
+        "identifiers": [
+          "0000-0002-4039-6738"
+        ],
+        "affiliations": [
+          "Department of Molecular Engineering, Graduate School of Engineering, Kyoto University, Kyoto-Daigaku Katsura, Nishikyo-ku, Kyoto 615-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Walinda, Erik",
+        "short_name": "Walinda E",
+        "identifiers": [
+          "0000-0003-1882-6401"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Physiology, Graduate School of Medicine, Kyoto University, Yoshida Konoe-cho, Sakyo-ku, Kyoto 606-8501, Japan."
+        ]
+      },
+      {
+        "full_name": "Morimoto, Daichi",
+        "short_name": "Morimoto D",
+        "identifiers": [
+          "0000-0002-7672-2136"
+        ],
+        "affiliations": [
+          "Department of Molecular Engineering, Graduate School of Engineering, Kyoto University, Kyoto-Daigaku Katsura, Nishikyo-ku, Kyoto 615-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Kohn, Benjamin",
+        "short_name": "Kohn B",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung Dresden e.V., Hohe Strasse 6, 01069 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Scheler, Ulrich",
+        "short_name": "Scheler U",
+        "identifiers": [
+          "0000-0002-4714-316X"
+        ],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung Dresden e.V., Hohe Strasse 6, 01069 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Shirakawa, Masahiro",
+        "short_name": "Shirakawa M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Engineering, Graduate School of Engineering, Kyoto University, Kyoto-Daigaku Katsura, Nishikyo-ku, Kyoto 615-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugase, Kenji",
+        "short_name": "Sugase K",
+        "identifiers": [
+          "0000-0001-8623-7743"
+        ],
+        "affiliations": [
+          "Department of Molecular Engineering, Graduate School of Engineering, Kyoto University, Kyoto-Daigaku Katsura, Nishikyo-ku, Kyoto 615-8510, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2021 Aug 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/03 06:00",
+    "fetched_at": "2026-09-20 04:44:21"
+  },
+  "links": {
+    "cites": [
+      "42521655",
+      "42255448",
+      "41763418",
+      "41056468",
+      "40561466",
+      "40378093",
+      "40314620",
+      "40060396",
+      "39977626",
+      "39684527",
+      "39475790",
+      "39473385",
+      "39354680",
+      "39337443",
+      "38888689",
+      "38672516",
+      "38534847",
+      "38331392",
+      "38174879",
+      "38127495",
+      "37736631",
+      "37670116",
+      "37645809",
+      "37150324",
+      "36681763",
+      "36608272",
+      "36605018",
+      "36418228",
+      "35956895",
+      "35379800",
+      "34829875"
+    ],
+    "refs": [],
+    "similar": [
+      "34338526",
+      "23912807",
+      "33829608",
+      "37458354",
+      "31240261",
+      "1868851",
+      "30205960",
+      "31903719",
+      "25919886",
+      "25771525",
+      "21942536",
+      "33903234",
+      "32623047",
+      "34240882",
+      "29874605",
+      "21292544",
+      "26475856",
+      "16731964",
+      "36608272",
+      "19759002",
+      "21715324",
+      "34509724",
+      "16104748",
+      "28330339",
+      "7074064",
+      "35718746",
+      "31079926",
+      "24901533",
+      "31678143",
+      "21939262",
+      "2997186",
+      "25207671",
+      "27797456",
+      "15521058",
+      "20620148",
+      "29286644",
+      "3052580",
+      "33345970",
+      "19576220",
+      "28030988",
+      "27733604",
+      "30917651",
+      "24316000",
+      "10220345",
+      "27809690",
+      "177414",
+      "33665744",
+      "33307701",
+      "23607785",
+      "21120858",
+      "26477939",
+      "24348227",
+      "31699336",
+      "26860503",
+      "17935333",
+      "16595681",
+      "7150537",
+      "21348834",
+      "7293",
+      "33649211",
+      "22281506",
+      "20377205",
+      "9563526",
+      "8702753",
+      "27238299",
+      "21819149",
+      "31600047",
+      "19960498",
+      "33616388",
+      "22404520",
+      "9730835",
+      "31669043",
+      "29621630",
+      "19481095",
+      "15351742",
+      "127795",
+      "27273030",
+      "28759722",
+      "30053753",
+      "32822537",
+      "21192710",
+      "9812989",
+      "28024449",
+      "6894387",
+      "29574323",
+      "19191740",
+      "32497661",
+      "23296043",
+      "27844185",
+      "26114384",
+      "27159340",
+      "35713479",
+      "38174879",
+      "34723279",
+      "37772172",
+      "37887425",
+      "37656203",
+      "35629965"
+    ],
+    "review": [
+      "34338526",
+      "33829608",
+      "21348834",
+      "31669043",
+      "37656203"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://hdl.handle.net/2433/295151",
+        "provider": "Kyoto University Research Information Repository - Articles",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.0c13118",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

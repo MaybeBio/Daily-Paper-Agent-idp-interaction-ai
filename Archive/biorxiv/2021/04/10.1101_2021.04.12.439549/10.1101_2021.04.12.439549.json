@@ -1,0 +1,158 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.04.12.439549",
+  "title": "Interactions between SARS-CoV-2 N-protein and α-synuclein accelerate amyloid formation",
+  "doi": "10.1101/2021.04.12.439549",
+  "abstract": "First cases that point at a correlation between SARS-CoV-2 infections and the development of Parkinson’s disease have been reported. Currently it is unclear if there also is a direct causal link between these diseases. To obtain first insights into a possible molecular relation between viral infections and the aggregation of α-synuclein protein into amyloid fibrils characteristic for Parkinson’s disease, we investigated the effect of the presence of SARS-CoV-2 proteins on α-synuclein aggregation. We show, in test tube experiments, that SARS-CoV-2 S-protein has no effect on α-synuclein aggregation while SARS-CoV-2 N-protein considerably speeds up the aggregation process. We observe the formation of multi-protein complexes, and eventually amyloid fibrils. Microinjection of N-protein in SHSY-5Y cells disturbed the α-synuclein proteostasis and increased cell death. Our results point toward direct interactions between the N-protein of SARS-CoV-2 and α-synuclein as molecular basis for the observed coincidence between SARS-CoV-2 infections and Parkinsonism.",
+  "authors": [
+    "Semerdzhiev SA",
+    "Fakhree MAA",
+    "Segers-Nolten I",
+    "Blum C",
+    "Claessens MMAE"
+  ],
+  "published_date": "2021-04-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.04.12.439549",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.04.12.439549.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR311153",
+    "raw_record": {
+      "id": "PPR311153",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR311153"
+        ]
+      },
+      "doi": "10.1101/2021.04.12.439549",
+      "title": "Interactions between SARS-CoV-2 N-protein and α-synuclein accelerate amyloid formation",
+      "authorString": "Semerdzhiev SA, Fakhree MAA, Segers-Nolten I, Blum C, Claessens MMAE.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Semerdzhiev SA",
+            "lastName": "Semerdzhiev",
+            "firstName": "Slav",
+            "initials": "SA"
+          },
+          {
+            "fullName": "Fakhree MAA",
+            "lastName": "Fakhree",
+            "firstName": "Mohammad",
+            "initials": "MAA"
+          },
+          {
+            "fullName": "Segers-Nolten I",
+            "lastName": "Segers-Nolten",
+            "firstName": "Ine",
+            "initials": "I"
+          },
+          {
+            "fullName": "Blum C",
+            "lastName": "Blum",
+            "firstName": "Christian",
+            "initials": "C"
+          },
+          {
+            "fullName": "Claessens MMAE",
+            "lastName": "Claessens",
+            "firstName": "Mireille",
+            "initials": "MMAE"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "First cases that point at a correlation between SARS-CoV-2 infections and the development of Parkinson’s disease have been reported. Currently it is unclear if there also is a direct causal link between these diseases. To obtain first insights into a possible molecular relation between viral infections and the aggregation of α-synuclein protein into amyloid fibrils characteristic for Parkinson’s disease, we investigated the effect of the presence of SARS-CoV-2 proteins on α-synuclein aggregation. We show, in test tube experiments, that SARS-CoV-2 S-protein has no effect on α-synuclein aggregation while SARS-CoV-2 N-protein considerably speeds up the aggregation process. We observe the formation of multi-protein complexes, and eventually amyloid fibrils. Microinjection of N-protein in SHSY-5Y cells disturbed the α-synuclein proteostasis and increased cell death. Our results point toward direct interactions between the N-protein of SARS-CoV-2 and α-synuclein as molecular basis for the observed coincidence between SARS-CoV-2 infections and Parkinsonism.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/04/12/2021.04.12.439549.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.04.12.439549"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR311153"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.04.12.439549"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34860005",
+            "reference": "ACS chemical neuroscience. 2022 Jan;13(1):143-150",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS122619",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-04-14",
+      "firstPublicationDate": "2021-04-12",
+      "firstIndexDate": "2021-04-14",
+      "fullTextReceivedDate": "2021-04-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

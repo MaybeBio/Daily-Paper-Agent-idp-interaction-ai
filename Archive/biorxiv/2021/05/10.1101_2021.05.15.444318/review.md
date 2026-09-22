@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external data or supplementary files beyond those referenced in the text were assessed.
+- **Shared manuscript claim summary** The authors report that human selenoprotein K (selenok), an intrinsically disordered selenoprotein, undergoes self-cleavage at specific sites near residues 55 and 79, both in vivo (HEK 293T and E. coli) and in vitro with purified protein. They further report that this cleavage is intrinsic to selenok, does not require its selenocysteine residue, is influenced by the amphipathic helix, and can selectively cleave the protein partner selenos. The authors propose this activity may represent a regulatory mechanism.
+- **Visible evidence base** Western blots of endogenous and overexpressed selenok in HEK 293T (Fig. 1C, 1D); in vivo cleavage time courses in E. coli (Figs. S3, S5); in vitro cleavage assays with purified strep-selenok U92C monitored by SDS-PAGE and intact mass spectrometry (Fig. 2B-D, S6-S8); alanine scanning mutagenesis data (Fig. 3B, S12); cleavage assays with potential substrates including selenos (Fig. 4, S18, S19); membrane localization data (Fig. S14); sequence conservation analysis (Fig. 3A, S1).
+- **Missing materials affecting confidence** Supplementary figures and methods referenced in the text (Figs. S1-S19, supplementary materials and methods) were not provided. Detailed mass spectrometry peak assignments and quantitative cleavage rate data are not fully described. No structural or biophysical data beyond the described assays are presented.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a novel and potentially significant observation: an intrinsically disordered selenoprotein, selenok, appears to possess self-cleavage activity. The evidence for intrinsic cleavage is substantial, with multiple lines of experimentation ruling out contaminating proteases. However, the mechanistic basis remains unclear, and the physiological relevance is speculative. The claim of selective cleavage of selenos is intriguing but requires more detailed characterization. The manuscript would benefit from a clearer mechanistic model and more quantitative analysis.
+- **Who would be interested in the results, and why** Researchers studying selenoproteins, protein intrinsic disorder, non-canonical proteolysis, and cellular regulatory mechanisms involving post-translational cleavage. The potential connection to immune function and SARS-CoV-2 life cycle may attract a broader cell biology and virology audience.
+- **Major strengths** 1) The observation of self-cleavage in an IDP is novel and challenges existing paradigms. 2) The experimental approach is thorough, using multiple expression systems, purification strategies, and orthogonal detection methods (SDS-PAGE, mass spectrometry). 3) The identification of specific cleavage sites provides a concrete molecular basis for further study. 4) The demonstration that cleavage is independent of Sec and occurs in a disordered region is mechanistically interesting.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic clarity
+  - **Claim pointer** The manuscript claims selenok undergoes "unconventional self-cleavage" and that this is a form of "chemical proteolysis," but the mechanism is not defined.
+  - **Evidence pointer** Results section, Fig. 2, Discussion
+  - **Concern** The authors rule out a classic protease mechanism but do not propose or test a specific chemical mechanism for the self-cleavage. The term "chemical proteolysis" is invoked, but no evidence for a specific mechanism (e.g., β-elimination, aspartate-mediated cleavage) is provided. The role of the amphipathic helix is noted but not mechanistically explained.
+  - **Why it matters** Without a mechanistic model, the claim of "unconventional" cleavage is not substantiated. The field needs a testable hypothesis to advance. The observation could be an artifact of a highly reactive but non-specific chemical process rather than a regulated biological mechanism.
+  - **Resolution test** The authors should propose a specific mechanism (e.g., involving a specific residue or conformational state) and test it with targeted mutations or biochemical assays. For example, testing cleavage under different pH conditions, in the presence of nucleophiles, or with backbone-modified peptides would help define the chemistry.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Physiological relevance
+  - **Claim pointer** The manuscript suggests the self-cleavage and cleavage of selenos "have all the hallmarks of a regulatory mechanism" and could play a central role in selenok's cellular functions.
+  - **Evidence pointer** Discussion
+  - **Concern** The physiological relevance is entirely speculative. The cleavage is observed in overexpression systems and with purified protein, but there is no evidence that this occurs endogenously at functional levels, is regulated, or has a biological consequence. The connection to immune function or SARS-CoV-2 is not experimentally addressed.
+  - **Why it matters** The significance of the finding for a general audience depends on its biological relevance. Without evidence for a functional role, the observation remains a biochemical curiosity.
+  - **Resolution test** The authors should demonstrate that cleavage occurs under endogenous conditions (e.g., using a cleavage-specific antibody), that it is regulated (e.g., by cellular stress or signaling), or that it affects a known function of selenok or selenos. A knockdown or mutation study in a relevant cell-based assay would strengthen the case.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Substrate specificity
+  - **Claim pointer** The manuscript claims selenok's cleavage activity "selectively extends to at least one of its protein partners" (selenos), implying specificity.
+  - **Evidence pointer** Fig. 4, Fig. S18
+  - **Concern** The evidence for selectivity is limited. Only a small panel of proteins was tested, and the criteria for "selective" are not defined. The cleavage of selenos is shown, but the efficiency, kinetics, and site specificity are not compared to the self-cleavage or to other potential substrates in a quantitative manner.
+  - **Why it matters** The claim of selectivity is central to the proposed regulatory function. If selenok cleaves many proteins non-specifically under certain conditions, the biological relevance is different.
+  - **Resolution test** A more systematic screen of potential substrates, including proteins with similar structural features, and a quantitative comparison of cleavage rates would be needed. The authors should also map the cleavage site(s) in selenos and test whether mutations there affect cleavage.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Fig. 2C, 2D
+  - **Evidence pointer** Results section, Fig. 2
+  - **Issue** The mass spectrometry data are presented as deconvoluted spectra, but the assignment of peaks to specific cleavage products is not clearly annotated in the text or figure legend.
+  - **Required correction** The authors should clearly label the expected masses of the full-length protein and each cleavage product on the spectra, and provide a table of observed vs. calculated masses.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantification
+  - **Affected element** Fig. 2B, Fig. 3
+  - **Evidence pointer** Results section
+  - **Issue** Cleavage rates are described qualitatively ("faster," "increased") without quantification.
+  - **Required correction** Densitometry or other quantitative analysis of the gel bands should be provided, with statistical analysis where appropriate.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Introduction, Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The writing is sometimes dense and the logical flow from observation to interpretation is not always clear. For example, the connection between the amphipathic helix, dimerization, and cleavage is not explicitly stated.
+  - **Required correction** The authors should revise for clarity, explicitly stating the proposed model and the evidence for each step.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Controls
+  - **Affected element** Fig. 4
+  - **Evidence pointer** Results section
+  - **Issue** The cleavage assay with selenos lacks a control showing that a catalytically inactive selenok mutant (if one exists) does not cleave selenos.
+  - **Required correction** If a cleavage-deficient mutant is identified, it should be tested against selenos. If not, this should be acknowledged as a limitation.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of a defined mechanistic model (R1-M1). 2) Lack of evidence for physiological relevance (R1-M2). 3) Insufficient evidence for substrate selectivity (R1-M3). 4) Lack of quantitative data for cleavage rates and mass spec assignments (R1-m1, R1-m2).
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The observation of self-cleavage in an IDP is novel and not predictable from existing literature.
+  - **Scientific importance** Potentially high, but currently unproven. The importance hinges on the physiological relevance, which is not established.
+  - **Interdisciplinary readership** Moderate. The topic will appeal to biochemists, cell biologists, and selenoprotein researchers. The connection to immunology and virology is speculative and not yet substantiated.
+  - **Technical soundness** The core observation of intrinsic cleavage is supported by strong evidence. However, the mechanistic and functional aspects are not rigorously established.
+  - **Readability for nonspecialists** The manuscript is written for a specialist audience. The significance and the proposed model could be explained more clearly for a broader readership.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation is novel and well-supported, but the manuscript is not yet suitable for publication in a high-impact journal. The authors must provide a mechanistic hypothesis and test it, and provide evidence for physiological relevance. The claims of selectivity and regulation need to be substantiated with more rigorous data.
+
+## Risk / unsupported claims
+- The claim that selenok's self-cleavage is a "regulatory mechanism" is unsupported by functional data.
+- The claim that selenok "selectively" cleaves selenos is not sufficiently supported by the limited substrate panel tested.
+- The suggestion that cleavage is a form of "chemical proteolysis" is speculative without mechanistic evidence.
+- The potential connection to SARS-CoV-2 life cycle is mentioned but not experimentally addressed and should be removed or clearly labeled as speculation.
+- The statement that cleavage "always" occurs during growth and purification is not quantified and may be an overstatement.

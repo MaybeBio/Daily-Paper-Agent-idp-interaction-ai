@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40199325",
+  "title": "Multiphasic protein condensation governed by shape and valency.",
+  "authors": "Pandey, Vikas; Hosokawa, Tomohisa; Hayashi, Yasunori; Urakubo, Hidetoshi",
+  "journal": "Cell reports",
+  "published_date": "2025-04-09",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用计算模型研究CaMKII及其互作蛋白的多相凝聚体形成，揭示竞争性结合、价态和连接子长度对相分离拓扑的调控，属于无序蛋白介导PPI与相分离机制建模，方法为物理模拟，高度契合课题。",
+  "abstract": "Liquid-liquid phase separation (LLPS) of biological macromolecules leads to the formation of various membraneless organelles. The multilayered and multiphasic form of LLPS can mediate complex cellular functions; however, the determinants of its topological features are not fully understood. Herein, we focus on synaptic proteins consisting of Ca(2+)/calmodulin-dependent protein kinase II (CaMKII) and its interacting partners and present a computational model that reproduces forms of LLPS, including a form of two-phase condensates, phase-in-phase (PIP) organization. The model analyses reveal that the PIP formation requires competitive binding between the proteins. The PIP forms only when CaMKII has high valency and a short linker length. Such CaMKII exhibits low surface tension, a modular structure, and slow diffusion, enabling it to stay in small biochemical domains for a long time, which is necessary for synaptic plasticity. Thus, the computational modeling reveals new structure-function relationships for CaMKII as a synaptic memory unit.",
+  "abstract_zh": "生物大分子的液-液相分离（LLPS）导致多种无膜细胞器的形成。LLPS的多层和多相形式可介导复杂的细胞功能；然而，其拓扑特征的决定因素尚未完全明了。在此，我们聚焦于由Ca(2+)/钙调蛋白依赖性蛋白激酶II（CaMKII）及其相互作用伙伴组成的突触蛋白，并提出一个计算模型，该模型再现了LLPS的形式，包括两相凝聚体和相中相（PIP）组织。模型分析揭示，PIP的形成需要蛋白质之间的竞争性结合。PIP仅在CaMKII具有高价态和短连接长度时形成。这种CaMKII表现出低表面张力、模块化结构和缓慢扩散，使其能在小生化域中长时间停留，这对突触可塑性是必需的。因此，计算建模揭示了CaMKII作为突触记忆单元的新结构-功能关系。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40199325/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40199325/",
+  "paper_page_path": "papers/pubmed/40199325/index.html"
+}

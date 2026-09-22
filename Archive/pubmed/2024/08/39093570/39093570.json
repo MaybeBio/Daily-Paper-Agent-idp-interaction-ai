@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "39093570",
+    "doi": "10.1021/acs.jpclett.4c01544",
+    "title": "Predicting Conformational Ensembles of Intrinsically Disordered Proteins: From Molecular Dynamics to Machine Learning."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins and regions (IDP/IDRs) are ubiquitous across all domains of life. Characterized by a lack of a stable tertiary structure, IDP/IDRs populate a diverse set of transiently formed structural states that can promiscuously adapt upon binding with specific interaction partners and/or certain alterations in environmental conditions. This malleability is foundational for their role as tunable interaction hubs in core cellular processes such as signaling, transcription, and translation. Tracing the conformational ensemble of an IDP/IDR and its perturbation in response to regulatory cues is thus paramount for illuminating its function. However, the conformational heterogeneity of IDP/IDRs poses several challenges. Here, we review experimental and computational methods devised to disentangle the conformational landscape of IDP/IDRs, highlighting recent computational advances that permit proteome-wide scans of IDP/IDRs conformations. We briefly evaluate selected computational methods using the disordered N-terminal of the human copper transporter 1 as a test case and outline further challenges in IDP/IDRs ensemble prediction.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Machine Learning",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aupic, Jana",
+        "Pokorna, Pavlina",
+        "Ruthstein, Sharon",
+        "Magistrato, Alessandra"
+      ],
+      "short_names": [
+        "Aupic J",
+        "Pokorna P",
+        "Ruthstein S",
+        "Magistrato A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6246-962X",
+        "ORCID: 0000-0003-0498-0889",
+        "ORCID: 0000-0002-1741-6892",
+        "ORCID: 0000-0002-2003-1985"
+      ],
+      "affiliations": [
+        "CNR-IOM at International School for Advanced Studies (SISSA/ISAS), via Bonomea 265, 34136 Trieste, Italy.",
+        "CNR-IOM at International School for Advanced Studies (SISSA/ISAS), via Bonomea 265, 34136 Trieste, Italy.",
+        "Department of Chemistry, Faculty of Exact Sciences and the Institute for Nanotechnology and Advanced Materials (BINA), Bar-Ilan University, 5290002 Ramat-Gan, Israel.",
+        "CNR-IOM at International School for Advanced Studies (SISSA/ISAS), via Bonomea 265, 34136 Trieste, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aupič, Jana",
+        "short_name": "Aupič J",
+        "identifiers": [
+          "0000-0001-6246-962X"
+        ],
+        "affiliations": [
+          "CNR-IOM at International School for Advanced Studies (SISSA/ISAS), via Bonomea 265, 34136 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Pokorná, Pavlína",
+        "short_name": "Pokorná P",
+        "identifiers": [
+          "0000-0003-0498-0889"
+        ],
+        "affiliations": [
+          "CNR-IOM at International School for Advanced Studies (SISSA/ISAS), via Bonomea 265, 34136 Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Ruthstein, Sharon",
+        "short_name": "Ruthstein S",
+        "identifiers": [
+          "0000-0002-1741-6892"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Exact Sciences and the Institute for Nanotechnology and Advanced Materials (BINA), Bar-Ilan University, 5290002 Ramat-Gan, Israel."
+        ]
+      },
+      {
+        "full_name": "Magistrato, Alessandra",
+        "short_name": "Magistrato A",
+        "identifiers": [
+          "0000-0002-2003-1985"
+        ],
+        "affiliations": [
+          "CNR-IOM at International School for Advanced Studies (SISSA/ISAS), via Bonomea 265, 34136 Trieste, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2024 Aug 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/02 12:42",
+    "fetched_at": "2026-09-21 09:09:32"
+  },
+  "links": {
+    "cites": [
+      "42437078",
+      "41557786",
+      "41463392",
+      "40192555"
+    ],
+    "refs": [],
+    "similar": [
+      "39093570",
+      "38297118",
+      "31441158",
+      "38275091",
+      "30840442",
+      "38297184",
+      "30979035",
+      "38987470",
+      "34390736",
+      "38053335",
+      "37657994",
+      "33076213",
+      "34504009",
+      "36272675",
+      "27844185",
+      "37905972",
+      "38018910",
+      "38296708",
+      "39163306",
+      "36987865",
+      "35139468",
+      "35882686",
+      "31999450",
+      "37883249",
+      "34825861",
+      "34845619",
+      "34418423",
+      "37155239",
+      "33567297",
+      "32696369",
+      "33248138",
+      "33581430",
+      "24027208",
+      "30909517",
+      "36908253",
+      "39190324",
+      "30878482",
+      "38942776",
+      "31003202",
+      "33191750",
+      "27387657",
+      "35129612",
+      "30708285",
+      "29763584",
+      "25752799",
+      "37338049",
+      "34362249",
+      "33719450",
+      "36959451",
+      "38701796",
+      "33406091",
+      "30091924",
+      "32696395",
+      "38284524",
+      "39205298",
+      "33355572",
+      "39253485",
+      "32824743",
+      "30855964",
+      "37463458",
+      "35098694",
+      "26195786",
+      "30278223",
+      "31804089",
+      "27807972",
+      "34461937",
+      "24008243",
+      "33936509",
+      "33421906",
+      "23794453",
+      "24115198",
+      "33087759",
+      "24532081",
+      "30058229",
+      "26661739",
+      "31548393",
+      "32579908",
+      "35725761",
+      "37241789",
+      "33243935",
+      "32323533",
+      "28914483",
+      "31475155",
+      "29276882",
+      "30002402",
+      "29626537",
+      "36934808",
+      "37108059",
+      "36774359",
+      "36084124",
+      "38220424",
+      "38177684",
+      "33267376",
+      "26030674",
+      "31889261",
+      "39056166",
+      "37722056",
+      "36291695",
+      "34799573",
+      "26742101",
+      "36008992",
+      "31307006",
+      "35102880",
+      "39089542",
+      "37878721",
+      "37957331",
+      "36210722",
+      "37498545",
+      "35767567",
+      "39032884",
+      "35245498",
+      "38194282",
+      "35562983",
+      "36711874",
+      "39142260",
+      "36671509",
+      "39384813",
+      "30144197",
+      "39383002",
+      "36409899",
+      "39196938",
+      "39279844",
+      "37986812",
+      "39158517",
+      "36969402",
+      "38874491",
+      "39333476",
+      "35061901",
+      "37961106",
+      "36030416",
+      "37736816",
+      "36250006",
+      "37904608",
+      "35976160",
+      "36824771",
+      "38553595",
+      "36183447",
+      "38895487",
+      "37547488",
+      "39254158",
+      "37418278",
+      "39276130",
+      "36304335",
+      "39311135",
+      "39353735",
+      "37546943",
+      "35591946",
+      "36829461",
+      "35317227",
+      "39071356"
+    ],
+    "review": [
+      "39093570",
+      "31441158",
+      "30840442",
+      "30979035",
+      "34390736",
+      "37657994",
+      "38296708",
+      "35139468",
+      "35882686",
+      "34418423",
+      "33567297",
+      "33248138",
+      "24027208",
+      "30909517",
+      "31003202",
+      "35129612",
+      "25752799",
+      "36959451",
+      "39205298",
+      "33355572",
+      "35098694",
+      "30278223",
+      "24008243",
+      "33421906",
+      "23794453",
+      "24532081",
+      "37241789",
+      "33243935",
+      "38220424",
+      "35102880",
+      "37957331",
+      "39142260",
+      "36671509",
+      "30144197",
+      "39196938",
+      "36969402",
+      "36250006",
+      "35976160",
+      "36183447",
+      "39254158"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SLC31A1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.4c01544",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38365968",
+  "title": "Efficient inhibition of amyloid fibrillation and cytotoxicity of alpha-synuclein and human insulin using biosynthesized silver nanoparticles decorated by green tea polyphenols.",
+  "authors": "Mirzaei-Behbahani, Behnaz; Meratan, Ali Akbar; Moosakhani, Beitollah; Mohammad-Zaheri, Mahya; Mousavi-Jarrahi, Zahra; Nikfarjam, Nasser; Shahsavani, Mohammad Bagher; Saboury, Ali Akbar",
+  "journal": "Scientific reports",
+  "published_date": "2024-02-17",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用绿茶多酚包被的银纳米颗粒抑制α-突触核蛋白和人胰岛素的淀粉样纤维化，涉及IDP（α-syn）但无PPI机制建模，且方法为实验表征，无AI或物理模拟。",
+  "abstract": "Green tea polyphenols (GTPs), particularly epigallocatechin-3-gallate, stand out among natural small molecules screened for their ability to target protein aggregates due to their potent anti-amyloidogenic and neuroprotective activities against various disease-related peptides and proteins. However, the clinical applications of GTPs in amyloid-related diseases have been greatly limited by drawbacks such as poor chemical stability and low bioavailability. To address these limitations, this study utilized an Iranian green tea polyphenolic extract as a reducing agent to neutralize silver ions and facilitate the formation of silver nanoparticle capped by GTPs (GTPs-capped AgNPs). The results obtained from this study demonstrate that GTPs-capped AgNPs are more effective than free GTPs at inhibiting amyloid fibrillation and reducing cytotoxicity induced by amyloid fibrils of human insulin and alpha-synuclein (alpha-syn). This improved efficacy is attributed to the increased surface/volume ratio of GTPs-capped AgNPs, which can enhance their binding affinity to amyloidogenic species and boosts their antioxidant activity. The mechanism by which GTPs-capped AgNPs inhibit amyloid fibrillation appears to vary depending on the target protein. For structured protein human insulin, GTPs-capped AgNPs hinder fibrillation by constraining the protein in its native-like state. In contrast, GTPs-capped AgNPs modulate fibrillation of intrinsically disordered proteins like alpha-syn by redirecting the aggregation pathway towards the formation of non-toxic off-pathway oligomers or amorphous aggregates. These findings highlight polyphenol-functionalized nanoparticles as a promising strategy for targeting protein aggregates associated with neurodegenerative diseases.",
+  "abstract_zh": "绿茶多酚（GTPs），特别是表没食子儿茶素-3-没食子酸酯，在针对蛋白质聚集体的天然小分子筛选中脱颖而出，因其对各种疾病相关肽和蛋白质具有强效的抗淀粉样蛋白生成和神经保护活性。然而，GTPs在淀粉样相关疾病中的临床应用受到化学稳定性差和生物利用度低等缺点的极大限制。为解决这些限制，本研究利用伊朗绿茶多酚提取物作为还原剂，中和银离子并促进由GTPs封端的银纳米颗粒（GTPs-capped AgNPs）的形成。研究结果表明，GTPs-capped AgNPs在抑制淀粉样纤维化和减少人胰岛素及α-突触核蛋白（alpha-syn）淀粉样纤维诱导的细胞毒性方面，比游离GTPs更有效。这种增强的功效归因于GTPs-capped AgNPs增加的表面/体积比，这可以增强其与淀粉样生成物种的结合亲和力，并提升其抗氧化活性。GTPs-capped AgNPs抑制淀粉样纤维化的机制似乎因靶蛋白而异。对于结构蛋白人胰岛素，GTPs-capped AgNPs通过将蛋白质限制在其天然样状态来阻碍纤维化。相比之下，GTPs-capped AgNPs通过将聚集途径重定向至形成无毒的非路径寡聚体或无定形聚集体，来调节如alpha-syn等内在无序蛋白质的纤维化。这些发现强调了多酚功能化纳米颗粒作为靶向神经退行性疾病相关蛋白质聚集体的有前景策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38365968/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38365968/",
+  "paper_page_path": "papers/pubmed/38365968/index.html"
+}

@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "39653037",
+    "doi": "10.1080/15548627.2024.2437652",
+    "title": "Janus-like behavior of intrinsically disordered regions in reticulophagy."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) are crucial to homeostatic and organellar remodeling pathways. In reticulophagy/ER-phagy, long cytosolic IDR-containing receptors (e.g. RETREG1/FAM134B) house the LC3-interacting region (LIR) motif to recruit the phagophore. The precise functions of the IDR beyond engaging the autophagic machinery are unclear. Here, we comment on the role of the RETREG1-IDR based on our recent computer modeling and molecular dynamics (MD) simulations. Extensive analysis of the RETREG1-IDR indicates a continuum of conformations between expanded and compact structures, displaying a Janus-like feature. Using an adapted MARTINI model, we find that the IDR ensemble properties vary widely depending on the membrane anchor. IDRs alone are sufficient to promote and sense membrane curvature and can act as entropic tethers. When anchored to the Reticulon homology domain (RHD), they adopt compact collapsed conformations, acting as effector scaffolds that amplify RHD membrane remodeling properties, enhancing receptor-clustering and accelerating spontaneous budding. These findings expand the operational scope of IDRs within reticulophagy, offering fresh insights into a mechanistic understanding of membrane remodeling.",
+    "keywords": [
+      "Conformational heterogeneity",
+      "ER remodeling",
+      "IDRs",
+      "curvature induction",
+      "effector",
+      "entropic chain"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/metabolism/chemistry",
+      "*Autophagy/physiology",
+      "Humans",
+      "Animals",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Poveda-Cuevas, Sergio Alejandro",
+        "Lohachova, Kateryna",
+        "Markusic, Borna",
+        "Dikic, Ivan",
+        "Hummer, Gerhard",
+        "M Bhaskara, Ramachandra"
+      ],
+      "short_names": [
+        "Poveda-Cuevas SA",
+        "Lohachova K",
+        "Markusic B",
+        "Dikic I",
+        "Hummer G",
+        "M Bhaskara R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3087-6674",
+        "ORCID: 0000-0001-7826-8320",
+        "ORCID: 0009-0007-8302-812X",
+        "ORCID: 0000-0001-8156-9511",
+        "ORCID: 0000-0001-7768-746X",
+        "ORCID: 0000-0002-7742-0391"
+      ],
+      "affiliations": [
+        "School of Medicine, Institute of Biochemistry II, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+        "Buchmann Institute for Molecular Life Sciences, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+        "School of Medicine, Institute of Biochemistry II, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+        "Buchmann Institute for Molecular Life Sciences, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+        "School of Medicine, Institute of Biochemistry II, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+        "International Max Planck Research School on Cellular Biophysics, Max-Planck Institute of Biophysics, Frankfurt am Main, Germany.",
+        "School of Medicine, Institute of Biochemistry II, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+        "Buchmann Institute for Molecular Life Sciences, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+        "Department of Theoretical Biophysics, Max-Planck Institute of Biophysics, Frankfurt am Main, Germany.",
+        "Department of Physics, Institute of Biophysics, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+        "School of Medicine, Institute of Biochemistry II, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+        "Buchmann Institute for Molecular Life Sciences, Goethe University Frankfurt, Frankfurt am Main, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Poveda-Cuevas, Sergio Alejandro",
+        "short_name": "Poveda-Cuevas SA",
+        "identifiers": [
+          "0000-0002-3087-6674"
+        ],
+        "affiliations": [
+          "School of Medicine, Institute of Biochemistry II, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+          "Buchmann Institute for Molecular Life Sciences, Goethe University Frankfurt, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Lohachova, Kateryna",
+        "short_name": "Lohachova K",
+        "identifiers": [
+          "0000-0001-7826-8320"
+        ],
+        "affiliations": [
+          "School of Medicine, Institute of Biochemistry II, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+          "Buchmann Institute for Molecular Life Sciences, Goethe University Frankfurt, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Markusic, Borna",
+        "short_name": "Markusic B",
+        "identifiers": [
+          "0009-0007-8302-812X"
+        ],
+        "affiliations": [
+          "School of Medicine, Institute of Biochemistry II, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+          "International Max Planck Research School on Cellular Biophysics, Max-Planck Institute of Biophysics, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Dikic, Ivan",
+        "short_name": "Dikic I",
+        "identifiers": [
+          "0000-0001-8156-9511"
+        ],
+        "affiliations": [
+          "School of Medicine, Institute of Biochemistry II, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+          "Buchmann Institute for Molecular Life Sciences, Goethe University Frankfurt, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Hummer, Gerhard",
+        "short_name": "Hummer G",
+        "identifiers": [
+          "0000-0001-7768-746X"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max-Planck Institute of Biophysics, Frankfurt am Main, Germany.",
+          "Department of Physics, Institute of Biophysics, Goethe University Frankfurt, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "M Bhaskara, Ramachandra",
+        "short_name": "M Bhaskara R",
+        "identifiers": [
+          "0000-0002-7742-0391"
+        ],
+        "affiliations": [
+          "School of Medicine, Institute of Biochemistry II, Goethe University Frankfurt, Frankfurt am Main, Germany.",
+          "Buchmann Institute for Molecular Life Sciences, Goethe University Frankfurt, Frankfurt am Main, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Autophagy"
+    ],
+    "journal_abbrev": [
+      "Autophagy"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/10 00:22",
+    "fetched_at": "2026-09-21 13:38:43"
+  },
+  "links": {
+    "cites": [
+      "41629400"
+    ],
+    "refs": [
+      "39453744"
+    ],
+    "similar": [
+      "39653037",
+      "39453744",
+      "31996076",
+      "38705724",
+      "40778749",
+      "39394962",
+      "31147549",
+      "33591770",
+      "39689859",
+      "40277456",
+      "37651691",
+      "31006538",
+      "39539017",
+      "39093570",
+      "33111629",
+      "24115198",
+      "31441158",
+      "30878482",
+      "27807972",
+      "34825861",
+      "38942776",
+      "32559118",
+      "31724233",
+      "37155239",
+      "40997106",
+      "40760246",
+      "39933697",
+      "33076213",
+      "37657994",
+      "33043769",
+      "29550429",
+      "31003202",
+      "31804089",
+      "34883116",
+      "33248138",
+      "40530859",
+      "35239449",
+      "24930020",
+      "38275091",
+      "41438769",
+      "32824743",
+      "30855964",
+      "40320752",
+      "39446390",
+      "40437698",
+      "37191320",
+      "37463458",
+      "26149687",
+      "39190324",
+      "39245437",
+      "36987865",
+      "28924037",
+      "41276815",
+      "31999450",
+      "29791766",
+      "38230670",
+      "31930741",
+      "33406091",
+      "24027208",
+      "40244295",
+      "36959451",
+      "37225996",
+      "33191750",
+      "33627133",
+      "40042172",
+      "39925135",
+      "36711874",
+      "38296708",
+      "32048886",
+      "40467883",
+      "41378882",
+      "33121335",
+      "35127371",
+      "35930019",
+      "29309620",
+      "38662765",
+      "39253485",
+      "34571015",
+      "38808635",
+      "32154249",
+      "38943706",
+      "29722136",
+      "28102736",
+      "33030249",
+      "38579676",
+      "27718363",
+      "37878721",
+      "40265346",
+      "39589885",
+      "30022112",
+      "35477002",
+      "34710113",
+      "25099811",
+      "31362563",
+      "38109289",
+      "32553192",
+      "38297118",
+      "31748416",
+      "39993015",
+      "40574713"
+    ],
+    "review": [
+      "39653037",
+      "39394962",
+      "39093570",
+      "31441158",
+      "37657994",
+      "31003202",
+      "33248138",
+      "24930020",
+      "24027208",
+      "36959451",
+      "38296708",
+      "32048886",
+      "35127371",
+      "35930019",
+      "38808635",
+      "32154249",
+      "38943706",
+      "29722136"
+    ],
+    "pmc": [
+      "11849913"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/15548627.2024.2437652?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39653037/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

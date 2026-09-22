@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided by the user. No figures, tables, or supplementary materials were available for inspection.
+- **Assessment boundary** The scientific claims, methodological soundness, and evidentiary support as presented in the text. No independent verification of experimental data or computational outputs was possible.
+- **Shared manuscript claim summary** The authors propose a structural model for the interaction between the dynein adaptor BicD2 and its cargo Nup358, based on AlphaFold2 predictions, two additional docking programs (HADDOCK and ClusPro), prior NMR data, and new mutagenesis experiments. They claim a core antiparallel interface between the Nup358 cargo-recognition α-helix and the central region of BicD2-CTD, stabilized by two salt bridges, plus a secondary interface involving intrinsically disordered Nup358 residues and the C-terminal region of BicD2-CTD that overlaps with the Rab6 binding site.
+- **Visible evidence base** Text descriptions of GST pulldown assays, AlphaFold2 and ColabFold predictions, ClusPro and HADDOCK docking, and references to prior published NMR data. Figures and tables are mentioned but not provided.
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, raw quantification data, statistical details, and the prior NMR dataset referenced as [42]. Without these, the quantitative claims and the quality of the structural models cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in the field of dynein-mediated transport, specifically the structural basis of cargo recognition by the adaptor BicD2. The combination of computational prediction with experimental validation is a reasonable approach, and the authors are appropriately cautious about the confidence levels of different parts of their model. However, the current text does not provide sufficient detail for a reader to evaluate the quality of the AlphaFold2 model, the docking results, or the mutagenesis data. The claims regarding the secondary interface and the competition with Rab6 are intriguing but rest on limited experimental support as described. The manuscript would benefit from clearer presentation of the evidence and a more critical discussion of the limitations of computational models in this context.
+- **Who would be interested in the results, and why** Researchers studying dynein regulation, cargo adaptor specificity, nuclear positioning, and the molecular basis of neurodevelopmental diseases linked to BicD2 mutations. The proposed model could inform structure-function studies and disease mechanism hypotheses, making it of interest to cell biologists, structural biologists, and those working on motor protein biology.
+- **Major strengths** The study addresses a gap in the field, as no structure of a BicD2-cargo complex is currently available. The use of multiple computational methods alongside experimental mutagenesis is a pragmatic strategy. The authors acknowledge the lower confidence of the secondary interface and do not overstate the precision of their model. The connection to disease-relevant mutations and the discussion of potential regulatory mechanisms add biological context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the Nup358 cargo-recognition α-helix binds to BicD2 between residues 747 and 774 in an antiparallel manner, forming a helical bundle, and that two salt bridges (K2174-D762, K2181-D755) stabilize the interface.
+  - **Evidence pointer** Section 3.2, Figures 5, 6, 7, Table 1, Table 2 (not provided)
+  - **Concern** The central claim of the paper rests on the AlphaFold2 model and its validation by docking and mutagenesis. However, the manuscript does not provide the pLDDT or PAE plots, the model confidence metrics are only described qualitatively, and the docking scores are not reported. The mutagenesis data are described only as "strongly reduced" or "lesser effect" without numerical values, error bars, or statistical tests. Without these data, the reader cannot assess whether the proposed interface and salt bridges are well supported or whether alternative binding modes are equally consistent with the data.
+  - **Why it matters** The structural model is the main contribution of the paper. If the supporting evidence is not transparently presented, the claims cannot be evaluated or reproduced, which undermines the scientific value of the work.
+  - **Resolution test** Provide the full AlphaFold2 confidence metrics (pLDDT, PAE) for the complex, the docking scores and rankings for ClusPro and HADDOCK, and the quantitative pulldown data with statistical analysis for all mutants. Show that the proposed salt bridges are supported by the model geometry and that the mutagenesis effects are specific and significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim a second interface between intrinsically disordered Nup358 residues 2149–2159 and the C-terminal region of BicD2-CTD (residues 774–800), which overlaps with the Rab6 binding site and explains competitive binding.
+  - **Evidence pointer** Section 3.3, Figure 8 (not provided)
+  - **Concern** The secondary interface is described as being of lower confidence in the AlphaFold2 model, yet it is used to explain the competition between Nup358 and Rab6. The mutagenesis data for this region are mentioned but not shown in detail, and no direct competition experiment between Nup358 and Rab6 is described. The claim that this interface explains previously observed competition is therefore speculative.
+  - **Why it matters** The competition between Nup358 and Rab6 for BicD2 is a biologically significant claim. If the evidence is not direct or is based on a low-confidence model region, the conclusion is not established.
+  - **Resolution test** Provide the mutagenesis data for the residues in the secondary interface, and ideally a direct competition assay showing that Nup358 and Rab6 cannot bind simultaneously. Clarify the confidence level of this region in the model and discuss whether the proposed interface is consistent with all available data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that the AlphaFold2 model was validated by HADDOCK and ClusPro, with RMSD values between 0.3 and 1.1 Å.
+  - **Evidence pointer** Section 2.3, 2.4, 2.5, Table 2 (not provided)
+  - **Concern** The methods for HADDOCK and ClusPro are described only briefly. It is unclear what input structures were used, how the docking was scored, how many models were generated, and how the RMSD was calculated. The statement that the programs "predict almost identical structures" is not supported by the information provided.
+  - **Why it matters** Docking programs can produce a range of solutions, and the selection of the "best" model is not trivial. Without details on the scoring and selection criteria, the agreement between methods cannot be assessed.
+  - **Resolution test** Provide full methodological details for the docking runs, including input structures, scoring functions, number of models, and the criteria for selecting the final models. Show the RMSD calculation method and the range of values across models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section 1
+  - **Issue** The abstract states that the Nup358 α-helix binds "between residues 747 and 774" of BicD2, but the Introduction and Results sometimes refer to slightly different ranges (e.g., 747–772 in the Introduction). This inconsistency could confuse readers.
+  - **Required correction** Standardize the residue ranges throughout the text, or explicitly state that the boundaries are approximate.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The pulldown assay description mentions that BicD2-CTD mutants were purified by a single affinity chromatography step, but no details are given on the expression levels, solubility, or whether all mutants behaved similarly. This is relevant for interpreting the pulldown results.
+  - **Required correction** Add a sentence describing the quality and yield of the mutant proteins, or state that all mutants expressed and purified similarly to the wild type.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4, Discussion
+  - **Issue** The discussion of the third potential interaction domain involving phosphorylated Nup358 residues is speculative and based on a low-confidence model region. While the authors acknowledge this, the section could be more clearly framed as a hypothesis rather than a finding.
+  - **Required correction** Rephrase to explicitly label this as a speculative hypothesis that requires experimental testing.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative data for the pulldown assays, the absence of confidence metrics for the AlphaFold2 model, and the insufficient detail on the docking procedures are the main technical issues. These need to be addressed for the claims to be properly evaluated.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The work addresses a gap in the field, but the approach is not conceptually novel. The use of AlphaFold2 for complex prediction is now standard practice.  
+  - **Scientific importance** Moderate to high. Understanding cargo recognition by BicD2 is relevant to dynein biology and disease, but the impact depends on the reliability of the model.  
+  - **Interdisciplinary readership** Limited. The topic is of interest primarily to cell biologists and structural biologists working on motor proteins.  
+  - **Technical soundness** Currently not fully assessable due to missing data. The described methods are appropriate in principle, but the lack of quantitative results and model confidence metrics prevents a full evaluation.  
+  - **Readability for nonspecialists** The text is generally clear, but the residue numbers and structural details may be challenging for readers without a background in structural biology. The abstract is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The topic is relevant and the approach is reasonable, but the current manuscript does not provide sufficient evidence to fully establish the proposed model. The authors should provide the missing quantitative data, model confidence metrics, and methodological details to allow a proper assessment.
+
+## Risk / unsupported claims
+- The claim that the two salt bridges (K2174-D762, K2181-D755) are critical for the interface is not fully supported without quantitative mutagenesis data and model confidence metrics.
+- The claim that the secondary interface explains competition between Nup358 and Rab6 is speculative, as no direct competition experiment is described.
+- The claim that the three docking programs predict "almost identical structures" is not supported by the information provided, as the RMSD values and docking scores are not shown in detail.
+- The discussion of a third interaction domain involving phosphorylated Nup358 residues is presented as a hypothesis but is not clearly labeled as such in the text.

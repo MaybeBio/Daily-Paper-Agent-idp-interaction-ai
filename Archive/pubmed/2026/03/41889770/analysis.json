@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41889770",
+  "title": "Dynamical Buffering of Reconfiguration Dynamics in Intrinsically Disordered Proteins.",
+  "authors": "Ivanovic, Milos T; Holla, Andrea; Nuesch, Mark F; von Roten, Valentin; Schuler, Benjamin; Best, Robert B",
+  "journal": "JACS Au",
+  "published_date": "2026-03-27",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合单分子FRET实验与全原子显式溶剂MD模拟，研究16种天然无序蛋白的链重构动力学，揭示序列组成与链尺寸变化被动力学缓冲的机制，直接聚焦IDP动态与互作相关构象重排，方法上以物理模拟为核心，对无序蛋白互作机制建模有重要启发。",
+  "abstract": "The dynamics of intrinsically disordered proteins are important for their function, allowing their heterogeneous conformational ensembles to rapidly reconfigure in response to binding partners or changes in solution conditions. However, the relation between sequence composition and chain dynamics has rarely been studied. Here, we characterize the dynamics of a set of 16 naturally occurring disordered regions of identical chain length but with highly diverse sequences. In spite of the strong variation of chain dimensions with sequence in this set inferred from single-molecule FRET, nanosecond fluorescence correlation spectroscopy yields chain reconfiguration times that are almost independent of sequence. This surprising observation contrasts with the slowdown in dynamics, attributed to internal friction, that has been observed in more compact disordered proteins. We investigated this effect with the aid of multimicrosecond, all-atom explicit-solvent simulations of all 16 disordered proteins. The simulations reproduce the experimental FRET efficiencies with near-quantitative accuracy, with explicit inclusion of the FRET dyes improving agreement with experiment while minimally perturbing the protein ensemble. Critically, the simulations also reproduce the lack of correlation between reconfiguration times and chain dimensions across the sequences and allow us to rationalize this observation as arising from two competing factors as the chains get more compact. The narrowing of end-to-end distance distributions and a concomitant reduction of the corresponding intrachain diffusion coefficients have opposite effects that end up resulting in only a small variation of reconfiguration times with chain dimensions. These compensating factors \"buffer\" the effect of sequence on linker dynamics, which may help to conserve function as sequences evolve.",
+  "abstract_zh": "intrinsically disordered proteins（本质无序蛋白）的动态特性对其功能至关重要，使其异质性构象集合能够快速重构以响应结合伙伴或溶液条件的变化。然而，序列组成与链动态之间的关系鲜有研究。在此，我们表征了一组16个链长相同但序列高度多样的天然无序区域的动态特性。尽管通过单分子FRET推断出该组中链尺寸随序列强烈变化，但纳秒荧光相关光谱得到的链重构时间几乎与序列无关。这一令人惊讶的观察结果与在更紧凑的无序蛋白中观察到的、归因于内摩擦的动态减慢形成对比。我们借助对所有16种无序蛋白进行的多微秒全原子显式溶剂模拟来研究这一效应。模拟以近定量精度重现了实验FRET效率，显式包含FRET染料改善了对实验的一致性，同时对蛋白集合的扰动最小。关键的是，模拟还重现了序列间重构时间与链尺寸之间缺乏相关性，并使我们能够合理化这一观察结果，即随着链变得更紧凑，它源于两个竞争因素。末端距分布变窄及相应的链内扩散系数减少具有相反效应，最终导致重构时间随链尺寸仅发生微小变化。这些补偿因素“缓冲”了序列对连接子动态的影响，这可能有助于在序列进化过程中保持功能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41889770/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41889770/",
+  "paper_page_path": "papers/pubmed/41889770/index.html"
+}

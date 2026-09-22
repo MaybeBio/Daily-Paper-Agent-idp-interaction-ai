@@ -1,0 +1,39 @@
+{
+  "source": "arxiv",
+  "source_id": "2303.11723v1",
+  "title": "Robust microphase separation through chemical reaction networks",
+  "doi": "10.1109/LCSYS.2023.3283934",
+  "abstract": "The interaction of phase-separating systems with chemical reactions is of great interest in various contexts, from biology to material science. In biology, phase separation is thought to be the driving force behind the formation of biomolecular condensates, i.e. organelles without a membrane that are associated with cellular metabolism, stress response, and development. RNA, proteins, and small molecules participating in the formation of condensates are also involved in a variety of biochemical reactions: how do the chemical reaction dynamics influence the process of phase separation? Here we are interested in finding chemical reactions that can arrest the growth of condensates, generating stable spatial patterns of finite size (microphase separation), in contrast with the otherwise spontaneous (unstable) growth of condensates. We consider a classical continuum model for phase separation coupled to a chemical reaction network (CRN), and we seek conditions for the emergence of stable oscillations of the solution in space. Given reaction dynamics with uncertain rate constants, but known structure, we derive easily computable conditions to assess whether microphase separation is impossible, possible for some parameter values, or robustly guaranteed for all parameter values within given bounds. Our results establish a framework to evaluate which classes of CRNs favor the emergence of condensates with finite size, a question that is broadly relevant to understanding and engineering life.",
+  "authors": [
+    "Franco Blanchini",
+    "Elisa Franco",
+    "Giulia Giordano",
+    "Dino Osmanovic"
+  ],
+  "published_date": "2023-03-21T10:27:01Z",
+  "updated_date": "2023-03-21T10:27:01Z",
+  "journal": "IEEE Control Systems Letters, vol. 7, pp. 2281-2286, 2023",
+  "category": "cond-mat.soft, nlin.AO, nlin.PS, q-bio.MN",
+  "landing_url": "https://arxiv.org/abs/2303.11723v1",
+  "pdf_url": "https://arxiv.org/pdf/2303.11723v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft",
+    "nlin.AO",
+    "nlin.PS",
+    "q-bio.MN"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2303.11723v1",
+    "raw_categories": [
+      "cond-mat.soft",
+      "nlin.AO",
+      "nlin.PS",
+      "q-bio.MN"
+    ],
+    "journal_ref": "IEEE Control Systems Letters, vol. 7, pp. 2281-2286, 2023"
+  }
+}

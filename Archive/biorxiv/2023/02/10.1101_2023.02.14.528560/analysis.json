@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.14.528560",
+  "title": "A Systematic Benchmark of Machine Learning Methods for Protein-RNA Interaction Prediction",
+  "authors": "Marc Horlacher; Giulia Cantini; Julian Hesse; Patrick Schinke; Nicolas Goedert; Shubhankar Londhe; Lambert Moyon; Annalisa Marsico",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-15",
+  "window": {
+    "start": "2023-02-13",
+    "end": "2023-02-19"
+  },
+  "score": 3,
+  "one_liner_zh": "该文系统基准测试机器学习方法预测蛋白-RNA互作，对象为RNA结合蛋白而非无序蛋白/IDR，且聚焦结合位点预测而非互作机制建模，与课题关联较弱。",
+  "abstract": "A bstract RNA-binding proteins (RBPs) are central actors of RNA post-transcriptional regulation. Experiments to profile binding sites of RBPs in vivo are limited to transcripts expressed in the experimental cell type, creating the need for computational methods to infer missing binding information. While numerous machine-learning based methods have been developed for this task, their use of heterogeneous training and evaluation datasets across different sets of RBPs and CLIP-seq protocols makes a direct comparison of their performance difficult. Here, we compile a set of 37 machine learning (primarily deep learning) methods for in vivo RBP-RNA interaction prediction and systematically benchmark a subset of 11 representative methods across hundreds of CLIP-seq datasets and RBPs. Using homogenized sample pre-processing and two negative-class sample generation strategies, we evaluate methods in terms of predictive performance and assess the impact of neural network architectures and input modalities on model performance. We believe that this study will not only enable researchers to choose the optimal prediction method for their tasks at hand, but also aid method developers in developing novel, high-performing methods by introducing a standardized framework for their evaluation.",
+  "abstract_zh": "摘要 RNA结合蛋白（RNA-binding proteins, RBPs）是RNA转录后调控的核心参与者。体内 profiling RBP结合位点的实验仅限于实验细胞类型中表达的转录本，因此需要计算方法来推断缺失的结合信息。尽管已有众多基于机器学习的方法被开发用于此任务，但它们在不同RBP集合和CLIP-seq协议上使用异质的训练和评估数据集，使得直接比较其性能变得困难。在此，我们汇编了37种用于体内RBP-RNA相互作用预测的机器学习（主要为深度学习）方法，并系统性地对其中11种代表性方法在数百个CLIP-seq数据集和RBP上进行了基准测试。通过均质化的样本预处理和两种负类样本生成策略，我们评估了方法的预测性能，并考察了神经网络架构和输入模态对模型性能的影响。我们相信，这项研究不仅能使研究人员为其当前任务选择最优预测方法，还能通过引入标准化的评估框架，帮助方法开发者开发新颖且高性能的方法。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.14.528560",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.14.528560",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.14.528560/index.html"
+}

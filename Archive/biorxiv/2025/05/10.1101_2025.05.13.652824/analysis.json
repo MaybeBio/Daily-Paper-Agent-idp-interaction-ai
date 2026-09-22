@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.13.652824",
+  "title": "RP3Net: a deep learning model for predicting recombinant protein production in <i>Escherichia coli</i>",
+  "authors": "Evgeny Tankhilevich; Sergio Martinez Cuesta; Ian Barrett; Carolina Berg; Lovisa Holmberg Schiavone; Andrew R Leach",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-16",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用深度学习预测大肠杆菌中重组蛋白可溶性表达，对象为折叠蛋白表达而非无序蛋白互作，无PPI机制建模，仅方法上可迁移性有限。",
+  "abstract": "Recombinant protein expression can be a limiting step in the production of protein reagents for drug discovery and other biotechnology applications. We introduce RP3Net (Recombinant Protein Production Prediction Network), an AI model of small-scale heterologous soluble protein expression in Escherichia coli . RP3Net utilizes the most recent protein and genomic foundational models. A curated dataset of internal experimental results from AstraZeneca (AZ) and publicly available data from the Structural Genomics Consortium (SGC) was used for training, validation and testing of RP3Net. Set Transformer Pooling (STP) aggregation and Meta Label Correction (MLC) with large scale purification data enabled RP3Net to improve Area Under Receiver Operator Curve (AUROC) by 0.15, compared to the baseline model. When experimentally validated on an independent, manually selected set of 97 constructs, RP3Net outperformed currently available models, with an AUROC of 0.83, delivering accurate predictions in 77% of the cases, and correctly identifying successfully expressing constructs in 92% of cases.",
+  "abstract_zh": "重组蛋白表达可能是药物发现及其他生物技术应用中蛋白试剂生产的一个限速步骤。我们引入了RP3Net（重组蛋白生产预测网络），这是一个针对大肠杆菌中小规模异源可溶性蛋白表达的AI模型。RP3Net利用了最新的蛋白质和基因组基础模型。一个由阿斯利康（AstraZeneca, AZ）内部实验结果和结构基因组学联盟（Structural Genomics Consortium, SGC）公开数据组成的精选数据集，用于RP3Net的训练、验证和测试。通过集合变换器池化（Set Transformer Pooling, STP）聚合和带有大规模纯化数据的元标签校正（Meta Label Correction, MLC），RP3Net相比基线模型将接收者操作特征曲线下面积（Area Under Receiver Operator Curve, AUROC）提高了0.15。在独立、手动选择的97个构建体的实验验证中，RP3Net优于现有模型，AUROC达到0.83，在77%的情况下提供了准确预测，并在92%的情况下正确识别了成功表达的构建体。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.13.652824",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.13.652824",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.13.652824/index.html"
+}

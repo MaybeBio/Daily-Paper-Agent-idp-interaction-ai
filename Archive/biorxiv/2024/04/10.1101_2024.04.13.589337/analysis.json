@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.13.589337",
+  "title": "Multi-scale Simulations of MUT-16 Scaffold Protein Phase Separation and Client Recognition",
+  "authors": "Gaurav K; Busetto V; Páez-Moscoso DJ; Changiarath A; Hanson SM; Falk S; Ketting RF; Stelzl LS",
+  "journal": "bioRxiv",
+  "published_date": "2024-04-15",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用多尺度模拟（CALVADOS2、Martini3及原子级MD）研究MUT-16无序蛋白的相分离及其对MUT-8客户蛋白的招募机制，结合实验验证关键残基作用，直接契合无序蛋白介导PPI的机制建模主题。",
+  "abstract": "Phase separation of proteins plays a critical role in cellular organisation. How phase separated protein condensates underpin biological function and how condensates achieve specificity remain elusive. We investigated the phase separation of MUT-16, a scaffold protein in Mutator foci , and its role in recruiting the client protein MUT-8, a key component in RNA silencing in C. elegans . We employed a multiscale approach that combined coarse-grained (residue-level CALVADOS2 and near-atomistic Martini3) and atomistic simulations. Simulations across different resolutions provide a consistent perspective on how MUT-16 condensates recruit MUT-8, enabling the fine-tuning of chemical details while balancing the computational cost. Both coarse-grained models (CALVADOS2 and Martini3) predicted the relative phase separation propensities of MUT-16’s disordered regions, which we confirmed through in vitro experiments. Simulations also identified key sequence features and residues driving phase separation while revealing differences in residue interaction propensities between CALVADOS2 and Martini3. Furthermore, Martini3 and 350 µs atomistic simulations on Folding@Home of MUT-8’s N-terminal prion-like domain with MUT-16 M8BR cluster highlighted the importance of cation- π interactions between Tyr residues of MUT-8 and Arg residues of MUT-16 M8BR. Lys residues were observed to be more prone to interact in Martini3. Atomistic simulations revealed that the guanidinium group of Arg also engages in sp 2 - π interactions and hydrogen bonds with the backbone of Tyr, making Arg-Tyr interactions stronger than Lys-Tyr, where these additional favourable contacts are absent. In agreement with our simulations, in vitro co-expression pulldown experiments demonstrated a progressive loss of MUT-8 recruitment following the mutation of Arg in MUT-16 M8BR to Lys or Ala, confirming the critical role of Arg in this interaction. These findings advance our understanding of MUT-16 phase separation and subsequent MUT-8 recruitment, key processes in assembling Mutator foci that drive RNA silencing in C. elegans . <h4>Statement of Significance</h4> In cells proteins phase separate and form condensates. These protein condensates can play important role in bringing molecules together and facilitate biochemical processes. In this work, we used molecular dynamics simulations to understand how MUT-16 phase separates and forms the scaffold of the so-called Mutator focus . Mutator foci produce small RNA which help to regulates genes. As the scaffold of the Mutator focus , MUT-16 recruit multiple proteins which are important for the production of such small RNAs.",
+  "abstract_zh": "蛋白质的相分离在细胞组织中发挥关键作用。相分离的蛋白质凝聚体如何支撑生物功能，以及凝聚体如何实现特异性，仍属未解之谜。我们研究了MUT-16（Mutator foci中的支架蛋白）的相分离及其在招募客户蛋白MUT-8（线虫（C. elegans）RNA沉默中的关键组分）中的作用。我们采用了一种多尺度方法，结合了粗粒化（残基级CALVADOS2和近原子级Martini3）及全原子模拟。不同分辨率的模拟为MUT-16凝聚体如何招募MUT-8提供了一致的视角，使得在平衡计算成本的同时能够精细调整化学细节。两种粗粒化模型（CALVADOS2和Martini3）均预测了MUT-16无序区域的相对相分离倾向，我们通过体外实验对此进行了确认。模拟还识别了驱动相分离的关键序列特征和残基，同时揭示了CALVADOS2与Martini3在残基相互作用倾向上的差异。此外，Martini3和Folding@Home上对MUT-8 N端朊病毒样结构域与MUT-16 M8BR簇的350微秒全原子模拟，强调了MUT-8的Tyr残基与MUT-16 M8BR的Arg残基之间阳离子-π相互作用的重要性。观察到Lys残基在Martini3中更倾向于相互作用。全原子模拟揭示，Arg的胍基还与Tyr的主链发生sp²-π相互作用和氢键结合，使得Arg-Tyr相互作用强于Lys-Tyr，后者缺乏这些额外的有利接触。与我们的模拟一致，体外共表达下拉实验表明，将MUT-16 M8BR中的Arg突变为Lys或Ala后，MUT-8的招募逐渐丧失，证实了Arg在此相互作用中的关键作用。这些发现推进了我们对MUT-16相分离及随后MUT-8招募的理解，这些是组装驱动线虫RNA沉默的Mutator foci的关键过程。\n\n<h4>意义声明</h4> 在细胞中，蛋白质发生相分离并形成凝聚体。这些蛋白质凝聚体在聚集分子和促进生化过程中可发挥重要作用。在本工作中，我们使用分子动力学模拟来理解MUT-16如何相分离并形成所谓的Mutator focus的支架。Mutator foci产生小RNA，有助于调控基因。作为Mutator focus的支架，MUT-16招募多种蛋白质，这些蛋白质对这类小RNA的产生至关重要。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.13.589337",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.13.589337",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.13.589337/index.html"
+}

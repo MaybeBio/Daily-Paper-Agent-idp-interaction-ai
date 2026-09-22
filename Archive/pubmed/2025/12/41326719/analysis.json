@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41326719",
+  "title": "Structural characterization of plum pox virus by cryo-electron microscopy.",
+  "authors": "Bonnet, Diane Marie Valerie Jeanne; Chaves-Sanjuan, Antonio; Contaldo, Nicoletta; De Stradis, Angelo; Caliandro, Rosanna; Minafra, Angelantonio; Geuna, Filippo",
+  "journal": "Archives of virology",
+  "published_date": "2025-12-02",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用冷冻电镜解析李痘病毒丝状衣壳结构，确认衣壳蛋白N端臂为无序结构并介导亚基间互作，虽对象为病毒组装而非典型PPI，但无序区域介导互作的结构机制对IDR-PPI建模有参考价值。",
+  "abstract": "Plum pox virus (PPV), a significant member of the genus Potyvirus, represents a global agricultural challenge, causing significant economic losses and threatening fruit farming due to its easy transmission to most Prunus species. Here, we present the high-resolution structural characterization of PPV using cryo-electron microscopy (cryo-EM). The reconstructed structure at 2.9 A reveals a filamentous virion with a helical assembly formed by the coat protein (CP), which encapsidates a single-stranded RNA (ssRNA) genome. The structure of the CP core shows remarkable conservation with other potyviruses, with an RNA binding site and inter-subunit interactions mediated in part by the N-terminal arm, which is confirmed here to have a disordered structure. Mass spectrometry analysis identified numerous post-translational modifications, mostly phosphorylation, primarily in the flexible N-terminal region. In silico predictions revealed intrinsically disordered regions, which is compatible with the amyloidogenic properties of the CP. These results provide new insights into the architecture and assembly of PPV, offering a basis for future studies and, possibly, antiviral strategies.",
+  "abstract_zh": "李痘病毒（Plum pox virus, PPV）是马铃薯Y病毒属（Potyvirus）中的一个重要成员，对全球农业构成重大挑战，因其易于传播至大多数李属（Prunus）物种，导致显著的经济损失并威胁果树种植。在此，我们利用冷冻电子显微镜（cryo-EM）对PPV进行了高分辨率结构表征。重建的结构在2.9 Å分辨率下揭示了一种丝状病毒粒子，其由外壳蛋白（CP）形成的螺旋组装构成，并包裹着单链RNA（ssRNA）基因组。CP核心的结构与其他马铃薯Y病毒属成员显示出显著保守性，具有RNA结合位点和由N端臂部分介导的亚基间相互作用，此处确认其N端臂为无序结构。质谱分析鉴定出多种翻译后修饰，主要是磷酸化，主要发生在柔性N端区域。计算机模拟预测揭示了内在无序区域，这与CP的淀粉样蛋白生成特性相符。这些结果为PPV的架构和组装提供了新见解，为未来研究及可能的抗病毒策略奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41326719/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41326719/",
+  "paper_page_path": "papers/pubmed/41326719/index.html"
+}

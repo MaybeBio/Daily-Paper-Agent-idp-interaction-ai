@@ -1,0 +1,241 @@
+{
+  "identity": {
+    "pmid": "39947750",
+    "doi": "10.1016/bs.pmbts.2024.10.001",
+    "title": "Molecular crowding and amyloidogenic self-assembly: Emergent perspectives from modern computations."
+  },
+  "content": {
+    "abstract": "In recent decades, the conventional protein folding paradigm has been challenged by intriguing properties of disordered peptide sequences that do not adopt stably folded conformations. Such intrinsically disordered proteins and protein regions (IDPs and IDRs) are poised uniquely in biology due to their propensity for self-aggregation, amyloidogenesis, and correlations with a cluster of debilitating diseases. Complexities underlying their structural and functional manifestations are enhanced in the presence of molecular crowding via non-specific protein-protein and protein-solvent contacts. Enabled by technological advances, physics-based algorithms, and data science, modern computer simulations provide unprecedented insights into the structure, function, dynamics, and thermodynamics of complex macromolecular systems. These characteristics are frequently correlated and manifest into unique observables. This chapter presents an overview of how such methodologies can lend insights and drive investigations into the molecular trifecta of crowding, protein self-aggregation, and amyloidogenesis. It begins with a general overview of disordered proteins in relation to biological function and of a suite of relevant experimental methods. Specific examples are showcased in the biological context. This is followed by a description of the computational approaches that supplant experimental efforts, with an elaboration on enhanced molecular simulation methods. The chapter concludes by alluding to expanded possibilities in disease amelioration.",
+    "keywords": [
+      "Crowding effect",
+      "Intrinsically disordered proteins (IDPs)",
+      "Intrinsically disordered regions (IDRs)",
+      "Molecular crowders",
+      "Protein folding"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Amyloid/chemistry/metabolism",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Folding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chatterjee, Hindol",
+        "Sengupta, Neelanjana"
+      ],
+      "short_names": [
+        "Chatterjee H",
+        "Sengupta N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Kolkata, Mohanpur, India.",
+        "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Kolkata, Mohanpur, India. Electronic address: n.sengupta@iiserkol.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chatterjee, Hindol",
+        "short_name": "Chatterjee H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Kolkata, Mohanpur, India."
+        ]
+      },
+      {
+        "full_name": "Sengupta, Neelanjana",
+        "short_name": "Sengupta N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Indian Institute of Science Education and Research (IISER) Kolkata, Mohanpur, India. Electronic address: n.sengupta@iiserkol.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Progress in molecular biology and translational science"
+    ],
+    "journal_abbrev": [
+      "Prog Mol Biol Transl Sci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/14 00:23",
+    "fetched_at": "2026-09-21 15:40:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39947750",
+      "23912807",
+      "31441158",
+      "30066087",
+      "38275091",
+      "34358545",
+      "38987470",
+      "34390736",
+      "31756456",
+      "35034725",
+      "36310204",
+      "29364151",
+      "32487732",
+      "32323533",
+      "33355572",
+      "34509724",
+      "31613621",
+      "35167081",
+      "28970487",
+      "23723000",
+      "29990433",
+      "26851286",
+      "27004461",
+      "27988422",
+      "28226222",
+      "39285530",
+      "31552948",
+      "31521230",
+      "33810353",
+      "33341693",
+      "32623047",
+      "24532081",
+      "29763584",
+      "32034199",
+      "24027208",
+      "33108190",
+      "26922996",
+      "34845619",
+      "33167839",
+      "34032235",
+      "34626492",
+      "36131545",
+      "32859072",
+      "30979035",
+      "34418423",
+      "36833360",
+      "24278008",
+      "38097100",
+      "40042172",
+      "31415767",
+      "36257361",
+      "38928405",
+      "26742101",
+      "30216674",
+      "36133101",
+      "28448138",
+      "40739343",
+      "30471705",
+      "32253236",
+      "31003202",
+      "33068637",
+      "38297118",
+      "39947751",
+      "29716994",
+      "30865832",
+      "41644540",
+      "31425549",
+      "35882686",
+      "31936201",
+      "41725507",
+      "30527137",
+      "33567297",
+      "31894361",
+      "31683980",
+      "23189168",
+      "35898309",
+      "34545666",
+      "35139468",
+      "19594884",
+      "25502193",
+      "39499823",
+      "25866611",
+      "41003994",
+      "35204709",
+      "25752799",
+      "33248138",
+      "35098694",
+      "24317797",
+      "34929201",
+      "38079339",
+      "41082321",
+      "26073257",
+      "32007275",
+      "41169547",
+      "29735687",
+      "40823744",
+      "35436286",
+      "27387657",
+      "39740355",
+      "34527192"
+    ],
+    "review": [
+      "39947750",
+      "31441158",
+      "30066087",
+      "34358545",
+      "34390736",
+      "29364151",
+      "33355572",
+      "26851286",
+      "27004461",
+      "27988422",
+      "28226222",
+      "31521230",
+      "24532081",
+      "32034199",
+      "24027208",
+      "26922996",
+      "33167839",
+      "30979035",
+      "34418423",
+      "36833360",
+      "38097100",
+      "36257361",
+      "30216674",
+      "36133101",
+      "30471705",
+      "32253236",
+      "31003202",
+      "39947751",
+      "35882686",
+      "41725507",
+      "30527137",
+      "33567297",
+      "34545666",
+      "35139468",
+      "25502193",
+      "41003994",
+      "35204709",
+      "25752799",
+      "33248138",
+      "35098694",
+      "26073257"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1877-1173(24)00195-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

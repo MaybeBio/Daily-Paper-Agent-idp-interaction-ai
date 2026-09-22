@@ -1,0 +1,484 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2025.11.21.25340742",
+  "title": "Integrating Protein-protein Interaction Networks and Machine Learning to Identify Biomarkers of Cancer Onset",
+  "doi": "10.1101/2025.11.21.25340742",
+  "abstract": "Recent large-scale plasma proteomic studies have identified a set of biomarkers for the diagnosis of early cancer onset, but the predictive performance is still a challenging problem. Most existing studies have treated proteins as independent markers, ignoring their functional interdependencies within the biological network. We consider that protein–protein interaction (PPI) networks can capture coordinated biological signals to enhance the predictive performance. We identified 1,605 high-confidence PPI pairs of proteins (corresponding to 1,155 unique proteins) from the STRING database (confidence scores>0.9). The plasma proteomic data of these pairs were extracted from a subset of 38,585 UK Biobank participants with Olink measurements (noted as UKB-PPP). The univariate Cox regression (p<0.05) integrated with elastic-net machine learning models was used to build PPI predictive model on 23 cancer types, which seven cancer types with robust PPI associated with were included in the final predictive model. In general, models included proteomics features outperformed those based on age, sex, and lifestyles. Incorporating PPI-derived interaction features further improved prediction performance in three of the seven cancer models, with melanoma showing a significant improvement compared to the base model in C-index (ΔC-index = 0.13). In summary, integrating PPI networks with proteomic models could provide predictive gains in specific cancer types and underscore the value of molecular interaction patterns as complementary biomarkers for cancer onset.",
+  "authors": [
+    "Hongyue Chen",
+    "Min Ma",
+    "Haoyu Liu",
+    "Qian Yang",
+    "Jiqiu Wang",
+    "Jie Zheng"
+  ],
+  "published_date": "2025-11-22",
+  "updated_date": "2025-11-22T18:40:18Z",
+  "journal": "medRxiv",
+  "category": "Oncology",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2025.11.21.25340742",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2025.11.21.25340742.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Oncology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Oncology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "medRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T14:04:13Z",
+        "timestamp": 1768572253981,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            22
+          ]
+        ]
+      },
+      "group-title": "Oncology",
+      "reference-count": 30,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                22
+              ]
+            ],
+            "date-time": "2025-11-22T00:00:00Z",
+            "timestamp": 1763769600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            22
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Recent large-scale plasma proteomic studies have identified a set of biomarkers for the diagnosis of early cancer onset, but the predictive performance is still a challenging problem. Most existing studies have treated proteins as independent markers, ignoring their functional interdependencies within the biological network. We consider that protein–protein interaction (PPI) networks can capture coordinated biological signals to enhance the predictive performance. We identified 1,605 high-confidence PPI pairs of proteins (corresponding to 1,155 unique proteins) from the STRING database (confidence scores&gt;0.9). The plasma proteomic data of these pairs were extracted from a subset of 38,585 UK Biobank participants with Olink measurements (noted as UKB-PPP). The univariate Cox regression (p&lt;0.05) integrated with elastic-net machine learning models was used to build PPI predictive model on 23 cancer types, which seven cancer types with robust PPI associated with were included in the final predictive model. In general, models included proteomics features outperformed those based on age, sex, and lifestyles. Incorporating PPI-derived interaction features further improved prediction performance in three of the seven cancer models, with melanoma showing a significant improvement compared to the base model in C-index (ΔC-index = 0.13). In summary, integrating PPI networks with proteomic models could provide predictive gains in specific cancer types and underscore the value of molecular interaction patterns as complementary biomarkers for cancer onset.</jats:p>",
+      "DOI": "10.1101/2025.11.21.25340742",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            22
+          ]
+        ],
+        "date-time": "2025-11-22T18:40:18Z",
+        "timestamp": 1763836818000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Integrating Protein-protein Interaction Networks and Machine Learning to Identify Biomarkers of Cancer Onset"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0008-2565-4074",
+          "authenticated-orcid": false,
+          "given": "Hongyue",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Min",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Haoyu",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Qian",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9383-7656",
+          "authenticated-orcid": false,
+          "given": "Jiqiu",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6623-6839",
+          "authenticated-orcid": false,
+          "given": "Jie",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3322/CAAC.21834"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aay9040"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Barker AD , Alba MM , Mallick P , Agus DB , Lee JSH . An Inflection Point in Cancer Protein Biomarkers: What was and What’s Next. Molecular & Cellular Proteomics. 2023;22(7).",
+          "DOI": "10.1016/j.mcpro.2023.100569"
+        },
+        {
+          "issue": "1",
+          "key": "2025112500450821000_2025.11.21.25340742v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "37",
+          "DOI": "10.1517/17530059.2012.718329",
+          "article-title": "Challenges in biomarker discovery: combining expert insights with statistical analysis of complex omics data",
+          "volume": "7",
+          "year": "2013",
+          "journal-title": "Expert Opinion on Medical Diagnostics"
+        },
+        {
+          "issue": "1",
+          "key": "2025112500450821000_2025.11.21.25340742v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "e7",
+          "DOI": "10.1186/2001-1326-3-7",
+          "article-title": "Clinical proteomic biomarkers: relevant issues on study design & technical considerations in biomarker development",
+          "volume": "3",
+          "year": "2014",
+          "journal-title": "Clinical and Translational Medicine"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "1011659",
+          "DOI": "10.3389/fgene.2022.1011659",
+          "article-title": "Identification of protein-protein interaction associated functions based on gene ontology and KEGG pathway",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Front Genet"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "276",
+          "DOI": "10.1186/1471-2105-9-276",
+          "article-title": "Discovering functional interaction patterns in protein-protein interaction networks",
+          "volume": "9",
+          "year": "2008",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2017.05.003"
+        },
+        {
+          "issue": "2-3",
+          "key": "2025112500450821000_2025.11.21.25340742v1.9",
+          "first-page": "146",
+          "article-title": "The centrality of cancer proteins in human protein-protein interaction network: a revisit",
+          "volume": "7",
+          "year": "2014",
+          "journal-title": "Int J Comput Biol Drug Des"
+        },
+        {
+          "issue": "2",
+          "key": "2025112500450821000_2025.11.21.25340742v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "278",
+          "DOI": "10.7150/jca.17302",
+          "article-title": "Network Biomarkers Constructed from Gene Expression and Protein-Protein Interaction Data for Accurate Prediction of Leukemia",
+          "volume": "8",
+          "year": "2017",
+          "journal-title": "J Cancer"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2918"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1755-8794-8-S2-S9"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae1113"
+        },
+        {
+          "issue": "2",
+          "key": "2025112500450821000_2025.11.21.25340742v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "179",
+          "DOI": "10.1093/jnci/djab139",
+          "article-title": "Behavioral Research in Cancer Prevention and Control: Emerging Challenges and Opportunities",
+          "volume": "114",
+          "year": "2022",
+          "journal-title": "J Natl Cancer Inst"
+        },
+        {
+          "issue": "1",
+          "key": "2025112500450821000_2025.11.21.25340742v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "9993",
+          "DOI": "10.1038/s41467-024-54444-2",
+          "article-title": "An umbrella review of socioeconomic status and cancer",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/bmjonc-2023-000073"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pfisterer K , Shaw LE , Symmank D , Weninger W . The Extracellular Matrix in Skin Inflammation and Infection. Front Cell Dev Biol. 2021;9:682414.",
+          "DOI": "10.3389/fcell.2021.682414"
+        },
+        {
+          "issue": "1",
+          "key": "2025112500450821000_2025.11.21.25340742v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "122",
+          "DOI": "10.1159/000526478",
+          "article-title": "Swiss Recommendations for Cutaneous Basal Cell Carcinoma",
+          "volume": "239",
+          "year": "2023",
+          "journal-title": "Dermatology"
+        },
+        {
+          "issue": "4",
+          "key": "2025112500450821000_2025.11.21.25340742v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "188754",
+          "DOI": "10.1016/j.bbcan.2022.188754",
+          "article-title": "Targeting EGFR in melanoma -The sea of possibilities to overcome drug resistance",
+          "volume": "1877",
+          "year": "2022",
+          "journal-title": "Biochim Biophys Acta Rev Cancer"
+        },
+        {
+          "issue": "4",
+          "key": "2025112500450821000_2025.11.21.25340742v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "520",
+          "DOI": "10.1111/j.1440-1746.2009.05813.x",
+          "article-title": "Role and significance of focal adhesion proteins in hepatocellular carcinoma",
+          "volume": "24",
+          "year": "2009",
+          "journal-title": "J Gastroenterol Hepatol"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tlsty TD . Genetic and epigenetic changes in early carcinogenesis. Breast Cancer Research. 2005;7(2):S.14.",
+          "DOI": "10.1186/bcr1057"
+        },
+        {
+          "issue": "1",
+          "key": "2025112500450821000_2025.11.21.25340742v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "44",
+          "DOI": "10.1186/s12014-022-09381-x",
+          "article-title": "Quantitative proteomics identified circulating biomarkers in lung adenocarcinoma diagnosis",
+          "volume": "19",
+          "year": "2022",
+          "journal-title": "Clinical Proteomics"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pavlou M , Ambler G , Seaman SR , Guttmann O , Elliott P , King M , et al. How to develop a more accurate risk prediction model when there are few events. BMJ. 2015;351:h3868.",
+          "DOI": "10.1136/bmj.h3868"
+        },
+        {
+          "issue": "1",
+          "key": "2025112500450821000_2025.11.21.25340742v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "303",
+          "DOI": "10.1186/s12859-022-04848-y",
+          "article-title": "A novel biomarker selection method combining graph neural network and gene relationships applied to microarray data",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586023-06592-6"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13073-023-01227-x"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41591-024-03142-z"
+        },
+        {
+          "issue": "7",
+          "key": "2025112500450821000_2025.11.21.25340742v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "939",
+          "DOI": "10.1038/s43587-024-00655-7",
+          "article-title": "Blood protein assessment of leading incident diseases and mortality in the UK Biobank",
+          "volume": "4",
+          "year": "2024",
+          "journal-title": "Nat Aging"
+        },
+        {
+          "issue": "1",
+          "key": "2025112500450821000_2025.11.21.25340742v1.29",
+          "first-page": "127",
+          "article-title": "Introducing LASSO-type penalisation to generalised joint regression modelling for count data",
+          "volume": "107",
+          "year": "2023",
+          "journal-title": "AStA Advances in Statistical Analysis"
+        },
+        {
+          "key": "2025112500450821000_2025.11.21.25340742v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Malakouti SM , Menhaj MB , Suratgar AA . The usage of 10-fold cross-validation and grid search to enhance ML methods performance in solar farm power generation prediction. Cleaner Engineering and Technology. 2023;15:100664.",
+          "DOI": "10.1016/j.clet.2023.100664"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.11.21.25340742",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:51:53Z",
+        "timestamp": 1768510313000
+      },
+      "score": 60.923054,
+      "resource": {
+        "primary": {
+          "URL": "http://medrxiv.org/lookup/doi/10.1101/2025.11.21.25340742"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            22
+          ]
+        ]
+      },
+      "references-count": 30,
+      "URL": "https://doi.org/10.1101/2025.11.21.25340742",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            22
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

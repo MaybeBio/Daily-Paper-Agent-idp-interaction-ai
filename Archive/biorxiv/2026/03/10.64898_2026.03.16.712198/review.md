@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, tables, or supplementary materials were provided for evaluation
+- **Shared manuscript claim summary** The authors report the use of HDAC1/2-based affinity purification, crosslinking mass spectrometry (XL-MS), and integrative modeling to generate structural models of the NuRD, SIN3A, and CoREST complexes. They further describe an AlphaFold-enabled XL-MS constrained modeling approach to investigate HDAC1 assembly, report that the HDAC1 C-terminal intrinsically disordered region (CTD IDR) folds into alpha helices within these complexes, and present a complete integrative structural model of a NuRD subcomplex containing HDAC1, MBD3, MTA1, GATAD2B, and RBBP4, including six IDRs.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, validation statistics, crosslinking data, model quality metrics, and any supporting information; without these, the central claims cannot be independently assessed
+
+## Reviewer
+- **Overall assessment** The abstract describes a technically ambitious and potentially valuable application of integrative structural biology to a biologically important family of chromatin remodeling complexes. The combination of XL-MS with AlphaFold-based modeling and the explicit focus on IDR conformation is timely and of broad interest. However, the abstract alone provides insufficient detail to evaluate the rigor of the modeling, the quality of the crosslinking data, or the validity of the claim that the HDAC1 CTD IDR folds into alpha helices. The central conclusions are plausible but currently not established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists studying macromolecular complexes, particularly those using integrative approaches; chromatin and epigenetics researchers interested in HDAC-containing complexes such as NuRD, SIN3, and CoREST; computational biologists developing or applying AlphaFold-based modeling with experimental restraints; and researchers studying intrinsically disordered regions and their conformational behavior in functional contexts.
+- **Major strengths** The work addresses a significant gap in understanding how HDAC1/2 assemble into multiple chromatin remodeling complexes and how their CTD IDRs behave structurally. The methodological combination of XL-MS with AlphaFold-enabled modeling is innovative and potentially generalizable. The inclusion of multiple IDRs in a complete subcomplex model represents an ambitious and noteworthy goal. The stated broad applicability of the approach enhances its potential impact.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that the CTD IDR of HDAC1 folds into alpha helices in the NuRD, SIN3A, and CoREST complexes  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states that the HDAC1 CTD IDR folds into alpha helices, but no supporting evidence is presented. It is unclear whether this conclusion is based on crosslink-derived distance restraints, AlphaFold predictions, or a combination, and whether the helical conformation is consistently observed across all three complexes or only in a subset.  
+  - **Why it matters** IDRs are by definition conformationally heterogeneous, and a claim of induced folding into a specific secondary structure is a strong statement that requires robust experimental validation. If the evidence is primarily computational, the claim may be overstated; if experimental, the resolution and confidence of the assignment must be demonstrated.  
+  - **Resolution test** Provide the crosslinking data supporting the helical assignment, including the number and distribution of restraints within the CTD IDR, and show model validation metrics such as crosslink satisfaction rates, model precision, and comparison to control or alternative conformations.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The construction of a complete integrative structural model of a NuRD subcomplex including six IDRs  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract claims a complete integrative structural model of a NuRD subcomplex with six IDRs, but no details are given on how the IDRs were modeled, what experimental data constrained them, or how model uncertainty was assessed. Integrative modeling of IDRs is particularly challenging because of their flexibility and lack of stable tertiary structure.  
+  - **Why it matters** A "complete" model that includes IDRs must be accompanied by an explicit statement of the resolution, precision, and confidence of those regions. Without such information, readers cannot judge whether the IDR portions of the model are meaningful or essentially speculative.  
+  - **Resolution test** Provide model precision estimates for the IDR regions, the number of crosslinks mapping to each IDR, and a clear description of how the IDRs were represented and validated in the integrative modeling pipeline.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and data availability  
+  - **Claim pointer** The use of XL-MS coupled with the Integrative Modeling Platform to build structural models of NuRD, SIN3A, and CoREST  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe the quality or depth of the XL-MS data, the number of crosslinks obtained, the false discovery rate, or how the data were filtered and used in modeling. Without these details, the reliability of the resulting models cannot be assessed.  
+  - **Why it matters** XL-MS data quality directly determines the reliability of integrative models. Insufficient or low-confidence crosslinks can lead to incorrect subunit arrangements or overinterpreted domain orientations.  
+  - **Resolution test** Report the number of unique crosslinks per complex, the FDR threshold used, and the fraction of crosslinks satisfied in the final models.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance and novelty  
+  - **Claim pointer** The statement that the approaches used herein are broadly applicable for the study of protein complexes and protein interaction networks  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** While the general approach is indeed promising, the abstract does not demonstrate that the method outperforms or substantially extends existing integrative modeling strategies. The novelty relative to prior AlphaFold-XL-MS hybrid approaches is not articulated.  
+  - **Why it matters** For a broad-impact claim, the authors must show that their pipeline offers a meaningful advance over existing methods, not merely a reapplication.  
+  - **Resolution test** Include a comparison to existing integrative modeling approaches or a clear statement of the methodological innovation and its demonstrated advantage.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, Summary section  
+  - **Issue** The phrase "AlphaFold-enabled XL-MS constrained modeling approach" is ambiguous regarding whether AlphaFold predictions were used as inputs, as scoring functions, or as priors in the modeling.  
+  - **Required correction** Clarify the specific role of AlphaFold in the modeling pipeline.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract, Summary section  
+  - **Issue** The abstract mentions models of NuRD, SIN3A, and CoREST but only describes a complete model for a NuRD subcomplex. It is unclear whether complete models were also built for SIN3A and CoREST or whether these were partial.  
+  - **Required correction** State explicitly which complexes were modeled to completion and which were modeled partially.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Validation  
+  - **Affected element** Model validation statement  
+  - **Evidence pointer** Abstract, Summary section  
+  - **Issue** No mention is made of any independent validation of the models, such as comparison to known structures, mutational analysis, or orthogonal biophysical methods.  
+  - **Required correction** Add a sentence describing any validation performed or state that validation is not yet available.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central structural claims regarding IDR folding and the completeness of the NuRD subcomplex model cannot be evaluated from the abstract alone. R1-M3 is also critical because the quality of the XL-MS data underpins all models. Without these details, the case for the paper's central conclusions is not established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of XL-MS with AlphaFold-enabled modeling for IDR-containing complexes is potentially original, but the abstract does not clearly distinguish it from prior hybrid approaches.  
+  - **Scientific importance** The biological question is important, and a reliable structural model of HDAC1-containing complexes would be of significant value.  
+  - **Interdisciplinary readership** The topic bridges structural biology, chromatin biology, and computational modeling, which would appeal to a broad audience.  
+  - **Technical soundness** Cannot be assessed from the abstract; the absence of any methodological detail or validation metrics is a major limitation.  
+  - **Readability for nonspecialists** The abstract is concise and generally accessible, though terms such as "integrative modeling" and "crosslinking mass spectrometry" are used without brief explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The work is promising and potentially impactful, but the abstract alone does not provide sufficient detail to support the central claims. A full manuscript with methods, data, and validation would be required to assess whether the conclusions are justified.
+
+## Risk / unsupported claims
+- The claim that the HDAC1 CTD IDR folds into alpha helices in NuRD, SIN3A, and CoREST is unsupported by the supplied material.
+- The claim of a "complete" integrative structural model of a NuRD subcomplex including six IDRs is unsupported without model precision and validation data.
+- The claim that the approaches are "broadly applicable" is plausible but not demonstrated.
+- The overall reliability of the NuRD, SIN3A, and CoREST models cannot be assessed without XL-MS data quality metrics.

@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "37082267",
+    "doi": "10.1016/j.bbadva.2022.100068",
+    "title": "Biophysical analysis of Gaussia luciferase bioluminescence mechanisms using a non-oxidizable coelenterazine."
+  },
+  "content": {
+    "abstract": "Gaussia luciferase (GLuc 18.2kDa; 168 residues) is a marine copepod luciferase that emits a bright blue light when oxidizing coelenterazine (CTZ). It is a helical protein where two homologous sequential repeats form two anti-parallel bundles, each made of four helices. We previously identified a hydrophobic cavity as a prime candidate for the catalytic site, but GLuc's fast bioluminescence reaction hampered a detailed analysis. Here, we used azacoelenterazine (Aza-CTZ), a non-oxidizable coelenterazine (CTZ) analog, as a probe to investigate its binding mode to GLuc. While analysing GLuc's activity, we unexpectedly found that salt and monovalent anions are absolutely required for Gluc's bioluminescence, which retrospectively appears reasonable for a sea-dwelling organism. The NMR-based investigation, using chemical shift perturbations monitored by (15)N-(1)H HSQC, suggested that Aza-CTZ (and thus unoxidized CTZ) binds to residues in or near the hydrophobic cavity. These NMR data are in line with a recent structural prediction of GLuc, hypothesizing that large structural changes occur in regions remote from the hydrophobic cavity upon the addition of CTZ. Interestingly, these results point toward a unique mode of catalysis to achieve CTZ oxidative decarboxylation.",
+    "keywords": [
+      "Azacoelenterazine",
+      "Chemical shifts",
+      "Coelenterazine",
+      "Intrinsically disordered region (IDR)",
+      "NMR",
+      "SEP-tag, hydrophobic cavity",
+      "Salt concentration"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Takatsu, Kyoko",
+        "Kobayashi, Naohiro",
+        "Wu, Nan",
+        "Janin, Yves L",
+        "Yamazaki, Toshio",
+        "Kuroda, Yutaka"
+      ],
+      "short_names": [
+        "Takatsu K",
+        "Kobayashi N",
+        "Wu N",
+        "Janin YL",
+        "Yamazaki T",
+        "Kuroda Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology and Life Science, Graduate School of Engineering, Tokyo University of Agriculture and Technology, 2-24-16 Nakamachi, Koganei-shi, Tokyo 184-8588, Japan.",
+        "RIKEN Center for Biosystems Dynamics Research, RIKEN, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama City, Kanagawa 230-0045, Japan.",
+        "Department of Biotechnology and Life Science, Graduate School of Engineering, Tokyo University of Agriculture and Technology, 2-24-16 Nakamachi, Koganei-shi, Tokyo 184-8588, Japan.",
+        "Structure et Instabilite des Genomes (StrInG), Museum National d'Histoire Naturelle, INSERM, CNRS, Alliance Sorbonne Universite, 75005 Paris, France, Universite Paris Cite.",
+        "RIKEN Center for Biosystems Dynamics Research, RIKEN, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama City, Kanagawa 230-0045, Japan.",
+        "Department of Biotechnology and Life Science, Graduate School of Engineering, Tokyo University of Agriculture and Technology, 2-24-16 Nakamachi, Koganei-shi, Tokyo 184-8588, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Takatsu, Kyoko",
+        "short_name": "Takatsu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Life Science, Graduate School of Engineering, Tokyo University of Agriculture and Technology, 2-24-16 Nakamachi, Koganei-shi, Tokyo 184-8588, Japan."
+        ]
+      },
+      {
+        "full_name": "Kobayashi, Naohiro",
+        "short_name": "Kobayashi N",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, RIKEN, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama City, Kanagawa 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Wu, Nan",
+        "short_name": "Wu N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Life Science, Graduate School of Engineering, Tokyo University of Agriculture and Technology, 2-24-16 Nakamachi, Koganei-shi, Tokyo 184-8588, Japan."
+        ]
+      },
+      {
+        "full_name": "Janin, Yves L",
+        "short_name": "Janin YL",
+        "identifiers": [],
+        "affiliations": [
+          "Structure et Instabilité des Génomes (StrInG), Muséum National d'Histoire Naturelle, INSERM, CNRS, Alliance Sorbonne Université, 75005 Paris, France, Université Paris Cité."
+        ]
+      },
+      {
+        "full_name": "Yamazaki, Toshio",
+        "short_name": "Yamazaki T",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, RIKEN, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama City, Kanagawa 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Kuroda, Yutaka",
+        "short_name": "Kuroda Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Life Science, Graduate School of Engineering, Tokyo University of Agriculture and Technology, 2-24-16 Nakamachi, Koganei-shi, Tokyo 184-8588, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BBA advances"
+    ],
+    "journal_abbrev": [
+      "BBA Adv"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/21 06:41",
+    "fetched_at": "2026-09-20 21:22:22"
+  },
+  "links": {
+    "cites": [
+      "39836695",
+      "39056749",
+      "39023083",
+      "38980514",
+      "38399119",
+      "37257257",
+      "36712039",
+      "36659992"
+    ],
+    "refs": [
+      "34559429",
+      "33426745",
+      "33208800",
+      "30882838",
+      "28955778",
+      "28613068",
+      "28374789",
+      "26694096",
+      "26094784",
+      "23886588",
+      "22768230",
+      "22319154",
+      "21951281",
+      "21945374",
+      "20452471",
+      "20448176",
+      "18725274",
+      "17981153",
+      "16588763",
+      "14583604",
+      "13211658",
+      "12123671",
+      "5650377",
+      "1252422"
+    ],
+    "similar": [
+      "37082267",
+      "36659992",
+      "33208800",
+      "26025768",
+      "39393312",
+      "39274876",
+      "20452471",
+      "34802167",
+      "34050467",
+      "39023083",
+      "39146513",
+      "34050466",
+      "21329797",
+      "29754049",
+      "34864391",
+      "36129943",
+      "31544973",
+      "35821461",
+      "29767512",
+      "26694096",
+      "27424892",
+      "31131059",
+      "17981153",
+      "36732398",
+      "23792095",
+      "29696739",
+      "35821460",
+      "30957352",
+      "36674934",
+      "39362505",
+      "33500496",
+      "12755603",
+      "32416626",
+      "37240867",
+      "12236345",
+      "28424463",
+      "20641352",
+      "36361837",
+      "31048084",
+      "27009907",
+      "36379962",
+      "19825431",
+      "21945374",
+      "36361784",
+      "35821464",
+      "36614119",
+      "31263065",
+      "24138575",
+      "23886588",
+      "27973743",
+      "36261452",
+      "31840840",
+      "34517211",
+      "21951281",
+      "20527045",
+      "18359861",
+      "33426745",
+      "34050468",
+      "20711766",
+      "23425213",
+      "22362656",
+      "21496450",
+      "23274053",
+      "23778500",
+      "36768474",
+      "30233994",
+      "25407088",
+      "14755051",
+      "35901502",
+      "38948888",
+      "34050477",
+      "21521553",
+      "19852937",
+      "19833098",
+      "38399119",
+      "36834523",
+      "33140803",
+      "21115114",
+      "30969754",
+      "32114101",
+      "18655070",
+      "18294462",
+      "25024930",
+      "26194904",
+      "31765054",
+      "15727940",
+      "26746005",
+      "15515099",
+      "30585639",
+      "28771790",
+      "27117544",
+      "29577367",
+      "20174626",
+      "33851009",
+      "37425742",
+      "27748947",
+      "26625180",
+      "24802399",
+      "18264586"
+    ],
+    "review": [
+      "37082267",
+      "36659992",
+      "26025768",
+      "27009907",
+      "30585639"
+    ],
+    "pmc": [
+      "10074842"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667-1603(22)00028-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37082267/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37082267",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.01.17.633518",
+  "title": "The C terminus of infectious bursal disease virus (IBDV) VP3 encodes a predicted intrinsically disordered region (IDR), which promotes the formation of cytoplasmic puncta and modulates their physical properties",
+  "authors": "Brodrick A; Broadbent AJ",
+  "journal": "bioRxiv",
+  "published_date": "2025-01-18",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合AlphaFold预测与分子动力学模拟，表征IBDV VP3 C端IDR在病毒工厂LLPS凝聚体形成及物理性质调控中的作用，直接聚焦IDR介导的相分离机制建模，与本课题高度契合。",
+  "abstract": "The virus factories (VFs) of infectious bursal disease virus (IBDV) form through liquid-liquid phase separation (LLPS). A major component of the IBDV VF is the nonstructural protein VP3. Here, we predicted the full-length structure of the VP3 monomer and homodimer and employed molecular dynamics simulations to characterize their behavior. We identified the 36 amino acid carboxy(C)-terminus as a highly dynamic intrinsically disordered region (IDR). We then compared the cytoplasmic puncta that were made in the presence of the wild type (wt) VP3 with those made with a VP3 that lacked the C-terminus (VP3ΔC). Using live-cell imaging with fluorescent reporter tagged proteins, we found that VP3ΔC puncta were significantly less numerous (p<0.0001), smaller (p<0.0001), and more irregular in shape than puncta formed in the presence of wt VP3, demonstrating that the VP3 C terminal IDR promoted their formation. Moreover, by fluorescence recovery after photobleaching (FRAP), the VP3ΔC puncta had a significantly reduced mobile fraction (0.29) as compared to full-length VP3 puncta (0.70) (p<0.001), demonstrating that the VP3 C terminal IDR modulated their physical properties. However, the VP3ΔC puncta still exhibited liquid-like fusion events in the cytoplasm and were sensitive to treatment with aliphatic diols. Moreover, VP3 did not form puncta when expressed alone, and the removal of the C terminus did not abolish puncta formation completely. We propose that VP3 forms part of a higher order complex with other biomolecules to drive LLPS, and that the VP3 C terminal IDR modulates the physical properties of the resultant LLPS structures. <h4>Importance</h4> LLPS is a phenomenon of growing interest in cell biology. It is a part of the replication cycles of diverse viruses, but our understanding of the molecular basis that underpins the mechanism of phase separation is incomplete. We previously demonstrated that the birnavirus IBDV, a major agricultural pathogen, exploits LLPS in the formation of its VFs. Here, we have characterized the C-terminal 36 amino acid region of IBDV VP3 bioinformatically and by molecular dynamics simulations and found that it encodes a highly dynamic intrinsically disordered region (IDR). Furthermore, we found this region to promote the formation of cytoplasmic puncta and modulate their physical properties. This work contributes to a more detailed understanding of birnavirus replication at the molecular level, and to the study of LLPS as a phenomenon.",
+  "abstract_zh": "传染性法氏囊病病毒（IBDV）的病毒工厂（VFs）通过液-液相分离（LLPS）形成。IBDV VF的主要成分是非结构蛋白VP3。在此，我们预测了VP3单体及同源二聚体的全长结构，并采用分子动力学模拟来表征其行为。我们确定了36个氨基酸的羧基（C）末端为一个高度动态的内在无序区域（IDR）。随后，我们比较了存在野生型（wt）VP3时形成的细胞质斑点与缺乏C末端的VP3（VP3ΔC）形成的斑点。利用荧光报告标签蛋白的活细胞成像，我们发现VP3ΔC斑点的数量显著减少（p<0.0001）、尺寸更小（p<0.0001），且形状比wt VP3存在时形成的斑点更不规则，这表明VP3 C末端IDR促进了它们的形成。此外，通过光漂白后荧光恢复（FRAP），VP3ΔC斑点的可移动部分（0.29）相比全长VP3斑点（0.70）显著降低（p<0.001），表明VP3 C末端IDR调节了它们的物理性质。然而，VP3ΔC斑点仍表现出细胞质中的液体样融合事件，并对脂肪族二醇处理敏感。此外，VP3单独表达时不形成斑点，且C末端的去除并未完全消除斑点形成。我们提出，VP3与其他生物分子形成高阶复合物以驱动LLPS，而VP3 C末端IDR调节了所得LLPS结构的物理性质。\n\n<h4>重要性</h4> LLPS是细胞生物学中日益受到关注的现象。它是多种病毒复制周期的一部分，但我们对支撑相分离机制的分子基础的理解尚不完整。我们先前证明，双RNA病毒IBDV，一种重要的农业病原体，利用LLPS形成其VFs。在此，我们通过生物信息学和分子动力学模拟对IBDV VP3的C末端36个氨基酸区域进行了表征，发现它编码一个高度动态的内在无序区域（IDR）。此外，我们发现该区域促进了细胞质斑点的形成并调节了它们的物理性质。这项工作有助于在分子水平上更详细地理解双RNA病毒的复制，并促进对LLPS现象的研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.01.17.633518",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.17.633518",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.01.17.633518/index.html"
+}

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) for the article by Bokor, Hazy, and Tantos, published in ACS Omega (2022), DOI 10.1021/acsomega.2c00477.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and interpretation of results as presented in the supplied text. No assessment of editorial quality, formatting, or literature completeness beyond what is visible.
+- **Shared manuscript claim summary** The authors report wide-line 1H NMR melting diagrams for two familial α-synuclein mutants (A30P and E46K), interpret the thermodynamic parameters of hydration, and combine these with in silico secondary structure predictions to infer relative compactness and secondary structure content across four α-synuclein variants (WT, A30P, E46K, A53T).
+- **Visible evidence base** Abstract; Introduction; Materials and Methods (protein expression, sample preparation, wide-line NMR approach, prediction servers); Results (melting diagrams, differential melting diagrams, hydration parameters, disorder and secondary structure predictions); Discussion; Acknowledgments. Figures and tables are referenced but not provided in the supplied text.
+- **Missing materials affecting confidence** Figures 1–4 and Tables 1–2 are cited but not included. Supporting Information (including the melting diagram methodology reference and representative gel pictures) is not available. Raw NMR data, error analysis details, and prediction server output files are not provided. The prior publication (ref 16) is not accessible for direct comparison.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically specialized application of wide-line 1H NMR to characterize hydration dynamics of two α-synuclein mutants, with a secondary in silico component. The experimental approach is established in the authors' prior work, and the new data extend the mutant series. However, the central interpretive claims, particularly regarding compactness and functional sufficiency of hydration, rest on indirect inference and are not fully supported by the evidence presented. The in silico predictions are descriptive and do not strongly corroborate the NMR-derived conclusions. The manuscript is of interest to a niche community of protein hydration and IDP researchers, but the broader significance for Parkinson's disease mechanisms is not convincingly established.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein hydration dynamics, and the biophysical characterization of α-synuclein variants. The wide-line NMR methodology for assessing hydration layers is a specialized technique, and those working on protein–water interactions or on the physical chemistry of IDPs would find the comparative data across four variants useful. The secondary structure prediction component may interest computational biologists benchmarking prediction tools on disease-related mutants.
+- **Major strengths** The study extends a systematic comparative analysis of α-synuclein variants using a consistent experimental platform. The combination of experimental hydration data with in silico predictions is a reasonable strategy to compensate for the lack of high-resolution structural information. The authors are transparent about the indirect nature of their structural inferences. The manuscript is clearly written and the methodology is described in sufficient detail for replication by specialists.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that E46K α-synuclein is more compact than A30P and that both are more compact than WT and A53T, based on hydration levels and melting diagram shapes.
+  - **Evidence pointer** Results section, Figures 1–2, Tables 1–2 (figures and tables not provided)
+  - **Concern** The compactness claim is inferred solely from hydration water amounts and potential barrier distributions. No direct structural measurement (e.g., SAXS, NMR chemical shift analysis, or hydrodynamic radius) is presented. The relationship between hydration level and protein compactness is assumed rather than demonstrated, and alternative explanations (e.g., differences in surface chemistry, local charge effects, or aggregation state) are not excluded.
+  - **Why it matters** The central conclusion of differential compactness across the four variants is the main scientific message. If the inference chain from hydration to compactness is not validated, the conclusion is unsupported. The claim has implications for understanding mutant behavior, and overinterpretation could mislead subsequent studies.
+  - **Resolution test** Provide direct structural evidence (e.g., SAXS or NMR-derived radii of gyration) for at least one pair of variants to calibrate the hydration-compactness relationship, or explicitly discuss and rule out alternative interpretations of the hydration data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretive validity
+  - **Claim pointer** The authors state that A30P α-synuclein has sufficient hydration for functionality at the lowest potential barriers, while E46K has only one-third as much mobile hydration, "insufficient for functionality."
+  - **Evidence pointer** Abstract; Results section; Discussion section
+  - **Concern** The threshold for "functional" hydration (h = 0.2) is cited from prior literature, but the functional relevance of this threshold for α-synuclein specifically is not established. The claim that E46K is non-functional at low temperatures is a strong physiological statement derived from a biophysical proxy. No functional assay (e.g., membrane binding, aggregation kinetics, or cellular activity) is presented to support this interpretation.
+  - **Why it matters** The manuscript implies a functional deficit for E46K based on hydration measurements. This is a significant claim that goes beyond the biophysical data and could be misinterpreted as evidence of a disease mechanism. Without functional validation, the claim is speculative.
+  - **Resolution test** Either temper the language to describe hydration levels without functional attribution, or include a functional assay (even a simple in vitro binding or aggregation experiment) to support the functional interpretation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors report specific numerical values for hydration parameters (e.g., naa = 0.90(1), h = 0.313(4), potential barriers) and claim these are measured with stated precision.
+  - **Evidence pointer** Results section, Tables 1–2 (not provided)
+  - **Concern** The precision of the reported values (e.g., 0.90(1)) implies a level of certainty that is not justified by the described methodology. The error analysis is not presented, and the number of replicate measurements is not stated. The fitting procedure for the melting diagrams is referenced to prior work but not described here.
+  - **Why it matters** Reproducibility and reliability of the quantitative claims depend on understanding the measurement uncertainty. Without error analysis, the reader cannot assess whether the differences between variants are statistically significant.
+  - **Resolution test** Provide a description of the error analysis, number of replicates, and fitting procedures, or state explicitly that the uncertainties are derived from the fitting routine and justify their magnitude.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Internal consistency
+  - **Claim pointer** The authors state that the secondary structures detected by wide-line NMR are solvent-exposed α-helices, based on the dominance of helices and coils in the prediction results.
+  - **Evidence pointer** Abstract; Results section (in silico analysis); Discussion section
+  - **Concern** The connection between the NMR-detected hydration features and the specific secondary structure type (α-helix vs. β-sheet) is not established. The prediction methods indicate the presence of helices and coils, but the NMR data do not directly report on secondary structure. The authors infer that the "non-negligible amount of secondary structures" detected by NMR corresponds to α-helices, but this is an assumption without direct evidence.
+  - **Why it matters** The manuscript claims a correspondence between two independent measurements (NMR and prediction) that is not methodologically justified. This weakens the integrated interpretation and could mislead readers about the structural content of the mutants.
+  - **Resolution test** Either provide a direct spectroscopic measurement of secondary structure (e.g., circular dichroism or FTIR) to corroborate the prediction, or explicitly state that the assignment of NMR-detected structure to α-helices is a hypothesis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, sentence on E46K hydration
+  - **Issue** The phrase "insufficient for functionality" is ambiguous without a definition of what functionality means in this context.
+  - **Required correction** Define "functionality" or rephrase to describe the hydration level without functional attribution.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods, sample preparation section
+  - **Issue** The description of protein expression and purification is brief and references prior work. The purity assessment is mentioned as "confirmed by SDS-PAGE" but no quantitative detail is given.
+  - **Required correction** Provide a brief statement on the purity level achieved and the method of quantification.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, comparison of measured and predicted structures
+  - **Issue** The statement that "the measured structural states are clearly different from the predicted ones" is presented without a quantitative comparison metric.
+  - **Required correction** Specify the criteria used to judge the difference between measured and predicted states, or present a quantitative comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section
+  - **Evidence pointer** Results, "Direct Observations of Structural States through the Melting Diagrams"
+  - **Issue** The term "structural states" is used to describe hydration features, which may be confused with conformational states of the protein.
+  - **Required correction** Use a more precise term such as "hydration states" or "hydration characteristics."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (compactness inference without direct structural data) and R1-M2 (functional sufficiency claim without functional assay) are the primary technical failings. R1-M3 (error analysis) must be addressed to establish quantitative reliability.
+- **Assessment against Nature-style criteria** Originality: moderate. The application of wide-line NMR to α-synuclein mutants is an extension of the authors' prior work rather than a conceptually new approach. Scientific importance: limited. The findings are descriptive and do not resolve a major open question in the field. Interdisciplinary readership: narrow. The methodology and findings are primarily of interest to biophysicists and IDP specialists. Technical soundness: the NMR methodology is established, but the interpretive chain from hydration to structure and function is not rigorously validated. Readability for nonspecialists: the manuscript is accessible to a technical audience but would be challenging for readers without background in NMR or protein biophysics.
+- **Recommendation posture** Supportive if technical concerns are resolved. The experimental data are likely sound, but the central interpretive claims require either additional evidence or substantial tempering. The manuscript would be acceptable for a specialized journal if the compactness and functionality claims are either directly supported or appropriately qualified.
+
+## Risk / unsupported claims
+- The claim that E46K α-synuclein is more compact than A30P and that both are more compact than WT and A53T is unsupported by direct structural evidence.
+- The claim that E46K α-synuclein has "insufficient" hydration for functionality is unsupported by any functional assay.
+- The assignment of NMR-detected secondary structure to solvent-exposed α-helices is an assumption not directly validated.
+- The quantitative precision of hydration parameters (naa, h, potential barriers) is not assessable without error analysis details.
+- The comparison between measured and predicted structures is stated without a defined quantitative metric.

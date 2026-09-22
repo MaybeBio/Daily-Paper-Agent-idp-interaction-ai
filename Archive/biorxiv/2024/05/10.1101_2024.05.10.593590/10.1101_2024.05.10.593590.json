@@ -1,0 +1,105 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.10.593590",
+  "title": "The RNA-binding selectivity of the RGG/RG motifs of hnRNP U is abolished by elements within the intrinsically disordered region",
+  "doi": "10.1101/2024.05.10.593590",
+  "abstract": "The abundant nuclear protein hnRNP U interacts with a broad array of RNAs along with DNA and protein to regulate nuclear chromatin architecture. The RNA-binding activity is achieved via a disordered ~100 residue C-terminal RNA-binding domain (RBD) containing two distinct RGG/RG motifs. Although the RNA-binding capabilities of RGG/RG motifs have been widely reported, less is known about hnRNP U's RNA-binding selectivity. Furthermore, while it is well established that hnRNP U binds numerous nuclear RNAs, it remains unknown whether it selectively recognizes sequence or structural motifs in target RNAs. To address this question, we performed equilibrium binding assays using fluorescence anisotropy (FA) and electrophoretic mobility shift assays (EMSAs) to quantitatively assess the ability of human hnRNP U RBD to interact with segments of cellular RNAs identified from eCLIP data. These RNAs often, but not exclusively, contain poly-uridine or 5'-AGGGAG sequence motifs. Detailed binding analysis of several target RNAs reveal that the hnRNP U RBD binds RNA in a promiscuous manner with high affinity for a broad range of structured RNAs, but with little preference for any distinct sequence motif. In contrast, the isolated RGG/RG of hnRNP U motif exhibits a strong preference for G-quadruplexes, similar to that observed for other RGG motif bearing peptides. These data reveal that the hnRNP U RBD attenuates the RNA binding selectivity of its core RGG motifs to achieve an extensive RNA interactome. We propose that a critical role of RGG/RG motifs in RNA biology is to alter binding affinity or selectivity of adjacent RNA-binding domains.",
+  "authors": [
+    "Kletzien OA",
+    "Wuttke DS",
+    "Batey RT"
+  ],
+  "published_date": "2024-05-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.10.593590",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.10.593590.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR851661",
+    "raw_record": {
+      "id": "PPR851661",
+      "source": "PPR",
+      "doi": "10.1101/2024.05.10.593590",
+      "title": "The RNA-binding selectivity of the RGG/RG motifs of hnRNP U is abolished by elements within the intrinsically disordered region",
+      "authorString": "Kletzien OA, Wuttke DS, Batey RT.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kletzien OA",
+            "lastName": "Kletzien",
+            "firstName": "Otto",
+            "initials": "OA"
+          },
+          {
+            "fullName": "Wuttke DS",
+            "lastName": "Wuttke",
+            "firstName": "Deborah",
+            "initials": "DS"
+          },
+          {
+            "fullName": "Batey RT",
+            "lastName": "Batey",
+            "firstName": "Robert",
+            "initials": "RT"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The abundant nuclear protein hnRNP U interacts with a broad array of RNAs along with DNA and protein to regulate nuclear chromatin architecture. The RNA-binding activity is achieved via a disordered ~100 residue C-terminal RNA-binding domain (RBD) containing two distinct RGG/RG motifs. Although the RNA-binding capabilities of RGG/RG motifs have been widely reported, less is known about hnRNP U's RNA-binding selectivity. Furthermore, while it is well established that hnRNP U binds numerous nuclear RNAs, it remains unknown whether it selectively recognizes sequence or structural motifs in target RNAs. To address this question, we performed equilibrium binding assays using fluorescence anisotropy (FA) and electrophoretic mobility shift assays (EMSAs) to quantitatively assess the ability of human hnRNP U RBD to interact with segments of cellular RNAs identified from eCLIP data. These RNAs often, but not exclusively, contain poly-uridine or 5'-AGGGAG sequence motifs. Detailed binding analysis of several target RNAs reveal that the hnRNP U RBD binds RNA in a promiscuous manner with high affinity for a broad range of structured RNAs, but with little preference for any distinct sequence motif. In contrast, the isolated RGG/RG of hnRNP U motif exhibits a strong preference for G-quadruplexes, similar to that observed for other RGG motif bearing peptides. These data reveal that the hnRNP U RBD attenuates the RNA binding selectivity of its core RGG motifs to achieve an extensive RNA interactome. We propose that a critical role of RGG/RG motifs in RNA biology is to alter binding affinity or selectivity of adjacent RNA-binding domains.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Unpaywall",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11100817"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.05.10.593590"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-05-14",
+      "firstPublicationDate": "2024-05-11",
+      "firstIndexDate": "2024-05-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

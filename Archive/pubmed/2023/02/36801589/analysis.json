@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36801589",
+  "title": "Comprehensive classification of proteins based on structures that engage lipids by COMPOSEL.",
+  "authors": "Overduin, Michael; Kervin, Troy A; Klarenbach, Zachary; Adra, Trixie Rae C; Bhat, Rakesh K",
+  "journal": "Biophysical chemistry",
+  "published_date": "2023-02-22",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 5,
+  "one_liner_zh": "提出基于脂质互作结构的膜蛋白分类系统COMPOSEL，涵盖MARCKS等IDP示例，但核心是分类框架而非PPI机制建模，AI/物理方法仅作为背景提及。",
+  "abstract": "Structures can now be predicted for any protein using programs like AlphaFold and Rosetta, which rely on a foundation of experimentally determined structures of architecturally diverse proteins. The accuracy of such artificial intelligence and machine learning (AI/ML) approaches benefits from the specification of restraints which assist in navigating the universe of folds to converge on models most representative of a given protein's physiological structure. This is especially pertinent for membrane proteins, with structures and functions that depend on their presence in lipid bilayers. Structures of proteins in their membrane environments could conceivably be predicted from AI/ML approaches with user-specificized parameters that describe each element of the architecture of a membrane protein accompanied by its lipid environment. We propose the Classification Of Membrane Proteins based On Structures Engaging Lipids (COMPOSEL), which builds on existing nomenclature types for monotopic, bitopic, polytopic and peripheral membrane proteins as well as lipids. Functional and regulatory elements are also defined in the scripts, as shown with membrane fusing synaptotagmins, multidomain PDZD8 and Protrudin proteins that recognize phosphoinositide (PI) lipids, the intrinsically disordered MARCKS protein, caveolins, the beta barrel assembly machine (BAM), an adhesion G-protein coupled receptor (aGPCR) and two lipid modifying enzymes - diacylglycerol kinase DGKepsilon and fatty aldehyde dehydrogenase FALDH. This demonstrates how COMPOSEL communicates lipid interactivity as well as signaling mechanisms and binding of metabolites, drug molecules, polypeptides or nucleic acids to describe the operations of any protein. Moreover COMPOSEL can be scaled to express how genomes encode membrane structures and how our organs are infiltrated by pathogens such as SARS-CoV-2.",
+  "abstract_zh": "现在，借助AlphaFold和Rosetta等程序，可以预测任何蛋白质的结构，这些程序依赖于实验确定的多种结构多样性蛋白质的结构基础。此类人工智能和机器学习（AI/ML）方法的准确性得益于约束条件的指定，这些约束有助于在折叠空间中导航，以收敛到最能代表给定蛋白质生理结构的模型。这对于膜蛋白尤为重要，其结构和功能依赖于它们在脂质双层中的存在。可以设想，通过AI/ML方法，结合用户特定参数来描述膜蛋白各结构元素及其脂质环境，能够预测膜环境中蛋白质的结构。我们提出了基于结构结合脂质的膜蛋白分类（COMPOSEL），该分类建立在现有的单次跨膜、双次跨膜、多次跨膜和外周膜蛋白以及脂质的命名类型之上。脚本中还定义了功能和调控元件，如膜融合突触结合蛋白、多结构域PDZD8和识别磷酸肌醇（PI）脂质的Protrudin蛋白、固有无序的MARCKS蛋白、小窝蛋白、β桶组装机器（BAM）、一种粘附G蛋白偶联受体（aGPCR）以及两种脂质修饰酶——二酰甘油激酶DGKepsilon和脂肪醛脱氢酶FALDH。这展示了COMPOSEL如何传达脂质相互作用以及信号传导机制和代谢物、药物分子、多肽或核酸的结合，以描述任何蛋白质的运作。此外，COMPOSEL可扩展以表达基因组如何编码膜结构以及病原体（如SARS-CoV-2）如何侵入我们的器官。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36801589/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36801589/",
+  "paper_page_path": "papers/pubmed/36801589/index.html"
+}

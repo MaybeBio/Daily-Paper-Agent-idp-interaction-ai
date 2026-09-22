@@ -1,0 +1,230 @@
+{
+  "identity": {
+    "pmid": "41959048",
+    "doi": "10.64898/2026.03.27.714773",
+    "title": "IDBSpred: An intrinsically disordered binding site predictor using machine learning and protein language model."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) mediate many cellular functions through interactions with structured protein partners, but predicting the corresponding binding sites on the structured partner remains challenging. Here, we present IDBSpred, a sequence-based method for residue-level prediction of IDP-binding sites on structured proteins. Training and test data were collected from the DIBS database, which contains more than 700 non-redundant IDP-protein complexes. Residue-level embeddings of structured partner sequences were generated using the ESM-2 protein language model and used as input to a multilayer perceptron classifier for binary prediction of binding versus non-binding residues. Analysis of amino acid composition showed that IDP-binding sites are enriched in aromatic residues, especially Trp, Tyr, and Phe, as well as several charged and polar residues, whereas Ala and several small or conformationally restrictive residues are depleted. The classifier achieved an ROC AUC of 0.87 and an average precision of 0.61. Structural case studies further showed that the predicted sites largely recapitulate the major experimentally defined binding interfaces. These results demonstrate that protein language model embeddings plus machine learning algorithms can effectively capture sequence features associated with IDP recognition on structured proteins. IDBSpred provides a practical framework for studying IDP-mediated interfaces and identifying potential therapeutic hotspots.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jones, Drew",
+        "Wu, Yinghao"
+      ],
+      "short_names": [
+        "Jones D",
+        "Wu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1181-5670"
+      ],
+      "affiliations": [
+        "College of Computing and Informatics, Drexel University.",
+        "Department of Systems and Computational Biology, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY, 10461."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jones, Drew",
+        "short_name": "Jones D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Computing and Informatics, Drexel University."
+        ]
+      },
+      {
+        "full_name": "Wu, Yinghao",
+        "short_name": "Wu Y",
+        "identifiers": [
+          "0000-0003-1181-5670"
+        ],
+        "affiliations": [
+          "Department of Systems and Computational Biology, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY, 10461."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Mar 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/10 06:33",
+    "fetched_at": "2026-09-18 02:21:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41534519",
+      "36927031",
+      "36917561",
+      "35611239",
+      "35177069",
+      "34610267",
+      "32019410",
+      "31667555",
+      "31521235",
+      "31521230",
+      "31299122",
+      "29385418",
+      "29042212",
+      "28530547",
+      "25753752",
+      "25391399",
+      "24773235",
+      "24693427",
+      "23876315",
+      "23519663",
+      "22689782",
+      "19717576",
+      "10852947"
+    ],
+    "similar": [
+      "41959048",
+      "41174305",
+      "41534519",
+      "39763873",
+      "39506806",
+      "28365882",
+      "39163306",
+      "37992088",
+      "42094486",
+      "37883249",
+      "22373313",
+      "29042212",
+      "42508035",
+      "36250006",
+      "18831774",
+      "37722056",
+      "30366362",
+      "16712732",
+      "42289971",
+      "37254800",
+      "38079339",
+      "28381244",
+      "31797594",
+      "29385418",
+      "22574904",
+      "38166858",
+      "32702119",
+      "38866950",
+      "38812466",
+      "41921197",
+      "29028926",
+      "41168713",
+      "40360271",
+      "32639157",
+      "24329095",
+      "37676603",
+      "29228892",
+      "27588752",
+      "42598852",
+      "19594868",
+      "39586094",
+      "40254833",
+      "42475469",
+      "41677811",
+      "41392472",
+      "30478757",
+      "17316627",
+      "34799573",
+      "27787829",
+      "41542461",
+      "25286318",
+      "32426975",
+      "17206849",
+      "32771522",
+      "41977286",
+      "41055109",
+      "33827920",
+      "31847804",
+      "32621228",
+      "22399317",
+      "35762718",
+      "26253171",
+      "38491248",
+      "21612668",
+      "17681540",
+      "35126984",
+      "23289531",
+      "22848404",
+      "41725507",
+      "35883018",
+      "35609776",
+      "30002402",
+      "21682895",
+      "23912807",
+      "31683069",
+      "38987470",
+      "26513658",
+      "38497081",
+      "28394890",
+      "32696367",
+      "34863777",
+      "19412530",
+      "23990768",
+      "37964216",
+      "27844185",
+      "28598584",
+      "39475380",
+      "39456153",
+      "22174268",
+      "24871565",
+      "41278910",
+      "40654683",
+      "17570148",
+      "26301226",
+      "37824738",
+      "24093637",
+      "40563406",
+      "41520231",
+      "36272675",
+      "25802517"
+    ],
+    "review": [
+      "41959048",
+      "36250006",
+      "22399317",
+      "41725507"
+    ],
+    "pmc": [
+      "13060247"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41959048/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.03.27.714773",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

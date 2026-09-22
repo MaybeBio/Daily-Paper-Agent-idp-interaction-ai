@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39510344",
+  "title": "Revealing Missing Protein-Ligand Interactions Using AlphaFold Predictions.",
+  "authors": "Escobedo, Nahuel; Saldano, Tadeo; Mac Donagh, Juan; Sawicki, Luciana Rodriguez; Palopoli, Nicolas; Alberti, Sebastian Fernandez; Fornasari, Maria Silvina; Parisi, Gustavo",
+  "journal": "Journal of molecular biology",
+  "published_date": "2024-11-13",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该文利用AlphaFold2预测配体与无序区域残基的‘幽灵互作’，揭示晶体结构缺失的蛋白-配体相互作用，为无序蛋白作为药物靶点的互作机制建模提供AI方法启发。",
+  "abstract": "Protein-ligand interactions represent an essential step to understand the bases of molecular recognition, an intense field of research in many scientific areas. Structural biology has played a central role in unveiling protein-ligand interactions, but current techniques are still not able to reliably describe the interactions of ligands with highly flexible regions. In this work, we explored the capacity of AlphaFold2 (AF2) to estimate the presence of interactions between ligands and residues belonging to disordered regions. As these interactions are missing in the crystallographic-derived structures, we called them \"ghost interactions\". Using a set of protein structures experimentally obtained after AF2 was trained, we found that the obtained models are good predictors of regions associated with order-disorder transitions. Additionally, we found that AF2 predicts residues making ghost interactions with ligands, which are mostly buried and show differential evolutionary conservation with the rest of the residues located in the flexible region. Our findings could fuel current areas of research that consider, given their biological relevance and their involvement in diseases, intrinsically disordered proteins as potentially valuable targets for drug development.",
+  "abstract_zh": "蛋白质-配体相互作用是理解分子识别基础的关键步骤，这是许多科学领域中一个活跃的研究方向。结构生物学在揭示蛋白质-配体相互作用中发挥了核心作用，但当前技术仍无法可靠地描述配体与高度柔性区域之间的相互作用。在本工作中，我们探索了AlphaFold2 (AF2) 在估计配体与无序区域残基之间相互作用存在性方面的能力。由于这些相互作用在基于晶体学衍生的结构中缺失，我们将其称为“幽灵相互作用”。利用AF2训练后实验获得的蛋白质结构集合，我们发现所得模型是关联有序-无序转变区域的良好预测器。此外，我们发现AF2预测了与配体形成幽灵相互作用的残基，这些残基大多埋藏于内部，并与柔性区域中的其他残基表现出差异性的进化保守性。我们的发现可能推动当前研究领域的发展，考虑到内在无序蛋白质因其生物学相关性和在疾病中的参与，被视为药物开发潜在有价值靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39510344/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39510344/",
+  "paper_page_path": "papers/pubmed/39510344/index.html"
+}

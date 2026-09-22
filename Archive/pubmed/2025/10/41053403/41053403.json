@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "41053403",
+    "doi": "10.1038/s43588-025-00881-y",
+    "title": "Generalized design of sequence-ensemble-function relationships for intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "The design of folded proteins has advanced substantially in recent years. However, many proteins and protein regions are intrinsically disordered and lack a stable fold, that is, the sequence of an intrinsically disordered protein (IDP) encodes a vast ensemble of spatial conformations that specify its biological function. This conformational plasticity and heterogeneity makes IDP design challenging. Here we introduce a computational framework for de novo design of IDPs through rational and efficient inversion of molecular simulations that approximate the underlying sequence-ensemble relationship. We highlight the versatility of this approach by designing IDPs with diverse properties and arbitrary sequence constraints. These include IDPs with target ensemble dimensions, loops and linkers, highly sensitive sensors of physicochemical stimuli, and binders to target disordered substrates with distinct conformational biases. Overall, our method provides a general framework for designing sequence-ensemble-function relationships of biological macromolecules.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Protein Folding",
+      "*Protein Conformation",
+      "*Intrinsically Disordered Proteins/chemistry/physiology",
+      "Models, Molecular",
+      "*Molecular Dynamics Simulation",
+      "Models, Theoretical",
+      "Amino Acid Sequence",
+      "Monte Carlo Method"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Krueger, Ryan K",
+        "Brenner, Michael P",
+        "Shrinivas, Krishna"
+      ],
+      "short_names": [
+        "Krueger RK",
+        "Brenner MP",
+        "Shrinivas K"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6856-0248",
+        "ORCID: 0000-0002-5673-7947",
+        "ORCID: 0000-0002-4167-9385"
+      ],
+      "affiliations": [
+        "School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, USA.",
+        "School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, USA. brenner@seas.harvard.edu.",
+        "Department of Physics, Harvard University, Cambridge, MA, USA. brenner@seas.harvard.edu.",
+        "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA. krishna@northwestern.edu.",
+        "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA. krishna@northwestern.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Krueger, Ryan K",
+        "short_name": "Krueger RK",
+        "identifiers": [
+          "0000-0001-6856-0248"
+        ],
+        "affiliations": [
+          "School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Brenner, Michael P",
+        "short_name": "Brenner MP",
+        "identifiers": [
+          "0000-0002-5673-7947"
+        ],
+        "affiliations": [
+          "School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, USA. brenner@seas.harvard.edu.",
+          "Department of Physics, Harvard University, Cambridge, MA, USA. brenner@seas.harvard.edu."
+        ]
+      },
+      {
+        "full_name": "Shrinivas, Krishna",
+        "short_name": "Shrinivas K",
+        "identifiers": [
+          "0000-0002-4167-9385"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL, USA. krishna@northwestern.edu.",
+          "Center for Synthetic Biology, Northwestern University, Evanston, IL, USA. krishna@northwestern.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature computational science"
+    ],
+    "journal_abbrev": [
+      "Nat Comput Sci"
+    ],
+    "pub_date": "2026 May",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/07 00:29",
+    "fetched_at": "2026-09-17 20:55:31"
+  },
+  "links": {
+    "cites": [
+      "42418518",
+      "41708867"
+    ],
+    "refs": [],
+    "similar": [
+      "41053403",
+      "31375817",
+      "40081192",
+      "32357776",
+      "28914483",
+      "34845619",
+      "27111521",
+      "31441158",
+      "36674958",
+      "31756456",
+      "34504009",
+      "27844185",
+      "41082321",
+      "36641212",
+      "24010708",
+      "33337879",
+      "38097100",
+      "39499823",
+      "42282589",
+      "25863585",
+      "31552948",
+      "31999450",
+      "32525675",
+      "33355572",
+      "29763584",
+      "42332380",
+      "30708285",
+      "28076807",
+      "30840442",
+      "23754493",
+      "29990433",
+      "24089719",
+      "25287424",
+      "35119946",
+      "30933517",
+      "35129612",
+      "23912807",
+      "39093570",
+      "34863777",
+      "38177684",
+      "30066087",
+      "26138206",
+      "31809054",
+      "26195786",
+      "41137856",
+      "34358545",
+      "42418518",
+      "34656328",
+      "23901099",
+      "34032235",
+      "40042172",
+      "39285530",
+      "29573987",
+      "34418423",
+      "32696367",
+      "31362509",
+      "38079339",
+      "42338018",
+      "28092832",
+      "28448138",
+      "30979035",
+      "28365882",
+      "40095314",
+      "38018910",
+      "40674483",
+      "32323533",
+      "41644540",
+      "38118365",
+      "34390736",
+      "26052838",
+      "32227937",
+      "30913885",
+      "24671380",
+      "27115638",
+      "38739602",
+      "39196930",
+      "26387101",
+      "21766125",
+      "32623047",
+      "34680048",
+      "34799573",
+      "38892222",
+      "38297184",
+      "32859072",
+      "28259050",
+      "40172236",
+      "31756104",
+      "39977663",
+      "39163306",
+      "37338049",
+      "19278259",
+      "37108059",
+      "38039868",
+      "34461937",
+      "29604827",
+      "33581430",
+      "33530506",
+      "22505141",
+      "26548662",
+      "23028280"
+    ],
+    "review": [
+      "41053403",
+      "40081192",
+      "31441158",
+      "38097100",
+      "25863585",
+      "33355572",
+      "30840442",
+      "25287424",
+      "35119946",
+      "35129612",
+      "39093570",
+      "30066087",
+      "34358545",
+      "34418423",
+      "30979035",
+      "38118365",
+      "34390736",
+      "26387101",
+      "34680048",
+      "28259050",
+      "38039868",
+      "33530506"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s43588-025-00881-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

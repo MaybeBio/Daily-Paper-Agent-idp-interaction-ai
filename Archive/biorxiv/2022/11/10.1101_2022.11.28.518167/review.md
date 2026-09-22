@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose ProtLM.TCR, a protein language model pre-trained on approximately 62 million TCR sequences and fine-tuned to predict TCR-epitope binding across multiple class-I HLA types. They report feasibility of computational prediction, superior performance of ProtLM.TCR embeddings over BLOSUM and hand-crafted embeddings, and use of LIME for interpretability. They also note limitations in generalization due to limited epitope and training data diversity.
+- **Visible evidence base** Abstract text only; no quantitative results, model architecture details, dataset descriptions, or evaluation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, training and test dataset specifications, performance metrics, baseline comparisons, and LIME analysis details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of protein language models to TCR-epitope binding prediction, an area of active interest in immunology and computational biology. However, the abstract lacks quantitative results, methodological specifics, and validation details, making it impossible to assess the technical soundness or the strength of the claims. The stated conclusion that more data are needed for better generalization is reasonable but not substantiated by any presented evidence. The work may be of interest to computational immunologists, but the current abstract does not establish the case for its novelty or impact.
+- **Who would be interested in the results, and why** Computational immunologists and bioinformaticians working on T-cell epitope prediction, TCR repertoire analysis, and machine learning applications in immunology. The use of a language model for TCR sequences and the comparison with traditional embeddings could appeal to researchers developing predictive models for personalized immunotherapy and vaccine design.
+- **Major strengths** The problem addressed is relevant and timely. The use of a large pre-training set (~62 million TCR sequences) is a reasonable approach. The explicit consideration of model shortcuts, such as HLA categories, and the comparison of pan-HLA versus HLA-specific models show awareness of common pitfalls in this domain. The inclusion of interpretability analysis via LIME is a positive step toward model transparency.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that ProtLM.TCR can predict TCR-epitope binding and that its embeddings outperform BLOSUM and hand-crafted embeddings.
+  - **Evidence pointer** Abstract only; no figures, tables, or metrics provided
+  - **Concern** No quantitative results are presented. There are no performance metrics, such as accuracy, AUC, or F1 scores, for the fine-tuned model or for the comparison with BLOSUM and hand-crafted embeddings. The claim of superior performance is unsupported.
+  - **Why it matters** Without quantitative evidence, the core claims of predictive feasibility and embedding superiority cannot be evaluated. The abstract does not allow a reader to judge whether the model performs adequately or whether the comparison is fair.
+  - **Resolution test** Provide performance metrics for ProtLM.TCR and baselines on a defined test set, including confidence intervals and statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract describes pre-training on ~62 million TCR sequences and fine-tuning for TCR-epitope binding prediction.
+  - **Evidence pointer** Abstract only; no methods section provided
+  - **Concern** The model architecture, training procedure, data sources, and fine-tuning details are not described. The nature of the "balanced set of binders and non-binders" is unclear, including how non-binders were defined and generated. The split between training and test sets is not specified.
+  - **Why it matters** Reproducibility and assessment of potential data leakage or shortcut learning require detailed methodological descriptions. The abstract's mention of avoiding shortcuts like HLA categories is insufficient without specifics.
+  - **Resolution test** Include a methods section detailing model architecture, training hyperparameters, data sources, negative sample generation, and train-test split strategy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The abstract states that "more epitopes and diverse training datasets are required to achieve a better generalized performances in de novo epitope binding prediction tasks."
+  - **Evidence pointer** Abstract only; no generalization experiments provided
+  - **Concern** This conclusion is presented as a finding, but no experiments on generalization, such as cross-epitope or cross-HLA evaluation, are described. The claim is speculative without supporting data.
+  - **Why it matters** The stated limitation is central to the paper's contribution, but without evidence, it reads as an assumption rather than a demonstrated result.
+  - **Resolution test** Present experiments that evaluate model performance on unseen epitopes or HLA types, with comparisons to training set diversity.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "~62.10 6 " is ambiguous and likely a formatting error. It should be written as "~62 x 10^6" or "~62 million."
+  - **Required correction** Clarify the number of TCR sequences in standard scientific notation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** LIME analysis description
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract mentions using LIME for interpretability but does not state what was interpreted, how LIME was applied to a language model, or what insights were gained.
+  - **Required correction** Provide a brief description of the interpretability analysis and its key findings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "pan-HLA versus HLA-specific models"
+  - **Evidence pointer** Abstract, middle section
+  - **Issue** The distinction between pan-HLA and HLA-specific models is not defined. It is unclear whether this refers to training data composition or model architecture.
+  - **Required correction** Define these terms explicitly in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological details, and generalization experiments means the core claims are not established from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of a protein language model to TCR-epitope binding is not entirely novel, as similar approaches exist for other immune receptors, but the specific focus on TCRs and the large pre-training set may offer some novelty. However, this cannot be fully assessed without a literature comparison.
+  - Scientific importance: TCR-epitope binding prediction is important for understanding adaptive immunity and for therapeutic development. The potential impact is high if the model performs well, but this is not demonstrated.
+  - Interdisciplinary readership: The topic bridges immunology and machine learning, which could attract a broad audience. However, the abstract is too technical and lacks context for non-specialists.
+  - Technical soundness: Not assessable due to missing methods and results.
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with TCR, HLA, and language model concepts. It is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to support the claims. A full manuscript with quantitative results and methodological details is required for a meaningful evaluation.
+
+## Risk / unsupported claims
+- The claim that ProtLM.TCR embeddings outperform BLOSUM and hand-crafted embeddings is unsupported due to lack of quantitative comparison.
+- The claim that computational prediction of novel TCR-epitope binding probability is feasible is unsupported without performance metrics.
+- The conclusion that more epitopes and diverse training datasets are needed for better generalization is speculative without generalization experiments.
+- The use of LIME for interpretability is mentioned but not described, making any interpretability claim unassessable.

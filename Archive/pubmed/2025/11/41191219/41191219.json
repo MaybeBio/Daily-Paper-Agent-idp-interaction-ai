@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "41191219",
+    "doi": "10.1007/s12104-025-10253-2",
+    "title": "(1)H, (13)C, and (15)N resonance assignment of the C terminal region of the disordered postsynaptic scaffold protein GKAP."
+  },
+  "content": {
+    "abstract": "Guanylate kinase-associated protein, GKAP, is a largely disordered scaffold protein with multiple interaction partners, playing a role in the organization of the postsynaptic protein network. Its C-terminus contains a binding motif for the PDZ domain of Shank proteins, another class of postsynaptic scaffolds. Based on predictions, this motif is preceded by a ~ 40-residue disordered segment with no known additional binding sites or established functional role. Here we report the expression, purification, and (1)H, (13)C and (15)N resonance assignment of the GKAP Ct43 construct containing the C-terminal 43 residues. This region is functionally intact, having a binding affinity to Shank1 PDZ in the micromolar range. Chemical shifts indicate that this region is indeed disordered but displays helical propensity in two regions. The short, slightly helical segment immediately before a PDZ-binding motif is somewhat comparable to the structural organization observed at the C-terminus of the E6 and RSK1 proteins, but its significance in GKAP is yet to be explored.",
+    "keywords": [
+      "GKAP",
+      "Helical propensity",
+      "Intrinsically disordered protein",
+      "PDZ domain",
+      "Postsynaptic density",
+      "Shank1"
+    ],
+    "mesh_terms": [
+      "*Nuclear Magnetic Resonance, Biomolecular",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Nerve Tissue Proteins/chemistry",
+      "Amino Acid Sequence",
+      "Nitrogen Isotopes"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nagy-Kanta, Eszter",
+        "Santa, Anna",
+        "Kalman, Zsofia E",
+        "Li, Jessica Amy",
+        "Permi, Perttu",
+        "Gaspari, Zoltan",
+        "Peterfia, Balint"
+      ],
+      "short_names": [
+        "Nagy-Kanta E",
+        "Santa A",
+        "Kalman ZE",
+        "Li JA",
+        "Permi P",
+        "Gaspari Z",
+        "Peterfia B"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-1322-2008",
+        "ORCID: 0009-0004-0593-888X",
+        "ORCID: 0000-0003-4634-0433",
+        "ORCID: 0000-0002-6281-1138",
+        "ORCID: 0000-0002-8692-740X",
+        "ORCID: 0000-0001-9090-9979"
+      ],
+      "affiliations": [
+        "Faculty of Information Technology and Bionincs, Pazmany Peter Catholic University, Budapest, Hungary. peterfia.balint.ferenc@itk.ppke.hu.",
+        "Faculty of Information Technology and Bionincs, Pazmany Peter Catholic University, Budapest, Hungary.",
+        "Faculty of Information Technology and Bionincs, Pazmany Peter Catholic University, Budapest, Hungary.",
+        "Faculty of Information Technology and Bionincs, Pazmany Peter Catholic University, Budapest, Hungary.",
+        "Department of Biological and Environmental Science, University of Jyvaskyla, Jyvaskyla, Finland.",
+        "Department of Chemistry, University of Jyvaskyla, Jyvaskyla, Finland.",
+        "Institute of Biotechnology, Helsinki Institute of Life Science, University of Helsinki, Helsinki, Finland.",
+        "Faculty of Information Technology and Bionincs, Pazmany Peter Catholic University, Budapest, Hungary.",
+        "Faculty of Information Technology and Bionincs, Pazmany Peter Catholic University, Budapest, Hungary."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nagy-Kanta, Eszter",
+        "short_name": "Nagy-Kanta E",
+        "identifiers": [
+          "0009-0003-1322-2008"
+        ],
+        "affiliations": [
+          "Faculty of Information Technology and Bionincs, Pázmány Péter Catholic University, Budapest, Hungary. peterfia.balint.ferenc@itk.ppke.hu."
+        ]
+      },
+      {
+        "full_name": "Sánta, Anna",
+        "short_name": "Sánta A",
+        "identifiers": [
+          "0009-0004-0593-888X"
+        ],
+        "affiliations": [
+          "Faculty of Information Technology and Bionincs, Pázmány Péter Catholic University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Kálmán, Zsófia E",
+        "short_name": "Kálmán ZE",
+        "identifiers": [
+          "0000-0003-4634-0433"
+        ],
+        "affiliations": [
+          "Faculty of Information Technology and Bionincs, Pázmány Péter Catholic University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Li, Jessica Amy",
+        "short_name": "Li JA",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Information Technology and Bionincs, Pázmány Péter Catholic University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Permi, Perttu",
+        "short_name": "Permi P",
+        "identifiers": [
+          "0000-0002-6281-1138"
+        ],
+        "affiliations": [
+          "Department of Biological and Environmental Science, University of Jyväskylä, Jyväskylä, Finland.",
+          "Department of Chemistry, University of Jyväskylä, Jyväskylä, Finland.",
+          "Institute of Biotechnology, Helsinki Institute of Life Science, University of Helsinki, Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Gáspári, Zoltán",
+        "short_name": "Gáspári Z",
+        "identifiers": [
+          "0000-0002-8692-740X"
+        ],
+        "affiliations": [
+          "Faculty of Information Technology and Bionincs, Pázmány Péter Catholic University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Péterfia, Bálint",
+        "short_name": "Péterfia B",
+        "identifiers": [
+          "0000-0001-9090-9979"
+        ],
+        "affiliations": [
+          "Faculty of Information Technology and Bionincs, Pázmány Péter Catholic University, Budapest, Hungary."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecular NMR assignments"
+    ],
+    "journal_abbrev": [
+      "Biomol NMR Assign"
+    ],
+    "pub_date": "2025 Nov 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/05 12:32",
+    "fetched_at": "2026-09-17 21:46:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40843979",
+      "40392971",
+      "40192062",
+      "36979339",
+      "36720293",
+      "35083656",
+      "34235485",
+      "34146207",
+      "33118136",
+      "32527927",
+      "31348488",
+      "30837306",
+      "30613903",
+      "30091878",
+      "30078578",
+      "29714690",
+      "29473168",
+      "29399725",
+      "29370437",
+      "29083550",
+      "27185935",
+      "25152391",
+      "23638119",
+      "22709956",
+      "22576124",
+      "21376703",
+      "20117114",
+      "20047332",
+      "19768387",
+      "19584925",
+      "18619997",
+      "12954649"
+    ],
+    "similar": [
+      "41191219",
+      "35083656",
+      "38899489",
+      "15496675",
+      "40843979",
+      "12136153",
+      "40515930",
+      "30414042",
+      "36450866",
+      "12954649",
+      "25005096",
+      "39174826",
+      "24146948",
+      "10433268",
+      "25775468",
+      "9024696",
+      "9221768",
+      "41139430",
+      "27288992",
+      "10506216",
+      "23929272",
+      "10488079",
+      "25952762",
+      "31932991",
+      "26138689",
+      "31900740",
+      "25367087",
+      "28857320",
+      "10806096",
+      "20352094",
+      "22465068",
+      "28002650",
+      "33730325",
+      "32929427",
+      "12482754",
+      "24699834",
+      "30471686",
+      "21626699",
+      "15772752",
+      "10844022",
+      "30284668",
+      "33930467",
+      "29492731",
+      "27844185",
+      "27653629",
+      "26891900",
+      "30471706",
+      "24086265",
+      "27586017",
+      "22328512",
+      "11060025",
+      "15673434",
+      "25577242",
+      "34235485",
+      "29511089",
+      "34415548",
+      "24203099",
+      "30252478",
+      "15255944",
+      "37093489",
+      "21376703",
+      "10570927",
+      "21516336",
+      "25152391",
+      "24938595",
+      "25941036",
+      "30443712",
+      "27046249",
+      "29473168",
+      "35474152",
+      "30853683",
+      "25533957",
+      "25808930",
+      "32933064",
+      "27030110",
+      "24769851",
+      "15647492",
+      "24052412",
+      "35012986",
+      "20117114",
+      "35245815",
+      "10804199",
+      "29071460",
+      "29925531",
+      "37861971",
+      "27185935",
+      "27418281",
+      "16882988",
+      "32225071",
+      "25747872",
+      "21336827",
+      "9428732",
+      "19888685",
+      "29410458",
+      "21325834",
+      "11937501",
+      "15295038",
+      "39841395",
+      "26735936",
+      "10527873"
+    ],
+    "review": [
+      "41191219",
+      "10806096"
+    ],
+    "pmc": [
+      "12589307"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41191219/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12104-025-10253-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

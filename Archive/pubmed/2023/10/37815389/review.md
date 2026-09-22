@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use multi-scale simulations (all-atom and coarse-grained) of random peptides composed of arginine and isoleucine to study how electrostatic repulsion and hydrophobic interactions regulate liquid-liquid phase separation (LLPS). They report that stronger electrostatic repulsion leads to more extended single-chain conformations and a tendency toward low-density homogeneous phases, while stronger hydrophobic effects lead to more compact conformations, enhanced phase separation, and higher critical temperatures. The study aims to link peptide sequence to phase behavior and provide insights for designing functional intrinsically disordered proteins (IDPs) and understanding LLPS-associated diseases.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or figures are provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, force field parameters, sequence definitions, quantitative phase diagrams, critical temperature values, statistical analyses, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study on the role of hydrophobic and electrostatic interactions in peptide phase separation. However, the claims are stated in qualitative terms without any quantitative support visible in the abstract. The scientific premise is relevant to the IDP and LLPS community, but the current evidence base is insufficient to evaluate the robustness of the conclusions. The abstract does not provide enough detail to assess technical soundness, reproducibility, or the strength of the reported relationships.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, liquid-liquid phase separation, biomolecular condensates, and computational biophysics. The work could also interest those involved in designing peptide-based materials or therapeutic strategies targeting LLPS-associated pathologies, given the proposed link between sequence and phase behavior.
+- **Major strengths** The study addresses a timely and important question about the competing roles of electrostatic and hydrophobic interactions in phase separation. The use of multi-scale simulation approaches is appropriate for probing both single-chain and multi-chain behavior. The focus on random peptides with simple amino acid composition provides a tractable model system that may yield generalizable insights.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that stronger electrostatic repulsion leads to more extended single-chain structures and low-density homogeneous phases, and that stronger hydrophobic effects lead to more compact structures, easier phase separation, and higher critical temperatures.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract presents these relationships as findings, but no quantitative data, simulation parameters, or statistical measures are provided. It is unclear how "stronger" electrostatic or hydrophobic effects were varied, what range of sequences was tested, or how phase separation was defined and measured.  
+  - **Why it matters** Without quantitative evidence, the claims cannot be evaluated for validity, reproducibility, or generalizability. The conclusions may depend heavily on specific simulation choices, such as force field, salt concentration, or sequence length, which are not described.  
+  - **Resolution test** Provide quantitative results, such as radius of gyration distributions, critical temperature values, phase diagrams, and error estimates, along with a clear description of how interaction strengths were modulated and how phase separation was assessed.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that multi-scale simulations using all-atom and coarse-grained models were conducted, but only coarse-grained results are mentioned in the findings.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The role of the all-atom simulations is not explained. It is unclear whether they were used to parameterize the coarse-grained model, validate it, or provide independent evidence. Without this information, the multi-scale aspect of the study cannot be assessed.  
+  - **Why it matters** The claim of multi-scale simulation is central to the methodology, but the abstract does not clarify how the two levels of resolution are connected or whether the coarse-grained results are consistent with all-atom behavior.  
+  - **Resolution test** Describe the relationship between all-atom and coarse-grained simulations, including any parameterization or validation steps, and state whether the main conclusions are supported by both levels of simulation.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The abstract claims that the findings provide "theoretical insights into the interactions within or between proteins" and "essential physical information for the sequence design of functional IDPs."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The model system is limited to random peptides composed of only two amino acid types (arginine and isoleucine). The abstract does not discuss how these findings might extend to more complex sequences with additional residue types, post-translational modifications, or realistic IDP contexts.  
+  - **Why it matters** Overgeneralization from a simplified model system could mislead readers about the applicability of the results to real IDPs, which are far more chemically diverse.  
+  - **Resolution test** Add a discussion of limitations and explicitly state the conditions under which the proposed relationships are expected to hold, or provide additional simulations with more complex sequences to support the general claims.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "extended-to-compact structure transition" in the title is not clearly defined in the abstract. It is unclear whether this refers to a single-chain conformational change, a change in the condensed phase, or a transition between different states.  
+  - **Required correction** Define the transition explicitly in the abstract, including the structural metrics used to characterize extended versus compact states.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Sequence details  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not specify the lengths of the peptides, the number of sequences studied, or the range of compositions (e.g., Arg-to-Ile ratios) used.  
+  - **Required correction** Provide basic sequence information, such as peptide length and composition range, to allow readers to gauge the scope of the study.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Simulation conditions  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No information is given about temperature, salt concentration, or other solution conditions that could affect phase separation behavior.  
+  - **Required correction** State the simulation conditions in the abstract or indicate that they are described in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient quantitative or methodological detail to support the central claims. The lack of clarity on the multi-scale approach and the absence of any numerical results prevent an assessment of technical soundness.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The question of how hydrophobic and electrostatic interactions compete in phase separation is not entirely new, but the use of simple random peptides as a systematic model is a reasonable approach. The originality cannot be fully assessed from the abstract alone.  
+  - **Scientific importance** The topic is of high importance to the IDP and LLPS community, and the potential to link sequence to phase behavior is valuable. However, the abstract does not demonstrate a significant advance beyond existing knowledge.  
+  - **Interdisciplinary readership** The work could appeal to biophysicists, computational chemists, and cell biologists, but the abstract is written in a way that is accessible to specialists only.  
+  - **Technical soundness** Cannot be evaluated from the abstract. The lack of methodological detail and quantitative results is a major limitation.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses jargon (e.g., "coarse-grained model," "critical temperature") without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible hypotheses and qualitative findings, but the lack of quantitative data and methodological transparency prevents a supportive recommendation. The authors should provide the full manuscript and address the blocking concerns before the case can be assessed.
+
+## Risk / unsupported claims
+- The claim that stronger electrostatic repulsion leads to low-density homogeneous phases is unsupported without quantitative phase behavior data.
+- The claim that stronger hydrophobic effects lead to higher critical temperatures is unsupported without numerical values or phase diagrams.
+- The claim that the study provides "essential physical information for the sequence design of functional IDPs" is an overreach given the limited model system and lack of demonstrated applicability.
+- The multi-scale nature of the study is unverifiable from the abstract, as the role of all-atom simulations is not described.

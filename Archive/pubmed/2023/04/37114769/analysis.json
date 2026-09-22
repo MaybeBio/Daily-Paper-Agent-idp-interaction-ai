@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37114769",
+  "title": "Conformational Plasticity in alpha-Synuclein and How Crowded Environment Modulates It.",
+  "authors": "Menon, Sneha; Mondal, Jagannath",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2023-04-28",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用73微秒MD模拟和马尔可夫状态模型解析α-突触核蛋白IDP的构象可塑性及拥挤环境对其单体和早期二聚化的调控，虽未直接聚焦PPI界面，但为IDP构象-互作机制建模提供了可迁移的物理模拟框架。",
+  "abstract": "A 140-residue intrinsically disordered protein (IDP), alpha-synuclein (alphaS), is known to adopt conformations that are vastly plastic and susceptible to environmental cues and crowders. However, the inherently heterogeneous nature of alphaS has precluded a clear demarcation of its monomeric precursor between aggregation-prone and functionally relevant aggregation-resistant states and how a crowded environment could modulate their mutual dynamic equilibrium. Here, we identify an optimal set of distinct metastable states of alphaS in aqueous media by dissecting a 73 mus-long molecular dynamics ensemble via building a comprehensive Markov state model (MSM). Notably, the most populated metastable state corroborates with the dimension obtained from PRE-NMR studies of alphaS monomer, and it undergoes kinetic transition at diverse time scales with a weakly populated random-coil-like ensemble and a globular protein-like state. However, subjecting alphaS to a crowded environment results in a nonmonotonic compaction of these metastable conformations, thereby skewing the ensemble by either introducing new tertiary contacts or by reinforcing the innate contacts. The early stage of dimerization process is found to be considerably expedited in the presence of crowders, albeit promoting nonspecific interactions. Together with this, using an extensively sampled ensemble of alphaS, this exposition demonstrates that crowded environments can potentially modulate the conformational preferences of IDP that can either promote or inhibit aggregation events.",
+  "abstract_zh": "一个由140个残基组成的固有无序蛋白（IDP），α-突触核蛋白（alphaS），已知会采用高度可塑且易受环境线索和拥挤剂影响的构象。然而，alphaS固有的异质性阻碍了对其单体前体在易于聚集和功能相关的抗聚集状态之间的明确划分，以及拥挤环境如何调节它们之间的动态平衡。在此，我们通过构建一个全面的马尔可夫状态模型（MSM），解析了一个73微秒长的分子动力学（molecular dynamics）系综，识别出alphaS在水性介质中的一组最佳的不同亚稳态。值得注意的是，最占优势的亚稳态与从alphaS单体的PRE-NMR研究获得的尺寸相符，并且它以不同时间尺度经历动力学转变，涉及一个弱占优的随机卷曲样系综和一个球状蛋白样状态。然而，将alphaS置于拥挤环境中会导致这些亚稳态构象的非单调压缩，从而通过引入新的三级接触或强化固有接触来偏斜系综。发现二聚化过程的早期阶段在存在拥挤剂时显著加速，尽管促进了非特异性相互作用。结合这一点，利用广泛采样的alphaS系综，本阐述表明拥挤环境可能调节IDP的构象偏好，从而促进或抑制聚集事件。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37114769/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37114769/",
+  "paper_page_path": "papers/pubmed/37114769/index.html"
+}

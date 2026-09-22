@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary material provided
+- **Shared manuscript claim summary** The authors use long timescale atomistic molecular dynamics simulations to study prenylated intrinsically disordered regions (PIDRs) of Ras and Rho family small GTPases in an asymmetric PC/PS model membrane. They claim that conformational plasticity determines lipid sorting by polybasic PIDRs, that lipid sorting is based on both headgroup and acyl chain structures, that this behavior generalizes across polybasic PIDRs, and that sequence features outside the polybasic domain (PBD) modulate conformational plasticity, bilayer adsorption, and lipid interactions. They propose that the PBD is necessary but not sufficient for full lipid sorting and that the membrane anchor directs proteins to target membranes.
+- **Visible evidence base** Abstract text only; no simulation details, system descriptions, analysis methods, or quantitative results are available
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field details, system setup, analysis protocols, figures, tables, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis about the role of conformational ensembles in lipid recognition by prenylated intrinsically disordered regions. However, the evidence base is limited to a summary of qualitative findings without quantitative support. The central claims regarding conformational plasticity as a determinant of lipid sorting and the generalizability across polybasic PIDRs cannot be evaluated from the supplied material. The work may be of interest to the membrane biophysics and small GTPase communities, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying membrane protein anchoring, lipid-protein interactions, small GTPase biology, and intrinsically disordered proteins. The proposed link between conformational ensembles and lipid sorting could inform understanding of how membrane anchors achieve specificity, which is relevant to cell signaling and membrane trafficking.
+- **Major strengths** The study addresses a relevant question about how disordered regions achieve lipid specificity. The use of long timescale atomistic simulations in an asymmetric membrane is appropriate for this problem. The abstract identifies specific sequence features (palmitoylation, basic to acidic residue ratio, hydrophobic content) that may modulate behavior, which provides a testable framework.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that conformational plasticity is a key determinant of lipid sorting by polybasic PIDRs and that lipid sorting is based on both headgroup and acyl chain structures.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract provides no quantitative data, no comparison between systems, no statistical measures, and no description of how lipid sorting was quantified. Without these, the claim that conformational plasticity determines lipid sorting is unsupported.  
+  - **Why it matters** The central thesis of the paper rests on a causal relationship between conformational ensembles and lipid selectivity. If the evidence for this relationship is not presented in a verifiable form, the conclusion cannot be assessed.  
+  - **Resolution test** Provide quantitative measures of lipid enrichment or depletion for each PIDR, correlation analyses between conformational substate populations and lipid preferences, and appropriate statistical tests.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability  
+  - **Claim pointer** The authors claim that conformational ensemble-based lipid recognition is generalizable to all polybasic PIDRs.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not specify how many PIDRs were studied, how diverse they are, or what criteria were used to establish generalizability. A claim of universality requires a systematic sampling of sequence space and a demonstration that the observed behavior is not idiosyncratic to the selected systems.  
+  - **Why it matters** Overgeneralization from a limited set of simulations could mislead the field. The claim of generalizability is a strong statement that requires broad evidence.  
+  - **Resolution test** List the number and sequence diversity of PIDRs studied, show that the relationship between conformational plasticity and lipid sorting holds across all systems, and provide a statistical basis for the generalization.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic attribution  
+  - **Claim pointer** The authors propose that the PBD is required but not sufficient for full lipid sorting and that the membrane anchor directs the protein to the right target membrane.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not describe any experiments or simulations that isolate the contribution of the PBD from the rest of the sequence. The claim that the PBD is not sufficient implies a comparative analysis that is not described.  
+  - **Why it matters** This is a mechanistic claim about the functional role of sequence regions. Without direct evidence from constructs that vary the PBD or the flanking sequence, the proposal remains speculative.  
+  - **Resolution test** Show simulations or experiments with PBD-only constructs versus full-length PIDRs, and demonstrate differences in lipid sorting or membrane targeting that support the proposed division of labor.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical validation  
+  - **Claim pointer** The authors used long timescale atomistic molecular dynamics simulations in an asymmetric model membrane.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No simulation details are provided, including force field, water model, ion concentration, temperature, pressure coupling, simulation length per system, number of replicas, or convergence criteria. Without these, the technical soundness of the simulations cannot be assessed.  
+  - **Why it matters** Atomistic simulations of lipid membranes are sensitive to force field parameters and sampling. If the simulations are not converged or the force field is inappropriate, the conclusions may be artifacts.  
+  - **Resolution test** Provide full simulation parameters, demonstrate convergence of relevant observables, and include validation against experimental data where available.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of PIDR  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term PIDR is used without a clear definition of what constitutes a prenylated intrinsically disordered region in this context.  
+  - **Required correction** Define PIDR explicitly, including the prenylation motif and the disordered region boundaries.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Specificity  
+  - **Affected element** Lipid sorting metrics  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states that lipid sorting is based on headgroup and acyl chain structures but does not specify which lipids were enriched or depleted.  
+  - **Required correction** Provide specific examples of lipid species that were sorted and the direction of sorting.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "conformational ensemble"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term conformational ensemble is used but the relationship between ensemble properties and lipid interactions is not quantified.  
+  - **Required correction** Define how the conformational ensemble was characterized (e.g., clustering, principal component analysis) and how ensemble features were linked to lipid behavior.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient evidence to support the central claims of causality, generalizability, and mechanistic attribution. Technical details of the simulations are absent.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea that conformational ensembles of disordered regions contribute to lipid specificity is not entirely new but the specific application to prenylated small GTPase PIDRs may offer a fresh perspective. The abstract does not clearly distinguish this work from prior studies on polybasic motifs and lipid interactions.  
+  - Scientific importance: If substantiated, the findings could have implications for understanding membrane targeting of small GTPases. However, the importance is not fully established from the abstract alone.  
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and computational biology, which could appeal to a broad audience. The abstract is written in a way that is accessible to nonspecialists, though some terms may require background.  
+  - Technical soundness: Cannot be assessed from the abstract. No simulation or analysis details are provided.  
+  - Readability for nonspecialists: The abstract is generally readable but uses jargon such as PIDR and PBD without full explanation. The logical flow is clear.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the quantitative and technical detail required to evaluate the claims. I would be supportive if the full manuscript provides the missing evidence and addresses the major concerns.
+
+## Risk / unsupported claims
+- The claim that conformational plasticity is a key determinant of lipid sorting is unsupported without quantitative correlation data.
+- The claim that lipid sorting is based on both headgroup and acyl chain structures is unsupported without specific lipid enrichment data.
+- The claim that conformational ensemble-based lipid recognition is generalizable to all polybasic PIDRs is unsupported without a systematic survey.
+- The claim that the PBD is required but not sufficient for full lipid sorting is unsupported without comparative constructs.
+- The claim that the membrane anchor directs the protein to the right target membrane is unsupported without direct evidence of targeting specificity.
+- The technical adequacy of the simulations is not assessable from the abstract.

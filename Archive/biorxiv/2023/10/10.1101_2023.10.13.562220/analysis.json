@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.13.562220",
+  "title": "FibrilPaint to determine the length of Tau amyloids in fluids",
+  "authors": "Aragonès Pedrola J; Dekker FA; Garfagnini T; Mayer G; Koopman MB; Bergmeijer M; Förster F; Hoozemans JJM; Jensen H; Friedler A; Rüdiger SGD",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-13",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发荧光肽FibrilPaint1结合微流控FIDA测量Tau淀粉样纤维长度，虽涉及Tau蛋白聚集和纤维结合，但对象为成熟纤维而非无序蛋白介导的PPI，方法为实验工具而非AI/物理模拟，对互作机制建模启发有限。",
+  "abstract": "Tau aggregation into amyloid fibrils is linked to the development of neurodegenerative diseases, including Alzheimer’s Disease. The molecular processes underlying aggregation in disease are poorly understood. Here, we introduce FibrilPaint1 as a tool to measure the size of Tau amyloid fibrils in fluids, from early aggregation stages to mature fibrils. FibrilPaint1 is a 22mer peptide with many exciting properties, which makes it a tool for diagnostics and an attractive start point for developing a class of effective fibril targeting degraders: (i) FibrilPaint1 binds fibrils with nanomolar affinity; (ii) it does also bind to oligomeric precursors, down to a size of only 4 layers; (iii) it does not bind to monomers (KD > 100 µM); (iv) it is fluorescently labelled, which allows monitoring and localising interactions. (v) FibrilPaint1 recognises various Tau fibrils, including patient derived fibrils from Alzheimer, Corticobasal degeneration and Frontotemporal dementia; (vi) FibrilPaint1 is selective for the amyloid state and does not have background binding to amorphous aggregates, blood serum or cell lysate. In combination with Flow Induced Dispersion Analysis (FIDA), a microfluidics technology, we determined the molecular size of amyloid fibrils with sub-microliter sample volumes. This set-up acts as a molecular ruler at layer resolution - we determined Tau fibril length from 4 to 1100 layers in solution. This is an interesting parameter that can be used for diagnostic applications and biochemical research in dementia.",
+  "abstract_zh": "Tau蛋白聚集成淀粉样纤维与神经退行性疾病（包括阿尔茨海默病）的发展相关。疾病中聚集的分子过程尚不清楚。在此，我们引入FibrilPaint1作为测量流体中Tau淀粉样纤维大小的工具，从早期聚集阶段到成熟纤维。FibrilPaint1是一种22mer肽，具有许多令人兴奋的特性，使其成为诊断工具，并成为开发一类有效纤维靶向降解剂的有吸引力的起点：(i) FibrilPaint1以纳摩尔亲和力结合纤维；(ii) 它也结合寡聚前体，小至仅4层；(iii) 它不结合单体（KD > 100 µM）；(iv) 它被荧光标记，允许监测和定位相互作用；(v) FibrilPaint1识别多种Tau纤维，包括来自阿尔茨海默病、皮质基底节变性和额颞叶痴呆的患者来源纤维；(vi) FibrilPaint1对淀粉样状态具有选择性，对无定形聚集体、血清或细胞裂解液无背景结合。结合流动诱导分散分析（Flow Induced Dispersion Analysis, FIDA）这一微流控技术，我们以亚微升样品体积测定了淀粉样纤维的分子大小。该装置作为层分辨率的分子尺——我们测定了溶液中Tau纤维长度从4到1100层。这是一个有趣的参数，可用于痴呆症的诊断应用和生化研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.13.562220",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.13.562220",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.13.562220/index.html"
+}

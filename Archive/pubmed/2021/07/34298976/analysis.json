@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34298976",
+  "title": "Regulation of Mitochondrial Respiration by VDAC Is Enhanced by Membrane-Bound Inhibitors with Disordered Polyanionic C-Terminal Domains.",
+  "authors": "Rostovtseva, Tatiana K; Bezrukov, Sergey M; Hoogerheide, David P",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-07-25",
+  "window": {
+    "start": "2021-07-19",
+    "end": "2021-07-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究揭示微管蛋白和α-突触核蛋白的无序多聚阴离子C端结构域在跨膜电位驱动下进入VDAC通道孔并物理阻断，形成抑制性PPI复合物，建立了无序蛋白介导膜蛋白互作与线粒体呼吸调控的通用机制模型，与本课题的无序蛋白互作机制建模高度契合。",
+  "abstract": "The voltage-dependent anion channel (VDAC) is the primary regulating pathway of water-soluble metabolites and ions across the mitochondrial outer membrane. When reconstituted into lipid membranes, VDAC responds to sufficiently large transmembrane potentials by transitioning to gated states in which ATP/ADP flux is reduced and calcium flux is increased. Two otherwise unrelated cytosolic proteins, tubulin, and alpha-synuclein (alphaSyn), dock with VDAC by a novel mechanism in which the transmembrane potential draws their disordered, polyanionic C-terminal domains into and through the VDAC channel, thus physically blocking the pore. For both tubulin and alphaSyn, the blocked state is observed at much lower transmembrane potentials than VDAC gated states, such that in the presence of these cytosolic docking proteins, VDAC's sensitivity to transmembrane potential is dramatically increased. Remarkably, the features of the VDAC gated states relevant for bioenergetics-reduced metabolite flux and increased calcium flux-are preserved in the blocked state induced by either docking protein. The ability of tubulin and alphaSyn to modulate mitochondrial potential and ATP production in vivo is now supported by many studies. The common physical origin of the interactions of both tubulin and alphaSyn with VDAC leads to a general model of a VDAC inhibitor, facilitates predictions of the effect of post-translational modifications of known inhibitors, and points the way toward the development of novel therapeutics targeting VDAC.",
+  "abstract_zh": "电压依赖性阴离子通道（VDAC）是水溶性代谢物和离子穿越线粒体外膜的主要调控途径。当重构到脂质膜中时，VDAC响应足够大的跨膜电位，转变为门控状态，在此状态下ATP/ADP通量减少，钙通量增加。两个本不相关的胞质蛋白——微管蛋白（tubulin）和α-突触核蛋白（alphaSyn）——通过一种新颖机制与VDAC对接，该机制中跨膜电位将其无序的多阴离子C端结构域拉入并穿过VDAC通道，从而物理性阻塞孔道。对于微管蛋白和alphaSyn而言，阻塞状态在远低于VDAC门控状态的跨膜电位下即可观察到，因此在存在这些胞质对接蛋白时，VDAC对跨膜电位的敏感性显著增强。值得注意的是，与生物能量学相关的VDAC门控状态特征——代谢物通量减少和钙通量增加——在任一对接蛋白诱导的阻塞状态中均得以保留。微管蛋白和alphaSyn在体内调节线粒体电位和ATP产生的能力现已得到多项研究的支持。微管蛋白和alphaSyn与VDAC相互作用的共同物理起源，催生了一种VDAC抑制剂的通用模型，有助于预测已知抑制剂翻译后修饰的影响，并为开发靶向VDAC的新型治疗策略指明了方向。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34298976/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34298976/",
+  "paper_page_path": "papers/pubmed/34298976/index.html"
+}

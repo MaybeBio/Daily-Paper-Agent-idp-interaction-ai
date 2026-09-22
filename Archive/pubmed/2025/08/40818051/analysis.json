@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40818051",
+  "title": "Amino acid osmolytes disrupting intradomain interactions reduce the amyloidogenicity of alpha-synuclein: studies with charged l-amino acids and their derivatives.",
+  "authors": "Saurabh, Archi; Chauhan, Suraj; Prakash, Jogadhenu S S; Prabhu, N Prakash",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2025-08-16",
+  "window": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过实验和分子动力学模拟研究氨基酸渗透剂如何通过破坏α-突触核蛋白（无序蛋白）的域内相互作用来调控其纤维化，虽非直接PPI但涉及无序蛋白构象与互作机制建模，方法上MD模拟可迁移。",
+  "abstract": "Aggregation of alpha-synuclein (alpha-syn) is a hallmark of Parkinson's and dementia with Lewy bodies pathogenesis. The high plasticity and lack of stable tertiary structure make alpha-syn more susceptible to its surrounding environment. Under stress conditions, small organic molecules known as osmolytes accumulate inside the cells. They affect the conformational states and fibrillation pathways of proteins. Here, the effects of eight different amino acid osmolytes (charged: l-glutamate, l-aspartate, l-lysine, l-arginine; amide side chains: l-glutamine, l-asparagine; and N-acetylated: N-acetyl-l-glutamic acid, N-acetyl-l-lysine) on the fibrillation of human alpha-synuclein were examined. Arginine and N-acetyl-l-lysine inhibited the fibrillation at concentrations above 0.2 and 0.4 M, respectively. Lysine, asparagine, and glutamate accelerated the fibrillation by reducing lag time. N-acetyl-l-glutamic acid induced lag-independent fibrillation, whereas glutamine and asparagine showed concentration-dependent effects on the fibrillation with reduced lag time at higher concentrations. Molecular dynamics simulations revealed that interdomain contacts facilitated the fibrillation. The amino acids interacting predominantly through van der Waals interactions reduced the lag time of alpha-syn. However, the amino acids having strong electrostatic interactions with the protein disrupted intradomain contacts, favored extended conformation, and inhibited the fibril formation.",
+  "abstract_zh": "α-突触核蛋白（alpha-syn）的聚集是帕金森病和路易体痴呆发病机制的一个标志。alpha-syn的高度可塑性和缺乏稳定三级结构使其更容易受周围环境影响。在应激条件下，被称为渗透调节物质的小分子有机化合物在细胞内积累，它们影响蛋白质的构象状态和纤维化途径。本研究考察了八种不同氨基酸类渗透调节物质（带电型：l-谷氨酸、l-天冬氨酸、l-赖氨酸、l-精氨酸；酰胺侧链型：l-谷氨酰胺、l-天冬酰胺；以及N-乙酰化型：N-乙酰-l-谷氨酸、N-乙酰-l-赖氨酸）对人alpha-突触核蛋白纤维化的影响。精氨酸和N-乙酰-l-赖氨酸分别在浓度高于0.2 M和0.4 M时抑制纤维化。赖氨酸、天冬酰胺和谷氨酸通过缩短延迟时间加速纤维化。N-乙酰-l-谷氨酸诱导不依赖延迟期的纤维化，而谷氨酰胺和天冬酰胺对纤维化表现出浓度依赖性效应，在较高浓度下缩短延迟时间。分子动力学模拟揭示，结构域间接触促进了纤维化。主要通过范德华相互作用结合的氨基酸缩短了alpha-syn的延迟时间。然而，与蛋白质具有强静电相互作用的氨基酸破坏了结构域内接触，有利于延伸构象，并抑制纤维形成。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40818051/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40818051/",
+  "paper_page_path": "papers/pubmed/40818051/index.html"
+}

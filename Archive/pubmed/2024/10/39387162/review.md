@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report detection of three distinct dynamic states (dynamic, viscous, intermediate) within a phosphorylated HP1alpha (pHP1alpha) phase-separated system using modified solid-state NMR pulse sequences based on heteronuclear Overhauser effect (hetNOE), scalar coupling, and dipolar coupling transfer schemes. They further report, via combined MD simulations, that low KCl concentration (30 mM) reduces molecular motion in the protein gel, while high KCl concentration (150 mM) increases molecular motion, attributed to KCl-regulated intermolecular electrostatic interactions.
+- **Visible evidence base** Abstract text only; no experimental details, spectra, simulation parameters, or quantitative results provided
+- **Missing materials affecting confidence** Full manuscript, NMR pulse sequence details, spectral assignments, MD simulation protocols, force field parameters, statistical analyses, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting methodological application of solid-state NMR to characterize dynamic heterogeneity in a phase-separated protein system. The combination of hetNOE-based detection with MD simulations is conceptually appealing. However, the abstract provides insufficient detail to evaluate the technical validity of the NMR approach, the robustness of the dynamic state classification, or the mechanistic interpretation linking KCl concentration to electrostatic interactions. The central claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biophysics, structural biology, and chromatin biology, particularly those studying liquid-liquid phase separation mechanisms, protein dynamics by NMR, and the physicochemical properties of biomolecular condensates. The methodological aspect of using hetNOE-based SSNMR to probe dynamic heterogeneity may interest NMR spectroscopists developing tools for phase-separated systems.
+- **Major strengths** The use of hetNOE-based transfer as a complementary approach to scalar coupling-based methods for probing molecular dynamics in phase-separated systems is a reasonable and potentially valuable methodological contribution. The selective excitation and individual study of three NMR-detectable states within a protein gel is an ambitious and interesting strategy. The combination of experimental NMR with MD simulations to interpret salt-dependent behavior is a sensible integrative approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim detection of "dynamic, viscous, and intermediate components" within the pHP1alpha phase-separated system using modified SSNMR pulse sequences.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide any information on how the three components were defined, distinguished, or validated. No spectral data, relaxation parameters, or quantitative criteria for classifying states as "dynamic," "viscous," or "intermediate" are presented. The assignment of these states to specific molecular populations is not justified.
+  - **Why it matters** The central methodological claim rests on the ability to reliably separate and identify three distinct dynamic states. Without evidence of spectral resolution, reproducibility, or control experiments, the existence of these states as distinct entities rather than artifacts of the pulse sequence cannot be assessed.
+  - **Resolution test** Provide representative spectra showing resolved signals from the three states, quantitative criteria for state classification (e.g., relaxation rate thresholds), and control experiments demonstrating that the observed components are not artifacts of pulse sequence imperfections or sample heterogeneity unrelated to dynamics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "hetNOE offers more direct insight into molecular dynamics" compared to scalar coupling-based methods.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of superiority for hetNOE is presented without comparative data or theoretical justification. The abstract does not explain why hetNOE-based transfer is more direct than scalar coupling-based approaches for probing dynamics in this context, nor does it provide a side-by-side comparison.
+  - **Why it matters** This claim underpins the methodological novelty of the work. If the advantage of hetNOE is not demonstrated or rigorously argued, the contribution reduces to an incremental application of existing techniques.
+  - **Resolution test** Provide a direct comparison of hetNOE-based and scalar coupling-based detection on the same sample, with quantitative metrics of sensitivity, resolution, or dynamic information content, and a clear theoretical rationale for the claimed advantage.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors attribute the observed increase in molecular motion at high KCl concentration (150 mM) to "resultant intermolecular electrostatic interactions regulated by KCl."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The mechanistic interpretation linking KCl concentration to electrostatic interactions and molecular motion is stated without supporting evidence. The abstract does not specify which electrostatic interactions are involved, how they are modulated by KCl, or how the MD simulations support this specific attribution rather than alternative explanations (e.g., changes in hydration, excluded volume, or protein conformation).
+  - **Why it matters** The salt-dependent behavior is a key finding with implications for understanding the physicochemical regulation of phase separation. An unsupported mechanistic claim weakens the conceptual contribution and may mislead interpretation.
+  - **Resolution test** Present MD simulation results that directly probe intermolecular electrostatic interactions at both KCl concentrations, with appropriate controls (e.g., mutation of charged residues, variation of ionic strength), and show that the observed changes in molecular motion correlate with these interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses specialized NMR terminology (hetNOE, scalar coupling-based, dipolar coupling-based transfer schemes) without brief definitions or context, which may limit accessibility for readers outside the NMR community.
+  - **Required correction** Add a brief parenthetical explanation of the physical basis of each transfer scheme or rephrase to emphasize the conceptual distinction (e.g., through-space vs. through-bond vs. dipolar interactions) for a broader biophysics audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** KCl concentration range
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Only two KCl concentrations (30 mM and 150 mM) are mentioned. The choice of these specific values and whether intermediate concentrations were tested is not stated.
+  - **Required correction** Briefly justify the concentration selection or state whether a concentration series was examined, to strengthen the dose-response interpretation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Biological relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not connect the observed salt-dependent behavior to physiological conditions or functional consequences for chromatin phase separation.
+  - **Required correction** Add a sentence relating the KCl concentrations to physiological ionic conditions and discussing potential implications for pHP1alpha function in chromatin organization.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (state classification not validated), R1-M2 (hetNOE advantage not demonstrated), R1-M3 (electrostatic mechanism not supported)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of hetNOE-based SSNMR to phase-separated systems is a novel angle, but the underlying concept of probing dynamic heterogeneity in biomolecular condensates is not new. Scientific importance: Moderate. The work addresses a relevant question in phase separation biology, but the abstract does not establish a broadly significant conceptual advance. Interdisciplinary readership: Limited. The abstract is likely to appeal primarily to NMR spectroscopists and biophysicists; the biological implications are not developed enough to attract a wider chromatin biology audience. Technical soundness: Not assessable from the abstract. The key methodological claims lack supporting data. Readability for nonspecialists: Acceptable but could be improved with brief definitions of NMR terms and clearer framing of the biological context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting premise, but the central claims regarding state detection, methodological advantage, and mechanistic interpretation cannot be evaluated without full experimental details. A supportive recommendation would require the full manuscript to address the technical concerns raised.
+
+## Risk / unsupported claims
+- The existence of three distinct dynamic states (dynamic, viscous, intermediate) in the pHP1alpha phase-separated system is unsupported by the abstract alone.
+- The claim that hetNOE offers more direct insight into molecular dynamics than scalar coupling-based methods is unsupported.
+- The attribution of increased molecular motion at high KCl concentration to intermolecular electrostatic interactions is unsupported.
+- The statement that "NMR signals from the three different states in the protein gel were selectively excited and individually studied" implies a level of spectral resolution and selectivity that cannot be verified from the abstract.
+- The general claim that the findings "indicate" reduced molecular motion at low KCl and increased motion at high KCl is presented without quantitative data or statistical assessment.

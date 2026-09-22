@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.19.537507",
+  "title": "VoroIF-GNN: Voronoi tessellation-derived protein-protein interface assessment using a graph neural network",
+  "authors": "Kliment Olechnovič; Česlovas Venclovas",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-21",
+  "window": {
+    "start": "2023-04-17",
+    "end": "2023-04-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用Voronoi剖分和注意力图神经网络评估蛋白复合物亚基间界面接触的准确性，虽非针对无序蛋白，但其界面接触级预测与打分方法可迁移至IDR介导的PPI机制建模。",
+  "abstract": "We present VoroIF-GNN, a novel single-model method for assessing inter-subunit interfaces in protein-protein complexes. Given a multimeric protein structural model, we derive interface contacts from the Voronoi tessellation of atomic balls, construct a graph of those contacts, and predict accuracy of every contact using an attention-based graph neural network. The contact-level predictions are then summarized to produce whole interface-level scores. VoroIF-GNN was blindly tested for its ability to estimate accuracy of protein complexes during CASP15 and showed strong performance in selecting the best multimeric model out of many. The method implementation is freely available at https://klimentolechnovic.github.io/voronota/expansion_js/ .",
+  "abstract_zh": "我们提出VoroIF-GNN，一种用于评估蛋白质-蛋白质复合物亚基间界面的新型单模型方法。给定一个多聚体蛋白质结构模型，我们从原子球的Voronoi镶嵌中推导出界面接触，构建这些接触的图，并使用基于注意力的图神经网络预测每个接触的准确性。随后，接触级别的预测被汇总以生成整体界面级别的评分。VoroIF-GNN在CASP15期间经过盲测，用于估计蛋白质复合物的准确性，并在从众多多聚体模型中选择最佳模型方面表现出强大性能。该方法实现可自由获取于https://klimentolechnovic.github.io/voronota/expansion_js/。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.19.537507",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.19.537507",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.19.537507/index.html"
+}

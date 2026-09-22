@@ -1,0 +1,216 @@
+{
+  "identity": {
+    "pmid": "39868549",
+    "doi": "10.1039/d4sm01395f",
+    "title": "A study of alpha-synuclein and poly(N-isopropylacrylamide) complex formation through detailed atomistic simulations."
+  },
+  "content": {
+    "abstract": "This work presents an investigation of the influence of poly(N-isopropylacrylamide) (PNIPAM) polymer on the structural dynamics of intrinsically disordered alpha-synuclein (alpha-syn) protein, exploring the formation and intricate features of the resulting alpha-syn/PNIPAM complexes. Using atomistic molecular dynamics (MD) simulations, our study analyzes the impact of initial configuration, polymer molecular weight, and protein mutations on the alpha-syn and the alpha-syn/PNIPAM complex. Atomistic simulations, of a few mus, of the protein/polymer complex reveal crucial insights into molecular interactions within the complex, emphasizing a delicate balance of forces governing its stability and structural evolution. Our findings indicate that PNIPAM polymer engages in significant non-polar interactions with the non-amyloid component (NAC) region of alpha-syn, which plays a crucial role in fibril formation, under various conditions such as the mutations in the protein structure and polymer chain length. Especially the PNIPAM polymer with a 40mer monomer exhibits a stabilizing effect on the structural properties of the protein, reducing intramolecular interactions that contribute to misfolding. These findings, which delve into protein/polymer interactions, hold promise as potential guidance for therapeutic strategies in various neurodegenerative disorders.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/genetics/metabolism",
+      "*Acrylic Resins/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ektirici, Sisem",
+        "Harmandaris, Vagelis"
+      ],
+      "short_names": [
+        "Ektirici S",
+        "Harmandaris V"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9613-7639"
+      ],
+      "affiliations": [
+        "Computation-based Science and Technology Research Center, The Cyprus Institute, 2121 Nicosia, Cyprus. v.harmandaris@cyi.ac.cy.",
+        "Computation-based Science and Technology Research Center, The Cyprus Institute, 2121 Nicosia, Cyprus. v.harmandaris@cyi.ac.cy.",
+        "Department of Mathematics and Applied Mathematics, University of Crete, Heraklion, GR-71110, Greece.",
+        "Institute of Applied and Computational Mathematics, Foundation for Research and Technology - Hellas, Heraklion, GR-71110 Crete, Greece."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ektirici, Sisem",
+        "short_name": "Ektirici S",
+        "identifiers": [],
+        "affiliations": [
+          "Computation-based Science and Technology Research Center, The Cyprus Institute, 2121 Nicosia, Cyprus. v.harmandaris@cyi.ac.cy."
+        ]
+      },
+      {
+        "full_name": "Harmandaris, Vagelis",
+        "short_name": "Harmandaris V",
+        "identifiers": [
+          "0000-0002-9613-7639"
+        ],
+        "affiliations": [
+          "Computation-based Science and Technology Research Center, The Cyprus Institute, 2121 Nicosia, Cyprus. v.harmandaris@cyi.ac.cy.",
+          "Department of Mathematics and Applied Mathematics, University of Crete, Heraklion, GR-71110, Greece.",
+          "Institute of Applied and Computational Mathematics, Foundation for Research and Technology - Hellas, Heraklion, GR-71110 Crete, Greece."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Soft matter"
+    ],
+    "journal_abbrev": [
+      "Soft Matter"
+    ],
+    "pub_date": "2025 Feb 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/27 12:24",
+    "fetched_at": "2026-09-21 15:11:46"
+  },
+  "links": {
+    "cites": [
+      "42460672"
+    ],
+    "refs": [],
+    "similar": [
+      "39868549",
+      "38700150",
+      "36278939",
+      "39980393",
+      "28796507",
+      "39693815",
+      "25666289",
+      "23607785",
+      "37189428",
+      "36877087",
+      "30853581",
+      "29715424",
+      "25869255",
+      "28373279",
+      "30769283",
+      "39947752",
+      "36379279",
+      "29073554",
+      "37923923",
+      "33649211",
+      "29364151",
+      "23374074",
+      "26723627",
+      "40268916",
+      "37768058",
+      "39306670",
+      "37431676",
+      "28460628",
+      "26119103",
+      "39232485",
+      "39046235",
+      "38458997",
+      "40020199",
+      "19576220",
+      "32457390",
+      "26027700",
+      "17381514",
+      "39756734",
+      "37433401",
+      "20148295",
+      "30920510",
+      "25210774",
+      "23912807",
+      "28024449",
+      "26601760",
+      "38126188",
+      "24275613",
+      "33352154",
+      "26193124",
+      "29604892",
+      "36550041",
+      "32291284",
+      "23374072",
+      "34716315",
+      "38964522",
+      "34161822",
+      "35690099",
+      "40320462",
+      "22315227",
+      "33333378",
+      "34172566",
+      "29853639",
+      "31903719",
+      "28075555",
+      "36961209",
+      "35623711",
+      "30277753",
+      "32737160",
+      "36067498",
+      "18769546",
+      "37489886",
+      "35491838",
+      "29959225",
+      "30065316",
+      "27587396",
+      "20026206",
+      "29874605",
+      "39951335",
+      "33903234",
+      "33186020",
+      "38801346",
+      "37741548",
+      "40207671",
+      "22274962",
+      "30917654",
+      "30917651",
+      "31370680",
+      "33356274",
+      "30142698",
+      "33415971",
+      "26553504",
+      "33972418",
+      "34015255",
+      "31111370",
+      "31133671",
+      "37036430",
+      "30609739",
+      "39957201",
+      "29372732",
+      "38335809"
+    ],
+    "review": [
+      "39868549",
+      "30853581",
+      "39947752",
+      "29364151",
+      "24275613",
+      "30142698"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d4sm01395f",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

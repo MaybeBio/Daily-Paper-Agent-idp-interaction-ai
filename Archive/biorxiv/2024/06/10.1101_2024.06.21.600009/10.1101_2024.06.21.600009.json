@@ -1,0 +1,215 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.21.600009",
+  "title": "Targeted engineering of the phase separating PARCL protein",
+  "doi": "10.1101/2024.06.21.600009",
+  "abstract": "PARCL is a plant-specific RNA-binding protein (RBP) that exhibits chaperone activity, is abundant in the phloem, intrinsically disordered, and contains a prion-like domain (PLD). PARCL proteins have been observed to form large biomolecular condensates in vivo and in vitro . Biomolecular condensates are membraneless compartments, wherein biomolecules become partitioned from their surrounding liquid environment into liquid droplets with their own composition, dynamics, and function. Which molecular properties drive phase separation is of great interest for targeted engineering efforts. Here, we present results on residue interactions derived from simulations of PARCL using course-grained molecular dynamics with the HPS-Urry model. We adjust the parameters of the simulations to allow the inclusion of folded eYFP tags, since fluorescent tags are often used in phase separation experiments for visualising droplets, yet have not been included in simulations to date. While still simulating phase separation, these trajectories suggest minor changes to droplet and network structure when proteins contain eYFP. By analysing the residues of the PARCL molecules that come within contact distance in the simulations, we identify which individual residues drive phase separation. To experimentally validate these findings, we introduced mutations of the most contacted residues and could indeed confirm that these mutations prevent the formation of condensate droplets. To investigate the RNA-binding of PARCL, we added microRNA to the simulation and find a short region of PARCL consistently making contact with the miRNA, which is also in agreement with predictions and experiments. We discuss the implications of our findings in terms of model-guided engineering of biomolecular condensates.",
+  "authors": [
+    "Veevers R",
+    "Ostendorp S",
+    "Ostendorp A",
+    "Kehr J",
+    "Morris RJ"
+  ],
+  "published_date": "2024-06-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.21.600009",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.21.600009.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR872431",
+    "raw_record": {
+      "id": "PPR872431",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR872431"
+        ]
+      },
+      "doi": "10.1101/2024.06.21.600009",
+      "title": "Targeted engineering of the phase separating PARCL protein",
+      "authorString": "Veevers R, Ostendorp S, Ostendorp A, Kehr J, Morris RJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Veevers R",
+            "lastName": "Veevers",
+            "firstName": "Ruth",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational and Systems Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ostendorp S",
+            "lastName": "Ostendorp",
+            "firstName": "Steffen",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, Institute of Plant Science and Microbiology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ostendorp A",
+            "lastName": "Ostendorp",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, Institute of Plant Science and Microbiology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kehr J",
+            "lastName": "Kehr",
+            "firstName": "Julia",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3617-9981"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, Institute of Plant Science and Microbiology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morris RJ",
+            "lastName": "Morris",
+            "firstName": "Richard",
+            "initials": "RJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3080-2613"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational and Systems Biology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5931-0511"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0985-0063"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3080-2613"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3617-9981"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "PARCL is a plant-specific RNA-binding protein (RBP) that exhibits chaperone activity, is abundant in the phloem, intrinsically disordered, and contains a prion-like domain (PLD). PARCL proteins have been observed to form large biomolecular condensates  in vivo and  in vitro . Biomolecular condensates are membraneless compartments, wherein biomolecules become partitioned from their surrounding liquid environment into liquid droplets with their own composition, dynamics, and function. Which molecular properties drive phase separation is of great interest for targeted engineering efforts. Here, we present results on residue interactions derived from simulations of PARCL using course-grained molecular dynamics with the HPS-Urry model. We adjust the parameters of the simulations to allow the inclusion of folded eYFP tags, since fluorescent tags are often used in phase separation experiments for visualising droplets, yet have not been included in simulations to date. While still simulating phase separation, these trajectories suggest minor changes to droplet and network structure when proteins contain eYFP. By analysing the residues of the PARCL molecules that come within contact distance in the simulations, we identify which individual residues drive phase separation. To experimentally validate these findings, we introduced mutations of the most contacted residues and could indeed confirm that these mutations prevent the formation of condensate droplets. To investigate the RNA-binding of PARCL, we added microRNA to the simulation and find a short region of PARCL consistently making contact with the miRNA, which is also in agreement with predictions and experiments. We discuss the implications of our findings in terms of model-guided engineering of biomolecular condensates.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.06.21.600009"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.21.600009"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR872431"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR872431&type=FILE&fileName=EMS197113-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS197113",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-06-27",
+      "firstPublicationDate": "2024-06-25",
+      "firstIndexDate": "2024-06-27",
+      "fullTextReceivedDate": "2024-07-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

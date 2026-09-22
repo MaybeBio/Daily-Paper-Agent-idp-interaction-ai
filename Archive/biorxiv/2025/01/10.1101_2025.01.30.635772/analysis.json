@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.01.30.635772",
+  "title": "Pathological mutation in SMN impairs modulation of GAR1 phase separation linking condensate dysfunction to Spinal Muscular Atrophy",
+  "authors": "Félix SS; O’Toole P; Oliveira NAS; Pinho BR; Blacker TS; Fernandes F; Oliveira JMA; Oroz J; Laurents DV; Cabrita EJ",
+  "journal": "bioRxiv",
+  "published_date": "2025-01-31",
+  "window": {
+    "start": "2025-01-27",
+    "end": "2025-02-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究SMN Tudor结构域作为客户蛋白通过竞争性RNA互作调控GAR1（RGG-rich无序蛋白）相分离凝聚体的机制，并揭示SMA致病突变破坏该互作导致凝聚体功能障碍，直接契合无序蛋白介导的PPI与相分离机制建模主题。",
+  "abstract": "<h4>Summary</h4> Pathological mutations in liquid-liquid phase separation (LLPS) scaffold proteins have been linked to biomolecular condensate dysfunction in neurodegenerative diseases, while the possible impact of client protein mutations remains unclear. In spinal muscular atrophy (SMA), the disease-associated E134K mutation in the Tudor domain (TD) of the survival motor neuron (SMN) protein disrupts its interaction with GAR1, an RGG-rich protein within the H/ACA small nucleolar ribonucleoprotein complex. The consequences of this impaired interaction have not been elucidated. Here, we identified GAR1 as an LLPS scaffold protein that is phase separated in nuclear compartments and forms gel-like condensates via complex coacervation with RNA in vitro . In cells, we reveal that SMN co-localizes with GAR1 in Cajal bodies and modulates its dynamics. Using confocal microscopy and NMR spectroscopy, we further show that SMN TD is a client protein that regulates the architecture and dynamics of GAR1 condensates through competitive RNA interactions, implicating GAR1 phase separation in RNA accumulation and release processes regulated by SMN. Notably, the SMA-associated E134K variant of SMN exhibits a reduced affinity for GAR1, impairing the modulation of GAR1 condensates and displacement RNA. Our findings suggest a mechanistic link between phase separation dysregulation and SMA, driven by disrupted scaffold-client interactions, that highlights the therapeutic potential of targeting SMN-dependent condensate regulation in SMA.",
+  "abstract_zh": "<h4>摘要</h4> 液-液相分离（LLPS）支架蛋白中的病理性突变与神经退行性疾病中的生物分子凝聚体功能障碍相关，而客户蛋白突变可能产生的影响仍不清楚。在脊髓性肌萎缩症（SMA）中，生存运动神经元（SMN）蛋白Tudor结构域（TD）的疾病相关E134K突变破坏了其与GAR1的相互作用，GAR1是H/ACA小核仁核糖核蛋白复合物中富含RGG的蛋白。这种受损相互作用的后果尚未阐明。在此，我们鉴定GAR1为一种LLPS支架蛋白，它在核区室中发生相分离，并在体外通过复杂凝聚作用与RNA形成凝胶状凝聚体。在细胞中，我们揭示SMN与GAR1在Cajal小体中共定位并调节其动态。利用共聚焦显微镜和核磁共振波谱，我们进一步表明SMN TD是一种客户蛋白，通过竞争性RNA相互作用调节GAR1凝聚体的结构和动态，暗示GAR1相分离参与由SMN调控的RNA积累和释放过程。值得注意的是，SMA相关的SMN E134K变体对GAR1的亲和力降低，损害了对GAR1凝聚体的调节及RNA的置换。我们的发现提示相分离失调与SMA之间存在机制联系，该联系由支架-客户相互作用的破坏驱动，强调了靶向SMN依赖性凝聚体调节在SMA中的治疗潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.01.30.635772",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.30.635772",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.01.30.635772/index.html"
+}

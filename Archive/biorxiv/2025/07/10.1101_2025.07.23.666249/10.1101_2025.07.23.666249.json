@@ -1,0 +1,739 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.23.666249",
+  "title": "Sequencing of <i>α</i> -synuclein Intrinsically Disordered Protein in MoS <sub>2</sub> Nanopores",
+  "doi": "10.1101/2025.07.23.666249",
+  "abstract": "α -synuclein is an intrinsically disordered protein composed of 140 amino acids that adopts multiple conformations and is prone to aggregate into β -sheet-rich structures, which are hallmarks of Parkinson’s disease. Moreover, missense mutations in α -synuclein are related to familial forms of this neurodegenerative disorder, making their detection at the single-molecule level essential. Recently, protein sequencing using solid-state nanopores has emerged as a powerful, label-free approach for single-molecule sensing with high sensitivity. Atomically thin two-dimensional materials, such as MoS 2 , provide ideal platforms for sequencing applications due to their ultimate thinness and enhanced spatial resolution. However, protein sequencing using 2D materials remains challenging because of rapid translocation speeds, which limit the observation time per molecule. Here, we present extensive all-atom classical molecular dynamics simulations in explicit solvent of the full translocation of the wild-type α -synuclein protein and two pathogenic mutants, i . e . A30P and E46K, through single-layer MoS 2 nanopores, for a total duration of more than 22 µ s. To the best of our knowledge, this work represents the first atomistic simulation of a full-length protein sequencing through a 2D solid-state nanopore. From the ionic current traces recorded during simulations, we characterized distinct blockade levels and bumps, as well as their dwell time along the protein sequence at multiple time and sequence length scales. For instance, we provided the sequence motifs that show some particular patterns in the data. Furthermore, we analyzed the volume properties of amino acids inside the pore and identified characteristic blockade fingerprints differentiating the wild-type from the mutant proteins. These pioneering results pave the way for future experimental studies, offering a roadmap for validating 2D nanopore-based protein sequencing and biomarker detection with single-molecule resolution.",
+  "authors": [
+    "Adrien Nicolaï",
+    "Patrice Delarue",
+    "Andreina Urquiola Hernandez",
+    "Patrick Senet"
+  ],
+  "published_date": "2025-07-26",
+  "updated_date": "2025-07-27T06:25:15Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666249",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666249.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T00:58:31Z",
+        "timestamp": 1768525111947,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            26
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 78,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                26
+              ]
+            ],
+            "date-time": "2025-07-26T00:00:00Z",
+            "timestamp": 1753488000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            26
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  <jats:italic>α</jats:italic>\n                  -synuclein is an intrinsically disordered protein composed of 140 amino acids that adopts multiple conformations and is prone to aggregate into\n                  <jats:italic>β</jats:italic>\n                  -sheet-rich structures, which are hallmarks of Parkinson’s disease. Moreover, missense mutations in\n                  <jats:italic>α</jats:italic>\n                  -synuclein are related to familial forms of this neurodegenerative disorder, making their detection at the single-molecule level essential. Recently, protein sequencing using solid-state nanopores has emerged as a powerful, label-free approach for single-molecule sensing with high sensitivity. Atomically thin two-dimensional materials, such as MoS\n                  <jats:sub>2</jats:sub>\n                  , provide ideal platforms for sequencing applications due to their ultimate thinness and enhanced spatial resolution. However, protein sequencing using 2D materials remains challenging because of rapid translocation speeds, which limit the observation time per molecule. Here, we present extensive all-atom classical molecular dynamics simulations in explicit solvent of the full translocation of the wild-type\n                  <jats:italic>α</jats:italic>\n                  -synuclein protein and two pathogenic mutants,\n                  <jats:italic>i</jats:italic>\n                  .\n                  <jats:italic>e</jats:italic>\n                  . A30P and E46K, through single-layer MoS\n                  <jats:sub>2</jats:sub>\n                  nanopores, for a total duration of more than 22\n                  <jats:italic>µ</jats:italic>\n                  s. To the best of our knowledge, this work represents the first atomistic simulation of a full-length protein sequencing through a 2D solid-state nanopore. From the ionic current traces recorded during simulations, we characterized distinct blockade levels and bumps, as well as their dwell time along the protein sequence at multiple time and sequence length scales. For instance, we provided the sequence motifs that show some particular patterns in the data. Furthermore, we analyzed the volume properties of amino acids inside the pore and identified characteristic blockade fingerprints differentiating the wild-type from the mutant proteins. These pioneering results pave the way for future experimental studies, offering a roadmap for validating 2D nanopore-based protein sequencing and biomarker detection with single-molecule resolution.\n                </jats:p>",
+      "DOI": "10.1101/2025.07.23.666249",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            27
+          ]
+        ],
+        "date-time": "2025-07-27T06:25:15Z",
+        "timestamp": 1753597515000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Sequencing of\n                  <i>α</i>\n                  -synuclein Intrinsically Disordered Protein in MoS\n                  <sub>2</sub>\n                  Nanopores"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-7779-4652",
+          "authenticated-orcid": false,
+          "given": "Adrien",
+          "family": "Nicolaï",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Patrice",
+          "family": "Delarue",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Andreina Urquiola",
+          "family": "Hernandez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2339-0019",
+          "authenticated-orcid": false,
+          "given": "Patrick",
+          "family": "Senet",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.freeradbiomed.2013.01.018"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/42166"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrn3406"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "fcaa010",
+          "DOI": "10.1093/braincomms/fcaa010",
+          "article-title": "Analysis of α-synuclein species enriched from cerebral cortex of humans with sporadic dementia with Lewy bodies",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Brain Commun"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.nbd.2020.104876"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1700239114"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja208657z"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "446",
+          "DOI": "10.1007/s12035-012-8334-1",
+          "article-title": "Targeting the chameleon: a focused look at α-synuclein and its roles in neurodegeneration",
+          "volume": "47",
+          "year": "2013",
+          "journal-title": "Mol. Neurobiol"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.nbd.2015.12.018"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmolb.2021.786123"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M411805200"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja100646t"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10324"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1307678110"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2017.09.004"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.276.5321.2045"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng0298-106"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi010616g"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0161-813X(02)00066-9"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ana.10795"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1004741"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep16696"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2021.12.019"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41578-020-0229-6"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "312",
+          "DOI": "10.1038/s41587-025-02587-y",
+          "article-title": "Toward single-molecule protein sequencing using nanopores",
+          "volume": "43",
+          "year": "2025",
+          "journal-title": "Nat. Biotechnol"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "224",
+          "DOI": "10.1038/s41570-025-00694-7",
+          "article-title": "Detection of protein oligomers with nanopores",
+          "volume": "9",
+          "year": "2025",
+          "journal-title": "Nat. Rev. Chem"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "124",
+          "DOI": "10.1016/j.copbio.2018.09.002",
+          "article-title": "Two-dimensional nanopores and nanoporous membranes for ion and molecule transport",
+          "volume": "55",
+          "year": "2019",
+          "journal-title": "Curr. Opin. Biotechnol"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "18848",
+          "DOI": "10.1021/acsnano.1c07960",
+          "article-title": "Nanopores in Graphene and Other 2D Materials: A Decade’s Journey toward Sequencing",
+          "volume": "15",
+          "year": "2021",
+          "journal-title": "ACS Nano"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "11",
+          "DOI": "10.1038/s41699-023-00373-5",
+          "article-title": "High durability and stability of 2D nanofluidic devices for long-term single-molecule sensing",
+          "volume": "7",
+          "year": "2023",
+          "journal-title": "npj 2D Mater. Appl"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "1070",
+          "DOI": "10.1038/nnano.2015.219",
+          "article-title": "Identification of single nucleotides in MoS2 nanopores",
+          "volume": "10",
+          "year": "2015",
+          "journal-title": "Nat. Nanotechnol"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "14",
+          "DOI": "10.1038/s41699-018-0060-8",
+          "article-title": "Identification of amino acids with sensitive nanoporous MoS2: towards machine learning-based prediction",
+          "volume": "2",
+          "year": "2018",
+          "journal-title": "npj 2D Mater. Appl"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "9075",
+          "DOI": "10.1021/acs.nanolett.9b04180",
+          "article-title": "Transverse Detection of DNA Using a MoS2 Nanopore",
+          "volume": "19",
+          "year": "2019",
+          "journal-title": "Nano Lett"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "2342",
+          "DOI": "10.1021/acs.jpcb.8b10634",
+          "article-title": "Molecular Dynamics Investigation of Polylysine Peptide Translocation through MoS2 Nanopores",
+          "volume": "123",
+          "year": "2019",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "22743",
+          "DOI": "10.1039/D0NR05185C",
+          "article-title": "Nanopore sensing of single-biomolecules: a new procedure to identify protein sequence motifs from molecular dynamics",
+          "volume": "12",
+          "year": "2020",
+          "journal-title": "Nanoscale"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "16131",
+          "DOI": "10.1021/acsnano.0c08382",
+          "article-title": "Microscopic Detection Analysis of Single Molecules in MoS2 Membrane Nanopores",
+          "volume": "14",
+          "year": "2020",
+          "journal-title": "ACS Nano"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-38627-x"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.37",
+          "first-page": "96",
+          "article-title": "Molecular Dynamics of Peptide Sequencing through MoS2 Solid-State Nanopores for Binary Encoding Applications",
+          "volume": "129",
+          "year": "2024",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fnano.2023.1296454"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nicolaï, A. & Senet, P. Challenges in Protein Sequencing Using 2-D MoS2 Nanopores. In Bowen, W. , Vollmer, F. & Gordon, R. (eds.) Single Molecule Sensing Beyond Fluorescence, 343–366 (Springer International Publishing, Cham, 2022).",
+          "DOI": "10.1007/978-3-030-90339-8_11"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.97.2.571"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1100976108"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acsnano.3c01393"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acsnano.3c08456"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "101243",
+          "DOI": "10.1016/j.xcrp.2022.101243",
+          "article-title": "Single-molecule nanopore dielectrophoretic trapping of α-synuclein with lipid membranes",
+          "volume": "4",
+          "year": "2023",
+          "journal-title": "Cell Rep. Phys. Sci"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0809232106"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2010.08.056"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "63a",
+          "DOI": "10.1016/j.bpj.2014.11.378",
+          "article-title": "Single Molecule Fluorescence Assay of Alpha Synuclein Dimerization",
+          "volume": "108",
+          "year": "2015",
+          "journal-title": "Biophys. J"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2018.05.074"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "883",
+          "DOI": "10.1021/acschemneuro.1c00553",
+          "article-title": "Single Molecule Fingerprinting Reveals Different Amplification Properties of α-Synuclein Oligomers and Preformed Fibrils in Seeding Assay",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "ACS Chem. Neurosci"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/anie.202014898"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "e202216771",
+          "DOI": "10.1002/anie.202216771",
+          "article-title": "Single-Molecule Two-Color Coincidence Detection of Unlabeled alpha-Synuclein Aggregates",
+          "volume": "62",
+          "year": "2023",
+          "journal-title": "Angew. Chem. Int. Ed"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.adi7359"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.112.158103"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "5181",
+          "DOI": "10.3390/ijms20205181",
+          "article-title": "Depicting Conformational Ensembles of α-Synuclein by Single Molecule Force Spectroscopy and Native Mass Spectroscopy",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "Int. J. Mol. Sci"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "2416721",
+          "DOI": "10.1002/advs.202416721",
+          "article-title": "Single-Molecule Insight Into α-Synuclein Fibril Structure and Mechanics Modulated by Chemical Compounds",
+          "volume": "12",
+          "year": "2025",
+          "journal-title": "Adv. Sci"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1922741117"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jbc.2023.104566"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41422-018-0075-x"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-16386-3"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(82)90515-0"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1505953112"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07935-7"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.26434/chemrxiv-2025-qcd4w"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.64",
+          "first-page": "35",
+          "article-title": "Computational Investigation of the Ionic Conductance through Molybdenum Disulfide (MoS2) Nanopores",
+          "volume": "16",
+          "year": "2017",
+          "journal-title": "WSEAS Transactions on Circuits Syst"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.65",
+          "doi-asserted-by": "crossref",
+          "first-page": "631",
+          "DOI": "10.1021/acs.jpclett.6b02902",
+          "article-title": "ReaxFF Reactive Force-Field Study of Molybdenum Disulfide (MoS2)",
+          "volume": "8",
+          "year": "2017",
+          "journal-title": "J. Phys. Chem. Lett"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "2382",
+          "DOI": "10.1038/s41467-019-10265-2",
+          "article-title": "Measurements of the size and correlations between ions using an electrolytic point contact",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.67",
+          "doi-asserted-by": "crossref",
+          "first-page": "454123",
+          "DOI": "10.1088/0953-8984/22/45/454123",
+          "article-title": "Control and Reversal of the Electrophoretic Force on DNA in a Charged Nanopore",
+          "volume": "22",
+          "year": "2010",
+          "journal-title": "J. Phys. Condens. Matter"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.3c01153"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.445869"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp8001614"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.15387070"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.22711"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2012.02.024"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.74",
+          "doi-asserted-by": "crossref",
+          "first-page": "174107",
+          "DOI": "10.1063/1.4764089",
+          "article-title": "Development and application of a particle-particle particle-mesh Ewald method for dispersion interactions",
+          "volume": "137",
+          "year": "2012",
+          "journal-title": "J. Chem. Phys"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1096-987X(199709)18:12<1463::AID-JCC4>3.3.CO;2-L"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.76",
+          "doi-asserted-by": "crossref",
+          "first-page": "023107",
+          "DOI": "10.1063/1.5061825",
+          "article-title": "Improved model of ionic transport in 2-D MoS2 membranes with sub-5 nm pores",
+          "volume": "114",
+          "year": "2019",
+          "journal-title": "Appl. Phys. Lett"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5281/zenodo.5901139"
+        },
+        {
+          "key": "2025072908250465000_2025.07.23.666249v1.78",
+          "doi-asserted-by": "crossref",
+          "first-page": "105",
+          "DOI": "10.1109/LSP.2001.838216",
+          "article-title": "An algorithm for optimal partitioning of data on an interval",
+          "volume": "12",
+          "year": "2005",
+          "journal-title": "IEEE Signal Proc. Let"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.07.23.666249",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:12:38Z",
+        "timestamp": 1768468358000
+      },
+      "score": 93.73789,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.07.23.666249"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            26
+          ]
+        ]
+      },
+      "references-count": 78,
+      "URL": "https://doi.org/10.1101/2025.07.23.666249",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

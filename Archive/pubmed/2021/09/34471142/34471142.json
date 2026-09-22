@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "34471142",
+    "doi": "10.1038/s41467-021-25496-5",
+    "title": "DEEP picker is a deep neural network for accurate deconvolution of complex two-dimensional NMR spectra."
+  },
+  "content": {
+    "abstract": "The analysis of nuclear magnetic resonance (NMR) spectra for the comprehensive and unambiguous identification and characterization of peaks is a difficult, but critically important step in all NMR analyses of complex biological molecular systems. Here, we introduce DEEP Picker, a deep neural network (DNN)-based approach for peak picking and spectral deconvolution which semi-automates the analysis of two-dimensional NMR spectra. DEEP Picker includes 8 hidden convolutional layers and was trained on a large number of synthetic spectra of known composition with variable degrees of crowdedness. We show that our method is able to correctly identify overlapping peaks, including ones that are challenging for expert spectroscopists and existing computational methods alike. We demonstrate the utility of DEEP Picker on NMR spectra of folded and intrinsically disordered proteins as well as a complex metabolomics mixture, and show how it provides access to valuable NMR information. DEEP Picker should facilitate the semi-automation and standardization of protocols for better consistency and sharing of results within the scientific community.",
+    "keywords": [],
+    "mesh_terms": [
+      "Algorithms",
+      "Automation",
+      "*Deep Learning",
+      "Magnetic Resonance Imaging/methods",
+      "Magnetic Resonance Spectroscopy/*methods",
+      "Metabolomics/methods",
+      "*Neural Networks, Computer",
+      "Nuclear Magnetic Resonance, Biomolecular/methods",
+      "Proteins/analysis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Da-Wei",
+        "Hansen, Alexandar L",
+        "Yuan, Chunhua",
+        "Bruschweiler-Li, Lei",
+        "Bruschweiler, Rafael"
+      ],
+      "short_names": [
+        "Li DW",
+        "Hansen AL",
+        "Yuan C",
+        "Bruschweiler-Li L",
+        "Bruschweiler R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3266-5272",
+        "ORCID: 0000-0003-4474-7141",
+        "ORCID: 0000-0003-2209-4653",
+        "ORCID: 0000-0003-3649-4543"
+      ],
+      "affiliations": [
+        "Campus Chemical Instrument Center, The Ohio State University, Columbus, OH, USA. lidawei@gmail.com.",
+        "Campus Chemical Instrument Center, The Ohio State University, Columbus, OH, USA.",
+        "Campus Chemical Instrument Center, The Ohio State University, Columbus, OH, USA.",
+        "Campus Chemical Instrument Center, The Ohio State University, Columbus, OH, USA.",
+        "Campus Chemical Instrument Center, The Ohio State University, Columbus, OH, USA. bruschweiler.1@osu.edu.",
+        "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH, USA. bruschweiler.1@osu.edu.",
+        "Department of Biological Chemistry and Pharmacology, The Ohio State University, Columbus, OH, USA. bruschweiler.1@osu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Da-Wei",
+        "short_name": "Li DW",
+        "identifiers": [
+          "0000-0002-3266-5272"
+        ],
+        "affiliations": [
+          "Campus Chemical Instrument Center, The Ohio State University, Columbus, OH, USA. lidawei@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Hansen, Alexandar L",
+        "short_name": "Hansen AL",
+        "identifiers": [
+          "0000-0003-4474-7141"
+        ],
+        "affiliations": [
+          "Campus Chemical Instrument Center, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Yuan, Chunhua",
+        "short_name": "Yuan C",
+        "identifiers": [
+          "0000-0003-2209-4653"
+        ],
+        "affiliations": [
+          "Campus Chemical Instrument Center, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Bruschweiler-Li, Lei",
+        "short_name": "Bruschweiler-Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Campus Chemical Instrument Center, The Ohio State University, Columbus, OH, USA."
+        ]
+      },
+      {
+        "full_name": "Brüschweiler, Rafael",
+        "short_name": "Brüschweiler R",
+        "identifiers": [
+          "0000-0003-3649-4543"
+        ],
+        "affiliations": [
+          "Campus Chemical Instrument Center, The Ohio State University, Columbus, OH, USA. bruschweiler.1@osu.edu.",
+          "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH, USA. bruschweiler.1@osu.edu.",
+          "Department of Biological Chemistry and Pharmacology, The Ohio State University, Columbus, OH, USA. bruschweiler.1@osu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Sep 1",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/03 06:00",
+    "fetched_at": "2026-09-20 05:12:01"
+  },
+  "links": {
+    "cites": [
+      "42610906",
+      "42383573",
+      "42357409",
+      "42081261",
+      "42026920",
+      "42012953",
+      "41788347",
+      "41597695",
+      "41417269",
+      "41350395",
+      "41294214",
+      "41263014",
+      "41004582",
+      "41002991",
+      "40923454",
+      "40909521",
+      "40864716",
+      "40815273",
+      "40668159",
+      "40628983",
+      "40562354",
+      "40468476",
+      "40278378",
+      "40255534",
+      "40155584",
+      "40101958",
+      "40057512",
+      "39998390",
+      "39916476",
+      "39773982",
+      "39772685",
+      "39713663",
+      "39705363",
+      "39568866",
+      "39427262",
+      "39296015",
+      "39120652",
+      "39079950",
+      "38990576",
+      "38871714",
+      "38573053",
+      "38381862",
+      "38157361",
+      "37959799",
+      "37904796",
+      "37697042",
+      "37233652",
+      "36714208",
+      "36562545",
+      "36413171",
+      "36257955",
+      "36243882",
+      "36161342",
+      "36017693",
+      "35930941",
+      "35888729",
+      "35744782",
+      "35672005",
+      "35389128",
+      "34843238"
+    ],
+    "refs": [
+      "33229565",
+      "32457147",
+      "32251549",
+      "31490596",
+      "31305081",
+      "31292846",
+      "30860291",
+      "30608652",
+      "30159810",
+      "29547986",
+      "28193069",
+      "28160195",
+      "27663422",
+      "27580257",
+      "27088887",
+      "26091586",
+      "26017442",
+      "24511909",
+      "24184964",
+      "23874456",
+      "22911575",
+      "22911501",
+      "22911292",
+      "22328784",
+      "22152355",
+      "21448735",
+      "20628786",
+      "19477998",
+      "18270511",
+      "15379554",
+      "15318002",
+      "11775742",
+      "11430755",
+      "10074343",
+      "9878459",
+      "8520220"
+    ],
+    "similar": [
+      "34471142",
+      "35389128",
+      "34928526",
+      "33870472",
+      "31292846",
+      "37904796",
+      "35672005",
+      "31463859",
+      "36563418",
+      "38990576",
+      "25995228",
+      "38871714",
+      "35744782",
+      "19040747",
+      "29547986",
+      "36459916",
+      "15388090",
+      "37265034",
+      "21360156",
+      "22635605",
+      "35622310",
+      "24184964",
+      "28573376",
+      "30830443",
+      "36257955",
+      "21999117",
+      "33733737",
+      "38177162",
+      "12522306",
+      "24511909",
+      "32589585",
+      "34480494",
+      "36728684",
+      "21526800",
+      "26269925",
+      "21888316",
+      "39187053",
+      "37959799",
+      "21398670",
+      "36469142",
+      "30175546",
+      "31463855",
+      "26241959",
+      "30916564",
+      "34516045",
+      "29494588",
+      "38127799",
+      "26154280",
+      "22328784",
+      "18266430",
+      "30793214",
+      "23521721",
+      "21838867",
+      "37992167",
+      "33051155",
+      "32696373",
+      "24488481",
+      "36564412",
+      "36944645",
+      "21914187",
+      "30843128",
+      "22014236",
+      "24853927",
+      "34633815",
+      "38480600",
+      "24748536",
+      "38979856",
+      "28263718",
+      "29705209",
+      "37804349",
+      "36897540",
+      "22508363",
+      "33523311",
+      "25226241",
+      "38824219",
+      "23525538",
+      "36514939",
+      "37044049",
+      "28213793",
+      "38070234",
+      "23585271",
+      "25119482",
+      "29079836",
+      "19477998",
+      "36201530",
+      "37666776",
+      "32733596",
+      "31175284",
+      "29985974",
+      "38087081",
+      "20590164",
+      "8130640",
+      "32073269",
+      "20446676",
+      "17822309",
+      "30864500",
+      "36677850",
+      "38109875",
+      "31382745",
+      "30292297",
+      "37518942",
+      "1726780",
+      "33499371",
+      "31352337",
+      "20131799",
+      "20886062",
+      "38689377",
+      "38564366",
+      "38573053",
+      "32356965",
+      "38921467",
+      "39079950",
+      "39220516",
+      "28694553",
+      "39427279"
+    ],
+    "review": [
+      "34471142",
+      "30830443",
+      "36469142",
+      "26154280",
+      "38480600",
+      "28263718",
+      "29705209",
+      "38087081"
+    ],
+    "pmc": [
+      "8410766"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-25496-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34471142/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34471142",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34471142",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

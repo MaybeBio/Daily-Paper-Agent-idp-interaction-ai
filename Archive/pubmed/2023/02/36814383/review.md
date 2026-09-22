@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that a 33-residue intrinsically disordered loop insertion in the FERM domain of talin-1 acts as an initial and additional PIP2 recognition site, based on atomistic molecular dynamics simulations. They claim this loop strongly interacts with PIP2, facilitates canonical PIP2 interactions by serving as a flexible membrane anchor, maintains membrane contacts under force up to 7 nm displacement, and identifies key basic residues mediating the interaction. They generalize the finding to other PIP2-binding mechano-proteins.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force protocols, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field choices, system composition, replicate details, convergence criteria, quantitative binding data, comparison to experimental structures, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis supported by molecular dynamics simulations, but the evidence base is insufficient to evaluate the technical soundness or robustness of the claims. The central proposal that a disordered loop serves as an initial PIP2 recognition site is novel and mechanistically relevant, yet the lack of methodological detail and quantitative results prevents a rigorous assessment. The generalization to other mechano-proteins is speculative without broader evidence.
+- **Who would be interested in the results, and why** Researchers in cell adhesion, mechanobiology, and membrane-protein interactions would find these results relevant. The work addresses fundamental questions about how talin engages PIP2-enriched membranes, which is central to focal adhesion dynamics. The proposed role of an intrinsically disordered region as a dynamic membrane anchor could interest biophysicists studying disordered proteins and computational biologists developing membrane interaction models.
+- **Major strengths** The hypothesis is well-motivated by the autoinhibitory structure of talin-1, where canonical PIP2 sites are occluded. The use of atomistic simulations to probe a specific, testable mechanism is appropriate. The focus on force-dependent behavior adds physiological relevance, as talin experiences mechanical load at focal adhesions. Identifying key basic residues provides a concrete, potentially testable prediction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the disordered loop "strongly interacts with PIP2" and "can facilitate further membrane contacts, including the canonical PIP2 interactions."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative metrics for interaction strength, such as binding free energies, contact lifetimes, or occupancy statistics. The claim of "strong" interaction is qualitative and cannot be assessed without data on simulation convergence, replicate variability, or comparison to control systems (e.g., membranes without PIP2 or mutated loops).
+  - **Why it matters** Without quantitative evidence, the central claim of the paper is not established. The strength of the interaction is the foundation for the proposed mechanism, and the absence of supporting numbers undermines confidence in the conclusions.
+  - **Resolution test** Provide quantitative measures of interaction (e.g., free energy of binding, average number of contacts, residence times) with error estimates from multiple independent simulations, and demonstrate that these are significantly different from appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "under force as present at FAs, the extensible FERM loop ensures talin maintains membrane contacts when pulled away from the membrane by up to 7 nm."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The force application protocol is not described. It is unclear whether force was applied at constant velocity, constant force, or via steered molecular dynamics, and what pulling direction or attachment points were used. The 7 nm displacement claim lacks context regarding timescale, force magnitude, and whether this is a single trajectory or a reproducible result.
+  - **Why it matters** The force-dependent behavior is a key novel aspect of the claim, but without methodological details, the result cannot be reproduced or evaluated. The physiological relevance depends on whether the simulation conditions approximate forces at focal adhesions.
+  - **Resolution test** Describe the force protocol in detail, report force-displacement curves or equivalent data, and show reproducibility across multiple simulations with different initial conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors generalize that the disordered loop is "a key and highly adaptable PIP2 recognition site of talin and potentially other PIP2-binding mechano-proteins."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The generalization to other mechano-proteins is speculative. The abstract provides no sequence conservation analysis, structural comparison, or functional data beyond talin-1. The claim of "key" status is not supported by evidence that this loop is essential relative to other known PIP2 binding sites.
+  - **Why it matters** Overgeneralization could mislead readers into assuming broad applicability without evidence. The importance of the finding for other proteins is a testable hypothesis, not a demonstrated result.
+  - **Resolution test** Provide sequence or structural comparisons with other PIP2-binding mechano-proteins, or temper the claim to be specific to talin-1 unless additional evidence is presented.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "initial PIP2 recognition site" is used in the title and abstract, but the abstract does not define what "initial" means temporally or mechanistically relative to other binding events.
+  - **Required correction** Clarify the definition of "initial" in the context of the proposed mechanism, such as first contact before canonical site engagement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the force field, water model, membrane composition, or simulation length, which are essential for reproducibility.
+  - **Required correction** Include these details in the abstract or indicate that they are fully described in the methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental context
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract references a "newly published autoinhibitory structure" but does not cite it or explain how the loop is positioned in that structure relative to the membrane.
+  - **Required correction** Add a citation and briefly describe the structural context to support the hypothesis.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of strong interaction and force-dependent behavior are not quantitatively supported or methodologically described. R1-M3 is non-blocking but requires tempering or additional evidence.
+- **Assessment against Nature-style criteria** Originality: The proposal of a disordered loop as an initial PIP2 recognition site is novel and adds a new dimension to talin-membrane interactions. Scientific importance: The work addresses a central question in focal adhesion biology, but the importance is not fully established without experimental validation or broader comparative analysis. Interdisciplinary readership: The topic bridges cell biology, biophysics, and computational biology, and the findings could interest a broad audience if the evidence is robust. Technical soundness: Not assessable from the abstract alone; the lack of methodological detail and quantitative results is a significant limitation. Readability for nonspecialists: The abstract is generally clear, but terms like "FERM domain" and "PIP2" are used without brief explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is promising and the approach is appropriate, but the abstract lacks the quantitative and methodological detail needed to support the central claims. A revised version with full methods, quantitative results, and tempered generalizations could be supportive.
+
+## Risk / unsupported claims
+- The claim that the loop "strongly interacts" with PIP2 is unsupported without quantitative binding data.
+- The claim that the loop "facilitates further membrane contacts, including the canonical PIP2 interactions" is unsupported without evidence of a causal or temporal relationship.
+- The claim that the loop "ensures talin maintains membrane contacts" under force is unsupported without details of the force protocol and reproducibility.
+- The generalization to "other PIP2-binding mechano-proteins" is speculative and not supported by comparative evidence.
+- The identification of "key basic residues" is mentioned but not substantiated with specific residue identities or functional validation.

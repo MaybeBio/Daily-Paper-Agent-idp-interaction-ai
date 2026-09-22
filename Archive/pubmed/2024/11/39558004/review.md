@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract, without access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The abstract reports that the APP N-terminal Val225Ala mutation (APP(V225A)) alters APP N-terminal structure, enhances tau binding and APP-mediated endocytosis, promotes extracellular tau uptake, alters tau liquid-liquid phase separation (LLPS), intensifies tau phosphorylation and aggregation, and induces AD-like tau pathology and synaptic damage across multiple model systems, with amelioration by tau knockdown. Proximity labeling identifies HS3ST3A1 as a key interactor regulating tau LLPS and phosphorylation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, quantitative data, statistical analyses, figure legends, supplementary information, and details of model systems and controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically ambitious study linking an APP N-terminal mutation to tau pathology via altered protein interactions and LLPS. However, the claims are broad and largely qualitative, and the evidence base is not assessable from the abstract alone. Several causal links are asserted without visible quantitative support, and the translational significance is overstated relative to the data described. The work may be of interest to the AD research community, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers studying Alzheimer's disease pathogenesis, particularly those focused on APP biology, tau pathology, protein phase separation, and synaptic dysfunction. The study may also appeal to investigators interested in genetic mutations outside canonical amyloidogenic regions and in hiPSC-derived models for neurodegenerative disease.
+- **Major strengths** The study addresses a clinically relevant and understudied APP N-terminal mutation with reported AD pathology. The use of multiple complementary model systems, including SH-SY5Y cells, hiPSC-derived neurons, brain organoids, and mouse brain, is commendable. The identification of HS3ST3A1 via proximity labeling offers a novel mechanistic entry point. The inclusion of tau knockdown rescue experiments strengthens the causal argument for tau involvement.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that APP(V225A) "promotes the uptake of extracellular tau into SH-SY5Y cells" and "notably alters the LLPS of intracellular tau and intensified tau phosphorylation and aggregation."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data, effect sizes, or statistical comparisons for any of the key phenotypic outcomes, including tau uptake, LLPS changes, phosphorylation, aggregation, or synaptic damage. Without these, the magnitude and robustness of the reported effects cannot be evaluated.
+  - **Why it matters** The central thesis depends on demonstrating that APP(V225A) exerts specific and significant effects on tau biology. Qualitative statements without numerical support are insufficient to establish these claims, especially given the complexity of LLPS assays and the potential for cell-line-specific artifacts.
+  - **Resolution test** Provide quantitative data with appropriate statistical tests for each key experiment, including mean values, variance, sample sizes, and p-values or confidence intervals, in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The abstract states that "APP(V225A) promote AD-like tau pathology and synaptic damages in ... mouse brain, which can be ameliorated by tau knockdown."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The causal link between APP(V225A) and tau pathology is asserted, but the abstract does not specify whether tau knockdown was performed in all models or only in selected ones. The specificity of the rescue effect and whether it fully reverses or only partially mitigates the phenotype is unclear.
+  - **Why it matters** The claim that tau knockdown ameliorates pathology is critical for establishing tau as the downstream mediator. Incomplete rescue or model-specific effects would weaken the causal interpretation and the generalizability of the findings.
+  - **Resolution test** Clarify the experimental design for tau knockdown across models, report the extent of rescue quantitatively, and discuss any residual phenotypes not rescued by tau depletion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** The abstract claims that "HS3ST3A1 ... was shown to directly regulate tau LLPS and phosphorylation."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not explain how HS3ST3A1, a heparan sulfate sulfotransferase, directly regulates tau LLPS and phosphorylation. The term "directly" implies a physical or enzymatic interaction, but no mechanistic detail is provided.
+  - **Why it matters** The identification of HS3ST3A1 is presented as a key finding, but without mechanistic clarity, its relevance to the APP(V225A)-tau axis remains speculative. Overstating the directness of the regulation could mislead readers.
+  - **Resolution test** Provide experimental evidence for the proposed mechanism, such as binding assays, enzymatic activity measurements, or mutagenesis studies, and clarify whether the effect is direct or indirect.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "the pathogenic APP N-terminal Val225Ala mutation" is used repeatedly, but the abstract does not define the clinical basis for pathogenicity beyond citing a prior report.
+  - **Required correction** Briefly restate the clinical evidence for pathogenicity or cite the prior report more explicitly to contextualize the mutation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Translational claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The final sentence claims "theoretical breakthrough for AD therapy" and "significant scientific values and clinical promise," which is overstated given the preliminary nature of the findings described.
+  - **Required correction** Temper the language to reflect the exploratory stage of the work and avoid definitive therapeutic claims.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model details
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "hiPSCs-derived neural progenitor cells and neurons" and "brain organoids" but does not specify the differentiation protocols, maturation stages, or number of independent lines used.
+  - **Required correction** Include details on the number of hiPSC lines, differentiation replicates, and quality control measures in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of tau uptake, LLPS alteration, and tau-mediated pathology are not quantitatively supported or fully contextualized. R1-M3 requires clarification but is not blocking if the full manuscript provides mechanistic data.
+- **Assessment against Nature-style criteria** Originality: The focus on an APP N-terminal mutation and its link to tau LLPS is novel and extends beyond canonical APP biology. Scientific importance: The findings could have broad implications for AD mechanisms, but the importance is not fully established without robust quantitative evidence. Interdisciplinary readership: The topic bridges molecular neuroscience, protein biophysics, and stem cell biology, which may attract a diverse audience. Technical soundness: Not assessable from the abstract; the lack of methodological detail and quantitative data prevents evaluation. Readability for nonspecialists: The abstract is generally clear but uses specialized terms without sufficient explanation, which may limit accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a timely and important question, and the multi-model approach is promising. However, the current abstract does not provide sufficient evidence to establish the core claims, and the mechanistic link to HS3ST3A1 requires further substantiation.
+
+## Risk / unsupported claims
+- The claim that APP(V225A) "significantly increases APP-mediated endocytosis" is unsupported by any quantitative data in the abstract.
+- The claim that APP(V225A) "promotes the uptake of extracellular tau" is not supported by experimental details or effect sizes.
+- The claim that HS3ST3A1 "directly regulate tau LLPS and phosphorylation" is not supported by mechanistic evidence in the abstract.
+- The claim of "theoretical breakthrough for AD therapy" is overstated and not supported by the presented findings.
+- The generalizability of findings from SH-SY5Y cells and hiPSC models to human AD pathology is asserted but not critically discussed.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35573740",
+  "title": "Intron-Encoded Domain of Herstatin, An Autoinhibitor of Human Epidermal Growth Factor Receptors, Is Intrinsically Disordered.",
+  "authors": "Tashiro, Daisuke; Suetaka, Shunji; Sato, Nao; Ooka, Koji; Kunihara, Tomoko; Kudo, Hisashi; Inatomi, Junichi; Hayashi, Yuuki; Arai, Munehito",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2022-05-17",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文表征了HER2自抑制片段Int8为内在无序蛋白(IDR)，并研究其与HER受体的结合缺陷突变体，对象与互作相关，但方法以实验表征为主，AI/物理模拟仅涉及结构预测，机制建模深度有限。",
+  "abstract": "Human epidermal growth factor receptors (HER/ERBB) form dimers that promote cell proliferation, migration, and differentiation, but overexpression of HER proteins results in cancer. Consequently, inhibitors of HER dimerization may function as effective antitumor drugs. An alternatively spliced variant of HER2, called herstatin, is an autoinhibitor of HER proteins, and the intron 8-encoded 79-residue domain of herstatin, called Int8, binds HER family receptors even in isolation. However, the structure of Int8 remains poorly understood. Here, we revealed by circular dichroism, NMR, small-angle X-ray scattering, and structure prediction that isolated Int8 is largely disordered but has a residual helical structure. The radius of gyration of Int8 was almost the same as that of fully unfolded states, although the conformational ensemble of Int8 was less flexible than random coils. These results demonstrate that Int8 is intrinsically disordered. Thus, Int8 is an interesting example of an intrinsically disordered region with tumor-suppressive activity encoded by an intron. Furthermore, we show that the R371I mutant of Int8, which is defective in binding to HER2, is prone to aggregation, providing a rationale for the loss of function.",
+  "abstract_zh": "人表皮生长因子受体（HER/ERBB）形成二聚体，促进细胞增殖、迁移和分化，但HER蛋白的过表达会导致癌症。因此，HER二聚化的抑制剂可能作为有效的抗肿瘤药物。HER2的一种选择性剪接变体，称为herstatin，是HER蛋白的自身抑制剂，而herstatin中由内含子8编码的79残基结构域，称为Int8，即使在分离状态下也能结合HER家族受体。然而，Int8的结构仍知之甚少。在此，我们通过圆二色光谱、核磁共振、小角X射线散射和结构预测揭示，分离的Int8 largely无序，但具有残余的螺旋结构。Int8的回转半径与完全未折叠状态几乎相同，尽管Int8的构象集合比随机线圈灵活性较低。这些结果表明Int8本质上是无序的。因此，Int8是内含子编码的具有肿瘤抑制活性的内在无序区域的一个有趣例子。此外，我们展示了Int8的R371I突变体，该突变体在结合HER2方面有缺陷，易于聚集，这为其功能丧失提供了合理解释。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35573740/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35573740/",
+  "paper_page_path": "papers/pubmed/35573740/index.html"
+}

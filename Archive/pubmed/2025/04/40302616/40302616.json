@@ -1,0 +1,221 @@
+{
+  "identity": {
+    "pmid": "40302616",
+    "doi": "10.1039/d5sm00101c",
+    "title": "Curvature-sensing and generation by membrane proteins: a review."
+  },
+  "content": {
+    "abstract": "Membrane proteins are crucial in regulating biomembrane shapes and controlling the dynamic changes in membrane morphology during essential cellular processes. These proteins can localize to regions with their preferred curvatures (curvature sensing) and induce localized membrane curvature. Thus, this review describes the recent theoretical development in membrane remodeling performed by membrane proteins. The mean-field theories of protein binding and the resulting membrane deformations are reviewed. The effects of hydrophobic insertions on the area-difference elasticity energy and that of intrinsically disordered protein domains on the membrane bending energy are discussed. For the crescent-shaped proteins, such as Bin/Amphiphysin/Rvs superfamily proteins, anisotropic protein bending energy and orientation-dependent excluded volume significantly contribute to curvature sensing and generation. Moreover, simulation studies of membrane deformations caused by protein binding are reviewed, including domain formation, budding, and tubulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Membrane Proteins/chemistry/metabolism",
+      "*Cell Membrane/chemistry/metabolism",
+      "Humans",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Noguchi, Hiroshi"
+      ],
+      "short_names": [
+        "Noguchi H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1735-7586"
+      ],
+      "affiliations": [
+        "Institute for Solid State Physics, University of Tokyo, Kashiwa, Chiba 277-8581, Japan. noguchi@issp.u-tokyo.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Noguchi, Hiroshi",
+        "short_name": "Noguchi H",
+        "identifiers": [
+          "0000-0003-1735-7586"
+        ],
+        "affiliations": [
+          "Institute for Solid State Physics, University of Tokyo, Kashiwa, Chiba 277-8581, Japan. noguchi@issp.u-tokyo.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Soft matter"
+    ],
+    "journal_abbrev": [
+      "Soft Matter"
+    ],
+    "pub_date": "2025 May 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/30 06:26",
+    "fetched_at": "2026-09-21 18:28:22"
+  },
+  "links": {
+    "cites": [
+      "41709296",
+      "41267521"
+    ],
+    "refs": [],
+    "similar": [
+      "40302616",
+      "37401831",
+      "35868922",
+      "17008407",
+      "38491597",
+      "29018843",
+      "30297718",
+      "34333084",
+      "35416229",
+      "26863901",
+      "35451616",
+      "38706129",
+      "19523905",
+      "24284177",
+      "38508884",
+      "22463692",
+      "23058040",
+      "16319878",
+      "31621751",
+      "16763557",
+      "22464325",
+      "35721319",
+      "21219150",
+      "31672499",
+      "34792524",
+      "24529968",
+      "21769645",
+      "26854580",
+      "23772271",
+      "19816406",
+      "17522680",
+      "26200865",
+      "20418375",
+      "30504247",
+      "37337788",
+      "34520736",
+      "35981766",
+      "29786613",
+      "29490203",
+      "28540958",
+      "31409829",
+      "26745422",
+      "38697653",
+      "33568658",
+      "22167186",
+      "21878992",
+      "31316036",
+      "25484487",
+      "37650909",
+      "24778241",
+      "31340125",
+      "27655892",
+      "31728468",
+      "25284369",
+      "19963073",
+      "32212723",
+      "14645856",
+      "20471395",
+      "26519988",
+      "25956236",
+      "22306177",
+      "18515373",
+      "23638170",
+      "20605711",
+      "25215768",
+      "40135904",
+      "23382665",
+      "35930019",
+      "24755653",
+      "19780639",
+      "22304118",
+      "33268381",
+      "23861397",
+      "35239417",
+      "39150863",
+      "33652934",
+      "20006726",
+      "33248130",
+      "34412221",
+      "26204806",
+      "30360496",
+      "27298443",
+      "18329357",
+      "17003044",
+      "33688043",
+      "20435640",
+      "19836393",
+      "27531962",
+      "22679020",
+      "31601944",
+      "31349990",
+      "22184226",
+      "20693280",
+      "21093245",
+      "15649145",
+      "26884618",
+      "22006337",
+      "28243699",
+      "27342861",
+      "37255421"
+    ],
+    "review": [
+      "40302616",
+      "34333084",
+      "35451616",
+      "38508884",
+      "22463692",
+      "23058040",
+      "16319878",
+      "21219150",
+      "31672499",
+      "24529968",
+      "21769645",
+      "38697653",
+      "21878992",
+      "37650909",
+      "31340125",
+      "19963073",
+      "26519988",
+      "25956236",
+      "22306177",
+      "20605711",
+      "40135904",
+      "35930019",
+      "19780639",
+      "35239417",
+      "20006726",
+      "30360496",
+      "27298443",
+      "19836393",
+      "15649145",
+      "26884618",
+      "28243699"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d5sm00101c",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

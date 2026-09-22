@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusion, and supplementary material descriptions.
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and claims as presented in the provided text. No external data or code were accessed.
+- **Shared manuscript claim summary** The authors propose TransDFL, a transfer learning-based predictor for disordered flexible linkers (DFLs) in proteins, built by fine-tuning the RFPR-IDP intrinsically disordered region (IDR) predictor. They claim consistent outperformance over existing DFL predictors (DFLpred, APOD) in two evaluation scenarios, reduced false positive rates, and suitability for real-world imbalanced datasets.
+- **Visible evidence base** Main text tables (Tables 1–3), figures (Figures 1–9), supplementary figure and table descriptions (S1–S3, S1–S6), and methodological descriptions.
+- **Missing materials affecting confidence** Supplementary tables S1–S6 with actual numerical values, full hyperparameter details, source code, and benchmark dataset files were not accessible. Statistical test details (e.g., exact t-test implementation) are partially described. Web server functionality could not be verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a timely and potentially useful application of transfer learning to DFL prediction, addressing a real limitation of existing methods (high false positive rates). The core idea, transferring an IDR predictor to DFL prediction, is biologically and computationally plausible. However, the evidence provided is insufficient to fully establish the claimed advantages. Key concerns include incomplete reporting of baseline comparisons, unclear statistical testing methodology, potential data leakage in the fine-tuning/validation split, and lack of detailed ablation analysis. The work is of interest to the protein bioinformatics community but requires substantial revisions to meet the standards of a high-impact journal.
+- **Who would be interested in the results, and why** Researchers in protein bioinformatics, specifically those working on intrinsically disordered proteins, linker prediction, and functional annotation of disordered regions. The transfer learning approach may also interest computational biologists applying deep learning to protein sequence analysis. The web server provides a practical tool for the community.
+- **Major strengths** 1. Novel application of transfer learning from IDR to DFL prediction, addressing a specific and relevant problem. 2. Clear motivation based on the biological relationship between DFLs and IDRs. 3. Evaluation in two practical scenarios (within IDRs and whole proteins) is appropriate. 4. Analysis of false positive rates and imbalanced data is relevant for real-world use. 5. Provision of a web server and source code enhances usability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "TransDFL consistently outperformed other existing DFL predictors with higher accuracy" (Abstract, Results sections).
+  - **Evidence pointer** Tables 1 and 2, Figure 5, location not provided for specific rows.
+  - **Concern** The comparison with APOD and DFLpred is incomplete. For Table 1 (TE82, situation-I), the results for APOD and DFLpred are stated to be "obtained from a previous study" without specifying whether the same evaluation protocol, thresholds, and data splits were used. For Table 2 (TE64), the results are "calculated according to the predicted results obtained by running corresponding web servers," but the exact version of the web servers, the thresholds used, and whether the same evaluation script was applied are not described. This lack of standardization could bias the comparison.
+  - **Why it matters** Fair benchmarking is essential to support the claim of consistent outperformance. Without a controlled comparison, the reported improvements may be artifacts of different evaluation conditions.
+  - **Resolution test** Provide a detailed description of the evaluation protocol for all methods, including thresholds, data preprocessing, and any post-processing steps. Ideally, rerun all methods using the same code framework and report the results. If results from previous studies are used, justify their direct comparability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "their differences were significant (P = 0.001; Tables 1 and 2)" (Results, section "Predicting the DFL residues in disordered regions").
+  - **Evidence pointer** Tables 1 and 2, location not provided.
+  - **Concern** The statistical significance testing is inadequately described. The text mentions a t-test based on predicted probabilities, but it is unclear what exactly was compared (e.g., per-residue probabilities across all proteins? per-protein averaged probabilities?), how the samples were defined, and whether the test accounts for the non-independence of residues within the same protein. The reported P value of 0.001 appears only for the comparison between TransDFL and APOD in Table 1, but the text implies significance for both tables. The methodology for calculating P values in Table 2 is not stated.
+  - **Why it matters** Statistical claims of superiority require a rigorous and clearly described testing framework. Ambiguous or incorrect statistical methods undermine the validity of the performance comparison.
+  - **Resolution test** Clearly describe the statistical test, including the unit of analysis (e.g., protein-level or residue-level), the exact null hypothesis, and how dependencies were handled. Report confidence intervals or effect sizes. Apply the same test consistently across all comparisons and report all P values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We randomly divided the DFL benchmark dataset into five subsets. Four of the subsets with 133 sequences were randomly selected as the training dataset for fine-tuning the model parameters, and the remaining subset with 33 sequences was employed as the validation dataset for model selection." (Methods, Datasets section).
+  - **Evidence pointer** Methods section, location not provided.
+  - **Concern** The random split of the fine-tuning dataset into training and validation sets is performed once, with no mention of cross-validation or repeated splits. This introduces a risk of selection bias, where the reported performance may be dependent on a particularly favorable or unfavorable split. Additionally, the validation set is used for model selection (e.g., choosing hyperparameters like the loss weight coefficient), which means the final model's performance on the independent test sets (TE82, TE64) is the only truly unbiased estimate. However, the variance of the performance estimate due to the single split is not quantified.
+  - **Why it matters** A single random split can lead to overoptimistic or pessimistic performance estimates. For a method that claims robustness, it is important to show that performance is stable across different data partitions.
+  - **Resolution test** Perform k-fold cross-validation (e.g., 5-fold) on the DFL benchmark dataset and report the mean and standard deviation of performance metrics. Alternatively, repeat the random split multiple times (e.g., 10 times) and report the distribution of results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "The source code of TransDFL is available at https://ngdc.cncb.ac.cn/biocode/tools/BT007312." (Code availability section).
+  - **Evidence pointer** Code availability section, location not provided.
+  - **Concern** The code availability statement provides a link, but the code itself was not reviewed. It is unclear if the code is complete, documented, and runnable. The manuscript does not specify the software dependencies, versions, or instructions for reproducing the experiments. The web server link is also provided, but its functionality and the exact implementation of the model behind it are not verifiable from the manuscript.
+  - **Why it matters** Reproducibility is a cornerstone of scientific publishing. Without accessible and well-documented code, other researchers cannot verify the results or build upon the method.
+  - **Resolution test** Ensure the code repository includes a README with installation instructions, dependencies, and example commands. Provide a script to reproduce the main results. Verify that the web server is functional and returns results consistent with the described model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Sequence representation" section
+  - **Evidence pointer** Equation (1) and surrounding text, location not provided.
+  - **Issue** The description of the feature vector is brief. It states that 52-dimensional features are used, but the exact composition of the "seven commonly used physicochemical properties" and the PSSM features is not detailed. The addition of SS and SA features is mentioned, but the dimensions (4 and 1, respectively) are only implied.
+  - **Required correction** Provide a clear breakdown of all feature dimensions and their sources. For example, specify how the 7 physicochemical properties are encoded (e.g., normalized values) and how PSSM features are derived (e.g., 20-dimensional raw scores or transformed).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "Transfer learning obviously reduces the false positives" section
+  - **Evidence pointer** Figure 6, location not provided.
+  - **Issue** The definition of FPR_ALL and FPR_OR is given in the text, but the figure itself does not include these definitions or a clear legend explaining the metrics. The y-axis label is not described.
+  - **Required correction** Ensure Figure 6 has clear axis labels and a legend that defines FPR_ALL and FPR_OR. Consider adding a brief description in the figure caption.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Performance comparison between TransDFL and IDR predictors" section
+  - **Evidence pointer** Tables S5 and S6, location not provided.
+  - **Issue** The text states that six IDR predictors were compared, but the results are only in supplementary tables. The main text does not summarize the key findings or discuss why these predictors perform worse, beyond a general statement.
+  - **Required correction** Add a brief summary of the IDR predictor results in the main text, highlighting the performance gap and the likely reasons (e.g., lack of DFL-specific training).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction, Figure 1
+  - **Evidence pointer** Figure 1, location not provided.
+  - **Issue** The figure is described in the text, but the caption is not fully self-contained. It mentions "P(D) > 0.9" but does not explain what P(D) represents in the context of the figure.
+  - **Required correction** Expand the figure caption to define P(D) and explain the panels (A and B) more clearly.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmarking protocol), R1-M2 (statistical testing), R1-M3 (data split robustness). These are the primary issues that prevent the current evidence from fully supporting the claims of consistent outperformance and reduced false positives.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of transfer learning from IDR to DFL prediction is a novel and sensible idea, not previously reported to my knowledge. This is a strength.
+  - **Scientific importance** DFLs are functionally significant, and improved prediction tools are of practical value. The work addresses a real gap, but the incremental improvement over existing methods needs to be more rigorously demonstrated.
+  - **Interdisciplinary readership** The topic is specific to protein bioinformatics. The methods (deep learning, transfer learning) may appeal to a broader computational audience, but the biological framing limits the likely readership to specialists.
+  - **Technical soundness** The core methodology is plausible, but the concerns raised above (benchmarking, statistics, data splitting) undermine the current technical validation. The lack of detailed ablation studies (e.g., contribution of each feature type) also weakens the technical depth.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The analogy to machine translation in the introduction is helpful. However, some methodological details are dense and could be clarified for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the work addresses a relevant problem. However, the current evidence does not fully establish the claimed advantages due to the benchmarking, statistical, and robustness issues. A revised manuscript addressing these concerns could be suitable for publication.
+
+## Risk / unsupported claims
+- The claim of "consistently outperformed" is not fully supported due to uncontrolled benchmarking conditions (R1-M1).
+- The statistical significance claim (P = 0.001) is not adequately substantiated (R1-M2).
+- The claim that transfer learning "obviously reduces the false positives" is based on a single comparison and lacks a rigorous statistical framework (R1-M2).
+- The statement that TransDFL is "the first deep learning predictor for DFL prediction" is not verifiable from the provided text and would require a comprehensive literature review to support.
+- The performance on imbalanced datasets (Figure 9) is presented without details on how the datasets were constructed or how the metrics were computed, making the results difficult to interpret.

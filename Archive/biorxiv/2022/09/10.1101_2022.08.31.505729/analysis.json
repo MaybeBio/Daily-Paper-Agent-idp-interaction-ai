@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.08.31.505729",
+  "title": "Mapping the adaptor protein complex interaction network in <i>Arabidopsis</i> identifies P34 as a common stability regulator",
+  "authors": "Peng Wang; Wei Siao; Xiuyang Zhao; Deepanksha Arora; Ren Wang; Dominique Eeckhout; Jelle Van Leene; Rahul Kumar; Anaxi Houbaert; Nancy De Winne; Evelien Mylle; Michael Vandorpe; Ruud A. Korver; Christa Testerink; Kris Gevaert; Steffen Vanneste; Geert De Jaeger; Daniël Van Damme; Eugenia Russinova",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-01",
+  "window": {
+    "start": "2022-08-29",
+    "end": "2022-09-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过蛋白质组学绘制拟南芥接头蛋白复合物互作网络，鉴定P34为稳定性调节因子，但对象非无序蛋白/相分离，方法为实验互作组学而非AI/物理模拟，仅PPI网络层面与本课题弱相关。",
+  "abstract": "Adaptor protein (AP) complexes are evolutionarily conserved vesicle transport regulators that recruit coat proteins, membrane cargos and coated vesicle accessory proteins. Since in plants endocytic and post-Golgi trafficking intersect at the trans -Golgi network, unique mechanisms for sorting cargos of overlapping vesicular routes are anticipated. The plant AP complexes are part of the sorting machinery, but despite some functional information, their cargoes, accessory proteins, and regulation remain largely unknown. Here, by means of various proteomics approaches, we generated the overall interactome of the five AP and the TPLATE complexes in Arabidopsis thaliana . The interactome converged on a number of hub proteins, including the thus far unknown adaptin binding-like protein, designated P34. P34 interacted with the clathrin-associated AP complexes, controlled their stability and, subsequently, influenced clathrin-mediated endocytosis and various post-Golgi trafficking routes. Altogether, the AP interactome network offers substantial resources for further discoveries of unknown endomembrane trafficking regulators in plant cells.",
+  "abstract_zh": "衔接蛋白（adaptor protein, AP）复合物是进化上保守的囊泡运输调节因子，它们招募外壳蛋白、膜货物及包被囊泡辅助蛋白。由于在植物中，内吞作用和高尔基体后运输在反式高尔基体网络（trans-Golgi network）处交汇，因此预期存在用于分选重叠囊泡途径货物的独特机制。植物AP复合物是分选机制的一部分，但尽管有一些功能信息，其货物、辅助蛋白及调控机制仍 largely 未知。在此，通过多种蛋白质组学方法，我们生成了拟南芥（Arabidopsis thaliana）中五个AP复合物及TPLATE复合物的整体相互作用组。该相互作用组汇聚于多个枢纽蛋白，其中包括迄今未知的衔接蛋白结合样蛋白，命名为P34。P34与网格蛋白相关的AP复合物相互作用，控制其稳定性，并进而影响网格蛋白介导的内吞作用及多种高尔基体后运输途径。总之，AP相互作用组网络为植物细胞中未知内膜运输调节因子的进一步发现提供了丰富资源。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.08.31.505729",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.08.31.505729",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.08.31.505729/index.html"
+}

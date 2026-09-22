@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38947516",
+  "title": "Cellular lipids regulate the conformational ensembles of the disordered intracellular loop 3 in beta2-adrenergic receptor.",
+  "authors": "Mukhaleva, Elizaveta; Yang, Tianyi; Sadler, Fredrik; Sivaramakrishnan, Sivaraj; Ma, Ning; Vaidehi, Nagarajan",
+  "journal": "iScience",
+  "published_date": "2024-07-01",
+  "window": {
+    "start": "2024-07-01",
+    "end": "2024-07-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过多脂质双层分子动力学模拟，揭示PIP2脂质稳定β2肾上腺素受体无序ICL3开放构象并调控G蛋白偶联的机制，属于IDR构象与互作机制建模研究，方法为物理模拟，对象与互作轴均强，但未直接涉及PPI结合预测或相分离。",
+  "abstract": "The intracellular loops of G protein-coupled receptors (GPCRs) have been shown to play a key role in G protein coupling and selectivity. We recently showed that the intrinsically disordered third intracellular loop (ICL3) of beta2-adrenergic receptor is dynamic and equilibrates between open and closed conformations to regulate the G protein coupling. In this study, using the extensive molecular dynamics simulations in multi-lipid bilayer models, we show that the lipid phosphatidylinositol 4,5-bisphosphate (PIP2) stabilizes the active state of beta2-adrenergic receptor by keeping ICL3 in an open conformation. This stabilization results in a tilt of the receptor within the membrane. Additionally, the ganglioside lipid, GM3 interacts with extracellular loops, impacting the ligand binding site allosterically. This demonstrates the active role of the chemistry of lipids in stabilizing specific GPCR conformations.",
+  "abstract_zh": "G蛋白偶联受体（GPCRs）的胞内环已被证明在G蛋白偶联及选择性中发挥关键作用。我们最近的研究表明，β2-肾上腺素能受体的固有无序第三胞内环（ICL3）具有动态性，并在开放与闭合构象之间平衡，以调节G蛋白偶联。在本研究中，利用多脂质双层模型中的广泛分子动力学模拟，我们显示脂质磷脂酰肌醇4,5-二磷酸（PIP2）通过保持ICL3处于开放构象来稳定β2-肾上腺素能受体的活性状态。这种稳定化导致受体在膜内发生倾斜。此外，神经节苷脂GM3与胞外环相互作用，变构影响配体结合位点。这证明了脂质化学在稳定特定GPCR构象中的积极作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38947516/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38947516/",
+  "paper_page_path": "papers/pubmed/38947516/index.html"
+}

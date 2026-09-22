@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42364124",
+  "title": "Biophysical analysis reveals low‑affinity, multivalent interactions and conformational modulation of the SARS‑CoV‑2 nucleocapsid protein by berberine and palmatine.",
+  "authors": "Vermaak, Tracey-Lee; Mosebi, Salerwe; Gildenhuys, Samantha",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2026-06-27",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过生物物理实验与对接/Boltz-2预测，研究小分子生物碱与SARS-CoV-2核衣壳蛋白（含IDR）的低亲和多价互作及构象调节，虽对象为IDP且涉及互作，但方法以实验为主、AI/物理模拟为辅，且互作对象为小分子而非蛋白，机制建模深度有限。",
+  "abstract": "The Nucleocapsid (N) protein of the Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) is an intrinsically dynamic, multifunctional protein critical for viral replication, RNA binding and the immune response. A consensus sequence of the N protein (P13L; Delta31-33; R203K; G204R; and S413R mutations in relation to the Wuhan sequence) was recombinantly expressed using E. coli BL21(DE3)-T7 express cells, purified and characterised using Far Ultraviolet (UV) Circular Dichroism (CD), Intrinsic Tryptophan Fluorescence (ITF) Spectroscopies as well as Blue Native Polyacrylamide Gel Electrophoresis (BN-PAGE). The interactions of two naturally occurring isoquinoline alkaloids, berberine and palmatine, with the N protein were analysed biophysically and structurally. Both alkaloids have low-affinity, multivalent interactions with the N protein as predicted by in silico docking and Boltz-2 cofolding predictions. Surface Plasmon Resonance (SPR) predicts binding for palmatine, and Isothermal Titration Calorimetry (ITC) confirms the low binding affinity. The native, predominantly unstructured protein still binds nucleic acids and can form dimer, trimer and tetrameric species even in the presence of the compounds. Both compounds induce slight secondary and tertiary structural changes, including redistribution of secondary structural elements toward increased beta‑sheet content, alterations in hydrogen‑bonding patterns, and small shifts in intrinsic tryptophan fluorescence. Changes result in a limited increase in thermal stability (0.08-0.1  degrees C). The alkaloids alter the N protein conformational landscape, altering flexibility and highlighting the relevance of low-affinity modulators in targeting intrinsically disordered viral proteins.",
+  "abstract_zh": "严重急性呼吸综合征冠状病毒2（SARS-CoV-2）的核衣壳（N）蛋白是一种本质上动态的多功能蛋白，对病毒复制、RNA结合及免疫应答至关重要。N蛋白的一致序列（P13L；Delta31-33；R203K；G204R；以及相对于武汉序列的S413R突变）通过大肠杆菌BL21(DE3)-T7表达细胞进行重组表达，并利用远紫外（UV）圆二色（CD）光谱、内源色氨酸荧光（ITF）光谱以及蓝绿天然聚丙烯酰胺凝胶电泳（BN-PAGE）进行纯化和表征。两种天然存在的异喹啉生物碱——小檗碱和巴马汀——与N蛋白的相互作用通过生物物理和结构方法进行了分析。根据计算机模拟对接和Boltz-2共折叠预测，这两种生物碱与N蛋白具有低亲和力的多价相互作用。表面等离子体共振（SPR）预测巴马汀具有结合能力，等温滴定量热法（ITC）确认了其低结合亲和力。这种天然、主要无序的蛋白质即使在化合物存在下仍能结合核酸，并形成二聚体、三聚体和四聚体物种。两种化合物均诱导轻微的二级和三级结构变化，包括二级结构元素向增加β-折叠含量方向的重新分布、氢键模式的改变，以及内源色氨酸荧光的微小位移。这些变化导致热稳定性有限增加（0.08-0.1摄氏度）。生物碱改变了N蛋白的构象景观，调节其灵活性，并突显了低亲和力调节剂在靶向内在无序病毒蛋白中的相关性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42364124/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42364124/",
+  "paper_page_path": "papers/pubmed/42364124/index.html"
+}

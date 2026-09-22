@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.20.695343",
+  "title": "Taxane-Induced Conformational Changes in the Microtubule Lattice Activate GEF-H1-Dependent RhoA Signaling",
+  "authors": "Meiring JCM; Mahapatra V; Gravett MS; Morren D; Saunders HA; Choi SR; José AP; Karhanova A; Metallidou I; Moore A; Spoelstra MF; Liu R; Giono M; Iyer SS; Díaz JF; Lansky Z; Stecker KE; Steinmetz MO; Howes SC; Kapitein LC; Akhmanova A",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-23",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 3,
+  "one_liner_zh": "该文研究紫杉烷类药物通过改变微管晶格构象释放GEF-H1并激活RhoA信号，对象为微管而非无序蛋白/IDR，且无PPI机制建模或AI/物理模拟方法，仅与构象变化间接相关，启发有限。",
+  "abstract": "Taxanes are widely used chemotherapeutic agents that perturb cell division. They also exert effects during interphase, but the underlying mechanisms are poorly understood. Here, we show that taxanes activate RhoA signaling and induce actin remodeling by displacing the RhoA activator GEF-H1 from microtubules. This taxane-induced release of GEF-H1 occurs rapidly, is independent of tubulin post-translational modifications, and can be recapitulated using purified proteins. In vitro reconstitution assays combined with analyses of microtubule structure revealed that microtubule binding by GEF-H1 is inhibited by microtubule-stabilizing agents that expand the microtubule lattice, such as taxanes and GMPCPP, but not by others, including GTPγS and discodermolide, which stabilize a compacted microtubule lattice. Our findings demonstrate that alterations in microtubule lattice conformation can activate key signaling pathways, offering new insights into the mode of action of taxanes and the possible origins of their side effects.",
+  "abstract_zh": "紫杉烷类药物是广泛使用的化疗药物，通过干扰细胞分裂发挥作用。它们也在间期产生影响，但潜在机制尚不清楚。在此，我们表明紫杉烷类药物通过将RhoA激活因子GEF-H1从微管上置换下来，激活RhoA信号通路并诱导肌动蛋白重塑。这种由紫杉烷诱导的GEF-H1释放发生迅速，不依赖于微管蛋白的翻译后修饰，并可使用纯化蛋白重现。体外重构实验结合微管结构分析揭示，GEF-H1与微管的结合受到扩展微管晶格的微管稳定剂（如紫杉烷类药物和GMPCPP）的抑制，但不受其他稳定剂（包括GTPγS和discodermolide）的影响，后者稳定的是压缩的微管晶格。我们的发现表明，微管晶格构象的改变能激活关键信号通路，为紫杉烷类药物的作用机制及其副作用可能的起源提供了新见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.20.695343",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.20.695343",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.20.695343/index.html"
+}

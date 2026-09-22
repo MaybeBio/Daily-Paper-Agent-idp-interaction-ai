@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Materials and Methods, Conclusions)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions, and significance of the reported computational study on DARC ECD1 conformational sampling
+- **Shared manuscript claim summary** The authors used temperature replica-exchange molecular dynamics (T-REMD) simulations to explore the conformational space of the intrinsically disordered N-terminal ectodomain (ECD1) of the Duffy antigen/receptor for chemokines (DARC). They report that ECD1 remains largely disordered, with a stable α-helix spanning residues Ser18–Ser29, and that antiparallel β-sheets are favored over parallel ones. They propose their conformational ensemble as a resource for future modeling and drug design studies.
+- **Visible evidence base** Full text including Results (Sections 2.1–2.4), Discussion (Section 3), Materials and Methods (Section 4), and Conclusions (Section 5). Figures referenced but not provided. Supplementary materials referenced but not provided.
+- **Missing materials affecting confidence** Figures 1–7, Figure S1–S5, Table S1, simulation parameter files, force field details, replica exchange acceptance ratios, convergence metrics beyond RMSD clustering, and the structural model coordinates are not available for direct verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational exploration of the intrinsically disordered ECD1 domain of DARC using T-REMD simulations. The work addresses a relevant biological problem, namely the structural basis of P. vivax invasion, and the authors are transparent about the challenges of modeling disordered regions. However, the study is largely descriptive, and several methodological concerns regarding convergence, force field choice, and the interpretation of free-energy minima limit the strength of the conclusions. The claim that the identified conformations are "most probable" is not fully supported by the evidence presented, particularly given the acknowledged lack of convergence in the RMSD-based clustering analysis. The manuscript would benefit from additional validation, clearer presentation of the free-energy surfaces, and a more cautious framing of the biological implications.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, specifically those studying intrinsically disordered proteins and their conformational ensembles, would find the methodological application of T-REMD to a disordered receptor domain of interest. The malaria research community, particularly those focused on P. vivax invasion mechanisms and structure-based drug or vaccine design, may also find the proposed ECD1 conformations useful as a starting point for further docking or interaction studies. However, the lack of experimental validation limits the immediate utility for experimental groups.
+- **Major strengths** The study addresses a challenging and biologically important target, namely an intrinsically disordered domain of a receptor implicated in malaria infection. The use of T-REMD is appropriate for enhanced sampling of disordered conformations. The authors integrate available experimental data (the crystallized α-helix) to validate their model selection and findings. The manuscript is clearly written and the methods are described in sufficient detail for reproduction. The authors are transparent about the limitations of convergence in their simulations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the T-REMD simulations reached sufficient sampling to identify "most representative conformations" and that the free-energy minima are meaningful.
+  - **Evidence pointer** Section 4.3 (Analysis of Statistical Convergence Based on RMSD Clustering)
+  - **Concern** The authors explicitly state that the system "has not yet reached convergence" based on the RMSD clustering analysis. They then argue that convergence should instead be evaluated using secondary and tertiary structure collective variables, but no such convergence analysis is presented in the manuscript. Without a demonstrated convergence of the free-energy surfaces or the collective variables, the identification of free-energy minima and the relative populations of conformations are not reliable. This undermines the central claims of the paper.
+  - **Why it matters** The primary conclusions regarding the most probable conformations and the relative stability of α-helix and β-sheet elements depend on the simulations having adequately sampled the conformational space. If the simulations are not converged, the reported free-energy minima and the associated structural interpretations may be artifacts of insufficient sampling.
+  - **Resolution test** The authors should provide a quantitative convergence analysis of the collective variables used for the free-energy surfaces, such as block averaging or time-dependent evolution of the free-energy estimates. They should also report replica exchange acceptance ratios and demonstrate that the distributions of the collective variables are stationary over the simulation time.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors selected a single structural model from the QUARK server for T-REMD simulations, based on the presence of the α-helix and solvent accessibility criteria, and then generalize their findings to the entire ECD1 conformational ensemble.
+  - **Evidence pointer** Section 2.1 (DARC–ECD1 Structural Model)
+  - **Concern** The choice of a single starting model, even if justified by experimental constraints, introduces a strong bias. For an intrinsically disordered protein, the conformational ensemble is highly dependent on the starting conditions, and a single model may not adequately represent the diversity of accessible states. The authors do not discuss how the choice of starting model affects their results, nor do they compare simulations initiated from different models.
+  - **Why it matters** The conclusions about the conformational preferences of ECD1 are meant to be general, but they are derived from simulations of a single starting structure. This limits the generalizability of the findings and may lead to overinterpretation of specific structural features.
+  - **Resolution test** The authors should either perform T-REMD simulations starting from multiple distinct models (e.g., from different servers or from an ensemble generated by a different method) and compare the resulting free-energy surfaces, or clearly state that their findings are conditional on the specific starting model used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that their collection of ECD1 conformations "will help to advance modeling of the DARC structure and to explore DARC–ECD1 interactions with a range of physiological and pathological ligands."
+  - **Evidence pointer** Abstract and Section 5 (Conclusions)
+  - **Concern** The manuscript does not demonstrate how the generated conformational ensemble can be used for downstream applications such as docking or interaction studies. No example of such an application is provided, and the authors do not discuss the practical steps required to use their ensemble for these purposes. The claim of utility is therefore speculative.
+  - **Why it matters** The broader significance of the work depends on its potential to enable future studies. Without a demonstration or a concrete protocol for how the ensemble can be used, the impact of the work is unclear.
+  - **Resolution test** The authors should either provide a proof-of-concept application (e.g., docking a chemokine or a PvDBP fragment to representative conformations) or clearly outline a step-by-step protocol for how the ensemble can be integrated into existing modeling pipelines.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.4 (Global Structural Analysis of ECD1)
+  - **Evidence pointer** Section 2.4.1, Figure 4
+  - **Issue** The description of the free-energy surfaces and the regions I–IV is dense and assumes familiarity with the collective variable methodology. The biological relevance of the different regions is not immediately clear to a reader who is not an expert in computational chemistry.
+  - **Required correction** Consider adding a brief introductory paragraph in Section 2.4 that explains, in plain terms, what the free-energy surfaces represent and why the identification of local minima is biologically meaningful. A schematic or simplified diagram could also help.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.2 (Temperature Replica-Exchange Molecular Dynamics)
+  - **Evidence pointer** Section 4.2
+  - **Issue** The manuscript states that the force field was CHARMM36m with TIP3P water, but it does not specify the version of the force field parameters or the source of the water model parameters. Additionally, the total simulation time is reported as 12.8 μs, but the number of replicas (32) and the length of each replica simulation (400 ns) are only mentioned in passing.
+  - **Required correction** Provide the exact force field version (e.g., CHARMM36m July 2017 or later) and the water model parameters. Clarify whether the 400 ns per replica includes the equilibration time or is the production run only.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.5 (Analyses with Collective Variables for Secondary and Tertiary Structures)
+  - **Evidence pointer** Section 4.5
+  - **Issue** The collective variable definition is given, but the specific parameters used (e.g., the value of D0, the choice of atoms) are not fully described. The reference to Figure S5 for more details is helpful, but the main text should include enough information for a reader to understand the calculation without accessing the supplementary material.
+  - **Required correction** Briefly describe the key parameters of the collective variables in the main text, including the value of D0 and the atom selection, and refer to the supplementary material for the full derivation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Section 3 (Discussion)
+  - **Evidence pointer** Section 3
+  - **Issue** The discussion of the biological implications is brief and does not fully connect the computational findings to the known biology of DARC and P. vivax invasion. For example, the authors do not discuss how the identified α-helix and β-sheet regions might relate to the binding sites for chemokines or PvDBP.
+  - **Required correction** Expand the discussion to explicitly link the structural features identified in the simulations to the known functional regions of DARC ECD1, citing relevant experimental studies. This would strengthen the biological relevance of the work.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of demonstrated convergence for the collective variables used in the free-energy surfaces) and R1-M2 (single starting model bias) are the primary technical issues that must be resolved before the central claims of the manuscript can be considered established.
+- **Assessment against Nature-style criteria** Originality: The application of T-REMD to the DARC ECD1 domain is novel, but the methodological approach is not new, and the findings are largely descriptive. Scientific importance: The work addresses a relevant problem in malaria research, but the lack of experimental validation and the limited demonstration of downstream utility reduce its immediate impact. Interdisciplinary readership: The manuscript is likely to appeal to computational biophysicists and structural biologists, but the presentation is not sufficiently accessible to a broader biological audience. Technical soundness: The methodology is appropriate in principle, but the lack of demonstrated convergence and the single-model bias are significant concerns. Readability for nonspecialists: The manuscript is clearly written, but the results section is dense and assumes expertise in computational methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant problem and the authors are transparent about limitations, but the lack of demonstrated convergence and the single-model bias must be addressed before the conclusions can be considered robust. The authors should also provide a clearer demonstration of the utility of their conformational ensemble for downstream applications.
+
+## Risk / unsupported claims
+- The claim that the identified conformations are "most representative" or "most probable" is not supported due to the lack of demonstrated convergence of the free-energy surfaces.
+- The claim that antiparallel β-sheets are "more favorable and more probable" than parallel β-sheets is based on a single simulation trajectory and may not be generalizable.
+- The statement that the conformational ensemble "will help to advance modeling of the DARC structure" is speculative and not demonstrated in the manuscript.
+- The assertion that the α-helix spanning Ser18–Ser29 is a stable feature of ECD1 is supported by the simulation data, but the generalizability to the full conformational ensemble of the disordered domain is uncertain given the single starting model.

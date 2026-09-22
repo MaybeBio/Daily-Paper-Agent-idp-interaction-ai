@@ -1,0 +1,454 @@
+{
+  "identity": {
+    "pmid": "41473266",
+    "doi": "10.1101/2025.11.08.687404",
+    "title": "Microcompartments in archaeal ancestors of eukaryotes: a bioenergetic engine that could have fuelled eukaryogenesis."
+  },
+  "content": {
+    "abstract": "Eukaryotic intracellular compartmentalization is a key innovation in the evolution of complex cellular life. While microcompartments enable metabolic specialization in many bacteria, to our knowledge, no analogous systems have been identified in Archaea. Here, we report the discovery of archaeal microcompartments (AMCs) in Hodarchaeales, an order within the phylum Promethearchaeati (Asgard archaea) that includes the closest known archaeal relatives of eukaryotes. Phylogenetic and structural analyses indicate that these catabolic AMCs, which are specialized for sugar-phosphate metabolism, were acquired by horizontal gene transfer from deep-rooted bacteria of the phylum Myxococcota. The shell pentamers of AMCs are fused to lysine/arginine-rich intrinsically disordered regions that capture cytosolic DNA, facilitating nutrient scavenging. Reaction-diffusion modelling predicts that enzyme colocalization and substrate channelling within AMCs can increase the NADH flux approximately 100-fold. Thus, the AMCs substantially boost energy production in the cell and might have primed the archaeal host for eukaryogenesis.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Du, Huan",
+        "Xu, Aoxiang",
+        "Feng, Xiaoyuan",
+        "Huang, Wen-Cong",
+        "Li, Huayu",
+        "Liu, Li",
+        "Li, Yuling",
+        "Zhang, Siyu",
+        "Song, Ning",
+        "Appler, Kathryn E",
+        "Baker, Brett J",
+        "Koonin, Eugene V",
+        "Li, Meng",
+        "Liu, Yang"
+      ],
+      "short_names": [
+        "Du H",
+        "Xu A",
+        "Feng X",
+        "Huang WC",
+        "Li H",
+        "Liu L",
+        "Li Y",
+        "Zhang S",
+        "Song N",
+        "Appler KE",
+        "Baker BJ",
+        "Koonin EV",
+        "Li M",
+        "Liu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0020-149X",
+        "ORCID: 0000-0002-0094-842X",
+        "ORCID: 0000-0002-1328-4087",
+        "ORCID: 0000-0002-1219-1786",
+        "ORCID: 0000-0002-5971-1021",
+        "ORCID: 0000-0001-8675-0758",
+        "ORCID: 0000-0002-1109-0756"
+      ],
+      "affiliations": [
+        "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China.",
+        "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China.",
+        "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China.",
+        "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China.",
+        "Present address: Royal Netherlands Institute for Sea Research, Netherlands.",
+        "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China.",
+        "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China.",
+        "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China.",
+        "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China.",
+        "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China.",
+        "Department of Marine Science, University of Texas at Austin, Marine Science Institute, Port Aransas, TX, USA.",
+        "Department of Marine Science, University of Texas at Austin, Marine Science Institute, Port Aransas, TX, USA.",
+        "Department of Integrative Biology, University of Texas at Austin, Austin, TX, USA.",
+        "Computational Biology Branch, Division of Intramural Research, National Library of Medicine, Bethesda, MD 20894, USA.",
+        "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China.",
+        "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Du, Huan",
+        "short_name": "Du H",
+        "identifiers": [
+          "0000-0002-0020-149X"
+        ],
+        "affiliations": [
+          "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Aoxiang",
+        "short_name": "Xu A",
+        "identifiers": [],
+        "affiliations": [
+          "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Xiaoyuan",
+        "short_name": "Feng X",
+        "identifiers": [
+          "0000-0002-0094-842X"
+        ],
+        "affiliations": [
+          "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Wen-Cong",
+        "short_name": "Huang WC",
+        "identifiers": [
+          "0000-0002-1328-4087"
+        ],
+        "affiliations": [
+          "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China.",
+          "Present address: Royal Netherlands Institute for Sea Research, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Li, Huayu",
+        "short_name": "Li H",
+        "identifiers": [],
+        "affiliations": [
+          "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Li",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuling",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Siyu",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Song, Ning",
+        "short_name": "Song N",
+        "identifiers": [],
+        "affiliations": [
+          "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Appler, Kathryn E",
+        "short_name": "Appler KE",
+        "identifiers": [
+          "0000-0002-1219-1786"
+        ],
+        "affiliations": [
+          "Department of Marine Science, University of Texas at Austin, Marine Science Institute, Port Aransas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Baker, Brett J",
+        "short_name": "Baker BJ",
+        "identifiers": [
+          "0000-0002-5971-1021"
+        ],
+        "affiliations": [
+          "Department of Marine Science, University of Texas at Austin, Marine Science Institute, Port Aransas, TX, USA.",
+          "Department of Integrative Biology, University of Texas at Austin, Austin, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Koonin, Eugene V",
+        "short_name": "Koonin EV",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Branch, Division of Intramural Research, National Library of Medicine, Bethesda, MD 20894, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Meng",
+        "short_name": "Li M",
+        "identifiers": [
+          "0000-0001-8675-0758"
+        ],
+        "affiliations": [
+          "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yang",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0000-0002-1109-0756"
+        ],
+        "affiliations": [
+          "Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen 518060, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Nov 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/31 07:37",
+    "fetched_at": "2026-09-17 23:28:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40335687",
+      "40179162",
+      "40133781",
+      "40113598",
+      "39808735",
+      "39585991",
+      "39580597",
+      "39261613",
+      "38813858",
+      "38747347",
+      "38718835",
+      "38613393",
+      "38307786",
+      "37978174",
+      "37957331",
+      "37316666",
+      "37144476",
+      "36038728",
+      "35737788",
+      "35667126",
+      "35449457",
+      "35193962",
+      "34802870",
+      "34520557",
+      "34362927",
+      "34343017",
+      "34155212",
+      "33911286",
+      "33264284",
+      "33127909",
+      "33106602",
+      "32341569",
+      "32332738",
+      "32011700",
+      "31942073",
+      "31827088",
+      "30936488",
+      "30346795",
+      "29858957",
+      "29503457",
+      "29227472",
+      "29132422",
+      "28950365",
+      "28642439",
+      "28585808",
+      "28514652",
+      "28502981",
+      "28285375",
+      "28263314",
+      "28202954",
+      "28077874",
+      "27572645",
+      "26969252",
+      "26840490",
+      "26478774",
+      "26323764",
+      "25977477",
+      "25713376",
+      "25350791",
+      "24933391",
+      "24773235",
+      "23925510",
+      "23329690",
+      "23260134",
+      "22743772",
+      "22155772",
+      "21714941",
+      "20962839",
+      "20626897",
+      "20308536",
+      "19328811",
+      "16682634",
+      "16081736",
+      "15005799",
+      "9797402",
+      "9510246"
+    ],
+    "similar": [
+      "41473266",
+      "40237460",
+      "37316666",
+      "41480148",
+      "40335687",
+      "32430468",
+      "40791505",
+      "33892498",
+      "38380930",
+      "40893973",
+      "33911286",
+      "26437773",
+      "26323764",
+      "36792581",
+      "38018971",
+      "34863611",
+      "30936488",
+      "38818484",
+      "33229320",
+      "38967634",
+      "33770091",
+      "34378142",
+      "38896033",
+      "32302567",
+      "19296856",
+      "37254790",
+      "32442459",
+      "40796349",
+      "34131078",
+      "33462601",
+      "38674651",
+      "30158917",
+      "35027677",
+      "28077874",
+      "41120633",
+      "35275997",
+      "27672020",
+      "39849086",
+      "32428493",
+      "39082809",
+      "32428484",
+      "26455774",
+      "32636606",
+      "31384702",
+      "35760839",
+      "32747565",
+      "32685134",
+      "32341569",
+      "33409543",
+      "41428662",
+      "34465898",
+      "37127702",
+      "34229349",
+      "36125740",
+      "32534168",
+      "19245710",
+      "33608286",
+      "39753954",
+      "39085212",
+      "38903064",
+      "33106602",
+      "40120574",
+      "40513207",
+      "24691961",
+      "24398320",
+      "35449457",
+      "22329974",
+      "33137653",
+      "40313982",
+      "40540396",
+      "38748857",
+      "41436042",
+      "18463089",
+      "39128722",
+      "29484479",
+      "32935885",
+      "24532674",
+      "38818326",
+      "31506313",
+      "27319280",
+      "28916841",
+      "26323759",
+      "29123225",
+      "32142116",
+      "32201928",
+      "35429148",
+      "38472392",
+      "36424352",
+      "24923324",
+      "22446522",
+      "39081798",
+      "35760836",
+      "36544020",
+      "22284070",
+      "32785681",
+      "36672768",
+      "38314098",
+      "25525215",
+      "16907971",
+      "31942073"
+    ],
+    "review": [
+      "41473266",
+      "40893973",
+      "26323764",
+      "38018971",
+      "34863611",
+      "33229320",
+      "37254790",
+      "27672020",
+      "26455774",
+      "31384702",
+      "32341569",
+      "37127702",
+      "40513207",
+      "24691961",
+      "35449457",
+      "33137653",
+      "38748857",
+      "29484479",
+      "31506313",
+      "27319280",
+      "28916841"
+    ],
+    "pmc": [
+      "12747264"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41473266/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.11.08.687404",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

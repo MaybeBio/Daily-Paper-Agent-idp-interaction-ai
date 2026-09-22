@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41762441",
+  "title": "Identification of ZFTA as a Novel KLHL20 Substrate and Mechanistic Insights Into Fuzzy Binding of Disordered Peptides via Biosensor Analysis and Computational Modelling.",
+  "authors": "Myers, Nadine E M; Whittaker, Joanna; Cadot, Marie Elodie Helene; Varga, Julia K; Diallo, Marcel; Nilsson, Jakob; Bach, Anders; Sandstrom, Anja; Schueler-Furman, Ora; Danielson, U Helena",
+  "journal": "Chembiochem : a European journal of chemical biology",
+  "published_date": "2026-02-28",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合生物传感器与AlphaFold2预测，表征了无序ZFTA肽段与KLHL20 Kelch域的弱结合及fuzzy binding机制，直接涉及IDR介导的PPI机制建模，方法上AI预测与实验结合，高度契合课题。",
+  "abstract": "Interactions between peptides based on a region in the zinc finger translocation associated (ZFTA) protein and the Kelch domain of Kelch-like protein 20 (KLHL20(Kelch)) have been characterised by biosensor analysis, supported by AlphaFold2-based structure predictions of peptides bound to the protein. Residues critical for the interaction were identified. The analysis showed that all peptides exhibited relatively weak and complex interactions with KLHL20(Kelch). The original ZFTA peptide had a much higher affinity for KLHL20(Kelch) than for the Kelch domain of KLHL12 (KLHL12(Kelch)), indicating a specificity for KLHL20(Kelch). The estimated K(D) (app) of 35 microM was like that for a 21-mer peptide derived from death-associated protein kinase 1, a known KLHL20 substrate. Removal of flexible C-terminal residues generated a 12-mer, predicted to form a stable helix. This reduced the affinity 100-fold. Removal of N-terminal residues resulted in a 10-mer predicted to be flexible, which had a similar affinity as the original 16-mer. The similar affinities for peptides representing different regions of ZFTA suggest that the recognition is feature specific rather than sequence specific. The interaction mechanism reflects \"fuzzy binding\", consistent with the role of KLHL20 as an adaptor protein in the ubiquitination of disordered protein substrates by Cullin-3 E3 ubiquitin ligase.",
+  "abstract_zh": "基于锌指转位相关（ZFTA）蛋白中一个区域的肽段与Kelch样蛋白20的Kelch结构域（KLHL20(Kelch)）之间的相互作用，已通过生物传感器分析进行表征，并辅以基于AlphaFold2的肽段与蛋白结合结构预测。鉴定了对相互作用至关重要的残基。分析表明，所有肽段与KLHL20(Kelch)的相互作用均相对较弱且复杂。原始ZFTA肽段对KLHL20(Kelch)的亲和力远高于对KLHL12的Kelch结构域（KLHL12(Kelch)）的亲和力，表明其对KLHL20(Kelch)具有特异性。估计的表观解离常数K(D) (app)为35微摩尔，与源自死亡相关蛋白激酶1（一种已知的KLHL20底物）的21聚体肽段的亲和力相似。去除柔性C端残基生成了一个12聚体，预测其形成稳定螺旋，这使亲和力降低了100倍。去除N端残基产生了一个预测为柔性的10聚体，其亲和力与原始16聚体相似。代表ZFTA不同区域的肽段具有相似亲和力，表明识别是特征特异性的而非序列特异性的。相互作用机制反映了“模糊结合”，这与KLHL20作为衔接蛋白在Cullin-3 E3泛素连接酶对无序蛋白底物进行泛素化中的作用一致。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41762441/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41762441/",
+  "paper_page_path": "papers/pubmed/41762441/index.html"
+}

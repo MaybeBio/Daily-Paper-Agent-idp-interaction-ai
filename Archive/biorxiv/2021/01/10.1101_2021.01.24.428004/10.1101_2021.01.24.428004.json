@@ -1,0 +1,203 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.24.428004",
+  "title": "Allosteric activation of SARS-CoV-2 RdRp by remdesivir triphosphate and other phosphorylated nucleotides",
+  "doi": "10.1101/2021.01.24.428004",
+  "abstract": "<h4>SUMMARY</h4> The catalytic subunit of SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), Nsp12, has a unique NiRAN domain that transfers nucleoside monophosphates to the Nsp9 protein. The NiRAN and RdRp modules form a dynamic interface distant from their catalytic sites and both activities are essential for viral replication. We report that codon-optimized (for the pause-free translation) Nsp12 exists in inactive state in which NiRAN/RdRp interactions are broken, whereas translation by slow ribosomes and incubation with accessory Nsp7/8 subunits or NTPs partially rescue RdRp activity. Our data show that adenosine and remdesivir triphosphates promote synthesis of A-less RNAs, as does ppGpp, while amino acid substitutions at the NiRAN/RdRp interface augment activation, suggesting that ligand binding to the NiRAN catalytic site modulates RdRp activity. The existence of allosterically-linked nucleotidyl transferase sites that utilize the same substrates has important implications for understanding the mechanism of SARS-CoV-2 replication and design of its inhibitors. <h4>Highlights</h4> Codon-optimization of Nsp12 triggers misfolding and activity loss Slow translation, accessory Nsp7 and Nsp8 subunits, and NTPs rescue Nsp12 Non-substrate nucleotides activate RNA chain synthesis, likely via NiRAN domain Crosstalk between two Nsp12 active sites that bind the same ligands",
+  "authors": [
+    "Wang B",
+    "Svetlov V",
+    "Wolf YI",
+    "Koonin EV",
+    "Nudler E",
+    "Artsimovitch I"
+  ],
+  "published_date": "2021-01-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.24.428004",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.24.428004.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR272971",
+    "raw_record": {
+      "id": "PPR272971",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR272971"
+        ]
+      },
+      "doi": "10.1101/2021.01.24.428004",
+      "title": "Allosteric activation of SARS-CoV-2 RdRp by remdesivir triphosphate and other phosphorylated nucleotides",
+      "authorString": "Wang B, Svetlov V, Wolf YI, Koonin EV, Nudler E, Artsimovitch I.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang B",
+            "lastName": "Wang",
+            "firstName": "Bing",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, The Ohio State University, Columbus, OH 43210, USA"
+                },
+                {
+                  "affiliation": "The Center for RNA Biology, The Ohio State University, Columbus, OH 43210, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Svetlov V",
+            "lastName": "Svetlov",
+            "firstName": "Vladimir",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Pharmacology, New York University School of Medicine, New York, NY 10016, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wolf YI",
+            "lastName": "Wolf",
+            "firstName": "Yuri",
+            "initials": "YI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20894, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Koonin EV",
+            "lastName": "Koonin",
+            "firstName": "Eugene",
+            "initials": "EV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD, 20894, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nudler E",
+            "lastName": "Nudler",
+            "firstName": "Evgeny",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Pharmacology, New York University School of Medicine, New York, NY 10016, USA"
+                },
+                {
+                  "affiliation": "Howard Hughes Medical Institute, New York University School of Medicine, New York, NY 10016, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Artsimovitch I",
+            "lastName": "Artsimovitch",
+            "firstName": "Irina",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, The Ohio State University, Columbus, OH 43210, USA"
+                },
+                {
+                  "affiliation": "The Center for RNA Biology, The Ohio State University, Columbus, OH 43210, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>SUMMARY</h4>  The catalytic subunit of SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), Nsp12, has a unique NiRAN domain that transfers nucleoside monophosphates to the Nsp9 protein. The NiRAN and RdRp modules form a dynamic interface distant from their catalytic sites and both activities are essential for viral replication. We report that codon-optimized (for the pause-free translation) Nsp12 exists in inactive state in which NiRAN/RdRp interactions are broken, whereas translation by slow ribosomes and incubation with accessory Nsp7/8 subunits or NTPs partially rescue RdRp activity. Our data show that adenosine and remdesivir triphosphates promote synthesis of A-less RNAs, as does ppGpp, while amino acid substitutions at the NiRAN/RdRp interface augment activation, suggesting that ligand binding to the NiRAN catalytic site modulates RdRp activity. The existence of allosterically-linked nucleotidyl transferase sites that utilize the same substrates has important implications for understanding the mechanism of SARS-CoV-2 replication and design of its inhibitors. <h4>Highlights</h4>  Codon-optimization of Nsp12 triggers misfolding and activity loss Slow translation, accessory Nsp7 and Nsp8 subunits, and NTPs rescue Nsp12 Non-substrate nucleotides activate RNA chain synthesis, likely via NiRAN domain Crosstalk between two Nsp12 active sites that bind the same ligands",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.24.428004"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR272971"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR272971&type=FILE&fileName=EMS114457-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS114457",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2021-01-26",
+      "firstPublicationDate": "2021-01-25",
+      "firstIndexDate": "2021-01-26",
+      "fullTextReceivedDate": "2021-06-16",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "41877182",
+    "doi": "10.1186/s13059-026-04042-w",
+    "title": "ER tethering and active transport govern condensate diffusion during hyperosmotic stress."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Hyperosmotic shock and the resulting cell volume compression are commonly experienced by organs such as the kidneys, causing rapid formation of hyperosmotic phase separation (HOPS) condensates in the cytoplasm and nucleoplasm. Although the causal relationship between hyperosmotic shock and condensation has been characterized, the diffusion dynamics of biomolecular condensates in hyperosmotically compressed cells and their underlying mechanisms remain largely unknown. RESULTS: We systematically characterize the dynamics of HOPS condensates formed by model protein mRNA decapping enzyme 1A (DCP1A) through live-cell fluorescent single-particle tracking (SPT) across timescales. We find that HOPS condensates predominantly exhibit sub-diffusion rather than free diffusion, while a small fraction undergo bursts of super-diffusion. Using imaging to measure spatial accessibility inside cells and fluorescence labels for specific cellular organelles, we show that sub-diffusion arises from endoplasmic reticulum (ER) attachment, whereas super-diffusion reflects microtubule-dependent active transport. We further reconstruct spatial accessibility within hyperosmotically compressed cells using trajectories of genetically encoded multimeric nanoparticles (GEMs) and find that, despite compression, the cytoplasm remains accessible via diffusion and does not exhibit physical corralling. This indicates that restricted condensate mobility arises primarily from specific molecular interactions rather than from physical barriers. CONCLUSIONS: Our findings challenge the view that the cytosol becomes static and constrained during hyperosmotic compression. Instead, it remains dynamic, while condensates are spatially organized through docking to membrane structures with intermittent episodes of long-range transport. This model reshapes our understanding of the physical environment within stressed cells and provides a framework for how condensates achieve spatiotemporal organization through interactions with cellular structures and active processes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Osmotic Pressure",
+      "*Endoplasmic Reticulum/metabolism",
+      "Diffusion",
+      "Phase Separation",
+      "Cytoplasm/metabolism",
+      "Biological Transport, Active",
+      "*Biomolecular Condensates/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Halder, Bisal",
+        "Gao, Guoming",
+        "Ahnoud, Armin",
+        "Stakenas, Shelby",
+        "Sumrall, Emily R",
+        "Walter, Nils G"
+      ],
+      "short_names": [
+        "Halder B",
+        "Gao G",
+        "Ahnoud A",
+        "Stakenas S",
+        "Sumrall ER",
+        "Walter NG"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for RNA Biomedicine, University of Michigan, Ann Arbor, MI, 48109, USA.",
+        "Department of Chemistry, University of Michigan, Ann Arbor, MI, 48109, USA.",
+        "Center for RNA Biomedicine, University of Michigan, Ann Arbor, MI, 48109, USA.",
+        "Present Address: Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA, 91125, USA.",
+        "Center for RNA Biomedicine, University of Michigan, Ann Arbor, MI, 48109, USA.",
+        "Pharmaceutical Sciences Graduate Program, College of Pharmacy, University of Michigan, Ann Arbor, MI, 48109, USA.",
+        "Center for RNA Biomedicine, University of Michigan, Ann Arbor, MI, 48109, USA.",
+        "Department of Chemistry, University of Michigan, Ann Arbor, MI, 48109, USA.",
+        "Center for RNA Biomedicine, University of Michigan, Ann Arbor, MI, 48109, USA.",
+        "Center for RNA Biomedicine, University of Michigan, Ann Arbor, MI, 48109, USA. nwalter@umich.edu.",
+        "Department of Chemistry, University of Michigan, Ann Arbor, MI, 48109, USA. nwalter@umich.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Halder, Bisal",
+        "short_name": "Halder B",
+        "identifiers": [],
+        "affiliations": [
+          "Center for RNA Biomedicine, University of Michigan, Ann Arbor, MI, 48109, USA.",
+          "Department of Chemistry, University of Michigan, Ann Arbor, MI, 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Gao, Guoming",
+        "short_name": "Gao G",
+        "identifiers": [],
+        "affiliations": [
+          "Center for RNA Biomedicine, University of Michigan, Ann Arbor, MI, 48109, USA.",
+          "Present Address: Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA, 91125, USA."
+        ]
+      },
+      {
+        "full_name": "Ahnoud, Armin",
+        "short_name": "Ahnoud A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for RNA Biomedicine, University of Michigan, Ann Arbor, MI, 48109, USA.",
+          "Pharmaceutical Sciences Graduate Program, College of Pharmacy, University of Michigan, Ann Arbor, MI, 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Stakenas, Shelby",
+        "short_name": "Stakenas S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for RNA Biomedicine, University of Michigan, Ann Arbor, MI, 48109, USA.",
+          "Department of Chemistry, University of Michigan, Ann Arbor, MI, 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Sumrall, Emily R",
+        "short_name": "Sumrall ER",
+        "identifiers": [],
+        "affiliations": [
+          "Center for RNA Biomedicine, University of Michigan, Ann Arbor, MI, 48109, USA."
+        ]
+      },
+      {
+        "full_name": "Walter, Nils G",
+        "short_name": "Walter NG",
+        "identifiers": [],
+        "affiliations": [
+          "Center for RNA Biomedicine, University of Michigan, Ann Arbor, MI, 48109, USA. nwalter@umich.edu.",
+          "Department of Chemistry, University of Michigan, Ann Arbor, MI, 48109, USA. nwalter@umich.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2026 Mar 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/25 07:09",
+    "fetched_at": "2026-09-18 01:57:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41512824",
+      "41238911",
+      "39426378",
+      "38720076",
+      "38670446",
+      "38499848",
+      "38360555",
+      "37752323",
+      "37669232",
+      "37369203",
+      "36997644",
+      "36893247",
+      "36603188",
+      "36424481",
+      "35853451",
+      "35101974",
+      "34489151",
+      "34341548",
+      "33510441",
+      "33505024",
+      "33335059",
+      "33168632",
+      "32857953",
+      "32632317",
+      "32025294",
+      "32001628",
+      "31792379",
+      "31570887",
+      "31539493",
+      "30952514",
+      "30270183",
+      "29961577",
+      "29937223",
+      "28965817",
+      "26627931",
+      "26511974",
+      "26190259",
+      "24859753",
+      "23493557",
+      "23005136",
+      "21209361",
+      "20036288",
+      "19851335",
+      "19823565",
+      "18226515",
+      "12600311",
+      "12556362"
+    ],
+    "similar": [
+      "41877182",
+      "40666914",
+      "23912807",
+      "42475469",
+      "40972943",
+      "37019112",
+      "40183356",
+      "41238911",
+      "38086853",
+      "39227569",
+      "41670285",
+      "40667293",
+      "41524628",
+      "35881789",
+      "39400294",
+      "42081454",
+      "40954121",
+      "31484749",
+      "38251748",
+      "39276934",
+      "39987501",
+      "40481268",
+      "42531022",
+      "42190656",
+      "40939587",
+      "38552623",
+      "41240313",
+      "41266168",
+      "42161866",
+      "40570844",
+      "36227474",
+      "42065721",
+      "37549257",
+      "34636323",
+      "38698644",
+      "41587927",
+      "42240196",
+      "40455990",
+      "41990454",
+      "36739478",
+      "41279444",
+      "37752323",
+      "41838899",
+      "38781207",
+      "37772963",
+      "42196497",
+      "40708200",
+      "34090478",
+      "31017394",
+      "39946235",
+      "38363841",
+      "40321778",
+      "40291709",
+      "37131735",
+      "40557772",
+      "40849651",
+      "36847235",
+      "40291420",
+      "41667469",
+      "40748104",
+      "37546778",
+      "42039419",
+      "42274390",
+      "39661689",
+      "37461689",
+      "37261897",
+      "41540001",
+      "41512824",
+      "37782826",
+      "40475453",
+      "33168632",
+      "42465321",
+      "34890409",
+      "38626704",
+      "40408482",
+      "40661423",
+      "37668016",
+      "42126959",
+      "40466569",
+      "40253417",
+      "38784009",
+      "38781377",
+      "18653466",
+      "39146259",
+      "40913895",
+      "41703914",
+      "41481439",
+      "41957206",
+      "41741446",
+      "37470705",
+      "37252985",
+      "38360555",
+      "34762868",
+      "34572142",
+      "41191214",
+      "38987300",
+      "41480717",
+      "40999735",
+      "42315359",
+      "41692248"
+    ],
+    "review": [
+      "41877182",
+      "41240313",
+      "41266168",
+      "42161866",
+      "42065721",
+      "38698644",
+      "41587927",
+      "41990454",
+      "37752323",
+      "37772963",
+      "42196497",
+      "40557772",
+      "40849651",
+      "33168632",
+      "38626704",
+      "40466569",
+      "39146259",
+      "40913895",
+      "41957206",
+      "38360555",
+      "41191214",
+      "41480717",
+      "40999735",
+      "41692248"
+    ],
+    "pmc": [
+      "13134243"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-026-04042-w",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41877182/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

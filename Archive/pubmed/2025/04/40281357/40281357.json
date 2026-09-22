@@ -1,0 +1,405 @@
+{
+  "identity": {
+    "pmid": "40281357",
+    "doi": "10.1038/s44318-025-00431-2",
+    "title": "Molecular insights into the effect of 1,6-hexanediol on FUS phase separation."
+  },
+  "content": {
+    "abstract": "The alkanediol 1,6-hexanediol has been widely used to dissolve liquid-liquid phase-separated condensates in cells and in vitro, but the details of how it perturbs the molecular interactions underlying liquid-liquid assembly remain unclear. In this study we use a combination of microscopy, nuclear magnetic resonance (NMR) spectroscopy, molecular simulation, and biochemical assays to probe how alkanediols suppress phase separation and why certain isomers are more effective. We show that alkanediols of different lengths and configurations are all capable of disrupting phase separation of the RNA-binding protein Fused in Sarcoma (FUS), although potency varies depending on both geometry and hydrophobicity, which we measure directly. Alkanediols induce a shared pattern of changes to the chemical environment of the protein, to different extents depending on the specific compound. Furthermore, we use lysozyme as a model globular protein to demonstrate that alkanediols decrease the proteins' thermal stability, which is consistent with the view that they disrupt phase separation driven by hydrophobic groups. Conversely, 1,6-hexanediol does not disrupt charge-mediated phase separation, such as FUS RGG-RNA and poly-lysine/poly-aspartic acid condensates. All-atom simulations show that hydroxyl groups in alkanediols mediate interactions with the protein backbone and polar amino acid side chains, while the aliphatic chain allows contact with hydrophobic and aromatic residues, providing a molecular picture of how amphiphilic interactions disrupt FUS phase separation.",
+    "keywords": [
+      "Hydrophobicity",
+      "Molecular Simulation",
+      "NMR Spectroscopy",
+      "Protein Folding",
+      "RNA"
+    ],
+    "mesh_terms": [
+      "*RNA-Binding Protein FUS/chemistry/metabolism",
+      "Hydrophobic and Hydrophilic Interactions",
+      "*Glycols/chemistry/pharmacology",
+      "Humans",
+      "Magnetic Resonance Spectroscopy",
+      "Molecular Dynamics Simulation",
+      "Muramidase/chemistry/metabolism",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Tongyin",
+        "Wake, Noah",
+        "Weng, Shuo-Lin",
+        "Perdikari, Theodora Myrto",
+        "Murthy, Anastasia C",
+        "Mittal, Jeetain",
+        "Fawzi, Nicolas L"
+      ],
+      "short_names": [
+        "Zheng T",
+        "Wake N",
+        "Weng SL",
+        "Perdikari TM",
+        "Murthy AC",
+        "Mittal J",
+        "Fawzi NL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5132-6436",
+        "ORCID: 0000-0003-4119-2574",
+        "ORCID: 0009-0009-8082-8206",
+        "ORCID: 0000-0002-9725-6402",
+        "ORCID: 0000-0001-5483-0577"
+      ],
+      "affiliations": [
+        "Department of Molecular Biology, Cell Biology & Biochemistry and Robert J. and Nancy D. Carney Institute for Brain Science, Brown University, Providence, RI, USA.",
+        "Therapeutic Sciences Graduate Program, Brown University, Providence, RI, USA.",
+        "Department of Chemistry, Texas A&M University, College Station, TX, USA.",
+        "Center for Biomedical Engineering, Brown University, Providence, RI, USA.",
+        "Molecular Biology, Cell Biology & Biochemistry Graduate Program, Brown University, Providence, RI, USA.",
+        "Department of Chemistry, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+        "Department of Molecular Biology, Cell Biology & Biochemistry and Robert J. and Nancy D. Carney Institute for Brain Science, Brown University, Providence, RI, USA. nicolas_fawzi@brown.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Tongyin",
+        "short_name": "Zheng T",
+        "identifiers": [
+          "0000-0002-5132-6436"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry and Robert J. and Nancy D. Carney Institute for Brain Science, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Wake, Noah",
+        "short_name": "Wake N",
+        "identifiers": [
+          "0000-0003-4119-2574"
+        ],
+        "affiliations": [
+          "Therapeutic Sciences Graduate Program, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Weng, Shuo-Lin",
+        "short_name": "Weng SL",
+        "identifiers": [
+          "0009-0009-8082-8206"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Perdikari, Theodora Myrto",
+        "short_name": "Perdikari TM",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biomedical Engineering, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Murthy, Anastasia C",
+        "short_name": "Murthy AC",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biology, Cell Biology & Biochemistry Graduate Program, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu."
+        ]
+      },
+      {
+        "full_name": "Fawzi, Nicolas L",
+        "short_name": "Fawzi NL",
+        "identifiers": [
+          "0000-0001-5483-0577"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology & Biochemistry and Robert J. and Nancy D. Carney Institute for Brain Science, Brown University, Providence, RI, USA. nicolas_fawzi@brown.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The EMBO journal"
+    ],
+    "journal_abbrev": [
+      "EMBO J"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/26 16:07",
+    "fetched_at": "2026-09-21 18:15:44"
+  },
+  "links": {
+    "cites": [
+      "42608397",
+      "42474060",
+      "42454371",
+      "42339383",
+      "42147780",
+      "41997364",
+      "41969219",
+      "41802061",
+      "41794289",
+      "41575074",
+      "41542417",
+      "41540001",
+      "41536686",
+      "41268679",
+      "41131710",
+      "40830340",
+      "40497348"
+    ],
+    "refs": [
+      "39920231",
+      "39354713",
+      "38614097",
+      "37782781",
+      "37622187",
+      "36351392",
+      "35974095",
+      "35620421",
+      "35182479",
+      "34759379",
+      "34746121",
+      "34560101",
+      "34404453",
+      "34404448",
+      "34357401",
+      "34235141",
+      "34156864",
+      "33938068",
+      "33848463",
+      "33836078",
+      "33819479",
+      "33814344",
+      "33704371",
+      "33607084",
+      "33547841",
+      "33536240",
+      "33510441",
+      "33417833",
+      "33302617",
+      "33230101",
+      "33169001",
+      "33149109",
+      "33138914",
+      "32962378",
+      "32632317",
+      "32554597",
+      "32302571",
+      "32298230",
+      "32029630",
+      "31604601",
+      "31582840",
+      "31493925",
+      "31430179",
+      "31270472",
+      "30581145",
+      "29961577",
+      "29930091",
+      "29913160",
+      "29677514",
+      "29677513",
+      "29517898",
+      "29362359",
+      "29195049",
+      "28935776",
+      "28790177",
+      "28575444",
+      "28225081",
+      "28045371",
+      "27787702",
+      "27768897",
+      "27602576",
+      "26583988",
+      "26574392",
+      "26455390",
+      "26317470",
+      "26286827",
+      "26238190",
+      "25856773",
+      "25586861",
+      "25505092",
+      "25400522",
+      "25289647",
+      "24840975",
+      "23746349",
+      "23257289",
+      "22824207",
+      "22743772",
+      "20947421",
+      "19708649",
+      "17985865",
+      "17212484",
+      "15815974",
+      "12842038",
+      "12637147",
+      "12524319",
+      "12509452",
+      "12032079",
+      "11462813",
+      "8520220"
+    ],
+    "similar": [
+      "40281357",
+      "35709363",
+      "39495179",
+      "34156864",
+      "34759379",
+      "31895552",
+      "29677513",
+      "38029395",
+      "28942918",
+      "31270472",
+      "37211763",
+      "38157426",
+      "37399327",
+      "33814344",
+      "39596510",
+      "38105257",
+      "34862761",
+      "32426986",
+      "33547841",
+      "33184287",
+      "35943083",
+      "37890778",
+      "28924037",
+      "38462838",
+      "36453011",
+      "34233002",
+      "29677514",
+      "34487489",
+      "37158592",
+      "26455390",
+      "33307683",
+      "33597515",
+      "35297101",
+      "37130459",
+      "36361989",
+      "33262375",
+      "38492239",
+      "32687767",
+      "31240261",
+      "34018649",
+      "39801048",
+      "38070499",
+      "30205960",
+      "33857479",
+      "28790177",
+      "29677515",
+      "33022038",
+      "27381509",
+      "32231288",
+      "39885825",
+      "36690069",
+      "39486437",
+      "38347806",
+      "37155880",
+      "31188823",
+      "31805282",
+      "34648275",
+      "34654750",
+      "37231298",
+      "33686294",
+      "34357401",
+      "33607084",
+      "36268634",
+      "34624313",
+      "29364893",
+      "33139563",
+      "40164149",
+      "39311028",
+      "30581145",
+      "39342654",
+      "34516126",
+      "39535884",
+      "34787417",
+      "35445401",
+      "33515602",
+      "33758287",
+      "38593618",
+      "39497416",
+      "38971830",
+      "39083215",
+      "40305655",
+      "30488693",
+      "38467846",
+      "25730443",
+      "38546977",
+      "31067465",
+      "35727989",
+      "32393642",
+      "33302617",
+      "33159856",
+      "29961577",
+      "33705755",
+      "29547565",
+      "23912807",
+      "33233527",
+      "38862770",
+      "23200923",
+      "38458997",
+      "35481633",
+      "38996511"
+    ],
+    "review": [
+      "40281357",
+      "38029395",
+      "37399327",
+      "36268634"
+    ],
+    "pmc": [
+      "12084347"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s44318-025-00431-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40281357/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40281357",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

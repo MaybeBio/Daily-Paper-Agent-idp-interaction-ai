@@ -1,0 +1,387 @@
+{
+  "identity": {
+    "pmid": "38464093",
+    "doi": "10.1101/2024.03.01.582895",
+    "title": "Phase Separation and Aggregation of alpha-Synuclein Diverge at Different Salt Conditions."
+  },
+  "content": {
+    "abstract": "The coacervation and structural rearrangement of the protein alpha-synuclein (alphaSyn) into cytotoxic oligomers and amyloid fibrils are considered pathological hallmarks of Parkinson's disease. While aggregation is recognized as the key element of amyloid diseases, liquid-liquid phase separation (LLPS) and its interplay with aggregation have gained increasing interest. Previous work showed that factors promoting or inhibiting amyloid formation have similar effects on phase separation. Here, we provide a detailed scanning of a wide range of parameters including protein, salt and crowding concentrations at multiple pH values, revealing different salt dependencies of aggregation and phase separation. The influence of salt on aggregation under crowded conditions follows a non-monotonic pattern, showing increased effects at medium salt concentrations. This behavior can be elucidated through a combination of electrostatic screening and salting-out effects on the intramolecular interactions between the N-terminal and C-terminal regions of alphaSyn. By contrast, we find a monotonic salt dependence of phase separation due to the intermolecular interaction. Furthermore, we observe the time evolution of the two distinct assembly states, with macroscopic fibrillar-like bundles initially forming at medium salt concentration but subsequently converting into droplets after prolonged incubation. The droplet state is therefore capable of inhibiting aggregation or even dissolving the aggregates through a variety of heterotypic interactions, thus preventing alphaSyn from its dynamically arrested state.",
+    "keywords": [
+      "Aggregation",
+      "Biomolecular Condensates",
+      "Intrinsically Disordered Proteins",
+      "Liquid-Liquid Phase Separation",
+      "Molecular Dynamics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sternke-Hoffmann, Rebecca",
+        "Sun, Xun",
+        "Menzel, Andreas",
+        "Pinto, Miriam Dos Santos",
+        "Venclovaite, Urte",
+        "Wordehoff, Michael",
+        "Hoyer, Wolfgang",
+        "Zheng, Wenwei",
+        "Luo, Jinghui"
+      ],
+      "short_names": [
+        "Sternke-Hoffmann R",
+        "Sun X",
+        "Menzel A",
+        "Pinto MDS",
+        "Venclovaite U",
+        "Wordehoff M",
+        "Hoyer W",
+        "Zheng W",
+        "Luo J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1662-8244",
+        "ORCID: 0000-0002-9603-009X"
+      ],
+      "affiliations": [
+        "Department of Biology and Chemistry, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland.",
+        "Department of Biology and Chemistry, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland.",
+        "Photon Science Division, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland.",
+        "Department of Biology and Chemistry, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland.",
+        "Department of Biology and Chemistry, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland.",
+        "Institut fur Physikalische Biologie, Heinrich-Heine University Dusseldorf, 40225 Dusseldorf, Germany.",
+        "Institut fur Physikalische Biologie, Heinrich-Heine University Dusseldorf, 40225 Dusseldorf, Germany.",
+        "College of Integrative Sciences and Arts, Arizona State University, Mesa, AZ, 85212, United States.",
+        "Department of Biology and Chemistry, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sternke-Hoffmann, Rebecca",
+        "short_name": "Sternke-Hoffmann R",
+        "identifiers": [
+          "0000-0002-1662-8244"
+        ],
+        "affiliations": [
+          "Department of Biology and Chemistry, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Sun, Xun",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Chemistry, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Menzel, Andreas",
+        "short_name": "Menzel A",
+        "identifiers": [],
+        "affiliations": [
+          "Photon Science Division, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Pinto, Miriam Dos Santos",
+        "short_name": "Pinto MDS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Chemistry, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Venclovaitė, Urtė",
+        "short_name": "Venclovaitė U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Chemistry, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wördehoff, Michael",
+        "short_name": "Wördehoff M",
+        "identifiers": [],
+        "affiliations": [
+          "Institut für Physikalische Biologie, Heinrich-Heine University Düsseldorf, 40225 Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Hoyer, Wolfgang",
+        "short_name": "Hoyer W",
+        "identifiers": [],
+        "affiliations": [
+          "Institut für Physikalische Biologie, Heinrich-Heine University Düsseldorf, 40225 Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Zheng, Wenwei",
+        "short_name": "Zheng W",
+        "identifiers": [
+          "0000-0002-9603-009X"
+        ],
+        "affiliations": [
+          "College of Integrative Sciences and Arts, Arizona State University, Mesa, AZ, 85212, United States."
+        ]
+      },
+      {
+        "full_name": "Luo, Jinghui",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology and Chemistry, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Mar 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/11 06:43",
+    "fetched_at": "2026-09-21 05:49:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37749234",
+      "37684240",
+      "37528959",
+      "37337111",
+      "36697708",
+      "36567711",
+      "36459561",
+      "36115020",
+      "35736300",
+      "35485974",
+      "35380562",
+      "35276458",
+      "35145226",
+      "34950630",
+      "34871547",
+      "34431665",
+      "34259536",
+      "34242594",
+      "34163700",
+      "33587794",
+      "33547841",
+      "33452693",
+      "33386904",
+      "33255444",
+      "33004511",
+      "32514159",
+      "32484438",
+      "32414928",
+      "32157247",
+      "32112991",
+      "31815671",
+      "30520303",
+      "30217894",
+      "29472250",
+      "29364893",
+      "29358076",
+      "29299386",
+      "28483149",
+      "28332488",
+      "27545621",
+      "26474065",
+      "26455390",
+      "26406374",
+      "26352473",
+      "26317470",
+      "25288112",
+      "24817693",
+      "24368804",
+      "24120937",
+      "24050397",
+      "23199922",
+      "22695112",
+      "22682242",
+      "22579281",
+      "22398450",
+      "22012399",
+      "21643490",
+      "21500218",
+      "21368180",
+      "20923147",
+      "19460965",
+      "19045161",
+      "17145717",
+      "16338404",
+      "16024039",
+      "15671169",
+      "15643843",
+      "15610017",
+      "15498564",
+      "15451224",
+      "15362105",
+      "14593171",
+      "12428728",
+      "12237457",
+      "12217698",
+      "11943202",
+      "9197268",
+      "8889180"
+    ],
+    "similar": [
+      "38464093",
+      "38973194",
+      "40721018",
+      "37238596",
+      "39116032",
+      "35787838",
+      "41771869",
+      "40658845",
+      "35485974",
+      "38272228",
+      "40893951",
+      "40370127",
+      "40502018",
+      "39087984",
+      "37574035",
+      "34431665",
+      "41147343",
+      "41804277",
+      "36373662",
+      "34165838",
+      "35276458",
+      "34737230",
+      "36481455",
+      "38731658",
+      "35500664",
+      "40015369",
+      "39826709",
+      "33982369",
+      "33862084",
+      "38808534",
+      "23912807",
+      "35657723",
+      "41547174",
+      "36595668",
+      "40560766",
+      "37585526",
+      "41457474",
+      "40060635",
+      "41736915",
+      "41785961",
+      "41332772",
+      "36310218",
+      "30327435",
+      "32514159",
+      "38847095",
+      "30814253",
+      "36524527",
+      "39549813",
+      "34871547",
+      "39507104",
+      "37414583",
+      "33452693",
+      "41732904",
+      "35241680",
+      "29704492",
+      "40684934",
+      "40238878",
+      "33279579",
+      "41593006",
+      "31181290",
+      "34102212",
+      "36682493",
+      "39612640",
+      "40022877",
+      "32824618",
+      "36802433",
+      "33211011",
+      "36499553",
+      "35836937",
+      "40916915",
+      "20858207",
+      "33955104",
+      "31971365",
+      "41001641",
+      "41507378",
+      "37190853",
+      "34422830",
+      "40715768",
+      "40785227",
+      "38597222",
+      "34235468",
+      "41268679",
+      "41169547",
+      "37604044",
+      "36061735",
+      "41723982",
+      "35933508",
+      "33771571",
+      "32169484",
+      "34667532",
+      "41576203",
+      "38435530",
+      "36834792",
+      "37662377",
+      "39504036",
+      "39358890",
+      "41815072",
+      "34213307",
+      "30826264",
+      "40845355"
+    ],
+    "review": [
+      "38464093",
+      "35787838",
+      "36373662",
+      "38808534",
+      "41547174",
+      "36524527",
+      "39507104",
+      "37414583",
+      "39612640",
+      "32824618",
+      "38597222",
+      "37604044",
+      "32169484"
+    ],
+    "pmc": [
+      "10925286"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38464093/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38464093",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.03.01.582895",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

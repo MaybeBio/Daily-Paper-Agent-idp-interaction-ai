@@ -1,0 +1,354 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.06.597736",
+  "title": "Structures of the human transcription factor brachyury offer insights into DNA recognition, and identify small molecule binders for the development of degraders for cancer therapy",
+  "doi": "10.1101/2024.06.06.597736",
+  "abstract": "The transcription factor brachyury is a member of the T-Box family of transcription factors. It is active during embryogenesis and is required for the formation of the posterior mesoderm and the notochord in vertebrates. Aside from its role in embryogenesis, brachyury plays an essential role in tumour growth of the rare chordoma bone cancer and is implicated in other solid tumours. Given that brachyury is minimally expressed in healthy tissues, these findings suggest that brachyury is a potential therapeutic target in cancer. Unfortunately, as a ligandless transcription factor, brachyury has historically been considered undruggable. To investigate direct targeting of brachyury by small molecules, we initially determined the structure of human brachyury both in complex with its cognate DNA and in the absence of DNA. Analysis of these structures provided insights into brachyury DNA binding and the structural context of the G177D variant which is strongly associated with chordoma risk. We used these structures to perform a crystallographic fragment screen of brachyury and identify hotspot regions on numerous pockets on the brachyury surface. Finally, we have performed follow-up chemistry on fragment hits and describe the structure-based progression of a thiazole-containing chemical series. Excitingly, we have produced brachyury binders with low µM potency that can serve as starting point for further medicinal chemistry efforts. These data show that brachyury is ligandable and provides an example of how crystallographic fragment screening may be used to find ligands to target protein classes that are traditionally difficult to address using other approaches.",
+  "authors": [
+    "Newman JA",
+    "Gavard AE",
+    "Imprachim N",
+    "Aitkenhead H",
+    "Sheppard HE",
+    "Clarke PA",
+    "Hossain MA",
+    "Temme L",
+    "Oh HJ",
+    "Wells CI",
+    "Davis-Gilbert ZW",
+    "Workman P",
+    "Gileadi O",
+    "Drewry DH"
+  ],
+  "published_date": "2024-06-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.06.597736",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.06.597736.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR863760",
+    "raw_record": {
+      "id": "PPR863760",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR863760"
+        ]
+      },
+      "doi": "10.1101/2024.06.06.597736",
+      "title": "Structures of the human transcription factor brachyury offer insights into DNA recognition, and identify small molecule binders for the development of degraders for cancer therapy",
+      "authorString": "Newman JA, Gavard AE, Imprachim N, Aitkenhead H, Sheppard HE, Clarke PA, Hossain MA, Temme L, Oh HJ, Wells CI, Davis-Gilbert ZW, Workman P, Gileadi O, Drewry DH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Newman JA",
+            "lastName": "Newman",
+            "firstName": "Joseph",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4488-0516"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medicines Discovery, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gavard AE",
+            "lastName": "Gavard",
+            "firstName": "Angeline",
+            "initials": "AE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medicines Discovery, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Imprachim N",
+            "lastName": "Imprachim",
+            "firstName": "Nergis",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medicines Discovery, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aitkenhead H",
+            "lastName": "Aitkenhead",
+            "firstName": "Hazel",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medicines Discovery, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sheppard HE",
+            "lastName": "Sheppard",
+            "firstName": "Hadley",
+            "initials": "HE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Cancer Drug Discovery, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Clarke PA",
+            "lastName": "Clarke",
+            "firstName": "Paul",
+            "initials": "PA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Cancer Drug Discovery, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hossain MA",
+            "lastName": "Hossain",
+            "firstName": "Mohammad Anwar",
+            "initials": "MA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8684-8755"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "SGC-UNC, ,"
+                },
+                {
+                  "affiliation": ", School of Medicine, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Temme L",
+            "lastName": "Temme",
+            "firstName": "Louisa",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "SGC-UNC, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oh HJ",
+            "lastName": "Oh",
+            "firstName": "Hans",
+            "initials": "HJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-2354-080X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "SGC-UNC, ,"
+                },
+                {
+                  "affiliation": ", School of Medicine, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wells CI",
+            "lastName": "Wells",
+            "firstName": "Carrow",
+            "initials": "CI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "SGC-UNC, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davis-Gilbert ZW",
+            "lastName": "Davis-Gilbert",
+            "firstName": "Zachary",
+            "initials": "ZW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "SGC-UNC, ,"
+                },
+                {
+                  "affiliation": ", School of Medicine, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Workman P",
+            "lastName": "Workman",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Cancer Drug Discovery, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gileadi O",
+            "lastName": "Gileadi",
+            "firstName": "Opher",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medicines Discovery, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Drewry DH",
+            "lastName": "Drewry",
+            "firstName": "David",
+            "initials": "DH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "SGC-UNC, ,"
+                },
+                {
+                  "affiliation": ", School of Medicine, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8684-8755"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4488-0516"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-2354-080X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The transcription factor brachyury is a member of the T-Box family of transcription factors. It is active during embryogenesis and is required for the formation of the posterior mesoderm and the notochord in vertebrates. Aside from its role in embryogenesis, brachyury plays an essential role in tumour growth of the rare chordoma bone cancer and is implicated in other solid tumours. Given that brachyury is minimally expressed in healthy tissues, these findings suggest that brachyury is a potential therapeutic target in cancer. Unfortunately, as a ligandless transcription factor, brachyury has historically been considered undruggable. To investigate direct targeting of brachyury by small molecules, we initially determined the structure of human brachyury both in complex with its cognate DNA and in the absence of DNA. Analysis of these structures provided insights into brachyury DNA binding and the structural context of the G177D variant which is strongly associated with chordoma risk. We used these structures to perform a crystallographic fragment screen of brachyury and identify hotspot regions on numerous pockets on the brachyury surface. Finally, we have performed follow-up chemistry on fragment hits and describe the structure-based progression of a thiazole-containing chemical series. Excitingly, we have produced brachyury binders with low µM potency that can serve as starting point for further medicinal chemistry efforts. These data show that brachyury is ligandable and provides an example of how crystallographic fragment screening may be used to find ligands to target protein classes that are traditionally difficult to address using other approaches.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.06.06.597736"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.06.597736"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR863760"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR863760&type=FILE&fileName=EMS196802-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196802",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-06-09",
+      "firstPublicationDate": "2024-06-06",
+      "firstIndexDate": "2024-06-09",
+      "fullTextReceivedDate": "2024-07-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

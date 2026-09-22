@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.10.617378",
+  "title": "The small GTPase Ran defines Nuclear Pore Complex Asymmetry",
+  "authors": "Sachweh J; Börmel M; Klumpe S; Becker A; Taniguchi R; Kubańska MA; Pintschovius V; Kaindl E; Plitzko JM; Wilfling F; Beck M; Hampoelz B",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-11",
+  "window": {
+    "start": "2024-10-07",
+    "end": "2024-10-13"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究结合冷冻电镜断层扫描与活细胞成像，揭示Ran GTPase核苷酸状态决定核孔复合物不对称组装，对象为核孔复合物而非无序蛋白/IDR，且无AI或物理模拟方法，仅间接涉及核转运PPI机制，对本课题启发有限。",
+  "abstract": "<h4>Summary</h4> Nuclear pore complexes (NPCs) bridge across the nuclear envelope and mediate nucleocytoplasmic exchange. They consist of hundreds of nucleoporin building blocks and exemplify the structural complexity of macromolecular assemblies. To ensure transport directionality, different nucleoporin complexes are attached to the cytosolic and nuclear face of the NPC. How those asymmetric structures are faithfully assembled onto the symmetric scaffold architecture that exposes the same interaction surfaces to either side, remained enigmatic. Here we combine cryo-electron tomography, subtomogram averaging, and template matching with live cell imaging to address this question in budding yeast and Drosophila melanogaster . We genetically induce ectopic nuclear pores and show that pores outside the nuclear envelope are symmetric. We furthermore demonstrate that the peripheral NPC configuration depends on the nucleotide state of the small GTPase Ran. Our findings indicate that the nuclear transport system is self-regulatory, namely the same molecular mechanism controls both transport and transport channel composition.",
+  "abstract_zh": "<h4>摘要</h4> 核孔复合体（NPCs）跨越核膜，介导核质交换。它们由数百个核孔蛋白构件组成，体现了大分子组装体的结构复杂性。为确保运输方向性，不同的核孔蛋白复合体附着于NPC的胞质面和核质面。这些不对称结构如何忠实地组装到对称的支架架构上，而该支架对两侧暴露相同的相互作用表面，此前一直是个谜。在此，我们结合冷冻电子断层扫描、亚断层图平均和模板匹配与活细胞成像，在出芽酵母和黑腹果蝇中探讨这一问题。我们通过遗传手段诱导异位核孔，并显示核膜外的核孔是对称的。我们还进一步证明，外周NPC的构型取决于小GTP酶Ran的核苷酸状态。我们的发现表明，核运输系统是自我调节的，即同一分子机制同时控制运输和运输通道的组成。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.10.617378",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.10.617378",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.10.617378/index.html"
+}

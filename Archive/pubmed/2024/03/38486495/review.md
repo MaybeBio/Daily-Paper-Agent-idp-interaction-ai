@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a combined NMR, stopped-flow fluorescence, and structure-based simulation study of the coupled folding and binding mechanism between two intrinsically flexible proteins, VirB9(Ct) and VirB7(Nt), components of the Type IV Secretion System outer membrane core complex. They propose that at lower temperatures, binding proceeds via conformational selection, while at higher temperatures, non-native encounter complexes provide alternative pathways, highlighting a rugged and funnelled energy landscape with multiple intermediates.
+- **Visible evidence base** Abstract text only; no quantitative data, experimental details, or simulation parameters are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, simulation protocols, quantitative kinetic and thermodynamic data, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a biologically and biophysically interesting question regarding the mechanism of coupled folding and binding in intrinsically disordered proteins. The combination of experimental and computational approaches is appropriate in principle. However, the abstract provides only qualitative statements about the proposed mechanisms, with no quantitative data or methodological detail to support the central claims. The distinction between conformational selection at lower temperatures and alternative pathways at higher temperatures is asserted rather than demonstrated. As presented, the evidence base is insufficient to establish the mechanistic conclusions.
+- **Who would be interested in the results, and why** Researchers in the fields of protein biophysics, intrinsically disordered proteins, and protein-protein interaction mechanisms would find these results relevant. The work also has potential relevance for those studying bacterial Type IV Secretion Systems and the structural biology of membrane-associated complexes. The broader question of how conformational dynamics and binding energy landscapes govern coupled folding and binding is of general interest to the biophysical community.
+- **Major strengths** The study addresses a mechanistically important and underexplored question, namely the association mechanism between two intrinsically flexible proteins. The combination of multiple biophysical techniques, including NMR, stopped-flow fluorescence, and structure-based simulations, is a strength in principle, as it allows cross-validation of mechanistic inferences. The focus on temperature-dependent behavior adds a useful dimension to the analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that VirB9(Ct) preferentially binds to VirB7(Nt) via a conformational selection mechanism at lower temperatures, and that at higher temperatures, non-native initial encounter complexes provide alternative pathways toward the native complex.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data, such as binding affinities, kinetic rate constants, or temperature-dependent measurements, that would support the proposed mechanistic switch. The terms "qualitative data analysis" suggest that the conclusions are based on interpretive assessments rather than rigorous quantitative fitting or statistical comparison. No information is given on how conformational selection was distinguished from induced fit, nor how the presence of non-native encounter complexes was detected or characterized.
+  - **Why it matters** The central mechanistic claims are the main contribution of the work. Without quantitative evidence, the distinction between conformational selection and alternative pathways cannot be evaluated, and the conclusions remain speculative. The claim of a temperature-dependent mechanism switch is particularly strong and requires direct experimental support.
+  - **Resolution test** Provide quantitative kinetic and thermodynamic data from stopped-flow fluorescence and NMR experiments, including temperature-dependent rate constants and binding affinities. Show explicit model fitting that distinguishes conformational selection from induced fit, and provide direct evidence for the population and role of non-native encounter complexes, for example via simulation trajectories or experimental probes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that they used NMR, stopped-flow fluorescence, and computer simulations using structure-based models to characterize the coupled folding and binding mechanism.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No experimental or simulation details are provided. It is unclear which NMR experiments were performed, what observables were monitored, how stopped-flow experiments were designed, and what specific structure-based model was used. The resolution of the simulations, the force field or model parameters, and the treatment of the intrinsically disordered regions are not described.
+  - **Why it matters** The validity of the mechanistic conclusions depends entirely on the quality and appropriateness of the methods. Without methodological detail, the reader cannot assess whether the techniques were applied correctly or whether the interpretations are justified. This is particularly important for intrinsically disordered proteins, where simulation and experimental approaches require careful validation.
+  - **Resolution test** Provide a full description of experimental conditions, NMR pulse sequences and assignments, stopped-flow experimental design and data analysis, and simulation model construction, parameters, and validation. Include controls and error analyses.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that the observations highlight the intimate relationship between folding and binding, and that the two molecular partners must search for the most favored intramolecular and intermolecular interactions on a rugged and funnelled conformational energy landscape, along which multiple intermediates may lead to the final native state.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** This concluding claim is presented as a general principle derived from the specific system studied. However, the abstract provides no evidence for the existence of multiple intermediates, the ruggedness of the energy landscape, or the funneled nature of the search process. These are interpretive statements that go beyond the presented data.
+  - **Why it matters** Overgeneralization from a single system without direct evidence for the proposed landscape features weakens the scientific impact of the work. The claim may be plausible, but it is not established by the material provided.
+  - **Resolution test** Provide direct evidence for intermediate states, for example from kinetic experiments showing multi-exponential behavior, or from simulation trajectories showing populated intermediates. Show that the energy landscape is rugged and funneled through quantitative analysis of simulation data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "qualitative data analysis suggested" is vague and does not convey the rigor of the analysis. It is unclear what specific analyses were performed and how conclusions were drawn.
+  - **Required correction** Replace with a more precise description of the analysis methods and the specific observations that led to the mechanistic conclusions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Background statement
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that VirB7(Nt) behaves as a random coil and VirB9(Ct) is intrinsically dynamic in the free state, but does not provide any reference or data supporting these characterizations.
+  - **Required correction** Provide citations to prior work or include a brief description of the experimental evidence for these statements.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "non-native initial encounter complexes"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "non-native initial encounter complexes" is used without definition or explanation of how such complexes were identified or distinguished from native-like encounter states.
+  - **Required correction** Define the term and describe the evidence or criteria used to classify encounter complexes as non-native.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or methodological evidence to support the central mechanistic claims. The lack of experimental and simulation details prevents assessment of technical soundness.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of coupled folding and binding between two intrinsically flexible proteins is of interest, but the abstract does not demonstrate a novel conceptual advance beyond existing studies of disordered protein binding mechanisms.
+  - Scientific importance: The work has potential relevance to the biophysics of disordered proteins and to Type IV Secretion Systems, but the importance is not clearly established from the abstract alone.
+  - Interdisciplinary readership: The topic bridges structural biology, biophysics, and microbiology, which could attract a broad readership, but the abstract is too specialized and lacks context for nonspecialists.
+  - Technical soundness: Cannot be assessed from the abstract. No methodological detail or quantitative data is provided.
+  - Readability for nonspecialists: The abstract is reasonably clear in its narrative but uses specialized terminology without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic claims are plausible but unsupported by the abstract. A full manuscript with quantitative data and methodological detail would be required to evaluate the case.
+
+## Risk / unsupported claims
+- The claim of a temperature-dependent switch between conformational selection and alternative pathways is unsupported by any quantitative data in the abstract.
+- The claim that non-native initial encounter complexes provide alternative pathways is unsupported by direct evidence.
+- The concluding generalization about rugged and funneled energy landscapes with multiple intermediates is not supported by the presented material.
+- The characterization of VirB7(Nt) as a random coil and VirB9(Ct) as intrinsically dynamic is stated without supporting data or citations.
+- The overall mechanistic model of coupled folding and binding is presented as established, but the abstract provides only qualitative interpretation.

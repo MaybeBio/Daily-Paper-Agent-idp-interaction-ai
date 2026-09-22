@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "42172735",
+    "doi": "10.1016/j.sbi.2026.103277",
+    "title": "Advancements in single-molecule fluorescence spectroscopy for probing conformations, dynamics, and interactions in disordered protein regions."
+  },
+  "content": {
+    "abstract": "Single-molecule fluorescence spectroscopy encompasses a range of techniques to probe dynamic conformational ensembles of intrinsically disordered regions (IDRs). By resolving subpopulation-specific properties and spanning timescales from nanoseconds to seconds, these measurements provide observables often inaccessible with ensemble measurements. Here, we contextualize key challenges and recent advances, including integrating experiments, simulations, and theory to quantify sequence-encoded effects, as well as photon statistic analyses to characterize protein dynamics. We also summarize extensions of single-molecule fluorescence approaches to decode IDR conformations, dynamics, and spatial organizations within biomolecular condensates. Together, these technical advances make single-molecule fluorescence spectroscopy increasingly accessible for studying IDR function, while the complexity of IDR biology and physics continues to drive further methodological innovation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Spectrometry, Fluorescence/methods",
+      "*Single Molecule Imaging/methods",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Conformation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jensen, Drake",
+        "Cubuk, Jasmine",
+        "Samanta, Nirnay",
+        "Stuchell-Brereton, Melissa D",
+        "Soranno, Andrea"
+      ],
+      "short_names": [
+        "Jensen D",
+        "Cubuk J",
+        "Samanta N",
+        "Stuchell-Brereton MD",
+        "Soranno A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biophysics, Washington University in Saint Louis, Saint Louis, 63110, MO, USA; Center for Biomolecular Condensates, Washington University in Saint Louis, Saint Louis, 63130, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in Saint Louis, Saint Louis, 63110, MO, USA; Center for Biomolecular Condensates, Washington University in Saint Louis, Saint Louis, 63130, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in Saint Louis, Saint Louis, 63110, MO, USA; Center for Biomolecular Condensates, Washington University in Saint Louis, Saint Louis, 63130, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in Saint Louis, Saint Louis, 63110, MO, USA; Center for Biomolecular Condensates, Washington University in Saint Louis, Saint Louis, 63130, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in Saint Louis, Saint Louis, 63110, MO, USA; Center for Biomolecular Condensates, Washington University in Saint Louis, Saint Louis, 63130, MO, USA. Electronic address: soranno@wustl.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jensen, Drake",
+        "short_name": "Jensen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in Saint Louis, Saint Louis, 63110, MO, USA; Center for Biomolecular Condensates, Washington University in Saint Louis, Saint Louis, 63130, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Cubuk, Jasmine",
+        "short_name": "Cubuk J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in Saint Louis, Saint Louis, 63110, MO, USA; Center for Biomolecular Condensates, Washington University in Saint Louis, Saint Louis, 63130, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Samanta, Nirnay",
+        "short_name": "Samanta N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in Saint Louis, Saint Louis, 63110, MO, USA; Center for Biomolecular Condensates, Washington University in Saint Louis, Saint Louis, 63130, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Stuchell-Brereton, Melissa D",
+        "short_name": "Stuchell-Brereton MD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in Saint Louis, Saint Louis, 63110, MO, USA; Center for Biomolecular Condensates, Washington University in Saint Louis, Saint Louis, 63130, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Soranno, Andrea",
+        "short_name": "Soranno A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in Saint Louis, Saint Louis, 63110, MO, USA; Center for Biomolecular Condensates, Washington University in Saint Louis, Saint Louis, 63130, MO, USA. Electronic address: soranno@wustl.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/23 05:36",
+    "fetched_at": "2026-09-18 03:25:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42059834",
+      "41889770",
+      "41795235",
+      "41748577",
+      "41708867",
+      "41298246",
+      "41293562",
+      "41238911",
+      "41082321",
+      "40858555",
+      "40745921",
+      "40595536",
+      "40530354",
+      "40455990",
+      "40386802",
+      "40241306",
+      "40185744",
+      "39973008",
+      "39965193",
+      "39735932",
+      "39604735",
+      "39388556",
+      "39384813",
+      "38833567",
+      "38750166",
+      "38585429",
+      "38525957",
+      "38365983",
+      "38297118",
+      "38266173",
+      "38157426",
+      "38153183",
+      "38127117",
+      "37957331",
+      "37845199",
+      "37796987",
+      "37564361",
+      "37559939",
+      "37468629",
+      "37431909",
+      "37407505",
+      "37348142",
+      "37100914",
+      "36973549",
+      "36774359",
+      "36416865",
+      "36227473",
+      "36104339",
+      "35868918",
+      "35428384",
+      "35194038",
+      "34992286",
+      "34970909",
+      "34127856",
+      "33159061",
+      "32639157",
+      "32571937",
+      "32527832",
+      "32487732",
+      "32029630",
+      "31283186",
+      "30171252",
+      "29466338",
+      "29454862",
+      "29064502",
+      "28551335",
+      "28225081",
+      "26836305",
+      "26328871",
+      "25400522",
+      "24608179",
+      "24108646",
+      "22550169",
+      "22407544",
+      "21402040",
+      "20486698",
+      "18506808",
+      "17301233"
+    ],
+    "similar": [
+      "42172735",
+      "36416865",
+      "36750251",
+      "41795235",
+      "33831596",
+      "30471705",
+      "28625737",
+      "40645561",
+      "29981536",
+      "33076213",
+      "23912807",
+      "36217309",
+      "32159932",
+      "39093570",
+      "27145874",
+      "29490247",
+      "39914051",
+      "31441158",
+      "37463458",
+      "28882307",
+      "32088186",
+      "37499445",
+      "39384813",
+      "34090478",
+      "37155239",
+      "41647538",
+      "38987470",
+      "40605339",
+      "42332380",
+      "27844185",
+      "32840111",
+      "39232584",
+      "32097582",
+      "30471690",
+      "33248138",
+      "38365983",
+      "35053175",
+      "42150060",
+      "25863585",
+      "39446390",
+      "27807972",
+      "41706900",
+      "37657994",
+      "42230638",
+      "30840442",
+      "39539017",
+      "30979035",
+      "40574713",
+      "39740355",
+      "41758937",
+      "31999450",
+      "40467883",
+      "30855964",
+      "30413085",
+      "40532196",
+      "30471693",
+      "40042172",
+      "39190324",
+      "40403066",
+      "35129612",
+      "41385825",
+      "25305580",
+      "37646172",
+      "39589885",
+      "20580965",
+      "31003202",
+      "41534519",
+      "41708867",
+      "38275091",
+      "32696370",
+      "29063723",
+      "42014948",
+      "39993015",
+      "34817999",
+      "36987865",
+      "34845612",
+      "35543707",
+      "33267376",
+      "32696377",
+      "30471692",
+      "34970909",
+      "40997106",
+      "32020911",
+      "30316104",
+      "41991555",
+      "35213160",
+      "34680048",
+      "26387102",
+      "34390736",
+      "42000821",
+      "38942776",
+      "36674958",
+      "38296708",
+      "31678340",
+      "39565580",
+      "33587794",
+      "28793210",
+      "40446154",
+      "28223518",
+      "42309023"
+    ],
+    "review": [
+      "42172735",
+      "36750251",
+      "41795235",
+      "30471705",
+      "28625737",
+      "40645561",
+      "36217309",
+      "39093570",
+      "27145874",
+      "39914051",
+      "31441158",
+      "37499445",
+      "41647538",
+      "40605339",
+      "32097582",
+      "33248138",
+      "35053175",
+      "25863585",
+      "37657994",
+      "30840442",
+      "30979035",
+      "39740355",
+      "30413085",
+      "35129612",
+      "41385825",
+      "25305580",
+      "31003202",
+      "42014948",
+      "32020911",
+      "30316104",
+      "34680048",
+      "26387102",
+      "34390736",
+      "38296708",
+      "31678340",
+      "42309023"
+    ],
+    "pmc": [
+      "13359366"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959-440X(26)00059-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42172735/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "38643169",
+    "doi": "10.1038/s41467-024-47654-1",
+    "title": "GENESIS CGDYN: large-scale coarse-grained MD simulation with dynamic load balancing for heterogeneous biomolecular systems."
+  },
+  "content": {
+    "abstract": "Residue-level coarse-grained (CG) molecular dynamics (MD) simulation is widely used to investigate slow biological processes that involve multiple proteins, nucleic acids, and their complexes. Biomolecules in a large simulation system are distributed non-uniformly, limiting computational efficiency with conventional methods. Here, we develop a hierarchical domain decomposition scheme with dynamic load balancing for heterogeneous biomolecular systems to keep computational efficiency even after drastic changes in particle distribution. These schemes are applied to the dynamics of intrinsically disordered protein (IDP) droplets. During the fusion of two droplets, we find that the changes in droplet shape correlate with the mixing of IDP chains. Additionally, we simulate large systems with multiple IDP droplets, achieving simulation sizes comparable to those observed in microscopy. In our MD simulations, we directly observe Ostwald ripening, a phenomenon where small droplets dissolve and their molecules redeposit into larger droplets. These methods have been implemented in CGDYN of the GENESIS software, offering a tool for investigating mesoscopic biological processes using the residue-level CG models.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Proteins",
+      "Software",
+      "*Nucleic Acids"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jung, Jaewoon",
+        "Tan, Cheng",
+        "Sugita, Yuji"
+      ],
+      "short_names": [
+        "Jung J",
+        "Tan C",
+        "Sugita Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2285-4432",
+        "ORCID: 0000-0002-8957-4267",
+        "ORCID: 0000-0001-9738-9216"
+      ],
+      "affiliations": [
+        "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe, Hyogo, 650-0047, Japan.",
+        "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Wako, Saitama, 351-0198, Japan.",
+        "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe, Hyogo, 650-0047, Japan.",
+        "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe, Hyogo, 650-0047, Japan. sugita@riken.jp.",
+        "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Wako, Saitama, 351-0198, Japan. sugita@riken.jp.",
+        "Laboratory for Biomolecular Function Simulation, RIKEN Center for Biosystems Dynamics Research, Kobe, Hyogo, 650-0047, Japan. sugita@riken.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jung, Jaewoon",
+        "short_name": "Jung J",
+        "identifiers": [
+          "0000-0002-2285-4432"
+        ],
+        "affiliations": [
+          "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe, Hyogo, 650-0047, Japan.",
+          "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Wako, Saitama, 351-0198, Japan."
+        ]
+      },
+      {
+        "full_name": "Tan, Cheng",
+        "short_name": "Tan C",
+        "identifiers": [
+          "0000-0002-8957-4267"
+        ],
+        "affiliations": [
+          "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe, Hyogo, 650-0047, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugita, Yuji",
+        "short_name": "Sugita Y",
+        "identifiers": [
+          "0000-0001-9738-9216"
+        ],
+        "affiliations": [
+          "Computational Biophysics Research Team, RIKEN Center for Computational Science, Kobe, Hyogo, 650-0047, Japan. sugita@riken.jp.",
+          "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Wako, Saitama, 351-0198, Japan. sugita@riken.jp.",
+          "Laboratory for Biomolecular Function Simulation, RIKEN Center for Biosystems Dynamics Research, Kobe, Hyogo, 650-0047, Japan. sugita@riken.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Apr 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/21 00:42",
+    "fetched_at": "2026-09-22 01:22:52"
+  },
+  "links": {
+    "cites": [
+      "42517609",
+      "42380585",
+      "40801528",
+      "40671581",
+      "40405327",
+      "40386766",
+      "40241771",
+      "40114377",
+      "39713431",
+      "39660892",
+      "39554013",
+      "39035939",
+      "38876465"
+    ],
+    "refs": [
+      "37006777",
+      "36070494",
+      "35839701",
+      "35795820",
+      "35597639",
+      "35381009",
+      "35112738",
+      "34265844",
+      "34135122",
+      "33885174",
+      "33771451",
+      "33672806",
+      "33577557",
+      "33558506",
+      "33307683",
+      "33264400",
+      "32778600",
+      "32767698",
+      "32482873",
+      "32163402",
+      "32132204",
+      "32045823",
+      "32029630",
+      "31958956",
+      "31411875",
+      "31176328",
+      "30853299",
+      "30514078",
+      "29930094",
+      "29930091",
+      "29930090",
+      "29806939",
+      "29650703",
+      "29650702",
+      "29506273",
+      "29466338",
+      "29364893",
+      "29347684",
+      "29289458",
+      "29091028",
+      "28866518",
+      "28746339",
+      "28718930",
+      "28265061",
+      "28225081",
+      "27333362",
+      "27309278",
+      "26753008",
+      "26620784",
+      "26605744",
+      "26596457",
+      "26588142",
+      "26579921",
+      "26575938",
+      "26575522",
+      "26574224",
+      "26015579",
+      "25362344",
+      "25002491",
+      "24759934",
+      "24659253",
+      "24116642",
+      "19967787",
+      "19958775",
+      "19460965",
+      "19444816",
+      "19254530",
+      "18783194",
+      "17569554",
+      "17060627",
+      "16222654",
+      "16211538",
+      "10801360"
+    ],
+    "similar": [
+      "38643169",
+      "35381009",
+      "25387958",
+      "25902423",
+      "19843465",
+      "33307683",
+      "22365574",
+      "23912807",
+      "37535543",
+      "31375023",
+      "28992696",
+      "26579921",
+      "26575522",
+      "30840442",
+      "34845619",
+      "26574429",
+      "30908042",
+      "24028092",
+      "38876465",
+      "33453922",
+      "32245275",
+      "20017540",
+      "33877632",
+      "37957028",
+      "28988931",
+      "31984192",
+      "26753008",
+      "26930392",
+      "21740053",
+      "31411875",
+      "22149813",
+      "32805119",
+      "37581417",
+      "25903863",
+      "35793442",
+      "25330962",
+      "36456243",
+      "37407505",
+      "26609619",
+      "37791670",
+      "27631425",
+      "28374022",
+      "21910449",
+      "33577557",
+      "29204882",
+      "30508766",
+      "37966727",
+      "28244513",
+      "33539886",
+      "31025999",
+      "22238629",
+      "26668124",
+      "17116404",
+      "38815519",
+      "27566318",
+      "30404229",
+      "38018910",
+      "22797564",
+      "18469078",
+      "33089504",
+      "37666772",
+      "22852610",
+      "34572559",
+      "22276676",
+      "25176255",
+      "34854041",
+      "28530269",
+      "33617899",
+      "35568534",
+      "30627943",
+      "21806035",
+      "35112700",
+      "27782390",
+      "21494747",
+      "36463772",
+      "33956432",
+      "28128949",
+      "26677962",
+      "32610441",
+      "28201893",
+      "33125658",
+      "37331570",
+      "30091924",
+      "32199430",
+      "26575936",
+      "21943426",
+      "32752657",
+      "32687361",
+      "12552105",
+      "21682507",
+      "25490039",
+      "30916957",
+      "28876928",
+      "35171594",
+      "35243863",
+      "25615870",
+      "27709646",
+      "30994934",
+      "26840718"
+    ],
+    "review": [
+      "38643169",
+      "22365574",
+      "31375023",
+      "26575522",
+      "30840442",
+      "24028092",
+      "28988931",
+      "29204882",
+      "30508766",
+      "38815519",
+      "30404229",
+      "37666772",
+      "36463772"
+    ],
+    "pmc": [
+      "11032353"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-47654-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38643169/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38643169",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

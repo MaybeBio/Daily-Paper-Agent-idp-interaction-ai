@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42556189",
+  "title": "Length-encoded phase transitions in proline-alanine-serine peptides: from nanoaggregates to condensates.",
+  "authors": "Garay-Perez, Hilda; Savioli, Marco; Petrella, Greta; de la Caridad Murillo Fernandez, Dhayme; Hernandez, Yanet Tambara; Abad, Matilde Lopez; Ferrara, Annachiara; Quattrociocchi, Miriam; Cicero, Daniel; Venanzi, Mariano; Bhangu, Sukhvir Kaur; Bocchinfuso, Gianfranco; Cavalieri, Francesca",
+  "journal": "Journal of colloid and interface science",
+  "published_date": "2026-08-06",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合MD模拟与实验，揭示PAS无序肽长度编码的从纳米聚集体到凝聚体的相变机制，聚焦IDP相分离中的PPI/组装驱动力，机制建模深度高，虽非典型PPI但高度相关。",
+  "abstract": "PAS-based polypeptides, composed of uncharged Proline, Alanine, and Serine residues, are intrinsically disordered polymers used to enhance biologics' solubility and pharmacokinetics. Despite their biomedical relevance, their aggregation and phase separation behaviour remain underexplored. Here we combined spectroscopy, microscopy and molecular dynamics simulations to investigate the structure of PAS peptides of varying lengths (20-80 residues). We found that all peptides form nanoscale aggregates (50-350 nm) above their critical concentrations, yet only the longest PAS80 chains undergo liquid-liquid phase separation, yielding micrometre-scale condensates over a broad concentration range (0.15-6 mM), as revealed by the phase diagram. Monitoring the phase-separation process over time provided direct evidence that condensates undergo fusion with droplet sizes increasing from approximately 1 mum to 5 mum. Fluorescence recovery after photobleaching (FRAP) microscopy and nuclear magnetic resonance (NMR) spectroscopy revealed that PAS80 condensates retain a high degree of molecular mobility and exhibit characteristic liquid-like behaviour. Furthermore, treatment of the condensates with a hydrogen-bond-disrupting agent, an amphiphilic solvent, and heating demonstrated that weak interactions between hydrophobic amino acids and the entropic gain associated with the hydrophobic effect are the primary driving forces underlying the formation of condensates. In contrast, hydrogen bonding was found to play a secondary role, likely contributing to the further stabilization of the assembled structures. Molecular dynamics simulations of isolated and clustered PAS chains revealed that individual PAS peptides mainly exist as highly flexible but compact random-coil structures, and that the transition from extended to compact conformations is driven by entropic effects. Furthermore, PAS peptides rapidly self-assemble into clusters that maintain random-coil conformations and display substantial structural flexibility and configurational heterogeneity. These findings elucidate the molecular basis of PAS peptides phase behaviour and establish PAS peptides as promising building blocks for the rational design of bioengineered coacervates with potential applications in drug delivery and compartmentalized biocatalysis.",
+  "abstract_zh": "基于PAS的多肽，由不带电荷的脯氨酸、丙氨酸和丝氨酸残基组成，是 intrinsically disordered polymers（本质无序聚合物），用于增强生物制剂的溶解性和药代动力学特性。尽管具有生物医学相关性，其聚集和相分离行为仍未得到充分探索。在此，我们结合光谱学、显微镜和分子动力学模拟，研究了不同长度（20-80个残基）PAS肽的结构。我们发现，所有肽在其临界浓度以上形成纳米级聚集体（50-350 nm），但只有最长的PAS80链发生液-液相分离，在广泛浓度范围（0.15-6 mM）内产生微米级凝聚体，如相图所示。随时间监测相分离过程提供了直接证据，表明凝聚体发生融合，液滴尺寸从约1微米增大至5微米。荧光恢复后光漂白（FRAP）显微镜和核磁共振（NMR）光谱显示，PAS80凝聚体保持高度分子流动性，并表现出特征性的液体样行为。此外，用氢键破坏剂、两亲性溶剂处理凝聚体及加热实验表明，疏水氨基酸之间的弱相互作用和与疏水效应相关的熵增益是凝聚体形成的主要驱动力。相比之下，氢键被发现起次要作用，可能有助于进一步稳定组装结构。对孤立和聚集PAS链的分子动力学模拟揭示，单个PAS肽主要作为高度柔性但紧凑的无规卷曲结构存在，从伸展到紧凑构象的转变由熵效应驱动。此外，PAS肽快速自组装成簇，这些簇保持无规卷曲构象，并表现出显著的结构柔性和构象异质性。这些发现阐明了PAS肽相行为的分子基础，并将PAS肽确立为合理设计生物工程凝聚体的有前景构建模块，具有药物递送和区室化生物催化方面的潜在应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42556189/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42556189/",
+  "paper_page_path": "papers/pubmed/42556189/index.html"
+}

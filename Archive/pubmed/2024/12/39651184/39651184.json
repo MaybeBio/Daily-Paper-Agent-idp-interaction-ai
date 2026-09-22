@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "39651184",
+    "doi": "10.1101/2024.11.25.624572",
+    "title": "Synergistic Multi-Pronged Interactions Mediate the Effective Inhibition of Alpha-Synuclein Aggregation by the Chaperone HtrA1."
+  },
+  "content": {
+    "abstract": "The misfolding, aggregation, and the seeded spread of alpha synuclein (alpha-Syn) aggregates are linked to the pathogenesis of various neurodegenerative diseases, including Parkinson's disease (PD). Understanding the mechanisms by which chaperone proteins prevent the production and seeding of alpha-Syn aggregates is crucial for developing effective therapeutic leads for tackling neurodegenerative diseases. We show that a catalytically inactive variant of the chaperone HtrA1 (HtrA1*) effectively inhibits both alpha-Syn monomer aggregation and templated fibril seeding, and demonstrate that this inhibition is mediated by synergistic interactions between its PDZ and Protease domains and alpha-Syn. Using biomolecular NMR, AFM and Rosetta-based computational analyses, we propose that the PDZ domain interacts with the C-terminal end of the monomer and the intrinsically disordered C-terminal domain of the alpha-Syn fibril. Furthermore, in agreement with sequence specificity calculations, the Protease domain cleaves in the aggregation-prone NAC domain at site T92/A93 in the monomer. Thus, through multi-pronged interactions and multi-site recognition of alpha-Syn, HtrA1* can effectively intervene at different stages along the alpha-Syn aggregation pathway, making it a robust inhibitor of alpha-Syn aggregation and templated seeding. Our studies illustrate, at high resolution, the crucial role of HtrA1 interactions with both the intrinsically disordered alpha-Syn monomers and with the dynamic flanking regions around the fibril core for inhibition of aggregation. This inhibition mechanism of the HtrA1 chaperone may provide a natural mechanistic blueprint for highly effective therapeutic agents against protein aggregation. SIGNIFICANCE STATEMENT: PD and other synucleinopathies are marked by misfolding and aggregation of alpha-Syn, forming higher-order species that propagate aggregation in a prion-like manner. Understanding how chaperone proteins inhibit alpha-Syn aggregation and spread is essential for therapeutic development against neurodegeneration. Through an integrative approach of solution-based NMR, AFM, aggregation kinetics, and computational analysis, we reveal how a catalytically inactive variant of the chaperone HtrA1 effectively disrupts aggregation pathways. We find that the inactive Protease and PDZ domains of HtrA1 synergistically bind to key intrinsically disordered sites on both alpha-Syn monomers and fibrils, thereby effectively inhibiting both aggregation and templated seeding. Our work provides a natural and unique blueprint for designing inhibitors to prevent the formation and seeding of aggregates in neurodegenerative diseases.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chinchilla, Priscilla",
+        "Wang, Baifan",
+        "Lubin, Joseph H",
+        "Yang, Xue",
+        "Roth, Jonathan",
+        "Khare, Sagar D",
+        "Baum, Jean"
+      ],
+      "short_names": [
+        "Chinchilla P",
+        "Wang B",
+        "Lubin JH",
+        "Yang X",
+        "Roth J",
+        "Khare SD",
+        "Baum J"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-8509-3918",
+        "ORCID: 0000-0003-0887-5795",
+        "ORCID: 0000-0001-5573-6937"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Chinchilla, Priscilla",
+        "short_name": "Chinchilla P",
+        "identifiers": [
+          "0009-0008-8509-3918"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Baifan",
+        "short_name": "Wang B",
+        "identifiers": [
+          "0000-0003-0887-5795"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lubin, Joseph H",
+        "short_name": "Lubin JH",
+        "identifiers": [
+          "0000-0001-5573-6937"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Yang, Xue",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Roth, Jonathan",
+        "short_name": "Roth J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Khare, Sagar D",
+        "short_name": "Khare SD",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Baum, Jean",
+        "short_name": "Baum J",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Nov 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/09 17:33",
+    "fetched_at": "2026-09-21 13:38:43"
+  },
+  "links": {
+    "cites": [
+      "39967803"
+    ],
+    "refs": [],
+    "similar": [
+      "39651184",
+      "37674720",
+      "38499535",
+      "33903234",
+      "37060757",
+      "26601760",
+      "37198991",
+      "30853581",
+      "32143619",
+      "27587396",
+      "33649211",
+      "32431588",
+      "31925956",
+      "28918091",
+      "39947752",
+      "37433401",
+      "39567476",
+      "31749672",
+      "29286644",
+      "40320462",
+      "37976808",
+      "28872299",
+      "37189428",
+      "30093536",
+      "26138444",
+      "31895037",
+      "29382725",
+      "30769283",
+      "29669601",
+      "30478174",
+      "34290084",
+      "35584603",
+      "36348612",
+      "32291284",
+      "29589283",
+      "33978813",
+      "36140270",
+      "35139916",
+      "31370680",
+      "38053641",
+      "40339505",
+      "29782835",
+      "39327912",
+      "35681426",
+      "39796243",
+      "34172566",
+      "35421539",
+      "37897633",
+      "27901101",
+      "34684701",
+      "38000482",
+      "32959853",
+      "35853942",
+      "35787838",
+      "31505208",
+      "35728509",
+      "28373279",
+      "32424162",
+      "33186020",
+      "37741548",
+      "40020199",
+      "39046235",
+      "37048156",
+      "26972727",
+      "36314062",
+      "35474118",
+      "34205249",
+      "36830639",
+      "35353605",
+      "30790619",
+      "40383467",
+      "40259622",
+      "35454083",
+      "22274962",
+      "41067404",
+      "34626424",
+      "36966976",
+      "37962096",
+      "31514384",
+      "35390347",
+      "39436010",
+      "37429595",
+      "33713002",
+      "34506119",
+      "33042996",
+      "40486190",
+      "38723900",
+      "18975920",
+      "30917654",
+      "30941047",
+      "27147665",
+      "37593929",
+      "37005644",
+      "40763859",
+      "40882443",
+      "34021258",
+      "35327628",
+      "41162400",
+      "38368711",
+      "40744939"
+    ],
+    "review": [
+      "39651184",
+      "37060757",
+      "37198991",
+      "30853581",
+      "39947752",
+      "35681426",
+      "39796243",
+      "35787838",
+      "26972727",
+      "35454083",
+      "41067404",
+      "36966976",
+      "33042996",
+      "40486190",
+      "38723900",
+      "30941047"
+    ],
+    "pmc": [
+      "11623516"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39651184/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-649",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.11.25.624572",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

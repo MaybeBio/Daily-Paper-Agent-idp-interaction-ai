@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.02.24.432807",
+  "title": "Modeling the SARS-CoV-2 nsp1–5’-UTR complex via extended ensemble simulations",
+  "authors": "Sakuraba S; Qilin X; Kasahara K; Iwakiri J; Kono H",
+  "journal": "bioRxiv",
+  "published_date": "2021-02-25",
+  "window": {
+    "start": "2021-02-22",
+    "end": "2021-02-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用扩展系综分子动力学模拟研究SARS-CoV-2 nsp1与其5'-UTR RNA复合物，揭示nsp1无序区域参与RNA识别并解释病毒逃逸宿主翻译抑制的机制，属于IDR介导的核酸-蛋白互作机制建模，虽非典型PPI但机制建模思路高度可迁移。",
+  "abstract": "Nonstructural protein 1 (nsp1) of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a 180-residue protein that blocks translation of host mRNAs in SARS-CoV-2-infected cells. Although it is known that SARS-CoV-2’s own RNA evades nsp1’s host translation shutoff, the molecular mechanism underlying the evasion was poorly understood. We performed an extended ensemble molecular dynamics simulation to investigate the mechanism of the viral RNA evasion. Simulation results showed that the stem loop structure of the SARS-CoV-2 RNA 5’-untranslated region (SL1) is recognized by both nsp1’s globular region and intrinsically disordered region. The recognition presumably enables selective translation of viral RNAs. Cluster analysis of the binding mode and detailed analysis of the binding poses revealed several residues involved in the SL1 recognition mechanism. The simulation results imply that the nsp1 C-terminal helices are lifted from the 40 S ribosome upon the binding of SL1 to nsp1, unblocking translation of the viral RNA.",
+  "abstract_zh": "严重急性呼吸综合征冠状病毒2型（SARS-CoV-2）的非结构蛋白1（nsp1）是一个由180个残基组成的蛋白质，在SARS-CoV-2感染的细胞中阻断宿主mRNA的翻译。尽管已知SARS-CoV-2自身的RNA能逃避nsp1的宿主翻译关闭作用，但这一逃避机制在分子层面尚不清楚。我们进行了扩展系综分子动力学模拟，以研究病毒RNA逃避的机制。模拟结果表明，SARS-CoV-2 RNA 5‘-非翻译区（SL1）的茎环结构同时被nsp1的球状区域和内在无序区域识别。这种识别可能使得病毒RNA能够选择性翻译。对结合模式的聚类分析及结合姿态的详细分析揭示了参与SL1识别机制的多个残基。模拟结果暗示，当SL1与nsp1结合时，nsp1的C端螺旋从40S核糖体上抬起，从而解除对病毒RNA翻译的阻断。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.02.24.432807",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.02.24.432807",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.02.24.432807/index.html"
+}

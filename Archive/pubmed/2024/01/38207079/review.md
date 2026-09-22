@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, and references to supporting information)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that liquid-like condensates containing VASP, Arp2/3, and the VCA domain of N-WASP mediate competition between actin branching and bundling. They report that Arp2/3 and VCA partition into VASP droplets, that their presence inhibits droplet deformation and actin bundling at low actin-to-VASP ratios, and that this inhibition arises from reduced filament length and increased steric hindrance due to branching. At higher actin-to-VASP ratios, they observe forked and aster-like structures, suggesting a transition from branched to bundled architectures.
+- **Visible evidence base** Main text figures referenced (Figs. 1–6), supplementary figures referenced (Figs. S2–S6), supplementary table (Table S1), and methods descriptions
+- **Missing materials affecting confidence** Actual figure images, full supplementary information, numerical data underlying plots, statistical test details, and simulation parameter values beyond those referenced
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in cytoskeletal biology: how cells transition between branched and bundled actin architectures. The authors combine in vitro reconstitution with agent-based modeling to explore how liquid-like condensates containing VASP, Arp2/3, and VCA mediate this transition. The experimental system is elegant and the combination of experiment and simulation is appropriate. However, several technical concerns regarding quantitative rigor, statistical treatment, and the strength of the mechanistic conclusions need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in cytoskeletal dynamics, cell migration, phase separation, and biophysics of actin networks. The work bridges two active fields, actin architecture regulation and biomolecular condensates, and will likely attract attention from both communities. The finding that condensate composition can tune the balance between branched and bundled networks has potential implications for understanding filopodia formation and lamellipodial dynamics.
+- **Major strengths** The study introduces a novel experimental paradigm by incorporating Arp2/3 and VCA into VASP condensates, extending prior work on VASP-mediated actin bundling in droplets. The combination of quantitative imaging, FRAP, and agent-based simulation provides complementary evidence. The observation that aster-like structures emerge at high actin-to-VASP ratios is intriguing and suggests a concentration-dependent switch in network architecture. The authors also carefully address alternative explanations, such as reduced actin partitioning, through control experiments.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor and statistical analysis
+  - **Claim pointer** The authors claim that increasing Arp2/3 and VCA concentrations progressively reduce droplet deformation and actin bundling, with statistically significant differences between conditions.
+  - **Evidence pointer** Fig. 2A–F, Fig. 3B–E; location not provided
+  - **Concern** The manuscript reports mean values with standard deviations (e.g., t1/2 values in Fig. 1E) but does not provide details on the number of independent experiments, number of droplets analyzed per condition, or the statistical tests used to compare distributions. Aspect ratio distributions appear to be compared visually rather than quantitatively. Without this information, it is difficult to assess whether the observed differences are robust and reproducible.
+  - **Why it matters** The central conclusion, that Arp2/3 activity inhibits droplet deformation and bundling, rests on quantitative comparisons across conditions. If statistical support is lacking, the strength of the claim is diminished.
+  - **Resolution test** Provide the number of independent replicates, the number of droplets analyzed per condition, and the specific statistical tests used (e.g., Kolmogorov-Smirnov, Mann-Whitney U) with resulting p-values. If distributions are compared, show cumulative distribution functions or box plots with overlaid data points.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation of simulation results
+  - **Claim pointer** The authors state that simulations suggest branching inhibits ring formation by reducing average filament length and increasing steric hindrance, and that these two effects explain the experimental observations.
+  - **Evidence pointer** Fig. 5A–F; location not provided
+  - **Concern** The simulation model treats VCA as a chemical species that competes for actin without explicitly resolving VCA molecules. The authors acknowledge this simplification, but it raises questions about whether the model captures the relevant physics. Specifically, the claim that steric hindrance from branching inhibits bundling is plausible but not directly tested in the simulations. The authors do not show a control simulation where branching is present but steric effects are removed, or where filament length is held constant while branching density varies. Without such controls, the relative contributions of the two proposed mechanisms cannot be disentangled.
+  - **Why it matters** The mechanistic conclusion, that both reduced filament length and steric hindrance contribute to inhibition of bundling, is a key finding. If the simulation cannot separate these effects, the claim is not fully supported.
+  - **Resolution test** Perform additional simulations that independently vary branching density and filament length, or that disable steric interactions between branched filaments, to isolate the contributions of each mechanism. Alternatively, provide analytical arguments that clearly separate the two effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the aster-like morphology claim
+  - **Claim pointer** The authors claim that at high actin-to-VASP ratios, aster-like structures emerge, and that these structures parallel cellular branch-to-bundle transitions.
+  - **Evidence pointer** Fig. 6A–G; location not provided
+  - **Concern** The aster-like structures are observed at a single condition (1 μM VASP, 4 μM actin, 4 μM VCA) with increasing Arp2/3. It is unclear whether this morphology is specific to the particular protein concentrations used or whether it represents a general phenomenon. Additionally, the authors do not quantify the fraction of droplets that form asters versus other morphologies, nor do they show that the aster formation is reversible or dependent on Arp2/3 activity in a dose-dependent manner beyond the single titration shown.
+  - **Why it matters** The claim that aster formation parallels cellular branch-to-bundle transitions is speculative and would be strengthened by demonstrating that this morphology is robust across a range of conditions and that its formation is specifically dependent on Arp2/3 activity.
+  - **Resolution test** Provide a systematic characterization of aster formation as a function of actin-to-VASP ratio, Arp2/3 concentration, and VCA concentration. Quantify the fraction of droplets exhibiting aster morphology and show that aster formation is suppressed by Arp2/3 inhibition (e.g., with CK666) or by omitting VCA.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Fig. 2E
+  - **Evidence pointer** Fig. 2E; location not provided
+  - **Issue** The representative images in Fig. 2E show a dramatic difference between the absence and presence of Arp2/3, but it is unclear whether these images are representative of the population or selected to illustrate the extreme case.
+  - **Required correction** Provide additional representative images from multiple independent experiments, or show a montage of multiple droplets per condition to demonstrate reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Simulation methods
+  - **Evidence pointer** SI Appendix, Methods; location not provided
+  - **Issue** The simulation methods are described as detailed in the SI Appendix, but the main text does not provide sufficient information for a reader to understand the key assumptions and parameters without consulting the supplement.
+  - **Required correction** Add a brief summary of the simulation approach in the main text, including key parameters (e.g., filament stiffness, branching rate, droplet size) and how they were chosen or calibrated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of VCA-only effect
+  - **Affected element** Fig. 3B–C
+  - **Evidence pointer** Fig. 3B–C; location not provided
+  - **Issue** The authors show that VCA alone reduces aspect ratio, but the mechanism is attributed to inhibition of actin nucleation and elongation. However, the concentration of VCA used (6 μM) is high relative to actin (2 μM), and the authors do not discuss whether this effect could be due to nonspecific interactions or sequestration of actin monomers.
+  - **Required correction** Briefly discuss the potential for nonspecific effects at high VCA concentrations and whether the observed reduction in aspect ratio could be explained by simple actin sequestration rather than specific inhibition of nucleation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data, Materials, and Software Availability; location not provided
+  - **Issue** The authors state that all study data are included in the article or supporting information, but the underlying numerical data for the plots (e.g., aspect ratio distributions, FRAP curves) are not provided in a machine-readable format.
+  - **Required correction** Consider depositing the raw numerical data in a public repository (e.g., Zenodo, Figshare) to facilitate reanalysis and comparison with future studies.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor) and R1-M2 (simulation controls) are the primary technical issues that need to be resolved. Without adequate statistical support and simulation controls, the central mechanistic claims are not fully established.
+- **Assessment against Nature-style criteria** Originality: The work is original in its combination of phase-separated condensates with actin branching and bundling competition. Scientific importance: The question of how cells switch between branched and bundled actin architectures is fundamental to cell migration and morphogenesis. Interdisciplinary readership: The work will appeal to cell biologists, biophysicists, and researchers in phase separation. Technical soundness: The experimental system is well-designed, but the quantitative analysis and simulation controls need strengthening. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with actin cytoskeleton terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is novel and the experimental system is powerful, but the statistical rigor and simulation controls need to be addressed before the mechanistic conclusions can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that aster-like structures parallel cellular branch-to-bundle transitions is speculative and not directly supported by the data presented.
+- The claim that both reduced filament length and steric hindrance contribute to inhibition of bundling is not fully supported because the simulation does not isolate these effects.
+- The claim that VCA reinforces condensation of VASP is based on droplet size distributions, but the mechanism (nonspecific electrostatic interactions) is inferred rather than directly tested.
+- The statement that "minimal changes to droplet phenotype are observed" after 15 min of actin polymerization is not supported by time-course data shown in the manuscript.

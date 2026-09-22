@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39044475",
+  "title": "Effects of charge asymmetry on the liquid-liquid phase separation of polyampholytes and their condensate properties.",
+  "authors": "An, Yaxin; Gao, Tong; Wang, Tianyi; Zhang, Donghui; Bharti, Bhuvnesh",
+  "journal": "Soft matter",
+  "published_date": "2024-07-24",
+  "window": {
+    "start": "2024-07-22",
+    "end": "2024-07-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用粗粒化模拟研究电荷不对称多亲电解质对二元蛋白混合物液-液相分离及凝聚体性质的影响，对象为无序蛋白相关模型，聚焦相分离机制，但未涉及具体蛋白-蛋白互作界面或AI方法。",
+  "abstract": "Liquid-liquid phase separation (LLPS) is the mechanism underlying the formation of bio-molecular condensates which are important compartments regulating intra- and extra-cellular functions. Electrostatic interactions are some of the important driving forces of the LLPS behaviors of biomolecules. However, the understanding of the electrostatic interactions is still limited, especially in the mixtures of biomolecules with different charge patterns. Here, we focus on the electrostatic interactions in mixtures of charge-asymmetric and charge-symmetric polyampholytes and their roles in the phase separation behaviors. We build charge-asymmetric and charge-symmetric model proteins consisting of both glutamic acid (E, negatively charged) and lysine (K, positively charged), i.e. polyampholytes of E(35)K(15) (charge asymmetric) and E(25)K(25) (charge symmetric). Pure E(25)K(25) can undergo LLPS. To investigate the effects of charge-asymmetric polyampholytes on the mixtures of E(25)K(25)/E(35)K(15), we perform coarse-grained simulations to determine their phase separation. The charge-asymmetric polyampholyte E(35)K(15) is resistant to the LLPS of the mixtures of E(25)K(25)/E(35)K(15). The condensate density decreases with the molar fraction of E(35)K(15) increasing to 0.4, and no LLPS occurs at the molar fraction of 0.5 and above. This can be attributed to the electrostatic repulsion between the negatively charged E(35)K(15) polymers. We further investigate the effects of charge asymmetry on the conformations and properties of the condensates. The E(35)K(15) polymers in the condensates exhibit a more collapsed state as the molar fraction of E(35)K(15) increases. However, the conformation of E(25)K(25) polymers changes slightly across different condensates. The surface tensions of condensates decline with the increase of the molar fraction of E(35)K(15) polymers, while the diffusivity of polymers in the condensed phases is enhanced. This work elucidates the role of charge-asymmetric polyampholytes in determining the LLPS behaviours of binary mixtures of charge-symmetric and charge-asymmetric proteins as well as the properties of condensed phases.",
+  "abstract_zh": "液-液相分离（LLPS）是生物分子凝聚体形成的基础机制，这些凝聚体是调节细胞内和细胞外功能的重要区室。静电相互作用是生物分子LLPS行为的重要驱动力之一。然而，对静电相互作用的理解仍然有限，尤其是在具有不同电荷模式的生物分子混合物中。在此，我们聚焦于电荷不对称和电荷对称多性电解质混合物中的静电相互作用及其在相分离行为中的作用。我们构建了由谷氨酸（E，带负电荷）和赖氨酸（K，带正电荷）组成的电荷不对称和电荷对称模型蛋白，即E(35)K(15)（电荷不对称）和E(25)K(25)（电荷对称）的多性电解质。纯E(25)K(25)能够发生LLPS。为了研究电荷不对称多性电解质对E(25)K(25)/E(35)K(15)混合物的影响，我们进行了粗粒化模拟以确定其相分离行为。电荷不对称多性电解质E(35)K(15)对E(25)K(25)/E(35)K(15)混合物的LLPS具有抵抗作用。凝聚体密度随E(35)K(15)摩尔分数增加至0.4而降低，在摩尔分数为0.5及以上时不发生LLPS。这可归因于带负电荷的E(35)K(15)聚合物之间的静电排斥作用。我们进一步研究了电荷不对称性对凝聚体构象和性质的影响。随着E(35)K(15)摩尔分数的增加，凝聚体中的E(35)K(15)聚合物呈现更塌缩的状态。然而，E(25)K(25)聚合物的构象在不同凝聚体中变化很小。凝聚体的表面张力随E(35)K(15)聚合物摩尔分数的增加而下降，而凝聚相中聚合物的扩散性增强。本工作阐明了电荷不对称多性电解质在决定电荷对称和电荷不对称蛋白二元混合物的LLPS行为及凝聚相性质中的作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39044475/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39044475/",
+  "paper_page_path": "papers/pubmed/39044475/index.html"
+}

@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text including main text, appendices, and references
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors model proteins with globular and intrinsically disordered regions as "tadpoles" (colloid-polymer grafts) in hard-sphere Monte Carlo simulations, finding that these tadpoles exhibit surfactant-like behaviours including interfacial preference, micelle formation, and reduced interfacial tension, but that purely entropic effects are insufficient to drive phase separation at likely biological concentrations.
+- **Visible evidence base** Main text sections 1-5, two appendices, figure captions (Figs 1-7), one table (Table 1), one table of results (Table 2), reference list
+- **Missing materials affecting confidence** Figure images themselves are not visible; supplementary material referenced but not provided; simulation code and data repository cited but not accessible within this review
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting minimal model study of entropic effects in liquid-liquid phase separation involving proteins with intrinsically disordered regions. The work is clearly motivated and the simulation approach is appropriate for the questions asked. The finding that tadpole molecules act as entropic surfactants is novel and potentially significant for understanding the physical chemistry of IDR-containing proteins. However, the manuscript has several technical weaknesses that need addressing, particularly around the quantitative analysis of phase diagrams, the treatment of finite-size effects, and the strength of the claim that entropic effects are insufficient at biological concentrations given the acknowledged limitations of the SAFT comparison. The biological relevance discussion is somewhat speculative and could be strengthened with more careful consideration of the limitations of the model.
+- **Who would be interested in the results, and why** Researchers in biophysics and soft matter physics studying liquid-liquid phase separation, particularly those interested in the role of entropy and depletion interactions in biological systems. Also relevant to the IDP/IDR community in molecular biology and biochemistry who are interested in the physical mechanisms underlying membraneless organelle formation. The surfactant analogy may also appeal to colloid and interface scientists.
+- **Major strengths** The model is elegantly minimal, capturing essential entropic physics with hard-sphere interactions only. The systematic approach of building from polymer-colloid mixtures to tadpoles is pedagogically clear. The identification of surfactant-like behaviour in purely repulsive systems is a genuinely interesting result. The authors are appropriately cautious about biological implications, acknowledging that entropy alone is insufficient.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The phase diagram in Fig. 6 is presented as a quantitative mapping of phase behaviour, with tie lines and binodal surfaces determined from simulation.
+  - **Evidence pointer** Section 4.2, Fig. 6
+  - **Concern** The methodology for determining phase boundaries and tie lines is not described in sufficient detail. The authors state that binodal volumes were mapped from tie lines of macrophase-separating states, but do not explain how the endpoints of these tie lines were identified, how many independent simulations were used for each point, how finite-size effects were assessed, or how the binodal surface was interpolated between the two series of simulations. Without this information, the quantitative phase diagram cannot be evaluated or reproduced.
+  - **Why it matters** The phase diagram is central to the manuscript's main quantitative conclusion that entropic effects are insufficient at biological concentrations. If the phase boundaries are not reliably determined, this conclusion is not established.
+  - **Resolution test** Provide a detailed description of the binodal determination procedure, including criteria for identifying phase separation, methods for measuring coexisting phase compositions, assessment of finite-size effects (e.g., by varying box dimensions), and error estimates on the reported phase boundaries.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The comparison between simulation phase boundaries and biological concentrations relies on the SAFT formalism to estimate the shaded "biologically relevant" region in Fig. 6.
+  - **Evidence pointer** Section 4.2, Appendix B, Fig. 6
+  - **Concern** The SAFT calculation is described only briefly in Appendix B, and the authors themselves note that SAFT "over-predicts the number of our polymers required for a given pressure." The sensitivity of the shaded biological region to the SAFT parameters and to the experimental concentration estimates is not explored. Given that the manuscript's key conclusion is that entropy is insufficient at biological concentrations, the robustness of this comparison needs to be demonstrated.
+  - **Why it matters** If the SAFT-based estimate of biological concentrations is uncertain, the conclusion that entropy is insufficient could be an artifact of the comparison rather than a robust finding.
+  - **Resolution test** Provide a sensitivity analysis of the shaded region to SAFT parameters and experimental concentration estimates. Discuss how the conclusion would change if the biological concentration range were shifted by a factor of 2 or 5 in either direction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that tadpoles act as "entropic surfactants" and that this behaviour could be biologically relevant for understanding IDR function.
+  - **Evidence pointer** Sections 4.1, 4.4, 5
+  - **Concern** While the surfactant-like behaviours are demonstrated in simulation, the biological relevance is asserted rather than critically examined. The authors note that entropy alone is insufficient at biological concentrations, but do not discuss whether the surfactant behaviour would persist when attractive interactions are added, or whether the model parameters (e.g., q ≈ 2.3) are representative of real IDR-containing proteins. The claim that "the structure of membraneless organelles might be closer to that of regular organelles than was previously realised" is speculative and goes beyond what the simulations can support.
+  - **Why it matters** The broader significance of the work for the biology community depends on whether the surfactant behaviour is likely to be relevant in vivo, not just in the idealized model.
+  - **Resolution test** Add a discussion of how attractive interactions might modify the entropic surfactant behaviour, and temper the speculative claims about biological relevance. Consider whether the model can be extended to include weak attractions in a controlled way.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2, Methods
+  - **Evidence pointer** Section 2
+  - **Issue** The equations for the hard sphere potential and bond potential are mentioned but not explicitly written out in the text. The reader is left to infer the functional forms from the description.
+  - **Required correction** Write out the explicit forms of U_HS and the bond potential, or provide a clear reference to where these are defined.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.4, Table 2
+  - **Evidence pointer** Section 4.4, Table 2
+  - **Issue** The interfacial tension measurements use a softened potential (WCA) rather than the hard-sphere potential used elsewhere. The authors do not discuss how this change might affect the results, or whether the hard-sphere limit is recovered as the WCA stiffness increases.
+  - **Required correction** Add a brief discussion of the relationship between the WCA and hard-sphere results, or justify why the softened potential is expected to give equivalent results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4.2, Fig. 6
+  - **Evidence pointer** Section 4.2, Fig. 6
+  - **Issue** The phase diagram in Fig. 6 is described as having "sheared" contours due to the different scales used for polymer and colloid volume fractions, but this is not explained clearly in the text. A reader unfamiliar with ternary diagrams may find this confusing.
+  - **Required correction** Add a brief explanation of the ternary diagram construction and the rationale for the different scales.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.3
+  - **Evidence pointer** Section 4.3
+  - **Issue** The comparison between N_tail = 30 and N_tail = 15 is presented qualitatively, with no quantitative measure of the difference in phase behaviour beyond the visual appearance of the phase diagrams.
+  - **Required correction** Provide a quantitative comparison, such as the change in binodal width or critical concentration, to support the claim that shorter tails reduce the capacity for phase separation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binodal determination methodology) and R1-M2 (SAFT comparison robustness) are the primary technical issues that must be resolved. The lack of detail on the phase diagram construction and the sensitivity of the biological concentration comparison are essential for establishing the manuscript's main conclusions.
+- **Assessment against Nature-style criteria** Originality: The work is original in applying the surfactant concept to entropic depletion in IDR-containing protein models. Scientific importance: The question of whether entropy alone can drive biological phase separation is important, but the manuscript's answer is somewhat limited by the model's minimalism and the acknowledged need for attractive interactions. Interdisciplinary readership: The work bridges soft matter physics and biology, but the biological implications are not developed sufficiently to engage a broad biology audience. Technical soundness: The simulation approach is sound in principle, but the lack of methodological detail on phase diagram construction and the sensitivity of the SAFT comparison are significant gaps. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the ternary diagram and SAFT sections may be challenging for readers without a physical chemistry background.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the simulations appear to support the qualitative claims, but the quantitative conclusions require more rigorous methodology and sensitivity analysis before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that entropy is insufficient to drive phase separation at biological concentrations is not fully established due to the acknowledged limitations of the SAFT comparison and the lack of sensitivity analysis.
+- The speculation that membraneless organelle structure might be closer to conventional organelles than previously realized is not supported by the simulation results.
+- The claim that tail length can be used to tune phase preference in vivo is speculative, as the model does not include attractive interactions that would be present in real systems.
+- The quantitative phase diagram in Fig. 6 cannot be fully evaluated without more methodological detail on binodal determination.

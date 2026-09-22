@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "42280196",
+    "doi": "10.3390/molecules31111894",
+    "title": "Modeling Opposite Effects of an Additive on Liquid-Liquid Phase Separation and Crystal Solubility of Protein Solutions."
+  },
+  "content": {
+    "abstract": "In protein solutions, an additive that increases protein-protein attractive interactions is expected to decrease protein crystal solubility and raise the temperature at which liquid-liquid phase separation (LLPS) occurs. In contrast, addition of 0.10 M 4-(2-hydroxyethyl)-1-piperazineethanesulfonate (HEPES) to lysozyme-NaCl aqueous solutions at constant pH (7.4) and ionic strength (0.20 M) decreases solubility but lowers the LLPS temperature. This leads to the broadening of the LLPS metastability gap in the phase diagram and an enhancement of protein crystallization yield from LLPS. We theoretically examine the effect of HEPES on both solubility and LLPS boundaries using a colloid model. Under the hypothesis that HEPES stabilizes protein-protein contacts in the crystal lattice by physical cross-linking, we apply cell theory to describe the thermodynamic behavior of the crystalline phase and use solubility data to show that HEPES increases protein-protein attraction energy by 2.7%. Since an increase in attraction incorrectly predicts a rise in the LLPS temperature, we consider that HEPES also enhances the anisotropic character of protein-protein interactions. To describe the thermodynamic behavior of the solution phase, we start from Barker-Henderson second-order perturbation theory on the hard-sphere reference fluid with square-well potential and local-compressibility approximation. We modify this model so that it can reproduce the correct mathematical expression of the second virial coefficient. This also leads to better agreement with Monte Carlo simulations. We then approximately incorporate anisotropy by assuming that the square-well attraction energy is a temperature-dependent average over all the surface of a particle with a given fractional coverage of attractive spots. The attraction energy of the attractive spots is set to be the same as that of the protein-protein contacts in the crystal. Only fractional coverage (anisotropy) was varied to successfully fit the effect of HEPES on the LLPS boundary.",
+    "keywords": [
+      "Barker-Henderson",
+      "HEPES",
+      "NaCl",
+      "anisotropy",
+      "lysozyme",
+      "metastability"
+    ],
+    "mesh_terms": [
+      "Phase Separation",
+      "Solubility",
+      "Crystallization",
+      "*Muramidase/chemistry",
+      "Thermodynamics",
+      "*Proteins/chemistry",
+      "*HEPES/chemistry",
+      "Solutions/chemistry",
+      "Temperature"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Annunziata, Onofrio",
+        "Thomas, Shamberia"
+      ],
+      "short_names": [
+        "Annunziata O",
+        "Thomas S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6636-4750"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, Texas Christian University, Fort Worth, TX 76109, USA.",
+        "Department of Chemistry and Biochemistry, Texas Christian University, Fort Worth, TX 76109, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Annunziata, Onofrio",
+        "short_name": "Annunziata O",
+        "identifiers": [
+          "0000-0002-6636-4750"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Texas Christian University, Fort Worth, TX 76109, USA."
+        ]
+      },
+      {
+        "full_name": "Thomas, Shamberia",
+        "short_name": "Thomas S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Texas Christian University, Fort Worth, TX 76109, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2026 Jun 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 06:38",
+    "fetched_at": "2026-09-18 04:01:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40509257",
+      "40375868",
+      "40112030",
+      "37906740",
+      "37718544",
+      "34265335",
+      "34155210",
+      "33656887",
+      "32169484",
+      "29045869",
+      "28935776",
+      "27020538",
+      "27017836",
+      "25964322",
+      "25956118",
+      "24678666",
+      "24651180",
+      "22277046",
+      "19110330",
+      "18788805",
+      "17266278",
+      "17155440",
+      "17101277",
+      "16804945",
+      "16606227",
+      "15667225",
+      "15325646",
+      "15299672",
+      "15299608",
+      "12391331",
+      "12097640",
+      "12070342",
+      "10944331",
+      "10823898",
+      "10449715",
+      "10062642",
+      "9336211",
+      "8552642",
+      "7756545",
+      "7150575",
+      "4079776",
+      "2062844"
+    ],
+    "similar": [
+      "42280196",
+      "40509257",
+      "34265335",
+      "39902680",
+      "35778071",
+      "27017836",
+      "18160663",
+      "26451401",
+      "25984769",
+      "40697143",
+      "12128178",
+      "19044852",
+      "34608908",
+      "15059663",
+      "31342417",
+      "17004835",
+      "17266278",
+      "18229962",
+      "25964322",
+      "33656887",
+      "36607608",
+      "18788805",
+      "17902938",
+      "32812624",
+      "10397850",
+      "39964197",
+      "24880268",
+      "19778150",
+      "37039349",
+      "20494508",
+      "20199035",
+      "14990498",
+      "29338267",
+      "12391331",
+      "36671427",
+      "17929863",
+      "41371628",
+      "28178791",
+      "33881613",
+      "16906874",
+      "41603224",
+      "15268448",
+      "35883530",
+      "27138900",
+      "27165990",
+      "19579219",
+      "36426679",
+      "11551435",
+      "15268003",
+      "27662500",
+      "24382592",
+      "38547652",
+      "17134240",
+      "18950139",
+      "26849155",
+      "9336211",
+      "16035870",
+      "42019899",
+      "26756795",
+      "23965962",
+      "24679215",
+      "26747821",
+      "26237070",
+      "24182043",
+      "23464163",
+      "10823898",
+      "27846698",
+      "10089515",
+      "39087873",
+      "40698779",
+      "38767457",
+      "28754261",
+      "37183369",
+      "36641409",
+      "28159365",
+      "22239802",
+      "29448794",
+      "25215749",
+      "11799256",
+      "23804362",
+      "19309115",
+      "26123681",
+      "26579880",
+      "16570321",
+      "11170497",
+      "21479212",
+      "39589726",
+      "28460527",
+      "40973004",
+      "12351866",
+      "34156864",
+      "15571660",
+      "29045869",
+      "27020538",
+      "27276970",
+      "25378269",
+      "12124291",
+      "14967244",
+      "31506351",
+      "26302861"
+    ],
+    "review": [
+      "42280196",
+      "27017836",
+      "41371628"
+    ],
+    "pmc": [
+      "13258223"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules31111894",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42280196/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

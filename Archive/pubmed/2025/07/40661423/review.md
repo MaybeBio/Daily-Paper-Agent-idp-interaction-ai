@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, supplementary information description)
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with stated claims. No assessment of formatting, grammar, or editorial style beyond readability for a general scientific audience.
+- **Shared manuscript claim summary** The authors use a minimalist coarse-grained model to show that DNA length and flexibility, together with homotypic protein-protein and heterotypic protein-DNA interaction strengths, control the formation, internal multiphasic organization, and differential protein dynamics within protein-DNA biomolecular condensates.
+- **Visible evidence base** Main text figures referenced (Figs. 1–7), supplementary figures referenced (Figs. S1–S6), methods descriptions, and simulation parameters. No raw data, simulation trajectories, or code were provided.
+- **Missing materials affecting confidence** Simulation trajectories, raw numerical data underlying figures, code/software versions beyond those named, convergence checks, finite-size analysis, and detailed fitting procedures for the Gaussian decomposition and hyperbolic tangent fits are not provided. These are needed to fully assess reproducibility and robustness.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic coarse-grained simulation study of protein-DNA condensates, with a focus on how DNA physical properties and interaction strengths shape condensate architecture and protein dynamics. The work addresses a timely and important question, and the observation of multiphasic organization and multiple diffusive modes is potentially interesting. However, the evidence provided is largely qualitative, and several key claims—particularly regarding the number of distinct diffusive modes and the interpretation of the multiphasic structure—are not supported by sufficiently detailed analysis or validation. The manuscript would benefit from additional quantitative characterization, robustness checks, and clearer connections to experimental observables.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, chromatin organization, and genome regulation. The work may also interest computational biophysicists developing coarse-grained models for nucleic acid-protein systems. The potential link to experimental FRAP measurements and observations of spatially heterogeneous dynamics in chromatin condensates broadens the appeal to experimental groups in these areas.
+- **Major strengths** The study addresses a relevant and under-explored question: how DNA physical properties modulate the internal organization and dynamics of protein-DNA condensates. The systematic parameter sweep across interaction strengths, DNA lengths, and flexibilities is a reasonable approach. The use of a minimalist model is appropriate for isolating general principles. The identification of multiple diffusive modes within a single condensate is a potentially novel and interesting finding that could inform interpretation of experimental data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that up to five distinct diffusive modes are required to fit the displacement distributions, and that these correspond to distinct protein populations (DNA-bound, confined, freely diffusing, etc.).
+  - **Evidence pointer** Section "Differential Protein Dynamics Within the Protein-DNA Condensate", Fig. 7, Fig. S5, Fig. S6
+  - **Concern** The method for determining the number of diffusive modes (n) is described only as "increase until the fit achieves minimal residuals." This is not a rigorous model selection criterion. The risk of overfitting is high, especially with a sum of Gaussian components. No information is provided on how the number of components was validated (e.g., via information criteria, cross-validation, or comparison to alternative models). The interpretation of each mode as a distinct physical population is speculative without additional evidence, such as spatial correlation of each mode with DNA proximity or density.
+  - **Why it matters** The central claim of "differential dynamics" and the existence of multiple distinct protein populations rests entirely on this fitting procedure. If the number of components is not robust, the entire dynamical interpretation is called into question.
+  - **Resolution test** Provide a rigorous model selection procedure (e.g., AIC/BIC, cross-validation) for determining n. Show that the number of components is stable across different fitting initializations and lag times. Provide spatial or correlational evidence linking each diffusive component to a distinct physical environment (e.g., distance from DNA, local density).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the non-converging phase envelope at strong heterotypic interactions (λPD=2.0) indicates a "fundamentally different" nature of the condensate, and that the radial density profile reveals a "phase-in-phase" multiphasic architecture.
+  - **Evidence pointer** Section "Multiphasic Nature of Protein-DNA Condensates at Higher Heterotypic Interaction Strengths", Fig. 6, Fig. S3, Fig. S4
+  - **Concern** The non-convergence of the phase envelope is presented as evidence for multiphasic behavior, but this could also arise from finite-size effects, insufficient simulation time, or the system not reaching equilibrium. The radial density profile is fit to a double hyperbolic tangent, but no justification is given for this functional form, and no error bars or confidence intervals are shown. The distinction between "phase-I" and "phase-II" is based on a fit that may not be unique. The authors do not demonstrate that the two regions are thermodynamically distinct phases (e.g., by showing a plateau in density or a sharp interface) rather than a smooth gradient.
+  - **Why it matters** The claim of multiphasic organization is a key novel finding. If the evidence is not robust, the conclusion is not established.
+  - **Resolution test** Show that the non-convergence is not a finite-size or equilibration artifact (e.g., by varying box size and simulation length). Provide a more rigorous definition of phase separation (e.g., density profiles with error bars, interface width analysis, or a free energy calculation). Demonstrate that the two regions are distinct phases, not just a density gradient.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that all simulation parameters and analysis procedures are described, and that "all data are included in the manuscript and/or supporting information."
+  - **Evidence pointer** Materials and Methods, Data Availability
+  - **Concern** The manuscript does not provide raw data, simulation input files, or analysis scripts. The description of the Gaussian decomposition and hyperbolic tangent fitting is insufficient to reproduce the analysis. The exact criteria for determining the number of diffusive modes are not specified. The supporting information is described but not provided in the manuscript text.
+  - **Why it matters** Reproducibility is a core expectation for computational studies. Without access to the data and analysis code, independent verification is impossible.
+  - **Resolution test** Provide simulation input files, analysis scripts, and processed data as supplementary material or in a public repository. Provide detailed step-by-step descriptions of the fitting procedures, including initial guesses, bounds, and convergence criteria.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Fig. 1D
+  - **Evidence pointer** Section "Results and Discussions", Fig. 1D
+  - **Issue** The figure shows coexistence of dense and dilute phases, but the criteria for defining "phase separation" (e.g., density threshold, cluster size) are not stated.
+  - **Required correction** Define the operational criteria used to determine whether a system is phase-separated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of DNA length effects
+  - **Evidence pointer** Section "Role of DNA Length in the Organization of Protein-DNA Condensates", Fig. 4
+  - **Issue** The peak in Rg ratio at 100 bp for λPP=3.0 and 4.0 is described as "intriguing" but no mechanistic explanation is offered.
+  - **Required correction** Provide a plausible physical explanation for this observation, or explicitly state that the mechanism is unclear.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Conclusions
+  - **Evidence pointer** Summary and Conclusions
+  - **Issue** The authors generalize their findings to "chromatin condensates" and "transcriptional condensates," but the model is highly simplified and lacks sequence specificity. The connection to specific biological systems is speculative.
+  - **Required correction** Soften the language or provide a more explicit discussion of the limitations of the model in making biological predictions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model selection for diffusive modes), R1-M2 (evidence for multiphasic organization), R1-M3 (reproducibility).
+- **Assessment against Nature-style criteria**
+  - **Originality** The question of how DNA physical properties modulate internal condensate organization and dynamics is relatively underexplored, and the identification of multiple diffusive modes is potentially novel. However, the approach is a straightforward extension of existing coarse-grained models, and the findings are largely qualitative.
+  - **Scientific importance** If the claims are robust, the work could provide a useful framework for interpreting experimental observations of heterogeneous dynamics in chromatin condensates. However, the current evidence does not fully establish the central claims, limiting the immediate impact.
+  - **Interdisciplinary readership** The topic bridges biophysics, computational biology, and cell biology, and the writing is generally accessible. However, the lack of quantitative rigor in key analyses may limit appeal to more physically inclined readers.
+  - **Technical soundness** The simulation methodology is standard, but the analysis procedures (Gaussian decomposition, hyperbolic tangent fitting) are not sufficiently rigorous or well-described. The lack of robustness checks is a significant concern.
+  - **Readability for nonspecialists** The manuscript is clearly written and the figures are generally informative. However, the interpretation of the diffusive modes and multiphasic structure would benefit from clearer explanations for readers not familiar with these analysis techniques.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and has potential, but the central claims regarding multiphasic organization and differential dynamics are not sufficiently supported by the analysis presented. Major revisions are required to address the technical concerns, particularly regarding model selection, robustness, and reproducibility.
+
+## Risk / unsupported claims
+- The claim of "up to five distinct diffusive modes" is not supported by a rigorous model selection procedure.
+- The interpretation of each diffusive mode as a distinct physical population (DNA-bound, confined, freely diffusing) is speculative without spatial or correlational evidence.
+- The claim of "multiphasic organization" is based on a non-converging phase envelope and a double hyperbolic tangent fit, neither of which is rigorously justified or validated against alternative explanations (e.g., finite-size effects, non-equilibrium).
+- The generalization of findings to specific biological systems (e.g., transcriptional condensates, HP1α chromatin condensates) is not supported by the simplified model used.
+- The statement that "all data are included" is not verifiable, as raw data and analysis code are not provided.

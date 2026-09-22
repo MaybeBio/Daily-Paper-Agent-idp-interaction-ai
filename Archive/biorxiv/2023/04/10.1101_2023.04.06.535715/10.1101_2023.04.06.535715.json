@@ -1,0 +1,536 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.06.535715",
+  "title": "Coding Sequence Insertions in Fungal Genomes are Intrinsically Disordered and can Impart Functionally-Important Properties on the Host Protein",
+  "doi": "10.1101/2023.04.06.535715",
+  "abstract": "Insertion and deletion mutations (indels) are important mechanisms of generating protein diversity. Indels in coding sequences are under considerable selective pressure to maintain reading frames and to preserve protein function, but once generated, indels provide raw material for the acquisition of new protein properties and functions. We reported recently that coding sequence insertions in the Candida albicans NDU1 protein, a mitochondrial protein involved in the assembly of the NADH:ubiquinone oxidoreductase are imperative for respiration, biofilm formation and pathogenesis. NDU1 inserts are specific to CTG-clade fungi, absent in human ortholog and successfully harnessed as drug targets. Here, we present the first comprehensive report investigating indels and clade-defining insertions (CDIs) in fungal proteomes. We investigated 80 ascomycete proteomes encompassing CTG clade species, the Saccharomycetaceae family, the Aspergillaceae family and the Herpotrichiellaceae (black yeasts) family. We identified over 30,000 insertions, 4,000 CDIs and 2,500 clade-defining deletions (CDDs). Insert sizes range from 1 to over 1,000 residues in length, while maximum deletion length is 19 residues. Inserts are strikingly over-represented in protein kinases, and excluded from structural domains and transmembrane segments. Inserts are predicted to be highly disordered. The amino acid compositions of the inserts are highly depleted in hydrophobic residues and enriched in polar residues. An indel in the Saccharomyces cerevisiae Sth1 protein, the catalytic subunit of the RSC (Remodel the Structure of Chromatin) complex is predicted to be disordered until it forms a ß-strand upon interaction. This interaction performs a vital role in RSC-mediated transcriptional regulation, thereby expanding protein function.",
+  "authors": [
+    "Bernard D. Lemire",
+    "Priya Uppuluri"
+  ],
+  "published_date": "2023-04-07",
+  "updated_date": "2023-04-07T13:05:17Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.06.535715",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.06.535715.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:56:43Z",
+        "timestamp": 1768503403105,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            7
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 57,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Insertion and deletion mutations (indels) are important mechanisms of generating protein diversity. Indels in coding sequences are under considerable selective pressure to maintain reading frames and to preserve protein function, but once generated, indels provide raw material for the acquisition of new protein properties and functions. We reported recently that coding sequence insertions in the\n                  <jats:italic>Candida albicans</jats:italic>\n                  NDU1 protein, a mitochondrial protein involved in the assembly of the NADH:ubiquinone oxidoreductase are imperative for respiration, biofilm formation and pathogenesis. NDU1 inserts are specific to CTG-clade fungi, absent in human ortholog and successfully harnessed as drug targets. Here, we present the first comprehensive report investigating indels and clade-defining insertions (CDIs) in fungal proteomes. We investigated 80 ascomycete proteomes encompassing CTG clade species, the Saccharomycetaceae family, the Aspergillaceae family and the Herpotrichiellaceae (black yeasts) family. We identified over 30,000 insertions, 4,000 CDIs and 2,500 clade-defining deletions (CDDs). Insert sizes range from 1 to over 1,000 residues in length, while maximum deletion length is 19 residues. Inserts are strikingly over-represented in protein kinases, and excluded from structural domains and transmembrane segments. Inserts are predicted to be highly disordered. The amino acid compositions of the inserts are highly depleted in hydrophobic residues and enriched in polar residues. An indel in the\n                  <jats:italic>Saccharomyces cerevisiae</jats:italic>\n                  Sth1 protein, the catalytic subunit of the RSC (Remodel the Structure of Chromatin) complex is predicted to be disordered until it forms a ß-strand upon interaction. This interaction performs a vital role in RSC-mediated transcriptional regulation, thereby expanding protein function.\n                </jats:p>",
+      "DOI": "10.1101/2023.04.06.535715",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            7
+          ]
+        ],
+        "date-time": "2023-04-07T13:05:17Z",
+        "timestamp": 1680872717000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Coding Sequence Insertions in Fungal Genomes are Intrinsically Disordered and can Impart Functionally-Important Properties on the Host Protein"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Bernard D.",
+          "family": "Lemire",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Priya",
+          "family": "Uppuluri",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2148-13-140"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.2"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "250",
+          "DOI": "10.1016/j.ymgme.2019.01.001",
+          "article-title": "Mutations in the mitochondrial complex I assembly factor NDUFAF6 cause isolated bilateral striatal necrosis and progressive dystonia in childhood",
+          "volume": "126",
+          "year": "2019",
+          "journal-title": "Molecular Genetics and Metabolism"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg3031"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1007186"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0306880101"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-8-227"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "4206",
+          "DOI": "10.1038/s41467-020-18021-7",
+          "article-title": "Taf14 recognizes a common motif in transcriptional machineries and facilitates their clustering by phase separation",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "371",
+          "DOI": "10.1002/prot.20631",
+          "article-title": "Large-scale survey for potentially targetable indels in bacterial and protozoan proteins",
+          "volume": "62",
+          "year": "2005",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.20391"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a019570"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "3469",
+          "DOI": "10.1038/s41467-020-17061-3",
+          "article-title": "Accessing unexplored regions of sequence space in directed enzyme evolution via insertion/deletion mutagenesis",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Engel SR , Wong ED , Nash RS , Aleksander S , Alexander M , Douglass E , Karra K , Miyasato SR , Simison M , Skrzypek MS , et al. 2021. New data and collaborations at the Saccharomyces Genome Database: updated reference genome, alleles, and the Alliance of Genome Resources. Wood V , editor. Genetics:iyab224.",
+          "DOI": "10.1101/2021.09.16.460706"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hallgren J , Tsirigos KD , Pedersen MD , Almagro Armenteros JJ , Marcatili P , Nielsen H , Krogh A , Winther O. 2022. DeepTMHMM predicts alpha and beta transmembrane proteins using deep neural networks. Bioinformatics Available from: http://biorxiv.org/lookup/doi/10.1101/2022.04.08.487609",
+          "DOI": "10.1101/2022.04.08.487609"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1657",
+          "DOI": "10.3390/cells9071657",
+          "article-title": "Regulation of Error-Prone DNA Double-Strand Break Repair and Its Impact on Genome Evolution",
+          "volume": "9",
+          "year": "2020",
+          "journal-title": "Cells"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddw245"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.simyco.2020.05.002"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0401648101"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbrc.2005.03.180"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw108"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/msb.2008.16"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.1016/j.mito.2017.04.005",
+          "article-title": "Evolution, structure and membrane association of NDUFAF6, an assembly factor for NADH:ubiquinone oxidoreductase (Complex I)",
+          "volume": "35",
+          "year": "2017",
+          "journal-title": "Mitochondrion"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rspb.2011.2571"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "9313",
+          "DOI": "10.1038/s41598-017-09287-x",
+          "article-title": "Effects of short indels on protein structure and function in human genomes",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz991"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.3000957"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.811003"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "654",
+          "DOI": "10.1016/j.idnow.2021.04.002",
+          "article-title": "Clinical manifestations, diagnosis, and treatment outcome of CNS aspergillosis: A systematic review of 235 cases",
+          "volume": "51",
+          "year": "2021",
+          "journal-title": "Infectious Diseases Now"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "D578",
+          "DOI": "10.1093/nar/gkab991",
+          "article-title": "Complex Portal 2022: new curation frontiers",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "3156",
+          "DOI": "10.1093/nar/gkab077",
+          "article-title": "Analysing the yeast complexome—the Complex Portal rising to the challenge",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.4565806"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msaa015"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAA913"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-15-411"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.21278"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1189"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2008.06.016"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-030-13035-0_7"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/PRO.3943"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "D480",
+          "DOI": "10.1093/nar/gkab1082",
+          "article-title": "DisProt in 2022: improved quality and accessibility of protein intrinsic disorder annotation",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1603941113"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.crvi.2011.05.008"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sehn JK. 2015. Insertions and Deletions (Indels). In: Clinical Genomics. Elsevier. p. 129–150. Available from: https://linkinghub.elsevier.com/retrieve/pii/B9780124047488000095",
+          "DOI": "10.1016/B978-0-12-404748-8.00009-5"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2003138117"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "490",
+          "DOI": "10.3390/genes10070490",
+          "article-title": "Novel Molecular Synapomorphies Demarcate Different Main Groups/Subgroups of Plasmodium and Piroplasmida Species Clarifying Their Evolutionary Relationships",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Genes"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.abd0079"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "31",
+          "DOI": "10.1007/978-1-4939-7737-6_3",
+          "volume-title": "Eukaryotic Genomic Databases",
+          "volume": "1757",
+          "author": "Methods in Molecular Biology",
+          "year": "2018"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "e3001762",
+          "DOI": "10.1371/journal.pbio.3001762",
+          "article-title": "Niclosamide-loaded nanoparticles disrupt Candida biofilms and protect mice from mucosal candidiasis",
+          "volume": "20",
+          "year": "2022",
+          "journal-title": "PLoS Biol"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1074"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.simyco.2017.01.001"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "590",
+          "DOI": "10.1038/s41586-021-03828-1",
+          "article-title": "Highly accurate protein structure prediction for the human proteome",
+          "volume": "596",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.53",
+          "first-page": "vbac002",
+          "article-title": "How sticky are our proteins?",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Quantifying hydrophobicity of the human proteome. Bioinformatics Advances"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1061"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.55",
+          "first-page": "e00652",
+          "article-title": "Draft Genome Sequence of Scheffersomyces spartinae ARV011, a Marine Yeast Isolate",
+          "volume": "10",
+          "year": "2021",
+          "journal-title": "Microbiol Resour Announc"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.mib.2019.04.001"
+        },
+        {
+          "key": "2023041123301032000_2023.04.06.535715v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.04.06.535715",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:31:18Z",
+        "timestamp": 1768451478000
+      },
+      "score": 93.77023,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.04.06.535715"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            7
+          ]
+        ]
+      },
+      "references-count": 57,
+      "URL": "https://doi.org/10.1101/2023.04.06.535715",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

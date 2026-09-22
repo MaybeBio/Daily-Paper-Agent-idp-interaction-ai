@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, as supplied
+- **Shared manuscript claim summary** The authors report molecular dynamics simulations of the *Escherichia coli* FtsZ monomer including its C-terminal intrinsically disordered region (IDR), in three nucleotide states (apo, GTP, GDP). They claim that GTP binds variably to the monomer, a feature not seen in prior simulations or crystal structures; that the central helix bends toward the C-terminal domain in the GTP-bound form, facilitating polymerization; and that nucleotide-dependent shift or rotation of the C-terminal domain is observed in time-averaged structures.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, simulation parameters, or quantitative results are provided.
+- **Missing materials affecting confidence** Full manuscript, simulation methodology (force field, water model, ion conditions, simulation length, temperature, pressure, equilibration protocol), structural validation metrics, convergence analysis, replicate information, statistical error estimates, and all figures or tables supporting the stated observations.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting simulation study, but the evidence base is limited to a brief summary. The central claims, particularly the variable GTP binding and the nucleotide-dependent C-terminal domain movement, are stated without quantitative support or methodological detail. The novelty claim relative to prior simulations is not verifiable from the supplied material. The study may be of interest to the FtsZ and bacterial cell division community, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying bacterial cell division, FtsZ polymerization mechanisms, and the role of intrinsically disordered regions in protein function. The inclusion of the C-terminal IDR addresses a recognized gap in prior simulation studies, and the proposed mechanism linking GTP binding to conformational changes relevant to polymerization could inform experimental design.
+- **Major strengths** The study addresses a clear gap in prior FtsZ simulations by explicitly including the C-terminal IDR. The comparison across three nucleotide states is a sensible approach to probe nucleotide-dependent conformational behavior. The observation of variable GTP binding, if robust, would be a novel contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "GTP binds variably with the protein" and "Such a variable interaction with the monomer has not been observed in any previous simulation studies of FtsZ and not observed in crystal structures."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of variable GTP binding is presented without any quantitative measure, such as binding site occupancy, interaction energy distributions, or residence times. No comparison to prior simulation studies is shown, and the basis for asserting novelty is not documented.
+  - **Why it matters** Variable binding is a strong mechanistic claim that could be an artifact of insufficient sampling, force field choice, or initial placement of the ligand. Without quantitative evidence and comparison to established results, the claim cannot be evaluated.
+  - **Resolution test** Provide quantitative descriptors of GTP binding variability, such as distributions of binding poses, interaction energies, or contact maps, with error estimates. Include a direct comparison to prior simulation results and crystal structures, and demonstrate convergence of the binding behavior over the simulation time.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "central helix bends towards the C-terminal domain in the GTP bound form, hence, making way for polymerization" and "A nucleotide dependent shift/rotation of the C-terminal domain was observed in simulation time averaged structures."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The conformational changes are described qualitatively. No metrics are given, such as bend angles, domain displacement vectors, or rotation magnitudes, and no statistical significance is reported. The link between the observed bend and polymerization competence is speculative without additional analysis.
+  - **Why it matters** Conformational changes in simulations can be within thermal fluctuation ranges. Without quantitative characterization and error analysis, the nucleotide dependence and functional relevance cannot be distinguished from noise.
+  - **Resolution test** Report numerical values for helix bend angles and C-terminal domain displacement or rotation, with standard errors across replicates or time blocks. Show that the differences between nucleotide states exceed the fluctuation range, and provide a structural rationale connecting the bend to polymerization.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodology
+  - **Claim pointer** "we simulated FtsZ with the IDR" and "Simulations of the FtsZ monomer in different nucleotide bound forms were performed."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No methodological details are provided, including force field, water model, ionic conditions, simulation length, temperature, pressure, equilibration protocol, or number of replicates. The construction of the IDR, which is likely missing from the crystal structure, is not described.
+  - **Why it matters** Reproducibility is a core requirement for simulation studies. The choice of force field and IDR modeling strategy can strongly influence the results, particularly for disordered regions and ligand binding.
+  - **Resolution test** Provide a complete methods section with all simulation parameters, IDR construction approach, and validation of the system setup. Include information on replicate simulations and convergence assessment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "high intrinsic flexibility which the crystal structures cannot reveal" is a general statement that could be more precise regarding what specific flexibility is meant.
+  - **Required correction** Specify the type of flexibility, such as backbone mobility or domain motion, and clarify the limitation of crystal structures in this context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract results
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The abstract does not state the simulation length or whether the observed behaviors were stable over time.
+  - **Required correction** Add simulation time scale and a statement on the stability or convergence of the observed conformational states.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The phrase "making way for polymerization" implies a functional consequence that is not directly tested in the simulations.
+  - **Required correction** Soften the language to indicate a proposed mechanism, or provide additional analysis, such as comparison to polymer-competent conformations, to support the inference.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative evidence, methodological detail, and statistical validation means the central claims are not currently supported.
+- **Assessment against Nature-style criteria** Originality: The inclusion of the C-terminal IDR and the observation of variable GTP binding are potentially original, but novelty is not demonstrated without comparison to prior work. Scientific importance: The topic is relevant to bacterial cell division, but the significance of the findings for a broad audience is not established from the abstract. Interdisciplinary readership: The work is likely to appeal primarily to biophysicists and structural biologists; broader interest would require clearer functional implications. Technical soundness: Not assessable from the abstract; the lack of methodological detail and quantitative analysis is a major limitation. Readability for nonspecialists: The abstract is generally readable, but the mechanistic claims would benefit from clearer explanation of the structural context.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential merit, but the abstract alone does not provide sufficient quantitative or methodological support for the central claims. A full manuscript with detailed methods, statistical analysis, and comparison to prior work would be required to assess the case.
+
+## Risk / unsupported claims
+- The claim that variable GTP binding has not been observed in prior simulations or crystal structures is unsupported, as no comparative data are provided.
+- The claim that the central helix bend "makes way for polymerization" is unsupported, as no direct link to polymerization is demonstrated.
+- The nucleotide-dependent shift or rotation of the C-terminal domain is stated without quantitative metrics or statistical significance.
+- The overall novelty of the study relative to prior FtsZ simulations cannot be evaluated from the abstract alone.

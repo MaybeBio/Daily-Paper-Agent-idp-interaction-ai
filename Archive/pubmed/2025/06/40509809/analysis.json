@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40509809",
+  "title": "The Glycine-Rich Region as a Flexible Molecular Glue Promoting hPrP(106-145) Aggregation into beta-Sheet Structures.",
+  "authors": "Zhang, Xiaohan; Xu, Huan; Tang, Huayuan; Lv, Zhongyue; Zou, Yu; Huang, Fengjuan; Ding, Feng; Sun, Yunxiang",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-06-13",
+  "window": {
+    "start": "2025-06-09",
+    "end": "2025-06-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用原子级离散分子动力学(DMD)模拟研究朊蛋白片段hPrP(106-145)中甘氨酸富集区作为柔性分子胶促进β-折叠聚集的机制，虽对象非典型IDP但涉及无序区域介导的聚集与相分离相关机制，方法为物理模拟且聚焦互作聚集机制，对本课题有较强启发。",
+  "abstract": "The abnormal aggregation of human prion protein (hPrP) into cross-beta fibrillar amyloid deposits is associated with prion diseases such as Creutzfeldt-Jakob disease and fatal familial insomnia. However, the molecular mechanisms underlying the early stages of prion aggregation remain poorly understood. In this study, we employed multiple long-time scale atomistic discrete molecular dynamics (DMD) simulations to investigate the conformational dynamics of hPrP(106-145), a critical fragment with intrinsic aggregation propensity and key involvement in infectivity. Our results revealed that the hPrP(106-145) monomer primarily adopted a helical conformation in the alanine-rich region (residues 109-118), while the remaining sequence was largely unstructured, exhibiting dynamic beta-sheet formation around residues (120)AVV(122), (128)YVL(130), and (138)IIH(140). Upon dimerization, beta-sheet formation was significantly enhanced, particularly around (138)IIH(140), which displayed the highest beta-sheet propensity and interpeptide contact frequency, underscoring its pivotal role in aggregate stabilization. The glycine-rich region (residues 119-131) was found to facilitate aggregation by conferring structural flexibility due to glycine's minimal steric hindrance. This flexibility allowed hydrophobic and aromatic residues to collapse dynamically, forming transient intra- and interpeptide beta-sheets. These interactions acted as a molecular glue, promoting aggregation while maintaining structural adaptability. Although beta-sheet formation lowered potential energy, excessive beta-sheet content resulted in significant entropic loss, highlighting a trade-off between stability and conformational entropy. Overall, this study provides molecular insights into the early nucleation events of hPrP(106-145) aggregation, emphasizing the critical role of glycine-mediated flexibility. Our findings deepen the understanding of prion misfolding and offer a computational framework for exploring glycine-rich peptide phase separation in amyloid-related disorders.",
+  "abstract_zh": "人类朊蛋白（hPrP）异常聚集形成交叉β折叠淀粉样纤维沉积，与克雅氏病和致死性家族性失眠症等朊病毒病相关。然而，朊蛋白聚集早期阶段的分子机制仍知之甚少。在本研究中，我们采用多次长时间尺度的原子级离散分子动力学（discrete molecular dynamics, DMD）模拟，探讨hPrP(106-145)的构象动态，该片段具有内在聚集倾向并在感染性中发挥关键作用。我们的结果显示，hPrP(106-145)单体主要采用螺旋构象于富丙氨酸区域（残基109-118），而其余序列大部分为无结构状态，在残基(120)AVV(122)、(128)YVL(130)和(138)IIH(140)周围表现出动态β折叠形成。二聚化后，β折叠形成显著增强，尤其在(138)IIH(140)周围，该区域显示出最高的β折叠倾向和肽间接触频率，强调其在聚集体稳定中的关键作用。富甘氨酸区域（残基119-131）被发现通过甘氨酸的最小空间位阻赋予结构柔性，从而促进聚集。这种柔性允许疏水性和芳香族残基动态塌缩，形成瞬时的肽内和肽间β折叠。这些相互作用充当分子胶，促进聚集同时维持结构适应性。尽管β折叠形成降低了势能，但过量的β折叠含量导致显著的熵损失，突显了稳定性与构象熵之间的权衡。总体而言，本研究为hPrP(106-145)聚集的早期成核事件提供了分子层面的见解，强调了甘氨酸介导柔性的关键作用。我们的发现加深了对朊蛋白错误折叠的理解，并为探索淀粉样相关疾病中富甘氨酸肽相分离（phase separation）提供了计算框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40509809/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40509809/",
+  "paper_page_path": "papers/pubmed/40509809/index.html"
+}

@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "38512658",
+    "doi": "10.1007/978-1-0716-3629-9_1",
+    "title": "Characterization of Posttranslationally Modified PHF-1 Tau Peptides Using Gaussian Accelerated Molecular Dynamics Simulation."
+  },
+  "content": {
+    "abstract": "The microtubule-associated protein, Tau, is an intrinsically disordered protein that plays a crucial role in neurodegenerative diseases like Alzheimer's disease. The posttranslational modifications across the Tau protein domains are involved in regulating Tau protein's function and disease onset. Of the various posttranslational modifications at Ser, Thr, and Tyr sites, O-GlcNAcylation and phosphorylation are the most critical ones, playing a vital role in Tau aggregation and tauopathies. To understand the function, it is essential to characterize the structural changes associated with Tau modification. Previous experimental studies have focused on high-resolution nuclear magnetic resonance techniques to structurally characterize the effect of phosphorylation, O-GlcNAcylation, and combination of both PTMs on Tau conformation in small peptides centered on the PHF-1 epitope from amino acid 392 to 411. The structural characterization using atomistic molecular dynamics simulation of such disordered peptides requires long simulation time, proper sampling method, and utilization of appropriate force fields for accurate determination of conformational ensembles, resembling the experimental data. This chapter details the protocol for the structural characterization of modified Tau peptides using the CHARMM36m force field and enhanced sampling methods like Gaussian accelerated molecular dynamics (GaMD) simulation. We have focused on a detailed explanation of the GaMD method and analyses of molecular dynamics trajectories to explain the relationship between two modifications, phospho- and glyco-, at C-terminus of Tau protein and its stable conformation over the longer simulation timeframes. The analyses involve energetics reweighting, clustering of simulation trajectories, and characterization of secondary structure using circular dichroism data from the simulation. The reader can utilize this protocol to investigate the structures of complex proteins, especially the disordered ones.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Gaussian accelerated molecular dynamics",
+      "Posttranslational modifications",
+      "Protein folding",
+      "Reweighting",
+      "Tau proteinTauprotein"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "tau Proteins/metabolism",
+      "Molecular Dynamics Simulation",
+      "Peptides/chemistry",
+      "*Alzheimer Disease/metabolism",
+      "*Tauopathies",
+      "Phosphorylation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barbhuiya, Tabassum Khair",
+        "Jayarathna, Dulari K",
+        "Gilmour, Raechelle",
+        "Smet-Nocca, Caroline",
+        "Gandhi, Neha S"
+      ],
+      "short_names": [
+        "Barbhuiya TK",
+        "Jayarathna DK",
+        "Gilmour R",
+        "Smet-Nocca C",
+        "Gandhi NS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3119-6731"
+      ],
+      "affiliations": [
+        "School of Chemistry and Physics, Faculty of Science, Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, QLD, Australia.",
+        "Cancer and Ageing Research Program, Translational Research Institute, Woolloongabba, QLD, Australia.",
+        "School of Chemistry and Physics, Faculty of Science, Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, QLD, Australia.",
+        "School of Chemistry and Physics, Faculty of Science, Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, QLD, Australia.",
+        "University of Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille, France.",
+        "CNRS EMR9002 Integrative Structural Biology, Lille, France.",
+        "School of Chemistry and Physics, Faculty of Science, Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, QLD, Australia. neha.gandhi@qut.edu.au.",
+        "Cancer and Ageing Research Program, Translational Research Institute, Woolloongabba, QLD, Australia. neha.gandhi@qut.edu.au."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barbhuiya, Tabassum Khair",
+        "short_name": "Barbhuiya TK",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Physics, Faculty of Science, Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, QLD, Australia.",
+          "Cancer and Ageing Research Program, Translational Research Institute, Woolloongabba, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Jayarathna, Dulari K",
+        "short_name": "Jayarathna DK",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Physics, Faculty of Science, Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Gilmour, Raechelle",
+        "short_name": "Gilmour R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry and Physics, Faculty of Science, Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Smet-Nocca, Caroline",
+        "short_name": "Smet-Nocca C",
+        "identifiers": [],
+        "affiliations": [
+          "University of Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille, France.",
+          "CNRS EMR9002 Integrative Structural Biology, Lille, France."
+        ]
+      },
+      {
+        "full_name": "Gandhi, Neha S",
+        "short_name": "Gandhi NS",
+        "identifiers": [
+          "0000-0003-3119-6731"
+        ],
+        "affiliations": [
+          "School of Chemistry and Physics, Faculty of Science, Centre for Genomics and Personalised Health, Queensland University of Technology, Brisbane, QLD, Australia. neha.gandhi@qut.edu.au.",
+          "Cancer and Ageing Research Program, Translational Research Institute, Woolloongabba, QLD, Australia. neha.gandhi@qut.edu.au."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/21 18:45",
+    "fetched_at": "2026-09-21 06:05:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34899998",
+      "33945530",
+      "33355572",
+      "32844286",
+      "32716185",
+      "32692556",
+      "32050065",
+      "31402660",
+      "31315928",
+      "29735687",
+      "29489349",
+      "29080468",
+      "28678775",
+      "28259050",
+      "27819658",
+      "26636222",
+      "26631602",
+      "26592383",
+      "26583988",
+      "26575776",
+      "26574339",
+      "26300708",
+      "25863070",
+      "25846560",
+      "25764013",
+      "25443960",
+      "25416617",
+      "25061441",
+      "24463371",
+      "23341755",
+      "22582031",
+      "21391816",
+      "21327254",
+      "21215781",
+      "19444816",
+      "19246243",
+      "18799750",
+      "18625456",
+      "18456823",
+      "18351591",
+      "15264254",
+      "10967355",
+      "9242909",
+      "6667333"
+    ],
+    "similar": [
+      "38512658",
+      "27975243",
+      "39871444",
+      "34220449",
+      "31470053",
+      "33982037",
+      "36768484",
+      "27989667",
+      "24033439",
+      "18061582",
+      "9273897",
+      "39909381",
+      "38512672",
+      "10913317",
+      "36669127",
+      "31653529",
+      "25691742",
+      "38408247",
+      "24577753",
+      "35325356",
+      "37031392",
+      "30259679",
+      "30840442",
+      "23912807",
+      "32065850",
+      "37167199",
+      "36594671",
+      "21056617",
+      "33663205",
+      "17262984",
+      "38512671",
+      "15869817",
+      "40198698",
+      "33125954",
+      "26751493",
+      "18671940",
+      "19451179",
+      "34491058",
+      "33078207",
+      "16779670",
+      "22072628",
+      "39092904",
+      "41337804",
+      "33892381",
+      "31661961",
+      "32096026",
+      "24559475",
+      "38489841",
+      "37104971",
+      "17604998",
+      "21327254",
+      "40628019",
+      "16443603",
+      "32499112",
+      "38512670",
+      "27126545",
+      "41257331",
+      "20160453",
+      "34152739",
+      "28833749",
+      "40082954",
+      "34838590",
+      "34032430",
+      "28760828",
+      "27260838",
+      "41759740",
+      "34502116",
+      "7951685",
+      "19075586",
+      "16781671",
+      "30893872",
+      "23362255",
+      "33816551",
+      "35762647",
+      "32096030",
+      "40785029",
+      "41708206",
+      "30665304",
+      "29364151",
+      "40973401",
+      "15249677",
+      "37834471",
+      "11147714",
+      "17168644",
+      "38830621",
+      "1899184",
+      "32392276",
+      "25881502",
+      "29670132",
+      "41130191",
+      "30386294",
+      "16889747",
+      "40505550",
+      "38396035",
+      "26652296",
+      "40121258",
+      "36029032",
+      "33877805",
+      "39026372",
+      "16987932"
+    ],
+    "review": [
+      "38512658",
+      "35325356",
+      "37031392",
+      "30840442",
+      "21056617",
+      "26751493",
+      "33078207",
+      "16779670",
+      "33892381",
+      "32096026",
+      "17604998",
+      "40628019",
+      "28833749",
+      "34502116",
+      "7951685",
+      "19075586",
+      "32096030",
+      "41708206",
+      "29364151",
+      "40973401",
+      "37834471",
+      "17168644",
+      "26652296"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-3629-9_1",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

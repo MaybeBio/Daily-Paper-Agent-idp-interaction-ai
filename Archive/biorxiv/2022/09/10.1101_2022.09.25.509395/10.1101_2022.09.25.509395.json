@@ -1,0 +1,264 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.09.25.509395",
+  "title": "AF2-multimer guided high accuracy prediction of typical and atypical ATG8 binding motifs",
+  "doi": "10.1101/2022.09.25.509395",
+  "abstract": "Macroautophagy/autophagy is an intracellular degradation process central to cellular homeostasis and defense against pathogens in eukaryotic cells. Regulation of autophagy relies on hierarchical binding of autophagy cargo receptors and adaptors to ATG8/LC3 protein family members. Interactions with ATG8/LC3 are typically facilitated by a conserved, short linear sequence, referred to as the ATG8/LC3 interacting motif/region (AIM/LIR), present in autophagy adaptors and receptors as well as pathogen virulence factors targeting host autophagy machinery. Since the canonical AIM/LIR sequence can be found in many proteins, identifying functional AIM/LIR motifs has proven challenging. Here we show that protein modelling using Alphafold-Multimer (AF2-multimer) identifies both canonical and atypical AIM/LIR motifs with a high level of accuracy. AF2-multimer can be modified to detect additional functional AIM/LIR motifs by using protein sequences with mutations in primary AIM/LIR residues. By combining protein modelling data from AF2-multimer with phylogenetic analysis of protein sequences and protein-protein interaction assays, we demonstrate that AF2-multimer predicts the physiologically relevant AIM motif in the ATG8-interacting protein 2 (ATI-2) as well as the previously uncharacterized non-canonical AIM motif in ATG3 from potato ( Solanum tuberosum ). AF2-multimer also identified the AIM/LIR motifs in pathogen-encoded virulence factors that target ATG8 members in their plant and human hosts, revealing that cross-kingdom ATG8-LIR/AIM associations can also be predicted by AF2-multimer. We conclude that the AF2-guided discovery of autophagy adaptors/receptors will substantially accelerate our understanding of the molecular basis of autophagy in all biological kingdoms.",
+  "authors": [
+    "Ibrahim T",
+    "Khandare V",
+    "Mirkin FG",
+    "Tumtas Y",
+    "Bubeck D",
+    "Bozkurt TO"
+  ],
+  "published_date": "2022-09-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.09.25.509395",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.09.25.509395.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR550883",
+    "raw_record": {
+      "id": "PPR550883",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR550883"
+        ]
+      },
+      "doi": "10.1101/2022.09.25.509395",
+      "title": "AF2-multimer guided high accuracy prediction of typical and atypical ATG8 binding motifs",
+      "authorString": "Ibrahim T, Khandare V, Mirkin FG, Tumtas Y, Bubeck D, Bozkurt TO.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ibrahim T",
+            "lastName": "Ibrahim",
+            "firstName": "Tarhan",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2437-4723"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Imperial College London, London SW7 2BX, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Khandare V",
+            "lastName": "Khandare",
+            "firstName": "Virendrasinh",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2673-6561"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Imperial College London, London SW7 2BX, United Kingdom"
+                },
+                {
+                  "affiliation": "Department of Agrotechnology and Food Sciences, Biochemistry, Wageningen University and Research, 6708 PB Wageningen, Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mirkin FG",
+            "lastName": "Mirkin",
+            "firstName": "Federico Gabriel",
+            "initials": "FG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Imperial College London, London SW7 2BX, United Kingdom"
+                },
+                {
+                  "affiliation": "INGEBI-CONICET, Ciudad Autonoma de Buenos Aires, Argentina"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tumtas Y",
+            "lastName": "Tumtas",
+            "firstName": "Yasin",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7656-6340"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Imperial College London, London SW7 2BX, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bubeck D",
+            "lastName": "Bubeck",
+            "firstName": "Doryen",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8241-9697"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Imperial College London, London SW7 2BX, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bozkurt TO",
+            "lastName": "Bozkurt",
+            "firstName": "Tolga",
+            "initials": "TO",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0507-6875"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, Imperial College London, London SW7 2BX, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7656-6340"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8241-9697"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2437-4723"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0507-6875"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2673-6561"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Macroautophagy/autophagy is an intracellular degradation process central to cellular homeostasis and defense against pathogens in eukaryotic cells. Regulation of autophagy relies on hierarchical binding of autophagy cargo receptors and adaptors to ATG8/LC3 protein family members. Interactions with ATG8/LC3 are typically facilitated by a conserved, short linear sequence, referred to as the ATG8/LC3 interacting motif/region (AIM/LIR), present in autophagy adaptors and receptors as well as pathogen virulence factors targeting host autophagy machinery. Since the canonical AIM/LIR sequence can be found in many proteins, identifying functional AIM/LIR motifs has proven challenging. Here we show that protein modelling using Alphafold-Multimer (AF2-multimer) identifies both canonical and atypical AIM/LIR motifs with a high level of accuracy. AF2-multimer can be modified to detect additional functional AIM/LIR motifs by using protein sequences with mutations in primary AIM/LIR residues. By combining protein modelling data from AF2-multimer with phylogenetic analysis of protein sequences and protein-protein interaction assays, we demonstrate that AF2-multimer predicts the physiologically relevant AIM motif in the ATG8-interacting protein 2 (ATI-2) as well as the previously uncharacterized non-canonical AIM motif in ATG3 from potato (  Solanum tuberosum ). AF2-multimer also identified the AIM/LIR motifs in pathogen-encoded virulence factors that target ATG8 members in their plant and human hosts, revealing that cross-kingdom ATG8-LIR/AIM associations can also be predicted by AF2-multimer. We conclude that the AF2-guided discovery of autophagy adaptors/receptors will substantially accelerate our understanding of the molecular basis of autophagy in all biological kingdoms.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/M011178/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T006102/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/09/26/2022.09.25.509395.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.09.25.509395"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR550883"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR550883&type=FILE&fileName=EMS155004-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS155004",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-09-29",
+      "firstPublicationDate": "2022-09-26",
+      "firstIndexDate": "2022-09-29",
+      "fullTextReceivedDate": "2022-11-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

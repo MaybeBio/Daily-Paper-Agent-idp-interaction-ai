@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39504303",
+  "title": "Physics-Based Machine Learning Trains Hamiltonians and Decodes the Sequence-Conformation Relation in the Disordered Proteome.",
+  "authors": "Houston, Lilianna; Phillips, Michael; Torres, Andrew; Gaalswyk, Kari; Ghosh, Kingshuk",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2024-11-06",
+  "window": {
+    "start": "2024-11-04",
+    "end": "2024-11-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用物理基机器学习训练无序蛋白的哈密顿量，解码序列-构象关系，虽未直接研究PPI，但其对IDP构象的机制建模方法可迁移至无序蛋白介导的互作预测。",
+  "abstract": "Intrinsically disordered proteins and regions (IDPs) are involved in vital biological processes. To understand the IDP function, often controlled by conformation, we need to find the link between sequence and conformation. We decode this link by integrating theory, simulation, and machine learning (ML) where sequence-dependent electrostatics is modeled analytically while nonelectrostatic interaction is extracted from simulations for many sequences and subsequently trained using ML. The resulting Hamiltonian, combining physics-based electrostatics and machine-learned nonelectrostatics, accurately predicts sequence-specific global and local measures of conformations beyond the original observable used from the simulation. This is in contrast to traditional ML approaches that train and predict a specific observable, not a Hamiltonian. Our formalism reproduces experimental measurements, predicts multiple conformational features directly from sequence with high throughput that will give insights into IDP design and evolution, and illustrates the broad utility of using physics-based ML to train unknown parts of a Hamiltonian, rather than a specific observable, in combination with known physics.",
+  "abstract_zh": "固有无序蛋白质及区域（IDPs）参与重要的生物过程。要理解IDP的功能，其通常受构象控制，我们需要找到序列与构象之间的联系。我们通过整合理论、模拟和机器学习（ML）来解码这一联系，其中序列依赖性静电相互作用以解析方式建模，而非静电相互作用则从多种序列的模拟中提取，并随后通过ML进行训练。由此得到的哈密顿量，结合了基于物理的静电学和机器学习得到的非静电学，能够准确预测超出模拟中原始观测量的序列特异性全局和局部构象度量。这与传统ML方法形成对比，后者训练并预测特定观测量，而非哈密顿量。我们的形式体系再现了实验测量结果，直接从序列高通量预测多种构象特征，这将为IDP的设计和进化提供见解，并展示了基于物理的ML在结合已知物理的同时训练哈密顿量未知部分而非特定观测量的广泛实用性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39504303/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39504303/",
+  "paper_page_path": "papers/pubmed/39504303/index.html"
+}

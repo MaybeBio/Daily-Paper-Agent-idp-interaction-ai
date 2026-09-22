@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40654683",
+  "title": "DIRseq: a method for predicting drug-interacting residues of intrinsically disordered proteins from sequences.",
+  "authors": "MacAinsh, Matthew; Qin, Sanbo; Zhou, Huan-Xiang",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-07-14",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出DIRseq方法，从序列预测无序蛋白(IDP)的药物互作残基，虽涉及IDP与药物小分子而非蛋白-蛋白互作(PPI)，且方法为序列统计模型而非AI/物理模拟，但机制上关注IDP结合位点预测，对IDP互作机制建模有一定启发。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are now well-recognized as drug targets. Identifying drug-interacting residues is valuable for both optimizing compounds and elucidating the mechanism of action. Currently, NMR chemical shift perturbation and all-atom molecular dynamics (MD) simulations are the primary tools for this purpose. Here we present DIRseq, a fast method for predicting drug-interacting residues from the amino-acid sequence. All residues contribute to the propensity of a particular residue to be drug-interacting; the contributing factor of each residue has an amplitude that is determined by its amino-acid type and attenuates with increasing sequence distance from the particular residue. DIRseq predictions match well with drug-interacting residues identified by NMR chemical shift perturbation and other methods, including residues L(22)WK(24) and Q(52)WFT(55) in the tumor suppressor protein p53. These successes augur well for deciphering the sequence code for IDP-drug binding. DIRseq is available as a web server at https://zhougroup-uic.github.io/DIRseq/ and has many applications, such as virtual screening against IDPs and designing IDP fragments for in-depth NMR and MD studies.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 现已被广泛认可为药物靶点。识别药物相互作用残基对于优化化合物和阐明作用机制均具有重要价值。目前，核磁共振化学位移扰动和全原子分子动力学 (molecular dynamics, MD) 模拟是此目的的主要工具。在此，我们提出 DIRseq，一种从氨基酸序列预测药物相互作用残基的快速方法。所有残基均对特定残基成为药物相互作用的倾向性有所贡献；每个残基的贡献因子具有由其氨基酸类型决定的振幅，并随与特定残基的序列距离增加而衰减。DIRseq 预测与通过核磁共振化学位移扰动及其他方法识别的药物相互作用残基吻合良好，包括肿瘤抑制蛋白 p53 中的残基 L(22)WK(24) 和 Q(52)WFT(55)。这些成功为解读 IDP-药物结合的序列密码预示了良好前景。DIRseq 可作为网络服务器访问，网址为 https://zhougroup-uic.github.io/DIRseq/，并具有多种应用，如针对 IDPs 的虚拟筛选以及设计用于深入 NMR 和 MD 研究的 IDP 片段。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40654683/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40654683/",
+  "paper_page_path": "papers/pubmed/40654683/index.html"
+}

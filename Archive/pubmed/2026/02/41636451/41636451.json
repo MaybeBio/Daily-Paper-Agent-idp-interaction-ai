@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "pmid": "41636451",
+    "doi": "10.1063/5.0310298",
+    "title": "Association and phase transitions in simple models for biological and soft matter condensates."
+  },
+  "content": {
+    "abstract": "We investigate a set of design principles that link specific features of interparticle interactions to predictable structural and dynamic outcomes in two-dimensional self-assembly, a framework relevant to soft matter and biological condensates. Using extensive molecular dynamics simulations of single- and two-component systems, we systematically dissect how modifications to competing short-range attraction and long-range repulsion (SALR) potentials (both isotropic and anisotropic) serve as independent control parameters. In particular, we have focused on tuning the repulsive barrier height, decorating the attractive well with oscillatory components, and changing particle geometry. We demonstrate that these modifications dictate cluster size distributions, the degree of intra-cluster ordering, the geometry of the clusters, and the propensity for inter-cluster crystallization. A key finding is the decoupling of internal and global dynamics: oscillatory wells promote solid-like order within clusters while maintaining liquid-like cluster mobility. Furthermore, we show how asymmetric interactions in a binary SALR mixture can be designed to induce internal phase segregation within condensates. Complementing this, we observe that in anisotropic models in which the short-range component of the interaction stems from the presence of attractive patchy sites, stoichiometry and the geometric distribution of the patches are essential to control self-assembly and cluster morphology, whereas long-range repulsion can be used to tune cluster size and polydispersity. The extracted principles provide a causal road-map for engineering self-assembled materials and a set of basic physical concepts for interpreting the complex phase behavior of biomolecular condensates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bores, Cecilia",
+        "Diaz-Pozuelo, Antonio",
+        "Lomba, Enrique"
+      ],
+      "short_names": [
+        "Bores C",
+        "Diaz-Pozuelo A",
+        "Lomba E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7359-1556",
+        "ORCID: 0000-0002-8416-092X",
+        "ORCID: 0000-0002-4768-2040"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, Union College, 807 Union Street, Schenectady, New York 12308, USA.",
+        "Instituto de Quimica Fisica Blas Cabrera, CSIC, Madrid, Spain.",
+        "Instituto de Quimica Fisica Blas Cabrera, CSIC, Madrid, Spain.",
+        "Grupo NAFOMAT, Facultade de Fisica, Universidade de Santiago de Compostela, Santiago de Compostela, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bores, Cecilia",
+        "short_name": "Bores C",
+        "identifiers": [
+          "0000-0002-7359-1556"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Union College, 807 Union Street, Schenectady, New York 12308, USA."
+        ]
+      },
+      {
+        "full_name": "Diaz-Pozuelo, Antonio",
+        "short_name": "Diaz-Pozuelo A",
+        "identifiers": [
+          "0000-0002-8416-092X"
+        ],
+        "affiliations": [
+          "Instituto de Química Física Blas Cabrera, CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Lomba, Enrique",
+        "short_name": "Lomba E",
+        "identifiers": [
+          "0000-0002-4768-2040"
+        ],
+        "affiliations": [
+          "Instituto de Química Física Blas Cabrera, CSIC, Madrid, Spain.",
+          "Grupo NAFOMAT, Facultade de Física, Universidade de Santiago de Compostela, Santiago de Compostela, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2026 Feb 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/04 14:12",
+    "fetched_at": "2026-09-18 00:33:39"
+  },
+  "links": {
+    "cites": [
+      "42041496"
+    ],
+    "refs": [],
+    "similar": [
+      "41636451",
+      "40967249",
+      "23912807",
+      "39415718",
+      "40626470",
+      "34140838",
+      "29052681",
+      "35224968",
+      "41169547",
+      "29448794",
+      "24697460",
+      "26434352",
+      "31877947",
+      "15565151",
+      "20365731",
+      "26426932",
+      "40782375",
+      "29347593",
+      "27550538",
+      "41187075",
+      "33607890",
+      "40545646",
+      "28984441",
+      "26234538",
+      "28066850",
+      "32242603",
+      "31780045",
+      "37194953",
+      "40196628",
+      "24735316",
+      "37093781",
+      "20949934",
+      "29876574",
+      "32800925",
+      "40954121",
+      "24981545",
+      "29739225",
+      "40531332",
+      "27775335",
+      "40985078",
+      "40108179",
+      "39896463",
+      "25548830",
+      "40748104",
+      "17930245",
+      "36227469",
+      "37470705",
+      "35317571",
+      "15600578",
+      "35507643",
+      "33951914",
+      "37317997",
+      "36697688",
+      "30182119",
+      "40661423",
+      "41573846",
+      "34784177",
+      "35597639",
+      "38252962",
+      "15903667",
+      "37249470",
+      "40060928",
+      "37013374",
+      "37252985",
+      "32003392",
+      "31437398",
+      "36321557",
+      "36771033",
+      "36993212",
+      "36595668",
+      "22740596",
+      "39007873",
+      "33587081",
+      "37359769",
+      "32482873",
+      "40195695",
+      "23627740",
+      "18189443",
+      "34241377",
+      "35458778",
+      "32844865",
+      "41247218",
+      "30556570",
+      "30927892",
+      "34686039",
+      "36222390",
+      "33959740",
+      "33144560",
+      "25933785",
+      "32571937",
+      "39386700",
+      "29199736",
+      "41021779",
+      "40291420",
+      "33886318",
+      "29199754",
+      "40954776",
+      "32069566",
+      "36164646",
+      "38915484"
+    ],
+    "review": [
+      "41636451",
+      "28984441",
+      "31780045",
+      "32800925",
+      "36321557",
+      "37359769"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0310298",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

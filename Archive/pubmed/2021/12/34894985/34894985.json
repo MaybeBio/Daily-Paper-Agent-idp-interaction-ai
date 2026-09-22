@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "34894985",
+    "doi": "10.1080/14789450.2021.2018304",
+    "title": "Surveying over 100 predictors of intrinsic disorder in proteins."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Intrinsic disorder prediction field develops, assesses, and deploys computational predictors of disorder in protein sequences and constructs and disseminates databases of these predictions. Over 40 years of research resulted in the release of numerous resources. AREAS COVERED: We identify and briefly summarize the most comprehensive to date collection of over 100 disorder predictors. We focus on their predictive models, availability and predictive performance. We categorize and study them from a historical point of view to highlight informative trends. EXPERT OPINION: We find a consistent trend of improvements in predictive quality as newer and more advanced predictors are developed. The original focus on machine learning methods has shifted to meta-predictors in early 2010s, followed by a recent transition to deep learning. The use of deep learners will continue in foreseeable future given recent and convincing success of these methods. Moreover, a broad range of resources that facilitate convenient collection of accurate disorder predictions is available to users. They include web servers and standalone programs for disorder prediction, servers that combine prediction of disorder and disorder functions, and large databases of pre-computed predictions. We also point to the need to address the shortage of accurate methods that predict disordered binding regions.",
+    "keywords": [
+      "CAID",
+      "CASP",
+      "Intrinsically disordered proteins",
+      "deep learning",
+      "intrinsic disorder",
+      "intrinsically disordered regions",
+      "machine learning",
+      "prediction",
+      "predictive performance",
+      "protein function"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "*Computational Biology",
+      "Databases, Protein",
+      "Humans",
+      "*Intrinsically Disordered Proteins",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Bi",
+        "Kurgan, Lukasz"
+      ],
+      "short_names": [
+        "Zhao B",
+        "Kurgan L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7749-0314"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, Virginia, USA.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, Virginia, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Bi",
+        "short_name": "Zhao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, Virginia, USA."
+        ]
+      },
+      {
+        "full_name": "Kurgan, Lukasz",
+        "short_name": "Kurgan L",
+        "identifiers": [
+          "0000-0002-7749-0314"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, Virginia, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Expert review of proteomics"
+    ],
+    "journal_abbrev": [
+      "Expert Rev Proteomics"
+    ],
+    "pub_date": "2021 Dec",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/14 06:00",
+    "fetched_at": "2026-09-20 07:07:30"
+  },
+  "links": {
+    "cites": [
+      "42437078",
+      "41689628",
+      "40728621",
+      "40728619",
+      "40677912",
+      "39833102",
+      "39811792",
+      "39576584",
+      "39576583",
+      "39576581",
+      "38987470",
+      "38765610",
+      "38747347",
+      "38540707",
+      "38213902",
+      "38146538",
+      "37990040",
+      "37933852",
+      "37140058",
+      "36851914",
+      "36139085",
+      "35883444",
+      "35615015",
+      "35356546"
+    ],
+    "refs": [],
+    "similar": [
+      "34894985",
+      "35367597",
+      "28369666",
+      "34290238",
+      "28589442",
+      "37740110",
+      "31870849",
+      "35356546",
+      "33291838",
+      "31521235",
+      "32696351",
+      "38166858",
+      "39237195",
+      "36458437",
+      "30657889",
+      "31504193",
+      "33875885",
+      "38048333",
+      "24573479",
+      "36851914",
+      "38540707",
+      "31616935",
+      "32621220",
+      "32173600",
+      "31642118",
+      "37310199",
+      "26198229",
+      "34487138",
+      "26090958",
+      "34905768",
+      "35883444",
+      "30099775",
+      "28365882",
+      "36334049",
+      "32702119",
+      "29228892",
+      "34480923",
+      "27115638",
+      "27787828",
+      "37621223",
+      "37140058",
+      "23946100",
+      "33381830",
+      "24573480",
+      "32860044",
+      "38213902",
+      "37709009",
+      "30395465",
+      "25935161",
+      "23534882",
+      "30717652",
+      "26287166",
+      "36621533",
+      "34390736",
+      "37246642",
+      "32019410",
+      "29042212",
+      "34418423",
+      "32901090",
+      "31797595",
+      "30871477",
+      "24753228",
+      "30793871",
+      "30866736",
+      "30819075",
+      "21874190",
+      "19585006",
+      "28934129",
+      "32535960",
+      "17158572",
+      "23732563",
+      "23466039",
+      "28011771",
+      "20823312",
+      "24739163",
+      "25534081",
+      "32599863",
+      "33381815",
+      "34025946",
+      "31889261",
+      "23942625",
+      "20100603",
+      "33936509",
+      "27307636",
+      "31326853",
+      "30298407",
+      "22101336",
+      "26230689",
+      "26086829",
+      "27787826",
+      "33660783",
+      "31007871",
+      "33001599",
+      "19128505",
+      "33017101",
+      "27085142",
+      "31383477",
+      "32034199",
+      "22174273",
+      "17391016",
+      "26683124",
+      "34020540",
+      "24587103",
+      "24203321",
+      "38765610",
+      "31329574",
+      "23798504",
+      "27115648",
+      "36250006",
+      "36251522",
+      "36629262",
+      "37138579",
+      "39246251",
+      "35615015",
+      "35402609"
+    ],
+    "review": [
+      "34894985",
+      "35367597",
+      "28589442",
+      "37740110",
+      "35356546",
+      "33291838",
+      "31521235",
+      "30657889",
+      "36851914",
+      "31616935",
+      "25935161",
+      "26287166",
+      "34390736",
+      "34418423",
+      "21874190",
+      "17158572",
+      "23466039",
+      "31007871",
+      "31383477",
+      "32034199",
+      "34020540",
+      "36250006"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/14789450.2021.2018304?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/14789450.2021.2018304",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

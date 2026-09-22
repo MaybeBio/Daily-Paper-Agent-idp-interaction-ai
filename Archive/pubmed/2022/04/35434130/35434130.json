@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "35434130",
+    "doi": "10.1155/2022/2508050",
+    "title": "Determination of B and T Cell Epitopes in Neospora caninum Immune Mapped Protein-1 (IMP-1): Implications in Vaccine Design against Neosporosis."
+  },
+  "content": {
+    "abstract": "Prevention of neosporosis is advantageous for cattle health and productivity. Previously, several vaccine candidates were nominated for vaccination against Neospora caninum. This study was premised on in silico evaluation of N. caninum IMP-1 in order to determine its physicochemical features and immunogenic epitopes. We employed a wide array of network-based tools for the prediction of antigenicity, allergenicity, solubility, posttranslational modification (PTM) sites, physicochemical properties, transmembrane domains and signal peptide, secondary and tertiary structures, and intrinsically disordered regions. Also, prediction and screening of potential continuous B cell peptides and those epitopes having stringent affinity to couple with mouse major histocompatibility complex (MHC) and cytotoxic T lymphocyte (CTL) receptors were accomplished. The protein had 393 residues with a molecular weight of 42.71 kDa, representing aliphatic index of 85.83 (thermotolerant) and GRAVY score of -0.447 (hydrophilic). There were 47 PTM sites without a signal peptide in the sequence. Secondary structure comprised mostly of extended strand and helices, followed by coils. The Ramachandran plot of the refined model showed 90.1%, 9.9%, 0.0%, and 0.0% residues in the favored, additional allowed, generously allowed, and disallowed regions, correspondingly. Additionally, various potential B cell (linear and conformational), CTL, and MHC binding epitopes were predicted for N. caninum IMP-1. The findings of the present study could be further directed for next-generation vaccine design against neosporosis.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Cattle",
+      "Mice",
+      "*Cattle Diseases",
+      "Epitopes, T-Lymphocyte",
+      "*Neospora",
+      "Protein Sorting Signals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nazari, Naser",
+        "Kordi, Bahareh",
+        "Maleki, Bahman",
+        "Shams, Morteza",
+        "Azizi, Esfandiar",
+        "Majidiani, Hamidreza",
+        "Naserifar, Razi"
+      ],
+      "short_names": [
+        "Nazari N",
+        "Kordi B",
+        "Maleki B",
+        "Shams M",
+        "Azizi E",
+        "Majidiani H",
+        "Naserifar R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7989-1536",
+        "ORCID: 0000-0001-7124-4908",
+        "ORCID: 0000-0001-9820-5378",
+        "ORCID: 0000-0001-5568-1366"
+      ],
+      "affiliations": [
+        "Department of Parasitology and Mycology, School of Medicine, Kermanshah University of Medical Sciences, Kermanshah, Iran.",
+        "Department of Basic Medical Sciences, Neyshabur University of Medical Sciences, Neyshabur, Iran.",
+        "Department of Parasitology, Faculty of Medical Sciences, Tarbiat Modares University, Tehran, Iran.",
+        "Zoonotic Diseases Research Center, Ilam University of Medical Sciences, Ilam, Iran.",
+        "Department of Immunology, Faculty of Medicine, Ilam University of Medical Sciences, Ilam, Iran.",
+        "Department of Basic Medical Sciences, Neyshabur University of Medical Sciences, Neyshabur, Iran.",
+        "Zoonotic Diseases Research Center, Ilam University of Medical Sciences, Ilam, Iran."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nazari, Naser",
+        "short_name": "Nazari N",
+        "identifiers": [
+          "0000-0001-7989-1536"
+        ],
+        "affiliations": [
+          "Department of Parasitology and Mycology, School of Medicine, Kermanshah University of Medical Sciences, Kermanshah, Iran."
+        ]
+      },
+      {
+        "full_name": "Kordi, Bahareh",
+        "short_name": "Kordi B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Basic Medical Sciences, Neyshabur University of Medical Sciences, Neyshabur, Iran."
+        ]
+      },
+      {
+        "full_name": "Maleki, Bahman",
+        "short_name": "Maleki B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Parasitology, Faculty of Medical Sciences, Tarbiat Modares University, Tehran, Iran."
+        ]
+      },
+      {
+        "full_name": "Shams, Morteza",
+        "short_name": "Shams M",
+        "identifiers": [
+          "0000-0001-7124-4908"
+        ],
+        "affiliations": [
+          "Zoonotic Diseases Research Center, Ilam University of Medical Sciences, Ilam, Iran."
+        ]
+      },
+      {
+        "full_name": "Azizi, Esfandiar",
+        "short_name": "Azizi E",
+        "identifiers": [
+          "0000-0001-9820-5378"
+        ],
+        "affiliations": [
+          "Department of Immunology, Faculty of Medicine, Ilam University of Medical Sciences, Ilam, Iran."
+        ]
+      },
+      {
+        "full_name": "Majidiani, Hamidreza",
+        "short_name": "Majidiani H",
+        "identifiers": [
+          "0000-0001-5568-1366"
+        ],
+        "affiliations": [
+          "Department of Basic Medical Sciences, Neyshabur University of Medical Sciences, Neyshabur, Iran."
+        ]
+      },
+      {
+        "full_name": "Naserifar, Razi",
+        "short_name": "Naserifar R",
+        "identifiers": [],
+        "affiliations": [
+          "Zoonotic Diseases Research Center, Ilam University of Medical Sciences, Ilam, Iran."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioMed research international"
+    ],
+    "journal_abbrev": [
+      "Biomed Res Int"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/19 06:00",
+    "fetched_at": "2026-09-20 09:50:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34214673",
+      "33599191",
+      "33227673",
+      "33082015",
+      "32916240",
+      "32585955",
+      "32328540",
+      "29844632",
+      "28903024",
+      "26486502",
+      "26298507",
+      "25973393",
+      "25956399",
+      "25028089",
+      "24602874",
+      "23937079",
+      "23276967",
+      "23246675",
+      "22985682",
+      "22405293",
+      "21704458",
+      "21640485",
+      "21347348",
+      "20149793",
+      "19497326",
+      "18789996",
+      "17428888",
+      "16893606",
+      "16753081",
+      "16730126",
+      "16108816",
+      "15325041",
+      "15037103",
+      "15030002",
+      "12741509",
+      "12666725",
+      "12659301",
+      "12437777",
+      "11943223",
+      "11544192",
+      "11166895",
+      "10320620",
+      "10212674",
+      "9770635",
+      "7935608"
+    ],
+    "similar": [
+      "35434130",
+      "35434127",
+      "15731029",
+      "35722460",
+      "37484780",
+      "38318831",
+      "28690279",
+      "37323936",
+      "34425197",
+      "38654954",
+      "15491474",
+      "8735092",
+      "31515150",
+      "18305105",
+      "27512980",
+      "35033847",
+      "24310934",
+      "25028089",
+      "32663606",
+      "25890821",
+      "37312723",
+      "30909148",
+      "23742998",
+      "28903024",
+      "31881363",
+      "34816403",
+      "16108548",
+      "16718512",
+      "28942304",
+      "7496948",
+      "26747583",
+      "34000479",
+      "25747726",
+      "8992315",
+      "32864371",
+      "23435920",
+      "33434702",
+      "16098610",
+      "24681759",
+      "34692826",
+      "34898982",
+      "10647039",
+      "36277884",
+      "28578088",
+      "30822533",
+      "23276967",
+      "23175289",
+      "29080789",
+      "10456423",
+      "33545625",
+      "9717191",
+      "9572050",
+      "28666842",
+      "23659742",
+      "30981301",
+      "35366534",
+      "12761108",
+      "28558839",
+      "28338718",
+      "34427786",
+      "24180373",
+      "33441050",
+      "34239816",
+      "32891167",
+      "12446085",
+      "32350856",
+      "22558916",
+      "30593348",
+      "16041025",
+      "27021922",
+      "25448355",
+      "30878088",
+      "23102762",
+      "24602874",
+      "33628756",
+      "19028014",
+      "24529512",
+      "15524328",
+      "26626124",
+      "17575983",
+      "14729165",
+      "34915205",
+      "12473366",
+      "15325549",
+      "34214673",
+      "30660401",
+      "24269161",
+      "30006392",
+      "17568587",
+      "11731070",
+      "26873272",
+      "28673459",
+      "36560492",
+      "36446219",
+      "33533797",
+      "23692926",
+      "23308179",
+      "34644953",
+      "29417744",
+      "11226451",
+      "11986268",
+      "11138317",
+      "39105194"
+    ],
+    "review": [
+      "35434130",
+      "28690279",
+      "25028089",
+      "28903024",
+      "28942304",
+      "16098610",
+      "28578088",
+      "23276967",
+      "29080789",
+      "10456423",
+      "23659742",
+      "35366534",
+      "24602874",
+      "26626124",
+      "12473366"
+    ],
+    "pmc": [
+      "9010208"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35434130/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35434130",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1155/2022/2508050",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-C-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1612",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.25.690368",
+  "title": "In vitro liquid-liquid phase separation induced by respiratory syncytial virus proteins and RNA",
+  "doi": "10.1101/2025.11.25.690368",
+  "abstract": "Respiratory syncytial virus (RSV) causes severe respiratory infections, with viral replication occurring in cytoplasmic membraneless viral factories formed by liquid-liquid phase separation (LLPS). The interactions between the RSV nucleoprotein N, phosphoprotein P, transcription factor M2-1, and RNA drive these condensates. Here we employed a microfluidic Phase Scan platform, together with biochemical and cellular assays to systematically characterise LLPS involving RSV proteins and RNA. We identified optimal stoichiometric ratios of N oligomers and P tetramers for condensate formation, demonstrated that monomeric N inhibits LLPS, and revealed that M2-1 enhances condensate formation by increasing multivalency. Notably, we discovered that M2-1 preferentially binds 5’ capped RNA, distinguishing it from N, which binds uncapped RNA. These findings elucidate molecular determinants of RSV viral factory assembly and subcompartmentalisation, providing insights into viral replication mechanisms and informing potential antiviral strategies targeting LLPS processes.",
+  "authors": [
+    "Basse V",
+    "Agarwal T",
+    "Sneideris T",
+    "Richard C",
+    "Troussier J",
+    "Vasseur J",
+    "Debart F",
+    "Eléouët J",
+    "de Csillery E",
+    "Knowles T",
+    "Galloux M"
+  ],
+  "published_date": "2025-11-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.25.690368",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.25.690368.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1125120",
+    "raw_record": {
+      "id": "PPR1125120",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1125120"
+        ]
+      },
+      "doi": "10.1101/2025.11.25.690368",
+      "title": "<i>In vitro</i>  liquid-liquid phase separation induced by respiratory syncytial virus proteins and RNA",
+      "authorString": "Basse V, Agarwal T, Sneideris T, Richard C, Troussier J, Vasseur J, Debart F, Eléouët J, de Csillery E, Knowles T, Galloux M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Basse V",
+            "lastName": "Basse",
+            "firstName": "Vincent",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-5311-1120"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Agarwal T",
+            "lastName": "Agarwal",
+            "firstName": "Tanushree",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0001-5270-9420"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Centre for Misfolding Disease, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sneideris T",
+            "lastName": "Sneideris",
+            "firstName": "Tomas",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5285-871X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Centre for Misfolding Disease, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Richard C",
+            "lastName": "Richard",
+            "firstName": "Charles-Adrien",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Troussier J",
+            "lastName": "Troussier",
+            "firstName": "Joris",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vasseur J",
+            "lastName": "Vasseur",
+            "firstName": "Jean-Jacques",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Debart F",
+            "lastName": "Debart",
+            "firstName": "Françoise",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3422-3926"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eléouët J",
+            "lastName": "Eléouët",
+            "firstName": "Jean-François",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Csillery E",
+            "lastName": "de Csillery",
+            "firstName": "Ella",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5917-9349"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Centre for Misfolding Disease, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Knowles T",
+            "lastName": "Knowles",
+            "firstName": "Tuomas",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7879-0140"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Centre for Misfolding Disease, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Galloux M",
+            "lastName": "Galloux",
+            "firstName": "Marie",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5285-871X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5917-9349"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7361-4885"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7879-0140"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3422-3926"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0001-5270-9420"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0005-5311-1120"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Respiratory syncytial virus (RSV) causes severe respiratory infections, with viral replication occurring in cytoplasmic membraneless viral factories formed by liquid-liquid phase separation (LLPS). The interactions between the RSV nucleoprotein N, phosphoprotein P, transcription factor M2-1, and RNA drive these condensates. Here we employed a microfluidic Phase Scan platform, together with biochemical and cellular assays to systematically characterise LLPS involving RSV proteins and RNA. We identified optimal stoichiometric ratios of N oligomers and P tetramers for condensate formation, demonstrated that monomeric N inhibits LLPS, and revealed that M2-1 enhances condensate formation by increasing multivalency. Notably, we discovered that M2-1 preferentially binds 5’ capped RNA, distinguishing it from N, which binds uncapped RNA. These findings elucidate molecular determinants of RSV viral factory assembly and subcompartmentalisation, providing insights into viral replication mechanisms and informing potential antiviral strategies targeting LLPS processes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101001615",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.25.690368"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1125120"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1125120&type=FILE&fileName=EMS211133-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42066094",
+            "reference": "Science advances. 2026 May;12(18):eaee2110",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS211133",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-11-26",
+      "firstPublicationDate": "2025-11-25",
+      "firstIndexDate": "2025-11-26",
+      "fullTextReceivedDate": "2025-12-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

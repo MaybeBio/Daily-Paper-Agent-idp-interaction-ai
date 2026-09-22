@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "38565952",
+    "doi": "10.1038/s44318-024-00090-9",
+    "title": "MolPhase, an advanced prediction algorithm for protein phase separation."
+  },
+  "content": {
+    "abstract": "We introduce MolPhase, an advanced algorithm for predicting protein phase separation (PS) behavior that improves accuracy and reliability by utilizing diverse physicochemical features and extensive experimental datasets. MolPhase applies a user-friendly interface to compare distinct biophysical features side-by-side along protein sequences. By additional comparison with structural predictions, MolPhase enables efficient predictions of new phase-separating proteins and guides hypothesis generation and experimental design. Key contributing factors underlying MolPhase include electrostatic pi-interactions, disorder, and prion-like domains. As an example, MolPhase finds that phytobacterial type III effectors (T3Es) are highly prone to homotypic PS, which was experimentally validated in vitro biochemically and in vivo in plants, mimicking their injection and accumulation in the host during microbial infection. The physicochemical characteristics of T3Es dictate their patterns of association for multivalent interactions, influencing the material properties of phase-separating droplets based on the surrounding microenvironment in vivo or in vitro. Robust integration of MolPhase's effective prediction and experimental validation exhibit the potential to evaluate and explore how biomolecule PS functions in biological systems.",
+    "keywords": [
+      "Effector",
+      "Molecular Condensation",
+      "Phase Separation",
+      "Prediction"
+    ],
+    "mesh_terms": [
+      "*Algorithms",
+      "Bacterial Proteins/chemistry",
+      "*Phase Separation",
+      "Type III Secretion Systems/chemistry",
+      "*Plant Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liang, Qiyu",
+        "Peng, Nana",
+        "Xie, Yi",
+        "Kumar, Nivedita",
+        "Gao, Weibo",
+        "Miao, Yansong"
+      ],
+      "short_names": [
+        "Liang Q",
+        "Peng N",
+        "Xie Y",
+        "Kumar N",
+        "Gao W",
+        "Miao Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1125-0051",
+        "ORCID: 0009-0003-1283-5355",
+        "ORCID: 0000-0003-1551-7873"
+      ],
+      "affiliations": [
+        "School of Physical and Mathematical Sciences, Nanyang Technological University, 637371, Singapore, Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, 637551, Singapore, Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, 637551, Singapore, Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, 637551, Singapore, Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, 637551, Singapore, Singapore.",
+        "School of Physical and Mathematical Sciences, Nanyang Technological University, 637371, Singapore, Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, 637551, Singapore, Singapore. yansongm@ntu.edu.sg.",
+        "Institute for Digital Molecular Analytics and Science, Nanyang Technological University, 636921, Singapore, Singapore. yansongm@ntu.edu.sg."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liang, Qiyu",
+        "short_name": "Liang Q",
+        "identifiers": [
+          "0000-0002-1125-0051"
+        ],
+        "affiliations": [
+          "School of Physical and Mathematical Sciences, Nanyang Technological University, 637371, Singapore, Singapore.",
+          "School of Biological Sciences, Nanyang Technological University, 637551, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Peng, Nana",
+        "short_name": "Peng N",
+        "identifiers": [
+          "0009-0003-1283-5355"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, 637551, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Xie, Yi",
+        "short_name": "Xie Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, 637551, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Kumar, Nivedita",
+        "short_name": "Kumar N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, 637551, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Gao, Weibo",
+        "short_name": "Gao W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical and Mathematical Sciences, Nanyang Technological University, 637371, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Miao, Yansong",
+        "short_name": "Miao Y",
+        "identifiers": [
+          "0000-0003-1551-7873"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, 637551, Singapore, Singapore. yansongm@ntu.edu.sg.",
+          "Institute for Digital Molecular Analytics and Science, Nanyang Technological University, 636921, Singapore, Singapore. yansongm@ntu.edu.sg."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The EMBO journal"
+    ],
+    "journal_abbrev": [
+      "EMBO J"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/03 00:44",
+    "fetched_at": "2026-09-22 01:14:46"
+  },
+  "links": {
+    "cites": [
+      "42632093",
+      "42573943",
+      "42500824",
+      "42466123",
+      "42394372",
+      "42231907",
+      "42184109",
+      "42161921",
+      "42153320",
+      "42120412",
+      "42102188",
+      "42030395",
+      "42018423",
+      "41987292",
+      "41862773",
+      "41406227",
+      "41337585",
+      "41276527",
+      "41250174",
+      "41003226",
+      "40913614",
+      "40867524",
+      "40864652",
+      "40666952",
+      "40593538",
+      "40421658",
+      "40315433",
+      "40315356",
+      "40100133",
+      "40051657",
+      "40016246",
+      "39985377",
+      "39880812",
+      "39660652",
+      "39524631",
+      "39434494"
+    ],
+    "refs": [
+      "37582808",
+      "37148673",
+      "37073403",
+      "37024650",
+      "36972684",
+      "36894693",
+      "36881934",
+      "36603581",
+      "36400991",
+      "36124686",
+      "35787038",
+      "35687670",
+      "35637307",
+      "35610022",
+      "35333653",
+      "35296800",
+      "35168563",
+      "35050625",
+      "35025997",
+      "34726756",
+      "34636323",
+      "34597405",
+      "34265844",
+      "34210966",
+      "34135122",
+      "34108660",
+      "33827920",
+      "33789103",
+      "33723050",
+      "33633378",
+      "33616531",
+      "33597515",
+      "33318217",
+      "33053359",
+      "33020264",
+      "33010236",
+      "32810437",
+      "32788227",
+      "32312191",
+      "32054757",
+      "32029630",
+      "32015543",
+      "31974256",
+      "31974233",
+      "31906602",
+      "31691822",
+      "31612960",
+      "31584089",
+      "31268421",
+      "31264965",
+      "31252218",
+      "30994888",
+      "30846600",
+      "30846599",
+      "29961577",
+      "29944854",
+      "29937223",
+      "29859829",
+      "29602697",
+      "29517898",
+      "29424691",
+      "28935776",
+      "27807972",
+      "27392146",
+      "27056844",
+      "26555096",
+      "24825614",
+      "24697726",
+      "23901099",
+      "23060610",
+      "22667692",
+      "21081222",
+      "18991772",
+      "17108957",
+      "15899963",
+      "15632444",
+      "12928499",
+      "11752249",
+      "11069700",
+      "10592235"
+    ],
+    "similar": [
+      "38565952",
+      "42475469",
+      "42528131",
+      "41987292",
+      "23912807",
+      "40315433",
+      "30908487",
+      "27993130",
+      "41250174",
+      "39164870",
+      "41814089",
+      "32770627",
+      "36009025",
+      "26590402",
+      "31419629",
+      "18452616",
+      "28112271",
+      "42231907",
+      "29921672",
+      "26823466",
+      "33610793",
+      "27777222",
+      "29424691",
+      "42204980",
+      "39178343",
+      "29288457",
+      "19390696",
+      "31195141",
+      "40286852",
+      "29742157",
+      "35139023",
+      "40629388",
+      "40913614",
+      "29641586",
+      "37796176",
+      "37574757",
+      "41457474",
+      "36528065",
+      "40867524",
+      "21233168",
+      "27170435",
+      "23890184",
+      "34346702",
+      "41667449",
+      "35619022",
+      "40675030",
+      "40332227",
+      "20122221",
+      "22558318",
+      "24447430",
+      "30388198",
+      "40300094",
+      "35593869",
+      "19593377",
+      "41947423",
+      "39067723",
+      "36993212",
+      "40794947",
+      "23593149",
+      "42276972",
+      "38997630",
+      "40913271",
+      "21071416",
+      "39248370",
+      "41608769",
+      "28981574",
+      "26269925",
+      "37287138",
+      "42115746",
+      "38029395",
+      "41134048",
+      "40398399",
+      "32753503",
+      "32437799",
+      "33001599",
+      "24405562",
+      "39339640",
+      "39979996",
+      "42427238",
+      "21342579",
+      "39434494",
+      "33750771",
+      "39786355",
+      "42153320",
+      "39566284",
+      "38462838",
+      "39937084",
+      "34809452",
+      "29186295",
+      "32511232",
+      "41055214",
+      "41758121",
+      "38862770",
+      "40615422",
+      "42102067",
+      "37759770",
+      "41310253",
+      "19576777",
+      "40350613",
+      "40984006"
+    ],
+    "review": [
+      "38565952",
+      "41814089",
+      "32770627",
+      "33610793",
+      "42204980",
+      "39178343",
+      "40286852",
+      "27170435",
+      "40675030",
+      "40332227",
+      "42276972",
+      "41608769",
+      "38029395",
+      "39339640",
+      "29186295"
+    ],
+    "pmc": [
+      "11065880"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s44318-024-00090-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38565952/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38565952",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

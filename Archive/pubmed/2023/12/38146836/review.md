@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present a computational-experimental framework for constructing ensembles of membrane-associated intrinsically disordered proteins (IDPs) using membrane paramagnetic relaxation enhancement (mPRE) data. The method accounts for both IDP dynamics and spin probe dynamics, the latter via a weighted 3D grid model from all-atom simulations. The approach is validated on the CD3epsilon cytoplasmic domain (CD3epsilon(CD)) bound to POPG bicelles, yielding ensembles that provide insights into fuzzy IDP-membrane interactions and a proposed regulatory mechanism for TCR signaling based on wild-type and phosphorylation-mimicking mutants.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical results provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation parameters, validation statistics, ensemble convergence criteria, and comparison with alternative methods
+
+## Reviewer
+- **Overall assessment** The abstract describes a technically ambitious and potentially valuable approach to a challenging problem in membrane-associated IDP biophysics. The conceptual advance of explicitly modeling spin probe dynamics in mPRE-based ensemble refinement is noteworthy. However, the abstract alone provides insufficient detail to assess the validity of the method, the robustness of the validation, or the strength of the biological conclusions. The claim of a "delicate membrane regulatory mechanism" for TCR signaling appears to extend beyond what can be supported by the evidence summarized here.
+- **Who would be interested in the results, and why** Researchers in biophysics and structural biology studying IDPs, membrane-protein interactions, and NMR-based ensemble determination. The work may also interest immunologists focused on TCR signaling mechanisms, as well as method developers in paramagnetic NMR and integrative modeling.
+- **Major strengths** The problem addressed is of high significance and technical difficulty. The explicit treatment of spin probe dynamics is a plausible improvement over prior mPRE analyses. The use of a biologically relevant system (CD3epsilon(CD)) with functional mutants adds translational value. The integration of all-atom simulations with experimental restraints is a modern and appropriate strategy.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that the mPRE Gamma(2) rates are "accurately interpreted" by accounting for both IDP and spin probe dynamics, with the latter described by a weighted 3D grid model based on all-atom simulations.  
+  - **Evidence pointer** Abstract, methods description; location not provided  
+  - **Concern** The abstract provides no quantitative validation of the weighted 3D grid model. No metrics are given for how well the grid model reproduces spin probe dynamics from all-atom simulations, nor how sensitive the final ensembles are to the weighting scheme or grid resolution. Without such validation, the claim of "accurate" interpretation is unsupported.  
+  - **Why it matters** The central methodological advance rests on this grid model. If the model introduces systematic errors, all downstream ensemble properties and biological conclusions would be compromised.  
+  - **Resolution test** Provide quantitative comparison between grid-model-predicted and simulation-derived spin probe distributions, including error metrics. Show ensemble robustness to grid resolution and weighting parameters.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that "IDP internal conformations, orientations, and immersion depths in lipid bilayers are comprehensively optimized in the Gamma(2)-based ensemble modeling."  
+  - **Evidence pointer** Abstract, methods description; location not provided  
+  - **Concern** No information is provided on how the ensemble is constructed, what conformational sampling method is used, how many replicas or states are included, how convergence is assessed, or how overfitting is avoided. The term "comprehensively optimized" implies exhaustive sampling, which is rarely achievable for IDPs.  
+  - **Why it matters** Ensemble quality depends critically on sampling completeness and restraint weighting. Without these details, the reliability of the derived ensembles cannot be evaluated.  
+  - **Resolution test** Describe the sampling protocol, ensemble size, convergence criteria, and cross-validation or goodness-of-fit statistics. Demonstrate that the ensemble is not overfit to the mPRE data.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance and claim support  
+  - **Claim pointer** The abstract claims that "comparative analysis of the ensembles for wild-type CD3epsilon(CD) and mutants that mimic the mono- and dual-phosphorylation effects suggests a delicate membrane regulatory mechanism for activation and inhibition of the TCR activity."  
+  - **Evidence pointer** Abstract, results description; location not provided  
+  - **Concern** The abstract provides no specific findings that support this mechanistic claim. No details are given on what differences were observed between wild-type and mutant ensembles, how these differences relate to TCR signaling, or what "delicate" means in quantitative terms. The claim appears to be a significant extrapolation from ensemble differences.  
+  - **Why it matters** This is the primary biological conclusion of the work. If the link between ensemble changes and TCR regulatory function is not rigorously established, the broader significance of the study is diminished.  
+  - **Resolution test** Present specific ensemble metrics (e.g., immersion depth, orientation, conformational populations) that differ between wild-type and mutants, and explicitly connect these differences to known TCR signaling mechanisms with appropriate caveats.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and completeness  
+  - **Claim pointer** The abstract describes the method as "tested and validated" on CD3epsilon(CD) bound to POPG bicelles.  
+  - **Evidence pointer** Abstract, validation description; location not provided  
+  - **Concern** The abstract does not state what the validation is compared against. Is there an independent experimental measure, a known structural ensemble, or a computational benchmark? Without a clear validation standard, "validated" is ambiguous.  
+  - **Why it matters** Validation is essential to establish that the method produces reliable ensembles. An unclear validation standard weakens confidence in the approach.  
+  - **Resolution test** Specify the validation reference (e.g., independent NMR observables, mutagenesis data, or comparison with published ensembles) and report quantitative agreement metrics.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract, methods description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "weighted three-dimensional (3D) grid model" is introduced without a brief explanation of its purpose or construction, which may confuse readers unfamiliar with spin label modeling.  
+  - **Required correction** Add one sentence clarifying that the grid model discretizes the spin probe distribution around the membrane to compute ensemble-averaged mPRE rates.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness of reporting  
+  - **Affected element** Abstract, results description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not mention the number of mutants studied or the specific phosphorylation sites mimicked, which is relevant for interpreting the regulatory mechanism claim.  
+  - **Required correction** Specify the number and identity of the mutants (e.g., Y-to-E substitutions at specific positions) in the abstract.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract, methods description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that "both the dynamics of IDPs and spin probe molecules are taken into account," but does not specify how IDP dynamics are modeled (e.g., ensemble averaging, motional narrowing regime assumptions).  
+  - **Required correction** Briefly state the treatment of IDP dynamics (e.g., conformational averaging within the ensemble) to clarify the theoretical framework.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (grid model validation), R1-M2 (ensemble construction and convergence), R1-M3 (biological claim support), R1-M4 (validation standard)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The approach of explicitly modeling spin probe dynamics in mPRE-based ensemble refinement appears novel and potentially impactful. However, the abstract does not clearly differentiate this from prior mPRE studies on IDPs, so the degree of novelty is not fully established.  
+  - **Scientific importance** The problem of characterizing membrane-associated IDP ensembles is of high importance in both biophysics and cell signaling. The potential to link ensemble properties to TCR regulatory function is significant, but the current evidence is insufficient to confirm this importance is realized.  
+  - **Interdisciplinary readership** The work bridges NMR spectroscopy, molecular simulation, and immunology, which could attract a broad readership. However, the abstract is written in a specialized manner that may limit accessibility.  
+  - **Technical soundness** The methodological framework is plausible, but the abstract provides insufficient detail to assess technical rigor. Key validation and convergence aspects are unaddressed.  
+  - **Readability for nonspecialists** The abstract is dense and assumes familiarity with mPRE, IDP ensemble modeling, and TCR biology. It would benefit from clearer contextualization of the problem and the methodological innovation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising approach, but the lack of methodological detail, validation metrics, and specific biological findings prevents assessment of whether the claims are supported. A full manuscript review would be required to determine if the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim of "accurate interpretation" of mPRE Gamma(2) rates is unsupported without quantitative validation of the grid model.
+- The claim of "comprehensive optimization" of IDP conformations, orientations, and immersion depths is unverifiable without details on sampling and convergence.
+- The proposed "delicate membrane regulatory mechanism" for TCR activity is unsupported by the abstract, as no specific ensemble differences or functional links are provided.
+- The statement that the method is "tested and validated" is ambiguous without a defined validation standard or comparison metrics.

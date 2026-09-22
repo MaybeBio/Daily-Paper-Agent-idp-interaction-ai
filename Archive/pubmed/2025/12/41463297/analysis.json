@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41463297",
+  "title": "Definition and Discovery of Tandem SH3-Binding Motifs Interacting with Members of the p47(phox)-Related Protein Family.",
+  "authors": "Kalman, Zsofia E; Lazar, Tamas; Dobson, Laszlo; Pancsa, Rita",
+  "journal": "Biomolecules",
+  "published_date": "2025-12-30",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文整合数据挖掘与结构预测，系统定义并发现与p47(phox)相关蛋白家族串联SH3结构域互作的短线性基序(SLiM)，虽对象非IDP，但聚焦PPI结合基序的机制建模与预测，方法可迁移至IDR介导互作研究。",
+  "abstract": "SH3 domains are widespread protein modules that mostly bind to proline-rich short linear motifs (SLiMs). Most known SH3 domain-motif interactions and canonical or non-canonical recognition specificities are described for individual SH3 domains. Although cooperation and coordinated motif binding between tandem SH3 domains has already been described for members of the p47(phox)-related protein family, individual cases have never been collected and analyzed collectively, which precluded the definition of the binding preferences and targeted discovery of further instances. Here, we apply an integrative approach that includes data collection, curation, bioinformatics analyses and state-of-the-art structure prediction methods to fill these gaps. A search of the human proteome with the sequence signatures of SH3 tandemization and follow-up structure analyses suggest that SH3 tandemization could be specific for this family. We define the optimal binding preference of tandemly arranged SH3 domains as [PAVIL]PPR[PR][;DE][;DE] and propose potential new instances of this SLiM among the family members and their binding partners. Structure predictions suggest the possibility of a novel, reverse binding mode for certain motif instances. In all, our comprehensive analysis of this unique SH3 binding mode enabled the identification of novel, interesting tandem SH3-binding motif candidates with potential therapeutic relevance.",
+  "abstract_zh": "SH3结构域是广泛存在的蛋白质模块，主要结合富含脯氨酸的短线性基序（SLiMs）。大多数已知的SH3结构域-基序相互作用及经典或非经典识别特异性是针对单个SH3结构域描述的。尽管串联SH3结构域之间的协同作用和协调基序结合已在p47(phox)相关蛋白家族成员中得到描述，但个别案例从未被系统收集和综合分析，这阻碍了结合偏好的定义及进一步实例的靶向发现。在此，我们采用一种整合方法，包括数据收集、整理、生物信息学分析和最先进的结构预测方法，以填补这些空白。通过人类蛋白质组中SH3串联化序列特征搜索及后续结构分析表明，SH3串联化可能对该家族具有特异性。我们将串联排列的SH3结构域的最佳结合偏好定义为[PAVIL]PPR[PR][;DE][;DE]，并提出该SLiM在家族成员及其结合伙伴中的潜在新实例。结构预测提示某些基序实例可能存在一种新颖的反向结合模式。总体而言，我们对这种独特SH3结合模式的全面分析，使得识别具有潜在治疗相关性的新型、有趣的串联SH3结合基序候选成为可能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41463297/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41463297/",
+  "paper_page_path": "papers/pubmed/41463297/index.html"
+}

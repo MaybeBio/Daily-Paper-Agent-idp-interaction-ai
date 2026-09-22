@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.29.630664",
+  "title": "Fertilization triggers cytosolic functions and P-body recruitment of the RNA-binding protein Mei2 to drive fission yeast zygotic development",
+  "authors": "Araoyinbo A; Salat-Canela C; Vještica A",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-29",
+  "window": {
+    "start": "2024-12-23",
+    "end": "2024-12-29"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究裂殖酵母RNA结合蛋白Mei2在胞质P-body中抑制翻译并驱动合子发育，涉及RNA颗粒（P-body）介导的RNA调控，但对象为折叠蛋白且无AI/物理模拟方法，仅部分相关于无序蛋白介导的互作机制建模。",
+  "abstract": "<h4>ABSTRACT</h4> Compartmentalized regulation of RNAs is emerging as a key driver of developmental transitions, with RNA-binding proteins performing specialized functions in different subcellular compartments. The RNA-binding protein Mei2, which arrests mitotic proliferation and drives zygotic development in fission yeast, was shown to function in the nucleus to trigger meiotic divisions. Here, using compartment-restricted alleles, we report that Mei2 functions in the cytosol to arrest mitotic growth and initiate development. We find that Mei2 is a zygote-specific component of P-bodies that inhibits the translation of tethered mRNAs. Importantly, we show that P-bodies are necessary for Mei2-driven development. Phosphorylation of Mei2 by the inhibitory Pat1 kinase impedes P-body recruitment of both Mei2 and its target RNA. Finally, we establish that Mei2 recruitment to P-bodies and its cytosolic functions, including translational repression of tethered RNAs, depend on the RNA-binding domain of Mei2 that is dispensable for nuclear Mei2 roles. Collectively, our results dissect how distinct pools of an RNA-binding protein control developmental stages and implicate P-bodies as key regulators of gamete-to-zygote transition.",
+  "abstract_zh": "<h4>摘要</h4> RNA的区室化调控正逐渐成为发育转变的关键驱动因素，其中RNA结合蛋白在不同亚细胞区室中执行专门功能。RNA结合蛋白Mei2在裂殖酵母中能阻止有丝分裂增殖并驱动合子发育，此前研究表明其在细胞核中发挥作用以触发减数分裂。在此，我们利用区室限制性等位基因，报道Mei2在细胞质中发挥作用以阻止有丝分裂生长并启动发育。我们发现Mei2是P小体（P-bodies）的合子特异性组分，能抑制系连mRNA的翻译。重要的是，我们证明P小体对于Mei2驱动的发育是必需的。抑制性Pat1激酶对Mei2的磷酸化阻碍了Mei2及其靶RNA向P小体的募集。最后，我们确定Mei2向P小体的募集及其细胞质功能（包括对系连RNA的翻译抑制）依赖于Mei2的RNA结合结构域，而该结构域对于Mei2的核功能并非必需。总体而言，我们的结果解析了RNA结合蛋白的不同亚群如何控制发育阶段，并暗示P小体是配子到合子转变的关键调节因子。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.29.630664",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.29.630664",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.29.630664/index.html"
+}

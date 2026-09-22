@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors apply a surface complementarity function, inspired by the jigsaw puzzle model of protein folding, to predict the hydrophobic core of cyclophilin (LdCyp) from *Leishmania donovani*. Two designed sequences (one with native non-core residues and core residues set to alanine, one poly-glycine) were tested computationally and experimentally. Molecular dynamics simulations suggested partial destabilization, but experimental characterization (CD spectroscopy and GdmCl-induced unfolding) showed disordered proteins. Stepwise reconstruction identified mutation M122L as responsible for fold collapse, and rectifying this mutation achieved all design objectives. The authors conclude that specific core regions contain highly sensitive jigsaw puzzle-like interactions, that a predictive algorithm can identify such regions, and that M122L exerts a disproportionate influence on the global fold, reminiscent of metamorphic proteins.
+- **Visible evidence base** Abstract text only; no experimental data, simulation details, sequence information, or structural coordinates provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods descriptions, simulation parameters, experimental protocols, statistical analyses, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially valuable application of a surface complementarity approach to core prediction, with a notable experimental validation component. However, the evidence base available for review is limited to the abstract, which precludes rigorous evaluation of the methodology, data quality, and robustness of the conclusions. The central claims, particularly regarding the predictive power of the algorithm and the specific role of M122L, are plausible but not verifiable from the supplied material. The work may be of interest to protein folding and protein design researchers, but the case is not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in protein folding, protein design, and computational structural biology would be interested in the application of a jigsaw puzzle-inspired surface complementarity function for core prediction. Those studying metamorphic proteins or single mutations with disproportionate effects on fold stability would also find the M122L finding relevant. The work could inform future efforts in core prediction and design, particularly for proteins with known main-chain coordinates.
+- **Major strengths** The study combines computational prediction with experimental validation, which is a strong approach for testing design hypotheses. The identification of a single mutation (M122L) that restores foldability is a clear and actionable finding. The use of multiple design scenarios (native non-core with alanine core, poly-glycine) provides some breadth to the computational testing. The connection to the jigsaw puzzle model offers a conceptual framework that may be useful for interpreting core specificity.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The computational core prediction method can predict substantial regions of the core given main-chain coordinates without reference to non-core residues.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that the computational procedure could predict substantial regions of the core, but no quantitative metrics are provided, such as the fraction of core residues correctly predicted, comparison to known cores, or statistical significance. Without these details, the accuracy and utility of the method cannot be assessed.
+  - **Why it matters** The central claim of the paper is that the method has predictive value. If the prediction accuracy is not quantified or benchmarked, the claim is unsupported and the method's practical applicability remains unclear.
+  - **Resolution test** Provide quantitative prediction accuracy metrics (e.g., Matthews correlation coefficient, recall, precision) for core residue prediction, ideally benchmarked against known structures or alternative methods, in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Molecular dynamics simulations appeared to indicate partial destabilization of the two designed sequences, but experimental characterization demonstrated disordered proteins.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a discrepancy between simulation predictions (partial destabilization) and experimental results (disordered proteins). The nature and extent of this discrepancy are not explained. It is unclear whether the simulations failed to capture the extent of destabilization, whether the experimental conditions differed, or whether the simulation metrics were inappropriate.
+  - **Why it matters** A mismatch between computational predictions and experimental outcomes undermines confidence in the predictive power of the method. Understanding this discrepancy is essential for evaluating the reliability of the computational approach.
+  - **Resolution test** Provide a detailed comparison of simulation and experimental results, including specific metrics (e.g., RMSD, radius of gyration, secondary structure content) and a discussion of possible reasons for the discrepancy, in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** A mutation within the core has been identified which exercises an inordinate influence on the global fold, reminiscent of metamorphic proteins.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim that M122L has an "inordinate influence" and is "reminiscent of metamorphic proteins" is a strong interpretation. The abstract does not provide evidence for metamorphic behavior, such as conformational switching between distinct folds under different conditions. The observed effect may be a specific destabilizing mutation rather than evidence of metamorphism.
+  - **Why it matters** Overinterpretation of a single mutation's effect could mislead readers about the protein's biophysical behavior and the broader implications for metamorphic proteins. The claim needs to be carefully qualified based on the actual experimental data.
+  - **Resolution test** Clarify in the full manuscript whether the M122L effect is specific to this protein or generalizable, and provide evidence for or against metamorphic behavior, such as structural or functional switching assays.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses terms such as "surface complementarity function" and "jigsaw puzzle model" without brief definitions, which may hinder nonspecialist readers.
+  - **Required correction** Add a brief explanatory phrase for these terms, such as "a geometric measure of how well hydrophobic side-chain surfaces fit together" for the surface complementarity function.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Experimental characterization
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions CD spectroscopy and GdmCl-induced unfolding but does not specify the conditions (e.g., temperature, pH, denaturant concentration range) or the quantitative readouts (e.g., CD signal at 222 nm, midpoint of unfolding).
+  - **Required correction** Provide key experimental conditions and quantitative results in the full manuscript, and summarize them briefly in the abstract if space permits.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the biological or therapeutic relevance of LdCyp, which may reduce interest from readers outside structural biology.
+  - **Required correction** Add a sentence on the functional importance of LdCyp (e.g., its role in *Leishmania donovani* biology) to broaden the appeal.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (prediction accuracy not quantified), R1-M2 (simulation-experiment discrepancy unexplained), R1-M3 (overinterpretation of M122L effect)
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of a jigsaw puzzle-inspired surface complementarity function to core prediction is somewhat novel, but similar geometric complementarity approaches exist in the literature. The originality is moderate.
+  - Scientific importance: The work addresses a fundamental question in protein folding, but the significance of the findings, particularly the M122L effect, is not fully established from the abstract. The importance is moderate.
+  - Interdisciplinary readership: The work is primarily of interest to structural biologists and protein designers. The abstract does not clearly connect to broader biological or medical relevance, limiting interdisciplinary appeal.
+  - Technical soundness: The technical soundness cannot be fully assessed from the abstract. The discrepancy between simulations and experiments raises concerns, and the lack of quantitative prediction metrics is a significant gap.
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terms without definition, which may hinder nonspecialist readers.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting approach and a potentially important finding, but the lack of quantitative details and the unexplained simulation-experiment discrepancy prevent a supportive recommendation. The case could be established if the full manuscript addresses the major concerns.
+
+## Risk / unsupported claims
+- The claim that the computational procedure can predict substantial regions of the core is unsupported without quantitative accuracy metrics.
+- The claim that M122L exercises an "inordinate influence" and is "reminiscent of metamorphic proteins" is unsupported from the abstract alone.
+- The claim that "all design objectives were achieved" upon rectifying M122L is not verifiable without specific design criteria and experimental data.
+- The discrepancy between simulation and experimental results is not explained, making the reliability of the computational predictions unassessable.

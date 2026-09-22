@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and body as provided)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and presentation as described in the supplied text
+- **Shared manuscript claim summary** The authors report the discovery of a novel family of effector proteins in rust fungi that share structural homology with plant Kiwellin proteins despite low sequence similarity. They identify over 100 such candidates in rust pathogens, characterize one candidate (Pstr_13960) from *Puccinia striiformis* f. sp. *tritici* race Yr9, and demonstrate its ability to suppress BAX-induced cell death, localize to chloroplasts, and interact with plant chorismate mutases. They propose that intrinsically disordered regions in rust Kiwellin-like effectors (KLEs) represent a structural evolution from plant Kiwellins.
+- **Visible evidence base** The provided text includes descriptions of computational predictions (homology, ab initio, AlphaFold/RosettaFold), experimental validation in *Nicotiana benthamiana* (overexpression, localization, deletion studies, BAX cell death suppression), and molecular docking. No figures, tables, or detailed methods are included in the supplied material.
+- **Missing materials affecting confidence** Figures, tables, detailed experimental protocols, statistical analyses, sequence alignments, structural models, docking scores, and raw data are not provided. The absence of these materials limits verification of the computational and experimental claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an intriguing hypothesis that rust fungi have evolved effector proteins structurally mimicking plant Kiwellins despite negligible sequence conservation. The combination of structural prediction and functional assays is commendable. However, the evidence as presented is insufficient to fully establish the core claims. Key limitations include the lack of detailed structural validation, incomplete experimental controls, and the absence of quantitative data for key findings such as docking interactions and cell death suppression. The work has potential interest for the plant-microbe interaction community, but the current evidence base does not fully support the broad conclusions drawn.
+- **Who would be interested in the results, and why** Researchers studying plant-pathogen interactions, effector biology, fungal virulence mechanisms, and protein structural evolution would find this work relevant. The proposed KLE family could offer new targets for understanding rust fungal pathogenesis and potentially inform resistance breeding strategies. The structural mimicry concept may also interest evolutionary biologists examining convergent evolution at the protein fold level.
+- **Major strengths** The study addresses an underexplored area by focusing on structural conservation rather than sequence similarity, which is a novel approach for effector discovery. The use of multiple computational methods (homology, ab initio, AlphaFold/RosettaFold) adds methodological breadth. The functional characterization of Pstr_13960, including localization and cell death suppression, provides initial experimental support. The identification of KLEs beyond rusts suggests broader biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Pstr_13960 suppresses BAX-induced cell death and localizes to chloroplasts based on overexpression studies in *N. benthamiana*.
+  - **Evidence pointer** Experimental section (location not provided)
+  - **Concern** The description of the cell death suppression assay lacks critical details, including the concentration of *Agrobacterium* used, the timing of observation, the quantification method (e.g., ion leakage or visual scoring), and the inclusion of appropriate positive and negative controls (e.g., a known suppressor and an empty vector). Similarly, the localization study does not specify whether the observed chloroplast localization was confirmed by co-localization with a chloroplast marker or whether the signal was exclusive to chloroplasts.
+  - **Why it matters** Without rigorous controls and quantification, the functional claims of cell death suppression and subcellular localization cannot be reliably distinguished from artifacts of overexpression or autofluorescence. These are central to the paper's conclusion that Pstr_13960 is a functional effector.
+  - **Resolution test** Provide detailed methods with statistical analysis of cell death suppression (e.g., mean and standard error from at least three independent replicates), include a known suppressor as a positive control, and confirm chloroplast localization using a co-expressed chloroplast-targeted fluorescent marker with confocal microscopy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular docking shows Pstr_13960 can interact with plant chorismate mutases (CMs) via three conserved loops.
+  - **Evidence pointer** Molecular docking section (location not provided)
+  - **Concern** The docking analysis is described only qualitatively. No docking scores, binding affinities, or statistical significance are reported. The selection of the three loops as interaction sites is not justified with structural evidence, and no experimental validation (e.g., co-immunoprecipitation or yeast two-hybrid) is provided to support the predicted interaction.
+  - **Why it matters** The proposed interaction with CMs is a key mechanistic claim that links the effector to a potential host target. Without quantitative docking data or experimental confirmation, this remains speculative and does not establish a functional relevance.
+  - **Resolution test** Report docking scores (e.g., binding energy) with confidence intervals, provide structural models showing the interaction interface, and validate the interaction using an independent biochemical assay such as pull-down or co-IP.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and scientific importance
+  - **Claim pointer** The authors claim that the presence of intrinsically disordered regions (IDRs) in place of the N-terminal beta1/beta2 region suggests evolution of rust KLEs from plant Kiwellins.
+  - **Evidence pointer** Structural analysis section (location not provided)
+  - **Concern** The evolutionary inference is based solely on structural comparison and the presence of IDRs. No phylogenetic analysis, sequence conservation data, or functional comparison with plant Kiwellins is provided to support the claim of evolutionary descent or divergence. The term "evolution" implies a historical relationship that cannot be established from structural similarity alone.
+  - **Why it matters** The evolutionary narrative is a major conceptual contribution of the paper. Without robust phylogenetic or comparative genomic evidence, the claim is overreaching and may mislead readers about the origins of KLEs.
+  - **Resolution test** Conduct a phylogenetic analysis of KLEs and plant Kiwellins using appropriate outgroups, and discuss alternative explanations (e.g., convergent evolution) with supporting data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** First paragraph (location not provided)
+  - **Issue** The opening statement about effector proteins is overly general and does not provide sufficient context for readers unfamiliar with the field. The transition from sequence diversity to structural conservation is abrupt.
+  - **Required correction** Expand the introduction to briefly define effectors, explain why structural conservation is a useful discovery approach, and clearly state the gap in knowledge being addressed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Computational prediction section (location not provided)
+  - **Issue** The criteria for selecting the 16 fungal pathogens and the threshold for "unannotated candidate secretory effector proteins" are not described. The confidence levels for structural predictions (e.g., pLDDT scores for AlphaFold) are not reported.
+  - **Required correction** Specify the selection criteria, the prediction confidence thresholds, and the number of candidates identified at each step to allow reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Results
+  - **Evidence pointer** Kiwellin identification section (location not provided)
+  - **Issue** The statement that ">100" Kiwellin-like proteins were found is not accompanied by a distribution across the studied rust species or a statistical comparison to non-rust fungi, which would strengthen the claim of enrichment.
+  - **Required correction** Provide a table or figure showing the number of KLEs per species and a statistical test (e.g., Fisher's exact test) comparing rusts to other fungi.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of experimental controls and quantification), R1-M2 (unvalidated docking predictions), R1-M3 (unsupported evolutionary inference)
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of structural mimicry of host proteins by fungal effectors is not entirely new, but the specific focus on Kiwellin-like folds in rusts is a novel angle. However, the originality is diminished by the lack of robust evidence distinguishing this from sequence-based discovery.  
+  - Scientific importance: If validated, the KLE family could have significant implications for understanding rust pathogenesis and effector evolution. The potential interaction with chorismate mutases is interesting but unproven.  
+  - Interdisciplinary readership: The work bridges structural biology, plant pathology, and evolutionary biology, which could attract a broad audience. However, the technical presentation may limit accessibility.  
+  - Technical soundness: The computational approach is reasonable, but the experimental validation is incomplete, and the docking analysis lacks rigor. The absence of detailed methods and data undermines confidence.  
+  - Readability for nonspecialists: The text is generally clear but assumes familiarity with effector biology and structural prediction. The abstract is concise but could benefit from a clearer statement of the main finding and its significance.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the core claims require substantial additional data and analysis. I would be supportive if the technical concerns are resolved, particularly the experimental validation of cell death suppression, localization, and the docking interaction, as well as a more rigorous evolutionary analysis.
+
+## Risk / unsupported claims
+- The claim that Pstr_13960 suppresses BAX-induced cell death is unsupported due to lack of quantitative data and controls.
+- The claim of chloroplast localization is unsupported without co-localization evidence.
+- The predicted interaction with chorismate mutases is unsupported without docking scores or experimental validation.
+- The evolutionary inference from IDRs is unsupported without phylogenetic analysis.
+- The statement that KLEs are "extensively present" in rust fungi is not statistically substantiated.
+- The functional significance of the Kiwellin core fold in rust fungi is speculative based on the provided data.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36699404",
+  "title": "PSICalc: a novel approach to identifying and ranking critical non-proximal interdependencies within the overall protein structure.",
+  "authors": "Townsley, Thomas D; Wilson, James T; Akers, Harrison; Bryant, Timothy; Cordova, Salvador; Wallace, T L; Durston, Kirk K; Deweese, Joseph E",
+  "journal": "Bioinformatics advances",
+  "published_date": "2023-01-27",
+  "window": {
+    "start": "2023-01-23",
+    "end": "2023-01-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发PSICalc工具，通过MSA模式发现识别并排序蛋白质内非邻近关键互依位点（含无序蛋白），虽非直接PPI建模，但为IDR介导的互作机制提供可迁移的序列共进化分析方法。",
+  "abstract": "MOTIVATION: AlphaFold has been a major advance in predicting protein structure, but still leaves the problem of determining which sub-molecular components of a protein are essential for it to carry out its function within the cell. Direct coupling analysis predicts two- and three-amino acid contacts, but there may be essential interdependencies that are not proximal within the 3D structure. The problem to be addressed is to design a computational method that locates and ranks essential non-proximal interdependencies within a protein involving five or more amino acids, using large, multiple sequence alignments (MSAs) for both globular and intrinsically unstructured proteins. RESULTS: We developed PSICalc (Protein Subdomain Interdependency Calculator), a laptop-friendly, pattern-discovery, bioinformatics software tool that analyzes large MSAs for both structured and unstructured proteins, locates both proximal and non-proximal inter-dependent sites, and clusters them into pairwise (second order), third-order and higher-order clusters using a k-modes approach, and provides ranked results within minutes. To aid in visualizing these interdependencies, we developed a graphical user interface that displays these subdomain relationships as a polytree graph. To demonstrate, we provide examples of both proximal and non-proximal interdependencies documented for eukaryotic topoisomerase II including between the unstructured C-terminal domain and the N-terminal domain. AVAILABILITY AND IMPLEMENTATION: https://github.com/jdeweeselab/psicalc-package. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics Advances online.",
+  "abstract_zh": "动机：AlphaFold在预测蛋白质结构方面取得了重大进展，但仍未解决确定蛋白质中哪些亚分子组分对其在细胞内执行功能至关重要的难题。直接耦合分析预测二氨基酸和三氨基酸接触，但可能存在在三维结构中不邻近的关键相互依赖关系。待解决的问题是设计一种计算方法，利用大型多序列比对（MSAs），针对球状蛋白和本质无序蛋白，定位并排序蛋白质内涉及五个或更多氨基酸的非邻近关键相互依赖关系。结果：我们开发了PSICalc（蛋白质亚结构域相互依赖计算器），一种适合笔记本电脑使用的模式发现生物信息学软件工具，可分析结构和非结构蛋白的大型MSAs，定位邻近和非邻近的相互依赖位点，并使用k-modes方法将其聚类为成对（二阶）、三阶及更高阶簇，并在数分钟内提供排序结果。为辅助可视化这些相互依赖关系，我们开发了一个图形用户界面，以多树图形式展示这些亚结构域关系。为演示，我们提供了真核拓扑异构酶II中记录的邻近和非邻近相互依赖示例，包括无序C端结构域与N端结构域之间的相互依赖。可用性和实现：https://github.com/jdeweeselab/psicalc-package。补充信息：补充数据可在Bioinformatics Advances在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36699404/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36699404/",
+  "paper_page_path": "papers/pubmed/36699404/index.html"
+}

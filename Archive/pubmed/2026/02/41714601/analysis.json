@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41714601",
+  "title": "Structural organization of HBV pgRNA genome driven by phase separation in capsid confinement.",
+  "authors": "Bian, Yunqiang; Pan, Hai; Mao, Jiaqi; He, Yixin; Wang, Yanwei; Cao, Yi; Li, Wenfei; Wang, Wei",
+  "journal": "Nature communications",
+  "published_date": "2026-02-20",
+  "window": {
+    "start": "2026-02-16",
+    "end": "2026-02-22"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过多尺度分子动力学模拟揭示HBV pgRNA在衣壳内由无序衣壳蛋白C端结构域驱动液-液相分离形成壳状凝聚体并调控基因组结构与聚合酶动态，直接命中无序蛋白介导的PPI、相分离与物理模拟机制建模，高度契合本课题。",
+  "abstract": "Viruses rely on the precise packaging of their genomes within a capsid to execute essential life-cycle events, yet the principles governing genome structural organization in this confined environment remain elusive. Here, we reveal that hepatitis B virus (HBV) pregenomic RNA (pgRNA) exploits liquid-liquid phase separation (LLPS) inside the capsid to sculpt its architecture. Multiscale molecular dynamics (MD) simulations, supplemented by biochemical assays, show that pgRNA coalesces into a hollow, shell-like condensate along the inner capsid surface, with coexisting low- and high-density regions. Electrostatic interactions between pgRNA and the disordered C-terminal domain of capsid protein primarily govern condensate formation. LLPS drives the establishment of microphases composed of nematically aligned RNA hairpin arrays interspersed by domains rich in flexible single-stranded RNA linkers, achieving an optimal balance between structural order and dynamic flexibility. Intriguingly, although the ensemble-averaged pgRNA density exhibits icosahedral symmetry, individual simulation snapshots display pronounced heterogeneity, indicating symmetry breaking at the single-particle level. In addition, LLPS-induced hollow-shell architecture of pgRNA genome promotes long-range RNA base-pairing and enhances polymerase mobility, which may facilitate the functional dynamics of polymerase during reverse transcription. Our findings uncover a capsid-confined LLPS mechanism that orchestrates viral genome structure and dynamics, offering new targets for antiviral intervention.",
+  "abstract_zh": "病毒依赖于其基因组在衣壳内的精确包装以执行关键的生命周期事件，然而在这一受限环境中控制基因组结构组织的原理仍难以捉摸。在此，我们揭示乙型肝炎病毒（hepatitis B virus, HBV）前基因组RNA（pregenomic RNA, pgRNA）利用衣壳内的液-液相分离（liquid-liquid phase separation, LLPS）来塑造其结构。多尺度分子动力学（molecular dynamics, MD）模拟，辅以生化实验，表明pgRNA沿衣壳内表面凝聚成一个中空的壳状凝聚体，并伴有低密度和高密度区域共存。pgRNA与衣壳蛋白无序C端结构域之间的静电相互作用主要调控凝聚体的形成。LLPS驱动微相结构的建立，这些微相由向列排列的RNA发夹阵列组成，其间散布着富含柔性单链RNA连接子的区域，从而实现结构有序性与动态灵活性之间的最佳平衡。有趣的是，尽管系综平均的pgRNA密度表现出二十面体对称性，但单个模拟快照显示出显著异质性，表明在单颗粒水平上存在对称性破缺。此外，LLPS诱导的pgRNA基因组中空壳层结构促进了长程RNA碱基配对并增强了聚合酶移动性，这可能有助于逆转录过程中聚合酶的功能动态。我们的发现揭示了一种衣壳限制的LLPS机制，该机制协调病毒基因组的结构与动态，为抗病毒干预提供了新靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41714601/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41714601/",
+  "paper_page_path": "papers/pubmed/41714601/index.html"
+}

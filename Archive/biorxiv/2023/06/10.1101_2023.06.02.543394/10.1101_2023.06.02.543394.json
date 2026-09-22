@@ -1,0 +1,318 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.02.543394",
+  "title": "Silk Road Revealed: Mechanism of silk fibre formation in Bombyx mori",
+  "doi": "10.1101/2023.06.02.543394",
+  "abstract": "The transition of silk fibroin from liquid to solid is fundamental to silk-fibre production and key to the superior materials properties of native silks. Here we discover that the fibroin heavy chain from the silkworm moth Bombyx mori folds into a novel β-solenoid structure, where the N-terminal domain (NTD) promotes higher-order oligomerization driven by pH reduction. These findings elucidate the complex rheological behaviour of silk and the liquid crystalline textures within the silk gland. We also find that NTD undergoes hydrolysis during standard regeneration, explaining differences between native and regenerated silk feedstocks. Overall, this study establishes a fibroin heavy chain fold, which could be relevant for other similar proteins, and explains mechanistically its liquid-to-solid transition, driven by pH reduction and stress. <h4>One sentence summary</h4> This study redefines the molecular structure of fibroin heavy chain and its role in the transition from solution to fibre.",
+  "authors": [
+    "Moreno-Tortolero R",
+    "Luo Y",
+    "Parmeggiani F",
+    "Skaer N",
+    "Walker R",
+    "Serpell L",
+    "Holland C",
+    "Davis S"
+  ],
+  "published_date": "2023-06-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.02.543394",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.02.543394.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR670203",
+    "raw_record": {
+      "id": "PPR670203",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR670203"
+        ]
+      },
+      "doi": "10.1101/2023.06.02.543394",
+      "title": "Silk Road Revealed: Mechanism of silk fibre formation in  <i>Bombyx mori</i>",
+      "authorString": "Moreno-Tortolero R, Luo Y, Parmeggiani F, Skaer N, Walker R, Serpell L, Holland C, Davis S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Moreno-Tortolero R",
+            "lastName": "Moreno-Tortolero",
+            "firstName": "R.O.",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1413-3344"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Bristol; Cantock’s Close, Bristol BS8 1TS, UK"
+                },
+                {
+                  "affiliation": "Max Planck-Bristol Centre for Minimal Biology, School of Chemistry, University of Bristol; Bristol, BS8 1TS, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Luo Y",
+            "lastName": "Luo",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6760-4253"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biochemistry, University of Bristol; University Walk, Bristol BS8 1TD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parmeggiani F",
+            "lastName": "Parmeggiani",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8548-1090"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Bristol; Cantock’s Close, Bristol BS8 1TS, UK"
+                },
+                {
+                  "affiliation": "School of Biochemistry, University of Bristol; University Walk, Bristol BS8 1TD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Skaer N",
+            "lastName": "Skaer",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5035-4654"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Orthox Ltd; Milton Park, 66 Innovation Drive, Milton, Abingdon OX14 4RT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Walker R",
+            "lastName": "Walker",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Orthox Ltd; Milton Park, 66 Innovation Drive, Milton, Abingdon OX14 4RT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Serpell L",
+            "lastName": "Serpell",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9335-7751"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sussex Neuroscience, School of Life Sciences, University of Sussex; Falmer, Brighton BN1 9RH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Holland C",
+            "lastName": "Holland",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Deptartment of Materials Science and Engineering, University of Sheffield, Mappin Street, Sheffield S1 3JD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davis S",
+            "lastName": "Davis",
+            "firstName": "S.A.",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Bristol; Cantock’s Close, Bristol BS8 1TS, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6760-4253"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8548-1090"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9335-7751"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1413-3344"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5035-4654"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The transition of silk fibroin from liquid to solid is fundamental to silk-fibre production and key to the superior materials properties of native silks. Here we discover that the fibroin heavy chain from the silkworm moth  Bombyx mori folds into a novel β-solenoid structure, where the N-terminal domain (NTD) promotes higher-order oligomerization driven by pH reduction. These findings elucidate the complex rheological behaviour of silk and the liquid crystalline textures within the silk gland. We also find that NTD undergoes hydrolysis during standard regeneration, explaining differences between native and regenerated silk feedstocks. Overall, this study establishes a fibroin heavy chain fold, which could be relevant for other similar proteins, and explains mechanistically its liquid-to-solid transition, driven by pH reduction and stress.  <h4>One sentence summary</h4>  This study redefines the molecular structure of fibroin heavy chain and its role in the transition from solution to fibre.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "206181/Z/17/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute for Health Research (NIHR)",
+            "grantId": "II-LB-0417-20005",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "086906/Z/08/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "202904/Z/16/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/R000484/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "100917/Z/13/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/V019163/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/15/2023.06.02.543394.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.02.543394"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR670203"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR670203&type=FILE&fileName=EMS177085-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38951579",
+            "reference": "Communications biology. 2024 Jun;7(1):786",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS177085",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-06-06",
+      "firstPublicationDate": "2023-06-03",
+      "firstIndexDate": "2023-06-06",
+      "fullTextReceivedDate": "2024-01-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

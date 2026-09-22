@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "39066731",
+    "doi": "10.1021/acs.biomac.4c00738",
+    "title": "Minimal Peptide Sequences That Undergo Liquid-Liquid Phase Separation via Self-Coacervation or Complex Coacervation with ATP."
+  },
+  "content": {
+    "abstract": "The simple (self-)coacervation of the minimal tryptophan/arginine peptide sequences W(2)R(2) and W(3)R(3) was observed in salt-free aqueous solution. The phase diagrams were mapped using turbidimetry and optical microscopy, and the coacervate droplets were imaged using confocal microscopy complemented by cryo-TEM to image smaller droplets. The droplet size distribution and stability were probed using dynamic light scattering, and the droplet surface potential was obtained from zeta potential measurements. SAXS was used to elucidate the structure within the coacervate droplets, and circular dichroism spectroscopy was used to probe the conformation of the peptides, a characteristic signature for cation-pi interactions being present under conditions of coacervation. These observations were rationalized using a simple model for the Rayleigh stability of charged coacervate droplets, along with atomistic molecular dynamics simulations which provide insight into stabilizing pi-pi stacking interactions of tryptophan as well as arginine-tryptophan cation-pi interactions (which modulate the charge of the tryptophan pi-electron system). Remarkably, the dipeptide WR did not show simple coacervation under the conditions examined, but complex coacervation was observed in mixtures with ATP (adenosine triphosphate). The electrostatically stabilized coacervation in this case provides a minimal model for peptide/nucleotide membraneless organelle formation. These are among the simplest model peptide systems observed to date able to undergo either simple or complex coacervation and are of future interest as protocell systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Adenosine Triphosphate/chemistry",
+      "Tryptophan/chemistry",
+      "Molecular Dynamics Simulation",
+      "Peptides/chemistry",
+      "Arginine/chemistry",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Castelletto, Valeria",
+        "Seitsonen, Jani",
+        "Pollitt, Alice",
+        "Hamley, Ian W"
+      ],
+      "short_names": [
+        "Castelletto V",
+        "Seitsonen J",
+        "Pollitt A",
+        "Hamley IW"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3705-0162",
+        "ORCID: 0000-0002-4549-0926"
+      ],
+      "affiliations": [
+        "School of Chemistry, Food Biosciences and Pharmacy, University of Reading, Whiteknights, Reading RG6 6AD, U.K.",
+        "Nanomicroscopy Center, Aalto University, Puumiehenkuja 2, Espoo 02150, Finland.",
+        "Institute for Cardiovascular and Metabolic Research, School of Biological Sciences, University of Reading, Reading RG6 6AS, U.K.",
+        "School of Chemistry, Food Biosciences and Pharmacy, University of Reading, Whiteknights, Reading RG6 6AD, U.K."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Castelletto, Valeria",
+        "short_name": "Castelletto V",
+        "identifiers": [
+          "0000-0002-3705-0162"
+        ],
+        "affiliations": [
+          "School of Chemistry, Food Biosciences and Pharmacy, University of Reading, Whiteknights, Reading RG6 6AD, U.K."
+        ]
+      },
+      {
+        "full_name": "Seitsonen, Jani",
+        "short_name": "Seitsonen J",
+        "identifiers": [],
+        "affiliations": [
+          "Nanomicroscopy Center, Aalto University, Puumiehenkuja 2, Espoo 02150, Finland."
+        ]
+      },
+      {
+        "full_name": "Pollitt, Alice",
+        "short_name": "Pollitt A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cardiovascular and Metabolic Research, School of Biological Sciences, University of Reading, Reading RG6 6AS, U.K."
+        ]
+      },
+      {
+        "full_name": "Hamley, Ian W",
+        "short_name": "Hamley IW",
+        "identifiers": [
+          "0000-0002-4549-0926"
+        ],
+        "affiliations": [
+          "School of Chemistry, Food Biosciences and Pharmacy, University of Reading, Whiteknights, Reading RG6 6AD, U.K."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2024 Aug 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/28 14:46",
+    "fetched_at": "2026-09-21 08:59:00"
+  },
+  "links": {
+    "cites": [
+      "42446225",
+      "42179608",
+      "42165544",
+      "42092746",
+      "42064175",
+      "41685881",
+      "41596327",
+      "41497175",
+      "41168205",
+      "40547321"
+    ],
+    "refs": [
+      "38227645",
+      "38169470",
+      "38061507",
+      "37934145",
+      "37815312",
+      "37534606",
+      "36702825",
+      "36625520",
+      "36443315",
+      "36247368",
+      "36071192",
+      "35943765",
+      "34155210",
+      "33616129",
+      "33597515",
+      "33399583",
+      "33367441",
+      "33139563",
+      "32876621",
+      "32824618",
+      "32393642",
+      "32064461",
+      "32048997",
+      "32004090",
+      "31833497",
+      "31430179",
+      "30873835",
+      "30716021",
+      "30608810",
+      "30443328",
+      "30339413",
+      "30244836",
+      "29961577",
+      "29677515",
+      "29472250",
+      "29424691",
+      "28935776",
+      "28636597",
+      "28488273",
+      "27212236",
+      "27161661",
+      "26406374",
+      "26260223",
+      "25515887",
+      "22578030",
+      "21860462",
+      "21609950",
+      "21544267",
+      "20866447",
+      "19899143",
+      "19229944",
+      "19110444",
+      "18939840",
+      "17212484",
+      "16150973",
+      "13201568",
+      "11707694",
+      "236049",
+      "2349"
+    ],
+    "similar": [
+      "39066731",
+      "30996987",
+      "34496937",
+      "36219462",
+      "29388768",
+      "31004960",
+      "34164043",
+      "33453931",
+      "28614666",
+      "37549224",
+      "24651935",
+      "31325933",
+      "30995741",
+      "30948640",
+      "34328340",
+      "30179001",
+      "20809576",
+      "30703324",
+      "38252962",
+      "31584062",
+      "30292393",
+      "36900563",
+      "34155210",
+      "33750125",
+      "35724598",
+      "21820643",
+      "24848239",
+      "27028208",
+      "26791895",
+      "33735576",
+      "21230139",
+      "37815312",
+      "36065353",
+      "34645986",
+      "38683934",
+      "26965053",
+      "30384692",
+      "31016300",
+      "36686257",
+      "31188388",
+      "18851071",
+      "35946870",
+      "24268195",
+      "33955104",
+      "23912807",
+      "39385637",
+      "33453932",
+      "37486022",
+      "21443227",
+      "25565379",
+      "33616129",
+      "23083137",
+      "30384702",
+      "38416758",
+      "31460745",
+      "29459301",
+      "16967571",
+      "30384671",
+      "28840212",
+      "23518303",
+      "11916412",
+      "31063381",
+      "35865903",
+      "36067054",
+      "26831090",
+      "33373232",
+      "30502430",
+      "23860860",
+      "24727034",
+      "39178343",
+      "23194173",
+      "38394622",
+      "19072040",
+      "37462244",
+      "28869254",
+      "38072599",
+      "39483238",
+      "39366527",
+      "8947566",
+      "1676733",
+      "34669392",
+      "37480340",
+      "38997630",
+      "2900300",
+      "32852935",
+      "25920513",
+      "32239914",
+      "37009061",
+      "30457699",
+      "28507126",
+      "38862770",
+      "35138820",
+      "33210568",
+      "38617366",
+      "27633928",
+      "37955264",
+      "37721444",
+      "30051132",
+      "37181760",
+      "27161661"
+    ],
+    "review": [
+      "39066731",
+      "36219462",
+      "35724598",
+      "21820643",
+      "36686257",
+      "33616129",
+      "39178343",
+      "37462244",
+      "27633928"
+    ],
+    "pmc": [
+      "11323023"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39066731/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.4c00738",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

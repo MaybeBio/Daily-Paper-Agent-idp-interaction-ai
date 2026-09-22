@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusion, author bios, acknowledgments, footnotes) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the proposed method, experimental design, results, and claims as presented in the supplied text. No external data, code, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors propose AttCNNPPISP, a sequence-based deep learning model combining attention mechanisms with convolutional neural networks, to predict protein-protein interaction sites. They claim significant performance improvements over six existing methods on benchmark datasets, and attribute this to the attention mechanism's ability to capture pairwise correlations between target and neighboring residues within a sliding window.
+- **Visible evidence base** Abstract; Introduction; Materials and Methods (Sections 2.1–2.5); Results (Sections 3.1–3.5); Conclusion; Author biographies; Acknowledgments; Footnotes. Tables 1–6 and Figures 1–4 are referenced but not provided in the supplied material.
+- **Missing materials affecting confidence** All tables and figures are absent. Dataset construction details, hyperparameter settings, exact model architecture dimensions, statistical significance tests, and full comparison results are not visible. The GitHub repository link is provided but was not accessed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology with a plausible methodological contribution. However, the current evidence base is insufficient to substantiate the central claims of significant improvement and attention mechanism effectiveness. The absence of all quantitative results, figures, and tables prevents verification of the reported performance. The writing contains numerous typographical and grammatical errors that impede readability. The work may have merit, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in bioinformatics, computational biology, and machine learning applied to protein function prediction would be interested. Those developing sequence-based predictors for protein-protein interaction sites, and those exploring attention mechanisms for biological sequence analysis, would find the approach relevant. The potential for improved drug target identification and functional annotation adds broader appeal.
+- **Major strengths** The problem is well-motivated and practically important. The use of predicted structural features (rather than experimentally determined structures) aligns with the goal of sequence-only prediction. The inclusion of an attention mechanism to weight neighboring residues is a reasonable and timely idea. The authors compare against several established methods and provide a public code repository, supporting reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "AttCNNPPISP significantly outperforms other state-of-the-art methods" (Abstract, Section 3.1, Conclusion).
+  - **Evidence pointer** Table 2, Section 3.1, location not provided.
+  - **Concern** The central performance claim is unverifiable because Table 2, containing all quantitative comparisons, is not included in the supplied material. No numerical values, error bars, or statistical tests are presented. The phrase "significantly outperforms" implies statistical significance, but no significance testing is described or reported.
+  - **Why it matters** The primary contribution of the paper is the claimed performance improvement. Without the actual results, the reader cannot assess whether the improvement is real, meaningful, or an artifact of experimental setup. This is the core evidence needed to establish the case.
+  - **Resolution test** Provide Table 2 with all metrics for all methods, including standard deviations or confidence intervals, and report appropriate statistical significance tests (e.g., paired tests across proteins) comparing AttCNNPPISP to each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "The attention mechanism dynamically captures the pairwise correlation of each neighbor-target pair within a sliding window" (Abstract, Section 2.3.2).
+  - **Evidence pointer** Section 2.3.2, Figure 1, location not provided.
+  - **Concern** The attention mechanism is described only in text with formulas referenced but not shown. Figure 1, which presumably illustrates the architecture, is absent. The exact formulation of the attention scores, how they are normalized, and how the context vector is integrated with the residue vector are not fully specified. The description "typical additive model" is insufficient for replication.
+  - **Why it matters** Reproducibility is a fundamental requirement. Without a complete specification of the attention layer, other researchers cannot implement or evaluate the method. The claimed novelty hinges on this component.
+  - **Resolution test** Provide the full mathematical formulation of the attention mechanism, including all equations, and include Figure 1 with a detailed caption. Clarify how attention weights are computed, normalized, and used to construct the context vector.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental rigor
+  - **Claim pointer** "The experimental results demonstrate that the attention mechanism is effective in terms of constructing comprehensive context information of target residue" (Abstract, Section 3.4).
+  - **Evidence pointer** Section 3.4, Tables 3 and 5, Figures 3 and 4, location not provided.
+  - **Concern** The ablation study comparing AttCNNPPISP to a CNN without attention is referenced but the results are not visible. The claim that attention is effective requires this comparison. Additionally, the analysis of attention scores (Figures 3 and 4) is qualitative and based on a single example protein, which is insufficient to draw general conclusions.
+  - **Why it matters** The contribution of the attention mechanism is a key novelty claim. Without a rigorous ablation study and quantitative analysis, the reader cannot determine whether the attention mechanism is actually responsible for any observed improvement, or whether other factors (e.g., additional features) are responsible.
+  - **Resolution test** Provide Table 5 with full results for the CNN baseline and AttCNNPPISP. Include quantitative analysis of attention scores across multiple proteins, not just a single example. Consider statistical testing to show the attention mechanism's contribution is significant.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Feature contribution analysis
+  - **Claim pointer** "ASA and RSA are the most import features in AttCNNPPISP" (Section 3.3).
+  - **Evidence pointer** Table 4, Section 3.3, location not provided.
+  - **Concern** The feature ablation study is referenced but Table 4 is absent. The claim that ASA and RSA are most important is based on unseen data. Moreover, the discussion of why these features dominate is superficial and does not consider potential interactions between features.
+  - **Why it matters** Understanding which features drive performance is important for both biological interpretation and practical application. If the claim is correct, it has implications for feature engineering in similar tasks. If incorrect, it misleads future work.
+  - **Resolution test** Provide Table 4 with all feature combinations tested. Add discussion of why ASA and RSA are most influential, potentially with reference to known biophysical properties of interaction sites.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and comparison fairness
+  - **Claim pointer** "AttCNNPPISP significantly improves the prediction performance" compared to six methods including DeepPPISP (Section 3.1).
+  - **Evidence pointer** Section 3.1, Table 2, location not provided.
+  - **Concern** The comparison methodology is unclear. It is not stated whether all methods were retrained on the same data, whether the same train/test splits were used, or whether hyperparameters were optimized fairly for each method. The authors note that DeepPPISP results were obtained by running its source code locally, but details of this process are missing. The use of a threshold of 0.21 for AttCNNPPISP, determined on a validation set, raises questions about whether baselines had similarly optimized thresholds.
+  - **Why it matters** Fair comparison is essential for the validity of the performance claim. If baselines are disadvantaged by suboptimal thresholds or hyperparameters, the reported improvements may be inflated.
+  - **Resolution test** Describe the exact experimental protocol for all methods, including hyperparameter tuning, threshold selection, and data splits. Consider reporting results across multiple random seeds or cross-validation folds.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Writing quality
+  - **Affected element** Entire manuscript
+  - **Evidence pointer** Location not provided.
+  - **Issue** The manuscript contains numerous typographical and grammatical errors (e.g., "import" for "important", "reside" for "residue", "sequenced-based" for "sequence-based", "it that" for "is that"). Section headings are inconsistently formatted (e.g., "1 I ntroduction", "2 M aterials and M ethods").
+  - **Required correction** Thorough proofreading and professional language editing are needed throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of contribution
+  - **Affected element** Introduction and Conclusion
+  - **Evidence pointer** Location not provided.
+  - **Issue** The novelty of the approach relative to prior work is not clearly articulated. The introduction mentions attention mechanisms in other domains but does not clearly state what is new about applying them to PPI site prediction in this specific architecture.
+  - **Required correction** Add a clear statement of the specific novelty and how it differs from prior attention-based or CNN-based PPI predictors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Location not provided.
+  - **Concern** The training details are incomplete. The number of training epochs, learning rate schedule, early stopping criteria, and the exact split of training/validation/test data are not fully specified. The statement "trained until the performance on the validation set stops improving" lacks a definition of "stops improving" (e.g., patience).
+  - **Required correction** Provide complete training details, including all hyperparameters, data split ratios, and early stopping criteria.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Location not provided.
+  - **Issue** No statistical analysis is described for comparing methods. The term "significantly" is used without supporting tests.
+  - **Required correction** Add appropriate statistical tests (e.g., paired t-test or Wilcoxon signed-rank test across proteins) and report p-values or confidence intervals.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion depth
+  - **Affected element** Section 3.4 and Conclusion
+  - **Evidence pointer** Location not provided.
+  - **Issue** The analysis of attention patterns is superficial. The observation that attention scores do not correlate with amino acid properties is presented without deeper investigation or biological interpretation. The statement "This situation needs further study" is vague.
+  - **Required correction** Provide a more thorough analysis of attention patterns, potentially linking them to known interaction site characteristics, and discuss implications more concretely.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Feature description
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Location not provided.
+  - **Issue** The description of the 52D feature vector is incomplete. It is unclear how the one-hot encoding, PSSM, and predicted structural features are concatenated or normalized. The exact output dimensions of NetsurfP-2.0 for each feature type are not specified.
+  - **Required correction** Provide a clear specification of the feature vector composition, including dimensions and any normalization steps.
+
+## Risk / unsupported claims
+- The claim of "significantly outperforms" all six competing methods is unsupported because Table 2 is not provided and no statistical tests are described.
+- The claim that the attention mechanism is "effective" is unsupported because the ablation results (Table 5) are not visible.
+- The claim that ASA and RSA are the most important features is unsupported because Table 4 is not provided.
+- The qualitative analysis of attention scores (Figures 3 and 4) is based on a single example and cannot support general conclusions.
+- The statement that "AttCNNPPISP significantly improves the prediction performance" relative to DeepPPISP is not verifiable without the actual comparison data and details of the experimental protocol.
+- The claim that "the attention mechanism captures context information of protein sequence other than properties of individual residue" is an interpretation not directly supported by the presented evidence.

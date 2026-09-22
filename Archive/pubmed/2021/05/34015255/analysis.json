@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34015255",
+  "title": "The structural heterogeneity of alpha-synuclein is governed by several distinct subpopulations with interconversion times slower than milliseconds.",
+  "authors": "Chen, Jiaxing; Zaer, Sofia; Drori, Paz; Zamel, Joanna; Joron, Khalil; Kalisman, Nir; Lerner, Eitan; Dokholyan, Nikolay V",
+  "journal": "Structure (London, England : 1993)",
+  "published_date": "2021-05-21",
+  "window": {
+    "start": "2021-05-17",
+    "end": "2021-05-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合FRET约束的离散分子动力学模拟与单分子实验，解析α-突触核蛋白（IDP）单体的构象异质性与亚群间毫秒级转换，并关联其膜互作和自聚集功能构象，属于IDP构象机制建模且方法为物理模拟，虽非直接PPI但为IDP互作机制提供可迁移建模思路。",
+  "abstract": "alpha-Synuclein plays an important role in synaptic functions by interacting with synaptic vesicle membrane, while its oligomers and fibrils are associated with several neurodegenerative diseases. The specific monomer structures that promote its membrane binding and self-association remain elusive due to its transient nature as an intrinsically disordered protein. Here, we use inter-dye distance distributions from bulk time-resolved Forster resonance energy transfer as restraints in discrete molecular dynamics simulations to map the conformational space of the alpha-synuclein monomer. We further confirm the generated conformational ensemble in orthogonal experiments utilizing far-UV circular dichroism and cross-linking mass spectrometry. Single-molecule protein-induced fluorescence enhancement measurements show that within this conformational ensemble, some of the conformations of alpha-synuclein are surprisingly stable, exhibiting conformational transitions slower than milliseconds. Our comprehensive analysis of the conformational ensemble reveals essential structural properties and potential conformations that promote its various functions in membrane interaction or oligomer and fibril formation.",
+  "abstract_zh": "α-突触核蛋白通过与突触囊泡膜相互作用在突触功能中发挥重要作用，而其寡聚体和纤维与多种神经退行性疾病相关。由于α-突触核蛋白作为 intrinsically disordered protein（固有无序蛋白）具有瞬时性质，促进其膜结合和自聚集的具体单体结构仍难以捉摸。在此，我们利用 bulk time-resolved Förster resonance energy transfer（体相时间分辨福斯特共振能量转移）中的染料间距离分布作为离散分子动力学模拟中的约束，以绘制α-突触核蛋白单体的构象空间。我们进一步通过远紫外圆二色光谱和交联质谱法的正交实验验证了生成的构象集合。单分子蛋白诱导荧光增强测量显示，在此构象集合中，α-突触核蛋白的某些构象异常稳定，表现出慢于毫秒的构象转变。我们对构象集合的全面分析揭示了促进其在膜相互作用或寡聚体和纤维形成中多种功能的关键结构特性和潜在构象。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34015255/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34015255/",
+  "paper_page_path": "papers/pubmed/34015255/index.html"
+}

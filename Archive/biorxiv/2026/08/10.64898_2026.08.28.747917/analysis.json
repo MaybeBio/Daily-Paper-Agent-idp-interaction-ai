@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.28.747917",
+  "title": "Single-Molecule Nanopore Profiling of p53-TAD’s Conformational Dynamics, Interactions, and Inhibition",
+  "authors": "DeCoeur D; Schultz S; Chen J; Chen M",
+  "journal": "bioRxiv",
+  "published_date": "2026-08-29",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 8,
+  "one_liner_zh": "利用MspA纳米孔单分子技术结合拉伸分子动力学模拟，研究p53-TAD无序结构域的构象动态、与MDM2的相互作用及EGCG抑制机制，直接涉及IDP互作机制建模。",
+  "abstract": "Investigating the conformational dynamics of intrinsically disordered proteins (IDPs) is essential to understanding how their structural heterogeneity underlies function and how their dysregulation contributes to diseases. Here, we utilized an MspA nanopore-based approach for studying the conformational dynamics and interactions of IDPs at the single-molecule level. The platform was demonstrated using the intrinsically disordered transactivation domain of tumor suppressor p53 (p53-TAD), one of the important proteins in cancer biology. We showed that MspA can stably capture p53-TAD and resolve up to six distinct current states with frequent interconversions, revealing a rich conformational landscape. The nanopore also detected the effect of a cancer-associated double mutational variant, N29K/N30D. Combining experiments with steered molecular dynamics simulations, we showed that the mutant sampled compact conformational states more frequently than wild type, consistent with previous NMR studies. Importantly, the MspA platform enabled direct monitoring of E3 ligase MDM2 binding to p53-TAD and resolved how this interaction is inhibited by anti-cancer compound epigallocatechin gallate (EGCG). Notably, EGCG stabilizes one of the six states sampled by p53-TAD, providing a mechanistic explanation for its inhibitory effect. Together, these findings demonstrate the promise of the nanopore platform for label-free monitoring of IDP conformational dynamics, modulation, binding and inhibition at single-molecule resolution.",
+  "abstract_zh": "研究 intrinsically disordered proteins (IDPs) 的构象动态对于理解其结构异质性如何支撑功能以及其失调如何导致疾病至关重要。在此，我们利用基于 MspA 纳米孔的方法，在单分子水平上研究 IDPs 的构象动态和相互作用。该平台通过肿瘤抑制因子 p53 的固有无序反式激活域（p53-TAD）进行验证，这是癌症生物学中的重要蛋白质之一。我们表明，MspA 能稳定捕获 p53-TAD，并解析多达六个不同的电流状态，且频繁发生相互转换，揭示出丰富的构象景观。纳米孔还检测到癌症相关双突变变体 N29K/N30D 的影响。结合实验与定向分子动力学模拟，我们显示该突变体比野生型更频繁地采样紧凑构象状态，这与先前的核磁共振研究一致。重要的是，MspA 平台能够直接监测 E3 连接酶 MDM2 与 p53-TAD 的结合，并解析这种相互作用如何被抗癌化合物表没食子儿茶素没食子酸酯（EGCG）抑制。值得注意的是，EGCG 稳定了 p53-TAD 采样的六个状态之一，为其抑制效应提供了机制性解释。综合这些发现，展示了纳米孔平台在单分子分辨率下无标记监测 IDP 构象动态、调控、结合和抑制的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747917",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747917",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.28.747917/index.html"
+}

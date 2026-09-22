@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41738539",
+  "title": "SimHS-AFMfit-MD: An Integrative Approach for Inferring Alpha-Actinin Atomic Conformational Dynamics.",
+  "authors": "Ngo, Kien Xuan; Sumikama, Takashi; Vuillemot, Remi; Nguyen, Han Gia; Le, Ngan Thi Phuong; Grudinin, Sergei",
+  "journal": "Nano letters",
+  "published_date": "2026-02-25",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出整合HS-AFM、MD模拟与AFMfit建模的框架，推断alpha-actinin的原子级构象动态，虽对象非IDP但针对柔性多域蛋白的构象异质性建模，其MD引导结构拟合方法对无序蛋白互作机制建模有可迁移启发。",
+  "abstract": "Many molecular systems, including intrinsically disordered proteins and flexible multidomain complexes, exhibit significant conformational heterogeneity and flexibility, making them difficult to study with conventional methods like X-ray crystallography or cryo-EM. To address this challenge, we introduce SimHS-AFMfit-MD, an integrative framework combining high-speed atomic force microscopy (HS-AFM), molecular dynamics (MD) simulations, and AFMfit-based structural modeling to infer dynamic protein conformations at atomic resolution. Using alpha-actinin, an actin cross-linking protein, as a model system, we demonstrate that nonlinear normal-mode analysis (AFMfit-NMA) enhances the accuracy of structural fitting. Additionally, guiding AFMfit with MD trajectories (AFMfit-MD) significantly improves fitting performance, aligning closely with unbiased all-atom MD simulations. This method converts thousands of 3D HS-AFM images into atomic-scale conformational ensembles, revealing key transitions between Ca(2+)-bound and Ca(2+)-unbound states of alpha-actinin. Our results showcase a hybrid computational-experimental approach that bridges simulation and imaging approaches, enabling real-time visualization of protein dynamics at the atomic scale.",
+  "abstract_zh": "许多分子系统，包括固有无序蛋白和柔性多结构域复合物，表现出显著的构象异质性和灵活性，使其难以用X射线晶体学或冷冻电镜等常规方法研究。为应对这一挑战，我们引入了SimHS-AFMfit-MD，一个整合框架，结合高速原子力显微镜 (high-speed atomic force microscopy, HS-AFM)、分子动力学 (molecular dynamics, MD) 模拟和基于AFMfit的结构建模，以原子分辨率推断动态蛋白构象。以α-肌动蛋白（一种肌动蛋白交联蛋白）为模型系统，我们证明非线性简正模式分析 (AFMfit-NMA) 增强了结构拟合的准确性。此外，用MD轨迹引导AFMfit (AFMfit-MD) 显著提高了拟合性能，与无偏全原子MD模拟紧密一致。该方法将数千张3D HS-AFM图像转化为原子尺度构象系综，揭示了α-肌动蛋白在Ca(2+)结合和Ca(2+)未结合状态之间的关键转变。我们的结果展示了一种混合计算-实验方法，桥接模拟与成像技术，实现原子尺度蛋白动力学的实时可视化。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41738539/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41738539/",
+  "paper_page_path": "papers/pubmed/41738539/index.html"
+}

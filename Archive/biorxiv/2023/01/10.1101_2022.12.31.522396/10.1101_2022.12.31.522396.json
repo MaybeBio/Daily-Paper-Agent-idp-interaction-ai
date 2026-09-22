@@ -1,0 +1,365 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.12.31.522396",
+  "title": "New mega dataset combined with deep neural network makes a progress in predicting impact of mutation on protein stability",
+  "doi": "10.1101/2022.12.31.522396",
+  "abstract": "Prediction of proteins stability change (ΔΔG) due to single mutation is important for biotechnology, medicine, and our understanding of physics underlying protein folding. Despite the recent tremendous success in 3D protein structure prediction, the apparently simpler problem of predicting the effect of mutations on protein stability has been hampered by the low amount of experimental data. With the recent high-throughput measurements of mutational effects in ‘mega’ experiment for ~850,000 mutations [Tsuboyama et al., bioRxiv, 2022] it becomes possible to apply the state-of-the-art deep learning methods. Here we explore the ability of ESM2 deep neural network architecture with added Light Attention mechanism to predict the change of protein stability due to single mutations. The resulting method ABYSSAL predicts well the data from the ‘mega’ experiment (Pearson correlation 0.85) while the prediction of ΔΔG values from previous experiments is more modest (Pearson correlation 0.50). ABYSSAL also shows a perfect satisfaction of the antisymmetry property. The ABYSSAL training demonstrated that the dataset should contain around ~100,000 data points for taking advantage of the state-of-the-art deep learning methods. Overall, our study shows great perspectives for developing the deep learning ΔΔG predictors.",
+  "authors": [
+    "Marina A Pak",
+    "Nikita V Dovidchenko",
+    "Satyarth Mishra Sharma",
+    "Dmitry N Ivankov"
+  ],
+  "published_date": "2023-01-02",
+  "updated_date": "2023-01-02T16:10:22Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.12.31.522396",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.12.31.522396.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2026-08-17T23:50:48Z",
+        "timestamp": 1787010648684,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            2
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 24,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Prediction of proteins stability change (ΔΔG) due to single mutation is important for biotechnology, medicine, and our understanding of physics underlying protein folding. Despite the recent tremendous success in 3D protein structure prediction, the apparently simpler problem of predicting the effect of mutations on protein stability has been hampered by the low amount of experimental data. With the recent high-throughput measurements of mutational effects in ‘mega’ experiment for ~850,000 mutations [Tsuboyama et al., bioRxiv, 2022] it becomes possible to apply the state-of-the-art deep learning methods. Here we explore the ability of ESM2 deep neural network architecture with added Light Attention mechanism to predict the change of protein stability due to single mutations. The resulting method ABYSSAL predicts well the data from the ‘mega’ experiment (Pearson correlation 0.85) while the prediction of ΔΔG values from previous experiments is more modest (Pearson correlation 0.50). ABYSSAL also shows a perfect satisfaction of the antisymmetry property. The ABYSSAL training demonstrated that the dataset should contain around ~100,000 data points for taking advantage of the state-of-the-art deep learning methods. Overall, our study shows great perspectives for developing the deep learning ΔΔG predictors.</jats:p>",
+      "DOI": "10.1101/2022.12.31.522396",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            2
+          ]
+        ],
+        "date-time": "2023-01-02T16:10:22Z",
+        "timestamp": 1672675822000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 12,
+      "title": [
+        "New mega dataset combined with deep neural network makes a progress in predicting impact of mutation on protein stability"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1075-6509",
+          "authenticated-orcid": false,
+          "given": "Marina A",
+          "family": "Pak",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nikita V",
+          "family": "Dovidchenko",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Satyarth Mishra",
+          "family": "Sharma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8224-4118",
+          "authenticated-orcid": false,
+          "given": "Dmitry N",
+          "family": "Ivankov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1361-6463/abedfb"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "issue": "04",
+          "key": "2023010323450512000_2022.12.31.522396v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "669",
+          "DOI": "10.1142/S0218001493000339",
+          "article-title": "Signature verification using a siamese time delay neural network",
+          "volume": "7",
+          "year": "1993",
+          "journal-title": "International Journal of Pattern Recognition and Artificial Intelligence"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp445"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.6",
+          "first-page": "2816",
+          "volume": "31",
+          "year": "2015",
+          "journal-title": "INPS: predicting the impact of non-synonymous variations on protein stability from sequence"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "17333",
+          "DOI": "10.1038/s41598-020-74354-9",
+          "article-title": "Distribution of disease-causing germline mutations in coiled-coils implies an important role of their N-terminal region",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "issue": "10",
+          "key": "2023010323450512000_2022.12.31.522396v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1239",
+          "DOI": "10.1016/j.bbapap.2015.06.002",
+          "article-title": "Towards a “Golden Standard” for computing globin stability: Stability and structure sensitivity of myoglobin mutants",
+          "volume": "1854",
+          "year": "2015",
+          "journal-title": "Biochimica et Biophysica Acta - Proteins and Proteomics"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin, Z. et al. (2022) Evolutionary-scale prediction of atomic level protein structure with a language model. https://doi.org/10.1101/2022.07.20.500902",
+          "DOI": "10.1101/2022.07.20.500902"
+        },
+        {
+          "issue": "1",
+          "key": "2023010323450512000_2022.12.31.522396v1.11",
+          "first-page": "42",
+          "article-title": "VariBench: A Benchmark Database for Variations",
+          "volume": "34",
+          "year": "2012",
+          "journal-title": "Human Mutation"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pak, M.A. , Ivankov, D.N. (2022) Best templates outperform homology models in predicting the impact of mutations on protein stability.",
+          "DOI": "10.1101/2021.08.26.457758"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pancotti, C. et al. (2022) Predicting protein stability changes upon single-point mutation: a thorough comparison of the available tools on a new dataset. Briefings in Bioinformatics, 23(2). https://doi.org/10.1093/bib/bbab555",
+          "DOI": "10.1093/bib/bbab555"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt691"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/gzp030"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioin-formatics/bty348"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.17",
+          "first-page": "1",
+          "article-title": "Light attention predicts protein location from the language of life",
+          "volume": "1",
+          "year": "2021",
+          "journal-title": "Bioinformatics Advances"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "1277",
+          "DOI": "10.1016/j.csbj.2021.02.002",
+          "article-title": "From thiol-subtilisin to omniligase: Design and structure of a broadly applicable peptide ligase",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "Comput. Struct. Biotechnol. J"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tsuboyama, K. et al. (2022) Mega-scale experimental analysis of protein folding stability in biology and protein design. https://doi.org/10.1101/2022.12.06.519132",
+          "DOI": "10.1101/2022.12.06.519132"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr981"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty340"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1189",
+          "DOI": "10.1016/j.ijbiomac.2020.05.243",
+          "article-title": "Enhancing the thermostability of Rhizopus chinensis lipase by rational design and MD simulations",
+          "volume": "160",
+          "year": "2020",
+          "journal-title": "Int. J. Biol. Macromol"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "D475",
+          "DOI": "10.1093/nar/gkaa925",
+          "article-title": "ThermoMutDB: a thermodynamic database for missense mutations",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Nucl. Acids Res"
+        },
+        {
+          "key": "2023010323450512000_2022.12.31.522396v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zacharov, I. et al., (2019) ‘Zhores’ -- Petaflops supercomputer for data-driven modeling, machine learning and artificial intelligence installed in Skolkovo Institute of Science and Technology (Version 1). arXiv. https://doi.org/10.48550/ARXIV.1902.07490(base)",
+          "DOI": "10.1515/eng-2019-0059"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.12.31.522396",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:04:55Z",
+        "timestamp": 1768449895000
+      },
+      "score": 50.008434,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.12.31.522396"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            2
+          ]
+        ]
+      },
+      "references-count": 24,
+      "URL": "https://doi.org/10.1101/2022.12.31.522396",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            1,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

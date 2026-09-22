@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35225608",
+  "title": "TRPM5 Channel Binds Calcium-Binding Proteins Calmodulin and S100A1.",
+  "authors": "Bousova, Kristyna; Zouharova, Monika; Herman, Petr; Vymetal, Jiri; Vetyskova, Veronika; Jiraskova, Katerina; Vondrasek, Jiri",
+  "journal": "Biochemistry",
+  "published_date": "2022-03-01",
+  "window": {
+    "start": "2022-02-28",
+    "end": "2022-03-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究TRPM5通道N端无序区域与钙结合蛋白CaM/S100A1的互作，结合实验、分子对接和MD模拟揭示结合界面，虽对象非典型IDP-PPI但机制建模思路可迁移。",
+  "abstract": "Melastatin transient receptor potential (TRPM) channels belong to one of the most significant subgroups of the transient receptor potential (TRP) channel family. Here, we studied the TRPM5 member, the receptor exposed to calcium-mediated activation, resulting in taste transduction. It is known that most TRP channels are highly modulated through interactions with extracellular and intracellular agents. The binding sites for these ligands are usually located at the intracellular N- and C-termini of the TRP channels, and they can demonstrate the character of an intrinsically disordered protein (IDP), which allows such a region to bind various types of molecules. We explored the N-termini of TRPM5 and found the intracellular regions for calcium-binding proteins (CBPs) the calmodulin (CaM) and calcium-binding protein S1 (S100A1) by in vitro binding assays. Furthermore, molecular docking and molecular dynamics simulations (MDs) of the discovered complexes confirmed their known common binding interface patterns and the uniqueness of the basic residues present in the TRPM binding regions for CaM/S100A1.",
+  "abstract_zh": "Melastatin瞬时受体电位（TRPM）通道属于瞬时受体电位（TRP）通道家族中最显著的亚群之一。在此，我们研究了TRPM5成员，该受体暴露于钙介导的激活，导致味觉转导。已知大多数TRP通道通过与细胞外和细胞内试剂的相互作用而受到高度调节。这些配体的结合位点通常位于TRP通道的细胞内N端和C端，并且它们可以表现出固有无序蛋白（IDP）的特征，这使得此类区域能够结合多种类型的分子。我们探索了TRPM5的N端，并通过体外结合实验发现了钙结合蛋白（CBPs）钙调蛋白（CaM）和钙结合蛋白S1（S100A1）的细胞内区域。此外，对所发现复合物的分子对接和分子动力学模拟（MDs）确认了它们已知的常见结合界面模式，以及TRPM结合区域中用于CaM/S100A1的碱性残基的独特性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35225608/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35225608/",
+  "paper_page_path": "papers/pubmed/35225608/index.html"
+}

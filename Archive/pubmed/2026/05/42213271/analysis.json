@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42213271",
+  "title": "Backbone resonance assignments of CPEB3 [1-120], CPEB3 [186-315], and CPEB3 [400-459].",
+  "authors": "Lee, Yujin; Saito, Harunobu; So, Masatomo; Furukawa, Ayako; Sugase, Kenji",
+  "journal": "Biomolecular NMR assignments",
+  "published_date": "2026-05-29",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 4,
+  "one_liner_zh": "该文为CPEB3无序区三个片段的骨架共振归属，提供NMR实验基础，但无PPI互作机制或AI/物理模拟方法，仅间接相关。",
+  "abstract": "Cytoplasmic polyadenylation element-binding protein 3 (CPEB3) is an RNA-binding protein that is essential for long-term memory formation. Its N-terminal intrinsically disordered region (residues 1-459) exhibits high aggregation propensity and regulates the translation of specific mRNAs, including those encoding AMPA receptor subunits, through processes such as liquid-liquid phase separation and the formation of fibrillar structures. However, the molecular basis of these regulatory mechanisms remains poorly understood. In this study, we present the backbone resonance assignments of three segments within the intrinsically disordered region of CPEB3 (residues 1-120, 186-315, and 400-459). In agreement with sequence-based secondary structure predictions, the three segments were predominantly disordered overall. However, short regions with partial helical propensity were identified at residues 3-7 in the 1-120 segment and residues 226-239 in the 186-315 segment.",
+  "abstract_zh": "细胞质多聚腺苷酸化元件结合蛋白3（CPEB3）是一种对长期记忆形成至关重要的RNA结合蛋白。其N端 intrinsically disordered region（内在无序区域，残基1-459）表现出高聚集倾向，并通过液-液相分离（liquid-liquid phase separation）及纤维状结构的形成等过程，调控特定mRNA（包括编码AMPA受体亚基的mRNA）的翻译。然而，这些调控机制的分子基础仍知之甚少。在本研究中，我们展示了CPEB3内在无序区域内三个片段（残基1-120、186-315和400-459）的骨架共振归属。与基于序列的二级结构预测一致，这三个片段整体上主要呈无序状态。然而，在1-120片段的残基3-7和186-315片段的残基226-239处，识别出了具有部分螺旋倾向的短区域。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42213271/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42213271/",
+  "paper_page_path": "papers/pubmed/42213271/index.html"
+}

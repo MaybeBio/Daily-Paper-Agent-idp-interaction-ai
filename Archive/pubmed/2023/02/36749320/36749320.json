@@ -1,0 +1,436 @@
+{
+  "identity": {
+    "pmid": "36749320",
+    "doi": "10.7554/eLife.83062",
+    "title": "Multiple polarity kinases inhibit phase separation of F-BAR protein Cdc15 and antagonize cytokinetic ring assembly in fission yeast."
+  },
+  "content": {
+    "abstract": "The F-BAR protein Cdc15 is essential for cytokinesis in Schizosaccharomyces pombe and plays a key role in attaching the cytokinetic ring (CR) to the plasma membrane (PM). Cdc15's abilities to bind to the membrane and oligomerize via its F-BAR domain are inhibited by phosphorylation of its intrinsically disordered region (IDR). Multiple cell polarity kinases regulate Cdc15 IDR phosphostate, and of these the DYRK kinase Pom1 phosphorylation sites on Cdc15 have been shown in vivo to prevent CR formation at cell tips. Here, we compared the ability of Pom1 to control Cdc15 phosphostate and cortical localization to that of other Cdc15 kinases: Kin1, Pck1, and Shk1. We identified distinct but overlapping cohorts of Cdc15 phosphorylation sites targeted by each kinase, and the number of sites correlated with each kinases' abilities to influence Cdc15 PM localization. Coarse-grained simulations predicted that cumulative IDR phosphorylation moves the IDRs of a dimer apart and toward the F-BAR tips. Further, simulations indicated that the overall negative charge of phosphorylation masks positively charged amino acids necessary for F-BAR oligomerization and membrane interaction. Finally, simulations suggested that dephosphorylated Cdc15 undergoes phase separation driven by IDR interactions. Indeed, dephosphorylated but not phosphorylated Cdc15 undergoes liquid-liquid phase separation to form droplets in vitro that recruit Cdc15 binding partners. In cells, Cdc15 phosphomutants also formed PM-bound condensates that recruit other CR components. Together, we propose that a threshold of Cdc15 phosphorylation by assorted kinases prevents Cdc15 condensation on the PM and antagonizes CR assembly.",
+    "keywords": [
+      "F-BAR protein",
+      "S. pombe",
+      "cell biology",
+      "cytokinesis",
+      "fission yeast",
+      "intrinsically disordered region",
+      "phase separation"
+    ],
+    "mesh_terms": [
+      "*Cell Cycle Proteins/metabolism",
+      "*Cytokinesis/physiology",
+      "Cytoskeletal Proteins/metabolism",
+      "GTP-Binding Proteins/metabolism",
+      "p21-Activated Kinases/metabolism",
+      "Phosphorylation",
+      "Protein Kinases/metabolism",
+      "Protein Serine-Threonine Kinases/metabolism",
+      "*Schizosaccharomyces/metabolism",
+      "*Schizosaccharomyces pombe Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bhattacharjee, Rahul",
+        "Hall, Aaron R",
+        "Mangione, MariaSanta C",
+        "Igarashi, Maya G",
+        "Roberts-Galbraith, Rachel H",
+        "Chen, Jun-Song",
+        "Vavylonis, Dimitrios",
+        "Gould, Kathleen L"
+      ],
+      "short_names": [
+        "Bhattacharjee R",
+        "Hall AR",
+        "Mangione MC",
+        "Igarashi MG",
+        "Roberts-Galbraith RH",
+        "Chen JS",
+        "Vavylonis D",
+        "Gould KL"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8607-5756",
+        "ORCID: 0000-0002-6194-8060",
+        "ORCID: 0000-0003-3727-5473",
+        "ORCID: 0000-0002-2682-2366",
+        "ORCID: 0000-0003-1802-3262",
+        "ORCID: 0000-0002-3810-4070"
+      ],
+      "affiliations": [
+        "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, United States.",
+        "Department of Physics, Lehigh University, Bethlehem, United States.",
+        "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, United States.",
+        "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, United States.",
+        "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, United States.",
+        "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, United States.",
+        "Department of Physics, Lehigh University, Bethlehem, United States.",
+        "Center for Computational Biology, Flatiron Institute, New York, United States.",
+        "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bhattacharjee, Rahul",
+        "short_name": "Bhattacharjee R",
+        "identifiers": [
+          "0000-0001-8607-5756"
+        ],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, United States."
+        ]
+      },
+      {
+        "full_name": "Hall, Aaron R",
+        "short_name": "Hall AR",
+        "identifiers": [
+          "0000-0002-6194-8060"
+        ],
+        "affiliations": [
+          "Department of Physics, Lehigh University, Bethlehem, United States."
+        ]
+      },
+      {
+        "full_name": "Mangione, MariaSanta C",
+        "short_name": "Mangione MC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, United States."
+        ]
+      },
+      {
+        "full_name": "Igarashi, Maya G",
+        "short_name": "Igarashi MG",
+        "identifiers": [
+          "0000-0003-3727-5473"
+        ],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, United States."
+        ]
+      },
+      {
+        "full_name": "Roberts-Galbraith, Rachel H",
+        "short_name": "Roberts-Galbraith RH",
+        "identifiers": [
+          "0000-0002-2682-2366"
+        ],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Jun-Song",
+        "short_name": "Chen JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, United States."
+        ]
+      },
+      {
+        "full_name": "Vavylonis, Dimitrios",
+        "short_name": "Vavylonis D",
+        "identifiers": [
+          "0000-0003-1802-3262"
+        ],
+        "affiliations": [
+          "Department of Physics, Lehigh University, Bethlehem, United States.",
+          "Center for Computational Biology, Flatiron Institute, New York, United States."
+        ]
+      },
+      {
+        "full_name": "Gould, Kathleen L",
+        "short_name": "Gould KL",
+        "identifiers": [
+          "0000-0002-3810-4070"
+        ],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Vanderbilt University School of Medicine, Nashville, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2023 Feb 7",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/08 06:00",
+    "fetched_at": "2026-09-20 19:05:35"
+  },
+  "links": {
+    "cites": [
+      "41413653",
+      "41144523",
+      "40463202",
+      "40114852",
+      "38656798",
+      "38649354",
+      "38392827",
+      "38103546",
+      "37746062"
+    ],
+    "refs": [
+      "35412456",
+      "35108037",
+      "35100366",
+      "35049497",
+      "34791371",
+      "34265844",
+      "33820972",
+      "33582133",
+      "33545530",
+      "33450834",
+      "33357436",
+      "33326250",
+      "32878942",
+      "32421151",
+      "32101481",
+      "31509478",
+      "31243991",
+      "30853434",
+      "30649923",
+      "30332655",
+      "29996109",
+      "29364893",
+      "29249658",
+      "28914606",
+      "28790177",
+      "28483149",
+      "28256228",
+      "27647921",
+      "26806637",
+      "26702831",
+      "26340438",
+      "26132084",
+      "25720772",
+      "25688133",
+      "25428987",
+      "25321392",
+      "24637325",
+      "24498240",
+      "24316795",
+      "24120937",
+      "24011505",
+      "23901099",
+      "23447708",
+      "22888038",
+      "22743772",
+      "22123864",
+      "22030861",
+      "21885283",
+      "21703453",
+      "21422229",
+      "21376600",
+      "20948299",
+      "20624220",
+      "20603077",
+      "20094054",
+      "19864459",
+      "19564400",
+      "19474792",
+      "19139265",
+      "19056897",
+      "18728193",
+      "18378776",
+      "17543869",
+      "17210054",
+      "17140794",
+      "17077120",
+      "16864655",
+      "16224022",
+      "15380095",
+      "14602073",
+      "12939254",
+      "10930468",
+      "10677823",
+      "10506761",
+      "9852154",
+      "8946912",
+      "8834798",
+      "8604144",
+      "8522609",
+      "8491190",
+      "8005439",
+      "7929623",
+      "7785336",
+      "7634333",
+      "2005825",
+      "1943760",
+      "958201"
+    ],
+    "similar": [
+      "36749320",
+      "32101481",
+      "31509478",
+      "26553932",
+      "34402513",
+      "35108037",
+      "33357436",
+      "29343550",
+      "37746062",
+      "31591131",
+      "25052092",
+      "29249658",
+      "25688133",
+      "20603077",
+      "26702831",
+      "25428987",
+      "30709916",
+      "34133210",
+      "19139265",
+      "26132084",
+      "30332655",
+      "24115772",
+      "37158439",
+      "32421151",
+      "21422229",
+      "24982431",
+      "33326250",
+      "26776521",
+      "12764130",
+      "30840879",
+      "24127216",
+      "34282727",
+      "33131769",
+      "28784611",
+      "14506270",
+      "18378776",
+      "19597328",
+      "25720772",
+      "22684255",
+      "16988828",
+      "10567532",
+      "19474792",
+      "12939254",
+      "18328707",
+      "21703453",
+      "7597098",
+      "16687577",
+      "22174761",
+      "9660817",
+      "24316795",
+      "23966468",
+      "29502950",
+      "30726745",
+      "37610834",
+      "17543869",
+      "9660818",
+      "12186944",
+      "12832486",
+      "36093997",
+      "39239853",
+      "28162898",
+      "19474789",
+      "11404483",
+      "15530412",
+      "18256290",
+      "9786952",
+      "34910579",
+      "11267871",
+      "16085485",
+      "33625871",
+      "29722930",
+      "25159149",
+      "10837230",
+      "32915139",
+      "19121815",
+      "24055157",
+      "24920823",
+      "30853434",
+      "36993237",
+      "24790095",
+      "25977474",
+      "22918943",
+      "34382912",
+      "30072443",
+      "17077120",
+      "23294323",
+      "19713940",
+      "19570910",
+      "11972773",
+      "24508166",
+      "22427686",
+      "22629372",
+      "31050341",
+      "19056897",
+      "20826805",
+      "11942609",
+      "11389855",
+      "11598184",
+      "25501814",
+      "22281223",
+      "18272786",
+      "10993721",
+      "32878942",
+      "38103546",
+      "36202103",
+      "37815455",
+      "38979265",
+      "37131752",
+      "37546978",
+      "39248370",
+      "38915483",
+      "39206127",
+      "33976270",
+      "37125110",
+      "36747616"
+    ],
+    "review": [
+      "36749320",
+      "16085485",
+      "19121815"
+    ],
+    "pmc": [
+      "9904764"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36749320/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36749320",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.83062",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.pombase.org/reference/PMID:36749320",
+        "provider": "PomBase, University of Cambridge",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

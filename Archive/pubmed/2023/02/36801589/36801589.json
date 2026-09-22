@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "36801589",
+    "doi": "10.1016/j.bpc.2023.106971",
+    "title": "Comprehensive classification of proteins based on structures that engage lipids by COMPOSEL."
+  },
+  "content": {
+    "abstract": "Structures can now be predicted for any protein using programs like AlphaFold and Rosetta, which rely on a foundation of experimentally determined structures of architecturally diverse proteins. The accuracy of such artificial intelligence and machine learning (AI/ML) approaches benefits from the specification of restraints which assist in navigating the universe of folds to converge on models most representative of a given protein's physiological structure. This is especially pertinent for membrane proteins, with structures and functions that depend on their presence in lipid bilayers. Structures of proteins in their membrane environments could conceivably be predicted from AI/ML approaches with user-specificized parameters that describe each element of the architecture of a membrane protein accompanied by its lipid environment. We propose the Classification Of Membrane Proteins based On Structures Engaging Lipids (COMPOSEL), which builds on existing nomenclature types for monotopic, bitopic, polytopic and peripheral membrane proteins as well as lipids. Functional and regulatory elements are also defined in the scripts, as shown with membrane fusing synaptotagmins, multidomain PDZD8 and Protrudin proteins that recognize phosphoinositide (PI) lipids, the intrinsically disordered MARCKS protein, caveolins, the beta barrel assembly machine (BAM), an adhesion G-protein coupled receptor (aGPCR) and two lipid modifying enzymes - diacylglycerol kinase DGKepsilon and fatty aldehyde dehydrogenase FALDH. This demonstrates how COMPOSEL communicates lipid interactivity as well as signaling mechanisms and binding of metabolites, drug molecules, polypeptides or nucleic acids to describe the operations of any protein. Moreover COMPOSEL can be scaled to express how genomes encode membrane structures and how our organs are infiltrated by pathogens such as SARS-CoV-2.",
+    "keywords": [
+      "Bilayer insertion",
+      "Intrinsically disordered region",
+      "Ligand complex",
+      "Lipid interaction",
+      "Monotopic",
+      "Myristoylation",
+      "Palmitoylation",
+      "Peripheral membrane domain",
+      "Polytopic",
+      "Protein classification",
+      "Transmembrane"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Membrane Proteins/chemistry",
+      "Membrane Lipids",
+      "Artificial Intelligence",
+      "Models, Molecular",
+      "*COVID-19",
+      "SARS-CoV-2/metabolism",
+      "Lipid Bilayers/chemistry",
+      "Adaptor Proteins, Signal Transducing/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Overduin, Michael",
+        "Kervin, Troy A",
+        "Klarenbach, Zachary",
+        "Adra, Trixie Rae C",
+        "Bhat, Rakesh K"
+      ],
+      "short_names": [
+        "Overduin M",
+        "Kervin TA",
+        "Klarenbach Z",
+        "Adra TRC",
+        "Bhat RK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, University of Alberta, Edmonton, AB, Canada. Electronic address: overduin@ualberta.ca.",
+        "Department of Biochemistry, University of Alberta, Edmonton, AB, Canada.",
+        "Department of Physiology, University of Alberta, Edmonton, AB, Canada.",
+        "Department of Biochemistry, University of Alberta, Edmonton, AB, Canada.",
+        "Department of Biochemistry, University of Alberta, Edmonton, AB, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Overduin, Michael",
+        "short_name": "Overduin M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Alberta, Edmonton, AB, Canada. Electronic address: overduin@ualberta.ca."
+        ]
+      },
+      {
+        "full_name": "Kervin, Troy A",
+        "short_name": "Kervin TA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Alberta, Edmonton, AB, Canada."
+        ]
+      },
+      {
+        "full_name": "Klarenbach, Zachary",
+        "short_name": "Klarenbach Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, University of Alberta, Edmonton, AB, Canada."
+        ]
+      },
+      {
+        "full_name": "Adra, Trixie Rae C",
+        "short_name": "Adra TRC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Alberta, Edmonton, AB, Canada."
+        ]
+      },
+      {
+        "full_name": "Bhat, Rakesh K",
+        "short_name": "Bhat RK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Alberta, Edmonton, AB, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical chemistry"
+    ],
+    "journal_abbrev": [
+      "Biophys Chem"
+    ],
+    "pub_date": "2023 Apr",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/22 06:00",
+    "fetched_at": "2026-09-20 19:29:20"
+  },
+  "links": {
+    "cites": [
+      "40339327",
+      "40087026"
+    ],
+    "refs": [],
+    "similar": [
+      "36801589",
+      "19161285",
+      "23701821",
+      "21167813",
+      "24859688",
+      "25791349",
+      "27884807",
+      "29311257",
+      "25906947",
+      "24892900",
+      "17336328",
+      "25983306",
+      "24469792",
+      "24835018",
+      "31364837",
+      "25548160",
+      "21904908",
+      "17603894",
+      "11766048",
+      "29291379",
+      "12729927",
+      "17097352",
+      "28411171",
+      "36422153",
+      "22376036",
+      "16603141",
+      "17258687",
+      "31218633",
+      "19237449",
+      "32917905",
+      "9667894",
+      "23829871",
+      "11900525",
+      "23740253",
+      "30168796",
+      "32304757",
+      "35014398",
+      "26912608",
+      "26497753",
+      "32230887",
+      "21438606",
+      "20603102",
+      "31242812",
+      "29571748",
+      "21827736",
+      "25981043",
+      "31456056",
+      "32350331",
+      "24047460",
+      "34290262",
+      "21599646",
+      "33674677",
+      "26756718",
+      "18495472",
+      "11825894",
+      "25666872",
+      "31386337",
+      "22257923",
+      "18565344",
+      "30190329",
+      "17305561",
+      "25260145",
+      "23782617",
+      "9804991",
+      "18400182",
+      "28865797",
+      "33825681",
+      "28388089",
+      "25912455",
+      "9794491",
+      "23793773",
+      "26123293",
+      "26857803",
+      "12105929",
+      "24505136",
+      "19509339",
+      "9920390",
+      "22479423",
+      "15231827",
+      "23451886",
+      "23577669",
+      "34913847",
+      "18446287",
+      "15955299",
+      "26789764",
+      "26649989",
+      "38416838",
+      "36789494",
+      "37426417"
+    ],
+    "review": [
+      "36801589",
+      "24859688",
+      "25791349",
+      "27884807",
+      "25906947",
+      "25983306",
+      "31364837",
+      "12729927",
+      "36422153",
+      "22376036",
+      "16603141",
+      "9667894",
+      "11900525",
+      "32230887",
+      "21827736",
+      "18495472",
+      "25666872",
+      "30190329",
+      "17305561",
+      "9804991",
+      "28865797",
+      "9794491",
+      "26123293",
+      "26857803",
+      "23451886",
+      "23577669",
+      "15955299"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301-4622(23)00022-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

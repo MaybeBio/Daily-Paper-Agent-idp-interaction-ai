@@ -1,0 +1,476 @@
+{
+  "identity": {
+    "pmid": "36112647",
+    "doi": "10.1073/pnas.2122523119",
+    "title": "ALS mutations in the TIA-1 prion-like domain trigger highly condensed pathogenic structures."
+  },
+  "content": {
+    "abstract": "T cell intracellular antigen-1 (TIA-1) plays a central role in stress granule (SG) formation by self-assembly via the prion-like domain (PLD). In the TIA-1 PLD, amino acid mutations associated with neurodegenerative diseases, such as amyotrophic lateral sclerosis (ALS) or Welander distal myopathy (WDM), have been identified. However, how these mutations affect PLD self-assembly properties has remained elusive. In this study, we uncovered the implicit pathogenic structures caused by the mutations. NMR analysis indicated that the dynamic structures of the PLD are synergistically determined by the physicochemical properties of amino acids in units of five residues. Molecular dynamics simulations and three-dimensional electron crystallography, together with biochemical assays, revealed that the WDM mutation E384K attenuated the sticky properties, whereas the ALS mutations P362L and A381T enhanced the self-assembly by inducing beta-sheet interactions and highly condensed assembly, respectively. These results suggest that the P362L and A381T mutations increase the likelihood of irreversible amyloid fibrillization after phase-separated droplet formation, and this process may lead to pathogenicity.",
+    "keywords": [
+      "intrinsically disordered protein regions",
+      "liquid-liquid phase separation",
+      "neurodegenerative diseases"
+    ],
+    "mesh_terms": [
+      "*Amino Acids/chemistry/genetics",
+      "*Amyotrophic Lateral Sclerosis/genetics/metabolism",
+      "Distal Myopathies/genetics/metabolism",
+      "Humans",
+      "Mutation",
+      "*Prions/chemistry",
+      "*Protein Aggregation, Pathological/genetics",
+      "Protein Conformation, beta-Strand/genetics",
+      "Protein Domains/genetics",
+      "*T-Cell Intracellular Antigen-1/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sekiyama, Naotaka",
+        "Takaba, Kiyofumi",
+        "Maki-Yonekura, Saori",
+        "Akagi, Ken-Ichi",
+        "Ohtani, Yasuko",
+        "Imamura, Kayo",
+        "Terakawa, Tsuyoshi",
+        "Yamashita, Keitaro",
+        "Inaoka, Daigo",
+        "Yonekura, Koji",
+        "Kodama, Takashi S",
+        "Tochio, Hidehito"
+      ],
+      "short_names": [
+        "Sekiyama N",
+        "Takaba K",
+        "Maki-Yonekura S",
+        "Akagi KI",
+        "Ohtani Y",
+        "Imamura K",
+        "Terakawa T",
+        "Yamashita K",
+        "Inaoka D",
+        "Yonekura K",
+        "Kodama TS",
+        "Tochio H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4537-6565",
+        "ORCID: 0000-0002-7051-4598",
+        "ORCID: 0000-0002-2141-8495",
+        "ORCID: 0000-0002-8643-4031",
+        "ORCID: 0000-0001-5520-4391",
+        "ORCID: 0000-0001-6820-1907",
+        "ORCID: 0000-0003-3843-3330"
+      ],
+      "affiliations": [
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan.",
+        "Biostructural Mechanism Laboratory, RIKEN SPring-8 Center, Sayo 679-5148, Japan.",
+        "Biostructural Mechanism Laboratory, RIKEN SPring-8 Center, Sayo 679-5148, Japan.",
+        "Section of Laboratory Equipment, National Institute of Biomedical Innovation, Health, and Nutrition, Osaka 567-0085, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan.",
+        "Structural Studies Division, Medical Research Council Laboratory of Molecular Biology, Cambridge CB2 0QH, United Kingdom.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan.",
+        "Biostructural Mechanism Laboratory, RIKEN SPring-8 Center, Sayo 679-5148, Japan.",
+        "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Sendai 980-8577, Japan.",
+        "Advanced Electron Microscope Development Unit, RIKEN-JEOL Collaboration Center, RIKEN Baton Zone Program, Hyogo 679-5148, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sekiyama, Naotaka",
+        "short_name": "Sekiyama N",
+        "identifiers": [
+          "0000-0003-4537-6565"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Takaba, Kiyofumi",
+        "short_name": "Takaba K",
+        "identifiers": [],
+        "affiliations": [
+          "Biostructural Mechanism Laboratory, RIKEN SPring-8 Center, Sayo 679-5148, Japan."
+        ]
+      },
+      {
+        "full_name": "Maki-Yonekura, Saori",
+        "short_name": "Maki-Yonekura S",
+        "identifiers": [],
+        "affiliations": [
+          "Biostructural Mechanism Laboratory, RIKEN SPring-8 Center, Sayo 679-5148, Japan."
+        ]
+      },
+      {
+        "full_name": "Akagi, Ken-Ichi",
+        "short_name": "Akagi KI",
+        "identifiers": [
+          "0000-0002-7051-4598"
+        ],
+        "affiliations": [
+          "Section of Laboratory Equipment, National Institute of Biomedical Innovation, Health, and Nutrition, Osaka 567-0085, Japan."
+        ]
+      },
+      {
+        "full_name": "Ohtani, Yasuko",
+        "short_name": "Ohtani Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Imamura, Kayo",
+        "short_name": "Imamura K",
+        "identifiers": [
+          "0000-0002-2141-8495"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Terakawa, Tsuyoshi",
+        "short_name": "Terakawa T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamashita, Keitaro",
+        "short_name": "Yamashita K",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Studies Division, Medical Research Council Laboratory of Molecular Biology, Cambridge CB2 0QH, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Inaoka, Daigo",
+        "short_name": "Inaoka D",
+        "identifiers": [
+          "0000-0002-8643-4031"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Yonekura, Koji",
+        "short_name": "Yonekura K",
+        "identifiers": [
+          "0000-0001-5520-4391"
+        ],
+        "affiliations": [
+          "Biostructural Mechanism Laboratory, RIKEN SPring-8 Center, Sayo 679-5148, Japan.",
+          "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, Sendai 980-8577, Japan.",
+          "Advanced Electron Microscope Development Unit, RIKEN-JEOL Collaboration Center, RIKEN Baton Zone Program, Hyogo 679-5148, Japan."
+        ]
+      },
+      {
+        "full_name": "Kodama, Takashi S",
+        "short_name": "Kodama TS",
+        "identifiers": [
+          "0000-0001-6820-1907"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Tochio, Hidehito",
+        "short_name": "Tochio H",
+        "identifiers": [
+          "0000-0003-3843-3330"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2022 Sep 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/17 06:00",
+    "fetched_at": "2026-09-20 15:05:15"
+  },
+  "links": {
+    "cites": [
+      "42416923",
+      "41828481",
+      "41827855",
+      "41786146",
+      "41683537",
+      "41455806",
+      "41446360",
+      "41311968",
+      "41188647",
+      "40826091",
+      "40411539",
+      "39807013",
+      "39756021",
+      "39684267",
+      "39475380",
+      "39412378",
+      "39405087",
+      "38638178",
+      "38239833",
+      "37638324",
+      "37626421",
+      "36778236"
+    ],
+    "refs": [
+      "35446534",
+      "34074792",
+      "33814344",
+      "32796831",
+      "32514159",
+      "32302572",
+      "32302571",
+      "32302570",
+      "32029630",
+      "31790873",
+      "31784535",
+      "31582840",
+      "31270472",
+      "31043593",
+      "30982635",
+      "30279180",
+      "29961577",
+      "29786080",
+      "29610493",
+      "29602697",
+      "29439243",
+      "29425497",
+      "29424691",
+      "29395067",
+      "29373831",
+      "29358076",
+      "29298433",
+      "29118263",
+      "28942918",
+      "28894006",
+      "28817800",
+      "28522535",
+      "27830784",
+      "27768897",
+      "27392146",
+      "26777405",
+      "26455390",
+      "26238190",
+      "25747659",
+      "24981173",
+      "24737040",
+      "24498083",
+      "23401021",
+      "23348830",
+      "22699908",
+      "22579281",
+      "19386911",
+      "19291738",
+      "18375754",
+      "17614541",
+      "17468747",
+      "15944695",
+      "15371533",
+      "11809833",
+      "11121440",
+      "10613902",
+      "10592278",
+      "9847231",
+      "7877593",
+      "5700707",
+      "5555568",
+      "4700470"
+    ],
+    "similar": [
+      "36112647",
+      "39163160",
+      "26735904",
+      "35269506",
+      "31022909",
+      "34310938",
+      "34750982",
+      "28817800",
+      "29457785",
+      "30982635",
+      "30348840",
+      "34560580",
+      "27545621",
+      "35643629",
+      "33025330",
+      "34102212",
+      "31257248",
+      "23348830",
+      "26317470",
+      "30945222",
+      "28542905",
+      "34391803",
+      "38193795",
+      "31911437",
+      "37119915",
+      "29511089",
+      "31669277",
+      "32958236",
+      "32007267",
+      "33621982",
+      "26528920",
+      "29699721",
+      "33513942",
+      "39109535",
+      "25656065",
+      "23401021",
+      "31626953",
+      "28306503",
+      "29216908",
+      "32976566",
+      "34129687",
+      "28988034",
+      "29358076",
+      "31019288",
+      "29786080",
+      "29370934",
+      "35905138",
+      "26908597",
+      "27040765",
+      "31999698",
+      "28003185",
+      "30005071",
+      "31519910",
+      "31430111",
+      "27381509",
+      "34291734",
+      "34774801",
+      "18802454",
+      "27311318",
+      "29773329",
+      "28112502",
+      "28432364",
+      "34199513",
+      "31056746",
+      "21135580",
+      "28000730",
+      "28760994",
+      "23092511",
+      "37433222",
+      "28096265",
+      "28257838",
+      "32497448",
+      "25463043",
+      "29203801",
+      "25792726",
+      "33706787",
+      "29784771",
+      "28290665",
+      "27282841",
+      "29235362",
+      "30399166",
+      "27140399",
+      "24555412",
+      "25701498",
+      "21847013",
+      "24352465",
+      "32132204",
+      "29887144",
+      "27318084",
+      "22445064",
+      "24280224",
+      "27540759",
+      "37558109"
+    ],
+    "review": [
+      "36112647",
+      "31022909",
+      "31257248",
+      "32958236",
+      "33513942",
+      "25656065",
+      "31626953",
+      "32976566",
+      "35905138",
+      "28003185",
+      "27311318",
+      "28112502",
+      "34199513",
+      "21135580",
+      "28096265",
+      "32497448",
+      "24555412",
+      "25701498",
+      "21847013",
+      "29887144"
+    ],
+    "pmc": [
+      "9499527"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2122523119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/amyotrophiclateralsclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyotrophic Lateral Sclerosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36112647/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36112647",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://hdl.handle.net/2433/279869",
+        "provider": "Kyoto University Research Information Repository - Articles",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

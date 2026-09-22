@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "39975191",
+    "doi": "10.1101/2025.02.06.636987",
+    "title": "Nucleotide-specific RNA conformations and dynamics within ribonucleoprotein condensates."
+  },
+  "content": {
+    "abstract": "Ribonucleoprotein (RNP) condensates have distinct physiological and pathological significance, but the structure of RNA within them is not well understood. Using contrast-variation solution X-ray scattering, which discerns only the RNA structures within protein-RNA complexes, alongside ensemble-based structural modeling we characterize the conformational changes of flexible poly-A, poly-U and poly-C single stranded RNA as it interacts with polybasic peptides, eventually forming condensed coacervate mixtures. At high salt concentrations, where macromolecular association is weak, we probe association events that precede the formation of liquid-like droplets. Structural changes occur in RNA that reflect charge screening by the peptides as well as pi - pi interactions of the bases with basic residues. At lower salt concentrations, where association is enhanced, poly-A RNA within phase separated RNP mixtures exhibit a broad scattering peak, suggesting subtle ordering. Coarse-grained molecular dynamics simulations are used to elucidate the nucleotide-specific dynamics within RNP condensates. While adenine-rich condensates behave like stable semidilute solutions, uracil-rich RNA condensates appear to be compositionally fluctuating. This approach helps understand how RNA sequence contributes to the molecular grammar of RNA-protein phase separation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Tong",
+        "Hu, Qingyue",
+        "Fronhofer, Scout",
+        "Pollack, Lois"
+      ],
+      "short_names": [
+        "Wang T",
+        "Hu Q",
+        "Fronhofer S",
+        "Pollack L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7569-6386",
+        "ORCID: 0000-0002-9366-4396"
+      ],
+      "affiliations": [
+        "School of Applied and Engineering Physics, Cornell University, Ithaca, NY 14853, USA.",
+        "School of Applied and Engineering Physics, Cornell University, Ithaca, NY 14853, USA.",
+        "School of Applied and Engineering Physics, Cornell University, Ithaca, NY 14853, USA.",
+        "School of Applied and Engineering Physics, Cornell University, Ithaca, NY 14853, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Tong",
+        "short_name": "Wang T",
+        "identifiers": [
+          "0000-0002-7569-6386"
+        ],
+        "affiliations": [
+          "School of Applied and Engineering Physics, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Qingyue",
+        "short_name": "Hu Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Applied and Engineering Physics, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Fronhofer, Scout",
+        "short_name": "Fronhofer S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Applied and Engineering Physics, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Pollack, Lois",
+        "short_name": "Pollack L",
+        "identifiers": [
+          "0000-0002-9366-4396"
+        ],
+        "affiliations": [
+          "School of Applied and Engineering Physics, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Feb 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/20 06:22",
+    "fetched_at": "2026-09-21 15:50:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39726808",
+      "39505326",
+      "39366355",
+      "39320949",
+      "39303698",
+      "39256374",
+      "38649740",
+      "37932412",
+      "37557974",
+      "37399408",
+      "36762858",
+      "36513655",
+      "36410957",
+      "36378781",
+      "35795820",
+      "35773489",
+      "35501484",
+      "35378855",
+      "35179357",
+      "35108264",
+      "34785657",
+      "34103467",
+      "33686294",
+      "33679328",
+      "33650968",
+      "33510441",
+      "33453927",
+      "33357399",
+      "32913117",
+      "32632317",
+      "32571937",
+      "32134099",
+      "32040349",
+      "32029630",
+      "32006315",
+      "31804813",
+      "30926670",
+      "30099028",
+      "29961577",
+      "29913160",
+      "29650703",
+      "29650702",
+      "29483269",
+      "29424691",
+      "29376531",
+      "29289458",
+      "29026044",
+      "29021737",
+      "28935776",
+      "28562589",
+      "28306503",
+      "28243191",
+      "28034955",
+      "28028239",
+      "27599198",
+      "26836305",
+      "26474065",
+      "26406374",
+      "25866658",
+      "25537607",
+      "22682242",
+      "22203973",
+      "21509745",
+      "19460965",
+      "18192612",
+      "17411046"
+    ],
+    "similar": [
+      "39975191",
+      "41017414",
+      "38175843",
+      "23912807",
+      "37720552",
+      "37721444",
+      "39605385",
+      "36993212",
+      "35293386",
+      "35333653",
+      "39366355",
+      "33982350",
+      "40009520",
+      "35501484",
+      "39319382",
+      "39591652",
+      "40381401",
+      "30791483",
+      "35727989",
+      "36883003",
+      "41415473",
+      "40291420",
+      "36856266",
+      "38160320",
+      "31017394",
+      "39044475",
+      "36689740",
+      "31437398",
+      "35364105",
+      "33757284",
+      "39661936",
+      "36798397",
+      "36711465",
+      "38999934",
+      "36227472",
+      "37194953",
+      "40028356",
+      "39896463",
+      "37386790",
+      "40985078",
+      "39575590",
+      "33307683",
+      "36273579",
+      "38949285",
+      "38252962",
+      "40203038",
+      "40102453",
+      "38416758",
+      "40324711",
+      "33571491",
+      "36175408",
+      "41187075",
+      "39729994",
+      "41129218",
+      "33264400",
+      "35080597",
+      "39432826",
+      "37408305",
+      "33610691",
+      "37705794",
+      "32571937",
+      "40305655",
+      "41169547",
+      "28315749",
+      "33076213",
+      "34772786",
+      "38446881",
+      "38649740",
+      "34524703",
+      "40782375",
+      "30587571",
+      "38260590",
+      "29509422",
+      "33898525",
+      "37873180",
+      "35378855",
+      "35646935",
+      "37205474",
+      "37724036",
+      "37833274",
+      "34785657",
+      "40216775",
+      "39804953",
+      "36191226",
+      "38496241",
+      "39066731",
+      "37886520",
+      "30926670",
+      "40781776",
+      "39071308",
+      "26412307",
+      "39419034",
+      "37961424",
+      "36004782",
+      "36272811",
+      "35108264",
+      "40172489",
+      "36972455",
+      "33302617",
+      "40108179"
+    ],
+    "review": [
+      "39975191",
+      "38175843",
+      "37720552",
+      "39366355",
+      "40381401",
+      "35080597",
+      "28315749",
+      "34772786",
+      "30587571",
+      "29509422",
+      "33898525"
+    ],
+    "pmc": [
+      "11839098"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39975191/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.02.06.636987",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34656328",
+  "title": "Molecular simulations of IDPs: From ensemble generation to IDP interactions leading to disorder-to-order transitions.",
+  "authors": "Fatafta, Hebah; Samantray, Suman; Sayyed-Ahmad, Abdallah; Coskuner-Weber, Orkid; Strodel, Birgit",
+  "journal": "Progress in molecular biology and translational science",
+  "published_date": "2021-10-18",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述系统介绍无序蛋白的分子模拟方法，涵盖系综生成及无序-有序转变的互作机制，虽为综述但聚焦IDP互作机制建模，方法学（MD/增强采样/马尔可夫模型）对本课题有直接参考价值。",
+  "abstract": "Intrinsically disordered proteins (IDPs) lack a well-defined three-dimensional structure but do exhibit some dynamical and structural ordering. The structural plasticity of IDPs indicates that entropy-driven motions are crucial for their function. Many IDPs undergo function-related disorder-to-order transitions upon by their interaction with specific binding partners. Approaches that are based on both experimental and theoretical tools enable the biophysical characterization of IDPs. Molecular simulations provide insights into IDP structural ensembles and disorder-to-order transition mechanisms. However, such studies depend strongly on the chosen force field parameters and simulation techniques. In this chapter, we provide an overview of IDP characteristics, review all-atom force fields recently developed for IDPs, and present molecular dynamics-based simulation methods that allow IDP ensemble generation as well as the characterization of disorder-to-order transitions. In particular, we introduce metadynamics, replica exchange molecular dynamics simulations, and also kinetic models resulting from Markov State modeling, and provide various examples for the successful application of these simulation methods to IDPs.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 缺乏明确的三维结构，但确实表现出一定的动态和结构有序性。IDPs 的结构可塑性表明，熵驱动的运动对其功能至关重要。许多 IDPs 在与特定结合伙伴相互作用时，会发生与功能相关的无序到有序转变。基于实验和理论工具的方法能够对 IDPs 进行生物物理表征。分子模拟提供了对 IDP 结构集合及无序到有序转变机制的见解。然而，这类研究强烈依赖于所选择的力场参数和模拟技术。在本章中，我们概述了 IDP 的特征，回顾了近期为 IDPs 开发的全原子力场，并介绍了基于分子动力学的模拟方法，这些方法允许生成 IDP 集合以及表征无序到有序转变。特别地，我们引入了元动力学、副本交换分子动力学模拟，以及由马尔可夫状态建模产生的动力学模型，并提供了这些模拟方法成功应用于 IDPs 的多种实例。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34656328/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34656328/",
+  "paper_page_path": "papers/pubmed/34656328/index.html"
+}

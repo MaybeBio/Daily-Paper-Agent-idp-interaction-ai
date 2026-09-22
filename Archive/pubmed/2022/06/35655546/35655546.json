@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "35655546",
+    "doi": "10.1039/d2sc00028h",
+    "title": "Energetics of a protein disorder-order transition in small molecule recognition."
+  },
+  "content": {
+    "abstract": "Many proteins recognise other proteins via mechanisms that involve the folding of intrinsically disordered regions upon complex formation. Here we investigate how the selectivity of a drug-like small molecule arises from its modulation of a protein disorder-to-order transition. Binding of the compound AM-7209 has been reported to confer order upon an intrinsically disordered 'lid' region of the oncoprotein MDM2. Calorimetric measurements revealed that truncation of the lid region of MDM2 increases the apparent dissociation constant of AM-7209 250-fold. By contrast, lid truncation has little effect on the binding of the ligand Nutlin-3a. Insights into these differential binding energetics were obtained via a complete thermodynamic analysis that featured adaptive absolute alchemical free energy of binding calculations with enhanced-sampling molecular dynamics simulations. The simulations reveal that in apo MDM2 the ordered lid state is energetically disfavoured. AM-7209, but not Nutlin-3a, shows a significant energetic preference for ordered lid conformations, thus shifting the balance towards ordering of the lid in the AM-7209/MDM2 complex. The methodology reported herein should facilitate broader targeting of intrinsically disordered regions in medicinal chemistry.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mendoza-Martinez, Cesar",
+        "Papadourakis, Michail",
+        "Llabres, Salome",
+        "Gupta, Arun A",
+        "Barlow, Paul N",
+        "Michel, Julien"
+      ],
+      "short_names": [
+        "Mendoza-Martinez C",
+        "Papadourakis M",
+        "Llabres S",
+        "Gupta AA",
+        "Barlow PN",
+        "Michel J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0360-1760"
+      ],
+      "affiliations": [
+        "EaStCHEM School of Chemistry, University of Edinburgh David Brewster Road Edinburgh EH9 3FJ UK mail@julienmichel.net.",
+        "EaStCHEM School of Chemistry, University of Edinburgh David Brewster Road Edinburgh EH9 3FJ UK mail@julienmichel.net.",
+        "EaStCHEM School of Chemistry, University of Edinburgh David Brewster Road Edinburgh EH9 3FJ UK mail@julienmichel.net.",
+        "EaStCHEM School of Chemistry, University of Edinburgh David Brewster Road Edinburgh EH9 3FJ UK mail@julienmichel.net.",
+        "EaStCHEM School of Chemistry, University of Edinburgh David Brewster Road Edinburgh EH9 3FJ UK mail@julienmichel.net.",
+        "EaStCHEM School of Chemistry, University of Edinburgh David Brewster Road Edinburgh EH9 3FJ UK mail@julienmichel.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mendoza-Martinez, Cesar",
+        "short_name": "Mendoza-Martinez C",
+        "identifiers": [],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh David Brewster Road Edinburgh EH9 3FJ UK mail@julienmichel.net."
+        ]
+      },
+      {
+        "full_name": "Papadourakis, Michail",
+        "short_name": "Papadourakis M",
+        "identifiers": [],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh David Brewster Road Edinburgh EH9 3FJ UK mail@julienmichel.net."
+        ]
+      },
+      {
+        "full_name": "Llabrés, Salomé",
+        "short_name": "Llabrés S",
+        "identifiers": [],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh David Brewster Road Edinburgh EH9 3FJ UK mail@julienmichel.net."
+        ]
+      },
+      {
+        "full_name": "Gupta, Arun A",
+        "short_name": "Gupta AA",
+        "identifiers": [],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh David Brewster Road Edinburgh EH9 3FJ UK mail@julienmichel.net."
+        ]
+      },
+      {
+        "full_name": "Barlow, Paul N",
+        "short_name": "Barlow PN",
+        "identifiers": [],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh David Brewster Road Edinburgh EH9 3FJ UK mail@julienmichel.net."
+        ]
+      },
+      {
+        "full_name": "Michel, Julien",
+        "short_name": "Michel J",
+        "identifiers": [
+          "0000-0003-0360-1760"
+        ],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh David Brewster Road Edinburgh EH9 3FJ UK mail@julienmichel.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2022 May 11",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/04 06:00",
+    "fetched_at": "2026-09-20 10:49:56"
+  },
+  "links": {
+    "cites": [
+      "41535595",
+      "40532196",
+      "40427535",
+      "40328725",
+      "40068541",
+      "39960347",
+      "39715001",
+      "39466712",
+      "39254715",
+      "38078851",
+      "37902715",
+      "37285579",
+      "36080258"
+    ],
+    "refs": [
+      "35130691",
+      "34458687",
+      "33591749",
+      "33401096",
+      "33148639",
+      "32968059",
+      "32651541",
+      "32539386",
+      "32367806",
+      "32323533",
+      "31667555",
+      "31587329",
+      "31329574",
+      "30933516",
+      "30875980",
+      "30865832",
+      "30633867",
+      "30284823",
+      "30278223",
+      "29735687",
+      "29466338",
+      "28746339",
+      "28448138",
+      "28328918",
+      "28054562",
+      "28009512",
+      "27668217",
+      "27538695",
+      "27248478",
+      "27050388",
+      "26798447",
+      "26544598",
+      "26456112",
+      "26275458",
+      "26256268",
+      "26046940",
+      "25942635",
+      "25856265",
+      "25384157",
+      "24654952",
+      "24505217",
+      "23885265",
+      "23641733",
+      "23457427",
+      "23260655",
+      "22991965",
+      "22988855",
+      "22984356",
+      "22815918",
+      "19432426",
+      "19045004",
+      "18435534",
+      "17660831",
+      "17302414",
+      "16028899",
+      "14704432",
+      "9138555"
+    ],
+    "similar": [
+      "35655546",
+      "26046940",
+      "18435534",
+      "24270847",
+      "27538695",
+      "31421630",
+      "21191186",
+      "20303977",
+      "26138282",
+      "23324352",
+      "19958516",
+      "31136713",
+      "32786705",
+      "26217671",
+      "27979498",
+      "24336067",
+      "32253236",
+      "32323533",
+      "33122085",
+      "29878773",
+      "26684000",
+      "18004752",
+      "22731511",
+      "22468560",
+      "27373663",
+      "23776060",
+      "17302414",
+      "25816771",
+      "25387963",
+      "32053358",
+      "28914483",
+      "30514761",
+      "32192337",
+      "22444248",
+      "17146434",
+      "16543464",
+      "21528875",
+      "21541066",
+      "17545546",
+      "32635537",
+      "24032517",
+      "31683063",
+      "26274075",
+      "18260106",
+      "32722024",
+      "20190571",
+      "32709860",
+      "29023092",
+      "33054197",
+      "21394100",
+      "27111521",
+      "21820342",
+      "22991965",
+      "29666277",
+      "31473433",
+      "24098099",
+      "21624110",
+      "23912807",
+      "27792778",
+      "23723000",
+      "27532687",
+      "25631540",
+      "27183917",
+      "24043820",
+      "28393629",
+      "28355271",
+      "27423742",
+      "22843172",
+      "29190376",
+      "28992700",
+      "31397874",
+      "20007319",
+      "33401765",
+      "31575187",
+      "27273042",
+      "29907037",
+      "33454008",
+      "30715849",
+      "23897459",
+      "29594774",
+      "26488662",
+      "25136274",
+      "30794402",
+      "32264215"
+    ],
+    "review": [
+      "35655546",
+      "32253236",
+      "25631540"
+    ],
+    "pmc": [
+      "9093188"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35655546/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d2sc00028h",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35655546",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

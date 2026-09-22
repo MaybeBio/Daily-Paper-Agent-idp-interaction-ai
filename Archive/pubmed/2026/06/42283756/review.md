@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full methods, simulation details, or validation data
+- **Shared manuscript claim summary** The authors use coarse-grained simulations with a "driving-force" free energy decomposition strategy to quantify enthalpy and entropy contributions to liquid-liquid phase separation (LLPS) of Tau K18, and to examine how phosphorylation and RNA modulate this process. They report a closed-loop phase diagram consistent with experiments, and conclude that hydrophobic entropy dominates LLPS for K18, phosphorylated K18, and K18 + RNA systems, with phosphorylation or RNA enhancing LLPS via cooperative increases in hydrophobic entropy alongside decreases in electrostatic enthalpy.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, simulation parameters, force field details, free energy decomposition methodology, phase diagram data, error estimates, and experimental comparison details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable computational framework for dissecting thermodynamic driving forces in biomolecular LLPS, applied to a biologically relevant system. However, the evidence base is limited to the abstract, and several claims regarding dominance of hydrophobic entropy and cooperative modulation by phosphorylation and RNA cannot be fully evaluated without methodological details and quantitative results. The work is likely of interest to the computational biophysics and phase separation communities, but the current evidence does not establish the case with sufficient rigor.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, LLPS mechanisms, Tau protein aggregation and neurodegeneration, and developers of coarse-grained simulation methods for intrinsically disordered proteins. The free energy decomposition strategy may appeal to methodologists seeking quantitative tools for dissecting interaction contributions in phase-separating systems.
+- **Major strengths** The abstract addresses a significant open question in LLPS research, namely how distinct interaction types synergize or counteract, and proposes a quantitative decomposition approach. The focus on Tau K18, a disease-relevant protein, and the inclusion of phosphorylation and RNA as modulators enhance biological relevance. The claim of reproducing a closed-loop phase diagram consistent with experiments suggests some level of validation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "hydrophobic entropy" primarily drives phase separation for K18, phosphorylated K18, and K18 + RNA systems, and that phosphorylation or RNA enhances LLPS with hydrophobic entropy increasing cooperatively as electrostatic enthalpy decreases.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any quantitative data, such as free energy values, entropy-enthalpy decomposition numbers, or statistical uncertainties, to support the claim that hydrophobic entropy dominates. Without these, the assertion of dominance is not verifiable. Additionally, the term "hydrophobic entropy" is not defined in the abstract, and it is unclear how it is distinguished from other entropic contributions in the coarse-grained model.
+  - **Why it matters** The central conclusion of the paper rests on this decomposition. If the methodology for separating hydrophobic entropy from other contributions is not clearly described and validated, the claim of dominance could be an artifact of the model or the decomposition scheme.
+  - **Resolution test** Provide quantitative decomposition results, including error bars, for each system, and a clear definition and validation of the "hydrophobic entropy" term, ideally with comparison to alternative decomposition approaches.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the simulations "reproduce a closed-loop phase diagram for Tau K18, in line with experimental observation."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given on how the phase diagram was constructed, what order parameters or criteria were used to define phase separation, or how the comparison to experimental data was performed. The abstract does not specify which experimental data were used or the degree of quantitative agreement.
+  - **Why it matters** Reproducing a known phase diagram is a key validation step for the simulation model. Without details on the comparison, the claim of consistency cannot be assessed, and potential discrepancies may be hidden.
+  - **Resolution test** Show the simulated and experimental phase diagrams side by side, specify the simulation conditions, and report quantitative measures of agreement, such as critical temperature or concentration ranges.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that phosphorylation or RNA "enhances the K18 LLPS tendency" and that this is driven by a cooperative increase in hydrophobic entropy with decreasing electrostatic enthalpy.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the simulation conditions for phosphorylation (e.g., which residues are phosphorylated, how many phosphate groups are added) or for RNA (e.g., sequence, length, stoichiometry). The mechanism of cooperativity between hydrophobic entropy and electrostatic enthalpy is asserted but not explained mechanistically.
+  - **Why it matters** The regulatory effects of phosphorylation and RNA are likely sensitive to these details. Without specifying the model setup, the results may not be generalizable, and the proposed cooperative mechanism remains speculative.
+  - **Resolution test** Provide full details of the phosphorylation and RNA models, and show how the entropy and enthalpy changes vary with phosphorylation level or RNA concentration, with mechanistic interpretation.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract uses terms such as "driving-force free energy decomposition" and "hydrophobic entropy" without sufficient context for readers unfamiliar with the specific methodology.
+  - **Required correction** Briefly define these terms in the abstract or provide a one-sentence explanation of the decomposition approach.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability claim
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract claims the free energy decomposition strategy "establishes a general framework" for other biomolecular systems, but no evidence is provided that the method is transferable beyond Tau K18.
+  - **Required correction** Soften the claim or provide a brief statement of how the method could be applied to other systems, with any preliminary evidence if available.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The free energy decomposition approach appears novel in the context of LLPS simulations, but the abstract does not clearly differentiate it from existing methods, so originality is only partially evident.
+  - Scientific importance: The question of how different interaction types drive LLPS is important, and Tau K18 is a relevant system, but the abstract does not demonstrate broad implications beyond this specific case.
+  - Interdisciplinary readership: The work may appeal to biophysicists, computational chemists, and neurobiologists, but the abstract is written in a specialized manner that may limit accessibility.
+  - Technical soundness: Not assessable from the abstract alone; key methodological details and quantitative results are missing.
+  - Readability for nonspecialists: The abstract is concise but uses jargon without explanation, reducing clarity for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting approach and plausible findings, but the lack of quantitative data and methodological details prevents verification of the central claims. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that hydrophobic entropy dominates LLPS for all three systems is unsupported without quantitative decomposition data.
+- The claim of reproducing a closed-loop phase diagram in line with experiments is unverifiable without comparison details.
+- The claim of a cooperative mechanism between hydrophobic entropy and electrostatic enthalpy is speculative without mechanistic analysis.
+- The claim that the free energy decomposition strategy is a "general framework" is not supported by evidence from other systems.

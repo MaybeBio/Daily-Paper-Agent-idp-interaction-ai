@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42339383",
+  "title": "Phase separation in plants: mechanisms, functions, and a simplified workflow for investigation.",
+  "authors": "Shen, Hai; Zou, Xue; Li, Peihua; Huang, Xueli; Zheng, Shunlin; Ren, Zhitong",
+  "journal": "Frontiers in plant science",
+  "published_date": "2026-06-24",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该综述系统阐述植物中液-液相分离的机制与功能，强调IDR介导的多价互作，并给出实验流程，但缺乏AI/物理模拟方法，互作机制建模深度有限。",
+  "abstract": "Liquid-liquid phase separation (LLPS) has emerged as a fundamental mechanism organizing membrane-less compartments within cells, driving crucial biological processes. In plants, LLPS facilitates the spatiotemporal regulation of diverse functions, from growth and development, such as hormone signaling, photo-perception, and floral transition, to adaptive responses against abiotic and biotic stresses. This review outlines the properties and major driving forces governing LLPS, emphasizing multivalent interactions mediated by intrinsically disordered regions, repeated domains, and nucleic acids. Key influencing factors, including concentration, temperature, and ionic conditions, are discussed. We further describe a streamlined experimental workflow for studying plant LLPS, encompassing prediction, assessment, and validation. Understanding LLPS dynamics offers profound insights into plant adaptation and resilience, positioning phase separation as a pivotal regulatory paradigm in plant biology.",
+  "abstract_zh": "液-液相分离（liquid-liquid phase separation, LLPS）已成为细胞内组织无膜区室的基本机制，驱动关键生物学过程。在植物中，LLPS促进多种功能的时空调控，从生长发育（如激素信号传导、光感知和开花转变）到对非生物和生物胁迫的适应性响应。本综述概述了控制LLPS的特性及主要驱动力，强调由 intrinsically disordered regions（内在无序区域）、重复结构域和核酸介导的多价相互作用。讨论了关键影响因素，包括浓度、温度和离子条件。我们进一步描述了研究植物LLPS的简化实验流程，涵盖预测、评估和验证。理解LLPS动态为植物适应性和抗逆性提供了深刻见解，将相分离定位为植物生物学中的关键调控范式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42339383/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42339383/",
+  "paper_page_path": "papers/pubmed/42339383/index.html"
+}

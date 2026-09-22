@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present B-PPI, a cross-attention model using ProstT5 embeddings for bacterial protein-protein interaction (PPI) prediction. They introduce B-PPI-DB, a large-scale bacterial PPI dataset derived from STRING with 202,829 interactions across 2,646 taxa at a 1:10 positive-to-negative ratio. They report that B-PPI outperforms TT3D on bacterial data (AUPRC 0.926 vs. 0.230; F1 0.866 vs. 0.299) with faster runtime, and that the model adapts to unseen bacterial interactions with minimal fine-tuning.
+- **Visible evidence base** Abstract text only; no quantitative details on dataset construction, model architecture, training procedures, or evaluation protocols beyond the reported performance metrics
+- **Missing materials affecting confidence** Full manuscript, methods section, figures, tables, supplementary data, code availability, and any details on dataset filtering, negative sampling, cross-validation splits, or statistical testing
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable contribution to bacterial PPI prediction, addressing a genuine gap in the field. The reported performance improvement over TT3D is striking and, if reproducible, would be of considerable interest. However, the abstract alone provides insufficient evidence to evaluate the validity of the claims. Key methodological details are absent, and the magnitude of the reported difference raises questions about evaluation fairness and dataset comparability. The work is promising but not yet established from the supplied material.
+- **Who would be interested in the results, and why** Computational microbiologists, bioinformaticians working on protein function prediction, and researchers studying bacterial interaction networks. The B-PPI-DB resource would also be of interest to developers of PPI prediction tools seeking bacterial-specific benchmarks.
+- **Major strengths** The work addresses a clear and important gap, as most PPI predictors are trained on human data. The introduction of a large-scale bacterial dataset is a practical contribution. The use of structure-aware embeddings and cross-attention is a reasonable and modern architectural choice. The reported runtime advantage is practically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "B-PPI achieved substantially higher performance on bacterial data (AUPRC 0.926±0.006 vs. 0.230±0.005 and F1 0.866±0.007 vs. 0.299±0.005)"
+  - **Evidence pointer** Abstract, performance comparison section; location not provided
+  - **Concern** The reported performance gap between B-PPI and TT3D is extremely large (approximately four-fold in AUPRC). Such a gap is unusual and raises the possibility of evaluation mismatch, such as different test sets, different negative sampling strategies, or different thresholds. The abstract does not specify whether both models were evaluated on identical held-out data, whether TT3D was fine-tuned on bacterial data, or whether the comparison used the same interaction types and confidence scores from STRING.
+  - **Why it matters** If the comparison is not strictly controlled, the headline performance claim may be misleading. The credibility of the entire contribution depends on a fair and transparent benchmark.
+  - **Resolution test** Provide a detailed description of the evaluation protocol, including identical train and test splits, identical negative sampling, and confirmation that TT3D was used in a comparable setting. Report performance on a common benchmark or on multiple independent test sets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "B-PPI leverages embeddings from ProstT5, a structure-aware protein language model, and a cross-attention mechanism"
+  - **Evidence pointer** Abstract, model description; location not provided
+  - **Concern** The abstract provides no details on how ProstT5 embeddings were generated, how the cross-attention mechanism was implemented, what input features were used, how the model was trained, or what hyperparameters were chosen. Without this information, the method cannot be reproduced or independently assessed.
+  - **Why it matters** Reproducibility is a core requirement for computational tools. The absence of methodological detail prevents validation and limits the utility of the claimed framework.
+  - **Resolution test** Provide a full methods section with architecture diagrams, training details, hyperparameters, and code availability. Ideally, release the model and inference scripts.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data quality and representativeness
+  - **Claim pointer** "we constructed B-PPI-DB, a large-scale bacterial PPI dataset derived from STRING, comprising 202,829 positive and negative interactions across 2,646 taxa with a 1:10 positive-to-negative ratio"
+  - **Evidence pointer** Abstract, dataset description; location not provided
+  - **Concern** The abstract does not describe how positive and negative interactions were defined, how STRING confidence scores were thresholded, how redundancy was removed, or how the 1:10 ratio was generated. Negative sampling is a known source of bias in PPI prediction, and the choice of negatives can strongly influence performance metrics. The taxonomic distribution across 2,646 taxa is also unclear, and it is not stated whether the dataset is balanced across taxa or dominated by a few well-studied species.
+  - **Why it matters** Dataset construction directly affects model performance and generalizability. If the negative set is trivial to distinguish, reported AUPRC values may be inflated. If the dataset is taxonomically skewed, the claim of broad bacterial applicability is weakened.
+  - **Resolution test** Provide a detailed description of dataset construction, including STRING version, confidence thresholds, negative sampling strategy, redundancy filtering, and taxonomic breakdown. Show that the dataset is not trivially separable and that performance holds across diverse taxa.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "We further demonstrate that the model adapts to unseen bacterial interactions with minimal fine-tuning"
+  - **Evidence pointer** Abstract, adaptation claim; location not provided
+  - **Concern** The abstract does not specify what "unseen" means, how many taxa or interactions were held out, what fine-tuning protocol was used, or what performance was achieved before and after fine-tuning. Without these details, the claim of adaptability is not assessable.
+  - **Why it matters** Generalization to new bacterial species is a key practical requirement. The claim is central to the tool's utility but is currently unsupported by any visible evidence.
+  - **Resolution test** Provide a clear definition of the held-out setting, report performance before and after fine-tuning, and describe the fine-tuning procedure in sufficient detail for replication.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract, performance comparison; location not provided
+  - **Issue** The abstract reports AUPRC and F1 but does not report precision, recall, or ROC-AUC. It is also unclear whether the reported standard deviations come from multiple runs or cross-validation folds.
+  - **Required correction** Report additional metrics and clarify the source of variance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Runtime comparison
+  - **Evidence pointer** Abstract, runtime claim; location not provided
+  - **Issue** The abstract states "faster runtime" but provides no quantitative runtime data or hardware specifications.
+  - **Required correction** Provide runtime measurements on comparable hardware and specify the inference setting.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Resource availability
+  - **Evidence pointer** Abstract, dataset and tool description; location not provided
+  - **Issue** No mention of code or data availability, which is essential for a resource paper.
+  - **Required correction** State where the code and B-PPI-DB will be deposited and under what license.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evaluation fairness), R1-M2 (reproducibility), R1-M3 (dataset construction and bias)
+- **Assessment against Nature-style criteria**  
+  - Originality: The focus on bacterial-specific PPI prediction is a meaningful departure from human-centric models, and the dataset is a novel resource. This is a moderate strength.  
+  - Scientific importance: Bacterial PPI prediction has clear relevance to microbiology and infectious disease research. The potential impact is high if the claims hold.  
+  - Interdisciplinary readership: The work would appeal to computational biologists and microbiologists, but the abstract is written in a way that is accessible to a broad scientific audience.  
+  - Technical soundness: Not assessable from the abstract alone. The reported performance gap is suspicious and requires rigorous validation.  
+  - Readability for nonspecialists: The abstract is clear and concise, with appropriate use of terminology. It is readable for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The contribution is potentially significant, but the abstract alone does not provide sufficient methodological detail or validation to support the central claims. A full manuscript with detailed methods, controlled benchmarks, and dataset documentation would be required to assess the work properly.
+
+## Risk / unsupported claims
+- The claim that B-PPI "addresses a critical gap" is a framing statement and is not directly testable from the abstract.
+- The claim of "substantially higher performance" is unsupported without evidence of a controlled comparison.
+- The claim of adaptation to unseen interactions with "minimal fine-tuning" is unsupported without details on the held-out setting and fine-tuning protocol.
+- The dataset description is insufficient to assess its quality, representativeness, or potential for bias.
+- The runtime advantage is stated but not quantified.

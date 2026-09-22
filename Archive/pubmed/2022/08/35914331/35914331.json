@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "35914331",
+    "doi": "10.1016/j.compbiolchem.2022.107736",
+    "title": "Remote communication between unstructured and structured regions of Bcl-2 tunes its ligand binding capacity: Mechanistic insights."
+  },
+  "content": {
+    "abstract": "Bcl-2, the prototypic, anti-apoptotic member of Bcl-2 family possesses a long Intrinsically Disordered Region (IDR) of more than sixty amino acid residues. In spite of a number of experimental evidences on the influence of IDR to regulate the function of the protein, the molecular basis is not yet established. The present work with ~8micros conformational sampling of Bcl-2, using molecular dynamics in all atom description, offers a molecular mechanistic insight into the communication between the IDR and the structured region. The results indicate a highly significant role of the IDR in controlling the movements of the atoms which form the primary binding site. Although the influence of the IDR of the wild type Bcl-2 on its structured region, especially on the binding site, seems to be ordinary, but the hidden pathway of communication gets elucidated as the perturbation due to single-site phosphorylation on S70 works as a marker of the path; the contrast brought by the data obtained after truncating the IDR highlights it further. In wild type Bcl-2, apparently there is no direct communication between the IDR and binding site. But in the phosphorylated system, a communication channel between the IDR and the binding site has been established, as evidenced from the network analysis, which results in an increased correlation between the binding pocket residues and that redistributs the sampling of conformations of the system; one of the major consequences of these changes is witnessed in its enhanced affinity for binding with its partner Bax.",
+    "keywords": [
+      "Bcl-2",
+      "Disordered region",
+      "Molecular dynamics",
+      "Phosphorylation",
+      "Population shift"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "Communication",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Ligands",
+      "*Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Paul, Debarati",
+        "Basak, Premananda",
+        "Ghosh Dastidar, Shubhra"
+      ],
+      "short_names": [
+        "Paul D",
+        "Basak P",
+        "Ghosh Dastidar S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Bioinformatics, Bose Institute, P-1/12 CIT Scheme VII M, Kolkata 700054, India.",
+        "Division of Bioinformatics, Bose Institute, P-1/12 CIT Scheme VII M, Kolkata 700054, India. Electronic address: https://twitter.com/@PremanandaBasa2.",
+        "Division of Bioinformatics, Bose Institute, P-1/12 CIT Scheme VII M, Kolkata 700054, India. Electronic address: sgd@jcbose.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Paul, Debarati",
+        "short_name": "Paul D",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Bioinformatics, Bose Institute, P-1/12 CIT Scheme VII M, Kolkata 700054, India."
+        ]
+      },
+      {
+        "full_name": "Basak, Premananda",
+        "short_name": "Basak P",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Bioinformatics, Bose Institute, P-1/12 CIT Scheme VII M, Kolkata 700054, India. Electronic address: https://twitter.com/@PremanandaBasa2."
+        ]
+      },
+      {
+        "full_name": "Ghosh Dastidar, Shubhra",
+        "short_name": "Ghosh Dastidar S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Bioinformatics, Bose Institute, P-1/12 CIT Scheme VII M, Kolkata 700054, India. Electronic address: sgd@jcbose.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/02 06:00",
+    "fetched_at": "2026-09-20 12:22:47"
+  },
+  "links": {
+    "cites": [
+      "40830711"
+    ],
+    "refs": [],
+    "similar": [
+      "35914331",
+      "34883116",
+      "40693919",
+      "31724233",
+      "28486788",
+      "39993015",
+      "30823702",
+      "29507390",
+      "34243065",
+      "37125110",
+      "33030249",
+      "31671865",
+      "39539017",
+      "29550429",
+      "36997643",
+      "32544231",
+      "23760157",
+      "34571015",
+      "32824743",
+      "31804089",
+      "27016043",
+      "41347878",
+      "29414700",
+      "31003202",
+      "29791766",
+      "39653037",
+      "28780862",
+      "34681718",
+      "33627133",
+      "40183636",
+      "29309620",
+      "39933697",
+      "34799573",
+      "36987865",
+      "37905972",
+      "39384813",
+      "39589885",
+      "27037822",
+      "34942070",
+      "30304684",
+      "39446390",
+      "36153968",
+      "33076213",
+      "40574713",
+      "31441158",
+      "30058229",
+      "25817992",
+      "38942776",
+      "39093570",
+      "27807972",
+      "37443299",
+      "32553192",
+      "34825861",
+      "40997106",
+      "39537752",
+      "28355271",
+      "36938874",
+      "40923761",
+      "28924037",
+      "33577583",
+      "35658951",
+      "30878482",
+      "38705823",
+      "31512287",
+      "34576338",
+      "32933064",
+      "33779503",
+      "28597880",
+      "32654182",
+      "32722039",
+      "39190324",
+      "40467883",
+      "29039919",
+      "26742101",
+      "37269287",
+      "40944448",
+      "39267376",
+      "30802457",
+      "26735936",
+      "33184407",
+      "31999450",
+      "22803956",
+      "29844400",
+      "38018910",
+      "30855964",
+      "31136713",
+      "30471699",
+      "36959451",
+      "20480043",
+      "39453744",
+      "25017730",
+      "33030907",
+      "39271725",
+      "33936509",
+      "30071273",
+      "38870936",
+      "34461937",
+      "38230670",
+      "32561718",
+      "29066345"
+    ],
+    "review": [
+      "35914331",
+      "31003202",
+      "31441158",
+      "39093570",
+      "38705823",
+      "36959451"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(22)00116-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BAX-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

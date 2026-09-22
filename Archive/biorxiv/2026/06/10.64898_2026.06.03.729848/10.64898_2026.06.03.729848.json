@@ -1,0 +1,139 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.06.03.729848",
+  "title": "Deciphering the role of intrinsically disordered regions of FUS in recognizing U1 snRNA",
+  "doi": "10.64898/2026.06.03.729848",
+  "abstract": "Fused in Sarcoma (FUS) is an RNA-binding protein associated with neurodegenerative disorders such as amyotrophic lateral sclerosis and frontotemporal dementia. Along with its structured RNA recognition motif, FUS contains two intrinsically disordered regions (IDRs) that play important roles in RNA recognition. However, structural mechanism and dynamics of these IDRs in recognizing RNA remain elusive. We have used molecular dynamics simulations to investigate the structure and dynamics of the two IDRs, flanking the RRM domain of human FUS, in both Apo and U1 snRNA-bound states. Comparison of structural parameters and molecular interactions reveals that RNA binding stabilizes the IDRs and reduces their conformational flexibility through reorganization of intra-protein contacts and correlated movements. RNA binding also causes rearrangement of backbone dihedral angles of the IDRs and limits the formation of secondary structures such as α-helices and 3 10 helices. Interestingly, the two IDRs exhibit distinct modes of RNA recognition. The N-terminal IDR interacts mainly with the nucleotides located near the terminal regions of the stem-loop snRNA. On the other hand, the C-terminal IDR preferentially associates with the central double-stranded region through extensive interactions with the minor groove of the snRNA. Even within IDRs, we identify specific residues that associate with the snRNA more frequently than others by forming persistent hydrogen bonds. Overall, our findings suggest that the flanking disordered regions of FUS are not merely flexible linkers, but actively participate in RNA recognition through distinct interaction mechanisms. These results provide molecular-level insights into the functional roles of IDRs in recognizing stem-loop RNA.",
+  "authors": [
+    "Mitra S",
+    "Mahto FK",
+    "Maity A",
+    "Bahadur RP"
+  ],
+  "published_date": "2026-06-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729848",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729848.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1247034",
+    "raw_record": {
+      "id": "PPR1247034",
+      "source": "PPR",
+      "doi": "10.64898/2026.06.03.729848",
+      "title": "Deciphering the role of intrinsically disordered regions of FUS in recognizing U1 snRNA",
+      "authorString": "Mitra S, Mahto FK, Maity A, Bahadur RP.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mitra S",
+            "lastName": "Mitra",
+            "firstName": "Swarnadip",
+            "initials": "S"
+          },
+          {
+            "fullName": "Mahto FK",
+            "lastName": "Mahto",
+            "firstName": "Farindra Kumar",
+            "initials": "FK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0006-3614-3320"
+            }
+          },
+          {
+            "fullName": "Maity A",
+            "lastName": "Maity",
+            "firstName": "Atanu",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7795-692X"
+            }
+          },
+          {
+            "fullName": "Bahadur RP",
+            "lastName": "Bahadur",
+            "firstName": "Ranjit Prasad",
+            "initials": "RP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6705-1713"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6705-1713"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7795-692X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0006-3614-3320"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Fused in Sarcoma (FUS) is an RNA-binding protein associated with neurodegenerative disorders such as amyotrophic lateral sclerosis and frontotemporal dementia. Along with its structured RNA recognition motif, FUS contains two intrinsically disordered regions (IDRs) that play important roles in RNA recognition. However, structural mechanism and dynamics of these IDRs in recognizing RNA remain elusive. We have used molecular dynamics simulations to investigate the structure and dynamics of the two IDRs, flanking the RRM domain of human FUS, in both Apo and U1 snRNA-bound states. Comparison of structural parameters and molecular interactions reveals that RNA binding stabilizes the IDRs and reduces their conformational flexibility through reorganization of intra-protein contacts and correlated movements. RNA binding also causes rearrangement of backbone dihedral angles of the IDRs and limits the formation of secondary structures such as α-helices and 3  10 helices. Interestingly, the two IDRs exhibit distinct modes of RNA recognition. The N-terminal IDR interacts mainly with the nucleotides located near the terminal regions of the stem-loop snRNA. On the other hand, the C-terminal IDR preferentially associates with the central double-stranded region through extensive interactions with the minor groove of the snRNA. Even within IDRs, we identify specific residues that associate with the snRNA more frequently than others by forming persistent hydrogen bonds. Overall, our findings suggest that the flanking disordered regions of FUS are not merely flexible linkers, but actively participate in RNA recognition through distinct interaction mechanisms. These results provide molecular-level insights into the functional roles of IDRs in recognizing stem-loop RNA.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.06.03.729848"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-06-06",
+      "firstPublicationDate": "2026-06-04",
+      "firstIndexDate": "2026-06-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

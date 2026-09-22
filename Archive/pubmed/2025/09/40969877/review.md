@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The abstract proposes that intrinsically disordered regions (IDRs) of ZNF687 may drive phase separation (PS), and that this biophysical property could represent a pathogenic mechanism in Paget's disease of bone (PDB), with ZNF687 suggested as a potential target for further investigation.
+- **Visible evidence base** Abstract text only; no experimental data, structural prediction outputs, sequence analysis details, or interaction prediction results are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, structural prediction parameters, sequence analysis details, protein interaction prediction methodology, and any experimental validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a hypothesis-driven computational study linking ZNF687 IDRs to phase separation and PDB pathogenesis. The premise is scientifically interesting and timely, given the growing recognition of phase separation in disease mechanisms. However, the abstract provides no quantitative results, no validation of predictions, and no direct evidence connecting the proposed biophysical mechanism to PDB pathology. The claims are largely speculative at this stage, and the evidence base is insufficient to establish the proposed link.
+- **Who would be interested in the results, and why** Researchers in bone biology, particularly those studying PDB genetics and osteoclast regulation, would find the proposed connection to phase separation novel. Additionally, the broader community studying biomolecular condensates and intrinsically disordered proteins in disease would be interested in a potential new disease association. Clinicians with an interest in PDB pathogenesis might also follow this work, though the translational relevance remains distant.
+- **Major strengths** The abstract addresses a genuine gap in PDB research by introducing a biophysical perspective that has not been previously explored in this disease. The focus on ZNF687 is well justified given its established genetic association with PDB. The hypothesis is clearly articulated and testable, providing a logical framework for future experimental work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that structural predictions and sequence analyses identified IDRs within ZNF687 that may drive PS, and that protein interaction predictions suggest involvement in bone remodeling pathways.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that predictions were performed but provides no details on the methods used, the specific IDR regions identified, the confidence of these predictions, or any validation. No scores, thresholds, or comparative analyses are presented. The claim that these IDRs "may drive PS" is presented without supporting data.
+  - **Why it matters** The central hypothesis rests entirely on these predictions. Without visible evidence of the prediction quality, the IDR boundaries, or any experimental corroboration, the reader cannot assess whether the proposed mechanism is plausible or merely speculative.
+  - **Resolution test** Provide the specific IDR predictions with confidence metrics, show sequence alignments or disorder scores, and ideally include experimental validation such as in vitro phase separation assays or cellular condensate formation experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link
+  - **Claim pointer** The abstract implies that PS of ZNF687 could be a pathogenic driver of PDB, linking the biophysical property to disease mechanism.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No evidence is presented connecting ZNF687 phase separation to osteoclast activity, bone resorption, or any PDB-relevant phenotype. The abstract moves from "IDRs may drive PS" to "potentially pathogenic driver" without any intermediate evidence. The connection to bone remodeling pathways is mentioned only as a prediction.
+  - **Why it matters** Establishing a disease mechanism requires demonstrating a functional consequence. The abstract does not show how PS of ZNF687 would alter its function, affect downstream signaling, or contribute to the osteoclast abnormalities characteristic of PDB.
+  - **Resolution test** Provide experimental data showing that ZNF687 PS affects its known functions, that disease-associated mutations alter PS behavior, or that disruption of PS in cellular or animal models produces PDB-relevant phenotypes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty contextualization
+  - **Claim pointer** The abstract states that PS is "unexplored in the PDB" and that this study provides a "novel perspective."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not cite or discuss any prior work on phase separation in bone diseases or in osteoclast biology. While PS may be unexplored specifically in PDB, the broader context of PS in skeletal disorders is not addressed.
+  - **Why it matters** Without proper contextualization, the novelty claim cannot be evaluated. If PS has been studied in other bone diseases or in osteoclast differentiation, the novelty of this work would be substantially reduced.
+  - **Resolution test** Include a literature review in the full manuscript that systematically addresses prior PS research in bone biology and clearly articulates what is genuinely novel about the PDB application.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The phrase "the impact of genetic mutations on the biophysical properties and functional dynamics of biomacromolecules remain unclear" uses "remain" with a singular subject, which is grammatically incorrect.
+  - **Required correction** Change "remain" to "remains" for subject-verb agreement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract concludes that ZNF687 is "a potential target for further investigation," which is vague. It is unclear whether this means a therapeutic target, a diagnostic marker, or simply a research focus.
+  - **Required correction** Specify what type of target is intended and what further investigation would entail.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Abstract methods description
+  - **Evidence pointer** Abstract, final paragraph
+  - **Issue** The abstract mentions "structural predictions and sequence analyses" and "protein interaction predictions" but does not name the specific tools or databases used.
+  - **Required correction** Include the names of prediction tools and databases in the abstract or ensure they are prominently described in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The predictions must be shown with quality metrics and ideally validated experimentally. The causal link between ZNF687 PS and PDB pathogenesis must be demonstrated with functional data. Without these, the central hypothesis remains unsupported.
+- **Assessment against Nature-style criteria** Originality: The application of phase separation concepts to PDB is novel and potentially original, though the broader field of PS in disease is well established. Scientific importance: If the hypothesis is validated, it could open a new avenue for understanding PDB pathogenesis, but the current evidence does not establish importance. Interdisciplinary readership: The topic bridges structural biology, biophysics, and bone biology, which could attract a broad audience if the evidence is compelling. Technical soundness: Cannot be assessed from the abstract alone; the prediction methods and any validation are not visible. Readability for nonspecialists: The abstract is generally accessible, though terms like "phase separation" and "intrinsically disordered regions" are used without brief definitions for readers outside the field.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and worth pursuing, but the abstract alone does not provide sufficient evidence to support the claims. The authors should be encouraged to submit a full manuscript with detailed prediction data and experimental validation for proper evaluation.
+
+## Risk / unsupported claims
+- The claim that IDRs within ZNF687 "may drive PS" is unsupported without visible prediction data or experimental evidence.
+- The claim that ZNF687 is a "potentially pathogenic driver" of PDB is unsupported, as no functional or mechanistic evidence is presented.
+- The claim that protein interaction predictions suggest involvement in bone remodeling pathways is unverifiable without details of the prediction methods and results.
+- The assertion that PS is "unexplored in the PDB" cannot be verified without a literature review.
+- The overall implication that this work provides a "novel perspective linking PS to PDB pathogenesis" is premature given the lack of evidence connecting these elements.

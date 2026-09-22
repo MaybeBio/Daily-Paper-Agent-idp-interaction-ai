@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42283756",
+  "title": "Deciphering the Molecular Mechanisms of Tau K18 Liquid-Liquid Phase Separation and Its Phosphorylation/RNA-Mediated Modulation via Coarse-Grained Simulations.",
+  "authors": "Yan, Qinglin; Liu, Yangchen; Wang, Tinglan; Liu, Zhirong; Zhang, Zhuqing",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2026-06-12",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化模拟结合自由能分解，系统解析Tau K18无序蛋白液-液相分离的熵/焓驱动机制及磷酸化/RNA调控，直接命中无序蛋白相分离互作机制建模，方法为物理模拟，高度契合课题。",
+  "abstract": "Liquid-liquid phase separation (LLPS), which underlies the formation of various biomolecular condensates, has attracted extensive attention because of its close association with various physiological and pathological processes. Although weak, physical, and multivalent interactions have been recognized to drive biomolecular LLPS, it remains challenging to elucidate how distinct types of molecular interactions synergize with or counteract one another to drive LLPS and which interaction dominates the process. In this work, via coarse-grained model simulations, we employed a \"driving-force\" free energy decomposition strategy to quantify the contributions of enthalpy and entropy in LLPS, taking the assemblies of the Tau K18 fragment as model systems. The regulatory mechanism of phosphorylation and RNA in condensate formation was also explored. Our simulation results reproduce a closed-loop phase diagram for Tau K18, in line with experimental observation. Detailed decomposition analysis of driving-force free energy reveals that the phase separation of the K18, phosphorylated K18, and K18 + RNA systems is primarily driven by hydrophobic entropy. Phosphorylation or RNA enhances the K18 LLPS tendency, with hydrophobic entropy increasing cooperatively as electrostatic enthalpy decreases. These findings provide insights into the mechanism of Tau K18 LLPS and its regulation, highlighting the delicate balance between different molecular driving forces involved in the phase separation process. The free energy decomposition strategy employed in this study establishes a general framework for quantifying contributions from distinct driving components in the phase separation of related biomolecular systems.",
+  "abstract_zh": "液-液相分离（LLPS）是多种生物分子凝聚体形成的基础，因其与多种生理和病理过程密切相关而受到广泛关注。尽管已认识到弱、物理和多价相互作用驱动生物分子LLPS，但阐明不同类型分子相互作用如何协同或拮抗以驱动LLPS，以及哪种相互作用主导该过程，仍具挑战性。在本工作中，通过粗粒化模型模拟，我们采用了一种“驱动力”自由能分解策略来量化LLPS中焓和熵的贡献，以Tau K18片段的组装作为模型系统。还探讨了磷酸化和RNA在凝聚体形成中的调控机制。我们的模拟结果再现了Tau K18的闭环相图，与实验观察一致。驱动力自由能的详细分解分析揭示，K18、磷酸化K18及K18 + RNA系统的相分离主要由疏水熵驱动。磷酸化或RNA增强K18的LLPS倾向，其中疏水熵协同增加，而静电焓降低。这些发现为Tau K18 LLPS及其调控机制提供了见解，突显了相分离过程中不同分子驱动力之间的精细平衡。本研究所采用的自由能分解策略为量化相关生物分子系统相分离中不同驱动组分的贡献建立了一个通用框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42283756/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42283756/",
+  "paper_page_path": "papers/pubmed/42283756/index.html"
+}

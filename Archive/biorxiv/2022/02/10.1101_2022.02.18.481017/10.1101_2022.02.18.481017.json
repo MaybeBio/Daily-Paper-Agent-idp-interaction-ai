@@ -1,0 +1,156 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.02.18.481017",
+  "title": "Protein compactness and interaction valency define the architecture of a biomolecular condensate across scales",
+  "doi": "10.1101/2022.02.18.481017",
+  "abstract": "Non-membrane-bound biomolecular condensates have been proposed to represent an important mode of subcellular organization in diverse biological settings. However, the fundamental principles governing the spatial organization and dynamics of condensates at the atomistic level remain unclear. The S. cerevisiae Lge1 protein is required for histone H2B ubiquitination and its N-terminal intrinsically disordered fragment (Lge1 1-80 ) undergoes robust phase separation. This study connects single- and multi-chain all-atom molecular dynamics simulations of Lge1 1-80 with the in vitro behavior of Lge1 1-80 condensates. Analysis of modelled protein-protein interactions elucidates the key determinants of Lge1 1-80 condensate formation and links configurational entropy, valency and compactness of proteins inside the condensates. A newly derived analytical formalism, related to colloid fractal cluster formation, describes condensate architecture across length scales as a function of protein valency and compactness. In particular, the formalism provides an atomistically resolved model of Lge1 1-80 condensates on the scale of hundreds of nanometers starting from individual protein conformers captured in simulations. The simulation-derived fractal dimensions of condensates of Lge1 1-80 and its mutants agree with their in vitro morphologies. The presented framework enables a multiscale description of biomolecular condensates and embeds their study in a wider context of colloid self-organization.",
+  "authors": [
+    "Polyansky AA",
+    "Gallego LD",
+    "Efremov RG",
+    "Köhler A",
+    "Zagrovic B"
+  ],
+  "published_date": "2022-02-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.02.18.481017",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.02.18.481017.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR456480",
+    "raw_record": {
+      "id": "PPR456480",
+      "source": "PPR",
+      "doi": "10.1101/2022.02.18.481017",
+      "title": "Protein compactness and interaction valency define the architecture of a biomolecular condensate across scales",
+      "authorString": "Polyansky AA, Gallego LD, Efremov RG, Köhler A, Zagrovic B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Polyansky AA",
+            "lastName": "Polyansky",
+            "firstName": "Anton",
+            "initials": "AA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1011-2706"
+            }
+          },
+          {
+            "fullName": "Gallego LD",
+            "lastName": "Gallego",
+            "firstName": "Laura",
+            "initials": "LD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8481-8747"
+            }
+          },
+          {
+            "fullName": "Efremov RG",
+            "lastName": "Efremov",
+            "firstName": "Roman",
+            "initials": "RG"
+          },
+          {
+            "fullName": "Köhler A",
+            "lastName": "Köhler",
+            "firstName": "Alwin",
+            "initials": "A"
+          },
+          {
+            "fullName": "Zagrovic B",
+            "lastName": "Zagrovic",
+            "firstName": "Bojan",
+            "initials": "B"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8481-8747"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1011-2706"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Non-membrane-bound biomolecular condensates have been proposed to represent an important mode of subcellular organization in diverse biological settings. However, the fundamental principles governing the spatial organization and dynamics of condensates at the atomistic level remain unclear. The  S. cerevisiae Lge1 protein is required for histone H2B ubiquitination and its N-terminal intrinsically disordered fragment (Lge1  1-80 ) undergoes robust phase separation. This study connects single- and multi-chain all-atom molecular dynamics simulations of Lge1  1-80 with the  in vitro behavior of Lge1  1-80 condensates. Analysis of modelled protein-protein interactions elucidates the key determinants of Lge1  1-80 condensate formation and links configurational entropy, valency and compactness of proteins inside the condensates. A newly derived analytical formalism, related to colloid fractal cluster formation, describes condensate architecture across length scales as a function of protein valency and compactness. In particular, the formalism provides an atomistically resolved model of Lge1  1-80 condensates on the scale of hundreds of nanometers starting from individual protein conformers captured in simulations. The simulation-derived fractal dimensions of condensates of Lge1  1-80 and its mutants agree with their  in vitro morphologies. The presented framework enables a multiscale description of biomolecular condensates and embeds their study in a wider context of colloid self-organization.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/02/19/2022.02.18.481017.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.02.18.481017"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37470705",
+            "reference": "eLife. 2023 Jul;12:e80038",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-02-20",
+      "firstPublicationDate": "2022-02-19",
+      "firstIndexDate": "2022-02-20",
+      "hasEvaluations": "Y"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34369007",
+  "title": "Dimerization underlies the aggregation propensity of intrinsically disordered coiled-coil domain-containing 124.",
+  "authors": "Tuzlakoglu Ozturk, Merve; Gullulu, Omer",
+  "journal": "Proteins",
+  "published_date": "2021-08-10",
+  "window": {
+    "start": "2021-08-09",
+    "end": "2021-08-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合AI建模、分子对接与BiFC等实验，表征了无序蛋白CCDC124的二聚化/寡聚化倾向及其聚集机制，直接契合无序蛋白介导的蛋白互作机制建模主题。",
+  "abstract": "Coiled-coil domain-containing 124 (CCDC124) is a recently discovered ribosome-binding protein conserved in eukaryotes. CCDC124 has regulatory functions on the mediation of reversible ribosomal hibernation and translational recovery by direct attachment to large subunit ribosomal protein uL5, 25S rRNA backbone, and tRNA-binding P/A-site major groove. Moreover, it independently mediates cell division and cellular stress response by facilitating cytokinetic abscission and disulfide stress-dependent transcriptional regulation, respectively. However, the structural characterization and intracellular physiological status of CCDC124 remain unknown. In this study, we employed advanced in silico protein modeling and characterization tools to generate a native-like tertiary structure of CCDC124 and examine the disorder, low sequence complexity, and aggregation propensities, as well as high-order dimeric/oligomeric states. Subsequently, dimerization of CCDC124 was investigated with co-immunoprecipitation (CO-IP) analysis, immunostaining, and a recent live-cell protein-protein interaction method, bimolecular fluorescence complementation (BiFC). Results revealed CCDC124 as a highly disordered protein consisting of low complexity regions at the N-terminus and an aggregation sequence (151-IAVLSV-156) located in the middle region. Molecular docking and post-docking binding free energy analyses highlighted a potential involvement of V153 residue on the generation of high-order dimeric/oligomeric structures. Co-IP, immunostaining, and BiFC analyses were used to further confirm the dimeric state of CCDC124 predominantly localized at the cytoplasm. In conclusion, our findings revealed in silico structural characterization and in vivo subcellular physiological state of CCDC124, suggesting low-complexity regions located at the N-terminus of disordered CCDC124 may regulate the formation of aggregates or high-order dimeric/oligomeric states.",
+  "abstract_zh": "含卷曲螺旋结构域蛋白124（CCDC124）是一种最近发现的真核生物中保守的核糖体结合蛋白。CCDC124通过直接附着于大亚基核糖体蛋白uL5、25S rRNA骨架及tRNA结合P/A位点大沟，对可逆性核糖体休眠和翻译恢复的调控具有调节功能。此外，它还分别通过促进胞质分裂脱落和二硫键应激依赖性转录调控，独立介导细胞分裂和细胞应激反应。然而，CCDC124的结构特征及细胞内生理状态仍未知。在本研究中，我们采用先进的计算机模拟蛋白质建模和表征工具，生成了CCDC124的类天然三级结构，并检查了其无序性、低序列复杂性、聚集倾向以及高阶二聚体/寡聚体状态。随后，通过免疫共沉淀（CO-IP）分析、免疫染色和一种最新的活细胞蛋白质-蛋白质相互作用方法——双分子荧光互补（BiFC），研究了CCDC124的二聚化。结果显示，CCDC124是一种高度无序的蛋白质，包含位于N端的低复杂性区域和位于中间区域的聚集序列（151-IAVLSV-156）。分子对接及对接后结合自由能分析强调了V153残基在生成高阶二聚体/寡聚体结构中的潜在参与。CO-IP、免疫染色和BiFC分析进一步确认了CCDC124的二聚体状态，其主要定位于细胞质。总之，我们的发现揭示了CCDC124的计算机模拟结构特征和体内亚细胞生理状态，表明位于无序CCDC124 N端的低复杂性区域可能调控聚集体或高阶二聚体/寡聚体状态的形成。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34369007/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34369007/",
+  "paper_page_path": "papers/pubmed/34369007/index.html"
+}

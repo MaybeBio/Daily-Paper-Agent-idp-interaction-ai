@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39660892",
+  "title": "Recent Progress in Modeling and Simulation of Biomolecular Crowding and Condensation Inside Cells.",
+  "authors": "Mathur, Apoorva; Ghosh, Rikhia; Nunes-Alves, Ariane",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2024-12-11",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 7,
+  "one_liner_zh": "综述了细胞内大分子拥挤与蛋白凝聚的物理模拟和数据驱动计算方法，涵盖扩散、结合及相分离机制，虽非聚焦IDP但建模思路对无序蛋白互作机制研究有迁移启发。",
+  "abstract": "Macromolecular crowding in the cellular cytoplasm can potentially impact diffusion rates of proteins, their intrinsic structural stability, binding of proteins to their corresponding partners as well as biomolecular organization and phase separation. While such intracellular crowding can have a large impact on biomolecular structure and function, the molecular mechanisms and driving forces that determine the effect of crowding on dynamics and conformations of macromolecules are so far not well understood. At a molecular level, computational methods can provide a unique lens to investigate the effect of macromolecular crowding on biomolecular behavior, providing us with a resolution that is challenging to reach with experimental techniques alone. In this review, we focus on the various physics-based and data-driven computational methods developed in the past few years to investigate macromolecular crowding and intracellular protein condensation. We review recent progress in modeling and simulation of biomolecular systems of varying sizes, ranging from single protein molecules to the entire cellular cytoplasm. We further discuss the effects of macromolecular crowding on different phenomena, such as diffusion, protein-ligand binding, and mechanical and viscoelastic properties, such as surface tension of condensates. Finally, we discuss some of the outstanding challenges that we anticipate the community addressing in the next few years in order to investigate biological phenomena in model cellular environments by reproducing in vivo conditions as accurately as possible.",
+  "abstract_zh": "细胞质中的大分子拥挤（macromolecular crowding）可能影响蛋白质的扩散速率、其内在结构稳定性、蛋白质与其相应伙伴的结合，以及生物分子组织和相分离（phase separation）。尽管这种细胞内拥挤可能对生物分子结构和功能产生重大影响，但迄今为止，决定拥挤对大分子动力学和构象影响的分子机制和驱动力尚未被充分理解。在分子层面，计算方法可以提供独特的视角来研究大分子拥挤对生物分子行为的影响，提供我们仅凭实验技术难以达到的分辨率。在本综述中，我们聚焦于过去几年开发的各种基于物理和数据驱动的计算方法，以研究大分子拥挤和细胞内蛋白质凝聚。我们回顾了从单个蛋白质分子到整个细胞质等不同大小生物分子系统建模和模拟的最新进展。我们进一步讨论了大分子拥挤对不同现象的影响，如扩散、蛋白质-配体结合，以及机械和粘弹性特性，如凝聚体的表面张力。最后，我们讨论了一些突出的挑战，预计社区将在未来几年内解决这些挑战，以便通过尽可能准确地再现体内条件来研究模型细胞环境中的生物现象。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39660892/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39660892/",
+  "paper_page_path": "papers/pubmed/39660892/index.html"
+}

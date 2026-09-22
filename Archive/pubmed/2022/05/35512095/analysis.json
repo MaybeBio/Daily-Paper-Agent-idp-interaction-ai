@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35512095",
+  "title": "Competing interactions give rise to two-state behavior and switch-like transitions in charge-rich intrinsically disordered proteins.",
+  "authors": "Zeng, Xiangze; Ruff, Kiersten M; Pappu, Rohit V",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2022-05-06",
+  "window": {
+    "start": "2022-05-02",
+    "end": "2022-05-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过原子模拟揭示电荷富集无序蛋白在球状与自回避行走两种状态间的两态行为及开关式转变，聚焦IDP构象机制，虽未直接研究PPI，但其竞争性相互作用建模思路对无序蛋白互作机制研究有重要启发。",
+  "abstract": "The most commonly occurring intrinsically disordered proteins (IDPs) are polyampholytes, which are defined by the duality of low net charge per residue and high fractions of charged residues. Recent experiments have uncovered nuances regarding sequence-ensemble relationships of model polyampholytic IDPs. These include differences in conformational preferences for sequences with lysine vs. arginine and the suggestion that well-mixed sequences form a range of conformations, including globules, conformations with ensemble averages that are reminiscent of ideal chains, or self-avoiding walks. Here, we explain these observations by analyzing results from atomistic simulations. We find that polyampholytic IDPs generally sample two distinct stable states, namely, globules and self-avoiding walks. Globules are favored by electrostatic attractions between oppositely charged residues, whereas self-avoiding walks are favored by favorable free energies of hydration of charged residues. We find sequence-specific temperatures of bistability at which globules and self-avoiding walks can coexist. At these temperatures, ensemble averages over coexisting states give rise to statistics that resemble ideal chains without there being an actual counterbalancing of intrachain and chain-solvent interactions. At equivalent temperatures, arginine-rich sequences tilt the preference toward globular conformations whereas lysine-rich sequences tilt the preference toward self-avoiding walks. We also identify differences between aspartate- and glutamate-containing sequences, whereby the shorter aspartate side chain engenders preferences for metastable, necklace-like conformations. Finally, although segregation of oppositely charged residues within the linear sequence maintains the overall two-state behavior, compact states are highly favored by such systems.",
+  "abstract_zh": "最常见的固有无序蛋白（IDPs）是多性聚电解质，其定义特征为每个残基的净电荷低且带电残基比例高。近期实验揭示了模型多性聚电解质IDPs序列-构象系综关系的细微之处。这些包括含赖氨酸与精氨酸序列在构象偏好上的差异，以及混合良好的序列可能形成一系列构象，包括球状体、系综平均值类似于理想链或自回避行走的构象。在此，我们通过分析原子模拟结果来解释这些观察。我们发现多性聚电解质IDPs通常采样两种不同的稳定状态，即球状体和自回避行走。球状体由带相反电荷残基间的静电吸引所促进，而自回避行走则由带电残基有利的水合自由能所促进。我们发现了序列特异性的双稳态温度，在此温度下球状体和自回避行走可以共存。在这些温度下，共存状态的系综平均产生类似于理想链的统计特征，而实际上并不存在链内与链-溶剂相互作用的真正平衡。在等效温度下，富含精氨酸的序列倾向于球状构象，而富含赖氨酸的序列则倾向于自回避行走。我们还识别了含天冬氨酸和谷氨酸序列之间的差异，其中较短的天冬氨酸侧链导致对亚稳态项链状构象的偏好。最后，尽管线性序列中带相反电荷残基的分离维持了整体双态行为，但此类系统高度偏好紧凑状态。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35512095/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35512095/",
+  "paper_page_path": "papers/pubmed/35512095/index.html"
+}

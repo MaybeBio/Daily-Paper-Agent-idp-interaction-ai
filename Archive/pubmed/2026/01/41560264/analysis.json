@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41560264",
+  "title": "Tuning nuclear rheology through transient chromatin cross-links.",
+  "authors": "Zhang, Yin-Dong; Wu, Chao-Hao; Shi, Han-Xuan; Merlitz, Holger; Bloom, Kerry S; Forest, M Gregory; Wu, Chen-Xu; Cao, Xue-Zheng",
+  "journal": "Physical review. E",
+  "published_date": "2026-01-21",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用珠簧聚合物模型模拟核仁中染色质-蛋白瞬态交联对相分离和力学性质的影响，虽对象为染色质而非IDP，但蛋白介导桥接与相分离的机制建模思路对无序蛋白介导PPI和凝聚体研究有可迁移启发。",
+  "abstract": "In eukaryotic cells, the nucleolus is a pivotal subnuclear organelle, instrumental in ribosomal RNA synthesis and nuclear organization. Although the unique viscoelastic properties of the nucleolus are associated with transient interactions between chromatin and regulatory proteins, the specific mechanistic details driving nucleolar phase separation and mechanical responses have remained largely undefined. In this study, we employ a computational approach to elucidate chromatin-protein interactions within the nucleolus of budding yeast, using a sophisticated bead-spring polymer model. This model integrates DNA and nucleolar architectures with dynamic simulations of interactions involving chromosomal structural maintenance proteins and rDNA transcriptional regulators through systematically varied cross-linking kinetics. Our findings reveal that modulations in protein-DNA interactions critically dictate the phase behavior, relaxation dynamics, and viscoelastic properties of the nucleolus, underscoring a complex but precise regulatory mechanism at play. Notably, protein-mediated bridging emerges as a critical factor enhancing nucleolar condensation and modulating stress relaxation, highlighting the transformative role of transient cross-linking in nuclear mechanics regulation. These insights not only deepen our understanding of nucleolar function but also open avenues for interventions in genetic engineering and disease therapeutics.",
+  "abstract_zh": "在真核细胞中，核仁是一个关键的亚核细胞器，在核糖体RNA合成和核组织方面发挥着重要作用。尽管核仁独特的粘弹性特性与染色质和调节蛋白之间的瞬时相互作用有关，但驱动核仁相分离和机械响应的具体机制细节在很大程度上仍未明确。在本研究中，我们采用计算方法，利用精细的珠-弹簧聚合物模型，阐明出芽酵母核仁内的染色质-蛋白质相互作用。该模型将DNA和核仁结构整合，并通过系统变化的交联动力学，模拟涉及染色体结构维持蛋白和rDNA转录调节因子的相互作用动态。我们的研究结果表明，蛋白质-DNA相互作用的调节关键性地决定了核仁的相行为、松弛动力学和粘弹性特性，凸显了其中复杂而精确的调控机制。值得注意的是，蛋白质介导的桥接成为增强核仁凝聚和调节应力松弛的关键因素，强调了瞬时交联在核力学调控中的变革性作用。这些见解不仅加深了我们对核仁功能的理解，还为基因工程和疾病治疗中的干预开辟了途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41560264/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41560264/",
+  "paper_page_path": "papers/pubmed/41560264/index.html"
+}

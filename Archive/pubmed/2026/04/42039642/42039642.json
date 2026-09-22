@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "42039642",
+    "doi": "10.64898/2026.04.16.718858",
+    "title": "The Effects of Phosphorylation on the Structure and Function of Motif A, an Intrinsically Disordered Region within SIRT1."
+  },
+  "content": {
+    "abstract": "The NAD(+) dependent deacetylase sirtuin-1 (SIRT1) is known to elicit cellular defenses against aging, cancer, and other aberrant pathologies. Previous studies have identified an intrinsically disordered region of SIRT1 comprised of N-terminal residues 1-52, herein referred to as motif A, which activates SIRT1 activity, likely through intramolecular interactions. Additionally, phosphorylation of N-terminal residues Ser27 and Ser47 has been shown to be important for regulating SIRT1 activity and stability. The lack of in vitro characterization of these effects hampers our further understanding of the role of motif A in SIRT1 regulation. In this study, we elucidate the role phosphorylation plays in motif A's structure as well as its regulatory effects on SIRT1 activity against Ac-p65. We find that phosphomimetic mutation at Ser27 significantly increases the activation effect of motif A towards SIRT1. This result is supported by molecular dynamics simulations of the phosphomimetics, which reveal stabilization of different transient structures for motif A depending on whether Ser27 and Ser47 have been modified. A key finding suggested by this study is that phosphorylation of S27 appears to activate SIRT1 by causing motif A, which is intrinsically disordered in the WT, to fold into an ordered structure. This conclusion is based on both the experimental findings and simulation results. These findings contribute to our understanding of SIRT1 regulation, specifically the role played by phosphorylation within the N-terminal disordered region.",
+    "keywords": [
+      "Intrinsically Disordered Regions",
+      "Lysine Deacetylase",
+      "Phosphorylation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Richter, Sabrina M",
+        "Bui, Hoang-Long",
+        "Chen, Addison",
+        "Tannous, Chloe",
+        "Butler, Benjamin R",
+        "Bennett, Sophia D",
+        "Nguyen, Samson Quang-Anh",
+        "Prado, Justin",
+        "Mohamed, Ayan",
+        "DuBois, Isaac A",
+        "Tadros, Emile",
+        "Thai, Nhu Tam",
+        "Guan, Selina Lima",
+        "Peralta, Carla Marie",
+        "Kwong, Andy",
+        "Hawk, Laura M L",
+        "Grazioli, Gianmarc",
+        "Wang, Ningkun"
+      ],
+      "short_names": [
+        "Richter SM",
+        "Bui HL",
+        "Chen A",
+        "Tannous C",
+        "Butler BR",
+        "Bennett SD",
+        "Nguyen SQ",
+        "Prado J",
+        "Mohamed A",
+        "DuBois IA",
+        "Tadros E",
+        "Thai NT",
+        "Guan SL",
+        "Peralta CM",
+        "Kwong A",
+        "Hawk LML",
+        "Grazioli G",
+        "Wang N"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-3066-3685",
+        "ORCID: 0000-0001-7176-3863",
+        "ORCID: 0000-0003-2559-5103",
+        "ORCID: 0000-0003-3545-5323"
+      ],
+      "affiliations": [
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, Grand Valley State University, Allendale, MI.",
+        "Department of Chemistry, Grand Valley State University, Allendale, MI.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, Grand Valley State University, Allendale, MI.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112.",
+        "Department of Chemistry, San Jose State University, San Jose, CA, 95112."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Richter, Sabrina M",
+        "short_name": "Richter SM",
+        "identifiers": [
+          "0009-0009-3066-3685"
+        ],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "Bui, Hoang-Long",
+        "short_name": "Bui HL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "Chen, Addison",
+        "short_name": "Chen A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "Tannous, Chloe",
+        "short_name": "Tannous C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "Butler, Benjamin R",
+        "short_name": "Butler BR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "Bennett, Sophia D",
+        "short_name": "Bennett SD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Samson Quang-Anh",
+        "short_name": "Nguyen SQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "Prado, Justin",
+        "short_name": "Prado J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "Mohamed, Ayan",
+        "short_name": "Mohamed A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "DuBois, Isaac A",
+        "short_name": "DuBois IA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Grand Valley State University, Allendale, MI."
+        ]
+      },
+      {
+        "full_name": "Tadros, Emile",
+        "short_name": "Tadros E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Grand Valley State University, Allendale, MI."
+        ]
+      },
+      {
+        "full_name": "Thai, Nhu Tam",
+        "short_name": "Thai NT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "Guan, Selina Lima",
+        "short_name": "Guan SL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "Peralta, Carla Marie",
+        "short_name": "Peralta CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "Kwong, Andy",
+        "short_name": "Kwong A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "Hawk, Laura M L",
+        "short_name": "Hawk LML",
+        "identifiers": [
+          "0000-0001-7176-3863"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Grand Valley State University, Allendale, MI."
+        ]
+      },
+      {
+        "full_name": "Grazioli, Gianmarc",
+        "short_name": "Grazioli G",
+        "identifiers": [
+          "0000-0003-2559-5103"
+        ],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      },
+      {
+        "full_name": "Wang, Ningkun",
+        "short_name": "Wang N",
+        "identifiers": [
+          "0000-0003-3545-5323"
+        ],
+        "affiliations": [
+          "Department of Chemistry, San José State University, San José, CA, 95112."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Apr 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/27 12:34",
+    "fetched_at": "2026-09-18 02:54:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38747347",
+      "38718835",
+      "32939066",
+      "30415949",
+      "29158945",
+      "26631602",
+      "26134520",
+      "26109052",
+      "25772354",
+      "23530517",
+      "23311358",
+      "22753194",
+      "22689782",
+      "22157016",
+      "22017869",
+      "21500218",
+      "21471201",
+      "21245319",
+      "20027304",
+      "19615966",
+      "19444816",
+      "19107194",
+      "19001369",
+      "18838864",
+      "18351591",
+      "18046409",
+      "17964266",
+      "16222654",
+      "15744310",
+      "15152190",
+      "11672523",
+      "10873683",
+      "8744570"
+    ],
+    "similar": [
+      "42039642",
+      "42610734",
+      "23912807",
+      "23497088",
+      "20027304",
+      "36361557",
+      "41330221",
+      "34826187",
+      "42475469",
+      "19680552",
+      "28554535",
+      "36402223",
+      "22157016",
+      "27810897",
+      "22962634",
+      "39150724",
+      "23548308",
+      "35451939",
+      "37109478",
+      "19107194",
+      "34243065",
+      "40673718",
+      "19923004",
+      "38041394",
+      "30973934",
+      "41889773",
+      "30459716",
+      "25533957",
+      "26742101",
+      "26407304",
+      "26735936",
+      "26012634",
+      "26305482",
+      "25924011",
+      "32531731",
+      "23891935",
+      "30415949",
+      "29719201",
+      "40101966",
+      "30205735",
+      "42500827",
+      "15632193",
+      "31136713",
+      "31951234",
+      "40057076",
+      "34929201",
+      "17283066",
+      "20167603",
+      "19236849",
+      "25374254",
+      "34216621",
+      "33608631",
+      "22553202",
+      "26908877",
+      "29789426",
+      "33627133",
+      "23755229",
+      "34179102",
+      "16917544",
+      "21191186",
+      "24211251",
+      "30448921",
+      "30853683",
+      "42225042",
+      "30937482",
+      "39936184",
+      "27384990",
+      "40788873",
+      "27756843",
+      "39539017",
+      "23189058",
+      "36924088",
+      "23607785",
+      "29695509",
+      "37125110",
+      "27853436",
+      "40991201",
+      "21471201",
+      "31548393",
+      "35317227",
+      "32911193",
+      "31945382",
+      "31091671",
+      "22235120",
+      "19478080",
+      "34825861",
+      "34360648",
+      "25031324",
+      "27824080",
+      "20203304",
+      "34681718",
+      "37201414",
+      "22815859",
+      "20303977",
+      "39194739",
+      "15448619",
+      "33779503",
+      "26352206",
+      "28068774",
+      "40629690"
+    ],
+    "review": [
+      "42039642",
+      "39150724",
+      "42500827",
+      "27853436",
+      "40991201"
+    ],
+    "pmc": [
+      "13104807"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42039642/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.04.16.718858",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

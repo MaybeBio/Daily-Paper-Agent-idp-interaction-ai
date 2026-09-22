@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39467488",
+  "title": "Key genes and pathways in the molecular landscape of pancreatic ductal adenocarcinoma: A bioinformatics and machine learning study.",
+  "authors": "Eyuboglu, Sinan; Alpsoy, Semih; Uversky, Vladimir N; Coskuner-Weber, Orkid",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2024-10-29",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用机器学习与PPI网络分析胰腺癌关键基因，虽涉及无序蛋白基因但非机制建模，与本课题关联较弱。",
+  "abstract": "Pancreatic ductal adenocarcinoma (PDAC) is recognized for its aggressive nature, dismal prognosis, and a notably low five-year survival rate, underscoring the critical need for early detection methods and more effective therapeutic approaches. This research rigorously investigates the molecular mechanisms underlying PDAC, with a focus on the identification of pivotal genes and pathways that may hold therapeutic relevance and prognostic value. Through the construction of a protein-protein interaction (PPI) network and the examination of differentially expressed genes (DEGs), the study uncovers key hub genes such as CDK1, KIF11, and BUB1, demonstrating their substantial role in the pathogenesis of PDAC. Notably, the dysregulation of these genes is consistent across a spectrum of cancers, positing them as potential targets for wide-ranging cancer therapeutics. This study also brings to the fore significant genes encoding intrinsically disordered proteins, in particular GPRC5A and KRT7, unveiling promising new pathways for therapeutic intervention. Advanced machine learning techniques were harnessed to classify PDAC patients with high accuracy, utilizing the key genetic markers as a dataset. The Support Vector Machine (SVM) model leveraged the hub genes to achieve a sensitivity of 91 % and a specificity of 85 %, while the RandomForest model notched a sensitivity of 91 % and specificity of 92.5 %. Crucially, when the identified genes were cross-referenced with TCGA-PAAD clinical datasets, a tangible correlation with patient survival rates was discovered, reinforcing the potential of these genes as prognostic biomarkers and their viability as targets for therapeutic intervention. This study's findings serve as a potent testament to the value of molecular analysis in enhancing the understanding of PDAC and in advancing the pursuit for more effective diagnostic and treatment strategies.",
+  "abstract_zh": "胰腺导管腺癌（PDAC）以其侵袭性强、预后差及五年生存率极低而著称，凸显了早期检测方法和更有效治疗策略的迫切需求。本研究深入探讨了PDAC的分子机制，重点识别可能具有治疗相关性和预后价值的关键基因及信号通路。通过构建蛋白质-蛋白质相互作用（PPI）网络并分析差异表达基因（DEGs），研究揭示了如CDK1、KIF11和BUB1等关键枢纽基因，证实了它们在PDAC发病机制中的重要作用。值得注意的是，这些基因的失调在多种癌症中表现一致，使其成为广谱癌症治疗的潜在靶点。本研究还突出了编码固有无序蛋白的重要基因，特别是GPRC5A和KRT7，为治疗干预开辟了有前景的新途径。利用先进的机器学习技术，以关键遗传标记作为数据集，对PDAC患者进行了高精度分类。支持向量机（SVM）模型利用枢纽基因实现了91%的敏感性和85%的特异性，而随机森林模型则达到了91%的敏感性和92.5%的特异性。至关重要的是，当所识别的基因与TCGA-PAAD临床数据集交叉验证时，发现其与患者生存率存在显著相关性，进一步证实了这些基因作为预后生物标志物的潜力及其作为治疗干预靶点的可行性。本研究的发现有力证明了分子分析在增进对PDAC理解及推动更有效诊断和治疗策略探索中的价值。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39467488/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39467488/",
+  "paper_page_path": "papers/pubmed/39467488/index.html"
+}

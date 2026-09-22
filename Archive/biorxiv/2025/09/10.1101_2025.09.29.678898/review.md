@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce RFD2-MI, a deep generative framework based on RoseTTAFold Diffusion 2, for designing protein binders against phosphorylated tyrosine (pY) sites. They report successful design of binders for four pY sites on CD3ε, EGFR, INSR, and STAT5, with experimental validation including binding affinity measurements, specificity controls, X-ray crystal structures, and live-cell single-particle tracking.
+- **Visible evidence base** Abstract text only; no numerical data, structural coordinates, experimental protocols, or statistical analyses are available
+- **Missing materials affecting confidence** Full methods, all figures and tables, supplementary information, sequence and structure data, experimental raw data, statistical details, and any description of design success rates or negative controls beyond those mentioned
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in the de novo design of phosphotyrosine peptide binders, a problem that the authors correctly identify as unsolved. The methodological claim of an all-atom diffusion framework capable of handling covalently modified targets is plausible and of broad interest. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the approach, the robustness of the experimental validations, or the generalizability of the method. The reported results are promising but the evidence base is too thin to establish the core claims.
+- **Who would be interested in the results, and why** Researchers in computational protein design, signaling biology, chemical biology, and targeted therapeutics development would be interested. The method addresses a recognized gap in binder design for post-translationally modified targets, and the demonstrated live-cell specificity has potential applications in studying phosphorylation-dependent signaling and developing research tools or therapeutic leads.
+- **Major strengths** The problem is well-defined and important. The choice of four clinically relevant targets across three receptor systems adds translational relevance. The combination of affinity measurements, specificity controls, structural validation by X-ray crystallography, and live-cell imaging provides a multi-pronged validation strategy. The claim of negligible binding to non-phosphorylated targets and sequence-mismatched phosphopeptides addresses the key specificity challenge directly.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that RFD2-MI is a "generalizable all-atom diffusion framework" for designing binders to protein, ligand, and covalently modified targets
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on the architecture, training data, or modifications that distinguish RFD2-MI from the original RoseTTAFold Diffusion. The claim of generalizability across three target classes (protein, ligand, covalently modified protein) is asserted without any supporting data for the ligand and unmodified protein cases.
+  - **Why it matters** The central methodological contribution rests on the claim that the framework is generalizable. Without evidence for the non-pY cases, the reader cannot assess whether the method is a targeted solution for phosphopeptides or a broadly applicable platform. The distinction is critical for evaluating the scope of the contribution.
+  - **Resolution test** Provide benchmark results for binder design against unmodified protein targets and small-molecule ligands, including success rates and affinity data, or explicitly scope the claim to pY-modified targets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that designs bind with "affinities comparable to native binding sites"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No numerical affinity values, comparison standards, or statistical measures are provided. "Comparable to native binding sites" is undefined without knowing the affinities of the native interactions being referenced and the assay conditions used.
+  - **Why it matters** Affinity is a primary quantitative outcome for binder design. Without numbers, the claim cannot be independently assessed or compared to existing approaches. The absence of error estimates or replicate information further weakens confidence.
+  - **Resolution test** Report dissociation constants (Kd) with confidence intervals for all designed binders and the corresponding native interactions, measured under identical conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that X-ray crystal structures of binders to CD3ε and EGFR are "very close to the design models"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative measure of model-to-structure agreement is given. Terms like "very close" are subjective and cannot be evaluated without root-mean-square deviation values, per-residue comparisons, or structural overlays.
+  - **Why it matters** Structural accuracy is a key validation of the design method. The claim of accuracy is central to establishing that the computational approach produces designs that fold and bind as intended. Without quantitative metrics, the claim is unverifiable.
+  - **Resolution test** Provide Cα RMSD values between design models and crystal structures, with per-structure breakdowns and any relevant interface-focused metrics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that a designed binder to EGFR "co-localizes with the receptor following EGF stimulation in single-particle tracking experiments, demonstrating pY specific recognition in living cells"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** Co-localization is an indirect readout of molecular recognition. The abstract does not describe controls for the SPT experiments, such as whether a non-phosphorylated control peptide or a mutated binder was tested, nor does it provide quantitative co-localization statistics or the number of independent experiments.
+  - **Why it matters** Live-cell evidence is a strong claim that extends beyond in vitro biochemistry. If the controls are inadequate, the observed co-localization could arise from non-specific membrane association or endocytic artifacts rather than specific pY recognition.
+  - **Resolution test** Provide quantitative co-localization metrics, appropriate negative controls (e.g., non-pY binder variant, competition with soluble pY peptide), and replicate statistics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Target list
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists "four critical phosphotyrosine sites on three clinically relevant targets" but then names four targets (CD3ε, EGFR, INSR, STAT5). The discrepancy between "three" and the four named targets is confusing.
+  - **Required correction** Clarify whether one target has two sites or whether the count is incorrect.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Design success rate
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No information is given on how many designs were generated, how many were experimentally tested, and what fraction succeeded. This is standard information for design papers and is essential for assessing the practical utility of the method.
+  - **Required correction** Report the number of designs tested and the success rate at each validation stage.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Specificity claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim of "negligible binding to non-phosphorylated targets or phosphopeptides with different sequences" is stated without specifying the degree of selectivity or the number of off-target peptides tested.
+  - **Required correction** Provide quantitative selectivity ratios and describe the panel of off-target peptides used.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient quantitative or methodological detail to establish the core claims of generalizability, affinity, structural accuracy, or live-cell specificity.
+- **Assessment against Nature-style criteria** Originality: high. The problem of designing binders to phosphorylated peptides is genuinely unsolved, and the approach appears novel. Scientific importance: high. Phosphotyrosine signaling is central to many disease pathways, and tools to probe or modulate it have broad utility. Interdisciplinary readership: the topic bridges computational design, structural biology, cell biology, and therapeutic development, which fits a broad audience. Technical soundness: not assessable from the abstract alone. The absence of methods details, quantitative data, and controls prevents evaluation. Readability for nonspecialists: the abstract is clear and accessible, though the target count discrepancy and undefined terms such as "comparable affinities" reduce precision.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible and the validation strategy is appropriate in design, but the abstract alone does not provide sufficient quantitative or methodological detail to support the conclusions. A full manuscript with methods, data, and controls would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that RFD2-MI is generalizable to protein, ligand, and covalently modified targets is unsupported; no data are presented for the non-pY cases.
+- The claim that affinities are "comparable to native binding sites" is unsupported without numerical values and comparison standards.
+- The claim that crystal structures are "very close to the design models" is unsupported without quantitative structural metrics.
+- The claim of "pY specific recognition in living cells" is weakly supported by co-localization data without described controls or statistics.
+- The overall claim of a "generalizable all-atom diffusion framework" is not assessable from the abstract.

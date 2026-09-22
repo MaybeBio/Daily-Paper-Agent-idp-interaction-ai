@@ -1,0 +1,165 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.04.17.649347",
+  "title": "Mechanism of USP21 autoinhibition and histone H2AK119 deubiquitination",
+  "doi": "10.1101/2025.04.17.649347",
+  "abstract": "Monoubiquitinated histone H2A lysine 119 (H2AK119ub) is a signature modification associated with transcriptional silencing and heterochromatin formation. Ubiquitin-specific protease 21 (USP21), one of four major deubiquitinating enzymes (DUBs) that target H2AK119ub, plays critical roles in diverse cellular processes 1–4 . The molecular mechanisms by which USP21 specifically deubiquitinates H2AK119ub and is regulated is unknown. USP21 contains a C-terminal USP catalytic domain, preceded by an N-terminal intrinsically disordered region (IDR). We determined the cryo-EM structure of the USP21 catalytic domain bound to an H2AK119ub nucleosome, which reveals a recognition mode that differs from that of two other H2AK119-specific DUBs, Polycomb repressive complex 5 and USP16 6 . We unexpectedly discovered that the N-terminal intrinsically disordered region (IDR) of USP21 inhibits the enzyme’s activity. Using AlphaFold-Multimer to perform a virtual screen of USP21 interactors, we identified kinases that phosphorylate the USP21 IDR and thereby relieve autoinhibition. Modeling of USP21 using AlphaFold3 suggests a structural model explaining the mechanism of autoinhibition. AlphaFold analysis of other ubiquitin-specific proteases suggests that phosphorylation-regulated autoinhibition may be a feature of multiple USP enzymes. These findings shed light on the molecular mechanisms of H2AK119 deubiquitination and reveal a novel mode of phosphorylation-dependent DUB autoregulation.",
+  "authors": [
+    "Rahman S",
+    "Morgan MT",
+    "Hicks CW",
+    "Gwizdala A",
+    "Wolberger C"
+  ],
+  "published_date": "2025-04-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.04.17.649347",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.17.649347.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1008179",
+    "raw_record": {
+      "id": "PPR1008179",
+      "source": "PPR",
+      "doi": "10.1101/2025.04.17.649347",
+      "title": "Mechanism of USP21 autoinhibition and histone H2AK119 deubiquitination",
+      "authorString": "Rahman S, Morgan MT, Hicks CW, Gwizdala A, Wolberger C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Rahman S",
+            "lastName": "Rahman",
+            "firstName": "Sanim",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7144-4600"
+            }
+          },
+          {
+            "fullName": "Morgan MT",
+            "lastName": "Morgan",
+            "firstName": "Michael",
+            "initials": "MT"
+          },
+          {
+            "fullName": "Hicks CW",
+            "lastName": "Hicks",
+            "firstName": "Chad",
+            "initials": "CW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6040-6227"
+            }
+          },
+          {
+            "fullName": "Gwizdala A",
+            "lastName": "Gwizdala",
+            "firstName": "Alexander",
+            "initials": "A"
+          },
+          {
+            "fullName": "Wolberger C",
+            "lastName": "Wolberger",
+            "firstName": "Cynthia",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8578-2969"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7144-4600"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8578-2969"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6040-6227"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Monoubiquitinated histone H2A lysine 119 (H2AK119ub) is a signature modification associated with transcriptional silencing and heterochromatin formation. Ubiquitin-specific protease 21 (USP21), one of four major deubiquitinating enzymes (DUBs) that target H2AK119ub, plays critical roles in diverse cellular processes  1–4 . The molecular mechanisms by which USP21 specifically deubiquitinates H2AK119ub and is regulated is unknown. USP21 contains a C-terminal USP catalytic domain, preceded by an N-terminal intrinsically disordered region (IDR). We determined the cryo-EM structure of the USP21 catalytic domain bound to an H2AK119ub nucleosome, which reveals a recognition mode that differs from that of two other H2AK119-specific DUBs, Polycomb repressive complex  5 and USP16  6 . We unexpectedly discovered that the N-terminal intrinsically disordered region (IDR) of USP21 inhibits the enzyme’s activity. Using AlphaFold-Multimer to perform a virtual screen of USP21 interactors, we identified kinases that phosphorylate the USP21 IDR and thereby relieve autoinhibition. Modeling of USP21 using AlphaFold3 suggests a structural model explaining the mechanism of autoinhibition. AlphaFold analysis of other ubiquitin-specific proteases suggests that phosphorylation-regulated autoinhibition may be a feature of multiple USP enzymes. These findings shed light on the molecular mechanisms of H2AK119 deubiquitination and reveal a novel mode of phosphorylation-dependent DUB autoregulation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/04/21/2025.04.17.649347.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.04.17.649347"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41071870",
+            "reference": "Science advances. \n    2025 Oct;11(41):eady2604",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-04-25",
+      "firstPublicationDate": "2025-04-21",
+      "firstIndexDate": "2025-04-25",
+      "hasEvaluations": "N"
+    }
+  }
+}

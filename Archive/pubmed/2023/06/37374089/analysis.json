@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37374089",
+  "title": "Identification of Phase-Separation-Protein-Related Function Based on Gene Ontology by Using Machine Learning Methods.",
+  "authors": "Ma, Qinglan; Huang, FeiMing; Guo, Wei; Feng, KaiYan; Huang, Tao; Cai, Yudong",
+  "journal": "Life (Basel, Switzerland)",
+  "published_date": "2023-06-28",
+  "window": {
+    "start": "2023-06-26",
+    "end": "2023-07-02"
+  },
+  "score": 6,
+  "one_liner_zh": "用机器学习方法基于基因本体注释识别相分离蛋白及其功能，虽涉及相分离对象但未聚焦PPI机制建模，方法为传统ML而非AI/物理模拟。",
+  "abstract": "Phase-separation proteins (PSPs) are a class of proteins that play a role in the process of liquid-liquid phase separation, which is a mechanism that mediates the formation of membranelle compartments in cells. Identifying phase separation proteins and their associated function could provide insights into cellular biology and the development of diseases, such as neurodegenerative diseases and cancer. Here, PSPs and non-PSPs that have been experimentally validated in earlier studies were gathered as positive and negative samples. Each protein's corresponding Gene Ontology (GO) terms were extracted and used to create a 24,907-dimensional binary vector. The purpose was to extract essential GO terms that can describe essential functions of PSPs and build efficient classifiers to identify PSPs with these GO terms at the same time. To this end, the incremental feature selection computational framework and an integrated feature analysis scheme, containing categorical boosting, least absolute shrinkage and selection operator, light gradient-boosting machine, extreme gradient boosting, and permutation feature importance, were used to build efficient classifiers and identify GO terms with classification-related importance. A set of random forest (RF) classifiers with F1 scores over 0.960 were established to distinguish PSPs from non-PSPs. A number of GO terms that are crucial for distinguishing between PSPs and non-PSPs were found, including GO:0003723, which is related to a biological process involving RNA binding; GO:0016020, which is related to membrane formation; and GO:0045202, which is related to the function of synapses. This study offered recommendations for future research aimed at determining the functional roles of PSPs in cellular processes by developing efficient RF classifiers and identifying the representative GO terms related to PSPs.",
+  "abstract_zh": "相分离蛋白（phase-separation proteins, PSPs）是一类在液-液相分离过程中发挥作用的蛋白质，该过程是介导细胞内无膜细胞器形成的机制。识别相分离蛋白及其相关功能可为细胞生物学及神经退行性疾病和癌症等疾病的发展提供见解。本研究收集了先前研究中经实验验证的PSPs和非PSPs作为正负样本，提取每个蛋白质对应的基因本体（Gene Ontology, GO）术语，并用于构建24,907维的二元向量。目的是提取能描述PSPs基本功能的关键GO术语，并同时利用这些GO术语构建高效分类器以识别PSPs。为此，采用增量特征选择计算框架和集成特征分析方案，包括类别提升（categorical boosting）、最小绝对收缩和选择算子（least absolute shrinkage and selection operator）、轻量梯度提升机（light gradient-boosting machine）、极限梯度提升（extreme gradient boosting）以及排列特征重要性（permutation feature importance），以构建高效分类器并识别具有分类相关重要性的GO术语。建立了一组F1分数超过0.960的随机森林（random forest, RF）分类器，用于区分PSPs和非PSPs。发现了多个对区分PSPs和非PSPs至关重要的GO术语，包括GO:0003723（与RNA结合相关的生物过程）、GO:0016020（与膜形成相关）以及GO:0045202（与突触功能相关）。本研究通过开发高效的RF分类器并识别与PSPs相关的代表性GO术语，为未来旨在确定PSPs在细胞过程中功能作用的研究提供了建议。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37374089/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37374089/",
+  "paper_page_path": "papers/pubmed/37374089/index.html"
+}

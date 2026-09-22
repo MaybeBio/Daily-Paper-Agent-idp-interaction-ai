@@ -1,0 +1,340 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.23.713466",
+  "title": "Non-fibrillar prion protein oligomers transmit structural information during early assembly",
+  "doi": "10.64898/2026.03.23.713466",
+  "abstract": "The prion paradigm is founded on the transmission of structural information from aggregated assemblies to soluble protein substrates, a process classically attributed to fibril-end-mediated templating. Whether non-fibrillar assemblies or transient oligomeric states can also participate in folding information transfer remains unclear. Here, using recombinant prion protein (PrP), rational mutagenesis, hetero-oligomerization assays, arrested reaction conditions, and single-particle atomic force microscopy coupled to infrared nano-spectroscopy (AFM-IR), we examine the earliest stages of PrP assembly from the perspective of folding information transmission. We show that polymerization-defective PrP variants can be incorporated into oligomeric assemblies through structural complementation, in which folding information supplied by wild-type PrP restores their assembly competence. Under arrested reaction conditions, transient polymerization-competent conformers further contribute to folding information transfer at subcritical concentrations. Domain-resolved analyses reveal a modular oligomeric architecture in which a β-sheet-rich B domain constitutes the primary scaffold for folding information transfer. Preformed O1 oligomers then act as autonomous conformational templates that promote mutant incorporation and undergo hierarchical condensation through accretion of a structurally distinct E domain. Together, these findings demonstrate that non-fibrillar PrP oligomers and transient assembly intermediates can store and transmit folding information and may function as oligomer-based secondary nucleation platforms, expanding the conceptual framework of prion assembly beyond fibril-end elongation alone.",
+  "authors": [
+    "Prigent S",
+    "Deniset-Besseau A",
+    "Mathurin J",
+    "Igel A",
+    "Klute H",
+    "Bohl J",
+    "van der Rest G",
+    "Malosse C",
+    "Lecomte S",
+    "Rezaei H",
+    "Torrent J",
+    "Béringue V",
+    "Dazzi A",
+    "Martin D",
+    "Rezaei H"
+  ],
+  "published_date": "2026-03-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.23.713466",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.23.713466.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1217801",
+    "raw_record": {
+      "id": "PPR1217801",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1217801"
+        ]
+      },
+      "doi": "10.64898/2026.03.23.713466",
+      "title": "Non-fibrillar prion protein oligomers transmit structural information during early assembly",
+      "authorString": "Prigent S, Deniset-Besseau A, Mathurin J, Igel A, Klute H, Bohl J, van der Rest G, Malosse C, Lecomte S, Rezaei H, Torrent J, Béringue V, Dazzi A, Martin D, Rezaei H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Prigent S",
+            "lastName": "Prigent",
+            "firstName": "Stephanie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Deniset-Besseau A",
+            "lastName": "Deniset-Besseau",
+            "firstName": "Ariane",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institut de Chimie-Physique, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mathurin J",
+            "lastName": "Mathurin",
+            "firstName": "Jeremi",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institut de Chimie-Physique, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Igel A",
+            "lastName": "Igel",
+            "firstName": "Angélique",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Klute H",
+            "lastName": "Klute",
+            "firstName": "Hannah",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-9157-6833"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bohl J",
+            "lastName": "Bohl",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van der Rest G",
+            "lastName": "van der Rest",
+            "firstName": "Guillaume",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institut de Chimie-Physique, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Malosse C",
+            "lastName": "Malosse",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Palaiseau,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lecomte S",
+            "lastName": "Lecomte",
+            "firstName": "Sophie",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8310-4849"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , , Pessac,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rezaei H",
+            "lastName": "Rezaei",
+            "firstName": "Hadi",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Aptochem inc, Boston MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Torrent J",
+            "lastName": "Torrent",
+            "firstName": "Joan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Béringue V",
+            "lastName": "Béringue",
+            "firstName": "Vincent",
+            "initials": "V"
+          },
+          {
+            "fullName": "Dazzi A",
+            "lastName": "Dazzi",
+            "firstName": "Alexandre",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institut de Chimie-Physique, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martin D",
+            "lastName": "Martin",
+            "firstName": "Davy",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rezaei H",
+            "lastName": "Rezaei",
+            "firstName": "Human",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8310-4849"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9672-748X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-9157-6833"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "The prion paradigm is founded on the transmission of structural information from aggregated assemblies to soluble protein substrates, a process classically attributed to fibril-end-mediated templating. Whether non-fibrillar assemblies or transient oligomeric states can also participate in folding information transfer remains unclear. Here, using recombinant prion protein (PrP), rational mutagenesis, hetero-oligomerization assays, arrested reaction conditions, and single-particle atomic force microscopy coupled to infrared nano-spectroscopy (AFM-IR), we examine the earliest stages of PrP assembly from the perspective of folding information transmission. We show that polymerization-defective PrP variants can be incorporated into oligomeric assemblies through structural complementation, in which folding information supplied by wild-type PrP restores their assembly competence. Under arrested reaction conditions, transient polymerization-competent conformers further contribute to folding information transfer at subcritical concentrations. Domain-resolved analyses reveal a modular oligomeric architecture in which a β-sheet-rich B domain constitutes the primary scaffold for folding information transfer. Preformed O1 oligomers then act as autonomous conformational templates that promote mutant incorporation and undergo hierarchical condensation through accretion of a structurally distinct E domain. Together, these findings demonstrate that non-fibrillar PrP oligomers and transient assembly intermediates can store and transmit folding information and may function as oligomer-based secondary nucleation platforms, expanding the conceptual framework of prion assembly beyond fibril-end elongation alone.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "306321",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.23.713466"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1217801"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1217801&type=FILE&fileName=EMS215170-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215170",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-03-27",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

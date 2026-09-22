@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or results sections were available for evaluation
+- **Shared manuscript claim summary** The authors present Brownian dynamics simulations of chemically active droplets, where particles explicitly switch between droplet-forming and non-droplet-forming states with attractive or repulsive interactions. They claim this microscopic and stochastic approach reveals how controlled nonequilibrium driving determines fluctuations and dynamics of active emulsions, addressing a gap left by spatially continuous and deterministic models.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or figures were provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, all figures and tables, quantitative results, and comparison with prior continuum models
+
+## Reviewer
+- **Overall assessment** The abstract addresses a timely and important question in the physics of biomolecular condensates, namely the connection between microscopic interaction parameters and emergent properties of chemically active droplets. The proposed computational approach, using Brownian dynamics with explicit particle resolution, is conceptually appealing and could fill a genuine gap in the literature. However, the abstract provides no quantitative results, no methodological details, and no specific findings. The central claim that the simulations "reveal how driving the system away from equilibrium in a controlled way determines the fluctuations and dynamics of active emulsions" is stated without supporting evidence. The work may be valuable, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in soft matter physics, nonequilibrium statistical mechanics, and biophysics studying phase separation and condensate formation would be interested. The work could also appeal to computational scientists developing particle-based models for active matter and to experimentalists seeking microscopic interpretations of droplet polydispersity, shape anisotropy, and lifetime in biomolecular condensates.
+- **Major strengths** The research question is well motivated and addresses a recognized gap between continuum deterministic models and the need for microscopic understanding. The choice of Brownian dynamics with explicit particles is a sensible and potentially powerful approach for capturing stochastic effects and fluctuations. The abstract clearly identifies specific properties of interest, namely polydispersity, shape anisotropy, and typical lifetime, which gives the work a focused scope.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the simulations "reveal how driving the system away from equilibrium in a controlled way determines the fluctuations and dynamics of active emulsions."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The central result is stated as a general revelation, but no specific findings, quantitative trends, or observable phenomena are described. The abstract does not report any numerical outcomes, such as how polydispersity, shape anisotropy, or lifetime depend on driving strength or reaction rates.
+  - **Why it matters** Without concrete results, the reader cannot assess whether the simulations indeed provide new insight beyond what continuum models already offer. The claim of a "revelation" requires demonstration of specific, nontrivial findings.
+  - **Resolution test** The full manuscript should present quantitative results showing how at least one of the mentioned properties, such as droplet lifetime or polydispersity, varies with a control parameter, such as reaction rate or interaction strength, and should compare these findings with predictions from continuum models.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "the building blocks are represented explicitly as particles that interact with attractive or repulsive interactions, depending on whether they are in a droplet-forming state or not."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given about the simulation protocol, including the form of the interaction potentials, the rules for state switching, the timescales involved, the system size, or the range of parameters explored. Without this information, the reproducibility and validity of the approach cannot be evaluated.
+  - **Why it matters** The value of a computational study depends critically on the appropriateness and transparency of the simulation methodology. The reader needs to know whether the model captures the essential physics of chemically active droplets or whether the results are artifacts of specific implementation choices.
+  - **Resolution test** The methods section should provide a complete description of the interaction potentials, the stochastic rules for state changes, the integration scheme, the system size, and the parameter ranges, along with justification for these choices.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Contextual positioning
+  - **Claim pointer** The abstract states that "so far, models of chemically active droplets are spatially continuous and deterministic" and that the relationship between microscopic parameters and crucial properties "is yet to be established."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not cite or discuss any prior work on particle-based or stochastic models of active droplets. The claim that all existing models are continuous and deterministic may be an overstatement, and the novelty of the present approach cannot be assessed without a proper literature context.
+  - **Why it matters** Establishing novelty is essential for a Letter-format publication. If prior stochastic or particle-based models exist, the contribution of this work must be framed relative to them. If none exist, the authors should state this explicitly with appropriate citations.
+  - **Resolution test** The introduction should provide a concise but complete review of existing models, explicitly identifying any prior stochastic or particle-based approaches, and clearly state what is new in the present work relative to each relevant prior study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "active emulsions" is used without definition. It is unclear whether this refers to the droplet suspensions themselves or to a specific regime of the model.
+  - **Required correction** Define "active emulsions" at first use, or replace with a more precise term such as "chemically active droplet suspensions."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Claim of general relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract opens with a statement about biomolecular condensates and their role in living matter, but the simulations are described in generic terms without explicit connection to biological parameters or length scales.
+  - **Required correction** Briefly state how the model parameters map to biological contexts, or explicitly limit the claims to generic active droplet physics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Quantitative summary
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions polydispersity, shape anisotropy, and typical lifetime as properties of interest, but does not report any values or trends for these quantities.
+  - **Required correction** Include at least one representative quantitative finding in the abstract, such as a scaling relation or a qualitative trend, to give readers a concrete sense of the results.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence for the central claim, does not describe the methodology in enough detail for evaluation, and does not establish novelty relative to prior work.
+- **Assessment against Nature-style criteria** Originality: The approach appears potentially original, but this cannot be confirmed without a literature review in the manuscript. Scientific importance: The question of how microscopic parameters control droplet properties is important for understanding biomolecular condensates, but the abstract does not demonstrate that the findings have broad implications beyond the specific model. Interdisciplinary readership: The topic bridges soft matter physics and biology, and the abstract is written accessibly, but the lack of quantitative results limits its appeal to nonspecialists. Technical soundness: Cannot be assessed from the abstract alone; the methodology is not described in sufficient detail. Readability for nonspecialists: The abstract is clearly written and avoids jargon, but the absence of concrete findings makes it difficult for a nonspecialist to appreciate the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising approach to an important problem, but the absence of quantitative results, methodological details, and contextual positioning prevents a positive assessment. The case could become supportive if the full manuscript addresses the major concerns.
+
+## Risk / unsupported claims
+- The claim that the simulations "reveal how driving the system away from equilibrium in a controlled way determines the fluctuations and dynamics of active emulsions" is unsupported by any specific results in the abstract.
+- The claim that "so far, models of chemically active droplets are spatially continuous and deterministic" is unverifiable without a literature review and may be an overstatement.
+- The implicit claim that the microscopic and stochastic approach provides new insight beyond continuum models is not supported by comparative evidence in the abstract.
+- All quantitative outcomes, such as trends in polydispersity, shape anisotropy, or lifetime, are unassessable from the supplied material.

@@ -1,0 +1,291 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.03.625240",
+  "title": "High-throughput discovery and deep characterization of cyclin-CDK docking motifs",
+  "doi": "10.1101/2024.12.03.625240",
+  "abstract": "Cyclin-CDKs are master regulators of cell division. In addition to directly activating the CDK, the cyclin subunit regulates CDK specificity by binding short peptide “docking” motifs in CDK substrates. Here, we measure the relative binding strength of ∼100,000 peptides to 11 human cyclins from five cyclin families (D, E, A, B and F). Using a quantitative intracellular binding assay and large-scale tiled peptide screening, we identified a range of non-canonical binders that unveil a broader than anticipated repertoire of cyclin docking motif types. Structural and saturation mutagenesis studies revealed distinct binding modes and sequence features that govern motif recognition, binding strength, and cyclin preference. Docking motifs vary from highly selective to pan-cyclin, thereby fine-tuning the timing of CDK phosphorylation during cell cycle progression. Overall, these findings provide an unprecedented depth of understanding about the rules encoding specificity and affinity within a group of related but distinct protein domains.",
+  "authors": [
+    "Örd M",
+    "Winters MJ",
+    "Subbanna MS",
+    "de Martin Garrido N",
+    "Cushing VI",
+    "Kliche J",
+    "Benz C",
+    "Ivarsson Y",
+    "Greber BJ",
+    "Pryciak PM",
+    "Davey NE"
+  ],
+  "published_date": "2024-12-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.03.625240",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.03.625240.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR949932",
+    "raw_record": {
+      "id": "PPR949932",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR949932"
+        ]
+      },
+      "doi": "10.1101/2024.12.03.625240",
+      "title": "High-throughput discovery and deep characterization of cyclin-CDK docking motifs",
+      "authorString": "Örd M, Winters MJ, Subbanna MS, de Martin Garrido N, Cushing VI, Kliche J, Benz C, Ivarsson Y, Greber BJ, Pryciak PM, Davey NE.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Örd M",
+            "lastName": "Örd",
+            "firstName": "Mihkel",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", CRUK Cambridge Institute, ,"
+                },
+                {
+                  "affiliation": ", Chester Beatty Laboratories, 237 Fulham Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Winters MJ",
+            "lastName": "Winters",
+            "firstName": "Matthew",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biotechnology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Subbanna MS",
+            "lastName": "Subbanna",
+            "firstName": "Mythili",
+            "initials": "MS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biotechnology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Martin Garrido N",
+            "lastName": "de Martin Garrido",
+            "firstName": "Natalia",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Chester Beatty Laboratories, 237 Fulham Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cushing VI",
+            "lastName": "Cushing",
+            "firstName": "Victoria",
+            "initials": "VI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Chester Beatty Laboratories, 237 Fulham Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kliche J",
+            "lastName": "Kliche",
+            "firstName": "Johanna",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - BMC, , Husargatan 3 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Benz C",
+            "lastName": "Benz",
+            "firstName": "Caroline",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - BMC, , Husargatan 3 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ivarsson Y",
+            "lastName": "Ivarsson",
+            "firstName": "Ylva",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7081-3846"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - BMC, , Husargatan 3 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Greber BJ",
+            "lastName": "Greber",
+            "firstName": "Basil",
+            "initials": "BJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Chester Beatty Laboratories, 237 Fulham Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pryciak PM",
+            "lastName": "Pryciak",
+            "firstName": "Peter",
+            "initials": "PM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biotechnology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davey NE",
+            "lastName": "Davey",
+            "firstName": "Norman",
+            "initials": "NE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", CRUK Cambridge Institute, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7081-3846"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Cyclin-CDKs are master regulators of cell division. In addition to directly activating the CDK, the cyclin subunit regulates CDK specificity by binding short peptide “docking” motifs in CDK substrates. Here, we measure the relative binding strength of ∼100,000 peptides to 11 human cyclins from five cyclin families (D, E, A, B and F). Using a quantitative intracellular binding assay and large-scale tiled peptide screening, we identified a range of non-canonical binders that unveil a broader than anticipated repertoire of cyclin docking motif types. Structural and saturation mutagenesis studies revealed distinct binding modes and sequence features that govern motif recognition, binding strength, and cyclin preference. Docking motifs vary from highly selective to pan-cyclin, thereby fine-tuning the timing of CDK phosphorylation during cell cycle progression. Overall, these findings provide an unprecedented depth of understanding about the rules encoding specificity and affinity within a group of related but distinct protein domains.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.03.625240"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR949932"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR949932&type=FILE&fileName=EMS201709-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40817109",
+            "reference": "Nature communications. 2025 Aug;16(1):7622",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS201709",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-12-06",
+      "firstPublicationDate": "2024-12-04",
+      "firstIndexDate": "2024-12-06",
+      "fullTextReceivedDate": "2024-12-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

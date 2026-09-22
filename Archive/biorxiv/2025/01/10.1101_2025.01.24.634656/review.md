@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report that PMLII forms biomolecular condensates at the nuclear envelope, specifically at sites of lamina disruption, that nuclear envelope rupture frequently occurs at these sites, and that PMLII remains present until repair is initiated, suggesting a stabilizing role in preparation for effective repair.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, statistical analyses, and any quantitative data supporting the stated observations
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially novel observation linking PMLII condensates to nuclear envelope rupture sites. The concept that biomolecular condensates may stabilize compromised nuclear envelope regions before repair is intellectually appealing and could be of broad cell biology interest. However, the abstract provides only qualitative statements without quantitative support, and the mechanistic claim of stabilization is inferred rather than demonstrated. The evidence base is too limited to evaluate technical rigor or to establish the proposed role.
+- **Who would be interested in the results, and why** Cell biologists studying nuclear envelope dynamics, DNA damage and genome stability, and researchers interested in biomolecular condensates and membrane repair mechanisms. The potential link between PML bodies and nuclear envelope integrity could also interest cancer biologists given PML's established tumor suppressor functions.
+- **Major strengths** The observation that PMLII condensates localize specifically to lamina disruption sites is a clear and testable finding. The temporal persistence of PMLII at rupture sites until repair initiation suggests a functional involvement rather than passive accumulation. The conceptual framing around condensate-mediated stabilization of compromised membranes is timely and could open new research directions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that PMLII condensates form at sites of lamina disruption and that NE rupture often occurs at these sites.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states these findings without presenting any quantitative data, such as the frequency of co-localization between PMLII condensates and lamina disruption sites, the proportion of rupture events occurring at these sites, or the number of independent experiments and cells analyzed. No statistical comparisons are described.
+  - **Why it matters** The core observational claim underpins the entire study. Without quantitative support and appropriate controls, the specificity of PMLII localization to lamina disruption sites and the association with rupture events cannot be evaluated. The claim of "often" is ambiguous and requires defined metrics.
+  - **Resolution test** Provide quantitative co-localization analyses with appropriate controls, including cells lacking PMLII or expressing other PML isoforms, and report the frequency of rupture events at PMLII condensate sites versus random locations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors suggest that PMLII plays a role in stabilization of the rupture site for effective repair.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The stabilization role is presented as a suggestion based solely on the observation that PMLII remains present until repair is initiated. No functional experiments are described, such as PMLII depletion or overexpression, that would test whether PMLII is required for efficient repair or for maintaining nuclear envelope integrity before rupture.
+  - **Why it matters** The proposed role is the central mechanistic contribution of the study. Observational correlation alone cannot distinguish between a stabilizing function, a passive marker of damage, or a component of the repair machinery itself. Without perturbation experiments, the claim remains speculative.
+  - **Resolution test** Perform PMLII knockdown or knockout experiments and assess nuclear envelope rupture frequency, repair kinetics, and cell viability. Rescue experiments with wild-type and condensate-defective PMLII mutants would further establish the functional requirement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual novelty
+  - **Claim pointer** The authors frame the finding as a novel role for PMLII in nuclear envelope rupture repair.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not discuss prior work on PML isoforms at the nuclear envelope or any existing literature on condensate involvement in nuclear envelope repair. Without contextualization, the novelty claim cannot be assessed.
+  - **Why it matters** Novelty is a key criterion for broad-interest publication. If related observations have been reported, the incremental advance may be limited. Conversely, if this is truly unprecedented, the authors should clearly state what distinguishes their finding from known PML functions.
+  - **Resolution test** Add a brief literature context in the abstract or introduction that explicitly states what is known about PML at the nuclear envelope and what is new in this study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "PMLII" is used without defining the isoform relationship to other PML isoforms or explaining why isoform II specifically was studied.
+  - **Required correction** Briefly state the isoform context and rationale for focusing on PMLII.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental system
+  - **Evidence pointer** Abstract text
+  - **Issue** The cell type or model system used for the experiments is not mentioned.
+  - **Required correction** Specify the cell lines or model systems used in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Temporal claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The statement that PMLII "stays present until rupture repair is initiated" is vague regarding the time scale and the definition of repair initiation.
+  - **Required correction** Provide quantitative time-course data and define the molecular or morphological marker used to score repair initiation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The observational claim requires quantitative validation, and the mechanistic claim requires functional perturbation data. Without these, the central conclusions are not established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: The concept of condensate-mediated stabilization at nuclear envelope rupture sites is potentially original, but the abstract does not provide sufficient context to confirm novelty. Scientific importance: If established, the findings could be important for understanding nuclear envelope integrity and genome stability, but the current evidence is preliminary. Interdisciplinary readership: The topic bridges cell biology, biophysics of condensates, and genome stability, which could attract broad interest. Technical soundness: Cannot be assessed from the abstract alone; no methods or quantitative data are provided. Readability for nonspecialists: The abstract is clearly written and accessible, though some terms such as "lamina disruption" and "biomolecular condensates" could benefit from brief clarification.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an intriguing observation, but the lack of quantitative data and functional experiments prevents assessment of the central claims. I would be supportive if the full manuscript provides rigorous quantitative analyses and perturbation experiments that test the proposed stabilizing role of PMLII.
+
+## Risk / unsupported claims
+- The claim that PMLII condensates specifically form at lamina disruption sites is unsupported without quantitative co-localization data and controls.
+- The claim that NE rupture often occurs at PMLII condensate sites is unsupported without frequency measurements and statistical comparison to random expectation.
+- The suggestion that PMLII stabilizes the rupture site for effective repair is unsupported without functional perturbation experiments.
+- The temporal claim that PMLII remains until repair initiation is unquantified and lacks a defined endpoint.
+- The novelty of the finding cannot be assessed without literature context.

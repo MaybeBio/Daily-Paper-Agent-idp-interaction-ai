@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33711743",
+  "title": "Evaluation of potential anti-RNA-dependent RNA polymerase (RdRP) drugs against the newly emerged model of COVID-19 RdRP using computational methods.",
+  "authors": "Poustforoosh, Alireza; Hashemipour, Hassan; Tuzun, Burak; Pardakhty, Abbas; Mehrabani, Mehrnaz; Nematollahi, Mohammad Hadi",
+  "journal": "Biophysical chemistry",
+  "published_date": "2021-03-13",
+  "window": {
+    "start": "2021-03-08",
+    "end": "2021-03-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用分子对接评估抗COVID-19 RdRP药物，对象为折叠病毒聚合酶而非无序蛋白，且无PPI机制建模，仅药物-靶标亲和力预测，与本课题关联微弱。",
+  "abstract": "INTRODUCTION: Despite all the efforts to treat COVID-19, no particular cure has been found for this virus. Since developing antiviral drugs is a time-consuming process, the most effective approach is to evaluate the approved and under investigation drugs using in silico methods. Among the different targets within the virus structure, as a vital component in the life cycle of coronaviruses, RNA-dependent RNA polymerase (RdRP) can be a critical target for antiviral drugs. The impact of the existence of RNA in the enzyme structure on the binding affinity of anti-RdRP drugs has not been investigated so far. METHODS: In this study, the potential anti-RdRP effects of a variety of drugs from two databases (Zinc database and DrugBank) were evaluated using molecular docking. For this purpose, the newly emerged model of COVID-19 (RdRP) post-translocated catalytic complex (PDB ID: 7BZF) that consists of RNA was chosen as the target. RESULTS: The results indicated that idarubicin (IDR), a member of the anthracycline antibiotic family, and fenoterol (FNT), a known beta-2 adrenergic agonist drug, tightly bind to the target enzyme and could be used as potential anti-RdRP inhibitors of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). These outcomes revealed that due to the ligand-protein interactions, the presence of RNA in this structure could remarkably affect the binding affinity of inhibitor compounds. CONCLUSION: In silico approaches, such as molecular docking, could effectively address the problem of finding appropriate treatment for COVID-19. Our results showed that IDR and FNT have a significant affinity to the RdRP of SARS-CoV-2; therefore, these drugs are remarkable inhibitors of coronaviruses.",
+  "abstract_zh": "引言：尽管为治疗COVID-19付出了诸多努力，但尚未找到针对该病毒的特效疗法。由于开发抗病毒药物是一个耗时的过程，最有效的方法是利用计算机模拟（in silico）方法评估已批准和正在研究的药物。在病毒结构中的不同靶点中，RNA依赖性RNA聚合酶（RdRP）作为冠状病毒生命周期中的关键组成部分，可成为抗病毒药物的重要靶点。目前，尚未研究酶结构中RNA的存在对抗RdRP药物结合亲和力的影响。方法：在本研究中，使用分子对接（molecular docking）评估了来自两个数据库（Zinc数据库和DrugBank）的多种药物的潜在抗RdRP效应。为此，选择了新出现的COVID-19模型（RdRP）转位后催化复合物（PDB ID: 7BZF），该结构包含RNA，作为靶点。结果：结果表明，蒽环类抗生素家族成员伊达比星（IDR）和已知的β2-肾上腺素能激动剂药物非诺特罗（FNT）能与靶酶紧密结合，并可作为严重急性呼吸综合征冠状病毒2（SARS-CoV-2）的潜在抗RdRP抑制剂。这些结果揭示，由于配体-蛋白质相互作用，该结构中RNA的存在能显著影响抑制剂化合物的结合亲和力。结论：计算机模拟方法，如分子对接，能有效解决寻找COVID-19适当治疗的问题。我们的结果表明，IDR和FNT对SARS-CoV-2的RdRP具有显著亲和力；因此，这些药物是冠状病毒的显著抑制剂。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33711743/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33711743/",
+  "paper_page_path": "papers/pubmed/33711743/index.html"
+}

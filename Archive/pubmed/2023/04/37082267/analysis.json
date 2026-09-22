@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37082267",
+  "title": "Biophysical analysis of Gaussia luciferase bioluminescence mechanisms using a non-oxidizable coelenterazine.",
+  "authors": "Takatsu, Kyoko; Kobayashi, Naohiro; Wu, Nan; Janin, Yves L; Yamazaki, Toshio; Kuroda, Yutaka",
+  "journal": "BBA advances",
+  "published_date": "2023-04-21",
+  "window": {
+    "start": "2023-04-17",
+    "end": "2023-04-23"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用NMR和生物物理方法研究Gaussia荧光素酶与底物类似物的结合机制，对象为折叠蛋白且非PPI，无AI/物理模拟方法，与本课题无关。",
+  "abstract": "Gaussia luciferase (GLuc 18.2kDa; 168 residues) is a marine copepod luciferase that emits a bright blue light when oxidizing coelenterazine (CTZ). It is a helical protein where two homologous sequential repeats form two anti-parallel bundles, each made of four helices. We previously identified a hydrophobic cavity as a prime candidate for the catalytic site, but GLuc's fast bioluminescence reaction hampered a detailed analysis. Here, we used azacoelenterazine (Aza-CTZ), a non-oxidizable coelenterazine (CTZ) analog, as a probe to investigate its binding mode to GLuc. While analysing GLuc's activity, we unexpectedly found that salt and monovalent anions are absolutely required for Gluc's bioluminescence, which retrospectively appears reasonable for a sea-dwelling organism. The NMR-based investigation, using chemical shift perturbations monitored by (15)N-(1)H HSQC, suggested that Aza-CTZ (and thus unoxidized CTZ) binds to residues in or near the hydrophobic cavity. These NMR data are in line with a recent structural prediction of GLuc, hypothesizing that large structural changes occur in regions remote from the hydrophobic cavity upon the addition of CTZ. Interestingly, these results point toward a unique mode of catalysis to achieve CTZ oxidative decarboxylation.",
+  "abstract_zh": "高斯荧光素酶（GLuc 18.2kDa；168个残基）是一种海洋桡足类荧光素酶，在氧化腔肠素（CTZ）时发出明亮的蓝光。它是一种螺旋蛋白，其中两个同源的连续重复序列形成两个反向平行的束，每个束由四个螺旋组成。我们先前鉴定出一个疏水腔作为催化位点的首要候选，但GLuc的快速生物发光反应阻碍了详细分析。在此，我们使用不可氧化的腔肠素（CTZ）类似物——氮杂腔肠素（Aza-CTZ）作为探针，研究其与GLuc的结合模式。在分析GLuc活性时，我们意外发现盐和单价阴离子是GLuc生物发光的绝对必需条件，这回顾起来对于海洋生物而言似乎是合理的。基于核磁共振（NMR）的研究，通过监测(15)N-(1)H HSQC的化学位移扰动，提示Aza-CTZ（因此也包括未氧化的CTZ）结合到疏水腔内或其附近的残基。这些NMR数据与近期对GLuc的结构预测一致，该预测假设在添加CTZ后，远离疏水腔的区域会发生大的结构变化。有趣的是，这些结果指向一种独特的催化模式，以实现CTZ的氧化脱羧反应。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37082267/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37082267/",
+  "paper_page_path": "papers/pubmed/37082267/index.html"
+}

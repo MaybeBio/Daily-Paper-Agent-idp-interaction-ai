@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.06.25.497626",
+  "title": "pH Induced Switch in the Conformational Ensemble of an Intrinsically Disordered Protein Prothymosin- <i>α</i> and Its Implications to Amyloid Fibril Formation",
+  "authors": "Lipika Baidya; Govardhan Reddy",
+  "journal": "bioRxiv",
+  "published_date": "2022-06-29",
+  "window": {
+    "start": "2022-06-27",
+    "end": "2022-07-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究无序蛋白proTα在pH变化下的构象转变及β-sheet富集区域驱动淀粉样聚集的机制，虽未直接涉及PPI，但聚焦IDP构象与聚集机制建模，方法可迁移至IDP介导互作研究。",
+  "abstract": "Aggregation of intrinsically disordered proteins (IDPs) is the cause of various neu-rodegenerative diseases. Changes in solution pH can trigger IDP aggregation due to a shift in the IDP monomer population with a high aggregation propensity. Al-though there is experimental evidence that acidic pH promotes the compaction of IDP monomers, which subsequently leads to aggregation, the general mechanism is not clear. Using the IDP prothymosin- α (proT α ), which is involved in multiple essential functions as a model system, we studied the pH effect on the conformational ensemble of proT α and probed its role in aggregation using a coarse-grained IDP model and molecular dynamics simulations. We show that compaction in the proT α dimension at low pH is due to the protein’s collapse in the intermediate region (E41 - D80) rich in glutamic acid residues. Further, the β -sheet content increases in this region upon pH change from neutral to acidic. We hypothesized that the conformations with high β -sheet content could act as aggregation-prone ( N ∗ ) states and nucleate the aggregation process. We validated our hypothesis by performing dimer simulations starting from N ∗ and non- N ∗ states. We show that simulations initiated using N ∗ states as initial conformations form dimers within 1.5 μ s, whereas the non- N ∗ states do not form dimers within this timescale. This study contributes to understanding the general principles of pH-induced IDP aggregation. The main result upon pH change from neutral to acidic, the intermediate region of proT α is responsible for aggregation due to an increase in its β -sheet forming propensity and forms the fibril core can be verified by experiments. Graphical TOC Entry",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 的聚集是多种神经退行性疾病的病因。溶液pH值的变化可通过改变具有高聚集倾向的IDP单体群体而触发IDP聚集。尽管有实验证据表明酸性pH促进IDP单体的压缩，进而导致聚集，但其一般机制尚不清楚。以参与多种重要功能的IDP prothymosin-α (proTα) 作为模型系统，我们利用粗粒化IDP模型和分子动力学 (molecular dynamics) 模拟研究了pH对proTα构象ensemble的影响，并探讨了其在聚集中的作用。我们表明，低pH下proTα尺寸的压缩是由于蛋白质在富含谷氨酸残基的中间区域（E41-D80）发生塌缩所致。此外，当pH从中性变为酸性时，该区域的β-折叠含量增加。我们假设具有高β-折叠含量的构象可作为聚集倾向 (N*) 状态，并启动聚集过程。我们通过从N*和非N*状态出发进行二聚体模拟验证了我们的假设。我们表明，使用N*状态作为初始构象的模拟在1.5 μs内形成二聚体，而非N*状态在此时间尺度内不形成二聚体。本研究有助于理解pH诱导IDP聚集的一般原理。主要结果——当pH从中性变为酸性时，proTα的中间区域因其β-折叠形成倾向增加而负责聚集并形成纤维核心——可通过实验验证。图形化TOC条目",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.06.25.497626",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.06.25.497626",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.06.25.497626/index.html"
+}

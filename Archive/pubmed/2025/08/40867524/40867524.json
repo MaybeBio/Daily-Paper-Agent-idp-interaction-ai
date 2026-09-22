@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "40867524",
+    "doi": "10.3390/biom15081079",
+    "title": "Empirical Assessment of Sequence-Based Predictions of Intrinsically Disordered Regions Involved in Phase Separation."
+  },
+  "content": {
+    "abstract": "Phase separation processes facilitate the formation of membrane-less organelles and involve interactions within structured domains and intrinsically disordered regions (IDRs) in protein sequences. The literature suggests that the involvement of proteins in phase separation can be predicted from their sequences, leading to the development of over 30 computational predictors. We focused on intrinsic disorder due to its fundamental role in related diseases, and because recent analysis has shown that phase separation can be accurately predicted for structured proteins. We evaluated eight representative amino acid-level predictors of phase separation, capable of identifying phase-separating IDRs, using a well-annotated, low-similarity test dataset under two complementary evaluation scenarios. Several methods generate accurate predictions in the easier scenario that includes both structured and disordered sequences. However, we demonstrate that modern disorder predictors perform equally well in this scenario by effectively differentiating phase-separating IDRs from structured regions. In the second, more challenging scenario-considering only predictions in disordered regions-disorder predictors underperform, and most phase separation predictors produce only modestly accurate results. Moreover, some predictors are broadly biased to classify disordered residues as phase-separating, which results in low predictive performance in this scenario. Finally, we recommend PSPHunter as the most accurate tool for identifying phase-separating IDRs in both scenarios.",
+    "keywords": [
+      "assessment",
+      "biomolecular condensates",
+      "intrinsic disorder",
+      "membrane-less organelles",
+      "phase separation",
+      "prediction"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Computational Biology/methods",
+      "Amino Acid Sequence",
+      "Sequence Analysis, Protein",
+      "Algorithms",
+      "Databases, Protein",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Xuantai",
+        "Wang, Kui",
+        "Hu, Gang",
+        "Kurgan, Lukasz"
+      ],
+      "short_names": [
+        "Wu X",
+        "Wang K",
+        "Hu G",
+        "Kurgan L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7749-0314"
+      ],
+      "affiliations": [
+        "School of Mathematical Sciences and LPMC, Nankai University, Tianjin 300071, China.",
+        "NITFID, School of Statistics and Data Science, LPMC and KLMDASR, Nankai University, Tianjin 300071, China.",
+        "NITFID, School of Statistics and Data Science, LPMC and KLMDASR, Nankai University, Tianjin 300071, China.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Xuantai",
+        "short_name": "Wu X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematical Sciences and LPMC, Nankai University, Tianjin 300071, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kui",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "NITFID, School of Statistics and Data Science, LPMC and KLMDASR, Nankai University, Tianjin 300071, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Gang",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "NITFID, School of Statistics and Data Science, LPMC and KLMDASR, Nankai University, Tianjin 300071, China."
+        ]
+      },
+      {
+        "full_name": "Kurgan, Lukasz",
+        "short_name": "Kurgan L",
+        "identifiers": [
+          "0000-0002-7749-0314"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2025 Jul 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/30 04:51",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [
+      "42184109"
+    ],
+    "refs": [
+      "40305601",
+      "40133779",
+      "40037809",
+      "39811792",
+      "39679446",
+      "39663388",
+      "39576583",
+      "39434494",
+      "39281576",
+      "38987300",
+      "38765610",
+      "38747347",
+      "38565952",
+      "38540707",
+      "38531854",
+      "38459060",
+      "38380794",
+      "38279650",
+      "38205268",
+      "38146538",
+      "37904585",
+      "37740110",
+      "37621223",
+      "37609923",
+      "37574757",
+      "37287138",
+      "37207400",
+      "36979462",
+      "36860877",
+      "36754843",
+      "36551199",
+      "36528388",
+      "36528065",
+      "36420884",
+      "36400991",
+      "36350034",
+      "36124686",
+      "36009025",
+      "35883444",
+      "35687670",
+      "35474477",
+      "35168563",
+      "35149762",
+      "34808226",
+      "34710373",
+      "34522448",
+      "34391803",
+      "34290238",
+      "34232869",
+      "33983381",
+      "33875885",
+      "33827920",
+      "33812316",
+      "33799876",
+      "33610793",
+      "33535034",
+      "33318217",
+      "33291838",
+      "32961749",
+      "32105731",
+      "31713636",
+      "31616935",
+      "31430179",
+      "31252218",
+      "30994888",
+      "29961577",
+      "29439243",
+      "29424691",
+      "29068531",
+      "28225081",
+      "27838525",
+      "27320918",
+      "26681179",
+      "26406374",
+      "25747659",
+      "24825614",
+      "22398450",
+      "20003500",
+      "19345193",
+      "18991772"
+    ],
+    "similar": [
+      "40867524",
+      "40944448",
+      "36528065",
+      "31616935",
+      "39576583",
+      "28369666",
+      "38540707",
+      "31521235",
+      "40133791",
+      "33291838",
+      "41114728",
+      "39811792",
+      "34710373",
+      "38459060",
+      "41033554",
+      "35481633",
+      "39947751",
+      "36458437",
+      "38048333",
+      "33078839",
+      "35883444",
+      "31870849",
+      "27787828",
+      "36657879",
+      "26109352",
+      "33248138",
+      "29228892",
+      "25391399",
+      "34905768",
+      "30099775",
+      "33866372",
+      "37709009",
+      "33610793",
+      "28924037",
+      "33069007",
+      "39718444",
+      "39663388",
+      "28589442",
+      "33076213",
+      "39576585",
+      "38166858",
+      "41667449",
+      "36291695",
+      "41053545",
+      "32621220",
+      "31797595",
+      "32393642",
+      "35469832",
+      "30717652",
+      "32535960",
+      "41534519",
+      "37740110",
+      "16618368",
+      "32696351",
+      "17206849",
+      "40577786",
+      "40441416",
+      "36008992",
+      "32824743",
+      "30471685",
+      "40031750",
+      "30135358",
+      "27115638",
+      "36768473",
+      "24573480",
+      "30657889",
+      "39333476",
+      "38079339",
+      "33875885",
+      "36959451",
+      "18831774",
+      "40574713",
+      "40828855",
+      "41337585",
+      "34290238",
+      "25534081",
+      "36908253",
+      "32702119",
+      "26090958",
+      "34418423",
+      "34894985",
+      "34428231",
+      "37574757",
+      "40131954",
+      "39592156",
+      "31207240",
+      "38701796",
+      "39383002",
+      "27179590",
+      "19585006",
+      "34830151",
+      "41629626",
+      "36334049",
+      "36009025",
+      "36833360",
+      "24573479",
+      "38252962",
+      "26801222",
+      "40254833",
+      "34390736"
+    ],
+    "review": [
+      "40867524",
+      "31616935",
+      "31521235",
+      "33291838",
+      "39811792",
+      "39947751",
+      "33078839",
+      "33248138",
+      "33610793",
+      "33069007",
+      "28589442",
+      "37740110",
+      "30657889",
+      "36959451",
+      "34418423",
+      "39592156",
+      "36833360"
+    ],
+    "pmc": [
+      "12383833"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom15081079",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40867524/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "identity": {
+    "pmid": "34992286",
+    "doi": "10.1038/s41557-021-00839-3",
+    "title": "Release of linker histone from the nucleosome driven by polyelectrolyte competition with a disordered protein."
+  },
+  "content": {
+    "abstract": "Highly charged intrinsically disordered proteins are essential regulators of chromatin structure and transcriptional activity. Here we identify a surprising mechanism of molecular competition that relies on the pronounced dynamical disorder present in these polyelectrolytes and their complexes. The highly positively charged human linker histone H1.0 (H1) binds to nucleosomes with ultrahigh affinity, implying residence times incompatible with efficient biological regulation. However, we show that the disordered regions of H1 retain their large-amplitude dynamics when bound to the nucleosome, which enables the highly negatively charged and disordered histone chaperone prothymosin alpha to efficiently invade the H1-nucleosome complex and displace H1 via a competitive substitution mechanism, vastly accelerating H1 dissociation. By integrating experiments and simulations, we establish a molecular model that rationalizes the remarkable kinetics of this process structurally and dynamically. Given the abundance of polyelectrolyte sequences in the nuclear proteome, this mechanism is likely to be widespread in cellular regulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Histones/*metabolism",
+      "Humans",
+      "Intrinsically Disordered Proteins/*metabolism",
+      "Nucleosomes/*metabolism",
+      "Polyelectrolytes/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Heidarsson, Petur O",
+        "Mercadante, Davide",
+        "Sottini, Andrea",
+        "Nettels, Daniel",
+        "Borgia, Madeleine B",
+        "Borgia, Alessandro",
+        "Kilic, Sinan",
+        "Fierz, Beat",
+        "Best, Robert B",
+        "Schuler, Benjamin"
+      ],
+      "short_names": [
+        "Heidarsson PO",
+        "Mercadante D",
+        "Sottini A",
+        "Nettels D",
+        "Borgia MB",
+        "Borgia A",
+        "Kilic S",
+        "Fierz B",
+        "Best RB",
+        "Schuler B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2027-5434",
+        "ORCID: 0000-0001-6792-7706",
+        "ORCID: 0000-0001-8014-5987",
+        "ORCID: 0000-0002-4701-8967",
+        "ORCID: 0000-0001-5009-8884",
+        "ORCID: 0000-0002-2991-3044",
+        "ORCID: 0000-0002-7893-3543",
+        "ORCID: 0000-0002-5970-4251"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland. pheidarsson@hi.is.",
+        "Department of Biochemistry, Science Institute, University of Iceland, Reykjavik, Iceland. pheidarsson@hi.is.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "School of Chemical Sciences, University of Auckland, Auckland, New Zealand.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Institut des Sciences et Ingenierie Chimiques (ISIC), Ecole Polytechnique Federale de Lausanne (EPFL), Lausanne, Switzerland.",
+        "Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, Copenhagen, Denmark.",
+        "Institut des Sciences et Ingenierie Chimiques (ISIC), Ecole Polytechnique Federale de Lausanne (EPFL), Lausanne, Switzerland.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA. robert.best2@nih.gov.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland. schuler@bioc.uzh.ch.",
+        "Department of Physics, University of Zurich, Zurich, Switzerland. schuler@bioc.uzh.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Heidarsson, Pétur O",
+        "short_name": "Heidarsson PO",
+        "identifiers": [
+          "0000-0003-2027-5434"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland. pheidarsson@hi.is.",
+          "Department of Biochemistry, Science Institute, University of Iceland, Reykjavík, Iceland. pheidarsson@hi.is."
+        ]
+      },
+      {
+        "full_name": "Mercadante, Davide",
+        "short_name": "Mercadante D",
+        "identifiers": [
+          "0000-0001-6792-7706"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+          "School of Chemical Sciences, University of Auckland, Auckland, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Sottini, Andrea",
+        "short_name": "Sottini A",
+        "identifiers": [
+          "0000-0001-8014-5987"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Nettels, Daniel",
+        "short_name": "Nettels D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Borgia, Madeleine B",
+        "short_name": "Borgia MB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Borgia, Alessandro",
+        "short_name": "Borgia A",
+        "identifiers": [
+          "0000-0002-4701-8967"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Kilic, Sinan",
+        "short_name": "Kilic S",
+        "identifiers": [
+          "0000-0001-5009-8884"
+        ],
+        "affiliations": [
+          "Institut des Sciences et Ingénierie Chimiques (ISIC), Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland.",
+          "Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Fierz, Beat",
+        "short_name": "Fierz B",
+        "identifiers": [
+          "0000-0002-2991-3044"
+        ],
+        "affiliations": [
+          "Institut des Sciences et Ingénierie Chimiques (ISIC), Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Best, Robert B",
+        "short_name": "Best RB",
+        "identifiers": [
+          "0000-0002-7893-3543"
+        ],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA. robert.best2@nih.gov."
+        ]
+      },
+      {
+        "full_name": "Schuler, Benjamin",
+        "short_name": "Schuler B",
+        "identifiers": [
+          "0000-0002-5970-4251"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland. schuler@bioc.uzh.ch.",
+          "Department of Physics, University of Zurich, Zurich, Switzerland. schuler@bioc.uzh.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature chemistry"
+    ],
+    "journal_abbrev": [
+      "Nat Chem"
+    ],
+    "pub_date": "2022 Feb",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/08 06:00",
+    "fetched_at": "2026-09-20 07:31:13"
+  },
+  "links": {
+    "cites": [
+      "42609971",
+      "42489335",
+      "42327091",
+      "42239067",
+      "42172735",
+      "42124630",
+      "41950317",
+      "41889770",
+      "41748577",
+      "41565662",
+      "40815652",
+      "40595536",
+      "40474236",
+      "40455990",
+      "40296701",
+      "40221837",
+      "40185744",
+      "40114377",
+      "40060531",
+      "39967274",
+      "39814316",
+      "39423710",
+      "39398199",
+      "39384813",
+      "39260373",
+      "38869063",
+      "38571760",
+      "38503281",
+      "38443761",
+      "38365983",
+      "37988476",
+      "37957331",
+      "37796987",
+      "37619707",
+      "37468629",
+      "37006777",
+      "36881934",
+      "36416865",
+      "35870650",
+      "35727975",
+      "35675815",
+      "35512095",
+      "35450211",
+      "35317553",
+      "35066947",
+      "34614173"
+    ],
+    "refs": [
+      "33617899",
+      "33432055",
+      "33299182",
+      "33184256",
+      "32165536",
+      "32017651",
+      "31952807",
+      "31874413",
+      "31543265",
+      "31165735",
+      "30940742",
+      "30471690",
+      "30401903",
+      "30389709",
+      "30301810",
+      "30171252",
+      "30127362",
+      "29604882",
+      "29466338",
+      "29368512",
+      "28985346",
+      "28636604",
+      "28475873",
+      "28432790",
+      "28364020",
+      "27566405",
+      "27365050",
+      "27300314",
+      "26750377",
+      "26723618",
+      "26699500",
+      "26477489",
+      "26474902",
+      "26454113",
+      "26348411",
+      "26262925",
+      "26084584",
+      "25980611",
+      "25531225",
+      "24739139",
+      "24498402",
+      "24376142",
+      "24218562",
+      "22550169",
+      "22492978",
+      "22305428",
+      "22021384",
+      "21918774",
+      "21705008",
+      "21071403",
+      "20639465",
+      "20627168",
+      "20509636",
+      "20457934",
+      "20434447",
+      "20404210",
+      "19739874",
+      "19706432",
+      "19588948",
+      "19072710",
+      "19008886",
+      "18083189",
+      "17921203",
+      "17301233",
+      "16957321",
+      "16715048",
+      "16462749",
+      "16449200",
+      "16113120",
+      "14870657",
+      "12237457",
+      "11812150",
+      "11130729",
+      "11130728",
+      "10908673",
+      "9759733",
+      "9639554",
+      "9628907",
+      "9514715",
+      "8706683",
+      "8194604",
+      "7495482",
+      "7139033",
+      "3856246",
+      "2720055",
+      "353875"
+    ],
+    "similar": [
+      "34992286",
+      "30430826",
+      "33184256",
+      "33617899",
+      "32356891",
+      "26648124",
+      "33125082",
+      "31874413",
+      "35618225",
+      "28475873",
+      "9315641",
+      "37796987",
+      "27098855",
+      "40768165",
+      "37619707",
+      "26750377",
+      "29466338",
+      "21464206",
+      "33667509",
+      "27010485",
+      "3654599",
+      "28610839",
+      "37214834",
+      "40060531",
+      "30373774",
+      "32165536",
+      "40940725",
+      "10995232",
+      "22021384",
+      "33432055",
+      "26366527",
+      "17570768",
+      "34656332",
+      "27558112",
+      "40185744",
+      "39796159",
+      "12650697",
+      "29988149",
+      "30940742",
+      "26400169",
+      "16717183",
+      "14512420",
+      "31015384",
+      "30991239",
+      "12151335",
+      "36610392",
+      "40474236",
+      "27365050",
+      "20444700",
+      "16462749",
+      "35581345",
+      "35377618",
+      "32017651",
+      "15928086",
+      "17996059",
+      "33309853",
+      "9497395",
+      "15716277",
+      "28973435",
+      "39443461",
+      "39206902",
+      "9737930",
+      "25078656",
+      "40716115",
+      "28177778",
+      "12445785",
+      "8636143",
+      "40815652",
+      "9632749",
+      "12956418",
+      "18823905",
+      "20457934",
+      "11473125",
+      "2463368",
+      "16715048",
+      "25921218",
+      "19328628",
+      "29263320",
+      "26182371",
+      "27903656",
+      "9723008",
+      "1893943",
+      "16531623",
+      "20309017",
+      "21940793",
+      "27262190",
+      "24086160",
+      "25043036",
+      "40140990",
+      "21930508",
+      "15546875",
+      "38309957",
+      "34081696",
+      "8814229",
+      "32512172",
+      "37432033",
+      "36468865",
+      "34246862",
+      "24484546",
+      "9427758"
+    ],
+    "review": [
+      "34992286",
+      "31874413",
+      "27098855",
+      "28610839",
+      "34656332",
+      "30940742",
+      "31015384",
+      "30991239",
+      "32017651",
+      "33309853",
+      "28177778",
+      "16715048",
+      "25921218",
+      "27903656",
+      "9723008",
+      "20309017",
+      "27262190"
+    ],
+    "pmc": [
+      "12810933"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41557-021-00839-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34992286/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.5167/uzh-221964",
+        "provider": "Zurich Open Access Repository and Archive",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

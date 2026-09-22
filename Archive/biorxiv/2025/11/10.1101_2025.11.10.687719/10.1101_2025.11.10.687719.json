@@ -1,0 +1,206 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.10.687719",
+  "title": "DEER of Singly Labelled Proteins to Evaluate Supramolecular Packing of Amyloid Fibrils",
+  "doi": "10.1101/2025.11.10.687719",
+  "abstract": "1 The formation of protein amyloid fibrils in the brain is a hallmark of various neurodegenerative diseases, including Alzheimer diseases and Parkinson diseases. Amyloid fibrils are highly ordered aggregates in which proteins folded in two-dimensional layers stack along one axis to form elongated linear assemblies. The specific conformations adopted by the proteins within each layer of the amyloid correlates with the pathology. Furthermore, their spreading and templating competency relies on strict in register packing of the folded proteins along the fibril growing axis. There is a need for tools to characterize not only the protein fold across the fibril cross section but also the spatial ordering of the proteins stacked along the amyloid fibril axis. We present an approach based on double electron electron resonance spectroscopy (DEER) using singly labelled tau protein assembled in amyloid fibrils that can deliver an apparent dimensionality of the supramolecular organization of tau fibrils. The parameters of the DEER background function can be used to assess the amyloid core location and packing order, and track time-resolved formation of aggregation intermediates. Showcasing the method on tau, we demonstrate that heparin-induced tau fibrils are mispacked while seeded aggregation can template amyloid fibrils with a higher packing order. This study benchmarks a new method that will provide critical structural insights into amyloid assemblies. <h4>Abstract Figure</h4> DEER-derived dimensionality parameter differentiates between spin-labelled tau protein in solution, in perfectly aligned fibril or in imperfectly aligned fibril (fibril structure edited from PDB 6qjh).",
+  "authors": [
+    "Tsay K",
+    "Equbal A",
+    "Li Y",
+    "Tsui T",
+    "Han S",
+    "Fichou Y"
+  ],
+  "published_date": "2025-11-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.10.687719",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.10.687719.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1117756",
+    "raw_record": {
+      "id": "PPR1117756",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1117756"
+        ]
+      },
+      "doi": "10.1101/2025.11.10.687719",
+      "title": "DEER of Singly Labelled Proteins to Evaluate Supramolecular Packing of Amyloid Fibrils",
+      "authorString": "Tsay K, Equbal A, Li Y, Tsui T, Han S, Fichou Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tsay K",
+            "lastName": "Tsay",
+            "firstName": "Karen",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, , 633 Clark St , ,"
+                },
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Equbal A",
+            "lastName": "Equbal",
+            "firstName": "Asif",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, New York University Abu Dhabi, Saadiyat Island, Abu Dhabi, United Arab Emirates"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li Y",
+            "lastName": "Li",
+            "firstName": "Yuanxin",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tsui T",
+            "lastName": "Tsui",
+            "firstName": "Tiffany",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Han S",
+            "lastName": "Han",
+            "firstName": "Songi",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, , 633 Clark St , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fichou Y",
+            "lastName": "Fichou",
+            "firstName": "Yann",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , UMR 5248, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "1 The formation of protein amyloid fibrils in the brain is a hallmark of various neurodegenerative diseases, including Alzheimer diseases and Parkinson diseases. Amyloid fibrils are highly ordered aggregates in which proteins folded in two-dimensional layers stack along one axis to form elongated linear assemblies. The specific conformations adopted by the proteins within each layer of the amyloid correlates with the pathology. Furthermore, their spreading and templating competency relies on strict in register packing of the folded proteins along the fibril growing axis. There is a need for tools to characterize not only the protein fold across the fibril cross section but also the spatial ordering of the proteins stacked along the amyloid fibril axis. We present an approach based on double electron electron resonance spectroscopy (DEER) using singly labelled tau protein assembled in amyloid fibrils that can deliver an apparent dimensionality of the supramolecular organization of tau fibrils. The parameters of the DEER background function can be used to assess the amyloid core location and packing order, and track time-resolved formation of aggregation intermediates. Showcasing the method on tau, we demonstrate that heparin-induced tau fibrils are mispacked while seeded aggregation can template amyloid fibrils with a higher packing order. This study benchmarks a new method that will provide critical structural insights into amyloid assemblies. <h4>Abstract Figure</h4>  DEER-derived dimensionality parameter differentiates between spin-labelled tau protein in solution, in perfectly aligned fibril or in imperfectly aligned fibril (fibril structure edited from PDB 6qjh).",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101040138",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.10.687719"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1117756"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1117756&type=FILE&fileName=EMS210637-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS210637",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-11-13",
+      "firstPublicationDate": "2025-11-12",
+      "firstIndexDate": "2025-11-13",
+      "fullTextReceivedDate": "2026-02-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

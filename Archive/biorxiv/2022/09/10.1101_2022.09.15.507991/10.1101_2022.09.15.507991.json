@@ -1,0 +1,276 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.09.15.507991",
+  "title": "A hybrid structure determination approach to investigate the druggability of the nucleocapsid protein of SARS-CoV-2",
+  "doi": "10.1101/2022.09.15.507991",
+  "abstract": "<h4>ABSTRACT</h4> <h4>Abstract Figure</h4> The ongoing pandemic caused by SARS-CoV-2 has called for concerted efforts to generate new insights into the biology of betacoronaviruses to inform drug screening and development. Here, we establish a workflow to determine the RNA recognition and druggability of the nucleocapsid N-protein of SARS-CoV-2, a highly abundant protein crucial for the viral life cycle. We use a synergistic method that combines NMR spectroscopy and protein-RNA cross-linking coupled to mass spectrometry to quickly determine the RNA binding of two RNA recognition domains of the N-protein. Finally, we explore the druggability of these domains by performing an NMR fragment screening. This workflow identified small molecule chemotypes that bind to RNA binding interfaces and that have promising properties for further drug development.",
+  "authors": [
+    "Padroni G",
+    "Bikaki M",
+    "Novakovic M",
+    "Wolter AC",
+    "Rüdisser SH",
+    "Gossert AD",
+    "Leitner A",
+    "Allain FH"
+  ],
+  "published_date": "2022-09-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.09.15.507991",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.09.15.507991.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR545778",
+    "raw_record": {
+      "id": "PPR545778",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR545778"
+        ]
+      },
+      "doi": "10.1101/2022.09.15.507991",
+      "title": "A hybrid structure determination approach to investigate the druggability of the nucleocapsid protein of SARS-CoV-2",
+      "authorString": "Padroni G, Bikaki M, Novakovic M, Wolter AC, Rüdisser SH, Gossert AD, Leitner A, Allain FH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Padroni G",
+            "lastName": "Padroni",
+            "firstName": "Giacomo",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1406-4449"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, Department of Biology, ETH Zurich, Hönggerbergring 64, 8093 Zürich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bikaki M",
+            "lastName": "Bikaki",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Otto-Stern-Weg 3, 8093, Zürich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Novakovic M",
+            "lastName": "Novakovic",
+            "firstName": "Mihajlo",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-2568-6044"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, Department of Biology, ETH Zurich, Hönggerbergring 64, 8093 Zürich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wolter AC",
+            "lastName": "Wolter",
+            "firstName": "Antje",
+            "initials": "AC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, Department of Biology, ETH Zurich, Hönggerbergring 64, 8093 Zürich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rüdisser SH",
+            "lastName": "Rüdisser",
+            "firstName": "Simon",
+            "initials": "SH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biomolecular NMR Spectroscopy Platform, ETH Zurich, Hönggerbergring 64, 8093 Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gossert AD",
+            "lastName": "Gossert",
+            "firstName": "Alvar",
+            "initials": "AD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biomolecular NMR Spectroscopy Platform, ETH Zurich, Hönggerbergring 64, 8093 Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leitner A",
+            "lastName": "Leitner",
+            "firstName": "Alexander",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Otto-Stern-Weg 3, 8093, Zürich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Allain FH",
+            "lastName": "Allain",
+            "firstName": "Frederic H.-T",
+            "initials": "FH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, Department of Biology, ETH Zurich, Hönggerbergring 64, 8093 Zürich, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1406-4449"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-2568-6044"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  <h4>Abstract Figure</h4>  The ongoing pandemic caused by SARS-CoV-2 has called for concerted efforts to generate new insights into the biology of betacoronaviruses to inform drug screening and development. Here, we establish a workflow to determine the RNA recognition and druggability of the nucleocapsid N-protein of SARS-CoV-2, a highly abundant protein crucial for the viral life cycle. We use a synergistic method that combines NMR spectroscopy and protein-RNA cross-linking coupled to mass spectrometry to quickly determine the RNA binding of two RNA recognition domains of the N-protein. Finally, we explore the druggability of these domains by performing an NMR fragment screening. This workflow identified small molecule chemotypes that bind to RNA binding interfaces and that have promising properties for further drug development.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "198253",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "182880",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/09/15/2022.09.15.507991.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.09.15.507991"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR545778"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.09.15.507991"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36928389",
+            "reference": "Nucleic acids research. 2023 May;51(9):4555-4571",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS161509",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "omim",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-09-16",
+      "firstPublicationDate": "2022-09-15",
+      "firstIndexDate": "2022-09-16",
+      "fullTextReceivedDate": "2023-01-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40455990",
+  "title": "Material properties of biomolecular condensates emerge from nanoscale dynamics.",
+  "authors": "Galvanetto, Nicola; Ivanovic, Milos T; Del Grosso, Simone A; Chowdhury, Aritra; Sottini, Andrea; Nettels, Daniel; Best, Robert B; Schuler, Benjamin",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2025-06-02",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过原子模拟与聚合物物理关联，揭示凝聚体黏度源于无序蛋白纳米级链动力学与接触寿命，虽非直接PPI预测，但为IDR介导凝聚体互作机制建模提供了可迁移的物理框架。",
+  "abstract": "Biomolecular condensates form by phase separation of biological polymers and have important functions in the cell-functions that are inherently linked to their physical properties at different scales. A notable aspect of such membraneless organelles is that their viscoelastic properties can vary by orders of magnitude, but it has remained unclear how these pronounced differences are rooted in the nanoscale dynamics at the molecular level. Here, we investigate a series of condensates formed by complex coacervation of highly charged disordered proteins and polypeptides that span about two orders of magnitude in bulk viscosity. We find that their viscosity is highly correlated with protein translational diffusion and nano- to microsecond chain dynamics. Remarkably, analytical relations from polymer physics can predict condensate viscosity from diffusivity and chain dynamics, and vice versa, even for more hydrophobic disordered proteins and for synthetic polyelectrolytes, indicating a mechanistic link across several decades of length- and timescales. Atomistic simulations reveal that the observed differences in friction-a key quantity underlying these relations-reflect differences in interresidue contact lifetimes as a function of arginine content and salt concentration, leading to the vastly different dynamics among condensates. The rapid exchange of interresidue contacts we observe may be a general mechanism for preventing dynamic arrest in compartments densely packed with polyelectrolytes, such as the cell nucleus.",
+  "abstract_zh": "生物分子凝聚体通过生物聚合物的相分离（phase separation）形成，并在细胞功能中发挥重要作用——这些功能与其在不同尺度上的物理性质密切相关。这类无膜细胞器的一个显著特点是其粘弹性可相差数个数量级，但至今仍不清楚这些显著差异如何在分子层面的纳米尺度动力学中扎根。在此，我们研究了一系列由高电荷无序蛋白质和多肽复合凝聚形成的凝聚体，其体相粘度跨越约两个数量级。我们发现，它们的粘度与蛋白质平移扩散以及纳秒至微秒尺度的链动力学高度相关。值得注意的是，来自聚合物物理学的解析关系可以从扩散率和链动力学预测凝聚体粘度，反之亦然，即使对于更疏水的无序蛋白质和合成聚电解质也适用，这表明在多个数量级的长度和时间尺度上存在机制性联系。原子级模拟揭示，观察到的摩擦差异——这些关系背后的关键量——反映了精氨酸含量和盐浓度变化导致的残基间接触寿命差异，从而造成凝聚体间截然不同的动力学行为。我们观察到的残基间接触的快速交换可能是一种通用机制，用于防止在充满聚电解质的区室（如细胞核）中发生动态停滞。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40455990/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40455990/",
+  "paper_page_path": "papers/pubmed/40455990/index.html"
+}

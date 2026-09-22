@@ -1,0 +1,507 @@
+{
+  "identity": {
+    "pmid": "35484234",
+    "doi": "10.1038/s41594-022-00760-4",
+    "title": "Single-stranded nucleic acid binding and coacervation by linker histone H1."
+  },
+  "content": {
+    "abstract": "The H1 linker histone family is the most abundant group of eukaryotic chromatin-binding proteins. However, their contribution to chromosome structure and function remains incompletely understood. Here we use single-molecule fluorescence and force microscopy to directly visualize the behavior of H1 on various nucleic acid and nucleosome substrates. We observe that H1 coalesces around single-stranded DNA generated from tension-induced DNA duplex melting. Using a droplet fusion assay controlled by optical tweezers, we find that single-stranded nucleic acids mediate the formation of gel-like H1 droplets, whereas H1-double-stranded DNA and H1-nucleosome droplets are more liquid-like. Molecular dynamics simulations reveal that multivalent and transient engagement of H1 with unpaired DNA strands drives their enhanced phase separation. Using eGFP-tagged H1, we demonstrate that inducing single-stranded DNA accumulation in cells causes an increase in H1 puncta that are able to fuse. We further show that H1 and Replication Protein A occupy separate nuclear regions, but that H1 colocalizes with the replication factor Proliferating Cell Nuclear Antigen, particularly after DNA damage. Overall, our results provide a refined perspective on the diverse roles of H1 in genome organization and maintenance, and indicate its involvement at stalled replication forks.",
+    "keywords": [],
+    "mesh_terms": [
+      "Chromatin",
+      "DNA/metabolism",
+      "DNA, Single-Stranded",
+      "*Histones/metabolism",
+      "*Nucleosomes",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Leicher, Rachel",
+        "Osunsade, Adewola",
+        "Chua, Gabriella N L",
+        "Faulkner, Sarah C",
+        "Latham, Andrew P",
+        "Watters, John W",
+        "Nguyen, Tuan",
+        "Beckwitt, Emily C",
+        "Christodoulou-Rubalcava, Sophia",
+        "Young, Paul G",
+        "Zhang, Bin",
+        "David, Yael",
+        "Liu, Shixin"
+      ],
+      "short_names": [
+        "Leicher R",
+        "Osunsade A",
+        "Chua GNL",
+        "Faulkner SC",
+        "Latham AP",
+        "Watters JW",
+        "Nguyen T",
+        "Beckwitt EC",
+        "Christodoulou-Rubalcava S",
+        "Young PG",
+        "Zhang B",
+        "David Y",
+        "Liu S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3187-1234",
+        "ORCID: 0000-0001-6340-8765",
+        "ORCID: 0000-0002-9338-7253",
+        "ORCID: 0000-0001-5786-8861",
+        "ORCID: 0000-0002-3685-7503",
+        "ORCID: 0000-0003-1696-0025",
+        "ORCID: 0000-0003-4238-7066"
+      ],
+      "affiliations": [
+        "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY, USA.",
+        "Tri-Institutional PhD Program in Chemical Biology, New York, NY, USA.",
+        "Tri-Institutional PhD Program in Chemical Biology, New York, NY, USA.",
+        "Chemical Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center (MSKCC), New York, NY, USA.",
+        "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY, USA.",
+        "Tri-Institutional PhD Program in Chemical Biology, New York, NY, USA.",
+        "Chemical Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center (MSKCC), New York, NY, USA.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY, USA.",
+        "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY, USA.",
+        "Tri-Institutional MD-PhD Program, New York, NY, USA.",
+        "Laboratory of DNA Replication, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA.",
+        "Tri-Institutional PhD Program in Chemical Biology, New York, NY, USA.",
+        "Tri-Institutional MD-PhD Program, New York, NY, USA.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+        "Tri-Institutional PhD Program in Chemical Biology, New York, NY, USA. davidshy@mskcc.org.",
+        "Chemical Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center (MSKCC), New York, NY, USA. davidshy@mskcc.org.",
+        "Tri-Institutional MD-PhD Program, New York, NY, USA. davidshy@mskcc.org.",
+        "Department of Pharmacology, Weill Cornell Medical College, New York, NY, USA. davidshy@mskcc.org.",
+        "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medical College, New York, NY, USA. davidshy@mskcc.org.",
+        "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY, USA. shixinliu@rockefeller.edu.",
+        "Tri-Institutional PhD Program in Chemical Biology, New York, NY, USA. shixinliu@rockefeller.edu.",
+        "Tri-Institutional MD-PhD Program, New York, NY, USA. shixinliu@rockefeller.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Leicher, Rachel",
+        "short_name": "Leicher R",
+        "identifiers": [
+          "0000-0002-3187-1234"
+        ],
+        "affiliations": [
+          "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY, USA.",
+          "Tri-Institutional PhD Program in Chemical Biology, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Osunsade, Adewola",
+        "short_name": "Osunsade A",
+        "identifiers": [
+          "0000-0001-6340-8765"
+        ],
+        "affiliations": [
+          "Tri-Institutional PhD Program in Chemical Biology, New York, NY, USA.",
+          "Chemical Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center (MSKCC), New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Chua, Gabriella N L",
+        "short_name": "Chua GNL",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY, USA.",
+          "Tri-Institutional PhD Program in Chemical Biology, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Faulkner, Sarah C",
+        "short_name": "Faulkner SC",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center (MSKCC), New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Latham, Andrew P",
+        "short_name": "Latham AP",
+        "identifiers": [
+          "0000-0002-9338-7253"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Watters, John W",
+        "short_name": "Watters JW",
+        "identifiers": [
+          "0000-0001-5786-8861"
+        ],
+        "affiliations": [
+          "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Tuan",
+        "short_name": "Nguyen T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY, USA.",
+          "Tri-Institutional MD-PhD Program, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Beckwitt, Emily C",
+        "short_name": "Beckwitt EC",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of DNA Replication, Howard Hughes Medical Institute, The Rockefeller University, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Christodoulou-Rubalcava, Sophia",
+        "short_name": "Christodoulou-Rubalcava S",
+        "identifiers": [],
+        "affiliations": [
+          "Tri-Institutional PhD Program in Chemical Biology, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Young, Paul G",
+        "short_name": "Young PG",
+        "identifiers": [],
+        "affiliations": [
+          "Tri-Institutional MD-PhD Program, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bin",
+        "short_name": "Zhang B",
+        "identifiers": [
+          "0000-0002-3685-7503"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "David, Yael",
+        "short_name": "David Y",
+        "identifiers": [
+          "0000-0003-1696-0025"
+        ],
+        "affiliations": [
+          "Tri-Institutional PhD Program in Chemical Biology, New York, NY, USA. davidshy@mskcc.org.",
+          "Chemical Biology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center (MSKCC), New York, NY, USA. davidshy@mskcc.org.",
+          "Tri-Institutional MD-PhD Program, New York, NY, USA. davidshy@mskcc.org.",
+          "Department of Pharmacology, Weill Cornell Medical College, New York, NY, USA. davidshy@mskcc.org.",
+          "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medical College, New York, NY, USA. davidshy@mskcc.org."
+        ]
+      },
+      {
+        "full_name": "Liu, Shixin",
+        "short_name": "Liu S",
+        "identifiers": [
+          "0000-0003-4238-7066"
+        ],
+        "affiliations": [
+          "Laboratory of Nanoscale Biophysics and Biochemistry, The Rockefeller University, New York, NY, USA. shixinliu@rockefeller.edu.",
+          "Tri-Institutional PhD Program in Chemical Biology, New York, NY, USA. shixinliu@rockefeller.edu.",
+          "Tri-Institutional MD-PhD Program, New York, NY, USA. shixinliu@rockefeller.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature structural & molecular biology"
+    ],
+    "journal_abbrev": [
+      "Nat Struct Mol Biol"
+    ],
+    "pub_date": "2022 May",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/29 06:00",
+    "fetched_at": "2026-09-20 09:58:54"
+  },
+  "links": {
+    "cites": [
+      "42317538",
+      "42173878",
+      "42124630",
+      "41950317",
+      "41909948",
+      "41528870",
+      "41372172",
+      "41351211",
+      "40977604",
+      "40624022",
+      "40507965",
+      "40305347",
+      "40172489",
+      "40136009",
+      "40060531",
+      "39660932",
+      "39575590",
+      "39469863",
+      "39328748",
+      "39227829",
+      "39206638",
+      "39169038",
+      "39164525",
+      "38824391",
+      "38745030",
+      "38591484",
+      "38289342",
+      "38139331",
+      "38106194",
+      "38076908",
+      "37496267",
+      "37442580",
+      "37293007",
+      "37171907",
+      "37131742",
+      "37065433",
+      "37034777",
+      "36993500",
+      "36883003",
+      "36876423",
+      "36711595",
+      "36710442",
+      "36536176",
+      "36418314",
+      "35810158",
+      "35364104",
+      "35317553",
+      "34717733",
+      "34580064"
+    ],
+    "refs": [
+      "34478647",
+      "34192510",
+      "33826337",
+      "33704061",
+      "33640380",
+      "33299182",
+      "33299181",
+      "33238161",
+      "33159856",
+      "32939066",
+      "32767698",
+      "32502392",
+      "32482873",
+      "32358495",
+      "32134099",
+      "31952807",
+      "31543265",
+      "31484078",
+      "31437398",
+      "31348887",
+      "30968131",
+      "30682370",
+      "30585724",
+      "30346772",
+      "30342746",
+      "30301810",
+      "30217894",
+      "29644850",
+      "29466338",
+      "29364893",
+      "29314832",
+      "29082290",
+      "29018282",
+      "28475873",
+      "28225081",
+      "27708074",
+      "27219701",
+      "27099372",
+      "26895087",
+      "26750377",
+      "26474902",
+      "26474065",
+      "26348411",
+      "26015579",
+      "24763583",
+      "23097493",
+      "21500218",
+      "21196936",
+      "21059937",
+      "20439994",
+      "19841258",
+      "18265198",
+      "17613284",
+      "17210054",
+      "16715048",
+      "16506093",
+      "16377562",
+      "16043363",
+      "14985337",
+      "14573610",
+      "12820979",
+      "11130729",
+      "10801360",
+      "10372352",
+      "8628994"
+    ],
+    "similar": [
+      "35484234",
+      "37432033",
+      "31952807",
+      "26750377",
+      "27903656",
+      "33221335",
+      "28475873",
+      "33667509",
+      "26648124",
+      "35618225",
+      "30373774",
+      "27365050",
+      "27010485",
+      "35377618",
+      "36610392",
+      "35581345",
+      "23097493",
+      "28973435",
+      "17570768",
+      "26400169",
+      "31391082",
+      "1893943",
+      "21464206",
+      "37619707",
+      "21768347",
+      "29018282",
+      "36468865",
+      "31015384",
+      "32165536",
+      "33617899",
+      "35066947",
+      "9315641",
+      "39206902",
+      "20457934",
+      "32356891",
+      "25921218",
+      "20444700",
+      "18823905",
+      "11473125",
+      "28202543",
+      "10995232",
+      "19328628",
+      "15716277",
+      "20156997",
+      "16105835",
+      "27624769",
+      "33432055",
+      "34422830",
+      "16462749",
+      "31434570",
+      "387806",
+      "10386604",
+      "2463368",
+      "12956418",
+      "22021384",
+      "9811600",
+      "36435862",
+      "35140358",
+      "25628309",
+      "27172195",
+      "498278",
+      "39443461",
+      "15057966",
+      "14512420",
+      "7287811",
+      "28819201",
+      "33238161",
+      "37823998",
+      "28756274",
+      "9822702",
+      "36062461",
+      "22334665",
+      "32555215",
+      "24218562",
+      "21855802",
+      "27645053",
+      "38309957",
+      "19834459",
+      "1945884",
+      "27528617",
+      "9628723",
+      "28177778",
+      "27098855",
+      "500633",
+      "7838716",
+      "16638744",
+      "6824675",
+      "16715048",
+      "8662614",
+      "3087426",
+      "12151335",
+      "29988149",
+      "7263648",
+      "26474902",
+      "9427758",
+      "7756302",
+      "14645090",
+      "16717183",
+      "8890169",
+      "8407888"
+    ],
+    "review": [
+      "35484234",
+      "27903656",
+      "33221335",
+      "29018282",
+      "31015384",
+      "25921218",
+      "9811600",
+      "27645053",
+      "28177778",
+      "27098855",
+      "16715048",
+      "26474902"
+    ],
+    "pmc": [
+      "9117509"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41594-022-00760-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35484234/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35484234",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

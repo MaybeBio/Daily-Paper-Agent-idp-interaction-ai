@@ -1,0 +1,196 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.27.596008",
+  "title": "Arabidopsis terminal nucleotidyl transferases govern secondary siRNA production at distinct steps",
+  "doi": "10.1101/2024.05.27.596008",
+  "abstract": "<h4>ABSTRACT</h4> In plants, RNA interference (RNAi) mediated by the endonucleolytic RNA-Induced Silencing Complex (RISC) defends against foreign RNA and regulates endogenous genes. Targeting of RISC to foreign RNA establishes amplification loops, wherein RNA-dependent RNA Polymerase 6 (RDR6) synthesizes double-stranded RNA (dsRNA) for secondary small interfering RNA (siRNA) biogenesis, using cleavage fragments of RNA targeted by RISC programmed with a primary siRNA as template. Secondary siRNA production from endogenous RISC targets requires a particular primary small RNA size or target site multiplicity. siRNA amplification in yeast and nematodes requires terminal nucleotidyl transferases (TNTases), but their roles in plants are unclear. Here, we demonstrate two functions of TNTases in siRNA amplification in Arabidopsis thaliana . URT1 prevents initiation of microRNA-induced secondary siRNA formation through uridylation of 5’-cleavage fragments, sometimes redundantly with the exosome and the TNTase HESO1. Once initiated via RDR6 recruitment, HESO1 and other TNTases stimulate secondary siRNA formation by producing 2-nt 3’overhangs on RDR6-synthesized dsRNA to yield substrates for processing into siRNAs by DICER-LIKE4. These results define molecular mechanisms by which TNTases control siRNA amplification in plants.",
+  "authors": [
+    "Vigh ML",
+    "Thieffry A",
+    "Arribas-Hernández L",
+    "Brodersen P"
+  ],
+  "published_date": "2024-05-31",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.27.596008",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.27.596008.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR859815",
+    "raw_record": {
+      "id": "PPR859815",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR859815"
+        ]
+      },
+      "doi": "10.1101/2024.05.27.596008",
+      "title": "Arabidopsis terminal nucleotidyl transferases govern secondary siRNA production at distinct steps",
+      "authorString": "Vigh ML, Thieffry A, Arribas-Hernández L, Brodersen P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Vigh ML",
+            "lastName": "Vigh",
+            "firstName": "Maria Louisa",
+            "initials": "ML",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6271-6520"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Copenhagen, Copenhagen Plant Science Center, Department of Biology, Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thieffry A",
+            "lastName": "Thieffry",
+            "firstName": "Axel",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Copenhagen, Copenhagen Plant Science Center, Department of Biology, Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arribas-Hernández L",
+            "lastName": "Arribas-Hernández",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Copenhagen, Copenhagen Plant Science Center, Department of Biology, Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brodersen P",
+            "lastName": "Brodersen",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1083-1150"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Copenhagen, Copenhagen Plant Science Center, Department of Biology, Copenhagen N, Denmark"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6271-6520"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1083-1150"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  In plants, RNA interference (RNAi) mediated by the endonucleolytic RNA-Induced Silencing Complex (RISC) defends against foreign RNA and regulates endogenous genes. Targeting of RISC to foreign RNA establishes amplification loops, wherein RNA-dependent RNA Polymerase 6 (RDR6) synthesizes double-stranded RNA (dsRNA) for secondary small interfering RNA (siRNA) biogenesis, using cleavage fragments of RNA targeted by RISC programmed with a primary siRNA as template. Secondary siRNA production from endogenous RISC targets requires a particular primary small RNA size or target site multiplicity. siRNA amplification in yeast and nematodes requires terminal nucleotidyl transferases (TNTases), but their roles in plants are unclear. Here, we demonstrate two functions of TNTases in siRNA amplification in  Arabidopsis thaliana . URT1 prevents initiation of microRNA-induced secondary siRNA formation through uridylation of 5’-cleavage fragments, sometimes redundantly with the exosome and the TNTase HESO1. Once initiated via RDR6 recruitment, HESO1 and other TNTases stimulate secondary siRNA formation by producing 2-nt 3’overhangs on RDR6-synthesized dsRNA to yield substrates for processing into siRNAs by DICER-LIKE4. These results define molecular mechanisms by which TNTases control siRNA amplification in plants.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "726417",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.05.27.596008"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.05.27.596008"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR859815"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR859815&type=FILE&fileName=EMS196619-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196619",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-06-02",
+      "firstPublicationDate": "2024-05-31",
+      "firstIndexDate": "2024-06-02",
+      "fullTextReceivedDate": "2024-06-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

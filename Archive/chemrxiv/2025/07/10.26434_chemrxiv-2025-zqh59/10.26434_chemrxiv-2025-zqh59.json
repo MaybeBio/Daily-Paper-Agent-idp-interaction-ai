@@ -1,0 +1,365 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-zqh59",
+  "title": "Molecular dynamics of the intrinsically disordered protein COR15A — A force field validation on structure and dynamics",
+  "doi": "10.26434/chemrxiv-2025-zqh59",
+  "abstract": "Intrinsically disordered proteins (IDPs) pose a challenge for structural characterization, as experimental methods lack the sub-nanometer/sub-nanosecond resolution to capture their dynamic conformational ensembles. Molecular dynamics (MD) simulations can, in principle, provide this information, but for the simulation of IDPs dedicated protein and water force fields are needed, as traditional MD models for folded proteins prove inadequate for IDPs. Substantial effort was invested to develop IDP-specific force fields, but their performance in describing IDPs that undergo conformational changes—such as those induced by molecular partner binding or changes in solution environment—remains underexplored. In this study, we investigated the ability of 20 MD models to accurately simulate structural and dynamic aspects of COR15A, an IDP just on the verge of folding, with a particular focus on their ability to capture subtle structural differences. We employ a two-step approach: (i) validation of short 200-ns simulations against small-angle X-ray scattering (SAXS) data, and (ii) detailed evaluation of the six best-performing MD models through extended 1.2-µs MD simulations against nuclear magnetic resonance (NMR) data, including a single-point mutant with slightly increased helicity. Only DES-amber and ff99SBws capture helicity differences between wild-type and mutant, but ff99SBws overestimates helicity. Notably, only DES-amber adequately reproduces the COR15A dynamics, as assessed by NMR relaxation times at two different magnetic field strengths. Among the tested force fields, DES-amber emerges as the best MD model for the simulation of COR15A. Its application provides insights into its dynamic conformational landscape, albeit not perfectly reproducing all experimental data. Our study highlights the need for rigorous force field validation for IDPs, and identifies remaining discrepancies in need of further force-field development.",
+  "authors": [
+    "Tobias Rindfleisch",
+    "Ricky Nencini",
+    "O. H. Samuli Ollila",
+    "Dirk Walther",
+    "Markus S. Miettinen",
+    "Anja Thalhammer"
+  ],
+  "published_date": "2025-07-07",
+  "updated_date": "2025-07-08T02:08:21Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-zqh59",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-zqh59",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T15:41:27Z",
+        "timestamp": 1785426087410,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            7
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                7
+              ]
+            ],
+            "date-time": "2025-07-07T00:00:00Z",
+            "timestamp": 1751846400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100004756",
+          "name": "Emil Aaltosen Säätiö",
+          "doi-asserted-by": "publisher",
+          "id": [
+            {
+              "id": "10.13039/501100004756",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Intrinsically disordered proteins (IDPs) pose a challenge for structural characterization, as experimental methods lack the sub-nanometer/sub-nanosecond resolution to capture their dynamic conformational ensembles. Molecular dynamics (MD) simulations can, in principle, provide this information, but for the simulation of IDPs dedicated protein and water force fields are needed, as traditional MD models for folded proteins prove inadequate for IDPs. Substantial effort was invested to develop IDP-specific force fields, but their performance in describing IDPs that undergo conformational changes—such as those induced by molecular partner binding or changes in solution environment—remains underexplored. In this study, we investigated the ability of 20 MD models to accurately simulate structural and dynamic aspects of COR15A, an IDP just on the verge of folding, with a particular focus on their ability to capture subtle structural differences. We employ a two-step approach: (i) validation of short 200-ns simulations against small-angle X-ray scattering (SAXS) data, and (ii) detailed evaluation of the six best-performing MD models through extended 1.2-µs MD simulations against nuclear magnetic resonance (NMR) data, including a single-point mutant with slightly increased helicity. Only DES-amber and ff99SBws capture helicity differences between wild-type and mutant, but ff99SBws overestimates helicity. Notably, only DES-amber adequately reproduces the COR15A dynamics, as assessed by NMR relaxation times at two different magnetic field strengths. Among the tested force fields, DES-amber emerges as the best MD model for the simulation of COR15A. Its application provides insights into its dynamic conformational landscape, albeit not perfectly reproducing all experimental data. Our study highlights the need for rigorous force field validation for IDPs, and identifies remaining discrepancies in need of further force-field development.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-zqh59",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            8
+          ]
+        ],
+        "date-time": "2025-07-08T02:08:21Z",
+        "timestamp": 1751940501000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Molecular dynamics of the intrinsically disordered protein COR15A — A force field validation on structure and dynamics"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0329-0544",
+          "authenticated-orcid": false,
+          "given": "Tobias",
+          "family": "Rindfleisch",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03zga2b32",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Bergen",
+              "place": [
+                "Norway"
+              ]
+            },
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03bnmw459",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Potsdam",
+              "place": [
+                "Germany"
+              ]
+            },
+            {
+              "name": "Max-Planck Institute of Molecular Plant Physiology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ricky",
+          "family": "Nencini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/040af2s02",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Helsinki",
+              "place": [
+                "Finland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "O. H. Samuli",
+          "family": "Ollila",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/040af2s02",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Helsinki",
+              "place": [
+                "Finland"
+              ]
+            },
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/04b181w54",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "VTT Technical Research Centre of Finland",
+              "place": [
+                "Finland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dirk",
+          "family": "Walther",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Max-Planck Institute of Molecular Plant Physiology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3999-4722",
+          "authenticated-orcid": false,
+          "given": "Markus S.",
+          "family": "Miettinen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03zga2b32",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Bergen",
+              "place": [
+                "Norway"
+              ]
+            },
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/00pwgnh47",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Max Planck Institute of Colloids and Interfaces",
+              "place": [
+                "Germany"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6480-0993",
+          "authenticated-orcid": false,
+          "given": "Anja",
+          "family": "Thalhammer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03bnmw459",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Potsdam",
+              "place": [
+                "Germany"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-zqh59",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:44:10Z",
+        "timestamp": 1778755450000
+      },
+      "score": 97.9988,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-zqh59"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            7
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-zqh59",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jctc.5c00854",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

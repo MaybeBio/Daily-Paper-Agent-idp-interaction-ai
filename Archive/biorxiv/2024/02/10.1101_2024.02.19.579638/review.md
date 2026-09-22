@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a computational model of the active membrane-assembled phagocyte NADPH oxidase (NOX2) complex, generated using AlphaFold2 with integration of experimental data and synchrotron radiation circular dichroism (SRCD) conformational analyses, and supplemented by molecular dynamics (MD) simulations of the membrane-embedded complex. They claim the model reveals roles for intrinsically disordered regions (IDRs) in protein-protein and membrane-protein interactions, and that the work provides evidence for a structure of the active complex in which disordered regions enable multi-subunit assembly.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods details, AlphaFold2 model confidence metrics, SRCD data and analysis, MD simulation parameters and trajectories, and any validation or comparison with experimental structures
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable computational approach to a challenging structural biology problem, namely the active state of a multi-subunit membrane enzyme with essential disordered regions. However, the claims as stated cannot be evaluated from the abstract alone. The central assertion that disordered regions enable multi-subunit assembly is presented without quantitative support, model validation, or comparison to experimental data beyond a general reference to "experimental data" and SRCD. The work may be of interest to the NADPH oxidase and membrane protein communities, but the evidence base provided is insufficient to assess technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers studying NADPH oxidase structure and function, particularly those interested in the activation mechanism and the role of disordered regions in multi-subunit membrane complexes. The work may also appeal to computational biologists developing integrative modeling approaches that combine AlphaFold2 with experimental restraints and MD simulations, and to structural biologists interested in membrane protein complexes with intrinsically disordered components.
+- **Major strengths** The abstract addresses a significant gap in the field, as the active NOX2 complex structure is unknown and experimentally challenging. The combination of AlphaFold2 with experimental data and SRCD conformational analyses is a sensible integrative strategy. The explicit focus on intrinsically disordered regions is timely and potentially insightful, given their established functional importance in this system.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "our work provides evidence for a model of the structure of the active complex where disordered regions can enable multi-subunit assembly."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The central claim that disordered regions enable multi-subunit assembly is stated as a conclusion, but the abstract provides no quantitative or qualitative evidence to support this. No model confidence metrics, no comparison of alternative assembly modes, no experimental validation, and no specific SRCD or MD results are described. The phrase "provide evidence" implies a level of support that is not demonstrated in the abstract.
+  - **Why it matters** This is the primary novel claim of the work. Without supporting evidence, the claim is an assertion rather than a demonstrated finding. The abstract does not allow a reader to assess whether the model is reliable, whether the role of IDRs is robust across simulation conditions, or whether the conclusion is overinterpreted from computational predictions.
+  - **Resolution test** The full manuscript must show AlphaFold2 confidence metrics (e.g., pLDDT, PAE) for the predicted interfaces, demonstrate that the IDR-mediated interactions are consistent across multiple models or seeds, provide SRCD data supporting conformational states, and show MD simulations that are converged and reproducible. Ideally, the authors would also compare their model to any available experimental cross-linking or mutagenesis data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that "AF2 ability to generate complexes enabled us to visualize ways in which subunits could assemble together."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** AlphaFold2 is known to produce plausible but not always correct multimer predictions, particularly for membrane proteins and complexes involving disordered regions. The abstract does not indicate how the authors distinguished between alternative assembly models, whether the predictions were filtered by experimental data, or how the membrane environment was accounted for in the AlphaFold2 predictions. The phrase "visualize ways" suggests exploratory modeling rather than validated structure determination.
+  - **Why it matters** The reliability of the proposed model depends entirely on the quality and filtering of AlphaFold2 predictions. Without details on model selection, scoring, and experimental filtering, the reader cannot judge whether the proposed assembly is one of many equally plausible predictions or a well-supported model.
+  - **Resolution test** The manuscript must describe the AlphaFold2 multimer protocol, report confidence metrics for the interfaces, show how experimental data were used to select among models, and ideally include a comparison with known experimental constraints such as cross-linking or mutagenesis data. The authors should also address the known limitations of AlphaFold2 for membrane proteins and disordered regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that "Additional Molecular Dynamics simulations of the membrane embedded complex bring further insight regarding the system dynamics."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The MD simulations are mentioned as providing "further insight," but no specific findings are described. It is unclear what the simulations showed, how long they were run, whether they were equilibrated, or whether the membrane environment was modeled realistically. The phrase "bring further insight" is vague and does not convey any specific result.
+  - **Why it matters** MD simulations are only useful if they are well-conducted and if the results are interpreted in the context of the model's limitations. Without specifics, the reader cannot assess whether the simulations support the model or are merely illustrative.
+  - **Resolution test** The manuscript must describe the MD protocol, including force field, membrane model, simulation length, and convergence criteria. The authors should report specific observations from the simulations, such as stability of the complex, key interactions, or conformational changes, and relate these to the proposed role of IDRs.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "the phagocyte NADPH oxidase complex (NOX2)" is imprecise, as NOX2 typically refers to the catalytic subunit (gp91phox) rather than the entire complex. The abstract later refers to "cytochrome b558" as the catalytic core, which is correct, but the initial naming could confuse readers.
+  - **Required correction** Clarify that NOX2 is the catalytic subunit of the complex, or refer to the "phagocyte NADPH oxidase complex" without equating it to NOX2.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract does not state what experimental data were used to constrain the model, beyond a general reference to "experimental data" and SRCD. This is a key omission, as the integration of experimental data is a stated strength of the approach.
+  - **Required correction** Specify the types of experimental data used (e.g., cross-linking, mutagenesis, binding assays) and how they were incorporated into the modeling pipeline.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Abstract language
+  - **Evidence pointer** Abstract, sentence on SRCD
+  - **Issue** The abbreviation "SRCD" is used without definition. While specialists may know it refers to synchrotron radiation circular dichroism, the abstract should define it at first use for broader readership.
+  - **Required correction** Define SRCD at first mention, e.g., "synchrotron radiation circular dichroism (SRCD)."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central claim about IDR-enabled assembly is not supported by the abstract, and the reliability of the AlphaFold2-based model is not established. R1-M3 is non-blocking but requires clarification.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The approach of combining AlphaFold2 with experimental data and SRCD for a membrane complex with disordered regions is potentially original, but the abstract does not demonstrate how this combination yields new biological insight beyond what is already known about NOX2 activation.
+  - **Scientific importance** The active NOX2 structure is of significant interest to immunology and redox biology, and a reliable model could be valuable. However, the importance of the specific claim about IDR-enabled assembly is not yet established.
+  - **Interdisciplinary readership** The work bridges computational biology, structural biology, and biochemistry, and could appeal to a broad readership if the methods and results are clearly presented. The abstract is accessible but lacks technical detail.
+  - **Technical soundness** Not assessable from the abstract. The lack of model confidence metrics, validation, and MD details prevents evaluation.
+  - **Readability for nonspecialists** The abstract is generally readable, but the undefined SRCD abbreviation and the vague description of MD results reduce clarity for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach and a potentially interesting hypothesis, but the central claims are unsupported by the visible evidence. A full manuscript with detailed methods, model validation, and specific results would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that "disordered regions can enable multi-subunit assembly" is unsupported in the abstract, as no evidence is presented.
+- The claim that the model "provides evidence" for the active complex structure is overstated relative to the visible evidence, which is limited to a description of the approach.
+- The statement that MD simulations "bring further insight" is unverifiable without specific results.
+- The general reference to "experimental data" without specification makes the integration of such data unassessable.

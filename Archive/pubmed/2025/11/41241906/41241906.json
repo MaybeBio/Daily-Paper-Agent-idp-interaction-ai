@@ -1,0 +1,225 @@
+{
+  "identity": {
+    "pmid": "41241906",
+    "doi": "10.1007/978-1-0716-5013-4_12",
+    "title": "Bioinformatic Tools for Non-bioinformaticians: A Roadmap to Study Unknown Microprotein Sequences."
+  },
+  "content": {
+    "abstract": "The identification of unknown microprotein sequences is often presented as a FASTA file with hundreds or thousands of unknown RNA or protein sequences. Then, the researcher needs to gain an overall view of all the sequences and identify which ones may be relevant to address their biological question of interest. In the absence of a bioinformatician or certain computational knowledge, this task becomes increasingly challenging proportionally to the number of sequences identified. In this chapter, we provide a guideline of different publicly available online resources that can be used without any computational background to analyze your sequences' structural and physicochemical properties and identify functional domains and motifs. Moreover, we have developed MicrOracle, a publicly available Shiny app that will integrate the different output files from the online prediction tools and generate interactive plots that can contribute to easily visualizing, understanding, and segmenting your data based on structural and functional criteria.",
+    "keywords": [
+      "Disordered proteins",
+      "Domain",
+      "Microproteins",
+      "Motif",
+      "Protein bioinformatics",
+      "Shiny app"
+    ],
+    "mesh_terms": [
+      "*Computational Biology/methods",
+      "*Software",
+      "*Proteins/chemistry/genetics",
+      "Databases, Protein",
+      "*Sequence Analysis, Protein/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gimeno Le Paih, Patricia",
+        "Aramburu, Iker Valle"
+      ],
+      "short_names": [
+        "Gimeno Le Paih P",
+        "Aramburu IV"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Molecular Biology, Umea University, Umea, Sweden.",
+        "Laboratory for Molecular Infection Medicine Sweden (MIMS) and Umea Center for Microbial Research (UCMR), Umea University, Umea, Sweden.",
+        "Department of Molecular Biology, Umea University, Umea, Sweden. Iker.aramburu@umu.se.",
+        "Laboratory for Molecular Infection Medicine Sweden (MIMS) and Umea Center for Microbial Research (UCMR), Umea University, Umea, Sweden. Iker.aramburu@umu.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gimeno Le Paih, Patricia",
+        "short_name": "Gimeno Le Paih P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Umeå University, Umeå, Sweden.",
+          "Laboratory for Molecular Infection Medicine Sweden (MIMS) and Umeå Center for Microbial Research (UCMR), Umeå University, Umeå, Sweden."
+        ]
+      },
+      {
+        "full_name": "Aramburu, Iker Valle",
+        "short_name": "Aramburu IV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Umeå University, Umeå, Sweden. Iker.aramburu@umu.se.",
+          "Laboratory for Molecular Infection Medicine Sweden (MIMS) and Umeå Center for Microbial Research (UCMR), Umeå University, Umeå, Sweden. Iker.aramburu@umu.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/16 13:21",
+    "fetched_at": "2026-09-17 21:54:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39163860",
+      "39135888",
+      "38297184",
+      "37962385",
+      "37957331",
+      "34480923",
+      "33495453",
+      "33357399",
+      "31432235",
+      "29590297",
+      "24926813",
+      "24773235"
+    ],
+    "similar": [
+      "41241906",
+      "33001599",
+      "36321557",
+      "41766583",
+      "38127603",
+      "19365790",
+      "40756675",
+      "29293498",
+      "22099701",
+      "27787825",
+      "23031578",
+      "19852836",
+      "22045561",
+      "16817977",
+      "19251774",
+      "27472895",
+      "33079985",
+      "16749920",
+      "17967180",
+      "28150234",
+      "18554415",
+      "27975294",
+      "26940649",
+      "24929426",
+      "38648741",
+      "23912807",
+      "27383535",
+      "38757367",
+      "19602529",
+      "15064475",
+      "28451967",
+      "17059594",
+      "38995545",
+      "24885091",
+      "29360926",
+      "19958518",
+      "34473083",
+      "16914055",
+      "27528420",
+      "28986783",
+      "27896723",
+      "15929795",
+      "39854283",
+      "16792820",
+      "19153681",
+      "15105278",
+      "22270458",
+      "29522145",
+      "24573479",
+      "19236110",
+      "16526955",
+      "19067583",
+      "41493144",
+      "33631427",
+      "34724897",
+      "19958512",
+      "31114895",
+      "28057683",
+      "35913170",
+      "29584811",
+      "35696075",
+      "19922660",
+      "11778865",
+      "20007729",
+      "19768443",
+      "39575640",
+      "24121644",
+      "22545707",
+      "21617841",
+      "18387204",
+      "28451972",
+      "20030857",
+      "23181585",
+      "25555723",
+      "17185775",
+      "17107624",
+      "40133791",
+      "33289894",
+      "22827524",
+      "28104891",
+      "41174306",
+      "19811691",
+      "23982150",
+      "18429149",
+      "23587666",
+      "28969586",
+      "40033179",
+      "31092198",
+      "27562963",
+      "27115649",
+      "16426464",
+      "19378016",
+      "39215721",
+      "31256369",
+      "19839595",
+      "18228275",
+      "19538753",
+      "32946990",
+      "22643026",
+      "23044541"
+    ],
+    "review": [
+      "41241906",
+      "36321557",
+      "15064475",
+      "11778865",
+      "20007729",
+      "21617841",
+      "25555723",
+      "22827524"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-5013-4_12",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

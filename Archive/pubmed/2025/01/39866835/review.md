@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, models and methods, results, discussion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors use coarse-grained simulations with explicit solvent to show that chain rigidity, solvent depletion, and sticker lifetimes independently and jointly control the viscoelastic properties and aging dynamics of biomolecular condensates. They report that semiflexible chains are required to reproduce experimentally observed elastic-dominated regimes, that desolvation shifts crossover frequencies, and that long-lived stickers produce Kelvin-Voigt solid behavior. A nonequilibrium simulation combining these factors produces a solidlike corona shell consistent with recent experiments.
+- **Visible evidence base** Figures 1-8 as referenced in text; Supplemental Material referenced (Figs. S1-S4, videos 1-2) but not provided; equations for FENE, angular, LJ potentials, and Green-Kubo relation
+- **Missing materials affecting confidence** Supplemental figures S1-S4 and videos 1-2 not provided; simulation parameter tables not provided; no quantitative error bars or statistical analysis shown in the text; no direct comparison to experimental rheology data with quantitative metrics
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in the biology and physics of biomolecular condensates: what molecular features drive the transition from liquidlike to solidlike states during aging. The systematic decomposition of rigidity, desolvation, and sticker lifetime effects is a valuable approach. The central claim that chain rigidity is necessary to observe elastic-dominated regimes is well supported by the presented simulation data. However, several technical aspects require clarification, particularly regarding the interpretation of the Green-Kubo results at low frequency, the relationship between the minimal model and the sequence-specific model, and the quantitative connection to experimental timescales. The nonequilibrium corona formation simulation is intriguing but the evidence presented in the text alone is insufficient to fully evaluate its robustness.
+- **Who would be interested in the results, and why** Researchers studying phase separation and condensate biophysics, computational biophysicists working on coarse-grained models of intrinsically disordered proteins, and experimentalists investigating condensate maturation and aging in the context of neurodegeneration. The work provides mechanistic hypotheses that could be tested experimentally and offers guidance for simulation methodology.
+- **Major strengths** The systematic decomposition of three molecular factors (rigidity, desolvation, sticker lifetime) is well designed. The use of both equilibrium (Green-Kubo) and nonequilibrium (oscillatory shear) methods to cross-validate rheological measurements is rigorous. The connection between minimal sticker-spacer models and a residue-resolution model of FUS strengthens the generality of the findings. The nonequilibrium aging simulation is a creative approach to accessing timescales beyond standard MD.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the Green-Kubo method and oscillatory shear simulations produce consistent results for the viscoelastic moduli across the frequency range.
+  - **Evidence pointer** Results section, "Role of solvent expulsion", Fig. 3(e); Methods section, "Rheology of explicitly solvated biomolecular condensates"
+  - **Concern** The text states that G′ and G″ from the GK method match the OS data, but the low-frequency behavior of the GK method is notoriously difficult to converge, especially for systems with slow relaxation times. The manuscript does not report how the GK correlation functions were converged, what simulation lengths were used, or how statistical uncertainties were estimated. Without this information, the claimed agreement between GK and OS at low frequency cannot be assessed.
+  - **Why it matters** The low-frequency regime is precisely where the distinction between liquidlike and solidlike behavior is made. If the GK data are not converged, the reported crossover frequencies and the identification of elastic-dominated regimes could be artifacts.
+  - **Resolution test** Provide convergence tests for the GK correlation functions, report simulation lengths relative to the longest relaxation times, and show statistical error bars on G′ and G″ for at least one representative case.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that "the condensates' elastic response domination arises solely from the rigidity of the chains" and that fully flexible chains "exhibit viscous dominance throughout the frequency range."
+  - **Evidence pointer** Results section, "Role of chain rigidity and length", Fig. 4
+  - **Concern** The claim that rigidity alone is responsible for elastic dominance is strong. The simulations vary angular potential strength, but it is unclear whether the range of persistence lengths explored (ℓp from σ to ~15σ) covers the relevant parameter space for real condensate-forming proteins. Additionally, the text does not report whether the total interaction energy or density was held fixed when varying rigidity, which could confound the interpretation. The claim of "solely" appears to overstate the evidence.
+  - **Why it matters** If the conclusion is that all condensate-forming IDPs must be modeled as semiflexible chains to capture elastic behavior, this has broad implications for the field. Overstating the evidence could mislead subsequent studies.
+  - **Resolution test** Clarify what parameters were held fixed when varying rigidity. Consider softening the claim to state that rigidity is necessary and sufficient within the explored parameter range, or provide additional evidence that the range of ℓp tested is physiologically relevant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative comparison to experiment
+  - **Claim pointer** The authors state that their findings "corroborate" and are "consistent with" experimental results from Jawerth et al. and Alshareedah et al.
+  - **Evidence pointer** Results section, "Limit of long sticker-sticker lifetimes" and "Impact of transient sticker-sticker lifetimes"; Discussion
+  - **Concern** The comparison to experiments is qualitative. The manuscript does not report quantitative comparisons such as the magnitude of the elastic modulus plateau, the crossover frequency values, or the timescales of aging. Without such quantitative benchmarks, it is difficult to assess whether the models capture the correct physics or merely reproduce qualitative trends that could arise from many mechanisms.
+  - **Why it matters** The manuscript aims to provide mechanistic insight into condensate aging. A quantitative connection to experimental rheology would substantially strengthen the claim that the identified molecular drivers are the relevant ones in real systems.
+  - **Resolution test** Provide a quantitative comparison for at least one experimental dataset, such as the plateau modulus or crossover frequency as a function of aging time, and discuss any discrepancies.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Robustness of nonequilibrium simulation
+  - **Claim pointer** The authors claim that their nonequilibrium simulation "shows the molecular mechanism of forming solid shells around the condensate surfaces observed in a recent experimental report."
+  - **Evidence pointer** Results section, "Formation of corona shells during maturation", Figs. 8(f)-8(l)
+  - **Concern** The description of the nonequilibrium simulation is brief. Key details are missing: how the desolvation rate was chosen, how the system was initialized, whether the results are robust to the choice of boundary conditions and system size, and how the "solidlike" nature of the corona was characterized beyond density. The claim of a "solid shell" requires evidence that the corona has distinct mechanical properties, not just increased density.
+  - **Why it matters** The corona formation result is a highlight of the manuscript and connects to recent experiments. If the simulation setup is not fully described or the solidlike character is not rigorously demonstrated, the claim is not fully supported.
+  - **Resolution test** Provide additional details on the simulation protocol, show that the corona has distinct rheological or dynamical properties (e.g., reduced mobility, higher local modulus), and test robustness to system size and desolvation rate.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Sticker-spacer models with explicit solvent"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the sticker-spacer model is brief. It is unclear how many stickers per chain, what the sticker-sticker interaction strength is, and how the sticker placement (every 10 beads) was chosen.
+  - **Required correction** Provide a table of model parameters and a brief justification for the sticker spacing.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Rheology of explicitly solvated biomolecular condensates"
+  - **Evidence pointer** Location not provided
+  - **Issue** The strain amplitude γ0 is stated to be 0.1, but it is not reported whether the linear viscoelastic regime was verified for all systems, particularly for the cross-linked gels.
+  - **Required correction** State how the linear regime was verified and whether the same amplitude was used for all systems.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, "Role of solvent expulsion"
+  - **Evidence pointer** Fig. 3(g)
+  - **Issue** The subdiffusive exponent of ~1/2 is reported, but it is not discussed whether this exponent is expected for entangled semiflexible chains or whether it changes with solvent fraction.
+  - **Required correction** Briefly discuss the expected scaling for entangled chains and whether the observed exponent is consistent.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Application to aging of FUS and PGL-3"
+  - **Evidence pointer** Fig. 6
+  - **Issue** The FUS and PGL-3 results are described as qualitatively similar to the minimal model, but no direct comparison of the two models is shown.
+  - **Required correction** Provide a side-by-side comparison or state explicitly which features are model-independent.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "aging" is used to describe both the slow timescale evolution of condensates and the specific simulation protocol. This dual usage could confuse readers.
+  - **Required correction** Consider using "maturation" for the simulation protocol and reserving "aging" for the biological phenomenon, or define the usage explicitly.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (GK convergence and error estimation) and R1-M2 (parameter control when varying rigidity) are the most critical. Without addressing these, the central claims regarding elastic dominance and the role of rigidity are not fully established. R1-M4 (corona simulation details) is also important for the nonequilibrium claim.
+- **Assessment against Nature-style criteria** 
+  - Originality: The systematic decomposition of rigidity, desolvation, and sticker lifetimes as independent drivers of condensate aging is a novel contribution. The nonequilibrium corona simulation is creative.
+  - Scientific importance: The question of what drives condensate aging is of high importance for understanding both normal physiology and disease. The findings have implications for how simulations of condensates should be designed.
+  - Interdisciplinary readership: The work bridges soft matter physics, biophysics, and cell biology. It should be accessible to researchers in all three communities, though the rheology sections may be challenging for cell biologists.
+  - Technical soundness: The use of multiple methods (GK, OS) is a strength, but the lack of convergence tests and error analysis is a significant weakness. The parameter control when varying rigidity needs clarification.
+  - Readability for nonspecialists: The manuscript is generally well written, but the methods section assumes familiarity with rheology and coarse-grained simulation techniques. A brief primer on G′ and G″ for nonspecialists would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core ideas are valuable and the qualitative findings are likely correct, but the manuscript currently does not provide sufficient technical detail to fully establish the quantitative claims. Addressing R1-M1, R1-M2, and R1-M4 would substantially strengthen the case.
+
+## Risk / unsupported claims
+- The claim that elastic response domination arises "solely" from chain rigidity is not fully supported, as the parameter space explored may not be comprehensive and other factors were not systematically varied in the same figure.
+- The claim that the nonequilibrium simulation "shows the molecular mechanism" of corona formation is not fully supported without additional evidence that the corona is mechanically distinct and that the simulation protocol is robust.
+- The quantitative agreement with experimental rheology is not demonstrated; only qualitative consistency is claimed.
+- The statement that "fully flexible chains... fail to exhibit a dominant elastic regime" is presented as a general conclusion, but it is based on a limited set of simulation conditions.

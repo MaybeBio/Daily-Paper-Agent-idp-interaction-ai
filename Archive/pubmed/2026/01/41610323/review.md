@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, declarations)
+- **Assessment boundary** Scientific content, technical soundness, claim-evidence alignment, and suitability for a high-impact general audience. Editorial formatting and minor language issues are noted only where they affect comprehension.
+- **Shared manuscript claim summary** The authors propose that PIK3CA activating mutations suppress PPT1 transcription via PI3K-AKT-c-JUN signaling. Reduced PPT1 leads to increased palmitoylation of P300 at Cys1176, which stabilizes P300 by impairing HSC70-mediated lysosomal degradation and inhibits P300 phase separation, preserving its histone acetyltransferase activity. Sustained P300 activity promotes chromatin accessibility and adipogenic gene expression, driving aberrant adipogenesis in facial infiltrating lipomatosis (FIL).
+- **Visible evidence base** Single-cell RNA-seq (GSE267777), bulk RNA-seq (GSE300520), ATAC-seq (HRA014913), RNA-seq (HRA014905), RT-qPCR, western blot, immunofluorescence, immunohistochemistry, acyl-biotin exchange, click-chemistry, co-immunoprecipitation, ChIP-qPCR, luciferase reporter assays, molecular dynamics simulations, FRAP, live-cell imaging, in vitro adipogenesis assays, xenograft models, and a mouse model of glycerol-induced fatty infiltration.
+- **Missing materials affecting confidence** No supplementary figures or tables were provided for review. No uncropped western blots were provided. No statistical details (exact p-values, effect sizes, replicates) were provided for most figures. No cell line authentication or mycoplasma testing statements were provided. No details on antibody validation were provided. No raw data or analysis code were provided. No information on how many independent experiments were performed for key assays.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a clinically relevant question and proposes a novel mechanistic axis linking PIK3CA mutations to adipogenesis via PPT1-mediated depalmitoylation of P300. The topic is of interest to researchers in adipose biology, signal transduction, and epigenetic regulation. However, the manuscript as presented has several major technical and evidentiary gaps that prevent the central claims from being fully established. The reliance on a single proposed mechanism, the lack of quantitative rigor in several key experiments, and the absence of critical controls and validation data are significant concerns. The work is potentially important, but the current evidence base is insufficient to support the strength of the conclusions drawn.
+- **Who would be interested in the results, and why** Researchers studying PIK3CA-related overgrowth spectrum disorders, adipose tissue biology, adipogenesis, protein palmitoylation, phase separation, and transcriptional coactivator regulation. Clinicians managing lipomatosis and related overgrowth conditions may also find the potential therapeutic targets (PPT1, P300) of interest. The proposed "palmitoylation-phase separation-epigenetic regulation" axis could attract a broader cell biology audience if the mechanistic evidence were more definitive.
+- **Major strengths** The study addresses an under-explored clinical problem (FIL) with a clear hypothesis. The combination of human patient samples, primary cells, cell lines, and in vivo models is commendable. The identification of a specific palmitoylation site (C1176) on P300 and the link to phase separation is conceptually novel. The use of multiple orthogonal techniques (RNA-seq, ATAC-seq, ChIP-qPCR, MD simulations, FRAP) is a strength. The clinical correlation between PPT1 levels and disease severity adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** "PIK3CA mutations transcriptionally repressed PPT1 via PI3K-AKT-c-JUN signaling."
+  - **Evidence pointer** Figure 2; location not provided
+  - **Concern** The evidence that c-JUN directly represses PPT1 transcription is incomplete. ChIP-qPCR shows c-JUN occupancy at the PPT1 promoter, and luciferase assays show promoter activity changes, but the manuscript does not demonstrate that the c-JUN binding site is functional. No mutagenesis of the putative c-JUN response element was performed. The claim of "transcriptional repression" requires demonstration that c-JUN binding directly suppresses transcription, not merely that it correlates with reduced PPT1 levels.
+  - **Why it matters** The entire downstream mechanism hinges on this transcriptional repression step. If c-JUN is not the direct repressor, the proposed pathway is incorrect.
+  - **Resolution test** Perform luciferase reporter assays with mutations in the predicted c-JUN binding site within the PPT1 promoter. Show that c-JUN knockdown or dominant-negative c-JUN abolishes PIK3CA-mediated PPT1 repression. Provide ChIP-seq or ChIP-qPCR data showing c-JUN binding correlates with repressive histone marks at the PPT1 locus.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "C1176 palmitoylation inhibited P300 phase separation, thereby preserving its histone acetyltransferase activity."
+  - **Evidence pointer** Figure 8; location not provided
+  - **Concern** The causal link between palmitoylation, phase separation, and HAT activity is not rigorously established. The manuscript shows that the C1176S mutant increases condensate formation and HAT activity, but it does not directly demonstrate that the loss of palmitoylation at C1176 is the cause. The C1176S mutation could affect P300 structure or function independently of palmitoylation. No rescue experiment with a palmitoylation-mimetic (e.g., cysteine to lysine or other hydrophobic residue) was performed. The FRAP data are qualitative and lack statistical analysis.
+  - **Why it matters** The central mechanistic claim is that palmitoylation at a specific site controls phase separation and enzymatic activity. Without direct evidence that the palmitoyl group at C1176 is the causative factor, alternative explanations remain.
+  - **Resolution test** Use a palmitoylation-deficient mutant that cannot be acylated but retains structure (e.g., C1176S) and compare with a palmitoylation-mimetic mutant. Perform in vitro phase separation assays with purified palmitoylated versus non-palmitoylated P300. Quantify FRAP recovery curves with statistical comparison. Show that enzymatic activity is directly modulated by palmitoylation status in vitro.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "PPT1 interacted with P300 to increase the depalmitoylation, degradation and phase separation of P300."
+  - **Evidence pointer** Figures 4-6; location not provided
+  - **Concern** The interaction between PPT1 and P300 is not convincingly demonstrated as direct. Co-IP experiments show association, but no in vitro binding assay (e.g., pull-down with purified proteins) or cross-linking was performed. The MD simulations are used to support the interaction, but the starting coordinates were taken from docking predictions, which are not validated. The functional data showing PPT1 affects P300 palmitoylation and degradation are correlative; no evidence is provided that PPT1 directly depalmitoylates P300 in a purified system.
+  - **Why it matters** The claim of a direct enzymatic relationship between PPT1 and P300 is central to the proposed mechanism. If the interaction is indirect or if PPT1 acts on another protein that then affects P300, the model is incomplete.
+  - **Resolution test** Perform in vitro depalmitoylation assays with purified PPT1 and palmitoylated P300. Use surface plasmon resonance or isothermal titration calorimetry to measure direct binding. Validate the MD predictions with mutagenesis of the predicted interface residues and show loss of interaction and function.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** "Sustained P300 activity promoted chromatin accessibility and expression of adipogenic genes, driving excessive adipogenesis in FIL."
+  - **Evidence pointer** Figures 7, 9; location not provided
+  - **Concern** The in vivo relevance of the proposed pathway is not fully established. The xenograft model uses immunodeficient mice with implanted cells, which may not recapitulate the complex tissue environment of FIL. The glycerol-induced fatty infiltration model is described as mimicking FIL, but it is an acute injury model and may not reflect the chronic, developmental nature of FIL. The manuscript does not show that P300 or PPT1 levels are altered in the mouse models in a manner consistent with the proposed mechanism.
+  - **Why it matters** The translational claim that this pathway drives FIL pathology requires demonstration in a relevant in vivo model. The current models may not adequately represent the disease.
+  - **Resolution test** Use a genetic mouse model with adipocyte-specific Ppt1 knockout or knock-in of the P300 C1176S mutation to assess adipogenesis. Show that the pathway is activated in human FIL tissue at the chromatin level (e.g., ATAC-seq on patient samples). Provide histology and molecular data from the mouse models confirming the proposed mechanism.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and rigor
+  - **Claim pointer** "A total of 540 genes were upregulated and 436 downregulated in FIL adipose tissue (|log2FC| ≥ 0.58, FDR < 0.05; Figure 1D)."
+  - **Evidence pointer** Figure 1D; location not provided
+  - **Concern** The RNA-seq analysis lacks key quality control details. No information is provided on the number of biological replicates, sequencing depth, or how batch effects were handled. The single-cell RNA-seq data (GSE267777) are referenced but not described in the methods. The differential expression threshold (|log2FC| ≥ 0.58) is unusually low and may include many false positives.
+  - **Why it matters** The initial observation of PPT1 downregulation is the foundation of the study. If the RNA-seq analysis is not robust, the entire premise is weakened.
+  - **Resolution test** Provide detailed methods for RNA-seq and single-cell analysis, including replicate numbers, alignment statistics, and differential expression analysis parameters. Show that PPT1 downregulation is robust across multiple thresholds and is validated by independent methods (e.g., qPCR, Western blot) in a larger cohort.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "PIK3CA mutations drive benign adipose overgrowth in facial infiltrating lipomatosis (FIL)" but does not specify the mutation frequency or whether all FIL cases carry PIK3CA mutations. This overgeneralization could mislead readers.
+  - **Required correction** Clarify the proportion of FIL cases with PIK3CA mutations and specify whether the study includes mutation-negative cases.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods
+  - **Evidence pointer** Methods, "Isolation of Lysosomal Proteins"; location not provided
+  - **Issue** The method for isolating lysosomal proteins describes using "pancreatic cancer cells" but the study uses adipocytes and adipose-derived cells. This appears to be a copy-paste error.
+  - **Required correction** Correct the cell type description to match the experimental system used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure legends (not provided)
+  - **Evidence pointer** Figures 3, 5, 8; location not provided
+  - **Issue** The manuscript states "Data were presented as mean ± standard deviation (SD)" but does not specify the number of independent experiments (n) for each figure. This is essential for assessing reproducibility.
+  - **Required correction** Add n values and statistical test details to all figure legends.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The discussion compares FIL with multiple symmetrical lipomatosis (MSL) but does not clearly state whether the proposed PPT1-P300 axis is specific to FIL or shared with other lipomatosis disorders. This weakens the conceptual contribution.
+  - **Required correction** Clarify the specificity of the proposed mechanism and discuss whether it may apply to other PIK3CA-related overgrowth conditions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Availability Statement
+  - **Evidence pointer** Data Availability Statement; location not provided
+  - **Issue** The statement lists multiple accession numbers but does not specify which datasets correspond to which figures. This makes it difficult for readers to access the relevant data.
+  - **Required correction** Provide a clear mapping between accession numbers and the figures they support.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (c-JUN direct repression not proven), R1-M2 (palmitoylation-phase separation causality not established), R1-M3 (direct PPT1-P300 interaction not demonstrated), R1-M4 (in vivo relevance not fully established), R1-M5 (RNA-seq QC details missing).
+- **Assessment against Nature-style criteria** Originality: The proposed "palmitoylation-phase separation-epigenetic regulation" axis is conceptually novel and extends current understanding of how lipid modifications influence transcriptional coactivator function. However, the novelty is partially tempered by the fact that palmitoylation of other proteins has been shown to affect phase separation, and the specific contribution here is incremental. Scientific importance: The work has potential clinical relevance for PIK3CA-related overgrowth disorders, but the importance is not yet fully established given the evidentiary gaps. Interdisciplinary readership: The topic bridges cancer biology, adipose tissue biology, and epigenetics, which could attract a broad audience. Technical soundness: Several key claims are not supported by rigorous experimental evidence, particularly the directness of the PPT1-P300 interaction and the causal role of palmitoylation in phase separation. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., MD simulations) may be challenging for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis and a substantial amount of data, but the central mechanistic claims require additional experimental validation. I would be supportive if the major concerns regarding direct molecular interactions, causality, and in vivo relevance are addressed with rigorous experiments.
+
+## Risk / unsupported claims
+- The claim that c-JUN directly represses PPT1 transcription is not supported by functional promoter mutagenesis.
+- The claim that C1176 palmitoylation directly inhibits P300 phase separation is not supported by direct biochemical evidence.
+- The claim that PPT1 directly depalmitoylates P300 is not supported by in vitro enzymatic assays.
+- The claim that the glycerol-induced fatty infiltration model faithfully recapitulates FIL pathology is not adequately justified.
+- The claim that P300 is a "novel" PPT1 substrate is not supported by a comprehensive search for other potential substrates.
+- The claim that the "palmitoylation-phase separation-epigenetic regulation" axis is a general mechanism in cell fate determination is speculative and not supported by data outside the FIL context.

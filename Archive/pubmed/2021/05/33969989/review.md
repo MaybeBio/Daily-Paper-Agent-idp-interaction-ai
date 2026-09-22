@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors use coarse-grained Langevin dynamics simulations of a minimal model of P-body components, with a defined protein–protein interaction network, to show that long RNA chains promote clustering of multivalent proteins into liquid-like condensates at low protein concentrations and weak protein–protein interactions, whereas without RNA, large clusters only form at high concentrations and strong interactions.
+- **Visible evidence base** Abstract, Introduction, Model, Methods, Results, Discussion, and Acknowledgments sections. Figures referenced but not provided.
+- **Missing materials affecting confidence** Figures 1–6, Tables 1, and any supplementary information are not included. Simulation parameter values (e.g., box size, number of particles, RNA concentration ranges) are partially described but not fully quantified. No trajectory data or convergence analyses are shown.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in the field of biomolecular condensates: how RNA can promote phase separation of multicomponent protein mixtures at physiologically relevant low concentrations. The computational model is a reasonable extension of prior patchy-particle approaches, incorporating a defined interaction network that mimics P-body components. The central claim, that long RNA chains act as superscaffolds to recruit low-valency proteins and stabilize clusters, is plausible and consistent with some experimental observations. However, the evidence presented is incomplete, as key figures and quantitative details are missing, and several methodological choices require justification. The case for the main conclusion is suggestive but not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying phase separation and membraneless organelles, particularly those interested in the role of RNA in modulating condensate formation and dynamics. Computational biophysicists working on coarse-grained models of multivalent proteins and RNA–protein interactions would also find the approach relevant. The results could inform experimental design for studying RNA length-dependent effects in P-bodies and stress granules.
+- **Major strengths** The manuscript addresses a biologically relevant question that is underexplored computationally. The model incorporates a defined interaction network, which is a step beyond simpler valency-based models. The systematic variation of RNA length and concentration provides a clear parameter scan. The discussion connects simulation results to experimental observations, such as RNA length-dependent enrichment in stress granules.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that long RNA chains promote clustering of multivalent proteins at low protein concentrations and weak interactions, and that this is mediated by recruitment of noncore proteins.
+  - **Evidence pointer** Figures 3, 4, and 5; location not provided
+  - **Concern** The key results supporting the central claim are presented in figures that are not included in the provided material. Without the actual data, it is impossible to assess the magnitude of the effects, the statistical significance, or the robustness of the observed clustering. For example, the claim that long RNA chains enable larger clusters (Figure 3A) cannot be verified without seeing the cluster size distributions or time evolution.
+  - **Why it matters** The central conclusion of the paper rests on these figures. If the effects are small or not reproducible across independent simulations, the claim would be weakened. The absence of figures prevents any independent evaluation of the evidence.
+  - **Resolution test** Provide the figures with clear axis labels, error bars or standard deviations, and a description of the number of independent simulations. Show representative snapshots or cluster size distributions for each condition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological justification
+  - **Claim pointer** The authors state that the protein–protein interaction network is based on P-body components, with specific valencies and interaction partners defined in Figure 1 and Table 1.
+  - **Evidence pointer** Figure 1 and Table 1; location not provided
+  - **Concern** The choice of interaction network and valencies is not justified in the text. It is unclear whether these parameters are derived from experimental data, prior computational studies, or are arbitrary. The sensitivity of the results to these choices is not discussed. Without this context, the biological relevance of the model is uncertain.
+  - **Why it matters** The model is intended to represent P-body components, but if the interaction network is not grounded in known biology, the conclusions may not transfer to real systems. A sensitivity analysis or a discussion of parameter selection would strengthen the case.
+  - **Resolution test** Provide a rationale for the chosen valencies and interaction partners, citing experimental or computational sources. Show that the main conclusions are robust to reasonable variations in these parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors claim that RNA promotes "liquid-like" turnover of components, as opposed to the "solid-like" clusters formed without RNA.
+  - **Evidence pointer** Figures 3B, 3C, and 4; location not provided
+  - **Concern** The distinction between liquid-like and solid-like behavior is inferred from the diffuseness of radial distribution function peaks and from P(bound) values. However, no quantitative measure of dynamics, such as mean-squared displacement or residence times, is provided. The claim of liquid-like turnover is therefore not directly supported by the data shown.
+  - **Why it matters** The functional relevance of condensates depends on their dynamic properties. If the authors claim liquid-like behavior, they need to demonstrate it with appropriate dynamical observables, not just structural ones.
+  - **Resolution test** Compute and present mean-squared displacement or residence time distributions for proteins in clusters with and without RNA. Show that the dynamics are consistent with liquid-like behavior in the RNA-mediated case.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Parameter space coverage
+  - **Claim pointer** The authors state that simulations were performed at low protein volume fractions (0.01–0.1) and weak interactions (1–5 kT), and that RNA length was varied (10, 50, 120).
+  - **Evidence pointer** Methods section; location not provided
+  - **Concern** The range of RNA lengths tested is limited, and the number of RNA chains per simulation is not specified. It is unclear whether the observed length dependence is due to chain length per se or to the total number of RNA binding sites. The authors mention "same number of effective RNA binding sites" but do not explain how this was achieved.
+  - **Why it matters** The length-dependent effect is a key finding. If the comparison is not properly controlled, the conclusion could be an artifact of the simulation setup.
+  - **Resolution test** Clearly state the number of RNA chains and total RNA concentration for each condition. Show that the length effect is not simply due to differences in total RNA mass or binding site availability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that RNA promotes clustering "even in the regime of weak interactions and low protein volume fraction," but the specific values of these parameters are not given. This makes the claim less precise.
+  - **Required correction** Include the specific ranges of protein volume fraction and interaction strength in the abstract, or refer to the relevant figure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction; location not provided
+  - **Issue** The term "superscaffolds" is introduced in the abstract and used throughout, but it is not formally defined. It is unclear whether this is a new concept or a rephrasing of existing ideas.
+  - **Required correction** Define "superscaffold" explicitly in the Introduction or Discussion, and relate it to existing terminology in the field.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The simulation box size and the number of protein particles are not stated. This information is essential for reproducing the simulations and for assessing finite-size effects.
+  - **Required correction** Provide the box dimensions, number of particles of each type, and the total simulation time in the Methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The authors state that RNA-mediated clusters exhibit "greater turnover" compared to clusters formed without RNA, but this is not quantified. The P(bound) values in Figure 5 are described as low, but no comparison to the no-RNA case is made in the text.
+  - **Required correction** Provide a direct comparison of P(bound) or other dynamical measures between the RNA-present and RNA-absent cases.
+- **Technical failings that need to be addressed before the case is established** The absence of figures and tables is a critical failing that prevents evaluation of the main claims. Additionally, the lack of quantitative dynamical data undermines the claim of liquid-like behavior. The model parameterization is not justified, and the simulation setup is incompletely described.
+- **Assessment against Nature-style criteria** Originality: The work is a reasonable extension of existing patchy-particle models, but the specific focus on RNA length-dependent effects in a defined interaction network is a novel contribution. Scientific importance: The question of how RNA modulates phase separation is important for understanding condensate biology, but the impact is limited by the phenomenological nature of the model. Interdisciplinary readership: The work will appeal to biophysicists and computational biologists, but may be less accessible to experimental biologists due to the technical detail. Technical soundness: The methods are standard, but the lack of figures and quantitative details prevents a full assessment. Readability for nonspecialists: The manuscript is generally well-written, but the abstract and introduction could be clearer about the specific parameter regimes and the novelty of the approach.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims are plausible but cannot be verified without the missing figures and quantitative details. The authors should be encouraged to resubmit with complete data and additional dynamical analyses.
+
+## Risk / unsupported claims
+- The claim that long RNA chains act as superscaffolds to recruit noncore proteins is unsupported without the figures showing cluster size distributions and contact probabilities.
+- The claim of liquid-like turnover in RNA-mediated clusters is unsupported without dynamical measurements.
+- The claim that the model represents P-body components is unsupported without justification of the interaction network parameters.
+- The claim that RNA length-dependent effects are not due to total RNA concentration is unsupported without a clear description of how the number of RNA binding sites was controlled.

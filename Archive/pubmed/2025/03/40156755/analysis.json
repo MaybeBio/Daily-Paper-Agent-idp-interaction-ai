@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40156755",
+  "title": "Backbone resonance assignments of the CPEB3 [101-200] and CPEB3 [294-410].",
+  "authors": "Saito, Harunobu; Lee, Yujin; Ueno, Motoharu; Sekiyama, Naotaka; So, Masatomo; Furukawa, Ayako; Sugase, Kenji",
+  "journal": "Biomolecular NMR assignments",
+  "published_date": "2025-03-30",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文对CPEB3无序区域两个片段进行骨架共振归属，确认其无序性并发现部分α螺旋，虽涉及IDR但无PPI或AI/物理模拟方法，仅提供结构基础数据。",
+  "abstract": "Cytoplasmic polyadenylation element-binding protein 3 (CPEB3) is an RNA-binding protein that plays a pivotal role in the formation of long-term memory. The N-terminal region (residues 1-459) of CPEB3 is a highly aggregative intrinsically disordered region (IDR) that regulates the translation of specific targets, such as AMPA subunits, through mechanisms including liquid-liquid phase separation (LLPS) and the formation of fibrous aggregates. Despite its significance, the underlying mechanisms remain poorly understood. In this study, we present the backbone resonance assignments of residues 101-200 and 294-410 segments of the CPEB3 IDR. In agreement with sequence-based predictions, CPEB3 [101-200] was found to be disordered, whereas two partial alpha-helices were identified within CPEB3 [294-410].",
+  "abstract_zh": "细胞质多聚腺苷酸化元件结合蛋白3（CPEB3）是一种RNA结合蛋白，在长期记忆的形成中发挥关键作用。CPEB3的N端区域（残基1-459）是一个高度聚集性的内在无序区域（IDR），通过包括液-液相分离（LLPS）和纤维状聚集体形成在内的机制，调控特定靶标（如AMPA亚基）的翻译。尽管其重要性显著，但其潜在机制仍知之甚少。在本研究中，我们展示了CPEB3 IDR中残基101-200和294-410片段的骨架共振归属。与基于序列的预测一致，CPEB3 [101-200]被发现为无序状态，而在CPEB3 [294-410]中鉴定出两个部分α螺旋。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40156755/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40156755/",
+  "paper_page_path": "papers/pubmed/40156755/index.html"
+}

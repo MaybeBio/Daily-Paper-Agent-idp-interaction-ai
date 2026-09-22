@@ -1,0 +1,451 @@
+{
+  "identity": {
+    "pmid": "38086853",
+    "doi": "10.1038/s41467-023-43969-7",
+    "title": "Single-photon microscopy to study biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates serve as membrane-less compartments within cells, concentrating proteins and nucleic acids to facilitate precise spatial and temporal orchestration of various biological processes. The diversity of these processes and the substantial variability in condensate characteristics present a formidable challenge for quantifying their molecular dynamics, surpassing the capabilities of conventional microscopy. Here, we show that our single-photon microscope provides a comprehensive live-cell spectroscopy and imaging framework for investigating biomolecular condensation. Leveraging a single-photon detector array, single-photon microscopy enhances the potential of quantitative confocal microscopy by providing access to fluorescence signals at the single-photon level. Our platform incorporates photon spatiotemporal tagging, which allowed us to perform time-lapse super-resolved imaging for molecular sub-diffraction environment organization with simultaneous monitoring of molecular mobility, interactions, and nano-environment properties through fluorescence lifetime fluctuation spectroscopy. This integrated correlative study reveals the dynamics and interactions of RNA-binding proteins involved in forming stress granules, a specific type of biomolecular condensates, across a wide range of spatial and temporal scales. Our versatile framework opens up avenues for exploring a broad spectrum of biomolecular processes beyond the formation of membrane-less organelles.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Microscopy",
+      "Biomolecular Condensates",
+      "Proteins/chemistry",
+      "*Nucleic Acids/chemistry",
+      "Spectrometry, Fluorescence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Perego, Eleonora",
+        "Zappone, Sabrina",
+        "Castagnetti, Francesco",
+        "Mariani, Davide",
+        "Vitiello, Erika",
+        "Rupert, Jakob",
+        "Zacco, Elsa",
+        "Tartaglia, Gian Gaetano",
+        "Bozzoni, Irene",
+        "Slenders, Eli",
+        "Vicidomini, Giuseppe"
+      ],
+      "short_names": [
+        "Perego E",
+        "Zappone S",
+        "Castagnetti F",
+        "Mariani D",
+        "Vitiello E",
+        "Rupert J",
+        "Zacco E",
+        "Tartaglia GG",
+        "Bozzoni I",
+        "Slenders E",
+        "Vicidomini G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1700-584X",
+        "ORCID: 0000-0003-2695-4999",
+        "ORCID: 0000-0003-0903-5632",
+        "ORCID: 0000-0002-3593-6023",
+        "ORCID: 0000-0001-7524-6310",
+        "ORCID: 0000-0002-6757-1372",
+        "ORCID: 0000-0002-3085-730X"
+      ],
+      "affiliations": [
+        "Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Genoa, Italy.",
+        "Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Genoa, Italy.",
+        "Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi, University of Genoa, Genoa, Italy.",
+        "Non coding RNAs in Physiology and Pathology, Istituto Italiano di Tecnologia, Genoa, Italy.",
+        "Non coding RNAs in Physiology and Pathology, Istituto Italiano di Tecnologia, Genoa, Italy.",
+        "Non coding RNAs in Physiology and Pathology, Istituto Italiano di Tecnologia, Genoa, Italy.",
+        "RNA Systems Biology, Istituto Italiano di Tecnologia, Genoa, Italy.",
+        "Department of Biology and Biotechnologies 'C. Darwin', Sapienza University of Rome, Rome, Italy.",
+        "RNA Systems Biology, Istituto Italiano di Tecnologia, Genoa, Italy.",
+        "RNA Systems Biology, Istituto Italiano di Tecnologia, Genoa, Italy.",
+        "Department of Biology and Biotechnologies 'C. Darwin', Sapienza University of Rome, Rome, Italy.",
+        "Non coding RNAs in Physiology and Pathology, Istituto Italiano di Tecnologia, Genoa, Italy.",
+        "Department of Biology and Biotechnologies 'C. Darwin', Sapienza University of Rome, Rome, Italy.",
+        "Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Genoa, Italy.",
+        "Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Genoa, Italy. giuseppe.vicidomini@iit.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Perego, Eleonora",
+        "short_name": "Perego E",
+        "identifiers": [
+          "0000-0002-1700-584X"
+        ],
+        "affiliations": [
+          "Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Zappone, Sabrina",
+        "short_name": "Zappone S",
+        "identifiers": [
+          "0000-0003-2695-4999"
+        ],
+        "affiliations": [
+          "Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Genoa, Italy.",
+          "Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi, University of Genoa, Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Castagnetti, Francesco",
+        "short_name": "Castagnetti F",
+        "identifiers": [],
+        "affiliations": [
+          "Non coding RNAs in Physiology and Pathology, Istituto Italiano di Tecnologia, Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Mariani, Davide",
+        "short_name": "Mariani D",
+        "identifiers": [
+          "0000-0003-0903-5632"
+        ],
+        "affiliations": [
+          "Non coding RNAs in Physiology and Pathology, Istituto Italiano di Tecnologia, Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Vitiello, Erika",
+        "short_name": "Vitiello E",
+        "identifiers": [],
+        "affiliations": [
+          "Non coding RNAs in Physiology and Pathology, Istituto Italiano di Tecnologia, Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Rupert, Jakob",
+        "short_name": "Rupert J",
+        "identifiers": [],
+        "affiliations": [
+          "RNA Systems Biology, Istituto Italiano di Tecnologia, Genoa, Italy.",
+          "Department of Biology and Biotechnologies 'C. Darwin', Sapienza University of Rome, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Zacco, Elsa",
+        "short_name": "Zacco E",
+        "identifiers": [
+          "0000-0002-3593-6023"
+        ],
+        "affiliations": [
+          "RNA Systems Biology, Istituto Italiano di Tecnologia, Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Tartaglia, Gian Gaetano",
+        "short_name": "Tartaglia GG",
+        "identifiers": [
+          "0000-0001-7524-6310"
+        ],
+        "affiliations": [
+          "RNA Systems Biology, Istituto Italiano di Tecnologia, Genoa, Italy.",
+          "Department of Biology and Biotechnologies 'C. Darwin', Sapienza University of Rome, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Bozzoni, Irene",
+        "short_name": "Bozzoni I",
+        "identifiers": [],
+        "affiliations": [
+          "Non coding RNAs in Physiology and Pathology, Istituto Italiano di Tecnologia, Genoa, Italy.",
+          "Department of Biology and Biotechnologies 'C. Darwin', Sapienza University of Rome, Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Slenders, Eli",
+        "short_name": "Slenders E",
+        "identifiers": [
+          "0000-0002-6757-1372"
+        ],
+        "affiliations": [
+          "Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Vicidomini, Giuseppe",
+        "short_name": "Vicidomini G",
+        "identifiers": [
+          "0000-0002-3085-730X"
+        ],
+        "affiliations": [
+          "Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Genoa, Italy. giuseppe.vicidomini@iit.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Dec 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/13 00:42",
+    "fetched_at": "2026-09-21 03:29:37"
+  },
+  "links": {
+    "cites": [
+      "42577707",
+      "41767934",
+      "41255707",
+      "41102406",
+      "41007377",
+      "40610435",
+      "40211559",
+      "39979996",
+      "39779212",
+      "39494508",
+      "39400294",
+      "39043637",
+      "38982922",
+      "38866783",
+      "38296708"
+    ],
+    "refs": [
+      "36802433",
+      "36632034",
+      "36477485",
+      "36456575",
+      "35974095",
+      "35662398",
+      "34939046",
+      "34095105",
+      "33997539",
+      "33868368",
+      "33542179",
+      "33378370",
+      "32824618",
+      "32637232",
+      "32514159",
+      "32478279",
+      "32337838",
+      "30643212",
+      "30504919",
+      "30190551",
+      "30130919",
+      "28811863",
+      "28684735",
+      "28571439",
+      "28377462",
+      "28355150",
+      "27602576",
+      "27570075",
+      "27289443",
+      "26507213",
+      "26317470",
+      "26235350",
+      "26200874",
+      "23232809",
+      "22743772",
+      "22621335",
+      "22273893",
+      "21641330",
+      "21219151",
+      "20699327",
+      "20371330",
+      "19471494",
+      "19251628",
+      "19251627",
+      "19098897",
+      "17981902",
+      "17477838",
+      "17325009",
+      "16858413",
+      "16199500",
+      "15722011",
+      "11433374",
+      "9083691"
+    ],
+    "similar": [
+      "38086853",
+      "40291420",
+      "36227487",
+      "39227569",
+      "36227474",
+      "37782826",
+      "38621751",
+      "38722189",
+      "34241502",
+      "37770422",
+      "37894933",
+      "38360555",
+      "37252985",
+      "34090478",
+      "37470705",
+      "36227471",
+      "34129784",
+      "36227480",
+      "34636323",
+      "37549257",
+      "39326881",
+      "36269080",
+      "34767801",
+      "35761089",
+      "39987501",
+      "39856105",
+      "38609349",
+      "30099028",
+      "39034215",
+      "39757214",
+      "36227477",
+      "39113361",
+      "39725032",
+      "38191942",
+      "39028519",
+      "39260373",
+      "20066528",
+      "39138204",
+      "38781207",
+      "34380923",
+      "35243657",
+      "33453924",
+      "39827079",
+      "37464880",
+      "36791720",
+      "31604601",
+      "36657879",
+      "36847235",
+      "40168179",
+      "39673974",
+      "36227472",
+      "36150962",
+      "37503034",
+      "37772963",
+      "38622124",
+      "36243979",
+      "29509422",
+      "37523989",
+      "34772786",
+      "34404453",
+      "37217523",
+      "37468629",
+      "37343188",
+      "35974095",
+      "37461689",
+      "37546778",
+      "40249817",
+      "37162152",
+      "35179885",
+      "38582523",
+      "38424273",
+      "40327693",
+      "35001622",
+      "31606941",
+      "34785657",
+      "37171907",
+      "35867833",
+      "37952770",
+      "23912807",
+      "38649740",
+      "40172489",
+      "37348448",
+      "36344372",
+      "39455581",
+      "38421168",
+      "36028355",
+      "37156794",
+      "38607029",
+      "38251748",
+      "36875159",
+      "37586369",
+      "34862761",
+      "35832192",
+      "36883003",
+      "39675392",
+      "38885177",
+      "37202374",
+      "23280112",
+      "38499848",
+      "40136009"
+    ],
+    "review": [
+      "38086853",
+      "38621751",
+      "38360555",
+      "34129784",
+      "39326881",
+      "36269080",
+      "34767801",
+      "35761089",
+      "38609349",
+      "30099028",
+      "39034215",
+      "39757214",
+      "39827079",
+      "37464880",
+      "31604601",
+      "36150962",
+      "37772963",
+      "36243979",
+      "29509422",
+      "37523989",
+      "34772786",
+      "35974095",
+      "35179885",
+      "31606941",
+      "37171907",
+      "40172489",
+      "37348448",
+      "36344372",
+      "36028355",
+      "36875159",
+      "35832192",
+      "39675392",
+      "38885177",
+      "37202374"
+    ],
+    "pmc": [
+      "10716487"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-43969-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38086853/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38086853",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38086853",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

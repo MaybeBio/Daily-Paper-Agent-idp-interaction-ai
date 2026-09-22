@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38404711",
+  "title": "The limits of prediction: Why intrinsically disordered regions challenge our understanding of antimicrobial peptides.",
+  "authors": "Bello-Madruga, Roberto; Torrent Burgas, Marc",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2024-02-26",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文实验测试IDR来源抗菌肽的活性，发现预测失效并探讨IDR折叠限制，涉及IDR对象但无PPI机制建模，且方法为实验而非AI/物理模拟。",
+  "abstract": "Antimicrobial peptides (AMPs) are molecules found in most organisms, playing a vital role in innate immune defense against pathogens. Their mechanism of action involves the disruption of bacterial cell membranes, causing leakage of cellular contents and ultimately leading to cell death. While AMPs typically lack a defined structure in solution, they often assume a defined conformation when interacting with bacterial membranes. Given this structural flexibility, we investigated whether intrinsically disordered regions (IDRs) with AMP-like properties could exhibit antimicrobial activity. We tested 14 peptides from different IDRs predicted to have antimicrobial activity and found that nearly all of them did not display the anticipated effects. These peptides failed to adopt a defined secondary structure and had compromised membrane interactions, resulting in a lack of antimicrobial activity. We hypothesize that evolutionary constraints may prevent IDRs from folding, even in membrane-like environments, limiting their antimicrobial potential. Moreover, our research reveals that current antimicrobial predictors fail to accurately capture the structural features of peptides when dealing with intrinsically unstructured sequences. Hence, the results presented here may have far-reaching implications for designing and improving antimicrobial strategies and therapies against infectious diseases.",
+  "abstract_zh": "抗菌肽（Antimicrobial peptides, AMPs）是在大多数生物体中发现的分子，在针对病原体的先天免疫防御中扮演着至关重要的角色。其作用机制涉及破坏细菌细胞膜，导致细胞内容物泄漏，最终引起细胞死亡。尽管AMPs在溶液中通常缺乏明确结构，但在与细菌膜相互作用时，它们往往呈现出确定的构象。鉴于这种结构灵活性，我们探究了具有AMP样特性的固有无序区域（intrinsically disordered regions, IDRs）是否能展现抗菌活性。我们测试了来自不同IDRs的14种预测具有抗菌活性的肽，发现几乎所有这些肽均未表现出预期效果。这些肽未能形成明确的二级结构，且膜相互作用受损，导致缺乏抗菌活性。我们假设，进化约束可能阻止IDRs折叠，即使在膜样环境中也是如此，从而限制了它们的抗菌潜力。此外，我们的研究揭示，当前抗菌预测器在处理固有无序序列时，无法准确捕捉肽的结构特征。因此，本文呈现的结果可能对设计和改进针对感染性疾病的抗菌策略及疗法具有深远意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38404711/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38404711/",
+  "paper_page_path": "papers/pubmed/38404711/index.html"
+}

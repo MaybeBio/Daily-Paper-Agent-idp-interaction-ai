@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.26.501607",
+  "title": "CGAN-Cmap: protein contact map prediction using deep generative adversarial neural networks",
+  "authors": "Mohammad Madani; Mohammad Mahdi Behzadi; Dongjin Song; Horea Ilies; Anna Tarakanova",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-28",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用生成对抗网络预测蛋白质接触图，虽涉及残基间互作和AI方法，但对象为折叠蛋白结构预测，未涉及无序蛋白/IDR/相分离，且接触图预测非直接PPI机制建模，启发有限。",
+  "abstract": "Protein contact maps represent spatial pairwise inter-residue interactions, providing a protein’s translationally and rotationally invariant topological representation. Accurate contact map prediction has been a critical driving force for improving protein structure prediction, one of computational biology’s most challenging problems in the last half-century. While many computational tools have been developed to this end, most fail to predict accurate contact maps for proteins with insufficient homologous protein sequences, and exhibit low accuracy for long-range contacts. To address these limitations, we develop a novel hybrid model, CGAN-Cmap, that uses a generative adversarial neural network embedded with a series of modified squeeze and excitation residual networks. To exploit features of different dimensions, we build the generator of CGAN-Cmap via two parallel modules: sequential and pairwise modules to capture and interpret distance profiles from 1D sequential and 2D pairwise feature maps, respectively, and combine them during the training process to generate the contact map. This novel architecture helps to improve the contact map prediction by surpassing redundant features and encouraging more meaningful ones from 1D and 2D inputs simultaneously. We also introduce a new custom dynamic binary cross-entropy (BCE) as the loss function to extract essential details from feature maps, and thereby address the input imbalance problem for highly sparse long-range contacts in proteins with insufficient numbers of homologous sequences. We evaluate the performance of CGAN-Cmap on the 11th, 12th, 13th, and 14th Critical Assessment of protein Structure Prediction (CASP 11, 12, 13, and 14) and CAMEO test sets. CGAN-Cmap significantly outperforms state-of-the-art models, and in particular, it improves the precision of medium and long-range contact by at least 3.5%. Furthermore, our model has a low dependency on the number of homologous sequences obtained via multiple sequence alignment, suggesting that it can predict protein contact maps with good accuracy for those proteins that lack homologous templates. These results demonstrate an efficient approach for fast and highly accurate contact map prediction toward construction of protein 3D structure from protein sequence. Data availability All datasets and source codes are provided in: https://github.com/mahan-fcb/CGAN-Cmap-A-protein-contact-map-predictor",
+  "abstract_zh": "蛋白质接触图（contact maps）表示空间上成对残基间的相互作用，提供了蛋白质的平移和旋转不变拓扑表示。准确的接触图预测一直是改善蛋白质结构预测的关键驱动力，而蛋白质结构预测是计算生物学过去半个世纪中最具挑战性的问题之一。尽管为此开发了许多计算工具，但大多数工具对于同源蛋白序列不足的蛋白质无法预测准确的接触图，并且对长程接触表现出较低的准确性。为解决这些局限性，我们开发了一种新型混合模型CGAN-Cmap，该模型使用嵌入一系列改进型压缩与激励残差网络（squeeze and excitation residual networks）的生成对抗神经网络。为利用不同维度的特征，我们通过两个并行模块构建CGAN-Cmap的生成器：序列模块和成对模块，分别从1D序列和2D成对特征图中捕获和解释距离分布，并在训练过程中将它们结合以生成接触图。这种新颖架构通过同时超越冗余特征并鼓励来自1D和2D输入的更有意义特征，有助于改善接触图预测。我们还引入了一种新的自定义动态二元交叉熵（BCE）作为损失函数，以从特征图中提取关键细节，从而解决同源序列数量不足的蛋白质中高度稀疏长程接触的输入不平衡问题。我们在第11、12、13和14届蛋白质结构预测关键评估（CASP 11、12、13和14）以及CAMEO测试集上评估了CGAN-Cmap的性能。CGAN-Cmap显著优于最先进模型，特别是，它将中程和长程接触的精度提高了至少3.5%。此外，我们的模型对通过多序列比对获得的同源序列数量的依赖性较低，这表明它能够为缺乏同源模板的蛋白质以良好准确性预测蛋白质接触图。这些结果展示了一种快速且高精度接触图预测的有效方法，有助于从蛋白质序列构建蛋白质3D结构。数据可用性所有数据集和源代码均提供在：https://github.com/mahan-fcb/CGAN-Cmap-A-protein-contact-map-predictor",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.26.501607",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.26.501607",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.26.501607/index.html"
+}

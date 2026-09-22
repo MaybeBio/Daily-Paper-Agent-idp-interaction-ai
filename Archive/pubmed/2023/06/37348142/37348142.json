@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "37348142",
+    "doi": "10.1021/acs.jpcb.3c02356",
+    "title": "Excluded Volume and Weak Interactions in Crowded Solutions Modulate Conformations and RNA Binding of an Intrinsically Disordered Tail."
+  },
+  "content": {
+    "abstract": "The cellular milieu is a solution crowded with a significant concentration of different components (proteins, nucleic acids, metabolites, etc.). Such a crowded environment affects protein conformations, dynamics, and interactions. Intrinsically disordered proteins and regions are particularly sensitive to these effects. Here, we investigate the impact on an intrinsically disordered tail that flanks a folded domain, the N-terminal domain, and the RNA-binding domain of the SARS-CoV-2 nucleocapsid protein. We mimic the crowded environment of the cell using polyethylene glycol (PEG) and study its impact on protein conformations using single-molecule Forster resonance energy transfer. We found that high-molecular-weight PEG induces a collapse of the disordered N-terminal tail, whereas low-molecular-weight PEG induces a chain expansion. Our data can be explained by accounting for two opposing contributions: favorable interactions between the protein and crowder molecules and screening of excluded volume interactions. We further characterized the interaction between protein and RNA in the presence of crowding agents. While for all PEG molecules tested, we observed an increase in the binding affinity, the trend is not monotonic as a function of the degree of PEG polymerization. This points to the role of nonspecific protein-PEG interactions on binding in addition to the entropic effects due to crowding. To separate the enthalpic and entropic components of the effects, we investigated the temperature dependence of the association constants in the absence and presence of crowders. Finally, we compared the effects of crowding across mutations in the disordered region and found that the threefold difference in association constants for two naturally occurring variants of the SARS-CoV-2 nucleocapsid protein is reduced to almost identical affinities in the presence of crowders. Overall, our data provide new insights into understanding and modeling the contribution of crowding effects on disordered regions, including the impact of interactions between proteins and crowders and their interplay when binding a ligand.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*COVID-19",
+      "SARS-CoV-2",
+      "Protein Conformation",
+      "Polyethylene Glycols/chemistry",
+      "RNA",
+      "Nucleocapsid Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Stringer, Madison A",
+        "Cubuk, Jasmine",
+        "Incicco, J Jeremias",
+        "Roy, Debjit",
+        "Hall, Kathleen B",
+        "Stuchell-Brereton, Melissa D",
+        "Soranno, Andrea"
+      ],
+      "short_names": [
+        "Stringer MA",
+        "Cubuk J",
+        "Incicco JJ",
+        "Roy D",
+        "Hall KB",
+        "Stuchell-Brereton MD",
+        "Soranno A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2276-0310",
+        "ORCID: 0000-0001-8394-7993"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, Saint Louis, Missouri 63130, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, Saint Louis, Missouri 63130, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, Saint Louis, Missouri 63130, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, Saint Louis, Missouri 63130, United States.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, Saint Louis, Missouri 63130, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Stringer, Madison A",
+        "short_name": "Stringer MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, Saint Louis, Missouri 63130, United States."
+        ]
+      },
+      {
+        "full_name": "Cubuk, Jasmine",
+        "short_name": "Cubuk J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, Saint Louis, Missouri 63130, United States."
+        ]
+      },
+      {
+        "full_name": "Incicco, J Jeremías",
+        "short_name": "Incicco JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States."
+        ]
+      },
+      {
+        "full_name": "Roy, Debjit",
+        "short_name": "Roy D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, Saint Louis, Missouri 63130, United States."
+        ]
+      },
+      {
+        "full_name": "Hall, Kathleen B",
+        "short_name": "Hall KB",
+        "identifiers": [
+          "0000-0003-2276-0310"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States."
+        ]
+      },
+      {
+        "full_name": "Stuchell-Brereton, Melissa D",
+        "short_name": "Stuchell-Brereton MD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, Saint Louis, Missouri 63130, United States."
+        ]
+      },
+      {
+        "full_name": "Soranno, Andrea",
+        "short_name": "Soranno A",
+        "identifiers": [
+          "0000-0001-8394-7993"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Avenue, Saint Louis, Missouri 63110, United States.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, Saint Louis, Missouri 63130, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2023 Jul 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/22 19:15",
+    "fetched_at": "2026-09-20 22:55:19"
+  },
+  "links": {
+    "cites": [
+      "42172735",
+      "41877588",
+      "41343298",
+      "41004012",
+      "40978344",
+      "40671581",
+      "40411406",
+      "39968832",
+      "38898654",
+      "38118365",
+      "37717144",
+      "37657994"
+    ],
+    "refs": [
+      "38153183",
+      "37200094",
+      "36749730",
+      "36691735",
+      "35999178",
+      "35948766",
+      "33887926",
+      "33782395",
+      "33587794",
+      "32824618",
+      "32487732",
+      "32228860",
+      "31356058",
+      "30740972",
+      "29571687",
+      "29128594",
+      "28344349",
+      "27410731",
+      "27145874",
+      "26147918",
+      "25962980",
+      "25924886",
+      "25723249",
+      "25643150",
+      "25624496",
+      "25399908",
+      "24850865",
+      "24706910",
+      "24639500",
+      "24312701",
+      "24010673",
+      "23943406",
+      "22984159",
+      "22954326",
+      "20167475",
+      "19933333",
+      "19768526",
+      "19757837",
+      "19081910",
+      "18573087",
+      "16857738",
+      "15362109",
+      "12034431",
+      "11590012",
+      "10679465",
+      "3567326",
+      "1748995"
+    ],
+    "similar": [
+      "37348142",
+      "23912807",
+      "30230839",
+      "38153183",
+      "35357183",
+      "30066087",
+      "33587794",
+      "34813337",
+      "24639500",
+      "32487732",
+      "39285530",
+      "27801849",
+      "38941236",
+      "35981263",
+      "23773075",
+      "36691735",
+      "38607680",
+      "36748338",
+      "34270995",
+      "27471851",
+      "31059260",
+      "33887926",
+      "34929201",
+      "34291085",
+      "34068693",
+      "35696898",
+      "35883485",
+      "37583195",
+      "37410958",
+      "28178192",
+      "28425679",
+      "26452170",
+      "25919930",
+      "36040256",
+      "37815312",
+      "32760995",
+      "38808573",
+      "31654117",
+      "36463407",
+      "32569469",
+      "25157999",
+      "33386904",
+      "27410731",
+      "26119620",
+      "32936642",
+      "28510161",
+      "26474212",
+      "24312701",
+      "37446325",
+      "34734665",
+      "36139141",
+      "37098073",
+      "23941183",
+      "35408509",
+      "31667164",
+      "37086776",
+      "35551296",
+      "33730325",
+      "36542701",
+      "25594347",
+      "38226816",
+      "34266250",
+      "19651046",
+      "31917571",
+      "15095986",
+      "36807437",
+      "31488718",
+      "24915485",
+      "29128594",
+      "25762333",
+      "38718862",
+      "29265152",
+      "33200826",
+      "29539394",
+      "24888734",
+      "38358134",
+      "39386676",
+      "24850865",
+      "31763853",
+      "18561946",
+      "16046624",
+      "34874953",
+      "20521820",
+      "30397128",
+      "22268560",
+      "27960328",
+      "22735492",
+      "22429139",
+      "36533523",
+      "14691228",
+      "27163260",
+      "35693552",
+      "37216308",
+      "24337582",
+      "30993043",
+      "29248550",
+      "30555686",
+      "37018390",
+      "32717410",
+      "39416204"
+    ],
+    "review": [
+      "37348142",
+      "30066087",
+      "28510161"
+    ],
+    "pmc": [
+      "10331728"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.jpcb.3c02356",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37348142/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37348142",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.3c02356",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

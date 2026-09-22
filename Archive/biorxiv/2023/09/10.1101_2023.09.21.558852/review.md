@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present trans-C, a computational framework using probabilistic random walks with restarts on Hi-C contact networks to identify sets of loci that jointly interact in trans. They validate trans-C on three model systems (Plasmodium falciparum var genes, mouse olfactory receptor "Greek islands", human RBM20 cardiac splicing factory) and apply it to test the hypothesis that genes co-regulated by the same trans-acting element co-localize to form "RNA factories". They report that loci with multiple binding sites of the same transcription factor, especially those with intrinsically disordered domains, interact in trans, and that clustered binding of some RNA binding proteins correlates with trans interaction of encoding loci. They conclude that these findings support trans interacting chromatin domains (TIDs) driven by RNA biogenesis.
+- **Visible evidence base** Abstract text only; no quantitative results, validation metrics, statistical analyses, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, code availability, and any detailed validation or statistical results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational tool and a broad biological hypothesis, but the evidence base is limited to a summary without quantitative support. The validation claims are plausible but cannot be assessed for rigor. The central hypothesis regarding RNA factories is intriguing, yet the abstract does not provide sufficient detail to evaluate whether the findings are robust or whether alternative explanations have been excluded. The work may interest researchers in genome architecture and gene regulation, but the current evidence is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying three-dimensional genome organization, particularly inter-chromosomal interactions, would be interested in a new computational tool for trans contact analysis. Those investigating transcriptional and post-transcriptional regulation, including transcription factor and RNA binding protein function, may find the RNA factory hypothesis relevant. Methodologists developing Hi-C analysis tools would also be a target audience.
+- **Major strengths** The abstract addresses a relatively underexplored aspect of genome organization, namely trans interactions, and proposes a novel computational approach. The validation across three distinct biological systems suggests potential generalizability. The hypothesis linking trans co-localization to RNA biogenesis is conceptually interesting and could open new avenues for research.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that trans-C is validated in three models of established trans contacts, implying the method correctly identifies known interactions.
+  - **Evidence pointer** Abstract text, validation section; location not provided
+  - **Concern** The abstract states validation was performed but provides no quantitative metrics, such as precision, recall, or comparison to existing methods. Without these, it is impossible to determine whether trans-C performs adequately or whether the validation is anecdotal.
+  - **Why it matters** A computational tool's utility depends on demonstrated performance. If validation is weak or biased, downstream biological conclusions may be unreliable.
+  - **Resolution test** Provide validation statistics, including true positive rates, false discovery rates, and benchmarks against existing trans interaction tools, in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The abstract claims that loci with multiple binding sites of the same transcription factor interact in trans, especially those bound by factors with intrinsically disordered domains, and that clustered binding of some RNA binding proteins correlates with trans interaction.
+  - **Evidence pointer** Abstract text, application section; location not provided
+  - **Concern** No statistical details are given, such as effect sizes, significance thresholds, multiple testing corrections, or control analyses. The phrase "many loci" and "correlates" is vague and does not establish a robust association.
+  - **Why it matters** The central biological conclusion depends on these associations being statistically meaningful and not artifacts of Hi-C noise or genomic features such as chromosome size or GC content.
+  - **Resolution test** Report effect sizes, p-values, confidence intervals, and appropriate controls, such as permutation tests or comparison to random locus sets, in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological interpretation
+  - **Claim pointer** The abstract concludes that findings support the existence of trans interacting chromatin domains driven by RNA biogenesis.
+  - **Evidence pointer** Abstract text, conclusion section; location not provided
+  - **Concern** The abstract does not address alternative explanations, such as whether trans interactions arise from non-specific proximity, nuclear positioning, or technical artifacts in Hi-C. The causal link to RNA biogenesis is asserted without direct functional evidence.
+  - **Why it matters** The conclusion is strong and goes beyond correlational evidence. Without ruling out confounders or providing functional validation, the claim is not established.
+  - **Resolution test** Include analyses that control for genomic distance, chromosome territory effects, and Hi-C noise, and provide functional experiments or additional evidence linking trans interactions to RNA biogenesis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract text, methods overview; location not provided
+  - **Issue** The description of trans-C is brief, and the term "probabilistic random walks with restarts" is not explained in a way that a non-specialist can understand the key innovation.
+  - **Required correction** Provide a clearer, more accessible explanation of the method in the abstract or ensure the full manuscript includes a plain-language summary.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Validation scope
+  - **Evidence pointer** Abstract text, validation section; location not provided
+  - **Issue** The abstract mentions three validation models but does not state whether these are the only tests or whether additional negative controls were used.
+  - **Required correction** Specify the number and nature of validation tests, including any negative controls, in the abstract or full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Definition of "RNA factories"
+  - **Evidence pointer** Abstract text, introduction and conclusion; location not provided
+  - **Issue** The term "RNA factories" is used without a precise definition, and it is unclear whether it refers to a specific structural entity or a general concept.
+  - **Required correction** Define the term clearly and distinguish it from related concepts such as transcription factories or splicing speckles.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative validation, statistical rigor, and alternative explanation control means the core claims are not currently supported by the provided evidence.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as trans interactions are underexplored and the tool is novel. Scientific importance is potentially high if the RNA factory hypothesis is validated, but the abstract does not provide sufficient evidence to judge. Interdisciplinary readership is plausible, spanning genomics, molecular biology, and computational biology. Technical soundness cannot be assessed from the abstract alone, and the lack of statistical detail is a concern. Readability for non-specialists is acceptable but could be improved with clearer method description and definitions.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is promising, but the case requires full manuscript review with detailed methods, validation metrics, and statistical analyses. I would be supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that trans-C is validated in three models is unsupported without quantitative metrics.
+- The claim that loci with multiple transcription factor binding sites interact in trans, especially with intrinsically disordered domains, is unsupported without statistical evidence.
+- The claim that clustered RNA binding protein binding correlates with trans interaction is unsupported without effect sizes or significance tests.
+- The conclusion that findings support trans interacting chromatin domains driven by RNA biogenesis is unsupported without control analyses or functional evidence.
+- The general utility of trans-C for studying trans interactions is not assessable from the abstract alone.

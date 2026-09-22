@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "39464109",
+    "doi": "10.1101/2024.10.11.617911",
+    "title": "Learning Biophysical Dynamics with Protein Language Models."
+  },
+  "content": {
+    "abstract": "Structural dynamics are fundamental to protein functions and mutation effects. Current protein deep learning models are predominantly trained on sequence and/or static structure data, which often fail to capture the dynamic nature of proteins. To address this, we introduce SeqDance and ESMDance, two protein language models trained on dynamic biophysical properties derived from molecular dynamics simulations and normal mode analyses of over 64,000 proteins. SeqDance, trained from scratch, learns both local dynamic interactions and global conformational properties for ordered and disordered proteins. SeqDance predicted dynamic property changes reflect mutation effect on protein folding stability. ESMDance, built upon ESM2 outputs, substantially outperforms ESM2 in zero-shot prediction of mutation effects for designed and viral proteins which lack evolutionary information. Together, SeqDance and ESMDance offer a new framework for integrating protein dynamics into language models, enabling more generalizable predictions of protein behavior and mutation effects.",
+    "keywords": [
+      "molecular dynamics",
+      "mutation effects",
+      "normal mode analysis",
+      "protein language model"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hou, Chao",
+        "Zhao, Haiqing",
+        "Shen, Yufeng"
+      ],
+      "short_names": [
+        "Hou C",
+        "Zhao H",
+        "Shen Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4806-7637",
+        "ORCID: 0000-0002-1299-5979"
+      ],
+      "affiliations": [
+        "Department of Systems Biology, Columbia University Irving Medical Center, New York, NY 10032.",
+        "Department of Biochemistry and Molecular Biology, University of Texas Medical Branch, Galveston, TX 77555.",
+        "Sealy Center for Structural Biology and Molecular Biophysics, University of Texas Medical Branch, Galveston, TX 77555.",
+        "Department of Systems Biology, Columbia University Irving Medical Center, New York, NY 10032.",
+        "Department of Biomedical Informatics, Columbia University Irving Medical Center, New York, NY 10032.",
+        "JP Sulzberger Columbia Genome Center, Columbia University, New York, NY 10032."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hou, Chao",
+        "short_name": "Hou C",
+        "identifiers": [
+          "0000-0003-4806-7637"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, Columbia University Irving Medical Center, New York, NY 10032."
+        ]
+      },
+      {
+        "full_name": "Zhao, Haiqing",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Texas Medical Branch, Galveston, TX 77555.",
+          "Sealy Center for Structural Biology and Molecular Biophysics, University of Texas Medical Branch, Galveston, TX 77555."
+        ]
+      },
+      {
+        "full_name": "Shen, Yufeng",
+        "short_name": "Shen Y",
+        "identifiers": [
+          "0000-0002-1299-5979"
+        ],
+        "affiliations": [
+          "Department of Systems Biology, Columbia University Irving Medical Center, New York, NY 10032.",
+          "Department of Biomedical Informatics, Columbia University Irving Medical Center, New York, NY 10032.",
+          "JP Sulzberger Columbia Genome Center, Columbia University, New York, NY 10032."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/28 10:51",
+    "fetched_at": "2026-09-21 12:02:18"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40935922",
+      "39913643",
+      "39856048",
+      "39818825",
+      "39779956",
+      "39609442",
+      "39467119",
+      "38718835",
+      "38459060",
+      "38297184",
+      "38297118",
+      "38181727",
+      "37986215",
+      "37957331",
+      "37956700",
+      "37904608",
+      "37904585",
+      "37733863",
+      "37621223",
+      "37563329",
+      "37484202",
+      "37468638",
+      "37262156",
+      "36927031",
+      "36726312",
+      "36702895",
+      "36681903",
+      "36344848",
+      "36124686",
+      "36108050",
+      "36009025",
+      "35836176",
+      "35817977",
+      "35687670",
+      "35389981",
+      "34905768",
+      "34707284",
+      "34608324",
+      "34404448",
+      "34293799",
+      "34282049",
+      "34232869",
+      "34139171",
+      "33876751",
+      "32881105",
+      "32661425",
+      "31819266",
+      "31589781",
+      "30682370",
+      "30395287",
+      "29424691",
+      "29035372",
+      "27710933",
+      "27174932",
+      "26488642",
+      "25753201",
+      "25057855",
+      "23503848",
+      "21630357",
+      "21471012",
+      "17998252",
+      "15010543",
+      "11159421",
+      "10592235"
+    ],
+    "similar": [
+      "39464109",
+      "41576089",
+      "23912807",
+      "42146638",
+      "37695922",
+      "39952928",
+      "40314227",
+      "40027759",
+      "41292907",
+      "33450251",
+      "41422228",
+      "35705565",
+      "41491543",
+      "40893250",
+      "40894558",
+      "38003686",
+      "41648466",
+      "35120643",
+      "40375059",
+      "38701796",
+      "40935922",
+      "39708841",
+      "31847804",
+      "41172803",
+      "15959866",
+      "22815859",
+      "41676583",
+      "40170306",
+      "41021316",
+      "41257586",
+      "42015301",
+      "40119464",
+      "25625937",
+      "40483648",
+      "39387316",
+      "40288255",
+      "37425916",
+      "38166858",
+      "39910649",
+      "38941236",
+      "34139171",
+      "39163334",
+      "41435823",
+      "35020807",
+      "41497662",
+      "33892639",
+      "41100667",
+      "40625100",
+      "41959429",
+      "41310253",
+      "40641045",
+      "41807423",
+      "38568188",
+      "23607785",
+      "39840791",
+      "28056090",
+      "41326937",
+      "35477726",
+      "40811365",
+      "16737532",
+      "37243229",
+      "38507445",
+      "41256652",
+      "22369071",
+      "41902842",
+      "25244701",
+      "40403060",
+      "41284811",
+      "36416536",
+      "40678486",
+      "38983679",
+      "39576667",
+      "40601254",
+      "42080348",
+      "41125543",
+      "41422407",
+      "39246251",
+      "41644540",
+      "41432299",
+      "41020411",
+      "39795988",
+      "15326600",
+      "41686649",
+      "40728618",
+      "38166383",
+      "41431261",
+      "35992270",
+      "39810350",
+      "29864281",
+      "39665261",
+      "40971691",
+      "23228330",
+      "23369338",
+      "40902999",
+      "42118388",
+      "38677012",
+      "38627249",
+      "18831774",
+      "38942594",
+      "41662532"
+    ],
+    "review": [
+      "39464109",
+      "40170306",
+      "25625937"
+    ],
+    "pmc": [
+      "11507661"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39464109/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.10.11.617911",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

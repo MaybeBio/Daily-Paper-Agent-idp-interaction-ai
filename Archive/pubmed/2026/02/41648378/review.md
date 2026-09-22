@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, extended data references)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and alignment with stated conclusions based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that biomolecular condensates alter the folding landscape of proteins through a balance between crowding-induced stabilization and multivalent interaction-driven destabilization, and that this effect is dually sequence-dependent on both the folded domain and co-condensate proteins. They support this with atomistic enhanced sampling simulations, a newly parameterized coarse-grained model (Mpipi-Helix), and applications to disease-associated proteins.
+- **Visible evidence base** Main text figures (Fig. 1, 2, 3, 4, 5), Extended Data Figures (1-5), Methods section, Data and Code Availability statement
+- **Missing materials affecting confidence** Figure files themselves are not provided; only figure captions and in-text references. Extended Data figures are referenced but not shown. Supplementary Information is mentioned but not provided. GitHub repository is referenced but not accessible for verification.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially significant multiscale simulation framework for understanding how biomolecular condensates modulate protein folding. The central hypothesis, that a balance between crowding and multivalent interactions dictates folding outcomes, is conceptually appealing and timely. However, the evidence as presented has several gaps that prevent full confidence in the conclusions. The validation of the Mpipi-Helix model, while showing promising correlations, relies on comparisons that may not fully capture the complexity of condensate environments. The extension to disease-associated proteins, while illustrative, is limited in scope. The kinetic claims, while interesting, require more careful consideration of alternative explanations. The manuscript is well-written and the methodological detail is commendable, but the strength of the claims currently exceeds the strength of the evidence provided.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, protein folding, computational biophysics, and molecular neuroscience would find this work of interest. The development of a sequence-dependent coarse-grained model for helix folding in condensates could be a useful tool for the community. The implications for understanding protein misfolding diseases linked to condensate pathology would attract a broader biomedical audience. The conceptual framework of "dual sequence dependence" could stimulate new experimental and computational studies.
+- **Major strengths** 1) The study addresses a fundamental and timely question about how condensates affect protein structure. 2) The multiscale approach, combining atomistic simulations with a novel coarse-grained model, is ambitious and appropriate for the problem. 3) The development of Mpipi-Helix with a rigorous parameterization workflow (Potts model + Gaussian process) is a significant technical achievement. 4) The application to disease-relevant proteins (TDP43, ANXA11, AR) enhances the potential impact. 5) The manuscript is clearly written and the methods are described in sufficient detail for reproduction.
+- **Major Concerns**
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Evidence strength for central claim
+- **Claim pointer** The manuscript claims that "multivalent interactions drive unfolding while crowding promotes folding, and protein conformational ensembles inside condensates emerge from this balance."
+- **Evidence pointer** Fig. 2, Fig. 4, Extended Data Fig. 4
+- **Concern** The central claim of a balance between crowding and multivalent interactions is supported primarily by simulations of a limited set of model peptides and three disease-related domains. The evidence for the "balance" concept is largely qualitative. While the authors show that different condensates have different effects, they do not provide a quantitative framework or systematic variation of interaction strengths to demonstrate that the observed folding outcomes are indeed the result of a tunable balance rather than simply the dominance of one effect over another in different systems. The claim that this is a general principle is not fully supported by the data presented.
+- **Why it matters** The central thesis of the paper rests on this balance concept. Without a more systematic demonstration, the claim risks being an interpretation rather than a conclusion derived from the evidence. A more rigorous test would involve, for example, systematically varying the interaction strength between the peptide and condensate components and showing a predictable shift in folding free energy.
+- **Resolution test** The authors should either (a) provide a more quantitative analysis that demonstrates the balance, such as a phase diagram or a quantitative relationship between interaction energy and folding stability, or (b) temper the claim to be more specific to the systems studied, rather than presenting it as a general framework.
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Model validation
+- **Claim pointer** The manuscript claims that Mpipi-Helix "accurately captures α-helix folding landscapes" and is validated against NMR measurements and atomistic data.
+- **Evidence pointer** Extended Data Fig. 3, Methods section "Validation Against Helical Fractions Predicted from NMR Measurements"
+- **Concern** The validation of Mpipi-Helix against NMR data, while showing good correlation, is performed on peptides in dilute solution. The model is then applied to condensate environments without direct validation of its performance in these dense, heterogeneous environments. The transferability of a model parameterized on dilute-solution data to condensate conditions is a significant assumption that is not directly tested. The comparison to atomistic simulations of A11 is a start, but it is only one peptide and does not cover the range of sequences and environments used in the main results.
+- **Why it matters** The reliability of all subsequent results depends on the accuracy of Mpipi-Helix in condensate environments. If the model's parameters are not transferable, the conclusions about folding in condensates could be artifacts of the model rather than real physical effects.
+- **Resolution test** The authors should provide additional validation of Mpipi-Helix in dense environments, perhaps by comparing its predictions to atomistic simulations of a peptide in a simplified condensate-like environment, or by comparing to experimental data on peptide helicity in the presence of high concentrations of relevant proteins or osmolytes.
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** No
+- **Axis** Interpretation of kinetic data
+- **Claim pointer** The manuscript claims that "folding transitions are kinetically frustrated inside condensates because they are coupled to the timescale of contact rearrangement with co-condensate proteins."
+- **Evidence pointer** Fig. 3, Methods section "MSM Construction and PCCA+ Metastable States"
+- **Concern** The claim of kinetic frustration is based on the observation of longer relaxation timescales in condensates. However, the authors do not directly demonstrate the coupling between folding transitions and contact rearrangement. The correlation between viscosity and relaxation timescales is suggestive but not conclusive. Alternative explanations, such as increased local friction due to the crowded environment itself, or changes in the dielectric environment affecting the folding barrier, are not fully explored. The statement that this is a "universal" frustration is too strong given the limited number of systems studied.
+- **Why it matters** The kinetic claim is a significant part of the paper's novelty. If the mechanism is not correctly identified, the conclusions about the nature of the kinetic frustration could be misleading for future studies.
+- **Resolution test** The authors should perform additional analyses to directly probe the coupling between folding and contact dynamics, such as calculating the correlation between the time series of folding progress and contact number, or performing simulations where the contact dynamics are artificially accelerated or slowed to see the effect on folding kinetics.
+- **Concern ID** R1-M4
+- **Severity** Major
+- **Blocking** No
+- **Axis** Generalizability of findings
+- **Claim pointer** The manuscript implies that the findings for the model peptides and the three disease proteins can be generalized to a broader principle of protein folding in condensates.
+- **Evidence pointer** Fig. 2, Fig. 4, Discussion
+- **Concern** The study is limited to α-helical domains. Many proteins in condensates are partially or wholly disordered, and their folding landscapes may be governed by different physics. The choice of α-helices as a model system is reasonable, but the authors should be more cautious in extending their conclusions to all protein folds. The three disease proteins are all studied in the context of their specific condensate partners, which is good, but the number of systems is small, and the sequence space of both the folded domains and the condensate proteins is vast.
+- **Why it matters** The title and framing of the paper suggest a general principle. If the findings are specific to α-helices or to the particular systems studied, the impact of the work is reduced.
+- **Resolution test** The authors should either (a) test additional types of secondary structure (e.g., β-hairpins) or (b) explicitly state the limitations of their study to α-helical domains and avoid over-generalizing in the title and abstract.
+- **Minor Comments**
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Clarity of methods
+- **Affected element** Methods section "Atomistic Simulations of the NYQQYN Condensate"
+- **Evidence pointer** Methods section, location not provided
+- **Issue** The description of the direct coexistence simulation setup is somewhat brief. The criteria for determining equilibration (discarding the first 500 ns) and the fitting of sigmoids to density profiles could be described in more detail for reproducibility.
+- **Required correction** Provide more detail on the sigmoid fitting procedure, including the functional form used and the criteria for determining the plateau densities.
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Statistical rigor
+- **Affected element** Fig. 2d, Fig. 4c
+- **Evidence pointer** Fig. 2d, Fig. 4c
+- **Issue** The error bars in the helical fraction plots are described as standard errors, but the number of independent samples contributing to these errors is not always clear. For the coarse-grained simulations, it is stated that 300 simulations were run, but it is not clear if these are fully independent or if they are sub-samples of a longer trajectory.
+- **Required correction** Clarify the independence of the simulation replicates and how the standard errors were calculated.
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Presentation of results
+- **Affected element** Fig. 3c, d
+- **Evidence pointer** Fig. 3c, d
+- **Issue** The relaxation timescales are presented as bar charts, which makes it difficult to assess the distribution of the data. A box plot or a plot showing the individual data points would be more informative.
+- **Required correction** Consider presenting the relaxation timescale data in a more informative format, such as a box plot or a violin plot.
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Discussion of limitations
+- **Affected element** Discussion section
+- **Evidence pointer** Discussion section, location not provided
+- **Issue** The discussion does not explicitly address the limitations of the coarse-grained model, such as the lack of explicit electrostatics or the simplified representation of side chains. A brief statement on the known limitations of the model and how they might affect the conclusions would strengthen the manuscript.
+- **Required correction** Add a paragraph in the Discussion acknowledging the limitations of the coarse-grained model and the potential impact on the results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (balance claim needs quantitative support), R1-M2 (model validation in condensate environments is missing). These are the primary technical issues that prevent the case from being fully established.
+- **Assessment against Nature-style criteria** 
+  - **Originality**: The concept of "dual sequence dependence" and the systematic study of the balance between crowding and multivalent interactions in the context of protein folding in condensates is a novel contribution. The development of Mpipi-Helix is an original methodological advance.
+  - **Scientific importance**: The question of how condensates affect protein structure is of high importance for understanding cell biology and disease. The findings could have implications for how we think about protein folding in the cellular environment and for the development of therapeutics targeting condensate-associated diseases.
+  - **Interdisciplinary readership**: The topic is inherently interdisciplinary, bridging biophysics, cell biology, and computational chemistry. The manuscript is written in a way that should be accessible to researchers in these fields, though the methods section is quite technical.
+  - **Technical soundness**: The simulation methodology is state-of-the-art and the parameterization workflow is rigorous. However, the lack of direct validation of the coarse-grained model in condensate environments is a significant technical gap. The statistical analysis of the simulation data could be more detailed.
+  - **Readability for nonspecialists**: The abstract and introduction are clear and accessible. The results section is well-structured. The methods section is dense but appropriate for a specialist audience. The main text is generally readable, though some concepts (e.g., Mpipi-Helix, Potts model) may require background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question with a sophisticated approach. The central claims are plausible but require stronger evidence, particularly regarding the quantitative nature of the "balance" and the validation of the model in condensate environments. If these concerns are addressed, the paper could be a significant contribution.
+
+## Risk / unsupported claims
+- The claim that the "balance" between crowding and multivalent interactions is a general principle governing protein folding in condensates is not fully supported by the limited number of systems studied.
+- The claim that kinetic frustration is "universal" is too strong given the limited systems and the lack of direct mechanistic evidence.
+- The claim that Mpipi-Helix "accurately captures" folding landscapes in condensates is not directly validated in these environments.
+- The extension of findings from model peptides to disease-associated proteins is suggestive but not conclusive, as the study does not directly link the observed changes in folding to disease mechanisms.
+- The statement that the framework has implications for "designing condensates to program protein function across scales" is speculative and not directly supported by the data.

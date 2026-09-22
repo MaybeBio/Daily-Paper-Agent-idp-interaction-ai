@@ -1,0 +1,367 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.07.687251",
+  "title": "Reconstitution of multistep recruitment of ULK1 to membranes in autophagy",
+  "doi": "10.1101/2025.11.07.687251",
+  "abstract": "The Human ULK1 autophagy-initiating complex consists of ULK1, FIP200, and the HORMA domain heterodimer ATG13:ATG101. PI3P is essential to recruit ULK1C to membranes for ULK1, but ULK1C subunits do not contain PI3P-binding domains. Here we show that the ATG13:ATG101 dimer forms a complex with the PI3P-binding protein WIPI3, as well as WIPI2. Bound to WIPI2-3, ATG13:ATG101 inserts its Trp-Phe (WF) finger into the membrane. MD simulations show that WIPIs and the WF finger cooperatively stabilizes the complex on membranes. Biochemical reconstitution and cell-based assays show that WIPI3:ATG13 engagement promotes ATG16L1 phosphorylation, autophagy and mitophagy. A kinase domain (KD)-proximal PVP motif in the ULK1 IDR docks onto the ATG13:ATG101 HORMA dimer brings the ULK1 KD close to the membrane. The PVP motif is essential for in vitro ULK1 phosphorylation of ATG16L1 and important for autophagy and mitophagy. These data establish a stepwise pathway for recruitment of the ULK1 KD to the vicinity of the membrane surface.",
+  "authors": [
+    "Duan Y",
+    "Lu Y",
+    "Paul S",
+    "Betz J",
+    "Wilhelm LP",
+    "Cook ASI",
+    "Ren X",
+    "Adriaenssens E",
+    "Martens S",
+    "Ganley IG",
+    "Hummer G",
+    "Hurley JH"
+  ],
+  "published_date": "2025-11-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.07.687251",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.07.687251.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1116399",
+    "raw_record": {
+      "id": "PPR1116399",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1116399"
+        ]
+      },
+      "doi": "10.1101/2025.11.07.687251",
+      "title": "Reconstitution of multistep recruitment of ULK1 to membranes in autophagy",
+      "authorString": "Duan Y, Lu Y, Paul S, Betz J, Wilhelm LP, Cook ASI, Ren X, Adriaenssens E, Martens S, Ganley IG, Hummer G, Hurley JH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Duan Y",
+            "lastName": "Duan",
+            "firstName": "Yongjia",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Cell Biology, , , ,"
+                },
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "Collaborative Research Network, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lu Y",
+            "lastName": "Lu",
+            "firstName": "Ye",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Cell Biology, , , ,"
+                },
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "Collaborative Research Network, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Paul S",
+            "lastName": "Paul",
+            "firstName": "Sanjoy",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Collaborative Research Network, , ,"
+                },
+                {
+                  "affiliation": "Department of Theoretical Biophysics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Betz J",
+            "lastName": "Betz",
+            "firstName": "Johannes",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Theoretical Biophysics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilhelm LP",
+            "lastName": "Wilhelm",
+            "firstName": "Léa",
+            "initials": "LP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cook ASI",
+            "lastName": "Cook",
+            "firstName": "Annan",
+            "initials": "ASI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Cell Biology, , , ,"
+                },
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "Collaborative Research Network, , ,"
+                },
+                {
+                  "affiliation": "Graduate Group in Biophysics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ren X",
+            "lastName": "Ren",
+            "firstName": "Xuefeng",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Cell Biology, , , ,"
+                },
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "Collaborative Research Network, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Adriaenssens E",
+            "lastName": "Adriaenssens",
+            "firstName": "Elias",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Collaborative Research Network, , ,"
+                },
+                {
+                  "affiliation": ", Vienna Biocenter Campus (VBC), Dr.-Bohr-Gasse 9 / Vienna Biocenter 5 , , ,"
+                },
+                {
+                  "affiliation": ", , Department of Biochemistry and Cell Biology, Dr.-Bohr-Gasse 9 / Vienna Biocenter 5 , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martens S",
+            "lastName": "Martens",
+            "firstName": "Sascha",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3786-8199"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Collaborative Research Network, , ,"
+                },
+                {
+                  "affiliation": ", Vienna Biocenter Campus (VBC), Dr.-Bohr-Gasse 9 / Vienna Biocenter 5 , , ,"
+                },
+                {
+                  "affiliation": ", , Department of Biochemistry and Cell Biology, Dr.-Bohr-Gasse 9 / Vienna Biocenter 5 , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ganley IG",
+            "lastName": "Ganley",
+            "firstName": "Ian",
+            "initials": "IG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Collaborative Research Network, , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hummer G",
+            "lastName": "Hummer",
+            "firstName": "Gerhard",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Collaborative Research Network, , ,"
+                },
+                {
+                  "affiliation": "Department of Theoretical Biophysics, , ,"
+                },
+                {
+                  "affiliation": "Institute of Biophysics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hurley JH",
+            "lastName": "Hurley",
+            "firstName": "James",
+            "initials": "JH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Cell Biology, , , ,"
+                },
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "Collaborative Research Network, , ,"
+                },
+                {
+                  "affiliation": "Graduate Group in Biophysics, , , ,"
+                },
+                {
+                  "affiliation": "Helen Wills Neuroscience Institute, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3786-8199"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The Human ULK1 autophagy-initiating complex consists of ULK1, FIP200, and the HORMA domain heterodimer ATG13:ATG101. PI3P is essential to recruit ULK1C to membranes for ULK1, but ULK1C subunits do not contain PI3P-binding domains. Here we show that the ATG13:ATG101 dimer forms a complex with the PI3P-binding protein WIPI3, as well as WIPI2. Bound to WIPI2-3, ATG13:ATG101 inserts its Trp-Phe (WF) finger into the membrane. MD simulations show that WIPIs and the WF finger cooperatively stabilizes the complex on membranes. Biochemical reconstitution and cell-based assays show that WIPI3:ATG13 engagement promotes ATG16L1 phosphorylation, autophagy and mitophagy. A kinase domain (KD)-proximal PVP motif in the ULK1 IDR docks onto the ATG13:ATG101 HORMA dimer brings the ULK1 KD close to the membrane. The PVP motif is essential for  in vitro ULK1 phosphorylation of ATG16L1 and important for autophagy and mitophagy. These data establish a stepwise pathway for recruitment of the ULK1 KD to the vicinity of the membrane surface.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.07.687251"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1116399"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1116399&type=FILE&fileName=EMS210552-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42696573",
+            "reference": "Science advances. \n    2026 Sep;12(36):eaeg3201",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS210552",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-11-11",
+      "firstPublicationDate": "2025-11-09",
+      "firstIndexDate": "2025-11-11",
+      "fullTextReceivedDate": "2026-03-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

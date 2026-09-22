@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39999166",
+  "title": "Bipartite binding of the intrinsically disordered scaffold protein JIP1 to the kinase JNK1.",
+  "authors": "Orand, Thibault; Delaforge, Elise; Lee, Alexandra; Kragelj, Jaka; Tengo, Maud; Tengo, Laura; Blackledge, Martin; Boeri Erba, Elisabetta; Davis, Roger J; Palencia, Andres; Jensen, Malene Ringkjobing",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2025-02-25",
+  "window": {
+    "start": "2025-02-24",
+    "end": "2025-03-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过NMR和晶体学解析了无序支架蛋白JIP1与激酶JNK1的双位点结合模式，聚焦IDR介导的PPI机制，但方法以实验结构解析为主，缺乏AI或物理模拟建模。",
+  "abstract": "Scaffold proteins are key players in many signaling pathways where they ensure spatial and temporal control of molecular interactions by simultaneous tethering of multiple signaling components. The protein JIP1 acts as a scaffold within the c-Jun N-terminal kinase (JNK) signaling pathway by assembling three kinases, MLK3, MKK7, and JNK, into a macromolecular complex that enables their specific activation. The recruitment of these kinases depends on the 450-amino acid intrinsically disordered tail of JIP1, however, the structural details of this tail and the molecular mechanisms by which it binds kinases have remained elusive. Here, we provide an atomic resolution structural description of the JIP1 tail, and we study its interaction with the kinase JNK1. Using NMR spectroscopy, we show that JNK1 not only engages with the well-known docking site motif (D-motif) of JIP1, but also interacts with a noncanonical F-motif. We determine the crystal structure of the JIP1-JNK1 complex at 2.35 A resolution revealing a bipartite binding mode of JIP1. Our work provides insights into the sequence determinants of F-motifs suggesting that these motifs may be more prevalent in JNK substrates than previously recognized. More broadly, our study highlights the power of NMR spectroscopy in uncovering kinase interaction motifs within disordered scaffold proteins, and it paves the way for atomic-resolution interaction studies of JIP1 with its multitude of interaction partners.",
+  "abstract_zh": "支架蛋白（scaffold proteins）是许多信号通路中的关键角色，它们通过同时锚定多个信号组分，确保分子相互作用在空间和时间上的精确调控。蛋白JIP1在c-Jun N末端激酶（JNK）信号通路中充当支架，通过将三种激酶MLK3、MKK7和JNK组装成大分子复合物，实现其特异性激活。这些激酶的招募依赖于JIP1的450个氨基酸组成的固有无序尾部，然而，该尾部的结构细节及其与激酶结合的分子机制一直未被阐明。在此，我们提供了JIP1尾部的原子分辨率结构描述，并研究了其与激酶JNK1的相互作用。利用核磁共振波谱（NMR spectroscopy），我们表明JNK1不仅与JIP1的已知对接位点基序（D-motif）结合，还与非经典F-motif相互作用。我们以2.35 Å分辨率确定了JIP1-JNK1复合物的晶体结构，揭示了JIP1的双部分结合模式。我们的工作为F-motif的序列决定因素提供了见解，表明这些基序在JNK底物中可能比先前认识的更为普遍。更广泛地说，我们的研究突显了核磁共振波谱在揭示无序支架蛋白内激酶相互作用基序方面的能力，并为JIP1与其众多相互作用伙伴的原子分辨率相互作用研究铺平了道路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39999166/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39999166/",
+  "paper_page_path": "papers/pubmed/39999166/index.html"
+}

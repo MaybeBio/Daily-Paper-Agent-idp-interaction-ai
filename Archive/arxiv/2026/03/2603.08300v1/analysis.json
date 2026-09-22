@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2603.08300v1",
+  "title": "A thermodynamic metric quantitatively predicts disordered protein partitioning and multicomponent phase behavior",
+  "authors": "Zhuang Liu; Beijia Yuan; Mihir Rao; Gautam Reddy; William M. Jacobs",
+  "journal": "",
+  "published_date": "2026-03-09",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出一个热力学度量模型，从IDR序列学习低维表示并预测多组分相行为与分配，直接以无序蛋白相分离中的互作机制为对象，结合AI学习与热力学建模，高度契合本课题。",
+  "abstract": "Intrinsically disordered regions (IDRs) of proteins mediate sequence-specific interactions underlying diverse cellular processes, including the formation of biomolecular condensates. Although IDRs strongly influence condensate compositions, quantitative frameworks that predict and explain their phase behavior in complex mixtures remain lacking. Here we introduce a thermodynamic model that quantitatively predicts the behavior of arbitrary combinations of IDRs across a wide range of concentrations, with accuracy comparable to state-of-the-art simulations. The model learns low-dimensional, context-independent representations of IDR sequences that combine to form mixture representations, producing context-dependent interactions. These representations define a thermodynamic metric space in which distances between IDRs correspond directly to differences in their thermodynamic properties. We show that the model predicts multicomponent phase diagrams in quantitative agreement with molecular simulations without being trained on free-energy or phase-coexistence data. The metric space provides geometrically intuitive predictions of IDR partitioning, multicomponent condensation, and context-dependent mutational effects, addressing several central problems in IDR biophysics within a single model. Systematic interrogation of the learned representations reveals how amino-acid composition and sequence patterning jointly determine mixture thermodynamics. Together, our results establish a unified and interpretable framework for predicting and understanding the behavior of complex mixtures of IDRs and other sequence-dependent biomolecules.",
+  "abstract_zh": "蛋白质的内在无序区域（IDRs）介导序列特异性相互作用，支撑多种细胞过程，包括生物分子凝聚体的形成。尽管IDRs强烈影响凝聚体组成，但预测和解释其在复杂混合物中相行为的定量框架仍然缺乏。在此，我们引入一个热力学模型，该模型定量预测任意IDR组合在广泛浓度范围内的行为，其精度可与最先进的模拟相媲美。该模型学习IDR序列的低维、上下文无关表示，这些表示组合形成混合物表示，从而产生上下文依赖性相互作用。这些表示定义了一个热力学度量空间，其中IDR之间的距离直接对应其热力学性质的差异。我们表明，该模型预测多组分相图，与分子模拟定量一致，且无需基于自由能或相共存数据进行训练。该度量空间提供了对IDR分配、多组分凝聚及上下文依赖性突变效应的几何直观预测，在单一模型中解决了IDR生物物理学的几个核心问题。对学习表示的系统性探究揭示了氨基酸组成和序列模式如何共同决定混合物热力学。总之，我们的结果建立了一个统一且可解释的框架，用于预测和理解IDR及其他序列依赖性生物分子复杂混合物的行为。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2603.08300v1",
+  "source_url": "https://arxiv.org/abs/2603.08300v1",
+  "paper_page_path": "papers/arxiv/2603.08300v1/index.html"
+}

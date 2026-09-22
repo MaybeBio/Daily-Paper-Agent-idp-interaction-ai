@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42330696",
+  "title": "Polymer scaling in protein crowding: From dilute coils to semidilute meshes.",
+  "authors": "Olgenblum, Gil I; Harries, Daniel",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2026-06-22",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文从聚合物标度理论综述拥挤环境中蛋白质-聚合物相互作用，涉及IDP结构及蛋白缔合的标度行为，但无具体PPI机制建模或AI/物理模拟方法，故为中档。",
+  "abstract": "Water-soluble polymers are widely used as model crowders, yet their effects on proteins are often interpreted using frameworks developed for rigid spherical depletants. Here we review polymer crowding from the perspective of scaling theory, emphasizing how polymer-specific length scales govern protein-polymer interactions across concentration regimes. In dilute solutions, depletion is set by the polymer radius of gyration and scales linearly with concentration. Above the overlap concentration, c *, the relevant length becomes the correlation length, xi(c), which defines the mesh size and controls both the magnitude and range of interactions. Protein association, folding, and intrinsically disordered protein structure follow distinct scaling regimes determined by the ratio of protein size to xi. Deviations from classical predictions arise from polymer connectivity and soft protein-polymer interactions. The polymer-scaling perspective provides a unified framework linking polymer physics to protein thermodynamics in crowded environments.",
+  "abstract_zh": "水溶性聚合物广泛用作模型拥挤剂，但其对蛋白质的影响常以针对刚性球形耗尽剂开发的框架进行解释。在此，我们从标度理论的角度评述聚合物拥挤效应，强调聚合物特有的长度尺度如何在不同浓度区间内主导蛋白质-聚合物相互作用。在稀溶液中，耗尽作用由聚合物回旋半径决定，并与浓度呈线性标度关系。在重叠浓度c*以上，相关长度xi(c)成为关键长度，它定义网格尺寸，并控制相互作用的强度和范围。蛋白质缔合、折叠及 intrinsically disordered protein（固有无序蛋白）结构遵循由蛋白质尺寸与xi之比决定的独特标度区间。与经典预测的偏差源于聚合物连接性和软性蛋白质-聚合物相互作用。聚合物标度视角提供了一个统一框架，将聚合物物理学与拥挤环境中的蛋白质热力学联系起来。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42330696/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42330696/",
+  "paper_page_path": "papers/pubmed/42330696/index.html"
+}

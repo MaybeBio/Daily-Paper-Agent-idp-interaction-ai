@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, experimental procedures, and figure legends
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that the constitutively expressed Hsp70 chaperone Hsc70, in cooperation with its co-chaperone CSPα, maintains the synaptic SNARE protein SNAP-25 in an assembly-competent state by delaying its aggregation. They identify three major Hsc70 binding sites on SNAP-25 using peptide array screening, validate binding of two representative peptides to the canonical substrate-binding site of Hsc70 using ATPase assays, competition binding, and methyl-TROSY NMR, and demonstrate that Hsc70 preserves the ability of SNAP-25 to form SDS-resistant SNARE complexes with syntaxin and synaptobrevin.
+- **Visible evidence base** Aggregation kinetics (Fig. 2), native PAGE (Fig. 3A), competition binding (Fig. 3B), peptide array (Fig. 4), ATPase activity (Fig. 5A), fluorescence anisotropy competition (Fig. 5B), methyl-TROSY NMR (Fig. 5D), SNARE complex formation (Fig. 6), CD spectra (Fig. S1), supplementary aggregation data (Fig. S2), V438F mutant control (Fig. S3), uncropped gels (Figs. S4, S5)
+- **Missing materials affecting confidence** Full NMR spectra assignments and quantification of chemical shift perturbations; raw peptide array images; statistical analysis details for aggregation kinetics replicates; exact concentrations for all aggregation assay components; molecular weight markers for native PAGE; quantification of SNARE complex formation efficiency; details on peptide solubility and aggregation state in binding assays
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in neuronal proteostasis: how the chaperone system maintains SNAP-25 in a functional state prior to SNARE complex assembly. The work combines biochemical, biophysical, and structural approaches to map Hsc70 binding sites on SNAP-25 and to demonstrate a functional consequence of chaperone binding. The central claim that Hsc70 delays SNAP-25 aggregation and preserves its assembly competence is supported by the aggregation kinetics and SNARE complex formation data. However, several technical concerns regarding the interpretation of the NMR data, the physiological relevance of the aggregation assay conditions, and the quantitative rigor of the binding measurements need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in the fields of molecular chaperones and protein homeostasis, synaptic biology and neurotransmission, and protein aggregation disorders. The work is also relevant to those studying SNARE complex assembly mechanisms and the molecular basis of neurodegenerative diseases where SNAP-25 dysfunction has been implicated.
+- **Major strengths** The study addresses a biologically important question with a clear hypothesis. The combination of peptide array screening with solution binding validation is a logical approach. The use of the V438F mutant as a control for canonical site binding is appropriate. The demonstration that Hsc70 preserves SNARE complex formation competence provides a functional readout beyond simple binding. The proposed model (Fig. 7) is clearly articulated and provides a framework for future studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of NMR interpretation
+  - **Claim pointer** The authors state that methyl-TROSY NMR provides direct observation of peptide binding at the canonical site of Hsc70, with chemical shift changes for Ile 403 and Ile 440 upon complex formation with SNNP and SNCP.
+  - **Evidence pointer** Fig. 5D, Experimental procedures (NMR section)
+  - **Concern** The NMR data are presented as a single panel showing only the Ile region of the 1H-13C HMQC spectra. No assignments are provided for the free protein, no chemical shift perturbation values are quantified, and no titration series is shown. The statement that signals "split into two resonances each" is made without demonstrating how this was determined, and the possibility of non-specific binding or peptide-induced protein conformational changes unrelated to the canonical site is not excluded. The V438F mutant is used in ATPase assays but not in NMR experiments, so there is no direct control demonstrating that the observed chemical shift changes are due to canonical site binding.
+  - **Why it matters** The NMR data are presented as key evidence for the mode of binding. Without proper controls, quantification, and assignment validation, the conclusion that SNNP and SNCP bind at the canonical site with two alternative binding modes is not rigorously supported.
+  - **Resolution test** Provide full NMR assignment data for Ile 403 and Ile 440 in the free state, show titration series with increasing peptide concentrations, quantify chemical shift perturbations, and include spectra with the V438F mutant or a competitive peptide to demonstrate specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Physiological relevance of experimental conditions
+  - **Claim pointer** The authors claim that Hsc70 and CSPα cooperate to delay SNAP-25 aggregation and maintain it in an assembly-competent state, implying relevance to the neuronal context.
+  - **Evidence pointer** Fig. 2, Fig. 6, Experimental procedures (Aggregation assay, SNARE formation)
+  - **Concern** The aggregation assays are performed at 50 μM SNAP-25, which is likely far above physiological concentrations. The molar ratios of Hsc70 to SNAP-25 (1:10) and the absence of other cellular factors that might influence SNAP-25 conformation or aggregation are not discussed. The SNARE complex formation assay uses SNAP-25 taken from aggregation reactions at different time points, but the authors do not quantify the amount of soluble vs. aggregated SNAP-25 in these samples, nor do they demonstrate that the observed differences in SNARE complex formation are due to the chaperone effect rather than simply the amount of available soluble SNAP-25.
+  - **Why it matters** The physiological relevance of the findings depends on whether the observed effects occur at concentrations and conditions relevant to the cellular environment. Without addressing the stoichiometry and the state of SNAP-25 in the SNARE complex formation assays, the claim that Hsc70 maintains SNAP-25 in an assembly-competent state is not fully established.
+  - **Resolution test** Perform aggregation assays at lower SNAP-25 concentrations, vary the Hsc70:SNAP-25 ratio to establish a dose response, quantify soluble vs. aggregated SNAP-25 in the SNARE complex formation assays, and include a control where aggregated SNAP-25 is removed prior to the SNARE assembly reaction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor of binding measurements
+  - **Claim pointer** The authors state that SNNP and SNCP bind to Hsc70 with significantly higher affinity than LOOPP based on competition binding assays.
+  - **Evidence pointer** Fig. 5B, Experimental procedures (Competition binding assay)
+  - **Concern** The competition binding data are presented as fraction bound versus competitor concentration, but no IC50 or Ki values are reported in the text or figures. The curves appear to be normalized, but the fitting parameters and errors are not provided. The statement that SNNP and SNCP bind with "significantly higher affinity" is not supported by statistical analysis or quantitative comparison. Additionally, the competition assay uses a single concentration of Hsc70 and FITC-p5, which may not be optimal for determining accurate IC50 values for all competitors.
+  - **Why it matters** Quantitative binding affinities are central to the claim that specific SNAP-25 regions are the physiologically relevant Hsc70 interaction sites. Without reported Ki values and statistical comparisons, the relative affinities cannot be evaluated.
+  - **Resolution test** Report IC50 and Ki values with errors for each peptide, perform statistical tests comparing the affinities, and include full fitting parameters and goodness-of-fit metrics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of the LOOP region binding
+  - **Claim pointer** The authors conclude that the LOOP region binding is not mechanistically significant because LOOPP binds with lower affinity and the region is likely sequestered upon membrane anchoring.
+  - **Evidence pointer** Fig. 4, Fig. 5B, Discussion
+  - **Concern** The peptide array data show a binding site in the LOOP region, and the competition assay shows that LOOPP does compete for binding, albeit with lower apparent affinity. The authors dismiss this site based on the assumption that membrane anchoring prevents chaperone access, but no experimental evidence is provided to support this assumption. The LOOP region contains the palmitoylated cysteines, and it is possible that Hsc70 binding to this region is relevant in the un-palmitoylated state or during the dynamic palmitoylation cycle.
+  - **Why it matters** The conclusion that only the SNN and SNC sites are mechanistically significant may be premature. If the LOOP region is also a functional Hsc70 binding site, the proposed model would need to be revised.
+  - **Resolution test** Test whether palmitoylation of the LOOP region affects Hsc70 binding, or provide direct evidence that the LOOP region is inaccessible to Hsc70 in a membrane context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Fig. 3A
+  - **Evidence pointer** Fig. 3A
+  - **Issue** The native PAGE gel shows a band shift for the Hsc70-SNAP-25 complex, but the figure legend does not specify the concentrations used or whether the complex was pre-formed and then run under native conditions. The difference in signal intensity for His-SNAP-25 is attributed to epitope exposure, but this is speculative.
+  - **Required correction** Provide experimental details in the legend, including concentrations and incubation conditions, and consider showing a Coomassie-stained gel to demonstrate equal loading.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of statistical reporting
+  - **Affected element** Fig. 2, Fig. 5A
+  - **Evidence pointer** Fig. 2, Fig. 5A
+  - **Issue** The aggregation kinetics and ATPase activity data are described as representative of three independent experiments, but no statistical analysis (e.g., error bars, significance tests) is shown for the aggregation curves. The ATPase activity data show error bars, but the number of replicates and statistical comparisons are not stated.
+  - **Required correction** Add statistical details to the figure legends, including the number of replicates, the type of error bars, and any significance tests performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of alternative interpretations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The authors propose that Hsc70 acts as a holdase for SNAP-25, but do not discuss the possibility that Hsc70 binding might also influence SNAP-25's interaction with other SNARE proteins or that the observed delay in aggregation could be due to a general chaperone effect rather than specific site recognition.
+  - **Required correction** Add a brief discussion of alternative mechanisms and how the current data distinguish between them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity of the model
+  - **Affected element** Fig. 7
+  - **Evidence pointer** Fig. 7
+  - **Issue** The model in Fig. 7 is clear but does not indicate the stoichiometry of Hsc70 binding to SNAP-25 or whether both SNN and SNC sites are occupied simultaneously.
+  - **Required correction** Consider adding a note about the stoichiometry or stating that this remains to be determined.
+- **Technical failings that need to be addressed before the case is established** The NMR data interpretation (R1-M1) and the lack of quantitative binding parameters (R1-M3) are the most significant technical issues. The physiological relevance of the aggregation conditions (R1-M2) also needs to be addressed to support the broader claims of the manuscript.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of Hsc70 maintaining SNAP-25 in an assembly-competent state is a novel angle on chaperone function in SNARE biology. The identification of specific binding sites adds mechanistic detail. However, the overall concept of chaperones preventing aggregation of synaptic proteins is not entirely new.
+  - **Scientific importance** The work has potential importance for understanding the molecular basis of neurotransmitter release and its dysregulation in neurological disorders. The link between SNAP-25 aggregation and disease is an important area.
+  - **Interdisciplinary readership** The topic bridges chaperone biology, neuroscience, and protein biophysics, which could attract a broad readership. However, the technical nature of some experiments may limit accessibility.
+  - **Technical soundness** The experimental design is generally sound, but the NMR interpretation and quantitative binding analysis need strengthening. The aggregation assays are straightforward but would benefit from more physiologically relevant conditions.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. The model figure helps convey the main concept. Some sections, particularly the NMR description, may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding that Hsc70 delays SNAP-25 aggregation and preserves its ability to form SNARE complexes is potentially significant. However, the NMR data need to be more rigorously presented and interpreted, quantitative binding parameters need to be reported, and the physiological relevance of the conditions should be discussed. If these issues are addressed, the manuscript would make a solid contribution to the field.
+
+## Risk / unsupported claims
+- The claim that Hsc70 binds to SNAP-25 at three major sites is supported by peptide array data, but the quantitative significance of these sites in the context of the full-length protein is not established.
+- The claim that the LOOP region binding is not mechanistically significant is not supported by direct experimental evidence.
+- The statement that Hsc70 maintains SNAP-25 in a "folding-competent state" is inferred from the SNARE complex formation data but is not directly demonstrated at a structural level.
+- The proposed model (Fig. 7) is speculative and goes beyond the direct experimental evidence presented.
+- The clinical implications discussed in the manuscript are speculative and not directly supported by the data.

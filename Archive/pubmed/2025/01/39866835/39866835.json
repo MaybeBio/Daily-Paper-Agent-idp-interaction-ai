@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "39866835",
+    "doi": "10.1103/prxlife.2.023011",
+    "title": "Molecular Drivers of Aging in Biomolecular Condensates: Desolvation, Rigidification, and Sticker Lifetimes."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are dynamic intracellular entities defined by their sequence- and composition-encoded material properties. During aging, these properties can change dramatically, potentially leading to pathological solidlike states, the mechanisms of which remain poorly understood. Recent experiments reveal that the aging of condensates involves a complex interplay of solvent depletion, strengthening of sticker links, and the formation of rigid structural segments such as beta fibrils. In this study, we use various coarse-grained models to investigate how solvent expulsion, biopolymer chain rigidity, and the lifetimes of sticker contacts influence the viscoelastic properties and aging dynamics of condensates. We find that the rigidity of the biopolymer backbone is essential for replicating the predominant elastic behavior observed in experiments. In contrast, models using fully flexible chains-an assumption common in simulations of intrinsically disordered proteins-fail to exhibit a dominant elastic regime. We also demonstrate that altering the solvent content within condensates affects the crossover between storage and loss moduli. This suggests that desolvation plays a significant role in condensate aging by promoting the transition from a viscous to an elastic state. Furthermore, the lifetime of sticker pairs profoundly influences the mature state of the condensates; short-lived stickers lead to a Maxwell fluid behavior, while longer-lived, irreversibly cross-linked stickers result in solidlike properties, consistent with the Kelvin-Voigt model. Finally, by incorporating the chain rigidification, desolvation, and sticker pair formation into a nonequilibrium dynamic aging simulation, we show the molecular mechanism of forming solid shells around the condensate surfaces observed in a recent experimental report.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Biswas, Subhadip",
+        "Potoyan, Davit A"
+      ],
+      "short_names": [
+        "Biswas S",
+        "Potoyan DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3184-5295",
+        "ORCID: 0000-0002-5860-1699"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Iowa State University, Ames, Iowa 50011, USA.",
+        "Department of Chemistry, Iowa State University, Ames, Iowa 50011, USA.",
+        "Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, Iowa 50011, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Biswas, Subhadip",
+        "short_name": "Biswas S",
+        "identifiers": [
+          "0000-0003-3184-5295"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, Iowa 50011, USA."
+        ]
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [
+          "0000-0002-5860-1699"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, Iowa 50011, USA.",
+          "Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, Iowa 50011, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PRX life"
+    ],
+    "journal_abbrev": [
+      "PRX Life"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/27 06:20",
+    "fetched_at": "2026-09-21 15:11:46"
+  },
+  "links": {
+    "cites": [
+      "42473993",
+      "42407334",
+      "42358691",
+      "41868013",
+      "41867831",
+      "41863073",
+      "41698919",
+      "41670285",
+      "41645509",
+      "41481439",
+      "41129218",
+      "40944443",
+      "40894760",
+      "40830340",
+      "40730570",
+      "40661456",
+      "40455990",
+      "40352180",
+      "40343340",
+      "40166274",
+      "40160200",
+      "39928699",
+      "39605385",
+      "39398199",
+      "39185151"
+    ],
+    "refs": [
+      "39464253",
+      "38467846",
+      "38429263",
+      "38181132",
+      "38163950",
+      "37932412",
+      "37549257",
+      "37470281",
+      "37194953",
+      "36513655",
+      "36350032",
+      "36067308",
+      "35727989",
+      "35675815",
+      "35293386",
+      "34931046",
+      "34785657",
+      "34645832",
+      "34032399",
+      "33934416",
+      "33510441",
+      "33303613",
+      "33139563",
+      "33004511",
+      "32719551",
+      "32571937",
+      "32029630",
+      "32004090",
+      "31020316",
+      "30682370",
+      "29364893",
+      "29091028",
+      "28935776",
+      "28225081",
+      "25288112",
+      "22398450",
+      "21361519",
+      "19460965",
+      "11497554",
+      "11308652"
+    ],
+    "similar": [
+      "39866835",
+      "39464253",
+      "37066350",
+      "39386700",
+      "39636939",
+      "39386612",
+      "34785657",
+      "39674888",
+      "37194953",
+      "38915484",
+      "37873097",
+      "38824391",
+      "39225536",
+      "32004090",
+      "36397514",
+      "38363841",
+      "34090478",
+      "38076908",
+      "35727989",
+      "37386790",
+      "38383656",
+      "39568893",
+      "39042834",
+      "39937084",
+      "39196681",
+      "38832749",
+      "37252985",
+      "40009520",
+      "40172489",
+      "36350032",
+      "39398199",
+      "36883003",
+      "39331998",
+      "39610751",
+      "35293386",
+      "39185151",
+      "38591689",
+      "36004748",
+      "37333342",
+      "37549257",
+      "34784177",
+      "38181073",
+      "38260590",
+      "30926670",
+      "37131735",
+      "31790873",
+      "37470705",
+      "36175408",
+      "37695778",
+      "35179885",
+      "39804953",
+      "35198903",
+      "38348795",
+      "38429263",
+      "40196628",
+      "35881789",
+      "38637545",
+      "39928699",
+      "39826710",
+      "39541973",
+      "40291420",
+      "34645832",
+      "39271032",
+      "39071308",
+      "36513655",
+      "39071339",
+      "32937111",
+      "39257779",
+      "38987300",
+      "40028356",
+      "37215004",
+      "31634364",
+      "38347806",
+      "36181270",
+      "36369755",
+      "39807887",
+      "37791635",
+      "39320949",
+      "37961422",
+      "37468629",
+      "36191226",
+      "33653957",
+      "36227469",
+      "37464880",
+      "34129687",
+      "37131742",
+      "33864415",
+      "39868336",
+      "21090870",
+      "34762868",
+      "39620362",
+      "39987501",
+      "37311001",
+      "37019112",
+      "38191942",
+      "37489654",
+      "38489385",
+      "39896463",
+      "38766065",
+      "38670952"
+    ],
+    "review": [
+      "39866835",
+      "32004090",
+      "40172489",
+      "36350032",
+      "31790873",
+      "35179885",
+      "38348795",
+      "39271032"
+    ],
+    "pmc": [
+      "11759064"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39866835/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

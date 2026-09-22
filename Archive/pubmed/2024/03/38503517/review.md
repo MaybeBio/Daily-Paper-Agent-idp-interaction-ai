@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Full text of a Perspective article
+- **Assessment boundary** Scientific content, logic, and evidentiary support of the arguments presented; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The author argues that low-complexity domains (LCDs) constitute a large, understudied fraction of the proteome ("dark matter"), that their function is mediated by labile cross-β structures formed via backbone hydrogen bonding, and that aliphatic alcohols such as 1,6-hexanediol act by sequestering backbone carbonyl groups, thereby dissolving LCD-based assemblies. The author further speculates on evolutionary origins, regulation by post-translational modification, and open questions.
+- **Visible evidence base** Text, Figures 1–5 (described but not shown), references to published work including NMR studies (Perdikari et al. 2022; Gu et al. 2023), prior phase separation studies (Frey et al. 2006; Kato et al. 2012), and structural work (Zhou et al. 2022, 2023)
+- **Missing materials affecting confidence** Figures and supplementary movies not provided; NMR spectra and quantitative data from the author's own study (Gu et al. 2023) not shown; no raw data or statistical analyses available for independent verification
+
+## Reviewer
+- **Overall assessment** This Perspective offers a coherent and thought-provoking synthesis of the LCD field, anchored in the author's own experimental work and that of others. The central argument, that LCD self-association is mediated by backbone hydrogen bonding forming labile cross-β structures, is plausible and consistent with recent NMR data. However, the article is largely speculative in its evolutionary claims and in its extrapolation from alcohol pharmacology to endogenous regulatory mechanisms. The evidentiary base for several key assertions is not fully presented in the supplied material, limiting the strength of the case. The writing is clear and accessible, and the article will likely stimulate discussion, but the scientific case would benefit from more direct evidence and a more balanced treatment of alternative models.
+- **Who would be interested in the results, and why** Researchers in the fields of phase separation, intrinsically disordered proteins, RNA biology, neurodegeneration, and transcriptional regulation. The article also speaks to those interested in protein evolution and the origins of cellular complexity. The pharmacological angle on hexanediols will interest cell biologists who routinely use these reagents.
+- **Major strengths** The article provides a clear, unified hypothesis for LCD function that is grounded in biophysical chemistry. The author connects in vitro observations to in vivo phenomena in a logical manner. The use of the hexanediol regioisomer pair as a mechanistic probe is elegant and potentially powerful. The article is well-written and accessible to a broad audience, and it highlights important open questions that will guide future research.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The author claims that 1,6-hexanediol dissolves LCD-based assemblies by specifically sequestering backbone carbonyl groups, and that differential sensitivity between 1,6-HD and 2,5-HD reveals the mechanism of LCD self-association.
+  - **Evidence pointer** Figures 2 and 3; text sections "Aliphatic alcohols—the Rosetta Stone..." and "Synthesis of a simple idea"
+  - **Concern** The central mechanistic claim rests on NMR data (Perdikari et al. 2022; Gu et al. 2023) that are not shown in the supplied material. The author's own study is cited but not presented in sufficient detail to evaluate the strength of the chemical shift perturbation data, particularly the claim that differences between 1,6-HD and 2,5-HD are localized to residues 320–340 of TDP-43. Without seeing the spectra, the magnitude of the effects, or the controls, the reader cannot assess whether the data support the strong conclusion drawn.
+  - **Why it matters** The entire mechanistic argument of the Perspective hinges on this interpretation. If the NMR data are not robust, or if alternative explanations (e.g., non-specific hydrophobic effects) are not excluded, the central thesis is weakened.
+  - **Resolution test** Provide the relevant NMR spectra, quantitative chemical shift perturbation plots, and appropriate controls (e.g., a non-LCD control protein, or a mutant LCD lacking the conserved region) to demonstrate specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Logical consistency
+  - **Claim pointer** The author states that "almost nothing we have observed diverges from what was taught to us seven decades ago by... Linus Pauling," implying that the proposed cross-β mechanism is a straightforward extension of classical protein chemistry.
+  - **Evidence pointer** Text section "Synthesis of a simple idea"
+  - **Concern** While the backbone hydrogen bonding model is consistent with Pauling's principles, the author does not adequately address why this mechanism has been so difficult to establish experimentally, nor does he engage with alternative models (e.g., pi-pi interactions, cation-pi interactions, hydrophobic effects) that have been proposed to drive LCD phase separation. The dismissal of these alternatives is not fully justified.
+  - **Why it matters** The field is divided on the molecular drivers of LCD self-assembly. A Perspective that claims to resolve this should more thoroughly address competing hypotheses and explain why the backbone-centric model is superior.
+  - **Resolution test** Add a section explicitly discussing alternative models and presenting evidence (or arguments) that favor the backbone hydrogen bonding model over them.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Speculation vs. evidence
+  - **Claim pointer** The author speculates that "RNA-enriched protein condensates may go back to the dawn of evolution" and that primitive proteins used backbone chemistry to self-associate.
+  - **Evidence pointer** Text section "Synthesis of a simple idea"
+  - **Concern** This evolutionary claim is presented with little supporting evidence and is not clearly flagged as speculation. While it is an interesting idea, it is not testable with current data and may distract from the more concrete mechanistic arguments.
+  - **Why it matters** The article's credibility is enhanced when speculation is clearly distinguished from evidence-based claims. As written, the evolutionary narrative could be misread as established fact.
+  - **Resolution test** Clearly label this as a hypothesis and, if possible, connect it to testable predictions or existing comparative genomic data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "dark matter"
+  - **Evidence pointer** Text section "Low-complexity domains—dark matter of the proteome"
+  - **Issue** The term "dark matter" is used to describe LCDs, but the author does not define what fraction of the proteome is actually "dark" in the sense of being uncharacterized. The 20% figure is cited, but it is unclear if this refers to all LCD-containing proteins or to LCDs themselves.
+  - **Required correction** Clarify the definition and provide a more precise estimate of the fraction of the proteome that is "dark."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of post-translational modifications
+  - **Evidence pointer** Text section "Synthesis of a simple idea"
+  - **Issue** The author notes that LCDs house 75% of post-translational modification sites but does not discuss how modifications might regulate the cross-β mechanism. This is a missed opportunity to strengthen the regulatory argument.
+  - **Required correction** Add a brief discussion of how phosphorylation, methylation, or acetylation might affect backbone hydrogen bonding or cross-β stability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Hexanediol mechanism
+  - **Evidence pointer** Text section "Aliphatic alcohols—the Rosetta Stone..."
+  - **Issue** The author does not explain why 1,6-HD is more effective than 2,5-HD at the molecular level beyond a brief speculation about geometry. The distance between hydroxyl groups is mentioned, but the reasoning is not fully developed.
+  - **Required correction** Expand the explanation of the geometric argument, possibly with a schematic or reference to molecular models.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of primary data for the author's own NMR study (Gu et al. 2023) and the reliance on cited work without showing the relevant spectra or quantitative analyses. Without these, the central mechanistic claim cannot be fully evaluated.
+
+## Risk / unsupported claims
+- The claim that 1,6-HD specifically sequesters backbone carbonyl groups to dissolve LCD assemblies is supported only by cited NMR studies, not by data shown in the manuscript.
+- The evolutionary claim that primitive proteins used backbone chemistry for self-association is speculative and not supported by direct evidence.
+- The assertion that LCDs house 75% of post-translational modification sites is cited but not verified in the supplied material.
+- The claim that the cross-β model is consistent with Pauling's principles is presented as if it resolves the mechanism, but alternative models are not adequately excluded.
+- The statement that "almost nothing we have observed diverges from what was taught to us seven decades ago" is an overstatement given the complexity of the field and the ongoing debates.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.23.517650",
+  "title": "The prolactin receptor scaffolds Janus kinase 2 via co-structure formation with phosphoinositide-4,5-bisphosphate",
+  "authors": "Araya-Secchi R; Bugge K; Seiffert P; Petry A; Haxholm GW; Lindorff-Larsen K; Pedersen SF; Arleth L; Kragelund BB",
+  "journal": "bioRxiv",
+  "published_date": "2022-11-23",
+  "window": {
+    "start": "2022-11-21",
+    "end": "2022-11-27"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过NMR、计算建模与模拟揭示PRLR无序胞内域、PI(4,5)P2与JAK2形成共结构，锁定近膜无序区为延伸构象以介导信号转导，是IDR介导PPI机制建模的典范。",
+  "abstract": "Class 1 cytokine receptors transmit signals through the membrane by a single transmembrane helix to an intrinsically disordered cytoplasmic domain that lacks kinase activity. While specific binding to phosphoinositides has been reported for the prolactin receptor (PRLR), the role of lipids in PRLR signalling is unclear. Using an integrative approach combining NMR spectroscopy, cellular signalling experiments, computational modelling and simulation, we demonstrate co-structure formation of the disordered intracellular domain of the human PRLR, the membrane constituent phosphoinositide-4,5-bisphosphate (PI(4,5)P 2 ) and the FERM-SH2 domain of the Janus kinase 2 (JAK2). We find that the complex leads to accumulation of PI(4,5)P 2 at the transmembrane helix interface and that mutation of residues identified to interact specifically with PI(4,5)P 2 negatively affects PRLR-mediated activation of signal transducer and activator of transcription 5 (STAT5). Facilitated by co-structure formation, the membrane-proximal disordered region arranges into an extended structure. We suggest that the co-structure formed between PRLR, JAK2 and PI(4,5)P 2 locks the juxtamembrane disordered domain of the PRLR in an extended structure, enabling signal relay from the extracellular to the intracellular domain upon ligand binding. We find that the co-structure exists in different states which we speculate could be relevant for turning signalling on and off. Similar co-structures may be relevant for other non-receptor tyrosine kinases and their receptors.",
+  "abstract_zh": "Class 1细胞因子受体通过单次跨膜螺旋将信号传递至缺乏激酶活性的固有无序细胞质结构域。尽管已有报道称催乳素受体（PRLR）与磷酸肌醇特异性结合，但脂质在PRLR信号传导中的作用尚不清楚。通过结合核磁共振波谱、细胞信号传导实验、计算建模与模拟的综合方法，我们展示了人PRLR的无序胞内结构域、膜组分磷脂酰肌醇-4,5-二磷酸（PI(4,5)P 2 ）以及Janus激酶2（JAK2）的FERM-SH2结构域之间的共结构形成。我们发现该复合物导致PI(4,5)P 2 在跨膜螺旋界面处积累，并且与PI(4,5)P 2 特异性相互作用的残基突变会负面影响PRLR介导的信号转导及转录激活因子5（STAT5）的激活。在共结构形成的促进下，膜近端无序区域排列成延伸结构。我们提出，PRLR、JAK2和PI(4,5)P 2 之间形成的共结构将PRLR的近膜无序结构域锁定在延伸构象中，从而在配体结合时实现从胞外结构域到胞内结构域的信号传递。我们发现该共结构存在于不同状态，推测这些状态可能对信号的开启和关闭具有相关性。类似的共结构可能对其他非受体酪氨酸激酶及其受体也具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.23.517650",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.23.517650",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.23.517650/index.html"
+}

@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that the epigenetic factor RYBP, an intrinsically disordered protein, binds to human importin alpha3 and a truncated form lacking the importin binding domain. A peptide corresponding to the predicted nuclear localization sequence (NLS-RYBP) also binds to both importin species with low micromolar affinity, as measured by fluorescence, circular dichroism, isothermal titration calorimetry, and molecular docking. The authors conclude that the NLS region is responsible for the interaction and that RYBP likely relies on importin for nuclear translocation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical data beyond dissociation constant range
+- **Missing materials affecting confidence** Full experimental protocols, raw binding curves, ITC thermograms, CD spectra, docking scores, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused biophysical study on the interaction between RYBP and importin alpha3, with a plausible conclusion that the predicted NLS mediates binding. However, the evidence as summarized is insufficient to fully establish the mechanistic claims, particularly regarding the role of the NLS in intact RYBP, the specificity of the interaction, and the physiological relevance of the observed binding. Several technical details and controls are not described, limiting the confidence in the conclusions.
+- **Who would be interested in the results, and why** Researchers studying nuclear transport mechanisms, intrinsically disordered proteins, epigenetic regulation, and importin-cargo recognition. The work may also interest those investigating RYBP functions beyond chromatin regulation, given its proposed importin-dependent nuclear translocation.
+- **Major strengths** The study combines multiple biophysical techniques (fluorescence, CD, ITC, docking) to characterize binding, which provides complementary evidence. The inclusion of both full-length importin and a truncated form lacking the IBB domain is a useful design to probe the role of the NLS-binding site. The use of a peptide corresponding to the predicted NLS allows direct testing of the predicted region.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that the NLS region is "essentially responsible for the binding of RYBP to each of the importin species."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports that intact RYBP interacts with importin species but causes protein precipitation, which complicates interpretation. The claim that the NLS is "essentially responsible" is based on peptide binding data, but no direct comparison of binding affinity or stoichiometry between intact RYBP and the NLS peptide is provided. The precipitation of intact RYBP may indicate nonspecific aggregation rather than specific NLS-mediated binding.  
+  - **Why it matters** Without a quantitative comparison or a demonstration that the NLS peptide recapitulates the binding mode of the full-length protein, the conclusion that the NLS is the primary binding determinant is not fully supported. Precipitation could confound the interpretation of the intact protein data.  
+  - **Resolution test** Provide quantitative binding parameters for intact RYBP (e.g., affinity, stoichiometry) under conditions that avoid precipitation, or show that a mutant RYBP lacking the NLS does not bind importin. Alternatively, demonstrate that the NLS peptide competes with intact RYBP for importin binding.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Specificity and controls  
+  - **Claim pointer** The authors state that NLS-RYBP binds to importin alpha3 and DeltaImpalpha3 with low micromolar affinity.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No negative control is described, such as a scrambled NLS peptide or a known non-binding peptide, to demonstrate that the interaction is sequence-specific. The abstract does not mention whether binding was tested against other importin family members or unrelated proteins.  
+  - **Why it matters** Without specificity controls, the observed binding could be due to nonspecific electrostatic interactions, especially given the basic nature of NLS peptides and the presence of acidic patches on importins.  
+  - **Resolution test** Include a control peptide with a similar charge distribution but different sequence, and test binding to an unrelated protein or a different importin isoform.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Physiological relevance  
+  - **Claim pointer** The authors suggest that RYBP "relies on an importin for its nuclear translocation."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no cellular or in vivo evidence for importin-dependent nuclear translocation of RYBP. The binding data are purely in vitro and in silico. The claim of reliance on importin is an extrapolation beyond the presented evidence.  
+  - **Why it matters** Nuclear translocation involves multiple factors, and in vitro binding does not establish functional dependence. Overstating the conclusion could mislead readers about the physiological mechanism.  
+  - **Resolution test** Perform cellular assays, such as importin knockdown or NLS mutation, to show that nuclear localization of RYBP is affected. Alternatively, temper the conclusion to state that the data are consistent with a potential role for importin binding.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Structural interpretation  
+  - **Claim pointer** The molecular simulations predict that NLS-RYBP anchors in the major binding site for NLS of cargo proteins.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The docking results are described only qualitatively. No details on the docking methodology, scoring function, or confidence in the predicted pose are provided. The abstract does not indicate whether the predicted binding mode was validated by mutagenesis or other experiments.  
+  - **Why it matters** Docking predictions can be unreliable without experimental validation. The claim that the NLS binds to the major site is a key structural conclusion that requires stronger support.  
+  - **Resolution test** Provide docking scores, show the predicted complex, and validate key contacts through mutagenesis or hydrogen-deuterium exchange experiments.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of DeltaImpalpha3  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that DeltaImpalpha3 lacks the importin binding domain (IBB), but it is not clear whether this truncation affects the NLS-binding site or other functional regions.  
+  - **Required correction** Clarify the exact residues deleted and whether the NLS-binding pocket remains intact.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Quantitative reporting  
+  - **Affected element** Binding affinity values  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract reports "low micromolar range" for dissociation constants but does not provide specific values or errors.  
+  - **Required correction** Report the actual Kd values with standard deviations and the number of replicates.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Experimental conditions  
+  - **Affected element** Salt concentration experiments  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions experiments with and without NaCl (140 mM) but does not state the rationale or the outcome of these comparisons.  
+  - **Required correction** Briefly explain the purpose of the salt variation and summarize the effect on binding.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Intrinsically disordered protein"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states RYBP is an IDP but also notes a Zn-finger domain that folds upon DNA binding. This is not contradictory, but the description could be more precise.  
+  - **Required correction** Specify that RYBP is largely disordered except for the Zn-finger domain, which folds upon binding.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative comparison between intact RYBP and NLS peptide), R1-M2 (absence of specificity controls), R1-M4 (unvalidated docking predictions). These need to be resolved to support the central claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The study applies known biophysical methods to a specific protein interaction, but the conceptual novelty is limited.  
+  - Scientific importance: Moderate. The findings may inform RYBP nuclear transport, but the physiological relevance is not established.  
+  - Interdisciplinary readership: Limited. The work is primarily of interest to biophysicists and cell biologists studying nuclear transport.  
+  - Technical soundness: Not fully assessable from the abstract. The use of multiple techniques is a strength, but missing controls and quantitative details weaken confidence.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., IBB, IDP) without full explanation.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting preliminary data, but the central claims require additional controls, quantitative comparisons, and validation of the docking predictions. Supportive if these technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that the NLS region is "essentially responsible" for binding is unsupported without direct comparison to intact RYBP binding parameters.
+- The suggestion that RYBP "relies on an importin for its nuclear translocation" is unsupported by the in vitro and in silico data presented.
+- The prediction that NLS-RYBP binds to the major NLS-binding site is unvalidated and should be treated as preliminary.
+- The observation of protein precipitation with intact RYBP raises concerns about the specificity and interpretability of those binding data.

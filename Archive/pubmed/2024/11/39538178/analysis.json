@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39538178",
+  "title": "Myc 9aaTAD activation domain binds to mediator of transcription with superior high affinity.",
+  "authors": "Knight, Andrea; Houser, Josef; Otasevic, Tomas; Juran, Vilem; Vybihal, Vaclav; Smrcka, Martin; Piskacek, Martin",
+  "journal": "Molecular medicine (Cambridge, Mass.)",
+  "published_date": "2024-11-14",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究c-Myc无序N端激活域(9aaTAD/acetyl-TAD)与转录共激活因子KIX的高亲和PPI，并用预测算法识别激活域，但方法以实验为主、AI/物理模拟仅作辅助，机制建模深度有限。",
+  "abstract": "The overexpression of MYC genes is frequently found in many human cancers, including adult and pediatric malignant brain tumors. Targeting MYC genes continues to be challenging due to their undruggable nature. Using our prediction algorithm, the nine-amino-acid activation domain (9aaTAD) has been identified in all four Yamanaka factors, including c-Myc. The predicted activation function was experimentally demonstrated for all these short peptides in transactivation assay. We generated a set of c-Myc constructs (1-108, 69-108 and 98-108) in the N-terminal regions and tested their ability to initiate transcription in one hybrid assay. The presence and absence of 9aaTAD (region 100-108) in the constructs strongly correlated with their activation functions (5-, 3- and 67-times respectively). Surprisingly, we observed co-activation function of the myc region 69-103, called here acetyl-TAD, previously described by Faiola et al. (Mol Cell Biol 25:10220-10234, 2005) and characterized in this study as a new domain collaborating with the 9aaTAD. We discovered strong interactions on a nanomolar scale between the Myc-9aaTAD activation domains and the KIX domain of CBP coactivator. We showed conservation of the 9aaTADs in the MYC family. In summary for the c-Myc oncogene, the acetyl-TAD and the 9aaTAD domains jointly mediated activation function. The c-Myc protein is largely intrinsically disordered and therefore difficult to target with small-molecule inhibitors. For the c-Myc driven tumors, the strong c-Myc interaction with the KIX domain represents a promising druggable target.",
+  "abstract_zh": "MYC基因的过表达在许多人类癌症中频繁出现，包括成人和儿童恶性脑肿瘤。由于MYC基因的不可成药性，靶向MYC基因仍然具有挑战性。利用我们的预测算法，在所有四个山中因子（Yamanaka factors）中，包括c-Myc，均鉴定出了九氨基酸激活域（9aaTAD）。预测的激活功能在反式激活实验中已针对所有这些短肽得到实验验证。我们生成了c-Myc N端区域的一组构建体（1-108、69-108和98-108），并测试了它们在单杂交实验中启动转录的能力。构建体中9aaTAD（区域100-108）的存在与否与其激活功能（分别为5倍、3倍和67倍）强相关。令人惊讶的是，我们观察到myc区域69-103的共激活功能，此处称为乙酰-TAD，该区域先前由Faiola等人（Mol Cell Biol 25:10220-10234, 2005）描述，并在本研究中被表征为与9aaTAD协作的新结构域。我们发现了Myc-9aaTAD激活域与CBP共激活因子KIX域之间的纳摩尔级强相互作用。我们展示了MYC家族中9aaTAD的保守性。总之，对于c-Myc癌基因，乙酰-TAD和9aaTAD结构域共同介导激活功能。c-Myc蛋白大部分为内在无序状态，因此难以用小分子抑制剂靶向。对于c-Myc驱动的肿瘤，c-Myc与KIX域的强相互作用代表了一个有前景的可成药靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39538178/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39538178/",
+  "paper_page_path": "papers/pubmed/39538178/index.html"
+}

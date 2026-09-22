@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full text (abstract only provided)
+- **Assessment boundary** The provided abstract only; no full manuscript, figures, tables, or supplementary materials were supplied
+- **Shared manuscript claim summary** The manuscript argues that the structural bioinformatics literature contains recurring errors in the classification of ultra-rare and isoform-defining APOE variants, and that docking studies of small-molecule inhibitors to apoE are unsupported by experimental evidence and methodologically flawed, risking the obscuring of established genetic knowledge in sporadic Alzheimer's disease
+- **Visible evidence base** Abstract text only; no data, methods, figures, or references were provided
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, methods section, references, and any supplementary information; without these, the specific examples, analyses, and literature citations cited in the abstract cannot be verified
+
+## Reviewer
+- **Overall assessment** The abstract presents a critical perspective on methodological practices in APOE structural bioinformatics, identifying two principal concerns: the misclassification of APOE isoform-defining variants as rare variants, and the unsupported docking of small-molecule inhibitors to apoE. The arguments are plausible and touch on important issues in the field, but the abstract alone provides insufficient evidence to evaluate the rigor, novelty, or accuracy of the claims. The manuscript appears to be a commentary or perspective piece rather than a primary research article, which may be appropriate for the target journal, but the scientific case as presented is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists and bioinformaticians working on apolipoprotein E, researchers in Alzheimer's disease genetics, and methodologists concerned with the rigor of molecular docking and variant interpretation. The manuscript may also interest journal editors and reviewers in the structural bioinformatics community who are concerned with reproducibility and best practices in in-silico modeling.
+- **Major strengths** The abstract identifies a genuine and potentially important problem in the field, namely the conflation of isoform-defining polymorphisms with rare variants in APOE genetics. The critique of docking studies using outdated force fields and incompatible homology models for proteins with intrinsically disordered regions is technically plausible and reflects current methodological concerns. The emphasis on the flexible, two-domain nature of apoE with extensive IDRs is a relevant and often underappreciated point.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that "no experimental evidence supports stable interactions between apoE and small 'inhibitors' such as donepezil or other acetylcholinesterase drugs"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract makes a strong negative claim about the absence of experimental evidence for apoE-small molecule interactions, but provides no citations, no systematic review of the literature, and no description of how this conclusion was reached. Without a comprehensive literature search or specific counter-examples addressed, this claim is unverifiable from the supplied material.
+  - **Why it matters** A claim of absence of evidence is only meaningful if the evidence base has been systematically examined. If the manuscript does not provide such an examination, the claim risks being overstated and may itself be an example of the kind of unsupported assertion the manuscript criticizes.
+  - **Resolution test** The full manuscript should provide a systematic literature review or a clear statement of search criteria, and should address any published studies that report experimental binding data for apoE and small molecules, even if those studies are flawed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological specificity
+  - **Claim pointer** The manuscript claims that docking studies "frequently" use "incompatible homology models and outdated molecular-dynamics force fields ill-suited for proteins with large IDRs (e.g. AMBERff03)"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract asserts that these methodological problems are "frequent" but provides no quantitative or qualitative evidence of how widespread these practices are. No specific examples of published studies are named, no analysis of the frequency of such practices is described, and no criteria for what constitutes an "incompatible" homology model or an "outdated" force field are given.
+  - **Why it matters** The claim of frequency is central to the manuscript's argument that these issues are undermining translational progress. Without evidence of prevalence, the manuscript risks being a collection of anecdotal criticisms rather than a systematic critique.
+  - **Resolution test** The full manuscript should provide specific examples of published studies with these flaws, ideally with a systematic survey or at least a representative set of cases, and should justify the criteria used to classify models and force fields as incompatible or outdated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and contribution
+  - **Claim pointer** The manuscript claims that these issues "risk obscuring the well-established genetic architecture of APOE-associated AD"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not articulate what new insight or contribution the manuscript makes beyond identifying problems. If the manuscript is purely critical, its value depends on the novelty of the critique and the constructiveness of the proposed solutions. The abstract mentions "the need for methodological rigor" but does not specify what specific recommendations are made.
+  - **Why it matters** For a commentary or perspective to be publishable, it must offer something beyond the obvious observation that methods should be rigorous. The manuscript needs to provide specific, actionable recommendations or a novel synthesis of existing knowledge.
+  - **Resolution test** The full manuscript should clearly state its novel contribution, whether that is a new framework for variant classification, specific guidelines for docking studies on IDR-containing proteins, or a systematic demonstration of the scale of the problem.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses the term "inhibitors" in quotes for small molecules docked to apoE, but does not clarify whether the manuscript argues that these molecules cannot be inhibitors in principle, or only that the evidence for inhibition is lacking.
+  - **Required correction** Clarify the distinction between the absence of evidence for inhibition and the theoretical possibility of inhibition, and define the term "inhibitor" in the context of apoE function.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of counterarguments
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not acknowledge that some docking studies may be exploratory or hypothesis-generating rather than claiming biological relevance, and does not address potential counterarguments to the critique.
+  - **Required correction** Add a brief acknowledgment of the potential value of exploratory docking studies and address possible rebuttals to the manuscript's position.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract is dense and covers multiple distinct issues (variant classification, force fields, protonation states, homology models) in a single paragraph, which may reduce readability for nonspecialists.
+  - **Required correction** Consider restructuring the abstract to clearly separate the two main concerns (variant misclassification and docking methodology) and to signpost the argument more clearly.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (absence of evidence claim requires systematic support), R1-M2 (frequency claim requires documentation), R1-M3 (novel contribution must be articulated)
+- **Assessment against Nature-style criteria** Originality: The critique of APOE variant misclassification and docking methodology is not entirely new, but the specific combination of issues and the focus on IDR-related force field limitations may offer a fresh perspective. Scientific importance: The topic is important for the Alzheimer's disease research community, but the abstract does not demonstrate that the problems described are widespread enough to constitute a major impediment to progress. Interdisciplinary readership: The abstract is likely to appeal primarily to structural bioinformaticians and APOE researchers, with limited broader appeal. Technical soundness: The technical criticisms are plausible but cannot be evaluated without the full manuscript and its evidence base. Readability for nonspecialists: The abstract is written for a specialist audience and would be challenging for nonspecialists to follow, particularly the discussion of force fields and protonation states.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract raises potentially valid concerns, but the absence of the full manuscript, specific examples, and systematic evidence prevents a supportive recommendation. The manuscript may be suitable for the target journal as a commentary, but the scientific case must be substantially strengthened with verifiable evidence and a clear articulation of its novel contribution.
+
+## Risk / unsupported claims
+- The claim that "no experimental evidence supports stable interactions between apoE and small 'inhibitors'" is unsupported in the abstract, as no literature review or citations are provided.
+- The claim that problematic docking practices are "frequent" is unsupported, as no survey or examples are given.
+- The claim that these issues "risk obscuring the well-established genetic architecture" is plausible but not demonstrated, as the mechanism by which flawed docking studies would obscure genetic knowledge is not explained.
+- The specific mention of AMBERff03 as an example of an outdated force field is unverifiable without context on why this force field is specifically problematic for apoE.
+- The claim that ligand protonation is "frequently misassigned" is unsupported without specific examples.

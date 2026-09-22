@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusions) without supplementary material
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the main text; supplementary figures and tables referenced but not independently evaluated
+- **Shared manuscript claim summary** The authors report the first application of a suite of complementary EPR techniques (CW, hyperfine, and PELDOR) to count and characterize endogenous metal ion binding sites in native mammalian histidine-rich glycoprotein (HRG), supported by computational structure prediction. They conclude that HRG possesses 10–12 high-affinity CuII binding sites involving histidine coordination, plus additional lower-affinity non-histidine sites, and that the intrinsically disordered PRR1-HRR-PRR2 region adapts structurally with increasing metal loading.
+- **Visible evidence base** Main text figures (Figures 1–5), tables referenced in text (Tables S1–S8 in SI), and cited literature
+- **Missing materials affecting confidence** Supplementary Information (SI) including Figures S1–S19 and Tables S1–S8; experimental methods details; raw EPR data; ITC data; AlphaFold2 prediction details; the speciation model description and simulation parameters
+
+## Reviewer
+- **Overall assessment** This manuscript presents a methodologically ambitious study applying multiple EPR techniques to a challenging biological system. The combination of CW, hyperfine, and PELDOR spectroscopies to interrogate metal binding in a native, structurally uncharacterized protein is novel and potentially valuable. However, the strength of the conclusions is limited by the absence of the SI, which contains critical methodological details, control experiments, and quantitative analyses. The central claims regarding the number and nature of binding sites rest heavily on the speciation model and quantitative ESEEM analysis, neither of which can be fully evaluated from the main text alone. The work is likely of interest to the EPR spectroscopy and metal-binding protein communities, but the broader significance for understanding HRG function in vivo remains speculative.
+- **Who would be interested in the results, and why** Researchers in biological EPR spectroscopy will be interested in the methodological demonstration of combining multiple EPR techniques on a native, multi-site metalloprotein. The metal-binding protein community, particularly those studying histidine-rich proteins and zinc homeostasis, will find the characterization of HRG's metal binding properties relevant. Structural biologists studying intrinsically disordered proteins may also find the approach of using EPR to probe disorder-to-order transitions of interest.
+- **Major strengths** 1) The study addresses a biologically important protein that has resisted high-resolution structural characterization, and the EPR approach is well-suited to this challenge. 2) The combination of multiple complementary EPR techniques (CW, hyperfine, PELDOR) on a single system is technically impressive and represents a methodological advance. 3) The use of CuII as a paramagnetic proxy for ZnII is carefully justified through ITC and functional assays. 4) The integration of computational structure prediction with experimental EPR data provides a more holistic picture than either approach alone.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the first 10–12 CuII ions were bound to nitrogen ligands" and that these are "tentatively assigned to histidine sidechains in the HRG."
+  - **Evidence pointer** Results and Discussion, Figures 3A, 3B, S3–S6; Table S1
+  - **Concern** The assignment of the 10–12 high-affinity binding sites to histidine residues in the HRR is based on SHF resolution in CW EPR and hyperfine spectroscopy. However, the main text does not provide sufficient detail on how the number of coordinating nitrogen atoms was quantified, how the SHF couplings were simulated, or how the assignment to histidine (rather than other nitrogen donors such as backbone amides or Tris buffer) was established. The Tris buffer itself contains nitrogen and could contribute to coordination, as acknowledged in the SI discussion that is not available. Without the quantitative analysis and control experiments in the SI, this central claim cannot be verified.
+  - **Why it matters** The identification of the binding site location and coordination environment is the core finding of the study. If the assignment to histidine residues in the HRR is incorrect or the number of coordinating nitrogens is overestimated, the entire model of HRG metal binding would need revision.
+  - **Resolution test** Provide the SI sections detailing SHF simulation parameters, the quantitative analysis of coordinating nitrogen atoms, and control experiments with buffer-only samples. Show that the number of nitrogen ligands per CuII is consistent across the 1–12 molar equivalent range and that Tris does not contribute significantly to the observed coordination.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the model unambiguously demonstrated that experimental modulation depths could be simulated with 12 high-affinity binding sites (KD ≪ 1.25 × 10–4), while observed plateauing of PDS data could not be satisfactorily described by the model if more high-affinity sites were assumed."
+  - **Evidence pointer** Results and Discussion, Figures 5C, S18–S19; Tables S7–S8
+  - **Concern** The speciation model is central to the conclusion of exactly 12 high-affinity binding sites, yet the model description is entirely relegated to the SI and a manuscript in preparation. The main text provides no information on the model assumptions, the fitting procedure, the error analysis, or the sensitivity of the conclusions to model parameters. The claim that the model "unambiguously" demonstrates 12 sites is strong and requires transparent presentation of the model and its limitations. Furthermore, the KD value given (≪ 1.25 × 10–4) is not a precise determination and does not allow comparison with the ITC-derived affinities.
+  - **Why it matters** The number of high-affinity binding sites is a key quantitative result. If the model is not robust or the conclusion is sensitive to assumptions, the central claim of 10–12 sites would be weakened. The lack of model transparency prevents independent evaluation.
+  - **Resolution test** Provide a full description of the speciation model in the main text or SI, including equations, assumptions, fitting procedures, and error analysis. Show that the conclusion of 12 sites is robust to reasonable variations in model parameters and that the model can be independently implemented by readers.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors hypothesize that "the flexible, unstructured PRR1-HRR-PRR2 region wraps around an HRG–partner complex, with the subsequent binding of metal ions locking this transient structure in place to stabilize the complex."
+  - **Evidence pointer** Results and Discussion, Conclusions
+  - **Concern** This hypothesis is presented without direct experimental evidence. While the EPR data support metal-dependent structural changes in the disordered region, the specific model of wrapping around a partner complex and locking the structure is speculative. No data on HRG-partner complexes or the effect of metal binding on such complexes are presented.
+  - **Why it matters** The functional significance of the metal binding sites is a major motivation for the study. If the proposed mechanism is not supported by evidence, the broader significance of the findings for understanding HRG function is diminished.
+  - **Resolution test** Either temper the hypothesis to be clearly speculative or provide additional experimental data (e.g., binding assays with partner proteins in the presence and absence of metal ions, or structural studies of HRG-partner complexes) to support the proposed mechanism.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the slower relaxing CuII sites dominated the hyperfine spectra in excellent agreement with the relaxation data."
+  - **Evidence pointer** Results and Discussion, Figures 4A–C, 5A; Tables S3–S4
+  - **Concern** The interpretation that the loss of hyperfine features at high CuII loading is due to relaxation effects rather than a change in coordination environment is plausible but not fully established. The authors argue that the disappearance of imidazole-related features at ≥50 molar equivalents indicates that non-histidine sites dominate, but an alternative explanation is that the high-affinity sites are still occupied but their signals are broadened beyond detection. The distinction between these scenarios is important for the interpretation of the data.
+  - **Why it matters** The conclusion that lower-affinity non-histidine sites are occupied at high CuII loading depends on this interpretation. If the high-affinity sites are still occupied but undetectable due to relaxation, the model of sequential site occupation would need revision.
+  - **Resolution test** Provide additional experiments or analyses that distinguish between relaxation-induced signal loss and actual displacement of CuII from histidine sites. For example, variable-temperature measurements or selective excitation schemes could help separate these effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraphs 1–3
+  - **Issue** The introduction assumes familiarity with EPR techniques and their nomenclature. Terms such as "ELDOR-detected NMR," "ESEEM," "HYSCORE," and "PELDOR" are introduced but not explained for readers outside the EPR community.
+  - **Required correction** Provide brief explanations of what each technique measures and what information it provides, or add a short primer on EPR methods for nonspecialist readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Results and Discussion, paragraph on ITC
+  - **Issue** The ITC data are referenced as supporting the EPR findings, but the main text does not report the ITC-derived binding parameters (number of sites, KD values, enthalpy/entropy changes). Only a figure is referenced.
+  - **Required correction** Report the ITC-derived parameters in the main text or in a table, and explicitly compare them with the EPR-derived estimates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions, paragraph 1
+  - **Issue** The statement that HRG acts "like a sponge for CuII" is informal and not well-defined. The quantitative capacity and affinity of HRG for CuII are not clearly summarized.
+  - **Required correction** Replace the informal analogy with a quantitative summary of the binding capacity and affinities determined in this study.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Results and Discussion, paragraph on PELDOR
+  - **Issue** The description of PELDOR modulation depth and its relationship to the number of spins is brief and may be difficult to follow for readers unfamiliar with the technique.
+  - **Required correction** Provide a clearer explanation of how modulation depth relates to spin counting and why this is a robust method for quantifying binding sites.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Results and Discussion, paragraph on structure prediction
+  - **Issue** The computational structure prediction is mentioned as supporting the interpretation, but the specific predictions (e.g., disorder propensity, predicted metal binding sites) are not described in the main text.
+  - **Required correction** Summarize the key predictions from AlphaFold2 and JPred4 that support the interpretation of the EPR data.
+
+## Risk / unsupported claims
+- The claim of "the first application of a combination of complementary CW, pulse dipolar, and hyperfine EPR approaches to count and characterize multiple endogenous metal ion binding sites in a highly complex biological system" is a novelty claim that cannot be fully verified without a comprehensive literature search, though it appears plausible.
+- The assignment of the 10–12 high-affinity binding sites specifically to histidine residues in the HRR is not fully supported in the main text without the SI quantitative analysis.
+- The speciation model's conclusion of exactly 12 high-affinity sites is not independently verifiable from the main text.
+- The hypothesis of the disordered region wrapping around an HRG-partner complex and being locked by metal binding is speculative and not directly supported by experimental evidence.
+- The claim that "the slower relaxing CuII sites dominated the hyperfine spectra" is an interpretation that requires additional supporting evidence to distinguish from alternative explanations.
+- The physiological relevance of the observed CuII binding and the proposed regulatory role in HRG function are extrapolated from in vitro data and remain speculative.

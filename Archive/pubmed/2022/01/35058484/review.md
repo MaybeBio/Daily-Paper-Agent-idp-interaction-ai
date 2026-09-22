@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure/table captions. Supplementary information referenced but not provided.
+- **Assessment boundary** Scientific soundness, logical coherence, methodological rigor, and support of claims by presented data. No assessment of editorial fit or publication venue suitability.
+- **Shared manuscript claim summary** The authors report the rational design of a helical peptide inhibitor (RRR) targeting the c-Myb–KIX interaction. Using AGADIR-based predictions and conservative Lys-to-Arg substitutions on the solvent-exposed face of the Myb32 helix, they report increased helical content, improved KIX-binding affinity (Kd = 80 nM, ~3-fold tighter than wild-type), and effective competitive inhibition of the c-Myb–KIX interaction in an SPR assay.
+- **Visible evidence base** Main-text figures 1–5, Table 1, and methods section. Supplementary figures and tables are referenced but not available for review.
+- **Missing materials affecting confidence** Supplementary Figures 1–6, Supplementary Table 1, raw ITC thermograms, raw SPR sensorgrams, and statistical source data. These are essential for full verification of purity, binding stoichiometry, and curve-fitting quality.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a straightforward and potentially useful application of helix-stabilization principles to peptide inhibitor design. The central hypothesis, that stabilizing the pre-formed helical conformation of a conformationally selecting IDP will enhance binding affinity, is mechanistically reasonable and supported by prior literature. The experimental data are internally consistent and the correlation between helical content and binding affinity is compelling. However, several technical concerns limit the strength of the conclusions as currently presented, particularly regarding the interpretation of the SPR competition data, the lack of direct binding-site verification, and the absence of key supplementary data needed to evaluate data quality.
+- **Who would be interested in the results, and why** Researchers in the fields of peptide therapeutics, protein–protein interaction inhibition, intrinsically disordered proteins, and transcriptional regulation. The work offers a simple design rule (Lys-to-Arg substitutions for helix stabilization) that may be generalizable to other IDP-mediated interactions, and the RRR peptide could serve as a lead for leukemia-related therapeutic development.
+- **Major strengths** The design rationale is clear and mechanistically grounded. The use of AGADIR predictions is well-validated against experimental CD data. The systematic combination of mutations and the correlation analysis between helical content and binding affinity provide strong evidence for the proposed mechanism. The conservative nature of the substitutions (Lys to Arg) strengthens the argument that affinity gains arise from helix stabilization rather than new intermolecular contacts. The SPR competition assay directly demonstrates functional inhibition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the RRR peptide "efficiently competed out the c-Myb–KIX interaction" based on an SPR competition assay where wild-type Myb32 was immobilized on the sensor chip.
+  - **Evidence pointer** Figure 5, SPR competitive binding assay section in Results, Methods section "SPR competitive binding assay"
+  - **Concern** The SPR competition assay design is problematic. The authors immobilized wild-type Myb32 on the chip and injected a mixture of KIX and inhibitor. In this format, the inhibitor (RRR) and the immobilized ligand (wild-type Myb32) are both binding to the same site on KIX, so the assay measures the ability of RRR to compete with immobilized Myb32 for KIX. However, the reported IC50 of 5.6 µM is more than 20-fold higher than the Kd of RRR for KIX (80 nM). This large discrepancy is not adequately explained. If RRR binds KIX with 80 nM affinity, one would expect sub-micromolar IC50 values in a competition assay, unless the assay conditions (e.g., high KIX concentration, mass transport limitations, or avidity effects from immobilized Myb32) substantially shift the apparent potency. The authors should discuss this discrepancy and provide control experiments demonstrating that the assay is operating in a regime where IC50 values are meaningful. Additionally, the use of a four-parameter logistic fit with a variable Hill coefficient without justification is concerning; the Hill coefficient should be reported and its deviation from 1.0 explained.
+  - **Why it matters** The functional claim of inhibition is central to the paper's translational relevance. If the IC50 is not a reliable measure of inhibitory potency, the practical utility of the RRR peptide as an inhibitor is overstated. The quantitative disconnect between binding affinity and functional inhibition also raises questions about the mechanism of competition.
+  - **Resolution test** The authors should provide: (1) raw SPR sensorgrams showing the full kinetic traces, (2) a discussion of the relationship between the measured IC50 and the independently determined Kd values, (3) control experiments with a known competitive inhibitor or a non-binding mutant to validate the assay, and (4) the Hill coefficient values from the fits. Alternatively, a more direct competition assay (e.g., fluorescence polarization or a pull-down with both peptides in solution) would strengthen the functional claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "stabilizing the helical structure based on theoretical predictions, especially by conservative Lys-to-Arg substitutions, is a simple and useful strategy for designing helical peptide inhibitors of protein–protein interactions."
+  - **Evidence pointer** Figure 4b, Results section "Correlation between helical propensity and binding affinity"
+  - **Concern** The correlation analysis between helical content and binding affinity (Figure 4b) includes the E292L mutant, which the authors themselves note has a decreased binding affinity despite increased helical content. The correlation coefficient of -0.72 (p = 0.03) is reported for all data points, but when E292L is excluded, the correlation improves to -0.82 (p = 0.01). This selective exclusion is presented in a way that could be seen as cherry-picking. More importantly, the inclusion of E292L in the full dataset weakens the central claim that helix stabilization is the primary driver of affinity enhancement. The authors should present both correlations transparently and discuss what the E292L outlier implies about the limits of their design strategy. The E292L result suggests that helix stability is not sufficient for high-affinity binding and that specific side-chain interactions also matter, which is an important caveat to the proposed general strategy.
+  - **Why it matters** The paper's central thesis is that helix stabilization is a sufficient design principle for improving binding affinity. The E292L mutant is a direct counterexample that the authors acknowledge but do not fully integrate into their conclusions. A more nuanced discussion would strengthen the paper.
+  - **Resolution test** The authors should provide a more balanced interpretation of the E292L result, including a discussion of why a hydrophobic substitution at a solvent-exposed position might disrupt binding despite increasing helicity. They should also consider whether additional mutants that increase helicity but decrease affinity would further challenge the proposed strategy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The authors report thermodynamic parameters (Kd, N, ΔH, ΔS, ΔG) for all peptide variants in Table 1 and state that "all measurements were performed more than twice, and the means and standard errors are shown."
+  - **Evidence pointer** Table 1, Methods section "ITC measurements"
+  - **Concern** The ITC data are presented only as summary values in Table 1. No representative thermograms or binding isotherms are shown in the main text, and the supplementary figures containing these data are not available for review. Without seeing the raw ITC data, it is impossible to assess the quality of the fits, the appropriateness of the binding model used, or whether the reported stoichiometries (N values ranging from 0.84 to 0.99) are consistent with a simple 1:1 binding model. Additionally, the authors do not report the concentration of the titrant and cell solutions, which is critical for evaluating whether the c-values (a measure of the shape of the binding isotherm) are in an optimal range for reliable Kd determination.
+  - **Why it matters** The Kd values are the primary quantitative output of this study and underpin all subsequent claims about improved affinity. If the ITC data quality is poor or the fitting model is inappropriate, the reported affinities could be unreliable.
+  - **Resolution test** The authors should provide representative ITC thermograms and integrated heat plots for at least the wild-type and RRR peptides, along with the concentrations used and the c-values. If the supplementary figures are available, they should be included in the revised manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1 caption
+  - **Issue** The figure caption describes the binding mechanism but does not clearly indicate whether the figure is a schematic representation or based on experimental data. The color coding (red for N-terminal helix, blue for C-terminal region) is not explained in the caption.
+  - **Required correction** Clarify in the caption that this is a schematic model based on previous studies, and define the color coding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 3b
+  - **Evidence pointer** Figure 3b caption
+  - **Issue** The helix contents are reported as mean ± standard error, but the number of independent replicates is not stated in the caption. The Methods section states that CD spectra were measured three times with 10 scans each, but it is unclear whether the three measurements were on the same sample or independent preparations.
+  - **Required correction** State the number of independent replicates in the figure caption and clarify whether the three measurements were on the same sample or independent preparations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods section "SPR competitive binding assay"
+  - **Evidence pointer** Methods section
+  - **Issue** The methods for the SPR competition assay do not specify the concentration of KIX used, the flow rate for the competition experiments, or the contact and dissociation times. These parameters are essential for reproducing the experiments and for interpreting the IC50 values.
+  - **Required correction** Provide the missing experimental parameters in the Methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The authors suggest that the RRR peptide might be further developed as a therapeutic agent, but they do not address potential off-target effects. Since Lys-to-Arg substitutions increase the positive charge density on the helix surface, the peptide might interact non-specifically with negatively charged molecules such as nucleic acids or glycosaminoglycans.
+  - **Required correction** Add a brief discussion of potential off-target interactions and how they might be mitigated.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (SPR competition assay interpretation) and R1-M2 (correlation analysis with outlier) are the primary technical concerns. The lack of access to supplementary data (R1-M3) also prevents full verification of the reported results.
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of helix stabilization to inhibitor design is not entirely new, but the specific focus on Lys-to-Arg substitutions and the systematic correlation analysis provide a useful contribution. Scientific importance: Moderate. The c-Myb–KIX interaction is a validated therapeutic target, and improved peptide inhibitors have potential clinical relevance. Interdisciplinary readership: Limited. The work is primarily of interest to biophysicists, structural biologists, and peptide chemists. Technical soundness: Adequate but with notable gaps. The biophysical characterization is generally well-executed, but the SPR competition assay has interpretive issues and the correlation analysis is weakened by the E28 outlier. Readability for nonspecialists: Good. The manuscript is clearly written and the logic is easy to follow, though some familiarity with biophysical methods is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding, that conservative Lys-to-Arg substitutions can stabilize helical structure and improve binding affinity, is plausible and supported by the CD and ITC data. However, the functional claim of inhibition requires a more rigorous and interpretable competition assay, and the correlation analysis needs to be presented with appropriate caveats. If these issues are addressed, the manuscript would make a solid contribution to the peptide design literature.
+
+## Risk / unsupported claims
+- The claim that the RRR peptide "efficiently competed out the c-Myb–KIX interaction" is not fully supported by the SPR data as presented, given the large discrepancy between the IC50 (5.6 µM) and the Kd (80 nM).
+- The claim that the design strategy is "simple and useful" is somewhat overstated given that one of the four initial mutants (E292L) increased helicity but decreased affinity, indicating that the strategy is not universally applicable.
+- The statement that the RRR peptide has "higher affinity to KIX than MYBMIM" is made in the Discussion without direct comparative data; this is an inference from literature values and should be clearly labeled as such.
+- The biological relevance of the improved affinity is not demonstrated; no cellular or in vivo experiments are presented to show that the RRR peptide can inhibit c-Myb-dependent transcription or leukemia cell proliferation.

@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "42068045",
+    "doi": "10.1016/j.bpj.2026.04.034",
+    "title": "Cytoskeleton-regulated condensation of integral membrane proteins during cell adhesion."
+  },
+  "content": {
+    "abstract": "Understanding protein condensation and its functional implications has been increasingly recognized as crucial for elucidating physiological functions and pathological disorders as well as for stimulating novel therapeutic strategies. Recent evidence suggests that the cytoskeleton participates in regulating the condensation of cytoplasmic proteins at the cell membrane in the context of adhesion. By contrast, a fundamental question remains of how the cytoskeleton affects the condensation of the integral membrane proteins during cell adhesion and which functional consequences arise from this process. Using both Monte Carlo simulations and mean field theory, we find that the steric hindrance imposed on adhesion proteins and the protrusive forces exerted on the cell membrane by the cytoskeletal networks can cooperatively drive protein condensation and facilitate phase separation in the cell adhesion system even in the absence of active cytoskeletal transport processes. Meanwhile, our results show that the overall intercellular receptor-ligand interaction can be either enhanced or suppressed during protein condensation, depending sensitively on the interplay between cytoskeleton-protein and cytoskeleton-membrane interactions. Our findings advance our understanding regarding the role of the cytoskeleton in protein condensation and the resulting functional implications.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Cell Adhesion",
+      "*Cytoskeleton/metabolism",
+      "*Membrane Proteins/metabolism/chemistry",
+      "Monte Carlo Method",
+      "Cell Membrane/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Long",
+        "Li, Junai",
+        "Li, Zhenyuan",
+        "Luo, Meiying",
+        "Du, Ruotian",
+        "Shao, Yingfeng",
+        "Li, Yan",
+        "Hu, Jinglei",
+        "Song, Fan"
+      ],
+      "short_names": [
+        "Li L",
+        "Li J",
+        "Li Z",
+        "Luo M",
+        "Du R",
+        "Shao Y",
+        "Li Y",
+        "Hu J",
+        "Song F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China.",
+        "Kuang Yaming Honors School, Nanjing University, Nanjing, China.",
+        "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China; School of Engineering Science, University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China; School of Engineering Science, University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China; School of Engineering Science, University of Chinese Academy of Sciences, Beijing, China.",
+        "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China. Electronic address: liyan@imech.ac.cn.",
+        "Kuang Yaming Honors School, Nanjing University, Nanjing, China. Electronic address: hujinglei@nju.edu.cn.",
+        "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China; School of Engineering Science, University of Chinese Academy of Sciences, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Long",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junai",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "Kuang Yaming Honors School, Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhenyuan",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China; School of Engineering Science, University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Meiying",
+        "short_name": "Luo M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Du, Ruotian",
+        "short_name": "Du R",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China; School of Engineering Science, University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Shao, Yingfeng",
+        "short_name": "Shao Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China; School of Engineering Science, University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China. Electronic address: liyan@imech.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Hu, Jinglei",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "Kuang Yaming Honors School, Nanjing University, Nanjing, China. Electronic address: hujinglei@nju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Song, Fan",
+        "short_name": "Song F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China; School of Engineering Science, University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Jun 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/02 06:33",
+    "fetched_at": "2026-09-18 02:54:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42068045",
+      "42475469",
+      "23912807",
+      "26583681",
+      "30912540",
+      "39025578",
+      "8171051",
+      "23897686",
+      "25658348",
+      "21343695",
+      "39742662",
+      "12370193",
+      "31858798",
+      "36690162",
+      "9330869",
+      "10809375",
+      "23899502",
+      "11071040",
+      "11306546",
+      "15498789",
+      "1566818",
+      "8408194",
+      "26723621",
+      "19709882",
+      "23030960",
+      "8609175",
+      "1429910",
+      "11598641",
+      "10660045",
+      "2153683",
+      "28825081",
+      "28887403",
+      "19391982",
+      "10919716",
+      "12154370",
+      "33918167",
+      "24706359",
+      "9060475",
+      "30934309",
+      "14645099",
+      "7930961",
+      "20217454",
+      "24018870",
+      "8824451",
+      "32932634",
+      "17296299",
+      "27078394",
+      "14685822",
+      "22193159",
+      "11891121",
+      "22559174",
+      "33440717",
+      "26083919",
+      "9298994",
+      "19786618",
+      "15316066",
+      "33478069",
+      "27384440",
+      "11418640",
+      "21190659",
+      "23732235",
+      "16090004",
+      "7958622",
+      "15454569",
+      "11034897",
+      "23747363",
+      "26555866",
+      "8791403",
+      "15180824",
+      "31561242",
+      "16689643",
+      "24104540",
+      "1374069",
+      "7538138",
+      "31662069",
+      "34634933",
+      "40862724",
+      "27845936",
+      "11707527",
+      "1665428",
+      "30395154",
+      "39939306",
+      "33652934",
+      "12925712",
+      "11493668",
+      "39960300",
+      "15456900",
+      "15194420",
+      "11728102",
+      "23640939",
+      "12499357",
+      "573666",
+      "6686724",
+      "19262147",
+      "7592985",
+      "22470191",
+      "16456710",
+      "25824971",
+      "14722085",
+      "19118684"
+    ],
+    "review": [
+      "42068045",
+      "8171051",
+      "23897686",
+      "21343695",
+      "36690162",
+      "9330869",
+      "10809375",
+      "23899502",
+      "11071040",
+      "11306546",
+      "19709882",
+      "28887403",
+      "12154370",
+      "8824451",
+      "32932634",
+      "17296299",
+      "22193159",
+      "11891121",
+      "23732235",
+      "7958622",
+      "11034897",
+      "23747363",
+      "8791403",
+      "15180824",
+      "16689643",
+      "1665428",
+      "15194420",
+      "11728102",
+      "23640939",
+      "22470191",
+      "16456710"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(26)00320-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

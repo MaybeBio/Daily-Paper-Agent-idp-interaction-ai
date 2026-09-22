@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.16.541900",
+  "title": "CC + : A Searchable Database of Validated Coiled coils in PDB Structures and AlphaFold2 Models",
+  "authors": "Kumar P; Petrenas R; Dawson WM; Schweke H; Levy ED; Woolfson DN",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-17",
+  "window": {
+    "start": "2023-06-12",
+    "end": "2023-06-18"
+  },
+  "score": 4,
+  "one_liner_zh": "该文构建了卷曲螺旋结构数据库CC+，包含实验结构和AlphaFold2预测模型，但对象为折叠蛋白的卷曲螺旋而非无序蛋白/IDR，且无PPI机制建模或AI/物理模拟方法贡献，仅作为结构数据资源对无序蛋白互作研究启发有限。",
+  "abstract": "<h4>ABSTRACT</h4> α-Helical coiled coils are common tertiary and quaternary elements of protein structure. In coiled coils, two or more α helices wrapped around each other to form bundles. This apparently simple structural motif can generate many architectures and topologies. Understanding the variety of and limits on coiled-coil assemblies and their sequence-to-structure relationships impacts on protein structure, design, and engineering. Coiled coil-forming sequences can be predicted from heptad repeats of hydrophobic and polar residues, hpphppp , although this is not always reliable. Alternatively, coiled-coil structures can be identified using the program SOCKET, which finds knobs-into-holes (KIH) packing between side chains of neighboring helices. SOCKET also classifies coiled-coil architecture and topology, thus allowing sequence-to-structure relationships to be garnered. In 2009, we used SOCKET to create a relational database of coiled-coil structures, CC + , from the RCSB Protein Data Bank (PDB). Here we report an update of CC + following the recent explosion of structural data and the success of AlphaFold2 in predicting protein structures from genome sequences. With the most-stringent SOCKET parameters, CC + contains ≈12,000 coiled-coil assemblies from experimentally determined structures, and ≈120,000 potential coiled-coil structures within single-chain models predicted by AlphaFold2 across 48 proteomes. CC + allows these and other less-stringently defined coiled coils to be searched at various levels of structure, sequence, and side-chain interactions. The identified coiled coils can be viewed directly from CC + using the Socket2 application, and their associated data can be downloaded for further analyses. CC + is available freely at http://coiledcoils.chm.bris.ac.uk/CCPlus/Home.html . It will be regularly updated automatically. <h4>FOR THE BROADER AUDIENCE</h4> Protein assemblies and protein-protein interactions are key to all biological processes. α-Helical coiled coils are one of the most common modes of directing and stabilising these interfaces. Here, we report an updated CC + database of structurally validated coiled coils from experimental protein structures and AlphaFold2 models. CC + contains many thousands of coiled-coil structures and models, associated parameters, and sequences. It enables the compilation of rich datasets for advancing protein structure, design, and engineering research.",
+  "abstract_zh": "<h4>摘要</h4> α-螺旋卷曲螺旋（α-helical coiled coils）是蛋白质结构中常见的三级和四级结构元件。在卷曲螺旋中，两条或多条α螺旋相互缠绕形成束状结构。这一看似简单的结构基序能够产生多种架构和拓扑结构。理解卷曲螺旋组装的多样性及其限制，以及其序列到结构的关系，对蛋白质结构、设计和工程具有重要意义。卷曲螺旋形成序列可以通过疏水和极性残基的七肽重复序列（hpphppp）进行预测，尽管这种方法并非总是可靠。或者，可以使用SOCKET程序识别卷曲螺旋结构，该程序通过寻找相邻螺旋侧链之间的“旋钮-孔洞”（knobs-into-holes, KIH）堆积方式来鉴定。SOCKET还能对卷曲螺旋的架构和拓扑进行分类，从而有助于获取序列到结构的关系。2009年，我们利用SOCKET从RCSB蛋白质数据银行（Protein Data Bank, PDB）创建了卷曲螺旋结构的关联数据库CC+。在此，我们报告了CC+的更新版本，该更新基于近期结构数据的激增以及AlphaFold2在从基因组序列预测蛋白质结构方面的成功。采用最严格的SOCKET参数，CC+包含约12,000个来自实验测定结构的卷曲螺旋组装体，以及约120,000个由AlphaFold2跨48个蛋白质组预测的单链模型中的潜在卷曲螺旋结构。CC+允许在结构、序列和侧链相互作用的不同层面上搜索这些及其他定义较为宽松的卷曲螺旋。识别出的卷曲螺旋可通过Socket2应用程序直接从CC+中查看，其相关数据可下载以供进一步分析。CC+可在http://coiledcoils.chm.bris.ac.uk/CCPlus/Home.html免费获取，并将定期自动更新。\n\n<h4>面向更广泛读者</h4> 蛋白质组装和蛋白质-蛋白质相互作用是所有生物过程的关键。α-螺旋卷曲螺旋是引导和稳定这些界面最常用的模式之一。在此，我们报告了更新后的CC+数据库，该数据库包含来自实验蛋白质结构和AlphaFold2模型的结构验证卷曲螺旋。CC+包含数千个卷曲螺旋结构和模型、相关参数及序列，能够为推进蛋白质结构、设计和工程研究提供丰富数据集的汇编。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.16.541900",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.16.541900",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.16.541900/index.html"
+}

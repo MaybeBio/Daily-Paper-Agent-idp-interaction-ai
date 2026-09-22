@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39225536",
+  "title": "Direct computations of viscoelastic moduli of biomolecular condensates.",
+  "authors": "Cohen, Samuel R; Banerjee, Priya R; Pappu, Rohit V",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2024-09-03",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用广义Rouse模型结合蒙特卡洛模拟计算生物分子凝聚体的粘弹模量，虽聚焦相分离凝聚体而非直接PPI，但为无序蛋白凝聚体互作网络的动态机制建模提供了可迁移的物理模拟方法。",
+  "abstract": "Biomolecular condensates are viscoelastic materials defined by time-dependent, sequence-specific complex shear moduli. Here, we show that viscoelastic moduli can be computed directly using a generalization of the Rouse model that leverages information regarding intra- and inter-chain contacts, which we extract from equilibrium configurations of lattice-based Metropolis Monte Carlo (MMC) simulations of phase separation. The key ingredient of the generalized Rouse model is a graph Laplacian that we compute from equilibrium MMC simulations. We compute two flavors of graph Laplacians, one based on a single-chain graph that accounts only for intra-chain contacts, and the other referred to as a collective graph that accounts for inter-chain interactions. Calculations based on the single-chain graph systematically overestimate the storage and loss moduli, whereas calculations based on the collective graph reproduce the measured moduli with greater fidelity. However, in the long time, low-frequency domain, a mixture of the two graphs proves to be most accurate. In line with the theory of Rouse and contrary to recent assertions, we find that a continuous distribution of relaxation times exists in condensates. The single crossover frequency between dominantly elastic vs dominantly viscous behaviors does not imply a single relaxation time. Instead, it is influenced by the totality of the relaxation modes. Hence, our analysis affirms that viscoelastic fluid-like condensates are best described as generalized Maxwell fluids. Finally, we show that the complex shear moduli can be used to solve an inverse problem to obtain the relaxation time spectra that underlie the dynamics within condensates. This is of practical importance given advancements in passive and active microrheology measurements of condensate viscoelasticity.",
+  "abstract_zh": "生物分子凝聚体是粘弹性材料，其特征由时间依赖、序列特异性的复数剪切模量定义。在此，我们展示粘弹性模量可通过Rouse模型的推广直接计算，该推广利用链内和链间接触的信息，这些信息我们从基于格点的Metropolis Monte Carlo (MMC) 相分离模拟的平衡构型中提取。广义Rouse模型的关键要素是一个图拉普拉斯算子，我们从平衡MMC模拟中计算得到。我们计算了两种类型的图拉普拉斯算子：一种基于单链图，仅考虑链内接触；另一种称为集体图，考虑链间相互作用。基于单链图的计算系统性地高估了储能模量和损耗模量，而基于集体图的计算则更忠实地再现了测量到的模量。然而，在长时间、低频域中，两种图的混合被证明最为准确。与Rouse理论一致，且与近期论断相反，我们发现凝聚体中存在连续的松弛时间分布。主导弹性与主导粘性行为之间的单一交叉频率并不暗示单一的松弛时间，而是受所有松弛模式的总和影响。因此，我们的分析确认，粘弹性流体状凝聚体最好被描述为广义Maxwell流体。最后，我们展示复数剪切模量可用于求解逆问题，以获得凝聚体内部动力学基础的松弛时间谱。鉴于凝聚体粘弹性的被动和主动微流变测量进展，这具有实际重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39225536/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39225536/",
+  "paper_page_path": "papers/pubmed/39225536/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34436734",
+  "title": "The (1)H, (15)N and (13)C resonance assignments of the C-terminal domain of Serpine mRNA binding protein 1 (SERBP1).",
+  "authors": "Baudin, Antoine; Xu, Xiaoping; Libich, David S",
+  "journal": "Biomolecular NMR assignments",
+  "published_date": "2021-08-27",
+  "window": {
+    "start": "2021-08-23",
+    "end": "2021-08-29"
+  },
+  "score": 5,
+  "one_liner_zh": "该文报道了无序蛋白SERBP1 C端结构域的NMR共振归属和二级结构预测，虽以IDP为对象并涉及未来互作机制研究，但当前仅描述单蛋白结构特征，无PPI或AI/物理模拟方法，故为中档。",
+  "abstract": "SERBP1 is a multifunctional mRNA-binding protein that has been shown to play a regulatory role in a number of biological processes such as thrombosis, DNA damage repair, and the cellular response to nutrient deprivation. Additionally, SERBP1 is upregulated in glioblastoma, leukemia as well as liver, prostrate and ovarian cancers where it has been implicated in metastatic disease and poor patient outcomes. SERBP1 binds target mRNA, stabilizing and regulating the post-translational expression of the transcript. Since SERBP1 lacks canonical RNA-binding motifs such as RRM domains or zinc fingers, its target recognition and binding mechanisms are not well understood. Recent reports suggest that it is capable of recognizing both RNA sequence motifs and structured domains. Here we report the production and purification of the intrinsically disordered C-terminal domain of SERBP1, the assignment of the (1)H, (13)C, (15)N backbone resonances of the protein by solution-state NMR, and secondary structure predictions. We show that the protein is not entirely disordered and identify an alpha-helix that was stable under the experimental conditions. This work is the first step toward understanding the structural basis underpinning the molecular mechanisms of SERBP1 functions, particularly interactions with mRNA targets.",
+  "abstract_zh": "SERBP1是一种多功能mRNA结合蛋白，已被证明在血栓形成、DNA损伤修复以及细胞对营养剥夺的响应等多种生物过程中发挥调控作用。此外，SERBP1在胶质母细胞瘤、白血病以及肝癌、前列腺癌和卵巢癌中表达上调，并与转移性疾病和患者不良预后相关。SERBP1结合靶标mRNA，稳定并调控转录本翻译后表达。由于SERBP1缺乏典型的RNA结合基序，如RRM结构域或锌指结构，其靶标识别和结合机制尚不完全清楚。近期报道表明，它能够识别RNA序列基序和结构化结构域。在此，我们报告了SERBP1内在无序C端结构域的生产和纯化，通过溶液态NMR对蛋白质的(1)H、(13)C、(15)N骨架共振进行了归属，并进行了二级结构预测。我们表明该蛋白质并非完全无序，并鉴定出一个在实验条件下稳定的α-螺旋。这项工作是为理解SERBP1功能分子机制（特别是与mRNA靶标的相互作用）所依据的结构基础迈出的第一步。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34436734/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34436734/",
+  "paper_page_path": "papers/pubmed/34436734/index.html"
+}

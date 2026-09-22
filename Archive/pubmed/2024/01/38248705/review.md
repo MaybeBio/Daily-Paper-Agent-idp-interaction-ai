@@ -1,0 +1,110 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and internal consistency of the claims as presented in the provided text
+- **Shared manuscript claim summary** The authors investigate the adsorption of myelin basic protein (MBP) to zwitterionic phosphatidylcholine (DPC) lipid bilayers in gel versus fluid phase, using DSC, UV-Vis, CD, FTIR, and MD simulations. They report phase-dependent changes in MBP secondary structure (increased β-sheet at 50 °C), involvement of lysine residues in adsorption, and propose that MBP orientation relative to the bilayer is critical for binding.
+- **Visible evidence base** DSC thermograms, temperature-dependent UV-Vis spectra with MCA, CD spectra at 20/50 °C, FTIR spectra across multiple regions, MD simulation analyses (contacts, HBs, SBs, PCA, order parameters), DLS and confocal microscopy data (referenced as Supporting Information)
+- **Missing materials affecting confidence** Supporting Information (Figures S1–S10, Tables S1–S2) not provided; raw spectra not available; MD simulation convergence and reproducibility details not fully described; no error bars or statistical analysis for spectroscopic data; no replicate numbers for MD simulations
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and under-characterized aspect of MBP-lipid interactions, namely the role of lipid phase in MBP adsorption to zwitterionic PC bilayers. The combination of experimental and computational approaches is commendable. However, the evidence presented does not fully support several key claims, particularly regarding the molecular mechanism of phase-dependent adsorption and the proposed secondary structure changes. The manuscript would benefit from more rigorous quantitative analysis, clearer presentation of spectral assignments, and stronger integration between experimental and computational results.
+- **Who would be interested in the results, and why** Researchers studying myelin biology, protein-lipid interactions, intrinsically disordered proteins, and membrane biophysics. The findings may also be relevant to those investigating the molecular basis of demyelinating diseases such as multiple sclerosis, where MBP-membrane interactions are central.
+- **Major strengths** 1) The study addresses a genuine gap in the literature regarding MBP interactions with zwitterionic lipids. 2) The multi-technique approach (thermotropic, spectroscopic, computational) provides complementary perspectives. 3) The authors are appropriately cautious in some interpretations, acknowledging limitations of IDP modeling and spectral overlap. 4) The MD simulations include two orientations and two temperatures, allowing for phase-dependent comparison.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "FTIR spectra unraveled the significant contribution of lysine (Lys) residues in the adsorption pattern, especially when DPPC is in the fluid (50 °C) phase"
+  - **Evidence pointer** Section 4.2.2, Figure 3c
+  - **Concern** The assignment of the spectral changes in the 1490–1430 cm⁻¹ region to lysine δNH₃⁺ bending is not sufficiently justified. The region also contains contributions from lipid CH₂ scissoring and other protein vibrations. The authors note that the band in the mixture appears at lower frequencies than expected from superposition of individual components, but no quantitative analysis (e.g., spectral fitting, difference spectra, or isotope labeling) is provided to support the specific assignment to lysine residues.
+  - **Why it matters** The lysine involvement is a central claim of the paper, highlighted in the abstract and conclusions. Without robust spectral evidence, this claim is not established.
+  - **Resolution test** Provide difference spectra (MBP+DPPC minus DPPC) with clear band assignments, or use site-specific labeling (e.g., ¹³C-labeled lysine) or mutagenesis to confirm the assignment. Alternatively, present quantitative spectral fitting results with residuals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation validity
+  - **Claim pointer** "the presence of DPPC in Lα phase (50 °C) causes a significant increase in ordered structures, in particular in β-sheets"
+  - **Evidence pointer** Section 4.2.2, Figure 3b
+  - **Concern** The conclusion of increased β-sheet content is based on narrowing of the Amide I band on the low-frequency side and intensity changes in Amide II. However, the Amide I region is heavily overlapped with the water bending mode and lipid carbonyl stretching. The authors did not perform any deconvolution or secondary structure estimation (e.g., using Fourier self-deconvolution or curve fitting). The claim of "significant increase" is not supported by quantitative analysis.
+  - **Why it matters** The secondary structure change is a key mechanistic claim linking lipid phase to MBP conformational adaptation. Without quantitative secondary structure analysis, the conclusion is speculative.
+  - **Resolution test** Perform Amide I band deconvolution with established methods (e.g., Gaussian/Lorentzian fitting) and estimate secondary structure fractions. Provide statistical comparison between conditions. Alternatively, use a complementary technique such as circular dichroism with appropriate fitting algorithms.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** "MD data suggest the crucial importance of the orientation of MBP with respect to the surface of the DPPC lipid bilayer"
+  - **Evidence pointer** Section 4.2.3, Figures 4–6, Tables S1–S2
+  - **Concern** The MD simulations are only 200 ns in length, which is short for a protein of this size (18.5 kDa) and for assessing membrane binding. The authors acknowledge this limitation but still draw conclusions about orientation-dependent binding. Additionally, only two initial orientations were tested, which is insufficient to claim that orientation is "crucial" without sampling a broader conformational space. The analysis of which residues interact is based on a single trajectory per condition.
+  - **Why it matters** The orientation claim is presented as a major finding, but the sampling is too limited to support such a strong conclusion. The biological relevance of the two chosen orientations is not justified.
+  - **Resolution test** Extend simulations to at least 1 μs per condition, run multiple replicates (at least 3) with different initial velocities, and test additional initial orientations. Provide convergence analysis and free energy calculations (e.g., umbrella sampling or metadynamics) to quantify orientation preference.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data interpretation
+  - **Claim pointer** "the increase in Tp by about 1 °C and the unchanged Tm of DPPC in the presence of MBP suggest... the presence of MBP indirectly strengthens the lateral interactions between lipids"
+  - **Evidence pointer** Section 4.1, Table 1
+  - **Concern** The interpretation of a 1 °C shift in Tp as evidence for strengthened lateral interactions is not well supported. The shift is small and within the range of sample-to-sample variability. Moreover, the authors do not discuss alternative explanations, such as changes in hydration, vesicle aggregation, or the possibility that the effect is due to MBP-induced aggregation rather than direct lipid interaction.
+  - **Why it matters** The thermotropic data are used to support the claim of adsorption, but the interpretation is not unique. Overinterpretation of small shifts weakens the overall argument.
+  - **Resolution test** Provide replicate measurements with error analysis and statistical significance testing. Discuss alternative interpretations. Consider using a more sensitive technique such as lamellar X-ray diffraction to assess bilayer perturbations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, DSC analysis
+  - **Evidence pointer** Section 2.2
+  - **Issue** The DSC analysis uses data from a previous study for pure DPPC, but the conditions (buffer, concentration, scan rate) may not match the current experiments.
+  - **Required correction** Specify the source and conditions of the DPPC DSC data, or remeasure under identical conditions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.5, FTIR methods
+  - **Evidence pointer** Section 2.5
+  - **Issue** The number of independent measurements is stated as "at least two" for FTIR, which is low for quantitative spectral comparisons.
+  - **Required correction** Provide the exact number of replicates and report variability (e.g., standard deviation) for key spectral features.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3, MD simulations
+  - **Evidence pointer** Section 3
+  - **Issue** The protonation state of MBP at pH 7 is stated, but the specific residues titrated and the method used (e.g., PROPKA, PDB2PQR) are not described.
+  - **Required correction** Provide details of the protonation assignment procedure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 4.2.1, CD spectra
+  - **Evidence pointer** Figure 2
+  - **Issue** The CD spectra are described as characteristic of IDPs, but no quantitative analysis (e.g., using BeStSel or CDSSTR) is provided to support this or to detect subtle changes upon DPPC binding.
+  - **Required correction** Perform secondary structure estimation from CD data or explicitly state why this is not feasible.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 4.2.3, MD analysis
+  - **Evidence pointer** Figure 5
+  - **Issue** The number of HBs and SBs is reported as averages, but the standard deviation or error bars are not shown.
+  - **Required correction** Add error bars or confidence intervals to the plots.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Section 4.2.3
+  - **Issue** The term "adsorption" is used throughout, but the authors do not distinguish between surface adsorption and partial insertion. Given the MD data suggesting interactions with phosphate groups, the term "binding" or "association" may be more appropriate.
+  - **Required correction** Clarify the terminology and define what is meant by adsorption in this context.
+
+## Risk / unsupported claims
+- The claim of lysine involvement in adsorption is not quantitatively supported by the FTIR data (R1-M1).
+- The claim of increased β-sheet content at 50 °C is not supported by quantitative secondary structure analysis (R1-M2).
+- The claim that MBP orientation is "crucial" for adsorption is based on limited sampling in MD simulations (R1-M3).
+- The interpretation of the 1 °C Tp shift as evidence for strengthened lateral lipid interactions is not uniquely supported (R1-M4).
+- The statement that MBP "remains almost entirely at the lipid/water interface" when adsorbed on PC bilayers is cited from prior work but not directly tested here.
+- The claim that the observed effects resemble those in antimicrobial and cell-penetrating peptides is speculative and not supported by direct comparison.
+- The origin of the MBP thermal event (Tx) is acknowledged as unclear, and the discrepancy between DSC and UV-Vis values is not resolved.
+
+## Assessment against Nature-style criteria
+- **Originality** Moderate. The study addresses a specific gap (MBP-PC interactions as a function of lipid phase) but builds on a substantial body of prior work on MBP-membrane interactions. The combination of techniques is not novel per se, but the specific focus on phase-dependent behavior of MBP on zwitterionic bilayers adds some originality.
+- **Scientific importance** Moderate. The findings are of interest to the myelin biology and protein-lipid interaction communities, but the significance is limited by the lack of quantitative rigor in key claims. The study does not resolve a major controversy or open a fundamentally new direction.
+- **Interdisciplinary readership** Moderate. The work spans biophysics, biochemistry, and computational biology, and could appeal to readers across these fields. However, the technical depth in each area may limit accessibility to a broader audience.
+- **Technical soundness** Weak to moderate. The experimental methods are generally appropriate, but the analysis and interpretation have significant gaps (see Major Concerns). The MD simulations are too short and under-sampled to support the strong claims made. The lack of statistical analysis throughout is a notable weakness.
+- **Readability for nonspecialists** Moderate. The manuscript is generally well-written, but the results section is dense and assumes familiarity with FTIR spectral interpretation and MD simulation analysis. The abstract is accessible, but the body would be challenging for nonspecialists.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript addresses an interesting question and has a reasonable experimental design, but the key claims regarding lysine involvement, β-sheet increase, and orientation-dependent binding are not sufficiently supported by the presented data. The authors need to provide quantitative spectral analysis, more extensive MD sampling, and statistical rigor before the case is established.

@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors propose that the yeast RNA-binding protein Pin4 coordinates post-transcriptional and transcriptional responses to energy depletion. In glucose-replete conditions, Pin4 binds mRNA 3' UTRs with a specific motif preference, targeting mRNAs involved in glycolysis, amino acid, and mitochondrial metabolism. Upon glucose withdrawal, Pin4-RNA binding is reduced and shifts toward translation-associated transcripts. Loss of Pin4 impairs recovery from nutrient starvation and confers hypersensitivity to oxidative stress. RNAseq and reporter assays suggest that Pin4 loss increases target mRNA abundance. Unexpectedly, the diauxic shift transcriptional response is almost entirely abolished in cells lacking Pin4, its prion-like domain, its RNA-recognition motif, or carrying an RRM point mutation. The authors postulate that Pin4 links post-transcriptional and transcriptional responses to energy stress via riboregulation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were supplied
+- **Missing materials affecting confidence** Full manuscript, methods details, all figures and tables, statistical analyses, strain construction details, RNAseq data processing and quality metrics, reCRAC data processing and motif identification procedures, and any validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and novel role for Pin4 in coordinating RNA-binding and transcriptional responses to energy depletion in yeast. The central claim that Pin4 acts as a riboregulator linking post-transcriptional and transcriptional programs is intriguing and could be of broad interest to the RNA biology and cellular stress response communities. However, the evidence as summarized is insufficient to establish the mechanistic model proposed. Several key claims are presented without quantitative support, and the causal relationship between Pin4's RNA-binding activity and the observed transcriptional changes remains unclear. The abstract also contains an apparent logical tension between the modest changes in target mRNA abundance and the near-complete abolition of the diauxic transcriptional response, which is not resolved in the provided text.
+- **Who would be interested in the results, and why** Researchers studying RNA-binding proteins, post-transcriptional regulation, cellular stress responses, metabolic adaptation, and prion-like domain function in yeast. The potential link between a single RBP and global transcriptional reprogramming during nutrient stress would also interest those working on gene regulatory networks and systems biology of stress adaptation.
+- **Major strengths** The study addresses a largely uncharacterized RBP and proposes a novel integrative role for Pin4. The combination of transcriptome-wide binding data (reCRAC), phenotypic analysis, and transcriptional profiling is appropriate for the question. The inclusion of domain-specific and point mutant analyses is a rigorous approach to dissect functional requirements. The finding that Pin4 loss abolishes the diauxic transcriptional response is striking and potentially significant.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for causal mechanism
+  - **Claim pointer** "Pin4 helps coordinate post-transcriptional and transcriptional responses to energy stress, via riboregulation"
+  - **Evidence pointer** Abstract, final sentence; no specific figure or table referenced
+  - **Concern** The central mechanistic claim that Pin4 coordinates transcriptional responses via riboregulation is not supported by the evidence summarized. The abstract reports that loss of Pin4 correlates with "some increases in target mRNA abundance" but also that the diauxic transcriptional response is "almost entirely abolished" in Pin4-deficient cells. These two observations are not obviously consistent with a simple model where Pin4 represses target mRNAs, and no direct evidence is presented that Pin4's RNA-binding activity is required for the transcriptional effects. The RRM point mutation abolishing the diauxic response is suggestive but does not establish that RNA binding per se is the causative link.
+  - **Why it matters** The proposed model is the central novelty of the study. Without direct evidence that Pin4's RNA-binding function is mechanistically required for the transcriptional reprogramming, the claim of "coordination" remains speculative. The abstract does not provide data showing that the transcriptional changes are downstream of Pin4's mRNA targets or that the binding shift upon glucose withdrawal is functionally relevant.
+  - **Resolution test** Provide experiments showing that the RRM point mutation specifically disrupts the relevant RNA-binding events and that this disruption phenocopies the transcriptional defect. Alternatively, show that overexpression of a Pin4 target mRNA can partially rescue the transcriptional phenotype, or that the transcriptional changes are dependent on the mRNA targets identified by reCRAC.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for binding and phenotypic claims
+  - **Claim pointer** "In glucose conditions Pin4 binds mRNA 3' UTRs with preference for a specific motif" and "Cells lacking Pin4 were greatly impaired in recovery from nutrient starvation and hypersensitive to oxidative stress"
+  - **Evidence pointer** Abstract, no specific figures or tables referenced
+  - **Concern** The abstract provides no quantitative measures for the binding preference, the reduction in binding upon glucose withdrawal, or the phenotypic defects. Terms such as "greatly reduced," "greatly impaired," and "hypersensitive" are not accompanied by effect sizes, statistical significance, or comparison to appropriate controls. Without these, the strength and reproducibility of the key observations cannot be assessed.
+  - **Why it matters** The phenotypic consequences and the binding dynamics are foundational to the proposed model. If the binding reduction is modest or the phenotypes are weak, the biological significance of Pin4's role would be diminished. Quantitative rigor is essential for a claim of this scope.
+  - **Resolution test** Provide effect sizes with confidence intervals and p-values for binding changes and phenotypic assays. Include dose-response or time-course data for the starvation recovery and oxidative stress sensitivity to demonstrate the magnitude of the defects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Internal consistency of transcriptional claims
+  - **Claim pointer** "loss of Pin4 correlated with some increases in target mRNA abundance" and "this response was almost entirely abolished in cells lacking Pin4"
+  - **Evidence pointer** Abstract, RNAseq and reporter assays; no specific figures or tables referenced
+  - **Concern** The abstract reports that Pin4 loss leads to only "some increases" in target mRNA abundance, yet the diauxic transcriptional response is "almost entirely abolished." These two statements are difficult to reconcile. If Pin4 loss has only modest effects on target mRNAs, how does it nearly eliminate a genome-wide transcriptional program? The abstract does not explain whether the transcriptional response is dependent on the target mRNAs or whether Pin4 acts through a separate mechanism.
+  - **Why it matters** The inconsistency undermines the coherence of the proposed model. A reader cannot determine whether the transcriptional effect is a direct consequence of Pin4's RNA-binding activity or an indirect effect of cellular stress or growth defects. This ambiguity weakens the central claim.
+  - **Resolution test** Clarify the relationship between the target mRNA changes and the global transcriptional response. Provide data showing whether the diauxic response is restored by expressing a constitutively active Pin4 variant or by manipulating the expression of key target mRNAs. Alternatively, show that the transcriptional defect is independent of the mRNA targets, which would require a revised model.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** "riboregulation"
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The term "riboregulation" is not defined in the abstract and could be interpreted in multiple ways, including regulation by RNA molecules or regulation of RNA. Given the proposed role of Pin4 as an RNA-binding protein, the intended meaning is likely "regulation via RNA binding," but this is not explicit.
+  - **Required correction** Define "riboregulation" at first use or replace with a more precise phrase such as "regulation mediated by RNA binding."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of strain descriptions
+  - **Affected element** "cells lacking Pin4, its C-terminal prion-like domain, the RNA-recognition motif (RRM) or with an RRM point mutation"
+  - **Evidence pointer** Abstract, no specific figure or table referenced
+  - **Issue** The abstract lists multiple mutant strains but does not specify whether the prion-like domain deletion and the RRM deletion are separate constructs or whether the RRM point mutation is in the context of full-length Pin4. This ambiguity affects interpretation of the domain requirements.
+  - **Required correction** Specify the genetic context of each mutant (e.g., full-length deletion vs. domain deletion in otherwise wild-type background) and whether the point mutation is in the full-length protein.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental condition details
+  - **Affected element** "glucose depletion" and "glucose withdrawal"
+  - **Evidence pointer** Abstract, multiple locations
+  - **Issue** The abstract uses "glucose depletion" and "glucose withdrawal" without specifying the time points, glucose concentrations, or growth phases at which measurements were taken. The diauxic shift is a dynamic process, and the timing of the transcriptional response is critical.
+  - **Required correction** Provide the time points and glucose concentrations used for the binding, RNAseq, and phenotypic assays, and clarify whether "withdrawal" refers to a shift to non-fermentable carbon sources or to complete removal.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic claim and the quantitative basis for the key observations are not established from the abstract alone. R1-M3 is not blocking but must be resolved for internal consistency.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The proposed role of Pin4 as a coordinator of post-transcriptional and transcriptional responses to energy depletion is novel and not previously described for this protein. The concept of an RBP bridging these two layers of regulation is timely and potentially original.
+  - **Scientific importance** If the model is substantiated, the findings would be important for understanding how cells integrate RNA-level and transcriptional responses to metabolic stress. The potential generality of such a mechanism in eukaryotes would increase significance.
+  - **Interdisciplinary readership** The topic would appeal to RNA biologists, yeast geneticists, and researchers in cellular metabolism and stress signaling. The broader relevance to energy sensing and prion-like domain function could attract a wider audience.
+  - **Technical soundness** The abstract does not provide enough methodological detail to assess technical soundness. The use of reCRAC, RNAseq, and domain mutants is appropriate, but the lack of quantitative reporting and validation details prevents a full assessment.
+  - **Readability for nonspecialists** The abstract is generally clear and well-structured, but terms such as "reCRAC," "prion-like domain," and "riboregulation" may require additional context for nonspecialists. The logical flow from binding to phenotype to transcription is understandable.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an intriguing hypothesis but lacks the quantitative and mechanistic support needed to substantiate the central claim. The authors should be encouraged to provide the full manuscript with detailed methods, effect sizes, and experiments that directly test the causal link between Pin4 RNA binding and the transcriptional response.
+
+## Risk / unsupported claims
+- The claim that Pin4 "coordinates" post-transcriptional and transcriptional responses is unsupported because no direct mechanistic link is demonstrated.
+- The claim that the diauxic transcriptional response is "almost entirely abolished" in Pin4-deficient cells is unquantified and cannot be evaluated without effect sizes or representative data.
+- The claim that Pin4 binds a "specific motif" in 3' UTRs is unverified without motif sequence, enrichment statistics, or validation.
+- The claim that Pin4 loss causes hypersensitivity to oxidative stress is unquantified and lacks comparison to wild-type or complemented strains.
+- The functional relevance of the binding shift from metabolic mRNAs to translation-associated transcripts upon glucose withdrawal is not established.
+- The role of the prion-like domain in the transcriptional response is reported but not mechanistically explained.

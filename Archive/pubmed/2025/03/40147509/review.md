@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary figure legends
+- **Assessment boundary** Scientific validity of claims, experimental design, data interpretation, and technical soundness based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors identify two amino acid residues (776R and 784T) in the C-terminal region of the brome mosaic virus (BMV) 2a protein that determine host specificity for systemic infection in rice. They demonstrate that these changes act synergistically, influence long-distance movement rather than replication or cell-to-cell movement, and that amino acid identity rather than RNA sequence or secondary structure is the primary determinant. The C-terminal region is predicted to be an intrinsically disordered region capable of interacting with multiple rice proteins.
+- **Visible evidence base** Figures 1-6, Table 1, Supplementary Figures S1-S2, methods descriptions for plant inoculation, protoplast experiments, protein detection (ELISA, hammer blot, western blot), northern blot analysis, and yeast two-hybrid screening
+- **Missing materials affecting confidence** Raw numerical data for ELISA and hammer blot quantifications, statistical test details beyond p-values, full Y2H screening results including number of colonies screened and false positive rates, sequence alignment data for the 2a gene between KU5 and F strains, validation data for computational predictions, and supplementary tables including primer sequences
+
+## Reviewer
+- **Overall assessment** This manuscript presents a focused and logically structured investigation into the molecular determinants of BMV host specificity in rice. The identification of two specific amino acid residues in the 2a protein that control systemic infection represents a meaningful contribution to understanding viral host adaptation. The experimental approach is systematic, progressing from whole-plant phenotyping through reverse genetics to mechanistic dissection. However, several technical concerns regarding data presentation, statistical rigor, and the strength of conclusions drawn from computational predictions and Y2H screening need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Plant virologists studying host specificity and viral movement mechanisms would find these results directly relevant. Researchers working on bromoviruses and the alphavirus-like superfamily would benefit from the identification of specific residues controlling host range. The broader community studying viral adaptation and the role of intrinsically disordered regions in viral protein function would also find interest. Additionally, those working on rice-infecting viruses and the development of viral vectors for rice would value these findings.
+- **Major strengths** The study addresses a clearly defined question with a logical experimental progression. The use of pseudorecombinants to map host specificity determinants to RNA2 is elegant and definitive. The inclusion of synonymous mutations to distinguish between RNA sequence effects and amino acid effects is a rigorous approach. The mechanistic dissection distinguishing replication, cell-to-cell movement, and long-distance movement is well conceived. The identification of the C-terminal region as an IDR provides a plausible structural framework for understanding how these residues might function.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** The claim that 776R and 784T synergistically enhance BMV infectivity in rice is based on ELISA data showing higher infection frequency and increased CP accumulation for the double mutant compared to single mutants.
+  - **Evidence pointer** Figure 3C, Figure 4B, location not provided
+  - **Concern** The manuscript states that the double mutant exhibited "even stronger infectivity than single mutants, with a higher infection frequency and consistently increased CP accumulation," but the statistical analysis supporting this claim is not described. For Figure 3C, the infection rates are presented as a summary from three infectivity assays, but the number of plants per assay, the criteria for determining infection, and the statistical comparison between groups are not specified. Similarly, for Figure 4B, only a single p-value threshold is mentioned with an asterisk, but the specific test used, the sample sizes, and whether multiple comparisons were corrected for are not stated.
+  - **Why it matters** The central conclusion of the manuscript rests on the quantitative difference in infectivity between single and double mutants. Without proper statistical validation, the claim of synergism cannot be distinguished from additive effects or experimental noise. This is particularly important given that the parental KU5 strain shows "marginal" CP accumulation, suggesting the assay may have limited dynamic range.
+  - **Resolution test** Provide complete statistical details including the specific test used, sample sizes for each group, exact p-values for all pairwise comparisons, and effect sizes. If the data are not normally distributed, appropriate non-parametric tests should be used. The number of independent biological replicates should be stated, and the consistency of results across replicates should be shown.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for mechanistic conclusion
+  - **Claim pointer** The conclusion that the two codon changes influence long-distance movement rather than replication or cell-to-cell movement is based on the absence of significant differences in replication (protoplast experiments) and cell-to-cell movement (hammer blot at 2 and 5 dpi).
+  - **Evidence pointer** Figure 4A-D, location not provided
+  - **Concern** The conclusion that long-distance movement is the affected step is reached by exclusion, but the evidence for this exclusion is incomplete. For replication, the protoplast experiments show comparable RNA accumulation, but the manuscript notes that KU5 showed "slightly higher" accumulation in rice protoplasts, which is not statistically evaluated. For cell-to-cell movement, the hammer blot analysis at 2 and 5 dpi shows no significant differences, but the manuscript does not demonstrate that this assay has sufficient sensitivity to detect differences in cell-to-cell movement. More critically, no direct assay for long-distance movement is presented. The conclusion that long-distance movement is affected is inferred rather than directly demonstrated.
+  - **Why it matters** The manuscript's title and central claim concern host specificity determinants, and the mechanistic interpretation that these residues affect long-distance movement is a key part of the narrative. If the effect is actually on a different step, or if the assay sensitivity is insufficient to detect differences in cell-to-cell movement, the conclusions would need substantial revision. Direct evidence for impaired long-distance movement would strengthen the paper considerably.
+  - **Resolution test** Provide direct evidence for long-distance movement differences, such as monitoring viral RNA or GFP expression in upper uninoculated leaves over a time course, or using grafting experiments. Alternatively, demonstrate that the hammer blot assay can detect differences in cell-to-cell movement by including a control with a known cell-to-cell movement mutant. Statistical comparison of the KU5 versus mutant strains in the protoplast replication assays should also be provided.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of Y2H results
+  - **Claim pointer** The Y2H screening identified several rice proteins that interact with the C-terminal region of the 2a protein, and the authors suggest these interactions may be relevant to viral movement and adaptation.
+  - **Evidence pointer** Table 1, location not provided
+  - **Concern** The Y2H results are presented as a table listing predicted rice proteins and their binding activities, but critical information about the screening is missing. The number of colonies screened, the number of positive clones identified, the criteria for selecting candidates for validation, and the false positive rate are not reported. Most importantly, the authors state that "no significant differences were observed in the interaction profiles between KU5-2a and mutant-2a," which directly undermines the relevance of these interactions to the host specificity phenotype. The inclusion of these data without a clear hypothesis linking the identified interactors to the observed phenotype makes this section feel preliminary and disconnected from the main findings.
+  - **Why it matters** The Y2H data are presented as supporting evidence for the mechanism by which the 2a C-terminal region might function, but the lack of differential interactions between KU5 and mutant versions means these data do not explain the host specificity phenotype. Without functional validation of any of the identified interactors, this section does not strengthen the manuscript's conclusions and may confuse readers about the significance of these interactions.
+  - **Resolution test** Either provide functional validation of at least one identified interactor showing that it affects BMV movement or infection in rice, or clearly frame the Y2H results as preliminary and move them to supplementary data. If the Y2H data are retained, provide complete screening statistics and discuss why the lack of differential interactions between KU5 and mutant 2a does not contradict the main findings.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for IDR prediction
+  - **Claim pointer** The claim that the C-terminal region of BMV 2a is an intrinsically disordered region is based on computational predictions from I-TASSER, IUPred3, and AlphaFold 3.
+  - **Evidence pointer** Figure 6A-C, location not provided
+  - **Concern** The IDR prediction relies entirely on computational tools without any experimental validation. While the predictions from multiple algorithms are consistent, the functional significance of this predicted disorder is speculative. The authors suggest that the IDR "may have the ability to interact with rice proteins" and cite a previous report on IDR function, but no direct evidence links the predicted disorder to the observed host specificity phenotype. Additionally, the AlphaFold 3 prediction is described but the confidence metrics for this prediction are not provided.
+  - **Why it matters** The IDR prediction is presented as a significant finding that provides a structural framework for understanding how the 2a C-terminal region functions. However, without experimental validation such as circular dichroism spectroscopy, limited proteolysis, or NMR, the claim that this region is disordered remains speculative. The connection between predicted disorder and the host specificity phenotype is not established.
+  - **Resolution test** Provide experimental evidence for disorder in the C-terminal region, or alternatively, reframe the IDR prediction as a hypothesis for future testing rather than a finding. If experimental validation is not feasible, acknowledge the limitations of computational predictions more explicitly and discuss alternative interpretations of the data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability section, location not provided
+  - **Issue** The data availability statement says "Data will be made available on request" without specifying what data are included or the timeline for availability.
+  - **Required correction** Specify the types of data that will be shared (e.g., raw ELISA values, northern blot images, Y2H screening data) and provide a clear mechanism for access.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Rice inoculation procedure
+  - **Evidence pointer** Materials and methods, Virus infection tests in plants, Rice section, location not provided
+  - **Issue** The method for preparing rice inoculum from infected C. quinoa leaves is described, but the age of rice plants at inoculation, the number of plants per experiment, and the criteria for scoring infection are not specified.
+  - **Required Correction** Provide complete details on plant age, sample size, and infection scoring criteria to allow replication.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 4B
+  - **Evidence pointer** Figure 4B, location not provided
+  - **Issue** The figure legend mentions a two-sample t-test with significance levels, but the number of biological replicates, the variance structure, and whether the test was one-tailed or two-tailed are not stated.
+  - **Required Correction** Provide complete statistical details in the figure legend or methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion does not address the limitation that the Y2H screen used a cDNA library from cultured rice cells, which may not represent the cell types involved in viral movement in intact plants.
+  - **Required Correction** Add a sentence acknowledging this limitation and discussing how it might affect the interpretation of the Y2H results.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 1D
+  - **Evidence pointer** Figure 1D, location not provided
+  - **Issue** The box plot in Figure 1D is described as generated using the CNSknowall platform, but the number of biological replicates and the distribution of the data are not clear from the description.
+  - **Required Correction** Provide the number of replicates in the figure legend and consider showing individual data points alongside the box plot.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor for the central claim of synergistic enhancement), R1-M2 (lack of direct evidence for long-distance movement as the affected step)
+- **Assessment against Nature-style criteria** Originality: The identification of specific residues in the BMV 2a protein controlling host specificity in rice is a novel contribution, though the general concept of viral host determinants is well established. Scientific importance: The findings have relevance for understanding viral host range evolution and could inform strategies for controlling BMV in rice, but the broader impact beyond the bromovirus field is limited. Interdisciplinary readership: The manuscript is primarily of interest to plant virologists and would have limited appeal to a broader interdisciplinary audience. Technical soundness: The experimental design is generally sound, but the statistical analysis and direct evidence for the proposed mechanism need strengthening. Readability for nonspecialists: The manuscript is clearly written and accessible to those with basic virology knowledge, though some sections assume familiarity with plant virus experimental systems.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding identifying specific amino acid residues controlling host specificity is valuable and the experimental approach is largely appropriate. However, the statistical rigor for the central claim and the lack of direct evidence for the proposed mechanism need to be addressed before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that 776R and 784T act synergistically is not fully supported by the statistical analysis presented
+- The conclusion that long-distance movement is the affected step is inferred by exclusion rather than directly demonstrated
+- The functional significance of the predicted IDR in the C-terminal region of 2a is speculative without experimental validation
+- The Y2H interactions are presented without evidence that they are relevant to the host specificity phenotype, as no differential interactions were observed between KU5 and mutant 2a
+- The suggestion that m6A methylation of the RNA region encoding 776R and 784T may affect infectivity is preliminary and based on unpublished data
+- The claim that the KU5 strain accumulated higher levels of viral RNA in rice protoplasts compared to other strains is mentioned in the discussion but not statistically evaluated in the results

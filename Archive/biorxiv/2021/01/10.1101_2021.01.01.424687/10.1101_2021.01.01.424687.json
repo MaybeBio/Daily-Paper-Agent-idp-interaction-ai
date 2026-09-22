@@ -1,0 +1,696 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.01.424687",
+  "title": "Overexpression of the microtubule-binding protein CLIP-170 induces a +TIP network superstructure consistent with a biomolecular condensate",
+  "doi": "10.1101/2021.01.01.424687",
+  "abstract": "Proper regulation of microtubule (MT) dynamics is critical for cellular processes including cell division and intracellular transport. Plus-end tracking proteins (+TIPs) dynamically track growing MTs and play a key role in MT regulation. +TIPs participate in a complex web of intra- and inter-molecular interactions known as the +TIP network. Hypotheses addressing the purpose of +TIP:+TIP interactions include relieving +TIP autoinhibition and localizing MT regulators to growing MT ends. In addition, we have proposed that the web of +TIP:+TIP interactions has a physical purpose, creating a superstructure that constrains the structural fluctuations of the fragile MT tip and thus acts as a polymerization chaperone. Many animal +TIP network proteins are multivalent and have intrinsically disordered regions, features commonly found in biomolecular condensates. This observation suggests that the +TIP network might under some conditions form a biomolecular condensate. Previous studies have shown that overexpression of the +TIP CLIP-170 induces large “patch” structures containing CLIP-170 and other +TIPs. To test the hypothesis that these patches might be biomolecular condensates, we used video microscopy, immunofluorescence staining, and Fluorescence Recovery After Photobleaching (FRAP). Our data show that the CLIP-170-induced patches have hallmarks indicative of a biomolecular condensate, one that contains +TIP proteins and excludes other known condensate markers. Moreover, bioinformatic studies demonstrate that the presence of intrinsically disordered regions is conserved in key +TIPs, implying that these regions are functionally significant. Together, these results indicate that the CLIP-170 induced patches in cells are phase-separated liquid condensates and raise the possibility that the endogenous +TIP network might form a liquid droplet at MT ends or other +TIP locations.",
+  "authors": [
+    "Yueh-Fu O. Wu",
+    "Annamarie T. Bryant",
+    "Nora T. Nelson",
+    "Alexander G. Madey",
+    "Gail F. Fernandes",
+    "Holly V. Goodson"
+  ],
+  "published_date": "2021-01-01",
+  "updated_date": "2021-01-02T04:00:15Z",
+  "journal": "bioRxiv",
+  "category": "Cell Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.01.424687",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.01.424687.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Cell Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Cell Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T15:41:05Z",
+        "timestamp": 1768491665602,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            1
+          ]
+        ]
+      },
+      "group-title": "Cell Biology",
+      "reference-count": 81,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2021-01-01T00:00:00Z",
+            "timestamp": 1609459200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Proper regulation of microtubule (MT) dynamics is critical for cellular processes including cell division and intracellular transport. Plus-end tracking proteins (+TIPs) dynamically track growing MTs and play a key role in MT regulation. +TIPs participate in a complex web of intra- and inter-molecular interactions known as the +TIP network. Hypotheses addressing the purpose of +TIP:+TIP interactions include relieving +TIP autoinhibition and localizing MT regulators to growing MT ends. In addition, we have proposed that the web of +TIP:+TIP interactions has a physical purpose, creating a superstructure that constrains the structural fluctuations of the fragile MT tip and thus acts as a polymerization chaperone. Many animal +TIP network proteins are multivalent and have intrinsically disordered regions, features commonly found in biomolecular condensates. This observation suggests that the +TIP network might under some conditions form a biomolecular condensate. Previous studies have shown that overexpression of the +TIP CLIP-170 induces large “patch” structures containing CLIP-170 and other +TIPs. To test the hypothesis that these patches might be biomolecular condensates, we used video microscopy, immunofluorescence staining, and Fluorescence Recovery After Photobleaching (FRAP). Our data show that the CLIP-170-induced patches have hallmarks indicative of a biomolecular condensate, one that contains +TIP proteins and excludes other known condensate markers. Moreover, bioinformatic studies demonstrate that the presence of intrinsically disordered regions is conserved in key +TIPs, implying that these regions are functionally significant. Together, these results indicate that the CLIP-170 induced patches in cells are phase-separated liquid condensates and raise the possibility that the endogenous +TIP network might form a liquid droplet at MT ends or other +TIP locations.</jats:p>",
+      "DOI": "10.1101/2021.01.01.424687",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            2
+          ]
+        ],
+        "date-time": "2021-01-02T04:00:15Z",
+        "timestamp": 1609560015000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Overexpression of the microtubule-binding protein CLIP-170 induces a +TIP network superstructure consistent with a biomolecular condensate"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yueh-Fu O.",
+          "family": "Wu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Annamarie T.",
+          "family": "Bryant",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nora T.",
+          "family": "Nelson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alexander G.",
+          "family": "Madey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Gail F.",
+          "family": "Fernandes",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Holly V.",
+          "family": "Goodson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.brainresbull.2016.06.016"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Goodson HV , Jonasson EM . Microtubules and Microtubule-Associated Proteins. Cold Spring Harb Perspect Biol. 2018;10(6).",
+          "DOI": "10.1101/cshperspect.a022608"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm4084"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bies.201400029"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.5",
+          "unstructured": "BioRender. 2020. Available from: https://biorender.com/."
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.201206101"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncb2744"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(92)90240-D"
+        },
+        {
+          "issue": "Pt 7",
+          "key": "2024080507112961000_2021.01.01.424687v1.9",
+          "first-page": "1909",
+          "article-title": "Molecular characterization of two functional domains of CLIP-170 in vivo",
+          "volume": "107",
+          "year": "1994",
+          "journal-title": "J Cell Sci."
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E11-03-0260"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.200208058"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaf1709"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.200807023"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jcs.02379"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M807675200"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA118.006125"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.274.36.25883"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0703876104"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cm.10114"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb1291"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.7"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.12.035"
+        },
+        {
+          "issue": "12",
+          "key": "2024080507112961000_2021.01.01.424687v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "1435",
+          "DOI": "10.1038/s41587-019-0341-6",
+          "article-title": "Probing and engineering liquid-phase organelles",
+          "volume": "37",
+          "year": "2019",
+          "journal-title": "Nat Biotechnol."
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2018.08.003"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1172046"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BST0380242"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/b618126k"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(84)90196-X"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ceb.2017.10.008"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.05.028"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.7b01064"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.cellbio.20.010403.103738"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a000661"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wegmann S , Eftekharzadeh B , Tepper K , Zoltowska KM , Bennett RE , Dujardin S , et al. Tau protein liquid-liquid phase separation can initiate tau aggregation. EMBO J. 2018;37(7).",
+          "DOI": "10.15252/embj.201798049"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-017-00480-0"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41556-019-0375-5"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2019.09.016"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mittasch M , Tran VM , Rios MU , Fritsch AW , Enos SJ , Ferreira Gomes B , et al. Regulated changes in material properties underlie centrosome disassembly during mitotic exit. J Cell Biol. 2020;219(4).",
+          "DOI": "10.1083/jcb.201912036"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "107",
+          "DOI": "10.1146/annurev-biophys-121219-081629",
+          "article-title": "Physical Principles Underlying the Complex Biology of Intracellular Phase Transitions",
+          "volume": "49",
+          "year": "2020",
+          "journal-title": "Annu Rev Biophys."
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.144.1.99"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(00)80656-X"
+        },
+        {
+          "issue": "26",
+          "key": "2024080507112961000_2021.01.01.424687v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "17597",
+          "DOI": "10.1016/S0021-9258(19)47414-0",
+          "article-title": "Binding of pp170 to microtubules is regulated by phosphorylation",
+          "volume": "266",
+          "year": "1991",
+          "journal-title": "J Biol Chem."
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/28879"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/42.3.8308253"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2019"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.46",
+          "unstructured": "Webster AW, M . An easy protocol for FRAP. 2014. Available from: http://www.its.caltech.edu/~bif/Public/An%20Easy%20Protocol%20for%20FRAP.docx."
+        },
+        {
+          "issue": "Pt 21",
+          "key": "2024080507112961000_2021.01.01.424687v1.47",
+          "first-page": "3885",
+          "article-title": "Rapid dynamics of the microtubule binding of ensconsin in vivo",
+          "volume": "114",
+          "year": "2001",
+          "journal-title": "J Cell Sci."
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1529/biophysj.103.026765"
+        },
+        {
+          "issue": "2",
+          "key": "2024080507112961000_2021.01.01.424687v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "373",
+          "DOI": "10.1007/s00709-013-0604-x",
+          "article-title": "Molecular diffusion and binding analyzed with FRAP",
+          "volume": "251",
+          "year": "2014",
+          "journal-title": "Protoplasma."
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr682"
+        },
+        {
+          "issue": "9",
+          "key": "2024080507112961000_2021.01.01.424687v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "1402",
+          "DOI": "10.1093/bioinformatics/btx015",
+          "article-title": "MobiDB-lite: fast and highly specific consensus prediction of intrinsic disorder in proteins",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics."
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky384"
+        },
+        {
+          "issue": "1",
+          "key": "2024080507112961000_2021.01.01.424687v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "e99",
+          "DOI": "10.1002/cpbi.99",
+          "article-title": "Analyzing Protein Disorder with IUPred2A",
+          "volume": "70",
+          "year": "2020",
+          "journal-title": "Curr Protoc Bioinformatics."
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku982"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/msb.2011.75"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/cmb.2014.0156"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky448"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.252.5009.1162"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.200709029"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.331520.119"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr400525m"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/c2mb25202c"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.63",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wiegand T , Hyman AA . Drops and fibers - how biomolecular condensates and cytoskeletal filaments influence each other. Emerg Top Life Sci. 2020.",
+          "DOI": "10.1042/ETLS20190174"
+        },
+        {
+          "issue": "6",
+          "key": "2024080507112961000_2021.01.01.424687v1.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "602",
+          "DOI": "10.1038/s41567-019-0464-1",
+          "article-title": "Actin dynamics drive cell-like membrane deformation",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "Nature Physics."
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-018-0009-y"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biophys-052118-115534"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.7b01136"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.68",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Banjade S , Rosen MK . Phase transitions of multivalent proteins can promote clustering of membrane receptors. Elife. 2014;3.",
+          "DOI": "10.7554/eLife.04123"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aad9964"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aau6313"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.201802138"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E11-08-0688"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2011.06.053"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0092-8674(00)81285-4"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2011.06.007"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm2713"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2007.11.043"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.200707203"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41556-019-0376-4"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncb1609"
+        },
+        {
+          "key": "2024080507112961000_2021.01.01.424687v1.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature09594"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.01.01.424687",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:12:21Z",
+        "timestamp": 1768439541000
+      },
+      "score": 52.26889,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.01.01.424687"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            1
+          ]
+        ]
+      },
+      "references-count": 81,
+      "URL": "https://doi.org/10.1101/2021.01.01.424687",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

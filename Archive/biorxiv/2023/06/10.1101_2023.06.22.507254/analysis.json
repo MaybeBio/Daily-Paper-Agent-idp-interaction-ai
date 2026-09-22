@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.22.507254",
+  "title": "Single nucleotide variation catalogue from clinical isolates mapped on tertiary and quaternary structures of ESX-1 related proteins reveals critical regions as putative Mtb therapeutic targets",
+  "authors": "Tzfadia O; Siroy A; Vujkovic A; Gijsbers A; Snobre J; Vargas R; Mulders W; Meehan CJ; Farhat M; Peters PJ; de Jong BC; Ravelli RB",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-23",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究将临床结核分枝杆菌分离株的SNV映射到ESX-1蛋白三级/四级结构上，识别保守区域和IDR，虽涉及蛋白互作界面但以实验数据分析和结构映射为主，AI/物理模拟方法较弱，对象为IDR但非PPI机制建模核心。",
+  "abstract": "Proteins encoded by the ESX-1 genes of interests are essential for full virulence in all Mycobacterium tuberculosis complex (MTBc) lineages, the pathogens with the highest mortality worldwide. Identifying critical regions in these ESX-1 related proteins could provide preventive or therapeutic targets for MTB infection, the game changer needed for tuberculosis control. We analysed a compendium of whole genome sequences of clinical MTB isolates from all lineages from >32,000 patients and identified single nucleotide variations (SNV). When mutations corresponding to all nonsynonymous SNPs were mapped on the surface of known and AlphaFold-predicted ternary protein structures, fully conserved regions emerged. Some could be assigned to known quaternary structures, whereas others could be predicted to be involved in yet-to-be-discovered interactions. Some mutants had clonally expanded (found in >1% of the isolates): these were mostly located at the surface of globular domains, remote from known intra- and inter-molecular protein–protein interactions. Fully conserved intrinsically disordered regions (IDRs) of proteins were found, suggesting that these are crucial for the pathogenicity of the MTBc. Altogether, our findings provide an evolutionary structural perspective on MTB virulence and highlight fully conserved regions of proteins as attractive vaccine antigens and drug targets. Extending this approach to other pathogens can provide a novel critical resource for the development of innovative tools for pathogen control.",
+  "abstract_zh": "由ESX-1基因编码的蛋白质在所有结核分枝杆菌复合群（MTBc）谱系中对完全毒力至关重要，这些病原体在全球范围内具有最高死亡率。识别这些ESX-1相关蛋白中的关键区域，可为MTB感染提供预防或治疗靶点，这可能是结核病控制所需的变革性因素。我们分析了来自>32,000名患者的所有谱系临床MTB分离株的全基因组序列汇编，并鉴定了单核苷酸变异（SNV）。当将所有非同义SNP对应的突变映射到已知及AlphaFold预测的三元蛋白结构表面时，出现了完全保守的区域。其中一些可归属于已知的四级结构，而另一些则被预测参与尚未发现的相互作用。一些突变体发生了克隆扩增（在>1%的分离株中发现）：这些突变大多位于球状结构域表面，远离已知的分子内和分子间蛋白质-蛋白质相互作用位点。发现了完全保守的蛋白质内在无序区域（IDRs），表明这些区域对MTBc的致病性至关重要。总体而言，我们的发现提供了关于MTB毒力的进化结构视角，并强调了完全保守的蛋白质区域作为有吸引力的疫苗抗原和药物靶点。将此方法扩展到其他病原体，可为开发创新的病原体控制工具提供新的关键资源。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.22.507254",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.22.507254",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.22.507254/index.html"
+}

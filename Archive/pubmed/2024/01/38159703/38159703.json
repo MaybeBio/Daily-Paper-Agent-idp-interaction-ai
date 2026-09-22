@@ -1,0 +1,209 @@
+{
+  "identity": {
+    "pmid": "38159703",
+    "doi": "10.1016/j.ijbiomac.2023.129051",
+    "title": "Severe acute respiratory syndrome Coronavirus-2 GenoAnalyzer and mutagenic anomaly detector using FCMFI and NSCE."
+  },
+  "content": {
+    "abstract": "In order to deepen our understanding of the virus and help guide the creation of efficient therapies, this study uses artificial intelligence tools to thoroughly explore the genetic sequences of the SARS-CoV-2 virus. The process starts by using the Fuzzy Closure Miner for Frequent Itemsets (FCMFI) on a large corpus of SARS-CoV-2 genomic sequences to reveal hidden patterns, including nucleotides base sequences, repeating motifs, and corresponding interchanges. Then, using the Nucleotide Sequence Comprehension Engine (NSCE) technique, we were able to precisely define the genomic areas for mutation analysis. Structured and unstructured proteins are both strongly impacted by virus mutations, with spike proteins that are linked to the severity of COVID-19 pneumonia being particularly affected. Notably, the Mutagenic Anomaly Detector shows a 65 % efficiency boost in computing genome mutation rates compared to conventional point mutation analysis, while GenoAnalyzer offers a remarkable 93.33 % improvement over existing approaches in recognizing common genomic sequence patterns. These results highlight the potential of FCMFI to reveal complex genomic patterns and significant insights in COVID-19 genetic sequences when combined with mutation analysis. The Mutagenic Anomaly Detector and GenoAnalyzer show promise for revealing hidden genomic patterns and precisely estimating the SARS-CoV-2 mutation rate.",
+    "keywords": [
+      "FCMFI",
+      "Genome sequence",
+      "NSCE",
+      "Proteins",
+      "SARS-CoV-2"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*SARS-CoV-2",
+      "*COVID-19",
+      "Mutagens",
+      "Artificial Intelligence",
+      "Mutation",
+      "Phylogeny"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dubey, Shivendra",
+        "Verma, Dinesh Kumar",
+        "Kumar, Mahesh"
+      ],
+      "short_names": [
+        "Dubey S",
+        "Verma DK",
+        "Kumar M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science & Engineering, Jaypee University of Engineering & Technology, Guna, Madhya Pradesh Pin-473226, India. Electronic address: shivendrashivay@gmail.com.",
+        "Department of Computer Science & Engineering, Jaypee University of Engineering & Technology, Guna, Madhya Pradesh Pin-473226, India. Electronic address: dinesh.hpp@gmail.com.",
+        "Department of Computer Science & Engineering, Jaypee University of Engineering & Technology, Guna, Madhya Pradesh Pin-473226, India. Electronic address: mahesh.chahar@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dubey, Shivendra",
+        "short_name": "Dubey S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science & Engineering, Jaypee University of Engineering & Technology, Guna, Madhya Pradesh Pin-473226, India. Electronic address: shivendrashivay@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Verma, Dinesh Kumar",
+        "short_name": "Verma DK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science & Engineering, Jaypee University of Engineering & Technology, Guna, Madhya Pradesh Pin-473226, India. Electronic address: dinesh.hpp@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Kumar, Mahesh",
+        "short_name": "Kumar M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science & Engineering, Jaypee University of Engineering & Technology, Guna, Madhya Pradesh Pin-473226, India. Electronic address: mahesh.chahar@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Feb",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/02 11:43",
+    "fetched_at": "2026-09-21 03:58:40"
+  },
+  "links": {
+    "cites": [
+      "40898274",
+      "39145255"
+    ],
+    "refs": [],
+    "similar": [
+      "38159703",
+      "35839568",
+      "35658573",
+      "34241906",
+      "36377483",
+      "35148677",
+      "33905892",
+      "32646487",
+      "32814791",
+      "35019701",
+      "35759503",
+      "34159627",
+      "32641486",
+      "33555895",
+      "34848355",
+      "37059256",
+      "37766339",
+      "33112236",
+      "33677109",
+      "33377359",
+      "34357528",
+      "35484414",
+      "33758205",
+      "32881907",
+      "34933126",
+      "34346753",
+      "32581081",
+      "32321524",
+      "33412760",
+      "33654512",
+      "32878627",
+      "32820179",
+      "35007466",
+      "33207070",
+      "33875001",
+      "34949225",
+      "32970329",
+      "32937193",
+      "33421654",
+      "33380328",
+      "33550350",
+      "33883466",
+      "33347622",
+      "33755704",
+      "34787497",
+      "32502733",
+      "33253058",
+      "34821382",
+      "33782990",
+      "32512929",
+      "34756072",
+      "35004593",
+      "34752930",
+      "34074255",
+      "35913162",
+      "14733771",
+      "37573409",
+      "32496247",
+      "35196783",
+      "36307763",
+      "33132205",
+      "33205830",
+      "33242581",
+      "35352942",
+      "33049069",
+      "33221119",
+      "35862764",
+      "32928234",
+      "35047415",
+      "33067384",
+      "15222897",
+      "35072628",
+      "34339772",
+      "34960694",
+      "35905853",
+      "34271250",
+      "38392418"
+    ],
+    "review": [
+      "38159703",
+      "35484414",
+      "33421654"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(23)05950-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

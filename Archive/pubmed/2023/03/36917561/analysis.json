@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36917561",
+  "title": "Interpreting Transient Interactions of Intrinsically Disordered Proteins.",
+  "authors": "Wohl, Samuel; Zheng, Wenwei",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2023-03-15",
+  "window": {
+    "start": "2023-03-13",
+    "end": "2023-03-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化模拟与调整聚合物模型，研究无序蛋白中瞬态相互作用如何被不同实验探测长度感知，并开发可定量识别特定瞬态互作的新模型，直接聚焦IDP互作机制建模，方法上属物理模拟，虽未涉及AI，但机制深度与可迁移性强。",
+  "abstract": "The flexible nature of intrinsically disordered proteins (IDPs) gives rise to a conformational ensemble with a diverse set of conformations. The simplest way to describe this ensemble is through a homopolymer model without any specific interactions. However, there has been growing evidence that the conformational properties of IDPs and their relevant functions can be affected by transient interactions between specific and even nonlocal pairs of amino acids. Interpreting these interactions from experimental methods, each of which is most sensitive to a different distance regime referred to as probing length, remains a challenging and unsolved problem. Here, we first show that transient interactions can be realized between short fragments of charged amino acids by generating conformational ensembles using model disordered peptides and coarse-grained simulations. Using these ensembles, we investigate how sensitive different types of experimental measurements are to the presence of transient interactions. We find methods with shorter probing lengths to be more appropriate for detecting these transient interactions, but one experimental method is not sufficient due to the existence of other weak interactions typically seen in IDPs. Finally, we develop an adjusted polymer model with an additional short-distance peak which can robustly reproduce the distance distribution function from two experimental measurements with complementary short and long probing lengths. This new model can suggest whether a homopolymer model is insufficient for describing a specific IDP and meets the challenge of quantitatively identifying specific, transient interactions from a background of nonspecific, weak interactions.",
+  "abstract_zh": "天然无序蛋白质（IDPs）的柔性特性导致其构象集合包含多种多样的构象。描述这一集合的最简单方式是通过无特定相互作用的均聚物模型。然而，越来越多的证据表明，IDPs的构象特性及其相关功能可能受到特定甚至非局部氨基酸对之间瞬时相互作用的影响。从实验方法中解读这些相互作用，每种方法对不同的距离范围（称为探测长度）最为敏感，这仍是一个具有挑战性且未解决的问题。在此，我们首先通过使用模型无序肽和粗粒化模拟生成构象集合，展示了带电氨基酸短片段之间可以实现瞬时相互作用。利用这些集合，我们研究了不同类型的实验测量对瞬时相互作用存在的敏感程度。我们发现，探测长度较短的方法更适合检测这些瞬时相互作用，但由于IDPs中通常存在其他弱相互作用，单一实验方法并不足够。最后，我们开发了一种调整后的聚合物模型，该模型包含一个额外的短距离峰，能够稳健地重现来自两个具有互补短和长探测长度的实验测量的距离分布函数。这一新模型可以提示均聚物模型是否不足以描述特定IDP，并满足从非特异性弱相互作用背景中定量识别特定瞬时相互作用的挑战。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36917561/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36917561/",
+  "paper_page_path": "papers/pubmed/36917561/index.html"
+}

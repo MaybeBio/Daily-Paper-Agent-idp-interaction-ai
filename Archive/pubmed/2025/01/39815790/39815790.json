@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "39815790",
+    "doi": "10.1021/acs.jpcb.4c06259",
+    "title": "A Combined Approach to Extract Rotational Dynamics of Globular Proteins Undergoing Liquid-Liquid Phase Separation."
+  },
+  "content": {
+    "abstract": "The formation of protein condensates (droplets) via liquid-liquid phase separation (LLPS) is a commonly observed phenomenon in vitro. Changing the environmental properties with cosolutes, molecular crowders, protein partners, temperature, pressure, etc. has been shown to favor or disfavor the formation of protein droplets by fine-tuning the water-water, water-protein, and protein-protein interactions. Therefore, these environmental properties and their spatiotemporal fine-tuning are likely to be important also in a cellular context at the existing protein expression levels. One of the key physicochemical properties of biomolecules impacted by molecular crowding is diffusion, which determines the viscoelastic behavior of the condensates. Here, we investigate the change in the rotational diffusion of gammaD-crystallin, undergoing LLPS in vitro in aqueous solutions in the absence and presence of cosolutes. We studied its rotational dynamics using molecular dynamics simulations (MD), electron paramagnetic resonance (EPR) spectroscopy, and fluorescence spectroscopy. MD simulations performed under dilute and crowded conditions show that the rotational diffusion of crystallin in water is retarded by 1 to 2 orders of magnitude in the condensed phase. To obtain the rotational dynamics in the dilute phase, we used fluorescence anisotropy and to extract the retardation factor in the condensed phase, we used spin-labeled gammaD-crystallin proteins as EPR viscosity nanoprobes. Aided by a viscosity nanoruler calibrated with solutions at increasing sucrose concentrations, we validated the rotational diffusion retardation predicted by MD simulations. This study underlines the predictive power of MD simulations and showcases the use of a sensitive EPR nanoprobe to extract the viscosity of biomolecular condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "*gamma-Crystallins/chemistry",
+      "Water/chemistry",
+      "Electron Spin Resonance Spectroscopy",
+      "Diffusion",
+      "Viscosity",
+      "Rotation",
+      "Spectrometry, Fluorescence",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gendreizig, Dominik",
+        "Kalarikkal, Abhishek",
+        "Holtbrugge, Simon L",
+        "Mukherjee, Saumyak",
+        "Galazzo, Laura",
+        "Kucher, Svetlana",
+        "Rosspeintner, Arnulf",
+        "Schafer, Lars V",
+        "Bordignon, Enrica"
+      ],
+      "short_names": [
+        "Gendreizig D",
+        "Kalarikkal A",
+        "Holtbrugge SL",
+        "Mukherjee S",
+        "Galazzo L",
+        "Kucher S",
+        "Rosspeintner A",
+        "Schafer LV",
+        "Bordignon E"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2196-3423",
+        "ORCID: 0000-0002-1828-5206",
+        "ORCID: 0000-0002-8498-3061",
+        "ORCID: 0000-0003-2450-5161"
+      ],
+      "affiliations": [
+        "Department of Physical Chemistry, Sciences II, University of Geneva, 30 Quai Ernest Ansermet, Geneva 1211, Switzerland.",
+        "Faculty of Chemistry and Biochemistry, Ruhr University Bochum, Bochum 44801, Germany.",
+        "Center for Theoretical Chemistry, Faculty of Chemistry and Biochemistry, Ruhr University Bochum, Bochum 44801, Germany.",
+        "Center for Theoretical Chemistry, Faculty of Chemistry and Biochemistry, Ruhr University Bochum, Bochum 44801, Germany.",
+        "Department of Physical Chemistry, Sciences II, University of Geneva, 30 Quai Ernest Ansermet, Geneva 1211, Switzerland.",
+        "Faculty of Chemistry and Biochemistry, Ruhr University Bochum, Bochum 44801, Germany.",
+        "Department of Physical Chemistry, Sciences II, University of Geneva, 30 Quai Ernest Ansermet, Geneva 1211, Switzerland.",
+        "Department of Physical Chemistry, Sciences II, University of Geneva, 30 Quai Ernest Ansermet, Geneva 1211, Switzerland.",
+        "Center for Theoretical Chemistry, Faculty of Chemistry and Biochemistry, Ruhr University Bochum, Bochum 44801, Germany.",
+        "Department of Physical Chemistry, Sciences II, University of Geneva, 30 Quai Ernest Ansermet, Geneva 1211, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gendreizig, Dominik",
+        "short_name": "Gendreizig D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Sciences II, University of Geneva, 30 Quai Ernest Ansermet, Geneva 1211, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Kalarikkal, Abhishek",
+        "short_name": "Kalarikkal A",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chemistry and Biochemistry, Ruhr University Bochum, Bochum 44801, Germany."
+        ]
+      },
+      {
+        "full_name": "Holtbrügge, Simon L",
+        "short_name": "Holtbrügge SL",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Theoretical Chemistry, Faculty of Chemistry and Biochemistry, Ruhr University Bochum, Bochum 44801, Germany."
+        ]
+      },
+      {
+        "full_name": "Mukherjee, Saumyak",
+        "short_name": "Mukherjee S",
+        "identifiers": [
+          "0000-0003-2196-3423"
+        ],
+        "affiliations": [
+          "Center for Theoretical Chemistry, Faculty of Chemistry and Biochemistry, Ruhr University Bochum, Bochum 44801, Germany."
+        ]
+      },
+      {
+        "full_name": "Galazzo, Laura",
+        "short_name": "Galazzo L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Sciences II, University of Geneva, 30 Quai Ernest Ansermet, Geneva 1211, Switzerland.",
+          "Faculty of Chemistry and Biochemistry, Ruhr University Bochum, Bochum 44801, Germany."
+        ]
+      },
+      {
+        "full_name": "Kucher, Svetlana",
+        "short_name": "Kucher S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Sciences II, University of Geneva, 30 Quai Ernest Ansermet, Geneva 1211, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Rosspeintner, Arnulf",
+        "short_name": "Rosspeintner A",
+        "identifiers": [
+          "0000-0002-1828-5206"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Sciences II, University of Geneva, 30 Quai Ernest Ansermet, Geneva 1211, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Schäfer, Lars V",
+        "short_name": "Schäfer LV",
+        "identifiers": [
+          "0000-0002-8498-3061"
+        ],
+        "affiliations": [
+          "Center for Theoretical Chemistry, Faculty of Chemistry and Biochemistry, Ruhr University Bochum, Bochum 44801, Germany."
+        ]
+      },
+      {
+        "full_name": "Bordignon, Enrica",
+        "short_name": "Bordignon E",
+        "identifiers": [
+          "0000-0003-2450-5161"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Sciences II, University of Geneva, 30 Quai Ernest Ansermet, Geneva 1211, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Jan 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/16 06:21",
+    "fetched_at": "2026-09-21 14:41:22"
+  },
+  "links": {
+    "cites": [
+      "41054312"
+    ],
+    "refs": [],
+    "similar": [
+      "39815790",
+      "23912807",
+      "33057154",
+      "38580324",
+      "30985120",
+      "12391331",
+      "40748104",
+      "42019899",
+      "17007994",
+      "25389780",
+      "40439464",
+      "36594499",
+      "40291420",
+      "42081454",
+      "40455990",
+      "33307683",
+      "19791823",
+      "31036655",
+      "27052457",
+      "7682451",
+      "37194953",
+      "39022918",
+      "27434647",
+      "30560249",
+      "25775000",
+      "36524527",
+      "40389460",
+      "20373773",
+      "42012824",
+      "16844740",
+      "39964249",
+      "8534811",
+      "31237369",
+      "35408509",
+      "33264606",
+      "40606473",
+      "41306487",
+      "25564856",
+      "34787433",
+      "30638529",
+      "41535729",
+      "37039349",
+      "33302617",
+      "40973004",
+      "41307542",
+      "31693365",
+      "40778711",
+      "39947751",
+      "40534071",
+      "7811735",
+      "36080494",
+      "21279205",
+      "40053704",
+      "19275203",
+      "38526948",
+      "35163513",
+      "33453268",
+      "40501881",
+      "39560935",
+      "34206440",
+      "32501695",
+      "28355162",
+      "38808958",
+      "38979955",
+      "39589726",
+      "3026503",
+      "30414964",
+      "31117604",
+      "20560582",
+      "12529503",
+      "37468629",
+      "33515602",
+      "39113361",
+      "20550901",
+      "30525615",
+      "40629388",
+      "29184995",
+      "23561534",
+      "215240",
+      "34308794",
+      "37681097",
+      "21322490",
+      "20616077",
+      "35465922",
+      "31132280",
+      "173414",
+      "22779661",
+      "21173272",
+      "19184379",
+      "36227474",
+      "16526654",
+      "36444977",
+      "34313292",
+      "23445506",
+      "32824618",
+      "35675630",
+      "7918544",
+      "41524628",
+      "34998884",
+      "38547652"
+    ],
+    "review": [
+      "39815790",
+      "36524527",
+      "39964249",
+      "31237369",
+      "30638529",
+      "41307542",
+      "39947751",
+      "38808958",
+      "38979955",
+      "37681097",
+      "32824618"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.4c06259",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

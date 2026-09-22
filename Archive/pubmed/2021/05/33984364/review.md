@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary figure references.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented evidence. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors propose that four cancer-associated missense mutations in the intrinsically disordered transactivation domain (TAD) of p53 perturb its disordered conformational ensemble, and that these perturbations, rather than direct disruption of binding interfaces, alter the balance of p53 interactions with key regulatory partners (HDM2, CBP TAZ1, TAZ2), thereby potentially contributing to tumor development.
+- **Visible evidence base** Binding assays (biolayer interferometry) for p53-TAD variants with HDM2, TAZ1, and TAZ2; 15N-HSQC NMR spectra and chemical shift perturbation analysis; relaxation measurements (R1, R2, heteronuclear NOE); reduced spectral density analysis; atomistic REST2 simulations with a99SB-disp force field; convergence analyses; secondary structure propensity calculations; principal component analysis of simulated ensembles.
+- **Missing materials affecting confidence** Raw BLI sensorgrams and fitting statistics; full NMR relaxation data tables with uncertainties; validation of the "non-specific" binding control; details on how the lower limit of KD was estimated for undetectable interactions; simulation starting structure details; replica exchange acceptance ratios per system; experimental validation of simulated ensemble properties beyond those previously published; statistical analysis of ensemble differences between variants.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question: whether cancer-associated mutations in the intrinsically disordered p53 TAD exert their effects through modulation of the disordered ensemble rather than direct interface disruption. The combination of binding assays, NMR spectroscopy, and extensive atomistic simulations is commendable and represents a rigorous approach to studying IDP function. The results are largely internally consistent and the conclusions are appropriately cautious in several places. However, several technical concerns and interpretive gaps remain that affect the strength of the central claim. In particular, the quantitative link between observed ensemble changes and binding affinity changes is not fully established, and the statistical significance of some reported differences is unclear. The manuscript would be substantially strengthened by addressing these issues.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, p53 biology, allosteric regulation in IDPs, and the molecular mechanisms of cancer-associated mutations. The work is also relevant to those developing therapeutic strategies targeting IDPs, as it provides evidence that ensemble modulation may be a viable mechanism for altering IDP function.
+- **Major strengths** The study combines multiple complementary techniques to address a challenging question. The simulation effort is extensive and appears well-converged. The observation that mutations outside binding interfaces can dramatically affect binding affinity is biologically significant. The NMR relaxation analysis provides experimental evidence for changes in conformational dynamics that support the ensemble modulation hypothesis. The authors are appropriately cautious in acknowledging limitations of their simulation approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for central claim
+  - **Claim pointer** The authors claim that "at least three of these mutations likely modulate the disordered state of p53-TAD to perturb its interactions with regulators" and that this is the primary mechanism underlying the observed binding changes.
+  - **Evidence pointer** Results section "Cancer mutations perturb p53-TAD's interactions with key regulators"; Table 1; Figures 2, 4, 5, 6, 7
+  - **Concern** The central claim that ensemble modulation causes the observed binding changes is not directly tested. The authors show correlations between ensemble changes and binding changes, but do not establish causality. For example, the K24N mutation reduces TAZ2 affinity but does not show significant ensemble compaction in simulations. Conversely, D49Y shows compaction but the relationship to TAZ2 binding loss is not mechanistically explained. The authors do not provide a quantitative model linking specific ensemble features (e.g., population of bound-like conformations, exposure of binding residues) to binding kinetics or affinity. Without such a link, the claim that ensemble modulation is the mechanism remains speculative.
+  - **Why it matters** The central conclusion of the paper rests on this causal link. If the binding changes are due to direct but subtle interface effects not captured by the analysis, or to changes in conformational selection that are not reflected in the ensemble properties examined, the interpretation would be substantially different.
+  - **Resolution test** Provide a quantitative analysis showing that specific ensemble features (e.g., population of conformations with binding-competent geometry, solvent accessibility of key residues, or conformational entropy estimates) correlate with measured binding affinities across the variant set. Alternatively, perform binding experiments with pre-formed complexes or use mutants that specifically alter ensemble properties without changing interface residues to demonstrate causality.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report differences in NMR relaxation parameters, spectral densities, and simulation-derived properties between WT and variants, and interpret these as significant.
+  - **Evidence pointer** Figures 5, S10-S13; Tables S6-S21; Figures 6, 7, S14-S22
+  - **Concern** The manuscript does not report statistical analyses for most of the reported differences. For NMR relaxation data, no uncertainties or error bars are shown in the figures. For simulation-derived properties, no confidence intervals or statistical tests are provided to support claims of significant differences between variants. The convergence analysis is qualitative. Without statistical rigor, it is difficult to assess whether the reported differences are robust or within noise.
+  - **Why it matters** The conclusions about ensemble perturbation rely on detecting subtle differences between variants. If these differences are not statistically significant, the central claim is weakened.
+  - **Resolution test** Provide error bars or confidence intervals for all reported quantities, and perform appropriate statistical tests (e.g., bootstrap or Bayesian analysis for simulation data; replicate measurements for NMR) to demonstrate that the reported differences are significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of binding data
+  - **Claim pointer** The authors state that for several variants, interactions with TAZ2 or HDM2 were "below the limit of detection" and provide approximate lower limits for KD.
+  - **Evidence pointer** Table 1; Figure 2; Methods section "Biolayer interferometry binding assays"
+  - **Concern** The method for estimating the lower limit of KD for undetectable interactions is described only briefly. The statement that "complex formation efficiency did not exceed 2-3%" is used to derive a KD limit, but the reasoning is not fully explained. Additionally, the "non-specific" binding control traces appear to show substantial signal, and it is unclear how this background was subtracted or accounted for in the analysis. The reliability of the KD values for detectable interactions is also not assessed (e.g., no replicate variability reported).
+  - **Why it matters** The binding data are the primary functional readout. If the KD values or detection limits are not reliable, the conclusions about differential effects of mutations on binding are compromised.
+  - **Resolution test** Provide a more detailed description of the data analysis, including how non-specific binding was subtracted, how the detection limit was calculated, and include replicate measurements with variability estimates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation validation
+  - **Claim pointer** The authors state that the simulated ensembles "are expected to provide a viable atomistic description" of the variants, based on previous validation of the WT ensemble.
+  - **Evidence pointer** Results section "Atomistic simulations of conformational redistributions in p53-TAD mutants"; Methods section "Atomistic simulation and analysis"
+  - **Concern** The validation of the simulation approach is referenced to previous work, but no direct comparison of the simulated WT ensemble to experimental data is shown in this manuscript. The authors do not demonstrate that the simulation accurately captures the effects of mutations on ensemble properties, which is critical for the interpretation. The convergence analysis is based on segmental consistency, but this does not guarantee that the simulations have explored all relevant conformational space, particularly for the variants that may sample different regions of the free energy landscape.
+  - **Why it matters** The simulation results are used to support the ensemble modulation hypothesis. If the simulations are not adequately validated for the variants, the conclusions drawn from them are uncertain.
+  - **Resolution test** Provide a direct comparison of simulated and experimental observables (e.g., chemical shifts, Rg from SAXS, FRET efficiencies) for at least one or two variants. Additionally, demonstrate that the simulations have converged with respect to the properties used for interpretation, using more rigorous convergence metrics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2
+  - **Issue** The figure shows representative BLI traces, but it is unclear how many replicates were performed and whether the traces shown are representative. The "non-specific" control traces are shown, but the difference between specific and non-specific binding is not always visually obvious.
+  - **Required correction** Clearly state the number of replicates in the figure legend and indicate whether the traces are representative. Consider showing averaged traces with error bands.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of N29K/N30D
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors discuss the potential cellular implications of the N29K/N30D variant, which loses binding to both HDM2 and TAZ2. However, they do not discuss the possibility that this variant might acquire new interactions or that the loss of both interactions could have complex, non-additive effects on p53 function.
+  - **Required correction** Add a brief discussion of potential compensatory or alternative mechanisms that might operate in cells expressing this variant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** NMR assignment
+  - **Evidence pointer** Methods section "Heteronuclear NMR experiments of p53-TAD variants"
+  - **Issue** The manuscript states that assignments for variants were made by transferring WT assignments to the nearest orphan peaks. This is a reasonable approach for IDPs, but the potential for misassignment in regions with significant chemical shift changes is not discussed.
+  - **Required correction** Briefly acknowledge the limitations of this assignment approach and note that the conclusions are robust to potential minor misassignments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 7
+  - **Evidence pointer** Figure 7
+  - **Issue** The PCA plots are informative but the labeling of the axes and the interpretation of the clusters could be clearer. It is not immediately obvious what the principal components represent in terms of physical properties.
+  - **Required correction** Add a brief description of what the principal components represent (e.g., degree of compaction, specific conformational features) and clarify the interpretation of the clusters.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction could benefit from a more explicit discussion of previous studies that have examined the effects of mutations on IDP ensembles and how the current work extends or challenges those findings.
+  - **Required correction** Add a brief paragraph situating the current work within the broader literature on IDP mutations and ensemble-function relationships.
+- **Technical failings that need to be addressed before the case is established** The lack of statistical rigor in reporting differences (R1-M2) and the absence of a direct causal link between ensemble changes and binding changes (R1-M1) are the most significant technical issues. The binding data analysis also needs more detail (R1-M3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its specific combination of mutations, methods, and the focus on ensemble-mediated effects in p53 TAD. The concept of IDP ensemble modulation by disease mutations is not entirely new, but the systematic approach here is valuable.
+  - **Scientific importance** The findings have potential importance for understanding how mutations in IDPs contribute to disease, and for the broader concept of IDP allostery. The p53 system is of high biomedical relevance.
+  - **Interdisciplinary readership** The work will appeal to biophysicists, structural biologists, cancer biologists, and computational biologists. The methods and concepts are accessible across these fields.
+  - **Technical soundness** The methods are generally sound and state-of-the-art, but the statistical rigor and causal inference need improvement as noted above.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, though some sections (e.g., spectral density analysis) may be challenging for non-specialists. The figures are helpful.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the data are potentially valuable, but the central claim requires stronger statistical support and a more direct demonstration of causality between ensemble changes and binding changes.
+
+## Risk / unsupported claims
+- The claim that "at least three of these mutations likely modulate the disordered state of p53-TAD to perturb its interactions with regulators" is not fully supported because causality is not established.
+- The claim that the simulations "are expected to provide a viable atomistic description" of the variants is not directly validated in this manuscript.
+- The statement that "the four mutations studied in this work do not all directly disrupt the known interaction interfaces" is supported for some mutations but the evidence for K24N and N29K/N30D is indirect.
+- The estimated lower limits for KD of undetectable interactions are based on assumptions that are not fully detailed or validated.
+- The claim that the observed changes in binding affinity are "profound" is qualitative and not supported by a quantitative comparison to the functional consequences of known p53 mutations.

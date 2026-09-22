@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39059370",
+  "title": "Polysome collapse and RNA condensation fluidize the cytoplasm.",
+  "authors": "Xie, Ying; Shu, Tong; Liu, Tiewei; Spindler, Marie-Christin; Mahamid, Julia; Hocky, Glen M; Gresham, David; Holt, Liam J",
+  "journal": "Molecular cell",
+  "published_date": "2024-07-27",
+  "window": {
+    "start": "2024-07-22",
+    "end": "2024-07-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过粗粒化分子动力学模拟揭示多聚核糖体解体和RNA凝聚体形成使细胞质流体化，虽对象为细胞质而非特定IDP，但聚焦RNA-蛋白凝聚体（含IDR）介导的相分离机制，且用物理模拟支撑，对无序蛋白介导PPI与凝聚体机制建模有直接启发。",
+  "abstract": "The cell interior is packed with macromolecules of mesoscale size, and this crowded milieu significantly influences cellular physiology. Cellular stress responses almost universally lead to inhibition of translation, resulting in polysome collapse and release of mRNA. The released mRNA molecules condense with RNA-binding proteins to form ribonucleoprotein (RNP) condensates known as processing bodies and stress granules. Here, we show that polysome collapse and condensation of RNA transiently fluidize the cytoplasm, and coarse-grained molecular dynamic simulations support this as a minimal mechanism for the observed biophysical changes. Increased mesoscale diffusivity correlates with the efficient formation of quality control bodies (Q-bodies), membraneless organelles that compartmentalize misfolded peptides during stress. Synthetic, light-induced RNA condensation also fluidizes the cytoplasm. Together, our study reveals a functional role for stress-induced translation inhibition and formation of RNP condensates in modulating the physical properties of the cytoplasm to enable efficient response of cells to stress conditions.",
+  "abstract_zh": "细胞内部充满了中尺度大小的生物大分子，这种拥挤环境显著影响细胞生理学。细胞应激反应几乎普遍导致翻译抑制，引起多聚核糖体解体并释放mRNA。释放的mRNA分子与RNA结合蛋白凝聚形成核糖核蛋白（RNP）凝聚体，称为加工体和应激颗粒。在此，我们表明多聚核糖体解体和RNA凝聚会瞬时使细胞质流态化，粗粒化分子动力学模拟支持这是观察到的生物物理变化的最小机制。中尺度扩散性的增加与质量控制体（Q-bodies）的高效形成相关，这些无膜细胞器在应激期间区隔错误折叠肽段。合成的光诱导RNA凝聚也能使细胞质流态化。综合来看，我们的研究揭示了应激诱导的翻译抑制和RNP凝聚体形成在调节细胞质物理性质以促进细胞对应激条件高效响应中的功能作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39059370/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39059370/",
+  "paper_page_path": "papers/pubmed/39059370/index.html"
+}

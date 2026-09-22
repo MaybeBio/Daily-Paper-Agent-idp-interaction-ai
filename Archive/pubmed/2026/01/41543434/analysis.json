@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41543434",
+  "title": "Molecular versatility of polyproline II helices: from natural proteins to biomimetic materials.",
+  "authors": "C Seco, Francisco; Amador, Sandro; Conzuelo, Felipe; Baptista, Ana C; Morgado, Leonor; Pina, Ana S",
+  "journal": "Journal of materials chemistry. B",
+  "published_date": "2026-01-16",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 6,
+  "one_liner_zh": "综述聚脯氨酸II螺旋在天然蛋白互作及生物分子凝聚体中的结构功能作用，并比较光谱与AI预测工具，虽涉及IDR相关互作机制但以综述为主、缺乏新建模方法。",
+  "abstract": "The polyproline II helix is more common as a secondary structure than previously thought. Its significance extends to mediating various protein-protein interactions, both structurally and functionally, in natural systems. This structure is associated with the formation of supramolecular assemblies, which have been investigated for biomimetic applications. In this review, we highlight three examples of polyproline II helix utilization: structurally in collagen and in biomolecular condensates, and as functional motifs in hyperactive antifreeze proteins. The review examines the mechanisms underlying the properties of PPII and consolidates practical design principles for engineering PPII-based assemblies, with an emphasis on sequence composition, residue propensity, and crosslinking strategies that enhance stability and functionality. Additionally, by critically comparing spectroscopic methods (CD, VCD, ROA and NMR) and AI-based prediction tools, we summarize their respective strengths and limitations, providing a practical decision framework for selecting the most suitable characterization techniques for different sample types and research objectives.",
+  "abstract_zh": "聚脯氨酸II型螺旋（polyproline II helix）作为一种二级结构，其普遍性远超以往认知。其在天然系统中，无论在结构还是功能层面，均对介导多种蛋白质-蛋白质相互作用具有重要意义。该结构与超分子组装体的形成相关，这些组装体已被探索用于仿生应用。在本综述中，我们重点介绍聚脯氨酸II型螺旋利用的三个实例：在结构上，见于胶原蛋白和生物分子凝聚体（biomolecular condensates）中；在功能上，作为超活性抗冻蛋白（hyperactive antifreeze proteins）的功能基序。本综述探讨了PPII特性背后的机制，并整合了基于PPII组装体工程设计的实用原则，重点涵盖序列组成、残基倾向性以及增强稳定性和功能的交联策略。此外，通过批判性比较光谱方法（CD、VCD、ROA和NMR）及基于AI的预测工具，我们总结了它们各自的优势与局限性，为针对不同样品类型和研究目标选择最合适的表征技术提供了实用决策框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41543434/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41543434/",
+  "paper_page_path": "papers/pubmed/41543434/index.html"
+}

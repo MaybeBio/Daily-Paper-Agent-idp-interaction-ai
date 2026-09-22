@@ -1,0 +1,243 @@
+{
+  "identity": {
+    "pmid": "39214280",
+    "doi": "10.1016/j.jmb.2024.168766",
+    "title": "The Enigma of Transcriptional Activation Domains."
+  },
+  "content": {
+    "abstract": "Activation domains (ADs) of eukaryotic gene activators remain enigmatic for decades as short, extremely variable sequences which often are intrinsically disordered in structure and interact with an uncertain number of targets. The general absence of specificity increasingly complicates the utilization of the widely accepted mechanism of AD function by recruitment of coactivators. The long-standing enigma at the heart of molecular biology demands a fundamental rethinking of established concepts. Here, we review the experimental evidence supporting a novel mechanistic model of gene activation, based on ADs functioning via surfactant-like near-stochastic interactions with gene promoter nucleosomes. This new model is consistent with recent information-rich experimental data obtained using high-throughput synthetic biology and bioinformatics analysis methods, including machine learning. We clarify why the conventional biochemical principle of specificity for sequence, structures, and interactions fails to explain activation domain function. This perspective provides connections to the liquid-liquid phase separation model, signifies near-stochastic interactions as fundamental for the biochemical function, and can be generalized to other cellular functions.",
+    "keywords": [
+      "IDR",
+      "activation domain",
+      "chromatin",
+      "fuzzy interactions",
+      "gene activator",
+      "transcription regulation"
+    ],
+    "mesh_terms": [
+      "*Transcriptional Activation",
+      "*Nucleosomes/metabolism/genetics",
+      "*Promoter Regions, Genetic",
+      "Humans",
+      "Protein Domains",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Erkine, Alexandre M",
+        "Oliveira, Marcos A",
+        "Class, Caleb A"
+      ],
+      "short_names": [
+        "Erkine AM",
+        "Oliveira MA",
+        "Class CA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Butler University, Indianapolis, IN 46208, USA. Electronic address: aerkine@butler.edu.",
+        "Butler University, Indianapolis, IN 46208, USA.",
+        "Butler University, Indianapolis, IN 46208, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Erkine, Alexandre M",
+        "short_name": "Erkine AM",
+        "identifiers": [],
+        "affiliations": [
+          "Butler University, Indianapolis, IN 46208, USA. Electronic address: aerkine@butler.edu."
+        ]
+      },
+      {
+        "full_name": "Oliveira, Marcos A",
+        "short_name": "Oliveira MA",
+        "identifiers": [],
+        "affiliations": [
+          "Butler University, Indianapolis, IN 46208, USA."
+        ]
+      },
+      {
+        "full_name": "Class, Caleb A",
+        "short_name": "Class CA",
+        "identifiers": [],
+        "affiliations": [
+          "Butler University, Indianapolis, IN 46208, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2024 Nov 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/31 09:53",
+    "fetched_at": "2026-09-22 01:40:56"
+  },
+  "links": {
+    "cites": [
+      "42519045",
+      "41590427",
+      "39524347"
+    ],
+    "refs": [],
+    "similar": [
+      "39214280",
+      "33904398",
+      "34522860",
+      "27679670",
+      "30297207",
+      "23912807",
+      "32416068",
+      "39187372",
+      "23307074",
+      "15294907",
+      "25122681",
+      "38056064",
+      "31964832",
+      "10567540",
+      "19108605",
+      "9894806",
+      "26627840",
+      "20059977",
+      "35537448",
+      "41511382",
+      "19782779",
+      "10629047",
+      "39755236",
+      "40371733",
+      "8887635",
+      "29507182",
+      "1924310",
+      "23572549",
+      "10966808",
+      "15284898",
+      "37971402",
+      "9256411",
+      "35934050",
+      "16547351",
+      "39555660",
+      "29562181",
+      "8389909",
+      "9852139",
+      "27175900",
+      "24065740",
+      "12052856",
+      "32210477",
+      "10500094",
+      "27046080",
+      "29759983",
+      "25563930",
+      "8633061",
+      "40114377",
+      "12191469",
+      "31424720",
+      "17668451",
+      "39809941",
+      "39933695",
+      "12586842",
+      "21408617",
+      "12893880",
+      "39235627",
+      "9774346",
+      "30266658",
+      "39631290",
+      "39174527",
+      "34179096",
+      "36648282",
+      "18226242",
+      "15056733",
+      "33523844",
+      "21508315",
+      "18831774",
+      "27515574",
+      "39020176",
+      "22183601",
+      "24000349",
+      "25764221",
+      "39933697",
+      "11134341",
+      "11413146",
+      "11739731",
+      "41838698",
+      "18523016",
+      "39524347",
+      "38073129",
+      "30574148",
+      "16461347",
+      "12364598",
+      "37745555",
+      "10567574",
+      "11416135",
+      "26335633",
+      "12101239",
+      "30248133",
+      "7565743",
+      "39229005",
+      "33248138",
+      "22506020",
+      "24465000",
+      "33382702",
+      "25645928",
+      "36321557",
+      "20720004",
+      "10913304"
+    ],
+    "review": [
+      "39214280",
+      "27679670",
+      "30297207",
+      "23307074",
+      "38056064",
+      "9894806",
+      "19782779",
+      "15284898",
+      "9256411",
+      "12191469",
+      "17668451",
+      "12893880",
+      "30266658",
+      "39631290",
+      "36648282",
+      "33248138"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(24)00386-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-107",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

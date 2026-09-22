@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusion, acknowledgments) from bioRxiv preprint
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors report long-timescale MD simulations of the small molecule fasudil binding to the intrinsically disordered protein α-synuclein. They claim that simulated contact probabilities correlate with NMR chemical shift perturbations, that binding is driven by charge-charge and π-stacking interactions near the C terminus, that a "dynamic shuttling" mechanism describes the temporal sequence of weak interactions, and that prospective simulations of 49 ligand analogs with NMR validation on a subset support the predictive utility of their approach.
+- **Visible evidence base** Abstract, full text of introduction, results and discussion, conclusion, acknowledgments. References cited but not individually verified. Figures and tables referenced but not provided. Supplementary materials referenced but not provided.
+- **Missing materials affecting confidence** All figures (Figures 1–4), supplementary figures (Figures S1–S11), supplementary tables (Tables S1–S3), simulation protocols, force field parameters, NMR experimental details, ligand structures, and statistical analyses. These are essential for verifying the quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially valuable application of long-timescale MD simulations to a challenging problem, namely small-molecule binding to an IDP. The central claim, that simulations can reproduce and predict binding preferences of fasudil and analogs to α-synuclein, is scientifically interesting and would be of broad interest if fully supported. However, the provided text alone does not contain the quantitative evidence needed to assess the strength of the correlations, the validity of the force field and simulation protocols, or the rigor of the prospective validation. The "dynamic shuttling" concept is descriptive and plausible, but its mechanistic novelty and generalizability are not yet established. The manuscript is clearly written and accessible, but several technical details and validations are missing from the visible text.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, molecular dynamics simulation, drug discovery for neurodegenerative diseases, and biophysical chemistry. The work is relevant to those interested in whether modern force fields and long-timescale sampling can capture weak, transient, and sequence-specific interactions between small molecules and disordered proteins, a question with direct implications for structure-based drug design targeting IDPs.
+- **Major strengths** The study addresses a significant and timely problem, namely the druggability of IDPs, using state-of-the-art long-timescale MD. The combination of retrospective correlation with NMR data and prospective prediction with experimental validation is a strong design. The concept of "dynamic shuttling" provides a potentially useful framework for thinking about IDP-ligand interactions. The writing is clear and the logic of the argument is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "the probability of observing contacts between fasudil and α-syn in the simulation and the magnitude of NMR CSPs measured for each residue are in excellent agreement (Figure S1, Pearson correlation coefficient, r = 0.67)."
+  - **Evidence pointer** Figure S1, location not provided
+  - **Concern** The correlation coefficient of r = 0.67 is presented as "excellent agreement," but the text does not provide the corresponding figure, the statistical significance of the correlation, the confidence interval, or a comparison to a null model. A correlation of 0.67, while non-trivial, may not be sufficient to support the strong claim of "excellent agreement" and the subsequent assertion that the simulation "provides a highly accurate description of the molecular interactions." The manuscript text alone does not allow the reader to assess whether this correlation is driven by a few residues or is robust across the sequence.
+  - **Why it matters** The entire premise of the study, that the simulations are accurate enough to identify binding sites and predict relative affinities, rests on this correlation. If the agreement is not as strong as claimed, or if the correlation is inflated by a small number of outlier residues, the conclusions would be substantially weakened.
+  - **Resolution test** Provide the scatter plot of contact probability versus CSP magnitude, the p-value and confidence interval for the Pearson correlation, and a residue-by-residue breakdown. Also provide a comparison to a control simulation or a randomized contact model to demonstrate that the correlation is not trivial.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that they performed "a 1.5-ms MD simulation of α-syn and fasudil using the a99SB-disp force field and the generalized amber force field (GAFF) for fasudil."
+  - **Evidence pointer** Results and Discussion, first paragraph; location not provided
+  - **Concern** The text does not provide any details on the simulation setup, including the initial conformation of α-syn, the solvation box size, the ionic strength, the temperature and pressure coupling schemes, the integration time step, the treatment of long-range electrostatics, or the number of replicas. The choice of GAFF parameters for fasudil is mentioned but no validation of these parameters (e.g., against quantum mechanical calculations or experimental data) is described. The manuscript also does not state how convergence was assessed for a 1.5-ms simulation of a disordered protein, which is a non-trivial issue.
+  - **Why it matters** Reproducibility and reliability of the simulation results are fundamental. Without these details, the reader cannot judge whether the simulation is technically sound, whether the sampling is sufficient, or whether the results are sensitive to the chosen parameters. This is particularly important for a system as conformationally heterogeneous as an IDP.
+  - **Resolution test** Provide a full description of the simulation protocol in the Methods section, including system preparation, equilibration, production run parameters, and convergence analysis (e.g., block averaging, multiple independent runs, or comparison of contact probabilities across time windows).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of prospective predictions
+  - **Claim pointer** The authors claim that "the experimentally determined relative affinities of these molecules were in line with our computational predictions" and that "the measured CSPs provided support for key structural features of the simulated binding interactions."
+  - **Evidence pointer** Results and Discussion, paragraphs on ligand screening and NMR validation; Figures 3 and 4, location not provided
+  - **Concern** The text states that relative affinities were estimated from the slope of CSPs for three tyrosine residues, but no quantitative comparison between predicted and measured affinities is provided. The manuscript does not report the predicted K_D values for the tested ligands, the measured CSP slopes, or any statistical measure of agreement (e.g., rank correlation, error bars). The claim that Ligand 47 has higher affinity than fasudil is supported only by qualitative statements. The text also acknowledges that the simulations "did not capture well the overall relative affinities of ligands at Y39," which is a significant caveat that is not fully addressed.
+  - **Why it matters** The prospective validation is the key test of the predictive power of the method. Without quantitative data, the reader cannot assess whether the predictions are genuinely useful or merely qualitatively consistent. The partial failure at Y39 raises questions about the generalizability of the approach and should be discussed in more depth.
+  - **Resolution test** Provide a table comparing predicted K_D values (with uncertainties) to experimentally estimated relative affinities for all tested ligands, including a statistical measure of agreement. Discuss the Y39 discrepancy in detail, including possible reasons and implications for the method.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual novelty
+  - **Claim pointer** The authors propose a "dynamic shuttling" mechanism, defined as the breaking of one preferred interaction and forming another nearby, and suggest this provides "a mechanistic explanation for how ligands can achieve sequence-specific binding with IDPs."
+  - **Evidence pointer** Results and Discussion, paragraphs on dynamic shuttling; Figures 2 and 3, location not provided
+  - **Concern** The concept of dynamic shuttling is descriptive and may be a useful way to summarize the simulation observations, but the text does not clearly distinguish it from previously described models of IDP-ligand binding, such as conformational selection, induced fit, or fuzzy complexes. The authors mention related concepts in the conclusion but do not provide a detailed comparison. The claim that this mechanism is generalizable to other IDP-ligand systems is speculative and not supported by data beyond the specific cases studied.
+  - **Why it matters** The novelty of the conceptual contribution is a key part of the manuscript's significance. If dynamic shuttling is simply a restatement of known behavior in new terms, the impact is reduced. If it is a genuinely new mechanistic insight, it needs to be more clearly defined and differentiated from existing models.
+  - **Resolution test** Provide a more rigorous definition of dynamic shuttling, including quantitative criteria for identifying it in simulations. Compare and contrast with existing models of IDP-ligand binding, and discuss what new predictions or insights this concept offers.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, last sentence
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "suggesting the potential for MD-based strategies to facilitate the rational design of small molecules that bind with disordered proteins" is vague. It is unclear whether the authors are claiming that their specific approach is ready for use in drug discovery or merely that it is a promising direction.
+  - **Required correction** Clarify the scope of the claim, e.g., by specifying what further validation or development is needed before the method can be applied in a drug discovery context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and Discussion, ligand screening section
+  - **Evidence pointer** Results and Discussion, paragraph on ligand screening; Figure S9, location not provided
+  - **Issue** The text states that 49 compounds were selected but does not describe the selection criteria or the chemical diversity of the library. It is also unclear whether the simulations of the 49 compounds were all 60 μs in length and whether any were run in replicate.
+  - **Required correction** Provide a brief description of the compound selection process and the simulation protocol for the library, including any quality control measures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results and Discussion, NMR validation section
+  - **Evidence pointer** Results and Discussion, paragraph on NMR validation; Figure 4, location not provided
+  - **Issue** The text reports that relative affinities were estimated from CSP slopes but does not provide error estimates or the number of titration points. It is also unclear whether the slopes were linear over the entire titration range.
+  - **Required correction** Report the number of titration points, the uncertainty in the slope estimates, and any evidence for linearity or deviations from it.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results and Discussion, Y39 discussion
+  - **Evidence pointer** Results and Discussion, final paragraph; Figure 4C, location not provided
+  - **Issue** The text notes that Ligand 23 had the strongest affinity for Y39 but does not discuss the structural basis for this preference or why the simulations failed to capture the overall Y39 affinities. This is a missed opportunity to provide insight into sequence-specific binding.
+  - **Required correction** Add a brief discussion of possible reasons for the Y39 discrepancy and what it implies about the limitations of the simulation approach.
+
+## Risk / unsupported claims
+- The claim of "excellent agreement" between simulated contact probabilities and NMR CSPs (r = 0.67) is not fully supported without the figure and statistical details.
+- The claim that the simulations "provide a highly accurate description of the molecular interactions" is overstated given the missing validation details.
+- The claim that the prospective predictions were "in line with" experimental results is not quantitatively supported.
+- The generalizability of the "dynamic shuttling" mechanism to other IDP-ligand systems is speculative and not supported by the presented data.
+- The statement that the simulations "may be capable of differentiating between the affinities of small molecules to tyrosine residues in different sequence contexts" is not fully supported given the acknowledged failure at Y39.
+- The conclusion that "MD simulations can be a valuable tool for describing the binding of small molecules to disordered proteins" is plausible but not fully established from the provided evidence.

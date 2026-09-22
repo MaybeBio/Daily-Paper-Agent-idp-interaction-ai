@@ -1,0 +1,498 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.11.675358",
+  "title": "“Design principles of a membrane-spanning ubiquitin ligase”",
+  "doi": "10.1101/2025.09.11.675358",
+  "abstract": "<h4>Summary</h4> Receptor-type E3 ubiquitin ligases are membrane-spanning assemblies that enable extracellular signals to directly control ubiquitylation in the cytoplasm. Despite playing widespread roles in tissue patterning and homeostasis, metabolism, and immunity, their structures and mechanisms remain poorly understood. Using cryo-electron microscopy, integrated with biophysical and functional studies, we visualized an E3 complex composed of two transmembrane proteins, MEGF8 and MOSMO, and the intracellular RING-family protein MGRN1. This MEGF8-MOSMO-MGRN1 (MMM) complex regulates left-right patterning of the body axis and the development of multiple organs, partly by attenuating signaling through the Hedgehog pathway. We find that the MMM complex functions like a fishing pole: a long, flexible helix attached to a membrane platform suspends an activated and precisely oriented RING domain—like a fishhook—to ubiquitylate the cytoplasmic surfaces of target receptors. Our structure explains how mutations in MEGF8 cause multi-organ birth defects in humans and defines a paradigm for receptor regulation by ubiquitylation.",
+  "authors": [
+    "Williams C",
+    "Nocka LM",
+    "Hedger G",
+    "Parashara P",
+    "Pardon E",
+    "Latorraca NR",
+    "Pusapati GV",
+    "Lartey D",
+    "Gao L",
+    "Milenkovic L",
+    "Chalk R",
+    "Steyaert J",
+    "Marqusee S",
+    "Carrique L",
+    "Bazan JF",
+    "Rouse SL",
+    "Kong JH",
+    "Siebold C",
+    "Rohatgi R"
+  ],
+  "published_date": "2025-09-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.11.675358",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.11.675358.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1084961",
+    "raw_record": {
+      "id": "PPR1084961",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1084961"
+        ]
+      },
+      "doi": "10.1101/2025.09.11.675358",
+      "title": "“Design principles of a membrane-spanning ubiquitin ligase”",
+      "authorString": "Williams C, Nocka LM, Hedger G, Parashara P, Pardon E, Latorraca NR, Pusapati GV, Lartey D, Gao L, Milenkovic L, Chalk R, Steyaert J, Marqusee S, Carrique L, Bazan JF, Rouse SL, Kong JH, Siebold C, Rohatgi R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Williams C",
+            "lastName": "Williams",
+            "firstName": "Carys",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Structural Biology, , Nuffield Department of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nocka LM",
+            "lastName": "Nocka",
+            "firstName": "Laura",
+            "initials": "LM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Biochemistry and Medicine, Stanford University School of Medicine, Stanford, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hedger G",
+            "lastName": "Hedger",
+            "firstName": "George",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sir Ernst Chain Building, South Kensington Campus , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parashara P",
+            "lastName": "Parashara",
+            "firstName": "Pragya",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pardon E",
+            "lastName": "Pardon",
+            "firstName": "Els",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "VIB-VUB Center for Structural Biology, , Pleinlaan 2 , , ,"
+                },
+                {
+                  "affiliation": "Structural Biology Brussels, , Pleinlaan 2 , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Latorraca NR",
+            "lastName": "Latorraca",
+            "firstName": "Naomi",
+            "initials": "NR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular & Cell Biology, , , ,"
+                },
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biophysics, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pusapati GV",
+            "lastName": "Pusapati",
+            "firstName": "Ganesh",
+            "initials": "GV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Biochemistry and Medicine, Stanford University School of Medicine, Stanford, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lartey D",
+            "lastName": "Lartey",
+            "firstName": "Dorothy",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gao L",
+            "lastName": "Gao",
+            "firstName": "Lei",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Milenkovic L",
+            "lastName": "Milenkovic",
+            "firstName": "Ljiljana",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Biochemistry and Medicine, Stanford University School of Medicine, Stanford, California, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chalk R",
+            "lastName": "Chalk",
+            "firstName": "Rod",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Medicines Discovery, Nuffield Department of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Steyaert J",
+            "lastName": "Steyaert",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "VIB-VUB Center for Structural Biology, , Pleinlaan 2 , , ,"
+                },
+                {
+                  "affiliation": "Structural Biology Brussels, , Pleinlaan 2 , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marqusee S",
+            "lastName": "Marqusee",
+            "firstName": "Susan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular & Cell Biology, , , ,"
+                },
+                {
+                  "affiliation": "Department of Chemistry, , , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carrique L",
+            "lastName": "Carrique",
+            "firstName": "Loïc",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Structural Biology, , Nuffield Department of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bazan JF",
+            "lastName": "Bazan",
+            "firstName": "Fernando",
+            "initials": "JF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "ℏ bioconsulting, LLC, Stillwater, MN 55082, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rouse SL",
+            "lastName": "Rouse",
+            "firstName": "Sarah",
+            "initials": "SL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sir Ernst Chain Building, South Kensington Campus , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kong JH",
+            "lastName": "Kong",
+            "firstName": "Jennifer",
+            "initials": "JH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, School of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Siebold C",
+            "lastName": "Siebold",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Structural Biology, , Nuffield Department of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rohatgi R",
+            "lastName": "Rohatgi",
+            "firstName": "Rajat",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Biochemistry and Medicine, Stanford University School of Medicine, Stanford, California, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Summary</h4>  Receptor-type E3 ubiquitin ligases are membrane-spanning assemblies that enable extracellular signals to directly control ubiquitylation in the cytoplasm. Despite playing widespread roles in tissue patterning and homeostasis, metabolism, and immunity, their structures and mechanisms remain poorly understood. Using cryo-electron microscopy, integrated with biophysical and functional studies, we visualized an E3 complex composed of two transmembrane proteins, MEGF8 and MOSMO, and the intracellular RING-family protein MGRN1. This MEGF8-MOSMO-MGRN1 (MMM) complex regulates left-right patterning of the body axis and the development of multiple organs, partly by attenuating signaling through the Hedgehog pathway. We find that the MMM complex functions like a fishing pole: a long, flexible helix attached to a membrane platform suspends an activated and precisely oriented RING domain—like a fishhook—to ubiquitylate the cytoplasmic surfaces of target receptors. Our structure explains how mutations in  MEGF8 cause multi-organ birth defects in humans and defines a paradigm for receptor regulation by ubiquitylation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "acronym": "WT",
+            "grantId": "301619/Z/23/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "GM132518",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "GM148823",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "acronym": "WT",
+            "grantId": "060208/Z/00/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "acronym": "WT",
+            "grantId": "090532/Z/09/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "acronym": "WT",
+            "grantId": "093305/Z/10/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Cancer Research UK",
+            "acronym": "CRUK_",
+            "grantId": "C20724/A26752",
+            "orderIn": 0
+          },
+          {
+            "agency": "Chan Zuckerberg Biohub San Francisco",
+            "orderIn": 0
+          },
+          {
+            "agency": "Walter V. And Idun Berry Postdoctoral Fellowship",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "GM118082",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "HL157103",
+            "orderIn": 0
+          },
+          {
+            "agency": "Cancer Research UK",
+            "acronym": "CRUK_",
+            "grantId": "DRCRPG-May23/100002",
+            "orderIn": 0
+          },
+          {
+            "agency": "UK Research and Innovation",
+            "grantId": "MR/Y01975X/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "acronym": "WT",
+            "grantId": "218482/Z/19/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "CA015704",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "GM149319",
+            "orderIn": 0
+          },
+          {
+            "agency": "Dick and Anne Schneider",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.11.675358"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1084961"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1084961&type=FILE&fileName=EMS208923-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42190653",
+            "reference": "Molecular cell. 2026 Jun;86(11):2207-2222.e16",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208923",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "uniprot",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-09-18",
+      "firstPublicationDate": "2025-09-16",
+      "firstIndexDate": "2025-09-18",
+      "fullTextReceivedDate": "2025-09-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

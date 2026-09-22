@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "40985614",
+    "doi": "10.7554/eLife.106602",
+    "title": "Multiphase separation in postsynaptic density regulated by membrane geometry via interaction valency and volume."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are found at various cellular locations, nucleus, cytoplasm, and membrane. These condensates often contain multiple components and can separate into multiple phases with various morphologies such as core-shell droplets, implicating functional roles. Demixing and arrangements of condensates are determined by competitive interactions and their locations. Recent studies reported a puzzling multiphase morphology in postsynaptic density components: AMPA receptor, NMDA receptor, PSD-95, and CaMKII. The multiphase morphology appears reversed when transitioning from the solution to the membrane. Using this system as a model, we study the multiphase behavior of condensates in solution (3D) and domain formation on and beneath the membrane (2D) and elucidate molecular mechanisms behind the puzzle. Our simulations reproduce the core-shell structure in 3D in vitro solution, where AMPA-receptor/PSD-95 form the core and NMDA-receptor/CaMKII form the shell, triggered by CaMKII activation. Then, we obtain a reversed morphology on the membrane. This reversal is primarily driven by CaMKII's high valency and large volume. We find that, in solution, CaMKII's non-specific volume interaction dominates, while on the membrane, specific multivalent interactions overcome the excluded volume interaction of CaMKII. The layered structures of receptors and CaMKIIs reduce the excluded volume effects of CaMKII on receptors, making the multivalent interaction dominant. These findings highlight the differences between condensate formation in solution and membrane domain formation, modulated by their layered arrangement.",
+    "keywords": [
+      "biomolecular condensate",
+      "liquid-liquid phase separation",
+      "molecular biophysics",
+      "multi-phase condensate",
+      "none",
+      "postsynaptic density",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "*Post-Synaptic Density/metabolism/chemistry",
+      "Calcium-Calmodulin-Dependent Protein Kinase Type 2/metabolism",
+      "Receptors, N-Methyl-D-Aspartate/metabolism/chemistry",
+      "Receptors, AMPA/metabolism/chemistry",
+      "*Cell Membrane/metabolism/chemistry",
+      "Disks Large Homolog 4 Protein/metabolism",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yamada, Risa",
+        "Brandani, Giovanni B",
+        "Takada, Shoji"
+      ],
+      "short_names": [
+        "Yamada R",
+        "Brandani GB",
+        "Takada S"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-3573-4045",
+        "ORCID: 0000-0003-3379-0187",
+        "ORCID: 0000-0001-5385-7217"
+      ],
+      "affiliations": [
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan.",
+        "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yamada, Risa",
+        "short_name": "Yamada R",
+        "identifiers": [
+          "0009-0000-3573-4045"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Brandani, Giovanni B",
+        "short_name": "Brandani GB",
+        "identifiers": [
+          "0000-0003-3379-0187"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Takada, Shoji",
+        "short_name": "Takada S",
+        "identifiers": [
+          "0000-0001-5385-7217"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Graduate School of Science, Kyoto University, Kyoto, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2025 Sep 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/23 12:46",
+    "fetched_at": "2026-09-17 20:24:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40199325",
+      "39633194",
+      "39482532",
+      "38839340",
+      "38781377",
+      "38518933",
+      "38383656",
+      "37496268",
+      "37390213",
+      "37318128",
+      "37065433",
+      "36827181",
+      "36819870",
+      "36804705",
+      "36028355",
+      "35830796",
+      "35177616",
+      "34965414",
+      "34761188",
+      "34637756",
+      "34417170",
+      "34236318",
+      "34129784",
+      "34005864",
+      "33927400",
+      "33820972",
+      "33752045",
+      "33704061",
+      "33558506",
+      "33514725",
+      "33461072",
+      "33169001",
+      "32873929",
+      "32482873",
+      "32118433",
+      "31910298",
+      "31543422",
+      "31543265",
+      "31492534",
+      "30951647",
+      "30926670",
+      "30846599",
+      "30818351",
+      "30682370",
+      "30078712",
+      "29961577",
+      "29509422",
+      "29410531",
+      "29064502",
+      "28935776",
+      "28589927",
+      "28225081",
+      "27565345",
+      "27246855",
+      "25843401",
+      "25288112",
+      "24040218",
+      "23926273",
+      "23686171",
+      "23224972",
+      "22398450",
+      "22325858",
+      "21594948",
+      "18779583",
+      "18403705",
+      "17855605",
+      "17243894",
+      "16863319",
+      "16436603",
+      "15115789",
+      "11970590",
+      "11459059",
+      "9459448",
+      "8601796"
+    ],
+    "similar": [
+      "40985614",
+      "37891164",
+      "37496268",
+      "32386416",
+      "41102003",
+      "30867511",
+      "11896155",
+      "33927400",
+      "31492534",
+      "32029829",
+      "40803326",
+      "12372013",
+      "11279267",
+      "32238193",
+      "32341099",
+      "12177200",
+      "35856091",
+      "11222640",
+      "26604311",
+      "33235361",
+      "25164819",
+      "21807105",
+      "28746067",
+      "24952157",
+      "38781377",
+      "9454832",
+      "32678848",
+      "33672806",
+      "27477489",
+      "9751209",
+      "30709918",
+      "23439383",
+      "22044428",
+      "12834111",
+      "23967245",
+      "37318128",
+      "27623146",
+      "26665164",
+      "31910298",
+      "24347167",
+      "34051268",
+      "25446714",
+      "20878786",
+      "33819458",
+      "21443867",
+      "21925648",
+      "25533468",
+      "24118589",
+      "30249603",
+      "21610080",
+      "37290118",
+      "25047640",
+      "23478024",
+      "28244171",
+      "35727989",
+      "18562151",
+      "20074623",
+      "23749614",
+      "21606495",
+      "19169250",
+      "33139925",
+      "34637756",
+      "24462093",
+      "19253410",
+      "16253351",
+      "15537897",
+      "16120608",
+      "27956638",
+      "39370692",
+      "26270583",
+      "9502803",
+      "25979332",
+      "22334212",
+      "18082335",
+      "14749436",
+      "17156196",
+      "12933808",
+      "19453375",
+      "20010819",
+      "9694809",
+      "19240035",
+      "16172120",
+      "22375001",
+      "19846062",
+      "17602661",
+      "22072671",
+      "21594948",
+      "16182449",
+      "19104036",
+      "23719161",
+      "20457859",
+      "38825021",
+      "18077696",
+      "15894489",
+      "40848728",
+      "26884267",
+      "16319306",
+      "24831007",
+      "11459059",
+      "28223211"
+    ],
+    "review": [
+      "40985614",
+      "21807105",
+      "23439383",
+      "34051268",
+      "33819458",
+      "30249603",
+      "37290118",
+      "24462093",
+      "16253351",
+      "22334212",
+      "21594948"
+    ],
+    "pmc": [
+      "12456954"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40985614/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.106602",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

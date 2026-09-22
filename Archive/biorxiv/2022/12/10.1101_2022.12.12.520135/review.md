@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and acknowledgements
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence
+- **Shared manuscript claim summary** The authors report that condensates of two highly charged disordered human proteins, histone H1 and prothymosin α, exhibit a dense phase with ~1000-fold higher protein concentration and ~300-fold higher bulk viscosity than the dilute phase, yet single-molecule FRET and nsFCS measurements reveal sub-microsecond chain reconfiguration times in the dense phase, only ~3-fold slower than in the dilute phase. All-atom MD simulations reproduce these timescales and suggest that the local molecular environment in the dense phase is similar to that in the dilute phase, with transient electrostatic interactions and short-lived inter-chain contacts.
+- **Visible evidence base** Abstract, full introduction, results narrative, methods section, figure captions referenced in text (Figs. 1-3), supplementary figure references (Figs. S1-S14), table reference (Table 1), movie references (Movies 1-2)
+- **Missing materials affecting confidence** Actual figures and figure panels, supplementary figures, Table 1 data, movies, numerical values for key measurements, detailed fitting parameters, simulation convergence metrics, and raw data are not provided in the submitted text
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in the field of biomolecular condensates: whether molecular-scale dynamics within dense protein phases are slowed relative to dilute solutions, and what molecular mechanisms underlie any observed differences. The combination of single-molecule FRET, nsFCS, and all-atom MD simulations is powerful and appropriate. The central finding, that chain reconfiguration times in the dense phase are only ~3-fold slower than in the dilute phase despite a ~300-fold increase in bulk viscosity, is striking and potentially significant. However, the manuscript as presented has several technical concerns that must be addressed before the case is fully established. These include the interpretation of FRET efficiencies in the dense phase, the conversion of correlation times to reconfiguration times, the treatment of dye photophysics, the validation of the MD force field for this system, and the statistical treatment of simulation data. The writing is generally clear, but some methodological details are insufficiently described for full reproducibility.
+- **Who would be interested in the results, and why** Researchers studying biomolecular phase separation, intrinsically disordered proteins, and the physical chemistry of condensates would be the primary audience. The work is also relevant to those interested in the relationship between macroscopic material properties and molecular-scale dynamics in soft matter, and to developers and users of atomistic force fields for disordered proteins. The methodological approach combining single-molecule spectroscopy with large-scale MD simulations will be of interest to a broader biophysics community.
+- **Major strengths** The combination of complementary experimental and computational approaches is a significant strength. The use of single-molecule FRET and nsFCS to directly probe intramolecular dynamics within individual condensate droplets is technically demanding and represents an advance over bulk measurements. The large-scale all-atom MD simulations with explicit solvent, totaling ~6 μs, are substantial and provide mechanistic insight that experiments alone cannot offer. The finding that local molecular environments are similar between dense and dilute phases, despite vastly different macroscopic properties, is conceptually interesting and potentially generalizable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental methodology and data interpretation
+  - **Claim pointer** The authors claim that single-molecule FRET measurements in the dense phase report on intramolecular distances and dynamics of ProTα, and that the measured mean FRET efficiencies indicate a more expanded conformation in the dense phase compared to the dimer.
+  - **Evidence pointer** Results section "Observing rapid molecular dynamics in the dense phase", Fig. 2F, Methods section "Single-molecule spectroscopy"
+  - **Concern** The manuscript does not adequately address how the high protein concentration in the dense phase (~20% mass fraction, ~220 mg/mL) affects the photophysical properties of the fluorescent dyes used for FRET. At such high concentrations, potential artifacts include concentration-dependent quenching, changes in dye quantum yield or lifetime, and altered rotational mobility affecting the orientation factor κ². The authors state that κ² was assumed to be 2/3 based on steady-state anisotropy measurements, but the anisotropy values reported (0.18) suggest only partial rotational averaging. Furthermore, the correction of FRET efficiencies for the refractive index difference in the dense phase is described, but the magnitude of this correction and its uncertainty are not quantified. The interpretation of ⟨E⟩ values in terms of distance distributions relies on the assumption that the dye photophysics are identical in dilute and dense phases, which is not explicitly validated.
+  - **Why it matters** The central experimental claim, that ProTα is more expanded in the dense phase than in the dimer but more compact than in isolation, depends critically on the accuracy of the FRET efficiency measurements. If dye photophysics are altered in the dense phase, the inferred distances and the comparison between phases could be systematically biased, undermining the quantitative conclusions and the validation of the simulations.
+  - **Resolution test** The authors should provide control experiments demonstrating that dye quantum yields, lifetimes, and rotational correlation times are similar in dilute and dense phases, or apply appropriate corrections. They should also quantify the uncertainty in the refractive index correction and demonstrate that the inferred distance distributions are robust to reasonable variations in κ² and other photophysical parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data analysis and interpretation of dynamics
+  - **Claim pointer** The authors claim that nsFCS measurements yield chain reconfiguration times of 380 ± 39 ns in the dense phase, only ~3-fold slower than in the dimer, and that this reflects rapid intramolecular dynamics despite high bulk viscosity.
+  - **Evidence pointer** Results section "Observing rapid molecular dynamics in the dense phase", Fig. 2H, Methods section "Nanosecond fluorescence correlation spectroscopy (nsFCS)"
+  - **Concern** The conversion of the correlation time τ_cd to the reconfiguration time τ_r relies on a model that assumes diffusive dynamics in a potential of mean force derived from the distance distribution. This conversion is stated to involve less than 20% change in timescale, but the details of this calculation and its sensitivity to the assumed model are not presented. More critically, the nsFCS measurements in the dense phase are performed while scanning the sample to compensate for slow translational diffusion. The manuscript does not describe how the scanning speed and pattern affect the measured correlation functions, particularly at short lag times where conformational dynamics are expected to appear. The separation of conformational dynamics from dye photophysics (triplet blinking, rotational dynamics) in the dense phase, where the local environment may differ, is not fully validated. The reported uncertainty of ±39 ns appears to be only the statistical fitting error and does not include systematic errors from the model assumptions.
+  - **Why it matters** The quantitative claim of ~380 ns reconfiguration time in the dense phase is a key result of the paper. If the analysis method systematically biases this value, the comparison with the dimer and the conclusions about the similarity of local dynamics would be affected. The scanning procedure, if not properly accounted for, could introduce artifacts in the correlation functions at the timescales of interest.
+  - **Resolution test** The authors should provide a detailed description of the scanning procedure and demonstrate, through control experiments or simulations, that it does not affect the measured correlation functions in the relevant time range. They should also present the full model used to convert τ_cd to τ_r, including the potential of mean force, and assess the sensitivity of the derived τ_r to model assumptions. Systematic uncertainties should be propagated into the reported error.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation methodology and validation
+  - **Claim pointer** The authors claim that all-atom MD simulations of the dense phase reproduce the experimental FRET efficiencies and reconfiguration times, and that the simulations reveal a similar local molecular environment in dense and dilute phases.
+  - **Evidence pointer** Results section "Interaction dynamics from molecular simulations", Fig. 3, Table 1, Methods section "Molecular dynamics (MD) simulations"
+  - **Concern** The manuscript does not provide sufficient evidence that the MD simulations have converged and that the results are independent of the initial conditions and the system size. The dense-phase simulation contains 96 ProTα and 80 H1 molecules in a slab configuration, but the equilibration protocol and the criteria used to determine that the system is equilibrated are not described in detail. The comparison between simulated and experimental FRET efficiencies is presented in Table 1, but the table is not provided in the submitted text, and the level of agreement is not discussed quantitatively. The force field (Amber ff99SBws with TIP4P/2005s) has been previously used for IDPs, but its accuracy for highly charged proteins at high concentrations in condensates is not established. The authors note that some chains in the dense-phase simulation were omitted from the analysis due to insufficient sampling of distance distributions, but the criteria for omission and the potential bias introduced by this selection are not discussed.
+  - **Why it matters** The simulations are used to provide mechanistic insight into the experimental observations, and the claim that the local environment is similar in dense and dilute phases rests on the reliability of the simulations. If the simulations are not converged or the force field is inaccurate for this system, the mechanistic conclusions could be incorrect. The omission of poorly sampled chains could bias the calculated averages.
+  - **Resolution test** The authors should provide convergence metrics (e.g., time evolution of key observables, block averaging) and demonstrate that the results are robust to the choice of initial conditions and system size. They should present the comparison between simulated and experimental FRET efficiencies in detail, including the uncertainties. The criteria for omitting chains from the analysis should be clearly stated, and the sensitivity of the results to these criteria should be assessed.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of viscosity and length-scale dependence
+  - **Claim pointer** The authors claim that the bulk viscosity of the dense phase is ~300-fold higher than water, but that the apparent viscosity experienced by molecules smaller than the correlation length is much lower, explaining the rapid chain dynamics.
+  - **Evidence pointer** Results section "ProTα and H1 phase-separate and form viscous droplets", Fig. 1D, Methods section "Hydrodynamic radii, apparent viscosity, and correlation length"
+  - **Concern** The interpretation of the length-scale-dependent viscosity relies on measurements with probes of different sizes, including fluorescent dyes, dextran, and beads. The manuscript does not fully address potential complications in these measurements, such as the interaction of probes with the condensate matrix, the accuracy of the hydrodynamic radii for dextran and ProTα in the dense phase, and the validity of the Stokes-Einstein relation for probes approaching the correlation length. The extrapolation of the hydrodynamic radius of ProTα from dilute solution measurements to the dense phase is a potential source of systematic error that is acknowledged but not quantified. The relationship between the apparent viscosity at the molecular scale and the chain reconfiguration time is not derived explicitly.
+  - **Why it matters** The conceptual framework of the paper, that local dynamics are decoupled from bulk viscosity due to the length-scale dependence of viscosity in semidilute polymer solutions, depends on the reliability of the viscosity measurements across length scales. If the probe-based measurements are biased, the interpretation of the rapid chain dynamics could be incorrect.
+  - **Resolution test** The authors should provide a more detailed analysis of the uncertainties in the viscosity measurements, particularly for the smallest probes. They should discuss potential artifacts from probe-matrix interactions and justify the use of the Stokes-Einstein relation in this context. The relationship between the measured apparent viscosity and the chain reconfiguration time should be made more explicit.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Methods section "Single-molecule spectroscopy"
+  - **Evidence pointer** Methods section "Single-molecule spectroscopy"
+  - **Issue** The description of the single-molecule FRET data analysis is incomplete. The manuscript mentions fitting FRET efficiency histograms with Gaussian functions but does not describe how the burst selection was performed, how the stoichiometry was used to distinguish labeled species, or how the FRET efficiency was corrected for background, crosstalk, and direct excitation.
+  - **Required correction** Provide a more detailed description of the data analysis pipeline, including burst search parameters, correction factors, and the criteria for including molecules in the analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical treatment of simulation data
+  - **Affected element** Methods section "Analysis of MD simulations"
+  - **Evidence pointer** Methods section "Analysis of MD simulations"
+  - **Issue** The manuscript states that errors for the dense-phase simulation were estimated by bootstrapping from the set of reconfiguration times of individual chains, but the number of bootstrap samples and the confidence intervals are not reported. The block analysis for the unbound ProTα simulation is described, but the number of blocks and the convergence of the block averages are not stated.
+  - **Required correction** Provide more details on the statistical analysis, including the number of bootstrap samples, the reported confidence intervals, and the block sizes used for convergence assessment.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure and table accessibility
+  - **Affected element** Figures 1-3, Table 1
+  - **Evidence pointer** Results sections, figure captions referenced in text
+  - **Issue** The actual figures and Table 1 are not provided in the submitted text, making it impossible to fully evaluate the data presentation and the quantitative agreement between experiment and simulation.
+  - **Required correction** Ensure that all figures and tables are included in the manuscript submission and that the captions provide sufficient information for the reader to interpret the data without referring to the main text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The manuscript does not explicitly discuss the limitations of the study, such as the potential effects of the fluorescent labels on the phase behavior and dynamics, the limited sequence diversity of the two proteins studied, and the assumptions inherent in the MD force field.
+  - **Required correction** Add a paragraph in the Discussion acknowledging these limitations and discussing their potential impact on the conclusions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility of simulations
+  - **Affected element** Methods section "Molecular dynamics (MD) simulations"
+  - **Evidence pointer** Methods section "Molecular dynamics (MD) simulations"
+  - **Issue** The manuscript does not state the software version and the specific parameters used for the CG simulations that generated the initial structure for the all-atom dense-phase simulation. The force field parameters for the ions are also not specified.
+  - **Required correction** Provide complete details of the simulation setup, including software versions, force field parameters for ions, and the specific parameters used for the CG model.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Consistency of reported values
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract, Results section "ProTα and H1 phase-separate and form viscous droplets"
+  - **Issue** The abstract states that the dense phase is "1000 times more concentrated" than the dilute phase, while the Results section reports a "total protein mass fraction of ∼20%" for the dense phase. The concentration of the dilute phase is not explicitly stated, making it difficult to verify the 1000-fold claim.
+  - **Required correction** Provide the concentration of the dilute phase and clarify how the 1000-fold ratio is calculated.
+
+## Risk / unsupported claims
+- The claim that the local molecular environment in the dense phase is "strikingly similar" to that in the dilute phase is based on simulation data and the comparison of average contact numbers, but the quantitative metrics used to establish this similarity are not fully described, and the statistical significance of the comparison is not assessed.
+- The claim that individual contacts between residues in ProTα and H1 are "at most a few nanoseconds" and "orders of magnitude shorter than the chain reconfiguration time" is based on simulation analysis, but the distribution of contact lifetimes and the criteria for defining a contact are not fully described, and the generalizability of this finding to other residue pairs is not established.
+- The statement that "current atomistic force fields are of suitable quality not only for describing isolated IDPs but even for their complex multimolecular interactions in condensates" is a strong claim that goes beyond the specific system studied and the validation presented.
+- The claim that the approach is "likely to be transferrable to synthetic polymers" is speculative and not supported by any data presented in the manuscript.
+- The quantitative agreement between simulated and experimental FRET efficiencies and reconfiguration times is stated to be good, but the actual values and uncertainties are not presented in the submitted text, making this claim unverifiable from the provided materials.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.02.08.479556",
+  "title": "Plasticity in structure and assembly of SARS-CoV-2 nucleocapsid protein",
+  "authors": "Zhao H; Nguyen A; Wu D; Li Y; Hassan SA; Chen J; Shroff H; Piszczek G; Schuck P",
+  "journal": "bioRxiv",
+  "published_date": "2022-02-09",
+  "window": {
+    "start": "2022-02-07",
+    "end": "2022-02-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合序列分析、结构模型与生物物理实验，揭示SARS-CoV-2核衣壳蛋白无序连接区G215C突变通过稳定瞬时螺旋增强自组装与核酸共组装，直接涉及IDR介导的蛋白-蛋白/核酸互作机制，虽无AI/深度模拟但物理建模与实验结合具机制深度。",
+  "abstract": "Worldwide SARS-CoV-2 sequencing efforts track emerging mutations in its spike protein, as well as characteristic mutations in other viral proteins. Besides their epidemiological importance, the observed SARS-CoV-2 sequences present an ensemble of viable protein variants, and thereby a source of information on viral protein structure and function. Charting the mutational landscape of the nucleocapsid (N) protein that facilitates viral assembly, we observe variability exceeding that of the spike protein, with more than 86% of residues that can be substituted, on average by 3-4 different amino acids. However, mutations exhibit an uneven distribution that tracks known structural features but also reveals highly protected stretches of unknown function. One of these conserved regions is in the central disordered linker proximal to the N-G215C mutation that has become dominant in the Delta variant, outcompeting G215 variants without further spike or N-protein substitutions. Structural models suggest that the G215C mutation stabilizes conserved transient helices in the disordered linker serving as protein-protein interaction interfaces. Comparing Delta variant N-protein to its ancestral version in biophysical experiments, we find a significantly more compact and less disordered structure. N-G215C exhibits substantially stronger self-association, shifting the unliganded protein from a dimeric to a tetrameric oligomeric state, which leads to enhanced co-assembly with nucleic acids. This suggests that the sequence variability of N-protein is mirrored by high plasticity of N-protein biophysical properties, which we hypothesize can be exploited by SARS-CoV-2 to achieve greater efficiency of viral assembly, and thereby enhanced infectivity.",
+  "abstract_zh": "全球范围内的SARS-CoV-2测序工作追踪其刺突蛋白中出现的突变，以及其他病毒蛋白中的特征性突变。除了流行病学上的重要性，观察到的SARS-CoV-2序列呈现出一组可行的蛋白质变体，从而成为病毒蛋白质结构和功能信息的来源。通过绘制促进病毒组装的核衣壳（N）蛋白的突变图谱，我们观察到其变异性超过刺突蛋白，超过86%的残基可以被替换，平均替换为3-4种不同的氨基酸。然而，突变分布不均，既与已知的结构特征相对应，也揭示了功能未知的高度保守区域。其中一个保守区域位于中央无序连接区，靠近N-G215C突变，该突变在Delta变体中已成为优势突变，且在没有进一步刺突或N蛋白替换的情况下胜过G215变体。结构模型表明，G215C突变稳定了无序连接区中作为蛋白质-蛋白质相互作用界面的保守瞬时螺旋。在生物物理实验中，将Delta变体N蛋白与其祖先版本进行比较，我们发现其结构显著更紧凑且无序性更低。N-G215C表现出显著更强的自关联性，将未配体蛋白从二聚体状态转变为四聚体寡聚状态，从而导致与核酸的共组装增强。这表明N蛋白的序列变异性与其生物物理性质的高度可塑性相对应，我们假设SARS-CoV-2可以利用这一点来实现更高的病毒组装效率，从而增强感染性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.02.08.479556",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.02.08.479556",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.02.08.479556/index.html"
+}

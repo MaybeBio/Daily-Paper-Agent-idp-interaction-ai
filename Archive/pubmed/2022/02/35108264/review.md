@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) without supplementary information files
+- **Assessment boundary** Scientific claims, methodological soundness, and internal consistency of the presented results; no assessment of reproducibility without code/data availability confirmation
+- **Shared manuscript claim summary** The authors use multiscale coarse-grained simulations to show that RNA length has a minimal effect on condensate stability when protein homotypic interactions dominate (e.g., FUS), but a strong effect when heterotypic protein–RNA interactions dominate (e.g., PR25), with the latter showing increased stability for longer RNA at constant nucleotide/protein ratio
+- **Visible evidence base** Main text figures (Figs 1–6), methods descriptions, and references to supplementary tables/figures (not provided)
+- **Missing materials affecting confidence** Supplementary Information (S1 Text, Tables A, Figs A–G), simulation parameter files, input/output trajectories, and code availability statements
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the field of biomolecular condensates: how RNA length modulates phase separation of RNA-binding proteins. The authors combine a sequence-dependent coarse-grained model (Mpiri) with a minimal patchy-particle model to argue for a general distinction between homotypic and heterotypic interaction-dominated systems. The central claim is well-motivated and the multiscale approach is appropriate. However, the evidence presented in the main text is incomplete without the supplementary material, and several interpretive claims (e.g., generality, connection to cellular RNA granules) extend beyond what the presented data can support. The work is potentially significant but requires careful revision to clarify the scope of conclusions and to address technical details of the models.
+- **Who would be interested in the results, and why** Researchers studying phase separation and biomolecular condensates, particularly those interested in RNA–protein interactions, the physics of complex coacervation, and the role of nucleic acids in membraneless organelle formation. The multiscale modeling approach will also appeal to computational biophysicists developing coarse-grained models for LLPS.
+- **Major strengths** (1) The multiscale strategy combining a sequence-dependent model with a minimal physical model is elegant and allows the authors to separate sequence-specific effects from general physical principles. (2) The comparison between FUS (homotypic) and PR25 (heterotypic) systems is well-chosen and directly addresses the question of RNA length dependence. (3) The use of direct coexistence simulations to compute phase diagrams is rigorous and appropriate for this type of system. (4) The authors connect their findings to existing experimental observations, which strengthens the biological relevance of their conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "for a constant nucleotide/protein ratio, FUS only exhibits a mild dependency on the RNA strand length" and that "PR25 shows a strong dependence on the length of the RNA strands"
+  - **Evidence pointer** Fig 3(a) and 3(b), described in text but not visible in the provided material
+  - **Concern** The central quantitative claim of the paper rests entirely on Figures 3 and 4, which are not available in the provided text. The text describes trends (e.g., "very similar critical temperatures within the uncertainty" for FUS, and a "50%" increase in critical temperature for PR25), but without the actual phase diagrams, critical temperatures, and error bars, the reader cannot assess the magnitude of the effects or the statistical significance of the differences. This is particularly important because the claim of "non-trivial" effects depends on the quantitative comparison between the two systems.
+  - **Why it matters** The core conclusion of the paper is that RNA length has a differential effect depending on the dominant interaction type. Without the quantitative data, this claim cannot be evaluated. The distinction between "mild" and "strong" dependence is inherently quantitative and requires the actual numbers.
+  - **Resolution test** Provide the phase diagrams in the main text or ensure the supplementary figures are accessible. Include numerical values of critical temperatures with uncertainties for all RNA lengths tested, and a statistical test comparing the different conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability of conclusions
+  - **Claim pointer** The authors state that "our minimal patchy particle simulations suggest that the strikingly different effect of RNA length on homotypic LLPS versus RBP–RNA complex coacervation is general"
+  - **Evidence pointer** Fig 5(a) and 5(b), described in text
+  - **Concern** The claim of generality is based on a single minimal model with specific parameters (3-patch planar vs. 2-patch polar arrangements, specific interaction strengths, and a single RNA/protein ratio of 0.25). The authors do not explore how varying these parameters (e.g., patch number, interaction anisotropy, RNA stiffness, or stoichiometry) might affect the qualitative behavior. Without a parameter sweep or theoretical argument for why the observed behavior should be universal, the claim of generality is premature.
+  - **Why it matters** The title and abstract emphasize the "non-trivial" and potentially general nature of the effect. If the behavior is specific to the chosen parameters, the significance of the work is substantially reduced. The authors need to either demonstrate robustness across parameter space or temper their claims.
+  - **Resolution test** Perform additional simulations varying key parameters (e.g., number of patches, interaction strengths, RNA/protein ratio) and show that the qualitative distinction between homotypic and heterotypic systems holds. Alternatively, provide a theoretical argument (e.g., based on percolation or connectivity) that explains why the effect should be general.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Connection to experimental observations
+  - **Claim pointer** The authors state that "a considerable abundance of R–U interactions... might explain the much higher densities of PR25–polyU versus polyU–FUS condensates in our simulations" and later connect their findings to stress granules, paraspeckles, and PGL-3 experiments
+  - **Evidence pointer** Fig 4(b), text in Results and Discussion
+  - **Concern** The comparison to experimental systems (PGL-3, stress granules, paraspeckles) is qualitative and speculative. The authors do not provide quantitative comparisons (e.g., measured vs. predicted critical temperatures, densities, or contact frequencies) that would validate their model against experiments. The statement that "RNA length has been shown to yield opposite effects in LAF-1 condensates when short strands were introduced" is mentioned but not reconciled with the authors' framework.
+  - **Why it matters** The biological relevance of the findings depends on the connection to real systems. If the model predictions cannot be quantitatively compared to experiments, the significance for understanding cellular condensates remains unclear.
+  - **Resolution test** Provide quantitative comparisons with experimental data where available, or clearly state the limitations of the model in making experimentally testable predictions. Discuss how the LAF-1 observations fit or do not fit the proposed framework.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "non-trivial effect" is vague and could be interpreted in multiple ways. The abstract would benefit from a more precise statement of the finding (e.g., "RNA length has a strong effect on condensate stability when heterotypic interactions dominate, but a weak effect when homotypic interactions dominate").
+  - **Required correction** Revise the abstract to state the specific nature of the effect more clearly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section
+  - **Evidence pointer** "Multiscale modelling approach" subsection
+  - **Issue** The description of the Mpiri model is brief and refers to a previous publication. While this is acceptable, the authors should specify which parameters were used for the RNA model (e.g., persistence length, base-base interaction strengths) and how these were validated for the systems studied here.
+  - **Required correction** Add a brief description of the RNA model parameters and validation, or explicitly state that all parameters are identical to the previous publication.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section, FUS discussion
+  - **Evidence pointer** Text near Fig 4(a)
+  - **Issue** The authors state that RNA "increases the effective valency of FUS within the condensate or as a co-scaffold in phase separation." This is an interesting interpretation, but it is not directly tested. The contact analysis (Fig 4) shows changes in contact densities, but the causal link to valency is inferred.
+  - **Required correction** Either provide additional analysis that directly tests the valency hypothesis (e.g., distribution of number of RNA molecules bound per FUS) or soften the language to indicate this is a hypothesis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Discussion of experimental comparisons
+  - **Evidence pointer** Text near references [127–131]
+  - **Issue** The discussion of experimental systems (PGL-3, stress granules, paraspeckles) is brief and does not provide sufficient context for readers unfamiliar with these systems. The relevance of each example to the authors' findings could be made more explicit.
+  - **Required correction** Expand the discussion of experimental comparisons, explaining how each example supports or contrasts with the authors' findings.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** "Multiscale modelling approach" subsection
+  - **Issue** The manuscript does not state whether simulation code and input files are available, nor does it provide a data availability statement. For a computational study, this is important for reproducibility.
+  - **Required correction** Add a data and code availability statement.
+
+## Risk / unsupported claims
+- The claim that the differential effect of RNA length is "general" (abstract, conclusions) is not supported by the presented evidence, as only two specific systems and a single minimal model parameter set are shown.
+- The statement that "RNA length does not have a strong impact in the stability of FUS condensates because..." (Results) is presented as a mechanistic explanation but is not directly tested; it is a plausible hypothesis.
+- The connection to cellular systems (stress granules, paraspeckles, PGL-3) is qualitative and not quantitatively validated.
+- The claim that "RNA parameters should be considered as important as those of proteins" (Conclusions) is a reasonable perspective but goes beyond the data presented, which only addresses RNA length and not other RNA properties (e.g., sequence, secondary structure, modifications).

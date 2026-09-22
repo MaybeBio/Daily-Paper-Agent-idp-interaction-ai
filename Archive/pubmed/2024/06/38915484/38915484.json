@@ -1,0 +1,209 @@
+{
+  "identity": {
+    "pmid": "38915484",
+    "doi": "10.1101/2024.06.11.598543",
+    "title": "Direct computations of viscoelastic moduli of biomolecular condensates."
+  },
+  "content": {
+    "abstract": "In vitro facsimiles of biomolecular condensates are formed by different types of intrinsically disordered proteins including prion-like low complexity domains (PLCDs). PLCD condensates are viscoelastic materials defined by time-dependent, sequence-specific complex shear moduli. Here, we show that viscoelastic moduli can be computed directly using a generalization of the Rouse model and information regarding intra- and inter-chain contacts that is extracted from equilibrium configurations of lattice-based Metropolis Monte Carlo (MMC) simulations. The key ingredient of the generalized Rouse model is the Zimm matrix that we compute from equilibrium MMC simulations. We compute two flavors of Zimm matrices, one referred to as the single-chain model that accounts only for intra-chain contacts, and the other referred to as a collective model, that accounts for inter-chain interactions. The single-chain model systematically overestimates the storage and loss moduli, whereas the collective model reproduces the measured moduli with greater fidelity. However, in the long time, low-frequency domain, a mixture of the two models proves to be most accurate. In line with the theory of Rouse, we find that a continuous distribution of relaxation times exists in condensates. The single crossover frequency between dominantly elastic versus dominantly viscous behaviors is influenced by the totality of the relaxation modes. Hence, our analysis suggests that viscoelastic fluid-like condensates are best described as generalized Maxwell fluids. Finally, we show that the complex shear moduli can be used to solve an inverse problem to obtain distributions of relaxation times that underlie the dynamics within condensates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cohen, Samuel R",
+        "Banerjee, Priya R",
+        "Pappu, Rohit V"
+      ],
+      "short_names": [
+        "Cohen SR",
+        "Banerjee PR",
+        "Pappu RV"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6169-1461",
+        "ORCID: 0000-0003-2568-1378"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Cohen, Samuel R",
+        "short_name": "Cohen SR",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Banerjee, Priya R",
+        "short_name": "Banerjee PR",
+        "identifiers": [
+          "0000-0002-6169-1461"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [
+          "0000-0003-2568-1378"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jun 13",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/25 11:42",
+    "fetched_at": "2026-09-21 08:10:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38915484",
+      "39225536",
+      "37066350",
+      "36993212",
+      "36513655",
+      "34645832",
+      "36747818",
+      "34785657",
+      "37205474",
+      "38832749",
+      "37684240",
+      "39398199",
+      "28799361",
+      "17328629",
+      "21090870",
+      "36541141",
+      "29477455",
+      "38363841",
+      "39185151",
+      "37886520",
+      "38649740",
+      "37873180",
+      "25053337",
+      "37194953",
+      "25775221",
+      "34037061",
+      "27634273",
+      "25136274",
+      "38429263",
+      "34887356",
+      "30471685",
+      "16921892",
+      "33186602",
+      "38621751",
+      "38464104",
+      "18233703",
+      "33470118",
+      "34916288",
+      "39386612",
+      "29195474",
+      "15007663",
+      "25633438",
+      "33303613",
+      "25341184",
+      "34090478",
+      "17115793",
+      "19045431",
+      "34654286",
+      "39410441",
+      "35179885",
+      "35144244",
+      "21278920",
+      "35641495",
+      "20175286",
+      "15542558",
+      "36369755",
+      "36346711",
+      "15606289",
+      "30068172",
+      "38251748",
+      "36191226",
+      "36546789",
+      "35053240",
+      "23912807",
+      "30926670",
+      "38290911",
+      "32621160",
+      "35732066",
+      "35674796",
+      "17141788",
+      "39042834",
+      "29509422",
+      "37215004",
+      "36501603",
+      "22326125",
+      "36321557",
+      "16737215",
+      "22060373",
+      "34784177",
+      "3207837",
+      "37468629",
+      "36657879",
+      "37856873",
+      "37523528",
+      "37586369",
+      "36372152",
+      "36702825",
+      "38354514",
+      "33514117",
+      "31750939",
+      "22738798",
+      "30307183",
+      "36532890",
+      "37156074",
+      "16853261",
+      "35293386",
+      "21932919",
+      "36154874",
+      "39295000"
+    ],
+    "review": [
+      "38915484",
+      "38621751",
+      "35179885",
+      "29509422"
+    ],
+    "pmc": [
+      "11195242"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38915484/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.06.11.598543",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.29.685313",
+  "title": "Structure-based Predictions of Conformational B Cell Epitopes by Protein Language Model and Deep Learning",
+  "doi": "10.1101/2025.10.29.685313",
+  "abstract": "Mapping conformational B-cell epitopes remains a central challenge for antibody discovery: experiments are costly and most computational tools trained on generic protein–protein interfaces transfer poorly to antibody–antigen recognition. We introduce a patch-centric framework that predicts epitopes directly on antigen structures. Each surface “patch” is defined as a triad of neighboring residues, capturing the smallest local unit that encodes both shape and chemistry. We evaluate two classifiers: (i) a protein language model (PLM) approach that averages ESM-2 embeddings over each triad and scores them with a small multilayer perceptron [1], and (ii) a convolutional baseline that consumes a hand-crafted 15 × 20 feature matrix summarizing amino-acid identity, secondary structure, solvent accessibility, and shape index. Trained with five-fold cross-validation on 1,151 AbDb antibody–antigen complexes, the PLM model markedly outperforms the CNN at the patch level (e.g., F1 ≈ 0.986 , ROC–AUC ≈ 0.998 ). Aggregating patch scores to residues with an ensemble over all folds yields robust residue-wise performance, surpassing the CNN (ROC–AUC 0.689 ± 0.072 vs. 0.548 ± 0.018 ). Against widely used sequence- and structure-based tools on AbDb, our PLM achieves the best summary metrics (ROC–AUC 0.67 , PR– AUC 0.56 ) with full coverage of all antigens. On five external complexes unseen during development, the model generalizes well (ROC–AUC 0.663 ) and accurately localizes binding regions qualitatively. The method converts PLM representations into interpretable epitope likelihood maps, offering a practical aid for antigen prioritization, antibody engineering, and vaccine design.",
+  "authors": [
+    "Yuhao Zhang",
+    "Zhaoqian Su",
+    "Felipe Vilicich",
+    "Xiaohan Kuang",
+    "Yunchao Liu",
+    "Grace Zhang",
+    "Yinghao Wu"
+  ],
+  "published_date": "2025-10-30",
+  "updated_date": "2025-10-30T21:45:19Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.29.685313",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.29.685313.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T01:29:23Z",
+        "timestamp": 1768526963969,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            30
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 27,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2025-10-30T00:00:00Z",
+            "timestamp": 1761782400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000057",
+          "name": "NIGMS",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "R01GM120238 and R01GM122804"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01GM120238 and R01GM122804"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000057",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            30
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Mapping conformational B-cell epitopes remains a central challenge for antibody discovery: experiments are costly and most computational tools trained on generic protein–protein interfaces transfer poorly to antibody–antigen recognition. We introduce a patch-centric framework that predicts epitopes directly on antigen structures. Each surface “patch” is defined as a triad of neighboring residues, capturing the smallest local unit that encodes both shape and chemistry. We evaluate two classifiers: (i) a protein language model (PLM) approach that averages ESM-2 embeddings over each triad and scores them with a small multilayer perceptron [1], and (ii) a convolutional baseline that consumes a hand-crafted\n                  <jats:bold>\n                    15\n                    <jats:italic>×</jats:italic>\n                    20\n                  </jats:bold>\n                  feature matrix summarizing amino-acid identity, secondary structure, solvent accessibility, and shape index. Trained with five-fold cross-validation on 1,151 AbDb antibody–antigen complexes, the PLM model markedly outperforms the CNN at the patch level (e.g., F1\n                  <jats:bold>\n                    <jats:italic>≈</jats:italic>\n                    0.986\n                  </jats:bold>\n                  , ROC–AUC\n                  <jats:bold>\n                    <jats:italic>≈</jats:italic>\n                    0.998\n                  </jats:bold>\n                  ). Aggregating patch scores to residues with an ensemble over all folds yields robust residue-wise performance, surpassing the CNN (ROC–AUC\n                  <jats:bold>\n                    0.689\n                    <jats:italic>±</jats:italic>\n                    0.072\n                  </jats:bold>\n                  vs.\n                  <jats:bold>\n                    0.548\n                    <jats:italic>±</jats:italic>\n                    0.018\n                  </jats:bold>\n                  ). Against widely used sequence- and structure-based tools on AbDb, our PLM achieves the best summary metrics (ROC–AUC\n                  <jats:bold>0.67</jats:bold>\n                  , PR– AUC\n                  <jats:bold>0.56</jats:bold>\n                  ) with full coverage of all antigens. On five external complexes unseen during development, the model generalizes well (ROC–AUC\n                  <jats:bold>0.663</jats:bold>\n                  ) and accurately localizes binding regions qualitatively. The method converts PLM representations into interpretable epitope likelihood maps, offering a practical aid for antigen prioritization, antibody engineering, and vaccine design.\n                </jats:p>",
+      "DOI": "10.1101/2025.10.29.685313",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            30
+          ]
+        ],
+        "date-time": "2025-10-30T21:45:19Z",
+        "timestamp": 1761860719000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Structure-based Predictions of Conformational B Cell Epitopes by Protein Language Model and Deep Learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yuhao",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhaoqian",
+          "family": "Su",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Felipe",
+          "family": "Vilicich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-9781-1509",
+          "authenticated-orcid": false,
+          "given": "Xiaohan",
+          "family": "Kuang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yunchao",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Grace",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1181-5670",
+          "authenticated-orcid": false,
+          "given": "Yinghao",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "55",
+          "DOI": "10.1016/S0145-305X(02)00039-3",
+          "article-title": "Imgt unique numbering for immunoglobulin and t cell receptor variable domains and ig superfamily v-like domains",
+          "volume": "27",
+          "year": "2003",
+          "journal-title": "Developmental & Comparative Immunology"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.3",
+          "first-page": "302",
+          "article-title": "The structural basis of antibody–antigen recognition",
+          "volume": "4",
+          "year": "2013",
+          "journal-title": "Frontiers in Immunology"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1084/jem.20151960"
+        },
+        {
+          "issue": "12",
+          "key": "2025110208200688000_2025.10.29.685313v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1002829",
+          "DOI": "10.1371/journal.pcbi.1002829",
+          "article-title": "Reliable b cell epitope predictions: impacts of method development and improved benchmarking",
+          "volume": "8",
+          "year": "2012",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.6",
+          "first-page": "1214424",
+          "article-title": "Structural modelling of antibodies and their complexes using deep learning and beyond",
+          "volume": "10",
+          "year": "2023",
+          "journal-title": "Frontiers in Molecular Biosciences"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.7",
+          "first-page": "15147",
+          "article-title": "Enhanced antibody–antigen structure prediction from molecular docking using alphafold2",
+          "volume": "13",
+          "year": "2023",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btae583"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Richard Evans et al. Protein complex prediction with alphafold-multimer. bioRxiv, 2021.",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.11",
+          "first-page": "e5",
+          "article-title": "When alphafold2 predictions go wrong for protein–protein complexes, is there something to be learnt?",
+          "volume": "55",
+          "year": "2022",
+          "journal-title": "Quarterly Reviews of Biophysics"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.12",
+          "unstructured": "Konrad Krawczyk et al. What does alphafold3 learn about antibody and nanobody docking, and what remains unsolved? Antibody Therapeutics, 2025. Advance article."
+        },
+        {
+          "issue": "1",
+          "key": "2025110208200688000_2025.10.29.685313v1.13",
+          "first-page": "vbaf161",
+          "article-title": "Improved prediction of antibodies and their complexes with clustered h3 modeling",
+          "volume": "5",
+          "author": "Zhu",
+          "year": "2025",
+          "journal-title": "Bioinformatics Advances"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbac567"
+        },
+        {
+          "issue": "8",
+          "key": "2025110208200688000_2025.10.29.685313v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "983",
+          "DOI": "10.3390/biom14080983",
+          "article-title": "Computational methods to predict conformational b-cell epitopes",
+          "volume": "14",
+          "author": "Mizrachi",
+          "year": "2024",
+          "journal-title": "Biomolecules"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Saba Ferdous and Andrew C.R. Martin . Abdb: antibody structure database—a database of pdb-derived antibody structures. Database, page bay040, 2018.",
+          "DOI": "10.1093/database/bay040"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.18",
+          "unstructured": "LLC Schrödinger and W.L. DeLano . The pymol molecular graphics system, version 2.x. https://pymol.org/2/, 2002."
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu190"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0262-8856(92)90076-F"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkx346"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "6",
+          "DOI": "10.1186/1745-7580-6-6",
+          "article-title": "Identification of conformational b-cell epitopes in an antigen from its primary sequence",
+          "volume": "6",
+          "year": "2010",
+          "journal-title": "Immunome Research"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz413"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-9-514"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-11-381"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btn199"
+        },
+        {
+          "key": "2025110208200688000_2025.10.29.685313v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1006"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.10.29.685313",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:55:27Z",
+        "timestamp": 1768470927000
+      },
+      "score": 52.196884,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.10.29.685313"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            30
+          ]
+        ]
+      },
+      "references-count": 27,
+      "URL": "https://doi.org/10.1101/2025.10.29.685313",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

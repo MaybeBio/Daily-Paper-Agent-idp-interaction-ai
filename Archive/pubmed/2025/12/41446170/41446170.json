@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "41446170",
+    "doi": "10.64898/2025.12.18.695255",
+    "title": "Molecular basis for thermoresponsive protein condensation in plants."
+  },
+  "content": {
+    "abstract": "Plants continuously experience temperature fluctuations that shape their physiology, development, and survival. Yet, how plants sense and adapt to elevated temperatures at the molecular level remains only partially understood. Here, we uncover a sequence-encoded mechanism by which plant proteins directly sense temperature through phase separation. Focusing on prion-like low-complexity domains (PLCDs) in Arabidopsis thaliana, we combine cellular imaging, quantitative biophysics, and coarse-grained molecular dynamics simulations to show that numerous PLCDs undergo reversible lower critical solution temperature (LCST)-type transitions. We find that PLCDs that are sufficient and necessary for phase separation confer thermoresponsive variability to full-length proteins. Sequence analysis and simulations reveal that thermoresponsiveness is encoded in compositional heuristics, with sufficient PLCDs enriched in aliphatic and aromatic residues, enabling accurate prediction and rational tuning of condensation thresholds. Engineered variants with altered sequence composition exhibit predictable shifts in thermoresponsive behavior, confirming a direct, sequence-level encoding of temperature sensitivity. Our findings establish LCST-driven phase separation as a fundamental mechanism of thermoresponsiveness in plants and provide a molecular framework for designing synthetic biomolecules with programmable temperature responses.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pathak, Sunita",
+        "Chakravarti, Ananya",
+        "Bersche, Carissa",
+        "Joseph, Jerelle A",
+        "Strader, Lucia C"
+      ],
+      "short_names": [
+        "Pathak S",
+        "Chakravarti A",
+        "Bersche C",
+        "Joseph JA",
+        "Strader LC"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4525-180X"
+      ],
+      "affiliations": [
+        "The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+        "Department of Biology, Duke University, Durham, NC, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA.",
+        "Department of Biology, Duke University, Durham, NC, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ, USA.",
+        "The Salk Institute for Biological Studies, La Jolla, CA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pathak, Sunita",
+        "short_name": "Pathak S",
+        "identifiers": [],
+        "affiliations": [
+          "The Salk Institute for Biological Studies, La Jolla, CA, USA.",
+          "Department of Biology, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Chakravarti, Ananya",
+        "short_name": "Chakravarti A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Bersche, Carissa",
+        "short_name": "Bersche C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Joseph, Jerelle A",
+        "short_name": "Joseph JA",
+        "identifiers": [
+          "0000-0003-4525-180X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Strader, Lucia C",
+        "short_name": "Strader LC",
+        "identifiers": [],
+        "affiliations": [
+          "The Salk Institute for Biological Studies, La Jolla, CA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Dec 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/25 07:40",
+    "fetched_at": "2026-09-17 23:16:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40999735",
+      "40944421",
+      "40360668",
+      "40200324",
+      "40172489",
+      "40069202",
+      "40060179",
+      "39937084",
+      "39702967",
+      "38750356",
+      "35728588",
+      "34381483",
+      "33890138",
+      "32857852",
+      "32848244",
+      "32284544",
+      "31421981",
+      "29983000",
+      "29517898",
+      "29158329",
+      "28283059",
+      "27789797",
+      "26996412",
+      "26406374",
+      "26390327",
+      "26359986",
+      "26348330",
+      "25569335",
+      "24825614",
+      "19345193",
+      "19133153",
+      "18643965",
+      "17018537",
+      "12730603"
+    ],
+    "similar": [
+      "41446170",
+      "40944421",
+      "36993212",
+      "37205474",
+      "40093057",
+      "37684240",
+      "28217775",
+      "38362050",
+      "39605385",
+      "34931046",
+      "33448085",
+      "40278867",
+      "36513655",
+      "39937084",
+      "37066350",
+      "26390327",
+      "32208723",
+      "39797979",
+      "29495781",
+      "31139718",
+      "30920501",
+      "41129218",
+      "34523742",
+      "30252981",
+      "30315832",
+      "33286955",
+      "29096440",
+      "34476018",
+      "33182803",
+      "36272811",
+      "31314540",
+      "28960587",
+      "37793367",
+      "40913711",
+      "25475429",
+      "37836660",
+      "34101464",
+      "40631837",
+      "40570374",
+      "30714730",
+      "31009934",
+      "33232107",
+      "32393642",
+      "41187075",
+      "31825602",
+      "30715857",
+      "41202190",
+      "38723165",
+      "29091028",
+      "20411966",
+      "40781776",
+      "37399408",
+      "33796336",
+      "40131954",
+      "40360668",
+      "35510425",
+      "41283795",
+      "30920530",
+      "37689784",
+      "33629837",
+      "33106575",
+      "40373290",
+      "37571048",
+      "25557663",
+      "27498928",
+      "39645030",
+      "24497107",
+      "40660087",
+      "32201862",
+      "32848244",
+      "22296566",
+      "35268747",
+      "22489800",
+      "34008253",
+      "37579155",
+      "17600338",
+      "30284344",
+      "33357856",
+      "41031027",
+      "24670195",
+      "34984429",
+      "34533951",
+      "41255933",
+      "40990500",
+      "37376151",
+      "28718988",
+      "33963671",
+      "38874369",
+      "37910821",
+      "30682588",
+      "36401811",
+      "34928291",
+      "36655421",
+      "19358525",
+      "40833827",
+      "27422748",
+      "31167423",
+      "31579141",
+      "27627061",
+      "39064905"
+    ],
+    "review": [
+      "41446170",
+      "30920501",
+      "34523742",
+      "30315832",
+      "34476018",
+      "37836660",
+      "41202190",
+      "35268747"
+    ],
+    "pmc": [
+      "12724708"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41446170/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2025.12.18.695255",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

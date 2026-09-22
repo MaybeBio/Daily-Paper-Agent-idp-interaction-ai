@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37510997",
+  "title": "Transition Networks Unveil Disorder-to-Order Transformations in Abeta Caused by Glycosaminoglycans or Lipids.",
+  "authors": "Schaffler, Moritz; Samantray, Suman; Strodel, Birgit",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2023-07-29",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 7,
+  "one_liner_zh": "用MD模拟和转移网络揭示Aβ1-42在GAG或脂质存在下从无序到有序的构象转变机制，虽对象为Aβ而非典型IDP互作，但无序-有序转变的物理机制建模对IDR介导互作研究有启发。",
+  "abstract": "The aggregation of amyloid-beta (Abeta) peptides, particularly of Abeta1-42, has been linked to the pathogenesis of Alzheimer's disease. In this study, we focus on the conformational change of Abeta1-42 in the presence of glycosaminoglycans (GAGs) and 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC) lipids using molecular dynamics simulations. We analyze the conformational changes that occur in Abeta by extracting the key structural features that are then used to generate transition networks. Using the same three features per network highlights the transitions from intrinsically disordered states ubiquitous in Abeta1-42 in solution to more compact states arising from stable beta-hairpin formation when Abeta1-42 is in the vicinity of a GAG molecule, and even more compact states characterized by a alpha-helix or beta-sheet structures when Abeta1-42 interacts with a POPC lipid cluster. We show that the molecular mechanisms underlying these transitions from disorder to order are different for the Abeta1-42/GAG and Abeta1-42/POPC systems. While in the latter the hydrophobicity provided by the lipid tails facilitates the folding of Abeta1-42, in the case of GAG there are hardly any intermolecular Abeta1-42-GAG interactions. Instead, GAG removes sodium ions from the peptide, allowing stronger electrostatic interactions within the peptide that stabilize a beta-hairpin. Our results contribute to the growing knowledge of the role of GAGs and lipids in the conformational preferences of the Abeta peptide, which in turn influences its aggregation into toxic oligomers and amyloid fibrils.",
+  "abstract_zh": "淀粉样-beta（Abeta）肽的聚集，特别是Abeta1-42，与阿尔茨海默病的发病机制相关。在本研究中，我们利用分子动力学 (molecular dynamics) 模拟，聚焦于在糖胺聚糖 (glycosaminoglycans, GAGs) 和1-棕榈酰-2-油酰-sn-甘油-3-磷酸胆碱 (POPC) 脂质存在下Abeta1-42的构象变化。我们通过提取关键结构特征来分析Abeta中发生的构象变化，并利用这些特征生成转变网络。每个网络使用相同的三个特征，突显了从溶液中Abeta1-42普遍存在的内在无序状态，到当Abeta1-42邻近GAG分子时因稳定β-发夹形成而产生的更紧凑状态，再到当Abeta1-42与POPC脂质簇相互作用时以α-螺旋或β-折叠结构为特征的更紧凑状态的转变。我们表明，这些从无序到有序转变的分子机制在Abeta1-42/GAG和Abeta1-42/POPC系统中是不同的。在后者中，脂质尾部提供的疏水性促进了Abeta1-42的折叠，而在GAG的情况下，几乎不存在任何分子间的Abeta1-42-GAG相互作用。相反，GAG从肽中移除钠离子，使得肽内更强的静电相互作用得以稳定β-发夹结构。我们的结果有助于增进对GAG和脂质在Abeta肽构象偏好中作用的认识，这进而影响其聚集成毒性寡聚体和淀粉样纤维的过程。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37510997/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37510997/",
+  "paper_page_path": "papers/pubmed/37510997/index.html"
+}

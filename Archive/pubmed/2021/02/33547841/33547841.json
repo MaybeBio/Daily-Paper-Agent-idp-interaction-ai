@@ -1,0 +1,450 @@
+{
+  "identity": {
+    "pmid": "33547841",
+    "doi": "10.1002/pro.4029",
+    "title": "N-terminal acetylation modestly enhances phase separation and reduces aggregation of the low-complexity domain of RNA-binding protein fused in sarcoma."
+  },
+  "content": {
+    "abstract": "The RNA-binding protein fused in sarcoma (FUS) assembles via liquid-liquid phase separation (LLPS) into functional RNA granules and aggregates in amyotrophic lateral sclerosis associated neuronal inclusions. Several studies have demonstrated that posttranslational modification (PTM) can significantly alter FUS phase separation and aggregation, particularly charge-altering phosphorylation of the nearly uncharged N-terminal low complexity domain of FUS (FUS LC). However, the occurrence and impact of N-terminal acetylation on FUS phase separation remains unexplored, even though N-terminal acetylation is the most common PTM in mammals and changes the charge at the N-terminus. First, we find that FUS is predominantly acetylated in two human cell types and stress conditions. Next, we show that recombinant FUS LC can be acetylated when co-expressed with the NatA complex in Escherichia coli. Using NMR spectroscopy, we find that N-terminal acetylated FUS LC (FUS LC Nt-Ac) does not notably alter monomeric FUS LC structure or motions. Despite no difference in structure, Nt-Ac-FUS LC phase separates more avidly than unmodified FUS LC. More importantly, N-terminal acetylation of FUS LC reduces aggregation. Our findings highlight the importance of N-terminal acetylation of proteins that undergo physiological LLPS and pathological aggregation.",
+    "keywords": [
+      "Amber99SBws-STQ",
+      "aggregation",
+      "coarse-grained modeling",
+      "intrinsically disordered protein",
+      "liquid-liquid phase separation",
+      "molecular simulation",
+      "nuclear magnetic resonance",
+      "posttranslational modification"
+    ],
+    "mesh_terms": [
+      "Acetylation",
+      "*Protein Aggregates",
+      "Protein Domains",
+      "*Protein Processing, Post-Translational",
+      "RNA-Binding Protein FUS/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bock, Anna S",
+        "Murthy, Anastasia C",
+        "Tang, Wai Shing",
+        "Jovic, Nina",
+        "Shewmaker, Frank",
+        "Mittal, Jeetain",
+        "Fawzi, Nicolas L"
+      ],
+      "short_names": [
+        "Bock AS",
+        "Murthy AC",
+        "Tang WS",
+        "Jovic N",
+        "Shewmaker F",
+        "Mittal J",
+        "Fawzi NL"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5483-0577"
+      ],
+      "affiliations": [
+        "Graduate Program in Biotechnology, Brown University, Providence, Rhode Island, USA.",
+        "Graduate Program in Molecular Biology, Cell Biology, and Biochemistry, Brown University, Providence, Rhode Island, USA.",
+        "Graduate Program in Physics, Brown University, Providence, Rhode Island, USA.",
+        "Department of Chemical and Biomolecular Engineering, Lehigh University, Bethlehem, Pennsylvania, USA.",
+        "Department of Biochemistry, Uniformed Services University, Bethesda, Maryland, USA.",
+        "Department of Chemical and Biomolecular Engineering, Lehigh University, Bethlehem, Pennsylvania, USA.",
+        "The Robert J and Nancy D Carney Institute for Brain Science & Department of Molecular Pharmacology, Physiology, and Biotechnology, Brown University, Providence, Rhode Island, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bock, Anna S",
+        "short_name": "Bock AS",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Program in Biotechnology, Brown University, Providence, Rhode Island, USA."
+        ]
+      },
+      {
+        "full_name": "Murthy, Anastasia C",
+        "short_name": "Murthy AC",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Program in Molecular Biology, Cell Biology, and Biochemistry, Brown University, Providence, Rhode Island, USA."
+        ]
+      },
+      {
+        "full_name": "Tang, Wai Shing",
+        "short_name": "Tang WS",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Program in Physics, Brown University, Providence, Rhode Island, USA."
+        ]
+      },
+      {
+        "full_name": "Jovic, Nina",
+        "short_name": "Jovic N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Lehigh University, Bethlehem, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Shewmaker, Frank",
+        "short_name": "Shewmaker F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Uniformed Services University, Bethesda, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, Lehigh University, Bethlehem, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Fawzi, Nicolas L",
+        "short_name": "Fawzi NL",
+        "identifiers": [
+          "0000-0001-5483-0577"
+        ],
+        "affiliations": [
+          "The Robert J and Nancy D Carney Institute for Brain Science & Department of Molecular Pharmacology, Physiology, and Biotechnology, Brown University, Providence, Rhode Island, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2021 Jul",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/02/07 06:00",
+    "fetched_at": "2026-09-20 01:14:56"
+  },
+  "links": {
+    "cites": [
+      "42610649",
+      "42363764",
+      "42325225",
+      "42256352",
+      "41987206",
+      "41965438",
+      "41279901",
+      "41003226",
+      "40981365",
+      "40830340",
+      "40727669",
+      "40515853",
+      "40498448",
+      "40281357",
+      "40186325",
+      "39920231",
+      "39732660",
+      "39037698",
+      "38973194",
+      "38874478",
+      "38492239",
+      "38464093",
+      "38405719",
+      "38347544",
+      "37961424",
+      "37231298",
+      "37189373",
+      "37009800",
+      "36881934",
+      "36688174",
+      "36175485",
+      "35805146",
+      "35727989",
+      "35543798",
+      "35142991",
+      "34489423",
+      "34291086"
+    ],
+    "refs": [
+      "33582133",
+      "33078950",
+      "32132204",
+      "31270472",
+      "30937520",
+      "30531905",
+      "30217894",
+      "30054468",
+      "29897835",
+      "29849146",
+      "29547565",
+      "28942918",
+      "28790177",
+      "27545621",
+      "27415968",
+      "26620784",
+      "26455390",
+      "26406374",
+      "25950632",
+      "25505092",
+      "25400522",
+      "25023910",
+      "24023390",
+      "23912279",
+      "23128393",
+      "22694188",
+      "21655309",
+      "21541367",
+      "21203426",
+      "20866953",
+      "19420222",
+      "19045161",
+      "18232845",
+      "16392929",
+      "8589604",
+      "8520220"
+    ],
+    "similar": [
+      "33547841",
+      "28790177",
+      "35709363",
+      "31270472",
+      "28942918",
+      "26455390",
+      "28924037",
+      "34654750",
+      "29677513",
+      "31805282",
+      "37211763",
+      "32231288",
+      "30205960",
+      "34156864",
+      "35297101",
+      "35943083",
+      "29547565",
+      "37399327",
+      "31188823",
+      "29677515",
+      "36453011",
+      "38593618",
+      "34233002",
+      "34624313",
+      "33607084",
+      "33184287",
+      "31022909",
+      "38632300",
+      "28432364",
+      "32691043",
+      "35320731",
+      "37009800",
+      "29734651",
+      "39372747",
+      "37906538",
+      "21856723",
+      "34862761",
+      "29677514",
+      "34787417",
+      "29897835",
+      "25173930",
+      "34759379",
+      "33110735",
+      "24013423",
+      "31895552",
+      "33982369",
+      "37158592",
+      "34434087",
+      "26317470",
+      "33022038",
+      "33582133",
+      "34732320",
+      "39302099",
+      "34681673",
+      "32877292",
+      "24842888",
+      "33200826",
+      "30021151",
+      "33515602",
+      "34516126",
+      "33686294",
+      "29723523",
+      "22563080",
+      "32976566",
+      "21327870",
+      "27545621",
+      "27731383",
+      "38070499",
+      "29526694",
+      "23152885",
+      "33262375",
+      "37231298",
+      "28389532",
+      "32577653",
+      "29610493",
+      "38157426",
+      "22724023",
+      "26938019",
+      "29364893",
+      "20606625",
+      "29358076",
+      "35620440",
+      "20720006",
+      "36945688",
+      "37204199",
+      "33420984",
+      "26603295",
+      "37890778",
+      "33947944",
+      "31240261",
+      "39129227",
+      "29511089",
+      "37155880",
+      "32758633",
+      "24280224",
+      "31171724",
+      "32426986",
+      "32142134",
+      "37189373",
+      "38585945",
+      "35187086",
+      "33758287",
+      "34648275",
+      "27015757",
+      "30581145",
+      "33857479",
+      "27368346",
+      "33307683",
+      "33704371",
+      "38462838",
+      "38279531",
+      "33549703",
+      "38546977",
+      "36268634",
+      "37604044",
+      "36227481",
+      "35930639",
+      "33934416",
+      "37145883",
+      "35911965",
+      "30054468",
+      "36101390",
+      "35501371",
+      "37001915",
+      "37937769",
+      "38467846",
+      "37319348",
+      "37957147",
+      "33912586",
+      "39211498",
+      "38405719",
+      "39403745",
+      "37156204",
+      "38943248",
+      "37009250",
+      "36103543",
+      "36976747",
+      "39343006",
+      "36175485",
+      "39322163",
+      "33479219",
+      "37609232",
+      "32385185",
+      "37989290",
+      "37672839"
+    ],
+    "review": [
+      "33547841",
+      "29547565",
+      "37399327",
+      "31022909",
+      "37009800",
+      "33110735",
+      "34434087",
+      "29723523",
+      "32976566",
+      "28389532",
+      "26938019",
+      "32758633",
+      "35187086",
+      "27015757",
+      "33549703",
+      "36268634",
+      "37604044",
+      "30054468",
+      "36101390",
+      "37156204",
+      "36175485"
+    ],
+    "pmc": [
+      "8197426"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/33547841.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33547841/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33547841",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4029",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/33547841",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33547841",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

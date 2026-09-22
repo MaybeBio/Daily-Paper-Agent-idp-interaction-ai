@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, declarations)
+- **Assessment boundary** Scientific claims and evidence as presented in the supplied text; no external data or code were accessed
+- **Shared manuscript claim summary** The authors claim that frozen embeddings from the AINN-P1 protein foundation model, when paired with a lightweight supervised head, outperform a task-specific model trained end-to-end from scratch for antibody–antigen ΔΔG ranking, with a mean Spearman ρ improvement from 0.42 to 0.53 (approximately 28% relative) under identical five-fold cross-validation
+- **Visible evidence base** Abstract; Sections 1 through 5; Declarations; references to Figure 1, Figure 2, and Table 1 (figures and table not provided in the supplied material)
+- **Missing materials affecting confidence** Figure 1, Figure 2, Table 1, dataset description, dataset size, sequence details, hyperparameter settings, baseline architecture details, and code or data availability
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in antibody engineering, namely whether frozen protein foundation-model embeddings can serve as a data-efficient and high-performing representation for affinity ranking. The core claim, that a linear probe on frozen AINN-P1 embeddings outperforms a fully trained end-to-end model, is conceptually interesting and, if substantiated, would be of practical value. However, the evidence base as supplied is insufficient to establish this claim. The key quantitative results are referenced only through figures and a table that are not included in the provided material. The dataset is described only as "curated" with no size, composition, or provenance details. The from-scratch baseline is not described beyond being "task-specific" and "end-to-end," with architectural and training details withheld as proprietary. The evaluation is limited to a single dataset and rank-based metrics, with no error bars, statistical significance testing, or comparison to established baselines in the field. The manuscript also contains a typographical error ("alread outperforms" in Section 3) and a speculative statement in the Discussion that fine-tuning "is expected to widen the margin further" without supporting evidence. While the direction is promising, the current manuscript does not provide enough verifiable detail to support its central conclusions.
+- **Who would be interested in the results, and why** Researchers and practitioners in antibody engineering, protein engineering, and computational biology would be interested in these results. The claim that frozen foundation-model embeddings provide a strong, data-efficient default for affinity ranking, if validated, could simplify and accelerate antibody affinity maturation pipelines. The broader protein machine-learning community would also be interested in the comparative analysis of representation quality versus downstream model capacity.
+- **Major Strengths** The manuscript addresses a practically important problem with a clear and well-defined evaluation framework. The comparison between frozen embeddings and a from-scratch baseline under identical cross-validation is a sound experimental design principle. The focus on rank-based metrics (Spearman ρ, NDCG, AUC) is appropriate for the stated downstream decision problem. The claim that a linear probe outperforms a fully trained model is a strong and falsifiable statement that, if supported by complete data, would be a notable result. The discussion of practical benefits (modularity, speed, reproducibility) is relevant and reasonable.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims a mean Spearman ρ improvement from 0.42 to 0.53 (approximately 28% relative) for the optimized lightweight head over the from-scratch baseline, and that a linear probe alone exceeds the baseline.
+  - **Evidence pointer** Table 1, Figure 2; location not provided
+  - **Concern** The primary quantitative results are presented only through references to Table 1 and Figure 2, neither of which is included in the supplied material. Without the actual data, the central numerical claims cannot be verified. Additionally, no variance estimates, confidence intervals, or statistical significance tests are reported for the cross-validation scores.
+  - **Why it matters** The core conclusion of the manuscript rests entirely on these numerical comparisons. Without the underlying data and measures of variability, the reader cannot assess whether the reported improvement is robust or within the range of cross-validation noise.
+  - **Resolution test** Provide Table 1 and Figure 2 in full, including per-fold results, means, and standard deviations or confidence intervals. Report a statistical test (e.g., paired permutation test across folds) comparing the best head to the baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript states that all approaches were evaluated on "a curated antibody–antigen ΔΔG dataset" under five-fold cross-validation.
+  - **Evidence pointer** Section 4.5; location not provided
+  - **Concern** The dataset is not described in any quantitative detail. No information is provided on the number of antibody–antigen pairs, the number of unique antibodies or antigens, the sequence length distribution, the range of ΔΔG values, the source of the data, or the curation criteria. The dataset is stated to be proprietary, and no access mechanism is described beyond a vague statement that requests "may be directed to the corresponding author."
+  - **Why it matters** Without dataset details, the reader cannot judge the generalizability of the results, the difficulty of the ranking task, or the potential for dataset-specific artifacts. The lack of a public dataset or clear access mechanism prevents independent replication, which is essential for a methodological claim.
+  - **Resolution test** Provide a full description of the dataset, including size, composition, curation criteria, and ΔΔG value distribution. If the data cannot be released, provide a detailed data card and a clear, actionable access procedure, or evaluate on a public benchmark dataset as a complement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Baseline adequacy
+  - **Claim pointer** The manuscript claims that a "task-specific sequence model trained end-to-end from scratch" serves as the baseline, and that frozen embeddings outperform it.
+  - **Evidence pointer** Section 4.4; location not provided
+  - **Concern** The from-scratch baseline is described only in general terms. Its architecture, parameter count, training procedure, and hyperparameters are withheld as proprietary. No comparison is made to any established antibody–antigen affinity prediction method or to other protein foundation models (e.g., ESM-2, ProtBERT). The baseline could be arbitrarily weak, which would inflate the apparent advantage of the frozen embeddings.
+  - **Why it matters** The central claim is a comparative one. If the baseline is not well-specified or is not a strong representative of the from-scratch approach, the conclusion that frozen embeddings are superior is not established. The field-standard comparison would include at least one published method.
+  - **Resolution test** Provide full architectural and training details of the baseline, or use an open-source baseline architecture. Add a comparison to at least one established affinity prediction method and to embeddings from a publicly available protein foundation model.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of evaluation
+  - **Claim pointer** The manuscript concludes that frozen foundation-model embeddings are "a strong, data-efficient default for affinity ranking in antibody engineering."
+  - **Evidence pointer** Sections 3 and 5; location not provided
+  - **Concern** The evaluation is confined to a single proprietary dataset and to rank-based metrics on that dataset. No prospective validation, no test on independent datasets, and no assessment of generalization across different antibody formats, antigen classes, or affinity ranges are reported. The Discussion acknowledges this limitation but the Conclusion states the claim without this caveat.
+  - **Why it matters** A single-dataset evaluation, especially on a proprietary dataset, is insufficient to support a general recommendation for antibody engineering practice. The claim of being a "strong default" requires evidence of robustness across diverse conditions.
+  - **Resolution test** Evaluate on at least one additional independent dataset, ideally public, and report performance across different antigen classes or affinity ranges. Alternatively, temper the Conclusion to reflect the single-dataset scope.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3, first paragraph
+  - **Evidence pointer** Section 3; location not provided
+  - **Issue** The phrase "alread outperforms" contains a typographical error; it should read "already outperforms."
+  - **Required correction** Correct the typographical error.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4.2
+  - **Evidence pointer** Section 4.2; location not provided
+  - **Issue** The description of AINN-P1 is minimal. No information is provided on the model architecture, parameter count, training data composition, or embedding dimension. The statement that it was "trained autoregressively on tens of millions of natural protein sequences" is too vague to allow comparison with other foundation models.
+  - **Required correction** Provide a more detailed description of AINN-P1, including architecture, parameter count, training data source, and embedding dimension, or cite a public reference that contains these details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 4.5
+  - **Evidence pointer** Section 4.5; location not provided
+  - **Issue** The manuscript states that "all reported metrics were averaged across folds" but does not report any measure of variance or the number of folds used (five-fold is stated, but per-fold results are not shown).
+  - **Required correction** Report per-fold results and standard deviations or confidence intervals for all metrics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.3
+  - **Evidence pointer** Section 4.3; location not provided
+  - **Issue** The "optimized lightweight nonlinear head" is not described. No details are given on its architecture, optimization procedure, or hyperparameter search.
+  - **Required correction** Provide a description of the nonlinear head architecture and the optimization procedure used to select it.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability statement
+  - **Evidence pointer** Declarations; location not provided
+  - **Issue** The data and code availability statement indicates that both the model and dataset are proprietary and that architectural details are not disclosed. This severely limits reproducibility.
+  - **Required correction** Provide at least the trained embeddings or a public benchmark evaluation to allow independent verification of the claims.
+
+## Risk / unsupported claims
+- The claim that frozen AINN-P1 embeddings improve ranking from ρ = 0.42 to ρ = 0.53 is unsupported because Table 1 and Figure 2 are not provided.
+- The claim that a linear probe on frozen embeddings outperforms the from-scratch baseline is unsupported for the same reason.
+- The claim that the improvement is attributable to representation quality rather than downstream-model capacity is not fully supported, as the baseline architecture is undisclosed and could be arbitrarily weak.
+- The statement in the Discussion that fine-tuning "is expected to widen the margin further" is speculative and unsupported by any data in the manuscript.
+- The claim that frozen embeddings are "a strong, data-efficient default for affinity ranking in antibody engineering" is not supported by the single-dataset, proprietary evaluation presented.
+- The dataset description is insufficient to assess the difficulty or representativeness of the evaluation task.

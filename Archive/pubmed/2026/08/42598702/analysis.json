@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42598702",
+  "title": "Integrated genetic identification and molecular dynamics simulations in a novel LOXL3 genetic mutation associated with Stickler syndrome.",
+  "authors": "Ye, Min; Li, Shuai; Li, Rui; Zhang, Wen; He, Xianglian; Ma, Lijun; Li, Qian; Zhuang, Wenjuan",
+  "journal": "Frontiers in genetics",
+  "published_date": "2026-08-14",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过全外显子测序和分子动力学模拟分析LOXL3突变致Stickler综合征，虽用MD模拟蛋白结构稳定性，但对象为折叠蛋白且非PPI/相分离机制，与本课题关联有限。",
+  "abstract": "OBJECTIVE: Stickler syndrome (SS) is a genetically and clinically heterogeneous connective tissue disorder. This study aimed to investigate the genetic etiology in a Chinese patient associated with SS and characterize the novel pathogenic variant. METHODS: Whole-exome sequencing (WES) was performed on the proband, and Sanger sequencing was conducted on both the proband and all available family members for variant validation. Variants were filtered by multiple in silico tools and co-segregation analysis based on American College of Medical Genetics and Genomics (ACMG) Guidelines. Structural consequences were evaluated via molecular dynamics (MD) simulations. A systematic review was conducted to summarize the genotypic and phenotypic features of previously reported LOXL3-related SS and early-onset high myopia (eoHM) cases, including four published case reports of independent SS pedigrees and two studies on eoHM. RESULTS: A novel compound heterozygous LOXL3 mutation (NM_032603.5:c.1348T>A(p.Trp450Arg); NM_032603.5:c.824dup(p.Ala277Cysfs*57)) was identified in a 5-year-old female child diagnosed with SS, who exhibited eoHM, vitreous syneresis, cleft palate, foveal hypoplasia (FVH), and mild craniofacial dysmorphism. In silico analysis using Variant Effect Predictor (VEP) predicted both variants as deleterious. Molecular dynamics (MD) simulations revealed that the novel NM_032603.5:c.1348T>A(p.Trp450Arg) mutation significantly destabilizes LOXL3 protein structure. Specifically, this variant increases structural flexibility and solvent accessibility while reducing hydrogen bond formation, resulting in a disordered protein conformation. Furthermore, p.Trp450Arg perturbs the copper-binding pocket and impairs copper ion coordination. Both variants co-segregated with clinical phenotypes in the family. Collectively, these functional and genetic findings, combined with clinical evidence, support the two variants as likely pathogenic and pathogenic respectively following the ACMG guidelines. The literature review revealed that high myopia is the most frequent clinical feature of LOXL3-related disorders, followed by FVH. CONCLUSION: Compound heterozygous LOXL3 variants are associated with the SS phenotype. This study broadens the recessive mutational and phenotypic spectrum of LOXL3-related SS, supports refined disease subclassification and also aids genetic testing and clinical diagnosis of this disorder. It underscores the critical role of the Trp450 residue in maintaining protein structural stability and provides atomic-level insights into the molecular pathogenesis of this disorder.",
+  "abstract_zh": "目的：Stickler综合征（SS）是一种遗传和临床异质性结缔组织疾病。本研究旨在探讨一例中国SS患者的遗传病因，并表征新发致病性变异。方法：对先证者进行全外显子组测序（WES），并对先证者及所有可用家庭成员进行Sanger测序以验证变异。基于美国医学遗传学与基因组学学会（ACMG）指南，通过多种计算机模拟工具和共分离分析筛选变异。通过分子动力学（MD）模拟评估结构后果。进行系统综述，总结既往报道的LOXL3相关SS和早发性高度近视（eoHM）病例的基因型和表型特征，包括四篇独立SS家系的病例报告和两项关于eoHM的研究。结果：在一名诊断为SS的5岁女性患儿中鉴定出一种新的复合杂合LOXL3突变（NM_032603.5:c.1348T>A(p.Trp450Arg)；NM_032603.5:c.824dup(p.Ala277Cysfs*57)），该患儿表现出eoHM、玻璃体液化、腭裂、中心凹发育不全（FVH）和轻度颅面畸形。使用变异效应预测器（VEP）进行的计算机模拟分析预测两种变异均为有害。分子动力学（MD）模拟显示，新的NM_032603.5:c.1348T>A(p.Trp450Arg)突变显著 destabilizes LOXL3蛋白结构。具体而言，该变异增加了结构灵活性和溶剂可及性，同时减少了氢键形成，导致蛋白质构象紊乱。此外，p.Trp450Arg扰乱了铜结合口袋并损害铜离子配位。两种变异在家族中与临床表型共分离。综合这些功能和遗传发现，结合临床证据，根据ACMG指南支持这两种变异分别可能致病和致病。文献综述显示，高度近视是LOXL3相关疾病最常见的临床特征，其次是FVH。结论：复合杂合LOXL3变异与SS表型相关。本研究拓宽了LOXL3相关SS的隐性突变和表型谱，支持精细化的疾病亚分类，并有助于该疾病的基因检测和临床诊断。它强调了Trp450残基在维持蛋白质结构稳定性中的关键作用，并为该疾病的分子发病机制提供了原子级见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42598702/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42598702/",
+  "paper_page_path": "papers/pubmed/42598702/index.html"
+}

@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "39984297",
+    "doi": "10.1021/acs.jctc.4c01308",
+    "title": "Structural Heterogeneity of Intermediate States Facilitates CRIPT Peptide Binding to the PDZ3 Domain: Insights from Molecular Dynamics and Markov State Model Analysis."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs), characterized by a lack of defined tertiary structure, are ubiquitous and indispensable components of cellular machinery. These proteins participate in a diverse array of biological processes, often undergoing conformational transitions upon binding to their target, a phenomenon termed \"folding-upon-binding.\" The finding raises the question of how to achieve rapid binding kinetics in the presence of intrinsic disorder, and the underlying molecular mechanism remains elusive. This study investigated the interaction between the C-terminal region of CRIPT and the third PDZ domain of PSD-95, a critical complex in neuronal development. Upon binding, the CRIPT peptide adopts a beta-strand conformation, a process meticulously characterized through extensive molecular dynamics simulations totaling 67.7 mus. Our findings reveal a funnel-like binding landscape in which IDPs can adopt multiple conformations prior to binding, forming structurally heterogeneous intermediate complexes and leading to diverse binding pathways. The stabilization of these intermediate complexes necessitates a dynamic interplay of native and non-native interactions. Markov state model analysis underscores the important role of structural heterogeneity as it contributes to accelerated binding. These findings enrich the classical fly-casting mechanism and provide novel insights into the functional advantages conferred by intrinsic disorder.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Markov Chains",
+      "PDZ Domains",
+      "Protein Binding",
+      "Disks Large Homolog 4 Protein/chemistry/metabolism",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Peptides/chemistry/metabolism",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Song, Xingyu",
+        "Wang, Dongdong",
+        "Ji, Jie",
+        "Weng, Jingwei",
+        "Wang, Wenning"
+      ],
+      "short_names": [
+        "Song X",
+        "Wang D",
+        "Ji J",
+        "Weng J",
+        "Wang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4639-7600",
+        "ORCID: 0000-0002-8712-0536"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Institute of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China.",
+        "DP Technology, Beijing 100080, China.",
+        "Department of Chemistry, Institute of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China.",
+        "Department of Chemistry, Institute of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China.",
+        "Department of Chemistry, Institute of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Song, Xingyu",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Institute of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dongdong",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "DP Technology, Beijing 100080, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Jie",
+        "short_name": "Ji J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Institute of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Weng, Jingwei",
+        "short_name": "Weng J",
+        "identifiers": [
+          "0000-0002-4639-7600"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Institute of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenning",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0000-0002-8712-0536"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Institute of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2025 Mar 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/22 00:22",
+    "fetched_at": "2026-09-21 15:50:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39984297",
+      "31831623",
+      "29990433",
+      "38916177",
+      "32323533",
+      "23951139",
+      "30864948",
+      "22753014",
+      "33172212",
+      "25625937",
+      "28974728",
+      "39076021",
+      "25207671",
+      "33355572",
+      "30514761",
+      "31562775",
+      "38294935",
+      "32157575",
+      "26742101",
+      "34845619",
+      "29557723",
+      "33122085",
+      "26195786",
+      "33631929",
+      "9581762",
+      "30813629",
+      "32925900",
+      "31441158",
+      "24739176",
+      "30528464",
+      "34504009",
+      "30626119",
+      "34245784",
+      "22506277",
+      "28950050",
+      "30865832",
+      "29590589",
+      "28493424",
+      "29276882",
+      "32579908",
+      "25544254",
+      "24098099",
+      "32020911",
+      "27030593",
+      "39740355",
+      "26735936",
+      "23912807",
+      "29694866",
+      "29716994",
+      "39163306",
+      "25387963",
+      "31552948",
+      "29364151",
+      "40029731",
+      "35029261",
+      "19747922",
+      "39093570",
+      "34656328",
+      "30703278",
+      "30988255",
+      "26941280",
+      "24845085",
+      "31136713",
+      "24317797",
+      "30520528",
+      "39466712",
+      "28002650",
+      "28554553",
+      "33454008",
+      "32184088",
+      "32253236",
+      "26910732",
+      "21964565",
+      "27151193",
+      "28970487",
+      "26073257",
+      "24871565",
+      "31624293",
+      "30813315",
+      "29982297",
+      "24305904",
+      "26922996",
+      "17474715",
+      "19828436",
+      "36750251",
+      "30979035",
+      "27844185",
+      "25313042",
+      "29413001",
+      "39665260",
+      "27111521",
+      "30204435",
+      "27588692",
+      "27004461",
+      "30071273",
+      "30802465",
+      "29808548",
+      "30214057",
+      "21876662",
+      "33230318"
+    ],
+    "review": [
+      "39984297",
+      "25625937",
+      "33355572",
+      "30813629",
+      "31441158",
+      "25544254",
+      "32020911",
+      "39740355",
+      "29364151",
+      "39093570",
+      "28554553",
+      "32253236",
+      "26073257",
+      "29982297",
+      "26922996",
+      "36750251",
+      "30979035",
+      "29413001"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.4c01308",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.01.424687",
+  "title": "Overexpression of the microtubule-binding protein CLIP-170 induces a +TIP network superstructure consistent with a biomolecular condensate",
+  "authors": "Yueh-Fu O. Wu; Annamarie T. Bryant; Nora T. Nelson; Alexander G. Madey; Gail F. Fernandes; Holly V. Goodson",
+  "journal": "bioRxiv",
+  "published_date": "2021-01-01",
+  "window": {
+    "start": "2020-12-28",
+    "end": "2021-01-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过实验和生物信息学证明CLIP-170过表达诱导的+TIP网络斑块是生物分子凝聚体，涉及IDR和相分离，但缺乏AI/物理模拟方法，互作机制建模深度有限。",
+  "abstract": "Proper regulation of microtubule (MT) dynamics is critical for cellular processes including cell division and intracellular transport. Plus-end tracking proteins (+TIPs) dynamically track growing MTs and play a key role in MT regulation. +TIPs participate in a complex web of intra- and inter-molecular interactions known as the +TIP network. Hypotheses addressing the purpose of +TIP:+TIP interactions include relieving +TIP autoinhibition and localizing MT regulators to growing MT ends. In addition, we have proposed that the web of +TIP:+TIP interactions has a physical purpose, creating a superstructure that constrains the structural fluctuations of the fragile MT tip and thus acts as a polymerization chaperone. Many animal +TIP network proteins are multivalent and have intrinsically disordered regions, features commonly found in biomolecular condensates. This observation suggests that the +TIP network might under some conditions form a biomolecular condensate. Previous studies have shown that overexpression of the +TIP CLIP-170 induces large “patch” structures containing CLIP-170 and other +TIPs. To test the hypothesis that these patches might be biomolecular condensates, we used video microscopy, immunofluorescence staining, and Fluorescence Recovery After Photobleaching (FRAP). Our data show that the CLIP-170-induced patches have hallmarks indicative of a biomolecular condensate, one that contains +TIP proteins and excludes other known condensate markers. Moreover, bioinformatic studies demonstrate that the presence of intrinsically disordered regions is conserved in key +TIPs, implying that these regions are functionally significant. Together, these results indicate that the CLIP-170 induced patches in cells are phase-separated liquid condensates and raise the possibility that the endogenous +TIP network might form a liquid droplet at MT ends or other +TIP locations.",
+  "abstract_zh": "微管（MT）动力学的适当调控对于细胞过程（包括细胞分裂和细胞内运输）至关重要。正端追踪蛋白（+TIPs）动态追踪生长中的微管，并在微管调控中发挥关键作用。+TIPs参与一个复杂的分子内和分子间相互作用网络，称为+TIP网络。针对+TIP：+TIP相互作用目的的假说包括解除+TIP自抑制以及将微管调控因子定位到生长中的微管末端。此外，我们提出+TIP：+TIP相互作用网络具有物理目的，即形成一种超结构，限制脆弱微管尖端结构波动，从而充当聚合伴侣。许多动物+TIP网络蛋白是多价的，并具有内在无序区域，这些特征常见于生物分子凝聚体中。这一观察表明，+TIP网络在某些条件下可能形成生物分子凝聚体。先前研究表明，过表达+TIP CLIP-170会诱导包含CLIP-170和其他+TIPs的大型“斑块”结构。为检验这些斑块可能是生物分子凝聚体的假说，我们使用了视频显微镜、免疫荧光染色和荧光恢复后光漂白（FRAP）技术。我们的数据显示，CLIP-170诱导的斑块具有指示生物分子凝聚体的标志，该凝聚体包含+TIP蛋白，并排除其他已知凝聚体标记物。此外，生物信息学研究表明，内在无序区域的存在在关键+TIPs中是保守的，暗示这些区域具有功能重要性。综合来看，这些结果表明细胞中CLIP-170诱导的斑块是相分离的液体凝聚体，并提出了内源性+TIP网络可能在微管末端或其他+TIP位置形成液滴的可能性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.01.424687",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.01.424687",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.01.424687/index.html"
+}

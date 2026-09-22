@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39497416",
+  "title": "Conformations of a low-complexity protein in homogeneous and phase-separated frozen solutions.",
+  "authors": "Wilson, C Blake; Lee, Myungwoon; Yau, Wai-Ming; Tycko, Robert",
+  "journal": "Biophysical journal",
+  "published_date": "2024-11-05",
+  "window": {
+    "start": "2024-11-04",
+    "end": "2024-11-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用固态NMR研究FUS-LC无序蛋白在均相与相分离态下的局部构象分布是否不同，对象为IDP/相分离，但方法为实验NMR而非AI/物理模拟，且未深入PPI机制建模，故综合评6分。",
+  "abstract": "Solutions of the intrinsically disordered, low-complexity domain of the FUS protein (FUS-LC) undergo liquid-liquid phase separation (LLPS) below a temperature T(LLPS). To investigate whether local conformational distributions are detectably different in the homogeneous (i.e., single-phase) and phase-separated states of FUS-LC, we performed solid-state NMR (ssNMR) measurements on solutions that were frozen on submillisecond timescales after equilibration at temperatures well above (50 degrees C) or well below (4 degrees C) T(LLPS). Measurements were performed at 25 K with signal enhancements from dynamic nuclear polarization. Crosspeak patterns in two-dimensional ssNMR spectra of rapidly frozen solutions in which FUS-LC was uniformly (15)N,(13)C labeled were found to be nearly identical for the two states. Similar results were obtained for solutions in which FUS-LC was labeled only at Thr, Tyr, and Gly residues, as well as solutions of a FUS construct in which five specific residues were labeled by ligation of synthetic and recombinant fragments. These experiments show that local conformational distributions are nearly the same in the homogeneous and phase-separated solutions, despite the much greater protein concentrations and more abundant intermolecular interactions within phase-separated, protein-rich \"droplets.\" Comparison of the experimental results with simulations of the sensitivity of two-dimensional ssNMR crosspeaks to changes in populations of beta strand-like conformations suggests that changes in conformational distributions are no larger than 5-10%.",
+  "abstract_zh": "FUS蛋白（FUS-LC）的内在无序、低复杂性结构域的溶液在低于温度T(LLPS)时发生液-液相分离（liquid-liquid phase separation, LLPS）。为了探究在FUS-LC的均相（即单相）和相分离状态下，局部构象分布是否存在可检测的差异，我们对在远高于（50摄氏度）或远低于（4摄氏度）T(LLPS)的温度下平衡后，在亚毫秒时间尺度内冷冻的溶液进行了固态核磁共振（solid-state NMR, ssNMR）测量。测量在25 K下进行，并利用动态核极化（dynamic nuclear polarization）增强信号。在快速冷冻的溶液中，FUS-LC被均匀标记为(15)N,(13)C，二维ssNMR谱中的交叉峰模式在两种状态下几乎相同。对于仅在Thr、Tyr和Gly残基处标记的FUS-LC溶液，以及通过合成和重组片段连接标记五个特定残基的FUS构建体溶液，也获得了类似结果。这些实验表明，尽管在相分离的富蛋白“液滴”中蛋白质浓度更高且分子间相互作用更丰富，但均相和相分离溶液中的局部构象分布几乎相同。将实验结果与二维ssNMR交叉峰对β链样构象群体变化敏感性的模拟进行比较，表明构象分布的变化不超过5-10%。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39497416/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39497416/",
+  "paper_page_path": "papers/pubmed/39497416/index.html"
+}

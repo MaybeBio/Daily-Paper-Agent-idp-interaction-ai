@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41343645",
+  "title": "Multiscale structure of chromatin condensates explains phase separation and material properties.",
+  "authors": "Zhou, Huabin; Huertas, Jan; Maristany, M Julia; Russell, Kieran; Hwang, June Ho; Yao, Run-Wen; Samanta, Nirnay; Hutchings, Joshua; Billur, Ramya; Shiozaki, Momoko; Zhao, Xiaowei; Doolittle, Lynda K; Gibson, Bryan A; Soranno, Andrea; Riggi, Margot; Espinosa, Jorge R; Yu, Zhiheng; Villa, Elizabeth; Collepardo-Guevara, Rosana; Rosen, Michael K",
+  "journal": "Science (New York, N.Y.)",
+  "published_date": "2025-12-04",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过冷冻电镜断层扫描与分子动力学模拟，揭示染色质凝聚体中核小体排列与组蛋白尾互作如何决定相分离及材料性质，虽对象为染色质而非典型IDP，但其多尺度互作网络与相分离机制建模思路对本课题有直接启发。",
+  "abstract": "The structure and interaction networks of molecules within biomolecular condensates are poorly understood. Using cryo-electron tomography and molecular dynamics simulations, we elucidated the structure of phase-separated chromatin condensates across scales, from individual amino acids to network architecture. We found that internucleosomal DNA linker length controls nucleosome arrangement and histone tail interactions, shaping the structure of individual chromatin molecules within and outside condensates. This structural modulation determines the balance between intra- and intermolecular interactions, which governs the molecular network, thermodynamic stability, and material properties of chromatin condensates. Mammalian nuclei contain dense clusters of nucleosomes whose nonrandom organization is mirrored by the reconstituted condensates. Our work explains how the structure of individual chromatin molecules determines physical properties of chromatin condensates and cellular chromatin organization.",
+  "abstract_zh": "生物分子凝聚体内部的分子的结构和相互作用网络目前了解甚少。利用冷冻电子断层扫描和分子动力学模拟，我们阐明了相分离染色质凝聚体从单个氨基酸到网络架构的多尺度结构。我们发现，核小体间DNA连接片段的长度控制核小体排列和组蛋白尾部相互作用，从而塑造凝聚体内外单个染色质分子的结构。这种结构调节决定了分子内与分子间相互作用的平衡，进而控制染色质凝聚体的分子网络、热力学稳定性及材料性质。哺乳动物细胞核内含有密集的核小体簇，其非随机组织与重构凝聚体中的组织相呼应。我们的工作解释了单个染色质分子的结构如何决定染色质凝聚体的物理性质及细胞染色质组织。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41343645/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41343645/",
+  "paper_page_path": "papers/pubmed/41343645/index.html"
+}

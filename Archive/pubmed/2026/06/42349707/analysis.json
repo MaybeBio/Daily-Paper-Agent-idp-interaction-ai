@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42349707",
+  "title": "beta-TrCP targets nucleolin and modulates phase separation to restrict ribosome biogenesis in myocardial infarction hearts.",
+  "authors": "Tu, Junchu; Zhang, Huiling; Lu, Tonggan; Zhou, Anqi; Zhang, Yu; Li, Ao; Liu, Bin; Yu, Xi-Yong; Xu, Yan; Li, Yangxin",
+  "journal": "Cellular signalling",
+  "published_date": "2026-06-26",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究心肌梗死中beta-TrCP介导NCL泛素化及核内相分离调控核糖体生物发生，涉及LLPS与蛋白互作，但对象为心脏修复而非无序蛋白，且方法以实验为主、分子对接为辅，机制建模深度有限。",
+  "abstract": "Myocardial infarction (MI) remains a significant global health challenge, as limited long-term efficacy of coronary interventions is largely due to inadequate cardiomyocyte (CM) regeneration. Ribosome biogenesis, a key driver of cell regeneration, and Nucleolin (NCL), a cardioprotective protein, have emerged as crucial factors in post-MI recovery. While liquid-liquid phase separation (LLPS) plays a dynamic role in cellular regulation, its impact on NCL-mediated ribosome biogenesis following MI remains unclear. Using Ribo-Halo, Ribo-disome, and AgNOR staining to map ribosome biogenesis, along with co-immunoprecipitation, molecular docking, FRAP, and confocal imaging to examine NCL ubiquitination and LLPS dynamics, we investigated these mechanisms. In MI mice and hypoxic cells, we identified an inverse correlation between the E3 ubiquitin ligase beta-TrCP and NCL levels. Our Co-IP results demonstrate a functional interaction between beta-TrCP and NCL in cytoplasm, and hypoxia induced LLPS transition of NCL in nuclear. NCL depletion impaired ribosome biogenesis and CM renewal. Our findings reveal NCL depletion-mediated by beta-TrCP and LLPS formation as a key mechanism hindering cardiac repair post-MI. This study provides valuable insights and introduces potential therapeutic target for treating MI.",
+  "abstract_zh": "心肌梗死（MI）仍是全球重大健康挑战，因为冠状动脉介入治疗的长期疗效有限，主要归因于心肌细胞（CM）再生不足。核糖体生物发生作为细胞再生的关键驱动因素，以及核仁素（NCL）作为一种心脏保护蛋白，已成为心肌梗死后恢复中的关键因子。尽管液-液相分离（LLPS）在细胞调控中发挥动态作用，但其对心肌梗死后NCL介导的核糖体生物发生的影响仍不清楚。我们利用Ribo-Halo、Ribo-disome和AgNOR染色来绘制核糖体生物发生图谱，并结合免疫共沉淀、分子对接、FRAP和共聚焦成像来检测NCL泛素化和LLPS动态，从而研究了这些机制。在心肌梗死小鼠和低氧细胞中，我们发现了E3泛素连接酶beta-TrCP与NCL水平之间的负相关关系。我们的Co-IP结果表明，beta-TrCP与NCL在细胞质中存在功能性相互作用，而低氧诱导了NCL在细胞核中的LLPS转变。NCL耗竭损害了核糖体生物发生和CM更新。我们的发现揭示了由beta-TrCP介导的NCL耗竭及LLPS形成是阻碍心肌梗死后心脏修复的关键机制。本研究提供了重要见解，并引入了治疗心肌梗死的潜在靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42349707/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42349707/",
+  "paper_page_path": "papers/pubmed/42349707/index.html"
+}

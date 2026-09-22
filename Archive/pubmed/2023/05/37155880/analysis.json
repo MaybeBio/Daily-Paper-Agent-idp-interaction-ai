@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37155880",
+  "title": "Phosphorylation sites are evolutionary checkpoints against liquid-solid transition in protein condensates.",
+  "authors": "Ranganathan, Srivastav; Dasmeh, Pouria; Furniss, Seth; Shakhnovich, Eugene",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2023-05-08",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究通过粗粒化和全原子模拟结合进化分析，揭示磷酸化位点作为进化检查点调控FUS蛋白凝聚体的液-固转变，直接聚焦IDR介导的相分离PPI机制建模，与课题高度契合。",
+  "abstract": "Assemblies of multivalent RNA-binding protein fused in sarcoma (FUS) can exist in the functional liquid-like state as well as less dynamic and potentially toxic amyloid- and hydrogel-like states. How could then cells form liquid-like condensates while avoiding their transformation to amyloids? Here, we show how posttranslational phosphorylation can provide a \"handle\" that prevents liquid-solid transition of intracellular condensates containing FUS. Using residue-specific coarse-grained simulations, for 85 different mammalian FUS sequences, we show how the number of phosphorylation sites and their spatial arrangement affect intracluster dynamics preventing conversion to amyloids. All atom simulations further confirm that phosphorylation can effectively reduce the beta-sheet propensity in amyloid-prone fragments of FUS. A detailed evolutionary analysis shows that mammalian FUS PLDs are enriched in amyloid-prone stretches compared to control neutrally evolved sequences, suggesting that mammalian FUS proteins evolved to self-assemble. However, in stark contrast to proteins that do not phase-separate for their function, mammalian sequences have phosphosites in close proximity to these amyloid-prone regions. These results suggest that evolution uses amyloid-prone sequences in prion-like domains to enhance phase separation of condensate proteins while enriching phosphorylation sites in close proximity to safeguard against liquid-solid transitions.",
+  "abstract_zh": "多价RNA结合蛋白FUS（fused in sarcoma）的组装体可以存在于功能性液态样状态，以及动态性较低且可能具有毒性的淀粉样和水凝胶样状态。那么，细胞如何形成液态样凝聚体，同时避免其转化为淀粉样结构呢？在此，我们展示了翻译后磷酸化如何提供一个“把手”，防止含有FUS的细胞内凝聚体发生液-固转变。利用残基特异性粗粒化模拟，针对85种不同的哺乳动物FUS序列，我们展示了磷酸化位点的数量及其空间排列如何影响簇内动力学，从而阻止向淀粉样结构的转化。全原子模拟进一步证实，磷酸化能有效降低FUS中易形成淀粉样片段β-折叠倾向。详细的进化分析显示，与中性进化的对照序列相比，哺乳动物FUS的朊病毒样结构域（PLD）富含淀粉样倾向片段，这表明哺乳动物FUS蛋白进化出自我组装的能力。然而，与那些不依赖相分离执行功能的蛋白质形成鲜明对比的是，哺乳动物序列中的磷酸化位点紧邻这些淀粉样倾向区域。这些结果表明，进化利用朊病毒样结构域中的淀粉样倾向序列来增强凝聚体蛋白的相分离，同时在邻近区域富集磷酸化位点，以防范液-固转变。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37155880/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37155880/",
+  "paper_page_path": "papers/pubmed/37155880/index.html"
+}

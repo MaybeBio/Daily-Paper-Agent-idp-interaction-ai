@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40185744",
+  "title": "Role of charges in a dynamic disordered complex between an IDP and a folded domain.",
+  "authors": "Bugge, Katrine; Sottini, Andrea; Ivanovic, Milos T; Buus, Freia S; Saar, Daniel; Fernandes, Catarina B; Kocher, Fabienne; Martinsen, Jacob H; Schuler, Benjamin; Best, Robert B; Kragelund, Birthe B",
+  "journal": "Nature communications",
+  "published_date": "2025-04-05",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究通过实验与电荷变体分析，揭示无序蛋白prothymosin alpha与折叠域H1.0形成无固定取向的动态电荷驱动复合物，直接聚焦IDP-PPI机制建模，虽方法偏实验但机制深度高，对无序复合物建模有重要启发。",
+  "abstract": "Protein complexes involving intrinsically disordered proteins (IDPs) cover a continuum from IDPs that fully fold upon binding to IDPs that remain fully disordered in the complex. Here we demonstrate a case of charge-driven interactions of a folded domain with an oppositely charged IDP that remains completely disordered in the complex. Using the negatively charged and fully disordered prothymosin alpha and the positively charged and folded globular domain of histone H1.0, we show that they form a low-micromolar-affinity complex without fixed relative orientations or persistent contacts between specific residues. Using 25 charge variants of the globular domain, we find that the binding affinity can be modulated both by net charge and charge clustering on the folded domain, indicating some selectivity in highly charged complexes. Our results highlight that a folded protein can provide a charged surface onto which an oppositely charged IDP can bind while retaining disorder. We expect that more such complexes exist.",
+  "abstract_zh": "涉及固有无序蛋白（IDPs）的蛋白质复合物涵盖了一个连续谱系，从结合时完全折叠的IDPs到在复合物中保持完全无序的IDPs。在此，我们展示了一个折叠结构域与带相反电荷的IDP之间电荷驱动相互作用的案例，其中IDP在复合物中保持完全无序。利用带负电且完全无序的原胸腺素α以及带正电且折叠的组蛋白H1.0球状结构域，我们表明它们形成低微摩尔亲和力的复合物，且没有固定相对取向或特定残基间的持续接触。通过使用球状结构域的25种电荷变体，我们发现结合亲和力可受净电荷和折叠结构域上电荷聚集的调节，这表明高电荷复合物中存在一定选择性。我们的结果强调，折叠蛋白可以提供带电表面，带相反电荷的IDP可在此表面结合而保持无序状态。我们预期存在更多此类复合物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40185744/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40185744/",
+  "paper_page_path": "papers/pubmed/40185744/index.html"
+}

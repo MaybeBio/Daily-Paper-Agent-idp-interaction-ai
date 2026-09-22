@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "42642384",
+    "doi": "10.1038/s41467-026-75849-1",
+    "title": "A natural solution from caterpillar cuticles for flexible impact-resistant materials."
+  },
+  "content": {
+    "abstract": "Flexible impact-resistant materials are essential for defense, transportation, and biomedical engineering due to their ability to combine strength, energy dissipation, and compliance. While nature offers robust solutions like beetle elytra or mantis shrimp hammers, designing materials that achieve these properties simultaneously remains a significant challenge. Here, we explore the cuticle of Ostrinia furnacalis (Asian corn borer) as a natural model. We identify two key structural proteins, FCSP-1 and FCSP-2, that form a beta-sheet-rich matrix via liquid-liquid phase separation, adhering to chitin scaffolds. This matrix promotes lamellar structures that enhance energy dissipation through hydrogen bond disruption and secondary structure transformation under stress. NMR and molecular dynamics simulations further confirm that matrix formation relies on fine-tuned hydrogen bonding, electrostatic interactions, and pi-pi/cation-pi interactions. Inspired by this mechanism, we developed a chitin-protein composite hydrogel with an energy dissipation capability of 8 MJ/m(3), and its mechanical properties can be precisely tuned via in-vitro phosphorylation. This hydrogel demonstrates exceptional potential for protecting fragile objects.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Chitin/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Insect Proteins/chemistry/metabolism",
+      "*Moths/chemistry",
+      "Hydrogen Bonding",
+      "Phase Separation",
+      "Hydrogels/chemistry",
+      "Magnetic Resonance Spectroscopy",
+      "Larva/chemistry",
+      "Phosphorylation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Fenghou",
+        "Hu, Shuaifei",
+        "Pang, Zihan",
+        "Cui, Yuntian",
+        "Qian, Xuliang",
+        "Shi, Chaowei",
+        "Liu, Tian"
+      ],
+      "short_names": [
+        "Yuan F",
+        "Hu S",
+        "Pang Z",
+        "Cui Y",
+        "Qian X",
+        "Shi C",
+        "Liu T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0979-9950",
+        "ORCID: 0000-0002-0024-1096",
+        "ORCID: 0000-0001-9768-5496"
+      ],
+      "affiliations": [
+        "MOE Key Laboratory of Bio-intelligent Manufacturing, School of Bioengineering, Dalian University of Technology, Dalian, China.",
+        "School of Life Science and Technology, Henan Medical University, Xinxiang, China.",
+        "MOE Key Laboratory for Cellular Dynamics, Division of Life Sciences and Medicine, Hefei National Research Center for Interdisciplinary Sciences at the Microscale, University of Science and Technology of China, Hefei, China.",
+        "MOE Key Laboratory of Bio-intelligent Manufacturing, School of Bioengineering, Dalian University of Technology, Dalian, China.",
+        "MOE Key Laboratory of Bio-intelligent Manufacturing, School of Bioengineering, Dalian University of Technology, Dalian, China.",
+        "Discipline of Biomedical Engineering, School of Engineering, College of Science and Engineering, University of Galway, Galway, Ireland.",
+        "MOE Key Laboratory for Cellular Dynamics, Division of Life Sciences and Medicine, Hefei National Research Center for Interdisciplinary Sciences at the Microscale, University of Science and Technology of China, Hefei, China.",
+        "MOE Key Laboratory of Bio-intelligent Manufacturing, School of Bioengineering, Dalian University of Technology, Dalian, China. tianliu@dlut.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Fenghou",
+        "short_name": "Yuan F",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bio-intelligent Manufacturing, School of Bioengineering, Dalian University of Technology, Dalian, China.",
+          "School of Life Science and Technology, Henan Medical University, Xinxiang, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Shuaifei",
+        "short_name": "Hu S",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Cellular Dynamics, Division of Life Sciences and Medicine, Hefei National Research Center for Interdisciplinary Sciences at the Microscale, University of Science and Technology of China, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Pang, Zihan",
+        "short_name": "Pang Z",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bio-intelligent Manufacturing, School of Bioengineering, Dalian University of Technology, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Yuntian",
+        "short_name": "Cui Y",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory of Bio-intelligent Manufacturing, School of Bioengineering, Dalian University of Technology, Dalian, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Xuliang",
+        "short_name": "Qian X",
+        "identifiers": [
+          "0000-0002-0979-9950"
+        ],
+        "affiliations": [
+          "Discipline of Biomedical Engineering, School of Engineering, College of Science and Engineering, University of Galway, Galway, Ireland."
+        ]
+      },
+      {
+        "full_name": "Shi, Chaowei",
+        "short_name": "Shi C",
+        "identifiers": [
+          "0000-0002-0024-1096"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory for Cellular Dynamics, Division of Life Sciences and Medicine, Hefei National Research Center for Interdisciplinary Sciences at the Microscale, University of Science and Technology of China, Hefei, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tian",
+        "short_name": "Liu T",
+        "identifiers": [
+          "0000-0001-9768-5496"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Bio-intelligent Manufacturing, School of Bioengineering, Dalian University of Technology, Dalian, China. tianliu@dlut.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jul 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/26 05:36",
+    "fetched_at": "2026-09-18 06:01:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42642384",
+      "35561014",
+      "41292380",
+      "40627553",
+      "31968227",
+      "38711396",
+      "38064446",
+      "34870294",
+      "35344662",
+      "26774746",
+      "40915841",
+      "41433062",
+      "34954417",
+      "36598076",
+      "29723702",
+      "12676931",
+      "38494224",
+      "40311109",
+      "41734837",
+      "29317504",
+      "30600023",
+      "29590098",
+      "31053640",
+      "26911882",
+      "39236247",
+      "22087475",
+      "35933099",
+      "41218278",
+      "33464811",
+      "25077674",
+      "20866443",
+      "41202053",
+      "39711479",
+      "39306751",
+      "42270647",
+      "15475304",
+      "31034225",
+      "41934179",
+      "40412508",
+      "35395036",
+      "40316078",
+      "12530225",
+      "39688018",
+      "42475469",
+      "18826572",
+      "28821138",
+      "22395160",
+      "40381793",
+      "31563691",
+      "36690237",
+      "40752701",
+      "32227057",
+      "30711661",
+      "23912807",
+      "39007419",
+      "32702421",
+      "42014010",
+      "40817513",
+      "26828306",
+      "28593765",
+      "20149871",
+      "23880267",
+      "27665082",
+      "41832020",
+      "40372154",
+      "41952399",
+      "15857761",
+      "21933709",
+      "30149213",
+      "20417215",
+      "35045604",
+      "40366641",
+      "40826988",
+      "41161444",
+      "23607785",
+      "18760362",
+      "23214924",
+      "42250821",
+      "42019105",
+      "26320723",
+      "39856088",
+      "16283750",
+      "26742033",
+      "41020679",
+      "26972338",
+      "39710027",
+      "33838829",
+      "42259799",
+      "23223865",
+      "31151236",
+      "38526948",
+      "40817559",
+      "33458940",
+      "30346622",
+      "22128305",
+      "30459333",
+      "29128535",
+      "21106526",
+      "36173163",
+      "42556189"
+    ],
+    "review": [
+      "42642384",
+      "35344662",
+      "38494224",
+      "41218278"
+    ],
+    "pmc": [
+      "13507094"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-75849-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42642384/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

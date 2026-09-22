@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41675592",
+  "title": "Protein design and RNA design: Perspectives.",
+  "authors": "Chen, Xi; Dai, Xu; Lu, Peilong",
+  "journal": "Quantitative biology (Beijing, China)",
+  "published_date": "2026-02-12",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 6,
+  "one_liner_zh": "综述AI驱动的蛋白质与RNA设计进展，提及靶向无序蛋白的应用，但未深入PPI机制建模，方法启发有限。",
+  "abstract": "Advances in deep learning and generative modeling have transformed the landscape of protein and RNA design, enabling rapid and precise creation of novel biomolecules with tailored structures and functions. In protein design, generative deep learning frameworks now support backbone generation, sequence optimization, and joint sequence-structure co-design with unprecedented accuracy. These approaches have facilitated broad applications ranging from cyclic peptide and non-natural fold engineering to functional tool development, including small-molecule sensing, catalytic center scaffolding, allosteric switching, intracellular logic circuits, and the targeting of intrinsically disordered proteins. Emerging therapeutic applications-such as immune cell engineering, G protein-coupled receptor-targeted miniproteins, receptor-degrading binders, and thermostable antitoxins-demonstrate the translational potential of computational design. Parallel progress in RNA design, driven by enhanced 3D structure prediction models and generative algorithms, is expanding capabilities in aptamer engineering and RNA-protein complexes, despite ongoing challenges in model generalization and experimental validation. Together, these developments highlight a new era of AI-driven molecular engineering, in which unified protein-RNA modeling, large-scale sampling, and automated experimental pipelines will accelerate the creation of programmable biological systems and next-generation therapeutics.",
+  "abstract_zh": "深度学习和生成建模的进展已彻底改变了蛋白质和RNA设计的格局，使得快速且精确地创造具有定制结构和功能的新型生物分子成为可能。在蛋白质设计中，生成式深度学习框架现支持骨架生成、序列优化以及序列-结构联合协同设计，其精度前所未有。这些方法促进了从环肽和非天然折叠工程到功能工具开发的广泛应用，包括小分子传感、催化中心支架、变构开关、细胞内逻辑电路以及靶向固有无序蛋白。新兴的治疗应用——如免疫细胞工程、靶向G蛋白偶联受体的微型蛋白、受体降解结合剂和热稳定抗毒素——展示了计算设计的转化潜力。RNA设计方面的并行进展，由增强的3D结构预测模型和生成算法驱动，正在扩展适体工程和RNA-蛋白质复合物的能力，尽管在模型泛化和实验验证方面仍存在持续挑战。总体而言，这些发展标志着AI驱动的分子工程新时代的到来，其中统一的蛋白质-RNA建模、大规模采样和自动化实验流程将加速可编程生物系统和下一代治疗药物的创造。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41675592/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41675592/",
+  "paper_page_path": "papers/pubmed/41675592/index.html"
+}

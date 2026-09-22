@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2603.06292v1",
+  "title": "Enhanced Protein Intrinsic Disorder Prediction Through Dual-View Multiscale Features and Multi-objective Evolutionary Algorithm",
+  "doi": "",
+  "abstract": "Intrinsically disordered regions of proteins play a crucial role in cell signaling and drug discovery. However, their high structural flexibility makes accurate residue-level prediction challenging. Existing methods often rely on single-view representations or rigid manual fusion strategies, which fail to effectively balance the complex interplay between local amino acid preferences and long-range sequence patterns. To address these limitations, we propose D2MOE, a Dual-View Multiscale Features and Multi-objective Evolutionary Algorithm, which consists of two stages. First, a dual-view multiscale feature extraction method is introduced. This method integrates evolutionary views with deep semantic views and employs multiscale extractors to capture structural information across diverse receptive fields. Second, a multi-objective evolutionary algorithm is designed to adaptively discover optimal fusion architectures. By co-evolving discrete feature selection and continuous fusion weights, the algorithm adaptively explores optimal cross-feature architectures to enhance predictive accuracy while maintaining model compactness. Experimental results across three benchmark datasets demonstrate that D2MOE consistently outperforms state-of-the-art methods. D2MOE combines the feature extraction capabilities of deep learning with the global search advantages of evolutionary algorithms, enabling efficient feature integration without manual design, and providing a robust computational tool for protein disorder prediction.",
+  "authors": [
+    "Shaokuan Wang",
+    "Pengshan Cui",
+    "Yining Qian",
+    "An-Yang Lu",
+    "Xianpeng Wang"
+  ],
+  "published_date": "2026-03-06T13:51:08Z",
+  "updated_date": "2026-03-06T13:51:08Z",
+  "journal": "",
+  "category": "cs.NE",
+  "landing_url": "https://arxiv.org/abs/2603.06292v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.06292v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cs.NE"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2603.06292v1",
+    "raw_categories": [
+      "cs.NE"
+    ],
+    "journal_ref": ""
+  }
+}

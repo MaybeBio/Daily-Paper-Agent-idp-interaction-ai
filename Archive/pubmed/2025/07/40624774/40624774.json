@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "pmid": "40624774",
+    "doi": "10.1021/acs.jpcb.5c02904",
+    "title": "Elucidation of the Mutual Solubility of Amino Acids for the Rational Control of Phase-Separating Sequences."
+  },
+  "content": {
+    "abstract": "Understanding the mechanism of protein liquid-liquid phase separation (LLPS) is a fundamental challenge in biology. LLPS is known to stem from multivalent and noncovalent interactions among amino acids; however, experimental approaches for a quantitative evaluation of these interactions are still limited. In this study, we systematically measured amino acid-amino acid interactions (AAIs) based on their mutual solubility with the aim of elucidating the LLPS at the single-amino-acid level. Specifically, we determined the solubility of 15 uncharged amino acids in 20 different amino-acid-based solutions and compared the resulting transfer free energies. Beyond confirming that aromatic amino acids are stabilized by cationic amino acids, we discovered that glutamine, asparagine, and methionine, which are abundant in LLPS-prone proteins, are stabilized by charged amino acids. On the basis of these insights, we successfully achieved a significant solubilization of peptide segments in LLPS-related domains. A multivariate analysis suggested that our extensive AAI dataset reflects complex factors, including polarity and charge, which cannot be captured by existing amino-acid indices. Therefore, our solubility-based AAI framework paves the way for the improved prediction of biological LLPS and the rational design of sequences to regulate this process.",
+    "keywords": [],
+    "mesh_terms": [
+      "Solubility",
+      "*Amino Acids/chemistry",
+      "Thermodynamics",
+      "*Peptides/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nomoto, Akira",
+        "Sugai, Hiroka",
+        "Shiraki, Kentaro",
+        "Tomita, Shunsuke"
+      ],
+      "short_names": [
+        "Nomoto A",
+        "Sugai H",
+        "Shiraki K",
+        "Tomita S"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-4600-0345",
+        "ORCID: 0000-0002-5957-0011",
+        "ORCID: 0000-0002-0586-6976"
+      ],
+      "affiliations": [
+        "Institute of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba 305-8573, Japan.",
+        "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology, 1-1-1 Higashi, Tsukuba 305-8566, Japan.",
+        "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology, 1-1-1 Higashi, Tsukuba 305-8566, Japan.",
+        "Research Center for Autonomous Systems Materialogy (ASMat), Institute of Science Tokyo, Yokohama, Kanagawa 226-8501, Japan.",
+        "Institute of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba 305-8573, Japan.",
+        "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology, 1-1-1 Higashi, Tsukuba 305-8566, Japan.",
+        "School of Integrative and Global Majors, University of Tsukuba, Tsukuba 305-8577, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nomoto, Akira",
+        "short_name": "Nomoto A",
+        "identifiers": [
+          "0009-0004-4600-0345"
+        ],
+        "affiliations": [
+          "Institute of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba 305-8573, Japan.",
+          "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology, 1-1-1 Higashi, Tsukuba 305-8566, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugai, Hiroka",
+        "short_name": "Sugai H",
+        "identifiers": [
+          "0000-0002-5957-0011"
+        ],
+        "affiliations": [
+          "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology, 1-1-1 Higashi, Tsukuba 305-8566, Japan.",
+          "Research Center for Autonomous Systems Materialogy (ASMat), Institute of Science Tokyo, Yokohama, Kanagawa 226-8501, Japan."
+        ]
+      },
+      {
+        "full_name": "Shiraki, Kentaro",
+        "short_name": "Shiraki K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba 305-8573, Japan."
+        ]
+      },
+      {
+        "full_name": "Tomita, Shunsuke",
+        "short_name": "Tomita S",
+        "identifiers": [
+          "0000-0002-0586-6976"
+        ],
+        "affiliations": [
+          "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology, 1-1-1 Higashi, Tsukuba 305-8566, Japan.",
+          "School of Integrative and Global Majors, University of Tsukuba, Tsukuba 305-8577, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Jul 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/08 06:26",
+    "fetched_at": "2026-09-21 20:44:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40624774",
+      "36640113",
+      "38252962",
+      "40984006",
+      "34222258",
+      "38804888",
+      "39256186",
+      "33908485",
+      "41064885",
+      "38855848",
+      "34428231",
+      "39761364",
+      "30279585",
+      "36443315",
+      "39979996",
+      "35883530",
+      "37480340",
+      "40632496",
+      "37796176",
+      "33631265",
+      "39865610",
+      "38547652",
+      "35667130",
+      "37794023",
+      "40906967",
+      "37764485",
+      "36575582",
+      "16853446",
+      "38205268",
+      "29511089",
+      "35183692",
+      "11485432",
+      "41272974",
+      "37840355",
+      "19778002",
+      "37183369",
+      "11427046",
+      "40463193",
+      "14086747",
+      "31879929",
+      "25984769",
+      "33684117",
+      "23638911",
+      "33876938",
+      "38272403",
+      "37609923",
+      "35962177",
+      "34911929",
+      "31617663",
+      "37494702",
+      "17174328",
+      "34236318",
+      "40794947",
+      "39979561",
+      "41143741",
+      "20238666",
+      "33139563",
+      "35723743",
+      "38322526",
+      "41442811",
+      "31188823",
+      "40792356",
+      "38862770",
+      "40560766",
+      "41000164",
+      "35887012",
+      "33469149",
+      "36444977",
+      "40853174",
+      "39990825",
+      "32007034",
+      "40915256",
+      "17876818",
+      "21858782",
+      "38555653",
+      "36471564",
+      "39688070",
+      "25338222",
+      "36181270",
+      "36702825",
+      "35198873",
+      "24461636",
+      "35056714",
+      "28689408",
+      "17191902",
+      "22728531",
+      "9044612",
+      "40616404",
+      "35543798",
+      "37001915",
+      "12007607",
+      "34156864",
+      "39957101",
+      "39281576",
+      "36328544",
+      "12624747",
+      "27982649",
+      "37735903",
+      "38553587",
+      "15901900"
+    ],
+    "review": [
+      "40624774",
+      "38855848",
+      "38547652",
+      "41442811",
+      "39990825",
+      "17191902",
+      "40616404",
+      "35543798"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c02904",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

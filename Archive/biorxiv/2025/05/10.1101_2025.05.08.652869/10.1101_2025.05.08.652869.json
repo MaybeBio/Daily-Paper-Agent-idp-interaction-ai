@@ -1,0 +1,225 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.08.652869",
+  "title": "Adhesion-derived condensates control component availability to regulate adhesion dynamics",
+  "doi": "10.1101/2025.05.08.652869",
+  "abstract": "<h4>Summary</h4> Integrin adhesion complexes mediate cell-extracellular matrix (ECM) interactions and undergo dynamic remodelling to regulate cell adhesion and migration. Here, we demonstrate that tensin 1 (TNS1), a multidomain adhesion adaptor protein linking active integrins with the actin cytoskeleton, undergoes phase separation in cells. Endogenous TNS1 condensates are formed upon focal adhesion disassembly or limited integrin–ECM engagement in both 2D and 3D environments, acting as reservoirs for inactive adhesion proteins. Combining functional experimental approaches with phosphoproteomics, we identify the TNS1 intrinsically disordered region as the main driver of TNS1 condensation and demonstrate a negative regulatory role of phosphorylation on condensate assembly upon activation of stress-responsive kinases. Finally, we confirm the functional effects of phosphorylation-dependent TNS1 condensation on adhesion dynamics and cell migration. Together, our findings highlight TNS1 condensation as a regulatory mechanism controlling local availability of inactive adhesion proteins, with direct implications on adhesion dynamics and cell behaviour.",
+  "authors": [
+    "Dibus M",
+    "Enkavi G",
+    "Chastney M",
+    "Vattulainen I",
+    "Ivaska J"
+  ],
+  "published_date": "2025-05-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.08.652869",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.08.652869.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1017423",
+    "raw_record": {
+      "id": "PPR1017423",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1017423"
+        ]
+      },
+      "doi": "10.1101/2025.05.08.652869",
+      "title": "Adhesion-derived condensates control component availability to regulate adhesion dynamics",
+      "authorString": "Dibus M, Enkavi G, Chastney M, Vattulainen I, Ivaska J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dibus M",
+            "lastName": "Dibus",
+            "firstName": "Michal",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Turku Bioscience Centre, and , ,"
+                },
+                {
+                  "affiliation": "InFLAMES Research Flagship, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Enkavi G",
+            "lastName": "Enkavi",
+            "firstName": "Giray",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physics, , P.O. Box 64 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chastney M",
+            "lastName": "Chastney",
+            "firstName": "Megan",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Turku Bioscience Centre, and , ,"
+                },
+                {
+                  "affiliation": "InFLAMES Research Flagship, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vattulainen I",
+            "lastName": "Vattulainen",
+            "firstName": "Ilpo",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physics, , P.O. Box 64 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ivaska J",
+            "lastName": "Ivaska",
+            "firstName": "Johanna",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Turku Bioscience Centre, and , ,"
+                },
+                {
+                  "affiliation": "InFLAMES Research Flagship, , ,"
+                },
+                {
+                  "affiliation": "Department of Life Technologies, , ,"
+                },
+                {
+                  "affiliation": "Foundation for the Finnish Cancer Institute, Tukholmankatu 8, FI-00014 Helsinki, Finland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Summary</h4>  Integrin adhesion complexes mediate cell-extracellular matrix (ECM) interactions and undergo dynamic remodelling to regulate cell adhesion and migration. Here, we demonstrate that tensin 1 (TNS1), a multidomain adhesion adaptor protein linking active integrins with the actin cytoskeleton, undergoes phase separation in cells. Endogenous TNS1 condensates are formed upon focal adhesion disassembly or limited integrin–ECM engagement in both 2D and 3D environments, acting as reservoirs for inactive adhesion proteins. Combining functional experimental approaches with phosphoproteomics, we identify the TNS1 intrinsically disordered region as the main driver of TNS1 condensation and demonstrate a negative regulatory role of phosphorylation on condensate assembly upon activation of stress-responsive kinases. Finally, we confirm the functional effects of phosphorylation-dependent TNS1 condensation on adhesion dynamics and cell migration. Together, our findings highlight TNS1 condensation as a regulatory mechanism controlling local availability of inactive adhesion proteins, with direct implications on adhesion dynamics and cell behaviour.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101142305",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/09/2025.05.08.652869.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.08.652869"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1017423"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1017423&type=FILE&fileName=EMS205410-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42248878",
+            "reference": "Nature communications. \n    2026 Jun;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS205410",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "ensembl",
+          "hpa",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-05-11",
+      "firstPublicationDate": "2025-05-09",
+      "firstIndexDate": "2025-05-11",
+      "fullTextReceivedDate": "2025-05-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

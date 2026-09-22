@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods details, or supporting information were provided
+- **Shared manuscript claim summary** The authors use well-tempered metadynamics simulations to show that intermediate-sized silica nanoparticles (d = 1.2-1.4 nm) stabilize the native intrinsically disordered conformations of alpha-synuclein, whereas larger or smaller nanoparticles (d = 0.5-2.5 nm range) increase the probability of intramolecular beta-sheet formation, with implications for nanoparticle design and therapeutic targeting of alpha-synuclein aggregation
+- **Visible evidence base** Abstract text only; no simulation parameters, convergence metrics, free energy surfaces, structural probability data, or statistical analyses are visible
+- **Missing materials affecting confidence** Full methods, simulation setup, force field parameters, metadynamics bias parameters, convergence assessments, structural analysis details, all figures and tables, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study linking nanoparticle curvature to conformational preferences of an intrinsically disordered protein. The central hypothesis, that nanoparticle size relative to protein domain dimensions modulates secondary structure propensity, is mechanistically plausible and of relevance to the nanobio interface community. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the simulations, the statistical robustness of the conformational sampling, or the generality of the claimed size-dependent behavior. The claim that intermediate-sized nanoparticles "stabilize" native disordered conformations is presented without quantitative descriptors, and the connection to aggregation propensity is inferred rather than demonstrated. The work may be of interest to researchers in protein-nanoparticle interactions, computational biophysics, and neurodegenerative disease research, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying protein-nanoparticle interactions in nanomedicine and biotechnology, computational biophysicists interested in intrinsically disordered proteins and enhanced sampling methods, and investigators working on alpha-synuclein aggregation in Parkinson's disease and related synucleinopathies. The size-dependent conformational control concept could inform nanoparticle design for therapeutic or diagnostic applications.
+- **Major strengths** The study addresses a timely and relevant question about how nanoparticle curvature, at length scales comparable to protein structural domains, influences the conformation of an intrinsically disordered protein. The use of well-tempered metadynamics is appropriate for exploring conformational free energy landscapes of IDPs. The systematic variation of nanoparticle diameter across a defined range (0.5-2.5 nm) provides a clear design of experiments. The potential practical implications for nanoparticle-based therapeutic interventions are clearly articulated.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that well-tempered metadynamics simulations reveal secondary structure changes and thermodynamic characteristics of alpha-synuclein adsorbed onto silica nanoparticles of varying sizes
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on the simulation protocol, including force field choice, water model, ion conditions, system size, simulation length, number of collective variables, bias parameters, or convergence criteria. For enhanced sampling simulations of IDPs, these details are critical because results can be highly sensitive to force field parameters and sampling convergence. Without this information, the reliability of the reported conformational landscapes cannot be assessed.
+  - **Why it matters** Metadynamics results are only meaningful if the simulations are converged and the bias is properly constructed. If the sampling is insufficient or the collective variables are poorly chosen, the reported free energy surfaces and structural probabilities could be artifacts. The central claims of the paper depend entirely on the quality of these simulations.
+  - **Resolution test** Provide full simulation details in the main text or supporting information, including force field and water model, simulation box size, number of atoms, total simulation time per system, number of replicas or independent runs, collective variables used, bias deposition parameters, and convergence metrics such as free energy difference evolution over time or block error analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that intermediate-sized SiO2 nanoparticles (d = 1.2-1.4 nm) effectively stabilize the native intrinsically disordered conformations of alphaS, whereas excessively large or small nanoparticles significantly enhance the likelihood of forming intramolecular beta-sheet domains
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that "conformational landscapes and structural probabilities" were analyzed, but no quantitative data are presented. No free energy differences, no beta-sheet propensity values, no confidence intervals, and no statistical comparisons between nanoparticle sizes are shown. The terms "effectively stabilize" and "significantly enhance" imply quantitative significance, but no metrics are provided to support these descriptors.
+  - **Why it matters** Without quantitative measures of conformational populations and their uncertainties, the reader cannot evaluate whether the observed differences between nanoparticle sizes are meaningful or within statistical noise. The claim of a non-monotonic size dependence is the central finding, and it requires robust statistical support.
+  - **Resolution test** Present quantitative data such as free energy differences between conformational states, beta-sheet population fractions with error bars, and statistical tests comparing different nanoparticle sizes. Show representative free energy surfaces and structural probability distributions in figures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim scope
+  - **Claim pointer** The authors claim that the formation of intramolecular beta-sheet domains within alphaS chains is "critical for subsequent aggregation of alphaS" and that the study "may pave the way for in vivo penetration and distribution of nanoparticles as well as biomedicine therapeutic interventions aimed at targeting alphaS aggregation"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not present any simulation or experimental evidence linking the observed intramolecular beta-sheet formation to actual aggregation behavior. The connection between monomeric conformational changes and aggregation propensity is inferred but not demonstrated. Furthermore, the leap from simulation results to in vivo implications is not supported by any data presented in the abstract.
+  - **Why it matters** The broader significance of the work, as framed in the abstract, rests on the relevance of the observed conformational changes to pathological aggregation. If this link is not established, the practical implications are overstated. The in vivo claims are speculative and not supported by the evidence base.
+  - **Resolution test** Either provide simulation evidence of aggregation propensity (e.g., dimerization free energies, aggregation-prone conformations identified by established criteria) or temper the claims to state that the observed conformational changes may be relevant to aggregation, without asserting a direct link. Remove or substantially soften the in vivo implications unless supported by additional data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Nanoparticle size range description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states nanoparticle diameters range from 0.5 to 2.5 nm, and the intermediate size is 1.2-1.4 nm. The phrase "corresponding to protein structural domains" is used in the title, but the abstract does not clarify how the domain sizes of alpha-synuclein (stated as 1-2 nm) were determined or defined.
+  - **Required correction** Briefly define what is meant by protein structural domain size in the context of an intrinsically disordered protein, and clarify how the 1-2 nm domain size estimate was obtained.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison with prior work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention any comparison with previous experimental or computational studies of alpha-synuclein on nanoparticles or surfaces. Without such context, the novelty of the findings is difficult to gauge.
+  - **Required correction** Add a sentence in the abstract or introduction referencing prior relevant studies and stating how the current work extends or differs from them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "stabilize"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "stabilize" in the context of intrinsically disordered conformations is ambiguous. It could mean thermodynamic stabilization (lower free energy) or kinetic stabilization (longer residence time). The abstract does not specify which is meant.
+  - **Required correction** Clarify whether the stabilization refers to thermodynamic or kinetic effects, and specify the relevant free energy or timescale measures.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation protocol and convergence not documented), R1-M2 (no quantitative results or statistical support), R1-M3 (unsupported link to aggregation and in vivo implications)
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of mapping nanoparticle curvature effects onto protein domain dimensions is moderately original, though related studies on surface-induced conformational changes of alpha-synuclein exist. The specific size range explored (0.5-2.5 nm) is a useful contribution.
+  - Scientific importance: The question of how nanoparticle size modulates IDP conformation is relevant to nanomedicine and protein aggregation research, but the importance is not fully established from the abstract alone.
+  - Interdisciplinary readership: The topic bridges nanoscience, biophysics, and neurobiology, which could attract a broad readership if the findings are robust and clearly presented.
+  - Technical soundness: Cannot be assessed from the abstract. The absence of simulation details and convergence metrics is a major limitation.
+  - Readability for nonspecialists: The abstract is generally readable, but terms such as "well-tempered metadynamics" and "intrinsically disordered protein" are used without brief explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims are plausible and the study addresses a relevant question, but the abstract does not provide sufficient technical detail or quantitative support to evaluate the validity of the findings. A full review of the manuscript with methods and figures would be required to determine whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that intermediate-sized nanoparticles "effectively stabilize" native disordered conformations is unsupported without quantitative free energy or population data.
+- The claim that larger or smaller nanoparticles "significantly enhance" beta-sheet formation is unsupported without statistical measures.
+- The assertion that intramolecular beta-sheet formation is "critical for subsequent aggregation" is not supported by any evidence presented.
+- The statement that the study "may pave the way for in vivo penetration and distribution of nanoparticles" is speculative and not supported by the abstract content.
+- The relationship between nanoparticle size and conformational change is presented as a general finding, but the abstract does not indicate whether multiple independent simulations or replicate systems were used to establish reproducibility.

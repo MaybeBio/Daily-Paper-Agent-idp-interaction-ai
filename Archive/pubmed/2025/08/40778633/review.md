@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusions) without supplementary information or figures
+- **Assessment boundary** Scientific claims, methodological soundness, and technical validity as presented in the provided text
+- **Shared manuscript claim summary** The authors present HyperW-Decon, a machine learning-based deconvolution method for correcting polarization-induced line broadening in hyperpolarized water (HyperW) 2D NMR spectra of intrinsically disordered proteins (IDPs), enabling high-sensitivity, high-resolution access to short-lived ion-peptide encounter complexes in biomineralization processes
+- **Visible evidence base** Text descriptions of experimental procedures, spectral comparisons, SNR measurements, and chemical shift analyses for two IDP systems (OPN82-131 and R5)
+- **Missing materials affecting confidence** All figures, tables, supplementary information, training data details, neural network architecture specifications, and raw spectral data
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to a well-recognized problem in hyperpolarized NMR, namely the resolution penalty incurred during rapid acquisition. The combination of HyperW with ML-based deconvolution is a reasonable and potentially valuable contribution. However, the provided text lacks the quantitative detail necessary to evaluate the central claims rigorously. The neural network training procedure, validation metrics, and the precise relationship between predicted and true decay functions are described only qualitatively. The biological applications, while suggestive, are presented without sufficient control experiments or statistical analysis to support the claim of accessing "short-lived intermediates" with residue resolution. The manuscript would benefit from a more detailed presentation of the methodology and a more cautious interpretation of the biological results.
+- **Who would be interested in the results, and why** Researchers in the NMR methodology community, particularly those working on hyperpolarization techniques (dDNP, parahydrogen, Overhauser DNP) and their application to biomolecular systems. The approach may also interest scientists studying IDPs and biomolecular condensation or self-assembly processes, as well as those developing ML-based spectral processing tools. The potential to access transient states in biomineralization could attract interest from the biomaterials community.
+- **Major strengths** The problem addressed is significant and well-motivated. The theoretical framework for modeling the exogenous decay function is clearly articulated. The choice of two distinct IDP systems with different sequence properties provides some evidence of generalizability. The comparison with conventional spectra for validation is appropriate. The potential for broad applicability across dDNP experiments is an attractive feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the trained neural networks can accurately predict the exogenous decay function E(t1) and that dividing by this function restores native line shapes
+  - **Evidence pointer** Results and Discussion, Data Treatment: Rationale and Theory; Figures 3, 5, 7 (figures not provided)
+  - **Concern** The manuscript states that DNNs were trained on 105 simulated FIDs derived from thermal equilibrium data, but provides no information on the architecture, training procedure, validation strategy, or performance metrics of these networks. The claim that the networks "correctly predict" the decay rate is supported only by visual inspection of spectra. Without quantitative measures of prediction accuracy (e.g., error in predicted R1,eff compared to known values in simulations), the reliability of the deconvolution cannot be assessed. Furthermore, the manuscript does not address potential overfitting, the sensitivity of predictions to noise levels, or the generalizability of the trained networks to different experimental conditions or protein systems.
+  - **Why it matters** The central methodological contribution of the paper is the ML-based deconvolution. If the neural network predictions are not rigorously validated, the entire approach rests on an unsubstantiated foundation. The claim of "no resolution loss" depends critically on the accuracy of the predicted decay function.
+  - **Resolution test** Provide quantitative validation of the neural network predictions on held-out simulated data, including error metrics for predicted R1,eff values. Demonstrate that the deconvolution procedure recovers known line shapes from simulated hyperpolarized data with added noise. Show that the approach is robust across a range of signal-to-noise ratios and decay rates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / Claim substantiation
+  - **Claim pointer** The claim that HyperW-Decon reveals "previously inaccessible, short-lived ion-peptide encounter complexes with residue resolution" in biomineralization processes
+  - **Evidence pointer** Results and Discussion, Application to Biomimetic Material Formation; Figures 8, 9 (figures not provided)
+  - **Concern** The biological application is presented as the key demonstration of the method's utility, yet the evidence for the existence and characterization of "short-lived intermediates" is not presented in sufficient detail. The text describes chemical shift changes and SNR* variations upon counterion exposure, but does not provide: (i) a clear definition of the timescale of the observed intermediates, (ii) control experiments demonstrating that the observed spectral changes are not due to simple salt effects on the NMR properties (e.g., ionic strength-induced shifts, changes in relaxation), (iii) quantitative analysis of the kinetics of the observed changes, or (iv) independent validation of the structural interpretation (e.g., via comparison with known binding data or computational predictions). The claim that these are "encounter complexes" is inferred rather than demonstrated.
+  - **Why it matters** The stated significance of the work hinges on the ability to access transient states that are invisible to conventional methods. If the observed spectral changes can be explained by more mundane effects, the biological claims are not supported. The lack of kinetic data and control experiments weakens the central application of the method.
+  - **Resolution test** Provide time-resolved spectral data showing the appearance and disappearance of the proposed intermediates with clear kinetic analysis. Include control experiments with non-binding salts or mutated peptides to rule out nonspecific effects. Quantify the lifetimes of the observed species and demonstrate that they are consistent with the proposed encounter complex model. Provide independent evidence (e.g., from ITC, SPR, or computational docking) supporting the proposed binding interfaces.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the SNR enhancement factors (ε) of 130-650 and improvement factors (ε*) of 2-5 are correctly computed and interpreted
+  - **Evidence pointer** Results and Discussion, Osteopontin; Figure 4 (figure not provided)
+  - **Concern** The calculation of SNR enhancement factors is described only briefly. The manuscript states that ε was evaluated "with the exact same sample and detection sequence used for dDNP detection... but after decay of the hyperpolarization," and that ε* is the "plain ratio in SNR between the HyperW experiment and the best spectrum obtainable by conventional NMR." However, the text does not specify how SNR was measured (peak height vs. peak area, noise region, etc.), how the "best" conventional spectrum was defined, or whether the reported ε values account for differences in receiver gain, number of scans, and other acquisition parameters. The relationship between ε and ε* (a factor of 181) is stated but not derived.
+  - **Why it matters** The quantitative claims of sensitivity enhancement are central to the paper's significance. If the SNR calculations are not rigorously defined and reproducible, the magnitude of the claimed improvement cannot be verified.
+  - **Resolution test** Provide a detailed description of the SNR calculation methodology, including the exact formula used, the noise region, and the peak(s) analyzed. Show the derivation of the conversion factor between ε and ε*. Present the raw data (or representative examples) used for the SNR calculations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the deconvolution approach is "reference-free" and does not require external reference signals or simulations
+  - **Evidence pointer** Results and Discussion, Data Treatment: Rationale and Theory
+  - **Concern** The manuscript states that the method is "reference-free" because it does not require an external reference signal. However, the training of the neural networks requires simulated FIDs derived from thermal equilibrium data, which serve as a form of reference. The distinction between "external reference" and "training data" is not clearly articulated. Moreover, the claim that the method is "parameter-free from the user's perspective" is not fully substantiated, as the user must still provide thermal equilibrium data for training and must make choices about data processing (e.g., apodization, zero-filling) that could affect the deconvolution result.
+  - **Why it matters** The "reference-free" nature of the method is presented as a key advantage over existing approaches. If the method implicitly relies on reference data (the thermal equilibrium spectra used for training), this advantage is less clear and should be stated more precisely.
+  - **Resolution test** Clarify the distinction between "reference-free" and "training-based" approaches. Describe the exact inputs required from the user and the potential sources of user-dependent variability in the deconvolution results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction, paragraph 3
+  - **Evidence pointer** Text: "Notably, other signal correction methods in, for example, HYPNOESIS, have also been found successful, albeit only with 1D data."
+  - **Issue** The reference to HYPNOESIS is unclear. It is not explained what HYPNOESIS is, how it relates to the present work, or why it is mentioned here. The sentence is also grammatically awkward.
+  - **Required correction** Provide a brief explanation of HYPNOESIS and its relevance, or remove the reference if it is not essential.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results and Discussion, Data Treatment: Rationale and Theory
+  - **Evidence pointer** Text: "Note that the effective FIDs do not decay with a single cumulative decay rate, but biexponentially, with the water decay function being multiplied with the intrinsic FID."
+  - **Issue** The term "biexponentially" is used, but the equation presented (S(t1) = E(t1) * I(t1)) describes a product of two functions, not a sum of two exponentials. The relationship between the "biexponential" description and the multiplicative model is not explained.
+  - **Required correction** Clarify the mathematical relationship between the multiplicative model and the "biexponential" description, or revise the terminology.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results and Discussion, Application to Biomimetic Material Formation
+  - **Evidence pointer** Text: "For R5, a similar response to counterion exposure was observed. While chemical shift changes were less pronounced than for OPN82-131 (Figure 9a-d), the changes in SNR* followed a comparable trend."
+  - **Issue** The text states that SNR* changes followed a "comparable trend" but does not specify what that trend is. The reader is left to infer the pattern from the figures, which are not provided.
+  - **Required correction** Describe the observed trend explicitly in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results and Discussion, Application to Biomimetic Material Formation
+  - **Evidence pointer** Text: "Notably, the R5 signal intensities dropped rapidly within minutes after counterion exposure, reflecting the formation of NMR-invisible self-assemblies"
+  - **Issue** The claim that the signal drop reflects self-assembly is presented without supporting evidence. Alternative explanations (e.g., precipitation, changes in relaxation properties, sample degradation) are not discussed.
+  - **Required correction** Provide evidence that the signal loss is due to self-assembly, or acknowledge alternative explanations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Conclusions
+  - **Evidence pointer** Text: "Across four distinct cases, we obtained spectra with resolution comparable to that of high-field NMR, yet with sensitivity gains exceeding two orders of magnitude."
+  - **Issue** The "four distinct cases" are not enumerated in the text. It is unclear what these four cases are.
+  - **Required correction** Specify the four cases explicitly.
+- **Assessment against Nature-style criteria**
+  - **Originality** The combination of hyperpolarized water with ML-based deconvolution for 2D biomolecular NMR is a novel approach. The theoretical framework for modeling the exogenous decay is a reasonable contribution. However, the originality is somewhat tempered by the existence of prior work on reference deconvolution and ML-based spectral processing, which the authors acknowledge.
+  - **Scientific importance** The ability to access short-lived intermediates in biomolecular processes is of significant interest. If the method delivers what is claimed, it could enable new types of experiments. However, the importance of the specific biological findings (ion-peptide encounter complexes) is not yet established, as the evidence presented is preliminary.
+  - **Interdisciplinary readership** The work bridges NMR methodology, machine learning, and biophysics/biomaterials. It could appeal to a broad readership if the methodology is presented in an accessible way. The current text is reasonably accessible but assumes familiarity with both NMR and ML concepts.
+  - **Technical soundness** The theoretical model is plausible, but the lack of quantitative validation of the ML component and the limited description of experimental controls are significant weaknesses. The SNR calculations are not fully specified.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, some sections (e.g., the description of the neural network training) are too brief for a nonspecialist to follow. The biological application section assumes background knowledge of biomineralization.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results are suggestive, but the manuscript in its current form does not provide sufficient evidence to establish the central claims. The authors should provide detailed validation of the ML-based deconvolution, more rigorous control experiments for the biological applications, and a clearer specification of the SNR calculations.
+
+## Risk / unsupported claims
+- The claim that the neural networks accurately predict the exogenous decay function is not quantitatively supported (no validation metrics provided).
+- The claim that HyperW-Decon reveals "short-lived ion-peptide encounter complexes" is not substantiated with kinetic data or control experiments.
+- The claim of "no resolution loss" is not quantitatively demonstrated (no line width measurements before and after deconvolution are provided in the text).
+- The SNR enhancement factors (ε of 130-650) are stated without a detailed description of the calculation methodology.
+- The claim that the method is "reference-free" is potentially misleading, as the training data are derived from thermal equilibrium spectra.
+- The biological interpretation of SNR* changes as reflecting conformational changes is speculative and not supported by independent evidence.
+- The statement that "the R5 signal intensities dropped rapidly within minutes after counterion exposure, reflecting the formation of NMR-invisible self-assemblies" is presented as fact without supporting evidence.

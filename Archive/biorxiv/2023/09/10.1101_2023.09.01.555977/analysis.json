@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.01.555977",
+  "title": "G- <i>PLIP</i> : Knowledge graph neural network for structure-free protein-ligand bioactivity prediction",
+  "authors": "Simon J. Crouzet; Anja Maria Lieberherr; Kenneth Atz; Tobias Nilsson; Lisa Sach-Peltason; Alex T. Müller; Matteo Dal Peraro; Jitao David Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-05",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用知识图谱GNN做无结构的蛋白-配体生物活性预测，虽涉及PPI网络特征和AI方法，但对象为小分子配体而非无序蛋白/IDR，且不关注互作机制建模，仅边缘相关。",
+  "abstract": "Protein-ligand interaction (PLI) shapes efficacy and safety profiles of small molecule drugs. Existing methods rely on either structural information or resource-intensive computation to predict PLI, making us wonder whether it is possible to perform structure-free PLI prediction with low computational cost. Here we show that a light-weight graph neural network (GNN), trained with quantitative PLIs of a small number of proteins and ligands, is able to predict the strength of unseen PLIs. The model has no direct access to structural information of protein-ligand complexes. Instead, the predictive power is provided by encoding the entire chemical and proteomic space in a single heterogeneous graph, encapsulating primary protein sequence, gene expression, protein-protein interaction network, and structural similarities between ligands. The novel model performs competitively with or better than structure-aware models. Our observations suggest that existing PLI-prediction methods may be further improved by using representation learning techniques that embed biological and chemical knowledge.",
+  "abstract_zh": "蛋白质-配体相互作用（PLI）决定着小分子药物的疗效和安全性特征。现有方法依赖结构信息或资源密集型计算来预测PLI，这让我们思考是否可能以低计算成本进行无结构的PLI预测。在此，我们展示了一种轻量级图神经网络（GNN），通过少量蛋白质和配体的定量PLI训练，能够预测未见PLI的强度。该模型无法直接获取蛋白质-配体复合物的结构信息。相反，其预测能力源于将整个化学和蛋白质组空间编码在一个单一异质图中，涵盖初级蛋白质序列、基因表达、蛋白质-蛋白质相互作用网络以及配体之间的结构相似性。这一新型模型的表现与结构感知模型相当或更优。我们的观察表明，现有PLI预测方法可能通过利用嵌入生物学和化学知识的表示学习技术得到进一步改进。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.01.555977",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.01.555977",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.01.555977/index.html"
+}

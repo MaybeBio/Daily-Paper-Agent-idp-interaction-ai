@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40106150",
+  "title": "Deep Learning-Driven Computational Approaches for Studying Intrinsically Disordered Regions in S100-A9.",
+  "authors": "Distefano, Gionathan L; D'Amico, Fabio",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2025-03-19",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文以S100-A9为案例，提供用深度学习识别无序区域的初步协议，虽涉及IDR和AI方法，但未深入PPI机制建模，仅作方法示范。",
+  "abstract": "Intrinsically disordered regions (IDRs) are flexible protein regions and lack a fixed three-dimensional structure, which makes them difficult to study using traditional structural methods. However, artificial intelligence can be helpful in predicting, analyzing, and modeling these regions. This chapter provides a simple protocol for a preliminary-level approach to identifying protein IDRs. By reporting on the S100-A9 protein as a case study example, characterization of the IDRs of this molecule could provide further details on the complex molecular interactions involved in psoriasis, particularly those related to inflammation, immune dysregulation, and keratinocyte behavior.",
+  "abstract_zh": "固有无序区域（IDRs）是蛋白质中灵活的区域，缺乏固定的三维结构，这使得使用传统结构方法研究它们变得困难。然而，人工智能在预测、分析和建模这些区域方面可以发挥辅助作用。本章提供了一个初步水平识别蛋白质IDRs的简单协议。以S100-A9蛋白作为案例研究，对该分子IDRs的表征可为银屑病中涉及的复杂分子相互作用提供更多细节，特别是与炎症、免疫失调和角质形成细胞行为相关的相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40106150/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40106150/",
+  "paper_page_path": "papers/pubmed/40106150/index.html"
+}

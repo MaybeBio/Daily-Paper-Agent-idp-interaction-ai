@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37037120",
+  "title": "Exploring the aggregation of amyloid-beta 42 through Monte Carlo simulations.",
+  "authors": "Dey, Priya; Biswas, Parbati",
+  "journal": "Biophysical chemistry",
+  "published_date": "2023-04-11",
+  "window": {
+    "start": "2023-04-10",
+    "end": "2023-04-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化蒙特卡洛模拟研究无序蛋白Aβ42的聚集机制，开发了基于IDP的统计势能并解析了疏水/静电残基在成核与寡聚化中的作用，对象、互作（聚集/PPI）与物理模拟方法齐备，聚焦机制建模，对IDR介导互作机制研究有直接启发。",
+  "abstract": "Coarse-grained Monte Carlo simulations are performed for a disordered protein, amyloid-beta 42 to identify the interactions and understand the mechanism of its aggregation. A statistical potential is developed from a selected dataset of intrinsically disordered proteins, which accounts for the respective contributions of the bonded and non-bonded potentials. While, the bonded potential comprises the bond, bend, and dihedral constraints, the nonbonded interactions include van der Waals interactions, hydrogen bonds, and the two-body potential. The two-body potential captures the features of both hydrophobic and electrostatic interactions that brings the chains at a contact distance, while the repulsive van der Waals interactions prevent them from a collapse. Increased two-body hydrophobic interactions facilitate the formation of amorphous aggregates rather than the fibrillar ones. The formation of aggregates is validated from the interchain distances, and the total energy of the system. The aggregate is structurally characterized by the root-mean-square deviation, root-mean-square fluctuation and the radius of gyration. The aggregates are characterized by a decrease in SASA, an increase in the non-local interactions and a distinct free energy minimum relative to that of the monomeric state of amyloid-beta 42. The hydrophobic residues help in nucleation, while the charged residues help in oligomerization and aggregation.",
+  "abstract_zh": "对无序蛋白淀粉样蛋白-β 42进行了粗粒化蒙特卡洛模拟，以识别其相互作用并理解其聚集机制。基于选定的固有无序蛋白数据集开发了一种统计势能，该势能分别考虑了成键势和非成键势的贡献。其中，成键势包括键、弯曲和二面角约束，而非成键相互作用包括范德华相互作用、氢键和二体势。二体势捕捉了疏水性和静电相互作用的特征，使链段达到接触距离，而排斥性范德华相互作用则防止其塌缩。增强的二体疏水相互作用促进了无定形聚集体的形成，而非纤维状聚集体。聚集体的形成通过链间距离和系统总能量得到验证。聚集体在结构上通过均方根偏差、均方根波动和回转半径进行表征。与淀粉样蛋白-β 42的单体状态相比，聚集体表现为溶剂可及表面积（SASA）减少、非局部相互作用增加以及明显的自由能最小值。疏水性残基有助于成核，而带电残基有助于寡聚化和聚集。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37037120/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37037120/",
+  "paper_page_path": "papers/pubmed/37037120/index.html"
+}

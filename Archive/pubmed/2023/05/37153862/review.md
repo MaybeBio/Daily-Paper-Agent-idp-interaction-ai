@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results and discussion, conclusions, and supplementary figure descriptions.
+- **Assessment boundary** Scientific validity, technical soundness, interpretation of results, and alignment with stated conclusions. Editorial or stylistic issues are noted only where they affect clarity or reproducibility.
+- **Shared manuscript claim summary** The authors use AlphaFold2 predictions for two myelin-specific intrinsically disordered proteins (MBP and P0ct) and compare these models to previously published experimental SAXS and SRCD data. They propose that the AlphaFold2 models represent the membrane-bound conformations of these proteins rather than their solution states, and that such models can provide functional insight into myelin biology and disease.
+- **Visible evidence base** Figures 1–7, Table 1, Supplementary Figures 1–2, and references to previously published experimental data (SAXS, SRCD, EOM, NMR, mutagenesis, animal models).
+- **Missing materials affecting confidence** Raw SAXS and SRCD data files are not provided; only previously published data are referenced. No experimental validation of the AlphaFold2 predictions (e.g., mutagenesis, cross-linking, or direct binding assays) is presented. The PDB2CD calculations are described but the specific outputs or fit metrics are not shown. No details on the AlphaFold2 run parameters beyond "Google ColabFold server" are given.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and relevant question: whether AlphaFold2 predictions can provide meaningful structural information for intrinsically disordered proteins, specifically in the context of membrane binding. The authors present a focused case study on two myelin proteins and provide a reasonable qualitative comparison between predicted models and experimental data. The central claim, that the AlphaFold2 models resemble the membrane-bound state rather than the solution state, is plausible and supported by the SRCD comparison, but the evidence is largely indirect and the analysis is not sufficiently quantitative to fully establish this conclusion. The manuscript is clearly written and will be of interest to researchers studying IDPs, myelin biology, and the application of AI-based structure prediction to disordered systems. However, several technical concerns, particularly regarding the interpretation of SAXS fits and the lack of quantitative metrics for the SRCD comparison, need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, myelin biology, membrane-protein interactions, and computational structural biology. The manuscript is also relevant to those interested in the practical applications and limitations of AlphaFold2 for IDPs, a topic of growing importance. The discussion of disease mutations in P0ct and their potential impact on membrane interactions will be of interest to those studying Charcot-Marie-Tooth disease and related neuropathies.
+- **Major strengths** The manuscript addresses a timely and important question about the utility of AlphaFold2 for IDPs. The choice of two biologically relevant myelin proteins is appropriate, and the authors make good use of previously published experimental data. The comparison of AlphaFold2 models to both SAXS and SRCD data is a sensible approach. The discussion of hydrophobic cluster analysis adds a useful complementary perspective. The manuscript is well-structured and clearly written, making it accessible to a broad readership.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Interpretation of results
+  - **Claim pointer** The authors state that "the models are likely to represent the membrane-bound state of both MBP and P0ct, rather than the conformation in solution" and that "comparison of the AlphaFold2 models of MBP and P0ct to experimental SRCD data indicates that the folding state resembles that caused by lipid membrane binding."
+  - **Evidence pointer** Figure 6, Table 1, Results and Discussion section "SRCD data indicate the AlphaFold2 models correspond to the membrane-bound form"
+  - **Concern** The central claim that the AlphaFold2 models represent the membrane-bound state is primarily supported by qualitative visual comparison of SRCD spectra (Figure 6). The authors state that the predicted spectra "match" the experimental membrane-bound spectra, but no quantitative metric (e.g., RMSD, normalized mean square error, or a goodness-of-fit parameter) is provided. The PDB2CD calculations are described, but the actual calculated spectra are shown as thin black lines that are difficult to evaluate visually. Furthermore, the SAXS analysis (Table 1) shows that the AlphaFold2 models do not fit the solution SAXS data as well as the EOM ensemble, which is expected, but the authors do not provide a quantitative comparison of the AlphaFold2 models to the membrane-bound SAXS data (which is not available). The conclusion that the models represent the membrane-bound state is therefore inferred rather than directly demonstrated.
+  - **Why it matters** The central claim of the manuscript rests on this comparison. Without a quantitative assessment, the reader cannot evaluate the strength of the evidence. The claim that AlphaFold2 predicts the membrane-bound conformation of IDPs is a strong statement that requires robust support. If the match between predicted and experimental spectra is only qualitative, the conclusion is weakened.
+  - **Resolution test** Provide a quantitative comparison between the PDB2CD-calculated spectra and the experimental membrane-bound SRCD spectra (e.g., calculate a goodness-of-fit parameter such as normalized RMSD or a correlation coefficient). If possible, also compare the calculated spectra to the solution-state spectra to demonstrate that the match to the membrane-bound state is significantly better. Alternatively, provide a more detailed visual comparison with clear labeling of spectral features.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Reproducibility
+  - **Claim pointer** The authors state that "AlphaFold2 [1] was run on the Google ColabFold server [52], giving as input the amino acid sequence of mouse 18.5-kDa MBP isoform and human P0ct. The resulting 5 models were all relaxed with the Amber implementation in AlphaFold2."
+  - **Evidence pointer** Methods section "Generation of molecular models for MBP and P0ct"
+  - **Concern** The methods description for the AlphaFold2 runs is minimal. No details are provided on the specific ColabFold version, the number of recycles, the template mode, or any other parameters that could affect the output. The authors also do not state whether the models were selected based on pLDDT scores or other criteria. For a study that relies heavily on AlphaFold2 predictions, this lack of detail limits reproducibility.
+  - **Why it matters** Reproducibility is a core principle of scientific publishing. Without sufficient detail on the computational methods, other researchers cannot replicate the predictions or assess whether the results are robust to parameter choices. This is particularly important for IDPs, where AlphaFold2 predictions can be sensitive to the input sequence and run parameters.
+  - **Resolution test** Provide a more detailed description of the AlphaFold2 run parameters, including the ColabFold version, the number of models generated, the ranking criteria, and any post-processing steps. If possible, include the pLDDT plots for all five models in the supplementary material.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of results / Overstatement
+  - **Claim pointer** The authors state that "the predicted models have helical segments that closely correspond to the membrane-binding sites on both proteins" and that "the models are likely to represent the membrane-bound state of both MBP and P0ct."
+  - **Evidence pointer** Figures 3, 5, Results and Discussion sections "Myelin basic protein – the molecular glue in myelin" and "The cytoplasmic domain of P0 – similar but different to MBP"
+  - **Concern** The authors compare the helical segments in the AlphaFold2 models to previously identified membrane-binding sites, but the comparison is largely qualitative. For MBP, the three predicted helices (residues 36–45, 83–92, 148–153) are stated to correspond to known binding sites, but the authors do not provide a detailed alignment or a discussion of how well the predicted helices match the experimentally mapped sites. For P0ct, the first helix (Tyr181-Lys199) is stated to be a membrane anchor, but the second helix (Val218-Ser228) is described as an "additional membrane anchor" without direct experimental evidence. The claim that the models represent the membrane-bound state is further complicated by the fact that AlphaFold2 does not take ligands or membranes into account, and the prediction of a single conformation for an IDP is inherently limited.
+  - **Why it matters** The authors' interpretation goes beyond what the data can support. While the AlphaFold2 models may be consistent with the membrane-bound state, they do not provide direct evidence for it. The lack of a detailed comparison between predicted helices and experimentally mapped binding sites weakens the claim. Overstating the conclusions could mislead readers who are not familiar with the limitations of AlphaFold2 for IDPs.
+  - **Resolution test** Provide a more detailed comparison between the predicted helices and the experimentally mapped membrane-binding sites, including sequence alignments and a discussion of any discrepancies. Acknowledge the limitations of AlphaFold2 for IDPs more explicitly, and temper the conclusions accordingly. Consider whether the data support the claim that the models represent the membrane-bound state, or whether they merely suggest that the models are consistent with it.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Figure 6
+  - **Evidence pointer** Figure 6
+  - **Issue** The calculated PDB2CD spectra are shown as thin black lines, which are difficult to distinguish from the experimental spectra, especially in the membrane-bound condition. The figure legend does not clearly indicate which line corresponds to which condition.
+  - **Required correction** Use distinct line styles or colors for the calculated spectra and the experimental spectra, and clearly label each in the figure legend. Consider adding a panel that shows the difference between calculated and experimental spectra.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness / Reproducibility
+  - **Affected element** Methods section "SAXS data analysis"
+  - **Evidence pointer** Methods section "SAXS data analysis"
+  - **Issue** The authors state that "Synchrotron SAXS data for mouse MBP and human P0ct from our earlier publications [10,50] were directly used to assess the fits of the AlphaFold2 models to the experimental data." However, the specific SAXS data sets used (e.g., buffer conditions, temperature, concentration) are not described.
+  - **Required correction** Provide a brief description of the SAXS data sets used, including buffer conditions and any relevant experimental parameters, or refer the reader to the original publications for these details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity / Interpretation
+  - **Affected element** Results and Discussion section "Confidence scores for the models"
+  - **Evidence pointer** Results and Discussion section "Confidence scores for the models"
+  - **Issue** The authors state that "A helix with low pLDDT score might be more transient than a helix with higher pLDDT, possibly providing insight into underlying local dynamics []." The reference is missing.
+  - **Required correction** Add the missing reference or remove the statement if no reference is available.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Figure 2 and Figure 4
+  - **Evidence pointer** Figure 2, Figure 4
+  - **Issue** The figures show the AlphaFold2 secondary structure predictions and hydrophobic cluster analysis, but the color coding is not fully explained in the figure legends. For example, the legend for Figure 2 states "blue – helix, yellow – disordered," but the color coding for the hydrophobic cluster analysis is not described.
+  - **Required correction** Provide a complete description of the color coding in the figure legends, including the hydrophobic cluster analysis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness / Interpretation
+  - **Affected element** Results and Discussion section "Additional notes on fitting to SAXS data"
+  - **Evidence pointer** Results and Discussion section "Additional notes on fitting to SAXS data"
+  - **Issue** The authors state that "the AlphaFold2 models are close to the average Dmax of the disordered EOM ensemble and the Rg obtained from Guinier plot." However, the specific values for the AlphaFold2 models are not provided, making it difficult to assess this claim.
+  - **Required correction** Provide the Rg and Dmax values for the AlphaFold2 models in the text or in a table, and compare them directly to the EOM ensemble values.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative comparison between the PDB2CD-calculated spectra and the experimental SRCD data (R1-M1) is the primary technical failing. The minimal description of the AlphaFold2 run parameters (R1-M2) also needs to be addressed for reproducibility. The qualitative nature of the comparison between predicted helices and experimentally mapped binding sites (R1-M3) should be strengthened or the claims tempered.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The manuscript addresses a timely question about the utility of AlphaFold2 for IDPs, which is an area of active interest. However, the approach of comparing AlphaFold2 predictions to experimental data for IDPs is not entirely novel, and the manuscript does not introduce a new method or conceptual framework. The originality lies primarily in the specific application to myelin proteins.
+  - **Scientific importance** The results are of interest to the IDP and myelin biology communities, but the conclusions are largely confirmatory of existing knowledge about these proteins. The claim that AlphaFold2 can predict membrane-bound states of IDPs is potentially important, but the evidence presented is not strong enough to fully establish this.
+  - **Interdisciplinary readership** The manuscript is likely to appeal to researchers in structural biology, computational biology, and neuroscience. The writing is accessible, and the biological context is well explained. However, the technical details of the SAXS and SRCD analyses may be less accessible to non-specialists.
+  - **Technical soundness** The experimental data used are from previously published studies, and the analysis is generally sound. However, the lack of quantitative metrics for the SRCD comparison and the minimal description of the AlphaFold2 runs are technical weaknesses.
+  - **Readability for nonspecialists** The manuscript is clearly written and well-structured. The figures are informative, and the main conclusions are stated clearly. However, some of the technical details, particularly in the SAXS and SRCD analyses, may be challenging for readers without a background in biophysics.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and presents a reasonable case study, but the central claim that the AlphaFold2 models represent the membrane-bound state needs to be supported by more quantitative evidence. The authors should provide a quantitative comparison of the PDB2CD-calculated spectra to the experimental SRCD data, provide more detail on the AlphaFold2 run parameters, and temper their conclusions where the evidence is indirect.
+
+## Risk / unsupported claims
+- The claim that the AlphaFold2 models represent the membrane-bound state of MBP and P0ct is not fully supported by the evidence presented. The comparison to SRCD data is qualitative, and no direct experimental validation of the predicted conformations is provided.
+- The statement that "the predicted models have helical segments that closely correspond to the membrane-binding sites on both proteins" is based on a qualitative comparison and may overstate the agreement.
+- The suggestion that the clustering of helical segments in the MBP model could represent a mechanism of structural compaction and liquid-liquid phase separation is speculative and not directly tested.
+- The claim that the AlphaFold2 models "compare remarkably well with the SRCD data of the membrane-bound forms" is not supported by quantitative metrics.

@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2402.10405v2",
+  "title": "Theory of Wetting Dynamics with Surface Binding",
+  "doi": "",
+  "abstract": "Biomolecules, such as proteins and RNAs, can phase separate in the cytoplasm of cells to form biomolecular condensates. Such condensates are liquid-like droplets that can wet biological surfaces such as membranes. Many molecules that participate in phase separation can also reversibly bind to membrane surfaces. When a droplet wets a surface, molecules can diffuse inside and outside of the droplet or in the bound state on the surface. How the interplay between surface binding, diffusion in surface and bulk affects the wetting kinetics is not well understood. Here, we derive the governing equations using non-equilibrium thermodynamics by relating the thermodynamic fluxes and forces at the surface coupled to the bulk. We study the spreading dynamics in the presence of surface binding and find that binding speeds up wetting by nucleating a droplet inside the surface. Our results suggest that the wetting dynamics of droplets can be regulated by two-dimensional surface droplets in the surface-bound layer through changing the binding affinity to the surfaces. These findings are relevant both to engineering life-like systems with condensates and vesicles, and biomolecular condensates in living cells.",
+  "authors": [
+    "Xueping Zhao",
+    "Susanne Liese",
+    "Alf Honigmann",
+    "Frank Jülicher",
+    "Christoph A. Weber"
+  ],
+  "published_date": "2024-02-16T02:13:36Z",
+  "updated_date": "2024-08-31T01:07:32Z",
+  "journal": "",
+  "category": "cond-mat.soft, physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2402.10405v2",
+  "pdf_url": "https://arxiv.org/pdf/2402.10405v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft",
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2402.10405v2",
+    "raw_categories": [
+      "cond-mat.soft",
+      "physics.bio-ph"
+    ],
+    "journal_ref": ""
+  }
+}

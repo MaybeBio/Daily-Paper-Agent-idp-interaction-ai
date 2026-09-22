@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.02.17.431712",
+  "title": "Intrinsically disordered protein biosensor tracks the physical-chemical effects of osmotic stress on cells",
+  "authors": "Cesar L Cuevas-Velazquez; Tamara Vellosillo; Karina Guadalupe; H Broder Schmidt; Feng Yu; David Moses; Jennifer AN Brophy; Dante Cosio-Acosta; Alakananda Das; Lingxin Wang; Alexander M Jones; Alejandra A Covarrubias; Shahar Sukenik; José R Dinneny",
+  "journal": "bioRxiv",
+  "published_date": "2021-02-18",
+  "window": {
+    "start": "2021-02-15",
+    "end": "2021-02-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用无序蛋白AtLEA4-5构建FRET生物传感器监测渗透胁迫引起的细胞内物理化学变化，虽以IDR为对象并涉及分子拥挤的物理机制，但核心是传感应用而非PPI互作机制建模，且无AI或分子动力学方法。",
+  "abstract": "Cell homeostasis is perturbed when dramatic shifts in the external environment cause the physical-chemical properties inside the cell to change. Methods that dynamically monitor these intracellular effects are currently lacking. Here, we leveraged the environmental sensitivity and structural plasticity of intrinsically disordered regions (IDRs) to develop a FRET biosensor capable of monitoring rapid intracellular changes caused by osmotic stress. The biosensor, named SED1, utilizes the Arabidopsis intrinsically disordered AtLEA4-5 protein expressed in plants under water deficit. Computational modeling and in vitro studies reveal that SED1 is highly sensitive to macromolecular crowding. SED1 exhibits large and near-linear osmolarity-dependent changes in FRET inside living bacteria, yeast, plant, and human cells, demonstrating the broad utility of this tool for studying water-associated stress. This study demonstrates the remarkable ability of IDRs to sense the cellular environment across the tree of life and provides a blueprint for their use in environmentally-responsive molecular tools.",
+  "abstract_zh": "当外部环境的剧烈变化导致细胞内物理化学性质改变时，细胞稳态会受到扰动。目前缺乏动态监测这些细胞内效应的方法。在此，我们利用固有无序区域（IDRs）的环境敏感性和结构可塑性，开发了一种能够监测由渗透胁迫引起的快速细胞内变化的FRET生物传感器。该传感器名为SED1，利用在水分亏缺条件下植物中表达的拟南芥固有无序蛋白AtLEA4-5。计算建模和体外研究表明，SED1对大分子拥挤高度敏感。在活细菌、酵母、植物和人类细胞中，SED1表现出随渗透压变化的大幅且近线性的FRET变化，展示了该工具在研究水相关胁迫中的广泛适用性。本研究证明了IDRs在生命之树中感知细胞环境的卓越能力，并为其在环境响应分子工具中的应用提供了蓝图。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.02.17.431712",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.02.17.431712",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.02.17.431712/index.html"
+}

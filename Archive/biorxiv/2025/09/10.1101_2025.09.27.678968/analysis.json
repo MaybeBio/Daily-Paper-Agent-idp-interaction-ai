@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.27.678968",
+  "title": "RNA-binding proteins provide specificity to the PAN2–PAN3 mRNA deadenylation complex",
+  "authors": "Tang TT; Zangari F; Yu CW; Stowell JA; Roeselová A; Freund SM; Gingras A; Passmore LA",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-27",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究RNA结合蛋白通过RNA适配器招募PAN2-PAN3脱腺苷酶复合物实现mRNA特异性降解，涉及蛋白-RNA互作而非无序蛋白介导的PPI，且无AI/物理模拟方法，仅与互作机制间接相关。",
+  "abstract": "Cytoplasmic shortening of mRNA poly(A) tails represses eukaryotic gene expression by inhibiting efficient translation and committing an mRNA to decay. The CCR4–NOT deadenylase machinery interacts with sequence-specific RNA-binding proteins (RBPs), termed RNA adaptors, to target specific transcripts for deadenylation. In contrast, the PAN2–PAN3 deadenylation complex is thought to be predominantly recruited to mRNAs via interaction with the poly(A) binding protein, raising the question of whether it acts in a transcript-specific manner. Here, using biochemical reconstitution, we show that PAN2–PAN3 can also be recruited to specific RNAs via RNA adaptors, including MEX3, YTHDF and ZFP36 proteins. In cells, we find that a diverse range of RNA adaptors interact with both major deadenylation complexes. Thus, our data suggest that, in addition to CCR4-NOT, PAN2-PAN3 also contributes to the specificity of mRNA degradation and the robustness of post-transcriptional regulation of gene expression.",
+  "abstract_zh": "mRNA poly(A)尾的细胞质缩短通过抑制有效翻译并促使mRNA降解来抑制真核基因表达。CCR4–NOT去腺苷化机制与序列特异性RNA结合蛋白（RBPs），即RNA适配器，相互作用，以靶向特定转录本进行去腺苷化。相比之下，PAN2–PAN3去腺苷化复合物被认为主要通过poly(A)结合蛋白的相互作用被招募至mRNA，这引发了一个问题：它是否以转录本特异性的方式发挥作用。在此，通过生化重构，我们展示了PAN2–PAN3也能通过RNA适配器（包括MEX3、YTHDF和ZFP36蛋白）被招募至特定RNA。在细胞中，我们发现多种RNA适配器与两个主要的去腺苷化复合物相互作用。因此，我们的数据表明，除了CCR4-NOT之外，PAN2-PAN3也参与了mRNA降解的特异性以及基因表达转录后调控的稳健性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.27.678968",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.27.678968",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.27.678968/index.html"
+}

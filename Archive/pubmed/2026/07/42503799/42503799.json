@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "42503799",
+    "doi": "10.1021/acs.jcim.6c01455",
+    "title": "DisoPatho: A Cross-View Feature-Adaptive Interaction Encoding Framework for Predicting Disease-Associated Variants in Intrinsically Disordered Regions."
+  },
+  "content": {
+    "abstract": "Accurate prediction of variants within intrinsically disordered regions (IDRs) is crucial for advancing disease diagnosis and biomedical interpretation. However, the intrinsic lack of stable structural conformations and the high sequence variability of IDRs make it challenging for existing predictors to achieve robust performance in these regions. Here, we introduce DisoPatho, a deep learning framework specifically tailored for predicting disease-associated variants in IDRs. DisoPatho features a novel mutation-centric architecture that utilizes the variant site as an anchor for feature construction and interaction. The core innovation lies in a cross-view adaptive-feature interaction mechanism, which synergistically integrates IDR-specific energy representations with embeddings from protein language models, including xTrimoPGLM and Evolutionary Scale Modeling. This strategy enables the comprehensive capture of evolutionary constraints and physicochemical patterns without requiring explicit structural descriptors, multiple-sequence alignments, or hand-crafted conservation scores. Consequently, DisoPatho exhibits enhanced discriminative power better adapted to the highly flexible nature of IDRs. Comprehensive evaluations across multiple IDR data sets demonstrate that DisoPatho substantially outperforms existing methods. In 5-fold cross-validation, it achieves average AUCs of 0.899 and 0.840, with ACCs of 0.862 and 0.860 on two data sets. Notably, on a highly confounded independent test set where phylogenetic constraints offer limited discriminative signals, DisoPatho yields a 50.2% relative improvement in MCC over AlphaMissense on their respective predictable variants, while achieving broader prediction coverage. In-depth analyses of the prediction results further confirm the effectiveness and stability of the framework in IDR-specific scenarios. The code, data sets, and predictions for DisoPatho are available for academic use at https://github.com/IBHFLab/DisoPatho.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/genetics",
+      "Computational Biology/methods",
+      "Models, Molecular",
+      "*Deep Learning",
+      "Humans",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xiaohua",
+        "Zhang, Shaojie",
+        "Jiang, Hongmei",
+        "Liang, Xiao",
+        "Xue, Wenjun",
+        "Hou, Hu",
+        "Liang, Guizhao"
+      ],
+      "short_names": [
+        "Wang X",
+        "Zhang S",
+        "Jiang H",
+        "Liang X",
+        "Xue W",
+        "Hou H",
+        "Liang G"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-9191-400X",
+        "ORCID: 0000-0002-1111-9491",
+        "ORCID: 0000-0003-2293-6662"
+      ],
+      "affiliations": [
+        "Key Laboratory of Biorheological Science and Technology, Ministry of Education, Bioengineering College, Chongqing University, Chongqing400044, China.",
+        "Key Laboratory of Biorheological Science and Technology, Ministry of Education, Bioengineering College, Chongqing University, Chongqing400044, China.",
+        "Key Laboratory of Biorheological Science and Technology, Ministry of Education, Bioengineering College, Chongqing University, Chongqing400044, China.",
+        "Key Laboratory of Biorheological Science and Technology, Ministry of Education, Bioengineering College, Chongqing University, Chongqing400044, China.",
+        "Key Laboratory of Biorheological Science and Technology, Ministry of Education, Bioengineering College, Chongqing University, Chongqing400044, China.",
+        "State Key Laboratory of Marine Food Processing & Safety Control, College of Food Science and Engineering, Ocean University of China, Qingdao266000, China.",
+        "Key Laboratory of Biorheological Science and Technology, Ministry of Education, Bioengineering College, Chongqing University, Chongqing400044, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xiaohua",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0009-0003-9191-400X"
+        ],
+        "affiliations": [
+          "Key Laboratory of Biorheological Science and Technology, Ministry of Education, Bioengineering College, Chongqing University, Chongqing400044, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shaojie",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biorheological Science and Technology, Ministry of Education, Bioengineering College, Chongqing University, Chongqing400044, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Hongmei",
+        "short_name": "Jiang H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biorheological Science and Technology, Ministry of Education, Bioengineering College, Chongqing University, Chongqing400044, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Xiao",
+        "short_name": "Liang X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biorheological Science and Technology, Ministry of Education, Bioengineering College, Chongqing University, Chongqing400044, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Wenjun",
+        "short_name": "Xue W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biorheological Science and Technology, Ministry of Education, Bioengineering College, Chongqing University, Chongqing400044, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Hu",
+        "short_name": "Hou H",
+        "identifiers": [
+          "0000-0002-1111-9491"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Marine Food Processing & Safety Control, College of Food Science and Engineering, Ocean University of China, Qingdao266000, China."
+        ]
+      },
+      {
+        "full_name": "Liang, Guizhao",
+        "short_name": "Liang G",
+        "identifiers": [
+          "0000-0003-2293-6662"
+        ],
+        "affiliations": [
+          "Key Laboratory of Biorheological Science and Technology, Ministry of Education, Bioengineering College, Chongqing University, Chongqing400044, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 Aug 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/27 06:34",
+    "fetched_at": "2026-09-18 05:15:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42503799",
+      "42475469",
+      "40221640",
+      "42507643",
+      "39610143",
+      "41921197",
+      "41378882",
+      "41021316",
+      "39092854",
+      "40828855",
+      "41534519",
+      "41762162",
+      "40254833",
+      "38701796",
+      "41053908",
+      "32756939",
+      "40600900",
+      "42423292",
+      "42398071",
+      "42150060",
+      "40650026",
+      "33866372",
+      "37883249",
+      "38941236",
+      "31521235",
+      "38166858",
+      "40944448",
+      "42598852",
+      "31207240",
+      "37827403",
+      "39121938",
+      "29042212",
+      "34418423",
+      "32722039",
+      "42538434",
+      "38662765",
+      "34830151",
+      "41708867",
+      "41139312",
+      "39763873",
+      "36908253",
+      "41174305",
+      "42057422",
+      "40133781",
+      "41527527",
+      "39333476",
+      "40662785",
+      "30657889",
+      "36458437",
+      "41206398",
+      "32702119",
+      "38866950",
+      "41977286",
+      "34905768",
+      "33248138",
+      "41454828",
+      "40613943",
+      "40662788",
+      "39093570",
+      "39446390",
+      "41667449",
+      "41337585",
+      "41922959",
+      "41648466",
+      "39596413",
+      "34478704",
+      "36304335",
+      "36272675",
+      "34864847",
+      "32535960",
+      "38871095",
+      "41257600",
+      "39587231",
+      "30135358",
+      "42508236",
+      "24093637",
+      "40354482",
+      "37498545",
+      "41257586",
+      "33036302",
+      "40286477",
+      "41921797",
+      "40794945",
+      "39831891",
+      "25424537",
+      "35767567",
+      "29763584",
+      "41686649",
+      "42335477",
+      "33936509",
+      "38297118",
+      "29066345",
+      "42390120",
+      "40133791",
+      "23282098",
+      "39576667",
+      "30324701",
+      "41276815",
+      "42179166",
+      "39566793"
+    ],
+    "review": [
+      "42503799",
+      "40650026",
+      "31521235",
+      "34418423",
+      "30657889",
+      "33248138"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.6c01455",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

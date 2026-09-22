@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.29.620765",
+  "title": "Deep generative model for protein subcellular localization prediction",
+  "authors": "Guo-Hua Yuan; Jinzhe Li; Zejun Yang; Yao-Qi Chen; Zhonghang Yuan; Tao Chen; Wanli Ouyang; Nanqing Dong; Li Yang",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-03",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用深度生成模型预测蛋白质亚细胞定位，输出文本标签和生成图像，不涉及无序蛋白或蛋白-蛋白互作机制，与本课题关联微弱。",
+  "abstract": "Protein sequence determines not only its structure but also its subcellular localization. Although a series of artificial intelligence models have been reported to predict protein subcellular localization, most of them provide only textual outputs. Here, we present deepGPS, a deep g enerative model for p rotein s ubcellular localization prediction. After trained with both protein primary sequences and protein subcellular localization fluorescence images, deepGPS shows the ability to predict cytoplasmic and nuclear localizations by reporting both textual labels and generative images as outputs. In addition, deepGPS shows potential to be further extended for other types of subcellular localization prediction, even with limited input data volumes for training. Finally, an openGPS website ( https://bits.fudan.edu.cn/opengps ) is constructed to provide a public and convenient platform for protein subcellular localization prediction with the scientific community.",
+  "abstract_zh": "蛋白质序列不仅决定其结构，还决定其亚细胞定位。尽管已有系列人工智能模型被报道用于预测蛋白质亚细胞定位，但大多数仅提供文本输出。在此，我们提出deepGPS，一种用于蛋白质亚细胞定位预测的深度生成模型。经过蛋白质一级序列和蛋白质亚细胞定位荧光图像的联合训练后，deepGPS展现出通过输出文本标签和生成图像来预测细胞质和核定位的能力。此外，deepGPS显示出进一步扩展至其他类型亚细胞定位预测的潜力，即便在训练输入数据量有限的情况下也是如此。最后，我们构建了openGPS网站（https://bits.fudan.edu.cn/opengps），为科学界提供一个公开便捷的蛋白质亚细胞定位预测平台。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.29.620765",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.29.620765",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.29.620765/index.html"
+}

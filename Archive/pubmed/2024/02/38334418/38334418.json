@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "38334418",
+    "doi": "10.1021/acs.molpharmaceut.3c01009",
+    "title": "Electrostatically Mediated Attractive Self-Interactions and Reversible Self-Association of Fc-Fusion Proteins."
+  },
+  "content": {
+    "abstract": "Attractive self-interactions and reversible self-association are implicated in many problematic solution behaviors for therapeutic proteins, such as irreversible aggregation, elevated viscosity, phase separation, and opalescence. Protein self-interactions and reversible oligomerization of two Fc-fusion proteins (monovalent and bivalent) and the corresponding fusion partner protein were characterized experimentally with static and dynamic light scattering as a function of pH (5 and 6.5) and ionic strength (10 mM to at least 300 mM). The fusion partner protein and monovalent Fc-fusion each displayed net attractive electrostatic self-interactions at pH 6.5 and net repulsive electrostatic self-interactions at pH 5. Solutions of the bivalent Fc-fusion contained higher molecular weight species that prevented quantification of typical interaction parameters (B(22) and k(D)). All three of the proteins displayed reversible self-association at pH 6.5, where oligomers dissociated with increased ionic strength. Coarse-grained molecular simulations were used to model the self-interactions measured experimentally, assess net self-interactions for the bivalent Fc-fusion, and probe the specific electrostatic interactions between charged amino acids that were involved in attractive electrostatic self-interactions. Mayer-weighted pairwise electrostatic energies from the simulations suggested that attractive electrostatic self-interactions at pH 6.5 for the two Fc-fusion proteins were due to cross-domain interactions between the fusion partner domain(s) and the Fc domain.",
+    "keywords": [
+      "biopharmaceutical",
+      "fusion proteins",
+      "light scattering",
+      "protein aggregation",
+      "protein formulations",
+      "protein self-interactions"
+    ],
+    "mesh_terms": [
+      "*Antibodies, Monoclonal/chemistry",
+      "Dynamic Light Scattering",
+      "*Amino Acids",
+      "Osmolar Concentration",
+      "Hydrogen-Ion Concentration"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Forder, James K",
+        "Palakollu, Veerabhadraiah",
+        "Adhikari, Sudeep",
+        "Blanco, Marco A",
+        "Derebe, Mehabaw Getahun",
+        "Ferguson, Heidi M",
+        "Luthra, Suman A",
+        "Munsell, Erik V",
+        "Roberts, Christopher J"
+      ],
+      "short_names": [
+        "Forder JK",
+        "Palakollu V",
+        "Adhikari S",
+        "Blanco MA",
+        "Derebe MG",
+        "Ferguson HM",
+        "Luthra SA",
+        "Munsell EV",
+        "Roberts CJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2347-6322",
+        "ORCID: 0000-0001-7126-3009",
+        "ORCID: 0000-0001-6430-9857",
+        "ORCID: 0000-0001-9978-2767"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biomolecular Engineering, University of Delaware, Newark, Delaware 19713, United States.",
+        "Department of Chemical and Biomolecular Engineering, University of Delaware, Newark, Delaware 19713, United States.",
+        "Analytical R&D, Digital & NMR Sciences, Merck & Co., Inc., Rahway, New Jersey 07065, United States.",
+        "Discovery Pharmaceutical Sciences, Merck & Co., Inc., West Point, Pennsylvania 19486, United States.",
+        "Discovery Biologics, Protein Sciences, Merck & Co., Inc., South San Francisco, California 94080, United States.",
+        "Discovery Pharmaceutical Sciences, Merck & Co., Inc., West Point, Pennsylvania 19486, United States.",
+        "Discovery Pharmaceutical Sciences, Merck & Co., Inc., Boston, Massachusetts 02115, United States.",
+        "Discovery Pharmaceutical Sciences, Merck & Co., Inc., Boston, Massachusetts 02115, United States.",
+        "Department of Chemical and Biomolecular Engineering, University of Delaware, Newark, Delaware 19713, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Forder, James K",
+        "short_name": "Forder JK",
+        "identifiers": [
+          "0000-0002-2347-6322"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Delaware, Newark, Delaware 19713, United States."
+        ]
+      },
+      {
+        "full_name": "Palakollu, Veerabhadraiah",
+        "short_name": "Palakollu V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Delaware, Newark, Delaware 19713, United States."
+        ]
+      },
+      {
+        "full_name": "Adhikari, Sudeep",
+        "short_name": "Adhikari S",
+        "identifiers": [],
+        "affiliations": [
+          "Analytical R&D, Digital & NMR Sciences, Merck & Co., Inc., Rahway, New Jersey 07065, United States."
+        ]
+      },
+      {
+        "full_name": "Blanco, Marco A",
+        "short_name": "Blanco MA",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Pharmaceutical Sciences, Merck & Co., Inc., West Point, Pennsylvania 19486, United States."
+        ]
+      },
+      {
+        "full_name": "Derebe, Mehabaw Getahun",
+        "short_name": "Derebe MG",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Biologics, Protein Sciences, Merck & Co., Inc., South San Francisco, California 94080, United States."
+        ]
+      },
+      {
+        "full_name": "Ferguson, Heidi M",
+        "short_name": "Ferguson HM",
+        "identifiers": [
+          "0000-0001-7126-3009"
+        ],
+        "affiliations": [
+          "Discovery Pharmaceutical Sciences, Merck & Co., Inc., West Point, Pennsylvania 19486, United States."
+        ]
+      },
+      {
+        "full_name": "Luthra, Suman A",
+        "short_name": "Luthra SA",
+        "identifiers": [],
+        "affiliations": [
+          "Discovery Pharmaceutical Sciences, Merck & Co., Inc., Boston, Massachusetts 02115, United States."
+        ]
+      },
+      {
+        "full_name": "Munsell, Erik V",
+        "short_name": "Munsell EV",
+        "identifiers": [
+          "0000-0001-6430-9857"
+        ],
+        "affiliations": [
+          "Discovery Pharmaceutical Sciences, Merck & Co., Inc., Boston, Massachusetts 02115, United States."
+        ]
+      },
+      {
+        "full_name": "Roberts, Christopher J",
+        "short_name": "Roberts CJ",
+        "identifiers": [
+          "0000-0001-9978-2767"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Delaware, Newark, Delaware 19713, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular pharmaceutics"
+    ],
+    "journal_abbrev": [
+      "Mol Pharm"
+    ],
+    "pub_date": "2024 Mar 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/09 12:44",
+    "fetched_at": "2026-09-21 04:51:47"
+  },
+  "links": {
+    "cites": [
+      "42534577",
+      "40948459"
+    ],
+    "refs": [],
+    "similar": [
+      "38334418",
+      "30419274",
+      "38386020",
+      "31487466",
+      "31613625",
+      "29637646",
+      "24892385",
+      "30017887",
+      "31241333",
+      "20849134",
+      "31563513",
+      "35112863",
+      "37039349",
+      "27560842",
+      "25383990",
+      "36194430",
+      "20401522",
+      "33170708",
+      "25407315",
+      "16052543",
+      "19475558",
+      "29274822",
+      "24392929",
+      "22221144",
+      "19705420",
+      "40639463",
+      "23624326",
+      "40624892",
+      "25559441",
+      "31146525",
+      "32101441",
+      "16715374",
+      "19177361",
+      "41722705",
+      "34747330",
+      "37751332",
+      "29469576",
+      "20821382",
+      "24289039",
+      "28422503",
+      "31201906",
+      "21638285",
+      "41022695",
+      "29996057",
+      "25556561",
+      "34624723",
+      "25875351",
+      "27017836",
+      "27373839",
+      "33556386",
+      "21783411",
+      "30157651",
+      "26407030",
+      "23912807",
+      "21294130",
+      "30913985",
+      "25580677",
+      "26286186",
+      "25389571",
+      "23330570",
+      "22840854",
+      "37782765",
+      "28739218",
+      "24382634",
+      "31739660",
+      "25350229",
+      "40113105",
+      "28160710",
+      "29723667",
+      "20821389",
+      "36716270",
+      "8241425",
+      "23996891",
+      "34939811",
+      "37191356",
+      "23583711",
+      "40053704",
+      "26267255",
+      "26563206",
+      "21959107",
+      "23316912",
+      "38965780",
+      "9826592",
+      "19795191",
+      "30529747",
+      "21961601",
+      "38041974",
+      "34999091",
+      "27157445",
+      "26849155",
+      "21958073",
+      "23560896",
+      "30614707",
+      "38661388",
+      "30760735",
+      "21213308",
+      "20937381",
+      "25484044",
+      "1924377",
+      "27677734"
+    ],
+    "review": [
+      "38334418",
+      "27017836"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/mpohbp/article-lookup/doi/10.1021/acs.molpharmaceut.3c01009",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

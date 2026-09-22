@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39141165",
+  "title": "Development and tissue specific expression of RAPGEF1 (C3G) transcripts having exons encoding disordered segments with predicted regulatory function.",
+  "authors": "Verma, Archana; Goel, Abhishek; Koner, Niladri; Gunasekaran, Gowthaman; Radha, Vegesna",
+  "journal": "Molecular biology reports",
+  "published_date": "2024-08-14",
+  "window": {
+    "start": "2024-08-12",
+    "end": "2024-08-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究RAPGEF1可变剪接异构体，其外显子编码无序区段，并用AlphaFold和LZerD预测无序区段对蛋白内相互作用及与RAP1A结合界面的影响，虽对象为单蛋白而非直接PPI，但无序区段调控互作机制的建模思路对本课题有启发。",
+  "abstract": "BACKGROUND: The ubiquitously expressed Guanine nucleotide exchange factor, RAPGEF1 (C3G), is essential for early development of mouse embryos. It functions to regulate gene expression and cytoskeletal reorganization, thereby controlling cell proliferation and differentiation. While multiple transcripts have been predicted, their expression in mouse tissues has not been investigated in detail. METHODS & RESULTS: Full length RAPGEF1 isoforms primarily arise due to splicing at two hotspots, one involving exon-3, and the other involving exons 12-14 incorporating amino acids immediately following the Crk binding region of the protein. These isoforms vary in expression across embryonic and adult organs. We detected the presence of unannotated, and unpredicted transcripts with incorporation of cassette exons in various combinations, specifically in the heart, brain, testis and skeletal muscle. Isoform switching was detected as myocytes in culture and mouse embryonic stem cells were differentiated to form myotubes, and embryoid bodies respectively. The cassette exons encode a serine-rich polypeptide chain, which is intrinsically disordered, and undergoes phosphorylation. In silico structural analysis using AlphaFold indicated that the presence of cassette exons alters intra-molecular interactions, important for regulating catalytic activity. LZerD based docking studies predicted that the isoforms with one or more cassette exons differ in interaction with their target GTPase, RAP1A. CONCLUSIONS: Our results demonstrate the expression of novel RAPGEF1 isoforms, and predict cassette exon inclusion as an additional means of regulating RAPGEF1 activity in various tissues and during differentiation.",
+  "abstract_zh": "背景：广泛表达的鸟嘌呤核苷酸交换因子RAPGEF1（C3G）对小鼠胚胎的早期发育至关重要。它通过调控基因表达和细胞骨架重组，进而控制细胞增殖和分化。尽管已预测出多种转录本，但其在小鼠组织中的表达尚未得到详细研究。方法与结果：全长RAPGEF1异构体主要源于两个热点区域的剪接，一个涉及外显子3，另一个涉及外显子12-14，这些外显子编码紧邻蛋白质Crk结合区域之后的氨基酸。这些异构体在胚胎和成体器官中的表达存在差异。我们检测到未注释且未预测的转录本，其以各种组合方式包含盒式外显子，特别是在心脏、脑、睾丸和骨骼肌中。在培养的肌细胞和小鼠胚胎干细胞分别分化为肌管和拟胚体的过程中，检测到异构体转换。盒式外显子编码一条富含丝氨酸的多肽链，该链本质上是无序的，并经历磷酸化。使用AlphaFold进行的计算机结构分析表明，盒式外显子的存在改变了分子内相互作用，这对调控催化活性至关重要。基于LZerD的对接研究预测，含有一个或多个盒式外显子的异构体与其靶GTPase RAP1A的相互作用存在差异。结论：我们的结果展示了新型RAPGEF1异构体的表达，并预测盒式外显子包含是调控RAPGEF1活性在不同组织及分化过程中的一种额外机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39141165/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39141165/",
+  "paper_page_path": "papers/pubmed/39141165/index.html"
+}

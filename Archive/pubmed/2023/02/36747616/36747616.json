@@ -1,0 +1,233 @@
+{
+  "identity": {
+    "pmid": "36747616",
+    "doi": "10.1101/2023.01.27.525865",
+    "title": "Anillin Related Mid1 as an Adaptive and Multimodal Contractile Ring Anchoring Protein: A Simulation Study."
+  },
+  "content": {
+    "abstract": "The organization of the cytokinetic ring at the cell equator of dividing animal and fungi cells depends crucially on the anillin scaffold proteins. In fission yeast, anillin related Mid1 binds to the plasma membrane and helps anchor and organize a medial broad band of cytokinetic nodes, which are the precursors of the contractile ring. Similar to other anillins, Mid1 contains a C terminal globular domain with two potential regions for membrane binding, the Pleckstrin Homology (PH) and C2 domains, and an N terminal intrinsically disordered region that is strongly regulated by phosphorylation. Previous studies have shown that both PH and C2 domains can associate with the membrane, preferring phosphatidylinositol-(4,5)-bisphosphate (PIP (2) ) lipids. However, it is unclear if they can simultaneously bind to the membrane in a way that allows dimerization or oligomerization of Mid1, and if one domain plays a dominant role. To elucidate Mid1's membrane binding mechanism, we used the available structural information of the C terminal region of Mid1 in all-atom molecular dynamics (MD) near a membrane with a lipid composition based on experimental measurements (including PIP (2) lipids). The disordered L3 loop of C2, as well as the PH domain, separately bind the membrane through charged lipid contacts. In simulations with the full C terminal region started away from the membrane, Mid1 binds through the L3 loop and is stabilized in a vertical orientation with the PH domain away from the membrane. However, a configuration with both C2 and PH initially bound to the membrane remains associated with the membrane. These multiple modes of binding may reflect Mid1's multiple interactions with membranes and other node proteins, and ability to sustain mechanical forces.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hall, Aaron R",
+        "Choi, Yeol Kyo",
+        "Im, Wonpil",
+        "Vavylonis, Dimitrios"
+      ],
+      "short_names": [
+        "Hall AR",
+        "Choi YK",
+        "Im W",
+        "Vavylonis D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6194-8060",
+        "ORCID: 0000-0002-4218-7139",
+        "ORCID: 0000-0001-5642-6041",
+        "ORCID: 0000-0003-1802-3262"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Hall, Aaron R",
+        "short_name": "Hall AR",
+        "identifiers": [
+          "0000-0002-6194-8060"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Choi, Yeol Kyo",
+        "short_name": "Choi YK",
+        "identifiers": [
+          "0000-0002-4218-7139"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Im, Wonpil",
+        "short_name": "Im W",
+        "identifiers": [
+          "0000-0001-5642-6041"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Vavylonis, Dimitrios",
+        "short_name": "Vavylonis D",
+        "identifiers": [
+          "0000-0003-1802-3262"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Jan 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/08 06:00",
+    "fetched_at": "2026-09-20 19:05:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "36747616",
+      "38103546",
+      "25959226",
+      "23149940",
+      "22427686",
+      "30853434",
+      "31243991",
+      "21376600",
+      "22298427",
+      "23747485",
+      "10381388",
+      "27059155",
+      "38306987",
+      "38979265",
+      "22887981",
+      "40042941",
+      "27647921",
+      "19427212",
+      "21296087",
+      "40161431",
+      "23912807",
+      "22197245",
+      "23926047",
+      "18610985",
+      "32128410",
+      "9060471",
+      "23701821",
+      "20659476",
+      "12019260",
+      "15610010",
+      "22479423",
+      "27367845",
+      "12930993",
+      "27427480",
+      "24982431",
+      "21422229",
+      "33172987",
+      "22918943",
+      "25942548",
+      "29273202",
+      "18341295",
+      "18378776",
+      "15184401",
+      "32421151",
+      "32033048",
+      "28116358",
+      "34081910",
+      "40815186",
+      "22888038",
+      "27459095",
+      "18158243",
+      "34459592",
+      "11838236",
+      "34813727",
+      "28147230",
+      "22844242",
+      "28092439",
+      "15572668",
+      "29159013",
+      "8072546",
+      "33277360",
+      "24588644",
+      "37378349",
+      "22514687",
+      "9693361",
+      "11796727",
+      "26553932",
+      "36426865",
+      "33878292",
+      "34285772",
+      "35857458",
+      "33300799",
+      "31762060",
+      "24556335",
+      "7503742",
+      "30193228",
+      "23175710",
+      "27974389",
+      "17222180",
+      "29124147",
+      "39504965",
+      "41114597",
+      "36888655",
+      "18954143",
+      "11886851",
+      "7559773",
+      "24184645",
+      "28782177",
+      "33825681",
+      "21693623",
+      "10653693",
+      "40463277",
+      "19298853",
+      "22226749",
+      "22950482",
+      "12668659",
+      "18621733",
+      "40103056",
+      "34962917",
+      "29339490"
+    ],
+    "review": [
+      "36747616",
+      "22887981",
+      "22888038",
+      "11838236",
+      "29159013",
+      "36426865"
+    ],
+    "pmc": [
+      "9900988"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36747616/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1104",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.01.27.525865",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

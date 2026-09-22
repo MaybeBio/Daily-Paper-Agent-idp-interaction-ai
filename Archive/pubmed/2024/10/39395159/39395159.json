@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "39395159",
+    "doi": "10.1021/acs.jpcb.4c04457",
+    "title": "Clustering of RNA Polymerase II C-Terminal Domain Models upon Phosphorylation."
+  },
+  "content": {
+    "abstract": "RNA polymerase II (Pol II) C-terminal domain (CTD) is known to have crucial roles in regulating transcription. CTD has also been highly recognized for undergoing phase separation, which is further associated with its regulatory functions. However, the molecular interactions that the CTD forms to induce clustering to drive phase separations and how the phosphorylation of the CTD affects clustering are not entirely known. In this work, we studied the concentrated solutions of two heptapeptide repeat (2CTD) models at different phosphorylation patterns and protein and ion concentrations using all-atom molecular dynamics simulations to investigate clustering behavior and molecular interactions driving the cluster formation. Our results show that salt concentration and phosphorylation patterns play an important role in determining the clustering pattern, specifically at low protein concentrations. The balance between inter- and intrapeptide interactions and counterion coordination together impact the clustering behavior upon phosphorylation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phosphorylation",
+      "*RNA Polymerase II/metabolism/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Amith, Weththasinghage D",
+        "Chen, Vincent T",
+        "Dutagaci, Bercem"
+      ],
+      "short_names": [
+        "Amith WD",
+        "Chen VT",
+        "Dutagaci B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0333-5757"
+      ],
+      "affiliations": [
+        "Department of Molecular and Cell Biology, University of California, Merced, California 95343, United States.",
+        "Department of Molecular and Cell Biology, University of California, Merced, California 95343, United States.",
+        "Department of Molecular and Cell Biology, University of California, Merced, California 95343, United States.",
+        "Health Sciences Research Institute, University of California, Merced, California 95343, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Amith, Weththasinghage D",
+        "short_name": "Amith WD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Merced, California 95343, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Vincent T",
+        "short_name": "Chen VT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Merced, California 95343, United States."
+        ]
+      },
+      {
+        "full_name": "Dutagaci, Bercem",
+        "short_name": "Dutagaci B",
+        "identifiers": [
+          "0000-0003-0333-5757"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Merced, California 95343, United States.",
+          "Health Sciences Research Institute, University of California, Merced, California 95343, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2024 Oct 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/12 21:46",
+    "fetched_at": "2026-09-22 01:47:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39092904",
+      "37870995",
+      "37749095",
+      "36786552",
+      "36607820",
+      "36378781",
+      "35950649",
+      "35787038",
+      "35702028",
+      "35293386",
+      "35239418",
+      "35219215",
+      "34916619",
+      "34716273",
+      "34668708",
+      "33958484",
+      "33878678",
+      "33591749",
+      "33496264",
+      "33453922",
+      "32802734",
+      "32188248",
+      "31734037",
+      "31434954",
+      "31391587",
+      "30990694",
+      "30127355",
+      "29849146",
+      "29483269",
+      "29151345",
+      "28945358",
+      "28892040",
+      "28510161",
+      "28497798",
+      "28497792",
+      "28248323",
+      "27819658",
+      "27723202",
+      "26815602",
+      "26636199",
+      "26631602",
+      "24267890",
+      "23952966",
+      "23316124",
+      "22398450",
+      "22352398",
+      "21826281",
+      "21634433",
+      "21500218",
+      "19487567",
+      "18351591",
+      "16319194",
+      "15964991",
+      "15037767",
+      "10346811",
+      "9702190",
+      "8934526",
+      "7877695",
+      "3129721",
+      "1946417",
+      "1569096"
+    ],
+    "similar": [
+      "39395159",
+      "29849146",
+      "30127355",
+      "37749095",
+      "34216714",
+      "37870995",
+      "38563748",
+      "28248323",
+      "37331973",
+      "40158465",
+      "39658958",
+      "24611769",
+      "39448580",
+      "8106443",
+      "27239037",
+      "10704311",
+      "17405796",
+      "30139934",
+      "18482001",
+      "31391587",
+      "24473209",
+      "17079683",
+      "27622638",
+      "34667177",
+      "9237170",
+      "20231361",
+      "16410768",
+      "9057097",
+      "31680436",
+      "8910388",
+      "9110987",
+      "35176629",
+      "33684220",
+      "14704341",
+      "22982363",
+      "27264542",
+      "20106982",
+      "28945358",
+      "30971428",
+      "37944716",
+      "23436654",
+      "26515650",
+      "27099314",
+      "14701755",
+      "11387325",
+      "39266551",
+      "24842994",
+      "28465432",
+      "33555055",
+      "11807820",
+      "33142427",
+      "12666177",
+      "22137580",
+      "28575287",
+      "28103682",
+      "9228069",
+      "27247267",
+      "37424514",
+      "37014863",
+      "9008700",
+      "32544389",
+      "12612070",
+      "15241417",
+      "12049628",
+      "18550522",
+      "27503426",
+      "19136461",
+      "23421907",
+      "37748526",
+      "12011776",
+      "28002402",
+      "37858651",
+      "26799765",
+      "32568517",
+      "15964991",
+      "27026700",
+      "10488128",
+      "20457598",
+      "15047695",
+      "11425311",
+      "39316591",
+      "33676925",
+      "7711060",
+      "28202544",
+      "10781604",
+      "11113176",
+      "12358429",
+      "8134400",
+      "14595832",
+      "20418102",
+      "26799764",
+      "28548879",
+      "31054975",
+      "16107713",
+      "34897689",
+      "32805052",
+      "7826625",
+      "41197002",
+      "1989983",
+      "38801067"
+    ],
+    "review": [
+      "39395159",
+      "28248323",
+      "39658958",
+      "17405796",
+      "24473209",
+      "17079683",
+      "27622638",
+      "9237170",
+      "31680436",
+      "35176629",
+      "22982363",
+      "11807820",
+      "33142427",
+      "15964991",
+      "33676925",
+      "7711060",
+      "20418102"
+    ],
+    "pmc": [
+      "11514005"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39395159/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/6tw1f3gq",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.4c04457",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

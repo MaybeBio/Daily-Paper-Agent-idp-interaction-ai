@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.13.580150",
+  "title": "INTREPPPID - An Orthologue-Informed Quintuplet Network for Cross-Species Prediction of Protein-Protein Interaction",
+  "authors": "Joseph Szymborski; Amin Emad",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-16",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于直系同源信息的五元组神经网络INTREPPPID用于跨物种PPI预测，方法上采用AI但对象非无序蛋白/IDR，且未涉及互作机制建模，仅作预测应用。",
+  "abstract": "An overwhelming majority of protein-protein interaction (PPI) studies are conducted in a select few model organisms largely due to constraints in time and cost of the associated “wet lab” experiments. In silico PPI inference methods are ideal tools to overcome these limitations, but often struggle with cross-species predictions. We present INTREPPPID, a method which incorporates orthology data using a new “quintuplet” neural network, which is constructed with five parallel encoders with shared parameters. INTREPPPID incorporates both a PPI classification task and an orthologous locality task. The latter learns embeddings of orthologues that have small Euclidean distances between them and large distances between embeddings of all other proteins. INTREPPPID outperforms all other leading PPI inference methods tested on both the intra-species and cross-species tasks using strict evaluation datasets. We show that INTREPPPID’s orthologous locality loss increases performance because of the biological relevance of the orthologue data, and not due to some other specious aspect of the architecture. Finally, we introduce PPI.bio and PPI Origami, a web server interface for INTREPPPID and a software tool for creating strict evaluation datasets, respectively. Together, these two initiatives aim to make both the use and development of PPI inference tools more accessible to the community. GRAPHICAL ABSTRACT",
+  "abstract_zh": "绝大多数蛋白质-蛋白质相互作用（protein-protein interaction, PPI）研究主要在少数模式生物中进行，这主要是由于相关“湿实验”在时间和成本上的限制。计算机模拟的PPI推断方法是克服这些局限的理想工具，但往往在跨物种预测方面面临挑战。我们提出了INTREPPPID，一种利用新型“五元组”神经网络整合直系同源数据的方法，该网络由五个共享参数的并行编码器构成。INTREPPPID同时包含PPI分类任务和直系同源局部性任务。后者学习直系同源物的嵌入表示，使得它们之间的欧几里得距离较小，而与其他所有蛋白质的嵌入距离较大。在使用严格评估数据集进行的种内和跨物种任务测试中，INTREPPPID在所有领先的PPI推断方法中表现最优。我们证明，INTREPPPID的直系同源局部性损失能提升性能，是因为直系同源数据的生物学相关性，而非架构中其他可疑方面所致。最后，我们分别介绍了PPI.bio和PPI Origami，前者是INTREPPPID的网页服务器界面，后者是用于创建严格评估数据集的软件工具。这两项举措共同旨在使PPI推断工具的使用和开发对社区更加可及。图形摘要",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.13.580150",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.13.580150",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.13.580150/index.html"
+}

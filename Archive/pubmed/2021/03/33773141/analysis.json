@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33773141",
+  "title": "Bok binds to a largely disordered loop in the coupling domain of type 1 inositol 1,4,5-trisphosphate receptor.",
+  "authors": "Szczesniak, Laura M; Bonzerato, Caden G; Schulman, Jacqualyn J; Bah, Alaji; Wojcikiewicz, Richard J H",
+  "journal": "Biochemical and biophysical research communications",
+  "published_date": "2021-03-28",
+  "window": {
+    "start": "2021-03-22",
+    "end": "2021-03-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究Bok与IP3受体中一个高度无序环的PPI，结合生物信息学预测、突变实验和体外肽段结合分析揭示多价互作机制，对象为IDR且聚焦结合机制，但方法以实验为主、计算为辅，AI/物理模拟贡献有限。",
+  "abstract": "Bcl-2-related ovarian killer (Bok) binds tightly to inositol 1,4,5-trisphosphate receptors (IP(3)Rs). To better understand this interaction, we sought to elucidate the Bok binding determinants in IP(3)R1, focusing on the  approximately 75 amino acid loop (residues 1882-1957) between alpha helices 72 and 73. Bioinformatic analysis revealed that the majority of this loop is intrinsically disordered, with two flanking regions of high disorder next to a low disorder central region ( approximately residues 1914-1926) that is predicted to contain two fused, disjointed transient helical elements. Experiments with IP(3)R1 mutants, combined with computational analysis, indicated that small deletions in this central region block Bok binding due to perturbation of the helical elements. Studies in vitro with purified Bok and IP(3)R1-derived peptides revealed high affinity binding to amino acids 1898-1940 of IP(3)R1 (K(d)  approximately 65 nM) and that binding affinity is also dependent upon both of the high disorder flanking regions. The strength of the Bok-IP(3)R1 interaction was demonstrated by the ability of IP(3)R1 or Bok to recruit transmembrane domain-free Bok or IP(3)R1 mutants, respectively, to membranes in intact cells, and that these two mutants can bind in the cytosol independently of membrane association. Overall, we show that Bok binding to IP(3)R1 occurs within a largely disordered loop between alpha helices 72 and 73 and that high affinity binding is mediated by multivalent interactions.",
+  "abstract_zh": "Bcl-2相关卵巢杀伤因子（Bok）与肌醇1,4,5-三磷酸受体（IP(3)Rs）紧密结合。为更好地理解这一相互作用，我们试图阐明IP(3)R1中Bok的结合决定因素，重点关注α螺旋72和73之间约75个氨基酸的环（残基1882-1957）。生物信息学分析显示，该环的大部分区域为内在无序结构，其中两个高无序侧翼区域紧邻一个低无序中央区域（约残基1914-1926），该中央区域预测包含两个融合的、不连续的瞬时螺旋元件。结合计算分析的IP(3)R1突变体实验表明，该中央区域的小片段缺失会因螺旋元件的扰动而阻断Bok结合。使用纯化Bok和IP(3)R1衍生肽段的体外研究显示，其与IP(3)R1氨基酸1898-1940具有高亲和力结合（K(d) 约65 nM），且结合亲和力也依赖于两个高无序侧翼区域。Bok-IP(3)R1相互作用的强度通过以下事实得到证明：IP(3)R1或Bok能够分别将无跨膜结构域的Bok或IP(3)R1突变体招募至完整细胞的膜上，且这两个突变体可在胞质中独立于膜结合而相互结合。总体而言，我们表明Bok与IP(3)R1的结合发生在α螺旋72和73之间一个大部分无序的环内，且高亲和力结合由多价相互作用介导。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33773141/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33773141/",
+  "paper_page_path": "papers/pubmed/33773141/index.html"
+}

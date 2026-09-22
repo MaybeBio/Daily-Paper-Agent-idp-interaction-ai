@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39025569",
+  "title": "Characterization of domain formation in complex membranes.",
+  "authors": "Trollmann, Marius F W; Bockmann, Rainer A",
+  "journal": "Methods in enzymology",
+  "published_date": "2024-07-19",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用隐马尔可夫模型和空间统计方法分析脂膜中有序/无序畴的形成，对象为脂质膜而非无序蛋白/IDR，且不涉及蛋白-蛋白互作，仅方法上对无序状态分类有微弱可迁移性。",
+  "abstract": "A widely known property of lipid membranes is their tendency to undergo a separation into disordered (L(d)) and ordered (L(o)) domains. This impacts the local structure of the membrane relevant for the physical (e.g., enhanced electroporation) and biological (e.g., protein sorting) significance of these regions. The increase in computing power, advancements in simulation software, and more detailed information about the composition of biological membranes shifts the study of these domains into the focus of classical molecular dynamics simulations. In this chapter, we present a versatile yet robust analysis pipeline that can be easily implemented and adapted for a wide range of lipid compositions. It employs Gaussian-based Hidden Markov Models to predict the hidden order states of individual lipids by describing their structure through the area per lipid and the average S(CC) order parameters per acyl chain. Regions of the membrane with a high correlation between ordered lipids are identified by employing the Getis-Ord local spatial autocorrelation statistic on a Voronoi tessellation of the lipids. As an example, the approach is applied to two distinct systems at a coarse-grained resolution, demonstrating either a strong tendency towards phase separation (1,2-dipalmitoyl-sn-glycero-3-phosphocholine (DPPC), 1,2-dilinoleoyl-sn-glycero-3-phosphocholine (DIPC), cholesterol) or a weak tendency toward phase separation (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC), 1-palmitoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine (PUPC), cholesterol). Explanations of the steps are complemented by coding examples written in Python, providing both a comprehensive understanding and practical guidance for a seamless integration of the workflow into individual projects.",
+  "abstract_zh": "脂质膜的一个广为人知的性质是其倾向于分离为无序（L(d)）和有序（L(o)）结构域。这影响了膜局部结构，而这些区域在物理（如增强电穿孔）和生物（如蛋白质分选）方面具有重要意义。计算能力的提升、模拟软件的进步以及关于生物膜组成更详细的信息，使得对这些结构域的研究成为经典分子动力学 (molecular dynamics) 模拟的焦点。在本章中，我们提出了一种通用且稳健的分析流程，该流程易于实现并适用于多种脂质组成。它采用基于高斯隐马尔可夫模型 (Gaussian-based Hidden Markov Models) 来预测单个脂质的隐藏有序状态，通过每个脂质的面积和每条酰基链的平均 S(CC) 有序参数来描述其结构。通过将 Getis-Ord 局部空间自相关统计应用于脂质的 Voronoi 镶嵌，识别膜中具有高有序脂质相关性的区域。作为示例，该方法应用于两个不同系统，在粗粒化分辨率下，展示了强相分离倾向（1,2-二棕榈酰-sn-甘油-3-磷酸胆碱 (DPPC)、1,2-二亚油酰-sn-甘油-3-磷酸胆碱 (DIPC)、胆固醇）或弱相分离倾向（1-棕榈酰-2-油酰-sn-甘油-3-磷酸胆碱 (POPC)、1-棕榈酰-2-二十二碳六烯酰-sn-甘油-3-磷酸胆碱 (PUPC)、胆固醇）。步骤说明辅以Python编写的代码示例，提供全面理解和实践指导，以便将工作流程无缝集成到个人项目中。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39025569/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39025569/",
+  "paper_page_path": "papers/pubmed/39025569/index.html"
+}

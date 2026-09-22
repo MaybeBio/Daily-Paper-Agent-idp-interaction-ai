@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "41305400",
+    "doi": "10.3390/pathogens14111164",
+    "title": "Homology Modeling of Type-P5 ATPases from the Malaria Parasite: Insight into Their Functions and Evolution, and Implications About the Effect and Role of Intrinsically Disordered Protein Structure."
+  },
+  "content": {
+    "abstract": "Type-P5 ATPases are the least characterized among the P-type ATPases and this is especially true in the case of the malaria parasite. In this study, Spf1, a subtype-P5A ATPase of yeast, and ATP13A2, a subtype-P5B ATPase of humans, were used as templates to extensively characterize the sequences and structural features of haemosporidian type-P5 ATPases. Malaria parasites have both subtype-P5A and subtype-P5B ATPase genes and the structural features of the proteins recapitulate the known structures of subtype-P5A and subtype-P5B ATPases. Detailed structural analysis detected an additional alpha-helix in the P-domain of subtype-P5A ATPases, which is not found in subtype-P5B ATPases. This feature may be an additional signature to distinguish subtype-P5A and subtype-P5B ATPases, in addition to the previously described differences in the membrane loops of the N-terminal domain, the arm in the P-domain of subtype-P5A, and substrate differences. A notable difference in the type-P5 ATPases from the malaria parasite, as compared to the templates, is the insertion of multiple variable and low-complexity regions that form intrinsically disorganized loops. These loops may form a shroud-like structure that protects the core ATPase structure and/or participates in low-affinity interprotein interactions. Homology modeling did not provide definitive answers about the substrate specificity of the haemosporidian type-P5 ATPases. However, the haemosporidian subtype-P5A ATPase is likely an ER transmembrane dislocase as are the other subtype-P5A ATPases. In contrast, the subtype-P5B ATPases of the malaria parasite are not likely to be polyamine transporters in lysosomes, as have been described in fungi and metazoans. This suggests that subtype-P5B ATPases have undergone lineage-specific divergence in regard to their function(s).",
+    "keywords": [
+      "AlphaFold",
+      "Haemosporida",
+      "P-type ATPase",
+      "Plasmodium",
+      "Swiss Model",
+      "homology modeling",
+      "intrinsically disordered proteins",
+      "malaria parasite",
+      "type-P5 ATPase"
+    ],
+    "mesh_terms": [
+      "*Adenosine Triphosphatases/chemistry/metabolism/genetics",
+      "Models, Molecular",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/genetics",
+      "Humans",
+      "*Protozoan Proteins/chemistry/genetics/metabolism",
+      "Evolution, Molecular",
+      "*Plasmodium falciparum/enzymology/genetics",
+      "Amino Acid Sequence",
+      "Malaria/parasitology",
+      "Protein Conformation",
+      "*Plasmodium/enzymology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wiser, Mark F"
+      ],
+      "short_names": [
+        "Wiser MF"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5893-9983"
+      ],
+      "affiliations": [
+        "Department of Tropical Medicine and Infectious Disease, Celia Scott Weatherhead School of Public Health & Tropical Medicine, Tulane University, New Orleans, LA 70112, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wiser, Mark F",
+        "short_name": "Wiser MF",
+        "identifiers": [
+          "0000-0001-5893-9983"
+        ],
+        "affiliations": [
+          "Department of Tropical Medicine and Infectious Disease, Celia Scott Weatherhead School of Public Health & Tropical Medicine, Tulane University, New Orleans, LA 70112, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pathogens (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Pathogens"
+    ],
+    "pub_date": "2025 Nov 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/27 06:28",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [
+      "42589394"
+    ],
+    "refs": [
+      "38718835",
+      "38535526",
+      "38376987",
+      "37838176",
+      "37726397",
+      "37505649",
+      "37202254",
+      "36724561",
+      "36477806",
+      "36064065",
+      "35139468",
+      "34728622",
+      "34715014",
+      "34715013",
+      "34607199",
+      "34440567",
+      "34172751",
+      "34142223",
+      "33892491",
+      "32973005",
+      "32905774",
+      "31996848",
+      "31268560",
+      "30945211",
+      "30785834",
+      "30333232",
+      "29788355",
+      "29512175",
+      "29505581",
+      "29500236",
+      "29321589",
+      "29077880",
+      "27381764",
+      "27203110",
+      "27190205",
+      "24904274",
+      "24836520",
+      "24392018",
+      "23092921",
+      "22878129",
+      "21599655",
+      "21136929",
+      "20835794",
+      "20638904",
+      "19917612",
+      "18957442",
+      "18440982",
+      "18155930",
+      "16806741",
+      "16733545",
+      "15774027",
+      "15738986",
+      "14499619",
+      "12598367",
+      "12064241",
+      "12058017",
+      "11522345",
+      "11350948",
+      "10593186",
+      "9419228",
+      "9256443",
+      "8421054",
+      "4399774",
+      "105129"
+    ],
+    "similar": [
+      "41305400",
+      "20416272",
+      "36724561",
+      "29505581",
+      "18155930",
+      "8813672",
+      "33500341",
+      "24836520",
+      "26130467",
+      "34197450",
+      "34449980",
+      "29547664",
+      "35862778",
+      "32973005",
+      "34087682",
+      "2150071",
+      "39084459",
+      "34172751",
+      "39505844",
+      "36328152",
+      "24507637",
+      "22079692",
+      "40091859",
+      "23414762",
+      "34798056",
+      "23205587",
+      "26513658",
+      "29986883",
+      "23219504",
+      "20837488",
+      "10529354",
+      "8421054",
+      "22730321",
+      "12054807",
+      "25412900",
+      "33372863",
+      "34341192",
+      "22543039",
+      "7851389",
+      "2016283",
+      "39670568",
+      "7789797",
+      "38747635",
+      "8314897",
+      "26043001",
+      "17219055",
+      "7935619",
+      "22705314",
+      "34716632",
+      "18722339",
+      "30026605",
+      "36190127",
+      "19000816",
+      "19633266",
+      "15037234",
+      "16713133",
+      "34715013",
+      "1496004",
+      "8876233",
+      "39773028",
+      "41115914",
+      "25824666",
+      "25747872",
+      "33536327",
+      "23994135",
+      "21628589",
+      "29362238",
+      "22745129",
+      "26214367",
+      "9124316",
+      "20042123",
+      "16495228",
+      "33023071",
+      "40795429",
+      "17469853",
+      "41144577",
+      "12270711",
+      "15774027",
+      "22685606",
+      "24161468",
+      "12409450",
+      "18500983",
+      "33732777",
+      "35420481",
+      "11984002",
+      "33109193",
+      "20887733",
+      "16806221",
+      "12165385",
+      "33253113",
+      "19271776",
+      "23185322",
+      "34706230",
+      "28611247",
+      "34756057",
+      "20153446",
+      "27846879",
+      "15612927",
+      "28981210",
+      "20016272"
+    ],
+    "review": [
+      "41305400",
+      "36724561",
+      "24836520",
+      "34449980",
+      "17219055",
+      "16713133",
+      "33023071"
+    ],
+    "pmc": [
+      "12655044"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=pathogens14111164",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41305400/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-250",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

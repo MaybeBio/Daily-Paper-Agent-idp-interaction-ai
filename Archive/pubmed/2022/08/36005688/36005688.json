@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "36005688",
+    "doi": "10.3390/membranes12080773",
+    "title": "ReSMAP: Web Server for Predicting Residue-Specific Membrane-Association Propensities of Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "The functional processes of many proteins involve the association of their intrinsically disordered regions (IDRs) with acidic membranes. We have identified the membrane-association characteristics of IDRs using extensive molecular dynamics (MD) simulations and validated them with NMR spectroscopy. These studies have led to not only deep insight into functional mechanisms of IDRs but also to intimate knowledge regarding the sequence determinants of membrane-association propensities. Here we turned this knowledge into a web server called ReSMAP, for predicting the residue-specific membrane-association propensities from IDR sequences. The membrane-association propensities are calculated from a sequence-based partition function, trained on the MD simulation results of seven IDRs. Robustness of the prediction is demonstrated by leaving one IDR out of the training set. We anticipate there will be many applications for the ReSMAP web server, including rapid screening of IDR sequences for membrane association.",
+    "keywords": [
+      "amphipathic helix",
+      "intrinsically disordered proteins",
+      "intrinsically disordered regions",
+      "membrane binding",
+      "membrane-association propensity"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qin, Sanbo",
+        "Hicks, Alan",
+        "Dey, Souvik",
+        "Prasad, Ramesh",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "Qin S",
+        "Hicks A",
+        "Dey S",
+        "Prasad R",
+        "Zhou HX"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4366-5681",
+        "ORCID: 0000-0001-9020-0302"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA.",
+        "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA.",
+        "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA.",
+        "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA.",
+        "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA.",
+        "Department of Physics, University of Illinois at Chicago, Chicago, IL 60607, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qin, Sanbo",
+        "short_name": "Qin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Hicks, Alan",
+        "short_name": "Hicks A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Dey, Souvik",
+        "short_name": "Dey S",
+        "identifiers": [
+          "0000-0002-4366-5681"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Prasad, Ramesh",
+        "short_name": "Prasad R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [
+          "0000-0001-9020-0302"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois at Chicago, Chicago, IL 60607, USA.",
+          "Department of Physics, University of Illinois at Chicago, Chicago, IL 60607, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Membranes"
+    ],
+    "journal_abbrev": [
+      "Membranes (Basel)"
+    ],
+    "pub_date": "2022 Aug 11",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/26 06:00",
+    "fetched_at": "2026-09-20 12:48:52"
+  },
+  "links": {
+    "cites": [
+      "41959284",
+      "40106808",
+      "39952269",
+      "39677619",
+      "39594618",
+      "39475380",
+      "37919400",
+      "36959324",
+      "36863659",
+      "36778236"
+    ],
+    "refs": [
+      "34265844",
+      "33587036",
+      "33554215",
+      "33026978",
+      "32426975",
+      "32242019",
+      "31877324",
+      "30975750",
+      "28601983",
+      "27161080",
+      "26574453",
+      "25846210",
+      "25764013",
+      "23451886",
+      "22948148",
+      "22084078",
+      "21848311",
+      "18662927",
+      "16704727",
+      "16319880",
+      "11052943",
+      "7527558",
+      "6502707"
+    ],
+    "similar": [
+      "36005688",
+      "36908253",
+      "36272675",
+      "29763584",
+      "28355271",
+      "32824743",
+      "33248138",
+      "35767567",
+      "38712287",
+      "39253485",
+      "23142703",
+      "29550429",
+      "34179096",
+      "33267376",
+      "31724233",
+      "31303975",
+      "29066345",
+      "32112084",
+      "31797595",
+      "31804089",
+      "32225071",
+      "30802457",
+      "31756456",
+      "32702119",
+      "32756939",
+      "31889261",
+      "30878482",
+      "30841624",
+      "36315580",
+      "35883444",
+      "33036302",
+      "38895487",
+      "36778236",
+      "33976270",
+      "27881680",
+      "35962177",
+      "32553192",
+      "35930019",
+      "37986812",
+      "33078839",
+      "32696365",
+      "27140628",
+      "35139468",
+      "30518031",
+      "31514372",
+      "34418423",
+      "26149687",
+      "33627133",
+      "28924037",
+      "33191750",
+      "35659505",
+      "29076577",
+      "31479556",
+      "37961106",
+      "37547488",
+      "35275927",
+      "33406091",
+      "29722136",
+      "27179590",
+      "33554215",
+      "34557680",
+      "35149212",
+      "37761851",
+      "38746434",
+      "26195786",
+      "31709918",
+      "25099811",
+      "34571015",
+      "32722039",
+      "31999450",
+      "27936491",
+      "31003202",
+      "29791766",
+      "34905768",
+      "31207240",
+      "32696395",
+      "33030249",
+      "34656334",
+      "28381244",
+      "35034725",
+      "28780862",
+      "32696354",
+      "31253862",
+      "31797596",
+      "26727467",
+      "31307006",
+      "34656327",
+      "34303077",
+      "36824878",
+      "34506483",
+      "24027208",
+      "31521235",
+      "35629783",
+      "37581491",
+      "37412695"
+    ],
+    "review": [
+      "36005688",
+      "33248138",
+      "31303975",
+      "35930019",
+      "33078839",
+      "35139468",
+      "34418423",
+      "29722136",
+      "31709918",
+      "31003202",
+      "34656334",
+      "34303077",
+      "24027208",
+      "31521235"
+    ],
+    "pmc": [
+      "9416665"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=membranes12080773",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36005688/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36005688",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

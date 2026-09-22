@@ -1,0 +1,38 @@
+{
+  "source": "arxiv",
+  "source_id": "2204.10683v2",
+  "title": "Finite-disorder critical point in the yielding transition of elasto-plastic models",
+  "doi": "10.1103/PhysRevLett.129.228002",
+  "abstract": "Upon loading, amorphous solids can exhibit brittle yielding, with the abrupt formation of macroscopic shear bands leading to fracture, or ductile yielding, with a multitude of plastic events leading to homogeneous flow. It has been recently proposed, and subsequently questioned, that the two regimes are separated by a sharp critical point, as a function of some control parameter characterizing the intrinsic disorder strength and the degree of stability of the solid. In order to resolve this issue, we have performed extensive numerical simulations of athermally driven elasto-plastic models with long-range and anisotropic realistic interaction kernels in two and three dimensions. Our results provide clear evidence for a finite-disorder critical point separating brittle and ductile yielding, and we provide an estimate of the critical exponents in 2D and 3D.",
+  "authors": [
+    "Saverio Rossi",
+    "Giulio Biroli",
+    "Misaki Ozawa",
+    "Gilles Tarjus",
+    "Francesco Zamponi"
+  ],
+  "published_date": "2022-04-22T12:56:02Z",
+  "updated_date": "2022-11-24T13:12:29Z",
+  "journal": "Phys. Rev. Lett. 129, 228002 (2022)",
+  "category": "cond-mat.soft, cond-mat.dis-nn, cond-mat.stat-mech",
+  "landing_url": "https://arxiv.org/abs/2204.10683v2",
+  "pdf_url": "https://arxiv.org/pdf/2204.10683v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft",
+    "cond-mat.dis-nn",
+    "cond-mat.stat-mech"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2204.10683v2",
+    "raw_categories": [
+      "cond-mat.soft",
+      "cond-mat.dis-nn",
+      "cond-mat.stat-mech"
+    ],
+    "journal_ref": "Phys. Rev. Lett. 129, 228002 (2022)"
+  }
+}

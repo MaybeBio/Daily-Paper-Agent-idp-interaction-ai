@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34163874",
+  "title": "Conformational editing of intrinsically disordered protein by alpha-methylation.",
+  "authors": "Bauer, Valentin; Schmidtgall, Boris; Gogl, Gergo; Dolenc, Jozica; Osz, Judit; Nomine, Yves; Kostmann, Camille; Cousido-Siah, Alexandra; Mitschler, Andre; Rochel, Natacha; Trave, Gilles; Kieffer, Bruno; Torbeev, Vladimir",
+  "journal": "Chemical science",
+  "published_date": "2021-06-25",
+  "window": {
+    "start": "2021-06-21",
+    "end": "2021-06-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过α-甲基化氨基酸约束ACTR无序蛋白的构象，结合X射线结构解析其与NCBD的复合物，虽涉及IDP和PPI机制，但方法为化学合成与结构生物学，缺乏AI或物理模拟建模，故评6分。",
+  "abstract": "Intrinsically disordered proteins (IDPs) constitute a large portion of \"Dark Proteome\" - difficult to characterize or yet to be discovered protein structures. Here we used conformationally constrained alpha-methylated amino acids to bias the conformational ensemble in the free unstructured activation domain of transcriptional coactivator ACTR. Different sites and patterns of substitutions were enabled by chemical protein synthesis and led to distinct populations of alpha-helices. A specific substitution pattern resulted in a substantially higher binding affinity to nuclear coactivator binding domain (NCBD) of CREB-binding protein, a natural binding partner of ACTR. The first X-ray structure of the modified ACTR domain - NCBD complex visualized a unique conformation of ACTR and confirmed that the key alpha-methylated amino acids are localized within alpha-helices in the bound state. This study demonstrates a strategy for characterization of individual conformational states of IDPs.",
+  "abstract_zh": "固有无序蛋白（IDPs）构成了“暗蛋白质组”的很大一部分——这些蛋白质结构难以表征或尚未被发现。在此，我们利用构象受限的α-甲基化氨基酸，偏向转录共激活因子ACTR的游离非结构化激活域中的构象集合。通过化学蛋白质合成实现了不同位点和模式的替换，并导致了α-螺旋的不同群体分布。一种特定的替换模式显著提高了与CREB结合蛋白的核共激活因子结合域（NCBD）的结合亲和力，而NCBD是ACTR的天然结合伙伴。修饰后的ACTR域与NCBD复合物的首个X射线结构揭示了ACTR的独特构象，并确认关键的α-甲基化氨基酸在结合状态下定位于α-螺旋内。本研究展示了一种表征IDPs个体构象状态的策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34163874/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34163874/",
+  "paper_page_path": "papers/pubmed/34163874/index.html"
+}

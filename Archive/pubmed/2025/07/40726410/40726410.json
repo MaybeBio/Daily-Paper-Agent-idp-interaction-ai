@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "40726410",
+    "doi": "10.1039/d5cp01442e",
+    "title": "Exploring the effects of macromolecular crowding on the conformation and NuMA binding of 4.1G-CTD."
+  },
+  "content": {
+    "abstract": "The C-terminal domain of protein 4.1G is an intrinsically disordered region that forms a fuzzy complex with the disordered C-terminus of the nuclear mitotic apparatus (NuMA) protein, playing a crucial role in regulating spindle orientation during cell division. However, how these interactions adapt to the physiologically crowded environments of the cell remains unclear. In this study, we employ multiple biophysical techniques to systematically investigate the effects of macromolecular crowding on the structure, conformational dynamics, and binding capacity of 4.1G-CTD. Our findings reveal that crowding induces structural compaction in 4.1G-CTD, while preserving its intrinsically disordered characteristics, despite crowder-specific modulation of transient secondary structures. Moreover, crowding consistently enhances the binding affinity of 4.1G-CTD for NuMA and accelerates the kinetics of their association; however, the extent of these effects varies significantly among different types of crowders. Collectively, our results demonstrate that intracellular crowding fine-tunes the functionality of intrinsically disordered proteins (IDPs) by exerting complex influences on their conformational landscapes as well as the thermodynamics and kinetics of their interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Binding",
+      "Thermodynamics",
+      "*Nuclear Matrix-Associated Proteins/chemistry/metabolism",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Kinetics",
+      "Humans",
+      "*Cell Cycle Proteins/chemistry/metabolism",
+      "Protein Conformation",
+      "Macromolecular Substances/chemistry",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Shi",
+        "Yang, Ming",
+        "Perrett, Sarah",
+        "Wu, Si",
+        "Liu, Zhijun",
+        "Wang, Wenning"
+      ],
+      "short_names": [
+        "Yu S",
+        "Yang M",
+        "Perrett S",
+        "Wu S",
+        "Liu Z",
+        "Wang W"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-6922-6567",
+        "ORCID: 0000-0003-0137-0997",
+        "ORCID: 0000-0001-7743-8236",
+        "ORCID: 0000-0002-8712-0536"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Institute of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China. wnwang@fudan.edu.cn.",
+        "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of the Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China.",
+        "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, UK.",
+        "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "University of the Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China.",
+        "National Facility for Protein Science in Shanghai, Zhangjiang Lab, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai 201210, China.",
+        "Department of Chemistry, Institute of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China. wnwang@fudan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Shi",
+        "short_name": "Yu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Institute of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China. wnwang@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Ming",
+        "short_name": "Yang M",
+        "identifiers": [
+          "0009-0000-6922-6567"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of the Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Perrett, Sarah",
+        "short_name": "Perrett S",
+        "identifiers": [
+          "0000-0003-0137-0997"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Wu, Si",
+        "short_name": "Wu S",
+        "identifiers": [
+          "0000-0001-7743-8236"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of the Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhijun",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Facility for Protein Science in Shanghai, Zhangjiang Lab, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai 201210, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenning",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0000-0002-8712-0536"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Institute of Biomedical Sciences and Multiscale Research Institute of Complex Systems, Fudan University, Shanghai 200438, China. wnwang@fudan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2025 Aug 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 06:30",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40726410",
+      "28493424",
+      "30066087",
+      "35310482",
+      "23912807",
+      "32487732",
+      "36542701",
+      "41169557",
+      "34929201",
+      "29539394",
+      "24312701",
+      "41169547",
+      "27410731",
+      "30230839",
+      "33587794",
+      "30813629",
+      "29306779",
+      "27844185",
+      "27462074",
+      "31441158",
+      "39218187",
+      "38358134",
+      "31732560",
+      "11749217",
+      "24639500",
+      "31855846",
+      "35204709",
+      "28425679",
+      "31783325",
+      "35975930",
+      "30703278",
+      "26195786",
+      "32020911",
+      "37348142",
+      "30528464",
+      "39665260",
+      "37722056",
+      "24317797",
+      "33877595",
+      "30527137",
+      "27936623",
+      "17513384",
+      "32933064",
+      "22977735",
+      "28109327",
+      "21816348",
+      "29885328",
+      "30471693",
+      "33355572",
+      "32184088",
+      "10189366",
+      "39947750",
+      "28111343",
+      "32696383",
+      "25302571",
+      "34610267",
+      "27797534",
+      "29716994",
+      "34521831",
+      "27842220",
+      "24559993",
+      "32413290",
+      "33215185",
+      "29276882",
+      "32654182",
+      "32696381",
+      "24449148",
+      "33054197",
+      "28939615",
+      "34504009",
+      "34509724",
+      "30397651",
+      "30070686",
+      "40782957",
+      "26851279",
+      "34320339",
+      "33567297",
+      "29413001",
+      "34206440",
+      "34358545",
+      "40768165",
+      "28914483",
+      "33284914",
+      "39580365",
+      "29632904",
+      "24915485",
+      "29791766",
+      "34473923",
+      "21133453",
+      "24098099",
+      "33361159",
+      "25263009",
+      "30855964",
+      "34241219",
+      "29990433",
+      "37870995",
+      "33454008",
+      "32936312",
+      "30071273",
+      "29157493"
+    ],
+    "review": [
+      "40726410",
+      "30066087",
+      "30813629",
+      "29306779",
+      "31441158",
+      "35204709",
+      "31783325",
+      "32020911",
+      "30527137",
+      "22977735",
+      "28109327",
+      "33355572",
+      "39947750",
+      "34610267",
+      "27842220",
+      "26851279",
+      "33567297",
+      "29413001",
+      "34358545",
+      "33361159",
+      "25263009"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d5cp01442e",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NUMA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-937",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

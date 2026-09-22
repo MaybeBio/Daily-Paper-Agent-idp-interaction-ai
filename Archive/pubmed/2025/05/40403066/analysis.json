@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40403066",
+  "title": "Sequence-based prediction of intermolecular interactions driven by disordered regions.",
+  "authors": "Ginell, Garrett M; Emenecker, Ryan J; Lotthammer, Jeffrey M; Keeley, Alex T; Plassmeyer, Stephen P; Razo, Nicholas; Usher, Emery T; Pelham, Jaqueline F; Holehouse, Alex S",
+  "journal": "Science (New York, N.Y.)",
+  "published_date": "2025-05-22",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究开发FINCHES方法，仅用序列预测IDR与伙伴蛋白间由化学互补驱动的动态互作，可预测相图、识别互作热点并解析化学域，直接服务于无序蛋白介导PPI的机制建模，与课题高度契合。",
+  "abstract": "Intrinsically disordered regions (IDRs) in proteins play essential roles in cellular function. A growing body of work has shown that IDRs often interact with partners in a manner that does not depend on the precise order of amino acids but is instead driven by complementary chemical interactions, leading to disordered bound-state complexes. However, these chemically specific dynamic interactions are difficult to predict. In this study, we repurposed the chemical physics developed originally for molecular simulations to predict this chemical specificity between IDRs and partner proteins using protein sequence as the only input. Our approach-FINCHES-enables the direct prediction of phase diagrams, the identification of chemically specific interaction hotspots on IDRs, the decomposition of chemically distinct domains in IDRs, and a route to develop and test mechanistic hypotheses regarding IDR function in molecular recognition.",
+  "abstract_zh": "蛋白质中的固有无序区域（IDRs）在细胞功能中扮演着至关重要的角色。越来越多的研究表明，IDRs 与伙伴蛋白的相互作用往往不依赖于氨基酸的精确顺序，而是由互补的化学相互作用驱动，导致形成无序的结合态复合物。然而，这些化学特异性的动态相互作用难以预测。在本研究中，我们重新利用了最初为分子模拟开发的化学物理学方法，仅以蛋白质序列作为输入，来预测IDRs与伙伴蛋白之间的这种化学特异性。我们的方法——FINCHES——能够直接预测相图，识别IDRs上的化学特异性相互作用热点，分解IDRs中化学性质不同的结构域，并为开发及测试关于IDRs在分子识别中功能的机制性假说提供途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40403066/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40403066/",
+  "paper_page_path": "papers/pubmed/40403066/index.html"
+}

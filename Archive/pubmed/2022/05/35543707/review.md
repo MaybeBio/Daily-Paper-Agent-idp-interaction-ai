@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to the full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use a previously published 73 microsecond molecular dynamics simulation of human alpha-synuclein in explicit solvent to interpret low-resolution conformational components derived from mass spectrometry and single molecule force microscopy. They additionally compare MD-based predictions of single molecule Forster resonance energy transfer data with experimental data. The combined analysis is claimed to provide a description of the main conformational ensemble of alpha-synuclein, including intramolecular interactions and overall structural compactness, and is suggested to be transferable to other intrinsically disordered proteins.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, simulation details, experimental protocols, or quantitative results are provided.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, simulation parameters and validation, experimental datasets, statistical analyses, and any comparison metrics. The absence of these materials severely limits the ability to assess the technical soundness and validity of the claims.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable integrative approach that combines long-timescale molecular dynamics simulation with low-resolution experimental techniques to characterize the conformational ensemble of alpha-synuclein. The premise is scientifically interesting and aligns with current efforts to bridge computational and experimental studies of intrinsically disordered proteins. However, the abstract alone provides insufficient detail to evaluate the rigor of the methodology, the quality of the comparison between simulation and experiment, or the robustness of the conclusions. The claim of transferability to other IDPs is plausible but not substantiated from the supplied material. The work may be of interest to the biophysics and IDP communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, biophysics, computational chemistry, and structural biology would be interested. The work addresses a central challenge in IDP research, namely how to integrate low-resolution experimental data with atomistic simulations to obtain meaningful conformational descriptions. The potential transferability to other IDPs broadens the appeal to a wider community studying disordered proteins and their roles in disease.
+- **Major strengths** The use of a 73 microsecond simulation, which is substantial for a protein in explicit solvent, represents a significant computational resource and offers the potential for statistically meaningful sampling of the conformational ensemble. The integration of multiple orthogonal experimental techniques, including mass spectrometry, single molecule force microscopy, and smFRET, with simulation is a commendable multi-modal approach. The focus on alpha-synuclein, a protein of high biomedical relevance, adds importance to the work.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the combined theoretical and experimental data provide a description of the main conformational ensemble of alpha-synuclein, including intramolecular interactions and overall structural compactness.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not provide any quantitative metrics for the agreement between the MD simulation and the experimental data. It is unclear whether the comparison is qualitative or statistical, and whether the simulation reproduces the experimental observables within acceptable error margins. Without such metrics, the claim that the simulation interprets the experimental results cannot be evaluated.
+  - **Why it matters** The central premise of the work is that the MD simulation can meaningfully interpret low-resolution experimental data. If the agreement between simulation and experiment is not rigorously quantified, the conclusions about the conformational ensemble may be overinterpreted or based on coincidental matches.
+  - **Resolution test** Provide quantitative comparison metrics, such as chi-squared values, root-mean-square deviations between predicted and experimental observables, or statistical tests of agreement, along with error bars and uncertainty estimates for both simulation and experiment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The abstract states that the analysis is based on a previously published 73 microsecond MD simulation, but no details of that simulation are provided.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not specify the force field, water model, temperature, pressure, salt concentration, or any other simulation conditions. It also does not indicate whether the simulation was validated for convergence or whether the conformational sampling was sufficient to capture the relevant ensemble. The reader cannot assess whether the simulation is appropriate for the stated purpose.
+  - **Why it matters** The validity of any MD-based interpretation depends critically on the simulation setup and the quality of sampling. Without this information, the reliability of the simulation as an interpretive tool is unknown.
+  - **Resolution test** Include a summary of the simulation parameters, force field validation, convergence analysis, and a demonstration that the simulation samples a representative conformational ensemble, for example through block averaging or comparison of independent trajectories.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The abstract claims that the analysis could be easily transferred to other IDPs.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** No evidence is presented to support the transferability claim. The abstract does not describe any methodological innovation or generalizable framework that would make the approach applicable to other IDPs. The claim appears to be an extrapolation without demonstrated basis.
+  - **Why it matters** Transferability is a strong claim that, if true, would significantly increase the impact of the work. However, without demonstration on at least one additional IDP or a clear description of a generalizable protocol, the claim is unsupported and may mislead readers.
+  - **Resolution test** Either demonstrate the approach on a second IDP or temper the claim to reflect that the methodology is in principle applicable, with a clear description of the steps required for transfer.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "conformational components" is used without definition. It is unclear whether this refers to distinct structural states, sub-ensembles, or a decomposition of the ensemble into basis functions.
+  - **Required correction** Define "conformational components" explicitly in the abstract or introduction to avoid ambiguity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental details
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions mass spectrometry and single molecule force microscopy but does not specify which variants of these techniques were used, such as ion mobility mass spectrometry or specific force microscopy modes.
+  - **Required correction** Specify the experimental techniques and conditions in the abstract or methods summary to allow readers to assess the relevance of the comparison.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the main findings in terms of specific intramolecular interactions or the degree of compactness. It only states that the analysis sheds light on these aspects.
+  - **Required correction** Include one or two specific findings, such as the identification of a particular long-range contact or a quantitative measure of compactness, to make the abstract more informative.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are all blocking concerns. The lack of quantitative agreement metrics, the absence of simulation details, and the unsupported transferability claim collectively prevent the case from being established from the supplied material.
+
+## Risk / unsupported claims
+- The claim that the combined data provide a description of the main conformational ensemble is unsupported without quantitative comparison metrics.
+- The claim that the analysis could be easily transferred to other IDPs is unsupported and appears speculative.
+- The implied reliability of the 73 microsecond simulation as an interpretive tool is unassessable without simulation parameters and convergence analysis.
+- Any specific statements about intramolecular interactions or overall structural compactness are not evaluable from the abstract alone.

@@ -1,0 +1,313 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.07.593052",
+  "title": "Profiling genetically driven alternative splicing across the Indonesian Archipelago",
+  "doi": "10.1101/2024.05.07.593052",
+  "abstract": "One of the regulatory mechanisms influencing the functional capacity of genes is alternative splicing (AS). Previous studies exploring the splicing landscape of human tissues have shown that AS has contributed to human biology, especially in disease progression and the immune response. Nonetheless, this phenomenon remains poorly characterised across human populations, and it is unclear how genetic and environmental variation contribute to alternative splicing. Here, we examine a set of 115 Indonesian samples from three traditional island populations spanning the genetic ancestry cline that characterizes Island Southeast Asia. We conduct a global AS analysis between islands to ascertain the degree of functionally significant AS events and their consequences. Using a hierarchical event-based statistical model, we detected over 1,000 significant differential AS events across all comparisons. Additionally, we identify over 6,000 genetic variants associated with changes in splicing (splicing quantitative trait loci; sQTLs), some of which are driven by Papuan-like genetic ancestry, and only show partial overlap with other publicly available sQTL datasets derived from other populations. Computational predictions of RNA binding activity revealed that a fraction of these sQTLs directly modulate the binding propensity of proteins involved in the splicing regulation of immune genes. Overall, these results contribute towards elucidating the role of genetic variation in shaping gene regulation in one of the most diverse regions in the world.",
+  "authors": [
+    "Ibeh N",
+    "Kusuma P",
+    "Crenna Darusallam C",
+    "Malik S",
+    "Sudoyo H",
+    "McCarthy DJ",
+    "Romero IG"
+  ],
+  "published_date": "2024-05-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.07.593052",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.07.593052.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR849497",
+    "raw_record": {
+      "id": "PPR849497",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR849497"
+        ]
+      },
+      "doi": "10.1101/2024.05.07.593052",
+      "title": "Profiling genetically driven alternative splicing across the Indonesian Archipelago",
+      "authorString": "Ibeh N, Kusuma P, Crenna Darusallam C, Malik S, Sudoyo H, McCarthy DJ, Romero IG.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ibeh N",
+            "lastName": "Ibeh",
+            "firstName": "Neke",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3262-2248"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of BioSciences, University of Melbourne, Parkville, VIC 3010, Australia"
+                },
+                {
+                  "affiliation": "Melbourne Integrative Genomics, University of Melbourne, Parkville, VIC 3010, Australia"
+                },
+                {
+                  "affiliation": "Bioinformatics and Cellular Genomics, St Vincents Institute of Medical Research, Fitzroy, Victoria 3065, Australia"
+                },
+                {
+                  "affiliation": "Human Genomics and Evolution, St Vincent’s Institute of Medical Research, Fitzroy, Victoria, 3065, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kusuma P",
+            "lastName": "Kusuma",
+            "firstName": "Pradiptajati",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9722-4048"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Diversity and Disease Laboratory, Mochtar Riady Institute of Nanotechnology, Tangerang 15811, Indonesia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Crenna Darusallam C",
+            "lastName": "Crenna Darusallam",
+            "firstName": "Chelzie",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6236-9418"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Diversity and Disease Laboratory, Mochtar Riady Institute of Nanotechnology, Tangerang 15811, Indonesia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Malik S",
+            "lastName": "Malik",
+            "firstName": "Safarina",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7258-2586"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Diversity and Disease Laboratory, Mochtar Riady Institute of Nanotechnology, Tangerang 15811, Indonesia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sudoyo H",
+            "lastName": "Sudoyo",
+            "firstName": "Herawati",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7567-4929"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genome Diversity and Disease Laboratory, Mochtar Riady Institute of Nanotechnology, Tangerang 15811, Indonesia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McCarthy DJ",
+            "lastName": "McCarthy",
+            "firstName": "Davis",
+            "initials": "DJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2218-6833"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Melbourne Integrative Genomics, University of Melbourne, Parkville, VIC 3010, Australia"
+                },
+                {
+                  "affiliation": "Bioinformatics and Cellular Genomics, St Vincents Institute of Medical Research, Fitzroy, Victoria 3065, Australia"
+                },
+                {
+                  "affiliation": "School of Mathematics and Statistics, Faculty of Science, University of Melbourne, Parkville, VIC 3010, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Romero IG",
+            "lastName": "Romero",
+            "firstName": "Irene Gallego",
+            "initials": "IG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1613-8998"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of BioSciences, University of Melbourne, Parkville, VIC 3010, Australia"
+                },
+                {
+                  "affiliation": "Melbourne Integrative Genomics, University of Melbourne, Parkville, VIC 3010, Australia"
+                },
+                {
+                  "affiliation": "Human Genomics and Evolution, St Vincent’s Institute of Medical Research, Fitzroy, Victoria, 3065, Australia"
+                },
+                {
+                  "affiliation": "Centre for Genomics, Evolution and Medicine, Institute of Genomics, University of Tartu, Tartu 51010, Estonia"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6236-9418"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2218-6833"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3262-2248"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7258-2586"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7567-4929"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9722-4048"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1613-8998"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "One of the regulatory mechanisms influencing the functional capacity of genes is alternative splicing (AS). Previous studies exploring the splicing landscape of human tissues have shown that AS has contributed to human biology, especially in disease progression and the immune response. Nonetheless, this phenomenon remains poorly characterised across human populations, and it is unclear how genetic and environmental variation contribute to alternative splicing. Here, we examine a set of 115 Indonesian samples from three traditional island populations spanning the genetic ancestry cline that characterizes Island Southeast Asia. We conduct a global AS analysis between islands to ascertain the degree of functionally significant AS events and their consequences. Using a hierarchical event-based statistical model, we detected over 1,000 significant differential AS events across all comparisons. Additionally, we identify over 6,000 genetic variants associated with changes in splicing (splicing quantitative trait loci; sQTLs), some of which are driven by Papuan-like genetic ancestry, and only show partial overlap with other publicly available sQTL datasets derived from other populations. Computational predictions of RNA binding activity revealed that a fraction of these sQTLs directly modulate the binding propensity of proteins involved in the splicing regulation of immune genes. Overall, these results contribute towards elucidating the role of genetic variation in shaping gene regulation in one of the most diverse regions in the world.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.05.07.593052"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.05.07.593052"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR849497"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR849497&type=FILE&fileName=EMS196049-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39383868",
+            "reference": "American journal of human genetics. 2024 Nov;111(11):2458-2477",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196049",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp",
+          "pfam",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-05-10",
+      "firstPublicationDate": "2024-05-08",
+      "firstIndexDate": "2024-05-10",
+      "fullTextReceivedDate": "2024-06-01",
+      "hasEvaluations": "N"
+    }
+  }
+}

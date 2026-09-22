@@ -1,0 +1,88 @@
+## Review setup
+
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors report a comparative computational study of the SARS-CoV-2 Delta and Omicron variant spike proteins, concluding that Omicron has higher binding affinity for human ACE2, greater structural stability, and a disorder-order transition in the RBD region 468-473, with specific mutations contributing to these properties.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical results provided
+- **Missing materials affecting confidence** Full manuscript, methods description, docking scores, structural analysis details, statistical measures, and all figures or tables
+
+## Reviewer
+
+- **Overall assessment** The abstract presents a plausible computational study with potentially interesting findings, but the evidence base is entirely insufficient to evaluate the validity of the claims. No quantitative data, methodological details, or validation metrics are provided. The conclusions are stated as definitive without supporting numbers or statistical context. The work may have merit, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Structural biologists and virologists studying SARS-CoV-2 evolution, computational biologists working on protein-protein interaction prediction, and researchers investigating variant-specific differences in ACE2 binding. The findings could inform hypotheses about Omicron transmissibility, though the authors correctly note that epidemiological consequences require separate study.
+- **Major strengths** The study addresses a timely and important question about a newly emerged variant of concern. The focus on specific mutations and their potential contribution to binding affinity is mechanistically relevant. The authors appropriately acknowledge that transmission and severity remain unknown and that future epidemiological studies are needed.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the Omicron variant had a higher affinity for human ACE2 than the Delta variant based on computational studies
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No docking scores, binding free energies, or any quantitative comparison metrics are reported. The abstract states the finding without presenting the numerical basis for the comparison.
+  - **Why it matters** Binding affinity comparisons in computational studies are highly dependent on the scoring function, docking protocol, and system preparation. Without quantitative results, the reader cannot assess whether the difference is meaningful or within error.
+  - **Resolution test** Provide docking scores or binding free energy values for both variants with appropriate error estimates and statistical significance testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that Q493R, N501Y, S371L, S373P, S375F, Q498R, and T478K mutations contribute significantly to high binding affinity with human ACE2
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe how this contribution was determined. No mutagenesis studies, per-residue decomposition analysis, or comparative docking of individual mutants are described.
+  - **Why it matters** Attributing binding affinity to specific mutations requires systematic analysis, such as alanine scanning or per-residue energy decomposition. Without this, the claim is unsupported.
+  - **Resolution test** Describe the method used to attribute affinity contributions to individual mutations and present the corresponding quantitative results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that Omicron has a higher percentage of alpha-helix structure than Delta in both whole spike protein and RBD, indicating a more stable structure
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No secondary structure prediction method, percentage values, or comparison data are provided. The inference from alpha-helix content to structural stability is not established and requires additional evidence such as molecular dynamics simulations or free energy calculations.
+  - **Why it matters** Secondary structure composition alone is a weak proxy for stability. The claim conflates compositional features with thermodynamic stability without supporting data.
+  - **Resolution test** Provide the secondary structure percentages for both variants, the method used, and stability measurements or simulations that directly support the stability inference.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim of a disorder-order transition in the Omicron variant between spike protein RBD regions 468-473
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No disorder prediction method, scores, or comparison with the Delta variant are presented. The significance of this transition for stability and binding is asserted without evidence.
+  - **Why it matters** Disorder-order transitions can be functionally relevant, but the claim requires quantitative disorder scores and a clear demonstration of the transition and its functional impact.
+  - **Resolution test** Provide disorder prediction scores for both variants across the RBD, show the transition explicitly, and present analysis linking it to stability or binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract moves from background to results without clearly stating the computational methods used, making it difficult for nonspecialists to understand the basis of the findings.
+  - **Required correction** Add a brief statement of the computational approach used, such as molecular docking and structural prediction methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextual framing
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not compare the findings with existing literature on Delta variant ACE2 binding or prior computational studies of variant spike proteins.
+  - **Required correction** Add a sentence contextualizing the results within prior computational and experimental studies of variant binding.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Mutation list
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The list of mutations includes N501Y, which is also present in other variants, but the abstract does not clarify whether the contribution is unique to Omicron or shared.
+  - **Required correction** Clarify whether the mutation contributions are Omicron-specific or general features of variants carrying these mutations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative data and methodological detail means that none of the central claims can be verified from the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of comparing Delta and Omicron computationally is not novel in itself, though the specific focus on Omicron at this early stage has some timeliness. The originality cannot be fully assessed without the full manuscript.
+  - Scientific importance: The question of Omicron binding affinity is important, but the abstract does not demonstrate that the findings advance understanding beyond what is already known or predicted from sequence analysis.
+  - Interdisciplinary readership: The topic could interest structural biologists, virologists, and computational biologists, but the abstract lacks sufficient detail to engage these diverse audiences effectively.
+  - Technical soundness: Not assessable from the abstract. The absence of methods and quantitative results is a critical deficiency.
+  - Readability for nonspecialists: The abstract is generally readable but lacks methodological context that would help nonspecialists interpret the claims.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible hypotheses but no verifiable results. A full manuscript with quantitative data and methodological detail would be required to assess whether the claims are supported.
+
+## Risk / unsupported claims
+
+- The claim of higher ACE2 binding affinity for Omicron compared to Delta is unsupported without docking scores or binding free energies.
+- The attribution of binding affinity to specific mutations is unsupported without per-residue analysis or mutagenesis data.
+- The claim of greater structural stability based on alpha-helix content is unsupported and the inference is not justified.
+- The disorder-order transition claim is unsupported without disorder prediction scores and comparative data.
+- The statement that hydrophobic amino acids are required for structural stability is an oversimplification presented without evidence specific to this system.

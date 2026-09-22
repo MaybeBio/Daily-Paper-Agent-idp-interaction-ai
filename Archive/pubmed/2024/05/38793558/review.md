@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, acknowledgments) as provided by the user.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the reported findings. No assessment of editorial fit or publication venue suitability beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors investigate the molecular interactions of the CMV 2b protein with the viral 1a replicase component and the host RNA silencing factor AGO1. Using deletion and substitution mutants, they identify residues 56–60 as critical for 2b-1a complex formation and residues 39–60 as important for 2b-AGO1 interaction. They also present biophysical data (CD and NMR) on the secondary structure of the 2b protein, with conflicting results regarding intrinsic disorder, and propose that intrinsic disorder may explain the multifunctional nature of the 2b protein.
+- **Visible evidence base** Methods sections 2.1–2.6; Results sections 3.1–3.5; Figures 1–10 (referenced but not shown); Supplementary Figures S1–S12 and Table S1 (referenced but not shown); Discussion sections 4.1–4.6.
+- **Missing materials affecting confidence** Figures and supplementary materials are referenced but not provided. Specific numerical data (e.g., quantification of colocalization, statistical outputs, NMR spectral assignments, CD curve details) are not available. This limits independent verification of the reported results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and under-explored question in plant virology: the molecular determinants of CMV 2b protein interactions with 1a and AGO1. The experimental approach is systematic, combining mutagenesis, colocalization, BiFC, and co-immunoprecipitation. The identification of residues 56–60 as important for 1a binding is a useful advance. However, the study is largely descriptive and confirmatory, and the central claim regarding intrinsic disorder is weakened by conflicting biophysical data that the authors themselves acknowledge are unresolved. The manuscript would benefit from more quantitative analyses and a clearer resolution of the CD-NMR discrepancy before the disorder hypothesis can be considered established.
+- **Who would be interested in the results, and why** Plant virologists studying viral suppressor proteins and host-virus interactions, particularly those focused on RNA silencing pathways and CMV biology. Researchers interested in intrinsically disordered proteins in viral contexts may also find the structural predictions of interest, though the unresolved biophysical data limit the impact for this audience.
+- **Major strengths** 1. Systematic mutagenesis approach covering N-terminal, C-terminal, and internal deletions. 2. Use of multiple complementary assays (colocalization, BiFC, co-IP) to validate interactions. 3. First report of biophysical characterization (CD, NMR) of a CMV 2b protein. 4. Clear identification of residues 56–60 as a key determinant for 1a interaction, with corroborating evidence from three independent methods.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CD and NMR data provide experimental insights into the secondary structure of the 2b protein, with CD suggesting >50% disorder and NMR indicating a largely α-helical structure.
+  - **Evidence pointer** Section 3.5, Figures 9 and 10
+  - **Concern** The CD and NMR results are directly contradictory regarding the extent of intrinsic disorder. The authors suggest a salt-dependent explanation but provide no experimental test of this hypothesis. Without resolving this discrepancy, the claim that the 2b protein may be intrinsically disordered is not supported by the presented data. The manuscript does not establish which technique provides the more reliable structural information under physiologically relevant conditions.
+  - **Why it matters** The intrinsic disorder hypothesis is a central interpretive framework in the Discussion, used to explain the multifunctional nature of the 2b protein. If the biophysical evidence is ambiguous, this framework remains speculative and weakens the overall conceptual contribution.
+  - **Resolution test** The authors should perform CD and NMR under matched buffer conditions (e.g., with and without salt) to directly test the salt-dependence hypothesis. Alternatively, they should present additional evidence (e.g., size-exclusion chromatography, dynamic light scattering) to characterize the conformational state of the protein under the conditions used for each technique.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that residues 56–60 are "required" for the 2b-1a interaction and that this region is a "major determinant" of binding.
+  - **Evidence pointer** Section 3.2, Figures 2–4
+  - **Concern** The data show that deletion or alanine substitution of residues 56–60 abolishes or weakens the interaction, but the chimeric 2bLS/Fny56–60 protein (where the Fny sequence is replaced with the LS sequence) still retains some interaction with 1a. This suggests that residues 56–60 are important but not solely sufficient, and the claim of "required" may be overstated. The authors acknowledge this partially but do not fully reconcile the chimeric result with their conclusion.
+  - **Why it matters** Overstating the role of a specific region can mislead future studies aimed at dissecting the molecular basis of the interaction. A more nuanced interpretation would strengthen the manuscript's scientific accuracy.
+  - **Resolution test** The authors should clarify whether the chimeric protein's residual interaction is statistically significant and discuss what this implies for the contribution of other regions. They could also test whether residues 56–60 alone (e.g., in a minimal peptide) can bind 1a.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "mutant proteins were visualized with RFP or GFP tags (Figure S2) and were all able to form homodimers with full-length Fny-CMV 2b protein molecules (Figure S3)," suggesting stability and functionality of the mutants.
+  - **Evidence pointer** Section 3.1, Figures S2 and S3
+  - **Concern** The supplementary figures are not provided, so the quality of the expression and dimerization data cannot be assessed. The authors do not report quantitative measures of protein stability (e.g., half-life, expression levels relative to wild-type). If some mutants are poorly expressed or misfolded, the loss of interaction could be an artifact of reduced protein availability rather than a specific disruption of the binding interface.
+  - **Why it matters** The interpretation of all interaction assays depends on the mutants being properly folded and expressed at comparable levels. Without this control, the conclusions about specific residues may be confounded.
+  - **Resolution test** The authors should provide quantitative expression data (e.g., western blot band intensities normalized to a loading control) for all mutants used in the interaction assays. They should also confirm that the mutants retain at least one known function (e.g., RNA silencing suppression) to demonstrate proper folding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Section 1
+  - **Evidence pointer** Location not provided
+  - **Issue** The introduction assumes familiarity with RNA silencing pathways and CMV biology. Terms such as "P-bodies," "Janus protein," and "phase separation" are introduced without brief definitions for readers outside the immediate field.
+  - **Required correction** Add brief explanations or a glossary for these terms to improve accessibility for a broader readership.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 2.6
+  - **Evidence pointer** Location not provided
+  - **Issue** The NMR experiments are described as "1H NMR spectra" and "2D NOESY" and "2D TOCSY," but no details are given on data acquisition parameters, processing, or how secondary structure was inferred from the spectra. The statement that NMR "detected few signals indicative of intrinsically disordered regions" is not supported by any spectral analysis details.
+  - **Required correction** Provide a more detailed description of the NMR data collection and analysis, including how disorder was assessed (e.g., chemical shift indexing, peak dispersion) and how the α-helical content was quantified.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, Section 4.6
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of intrinsic disorder as an explanation for the 2b protein's multifunctionality is speculative and lists many potential interactors without experimental evidence linking them to disorder. This section reads more like a perspective than a data-driven discussion.
+  - **Required correction** Focus the discussion on what the current data can support, and clearly distinguish between hypotheses and established findings. Consider moving the broader speculation to a "future directions" paragraph.
+- **Technical failings that need to be addressed before the case is established** 1. The CD-NMR discrepancy must be resolved or explicitly acknowledged as unresolved with a clear path forward. 2. Quantitative expression and stability data for all mutants are needed to rule out artifacts. 3. The claim that residues 56–60 are "required" for 1a interaction should be tempered given the chimeric protein's residual activity. 4. NMR methodology needs more detail to support the structural conclusions.
+- **Assessment against Nature-style criteria** Originality: Moderate. The study provides new data on specific residues involved in 2b-1a and 2b-AGO1 interactions, but the overall concept of 2b as a multifunctional suppressor is well established. Scientific importance: Moderate. The findings refine our understanding of CMV 2b interactions but do not fundamentally alter current models. Interdisciplinary readership: Limited. The work is primarily of interest to plant virologists and RNA silencing researchers; the structural biology aspects are not developed enough to attract a broader audience. Technical soundness: Adequate for the interaction assays, but the biophysical data are incomplete and internally inconsistent. Readability for nonspecialists: Acceptable but could be improved with better definitions of specialized terms.
+- **Recommendation posture** Supportive if technical concerns are resolved. The interaction data are valuable and the identification of residues 56–60 is a useful contribution. However, the intrinsic disorder claims are not currently supported by the conflicting biophysical evidence, and the manuscript would need to address the technical issues outlined above before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that the 2b protein contains intrinsically disordered regions is unsupported due to the unresolved CD-NMR discrepancy.
+- The claim that residues 56–60 are "required" for the 2b-1a interaction is overstated given the chimeric protein's residual interaction.
+- The suggestion that phase separation of the 2b protein is linked to its localization in P-bodies and nucleoli is speculative and not directly tested.
+- The statement that the 2b protein's multifunctionality may be explained by intrinsic disorder is a hypothesis without direct experimental support.

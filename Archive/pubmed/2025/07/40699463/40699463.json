@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "40699463",
+    "doi": "10.1007/s12672-025-03129-3",
+    "title": "A phase separation-related gene signature for prognosis prediction and immunotherapy response evaluation in gastric cancer with targeted natural compound discovery."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Aberrant phase separation (PS) has emerged as a pivotal pathogenic mechanism in cancer development. However, its prognostic significance and influence on the tumor immune microenvironment in gastric cancer (GC) remain largely unexplored. This study aimed to develop a PS-related risk model for predicting clinical outcomes and immunotherapy response, and to identify potential natural small-molecule compounds targeting proteins within this PS-related network. METHODS: We integrated transcriptomic data from the TCGA-STAD and GSE62254 datasets with four PS-related databases (including DrLLPS, PhaSepDB, PhaSePro, and LLPSDB) to identify candidate signature genes. The prognostic model was developed using least absolute shrinkage and selection operator (LASSO) regression and validated in both cohorts. Immune checkpoint inhibitor (ICI) response between PS-related high- and low-risk groups was evaluated using TIDE algorithm scores. Potential therapeutic agents targeting signature genes were screened via Connectivity Map and HERB database analyses, followed by molecular docking validation. RESULTS: By Integrating analysis of the differential expression dataset from TCGA-STAD (n = 407, 375 tumor/32 normal) with prognosis-related dataset and PS-related dataset, we identified 78 candidate genes and developed a robust 21-gene risk prediction model. The model effectively stratified GC patients into high-risk and low-risk subgroups, with consistent performance in the independent GSE62254 validation cohort (n = 300, tumor). Compared to low-risk patients, high-risk patients exhibited poorer survival, a more immunosuppressive microenvironment, and a reduced response to immunotherapy. Moreover, computational screening identified 18 potential therapeutic natural compounds, 13 of which showed high-affinity binding to signature genes (docking scores > 6.0). CONCLUSIONS: Our study developed a novel PS-related risk model that predicts GC outcomes, characterizes tumor immune microenvironment, evaluates immunotherapy response, and identifies targeting small molecules. These findings advance the understanding of PS regulation in GC and provide a framework for personalized therapy.",
+    "keywords": [
+      "Gastric cancer",
+      "Immunotherapy response",
+      "Natural small molecules",
+      "Phase separation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jia, Yanjuan",
+        "Ma, Yuanyuan",
+        "Li, Zhenhao",
+        "Zhang, Wenze",
+        "Lu, Rukun",
+        "Wang, Wanxia",
+        "Wei, Chaojun",
+        "Wei, Chunyan",
+        "Li, Yonghong",
+        "Gao, Xiaoling",
+        "Qu, Tao"
+      ],
+      "short_names": [
+        "Jia Y",
+        "Ma Y",
+        "Li Z",
+        "Zhang W",
+        "Lu R",
+        "Wang W",
+        "Wei C",
+        "Wei C",
+        "Li Y",
+        "Gao X",
+        "Qu T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Donggang West Road 204, Chengguan District, Lanzhou, 730000, Gansu, China.",
+        "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, 730000, China.",
+        "The Second Department of Critical Care Medicine, Xi'an Daxing Hospital, Xi'an, 710000, China.",
+        "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Donggang West Road 204, Chengguan District, Lanzhou, 730000, Gansu, China.",
+        "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, 730000, China.",
+        "The First School of Clinical Medicine, Lanzhou University, Lanzhou, 730000, China.",
+        "The School of Public Health, Gansu University of Chinese Medicine, Lanzhou, 730000, China.",
+        "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Donggang West Road 204, Chengguan District, Lanzhou, 730000, Gansu, China.",
+        "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, 730000, China.",
+        "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Donggang West Road 204, Chengguan District, Lanzhou, 730000, Gansu, China.",
+        "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, 730000, China.",
+        "Gansu Provincial Hospital, Lanzhou, 730000, China.",
+        "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Donggang West Road 204, Chengguan District, Lanzhou, 730000, Gansu, China. Liyonghong-gsph@hotmail.com.",
+        "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, 730000, China. Liyonghong-gsph@hotmail.com.",
+        "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan Medical University, Haikou, 570100, China. gaoxl008@hotmail.com.",
+        "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Donggang West Road 204, Chengguan District, Lanzhou, 730000, Gansu, China. qutao1720@163.com.",
+        "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, 730000, China. qutao1720@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jia, Yanjuan",
+        "short_name": "Jia Y",
+        "identifiers": [],
+        "affiliations": [
+          "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Donggang West Road 204, Chengguan District, Lanzhou, 730000, Gansu, China.",
+          "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yuanyuan",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Second Department of Critical Care Medicine, Xi'an Daxing Hospital, Xi'an, 710000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhenhao",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Donggang West Road 204, Chengguan District, Lanzhou, 730000, Gansu, China.",
+          "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wenze",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "The First School of Clinical Medicine, Lanzhou University, Lanzhou, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Rukun",
+        "short_name": "Lu R",
+        "identifiers": [],
+        "affiliations": [
+          "The School of Public Health, Gansu University of Chinese Medicine, Lanzhou, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wanxia",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Donggang West Road 204, Chengguan District, Lanzhou, 730000, Gansu, China.",
+          "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Chaojun",
+        "short_name": "Wei C",
+        "identifiers": [],
+        "affiliations": [
+          "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Donggang West Road 204, Chengguan District, Lanzhou, 730000, Gansu, China.",
+          "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Chunyan",
+        "short_name": "Wei C",
+        "identifiers": [],
+        "affiliations": [
+          "Gansu Provincial Hospital, Lanzhou, 730000, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yonghong",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Donggang West Road 204, Chengguan District, Lanzhou, 730000, Gansu, China. Liyonghong-gsph@hotmail.com.",
+          "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, 730000, China. Liyonghong-gsph@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Gao, Xiaoling",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "The Clinical Laboratory Center, Hainan General Hospital, Hainan Affiliated Hospital of Hainan Medical University, Haikou, 570100, China. gaoxl008@hotmail.com."
+        ]
+      },
+      {
+        "full_name": "Qu, Tao",
+        "short_name": "Qu T",
+        "identifiers": [],
+        "affiliations": [
+          "NHC Key Laboratory of Diagnosis and Therapy of Gastrointestinal Tumor, Gansu Provincial Hospital, Donggang West Road 204, Chengguan District, Lanzhou, 730000, Gansu, China. qutao1720@163.com.",
+          "The Institute of Clinical Research and Translational Medicine, Gansu Provincial Hospital, Lanzhou, 730000, China. qutao1720@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Discover oncology"
+    ],
+    "journal_abbrev": [
+      "Discov Oncol"
+    ],
+    "pub_date": "2025 Jul 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/23 12:32",
+    "fetched_at": "2026-09-21 21:23:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39923010",
+      "39611496",
+      "39565874",
+      "39397869",
+      "39290787",
+      "39024555",
+      "38936362",
+      "38881912",
+      "38870879",
+      "38849013",
+      "38653238",
+      "38287304",
+      "38203448",
+      "37950040",
+      "37894443",
+      "37413850",
+      "36982591",
+      "36967033",
+      "36738481",
+      "36692643",
+      "36395739",
+      "36229685",
+      "35947016",
+      "35483665",
+      "35370699",
+      "35273618",
+      "35149762",
+      "35093128",
+      "34934344",
+      "34819791",
+      "34508993",
+      "34432948",
+      "34160112",
+      "34049561",
+      "33682294",
+      "33606996",
+      "33583140",
+      "33538338",
+      "33333052",
+      "32861308",
+      "32822580",
+      "32554597",
+      "32548680",
+      "32205841",
+      "32140928",
+      "30944869",
+      "30682370",
+      "28828709",
+      "28277581",
+      "25678126",
+      "25673059",
+      "22137869",
+      "21871133",
+      "19499576",
+      "18005483"
+    ],
+    "similar": [
+      "40699463",
+      "36336725",
+      "34413861",
+      "40460484",
+      "39810215",
+      "36226177",
+      "41486495",
+      "38226313",
+      "40963862",
+      "35958598",
+      "37889617",
+      "39749345",
+      "34692770",
+      "40777041",
+      "36918943",
+      "40729021",
+      "41407509",
+      "35845527",
+      "39110142",
+      "39165353",
+      "36090054",
+      "39353384",
+      "38402299",
+      "41252049",
+      "34993253",
+      "38066437",
+      "34382341",
+      "40524099",
+      "34917132",
+      "37201041",
+      "38356551",
+      "39606245",
+      "39145046",
+      "37936456",
+      "39259065",
+      "36033441",
+      "36405735",
+      "38235137",
+      "36639648",
+      "38577455",
+      "39830760",
+      "39939808",
+      "38436027",
+      "34179006",
+      "39333689",
+      "38143740",
+      "35991578",
+      "41031088",
+      "37492563",
+      "39507529",
+      "35517856",
+      "37650991",
+      "36911744",
+      "36189298",
+      "36186426",
+      "39816024",
+      "39853414",
+      "40792157",
+      "41293150",
+      "40438115",
+      "41081048",
+      "40838069",
+      "39669362",
+      "38546403",
+      "38274323",
+      "32519178",
+      "39385415",
+      "37457685",
+      "35144613",
+      "40226479",
+      "39841334",
+      "35392086",
+      "40697523",
+      "38518167",
+      "38279987",
+      "39470826",
+      "34249086",
+      "39964966",
+      "35812244",
+      "39248067",
+      "41158217",
+      "35664335",
+      "39690336",
+      "36536232",
+      "34341184",
+      "41158253",
+      "35621244",
+      "41234844",
+      "41208974",
+      "36479114",
+      "40458412",
+      "39252063",
+      "34195091",
+      "34706720",
+      "41208987",
+      "36422531",
+      "36059494",
+      "39296112",
+      "36712672",
+      "39150637"
+    ],
+    "review": [
+      "40699463",
+      "36405735"
+    ],
+    "pmc": [
+      "12287496"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40699463/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

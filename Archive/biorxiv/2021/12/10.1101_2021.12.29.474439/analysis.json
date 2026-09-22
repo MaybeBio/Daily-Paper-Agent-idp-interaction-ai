@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.12.29.474439",
+  "title": "Capturing a crucial ‘disorder-to-order transition’ at the heart of the coronavirus molecular pathology – triggered by highly persistent, interchangeable salt-bridges",
+  "authors": "Roy S; Ghosh P; Bandyopadhyay A; Basu S",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-29",
+  "window": {
+    "start": "2021-12-27",
+    "end": "2022-01-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过分子动力学模拟捕捉SARS-CoV-2刺突蛋白FLCS无序区域与Furin结合时的无序-有序转变及动态盐桥网络，揭示病毒PPI的机制性病理基础，与本课题的IDR介导互作机制建模高度契合。",
+  "abstract": "The COVID-19 origin debate has greatly been influenced by Genome comparison studies of late, revealing the seemingly sudden emergence of the Furin-Like Cleavage Site at the S1/S2 junction of the SARS-CoV-2 Spike (FLCS Spike ) containing its 681 PRRAR 685 motif, absent in other related respiratory viruses. Being the rate-limiting (i.e., the slowest) step, the host Furin cleavage is instrumental in the abrupt increase in transmissibility in COVID-19, compared to earlier onsets of respiratory viral diseases. In such a context, the current paper entraps a ’disorder-to-order transition’ of the FLCS Spike (concomitant to an entropy arrest) upon binding to Furin. The interaction clearly seems to be optimized for a more efficient proteolytic cleavage in SARS-CoV-2. The study further shows the formation of dynamically interchangeable and persistent networks of salt-bridges at the Spike–Furin interface in SARS-CoV-2 involving the three arginines (R682, R683, R685) of the FLCS Spike with several anionic residues (E230, E236, D259, D264, D306) coming from Furin, strategically distributed around its catalytic triad. Multiplicity and structural degeneracy of plausible salt-bridge network archetypes seems the other key characteristic features of the Spike–Furin binding in SARS-CoV-2 allowing the system to breathe – a trademark of protein disorder transitions. Interestingly, with respect to the homologous interaction in SARS-CoV (2002/2003) taken as a baseline, the Spike–Furin binding events generally in the coronavirus lineage seems to have a preference for ionic bond formation, even with lesser number of cationic residues at their potentially polybasic FLCS Spike patches. The interaction energies are suggestive of a characteristic metastabilities attributed to Spike–Furin interactions generally to the coronavirus lineage – which appears to be favorable for proteolytic cleavages targeted at flexible protein loops. T he current findings not only offer novel mechanistic insights into the coronavirus molecular pathology and evolution but also add substantially to the existing theories of proteolytic cleavages.",
+  "abstract_zh": "COVID-19起源的争论近来受到基因组比较研究的极大影响，这些研究揭示了SARS-CoV-2刺突蛋白S1/S2连接处弗林样切割位点（FLCS Spike）的看似突然出现，其包含681 PRRAR 685基序，而在其他相关呼吸道病毒中不存在。作为限速（即最慢）步骤，宿主弗林切割在COVID-19传播性急剧增加中起关键作用，相较于早期呼吸道病毒疾病的暴发。在此背景下，本文捕捉了FLCS Spike在与弗林结合时发生的“无序到有序转变”（伴随熵停滞）。该相互作用显然为SARS-CoV-2中更高效蛋白水解切割而优化。研究进一步显示，在SARS-CoV-2中，Spike–Furin界面形成了动态可互换且持久的盐桥网络，涉及FLCS Spike的三个精氨酸（R682、R683、R685）与来自弗林的多个阴离子残基（E230、E236、D259、D264、D306），这些残基策略性地分布在其催化三联体周围。可能盐桥网络原型的多重性和结构简并性似乎是SARS-CoV-2中Spike–Furin结合的其他关键特征，允许系统“呼吸”——这是蛋白质无序转变的标志。有趣的是，以SARS-CoV（2002/2003）中的同源相互作用为基线，冠状病毒谱系中Spike–Furin结合事件通常倾向于离子键形成，即使其潜在多碱性FLCS Spike补丁上的阳离子残基数量较少。相互作用能量提示，Spike–Furin相互作用通常具有特征性亚稳定性，归因于冠状病毒谱系——这似乎有利于针对柔性蛋白环的蛋白水解切割。当前发现不仅为冠状病毒分子病理学和进化提供了新颖的机制见解，而且显著丰富了现有的蛋白水解切割理论。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.12.29.474439",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.12.29.474439",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.12.29.474439/index.html"
+}

@@ -1,0 +1,229 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.25.661537",
+  "title": "Protein Dynamics at Different Timescales Unlock Access to Hidden Post-Translational Modification Sites",
+  "doi": "10.1101/2025.06.25.661537",
+  "abstract": "<h4>Summary</h4> Post-translational modifications (PTMs) alter the proteome in response to intra- and extracellular signals, providing fundamental information processing in development, homeostasis and disease 1–5 . Here, we used proteome-wide structure predictions to investigate the structural context of protein modification sites and found nearly a fifth to be buried within proteins 6 . These cryptic sites within folded domains showed evolutionary conservation across species, as well as significantly less variability within the human population. We also found significantly more modification sites to be affected by recurrent cancer mutations and disease variants, with some variants appearing to mimic the modified or unmodified state, supporting their functionality and disease relevance. To understand how these buried sites become modified, we studied 23 phosphorylation sites across seven proteins using all-atom molecular dynamics simulations. The simulations revealed a range of mechanisms spanning broad timescales, ranging from picosecond fluctuations to seconds for proline isomerisation-gated phosphorylation sites. Notably, some sites remained fully buried in the native structure. Some conformational states with exposed cryptic sites resembled structures of co-translational protein folding intermediates formed on the ribosome 7 , indicating an interplay between protein biogenesis, folding, modifications, and signalling. We propose more broadly that protein conformational fluctuations may serve as structure-specific regulatory mechanisms by kinetically burying or exposing the unmodified, and in some cases even modified, sidechains, thereby expanding the functional versatility of proteins and enabling signal transduction across diverse timescales.",
+  "authors": [
+    "Lang B",
+    "Streit JO",
+    "Kriwacki RW",
+    "Christodoulou J",
+    "Babu MM"
+  ],
+  "published_date": "2025-06-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661537",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661537.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1043248",
+    "raw_record": {
+      "id": "PPR1043248",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1043248"
+        ]
+      },
+      "doi": "10.1101/2025.06.25.661537",
+      "title": "Protein Dynamics at Different Timescales Unlock Access to Hidden Post-Translational Modification Sites",
+      "authorString": "Lang B, Streit JO, Kriwacki RW, Christodoulou J, Babu MM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lang B",
+            "lastName": "Lang",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6358-8380"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center of Excellence for Data-Driven Discovery, Department of Structural Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Streit JO",
+            "lastName": "Streit",
+            "firstName": "Julian",
+            "initials": "JO",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6114-3636"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kriwacki RW",
+            "lastName": "Kriwacki",
+            "firstName": "Richard",
+            "initials": "RW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9798-6018"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural Biology, , , ,"
+                },
+                {
+                  "affiliation": "Department of Microbiology, Immunology and Biochemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Christodoulou J",
+            "lastName": "Christodoulou",
+            "firstName": "John",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Babu MM",
+            "lastName": "Babu",
+            "firstName": "Madan",
+            "initials": "MM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center of Excellence for Data-Driven Discovery, Department of Structural Biology, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6114-3636"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6358-8380"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9798-6018"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Summary</h4>  Post-translational modifications (PTMs) alter the proteome in response to intra- and extracellular signals, providing fundamental information processing in development, homeostasis and disease  1–5 . Here, we used proteome-wide structure predictions to investigate the structural context of protein modification sites and found nearly a fifth to be buried within proteins  6 . These cryptic sites within folded domains showed evolutionary conservation across species, as well as significantly less variability within the human population. We also found significantly more modification sites to be affected by recurrent cancer mutations and disease variants, with some variants appearing to mimic the modified or unmodified state, supporting their functionality and disease relevance. To understand how these buried sites become modified, we studied 23 phosphorylation sites across seven proteins using all-atom molecular dynamics simulations. The simulations revealed a range of mechanisms spanning broad timescales, ranging from picosecond fluctuations to seconds for proline isomerisation-gated phosphorylation sites. Notably, some sites remained fully buried in the native structure. Some conformational states with exposed cryptic sites resembled structures of co-translational protein folding intermediates formed on the ribosome  7 , indicating an interplay between protein biogenesis, folding, modifications, and signalling. We propose more broadly that protein conformational fluctuations may serve as structure-specific regulatory mechanisms by kinetically burying or exposing the unmodified, and in some cases even modified, sidechains, thereby expanding the functional versatility of proteins and enabling signal transduction across diverse timescales.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "206409/Z/17/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/06/27/2025.06.25.661537.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.06.25.661537"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1043248"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1043248&type=FILE&fileName=EMS207031-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207031",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-06-29",
+      "firstPublicationDate": "2025-06-27",
+      "firstIndexDate": "2025-06-29",
+      "fullTextReceivedDate": "2025-07-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors propose that non-fibrillar prion protein oligomers and transient assembly intermediates can store and transmit folding information during early assembly, acting as autonomous conformational templates and potential oligomer-based secondary nucleation platforms, thereby expanding the prion paradigm beyond fibril-end-mediated templating.
+- **Visible evidence base** Recombinant PrP, rational mutagenesis, hetero-oligomerization assays, arrested reaction conditions, single-particle AFM-IR; domain-resolved analyses identifying a β-sheet-rich B domain as scaffold and a structurally distinct E domain for hierarchical condensation
+- **Missing materials affecting confidence** Full methods, experimental protocols, statistical analyses, all figures and tables, supplementary data, and any quantitative results; only the abstract is available for assessment
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that non-fibrillar oligomers and transient intermediates participate in prion folding information transfer. The proposed modular architecture and the identification of specific domains (B and E) suggest a level of mechanistic detail that could be valuable. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims. Key terms such as "structural complementation," "folding information transfer," and "autonomous conformational templates" are not operationally defined, and no quantitative data are presented to support the central assertions. The claim that these findings "expand the conceptual framework of prion assembly" is plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in prion biology, protein misfolding disorders, amyloid assembly mechanisms, and structural biology would be interested. The work could also appeal to those studying oligomer toxicity and the early events in protein aggregation, as it challenges the classical fibril-centric view and may inform therapeutic strategies targeting early assembly intermediates.
+- **Major strengths** The study addresses a timely and important question in prion biology, namely whether non-fibrillar assemblies can transmit structural information. The use of multiple complementary approaches (mutagenesis, hetero-oligomerization, arrested reactions, AFM-IR) suggests a rigorous experimental design. The identification of a modular oligomeric architecture with distinct functional domains provides a potentially novel framework for understanding early assembly events.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "polymerization-defective PrP variants can be incorporated into oligomeric assemblies through structural complementation, in which folding information supplied by wild-type PrP restores their assembly competence."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states this as a finding but provides no experimental detail, such as the nature of the mutations, the assay readouts, or the degree of restoration. Without these data, it is impossible to assess whether the observed incorporation reflects genuine structural complementation or alternative mechanisms such as co-aggregation without information transfer.
+  - **Why it matters** This claim is foundational to the paper's thesis that non-fibrillar oligomers transmit folding information. If the complementation is not rigorously demonstrated, the entire conceptual framework is weakened.
+  - **Resolution test** Provide quantitative data showing that mutant incorporation is dependent on wild-type PrP in a stoichiometric and structure-specific manner, with appropriate controls excluding non-specific association.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "transient polymerization-competent conformers further contribute to folding information transfer at subcritical concentrations" under arrested reaction conditions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The concept of "subcritical concentrations" and the contribution of transient conformers are not defined or quantified. It is unclear how the authors distinguish between contributions from stable oligomers versus transient species, and what "contribute" means mechanistically.
+  - **Why it matters** This claim extends the model to include transient intermediates, which is a significant departure from the fibril-end model. Without clear experimental evidence, the claim remains speculative.
+  - **Resolution test** Show time-resolved data demonstrating that transient conformers are present at subcritical concentrations and that their depletion abolishes the observed information transfer, with kinetic modeling to support the interpretation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "preformed O1 oligomers act as autonomous conformational templates that promote mutant incorporation and undergo hierarchical condensation through accretion of a structurally distinct E domain."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract introduces O1 oligomers and the B and E domains without prior definition or context. The evidence for "autonomous" templating and "hierarchical condensation" is not presented, and the structural distinction between B and E domains is not substantiated.
+  - **Why it matters** This is the central mechanistic model of the paper. If the domain architecture and templating activity are not clearly demonstrated, the proposed expansion of the prion paradigm lacks a solid foundation.
+  - **Resolution test** Provide structural data (e.g., AFM-IR spectra, domain-specific mutants) showing that B and E domains are functionally distinct and that O1 oligomers can template mutant incorporation in isolation, with dose-response and specificity controls.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Terms such as "folding information," "structural complementation," and "autonomous conformational templates" are used without operational definitions.
+  - **Required correction** Define these terms explicitly in the abstract or introduction, with reference to measurable outcomes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the PrP species (e.g., species, isoform, or truncation) or the exact conditions for hetero-oligomerization and arrested reactions.
+  - **Required correction** Include key experimental parameters in the methods summary or abstract to enable reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Generalization
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that these findings "expand the conceptual framework of prion assembly" implies broad relevance, but the study uses recombinant PrP, which may not fully recapitulate native prion propagation.
+  - **Required correction** Acknowledge the limitations of recombinant systems and discuss potential differences with ex vivo or in vivo prion strains.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or mechanistic evidence to support the central claims of structural complementation, transient conformer contribution, and autonomous templating by O1 oligomers.
+- **Assessment against Nature-style criteria** 
+  - Originality: The hypothesis that non-fibrillar oligomers transmit structural information is a novel extension of the prion paradigm, which is traditionally fibril-centric. This is a potentially original contribution.
+  - Scientific importance: If substantiated, the findings could reshape understanding of prion assembly and inform studies on oligomer toxicity and strain propagation. The importance is high, but contingent on evidence quality.
+  - Interdisciplinary readership: The topic bridges structural biology, biophysics, and neurobiology, and would appeal to a broad audience interested in protein misfolding. However, the abstract's technical density may limit accessibility.
+  - Technical soundness: Cannot be assessed from the abstract alone. The use of AFM-IR and hetero-oligomerization is promising, but no data are shown to evaluate rigor.
+  - Readability for nonspecialists: The abstract is concise but uses jargon without definition, which may hinder comprehension for readers outside the prion field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a compelling hypothesis, but the absence of experimental details and quantitative results prevents a supportive recommendation. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that "non-fibrillar PrP oligomers and transient assembly intermediates can store and transmit folding information" is unsupported in the abstract, as no direct evidence for information storage or transmission is presented.
+- The claim that "O1 oligomers act as autonomous conformational templates" is unsupported without data showing templating activity in isolation.
+- The claim that the findings "may function as oligomer-based secondary nucleation platforms" is speculative and not backed by any experimental evidence in the abstract.
+- The generalizability of the findings to native prion biology is unassessable from the supplied material.

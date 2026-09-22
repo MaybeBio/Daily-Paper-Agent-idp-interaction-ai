@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results and discussion, conclusions) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific claims, methodological soundness, and internal consistency based solely on the provided text; no assessment of figures, tables, or supplementary data that were not supplied
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations (CHARMM36m force field) to show that temperature increases intramolecular contacts and β-sheet content in Aβ42 and α-synuclein monomers, that Aβ42 dimerization and tetramerization at high temperature promotes cross-β-sheet formation involving residues 16–22 and 29–36, and that these same residues mediate both intramolecular and intermolecular β-sheets, suggesting a link between monomer compaction and aggregation propensity
+- **Visible evidence base** Text descriptions of secondary structure distributions, PCA/HDBSCAN clustering, free-energy surfaces, contact maps, hydrogen-bond analyses, and DSSP-based secondary structure assignments; references to Figures 1–5 and Figures S1–S4 (none of which were provided)
+- **Missing materials affecting confidence** All figures, tables, and supplementary information; simulation trajectory details (e.g., convergence metrics beyond PCA variance); force field validation data; specific numerical values for β-sheet fractions, hydrogen-bond counts, and contact distances; DSSP output tables; clustering parameters and stability metrics
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in the amyloid field, namely the relationship between temperature-induced monomer compaction and early oligomerization, with a specific focus on whether the same residues mediate intra- and intermolecular β-sheets. The central hypothesis is biologically relevant and the computational approach is appropriate in principle. However, the evidence as presented in the text is largely qualitative, and the absence of figures and quantitative data prevents verification of the key claims. The claim that intramolecular β-sheet formation is "intrinsically linked" to aggregation propensity is suggestive but not established from the provided material. The manuscript would benefit from clearer quantitative reporting and a more cautious interpretation of the relationship between monomer structure and aggregation outcomes.
+- **Who would be interested in the results, and why** Researchers in the fields of protein misfolding, amyloid aggregation, intrinsically disordered proteins, and computational biophysics. The work is also relevant to those studying the molecular mechanisms of Alzheimer's and Parkinson's diseases, particularly the role of hydrophobic interactions and β-sheet formation in early oligomerization events. The methodological focus on temperature as a driver of conformational change may interest experimentalists using elevated temperatures to accelerate aggregation in vitro.
+- **Major strengths** The study addresses a mechanistically important question that is difficult to probe experimentally, namely the residue-level competition between intramolecular and intermolecular β-sheet formation. The use of multiple independent replicates and extended simulation times (up to 1.5 μs) is commendable. The comparison between two IDPs (Aβ42 and α-syn) with different aggregation behaviors adds breadth. The authors are appropriately cautious in noting that their results do not establish whether monomer compaction is necessary or sufficient for aggregation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The residues that stabilize intramolecular β-sheets in the monomer (approximately sequences 16–22 and 29–36) largely overlap with those that form cross-β-sheet motifs in the aggregates, suggesting that intramolecular β-sheet formation is intrinsically linked to aggregation propensity."
+  - **Evidence pointer** Figures 1, 2, 4, 5; location not provided
+  - **Concern** The central claim of the manuscript, that the same residues mediate both intramolecular and intermolecular β-sheets, is presented without quantitative support in the text. The authors state that residues 16–22 and 29–36 show increased β-sheet propensity in the monomer at 370 K and that cross-β-sheets form in these regions in the dimer and tetramer, but no numerical values (e.g., per-residue β-sheet probabilities, contact frequencies, hydrogen-bond occupancies) are provided. Without these data, the reader cannot assess the strength of the overlap or whether it is statistically meaningful given the conformational heterogeneity of IDPs.
+  - **Why it matters** The claim of shared residues is the primary mechanistic insight of the paper. If the overlap is only partial or occurs in a minority of conformations, the conclusion would be substantially weakened. The qualitative presentation does not allow the reader to distinguish between a robust, reproducible observation and a trend that emerges in a subset of trajectories.
+  - **Resolution test** Provide per-residue β-sheet propensity maps for the monomer, dimer, and tetramer at both temperatures, with confidence intervals across replicates. Quantify the fraction of conformations in which residues 16–22 and 29–36 simultaneously form β-sheet structure in the monomer, and compare this to the frequency of intermolecular β-sheet formation involving these same residues in the dimer and tetramer. A statistical test (e.g., permutation test) should demonstrate that the overlap is non-random.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** "For the isolated monomers, increasing temperature leads to an increase in intramolecular contacts, promoting hydrogen bonding and secondary-structure reorganization toward β-sheet and turn motifs."
+  - **Evidence pointer** Methods section; Figures 1, 2; location not provided
+  - **Concern** The manuscript does not report whether the simulations reached equilibrium or whether the observed temperature-dependent differences are statistically distinguishable given the limited sampling. The authors acknowledge that β-sheet formation occurs on timescales longer than the hydrophobic collapse, yet they do not provide convergence diagnostics (e.g., block averaging, autocorrelation times, replicate-to-replicate variance) for the key observables. The PCA variance values reported (37% and 35% for Aβ42 at 310 and 370 K) are low, which the authors interpret as increased conformational variance at high temperature, but this interpretation requires validation that the sampling is sufficient to capture the relevant conformational space.
+  - **Why it matters** Without evidence of convergence, the observed differences between 310 K and 370 K could reflect incomplete sampling rather than genuine temperature effects. This is particularly concerning for IDPs, which sample highly heterogeneous ensembles and are notoriously difficult to converge in simulations.
+  - **Resolution test** Report convergence metrics for all key observables (e.g., running averages of Rg, β-sheet content, and contact maps as a function of simulation time). Show that replicate-to-replicate variance is small relative to the temperature-dependent differences. Consider extending simulations or using enhanced sampling methods to verify that the qualitative trends are robust.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive caution
+  - **Claim pointer** "These results, in close agreement with earlier NMR measurements of the monomer and protofibrils, reveal a competition between intra- and intermolecular hydrophobic interactions, with intermolecular interactions ultimately becoming more favorable than the intramolecular interactions that stabilize monomer solvation."
+  - **Evidence pointer** Results and Discussion; Conclusions; location not provided
+  - **Concern** The claim of "close agreement" with NMR measurements is not substantiated with specific comparisons. The authors reference earlier NMR studies of Aβ42 monomer and protofibrils but do not describe which specific experimental observables are being compared (e.g., chemical shifts, secondary structure propensities, inter-residue contacts) or how the simulation results quantitatively match these data. The statement that "intermolecular interactions ultimately become more favorable" is presented as a conclusion, but the text does not provide free-energy calculations or thermodynamic analyses that would support this claim.
+  - **Why it matters** The manuscript's significance depends on the claim that the simulations capture biologically relevant behavior. Without explicit validation against experimental data, the reader cannot assess whether the observed temperature effects are an artifact of the force field or simulation protocol. The thermodynamic claim about the relative favorability of inter- versus intramolecular interactions requires free-energy calculations that are not described.
+  - **Resolution test** Provide a quantitative comparison with the cited NMR data, including specific experimental values and simulation-derived predictions (e.g., secondary structure propensities per residue, chemical shift predictions). For the thermodynamic claim, perform free-energy calculations (e.g., potential of mean force along a relevant reaction coordinate) or provide a clear thermodynamic argument based on the simulation data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, PCA description
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The description of the PCA procedure is incomplete. The authors state that dimensionality was restricted to the first two PCs but do not specify whether the covariance matrix was built from all Cα atoms or a subset, whether mass weighting was applied, or how the PCA results were used in the clustering analysis.
+  - **Required correction** Provide a complete description of the PCA protocol, including the atoms used, the covariance matrix construction, and the criteria for selecting the number of PCs for clustering.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section, simulation parameters
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The manuscript does not report the total simulation time per replicate, the number of replicates for each system and temperature, or the criteria for extending simulations (e.g., the 1 μs and 1.5 μs trajectories). This information is essential for assessing sampling adequacy.
+  - **Required correction** Add a table summarizing system composition, simulation length, number of replicates, and any extension criteria for each condition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Results and Discussion, dimerization analysis
+  - **Evidence pointer** Results and Discussion; Figure S1; location not provided
+  - **Issue** The threshold for defining a "contact" (Nc < 20 and Nc ≥ 20) is mentioned but the physical definition of a contact (e.g., heavy-atom distance cutoff) is not stated in the text.
+  - **Required correction** Define the contact criterion explicitly, including the distance cutoff and which atom types are considered.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and Discussion, tetramer analysis
+  - **Evidence pointer** Results and Discussion; Figure 5; location not provided
+  - **Issue** The tetramer analysis is described briefly, and it is unclear how the tetramer was assembled (e.g., from four separate monomers or by dimerization of two dimers) and whether the initial configuration could bias the observed cross-β-sheet formation.
+  - **Required correction** Describe the tetramer construction protocol and discuss potential biases from the initial configuration.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative support for the shared-residue claim), R1-M2 (convergence and sampling adequacy), R1-M3 (validation against experimental data and thermodynamic support for the competition claim)
+- **Assessment against Nature-style criteria**
+  - **Originality** The question of whether the same residues mediate intra- and intermolecular β-sheets in Aβ42 is a valuable and relatively underexplored angle. However, the concept that temperature promotes IDP compaction and aggregation is well established, and the novelty lies primarily in the specific residue-level analysis rather than in the overall phenomenon.
+  - **Scientific importance** The potential link between monomeric β-sheet propensity and aggregation is of considerable interest to the amyloid field. If substantiated with quantitative data, the findings could inform understanding of early oligomerization events. However, the current presentation does not yet establish this link with sufficient rigor.
+  - **Interdisciplinary readership** The topic bridges computational biophysics, protein chemistry, and neurodegeneration research. The writing is generally accessible, though some methodological details (e.g., HDBSCAN, PCA) may be challenging for non-specialists without additional context.
+  - **Technical soundness** The choice of CHARMM36m for IDPs is appropriate, and the use of multiple replicates is good practice. However, the lack of convergence metrics and quantitative reporting undermines confidence in the technical rigor. The force field is known to have limitations in reproducing IDP ensembles, and the authors do not discuss this potential caveat.
+  - **Readability for nonspecialists** The manuscript is clearly written and the logical flow is easy to follow. However, the heavy reliance on figure descriptions without quantitative details in the text makes it difficult for readers to evaluate the strength of the evidence without accessing the figures.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the computational approach is appropriate, but the manuscript currently lacks the quantitative evidence and methodological rigor needed to establish the claims. The authors should provide per-residue data, convergence metrics, and a more cautious interpretation of the relationship between monomer structure and aggregation propensity.
+
+## Risk / unsupported claims
+- The claim that "the residues that stabilize intramolecular β-sheets in the monomer largely overlap with those that form cross-β-sheet motifs in the aggregates" is unsupported without quantitative per-residue data.
+- The claim of "close agreement with earlier NMR measurements" is unverifiable from the provided text, as no specific experimental comparisons are described.
+- The statement that "intermolecular interactions ultimately become more favorable than the intramolecular interactions" is unsupported without free-energy calculations or equivalent thermodynamic analyses.
+- The interpretation that increased conformational variance at 370 K (based on PCA) reflects genuine temperature effects is unverifiable without convergence metrics.
+- The claim that the tetramer adopts a "spherical-like shape" is based on Rg and SASA distributions that are not quantitatively reported.

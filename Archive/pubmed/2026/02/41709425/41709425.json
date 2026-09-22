@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "41709425",
+    "doi": "10.1002/adhm.202505458",
+    "title": "An Artificial Intelligence-Selected Multifunctional Oligopeptide Coated Biphasic Calcium Phosphate (BCP) Scaffold Promotes Bone Defect Repair."
+  },
+  "content": {
+    "abstract": "Bone defects caused by inflammation, trauma, tumor resection, or tooth extraction present persistent clinical challenges, primarily because of the limitations of current bone graft materials and growth factor therapies. In this study, we developed a novel strategy for bone regeneration by integrating AI-driven peptide discovery with bone tissue engineering. Utilizing the Deepeptide platform, we screened and identified bifunctional oligopeptides from intrinsically disordered regions (IDRs) with both osteogenic and angiogenic activities. Among the nine candidates, the most potent peptide was fused with a hydroxyapatite-binding domain via peptide engineering to enhance scaffold coupling and achieve sustained release. The recombinant fusion peptide was then covalently anchored onto biphasic calcium phosphate (BCP) ceramic scaffolds. And evaluations demonstrated that the modified scaffolds significantly promoted osteogenic differentiation of bone marrow mesenchymal stem cells (BMSCs), angiogenic activity of human umbilical vein endothelial cells (HUVECs), and effective bone regeneration and vascularization in vivo. These findings suggest that AI-discovered, functionally integrated oligopeptide-modified BCP ceramics hold promise as next-generation bone graft for repairing critical-sized bone defects.",
+    "keywords": [
+      "BCP scaffolds",
+      "angiogenesis",
+      "artificial intelligence",
+      "bone regeneration",
+      "bone tissue engineering",
+      "oligopeptides"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Oligopeptides/chemistry/pharmacology",
+      "*Tissue Scaffolds/chemistry",
+      "Animals",
+      "Mesenchymal Stem Cells/cytology/metabolism/drug effects",
+      "Human Umbilical Vein Endothelial Cells/metabolism",
+      "*Bone Regeneration/drug effects",
+      "*Hydroxyapatites/chemistry/pharmacology",
+      "Osteogenesis/drug effects",
+      "Tissue Engineering/methods",
+      "Intelligent Systems",
+      "Cell Differentiation/drug effects",
+      "Angiogenesis/drug effects",
+      "Neovascularization, Physiologic/drug effects",
+      "Bone and Bones"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Shiqing",
+        "Liu, Xiaotong",
+        "Xiao, Baichuan",
+        "Xiao, Yujia",
+        "Yang, Yilin",
+        "Ma, Beibei",
+        "Shang, Yucheng",
+        "Zhu, Hao",
+        "Zhou, Yixiang",
+        "Zhang, Yong-Biao",
+        "Deng, Jiayin"
+      ],
+      "short_names": [
+        "Ma S",
+        "Liu X",
+        "Xiao B",
+        "Xiao Y",
+        "Yang Y",
+        "Ma B",
+        "Shang Y",
+        "Zhu H",
+        "Zhou Y",
+        "Zhang YB",
+        "Deng J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9002-4054"
+      ],
+      "affiliations": [
+        "Department of Stomatology, The Second Hospital of Tianjin Medical University, Tianjin, China.",
+        "School and Hospital of Stomatology, Tianjin Medical University, Tianjin, China.",
+        "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, China.",
+        "School and Hospital of Stomatology, Tianjin Medical University, Tianjin, China.",
+        "School and Hospital of Stomatology, Tianjin Medical University, Tianjin, China.",
+        "School and Hospital of Stomatology, Tianjin Medical University, Tianjin, China.",
+        "School and Hospital of Stomatology, Tianjin Medical University, Tianjin, China.",
+        "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, China.",
+        "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, China.",
+        "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, China.",
+        "School and Hospital of Stomatology, Tianjin Medical University, Tianjin, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Shiqing",
+        "short_name": "Ma S",
+        "identifiers": [
+          "0000-0001-9002-4054"
+        ],
+        "affiliations": [
+          "Department of Stomatology, The Second Hospital of Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaotong",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "School and Hospital of Stomatology, Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Baichuan",
+        "short_name": "Xiao B",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Yujia",
+        "short_name": "Xiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "School and Hospital of Stomatology, Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yilin",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School and Hospital of Stomatology, Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Beibei",
+        "short_name": "Ma B",
+        "identifiers": [],
+        "affiliations": [
+          "School and Hospital of Stomatology, Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Yucheng",
+        "short_name": "Shang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School and Hospital of Stomatology, Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Hao",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yixiang",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yong-Biao",
+        "short_name": "Zhang YB",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Big Data-Based Precision Medicine, School of Engineering Medicine, Beihang University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Jiayin",
+        "short_name": "Deng J",
+        "identifiers": [],
+        "affiliations": [
+          "School and Hospital of Stomatology, Tianjin Medical University, Tianjin, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced healthcare materials"
+    ],
+    "journal_abbrev": [
+      "Adv Healthc Mater"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/19 07:02",
+    "fetched_at": "2026-09-18 00:58:41"
+  },
+  "links": {
+    "cites": [
+      "42403544",
+      "42383704"
+    ],
+    "refs": [],
+    "similar": [
+      "41709425",
+      "41430715",
+      "41963944",
+      "29242161",
+      "39494694",
+      "28098961",
+      "42086070",
+      "38706444",
+      "39500438",
+      "31154054",
+      "31413945",
+      "40186926",
+      "36358970",
+      "39881561",
+      "30705589",
+      "30067947",
+      "32084655",
+      "34830243",
+      "30889752",
+      "31632013",
+      "40303335",
+      "39241633",
+      "38815599",
+      "29416332",
+      "41355951",
+      "41171637",
+      "40181667",
+      "28752541",
+      "24690170",
+      "40987555",
+      "41081634",
+      "38723803",
+      "40668406",
+      "20178096",
+      "38619014",
+      "36548196",
+      "40455276",
+      "41955503",
+      "34157886",
+      "39074694",
+      "28287922",
+      "38838627",
+      "33166458",
+      "26561810",
+      "39985977",
+      "27544808",
+      "23745709",
+      "30889723",
+      "31297910",
+      "22250840",
+      "33235044",
+      "40462026",
+      "23069715",
+      "34344474",
+      "30811859",
+      "31759403",
+      "39581418",
+      "40685362",
+      "31829384",
+      "41548783",
+      "33979024",
+      "39426560",
+      "41271555",
+      "29240243",
+      "41913532",
+      "42002781",
+      "41242453",
+      "31595890",
+      "39175374",
+      "28106165",
+      "40154150",
+      "40073468",
+      "39382735",
+      "34396718",
+      "39236559",
+      "32309841",
+      "40357834",
+      "40514004",
+      "32349479",
+      "26825430",
+      "42032574",
+      "40409510",
+      "26179165",
+      "29717356",
+      "30362184",
+      "40154680",
+      "24806336",
+      "26945787",
+      "25783558",
+      "32369796",
+      "28191761",
+      "32821104",
+      "32562783",
+      "30237563",
+      "40664227",
+      "40285332",
+      "29369309",
+      "18458388",
+      "41735782",
+      "29024837"
+    ],
+    "review": [
+      "41709425"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/adhm.202505458",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

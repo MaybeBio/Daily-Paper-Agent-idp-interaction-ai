@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "35923464",
+    "doi": "10.3389/fmolb.2022.910956",
+    "title": "Integrative Conformational Ensembles of Sic1 Using Different Initial Pools and Optimization Methods."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins play key roles in regulatory protein interactions, but their detailed structural characterization remains challenging. Here we calculate and compare conformational ensembles for the disordered protein Sic1 from yeast, starting from initial ensembles that were generated either by statistical sampling of the conformational landscape, or by molecular dynamics simulations. Two popular, yet contrasting optimization methods were used, ENSEMBLE and Bayesian Maximum Entropy, to achieve agreement with experimental data from nuclear magnetic resonance, small-angle X-ray scattering and single-molecule Forster resonance energy transfer. The comparative analysis of the optimized ensembles, including secondary structure propensity, inter-residue contact maps, and the distributions of hydrogen bond and pi interactions, revealed the importance of the physics-based generation of initial ensembles. The analysis also provides insights into designing new experiments that report on the least restrained features among the optimized ensembles. Overall, differences between ensembles optimized from different priors were greater than when using the same prior with different optimization methods. Generating increasingly accurate, reliable and experimentally validated ensembles for disordered proteins is an important step towards a mechanistic understanding of their biological function and involvement in various diseases.",
+    "keywords": [
+      "IDP ensembles",
+      "NMR",
+      "SAXS",
+      "contact maps",
+      "molecular dynamics",
+      "smFRET"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gomes, Gregory-Neal W",
+        "Namini, Ashley",
+        "Gradinaru, Claudiu C"
+      ],
+      "short_names": [
+        "Gomes GW",
+        "Namini A",
+        "Gradinaru CC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, University of Toronto, Toronto, ON, Canada.",
+        "Department of Chemical & Physical Sciences, University of Toronto Mississauga, Mississauga, ON, Canada.",
+        "Department of Physics, University of Toronto, Toronto, ON, Canada.",
+        "Department of Chemical & Physical Sciences, University of Toronto Mississauga, Mississauga, ON, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gomes, Gregory-Neal W",
+        "short_name": "Gomes GW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Toronto, Toronto, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Namini, Ashley",
+        "short_name": "Namini A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical & Physical Sciences, University of Toronto Mississauga, Mississauga, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Gradinaru, Claudiu C",
+        "short_name": "Gradinaru CC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Toronto, Toronto, ON, Canada.",
+          "Department of Chemical & Physical Sciences, University of Toronto Mississauga, Mississauga, ON, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/05 06:00",
+    "fetched_at": "2026-09-20 12:22:47"
+  },
+  "links": {
+    "cites": [
+      "42338018",
+      "42147780",
+      "41929039",
+      "40727229",
+      "39554085",
+      "37595014",
+      "36979465",
+      "36917561",
+      "36671509",
+      "36331868"
+    ],
+    "refs": [
+      "35130691",
+      "34817999",
+      "34627764",
+      "33968988",
+      "33951592",
+      "33779550",
+      "33623120",
+      "33545034",
+      "33481784",
+      "33453925",
+      "33305318",
+      "33302617",
+      "33106483",
+      "32840111",
+      "32775701",
+      "32393642",
+      "32339173",
+      "32145944",
+      "32006288",
+      "31617035",
+      "31270472",
+      "30939006",
+      "30171252",
+      "29735687",
+      "29548755",
+      "29424691",
+      "28716919",
+      "28471369",
+      "28063280",
+      "27819658",
+      "27799531",
+      "27566405",
+      "26632648",
+      "26574339",
+      "26549326",
+      "26505632",
+      "26488642",
+      "26424125",
+      "25784874",
+      "25400522",
+      "25352545",
+      "24898547",
+      "24725176",
+      "24673507",
+      "24606139",
+      "24010708",
+      "23233655",
+      "23142871",
+      "22443635",
+      "22095648",
+      "20399186",
+      "19447112",
+      "19008353",
+      "17574027",
+      "15738986",
+      "11746699",
+      "6667333",
+      "6385134"
+    ],
+    "similar": [
+      "35923464",
+      "32840111",
+      "30840442",
+      "34252246",
+      "34817999",
+      "37023001",
+      "31402649",
+      "30878202",
+      "37595014",
+      "26807783",
+      "26566073",
+      "30979035",
+      "32775701",
+      "30204435",
+      "26574339",
+      "32696370",
+      "36934808",
+      "35213160",
+      "26548662",
+      "27844185",
+      "33968988",
+      "33725442",
+      "31475155",
+      "34627764",
+      "25897952",
+      "34115515",
+      "22095648",
+      "31548393",
+      "24174539",
+      "23912807",
+      "31756104",
+      "30413085",
+      "30876367",
+      "17250999",
+      "28625737",
+      "31809054",
+      "35373198",
+      "31459119",
+      "32696369",
+      "31396910",
+      "31793290",
+      "32119546",
+      "36331868",
+      "34680137",
+      "29925019",
+      "24187427",
+      "35129612",
+      "38713459",
+      "32859072",
+      "33030907",
+      "35543707",
+      "26387099",
+      "32345021",
+      "26387110",
+      "26263302",
+      "38895430",
+      "32159932",
+      "24410358",
+      "31241933",
+      "28716919",
+      "21947276",
+      "27940377",
+      "29792674",
+      "26433382",
+      "33310020",
+      "28232883",
+      "26453218",
+      "24763499",
+      "37241789",
+      "26042819",
+      "26131693",
+      "20404210",
+      "34888535",
+      "26030189",
+      "38361440",
+      "20399186",
+      "29548755",
+      "38370653",
+      "28003858",
+      "22613562",
+      "25866658",
+      "22760335",
+      "24312701",
+      "30731089",
+      "32585849",
+      "28877485",
+      "19576220",
+      "23811057",
+      "25313044",
+      "27281267",
+      "22988847",
+      "29571687",
+      "32502383",
+      "26632648",
+      "26030674",
+      "26735936",
+      "37406110",
+      "35431773",
+      "36711874",
+      "33995905",
+      "34325738",
+      "39345459",
+      "37592980",
+      "37163076",
+      "38984065",
+      "20925316",
+      "36380940",
+      "38938816",
+      "37732281",
+      "38358129",
+      "37582279",
+      "38959217",
+      "31255090",
+      "37272569",
+      "39386615",
+      "21660120",
+      "38199037",
+      "37792513"
+    ],
+    "review": [
+      "35923464",
+      "30840442",
+      "26807783",
+      "30979035",
+      "30413085",
+      "17250999",
+      "28625737",
+      "31793290",
+      "35129612",
+      "26387099",
+      "26387110",
+      "21947276",
+      "27940377",
+      "37241789",
+      "28003858",
+      "22760335",
+      "22988847",
+      "35431773",
+      "33995905",
+      "38358129",
+      "38959217"
+    ],
+    "pmc": [
+      "9342850"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35923464/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/35923464",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35923464",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2022.910956",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

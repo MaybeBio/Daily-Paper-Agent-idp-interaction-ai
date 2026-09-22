@@ -1,0 +1,261 @@
+{
+  "identity": {
+    "pmid": "38218366",
+    "doi": "10.1016/j.jmb.2024.168444",
+    "title": "Leucine Motifs Stabilize Residual Helical Structure in Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Many examples are known of regions of intrinsically disordered proteins that fold into alpha-helices upon binding to their targets. These helical binding motifs (HBMs) can be partially helical also in the unbound state, and this so-called residual structure can affect binding affinity and kinetics. To investigate the underlying mechanisms governing the formation of residual helical structure, we assembled a dataset of experimental helix contents of 65 peptides containing HBM that fold-upon-binding. The average residual helicity is 17% and increases to 60% upon target binding. The helix contents of residual and target-bound structures do not correlate, however the relative location of helix elements in both states shows a strong overlap. Compared to the general disordered regions, HBMs are enriched in amino acids with high helix preference and these residues are typically involved in target binding, explaining the overlap in helix positions. In particular, we find that leucine residues and leucine motifs in HBMs are the major contributors to helix stabilization and target-binding. For the two model peptides, we show that substitution of leucine motifs to other hydrophobic residues (valine or isoleucine) leads to reduction of residual helicity, supporting the role of leucine as helix stabilizer. From the three hydrophobic residues only leucine can efficiently stabilize residual helical structure. We suggest that the high occurrence of leucine motifs and a general preference for leucine at binding interfaces in HBMs can be explained by its unique ability to stabilize helical elements.",
+    "keywords": [
+      "folding-upon-binding",
+      "intrinsic disorder",
+      "leucine motif",
+      "pre-folding",
+      "recognition motif"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Leucine/chemistry",
+      "Peptides/chemistry",
+      "Protein Structure, Secondary",
+      "Amino Acid Motifs",
+      "Datasets as Topic",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Protein Binding",
+      "Models, Chemical"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zavrtanik, Uros",
+        "Medved, Tadej",
+        "Puric, Samo",
+        "Vranken, Wim",
+        "Lah, Jurij",
+        "Hadzi, San"
+      ],
+      "short_names": [
+        "Zavrtanik U",
+        "Medved T",
+        "Puric S",
+        "Vranken W",
+        "Lah J",
+        "Hadzi S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia.",
+        "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia.",
+        "Graduate Study Program, Faculty of Chemistry and Chemical Technology, University of Ljubljana, SI-1000 Ljubljana, Slovenia.",
+        "Artificial Intelligence Laboratory, Vrije Universiteit Brussel, Pleinlaan 2, 1050 Brussels, Belgium; Interuniversity Institute of Bioinformatics in Brussels, ULB/VUB, Triomflaan, 1050 Brussels, Belgium; Structural Biology Brussels, Vrije Universiteit Brussel, Brussels 1050, Belgium; VIB Structural Biology Research Centre, Brussels 1050, Belgium.",
+        "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia.",
+        "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia. Electronic address: san.hadzi@fkkt.uni-lj.si."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zavrtanik, Uroš",
+        "short_name": "Zavrtanik U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Medved, Tadej",
+        "short_name": "Medved T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Purič, Samo",
+        "short_name": "Purič S",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Study Program, Faculty of Chemistry and Chemical Technology, University of Ljubljana, SI-1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Vranken, Wim",
+        "short_name": "Vranken W",
+        "identifiers": [],
+        "affiliations": [
+          "Artificial Intelligence Laboratory, Vrije Universiteit Brussel, Pleinlaan 2, 1050 Brussels, Belgium; Interuniversity Institute of Bioinformatics in Brussels, ULB/VUB, Triomflaan, 1050 Brussels, Belgium; Structural Biology Brussels, Vrije Universiteit Brussel, Brussels 1050, Belgium; VIB Structural Biology Research Centre, Brussels 1050, Belgium."
+        ]
+      },
+      {
+        "full_name": "Lah, Jurij",
+        "short_name": "Lah J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Hadži, San",
+        "short_name": "Hadži S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia. Electronic address: san.hadzi@fkkt.uni-lj.si."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2024 Feb 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/14 12:42",
+    "fetched_at": "2026-09-21 04:10:57"
+  },
+  "links": {
+    "cites": [
+      "42549985",
+      "40944438",
+      "40287821",
+      "39859262"
+    ],
+    "refs": [],
+    "similar": [
+      "38218366",
+      "35762718",
+      "30528464",
+      "23813758",
+      "24211251",
+      "22803956",
+      "14978309",
+      "11603987",
+      "25257385",
+      "28425697",
+      "16193455",
+      "31226791",
+      "22426125",
+      "12381856",
+      "23758617",
+      "2373862",
+      "32696350",
+      "27179590",
+      "12767221",
+      "34984761",
+      "17176044",
+      "12069609",
+      "24763499",
+      "24668165",
+      "8117695",
+      "11993993",
+      "15048824",
+      "35012986",
+      "17215886",
+      "28002650",
+      "25533957",
+      "29651716",
+      "26195786",
+      "7844817",
+      "21523491",
+      "15461468",
+      "28952717",
+      "32073728",
+      "27503953",
+      "29197511",
+      "15895990",
+      "26867971",
+      "32933064",
+      "10677292",
+      "8071994",
+      "8453376",
+      "20202472",
+      "12021450",
+      "26742101",
+      "36400768",
+      "30853683",
+      "8294410",
+      "9135985",
+      "35658083",
+      "33631375",
+      "27423742",
+      "25329983",
+      "9571050",
+      "27881680",
+      "9278712",
+      "8197144",
+      "11573350",
+      "33454008",
+      "28734076",
+      "24449148",
+      "29386631",
+      "22465068",
+      "19199621",
+      "38760359",
+      "30776182",
+      "30259679",
+      "21219030",
+      "30184429",
+      "21898648",
+      "25049402",
+      "27001160",
+      "25291467",
+      "31998983",
+      "23764391",
+      "11964258",
+      "9860846",
+      "23878243",
+      "9215566",
+      "16680794",
+      "19876920",
+      "17140195",
+      "11742119",
+      "18089292",
+      "28370688",
+      "30767740",
+      "12180963",
+      "22253588",
+      "32323533",
+      "28339206",
+      "8855958",
+      "27508433",
+      "38114424",
+      "24654952",
+      "39315703",
+      "39343152",
+      "36599672",
+      "38550974",
+      "39155451",
+      "22666276",
+      "24156013"
+    ],
+    "review": [
+      "38218366",
+      "30767740"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(24)00010-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

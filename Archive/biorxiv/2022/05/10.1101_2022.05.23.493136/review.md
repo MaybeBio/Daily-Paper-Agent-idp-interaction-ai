@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) from bioRxiv preprint
+- **Assessment boundary** Scientific claims, methodology, data interpretation, and internal consistency as presented in the provided text; no external validation or replication attempted
+- **Shared manuscript claim summary** The authors use native mass spectrometry with surface-induced dissociation and molecular dynamics simulations to show that the six intrinsically disordered C-terminal domains of E. coli Hfq form an interconnected interaction network that stabilizes the hexamer, and that RNA binding disrupts this network, with the extent of destabilization depending on RNA size and contact surface
+- **Visible evidence base** Figures 1-5 (referenced but not fully visible in text), Supplementary Figures S1-S10, Supplementary Tables S1-S5, Methods section, ERMS data descriptions
+- **Missing materials affecting confidence** Actual mass spectra figures, MD simulation trajectory details, force field parameters, convergence criteria, statistical analysis of replicates, raw data availability, Supplementary Information contents not fully described
+
+## Reviewer
+- **Overall assessment** This manuscript presents a novel application of native mass spectrometry with surface-induced dissociation to probe the role of intrinsically disordered regions in a multi-subunit RNA chaperone. The central claim that the CTDs form an interconnected stabilizing network that is disrupted by RNA binding is interesting and potentially significant for understanding IDR function in RNA-binding proteins. However, the evidence as presented has several gaps: the interpretation of nMS-SID data relies on assumptions about gas-phase behavior that are not fully validated, the MD simulations appear under-sampled for the claims made, and the mechanistic model proposed goes beyond what the data can directly support. The work is technically ambitious and the topic is timely, but the current presentation does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers studying RNA chaperones, particularly Hfq and Sm proteins; investigators interested in the functions of intrinsically disordered regions in multi-subunit complexes; mass spectrometrists developing native MS and SID methods for protein complexes; computational biologists studying IDP/IDR behavior through MD simulations. The proposed mechanism of CTD-mediated signal integration across subunits could inform broader understanding of how disordered regions contribute to allostery and molecular recognition.
+- **Major strengths** 1) The application of nMS-SID to a challenging target (a homohexamer with disordered regions) is technically innovative and demonstrates the potential of this method for studying IDR-containing complexes. 2) The combination of experimental (nMS-SID) and computational (MD) approaches is appropriate and complementary. 3) The systematic design of RNA ligands to probe progressive binding is thoughtful and allows for structure-activity relationships. 4) The observation that RNA binding destabilizes WT Hfq while stabilizing HfqΔCTD is counterintuitive and potentially important. 5) The authors acknowledge limitations of their approach in places (e.g., inability to conclude restructuring occurs before dissociation).
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of nMS-SID interpretation
+  - **Claim pointer** The claim that differences in energy-resolved mass spectra between WT and HfqΔCTD directly reflect differences in solution-phase stability conferred by CTD interactions
+  - **Evidence pointer** Figures 2B-C, Results section "Disordered CTDs stabilize Hfq"
+  - **Concern** The interpretation of ERMS data assumes that gas-phase dissociation energies correlate with solution-phase complex stability. However, the authors do not address how the presence of six flexible, highly charged CTDs might affect the collisional cross-section, charge state, and dissociation pathways in ways unrelated to thermodynamic stability. The observation that WT Hfq requires higher collision energy for 20% fragmentation could reflect increased size, altered charge distribution, or different gas-phase unfolding dynamics rather than intrinsic stability differences. The authors also do not discuss potential artifacts from the charge-reducing agent (TEAA) or how the high ionic strength buffer (500 mM ammonium acetate) might affect CTD conformations.
+  - **Why it matters** The central conclusion that CTDs stabilize the hexamer through a network of interactions rests on this comparison. If the ERMS differences are due to gas-phase artifacts, the mechanistic model collapses.
+  - **Resolution test** Provide control experiments with CTD variants of intermediate length, show that charge states and CCS values are comparable between WT and HfqΔCTD, or perform solution-phase stability measurements (e.g., thermal or chemical denaturation monitored by nMS) to corroborate the gas-phase results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Sufficiency of MD sampling
+  - **Claim pointer** The claim that MD simulations reveal a "network" of CTD interactions connecting the entire hexamer, with each CTD interacting with 2-6 subunits
+  - **Evidence pointer** Figures 3B-C, S4-S6, Methods "MD simulations"
+  - **Concern** The simulation protocol is described as follows: 100 ns equilibration, then 400 ns (top 1-5), 100 ns (top 6-10), or 10 ns (extended 1-4) production runs. For a system with six 37-residue disordered tails, these timescales are almost certainly insufficient to sample the conformational ensemble. The authors claim convergence based on similar distributions at "beginning and end" of simulations, but with only 10-14 independent trajectories and short production runs, this is not convincing. The analysis of "contacts" between CTDs and cores over 10 ns windows is likely capturing transient, non-equilibrium fluctuations rather than representative interaction networks. The shift to larger numbers of subunits when averaging over 400 ns (Figure 3B, purple) could indicate lack of convergence rather than genuine sampling of different regions.
+  - **Why it matters** The proposed network model of CTD interactions is a central conceptual contribution. If the MD sampling is inadequate, the specific interaction patterns and connectivity claims are not supported.
+  - **Resolution test** Extend simulations to microsecond timescales per replica, increase replica number, and demonstrate convergence through multiple independent metrics (e.g., cluster analysis, principal component analysis, block averaging of contact maps). Alternatively, use enhanced sampling methods appropriate for IDPs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of RNA binding effects
+  - **Claim pointer** The claim that RNA binding "removes stabilizing CTD interactions" and that this explains differential RNA selectivity
+  - **Evidence pointer** Figures 4D-G, 5C, Discussion
+  - **Concern** The authors interpret the reduced stability of WT Hfq-RNA complexes relative to free WT Hfq as evidence that RNA displaces CTDs from the core. However, an alternative explanation is that RNA binding induces conformational changes in the core itself that reduce its intrinsic stability, independent of CTD displacement. The observation that HfqΔCTD is stabilized by RNA binding suggests RNA-core interactions are stabilizing, so the destabilization of WT Hfq must come from loss of CTD-core or CTD-CTD interactions. But the authors do not directly measure CTD displacement upon RNA binding. The claim that "perturbation of the CTDs likely comes from their displacement from the core and not from direct interactions with the RNA" is inferred from dissociation patterns, but this inference is indirect.
+  - **Why it matters** The proposed mechanism of CTD displacement as a selectivity filter is a key conceptual advance. Without direct evidence of CTD displacement, the model remains speculative.
+  - **Resolution test** Use ion mobility to measure CCS changes of WT Hfq-RNA complexes versus free WT Hfq; perform MD simulations of Hfq-RNA complexes to directly observe CTD displacement; or use cross-linking mass spectrometry to map CTD-core contacts in the presence and absence of RNA.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative analysis of ERMS data
+  - **Claim pointer** The claim that "all RNAs stabilized HfqΔCTD" and the relative ordering of stabilization by different RNA ligands
+  - **Evidence pointer** Figures 4B-C, S8
+  - **Concern** The ERMS data are presented as "mass-corrected" plots, but the correction method is only briefly described in Methods. The authors state that collision energies were calculated as E = zV_SID and corrected by mass ratios, but the rationale for this correction and its validation are not provided. The differences in stabilization between RNA ligands (e.g., "minimal extra stability" for U6 and AU5G vs. "most extra stability" for RybB and rim-SL-U6) appear to be qualitative. No statistical analysis of the technical triplicates is presented, and no error bars are shown in the described figures. The claim that even short RNAs destabilize WT Hfq substantially is based on differences that may be within experimental variability.
+  - **Why it matters** The quantitative claims about relative stabilization/destabilization by different RNAs are central to the selectivity argument. Without proper statistical treatment, these claims are not robust.
+  - **Resolution test** Provide error bars and statistical tests (e.g., ANOVA with post-hoc comparisons) for the ERMS data. Show representative replicates. Validate the mass correction method with control experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1 schematic
+  - **Evidence pointer** Figure 1, Introduction
+  - **Issue** The schematic in Figure 1 is described in the text but not visible in the provided material. The description of the "ring-shaped organization" of CTDs would benefit from a clear visual representation.
+  - **Required correction** Ensure Figure 1 clearly shows the hexameric core, the six CTDs, and the proposed interaction network. Consider adding a schematic of the proposed CTD displacement mechanism upon RNA binding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "Surface-induced unfolding (SIU) plots"
+  - **Evidence pointer** Figures 2F-G, Results
+  - **Issue** The term "surface-induced unfolding" is used, but the authors note they "can't conclude that this occurs before the subunits dissociate." The distinction between unfolding and dissociation in these experiments is not clearly defined.
+  - **Required correction** Clarify the operational definition of "unfolding" in this context and discuss the limitations of interpreting arrival time distributions for partially dissociated or unfolded species.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** MD simulation analysis
+  - **Evidence pointer** Methods "MD simulations", Figures S4-S6
+  - **Issue** The criteria for defining a "contact" between CTD residues and core residues are not specified. The analysis of "contacts" over different time windows is described, but the structural definition (e.g., distance cutoff, atom types) is missing.
+  - **Required correction** Provide explicit definitions of contact criteria, including distance cutoffs and which atoms are considered. Describe how contacts were averaged and how the "peak" values in Figures 3B-C were determined.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion of IDR functions
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The introduction cites several reviews on IDR functions but does not discuss recent work on IDR-mediated allostery or cooperativity in other protein families, which would strengthen the conceptual framing.
+  - **Required correction** Add brief discussion of IDR-mediated allostery in other systems to contextualize the proposed network model.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** MD simulation data
+  - **Evidence pointer** Methods, Acknowledgements
+  - **Issue** No statement is provided regarding availability of MD simulation input files, trajectories, or analysis scripts.
+  - **Required correction** Add a data availability statement specifying where simulation data and analysis code can be accessed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (gas-phase interpretation of nMS-SID), R1-M2 (insufficient MD sampling), R1-M3 (indirect evidence for CTD displacement), R1-M4 (lack of statistical analysis of ERMS data)
+- **Assessment against Nature-style criteria** Originality: The application of nMS-SID to study IDR networks in a multi-subunit complex is novel and the proposed mechanism of CTD-mediated signal integration is original. Scientific importance: Understanding how disordered regions contribute to RNA chaperone function and selectivity is of broad interest to the RNA biology and IDP communities. Interdisciplinary readership: The work bridges mass spectrometry, computational biology, and RNA biochemistry, which could appeal to a broad audience if the technical barriers are addressed. Technical soundness: The nMS-SID methodology is state-of-the-art, but the interpretation requires additional validation; the MD simulations are under-sampled for the claims made. Readability for nonspecialists: The manuscript is generally well-written, but the significance of the ERMS data and the distinction between gas-phase and solution-phase behavior may be difficult for non-specialists to follow. The significance statement is clear and accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the methodology is innovative, but the current evidence does not fully establish the proposed network model or the mechanism of RNA-induced destabilization. The authors should address the gas-phase interpretation concerns, provide more robust MD sampling, and add statistical rigor to the ERMS analysis.
+
+## Risk / unsupported claims
+- The claim that CTDs form a "network" of interactions connecting the entire hexamer is based on MD simulations with limited sampling and is not directly experimentally validated.
+- The claim that RNA binding "removes stabilizing CTD interactions" is inferred from indirect evidence (ERMS comparisons) and not directly observed.
+- The claim that the CTD network "raises the selectivity of RNA binding" is a proposal not directly tested in this work.
+- The statement that "the CTDs stabilize the Hfq hexamer through multiple interactions with the core and between CTDs" is supported by MD but the experimental evidence (ERMS) may reflect gas-phase effects.
+- The claim that "binding of short RNAs that only contact one or two subunits results in net destabilization" is based on qualitative ERMS comparisons without statistical analysis.
+- The assertion that "the varied CTD conformations impart asymmetry to the Hfq homohexamer" is speculative and not directly demonstrated.

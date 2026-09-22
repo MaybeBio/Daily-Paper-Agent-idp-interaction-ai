@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40430862",
+  "title": "Intrinsic Dissolution Modeling: Interdependence Between Dissolution Rate, Solubility, and Boundary Layer Thickness.",
+  "authors": "Mattusch, Amelie Marie; Schaldach, Gerhard; Bartsch, Jens; Thommes, Markus",
+  "journal": "Pharmaceutics",
+  "published_date": "2025-05-28",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 1,
+  "one_liner_zh": "该研究建模药物固有溶出行为，涉及溶解速率、溶解度与边界层厚度，对象为小分子药物而非无序蛋白，无PPI或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Background/Objectives: In the past, many drug release models have been presented which attempt to describe the interaction of drugs and excipients in a formulation. Nevertheless, modeling the intrinsic dissolution behavior is essential for understanding the fundamental dissolution mechanisms of drugs and for enhancing the quality of computational approaches in the long term. Methods: In this study, the intrinsic dissolution of various pharmaceutical model substances (benzocaine, carbamazepine, griseofulvin, ibuprofen, naproxen, phenytoin, theophylline monohydrate, and trimethoprim) was investigated in dissolution experiments, taking into account the flow conditions in a dissolution channel apparatus. A practicable and generally valid representation was identified to describe the diffusion properties of the drugs in terms of the boundary layer thickness without considering the particle size distribution, physical state, or viscoelastic properties. This representation was supported by numerical simulations using a high-resolution mesh. The influence of the topography on the modeling was also examined. Results: Besides the prediction of the influence of a surface reaction limitation or the solubility of a diffusion controlled drug, the boundary layer thickness at the tablet surface is modellable in terms of a freely selectable length and as a function of the diffusion coefficient, drug solubility, and the flow velocity of the dissolution medium. Conclusions: Using different methods and a large dataset, this study presents a modeling approach that can contribute to a deeper understanding of intrinsic dissolution behavior.",
+  "abstract_zh": "背景/目标：过去，已有许多药物释放模型被提出，试图描述制剂中药物与辅料之间的相互作用。然而，对固有溶出行为进行建模对于理解药物的基本溶出机制以及长期提升计算方法的质量至关重要。方法：在本研究中，通过溶出实验考察了多种药物模型物质（苯佐卡因、卡马西平、灰黄霉素、布洛芬、萘普生、苯妥英、茶碱一水合物和甲氧苄啶）的固有溶出行为，并考虑了溶出通道装置中的流动条件。确定了一种实用且普遍有效的表示方法，用以描述药物在边界层厚度方面的扩散特性，而无需考虑粒径分布、物理状态或粘弹性性质。该表示方法得到了使用高分辨率网格的数值模拟支持。此外，还考察了地形对建模的影响。结果：除了预测表面反应限制或扩散控制药物溶解度的影响外，片剂表面的边界层厚度可建模为可自由选择的长度，并作为扩散系数、药物溶解度和溶出介质流速的函数。结论：通过使用不同方法和大型数据集，本研究提出了一种建模方法，有助于更深入地理解固有溶出行为。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40430862/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40430862/",
+  "paper_page_path": "papers/pubmed/40430862/index.html"
+}

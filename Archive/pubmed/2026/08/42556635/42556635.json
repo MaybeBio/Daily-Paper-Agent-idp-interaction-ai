@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "42556635",
+    "doi": "10.1016/j.ejphar.2026.179194",
+    "title": "Terbutaline selectively reduces non-fibrillar alpha-synuclein aggregates and oxidative stress without affecting liquid-liquid phase separation or fibrillogenesis."
+  },
+  "content": {
+    "abstract": "Aggregation of alpha-synuclein is intricately linked to Parkinson's disease (PD), progressing through liquid-liquid phase separation (LLPS) to toxic protofibrils and mature amyloid fibrils. Identifying compounds that selectively modulate toxic aggregation intermediates without interfering with normal cellular phase separation is a critical therapeutic goal. This study investigated the impact of terbutaline, a beta(2)-adrenergic agonist, on the liquid-liquid phase separation, aggregation behaviour, cytotoxicity and oxidative stress induced by WT alpha-SYN and its variants. Terbutaline did not affect the size or physical properties of alpha-SYN condensates or alter fibril formation, as evidenced by unchanged Th T fluorescence and fluorescence polarization values. However, it significantly reduced the number of condensates and total aggregates, particularly amorphous moiety, in a concentration-dependent manner. This selective inhibition did not influence survival of SH-SY5Y cells but significantly reduced alpha-SYN-induced superoxide generation in rat RBCs-by up to 26% for WT and 53% for CT alpha-SYN aggregates. Distinct changes were observed in the oligomers formed by WT alpha-SYN and CT alpha-SYN. Direct interaction of terbutaline with both WT alpha-SYN and CT alpha-SYN was confirmed by isothermal titration calorimetry, with a stronger binding affinity observed for the CT alpha-SYN. Transmission electron microscopy showed discrete morphological changes in aggregate structure with terbutaline, supporting a shift away from toxic polymorphs. These findings highlight terbutaline's role as a potential modulator of early aggregation toxicity, warranting further exploration into structurally related compounds for therapeutic development in synucleinopathies.",
+    "keywords": [
+      "Liquid condensates",
+      "Phase separation",
+      "Protein aggregation",
+      "Protofibrils",
+      "Synuclein mutants",
+      "Terbutaline"
+    ],
+    "mesh_terms": [
+      "*Terbutaline/pharmacology",
+      "*alpha-Synuclein/metabolism/chemistry/genetics",
+      "*Oxidative Stress/drug effects",
+      "Animals",
+      "Humans",
+      "*Protein Aggregates/drug effects",
+      "Phase Separation",
+      "Rats",
+      "Cell Line, Tumor",
+      "Superoxides/metabolism",
+      "Protein Aggregation, Pathological"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Biswas, Soumojit",
+        "Mavlankar, Nimisha A",
+        "Pal, Asish",
+        "Roy, Ipsita"
+      ],
+      "short_names": [
+        "Biswas S",
+        "Mavlankar NA",
+        "Pal A",
+        "Roy I"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, National Institute of Pharmaceutical Education and Research, Sector 67, S.A.S. Nagar, Punjab, 160062, India.",
+        "Chemical Biology Unit, Institute of Nano Science and Technology, Knowledge City, Sector 81, Mohali, Punjab, 140306, India.",
+        "Chemical Biology Unit, Institute of Nano Science and Technology, Knowledge City, Sector 81, Mohali, Punjab, 140306, India.",
+        "Department of Biotechnology, National Institute of Pharmaceutical Education and Research, Sector 67, S.A.S. Nagar, Punjab, 160062, India. Electronic address: ipsita@niper.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Biswas, Soumojit",
+        "short_name": "Biswas S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, National Institute of Pharmaceutical Education and Research, Sector 67, S.A.S. Nagar, Punjab, 160062, India."
+        ]
+      },
+      {
+        "full_name": "Mavlankar, Nimisha A",
+        "short_name": "Mavlankar NA",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology Unit, Institute of Nano Science and Technology, Knowledge City, Sector 81, Mohali, Punjab, 140306, India."
+        ]
+      },
+      {
+        "full_name": "Pal, Asish",
+        "short_name": "Pal A",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Biology Unit, Institute of Nano Science and Technology, Knowledge City, Sector 81, Mohali, Punjab, 140306, India."
+        ]
+      },
+      {
+        "full_name": "Roy, Ipsita",
+        "short_name": "Roy I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, National Institute of Pharmaceutical Education and Research, Sector 67, S.A.S. Nagar, Punjab, 160062, India. Electronic address: ipsita@niper.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European journal of pharmacology"
+    ],
+    "journal_abbrev": [
+      "Eur J Pharmacol"
+    ],
+    "pub_date": "2026 Sep 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/06 11:36",
+    "fetched_at": "2026-09-18 05:26:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42556635",
+      "39818366",
+      "38272228",
+      "37238596",
+      "35787838",
+      "36373662",
+      "39116032",
+      "41147343",
+      "38808534",
+      "34290084",
+      "41815072",
+      "31939603",
+      "41732904",
+      "32514159",
+      "35485974",
+      "38727274",
+      "34871547",
+      "42387849",
+      "41087580",
+      "40259622",
+      "40320462",
+      "42003184",
+      "41723982",
+      "29960040",
+      "40763859",
+      "37585526",
+      "35657723",
+      "40490169",
+      "40770610",
+      "28872299",
+      "39936279",
+      "40440171",
+      "26601760",
+      "26620202",
+      "39507104",
+      "29959225",
+      "34431665",
+      "39550891",
+      "26972727",
+      "30917654",
+      "40383467",
+      "41539523",
+      "29286644",
+      "31416122",
+      "35276458",
+      "30394624",
+      "30796974",
+      "41368826",
+      "40610077",
+      "30769283",
+      "23339399",
+      "42123431",
+      "26167732",
+      "39947752",
+      "42045548",
+      "41801138",
+      "23159813",
+      "42176916",
+      "42543145",
+      "27338805",
+      "32350746",
+      "41067404",
+      "30853581",
+      "24269918",
+      "40815456",
+      "40954133",
+      "34547253",
+      "40247826",
+      "42297199",
+      "42178109",
+      "32424162",
+      "32365408",
+      "31575115",
+      "36061735",
+      "38511533",
+      "28918091",
+      "29866153",
+      "31756328",
+      "34948195",
+      "31925956",
+      "42379257",
+      "40530874",
+      "24728187",
+      "40784325",
+      "39693815",
+      "22701661",
+      "32143619",
+      "33997868",
+      "26138444",
+      "36707462",
+      "40339505",
+      "38973194",
+      "41877387",
+      "35353605",
+      "29996045",
+      "30290273",
+      "32971232",
+      "39549813",
+      "32961434",
+      "38731658"
+    ],
+    "review": [
+      "42556635",
+      "35787838",
+      "36373662",
+      "38808534",
+      "42387849",
+      "39507104",
+      "26972727",
+      "40610077",
+      "39947752",
+      "23159813",
+      "41067404",
+      "30853581",
+      "42379257"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0014-2999(26)00676-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

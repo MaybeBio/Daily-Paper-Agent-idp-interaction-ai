@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2605.14516v1",
+  "title": "A Brownian dynamics study of liquid-liquid phase separation in multi-scale chromatin networks",
+  "doi": "",
+  "abstract": "In living cells, proteins involved in specialized biochemical functions are often spatially organized within biomolecular condensates. Increasing evidence suggests that some of these condensates, including DNA repair condensates, emerge through liquid-liquid phase separation (LLPS). In the nucleus, however, condensates form within a highly heterogeneous environment composed of chromatin fibers, RNA, and additional protein scaffolds such as PAR chains, all of which may interact with phase-separating proteins. Moreover, condensate formation is frequently associated with specific chromatin conformations; for instance, loop extrusion has been proposed as a mechanism promoting DNA repair condensates. Here, we investigate how the surrounding fibrous environment controls the morphology and spatial organization of phase-separated condensates. Using Brownian dynamics simulations of minimal models combining Lennard-Jones particles with fixed fibrous substrates, we examine the respective roles of local fiber geometry and large-scale network organization, reflecting the multiscale architecture of chromatin. We show that protein-fiber interactions strongly influence droplet positioning relative to the substrate, in a manner analogous to wetting transitions in soft condensed matter systems. Both local geometric constraints and global network organization markedly affect droplet size, morphology, and multiplicity. In addition, large-scale asymmetries in fiber organization can induce robust spatial localization of the dense phase. Our results thus highlight how multiscale structural heterogeneity of the nuclear environment can regulate the emergence and organization of biomolecular condensates.",
+  "authors": [
+    "Léa Beaulès",
+    "Judith Miné-Hattab",
+    "Pierre Illien",
+    "Vincent Dahirel"
+  ],
+  "published_date": "2026-05-14T07:59:51Z",
+  "updated_date": "2026-05-14T07:59:51Z",
+  "journal": "",
+  "category": "cond-mat.soft, physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2605.14516v1",
+  "pdf_url": "https://arxiv.org/pdf/2605.14516v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft",
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2605.14516v1",
+    "raw_categories": [
+      "cond-mat.soft",
+      "physics.bio-ph"
+    ],
+    "journal_ref": ""
+  }
+}

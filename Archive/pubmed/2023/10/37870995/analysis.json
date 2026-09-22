@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37870995",
+  "title": "Complex Conformational Space of the RNA Polymerase II C-Terminal Domain upon Phosphorylation.",
+  "authors": "Amith, Weththasinghage D; Dutagaci, Bercem",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2023-10-23",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用增强采样方法模拟RNA聚合酶II C端无序结构域在不同磷酸化状态下的构象空间，揭示磷酸化对IDP构象的复杂调控机制，虽未直接研究PPI，但为IDP构象-磷酸化-互作机制建模提供了可迁移的物理模拟思路。",
+  "abstract": "Intrinsically disordered proteins (IDPs) have been closely studied during the past decade due to their importance in many biological processes. The disordered nature of this group of proteins makes it difficult to observe its full span of the conformational space using either experimental or computational studies. In this article, we explored the conformational space of the C-terminal domain (CTD) of RNA polymerase II (Pol II), which is also an intrinsically disordered low complexity domain, using enhanced sampling methods. We provided a detailed conformational analysis of model systems of CTD with different lengths; first with the last 44 residues of the human CTD sequence and finally the CTD model with 2-heptapeptide repeating units. We then investigated the effects of phosphorylation on CTD conformations by performing simulations at different phosphorylated states. We obtained broad conformational spaces in nonphosphorylated CTD models, and phosphorylation has complex effects on the conformations of the CTD. These complex effects depend on the length of the CTD, spacing between the multiple phosphorylation sites, ion coordination, and interactions with the nearby residues.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在过去十年中因其在许多生物过程中的重要性而受到密切研究。这类蛋白质的无序特性使得通过实验或计算研究难以观察其构象空间的完整范围。在本文中，我们利用增强采样方法探索了RNA聚合酶II (Pol II) 的C端结构域 (CTD) 的构象空间，该结构域也是一个 intrinsically disordered low complexity domain。我们对不同长度的CTD模型系统进行了详细的构象分析；首先是人CTD序列的最后44个残基，最后是含有2-七肽重复单元的CTD模型。随后，我们通过在不同磷酸化状态下进行模拟，研究了磷酸化对CTD构象的影响。我们在非磷酸化CTD模型中获得了广泛的构象空间，而磷酸化对CTD构象具有复杂的影响。这些复杂效应取决于CTD的长度、多个磷酸化位点之间的间距、离子配位以及与邻近残基的相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37870995/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37870995/",
+  "paper_page_path": "papers/pubmed/37870995/index.html"
+}

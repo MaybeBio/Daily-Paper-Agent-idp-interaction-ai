@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text, including Introduction, Results, Discussion, Materials and Methods, and figure legends. Supplementary figures and tables are referenced but not fully provided.
+- **Assessment boundary** Assessment is limited to the scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided text. No assessment of editorial fit or journal policy is made.
+- **Shared manuscript claim summary** The manuscript claims that EPAC1 is a SUMOylation target, that heat shock induces EPAC1 SUMOylation at K561 in a cAMP-independent manner, that this modification enhances EPAC1 guanine nucleotide exchange activity toward Rap1/2, and that a SUMO-interacting motif (SIM) in EPAC1 is required for its SUMOylation. The authors further propose a mechanistic model involving nuclear biomolecular condensates and provide molecular dynamics simulations to support a structural basis for enhanced Rap binding.
+- **Visible evidence base** Western blot data for EPAC1 PTM under heat shock and SENP1 sensitivity (Fig. 1); MS identification of K561 as a SUMOylation site with ~9% stoichiometry estimate (Fig. 2); SIM mutation and UBC2 pulldown data (Fig. 3); confocal imaging of EPAC1/UBA2 condensates (Fig. 4); Rap1/2 activation assays with heat shock and EPAC1 knockdown (Fig. 5); K561R mutant effect on Rap activation (Fig. 6); MD simulation analyses of SUMOylated EPAC1 (Fig. 7); supplementary figures referenced for cAMP levels, cell fractionation, and additional controls.
+- **Missing materials affecting confidence** Supplementary figures and tables (Table S1, Figs. S1–S9) are referenced but not provided in the submitted text. Full uncropped blots, MS parameter details, statistical source data, and MD simulation validation metrics are not available. The exact nature of the "in-house EPAC1" antibody signal and its validation is not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel and potentially significant finding that EPAC1 is SUMOylated at K561 and that this modification promotes Rap GTPase activation independently of cAMP. The identification of a functional SUMOylation site in EPAC1, the demonstration of SIM-dependent SUMOylation, and the proposed mechanistic link to condensate formation are of interest to the cAMP signaling and SUMOylation fields. However, several technical concerns, particularly regarding the specificity of the SUMOylation detection, the functional relevance of the ~9% stoichiometry, the lack of direct evidence that SUMOylation enhances EPAC1 catalytic activity (as opposed to Rap binding), and the reliance on MD simulations without experimental validation, weaken the current case. The manuscript would be strengthened by additional experiments, including validation of the K561 SUMOylation with an independent approach, direct measurement of EPAC1 GEF activity, and testing of the SIM mutant in functional assays.
+- **Who would be interested in the results, and why** Researchers studying cAMP signaling, EPAC biology, SUMOylation, and post-translational modification cross-talk. The finding that a stress-induced SUMOylation can activate EPAC1 independently of cAMP would be of interest to those investigating stress responses, cardiovascular signaling, and potential therapeutic targeting of EPAC1. The proposed link between SUMOylation and condensate formation may also attract researchers in the phase separation field.
+- **Major strengths** 1. The identification of a specific SUMOylation site (K561) in EPAC1 by MS with high sequence coverage is a solid technical achievement. 2. The demonstration that heat shock induces EPAC1 SUMOylation and that this is SENP1-sensitive provides a clear regulatory context. 3. The finding that the SIM is required for SUMOylation and UBC9 interaction is mechanistically informative. 4. The functional data showing that K561R mutation abolishes heat shock-induced Rap activation directly links the SUMOylation site to a functional outcome. 5. The MD simulations provide a plausible structural rationale, though this remains speculative without experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Evidence quality
+  - **Claim pointer** The manuscript claims that EPAC1 is SUMOylated at K561 based on MS data and that this modification is functionally relevant.
+  - **Evidence pointer** Fig. 2, MS data; Fig. 6, K561R functional data
+  - **Concern** The MS identification of K561 as a SUMOylation site is presented, but the manuscript does not provide validation of this site by an independent method, such as site-directed mutagenesis of K561 to arginine (K561R) followed by assessment of SUMOylation loss. The K561R mutant is used in functional assays (Fig. 6), but it is not shown that this mutant abolishes SUMOylation. Without this control, the attribution of the functional effect to loss of SUMOylation at K561 is not fully established.
+  - **Why it matters** The central claim of the manuscript is that SUMOylation at K561 promotes EPAC1 activation. If the K561R mutation does not specifically abolish SUMOylation at that site, or if other lysines are also SUMOylated, the interpretation of the functional data is compromised.
+  - **Resolution test** Provide data showing that K561R mutation eliminates or markedly reduces EPAC1 SUMOylation, as detected by the same assay used in Fig. 1 and Fig. 2. Alternatively, use a SUMOylation-deficient EPAC1 construct with all predicted SUMOylation sites mutated to confirm K561 is the functional site.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence / Mechanistic claim
+  - **Claim pointer** The manuscript claims that SUMOylation of EPAC1 at K561 enhances its guanine nucleotide exchange activity toward Rap1/2.
+  - **Evidence pointer** Fig. 5 and Fig. 6, Rap-GTP pull-down assays
+  - **Concern** The functional assays measure Rap1/2-GTP levels as a readout of EPAC1 activity. However, the manuscript does not directly demonstrate that SUMOylated EPAC1 has increased GEF activity. The observed increase in Rap-GTP could be due to other effects, such as altered EPAC1 localization, stability, or interaction with other regulators. A direct in vitro GEF assay using purified SUMOylated EPAC1 (or a SUMO-fusion mimic) would strengthen the claim.
+  - **Why it matters** The title and central conclusion state that SUMOylation promotes EPAC1 activation. Direct evidence of enhanced catalytic activity is required to support this specific mechanistic claim.
+  - **Resolution test** Perform an in vitro GEF assay (e.g., using fluorescent GDP/GTP exchange assays) comparing wild-type EPAC1, SUMOylated EPAC1 (or a K561-SUMO fusion), and the K561R mutant. Alternatively, measure EPAC1 activity using a Rap1-GTP pull-down in a system where EPAC1 expression is controlled and SUMOylation is specifically induced.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic model / Evidence quality
+  - **Claim pointer** The manuscript proposes that heat shock-induced EPAC1 SUMOylation occurs in nuclear biomolecular condensates and that the SIM is required for this process.
+  - **Evidence pointer** Fig. 3 and Fig. 4, SIM mutant and confocal imaging
+  - **Concern** The data show that the SIM mutant fails to form nuclear condensates and is not SUMOylated, but the causal relationship between condensate formation and SUMOylation is not directly tested. It is possible that the SIM mutation disrupts EPAC1 localization or interaction with UBC9 independently of condensate formation. The manuscript does not demonstrate that condensate formation is required for EPAC1 SUMOylation, or that SUMOylation is required for condensate formation.
+  - **Why it matters** The proposed model linking condensates, SUMOylation, and EPAC1 activation is a key conceptual advance. Without direct evidence of causality, the model remains speculative.
+  - **Resolution test** Perform experiments to disrupt condensate formation (e.g., using 1,6-hexanediol or optogenetic tools) and assess EPAC1 SUMOylation. Alternatively, use a SUMOylation-deficient EPAC1 mutant to test whether SUMOylation is required for condensate formation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Data interpretation
+  - **Claim pointer** The manuscript claims that heat shock does not affect intracellular cAMP levels, supporting a cAMP-independent mechanism.
+  - **Evidence pointer** Supplementary Fig. 8 (referenced, not provided)
+  - **Concern** The cAMP measurement is only presented in supplementary material and is not described in the main text. The time course and conditions of the cAMP measurement are not detailed. It is unclear whether the assay is sensitive enough to detect small changes in cAMP that could be relevant.
+  - **Why it matters** The claim of cAMP independence is central to the novelty of the finding. If cAMP levels are not accurately measured, the conclusion may be premature.
+  - **Resolution test** Provide the full cAMP data in the main text or a detailed supplementary figure, including time course, positive controls, and assay sensitivity. Consider measuring cAMP in the same cells and conditions used for the SUMOylation and Rap activation assays.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Data interpretation
+  - **Claim pointer** The manuscript claims that the SIM is required for EPAC1 SUMOylation based on the loss of high molecular weight bands in the SIM mutant.
+  - **Evidence pointer** Fig. 3A
+  - **Concern** The SIM mutant (SIM/5A) is generated by replacing VVLVL with alanines. This mutation may disrupt EPAC1 folding or stability, rather than specifically affecting SUMOylation. The manuscript does not show that the SIM mutant is properly folded or expressed at levels comparable to wild-type. Additionally, the "switchboard" function of this region, as noted in the Discussion, suggests that the mutation may have pleiotropic effects.
+  - **Why it matters** The conclusion that the SIM is specifically required for SUMOylation is weakened if the mutation has broader effects on EPAC1 structure or function.
+  - **Resolution test** Include a control showing that the SIM mutant retains normal expression, folding, and basal activity. Use a more conservative mutation or a different SIM mutant to confirm the specificity of the effect.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Fig. 1 and Fig. 2
+  - **Evidence pointer** Fig. 1, Fig. 2
+  - **Issue** The manuscript uses the term "in-house EPAC1" in the Results section without defining what this means. It is unclear whether this refers to a specific antibody, a cell line, or an expression construct.
+  - **Required correction** Define "in-house EPAC1" clearly, or rephrase to avoid ambiguity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail / Reproducibility
+  - **Affected element** Materials and Methods, MS analysis
+  - **Evidence pointer** LC/MS/MS analysis section
+  - **Issue** The MS method section does not specify the protease used for digestion (trypsin is implied but not stated), the number of biological replicates, or the criteria for accepting the K561 site as a true positive beyond the FDR.
+  - **Required correction** Provide full MS parameters, including protease, search engine settings, and validation criteria. State the number of replicates and whether the K561 site was identified in all replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation / Statistics
+  - **Affected element** Fig. 5 and Fig. 6
+  - **Evidence pointer** Fig. 5C, Fig. 6
+  - **Issue** The quantification of Rap-GTP levels is shown as mean ± SEM (N=3), but the statistical test used is not stated in the figure legends. The manuscript mentions statistical methods in the Materials and Methods, but it is not clear which test was applied to which comparison.
+  - **Required correction** Specify the statistical test used for each comparison in the figure legends, and indicate the significance levels (e.g., p values) on the figures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity / Interpretation
+  - **Affected element** Discussion, MD simulation section
+  - **Evidence pointer** Fig. 7, Supplementary Fig. 9 and 10
+  - **Issue** The MD simulation results are described qualitatively. The manuscript states that the SUMO moiety "seemed to position itself" and "moved slightly," but no quantitative metrics (e.g., RMSD, interaction energies, contact maps) are provided.
+  - **Required correction** Provide quantitative measures of the MD simulations, such as RMSD plots, interaction energies, or contact maps, to support the qualitative descriptions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness / Reproducibility
+  - **Affected element** Materials and Methods, Constructs
+  - **Evidence pointer** Constructs section
+  - **Issue** The generation of the SIM/5A and K561R mutants is not described. The methods state that constructs were generated but do not specify the mutagenesis method, primers, or validation.
+  - **Required correction** Add a description of the site-directed mutagenesis procedure, including primer sequences and confirmation of the mutations by sequencing.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of direct evidence that K561 is the sole or primary SUMOylation site (R1-M1). 2. No direct measurement of EPAC1 GEF activity (R1-M2). 3. The causal relationship between condensate formation and SUMOylation is not established (R1-M3). 4. The cAMP measurement is not fully described or validated (R1-M4). 5. The SIM mutant may have pleiotropic effects (R1-M5).
+- **Assessment against Nature-style criteria** Originality: The finding that EPAC1 is SUMOylated and that this activates its GEF activity independently of cAMP is novel and not previously reported. The link to condensate formation is also a new conceptual contribution. Scientific importance: The work has potential significance for understanding stress responses and EPAC1 signaling, which is relevant to cardiovascular and neurological diseases. However, the importance is tempered by the lack of direct mechanistic evidence. Interdisciplinary readership: The topic bridges SUMOylation, cAMP signaling, and phase separation, which could attract readers from multiple fields. Technical soundness: The MS identification of the SUMOylation site is a strength, but the functional and mechanistic experiments are incomplete. The MD simulations are not validated experimentally. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the Discussion could be more concise and focused on the key findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is potentially significant, but the current evidence does not fully establish the mechanistic claims. The authors should address the concerns regarding site-specific SUMOylation validation, direct GEF activity measurement, and the causal role of condensates.
+
+## Risk / unsupported claims
+- The claim that SUMOylation at K561 enhances EPAC1 GEF activity is not directly supported by the data, as only cellular Rap-GTP levels were measured.
+- The claim that the SIM is required for EPAC1 SUMOylation is weakened by the lack of evidence that the SIM mutant is otherwise properly folded and functional.
+- The claim that heat shock-induced EPAC1 SUMOylation occurs in nuclear condensates is not directly tested; the data only show co-localization.
+- The claim that the SUMO moiety provides an additional binding surface for Rap1 is based solely on MD simulations and is not experimentally validated.
+- The stoichiometry estimate of ~9% for K561 SUMOylation is based on PSM counts and may not accurately reflect the true stoichiometry in cells.
+- The manuscript states that "previous attempts to show SUMOylation of EPAC1 were not successful" but does not provide details of these attempts, making this claim unverifiable.

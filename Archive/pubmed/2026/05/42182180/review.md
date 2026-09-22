@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and acknowledgements. Supplementary figure and table titles are referenced but not provided.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by the presented evidence. No assessment of formatting, grammar, or editorial style beyond what affects scientific clarity.
+- **Shared manuscript claim summary** The authors systematically test the contributions of the N-terminal tail, latch, and αN-helix regions of histone H3 and CENP-A to nucleosomal DNA conformation using MNase digestion assays and coarse-grained molecular dynamics simulations. They report that no single region dictates conformation, that CENP-A regions promote open DNA states, and that all three H3 regions must be present together to achieve the closed canonical conformation.
+- **Visible evidence base** Abstract, full introduction, full methods, full results, full discussion, and acknowledgements. Figure 1 panels A-E, Figure 2 panels A-C, Figure 3 panels A-C, Figure 4 panels A-C, Figure 5 panels A-C, Figure 6 panels A-B are referenced. Supplementary Figures S1-S14 and Tables S1-S9 are referenced but not provided.
+- **Missing materials affecting confidence** All supplementary figures and tables, including raw MNase gel images, simulation convergence metrics, per-residue contact data, MM/GBSA energy tables, and KL divergence tables. Figure 1A sequence alignment is referenced but not shown. No statistical analysis details beyond mean and standard error of the mean are provided.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a relevant question in centromere biology: which regions of the CENP-A N-terminus contribute to the open DNA conformation of the centromeric nucleosome. The combination of biochemical MNase assays with coarse-grained simulations is appropriate and the systematic chimera approach is well conceived. However, the evidence as presented is incomplete. The key quantitative data, including all supplementary figures and tables, are not available for assessment. Several claims, particularly those regarding cooperativity and the sufficiency of individual regions, are only partially supported by the data described in the main text. The manuscript has potential but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying centromere structure and function, histone variants, nucleosome dynamics, and chromatin organization. The findings on multi-region redundancy in CENP-A may also interest those studying post-translational modification of centromeric histones and kinetochore assembly mechanisms.
+- **Major strengths** The systematic chimera design covering tail, latch, and αN-helix regions individually and in combination is a clear strength. The combination of experimental MNase assays with computational simulations provides complementary perspectives. The authors acknowledge limitations of all-atom simulations and justify the use of coarse-grained methods for accessing longer timescales. The discussion of prior literature and the identification of confounding chimera cutoffs in earlier studies is thoughtful and useful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that "progressive incorporation of multiple H3-derived regions produced increasingly closed DNA conformations, demonstrating that the H3 tail, latch, and αN-helices act cooperatively to stabilize wrapped nucleosomal DNA."
+  - **Evidence pointer** Figure 2, Figure 3, Figure 4, Figure 5, Figure 6, Table S9, location not provided for supplementary materials
+  - **Concern** The claim of cooperativity is central to the manuscript's conclusion, but the evidence presented in the main text is insufficient to evaluate it. The KL divergence values are only partially reported in the text, and the full table (Table S9) is not available. The text reports values for some chimeras but not all, and the statistical treatment of these values is unclear. The MNase data are described qualitatively ("more restricted," "more readily digested") without quantitative metrics or statistical comparisons across the full set of chimeras.
+  - **Why it matters** The cooperativity claim is the main conceptual advance of the paper. Without complete quantitative data across all chimera combinations, the reader cannot assess whether the trend toward closed conformations is monotonic, whether the effects are additive or synergistic, and whether the variability across replicas undermines the conclusion.
+  - **Resolution test** Provide the full KL divergence table with all chimera combinations, include statistical comparisons between chimeras, and show representative MNase digestion time courses with quantification for all constructs. Demonstrate that the progressive closure trend is statistically robust.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors state that "any single CENP-A N-terminal region was sufficient to open the canonical nucleosomal DNA conformation."
+  - **Evidence pointer** Figure 3, Figure 4, Figure 5, Figure 6, location not provided
+  - **Concern** This claim is based on individual swaps of tail, latch, and αN-helix into the H3 background. The text reports MNase results for each swap, but the quantitative support is not fully presented. For the tail swap, the text reports an intermediate MNase profile for the reverse direction but does not clearly describe the forward direction. For the latch swap, the text states that H3 with CENP-A latch has greater accessibility, but the KL divergence values are reported as 1.00 and 0.99 relative to H3, which would suggest complete divergence, yet the MNase data are described as "even to the extent of WT CENP-A NCP." The relationship between the KL divergence metric and the MNase accessibility metric is not explained.
+  - **Why it matters** The sufficiency claim for individual regions is a key finding. If each region alone can open the nucleosome, this has implications for how CENP-A maintains its open state. The discrepancy between the extreme KL values and the more moderate MNase descriptions needs reconciliation.
+  - **Resolution test** Provide a clear quantitative comparison of MNase digestion rates for all single-region swaps, with statistical tests. Explain the relationship between KL divergence and MNase accessibility. Clarify whether KL divergence values near 1.0 indicate complete divergence from H3 behavior or something else.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors claim that "coarse-grained simulations recapitulate biochemical determinations of differences in canonical and centromeric nucleosome DNA accessibility."
+  - **Evidence pointer** Figure 1C-D, Figure 1E, location not provided
+  - **Concern** The validation of the CG model against experimental data is described only briefly. The text states that CG simulations show H3 in a closed conformation and CENP-A in an open conformation, consistent with MNase data. However, the specific metric used to define "open" versus "closed" in the CG simulations is not clearly described. The end-to-dyad distance is mentioned, but the threshold for classifying a state as open or closed is not given. The relationship between the CG simulation results and the all-atom simulation results, which showed CENP-A in a compact conformation, is acknowledged but the resolution of this discrepancy is not fully explained.
+  - **Why it matters** The CG model is the primary tool for the mechanistic claims in the paper. If the model cannot be validated against experimental data in a transparent way, the subsequent chimera simulations are difficult to interpret.
+  - **Resolution test** Provide a clear description of the open/closed classification criteria in CG simulations. Show the distribution of end-to-dyad distances for WT H3 and CENP-A with statistical comparison. Explain how the CG model captures the experimentally observed difference despite the all-atom simulations showing the opposite trend.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** The authors suggest that "the multi-region redundancy in the conformational flexibility of the centromeric nucleosome could emphasize the importance of retaining flexibility in the centromeric nucleosome, even upon post-translational modification and binding to structural proteins."
+  - **Evidence pointer** Discussion section, location not provided
+  - **Concern** This interpretive claim extends beyond the data presented. The study does not test post-translational modifications or protein binding. The speculation about redundancy and flexibility is reasonable but is presented as a suggestion without direct evidence. The phrase "could emphasize" is appropriately cautious, but the connection between the chimera results and PTM resistance is not developed.
+  - **Why it matters** This claim may attract interest from a broader readership, but it is not supported by the experimental design. Overinterpretation could mislead readers about the scope of the findings.
+  - **Resolution test** Either remove or clearly label this as speculation beyond the data. If retained, provide a more detailed mechanistic rationale for why redundancy would confer resistance to PTMs or protein binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, first paragraph
+  - **Evidence pointer** Figure 1B, Figure S2A, location not provided
+  - **Issue** The MNase data are described with normalized band volumes at 60 minutes, but the full time course is not shown in the main text. The choice of the 60-minute time point for reporting is not justified.
+  - **Required correction** Show the full time course in the main text or clearly state that the 60-minute time point is representative. Justify the choice of this time point.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, MNase assays
+  - **Evidence pointer** Methods section, MNase assays subsection, location not provided
+  - **Issue** The MNase assay description lacks details on biological replicates, technical replicates, and statistical analysis. The number of independent experiments is not stated.
+  - **Required correction** Provide the number of replicates and the statistical tests used. State whether error bars represent biological or technical variation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Multiple locations, location not provided
+  - **Issue** The term "latch" is introduced as adapted from reference 35 but with a shorter definition. The relationship between this latch region and previously defined latch regions in the literature is not fully clarified.
+  - **Required correction** Provide a clear definition of the latch region boundaries and explain how this definition differs from prior usage.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, chimera characterization
+  - **Evidence pointer** Figures 2-6, location not provided
+  - **Issue** The text describes MNase results for each chimera, but the corresponding figures are not available for assessment. The reader cannot verify the described trends.
+  - **Required correction** Ensure all figures are accessible and clearly labeled. Consider showing representative gels alongside quantification.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Results, all-atom simulations
+  - **Evidence pointer** Figure S6B, location not provided
+  - **Issue** The text states that CENP-A all-atom simulations show a compact, closed conformation, which conflicts with the MNase data. The text notes this discrepancy but does not fully explain why the all-atom simulations fail to capture the open state.
+  - **Required correction** Provide a more detailed discussion of the limitations of all-atom simulations for this system and why the CG model is more appropriate.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, KL divergence
+  - **Evidence pointer** Table S9, location not provided
+  - **Issue** KL divergence values are reported with standard deviations, but the number of replicates and the method for combining across replicas are not described.
+  - **Required correction** State how many replicas were used for KL calculations and how the mean and standard deviation were computed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The cooperativity claim and the sufficiency claim for individual regions require the full quantitative dataset. The relationship between KL divergence and MNase accessibility must be clarified. R1-M3 requires clearer validation of the CG model.
+- **Assessment against Nature-style criteria** Originality: The systematic dissection of N-terminal regions in CENP-A nucleosomes is a useful contribution, though the general idea that N-terminal regions affect nucleosome stability is not new. The specific finding of multi-region redundancy is potentially original. Scientific importance: The work addresses a relevant question in centromere biology, but the importance is moderate. The findings refine understanding of CENP-A nucleosome determinants but do not fundamentally alter the current model. Interdisciplinary readership: The work will primarily interest chromatin biologists and biophysicists. The combination of biochemistry and simulation may attract computational biologists, but the appeal beyond these fields is limited. Technical soundness: The experimental design is sound, but the incomplete presentation of quantitative data prevents full assessment. The CG simulation approach is appropriate for the timescales needed, but validation is described too briefly. Readability for nonspecialists: The manuscript is generally well written and the logic is clear. The introduction and discussion are accessible. However, the results section assumes familiarity with nucleosome structure and simulation methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core question is relevant, the approach is appropriate, and the preliminary findings are interesting. However, the blocking concerns regarding data completeness and claim support must be addressed before the case is established.
+
+## Risk / unsupported claims
+- The claim that H3 tail, latch, and αN-helix act cooperatively is not fully supported without the complete KL divergence dataset and statistical comparisons.
+- The claim that any single CENP-A N-terminal region is sufficient to open the canonical nucleosome is not fully supported without complete MNase quantification for all single swaps.
+- The claim that the CG model recapitulates biochemical determinations is not fully assessable without the open/closed classification criteria and the distribution of end-to-dyad distances.
+- The speculation about redundancy conferring resistance to post-translational modifications and protein binding is unsupported by the experimental data.
+- The statement that "the H3 tail, latch, and αN-helix are all necessary to adopt a closed DNA conformation" is only supported for the full combination swap, not for the necessity of each individual region in the presence of the others.

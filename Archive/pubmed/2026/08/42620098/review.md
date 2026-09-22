@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; full text not available for verification
+- **Shared manuscript claim summary** The authors report that G3BP1 condensates transition from viscous fluids to dynamically arrested network glasses over time, driven by electrostatic interactions between oppositely charged intrinsically disordered regions (IDRs). RNA modulates this ageing in a length- and structure-dependent manner, delaying dynamical arrest, while Caprin-1 binding to the NTF2L domain has minimal effect. These conclusions are based on active and passive nanoscale rheology with optical tweezers, integrated with atomistic and coarse-grained simulations.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full text, experimental protocols, rheology data, simulation parameters, statistical analyses, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a compelling and potentially significant hypothesis regarding the molecular determinants of G3BP1 condensate ageing, with clear relevance to stress granule biology and neurodegenerative disease. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The mechanistic conclusions, particularly the attribution of dynamical arrest to specific electrostatic interactions and the modulatory role of RNA, require detailed experimental and simulation data to be assessed rigorously. The work is likely to interest a broad audience in biomolecular condensates, but the current evidence is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and liquid–liquid phase transitions; cell biologists investigating stress granule dynamics and their links to neurodegeneration; biophysicists interested in rheology and dynamical arrest in soft materials. The findings could inform therapeutic strategies targeting SG persistence in disease.
+- **Major strengths** The combination of active and passive nanoscale rheology with optical tweezers is a sophisticated approach to characterize material properties over time. The integration of atomistic and coarse-grained simulations with experiments is a strong strategy for mechanistic interpretation. The focus on competing inter-IDR and IDR–RNA interactions provides a conceptually clear framework for condensate ageing. The study addresses a timely and important question in the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that G3BP1 condensates evolve from viscous fluids to dynamically arrested network glasses characterized by nanoscale caging and elastic memory.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states this transition as a central finding, but no quantitative rheological data (e.g., frequency-dependent moduli, mean squared displacement, or cage size) are presented. The terms "network glasses," "nanoscale caging," and "elastic memory" imply specific mechanical signatures that cannot be evaluated without the underlying data.
+  - **Why it matters** The dynamical arrest transition is the core phenomenological claim. Without quantitative evidence, the reader cannot assess whether the observed behaviour is distinct from simple viscosity increase or other ageing mechanisms.
+  - **Resolution test** Provide rheological data showing a clear crossover from viscous to elastic-dominated response, with metrics such as loss tangent, plateau modulus, and relaxation time as functions of time. Include representative traces and statistical replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic attribution
+  - **Claim pointer** The claim that electrostatic interactions between oppositely charged IDRs drive condensate ageing.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The attribution of ageing to specific electrostatic interactions is stated as a conclusion, but the abstract does not describe how this was tested. No mention of mutagenesis, salt dependence, charge-altering modifications, or simulation-based perturbation analyses is provided.
+  - **Why it matters** Without direct perturbation of the proposed interactions, alternative mechanisms (e.g., hydrophobic effects, conformational changes, or non-specific crowding) cannot be excluded. The mechanistic claim is central to the paper's significance.
+  - **Resolution test** Show that altering electrostatic interactions (e.g., via salt concentration, charge mutations, or phosphorylation mimics) systematically changes the ageing kinetics and final material state, with corresponding simulation support.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that RNA modulates ageing in a length- and structure-dependent manner, delaying dynamical arrest.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a modulatory role for RNA but provides no details on the range of RNA lengths or structures tested, the concentrations used, or the magnitude of the effect. The claim of "length- and structure-dependent" behaviour requires a systematic dataset.
+  - **Why it matters** RNA is a key physiological component of stress granules, and its role in ageing is a major novel aspect. Without evidence, the claim remains speculative.
+  - **Resolution test** Provide a systematic matrix of RNA constructs (varying length, secondary structure, and sequence composition) with quantitative measures of ageing delay, and show that the effect correlates with specific RNA features.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Negative control interpretation
+  - **Claim pointer** The claim that Caprin-1 binding to the NTF2L domain has little effect on dynamical arrest.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states a negative result for Caprin-1, but the context is unclear. It is not specified whether Caprin-1 was tested under conditions where ageing occurs, at what concentrations, or whether binding was verified.
+  - **Why it matters** Negative results are informative only if the experimental system is validated. If Caprin-1 binding was not confirmed or the conditions were not permissive for ageing, the conclusion is weakened.
+  - **Resolution test** Confirm Caprin-1 binding under the experimental conditions, show that the ageing assay is sensitive to other perturbations, and provide dose–response data for Caprin-1.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "network glasses" is used without definition or contextualization. It is unclear whether this refers to a specific rheological class or a descriptive term.
+  - **Required correction** Define "network glasses" in the context of soft materials and clarify the operational criteria used to classify the condensates as such.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the protein concentration, buffer conditions, temperature, or time scale of the ageing experiments. These parameters are critical for reproducibility.
+  - **Required correction** Include key experimental conditions in the methods summary or main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigour
+  - **Affected element** Quantitative claims
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract makes quantitative claims (e.g., "delaying dynamical arrest") without reporting effect sizes, error bars, or statistical significance.
+  - **Required correction** Report quantitative metrics with appropriate statistical analyses in the results section.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core phenomenological and mechanistic claims cannot be evaluated from the abstract alone. R1-M4 is important but not blocking if the primary claims are supported.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of competing inter-IDR and IDR–RNA interactions governing ageing is novel and extends beyond prior work on condensate maturation. 
+  - Scientific importance: The topic is of high importance given the link between persistent stress granules and neurodegeneration. 
+  - Interdisciplinary readership: The work bridges biophysics, cell biology, and soft matter physics, appealing to a broad audience. 
+  - Technical soundness: Cannot be assessed from the abstract; requires full data. 
+  - Readability for nonspecialists: The abstract is concise but uses specialized terms (e.g., "dynamical arrest," "nanoscale caging") that may be opaque to non-experts. A brief explanation of these concepts would improve accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the central claims require full experimental and simulation data for verification. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The transition from viscous fluids to dynamically arrested network glasses is unsupported without rheological data.
+- The attribution of ageing to electrostatic interactions between oppositely charged IDRs is unsupported without perturbation experiments.
+- The length- and structure-dependent modulation of ageing by RNA is unsupported without a systematic dataset.
+- The claim that Caprin-1 binding has little effect is unsupported without validated negative controls.
+- The broader implications for stress granule dynamics in cells are speculative and not directly tested.

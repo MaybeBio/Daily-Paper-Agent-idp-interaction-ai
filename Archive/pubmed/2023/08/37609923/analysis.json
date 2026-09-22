@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37609923",
+  "title": "PredLLPS_PSSM: a novel predictor for liquid-liquid protein separation identification based on evolutionary information and a deep neural network.",
+  "authors": "Zhou, Shengming; Zhou, Yetong; Liu, Tian; Zheng, Jia; Jia, Cangzhi",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-08-23",
+  "window": {
+    "start": "2023-08-21",
+    "end": "2023-08-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用PSSM进化信息和深度学习预测LLPS蛋白，对象为无序相分离蛋白，但仅做序列分类预测，未涉及PPI互作机制建模，方法可迁移但互作轴缺失。",
+  "abstract": "The formation of biomolecular condensates by liquid-liquid phase separation (LLPS) has become a universal mechanism for spatiotemporal coordination of biological activities in cells and has been widely observed to directly regulate the key cellular processes involved in cancer cell pathology. However, the complexity of protein sequences and the diversity of conformations are inherently disordered, which poses great challenges for LLPS protein calculations and experimental research. Herein, we proposed a novel predictor named PredLLPS_PSSM for LLPS protein identification based only on sequence evolution information. Because finding real and reliable samples is the cornerstone of building predictors, we collected anew and collated the LLPS proteins from the latest versions of three databases. By comparing the performance of the position-specific score matrix (PSSM) and word embedding, PredLLPS_PSSM combined PSSM-based information and two deep learning frameworks. Independent tests using three existing independent test datasets and two newly constructed independent test datasets demonstrated the superiority of PredLLPS_PSSM compared with state-of-the-art methods. Furthermore, we tested PredLLPS_PSSM on nine experimentally identified LLPS proteins from three insects that were not included in any of the databases. In addition, the powerful Shapley Additive exPlanation algorithm and heatmap were applied to find the most critical amino acids relevant to LLPS.",
+  "abstract_zh": "通过液-液相分离（LLPS）形成生物分子凝聚体已成为细胞内生物活动时空协调的普遍机制，并被广泛观察到直接调控涉及癌细胞病理学的关键细胞过程。然而，蛋白质序列的复杂性和构象的多样性本质上是无序的，这对LLPS蛋白的计算和实验研究构成了巨大挑战。在此，我们提出了一种名为PredLLPS_PSSM的新型预测器，仅基于序列进化信息来识别LLPS蛋白。由于寻找真实可靠的样本是构建预测器的基石，我们从三个数据库的最新版本中重新收集并整理了LLPS蛋白。通过比较位置特异性评分矩阵（PSSM）和词嵌入的性能，PredLLPS_PSSM结合了基于PSSM的信息和两种深度学习框架。使用三个现有独立测试数据集和两个新构建的独立测试数据集的独立测试表明，PredLLPS_PSSM相较于最先进方法具有优越性。此外，我们在来自三种昆虫的九个实验鉴定的LLPS蛋白上测试了PredLLPS_PSSM，这些蛋白未包含在任何数据库中。另外，应用了强大的Shapley加性解释算法和热图来寻找与LLPS相关的最关键氨基酸。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37609923/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37609923/",
+  "paper_page_path": "papers/pubmed/37609923/index.html"
+}

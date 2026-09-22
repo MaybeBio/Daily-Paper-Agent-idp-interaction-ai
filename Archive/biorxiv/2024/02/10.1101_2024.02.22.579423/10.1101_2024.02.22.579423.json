@@ -1,0 +1,269 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.22.579423",
+  "title": "A specific phosphorylation-dependent conformational switch of SARS-CoV-2 nucleoprotein inhibits RNA binding",
+  "doi": "10.1101/2024.02.22.579423",
+  "abstract": "The nucleoprotein (N) of SARS-CoV-2 encapsidates the viral genome and is essential for viral function. The central disordered domain comprises a serine-arginine-rich domain (SR) that is hyperphosphorylated in infected cells. This modification is thought to regulate function of N, although mechanistic details remain unknown. We use time-resolved NMR to follow local and long-range structural changes occurring during hyperphosphorylation by the kinases SRPK1/GSK-3/CK1, thereby identifying a conformational switch that abolishes interaction with RNA. When 8 approximately uniformly-distributed sites are phosphorylated, the SR domain competitively binds the same interface as single-stranded RNA, resulting in RNA binding inhibition. Phosphorylation by PKA does not prevent RNA binding, indicating that the pattern resulting from the physiologically-relevant kinases is specific for inhibition. Long-range contacts between the RNA-binding, linker and dimerization domains are also abrogated, phenomena possibly related to genome packaging and unpackaging. This study provides insight into recruitment of specific host kinases to regulate viral function.",
+  "authors": [
+    "Botova M",
+    "Camacho-Zarco AR",
+    "Tognetti J",
+    "Bessa LM",
+    "Guseva S",
+    "Mikkola E",
+    "Salvi N",
+    "Maurin D",
+    "Herrmann T",
+    "Blackledge M"
+  ],
+  "published_date": "2024-02-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.22.579423",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.22.579423.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR811333",
+    "raw_record": {
+      "id": "PPR811333",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR811333"
+        ]
+      },
+      "doi": "10.1101/2024.02.22.579423",
+      "title": "A specific phosphorylation-dependent conformational switch of SARS-CoV-2 nucleoprotein inhibits RNA binding",
+      "authorString": "Botova M, Camacho-Zarco AR, Tognetti J, Bessa LM, Guseva S, Mikkola E, Salvi N, Maurin D, Herrmann T, Blackledge M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Botova M",
+            "lastName": "Botova",
+            "firstName": "Maiia",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Camacho-Zarco AR",
+            "lastName": "Camacho-Zarco",
+            "firstName": "Aldo",
+            "initials": "AR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tognetti J",
+            "lastName": "Tognetti",
+            "firstName": "Jacqueline",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bessa LM",
+            "lastName": "Bessa",
+            "firstName": "Luiza Mamigonian",
+            "initials": "LM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guseva S",
+            "lastName": "Guseva",
+            "firstName": "Serafima",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9706-5035"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mikkola E",
+            "lastName": "Mikkola",
+            "firstName": "Emmi",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Salvi N",
+            "lastName": "Salvi",
+            "firstName": "Nicola",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maurin D",
+            "lastName": "Maurin",
+            "firstName": "Damien",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Herrmann T",
+            "lastName": "Herrmann",
+            "firstName": "Torsten",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blackledge M",
+            "lastName": "Blackledge",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9706-5035"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The nucleoprotein (N) of SARS-CoV-2 encapsidates the viral genome and is essential for viral function. The central disordered domain comprises a serine-arginine-rich domain (SR) that is hyperphosphorylated in infected cells. This modification is thought to regulate function of N, although mechanistic details remain unknown. We use time-resolved NMR to follow local and long-range structural changes occurring during hyperphosphorylation by the kinases SRPK1/GSK-3/CK1, thereby identifying a conformational switch that abolishes interaction with RNA. When 8 approximately uniformly-distributed sites are phosphorylated, the SR domain competitively binds the same interface as single-stranded RNA, resulting in RNA binding inhibition. Phosphorylation by PKA does not prevent RNA binding, indicating that the pattern resulting from the physiologically-relevant kinases is specific for inhibition. Long-range contacts between the RNA-binding, linker and dimerization domains are also abrogated, phenomena possibly related to genome packaging and unpackaging. This study provides insight into recruitment of specific host kinases to regulate viral function.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.02.22.579423"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.02.22.579423"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR811333"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR811333&type=FILE&fileName=EMS194453-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS194453",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-02-28",
+      "firstPublicationDate": "2024-02-23",
+      "firstIndexDate": "2024-02-28",
+      "fullTextReceivedDate": "2024-03-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

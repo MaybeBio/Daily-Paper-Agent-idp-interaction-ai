@@ -1,0 +1,441 @@
+{
+  "identity": {
+    "pmid": "38042897",
+    "doi": "10.1038/s41467-023-43742-w",
+    "title": "Programmable de novo designed coiled coil-mediated phase separation in mammalian cells."
+  },
+  "content": {
+    "abstract": "Membraneless liquid compartments based on phase-separating biopolymers have been observed in diverse cell types and attributed to weak multivalent interactions predominantly based on intrinsically disordered domains. The design of liquid-liquid phase separated (LLPS) condensates based on de novo designed tunable modules that interact in a well-understood, controllable manner could improve our understanding of this phenomenon and enable the introduction of new features. Here we report the construction of CC-LLPS in mammalian cells, based on designed coiled-coil (CC) dimer-forming modules, where the stability of CC pairs, their number, linkers, and sequential arrangement govern the transition between diffuse, liquid and immobile condensates and are corroborated by coarse-grained molecular simulations. Through modular design, we achieve multiple coexisting condensates, chemical regulation of LLPS, condensate fusion, formation from either one or two polypeptide components or LLPS regulation by a third polypeptide chain. These findings provide further insights into the principles underlying LLPS formation and a design platform for controlling biological processes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Peptides",
+      "*Intrinsically Disordered Proteins/metabolism",
+      "Mammals/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramsak, Marusa",
+        "Ramirez, Dominique A",
+        "Hough, Loren E",
+        "Shirts, Michael R",
+        "Vidmar, Sara",
+        "Elersic Filipic, Kristina",
+        "Anderluh, Gregor",
+        "Jerala, Roman"
+      ],
+      "short_names": [
+        "Ramsak M",
+        "Ramirez DA",
+        "Hough LE",
+        "Shirts MR",
+        "Vidmar S",
+        "Elersic Filipic K",
+        "Anderluh G",
+        "Jerala R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0868-2603",
+        "ORCID: 0000-0002-9916-8465",
+        "ORCID: 0000-0002-6337-5251"
+      ],
+      "affiliations": [
+        "Department of Synthetic Biology and Immunology, National Institute of Chemistry, Ljubljana, Slovenia.",
+        "Interdisciplinary doctoral study of biomedicine, Medical Faculty, University of Ljubljana, Ljubljana, Slovenia.",
+        "Department of Biochemistry, University of Colorado Boulder, Boulder, CO, USA.",
+        "Department of Physics and BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA.",
+        "Department of Chemical and Biological Engineering, University of Colorado Boulder, Boulder, CO, USA.",
+        "Department of Synthetic Biology and Immunology, National Institute of Chemistry, Ljubljana, Slovenia.",
+        "Interdisciplinary doctoral study of biomedicine, Medical Faculty, University of Ljubljana, Ljubljana, Slovenia.",
+        "Department of Molecular Biology and Nanobiotechnology, National Institute of Chemistry, Ljubljana, Slovenia.",
+        "Department of Molecular Biology and Nanobiotechnology, National Institute of Chemistry, Ljubljana, Slovenia.",
+        "Department of Synthetic Biology and Immunology, National Institute of Chemistry, Ljubljana, Slovenia. roman.jerala@ki.si."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramšak, Maruša",
+        "short_name": "Ramšak M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Synthetic Biology and Immunology, National Institute of Chemistry, Ljubljana, Slovenia.",
+          "Interdisciplinary doctoral study of biomedicine, Medical Faculty, University of Ljubljana, Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Ramirez, Dominique A",
+        "short_name": "Ramirez DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Colorado Boulder, Boulder, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Hough, Loren E",
+        "short_name": "Hough LE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and BioFrontiers Institute, University of Colorado Boulder, Boulder, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Shirts, Michael R",
+        "short_name": "Shirts MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, University of Colorado Boulder, Boulder, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Vidmar, Sara",
+        "short_name": "Vidmar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Synthetic Biology and Immunology, National Institute of Chemistry, Ljubljana, Slovenia.",
+          "Interdisciplinary doctoral study of biomedicine, Medical Faculty, University of Ljubljana, Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Eleršič Filipič, Kristina",
+        "short_name": "Eleršič Filipič K",
+        "identifiers": [
+          "0000-0002-0868-2603"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Nanobiotechnology, National Institute of Chemistry, Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Anderluh, Gregor",
+        "short_name": "Anderluh G",
+        "identifiers": [
+          "0000-0002-9916-8465"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Nanobiotechnology, National Institute of Chemistry, Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Jerala, Roman",
+        "short_name": "Jerala R",
+        "identifiers": [
+          "0000-0002-6337-5251"
+        ],
+        "affiliations": [
+          "Department of Synthetic Biology and Immunology, National Institute of Chemistry, Ljubljana, Slovenia. roman.jerala@ki.si."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Dec 2",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/03 00:42",
+    "fetched_at": "2026-09-21 03:08:51"
+  },
+  "links": {
+    "cites": [
+      "42521680",
+      "42339573",
+      "42283388",
+      "42192130",
+      "41688461",
+      "41620421",
+      "41469832",
+      "41416523",
+      "41142996",
+      "41118627",
+      "41004005",
+      "40766523",
+      "40555785",
+      "40475503",
+      "40463193",
+      "40222010",
+      "40195042",
+      "39868245",
+      "39824169",
+      "39424799",
+      "38971158",
+      "38885177",
+      "38736449",
+      "38356260"
+    ],
+    "refs": [
+      "38456967",
+      "38356260",
+      "38228615",
+      "37710047",
+      "36747054",
+      "36702825",
+      "36400992",
+      "36163138",
+      "35911447",
+      "35802394",
+      "35761089",
+      "35747925",
+      "35481633",
+      "34887424",
+      "34433013",
+      "34358306",
+      "34308971",
+      "34302807",
+      "34256335",
+      "33704371",
+      "33577679",
+      "33510441",
+      "33330512",
+      "33069007",
+      "32747754",
+      "32726575",
+      "32668013",
+      "32661377",
+      "32312191",
+      "32203417",
+      "32165560",
+      "32029630",
+      "32004090",
+      "31937751",
+      "31907374",
+      "31754043",
+      "31634364",
+      "31456657",
+      "31270472",
+      "31260322",
+      "31176175",
+      "31043738",
+      "30951647",
+      "30923194",
+      "30682370",
+      "30531965",
+      "30500535",
+      "30500534",
+      "29859829",
+      "29381060",
+      "29307513",
+      "29091028",
+      "28935776",
+      "28553984",
+      "28279363",
+      "28264915",
+      "28225081",
+      "28041848",
+      "27552079",
+      "27392146",
+      "27374333",
+      "27212236",
+      "27056844",
+      "26412307",
+      "26406374",
+      "26015579",
+      "25747659",
+      "25664692",
+      "25477226",
+      "25321392",
+      "23624438",
+      "22558529",
+      "22530732",
+      "22398450",
+      "21368180",
+      "21234981",
+      "19460965",
+      "19363495",
+      "15837514",
+      "12431374",
+      "9811549",
+      "9649402"
+    ],
+    "similar": [
+      "38042897",
+      "38356260",
+      "41272974",
+      "40098319",
+      "40463193",
+      "29511089",
+      "37398035",
+      "41457474",
+      "39987501",
+      "37735903",
+      "31444270",
+      "35802394",
+      "36702825",
+      "38979955",
+      "35918061",
+      "41497175",
+      "31941785",
+      "33913240",
+      "38322526",
+      "37794023",
+      "33076213",
+      "41206632",
+      "36524527",
+      "35142991",
+      "29526694",
+      "28924037",
+      "34522448",
+      "36227468",
+      "33139563",
+      "38252962",
+      "34716273",
+      "38308651",
+      "37032432",
+      "36575582",
+      "31784535",
+      "32824618",
+      "37735186",
+      "37815389",
+      "34291921",
+      "34951585",
+      "33260713",
+      "39947751",
+      "33876938",
+      "41480717",
+      "33765580",
+      "39833115",
+      "38804888",
+      "37290157",
+      "34830152",
+      "37496271",
+      "40324711",
+      "36444977",
+      "33971237",
+      "33453922",
+      "40372645",
+      "40616404",
+      "36350034",
+      "39257779",
+      "31911439",
+      "41009632",
+      "34029402",
+      "41001641",
+      "33923223",
+      "32696384",
+      "40943143",
+      "39256186",
+      "32482873",
+      "36657879",
+      "29716768",
+      "31237369",
+      "34619090",
+      "35883530",
+      "41064885",
+      "38316988",
+      "41363845",
+      "32312191",
+      "41039633",
+      "35252623",
+      "37222424",
+      "40291420",
+      "41307542",
+      "37189373",
+      "40588121",
+      "38855848",
+      "38547652",
+      "30926670",
+      "41442811",
+      "41250174",
+      "33583140",
+      "33555894",
+      "36471564",
+      "40848932",
+      "32405004",
+      "32393642",
+      "35481633",
+      "37293933",
+      "37964343",
+      "34106723",
+      "37662293",
+      "33574245"
+    ],
+    "review": [
+      "38042897",
+      "37735903",
+      "31444270",
+      "35802394",
+      "38979955",
+      "41497175",
+      "33913240",
+      "41206632",
+      "36524527",
+      "35142991",
+      "34522448",
+      "37032432",
+      "32824618",
+      "34291921",
+      "33260713",
+      "39947751",
+      "41480717",
+      "33765580",
+      "34830152",
+      "37496271",
+      "40616404",
+      "36350034",
+      "31911439",
+      "41009632",
+      "40943143",
+      "29716768",
+      "31237369",
+      "34619090",
+      "32312191",
+      "41307542",
+      "38855848",
+      "38547652",
+      "41442811",
+      "33583140"
+    ],
+    "pmc": [
+      "10693550"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-43742-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38042897/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38042897",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38042897",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

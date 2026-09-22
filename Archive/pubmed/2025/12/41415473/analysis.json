@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41415473",
+  "title": "RNA modulates FUS condensate assembly, dynamics, and aggregation through diverse molecular contacts.",
+  "authors": "Zheng, Tongyin; Sojitra, Kandarp A; Cummings, Samara; Chen, Qizan; Mohanty, Priyesh; Mittal, Jeetain; Fawzi, Nicolas L",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-12-19",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合NMR与分子动力学模拟，揭示RNA通过多种分子接触调控FUS无序区域相分离凝聚体的组装、动态及纤维化成熟，直接聚焦IDR介导的互作机制建模，与课题高度契合。",
+  "abstract": "Fused in sarcoma (FUS) is an RNA-binding protein that undergoes phase separation with RNA and other cellular components, forming ribonucleoprotein (RNP) granules. While recent advances delineating the molecular forces that underlie phase separation have largely focused on protein-protein interactions (1-6), the molecular details of protein-RNA interactions within condensates remain limited. In this study, we demonstrate that RNA modulates the phase separation of the low-complexity (LC) and arginine-glycine-glycine motif (RGG1) domains of FUS: low RNA concentrations enhance protein phase separation and excess RNA disrupts it. By integrating biochemical assays, NMR spectroscopy, and molecular dynamics simulations, we show that RNA incorporates into FUS condensates, reducing condensate density while enhancing local relaxation and diffusional motion of FUS. Surprisingly, whereas RNA binding in the dispersed phase primarily involves the RGG1 domain, within the condensed phase, both LC and RGG1 domains contribute to interactions with RNA. NMR and simulation data show diverse interactions between amino acids and RNA moieties, including prominent glutamine-RNA contacts, that stabilize FUS-RNA co-condensates. Furthermore, we found that RNA accelerates the liquid-to-solid transition of FUS LC-RGG1 condensates, promoting fibrillar aggregate formation. Together, these results provide mechanistic insight into how RNA regulates the assembly, dynamics, and maturation of protein condensates.",
+  "abstract_zh": "肉瘤融合蛋白 (FUS) 是一种RNA结合蛋白，与RNA及其他细胞组分发生相分离 (phase separation)，形成核糖核蛋白 (RNP) 颗粒。尽管近期进展已阐明相分离背后的分子力，主要聚焦于蛋白质-蛋白质相互作用 (1-6)，但凝聚体内蛋白质-RNA相互作用的分子细节仍有限。在本研究中，我们证明RNA调节FUS低复杂度 (LC) 和精氨酸-甘氨酸-甘氨酸基序 (RGG1) 结构域的相分离：低RNA浓度增强蛋白质相分离，而过量RNA则破坏之。通过整合生化测定、核磁共振波谱 (NMR spectroscopy) 和分子动力学 (molecular dynamics) 模拟，我们显示RNA掺入FUS凝聚体，降低凝聚体密度，同时增强FUS的局部弛豫和扩散运动。令人惊讶的是，尽管分散相中RNA结合主要涉及RGG1结构域，但在凝聚相内，LC和RGG1结构域均参与与RNA的相互作用。NMR和模拟数据显示氨基酸与RNA部分之间存在多种相互作用，包括显著的谷氨酰胺-RNA接触，这些稳定FUS-RNA共凝聚体。此外，我们发现RNA加速FUS LC-RGG1凝聚体的液-固转变，促进纤维状聚集体形成。综合来看，这些结果为RNA如何调节蛋白质凝聚体的组装、动力学和成熟提供了机制性见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41415473/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41415473/",
+  "paper_page_path": "papers/pubmed/41415473/index.html"
+}

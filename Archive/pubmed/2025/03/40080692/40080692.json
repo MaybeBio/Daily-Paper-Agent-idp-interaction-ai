@@ -1,0 +1,222 @@
+{
+  "identity": {
+    "pmid": "40080692",
+    "doi": "10.1021/acs.jpcb.4c08640",
+    "title": "Impact of Polydispersity on Phase Separation: Insights from Polyethylene Glycol and Dextran Mixtures."
+  },
+  "content": {
+    "abstract": "The dynamic formation of (bio)molecular condensates has emerged as a key regulatory mechanism in cellular processes. Concepts from polymer physics can provide valuable insights into the underlying mechanisms and properties of these condensates. While stoichiometric interactions between chemically distinct molecules have traditionally been the primary focus for understanding and predicting the equilibrium behavior, recent attention has turned to the role of molecular diversity, particularly the interplay between molecules of similar types but varying chain lengths. To mimic such cellular conditions, we investigated the impact of molecular weight polydispersity using polyethylene glycol (PEG) and dextran (Dex) solutions through experiments and molecular simulations. Our findings reveal that polydisperse systems, which contain a higher fraction of short-chain components, exhibit a narrower two-phase region, along with reduced concentration differences and interfacial tension between the coexisting polymer-rich and polymer-poor phases. In these systems, the Dex-rich phase is enriched with longer Dex chains compared to the PEG-rich phase, with a gradual transition in chain length across their interface. However, polydispersity has no significant effects on the critical concentration and critical exponents. Finally, our study of condensation kinetics demonstrates that phase separation is not limited by the nucleation rate but instead by the diffusion-driven aggregation of polymers.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kamo, Akari",
+        "Nikoubashman, Arash",
+        "Yanagisawa, Miho"
+      ],
+      "short_names": [
+        "Kamo A",
+        "Nikoubashman A",
+        "Yanagisawa M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0563-825X",
+        "ORCID: 0000-0001-7872-8286"
+      ],
+      "affiliations": [
+        "Department of Physics, Graduate School of Science, The University of Tokyo, Hongo 7-3-1, Bunkyo, Tokyo 113-0033, Japan.",
+        "Komaba Institute for Science, Graduate School of Arts and Sciences, The University of Tokyo, Komaba 3-8-1, Meguro, Tokyo 153-8902, Japan.",
+        "Leibniz-Institut fur Polymerforschung Dresden e.V., Hohe Strasse 6, 01069 Dresden, Germany.",
+        "Institut fur Theoretische Physik, Technische Universitat Dresden, 01069 Dresden, Germany.",
+        "Department of Mechanical Engineering, Keio University, Hiyoshi 3-14-1, Kohoku, Yokohama 223-8522, Japan.",
+        "Department of Physics, Graduate School of Science, The University of Tokyo, Hongo 7-3-1, Bunkyo, Tokyo 113-0033, Japan.",
+        "Komaba Institute for Science, Graduate School of Arts and Sciences, The University of Tokyo, Komaba 3-8-1, Meguro, Tokyo 153-8902, Japan.",
+        "Center for Complex Systems Biology, Universal Biology Institute, The University of Tokyo, Komaba 3-8-1, Meguro, Tokyo 153-8902, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kamo, Akari",
+        "short_name": "Kamo A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Graduate School of Science, The University of Tokyo, Hongo 7-3-1, Bunkyo, Tokyo 113-0033, Japan.",
+          "Komaba Institute for Science, Graduate School of Arts and Sciences, The University of Tokyo, Komaba 3-8-1, Meguro, Tokyo 153-8902, Japan."
+        ]
+      },
+      {
+        "full_name": "Nikoubashman, Arash",
+        "short_name": "Nikoubashman A",
+        "identifiers": [
+          "0000-0003-0563-825X"
+        ],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung Dresden e.V., Hohe Straße 6, 01069 Dresden, Germany.",
+          "Institut für Theoretische Physik, Technische Universität Dresden, 01069 Dresden, Germany.",
+          "Department of Mechanical Engineering, Keio University, Hiyoshi 3-14-1, Kohoku, Yokohama 223-8522, Japan."
+        ]
+      },
+      {
+        "full_name": "Yanagisawa, Miho",
+        "short_name": "Yanagisawa M",
+        "identifiers": [
+          "0000-0001-7872-8286"
+        ],
+        "affiliations": [
+          "Department of Physics, Graduate School of Science, The University of Tokyo, Hongo 7-3-1, Bunkyo, Tokyo 113-0033, Japan.",
+          "Komaba Institute for Science, Graduate School of Arts and Sciences, The University of Tokyo, Komaba 3-8-1, Meguro, Tokyo 153-8902, Japan.",
+          "Center for Complex Systems Biology, Universal Biology Institute, The University of Tokyo, Komaba 3-8-1, Meguro, Tokyo 153-8902, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Mar 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/14 11:24",
+    "fetched_at": "2026-09-21 16:32:45"
+  },
+  "links": {
+    "cites": [
+      "41895297",
+      "40534413"
+    ],
+    "refs": [],
+    "similar": [
+      "40080692",
+      "23912807",
+      "36771812",
+      "22292882",
+      "31024898",
+      "30448052",
+      "29307533",
+      "29257868",
+      "39876094",
+      "38922294",
+      "16942068",
+      "11381165",
+      "26356592",
+      "40216775",
+      "36993212",
+      "19045876",
+      "30775366",
+      "27155914",
+      "34487929",
+      "38506647",
+      "37577555",
+      "36883003",
+      "31275925",
+      "27697738",
+      "24224915",
+      "17949213",
+      "35330124",
+      "25068649",
+      "34101437",
+      "35753080",
+      "37856873",
+      "24449656",
+      "33799773",
+      "17266278",
+      "33640380",
+      "26056715",
+      "30101891",
+      "32048659",
+      "18507435",
+      "34757724",
+      "39458610",
+      "39655866",
+      "27314278",
+      "21525554",
+      "34418942",
+      "18592533",
+      "33864415",
+      "7521213",
+      "18378246",
+      "29664641",
+      "12391331",
+      "16290867",
+      "27016118",
+      "21752387",
+      "2472777",
+      "16375565",
+      "36463407",
+      "37684240",
+      "17949017",
+      "37205474",
+      "23256665",
+      "17580854",
+      "23872180",
+      "39071308",
+      "38949285",
+      "25481167",
+      "39088740",
+      "21599087",
+      "21391644",
+      "27043009",
+      "36222390",
+      "39044475",
+      "38351888",
+      "30234101",
+      "32790387",
+      "31017394",
+      "34301028",
+      "15743267",
+      "20175569",
+      "7699201",
+      "15600411",
+      "23567187",
+      "25122327",
+      "8893281",
+      "37403605",
+      "18366204",
+      "23581424",
+      "12689758",
+      "35378855",
+      "18597772",
+      "22223510",
+      "32914922",
+      "16254391",
+      "29890250",
+      "10630869",
+      "39086358",
+      "8961153",
+      "39078658",
+      "21397633",
+      "5683507"
+    ],
+    "review": [
+      "40080692",
+      "31024898",
+      "21752387",
+      "23872180"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.4c08640",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

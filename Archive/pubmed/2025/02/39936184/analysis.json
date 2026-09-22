@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39936184",
+  "title": "Mechanistic insights into the phosphorylation-regulated a disordered protein interaction module.",
+  "authors": "Zang, Yongjian; Ni, Yu; Li, Xuhua; Yang, Zhiwei; Fu, Zhaoming; Zhang, Shengli",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2025-02-12",
+  "window": {
+    "start": "2025-02-10",
+    "end": "2025-02-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用分子动力学模拟研究TFIIS N端结构域(TND)与无序配体TIM的互作模块，揭示磷酸化调控TND-TIM结合亲和力的原子级机制，属于无序蛋白互作机制建模，方法为物理模拟，对象与互作轴均强，但未涉及AI或相分离，故评8分。",
+  "abstract": "The TFIIS N-terminal domain (TND) is a crucial protein scaffold that selectively recognizes disordered ligands, known as TND-interacting motifs (TIMs). Understanding the specific mechanisms of TND-TIM interactions is essential for deciphering the transcription machinery. Here, we investigated the conformational ensembles of the TND-TIM interaction module using molecular dynamics simulations. The study revealed that the experimental structures of TND-TIM complexes, including P75-PogZ and P75-IWS1, maintained stable conformations during microsecond-long simulations, even when the linked proteins between TND and TIM were removed or when TIM was phosphorylated. Conversely, both P75-ASK and HRP2-IWS1, prepared based on the structure of P75-IWS1, are unstable in simulations; for example, the helix-1 of TIMs shifts from their initial binding site on TND. However, phosphorylation enhances TND-TIM interactions and rapidly stabilizes the complex structure. A general rule for phosphorylation regulation of TND-TIM interactions is identified: the phosphoryl group of TIM forms hydrogen bonds with the positively charged side chains of TND residues, promoting dynamic correlation between TND and the Ser-containing acidic linker of TIM, and enhancing residue-residue interactions among helix-1 and FXGF motif of TIM with TND. These phosphorylation-induced changes resulted in a higher affinity between TND and TIM. Our study provides insights into the phosphorylation-regulated TND-TIM interaction module at an atomic level, facilitating a deeper understanding of the molecular mechanisms of protein interactome assembly in transcription machinery.",
+  "abstract_zh": "TFIIS N端结构域（TND）是一个关键的蛋白质支架，能够选择性识别无序配体，即所谓的TND相互作用基序（TIMs）。理解TND-TIM相互作用的特定机制对于解析转录机制至关重要。在此，我们利用分子动力学模拟研究了TND-TIM相互作用模块的构象系综。研究表明，TND-TIM复合物的实验结构，包括P75-PogZ和P75-IWS1，在微秒级模拟过程中保持稳定构象，即使TND与TIM之间的连接蛋白被移除或TIM被磷酸化时也是如此。相反，基于P75-IWS1结构制备的P75-ASK和HRP2-IWS1在模拟中均不稳定；例如，TIM的螺旋-1从其初始结合位点移位。然而，磷酸化增强了TND-TIM相互作用，并迅速稳定了复合物结构。我们识别出TND-TIM相互作用磷酸化调控的一般规律：TIM的磷酸基团与TND残基的正电荷侧链形成氢键，促进TND与含丝氨酸的TIM酸性连接子之间的动态相关性，并增强TIM的螺旋-1和FXGF基序与TND之间的残基-残基相互作用。这些磷酸化诱导的变化导致TND与TIM之间的亲和力提高。我们的研究在原子水平上提供了对磷酸化调控的TND-TIM相互作用模块的见解，有助于更深入地理解转录机制中蛋白质互作组组装的分子机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39936184/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39936184/",
+  "paper_page_path": "papers/pubmed/39936184/index.html"
+}

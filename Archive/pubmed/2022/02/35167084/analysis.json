@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35167084",
+  "title": "Characterization of Amyloidogenic Peptide Aggregability in Helical Subspace.",
+  "authors": "Bhattacharya, Shayon; Xu, Liang; Thompson, Damien",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2022-02-16",
+  "window": {
+    "start": "2022-02-14",
+    "end": "2022-02-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用多尺度分子模拟与网络/自由能映射方法，建模淀粉样肽（Aβ、αS）螺旋亚态中的自组装与聚集倾向，虽对象为无序倾向的淀粉样肽而非典型IDR-PPI，但聚焦螺旋介导的肽-肽互作机制建模，方法可迁移至IDR互作研究。",
+  "abstract": "Prototypical amyloidogenic peptides amyloid-beta (Abeta) and alpha-synuclein (alphaS) can undergo helix-helix associations via partially folded helical conformers, which may influence pathological progression to Alzheimer's (AD) and Parkinson's disease (PD), respectively. At the other extreme, stable folded helical conformers have been reported to resist self-assembly and amyloid formation. Experimental characterisation of such disparities in aggregation profiles due to subtle differences in peptide stabilities is precluded by the conformational heterogeneity of helical subspace. The diverse physical models used in molecular simulations allow sampling distinct regions of the phase space and are extensive in capturing the ensemble of rich helical subspace. Robust and powerful computational predictive methods utilizing network theory and free energy mapping can model the origin of helical population shifts in amyloidogenic peptides, which highlight their inherent aggregability. In this chapter, we discuss computational models, methods, design rules, and strategies to identify the driving force behind helical self-assembly and the molecular origin of aggregation resistance in helical intermediates of Abeta42 and alphaS. By extensive multiscale mapping of intrapeptide interactions, we show that the computational models can capture features that are otherwise imperceptible to experiments. Our models predict that targeting terminal residues may allow modulation and control of initial pathogenic aggregability of amyloidogenic peptides.",
+  "abstract_zh": "典型淀粉样生成肽淀粉样β蛋白（amyloid-beta, Abeta）和α-突触核蛋白（alpha-synuclein, alphaS）可通过部分折叠的螺旋构象发生螺旋-螺旋关联，这可能分别影响阿尔茨海默病（Alzheimer's disease, AD）和帕金森病（Parkinson's disease, PD）的病理进展。另一方面，稳定折叠的螺旋构象已被报道能抵抗自组装和淀粉样形成。由于螺旋子空间构象异质性，实验上难以表征因肽稳定性细微差异导致的聚集谱差异。分子模拟中使用的多种物理模型能够采样相空间的不同区域，并在捕捉丰富螺旋子空间的集合方面具有广泛性。利用网络理论和自由能映射的稳健且强大的计算预测方法，可以模拟淀粉样生成肽中螺旋群体偏移的起源，从而突出其固有的聚集倾向。在本章中，我们讨论计算模型、方法、设计规则和策略，以识别螺旋自组装背后的驱动力以及Abeta42和alphaS螺旋中间体中聚集抗性的分子起源。通过对肽内相互作用的广泛多尺度映射，我们表明计算模型能够捕捉实验无法察觉的特征。我们的模型预测，靶向末端残基可能允许调节和控制淀粉样生成肽的初始致病性聚集能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35167084/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35167084/",
+  "paper_page_path": "papers/pubmed/35167084/index.html"
+}

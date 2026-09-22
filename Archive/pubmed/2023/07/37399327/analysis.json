@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37399327",
+  "title": "Conformational fluctuations and phases in fused in sarcoma (FUS) low-complexity domain.",
+  "authors": "Thirumalai, D; Kumar, Abhinaw; Chakraborty, Debayan; Straub, John E; Mugnai, Mauro L",
+  "journal": "Biopolymers",
+  "published_date": "2023-07-03",
+  "window": {
+    "start": "2023-07-03",
+    "end": "2023-07-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过模拟与实验结合，研究FUS低复杂度无序结构域的构象波动、纤维核心及磷酸化调控的相分离/凝聚体机制，聚焦IDR介导的互作与组装，方法上含物理模拟，对无序蛋白互作机制建模有直接启发。",
+  "abstract": "The well-known phenomenon of phase separation in synthetic polymers and proteins has become a major topic in biophysics because it has been invoked as a mechanism of compartment formation in cells, without the need for membranes. Most of the coacervates (or condensates) are composed of Intrinsically Disordered Proteins (IDPs) or regions that are structureless, often in interaction with RNA and DNA. One of the more intriguing IDPs is the 526-residue RNA-binding protein, Fused in Sarcoma (FUS), whose monomer conformations and condensates exhibit unusual behavior that are sensitive to solution conditions. By focussing principally on the N-terminus low-complexity domain (FUS-LC comprising residues 1-214) and other truncations, we rationalize the findings of solid-state NMR experiments, which show that FUS-LC adopts a non-polymorphic fibril structure (core-1) involving residues 39-95, flanked by fuzzy coats on both the N- and C-terminal ends. An alternate structure (core-2), whose free energy is comparable to core-1, emerges only in the truncated construct (residues 110-214). Both core-1 and core-2 fibrils are stabilized by a Tyrosine ladder as well as hydrophilic interactions. The morphologies (gels, fibrils, and glass-like) adopted by FUS seem to vary greatly, depending on the experimental conditions. The effect of phosphorylation is site-specific. Simulations show that phosphorylation of residues within the fibril has a greater destabilization effect than residues that are outside the fibril region, which accords well with experiments. Many of the peculiarities associated with FUS may also be shared by other IDPs, such as TDP43 and hnRNPA2. We outline a number of problems for which there is no clear molecular explanation.",
+  "abstract_zh": "合成聚合物和蛋白质中众所周知的相分离（phase separation）现象已成为生物物理学中的一个重要课题，因为它被提出作为细胞中无需膜即可形成区室的机制。大多数凝聚体（coacervates）或凝集物（condensates）由 intrinsically disordered proteins (IDPs) 或无结构区域组成，通常与RNA和DNA相互作用。其中一个更引人注目的IDP是526残基的RNA结合蛋白Fused in Sarcoma (FUS)，其单体构象和凝集物表现出对溶液条件敏感的不寻常行为。通过主要关注N端低复杂度结构域（FUS-LC，包含残基1-214）及其他截短体，我们合理化了固态NMR实验的发现，这些实验表明FUS-LC采用一种非多态性纤维结构（core-1），涉及残基39-95，并在N端和C端两侧有模糊包被（fuzzy coats）。另一种结构（core-2），其自由能与core-1相当，仅在截短构建体（残基110-214）中出现。core-1和core-2纤维均通过酪氨酸阶梯（Tyrosine ladder）及亲水相互作用稳定。FUS所采用的形态（凝胶、纤维和玻璃状）似乎因实验条件不同而差异显著。磷酸化的效应具有位点特异性。模拟显示，纤维内部残基的磷酸化比纤维区域外残基具有更大的去稳定效应，这与实验高度一致。FUS相关的许多特性也可能在其他IDP中共享，如TDP43和hnRNPA2。我们概述了一些尚无明确分子解释的问题。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37399327/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37399327/",
+  "paper_page_path": "papers/pubmed/37399327/index.html"
+}

@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supporting information description) as provided on bioRxiv.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with stated conclusions. No assessment of formatting, grammar, or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors propose a supervised machine learning (SVM) approach using bend angle (θB) and rotation angle (θR) to unambiguously classify kinked β-sheet motifs from coordinate data, validate it against experimental fibril structures, and provide a library of potential kinked peptide segments for screening.
+- **Visible evidence base** Abstract, Introduction, Results (partial), Discussion, Methods (partial), and Supporting Information descriptions. Figures and tables referenced but not fully visible. Simulation details for PrLD and RGG provided; α-synuclein and Aβ42 data referenced but not detailed.
+- **Missing materials affecting confidence** Full Results section (only first subsection visible), all figures and tables, detailed SVM training/validation metrics, complete simulation parameters for α-synuclein and Aβ42, and the peptide library contents. These are essential for full evaluation.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and underexplored problem in structural biology: the unambiguous assignment of kinked β-sheet motifs, which are implicated in reversible amyloid formation and biomolecular condensates. The proposed θB-θR feature space is a novel contribution and shows promise in separating kinked from non-kinked motifs in the presented data. However, the current manuscript is incomplete in its presentation, with key results, figures, and validation details missing. The claims of "unambiguous" assignment and superiority over existing methods are not fully supported by the evidence provided. The work is potentially significant but requires substantial additional detail and rigorous validation to establish its case.
+- **Who would be interested in the results, and why** Structural biologists studying amyloid fibrils, prion-like proteins, and biomolecular condensates. Computational biologists developing secondary structure assignment tools. Researchers interested in the molecular grammar of reversible versus irreversible aggregation. The peptide library could be of interest to experimentalists screening for aggregation-prone or reversible motifs.
+- **Major strengths**
+  - Addresses a genuine gap: standard secondary structure assignment tools (e.g., DSSP) fail to capture kinked β-sheet motifs.
+  - The θB-θR feature space is a novel and physically intuitive choice, potentially capturing backbone distortions that other parameters miss.
+  - The use of extensive all-atom simulations as a generative data source is appropriate and powerful.
+  - The application to known LARKS and the creation of a screening library are practical and useful outcomes.
+  - The inclusion of a potential of mean force analysis for a disease-relevant mutation (D262V) adds functional insight.
+- **Major Concerns**
+  - **R1-M1** (Blocking: Yes)
+    - **Axis** Technical soundness / Validation
+    - **Claim pointer** The authors claim the SVM model "unambiguously characterizes" kinked β-sheets and performs "significantly better" than other structural parameters.
+    - **Evidence pointer** Results section, Fig. 1(d), Fig. 2(a-d), and associated text. Location not provided for specific metrics.
+    - **Concern** The manuscript does not provide quantitative validation metrics for the SVM classifier, such as accuracy, precision, recall, F1-score, or area under the ROC curve on a held-out test set. The claim of "unambiguous" assignment is contradicted by the presence of a "region of ambiguity" (green region in Fig. 1d). The overlap metrics (Fig. 2d) are described but their values are not reported in the text. Without these numbers, the superiority of θB-θR over other parameter pairs cannot be assessed.
+    - **Why it matters** The central claim of the paper rests on the classifier's performance. Without quantitative validation, the reader cannot judge whether the method is reliable or an improvement over existing approaches. The presence of an ambiguity region suggests the method is not truly "unambiguous."
+    - **Resolution test** Provide a confusion matrix and performance metrics (e.g., accuracy, F1-score) for the SVM on a held-out test set. Report the numerical values of the overlap metrics for all parameter pairs. Discuss the nature and size of the ambiguity region and how it affects practical use.
+  - **R1-M2** (Blocking: Yes)
+    - **Axis** Reproducibility / Data availability
+    - **Claim pointer** The authors state that "All our data, including simulation trajectories, the model used for supervised classification, and the associated codes, are available online for public access."
+    - **Evidence pointer** Data Availability section.
+    - **Concern** The provided links (GitHub and Figshare) are incomplete or not verifiable from the manuscript text. The GitHub link is given as "codesrivas-tavalab/" which is not a complete URL. The Figshare link is provided, but the contents are not described. For a methods-focused paper, this is a critical deficiency.
+    - **Why it matters** Reproducibility is a cornerstone of scientific publishing, especially for computational methods. Without accessible code, data, and the trained model, other researchers cannot apply or benchmark the method.
+    - **Resolution test** Provide complete, working URLs for all data, code, and the trained SVM model. Ensure the repository includes clear documentation and instructions for use.
+  - **R1-M3** (Blocking: No)
+    - **Axis** Scientific importance / Scope of claims
+    - **Claim pointer** The authors state that kinked β-sheets "often mediate formation of reversible amyloid fibrils" and that their work provides "insights into molecular grammar of reversibility."
+    - **Evidence pointer** Abstract, Introduction, Discussion.
+    - **Concern** The link between kinked β-sheets and reversibility is presented as a general principle, but the evidence provided is limited to a few examples (LARKS) and a single mutation analysis. The manuscript does not systematically demonstrate that the presence of kinks correlates with reversibility across a broad set of proteins or conditions. The PMF calculation for D262V is suggestive but is a single case.
+    - **Why it matters** The title and framing promise insights into the "molecular grammar of reversibility." If the evidence is only correlative or limited to specific cases, the claim is overreaching.
+    - **Resolution test** Either temper the claims in the title and discussion to be more specific to the systems studied, or provide additional evidence (e.g., analysis of multiple mutants or a broader set of fibril structures) linking kink propensity to reversibility.
+  - **R1-M4** (Blocking: No)
+    - **Axis** Technical soundness / Methodology
+    - **Claim pointer** The authors use a sequence filter to identify LARKS from kinked β-sheet motifs, with criteria given in Table 1.
+    - **Evidence pointer** Methods, Table 1 (not visible).
+    - **Concern** The sequence filter is described as "literature-curated," but the specific rules are not detailed in the text. The rationale for the filter (e.g., why central residues are Gly or aromatic, terminal residues are Gly/aromatic/polar) is not fully explained. The sensitivity and specificity of this filter are not assessed.
+    - **Why it matters** The filter is a key step in extracting LARKS from the broader kinked β-sheet population. Without a clear definition and validation, the results of this analysis are difficult to interpret or reproduce.
+    - **Resolution test** Provide the full sequence filter rules in the main text or SI. Validate the filter against a known set of LARKS and non-LARKS to demonstrate its selectivity.
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Figure 1(g) description
+    - **Evidence pointer** Results section, Fig. 1(g)
+    - **Issue** The description of Fig. 1(g) is confusing. The text mentions "18th and 19th markers" and "44 is the marker" but does not clearly explain what these markers represent or how the windowing works in the context of the figure.
+    - **Required correction** Clarify the figure legend and text to explicitly state what the markers on the x-axis represent (e.g., window start residue) and how the windowing is applied.
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Completeness
+    - **Affected element** Simulation details for α-synuclein and Aβ42
+    - **Evidence pointer** Methods, Table 2
+    - **Issue** The methods section provides detailed simulation parameters for PrLD and RGG but only references α-synuclein and Aβ42 data from other groups without specifying the exact datasets or simulation conditions used.
+    - **Required correction** Provide citations and brief descriptions of the α-synuclein and Aβ42 simulation datasets, including force field, simulation length, and any relevant processing steps.
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Terminology
+    - **Affected element** "Kinked-β sheets" vs. "kinked β-sheets"
+    - **Evidence pointer** Throughout
+    - **Issue** The manuscript uses inconsistent hyphenation ("Kinked- β sheets" in the title, "kinked-β" elsewhere). This is a minor stylistic issue but should be standardized.
+    - **Required correction** Standardize the terminology throughout the manuscript.
+  - **R1-m4**
+    - **Severity** Minor
+    - **Axis** Interpretation
+    - **Affected element** Discussion of β-turn overlap
+    - **Evidence pointer** Discussion, SI Fig. 10
+    - **Issue** The finding that β-turns are a subset of kinks is interesting but is only briefly mentioned. The structural and functional implications of this overlap are not discussed.
+    - **Required correction** Expand the discussion on the relationship between β-turns and kinked β-sheets, and what this means for the classification and function of these motifs.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of quantitative SVM validation metrics.
+  - R1-M2: Incomplete data and code availability.
+  - R1-M3: Overstated claims about "molecular grammar of reversibility" without sufficient evidence.
+  - R1-M4: Undefined and unvalidated sequence filter.
+- **Assessment against Nature-style criteria**
+  - **Originality** The use of θB-θR as a feature space for classifying kinked β-sheets is novel. While the concept of kinked β-sheets is known, the systematic, machine-learning-based assignment from coordinate data is a new contribution. The peptide library is a useful resource.
+  - **Scientific importance** The problem of identifying kinked β-sheets is relevant to understanding reversible amyloid formation and condensate biology. However, the importance is somewhat diminished by the lack of a clear demonstration that this method provides new biological insights beyond what was already known from LARKS studies. The single mutation analysis is a step in this direction but is not sufficient.
+  - **Interdisciplinary readership** The work bridges structural biology, computational biology, and biophysics. The methods are accessible to computational researchers, but the biological implications may not be immediately clear to a broader readership. The manuscript would benefit from a clearer articulation of why this structural distinction matters for understanding cellular processes.
+  - **Technical soundness** The core idea is sound, but the technical execution is incomplete. The lack of validation metrics and incomplete data availability are significant issues. The comparison with existing methods is qualitative and not rigorous.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with structural biology and machine learning. The abstract is clear, but the results section is dense. The figures, if properly presented, would help, but they are not visible in the provided material.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a promising idea but is incomplete in its current form. The authors must provide full results, quantitative validation, and complete data/code availability to support their claims. If these issues are addressed, the work could be of interest to the community, but the current submission does not make a convincing case.
+
+## Risk / unsupported claims
+- The claim of "unambiguous" assignment of kinked β-sheets is unsupported, as the authors themselves describe a "region of ambiguity."
+- The claim that the method performs "significantly better" than other structural parameters is unsupported without quantitative comparison metrics.
+- The claim that the work provides "insights into molecular grammar of reversibility" is not fully supported by the evidence presented, which is limited to a few examples and a single mutation analysis.
+- The assertion that the peptide library can be used as a "screening-library for assigning beta-kinks in unresolved coordinate dataset" is plausible but not validated with any test cases or benchmarks.
+- The statement that "kinked-β sheets... often mediate formation of reversible amyloid fibrils" is presented as a general fact but is not systematically demonstrated in this manuscript.

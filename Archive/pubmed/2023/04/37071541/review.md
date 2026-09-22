@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no figures, methods, or full-text data were provided
+- **Shared manuscript claim summary** The authors report that DNA aptamers engineered to mimic intrinsically disordered proteins can exhibit strongly homotropic allosteric (cooperative) ligand binding, but with reduced overall binding affinity. They propose that multivalent supramolecular aptamers, termed "3D DNA" superstructures composed of long-chain DNA with tandem repeating aptamers, can overcome this drawback. They claim that 3D DNA systems show highly cooperative binding to small molecules and proteins without loss of parent aptamer affinity, and demonstrate a sensor for imaging ATP release in neurons and astrocytes.
+- **Visible evidence base** Abstract text only; no experimental data, figures, tables, or methods are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, quantitative binding data, control experiments, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing concept that merges intrinsic disorder principles with multivalent aptamer design, potentially offering a general strategy for cooperative ligand binding without affinity loss. However, the provided material is insufficient to evaluate the validity of the central claims. Key quantitative data, mechanistic evidence, and experimental controls are absent, preventing a rigorous assessment of whether the observed cooperativity is genuine and whether the affinity preservation claim is substantiated.
+- **Who would be interested in the results, and why** Researchers in chemical biology, biosensing, and nanomedicine would be interested, as cooperative binding with retained affinity could improve sensitivity and dynamic range in diagnostic assays and targeted delivery systems. The neuronal ATP imaging application also appeals to neuroscientists studying gliotransmission and purinergic signaling.
+- **Major strengths** The conceptual novelty of applying intrinsic disorder-inspired design to DNA aptamers is compelling and could open new avenues for synthetic allosteric systems. The demonstration of a functional sensor in a biologically relevant context (neuronal and astrocytic ATP release) suggests practical utility. The claim of retaining parent aptamer affinity while achieving cooperativity addresses a known limitation in the field.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "The 3D DNA systems exhibit highly cooperative binding to both small molecules and proteins, without loss of binding affinities of their parent aptamers."  
+  - **Evidence pointer** Abstract only; no figures or tables provided  
+  - **Concern** The abstract provides no quantitative data, such as Hill coefficients, binding constants, or comparative affinity values, to support the claims of cooperativity and retained affinity. Without these data, the central assertion cannot be evaluated.  
+  - **Why it matters** Cooperativity is a quantitative phenomenon; claims of "highly cooperative" binding require demonstration of sigmoidal binding curves and Hill coefficients greater than 1. Similarly, "without loss of binding affinities" requires direct comparison of dissociation constants between parent aptamers and 3D DNA constructs.  
+  - **Resolution test** Provide binding isotherms for at least two ligands (one small molecule, one protein) comparing parent aptamer and 3D DNA, with calculated Hill coefficients and Kd values, including error bars and replicates.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** "Inspired by intrinsically disordered proteins in nature, DNA aptamers can be engineered to display strongly homotropic allosteric (or cooperative) ligand binding."  
+  - **Evidence pointer** Abstract only; no structural or biophysical data  
+  - **Concern** The mechanistic link between intrinsic disorder and cooperative binding is asserted but not demonstrated. No evidence is provided that the 3D DNA superstructures adopt disordered conformations, that disorder is necessary for cooperativity, or that the proposed multivalent architecture operates via the hypothesized mechanism.  
+  - **Why it matters** Without mechanistic validation, alternative explanations (e.g., avidity effects, aggregation, or non-specific binding) cannot be excluded. The conceptual foundation of the work depends on this mechanism.  
+  - **Resolution test** Include structural characterization (e.g., circular dichroism, small-angle X-ray scattering, or single-molecule FRET) showing disorder in the 3D DNA, and mutagenesis or truncation controls demonstrating that cooperativity requires the tandem architecture.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Applicability scope  
+  - **Claim pointer** "We further produced a highly responsive sensor for fluorescence imaging of glutamate stimulation-evoked ATP release in neurons, as well as force stimulus-triggered ATP release in astrocytes."  
+  - **Evidence pointer** Abstract only; no imaging data or sensor characterization  
+  - **Concern** The sensor application is described without any performance metrics, such as detection limit, response time, specificity, or comparison to existing ATP sensors. The claim of "highly responsive" is unsupported.  
+  - **Why it matters** For a biosensing application, quantitative performance is essential to establish utility and novelty over existing sensors.  
+  - **Resolution test** Provide dose-response curves, selectivity data against related nucleotides, and representative imaging time-lapses with appropriate controls (e.g., apyrase treatment or competitive inhibition).
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The term "intrinsically disordered proteins" is used as an inspiration, but the connection to DNA aptamers is not immediately clear to nonspecialist readers.  
+  - **Required correction** Briefly define how disorder in proteins relates to cooperative binding and how this translates to DNA aptamer design.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Construct description  
+  - **Evidence pointer** Abstract, "3D DNA" definition  
+  - **Issue** The description of "long-chain DNA containing tandem repeating DNA aptamers" lacks details on chain length, repeat number, and assembly method.  
+  - **Required correction** Specify the range of repeat numbers and the method of superstructure assembly in the abstract or refer to methods.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Ligand scope  
+  - **Evidence pointer** Abstract, "both small molecules and proteins"  
+  - **Issue** Only two ligand classes are mentioned, and it is unclear how many distinct aptamers were tested.  
+  - **Required correction** State the number of aptamer-ligand pairs tested and whether the effect is universal or aptamer-specific.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative binding data and mechanistic evidence means the core claims of cooperativity and affinity retention are not established. The sensor application (R1-M3) is secondary but requires performance data for full validation.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of applying intrinsic disorder principles to DNA aptamers is novel and potentially transformative, but the abstract does not demonstrate that this is more than an incremental extension of existing multivalent aptamer work.  
+  - Scientific importance: If validated, the approach could broadly impact biosensing and drug delivery, but the current evidence does not establish significance beyond a specialized niche.  
+  - Interdisciplinary readership: The topic bridges chemistry, biology, and neuroscience, which is attractive, but the abstract lacks sufficient context for nonspecialists to appreciate the broader implications.  
+  - Technical soundness: Cannot be assessed from the abstract alone; the absence of data is a critical limitation.  
+  - Readability for nonspecialists: The abstract is generally clear but uses jargon (e.g., "homotropic allostery") without definition, which may hinder accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising, and the work could be supportive if the blocking concerns are resolved with quantitative data and mechanistic validation. However, based solely on the abstract, the central claims are unverifiable.
+
+## Risk / unsupported claims
+- The claim of "highly cooperative binding" is unsupported without Hill coefficients or binding curves.
+- The claim of "without loss of binding affinities" is unsupported without comparative Kd values.
+- The mechanistic role of intrinsic disorder is asserted but not demonstrated.
+- The sensor's "highly responsive" performance is unquantified and unverifiable.
+- The generalizability to "both small molecules and proteins" is unsubstantiated without listing specific ligands and aptamers tested.

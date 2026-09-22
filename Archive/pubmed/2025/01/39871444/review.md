@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use classical molecular dynamics (MD) and replica-exchange MD simulations to investigate how phosphorylation at S352 and S356, and O-GlcNAcylation at S356, individually and in combination, affect the binding affinity of the R4 (336-367) Tau peptide to microtubules (MTs) and its conformational preferences upon dissociation. They report that phosphorylation reduces binding affinity, O-GlcNAcylation at S356 also reduces affinity but preserves key interactions, combined S352 phosphorylation and S356 O-GlcNAcylation preserves interactions better than dual phosphorylation, and O-GlcNAcylation induces beta-sheet formation.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or methodological parameters provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, convergence criteria, binding free energy values, error estimates, structural figures, and comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study addressing a relevant question in Tau biology, namely the differential and combined effects of phosphorylation and O-GlcNAcylation on Tau-MT interactions. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the simulations, the statistical significance of the reported differences, or the robustness of the conformational conclusions. The claim that O-GlcNAcylation has a "moderate destabilizing effect" and the observation of beta-sheet formation are intriguing but require careful validation against simulation artifacts and experimental context.
+- **Who would be interested in the results, and why** Researchers in the fields of Tau biology, neurodegeneration, post-translational modification modeling, and computational biophysics would be interested. The study addresses a mechanistic gap in understanding how PTMs modulate Tau-MT binding, which has implications for Alzheimer's disease and other tauopathies. Computational chemists and biophysicists may also find the methodological approach relevant.
+- **Major strengths** The study addresses a clinically and biologically relevant question with potential therapeutic implications. The design includes multiple modification states (single, dual, and mixed PTMs) allowing comparative analysis. The use of both classical MD and replica-exchange MD to probe binding affinity and conformational preferences is appropriate and complementary. The finding that O-GlcNAcylation preserves key interactions while reducing affinity offers a nuanced view that challenges simple neuroprotective assumptions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "both individual and combined phosphorylation at S352 and S356 sites decreased the affinity of the R4 peptide toward MT" and that O-GlcNAcylation "also decreased the binding affinity of Tau to MT similar to the single phosphorylation systems."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports qualitative comparisons of binding affinities without providing any numerical values, error estimates, or statistical tests. It is impossible to assess whether the reported differences between modification states are statistically significant or within simulation noise. Binding free energy calculations from MD simulations are notoriously sensitive to force field parameters, sampling length, and analysis methodology.
+  - **Why it matters** The central conclusion of differential binding affinities across PTM states rests entirely on these comparisons. Without quantitative data and uncertainty quantification, the claims cannot be evaluated or reproduced.
+  - **Resolution test** Provide binding free energy values with standard errors, statistical significance tests (e.g., bootstrap or block averaging), and convergence assessments. Show that differences between states exceed simulation uncertainty.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "O-GlcNAcylation at S356 induced secondary structural changes on the R4 peptide, leading to the formation of a beta-sheet structure, consistent with previous experimental observations."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of beta-sheet formation from replica-exchange MD simulations requires careful validation. Beta-sheet formation in a short peptide fragment (32 residues) over simulation timescales is rare and may be an artifact of the force field, the starting structure, or insufficient sampling. The abstract does not specify the simulation length, the number of replicas, the force field used, or how secondary structure was assigned.
+  - **Why it matters** This conformational claim is a key novel finding and is used to link the simulations to experimental observations. If the beta-sheet formation is not robustly demonstrated, the mechanistic interpretation is weakened.
+  - **Resolution test** Provide details on simulation length, replica exchange acceptance rates, secondary structure assignment methods, and free energy landscapes. Show that beta-sheet populations are converged and not dependent on initial conditions or force field choice.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "the latter preserved the interactions and affinity of the Tau with MT better than dual phosphorylation, though still not as effectively as single phosphorylation," and that "O-GlcNAcylation at residue S356 has a moderate destabilizing effect."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not define what "preserved interactions" means operationally, nor does it provide a quantitative basis for the ranking of effects (single phosphorylation vs. mixed vs. dual). The term "moderate destabilizing effect" is vague and not tied to any measurable quantity.
+  - **Why it matters** The nuanced ranking of PTM effects is a central message of the abstract. Without clear operational definitions and quantitative support, the conclusions are difficult to interpret or compare with other studies.
+  - **Resolution test** Define interaction preservation metrics (e.g., number of native contacts, hydrogen bonds, salt bridges) and provide quantitative values for each system. Justify the "moderate" descriptor with a specific threshold or comparison.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms like "phosphorylation of O-GlcNAcylation at S356" which is ambiguous. It is unclear whether this refers to a single modification (O-GlcNAcylation) or a combination of phosphorylation and O-GlcNAcylation at the same residue.
+  - **Required correction** Clarify the terminology. If it refers to O-GlcNAcylation alone, rephrase to "O-GlcNAcylation at S356." If it refers to a combination, specify both modifications explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the force field, water model, simulation length, or temperature conditions for either the classical MD or replica-exchange MD simulations.
+  - **Required correction** Include key simulation parameters in the abstract or refer to the methods section with specific details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextualization
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "consistent with previous experimental observations" for beta-sheet formation but does not cite or describe these observations.
+  - **Required correction** Provide a brief description of the experimental evidence or a citation in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of quantitative binding free energy data with error estimates and the insufficient validation of beta-sheet formation prevent the core claims from being assessed. The ambiguity in PTM terminology (R1-m1) also needs correction.
+- **Assessment against Nature-style criteria** Originality: The study addresses a relevant and under-explored question regarding combined PTM effects on Tau-MT binding, which is a strength. However, the novelty is incremental given prior work on individual PTM effects. Scientific importance: The topic is important for understanding Tau function and dysfunction in neurodegeneration, but the abstract does not establish a clear advance beyond existing knowledge. Interdisciplinary readership: The work bridges computational chemistry and neurobiology, which could appeal to a broad audience, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: Not assessable from the abstract alone; the missing quantitative details and simulation parameters are critical gaps. Readability for nonspecialists: The abstract is dense and uses jargon without sufficient explanation, and the ambiguous terminology further reduces clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses and preliminary findings, but the lack of quantitative data, statistical validation, and methodological details prevents a rigorous assessment. The authors should provide the full manuscript with detailed methods and results to support the claims.
+
+## Risk / unsupported claims
+- The claim that phosphorylation decreases binding affinity is unsupported without quantitative free energy values and error estimates.
+- The claim that O-GlcNAcylation preserves key interactions while reducing affinity is unsupported without operational definitions and quantitative metrics.
+- The claim of beta-sheet formation is unsupported without simulation details and convergence analysis.
+- The ranking of PTM effects (single vs. mixed vs. dual) is unsupported without statistical comparisons.
+- The "moderate destabilizing effect" descriptor is not tied to any measurable quantity.
+- The consistency with previous experimental observations cannot be verified without citations or descriptions.

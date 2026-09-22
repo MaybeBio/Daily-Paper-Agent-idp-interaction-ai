@@ -1,0 +1,393 @@
+{
+  "identity": {
+    "pmid": "39328748",
+    "doi": "10.1021/jacsau.4c00690",
+    "title": "Fusion Dynamics and Size-Dependence of Droplet Microstructure in ssDNA-Mediated Protein Phase Separation."
+  },
+  "content": {
+    "abstract": "Biomolecular condensation involving proteins and nucleic acids has been recognized to play crucial roles in genome organization and transcriptional regulation. However, the biophysical mechanisms underlying the droplet fusion dynamics and microstructure evolution during the early stage of liquid-liquid phase separation (LLPS) remain elusive. In this work, we study the phase separation of linker histone H1, which is among the most abundant chromatin proteins, in the presence of single-stranded DNA (ssDNA) capable of forming a G-quadruplex by using molecular simulations and experimental characterization. We found that droplet fusion is a rather stochastic and kinetically controlled process. Productive fusion events are triggered by the formation of ssDNA-mediated electrostatic bridges within the droplet contacting zone. The droplet microstructure is size-dependent and evolves driven by maximizing the number of electrostatic contacts. We also showed that the folding of ssDNA to the G-quadruplex promotes LLPS by increasing the multivalency and strength of protein-DNA interactions. These findings provide deep mechanistic insights into the growth dynamics of biomolecular droplets and highlight the key role of kinetic control during the early stage of ssDNA-protein condensation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bian, Yunqiang",
+        "Lv, Fangyi",
+        "Pan, Hai",
+        "Ren, Weitong",
+        "Zhang, Weiwei",
+        "Wang, Yanwei",
+        "Cao, Yi",
+        "Li, Wenfei",
+        "Wang, Wei"
+      ],
+      "short_names": [
+        "Bian Y",
+        "Lv F",
+        "Pan H",
+        "Ren W",
+        "Zhang W",
+        "Wang Y",
+        "Cao Y",
+        "Li W",
+        "Wang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7316-8301",
+        "ORCID: 0000-0001-6660-9052",
+        "ORCID: 0000-0003-1493-7868",
+        "ORCID: 0000-0003-2679-4075",
+        "ORCID: 0000-0001-5441-0302"
+      ],
+      "affiliations": [
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China.",
+        "Department of Physics, Wenzhou University, Wenzhou 325035, China.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China.",
+        "Department of Physics, Wenzhou University, Wenzhou 325035, China.",
+        "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing 210093, China.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China.",
+        "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing 210093, China.",
+        "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing 210093, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bian, Yunqiang",
+        "short_name": "Bian Y",
+        "identifiers": [
+          "0000-0002-7316-8301"
+        ],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Fangyi",
+        "short_name": "Lv F",
+        "identifiers": [],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China.",
+          "Department of Physics, Wenzhou University, Wenzhou 325035, China."
+        ]
+      },
+      {
+        "full_name": "Pan, Hai",
+        "short_name": "Pan H",
+        "identifiers": [
+          "0000-0001-6660-9052"
+        ],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Weitong",
+        "short_name": "Ren W",
+        "identifiers": [],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Weiwei",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanwei",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Wenzhou University, Wenzhou 325035, China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yi",
+        "short_name": "Cao Y",
+        "identifiers": [
+          "0000-0003-1493-7868"
+        ],
+        "affiliations": [
+          "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing 210093, China.",
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenfei",
+        "short_name": "Li W",
+        "identifiers": [
+          "0000-0003-2679-4075"
+        ],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325000, Zhejiang, China.",
+          "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing 210093, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0000-0001-5441-0302"
+        ],
+        "affiliations": [
+          "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing 210093, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2024 Sep 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/27 07:05",
+    "fetched_at": "2026-09-21 10:40:00"
+  },
+  "links": {
+    "cites": [
+      "42407334",
+      "42126444",
+      "41883062",
+      "41714601",
+      "41675594"
+    ],
+    "refs": [
+      "37549257",
+      "37486948",
+      "37006777",
+      "36894693",
+      "36472500",
+      "35484234",
+      "35381009",
+      "35364104",
+      "34772786",
+      "34645832",
+      "34516789",
+      "34422830",
+      "34270902",
+      "34152774",
+      "33684117",
+      "33661634",
+      "33582138",
+      "33238161",
+      "33020264",
+      "32975948",
+      "32767698",
+      "32571937",
+      "32548680",
+      "32484438",
+      "32405004",
+      "32312191",
+      "32132204",
+      "32004090",
+      "31964135",
+      "31956030",
+      "31928844",
+      "31324804",
+      "31139718",
+      "31038454",
+      "31036655",
+      "30986043",
+      "30985120",
+      "30833787",
+      "30682370",
+      "30301810",
+      "30260314",
+      "29937223",
+      "29930094",
+      "29650702",
+      "29628210",
+      "29602697",
+      "29539394",
+      "29364893",
+      "29091028",
+      "29078285",
+      "29018282",
+      "28935776",
+      "28718930",
+      "28636604",
+      "28522535",
+      "28225081",
+      "27212236",
+      "26753008",
+      "26474065",
+      "26455390",
+      "26412307",
+      "26406374",
+      "26384414",
+      "26351690",
+      "26317470",
+      "26118480",
+      "25984914",
+      "25288112",
+      "25225856",
+      "25002491",
+      "24116642",
+      "22579282",
+      "21795379",
+      "21455236",
+      "21307307",
+      "19460965",
+      "15697230",
+      "11790299",
+      "11509177",
+      "10801360"
+    ],
+    "similar": [
+      "39328748",
+      "34152774",
+      "34422830",
+      "38547652",
+      "35484234",
+      "31952807",
+      "29555476",
+      "36444977",
+      "34911929",
+      "36112754",
+      "37897365",
+      "34270902",
+      "31237369",
+      "34206440",
+      "38511671",
+      "38446061",
+      "35351518",
+      "31543265",
+      "39286502",
+      "39069878",
+      "38287572",
+      "23912807",
+      "36537242",
+      "38746378",
+      "33231755",
+      "35881789",
+      "36551199",
+      "38464093",
+      "35381286",
+      "37895097",
+      "35721931",
+      "37972831",
+      "35803926",
+      "36762833",
+      "37596729",
+      "37130439",
+      "29712961",
+      "35922882",
+      "30933978",
+      "33929866",
+      "31953488",
+      "38803334",
+      "38847600",
+      "39256186",
+      "38251748",
+      "29674319",
+      "35902591",
+      "31506351",
+      "34352244",
+      "36894693",
+      "32767698",
+      "36621842",
+      "33057154",
+      "34748548",
+      "38973194",
+      "36524527",
+      "34767801",
+      "36843414",
+      "37494702",
+      "34508658",
+      "35156529",
+      "38862770",
+      "36499553",
+      "15740212",
+      "35293386",
+      "33307683",
+      "31941785",
+      "39227829",
+      "32584581",
+      "38672516",
+      "33139563",
+      "36710442",
+      "34102212",
+      "35907400",
+      "34001913",
+      "36310218",
+      "36543022",
+      "32960601",
+      "38404112",
+      "37764485",
+      "37453878",
+      "15699629",
+      "33982350",
+      "29511089",
+      "34233002",
+      "38997630",
+      "37092470",
+      "37432033",
+      "38246226",
+      "28732449",
+      "34431665",
+      "33765580",
+      "33020264",
+      "34163831",
+      "36450893",
+      "38309957",
+      "37540843",
+      "30762296"
+    ],
+    "review": [
+      "39328748",
+      "38547652",
+      "31237369",
+      "37895097",
+      "35803926",
+      "36524527",
+      "34767801",
+      "39227829",
+      "38672516",
+      "36710442",
+      "37453878",
+      "37092470",
+      "38246226"
+    ],
+    "pmc": [
+      "11423313"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39328748/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.4c00690",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

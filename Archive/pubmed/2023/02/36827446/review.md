@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that the UNRES web server, using replica exchange molecular dynamics (REMD) with the latest UNRES force field designed for structured proteins, can sample conformational ensembles of intrinsically disordered proteins (IDPs) with accuracy comparable to all-atom force fields, as benchmarked against NMR observables and radius of gyration for eight disordered proteins.
+- **Visible evidence base** Abstract text only; no numerical data, simulation details, or experimental comparisons are provided in the supplied material
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field version details, temperature selection criteria, error analysis, and raw comparison data with experimental measurements
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful practical contribution, namely the application of a publicly accessible web server for IDP conformational sampling. However, the evidence base provided is insufficient to evaluate the validity of the central claim that UNRES ensembles are comparable to all-atom force fields and experimental data. The abstract lacks quantitative results, statistical measures, and methodological specifics that would allow an independent assessment of accuracy and robustness.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying IDPs, particularly those with limited access to high-performance computing resources, would be interested in a low-cost alternative for generating conformational ensembles. Researchers developing or benchmarking coarse-grained force fields would also find the comparison with all-atom results relevant.
+- **Major strengths** The proposed approach addresses a practical accessibility gap in IDP simulation, as the UNRES web server removes the need for specialized hardware or software expertise. The use of a temperature range spanning 270 to 430 K and direct comparison with NMR observables and radius of gyration indicates an intention to validate against experimental data, which is a sound methodological principle.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that UNRES simulations produce "comparable results to all-atom force fields" as reported by Robustelli and co-workers.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that results are comparable but provides no quantitative metrics, such as root-mean-square deviations of chemical shifts, similarity coefficients for ensemble distributions, or statistical tests. Without numerical comparisons, the claim of comparability cannot be assessed.
+  - **Why it matters** The central contribution of the work rests on demonstrating equivalence or near-equivalence with established all-atom methods. A qualitative statement without supporting numbers does not establish this equivalence and leaves the reader unable to judge the magnitude of any discrepancies.
+  - **Resolution test** Provide quantitative comparison metrics, such as ensemble-averaged chemical shift differences, J-coupling deviations, or radius of gyration values with uncertainties, for both UNRES and all-atom ensembles against experimental data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that "proper selections of temperatures" were used to achieve comparable results.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The criteria for selecting optimal temperatures are not described. The abstract mentions a temperature range from 270 to 430 K but does not specify how the optimal temperature was determined for each protein or whether the same temperature was used across all eight systems.
+  - **Why it matters** Temperature selection is a critical parameter in REMD simulations of IDPs, as it directly affects the sampled conformational distribution. Without a clear protocol, the reproducibility of the method is compromised, and the claim of a "simple and effective" strategy is weakened.
+  - **Resolution test** Describe the temperature selection procedure, including whether it was based on prior knowledge, trial simulations, or a systematic scan, and specify the optimal temperature values for each of the eight proteins.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation completeness
+  - **Claim pointer** The authors claim that NMR observables and radius of gyration calculated from UNRES ensembles were "directly compared with the experimental data" to evaluate accuracy at all temperatures.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not report the outcomes of these comparisons. No agreement metrics, correlation coefficients, or qualitative statements about the level of agreement are provided. The phrase "directly compared" implies the comparison was performed, but the results are absent.
+  - **Why it matters** Validation against experimental data is the primary basis for claiming that the UNRES approach is a viable alternative. Without reporting the comparison outcomes, the reader cannot determine whether the agreement is acceptable, marginal, or poor.
+  - **Resolution test** Report the numerical values of the calculated NMR observables and radius of gyration alongside experimental values, with appropriate uncertainty estimates, and state the level of agreement for each protein and temperature.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Force field description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract refers to "the latest UNRES force field designed for structured proteins" but does not specify the version or parameter set.
+  - **Required correction** Provide the specific UNRES force field version or parameter file identifier to ensure reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope justification
+  - **Affected element** Protein set selection
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that eight disordered proteins were studied but does not justify the selection or describe their sequence diversity, length range, or degree of disorder.
+  - **Required correction** Briefly describe the eight proteins, including their lengths, charge distributions, and any known structural or functional features, to support the generalizability of the conclusions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of "comparable"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "comparable" is used without a defined threshold or statistical context, making it ambiguous whether the agreement is within experimental error, within a factor of two, or merely qualitatively similar.
+  - **Required correction** Define the criterion for "comparable" in quantitative terms, such as a maximum acceptable deviation from experimental values or from all-atom results.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, temperature selection criteria, and reported validation outcomes means the central claims are not currently supported by the supplied evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of an existing web server to IDP sampling is incremental rather than conceptually novel, though the practical angle may have value.
+  - Scientific importance: The work addresses a real need for accessible IDP simulation tools, but the importance depends on demonstrating sufficient accuracy, which is not shown in the abstract.
+  - Interdisciplinary readership: The topic bridges computational chemistry and structural biology, and the use of a web server could attract experimentalists, but the abstract does not provide enough detail to engage a broad audience.
+  - Technical soundness: The methodological approach is reasonable in principle, but the lack of quantitative validation prevents an assessment of technical rigor.
+  - Readability for nonspecialists: The abstract is generally clear, but terms such as "REMD" and "radius of gyration" are used without brief explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful practical tool, but the absence of quantitative results and methodological details means the claims of comparability and accuracy cannot be verified. A revised version with full data and protocols would be required for a supportive assessment.

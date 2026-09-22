@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "36544481",
+    "doi": "10.1016/j.csbj.2022.12.006",
+    "title": "In silico and in vitro approaches allow the identification of the Prosystemin molecular network."
+  },
+  "content": {
+    "abstract": "Tomato Prosystemin (ProSys), the precursor of Systemin, a small peptidic hormone, is produced at very low concentration in unchallenged plants, while its expression greatly increases in response to several different stressors triggering an array of defence responses. The molecular mechanisms that underpin such a wide array of defence barriers are not fully understood and are likely correlated with the intrinsically disordered (ID) structure of the protein. ID proteins interact with different protein partners forming complexes involved in the modulation of different biological mechanisms. Here we describe the ProSys-protein network that shed light on the molecular mechanisms underpinning ProSys associated defence responses. Three different approaches were used. In silico prediction resulted in 98 direct interactors, most clustering in phytohormone biosynthesis, transcription factors and signal transduction gene classes. The network shows the central role of ProSys during defence responses, that reflects its role as central hub. In vitro ProSys interactors, identified by Affinity Purification-Mass Spectrometry (AP-MS), revealed over three hundred protein partners, while Bimolecular Fluorescent Complementation (BiFC) experiments validated in vivo some interactors predicted in silico and in vitro. Our results demonstrate that ProSys interacts with several proteins and reveal new key molecular events in the ProSys-dependent defence response of tomato plant.",
+    "keywords": [
+      "Prosystemin interactors",
+      "Protein-protein interaction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Natale, Roberto",
+        "Coppola, Mariangela",
+        "D'Agostino, Nunzio",
+        "Zhang, Youjun",
+        "Fernie, Alisdair Robert",
+        "Castaldi, Valeria",
+        "Rao, Rosa"
+      ],
+      "short_names": [
+        "Natale R",
+        "Coppola M",
+        "D'Agostino N",
+        "Zhang Y",
+        "Fernie AR",
+        "Castaldi V",
+        "Rao R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Agricultural Sciences, University of Naples Federico II, Portici 80055, Italy.",
+        "Max-Planck-Institut fur Molekulare Pflanzenphysiologie, Potsdam-Golm 14476, Germany.",
+        "Department of Agricultural Sciences, University of Naples Federico II, Portici 80055, Italy.",
+        "Department of Agricultural Sciences, University of Naples Federico II, Portici 80055, Italy.",
+        "Center of Plant Systems Biology and Biotechnology, Plovdiv 4000, Bulgaria.",
+        "Max-Planck-Institut fur Molekulare Pflanzenphysiologie, Potsdam-Golm 14476, Germany.",
+        "Center of Plant Systems Biology and Biotechnology, Plovdiv 4000, Bulgaria.",
+        "Max-Planck-Institut fur Molekulare Pflanzenphysiologie, Potsdam-Golm 14476, Germany.",
+        "Department of Agricultural Sciences, University of Naples Federico II, Portici 80055, Italy.",
+        "Department of Agricultural Sciences, University of Naples Federico II, Portici 80055, Italy.",
+        "Interuniversity Center for Studies on Bioinspired Agro-Environmental Technology (BAT Center), University of Naples Federico II, Portici 80055, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Natale, Roberto",
+        "short_name": "Natale R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agricultural Sciences, University of Naples Federico II, Portici 80055, Italy.",
+          "Max-Planck-Institut für Molekulare Pflanzenphysiologie, Potsdam-Golm 14476, Germany."
+        ]
+      },
+      {
+        "full_name": "Coppola, Mariangela",
+        "short_name": "Coppola M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agricultural Sciences, University of Naples Federico II, Portici 80055, Italy."
+        ]
+      },
+      {
+        "full_name": "D'Agostino, Nunzio",
+        "short_name": "D'Agostino N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agricultural Sciences, University of Naples Federico II, Portici 80055, Italy."
+        ]
+      },
+      {
+        "full_name": "Zhang, Youjun",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Plant Systems Biology and Biotechnology, Plovdiv 4000, Bulgaria.",
+          "Max-Planck-Institut für Molekulare Pflanzenphysiologie, Potsdam-Golm 14476, Germany."
+        ]
+      },
+      {
+        "full_name": "Fernie, Alisdair Robert",
+        "short_name": "Fernie AR",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Plant Systems Biology and Biotechnology, Plovdiv 4000, Bulgaria.",
+          "Max-Planck-Institut für Molekulare Pflanzenphysiologie, Potsdam-Golm 14476, Germany."
+        ]
+      },
+      {
+        "full_name": "Castaldi, Valeria",
+        "short_name": "Castaldi V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agricultural Sciences, University of Naples Federico II, Portici 80055, Italy."
+        ]
+      },
+      {
+        "full_name": "Rao, Rosa",
+        "short_name": "Rao R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Agricultural Sciences, University of Naples Federico II, Portici 80055, Italy.",
+          "Interuniversity Center for Studies on Bioinspired Agro-Environmental Technology (BAT Center), University of Naples Federico II, Portici 80055, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/23 06:00",
+    "fetched_at": "2026-09-20 17:54:17"
+  },
+  "links": {
+    "cites": [
+      "41935339",
+      "40805761"
+    ],
+    "refs": [
+      "35053122",
+      "33692546",
+      "33634368",
+      "33487333",
+      "32693790",
+      "32406163",
+      "32362901",
+      "32105812",
+      "32083726",
+      "31850654",
+      "31714676",
+      "31200539",
+      "30476243",
+      "30384475",
+      "29696029",
+      "29459726",
+      "29245030",
+      "29168260",
+      "29043675",
+      "28649918",
+      "28508886",
+      "28250379",
+      "27924014",
+      "27664707",
+      "27135514",
+      "27121261",
+      "26810073",
+      "26339120",
+      "26103991",
+      "25482260",
+      "25275790",
+      "25093373",
+      "25005853",
+      "25002866",
+      "24693427",
+      "24431500",
+      "24353205",
+      "24078667",
+      "23921808",
+      "23558912",
+      "23525746",
+      "23509744",
+      "23148879",
+      "23071257",
+      "22948729",
+      "22856461",
+      "22813739",
+      "22570076",
+      "22553288",
+      "21665999",
+      "21311034",
+      "21131968",
+      "21063955",
+      "20970815",
+      "20808522",
+      "20674465",
+      "20064062",
+      "19843237",
+      "19567479",
+      "19559643",
+      "19404750",
+      "18617145",
+      "18573080",
+      "18393610",
+      "18390489",
+      "17899396",
+      "17513502",
+      "17333376",
+      "16980539",
+      "16575597",
+      "16518870",
+      "15231262",
+      "15012205",
+      "14735121",
+      "14597658",
+      "14534786",
+      "12913164",
+      "12581315",
+      "12244267",
+      "12221978",
+      "12045290",
+      "12000970",
+      "11722756",
+      "11449049",
+      "11135117",
+      "10923718",
+      "10720314",
+      "10708853",
+      "10449585",
+      "10194465",
+      "9927708",
+      "9482865",
+      "9003320",
+      "7937894",
+      "7831300",
+      "7556633",
+      "7552748",
+      "7552747",
+      "1549783",
+      "1421144"
+    ],
+    "similar": [
+      "36544481",
+      "38159610",
+      "35053122",
+      "29713366",
+      "10545469",
+      "11485198",
+      "18617145",
+      "17080606",
+      "35685017",
+      "28407256",
+      "15082933",
+      "17623784",
+      "29168260",
+      "10536028",
+      "10923708",
+      "9484462",
+      "20422268",
+      "7639774",
+      "17071641",
+      "8593160",
+      "12581314",
+      "29163614",
+      "19404750",
+      "19843237",
+      "16533877",
+      "22945939",
+      "1549783",
+      "22044436",
+      "14534786",
+      "20808522",
+      "29105094",
+      "17899396",
+      "17333376",
+      "7937894",
+      "28182745",
+      "8901530",
+      "30619736",
+      "10497071",
+      "29997646",
+      "24412199",
+      "24348260",
+      "21865178",
+      "7831300",
+      "32083726",
+      "36446975",
+      "23912807",
+      "1421144",
+      "9891776",
+      "29459726",
+      "10708853",
+      "31606202",
+      "20592806",
+      "23760157",
+      "11959903",
+      "10487216",
+      "24884676",
+      "25363814",
+      "29184564",
+      "19733184",
+      "19771334",
+      "31855313",
+      "21357647",
+      "12913164",
+      "32760417",
+      "34314873",
+      "10559447",
+      "10339626",
+      "11607423",
+      "31623335",
+      "24003202",
+      "25873668",
+      "38022703",
+      "35543849",
+      "30242723",
+      "27390756",
+      "26030842",
+      "12426402",
+      "29916080",
+      "35619173",
+      "21884738",
+      "17532517",
+      "25039985",
+      "25281560",
+      "26070639",
+      "18172215",
+      "28782718",
+      "30131419",
+      "18586101",
+      "22786887",
+      "26075596",
+      "19037662",
+      "23634807",
+      "23275444"
+    ],
+    "review": [
+      "36544481",
+      "7639774",
+      "8593160",
+      "8901530",
+      "32083726",
+      "9891776",
+      "10708853",
+      "29184564",
+      "19771334",
+      "21357647"
+    ],
+    "pmc": [
+      "9755248"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(22)00564-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36544481/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36544481",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

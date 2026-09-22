@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "38163950",
+    "doi": "10.1016/j.bpj.2023.12.027",
+    "title": "Phase separation of multicomponent peptide mixtures into dehydrated clusters with hydrophilic cores."
+  },
+  "content": {
+    "abstract": "Phase separation of biomolecules underlies the formation and regulation of various membraneless condensates in cells. How condensates function reliably while surrounded by heterogeneous and dynamic mixtures of biomolecular components with specific and nonspecific interactions is yet to be understood. Studying multicomponent biomolecular mixtures with designer peptides has recently become an attractive avenue for learning about physicochemical principles governing cellular condensates. In this work, we employed long-timescale atomistic simulations of multicomponent tripeptide mixtures with all residue substitutions to illuminate the nature of direct and water-mediated interactions in a prototypical cellular condensate environment. We find that peptide mixtures form clusters with inverse hydrophobic order. Most multivalent and charged residues are localized in the cluster's core, with a large fraction of nonaromatic hydrophobic residues remaining on the surface. This inverse hydrophobic order in peptide clusters is partly driven by the expulsion of nonspecifically bound water molecules following peptide cluster growth. The growth of clusters is also accompanied by the formation of increasing numbers of specific water-mediated interactions between polar and charged residues. While the present study focused on the condensation of short peptide motifs, the general findings and analysis techniques should be helpful for future studies on larger peptides and protein condensation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Phase Separation",
+      "*Peptides/chemistry",
+      "Proteins",
+      "Water"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Brown, William H",
+        "Potoyan, Davit A"
+      ],
+      "short_names": [
+        "Brown WH",
+        "Potoyan DA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Iowa State University, Ames, Iowa.",
+        "Department of Chemistry, Iowa State University, Ames, Iowa; Roy J. Carver Department of Biochemistry, Biophysics, and Molecular Biology, Iowa State University, Ames, Iowa. Electronic address: potoyan@iastate.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Brown, William H",
+        "short_name": "Brown WH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, Iowa."
+        ]
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, Iowa; Roy J. Carver Department of Biochemistry, Biophysics, and Molecular Biology, Iowa State University, Ames, Iowa. Electronic address: potoyan@iastate.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2024 Feb 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/02 11:46",
+    "fetched_at": "2026-09-21 03:58:40"
+  },
+  "links": {
+    "cites": [
+      "42192191",
+      "41342450",
+      "40821536",
+      "39866835",
+      "39432826",
+      "38803391",
+      "38751116"
+    ],
+    "refs": [
+      "38553587",
+      "37645312",
+      "37146977",
+      "37132487",
+      "36804705",
+      "36758221",
+      "36737456",
+      "36702825",
+      "36454226",
+      "36353733",
+      "36181270",
+      "35796384",
+      "35795820",
+      "35761089",
+      "35682883",
+      "35119946",
+      "35074392",
+      "34984429",
+      "34931046",
+      "34785657",
+      "34664748",
+      "34645832",
+      "34563256",
+      "34241502",
+      "33982350",
+      "33827920",
+      "33515602",
+      "33302617",
+      "33248138",
+      "32936641",
+      "32873929",
+      "32610961",
+      "31750656",
+      "31617663",
+      "30682370",
+      "30306571",
+      "29509422",
+      "29364893",
+      "29303563",
+      "28746339",
+      "28689408",
+      "28283059",
+      "28225081",
+      "27838525",
+      "27378087",
+      "27212236",
+      "26146490",
+      "23717802",
+      "23387571",
+      "22455930",
+      "20563234",
+      "20014772",
+      "19514729",
+      "19229944",
+      "18161993",
+      "16689642",
+      "15369374",
+      "14988499",
+      "11805324"
+    ],
+    "similar": [
+      "38163950",
+      "36993212",
+      "39432826",
+      "39386696",
+      "37205474",
+      "38804888",
+      "38949285",
+      "33302617",
+      "40069227",
+      "39178343",
+      "36181270",
+      "39964249",
+      "39670461",
+      "33982350",
+      "33672806",
+      "38591689",
+      "32482873",
+      "38252962",
+      "36987392",
+      "36227486",
+      "34241502",
+      "36164646",
+      "39196681",
+      "30099028",
+      "40136009",
+      "38987300",
+      "38416758",
+      "36883003",
+      "30220427",
+      "37684240",
+      "38349628",
+      "38547652",
+      "35727989",
+      "37480340",
+      "39937084",
+      "38466837",
+      "36191226",
+      "39342654",
+      "37993409",
+      "33376791",
+      "39826709",
+      "39661689",
+      "24892900",
+      "38262618",
+      "39987501",
+      "36106018",
+      "38690757",
+      "39042834",
+      "39636939",
+      "40290937",
+      "37815389",
+      "39044475",
+      "33684296",
+      "37486948",
+      "38824391",
+      "38112495",
+      "35787038",
+      "38231854",
+      "36040869",
+      "36227470",
+      "36875159",
+      "32936641",
+      "12119034",
+      "29509422",
+      "31199001",
+      "38308651",
+      "33597515",
+      "31634364",
+      "38656803",
+      "40007487",
+      "40195119",
+      "34772789",
+      "37470705",
+      "40108179",
+      "38260590",
+      "38446881",
+      "40203038",
+      "37293933",
+      "38553587",
+      "32393642",
+      "38251748",
+      "36702825",
+      "34516789",
+      "38994413",
+      "36449075",
+      "33087563",
+      "36550144",
+      "32696384",
+      "37464880",
+      "38781377",
+      "34179888",
+      "32487073",
+      "33934561",
+      "39575590",
+      "37735186",
+      "39271915",
+      "38751116",
+      "9780233",
+      "33653957",
+      "39227569"
+    ],
+    "review": [
+      "38163950",
+      "39178343",
+      "39964249",
+      "36164646",
+      "30099028",
+      "38547652",
+      "36106018",
+      "33684296",
+      "36875159",
+      "29509422",
+      "34772789",
+      "37464880",
+      "34179888",
+      "33934561"
+    ],
+    "pmc": [
+      "10870168"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(23)04180-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38163950/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

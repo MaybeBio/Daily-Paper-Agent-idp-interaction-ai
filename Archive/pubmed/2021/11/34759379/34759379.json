@@ -1,0 +1,505 @@
+{
+  "identity": {
+    "pmid": "34759379",
+    "doi": "10.1038/s41594-021-00677-4",
+    "title": "Molecular interactions contributing to FUS SYGQ LC-RGG phase separation and co-partitioning with RNA polymerase II heptads."
+  },
+  "content": {
+    "abstract": "The RNA-binding protein FUS (Fused in Sarcoma) mediates phase separation in biomolecular condensates and functions in transcription by clustering with RNA polymerase II. Specific contact residues and interaction modes formed by FUS and the C-terminal heptad repeats of RNA polymerase II (CTD) have been suggested but not probed directly. Here we show how RGG domains contribute to phase separation with the FUS N-terminal low-complexity domain (SYGQ LC) and RNA polymerase II CTD. Using NMR spectroscopy and molecular simulations, we demonstrate that many residue types, not solely arginine-tyrosine pairs, form condensed-phase contacts via several interaction modes including, but not only sp(2)-pi and cation-pi interactions. In phases also containing RNA polymerase II CTD, many residue types form contacts, including both cation-pi and hydrogen-bonding interactions formed by the conserved human CTD lysines. Hence, our data suggest a surprisingly broad array of residue types and modes explain co-phase separation of FUS and RNA polymerase II.",
+    "keywords": [],
+    "mesh_terms": [
+      "Biomolecular Condensates/*physiology",
+      "Cell Communication/physiology",
+      "Escherichia coli/genetics/metabolism",
+      "Humans",
+      "Hydrogen Bonding",
+      "Lysine/chemistry",
+      "Magnetic Resonance Spectroscopy",
+      "Protein Domains/physiology",
+      "RNA Polymerase II/*metabolism",
+      "RNA-Binding Protein FUS/*metabolism",
+      "Transcription, Genetic/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Murthy, Anastasia C",
+        "Tang, Wai Shing",
+        "Jovic, Nina",
+        "Janke, Abigail M",
+        "Seo, Da Hee",
+        "Perdikari, Theodora Myrto",
+        "Mittal, Jeetain",
+        "Fawzi, Nicolas L"
+      ],
+      "short_names": [
+        "Murthy AC",
+        "Tang WS",
+        "Jovic N",
+        "Janke AM",
+        "Seo DH",
+        "Perdikari TM",
+        "Mittal J",
+        "Fawzi NL"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7759-7771",
+        "ORCID: 0000-0002-9725-6402",
+        "ORCID: 0000-0001-5483-0577"
+      ],
+      "affiliations": [
+        "Graduate Program in Molecular Biology, Cell Biology, and Biochemistry, Brown University, Providence, RI, USA.",
+        "Graduate Program in Physics, Brown University, Providence, RI, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+        "Department of Molecular Biology, Cell Biology, and Biochemistry, Brown University, Providence, RI, USA.",
+        "Department of Molecular Biology, Cell Biology, and Biochemistry, Brown University, Providence, RI, USA.",
+        "Center for Biomedical Engineering, Brown University, Providence, RI, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+        "Department of Molecular Biology, Cell Biology, and Biochemistry, Brown University, Providence, RI, USA. nicolas_fawzi@brown.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Murthy, Anastasia C",
+        "short_name": "Murthy AC",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Program in Molecular Biology, Cell Biology, and Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Tang, Wai Shing",
+        "short_name": "Tang WS",
+        "identifiers": [
+          "0000-0001-7759-7771"
+        ],
+        "affiliations": [
+          "Graduate Program in Physics, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Jovic, Nina",
+        "short_name": "Jovic N",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Janke, Abigail M",
+        "short_name": "Janke AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology, and Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Seo, Da Hee",
+        "short_name": "Seo DH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology, and Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Perdikari, Theodora Myrto",
+        "short_name": "Perdikari TM",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biomedical Engineering, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu."
+        ]
+      },
+      {
+        "full_name": "Fawzi, Nicolas L",
+        "short_name": "Fawzi NL",
+        "identifiers": [
+          "0000-0001-5483-0577"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology, and Biochemistry, Brown University, Providence, RI, USA. nicolas_fawzi@brown.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature structural & molecular biology"
+    ],
+    "journal_abbrev": [
+      "Nat Struct Mol Biol"
+    ],
+    "pub_date": "2021 Nov",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/12 06:00",
+    "fetched_at": "2026-09-20 06:24:52"
+  },
+  "links": {
+    "cites": [
+      "42489335",
+      "42334540",
+      "42317547",
+      "42261607",
+      "42228326",
+      "42051291",
+      "41862773",
+      "41758937",
+      "41756850",
+      "41646863",
+      "41594575",
+      "41566810",
+      "41415473",
+      "41360972",
+      "41342450",
+      "41292773",
+      "41266895",
+      "41204384",
+      "41169547",
+      "40981365",
+      "40954121",
+      "40842365",
+      "40830340",
+      "40682822",
+      "40675804",
+      "40666952",
+      "40661423",
+      "40479713",
+      "40377985",
+      "40286793",
+      "40281357",
+      "40164612",
+      "40136009",
+      "39920231",
+      "39824169",
+      "39819217",
+      "39807013",
+      "39497416",
+      "39372747",
+      "39227569",
+      "39024109",
+      "38672516",
+      "38553587",
+      "38506112",
+      "38480701",
+      "38467846",
+      "38405719",
+      "38348795",
+      "38316988",
+      "38297837",
+      "38279531",
+      "38070499",
+      "38056002",
+      "38039154",
+      "38029395",
+      "37986834",
+      "37957331",
+      "37957147",
+      "37890778",
+      "37870995",
+      "37851801",
+      "37749095",
+      "37721444",
+      "37579155",
+      "37464880",
+      "37461689",
+      "37386790",
+      "37239436",
+      "37200094",
+      "37155880",
+      "37094074",
+      "37079924",
+      "37034777",
+      "36993592",
+      "36829460",
+      "36690069",
+      "36528065",
+      "36256816",
+      "35896896",
+      "35802394",
+      "35490297",
+      "35351518",
+      "35203243"
+    ],
+    "refs": [
+      "34931046",
+      "34074792",
+      "33545530",
+      "33139563",
+      "33078950",
+      "33048555",
+      "32936641",
+      "32929202",
+      "32393642",
+      "32029630",
+      "31911439",
+      "31898464",
+      "31751897",
+      "31439799",
+      "31437398",
+      "31391587",
+      "31341602",
+      "31270472",
+      "31266957",
+      "31188823",
+      "30990694",
+      "30765518",
+      "30765194",
+      "30581145",
+      "30449618",
+      "30217894",
+      "30127355",
+      "30021151",
+      "29961577",
+      "29930094",
+      "29930091",
+      "29930090",
+      "29913160",
+      "29849146",
+      "29677515",
+      "29677514",
+      "29677513",
+      "29424691",
+      "29364893",
+      "29358076",
+      "28945358",
+      "28894006",
+      "28819146",
+      "28790177",
+      "28636597",
+      "28556382",
+      "28507126",
+      "28502465",
+      "27415968",
+      "27378374",
+      "27212236",
+      "26620784",
+      "26526393",
+      "26498157",
+      "26455390",
+      "26317470",
+      "25747659",
+      "25505092",
+      "25046020",
+      "24842888",
+      "24706910",
+      "24268778",
+      "24267890",
+      "23249733",
+      "22579281",
+      "22081015",
+      "21541367",
+      "21368180",
+      "20866953",
+      "20604554",
+      "20556825",
+      "19444816",
+      "19065697",
+      "18506808",
+      "18412346",
+      "18232845",
+      "16392929",
+      "8520220",
+      "8187069",
+      "7958914",
+      "2690953"
+    ],
+    "similar": [
+      "34759379",
+      "31270472",
+      "28945358",
+      "26455390",
+      "30488693",
+      "23249733",
+      "34862761",
+      "24267890",
+      "33184287",
+      "37399327",
+      "31895552",
+      "31188823",
+      "28942918",
+      "33547841",
+      "29677515",
+      "34648275",
+      "24268778",
+      "37890778",
+      "37749095",
+      "35709363",
+      "29677513",
+      "37211763",
+      "26124092",
+      "34654750",
+      "26876604",
+      "33857479",
+      "34156864",
+      "34516126",
+      "38279531",
+      "7826625",
+      "35203243",
+      "33607084",
+      "30765194",
+      "26515650",
+      "29677514",
+      "31805282",
+      "28924037",
+      "34487489",
+      "28465432",
+      "20541619",
+      "33674598",
+      "37331973",
+      "28790177",
+      "29986386",
+      "30808650",
+      "31238957",
+      "29961577",
+      "30205960",
+      "35297101",
+      "33159853",
+      "31680436",
+      "29849146",
+      "28432364",
+      "35176629",
+      "34216714",
+      "25009283",
+      "27159574",
+      "28248323",
+      "35943083",
+      "33262375",
+      "23436654",
+      "25995189",
+      "25447237",
+      "33686294",
+      "28575444",
+      "37155880",
+      "30581145",
+      "29800261",
+      "27283512",
+      "31734037",
+      "38070499",
+      "33307683",
+      "36361989",
+      "38157426",
+      "38462838",
+      "36945688",
+      "27192881",
+      "31088280",
+      "38405719",
+      "38971830",
+      "30127355",
+      "34233002",
+      "32568517",
+      "31240261",
+      "28002402",
+      "37424514",
+      "36453011",
+      "32189459",
+      "10781604",
+      "30971428",
+      "10392900",
+      "22960391",
+      "32231288",
+      "28497792",
+      "28468956",
+      "15121832",
+      "1569096",
+      "33555055",
+      "29304333",
+      "38467846",
+      "37684240",
+      "32577653",
+      "39112465",
+      "38996511",
+      "35795820",
+      "37957147",
+      "37856873"
+    ],
+    "review": [
+      "34759379",
+      "37399327",
+      "26876604",
+      "31680436",
+      "35176629",
+      "28248323",
+      "27192881"
+    ],
+    "pmc": [
+      "8654040"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41594-021-00677-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34759379/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34759379",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34759379",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34759379",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

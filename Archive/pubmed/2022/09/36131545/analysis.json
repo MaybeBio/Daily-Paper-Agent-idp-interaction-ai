@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36131545",
+  "title": "Convergent views on disordered protein dynamics from NMR and computational approaches.",
+  "authors": "Salvi, Nicola; Zapletal, Vojtech; Jasenakova, Zuzana; Zachrdla, Milan; Padrta, Petr; Narasimhan, Subhash; Marquardsen, Thorsten; Tyburn, Jean-Max; Zidek, Lukas; Blackledge, Martin; Ferrage, Fabien; Kaderavek, Pavel",
+  "journal": "Biophysical journal",
+  "published_date": "2022-09-23",
+  "window": {
+    "start": "2022-09-19",
+    "end": "2022-09-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合NMR弛豫与分子动力学模拟研究RNA聚合酶delta亚基无序C端结构域的ps-ns动态，聚焦瞬时静电接触形成的功能相关区域，虽未直接建模PPI，但为IDR动态与互作相关构象的物理模拟提供了可迁移的方法学参考。",
+  "abstract": "Intrinsically disordered proteins (IDPs) or intrinsically disordered regions (IDRs) is a class of biologically important proteins exhibiting specific biophysical characteristics. They lack a hydrophobic core, and their conformational behavior is strongly influenced by electrostatic interactions. IDPs and IDRs are highly dynamic, and a characterization of the motions of IDPs and IDRs is essential for their physically correct description. NMR together with molecular dynamics simulations are the methods best suited to such a task because they provide information about dynamics of proteins with atomistic resolution. Here, we present a study of motions of a disordered C-terminal domain of the delta subunit of RNA polymerase from Bacillus subtilis. Positively and negatively charged residues in the studied domain form transient electrostatic contacts critical for the biological function. Our study is focused on investigation of ps-ns dynamics of backbone of the delta subunit based on analysis of amide (15)N NMR relaxation data and molecular dynamics simulations. In order to extend an informational content of NMR data to lower frequencies, which are more sensitive to slower motions, we combined standard (high-field) NMR relaxation experiments with high-resolution relaxometry. Altogether, we collected data reporting the relaxation at 12 different magnetic fields, resulting in an unprecedented data set. Our results document that the analysis of such data provides a consistent description of dynamics and confirms the validity of so far used protocols of the analysis of dynamics of IDPs also for a partially folded protein. In addition, the potential to access detailed description of motions at the timescale of tens of ns with the help of relaxometry data is discussed. Interestingly, in our case, it appears to be mostly relevant for a region involved in the formation of temporary contacts within the disordered region, which was previously proven to be biologically important.",
+  "abstract_zh": "固有无序蛋白（IDPs）或固有无序区域（IDRs）是一类具有特定生物物理特性的重要生物蛋白。它们缺乏疏水核心，其构象行为受静电相互作用的强烈影响。IDPs和IDRs高度动态，对其运动的表征对于物理上准确的描述至关重要。核磁共振（NMR）结合分子动力学模拟是完成此类任务的最佳方法，因为它们能以原子分辨率提供蛋白质动力学的信息。在此，我们展示了对来自枯草芽孢杆菌RNA聚合酶δ亚基的无序C端结构域运动的研究。所研究结构域中的正电荷和负电荷残基形成瞬态静电接触，这对生物功能至关重要。我们的研究重点是基于酰胺(15)N NMR弛豫数据和分子动力学模拟，分析δ亚基骨架的ps-ns动力学。为了将NMR数据的信息内容扩展到对较慢运动更敏感的低频范围，我们将标准（高场）NMR弛豫实验与高分辨率弛豫测量相结合。总共，我们收集了在12个不同磁场下的弛豫报告数据，形成了一个前所未有的数据集。我们的结果证明，对此类数据的分析能提供一致的动力学描述，并验证了迄今为止用于IDPs动力学分析协议的有效性，也适用于部分折叠蛋白。此外，讨论了借助弛豫测量数据在数十纳秒时间尺度上获取详细运动描述的潜力。有趣的是，在我们的案例中，这似乎主要与无序区域内参与临时接触形成的区域相关，该区域先前已被证明具有生物学重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36131545/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36131545/",
+  "paper_page_path": "papers/pubmed/36131545/index.html"
+}

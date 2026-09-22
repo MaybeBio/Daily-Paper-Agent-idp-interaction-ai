@@ -1,0 +1,455 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.04.08.647705",
+  "title": "Kinesin-1 conformational dynamics are controlled by a cargo-sensitive TPR switch",
+  "doi": "10.1101/2025.04.08.647705",
+  "abstract": "Kinesin-1 is a dynamic heterotetrameric assembly of two heavy and two light chains (KHC and KLC) that mediates microtubule-based intracellular transport of many different cargoes. The complex adopts a compact, autoinhibited state that is activated by cargo-adaptor proteins containing specific short linear peptide motifs (SLiMs). These motifs interact with the tetratricopeptide repeat (TPR) domains of the KLCs. The mechanism coupling SLiM recognition to activation-associated conformational changes in the complex is unknown. Here we combine protein design, computational modelling, biophysical analysis, and electron microscopy to examine the structural and mechanistic consequences of SLiM binding to the KLC-TPR domain within the complete heterotetrameric holoenzyme. We show that coiled coil 1 (CC1) of the KHC docks KLC TPR domains in the autoinhibited complex, forming the ‘shoulder’ feature observed in electron microscopy. Disrupting this interaction or binding an activating SLiM dislocates the TPR shoulder, freeing the motor domains and promoting transition between its closed, inactive, and open states. Opening the kinesin-1 complex facilitates binding to the microtubule-associated kinesin-1 cofactor, MAP7. Therefore, cargo-mediated dislocation of the TPR shoulder serves as a key initial step in kinesin-1 activation, allosterically linking cargo binding to motor dynamics.",
+  "authors": [
+    "Shukla S",
+    "Cross JA",
+    "Kish M",
+    "Yadav SK",
+    "Weijman JF",
+    "O’Regan L",
+    "Mantell J",
+    "Borucu U",
+    "Leng X",
+    "Schaffitzel C",
+    "Phillips JJ",
+    "Woolfson DN",
+    "Dodding MP"
+  ],
+  "published_date": "2025-04-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.04.08.647705",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.08.647705.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1001746",
+    "raw_record": {
+      "id": "PPR1001746",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1001746"
+        ]
+      },
+      "doi": "10.1101/2025.04.08.647705",
+      "title": "Kinesin-1 conformational dynamics are controlled by a cargo-sensitive TPR switch",
+      "authorString": "Shukla S, Cross JA, Kish M, Yadav SK, Weijman JF, O’Regan L, Mantell J, Borucu U, Leng X, Schaffitzel C, Phillips JJ, Woolfson DN, Dodding MP.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shukla S",
+            "lastName": "Shukla",
+            "firstName": "Shivam",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2856-5081"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biochemistry, , Biomedical Sciences Building, University Walk , ,"
+                },
+                {
+                  "affiliation": "School of Chemistry, , Cantock’s Close , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cross JA",
+            "lastName": "Cross",
+            "firstName": "Jessica",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7725-3821"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biochemistry, , Biomedical Sciences Building, University Walk , ,"
+                },
+                {
+                  "affiliation": "School of Chemistry, , Cantock’s Close , , ,"
+                },
+                {
+                  "affiliation": "School of Engineering Mathematics and Technology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kish M",
+            "lastName": "Kish",
+            "firstName": "Monika",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3661-8641"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Living Systems Institute, , Stocker Road , ,"
+                },
+                {
+                  "affiliation": "Department of Biosciences, , Stocker Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yadav SK",
+            "lastName": "Yadav",
+            "firstName": "Sathish K.N.",
+            "initials": "SK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biochemistry, , Biomedical Sciences Building, University Walk , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weijman JF",
+            "lastName": "Weijman",
+            "firstName": "Johannes",
+            "initials": "JF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2082-5777"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biochemistry, , Biomedical Sciences Building, University Walk , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "O’Regan L",
+            "lastName": "O’Regan",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6101-6300"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biochemistry, , Biomedical Sciences Building, University Walk , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mantell J",
+            "lastName": "Mantell",
+            "firstName": "Judith",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9061-8933"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biochemistry, , Biomedical Sciences Building, University Walk , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Borucu U",
+            "lastName": "Borucu",
+            "firstName": "Ufuk",
+            "initials": "U",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6746-5409"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leng X",
+            "lastName": "Leng",
+            "firstName": "Xiyue",
+            "initials": "X",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4441-2352"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, , Cantock’s Close , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schaffitzel C",
+            "lastName": "Schaffitzel",
+            "firstName": "Christiane",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biochemistry, , Biomedical Sciences Building, University Walk , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Phillips JJ",
+            "lastName": "Phillips",
+            "firstName": "Jonathan",
+            "initials": "JJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Living Systems Institute, , Stocker Road , ,"
+                },
+                {
+                  "affiliation": "Department of Biosciences, , Stocker Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Woolfson DN",
+            "lastName": "Woolfson",
+            "firstName": "Derek",
+            "initials": "DN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0394-3202"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biochemistry, , Biomedical Sciences Building, University Walk , ,"
+                },
+                {
+                  "affiliation": "School of Chemistry, , Cantock’s Close , , ,"
+                },
+                {
+                  "affiliation": ", , Cantock’s Close , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dodding MP",
+            "lastName": "Dodding",
+            "firstName": "Mark",
+            "initials": "MP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8091-6534"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biochemistry, , Biomedical Sciences Building, University Walk , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6746-5409"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7725-3821"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8091-6534"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0394-3202"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1516-9760"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2082-5777"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3661-8641"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4441-2352"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6101-6300"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9061-8933"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2856-5081"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Kinesin-1 is a dynamic heterotetrameric assembly of two heavy and two light chains (KHC and KLC) that mediates microtubule-based intracellular transport of many different cargoes. The complex adopts a compact, autoinhibited state that is activated by cargo-adaptor proteins containing specific short linear peptide motifs (SLiMs). These motifs interact with the tetratricopeptide repeat (TPR) domains of the KLCs. The mechanism coupling SLiM recognition to activation-associated conformational changes in the complex is unknown. Here we combine protein design, computational modelling, biophysical analysis, and electron microscopy to examine the structural and mechanistic consequences of SLiM binding to the KLC-TPR domain within the complete heterotetrameric holoenzyme. We show that coiled coil 1 (CC1) of the KHC docks KLC TPR domains in the autoinhibited complex, forming the ‘shoulder’ feature observed in electron microscopy. Disrupting this interaction or binding an activating SLiM dislocates the TPR shoulder, freeing the motor domains and promoting transition between its closed, inactive, and open states. Opening the kinesin-1 complex facilitates binding to the microtubule-associated kinesin-1 cofactor, MAP7. Therefore, cargo-mediated dislocation of the TPR shoulder serves as a key initial step in kinesin-1 activation, allosterically linking cargo binding to motor dynamics.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "206181/Z/17/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/X019799/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/W005581/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/Z517276/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "202904/Z/16/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "210701/Z/18/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/04/08/2025.04.08.647705.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.04.08.647705"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1001746"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1001746&type=FILE&fileName=EMS209326-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41979187",
+            "reference": "eLife. \n    2026 Apr;14:RP109462",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS209326",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-04-11",
+      "firstPublicationDate": "2025-04-08",
+      "firstIndexDate": "2025-04-11",
+      "fullTextReceivedDate": "2026-01-23",
+      "hasEvaluations": "Y"
+    }
+  }
+}

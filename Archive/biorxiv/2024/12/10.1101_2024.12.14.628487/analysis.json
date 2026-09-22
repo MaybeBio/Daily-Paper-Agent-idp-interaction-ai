@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.14.628487",
+  "title": "Insight into the Thermo-responsive Phase Behavior of P1 Domain of α -synuclein using Atomistic Simulations",
+  "authors": "Chakraborty S; Biswas M",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-17",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全原子分子动力学模拟研究α-突触核蛋白P1无序区域的温度响应相分离机制，聚焦疏水驱动和酪氨酸介导的多链弱互作，属于IDP相分离PPI的物理模拟机制建模，高度契合课题。",
+  "abstract": "Biomolecular condensate formation driven by intrinsically disordered proteins (IDPs) is regulated by interaction between various domains of the protein. Such condensates are implicated in various neurodegenerative diseases. The presynaptic intrinsically disordered protein, α -Syn is involved in the pathogenesis of Parkinson’s disease. The central non-amyloid β -component (NAC) domain in the protein is considered to be a major driver of pathogenic aggregation, although recent studies have suggested that the P1 domain from the flanking N-terminal region, can act as a ‘master controller’ for α -Syn function and aggregation. To gain molecular insight into the phase behavior of the P1 domain itself, we investigate how assemblies of P1 (residues 36-42) chains phase separate with varying temperatures using all-atom molecular dynamics simulations. The simulations reveal that P1 is able to phase separate above a lower critical solution temperature. Formation of the condensed phase is driven by exclusion of water molecules by the hydrophobic chains. P1 chain density in the condensate is determined by weak multi-chain interactions between the residues. Moreover, Tyrosine (Y 39 ) is involved in the formation of strongest contacts between residue pairs in the dense phase. These results provide a detailed picture of condensate formation by a key segment of the α -Syn molecule, which may help deciphering the phase behavior of the full-length protein.",
+  "abstract_zh": "由固有无序蛋白（IDPs）驱动的生物分子凝聚体形成受蛋白质各结构域之间相互作用的调控。此类凝聚体与多种神经退行性疾病相关。突触前固有无序蛋白α-Syn参与帕金森病的发病机制。该蛋白中的中央非淀粉样β组分（NAC）结构域被认为是致病性聚集的主要驱动因素，尽管近期研究表明，来自侧翼N端区域的P1结构域可作为α-Syn功能和聚集的“主控制器”。为从分子层面深入了解P1结构域自身的相行为，我们利用全原子分子动力学模拟，研究了P1（残基36-42）链组装体在不同温度下的相分离情况。模拟揭示，P1能够在高于较低临界溶解温度时发生相分离。凝聚相的形成由疏水链排斥水分子所驱动。凝聚体中P1链密度由残基间的弱多链相互作用决定。此外，酪氨酸（Y39）参与形成致密相中残基对间的最强接触。这些结果提供了α-Syn分子关键片段凝聚体形成的详细图景，可能有助于解读全长蛋白的相行为。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.14.628487",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.14.628487",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.14.628487/index.html"
+}

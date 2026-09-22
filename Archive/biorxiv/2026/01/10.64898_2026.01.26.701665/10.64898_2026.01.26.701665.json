@@ -1,0 +1,717 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.26.701665",
+  "title": "Dual-channel graph learning reveals similarity and complementarity in protein-protein interaction networks",
+  "doi": "10.64898/2026.01.26.701665",
+  "abstract": "Protein-protein interactions (PPIs) are governed by two fundamental interfacial mechanisms: similarity-driven, often involving symmetric structural motifs, and complementarity-driven, arising from geometric and physicochemical matching between binding surfaces. Despite their biological significance, computational models have largely overlooked the coexistence and interplay of these twofold interaction modes. Here, we introduce DMG-PPI, a dual-channel graph neural network framework that jointly models similarity and complementarity in PPI networks, extending prior heterophilous GNN concepts to explicitly disentangle these dual interaction modes. The model consists of two parallel message-passing pathways: Alignment Message Passing (AMP), which aggregates signals from similar neighbors to capture symmetric interfaces, and Divergence Message Passing (DMP), which contrasts node features to extract complementary binding patterns. The signals captured by AMP and DMP are integrated via an adaptive fusion strategy within each block, and the outputs of blocks are aggregated using the MixHop framework to encode higher-order interaction patterns. DMG-PPI substantially outperforms state-of-the-art methods on classical benchmark datasets, achieving a 7.19% improvement in Micro-F1 over the second-best method. Additionally, the dual-channel framework provides interpretable insights into key binding residues by identifying interfacial mechanisms. Overall, DMG-PPI serves as a powerful tool that reveals the mechanisms behind accurate PPI predictions and facilitates downstream biological analysis. Author summary Proteins interact through multiple interfacial principles rather than a single uniform mechanism, reflecting diverse modes of molecular recognition between binding partners. Accurately modeling this heterogeneity remains a central challenge in protein–protein interaction (PPI) prediction. Existing computational approaches often overlook such complexity and treat all interactions as arising from a dominant pattern. To address this limitation, we present DMG-PPI, a dual-channel graph neural network framework designed to account for distinct interaction principles within a unified model. By modeling both similarity-based and complementarity-based interaction signals, DMG-PPI enables a more comprehensive representation of interaction patterns in PPI networks. Evaluations on widely used benchmark datasets demonstrate that our approach achieves robust and consistent improvements over existing methods. Beyond prediction accuracy, DMG-PPI provides biologically meaningful interpretability by highlighting key residues and revealing distinct interfacial interaction mechanisms, offering valuable insights for downstream structural and functional studies.",
+  "authors": [
+    "Tao Tang",
+    "Taiguang Shen",
+    "Weizhuo Li",
+    "Yangyang Chen",
+    "Sisi Yuan",
+    "Yuansheng Liu",
+    "Xinyu Yang",
+    "Xiao Luo"
+  ],
+  "published_date": "2026-01-27",
+  "updated_date": "2026-01-28T03:25:23Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.26.701665",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.26.701665.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            15
+          ]
+        ],
+        "date-time": "2026-07-15T10:11:12Z",
+        "timestamp": 1784110272299,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            27
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 52,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                27
+              ]
+            ],
+            "date-time": "2026-01-27T00:00:00Z",
+            "timestamp": 1769472000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            27
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Protein-protein interactions (PPIs) are governed by two fundamental interfacial mechanisms: similarity-driven, often involving symmetric structural motifs, and complementarity-driven, arising from geometric and physicochemical matching between binding surfaces. Despite their biological significance, computational models have largely overlooked the coexistence and interplay of these twofold interaction modes. Here, we introduce DMG-PPI, a dual-channel graph neural network framework that jointly models similarity and complementarity in PPI networks, extending prior heterophilous GNN concepts to explicitly disentangle these dual interaction modes. The model consists of two parallel message-passing pathways: Alignment Message Passing (AMP), which aggregates signals from similar neighbors to capture symmetric interfaces, and Divergence Message Passing (DMP), which contrasts node features to extract complementary binding patterns. The signals captured by AMP and DMP are integrated via an adaptive fusion strategy within each block, and the outputs of blocks are aggregated using the MixHop framework to encode higher-order interaction patterns. DMG-PPI substantially outperforms state-of-the-art methods on classical benchmark datasets, achieving a 7.19% improvement in Micro-F1 over the second-best method. Additionally, the dual-channel framework provides interpretable insights into key binding residues by identifying interfacial mechanisms. Overall, DMG-PPI serves as a powerful tool that reveals the mechanisms behind accurate PPI predictions and facilitates downstream biological analysis.</jats:p>\n                <jats:sec>\n                  <jats:title>Author summary</jats:title>\n                  <jats:p>Proteins interact through multiple interfacial principles rather than a single uniform mechanism, reflecting diverse modes of molecular recognition between binding partners. Accurately modeling this heterogeneity remains a central challenge in protein–protein interaction (PPI) prediction. Existing computational approaches often overlook such complexity and treat all interactions as arising from a dominant pattern. To address this limitation, we present DMG-PPI, a dual-channel graph neural network framework designed to account for distinct interaction principles within a unified model. By modeling both similarity-based and complementarity-based interaction signals, DMG-PPI enables a more comprehensive representation of interaction patterns in PPI networks. Evaluations on widely used benchmark datasets demonstrate that our approach achieves robust and consistent improvements over existing methods. Beyond prediction accuracy, DMG-PPI provides biologically meaningful interpretability by highlighting key residues and revealing distinct interfacial interaction mechanisms, offering valuable insights for downstream structural and functional studies.</jats:p>\n                </jats:sec>",
+      "DOI": "10.64898/2026.01.26.701665",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            28
+          ]
+        ],
+        "date-time": "2026-01-28T03:25:23Z",
+        "timestamp": 1769570723000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Dual-channel graph learning reveals similarity and complementarity in protein-protein interaction networks"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1207-4192",
+          "authenticated-orcid": false,
+          "given": "Tao",
+          "family": "Tang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "School of Modern Posts, Nanjing University of Posts and Telecommunications, Jiangsu, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Taiguang",
+          "family": "Shen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Modern Posts, Nanjing University of Posts and Telecommunications, Jiangsu, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Weizhuo",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Modern Posts, Nanjing University of Posts and Telecommunications, Jiangsu, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yangyang",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Science, University of Tsukuba, Ibaraki, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sisi",
+          "family": "Yuan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Electronic Engineering, Hunan University, Hunan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7680-3155",
+          "authenticated-orcid": false,
+          "given": "Yuansheng",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Electronic Engineering, Hunan University, Hunan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xinyu",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Electronic Engineering, Hunan University, Hunan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3914-359X",
+          "authenticated-orcid": false,
+          "given": "Xiao",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Biology, Hunan University, Hunan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "96",
+          "DOI": "10.1038/nbt.4316",
+          "article-title": "Real-time measurement of protein–protein interactions at single-molecule resolution using a biological nanopore",
+          "volume": "37",
+          "year": "2019",
+          "journal-title": "Nature Biotechnology"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "1582",
+          "DOI": "10.1038/s41467-023-37079-7",
+          "article-title": "Assessment of community efforts to advance network-based prediction of protein–protein interactions",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature communications"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "213",
+          "DOI": "10.1038/s41392-020-00315-3",
+          "article-title": "Recent advances in the development of protein–protein interactions modulators: mechanisms and clinical trials",
+          "volume": "5",
+          "year": "2020",
+          "journal-title": "Signal transduction and targeted therapy"
+        },
+        {
+          "issue": "6",
+          "key": "2026020503434216000_2026.01.26.701665v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1006648",
+          "DOI": "10.1371/journal.pcbi.1006648",
+          "article-title": "Protein ensembles link genotype to phenotype",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "issue": "10",
+          "key": "2026020503434216000_2026.01.26.701665v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "2383",
+          "DOI": "10.3390/ijms20102383",
+          "article-title": "A comprehensive review on current advances in peptide drug development and design",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "International journal of molecular sciences"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/mt.2015.214"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "9629",
+          "DOI": "10.1038/s41467-024-53583-w",
+          "article-title": "Integration of molecular coarse-grained model into geometric representation learning framework for protein-protein complex property prediction",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1928-2"
+        },
+        {
+          "issue": "4",
+          "key": "2026020503434216000_2026.01.26.701665v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbac165",
+          "DOI": "10.1093/bib/bbac165",
+          "article-title": "Structural landscapes of PPI interfaces",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-020-00774-y"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2188-x"
+        },
+        {
+          "issue": "6",
+          "key": "2026020503434216000_2026.01.26.701665v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "2763",
+          "DOI": "10.3390/ijms10062763",
+          "article-title": "Yeast two-hybrid, a powerful tool for systems biology",
+          "volume": "10",
+          "year": "2009",
+          "journal-title": "International Journal of Molecular Sciences"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2831"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1136/mp.53.1.8"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "8477",
+          "DOI": "10.1038/s41467-023-44142-w",
+          "article-title": "Common and divergent gene regulatory networks control injury-induced and developmental neurogenesis in zebrafish retina",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm2503"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty916"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btn577"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "78",
+          "DOI": "10.1038/s41392-022-00925-z",
+          "article-title": "Signaling pathways and targeted therapy for myocardial infarction",
+          "volume": "7",
+          "year": "2022",
+          "journal-title": "Signal transduction and targeted therapy"
+        },
+        {
+          "issue": "6",
+          "key": "2026020503434216000_2026.01.26.701665v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "815",
+          "DOI": "10.1038/s41592-023-01873-4",
+          "article-title": "EmbryoNet: using deep learning to link embryonic phenotypes to signaling pathways",
+          "volume": "20",
+          "year": "2023",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jaci.2020.07.027"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "7238",
+          "DOI": "10.1038/s41467-024-51702-1",
+          "article-title": "Enhanced metabolic entanglement emerges during the evolution of an interkingdom microbial community",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa750"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "253",
+          "DOI": "10.1186/s12915-025-02356-y",
+          "article-title": "MESM: integrating multi-source data for high-accuracy protein-protein interactions prediction through multimodal language models",
+          "volume": "23",
+          "year": "2025",
+          "journal-title": "BMC biology"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "5499",
+          "DOI": "10.1038/s41598-018-23672-0",
+          "article-title": "MTGO: PPI network analysis via topological and functional module identification",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Scientific reports"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.3c00550"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2024.102775"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "0240",
+          "DOI": "10.34133/research.0240",
+          "article-title": "A transformer-based ensemble framework for the prediction of protein–protein interaction sites",
+          "volume": "6",
+          "year": "2023",
+          "journal-title": "Research"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "73",
+          "DOI": "10.1038/s42003-023-04462-5",
+          "article-title": "Learning the protein language of proteome-wide protein-protein binding sites via explainable ensemble deep learning",
+          "volume": "6",
+          "year": "2023",
+          "journal-title": "Communications Biology"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "1093",
+          "DOI": "10.1038/s41467-023-36736-1",
+          "article-title": "Hierarchical graph learning for protein–protein interaction",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.31",
+          "unstructured": "Wu L , Tian Y , Huang Y , Li S , Lin H , Chawla NV , et al. MAPE-PPI: Towards Effective and Efficient Protein-Protein Interaction Prediction via Microenvironment-Aware Protein Embedding. In: The Twelfth International Conference on Learning Representations; 2024.."
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.32",
+          "unstructured": "Lv G , Hu Z , Bi Y , Zhang S. Learning Unknown from Correlations: Graph Neural Network for Inter-novel-protein Interaction Prediction. In: IJCAI-21;.."
+        },
+        {
+          "issue": "2",
+          "key": "2026020503434216000_2026.01.26.701665v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "btad052",
+          "DOI": "10.1093/bioinformatics/btad052",
+          "article-title": "AFTGAN: prediction of multi-type PPI based on attention free transformer and graph attention network",
+          "volume": "39",
+          "year": "2023",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "10",
+          "key": "2026020503434216000_2026.01.26.701665v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "btae603",
+          "DOI": "10.1093/bioinformatics/btae603",
+          "article-title": "Anti-symmetric framework for balanced learning of protein–protein interactions",
+          "volume": "40",
+          "year": "2024",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.24963/ijcai.2023/554"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-024-10299-x"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.37",
+          "unstructured": "RDKit Community. RDKit: Open-Source Cheminformatics Software; 2020. Accessed: 2020-08-07. https://www.rdkit.org."
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "291",
+          "DOI": "10.3389/fgene.2020.00291",
+          "article-title": "Protein interface complementarity and gene duplication improve link prediction of protein-protein interaction network",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Frontiers in genetics"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lv G , Hu Z , Bi Y , Zhang S. Learning unknown from correlations: graph neural network for inter-novel-protein interaction prediction. In: Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence (IJCAI-21); 2021. p. 3577–684.",
+          "DOI": "10.24963/ijcai.2021/506"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1000"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz328"
+        },
+        {
+          "issue": "4",
+          "key": "2026020503434216000_2026.01.26.701665v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbaf434",
+          "DOI": "10.1093/bib/bbaf434",
+          "article-title": "ESM2 AMP: an interpretable framework for protein–protein interactions prediction and biological mechanism discovery",
+          "volume": "26",
+          "year": "2025",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae359"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "521",
+          "DOI": "10.1186/s12859-022-05062-6",
+          "article-title": "Long-distance dependency combined multi-hop graph neural networks for protein–protein interactions prediction",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "BMC bioinformatics"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jclinepi.2015.02.010"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "601",
+          "DOI": "10.1038/s42003-021-02118-w",
+          "article-title": "Wnt signaling in lung development, regeneration, and disease progression",
+          "volume": "4",
+          "year": "2021",
+          "journal-title": "Communications biology"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cbin.11797"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cells11091484"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1006"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503434216000_2026.01.26.701665v1.50",
+          "first-page": "8",
+          "article-title": "Biological network exploration with Cytoscape 3",
+          "volume": "47",
+          "year": "2014",
+          "journal-title": "Current protocols in bioinformatics"
+        },
+        {
+          "issue": "45",
+          "key": "2026020503434216000_2026.01.26.701665v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "7342",
+          "DOI": "10.1002/anie.200501023",
+          "article-title": "Protein posttranslational modifications: the chemistry of proteome diversifications",
+          "volume": "44",
+          "year": "2005",
+          "journal-title": "Angewandte Chemie International Edition"
+        },
+        {
+          "key": "2026020503434216000_2026.01.26.701665v1.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cornish-Bowden A. Fundamentals of enzyme kinetics. John Wiley & Sons; 2013.",
+          "DOI": "10.1016/j.febslet.2013.06.009"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.01.26.701665",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:15:39Z",
+        "timestamp": 1782278139000
+      },
+      "score": 60.402683,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.01.26.701665"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            27
+          ]
+        ]
+      },
+      "references-count": 52,
+      "URL": "https://doi.org/10.64898/2026.01.26.701665",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1371/journal.pcbi.1013941",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.16.711670",
+  "title": "C9ORF72-derived polyGR polypeptides disrupt passive nucleocytoplasmic transport by tuning protein affinity for the nuclear pore barrier",
+  "doi": "10.64898/2026.03.16.711670",
+  "abstract": "Nucleocytoplasmic partitioning is an essential determinant of eukaryotic cellular function, governed by the nuclear pore complex, a molecular portal filled by a disordered phenylalanine-glycine (FG)-rich phase that governs selective entry and exit. Disruption of nucleocytoplasmic partitioning is seen across many different diseases, including viral infection, cancer, and neurodegeneration. However, what determines whether a given protein mislocalises when nucleocytoplasmic transport is disrupted remains unknown. This question is central to amyotrophic lateral sclerosis and frontotemporal dementia (ALS/FTD), where cytosolic mislocalisation of the nuclear RNA-binding protein TDP-43 is a defining pathological feature. The most common genetic cause of these diseases is a G 4 C 2 repeat expansion in the gene C9ORF72 , which produces aberrant neurotoxic polypeptides that induce nucleocytoplasmic transport defects. Here, we show how the highly toxic poly(glycine-arginine/GR) polypeptide engages the nuclear pore FG-rich selectivity barrier and retunes passive nucleocytoplasmic transport according to client surface chemistry. Using coarse-grained simulations, in vitro FG-phase reconstitution and human cell lines and neurons, we find that polyGR produces a non-linear, biphasic modulation of nuclear pore passage. Proteins with low affinity for the FG phase are unaffected, whereas proteins with higher affinity due to solvent-exposed hydrophobic residues exhibit enhanced transport up to a critical threshold, beyond which highly hydrophobic proteins experience transport suppression, cytoplasmic accumulation and aggregation. Together, these findings establish how disease-associated polypeptides retune the physicochemical rules governing passive nuclear pore transport, leading to biphasic outcomes determined by protein surface chemistry that alter protein compartmentalisation and aggregation. This provides a biophysical mechanism by which polyGR drives selective protein vulnerability to nuclear pore dysfunction in C9ORF72 -associated ALS/FTD.",
+  "authors": [
+    "Solomon DA",
+    "Emenecker RJ",
+    "Salcher-Konrad M",
+    "Konstantinidou SM",
+    "Houghton OH",
+    "Wycherley E",
+    "Lee S",
+    "O’Brien NL",
+    "Alcalde J",
+    "Cabaço IL",
+    "Ruepp M",
+    "Schmidt HB",
+    "Holehouse AS",
+    "Mizielinska S"
+  ],
+  "published_date": "2026-03-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.16.711670",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.16.711670.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1219488",
+    "raw_record": {
+      "id": "PPR1219488",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1219488"
+        ]
+      },
+      "doi": "10.64898/2026.03.16.711670",
+      "title": "C9ORF72-derived polyGR polypeptides disrupt passive nucleocytoplasmic transport by tuning protein affinity for the nuclear pore barrier",
+      "authorString": "Solomon DA, Emenecker RJ, Salcher-Konrad M, Konstantinidou SM, Houghton OH, Wycherley E, Lee S, O’Brien NL, Alcalde J, Cabaço IL, Ruepp M, Schmidt HB, Holehouse AS, Mizielinska S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Solomon DA",
+            "lastName": "Solomon",
+            "firstName": "Daniel",
+            "initials": "DA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "at , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Emenecker RJ",
+            "lastName": "Emenecker",
+            "firstName": "Ryan",
+            "initials": "RJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biophysics, School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Salcher-Konrad M",
+            "lastName": "Salcher-Konrad",
+            "firstName": "Marie-Therese",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "at , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Konstantinidou SM",
+            "lastName": "Konstantinidou",
+            "firstName": "Sofia Marina",
+            "initials": "SM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "at , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Houghton OH",
+            "lastName": "Houghton",
+            "firstName": "Olivia",
+            "initials": "OH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "at , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wycherley E",
+            "lastName": "Wycherley",
+            "firstName": "Eleanor",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "at , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee S",
+            "lastName": "Lee",
+            "firstName": "Seoungjun",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "at , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "O’Brien NL",
+            "lastName": "O’Brien",
+            "firstName": "Niamh",
+            "initials": "NL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "at , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alcalde J",
+            "lastName": "Alcalde",
+            "firstName": "Juan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7959-6876"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "at , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cabaço IL",
+            "lastName": "Cabaço",
+            "firstName": "Inês Lourenço",
+            "initials": "IL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "at , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ruepp M",
+            "lastName": "Ruepp",
+            "firstName": "Marc-David",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "at , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schmidt HB",
+            "lastName": "Schmidt",
+            "firstName": "Broder",
+            "initials": "HB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0750-8419"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Holehouse AS",
+            "lastName": "Holehouse",
+            "firstName": "Alex",
+            "initials": "AS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4155-5729"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biophysics, School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mizielinska S",
+            "lastName": "Mizielinska",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "at , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0750-8419"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4155-5729"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7959-6876"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Nucleocytoplasmic partitioning is an essential determinant of eukaryotic cellular function, governed by the nuclear pore complex, a molecular portal filled by a disordered phenylalanine-glycine (FG)-rich phase that governs selective entry and exit. Disruption of nucleocytoplasmic partitioning is seen across many different diseases, including viral infection, cancer, and neurodegeneration. However, what determines whether a given protein mislocalises when nucleocytoplasmic transport is disrupted remains unknown. This question is central to amyotrophic lateral sclerosis and frontotemporal dementia (ALS/FTD), where cytosolic mislocalisation of the nuclear RNA-binding protein TDP-43 is a defining pathological feature. The most common genetic cause of these diseases is a G  4 C  2 repeat expansion in the gene  C9ORF72 , which produces aberrant neurotoxic polypeptides that induce nucleocytoplasmic transport defects. Here, we show how the highly toxic poly(glycine-arginine/GR) polypeptide engages the nuclear pore FG-rich selectivity barrier and retunes passive nucleocytoplasmic transport according to client surface chemistry. Using coarse-grained simulations,  in vitro FG-phase reconstitution and human cell lines and neurons, we find that polyGR produces a non-linear, biphasic modulation of nuclear pore passage. Proteins with low affinity for the FG phase are unaffected, whereas proteins with higher affinity due to solvent-exposed hydrophobic residues exhibit enhanced transport up to a critical threshold, beyond which highly hydrophobic proteins experience transport suppression, cytoplasmic accumulation and aggregation. Together, these findings establish how disease-associated polypeptides retune the physicochemical rules governing passive nuclear pore transport, leading to biphasic outcomes determined by protein surface chemistry that alter protein compartmentalisation and aggregation. This provides a biophysical mechanism by which polyGR drives selective protein vulnerability to nuclear pore dysfunction in  C9ORF72 -associated ALS/FTD.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Motor Neurone Disease Association",
+            "grantId": "Solomon/Oct23/2329",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.16.711670"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1219488"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1219488&type=FILE&fileName=EMS215309-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215309",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-03-17",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

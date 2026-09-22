@@ -1,0 +1,414 @@
+{
+  "identity": {
+    "pmid": "41265448",
+    "doi": "10.1016/j.xgen.2025.101065",
+    "title": "Integrative profiling of condensation-prone RNAs during early development."
+  },
+  "content": {
+    "abstract": "Complex RNA-protein networks play a pivotal role in the formation of many types of biomolecular condensates. How RNA features contribute to condensate formation, however, remains incompletely understood. Here, we integrate tailored transcriptomics assays to identify a distinct class of developmental condensation-prone RNAs termed \"smOOPs\" (semi-extractable, orthogonal-organic-phase-separation-enriched RNAs). These transcripts localize to larger intracellular foci, form denser RNA subnetworks than expected, and are heavily bound by RNA-binding proteins (RBPs). Using an explainable deep learning framework, we reveal that smOOPs harbor characteristic sequence composition, with lower sequence complexity, increased intramolecular folding, and specific RBP-binding patterns. Intriguingly, these RNAs encode proteins bearing extensive intrinsically disordered regions and are highly predicted to be involved in biomolecular condensates, indicating an interplay between RNA- and protein-based features in phase separation. This work advances our understanding of condensation-prone RNAs and provides a versatile resource to further investigate RNA-driven condensation principles.",
+    "keywords": [
+      "OOPS",
+      "RIC-seq",
+      "RNA-RNA interactions",
+      "RNA-protein networks",
+      "condensation",
+      "condensation-prone RNAs",
+      "deep learning",
+      "phase separation",
+      "semi-extractability"
+    ],
+    "mesh_terms": [
+      "*RNA-Binding Proteins/metabolism/genetics",
+      "*RNA/genetics/metabolism/chemistry",
+      "Humans",
+      "Animals",
+      "*Biomolecular Condensates/metabolism",
+      "Gene Expression Profiling/methods",
+      "Transcriptome",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Klobucar, Tajda",
+        "Novljan, Jona",
+        "Iosub, Ira A",
+        "Kokot, Bostjan",
+        "Urbancic, Iztok",
+        "Jones, D Marc",
+        "Chakrabarti, Anob M",
+        "Luscombe, Nicholas M",
+        "Ule, Jernej",
+        "Modic, Miha"
+      ],
+      "short_names": [
+        "Klobucar T",
+        "Novljan J",
+        "Iosub IA",
+        "Kokot B",
+        "Urbancic I",
+        "Jones DM",
+        "Chakrabarti AM",
+        "Luscombe NM",
+        "Ule J",
+        "Modic M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Institute of Chemistry, Ljubljana, Slovenia; The Francis Crick Institute, London, UK; PhD Program \"Biosciences\", Biotechnical Faculty, University of Ljubljana, Ljubljana, Slovenia.",
+        "National Institute of Chemistry, Ljubljana, Slovenia; Department of Genomics and Developmental Biology, Zoological Institute, Karlsruhe Institute of Technology, Karlsruhe, Germany; Institute of Biological and Chemical Systems, Karlsruhe Institute of Technology, Karlsruhe, Germany; Center for Synthetic Genomics (SynGen) Heidelberg-Karlsruhe-Mainz, Germany.",
+        "The Francis Crick Institute, London, UK; Department of Basic and Clinical Neuroscience, Institute of Psychiatry, Psychology and Neuroscience, King's College London, London, UK; Dementia Research Institute at KCL, London, UK.",
+        "J. Stefan Institute, Ljubljana, Slovenia.",
+        "J. Stefan Institute, Ljubljana, Slovenia.",
+        "The Francis Crick Institute, London, UK; Department of Basic and Clinical Neuroscience, Institute of Psychiatry, Psychology and Neuroscience, King's College London, London, UK; Dementia Research Institute at KCL, London, UK.",
+        "The Francis Crick Institute, London, UK; University College London, UCL Respiratory, London, UK.",
+        "The Francis Crick Institute, London, UK; Okinawa Institute of Science and Technology, Okinawa, Japan.",
+        "National Institute of Chemistry, Ljubljana, Slovenia; The Francis Crick Institute, London, UK; Department of Basic and Clinical Neuroscience, Institute of Psychiatry, Psychology and Neuroscience, King's College London, London, UK; Dementia Research Institute at KCL, London, UK.",
+        "National Institute of Chemistry, Ljubljana, Slovenia; The Francis Crick Institute, London, UK; Department of Genomics and Developmental Biology, Zoological Institute, Karlsruhe Institute of Technology, Karlsruhe, Germany; Institute of Biological and Chemical Systems, Karlsruhe Institute of Technology, Karlsruhe, Germany; Center for Synthetic Genomics (SynGen) Heidelberg-Karlsruhe-Mainz, Germany; Department of Basic and Clinical Neuroscience, Institute of Psychiatry, Psychology and Neuroscience, King's College London, London, UK. Electronic address: miha.modic@kit.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Klobučar, Tajda",
+        "short_name": "Klobučar T",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Chemistry, Ljubljana, Slovenia; The Francis Crick Institute, London, UK; PhD Program \"Biosciences\", Biotechnical Faculty, University of Ljubljana, Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Novljan, Jona",
+        "short_name": "Novljan J",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Chemistry, Ljubljana, Slovenia; Department of Genomics and Developmental Biology, Zoological Institute, Karlsruhe Institute of Technology, Karlsruhe, Germany; Institute of Biological and Chemical Systems, Karlsruhe Institute of Technology, Karlsruhe, Germany; Center for Synthetic Genomics (SynGen) Heidelberg-Karlsruhe-Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Iosub, Ira A",
+        "short_name": "Iosub IA",
+        "identifiers": [],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK; Department of Basic and Clinical Neuroscience, Institute of Psychiatry, Psychology and Neuroscience, King's College London, London, UK; Dementia Research Institute at KCL, London, UK."
+        ]
+      },
+      {
+        "full_name": "Kokot, Boštjan",
+        "short_name": "Kokot B",
+        "identifiers": [],
+        "affiliations": [
+          "J. Stefan Institute, Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Urbančič, Iztok",
+        "short_name": "Urbančič I",
+        "identifiers": [],
+        "affiliations": [
+          "J. Stefan Institute, Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Jones, D Marc",
+        "short_name": "Jones DM",
+        "identifiers": [],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK; Department of Basic and Clinical Neuroscience, Institute of Psychiatry, Psychology and Neuroscience, King's College London, London, UK; Dementia Research Institute at KCL, London, UK."
+        ]
+      },
+      {
+        "full_name": "Chakrabarti, Anob M",
+        "short_name": "Chakrabarti AM",
+        "identifiers": [],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK; University College London, UCL Respiratory, London, UK."
+        ]
+      },
+      {
+        "full_name": "Luscombe, Nicholas M",
+        "short_name": "Luscombe NM",
+        "identifiers": [],
+        "affiliations": [
+          "The Francis Crick Institute, London, UK; Okinawa Institute of Science and Technology, Okinawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Ule, Jernej",
+        "short_name": "Ule J",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Chemistry, Ljubljana, Slovenia; The Francis Crick Institute, London, UK; Department of Basic and Clinical Neuroscience, Institute of Psychiatry, Psychology and Neuroscience, King's College London, London, UK; Dementia Research Institute at KCL, London, UK."
+        ]
+      },
+      {
+        "full_name": "Modic, Miha",
+        "short_name": "Modic M",
+        "identifiers": [],
+        "affiliations": [
+          "National Institute of Chemistry, Ljubljana, Slovenia; The Francis Crick Institute, London, UK; Department of Genomics and Developmental Biology, Zoological Institute, Karlsruhe Institute of Technology, Karlsruhe, Germany; Institute of Biological and Chemical Systems, Karlsruhe Institute of Technology, Karlsruhe, Germany; Center for Synthetic Genomics (SynGen) Heidelberg-Karlsruhe-Mainz, Germany; Department of Basic and Clinical Neuroscience, Institute of Psychiatry, Psychology and Neuroscience, King's College London, London, UK. Electronic address: miha.modic@kit.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell genomics"
+    ],
+    "journal_abbrev": [
+      "Cell Genom"
+    ],
+    "pub_date": "2026 Feb 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/21 00:27",
+    "fetched_at": "2026-09-17 22:07:40"
+  },
+  "links": {
+    "cites": [
+      "42184109",
+      "42146506"
+    ],
+    "refs": [
+      "39729994",
+      "39663388",
+      "39637853",
+      "39552041",
+      "39303698",
+      "39106863",
+      "39054355",
+      "39047724",
+      "38846930",
+      "38238480",
+      "38134885",
+      "38128540",
+      "38036857",
+      "37829674",
+      "37463833",
+      "37013995",
+      "36894192",
+      "36370105",
+      "36280713",
+      "35982794",
+      "35675815",
+      "34793615",
+      "34706978",
+      "34474477",
+      "34403477",
+      "34286104",
+      "34168324",
+      "34021296",
+      "33573434",
+      "33510441",
+      "33441968",
+      "33417833",
+      "33271069",
+      "33199441",
+      "32651564",
+      "32499643",
+      "32464092",
+      "32055031",
+      "32048998",
+      "31230715",
+      "31047794",
+      "30607034",
+      "30408350",
+      "30322972",
+      "29961577",
+      "29945988",
+      "29850775",
+      "29650702",
+      "29576526",
+      "29538776",
+      "29483269",
+      "29129640",
+      "29073143",
+      "28965817",
+      "28945705",
+      "28516010",
+      "28404604",
+      "27756721",
+      "27597760",
+      "27207943",
+      "27180905",
+      "26317470",
+      "25544567",
+      "25516281",
+      "25157815",
+      "24930139",
+      "24227677",
+      "23953108",
+      "22743772",
+      "22115189",
+      "22056041",
+      "20110278",
+      "19217333",
+      "18497825",
+      "17586814",
+      "12867026"
+    ],
+    "similar": [
+      "41265448",
+      "40588121",
+      "39366355",
+      "41337585",
+      "40102453",
+      "39537752",
+      "34380047",
+      "38446881",
+      "40527409",
+      "34772787",
+      "34772789",
+      "38987300",
+      "40603603",
+      "34767801",
+      "38381071",
+      "33287884",
+      "37952770",
+      "39460625",
+      "40381401",
+      "35138191",
+      "32193580",
+      "33650968",
+      "40993389",
+      "39589885",
+      "40682822",
+      "34706979",
+      "34670845",
+      "34371110",
+      "41272271",
+      "40804711",
+      "39605385",
+      "34903621",
+      "36273579",
+      "30945196",
+      "39929988",
+      "34108682",
+      "41094266",
+      "40931032",
+      "32651564",
+      "38992139",
+      "34772786",
+      "41480717",
+      "36883003",
+      "27161996",
+      "40354522",
+      "34274326",
+      "20644507",
+      "39807887",
+      "35364105",
+      "40441156",
+      "38824391",
+      "38419328",
+      "26483017",
+      "30607034",
+      "34133714",
+      "40521608",
+      "32632317",
+      "41129218",
+      "39389662",
+      "39637853",
+      "31947823",
+      "38472406",
+      "33297946",
+      "34785657",
+      "39232584",
+      "39426983",
+      "37343188",
+      "34108658",
+      "28245811",
+      "34718734",
+      "41174195",
+      "32454107",
+      "40962203",
+      "34706978",
+      "19588099",
+      "34766549",
+      "30827501",
+      "40784921",
+      "40848932",
+      "33558506",
+      "33623109",
+      "38383656",
+      "37408305",
+      "33610691",
+      "35682602",
+      "33934561",
+      "37032432",
+      "35481633",
+      "30502953",
+      "29508297",
+      "39520300",
+      "31266957",
+      "35179885",
+      "39418394",
+      "40009520",
+      "39326881",
+      "35687109",
+      "39353735",
+      "37772963",
+      "28274760"
+    ],
+    "review": [
+      "41265448",
+      "39366355",
+      "40527409",
+      "34772787",
+      "34772789",
+      "34767801",
+      "40381401",
+      "32193580",
+      "34706979",
+      "34670845",
+      "34371110",
+      "40804711",
+      "34772786",
+      "41480717",
+      "38419328",
+      "32632317",
+      "40962203",
+      "34706978",
+      "19588099",
+      "35682602",
+      "33934561",
+      "37032432",
+      "35179885",
+      "39326881"
+    ],
+    "pmc": [
+      "12903419"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-979X(25)00321-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41265448/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S2666-979X(25)00321-0",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

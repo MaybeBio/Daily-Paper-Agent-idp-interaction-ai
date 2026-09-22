@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40558524",
+  "title": "Age-Related Increases in PDE11A4 Protein Expression Trigger Liquid-Liquid Phase Separation (LLPS) of the Enzyme That Can Be Reversed by PDE11A4 Small Molecule Inhibitors.",
+  "authors": "Amurrio, Elvis; Patel, Janvi H; Danaher, Marie; Goodwin, Madison; Kargbo, Porschderek; Klimentova, Eliska; Lin, Sonia; Kelly, Michy P",
+  "journal": "Cells",
+  "published_date": "2025-06-25",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究PDE11A4蛋白随年龄增长发生液-液相分离（LLPS）的机制，涉及内在无序区（IDR）和朊病毒样结构域，并用小分子抑制剂逆转该过程，虽对象为酶而非典型PPI，但LLPS机制建模与IDR功能分析对本课题有直接启发。",
+  "abstract": "PDE11A is a little-studied phosphodiesterase sub-family that breaks down cAMP/cGMP, with the PDE11A4 isoform enriched in the memory-related hippocampal formation. Age-related increases in PDE11A expression occur in human and rodent hippocampus and cause age-related cognitive decline of social memories. Interestingly, age-related increases in PDE11A4 protein ectopically accumulate in spherical clusters that group together in the brain to form linear filamentous patterns termed \"PDE11A4 ghost axons\". The biophysical/physiochemical mechanisms underlying this age-related clustering are not known. Here, we determine if age-related clustering of PDE11A4 reflects liquid-liquid phase separation (LLPS; biomolecular condensation), and if PDE11A inhibitors can reverse this LLPS. We show human and mouse PDE11A4 exhibit several LLPS-promoting sequence features, including intrinsically disordered regions, non-covalent pi-pi interactions, and prion-like domains that were particularly enriched in the N-terminal regulatory region. Further, multiple bioinformatic tools predict PDE11A4 undergoes LLPS. Consistent with these predictions, aging-like PDE11A4 clusters in HT22 hippocampal neuronal cells were membraneless spherical droplets that progressively fuse over time in a concentration-dependent manner. Deletion of the N-terminal intrinsically disordered region prevented PDE11A4 LLPS despite equal protein expression between WT and mutant constructs. 1,6-hexanediol, along with tadalafil and BC11-38 that inhibit PDE11A4, reversed PDE11A4 LLPS in HT22 hippocampal neuronal cells. Interestingly, PDE11A4 inhibitors reverse PDE11A4 LLPS independently of increasing cAMP/cGMP levels via catalytic inhibition. Importantly, orally dosed tadalafil reduced PDE11A4 ghost axons in old mouse ventral hippocampus by 50%. Thus, PDE11A4 exhibits the four defining criteria of LLPS, and PDE11A inhibitors reverse this age-related phenotype both in vitro and in vivo.",
+  "abstract_zh": "PDE11A是一个研究较少的磷酸二酯酶亚家族，负责分解cAMP/cGMP，其中PDE11A4异构体在记忆相关的海马结构中富集。年龄相关的PDE11A表达增加发生在人类和啮齿动物的海马中，并导致社交记忆的年龄相关认知衰退。有趣的是，年龄相关的PDE11A4蛋白增加会异位积累成球形簇，这些簇在大脑中聚集形成线性丝状模式，称为“PDE11A4幽灵轴突”。这种年龄相关聚集背后的生物物理/物理化学机制尚不清楚。在此，我们确定PDE11A4的年龄相关聚集是否反映液-液相分离（LLPS；生物分子凝聚），以及PDE11A抑制剂是否能逆转这种LLPS。我们显示人类和小鼠PDE11A4表现出多种促进LLPS的序列特征，包括内在无序区域、非共价π-π相互作用，以及在N端调控区域特别富集的朊病毒样结构域。此外，多种生物信息学工具预测PDE11A4会发生LLPS。与这些预测一致，HT22海马神经元细胞中类似衰老的PDE11A4簇是无膜球形液滴，这些液滴随时间以浓度依赖方式逐渐融合。删除N端内在无序区域阻止了PDE11A4的LLPS，尽管WT和突变构建体之间的蛋白表达相等。1,6-己二醇，以及抑制PDE11A4的他达拉非和BC11-38，逆转了HT22海马神经元细胞中的PDE11A4 LLPS。有趣的是，PDE11A4抑制剂逆转PDE11A4 LLPS不依赖于通过催化抑制增加cAMP/cGMP水平。重要的是，口服他达拉非将老年小鼠腹侧海马中的PDE11A4幽灵轴突减少了50%。因此，PDE11A4表现出LLPS的四个定义标准，且PDE11A抑制剂在体外和体内均逆转了这一年龄相关表型。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40558524/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40558524/",
+  "paper_page_path": "papers/pubmed/40558524/index.html"
+}

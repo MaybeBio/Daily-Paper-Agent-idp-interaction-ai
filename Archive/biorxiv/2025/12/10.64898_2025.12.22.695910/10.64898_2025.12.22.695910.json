@@ -1,0 +1,215 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.22.695910",
+  "title": "A new class of proteinaceous biomaterial with unprecedented properties in unicellular eukaryotes",
+  "doi": "10.64898/2025.12.22.695910",
+  "abstract": "Biomaterials fundamentally reshape material use, providing superior properties and sustainable alternatives relevant to medicine, textiles, and high-tech applications. Research mainly focuses on animal-derived proteinaceous biomaterials, which remain challenging to reproduce while retaining their remarkable properties. We discovered that the shells of tintinnid ciliates, a group of planktonic unicellular eukaryotes, are composed of self-assembling structural proteins. The shells form in water, are structurally diverse, and show exceptional resistance against high temperatures and the strongest chemicals. Combining single-cell transcriptomics and mass-spectrometry of the shells, we identified the amino acid sequences of the shell-forming proteins. They are exceptionally rich in aromatic residues and possess a unique architecture with flexible, unfolded segments connecting highly stable beta-sheets. This easily accessible system promises new aspects to advance current biomaterial design.",
+  "authors": [
+    "Ganser MH",
+    "Wiederstein M",
+    "Regl C",
+    "Katz LA",
+    "Agatha S"
+  ],
+  "published_date": "2025-12-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695910",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695910.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1230152",
+    "raw_record": {
+      "id": "PPR1230152",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1230152"
+        ]
+      },
+      "doi": "10.64898/2025.12.22.695910",
+      "title": "A new class of proteinaceous biomaterial with unprecedented properties in unicellular eukaryotes",
+      "authorString": "Ganser MH, Wiederstein M, Regl C, Katz LA, Agatha S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ganser MH",
+            "lastName": "Ganser",
+            "firstName": "Maximilian",
+            "initials": "MH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6656-5627"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environment and Biodiversity, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wiederstein M",
+            "lastName": "Wiederstein",
+            "firstName": "Markus",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4750-4746"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosciences, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Regl C",
+            "lastName": "Regl",
+            "firstName": "Christof",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosciences, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Katz LA",
+            "lastName": "Katz",
+            "firstName": "Laura",
+            "initials": "LA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9138-4702"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Agatha S",
+            "lastName": "Agatha",
+            "firstName": "Sabine",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3083-9782"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environment and Biodiversity, ; , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6656-5627"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4750-4746"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9138-4702"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3083-9782"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Biomaterials fundamentally reshape material use, providing superior properties and sustainable alternatives relevant to medicine, textiles, and high-tech applications. Research mainly focuses on animal-derived proteinaceous biomaterials, which remain challenging to reproduce while retaining their remarkable properties. We discovered that the shells of tintinnid ciliates, a group of planktonic unicellular eukaryotes, are composed of self-assembling structural proteins. The shells form in water, are structurally diverse, and show exceptional resistance against high temperatures and the strongest chemicals. Combining single-cell transcriptomics and mass-spectrometry of the shells, we identified the amino acid sequences of the shell-forming proteins. They are exceptionally rich in aromatic residues and possess a unique architecture with flexible, unfolded segments connecting highly stable beta-sheets. This easily accessible system promises new aspects to advance current biomaterial design.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.22.695910"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1230152"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1230152&type=FILE&fileName=EMS214635-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214635",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-23",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

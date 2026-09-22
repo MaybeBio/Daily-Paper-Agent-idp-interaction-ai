@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36103543",
+  "title": "Uncovering the molecular mechanism for dual effect of ATP on phase separation in FUS solution.",
+  "authors": "Ren, Chun-Lai; Shan, Yue; Zhang, Pengfei; Ding, Hong-Ming; Ma, Yu-Qiang",
+  "journal": "Science advances",
+  "published_date": "2022-09-15",
+  "window": {
+    "start": "2022-09-12",
+    "end": "2022-09-18"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合半经验量子力学、平均场理论与分子模拟，揭示ATP对FUS无序蛋白相分离的双重调控机制，聚焦IDR介导的凝聚体互作机制建模，与本课题高度契合。",
+  "abstract": "Recent studies reported that adenosine triphosphate (ATP) could inhibit and enhance the phase separation in prion-like proteins. The molecular mechanism underlying such a puzzling phenomenon remains elusive. Here, taking the fused in sarcoma (FUS) solution as an example, we comprehensively reveal the underlying mechanism by which ATP regulates phase separation by combining the semiempirical quantum mechanical method, mean-field theory, and molecular simulation. At the microscopic level, ATP acts as a bivalent or trivalent binder; at the macroscopic level, the reentrant phase separation occurs in dilute FUS solutions, resulting from the ATP concentration-dependent binding ability under different conditions. The ATP concentration for dissolving the protein condensates is about 10 mM, agreeing with experimental results. Furthermore, from a dynamic point of view, the effect of ATP on phase separation is also nonmonotonic. This work provides a clear physical description of the microscopic interaction and macroscopic phase diagram of the ATP-modulated phase separation.",
+  "abstract_zh": "近期研究报道，三磷酸腺苷（ATP）能够抑制并增强朊病毒样蛋白中的相分离（phase separation）。这一令人困惑现象背后的分子机制仍不明确。在此，以融合肉瘤（FUS）溶液为例，我们通过结合半经验量子力学方法、平均场理论和分子模拟，全面揭示了ATP调控相分离的潜在机制。在微观层面，ATP充当二价或三价结合剂；在宏观层面，稀FUS溶液中出现重入相分离，这源于不同条件下ATP浓度依赖性的结合能力。溶解蛋白质凝聚体所需的ATP浓度约为10 mM，与实验结果一致。此外，从动力学角度看，ATP对相分离的影响也是非单调的。本研究为ATP调控相分离的微观相互作用和宏观相图提供了清晰的物理描述。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36103543/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36103543/",
+  "paper_page_path": "papers/pubmed/36103543/index.html"
+}

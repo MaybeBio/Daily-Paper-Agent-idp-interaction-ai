@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42106026",
+  "title": "Comparative structural analysis of Nipah virus V proteins highlights V-MDA5 complex stability in pig and bat isolates.",
+  "authors": "Chong, Chee Ning; Ong, Hui Ming; Liew, Yvonne Jing Mei; Lee, Yean Kee; Jonet, Mohd Anuar; Chang, Li-Yen",
+  "journal": "Protein expression and purification",
+  "published_date": "2026-05-10",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过同源建模与分子对接比较猪源和蝙蝠源尼帕病毒V蛋白与MDA5的互作稳定性，虽以病毒蛋白为对象且涉及IDR，但无序区域仅作为结晶障碍提及，机制建模深度有限。",
+  "abstract": "Nipah virus (NiV) V protein antagonizes host interferon (IFN) signaling by targeting melanoma-differentiation association protein 5 (MDA5). This study investigated structural features of NiV V proteins from pig (iP-V) and bat (iB-V) isolates and their interactions with MDA5 using protein crystallization and computational modeling. Recombinant proteins were expressed in Escherichia coli and purified by affinity chromatography. Crystallization screening produced initial hits for iP-V; however, diffraction-quality crystals were not obtained, likely due to the intrinsically disordered N-terminal region that limits structural resolution. Homology modeling and molecular docking revealed that both proteins engage the MDA5 superfamily 2 helicase domain (MDA(SF2)) (amino acids 534-836) and are predicted to disrupt beta-sheet architecture critical for ATPase function. The C-terminal domain (CTD) contains zinc finger domains (ZnFDs) essential for MDA5 interaction. iP-V retains eight conserved amino acids required for coordination of two zinc ions, whereas iB-V carries substitutions predicted to partially affect one ZnFD based on structural modeling, without abolishing MDA5 antagonism. Both proteins show comparable predicted binding affinities to MDA5, although structural analyses indicate subtle differences in interaction networks. These findings suggest that minor variations within the CTD may modulate interaction profiles rather than binding strength, while preserving immune evasion capacity, providing a basis for future experimental validation.",
+  "abstract_zh": "尼帕病毒（NiV）V蛋白通过靶向黑色素瘤分化相关蛋白5（MDA5）拮抗宿主干扰素（IFN）信号传导。本研究利用蛋白质结晶和计算建模，探讨了来自猪（iP-V）和蝙蝠（iB-V）分离株的NiV V蛋白的结构特征及其与MDA5的相互作用。重组蛋白在大肠杆菌（Escherichia coli）中表达，并通过亲和层析纯化。结晶筛选为iP-V产生了初步命中，但未获得衍射质量晶体，可能归因于 intrinsically disordered N-terminal region（固有无序N端区域）限制了结构分辨率。同源建模和分子对接揭示，两种蛋白均与MDA5超家族2解旋酶结构域（MDA(SF2)）（氨基酸534-836）结合，并预测会破坏对ATP酶功能至关重要的β-折叠架构。C端结构域（CTD）包含对MDA5相互作用至关重要的锌指结构域（ZnFDs）。iP-V保留了协调两个锌离子所需的八个保守氨基酸，而iB-V携带的替换根据结构建模预测会部分影响一个ZnFD，但并未消除MDA5拮抗作用。两种蛋白对MDA5显示出可比的预测结合亲和力，尽管结构分析表明相互作用网络存在细微差异。这些发现提示，CTD内的微小变异可能调节相互作用谱而非结合强度，同时保留免疫逃逸能力，为未来实验验证提供了基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42106026/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42106026/",
+  "paper_page_path": "papers/pubmed/42106026/index.html"
+}

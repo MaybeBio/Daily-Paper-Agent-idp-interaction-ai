@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42546066",
+  "title": "Cell-specific Cahn-Hilliard models predict condensed fates of the chromosomal passenger complex.",
+  "authors": "Groves, Sarah M; Lu, Min-Jhe; Alvarez-Yela, Astrid Catalina; Gerardo-Ramirez, Monserrat; Stukenberg, P Todd; Lowengrub, John S; Janes, Kevin A",
+  "journal": "PLoS computational biology",
+  "published_date": "2026-08-03",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用Cahn-Hilliard相分离模型模拟染色体 passenger complex（含无序区域的多蛋白复合物）在细胞内的凝聚命运，虽非直接AI/深度学习且互作机制偏相分离动力学而非具体PPI界面，但物理建模思路对无序蛋白介导的凝聚体互作机制建模有启发。",
+  "abstract": "Biomolecular condensates create dynamic subcellular compartments that alter systems-level properties of the networks surrounding them. Standard reaction-diffusion models of systems biology cannot define where these compartments emerge nor track how they evolve. One alternative physicochemical model of soluble and condensed states in space and time is the Cahn-Hilliard equation, which specifies a diffuse interface between the two phases. Customized numerical approaches required to solve this equation are absent from computing environments often used for systems biology, however, and the equation's interfacial energy coefficient lacks empirical constraints. Here, using two complementary numerical strategies, we built stable, self-consistent Cahn-Hilliard solvers in three common systems-biology programming languages. The algorithms simulated the complete time evolution of condensed droplets as they dissolved or persisted, relating critical equilibrium droplet size to the Cahn-Hilliard interfacial energy coefficient. We applied this universal relationship to the chromosomal passenger complex, a multi-protein assembly that reportedly condenses on mitotic chromosomes. The fully constrained Cahn-Hilliard simulations predicted spatiotemporal dewetting and coarsening behaviors that matched experiments in cell types with different interfacial energy coefficients. Together, these results suggest how initially variegated recruitment yields robust localization of the chromosomal passenger complex to the inner centromere by the end of prometaphase. More generally, the Cahn-Hilliard equation tests whether condensate dynamics behave as a simple phase-separated liquid, and its numerical solutions advance generalized modeling of biomolecular systems.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）形成动态的亚细胞区室，改变其周围网络的系统级特性。系统生物学的标准反应-扩散模型无法定义这些区室出现的位置，也无法追踪其演化过程。一种描述可溶态与凝聚态在空间和时间上的替代物理化学模型是Cahn-Hilliard方程，该方程指定了两相之间的弥散界面。然而，求解该方程所需的定制数值方法在常用于系统生物学的计算环境中缺失，且该方程的界面能系数缺乏经验约束。在此，我们利用两种互补的数值策略，在三种常见的系统生物学编程语言中构建了稳定、自洽的Cahn-Hilliard求解器。这些算法模拟了凝聚液滴在溶解或持续存在时的完整时间演化，将临界平衡液滴尺寸与Cahn-Hilliard界面能系数相关联。我们将这一普适关系应用于染色体过客复合物（chromosomal passenger complex），这是一种据报道在有丝分裂染色体上凝聚的多蛋白组装体。完全约束的Cahn-Hilliard模拟预测了时空去湿和粗化行为，这些行为与具有不同界面能系数的细胞类型中的实验相匹配。综合来看，这些结果提示，最初斑驳的招募如何在前中期结束时产生染色体过客复合物在内着丝粒上的稳健定位。更广泛地，Cahn-Hilliard方程检验了凝聚体动力学是否表现为简单的相分离液体，其数值解推进了生物分子系统的广义建模。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42546066/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42546066/",
+  "paper_page_path": "papers/pubmed/42546066/index.html"
+}

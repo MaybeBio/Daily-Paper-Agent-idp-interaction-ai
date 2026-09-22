@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors report that three designed AICD variants (Y22G, T26A, Y27A) remain intrinsically disordered but exhibit distinct conformational population redistributions, with Y22G and T26A increasing local flexibility and solvent exposure around the YENPTY motif and enhancing interaction propensities, while Y27A favors compact conformations with reduced motif accessibility. They further claim that local perturbations propagate across the chain, reshaping long-range intramolecular coupling, and conclude that local side-chain chemistry changes can tune motif accessibility and interaction potential via population shifts without stabilizing persistent structure.
+- **Visible evidence base** Abstract text only; methods named (SAXS, SRCD, atomistic MD) but no quantitative results, figures, or statistical details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters and convergence criteria, experimental conditions, statistical analyses, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis about how local sequence perturbations in a disordered motif can modulate conformational ensembles and interaction potential. However, the current evidence base is limited to a summary of qualitative findings, with no quantitative data, error estimates, or methodological validation visible. The central claims are therefore not assessable for technical soundness from the supplied material. The conceptual framing is relevant to the disordered protein community, but the strength of the conclusions cannot be evaluated without the full manuscript.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those focused on amyloid precursor protein biology, conformational ensembles, and the role of short linear motifs in mediating protein-protein interactions. The work may also interest computational biophysicists developing or applying enhanced sampling or network analysis methods to disordered systems.
+- **Major strengths** The study addresses a specific and mechanistically important question about how side-chain chemistry within a conserved motif modulates ensemble behavior. The combination of experimental (SAXS, SRCD) and computational (atomistic MD) approaches is appropriate for characterizing disordered conformations. The design of variants that preserve overall charge while altering local chemistry is a thoughtful strategy to isolate side-chain effects.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that each mutation induces a distinct redistribution of conformational populations, with specific directional effects (Y22G and T26A increase flexibility and solvent exposure; Y27A favors compact conformations)
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative metrics, such as radius of gyration distributions, solvent accessible surface area values, or interaction propensity scores, to support the directional claims. No statistical significance tests, error bars, or comparison to wild-type controls are mentioned. Without these, the distinctness of the population redistributions cannot be verified.
+  - **Why it matters** The central conclusion rests on the ability to distinguish conformational population shifts among variants. If the differences are within experimental or sampling noise, the mechanistic interpretation collapses.
+  - **Resolution test** Provide quantitative ensemble descriptors (e.g., mean and distribution of Rg, SASA, contact probabilities) with uncertainty estimates and statistical comparisons between variants and wild-type, plus evidence of MD convergence (e.g., block averaging, replica exchange if used).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that local perturbations propagate across the chain, reshaping long-range intramolecular coupling within the ensemble
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions contact and network analyses but provides no details on the methods used, the magnitude of the observed changes, or how "propagation" was distinguished from local effects. Long-range coupling in disordered proteins is notoriously difficult to establish robustly, and the abstract does not indicate whether the observed changes exceed what would be expected from generic chain connectivity.
+  - **Why it matters** This claim extends the significance beyond local motif effects to global ensemble reorganization. If unsupported, the broader implication of the work is weakened.
+  - **Resolution test** Show quantitative network metrics (e.g., betweenness centrality, community structure) with statistical comparisons, and demonstrate that long-range effects are not artifacts of force field or sampling limitations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The overall conclusion that local side-chain chemistry can tune motif accessibility and interaction potential through population shifts
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not state how interaction propensities were computed or validated. No experimental binding data, docking calculations, or comparison to known interaction partners are presented. The term "interaction propensities" is ambiguous without a defined operational measure.
+  - **Why it matters** The functional relevance of the conformational changes depends on a credible link to interaction potential. Without a defined and validated metric, the conclusion remains speculative.
+  - **Resolution test** Define the interaction propensity metric explicitly, validate it against known AICD binding partners or experimental binding assays, and show that the predicted differences are biologically meaningful.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "distinct redistribution of conformational populations" is vague and could apply to any disordered system with any mutation.
+  - **Required correction** Specify the key conformational descriptors (e.g., compact vs. extended states, specific secondary structure propensities) and the magnitude of changes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention how many independent MD simulations were run, the total simulation time, or the force field used.
+  - **Required correction** Include these details in the abstract or indicate they are in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Introduction of variants
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The choice of Y22G, T26A, and Y27A is stated but not justified in the abstract. The reader cannot assess whether these are the most informative perturbations.
+  - **Required correction** Briefly state the rationale for each variant choice in the abstract or refer to the full text for justification.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative support for population shifts), R1-M2 (evidence for long-range propagation), R1-M3 (defined and validated interaction propensity metric)
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of how side-chain chemistry in a conserved motif modulates disordered ensemble behavior is not entirely new, but the specific focus on AICD YENPTY variants is a reasonable niche contribution. The originality is moderate and depends on whether the full results reveal unexpected mechanisms.
+  - Scientific importance: The work has potential relevance to understanding AICD function and disordered motif biology, but the importance is not established from the abstract alone. The claims are plausible but not yet compelling.
+  - Interdisciplinary readership: The topic bridges structural biology, biophysics, and computational chemistry, which could attract a broad readership. However, the abstract does not clearly articulate why the findings would matter beyond the AICD-specific context.
+  - Technical soundness: Not assessable from the abstract. The absence of quantitative results and methodological details prevents evaluation of whether the conclusions are supported.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., "conformational population redistributions," "network analyses") without sufficient explanation. A nonspecialist would struggle to grasp the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible approach, but the lack of quantitative data and methodological detail means the central claims cannot be evaluated. I would be supportive if the full manuscript provides robust quantitative evidence, statistical validation, and a clearly defined interaction propensity metric.
+
+## Risk / unsupported claims
+- The claim that Y22G and T26A "enhance interaction propensities" is unsupported without a defined metric or experimental validation.
+- The claim that "local perturbations propagate across the chain" is unsupported without quantitative network analysis details.
+- The claim that the variants "preserve overall charge" is stated but not verifiable from the abstract.
+- The overall conclusion that population shifts can tune interaction potential is not assessable without quantitative ensemble data.

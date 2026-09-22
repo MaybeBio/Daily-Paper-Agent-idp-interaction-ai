@@ -1,0 +1,350 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.01.30.478372",
+  "title": "Glucose stress causes mRNA retention in nuclear Nab2 condensates",
+  "doi": "10.1101/2022.01.30.478372",
+  "abstract": "<h4>Summary</h4> Nuclear mRNA export via nuclear pore complexes is an essential step in eukaryotic gene expression. Although factors involved in mRNA transport have been characterized, a comprehensive mechanistic understanding of this process and its regulation is lacking. Here, we use single-RNA imaging in yeast to show that cells use mRNA retention to control mRNA export during stress. We demonstrate that upon glucose withdrawal the essential RNA-binding factor Nab2 forms RNA-dependent condensate-like structures in the nucleus. This coincides with a reduced abundance of the DEAD-box ATPase Dbp5 at the nuclear pore. Depleting Dbp5, and consequently blocking mRNA export, is necessary and sufficient to trigger Nab2 condensation. The state of Nab2 condensation influences the extent of nuclear mRNA accumulation and can be recapitulated in vitro , where Nab2 forms RNA-dependent liquid droplets. We hypothesize that cells use condensation to regulate mRNA export and to control gene expression during stress. <h4>Highlights</h4> The nuclear poly(A)-binding protein Nab2 forms RNA-containing condensate-like structures upon glucose starvation and upon acute cellular depletion of the DEAD-box ATPase Dbp5 The Nab2 multimerization interface but not the intrinsically disordered regions (IDRs) are essential for condensation in vitro and in vivo Glucose stress leads to poly(A) RNA retention in the nucleus, which is affected by the state of the Nab2 condensate",
+  "authors": [
+    "Heinrich S",
+    "Hondele M",
+    "Marchand D",
+    "Derrer CP",
+    "Zedan M",
+    "Oswald A",
+    "Malinovska L",
+    "Uliana F",
+    "Khawaja S",
+    "Mancini R",
+    "Grunwald D",
+    "Weis K"
+  ],
+  "published_date": "2022-01-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.01.30.478372",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.01.30.478372.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR448367",
+    "raw_record": {
+      "id": "PPR448367",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR448367"
+        ]
+      },
+      "doi": "10.1101/2022.01.30.478372",
+      "title": "Glucose stress causes mRNA retention in nuclear Nab2 condensates",
+      "authorString": "Heinrich S, Hondele M, Marchand D, Derrer CP, Zedan M, Oswald A, Malinovska L, Uliana F, Khawaja S, Mancini R, Grunwald D, Weis K.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Heinrich S",
+            "lastName": "Heinrich",
+            "firstName": "Stephanie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, ETH Zurich, Otto-Stern-Weg 3, 8093 Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hondele M",
+            "lastName": "Hondele",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2733-2561"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, ETH Zurich, Otto-Stern-Weg 3, 8093 Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "Biozentrum, University of Basel, Klingelbergstrasse 50/70, 4056 Basel, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marchand D",
+            "lastName": "Marchand",
+            "firstName": "Désirée",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, ETH Zurich, Otto-Stern-Weg 3, 8093 Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Derrer CP",
+            "lastName": "Derrer",
+            "firstName": "Carina Patrizia",
+            "initials": "CP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, ETH Zurich, Otto-Stern-Weg 3, 8093 Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zedan M",
+            "lastName": "Zedan",
+            "firstName": "Mostafa",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, ETH Zurich, Otto-Stern-Weg 3, 8093 Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oswald A",
+            "lastName": "Oswald",
+            "firstName": "Alexandra",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, ETH Zurich, Otto-Stern-Weg 3, 8093 Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Malinovska L",
+            "lastName": "Malinovska",
+            "firstName": "Liliana",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8514-4569"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, ETH Zurich, Otto-Stern-Weg 3, 8093 Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Uliana F",
+            "lastName": "Uliana",
+            "firstName": "Federico",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, ETH Zurich, Otto-Stern-Weg 3, 8093 Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Khawaja S",
+            "lastName": "Khawaja",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9067-804X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, ETH Zurich, Otto-Stern-Weg 3, 8093 Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mancini R",
+            "lastName": "Mancini",
+            "firstName": "Roberta",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7224-925X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, ETH Zurich, Otto-Stern-Weg 3, 8093 Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grunwald D",
+            "lastName": "Grunwald",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Massachusetts Medical School, RNA Therapeutics Institute, 368 Plantation Street, Worcester MA 01605, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weis K",
+            "lastName": "Weis",
+            "firstName": "Karsten",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, ETH Zurich, Otto-Stern-Weg 3, 8093 Zurich, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7224-925X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9067-804X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2733-2561"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8514-4569"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>Summary</h4>  Nuclear mRNA export via nuclear pore complexes is an essential step in eukaryotic gene expression. Although factors involved in mRNA transport have been characterized, a comprehensive mechanistic understanding of this process and its regulation is lacking. Here, we use single-RNA imaging in yeast to show that cells use mRNA retention to control mRNA export during stress. We demonstrate that upon glucose withdrawal the essential RNA-binding factor Nab2 forms RNA-dependent condensate-like structures in the nucleus. This coincides with a reduced abundance of the DEAD-box ATPase Dbp5 at the nuclear pore. Depleting Dbp5, and consequently blocking mRNA export, is necessary and sufficient to trigger Nab2 condensation. The state of Nab2 condensation influences the extent of nuclear mRNA accumulation and can be recapitulated  in vitro , where Nab2 forms RNA-dependent liquid droplets. We hypothesize that cells use condensation to regulate mRNA export and to control gene expression during stress.  <h4>Highlights</h4>  The nuclear poly(A)-binding protein Nab2 forms RNA-containing condensate-like structures upon glucose starvation and upon acute cellular depletion of the DEAD-box ATPase Dbp5 The Nab2 multimerization interface but not the intrinsically disordered regions (IDRs) are essential for condensation  in vitro and  in vivo Glucose stress leads to poly(A) RNA retention in the nucleus, which is affected by the state of the Nab2 condensate",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "193740",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "179275",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/02/17/2022.01.30.478372.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.01.30.478372"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR448367"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR448367&type=FILE&fileName=EMS189515-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38113140",
+            "reference": "Cell reports. 2024 Jan;43(1):113593",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS189515",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-02-01",
+      "firstPublicationDate": "2022-01-30",
+      "firstIndexDate": "2022-02-01",
+      "fullTextReceivedDate": "2023-11-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

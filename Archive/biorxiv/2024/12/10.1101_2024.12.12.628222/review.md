@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors report that NRBP1 and long TSC22D isoforms (TSC22D1.1, TSC22D2) localize to WNK bodies in the distal convoluted tubule (DCT), increase WNK4 activity in HEK293 cells, and that DCT-specific NRBP1 knockout in mice reduces NCC phosphorylation with a compensatory response. They conclude that NRBP1 and long TSC22D proteins are positive modulators of WNK signaling and regulate renal sodium reabsorption, with potential broader physiological implications.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, all figures and tables, statistical details, animal model validation, quantification of phosphorylation changes, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically plausible role for NRBP1 and TSC22D proteins in WNK signaling and renal sodium handling. The findings align with emerging interest in WNK body condensates and pseudokinase regulation. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental support, the magnitude and specificity of the reported effects, or the strength of the in vivo conclusions. The claim that NRBP1 and TSC22Ds are positive modulators is plausible but not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in renal physiology, particularly those studying distal tubule ion transport and NCC regulation; cell biologists interested in kinase signaling and biomolecular condensates; and investigators working on WNK kinases in hypertension or other tissues where WNK signaling is relevant. The potential cross-tissue implications could attract a broader audience in signal transduction.
+- **Major strengths** The work addresses a timely and understudied area, namely the regulation of WNK kinases by pseudokinases and TSC22D proteins. The combination of in vitro and in vivo approaches, including a DCT-specific knockout, is commendable. The localization of these proteins to WNK bodies provides a plausible subcellular context for their function.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "TSC22D1.1, TSC22D2, and NRBP1 are localized in DCT WNK bodies" and "long TSC22D isoforms and NRBP1 increase WNK4 activity"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states localization and activity effects without providing any quantitative data, representative images, or statistical comparisons. It is unclear how localization was determined (e.g., immunofluorescence, proximity assays), what magnitude of WNK4 activity increase was observed, and whether the effects were specific to long isoforms versus short isoforms.
+  - **Why it matters** Without these details, the reader cannot assess whether the observed effects are robust, specific, or physiologically meaningful. The central mechanistic claim depends on these data.
+  - **Resolution test** Provide representative images with quantification of colocalization, dose-response or comparative activity assays for long versus short isoforms, and statistical analysis with effect sizes and variability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo evidence
+  - **Claim pointer** "DCT-specific NRBP1 knockout mice have reduced NCC phosphorylation and activate a compensatory response"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports reduced NCC phosphorylation and a compensatory response but does not specify the magnitude of reduction, which NCC phosphorylation sites were assessed, how compensation was defined or measured, or whether blood pressure or electrolyte phenotypes were evaluated.
+  - **Why it matters** The in vivo data are the key translational evidence for the physiological relevance of NRBP1. Without details on the phenotype and compensation, the conclusion that NRBP1 modulates sodium reabsorption is not fully supported.
+  - **Resolution test** Provide quantitative phosphorylation data (e.g., phospho-NCC/total NCC ratios), define the compensatory response (e.g., changes in other transporters, aldosterone, or blood pressure), and include appropriate controls and sample sizes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "NRBP1 and TSC22Ds likely influence WNK signaling in other tissues, impacting various physiological processes"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This statement extends the findings beyond the kidney without any direct evidence from other tissues. While speculative statements are common in abstracts, this claim is presented as a likely conclusion rather than a hypothesis.
+  - **Why it matters** Overreach in the abstract could mislead readers about the breadth of the findings and may not be supported by the data presented in the full manuscript.
+  - **Resolution test** Either temper the language to clearly indicate speculation or provide preliminary data from other tissues if available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "WNK bodies" is used without definition or context. Readers unfamiliar with this recent concept may not understand what these structures are.
+  - **Required correction** Briefly define WNK bodies as cytoplasmic biomolecular condensates associated with WNK activation, or cite the relevant literature in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Isoform nomenclature
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "long TSC22D isoforms" but does not specify which isoforms were tested or how they differ from short isoforms.
+  - **Required correction** Name the specific isoforms used and clarify the structural or functional distinction from short isoforms.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model system
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The use of HEK293 cells is mentioned, but the relevance of this cell line for studying DCT-specific WNK signaling is not discussed.
+  - **Required correction** Add a sentence justifying the use of HEK293 cells or acknowledge limitations in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core mechanistic and physiological claims cannot be evaluated without quantitative data and experimental details. The abstract alone does not establish the case.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the role of NRBP1 and TSC22Ds in WNK signaling is a relatively new area. Scientific importance is potentially high given the relevance to renal sodium handling and hypertension, but the impact depends on the robustness of the in vivo data. Interdisciplinary readership is plausible, spanning renal physiology, cell biology, and signaling. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is acceptable, though the abstract assumes familiarity with WNK signaling and NCC.
+- **Recommendation posture** Currently not established from the provided evidence. The findings are promising and warrant full evaluation, but the abstract does not provide sufficient detail to support the central claims. A revised version with quantitative data and clearer experimental context could change this assessment.
+
+## Risk / unsupported claims
+- The claim that NRBP1 and TSC22Ds "modulate Na+ reabsorption in the kidney" is not fully supported without quantitative in vivo data.
+- The statement that these proteins "likely influence WNK signaling in other tissues" is speculative and unsupported by the abstract.
+- The localization of TSC22D1.1, TSC22D2, and NRBP1 to WNK bodies is stated without methodological or quantitative support.
+- The increase in WNK4 activity by long TSC22D isoforms and NRBP1 is stated without effect sizes or statistical context.

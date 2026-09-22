@@ -1,0 +1,316 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.05.29.446267",
+  "title": "Amyloidogenic proteins in the SARS-CoV and SARS-CoV-2 proteomes",
+  "doi": "10.1101/2021.05.29.446267",
+  "abstract": "The phenomenon of protein aggregation is associated with a wide range of human diseases. Our knowledge on the aggregation behaviour of viral proteins, however, is still rather limited. Here, we investigated this behaviour in the the SARS-CoV and SARS-CoV-2 proteomes. An initial analysis using a panel of sequence-based predictors suggested the presence of multiple aggregation-prone regions in these proteomes, and revealed an enhanced aggregation propensity in some SARS-CoV-2 proteins. We then studied the in vitro aggregation of predicted aggregation-prone SARS-CoV-2 proteins, including the signal sequence peptide and fusion peptide 1 of the spike protein, a peptide from the NSP6 protein (NSP6-p), the ORF10 protein, and the NSP11 protein. Our results show that these peptides and proteins form aggregates via a nucleation-dependent mechanism. Moreover, we demonstrated that the aggregates of NSP11 are toxic to mammalian cell cultures. These findings provide evidence about the aggregation of proteins in the SARS-CoV-2 proteome. <h4>Significance</h4> The aggregation of proteins is linked with human disease in a variety of ways. In the case of viral infections, one could expect that the aberrant aggregation of viral proteins may damage the host cells, and also that viral particles may trigger the misfolding and aggregation of host proteins, resulting in damage to the host organism. Here we investigate the aggregation propensity of SARS-CoV-2 proteins and show that many of them can form aggregates that are potentially cytotoxic. In perspective, these results suggest that a better understanding of the effects of viruses on the human protein homeostasis system could help future therapeutic efforts.",
+  "authors": [
+    "Bhardwaj T",
+    "Gadhave K",
+    "Kapuganti SK",
+    "Kumar P",
+    "Brotzakis ZF",
+    "Saumya KU",
+    "Nayak N",
+    "Kumar A",
+    "Garg N",
+    "Vendruscolo M",
+    "Giri R"
+  ],
+  "published_date": "2021-05-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.05.29.446267",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.05.29.446267.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR350077",
+    "raw_record": {
+      "id": "PPR350077",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR350077"
+        ]
+      },
+      "doi": "10.1101/2021.05.29.446267",
+      "title": "Amyloidogenic proteins in the SARS-CoV and SARS-CoV-2 proteomes",
+      "authorString": "Bhardwaj T, Gadhave K, Kapuganti SK, Kumar P, Brotzakis ZF, Saumya KU, Nayak N, Kumar A, Garg N, Vendruscolo M, Giri R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bhardwaj T",
+            "lastName": "Bhardwaj",
+            "firstName": "Taniya",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gadhave K",
+            "lastName": "Gadhave",
+            "firstName": "Kundlik",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4530-4772"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kapuganti SK",
+            "lastName": "Kapuganti",
+            "firstName": "Shivani",
+            "initials": "SK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kumar P",
+            "lastName": "Kumar",
+            "firstName": "Prateek",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brotzakis ZF",
+            "lastName": "Brotzakis",
+            "firstName": "Zacharias Faidon",
+            "initials": "ZF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7024-1430"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Misfolding Diseases, Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saumya KU",
+            "lastName": "Saumya",
+            "firstName": "Kumar Udit",
+            "initials": "KU",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nayak N",
+            "lastName": "Nayak",
+            "firstName": "Namyashree",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kumar A",
+            "lastName": "Kumar",
+            "firstName": "Ankur",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garg N",
+            "lastName": "Garg",
+            "firstName": "Neha",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2227-8292"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicinal Chemistry, Faculty of Ayurveda, Institute of Medical Sciences, Banaras Hindu University, Varanasi, Uttar Pradesh, 221005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vendruscolo M",
+            "lastName": "Vendruscolo",
+            "firstName": "Michele",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Misfolding Diseases, Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Giri R",
+            "lastName": "Giri",
+            "firstName": "Rajanish",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7024-1430"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7392-5045"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2227-8292"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4530-4772"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The phenomenon of protein aggregation is associated with a wide range of human diseases. Our knowledge on the aggregation behaviour of viral proteins, however, is still rather limited. Here, we investigated this behaviour in the the SARS-CoV and SARS-CoV-2 proteomes. An initial analysis using a panel of sequence-based predictors suggested the presence of multiple aggregation-prone regions in these proteomes, and revealed an enhanced aggregation propensity in some SARS-CoV-2 proteins. We then studied the in vitro aggregation of predicted aggregation-prone SARS-CoV-2 proteins, including the signal sequence peptide and fusion peptide 1 of the spike protein, a peptide from the NSP6 protein (NSP6-p), the ORF10 protein, and the NSP11 protein. Our results show that these peptides and proteins form aggregates via a nucleation-dependent mechanism. Moreover, we demonstrated that the aggregates of NSP11 are toxic to mammalian cell cultures. These findings provide evidence about the aggregation of proteins in the SARS-CoV-2 proteome. <h4>Significance</h4>  The aggregation of proteins is linked with human disease in a variety of ways. In the case of viral infections, one could expect that the aberrant aggregation of viral proteins may damage the host cells, and also that viral particles may trigger the misfolding and aggregation of host proteins, resulting in damage to the host organism. Here we investigate the aggregation propensity of SARS-CoV-2 proteins and show that many of them can form aggregates that are potentially cytotoxic. In perspective, these results suggest that a better understanding of the effects of viruses on the human protein homeostasis system could help future therapeutic efforts.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/06/11/2021.05.29.446267.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.05.29.446267"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR350077"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.05.29.446267"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36806058",
+            "reference": "Nature communications. 2023 Feb;14(1):945",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS126807",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-06-01",
+      "firstPublicationDate": "2021-05-30",
+      "firstIndexDate": "2021-06-01",
+      "fullTextReceivedDate": "2021-10-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

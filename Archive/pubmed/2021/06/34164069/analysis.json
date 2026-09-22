@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34164069",
+  "title": "Computational strategy for intrinsically disordered protein ligand design leads to the discovery of p53 transactivation domain I binding compounds that activate the p53 pathway.",
+  "authors": "Ruan, Hao; Yu, Chen; Niu, Xiaogang; Zhang, Weilin; Liu, Hanzhong; Chen, Limin; Xiong, Ruoyao; Sun, Qi; Jin, Changwen; Liu, Ying; Lai, Luhua",
+  "journal": "Chemical science",
+  "published_date": "2021-06-25",
+  "window": {
+    "start": "2021-06-21",
+    "end": "2021-06-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出针对无序蛋白靶点的分层计算虚拟筛选策略(IDPDVS)，通过构象采样、聚类和多次对接发现结合p53 TAD1的小分子化合物，虽对象为IDP且含对接方法，但互作对象是小分子而非蛋白-蛋白互作，机制建模深度有限。",
+  "abstract": "Intrinsically disordered proteins or intrinsically disordered regions (IDPs) have gained much attention in recent years due to their vital roles in biology and prevalence in various human diseases. Although IDPs are perceived as attractive therapeutic targets, rational drug design targeting IDPs remains challenging because of their conformational heterogeneity. Here, we propose a hierarchical computational strategy for IDP drug virtual screening (IDPDVS) and applied it in the discovery of p53 transactivation domain I (TAD1) binding compounds. IDPDVS starts from conformation sampling of the IDP target, then it combines stepwise conformational clustering with druggability evaluation to identify potential ligand binding pockets, followed by multiple docking screening runs and selection of compounds that can bind multi-conformations. p53 is an important tumor suppressor and restoration of its function provides an opportunity to inhibit cancer cell growth. TAD1 locates at the N-terminus of p53 and plays key roles in regulating p53 function. No compounds that directly bind to TAD1 have been reported due to its highly disordered structure. We successfully used IDPDVS to identify two compounds that bind p53 TAD1 and restore wild-type p53 function in cancer cells. Our study demonstrates that IDPDVS is an efficient strategy for IDP drug discovery and p53 TAD1 can be directly targeted by small molecules.",
+  "abstract_zh": "intrinsically disordered proteins或intrinsically disordered regions（IDPs）近年来因其在生物学中的关键作用及在多种人类疾病中的普遍性而受到广泛关注。尽管IDPs被视为有吸引力的治疗靶点，但由于其构象异质性，针对IDPs的合理药物设计仍具挑战性。在此，我们提出了一种针对IDP药物虚拟筛选（IDPDVS）的分层计算策略，并将其应用于发现p53反式激活域I（TAD1）结合化合物。IDPDVS首先对IDP靶标进行构象采样，然后结合逐步构象聚类与可药性评估来识别潜在的配体结合口袋，随后进行多次对接筛选运行，并选择能够结合多种构象的化合物。p53是一种重要的肿瘤抑制因子，恢复其功能为抑制癌细胞生长提供了机会。TAD1位于p53的N端，在调节p53功能中发挥关键作用。由于其高度无序的结构，尚未有直接结合TAD1的化合物被报道。我们成功利用IDPDVS鉴定了两种结合p53 TAD1并恢复癌细胞中野生型p53功能的化合物。我们的研究表明，IDPDVS是IDP药物发现的高效策略，且p53 TAD1可被小分子直接靶向。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34164069/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34164069/",
+  "paper_page_path": "papers/pubmed/34164069/index.html"
+}

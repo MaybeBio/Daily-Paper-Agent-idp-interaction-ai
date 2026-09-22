@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "41040258",
+    "doi": "10.1101/2025.09.22.677832",
+    "title": "Monomer binding modes of small molecules that modulate the kinetics of hIAPP amyloid formation."
+  },
+  "content": {
+    "abstract": "Human islet amyloid polypeptide (hIAPP) forms amyloid fibrils that accumulate in pancreatic beta-cells of Type II Diabetes (T2D) patients. Recently discovered small molecules that modulate the kinetics of hIAPP amyloid formation could serve as starting points for developing T2D therapeutics, but no structural or mechanistic rationale exists to explain their binding mechanisms or effects on hIAPP aggregation pathways. Here, we utilize all-atom molecular dynamics computer simulations to elucidate the binding mechanisms of an hIAPP aggregation inhibitor (YX-I-1) and an aggregation accelerator (YX-A-1) to disordered monomers of wild-type hIAPP and the naturally occurring pathogenic S20G hIAPP variant associated with early-onset T2D. We observe that the inhibitor exhibits substantially higher affinity for monomeric wild-type hIAPP than the accelerator, consistent with previously reported biophysical experiments. We dissect the interactions that stabilize binding of each molecule to wild-type and S20G hIAPP and characterize conformational changes that occur upon ligand binding. In all ligand-bound ensembles, distinct fragments of YX-I-1 and YX-A-1 are sequestered from solvent upon binding while other fragments remain solvent-exposed. Based on our simulations we hypothesize that buried ligand moieties confer hIAPP monomer binding affinity while solvent-exposed ligand moieties modulate the kinetics of intermolecular association of bound hIAPP into higher-order oligomeric intermediates on amyloid aggregation pathways.",
+    "keywords": [
+      "Amylin",
+      "Amyloid",
+      "Drug Discovery",
+      "Intrinsically Disordered Proteins",
+      "Molecular Dynamics",
+      "Type II Diabetes",
+      "hIAPP"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Garcia, Michelle",
+        "Reid, Korey M",
+        "Robustelli, Paul"
+      ],
+      "short_names": [
+        "Garcia M",
+        "Reid KM",
+        "Robustelli P"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-9927-4622",
+        "ORCID: 0000-0001-9077-3266",
+        "ORCID: 0000-0002-9282-8993"
+      ],
+      "affiliations": [
+        "Dartmouth College, Department of Chemistry, Hanover, NH, 03755.",
+        "Dartmouth College, Department of Chemistry, Hanover, NH, 03755.",
+        "Dartmouth College, Department of Chemistry, Hanover, NH, 03755."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Garcia, Michelle",
+        "short_name": "Garcia M",
+        "identifiers": [
+          "0009-0004-9927-4622"
+        ],
+        "affiliations": [
+          "Dartmouth College, Department of Chemistry, Hanover, NH, 03755."
+        ]
+      },
+      {
+        "full_name": "Reid, Korey M",
+        "short_name": "Reid KM",
+        "identifiers": [
+          "0000-0001-9077-3266"
+        ],
+        "affiliations": [
+          "Dartmouth College, Department of Chemistry, Hanover, NH, 03755."
+        ]
+      },
+      {
+        "full_name": "Robustelli, Paul",
+        "short_name": "Robustelli P",
+        "identifiers": [
+          "0000-0002-9282-8993"
+        ],
+        "affiliations": [
+          "Dartmouth College, Department of Chemistry, Hanover, NH, 03755."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Sep 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/03 06:33",
+    "fetched_at": "2026-09-17 20:40:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40446154",
+      "39985130",
+      "38941872",
+      "38049566",
+      "37904608",
+      "37026598",
+      "36400215",
+      "36302916",
+      "35587203",
+      "35475576",
+      "35210421",
+      "35130691",
+      "35013242",
+      "34518699",
+      "34146207",
+      "33616398",
+      "33427465",
+      "33124419",
+      "33032406",
+      "32541896",
+      "32541895",
+      "32311316",
+      "31919432",
+      "31836748",
+      "31436406",
+      "30237470",
+      "30030591",
+      "29735687",
+      "29580826",
+      "29337308",
+      "29072444",
+      "28702255",
+      "28498720",
+      "28287098",
+      "27393137",
+      "26649317",
+      "26616604",
+      "26488642",
+      "25515893",
+      "25144879",
+      "24854788",
+      "23794448",
+      "22824207",
+      "22381384",
+      "21742788",
+      "21714551",
+      "21258392",
+      "20628786",
+      "19950949",
+      "19739624",
+      "18950899",
+      "17212484",
+      "17123962",
+      "16302765",
+      "15116359",
+      "11106582",
+      "10963832",
+      "10940238",
+      "10233846",
+      "8772735",
+      "3035556",
+      "2690069",
+      "2195544"
+    ],
+    "similar": [
+      "41040258",
+      "35210421",
+      "36098068",
+      "31436406",
+      "27704849",
+      "24892388",
+      "38937578",
+      "33207866",
+      "29530482",
+      "30502402",
+      "19402658",
+      "23331123",
+      "29282295",
+      "27759128",
+      "30814273",
+      "35311274",
+      "36142176",
+      "29432676",
+      "39245780",
+      "42017387",
+      "27854243",
+      "32893436",
+      "26625841",
+      "21158384",
+      "35019603",
+      "31490518",
+      "36400215",
+      "10656810",
+      "32522548",
+      "31195047",
+      "33780229",
+      "37262327",
+      "37082256",
+      "27393137",
+      "31222470",
+      "33544470",
+      "28917147",
+      "21428404",
+      "38608617",
+      "38497314",
+      "32541896",
+      "33887213",
+      "39919485",
+      "30803034",
+      "41483806",
+      "12367525",
+      "26808649",
+      "41989234",
+      "32117877",
+      "30714593",
+      "27493030",
+      "40109329",
+      "36898349",
+      "40719248",
+      "26636105",
+      "23519103",
+      "42290153",
+      "29499190",
+      "27075579",
+      "26255739",
+      "14565847",
+      "33616398",
+      "28585804",
+      "37691445",
+      "39871583",
+      "39660516",
+      "40120979",
+      "29986579",
+      "30155193",
+      "36163697",
+      "26460729",
+      "30149632",
+      "22876830",
+      "30468883",
+      "24245879",
+      "22693597",
+      "19794060",
+      "24843557",
+      "34604227",
+      "33792323",
+      "31442763",
+      "32183067",
+      "30007378",
+      "35060728",
+      "30838043",
+      "26653463",
+      "31838129",
+      "20536124",
+      "37241931",
+      "42550094",
+      "26173078",
+      "33544469",
+      "24372466",
+      "37431688",
+      "26953503",
+      "22404928",
+      "42630689",
+      "37625382",
+      "27936589",
+      "26483547"
+    ],
+    "review": [
+      "41040258",
+      "29530482",
+      "36400215",
+      "33544470",
+      "40109329",
+      "26636105",
+      "27075579",
+      "30149632"
+    ],
+    "pmc": [
+      "12485789"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41040258/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.09.22.677832",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

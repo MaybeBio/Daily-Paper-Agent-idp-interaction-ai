@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.05.30.596451",
+  "title": "Structural dynamics of the intrinsically disordered linker region of cardiac troponin T",
+  "authors": "Cubuk J; Greenberg L; Greenberg AE; Emenecker RJ; Stuchell-Brereton MD; Holehouse AS; Soranno A; Greenberg MJ",
+  "journal": "bioRxiv",
+  "published_date": "2024-05-31",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合单分子FRET、分子动力学模拟和功能重构实验，证实心肌肌钙蛋白T连接区为内在无序区域，并揭示其构象动态及突变通过变构影响亚基互作，虽对象为IDR且涉及PPI机制，但方法以实验为主、AI/物理模拟为辅，机制建模深度中等。",
+  "abstract": "<h4>ABSTRACT</h4> The cardiac troponin complex, composed of troponins I, T, and C, plays a central role in regulating the calcium-dependent interactions between myosin and the thin filament. Mutations in troponin can cause cardiomyopathies; however, it is still a major challenge to connect how changes in sequence affect troponin’s function. Recent high-resolution structures of the thin filament revealed critical insights into the structure-function relationship of troponin, but there remain large, unresolved segments of troponin, including the troponin-T linker region that is a hotspot for cardiomyopathy mutations. This linker region is predicted to be intrinsically disordered, with behaviors that are not well described by traditional structural approaches; however, this proposal has not been experimentally verified. Here, we used a combination of single-molecule Förster resonance energy transfer (FRET), molecular dynamics simulations, and functional reconstitution assays to investigate the troponin-T linker region. We show that in the context of both isolated troponin and the fully regulated troponin complex, the linker behaves as a dynamic, intrinsically disordered region. This region undergoes polyampholyte expansion in the presence of high salt and distinct conformational changes during the assembly of the troponin complex. We also examine the ΔE160 hypertrophic cardiomyopathy mutation in the linker and demonstrate that it does not affect the conformational dynamics of the linker, rather it allosterically affects interactions with other troponin complex subunits, leading to increased molecular contractility. Taken together, our data clearly demonstrate the importance of disorder within the troponin-T linker and provide new insights into the molecular mechanisms driving the pathogenesis of cardiomyopathies. <h4>SIGNIFICANCE STATEMENT</h4> Troponin plays a central role in regulating heart contraction, and mutations in troponin can cause human cardiomyopathies. There are several functionally-significant regions of troponin that have not been structurally resolved, including the troponin T linker region that contains multiple cardiomyopathy mutations. In these unresolved regions, it is not possible to understand how changes in sequence affect function. We used computational and experimental techniques to demonstrate that this linker is dynamic and intrinsically disordered both in isolation and in the fully regulated thin filament. Moreover, we show how a cardiomyopathy mutation in this region affects function via allosteric disruption of intermolecular interactions. Our results highlight the need to consider how key mutations affect troponin disorder rather than the structure-function relationship.",
+  "abstract_zh": "<h4>摘要</h4> 心肌肌钙蛋白复合物由肌钙蛋白I、T和C组成，在调节肌球蛋白与细丝之间钙依赖性相互作用中发挥核心作用。肌钙蛋白的突变可导致心肌病；然而，将序列变化与肌钙蛋白功能联系起来仍是一项重大挑战。近期细丝的高分辨率结构揭示了对肌钙蛋白结构-功能关系的关键见解，但肌钙蛋白仍存在大量未解析的片段，包括作为心肌病突变热点的肌钙蛋白-T连接区。该连接区被预测为内在无序区域，其行为难以用传统结构方法充分描述；然而，这一假设尚未经过实验验证。在此，我们结合单分子福斯特共振能量转移（FRET）、分子动力学模拟和功能重构实验来研究肌钙蛋白-T连接区。我们表明，在分离的肌钙蛋白和完全调控的肌钙蛋白复合物背景下，该连接区表现为动态的内在无序区域。该区域在高盐条件下经历多聚电解质膨胀，并在肌钙蛋白复合物组装过程中发生显著构象变化。我们还研究了连接区中的ΔE160肥厚型心肌病突变，并证明该突变不影响连接区的构象动力学，而是通过变构效应影响与其他肌钙蛋白复合物亚基的相互作用，导致分子收缩性增强。综合来看，我们的数据明确证明了肌钙蛋白-T连接区内无序性的重要性，并为驱动心肌病发病机制的分子机制提供了新见解。<h4>意义声明</h4> 肌钙蛋白在调节心脏收缩中发挥核心作用，肌钙蛋白的突变可导致人类心肌病。肌钙蛋白中有几个功能重要的区域尚未被结构解析，包括含有多个心肌病突变的肌钙蛋白T连接区。在这些未解析区域中，无法理解序列变化如何影响功能。我们使用计算和实验技术证明，该连接区在分离状态和完全调控的细丝中均表现为动态且内在无序。此外，我们展示了该区域的一个心肌病突变如何通过变构破坏分子间相互作用来影响功能。我们的结果强调，需要考虑关键突变如何影响肌钙蛋白的无序性，而非仅关注结构-功能关系。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.05.30.596451",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.05.30.596451",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.05.30.596451/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37961422",
+  "title": "How a disordered linker in the Polycomb protein Polyhomeotic tunes phase separation and oligomerization.",
+  "authors": "Gemeinhardt, Tim M; Regy, Roshan M; Phan, Tien M; Pal, Nanu; Sharma, Jyoti; Senkovich, Olga; Mendiola, Andrea J; Ledterman, Heather J; Henrickson, Amy; Lopes, Daniel; Kapoor, Utkarsh; Bihani, Ashish; Sihou, Djamouna; Kim, Young C; Jeruzalmi, David; Demeler, Borries; Kim, Chongwoo A; Mittal, Jeetain; Francis, Nicole J",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-11-14",
+  "window": {
+    "start": "2023-11-13",
+    "end": "2023-11-19"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合分子动力学模拟与体外/体内实验，揭示Polycomb蛋白Ph中无序linker与SAM结构域间的进化分歧接触如何调控寡聚化及相分离凝聚体性质，直接聚焦无序区域介导的PPI机制建模，高度契合课题。",
+  "abstract": "Biomolecular condensates are increasingly appreciated for their function in organizing and regulating biochemical processes in cells, including chromatin function. Condensate formation and properties are encoded in protein sequence but the mechanisms linking sequence to macroscale properties are incompletely understood. Cross species comparisons can reveal mechanisms either because they identify conserved functions or because they point to important differences. Here we use in vitro reconstitution and molecular dynamics simulations to compare Drosophila and human sequences that regulate condensate formation driven by the sterile alpha motif (SAM) oligomerization domain in the Polyhomeotic (Ph) subunit of the chromatin regulatory complex PRC1. We discover evolutionarily diverged contacts between the conserved SAM and the disordered linker that connects it to the rest of Ph. Linker-SAM interactions increase oligomerization and regulate formation and properties of reconstituted condensates. Oligomerization affects condensate dynamics but, in most cases, has little effect on their formation. Linker-SAM interactions also affect condensate formation in Drosophila and human cells, and growth in Drosophila imaginal discs. Our data show how evolutionary sequence changes in linkers connecting conserved structured domains can alter condensate properties.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）因其在细胞中组织和调控生化过程（包括染色质功能）方面的作用而日益受到重视。凝聚体的形成和性质由蛋白质序列编码，但将序列与宏观性质联系起来的机制尚未完全明了。跨物种比较可以揭示机制，要么因为它们识别出保守功能，要么因为它们指出重要差异。在此，我们使用体外重构和分子动力学（molecular dynamics）模拟，比较了果蝇和人类序列，这些序列调控由染色质调控复合物PRC1的Polyhomeotic（Ph）亚基中无菌α基序（sterile alpha motif, SAM）寡聚化结构域驱动的凝聚体形成。我们发现了保守SAM与连接其与Ph其余部分的无序连接子之间进化上分化的接触。连接子-SAM相互作用增强寡聚化，并调节重构凝聚体的形成和性质。寡聚化影响凝聚体动力学，但在大多数情况下对其形成影响甚微。连接子-SAM相互作用也影响果蝇和人类细胞中的凝聚体形成，以及果蝇成虫盘中的生长。我们的数据展示了连接保守结构域的无序连接子中的进化序列变化如何改变凝聚体性质。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37961422/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37961422/",
+  "paper_page_path": "papers/pubmed/37961422/index.html"
+}

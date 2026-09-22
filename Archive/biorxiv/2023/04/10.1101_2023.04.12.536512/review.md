@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present ZymeSwapNet, a 1D-CNN deep learning framework that predicts amino acid likelihoods from local protein environments derived from curated crystal structures, and use Monte-Carlo sampling with an optional Metropolis criterion to generate protein sequences optimized for multiple design objectives. A case study on a stable heterodimeric Fc (HetFc) antibody domain is claimed to produce stable designs within minutes, compared to prior rational and force-field based approaches.
+- **Visible evidence base** Abstract text only; no quantitative results, model architecture details, training data description, or validation metrics are available
+- **Missing materials affecting confidence** Full manuscript, figures, tables, methods section, training and validation datasets, performance metrics, and any comparative benchmarks against existing methods
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful computational approach for protein sequence design, but the claims of novelty, performance, and practical utility cannot be evaluated from the supplied material. The HetFc case study is presented as a demonstration, yet no quantitative outcomes, comparison baselines, or experimental validation are provided. The technical soundness of the model and the statistical rigor of the sampling strategy remain unverified.
+- **Who would be interested in the results, and why** Researchers in computational protein design, antibody engineering, and deep learning applied to structural biology would be interested. The promise of rapid, multi-objective sequence optimization could appeal to those seeking alternatives to physics-based design pipelines, particularly in therapeutic antibody development.
+- **Major strengths** The stated flexibility of the framework to incorporate multiple quantifiable design objectives addresses a recognized limitation in traditional protein design methods. The use of geometric and topological features to describe local protein environments is a reasonable and potentially generalizable representation. The HetFc case study, if substantiated, would demonstrate practical relevance in a clinically important context.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The model predicts the likelihood of each amino acid type for residue sites in the design region using a 1D-CNN trained on nonredundant curated protein crystal structures.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No details are given on the training data size, sequence identity thresholds for nonredundancy, feature construction, model hyperparameters, or evaluation metrics. Without these, the predictive accuracy and generalizability of the model cannot be assessed.  
+  - **Why it matters** The core claim of the framework depends on the reliability of the amino acid likelihood predictions. If the model is poorly calibrated or overfitted, downstream sequence generation would be compromised.  
+  - **Resolution test** Provide training and validation statistics, including accuracy, AUC, or correlation metrics on held-out structures, and describe the data curation and feature engineering in sufficient detail for replication.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** ZymeSwapNet can generate stable HetFc designs within minutes that had taken several rounds of rational structure and physical force-field based modeling attempts.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The case study is described qualitatively. No data are presented on the number of designs generated, the stability metrics used, the success rate, or the comparison to the prior rational and force-field based attempts. The claim of superiority in speed and outcome is unsupported.  
+  - **Why it matters** The practical utility of the method rests on demonstrated performance in a real design task. Without quantitative evidence, the claim is anecdotal.  
+  - **Resolution test** Include a table or figure comparing ZymeSwapNet designs to prior attempts, with stability measurements (e.g., thermal stability, binding affinity) and computational time.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The sequence/mutation generator optimizes the desired multivariate distribution using Monte-Carlo sampling, with an optional Metropolis criterion to bias sampling.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The sampling procedure is described only at a high level. No information is given on the objective function formulation, the proposal distribution, convergence criteria, or how the Metropolis criterion is tuned.  
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without a detailed description, other researchers cannot implement or validate the approach.  
+  - **Resolution test** Provide a full methods section with algorithmic pseudocode, parameter settings, and convergence diagnostics.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "ZymeSwapNet" is introduced without explanation of its etymology or relation to existing methods.  
+  - **Required correction** Briefly define the name or note its derivation to aid reader comprehension.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Related work  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not situate the work relative to existing deep learning protein design tools, such as those based on language models or graph neural networks.  
+  - **Required correction** Add a sentence in the introduction or discussion comparing ZymeSwapNet to prior deep learning approaches.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Claim scope  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The claim that the framework can handle "a wide range of quantifiable design objectives" is broad and not supported by examples beyond stability and heterodimeric specificity.  
+  - **Required correction** Specify the range of objectives tested or temper the claim to reflect demonstrated capabilities.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative validation, model details, and reproducibility information means the central claims are not currently established.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of a 1D-CNN with Monte-Carlo sampling for multi-objective protein design is not clearly novel from the abstract alone, as similar ideas exist in the literature. The originality claim is weak without a comparative discussion.  
+  - Scientific importance: The potential to accelerate antibody design is important, but importance is not demonstrated without evidence of improved outcomes over existing methods.  
+  - Interdisciplinary readership: The topic bridges machine learning and structural biology, which could attract a broad audience, but the abstract is too technical and sparse to engage nonspecialists.  
+  - Technical soundness: Not assessable from the abstract; the lack of methodological detail and validation metrics is a critical gap.  
+  - Readability for nonspecialists: The abstract assumes familiarity with deep learning and protein design terminology, and the writing is dense. It would benefit from clearer motivation and plain-language summaries of the approach and results.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the absence of quantitative results, methodological detail, and validation means the claims cannot be evaluated. A revised manuscript with full methods, performance data, and comparisons would be required to assess suitability for a high-impact venue.
+
+## Risk / unsupported claims
+- The claim that ZymeSwapNet can generate stable HetFc designs within minutes is unsupported by any quantitative data.
+- The claim that the framework handles a wide range of quantifiable design objectives is unsubstantiated beyond two examples.
+- The implicit claim of superiority over rational and force-field based methods is not backed by comparative data.
+- The predictive accuracy of the 1D-CNN is not assessable without training and validation metrics.

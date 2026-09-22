@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33672806",
+  "title": "Valency and Binding Affinity Variations Can Regulate the Multilayered Organization of Protein Condensates with Many Components.",
+  "authors": "Sanchez-Burgos, Ignacio; Espinosa, Jorge R; Joseph, Jerelle A; Collepardo-Guevara, Rosana",
+  "journal": "Biomolecules",
+  "published_date": "2021-03-07",
+  "window": {
+    "start": "2021-03-01",
+    "end": "2021-03-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化模型模拟多价蛋白与客户蛋白的多组分凝聚体，揭示价态和结合亲和力如何调控多层结构及蛋白分选，属于无序蛋白相分离中PPI机制建模的物理模拟研究，与本课题高度相关。",
+  "abstract": "Biomolecular condensates, which assemble via the process of liquid-liquid phase separation (LLPS), are multicomponent compartments found ubiquitously inside cells. Experiments and simulations have shown that biomolecular condensates with many components can exhibit multilayered organizations. Using a minimal coarse-grained model for interacting multivalent proteins, we investigate the thermodynamic parameters governing the formation of multilayered condensates through changes in protein valency and binding affinity. We focus on multicomponent condensates formed by scaffold proteins (high-valency proteins that can phase separate on their own via homotypic interactions) and clients (proteins recruited to condensates via heterotypic scaffold-client interactions). We demonstrate that higher valency species are sequestered to the center of the multicomponent condensates, while lower valency proteins cluster towards the condensate interface. Such multilayered condensate architecture maximizes the density of LLPS-stabilizing molecular interactions, while simultaneously reducing the surface tension of the condensates. In addition, multilayered condensates exhibit rapid exchanges of low valency proteins in and out, while keeping higher valency proteins-the key biomolecules involved in condensate nucleation-mostly within. We also demonstrate how modulating the binding affinities among the different proteins in a multicomponent condensate can significantly transform its multilayered structure, and even trigger fission of a condensate into multiple droplets with different compositions.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）通过液-液相分离（liquid-liquid phase separation, LLPS）过程组装而成，是细胞内普遍存在的多组分区室。实验和模拟已表明，含多种组分的生物分子凝聚体可呈现多层组织结构。利用一个用于相互作用多价蛋白的最小粗粒化模型，我们研究了通过改变蛋白价态和结合亲和力来控制多层凝聚体形成的热力学参数。我们聚焦于由支架蛋白（scaffold proteins，即通过同型相互作用可自行相分离的高价蛋白）和客户蛋白（clients，即通过异型支架-客户相互作用被招募至凝聚体的蛋白）形成的多组分凝聚体。我们证明，较高价态的物种被隔离至多组分凝聚体的中心，而较低价态的蛋白则聚集于凝聚体界面附近。这种多层凝聚体结构最大化了LLPS稳定分子相互作用的密度，同时降低了凝聚体的表面张力。此外，多层凝聚体表现出低价态蛋白的快速进出交换，而将较高价态蛋白——即参与凝聚体成核的关键生物分子——主要保留在内部。我们还展示了调节多组分凝聚体中不同蛋白间结合亲和力如何显著改变其多层结构，甚至触发凝聚体分裂为多个组成不同的液滴。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33672806/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33672806/",
+  "paper_page_path": "papers/pubmed/33672806/index.html"
+}

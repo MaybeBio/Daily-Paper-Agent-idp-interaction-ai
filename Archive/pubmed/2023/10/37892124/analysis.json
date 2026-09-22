@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37892124",
+  "title": "The Origin of Discrepancies between Predictions and Annotations in Intrinsically Disordered Proteins.",
+  "authors": "Pajkos, Matyas; Erdos, Gabor; Dosztanyi, Zsuzsanna",
+  "journal": "Biomolecules",
+  "published_date": "2023-10-28",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该文比较IUPred与AlphaFold2 pLDDT在无序蛋白预测上的差异，分析预测与实验注释不一致的根源（如中间态、结合诱导转变），虽涉及IDP与结合相关机制，但无PPI建模或AI/物理方法贡献，属方法评估类研究。",
+  "abstract": "Disorder prediction methods that can discriminate between ordered and disordered regions have contributed fundamentally to our understanding of the properties and prevalence of intrinsically disordered proteins (IDPs) in proteomes as well as their functional roles. However, a recent large-scale assessment of the performance of these methods indicated that there is still room for further improvements, necessitating novel approaches to understand the strengths and weaknesses of individual methods. In this study, we compared two methods, IUPred and disorder prediction, based on the pLDDT scores derived from AlphaFold2 (AF2) models. We evaluated these methods using a dataset from the DisProt database, consisting of experimentally characterized disordered regions and subsets associated with diverse experimental methods and functions. IUPred and AF2 provided consistent predictions in 79% of cases for long disordered regions; however, for 15% of these cases, they both suggested order in disagreement with annotations. These discrepancies arose primarily due to weak experimental support, the presence of intermediate states, or context-dependent behavior, such as binding-induced transitions. Furthermore, AF2 tended to predict helical regions with high pLDDT scores within disordered segments, while IUPred had limitations in identifying linker regions. These results provide valuable insights into the inherent limitations and potential biases of disorder prediction methods.",
+  "abstract_zh": "能够区分有序和无序区域的疾病预测方法，对我们理解蛋白质组中固有无序蛋白（IDPs）的性质、普遍性及其功能角色做出了根本性贡献。然而，最近对这些方法性能的大规模评估表明，仍有进一步改进的空间，需要新颖的方法来理解各方法的优势与不足。在本研究中，我们比较了两种方法，即IUPred和基于AlphaFold2（AF2）模型pLDDT分数的疾病预测。我们使用来自DisProt数据库的数据集评估了这些方法，该数据集包含实验表征的无序区域以及与多种实验方法和功能相关的子集。IUPred和AF2在79%的长无序区域案例中提供了一致的预测；然而，在这些案例中，有15%两者均建议有序，与注释不符。这些差异主要源于实验支持薄弱、中间状态的存在或上下文依赖性行为，如结合诱导的转变。此外，AF2倾向于预测无序片段内具有高pLDDT分数的螺旋区域，而IUPred在识别连接区域方面存在局限。这些结果为疾病预测方法的内在局限性和潜在偏差提供了宝贵见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37892124/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37892124/",
+  "paper_page_path": "papers/pubmed/37892124/index.html"
+}

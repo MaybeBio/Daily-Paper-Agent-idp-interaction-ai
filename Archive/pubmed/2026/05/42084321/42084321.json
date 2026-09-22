@@ -1,0 +1,197 @@
+{
+  "identity": {
+    "pmid": "42084321",
+    "doi": "10.1063/5.0320540",
+    "title": "A variational method for efficient estimation of diffusion and free-energy profiles along collective variables."
+  },
+  "content": {
+    "abstract": "An efficient variational method is presented for estimating the diffusion coefficients and free-energy profiles along selected collective variables from projected molecular dynamics trajectories under both equilibrium and non-equilibrium conditions. This method is based on the assumption that the short-time transition probability density of the coordinate moves can be approximated by a Gaussian form. Defining a loss function as the sum of Kullback-Leibler divergences between the analytical short-time propagators of an overdamped Langevin model and those estimated directly from the projected trajectories maximizes the agreement between the two and allows for its analytic evaluation. For cases where the Gaussian approximation is insufficient, we present a robust alternative. To efficiently minimize this loss function by varying diffusion and free-energy profiles along collective variables, we use an adaptive Monte Carlo scheme. The method is applied to two model systems exhibiting diffusive dynamics, as well as to water diffusion across the interface of a biomolecular condensate, demonstrating its robustness and accuracy.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hubman, Anze",
+        "Merzel, Franci"
+      ],
+      "short_names": [
+        "Hubman A",
+        "Merzel F"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2418-8266",
+        "ORCID: 0000-0002-2748-4901"
+      ],
+      "affiliations": [
+        "Laboratory for Molecular Structural Dynamics, Theory Department, National Institute of Chemistry, Hajdrihova 19, 1001 Ljubljana, Slovenia.",
+        "Faculty of Mathematics and Physics, University of Ljubljana, Jadranska 19, 1000 Ljubljana, Slovenia.",
+        "Laboratory for Molecular Structural Dynamics, Theory Department, National Institute of Chemistry, Hajdrihova 19, 1001 Ljubljana, Slovenia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hubman, Anže",
+        "short_name": "Hubman A",
+        "identifiers": [
+          "0000-0003-2418-8266"
+        ],
+        "affiliations": [
+          "Laboratory for Molecular Structural Dynamics, Theory Department, National Institute of Chemistry, Hajdrihova 19, 1001 Ljubljana, Slovenia.",
+          "Faculty of Mathematics and Physics, University of Ljubljana, Jadranska 19, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Merzel, Franci",
+        "short_name": "Merzel F",
+        "identifiers": [
+          "0000-0002-2748-4901"
+        ],
+        "affiliations": [
+          "Laboratory for Molecular Structural Dynamics, Theory Department, National Institute of Chemistry, Hajdrihova 19, 1001 Ljubljana, Slovenia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2026 May 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/05 12:38",
+    "fetched_at": "2026-09-18 03:06:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42084321",
+      "35899416",
+      "19367870",
+      "23822231",
+      "35459306",
+      "29055321",
+      "25974567",
+      "35613327",
+      "26957153",
+      "33267225",
+      "19044758",
+      "23912807",
+      "27967023",
+      "35453139",
+      "37882336",
+      "27846702",
+      "41060893",
+      "41835013",
+      "38136501",
+      "31042914",
+      "30333707",
+      "26834783",
+      "41861302",
+      "25308384",
+      "33650860",
+      "39295045",
+      "29715017",
+      "25716583",
+      "31770982",
+      "23937300",
+      "34624994",
+      "39082512",
+      "16711950",
+      "25084883",
+      "30849894",
+      "28415170",
+      "23534630",
+      "39916173",
+      "27131532",
+      "41022021",
+      "26472363",
+      "17477588",
+      "41989108",
+      "26262860",
+      "39607307",
+      "28602083",
+      "36877429",
+      "41509914",
+      "38748011",
+      "20862361",
+      "18999558",
+      "39283338",
+      "17600446",
+      "19256796",
+      "30636161",
+      "30811190",
+      "19749977",
+      "26584369",
+      "22029296",
+      "25215968",
+      "28441484",
+      "41134659",
+      "26601695",
+      "23406097",
+      "17042648",
+      "41989392",
+      "24588150",
+      "22680452",
+      "21842082",
+      "25725709",
+      "25416879",
+      "26621429",
+      "18772379",
+      "34735144",
+      "39680451",
+      "27135391",
+      "26588731",
+      "30715448",
+      "20365706",
+      "32422618",
+      "25554123",
+      "34283604",
+      "18361572",
+      "18244620",
+      "37550088",
+      "28247165",
+      "19071901",
+      "42029401",
+      "30393452",
+      "32497425",
+      "35741558",
+      "33953159",
+      "28711049",
+      "24664967",
+      "33287031",
+      "33607444",
+      "11308706",
+      "23675822",
+      "22803523",
+      "31928018"
+    ],
+    "review": [
+      "42084321"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0320540",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

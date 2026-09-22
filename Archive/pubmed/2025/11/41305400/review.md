@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided by the user. No supplementary files, figures, or tables were available for inspection beyond what is described in the text.
+- **Assessment boundary** The review is limited to the scientific content, methodology, logical coherence, and evidentiary support presented in the supplied text. No external literature verification or independent replication was performed.
+- **Shared manuscript claim summary** The manuscript claims that homology modeling of haemosporidian type-P5 ATPases using yeast Spf1 (P5A) and human ATP13A2 (P5B) templates reveals conserved structural features, identifies an additional α-helix in the P-domain of P5A ATPases, and shows that Plasmodium P5B ATPases are unlikely to be lysosomal polyamine transporters. The authors further propose that intrinsically disordered low-complexity regions may form a protective shroud or mediate low-affinity protein interactions.
+- **Visible evidence base** Sequence alignments, homology models generated with Swiss Model, AlphaFold3 predictions, quality metrics (GMQE, QMEANDisCo, Ramachandran percentages), pairwise distance matrices, and phylogenetic analyses as described in the text. Specific figures and tables are referenced but not directly viewable.
+- **Missing materials affecting confidence** The actual figures, tables, and supplementary materials (Figures S1–S6, Tables S1, 1–6) were not provided. Experimental validation data (e.g., localization, substrate transport assays) are absent. The manuscript relies entirely on computational predictions without wet-lab confirmation.
+
+## Reviewer
+- **Overall assessment** This manuscript provides a detailed computational analysis of type-P5 ATPases from malaria parasites, addressing a genuinely understudied area. The use of multiple templates, quality metrics, and comparison with AlphaFold3 is methodologically sound. However, the central functional claims—particularly regarding substrate specificity and the role of intrinsically disordered regions—rest on indirect inference rather than direct evidence. The manuscript is descriptive and hypothesis-generating, but the conclusions extend beyond what the computational data can definitively support. The writing is generally clear, though some sections are dense and would benefit from streamlining for a broader readership.
+- **Who would be interested in the results, and why** Researchers studying P-type ATPases, particularly those focused on parasite biology and potential drug targets against malaria. Evolutionary biologists interested in lineage-specific divergence of membrane transporters would also find value. The structural insights into P5A versus P5B distinctions may inform experimental design for functional characterization.
+- **Major strengths** The study addresses a neglected topic with clear relevance to malaria biology. The methodological approach is rigorous, using multiple independent modeling tools and quality metrics. The comparison between concordant and discordant templates is a thoughtful way to assess model reliability. The identification of a potential new structural feature (additional α-helix in P5A P-domain) is a concrete, testable contribution. The discussion of intrinsically disordered regions in Plasmodium proteins is timely and relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for functional claims
+  - **Claim pointer** The manuscript states that haemosporidian subtype-P5B ATPases "are not likely to be polyamine transporters in lysosomes" and that subtype-P5A is "likely an ER transmembrane dislocase."
+  - **Evidence pointer** Section 3.9 (Substrate-Binding Site), Section 4.4 (Substrate Specificity), Table 4, Figure 9
+  - **Concern** The functional conclusions are based solely on homology modeling and sequence conservation of key residues. No experimental data (e.g., localization studies, transport assays, knockout phenotypes) are presented to support these claims. The authors acknowledge this limitation in the Discussion, but the Conclusions section states these as likely outcomes without sufficient hedging. The inference that P5B ATPases are not polyamine transporters contradicts a substantial body of literature on other eukaryotes, and the computational evidence presented here is not strong enough to overturn that expectation for Plasmodium.
+  - **Why it matters** The primary scientific contribution of this paper hinges on these functional predictions. If they are incorrect, the value of the manuscript diminishes significantly. Readers may act on these claims to guide experimental work, and unsupported functional assertions could misdirect research efforts.
+  - **Resolution test** The authors should either (a) soften the functional claims to clearly speculative status, or (b) provide additional computational evidence (e.g., molecular dynamics simulations, substrate docking studies with multiple polyamines and peptides) that strengthens the case. Ideally, any experimental data—even preliminary localization data—would substantially improve confidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency and reproducibility
+  - **Claim pointer** The manuscript describes homology modeling with Swiss Model and AlphaFold3 but does not provide sufficient detail on parameters, sequence identity thresholds, or model selection criteria.
+  - **Evidence pointer** Section 2.3 (Prediction of 3-Dimensional Structures), Table 4
+  - **Concern** The methods section lacks specific parameters for Swiss Model runs (e.g., template selection criteria, coverage, sequence identity cutoffs). For AlphaFold3, no details are given on the version, confidence thresholds beyond pTM, or how the "ranking score" was interpreted. The criteria for judging models as "accurate" or "robust" are not operationally defined. This limits reproducibility and makes it difficult for readers to assess the reliability of the models.
+  - **Why it matters** Computational structural biology is only useful if others can replicate the workflow. Without precise parameters, the results cannot be independently verified, and the quality assessment becomes opaque.
+  - **Resolution test** Provide a detailed supplementary methods section with all software versions, parameters, and selection criteria. Include accession numbers for all templates and targets. State explicitly how GMQE and QMEANDisCo thresholds were used to accept or reject models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of intrinsically disordered regions
+  - **Claim pointer** The manuscript proposes that intrinsically disordered low-complexity regions "may form a shroud-like structure that protects the core ATPase structure and/or participates in low-affinity interprotein interactions."
+  - **Evidence pointer** Section 3.8 (Variable Regions Effects), Section 4.3 (Possible Functions of IDL), Figure S6
+  - **Concern** The functional speculation about the "shroud" is presented with limited supporting evidence. The observation that variable regions are enriched in polar amino acids and form disordered loops is well-established, but the leap to a protective or interaction-mediating function is highly speculative. No data on protein-protein interactions, stability assays, or comparative analysis with other Plasmodium proteins are provided. The claim that these regions are conserved within clades but variable between clades is interesting but does not directly support the proposed functions.
+  - **Why it matters** The manuscript's title highlights the role of intrinsically disordered structure, making this a central theme. If the functional claims are not well-supported, the title overstates the findings. This could mislead readers about the strength of the evidence.
+  - **Resolution test** Either (a) reframe the IDL discussion as purely speculative with clear caveats, or (b) provide additional analyses such as disorder prediction across a broader taxonomic sample, interaction motif prediction, or comparison with known IDL functions in other parasite proteins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "intrinsically disorganized" vs. "intrinsically disordered"
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The term "intrinsically disorganized" is non-standard. The field uses "intrinsically disordered" (as in the title) or "intrinsically unstructured." Consistency would improve readability and align with established terminology.
+  - **Required correction** Replace "intrinsically disorganized" with "intrinsically disordered" throughout the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 2, 3, 4, 5, 6, 7, 8, 9
+  - **Evidence pointer** Section 3 (Results)
+  - **Issue** The text references many figures, but the figures themselves were not available for review. The descriptions in the text are often insufficient to evaluate whether the visual evidence supports the claims. For example, the claim that "no arm is generated with the discordant template" (Section 3.3) cannot be verified without seeing the figure.
+  - **Required correction** Ensure all figures are high-resolution, clearly labeled, and accompanied by detailed legends that allow readers to independently assess the structural features described.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Table 3 (pairwise distances), Table 4 (quality metrics)
+  - **Evidence pointer** Section 3.2, Section 3.8
+  - **Issue** The pairwise distance matrix and quality scores are presented without any measure of variability or statistical significance. It is unclear whether differences between concordant and discordant models are meaningful or within noise.
+  - **Required correction** Add confidence intervals, standard deviations, or statistical tests where appropriate. At minimum, state whether differences are within expected variation for the methods used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion of P5B function
+  - **Evidence pointer** Section 4.4 (Substrate Specificity)
+  - **Issue** The claim that Plasmodium P5B ATPases are not polyamine transporters would benefit from a more thorough engagement with conflicting literature. The authors cite prior work but do not systematically address why Plasmodium might differ from fungi and metazoans.
+  - **Required correction** Expand the discussion to consider alternative functions and explicitly state what experimental evidence would be needed to resolve the question.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (functional claims exceed evidence), R1-M2 (insufficient methodological detail for reproducibility). These are the primary technical issues. The IDL interpretation (R1-M3) is a concern but is framed as speculation, so it is less critical.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of homology modeling to haemosporidian P5 ATPases is novel, and the identification of a potential additional α-helix in the P5A P-domain is a new observation. However, the overall approach is not methodologically innovative.
+  - **Scientific importance** Moderate. Understanding P5 ATPases in malaria parasites has potential relevance for drug development, but the functional claims are not experimentally validated, limiting immediate impact.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to structural biologists and parasitologists. The computational focus and lack of experimental validation reduce its appeal to a broader biological audience.
+  - **Technical soundness** Generally sound in execution, but the interpretation overreaches the data. The modeling workflow is reasonable, but the lack of experimental validation and insufficient methodological detail weaken the technical case.
+  - **Readability for nonspecialists** Acceptable but could be improved. The introduction and discussion are accessible, but the results section is dense with structural details that may be challenging for non-experts. The terminology inconsistency (disorganized vs. disordered) is a minor distraction.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript has merit as a computational analysis generating testable hypotheses, but the functional claims must be tempered and methodological details expanded. If the authors revise to clearly distinguish established findings from speculation and provide sufficient reproducibility information, the work would be a useful contribution to the field. Currently, the case is not fully established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that haemosporidian subtype-P5B ATPases are not polyamine transporters is unsupported by direct evidence; it is an inference from sequence analysis and model quality scores.
+- The claim that subtype-P5A ATPases are ER transmembrane dislocases in Plasmodium is extrapolated from other organisms and not experimentally verified here.
+- The proposed "shroud" function of intrinsically disordered regions is purely speculative with no direct supporting data.
+- The assertion that the additional α-helix in the P5A P-domain is a distinguishing structural feature is based on computational models that may reflect template bias rather than true biological structure.
+- The statement that "the quality assessments did not substantially favor one template over the other" for P5B ATPases is presented without statistical analysis, making the conclusion difficult to evaluate.

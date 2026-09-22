@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report molecular dynamics simulations of a functionally active 10mer fragment of JIP1, totaling 20 microseconds across 10 seeds, from which seven stable conformations were identified by classical clustering. A Markov state model built from the same ensemble revealed four metastable states encompassing six of the seven conformational families, with two dominant interconversion pathways (55% and 44% probability flux) and mean first passage times of 31 microseconds (forward) and 16 microseconds (reverse).
+- **Visible evidence base** Abstract text only; no simulation details, convergence metrics, clustering parameters, MSM validation, or structural figures are provided
+- **Missing materials affecting confidence** Full methods, force field parameters, solvation conditions, temperature/pressure control, clustering algorithm details, MSM lag time selection, implied timescale plots, Chapman-Kolmogorov tests, error estimates, and structural representations of the identified conformations
+
+## Reviewer
+- **Overall assessment** The abstract presents a technically plausible simulation study addressing a biologically relevant but poorly characterized system. The computational approach is standard and the reported simulation length is substantial. However, the abstract alone does not provide sufficient evidence to evaluate the robustness of the clustering results, the statistical validity of the MSM, or the biological significance of the identified states. The claim that seven stable conformations exist is not supported by any convergence or reproducibility analysis in the visible material. The MSM-derived pathways and mean first passage times are presented without error bars or validation metrics, which is a significant gap for a study whose core conclusions rest on these quantities.
+- **Who would be interested in the results, and why** Researchers studying JNK signaling and its role in apoptosis and Alzheimer's disease, particularly those interested in scaffold proteins such as JIP1. Computational biophysicists working on intrinsically disordered proteins and Markov state model methodologies would also find the approach relevant. The study may inform future experimental work on JIP1 structure-function relationships, though the fragment size limits direct biological extrapolation.
+- **Major strengths** The study addresses a genuinely undercharacterized system with potential disease relevance. The simulation effort is substantial, with 20 microseconds of total sampling across multiple seeds, which is commendable for a 10mer peptide. The use of both classical clustering and MSM analysis provides complementary perspectives on the conformational landscape. The identification of discrete metastable states and dominant transition pathways offers a testable model for JIP1 fragment dynamics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Seven structurally stable conformations of the 10mer fragment were identified via classical clustering"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on how clustering was performed, what distance metric was used, how the number of clusters was determined, or whether the clustering results were stable across the 10 independent seeds. The term "structurally stable" implies a temporal persistence that is not demonstrated in the abstract.
+  - **Why it matters** The central claim of the study is the existence of discrete stable conformations. Without evidence of cluster robustness, reproducibility across seeds, or a clear criterion for stability, the reader cannot assess whether these seven conformations are genuine features of the system or artifacts of the clustering procedure.
+  - **Resolution test** Provide clustering parameters, a metric for cluster stability (e.g., cluster population autocorrelation), and a comparison of cluster populations across individual seeds. Show that the seven conformations are consistently populated across multiple independent simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "A Markov state model (MSM) that identified four metastable states" and "conformational interconversions between the four states occur via two dominant pathways with probability fluxes of 55 and 44%"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports MSM results without any validation. No lag time is specified, no implied timescale analysis is mentioned, and no Chapman-Kolmogorov test or other model validation is described. The probability fluxes of 55% and 44% sum to 99%, which is plausible but the remaining 1% is unaccounted for, and no error estimates are provided for any of these quantities.
+  - **Why it matters** Markov state models are only meaningful if the discretization and lag time are chosen such that the model is Markovian. Without validation, the four metastable states and the transition pathways could be artifacts of poor discretization or insufficient sampling. The lack of error bars on the fluxes and mean first passage times prevents any assessment of statistical significance.
+  - **Resolution test** Report the lag time used, show implied timescale plots demonstrating a plateau, and provide Chapman-Kolmogorov test results. Include bootstrapped or otherwise estimated uncertainties for all reported fluxes and mean first passage times.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "Transitions between the initial and final states occur with mean first passage times of 31 (forward) and 16 (reverse) mus"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not define what the "initial" and "final" states are, nor does it explain why these particular states are biologically relevant. The mean first passage times are presented as absolute numbers without context or comparison to any experimental timescale.
+  - **Why it matters** The biological significance of the study hinges on whether the simulated dynamics are relevant to JIP1 function. Without a clear definition of the states being connected and a discussion of how these timescales relate to known biological processes, the reader cannot judge whether these numbers carry any functional meaning.
+  - **Resolution test** Clearly define the initial and final states in terms of structural features. Discuss how the simulated timescales compare to experimental measurements of JIP1 or JNK binding kinetics, or provide a rationale for why these specific transitions are functionally important.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract moves from disease relevance to simulation details without explaining why a 10mer fragment was chosen or how it relates to the full-length JIP1 protein.
+  - **Required correction** Add one sentence explaining the functional significance of the 10mer fragment and its relationship to the full-length protein.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "Two microseconds of unbiased MD was performed on the JIP1 10mer fragment in 10 different seeds for a total of 20 mus of simulation time" but does not specify the force field, water model, or simulation conditions.
+  - **Required correction** Include the force field and solvent model in the abstract or methods summary, as these are critical for reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Biological interpretation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions JIP1's role in tau phosphorylation and Alzheimer's disease but does not connect the simulation results back to these biological processes.
+  - **Required correction** Add a concluding statement that links the observed conformational dynamics to potential functional implications for JIP1-mediated JNK activation or tau phosphorylation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (clustering robustness), R1-M2 (MSM validation and error estimates), R1-M3 (definition and biological relevance of states and timescales)
+- **Assessment against Nature-style criteria** Originality: The system is understudied and the approach is standard, so the originality is moderate. Scientific importance: The potential relevance to Alzheimer's disease and JNK signaling is clear, but the abstract does not establish a functional link between the simulated fragment dynamics and disease mechanisms. Interdisciplinary readership: The work could appeal to both computational chemists and cell biologists, but the abstract is too technical for the latter without more biological context. Technical soundness: The simulation length is commendable, but the lack of validation for the clustering and MSM results is a serious gap. Readability for nonspecialists: The abstract is dense and assumes familiarity with MSM methodology; the biological motivation is stated but not integrated with the results.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential merit, but the abstract alone does not provide sufficient technical validation or biological context to support the central claims. A revised version with full methods, MSM validation, and clearer biological interpretation could be supportive.
+
+## Risk / unsupported claims
+- The existence of "seven structurally stable conformations" is unsupported without clustering details and stability metrics.
+- The "two dominant pathways with probability fluxes of 55 and 44%" are unsupported without MSM validation and error estimates.
+- The "mean first passage times of 31 (forward) and 16 (reverse) mus" are unsupported without definition of the states and uncertainty quantification.
+- The relevance of the 10mer fragment to full-length JIP1 function is asserted but not demonstrated in the abstract.
+- The connection between the simulated dynamics and disease processes (AD, cancer) is speculative and not supported by the visible evidence.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40273912",
+  "title": "Encoding and decoding selectivity and promiscuity in the human chemokine-GPCR interaction network.",
+  "authors": "Kleist, Andrew B; Szpakowska, Martyna; Talbot, Lindsay J; Slodkowicz, Greg; Malinverni, Duccio; Thomas, Monica A; Crawford, Kyler S; McGrail, Daniel J; Dishman, Acacia F; Wedemeyer, Michael J; Sluter, Madison; Yi, S Stephen; Sahni, Nidhi; Peterson, Francis C; Chevigne, Andy; Volkman, Brian F; Babu, M Madan",
+  "journal": "Cell",
+  "published_date": "2025-04-25",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究人类趋化因子-GPCR互作网络中选择性与混杂性的编码解码机制，涉及无序区域中的识别元件，但对象非IDP且方法以序列-结构分析为主，缺乏AI/物理模拟深度，对无序蛋白互作机制建模有部分启发。",
+  "abstract": "In humans, selective and promiscuous interactions between 46 secreted chemokine ligands and 23 cell surface chemokine receptors of the G-protein-coupled receptor (GPCR) family form a complex network to coordinate cell migration. While chemokines and their GPCRs each share common structural scaffolds, the molecular principles driving selectivity and promiscuity remain elusive. Here, we identify conserved, semi-conserved, and variable determinants (i.e., recognition elements) that are encoded and decoded by chemokines and their receptors to mediate interactions. Selectivity and promiscuity emerge from an ensemble of generalized (\"public/conserved\") and specific (\"private/variable\") determinants distributed among structured and unstructured protein regions, with ligands and receptors recognizing these determinants combinatorially. We employ these principles to engineer a viral chemokine with altered GPCR coupling preferences and provide a web resource to facilitate sequence-structure-function studies and protein design efforts for developing immuno-therapeutics and cell therapies.",
+  "abstract_zh": "在人类中，46种分泌型趋化因子配体与23种G蛋白偶联受体（GPCR）家族的细胞表面趋化因子受体之间的选择性和混杂性相互作用，构成了一个复杂网络以协调细胞迁移。尽管趋化因子及其GPCR各自共享共同的结构支架，但驱动选择性和混杂性的分子原理仍不明确。在此，我们识别了由趋化因子及其受体编码和解码的保守、半保守及可变决定因素（即识别元件），以介导相互作用。选择性和混杂性源于分布在结构化及非结构化蛋白质区域中的通用（“公共/保守”）和特异性（“私有/可变”）决定因素的集合，其中配体和受体以组合方式识别这些决定因素。我们利用这些原理工程化了一种具有改变GPCR偶联偏好的病毒趋化因子，并提供了一个网络资源，以促进序列-结构-功能研究及蛋白质设计工作，从而开发免疫治疗和细胞疗法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40273912/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40273912/",
+  "paper_page_path": "papers/pubmed/40273912/index.html"
+}

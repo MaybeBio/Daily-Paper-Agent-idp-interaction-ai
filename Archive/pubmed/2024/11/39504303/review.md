@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific content, methodological soundness, claim-evidence alignment, and presentation quality based solely on the supplied text
+- **Shared manuscript claim summary** The authors present a hybrid physics-based machine learning (PML) framework that trains a sequence-dependent nonelectrostatic interaction parameter (ω2) from coarse-grained simulation data, combines it with analytically tractable electrostatics, and uses the resulting Hamiltonian to predict multiple conformational properties of intrinsically disordered proteins (IDPs), including end-to-end distance and residue-residue distance maps, across the disordered proteome.
+- **Visible evidence base** Main text figures referenced (Figures 2, 3, 4, 5), supplementary figures referenced (Figures S1–S24), equations (1), (3), (4), (5), (6), (7), and text descriptions of results
+- **Missing materials affecting confidence** Full figure contents, supplementary information details (CNN architecture specifics, outlier analysis, CALVADOS simulation parameters, protein selection criteria, experimental condition table), and exact numerical values for correlations and error metrics are not provided in the supplied material
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually appealing and potentially impactful approach that integrates physics-based theory with machine learning to predict IDP conformational properties. The core idea, training a Hamiltonian parameter rather than a specific observable, is novel and well motivated. The authors demonstrate predictive capability for end-to-end distance and distance maps across large sequence datasets and against experimental data. However, the provided text lacks sufficient quantitative detail to fully assess the robustness of the claims. Key concerns include the treatment of outliers, the mean-field approximation used for distance map predictions, the handling of environmental conditions in experimental comparisons, and the generalizability of the trained models across force fields. The manuscript is likely of interest to the IDP biophysics and computational chemistry communities, and the methodological framework could have broader appeal. The technical soundness appears reasonable but requires closer inspection of the supplementary materials and additional validation details.
+- **Who would be interested in the results, and why** Researchers in intrinsically disordered protein biophysics, computational chemistry, and machine learning applied to molecular systems would find this work relevant. The approach offers a high-throughput alternative to coarse-grained simulations for predicting IDP conformations, which is valuable for proteome-scale analyses, protein design, and understanding sequence-conformation-function relationships. The general concept of training unknown Hamiltonian terms with ML while preserving known physics could also interest a broader physical sciences audience.
+- **Major strengths** The conceptual advance of training a Hamiltonian parameter rather than an observable is clearly articulated and distinguishes this work from conventional ML approaches. The integration of analytically tractable electrostatics with machine-learned nonelectrostatics is elegant and physically motivated. The demonstration of predicting multiple conformational properties beyond the training observable, including distance maps, is a significant strength. The validation against experimental data across 64 proteins, including mutants, adds credibility. The computational efficiency gain, predicting the entire human proteome in approximately 16 hours, is practically compelling.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the PML-derived Hamiltonian can accurately predict ensemble average distance maps between any two residues, with quantitative comparisons provided in supplementary figures.
+  - **Evidence pointer** Results section, Figure 4, Figures S8–S23
+  - **Concern** The mean-field approximation ωm,n ≈ ω2 used to estimate SHDM for distance map predictions is acknowledged by the authors to be approximate, and they note that specific sequences show noticeable discrepancies (Pearson correlation below 0.95). The improved model SHDMI partially addresses this, but the authors state it is still approximate and that further improvement would require retaining amino acid pair-specific interactions. This raises questions about the general reliability of distance map predictions, particularly for sequences where nonelectrostatic interactions dominate (e.g., uncharged or weakly charged IDPs). The manuscript does not provide sufficient quantitative detail on the distribution of prediction accuracies across the full test sets, nor does it clearly delineate the conditions under which the mean-field approximation is expected to fail.
+  - **Why it matters** The claim of predicting distance maps is a central demonstration of the approach's versatility beyond single global observables. If the accuracy is highly sequence-dependent and systematically poor for certain classes of sequences, the practical utility of the method for detailed conformational analysis is limited. The current presentation does not allow the reader to assess the scope and severity of these limitations.
+  - **Resolution test** Provide a quantitative breakdown of prediction accuracy (e.g., correlation coefficients, mean absolute errors) for distance maps across the full test sets, stratified by sequence properties such as net charge, hydropathy, and length. Clearly state the fraction of sequences for which predictions meet a predefined accuracy threshold. Discuss the physical reasons for failures and whether the SHDMI model systematically improves predictions across all sequence classes or only for specific outliers.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that PML predictions compare well against experimental measurements of protein size for 64 proteins, accounting for experimental salt, pH, and temperature conditions.
+  - **Evidence pointer** Results section, Figure 5, Figure S24, Table S1
+  - **Concern** The manuscript states that experimental conditions (salt, pH, temperature) were accounted for in the electrostatic contributions but that the impact of these conditions on ω2 was ignored. This is a significant simplification, as nonelectrostatic interactions in IDPs are known to be condition-dependent (e.g., hydrophobic interactions vary with temperature, salt can modulate non-charge interactions). The text does not specify the range of conditions across the 64 proteins, nor does it quantify the potential error introduced by neglecting condition dependence of ω2. The comparison between CNNT and CNNZ performance on experimental data is mentioned but not quantified in the provided text.
+  - **Why it matters** The experimental validation is a key claim supporting the practical reliability of the method. If the model's accuracy is contingent on neglecting condition-dependent nonelectrostatic effects, its applicability to diverse physiological conditions is questionable. The lack of quantitative detail on the experimental comparison prevents assessment of whether the agreement is genuinely robust or fortuitous.
+  - **Resolution test** Provide a detailed table of the 64 proteins with their experimental conditions and the corresponding PML predictions and errors. Quantify the agreement (e.g., R², mean absolute error) for CNNT and CNNZ separately. Discuss the potential magnitude of error from neglecting condition dependence of ω2, possibly by comparing predictions for proteins measured under different conditions or by performing sensitivity analyses.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The authors claim that the CNN models (CNNZ and CNNT) accurately reproduce sequence-specific ω2 values in their respective test sets.
+  - **Evidence pointer** Results section, Figure 2, Figure S1
+  - **Concern** The manuscript references supplementary information for details of the CNN architecture, training procedure, and hyperparameter selection, but the provided text does not include any of these details. The reader cannot assess the adequacy of the model capacity, the potential for overfitting, the choice of sequence encoding, or the sensitivity of results to architectural choices. The identification of outliers enriched in charges is mentioned, but the fraction of outliers and the criteria for defining them are not specified.
+  - **Why it matters** The reliability of the entire PML framework depends on the accuracy and generalizability of the CNN models. Without details on the model architecture and training, the results cannot be reproduced or independently evaluated. The outlier analysis is important for understanding the limitations of the approach, but the current description is insufficient.
+  - **Resolution test** Include the CNN architecture details (number of layers, filter sizes, activation functions, regularization), training procedure (loss function, optimizer, learning rate, early stopping criteria), and hyperparameter selection in the main text or a comprehensive supplementary section. Quantify the fraction of outliers, define the outlier criterion, and provide a more detailed analysis of their sequence properties.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors claim that the PML framework can predict conformations of the disordered proteome and is useful for IDP design and evolution studies.
+  - **Evidence pointer** Abstract, Discussion
+  - **Concern** The training data are derived from two specific coarse-grained force fields (Zheng et al. and Tesei et al.). The authors demonstrate that models trained on one force field can predict distance maps for sequences simulated with a different force field (CALVADOS), but the text notes that predictions differ depending on the model used. The generalizability of the approach to other force fields, to experimental conditions beyond those represented in the training data, and to IDPs with post-translational modifications or in complex environments (e.g., with binding partners) is not addressed. The claim of proteome-wide applicability is extrapolated from a single human proteome dataset.
+  - **Why it matters** The stated broader impact of the method depends on its generalizability. If the trained models are strongly biased by the training force field, their predictive power for sequences or conditions outside the training distribution is uncertain. The manuscript should more carefully delineate the scope of applicability and the conditions under which retraining would be necessary.
+  - **Resolution test** Discuss the transferability of the trained models across force fields and conditions. If possible, provide validation on an independent dataset generated with a different force field or on experimental data spanning a wider range of conditions. Clearly state the limitations of the current training data and the criteria for when retraining would be required.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation (1) and associated definitions
+  - **Evidence pointer** Methods section
+  - **Issue** The definitions of the terms in the free energy expression (Equation 1) are not fully explicit in the provided text. The symbols Ω, B, and Q are mentioned but their precise definitions and dependencies (e.g., on sequence, salt concentration) are not fully described in the main text.
+  - **Required correction** Provide explicit definitions of all symbols in Equation (1) and their dependencies, either in the main text or by clear reference to the relevant equations in the supplementary information.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 3 description
+  - **Evidence pointer** Results section
+  - **Issue** The text states that predicted chain dimensions compare well with simulated values for both datasets, but no quantitative metrics (e.g., correlation coefficients, root-mean-square errors) are provided in the main text.
+  - **Required correction** Include quantitative agreement metrics in the main text or refer explicitly to the supplementary figures where these are provided.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental comparison
+  - **Evidence pointer** Results section, Figure 5
+  - **Issue** The text mentions that CNNT performs better than CNNZ on the experimental benchmark but does not provide the quantitative comparison in the main text.
+  - **Required correction** Provide the quantitative comparison (e.g., correlation coefficients, errors) for both models in the main text or clearly reference the supplementary figure where this is shown.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of SHDML
+  - **Evidence pointer** Results section, Equation (7)
+  - **Issue** The relationship between SHDML and the traditional hydropathy patterning metric from Zheng et al. is mentioned but not clearly delineated. The novelty of SHDML relative to existing metrics could be clarified.
+  - **Required correction** Clarify the relationship between SHDML and existing hydropathy patterning metrics, and explicitly state what new information SHDML provides.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of limitations is relatively brief and does not address the potential impact of the mean-field approximation on the broader applicability of the method, nor does it discuss the sensitivity of results to the choice of ω3.
+  - **Required correction** Expand the limitations section to include a more thorough discussion of the mean-field approximation, the sensitivity to ω3, and the conditions under which the method is expected to be most and least reliable.
+
+## Risk / unsupported claims
+- The claim that the PML framework can predict conformations of the entire disordered proteome is extrapolated from a single human proteome dataset and two coarse-grained force fields; generalizability to other proteomes and conditions is not demonstrated.
+- The claim of accurate distance map prediction is weakened by the acknowledged mean-field approximation and the identification of specific sequences with poor predictions; the scope of this limitation is not quantified.
+- The experimental validation claim is partially unsupported because the text does not provide quantitative agreement metrics in the main text, and the neglect of condition-dependent ω2 is not justified or quantified.
+- The claim that the approach will be useful for IDP design and evolution is plausible but not directly demonstrated in the provided text.
+- The statement that the CNN models accurately reproduce ω2 values is not fully assessable without details on model architecture, training procedure, and quantitative error metrics.

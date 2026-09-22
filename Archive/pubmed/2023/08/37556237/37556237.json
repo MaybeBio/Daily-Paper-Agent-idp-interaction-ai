@@ -1,0 +1,201 @@
+{
+  "identity": {
+    "pmid": "37556237",
+    "doi": "10.1021/acs.jpcb.3c01726",
+    "title": "Model-Dependent Solvation of the K-18 Domain of the Intrinsically Disordered Protein Tau."
+  },
+  "content": {
+    "abstract": "A known imbalance between intra-protein and protein-water interactions in many empirical force fields results in collapsed conformational ensembles of intrinsically disordered proteins in explicit solvent simulations that disagree with experiments. Multiple strategies have been introduced in the literature to modify protein-water interactions, which improve agreement between experiments and simulations. In this work, we combine simulations with standard and modified force fields with a spatially resolved analysis of solvation free energy contributions and compare the consequences of each strategy. We find that enhanced Lennard-Jones (LJ) interactions between protein atoms and water oxygens primarily improve the solvation of nonpolar functional groups of the protein. In contrast, modified electrostatics in the water model or strengthened LJ interactions between the protein and water hydrogens mainly affect the hydration of polar functional groups. Modified electrostatics further impact the average orientation of water molecules in the hydration shell. As a result, protein-water interactions with the first hydration layers are strengthened, while interactions with water molecules in higher hydration shells are weakened. Hence, distinct strategies to balance intra-protein and protein-water interactions in simulations have qualitatively different effects on protein solvation. These differences are not necessarily captured by comparisons to experiments that report on global parameters describing protein conformational ensembles, e.g., the radius of gyration, but will influence the tendency of a protein to form aggregates or phase-separated droplets.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins",
+      "Solvents",
+      "Water",
+      "Protein Conformation",
+      "gamma-Globulins",
+      "Melphalan"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maiti, Sthitadhi",
+        "Heyden, Matthias"
+      ],
+      "short_names": [
+        "Maiti S",
+        "Heyden M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7956-5287"
+      ],
+      "affiliations": [
+        "School of Molecular Sciences, Arizona State University, Tempe, Arizona 85287, United States.",
+        "School of Molecular Sciences, Arizona State University, Tempe, Arizona 85287, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maiti, Sthitadhi",
+        "short_name": "Maiti S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular Sciences, Arizona State University, Tempe, Arizona 85287, United States."
+        ]
+      },
+      {
+        "full_name": "Heyden, Matthias",
+        "short_name": "Heyden M",
+        "identifiers": [
+          "0000-0002-7956-5287"
+        ],
+        "affiliations": [
+          "School of Molecular Sciences, Arizona State University, Tempe, Arizona 85287, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2023 Aug 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/09 18:42",
+    "fetched_at": "2026-09-21 00:11:56"
+  },
+  "links": {
+    "cites": [
+      "42147780"
+    ],
+    "refs": [],
+    "similar": [
+      "37556237",
+      "32859072",
+      "34986640",
+      "32816485",
+      "29548755",
+      "34185520",
+      "26030189",
+      "36080494",
+      "30865832",
+      "10903873",
+      "19334851",
+      "26609601",
+      "27583687",
+      "29553735",
+      "33382616",
+      "35950933",
+      "25871264",
+      "18251538",
+      "32696370",
+      "24976043",
+      "30514082",
+      "32367806",
+      "26910732",
+      "33810353",
+      "25877585",
+      "20411978",
+      "20150953",
+      "33078950",
+      "25774711",
+      "31241933",
+      "18481860",
+      "36468418",
+      "30811210",
+      "15224394",
+      "30328845",
+      "23912807",
+      "32502383",
+      "18710198",
+      "30840442",
+      "31198036",
+      "20459174",
+      "32654182",
+      "35968960",
+      "26575776",
+      "9726412",
+      "25375525",
+      "17249715",
+      "30204435",
+      "8601844",
+      "36934808",
+      "26418258",
+      "28064081",
+      "1384032",
+      "33945530",
+      "33428425",
+      "28397268",
+      "21495739",
+      "30990694",
+      "29874605",
+      "27878168",
+      "18183310",
+      "31903719",
+      "25207671",
+      "35377637",
+      "21728337",
+      "21500828",
+      "26233149",
+      "24299013",
+      "18093918",
+      "34598583",
+      "26626529",
+      "20419084",
+      "28880080",
+      "8759322",
+      "18433287",
+      "29450909",
+      "31470695",
+      "25896299",
+      "25145273",
+      "19507836",
+      "15362127",
+      "34152264",
+      "30933517",
+      "34546059",
+      "28493693",
+      "28095698",
+      "30250773",
+      "29946610",
+      "25400522",
+      "30865820",
+      "26593002",
+      "26588292",
+      "32345021",
+      "37587419",
+      "38136615",
+      "17429495"
+    ],
+    "review": [
+      "37556237",
+      "18710198",
+      "30840442"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.3c01726",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary material were provided for verification
+- **Shared manuscript claim summary** The authors use coarse-grained molecular simulations of model intrinsically disordered proteins with punctate, multifunctional binding sites to show that phase separation produces a heterogeneous, structured fluid with a well defined length scale. They report that dense phase structure is more sensitive to binding site separation than affinity, that heterogeneity increases with binding site number, that the proteins swell on transfer from dilute to dense phase, and that binding sites distant from termini modulate dense phase structure while near terminal sites affect phase behaviour. They propose graph theoretic measures for quantifying heterogeneity and suggest experimental testability.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, force field parameters, system sizes, equilibration protocols, graph theoretic definitions, quantitative results, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study linking sequence level features of disordered proteins to mesoscale condensate structure. However, the claims are broad and mechanistic, and the provided material is insufficient to assess technical soundness, statistical robustness, or the strength of the evidence. The central assertions about structure heterogeneity, length scale definition, and the differential roles of binding site position are not verifiable from the abstract alone. The work may be of interest to the soft matter and biophysics communities, but the case is not established from the supplied evidence.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation of intrinsically disordered proteins, and coarse-grained polymer simulations. The proposed link between interaction site arrangement and material properties could inform experimental design in cell biology and rational engineering of synthetic condensates. The graph theoretic approach may also appeal to computational soft matter scientists.
+- **Major strengths** The abstract addresses a timely and important question about internal organization of condensates. The use of coarse-grained simulations with multifunctional binding sites is a reasonable approach for exploring sequence structure effects. The claim that dense phase structure is more sensitive to binding site separation than affinity is a specific, testable prediction. The introduction of graph theoretic measures for heterogeneity is a potentially novel methodological contribution.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that model proteins phase separate into a heterogeneous, structured fluid characterized by a well defined length scale.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No simulation details, system sizes, or analysis methods are provided to support the existence of a well defined length scale or the characterization of the dense phase as a structured fluid. The abstract does not state how the length scale was determined or how heterogeneity was quantified beyond mentioning graph theoretic measures.  
+  - **Why it matters** The central claim of a structured fluid with a defined length scale is foundational to the paper. Without evidence of the structural observable, its definition, and its statistical significance, the claim cannot be evaluated.  
+  - **Resolution test** Provide a figure showing the structure factor or radial distribution function with a clear peak defining the length scale, along with error bars and system size dependence.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that dense phase structure is more sensitive to the separation of binding sites than their affinity.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** This is a comparative claim about sensitivity, but no quantitative comparison is presented. The abstract does not describe how sensitivity was measured, over what parameter ranges, or whether the comparison is statistically robust.  
+  - **Why it matters** This is a key predictive claim with experimental implications. Without a defined metric for sensitivity and evidence of its robustness, the claim is unsupported.  
+  - **Resolution test** Show a plot or table comparing structural metrics (e.g., length scale, heterogeneity index) as a function of binding site separation versus affinity, with confidence intervals.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that heterogeneity increases with increasing binding site number and exhibits multi-timescale dynamics.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No definition of the heterogeneity measure is given, and no evidence for multi-timescale dynamics is presented. The abstract does not specify what timescales were probed or how they were resolved.  
+  - **Why it matters** These are quantitative claims about a new metric and dynamic behaviour. Without definitions and representative data, the claims are not assessable.  
+  - **Resolution test** Provide a definition of the graph theoretic heterogeneity measure, a plot of heterogeneity versus binding site number, and autocorrelation functions or similar showing multiple relaxation times.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that binding sites distant from the termini modulate dense phase structure while sites near the termini more strongly affect phase behaviour.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** This is a mechanistic claim about positional effects, but no data are shown to distinguish structural from phase behavioural effects. The abstract does not define how phase behaviour was measured or how structural modulation was separated from phase stability.  
+  - **Why it matters** This claim has direct design implications for experiments. Without a clear operational distinction between structure and phase behaviour, the claim is ambiguous.  
+  - **Resolution test** Show phase diagrams and structural metrics for variants with binding sites moved between terminal and internal positions, with clear definitions of both observables.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The authors claim that the model proteins swell on passing from the dilute solution to the dense phase.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No measure of protein size (e.g., radius of gyration) is reported, and no comparison between dilute and dense phases is shown.  
+  - **Why it matters** Swelling is a specific structural prediction that is experimentally testable. Without quantitative data, the claim is unverified.  
+  - **Resolution test** Provide a plot of radius of gyration distribution in dilute and dense phases with statistics.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, sentence on graph theoretic measures  
+  - **Issue** The phrase "graph theoretic measures to quantify their heterogeneity" is vague. It is unclear what graph is constructed (e.g., contact graph, interaction network) and what specific measures are used.  
+  - **Required correction** Specify the graph construction and the exact measures (e.g., clustering coefficient, degree distribution) in the abstract or methods.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, sentence on experimental testability  
+  - **Issue** The claim that relations "can be experimentally tested" is too broad. It is unclear which specific experimental techniques would be used to measure internal structure or heterogeneity.  
+  - **Required correction** Name candidate experimental methods (e.g., FRET, SAXS, NMR) and specify which predictions they would test.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, no mention of simulation parameters  
+  - **Issue** The abstract does not state the coarse graining level, solvent model, or interaction potential form.  
+  - **Required correction** Add a brief statement of the model type and key parameters in the abstract or refer to methods.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. All are blocking because the central claims of the abstract are not verifiable from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of linking binding site arrangement to condensate internal structure is not entirely new, but the specific focus on positional effects and graph theoretic quantification may offer a fresh angle. However, originality cannot be fully assessed without seeing the methods and comparison to prior work.  
+  - Scientific importance: The question of condensate internal organization is important for understanding function and pathology. The claims, if validated, would be of interest. But the importance is not yet demonstrated from the abstract alone.  
+  - Interdisciplinary readership: The topic bridges soft matter physics, biophysics, and cell biology. The abstract is written in a way that is broadly accessible, but the lack of quantitative detail limits its utility to specialists.  
+  - Technical soundness: Not assessable from the abstract. No methods, parameters, or statistical analyses are provided.  
+  - Readability for nonspecialists: The abstract is clear and avoids jargon, but the claims are too vague for a nonspecialist to judge their validity.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses, but the absence of any quantitative results or methodological detail means the claims cannot be evaluated. A full manuscript with figures, methods, and statistical analysis would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The existence of a well defined length scale in the dense phase is unsupported.
+- The claim that structure is more sensitive to binding site separation than affinity is unsupported.
+- The claim that heterogeneity increases with binding site number is unsupported.
+- The claim of multi-timescale dynamics is unsupported.
+- The claim that proteins swell on transfer from dilute to dense phase is unsupported.
+- The claim that binding site position differentially affects structure versus phase behaviour is unsupported.
+- The experimental testability of the relations is asserted but not substantiated with specific predictions or methods.

@@ -1,0 +1,511 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.07.548080",
+  "title": "SPIN-CGNN: Improved fixed backbone protein design with contact map-based graph construction and contact graph neural network",
+  "doi": "10.1101/2023.07.07.548080",
+  "abstract": "Recent advances in deep learning have significantly improved the ability to infer protein sequences directly from protein structures for the fix-backbone design. The methods have evolved from the early use of multi-layer perceptrons to convolutional neural networks, transformer, and graph neural networks (GNN). However, the conventional approach of constructing K-nearest-neighbors (KNN) graph for GNN has limited the utilization of edge information, which plays a critical role in network performance. Here we introduced SPIN-CGNN based on protein contact maps for nearest neighbors. Together with auxiliary edge updates and selective kernels, we found that SPIN-CGNN provided a comparable performance in refolding ability by AlphaFold2 to the current state-of-the-art techniques but a significant improvement over them in term of sequence recovery, perplexity, deviation from amino-acid compositions of native sequences, conservation of hydrophobic positions, and low complexity regions, according to the test by unseen structures and “hallucinated” structures. Results suggest that low complexity regions in the sequences designed by deep learning techniques remain to be improved, when compared to the native sequences.",
+  "authors": [
+    "Xing Zhang",
+    "Hongmei Yin",
+    "Fei Ling",
+    "Jian Zhan",
+    "Yaoqi Zhou"
+  ],
+  "published_date": "2023-07-07",
+  "updated_date": "2023-07-07T16:55:19Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.07.548080",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.07.548080.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:40:14Z",
+        "timestamp": 1768506014422,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            7
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 44,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Recent advances in deep learning have significantly improved the ability to infer protein sequences directly from protein structures for the fix-backbone design. The methods have evolved from the early use of multi-layer perceptrons to convolutional neural networks, transformer, and graph neural networks (GNN). However, the conventional approach of constructing K-nearest-neighbors (KNN) graph for GNN has limited the utilization of edge information, which plays a critical role in network performance. Here we introduced SPIN-CGNN based on protein contact maps for nearest neighbors. Together with auxiliary edge updates and selective kernels, we found that SPIN-CGNN provided a comparable performance in refolding ability by AlphaFold2 to the current state-of-the-art techniques but a significant improvement over them in term of sequence recovery, perplexity, deviation from amino-acid compositions of native sequences, conservation of hydrophobic positions, and low complexity regions, according to the test by unseen structures and “hallucinated” structures. Results suggest that low complexity regions in the sequences designed by deep learning techniques remain to be improved, when compared to the native sequences.</jats:p>",
+      "DOI": "10.1101/2023.07.07.548080",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            7
+          ]
+        ],
+        "date-time": "2023-07-07T16:55:19Z",
+        "timestamp": 1688748919000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "SPIN-CGNN: Improved fixed backbone protein design with contact map-based graph construction and contact graph neural network"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8902-0355",
+          "authenticated-orcid": false,
+          "given": "Xing",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hongmei",
+          "family": "Yin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fei",
+          "family": "Ling",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jian",
+          "family": "Zhan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9958-5699",
+          "authenticated-orcid": false,
+          "given": "Yaoqi",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cbic.200500235"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "315",
+          "DOI": "10.1146/annurev-biophys-083012-130315",
+          "article-title": "Energy functions in de novo protein design: current challenges and future prospects",
+          "volume": "42",
+          "year": "2013",
+          "journal-title": "Annual review of biophysics"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-019-0163-x"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2004.12.019"
+        },
+        {
+          "issue": "1",
+          "key": "2023071207001014000_2023.07.07.548080v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "5330",
+          "DOI": "10.1038/ncomms6330",
+          "article-title": "Protein design with a comprehensive statistical energy function and boosted by experimental selection for foldability",
+          "volume": "5",
+          "year": "2014",
+          "journal-title": "Nature communications"
+        },
+        {
+          "issue": "1",
+          "key": "2023071207001014000_2023.07.07.548080v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "136",
+          "DOI": "10.1093/bioinformatics/btz515",
+          "article-title": "Increasing the efficiency and accuracy of the ABACUS protein sequence design method",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "545",
+          "DOI": "10.1016/B978-0-12-381270-4.00019-6",
+          "article-title": "ROSETTA3: an object-oriented software suite for the simulation and design of macromolecules",
+          "volume": "487",
+          "year": "2011",
+          "journal-title": "Methods in enzymology. Academic Press"
+        },
+        {
+          "issue": "1",
+          "key": "2023071207001014000_2023.07.07.548080v1.8",
+          "first-page": "86",
+          "article-title": "De novo protein design by an energy function based on series expansion in distance and orientation dependence",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "10",
+          "key": "2023071207001014000_2023.07.07.548080v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "2565",
+          "DOI": "10.1002/prot.24620",
+          "article-title": "Direct prediction of profiles of sequences compatible with a protein structure by neural networks with fragment-based local and energy-based nonlocal profiles. Proteins: Structure",
+          "volume": "82",
+          "year": "2014",
+          "journal-title": "Function, and Bioinformatics"
+        },
+        {
+          "issue": "6",
+          "key": "2023071207001014000_2023.07.07.548080v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "629",
+          "DOI": "10.1002/prot.25489",
+          "article-title": "SPIN2: Predicting sequence profiles from protein structures using deep neural networks",
+          "volume": "86",
+          "year": "2018",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-018-31628-7"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "issue": "4",
+          "key": "2023071207001014000_2023.07.07.548080v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "292",
+          "DOI": "10.1016/j.cels.2019.03.006",
+          "article-title": "End-to-end differentiable learning of protein structure",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "Cell systems"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.15",
+          "unstructured": "Ingraham J , Riesselman A , Sander C , et al. Learning protein structure with a differentiable simulator. International Conference on Learning Representations. 2019."
+        },
+        {
+          "issue": "1",
+          "key": "2023071207001014000_2023.07.07.548080v1.16",
+          "first-page": "391",
+          "article-title": "To improve protein sequence profile prediction through image captioning on pairwise residue distance map",
+          "volume": "60",
+          "year": "2019",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c00043"
+        },
+        {
+          "issue": "7",
+          "key": "2023071207001014000_2023.07.07.548080v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "819",
+          "DOI": "10.1002/prot.25868",
+          "article-title": "ProDCoNN: Protein design using a convolutional neural network",
+          "volume": "88",
+          "year": "2020",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.19",
+          "unstructured": "Ingraham J , Garg V , Barzilay R , et al. Generative models for graph-based protein design. Advances in neural information processing systems, 2019, 32."
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.20",
+          "unstructured": "Tan C , Gao Z , Xia J , et al. Generative de novo protein design with global context. arXiv preprint arXiv:2204.10673, 2022."
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.21",
+          "unstructured": "Jing B , Eismann S , Suriana P , et al. Learning from protein structure with geometric vector perceptrons. arXiv preprint arXiv:2009.01411, 2020."
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.22",
+          "unstructured": "Gao Z , Tan C , Li S Z. Alphadesign: A graph protein design method and benchmark on alphafolddb. arXiv preprint arXiv:2202.01079, 2022."
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hsu C , Verkuil R , Liu J , et al. Learning inverse folding from millions of predicted structures. International Conference on Machine Learning. PMLR, 2022: 8946–8970.",
+          "DOI": "10.1101/2022.04.10.487779"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.add2187"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.25",
+          "unstructured": "Gao Z , Tan C , Li S Z. PiFold: Toward effective and efficient protein inverse folding. arXiv preprint arXiv:2209.12643, 2022."
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zheng Z , Deng Y , Xue D , et al. Structure-informed Language Models Are Protein Designers. bioRxiv, 2023: 2023.02. 03.526917.",
+          "DOI": "10.1101/2023.02.03.526917"
+        },
+        {
+          "issue": "7",
+          "key": "2023071207001014000_2023.07.07.548080v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "451",
+          "DOI": "10.1038/s43588-022-00273-6",
+          "article-title": "Rotamer-free protein sequence design based on deep learning and self-consistency",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Nature Computational Science"
+        },
+        {
+          "issue": "3",
+          "key": "2023071207001014000_2023.07.07.548080v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "btad122",
+          "DOI": "10.1093/bioinformatics/btad122",
+          "article-title": "Accurate and efficient protein sequence design through learning concise local environment of residues",
+          "volume": "39",
+          "year": "2023",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-04383-5"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abn2100"
+        },
+        {
+          "issue": "7889",
+          "key": "2023071207001014000_2023.07.07.548080v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "547",
+          "DOI": "10.1038/s41586-021-04184-w",
+          "article-title": "De novo protein design by deep network hallucination",
+          "volume": "600",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.32",
+          "unstructured": "Anand N , Achim T. Protein structure and sequence generation with equivariant denoising diffusion probabilistic models. arXiv preprint arXiv:2205.15019, 2022."
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Watson J L , Juergens D , Bennett N R , et al. Broadly applicable and accurate protein design by integrating structure prediction networks and diffusion generative models. bioRxiv, 2022: 2022.12. 09.519842.",
+          "DOI": "10.1101/2022.12.09.519842"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Madani A , Krause B , Greene E R , et al. Large language models generate functional protein sequences across diverse families. Nature Biotechnology, 2023: 1–8.",
+          "DOI": "10.1038/s41587-022-01618-2"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "陈志航, 季梦麟, 戚逸飞. 人工智能蛋白质结构设计算法研究进展. 合成生物学, 2023: 1.",
+          "DOI": "10.1360/SSPMA-2023-0045"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.36",
+          "unstructured": "Vaswani A , Shazeer N , Parmar N , et al. Attention is all you need. Advances in neural information processing systems, 2017, 30."
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li X , Wang W , Hu X , et al. Selective kernel networks. Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2019: 510–519.",
+          "DOI": "10.1109/CVPR.2019.00060"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.38",
+          "unstructured": "Loshchilov I , Hutter F. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017."
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.39",
+          "first-page": "369",
+          "article-title": "Super-convergence: Very fast training of neural networks using large learning rates. Artificial intelligence and machine learning for multi-domain operations applications",
+          "volume": "11006",
+          "year": "2019",
+          "journal-title": "SPIE"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.40",
+          "unstructured": "Paszke A , Gross S , Massa F , et al. Pytorch: An imperative style, high-performance deep learning library. Advances in neural information processing systems, 2019, 32."
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp163"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0080635"
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.43",
+          "unstructured": "The NCBI C++ Toolkit ( https://ncbi.github.io/cxx-toolkit/ ) by the National Center for Biotechnology Information, U.S. National Library of Medicine; Bethesda MD, 20894 USA."
+        },
+        {
+          "key": "2023071207001014000_2023.07.07.548080v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.89.22.10915"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.07.07.548080",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:53:57Z",
+        "timestamp": 1768452837000
+      },
+      "score": 55.791958,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.07.07.548080"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            7
+          ]
+        ]
+      },
+      "references-count": 44,
+      "URL": "https://doi.org/10.1101/2023.07.07.548080",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1371/journal.pcbi.1011330",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.13.544745",
+  "title": "SARS-CoV-2 Envelope protein alters calcium signaling via SERCA interactions",
+  "doi": "10.1101/2023.06.13.544745",
+  "abstract": "The clinical management of severe COVID-19 cases is not yet well resolved. Therefore, it is important to identify and characterize cell signaling pathways involved in virus pathogenesis that can be targeted therapeutically. Envelope (E) protein is a structural protein of the virus, which is known to be highly expressed in the infected host cell and is a key virulence factor, however, its role is poorly characterized. The E protein is a single-pass transmembrane protein that can assemble into a pentamer forming a viroporin, perturbing Ca 2+ homeostasis. Because it is structurally similar to regulins such as, for example, phospholamban, that regulate the sarco/endoplasmic reticulum calcium ATPases (SERCA), we investigated whether the SARS-CoV-2 E protein affects the SERCA system as an exoregulin. Using FRET experiments we demonstrate that E protein can form oligomers with regulins, and thus can alter the monomer/multimer regulin ratio and consequently influence their interactions with SERCAs. We also confirmed that a direct interaction between E protein and SERCA2b results in a decrease in SERCA-mediated ER Ca 2+ reload. Structural modeling and molecular dynamics of the complexes indicates an overlapping interaction site for E protein and endogenous regulins. Our results reveal novel links in the host-virus interaction network that play an important role in viral pathogenesis and may provide a new therapeutic target for managing severe inflammatory responses induced by SARS-CoV-2.",
+  "authors": [
+    "Berta B",
+    "Tordai H",
+    "Lukács GL",
+    "Papp B",
+    "Enyedi Á",
+    "Padányi R",
+    "Hegedűs T"
+  ],
+  "published_date": "2023-06-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.13.544745",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.13.544745.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR675949",
+    "raw_record": {
+      "id": "PPR675949",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR675949"
+        ]
+      },
+      "doi": "10.1101/2023.06.13.544745",
+      "title": "SARS-CoV-2 Envelope protein alters calcium signaling via SERCA interactions",
+      "authorString": "Berta B, Tordai H, Lukács GL, Papp B, Enyedi Á, Padányi R, Hegedűs T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Berta B",
+            "lastName": "Berta",
+            "firstName": "Blanka",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics and Radiation Biology, Semmelweis University, 1085 Budapest, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tordai H",
+            "lastName": "Tordai",
+            "firstName": "Hedvig",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0875-5569"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics and Radiation Biology, Semmelweis University, 1085 Budapest, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lukács GL",
+            "lastName": "Lukács",
+            "firstName": "Gergely",
+            "initials": "GL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, McGill University, Montréal, Quebec, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Papp B",
+            "lastName": "Papp",
+            "firstName": "Béla",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5025-3087"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Inserm U976, Institut de Recherche Saint-Louis, Université de Paris, Hôpital Saint-Louis, Paris, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Enyedi Á",
+            "lastName": "Enyedi",
+            "firstName": "Ágnes",
+            "initials": "Á",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7366-9376"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Transfusiology, Semmelweis University, Budapest, Hungary"
+                },
+                {
+                  "affiliation": "ELKH-SE Biophysical Virology Research Group, Eötvös Loránd Research Network, 1052 Budapest, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Padányi R",
+            "lastName": "Padányi",
+            "firstName": "Rita",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics and Radiation Biology, Semmelweis University, 1085 Budapest, Hungary"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hegedűs T",
+            "lastName": "Hegedűs",
+            "firstName": "Tamás",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biophysics and Radiation Biology, Semmelweis University, 1085 Budapest, Hungary"
+                },
+                {
+                  "affiliation": "ELKH-SE Biophysical Virology Research Group, Eötvös Loránd Research Network, 1052 Budapest, Hungary"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7798-0463"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0875-5569"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5025-3087"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5195-749X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7366-9376"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The clinical management of severe COVID-19 cases is not yet well resolved. Therefore, it is important to identify and characterize cell signaling pathways involved in virus pathogenesis that can be targeted therapeutically. Envelope (E) protein is a structural protein of the virus, which is known to be highly expressed in the infected host cell and is a key virulence factor, however, its role is poorly characterized. The E protein is a single-pass transmembrane protein that can assemble into a pentamer forming a viroporin, perturbing Ca  2+ homeostasis. Because it is structurally similar to regulins such as, for example, phospholamban, that regulate the sarco/endoplasmic reticulum calcium ATPases (SERCA), we investigated whether the SARS-CoV-2 E protein affects the SERCA system as an exoregulin. Using FRET experiments we demonstrate that E protein can form oligomers with regulins, and thus can alter the monomer/multimer regulin ratio and consequently influence their interactions with SERCAs. We also confirmed that a direct interaction between E protein and SERCA2b results in a decrease in SERCA-mediated ER Ca  2+ reload. Structural modeling and molecular dynamics of the complexes indicates an overlapping interaction site for E protein and endogenous regulins. Our results reveal novel links in the host-virus interaction network that play an important role in viral pathogenesis and may provide a new therapeutic target for managing severe inflammatory responses induced by SARS-CoV-2.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/13/2023.06.13.544745.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.13.544745"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR675949"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR675949&type=FILE&fileName=EMS177639-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39261533",
+            "reference": "Scientific reports. 2024 Sep;14(1):21200",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS177639",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-06-16",
+      "firstPublicationDate": "2023-06-13",
+      "firstIndexDate": "2023-06-16",
+      "fullTextReceivedDate": "2023-07-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

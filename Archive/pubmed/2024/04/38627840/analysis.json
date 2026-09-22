@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38627840",
+  "title": "Global research hotspots, development trends and prospect discoveries of phase separation in cancer: a decade-long informatics investigation.",
+  "authors": "Guo, Song-Bin; Feng, Xue-Zhao; Huang, Wei-Juan; Zhou, Zhen-Zhong; Tian, Xiao-Peng",
+  "journal": "Biomarker research",
+  "published_date": "2024-04-17",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用信息学方法（聚类、回归、突发检测等）回顾相分离在癌症领域的研究热点与趋势，属于文献计量综述，无PPI机制建模或AI/物理模拟方法，仅对象（相分离）部分相关。",
+  "abstract": "Liquid-liquid phase separation (LLPS) is a complex and subtle phenomenon whose formation and regulation take essential roles in cancer initiation, growth, progression, invasion, and metastasis. This domain holds a wealth of underutilized unstructured data that needs further excavation for potentially valuable information. Therefore, we retrospectively analyzed the global scientific knowledge in the field over the last decade by using informatics methods (such as hierarchical clustering, regression statistics, hotspot burst, and Walktrap algorithm analysis). Over the past decade, this area enjoyed a favorable development trend (Annual Growth Rate: 34.98%) and global collaboration (International Co-authorship: 27.31%). Through unsupervised hierarchical clustering based on machine learning, the global research hotspots were divided into five dominant research clusters: Cluster 1 (Effects and Mechanisms of Phase Separation in Drug Delivery), Cluster 2 (Phase Separation in Gene Expression Regulation), Cluster 3 (Phase Separation in RNA-Protein Interaction), Cluster 4 (Reference Value of Phase Separation in Neurodegenerative Diseases for Cancer Research), and Cluster 5 (Roles and Mechanisms of Phase Separation). And further time-series analysis revealed that Cluster 5 is the emerging research cluster. In addition, results from the regression curve and hotspot burst analysis point in unison to super-enhancer (a=0.5515, R(2)=0.6586, p=0.0044) and stress granule (a=0.8000, R(2)=0.6000, p=0.0085) as the most potential star molecule in this field. More interestingly, the Random-Walk-Strategy-based Walktrap algorithm further revealed that \"phase separation, cancer, transcription, super-enhancer, epigenetics\"(Relevance Percentage[RP]=100%, Development Percentage[DP]=29.2%), \"stress granule, immunotherapy, tumor microenvironment, RNA binding protein\"(RP=79.2%, DP=33.3%) and \"nanoparticle, apoptosis\"(RP=70.8%, DP=25.0%) are closely associated with this field, but are still under-developed and worthy of further exploration. In conclusion, this study profiled the global scientific landscape, discovered a crucial emerging research cluster, identified several pivotal research molecules, and predicted several crucial but still under-developed directions that deserve further research, providing an important reference value for subsequent basic and clinical research of phase separation in cancer.",
+  "abstract_zh": "液-液相分离（liquid-liquid phase separation, LLPS）是一种复杂而微妙的现象，其形成与调控在癌症的发生、生长、进展、侵袭及转移中扮演着至关重要的角色。该领域蕴含着大量未被充分利用的非结构化数据，亟需进一步挖掘以获取潜在有价值的信息。因此，我们采用信息学方法（如层次聚类、回归统计、热点爆发及Walktrap算法分析）对过去十年该领域的全球科学知识进行了回顾性分析。过去十年间，该领域呈现出良好的发展趋势（年增长率：34.98%）及全球合作态势（国际合著率：27.31%）。通过基于机器学习的无监督层次聚类，全球研究热点被划分为五个主要研究集群：集群1（相分离在药物递送中的作用与机制）、集群2（相分离在基因表达调控中的作用）、集群3（相分离在RNA-蛋白质相互作用中的作用）、集群4（相分离在神经退行性疾病中对癌症研究的参考价值）及集群5（相分离的作用与机制）。进一步的时间序列分析揭示，集群5为新兴研究集群。此外，回归曲线与热点爆发分析结果一致指向超级增强子（a=0.5515, R(2)=0.6586, p=0.0044）和应激颗粒（a=0.8000, R(2)=0.6000, p=0.0085）为该领域最具潜力的明星分子。更有趣的是，基于随机游走策略的Walktrap算法进一步揭示，“相分离、癌症、转录、超级增强子、表观遗传学”（相关百分比[RP]=100%，发展百分比[DP]=29.2%）、“应激颗粒、免疫治疗、肿瘤微环境、RNA结合蛋白”（RP=79.2%，DP=33.3%）及“纳米颗粒、细胞凋亡”（RP=70.8%，DP=25.0%）与该领域紧密相关，但仍处于发展不足状态，值得进一步探索。总之，本研究描绘了全球科学图景，发现了关键的新兴研究集群，识别了若干核心研究分子，并预测了若干重要但尚待充分发展的研究方向，为相分离在癌症中的后续基础与临床研究提供了重要参考价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38627840/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38627840/",
+  "paper_page_path": "papers/pubmed/38627840/index.html"
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors apply unsupervised machine learning (autoencoder) combined with Markov state models to multi-microsecond molecular dynamics simulations of two phosphorylated and wild-type intrinsically disordered proteins (Ash1 and Sic1). They report that this approach reveals phosphorylation-induced changes in conformational ensembles, including altered hydrogen bonding patterns, loss of cation-pi interactions, increased salt bridges, enhanced long-range hydrophobic contacts, and improved local water structure, despite negligible changes in ensemble-averaged radius of gyration and structure factor.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or simulation parameters provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, convergence criteria, MSM construction details, validation metrics, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of machine learning to extract subtle conformational differences in phosphorylated IDPs from MD simulations. The conceptual framing, that ensemble-averaged properties can mask state-specific changes, is sound and relevant. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the MSM construction, the statistical significance of the reported differences, or the biological relevance of the identified states. The claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying phosphorylation effects on intrinsically disordered proteins, computational biophysicists interested in machine learning applications to conformational ensembles, and experimentalists seeking hypotheses about phosphorylation-dependent changes in IDP behavior that are invisible to ensemble-averaged measurements.
+- **Major strengths** The study addresses a genuine gap, namely that ensemble-averaged experimental observables can miss functionally relevant conformational changes. The combination of autoencoder latent-space dimensionality reduction with MSM construction is a modern and appropriate methodological choice. The focus on two biologically relevant yeast proteins (Ash1 and Sic1) with known phosphorylation sites adds potential physiological significance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MSM construction using autoencoder latent-space dimensions from multi-microsecond MD trajectories reveals key differences between phosphorylated and wild-type IDPs.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no information on the number of states in the MSM, the implied timescales, the validation of the MSM (e.g., Chapman-Kolmogorov tests, state population convergence), or the statistical uncertainty in state populations and transition probabilities. Without these details, the reliability of the state decomposition and the robustness of the reported differences cannot be assessed.
+  - **Why it matters** MSM-based conclusions are only as valid as the model's ability to capture the underlying conformational dynamics. Poorly validated MSMs can produce spurious states and misleading transition patterns, which would invalidate all downstream comparative analyses between phosphorylated and wild-type systems.
+  - **Resolution test** Provide MSM validation metrics, including implied timescale plots, Chapman-Kolmogorov tests, state population uncertainties, and a demonstration that the number of states is sufficient to capture the relevant conformational heterogeneity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that phosphorylation increases the number of hydrogen bonds, switches hydrogen bonding patterns, introduces salt bridges, and causes loss of cation-pi interactions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports qualitative differences in hydrogen bonding, salt bridges, and cation-pi interactions without any statistical measures. It is unclear whether these differences are statistically significant across independent simulation replicates, whether they are consistent across all states in the MSM, or whether they represent small but reproducible effects versus large but noisy fluctuations.
+  - **Why it matters** IDP simulations are prone to sampling limitations, and differences in interaction patterns can arise from insufficient sampling rather than genuine phosphorylation-induced effects. Without error bars, confidence intervals, or replicate analyses, the reported differences cannot be distinguished from noise.
+  - **Resolution test** Report statistical significance tests for each interaction difference, include error estimates from block averaging or replicate simulations, and specify the fraction of states or frames in which each interaction pattern is observed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The authors claim that multi-microsecond long MD simulation trajectories were used to train the autoencoder and construct the MSM.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the force field, water model, temperature, salt concentration, simulation software, number of independent trajectories, total simulation time per system, or the criteria used to assess convergence. These parameters are essential for reproducing the simulations and for evaluating whether the sampling is sufficient for the conclusions drawn.
+  - **Why it matters** MD results for IDPs are highly sensitive to force field choice and sampling length. Without this information, the reader cannot judge whether the simulation setup is appropriate for the systems studied or whether the conclusions are force-field dependent.
+  - **Resolution test** Provide complete simulation parameters in the methods section, including force field, water model, ensemble conditions, trajectory lengths, number of replicates, and convergence assessments (e.g., block analysis of Rg, autocorrelation times).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "judicious dissection of conformational ensemble" is vague and does not convey the specific methodological contribution beyond the stated combination of autoencoder and MSM.
+  - **Required correction** Replace with a more precise description of the analytical workflow, such as "unsupervised clustering of autoencoder latent-space representations followed by MSM construction."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Biological interpretation
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the observations are "important" for understanding phosphorylation of IDPs in biological functions, but does not connect the specific findings (e.g., loss of cation-pi, enhanced hydrophobic contacts) to any proposed functional consequence for Ash1 or Sic1.
+  - **Required correction** Add one or two sentences linking the observed conformational changes to potential functional implications, such as altered binding affinity, changes in recognition motifs, or effects on downstream signaling.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison with experiment
+  - **Affected element** Abstract claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions that experimental measurements show negligible changes in Rg and structure factor, but does not state whether the simulation-derived ensemble-averaged Rg values reproduce the experimental values, which would strengthen confidence in the simulation models.
+  - **Required correction** Report the simulated ensemble-averaged Rg values for both phosphorylated and wild-type systems and compare them to the experimental values cited.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MSM validation), R1-M2 (statistical significance), R1-M3 (simulation reproducibility)
+- **Assessment against Nature-style criteria** Originality is moderate, as the combination of autoencoders and MSMs for IDP analysis is not entirely new, though its application to phosphorylation-induced subtle changes is a reasonable extension. Scientific importance is potentially significant for the IDP and phosphorylation communities, but the abstract does not establish a clear biological or mechanistic advance beyond methodological demonstration. Interdisciplinary readership is limited, as the work is primarily of interest to computational biophysicists and IDP specialists rather than a broad scientific audience. Technical soundness cannot be evaluated from the abstract alone, and the missing validation and statistical details are critical. Readability for nonspecialists is acceptable, though the abstract assumes familiarity with MSMs, autoencoders, and IDP biophysics.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially valuable approach, but the absence of methodological details, validation metrics, and statistical analyses prevents assessment of the core claims. A revised manuscript with full methods, MSM validation, and statistical rigor would be needed to evaluate the case.
+
+## Risk / unsupported claims
+- The claim that phosphorylation "switches the pattern of hydrogen bonding between the backbone and side chain atoms" is unsupported without specific interaction data and statistical tests.
+- The claim that phosphorylation "improved the local structure of water as evident from the geometric order parameters" is unsupported without definition of the order parameters, their numerical values, and error estimates.
+- The claim that the machine-learned states provide insights "difficult to determine experimentally" is an assertion without comparative evidence or a clear experimental benchmark.
+- The overall conclusion that the approach "can highlight key differences and similarities" is plausible but not verifiable from the abstract alone, as no specific state populations, transition probabilities, or structural metrics are reported.

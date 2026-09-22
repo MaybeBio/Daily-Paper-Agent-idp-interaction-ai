@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41399527",
+  "title": "Alternative Splicing: Molecular Mechanisms, Biological Functions, Diseases, and Potential Therapeutic Targets.",
+  "authors": "Zhu, Zhi-Min; Wu, Xiao-Mei; Hu, Yan; Bian, Xiao-Lan; Wang, Ya-Qin; Zhu, Qiong-Ni",
+  "journal": "MedComm",
+  "published_date": "2025-12-16",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 5,
+  "one_liner_zh": "综述可变剪接的分子机制，涵盖剪接体、RNA结构与LLPS凝聚体（如SRSF9液滴）对剪接因子空间区室化的调控，并讨论疾病与治疗策略；虽涉及相分离凝聚体中的蛋白互作背景，但为综述且未聚焦IDR介导的PPI机制建模，AI/物理模拟方法仅提及未深入。",
+  "abstract": "Alternative splicing (AS) is an important posttranscriptional process that increases proteomic complexity of eukaryotes. Through the selective inclusion or exclusion of exons, AS fine-tunes gene expression and underpins diverse biological processes. Recent research revealed that AS is controlled not only by spliceosomal components but also by dynamic RNA structures and the spatial compartmentalization of splicing factors within biomolecular condensates formed via liquid-liquid phase separation (LLPS). Nevertheless, a unified framework connecting these mechanistic insights with emerging therapeutic strategies remains lacking. This review systematically integrates current knowledge of AS regulation, encompassing the architecture and dynamics of the core spliceosome, structural RNA elements such as G-quadruplexes, and LLPS-driven condensates exemplified by oncogenic SRSF9 droplets. It further delineates how AS influences cell development, immune modulation, and stress adaptation, while its dysregulation contributes to human pathologies, including SF3B1 mutant cancers, TDP-43-associated neurodegeneration, and cardiovascular disease. We critically appraise therapeutic innovations targeting aberrant splicing, including small molecule spliceosome modulators, antisense oligonucleotides like nusinersen, and CRISPR/dCas13-based RNA editing. By integrating molecular mechanisms with translational advances, this review provides a conceptual framework to accelerate RNA-targeted precision medicine in the era of spatial multiomics and artificial intelligence.",
+  "abstract_zh": "选择性剪接（alternative splicing, AS）是增加真核生物蛋白质组复杂性的重要转录后过程。通过外显子的选择性包含或排除，AS精细调控基因表达，并支撑多种生物学过程。近期研究表明，AS不仅受剪接体组分控制，还受动态RNA结构以及通过液-液相分离（liquid-liquid phase separation, LLPS）形成的生物分子凝聚体中剪接因子的空间区隔化调控。然而，将这些机制性见解与新兴治疗策略相连接的统一框架仍缺乏。本综述系统整合了AS调控的当前知识，涵盖核心剪接体的结构与动态、G-四链体等结构性RNA元件，以及以致癌性SRSF9液滴为代表的LLPS驱动凝聚体。进一步阐述了AS如何影响细胞发育、免疫调节和应激适应，而其失调则导致人类病理，包括SF3B1突变型癌症、TDP-43相关神经退行性疾病和心血管疾病。我们批判性评估了靶向异常剪接的治疗创新，包括小分子剪接体调节剂、反义寡核苷酸（如nusinersen）以及基于CRISPR/dCas13的RNA编辑。通过将分子机制与转化进展相结合，本综述提供了一个概念框架，以加速空间多组学和人工智能时代下RNA靶向精准医学的发展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41399527/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41399527/",
+  "paper_page_path": "papers/pubmed/41399527/index.html"
+}

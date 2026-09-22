@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35409222",
+  "title": "Dimerization Activity of a Disordered N-Terminal Domain from Drosophila CLAMP Protein.",
+  "authors": "Tikhonova, Evgeniya; Mariasina, Sofia; Arkova, Olga; Maksimenko, Oksana; Georgiev, Pavel; Bonchuk, Artem",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2022-04-13",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究果蝇CLAMP蛋白N端无序结构域介导的同源二聚化，虽涉及IDR和PPI，但方法以实验为主，缺乏AI或物理模拟建模，机制深度有限。",
+  "abstract": "In Drosophila melanogaster, CLAMP is an essential zinc-finger transcription factor that is involved in chromosome architecture and functions as an adaptor for the dosage compensation complex. Most of the known Drosophila architectural proteins have structural N-terminal homodimerization domains that facilitate distance interactions. Because CLAMP performs architectural functions, we tested its N-terminal region for the presence of a homodimerization domain. We used a yeast two-hybrid assay and biochemical studies to demonstrate that the adjacent N-terminal region between 46 and 86 amino acids is capable of forming homodimers. This region is conserved in CLAMP orthologs from most insects, except Hymenopterans. Biophysical techniques, including nuclear magnetic resonance (NMR) and small-angle X-ray scattering (SAXS), suggested that this domain lacks secondary structure and has features of intrinsically disordered regions despite the fact that the protein structure prediction algorithms suggested the presence of beta-sheets. The dimerization domain is essential for CLAMP functions in vivo because its deletion results in lethality. Thus, CLAMP is the second architectural protein after CTCF that contains an unstructured N-terminal dimerization domain.",
+  "abstract_zh": "在果蝇（Drosophila melanogaster）中，CLAMP是一种必需的锌指转录因子，参与染色体结构构建，并作为剂量补偿复合物的适配器发挥作用。已知的大多数果蝇结构蛋白具有N端同源二聚化结构域，这些结构域促进远距离相互作用。由于CLAMP执行结构功能，我们检测了其N端区域是否存在同源二聚化结构域。我们利用酵母双杂交实验和生化研究证明，位于第46至86个氨基酸之间的相邻N端区域能够形成同源二聚体。该区域在大多数昆虫（膜翅目除外）的CLAMP直系同源物中保守。生物物理技术，包括核磁共振（NMR）和小角X射线散射（SAXS），表明该结构域缺乏二级结构，并具有内在无序区域的特征，尽管蛋白质结构预测算法提示存在β-折叠。该二聚化结构域对CLAMP在体内的功能至关重要，因为其缺失会导致致死性。因此，CLAMP是继CTCF之后第二个含有非结构化N端二聚化结构域的结构蛋白。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35409222/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35409222/",
+  "paper_page_path": "papers/pubmed/35409222/index.html"
+}

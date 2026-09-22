@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42448413",
+  "title": "Energetic landscapes and fuzzy complexes: Computational targeting of viral intrinsically disordered proteins.",
+  "authors": "Viknesh, Kumar; Vijayalakshmi, Periyasamy; Alex, Asha Monica; Muthumani, Lakshmi Narayanan; Muthupandian, Saravanan; Desai, Deepali; Ramanathan, Solaiyappan; Likson, Antony; Selvaraj, Chandrabose",
+  "journal": "Advances in protein chemistry and structural biology",
+  "published_date": "2026-07-15",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 8,
+  "one_liner_zh": "综述病毒无序蛋白(IDP)与宿主因子互作的模糊复合物及能量景观，聚焦AI/集成对接等计算靶向策略，虽为综述但对象、互作、方法三轴齐备且机制建模深度突出。",
+  "abstract": "The increased recognition of intrinsically disordered proteins (IDPs) as critical mediators in viral infections has shifted attention toward fuzzy drug targets, challenging the conventional structure-based paradigms of drug discovery due to their inherent conformational flexibility. The binding of viral IDPs and IDRs to host factors occurs in dynamic, multivalent, and context-dependent interactions and constitute flexible complexes, which form the basis of pathogenicity and immune evasion. In this review, the disordered proteins of viruses are considered with a combination of molecular, computational, and translational insights to assess the next-generation antiviral targets. In this, we have discuss about the energetic landscapes that control the disorder, functional disorder order transitions and the fuzzy interfaces as centers of the networks of virus-host interactions. Special focus is kept on the new lines of computational and AI-directed technologies such as ensemble-based docking, machine-learning computational models of IDP ligand recognition, and multi-omics-driven target prioritization. The experimental approaches that are modified to characterize disordered systems, including NMR spectroscopy and hybrid structural biology, are also reviewed. The translational applicability of the targeting of viral fuzziness is highlighted by case studies of HIV-1, influenza, SARS-CoV-2, and emerging viral pathogens. We also provide directions about the future involving adaptive pharmacophores, customized antiviral approaches, and AI-driven ensemble targeting making disordered viral proteins a paradigm shift in antiviral drug discovery.",
+  "abstract_zh": "对固有无序蛋白（IDPs）作为病毒感染关键介导因子的日益认识，已将注意力转向模糊药物靶点，因其固有的构象灵活性，挑战了传统的基于结构的药物发现范式。病毒IDPs和IDRs与宿主因子的结合发生在动态、多价且依赖上下文的相互作用中，并构成柔性复合物，这些构成了致病性和免疫逃逸的基础。在本综述中，我们结合分子、计算和转化见解，考虑病毒的无序蛋白，以评估下一代抗病毒靶点。在此，我们讨论了控制无序的能量景观、功能性无序-有序转变，以及作为病毒-宿主相互作用网络中心的模糊界面。特别关注了计算和AI导向技术的新方向，如基于集合的对接、IDP配体识别的机器学习计算模型，以及多组学驱动的靶点优先级排序。还综述了为表征无序系统而改进的实验方法，包括核磁共振波谱和混合结构生物学。通过HIV-1、流感、SARS-CoV-2和新出现的病毒病原体的案例研究，强调了靶向病毒模糊性的转化应用性。我们还提供了未来方向，涉及适应性药效团、定制抗病毒策略和AI驱动的集合靶向，使无序病毒蛋白成为抗病毒药物发现的范式转变。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42448413/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42448413/",
+  "paper_page_path": "papers/pubmed/42448413/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33934416",
+  "title": "Improved coarse-grained model for studying sequence dependent phase separation of disordered proteins.",
+  "authors": "Regy, Roshan Mammen; Thompson, Jacob; Kim, Young C; Mittal, Jeetain",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2021-05-03",
+  "window": {
+    "start": "2021-05-03",
+    "end": "2021-05-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该文改进粗粒化模型(HPS-Urry)以模拟无序蛋白序列依赖的液-液相分离，聚焦IDP对象与相分离互作机制，方法为物理模拟，虽未直接研究特定PPI但为IDP凝聚体互作机制建模提供关键工具。",
+  "abstract": "We present improvements to the hydropathy scale (HPS) coarse-grained (CG) model for simulating sequence-specific behavior of intrinsically disordered proteins (IDPs), including their liquid-liquid phase separation (LLPS). The previous model based on an atomistic hydropathy scale by Kapcha and Rossky (KR scale) is not able to capture some well-known LLPS trends such as reduced phase separation propensity upon mutations (R-to-K and Y-to-F). Here, we propose to use the Urry hydropathy scale instead, which was derived from the inverse temperature transitions in a model polypeptide with guest residues X. We introduce two free parameters to shift (Delta) and scale (micro) the overall interaction strengths for the new model (HPS-Urry) and use the experimental radius of gyration for a diverse group of IDPs to find their optimal values. Interestingly, many possible (Delta, micro) combinations can be used for typical IDPs, but the phase behavior of a low-complexity (LC) sequence FUS is only well described by one of these models, which highlights the need for a careful validation strategy based on multiple proteins. The CG HPS-Urry model should enable accurate simulations of protein LLPS and provide a microscopically detailed view of molecular interactions.",
+  "abstract_zh": "我们提出了对水合尺度（HPS）粗粒化（CG）模型的改进，用于模拟 intrinsically disordered proteins (IDPs) 的序列特异性行为，包括其液-液相分离 (liquid-liquid phase separation, LLPS)。先前基于Kapcha和Rossky（KR尺度）的原子级水合尺度的模型无法捕捉一些众所周知的LLPS趋势，如突变（R-to-K和Y-to-F）导致的相分离倾向降低。在此，我们建议改用Urry水合尺度，该尺度源自模型多肽中客体残基X的逆温度转变。我们引入两个自由参数来移动（Delta）和缩放（micro）新模型（HPS-Urry）的整体相互作用强度，并利用一组多样化的IDPs的实验回转半径来确定其最优值。有趣的是，许多可能的（Delta, micro）组合可用于典型IDPs，但低复杂度（LC）序列FUS的相行为仅由其中一个模型良好描述，这强调了基于多种蛋白质的仔细验证策略的必要性。CG HPS-Urry模型应能实现蛋白质LLPS的精确模拟，并提供分子相互作用的微观详细视图。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33934416/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33934416/",
+  "paper_page_path": "papers/pubmed/33934416/index.html"
+}

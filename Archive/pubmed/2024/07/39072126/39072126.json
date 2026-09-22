@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "39072126",
+    "doi": "10.1021/acsomega.4c04161",
+    "title": "IDRWalker: A Random Walk Based Tool for Generating Intrinsically Disordered Regions in Large Protein Complexes."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs), which may be functionally important, are common in proteins. However, the structures of IDRs are often missing due to their highly dynamic nature. In the study of IDRs, integrative modeling combining computational simulations and experimental data is a common approach, for which initial structures of the IDRs need to be built. However, applying this method to large protein complexes is challenging because existing structure generation tools are sometimes unsuitable for IDRs in large systems. To facilitate convenient and rapid structure generation of IDRs in large protein complexes, we developed a computational tool named IDRWalker based on self-avoiding random walks. Three protein complexes were used to illustrate the efficiency of the tool, and it was found that IDRs in more than 800 chains of the nuclear pore complex could be generated in minutes. These structures of large protein complexes with added IDRs can be further used to run computational simulations for integrative modeling.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Guanglin",
+        "Zhang, Zhiyong"
+      ],
+      "short_names": [
+        "Chen G",
+        "Zhang Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8202-9672"
+      ],
+      "affiliations": [
+        "Department of Physics, University of Science and Technology of China, Hefei, Anhui 230026, PR China.",
+        "Department of Physics, University of Science and Technology of China, Hefei, Anhui 230026, PR China.",
+        "MOE Key Laboratory for Cellular Dynamics, University of Science and Technology of China, Hefei, Anhui 230026, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Guanglin",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Science and Technology of China, Hefei, Anhui 230026, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhiyong",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0001-8202-9672"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Science and Technology of China, Hefei, Anhui 230026, PR China.",
+          "MOE Key Laboratory for Cellular Dynamics, University of Science and Technology of China, Hefei, Anhui 230026, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS omega"
+    ],
+    "journal_abbrev": [
+      "ACS Omega"
+    ],
+    "pub_date": "2024 Jul 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/29 06:42",
+    "fetched_at": "2026-09-21 09:09:32"
+  },
+  "links": {
+    "cites": [
+      "40897811",
+      "40330072"
+    ],
+    "refs": [
+      "37192614",
+      "36224222",
+      "35679397",
+      "35228716",
+      "34845384",
+      "34581758",
+      "34418423",
+      "34282049",
+      "34265844",
+      "33327924",
+      "31783069",
+      "31714766",
+      "31150619",
+      "30883195",
+      "30840442",
+      "30657889",
+      "29788355",
+      "27939973",
+      "27687475",
+      "27322406",
+      "26410586",
+      "26079926",
+      "25544475",
+      "25361973",
+      "22272186",
+      "21905107",
+      "19258456",
+      "17569554",
+      "15738986",
+      "13990617"
+    ],
+    "similar": [
+      "39072126",
+      "39032884",
+      "39253485",
+      "39279844",
+      "31303975",
+      "36008992",
+      "38275091",
+      "23142703",
+      "36833360",
+      "31207240",
+      "31441158",
+      "36133101",
+      "34390736",
+      "32824743",
+      "27179590",
+      "33267376",
+      "33779503",
+      "29763584",
+      "33866372",
+      "33567297",
+      "38297118",
+      "31908009",
+      "27881680",
+      "31756456",
+      "33243935",
+      "34825861",
+      "33248138",
+      "35275927",
+      "36291695",
+      "31175370",
+      "36851914",
+      "21866296",
+      "37546943",
+      "38297184",
+      "21647374",
+      "36908253",
+      "37633550",
+      "20522251",
+      "33076213",
+      "26149687",
+      "36959451",
+      "36529689",
+      "34418423",
+      "33036302",
+      "31797596",
+      "31709918",
+      "35139468",
+      "31307006",
+      "25391399",
+      "33191750",
+      "26680990",
+      "19594884",
+      "30518031",
+      "38588835",
+      "38662765",
+      "32696395",
+      "31807700",
+      "31797595",
+      "35883444",
+      "35098694",
+      "23153654",
+      "24115198",
+      "33406091",
+      "24027208",
+      "35094056",
+      "34285781",
+      "33806614",
+      "30135358",
+      "38284524",
+      "31804089",
+      "31521235",
+      "29066345",
+      "36648282",
+      "25752799",
+      "26661739",
+      "33087759",
+      "30177944",
+      "36528065",
+      "28004021",
+      "37634152",
+      "34864847",
+      "23912807",
+      "30541127",
+      "36987865",
+      "34179096",
+      "35882686",
+      "29151218",
+      "33810353",
+      "37875529",
+      "35898309",
+      "30878482",
+      "37329857",
+      "38220424",
+      "34303077",
+      "34527192",
+      "26699268"
+    ],
+    "review": [
+      "39072126",
+      "31303975",
+      "36833360",
+      "31441158",
+      "36133101",
+      "34390736",
+      "33567297",
+      "33243935",
+      "33248138",
+      "36851914",
+      "36959451",
+      "34418423",
+      "31709918",
+      "35139468",
+      "38588835",
+      "35098694",
+      "24027208",
+      "34285781",
+      "31521235",
+      "36648282",
+      "25752799",
+      "35882686",
+      "37329857",
+      "38220424"
+    ],
+    "pmc": [
+      "11270708"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39072126/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acsodf/article-lookup/doi/10.1021/acsomega.4c04161",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

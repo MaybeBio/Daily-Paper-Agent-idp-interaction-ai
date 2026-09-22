@@ -1,0 +1,208 @@
+{
+  "identity": {
+    "pmid": "42359590",
+    "doi": "10.1039/d6cp00960c",
+    "title": "Solvent identity reshapes the conformational ensemble of a group-3 LEA model peptide."
+  },
+  "content": {
+    "abstract": "Group-3 late embryogenesis abundant (LEA) proteins are intrinsically disordered proteins (IDPs) that protect cellular components during desiccation. Their transition from disordered to ordered conformations is driven by reduced water availability. Here, we characterize and compare the conformational ensembles of the P1LEA-22 model peptide in TFE-water and glycerol-water mixtures that mimic distinct dehydration environments. Using Gaussian accelerated molecular dynamics (GaMD), we sampled the structural landscape of P1LEA-22 at 20%, 40%, 60%, and 80% cosolvent concentrations. The simulations provide an atomistic description of how solvent composition and water availability reshape peptide folding. We show that the conformational ensemble depends strongly on solvent identity and concentration. TFE acts as a helix-inducing cosolvent; at 80%, it stabilizes a compact helix-turn-helix motif through enhanced intrahelical electrostatic interactions, driven by hydrophobic shielding from TFE fluorine atoms. In contrast, glycerol promotes compaction through steric restriction and competitive solvation, leading to structurally heterogeneous ensembles that include beta-sheet-like conformations and centrally localized helices. Although both solvents mimic dehydration, they modulate the peptide's energy landscape through distinct mechanisms: TFE couples hydrophobic association and electrostatic reinforcement to cooperative helix stabilization, whereas glycerol drives global compaction via excluded volume and hydrogen-bond redistribution. These findings provide molecular-level insight into how LEA proteins adapt structurally under water-deprived conditions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Solvents/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Peptides/chemistry",
+      "Water/chemistry",
+      "Glycerol/chemistry",
+      "Protein Conformation",
+      "Hydrophobic and Hydrophilic Interactions",
+      "*Intrinsically Disordered Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Perez-Trejo, Itzel",
+        "Dominguez, Laura"
+      ],
+      "short_names": [
+        "Perez-Trejo I",
+        "Dominguez L"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-1424-5673",
+        "ORCID: 0000-0003-3666-2789"
+      ],
+      "affiliations": [
+        "Departamento de Fisicoquimica, Facultad de Quimica UNAM, CDMX, Mexico. lauradd@unam.mx.",
+        "Departamento de Fisicoquimica, Facultad de Quimica UNAM, CDMX, Mexico. lauradd@unam.mx."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pérez-Trejo, Itzel",
+        "short_name": "Pérez-Trejo I",
+        "identifiers": [
+          "0009-0007-1424-5673"
+        ],
+        "affiliations": [
+          "Departamento de Fisicoquímica, Facultad de Química UNAM, CDMX, Mexico. lauradd@unam.mx."
+        ]
+      },
+      {
+        "full_name": "Dominguez, Laura",
+        "short_name": "Dominguez L",
+        "identifiers": [
+          "0000-0003-3666-2789"
+        ],
+        "affiliations": [
+          "Departamento de Fisicoquímica, Facultad de Química UNAM, CDMX, Mexico. lauradd@unam.mx."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2026 Jul 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/26 13:10",
+    "fetched_at": "2026-09-18 04:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42359590",
+      "32859072",
+      "32592801",
+      "30865832",
+      "28650260",
+      "40351163",
+      "11369854",
+      "19817484",
+      "42171195",
+      "27169334",
+      "30811210",
+      "37906368",
+      "10903873",
+      "32184088",
+      "28109185",
+      "33030907",
+      "39983022",
+      "28603985",
+      "25773700",
+      "17881585",
+      "34680060",
+      "33581430",
+      "20938982",
+      "25059842",
+      "16364361",
+      "21728315",
+      "30542771",
+      "23832653",
+      "25084962",
+      "26052838",
+      "24037535",
+      "30981229",
+      "40853068",
+      "40909648",
+      "39561991",
+      "30767740",
+      "33481971",
+      "31548393",
+      "12196631",
+      "41666117",
+      "30842512",
+      "30916962",
+      "34509724",
+      "33647452",
+      "38659213",
+      "29548979",
+      "34152264",
+      "27006402",
+      "34576338",
+      "21761818",
+      "21082745",
+      "26156460",
+      "21056574",
+      "16767771",
+      "31470695",
+      "33076213",
+      "26786280",
+      "35129612",
+      "30840442",
+      "36542916",
+      "21289072",
+      "31984172",
+      "12829502",
+      "40827676",
+      "40569578",
+      "35968960",
+      "22066538",
+      "22181201",
+      "32579908",
+      "16625657",
+      "18481860",
+      "12596268",
+      "33382616",
+      "31999925",
+      "33530506",
+      "34680048",
+      "30731089",
+      "27936491",
+      "31259246",
+      "22524526",
+      "11933094",
+      "24086265",
+      "34546059",
+      "27878168",
+      "17526581",
+      "28092832",
+      "23912807",
+      "28197405",
+      "25207671",
+      "40029731",
+      "35543707",
+      "34986640",
+      "42129207",
+      "32770883",
+      "7893740",
+      "33574233",
+      "25375525",
+      "23811057",
+      "7563056",
+      "34817184"
+    ],
+    "review": [
+      "42359590",
+      "30767740",
+      "35129612",
+      "30840442",
+      "33530506"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d6cp00960c",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

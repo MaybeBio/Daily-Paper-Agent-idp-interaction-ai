@@ -1,0 +1,179 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.27.661911",
+  "title": "Variant characterization in the intrinsically disordered human proteome",
+  "doi": "10.1101/2025.06.27.661911",
+  "abstract": "Variant effect prediction remains a key challenge to resolve in precision medicine. Sophisticated computational models that exploit sequence conservation and structure are increasingly successful in the characterization of missense variants in folded protein regions. However, 37% of all annotated missense variants reside in 25% of the proteome that is intrinsically disordered, lacking positional sequence conservation and stable structures. To significantly advance variant effect prediction in disordered protein regions, we combined sequence pattern searches with AlphaFold and experiments to structurally annotate 1,300 protein-protein interactions with interfaces mediated by short disordered motifs binding to folded domains in partner proteins. These interfaces were selected based on their overlap with uncertain missense variants enabling reliable prediction of deleterious effects of 1,187 uncertain variants in disordered protein regions. Extensive experimental efforts validate predicted interfaces and deleterious variant effects that were predicted as benign by AlphaMissense. This study demonstrates how critical structural information on protein interaction interfaces is for variant effect prediction especially in disordered protein regions and provides a clear avenue towards its system-wide implementation.",
+  "authors": [
+    "Hubrich D",
+    "Alvarado Valverde J",
+    "Lee CY",
+    "Djokic M",
+    "Welzel M",
+    "Hintz K",
+    "Luck K"
+  ],
+  "published_date": "2025-06-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.27.661911",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.27.661911.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1044670",
+    "raw_record": {
+      "id": "PPR1044670",
+      "source": "PPR",
+      "doi": "10.1101/2025.06.27.661911",
+      "title": "Variant characterization in the intrinsically disordered human proteome",
+      "authorString": "Hubrich D, Alvarado Valverde J, Lee CY, Djokic M, Welzel M, Hintz K, Luck K.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hubrich D",
+            "lastName": "Hubrich",
+            "firstName": "Dalmira",
+            "initials": "D"
+          },
+          {
+            "fullName": "Alvarado Valverde J",
+            "lastName": "Alvarado Valverde",
+            "firstName": "Jesus",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0752-1151"
+            }
+          },
+          {
+            "fullName": "Lee CY",
+            "lastName": "Lee",
+            "firstName": "Chop Yan",
+            "initials": "CY"
+          },
+          {
+            "fullName": "Djokic M",
+            "lastName": "Djokic",
+            "firstName": "Milena",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0003-2988-0726"
+            }
+          },
+          {
+            "fullName": "Welzel M",
+            "lastName": "Welzel",
+            "firstName": "Mareen",
+            "initials": "M"
+          },
+          {
+            "fullName": "Hintz K",
+            "lastName": "Hintz",
+            "firstName": "Kristina",
+            "initials": "K"
+          },
+          {
+            "fullName": "Luck K",
+            "lastName": "Luck",
+            "firstName": "Katja",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2336-9225"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0752-1151"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2336-9225"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-2988-0726"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Variant effect prediction remains a key challenge to resolve in precision medicine. Sophisticated computational models that exploit sequence conservation and structure are increasingly successful in the characterization of missense variants in folded protein regions. However, 37% of all annotated missense variants reside in 25% of the proteome that is intrinsically disordered, lacking positional sequence conservation and stable structures. To significantly advance variant effect prediction in disordered protein regions, we combined sequence pattern searches with AlphaFold and experiments to structurally annotate 1,300 protein-protein interactions with interfaces mediated by short disordered motifs binding to folded domains in partner proteins. These interfaces were selected based on their overlap with uncertain missense variants enabling reliable prediction of deleterious effects of 1,187 uncertain variants in disordered protein regions. Extensive experimental efforts validate predicted interfaces and deleterious variant effects that were predicted as benign by AlphaMissense. This study demonstrates how critical structural information on protein interaction interfaces is for variant effect prediction especially in disordered protein regions and provides a clear avenue towards its system-wide implementation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/06/30/2025.06.27.661911.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.06.27.661911"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42538434",
+            "reference": "Nature structural & molecular biology. \n    2026 Jul;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-07-03",
+      "firstPublicationDate": "2025-06-30",
+      "firstIndexDate": "2025-07-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

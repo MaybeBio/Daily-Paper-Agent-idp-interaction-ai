@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "38874407",
+    "doi": "10.1128/spectrum.03816-23",
+    "title": "Single nucleotide variation catalog from clinical isolates mapped on tertiary and quaternary structures of ESX-1-related proteins reveals critical regions as putative Mtb therapeutic targets."
+  },
+  "content": {
+    "abstract": "Proteins encoded by the ESX-1 genes of interest are essential for full virulence in all Mycobacterium tuberculosis complex (Mtbc) lineages, the pathogens causing the highest mortality worldwide. Identifying critical regions in these ESX-1-related proteins could provide preventive or therapeutic targets for Mtb infection, the game changer needed for tuberculosis control. We analyzed a compendium of whole genome sequences of clinical Mtb isolates from all lineages from >32,000 patients and identified single nucleotide polymorphisms. When mutations corresponding to all non-synonymous single nucleotide polymorphisms were mapped on structural models of the ESX-1 proteins, fully conserved regions emerged. Some could be assigned to known quaternary structures, whereas others could be predicted to be involved in yet-to-be-discovered interactions. Some mutants had clonally expanded (found in >1% of the isolates); these mutants were mostly located at the surface of globular domains, remote from known intra- and inter-molecular protein-protein interactions. Fully conserved intrinsically disordered regions of proteins were found, suggesting that these regions are crucial for the pathogenicity of the Mtbc. Altogether, our findings highlight fully conserved regions of proteins as attractive vaccine antigens and drug targets to control Mtb virulence. Extending this approach to the whole Mtb genome as well as other microorganisms will enhance vaccine development for various pathogens. IMPORTANCE: We mapped all non-synonymous single nucleotide polymorphisms onto each of the experimental and predicted ESX-1 proteins' structural models and inspected their placement. Varying sizes of conserved regions were found. Next, we analyzed predicted intrinsically disordered regions within our set of proteins, finding two putative long stretches that are fully conserved, and discussed their potential essential role in immunological recognition. Combined, our findings highlight new targets for interfering with Mycobacterium tuberculosis complex virulence.",
+    "keywords": [
+      "AlphaFold",
+      "Mycobacterium tuberculosis",
+      "SNV",
+      "protein structure-function",
+      "virulence factors"
+    ],
+    "mesh_terms": [
+      "*Polymorphism, Single Nucleotide",
+      "*Bacterial Proteins/genetics/metabolism/chemistry",
+      "*Mycobacterium tuberculosis/genetics/metabolism",
+      "Humans",
+      "*Tuberculosis/microbiology",
+      "*Antigens, Bacterial/genetics/metabolism/chemistry",
+      "Virulence/genetics",
+      "Mutation",
+      "Genome, Bacterial/genetics",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tzfadia, Oren",
+        "Gijsbers, Abril",
+        "Vujkovic, Alexandra",
+        "Snobre, Jihad",
+        "Vargas, Roger",
+        "Dewaele, Klaas",
+        "Meehan, Conor J",
+        "Farhat, Maha",
+        "Hakke, Sneha",
+        "Peters, Peter J",
+        "de Jong, Bouke C",
+        "Siroy, Axel",
+        "Ravelli, Raimond B G"
+      ],
+      "short_names": [
+        "Tzfadia O",
+        "Gijsbers A",
+        "Vujkovic A",
+        "Snobre J",
+        "Vargas R",
+        "Dewaele K",
+        "Meehan CJ",
+        "Farhat M",
+        "Hakke S",
+        "Peters PJ",
+        "de Jong BC",
+        "Siroy A",
+        "Ravelli RBG"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7096-8063",
+        "ORCID: 0000-0002-7269-2494",
+        "ORCID: 0000-0002-1017-4675",
+        "ORCID: 0000-0002-8013-3596"
+      ],
+      "affiliations": [
+        "Mycobacteriology Unit, Institute of Tropical Medicine, Antwerp, Belgium.",
+        "Departamento de Bioquimica, Facultad de Medicina, Universidad Nacional Autonoma de Mexico, Mexico City, Mexico.",
+        "Clinical Virology Unit, Institute of Tropical Medicine, Antwerp, Belgium.",
+        "ADReM Data Lab, University of Antwerp, Antwerp, Belgium.",
+        "Mycobacteriology Unit, Institute of Tropical Medicine, Antwerp, Belgium.",
+        "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts, USA.",
+        "Mycobacteriology Unit, Institute of Tropical Medicine, Antwerp, Belgium.",
+        "Mycobacteriology Unit, Institute of Tropical Medicine, Antwerp, Belgium.",
+        "Department of Biosciences, Nottingham Trent University, Nottingham, United Kingdom.",
+        "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts, USA.",
+        "Division of Nanoscopy, Maastricht Multimodal Imaging Institute (M4i), Maastricht University, Maastricht, the Netherlands.",
+        "Division of Nanoscopy, Maastricht Multimodal Imaging Institute (M4i), Maastricht University, Maastricht, the Netherlands.",
+        "Mycobacteriology Unit, Institute of Tropical Medicine, Antwerp, Belgium.",
+        "Unite de soutien a l'Institut Europeen de Chimie et Biologie (IECB), CNRS, INSERM, IECB, US1, Universite de Bordeaux, Pessac, France.",
+        "Division of Nanoscopy, Maastricht Multimodal Imaging Institute (M4i), Maastricht University, Maastricht, the Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tzfadia, Oren",
+        "short_name": "Tzfadia O",
+        "identifiers": [
+          "0000-0002-7096-8063"
+        ],
+        "affiliations": [
+          "Mycobacteriology Unit, Institute of Tropical Medicine, Antwerp, Belgium."
+        ]
+      },
+      {
+        "full_name": "Gijsbers, Abril",
+        "short_name": "Gijsbers A",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Bioquímica, Facultad de Medicina, Universidad Nacional Autónoma de México, Mexico City, Mexico."
+        ]
+      },
+      {
+        "full_name": "Vujkovic, Alexandra",
+        "short_name": "Vujkovic A",
+        "identifiers": [
+          "0000-0002-7269-2494"
+        ],
+        "affiliations": [
+          "Clinical Virology Unit, Institute of Tropical Medicine, Antwerp, Belgium.",
+          "ADReM Data Lab, University of Antwerp, Antwerp, Belgium."
+        ]
+      },
+      {
+        "full_name": "Snobre, Jihad",
+        "short_name": "Snobre J",
+        "identifiers": [],
+        "affiliations": [
+          "Mycobacteriology Unit, Institute of Tropical Medicine, Antwerp, Belgium."
+        ]
+      },
+      {
+        "full_name": "Vargas, Roger",
+        "short_name": "Vargas R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Dewaele, Klaas",
+        "short_name": "Dewaele K",
+        "identifiers": [],
+        "affiliations": [
+          "Mycobacteriology Unit, Institute of Tropical Medicine, Antwerp, Belgium."
+        ]
+      },
+      {
+        "full_name": "Meehan, Conor J",
+        "short_name": "Meehan CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Mycobacteriology Unit, Institute of Tropical Medicine, Antwerp, Belgium.",
+          "Department of Biosciences, Nottingham Trent University, Nottingham, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Farhat, Maha",
+        "short_name": "Farhat M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, Massachusetts, USA."
+        ]
+      },
+      {
+        "full_name": "Hakke, Sneha",
+        "short_name": "Hakke S",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nanoscopy, Maastricht Multimodal Imaging Institute (M4i), Maastricht University, Maastricht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Peters, Peter J",
+        "short_name": "Peters PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nanoscopy, Maastricht Multimodal Imaging Institute (M4i), Maastricht University, Maastricht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Jong, Bouke C",
+        "short_name": "de Jong BC",
+        "identifiers": [
+          "0000-0002-1017-4675"
+        ],
+        "affiliations": [
+          "Mycobacteriology Unit, Institute of Tropical Medicine, Antwerp, Belgium."
+        ]
+      },
+      {
+        "full_name": "Siroy, Axel",
+        "short_name": "Siroy A",
+        "identifiers": [
+          "0000-0002-8013-3596"
+        ],
+        "affiliations": [
+          "Unité de soutien à l'Institut Européen de Chimie et Biologie (IECB), CNRS, INSERM, IECB, US1, Université de Bordeaux, Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Ravelli, Raimond B G",
+        "short_name": "Ravelli RBG",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Nanoscopy, Maastricht Multimodal Imaging Institute (M4i), Maastricht University, Maastricht, the Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Microbiology spectrum"
+    ],
+    "journal_abbrev": [
+      "Microbiol Spectr"
+    ],
+    "pub_date": "2024 Aug 6",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/14 12:44",
+    "fetched_at": "2026-09-21 07:48:27"
+  },
+  "links": {
+    "cites": [
+      "42633411",
+      "40832603",
+      "39544928"
+    ],
+    "refs": [],
+    "similar": [
+      "38874407",
+      "31843799",
+      "40606626",
+      "41207939",
+      "39873486",
+      "33529148",
+      "33692198",
+      "38745294",
+      "24425732",
+      "21807910",
+      "30814998",
+      "17240921",
+      "21345183",
+      "39688428",
+      "34006663",
+      "40980874",
+      "40938095",
+      "28842489",
+      "16245793",
+      "39471821",
+      "25275011",
+      "39889851",
+      "24245755",
+      "16030141",
+      "28377903",
+      "31758528",
+      "22340629",
+      "40190505",
+      "24891105",
+      "28505176",
+      "23284869",
+      "22377718",
+      "39949767",
+      "20060836",
+      "40683330",
+      "15381846",
+      "28484686",
+      "22520463",
+      "16973880",
+      "22496726",
+      "31113361",
+      "32711461",
+      "38916315",
+      "19769792",
+      "33317631",
+      "37350613",
+      "41977340",
+      "26729876",
+      "22155774",
+      "31167949",
+      "41616269",
+      "29050768",
+      "41207942",
+      "29335553",
+      "38786200",
+      "30833360",
+      "27011018",
+      "30089859",
+      "16207947",
+      "38700329",
+      "41033311",
+      "40513665",
+      "30571761",
+      "26303392",
+      "21814507",
+      "36767896",
+      "28338924",
+      "18584054",
+      "42022808",
+      "41454966",
+      "19180234",
+      "28237031",
+      "33862292",
+      "20190197",
+      "34287002",
+      "34180596",
+      "38805245",
+      "24362585",
+      "41738749",
+      "28095608",
+      "27695670",
+      "27586540",
+      "24245765",
+      "29884774",
+      "27744102",
+      "27005572",
+      "39198760",
+      "22479184",
+      "40958404",
+      "41207944",
+      "31793500",
+      "32019792",
+      "41197090",
+      "32167422",
+      "33290182",
+      "39436849",
+      "39813329",
+      "27156618",
+      "40135878",
+      "32498243"
+    ],
+    "review": [
+      "38874407",
+      "41207939",
+      "17240921",
+      "42022808",
+      "24245765",
+      "41207944"
+    ],
+    "pmc": [
+      "11302016"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/spectrum.03816-23?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/tuberculosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Tuberculosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38874407/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

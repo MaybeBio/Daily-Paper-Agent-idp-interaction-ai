@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39892695",
+  "title": "Fragile X mental retardation protein modulates translation of proteins with predicted tendencies for liquid-liquid phase separation.",
+  "authors": "Jurado, Omar; Jose, Marco V; Frixione, Eugenio",
+  "journal": "Bio Systems",
+  "published_date": "2025-02-02",
+  "window": {
+    "start": "2025-01-27",
+    "end": "2025-02-02"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过机器学习工具预测FMRP调控的翻译蛋白富含IDR且倾向相分离，虽涉及IDP/相分离对象，但聚焦翻译调控而非PPI互作机制建模，方法为序列预测而非互作建模，故评6分。",
+  "abstract": "The Fragile X Mental Retardation Protein (FMRP) is an RNA-binding protein and a key regulator of translation in neurons, hence crucial for neural development and plasticity. FMRP loss, resulting from mutations in the Fmr1 gene, leads to Fragile X Syndrome (FXS) and Autism Spectrum Disorder (ASD), the most common inherited intellectual disabilities. Ribosome profiling in neurons consistently reveals that FMRP-knockout (FK) significantly down-regulates the translation of numerous lengthy genes, many of which are FMRP-binding targets and associated with ASD. Despite these findings, the functional explanation for FMRP's translation regulation of large neuronal proteins remains elusive. Our present study compiles data from published ribosome profiling studies, to identify genes with significantly decreased translation in FK neurons. Using bioinformatic analysis and machine-learning sequence-based tools, PSPredictor and FuzDrop, we found that the proteins encoded by these genes are predicted to be enriched in intrinsically disordered regions and are prone to liquid-liquid phase separation. These findings suggest that FMRP modulates the translation of proteins involved in the formation of biomolecular condensates. Our results can have significant implications for understanding the molecular mechanisms of FXS and ASD, adding complexity to FMRP's regulatory functions, thus offering avenues for further exploration and targeted therapeutic interventions in intellectual disability disorders.",
+  "abstract_zh": "脆性X智力低下蛋白（FMRP）是一种RNA结合蛋白，是神经元中翻译的关键调控因子，因此对神经发育和可塑性至关重要。FMRP的缺失，由Fmr1基因突变引起，导致脆性X综合征（FXS）和自闭症谱系障碍（ASD），这是最常见的遗传性智力障碍。神经元中的核糖体图谱分析一致显示，FMRP敲除（FK）显著下调了许多长基因的翻译，其中许多是FMRP结合靶标，并与ASD相关。尽管有这些发现，FMRP对大型神经元蛋白翻译调控的功能解释仍不明确。我们目前的研究汇集了已发表的核糖体图谱研究数据，以识别FK神经元中翻译显著减少的基因。通过生物信息学分析和基于机器学习的序列工具PSPredictor和FuzDrop，我们发现这些基因编码的蛋白质被预测富含固有无序区域，并倾向于发生液-液相分离。这些发现表明，FMRP调节参与生物分子凝聚体形成的蛋白质的翻译。我们的结果可能对理解FXS和ASD的分子机制具有重要意义，增加了FMRP调控功能的复杂性，从而为智力障碍疾病的进一步探索和靶向治疗干预提供了途径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39892695/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39892695/",
+  "paper_page_path": "papers/pubmed/39892695/index.html"
+}

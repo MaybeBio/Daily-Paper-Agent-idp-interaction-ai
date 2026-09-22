@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40423592",
+  "title": "Computer-Aided Drug Discovery for Undruggable Targets.",
+  "authors": "Sun, Qi; Wang, Hanping; Xie, Juan; Wang, Liying; Mu, Junxi; Li, Junren; Ren, Yuhao; Lai, Luhua",
+  "journal": "Chemical reviews",
+  "published_date": "2025-05-27",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 7,
+  "one_liner_zh": "综述了针对不可成药靶点（含无序蛋白、PPI等）的计算药物设计进展，涵盖AI与模拟方法，但以应用综述为主，缺乏具体机制建模深度。",
+  "abstract": "Undruggable targets are those of therapeutical significance but challenging for conventional drug design approaches. Such targets often exhibit unique features, including highly dynamic structures, a lack of well-defined ligand-binding pockets, the presence of highly conserved active sites, and functional modulation by protein-protein interactions. Recent advances in computational simulations and artificial intelligence have revolutionized the drug design landscape, giving rise to innovative strategies for overcoming these obstacles. In this review, we highlight the latest progress in computational approaches for drug design against undruggable targets, present several successful case studies, and discuss remaining challenges and future directions. Special emphasis is placed on four primary target categories: intrinsically disordered proteins, protein allosteric regulation, protein-protein interactions, and protein degradation, along with discussion of emerging target types. We also examine how AI-driven methodologies have transformed the field, from applications in protein-ligand complex structure prediction and virtual screening to de novo ligand generation for undruggable targets. Integration of computational methods with experimental techniques is expected to bring further breakthroughs to overcome the hurdles of undruggable targets. As the field continues to evolve, these advancements hold great promise to expand the druggable space, offering new therapeutic opportunities for previously untreatable diseases.",
+  "abstract_zh": "不可成药靶点是指具有治疗意义但传统药物设计方法难以应对的靶点。此类靶点通常表现出独特特征，包括高度动态的结构、缺乏明确的配体结合口袋、存在高度保守的活性位点，以及通过蛋白质-蛋白质相互作用进行功能调节。计算模拟和人工智能的最新进展已彻底改变了药物设计格局，催生了克服这些障碍的创新策略。在本综述中，我们重点介绍了针对不可成药靶点的计算药物设计方法的最新进展，展示了若干成功案例研究，并讨论了剩余挑战和未来方向。特别强调了四大主要靶点类别：固有无序蛋白、蛋白质别构调节、蛋白质-蛋白质相互作用和蛋白质降解，同时探讨了新兴靶点类型。我们还审视了人工智能驱动的方法如何转变该领域，从蛋白质-配体复合物结构预测和虚拟筛选的应用，到针对不可成药靶点的从头配体生成。计算方法与实验技术的整合有望带来进一步突破，以克服不可成药靶点的障碍。随着该领域的持续发展，这些进展有望扩大可成药空间，为先前无法治疗的疾病提供新的治疗机会。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40423592/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40423592/",
+  "paper_page_path": "papers/pubmed/40423592/index.html"
+}

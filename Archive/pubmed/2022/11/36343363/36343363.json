@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "36343363",
+    "doi": "10.1021/acs.jpcb.2c06181",
+    "title": "Analytical Formulation and Field-Theoretic Simulation of Sequence-Specific Phase Separation of Protein-Like Heteropolymers with Short- and Long-Spatial-Range Interactions."
+  },
+  "content": {
+    "abstract": "A theory for sequence-dependent liquid-liquid phase separation (LLPS) of intrinsically disordered proteins (IDPs) in the study of biomolecular condensates is formulated by extending the random phase approximation (RPA) and field-theoretic simulation (FTS) of heteropolymers with spatially long-range Coulomb interactions to include the fundamental effects of short-range, hydrophobic-like interactions between amino acid residues. To this end, short-range effects are modeled by Yukawa interactions between multiple nonelectrostatic charges derived from an eigenvalue decomposition of pairwise residue-residue contact energies. Chain excluded volume is afforded by incompressibility constraints. A mean-field approximation leads to an effective Flory-Huggins chi parameter, which, in conjunction with RPA, accounts for the contact-interaction effects of amino acid composition and the sequence-pattern effects of long-range electrostatics in IDP LLPS, whereas FTS based on the formulation provides full sequence dependence for both short- and long-range interactions. This general approach is illustrated here by applications to variants of a natural IDP in the context of several different amino-acid interaction schemes as well as a set of different model hydrophobic-polar sequences sharing the same composition. Effectiveness of the methodology is verified by coarse-grained explicit-chain molecular dynamics simulations.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acids",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Polymers/chemistry",
+      "Static Electricity"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wessen, Jonas",
+        "Das, Suman",
+        "Pal, Tanmoy",
+        "Chan, Hue Sun"
+      ],
+      "short_names": [
+        "Wessen J",
+        "Das S",
+        "Pal T",
+        "Chan HS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2557-8709",
+        "ORCID: 0000-0002-1381-923X"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wessén, Jonas",
+        "short_name": "Wessén J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Das, Suman",
+        "short_name": "Das S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Pal, Tanmoy",
+        "short_name": "Pal T",
+        "identifiers": [
+          "0000-0003-2557-8709"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Chan, Hue Sun",
+        "short_name": "Chan HS",
+        "identifiers": [
+          "0000-0002-1381-923X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Toronto, Toronto, Ontario M5S 1A8, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2022 Nov 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/08 06:00",
+    "fetched_at": "2026-09-20 16:35:03"
+  },
+  "links": {
+    "cites": [
+      "41972834",
+      "41129218",
+      "41083871",
+      "40877270",
+      "40830340",
+      "40667294",
+      "40267030",
+      "40136009",
+      "40028898",
+      "40028356",
+      "39968821",
+      "39920231",
+      "39804953",
+      "39605385",
+      "39412378",
+      "39248414",
+      "38112495",
+      "37721444",
+      "37459524",
+      "37408305",
+      "37261897",
+      "37034777",
+      "36994084"
+    ],
+    "refs": [],
+    "similar": [
+      "36343363",
+      "36227468",
+      "30397688",
+      "33139563",
+      "32393642",
+      "38252962",
+      "34716273",
+      "29509422",
+      "33890467",
+      "29397728",
+      "35944496",
+      "33629837",
+      "29364893",
+      "33076213",
+      "38546977",
+      "37815389",
+      "33453922",
+      "32357776",
+      "38407041",
+      "34259536",
+      "39105804",
+      "30873835",
+      "33934416",
+      "32639157",
+      "37079924",
+      "36350034",
+      "33684117",
+      "32007034",
+      "30240067",
+      "33555894",
+      "31139718",
+      "31667345",
+      "38112495",
+      "32436706",
+      "33403854",
+      "31756104",
+      "30193467",
+      "28805390",
+      "36227467",
+      "37662293",
+      "32696384",
+      "30913885",
+      "36524527",
+      "28483149",
+      "25375525",
+      "24278008",
+      "37645312",
+      "30933517",
+      "36084347",
+      "30091924",
+      "38165099",
+      "35802394",
+      "35883530",
+      "30865820",
+      "37222424",
+      "32087632",
+      "35126984",
+      "36181270",
+      "36346711",
+      "32227994",
+      "29808548",
+      "22721951",
+      "27936491",
+      "37290157",
+      "38965780",
+      "32168715",
+      "38108299",
+      "34598580",
+      "25207671",
+      "27824447",
+      "37407505",
+      "34984754",
+      "36702825",
+      "36272811",
+      "28890401",
+      "34201262",
+      "38862770",
+      "35962177",
+      "29511089",
+      "33876938",
+      "23901099",
+      "36575582",
+      "36778236",
+      "32696367",
+      "33810353",
+      "29548979",
+      "36291634",
+      "30948640",
+      "34029402",
+      "32426975",
+      "34845619",
+      "30217894",
+      "29573987",
+      "33078950",
+      "37442414",
+      "33355572",
+      "28924037",
+      "29734867",
+      "33971237",
+      "39253398",
+      "34931046"
+    ],
+    "review": [
+      "36343363",
+      "29509422",
+      "36350034",
+      "36524527",
+      "35802394"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.2c06181",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.03.30.486144",
+  "title": "One-sided design of protein-protein interaction motifs using deep learning",
+  "authors": "Raulia Syrlybaeva; Eva-Maria Strauch",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-01",
+  "window": {
+    "start": "2022-03-28",
+    "end": "2022-04-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习设计蛋白互作界面基序，虽非针对无序蛋白，但其互作界面建模与设计方法对IDR介导PPI的机制建模有可迁移启发。",
+  "abstract": "Protein-protein interactions are part of most processes in life and thereby the ability to generate new ones to either control, detect or inhibit them has universal applications. However, to develop a new binding protein to bind to a specific site at atomic detail without any additional input is a challenging problem. After DeepMind entered the protein folding field, we have seen rapid advances in protein structure predictions thanks to the implementation of machine learning algorithms. Neural networks are part of machine learning and they can learn the regularities from their input data. Here, we took advantage of their capabilities by training multiple neural networks on co-crystal structures of natural protein complexes. Inspired by image caption algorithms, we developed an extensive set of NN-based models, referred to as iNNterfaceDesign. It predicts the positioning and the secondary structure for the new binding motifs and then designs the backbone atoms followed by amino acid sequence design. Our methods are capable of recapitulating native interactions, including antibody-antigen interactions, while they also capable to produce more diverse solutions to binding at the same sites. As it was trained on natural complexes, it learned their features and can therefore also highlight preferential binding sites, as found in natural protein-protein interactions. Our method is generally applicable, and we believe that this is the first deep learning model for one-sided design of protein-protein interactions. Abstract figure",
+  "abstract_zh": "蛋白质-蛋白质相互作用是生命过程中大多数过程的一部分，因此生成新的相互作用以控制、检测或抑制它们的能力具有普遍应用价值。然而，在没有任何额外输入的情况下，以原子细节开发一种新的结合蛋白以结合到特定位点是一个具有挑战性的问题。自DeepMind进入蛋白质折叠领域以来，由于机器学习算法的实施，我们在蛋白质结构预测方面见证了快速进展。神经网络是机器学习的一部分，它们可以从输入数据中学习规律性。在此，我们利用其能力，在天然蛋白质复合物的共晶结构上训练多个神经网络。受图像字幕算法的启发，我们开发了一套广泛的基于神经网络的模型，称为iNNterfaceDesign。它预测新结合基序的定位和二级结构，然后设计骨架原子，随后进行氨基酸序列设计。我们的方法能够重现天然相互作用，包括抗体-抗原相互作用，同时也能在相同位点产生更多样化的结合解决方案。由于它在天然复合物上训练，它学习了它们的特征，因此也能突出显示天然蛋白质-蛋白质相互作用中发现的优先结合位点。我们的方法具有普遍适用性，我们相信这是首个用于蛋白质-蛋白质相互作用单侧设计的深度学习模型。摘要图",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.03.30.486144",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.03.30.486144",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.03.30.486144/index.html"
+}

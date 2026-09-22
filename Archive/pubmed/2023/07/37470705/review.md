@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure/table references as provided.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. Editorial or stylistic preferences are noted only where they affect comprehension.
+- **Shared manuscript claim summary** The authors propose that the architecture of Lge1 1-80 biomolecular condensates across scales is governed by two molecular parameters: interaction valency and protein compactness (volume fraction). They combine atomistic MD simulations of single- and multi-chain systems with a newly derived analytical fractal model to connect molecular-level properties to mesoscale condensate morphology, and validate their predictions against in vitro phase behavior of WT and mutant variants.
+- **Visible evidence base** Experimental solubility diagrams and FRAP data (Figure 1 and supplements); all-atom MD simulations of single- and multi-chain systems (Table 1, Figures 2-4 and supplements); analytical fractal model derivation (Appendix 1, Figure 5); FracVAL-based condensate reconstructions (Figure 6); source data files as listed.
+- **Missing materials affecting confidence** Supplementary Files 1 and 2 (detailed simulation statistics) are referenced but not provided. Appendix 1 (full derivation of the fractal model) is referenced but not provided. Videos 1-6 are referenced but not provided. Figure 6—figure supplement 1 is referenced but not provided. Experimental details for solubility diagrams and FRAP are partially described but full protocols are not included in the visible text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents an ambitious and largely coherent attempt to bridge atomistic simulations and mesoscale condensate morphology through a novel analytical framework. The central idea, linking valency and compactness to fractal dimension, is conceptually appealing and potentially generalizable. However, the strength of the conclusions depends critically on the validity of the fractal model derivation (Appendix 1, not visible) and on the statistical robustness of the MD simulations (single 1-µs trajectory per system). Several claims regarding experimental validation are qualitative and would benefit from more quantitative comparison. The manuscript is of interest to the condensate and IDP communities, but the current evidence base does not fully establish the generality of the proposed framework.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and intrinsically disordered proteins. The fractal framework may also appeal to soft matter physicists and colloid scientists interested in biological self-assembly. The connection between sequence-level interactions and mesoscale architecture is a central question in the field, and the proposed parameters (valency, compactness) are intuitive and potentially useful for designing condensate-modulating mutations.
+- **Major strengths**
+  1. The conceptual framework connecting molecular parameters (valency, compactness) to a measurable mesoscale property (fractal dimension) is novel and potentially powerful.
+  2. The combination of atomistic MD with an analytical model and experimental validation is methodologically ambitious and, if fully supported, would represent a significant advance.
+  3. The use of multiple mutants with distinct in vitro phenotypes provides a useful test bed for the model.
+  4. The discussion of the relationship between fractal organization and low-density condensates is insightful and addresses a real puzzle in the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the analytical model
+  - **Claim pointer** The manuscript claims that the derived analytical formalism "describes condensate architecture across length scales as a function of protein valency and compactness" and that it "provides an atomistically resolved model of Lge1 1-80 condensates on the scale of hundreds of nanometers."
+  - **Evidence pointer** Appendix 1 (referenced, not provided); Equations 1-14; Figure 5
+  - **Concern** The full derivation of the fractal model is relegated to Appendix 1, which is not visible in the provided materials. The main text presents the model as a "simple physical picture" with constant valency and volume fraction at each iteration, but the validity of this assumption for structurally heterogeneous, dynamic condensates is not adequately discussed. The relationship between the model's parameters (φ, n) and the actual MD-derived quantities needs to be made explicit. Without the derivation, the reader cannot assess whether the model is self-consistent, what its assumptions and limitations are, and whether the agreement with MD results is trivial or non-trivial.
+  - **Why it matters** The analytical model is the central theoretical contribution of the paper. If the derivation is flawed or the assumptions are unjustified, the entire framework collapses. The current presentation does not allow the reader to verify the model's validity.
+  - **Resolution test** Provide the full derivation in the main text or as a clearly accessible supplement. Explicitly state all assumptions, define all variables, and show how Equations 1-14 are derived. Demonstrate that the model reduces to known limits (e.g., df = 3 for space-filling objects) and discuss its range of validity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness of MD simulations
+  - **Claim pointer** The manuscript claims that "the WT 24-copy system forms a single percolating cluster over the last 0.3 µs" and that valency values "plateau around 2" for mutants, with these differences being used to explain experimental phase behavior.
+  - **Evidence pointer** Table 1; Figure 2C-E; Figure 2—figure supplement 1; Supplementary File 1 (not provided)
+  - **Concern** Each system (WT, R>K, Y>A) is represented by a single 1-µs MD trajectory. The claim that valency and compactness are stable and representative properties of the system rests on the assumption that 1 µs is sufficient for convergence and that the initial configuration does not bias the results. The manuscript does not report error estimates, block averaging, or replicate simulations. The observation that WT forms a percolating cluster in the last 0.3 µs could be a kinetic artifact of the specific trajectory.
+  - **Why it matters** The quantitative values of φ and n are the inputs to the fractal model. If these values are not statistically robust, the model predictions (e.g., df values) are not reliable. The comparison between WT and mutants, which is central to the paper's conclusions, requires confidence that the observed differences are not due to sampling noise.
+  - **Resolution test** Provide replicate simulations (at least 3 independent trajectories per system) and report mean ± standard deviation for valency, Rg, and φ. Perform convergence analysis (e.g., block averaging, split-half analysis) to demonstrate that the last 0.3 µs is representative. If replicates are not feasible, clearly state this limitation and discuss its impact on the conclusions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative link between simulations and experiments
+  - **Claim pointer** The manuscript claims that "the simulation-derived fractal dimensions of condensates of Lge1 1-80 and its mutants agree with their in vitro morphologies" and that differences in valency explain the different phase behavior of WT, R>K, and Y>A.
+  - **Evidence pointer** Figure 1B-C; Figure 5C; Figure 6B; Figure 6—figure supplement 1 (not provided)
+  - **Concern** The comparison between simulation-derived df values and experimental morphologies is qualitative. The manuscript states that WT has df = 2.42, R>K has df = 2.09, and Y>A has df = 1.63, and that these correspond to "dense," "intermediate," and "elongated/filamentous" morphologies, respectively. However, no quantitative metric from the experimental images is provided to support this correspondence. The claim that "agreement" is achieved is therefore not rigorously established.
+  - **Why it matters** The paper's central claim is that the model can predict condensate architecture from molecular properties. A qualitative visual comparison is insufficient to validate this claim. Without quantitative experimental measures (e.g., fractal dimension from microscopy images, correlation lengths, density profiles), the agreement could be coincidental.
+  - **Resolution test** Provide quantitative analysis of experimental condensate morphology (e.g., box-counting fractal dimension from microscopy images, or at least a blinded classification of morphologies by independent observers). Compare these values directly to the model predictions and report statistical measures of agreement.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generality of the framework
+  - **Claim pointer** The manuscript claims that the framework "enables a multiscale description of biomolecular condensates and embeds their study in a wider context of colloid self-organization" and is "experimentally testable" for other systems.
+  - **Evidence pointer** Discussion section
+  - **Concern** The framework is tested on a single protein system (Lge1 1-80) and its mutants. The claim of generality is therefore not supported by the presented data. The model assumes that condensates can be described as fractal clusters of individual proteins, which may not hold for all condensates (e.g., those with strong specific interactions, multi-component systems, or those with a dense liquid-like core). The manuscript does not discuss the conditions under which the fractal assumption would break down.
+  - **Why it matters** The broader impact of the work depends on its applicability beyond Lge1. Without a clear statement of the model's limitations and the conditions for its validity, the claim of generality is overstated.
+  - **Resolution test** Add a section discussing the expected range of validity of the fractal model. Identify specific systems or conditions where the model would likely fail and propose how the framework could be extended. If possible, apply the model to at least one additional published dataset (e.g., from the literature) to demonstrate transferability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of experimental methods
+  - **Affected element** Solubility diagram and FRAP methods
+  - **Evidence pointer** Methods section, "Solubility diagrams" and "Fluorescence recovery after photobleaching"
+  - **Issue** The methods for solubility diagrams and FRAP are described briefly. It is unclear how many independent replicates were performed, how condensates were identified and counted, and what statistical analysis was applied. The FRAP fitting procedure is described but the rationale for choosing a double-exponential over other models is not given.
+  - **Required correction** Provide more detail on experimental replicates, image analysis procedures, and statistical tests. Justify the choice of fitting model for FRAP data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Definition of valency
+  - **Affected element** Results section, "Lge1 1-80 interaction valency is defined by its sequence composition"
+  - **Evidence pointer** Figure 2D-E; Methods, "MD simulations"
+  - **Issue** The definition of "interaction valency" as the average number of binding partners per protein is clear, but the distance cutoff (3.5 Å) used to define a contact is very short. It is unclear whether this captures all relevant interactions or only very close contacts. The sensitivity of the results to this cutoff is not discussed.
+  - **Required correction** Discuss the choice of distance cutoff and its potential impact on the calculated valency. Consider reporting results for a range of cutoffs to demonstrate robustness.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation of entropy calculations
+  - **Affected element** Results section, "Lge1 1-80 sequence impacts its conformational behavior and dynamics"
+  - **Evidence pointer** Figure 4D-F; Methods, "Entropy calculations"
+  - **Issue** The entropy calculations are presented as a key result, but the absolute values are described as carrying arbitrary units. The relative entropy differences are stated to be physically meaningful, but the magnitude of the reported differences (in kcal/mol) is not contextualized. It is unclear whether a difference of, say, 5 kcal/mol is large or small in this context.
+  - **Required correction** Provide context for the magnitude of the entropy differences, e.g., by comparing to thermal energy (kT) or to entropy differences reported for other IDP systems.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 5 and 6
+  - **Evidence pointer** Figure 5B-C; Figure 6A-C
+  - **Issue** The figures are described in the text but not visible in the provided materials. Some figure panels (e.g., Figure 5B, Figure 6C) appear to contain complex data that would benefit from additional explanation in the legend or text.
+  - **Required correction** Ensure that all figure legends are self-contained and that the main text adequately describes what is shown in each panel.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Full derivation of the fractal model must be provided and validated.
+  - R1-M2: Statistical robustness of MD simulations must be demonstrated through replicates or clear acknowledgment of limitations.
+  - R1-M3: Quantitative comparison between model predictions and experimental morphology is required.
+- **Assessment against Nature-style criteria**
+  - **Originality** High. The connection between valency/compactness and fractal dimension is a novel contribution that has not been proposed in this form for biomolecular condensates.
+  - **Scientific importance** Moderate to high. If validated, the framework could provide a quantitative tool for predicting condensate architecture from sequence-level properties, which is a central goal in the field. However, the current evidence base is limited to a single system.
+  - **Interdisciplinary readership** Moderate. The work bridges molecular simulation, polymer physics, and colloid science, and will appeal to researchers in these areas. The relevance to a broader biological audience is less clear, as the functional implications of fractal architecture are not explored.
+  - **Technical soundness** Currently not fully established. The MD simulations are state-of-the-art but lack statistical replication. The fractal model derivation is not visible. The experimental validation is qualitative.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the conceptual framework is explained clearly. However, the fractal model section and the entropy calculations may be challenging for readers without a background in statistical mechanics or colloid science. The abstract is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the combination of methods is ambitious. However, the manuscript in its current form does not fully establish the validity of the fractal model or the statistical robustness of the MD results. Addressing R1-M1, R1-M2, and R1-M3 is essential before the claims can be considered supported.
+
+## Risk / unsupported claims
+- The claim that the fractal model "describes condensate architecture across length scales" is not fully supported because the derivation (Appendix 1) is not visible and the model's assumptions are not critically examined.
+- The claim that "simulation-derived fractal dimensions agree with in vitro morphologies" is not quantitatively supported; the comparison is qualitative.
+- The claim that the framework is "experimentally testable" for other systems is plausible but not demonstrated; no evidence of transferability is provided.
+- The claim that configurational entropy differences are physically meaningful relies on the MIST formalism, but the convergence and accuracy of these calculations are not fully established (only one panel in a supplement is referenced).
+- The claim that the WT condensate is "percolating" is based on a single trajectory and may not be statistically robust.
+- The relationship between the MD-derived φ and n values and the fractal model's parameters is not explicitly derived or discussed, leaving a gap in the logical chain from simulation to model.

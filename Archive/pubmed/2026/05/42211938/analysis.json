@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42211938",
+  "title": "A unified mechanistic perspective on protein-polysaccharide interactions underlying hybrid gel formation: A mini review.",
+  "authors": "Khoshdouni Farahani, Zahra",
+  "journal": "Current research in food science",
+  "published_date": "2026-05-29",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该综述统一阐述蛋白质-多糖杂化凝胶中分子互作与液-液相分离(LLPS)驱动的网络形成机制，虽对象为食品/生物材料而非无序蛋白，但其LLPS与多尺度模拟思路对IDR介导PPI机制建模有可迁移启发。",
+  "abstract": "Hybrid protein-polysaccharide gels are an emerging class of soft materials with versatile applications in food science, pharmaceuticals, and biomedical engineering. By combining the functional attributes of proteins with the structural and hydration properties of polysaccharides, these gels exhibit tunable mechanical strength, viscoelasticity, and stimuli-responsive behaviors. Despite extensive studies on their macroscopic properties, the molecular mechanisms driving gelation remain incompletely understood. This mini review presents a unified mechanistic perspective, linking molecular interactions, mesoscale phase behavior, and macroscopic network formation. Early-stage complexation is governed by electrostatic interactions modulated by charge patchiness, counterion-release entropy, hydrogen bonding, hydrophobic contacts, van der Waals interactions, and covalent crosslinking. Such associations often trigger liquid-liquid phase separation (LLPS), forming coacervate droplets that serve as precursors for cluster aggregation. Droplet growth and coalescence eventually yield percolated three-dimensional networks, which determine gel mechanics and rheology. Environmental and formulation factors-including pH, ionic strength, protein-to-polysaccharide ratio, temperature, and mechanical stress-strongly influence each stage of assembly, enabling precise tuning of gel microstructure and function. Advanced experimental and computational tools, such as spectroscopy, scattering methods, imaging, and multiscale simulations, provide mechanistic insight across scales. By integrating these perspectives into a predictive framework, this review highlights strategies for designing mechanically robust and stimuli-responsive gels for food and biomedical applications. Remaining challenges include dynamic characterization, LLPS kinetics, network aging, and nanoscale binding pathways, offering directions for future research in next-generation functional materials.",
+  "abstract_zh": "杂化蛋白-多糖凝胶是一类新兴的软材料，在食品科学、制药和生物医学工程中具有广泛的应用。通过将蛋白质的功能特性与多糖的结构和水合特性相结合，这些凝胶表现出可调的机械强度、粘弹性和刺激响应行为。尽管对其宏观性质已有大量研究，但驱动凝胶化的分子机制仍未完全理解。本迷你综述提出了一种统一的机制视角，将分子相互作用、介观相行为和宏观网络形成联系起来。早期复合由静电相互作用主导，受电荷斑块性、反离子释放熵、氢键、疏水接触、范德华相互作用和共价交联的调节。此类缔合常触发液-液相分离 (liquid-liquid phase separation, LLPS)，形成凝聚层液滴，作为簇聚集的前体。液滴生长和合并最终产生渗流三维网络，决定凝胶力学和流变学性质。环境和配方因素——包括pH、离子强度、蛋白与多糖比例、温度和机械应力——强烈影响组装的每个阶段，从而实现对凝胶微结构和功能的精确调控。先进的实验和计算工具，如光谱学、散射方法、成像和多尺度模拟，提供跨尺度的机制洞察。通过将这些视角整合到预测框架中，本综述强调了设计用于食品和生物医学应用的机械稳健且刺激响应型凝胶的策略。剩余挑战包括动态表征、LLPS动力学、网络老化和纳米尺度结合途径，为下一代功能材料的未来研究提供方向。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42211938/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42211938/",
+  "paper_page_path": "papers/pubmed/42211938/index.html"
+}

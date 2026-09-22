@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35054543",
+  "title": "Coupling Bulk Phase Separation of Disordered Proteins to Membrane Domain Formation in Molecular Simulations on a Bespoke Compute Fabric.",
+  "authors": "Shillcock, Julian C; Thomas, David B; Beaumont, Jonathan R; Bragg, Graeme M; Vousden, Mark L; Brown, Andrew D",
+  "journal": "Membranes",
+  "published_date": "2022-01-22",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化分子模拟研究无序蛋白相分离与脂膜结构域形成的耦合形态，并借助新型计算架构加速模拟，直接聚焦IDP介导的凝聚体-膜互作机制建模，与课题高度契合。",
+  "abstract": "Phospholipid membranes surround the cell and its internal organelles, and their multicomponent nature allows the formation of domains that are important in cellular signalling, the immune system, and bacterial infection. Cytoplasmic compartments are also created by the phase separation of intrinsically disordered proteins into biomolecular condensates. The ubiquity of lipid membranes and protein condensates raises the question of how three-dimensional droplets might interact with two-dimensional domains, and whether this coupling has physiological or pathological importance. Here, we explore the equilibrium morphologies of a dilute phase of a model disordered protein interacting with an ideal-mixing, two-component lipid membrane using coarse-grained molecular simulations. We find that the proteins can wet the membrane with and without domain formation, and form phase separated droplets bound to membrane domains. Results from much larger simulations performed on a novel non-von-Neumann compute architecture called POETS, which greatly accelerates their execution compared to conventional hardware, confirm the observations. Reducing the wall clock time for such simulations requires new architectures and computational techniques. We demonstrate here an inter-disciplinary approach that uses real-world biophysical questions to drive the development of new computing hardware and simulation algorithms.",
+  "abstract_zh": "磷脂膜包裹着细胞及其内部细胞器，其多组分特性使得能够形成对细胞信号传导、免疫系统和细菌感染至关重要的结构域。细胞质区室也通过 intrinsically disordered proteins（固有无序蛋白）的相分离 (phase separation) 形成生物分子凝聚体。脂质膜和蛋白质凝聚体的普遍存在引发了一个问题：三维液滴如何与二维结构域相互作用，以及这种耦合是否具有生理或病理学意义。在此，我们利用粗粒化分子模拟 (molecular dynamics) 探索了一种模型无序蛋白的稀相与理想混合的双组分脂质膜相互作用的平衡形态。我们发现，这些蛋白质可以在有无结构域形成的情况下润湿膜，并形成与膜结构域结合的相分离液滴。在一个名为POETS的新型非冯·诺依曼计算架构上进行的更大规模模拟结果证实了这些观察结果，该架构相比传统硬件大大加速了执行速度。减少此类模拟的墙钟时间需要新的架构和计算技术。我们在此展示了一种跨学科方法，利用现实世界的生物物理问题来推动新计算硬件和模拟算法的发展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35054543/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35054543/",
+  "paper_page_path": "papers/pubmed/35054543/index.html"
+}

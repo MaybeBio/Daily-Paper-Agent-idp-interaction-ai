@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "38061016",
+    "doi": "10.1021/jacs.3c10862",
+    "title": "Ultrafast Spectroscopy Reveals Slow Water Dynamics in Biocondensates."
+  },
+  "content": {
+    "abstract": "Cells achieve high spatiotemporal control over biochemical processes through compartmentalization to membrane-bound as well as membraneless organelles that assemble by liquid-liquid phase separation. Characterizing the balance of forces within these environments is essential to understanding their stability and function, and water is an integral part of the condensate, playing an important role in mediating electrostatic and hydrogen-bonding interactions. Here, we investigate the ultrafast, picosecond hydrogen-bond dynamics of a model biocondensate consisting of a peptide poly-l-arginine (Poly-R) and the nucleic acid adenosine monophosphate (AMP) using coherent two-dimensional infrared (2D IR) spectroscopy. We investigated three vibrational modes: the arginine side-chain C horizontal lineN stretches, an AMP ring mode, and the amide backbone carbonyl stretching modes. Dynamics slow considerably between the dilute phase and the condensate phase for each vibrational probe. For example, the arginine side-chain C horizontal lineN modes slow from 0.38 to 2.26 ps due to strong electrostatic interactions. All-atom molecular dynamics simulations provide an atomistic interpretation of the H-bond network disruption resulting from electrostatic contributions as well as collapse within the condensate. Simulations predict that a fraction of water molecules are highly constrained within the condensate, explaining the observed slowdown in the H-bond dynamics.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lorenz-Ochoa, Keegan A",
+        "Baiz, Carlos R"
+      ],
+      "short_names": [
+        "Lorenz-Ochoa KA",
+        "Baiz CR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0699-8468"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States.",
+        "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lorenz-Ochoa, Keegan A",
+        "short_name": "Lorenz-Ochoa KA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Baiz, Carlos R",
+        "short_name": "Baiz CR",
+        "identifiers": [
+          "0000-0003-0699-8468"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2023 Dec 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/07 18:42",
+    "fetched_at": "2026-09-21 03:16:20"
+  },
+  "links": {
+    "cites": [
+      "42182309",
+      "41372463",
+      "41329728",
+      "41279136",
+      "41022842",
+      "40880224",
+      "40292246",
+      "40227341",
+      "39591652",
+      "39486437",
+      "39388385"
+    ],
+    "refs": [
+      "37735186",
+      "37468629",
+      "37261897",
+      "36898003",
+      "36881934",
+      "36843414",
+      "36354362",
+      "36030416",
+      "35968816",
+      "35727989",
+      "34585924",
+      "34334791",
+      "34291085",
+      "34164013",
+      "33629837",
+      "33515602",
+      "33503539",
+      "33230101",
+      "33139563",
+      "33032406",
+      "32364385",
+      "32113367",
+      "32069416",
+      "32004090",
+      "31437398",
+      "31000156",
+      "30682370",
+      "30045872",
+      "29780979",
+      "29602697",
+      "29545272",
+      "29425450",
+      "29424691",
+      "29065286",
+      "29064502",
+      "28666087",
+      "28510458",
+      "28277665",
+      "28225081",
+      "28060489",
+      "27374333",
+      "27186992",
+      "27051975",
+      "26317470",
+      "24762118",
+      "22398665",
+      "21861514",
+      "21539337",
+      "21500218",
+      "21444789",
+      "20814445",
+      "20167475",
+      "19905022",
+      "19618902",
+      "19585982",
+      "19351162",
+      "19229944",
+      "18851709",
+      "18513030",
+      "18351591",
+      "18288813",
+      "18095715",
+      "16942147",
+      "16866391",
+      "16851862",
+      "16460180",
+      "16439623",
+      "16390107",
+      "16211538",
+      "16083292",
+      "15720152",
+      "15527353",
+      "14659645",
+      "12692791"
+    ],
+    "similar": [
+      "38061016",
+      "32866390",
+      "42172058",
+      "19425543",
+      "19378969",
+      "40880224",
+      "23912807",
+      "19585982",
+      "39591652",
+      "19754112",
+      "28641416",
+      "19441810",
+      "38416758",
+      "21417263",
+      "39346610",
+      "20017523",
+      "32423219",
+      "38605209",
+      "31042039",
+      "27608998",
+      "26558297",
+      "34491037",
+      "40017032",
+      "18288813",
+      "32069416",
+      "37031144",
+      "17134238",
+      "28863528",
+      "22032305",
+      "33464100",
+      "32364385",
+      "34433948",
+      "37486881",
+      "19469530",
+      "20141150",
+      "40910446",
+      "18433249",
+      "42475469",
+      "17129137",
+      "14500975",
+      "21417373",
+      "28068771",
+      "19449855",
+      "21280757",
+      "28594004",
+      "31407910",
+      "33326222",
+      "39120037",
+      "23110489",
+      "21561076",
+      "30727725",
+      "38364823",
+      "28922919",
+      "31448608",
+      "19681584",
+      "21823714",
+      "31082232",
+      "23638966",
+      "19435307",
+      "29071445",
+      "21861514",
+      "22861526",
+      "28936306",
+      "26125542",
+      "38014355",
+      "38181505",
+      "28848947",
+      "29072913",
+      "21861584",
+      "38949285",
+      "40962310",
+      "18823116",
+      "36725522",
+      "23869523",
+      "36926899",
+      "10686106",
+      "26798841",
+      "41921702",
+      "27482947",
+      "20932051",
+      "26896979",
+      "30638532",
+      "28345879",
+      "21302339",
+      "40663713",
+      "27023758",
+      "37905968",
+      "31864235",
+      "21214234",
+      "9398191",
+      "40970659",
+      "29425450",
+      "38056002",
+      "17940023",
+      "35170620",
+      "29452488",
+      "29087711",
+      "40203038",
+      "21128650",
+      "19180255"
+    ],
+    "review": [
+      "38061016",
+      "19425543",
+      "19441810",
+      "18288813",
+      "38364823",
+      "29071445",
+      "30638532"
+    ],
+    "pmc": [
+      "13131305"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38061016/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.3c10862",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

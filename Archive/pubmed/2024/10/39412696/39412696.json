@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "39412696",
+    "doi": "10.1007/s00216-024-05583-4",
+    "title": "Expression and immobilization of novel N-glycan-binding protein for highly efficient purification and enrichment of N-glycans, N-glycopeptides, and N-glycoproteins."
+  },
+  "content": {
+    "abstract": "Comprehensive and selective enrichment of N-glycans, N-glycopeptides, and N-glycoproteins prior to analysis is of great significance in N-glycomics research, reducing sample complexity, removing impurity interference, increasing sample abundance and enhancing signal intensity. However, only an Fbs1 (F-box protein that recognizes sugar chain 1) GYR variant (Fg) can enrich these N-glycomolecules solely due to its substantial binding affinity for the core pentasaccharide motif of N-glycans. Stationary phase separation is commonly used to enrich N-glycomolecules efficiently. Herein, DNA encoding the Fg was cloned into pGEX-4T-1, and the protein was expressed with a GST tag, which facilitates the convenient and efficient immobilization of recombinant GST-tagged Fg to GSH agarose resin. The yield of the GST-tagged Fg reached to 0.05 g/L after optimization of the induction condition, and the purified protein exhibited good identification ability and excellent stability for months. In particular, the immobilized GST-tagged Fg can enrich N-glycans released by PNGase F and capture derivatized N-glycans possessing an intact terminal N-acetyl glucosamine (GlcNAc). Validation of immobilized GST-tagged Fg with standard N-glycopeptides and N-glycoproteins revealed its high loading capacity, sensitivity, and selectivity. The novel immobilized GST-tagged Fg is a convenient and efficient enrichment material specific for N-glycans, N-glycopeptides, and N-glycoproteins, suggesting excellent performance and prospects for industrial application.",
+    "keywords": [
+      "Glycan-binding protein",
+      "N-Glycan",
+      "N-Glycopeptide",
+      "N-Glycoprotein"
+    ],
+    "mesh_terms": [
+      "*Polysaccharides/chemistry",
+      "*Glycoproteins/chemistry/isolation & purification",
+      "*Glycopeptides/chemistry/isolation & purification",
+      "Humans",
+      "Immobilized Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Liang",
+        "Wang, Wenhui",
+        "Yang, Yueqin",
+        "Li, Pengjie",
+        "Liu, Xiang",
+        "Zhu, Wenjie",
+        "Yang, Wei",
+        "Wang, Song",
+        "Lin, Yawei",
+        "Liu, Xin"
+      ],
+      "short_names": [
+        "Zhang L",
+        "Wang W",
+        "Yang Y",
+        "Li P",
+        "Liu X",
+        "Zhu W",
+        "Yang W",
+        "Wang S",
+        "Lin Y",
+        "Liu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Hubei Superior Discipline Group of Exercise and Brain Science from Hubei Provincial, Wuhan Sports University, Wuhan, 430079, China. angzhhw@163.com.",
+        "Britton Chance Center for Biomedical Photonics at Wuhan National Laboratory for Optoelectronics - Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, 430074, China.",
+        "Hubei Superior Discipline Group of Exercise and Brain Science from Hubei Provincial, Wuhan Sports University, Wuhan, 430079, China.",
+        "Britton Chance Center for Biomedical Photonics at Wuhan National Laboratory for Optoelectronics - Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, 430074, China.",
+        "Britton Chance Center for Biomedical Photonics at Wuhan National Laboratory for Optoelectronics - Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, 430074, China.",
+        "Britton Chance Center for Biomedical Photonics at Wuhan National Laboratory for Optoelectronics - Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, 430074, China.",
+        "Hubei Superior Discipline Group of Exercise and Brain Science from Hubei Provincial, Wuhan Sports University, Wuhan, 430079, China.",
+        "Hubei Superior Discipline Group of Exercise and Brain Science from Hubei Provincial, Wuhan Sports University, Wuhan, 430079, China. wangsong@whsu.edu.cn.",
+        "School of Chemistry, Chemical Engineering and Life Sciences, Wuhan University of Technology, Wuhan, 430070, China. linyawei2012@whut.edu.cn.",
+        "Britton Chance Center for Biomedical Photonics at Wuhan National Laboratory for Optoelectronics - Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, 430074, China. xliu@mail.hust.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Liang",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Superior Discipline Group of Exercise and Brain Science from Hubei Provincial, Wuhan Sports University, Wuhan, 430079, China. angzhhw@163.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenhui",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Britton Chance Center for Biomedical Photonics at Wuhan National Laboratory for Optoelectronics - Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, 430074, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Yueqin",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Superior Discipline Group of Exercise and Brain Science from Hubei Provincial, Wuhan Sports University, Wuhan, 430079, China."
+        ]
+      },
+      {
+        "full_name": "Li, Pengjie",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "Britton Chance Center for Biomedical Photonics at Wuhan National Laboratory for Optoelectronics - Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, 430074, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiang",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Britton Chance Center for Biomedical Photonics at Wuhan National Laboratory for Optoelectronics - Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, 430074, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Wenjie",
+        "short_name": "Zhu W",
+        "identifiers": [],
+        "affiliations": [
+          "Britton Chance Center for Biomedical Photonics at Wuhan National Laboratory for Optoelectronics - Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, 430074, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Wei",
+        "short_name": "Yang W",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Superior Discipline Group of Exercise and Brain Science from Hubei Provincial, Wuhan Sports University, Wuhan, 430079, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Song",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Superior Discipline Group of Exercise and Brain Science from Hubei Provincial, Wuhan Sports University, Wuhan, 430079, China. wangsong@whsu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lin, Yawei",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemistry, Chemical Engineering and Life Sciences, Wuhan University of Technology, Wuhan, 430070, China. linyawei2012@whut.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Xin",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Britton Chance Center for Biomedical Photonics at Wuhan National Laboratory for Optoelectronics - Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan, 430074, China. xliu@mail.hust.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Analytical and bioanalytical chemistry"
+    ],
+    "journal_abbrev": [
+      "Anal Bioanal Chem"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/16 12:25",
+    "fetched_at": "2026-09-22 01:58:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38153380",
+      "37771922",
+      "37675097",
+      "37354999",
+      "37156804",
+      "37030554",
+      "37011847",
+      "36898812",
+      "36753338",
+      "36519060",
+      "36313162",
+      "35471826",
+      "35471013",
+      "34389387",
+      "33087899",
+      "32865977",
+      "32628832",
+      "32252895",
+      "32029268",
+      "31930911",
+      "31056268",
+      "30525457",
+      "30041872",
+      "30011186",
+      "29329887",
+      "28534482",
+      "27566393",
+      "27166751",
+      "26096507",
+      "18638581",
+      "15857118"
+    ],
+    "similar": [
+      "39412696",
+      "28534482",
+      "39489947",
+      "23994444",
+      "30041872",
+      "31174130",
+      "34227319",
+      "33218490",
+      "31570191",
+      "25042437",
+      "20586410",
+      "32102970",
+      "31389124",
+      "34757643",
+      "30036038",
+      "24054672",
+      "31100702",
+      "25521995",
+      "34213180",
+      "39486975",
+      "16170054",
+      "38145926",
+      "22171320",
+      "38564900",
+      "30178920",
+      "25989682",
+      "23688297",
+      "31859482",
+      "19241033",
+      "36898812",
+      "22678433",
+      "33090644",
+      "21077635",
+      "18205388",
+      "26274980",
+      "23234360",
+      "29016103",
+      "20065591",
+      "31551124",
+      "36129246",
+      "35934376",
+      "27139907",
+      "27585995",
+      "27506354",
+      "25147194",
+      "34227365",
+      "39181535",
+      "22978794",
+      "34962767",
+      "24912132",
+      "22997027",
+      "34505426",
+      "29405331",
+      "29327411",
+      "23047116",
+      "27582638",
+      "16449350",
+      "29851350",
+      "29333671",
+      "19453144",
+      "32029268",
+      "29675740",
+      "19838169",
+      "29703890",
+      "16503336",
+      "23580492",
+      "2562506",
+      "25837443",
+      "17625816",
+      "22287049",
+      "25452312",
+      "39116882",
+      "30900856",
+      "32306330",
+      "26378618",
+      "36192063",
+      "27289501",
+      "15677380",
+      "28514044",
+      "34232571",
+      "28609623",
+      "25182382",
+      "28518173",
+      "17091533",
+      "27743364",
+      "29687791",
+      "26899450",
+      "30196374",
+      "24111616",
+      "34126284",
+      "1447188",
+      "33166117",
+      "25945896",
+      "19277556",
+      "35345987",
+      "39244913",
+      "29557479",
+      "23775902",
+      "9134431",
+      "31062865"
+    ],
+    "review": [
+      "39412696",
+      "34757643",
+      "38564900",
+      "33090644",
+      "22997027",
+      "34505426",
+      "19277556"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00216-024-05583-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GST+Mu1-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

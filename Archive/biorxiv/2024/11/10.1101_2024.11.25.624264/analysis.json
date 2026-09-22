@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.25.624264",
+  "title": "Residual flexibility in the topologically constrained multivalent complex between the GKAP scaffold and LC8 hub proteins",
+  "authors": "Nagy-Kanta E; Kálmán ZE; Tossavainen H; Juhász T; Farkas F; Hegedüs J; Keresztes M; Beke-Somfai T; Gáspári Z; Permi P; Péterfia B",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-25",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过NMR和分子动力学研究GKAP无序区域与LC8二聚体形成的六聚复合物，揭示受限化学计量与残余柔性共存的互作机制，直接契合无序蛋白介导PPI的机制建模主题。",
+  "abstract": "<h4>Summary</h4> Guanylate kinase-associated protein (GKAP) is a large postsynaptic scaffold protein bearing two closely spaced noncanonical binding sites for the bivalent dynein light chain LC8 hub protein. This might allow the formation of heterogeneous complexes with different sizes and topologies. Here, we show that a well-defined hexameric complex is formed, composed of 2 GKAP molecules and 2 LC8 dimers. Using NMR spectroscopy, we demonstrate that the LC8-binding segment of GKAP is intrinsically disordered and the flexibility of the linker region is largely retained even in the complex form. Molecular dynamics calculations suggest that besides the tightly bound residues, the hexamer also exhibits several dynamically interchanging interactions. The flanking regions of the two binding sites on GKAP exhibit different interaction patterns, hinting at additional contacts that might explain the fixed stoichiometry of the assembly. Our results demonstrate that constrained stoichiometry can coexist with substantial flexibility in a multivalent system.",
+  "abstract_zh": "<h4>摘要</h4> 鸟苷酸激酶相关蛋白（GKAP）是一种大型突触后支架蛋白，带有两个紧密排列的非经典结合位点，用于二价动力蛋白轻链LC8枢纽蛋白。这可能允许形成具有不同大小和拓扑结构的异质复合物。在此，我们展示了一个明确界定的六聚体复合物的形成，该复合物由2个GKAP分子和2个LC8二聚体组成。利用核磁共振波谱（NMR spectroscopy），我们证明GKAP的LC8结合片段本质上是无序的，且即使在复合物形式中，连接区的灵活性也大部分得以保留。分子动力学（molecular dynamics）计算表明，除了紧密结合的残基外，六聚体还表现出多种动态互换的相互作用。GKAP上两个结合位点的侧翼区域表现出不同的相互作用模式，暗示了可能解释组装固定化学计量的额外接触。我们的结果表明，在多价系统中，受限的化学计量可以与显著的灵活性共存。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.25.624264",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.25.624264",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.25.624264/index.html"
+}

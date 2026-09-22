@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42094486",
+  "title": "SPPIDER-seq: Sequence-based partner-aware predictor of protein-protein interaction sites.",
+  "authors": "Porollo, Aleksey; Jadhav, Om; Alvarez, Aaron; Chen, Jichao",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-05-07",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出基于ESM-2嵌入与交叉注意力的伙伴感知PPI位点预测框架SPPIDER-seq，专门针对无序肽段介导的瞬时互作界面建模，并在TP53无序区域上验证了伙伴特异性界面模式，与课题高度契合。",
+  "abstract": "MOTIVATION: Sequence-based protein-protein interaction (PPI) site predictors typically analyze proteins in isolation, neglecting partner-specific context that is critical for interface specificity, particularly in transient and disordered interactions. RESULTS: We introduce SPPIDER-seq, a partner-aware PPI site prediction framework that combines pretrained ESM-2 embeddings with a cross-attention architecture to enable residue-level conditioning on interacting partners. We curated non-redundant protein-peptide interaction datasets from BioLiP and used them to train and benchmark two complementary models: a receptor-centric model optimized for structured interfaces and a peptide-centric model tailored to disordered, motif-driven binding. On blind benchmarks, SPPIDER-seq achieved AUROC values up to 0.797 and MCC values up to 0.269, outperforming AlphaFold3 on peptide-mediated and disordered interfaces while remaining complementary on globular complexes. Application to 341 TP53 interaction partners revealed coherent, partner-specific interface patterns across both structured and intrinsically disordered regions.",
+  "abstract_zh": "动机：基于序列的蛋白质-蛋白质相互作用（PPI）位点预测器通常孤立地分析蛋白质，忽略了对于界面特异性至关重要的伙伴特异性上下文，特别是在瞬态和无序相互作用中。结果：我们引入了SPPIDER-seq，一种伙伴感知的PPI位点预测框架，结合预训练的ESM-2嵌入与交叉注意力架构，实现对相互作用伙伴的残基水平条件化。我们从BioLiP中整理了非冗余的蛋白质-肽相互作用数据集，并用于训练和基准测试两个互补模型：一个针对结构化界面优化的受体中心模型，以及一个针对无序、基序驱动结合优化的肽中心模型。在盲测基准上，SPPIDER-seq实现了高达0.797的AUROC值和高达0.269的MCC值，在肽介导和无序界面上优于AlphaFold3，同时在球状复合物上保持互补性。应用于341个TP53相互作用伙伴，揭示了跨结构化和内在无序区域的连贯、伙伴特异性界面模式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42094486/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42094486/",
+  "paper_page_path": "papers/pubmed/42094486/index.html"
+}

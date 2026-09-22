@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "39163306",
+    "doi": "10.1021/acs.jcim.4c00930",
+    "title": "Predicting the Dynamic Interaction of Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) participate in various biological processes. Interactions involving IDPs are usually dynamic and are affected by their inherent conformation fluctuations. Comprehensive characterization of these interactions based on current techniques is challenging. Here, we present GSALIDP, a GraphSAGE-embedded LSTM network, to capture the dynamic nature of IDP-involved interactions and predict their behaviors. This framework models multiple conformations of IDP as a dynamic graph, which can effectively describe the fluctuation of its flexible conformation. The dynamic interaction between IDPs is studied, and the data sets of IDP conformations and their interactions are obtained through atomistic molecular dynamic (MD) simulations. Residues of IDP are encoded through a series of features including their frustration. GSALIDP can effectively predict the interaction sites of IDP and the contact residue pairs between IDPs. Its performance in predicting IDP interactions is on par with or even better than the conventional models in predicting the interaction of structural proteins. To the best of our knowledge, this is the first model to extend the protein interaction prediction to IDP-involved interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Protein Conformation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Yuchuan",
+        "Li, Qixiu",
+        "Freiberger, Maria I",
+        "Song, Haoyu",
+        "Hu, Guorong",
+        "Zhang, Moxin",
+        "Gu, Ruoxu",
+        "Li, Jingyuan"
+      ],
+      "short_names": [
+        "Zheng Y",
+        "Li Q",
+        "Freiberger MI",
+        "Song H",
+        "Hu G",
+        "Zhang M",
+        "Gu R",
+        "Li J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2587-0232",
+        "ORCID: 0000-0003-2926-1864"
+      ],
+      "affiliations": [
+        "School of Physics, Zhejiang University, Hangzhou 310058, PR China.",
+        "School of Physics, Zhejiang University, Hangzhou 310058, PR China.",
+        "Protein Physiology Lab, Departamento de Quimica Biologica, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires-CONICET-IQUIBICEN, Buenos Aires C1428EGA, Argentina.",
+        "School of Physics, Zhejiang University, Hangzhou 310058, PR China.",
+        "School of Physics, Zhejiang University, Hangzhou 310058, PR China.",
+        "School of Physics, Zhejiang University, Hangzhou 310058, PR China.",
+        "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, PR China.",
+        "School of Physics, Zhejiang University, Hangzhou 310058, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Yuchuan",
+        "short_name": "Zheng Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Qixiu",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, PR China."
+        ]
+      },
+      {
+        "full_name": "Freiberger, Maria I",
+        "short_name": "Freiberger MI",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Physiology Lab, Departamento de Quimica Biologica, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires-CONICET-IQUIBICEN, Buenos Aires C1428EGA, Argentina."
+        ]
+      },
+      {
+        "full_name": "Song, Haoyu",
+        "short_name": "Song H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, PR China."
+        ]
+      },
+      {
+        "full_name": "Hu, Guorong",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Moxin",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, PR China."
+        ]
+      },
+      {
+        "full_name": "Gu, Ruoxu",
+        "short_name": "Gu R",
+        "identifiers": [
+          "0000-0003-2587-0232"
+        ],
+        "affiliations": [
+          "School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingyuan",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0003-2926-1864"
+        ],
+        "affiliations": [
+          "School of Physics, Zhejiang University, Hangzhou 310058, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2024 Sep 9",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/20 18:42",
+    "fetched_at": "2026-09-21 09:42:46"
+  },
+  "links": {
+    "cites": [
+      "40524189"
+    ],
+    "refs": [],
+    "similar": [
+      "39163306",
+      "33355572",
+      "38739602",
+      "38987470",
+      "28493424",
+      "38018910",
+      "33945530",
+      "31441158",
+      "34504009",
+      "29276882",
+      "34845619",
+      "30840442",
+      "32403216",
+      "39093570",
+      "30813315",
+      "31809054",
+      "34656328",
+      "30979035",
+      "34680048",
+      "38118365",
+      "30865832",
+      "36641212",
+      "25863585",
+      "28448138",
+      "26226419",
+      "37108059",
+      "31021441",
+      "27844185",
+      "28834051",
+      "30091924",
+      "25207671",
+      "36674958",
+      "25496281",
+      "36084124",
+      "32621228",
+      "37442414",
+      "30909517",
+      "35944496",
+      "24329095",
+      "29990433",
+      "30366362",
+      "34799573",
+      "29382046",
+      "33623120",
+      "35609776",
+      "39056166",
+      "32579908",
+      "35725761",
+      "29733855",
+      "32771522",
+      "32020911",
+      "28554553",
+      "32696379",
+      "30002402",
+      "23170892",
+      "35074392",
+      "32925900",
+      "32696367",
+      "28394890",
+      "32696395",
+      "29716994",
+      "28926706",
+      "35762718",
+      "37838830",
+      "33587794",
+      "30471688",
+      "33382616",
+      "25974317",
+      "36084347",
+      "33876640",
+      "26387104",
+      "24098099",
+      "35436286",
+      "32696383",
+      "24871565",
+      "25919886",
+      "34610267",
+      "29808548",
+      "30813629",
+      "33591749",
+      "32859072",
+      "26742101",
+      "30316104",
+      "26575776",
+      "37407505",
+      "26735936",
+      "31756104",
+      "24606139",
+      "31052346",
+      "26387102",
+      "25544254",
+      "24211251",
+      "28365882",
+      "29306779",
+      "32323533",
+      "37452752",
+      "32227937",
+      "33230318",
+      "38928405",
+      "30066087",
+      "30413085",
+      "36671509",
+      "36350035",
+      "37722056",
+      "36917561",
+      "37106781",
+      "35245498",
+      "39094909",
+      "36778236",
+      "37153862",
+      "39276130",
+      "38094164",
+      "39354680",
+      "38222029",
+      "39254158"
+    ],
+    "review": [
+      "39163306",
+      "33355572",
+      "31441158",
+      "30840442",
+      "32403216",
+      "39093570",
+      "30979035",
+      "34680048",
+      "38118365",
+      "25863585",
+      "26226419",
+      "31021441",
+      "30909517",
+      "29382046",
+      "32020911",
+      "28554553",
+      "23170892",
+      "26387104",
+      "34610267",
+      "30813629",
+      "33591749",
+      "30316104",
+      "24606139",
+      "26387102",
+      "25544254",
+      "29306779",
+      "30066087",
+      "30413085",
+      "36671509",
+      "39094909"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c00930",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "42094486",
+    "doi": "10.64898/2026.04.28.721359",
+    "title": "SPPIDER-seq: Sequence-based partner-aware predictor of protein-protein interaction sites."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Sequence-based protein-protein interaction (PPI) site predictors typically analyze proteins in isolation, neglecting partner-specific context that is critical for interface specificity, particularly in transient and disordered interactions. RESULTS: We introduce SPPIDER-seq, a partner-aware PPI site prediction framework that combines pretrained ESM-2 embeddings with a cross-attention architecture to enable residue-level conditioning on interacting partners. We curated non-redundant protein-peptide interaction datasets from BioLiP and used them to train and benchmark two complementary models: a receptor-centric model optimized for structured interfaces and a peptide-centric model tailored to disordered, motif-driven binding. On blind benchmarks, SPPIDER-seq achieved AUROC values up to 0.797 and MCC values up to 0.269, outperforming AlphaFold3 on peptide-mediated and disordered interfaces while remaining complementary on globular complexes. Application to 341 TP53 interaction partners revealed coherent, partner-specific interface patterns across both structured and intrinsically disordered regions.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Porollo, Aleksey",
+        "Jadhav, Om",
+        "Alvarez, Aaron",
+        "Chen, Jichao"
+      ],
+      "short_names": [
+        "Porollo A",
+        "Jadhav O",
+        "Alvarez A",
+        "Chen J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3202-5099",
+        "ORCID: 0009-0007-6937-8465",
+        "ORCID: 0009-0003-9036-9847",
+        "ORCID: 0000-0003-2749-8550"
+      ],
+      "affiliations": [
+        "Department of Biostatistics, Health Informatics and Data Sciences, the University of Cincinnati College of Medicine, Cincinnati, OH, USA 45267.",
+        "Department of Computer Science, the University of Cincinnati College of Engineering and Applied Science, Cincinnati, OH, USA 45221.",
+        "Department of Computer Science, the University of Cincinnati College of Engineering and Applied Science, Cincinnati, OH, USA 45221.",
+        "Division of Pulmonary Biology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, USA 45229.",
+        "Department of Pediatrics, the University of Cincinnati College of Medicine, Cincinnati, OH, USA 45229."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Porollo, Aleksey",
+        "short_name": "Porollo A",
+        "identifiers": [
+          "0000-0002-3202-5099"
+        ],
+        "affiliations": [
+          "Department of Biostatistics, Health Informatics and Data Sciences, the University of Cincinnati College of Medicine, Cincinnati, OH, USA 45267."
+        ]
+      },
+      {
+        "full_name": "Jadhav, Om",
+        "short_name": "Jadhav O",
+        "identifiers": [
+          "0009-0007-6937-8465"
+        ],
+        "affiliations": [
+          "Department of Computer Science, the University of Cincinnati College of Engineering and Applied Science, Cincinnati, OH, USA 45221."
+        ]
+      },
+      {
+        "full_name": "Alvarez, Aaron",
+        "short_name": "Alvarez A",
+        "identifiers": [
+          "0009-0003-9036-9847"
+        ],
+        "affiliations": [
+          "Department of Computer Science, the University of Cincinnati College of Engineering and Applied Science, Cincinnati, OH, USA 45221."
+        ]
+      },
+      {
+        "full_name": "Chen, Jichao",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0003-2749-8550"
+        ],
+        "affiliations": [
+          "Division of Pulmonary Biology, Cincinnati Children's Hospital Medical Center, Cincinnati, OH, USA 45229.",
+          "Department of Pediatrics, the University of Cincinnati College of Medicine, Cincinnati, OH, USA 45229."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 May 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/07 06:35",
+    "fetched_at": "2026-09-18 03:06:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41534519",
+      "41145424",
+      "40471987",
+      "40133787",
+      "39607707",
+      "39467119",
+      "39117802",
+      "38718835",
+      "38493120",
+      "38361067",
+      "38225382",
+      "37522378",
+      "36927031",
+      "36851914",
+      "36702895",
+      "36477806",
+      "34967936",
+      "34903827",
+      "34265844",
+      "34232869",
+      "33932560",
+      "33875885",
+      "32696376",
+      "29860432",
+      "29730529",
+      "29681526",
+      "28886379",
+      "28149884",
+      "26460190",
+      "26354465",
+      "26000851",
+      "25531225",
+      "24651012",
+      "23516555",
+      "23352836",
+      "23263379",
+      "22846459",
+      "20541943",
+      "20516128",
+      "19712106",
+      "17629549",
+      "17586545",
+      "17546660",
+      "17152079",
+      "16216358",
+      "15102456",
+      "14737190",
+      "11948787",
+      "10592235",
+      "9653027",
+      "8552589"
+    ],
+    "similar": [
+      "42094486",
+      "42289971",
+      "41959048",
+      "42475469",
+      "41534519",
+      "25286318",
+      "21682895",
+      "39763873",
+      "42190366",
+      "31207240",
+      "42450121",
+      "23056474",
+      "22701576",
+      "40883823",
+      "41174305",
+      "38238291",
+      "20502673",
+      "28968673",
+      "30020406",
+      "42335477",
+      "22574904",
+      "42015301",
+      "24661439",
+      "23990768",
+      "41889978",
+      "42046069",
+      "18831774",
+      "16287935",
+      "22457720",
+      "39707457",
+      "40888747",
+      "22194998",
+      "37313049",
+      "40403066",
+      "22174268",
+      "17517763",
+      "28381244",
+      "16618368",
+      "40301762",
+      "29039919",
+      "40684093",
+      "19412530",
+      "42072649",
+      "38064959",
+      "41512952",
+      "38996881",
+      "38079339",
+      "42503799",
+      "16948160",
+      "21879107",
+      "41257586",
+      "38166858",
+      "26157620",
+      "26684000",
+      "26297830",
+      "42083872",
+      "42085407",
+      "41648466",
+      "30536635",
+      "28387819",
+      "41487137",
+      "34964176",
+      "23233352",
+      "42377576",
+      "41280851",
+      "22468754",
+      "18616991",
+      "41435823",
+      "42124720",
+      "31112188",
+      "22373313",
+      "24339765",
+      "36851914",
+      "35574504",
+      "29716994",
+      "29028926",
+      "33087759",
+      "23912807",
+      "40970903",
+      "23436397",
+      "36458437",
+      "20823312",
+      "41454828",
+      "32112804",
+      "42482125",
+      "42511585",
+      "41977286",
+      "35150231",
+      "41031876",
+      "41053908",
+      "32722039",
+      "41677811",
+      "31303974",
+      "17480235",
+      "28073761",
+      "40320752",
+      "26268369",
+      "42000821",
+      "40138319",
+      "19325869"
+    ],
+    "review": [
+      "42094486",
+      "36851914"
+    ],
+    "pmc": [
+      "13142516"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42094486/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.04.28.721359",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

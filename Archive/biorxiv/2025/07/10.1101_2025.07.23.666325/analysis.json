@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.23.666325",
+  "title": "A knowledge-based distance metric highlights underperformance of variant effect predictors on gain-of-function missense variants",
+  "authors": "Gerasimavicius L; Marsh JA",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-28",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 3,
+  "one_liner_zh": "该文开发基于结构空间距离的度量SPDV评估错义变异效应预测器，虽涉及蛋白结构变异与功能机制，但对象非无序蛋白/IDR/相分离，且无PPI结合机制建模或AI/物理模拟方法，仅属边缘相关。",
+  "abstract": "Most current variant effect predictors (VEPs) are less effective at identifying non-loss-of-function (non-LOF) disease variants, which arise due to a gain of function (GOF) or dominant-negative (DN) mechanism. Previously, we showed that Extent of Disease Clustering (EDC), a structure-derived metric, can be used to prioritize putative non-LOF genes due to the tendency of their pathogenic missense variants to cluster. We also introduced a structure-derived spatial distance metric, Spatial Proximity to Disease Variants (SPDV), which proved useful for scoring RyR1 variants. Here, we apply EDC and SPDV across thousands of human disease genes. In comparison with 72 variant effect predictors (VEPs), SPDV exceeds or is at least as effective as half of the tested models at identifying dominant disease variants. When applied to GOF variants, SPDV performs similarly to top VEPs. We show that SPDV performance improves with increasing target EDC values and identify an EDC threshold after which SPDV consistently surpasses all other predictors. Its use as an analytical metric enables the identification of a subset of putative GOF disease genes where current VEP methods underperform relative to SPDV, indicating they may be improved by incorporating spatial distance information.",
+  "abstract_zh": "目前大多数变异效应预测因子（VEPs）在识别非功能缺失（non-LOF）疾病变异方面效果不佳，这些变异源于功能获得（GOF）或显性负效应（DN）机制。此前，我们展示了疾病聚类程度（EDC），一种基于结构的度量，可用于优先排序推定非LOF基因，因为其致病性错义变异倾向于聚类。我们还引入了一种基于结构的空间距离度量，即与疾病变异的空间邻近性（SPDV），该度量在评分RyR1变异方面被证明有效。在此，我们将EDC和SPDV应用于数千个人类疾病基因。与72种变异效应预测因子（VEPs）相比，SPDV在识别显性疾病变异方面优于或至少与半数测试模型相当。当应用于GOF变异时，SPDV的表现与顶级VEPs相似。我们表明，SPDV的性能随着目标EDC值的增加而提高，并确定了一个EDC阈值，超过该阈值后，SPDV始终超越所有其他预测因子。其作为分析度量的使用能够识别出一部分推定GOF疾病基因，在这些基因中，当前VEP方法相对于SPDV表现不佳，表明通过纳入空间距离信息可能得到改进。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666325",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666325",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.23.666325/index.html"
+}

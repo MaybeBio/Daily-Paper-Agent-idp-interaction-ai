@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.12.699173",
+  "title": "Protein-peptide Interaction Representation Learning with Pretrained Language Models",
+  "authors": "Xinke Zhan; Silong Zhai; Tiantao Liu; Shaolong Lin; Tao Bi; Bingwen Zhu; Shirley W.I. Siu",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-13",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 7,
+  "one_liner_zh": "提出基于预训练语言模型ESMC和Rosetta能量分数的PepInter框架，从结构衍生伪蛋白-肽对中学习互作表征，用于蛋白-肽互作分类与亲和力预测；虽对象为肽段而非IDP，但其互作表征学习与能量引导预训练思路对无序蛋白介导的PPI机制建模有可迁移启发。",
+  "abstract": "Protein-peptide Interactions (PpIs) paly essential roles in diverse cellular processes, yet their systematic identification remains challenging due to the limited availability of experimentally annotated protein-peptide interaction data. To address this challenge, we present PepInter, a sequence-based Deep Learning (DL) framework that leverages large-scale pretraining on structurally derived pseudo protein-peptide pairs to learn interaction-relevant representations. Specifically, energy-dominant peptide fragments are extracted from protein complexes curated from non-redundant Protein Data Bank (PDB) structures, enabling the construction of pseudo protein-peptide interaction pairs that capture interface interaction patterns shared with canonical protein-protein interactions. This strategy allows the model to acquire interaction-aware priors in the absence of large-scale annotated protein-peptide complex datasets. Built upon the ESM-Cambrian (ESMC) architecture, PepInter adopts a two-stage pretraining strategy. In the first stage, masked language modeling is used to learn general protein sequence representations. In the second stage, the model is further trained to predict Rosetta-derived energetic scores, explicitly incorporating structural interaction signals into the learned embeddings. Following pretraining, PepInter is fine-tuned for both protein-peptide interaction classification and peptide bioactivity regression tasks. Across multiple benchmark datasets, including protein-peptide binding affinity prediction, PepInter consistently outperforms existing baseline methods and demonstrates strong generalization in identifying biologically meaningful PpIs. Case studies further highlight its ability to recover known interaction patterns and predict novel protein-peptide interactions. Together, these results establish PepInter as a scalable and effective framework for protein-peptide interaction prediction, with strong potential to accelerate peptide-based drug discovery.",
+  "abstract_zh": "蛋白质-肽相互作用（Protein-peptide Interactions, PpIs）在多种细胞过程中发挥关键作用，然而，由于实验注释的蛋白质-肽相互作用数据有限，其系统性识别仍具挑战性。为应对这一挑战，我们提出了PepInter，一种基于序列的深度学习（Deep Learning, DL）框架，利用大规模预训练于结构衍生的伪蛋白质-肽对，以学习与相互作用相关的表征。具体而言，从非冗余蛋白质数据银行（Protein Data Bank, PDB）结构中精选的蛋白质复合物中提取能量主导的肽片段，从而构建伪蛋白质-肽相互作用对，这些对捕获了与典型蛋白质-蛋白质相互作用共享的界面相互作用模式。该策略使模型在缺乏大规模注释的蛋白质-肽复合物数据集的情况下，能够获得相互作用感知的先验知识。基于ESM-Cambrian（ESMC）架构，PepInter采用两阶段预训练策略。第一阶段，使用掩码语言建模学习通用蛋白质序列表征。第二阶段，模型进一步训练以预测Rosetta衍生的能量评分，将结构相互作用信号明确纳入学习到的嵌入中。预训练后，PepInter针对蛋白质-肽相互作用分类和肽生物活性回归任务进行微调。在多个基准数据集上，包括蛋白质-肽结合亲和力预测，PepInter持续优于现有基线方法，并在识别生物学上有意义的PpIs方面展现出强大的泛化能力。案例研究进一步突显了其恢复已知相互作用模式和预测新型蛋白质-肽相互作用的能力。综合来看，这些结果确立了PepInter作为蛋白质-肽相互作用预测的可扩展且有效框架，并具有加速基于肽的药物发现的巨大潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.699173",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.12.699173",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.12.699173/index.html"
+}

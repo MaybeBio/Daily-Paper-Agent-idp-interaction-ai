@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "36272675",
+    "doi": "10.1016/j.gpb.2022.10.004",
+    "title": "TransDFL: Identification of Disordered Flexible Linkers in Proteins by Transfer Learning."
+  },
+  "content": {
+    "abstract": "Disordered flexible linkers (DFLs) are the functional disordered regions in proteins, which are the sub-regions of intrinsically disordered regions (IDRs) and play important roles in connecting domains and maintaining inter-domain interactions. Trained with the limited available DFLs, the existing DFL predictors based on the machine learning techniques tend to predict the ordered residues as DFLs, leading to a high falsepositive rate (FPR) and low prediction accuracy. Previous studies have shown that DFLs are extremely flexible disordered regions, which are usually predicted as disordered residues with high confidence [P(D) > 0.9] by an IDR predictor. Therefore, transferring an IDR predictor to an accurate DFL predictor is of great significance for understanding the functions of IDRs. In this study, we proposed a new predictor called TransDFL for identifying DFLs by transferring the RFPR-IDP predictor for IDR identification to the DFL prediction. The RFPR-IDP was pre-trained with IDR sequences to learn the general features between IDRs and DFLs, which is helpful to reduce the false positives in the ordered regions. RFPR-IDP was fine-tuned with the DFL sequences to capture the specific features of DFLs so as to be transferred into the TransDFL. Experimental results of two application scenarios (prediction of DFLs only in IDRs or prediction of DFLs in entire proteins) showed that TransDFL consistently outperformed other existing DFL predictors with higher accuracy. The corresponding web server of TransDFL can be freely accessed at http://bliulab.net/TransDFL/.",
+    "keywords": [
+      "Computational predictor",
+      "Disordered flexible linker",
+      "False positive rate",
+      "Intrinsically disordered protein",
+      "Transfer learning"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Machine Learning",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pang, Yihe",
+        "Liu, Bin"
+      ],
+      "short_names": [
+        "Pang Y",
+        "Liu B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China.",
+        "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China; Advanced Research Institute of Multidisciplinary Science, Beijing Institute of Technology, Beijing 100081, China. Electronic address: bliu@bliulab.net."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pang, Yihe",
+        "short_name": "Pang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bin",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Beijing Institute of Technology, Beijing 100081, China; Advanced Research Institute of Multidisciplinary Science, Beijing Institute of Technology, Beijing 100081, China. Electronic address: bliu@bliulab.net."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genomics, proteomics & bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Genomics Proteomics Bioinformatics"
+    ],
+    "pub_date": "2023 Apr",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/23 06:00",
+    "fetched_at": "2026-09-20 15:58:56"
+  },
+  "links": {
+    "cites": [
+      "41689628",
+      "40728619",
+      "40242292",
+      "38540707",
+      "38166858",
+      "37992088",
+      "36851916"
+    ],
+    "refs": [
+      "34850135",
+      "33875885",
+      "33381830",
+      "33237329",
+      "33090951",
+      "32702119",
+      "32173600",
+      "32112084",
+      "31713636",
+      "31659043",
+      "31521235",
+      "31329574",
+      "31032817",
+      "30657889",
+      "29091028",
+      "28011771",
+      "27787820",
+      "27587688",
+      "27307636",
+      "25391399",
+      "24773235",
+      "24739139",
+      "23026637",
+      "22208280",
+      "15738986",
+      "15281128",
+      "12538906",
+      "12022860",
+      "9254694",
+      "1180967"
+    ],
+    "similar": [
+      "36272675",
+      "32112084",
+      "27307636",
+      "36315580",
+      "33381830",
+      "32702119",
+      "39093570",
+      "36959451",
+      "37498545",
+      "36908253",
+      "37883249",
+      "31521235",
+      "31441158",
+      "32535960",
+      "38701796",
+      "34864847",
+      "36291695",
+      "38275091",
+      "31307006",
+      "34830151",
+      "37992088",
+      "32756939",
+      "29791766",
+      "30135358",
+      "38166858",
+      "38459060",
+      "33936509",
+      "31724233",
+      "24532081",
+      "39383002",
+      "39253485",
+      "35767567",
+      "29763584",
+      "27787828",
+      "37674132",
+      "35094056",
+      "35562983",
+      "37878721",
+      "35454181",
+      "29076577",
+      "33248138",
+      "30324701",
+      "30878482",
+      "35139468",
+      "35882686",
+      "33087759",
+      "31889261",
+      "32824743",
+      "36008992",
+      "34418423",
+      "34390736",
+      "36005688",
+      "23142703",
+      "36851914",
+      "33779503",
+      "34179096",
+      "29066345",
+      "31504193",
+      "30058229",
+      "31756456",
+      "30841624",
+      "34825861",
+      "36210722",
+      "29228892",
+      "33191750",
+      "35883444",
+      "38297184",
+      "32696395",
+      "37657994",
+      "30518031",
+      "33719450",
+      "29550429",
+      "36009025",
+      "34048569",
+      "35275927",
+      "35436286",
+      "33406091",
+      "26090958",
+      "36458437",
+      "36987865",
+      "32696351",
+      "35102880",
+      "31207240",
+      "27807972",
+      "29341926",
+      "37905972",
+      "32169592",
+      "34487138",
+      "30802457",
+      "27179590",
+      "34557680",
+      "34259536",
+      "25391399",
+      "31653121",
+      "32553192",
+      "38579676",
+      "36215254",
+      "35659505",
+      "33627133",
+      "23760157",
+      "30866736",
+      "34656333",
+      "28365882",
+      "34905768",
+      "33806614",
+      "29759983",
+      "33616531",
+      "38540707",
+      "37827403",
+      "35061901",
+      "36304335",
+      "37463458",
+      "37400558",
+      "33976270",
+      "38712287",
+      "38747347",
+      "38275292",
+      "38915510",
+      "38073129",
+      "37986812",
+      "39333476",
+      "34480923",
+      "38895487",
+      "14691223",
+      "36250006",
+      "39248370",
+      "37961106",
+      "39311135",
+      "38746434",
+      "37546943",
+      "38370681",
+      "25379372",
+      "34460380"
+    ],
+    "review": [
+      "36272675",
+      "39093570",
+      "36959451",
+      "31521235",
+      "31441158",
+      "24532081",
+      "33248138",
+      "35139468",
+      "35882686",
+      "34418423",
+      "34390736",
+      "36851914",
+      "37657994",
+      "35102880",
+      "31653121",
+      "37400558"
+    ],
+    "pmc": [
+      "10626177"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1672-0229(22)00132-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36272675/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36272675",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/gpb/article-lookup/doi/10.1016/j.gpb.2022.10.004",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

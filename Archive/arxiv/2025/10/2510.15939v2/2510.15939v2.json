@@ -1,0 +1,31 @@
+{
+  "source": "arxiv",
+  "source_id": "2510.15939v2",
+  "title": "Hallucinations in AlphaFold3 for Intrinsically Disordered Proteins with disorder in Biological Process Residues",
+  "doi": "",
+  "abstract": "Protein structure prediction has advanced significantly with the introduction of AlphaFold3, a diffusion-based model capable of predicting complex biomolecular interactions across proteins, nucleic acids, small molecules, and ions. While AlphaFold3 demonstrates high accuracy in folded proteins, its performance on intrinsically disordered proteins (IDPs), which comprise 30 to 40 percent of the human proteome and play critical roles in transcription, signaling, and disease, remains less explored. This study evaluated AlphaFold3's predictions of IDPs with a focus on intrinsically disordered regions (IDRs) using 72 proteins curated from the DisProt database. Predictions were generated across multiple random seeds and ensemble outputs, and residue-level pLDDT scores were compared with experimental disorder annotations. Our analysis reveals that 32 percent of residues are misaligned with DisProt, with percent representing hallucinations where AlphaFold3 incorrectly predicts order in disordered regions or vice versa. Additionally, 10 percent of residues exhibited context-driven misalignment, suggesting that AlphaFold3 implicitly incorporates stable structural assumptions. Importantly, 18 percent of residues associated with biological processes showed hallucinations, raising concerns about downstream implications in drug discovery and disease research. These findings highlight the limitations of AlphaFold3 in modeling IDRs, the need for refined hallucination metrics beyond the pLDDT, and the importance of integrating experimental disorder data to improve prediction reliability.",
+  "authors": [
+    "Shreya Gopalan",
+    "Sundar Narayanan"
+  ],
+  "published_date": "2025-10-08T08:54:46Z",
+  "updated_date": "2025-11-11T06:31:20Z",
+  "journal": "",
+  "category": "q-bio.QM",
+  "landing_url": "https://arxiv.org/abs/2510.15939v2",
+  "pdf_url": "https://arxiv.org/pdf/2510.15939v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.QM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2510.15939v2",
+    "raw_categories": [
+      "q-bio.QM"
+    ],
+    "journal_ref": ""
+  }
+}

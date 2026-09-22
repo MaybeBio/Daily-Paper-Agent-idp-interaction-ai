@@ -1,0 +1,139 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.18.724725",
+  "title": "A novel SXXLF motif in the FXR N-terminal domain mediates coregulator and interdomain interactions",
+  "doi": "10.64898/2026.05.18.724725",
+  "abstract": "The nuclear receptor superfamily is comprised of ligand-regulated transcription factors that contain an intrinsically disordered domain at the amino-terminal end, known as the N-terminal domain (NTD). While this poorly conserved domain is known to possess ligand-independent activation function (AF-1), few NTD functions are conserved between nuclear receptors (NRs). Identified roles in other receptors include androgen receptor (AR), estrogen receptor (ER) and mineralocorticoid receptor (MR). Here, we aim to define the function of the NTD of the farnesoid X receptor (FXR), a crucial regulator of lipid and bile acid metabolism. We show that the NTD engages in interdomain contact with other FXR domains. We also observe that the NTD interacts directly with coregulator proteins. Using mutagenesis, mammalian two-hybrid assays and molecular dynamics simulations, we identify and validate a novel SXXLF motif in the NTD which mediates interactions with both coregulators and the ligand binding domain. Mutation of the motif induces large changes in conformational and allosteric coupling in FXR. Our study identifies a new nuclear receptor-interacting motif that modulates the transcriptional activity of FXR. <h4>Graphical Abstract</h4> FXR-NTD regulates transcriptional activity through interdomain communication with the LBD and is also involved in co-activator recruitment. The SENLF motif is the first defined functional element within the FXR-NTD and mediates both NTD-LBD interaction and selective co-activator engagements to drive NTD-mediated transcriptional activity.",
+  "authors": [
+    "Villalona P",
+    "Pulahinge T",
+    "Yu T",
+    "Wenning J",
+    "Frisbie CJ",
+    "Magafas J",
+    "Okafor CD"
+  ],
+  "published_date": "2026-05-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.18.724725",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.18.724725.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1236089",
+    "raw_record": {
+      "id": "PPR1236089",
+      "source": "PPR",
+      "doi": "10.64898/2026.05.18.724725",
+      "title": "A novel SXXLF motif in the FXR N-terminal domain mediates coregulator and interdomain interactions",
+      "authorString": "Villalona P, Pulahinge T, Yu T, Wenning J, Frisbie CJ, Magafas J, Okafor CD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Villalona P",
+            "lastName": "Villalona",
+            "firstName": "Priscilla",
+            "initials": "P"
+          },
+          {
+            "fullName": "Pulahinge T",
+            "lastName": "Pulahinge",
+            "firstName": "Thilini",
+            "initials": "T"
+          },
+          {
+            "fullName": "Yu T",
+            "lastName": "Yu",
+            "firstName": "Tracy",
+            "initials": "T"
+          },
+          {
+            "fullName": "Wenning J",
+            "lastName": "Wenning",
+            "firstName": "Jordan",
+            "initials": "J"
+          },
+          {
+            "fullName": "Frisbie CJ",
+            "lastName": "Frisbie",
+            "firstName": "Crawford Joseph",
+            "initials": "CJ"
+          },
+          {
+            "fullName": "Magafas J",
+            "lastName": "Magafas",
+            "firstName": "Jill",
+            "initials": "J"
+          },
+          {
+            "fullName": "Okafor CD",
+            "lastName": "Okafor",
+            "firstName": "Denise",
+            "initials": "CD"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "The nuclear receptor superfamily is comprised of ligand-regulated transcription factors that contain an intrinsically disordered domain at the amino-terminal end, known as the N-terminal domain (NTD). While this poorly conserved domain is known to possess ligand-independent activation function (AF-1), few NTD functions are conserved between nuclear receptors (NRs). Identified roles in other receptors include androgen receptor (AR), estrogen receptor (ER) and mineralocorticoid receptor (MR). Here, we aim to define the function of the NTD of the farnesoid X receptor (FXR), a crucial regulator of lipid and bile acid metabolism. We show that the NTD engages in interdomain contact with other FXR domains. We also observe that the NTD interacts directly with coregulator proteins. Using mutagenesis, mammalian two-hybrid assays and molecular dynamics simulations, we identify and validate a novel SXXLF motif in the NTD which mediates interactions with both coregulators and the ligand binding domain. Mutation of the motif induces large changes in conformational and allosteric coupling in FXR. Our study identifies a new nuclear receptor-interacting motif that modulates the transcriptional activity of FXR. <h4>Graphical Abstract</h4>  FXR-NTD regulates transcriptional activity through interdomain communication with the LBD and is also involved in co-activator recruitment. The SENLF motif is the first defined functional element within the FXR-NTD and mediates both NTD-LBD interaction and selective co-activator engagements to drive NTD-mediated transcriptional activity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.05.18.724725"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42723231",
+            "reference": "Chembiochem : a European journal of chemical biology. \n    2026 Sep;27(17):e202500967",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-22",
+      "firstPublicationDate": "2026-05-20",
+      "firstIndexDate": "2026-05-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

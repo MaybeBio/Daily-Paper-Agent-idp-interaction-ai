@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42223083",
+  "title": "Coarse-Grained Simulations Reveal Salt- and Length-Dependent Condensation of G4C2 RNA Repeats.",
+  "authors": "Zhang, Qin; Valerio, Mariana; Grunewald, Linus; Borges-Araujo, Luis; Grunewald, Fabian; Wang, Shaomeng; Marrink, Siewert J; Gong, Yubin; Souza, Paulo C T",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2026-06-01",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用Martini 3粗粒化模拟研究G4C2 RNA重复序列的盐依赖相分离，虽对象为RNA而非无序蛋白，但聚焦凝聚体形成机制和序列长度效应，其物理模拟方法对IDR介导的相分离PPI建模有可迁移启发。",
+  "abstract": "RNA-RNA interactions drive the formation of biomolecular condensates via liquid-liquid phase separation (LLPS), but their underlying molecular mechanisms remain poorly understood. Here, we employ Martini 3 coarse-grained molecular simulations to investigate phase transitions of G4C2 RNA repeats horizontal line sequences implicated in neurodegenerative disorders such as ALS and FTD horizontal line across varying salt concentrations. The model captures salt-dependent transitions from dispersed to condensed-like states and suggests that dominant interaction patterns, including Watson-Crick-like and G-G contacts, shift with ionic strength. Notably, longer RNA sequences maintain phase-separated states at salt concentrations that dissolve shorter ones, in line with experimental observations. Our findings demonstrate the ability of the Martini coarse-grained model to reproduce key biophysical features of RNA LLPS, including sequence-length dependence and interaction specificity. This work provides molecular-level insight into RNA-driven phase separation and reveals how sequence composition and ionic strength govern the emergence and stability of RNA-rich assemblies.",
+  "abstract_zh": "RNA-RNA相互作用通过液-液相分离（LLPS）驱动生物分子凝聚体的形成，但其潜在分子机制仍知之甚少。在此，我们采用Martini 3粗粒化分子模拟研究G4C2 RNA重复序列（与ALS和FTD等神经退行性疾病相关的水平序列）在不同盐浓度下的相变。该模型捕捉了从分散态到凝聚态依赖于盐浓度的转变，并表明主导相互作用模式（包括类Watson-Crick和G-G接触）随离子强度变化而改变。值得注意的是，较长RNA序列在溶解较短序列的盐浓度下仍维持相分离状态，这与实验观察一致。我们的发现证明了Martini粗粒化模型能够再现RNA LLPS的关键生物物理特征，包括序列长度依赖性和相互作用特异性。这项工作为RNA驱动的相分离提供了分子层面的见解，并揭示了序列组成和离子强度如何调控RNA富集组装体的形成与稳定性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42223083/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42223083/",
+  "paper_page_path": "papers/pubmed/42223083/index.html"
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a secretome-wide in silico analysis of 554 small secretory proteins (SSPs) from *Magnaporthe oryzae*, predicting 66% as effectors, of which 68% are intrinsically disordered effector proteins (IDEPs). They describe relationships between effector localization (apoplast vs. cytoplasm) and disorder degree, and claim validation via molecular dynamics simulations, with implications for understanding effector structural stability and plant-pathogen interactions.
+- **Visible evidence base** Abstract text only; no methodological details, numerical data beyond percentages, statistical analyses, or simulation parameters provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, simulation protocols, and validation metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting bioinformatics survey of effector disorder in a major plant pathogen, but the claims are broad and the evidence base is entirely inaccessible from the supplied material. The percentages reported (66%, 68%) lack context, and the asserted relationships and simulation validation cannot be evaluated without the full text. The work may hold value for the plant-pathogen community, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying fungal plant pathogens, effector biology, intrinsic disorder in virulence proteins, and computational prediction of pathogenicity factors. The potential to identify new effectors via disorder features could interest those working on crop disease management and effector-triggered immunity.
+- **Major strengths** The study addresses a relevant and under-explored question about structural stability of effectors in a globally important pathogen. The scale of analysis (554 SSPs) suggests a systematic approach. The focus on intrinsic disorder as a functional feature is timely and could offer practical utility for effector prediction.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that 66% of SSPs were predicted as effectors and 68% of these were intrinsically disordered effector proteins, with peculiar relationships between localization and disorder degree.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no methodological details on how effectors were predicted, what criteria defined intrinsic disorder, how localization was assigned, or what statistical tests supported the claimed relationships. The percentages are presented without confidence intervals, error estimates, or comparison to known effector sets.
+  - **Why it matters** Without these details, the core quantitative claims cannot be assessed for robustness or reproducibility. The relationships between localization and disorder are asserted but not demonstrated with any supporting data.
+  - **Resolution test** Provide the full methods, including prediction tools, thresholds, and validation approaches, and present the localization-disorder relationships with appropriate statistical measures and visualizations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation adequacy
+  - **Claim pointer** The abstract states that findings were "further validated by molecular dynamics simulation studies."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given on which proteins were simulated, simulation length, force fields, or what specific properties were validated. The term "validated" is ambiguous and could imply confirmation of disorder predictions, foldability, or dynamic behavior, but the abstract does not clarify.
+  - **Why it matters** Molecular dynamics simulations are computationally intensive and typically applied to a subset of proteins. Without specifying the subset and the validation criteria, the claim of validation is unverifiable and potentially overstated.
+  - **Resolution test** Describe the simulation setup, the number and selection of proteins simulated, and the specific metrics used to validate the disorder and foldability predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual framing
+  - **Claim pointer** The abstract claims the study "provides definite clues toward unraveling the mystery behind the importance of structural distortions in effectors and their impact on plant-pathogen interactions."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The phrase "definite clues" is vague and overstates the inferential power of a purely computational survey. The abstract does not connect disorder features to functional outcomes in host cells, such as immune suppression or virulence contribution.
+  - **Why it matters** The broader significance claim extends beyond the presented data. Without functional validation or clear mechanistic links, the impact on plant-pathogen interactions remains speculative.
+  - **Resolution test** Either temper the claim to reflect the descriptive nature of the study or provide additional evidence linking disorder to known effector functions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of SSPs
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "small secretory proteins (SSPs)" but does not define the size or secretion criteria used to select the 554 proteins.
+  - **Required correction** Specify the size cutoff and secretion prediction method in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Six distinct classes of disordered effectors"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions six classes but does not describe what defines these classes or how they were derived.
+  - **Required correction** Briefly define the classification scheme or refer to a figure or table in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reporting
+  - **Affected element** Percentages
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The percentages (66%, 68%) are reported without denominators or context, making it unclear if they refer to the total SSPs or a subset.
+  - **Required correction** Clarify the base population for each percentage and consider adding absolute numbers.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core quantitative claims and the validation assertion cannot be evaluated from the abstract alone. The lack of methodological transparency and validation details prevents assessment of technical soundness.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of disorder analysis to a secretome-wide effector set in *M. oryzae* is not entirely novel, as similar approaches exist for other pathogens, but the scale and focus may offer incremental value.
+  - Scientific importance: Potentially relevant for plant pathology and effector biology, but the abstract does not demonstrate a major conceptual advance or broad applicability beyond this pathogen.
+  - Interdisciplinary readership: Limited. The topic is specialized, and the abstract does not frame the findings for a general scientific audience.
+  - Technical soundness: Not assessable from the abstract. The absence of methods and validation details precludes any judgment.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., SSPs, IDEPs) without sufficient explanation for a broad readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological or validation detail to support the claims. A full manuscript review would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that 66% of SSPs are effectors and 68% are IDEPs is unsupported without prediction methods and error metrics.
+- The assertion of "peculiar relationships" between localization and disorder is unsupported without statistical evidence.
+- The claim of validation via molecular dynamics simulations is unsupported without simulation details.
+- The statement about "definite clues" toward understanding effector structural distortions and plant-pathogen interactions is speculative and not supported by the abstract data.
+- The potential to "identify new effectors" based on disorder features is plausible but not demonstrated.

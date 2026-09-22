@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "41509380",
+    "doi": "10.64898/2025.12.23.696224",
+    "title": "Residue-Specific Modulation of Aggregation-Associated Interactions by Spermine in Tau, alpha-Synuclein, and Abeta40."
+  },
+  "content": {
+    "abstract": "Preventing neurodegenerative diseases associated with intrinsically disordered proteins (IDPs) remains a major challenge due to the lack of a detailed, sequence-level picture of disease-relevant structures formation and the influence of cellular factors that modulate these transitions. Here, we probe spermine (Spm), a +4 charged polyamine abundant in cells, to determine how it reshapes the conformational ensembles and fibril-associated contact propensities of three disease-linked IDPs: the K18 domain of Tau, alpha-synuclein (alphaS) and amyloid-beta40 (Abeta40). Using long all-atom molecular dynamics simulations across a range of Spm concentrations, we quantify residue-level changes in intra-chain contacts relative to native contacts observed in fibrils, and corroborate computational predictions with ThT fluorescence assays for Tau constructs. Spm acts in a sequence- and region-specific manner, not simply through overall net charge. In K18, Spm binds near the fourth microtubule binding repeat, disrupting intra-chain contacts associated with Alzheimer's fibril structures and thereby inhibiting aggregation. In alphaS, Spm binds mainly to acidic residues in the C-terminal half of the sequence and redistributes intramolecular contacts in a way that increases contact propensity in the central aggregation-prone region and therefore aggregation, in line with previous studies showing Spm-enhanced alphaS aggregation. For Abeta40, Spm neutralizes acidic residues near positions 22-24 and shifts the balance of intra-chain interactions toward its aggregation-prone core, resulting in a net promotion of fibril-like conformations. These divergent effects show that net charge alone cannot predict polyamine influence on IDPs. Instead, residue-specific binding hotspots and local reweighting of aggregation-linked contacts determine whether Spm promotes or suppresses fibril-like conformations. This combined simulation-experimental framework provides a mechanistic basis for how small molecules reprogram IDP conformational ensembles and suggests principles for designing ligands that exploit similar residue-level modulation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saha, Debasis",
+        "Xun, Sun",
+        "Luo, Jinghui",
+        "Zheng, Wenwei"
+      ],
+      "short_names": [
+        "Saha D",
+        "Xun S",
+        "Luo J",
+        "Zheng W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9603-009X"
+      ],
+      "affiliations": [
+        "College of Integrative Sciences and Arts, Arizona State University, Mesa, AZ, 85212, USA.",
+        "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland.",
+        "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland.",
+        "College of Integrative Sciences and Arts, Arizona State University, Mesa, AZ, 85212, USA.",
+        "Center for Biological Physics, Arizona State University, Tempe, AZ, 85281, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saha, Debasis",
+        "short_name": "Saha D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Integrative Sciences and Arts, Arizona State University, Mesa, AZ, 85212, USA."
+        ]
+      },
+      {
+        "full_name": "Xun, Sun",
+        "short_name": "Xun S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Luo, Jinghui",
+        "short_name": "Luo J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Paul Scherrer Institute, Forschungsstrasse 111, 5232 Villigen PSI, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Zheng, Wenwei",
+        "short_name": "Zheng W",
+        "identifiers": [
+          "0000-0002-9603-009X"
+        ],
+        "affiliations": [
+          "College of Integrative Sciences and Arts, Arizona State University, Mesa, AZ, 85212, USA.",
+          "Center for Biological Physics, Arizona State University, Tempe, AZ, 85281, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Dec 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/09 07:07",
+    "fetched_at": "2026-09-17 23:38:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41271735",
+      "40423592",
+      "38559297",
+      "38553453",
+      "37489886",
+      "37118547",
+      "36597124",
+      "36512636",
+      "35373198",
+      "35147406",
+      "34374536",
+      "34265844",
+      "33723967",
+      "33686854",
+      "32157247",
+      "30611304",
+      "30061982",
+      "29604882",
+      "28983098",
+      "27810929",
+      "26324905",
+      "25567526",
+      "25556536",
+      "25544475",
+      "25400522",
+      "24623599",
+      "23882258",
+      "23509981",
+      "23199922",
+      "20628786",
+      "19843697",
+      "19015532",
+      "18771286",
+      "17657567",
+      "17468747",
+      "17455909",
+      "16458552",
+      "16392929",
+      "16211538",
+      "15855160",
+      "15610017",
+      "15116359",
+      "15103328",
+      "12435752",
+      "11893734",
+      "11606569",
+      "11560511",
+      "11145981",
+      "10940231",
+      "8621429",
+      "8545054",
+      "6667333",
+      "6175858",
+      "2484340",
+      "2455299",
+      "1706519"
+    ],
+    "similar": [
+      "41509380",
+      "41889760",
+      "34494046",
+      "33903234",
+      "23199922",
+      "36310204",
+      "23607785",
+      "40994307",
+      "35167081",
+      "19576220",
+      "30030380",
+      "37407638",
+      "33333378",
+      "40853068",
+      "28710275",
+      "25691742",
+      "35373198",
+      "23374074",
+      "41659508",
+      "29364151",
+      "33581430",
+      "32732434",
+      "39255305",
+      "25389903",
+      "35836937",
+      "40420425",
+      "25869255",
+      "15610017",
+      "26332674",
+      "23811057",
+      "37253119",
+      "39504036",
+      "32143150",
+      "41534833",
+      "38274251",
+      "40423094",
+      "39087984",
+      "26125953",
+      "25284680",
+      "29944336",
+      "33719460",
+      "19475665",
+      "27226637",
+      "37489886",
+      "36206480",
+      "34966788",
+      "39046235",
+      "32623047",
+      "40207671",
+      "34506119",
+      "30875980",
+      "20404210",
+      "37114769",
+      "38077065",
+      "40198698",
+      "29601727",
+      "39073874",
+      "30076733",
+      "28406293",
+      "35298810",
+      "38803339",
+      "33345970",
+      "21044603",
+      "29888220",
+      "30935958",
+      "35926717",
+      "32707418",
+      "34032430",
+      "35944496",
+      "34636232",
+      "28075555",
+      "29704492",
+      "30913885",
+      "32832664",
+      "26827680",
+      "37887589",
+      "32696367",
+      "36219395",
+      "36379279",
+      "23139905",
+      "30271927",
+      "20709081",
+      "28759722",
+      "31799519",
+      "29750857",
+      "38953933",
+      "34684701",
+      "39651184",
+      "40475647",
+      "27936491",
+      "27531743",
+      "39980393",
+      "41579116",
+      "36975100",
+      "19345692",
+      "32371882",
+      "22734715",
+      "31351173",
+      "35569410",
+      "31776941"
+    ],
+    "review": [
+      "41509380",
+      "29364151",
+      "40423094",
+      "30875980"
+    ],
+    "pmc": [
+      "12776036"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41509380/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2025.12.23.696224",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

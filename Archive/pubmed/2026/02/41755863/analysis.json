@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41755863",
+  "title": "Diterpene Molecular Glue Stabilizes Protein-Protein Interactions of a Disordered Phosphoprotein that Controls Translational Repression.",
+  "authors": "Ogino, Nanami; Masuda, Ryoma; Igaue, Shota; Arita, Mei; Matsumura, Ami; Ieda, Yumi; Muroi, Makoto; Matsumoto, Ken; Nakagawa, Reiko; Higuchi, Yusuke; Osada, Hiroyuki; Yoshida, Minoru; Kii, Isao; Ohkanda, Junko",
+  "journal": "JACS Au",
+  "published_date": "2026-02-27",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究分子胶稳定剂12-dFC增强14-3-3与无序磷蛋白GIGYF2的PPI并调控翻译抑制，对象为IDP且涉及PPI机制，但方法以生化/蛋白组学为主，缺乏AI或物理模拟建模，故评6分。",
+  "abstract": "Chemical stabilization of protein-protein interactions involving intrinsically disordered phosphoproteins is an emerging yet challenging problem. Synthetic agents capable of achieving this goal are desirable for advancing understanding of the biological roles of these transient interactions and for developing new therapeutics. 12-Deoxyfusicoccin (12-dFC), a semisynthetic derivative of the phytotoxin fusicoccin A, exhibits significant antitumor activity in animal models while its parent compound and 12-hydroxyfusicoccin (12-hFC) are inactive, although the molecular mechanism underlying this differential activity has remained unclear. Here, through tandem-affinity proteomics, we identified GRB10-interacting GYF protein 2 (GIGYF2), a largely disordered scaffold protein in mRNA translational repression complexes as a 14-3-3 binding partner selectively stabilized by 12-dFC but not 12-hFC. Biochemical analyses revealed that 12-dFC promotes cooperative binding of 14-3-3 to the mode-1 consensus motif KGVpS(546)IP in GIGYF2, enhancing binding affinity by approximately 50-fold. This stabilization enhanced GIGYF2's translational repressor function, suppressing protein synthesis and inhibiting cell proliferation. We further demonstrated that activation of AMP-activated protein kinase (AMPK), the cellular energy sensor kinase, enhanced 14-3-3 binding to wild-type GIGYF2 but not the S546A mutant, indicating that AMPK mediates S(546) phosphorylation. Importantly, S(546) phosphorylation increased significantly under starvation conditions, suggesting a GIGYF2-regulated stress-responsive pathway that suppresses protein synthesis to conserve ATP through reversible 14-3-3 binding. These findings demonstrate that 12-dFC is a potent molecular glue stabilizer of 14-3-3 interactions with intrinsically disordered phosphoproteins and offers a robust chemical basis for developing synthetic agents that target 14-3-3-mediated control of metabolic homeostasis.",
+  "abstract_zh": "涉及固有无序磷酸化蛋白的蛋白质-蛋白质相互作用的化学稳定是一个新兴且具有挑战性的的问题。能够实现这一目标的合成试剂对于增进理解这些瞬时相互作用的生物学角色以及开发新疗法具有重要意义。12-脱氧镰孢菌素（12-dFC），一种植物毒素镰孢菌素A的半合成衍生物，在动物模型中表现出显著的抗肿瘤活性，而其母体化合物和12-羟基镰孢菌素（12-hFC）则无活性，尽管这种差异活性的分子机制尚不清楚。在此，通过串联亲和蛋白质组学，我们鉴定了GRB10相互作用GYF蛋白2（GIGYF2），一种在mRNA翻译抑制复合物中主要无序的支架蛋白，作为14-3-3结合伙伴，其被12-dFC选择性稳定而非12-hFC。生化分析揭示，12-dFC促进14-3-3与GIGYF2中模式1共识基序KGVpS(546)IP的协同结合，将结合亲和力提高约50倍。这种稳定化增强了GIGYF2的翻译抑制功能，抑制蛋白质合成并抑制细胞增殖。我们进一步证明，AMP激活蛋白激酶（AMPK），即细胞能量传感器激酶的激活，增强了14-3-3与野生型GIGYF2的结合，但不与S546A突变体结合，表明AMPK介导S(546)磷酸化。重要的是，S(546)磷酸化在饥饿条件下显著增加，提示存在一种GIGYF2调控的应激响应通路，通过可逆的14-3-3结合抑制蛋白质合成以节约ATP。这些发现表明，12-dFC是14-3-3与固有无序磷酸化蛋白相互作用的强效分子胶稳定剂，并为开发靶向14-3-3介导的代谢稳态控制的合成试剂提供了坚实的化学基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41755863/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41755863/",
+  "paper_page_path": "papers/pubmed/41755863/index.html"
+}

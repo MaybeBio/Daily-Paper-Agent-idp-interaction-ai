@@ -1,0 +1,418 @@
+{
+  "identity": {
+    "pmid": "35233453",
+    "doi": "10.1021/acscentsci.1c01090",
+    "title": "Cryo-EM, Protein Engineering, and Simulation Enable the Development of Peptide Therapeutics against Acute Myeloid Leukemia."
+  },
+  "content": {
+    "abstract": "Cryogenic electron microscopy (cryo-EM) has emerged as a viable structural tool for molecular therapeutics development against human diseases. However, it remains a challenge to determine structures of proteins that are flexible and smaller than 30 kDa. The 11 kDa KIX domain of CREB-binding protein (CBP), a potential therapeutic target for acute myeloid leukemia and other cancers, is a protein which has defied structure-based inhibitor design. Here, we develop an experimental approach to overcome the size limitation by engineering a protein double-shell to sandwich the KIX domain between apoferritin as the inner shell and maltose-binding protein as the outer shell. To assist homogeneous orientations of the target, disulfide bonds are introduced at the target-apoferritin interface, resulting in a cryo-EM structure at 2.6 A resolution. We used molecular dynamics simulations to design peptides that block the interaction of the KIX domain of CBP with the intrinsically disordered pKID domain of CREB. The double-shell design allows for fluorescence polarization assays confirming the binding between the KIX domain in the double-shell and these interacting peptides. Further cryo-EM analysis reveals a helix-helix interaction between a single KIX helix and the best peptide, providing a possible strategy for developments of next-generation inhibitors.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Kaiming",
+        "Horikoshi, Naoki",
+        "Li, Shanshan",
+        "Powers, Alexander S",
+        "Hameedi, Mikhail A",
+        "Pintilie, Grigore D",
+        "Chae, Hee-Don",
+        "Khan, Yousuf A",
+        "Suomivuori, Carl-Mikael",
+        "Dror, Ron O",
+        "Sakamoto, Kathleen M",
+        "Chiu, Wah",
+        "Wakatsuki, Soichi"
+      ],
+      "short_names": [
+        "Zhang K",
+        "Horikoshi N",
+        "Li S",
+        "Powers AS",
+        "Hameedi MA",
+        "Pintilie GD",
+        "Chae HD",
+        "Khan YA",
+        "Suomivuori CM",
+        "Dror RO",
+        "Sakamoto KM",
+        "Chiu W",
+        "Wakatsuki S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0414-4776",
+        "ORCID: 0000-0003-0201-2796",
+        "ORCID: 0000-0002-6418-2793",
+        "ORCID: 0000-0002-8910-3078",
+        "ORCID: 0000-0001-5896-7968"
+      ],
+      "affiliations": [
+        "MOE Key Laboratory for Cellular Dynamics and Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230027, China.",
+        "Department of Bioengineering, Stanford University, Stanford, California 94305, United States.",
+        "Life Science Center for Survival Dynamics, University of Tsukuba, Tsukuba, Ibaraki 305-8577, Japan.",
+        "Department of Structural Biology, Stanford University, Stanford, California 94305, United States.",
+        "MOE Key Laboratory for Cellular Dynamics and Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230027, China.",
+        "Department of Bioengineering, Stanford University, Stanford, California 94305, United States.",
+        "Department of Chemistry, Stanford University, Stanford, California 94305, United States.",
+        "Department of Computer Science, Stanford University, Stanford, California 94305, United States.",
+        "Department of Structural Biology, Stanford University, Stanford, California 94305, United States.",
+        "Biosciences Division, SLAC National Accelerator Laboratory, Stanford University, Menlo Park, California 94025, United States.",
+        "Department of Bioengineering, Stanford University, Stanford, California 94305, United States.",
+        "Department of Pediatrics, Stanford University School of Medicine, Stanford, California 94305, United States.",
+        "Department of Computer Science, Stanford University, Stanford, California 94305, United States.",
+        "Department of Molecular and Cellular Physiology, Stanford University School of Medicine, Stanford, California 94305, United States.",
+        "Department of Computer Science, Stanford University, Stanford, California 94305, United States.",
+        "Department of Computer Science, Stanford University, Stanford, California 94305, United States.",
+        "Department of Pediatrics, Stanford University School of Medicine, Stanford, California 94305, United States.",
+        "Department of Bioengineering, Stanford University, Stanford, California 94305, United States.",
+        "CryoEM and Bioimaging Division, Stanford Synchrotron Radiation Lightsource, SLAC National Accelerator Laboratory, Stanford University, Menlo Park, California 94025, United States.",
+        "Department of Structural Biology, Stanford University, Stanford, California 94305, United States.",
+        "Biosciences Division, SLAC National Accelerator Laboratory, Stanford University, Menlo Park, California 94025, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Kaiming",
+        "short_name": "Zhang K",
+        "identifiers": [
+          "0000-0003-0414-4776"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory for Cellular Dynamics and Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230027, China.",
+          "Department of Bioengineering, Stanford University, Stanford, California 94305, United States."
+        ]
+      },
+      {
+        "full_name": "Horikoshi, Naoki",
+        "short_name": "Horikoshi N",
+        "identifiers": [],
+        "affiliations": [
+          "Life Science Center for Survival Dynamics, University of Tsukuba, Tsukuba, Ibaraki 305-8577, Japan.",
+          "Department of Structural Biology, Stanford University, Stanford, California 94305, United States."
+        ]
+      },
+      {
+        "full_name": "Li, Shanshan",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Cellular Dynamics and Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230027, China.",
+          "Department of Bioengineering, Stanford University, Stanford, California 94305, United States."
+        ]
+      },
+      {
+        "full_name": "Powers, Alexander S",
+        "short_name": "Powers AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Stanford University, Stanford, California 94305, United States.",
+          "Department of Computer Science, Stanford University, Stanford, California 94305, United States."
+        ]
+      },
+      {
+        "full_name": "Hameedi, Mikhail A",
+        "short_name": "Hameedi MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Stanford University, Stanford, California 94305, United States.",
+          "Biosciences Division, SLAC National Accelerator Laboratory, Stanford University, Menlo Park, California 94025, United States."
+        ]
+      },
+      {
+        "full_name": "Pintilie, Grigore D",
+        "short_name": "Pintilie GD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, California 94305, United States."
+        ]
+      },
+      {
+        "full_name": "Chae, Hee-Don",
+        "short_name": "Chae HD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Stanford University School of Medicine, Stanford, California 94305, United States."
+        ]
+      },
+      {
+        "full_name": "Khan, Yousuf A",
+        "short_name": "Khan YA",
+        "identifiers": [
+          "0000-0003-0201-2796"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, California 94305, United States.",
+          "Department of Molecular and Cellular Physiology, Stanford University School of Medicine, Stanford, California 94305, United States."
+        ]
+      },
+      {
+        "full_name": "Suomivuori, Carl-Mikael",
+        "short_name": "Suomivuori CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, California 94305, United States."
+        ]
+      },
+      {
+        "full_name": "Dror, Ron O",
+        "short_name": "Dror RO",
+        "identifiers": [
+          "0000-0002-6418-2793"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Stanford University, Stanford, California 94305, United States."
+        ]
+      },
+      {
+        "full_name": "Sakamoto, Kathleen M",
+        "short_name": "Sakamoto KM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Stanford University School of Medicine, Stanford, California 94305, United States."
+        ]
+      },
+      {
+        "full_name": "Chiu, Wah",
+        "short_name": "Chiu W",
+        "identifiers": [
+          "0000-0002-8910-3078"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, Stanford University, Stanford, California 94305, United States.",
+          "CryoEM and Bioimaging Division, Stanford Synchrotron Radiation Lightsource, SLAC National Accelerator Laboratory, Stanford University, Menlo Park, California 94025, United States."
+        ]
+      },
+      {
+        "full_name": "Wakatsuki, Soichi",
+        "short_name": "Wakatsuki S",
+        "identifiers": [
+          "0000-0001-5896-7968"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, Stanford University, Stanford, California 94305, United States.",
+          "Biosciences Division, SLAC National Accelerator Laboratory, Stanford University, Menlo Park, California 94025, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS central science"
+    ],
+    "journal_abbrev": [
+      "ACS Cent Sci"
+    ],
+    "pub_date": "2022 Feb 23",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/03 06:00",
+    "fetched_at": "2026-09-20 08:40:40"
+  },
+  "links": {
+    "cites": [
+      "42630969",
+      "38952323",
+      "38858498",
+      "37791881",
+      "37669364",
+      "36248264"
+    ],
+    "refs": [
+      "33139928",
+      "32170016",
+      "32042190",
+      "31796736",
+      "31787982",
+      "31253529",
+      "31160591",
+      "31080120",
+      "31015551",
+      "30833564",
+      "30733717",
+      "30097292",
+      "29720655",
+      "29507202",
+      "29503759",
+      "28665412",
+      "28250466",
+      "28165473",
+      "27485862",
+      "27241834",
+      "27211267",
+      "26278980",
+      "24253305",
+      "23651431",
+      "23384013",
+      "23000701",
+      "22972988",
+      "20383002",
+      "20124702",
+      "20057044",
+      "18462672",
+      "16859925",
+      "16253272",
+      "15837624",
+      "15264254",
+      "10222196",
+      "9413984",
+      "7568675"
+    ],
+    "similar": [
+      "35233453",
+      "40818174",
+      "19220000",
+      "31515273",
+      "12205094",
+      "27054660",
+      "35058484",
+      "41477325",
+      "26195786",
+      "15019774",
+      "37072438",
+      "30232260",
+      "25002472",
+      "10222196",
+      "41836077",
+      "34491719",
+      "9413984",
+      "27082784",
+      "40214262",
+      "28786199",
+      "15796530",
+      "30299652",
+      "20969867",
+      "12437352",
+      "17707401",
+      "32430574",
+      "11094091",
+      "32098872",
+      "34620716",
+      "40277178",
+      "38798381",
+      "9558319",
+      "16253272",
+      "24970129",
+      "39612645",
+      "10744749",
+      "41606988",
+      "16914730",
+      "23912807",
+      "15515068",
+      "31482116",
+      "39985947",
+      "22438798",
+      "12196545",
+      "14580193",
+      "9271393",
+      "32175735",
+      "23940332",
+      "36883372",
+      "10473588",
+      "25564305",
+      "27485862",
+      "40454677",
+      "23651431",
+      "19654879",
+      "37451233",
+      "41980966",
+      "14624582",
+      "42142388",
+      "37669364",
+      "22972988",
+      "35679404",
+      "26580746",
+      "36975198",
+      "40817135",
+      "16761278",
+      "16980541",
+      "40475472",
+      "31461845",
+      "21497608",
+      "28580914",
+      "38086054",
+      "11017047",
+      "35452454",
+      "35844960",
+      "42118388",
+      "39746942",
+      "40379699",
+      "38747396",
+      "33382616",
+      "33083802",
+      "21244843",
+      "14744133",
+      "36528064",
+      "34224597",
+      "10722651",
+      "35298814",
+      "41120715",
+      "24253305",
+      "39103467",
+      "28754059",
+      "24753318",
+      "31160591",
+      "33121486",
+      "29344776",
+      "14623102",
+      "37930544",
+      "37398044",
+      "31102356",
+      "29262364"
+    ],
+    "review": [
+      "35233453",
+      "40818174",
+      "39985947",
+      "37451233",
+      "42142388",
+      "31461845",
+      "24253305",
+      "29344776",
+      "37930544"
+    ],
+    "pmc": [
+      "8875425"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acscentsci.1c01090",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35233453/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35233453",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acscii/article-lookup/doi/10.1021/acscentsci.1c01090",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

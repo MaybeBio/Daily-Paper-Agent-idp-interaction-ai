@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34185520",
+  "title": "Force Field Benchmark of Amino Acids. 3. Hydration with Scaled Lennard-Jones Interactions.",
+  "authors": "Qiu, Yejie; Shan, Wenjie; Zhang, Haiyang",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2021-06-30",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过力场参数优化研究氨基酸水合作用，并评估其对折叠蛋白与无序蛋白(IDP)构象紧致度的影响，虽未直接研究PPI机制，但涉及IDP构象与蛋白-水互作平衡，对无序蛋白互作建模的力场基础有参考价值。",
+  "abstract": "Classical protein force fields were reported with too weak protein-water interactions relative to protein-protein interactions, leading to more compact structures and artificial protein aggregation. Here we investigated the impacts of scaled Lennard-Jones (LJ) interactions on the hydration of amino acids and the simulation of folded and intrinsically disordered proteins (IDPs). The obtained optimal scaling parameters reproduce accurately hydration free energies of neutral amino acid side chain analogues and do not affect the compactness and structural stability of folded proteins significantly. The scaling leads to less compact IDPs and varies from case to case. Strengthening the interactions between protein and water oxygen or hydrogen atoms by increasing the interacting LJ well depth (epsilon) appears more effective than weakening protein-protein interactions by reducing the interacting dispersion coefficients (C(6)). We demonstrate that weakening water-water interactions is a solution as well to obtaining more favorable protein-water interactions in an indirect way, although modern force fields like Amber ff19SB and a99SB-disp tend to use water models with strong water-water interactions. This is likely a compromise between strong protein-protein interactions and strong water-water interactions. Independent optimization of protein force fields and water models is therefore needed to make both interactions more close to reality, leading to good accuracy without bias or scaling.",
+  "abstract_zh": "经典蛋白质力场被报道存在蛋白质-水相互作用相对于蛋白质-蛋白质相互作用过弱的问题，导致结构更紧凑及人为的蛋白质聚集。在此，我们研究了缩放Lennard-Jones (LJ)相互作用对氨基酸水合作用以及折叠和 intrinsically disordered proteins (IDPs) 模拟的影响。获得的最优缩放参数能准确再现中性氨基酸侧链类似物的水合自由能，且对折叠蛋白质的紧凑性和结构稳定性影响不显著。该缩放导致IDPs更不紧凑，且效果因情况而异。通过增加相互作用的LJ井深（epsilon）来增强蛋白质与水氧或氢原子之间的相互作用，似乎比通过减少相互作用的色散系数（C(6)）来削弱蛋白质-蛋白质相互作用更为有效。我们证明，削弱水-水相互作用也是间接获得更有利蛋白质-水相互作用的解决方案，尽管现代力场如Amber ff19SB和a99SB-disp倾向于使用具有强水-水相互作用的水模型。这可能是强蛋白质-蛋白质相互作用与强水-水相互作用之间的折衷。因此，独立优化蛋白质力场和水模型是必要的，以使两种相互作用更接近现实，从而在无偏差或缩放的情况下实现良好准确性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34185520/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34185520/",
+  "paper_page_path": "papers/pubmed/34185520/index.html"
+}

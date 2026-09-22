@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40490992",
+  "title": "An efficient strategy for producing RNA-free Nucleocapsid protein of SARS-CoV-2 for biochemical and structural investigations.",
+  "authors": "Singh, Shweta; Gupta, Gagan D",
+  "journal": "FEBS open bio",
+  "published_date": "2025-06-10",
+  "window": {
+    "start": "2025-06-09",
+    "end": "2025-06-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文报道SARS-CoV-2核衣壳蛋白（含IDR）的无RNA纯化策略，虽涉及IDR和RNA结合，但无PPI机制建模且无AI/物理模拟方法，仅提供生化材料基础。",
+  "abstract": "The SARS-CoV-2 Nucleocapsid (N) protein plays a crucial role in genome packaging, replication, transcription, and pathogenesis, making it a promising target for antiviral drug development. However, its large intrinsically disordered regions and propensity to form RNA condensates pose significant challenges for recombinant expression and purification. In this study, we successfully expressed and purified full-length N protein with a cleavable N-terminal Thioredoxin (Trx) fusion to enhance solubility and stability. The acidic Trx tag helped in the efficient binding of basic N protein to an anion-exchange column, enabling complete removal of bound RNA. Through a four-step process-immobilized metal affinity chromatography (IMAC), anion exchange, TEV protease-mediated tag cleavage followed by a second IMAC to remove cleaved fragments, and final polishing by size-exclusion chromatography (SEC)-we obtained highly homogeneous, RNA-free N protein. A single well-defined peak on SEC and dynamic light scattering confirmed the homogeneity of the purified protein. Electrophoretic mobility shift assays revealed strong RNA-binding activity, as a nearly complete RNA shift was observed at N protein concentrations as low as 0.25 mum. Fluorescence polarization assays further quantified RNA-binding affinity, yielding a dissociation constant of ~28 nm. These results establish an effective strategy for obtaining nucleic acid-free N protein suitable for biochemical and structural studies. Ultimately, this work provides a foundation for high-resolution structural investigations and the development of novel antiviral therapeutics targeting the N protein to combat COVID-19.",
+  "abstract_zh": "SARS-CoV-2核衣壳（N）蛋白在基因组包装、复制、转录及致病性中发挥关键作用，使其成为抗病毒药物开发的有前景靶点。然而，其较大的固有无序区域及形成RNA凝聚体的倾向，为重组表达和纯化带来了显著挑战。在本研究中，我们通过可切割的N端硫氧还蛋白（Trx）融合标签成功表达并纯化了全长N蛋白，以增强其溶解性和稳定性。酸性Trx标签有助于碱性N蛋白高效结合阴离子交换柱，从而实现结合RNA的完全去除。通过四步流程——固定化金属亲和色谱（IMAC）、阴离子交换、TEV蛋白酶介导的标签切割后二次IMAC去除切割片段，以及最终通过尺寸排阻色谱（SEC）进行精纯——我们获得了高度均一、无RNA的N蛋白。SEC和动态光散射上单一明确峰确认了纯化蛋白的均一性。电泳迁移率变动实验揭示了强RNA结合活性，在N蛋白浓度低至0.25 μm时即可观察到近乎完全的RNA迁移。荧光偏振实验进一步量化了RNA结合亲和力，得出解离常数约为28 nm。这些结果建立了一种获取适用于生化和结构研究的无核酸N蛋白的有效策略。最终，本研究为高分辨率结构研究及针对N蛋白的新型抗病毒疗法开发以对抗COVID-19奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40490992/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40490992/",
+  "paper_page_path": "papers/pubmed/40490992/index.html"
+}

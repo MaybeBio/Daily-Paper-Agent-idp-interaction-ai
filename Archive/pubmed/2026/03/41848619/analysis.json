@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41848619",
+  "title": "A Chirality-Guided Molecular Recognition Strategy for Targeting Intrinsically Disordered Proteins.",
+  "authors": "Morita, Kenta; Seguchi, Shiho; Hayashi, Ayaka; Miwa, Haruhiko; Uchida, Satoru; Sugimoto, Kunihisa; Chatani, Eri; Tamura, Atsuo; Maruyama, Tatsuo",
+  "journal": "Chemistry (Weinheim an der Bergstrasse, Germany)",
+  "published_date": "2026-03-18",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过手性引导的肽立体复合策略，结合模拟与实验设计D-肽靶向无序蛋白Aβ42的特定序列基序并抑制其聚集，虽对象为IDP且涉及互作机制，但方法以实验为主、AI/物理模拟为辅，机制建模深度有限。",
+  "abstract": "Some peptide sequences are known to interact with their enantiomers to form stereocomplexes. However, the sequence-dependent conditions required for stereocomplexation have not been thoroughly elucidated. Here, we present a systematic investigation of peptide stereocomplexation using short tripeptides and their enantiomers. Stereocomplexation was evaluated by aggregate formation in mixed aqueous solutions, and single-crystal X-ray diffraction revealed racemic crystals. Stereocomplexation was driven by hydrophobic interactions between phenylalanine residues and electrostatic interactions involving lysine and the C-terminus. Thermodynamic and structural features of the complexation were further elucidated by calorimetry, simulations, and fluorescence assays. On the basis of these insights, a D-peptide (Ac-fffakr5-NH(2)) was rationally designed to target the -FFAE- motif of amyloid beta42 (Abeta42), a pathological intrinsically disordered protein. This D-peptide inhibited the fibrillization and cytotoxicity of Abeta42 in neuronal-like cells, outperforming a clinical candidate, peptide drug RD2. These findings establish peptide stereocomplexation as a viable strategy for constructing sequence-targeting ligands even against intrinsically disordered proteins.",
+  "abstract_zh": "已知某些肽序列能够与其对映体相互作用形成立体复合物。然而，立体复合物形成所需的序列依赖性条件尚未被彻底阐明。在此，我们利用短三肽及其对映体对肽立体复合物形成进行了系统性研究。通过混合水溶液中的聚集体形成评估立体复合作用，单晶X射线衍射揭示了外消旋晶体的存在。立体复合作用由苯丙氨酸残基之间的疏水相互作用以及赖氨酸与C端之间的静电相互作用驱动。通过量热法、模拟和荧光分析进一步阐明了复合作用的热力学和结构特征。基于这些见解，我们合理设计了一种D-肽（Ac-fffakr5-NH(2)），靶向淀粉样蛋白β42（Abeta42）的-FFAE-基序，该蛋白是一种病理性 intrinsically disordered protein（内在无序蛋白）。这种D-肽在神经元样细胞中抑制了Abeta42的纤维化和细胞毒性，表现优于临床候选药物肽RD2。这些发现确立了肽立体复合作用作为一种可行的策略，用于构建序列靶向配体，即使针对内在无序蛋白也适用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41848619/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41848619/",
+  "paper_page_path": "papers/pubmed/41848619/index.html"
+}

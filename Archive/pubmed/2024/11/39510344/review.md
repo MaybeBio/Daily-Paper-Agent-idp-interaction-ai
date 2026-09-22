@@ -1,0 +1,59 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that AlphaFold2 (AF2) models can predict interactions between ligands and residues in disordered protein regions, which they term "ghost interactions" because such interactions are absent in crystallographic structures. They report that AF2 models predict regions associated with order-disorder transitions and that residues involved in ghost interactions are mostly buried and show differential evolutionary conservation relative to other residues in the flexible region. They suggest these findings may inform drug development targeting intrinsically disordered proteins.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, statistical analyses, or figures are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset composition and selection criteria, definition and validation of "ghost interactions," structural and evolutionary analyses, statistical tests, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing hypothesis with potential relevance to structural biology and drug discovery. However, the evidence base available for review is limited to the abstract, which precludes a rigorous evaluation of the methodological soundness, statistical support, and validity of the core claims. The concept of "ghost interactions" is novel and could be of interest, but the current evidence is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in structural biology, computational biology, and drug discovery, particularly those focused on intrinsically disordered proteins and protein-ligand interactions. The potential to use AF2 predictions to infer interactions in flexible regions could interest groups studying molecular recognition and therapeutic targeting of disordered proteins.
+- **Major strengths** The hypothesis is original and addresses a recognized limitation of experimental structural methods. The use of AF2, a widely adopted tool, to explore a new application is timely. The focus on disordered regions and their relevance to disease is a significant and timely topic.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that AF2 models are "good predictors of regions associated with order-disorder transitions" and that AF2 predicts residues making ghost interactions with ligands.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the dataset, the criteria for defining "ghost interactions," the validation approach, or the statistical measures used to support the predictive claims. Without these details, it is impossible to assess whether the predictions are robust or whether the findings could arise from artifacts of AF2's training data or model architecture.
+  - **Why it matters** The core claims depend on the reliability of AF2 predictions for disordered regions, which is not established. If the methodology is flawed or the dataset is biased, the conclusions would be unsupported.
+  - **Resolution test** Provide a detailed methods section including dataset selection, definition of ghost interactions, validation against experimental data, and statistical significance tests. Show that predictions are not confounded by sequence homology or AF2 training set overlap.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that residues involved in ghost interactions are "mostly buried and show differential evolutionary conservation."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data, effect sizes, or statistical comparisons are provided to support these claims. The terms "mostly buried" and "differential conservation" are vague and require operational definitions and supporting analyses.
+  - **Why it matters** These observations are central to the biological relevance of ghost interactions. Without clear evidence, the claims remain speculative.
+  - **Resolution test** Present quantitative analyses with appropriate statistical tests, including definitions of burial and conservation, and comparisons to appropriate control sets.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "ghost interactions"
+  - **Evidence pointer** Abstract
+  - **Issue** The term "ghost interactions" is introduced but not precisely defined. It is unclear whether these are predicted interactions that are absent in all experimental structures or only in crystallographic ones.
+  - **Required correction** Provide a clear operational definition in the abstract or main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Dataset scope
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract mentions "a set of protein structures experimentally obtained after AF2 was trained," but the diversity and size of this set are not described.
+  - **Required correction** Specify the number and types of proteins included and discuss potential limitations in generalizability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of methodological detail and quantitative evidence prevents any assessment of the validity of the claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The concept of ghost interactions is novel and not previously described in the provided material.
+  - Scientific importance: Potentially high, given the relevance to disordered proteins and drug development, but not yet demonstrated.
+  - Interdisciplinary readership: The topic could appeal to structural biologists, computational chemists, and pharmacologists, but the abstract does not frame the work for a broad audience.
+  - Technical soundness: Not assessable from the abstract; the absence of methods and statistics is a major limitation.
+  - Readability for nonspecialists: The abstract is accessible but uses jargon such as "order-disorder transitions" without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and warrants further evaluation, but the abstract alone does not provide sufficient support for the claims. A full manuscript with detailed methods and results would be required to assess the case.
+
+## Risk / unsupported claims
+- The claim that AF2 models are "good predictors" of order-disorder transition regions is unsupported without quantitative metrics.
+- The claim that AF2 predicts residues making ghost interactions is unsupported without a clear definition and validation.
+- The claim that ghost interaction residues are "mostly buried" and show "differential evolutionary conservation" is unsupported without data.
+- The implication that these findings could inform drug development targeting intrinsically disordered proteins is speculative and not directly supported by the evidence presented.

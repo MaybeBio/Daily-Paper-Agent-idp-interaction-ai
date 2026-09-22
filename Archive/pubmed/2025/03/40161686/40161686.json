@@ -1,0 +1,415 @@
+{
+  "identity": {
+    "pmid": "40161686",
+    "doi": "10.1101/2025.03.14.643327",
+    "title": "STI1 domain dynamically engages transient helices in disordered regions to drive self-association and phase separation of yeast ubiquilin Dsk2."
+  },
+  "content": {
+    "abstract": "Ubiquitin-binding shuttle proteins are important components of stress-induced biomolecular condensates in cells. Yeast Dsk2 scaffolds proteasome-containing condensates via multivalent interactions with proteasomes and ubiquitinated substrates under azide-induced mitochondrial stress or extended growth conditions. However, the molecular mechanisms underlying how these shuttle proteins work are unknown. Here, we identify that the middle chaperone-binding STI1 domain is the main driver of Dsk2 self-association and phase separation in vitro. Using NMR spectroscopy and computational simulations, we find that the STI1 domain interacts with three transient amphipathic helices within the intrinsically-disordered regions of Dsk2. Removal of either the STI1 domain or these helices significantly reduces the propensity for Dsk2 to phase separate. In vivo, removal of the STI1 domain in Dsk2 has the opposite effect, resulting in an increase of proteasome-containing condensates due to an accumulation of polyubiquitinated substrates. Modeling of STI1-helix interactions reveals a binding mode that is reminiscent of interactions between chaperone STI1/DP2 domains and client proteins containing amphipathic or transmembrane helices. Our findings support a model whereby STI1-helix interactions important for Dsk2 condensate formation can be replaced by STI1-client interactions for downstream chaperone or other protein quality control outcomes.",
+    "keywords": [
+      "STI1 domain",
+      "intrinsically disordered regions",
+      "phase separation",
+      "proteasome condensates",
+      "transient helices",
+      "ubiquilins",
+      "yeast"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Acharya, Nirbhik",
+        "Daniel, Emily A",
+        "Dao, Thuy P",
+        "Niblo, Jessica K",
+        "Mulvey, Erin",
+        "Sukenik, Shahar",
+        "Kraut, Daniel A",
+        "Roelofs, Jeroen",
+        "Castaneda, Carlos A"
+      ],
+      "short_names": [
+        "Acharya N",
+        "Daniel EA",
+        "Dao TP",
+        "Niblo JK",
+        "Mulvey E",
+        "Sukenik S",
+        "Kraut DA",
+        "Roelofs J",
+        "Castaneda CA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4591-5215",
+        "ORCID: 0000-0002-4085-1796",
+        "ORCID: 0000-0002-2168-7679",
+        "ORCID: 0000-0001-9378-6097",
+        "ORCID: 0000-0003-3855-9574",
+        "ORCID: 0000-0002-4428-5832",
+        "ORCID: 0000-0003-0944-2465",
+        "ORCID: 0000-0001-9634-0867"
+      ],
+      "affiliations": [
+        "Department of Biology, Syracuse University, Syracuse, NY 13244, USA.",
+        "Department of Chemistry, Syracuse University, Syracuse, NY 13244, USA.",
+        "Department of Biochemistry and Molecular Biology, University of Kansas Medical Center, Kansas City, KS 66160, USA.",
+        "Department of Biology, Syracuse University, Syracuse, NY 13244, USA.",
+        "Department of Chemistry, Syracuse University, Syracuse, NY 13244, USA.",
+        "Department of Chemistry, Syracuse University, Syracuse, NY 13244, USA.",
+        "Department of Chemistry, Villanova University, Villanova, PA 19085, USA.",
+        "Department of Chemistry, Syracuse University, Syracuse, NY 13244, USA.",
+        "BioInspired Institute, Syracuse University, Syracuse, NY 13244, USA.",
+        "Department of Chemistry, Villanova University, Villanova, PA 19085, USA.",
+        "Department of Biochemistry and Molecular Biology, University of Kansas Medical Center, Kansas City, KS 66160, USA.",
+        "Department of Biology, Syracuse University, Syracuse, NY 13244, USA.",
+        "Department of Chemistry, Syracuse University, Syracuse, NY 13244, USA.",
+        "BioInspired Institute, Syracuse University, Syracuse, NY 13244, USA.",
+        "Interdisciplinary Neuroscience Program, Syracuse University, Syracuse, NY 13244, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Acharya, Nirbhik",
+        "short_name": "Acharya N",
+        "identifiers": [
+          "0000-0003-4591-5215"
+        ],
+        "affiliations": [
+          "Department of Biology, Syracuse University, Syracuse, NY 13244, USA.",
+          "Department of Chemistry, Syracuse University, Syracuse, NY 13244, USA."
+        ]
+      },
+      {
+        "full_name": "Daniel, Emily A",
+        "short_name": "Daniel EA",
+        "identifiers": [
+          "0000-0002-4085-1796"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Kansas Medical Center, Kansas City, KS 66160, USA."
+        ]
+      },
+      {
+        "full_name": "Dao, Thuy P",
+        "short_name": "Dao TP",
+        "identifiers": [
+          "0000-0002-2168-7679"
+        ],
+        "affiliations": [
+          "Department of Biology, Syracuse University, Syracuse, NY 13244, USA.",
+          "Department of Chemistry, Syracuse University, Syracuse, NY 13244, USA."
+        ]
+      },
+      {
+        "full_name": "Niblo, Jessica K",
+        "short_name": "Niblo JK",
+        "identifiers": [
+          "0000-0001-9378-6097"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Syracuse University, Syracuse, NY 13244, USA."
+        ]
+      },
+      {
+        "full_name": "Mulvey, Erin",
+        "short_name": "Mulvey E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Villanova University, Villanova, PA 19085, USA."
+        ]
+      },
+      {
+        "full_name": "Sukenik, Shahar",
+        "short_name": "Sukenik S",
+        "identifiers": [
+          "0000-0003-3855-9574"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Syracuse University, Syracuse, NY 13244, USA.",
+          "BioInspired Institute, Syracuse University, Syracuse, NY 13244, USA."
+        ]
+      },
+      {
+        "full_name": "Kraut, Daniel A",
+        "short_name": "Kraut DA",
+        "identifiers": [
+          "0000-0002-4428-5832"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Villanova University, Villanova, PA 19085, USA."
+        ]
+      },
+      {
+        "full_name": "Roelofs, Jeroen",
+        "short_name": "Roelofs J",
+        "identifiers": [
+          "0000-0003-0944-2465"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Kansas Medical Center, Kansas City, KS 66160, USA."
+        ]
+      },
+      {
+        "full_name": "Castañeda, Carlos A",
+        "short_name": "Castañeda CA",
+        "identifiers": [
+          "0000-0001-9634-0867"
+        ],
+        "affiliations": [
+          "Department of Biology, Syracuse University, Syracuse, NY 13244, USA.",
+          "Department of Chemistry, Syracuse University, Syracuse, NY 13244, USA.",
+          "BioInspired Institute, Syracuse University, Syracuse, NY 13244, USA.",
+          "Interdisciplinary Neuroscience Program, Syracuse University, Syracuse, NY 13244, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 May 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/31 21:16",
+    "fetched_at": "2026-09-22 02:24:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40680123",
+      "39755440",
+      "39412378",
+      "39121161",
+      "38979954",
+      "38408252",
+      "38041404",
+      "37645312",
+      "36881934",
+      "36827983",
+      "36720498",
+      "36410949",
+      "36398662",
+      "35948766",
+      "35762418",
+      "35637307",
+      "35477005",
+      "35247097",
+      "34937942",
+      "34848715",
+      "34716273",
+      "34273246",
+      "34029402",
+      "33620121",
+      "33610544",
+      "33577679",
+      "33431932",
+      "32231214",
+      "32025036",
+      "31659043",
+      "31319884",
+      "30634694",
+      "30442662",
+      "30429547",
+      "30371978",
+      "29526694",
+      "29507397",
+      "29343546",
+      "29267886",
+      "29021737",
+      "28525741",
+      "28463112",
+      "28445744",
+      "28399398",
+      "28075048",
+      "27545621",
+      "27345149",
+      "27170182",
+      "27145334",
+      "26876099",
+      "26455390",
+      "26305040",
+      "25909470",
+      "23906423",
+      "23619693",
+      "23396808",
+      "22743772",
+      "22227520",
+      "21857683",
+      "21604143",
+      "20121194",
+      "20064467",
+      "18078545",
+      "16421449",
+      "16140271",
+      "15815974",
+      "15334558",
+      "12975584",
+      "11805328",
+      "10861908",
+      "10514571",
+      "9054979",
+      "8520220",
+      "8254673"
+    ],
+    "similar": [
+      "40161686",
+      "34029402",
+      "37425862",
+      "38408252",
+      "39026758",
+      "26450923",
+      "21763274",
+      "39121161",
+      "33620121",
+      "27170182",
+      "32881044",
+      "38559018",
+      "16140271",
+      "36121476",
+      "17300223",
+      "39739753",
+      "16421449",
+      "29526694",
+      "27396824",
+      "29930177",
+      "41169547",
+      "17082762",
+      "28525741",
+      "9927435",
+      "24920799",
+      "22354036",
+      "22227520",
+      "40588121",
+      "41457474",
+      "18995839",
+      "40848932",
+      "20427284",
+      "17144915",
+      "31562773",
+      "24709957",
+      "8682868",
+      "17027914",
+      "30664872",
+      "23070844",
+      "35126984",
+      "40794831",
+      "23938469",
+      "21850170",
+      "33934561",
+      "37986933",
+      "36657879",
+      "21973017",
+      "39537752",
+      "33794191",
+      "30471685",
+      "28559789",
+      "16219779",
+      "27092291",
+      "35179885",
+      "39952269",
+      "40631187",
+      "32487073",
+      "19909498",
+      "36412795",
+      "37961424",
+      "34916288",
+      "38612889",
+      "39947751",
+      "8972212",
+      "40943143",
+      "40521608",
+      "29511089",
+      "35954258",
+      "34890409",
+      "34737230",
+      "28399398",
+      "40441156",
+      "37293933",
+      "39826709",
+      "25311859",
+      "31797598",
+      "37961422",
+      "34090478",
+      "25504578",
+      "35802394",
+      "36416859",
+      "11805121",
+      "35054543",
+      "39755440",
+      "19703931",
+      "36350833",
+      "27345149",
+      "41279136",
+      "35815989",
+      "23729591",
+      "37668016",
+      "36524527",
+      "12716905",
+      "10675567",
+      "38824391",
+      "36993212",
+      "38279531",
+      "32825842",
+      "36273579",
+      "39225535"
+    ],
+    "review": [
+      "40161686",
+      "32881044",
+      "33934561",
+      "28559789",
+      "35179885",
+      "39952269",
+      "38612889",
+      "39947751",
+      "40943143",
+      "35954258",
+      "35802394",
+      "39755440",
+      "35815989"
+    ],
+    "pmc": [
+      "11952510"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40161686/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40161686",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.03.14.643327",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

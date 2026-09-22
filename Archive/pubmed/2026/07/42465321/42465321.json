@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "42465321",
+    "doi": "10.64898/2026.07.06.736877",
+    "title": "The exchange dynamics of client molecules in biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are dynamic assemblies whose functions depend on continuous exchange of molecular components with the surrounding environment. While scaffold molecules drive phase separation and condensate architecture, many functional components are clients that are recruited through interactions with the scaffold-rich environment. Despite their prevalence, how client-scaffold interactions shape client exchange dynamics remains poorly understood. Here, we develop a reaction-diffusion model for client exchange in scaffold-driven condensates, in which clients switch between a scaffold-bound state and an unbound state. Bound clients exchange through scaffold-mediated transport, whereas unbound clients diffuse through the pore space of the condensate. Using the fluorescence recovery of fully photobleached condensates as a measure of client exchange, we compare transport through these two pathways with bound-unbound conversion and identify three limiting regimes. In the slow-conversion regime, bound and unbound clients recover through distinct scaffold- and pore-mediated pathways. In the intermediate-conversion regime, recovery of bound clients becomes limited by client unbinding. In the fast-conversion regime, local equilibrium between bound and unbound clients produces an effective single-state recovery. We further propose a unifying description that connects these regimes and quantitatively captures the apparent recovery timescales extracted from numerical simulations across condensate sizes. Our results provide a framework for interpreting component-specific exchange dynamics, and highlight client size, client-scaffold binding, and condensate porosity as key regulators of client turnover in multicomponent condensates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kliegman, Ross",
+        "Grigorev, Vladimir",
+        "Zhang, Yaojun"
+      ],
+      "short_names": [
+        "Kliegman R",
+        "Grigorev V",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-2176-7363",
+        "ORCID: 0009-0002-1041-0778",
+        "ORCID: 0000-0003-4587-6834"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kliegman, Ross",
+        "short_name": "Kliegman R",
+        "identifiers": [
+          "0009-0004-2176-7363"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Grigorev, Vladimir",
+        "short_name": "Grigorev V",
+        "identifiers": [
+          "0009-0002-1041-0778"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yaojun",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0003-4587-6834"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA.",
+          "Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jul 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/17 17:25",
+    "fetched_at": "2026-09-18 04:57:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42266718",
+      "39729994",
+      "39320949",
+      "37683610",
+      "37468629",
+      "37073403",
+      "35675815",
+      "35483357",
+      "34636323",
+      "34035521",
+      "33303613",
+      "33169001",
+      "31638820",
+      "31540706",
+      "30109341",
+      "30099028",
+      "28935776",
+      "28225081",
+      "27599198",
+      "27374333",
+      "27056844"
+    ],
+    "similar": [
+      "42465321",
+      "38591689",
+      "23912807",
+      "40475453",
+      "32482873",
+      "33672806",
+      "42475469",
+      "42146575",
+      "40794831",
+      "42055532",
+      "42081454",
+      "40857360",
+      "40954121",
+      "35881789",
+      "40521608",
+      "38416758",
+      "40661423",
+      "40195119",
+      "33395293",
+      "34315935",
+      "40291420",
+      "40672301",
+      "40229261",
+      "39071308",
+      "42059155",
+      "41670285",
+      "41385797",
+      "36227474",
+      "37470705",
+      "41877182",
+      "38466837",
+      "42427709",
+      "42182309",
+      "42290133",
+      "41279444",
+      "34636323",
+      "35762716",
+      "42596546",
+      "40913895",
+      "41705673",
+      "37468629",
+      "41629604",
+      "36993212",
+      "40502052",
+      "39763716",
+      "42528131",
+      "40481268",
+      "40626470",
+      "33653957",
+      "40985078",
+      "37756159",
+      "33864415",
+      "37293933",
+      "41673459",
+      "39257779",
+      "33087563",
+      "38994413",
+      "37772963",
+      "39320949",
+      "35126984",
+      "40766493",
+      "37586369",
+      "40455990",
+      "41613751",
+      "42244763",
+      "41481439",
+      "41351266",
+      "40196628",
+      "41540001",
+      "33376791",
+      "41587927",
+      "37252985",
+      "39172789",
+      "34090478",
+      "34890409",
+      "40172489",
+      "33409284",
+      "29632271",
+      "37194953",
+      "30471685",
+      "39824169",
+      "41993480",
+      "31017394",
+      "40881393",
+      "40972943",
+      "39004265",
+      "41648378",
+      "42620391",
+      "34179888",
+      "38987300",
+      "40661504",
+      "41278836",
+      "41755827",
+      "29267381",
+      "39987501",
+      "42610615",
+      "41845050",
+      "36004748",
+      "41511470",
+      "35411085"
+    ],
+    "review": [
+      "42465321",
+      "42059155",
+      "41385797",
+      "40913895",
+      "37772963",
+      "41587927",
+      "40172489",
+      "33409284",
+      "29632271",
+      "39824169",
+      "34179888"
+    ],
+    "pmc": [
+      "13370335"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42465321/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.07.06.736877",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

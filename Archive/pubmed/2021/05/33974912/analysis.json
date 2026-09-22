@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33974912",
+  "title": "Intrinsically disordered Meningioma-1 stabilizes the BAF complex to cause AML.",
+  "authors": "Riedel, Simone S; Lu, Congcong; Xie, Hongbo M; Nestler, Kevin; Vermunt, Marit W; Lenard, Alexandra; Bennett, Laura; Speck, Nancy A; Hanamura, Ichiro; Lessard, Julie A; Blobel, Gerd A; Garcia, Benjamin A; Bernt, Kathrin M",
+  "journal": "Molecular cell",
+  "published_date": "2021-05-12",
+  "window": {
+    "start": "2021-05-10",
+    "end": "2021-05-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究揭示无序蛋白MN1通过polyQ区稳定BAF复合物在增强子染色质上的结合，导致AML，属于IDP介导PPI机制研究，但方法以结构预测和实验为主，AI/物理模拟深度有限。",
+  "abstract": "Meningioma-1 (MN1) overexpression in AML is associated with poor prognosis, and forced expression of MN1 induces leukemia in mice. We sought to determine how MN1 causes AML. We found that overexpression of MN1 can be induced by translocations that result in hijacking of a downstream enhancer. Structure predictions revealed that the entire MN1 coding frame is disordered. We identified the myeloid progenitor-specific BAF complex as the key interaction partner of MN1. MN1 over-stabilizes BAF on enhancer chromatin, a function directly linked to the presence of a long polyQ-stretch within MN1. BAF over-stabilization at binding sites of transcription factors regulating a hematopoietic stem/progenitor program prevents the developmentally appropriate decommissioning of these enhancers and results in impaired myeloid differentiation and leukemia. Beyond AML, our data detail how the overexpression of a polyQ protein, in the absence of any coding sequence mutation, can be sufficient to cause malignant transformation.",
+  "abstract_zh": "脑膜瘤-1（MN1）在急性髓系白血病（AML）中的过表达与不良预后相关，且强制表达MN1可诱导小鼠发生白血病。我们旨在确定MN1如何导致AML。我们发现，MN1的过表达可由易位诱导，这些易位导致下游增强子被劫持。结构预测显示，整个MN1编码框架呈无序状态。我们鉴定出髓系祖细胞特异性BAF复合物为MN1的关键相互作用伙伴。MN1过度稳定增强子染色质上的BAF，这一功能与MN1内长聚谷氨酰胺（polyQ）片段的存在直接相关。在调控造血干/祖细胞程序的转录因子结合位点上，BAF的过度稳定阻止了这些增强子在发育过程中适时失活，导致髓系分化受损及白血病发生。除AML外，我们的数据详细阐述了在无任何编码序列突变的情况下，polyQ蛋白的过表达如何足以引起恶性转化。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33974912/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33974912/",
+  "paper_page_path": "papers/pubmed/33974912/index.html"
+}

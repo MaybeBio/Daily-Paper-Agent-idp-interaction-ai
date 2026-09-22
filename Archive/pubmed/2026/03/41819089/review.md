@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text including summary, introduction, design, results, discussion, methods, and supplementary figure/table legends as provided.
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as supported by the provided text. No assessment of data quality beyond what is described in the text.
+- **Shared manuscript claim summary** The authors describe the de novo computational design of protein binders selective for each of the four major Ras isoforms (KRAS4A, KRAS4B, HRAS, NRAS) by targeting the disordered, hypervariable C-termini. They report that these binders (RIBs) show isoform-specific binding in vitro and in cells, disrupt membrane localization, inhibit Ras activity, and enable dissection of isoform-specific roles during KRASG12C inhibitor resistance.
+- **Visible evidence base** Text descriptions of computational design pipelines, yeast surface display selections, biolayer interferometry affinity measurements, cell-based assays including membrane fractionation, immunoblotting, Ras activity biosensor experiments, proliferation assays, and immunofluorescence imaging. Supplementary figures and tables are referenced but not provided.
+- **Missing materials affecting confidence** All primary data (figures, tables, supplementary materials) are absent from the provided scope. No sequences of the designed binders are listed. No structural validation data (e.g., crystallography or cryo-EM) are described. No negative control data for the design pipeline are shown. Statistical details are described but no actual values are provided.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious and potentially impactful application of deep learning-based protein design to a long-standing problem in Ras biology: the lack of isoform-selective reagents. The central concept, targeting the divergent disordered C-termini rather than the conserved structured domain, is logical and addresses a genuine need. However, the provided text is largely a narrative summary without access to the underlying data. The claims of selectivity, functional disruption, and biological utility rest entirely on experimental results that cannot be evaluated from the supplied material. The design methodology is described in reasonable detail, but the success rates are low and the structural basis of selectivity is not experimentally validated. The biological findings, particularly the isoform-specific roles during KRASG12C inhibitor resistance, are intriguing but would require substantial evidence to support the strong conclusions drawn. The manuscript is likely to be of interest to the Ras biology and protein design communities, but the current evidence base is insufficient to establish the central claims.
+- **Who would be interested in the results, and why** Researchers studying Ras isoform-specific biology, particularly those investigating differential signaling, subcellular localization, and drug resistance mechanisms. The protein design community will be interested in the methodological advances in targeting disordered, highly polar regions. Cancer biologists studying KRASG12C inhibitor resistance mechanisms and therapeutic strategies will find the functional data relevant. Chemical biologists developing affinity reagents for challenging targets will also be interested.
+- **Major strengths** The problem addressed is important and well-articulated. The design strategy is conceptually sound and leverages state-of-the-art methods. The authors demonstrate awareness of the challenges of targeting disordered polar regions and describe a multi-pronged computational approach. The potential utility of the reagents for functional studies is clearly motivated. The discussion of limitations is candid.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that RIBs bind to their target Ras isoforms with "remarkable specificity" both in vitro and in cells.
+  - **Evidence pointer** Results section, Figure 2, Figure 3, Table S1, location not provided
+  - **Concern** The claim of remarkable specificity is central to the manuscript's value proposition. However, no actual binding data, selectivity values, or cross-reactivity measurements are provided in the text. The description of yeast display selections and BLI affinity measurements is qualitative. Without quantitative data showing, for example, the fold-selectivity of each RIB for its cognate isoform over the other three, the claim of remarkable specificity cannot be assessed. The text mentions that tight binders were not necessarily the most specific in cells, which introduces a complication that is not fully resolved.
+  - **Why it matters** The entire utility of the RIBs as research tools and potential therapeutic leads depends on their selectivity. If selectivity is modest or context-dependent, the conclusions drawn from the functional experiments would be substantially weakened.
+  - **Resolution test** Provide quantitative BLI or other binding data for each RIB against all four Ras isoforms, including full dose-response curves and calculated selectivity ratios. Show selectivity data in cells, such as pulldown or immunoblotting experiments with all isoforms present. Demonstrate that selectivity is maintained across multiple independent binder clones.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** The authors claim that RIB overexpression disrupts Ras membrane localization, inhibits Ras activity, and that these effects are isoform-specific.
+  - **Evidence pointer** Results section, Figure 4, Figure S7, location not provided
+  - **Concern** The functional experiments are described only in narrative form. No quantitative data on membrane versus cytosolic fractions are shown. The Ras activity biosensor results are described qualitatively. The proliferation assays in MOLM-13 cells are mentioned but no growth curves, statistical comparisons, or effect sizes are provided. The claim that RIBs inhibit Ras activity is particularly important, as it suggests a dominant-negative mechanism, but the mechanism by which a C-terminal binder would inhibit GTP loading is not explained or experimentally addressed.
+  - **Why it matters** The functional consequences of RIB binding are critical to the claim that these reagents are useful for dissecting Ras biology. Without quantitative data, the strength of the effect, its specificity, and its mechanism remain unclear.
+  - **Resolution test** Provide quantitative fractionation data with statistical analysis. Show representative and quantified Ras activity biosensor data with appropriate controls. Provide full proliferation curves with statistical comparisons for all cell lines and conditions tested. Include mechanistic experiments, such as assessing whether RIB binding affects nucleotide exchange or GTP hydrolysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural validation
+  - **Claim pointer** The authors describe computational design models for the RIB-Ras complexes and imply that these models are accurate representations of the binding interface.
+  - **Evidence pointer** Results section, Figure 2a, Figure S3a, location not provided
+  - **Concern** No experimental structural validation is described. The design models are based on AF2 predictions and Rosetta calculations, which are valuable but not definitive. Given the challenges of designing binders to disordered regions, the accuracy of the predicted binding modes is a significant uncertainty. The text notes that the successful binders had relatively similar folds, suggesting a preferred conformation, but this is not experimentally confirmed.
+  - **Why it matters** The design methodology is a key contribution of the paper. Without experimental structural data, it is unclear whether the design principles are correctly implemented or whether the binders engage the C-termini in the predicted manner. This limits the generalizability of the approach.
+  - **Resolution test** Provide experimental structural data, such as a co-crystal structure or cryo-EM structure of at least one RIB in complex with its target C-terminus. Alternatively, provide mutagenesis data that validate key predicted contacts at the interface.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological significance
+  - **Claim pointer** The authors claim that RIBs enable dissection of distinct roles of Ras isoforms during KRASG12C inhibitor resistance, and that wild-type HRAS and NRAS promote cell growth during Sotorasib treatment.
+  - **Evidence pointer** Results section, Figure 5, Figure S9, location not provided
+  - **Concern** This is a significant biological claim with potential therapeutic implications. However, the evidence is described only in summary form. The experiments appear to be performed in a single cell line (MIA PaCa-2) with confirmation in another (SW1573), but no data are shown. The conclusion that wild-type HRAS and NRAS become important during Sotorasib treatment is interesting but would require careful controls to rule out off-target effects of the RIBs and to establish the mechanism.
+  - **Why it matters** If correct, this finding could inform combination therapy strategies. However, the claim is strong and the evidence base, as presented, is thin.
+  - **Resolution test** Provide full experimental details and data for the resistance experiments, including dose-response curves for Sotorasib with and without RIB expression, isoform-specific knockdown or knockout controls, and mechanistic studies to determine how HRAS and NRAS contribute to resistance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Design methodology description
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The distinction between the "side-chain centered" and "backbone centered" approaches is described but the practical differences in implementation are not fully clear. The relationship between the two libraries and the final selected binders is ambiguous.
+  - **Required correction** Clarify the workflow with a schematic or step-by-step description of how the two approaches were integrated and how final candidates were selected.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Binder characterization
+  - **Evidence pointer** Results section, Table S1, location not provided
+  - **Issue** The text states that 10 RIBs per target were characterized, but only a subset is shown in the main figures. The criteria for selecting which binders to show are not stated.
+  - **Required correction** State the selection criteria for the binders shown in the main figures and provide data for all 10 characterized binders in the supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Palmitoylation selectivity
+  - **Evidence pointer** Results section, Figure S3i, location not provided
+  - **Concern** The finding that KRAS4A and NRAS RIBs do not bind palmitoylated versions of their targets, while the HRAS RIB does, is interesting but the implications for the functional studies are not discussed. If a significant fraction of Ras is palmitoylated in cells, the RIBs may only be detecting a subpopulation.
+  - **Required correction** Discuss the potential impact of palmitoylation state on the interpretation of the cellular experiments and consider whether this affects the conclusions about isoform-specific functions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figures
+  - **Evidence pointer** Figure legends, location not provided
+  - **Issue** The figure legends are not provided in the text. It is impossible to assess the quality or appropriateness of the data presentation.
+  - **Required correction** Ensure that all figure legends are complete and self-explanatory, including statistical details and sample sizes.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative selectivity data), R1-M2 (quantitative functional data), R1-M3 (structural or mutagenic validation of binding mode). These are the primary technical issues that prevent the central claims from being established from the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of targeting the disordered C-terminus for isoform selectivity is conceptually novel and addresses a recognized gap in the field. The application of deep learning-based design to this problem is timely.
+  - Scientific importance: Ras biology is of high importance due to its prevalence in cancer. Isoform-specific tools have been a long-standing need. If the claims are substantiated, this work would be of significant importance.
+  - Interdisciplinary readership: The work bridges protein design, chemical biology, and cancer biology. It would appeal to readers across these disciplines.
+  - Technical soundness: The design methodology is state-of-the-art, but the lack of quantitative data and structural validation prevents an assessment of technical soundness. The low success rates are acknowledged but not contextualized.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible. The design concepts are explained clearly. However, the heavy reliance on specialized methods may limit accessibility for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem with a promising approach, but the central claims of selectivity, functional disruption, and biological utility cannot be evaluated without the primary data. The authors should be encouraged to resubmit with the full dataset, including quantitative binding and functional data, and ideally structural or mutagenic validation of the binding mode.
+
+## Risk / unsupported claims
+- The claim of "remarkable specificity" is unsupported without quantitative selectivity data.
+- The claim that RIBs disrupt membrane localization and inhibit Ras activity is unsupported without quantitative functional data.
+- The claim that wild-type HRAS and NRAS promote cell growth during Sotorasib treatment is unsupported without detailed experimental evidence.
+- The claim that the design models accurately represent the binding interface is unsupported without experimental structural validation.
+- The statement that RIBs enable "dissection of the distinct roles of Ras isoforms" is a strong claim that requires more comprehensive evidence than described.
+- The generalizability of the design approach to other disordered targets is implied but not demonstrated.

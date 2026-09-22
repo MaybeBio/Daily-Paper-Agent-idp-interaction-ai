@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33561389",
+  "title": "An intrinsically disordered region-mediated confinement state contributes to the dynamics and function of transcription factors.",
+  "authors": "Garcia, David A; Johnson, Thomas A; Presman, Diego M; Fettweis, Gregory; Wagh, Kaustubh; Rinaldi, Lorenzo; Stavreva, Diana A; Paakinaho, Ville; Jensen, Rikke A M; Mandrup, Susanne; Upadhyaya, Arpita; Hager, Gordon L",
+  "journal": "Molecular cell",
+  "published_date": "2021-02-10",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过单分子追踪和机器学习分类，揭示转录因子GR的IDR介导的受限态（与液-液相分离凝聚体相关）在核内动态和功能中的作用，虽未直接建模PPI机制，但将IDR、相分离与互作动态关联，方法上AI分类可迁移，对象与互作轴较强。",
+  "abstract": "Transcription factors (TFs) regulate gene expression by binding to specific consensus motifs within the local chromatin context. The mechanisms by which TFs navigate the nuclear environment as they search for binding sites remain unclear. Here, we used single-molecule tracking and machine-learning-based classification to directly measure the nuclear mobility of the glucocorticoid receptor (GR) in live cells. We revealed two distinct and dynamic low-mobility populations. One accounts for specific binding to chromatin, while the other represents a confinement state that requires an intrinsically disordered region (IDR), implicated in liquid-liquid condensate subdomains. Further analysis showed that the dwell times of both subpopulations follow a power-law distribution, consistent with a broad distribution of affinities on the GR cistrome and interactome. Together, our data link IDRs with a confinement state that is functionally distinct from specific chromatin binding and modulates the transcriptional output by increasing the local concentration of TFs at specific sites.",
+  "abstract_zh": "转录因子（TFs）通过结合局部染色质环境中的特定共识基序来调控基因表达。TFs在搜索结合位点时如何在核环境中导航的机制仍不清楚。在此，我们利用单分子追踪和基于机器学习的分类方法，直接测量了活细胞中糖皮质激素受体（GR）的核内流动性。我们揭示了两个不同且动态的低流动性群体。一个群体对应于与染色质的特异性结合，而另一个群体代表一种需要内在无序区域（IDR）的限制状态，该区域与液-液相分离亚结构域相关。进一步分析显示，这两个亚群的停留时间均遵循幂律分布，这与GR顺式组和相互作用组上广泛的亲和力分布一致。综合来看，我们的数据将IDR与一种在功能上区别于特异性染色质结合的限制状态联系起来，并通过增加转录因子在特定位点的局部浓度来调节转录输出。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33561389/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33561389/",
+  "paper_page_path": "papers/pubmed/33561389/index.html"
+}

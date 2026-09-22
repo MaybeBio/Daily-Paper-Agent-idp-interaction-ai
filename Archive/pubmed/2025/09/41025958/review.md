@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Materials and methods) as provided
+- **Assessment boundary** Scientific content, technical soundness, and clarity of claims as presented in the provided text. No line numbers were available; references to specific locations use section and figure names.
+- **Shared manuscript claim summary** The manuscript proposes design principles for transcription factors (TFs) containing intrinsically disordered regions (IDRs), arguing that IDRs enhance both binding affinity and search time relative to TFs lacking IDRs. The authors develop analytical and coarse-grained simulation models, identify optimal parameter relationships (e.g., l0 = d, nb = nt), and compare their predictions with experimental data from yeast Msn2.
+- **Visible evidence base** Analytical derivations (Appendix 2), numerical summation results (Figures 2a–d, Appendix figures), coarse-grained molecular dynamics simulations (Figure 3, Appendix 7–11), and comparison with experimental data from Brodsky et al. 2020 (Figure 4a–c).
+- **Missing materials affecting confidence** Full derivations in appendices were not provided; simulation parameter values (e.g., R, D, wd) are only partially specified; experimental data points for Figure 4a are not shown; details of the fitting procedure for EDBD are not fully described; Appendix 6–11 contents are referenced but not included.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in gene regulation: how IDRs contribute to TF function. The authors present a physically motivated model with clear analytical results and supporting simulations. The design principles identified (l0 = d, nb = nt, EB > Eth) are intuitive and potentially useful. However, several technical aspects require clarification and strengthening before the case is fully established, particularly regarding the robustness of the analytical approximations, the parameter regime explored, and the strength of the experimental comparison.
+- **Who would be interested in the results, and why** Researchers in gene regulation, biophysics of protein-DNA interactions, and computational biology. The work provides a theoretical framework for interpreting experimental observations on IDR-containing TFs and generates testable predictions, which will interest experimental groups studying TF search dynamics and IDR function.
+- **Major strengths** The manuscript combines analytical theory with simulations to address a biologically important problem. The design principles are clearly stated and physically motivated. The comparison with experimental data from Msn2 is a valuable step. The proposed "octopusing" mechanism is an interesting conceptual contribution that may stimulate further work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the model achieves "quantitative agreement" with experimental data from Brodsky et al. 2020 using EDBD as the only fitting parameter.
+  - **Evidence pointer** Figure 4a, Section "Comparing with experimental results"
+  - **Concern** The experimental data points are not shown in the provided text, and the fitting procedure is not described in sufficient detail. It is unclear how the model parameters (e.g., l0, d, nb, nt, V1) were set for the Msn2 comparison, and whether the agreement is robust to reasonable variations in these parameters. The claim of "quantitative agreement" requires a more rigorous statistical treatment, such as error bars on the data and a measure of goodness-of-fit.
+  - **Why it matters** The experimental comparison is a key piece of evidence supporting the model's validity. Without a transparent and robust fitting procedure, the strength of this claim cannot be assessed.
+  - **Resolution test** Provide the experimental data points with error bars, a detailed description of the fitting procedure (including how all model parameters were determined), and a statistical measure of the agreement (e.g., chi-squared, R²). Show the sensitivity of the fit to variations in the assumed parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the optimal search process consists of "a single round of 3D-1D search" and that the analytical expression for search time (Equation 5) "shows good agreement with our numerical results."
+  - **Evidence pointer** Section "Search time of the TF from the dynamics", Figure 3, Appendix 8
+  - **Concern** The derivation of Equation 5 is not shown, and the conditions under which the single-round assumption holds are not fully specified. The agreement with simulations is stated but not quantified. The parameter regime explored in the simulations (e.g., range of L, EB, n~) is not clearly defined, making it difficult to assess the generality of the claim.
+  - **Why it matters** The search time is a central result of the paper. If the analytical approximation is only valid in a narrow regime, the design principles derived from it may not be broadly applicable.
+  - **Resolution test** Provide the full derivation of Equation 5 in the main text or an appendix. Quantify the agreement between the analytical formula and simulations (e.g., relative error) across the full parameter range explored. Clearly state the parameter ranges and any assumptions (e.g., high EB, specific l0/d ratios) under which the single-round search is optimal.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the identified design principles are "robust" and applicable to diverse systems, including scenarios with "Poisson statistics of binding site distances."
+  - **Evidence pointer** Section "Binding probability of the TF from the equilibrium approach", Appendix 6
+  - **Concern** The robustness analysis is only briefly mentioned. It is unclear how the Poisson statistics were implemented, what range of parameters was tested, and whether the design principles (l0 = d, nb = nt) remain optimal under all tested conditions. The claim of robustness needs more systematic evidence.
+  - **Why it matters** The generality of the design principles is a key selling point of the paper. If they only hold under specific, idealized conditions, their biological relevance is diminished.
+  - **Resolution test** Provide a more detailed description of the robustness analysis, including the range of parameters tested (e.g., distributions of target spacing, variability in l0) and a quantitative measure of how much the optimal conditions shift under these perturbations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Discussion
+  - **Evidence pointer** Section "Introduction", Section "Discussion"
+  - **Issue** The distinction between the proposed "octopusing" mechanism and the classical facilitated diffusion model could be made clearer for readers unfamiliar with the polymer physics literature. A brief, intuitive explanation of why the single-round search is optimal would improve accessibility.
+  - **Required correction** Add a short paragraph in the Introduction or Discussion that explains the physical intuition behind the single-round search and how it differs from the repeated binding-unbinding cycles in facilitated diffusion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, Model
+  - **Evidence pointer** Section "Materials and methods", Section "Model"
+  - **Issue** The choice of the Rouse model is justified, but the limitations of this model (e.g., neglecting excluded volume, hydrodynamic interactions, and sequence-specific effects) are not discussed. A brief statement on the expected impact of these simplifications would be helpful.
+  - **Required correction** Add a sentence or two in the Materials and methods or Discussion acknowledging the model's simplifications and arguing why they are not expected to qualitatively change the main conclusions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Search time of the TF from the dynamics"
+  - **Evidence pointer** Section "Search time of the TF from the dynamics", Figure 3
+  - **Issue** The simulation parameters (e.g., R, D, number of independent runs, error bars) are not fully specified. This limits the reproducibility of the results.
+  - **Required correction** Provide a table or detailed text listing all simulation parameters, including the number of independent simulations and the standard error of the mean for the reported search times.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Section "Discussion"
+  - **Issue** The discussion of alternative mechanisms (e.g., phase separation, specific IDR-DNA interactions) is brief. A more explicit comparison of the proposed mechanism with these alternatives, and how experiments could distinguish them, would strengthen the paper.
+  - **Required correction** Expand the Discussion to include a paragraph comparing the proposed mechanism with phase separation and specific interaction models, and suggest experiments that could differentiate between them.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (experimental comparison), R1-M2 (search time derivation and validation). These are the two main pillars of the paper, and both require more rigorous support.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is original in its specific combination of analytical theory and simulations to derive design principles for IDR-containing TFs. The "octopusing" concept is novel. However, the underlying physics (polymer entropy, facilitated diffusion) is well-established, and the originality lies in the application and synthesis.
+  - **Scientific importance** The question of how IDRs contribute to TF function is of high importance in gene regulation. The paper provides a framework that could guide experimental design and interpretation. The importance is significant, but the impact will depend on the robustness of the predictions and their validation.
+  - **Interdisciplinary readership** The work bridges biophysics, polymer physics, and molecular biology. It should appeal to researchers in all three fields, but the presentation may need to be adjusted to make it accessible to each. The current text is likely most accessible to biophysicists.
+  - **Technical soundness** The analytical derivations and simulation methodology appear sound in principle, but the lack of detail in key areas (derivation of Equation 5, fitting procedure, parameter ranges) prevents a full assessment. The technical soundness is currently not fully established.
+  - **Readability for nonspecialists** The abstract and introduction are clear, but the results section is dense and assumes familiarity with polymer physics concepts. The paper would benefit from more intuitive explanations of the key concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core ideas are interesting and potentially important, but the current evidence is insufficient to fully establish the claims. The authors should address the concerns regarding the experimental comparison and the search time derivation, and provide more detail on the robustness of their results.
+
+## Risk / unsupported claims
+- The claim of "quantitative agreement" with experimental data (Figure 4a) is not fully supported by the evidence provided, as the data and fitting procedure are not described in sufficient detail.
+- The claim that the analytical expression for search time (Equation 5) "shows good agreement with our numerical results" is not quantified, and the derivation is not shown.
+- The claim that the design principles are "robust" to Poisson statistics of binding site distances is not supported by detailed evidence.
+- The claim that the "octopusing" mechanism bypasses the speed-stability paradox is presented as a result, but the supporting analysis is only briefly described.
+- The estimated on-rates and off-rates (Figure 4c) are presented without a clear description of how they are calculated from the model, making them difficult to evaluate.

@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion) for the article by Xie et al., published in ACS Omega, 2023.
+- **Assessment boundary** The review assesses the scientific claims, methodological soundness, and evidence presented in the manuscript, focusing on the computational findings regarding PC4 phosphorylation and its proposed functional implications.
+- **Shared manuscript claim summary** The authors use enhanced molecular dynamics (mD-VcMD) simulations to show that phosphorylation of three serine residues (S15, S17, S19) in the intrinsically disordered region (IDR) of human transcriptional coactivator PC4 reduces its contact with the VP16 activation domain and induces a compact, albeit fluctuating, intra-IDR conformation stabilized by electrostatic interactions between phosphorylated serines and lysine/arginine residues. This supports a previously proposed dynamic model of PC4 functional modulation.
+- **Visible evidence base** The manuscript provides simulation details, convergence analyses (Figure S5), contact ratio calculations (Figure 1), free-energy landscapes (Figures 2 and 4), intra-IDSK contact maps (Figure 3), representative conformations (Figure 5), and hydrogen bond/salt bridge tables (Tables 1 and 2). Supplementary figures and tables are referenced.
+- **Missing materials affecting confidence** The review is based on the manuscript text and referenced figures/tables, but the actual figures, tables, and supplementary information were not provided. This limits the ability to independently verify quantitative results, convergence quality, and structural interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computationally rigorous study addressing a specific and biologically relevant question: how phosphorylation of an intrinsically disordered region modulates protein-protein interactions. The use of an enhanced sampling method (mD-VcMD) is appropriate for studying conformational ensembles of disordered regions. The results are largely consistent with and provide mechanistic support for prior experimental findings. However, the study is limited to a single phosphorylation state (three out of eight sites) and a simplified system (isolated IDSK peptide), and the direct link to the proposed functional consequences (e.g., DNA binding switching) is inferred rather than demonstrated. The manuscript is clearly written and technically sound, but its significance is incremental, primarily providing computational confirmation of an existing model.
+- **Who would be interested in the results, and why** Researchers in the fields of computational biophysics, intrinsically disordered proteins, and transcriptional regulation. The study demonstrates an application of enhanced sampling MD to a challenging system (IDR-mediated interactions) and provides atomic-level insights into a phosphorylation-dependent regulatory mechanism, which could inform future experimental and computational studies on similar systems.
+- **Major strengths**
+  - Use of an enhanced sampling method (mD-VcMD) appropriate for exploring the conformational space of a disordered region.
+  - Direct comparison between unmodified and phosphorylated states under identical simulation conditions.
+  - Quantitative analysis of contact probabilities, hydrogen bonds, and salt bridges, providing detailed mechanistic information.
+  - Clear presentation of the dynamic model and its connection to prior experimental work.
+  - Discussion of potential artifacts (e.g., periodic boundary crossing) and their handling.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Evidence for central claim
+  - **Claim pointer** The authors claim that phosphorylation "weakens the IDSK–VP16ad contact considerably" and that this is a key result supporting the functional model.
+  - **Evidence pointer** Figure 1, Tables 1 and 2, location not provided (figures/tables not included in the provided text).
+  - **Concern** The central quantitative claim of reduced contact is based on contact ratio calculations (Figure 1) and hydrogen bond/salt bridge analyses (Tables 1 and 2). However, the actual figures and tables are not available for review. The text states that "remarkable contacts" (CID–VP(i, j) ≥ 0.4) in the u-state "vanished" in the p-state, but the magnitude of the reduction, statistical significance, and error estimates are not reported in the text. Without seeing the data, it is impossible to assess whether the reduction is robust and significant or within the noise of the simulation.
+  - **Why it matters** This is the primary quantitative evidence for the manuscript's main conclusion. If the reduction is not statistically robust or is overinterpreted, the central claim is weakened.
+  - **Resolution test** The authors must provide the actual figures and tables, along with error bars or confidence intervals for the contact ratios, and a clear statistical comparison between the u-state and p-state. They should also report the number of independent samples contributing to these averages.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / System setup and representativeness
+  - **Claim pointer** The authors state that the system consists of the IDSK peptide and the VP16ad–(PC4ctd)2 complex, with the IDSK treated as an isolated peptide moving freely in the box.
+  - **Evidence pointer** Materials and Methods, section "The u-state and p-state Systems", location not provided.
+  - **Concern** The IDSK peptide is treated as an isolated fragment, not covalently linked to the PC4ctd dimer as it would be in the full-length protein. This removes the tethering constraint that would limit the conformational space and could affect the effective local concentration of IDSK near VP16ad. The authors justify this by citing computational cost and the flexibility of the IDR, but the impact of this truncation on the quantitative contact probabilities is not discussed. The claim that the single IDSK peptide "causes different IDSK–VP16ad interactions between the unmodified and phosphorylated systems" is mentioned but not elaborated.
+  - **Why it matters** The simulation model is a simplification of the biological system. If the tethering effect is significant, the calculated contact probabilities and the proposed mechanism may not accurately represent the behavior of the full-length protein.
+  - **Resolution test** The authors should discuss the potential limitations of the isolated peptide model and ideally perform a control simulation with the IDSK tethered to the PC4ctd dimer, or at least provide a qualitative argument for why the tethering effect is negligible for the specific question being addressed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Functional relevance
+  - **Claim pointer** The authors conclude that their results "support the dynamic model proposed by the Jonker et al." and that this is important for understanding PC4 functional modulation.
+  - **Evidence pointer** Discussion, location not provided.
+  - **Concern** The study only models the early stage of phosphorylation (three sites) and does not directly simulate or measure the downstream functional consequences, such as the replacement of VP16ad by dsDNA or the subsequent DNA unwinding. The link between the observed conformational change (reduced contact, compact IDSK) and the functional switch is inferred from the prior experimental model, not demonstrated by the simulations.
+  - **Why it matters** The manuscript's significance rests on its ability to explain a functional process. If the simulations only show a conformational change without directly linking it to the functional outcome, the impact is limited to providing structural plausibility for an existing model.
+  - **Resolution test** The authors should clearly state that their study provides computational evidence for the structural basis of the early phosphorylation step, but that the full functional cascade remains to be tested. They could also discuss how their findings could be used to design experiments to directly test the link.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, location not provided.
+  - **Issue** The introduction assumes significant background knowledge in transcription and virology. The connection between HSV infection, VP16, and the general transcription machinery is presented very briefly.
+  - **Required correction** Consider adding a sentence or two to briefly explain the role of VP16 in HSV infection and why studying its interaction with PC4 is relevant to understanding transcriptional regulation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness / Clarity of methods
+  - **Affected element** Materials and Methods, section "Two Reaction Coordinates (RCs)"
+  - **Evidence pointer** Materials and Methods, location not provided.
+  - **Issue** The definition of the reaction coordinates is clear, but the rationale for choosing these specific coordinates (distances between centroids) is not fully explained. Why are these the most relevant coordinates for capturing the phosphorylation-induced conformational change?
+  - **Required correction** Briefly justify the choice of these RCs, perhaps by stating that they directly measure the association/dissociation of the two key segments of IDSK with VP16ad, which is the primary process of interest.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness / Data presentation
+  - **Affected element** Results, section "Decrement of IDSK–VP16ad Contact by Phosphorylation"
+  - **Evidence pointer** Results, location not provided.
+  - **Issue** The text refers to "remarkable contacts" with a threshold of CID–VP(i, j) ≥ 0.4, but the choice of this threshold is not justified.
+  - **Required correction** Explain the basis for this threshold, or state that it is an arbitrary cutoff for visualization purposes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion, first paragraph
+  - **Evidence pointer** Discussion, location not provided.
+  - **Issue** The term "TOC graphic" is used without explanation.
+  - **Required correction** Spell out "Table of Contents graphic" on first use.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of access to the primary data (figures and tables) prevents verification of the central quantitative claim.
+  - R1-M2: The potential impact of the isolated IDSK peptide model on the results is not adequately discussed.
+- **Assessment against Nature-style criteria**
+  - **Originality** The study applies a sophisticated computational method to a specific biological question. While the approach is not entirely novel, its application to this particular system and the detailed analysis of the phosphorylation-induced conformational change provide some new insights. However, the core model being tested was already proposed based on experimental data, so the originality is moderate.
+  - **Scientific importance** The work addresses a fundamental question in gene regulation: how post-translational modifications of disordered regions modulate protein interactions. The findings are relevant to understanding PC4 function and, more broadly, the role of IDRs in signaling. However, the study is confirmatory in nature, and the direct link to functional outcomes is not established, limiting its immediate importance.
+  - **Interdisciplinary readership** The topic is at the interface of computational biophysics, structural biology, and molecular biology. The methods and findings would be of interest to researchers in these fields, but the specialized nature of the system (PC4, VP16) may limit broader appeal.
+  - **Technical soundness** The use of mD-VcMD is appropriate, and the authors have taken care to address convergence and potential artifacts. However, the lack of access to the primary data and the unaddressed limitation of the isolated peptide model are significant concerns that need to be resolved.
+  - **Readability for nonspecialists** The manuscript is generally well-written and logically structured. However, the introduction and some methodological details assume a high level of background knowledge, which could be a barrier for readers outside the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study is methodologically sound and provides a plausible computational explanation for experimental observations. However, the central quantitative claim must be verifiable from the presented data, and the limitations of the model system must be clearly addressed. If these issues are resolved, the manuscript would be a valuable contribution to the field, though its significance is incremental rather than groundbreaking.
+
+## Risk / unsupported claims
+- The claim that phosphorylation "weakens the IDSK–VP16ad contact considerably" is not verifiable without access to the actual figures and tables.
+- The claim that the "intra-IDSK compact conformation" is the entity of the dynamic model proposed by Jonker et al. is an interpretation based on simulation data and is not directly proven.
+- The statement that the results "can be important for computational elucidation of the functional modulation of PC4" is a general statement of potential impact and is not a specific, testable claim.
+- The assertion that the simulation "supports the experimentally proposed dynamic model" is a reasonable interpretation but is not a definitive proof, as the simulations model a simplified system.

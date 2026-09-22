@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40515853",
+  "title": "'Intelligent' proteins.",
+  "authors": "Tripathi, Timir; Uversky, Vladimir N; Giuliani, Alessandro",
+  "journal": "Cellular and molecular life sciences : CMLS",
+  "published_date": "2025-06-14",
+  "window": {
+    "start": "2025-06-09",
+    "end": "2025-06-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出'蛋白质智能'概念，用整合信息论(IIT)和网络理论统一理解蛋白质中有序/无序平衡、变构、相分离等行为，虽非具体PPI建模，但为IDR介导互作与相分离的机制建模提供了理论框架启发。",
+  "abstract": "We present an idea of protein molecules that challenges the traditional view of proteins as simple molecular machines and suggests instead that they exhibit a basic form of \"intelligence\". The idea stems from suggestions coming from Integrated Information Theory (IIT), network theory, and allostery to explore how proteins process information, adapt to their environment, and even show memory-like behaviors. We define protein intelligence using IIT and focus on how proteins integrate information (in terms of the parameter Phi coming from IIT) and balance their core (stable, ordered regions) and periphery (flexible, disordered regions). This balance allows proteins to remain stable while adapting to changes and operating in a critical state where order and disorder coexist. We summarize recent findings on conformational memory, allosteric regulation, protein intrinsic disorder, liquid-liquid phase separation, and critical transitions, and compare protein behavior to other complex systems like ecosystems and neural networks. While our perspective offers a unified framework to understand proteins, it also raises questions about applying intelligence concepts to molecular systems. We discuss how this understanding could advance protein engineering, drug design, and synthetic biology, while at the same time acknowledging the challenges of creating adaptive, \"intelligent\" proteins. This concept bridges the gap between mechanistic and systems-level views of proteins and offers a comprehensive understanding of their dynamic and adaptive nature. We have tried to redefine the traditionally metaphorical concept of \"intelligence\" in biochemistry as a measurable property while simultaneously establishing the material foundation of protein intelligence through the identification of fundamental elements such as memory and learning in molecular systems.",
+  "abstract_zh": "我们提出了一种关于蛋白质分子的观点，挑战了将蛋白质视为简单分子机器的传统看法，并暗示它们展现出一种基本形式的“智能”。这一观点源于整合信息理论（Integrated Information Theory, IIT）、网络理论和变构调节的启示，旨在探索蛋白质如何处理信息、适应环境，甚至表现出类似记忆的行为。我们利用IIT定义蛋白质智能，并聚焦于蛋白质如何整合信息（以IIT中的参数Phi衡量）以及平衡其核心（稳定、有序区域）与外围（灵活、无序区域）。这种平衡使蛋白质在保持稳定的同时适应变化，并在有序与无序共存的临界状态下运作。我们总结了关于构象记忆、变构调节、蛋白质内在无序性、液-液相分离和临界转变的最新发现，并将蛋白质行为与生态系统和神经网络等其他复杂系统进行比较。虽然我们的视角提供了一个统一框架来理解蛋白质，但也引发了关于将智能概念应用于分子系统的问题。我们讨论了这一理解如何推动蛋白质工程、药物设计和合成生物学的发展，同时承认创造适应性“智能”蛋白质所面临的挑战。这一概念弥合了蛋白质的机制性观点与系统级观点之间的差距，并提供了对其动态和适应性本质的全面理解。我们试图将生物化学中传统上隐喻性的“智能”概念重新定义为可测量的属性，同时通过识别分子系统中的记忆和学习等基本元素，确立蛋白质智能的物质基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40515853/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40515853/",
+  "paper_page_path": "papers/pubmed/40515853/index.html"
+}

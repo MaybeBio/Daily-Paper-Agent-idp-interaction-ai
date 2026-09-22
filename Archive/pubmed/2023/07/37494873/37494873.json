@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "37494873",
+    "doi": "10.1016/j.jmgm.2023.108572",
+    "title": "Structural dynamics of moonlighting intrinsically disordered proteins - A black box in multiple sclerosis."
+  },
+  "content": {
+    "abstract": "Multiple Sclerosis (MS) is a demyelinating disease of the central nervous system that disturbs the flow of brain signals to other parts of the body. The actual cause of the disease is still not apparent. The intrinsically disordered proteins (IDP) play a crucial role in neurodegenerative diseases like Alzheimer's, Lewy bodies, Parkinson's, Amyotrophic Lateral Sclerosis, Multiple Sclerosis, etc. In MS, it was known that the immune system attacks the proteins like Myelin Basic Protein (MBP), Myelin-associated Oligodendrocyte Basic protein (MOBP), Myelin-Associated Protein (MAG), and Myelin Proteolipid Protein (PLP) and this leads to demyelination causing MS. Here the proteins MBP and MOBP are both moonlighting intrinsically disordered proteins and exist between the myelin sheath, unlike MAG which is a transmembrane protein. The main focus of the article was to examine the significant role of proteins intrinsically disordered regions (IDR) in maintaining their function. Molecular dynamics simulation studies were performed to study the conformational dynamics of these protein IDRs both in water and near the myelin sheath. The results suggest that the IDR dominates the structural dynamics of these proteins and IDR in both proteins was responsible for their interaction with the myelin sheath. Interestingly, it was noted that the known epitopes MBP(83-96) and MOBP(65-87) in the IDR have no interaction with the myelin sheath. Thus when the protein remains intrinsically disordered it maintains the proper function and myelin integrity and if it adopts folds the region was identified as an epitope by the immune system leading to demyelination causing MS.",
+    "keywords": [
+      "Moonlighting intrinsically disordered protein",
+      "Multiple sclerosis",
+      "Myelin basic protein",
+      "Myelin sheath",
+      "Myelin-associated oligodendrocyte basic protein",
+      "NAMD"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Multiple Sclerosis",
+      "*Intrinsically Disordered Proteins",
+      "Myelin Proteins",
+      "Membrane Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramya, L",
+        "Helina Hilda, S"
+      ],
+      "short_names": [
+        "Ramya L",
+        "Helina Hilda S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioinformatics, School of Chemical and Biotechnology, SASTRA Deemed University, Thirumalaisamudram, Thanjavur, 613401, Tamil Nadu, India. Electronic address: lramya174@gmail.com.",
+        "Department of Bioinformatics, School of Chemical and Biotechnology, SASTRA Deemed University, Thirumalaisamudram, Thanjavur, 613401, Tamil Nadu, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramya, L",
+        "short_name": "Ramya L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, School of Chemical and Biotechnology, SASTRA Deemed University, Thirumalaisamudram, Thanjavur, 613401, Tamil Nadu, India. Electronic address: lramya174@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Helina Hilda, S",
+        "short_name": "Helina Hilda S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics, School of Chemical and Biotechnology, SASTRA Deemed University, Thirumalaisamudram, Thanjavur, 613401, Tamil Nadu, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular graphics & modelling"
+    ],
+    "journal_abbrev": [
+      "J Mol Graph Model"
+    ],
+    "pub_date": "2023 Nov",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/27 01:09",
+    "fetched_at": "2026-09-20 23:49:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37494873",
+      "37461348",
+      "26518750",
+      "32242486",
+      "19683076",
+      "9306245",
+      "31183926",
+      "19642704",
+      "2428837",
+      "32085570",
+      "8382894",
+      "15240739",
+      "7504688",
+      "10541588",
+      "17531841",
+      "15765008",
+      "2413798",
+      "7509366",
+      "8965116",
+      "34694630",
+      "7510098",
+      "23780694",
+      "6203933",
+      "38910432",
+      "11556969",
+      "2449119",
+      "7526383",
+      "27988845",
+      "10636488",
+      "19473295",
+      "34825861",
+      "15704220",
+      "36341924",
+      "8675668",
+      "37244538",
+      "32106542",
+      "10623862",
+      "11170179",
+      "12578854",
+      "25816771",
+      "34656327",
+      "7528355",
+      "8690806",
+      "34082015",
+      "11880145",
+      "15219899",
+      "10103078",
+      "29246870",
+      "15974988",
+      "10229114",
+      "7737302",
+      "7510787",
+      "12237860",
+      "26401933",
+      "7679782",
+      "7515411",
+      "28189601",
+      "6198864",
+      "30841624",
+      "17028425",
+      "35863244",
+      "17142321",
+      "31724233",
+      "25003183",
+      "26903219",
+      "32824743",
+      "7509847",
+      "34243065",
+      "34889995",
+      "38942776",
+      "20399564",
+      "9202313",
+      "28875859",
+      "19519451",
+      "18632947",
+      "16416423",
+      "27097548",
+      "31881468",
+      "7689593",
+      "11592121",
+      "9776706",
+      "10683517",
+      "1374422",
+      "22752855",
+      "6154440",
+      "10545390",
+      "35791387",
+      "15748939",
+      "11241296",
+      "29550429",
+      "23899992",
+      "33504299",
+      "7543946",
+      "23532085",
+      "15210822",
+      "16302025",
+      "8289087",
+      "9460711",
+      "34827627",
+      "39253485",
+      "37637167",
+      "36153968",
+      "37672685",
+      "37724675",
+      "38712287",
+      "38048321",
+      "37648703",
+      "37998041",
+      "36552214",
+      "38672470",
+      "32637820",
+      "35252885",
+      "37093283",
+      "39126896",
+      "33447499",
+      "35203407",
+      "38273977",
+      "38217697",
+      "38063974"
+    ],
+    "review": [
+      "37494873",
+      "37461348",
+      "26518750",
+      "19683076",
+      "19642704",
+      "32085570",
+      "17531841",
+      "15765008",
+      "23780694",
+      "15704220",
+      "7528355",
+      "15219899",
+      "29246870",
+      "15974988",
+      "6198864",
+      "17028425",
+      "34889995",
+      "28875859",
+      "19519451",
+      "27097548",
+      "9776706",
+      "35791387",
+      "33504299",
+      "37724675"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093-3263(23)00170-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/multiplesclerosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Multiple Sclerosis"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-ERCC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1475",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

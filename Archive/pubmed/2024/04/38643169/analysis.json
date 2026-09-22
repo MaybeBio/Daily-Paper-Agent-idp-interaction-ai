@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38643169",
+  "title": "GENESIS CGDYN: large-scale coarse-grained MD simulation with dynamic load balancing for heterogeneous biomolecular systems.",
+  "authors": "Jung, Jaewoon; Tan, Cheng; Sugita, Yuji",
+  "journal": "Nature communications",
+  "published_date": "2024-04-21",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发了带动态负载均衡的层级域分解粗粒化MD方法，并应用于IDP液滴融合与Ostwald熟化等相分离凝聚体动态的机制模拟，对象、互作（液滴间分子重分布）与物理模拟方法三者齐备，虽非直接PPI界面建模，但对无序蛋白凝聚体互作机制建模有直接启发。",
+  "abstract": "Residue-level coarse-grained (CG) molecular dynamics (MD) simulation is widely used to investigate slow biological processes that involve multiple proteins, nucleic acids, and their complexes. Biomolecules in a large simulation system are distributed non-uniformly, limiting computational efficiency with conventional methods. Here, we develop a hierarchical domain decomposition scheme with dynamic load balancing for heterogeneous biomolecular systems to keep computational efficiency even after drastic changes in particle distribution. These schemes are applied to the dynamics of intrinsically disordered protein (IDP) droplets. During the fusion of two droplets, we find that the changes in droplet shape correlate with the mixing of IDP chains. Additionally, we simulate large systems with multiple IDP droplets, achieving simulation sizes comparable to those observed in microscopy. In our MD simulations, we directly observe Ostwald ripening, a phenomenon where small droplets dissolve and their molecules redeposit into larger droplets. These methods have been implemented in CGDYN of the GENESIS software, offering a tool for investigating mesoscopic biological processes using the residue-level CG models.",
+  "abstract_zh": "残基级粗粒化（coarse-grained, CG）分子动力学（molecular dynamics, MD）模拟被广泛用于研究涉及多种蛋白质、核酸及其复合物的缓慢生物过程。大型模拟系统中的生物分子分布不均匀，限制了传统方法的计算效率。在此，我们开发了一种针对异质生物分子系统的层级域分解方案，并配备动态负载平衡，以在粒子分布发生剧烈变化后仍保持计算效率。这些方案被应用于 intrinsically disordered protein (IDP) 液滴的动力学研究。在两个液滴融合过程中，我们发现液滴形状的变化与IDP链的混合相关。此外，我们模拟了包含多个IDP液滴的大型系统，实现了与显微镜观察相当的模拟规模。在我们的MD模拟中，我们直接观察到奥斯特瓦尔德熟化（Ostwald ripening）现象，即小液滴溶解，其分子重新沉积到较大液滴中。这些方法已在GENESIS软件的CGDYN中实现，为使用残基级CG模型研究介观生物过程提供了工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38643169/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38643169/",
+  "paper_page_path": "papers/pubmed/38643169/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36006408",
+  "title": "Molecular Dynamics Investigation into pH Dependent Metal Binding of the Intrinsically Disordered Worm Jaw Protein, Nvjp-1.",
+  "authors": "Bekele, Selemon; Singh, Kristi; Helton, Evan; Farajollahi, Sanaz; Naik, Rajesh R; Dennis, Patrick; Kelley-Loughnane, Nancy; Berry, Rajiv",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2022-08-26",
+  "window": {
+    "start": "2022-08-22",
+    "end": "2022-08-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用全原子极化力场MD模拟研究无序蛋白Nvjp-1在不同pH下锌离子结合机制，揭示残基重排与凝聚体硬化关联，虽对象为金属结合而非典型PPI，但无序蛋白-配体互作机制建模思路对IDR介导互作研究有迁移价值。",
+  "abstract": "Sclerotization of the Nereis virens jaw is mediated by metal binding to the histidine-rich jaw protein, Nvjp-1. Previous studies showed that the mechanical properties of Nvjp-1 hydrogels could be modulated with zinc binding as well as the associated anion. Here, we show that the mechanical properties of Nvjp-1 hydrogels can be modulated by pH and that zinc binding to Nvjp-1 is stable at both acidic and alkaline pH conditions. To probe the mechanism of Zn(2+) binding to Nvjp-1 at different pH conditions, we utilized all atom molecular dynamics simulations employing a polarizable force field. At low pH conditions, polar residues predominantly interacted with Zn(2+), with at most two residues interacting with a given zinc ion. Surprisingly, little to no Zn(2+) binding was observed with the abundant Nvjp-1 acidic residues, which form salt-bridges with the protonated histidines to effectively block their binding to Zn(2+) ions. As the pH was shifted to alkaline conditions, Zn(2+) binding residues reconfigured to form additional coordination bonds with histidine, resulting in a reduction in the radius of gyration that correlated with hydrogel sclerotization. Furthermore, acetate ions were shown to facilitate the capture of zinc ions through association with protonated histidines at low pH, freeing acidic residues to interact with Zn(2+) ions and increasing the number of Zn(2+) ions that diffuse into the Nvjp-1 interior. Thus, these studies provide valuable molecular insights into how amino acid residues in Nvjp-1 manage metal salt binding and coordination in hydrogels as a function of the pH and ionic environments.",
+  "abstract_zh": "Nereis virens 颚的硬化是由金属与富含组氨酸的颚蛋白 Nvjp-1 结合所介导的。先前的研究表明，Nvjp-1 水凝胶的机械性能可通过锌结合及伴随的阴离子进行调节。在此，我们展示了 Nvjp-1 水凝胶的机械性能可通过 pH 值调节，并且锌与 Nvjp-1 的结合在酸性和碱性 pH 条件下均保持稳定。为了探究不同 pH 条件下 Zn(2+) 与 Nvjp-1 结合的机制，我们采用了使用极化力场的全原子分子动力学 (molecular dynamics) 模拟。在低 pH 条件下，极性残基主要与 Zn(2+) 相互作用，且每个锌离子最多与两个残基相互作用。令人惊讶的是，丰富的 Nvjp-1 酸性残基几乎未观察到 Zn(2+) 结合，这些酸性残基与质子化的组氨酸形成盐桥，从而有效阻断其与 Zn(2+) 离子的结合。当 pH 值转向碱性条件时，Zn(2+) 结合残基重新配置，与组氨酸形成额外的配位键，导致回旋半径减小，这与水凝胶硬化相关。此外，醋酸根离子被证明在低 pH 条件下通过与质子化组氨酸的关联促进锌离子的捕获，释放酸性残基以与 Zn(2+) 离子相互作用，并增加扩散进入 Nvjp-1 内部的 Zn(2+) 离子数量。因此，这些研究提供了宝贵的分子层面的见解，揭示了 Nvjp-1 中的氨基酸残基如何根据 pH 和离子环境管理水凝胶中的金属盐结合与配位。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36006408/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36006408/",
+  "paper_page_path": "papers/pubmed/36006408/index.html"
+}

@@ -1,0 +1,544 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.04.657832",
+  "title": "Quantifying Protein-Protein Interaction with a Spatial Attention Kinetic Graph Neural Network",
+  "doi": "10.1101/2025.06.04.657832",
+  "abstract": "Accurate prioritisation of near-native protein–protein interaction (PPI) models remains a major bot-tleneck in structural biology. Here we present SAKE-PP, a physics-inspired, spatial-attention equivariant graph neural network that directly regresses interface RMSD (iRMSD) without any native references. Trained on docking decoys generated through our novel hierarchical sampling strategy applied to PDB-Bind dataset, SAKE-PP combines force-field-like attention with Laplacian-eigenvector orientation to couple local interaction forces with global topology. On the 2024PDB benchmark comprising 176 het-erodimers, SAKE-PP demonstrates effective optimization and selection of AF3 decoys, achieving improvements of 13.75% based on iRMSD statistics and 12.5% based on DockQ scores. It consistently outperforms the AF3 ranking score in multiple metrics, including overlap, hit rate, and correlation. In zero-shot evaluation of 139 antibody–antigen complexes, SAKE-PP improves the score–iRMSD correlation by 0.4. By unifying geometric deep learning with physics-based realism, SAKE-PP provides a robust, plug-and-play scoring function that streamlines reliable PPI evaluation and accelerates downstream structure-guided drug-design workflows.",
+  "authors": [
+    "Yuzhi Xu",
+    "Wei Xia",
+    "Chao Zhang",
+    "Xinxin Liu",
+    "Chengwei Ju",
+    "Xuhang Dai",
+    "Pujun Xie",
+    "Yuanqing Wang",
+    "Guangyong Chen",
+    "John Z.H. Zhang"
+  ],
+  "published_date": "2025-06-08",
+  "updated_date": "2025-06-09T03:55:20Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.04.657832",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.04.657832.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T10:48:01Z",
+        "timestamp": 1775990881441,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            8
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 35,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                8
+              ]
+            ],
+            "date-time": "2025-06-08T00:00:00Z",
+            "timestamp": 1749340800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "22333006, 92270001, 62376254, 32341017 and 32341018"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "22333006, 92270001, 62376254, 32341017 and 32341018"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Accurate prioritisation of near-native protein–protein interaction (PPI) models remains a major bot-tleneck in structural biology. Here we present SAKE-PP, a physics-inspired, spatial-attention equivariant graph neural network that directly regresses interface RMSD (iRMSD) without any native references. Trained on docking decoys generated through our novel hierarchical sampling strategy applied to PDB-Bind dataset, SAKE-PP combines force-field-like attention with Laplacian-eigenvector orientation to couple local interaction forces with global topology. On the 2024PDB benchmark comprising 176 het-erodimers, SAKE-PP demonstrates effective optimization and selection of AF3 decoys, achieving improvements of 13.75% based on iRMSD statistics and 12.5% based on DockQ scores. It consistently outperforms the AF3 ranking score in multiple metrics, including overlap, hit rate, and correlation. In zero-shot evaluation of 139 antibody–antigen complexes, SAKE-PP improves the score–iRMSD correlation by 0.4. By unifying geometric deep learning with physics-based realism, SAKE-PP provides a robust, plug-and-play scoring function that streamlines reliable PPI evaluation and accelerates downstream structure-guided drug-design workflows.</jats:p>",
+      "DOI": "10.1101/2025.06.04.657832",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            9
+          ]
+        ],
+        "date-time": "2025-06-09T03:55:20Z",
+        "timestamp": 1749441320000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Quantifying Protein-Protein Interaction with a Spatial Attention Kinetic Graph Neural Network"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yuzhi",
+          "family": "Xu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Simons Center for Computational Physical Chemistry, Department of Chemistry, New York University, New York, New York 10003, United States"
+            },
+            {
+              "name": "NYU-ECNU Center for Computational Chemistry and Shanghai Frontiers Science Center of AI and DL, NYU Shanghai, Shanghai 200126, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Xia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NYU-ECNU Center for Computational Chemistry and Shanghai Frontiers Science Center of AI and DL, NYU Shanghai, Shanghai 200126, China"
+            },
+            {
+              "name": "Simons Center for Computational Physical Chemistry, Department of Chemistry, New York University, New York, New York 10003, United States"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chao",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Synthetic Biology, Shenzhen University of Advanced Technology, Shenzhen 518107, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xinxin",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Hangzhou Institute of Medicine, Chinese Academy of Sciences, 150 Dongfang Street, Xiasha, Qiantang District, Hangzhou, Zhejiang 310018, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chengwei",
+          "family": "Ju",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Pritzker School of Molecular Engineering, The University of Chicago, Chicago, Illinois 60615, United States"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xuhang",
+          "family": "Dai",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Simons Center for Computational Physical Chemistry, Department of Chemistry, New York University, New York, New York 10003, United States"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pujun",
+          "family": "Xie",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biochemistry and Molecular Pharmacology, New York University Grossman School of Medicine, New York, NY 10016, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yuanqing",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Simons Center for Computational Physical Chemistry, Department of Chemistry, New York University, New York, New York 10003, United States"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Guangyong",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Hangzhou Institute of Medicine, Chinese Academy of Sciences, 150 Dongfang Street, Xiasha, Qiantang District, Hangzhou, Zhejiang 310018, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "John Z.H.",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "NYU-ECNU Center for Computational Chemistry and Shanghai Frontiers Science Center of AI and DL, NYU Shanghai, Shanghai 200126, China"
+            },
+            {
+              "name": "Faculty of Synthetic Biology, Shenzhen University of Advanced Technology, Shenzhen 518107, China"
+            },
+            {
+              "name": "Collaborative Innovation Center of Extreme Optics, Shanxi University, Taiyuan 030006, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41392-023-01668-1"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/mcp.R113.027771"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41392-020-00315-3"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41392-018-0017-6"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/med.21585"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4155/fmc.09.12"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.7",
+          "unstructured": "Evans, R. ; O’Neill, M. ; Pritzel, A. ; Antropova, N. ; Senior, A. ; Green, T. ; Žídek, A. ; Bates, R. ; Black-well, S. ; Yim, J. ; others biorxiv 2021, 2021–10."
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c00334"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae166"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-21511-x"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.0c00476"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "9280",
+          "DOI": "10.1002/ange.201404761",
+          "volume": "126",
+          "year": "2014",
+          "journal-title": "Angew. Chem"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.biotechadv.2011.08.003"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.16",
+          "first-page": "59",
+          "volume": "3",
+          "year": "2023",
+          "journal-title": "Nat. Comput. Sci"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ACS.JCIM.0C00058"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.10389"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1004"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.10381"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/scitranslmed.ado4463"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.22",
+          "unstructured": "Leonard, E. K. ; Tomala, J. ; Gould, J. R. ; Leff, M. I. ; Lin, J.-X. ; Li, P. ; Porter, M. J. ; Johansen, E. R. ; Thompson, L. ; Cao, S. D. ; others bioRxiv 2023,"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/4.0000613"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "e202405823",
+          "DOI": "10.1002/ange.202405823",
+          "volume": "136",
+          "year": "2024",
+          "journal-title": "Angew. Chem"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1043"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.26",
+          "unstructured": "Fang, X. ; Gao, J. ; Hu, J. ; Liu, L. ; Xue, Y. ; Zhang, X. ; Zhu, K. arXiv preprint arXiv:2404.10260 2024,"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.27",
+          "unstructured": "Satorras, V. G. ; Hoogeboom, E. ; Welling, M. E (n) equivariant graph neural networks. International conference on machine learning. 2021; pp 9323–9332."
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.28",
+          "unstructured": "Beaini, D. ; Passaro, S. ; Létourneau, V. ; Hamilton, W. ; Corso, G. ; Lió, P. Directional Graph Networks. Proceedings of the 38th International Conference on Machine Learning. 2021; pp 748–758."
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.29",
+          "unstructured": "Kipf, T. N. ; Welling, M. Semi-Supervised Classification with Graph Convolutional Networks. International Conference on Learning Representations (ICLR). 2017."
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.30",
+          "unstructured": "Veličković, P. ; Cucurull, G. ; Casanova, A. ; Romero, A. ; Liò, P. ; Bengio, Y. Graph Attention Networks. International Conference on Learning Representations (ICLR). 2018."
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hu, Z. ; Dong, Y. ; Wang, K. ; Sun, Y. Heterogeneous Graph Transformer. Proceedings of the Web Conference 2020. 2020; pp 2704–2710.",
+          "DOI": "10.1145/3366423.3380027"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm030580l"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm048957q"
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.34",
+          "unstructured": "Corso, G. ; Stärk, H. ; Jing, B. ; Barzilay, R. ; Jaakkola, T. DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking. Proceedings of the Eleventh International Conference on Learning Representations (ICLR). 2023; arXiv:2210.01776."
+        },
+        {
+          "key": "2026041202521011000_2025.06.04.657832v1.35",
+          "unstructured": "Wang, Y. ; Chodera, J. D. Spatial Attention Kinetic Networks with E(n)-Equivariance. Proceedings of the 11th International Conference on Learning Representations (ICLR). 2023; arXiv:2301.08893."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.06.04.657832",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T09:52:24Z",
+        "timestamp": 1775987544000
+      },
+      "score": 69.730125,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.06.04.657832"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            8
+          ]
+        ]
+      },
+      "references-count": 35,
+      "URL": "https://doi.org/10.1101/2025.06.04.657832",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

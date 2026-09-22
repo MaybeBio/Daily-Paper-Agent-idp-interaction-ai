@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40360271",
+  "title": "TIDGN: A Transfer Learning Framework for Predicting Interactions of Intrinsically Disordered Proteins with High Conformational Dynamics.",
+  "authors": "Xiao, Jing; Hu, Guorong; Zhou, Xiaozhou; Zheng, Yuchuan; Li, Jingyuan",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-05-14",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出基于迁移学习的等变几何动态图模型TIDGN，利用MD模拟数据预测无序蛋白（IDP）间的同源/异源相互作用位点，直接针对IDP互作机制建模，融合AI与物理模拟，高度契合本课题。",
+  "abstract": "Interactions between intrinsically disordered proteins (IDPs) are crucial for biological processes, such as intracellular liquid-liquid phase separation (LLPS). Experiments (e.g., NMR) and simulations used to study IDP interactions encounter a variety of difficulties, highlighting the necessity to develop relevant machine learning methods. However, reliable machine learning methods face the challenge resulting from the scarcity of available training data. In this work, we propose a transfer learning-based invariant geometric dynamic graph model, named TIDGN, for predicting IDP interactions. The model consists of a pretraining task module and a downstream task module. The pretraining task module learns the dynamic structural encoding of IDP monomers, which is then used by the downstream task module for interaction site prediction. The IDP monomer structure data set and the IDP interaction event data set are constructed using all-atom molecular dynamics (MD) simulations. The transfer learning strategy effectively enhances the model's performance. Both homotypic interactions and heterotypic interactions between two IDPs are considered in this work. Interestingly, TIDGN performs well for the heterotypic interaction prediction. Additionally, the feature ablation analysis emphasizes the importance of invariant geometric graph features. Taken together, our work demonstrates that the integration of transfer learning and the invariant geometric graph network offers a promising approach for addressing data scarcity challenges of IDP interaction prediction.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 之间的相互作用对于生物过程至关重要，例如细胞内液-液相分离 (liquid-liquid phase separation, LLPS)。用于研究IDP相互作用的实验（如NMR）和模拟面临多种困难，凸显了开发相关机器学习方法的必要性。然而，可靠的机器学习方法面临训练数据稀缺带来的挑战。在本工作中，我们提出一种基于迁移学习的不变几何动态图模型，命名为TIDGN，用于预测IDP相互作用。该模型包含预训练任务模块和下游任务模块。预训练任务模块学习IDP单体的动态结构编码，随后由下游任务模块用于相互作用位点预测。IDP单体结构数据集和IDP相互作用事件数据集通过全原子分子动力学 (molecular dynamics, MD) 模拟构建。迁移学习策略有效增强了模型性能。本工作考虑了两种IDP之间的同型相互作用和异型相互作用。有趣的是，TIDGN在异型相互作用预测中表现良好。此外，特征消融分析强调了不变几何图特征的重要性。总体而言，我们的工作表明，迁移学习与不变几何图网络的集成为解决IDP相互作用预测中的数据稀缺挑战提供了一种有前景的方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40360271/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40360271/",
+  "paper_page_path": "papers/pubmed/40360271/index.html"
+}

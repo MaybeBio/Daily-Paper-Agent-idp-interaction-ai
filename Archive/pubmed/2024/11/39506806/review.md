@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusion. Figures and tables are referenced but not directly viewable. Supplementary materials are mentioned but not provided.
+- **Assessment boundary** Evaluation is limited to the content presented in the supplied manuscript text. Claims regarding model performance, dataset construction, and comparative results are assessed based on the reported numbers and descriptions. Visual content of figures and full supplementary tables are not accessible.
+- **Shared manuscript claim summary** The authors propose CLAPE-SMB, a sequence-based method for predicting protein-small molecule binding sites. The method integrates a pre-trained protein language model (ESM-2) with a contrastive learning loss (triplet center loss) and a class-balanced focal loss. The authors report performance on three datasets: COACH420, a newly assembled SJC dataset, and a newly constructed UniProtSMB dataset. They also report performance on an intrinsically disordered protein (IDP) dataset and present case studies for three proteins.
+- **Visible evidence base** The manuscript provides quantitative results in Tables 1 through 7, including MCC, precision, recall, AUROC, and AUPRC values. Dataset construction details are described in the Methods and Results sections. Comparative analyses against P2Rank, GraphBind, and DeepProSite are reported. Hyperparameter optimization results are described. Amino acid composition and property analyses are summarized.
+- **Missing materials affecting confidence** Supplementary figures and tables are referenced but not provided. These include Supplementary Tables 1 through 8 and Supplementary Figures 1 through 7. Full details of the CHEN11 training procedure, exact data splits, and statistical significance testing methodology are not fully described. The specific implementation details of the contrastive learning module and the interaction between the two loss terms are not fully specified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a useful contribution to the field of sequence-based binding site prediction. The integration of a pre-trained protein language model with contrastive learning is a reasonable and timely approach. The reported performance improvements over existing methods, particularly on the COACH420 benchmark, are encouraging. However, several technical aspects require clarification and additional validation before the claims can be fully accepted. The construction of the UniProtSMB dataset is a notable effort, but the merging procedure and its potential biases need more rigorous examination. The case studies are illustrative but not quantitatively compared against alternative methods. The manuscript is generally well-written and accessible, though some methodological details are lacking.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, drug discovery researchers interested in structure-guided drug design, and developers of deep learning methods for biological sequence analysis would find this work relevant. The availability of code and datasets enhances its utility for the community.
+- **Major strengths** The use of a fixed pre-trained protein language model avoids the computational cost of fine-tuning and reduces overfitting risk. The construction of a new, non-redundant dataset (UniProtSMB) from a major public database is a valuable resource. The demonstration of performance on IDPs addresses an important and challenging class of proteins. The computational efficiency analysis is useful for practical applications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CLAPE-SMB achieves an MCC of 0.529 on the SJC test set and 0.699 on the UniProtSMB test set, and that these results demonstrate high predictive accuracy.
+  - **Evidence pointer** Tables 3 and 4, Section "Improved accuracy of small molecule binding site prediction with CLAPE-SMB"
+  - **Concern** The manuscript does not describe the exact data splitting procedure for the SJC and UniProtSMB datasets. It is unclear whether the splits were performed at the protein family or sequence similarity level beyond the 50% clustering threshold. If homologous proteins appear in both training and test sets, the reported performance could be optimistically biased. The authors mention a 50% clustering threshold for the SJC dataset but do not specify how the train, validation, and test splits were generated from the clustered data. For UniProtSMB, the merging procedure creates composite sequences that may not represent any naturally occurring protein, and the test set composition is not clearly described.
+  - **Why it matters** Without a clear description of the data splitting strategy, the generalizability of the reported performance cannot be assessed. If the test set contains sequences highly similar to training sequences, the reported MCC values may not reflect real-world performance on novel proteins.
+  - **Resolution test** The authors should provide a detailed description of the data splitting procedure, including the number of clusters, the distribution of clusters across train, validation, and test sets, and the maximum sequence identity between any training and test sequence. Ideally, an additional evaluation on a truly held-out set of proteins with no significant similarity to training data should be performed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim** The authors state that the combination of triplet center loss and class-balanced focal loss improves performance over either loss alone.
+  - **Evidence pointer** Table 6, Section "Influence of loss function and its hyperparameters on prediction accuracy"
+  - **Concern** The reported improvements from adding TCL to focal loss are modest (MCC 0.516 to 0.529 on SJC). The manuscript does not report the statistical significance of these differences. Given the small magnitude of the improvement, it is unclear whether the added complexity of the contrastive learning module is justified. Furthermore, the interaction between the two loss terms is not analyzed. The hyperparameter optimization is described, but the sensitivity of the results to the chosen hyperparameters is not fully explored.
+  - **Why it matters** The central methodological contribution is the combination of contrastive learning with a pre-trained language model. If the benefit of the contrastive component is marginal or not statistically robust, the novelty and practical value of the approach are diminished.
+  - **Resolution test** The authors should report the variance across multiple runs with different random seeds and perform a statistical test (e.g., paired bootstrap or Wilcoxon signed-rank test) to assess whether the performance difference between the full model and the model without TCL is significant. An ablation study showing the contribution of each loss component is essential.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim** The authors claim that CLAPE-SMB outperforms other current methods on the COACH420 benchmark test set.
+  - **Evidence pointer** Table 2, Section "Improved accuracy of small molecule binding site prediction with CLAPE-SMB"
+  - **Concern** The comparison with P2Rank and GraphBind is presented, but the comparison with DeepProSite on COACH420 is not shown. The authors state that CLAPE-SMB outperforms other methods, but only two comparators are listed in Table 2. The comparison with DeepProSite is only shown on SJC and UniProtSMB. A more comprehensive comparison on the same benchmark, including more recent methods, would strengthen the claim.
+  - **Why it matters** The claim of state-of-the-art performance is a key selling point. An incomplete comparison undermines this claim and makes it difficult for readers to position the method within the current landscape.
+  - **Resolution test** The authors should include DeepProSite and any other relevant recent methods in the COACH420 comparison. If such a comparison is not feasible, the claim should be moderated to reflect the specific comparators used.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim** The authors state that the UniProtSMB dataset construction, which merges binding sites from similar proteins, improves model performance and generalizability.
+  - **Evidence pointer** Section "UniProtSMB dataset preparation", Table 4, Figure 2
+  - **Concern** The merging procedure is a key methodological choice. The authors argue that it addresses the issue of incomplete annotations in individual proteins. However, the potential risks of this approach are not fully discussed. Merging binding sites from homologous proteins could introduce noise if the aligned regions are not truly structurally or functionally equivalent. The authors do not provide an analysis of how many binding sites were added through merging, how many proteins were affected, or whether the merged annotations were manually curated. The claim that this improves generalizability is supported by the higher MCC on UniProtSMB compared to SJC, but this could also be due to differences in dataset difficulty.
+  - **Why it matters** The UniProtSMB dataset is a novel contribution. If the merging procedure is not rigorously validated, the dataset itself may contain systematic errors that propagate to any model trained on it.
+  - **Resolution test** The authors should provide a detailed analysis of the merging procedure, including the number of proteins affected, the number of binding sites added, and a manual inspection of a random sample of merged sites. A comparison of model performance trained on the raw versus merged data would directly test the benefit of the merging step.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure 1
+  - **Evidence pointer** Section "The model architecture of CLAPE-SMB"
+  - **Issue** The figure caption is descriptive but the figure itself is not available for review. The description of the three components is clear, but the flow of data through the model could be more explicitly described in the text.
+  - **Required correction** Consider adding a step-by-step description of the data flow in the text, from input sequence to final prediction, to complement the figure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Influence of loss function and its hyperparameters on prediction accuracy"
+  - **Evidence pointer** Figure 6
+  - **Issue** The hyperparameter optimization is described, but the range of values tested for each hyperparameter is not fully specified. The statement that gamma was set to 3 after searching is vague.
+  - **Required correction** Provide the full search grid for each hyperparameter and the performance values for all tested configurations, possibly in a supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section "CLAPE-SMB accurately predicts small molecule binding sites in intrinsically disordered proteins"
+  - **Evidence pointer** Figure 9
+  - **Issue** The IDP analysis is interesting, but the number of IDPs with binding sites on IDRs is very small (5 out of 336). The claim that CLAPE-SMB can accurately predict binding sites in IDRs is based on a very limited sample.
+  - **Required correction** Acknowledge the small sample size and discuss the implications for the generalizability of the findings. Consider collecting a larger set of IDPs with experimentally validated IDR binding sites.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "Discussion"
+  - **Evidence pointer** Paragraph 2
+  - **Issue** The discussion of the hyperparameter margin being inconsistent with the distance distribution is interesting but underdeveloped. The authors note this discrepancy but do not offer a hypothesis for why it occurs.
+  - **Required correction** Expand on this observation and suggest possible explanations, such as the high dimensionality of the embedding space or the specific nature of the contrastive loss.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Table 7
+  - **Evidence pointer** Section "Computational efficiency of CLAPE-SMB"
+  - **Issue** The training time for CLAPE-SMB is reported as approximately 15 minutes per epoch, which is considerably longer than DeepProSite. The authors do not discuss whether this difference is due to the model architecture, the dataset size, or the implementation.
+  - **Required correction** Provide a brief explanation for the training time difference and discuss the trade-off between training time and performance.
+
+## Risk / unsupported claims
+- The claim that CLAPE-SMB "outperforms other current methods" is not fully supported by the presented comparisons, as only two methods are compared on COACH420 and the comparison set is not exhaustive.
+- The claim that the UniSMB dataset merging procedure improves generalizability is plausible but not directly tested. A comparison of models trained on raw versus merged data is not presented.
+- The claim that CLAPE-SMB can accurately predict binding sites in IDRs is based on a very small number of cases (5 out of 336) and should be interpreted with caution.
+- The statement that ESM-2's higher-dimensional embedding space "captures more complex protein sequence information" is speculative and not directly evidenced by the presented experiments.
+- The claim that keeping ESM-2 fixed reduces overfitting is plausible but not directly tested. No comparison with a fine-tuned ESM-2 is provided.

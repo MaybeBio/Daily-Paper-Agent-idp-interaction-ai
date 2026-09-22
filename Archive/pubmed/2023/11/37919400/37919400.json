@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "37919400",
+    "doi": "10.1038/s42003-023-05487-6",
+    "title": "Conformational ensemble-dependent lipid recognition and segregation by prenylated intrinsically disordered regions in small GTPases."
+  },
+  "content": {
+    "abstract": "We studied diverse prenylated intrinsically disordered regions (PIDRs) of Ras and Rho family small GTPases using long timescale atomistic molecular dynamics simulations in an asymmetric model membrane of phosphatidylcholine (PC) and phosphatidylserine (PS) lipids. Here we show that conformational plasticity is a key determinant of lipid sorting by polybasic PIDRs and provide evidence for lipid sorting based on both headgroup and acyl chain structures. We further show that conformational ensemble-based lipid recognition is generalizable to all polybasic PIDRs, and that the sequence outside the polybasic domain (PBD) modulates the conformational plasticity, bilayer adsorption, and interactions of PIDRs with membrane lipids. Specifically, we find that palmitoylation, the ratio of basic to acidic residues, and the hydrophobic content of the sequence outside the PBD significantly impact the diversity of conformational substates and hence the extent of conformation-dependent lipid interactions. We thus propose that the PBD is required but not sufficient for the full realization of lipid sorting by prenylated PBD-containing membrane anchors, and that the membrane anchor is not only responsible for high affinity membrane binding but also directs the protein to the right target membrane where it participates in lipid sorting.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Lipid Bilayers/metabolism",
+      "*Monomeric GTP-Binding Proteins/metabolism",
+      "Membrane Lipids/chemistry",
+      "Molecular Dynamics Simulation",
+      "Molecular Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Araya, Mussie K",
+        "Gorfe, Alemayehu A"
+      ],
+      "short_names": [
+        "Araya MK",
+        "Gorfe AA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9328-4692"
+      ],
+      "affiliations": [
+        "McGovern Medical School, University of Texas Health Science Center at Houston, Department of Integrative Biology and Pharmacology, 6431 Fannin St., Houston, TX, 77030, USA.",
+        "McGovern Medical School, University of Texas Health Science Center at Houston, Department of Integrative Biology and Pharmacology, 6431 Fannin St., Houston, TX, 77030, USA. Alemayehu.G.Abebe@uth.tmc.edu.",
+        "Biochemistry and Cell Biology Program & Therapeutics and Pharmacology Program, UTHealth MD Anderson Cancer Center Graduate School of Biomedical Sciences, Houston, 6431 Fannin St., TX, 77030, USA. Alemayehu.G.Abebe@uth.tmc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Araya, Mussie K",
+        "short_name": "Araya MK",
+        "identifiers": [],
+        "affiliations": [
+          "McGovern Medical School, University of Texas Health Science Center at Houston, Department of Integrative Biology and Pharmacology, 6431 Fannin St., Houston, TX, 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Gorfe, Alemayehu A",
+        "short_name": "Gorfe AA",
+        "identifiers": [
+          "0000-0002-9328-4692"
+        ],
+        "affiliations": [
+          "McGovern Medical School, University of Texas Health Science Center at Houston, Department of Integrative Biology and Pharmacology, 6431 Fannin St., Houston, TX, 77030, USA. Alemayehu.G.Abebe@uth.tmc.edu.",
+          "Biochemistry and Cell Biology Program & Therapeutics and Pharmacology Program, UTHealth MD Anderson Cancer Center Graduate School of Biomedical Sciences, Houston, 6431 Fannin St., TX, 77030, USA. Alemayehu.G.Abebe@uth.tmc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2023 Nov 2",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/03 06:43",
+    "fetched_at": "2026-09-21 02:31:27"
+  },
+  "links": {
+    "cites": [
+      "41993480",
+      "40801144",
+      "40081987",
+      "39952269",
+      "39001846",
+      "38943706",
+      "38942776",
+      "38227371"
+    ],
+    "refs": [
+      "37236024",
+      "36959324",
+      "36087777",
+      "36005688",
+      "35930019",
+      "35687481",
+      "34680072",
+      "34222339",
+      "33526670",
+      "33172116",
+      "33155649",
+      "32752662",
+      "31554397",
+      "30916996",
+      "30616834",
+      "30525595",
+      "30351122",
+      "29976879",
+      "29967243",
+      "29239694",
+      "29120102",
+      "29100107",
+      "28041850",
+      "27862047",
+      "27819658",
+      "26958889",
+      "26790532",
+      "25941399",
+      "25234412",
+      "24470015",
+      "23906604",
+      "23565987",
+      "22562795",
+      "21686117",
+      "21112291",
+      "20080631",
+      "18761454",
+      "18621822",
+      "18568040",
+      "18460342",
+      "17886310",
+      "17880077",
+      "17384584",
+      "17263520",
+      "16928468",
+      "15731001",
+      "15304643",
+      "14575862",
+      "11149925",
+      "10889039",
+      "10388560",
+      "10328216",
+      "8744570",
+      "8621061",
+      "2547513",
+      "2208277"
+    ],
+    "similar": [
+      "37919400",
+      "37609330",
+      "38942776",
+      "35687481",
+      "38712287",
+      "33526670",
+      "29239694",
+      "23823878",
+      "24892900",
+      "38943706",
+      "39001846",
+      "26827904",
+      "28041850",
+      "22500755",
+      "25622090",
+      "31059259",
+      "22369354",
+      "35869787",
+      "24508757",
+      "28829144",
+      "29120102",
+      "24216154",
+      "31574222",
+      "33517146",
+      "23701821",
+      "17766350",
+      "24743023",
+      "14575862",
+      "8443184",
+      "29967243",
+      "23409921",
+      "15170347",
+      "21993332",
+      "28597209",
+      "20036213",
+      "31364837",
+      "20000327",
+      "8405165",
+      "35098229",
+      "18479706",
+      "26497753",
+      "21205902",
+      "31118479",
+      "10396601",
+      "21112291",
+      "9724538",
+      "31012268",
+      "21152516",
+      "20025847",
+      "29169746",
+      "29291379",
+      "28356535",
+      "31554397",
+      "26651735",
+      "33030907",
+      "27163494",
+      "27023605",
+      "26958889",
+      "29694867",
+      "16133633",
+      "22677381",
+      "22479423",
+      "15966741",
+      "33034537",
+      "35388547",
+      "26649316",
+      "23805758",
+      "21477580",
+      "33890127",
+      "32696378",
+      "28317903",
+      "16880984",
+      "27664502",
+      "8001180",
+      "20709748",
+      "12083922",
+      "23493873",
+      "10570923",
+      "32326637",
+      "31386337",
+      "33538574",
+      "34339605",
+      "36403088",
+      "8547239",
+      "18805393",
+      "23662588",
+      "30978005",
+      "31141233",
+      "21073855",
+      "33705758",
+      "30819802",
+      "24415755",
+      "23567918",
+      "31655893",
+      "24859688",
+      "32421131",
+      "8756472",
+      "23356741",
+      "34384763"
+    ],
+    "review": [
+      "37919400",
+      "38943706",
+      "29120102",
+      "14575862",
+      "31364837",
+      "10396601",
+      "16880984",
+      "8001180",
+      "10570923",
+      "32326637",
+      "18805393",
+      "30978005"
+    ],
+    "pmc": [
+      "10622456"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-023-05487-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37919400/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37919400",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

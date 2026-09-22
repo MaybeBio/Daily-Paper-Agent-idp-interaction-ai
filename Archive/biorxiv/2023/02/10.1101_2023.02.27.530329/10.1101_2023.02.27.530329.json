@@ -1,0 +1,139 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.02.27.530329",
+  "title": "FREEDA: an automated computational pipeline guides experimental testing of protein innovation by detecting positive selection",
+  "doi": "10.1101/2023.02.27.530329",
+  "abstract": "Cell biologists typically focus on conserved regions of a protein, overlooking innovations that can shape its function over evolutionary time. Computational analyses can reveal potential innovations by detecting statistical signatures of positive selection that leads to rapid accumulation of beneficial mutations. However, these approaches are not easily accessible to non-specialists, limiting their use in cell biology. Here, we present an automated computational pipeline FREEDA (Finder of Rapidly Evolving Exons in De novo Assemblies) that provides a simple graphical user interface requiring only a gene name, integrates widely used molecular evolution tools to detect positive selection, and maps results onto protein structures predicted by AlphaFold. Applying FREEDA to >100 mouse centromere proteins, we find evidence of positive selection in intrinsically disordered regions of ancient domains, suggesting innovation of essential functions. As a proof-of-principle experiment, we show innovation in centromere binding of CENP-O. Overall, we provide an accessible computational tool to guide cell biology research and apply it to experimentally demonstrate functional innovation.",
+  "authors": [
+    "Dudka D",
+    "Akins RB",
+    "Lampson MA"
+  ],
+  "published_date": "2023-02-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.02.27.530329",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.02.27.530329.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR623203",
+    "raw_record": {
+      "id": "PPR623203",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR623203"
+        ]
+      },
+      "doi": "10.1101/2023.02.27.530329",
+      "title": "FREEDA: an automated computational pipeline guides experimental testing of protein innovation by detecting positive selection",
+      "authorString": "Dudka D, Akins RB, Lampson MA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dudka D",
+            "lastName": "Dudka",
+            "firstName": "Damian",
+            "initials": "D"
+          },
+          {
+            "fullName": "Akins RB",
+            "lastName": "Akins",
+            "firstName": "Brian",
+            "initials": "RB"
+          },
+          {
+            "fullName": "Lampson MA",
+            "lastName": "Lampson",
+            "firstName": "Michael",
+            "initials": "MA"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Cell biologists typically focus on conserved regions of a protein, overlooking innovations that can shape its function over evolutionary time. Computational analyses can reveal potential innovations by detecting statistical signatures of positive selection that leads to rapid accumulation of beneficial mutations. However, these approaches are not easily accessible to non-specialists, limiting their use in cell biology. Here, we present an automated computational pipeline FREEDA (Finder of Rapidly Evolving Exons in De novo Assemblies) that provides a simple graphical user interface requiring only a gene name, integrates widely used molecular evolution tools to detect positive selection, and maps results onto protein structures predicted by AlphaFold. Applying FREEDA to >100 mouse centromere proteins, we find evidence of positive selection in intrinsically disordered regions of ancient domains, suggesting innovation of essential functions. As a proof-of-principle experiment, we show innovation in centromere binding of CENP-O. Overall, we provide an accessible computational tool to guide cell biology research and apply it to experimentally demonstrate functional innovation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/02/28/2023.02.27.530329.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.02.27.530329"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR623203"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR623203&type=FILE&fileName=EMS170999-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS170999",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-03-02",
+      "firstPublicationDate": "2023-02-28",
+      "firstIndexDate": "2023-03-02",
+      "fullTextReceivedDate": "2023-03-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

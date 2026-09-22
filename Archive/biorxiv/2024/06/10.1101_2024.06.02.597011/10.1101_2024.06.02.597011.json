@@ -1,0 +1,258 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.02.597011",
+  "title": "A CRISPR homing screen finds a chloroquine resistance transporter-like protein of the Plasmodium oocyst essential for mosquito transmission of malaria",
+  "doi": "10.1101/2024.06.02.597011",
+  "abstract": "<h4>SUMMARY</h4> Genetic screens with barcoded Plasmo GEM vectors have identified thousands of Plasmodium gene functions in haploid blood stages, gametocytes and liver stages. However, the formation of diploid cells by fertilisation has hindered the use of genetic screens to investigate vector-parasite interactions during the mosquito stages of the parasite. In this study, we developed a scalable genetic system that uses barcoded gene targeting vectors equipped with a CRISPR-mediated homing mechanism to generate homozygous loss-of-function mutants to reveal gene functions in the functionally diploid life cycle stages. In this system, a knockout vector additionally expressing a gRNA for its target is integrated into one of the parental alleles and directs Cas9 to the intact allele after fertilisation, leading to its disruption. We find that this homing strategy is 90% effective in the oocyst, resulting in the generation of homozygous genotypes. A pilot screen reveals that PBANKA_0916000 encodes a chloroquine resistance transporter-like protein, CRTL, essential for oocyst growth and sporogony. The data point to an unexpected importance for the transmission of malaria of the poorly understood digestive vacuole of the oocyst that contains hemozoin crystals. The new screening strategy provides a method to discover systematically and at scale the essential malaria transmission genes whose first essential functions are after fertilisation in the bloodmeal, enabling their potential as targets for transmission-blocking interventions to be assessed.",
+  "authors": [
+    "Balakrishnan A",
+    "Hunziker M",
+    "Tiwary P",
+    "Pandey V",
+    "Drew D",
+    "Billker O"
+  ],
+  "published_date": "2024-06-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.02.597011",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.02.597011.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR861183",
+    "raw_record": {
+      "id": "PPR861183",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR861183"
+        ]
+      },
+      "doi": "10.1101/2024.06.02.597011",
+      "title": "A CRISPR homing screen finds a chloroquine resistance transporter-like protein of the  <i>Plasmodium</i>  oocyst essential for mosquito transmission of malaria",
+      "authorString": "Balakrishnan A, Hunziker M, Tiwary P, Pandey V, Drew D, Billker O.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Balakrishnan A",
+            "lastName": "Balakrishnan",
+            "firstName": "Arjun",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Laboratory for Molecular Infection Medicine Sweden, Umeå University, Umeå, Sweden"
+                },
+                {
+                  "affiliation": "Department of Molecular Biology, Umeå University, Umeå, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hunziker M",
+            "lastName": "Hunziker",
+            "firstName": "Mirjam",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2912-4993"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Laboratory for Molecular Infection Medicine Sweden, Umeå University, Umeå, Sweden"
+                },
+                {
+                  "affiliation": "Department of Molecular Biology, Umeå University, Umeå, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tiwary P",
+            "lastName": "Tiwary",
+            "firstName": "Puja",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8180-2739"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Laboratory for Molecular Infection Medicine Sweden, Umeå University, Umeå, Sweden"
+                },
+                {
+                  "affiliation": "Department of Molecular Biology, Umeå University, Umeå, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pandey V",
+            "lastName": "Pandey",
+            "firstName": "Vikash",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Laboratory for Molecular Infection Medicine Sweden, Umeå University, Umeå, Sweden"
+                },
+                {
+                  "affiliation": "Department of Molecular Biology, Umeå University, Umeå, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Drew D",
+            "lastName": "Drew",
+            "firstName": "David",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8866-6349"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Biophysics, Science for Life Laboratory, Stockholm University, Stockholm, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Billker O",
+            "lastName": "Billker",
+            "firstName": "Oliver",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Laboratory for Molecular Infection Medicine Sweden, Umeå University, Umeå, Sweden"
+                },
+                {
+                  "affiliation": "Department of Molecular Biology, Umeå University, Umeå, Sweden"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8866-6349"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2912-4993"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8180-2739"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>SUMMARY</h4>  Genetic screens with barcoded  Plasmo GEM vectors have identified thousands of  Plasmodium gene functions in haploid blood stages, gametocytes and liver stages. However, the formation of diploid cells by fertilisation has hindered the use of genetic screens to investigate vector-parasite interactions during the mosquito stages of the parasite. In this study, we developed a scalable genetic system that uses barcoded gene targeting vectors equipped with a CRISPR-mediated homing mechanism to generate homozygous loss-of-function mutants to reveal gene functions in the functionally diploid life cycle stages. In this system, a knockout vector additionally expressing a gRNA for its target is integrated into one of the parental alleles and directs Cas9 to the intact allele after fertilisation, leading to its disruption. We find that this homing strategy is 90% effective in the oocyst, resulting in the generation of homozygous genotypes. A pilot screen reveals that PBANKA_0916000 encodes a chloroquine resistance transporter-like protein, CRTL, essential for oocyst growth and sporogony. The data point to an unexpected importance for the transmission of malaria of the poorly understood digestive vacuole of the oocyst that contains hemozoin crystals. The new screening strategy provides a method to discover systematically and at scale the essential malaria transmission genes whose first essential functions are after fertilisation in the bloodmeal, enabling their potential as targets for transmission-blocking interventions to be assessed.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "187635",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "788516",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.06.02.597011"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.02.597011"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR861183"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR861183&type=FILE&fileName=EMS196698-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196698",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-06-05",
+      "firstPublicationDate": "2024-06-02",
+      "firstIndexDate": "2024-06-05",
+      "fullTextReceivedDate": "2024-06-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

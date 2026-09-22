@@ -1,0 +1,243 @@
+{
+  "identity": {
+    "pmid": "40626470",
+    "doi": "10.1063/5.0268239",
+    "title": "Enhanced condensate fluidity in modified patchy particle models."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are formed via liquid-liquid phase separation of proteins, often together with nucleic acids, typically driven by interactions between low-affinity binding sites. The computational study of such condensates that accounts for both the droplet-scale fluid behavior and the internal structure of the condensate requires coarse-grained models. Recently, patchy particle models, representing proteins as spheres with a repulsive core and directional attractive patches, have emerged as a powerful tool. However, these simulations typically exhibit slow dynamics and often show glass-like rather than fluid condensates as required for the description of many biomolecular condensates, establishing a need for model variants with accelerated dynamics, both to speed up simulations and to better represent fluid biomolecular condensates. Here, we study several modified patchy particle models suited to simulate the formation and dynamics of biomolecular condensates. These variants incorporate flexible patches and weak isotropic attractions between cores. They significantly accelerate the system dynamics while preserving key equilibrium characteristics of the classical patchy particle model, including the phase behavior and the local structure of the condensate. These modifications thereby enable the simulation of larger, more complex systems previously inaccessible due to prohibitive relaxation times and provide a versatile tool for studying condensate dynamics.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Taskina, Alena",
+        "Magan, Devika",
+        "Dannenberg, Simon",
+        "Klumpp, Stefan"
+      ],
+      "short_names": [
+        "Taskina A",
+        "Magan D",
+        "Dannenberg S",
+        "Klumpp S"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-2184-6607",
+        "ORCID: 0009-0005-2753-4736",
+        "ORCID: 0009-0004-3238-0906",
+        "ORCID: 0000-0003-0584-2146"
+      ],
+      "affiliations": [
+        "University of Gottingen, Institute for the Dynamics of Complex Systems, Friedrich-Hund-Platz 1, 37077 Gottingen, Germany.",
+        "Max Planck School Matter to Life, Friedrich-Hund-Platz 1, 37077 Gottingen, Germany.",
+        "University of Gottingen, Institute for the Dynamics of Complex Systems, Friedrich-Hund-Platz 1, 37077 Gottingen, Germany.",
+        "Indian Institute of Science Education and Research Mohali, SAS Nagar, India.",
+        "University of Gottingen, Institute for the Dynamics of Complex Systems, Friedrich-Hund-Platz 1, 37077 Gottingen, Germany.",
+        "University of Gottingen, Institute for the Dynamics of Complex Systems, Friedrich-Hund-Platz 1, 37077 Gottingen, Germany.",
+        "Max Planck School Matter to Life, Friedrich-Hund-Platz 1, 37077 Gottingen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Taskina, Alena",
+        "short_name": "Taskina A",
+        "identifiers": [
+          "0009-0009-2184-6607"
+        ],
+        "affiliations": [
+          "University of Göttingen, Institute for the Dynamics of Complex Systems, Friedrich-Hund-Platz 1, 37077 Göttingen, Germany.",
+          "Max Planck School Matter to Life, Friedrich-Hund-Platz 1, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Magan, Devika",
+        "short_name": "Magan D",
+        "identifiers": [
+          "0009-0005-2753-4736"
+        ],
+        "affiliations": [
+          "University of Göttingen, Institute for the Dynamics of Complex Systems, Friedrich-Hund-Platz 1, 37077 Göttingen, Germany.",
+          "Indian Institute of Science Education and Research Mohali, SAS Nagar, India."
+        ]
+      },
+      {
+        "full_name": "Dannenberg, Simon",
+        "short_name": "Dannenberg S",
+        "identifiers": [
+          "0009-0004-3238-0906"
+        ],
+        "affiliations": [
+          "University of Göttingen, Institute for the Dynamics of Complex Systems, Friedrich-Hund-Platz 1, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Klumpp, Stefan",
+        "short_name": "Klumpp S",
+        "identifiers": [
+          "0000-0003-0584-2146"
+        ],
+        "affiliations": [
+          "University of Göttingen, Institute for the Dynamics of Complex Systems, Friedrich-Hund-Platz 1, 37077 Göttingen, Germany.",
+          "Max Planck School Matter to Life, Friedrich-Hund-Platz 1, 37077 Göttingen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2025 Jul 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/08 12:52",
+    "fetched_at": "2026-09-21 20:44:43"
+  },
+  "links": {
+    "cites": [
+      "42041496"
+    ],
+    "refs": [],
+    "similar": [
+      "40626470",
+      "36883003",
+      "40782375",
+      "40172489",
+      "41169547",
+      "39071308",
+      "33672806",
+      "40661423",
+      "40954121",
+      "37252985",
+      "40985078",
+      "35293386",
+      "40291420",
+      "36829460",
+      "33307683",
+      "40848932",
+      "40196628",
+      "39937084",
+      "37695778",
+      "40098319",
+      "37470705",
+      "36227474",
+      "37194953",
+      "40168179",
+      "35108264",
+      "39804953",
+      "38832749",
+      "35727989",
+      "36993212",
+      "39605385",
+      "40009520",
+      "36191226",
+      "41279444",
+      "40747072",
+      "41481439",
+      "40229261",
+      "37131742",
+      "36004748",
+      "35881789",
+      "34304571",
+      "40108179",
+      "39227569",
+      "31017394",
+      "39320949",
+      "38649740",
+      "39171763",
+      "39541973",
+      "39591652",
+      "36758221",
+      "32584357",
+      "40801528",
+      "34890409",
+      "39868336",
+      "32482873",
+      "37486948",
+      "34573116",
+      "36657879",
+      "35179885",
+      "37770422",
+      "37873180",
+      "40557772",
+      "40867025",
+      "37549257",
+      "37156794",
+      "39987501",
+      "38181073",
+      "34129784",
+      "37019112",
+      "37461689",
+      "33578289",
+      "37546778",
+      "40970906",
+      "32403923",
+      "36755024",
+      "40664121",
+      "40666943",
+      "40629499",
+      "38621751",
+      "37586369",
+      "40195119",
+      "37468629",
+      "33087563",
+      "38987300",
+      "36847235",
+      "33453924",
+      "40614690",
+      "34767801",
+      "40502052",
+      "37886520",
+      "38363841",
+      "36875159",
+      "39042834",
+      "36106018",
+      "41187075",
+      "39636939",
+      "40093099",
+      "37131735",
+      "40877270",
+      "40521608",
+      "40661408"
+    ],
+    "review": [
+      "40626470",
+      "40172489",
+      "40801528",
+      "34573116",
+      "35179885",
+      "40557772",
+      "34129784",
+      "33578289",
+      "40664121",
+      "38621751",
+      "40614690",
+      "34767801",
+      "36875159"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0268239",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

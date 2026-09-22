@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusions, methods, figure legends, supplementary file descriptions)
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and alignment with stated conclusions. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered intracellular domain (ICD) of the prolactin receptor (PRLR), specifically the juxtamembrane region (LID1), forms a co-structure with the membrane lipid PI(4,5)P2 and the FERM-SH2 domain of Janus kinase 2 (JAK2). This co-structure is claimed to be functionally important for PRLR-mediated STAT5 signalling, with the disordered region adopting an extended conformation that enables signal relay across the membrane.
+- **Visible evidence base** NMR spectroscopy (chemical shift perturbations, intensity changes, secondary chemical shifts), CD spectroscopy, coarse-grained and all-atom molecular dynamics simulations, cellular signalling assays (STAT5 phosphorylation), site-directed mutagenesis, fluorescence microscopy, western blotting
+- **Missing materials affecting confidence** Main figures and figure supplements are referenced but not provided in the submitted text. Specific numerical data (e.g., binding affinities, statistical values, simulation convergence metrics) are not available. Full methodological details for cellular assays are partially described. No structural coordinates or validation statistics for the modelled complex are provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in cytokine receptor signalling: how a disordered intracellular domain, in concert with membrane lipids, can scaffold a non-receptor tyrosine kinase. The integrative approach is commendable and the central hypothesis is interesting. However, the evidence as presented is largely indirect and correlative. The claim of a defined "co-structure" is not supported by high-resolution structural data, and the functional relevance is inferred primarily from mutagenesis in cellular assays without direct demonstration of the proposed mechanism. The simulation results are suggestive but require more rigorous validation and comparison with experimental data. The manuscript would benefit from a clearer articulation of the structural model and stronger experimental evidence linking the proposed co-structure to signalling outcomes.
+- **Who would be interested in the results, and why** Researchers studying cytokine receptor signalling, JAK-STAT pathway regulation, membrane-protein interactions, intrinsically disordered proteins, and lipid-mediated signalling. The work may also interest those developing integrative structural biology approaches for membrane-associated systems.
+- **Major strengths** The study tackles a difficult and under-explored problem: the role of disordered regions and membrane lipids in receptor tyrosine kinase activation. The combination of NMR, simulations, and cellular assays is appropriate and ambitious. The identification of specific residues involved in both lipid and JAK2 binding is a useful contribution. The proposal of distinct conformational states (Y vs Flat) with potential functional relevance is thought-provoking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence
+  - **Claim pointer** The manuscript claims "co-structure formation" of PRLR-ICD, PI(4,5)P2, and JAK2-FERM-SH2, implying a defined, stable complex.
+  - **Evidence pointer** Results sections "LID1 binds PI(4,5)P2 in the juxtamembrane region forming extended structures" and "JAK2-FERM-SH2 and PRLR-ICD LID1 form co-structures with PI(4,5)P2 on membranes"; Figures 2-4 (not provided)
+  - **Concern** The term "co-structure" implies a high-resolution structural model. The evidence presented is indirect: NMR chemical shift perturbations and intensity changes indicate binding, and simulations suggest conformational states. No experimental structure (e.g., NMR structure, cryo-EM, crystallography) of the ternary complex is provided. The atomic model is built by homology and used for simulations, but its validity is not experimentally confirmed. The claim of a defined co-structure is therefore overstated relative to the evidence.
+  - **Why it matters** The central thesis of the paper rests on the existence of a specific, functional co-structure. Without direct structural evidence, the interpretation of the functional data remains speculative. Overstating the structural nature of the complex could mislead the field.
+  - **Resolution test** Provide direct structural evidence (e.g., NMR structure of the complex, cryo-EM reconstruction, or cross-linking mass spectrometry data) that defines the architecture of the PRLR-ICD/PI(4,5)P2/JAK2 complex. Alternatively, temper the language to "binding" or "complex formation" and clearly state the structural model is hypothetical.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional causality
+  - **Claim pointer** The manuscript claims that mutations in residues identified as interacting with PI(4,5)P2 "negatively affect PRLR-mediated activation of STAT5," implying a direct causal link between lipid binding and signalling.
+  - **Evidence pointer** Results section "Key residues for membrane interaction control cellular signalling efficiency"; Figure 5 (not provided)
+  - **Concern** The mutagenesis data show that mutations in the identified residues reduce STAT5 activation. However, these residues are also implicated in JAK2 binding (as stated in the text). The observed reduction in signalling could be due to disrupted JAK2 binding rather than disrupted lipid interaction. The manuscript does not adequately disentangle these two possibilities. The claim that the effect is due to impaired co-structure formation with PI(4,5)P2 is not directly supported.
+  - **Why it matters** The functional significance of the proposed lipid-mediated mechanism is a key claim. If the mutations primarily affect JAK2 binding, the role of PI(4,5)P2 in signalling is not established. The causal chain from lipid binding to co-structure formation to signalling needs to be demonstrated more directly.
+  - **Resolution test** Perform experiments that separate lipid binding from JAK2 binding. For example, use mutations that specifically disrupt lipid interaction without affecting JAK2 binding (if possible), or use a competition assay with soluble PI(4,5)P2 headgroups. Alternatively, measure JAK2 binding directly (e.g., by pull-down or ITC) for the mutants to show that the effect on signalling is not solely due to reduced JAK2 affinity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation validation
+  - **Claim pointer** The manuscript uses MD simulations to propose specific orientations (Y and Flat states) of the JAK2/PRLR complex on the membrane and suggests these have functional relevance.
+  - **Evidence pointer** Results section "The complex between JAK2-FERM-SH2 and LID1 shows preferential bound orientations with membranes containing PI(4,5)P2"; Figure 4 (not provided)
+  - **Concern** The simulations are used to draw significant conclusions about the structure and dynamics of the complex. However, the validation of the simulation models is not described in the provided text. Key questions include: Are the simulations converged? Are the force field parameters appropriate for the disordered protein and the lipid headgroups? How sensitive are the results to the initial conditions and the choice of force field? The manuscript mentions a modified Martini3 force field but does not provide details on the modification or its validation.
+  - **Why it matters** The proposed Y and Flat states are central to the functional speculation. If the simulations are not robust, the conclusions drawn from them are unreliable. The field requires rigorous standards for simulation-based claims.
+  - **Resolution test** Provide evidence of simulation convergence (e.g., block averaging, multiple independent runs). Validate the force field modifications against experimental data (e.g., NMR-derived contacts, partitioning free energies). Perform sensitivity analysis with different force field parameters or starting conditions. If possible, test the predicted orientations experimentally (e.g., by EPR or FRET).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of PI(4,5)P2 interaction
+  - **Claim pointer** The manuscript states that PRLR has a "distinct affinity for PI(4,5)P2 and lacks affinity for PI(3,4,5)P3," implying specific lipid recognition.
+  - **Evidence pointer** Results section "LID1 binds PI(4,5)P2 in the juxtamembrane region forming extended structures"; Figure 2 (not provided)
+  - **Concern** The specificity of the interaction is a key point, as it suggests a selective regulatory role for PI(4,5)P2. However, the evidence for this specificity is not detailed in the provided text. The manuscript mentions previous work (Haxholm et al., 2015) but does not show the data for the lack of binding to PI(3,4,5)P3 in the current context. The mechanism of specificity (e.g., specific basic residues recognizing the phosphate positions) is not discussed.
+  - **Why it matters** The claim of specificity is important for the proposed regulatory model. If the interaction is non-specific (e.g., purely electrostatic), the biological significance is different. The manuscript should clearly demonstrate and explain the basis for specificity.
+  - **Resolution test** Provide data showing binding to PI(3,4,5)P3 and other anionic lipids (e.g., PI(4)P, PI(3)P, PS) under the same conditions. Identify the specific residues responsible for PI(4,5)P2 recognition and test their role in specificity. Discuss the structural basis for discrimination between different phosphoinositides.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "co-structure"
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The term "co-structure" is not standard and may be confusing. It is not clear whether it implies a stable, defined complex or a more dynamic ensemble.
+  - **Required correction** Define the term clearly upon first use, or use more standard terminology such as "complex" or "assembly." Clarify the structural resolution implied by the term.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** NMR titration experiments
+  - **Evidence pointer** Methods section "NMR spectroscopy"
+  - **Issue** The description of the NMR titration experiments is incomplete. It is not clear how the binding affinity was estimated, what the protein and lipid concentrations were, or how the data were fit.
+  - **Required correction** Provide a more detailed description of the NMR titration experiments, including sample conditions, data analysis, and how binding parameters were derived.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Cellular signalling assays
+  - **Evidence pointer** Results section "Key residues for membrane interaction control cellular signalling efficiency"; Figure 5 (not provided)
+  - **Issue** The statistical analysis of the cellular signalling data is not described. It is unclear how many independent experiments were performed and what statistical tests were used.
+  - **Required correction** Provide details on the number of replicates, statistical tests used, and how significance was determined. Include error bars and significance levels in the figures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion (not provided in full)
+  - **Issue** The manuscript does not appear to discuss the limitations of the study, such as the use of truncated constructs, the absence of full-length JAK2, or the potential for other factors to influence the results.
+  - **Required correction** Add a paragraph discussing the limitations of the study and the potential impact on the conclusions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Figures 2-5 and supplements
+  - **Issue** The figures are not provided in the submitted text, making it impossible to assess the quality of the data and the validity of the conclusions drawn from them.
+  - **Required correction** Ensure that all figures and figure legends are included in the submission for review.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of direct structural evidence for co-structure), R1-M2 (inability to distinguish lipid binding from JAK2 binding effects in mutagenesis), R1-M3 (insufficient validation of simulation models)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of a lipid-mediated co-structure involving a disordered receptor domain and a kinase is novel and potentially significant. The idea that the membrane acts as a scaffold for signalling complex formation is not entirely new, but its application to JAK2 and PRLR is original.
+  - **Scientific importance** If the proposed mechanism is correct, it would have broad implications for understanding cytokine receptor signalling and the role of membrane lipids in regulating kinase activity. The work could also inform therapeutic strategies targeting these interactions. However, the importance is contingent on the validity of the central claims.
+  - **Interdisciplinary readership** The topic is of interest to structural biologists, cell biologists, biochemists, and those studying signal transduction. The integrative approach may appeal to computational biologists. The manuscript is likely to attract a broad readership if the claims are well-supported.
+  - **Technical soundness** The combination of techniques is appropriate, but the execution and interpretation have weaknesses. The lack of direct structural evidence and the incomplete separation of lipid vs. protein binding effects are significant technical shortcomings. The simulation methodology requires more rigorous validation.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the concepts are explained clearly. However, the heavy reliance on simulation data and the lack of clear figures may make it difficult for nonspecialists to follow the key arguments. A more accessible summary of the proposed model would be helpful.
+- **Recommendation posture** Currently not established from the provided evidence. The central claims of co-structure formation and its functional importance are interesting but not sufficiently supported. The manuscript requires major revisions, including additional experimental data and a more cautious interpretation of the results, before it can be considered for publication.
+
+## Risk / unsupported claims
+- The claim of "co-structure formation" is not supported by direct structural evidence.
+- The claim that the identified mutations affect signalling specifically through impaired PI(4,5)P2 interaction is not supported, as the mutations may also affect JAK2 binding.
+- The proposed Y and Flat states are based on simulations that are not adequately validated.
+- The functional relevance of the different states (Y vs Flat) is speculative and not tested experimentally.
+- The claim that the co-structure "locks" the disordered domain in an extended structure is not directly demonstrated.

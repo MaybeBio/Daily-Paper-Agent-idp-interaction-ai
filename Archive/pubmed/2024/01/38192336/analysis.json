@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38192336",
+  "title": "Evidence of DISC1 as an arsenic binding protein and implications regarding its role as a translational activator.",
+  "authors": "Watanabe, Muneaki; Khu, Tung Mei; Warren, Grant; Shin, Juyoung; Stewart, Charles E Jr; Roche, Julien",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2024-01-09",
+  "window": {
+    "start": "2024-01-08",
+    "end": "2024-01-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过实验与结构预测证明DISC1蛋白C端半胱氨酸基序直接结合砷，涉及蛋白-配体结合机制，但对象非无序蛋白/相分离，且无PPI或AI/物理模拟方法贡献，仅结构预测辅助，故评分较低。",
+  "abstract": "Disrupted-in-schizophrenia-1 (DISC1) is a scaffolding protein that plays a pivotal role in orchestrating signaling pathways involved in neurodevelopment, neural migration, and synaptogenesis. Among those, it has recently been reported that the role of DISC1 in the Akt/mTOR pathway can shift from a global translational repressor to a translational activator in response to oxidative stress induced by arsenic. In this study we provide evidence that DISC1 can directly bind arsenic via a C-terminal cysteine motif (C-X-C-X-C). A series of fluorescence-based binding assays were conducted with a truncated C-terminal domain construct of DISC1 and a series of single, double, and triple cysteine mutants. We found that arsenous acid, a trivalent arsenic derivative, specifically binds to the C-terminal cysteine motif of DISC1 with low micromolar affinity. All three cysteines of the motif are required for high-affinity binding. Electron microscopy experiments combined with in silico structural predictions reveal that the C-terminal of DISC1 forms an elongated tetrameric complex. The cysteine motif is consistently predicted to be located within a loop, fully exposed to solvent, providing a simple molecular framework to explain the high-affinity of DISC1 toward arsenous acid. This study sheds light on a novel functional facet of DISC1 as an arsenic binding protein and highlights its potential role as both a sensor and translational modulator within Akt/mTOR pathway.",
+  "abstract_zh": "精神分裂症断裂基因1 (DISC1) 是一种支架蛋白，在协调涉及神经发育、神经迁移和突触发生的信号通路中发挥关键作用。其中，近期有报道指出，DISC1在Akt/mTOR通路中的作用可响应砷诱导的氧化应激，从全局翻译抑制因子转变为翻译激活因子。在本研究中，我们提供证据表明DISC1可通过C端半胱氨酸基序（C-X-C-X-C）直接结合砷。我们使用DISC1的截短C端结构域构建体以及一系列单、双和三重半胱氨酸突变体，进行了基于荧光的结合实验。我们发现，亚砷酸（一种三价砷衍生物）以低微摩尔亲和力特异性结合DISC1的C端半胱氨酸基序。该基序中的所有三个半胱氨酸均为高亲和力结合所必需。电子显微镜实验结合计算机结构预测揭示，DISC1的C端形成伸长的四聚体复合物。该半胱氨酸基序一致被预测位于环内，完全暴露于溶剂中，这为解释DISC1对亚砷酸的高亲和力提供了简单的分子框架。本研究揭示了DISC1作为砷结合蛋白的新功能层面，并强调其在Akt/mTOR通路中作为传感器和翻译调节因子的潜在作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38192336/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38192336/",
+  "paper_page_path": "papers/pubmed/38192336/index.html"
+}

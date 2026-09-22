@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusions, acknowledgments)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency based solely on the provided text
+- **Shared manuscript claim summary** The authors assert that the choice of water model critically affects protein-protein association and dissociation dynamics in MD simulations, with TIP4P/2005 (with Amber03w) uniquely reproducing reversible binding and experimental interface sampling for ubiquitin, and both TIP4P/2005 and TIP4P-EW preventing spurious aggregation for ACTR, unlike TIP3P and SPC/E.
+- **Visible evidence base** Figures 1-9 (described in text), simulation details in Methods, comparisons to prior work (references 1, 2, 4, 11, 12, 14)
+- **Missing materials affecting confidence** Figures themselves are not provided; simulation parameters (e.g., temperature, pressure coupling, equilibration protocol) are incomplete; no error estimates or replicate simulations are reported; force field choice for ACTR simulations is not explicitly stated; no statistical analysis of contact distributions or dimer fractions is given
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in biomolecular simulation, namely the sensitivity of protein-protein association behavior to the choice of water model. The authors present a systematic comparison across four common water models for two contrasting protein systems, and their qualitative finding that TIP3P overstabilizes nonspecific interactions is consistent with emerging literature. However, the study is limited by a lack of replicate simulations, incomplete methodological reporting, and the absence of quantitative error analysis. The claim that TIP4P/2005 "best identifies" the binding surface is weakened by the authors' own admission that contacts are predominantly with non-interface residues. The work is potentially valuable as a cautionary demonstration, but the evidence as presented does not fully establish the stronger conclusions regarding water model superiority.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular modelers who use MD simulations to study protein-protein interactions, binding kinetics, and aggregation. The results are also relevant to developers of force fields and water models, as they highlight practical consequences of model choice. Researchers studying intrinsically disordered proteins may find the ACTR results informative for choosing simulation conditions.
+- **Major strengths** The study addresses a practically important issue with clear relevance to the simulation community. The choice of two extreme protein systems (folded ubiquitin and disordered ACTR) provides a useful contrast. The comparison across four water models is systematic, and the observation of qualitative differences in association behavior is striking and likely reproducible. The authors appropriately acknowledge limitations in statistics and the need for longer simulations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that TIP4P/2005 "best identifies" the binding surface of ubiquitin, based on contact distributions.
+  - **Evidence pointer** Results section, Figures 2 and 3
+  - **Concern** The text states that for TIP4P-EW and TIP4P/2005, "almost all" contacts are with residues outside the experimental interface, yet the authors conclude that TIP4P/2005 "best identifies" the binding surface. This is internally contradictory. The claim of superior interface identification is not supported by the described data, which show only a relative increase in interface contacts compared to TIP3P/SPC/E, not a dominant or accurate representation of the experimental interface.
+  - **Why it matters** The central conclusion of the paper hinges on this claim. If TIP4P/2005 does not actually reproduce the experimental binding interface, then the assertion that it is the "best" model is overstated, and the practical recommendation for model choice is weakened.
+  - **Resolution test** Provide quantitative contact frequencies for interface versus non-interface residues for each water model, with statistical significance testing. If TIP4P/2005 shows a statistically significant enrichment of interface contacts relative to other models, the claim can be revised to "more accurately samples" rather than "best identifies." If not, the conclusion should be softened to reflect that no model fully reproduces the experimental interface.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that dissociation events are found "only" with TIP4P-EW and TIP4P/2005 for ubiquitin, and that TIP3P produces "straightforward aggregation."
+  - **Evidence pointer** Results section, Figure 1
+  - **Concern** The manuscript reports single trajectories for each water model (implied by the description of "the simulation" for each case). Without replicate simulations, it is impossible to determine whether the observed differences are due to the water model or to stochastic variation in initial velocities. The claim that TIP3P "produces" aggregation is a strong causal statement based on a single observation.
+  - **Why it matters** The primary conclusion that water model choice determines association behavior requires that the observed differences are robust and not artifacts of limited sampling. Single-trajectory comparisons are insufficient to establish this.
+  - **Resolution test** Provide at least three independent simulations per water model, reporting the distribution of dissociation times and the fraction of time spent in bound states. If the qualitative pattern (TIP3P/SPC/E aggregate, TIP4P models dissociate) is consistent across replicates, the claim is supported. If not, the conclusion must be tempered.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that their findings "show the critical role of the water model in the description of protein-protein interactions and binding."
+  - **Evidence pointer** Conclusions section
+  - **Concern** The study confounds water model with force field: TIP4P/2005 is used with Amber03w, while the other three water models are used with Amber99SB-ILDN. This design makes it impossible to attribute the observed differences solely to the water model. The authors acknowledge this in the Methods but do not address the implication in the discussion or conclusions.
+  - **Why it matters** The stated conclusion that the water model is the critical factor is not directly supported by the data, as the force field also varies. This weakens the scientific importance of the finding, as the observed effects could be due to the force field change.
+  - **Resolution test** Perform a control simulation with TIP4P/2005 and Amber99SB-ILDN (or TIP3P with Amber03w) to isolate the water model effect. If the behavior follows the water model, the claim is strengthened. If it follows the force field, the conclusion must be revised to implicate both factors.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "dissociation events are found only with TIP4P-EW and TIP4P/2005" without specifying that this is for ubiquitin, which may confuse readers given the ACTR results also show dissociation with these models.
+  - **Required correction** Clarify the sentence to specify "for ubiquitin" or rephrase to cover both systems.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section
+  - **Issue** The simulation temperature, pressure, and equilibration protocol are not reported. These parameters can affect association kinetics and should be stated for reproducibility.
+  - **Required correction** Add the missing simulation conditions (e.g., temperature, thermostat, barostat, equilibration time) to the Methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results
+  - **Evidence pointer** Results section, Figure 4
+  - **Issue** The authors report a 65% contact fraction for the 5 mM TIP4P/2005 simulation but do not provide an error estimate or comparison to the experimental 50% with any statistical measure.
+  - **Required correction** Provide a confidence interval or standard error for the contact fraction, and state whether the difference from 50% is statistically significant.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The term "collapse" is used to describe protein aggregation, which may be ambiguous for readers from outside the simulation community.
+  - **Required correction** Define "collapse" in the context of protein-protein association or use a more explicit term such as "irreversible aggregation."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (contradictory claim on interface identification), R1-M2 (lack of replicate simulations), R1-M3 (confounded water model and force field)
+
+## Risk / unsupported claims
+- The claim that TIP4P/2005 "best identifies" the ubiquitin binding surface is unsupported by the described data, which show a minority of interface contacts.
+- The claim that TIP3P "produces straightforward aggregation" is unsupported without replicate simulations to rule out stochastic effects.
+- The claim that the water model is the "critical" factor is not supported due to the confounding force field change.
+- The qualitative agreement with the experimental 50% monomer fraction for ubiquitin at 5 mM is based on a single trajectory and lacks statistical backing.
+- The statement that "further improvement of water models or force fields is necessary" is a reasonable speculation but is not directly tested in this work.

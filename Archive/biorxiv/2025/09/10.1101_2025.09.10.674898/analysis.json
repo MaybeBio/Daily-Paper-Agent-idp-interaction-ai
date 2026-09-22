@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.10.674898",
+  "title": "Condensate-based shells and scaffolds via interfacial liquid-to-solid transition of disordered peptides",
+  "authors": "Chen C; Wang Q; Jarnot N; Dijkgraaf I; Deshpande S",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-16",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究源自蜱虫粘附蛋白的短无序肽CT45在油水界面经液-液相变和液-固转变形成凝聚体壳层与多孔支架的机制，虽涉及无序肽和相分离，但聚焦材料自组装而非蛋白-蛋白互作，且方法以实验为主，缺乏AI或物理模拟建模，故综合评分为6。",
+  "abstract": "Living organisms use biomolecular condensates to respond to dynamic environments and create functional materials with complex architectures. Exploring such phase-separated systems beyond the naturally occurring scenarios may offer valuable insights for emergent synthetic biosystems. Here, we report the self-assembly behavior of a short, disordered peptide sequence (termed CT45) derived from a protein present in the bioad-hesive system of tick ectoparasites. We show that CT45 spontaneously accumulates at polar-nonpolar interfaces, and further undergoes liquid-liquid and liquid-to-solid phase transitions to create mechanically stable structures. When encapsulated within vesicles and presented with a stable oil-water interface, CT45 rapidly forms solid shells, which can be reinforced by up-concentrating the material through osmotic imbalance. Unex-pectedly, when presented with a transient acetone-water interface, CT45 condenses at the evaporating interface and forms interconnected, porous mesoscopic scaffolds. The underlying mechanism is found to be the amphiphilic nature of CT45 leading to in-terfacial accumulation, enhancing intermolecular π -based interactions to trigger phase transitions. The micron-sized shells exhibit appreciable mechanical strength and the porous scaffolds present a highly stable platform capable of retaining molecules. In conclusion, the presented condensate-based microscopic and mesoscopic scaffolds hold significance in customizable condensate architectures, with potential applications in biomedical engineering and synthetic biology.",
+  "abstract_zh": "生物体利用生物分子凝聚体（biomolecular condensates）来响应动态环境并构建具有复杂结构的功能材料。探索超越自然发生场景的此类相分离系统，可能为新兴合成生物系统提供宝贵见解。在此，我们报告了一种源自蜱类外寄生虫生物粘附系统中蛋白质的短无序肽序列（称为CT45）的自组装行为。我们表明，CT45在极性-非极性界面自发积累，并进一步经历液-液相和液-固相转变，以形成机械稳定的结构。当封装在囊泡内并呈现稳定的油-水界面时，CT45迅速形成固体壳层，可通过渗透失衡使材料浓缩而增强其强度。出乎意料的是，当呈现瞬态丙酮-水界面时，CT45在蒸发界面处凝聚，并形成相互连接的多孔介观支架。其潜在机制被发现是CT45的两亲性导致界面积累，增强分子间π-基相互作用以触发相转变。微米级壳层表现出可观的机械强度，而多孔支架则提供了一个高度稳定的平台，能够保留分子。总之，所提出的基于凝聚体的微观和介观支架在可定制凝聚体架构中具有重要意义，并在生物医学工程和合成生物学中具有潜在应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.10.674898",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.10.674898",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.10.674898/index.html"
+}

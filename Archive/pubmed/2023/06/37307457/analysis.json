@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37307457",
+  "title": "Phase separation of intrinsically disordered FG-Nups is driven by highly dynamic FG motifs.",
+  "authors": "Dekker, Maurice; Van der Giessen, Erik; Onck, Patrick R",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2023-06-12",
+  "window": {
+    "start": "2023-06-12",
+    "end": "2023-06-18"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用氨基酸分辨率的分子动力学模拟研究酵母NPC中无序FG-Nups的相分离，揭示FG基序作为动态疏水贴纸驱动形成渗透网络，直接聚焦IDR介导的PPI与凝聚体机制建模，高度契合课题。",
+  "abstract": "The intrinsically disordered FG-Nups in the central channel of the nuclear pore complex (NPC) form a selective permeability barrier, allowing small molecules to traverse by passive diffusion, while large molecules can only translocate with the help of nuclear transport receptors. The exact phase state of the permeability barrier remains elusive. In vitro experiments have shown that some FG-Nups can undergo phase separation into condensates that display NPC-like permeability barrier properties. Here, we use molecular dynamics simulations at amino acid resolution to study the phase separation characteristics of each of the disordered FG-Nups of the yeast NPC. We find that GLFG-Nups undergo phase separation and reveal that the FG motifs act as highly dynamic hydrophobic stickers that are essential for the formation of FG-Nup condensates featuring droplet-spanning percolated networks. Additionally, we study phase separation in an FG-Nup mixture that resembles the NPC stoichiometry and observe that an NPC condensate is formed containing multiple GLFG-Nups. We find that the phase separation of this NPC condensate is also driven by FG-FG interactions, similar to the homotypic FG-Nup condensates. Based on the observed phase separation behavior, the different FG-Nups of the yeast NPC can be divided into two classes: The FG-Nups (mostly GLFG-type) located in the central channel of the NPC form a highly dynamic percolated network formed by many short-lived FG-FG interactions, while the peripheral FG-Nups (mostly FxFG-type) at the entry and exit of the NPC channel likely form an entropic brush.",
+  "abstract_zh": "核孔复合体（NPC）中央通道中的固有无序FG-Nups形成选择性通透屏障，允许小分子通过被动扩散穿越，而大分子仅能借助核转运受体进行转运。该通透屏障的确切相态仍不明确。体外实验表明，部分FG-Nups可发生相分离（phase separation），形成具有NPC样通透屏障特性的凝聚体。在此，我们使用氨基酸分辨率的分子动力学（molecular dynamics）模拟，研究酵母NPC中每个无序FG-Nups的相分离特性。我们发现GLFG-Nups发生相分离，并揭示FG基序作为高度动态的疏水性粘附点（hydrophobic stickers），对形成具有液滴跨越性渗滤网络的FG-Nup凝聚体至关重要。此外，我们研究了模拟NPC化学计量比的FG-Nup混合物中的相分离，观察到包含多种GLFG-Nups的NPC凝聚体形成。我们发现，该NPC凝聚体的相分离同样由FG-FG相互作用驱动，与同型FG-Nup凝聚体相似。基于观察到的相分离行为，酵母NPC的不同FG-Nups可分为两类：位于NPC中央通道的FG-Nups（主要为GLFG型）形成由许多短暂FG-FG相互作用构成的高度动态渗滤网络，而位于NPC通道入口和出口的外周FG-Nups（主要为FxFG型）可能形成熵刷（entropic brush）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37307457/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37307457/",
+  "paper_page_path": "papers/pubmed/37307457/index.html"
+}

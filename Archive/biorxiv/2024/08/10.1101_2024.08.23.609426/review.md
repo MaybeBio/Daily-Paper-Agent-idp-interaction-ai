@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary data were provided for verification
+- **Shared manuscript claim summary** The authors report structural and biophysical characterization of mouse ATE1 using SEC, SAXS, HDX-MS, and AlphaFold modeling. They claim the existence of an intrinsically disordered region (IDR) in all mouse ATE1 splice variants, its absence in yeast ATE1, its conservation across mammalian and most eukaryotic ATE1 sequences, and a proposed role in facilitating ATE1-tRNA^Arg complex formation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were supplied
+- **Missing materials affecting confidence** Full manuscript, all experimental data (SEC, SAXS, HDX-MS), AlphaFold models, bioinformatics analyses, and any statistical or validation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding a putative IDR in mammalian ATE1, which could have implications for understanding arginylation mechanisms. However, the evidence base provided is insufficient to evaluate the technical soundness of the claims. The central conclusion, the existence and functional relevance of the IDR, rests on data that are not visible in the supplied material. The comparative claim about yeast ATE1 and the proposed role in tRNA binding are intriguing but currently unverifiable from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying post-translational modifications, particularly arginylation, as well as those interested in the structural biology of enzymes involved in protein quality control and neurodegeneration. The potential link to viral infections (SARS-CoV-2, HIV) may attract virologists. Structural biologists using integrative approaches (SAXS, HDX-MS, AlphaFold) may also find the methodology relevant.
+- **Major strengths** The study addresses a gap in knowledge by focusing on mammalian ATE1 rather than the more studied yeast ortholog. The use of multiple complementary biophysical techniques is appropriate for characterizing disordered regions. The comparative analysis between mouse and yeast ATE1 provides a useful evolutionary perspective. The proposed functional hypothesis regarding tRNA binding is testable and could guide future work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "our data indicate the existence of an intrinsically disordered region (IDR) in all mouse ATE1 splice variants."
+  - **Evidence pointer** Abstract only; no figures or tables provided
+  - **Concern** The claim of an IDR in all mouse ATE1 splice variants is presented as a definitive finding, but the supporting data (SEC, SAXS, HDX-MS) are not visible in the supplied material. No quantitative metrics, such as disorder scores, deuterium uptake differences, or SAXS-derived parameters (e.g., Kratky plots, Rg), are provided to substantiate this conclusion.
+  - **Why it matters** The existence of an IDR is the central claim of the study. Without access to the underlying data, the reader cannot assess whether the interpretation is robust or whether alternative explanations (e.g., conformational flexibility, oligomerization artifacts) were adequately excluded.
+  - **Resolution test** Provide the relevant figures and statistical analyses demonstrating disorder, including HDX-MS differential uptake plots, SAXS Kratky analysis, and AlphaFold pLDDT scores for the proposed IDR region.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative claim support
+  - **Claim pointer** The abstract states that "comparative HDX-MS analyses show that yeast ATE1 does not have such an IDR, consistent with prior X-ray, cryo-EM, and SAXS analyses."
+  - **Evidence pointer** Abstract only; no comparative data shown
+  - **Concern** The comparative claim regarding yeast ATE1 is stated without presenting the actual HDX-MS comparison or the prior structural data. The consistency with prior X-ray, cryo-EM, and SAXS analyses is asserted but not demonstrated with specific references or data.
+  - **Why it matters** This comparison is critical for establishing that the IDR is a mammalian-specific feature. If the yeast data are not directly comparable (e.g., different experimental conditions or constructs), the conclusion could be misleading.
+  - **Resolution test** Show the comparative HDX-MS data for mouse and yeast ATE1 under matched conditions, and cite or display the prior structural analyses that support the absence of an IDR in yeast ATE1.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional hypothesis support
+  - **Claim pointer** The abstract claims that "Computational analysis suggests that the IDR likely facilitates the formation of the complex between ATE1 and tRNA^Arg."
+  - **Evidence pointer** Abstract only; no computational details provided
+  - **Concern** The proposed functional role of the IDR in tRNA binding is based on unspecified computational analysis. No details on the methods (e.g., docking, molecular dynamics, co-evolution analysis) or the confidence of the prediction are provided.
+  - **Why it matters** This hypothesis extends the study beyond structural characterization into functional prediction. Without methodological transparency, the claim is not assessable and could be overinterpreted.
+  - **Resolution test** Describe the computational approach, provide the relevant scores or models, and discuss alternative functional roles for the IDR that were considered.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "arginylation, an important post-translational modification (PTM) in eukaryotes" is redundant; PTM is already defined in the same sentence.
+  - **Required correction** Simplify to "Arginyltransferase 1 (ATE1) catalyzes arginylation, an important post-translational modification (PTM) in eukaryotes" or remove the parenthetical definition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Abstract, claim of structural complexity
+  - **Evidence pointer** Abstract, "structurally more complex than yeast ATE1"
+  - **Issue** The term "structurally more complex" is vague. It is unclear whether this refers to domain architecture, conformational dynamics, or oligomeric state.
+  - **Required correction** Specify the nature of the complexity (e.g., presence of additional domains, larger conformational ensemble, or different oligomerization behavior).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Abstract, claim of IDR conservation
+  - **Evidence pointer** Abstract, "in a large majority of other eukaryotes"
+  - **Issue** The phrase "large majority" is imprecise. It is unclear what fraction of eukaryotes was analyzed and whether this includes diverse lineages (e.g., plants, fungi, protists).
+  - **Required correction** Provide a quantitative statement (e.g., percentage of species analyzed) and specify the taxonomic scope of the bioinformatics analysis.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central claims of IDR existence, yeast comparison, and functional role cannot be evaluated from the abstract alone. Full experimental and computational data are required.
+- **Assessment against Nature-style criteria** 
+  - Originality: The focus on mammalian ATE1 and the identification of a putative IDR is a novel contribution, as prior work has centered on yeast ATE1. However, the novelty cannot be fully assessed without seeing how this compares to existing structural data on ATE1.
+  - Scientific importance: The potential role of an IDR in ATE1 function, particularly in tRNA binding, could be significant for understanding arginylation mechanisms and disease associations. The importance is moderate to high, depending on the robustness of the evidence.
+  - Interdisciplinary readership: The topic bridges structural biology, enzymology, and cell biology, and the viral connection may broaden interest. However, the abstract is written in a specialized manner that may limit accessibility to nonspecialists.
+  - Technical soundness: Not assessable from the abstract. The use of multiple techniques is appropriate, but the lack of visible data prevents evaluation of experimental rigor, controls, and data interpretation.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms (e.g., GNAT active-site fold, tRNA^Arg) without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the absence of underlying data precludes a supportive recommendation. The authors should provide the full manuscript with detailed methods, figures, and statistical analyses for a proper evaluation.
+
+## Risk / unsupported claims
+- The existence of an IDR in all mouse ATE1 splice variants is unsupported without visible experimental data.
+- The absence of an IDR in yeast ATE1 is asserted but not demonstrated with comparative data.
+- The proposed role of the IDR in facilitating ATE1-tRNA^Arg complex formation is based on unspecified computational analysis and is not verifiable.
+- The claim of structural complexity in mouse ATE1 relative to yeast ATE1 is vague and lacks supporting evidence in the abstract.
+- The statement regarding conservation of the IDR in "a large majority of other eukaryotes" is imprecise and not quantifiable from the supplied material.

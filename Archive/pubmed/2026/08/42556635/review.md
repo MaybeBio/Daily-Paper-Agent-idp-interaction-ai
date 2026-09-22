@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors report that terbutaline, a beta(2)-adrenergic agonist, selectively reduces non-fibrillar alpha-synuclein aggregates and oxidative stress without affecting liquid-liquid phase separation or fibrillogenesis, and propose it as a potential modulator of early aggregation toxicity in synucleinopathies.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full methods, experimental protocols, statistical analyses, raw data, figure panels, and any supplementary information; these are essential to evaluate the validity and robustness of the reported findings
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting pharmacological finding with therapeutic relevance for Parkinson's disease. The claim of selective modulation of non-fibrillar aggregates without affecting phase separation or fibril formation is novel and could be of interest to the synucleinopathy field. However, the evidence base provided is insufficient to assess the technical soundness of the experiments, the statistical rigor, or the biological significance of the reported effects. Several claims are made without supporting quantitative details, and the relationship between the observed in vitro effects and potential therapeutic utility remains speculative.
+- **Who would be interested in the results, and why** Researchers studying alpha-synuclein aggregation, liquid-liquid phase separation, and protein misfolding disorders, particularly those focused on Parkinson's disease and other synucleinopathies. Investigators interested in repurposing beta(2)-adrenergic agonists for neuroprotective strategies may also find the results relevant. The work could inform structure-activity studies of related compounds.
+- **Major strengths** The study addresses a clinically relevant question, namely the selective targeting of toxic aggregation intermediates while preserving normal phase separation. The use of multiple complementary techniques, including ThT fluorescence, fluorescence polarization, isothermal titration calorimetry, and transmission electron microscopy, suggests a multi-pronged experimental approach. The inclusion of both WT and C-terminally truncated alpha-synuclein variants adds breadth to the analysis.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that terbutaline "significantly reduced the number of condensates and total aggregates, particularly amorphous moiety, in a concentration-dependent manner" without providing quantitative data, statistical tests, or experimental conditions.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of significant reduction in condensates and aggregates is presented without any numerical values, effect sizes, or statistical parameters. The term "amorphous moiety" is not defined, and the method by which this was quantified is unclear. Concentration dependence is stated but no concentration range or dose-response data are shown.
+  - **Why it matters** Without quantitative evidence and statistical support, the central claim of selective inhibition cannot be evaluated. The lack of methodological detail prevents replication and undermines confidence in the reported effects.
+  - **Resolution test** Provide quantitative data with appropriate statistical analyses, including mean values, standard deviations or errors, sample sizes, and p-values or confidence intervals. Define "amorphous moiety" operationally and describe the quantification method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that terbutaline "significantly reduced alpha-synuclein-induced superoxide generation in rat RBCs by up to 26% for WT and 53% for CT alpha-synuclein aggregates" but provides no details on the assay, controls, or statistical analysis.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The oxidative stress data are presented as percentage reductions without indication of the number of replicates, the concentration of terbutaline used, the baseline superoxide levels, or the statistical test applied. The use of rat red blood cells as a model system is unusual and its relevance to neuronal oxidative stress is not justified.
+  - **Why it matters** The oxidative stress reduction is a key claimed benefit of terbutaline. Without proper experimental details and statistical validation, this claim cannot be assessed for reliability or biological relevance.
+  - **Resolution test** Provide full experimental details for the superoxide assay, including sample sizes, terbutaline concentrations, positive and negative controls, and statistical analyses. Justify the choice of rat RBCs as a model for alpha-synuclein-induced oxidative stress.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "direct interaction of terbutaline with both WT alpha-SYN and CT alpha-SYN was confirmed by isothermal titration calorimetry, with a stronger binding affinity observed for the CT alpha-SYN" but provides no thermodynamic parameters.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** Isothermal titration calorimetry data are mentioned but no binding constants, enthalpy changes, entropy changes, or stoichiometry are reported. The claim of stronger binding affinity for CT alpha-synuclein is unsupported by any numerical values.
+  - **Why it matters** The binding affinity is central to the proposed mechanism of action. Without quantitative thermodynamic data, the interaction claim remains unverified and the mechanistic interpretation is speculative.
+  - **Resolution test** Report the full ITC-derived parameters, including dissociation constants, enthalpy and entropy changes, stoichiometry, and the fitting model used. Provide representative ITC traces and discuss the quality of the fits.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract concludes that "these findings highlight terbutaline's role as a potential modulator of early aggregation toxicity, warranting further exploration into structurally related compounds for therapeutic development in synucleinopathies."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The therapeutic relevance is inferred from in vitro and ex vivo data without any demonstration of cellular protection, blood-brain barrier penetration, or in vivo efficacy. The lack of effect on cell survival, as stated in the abstract, weakens the translational significance.
+  - **Why it matters** The conclusion overreaches beyond the presented evidence. The absence of a protective effect on SH-SY5Y cell survival is particularly concerning for a proposed therapeutic modulator.
+  - **Resolution test** Provide evidence of functional cellular protection, such as improved cell viability or reduced toxicity in a relevant neuronal model, or temper the conclusions to match the current data.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract uses abbreviations such as WT, CT, ThT, and RBCs without defining them at first use, which may hinder readability for a broad audience.
+  - **Required correction** Define all abbreviations at first use, for example "wild-type (WT)", "C-terminally truncated (CT)", "thioflavin T (ThT)", and "red blood cells (RBCs)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Experimental design
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not specify the concentration range of terbutaline used in the experiments, nor whether the effects were dose-dependent across all assays.
+  - **Required correction** State the concentration range tested and clarify whether dose-dependence was observed in each assay.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextualization
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not compare the effects of terbutaline with any known inhibitors of alpha-synuclein aggregation, which would help contextualize the significance of the findings.
+  - **Required correction** Add a brief comparison with existing modulators of alpha-synuclein aggregation to position the novelty of the findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative data and statistical details for the key claims of aggregate reduction, oxidative stress mitigation, and binding affinity prevents the case from being established from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of selectively targeting non-fibrillar aggregates while sparing phase separation is somewhat novel, but the abstract does not demonstrate how this differs substantially from existing approaches.
+  - Scientific importance: The findings could be relevant to Parkinson's disease research, but the lack of cellular protection data and in vivo evidence limits the immediate significance.
+  - Interdisciplinary readership: The topic bridges pharmacology, biophysics, and neurobiology, which could attract a broad audience, but the abstract is too technical in places and lacks context for nonspecialists.
+  - Technical soundness: Cannot be assessed from the abstract alone. The absence of quantitative data, statistical analyses, and methodological details is a major limitation.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses undefined abbreviations and assumes familiarity with aggregation assays.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting preliminary findings, but the lack of quantitative data, statistical rigor, and methodological detail prevents a supportive recommendation. The authors should provide the full manuscript with complete experimental details to allow proper evaluation.
+
+## Risk / unsupported claims
+- The claim that terbutaline "selectively reduces non-fibrillar alpha-synuclein aggregates" is unsupported without quantitative data and statistical analysis.
+- The claim of "significant" reduction in superoxide generation is unsupported without details on sample sizes, controls, and statistical tests.
+- The claim of "stronger binding affinity" for CT alpha-synuclein is unsupported without ITC-derived thermodynamic parameters.
+- The conclusion that terbutaline is a "potential modulator of early aggregation toxicity" is speculative given the lack of demonstrated cellular protection.
+- The statement that terbutaline "did not affect the size or physical properties of alpha-SYN condensates" is unverifiable without data on the methods and measurements used.

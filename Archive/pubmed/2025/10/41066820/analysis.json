@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41066820",
+  "title": "SAPP: Structure Aware PTM Prediction.",
+  "authors": "Choo, Yujin; Na, Seungjin; Paek, Eunok",
+  "journal": "Computers in biology and medicine",
+  "published_date": "2025-10-09",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出结构感知的PTM预测模型SAPP，整合AlphaFold2结构特征与序列信息，虽涉及IDR但未聚焦PPI或互作机制建模，方法上AI应用有启发但对象与互作轴较弱。",
+  "abstract": "Post-translational modifications (PTMs) play critical roles in regulating cellular processes such as signal transduction, cell growth, and differentiation. Accurate identification of PTM sites is fundamental to understanding cellular mechanisms and developing therapeutic interventions. However, traditional computational models have predominantly relied on sequence data alone, neglecting important structural contexts such as intrinsically disordered regions and solvent accessibility. To address this gap, we introduce SAPP (Structure-Aware PTM Prediction), a pioneering model that integrates structural features derived from AlphaFold2 predictions with sequence information using a unified Transformer-based framework. Utilizing self-attention and cross-attention mechanisms, SAPP effectively captures complex interactions between sequences and their structural states, improving prediction accuracy and biological relevance over sequence-based models. Notably, SAPP is among the first structure-based PTM prediction frameworks, which allows for fine-tuning from a phosphorylation-pretrained model to other PTM types, achieving generalization performance in PTM types with limited training data. This supports the critical role of structural information in PTM prediction, deepening our understanding of their biological significance.",
+  "abstract_zh": "翻译后修饰 (post-translational modifications, PTMs) 在调控细胞过程如信号转导、细胞生长和分化中扮演关键角色。准确识别PTM位点对于理解细胞机制和开发治疗干预措施至关重要。然而，传统计算模型主要依赖序列数据，忽视了诸如内在无序区域和溶剂可及性等重要结构背景。为弥补这一空白，我们引入了SAPP（结构感知PTM预测，Structure-Aware PTM Prediction），这是一种开创性模型，通过统一的基于Transformer的框架，整合了源自AlphaFold2预测的结构特征与序列信息。利用自注意力和交叉注意力机制，SAPP有效捕捉序列与其结构状态之间的复杂相互作用，相较于基于序列的模型，提高了预测准确性和生物学相关性。值得注意的是，SAPP是首批基于结构的PTM预测框架之一，允许从磷酸化预训练模型微调至其他PTM类型，在训练数据有限的PTM类型中实现了泛化性能。这支持了结构信息在PTM预测中的关键作用，加深了对其生物学意义的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41066820/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41066820/",
+  "paper_page_path": "papers/pubmed/41066820/index.html"
+}

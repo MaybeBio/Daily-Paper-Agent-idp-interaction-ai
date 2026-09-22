@@ -1,0 +1,7 @@
+# Intrinsically Disordered Regions of Zinc Finger Protein
+687 in Phase Separation: A Potentially Pathogenic Driver of Paget’s
+Disease of Bone
+
+
+## Abstract
+  Paget’s disease of bone (PDB) is a chronic skeletal disorder characterized by abnormal bone remodeling and structural deformities, yet its underlying molecular mechanisms remain poorly understood. Genetic mutations in regulatory genes have been implicated in the PDB, potentially disrupting osteoclast activity and leading to excessive bone resorption and abnormal bone formation. Current research has largely focused on clinical phenotypes and downstream pathways, relying on molecular biology approaches and omics analyses to elucidate mechanisms. However, the impact of genetic mutations on the biophysical properties and functional dynamics of biomacromolecules remain unclear. Phase separation (PS), a process essential for biomolecular condensate organization and cellular function, has been implicated in various diseases but is unexplored in the PDB. This study investigates the PS properties of ZNF687, a zinc finger protein associated with PDB. Structural predictions and sequence analyses identified intrinsically disordered regions (IDRs) within ZNF687 that may drive PS, while protein interaction predictions suggest its involvement in bone remodeling pathways. These findings provide a novel perspective linking PS to PDB pathogenesis and highlight ZNF687 as a potential target for further investigation.

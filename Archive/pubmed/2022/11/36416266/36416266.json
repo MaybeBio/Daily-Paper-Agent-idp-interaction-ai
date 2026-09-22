@@ -1,0 +1,467 @@
+{
+  "identity": {
+    "pmid": "36416266",
+    "doi": "10.1093/nar/gkac1065",
+    "title": "MobiDB: 10 years of intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "The MobiDB database (URL: https://mobidb.org/) is a knowledge base of intrinsically disordered proteins. MobiDB aggregates disorder annotations derived from the literature and from experimental evidence along with predictions for all known protein sequences. MobiDB generates new knowledge and captures the functional significance of disordered regions by processing and combining complementary sources of information. Since its first release 10 years ago, the MobiDB database has evolved in order to improve the quality and coverage of protein disorder annotations and its accessibility. MobiDB has now reached its maturity in terms of data standardization and visualization. Here, we present a new release which focuses on the optimization of user experience and database content. The major advances compared to the previous version are the integration of AlphaFoldDB predictions and the re-implementation of the homology transfer pipeline, which expands manually curated annotations by two orders of magnitude. Finally, the entry page has been restyled in order to provide an overview of the available annotations along with two separate views that highlight structural disorder evidence and functions associated with different binding modes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Databases, Protein",
+      "Molecular Sequence Annotation",
+      "Amino Acid Sequence",
+      "Knowledge Bases",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Piovesan, Damiano",
+        "Del Conte, Alessio",
+        "Clementel, Damiano",
+        "Monzon, Alexander Miguel",
+        "Bevilacqua, Martina",
+        "Aspromonte, Maria Cristina",
+        "Iserte, Javier A",
+        "Orti, Fernando E",
+        "Marino-Buslje, Cristina",
+        "Tosatto, Silvio C E"
+      ],
+      "short_names": [
+        "Piovesan D",
+        "Del Conte A",
+        "Clementel D",
+        "Monzon AM",
+        "Bevilacqua M",
+        "Aspromonte MC",
+        "Iserte JA",
+        "Orti FE",
+        "Marino-Buslje C",
+        "Tosatto SCE"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8210-2390",
+        "ORCID: 0000-0003-0362-8218",
+        "ORCID: 0000-0002-6564-1920",
+        "ORCID: 0000-0003-4525-7793"
+      ],
+      "affiliations": [
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Information Engineering, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Bioinformatics Unit, Fundacion Instituto Leloir, Buenos Aires, Argentina.",
+        "Bioinformatics Unit, Fundacion Instituto Leloir, Buenos Aires, Argentina.",
+        "Bioinformatics Unit, Fundacion Instituto Leloir, Buenos Aires, Argentina.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Piovesan, Damiano",
+        "short_name": "Piovesan D",
+        "identifiers": [
+          "0000-0001-8210-2390"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Del Conte, Alessio",
+        "short_name": "Del Conte A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Clementel, Damiano",
+        "short_name": "Clementel D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Monzon, Alexander Miguel",
+        "short_name": "Monzon AM",
+        "identifiers": [
+          "0000-0003-0362-8218"
+        ],
+        "affiliations": [
+          "Department of Information Engineering, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Bevilacqua, Martina",
+        "short_name": "Bevilacqua M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Aspromonte, Maria Cristina",
+        "short_name": "Aspromonte MC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Iserte, Javier A",
+        "short_name": "Iserte JA",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Unit, Fundación Instituto Leloir, Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Orti, Fernando E",
+        "short_name": "Orti FE",
+        "identifiers": [],
+        "affiliations": [
+          "Bioinformatics Unit, Fundación Instituto Leloir, Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Marino-Buslje, Cristina",
+        "short_name": "Marino-Buslje C",
+        "identifiers": [
+          "0000-0002-6564-1920"
+        ],
+        "affiliations": [
+          "Bioinformatics Unit, Fundación Instituto Leloir, Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [
+          "0000-0003-4525-7793"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Jan 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/24 06:00",
+    "fetched_at": "2026-09-20 16:56:57"
+  },
+  "links": {
+    "cites": [
+      "42230638",
+      "42111166",
+      "42033219",
+      "41959284",
+      "41808773",
+      "41689628",
+      "41629306",
+      "41611701",
+      "41378882",
+      "41353217",
+      "41267651",
+      "41264624",
+      "41249866",
+      "41232529",
+      "40894661",
+      "40844982",
+      "40728621",
+      "40728620",
+      "40728619",
+      "40677912",
+      "40629388",
+      "40496891",
+      "40490488",
+      "40448683",
+      "40319035",
+      "40227324",
+      "40201239",
+      "40156465",
+      "40153681",
+      "40067116",
+      "39947282",
+      "39937575",
+      "39833541",
+      "39819101",
+      "39811792",
+      "39718444",
+      "39716013",
+      "39651133",
+      "39614773",
+      "39592652",
+      "39584160",
+      "39470701",
+      "39417089",
+      "39374805",
+      "39362902",
+      "39313455",
+      "39279844",
+      "39269459",
+      "39214891",
+      "39167497",
+      "39033393",
+      "38934399",
+      "38866950",
+      "38778096",
+      "38765610",
+      "38686122",
+      "38678026",
+      "38670586",
+      "38662765",
+      "38613392",
+      "38599210",
+      "38512999",
+      "38507044",
+      "38473380",
+      "38404711",
+      "38370836",
+      "38267582",
+      "38213902",
+      "38202338",
+      "38110976",
+      "37990040",
+      "37949066",
+      "37933852",
+      "37904608",
+      "37904585",
+      "37895097",
+      "37816028",
+      "37802023",
+      "37793087",
+      "37761851",
+      "37509152",
+      "37461676",
+      "37437062",
+      "37333393",
+      "37246642",
+      "37140058",
+      "37108117",
+      "36979465",
+      "36624667"
+    ],
+    "refs": [
+      "36210722",
+      "35795824",
+      "35554554",
+      "34999124",
+      "34850135",
+      "34791371",
+      "34791357",
+      "34788797",
+      "34755867",
+      "34718738",
+      "34265844",
+      "33956157",
+      "33875885",
+      "33647288",
+      "33325498",
+      "33305318",
+      "33237329",
+      "33237286",
+      "33156333",
+      "32453748",
+      "32112804",
+      "31985787",
+      "31824649",
+      "31612960",
+      "31584089",
+      "31576635",
+      "30576490",
+      "30368054",
+      "29602697",
+      "29385418",
+      "29136219",
+      "29076577",
+      "29036655",
+      "28597296",
+      "28453683",
+      "27022160",
+      "26851279",
+      "26094768",
+      "25531225",
+      "25361972",
+      "24773235",
+      "24451626",
+      "24178034",
+      "22661649",
+      "22190692",
+      "21556138",
+      "21146412",
+      "20861031",
+      "19717576",
+      "18940607",
+      "17984079",
+      "17462669",
+      "15943980",
+      "14527389",
+      "3525846"
+    ],
+    "similar": [
+      "36416266",
+      "32696355",
+      "25361972",
+      "33237329",
+      "29136219",
+      "23815411",
+      "34850135",
+      "37904585",
+      "22661649",
+      "28453683",
+      "33017101",
+      "31713636",
+      "33305318",
+      "23946100",
+      "33325498",
+      "37167423",
+      "38507044",
+      "30576490",
+      "27115638",
+      "27899601",
+      "36458437",
+      "22067451",
+      "25246432",
+      "32696395",
+      "35789137",
+      "28934129",
+      "28369666",
+      "28381244",
+      "35507260",
+      "34252246",
+      "32599863",
+      "35102880",
+      "26307973",
+      "28968795",
+      "32112804",
+      "27636733",
+      "23466039",
+      "30099775",
+      "37892124",
+      "37904608",
+      "34418423",
+      "24178034",
+      "26090958",
+      "24150944",
+      "32295482",
+      "24288371",
+      "31756456",
+      "28365882",
+      "27787828",
+      "32828470",
+      "35436286",
+      "32230759",
+      "25496281",
+      "36452990",
+      "31521235",
+      "32034199",
+      "32696356",
+      "29399725",
+      "31978465",
+      "30873835",
+      "30554840",
+      "25502193",
+      "24203321",
+      "27548131",
+      "34146207",
+      "17391016",
+      "24037790",
+      "25863585",
+      "31616935",
+      "34626492",
+      "33119751",
+      "31584092",
+      "24573480",
+      "28387819",
+      "32698546",
+      "24532081",
+      "34791357",
+      "26683124",
+      "34755867",
+      "28952717",
+      "35139468",
+      "35883444",
+      "31870849",
+      "26562397",
+      "31613621",
+      "35454181",
+      "30397651",
+      "29076577",
+      "32771522",
+      "26790343",
+      "30717652",
+      "30443712",
+      "33882120",
+      "31836896",
+      "37870473",
+      "38182699"
+    ],
+    "review": [
+      "36416266",
+      "35102880",
+      "23466039",
+      "34418423",
+      "32828470",
+      "31521235",
+      "32034199",
+      "25502193",
+      "27548131",
+      "25863585",
+      "31616935",
+      "24532081"
+    ],
+    "pmc": [
+      "9825420"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36416266/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36416266",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac1065",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

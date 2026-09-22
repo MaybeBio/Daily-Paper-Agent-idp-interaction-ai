@@ -1,0 +1,506 @@
+{
+  "identity": {
+    "pmid": "42146528",
+    "doi": "10.64898/2026.05.07.723538",
+    "title": "A Phosphorylation Switch Modulates Configurational Codes in the Oncofetal IGF2BP RNA Binding Paralogs."
+  },
+  "content": {
+    "abstract": "The insulin-like growth factor 2 mRNA-binding proteins (IGF2BP1-3) are oncofetal RNA regulators that control translation, stability, and localization of several transcripts, yet display paralog-specific functions despite high structural similarity. Each paralog contains six RNA-binding domains (two RRMs and four KH domains) linked by intrinsically disordered segments. mTORC2 phosphorylates IGF2BP1 and IGF2BP3 at a single conserved serine within the disordered linker between the RRM2 and KH1 domains, a modification required for proper regulation of mRNA translational fate. Pairing site-specific phosphoserine incorporation with structural and biophysical interrogations, we show that this phosphorylation acts as a configurational switch that reorganizes long-range arrangements of RNA-binding domains and linkers without altering the secondary structure, and with only modest effects on RNA-binding affinity. Critically, pSer-driven rearrangements occur both in the RNA-free state and upon RNA engagement, and the resulting architectures differ markedly between IGF2BP1 and IGF2BP3 despite >70% sequence identity. These paralog-specific, phosphorylation-dependent configurational landscapes likely underlie differences in mRNA recognition modes and functional outcomes. Our work identifies a post-translational mechanism that tunes IGF2BP paralog dynamics across free and RNA-bound states to program target mRNA selection, processing, and translational fate.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kaushik, Vikas",
+        "Sanjayan, Vaishnavi",
+        "Mattice, Jenna",
+        "Tokmina-Lukaszewska, Monika",
+        "Torner, Ricarda",
+        "Chadda, Rahul",
+        "Kashyap, Rajnandani",
+        "Vayyeti, Abhinav",
+        "Roy, Pralambika",
+        "Mehl, Ryan A",
+        "Cooley, Richard B",
+        "Sigurdsson, Snorri Th",
+        "Dastvan, Reza",
+        "Arthanari, Haribabu",
+        "Bothner, Brian B",
+        "Origanti, Sofia",
+        "Antony, Edwin"
+      ],
+      "short_names": [
+        "Kaushik V",
+        "Sanjayan V",
+        "Mattice J",
+        "Tokmina-Lukaszewska M",
+        "Torner R",
+        "Chadda R",
+        "Kashyap R",
+        "Vayyeti A",
+        "Roy P",
+        "Mehl RA",
+        "Cooley RB",
+        "Sigurdsson ST",
+        "Dastvan R",
+        "Arthanari H",
+        "Bothner BB",
+        "Origanti S",
+        "Antony E"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6629-7693",
+        "ORCID: 0009-0003-1139-4287",
+        "ORCID: 0000-0002-4493-1259",
+        "ORCID: 0000-0003-3298-8298",
+        "ORCID: 0000-0002-0775-2075",
+        "ORCID: 0000-0001-6710-3985",
+        "ORCID: 0000-0002-9141-1168",
+        "ORCID: 0009-0008-7283-1491",
+        "ORCID: 0009-0006-2920-480X",
+        "ORCID: 0000-0003-2932-4941",
+        "ORCID: 0000-0003-3928-2757",
+        "ORCID: 0000-0002-4779-275X",
+        "ORCID: 0000-0002-7281-1289",
+        "ORCID: 0000-0003-1295-9609",
+        "ORCID: 0000-0002-6953-0160",
+        "ORCID: 0000-0002-1888-054X"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104.",
+        "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104.",
+        "Department of Chemistry and Biochemistry, Montana State University, Bozeman, MT 59717.",
+        "Department of Chemistry and Biochemistry, Montana State University, Bozeman, MT 59717.",
+        "Dana-Farber Cancer Institute, Boston, MA 02215.",
+        "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104.",
+        "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104.",
+        "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104.",
+        "Department of Chemistry, Science Institute, University of Iceland, 107 Reykjavik, Iceland.",
+        "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR 97331.",
+        "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR 97331.",
+        "Department of Chemistry, Science Institute, University of Iceland, 107 Reykjavik, Iceland.",
+        "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104.",
+        "Dana-Farber Cancer Institute, Boston, MA 02215.",
+        "Department of Chemistry and Biochemistry, Montana State University, Bozeman, MT 59717.",
+        "Department of Biology, Saint Louis University, St. Louis, MO 63103.",
+        "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kaushik, Vikas",
+        "short_name": "Kaushik V",
+        "identifiers": [
+          "0000-0001-6629-7693"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104."
+        ]
+      },
+      {
+        "full_name": "Sanjayan, Vaishnavi",
+        "short_name": "Sanjayan V",
+        "identifiers": [
+          "0009-0003-1139-4287"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104."
+        ]
+      },
+      {
+        "full_name": "Mattice, Jenna",
+        "short_name": "Mattice J",
+        "identifiers": [
+          "0000-0002-4493-1259"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Montana State University, Bozeman, MT 59717."
+        ]
+      },
+      {
+        "full_name": "Tokmina-Lukaszewska, Monika",
+        "short_name": "Tokmina-Lukaszewska M",
+        "identifiers": [
+          "0000-0003-3298-8298"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Montana State University, Bozeman, MT 59717."
+        ]
+      },
+      {
+        "full_name": "Törner, Ricarda",
+        "short_name": "Törner R",
+        "identifiers": [
+          "0000-0002-0775-2075"
+        ],
+        "affiliations": [
+          "Dana-Farber Cancer Institute, Boston, MA 02215."
+        ]
+      },
+      {
+        "full_name": "Chadda, Rahul",
+        "short_name": "Chadda R",
+        "identifiers": [
+          "0000-0001-6710-3985"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104."
+        ]
+      },
+      {
+        "full_name": "Kashyap, Rajnandani",
+        "short_name": "Kashyap R",
+        "identifiers": [
+          "0000-0002-9141-1168"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104."
+        ]
+      },
+      {
+        "full_name": "Vayyeti, Abhinav",
+        "short_name": "Vayyeti A",
+        "identifiers": [
+          "0009-0008-7283-1491"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104."
+        ]
+      },
+      {
+        "full_name": "Roy, Pralambika",
+        "short_name": "Roy P",
+        "identifiers": [
+          "0009-0006-2920-480X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Science Institute, University of Iceland, 107 Reykjavik, Iceland."
+        ]
+      },
+      {
+        "full_name": "Mehl, Ryan A",
+        "short_name": "Mehl RA",
+        "identifiers": [
+          "0000-0003-2932-4941"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR 97331."
+        ]
+      },
+      {
+        "full_name": "Cooley, Richard B",
+        "short_name": "Cooley RB",
+        "identifiers": [
+          "0000-0003-3928-2757"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR 97331."
+        ]
+      },
+      {
+        "full_name": "Sigurdsson, Snorri Th",
+        "short_name": "Sigurdsson ST",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Science Institute, University of Iceland, 107 Reykjavik, Iceland."
+        ]
+      },
+      {
+        "full_name": "Dastvan, Reza",
+        "short_name": "Dastvan R",
+        "identifiers": [
+          "0000-0002-4779-275X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104."
+        ]
+      },
+      {
+        "full_name": "Arthanari, Haribabu",
+        "short_name": "Arthanari H",
+        "identifiers": [
+          "0000-0002-7281-1289"
+        ],
+        "affiliations": [
+          "Dana-Farber Cancer Institute, Boston, MA 02215."
+        ]
+      },
+      {
+        "full_name": "Bothner, Brian B",
+        "short_name": "Bothner BB",
+        "identifiers": [
+          "0000-0003-1295-9609"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Montana State University, Bozeman, MT 59717."
+        ]
+      },
+      {
+        "full_name": "Origanti, Sofia",
+        "short_name": "Origanti S",
+        "identifiers": [
+          "0000-0002-6953-0160"
+        ],
+        "affiliations": [
+          "Department of Biology, Saint Louis University, St. Louis, MO 63103."
+        ]
+      },
+      {
+        "full_name": "Antony, Edwin",
+        "short_name": "Antony E",
+        "identifiers": [
+          "0000-0002-1888-054X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, St. Louis University School of Medicine, St. Louis, MO 63104."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 May 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/18 12:42",
+    "fetched_at": "2026-09-18 03:25:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41365883",
+      "39986276",
+      "39426983",
+      "39237202",
+      "38989614",
+      "38705823",
+      "37901548",
+      "37503349",
+      "37377445",
+      "37280679",
+      "37230964",
+      "36732736",
+      "36350035",
+      "36265582",
+      "34879078",
+      "34022128",
+      "33388443",
+      "33125651",
+      "32984260",
+      "32763142",
+      "32472050",
+      "31804607",
+      "31777925",
+      "31570709",
+      "31324771",
+      "31118463",
+      "30864660",
+      "30135093",
+      "30087616",
+      "30026733",
+      "29954406",
+      "29660014",
+      "29339797",
+      "29109951",
+      "28500298",
+      "28295262",
+      "27940961",
+      "27510448",
+      "27068461",
+      "26192344",
+      "26158423",
+      "26030730",
+      "25588836",
+      "24703842",
+      "23388827",
+      "23069990",
+      "22983196",
+      "22215810",
+      "21576258",
+      "20371350",
+      "20080952",
+      "19029303",
+      "16306994",
+      "16049158",
+      "15815974",
+      "15601260",
+      "15314207",
+      "15121863",
+      "14614102",
+      "12507992",
+      "11937024",
+      "11713986",
+      "11288142",
+      "10525192",
+      "10064611",
+      "9891060",
+      "9801297",
+      "8520220"
+    ],
+    "similar": [
+      "42146528",
+      "39426983",
+      "23640942",
+      "42475469",
+      "33388443",
+      "37503349",
+      "39986276",
+      "23912807",
+      "23728852",
+      "40736167",
+      "29476152",
+      "42244769",
+      "29736175",
+      "41546815",
+      "29279008",
+      "39617253",
+      "23044854",
+      "30135093",
+      "34022128",
+      "11838236",
+      "32933064",
+      "42104406",
+      "23069990",
+      "9115444",
+      "27098855",
+      "28808060",
+      "42589647",
+      "26438818",
+      "25068994",
+      "26152301",
+      "22279049",
+      "29851470",
+      "11973350",
+      "22154808",
+      "38820515",
+      "41846982",
+      "29954406",
+      "39342091",
+      "29109951",
+      "11278705",
+      "32905413",
+      "39133064",
+      "29731738",
+      "16428607",
+      "22983196",
+      "36067310",
+      "21742260",
+      "41032726",
+      "41242175",
+      "31911490",
+      "9367744",
+      "23603827",
+      "38336291",
+      "23286197",
+      "31023875",
+      "27726526",
+      "37293096",
+      "41795047",
+      "21414819",
+      "32385106",
+      "24990967",
+      "37280679",
+      "28381175",
+      "41281450",
+      "15753088",
+      "32761127",
+      "23247503",
+      "39630361",
+      "39198433",
+      "25533957",
+      "41391765",
+      "34100859",
+      "41983650",
+      "42278235",
+      "11871661",
+      "41292843",
+      "29450990",
+      "17581994",
+      "40354028",
+      "20080103",
+      "10368286",
+      "27940961",
+      "19461891",
+      "22465430",
+      "35098694",
+      "35685361",
+      "34631798",
+      "26522719",
+      "21743084",
+      "37645738",
+      "42324051",
+      "30230100",
+      "39433965",
+      "33391523",
+      "41184513",
+      "31934860",
+      "41920009",
+      "40147776",
+      "17526645",
+      "28162951"
+    ],
+    "review": [
+      "42146528",
+      "29736175",
+      "41546815",
+      "34022128",
+      "11838236",
+      "42104406",
+      "23069990",
+      "27098855",
+      "42589647",
+      "25068994",
+      "29954406",
+      "39342091",
+      "29109951",
+      "27726526",
+      "37280679",
+      "34100859",
+      "27940961",
+      "35098694"
+    ],
+    "pmc": [
+      "13174690"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42146528/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-725",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.05.07.723538",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.12.694022",
+  "title": "Quantifying (de)Mixing of Disordered Proteins in Molecular Dynamics Simulations",
+  "authors": "Morton W; Vácha R",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-15",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用分子动力学模拟和域分解方法量化无序蛋白在凝聚体中的混合/去混合行为，系统研究IDR介导的PPI与相分离组成，方法可迁移至互作机制建模，高度契合课题。",
+  "abstract": "Biomolecular condensates underpin the spatial and temporal organization of cellular biochemistry in the cell. Their architectures often arises from complex, multicomponent mixtures whose behavior is governed by weak, multivalent interactions, frequently mediated by intrinsically disordered regions (IDRs) of proteins. However, current approaches lack generalizable metrics to determine whether IDRs will mix or segregate within condensates. Here, we show that our domain decomposition method can both accurately determine concentrations in the dense/dilute phases, and provide a continuous metric for characterizing IDR mixing in molecular dynamics simulations. Applying this methodology to 1,963 binary mixtures, we find that mixing at equimolar ratios is rare. Most condensate-forming pairs favoring one dominant scaffold and minority client molecules. We found that hydrophobic IDRs mix promiscuously with most sequences, while the mixing of charged sequences is sensitive to the charge and complementarity of the partner. When applied to experimental protein interaction networks, our simulations successfully distinguish IDR-mediated partitioning from those requiring additional factors such as RNA or site specific binding. Our results provide a foundation for determining condensate composition in complex cellular environments and for designing synthetic IDRs that can infiltrate or modulate biomolecular condensates.",
+  "abstract_zh": "生物分子凝聚体支撑着细胞内生物化学的时空组织。其结构通常源于复杂的多组分混合物，其行为受弱多价相互作用支配，这些相互作用常由蛋白质的内在无序区（IDRs）介导。然而，现有方法缺乏通用指标来确定IDRs在凝聚体内是混合还是分离。在此，我们展示我们的域分解方法既能准确测定稠密/稀薄相中的浓度，又能为分子动力学模拟中表征IDR混合提供连续指标。将该方法应用于1,963种二元混合物，我们发现等摩尔比下的混合较为罕见。大多数形成凝聚体的配对倾向于一个主导支架和少量客户分子。我们发现疏水性IDRs与大多数序列混杂混合，而带电序列的混合则对伙伴的电荷和互补性敏感。当应用于实验蛋白质相互作用网络时，我们的模拟成功区分了IDR介导的分配与需要额外因素（如RNA或位点特异性结合）的分配。我们的结果为在复杂细胞环境中确定凝聚体组成以及设计能渗透或调节生物分子凝聚体的合成IDRs奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.12.694022",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.12.694022",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.12.694022/index.html"
+}

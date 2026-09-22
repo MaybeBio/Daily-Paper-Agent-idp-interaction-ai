@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36291634",
+  "title": "Deciphering the Alphabet of Disorder-Glu and Asp Act Differently on Local but Not Global Properties.",
+  "authors": "Roesgaard, Mette Ahrensback; Lundsgaard, Jeppe E; Newcombe, Estella A; Jacobsen, Nina L; Pesce, Francesco; Tranchant, Emil E; Lindemose, Soren; Prestel, Andreas; Hartmann-Petersen, Rasmus; Lindorff-Larsen, Kresten; Kragelund, Birthe B",
+  "journal": "Biomolecules",
+  "published_date": "2022-10-28",
+  "window": {
+    "start": "2022-10-24",
+    "end": "2022-10-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过实验与MD模拟比较无序蛋白Dss1中Glu与Asp变体的局部/全局构象及PPI结合亲和力差异，虽未用AI方法，但聚焦IDP序列-构象-互作机制，对无序蛋白互作建模有直接启发。",
+  "abstract": "Compared to folded proteins, the sequences of intrinsically disordered proteins (IDPs) are enriched in polar and charged amino acids. Glutamate is one of the most enriched amino acids in IDPs, while the chemically similar amino acid aspartate is less enriched. So far, the underlying functional differences between glutamates and aspartates in IDPs remain poorly understood. In this study, we examine the differential effects of aspartate and glutamates in IDPs by comparing the function and conformational ensemble of glutamate and aspartate variants of the disordered protein Dss1, using a range of assays, including interaction studies, nuclear magnetic resonance spectroscopy, small-angle X-ray scattering and molecular dynamics simulation. First, we analyze the sequences of the rapidly growing database of experimentally verified IDPs (DisProt) and show that glutamate enrichment is not caused by a taxonomy bias in IDPs. From analyses of local and global structural properties as well as cell growth and protein-protein interactions using a model acidic IDP from yeast and three Glu/Asp variants, we find that while the Glu/Asp variants support similar function and global dimensions, the variants differ in their binding affinities and population of local transient structural elements. We speculate that these local structural differences may play roles in functional diversity, where glutamates can support increased helicity, important for folding and binding, while aspartates support extended structures and form helical caps, as well as playing more relevant roles in, e.g., transactivation domains and ion-binding.",
+  "abstract_zh": "与折叠蛋白相比， intrinsically disordered proteins (IDPs) 的序列富含极性和带电氨基酸。谷氨酸是 IDPs 中最富集的氨基酸之一，而化学性质相似的氨基酸天冬氨酸则富集程度较低。迄今为止，IDPs 中谷氨酸和天冬氨酸之间的功能差异仍知之甚少。在本研究中，我们通过比较无序蛋白 Dss1 的谷氨酸和天冬氨酸变体的功能及构象集合，利用一系列检测方法，包括相互作用研究、核磁共振波谱、小角X射线散射和分子动力学模拟，来考察天冬氨酸和谷氨酸在 IDPs 中的差异效应。首先，我们分析了快速增长的实验验证 IDPs 数据库（DisProt）的序列，并表明谷氨酸富集并非由 IDPs 中的分类学偏差所致。通过对来自酵母的模型酸性 IDP 及三种 Glu/Asp 变体的局部和全局结构特性以及细胞生长和蛋白质-蛋白质相互作用的分析，我们发现尽管 Glu/Asp 变体支持相似的功能和全局尺寸，但这些变体在结合亲和力和局部瞬时结构元件的群体上存在差异。我们推测这些局部结构差异可能在功能多样性中发挥作用，其中谷氨酸可支持增加的螺旋度，这对折叠和结合至关重要，而天冬氨酸则支持延伸结构并形成螺旋帽，同时在例如反式激活域和离子结合中扮演更相关的角色。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36291634/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36291634/",
+  "paper_page_path": "papers/pubmed/36291634/index.html"
+}

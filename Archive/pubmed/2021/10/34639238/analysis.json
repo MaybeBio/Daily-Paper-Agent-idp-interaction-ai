@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34639238",
+  "title": "Characterizing Binding Interactions That Are Essential for Selective Transport through the Nuclear Pore Complex.",
+  "authors": "Lennon, Kathleen M; Soheilypour, Mohammad; Peyro, Mohaddeseh; Wakefield, Devin L; Choo, Grace E; Mofrad, Mohammad R K; Jovanovic-Talisman, Tijana",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-10-14",
+  "window": {
+    "start": "2021-10-11",
+    "end": "2021-10-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合实验与分子动力学模拟，研究NTR与NPC中无序FG Nup（Nsp1）的弱瞬时结合及负协同性，聚焦无序蛋白介导的PPI机制建模，虽非AI方法但物理模拟与机制深度契合课题。",
+  "abstract": "Specific macromolecules are rapidly transported across the nuclear envelope via the nuclear pore complex (NPC). The selective transport process is facilitated when nuclear transport receptors (NTRs) weakly and transiently bind to intrinsically disordered constituents of the NPC, FG Nups. These two types of proteins help maintain the selective NPC barrier. To interrogate their binding interactions in vitro, we deployed an NPC barrier mimic. We created the stationary phase by covalently attaching fragments of a yeast FG Nup called Nsp1 to glass coverslips. We used a tunable mobile phase containing NTR, nuclear transport factor 2 (NTF2). In the stationary phase, three main factors affected binding: the number of FG repeats, the charge of fragments, and the fragment density. We also identified three main factors affecting binding in the mobile phase: the avidity of the NTF2 variant for Nsp1, the presence of nonspecific proteins, and the presence of additional NTRs. We used both experimentally determined binding parameters and molecular dynamics simulations of Nsp1FG fragments to create an agent-based model. The results suggest that NTF2 binding is negatively cooperative and dependent on the density of Nsp1FG molecules. Our results demonstrate the strengths of combining experimental and physical modeling approaches to study NPC-mediated transport.",
+  "abstract_zh": "特定大分子通过核孔复合体（nuclear pore complex, NPC）快速穿越核膜。当核转运受体（nuclear transport receptors, NTRs）与NPC的内在无序组分FG Nups发生弱且瞬时的结合时，选择性转运过程得以促进。这两类蛋白质有助于维持NPC的选择性屏障。为了在体外探究它们的结合相互作用，我们采用了NPC屏障模拟系统。我们通过将酵母FG Nup（称为Nsp1）的片段共价附着到玻璃盖玻片上，创建了固定相。我们使用了含有NTR、核转运因子2（nuclear transport factor 2, NTF2）的可调流动相。在固定相中，三个主要因素影响结合：FG重复序列的数量、片段的电荷以及片段密度。我们还确定了流动相中影响结合的三个主要因素：NTF2变体对Nsp1的亲和力、非特异性蛋白质的存在以及额外NTR的存在。我们利用实验测定的结合参数和Nsp1FG片段的分子动力学（molecular dynamics）模拟，构建了一个基于代理的模型。结果表明，NTF2结合具有负协同性，并依赖于Nsp1FG分子的密度。我们的结果展示了结合实验和物理建模方法研究NPC介导转运的优势。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34639238/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34639238/",
+  "paper_page_path": "papers/pubmed/34639238/index.html"
+}

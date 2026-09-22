@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary file descriptions.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. No assessment of formatting or editorial policy.
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations to show that condensates formed by Nanog, Oct4, and Sox2 exhibit non-additive, emergent properties. They propose a "deliverer-receiver" mechanism in which Oct4 acts as a DNA deliverer, while Nanog and Sox2 form the condensate scaffold that receives DNA. They also report that condensate formation alters the regions of the transcription factors that engage DNA.
+- **Visible evidence base** Simulation trajectories, density profiles, contact frequency maps, residue-residue contact maps, and statistical comparisons across multiple simulation conditions and DNA concentrations.
+- **Missing materials affecting confidence** No code or parameter files for the simulations were provided. No raw trajectory data or analysis scripts were provided. The manuscript does not include a detailed description of how statistical significance was computed for the reported differences. The methods section lacks a description of the equilibration protocol and how the "condensate boundary" was defined for the calculation of critical concentrations and DNA content.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study of multicomponent transcriptional condensates, a topic of high current interest. The central claim, that condensate formation leads to non-additive effects and a functional division of labor among transcription factors, is conceptually appealing and potentially significant. However, the evidence presented is not fully convincing. The study relies on a single coarse-grained model, and the key quantitative claims (e.g., the ~20% higher DNA content in Oct4-containing condensates) are presented without a clear statistical framework. The proposed "deliverer-receiver" mechanism is inferred from steady-state spatial organization, and the authors themselves acknowledge that the dynamic transfer of DNA is not directly demonstrated. The manuscript would be strengthened by a more rigorous analysis of the simulation data, a clearer presentation of the statistical methods, and a more cautious interpretation of the mechanistic implications.
+- **Who would be interested in the results, and why** Researchers in the fields of gene regulation, transcriptional condensates, phase separation, and computational biophysics. The study addresses a fundamental question about how multiple transcription factors cooperate in a condensate context, which is relevant to understanding enhancer function and gene expression control. The proposed non-additive mechanism could be of interest to a broad readership in molecular biology and biophysics.
+- **Major strengths** The study addresses a timely and important question about the emergent properties of multicomponent transcriptional condensates. The use of large-scale coarse-grained simulations is appropriate for this problem. The systematic comparison of binary and ternary mixtures is a logical approach to dissect pairwise versus collective interactions. The observation that condensate formation changes the DNA-binding interface of Nanog and Sox2 is an interesting and potentially novel finding.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that Oct4-containing condensates have ~20% higher DNA content compared to condensates without Oct4.
+    - **Evidence pointer** Results section "Architecture of Phase-Separated Transcriptional Condensates", Figure 5m.
+    - **Concern** The manuscript reports a ~20% difference in DNA content between Oct4-containing and Nanog-Sox2 condensates, but the statistical basis for this claim is not described. It is unclear how many independent simulations were used, how the variance was estimated, and whether the difference is statistically significant. The text mentions "three independent simulations" for the condensate systems, but no error bars or statistical tests are shown in Figure 5m.
+    - **Why it matters** The quantitative claim of a 20% difference is a key piece of evidence for the proposed functional role of Oct4. Without a proper statistical analysis, it is impossible to assess whether this is a robust effect or a fluctuation.
+    - **Resolution test** Provide a clear description of the statistical analysis, including the number of independent simulations, the definition of "DNA content," and the appropriate statistical test (e.g., a t-test or ANOVA) with reported p-values or confidence intervals. Show error bars on all relevant data points in Figure 5m.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the "deliverer-receiver" mechanism is supported by the simulations.
+    - **Evidence pointer** Results sections "Architecture of Phase-Separated Transcriptional Condensates" and "DNA-Protein interactions change upon condensate formation", Discussion section.
+    - **Concern** The proposed mechanism implies a dynamic process where Oct4 captures DNA and transfers it to the condensate scaffold. However, the simulations are analyzed primarily through steady-state spatial organization (density profiles, contact maps). The authors do not present any time-resolved analysis of DNA trajectories or transfer events. The authors acknowledge this limitation in the Discussion, but the framing of the results as supporting a "deliverer-receiver mechanism" is premature.
+    - **Why it matters** The central conceptual contribution of the paper is the proposed mechanism. If the evidence only supports a static correlation (Oct4 is near DNA in condensates), the mechanistic claim is not established.
+    - **Resolution test** Perform and present a time-resolved analysis of DNA-protein interactions, such as tracking the residence time of DNA near Oct4 versus Nanog/Sox2, or quantifying the frequency of DNA transfer events between Oct4 and the scaffold proteins. Alternatively, re-frame the conclusions to describe the observed spatial organization without invoking a specific dynamic mechanism.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the coarse-grained model accurately captures the relevant biology.
+    - **Evidence pointer** Methods section "Coarse-grained molecular models".
+    - **Concern** The study relies on a single coarse-grained model (HPS for proteins, 3SPN.2C for DNA). The choice of model parameters, particularly the interaction strengths and the treatment of electrostatics, can significantly influence the phase behavior and binding affinities. The manuscript does not include any validation of the model against experimental data for these specific proteins, nor does it test the robustness of the conclusions to model parameter variations.
+    - **Why it matters** The conclusions are entirely dependent on the fidelity of the simulation model. Without validation or a robustness check, it is unclear if the observed effects are real or artifacts of the model.
+    - **Resolution test** Provide a comparison of simulation predictions (e.g., condensate density, DNA partitioning) with available experimental data for Nanog, Oct4, and Sox2. Alternatively, perform a limited parameter sweep (e.g., varying the strength of protein-protein or protein-DNA interactions) to show that the qualitative conclusions are robust.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Figure 1c
+    - **Evidence pointer** Results section "Deciphering the intermolecular interactions within TF condensates".
+    - **Issue** The color scheme for the domain architecture in Figure 1c is not described in the figure legend. It is difficult to interpret the figure without this information.
+    - **Required correction** Add a clear description of the color coding for the NTD, DBD, and CTD in the figure legend.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Methods section "Molecular dynamics simulations"
+    - **Evidence pointer** Methods section.
+    - **Issue** The description of the equilibration protocol is vague. The text states that short MD runs were conducted to form the condensate, but does not specify the length of these runs, the criteria for determining that the condensate was formed, or the equilibration period after the condensate was formed.
+    - **Required correction** Provide a detailed description of the simulation protocol, including the number of steps for each phase, the criteria for equilibration, and the total simulation time used for analysis.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract and Discussion
+    - **Evidence pointer** Abstract, Discussion.
+    - **Issue** The term "deliverer-receiver mechanism" is introduced in the abstract but the roles are not clearly defined until the Discussion. The abstract would be clearer if the roles of Oct4 (deliverer) and Nanog/Sox2 (receivers) were briefly stated.
+    - **Required correction** Briefly define the roles of the proteins in the abstract when introducing the mechanism.
+- **Technical failings that need to be addressed before the case is established** The lack of a clear statistical framework for the key quantitative claims (R1-M1) and the absence of time-resolved analysis to support the dynamic "deliverer-receiver" mechanism (R1-M2) are the primary technical failings. The lack of model validation (R1-M3) is also a significant concern.
+- **Assessment against Nature-style criteria** 
+    - **Originality** The concept of a "deliverer-receiver" mechanism is a novel and interesting framing for the role of different TFs in a condensate. The observation that condensate formation changes the DNA-binding interface is also potentially original.
+    - **Scientific importance** The question of how multicomponent condensates generate emergent functions is of high importance to the fields of gene regulation and phase separation. If the proposed mechanism is validated, it could have broad implications.
+    - **Interdisciplinary readership** The topic is relevant to molecular biology, biophysics, and computational biology. The writing is generally accessible, but the results section is dense and would benefit from a more narrative structure.
+    - **Technical soundness** The technical soundness is currently not established due to the concerns raised above regarding statistical analysis, dynamic evidence, and model validation.
+    - **Readability for nonspecialists** The abstract and introduction are clear. The results and discussion are more technical and may be challenging for a nonspecialist, but the main concepts are understandable.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is interesting, but the key claims require a more rigorous analysis and a more cautious interpretation. I would be supportive if the technical concerns regarding statistical analysis and the dynamic evidence for the proposed mechanism are resolved.
+
+## Risk / unsupported claims
+- The claim that the "deliverer-receiver" mechanism is a dynamic process is unsupported by the presented steady-state data.
+- The claim that the ~20% higher DNA content in Oct4-containing condensates is a significant effect is unsupported without a statistical test.
+- The claim that the model is representative of in vivo behavior is unvalidated.
+- The claim that the observed effects are "non-additive" is supported by the comparison of binary and ternary mixtures, but the statistical significance of the differences is not established.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42029573",
+  "title": "Rational Design of a Multivalent RNA Combining Structural Motifs Tailored to Multiple Domains of Fused in Sarcoma for Potent Inhibition of Aggregation.",
+  "authors": "Kuroiwa, Nobuaki; Sakaue, Fumika; Miura, Motoki; Go, Ayano; Iwase, Ryo; Iwata Hara, Rintaro; Sanjo, Nobuo; Ui-Tei, Kumiko; Yokota, Takanori",
+  "journal": "Chembiochem : a European journal of chemical biology",
+  "published_date": "2026-04-24",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究理性设计多价RNA（U1'+TERRA）靶向FUS多个RNA结合域以抑制其异常相分离驱动的聚集，涉及无序蛋白FUS的互作调控，但方法侧重实验设计而非AI/物理模拟建模，机制深度有限。",
+  "abstract": "Fused in sarcoma (FUS) is an RNA-binding protein whose pathological aggregation, driven by aberrant phase separation, is implicated in amyotrophic lateral sclerosis (ALS). Although RNA molecules can modulate the FUS phase behavior, identifying highly effective sequences remains challenging because of FUS's multiple low-specificity RNA-binding domains. In this study, we rationally designed a 65-mer RNA, U1'+TERRA, by combining a stem-loop-GGU motif and a G-quadruplex (G4) structure, each known to interact with distinct FUS domains. U1'+TERRA exhibited strong binding affinity and effectively inhibited FUS aggregation in vitro. We introduced 2'-O-methyl modifications, generating (U1'+TERRA)-2'-OMe, which retained structural integrity and demonstrated resistance to nuclease degradation to enhance biological stability. Notably, (U1'+TERRA)-2'-OMe suppressed FUS aggregation even at a low concentration. These findings suggested that multivalent RNA constructs with rationally arranged motifs can serve as potent inhibitors of FUS aggregation. Our approach highlights the potential of structure-guided RNA engineering for the development of nucleic acid therapeutics targeting RNA-binding proteins involved in neurodegenerative diseases, such as ALS.",
+  "abstract_zh": "肉瘤融合蛋白（FUS）是一种RNA结合蛋白，其病理聚集由异常相分离（phase separation）驱动，与肌萎缩侧索硬化症（amyotrophic lateral sclerosis, ALS）相关。尽管RNA分子能够调节FUS的相行为，但由于FUS具有多个低特异性RNA结合结构域，识别高效序列仍具挑战性。在本研究中，我们通过结合茎环-GGU基序和G-四链体（G-quadruplex, G4）结构，理性设计了一种65-mer RNA，命名为U1'+TERRA，其中每种结构均已知与FUS的不同结构域相互作用。U1'+TERRA表现出强结合亲和力，并在体外有效抑制FUS聚集。我们引入2'-O-甲基修饰，生成(U1'+TERRA)-2'-OMe，该修饰保留了结构完整性，并表现出对核酸酶降解的抵抗力，以增强生物稳定性。值得注意的是，(U1'+TERRA)-2'-OMe即使在低浓度下也能抑制FUS聚集。这些发现表明，具有合理排列基序的多价RNA构建体可作为FUS聚集的有效抑制剂。我们的方法突显了结构引导的RNA工程在开发针对神经退行性疾病（如ALS）中RNA结合蛋白的核酸治疗药物方面的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42029573/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42029573/",
+  "paper_page_path": "papers/pubmed/42029573/index.html"
+}

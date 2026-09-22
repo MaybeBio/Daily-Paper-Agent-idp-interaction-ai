@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33435335",
+  "title": "Role of pK(A) in Charge Regulation and Conformation of Various Peptide Sequences.",
+  "authors": "Lunkad, Raju; Murmiliuk, Anastasiia; Tosner, Zdenek; Stepanek, Miroslav; Kosovan, Peter",
+  "journal": "Polymers",
+  "published_date": "2021-01-14",
+  "window": {
+    "start": "2021-01-11",
+    "end": "2021-01-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用粗粒化模型研究肽序列与pKa对电荷调节和构象的耦合，虽对象为多肽而非IDP，但机制建模思路对无序蛋白的pH调控互作有可迁移启发。",
+  "abstract": "Peptides containing amino acids with ionisable side chains represent a typical example of weak ampholytes, that is, molecules with multiple titratable acid and base groups, which generally exhibit charge regulating properties upon changes in pH. Charged groups on an ampholyte interact electrostatically with each other, and their interaction is coupled to conformation of the (macro)molecule, resulting in a complex feedback loop. Their charge-regulating properties are primarily determined by the pKA of individual ionisable side-chains, modulated by electrostatic interactions between the charged groups. The latter is determined by the amino acid sequence in the peptide chain. In our previous work we introduced a simple coarse-grained model of a flexible peptide. We validated it against experiments, demonstrating its ability to quantitatively predict charge on various peptides in a broad range of pH. In the current work, we investigated two types of peptide sequences: diblock and alternating, each of them consisting of an equal number of amino acids with acid and base side-chains. We showed that changing the sequence while keeping the same overall composition has a profound effect on the conformation, whereas it practically does not affect total charge on the peptide. Nevertheless, the sequence significantly affects the charge state of individual groups, showing that the zero net effect on the total charge is a consequence of unexpected cancellation of effects. Furthermore, we investigated how the difference between the pKA of acid and base side chains affects the charge and conformation of the peptide, showing that it is possible to tune the charge-regulating properties by following simple guiding principles based on the pKA and on the amino acid sequence. Our current results provide a theoretical basis for understanding of the complex coupling between the ionisation and conformation in flexible polyampholytes, including synthetic polymers, biomimetic materials and biological molecules, such as intrinsically disordered proteins, whose function can be regulated by changes in the pH.",
+  "abstract_zh": "含有可电离侧链氨基酸的肽是弱两性电解质（weak ampholytes）的典型例子，即具有多个可滴定酸和碱基团的分子，这些分子通常在pH变化时表现出电荷调节特性。两性电解质上的带电基团彼此静电相互作用，其相互作用与（大）分子的构象耦合，形成复杂的反馈回路。它们的电荷调节特性主要由各个可电离侧链的pKA决定，并受带电基团间静电相互作用的调节，后者由肽链中的氨基酸序列决定。在我们先前的工作中，我们引入了一个简单的柔性肽粗粒化模型，并通过实验验证，展示了其在广泛pH范围内定量预测各种肽电荷的能力。在当前工作中，我们研究了两种类型的肽序列：二嵌段和交替序列，每种序列由等数量的酸性和碱性侧链氨基酸组成。我们表明，在保持总体组成不变的情况下改变序列对构象有显著影响，而实际上对肽的总电荷影响不大。然而，序列显著影响各个基团的电荷状态，表明总电荷的零净效应是效应意外抵消的结果。此外，我们研究了酸性和碱性侧链pKA之间的差异如何影响肽的电荷和构象，表明通过基于pKA和氨基酸序列的简单指导原则可以调节电荷调节特性。我们当前的结果为理解柔性多两性电解质（包括合成聚合物、仿生材料和生物分子，如 intrinsically disordered proteins）中电离与构象之间的复杂耦合提供了理论基础，这些分子的功能可通过pH变化进行调节。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33435335/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33435335/",
+  "paper_page_path": "papers/pubmed/33435335/index.html"
+}

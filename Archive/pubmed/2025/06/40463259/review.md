@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or methods were provided
+- **Shared manuscript claim summary** The authors propose that Pln1, a perilipin on lipid droplets (LDs) in Saccharomyces cerevisiae, is essential for microlipophagy by tethering LDs to vacuoles. They identify the N-terminal PAT domain, a semi-hydrophobic LD Interacting Motif (LIM), and an intrinsically disordered region (IDR) as critical for this tethering. They further report that PLN1 deletion does not impair survival under nitrogen starvation and improves viability in atg8Δ cells, suggesting a balance between Pln1-mediated LD biogenesis and lipophagy is important for yeast survival.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or methodological descriptions
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, statistical analyses, strain construction details, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically focused study on Pln1 as a tethering factor in microlipophagy. The proposed model is coherent and builds on prior knowledge of Pln1 in LD biology. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims. Key mechanistic assertions, such as the role of the LIM and IDR, and the functional consequences of PLN1 deletion, require detailed experimental support that is not visible here. The study may be of interest to the autophagy and lipid droplet communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying lipid droplet homeostasis, autophagy and selective autophagy pathways, organelle tethering mechanisms, and yeast cell biology under stress conditions. The work could also appeal to those interested in perilipin functions beyond lipid storage and in the molecular basis of microlipophagy.
+- **Major strengths** The abstract identifies a clear and testable molecular model for LD-vacuole tethering. The focus on a specific protein domain and motif provides mechanistic depth. The inclusion of functional data under starvation conditions adds physiological relevance. The work builds logically on established knowledge of Pln1 and lipophagy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Pln1 is essential for lipophagy and facilitates docking of cytosolic LDs to vacuoles under various nutrient conditions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that Pln1 is essential for lipophagy, but no quantitative or qualitative data are shown to support this claim. It is unclear how lipophagy was measured, whether LD degradation was directly assessed, and whether the effect is specific to microlipophagy versus other autophagic pathways.
+  - **Why it matters** The central claim of the paper rests on demonstrating a functional requirement for Pln1 in lipophagy. Without visible evidence of LD degradation assays, fluorescence or electron microscopy, or genetic interaction data, the claim cannot be evaluated.
+  - **Resolution test** Provide representative images and quantification of LD number or content in wild-type versus pln1Δ cells under lipophagy-inducing conditions, with appropriate statistical analysis and controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The N-terminal PAT domain, a semi-hydrophobic LIM, and an IDR are critical for LD-vacuole tethering.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract describes site-specific mutagenesis and domain dissection but provides no details on the assays used to assess tethering, the specificity of the mutations, or the functional readouts. It is not possible to determine whether the LIM and IDR are directly involved in binding or whether their effects are indirect.
+  - **Why it matters** The proposed model depends on identifying specific regions of Pln1 that mediate tethering. Without visible evidence from binding assays, localization studies, or tethering reconstitution experiments, the mechanistic claims are unsupported.
+  - **Resolution test** Show data from in vitro or in vivo tethering assays with Pln1 truncations and point mutants, including controls for protein expression and LD localization, and demonstrate that the LIM and IDR mutations specifically disrupt LD-vacuole interaction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional interpretation
+  - **Claim pointer** Deleting PLN1 did not impair survival during prolonged nitrogen starvation and enhanced viability in atg8Δ cells, suggesting that balancing Pln1-mediated LD biogenesis and lipophagy is crucial for yeast survival.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The survival data are presented without experimental context. It is unclear how viability was measured, over what time course, and whether the effects are statistically significant. The interpretation that a balance between LD biogenesis and lipophagy is crucial is speculative without additional data on LD dynamics or metabolic outcomes.
+  - **Why it matters** This claim extends the study beyond tethering to a physiological role for Pln1 in stress survival. The interpretation may be overreaching if the viability effects are modest or if other factors contribute.
+  - **Resolution test** Provide survival curves with replicates and statistical analysis, and include measurements of LD content or turnover in the relevant strains to support the proposed balance model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "semi-hydrophobic LD Interacting Motif (LIM)" is introduced without definition of what constitutes "semi-hydrophobic" or how this motif was identified.
+  - **Required correction** Define the motif characteristics and describe the criteria used to identify it, either in the abstract or by referencing a figure or method.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Nutrient conditions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that Pln1 facilitates docking "under various nutrient conditions" but does not specify which conditions were tested or whether the requirement is universal.
+  - **Required correction** List the specific nutrient conditions tested and note any differences in the requirement for Pln1.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Model statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "bridges LDs and vacuoles by simultaneously interacting with both organelles" implies a direct physical interaction, but the abstract does not provide evidence for simultaneous binding.
+  - **Required correction** Soften the language to indicate that the data are consistent with a bridging model, or provide direct evidence for simultaneous interaction.
+- **Technical failings that need to be addressed before the case is established** The abstract does not include any quantitative data, statistical analyses, or methodological details. The mechanistic claims regarding the PAT domain, LIM, and IDR require direct experimental evidence. The survival data are presented without context or statistical support. These gaps prevent evaluation of the central claims.
+- **Assessment against Nature-style criteria** Originality: The proposed role of Pln1 as a tethering factor in microlipophagy is a novel extension of its known function in LD biogenesis, and the identification of a specific motif is potentially original. Scientific importance: The work addresses a fundamental question in organelle degradation and lipid homeostasis, which is of broad relevance. Interdisciplinary readership: The topic may appeal to cell biologists, biochemists, and autophagy researchers, but the abstract does not clearly frame the broader implications for non-specialists. Technical soundness: Not assessable from the abstract alone; no methods or data are visible. Readability for nonspecialists: The abstract is reasonably clear but uses domain-specific terms without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible and potentially significant, but the abstract alone does not provide sufficient experimental support. A full review of the manuscript with figures and methods would be required to assess whether the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that Pln1 is essential for lipophagy is unsupported without visible functional data.
+- The identification of the LIM and IDR as critical for tethering is unsupported without mutagenesis and binding data.
+- The survival phenotype and the proposed balance model are unsupported without survival curves and LD measurements.
+- The statement that Pln1 simultaneously interacts with both organelles is not supported by direct evidence in the abstract.

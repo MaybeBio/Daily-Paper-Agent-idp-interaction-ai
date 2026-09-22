@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and alignment with claims; no assessment of formatting or editorial policy
+- **Shared manuscript claim summary** The authors report the discovery of proteinaceous microcompartments (archaeal microcompartments, AMCs) in Hodarchaeales, an order of Asgard archaea closely related to eukaryotes. They propose that these AMCs, acquired by horizontal gene transfer from Myxococcota bacteria, function as sugar-phosphate utilization metabolosomes that substantially enhance bioenergetic output, potentially providing the energy boost that enabled eukaryogenesis.
+- **Visible evidence base** Bioinformatic mining of archaeal genomes; phylogenetic analyses; AlphaFold3 structural predictions; in vitro assembly experiments with purified proteins; in vivo co-expression experiments in E. coli; reaction-diffusion mathematical modelling
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; Supplementary Note 1 (model details and parameters) not provided; raw sequencing data not provided; experimental replicates and statistical details for biochemical assays not fully described; negative control data for in vivo assembly experiments not shown
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially significant discovery of microcompartments in archaea, which would be a first. The combination of genomic, phylogenetic, structural, biochemical, and modelling approaches is ambitious and the claims are substantial. However, the evidence as presented has several critical gaps. The in vitro assembly data are limited to a single combination of shell proteins, the in vivo assembly evidence relies on fluorescence patches without confirmatory ultrastructural data, the enzyme encapsulation experiments lack quantitative controls, and the mathematical model is not fully described in the provided material. The phylogenetic evidence for HGT from Myxococcota is suggestive but the dating estimates are based on indirect proxies. The central claim that AMCs could have fuelled eukaryogenesis is speculative and not directly tested. The manuscript would be of high interest to the evolutionary biology and microbiology communities if the technical concerns are adequately addressed.
+- **Who would be interested in the results, and why** Researchers studying eukaryogenesis, archaeal evolution, bacterial microcompartments, metabolic compartmentalization, and horizontal gene transfer. The discovery of archaeal microcompartments would fill a major gap in the comparative biology of prokaryotic organelles and would have implications for understanding the bioenergetic preconditions for eukaryotic complexity.
+- **Major strengths** 1) The discovery of microcompartment gene clusters in Archaea is novel and potentially field-changing. 2) The multi-pronged approach combining phylogenetics, structural prediction, biochemistry, and modelling is comprehensive. 3) The identification of IDR-mediated DNA binding fused to shell proteins is an intriguing and testable mechanism. 4) The mathematical modelling provides a quantitative framework for evaluating the bioenergetic benefit of compartmentalization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality for in vitro assembly
+  - **Claim pointer** The authors claim that the AMC shell proteins self-assemble into microcompartment shells based on in vitro experiments.
+  - **Evidence pointer** Results section "Hodarchaeales AMC shell assembly and interaction with metabolic enzymes"; Figure 4a-c; Supplementary Fig. 17
+  - **Concern** The in vitro assembly is demonstrated for only one combination of shell proteins (H2, Ts, P1 at 3:1:3 ratio). The authors state they screened two combinations but only one yielded efficient assembly. It is unclear whether the other combination failed entirely or produced partial assemblies. The SEC and TEM data are shown for the successful combination only. The size distribution (50-220 nm) is unusually broad for a self-assembling icosahedral shell, and the authors do not explain this heterogeneity. The TEM images show "ovoid morphologies" which is inconsistent with the icosahedral geometry expected for BMC shells. No cryo-EM or higher-resolution structural data are provided to confirm the shell architecture.
+  - **Why it matters** The claim that these proteins form functional microcompartment shells is foundational to the entire manuscript. If the in vitro assembly is not robustly demonstrated, the subsequent claims about enzyme encapsulation, substrate channelling, and bioenergetic enhancement are undermined.
+  - **Resolution test** Provide assembly data for all tested combinations, including negative results. Show higher-resolution structural characterization (cryo-EM or at minimum negative-stain EM with class averages) to confirm icosahedral shell formation. Quantify assembly efficiency and explain the broad size distribution. Include a control with a non-shell-forming protein under identical conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality for in vivo assembly
+  - **Claim pointer** The authors claim that AMC shells assemble in vivo based on fluorescence microscopy showing discrete patches.
+  - **Evidence pointer** Results section "Hodarchaeales AMC shell assembly and interaction with metabolic enzymes"; Figure 4e-f; Supplementary Fig. 18
+  - **Concern** The in vivo assembly evidence relies on fluorescence patches of mCherry-tagged H1 protein. Discrete fluorescence patches could arise from protein aggregation, inclusion body formation, or other non-specific clustering, not necessarily from the formation of ordered microcompartment shells. No co-localization with a marker of assembled shells is shown. The authors do not provide ultrastructural evidence (e.g., thin-section EM) to confirm the presence of intracellular shell structures. The claim that "intact shell particles containing all five AMC shell proteins" were purified from cell lysate is based on SDS-PAGE and MS, but the stoichiometry and structural integrity of these particles are not characterized.
+  - **Why it matters** In vivo assembly is critical to demonstrate that AMCs exist as functional organelles in the native or heterologous context. Without ultrastructural confirmation, the fluorescence data are ambiguous.
+  - **Resolution test** Perform thin-section transmission electron microscopy on cells expressing the shell proteins to visualize intracellular structures. Alternatively, purify the in vivo-assembled particles and characterize them by negative-stain EM or cryo-EM. Include a control with a mutant shell protein predicted to disrupt assembly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mathematical model validation
+  - **Claim pointer** The authors claim that AMCs increase NADH flux approximately 100-fold based on reaction-diffusion modelling.
+  - **Evidence pointer** Results section "AMC-driven energy production in Hodarchaeales"; Figure 5; Methods "Mathematical modelling of the metabolic flux within AMC"; Supplementary Note 1
+  - **Concern** The mathematical model is described only in outline in the provided material. The full model equations, parameter values, and sensitivity analyses are in Supplementary Note 1, which was not provided. The model assumes spherical symmetry for both cell and AMC, which is a simplification that may not hold for rod-shaped or irregularly shaped archaea. The model does not account for the IDR-mediated DNA binding, which is claimed to be a key feature of the system. The 100-fold enhancement claim is presented as a single number without confidence intervals or a full sensitivity analysis. The model parameters are estimated, but the sources of these estimates are not described in the provided text.
+  - **Why it matters** The quantitative claim of 100-fold enhancement is a central pillar of the bioenergetic argument. If the model is not fully described, validated, and subjected to sensitivity analysis, the claim cannot be evaluated.
+  - **Resolution test** Provide the full model description, all parameter values with sources, and a comprehensive sensitivity analysis. Validate the model against experimental data where possible. Show how the 100-fold enhancement varies across the parameter space and under different assumptions about cell and AMC geometry.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Phylogenetic support for HGT and ancestral state
+  - **Claim pointer** The authors claim that AMC operons were acquired by HGT from Myxococcota and that ancestral state reconstruction traces both AMC genes and oxygen-adaptation proteins to the last Hodarchaeales common ancestor (LHoCA).
+  - **Evidence pointer** Results section "Horizontal transfer of Hodarchaeales AMC operons from a deep-branching lineage of uncultured Myxococcota bacteria"; Figure 2; Supplementary Fig. 2-11
+  - **Concern** The phylogenetic evidence for HGT relies on the clustering of Hodarchaeales AMC sequences with Myxococcota sequences. However, the support values for the key nodes are not reported in the provided text. The ancestral state reconstruction yields a probability of 0.29 for AMC presence at LHoCA, which is below the conventional threshold of 0.3 used to infer gene presence. The authors interpret this as suggestive but the statistical support is weak. The dating estimates based on GTDB RED values are indirect and have substantial uncertainty that is not quantified.
+  - **Why it matters** The evolutionary scenario proposed depends on the timing and mode of AMC acquisition. If the HGT event cannot be robustly supported or dated, the connection to eukaryogenesis becomes more speculative.
+  - **Resolution test** Report support values for key phylogenetic nodes. Discuss the implications of the 0.29 ancestral state probability. Provide confidence intervals for the RED-based dating estimates and discuss alternative scenarios.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Speculative link to eukaryogenesis
+  - **Claim pointer** The authors propose that AMCs could have fuelled eukaryogenesis by providing enhanced energy production.
+  - **Evidence pointer** Discussion section; Figure 6
+  - **Concern** The connection between AMCs and eukaryogenesis is presented as a plausible scenario but is not directly tested. The authors propose two alternative scenarios for symbiosis establishment but do not provide evidence to distinguish between them. The claim that AMCs "might have primed the archaeal host for eukaryogenesis" is speculative. The manuscript would benefit from a more careful framing of this as a hypothesis rather than a conclusion.
+  - **Why it matters** The title and abstract emphasize the eukaryogenesis connection, which is the most broadly interesting aspect of the work. If this connection is presented too strongly without direct evidence, it may overstate the findings.
+  - **Resolution test** Reframe the eukaryogenesis connection as a hypothesis with clearly stated testable predictions. Discuss alternative explanations for the observed AMC distribution and function. Consider whether the AMCs could have other roles unrelated to eukaryogenesis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract; Introduction paragraphs 1-2
+  - **Issue** The abstract is dense and uses specialized terminology without definition. The introduction could better contextualize the significance of finding microcompartments in archaea for a broader readership.
+  - **Required correction** Define key terms (e.g., microcompartment, metabolosome) in the abstract. Add a sentence in the introduction explaining why the absence of microcompartments in archaea was previously notable.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** In vitro assembly experiments
+  - **Evidence pointer** Methods "Protein expression and purification"; "In Vitro assembly and purification"
+  - **Issue** The methods for in vitro assembly are described but lack some critical details, such as the protein concentrations used, buffer conditions for assembly, and how the stoichiometric ratio was determined. The screening process for assembly conditions is described only briefly.
+  - **Required correction** Provide full details of the assembly buffer composition, protein concentrations, incubation times, and the criteria used to judge successful assembly. Describe the screening process more completely.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Size distribution of assembled shells
+  - **Evidence pointer** Figure 4b-c; Supplementary Fig. 17
+  - **Issue** The size distribution of assembled shells is reported as fitting a Gaussian function, but the number of particles measured, the goodness of fit, and the standard deviation are not reported in the provided text.
+  - **Required correction** Report the number of particles measured, the fit parameters, and the goodness of fit statistic.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The distribution of microcompartment gene clusters across archaeal lineages is shown in a phylogenetic context, but the figure is not described in sufficient detail in the text to allow readers to interpret it without extensive cross-referencing.
+  - **Required correction** Add a more detailed figure legend explaining the key features of the figure, including how to interpret the presence/absence patterns and the color coding.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The terms "AMC" and "microcompartment" are used somewhat interchangeably. The distinction between AMCs and bacterial microcompartments (BMCs) could be clarified.
+  - **Required correction** Define AMC explicitly as the archaeal counterpart of BMC and use the terms consistently throughout.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (in vitro assembly evidence), R1-M2 (in vivo assembly evidence), R1-M3 (mathematical model validation)
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The discovery of microcompartments in archaea is novel and would represent a significant advance in our understanding of prokaryotic cellular organization.
+  - Scientific importance: High if the claims are substantiated. The proposed link to eukaryogenesis addresses a fundamental question in evolutionary biology.
+  - Interdisciplinary readership: Moderate. The work bridges microbiology, evolutionary biology, biochemistry, and biophysics, but the presentation is heavily specialized and may not be accessible to a broad readership without revision.
+  - Technical soundness: Currently insufficient. The key experimental and modelling claims are not fully supported by the evidence presented in the provided material.
+  - Readability for nonspecialists: Needs improvement. The abstract and introduction assume significant background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a significant question and the discovery claim is potentially important, but the technical evidence for shell assembly, both in vitro and in vivo, and the mathematical modelling require substantial additional support. The eukaryogenesis connection is speculative and should be reframed as a hypothesis. I would be supportive if the technical concerns are resolved with additional experimental data and a more rigorous presentation of the modelling.
+
+## Risk / unsupported claims
+- The claim that AMCs increase NADH flux approximately 100-fold is not fully supported because the model is not completely described and validated in the provided material.
+- The claim that AMC operons were present in the last Hodarchaeales common ancestor is weakly supported (probability 0.29, below the conventional threshold).
+- The claim that AMCs "could have fuelled eukaryogenesis" is speculative and not directly tested.
+- The claim that IDR-mediated DNA binding facilitates nutrient scavenging is plausible but not directly demonstrated in a functional assay.
+- The claim that the AMC shell is "formed by AMC-H and AMC-Ts proteins, forming hexagonal facets" is inferred from structural predictions and sequence similarity to BMCs, not directly demonstrated.
+- The evolutionary scenario proposing initial acquisition of type II AMC followed by evolution into type I is presented as "parsimonious" but is not rigorously tested against alternative scenarios.

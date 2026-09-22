@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose SAMAffinity, a sequence-based deep learning model that predicts mutation-induced changes in protein-protein binding affinity (ΔΔG). The model integrates multi-source sequence features with two modules, Mutation-Site Identification (MSI) and Binding-Interface Awareness (BIA). Reported benchmark results claim substantial improvements over existing sequence-based and structure-based methods across four datasets under two data splitting strategies. The authors further claim that the model's predicted distribution aligns with natural amino-acid mutation tendencies and that the model generalizes to SARS-CoV-2 cases, suggesting utility in therapeutic antibody design.
+- **Visible evidence base** Abstract text only; no quantitative details beyond percentage improvements, no dataset descriptions, no model architecture specifications, no statistical significance measures, no figures or tables
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset definitions, baseline implementation details, hyperparameter settings, evaluation protocols, error bars or confidence intervals, case study details for SARS-CoV-2, and any code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to the field of protein-protein binding affinity prediction, addressing a relevant problem with a sequence-based approach that avoids structural input requirements. The reported performance gains are notable, but the abstract lacks sufficient methodological detail and statistical context to evaluate the robustness of these claims. The claims regarding biological interpretability and generalization to SARS-CoV-2 are intriguing but currently unsupported by the evidence provided. The work may be of interest to computational biologists and protein engineers, but the case is not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists working on protein-protein interaction prediction, machine learning researchers developing models for biomolecular property prediction, and experimentalists in antibody engineering or protein design who need rapid affinity change estimates without structural data. The sequence-only approach could appeal to those working on systems where structures are unavailable.
+- **Major strengths** The problem is well-motivated and practically relevant. The sequence-aware design with dedicated modules for mutation-site and binding-interface awareness is conceptually reasonable. The reported improvements over both sequence-based and structure-based baselines across multiple datasets and splitting strategies suggest a robust evaluation framework. The claim of capturing natural mutation tendencies adds an interpretability dimension that goes beyond raw accuracy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model outperforms state-of-the-art methods by 33.3%, 72.3%, 31.8%, and 30.5% on S1131, S4169, S645, and M1101 datasets under mutation-level splitting, and by 22.9%, 22.7%, 5.0%, and 11.4% under complex-level splitting.
+  - **Evidence pointer** Abstract, benchmark results section (location not provided)
+  - **Concern** The percentage improvements are reported without any measure of variance, statistical significance, or absolute performance values. It is unclear whether these improvements are consistent across multiple runs, whether they reflect mean or median performance, and whether the differences are statistically meaningful given typical variability in deep learning models on small protein datasets.
+  - **Why it matters** Without error bars, confidence intervals, or significance tests, the reported improvements could be within run-to-run noise, particularly for datasets of limited size. The unusually large improvement on S4169 (72.3%) raises questions about baseline implementation or dataset leakage.
+  - **Resolution test** Provide mean and standard deviation across multiple independent runs, report absolute ΔΔG metrics (e.g., Pearson correlation, RMSE) alongside percentage improvements, and include statistical significance tests comparing SAMAffinity to each baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** SAMAffinity predicts mutation-induced ΔΔG by integrating multi-source sequence features, leveraging a Mutation-Site Identification (MSI) module and a Binding-Interface Awareness (BIA) module.
+  - **Evidence pointer** Abstract, model description (location not provided)
+  - **Concern** The abstract provides no details on what "multi-source sequence features" means, how the MSI and BIA modules are implemented, what input representations are used, or how the model is trained. Without this information, the architecture cannot be reproduced or evaluated for novelty against existing sequence-based methods.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. The lack of architectural and training details prevents independent verification and limits the community's ability to build on this work.
+  - **Resolution test** Include a full methods description with model architecture, feature definitions, training procedure, hyperparameters, and code availability in the manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The strong consistency between the model's predicted distribution and natural amino-acid mutation tendencies indicates that SAMAffinity effectively captures the underlying mutational landscape shaped by intrinsic biochemical and evolutionary factors.
+  - **Evidence pointer** Abstract, interpretability claim (location not provided)
+  - **Concern** The abstract asserts a "strong consistency" between predicted and natural mutation distributions but provides no quantitative measure, no comparison baseline, and no description of what "natural amino-acid mutation tendencies" refers to. It is unclear whether this consistency is a designed property of the model or an emergent behavior, and whether it is statistically distinguishable from a null model.
+  - **Why it matters** This claim is presented as evidence of biological insight, but without a defined metric, a null hypothesis, or a comparison to alternative models, it cannot be evaluated. Overclaiming interpretability without rigorous support weakens the manuscript's credibility.
+  - **Resolution test** Define the specific distribution comparison performed, report a quantitative similarity metric with statistical significance, and compare against a null model or a baseline predictor to demonstrate that the consistency is specific to SAMAffinity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalization
+  - **Claim pointer** SAMAffinity demonstrated strong generalization in a study of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) cases, suggesting its potential for optimizing therapeutic antibody design.
+  - **Evidence pointer** Abstract, case study (location not provided)
+  - **Concern** The SARS-CoV-2 case study is mentioned without any details on the number of cases, the specific mutations studied, the comparison to experimental measurements, or the criteria for "strong generalization." No quantitative results are provided.
+  - **Why it matters** The claim of practical utility in therapeutic antibody design is a significant extension of the model's value proposition. Without concrete results, this claim is unverifiable and may overstate the model's readiness for real-world application.
+  - **Resolution test** Provide a detailed case study with specific mutations, experimental or clinical comparisons, quantitative performance metrics, and a clear statement of what "strong generalization" means in this context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Dataset naming
+  - **Evidence pointer** Abstract, benchmark results (location not provided)
+  - **Issue** The datasets S1131, S4169, S645, and M1101 are referenced by identifiers that may not be familiar to all readers. No context is given for their origin, size, or composition.
+  - **Required correction** Briefly describe each dataset, including the number of mutations, the number of complexes, and the source publication or database.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Mutation-level" and "complex-level" splitting strategies
+  - **Evidence pointer** Abstract, evaluation strategy (location not provided)
+  - **Issue** The distinction between mutation-level and complex-level data splitting is not explained. Readers may not understand the implications of each strategy for model evaluation.
+  - **Required correction** Define both splitting strategies and explain why they represent different generalization challenges.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline selection
+  - **Evidence pointer** Abstract, comparison methods (location not provided)
+  - **Issue** Only two baselines are mentioned, AttABseq and MpbPPI. It is unclear whether these are the most competitive current methods and whether other recent approaches were considered.
+  - **Required correction** Justify the choice of baselines and, if applicable, mention additional comparisons in the full manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** "Multi-source sequence features"
+  - **Evidence pointer** Abstract, model description (location not provided)
+  - **Issue** The term "multi-source" is vague and could refer to multiple sequence alignments, evolutionary features, physicochemical properties, or other representations.
+  - **Required correction** Specify the types of sequence features used and how they are derived.
+
+## Risk / unsupported claims
+- The claim of outperforming state-of-the-art methods by specific percentages is unsupported without absolute metrics, variance measures, or significance tests.
+- The claim of capturing the "underlying mutational landscape" is unsupported without a defined comparison metric or null model.
+- The claim of "strong generalization" in SARS-CoV-2 cases is unsupported without quantitative case study results.
+- The overall model architecture and its novelty relative to existing sequence-based methods cannot be assessed from the abstract alone.
+- The practical utility for therapeutic antibody design is speculative given the lack of case study details.

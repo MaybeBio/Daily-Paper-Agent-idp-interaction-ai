@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, data analysis, database utility, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors present Localizatome, a database capturing stress-dependent subcellular localization changes of 10,287 fluorescent protein-fused human proteins in HeLa cells before and after oxidative stress induced by arsenic trioxide. They report 1,910 proteins with enhanced foci formation, identify sequence motifs and intrinsically disordered regions associated with these changes, and provide open web access to the data.
+- **Visible evidence base** Abstract, Introduction, Materials and methods, Results, Discussion (Future directions, Limitations), Conclusion, Data availability, Funding, and references to Supplemental Figures and Tables (not provided in the supplied material)
+- **Missing materials affecting confidence** Supplemental Figures 1 and 2, Supplemental Table 1, the actual database interface and its contents, raw image data, machine learning algorithm details and validation metrics, and the full list of 1,910 proteins with enhanced foci formation
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially valuable resource for the cell biology community, addressing a genuine gap in existing protein localization databases by focusing on stress-induced dynamics. The scale of the dataset (10,287 proteins) and the use of live-cell imaging with machine learning analysis are commendable. However, the current manuscript lacks sufficient technical detail and validation to fully establish the reliability of the reported findings. Key concerns include the absence of experimental replicates, limited validation of the machine learning approach, incomplete description of the database content and query capabilities, and insufficient statistical rigor in the motif and disorder analyses. The resource itself may be useful, but the evidence presented in this manuscript does not fully support all claims made.
+- **Who would be interested in the results, and why** Cell biologists studying stress responses, particularly oxidative stress; researchers investigating protein subcellular localization, stress granules, liquid-liquid phase separation, and intrinsically disordered regions; bioinformaticians and database developers interested in integrating localization dynamics with other omics data; and potentially clinicians studying diseases associated with oxidative stress, such as cancer and neurodegeneration.
+- **Major strengths** 1) Addresses a clear gap in existing resources by focusing on stress-dependent localization changes rather than steady-state localization. 2) Large-scale dataset covering over 10,000 human proteins with live-cell imaging. 3) Open access database with downloadable images, promoting transparency and independent verification. 4) Identification of specific proteins and pathways (e.g., Hippo signaling, stress granules) that respond to oxidative stress, providing biological insights. 5) The authors acknowledge limitations and provide access to raw data, which is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Our analysis revealed that 1,910 proteins exhibited oxidative stress-dependent localization changes, particularly forming distinct foci."
+  - **Evidence pointer** Results section, "Identification of oxidative stress-sensitive proteins"; Methods, "Image analysis and database construction"
+  - **Concern** The entire screening was performed with n=1 per gene (as stated in Methods: "For each gene (n=1)"). This means each protein was tested once, with no biological or technical replicates. The classification of 1,910 proteins as "Enhanced" relies on a single experiment per protein. Without replicates, it is impossible to distinguish genuine stress-induced changes from experimental noise, imaging artifacts, or cell-to-cell variability. The authors do not provide any statistical measure of confidence for the classification of individual proteins.
+  - **Why it matters** The core claim of the database is the identification of proteins that change localization under stress. If the underlying classification is based on single measurements without validation, the reliability of the entire dataset is questionable. Users of the database may draw incorrect conclusions about specific proteins based on potentially noisy data.
+  - **Resolution test** The authors should provide evidence of reproducibility, such as a subset of proteins tested in multiple independent experiments with concordant results. Alternatively, they should provide a statistical framework that accounts for the single measurement, such as a robust scoring method with known false discovery rates. At minimum, they should clearly state the limitation of n=1 in the main text and provide a measure of confidence for each classification.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The resulting images were analysed using a machine learning program capable of detecting protein accumulation (Foci), detecting cells, scoring the accumulation of proteins within each cell, and calculating the change in scores before and after oxidative stress [19]."
+  - **Evidence pointer** Methods, "Image analysis and database construction"; reference [19]
+  - **Concern** The machine learning algorithm is referenced to a previous publication [19], but no details are provided in this manuscript about its architecture, training data, validation performance, or specific parameters used for this dataset. The authors state that cells with extremely high expression were excluded, but do not describe how the algorithm was calibrated for this specific dataset or how the "accumulation score" is defined and calculated. The manual verification step is mentioned but not described in terms of criteria or inter-operator consistency.
+  - **Why it matters** The reliability of the database depends entirely on the accuracy of the image analysis pipeline. Without details on the algorithm's performance (e.g., precision, recall, F1 score for detecting foci), readers cannot assess the quality of the classifications. The lack of validation metrics undermines confidence in the 1,910 proteins identified as "Enhanced."
+  - **Resolution test** The authors should provide a detailed description of the machine learning algorithm, including its training and validation on this dataset. They should report performance metrics (e.g., accuracy, precision, recall) for foci detection and classification, ideally compared to manual annotation by experts. If the algorithm was previously published, they should summarize its key characteristics and any adaptations made for this study.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Subsequent characterization identified some specific amino acid motifs and intrinsically disordered regions associated with stress-induced protein redistribution."
+  - **Evidence pointer** Results, "Characterization of oxidative stress-sensitive proteins"; Figure 3; Supplemental Figure 2
+  - **Concern** The motif analysis using STREME and the disorder prediction using IUPred3 are described only briefly. The authors report that "repeats of specific amino acids... or unknown motifs, such as JHRDVKLENFLL, may be involved in accumulation" and that proteins with enhanced foci formation showed "high disordered prediction scores for repeated motifs." However, no statistical significance is reported for the enrichment of these motifs or for the difference in disorder scores between the "Enhanced" and "Unchanged" groups, except for a mention of "significantly higher values" in Supplemental Figure 2, which is not provided. The biological relevance of the identified motifs is unclear, and the authors themselves note that "further functional analyses... are needed."
+  - **Why it matters** The identification of sequence features associated with stress-induced localization changes is presented as a key finding. Without statistical rigor and functional validation, these observations remain speculative. The claim that IDRs are involved is plausible but not strongly supported by the data presented, especially given the lack of detail on how the comparison was performed and whether confounding factors (e.g., protein length, expression level) were controlled.
+  - **Resolution test** The authors should provide statistical measures for the motif enrichment (e.g., E-values from STREME) and for the comparison of disorder scores between groups (e.g., p-values, effect sizes). They should also clarify whether the analysis controlled for potential confounders. Ideally, they would validate a subset of the identified motifs or IDR-containing proteins experimentally to demonstrate functional relevance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The Localizatome provides open access to these data through a web-based interface, supporting a wide range of studies on cellular stress response and disease mechanisms."
+  - **Evidence pointer** Abstract; Data availability; Database URL
+  - **Concern** The manuscript describes the database but does not provide any information about its content, structure, or usability beyond stating that images and data can be viewed and downloaded. There is no description of the search functionality, data fields, export options, or how users can query the database (e.g., by gene name, protein ID, localization category). The database URL is provided, but the manuscript does not include any screenshots or examples of the interface. The authors also state that "all original images can be viewed and downloaded" but later note that these are "downsized versions optimized for web browsing," with original high-resolution data available "upon reasonable request," which may limit the utility for independent analysis.
+  - **Why it matters** A database paper should provide sufficient information for readers to understand and use the resource. The lack of detail on the database's features and content makes it difficult to assess its value and utility. The discrepancy between "all original images" and "downsized versions" is confusing and may affect the ability of users to perform their own analyses.
+  - **Resolution test** The authors should provide a detailed description of the database schema, search capabilities, and data fields. They should include examples of how to query the database and what results are returned. They should clarify the image resolution issue and specify what exactly is available for download versus upon request. Ideally, they would provide a figure showing the web interface and its key features.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction is brief and does not provide sufficient context for readers unfamiliar with the field. The concept of "localizatome" is introduced without a clear definition, and the distinction between steady-state and stress-dependent localization is not fully elaborated.
+  - **Required correction** Expand the introduction to define "localizatome" and provide more background on why stress-dependent localization changes are important. Consider adding a brief overview of existing databases and their limitations to better frame the novelty of this work.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Cell culture and transfection"
+  - **Evidence pointer** Methods, "Cell culture and transfection"
+  - **Issue** The authors state "No specific controls for transfection efficiency were included in this study." This is a notable omission, as variable transfection efficiency could affect the interpretation of localization changes, particularly for proteins with low expression.
+  - **Required correction** Acknowledge this limitation in the main text and discuss its potential impact on the results. If possible, provide some evidence that transfection efficiency was consistent across experiments, or suggest how users should interpret data for proteins with low expression levels.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Fluorescent protein fusion human gene library"
+  - **Evidence pointer** Methods, "Fluorescent protein fusion human gene library"
+  - **Issue** The authors state that for genes with multiple splice variants, they chose the longest variant. This is a reasonable approach, but it may not represent the most biologically relevant isoform in HeLa cells. The authors acknowledge this but do not discuss the potential consequences for the interpretation of localization data.
+  - **Required correction** Briefly discuss the potential limitations of using the longest isoform and how this might affect the generalizability of the findings. Consider adding a note in the database about which isoform was used for each gene.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Characterization of oxidative stress-sensitive proteins"
+  - **Evidence pointer** Results, "Characterization of oxidative stress-sensitive proteins"; Figure 3
+  - **Issue** The description of the motif analysis is difficult to follow. The authors mention "unknown motifs, such as JHRDVKLENFLL" without explaining what "unknown" means in this context or how these motifs were identified. The connection between the motifs and IDRs is not clearly articulated.
+  - **Required correction** Clarify the motif discovery process and define what constitutes an "unknown" motif. Explain how the identified motifs relate to IDRs and why this connection is biologically meaningful. Consider providing a more detailed figure legend for Figure 3.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Immunocytochemistry"
+  - **Evidence pointer** Methods, "Immunocytochemistry"
+  - **Issue** The immunocytochemistry section describes validation of stress granules using anti-G3BP1 and anti-TIAR antibodies, but it is unclear how this validation was used. Was it applied to all 10,287 proteins or only a subset? The connection between this validation and the main screening is not explicit.
+  - **Required correction** Clarify the role of immunocytochemistry in the overall workflow. Specify whether it was used for assay validation, for confirming specific hits, or for other purposes, and describe how the results informed the main analysis.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion
+  - **Issue** The conclusion mentions integrating Localizatome data with "existing gene expression and proteomics databases" but does not provide any examples or guidance on how this integration might be achieved. This is a missed opportunity to demonstrate the broader utility of the resource.
+  - **Required correction** Provide specific examples of how Localizatome data could be combined with other data types (e.g., transcriptomics, proteomics) to generate new hypotheses. Consider adding a brief "use cases" section or examples in the database documentation.
+
+## Risk / unsupported claims
+- The claim that 1,910 proteins exhibit oxidative stress-dependent localization changes is based on single measurements (n=1) without replicates, making the classification statistically unsupported.
+- The claim that specific amino acid motifs and intrinsically disordered regions are associated with stress-induced protein redistribution is not supported by reported statistical significance or functional validation.
+- The claim that the database provides "reliable data" on 8,055 proteins is not substantiated, as no quality metrics or validation statistics are provided.
+- The claim that the machine learning program accurately detects and scores protein accumulation is not verifiable from the manuscript, as no performance metrics are reported.
+- The utility and accessibility of the database cannot be fully assessed from the manuscript, as no description of the web interface, search functionality, or data export options is provided.
+- The statement that "all original images can be viewed and downloaded" is contradicted by the later statement that only "downsized versions" are available, creating ambiguity about data accessibility.

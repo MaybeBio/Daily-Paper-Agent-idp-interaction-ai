@@ -1,0 +1,309 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.04.13.589337",
+  "title": "Multi-scale Simulations of MUT-16 Scaffold Protein Phase Separation and Client Recognition",
+  "doi": "10.1101/2024.04.13.589337",
+  "abstract": "Phase separation of proteins plays a critical role in cellular organisation. How phase separated protein condensates underpin biological function and how condensates achieve specificity remain elusive. We investigated the phase separation of MUT-16, a scaffold protein in Mutator foci , and its role in recruiting the client protein MUT-8, a key component in RNA silencing in C. elegans . We employed a multiscale approach that combined coarse-grained (residue-level CALVADOS2 and near-atomistic Martini3) and atomistic simulations. Simulations across different resolutions provide a consistent perspective on how MUT-16 condensates recruit MUT-8, enabling the fine-tuning of chemical details while balancing the computational cost. Both coarse-grained models (CALVADOS2 and Martini3) predicted the relative phase separation propensities of MUT-16’s disordered regions, which we confirmed through in vitro experiments. Simulations also identified key sequence features and residues driving phase separation while revealing differences in residue interaction propensities between CALVADOS2 and Martini3. Furthermore, Martini3 and 350 µs atomistic simulations on Folding@Home of MUT-8’s N-terminal prion-like domain with MUT-16 M8BR cluster highlighted the importance of cation- π interactions between Tyr residues of MUT-8 and Arg residues of MUT-16 M8BR. Lys residues were observed to be more prone to interact in Martini3. Atomistic simulations revealed that the guanidinium group of Arg also engages in sp 2 - π interactions and hydrogen bonds with the backbone of Tyr, making Arg-Tyr interactions stronger than Lys-Tyr, where these additional favourable contacts are absent. In agreement with our simulations, in vitro co-expression pulldown experiments demonstrated a progressive loss of MUT-8 recruitment following the mutation of Arg in MUT-16 M8BR to Lys or Ala, confirming the critical role of Arg in this interaction. These findings advance our understanding of MUT-16 phase separation and subsequent MUT-8 recruitment, key processes in assembling Mutator foci that drive RNA silencing in C. elegans . <h4>Statement of Significance</h4> In cells proteins phase separate and form condensates. These protein condensates can play important role in bringing molecules together and facilitate biochemical processes. In this work, we used molecular dynamics simulations to understand how MUT-16 phase separates and forms the scaffold of the so-called Mutator focus . Mutator foci produce small RNA which help to regulates genes. As the scaffold of the Mutator focus , MUT-16 recruit multiple proteins which are important for the production of such small RNAs.",
+  "authors": [
+    "Gaurav K",
+    "Busetto V",
+    "Páez-Moscoso DJ",
+    "Changiarath A",
+    "Hanson SM",
+    "Falk S",
+    "Ketting RF",
+    "Stelzl LS"
+  ],
+  "published_date": "2024-04-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.04.13.589337",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.04.13.589337.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR838071",
+    "raw_record": {
+      "id": "PPR838071",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR838071"
+        ]
+      },
+      "doi": "10.1101/2024.04.13.589337",
+      "title": "Multi-scale Simulations of MUT-16 Scaffold Protein Phase Separation and Client Recognition",
+      "authorString": "Gaurav K, Busetto V, Páez-Moscoso DJ, Changiarath A, Hanson SM, Falk S, Ketting RF, Stelzl LS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gaurav K",
+            "lastName": "Gaurav",
+            "firstName": "Kumar",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Physiology, ,"
+                },
+                {
+                  "affiliation": ","
+                },
+                {
+                  "affiliation": "KOMET1, Institute of Physics, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Busetto V",
+            "lastName": "Busetto",
+            "firstName": "Virginia",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", Center for Molecular Biology, Department of Structural and Computational Biology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Páez-Moscoso DJ",
+            "lastName": "Páez-Moscoso",
+            "firstName": "Diego Javier",
+            "initials": "DJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Changiarath A",
+            "lastName": "Changiarath",
+            "firstName": "Arya",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-4287-6953"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "KOMET1, Institute of Physics, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hanson SM",
+            "lastName": "Hanson",
+            "firstName": "Sonya",
+            "initials": "SM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8960-5353"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Center for Computational Biology & Center for Computational Mathematics, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Falk S",
+            "lastName": "Falk",
+            "firstName": "Sebastian",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7848-4621"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", Center for Molecular Biology, Department of Structural and Computational Biology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ketting RF",
+            "lastName": "Ketting",
+            "firstName": "René",
+            "initials": "RF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6161-5621"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stelzl LS",
+            "lastName": "Stelzl",
+            "firstName": "Lukas",
+            "initials": "LS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5348-0277"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Physiology, ,"
+                },
+                {
+                  "affiliation": ","
+                },
+                {
+                  "affiliation": "KOMET1, Institute of Physics, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6161-5621"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7848-4621"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8960-5353"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5348-0277"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0386-4528"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0005-4287-6953"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Phase separation of proteins plays a critical role in cellular organisation. How phase separated protein condensates underpin biological function and how condensates achieve specificity remain elusive. We investigated the phase separation of MUT-16, a scaffold protein in  Mutator foci , and its role in recruiting the client protein MUT-8, a key component in RNA silencing in  C. elegans . We employed a multiscale approach that combined coarse-grained (residue-level CALVADOS2 and near-atomistic Martini3) and atomistic simulations. Simulations across different resolutions provide a consistent perspective on how MUT-16 condensates recruit MUT-8, enabling the fine-tuning of chemical details while balancing the computational cost. Both coarse-grained models (CALVADOS2 and Martini3) predicted the relative phase separation propensities of MUT-16’s disordered regions, which we confirmed through  in vitro experiments. Simulations also identified key sequence features and residues driving phase separation while revealing differences in residue interaction propensities between CALVADOS2 and Martini3. Furthermore, Martini3 and 350 µs atomistic simulations on Folding@Home of MUT-8’s N-terminal prion-like domain with MUT-16 M8BR cluster highlighted the importance of cation-  π interactions between Tyr residues of MUT-8 and Arg residues of MUT-16 M8BR. Lys residues were observed to be more prone to interact in Martini3. Atomistic simulations revealed that the guanidinium group of Arg also engages in sp  2 -  π interactions and hydrogen bonds with the backbone of Tyr, making Arg-Tyr interactions stronger than Lys-Tyr, where these additional favourable contacts are absent. In agreement with our simulations,  in vitro co-expression pulldown experiments demonstrated a progressive loss of MUT-8 recruitment following the mutation of Arg in MUT-16 M8BR to Lys or Ala, confirming the critical role of Arg in this interaction. These findings advance our understanding of MUT-16 phase separation and subsequent MUT-8 recruitment, key processes in assembling  Mutator foci that drive RNA silencing in  C. elegans .  <h4>Statement of Significance</h4>  In cells proteins phase separate and form condensates. These protein condensates can play important role in bringing molecules together and facilitate biochemical processes. In this work, we used molecular dynamics simulations to understand how MUT-16 phase separates and forms the scaffold of the so-called  Mutator focus .  Mutator foci produce small RNA which help to regulates genes. As the scaffold of the  Mutator focus , MUT-16 recruit multiple proteins which are important for the production of such small RNAs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/15/2024.04.13.589337.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.04.13.589337"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR838071"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR838071&type=FILE&fileName=EMS195545-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40781776",
+            "reference": "Biophysical journal. 2025 Nov;124(22):3987-4004",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS195545",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "alphafold",
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-04-18",
+      "firstPublicationDate": "2024-04-15",
+      "firstIndexDate": "2024-04-18",
+      "fullTextReceivedDate": "2025-03-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

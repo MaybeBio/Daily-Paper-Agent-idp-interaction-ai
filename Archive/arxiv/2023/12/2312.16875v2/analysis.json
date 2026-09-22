@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2312.16875v2",
+  "title": "Cellular forgetting, desensitisation, stress and aging in signalling networks. When do cells refuse to learn more?",
+  "authors": "Tamas Veres; Mark Kerestely; Borbala M. Kovacs; David Keresztes; Klara Schulc; Erik Seitz; Zsolt Vassy; Daniel V. Veres; Peter Csermely",
+  "journal": "Cellular and Molecular Life Sciences (2024) 81,97",
+  "published_date": "2023-12-28",
+  "window": {
+    "start": "2023-12-25",
+    "end": "2023-12-31"
+  },
+  "score": 6,
+  "one_liner_zh": "综述非神经元细胞通过IDP构象记忆等机制形成信号网络学习与脱敏的Hebbian/anti-Hebbian模型，涉及IDP介导的互作强化但缺乏具体PPI机制建模或AI/物理模拟方法。",
+  "abstract": "Recent findings show that single, non-neuronal cells are also able to learn signalling responses developing cellular memory. In cellular learning nodes of signalling networks strengthen their interactions e.g. by the conformational memory of intrinsically disordered proteins, protein translocation, miRNAs, lncRNAs, chromatin memory and signalling cascades. This can be described by a generalized, unicellular Hebbian learning process, where those signalling connections, which participate in learning, become stronger. Here we review those scenarios, where cellular signalling is not only repeated in a few times (when learning occurs), but becomes too frequent, too large, or too complex and overloads the cell. This leads to desensitisation of signalling networks by decoupling signalling components, receptor internalization, and consequent downregulation. These molecular processes are examples of anti-Hebbian learning and forgetting of signalling networks. Stress can be perceived as signalling overload inducing the desensitisation of signalling pathways. Aging occurs by the summative effects of cumulative stress downregulating signalling. We propose that cellular learning desensitisation, stress and aging may be placed along the same axis of more and more intensive (prolonged or repeated) signalling. We discuss how cells might discriminate between repeated and unexpected signals, and highlight the Hebbian and anti-Hebbian mechanisms behind the fold-change detection in the NF-\\k{appa}B signalling pathway. We list drug design methods using Hebbian learning (such as chemically-induced proximity) and clinical treatment modalities inducing (cancer, drug allergies) desensitisation or avoiding drug-induced desensitisation. A better discrimination between cellular learning, desensitisation and stress may open novel directions in drug design, e.g., helping to overcome drug-resistance.",
+  "abstract_zh": "近期研究显示，单个非神经细胞也能通过学习信号响应发展出细胞记忆，从而形成细胞记忆。在细胞学习中，信号网络节点通过构象记忆（如固有无序蛋白）、蛋白质转位、miRNA、lncRNA、染色质记忆及信号级联反应等方式增强其相互作用。这可通过广义的单细胞Hebbian学习过程来描述，其中参与学习的信号连接会变得更强。在此，我们回顾了那些细胞信号不仅重复数次（即学习发生时），而是变得过于频繁、过于庞大或过于复杂，从而超负荷细胞的情景。这导致信号网络通过解耦信号组分、受体内化及随后的下调而脱敏。这些分子过程是信号网络反Hebbian学习与遗忘的实例。压力可被视为信号过载，诱导信号通路脱敏。衰老则因累积压力的总和效应下调信号而发生。我们提出，细胞学习脱敏、压力与衰老可能沿同一轴排列，即信号强度（延长或重复）逐渐增强。我们讨论了细胞如何区分重复信号与意外信号，并强调了NF-κB信号通路中倍数变化检测背后的Hebbian与反Hebbian机制。我们列出了利用Hebbian学习（如化学诱导邻近性）的药物设计方法，以及诱导（癌症、药物过敏）脱敏或避免药物诱导脱敏的临床治疗模式。更好地区分细胞学习、脱敏与压力可能为药物设计开辟新方向，例如帮助克服药物耐药性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2312.16875v2",
+  "source_url": "https://arxiv.org/abs/2312.16875v2",
+  "paper_page_path": "papers/arxiv/2312.16875v2/index.html"
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and figure/table references.
+- **Assessment boundary** Scientific validity, technical soundness, interpretation of results, and alignment with stated claims. No assessment of editorial or formatting issues beyond those affecting clarity.
+- **Shared manuscript claim summary** The authors propose that an intramolecular interaction between the p53 transactivation domain 2 (TAD2) and the DNA binding domain (DBD) inhibits DNA binding, and that this autoinhibition is mediated by both acidic and nonpolar residues in TAD2. They use alanine substitution mutants, fluorescence anisotropy, counterion condensation theory, and size exclusion chromatography to characterize the interaction and its effects on DNA binding affinity and ion release.
+- **Visible evidence base** Full text with figures and tables referenced but not provided; supplementary tables and figures referenced but not provided; methods described in detail.
+- **Missing materials affecting confidence** Figures 1–8, Tables 1–3, Supplementary Tables S1–S5, and Supplementary Figures S1–S5 are referenced but not included in the provided material. This limits independent verification of data quality, curve fits, and statistical analyses.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in p53 biology, namely the mechanism of autoinhibition of DNA binding by an intramolecular TAD2-DBD interaction. The experimental design is logical, and the use of multiple mutants and salt-dependent binding assays is appropriate. However, the absence of the actual figures and tables prevents full evaluation of data quality and fit. The interpretation of counterion condensation results is thoughtful but may overreach in attributing specific mechanistic roles to individual residue types. The claim that the mutants disrupt autoinhibition without changing global structure is supported by SEC data, but the resolution and statistical power of this analysis are not fully assessable. Overall, the study is a useful contribution but requires careful revision to strengthen quantitative claims and clarify the interpretation of salt-dependent effects.
+- **Who would be interested in the results, and why** Researchers studying p53 regulation, intrinsically disordered proteins, and protein-DNA interactions. The work is also relevant to those interested in the biophysical basis of autoinhibition in transcription factors and the role of disordered regions in modulating DNA binding specificity and affinity.
+- **Major strengths** The study uses a well-defined fragment system to isolate the TAD2-DBD interaction. The combination of targeted mutations, salt-dependent binding assays, and SEC provides complementary evidence. The discussion of counterion condensation theory is nuanced and acknowledges limitations. The comparison with prior work on p53 and other IDR-containing transcription factors is useful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that the ΔΔG values for ND DE and ND NP relative to ND WT are −1.99 and −1.89 kcal/mol, respectively, and that these values indicate cooperation between acidic and nonpolar residues.
+  - **Evidence pointer** Table 1, Figure 3, location not provided
+  - **Concern** The ΔΔG values are derived from KD measurements at a single ionic strength (145 mM). The error bars on these values are not reported in the text, and the fitting errors in Table S2 are not provided. Without confidence intervals or replicate information, it is unclear whether the differences between ND DE and ND NP are statistically significant. The claim of cooperation requires a quantitative comparison that is not currently supported.
+  - **Why it matters** The central conclusion that acidic and nonpolar residues cooperate to inhibit DNA binding depends on the reliability and precision of these ΔΔG values. If the differences are within experimental error, the conclusion is not justified.
+  - **Resolution test** Provide KD values with standard errors or confidence intervals for each mutant at 145 mM, and perform a statistical test (e.g., t-test or ANOVA) to compare ΔΔG values across mutants. If the differences are not significant, revise the interpretation accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation
+  - **Claim pointer** The authors state that the smaller excess ion release for ND WT compared to DBD when binding consensus DNA indicates that TAD2 reduces the need for ionic interactions between DBD and DNA.
+  - **Evidence pointer** Section 3.4, Table 2, Figures 5 and 6, location not provided
+  - **Concern** The interpretation assumes that the difference in slope of log(KA) versus log[Salt] directly reflects the number of ionic contacts made by DBD with DNA. However, the counterion condensation model is an approximation, and the authors themselves note that salt-dependent effects may include non-entropic contributions. The claim that TAD2 "reduces the need for ionic interactions" is speculative and not directly tested. Alternative explanations, such as conformational changes in DBD or competition for DNA binding, are not excluded.
+  - **Why it matters** The mechanistic conclusion about how TAD2 inhibits DNA binding is a key finding. If the interpretation is not well supported, the significance of the study is diminished.
+  - **Resolution test** Perform additional experiments to directly test the proposed mechanism, such as mutagenesis of positively charged residues in the DBD DNA-binding pocket, or use a different method (e.g., isothermal titration calorimetry at multiple salt concentrations) to separate entropic and enthalpic contributions. Alternatively, temper the interpretation to acknowledge alternative explanations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SEC shows the mutants disrupt autoinhibition without changing the global structure, based on similar Stokes radii.
+  - **Evidence pointer** Section 3.5, Figure 8, Table 3, location not provided
+  - **Concern** SEC is a low-resolution technique, and the difference in elution volume between ND WT and the mutants is described as "small" but larger than the resolution error. The authors do not report the actual Stokes radii for the mutants in the text, only for ND WT and DBD. Without these values, it is difficult to assess whether the differences are biologically meaningful. Additionally, SEC at high ionic strength (410 mM) may not reflect the conformation at physiological conditions.
+  - **Why it matters** The claim that the mutants do not alter global structure is used to support the specificity of the mutations for disrupting the TAD2-DBD interaction. If the structure is altered, the interpretation of the binding data could be confounded.
+  - **Resolution test** Report the Stokes radii for all mutants with errors, and consider performing a complementary technique (e.g., small-angle X-ray scattering or NMR) to confirm structural similarity. If the differences are within error, state this explicitly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that ΔΔG increased to −1.03 kcal/mol for ND DE and −1.13 kcal/mol for ND NP, but the text in Section 3.2 reports −1.99 and −1.89 kcal/mol relative to ND WT. The abstract values appear to be relative to DBD, not ND WT. This inconsistency is confusing.
+  - **Required correction** Clarify in the abstract that the ΔΔG values are relative to DBD, and ensure consistency with the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, Section 2.4
+  - **Evidence pointer** Section 2.4, location not provided
+  - **Issue** The authors state that the double log plot is linear in the 125–225 mM range, but they do not provide the criteria used to determine linearity. This is important because the slope is used to estimate ion release.
+  - **Required correction** Specify the linear regression method, the R² values, and the number of data points used for each fit.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3, location not provided
+  - **Issue** The authors suggest that the ND QS mutation may do more than interfere with CBP binding, but this is speculative and not directly tested.
+  - **Required correction** Either provide evidence for this claim or remove it to avoid overinterpretation.
+- **Technical failings that need to be addressed before the case is established** The lack of error bars and statistical analysis for the key ΔΔG values (R1-M1) is a critical issue. The interpretation of counterion condensation data (R1-M2) needs to be tempered or supported by additional experiments. The SEC data (R1-M3) need to be reported in full to support the claim of structural similarity.
+- **Assessment against Nature-style criteria** Originality: The study is original in its systematic mutagenesis approach to dissect the TAD2-DBD interaction, though similar concepts have been explored in other IDR systems. Scientific importance: The findings are relevant to p53 biology and IDR function, but the mechanistic insights are incremental rather than transformative. Interdisciplinary readership: The work will appeal to biophysicists, biochemists, and cancer biologists, but the technical detail may limit broader appeal. Technical soundness: The methods are appropriate, but the lack of statistical rigor and incomplete reporting of data reduce confidence. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with counterion condensation theory and fluorescence anisotropy; a brief explanation of these methods would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study has merit, but the quantitative claims need to be strengthened with error analysis and statistical testing, and the interpretation of salt-dependent effects needs to be more cautious. If these issues are addressed, the manuscript could be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim of cooperation between acidic and nonpolar residues in TAD2 is not statistically supported without error bars and significance testing.
+- The interpretation that TAD2 reduces the need for ionic interactions between DBD and DNA is speculative and not directly tested.
+- The claim that the mutants do not change global structure is based on SEC data that are not fully reported.
+- The suggestion that ND QS may have effects beyond CBP binding is not supported by data.
+- The abstract's ΔΔG values are inconsistent with the main text and need clarification.

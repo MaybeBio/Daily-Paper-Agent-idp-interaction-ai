@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "37892124",
+    "doi": "10.3390/biom13101442",
+    "title": "The Origin of Discrepancies between Predictions and Annotations in Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Disorder prediction methods that can discriminate between ordered and disordered regions have contributed fundamentally to our understanding of the properties and prevalence of intrinsically disordered proteins (IDPs) in proteomes as well as their functional roles. However, a recent large-scale assessment of the performance of these methods indicated that there is still room for further improvements, necessitating novel approaches to understand the strengths and weaknesses of individual methods. In this study, we compared two methods, IUPred and disorder prediction, based on the pLDDT scores derived from AlphaFold2 (AF2) models. We evaluated these methods using a dataset from the DisProt database, consisting of experimentally characterized disordered regions and subsets associated with diverse experimental methods and functions. IUPred and AF2 provided consistent predictions in 79% of cases for long disordered regions; however, for 15% of these cases, they both suggested order in disagreement with annotations. These discrepancies arose primarily due to weak experimental support, the presence of intermediate states, or context-dependent behavior, such as binding-induced transitions. Furthermore, AF2 tended to predict helical regions with high pLDDT scores within disordered segments, while IUPred had limitations in identifying linker regions. These results provide valuable insights into the inherent limitations and potential biases of disorder prediction methods.",
+    "keywords": [
+      "AlphaFold2",
+      "DisProt",
+      "IUPred",
+      "disorder prediction methods",
+      "disorder to order transition",
+      "flexible linker",
+      "intrinsically disordered proteins",
+      "intrinsically disordered regions",
+      "molten globule"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/metabolism",
+      "Protein Conformation",
+      "Furylfuramide",
+      "Proteome/metabolism",
+      "Databases, Factual"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pajkos, Matyas",
+        "Erdos, Gabor",
+        "Dosztanyi, Zsuzsanna"
+      ],
+      "short_names": [
+        "Pajkos M",
+        "Erdos G",
+        "Dosztanyi Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5791-9825",
+        "ORCID: 0000-0002-3624-5937"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, ELTE Eotvos Lorand University, Pazmany Peter Stny 1/c, H-1117 Budapest, Hungary.",
+        "Department of Biochemistry, ELTE Eotvos Lorand University, Pazmany Peter Stny 1/c, H-1117 Budapest, Hungary.",
+        "Department of Biochemistry, ELTE Eotvos Lorand University, Pazmany Peter Stny 1/c, H-1117 Budapest, Hungary."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pajkos, Mátyás",
+        "short_name": "Pajkos M",
+        "identifiers": [
+          "0000-0001-5791-9825"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, ELTE Eötvös Loránd University, Pázmány Péter Stny 1/c, H-1117 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Erdős, Gábor",
+        "short_name": "Erdős G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, ELTE Eötvös Loránd University, Pázmány Péter Stny 1/c, H-1117 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Dosztányi, Zsuzsanna",
+        "short_name": "Dosztányi Z",
+        "identifiers": [
+          "0000-0002-3624-5937"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, ELTE Eötvös Loránd University, Pázmány Péter Stny 1/c, H-1117 Budapest, Hungary."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2023 Sep 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/28 11:44",
+    "fetched_at": "2026-09-21 02:18:19"
+  },
+  "links": {
+    "cites": [
+      "42424392",
+      "40595555",
+      "40131945",
+      "39940886",
+      "38916610"
+    ],
+    "refs": [
+      "37400558",
+      "37246642",
+      "37167423",
+      "36851914",
+      "36210722",
+      "35634782",
+      "35562983",
+      "35552456",
+      "35356546",
+      "35177069",
+      "35059033",
+      "34986598",
+      "34850135",
+      "34791371",
+      "34601771",
+      "34265844",
+      "34048569",
+      "33875885",
+      "32599863",
+      "31444270",
+      "30657889",
+      "29860432",
+      "28244370",
+      "27307636",
+      "25531225",
+      "24773235",
+      "23665034",
+      "23225024",
+      "23060610",
+      "19995078",
+      "19372746",
+      "18627125",
+      "16618368",
+      "12910457",
+      "12525165",
+      "12022860",
+      "11910019",
+      "11415983",
+      "11381529",
+      "9697205",
+      "9008164",
+      "6667333"
+    ],
+    "similar": [
+      "37892124",
+      "29076577",
+      "36291675",
+      "37904585",
+      "31425549",
+      "28381244",
+      "38124369",
+      "36829461",
+      "38507044",
+      "35739160",
+      "38739602",
+      "35789137",
+      "34048569",
+      "33017101",
+      "35562983",
+      "33719450",
+      "37167423",
+      "32696395",
+      "25361972",
+      "26376097",
+      "28934129",
+      "38213902",
+      "37722056",
+      "29080786",
+      "21647374",
+      "27899601",
+      "38097100",
+      "38226524",
+      "31756456",
+      "35454181",
+      "33291838",
+      "28365882",
+      "30841624",
+      "17145717",
+      "34850135",
+      "32034199",
+      "32503351",
+      "31521236",
+      "37626310",
+      "26513658",
+      "28369666",
+      "38747347",
+      "33779503",
+      "33875885",
+      "35034725",
+      "29595057",
+      "30819075",
+      "35883444",
+      "36769074",
+      "30135358",
+      "32253236",
+      "35102880",
+      "17206849",
+      "34626492",
+      "29068531",
+      "36306150",
+      "34545666",
+      "32112084",
+      "31441158",
+      "36088077",
+      "29982297",
+      "34347206",
+      "32020911",
+      "29753880",
+      "31264965",
+      "24589355",
+      "26549326",
+      "26387104",
+      "33866372",
+      "24178034",
+      "24532081",
+      "30592560",
+      "37621223",
+      "37153862",
+      "35507260",
+      "29413001",
+      "37985809",
+      "30218496",
+      "26184172",
+      "29604827",
+      "23942625",
+      "36344848",
+      "19412530",
+      "31326853",
+      "38238291",
+      "32112804",
+      "25502193",
+      "33230318",
+      "27450808",
+      "29860432",
+      "27548131",
+      "33355572",
+      "36430530",
+      "31136713",
+      "35196007",
+      "31694155",
+      "24587103",
+      "26295225",
+      "30471705",
+      "30527137",
+      "36416266",
+      "24956062",
+      "38569991",
+      "36906658",
+      "34480923",
+      "32997198",
+      "29860709",
+      "37740110",
+      "22208280",
+      "36304335",
+      "32828463",
+      "33237329",
+      "37704686",
+      "38540707",
+      "37827403",
+      "38266916",
+      "38113945",
+      "34827596",
+      "36918529",
+      "38431892",
+      "37113259",
+      "37516933",
+      "37565699",
+      "36352786",
+      "37450154",
+      "37310199",
+      "38496487",
+      "28250616",
+      "37574757",
+      "39246251",
+      "38579671",
+      "25379372",
+      "37548092",
+      "38370681",
+      "38765610",
+      "38168383",
+      "38854569",
+      "35439658",
+      "38454968",
+      "38838597"
+    ],
+    "review": [
+      "37892124",
+      "38124369",
+      "38097100",
+      "33291838",
+      "32034199",
+      "31521236",
+      "32253236",
+      "35102880",
+      "29068531",
+      "34545666",
+      "31441158",
+      "29982297",
+      "34347206",
+      "32020911",
+      "29753880",
+      "26549326",
+      "26387104",
+      "24532081",
+      "29413001",
+      "25502193",
+      "27548131",
+      "33355572",
+      "36430530",
+      "31694155",
+      "30471705",
+      "30527137",
+      "37740110",
+      "32828463",
+      "36918529"
+    ],
+    "pmc": [
+      "10604070"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom13101442",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37892124/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37892124",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

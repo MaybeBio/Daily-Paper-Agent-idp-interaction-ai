@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41265448",
+  "title": "Integrative profiling of condensation-prone RNAs during early development.",
+  "authors": "Klobucar, Tajda; Novljan, Jona; Iosub, Ira A; Kokot, Bostjan; Urbancic, Iztok; Jones, D Marc; Chakrabarti, Anob M; Luscombe, Nicholas M; Ule, Jernej; Modic, Miha",
+  "journal": "Cell genomics",
+  "published_date": "2025-11-21",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究整合转录组学与可解释深度学习，鉴定发育中易凝聚RNA(smOOPs)并揭示其序列特征及编码蛋白富含IDR，虽聚焦RNA而非直接PPI机制建模，但RNA-蛋白凝聚互作与IDR关联对本课题有启发。",
+  "abstract": "Complex RNA-protein networks play a pivotal role in the formation of many types of biomolecular condensates. How RNA features contribute to condensate formation, however, remains incompletely understood. Here, we integrate tailored transcriptomics assays to identify a distinct class of developmental condensation-prone RNAs termed \"smOOPs\" (semi-extractable, orthogonal-organic-phase-separation-enriched RNAs). These transcripts localize to larger intracellular foci, form denser RNA subnetworks than expected, and are heavily bound by RNA-binding proteins (RBPs). Using an explainable deep learning framework, we reveal that smOOPs harbor characteristic sequence composition, with lower sequence complexity, increased intramolecular folding, and specific RBP-binding patterns. Intriguingly, these RNAs encode proteins bearing extensive intrinsically disordered regions and are highly predicted to be involved in biomolecular condensates, indicating an interplay between RNA- and protein-based features in phase separation. This work advances our understanding of condensation-prone RNAs and provides a versatile resource to further investigate RNA-driven condensation principles.",
+  "abstract_zh": "复杂的RNA-蛋白质网络在许多类型的生物分子凝聚体形成中扮演关键角色。然而，RNA特征如何促进凝聚体形成仍未被完全理解。在此，我们整合定制转录组学检测，识别出一类独特的发育期易凝聚RNA，称为“smOOPs”（半可提取、正交有机相分离富集RNA）。这些转录本定位于更大的细胞内焦点，形成比预期更致密的RNA子网络，并被RNA结合蛋白（RBPs）大量结合。利用可解释的深度学习框架，我们揭示smOOPs具有特征性序列组成，包括较低的序列复杂度、增强的分子内折叠以及特定的RBP结合模式。有趣的是，这些RNA编码的蛋白质含有广泛的内在无序区域，并被高度预测参与生物分子凝聚体，表明RNA和蛋白质特征在相分离中存在相互作用。这项工作推进了我们对易凝聚RNA的理解，并提供了进一步研究RNA驱动凝聚原理的多功能资源。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41265448/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41265448/",
+  "paper_page_path": "papers/pubmed/41265448/index.html"
+}

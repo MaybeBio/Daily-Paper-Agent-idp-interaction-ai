@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41615796",
+  "title": "HRD1 negatively regulates autolysosome formation by inhibiting liquid-liquid phase separation of SNAP29.",
+  "authors": "Qu, Wenyan; Chen, Di; Zhao, Hongyu; Sheng, Qiang; Wang, Juan; Shen, Yujun; Shen, Yuxian",
+  "journal": "Cell reports",
+  "published_date": "2026-01-30",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究E3泛素连接酶HRD1通过抑制SNAP29的液-液相分离来负调控自噬溶酶体形成，涉及IDR介导的相分离与SNARE复合物组装机制，但方法上以实验为主，缺乏AI或物理模拟建模。",
+  "abstract": "Autophagy is a highly conserved cellular process in which cytoplasmic contents are sequestrated by autophagosomes and delivered to lysosomes for degradation. Generation of degradative autolysosomes mediated by SNARE proteins is essential; however, the regulatory mechanisms governing this process remain underexplored. This study aimed to demonstrate that E3 ubiquitin ligase HRD1 regulates liquid-liquid phase separation (LLPS) of SNAP29, thereby modulating SNARE assembly. We found that HRD1 deficiency enhances autophagy activity and promotes autolysosome formation in a SNAP29-dependent manner. We also determined that SNAP29 forms highly dynamic condensates in in vivo and in vitro, which are crucial for the assembly of the SNARE complex. Mechanistically, HRD1 interacts with SNAP29 to suppress its condensation, whereas HRD1 depletion accelerates both SNAP29 condensate formation and SNARE complex assembly. Our findings reveal that HRD1 acts as a negative regulator in autolysosome formation by interacting with SNAP29, inhibiting its LLPS process, thereby modulating the binding affinity among SNARE components.",
+  "abstract_zh": "自噬是一种高度保守的细胞过程，其中细胞质内容物被自噬体隔离并递送至溶酶体进行降解。由SNARE蛋白介导的降解性自溶酶体的生成至关重要；然而，调控这一过程的机制仍未被充分探索。本研究旨在证明E3泛素连接酶HRD1调控SNAP29的液-液相分离（liquid-liquid phase separation, LLPS），从而调节SNARE复合体的组装。我们发现HRD1缺陷以SNAP29依赖性方式增强自噬活性并促进自溶酶体形成。我们还确定SNAP29在体内和体外形成高度动态的凝聚体，这些凝聚体对SNARE复合体的组装至关重要。机制上，HRD1与SNAP29相互作用以抑制其凝聚，而HRD1缺失则加速SNAP29凝聚体形成和SNARE复合体组装。我们的发现揭示HRD1通过与SNAP29相互作用、抑制其LLPS过程，从而调节SNARE组分间的结合亲和力，在自溶酶体形成中充当负调控因子。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41615796/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41615796/",
+  "paper_page_path": "papers/pubmed/41615796/index.html"
+}

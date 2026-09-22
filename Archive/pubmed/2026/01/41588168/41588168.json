@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "41588168",
+    "doi": "10.1038/s42003-026-09611-0",
+    "title": "Two-in-one protein tag enables the soluble expression and calcium-dependent purification of single-chain antibody fragments."
+  },
+  "content": {
+    "abstract": "Single-chain variable fragments (scFvs) antibodies are used in diagnostic and therapeutic biopharmaceuticals. However, its production is limited due to insoluble expression and lack of a universal purification ligand. Here, we report a novel two-in-one protein tag, termed CSQ-tag, utilizing a calsequestrin (CSQ) protein to enable the soluble expression and calcium-dependent purification for scFvs. The CSQ-tag enhanced the solubility of four different therapeutic scFvs with an average solubility of 83.8 +/- 4.6% in the BL21(DE3) strain, despite its reducing cytoplasmic environment. Compared to other tags, CSQ-tag showed superior solubility, with 1.8-fold higher solubility than MBP-tag across four scFvs. The solubility enhancement of the CSQ-tag is attributed to two main characteristics: highly acidic sequences with a low isoelectric point of 3.95, and intrinsically disordered protein properties. Furthermore, CSQ-tag can cost-effectively purify therapeutic scFvs with high purity over 95% using the calcium-dependent phase transition properties. Importantly, the anti-VEGF-scFv produced with the CSQ-tag showed a binding affinity of 25.8 pM, similar to that of the existing therapeutic brolucizumab. Therefore, CSQ-tag can significantly improve productivity and simultaneously maintain scFvs' functional integrity, thereby serving as a promising tool for universal expression and purification of therapeutic scFvs.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Calcium/metabolism",
+      "*Single-Chain Antibodies/isolation & purification/genetics/chemistry/metabolism",
+      "Solubility",
+      "*Calsequestrin/metabolism/genetics/chemistry",
+      "Escherichia coli/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Jonghwan",
+        "Park, Heesun",
+        "Jeong, Suhyeon",
+        "Im, KyuHyuk",
+        "Park, Seho",
+        "Jon, Sangyong",
+        "Byun, Sanguine",
+        "Kim, Sunghyun"
+      ],
+      "short_names": [
+        "Lee J",
+        "Park H",
+        "Jeong S",
+        "Im K",
+        "Park S",
+        "Jon S",
+        "Byun S",
+        "Kim S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6971-586X",
+        "ORCID: 0000-0003-3903-5887",
+        "ORCID: 0000-0002-8725-4200"
+      ],
+      "affiliations": [
+        "Center for Convergence Bioceramic Materials, Korea Institute of Ceramic Engineering and Technology, Cheongju, Republic of Korea.",
+        "Department of Biotechnology, Yonsei University, Seoul, Republic of Korea.",
+        "Center for Convergence Bioceramic Materials, Korea Institute of Ceramic Engineering and Technology, Cheongju, Republic of Korea.",
+        "Center for Convergence Bioceramic Materials, Korea Institute of Ceramic Engineering and Technology, Cheongju, Republic of Korea.",
+        "Center for Convergence Bioceramic Materials, Korea Institute of Ceramic Engineering and Technology, Cheongju, Republic of Korea.",
+        "ToolBio Inc, Daejeon, Republic of Korea.",
+        "Department of Biological Sciences, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Republic of Korea.",
+        "Department of Biotechnology, Yonsei University, Seoul, Republic of Korea. sanguine@yonsei.ac.kr.",
+        "Center for Convergence Bioceramic Materials, Korea Institute of Ceramic Engineering and Technology, Cheongju, Republic of Korea. shkim0519@kicet.re.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Jonghwan",
+        "short_name": "Lee J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Convergence Bioceramic Materials, Korea Institute of Ceramic Engineering and Technology, Cheongju, Republic of Korea.",
+          "Department of Biotechnology, Yonsei University, Seoul, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Heesun",
+        "short_name": "Park H",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Convergence Bioceramic Materials, Korea Institute of Ceramic Engineering and Technology, Cheongju, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jeong, Suhyeon",
+        "short_name": "Jeong S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Convergence Bioceramic Materials, Korea Institute of Ceramic Engineering and Technology, Cheongju, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Im, KyuHyuk",
+        "short_name": "Im K",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Convergence Bioceramic Materials, Korea Institute of Ceramic Engineering and Technology, Cheongju, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Seho",
+        "short_name": "Park S",
+        "identifiers": [],
+        "affiliations": [
+          "ToolBio Inc, Daejeon, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jon, Sangyong",
+        "short_name": "Jon S",
+        "identifiers": [
+          "0000-0002-6971-586X"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Byun, Sanguine",
+        "short_name": "Byun S",
+        "identifiers": [
+          "0000-0003-3903-5887"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Yonsei University, Seoul, Republic of Korea. sanguine@yonsei.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Kim, Sunghyun",
+        "short_name": "Kim S",
+        "identifiers": [
+          "0000-0002-8725-4200"
+        ],
+        "affiliations": [
+          "Center for Convergence Bioceramic Materials, Korea Institute of Ceramic Engineering and Technology, Cheongju, Republic of Korea. shkim0519@kicet.re.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2026 Jan 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/27 00:52",
+    "fetched_at": "2026-09-18 00:22:29"
+  },
+  "links": {
+    "cites": [
+      "42026977"
+    ],
+    "refs": [
+      "38697982",
+      "38136565",
+      "37892190",
+      "37371712",
+      "36871527",
+      "36829616",
+      "36432723",
+      "36077739",
+      "35941164",
+      "35740874",
+      "35591946",
+      "34067755",
+      "33212886",
+      "32574906",
+      "32107066",
+      "31691197",
+      "31641814",
+      "31544858",
+      "31412896",
+      "30899264",
+      "30405887",
+      "28340507",
+      "28218242",
+      "27231876",
+      "27050240",
+      "25187138",
+      "24860555",
+      "22924672",
+      "22387083",
+      "22337878",
+      "20414205",
+      "19374944",
+      "19234897",
+      "19096500",
+      "18795288",
+      "18504019",
+      "17374413",
+      "16427080",
+      "16046630",
+      "15249042",
+      "11344330",
+      "10648163",
+      "9687443",
+      "6725251",
+      "1736986"
+    ],
+    "similar": [
+      "41588168",
+      "22387083",
+      "30539486",
+      "35389207",
+      "35941164",
+      "19683057",
+      "36871527",
+      "30642336",
+      "24037842",
+      "24910412",
+      "40981279",
+      "21338491",
+      "25079010",
+      "11545587",
+      "39074259",
+      "34845270",
+      "21093447",
+      "24428896",
+      "17156422",
+      "33190426",
+      "37892190",
+      "22047084",
+      "12406675",
+      "23215344",
+      "19680637",
+      "29227825",
+      "24128692",
+      "30036588",
+      "24215864",
+      "31691197",
+      "31175428",
+      "30551882",
+      "28963004",
+      "39198103",
+      "18992254",
+      "34215946",
+      "24798881",
+      "22230329",
+      "20661728",
+      "33543415",
+      "28888872",
+      "22245752",
+      "21998685",
+      "33640460",
+      "42525183",
+      "16414274",
+      "22943792",
+      "20457695",
+      "41680732",
+      "41810991",
+      "29555311",
+      "26219832",
+      "22902410",
+      "34963459",
+      "27142477",
+      "22171920",
+      "11058082",
+      "24291344",
+      "36748400",
+      "10788792",
+      "41850648",
+      "24671570",
+      "39014926",
+      "24824752",
+      "17266749",
+      "22552770",
+      "26725560",
+      "38799304",
+      "27391930",
+      "27229726",
+      "25256416",
+      "29321330",
+      "24224158",
+      "35285717",
+      "22297419",
+      "42081013",
+      "25517317",
+      "10648163",
+      "21801766",
+      "16674972",
+      "28274103",
+      "20178123",
+      "35579623",
+      "16509985",
+      "41141280",
+      "21617352",
+      "34688918",
+      "41596700",
+      "33620776",
+      "27214237",
+      "33156828",
+      "23160981",
+      "38923711",
+      "24084009",
+      "30417355",
+      "33023860",
+      "38296747",
+      "36798911",
+      "38945343",
+      "24647109"
+    ],
+    "review": [
+      "41588168"
+    ],
+    "pmc": [
+      "12946349"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-026-09611-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41588168/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1475",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

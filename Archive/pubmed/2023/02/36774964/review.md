@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, funding)
+- **Assessment boundary** Scientific claims, experimental and computational evidence, internal consistency, and alignment with stated conclusions. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors propose that negatively charged intrinsically disordered regions (D/E repeats) can accelerate target DNA search by DNA-binding proteins in the presence of decoys, via dynamic autoinhibition that reduces decoy trapping while allowing efficient induced-fit transitions at targets. Evidence includes kinetic experiments on HMGB1 and engineered Antp homeodomain constructs, coarse-grained molecular dynamics simulations, and a kinetic model.
+- **Visible evidence base** Experimental kinetic data (stopped-flow fluorescence), binding affinity measurements (fluorescence anisotropy), NMR chemical shift data, CGMD simulation results, atomistic simulation results, kinetic model simulations. Figures cited: 2, 3, 4, 5; Supplementary Figures S1–S7.
+- **Missing materials affecting confidence** Supplementary Data (including Supplementary Figures S1–S7, rate equations, derivations of Equation 1, and simulation details) was not provided. This limits full verification of the kinetic model, CGMD force field parameters, and several experimental controls.
+
+## Reviewer
+- **Overall assessment** This manuscript presents an interesting and potentially important hypothesis: that autoinhibition via negatively charged IDRs can accelerate target search in the presence of decoys, rather than simply acting as an off switch. The combination of experimental kinetics, NMR, CGMD simulations, and kinetic modeling is ambitious and largely coherent. The HMGB1 data are compelling, and the Antp HD-DERT constructs provide a useful proof-of-principle for engineering. However, the manuscript has several weaknesses that need to be addressed before the case is fully established. The kinetic model is central to the interpretation, but key details and derivations are relegated to Supplementary Data that was not available for review. The CGMD simulations, while suggestive, rely on a simplified model whose parameters and validation are not fully described. The claim of an "unprecedented role" is somewhat overstated given prior work on autoinhibition and search kinetics. The relationship between the simulation timescales and experimental timescales needs clarification. The optimal length prediction from simulations is interesting but only indirectly compared with experiments. Overall, the core idea is novel and the evidence is suggestive, but several technical concerns must be resolved.
+- **Who would be interested in the results, and why** Researchers studying protein-DNA interactions, transcription factor search kinetics, intrinsically disordered proteins, and protein engineering. The work is also relevant to those interested in the functional roles of negatively charged IDRs, which are abundant in eukaryotic proteomes. The proposed mechanism could have broad implications for understanding how DNA-binding proteins navigate complex nuclear environments.
+- **Major strengths** 1) The hypothesis is novel and counterintuitive, challenging the simple view of autoinhibition as an off switch. 2) The combination of experimental and computational approaches is powerful and mutually reinforcing. 3) The use of both a natural protein (HMGB1) and engineered constructs (Antp HD-DERT) strengthens the generality of the claim. 4) The kinetic model provides a clear mechanistic framework and makes testable predictions. 5) The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The kinetic model (Figure 5B) and Equation 1 are used to explain the acceleration effect and the optimal DERT length.
+  - **Evidence pointer** Figure 5, Equation 1, Supplementary Data (rate equations, derivations)
+  - **Concern** The kinetic model is central to the interpretation, but the rate equations, derivation of Equation 1, and the validity range (Supplementary Figure S7) are only in the Supplementary Data, which was not provided. Without these, the model cannot be fully evaluated. Specifically, it is unclear how the parameters were chosen, whether the model is identifiable, and whether the conclusions are robust to parameter variation.
+  - **Why it matters** The model is used to argue that induced fit is the dominant pathway and to explain the optimal DERT length. If the model is flawed or the parameters are unrealistic, the mechanistic conclusions are weakened.
+  - **Resolution test** Provide the full rate equations, parameter values, and a sensitivity analysis. Show that the conclusions (e.g., the importance of induced fit, the optimal length) are robust to reasonable parameter changes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** CGMD simulations show that DERT length affects the transition rate from autoinhibited to uninhibited complex, and that an optimal length exists.
+  - **Evidence pointer** Figure 4, Supplementary Figure S3, Methods (CGMD section)
+  - **Concern** The CGMD model is described only briefly. The force field parameters, the mapping from atomistic to coarse-grained representation, the treatment of electrostatics, and the validation of the model are not described in sufficient detail. The claim that the simulations reproduce experimental trends (Figure 3F vs Figure 4A) is made, but the comparison is qualitative. The timescales of the simulations (2×10^8 MD steps) and how they relate to experimental timescales are unclear.
+  - **Why it matters** The simulations are used to provide mechanistic insight into the transition process and to predict the optimal DERT length. If the model is not well validated, the mechanistic claims are speculative.
+  - **Resolution test** Provide full details of the CGMD model, including force field parameters, validation against atomistic simulations (beyond the single comparison in Supplementary Figure S3), and a more quantitative comparison with experimental data. Discuss the timescale limitations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "This study illuminates an unprecedented role of the negatively charged IDRs in the target search process."
+  - **Evidence pointer** Abstract, Discussion
+  - **Concern** The claim of an "unprecedented role" is strong. While the specific combination of D/E repeats and search acceleration may be new, the general concept that autoinhibition can modulate search kinetics has been discussed in the literature (e.g., for transcription factors). The authors should more carefully position their work relative to prior theoretical and experimental studies on facilitated diffusion and autoinhibition.
+  - **Why it matters** Overstating novelty can mislead readers and detract from the genuine contributions of the work.
+  - **Resolution test** Revise the claim to be more precise, acknowledging prior related work while highlighting the specific new contributions (e.g., the role of negatively charged IDRs, the induced-fit mechanism).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The experimental data show that D/E repeats of particular lengths accelerate target association in the presence of decoys (Figure 3F).
+  - **Evidence pointer** Figure 3E–F, Methods (kinetic measurements)
+  - **Concern** The kinetic experiments for the Antp HD-DERT constructs show that DERT11 and DERT7 accelerate, but DERT16 does not. The explanation for DERT16's behavior is attributed to slow conformational transition, based on CGMD. However, the experimental data for DERT16 show slower association than even the no-DERT control. This is not fully explained. Is it possible that DERT16 has additional effects (e.g., steric hindrance, aggregation, or non-specific interactions) beyond the proposed mechanism?
+  - **Why it matters** The DERT16 result is a key piece of evidence for the optimal length prediction. If there are alternative explanations, the interpretation is weakened.
+  - **Resolution test** Provide additional experimental characterization of DERT16 (e.g., circular dichroism, size-exclusion chromatography with multi-angle light scattering, or pulldown assays) to rule out aggregation or other artifacts. Discuss alternative explanations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Results (HMGB1 section)
+  - **Evidence pointer** Figure 2
+  - **Issue** The HMGB1 results are presented before the Antp HD-DERT results, but the rationale for choosing HMGB1 and the specific role of its D/E repeats could be clearer for readers unfamiliar with the protein.
+  - **Required correction** Briefly explain why HMGB1 is a good model system (e.g., its known autoinhibition, its role as a DNA chaperone) and what the Δ30 variant represents.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods (NMR experiments)
+  - **Evidence pointer** Methods, Figure 3C–D
+  - **Issue** The NMR experiments are used to demonstrate electrostatic interactions between DERT and the HD. However, the analysis relies on chemical shift differences between constructs with and without DERT. It is unclear how the assignments were transferred between constructs and whether the observed shifts could be due to other factors (e.g., conformational changes in the HD).
+  - **Required correction** Provide more detail on the assignment transfer and discuss potential alternative interpretations of the chemical shift differences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The discussion of the biological relevance (e.g., the number of D/E repeat-containing proteins) is brief. A more detailed discussion of the potential in vivo implications would strengthen the paper.
+  - **Required correction** Expand the discussion of biological relevance, including specific examples of proteins with D/E repeats and how the proposed mechanism might affect their function.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results (Kinetic model section)
+  - **Evidence pointer** Figure 5, Equation 1
+  - **Issue** The kinetic model is described qualitatively in the main text, but the quantitative details are in the Supplementary Data. A brief outline of the model assumptions and key parameters in the main text would help readers follow the argument.
+  - **Required correction** Add a short paragraph in the main text summarizing the model assumptions, key parameters, and the main predictions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (kinetic model details), R1-M2 (CGMD model details and validation). These are blocking because the mechanistic conclusions rely on these models.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The idea that negatively charged IDRs can accelerate target search via autoinhibition is novel and counterintuitive.
+  - **Scientific importance** Moderate to high. If confirmed, the mechanism could be broadly relevant to DNA/RNA-binding proteins with D/E repeats, which are abundant in eukaryotes. The engineering implications are also interesting.
+  - **Interdisciplinary readership** Moderate. The work bridges biophysics, molecular biology, and computational biology. It may appeal to readers in these fields, but the specialized methods (NMR, CGMD) may limit broader appeal.
+  - **Technical soundness** Currently not fully established. The experimental data are solid, but the computational and modeling components are not described in sufficient detail to fully assess their validity.
+  - **Readability for nonspecialists** Generally good. The main text is well-written and the figures are clear. However, some sections (e.g., the kinetic model) could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the experimental data are suggestive, but the computational and modeling evidence needs to be more fully described and validated. The authors should also temper the "unprecedented" claim and provide additional experimental characterization of the DERT16 construct.
+
+## Risk / unsupported claims
+- The claim that the acceleration mechanism is "unprecedented" is not fully supported, as prior work on autoinhibition and search kinetics exists.
+- The prediction of an optimal DERT length is based on CGMD simulations and a kinetic model, but the quantitative comparison with experiments is limited.
+- The claim that the induced-fit pathway is the dominant mechanism relies on the kinetic model, which was not fully available for review.
+- The biological relevance of the mechanism (e.g., for transcription factors in vivo) is speculative and not directly tested.
+- The statement that "the electrostatic repulsive force from DNA appears to induce the conformational change" is based on simulations and is not directly experimentally verified.

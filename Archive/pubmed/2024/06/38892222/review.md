@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, conclusions) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the PACSAB server as described, including the validity of the model, the evidence presented for its utility, and the clarity of the web tool's implementation. The review does not assess the live server's functionality beyond what is described in the text.
+- **Shared manuscript claim summary** The authors present a web-based tool, PACSAB Server, that uses a coarse-grained implicit-solvent molecular dynamics model to simulate the conformational ensemble and aggregation propensity of both folded and disordered proteins. The tool is claimed to be the first of its kind, offering high efficiency and accessibility to non-experts, and is validated through four test cases: villin, ubiquitin, ACTR, and Aβ40.
+- **Visible evidence base** The manuscript includes descriptions of simulations for four proteins, with figures referenced (Figures 1–5) and a flowchart of the server architecture (Figure 6). The text provides qualitative comparisons to experimental data and prior explicit-solvent simulations. The methods section describes the force field parameters and simulation setup.
+- **Missing materials affecting confidence** The manuscript does not include the actual figures or quantitative data (e.g., numerical values for radii of gyration, contact maps, or simulation timescales). No statistical analysis or error bars are provided. The web server's user interface and output examples are not shown in the text. The force field parameter values are not fully specified.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful web-based tool for simulating protein aggregation and conformational ensembles of disordered proteins. The core idea of combining a coarse-grained model with implicit solvent in a user-friendly web interface is novel and addresses a real need. However, the evidence presented is largely qualitative and lacks the quantitative rigor expected for a methods paper. The validation cases are described narratively, with no numerical data or statistical analysis, making it difficult to assess the accuracy and reliability of the tool. The manuscript would benefit from a more detailed presentation of results, including quantitative comparisons to experimental data and explicit-solvent simulations.
+- **Who would be interested in the results, and why** Researchers in molecular biology, biophysics, and computational chemistry, particularly those studying protein aggregation, intrinsically disordered proteins, and protein-protein interactions. The tool's accessibility (no computational skills required) makes it attractive to experimentalists who need structural insights but lack simulation expertise. The paper would also interest developers of web-based simulation tools and those working on coarse-grained models.
+- **Major strengths**
+  - Novelty of the web-based approach for coarse-grained implicit-solvent simulations, filling a gap in existing tools.
+  - The model's ability to reproduce known experimental findings, such as the ubiquitin dimer interface and the non-aggregating behavior of ACTR.
+  - The tool's user-friendly design, including on-the-fly analysis and downloadable results, which lowers the barrier for non-specialists.
+  - The inclusion of multiple test cases covering both folded and disordered proteins.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims that the PACSAB model "is able to produce a realistic description of the association of folded and disordered proteins" and that it "correctly evaluates the aggregation propensity of different disordered proteins."
+  - **Evidence pointer** Results sections 2.1–2.4, Figures 1–5 (not provided in the text)
+  - **Concern** The validation of the model is based on qualitative descriptions of the simulations. No quantitative data are provided, such as numerical values for the radius of gyration distributions, contact map intensities, or the lifetimes of dimers. The comparison to experimental data (e.g., SAXS for ACTR) is only described in words, without showing the actual distributions or statistical measures of agreement. This lack of quantitative evidence makes it impossible to assess the accuracy of the model.
+  - **Why it matters** For a methods paper, the core claim is that the tool provides reliable predictions. Without quantitative validation, the reader cannot judge whether the model is sufficiently accurate for practical use. The absence of error bars or statistical analysis also raises concerns about the robustness of the results.
+  - **Resolution test** The authors should provide the actual figures with numerical data, including the radius of gyration distributions for ACTR and Aβ40, the contact maps for ubiquitin and Aβ40, and the time series of intermolecular distances. They should also include a quantitative comparison to experimental data (e.g., the SAXS-derived Rg for ACTR) and to explicit-solvent simulations, with appropriate statistical measures (e.g., mean and standard deviation).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that the PACSAB model is "highly accurate" and that the force field parameters are "optimized to produce the correct association/dissociation equilibrium of peptides."
+  - **Evidence pointer** Methods section, Equation (1), and references to previous work [18,33]
+  - **Concern** The force field parameters are not fully described. The manuscript mentions that the model depends on two parameters, ωvdW and ωsolv, but does not provide their values or the interpolation scheme for short-range and long-range interactions. The optimization procedure is not described, and no benchmarks against experimental binding affinities or association rates are shown. The claim of "high accuracy" is therefore unsupported.
+  - **Why it matters** The reliability of the tool depends entirely on the quality of the force field. Without a clear description of the parameters and their validation, the reader cannot trust the results. The lack of benchmarks also prevents comparison with other models.
+  - **Resolution test** The authors should provide the full parameter set, the optimization procedure, and a benchmark against experimental data (e.g., binding affinities for known protein pairs) or against all-atom simulations. They should also discuss the limitations of the model, such as the use of only two copies of the protein and the absence of explicit ions or pH effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript describes the web tool's functionality, including the ability to submit simulations, restart them, and analyze results.
+  - **Evidence pointer** Methods section, Figure 6 (not provided in the text)
+  - **Concern** The manuscript does not provide a detailed description of the web server's implementation, such as the input file formats, the exact steps for submitting a simulation, or the output file structure. The flowchart (Figure 6) is referenced but not shown. This lack of detail makes it difficult for others to reproduce the tool or understand its limitations.
+  - **Why it matters** For a web-based tool, reproducibility and usability are key. Without clear documentation, potential users may struggle to use the tool effectively, and the scientific community cannot verify the claims.
+  - **Resolution test** The authors should include a detailed description of the web interface, including screenshots or a link to a demo, and provide clear instructions for input and output. They should also specify the system requirements and the maximum protein size (200 residues) and any other constraints.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the tool "reproduce[s] the whole conformational space of disordered proteins," which is a strong claim. The results for ACTR show a distribution of Rg that is closer to experiment than explicit-solvent simulations, but the abstract overstates the generality of this finding.
+  - **Required correction** Soften the claim to "reproduce[s] the conformational ensemble of disordered proteins in good agreement with experimental data" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section 2.2
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The description of the ubiquitin simulation mentions a dimer that persists for 300 ns, but no information is given on the simulation length or the number of independent runs. This makes it difficult to assess the statistical significance of the findings.
+  - **Required correction** Provide the total simulation time and the number of replicates, and discuss the variability of the results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of the force field and the simulation setup is dense and assumes prior knowledge of coarse-grained models. A brief explanation of the PACSAB model's key features would help non-specialist readers.
+  - **Required correction** Add a short paragraph explaining the model's design, such as the representation of side chains and the treatment of implicit solvent, in accessible terms.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative evidence) and R1-M2 (incomplete force field description) are the primary technical failings. Without addressing these, the case for the tool's accuracy and utility is not established.
+
+## Risk / unsupported claims
+- The claim that the PACSAB model is "highly accurate" is unsupported without quantitative benchmarks.
+- The claim that the tool "reproduce[s] the whole conformational space of disordered proteins" is overstated based on the single example of ACTR.
+- The claim that the tool is the "first" web-based tool for coarse-grained implicit-solvent simulations is plausible but not verified against a comprehensive literature search.
+- The assertion that the model "correctly evaluates the aggregation propensity" of disordered proteins is based on only two examples (ACTR and Aβ40) and lacks quantitative comparison to experimental aggregation rates or critical concentrations.

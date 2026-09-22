@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.01.729380",
+  "title": "Sequence charge decoration organizes salt response regimes in intrinsically disordered proteins: an interpretable machine-learning study",
+  "authors": "Mahesh Aryal",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-04",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究用CALVADOS-2模拟和可解释机器学习，系统揭示无序蛋白盐响应由序列电荷装饰(SCD×N)主导，虽非直接PPI，但为IDP构象调控的物理建模提供了可迁移的AI+模拟框架。",
+  "abstract": "The conformational ensembles of intrinsically disordered proteins (IDPs) respond sensitively to ionic strength, with the direction and magnitude of response varying widely across sequence classes from polyelectrolyte contraction to polyampholyte swelling. Recent sequence-conditioned models provide rapid access to full ensembles or ensemble-averaged properties at specified solution conditions, but do not directly identify which low-dimensional polymer physics descriptors organize salt response behavior. Here, we construct a 511-sequence library spanning controlled κ -variants, NCPR series, IDRome-stratified natural IDRs, and low-FCR IDRome sequences, and perform 2,555 CALVADOS-2 simulations across five monovalent salt concentrations (50 mM to 500 mM). For each sequence, we extract the salt-response slope, d R g / d[salt], and assign one of four regimes: polyelectrolyte contraction, polyampholyte swelling, non-monotonic response, or salt-insensitive behavior. Using eight theory-motivated sequence descriptors, we find that sequence charge decoration weighted by chain length, SCD × N , is the dominant coordinate organizing salt response, accounting for ~40% of total SHAP attribution and exceeding the next feature by more than twice. Ridge regression explains substantial in-distribution variance ( R 2 = 0.83 under random cross-validation), whereas gradient-boosted trees improve in-distribution performance ( R 2 = 0.97) and retain predictive power under the more stringent leave-one-subset-out validation test ( R 2 = 0.60), indicating that salt response contains transferable but nonlinear sequence-encoded structure. Regime classification robustly recovers the direction of salt response, with no polyelectrolyte–polyampholyte confusion, whereas non-monotonic and salt-insensitive sequences remain harder to distinguish from static sequence features alone. Together, these results establish SCD × N as a compact, interpretable organizing coordinate for CALVADOS-2-derived IDP salt response and provide a polymer-physics, feature-level complement to ensemble-level generative models.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 的构象系综对离子强度敏感响应，其响应方向和幅度在不同序列类别间差异显著，从聚电解质收缩到多聚两性电解质膨胀。近期基于序列条件的模型能够快速获取指定溶液条件下的完整系综或系综平均性质，但并未直接识别哪些低维高分子物理描述符能够组织盐响应行为。在此，我们构建了一个包含511条序列的文库，涵盖受控κ变体、NCPR系列、IDRome分层天然IDRs以及低FCR IDRome序列，并在五种单价盐浓度（50 mM至500 mM）下执行了2,555次CALVADOS-2模拟。对于每条序列，我们提取盐响应斜率 d R g / d[salt]，并分配四种状态之一：聚电解质收缩、多聚两性电解质膨胀、非单调响应或盐不敏感行为。利用八个理论驱动的序列描述符，我们发现由链长加权的序列电荷装饰 SCD × N 是组织盐响应的主导坐标，占总SHAP归因约40%，且超过次重要特征两倍以上。岭回归解释了显著的分布内方差（随机交叉验证下 R 2 = 0.83），而梯度提升树提升了分布内性能（ R 2 = 0.97），并在更严格的留一子集验证测试中保持预测能力（ R 2 = 0.60），表明盐响应包含可迁移但非线性的序列编码结构。状态分类稳健地恢复了盐响应方向，无聚电解质-多聚两性电解质混淆，而非单调和盐不敏感序列仅从静态序列特征中仍较难区分。综合来看，这些结果确立了 SCD × N 作为CALVADOS-2衍生IDP盐响应的紧凑、可解释组织坐标，并为系综级生成模型提供了高分子物理、特征层面的补充。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.01.729380",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.01.729380",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.01.729380/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40832250",
+  "title": "Mechanism for oil-phase separation by the lipid droplet assembly complex.",
+  "authors": "Malia, Pedro C; Kim, Siyoung; Ambaw, Yohannes; Voth, Gregory A; Walther, Tobias C; Farese, Robert V Jr",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-08-20",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过结构解析与分子动力学模拟揭示脂滴组装复合物(LDAC)催化膜内油相分离的机制，虽对象为脂质而非无序蛋白，但其相分离机制建模思路对IDR介导的凝聚体PPI研究具有可迁移启发。",
+  "abstract": "Cells store metabolic energy as triglyceride (TG) oils in lipid droplets (LDs). LDs form de novo from the endoplasmic reticulum. How the lipid droplet assembly complex (LDAC), composed of seipin and LDAF1(1,2), catalyzes the organized formation of an oil phase in a membrane bilayer before spontaneous phase separation is triggered is unknown. Here, we reconstitute LD formation in vitro using purified LDAC and membranes containing physiologic levels of TG, demonstrating that the LDAC is both necessary and sufficient to catalyze oil-phase formation below the threshold of spontaneous phase separation. Structural studies of the LDAC reveal that LDAF1 forms a central ring within a seipin cage, creating a toroidal, membrane-spanning structure. Molecular dynamics simulations and biochemical assays show that this structure forms a selective chamber within the ER bilayer that limits phospholipids but allows TG to access a reaction compartment between the inner and outer rings of the LDAC. Within this compartment, TG interacts with LDAF1 and each other to form an oil phase to initiate LD formation. Thus, the LDAC acts as a protein catalyst for oil-phase separation in cells, revealing a fundamental mechanism for how cells resolve the biophysical challenge of storing oils within a hydrophilic environment in an organized manner.",
+  "abstract_zh": "细胞以甘油三酯（TG）油滴形式储存代谢能量于脂滴（LDs）中。LDs从内质网（ER）上从头形成。脂滴组装复合物（LDAC），由seipin和LDAF1(1,2)组成，如何在自发相分离被触发之前，催化膜双层中有序油相的形成，目前尚不清楚。在此，我们使用纯化的LDAC和含有生理水平TG的膜，在体外重建了LD形成过程，证明LDAC在自发相分离阈值以下，既是催化油相形成所必需的，也是充分的条件。对LDAC的结构研究表明，LDAF1在seipin笼内形成一个中央环，构成一个环形、跨膜的结构。分子动力学模拟和生化实验显示，该结构在ER双层内形成一个选择性腔室，限制磷脂进入，但允许TG进入LDAC内外环之间的反应隔室。在此隔室内，TG与LDAF1及彼此相互作用，形成油相以启动LD形成。因此，LDAC作为细胞中油相分离的蛋白质催化剂，揭示了细胞如何以有序方式解决在亲水环境中储存油类的生物物理挑战的基本机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40832250/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40832250/",
+  "paper_page_path": "papers/pubmed/40832250/index.html"
+}

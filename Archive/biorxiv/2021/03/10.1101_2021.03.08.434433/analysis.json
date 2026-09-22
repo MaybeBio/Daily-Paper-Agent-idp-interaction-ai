@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.08.434433",
+  "title": "Systemic Tissue and Cellular Disruption from SARS-CoV-2 Infection revealed in COVID-19 Autopsies and Spatial Omics Tissue Maps",
+  "authors": "Park J; Foox J; Hether T; Danko D; Warren S; Kim Y; Reeves J; Butler DJ; Mozsary C; Rosiene J; Shaiber A; Afshinnekoo E; MacKay M; Bram Y; Chandar V; Geiger H; Craney A; Velu P; Melnick AM; Hajirasouliha I; Beheshti A; Taylor D; Saravia-Butler A; Singh U; Wurtele ES; Schisler J; Fennessey S; Corvelo A; Zody MC; Germer S; Salvatore S; Levy S; Wu S; Tatonetti N; Shapira S; Salvatore M; Loda M; Westblade LF; Cushing M; Rennert H; Kriegel AJ; Elemento O; Imielinski M; Borczuk AC; Meydan C; Schwartz RE; Mason CE",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-09",
+  "window": {
+    "start": "2021-03-08",
+    "end": "2021-03-14"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究通过空间组学和转录组学分析COVID-19尸检组织中的系统性细胞损伤，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "The Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) virus has infected over 115 million people and caused over 2.5 million deaths worldwide. Yet, the molecular mechanisms underlying the clinical manifestations of COVID-19, as well as what distinguishes them from common seasonal influenza virus and other lung injury states such as Acute Respiratory Distress Syndrome (ARDS), remains poorly understood. To address these challenges, we combined transcriptional profiling of 646 clinical nasopharyngeal swabs and 39 patient autopsy tissues, matched with spatial protein and expression profiling (GeoMx) across 357 tissue sections. These results define both body-wide and tissue-specific (heart, liver, lung, kidney, and lymph nodes) damage wrought by the SARS-CoV-2 infection, evident as a function of varying viral load (high vs. low) during the course of infection and specific, transcriptional dysregulation in splicing isoforms, T cell receptor expression, and cellular expression states. In particular, cardiac and lung tissues revealed the largest degree of splicing isoform switching and cell expression state loss. Overall, these findings reveal a systemic disruption of cellular and transcriptional pathways from COVID-19 across all tissues, which can inform subsequent studies to combat the mortality of COVID-19, as well to better understand the molecular dynamics of lethal SARS-CoV-2 infection and other viruses.",
+  "abstract_zh": "严重急性呼吸综合征冠状病毒2（SARS-CoV-2）已感染全球超过1.15亿人，并导致超过250万人死亡。然而，COVID-19临床表现背后的分子机制，以及其与常见季节性流感病毒和急性呼吸窘迫综合征（ARDS）等其他肺损伤状态的区别，仍知之甚少。为应对这些挑战，我们结合了646份临床鼻咽拭子和39份患者尸检组织的转录组分析，并与跨357个组织切片的空间蛋白和表达谱分析（GeoMx）相匹配。这些结果定义了SARS-CoV-2感染对全身及组织特异性（心脏、肝脏、肺、肾脏和淋巴结）造成的损伤，这些损伤随感染过程中病毒载量（高 vs. 低）的变化而显现，并表现为剪接异构体、T细胞受体表达和细胞表达状态的特异性转录失调。特别是，心脏和肺组织显示出最大程度的剪接异构体转换和细胞表达状态丧失。总体而言，这些发现揭示了COVID-19对所有组织中细胞和转录通路的系统性破坏，这可为后续研究提供信息，以对抗COVID-19的死亡率，并更好地理解致命性SARS-CoV-2感染及其他病毒的分子动态。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.08.434433",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.08.434433",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.08.434433/index.html"
+}

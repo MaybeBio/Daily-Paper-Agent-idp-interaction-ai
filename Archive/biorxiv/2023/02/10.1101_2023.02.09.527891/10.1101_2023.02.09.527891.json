@@ -1,0 +1,124 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.02.09.527891",
+  "title": "Benchmarking Molecular Dynamics Force Fields for All-Atom Simulations of Biological Condensates",
+  "doi": "10.1101/2023.02.09.527891",
+  "abstract": "Proteins containing intrinsically disordered regions are integral components of the cellular signaling pathways and common components of biological condensates. Point mutations in the protein sequence, genetic at birth or acquired through aging, can alter the properties of the condensates, marking the onset of neurodegenerative diseases such as ALS and dementia. While the all-atom molecular dynamics method can, in principle, elucidate the conformational changes that arise from point mutations, the applications of this method to protein condensate systems is conditioned upon the availability of molecular force fields that can accurately describe both structured and disordered regions of such proteins. Using the special-purpose Anton 2 supercomputer, we benchmarked the efficacy of nine presently available molecular force fields in describing the structure and dynamics of a Fused in sarcoma (FUS) protein. Five-microsecond simulations of the full-length FUS protein characterized the effect of the force field on the global conformation of the protein, self-interactions among its side chains, solvent accessible surface area and the diffusion constant. Using the results of dynamic light scattering as a benchmark for the FUS radius of gyration, we identified several force fields that produced FUS conformations within the experimental range. Next, we used these force fields to perform ten-microsecond simulations of two structured RNA binding domains of FUS bound to their respective RNA targets, finding the choice of the force field to affect stability of the RNA–FUS complex. Taken together, our data suggest that a combination of protein and RNA force fields sharing a common four-point water model provides an optimal description of proteins containing both disordered and structured regions and RNA–protein interactions. To make simulations of such systems available beyond the Anton 2 machines, we describe and validate implementation of the best performing force fields in a publicly available molecular dynamics program NAMD. Our NAMD implementation enables simulations of large (tens of millions of atoms) biological condensate systems and makes such simulations accessible to a broader scientific community.",
+  "authors": [
+    "Sarthak K",
+    "Winogradoff D",
+    "Ge Y",
+    "Myong S",
+    "Aksimentiev A"
+  ],
+  "published_date": "2023-02-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.02.09.527891",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.02.09.527891.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR615060",
+    "raw_record": {
+      "id": "PPR615060",
+      "source": "PPR",
+      "doi": "10.1101/2023.02.09.527891",
+      "title": "Benchmarking Molecular Dynamics Force Fields for All-Atom Simulations of Biological Condensates",
+      "authorString": "Sarthak K, Winogradoff D, Ge Y, Myong S, Aksimentiev A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sarthak K",
+            "lastName": "Sarthak",
+            "firstName": "Kumar",
+            "initials": "K"
+          },
+          {
+            "fullName": "Winogradoff D",
+            "lastName": "Winogradoff",
+            "firstName": "David",
+            "initials": "D"
+          },
+          {
+            "fullName": "Ge Y",
+            "lastName": "Ge",
+            "firstName": "Yingda",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Myong S",
+            "lastName": "Myong",
+            "firstName": "Sua",
+            "initials": "S"
+          },
+          {
+            "fullName": "Aksimentiev A",
+            "lastName": "Aksimentiev",
+            "firstName": "Aleksei",
+            "initials": "A"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Proteins containing intrinsically disordered regions are integral components of the cellular signaling pathways and common components of biological condensates. Point mutations in the protein sequence, genetic at birth or acquired through aging, can alter the properties of the condensates, marking the onset of neurodegenerative diseases such as ALS and dementia. While the all-atom molecular dynamics method can, in principle, elucidate the conformational changes that arise from point mutations, the applications of this method to protein condensate systems is conditioned upon the availability of molecular force fields that can accurately describe both structured and disordered regions of such proteins. Using the special-purpose Anton 2 supercomputer, we benchmarked the efficacy of nine presently available molecular force fields in describing the structure and dynamics of a Fused in sarcoma (FUS) protein. Five-microsecond simulations of the full-length FUS protein characterized the effect of the force field on the global conformation of the protein, self-interactions among its side chains, solvent accessible surface area and the diffusion constant. Using the results of dynamic light scattering as a benchmark for the FUS radius of gyration, we identified several force fields that produced FUS conformations within the experimental range. Next, we used these force fields to perform ten-microsecond simulations of two structured RNA binding domains of FUS bound to their respective RNA targets, finding the choice of the force field to affect stability of the RNA–FUS complex. Taken together, our data suggest that a combination of protein and RNA force fields sharing a common four-point water model provides an optimal description of proteins containing both disordered and structured regions and RNA–protein interactions. To make simulations of such systems available beyond the Anton 2 machines, we describe and validate implementation of the best performing force fields in a publicly available molecular dynamics program NAMD. Our NAMD implementation enables simulations of large (tens of millions of atoms) biological condensate systems and makes such simulations accessible to a broader scientific community.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.02.09.527891"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37134270",
+            "reference": "Journal of chemical theory and computation. 2023 Jun;19(12):3721-3740",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-02-12",
+      "firstPublicationDate": "2023-02-10",
+      "firstIndexDate": "2023-02-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and supplementary table references.
+- **Assessment boundary** Evaluation of the manuscript's scientific claims, methodology, data analysis, and interpretation as presented in the provided text. No external data or code were accessed.
+- **Shared manuscript claim summary** The authors evaluate 32 predictors of disordered binding regions from the CAID2 experiment, plus 8 disorder predictors, using the full CAID2 dataset of 348 proteins. They assess performance in three scenarios: (1) all residues, (2) disordered regions only, and (3) ligand-type-specific binding IDRs. They report that disorder predictors cannot accurately identify binding IDRs among disordered regions, that most binding IDR predictors are ligand-type agnostic, and that only a handful of methods perform relatively well with low cross-prediction rates.
+- **Visible evidence base** Tables 1-5, Figure 1, and Supplementary Tables S1 and S2 as referenced in the text. Statistical significance testing methodology described in Section 2.3.
+- **Missing materials affecting confidence** The actual CAID2 prediction outputs, the full annotation pipeline details, the specific implementation of the sampling procedure, the code used for analysis, and the complete supplementary tables were not available for verification. The unpublished predictor DisoPred could not be independently assessed.
+
+## Reviewer
+- **Overall assessment** This manuscript provides a valuable and timely re-analysis of the CAID2 binding IDR prediction results, addressing important limitations in the original evaluation design. The authors correctly identify that the original CAID2 binding IDR assessment was biased by testing on proteins where most IDRs are binding, and by not differentiating ligand types. Their expanded evaluation across three scenarios is methodologically sound and reveals important insights, particularly the finding that most predictors are ligand-type agnostic. The work is clearly written and the statistical approach is appropriate. However, several technical aspects require clarification, particularly around the annotation of ligand types, the handling of the unpublished DisoPred method, and the interpretation of cross-prediction rates. The practical recommendations for future method development are reasonable and well-supported by the data presented.
+- **Who would be interested in the results, and why** Researchers developing predictors of disordered binding regions, computational biologists working on intrinsically disordered proteins, and experimentalists who use these prediction tools to prioritize candidate binding regions for validation. The findings on cross-prediction and the practical comparison of available tools will be directly useful for tool selection. The identified limitations of current methods and the suggested future directions will inform the next generation of predictor development.
+- **Major strengths** (1) The study addresses a clear and important gap in the original CAID2 evaluation by considering more practical and realistic scenarios. (2) The use of the full CAID2 dataset with 348 proteins substantially increases the statistical power and generalizability of the findings. (3) The ligand-type-specific analysis is a significant improvement over the original evaluation and provides novel insights into cross-prediction behavior. (4) The inclusion of disorder predictors as comparators is an important control that reveals the limitations of binding IDR predictors. (5) The statistical testing with multiple comparison correction is rigorous. (6) The practical summary of the best-performing methods in Table 5 is useful for end users.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The authors claim to have annotated ligand types for binding IDRs using a two-step approach combining IDPO annotations from DisProt and GO terms from InterProScan, resulting in 72% of binding IDR residues being annotated.
+  - **Evidence pointer** Section 2.2, Table 1
+  - **Concern** The annotation process is described only briefly. The authors do not specify how conflicts between IDPO and GO annotations were resolved, what confidence thresholds were used for InterProScan matches, or how the 28% of unannotated binding IDR residues were handled in the ligand-type-specific analyses. The accuracy of the ligand-type annotation is critical to the validity of the ligand-type-specific results in Tables 3 and 4. If the annotation is noisy, the reported AUC differences between ligand types could be substantially biased.
+  - **Why it matters** The central novel contribution of this manuscript is the ligand-type-specific analysis. If the underlying annotations are unreliable, the conclusions about which predictors perform well for which ligand types, and the cross-prediction analysis, would be compromised.
+  - **Resolution test** The authors should provide a detailed description of the annotation pipeline, including the specific IDPO terms and GO terms used, the matching criteria, and how unannotated residues were treated. Ideally, they should also provide an assessment of annotation accuracy, for example by manual curation of a random subset or comparison with an independent annotation source.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors state that "disorder predictors cannot accurately identify binding IDRs among other disordered regions" based on the results in Table 3.
+  - **Evidence pointer** Section 3.2, Table 3
+  - **Concern** The best disorder predictor (DisoPred) achieves an AUC of 0.683 in Table 3, which is higher than most binding IDR predictors. The authors dismiss this as an "unusual result" and speculate that DisoPred may use DeepDISOBind outputs as inputs, but this is not verified. The claim that disorder predictors "cannot accurately identify" binding IDRs is too strong given that one disorder predictor outperforms most dedicated binding IDR predictors. The authors should either temper this claim or provide additional analysis to explain DisoPred's performance.
+  - **Why it matters** The conclusion that disorder predictors are unsuitable for binding IDR prediction is a key message of the paper. If a disorder predictor can perform comparably to dedicated binding IDR predictors, this conclusion needs to be nuanced.
+  - **Resolution test** The authors should either (a) verify whether DisoPred uses DeepDISOBind as input and discuss the implications, (b) provide additional analysis of DisoPred's predictions to understand its behavior, or (c) revise the claim to acknowledge that at least one disorder predictor shows unexpected performance that warrants further investigation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology
+  - **Claim pointer** The authors use a normalized cross-prediction rate defined as the cross-prediction rate divided by the sensitivity, and state that a rate of 1 corresponds to a ligand-agnostic predictor.
+  - **Evidence pointer** Section 3.4, Figure 1
+  - **Concern** The normalization approach is not fully justified. Dividing the cross-prediction rate by sensitivity may not adequately account for differences in the base rates of different ligand types in the test set. For example, if protein binding IDRs are much more abundant than nucleic acid binding IDRs, a predictor that predicts everything as binding would have a high cross-prediction rate for nucleic acids but this may not reflect true cross-prediction behavior. The authors should clarify the properties of this metric and consider alternative approaches such as calibration plots or precision-recall curves stratified by ligand type.
+  - **Why it matters** The cross-prediction analysis is a key novel contribution. If the metric is not well-calibrated, the conclusions about which predictors are ligand-type specific versus agnostic could be misleading.
+  - **Resolution test** The authors should provide a more detailed justification of the normalized cross-prediction rate, including its mathematical properties and potential limitations. They should also consider presenting additional analyses, such as confusion matrices or stratified precision-recall curves, to support their conclusions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness
+  - **Claim pointer** The authors state that they evaluated "all 32 binding IDR predictors" from CAID2, but Table 2 shows coverage values below 1 for several predictors, and two predictors (SPOT-Disorder2 and AlphaFold-derived) have particularly low coverage.
+  - **Evidence pointer** Section 2.1, Table 2
+  - **Concern** The manuscript does not explain how missing predictions were handled in the analysis. Were residues without predictions excluded from the evaluation? If so, this could bias the results for predictors with low coverage, as they would be evaluated on a non-random subset of residues. The authors should clarify the handling of missing predictions and discuss the potential impact on their conclusions.
+  - **Why it matters** If predictors with low coverage are evaluated on a biased subset of residues, their performance metrics may not be comparable to predictors with full coverage. This could affect the ranking of methods and the conclusions about which predictors perform best.
+  - **Resolution test** The authors should describe how missing predictions were handled and provide a sensitivity analysis, for example by evaluating all predictors on the subset of residues where all predictors produced predictions, to assess the impact of missing data on their conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The categorization of predictors into four groups based on ligand type is clear, but the authors do not explain how predictors that target multiple ligand types (e.g., ENSHROUD-all) were classified. The text states that ENSHROUD-all predicts both protein and nucleic acid binding IDRs, but it is listed under "Proteins, nucleic acids" in Table 2. This is clear, but the criteria for the "All ligand types (type agnostic)" category could be more explicit.
+  - **Required correction** Clarify the classification criteria for the four predictor categories, particularly the distinction between predictors that target multiple specific ligand types and those that are truly ligand-type agnostic.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Table 2
+  - **Evidence pointer** Table 2
+  - **Issue** The statistical significance annotations in Table 2 are complex and difficult to interpret at a glance. The use of "+", "-", and "=" symbols with two positions (x and y) requires careful reading of the legend. A simpler presentation, such as using bold for the best method and asterisks for significant differences, might be more accessible.
+  - **Required correction** Consider simplifying the statistical significance presentation in Tables 2-4 to improve readability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3, Table 4
+  - **Concern** The authors report p-values for comparisons of AUCs between ligand types for each predictor, but they do not report effect sizes or confidence intervals. Given the relatively small number of binding residues for some ligand types (e.g., 455 for nucleic acids), confidence intervals would help assess the precision of the AUC estimates.
+  - **Required correction** Consider reporting confidence intervals for the AUC estimates in Table 4, particularly for ligand types with small numbers of residues.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of future directions is somewhat generic. The suggestion to use "well-designed deep neural networks coupled with protein language models" is reasonable but could be more specific. For example, the authors could discuss whether existing protein language models have been evaluated for this task, or what specific architectural choices might address the cross-prediction problem.
+  - **Required correction** Provide more specific and actionable recommendations for future method development, potentially referencing specific existing models or approaches.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The description of the statistical testing procedure is brief. The authors state they used the Kolmogorov-Smirnov test, paired t-test or Wilcoxon test, and Benjamini-Hochberg correction, but do not provide details on the exact implementation, such as the software used or the specific parameters.
+  - **Required correction** Provide more details on the statistical analysis implementation to ensure reproducibility.
+
+## Risk / unsupported claims
+- The claim that "disorder predictors cannot accurately identify binding IDRs among other disordered regions" is too strong given that DisoPred achieves an AUC of 0.683 in Table 3, outperforming most binding IDR predictors. This claim is not fully supported by the presented data.
+- The speculation that DisoPred's performance is due to using DeepDISOBind outputs as inputs is not verified and should be clearly labeled as speculation.
+- The claim that the authors were "the first to quantify cross predictions between IDRs that bind different ligand types" is difficult to verify without a more comprehensive literature search, and this claim should be softened or supported with additional references.
+- The accuracy of the ligand-type annotation, which is critical to the ligand-type-specific analyses, cannot be fully assessed from the information provided. The authors report that 72% of binding IDR residues were annotated, but the reliability of this annotation is not established.
+- The handling of missing predictions for predictors with incomplete coverage is not described, and the potential impact on the results is not assessed.

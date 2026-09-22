@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "38162180",
+    "doi": "10.3389/fbioe.2023.1291245",
+    "title": "Structural analysis and functional evaluation of the disordered ss-hexosyltransferase region from Hamamotoa (Sporobolomyces) singularis."
+  },
+  "content": {
+    "abstract": "Hamamotoa (Sporobolomyces) singularis codes for an industrially important membrane bound ss-hexosyltransferase (BHT), (BglA, UniprotKB: Q564N5) that has applications in the production of natural fibers such as galacto-oligosaccharides (GOS) and natural sugars found in human milk. When heterologously expressed by Komagataella phaffii GS115, BHT is found both membrane bound and soluble secreted into the culture medium. In silico structural predictions and crystal structures support a glycosylated homodimeric enzyme and the presence of an intrinsically disordered region (IDR) with membrane binding potential within its novel N-terminal region (1-110 amino acids). Additional in silico analysis showed that the IDR may not be essential for stable homodimerization. Thus, we performed progressive deletion analyses targeting segments within the suspected disordered region, to determine the N-terminal disorder region's impact on the ratio of membrane-bound to secreted soluble enzyme and its contribution to enzyme activity. The ratio of the soluble secreted to membrane-bound enzyme shifted from 40% to 53% after the disordered N-terminal region was completely removed, while the specific activity was unaffected. Furthermore, functional analysis of each glycosylation site found within the C-terminal domain revealed reduced total secreted protein activity by 58%-97% in both the presence and absence of the IDR, indicating that glycosylation at all four locations is required by the host for the secretion of active enzyme and independent of the removed disordered N-terminal region. Overall, the data provides evidence that the disordered region only partially influences the secretion and membrane localization of BHT.",
+    "keywords": [
+      "Hamamotoa singularis",
+      "disorder",
+      "expression",
+      "kinetics",
+      "mutagenesis",
+      "transglycosylation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dagher, Suzanne F",
+        "Vaishnav, Asmita",
+        "Stanley, Christopher B",
+        "Meilleur, Flora",
+        "Edwards, Brian F P",
+        "Bruno-Barcena, Jose M"
+      ],
+      "short_names": [
+        "Dagher SF",
+        "Vaishnav A",
+        "Stanley CB",
+        "Meilleur F",
+        "Edwards BFP",
+        "Bruno-Barcena JM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, United States.",
+        "Department of Biochemistry, Microbiology and Immunology, Wayne State University, Detroit, MI, United States.",
+        "Computational Sciences and Engineering Division, Oak Ridge, TN, United States.",
+        "Neutron Sciences Directorate, Oak Ridge National Laboratory, Oak Ridge, TN, United States.",
+        "Department of Molecular and Structural Biochemistry, North Carolina State University, Raleigh, NC, United States.",
+        "Department of Biochemistry, Microbiology and Immunology, Wayne State University, Detroit, MI, United States.",
+        "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dagher, Suzanne F",
+        "short_name": "Dagher SF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, United States."
+        ]
+      },
+      {
+        "full_name": "Vaishnav, Asmita",
+        "short_name": "Vaishnav A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Microbiology and Immunology, Wayne State University, Detroit, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Stanley, Christopher B",
+        "short_name": "Stanley CB",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Sciences and Engineering Division, Oak Ridge, TN, United States."
+        ]
+      },
+      {
+        "full_name": "Meilleur, Flora",
+        "short_name": "Meilleur F",
+        "identifiers": [],
+        "affiliations": [
+          "Neutron Sciences Directorate, Oak Ridge National Laboratory, Oak Ridge, TN, United States.",
+          "Department of Molecular and Structural Biochemistry, North Carolina State University, Raleigh, NC, United States."
+        ]
+      },
+      {
+        "full_name": "Edwards, Brian F P",
+        "short_name": "Edwards BFP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Microbiology and Immunology, Wayne State University, Detroit, MI, United States."
+        ]
+      },
+      {
+        "full_name": "Bruno-Bárcena, José M",
+        "short_name": "Bruno-Bárcena JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant and Microbial Biology, North Carolina State University, Raleigh, NC, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioengineering and biotechnology"
+    ],
+    "journal_abbrev": [
+      "Front Bioeng Biotechnol"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/02 11:42",
+    "fetched_at": "2026-09-21 03:58:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "33898497",
+      "33509277",
+      "33467830",
+      "33155649",
+      "33119751",
+      "32713015",
+      "32269229",
+      "31251384",
+      "30956226",
+      "30955810",
+      "30778233",
+      "30706340",
+      "30357350",
+      "30332787",
+      "29860432",
+      "29780502",
+      "29780404",
+      "29450673",
+      "29339290",
+      "28516008",
+      "28516007",
+      "28232901",
+      "27561554",
+      "27391701",
+      "26839072",
+      "26651072",
+      "26552922",
+      "25950237",
+      "25584074",
+      "25391399",
+      "25075342",
+      "24773235",
+      "24753421",
+      "23840574",
+      "23793146",
+      "23619693",
+      "23241974",
+      "22899623",
+      "22814390",
+      "22174266",
+      "22153503",
+      "21700901",
+      "21614187",
+      "21482101",
+      "21460447",
+      "20383002",
+      "20124702",
+      "20124692",
+      "19421996",
+      "19285412",
+      "19039133",
+      "17681537",
+      "17430199",
+      "17282998",
+      "16233798",
+      "15751111",
+      "14960716",
+      "14907713",
+      "13943102",
+      "12824398",
+      "11878307",
+      "11072336",
+      "11062556",
+      "10694887",
+      "10574687",
+      "10493868",
+      "7624375",
+      "5389663",
+      "942051"
+    ],
+    "similar": [
+      "38162180",
+      "26552922",
+      "23241974",
+      "34878143",
+      "38746434",
+      "19029770",
+      "16233798",
+      "34243065",
+      "35658951",
+      "23760157",
+      "33436890",
+      "28780862",
+      "29474823",
+      "27715472",
+      "37622732",
+      "34179096",
+      "8464872",
+      "1560012",
+      "8612616",
+      "9620884",
+      "17011210",
+      "33627133",
+      "36481966",
+      "7816801",
+      "11829764",
+      "26684000",
+      "29844400",
+      "9006010",
+      "32783888",
+      "37125110",
+      "26136744",
+      "30327321",
+      "23075227",
+      "9059515",
+      "11294832",
+      "10364309",
+      "12499379",
+      "26699903",
+      "26305482",
+      "33936509",
+      "20153530",
+      "22468560",
+      "8253769",
+      "16388317",
+      "7654214",
+      "29362230",
+      "27082063",
+      "15003263",
+      "16046624",
+      "25138014",
+      "11882390",
+      "28779345",
+      "34656327",
+      "37269287",
+      "31641085",
+      "30841624",
+      "15737642",
+      "25036491",
+      "36153968",
+      "21303909",
+      "23497088",
+      "11139573",
+      "24704038",
+      "10766842",
+      "22905195",
+      "8114701",
+      "32765822",
+      "11563913",
+      "8301235",
+      "9688281",
+      "15628971",
+      "8626393",
+      "7876250",
+      "30155058",
+      "26735936",
+      "32544231",
+      "32940107",
+      "29769343",
+      "1730674",
+      "7658150",
+      "19585006",
+      "10764842",
+      "7806965",
+      "27288992",
+      "30703364",
+      "8870266",
+      "15545279"
+    ],
+    "review": [
+      "38162180",
+      "26136744"
+    ],
+    "pmc": [
+      "10755861"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38162180/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38162180",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbioe.2023.1291245",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38162180",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

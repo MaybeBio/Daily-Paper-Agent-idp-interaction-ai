@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors introduce GISTnet-MD, an explainable deep learning framework that learns state-specific dynamic signatures from molecular dynamics trajectories using a dynamic protein graph representation and group-aware contrastive learning across independent replicas. The method is claimed to filter trajectory-specific correlations, map identified differences to individual residues via explainable AI, and generalize across unseen data. Applications are reported for three systems: a T4-Lysozyme mutant, the PDZ3 domain, and the A2A receptor.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark comparisons, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, figures, tables, supplementary information, and any quantitative performance metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting methodological contribution at the intersection of graph neural networks, contrastive learning, and molecular dynamics analysis. The choice of three diverse biological systems suggests broad applicability. However, the abstract lacks quantitative evidence, methodological specificity, and validation details. The core claims of generalizability, explainability, and biological discovery cannot be assessed from the supplied material. The work may be of interest to computational biologists and machine learning practitioners, but the current evidence base is insufficient to evaluate technical soundness or scientific impact.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists using MD simulations would be interested in improved methods for extracting functional signals from noisy trajectory data. Machine learning researchers working on geometric deep learning and contrastive methods for scientific applications may find the graph-based architecture relevant. Researchers studying allosteric regulation in GPCRs, PDZ domains, and lysozyme systems could benefit if the biological claims are substantiated.
+- **Major strengths** The conceptual framing addresses a real and recognized problem in MD analysis, namely separating functional signals from stochastic and trajectory-specific noise. The use of group-aware contrastive learning across replicas is a sensible design choice for this problem. The selection of three distinct biological systems with different binding mechanisms suggests an intention to demonstrate generalizability. The emphasis on explainability and residue-level mapping aligns with the practical needs of the MD community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method "learns state-specific dynamic signatures directly from MD trajectories" and "filters out trajectory-specific correlations"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No methodological details are provided regarding the graph construction, the contrastive loss formulation, the architecture of the neural network, or the training procedure. The claim that trajectory-specific correlations are filtered cannot be evaluated without understanding how the group-aware mechanism operates and what baselines it is compared against.
+  - **Why it matters** The central technical contribution rests on the ability to separate functional signals from noise. Without details on the model architecture, loss function, and training strategy, the reader cannot assess whether the approach is novel, sound, or likely to generalize. The claim of filtering trajectory-specific correlations is a strong statement that requires explicit demonstration.
+  - **Resolution test** Provide a full methods section describing the graph representation, contrastive learning objective, model architecture, and training details. Include ablation studies showing the contribution of the group-aware mechanism and comparisons against standard baselines such as PCA, time-structure independent component analysis, or simpler classifiers.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The method "recovers the allosteric determinants of peptide recognition in the PDZ3 domain" and "isolates a ligand-independent activation signature for the A2A receptor"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative results are presented for any of the three biological applications. There are no metrics, no comparisons to known experimental data, no statistical significance measures, and no validation against established allosteric determinants. The phrase "recovers" implies comparison to ground truth, but no such comparison is shown.
+  - **Why it matters** The biological claims are the primary demonstration of the method's utility. Without quantitative evidence that the identified residues match known functional determinants, the claims remain anecdotal. The A2A receptor claim of a "ligand-independent activation signature" is particularly strong and requires careful validation against experimental mutagenesis or other structural data.
+  - **Resolution test** Provide quantitative comparisons between predicted residue-level determinants and experimentally validated allosteric sites for each system. Include statistical measures such as precision, recall, or enrichment scores. For the A2A receptor, show how the predicted signature relates to known activation mechanisms and compare against inactive-state simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** "Our GISTnet-MD method generalizes across unseen data during comparative MD analysis"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of generalization across unseen data is not supported by any described evaluation protocol. It is unclear what constitutes "unseen data" in this context, whether this refers to held-out replicas, held-out systems, or held-out time points. No cross-validation or external validation results are mentioned.
+  - **Why it matters** Generalization is a core claim of the method and a key differentiator from traditional approaches. Without a clear definition of the evaluation protocol and quantitative results, this claim cannot be verified. Overfitting to specific trajectory features is a common failure mode in deep learning applied to MD data.
+  - **Resolution test** Describe the train-test split strategy explicitly. Provide performance metrics on held-out replicas or systems, and include a demonstration that the learned signatures transfer across independent simulations. If possible, include a prospective validation on a system not used during development.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Method availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of code availability, software dependencies, or data availability for the MD trajectories used.
+  - **Required correction** State in the abstract or methods whether code and data will be made publicly available, and provide a repository link or accession numbers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "binding-ready conformations" is used without a precise operational definition. It is unclear whether this refers to a specific structural criterion, an energetic threshold, or a population-based definition.
+  - **Required correction** Define "binding-ready" explicitly in the methods, including the criteria used to label states during training or evaluation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparative evaluation
+  - **Affected element** Baseline comparisons
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No comparison to existing methods for MD analysis, such as Markov state models, dynamic network analysis, or other deep learning approaches, is mentioned.
+  - **Required correction** Include a comparison against at least one established method to contextualize the claimed advantages.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of methodological detail, quantitative results, and a defined generalization protocol means the central claims are currently unsupported.
+- **Assessment against Nature-style criteria** Originality: The combination of graph neural networks with group-aware contrastive learning for MD trajectory analysis appears conceptually novel, though the abstract does not allow assessment of novelty relative to existing deep learning approaches for MD. Scientific importance: The problem of extracting functional signals from MD simulations is important, and the three biological systems are of broad interest, but the significance of the specific findings cannot be evaluated without results. Interdisciplinary readership: The work bridges machine learning and structural biology, which could appeal to both communities, but the abstract is written in a way that may be accessible to computational readers while lacking the biological detail needed to engage experimentalists. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological and validation details is a major limitation. Readability for nonspecialists: The abstract is reasonably clear for a technical audience but uses jargon such as "group-aware contrastive learning" and "dynamic protein graph representation" without sufficient explanation for a general scientific readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising direction, but the absence of methodological detail, quantitative results, and a defined validation protocol means the core claims cannot be evaluated. A full manuscript with methods, results, and comparisons would be required to assess whether the case is established.
+
+## Risk / unsupported claims
+- The claim that the method "filters out trajectory-specific correlations" is unsupported without ablation studies or comparisons to alternative approaches.
+- The claim of "recovering" allosteric determinants in PDZ3 and isolating an activation signature in A2A is unsupported without quantitative comparisons to experimental data.
+- The claim of generalization across unseen data is unsupported without a defined evaluation protocol and results.
+- The claim that the method "translates raw trajectory differences into residue-level determinants of protein function" is a broad statement that requires demonstration across multiple systems with validation.
+- The overall performance of the method relative to existing approaches is unassessable from the supplied material.

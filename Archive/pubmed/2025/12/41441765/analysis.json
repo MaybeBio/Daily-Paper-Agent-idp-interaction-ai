@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41441765",
+  "title": "Martini 3 Coarse-Grained Models of Azobenzene-Based Photolipids: Modulation of Membranes with Light.",
+  "authors": "Gil Herrero, Cristina; Duve, Thilo; Thallmair, Sebastian",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2025-12-24",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 3,
+  "one_liner_zh": "该文开发Martini 3粗粒化模型模拟偶氮苯光敏脂质调控膜性质，对象为脂质膜而非无序蛋白/IDR，且无PPI或AI/物理模拟机制建模，仅间接涉及膜蛋白灵活性，与本课题关联微弱。",
+  "abstract": "Photoswitchable lipids offer an attractive way to manipulate the biophysical properties of membranes by means of light. Their application to modulate membrane properties, manipulate membrane proteins, and photocontrol cargo release is gaining popularity. Here, we present coarse-grained Martini 3 models for azobenzene- and azobenzene-based photoswitchable lipids. Our models show good agreement with atomistic reference simulations. Furthermore, we apply our coarse-grained photolipid models to study the photocontrol of lateral phase separation, protein flexibility, and membrane permeability. The results agree well with experimental data from the literature and highlight the broad applicability of our Martini 3 photolipid models. They will enable studying the impact of photolipid switching on large membrane systems as well as on their (bio)molecular interaction partners.",
+  "abstract_zh": "光开关脂质（photoswitchable lipids）提供了一种通过光来操控膜生物物理性质的有吸引力的方式。它们用于调节膜性质、操控膜蛋白以及光控货物释放的应用正日益流行。在此，我们提出了基于偶氮苯和偶氮苯类光开关脂质的粗粒化Martini 3模型。我们的模型与原子级参考模拟显示出良好的一致性。此外，我们应用我们的粗粒化光脂质模型来研究横向相分离、蛋白质柔性和膜通透性的光控。结果与文献中的实验数据吻合良好，并突显了我们Martini 3光脂质模型的广泛适用性。它们将有助于研究光脂质切换对大型膜系统及其（生物）分子相互作用伙伴的影响。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41441765/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41441765/",
+  "paper_page_path": "papers/pubmed/41441765/index.html"
+}

@@ -1,0 +1,373 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.13.562220",
+  "title": "FibrilPaint to determine the length of Tau amyloids in fluids",
+  "doi": "10.1101/2023.10.13.562220",
+  "abstract": "Tau aggregation into amyloid fibrils is linked to the development of neurodegenerative diseases, including Alzheimer’s Disease. The molecular processes underlying aggregation in disease are poorly understood. Here, we introduce FibrilPaint1 as a tool to measure the size of Tau amyloid fibrils in fluids, from early aggregation stages to mature fibrils. FibrilPaint1 is a 22mer peptide with many exciting properties, which makes it a tool for diagnostics and an attractive start point for developing a class of effective fibril targeting degraders: (i) FibrilPaint1 binds fibrils with nanomolar affinity; (ii) it does also bind to oligomeric precursors, down to a size of only 4 layers; (iii) it does not bind to monomers (KD > 100 µM); (iv) it is fluorescently labelled, which allows monitoring and localising interactions. (v) FibrilPaint1 recognises various Tau fibrils, including patient derived fibrils from Alzheimer, Corticobasal degeneration and Frontotemporal dementia; (vi) FibrilPaint1 is selective for the amyloid state and does not have background binding to amorphous aggregates, blood serum or cell lysate. In combination with Flow Induced Dispersion Analysis (FIDA), a microfluidics technology, we determined the molecular size of amyloid fibrils with sub-microliter sample volumes. This set-up acts as a molecular ruler at layer resolution - we determined Tau fibril length from 4 to 1100 layers in solution. This is an interesting parameter that can be used for diagnostic applications and biochemical research in dementia.",
+  "authors": [
+    "Aragonès Pedrola J",
+    "Dekker FA",
+    "Garfagnini T",
+    "Mayer G",
+    "Koopman MB",
+    "Bergmeijer M",
+    "Förster F",
+    "Hoozemans JJM",
+    "Jensen H",
+    "Friedler A",
+    "Rüdiger SGD"
+  ],
+  "published_date": "2023-10-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.13.562220",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.13.562220.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR741730",
+    "raw_record": {
+      "id": "PPR741730",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR741730"
+        ]
+      },
+      "doi": "10.1101/2023.10.13.562220",
+      "title": "FibrilPaint to determine the length of Tau amyloids in fluids",
+      "authorString": "Aragonès Pedrola J, Dekker FA, Garfagnini T, Mayer G, Koopman MB, Bergmeijer M, Förster F, Hoozemans JJM, Jensen H, Friedler A, Rüdiger SGD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Aragonès Pedrola J",
+            "lastName": "Aragonès Pedrola",
+            "firstName": "Júlia",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Chemistry of Disease, Department of Chemistry, , Padualaan 8 , ,"
+                },
+                {
+                  "affiliation": "Cellular Protein Chemistry, Bijvoet Center for Biomolecular Research, , Padualaan 8 , ,"
+                },
+                {
+                  "affiliation": "Science for Life, , Padualaan 8 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dekker FA",
+            "lastName": "Dekker",
+            "firstName": "Françoise",
+            "initials": "FA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-6482-8082"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Chemistry of Disease, Department of Chemistry, , Padualaan 8 , ,"
+                },
+                {
+                  "affiliation": "Cellular Protein Chemistry, Bijvoet Center for Biomolecular Research, , Padualaan 8 , ,"
+                },
+                {
+                  "affiliation": "Science for Life, , Padualaan 8 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garfagnini T",
+            "lastName": "Garfagnini",
+            "firstName": "Tommaso",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Chemistry, , Edmond J. Safra Campus at Givat Ram , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mayer G",
+            "lastName": "Mayer",
+            "firstName": "Guy",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Chemistry, , Edmond J. Safra Campus at Givat Ram , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Koopman MB",
+            "lastName": "Koopman",
+            "firstName": "Margreet",
+            "initials": "MB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6100-4898"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Chemistry of Disease, Department of Chemistry, , Padualaan 8 , ,"
+                },
+                {
+                  "affiliation": "Cellular Protein Chemistry, Bijvoet Center for Biomolecular Research, , Padualaan 8 , ,"
+                },
+                {
+                  "affiliation": "Science for Life, , Padualaan 8 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bergmeijer M",
+            "lastName": "Bergmeijer",
+            "firstName": "Menno",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Science for Life, , Padualaan 8 , ,"
+                },
+                {
+                  "affiliation": "Structural Biochemistry, Bijvoet Centre for Biomolecular Research, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Förster F",
+            "lastName": "Förster",
+            "firstName": "Friedrich",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Science for Life, , Padualaan 8 , ,"
+                },
+                {
+                  "affiliation": "Structural Biochemistry, Bijvoet Centre for Biomolecular Research, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoozemans JJM",
+            "lastName": "Hoozemans",
+            "firstName": "Jeroen",
+            "initials": "JJM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2888-8967"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jensen H",
+            "lastName": "Jensen",
+            "firstName": "Henrik",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6750-2716"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Fida Biosystems ApS Generatorvej 6 A+B 2860 Søborg Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Friedler A",
+            "lastName": "Friedler",
+            "firstName": "Assaf",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1592-1278"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Chemistry, , Edmond J. Safra Campus at Givat Ram , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rüdiger SGD",
+            "lastName": "Rüdiger",
+            "firstName": "Stefan",
+            "initials": "SGD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Chemistry of Disease, Department of Chemistry, , Padualaan 8 , ,"
+                },
+                {
+                  "affiliation": "Cellular Protein Chemistry, Bijvoet Center for Biomolecular Research, , Padualaan 8 , ,"
+                },
+                {
+                  "affiliation": "Science for Life, , Padualaan 8 , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6100-4898"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6750-2716"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2888-8967"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6044-2746"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1592-1278"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1991-3283"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-6482-8082"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Tau aggregation into amyloid fibrils is linked to the development of neurodegenerative diseases, including Alzheimer’s Disease. The molecular processes underlying aggregation in disease are poorly understood. Here, we introduce FibrilPaint1 as a tool to measure the size of Tau amyloid fibrils in fluids, from early aggregation stages to mature fibrils. FibrilPaint1 is a 22mer peptide with many exciting properties, which makes it a tool for diagnostics and an attractive start point for developing a class of effective fibril targeting degraders: (i) FibrilPaint1 binds fibrils with nanomolar affinity; (ii) it does also bind to oligomeric precursors, down to a size of only 4 layers; (iii) it does not bind to monomers (KD > 100 µM); (iv) it is fluorescently labelled, which allows monitoring and localising interactions. (v) FibrilPaint1 recognises various Tau fibrils, including patient derived fibrils from Alzheimer, Corticobasal degeneration and Frontotemporal dementia; (vi) FibrilPaint1 is selective for the amyloid state and does not have background binding to amorphous aggregates, blood serum or cell lysate. In combination with Flow Induced Dispersion Analysis (FIDA), a microfluidics technology, we determined the molecular size of amyloid fibrils with sub-microliter sample volumes. This set-up acts as a molecular ruler at layer resolution - we determined Tau fibril length from 4 to 1100 layers in solution. This is an interesting parameter that can be used for diagnostic applications and biochemical research in dementia.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "ZonMw",
+            "grantId": "91215084",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/11/15/2023.10.13.562220.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.10.13.562220"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR741730"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR741730&type=FILE&fileName=EMS189649-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41144666",
+            "reference": "Proceedings of the National Academy of Sciences of the United States of America. \n    2025 Nov;122(44):e2502847122",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS189649",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-10-16",
+      "firstPublicationDate": "2023-10-13",
+      "firstIndexDate": "2023-10-16",
+      "fullTextReceivedDate": "2025-01-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.22.426549",
+  "title": "Molecular basis of small-molecule binding to α-synuclein",
+  "authors": "Robustelli P; Ibanez-de-Opakua A; Campbell-Bezat C; Giordanetto F; Becker S; Zweckstetter M; Pan AC; Shaw DE",
+  "journal": "bioRxiv",
+  "published_date": "2021-01-24",
+  "window": {
+    "start": "2021-01-18",
+    "end": "2021-01-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用长时间尺度MD模拟研究α-synuclein（IDP）与小分子药物fasudil的结合机制，提出动态穿梭机制，虽对象为IDP-小分子而非PPI，但无序蛋白结合机制建模方法对本课题有直接启发。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are implicated in many human diseases. They have generally not been amenable to conventional structure-based drug design, however, because their intrinsic conformational variability has precluded an atomic-level understanding of their binding to small molecules. Here we present long-timescale, atomic-level molecular dynamics (MD) simulations of monomeric α-synuclein (an IDP whose aggregation is associated with Parkinson’s disease) binding the small-molecule drug fasudil in which the observed protein-ligand interactions were found to be in good agreement with previously reported NMR chemical shift data. In our simulations, fasudil, when bound, favored certain charge-charge and π-stacking interactions near the C terminus of α-synuclein, but tended not to form these interactions simultaneously, rather breaking one of these interactions and forming another nearby (a mechanism we term dynamic shuttling ). Further simulations with small molecules chosen to modify these interactions yielded binding affinities and key structural features of binding consistent with subsequent NMR experiments, suggesting the potential for MD-based strategies to facilitate the rational design of small molecules that bind with disordered proteins.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 与多种人类疾病相关。然而，由于它们固有的构象变异性阻碍了对其与小分子结合进行原子级理解，它们通常不适用于传统的基于结构的药物设计。在此，我们展示了单体α-突触核蛋白（一种与帕金森病相关的IDP，其聚集与疾病相关）与小分子药物法舒地尔结合的长时间尺度、原子级分子动力学 (molecular dynamics, MD) 模拟，其中观察到的蛋白质-配体相互作用与先前报道的NMR化学位移数据高度一致。在我们的模拟中，法舒地尔在结合时倾向于在α-突触核蛋白的C端附近形成特定的电荷-电荷和π-堆积相互作用，但往往不会同时形成这些相互作用，而是打破其中一种相互作用并在附近形成另一种（我们称之为动态穿梭机制）。通过选择小分子来修饰这些相互作用的进一步模拟，所得结合亲和力和关键结构特征与后续NMR实验一致，表明基于MD的策略可能有助于促进与小分子结合无序蛋白的合理设计。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.22.426549",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.22.426549",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.22.426549/index.html"
+}

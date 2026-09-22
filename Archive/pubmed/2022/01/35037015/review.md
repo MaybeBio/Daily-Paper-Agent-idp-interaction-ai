@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a statistical framework, IDR-DCA, that applies reproducibility analysis to DCA coupling scores from MSA replicates to select significantly evolutionarily coupled residue pairs. They claim stable and improved contact prediction performance across monomeric proteins, protein-protein interactions, and monomeric RNAs, robustness to MSA downsampling, and utility in RNA secondary structure prediction.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are available
+- **Missing materials affecting confidence** Full methods, all figures and tables, MSA construction and replicate generation details, DCA versions and parameters, benchmark datasets, comparison baselines, downsampling protocol, and RNA structure prediction results
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing idea, namely using reproducibility across MSA replicates to threshold DCA scores, which could address a recognized problem in the field. However, the abstract alone provides insufficient detail to evaluate the validity, generality, or significance of the claims. The performance improvements are stated without quantitative support, and the methodological choices that would determine the framework's utility are not described. The work may be of interest to computational biologists working on contact prediction and evolutionary coupling analysis, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in protein structure prediction, protein-protein interaction modeling, RNA structure prediction, and evolutionary sequence analysis would be interested. The framework addresses the practical challenge of selecting significant coupling pairs from DCA outputs, which is a bottleneck in applying DCA to real-world prediction tasks. The claimed generality across three biomolecular contexts and three DCA versions would broaden its appeal.
+- **Major strengths** The proposed framework addresses a clearly identified and practically important problem, namely the non-trivial selection of significant coupling pairs from DCA results. The idea of using reproducibility analysis on MSA replicates is conceptually novel and potentially generalizable across different DCA implementations and biomolecular systems. The abstract indicates testing across multiple contexts, which suggests an intention toward broad applicability.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that IDR-DCA yields stable performance with a universal threshold and better performance than tuned cutoffs  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states that IDR-DCA "always showed better performance" compared to tuned cutoffs, but no quantitative metrics, effect sizes, or statistical significance are reported. The claim of "stable performance" is also undefined. Without specific performance measures, dataset sizes, or comparison protocols, the strength and consistency of the improvement cannot be assessed.  
+  - **Why it matters** The central contribution of the work is the claimed superiority of IDR-DCA over existing thresholding approaches. If this claim is not rigorously quantified, the practical value of the framework remains unsubstantiated.  
+  - **Resolution test** Provide performance metrics, such as precision, recall, or F1 scores, for contact prediction across all tested systems, with error bars or confidence intervals, and a clear definition of "stable" and "better" in statistical terms.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and methodological clarity  
+  - **Claim pointer** The claim that IDR-DCA is a "general statistical framework" based on "reproducibility analysis of the coupling scores obtained from DCA on manually created MSA replicates"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe how MSA replicates are created, how many replicates are used, how the IDR threshold is determined, or how the framework is calibrated across different DCA versions and input types. The term "manually created" is ambiguous and could imply a lack of automation or a potential source of bias.  
+  - **Why it matters** Reproducibility and generality depend on the exact procedure being well-defined and automated. If the replicate creation or threshold selection requires manual intervention, the framework may not be broadly applicable or reproducible by others.  
+  - **Resolution test** Provide a detailed, step-by-step description of the replicate generation process, the IDR computation, and the threshold selection, including any parameters and their default values, and demonstrate that the procedure is fully automated.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that IDR-DCA is robust based on "MSA downsampling analysis" and effective for "RNA secondary structure prediction"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract mentions downsampling analysis and RNA secondary structure prediction as supporting evidence, but no results are presented. The number of systems tested, the extent of downsampling, the comparison baselines for RNA structure prediction, and the magnitude of any improvements are all absent.  
+  - **Why it matters** These claims extend the framework's applicability beyond simple contact prediction. Without quantitative evidence, the reader cannot judge whether the framework is genuinely robust or whether the RNA application is meaningful.  
+  - **Resolution test** Present downsampling results showing performance degradation curves for IDR-DCA versus alternatives, and RNA structure prediction results with established metrics such as sensitivity, positive predictive value, or Matthews correlation coefficient, compared to standard baselines.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The claim that IDR-DCA is general across "monomeric proteins, protein-protein interactions and monomeric RNAs" with "three different versions of DCA"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract lists three application contexts and three DCA versions, but does not specify which DCA versions were used for which systems, how many datasets were tested per category, or whether the same universal threshold was applied across all contexts. The generality claim may be overstated if the testing was limited in scope.  
+  - **Why it matters** The framework's value depends on its applicability across diverse systems and DCA implementations. If the testing is narrow or inconsistent, the claimed generality is not supported.  
+  - **Resolution test** Provide a table listing each dataset, the DCA version used, the number of sequences and alignment depth, the IDR threshold applied, and the resulting performance, to demonstrate consistent application and broad coverage.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "irreproducible discovery rate" is used without definition or context. Readers unfamiliar with the IDR concept from genomics may not understand its meaning or how it applies to DCA scores.  
+  - **Required correction** Define IDR in the abstract or provide a brief explanation of how reproducibility is quantified and why the term is appropriate.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Performance comparison  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that IDR-DCA "always showed better performance" but does not specify the baseline thresholding methods used for comparison.  
+  - **Required correction** Name the specific cutoff-based methods or criteria used as baselines, and state whether these were optimized per dataset or fixed.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** RNA application  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The RNA secondary structure prediction application is mentioned only briefly, and it is unclear whether this is a primary contribution or a secondary demonstration.  
+  - **Required correction** Clarify the role of the RNA application in the study and provide at least one quantitative result in the abstract to support the claim.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, the ambiguity in the replicate generation procedure, and the lack of detail on the downsampling and RNA analyses collectively prevent the core claims from being evaluated.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of applying reproducibility analysis to DCA outputs appears novel and could be a meaningful contribution, but the abstract does not demonstrate how this differs from existing thresholding or ranking approaches beyond a conceptual level.  
+  - Scientific importance: The problem addressed is important for the field of contact prediction and evolutionary coupling analysis. If the framework is validated, it could have practical utility. However, the importance is not yet established from the abstract alone.  
+  - Interdisciplinary readership: The work sits at the intersection of statistical methods, bioinformatics, and structural biology. The abstract is written in a way that is accessible to these communities, but the lack of methodological detail limits its broader appeal.  
+  - Technical soundness: Cannot be assessed from the abstract. The key methodological steps and validation results are not described.  
+  - Readability for nonspecialists: The abstract is reasonably clear for a specialist audience, but the undefined term "irreproducible discovery rate" and the absence of context for the RNA application reduce accessibility.  
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual idea is promising, and the authors should be encouraged to provide the full manuscript for review. If the full results support the claims made in the abstract, the work could be of interest to the community. However, based on the abstract alone, the technical and empirical case is not made.
+
+## Risk / unsupported claims
+- The claim that IDR-DCA "always showed better performance" than tuned cutoffs is unsupported without quantitative metrics and statistical testing.
+- The claim of "stable performance" with a universal threshold is undefined and unsupported.
+- The claim of robustness based on "MSA downsampling analysis" is unsupported without results.
+- The claim of effectiveness in "RNA secondary structure prediction" is unsupported without quantitative outcomes.
+- The generality of the framework across three biomolecular contexts and three DCA versions is unverifiable from the abstract.

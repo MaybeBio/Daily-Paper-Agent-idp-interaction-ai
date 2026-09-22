@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41535595",
+  "title": "Molecular driving force of a small molecule-induced protein disorder-order transition.",
+  "authors": "Mendoza-Martinez, Cesar; Gupta, Arun A; Llabres, Salome; Barlow, Paul N; Michel, Julien",
+  "journal": "Communications chemistry",
+  "published_date": "2026-01-15",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过MD模拟、量热和NMR揭示小分子AM-7209诱导MDM2无序lid区域折叠成有序构象的分子驱动力，聚焦IDR折叠-结合机制，虽对象为小分子诱导而非PPI，但机制建模思路对IDR互作研究有直接启发。",
+  "abstract": "The selectivity and affinity of numerous protein-protein interactions depends upon the folding of intrinsically disordered regions (IDRs) that accompanies complexation. Here we investigate how folding-on-binding of a protein IDR by small molecules is facilitated by synergestic exploitation of interactions with a folded protein region. To this end, the molecular driving forces that underpin ordering of the N-terminal intrinsically disordered 'lid' region of the oncoprotein MDM2 by the small molecule AM-7209 were elucidated by a combination of molecular dynamics simulations, calorimetry and NMR measurements. Strikingly, mutations of lid residues distant from the ligand-binding site modulate potency by up to three orders of magnitude. A key requirement for conversion of this IDR into an ordered motif is collective stabilisation of a network of non-polar contacts between a chlorophenyl moiety of AM-7209 and the lid residue I19 to overcome conformational entropy loss associated with folding of the IDR. Our findings underscore the crucial role that protein IDRs can play in drug-resistance mechanisms and expand strategies available to medicinal chemists for ligand optimisation endeavours.",
+  "abstract_zh": "众多蛋白质-蛋白质相互作用的selectivity和affinity依赖于 intrinsically disordered regions (IDRs) 在复合物形成过程中伴随的折叠。在此，我们研究了小分子如何通过协同利用与折叠蛋白区域的相互作用，促进蛋白质IDR的折叠-结合。为此，通过分子动力学 (molecular dynamics) 模拟、量热法和NMR测量的组合，阐明了小分子AM-7209对癌蛋白MDM2的N端 intrinsically disordered 'lid' 区域进行有序化的分子驱动力。引人注目的是，远离配体结合位点的lid残基突变可将效力调节达三个数量级。将该IDR转化为有序基序的关键要求是，AM-7209的氯苯基部分与lid残基I19之间非极性接触网络的集体稳定化，以克服与IDR折叠相关的构象熵损失。我们的发现强调了蛋白质IDRs在药物耐药机制中可能发挥的关键作用，并扩展了药物化学家在配体优化工作中可用的策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41535595/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41535595/",
+  "paper_page_path": "papers/pubmed/41535595/index.html"
+}

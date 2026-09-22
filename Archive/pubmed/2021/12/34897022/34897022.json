@@ -1,0 +1,224 @@
+{
+  "identity": {
+    "pmid": "34897022",
+    "doi": "10.4149/gpb_2021031",
+    "title": "The structure of the unstructured: mosaic of tau protein linear motifs obtained by high-resolution techniques and molecular simulation."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins are flexible molecules with important physiological functions. Their mode of action often involves short segments, called linear motifs, which may exhibit distinct structural propensities. Tau is intrinsically disordered, microtubule-associated protein involved in the pathogenesis of various tauopathies. In this review we analyze the collection of 3D structures of tau local linear motifs gained from the deposited structures of tau complexes with various binding partners as well as of tau-tau complexes; determined by X-ray and electron crystallography, single-particle electron microscopy, NMR spectroscopy and molecular dynamics simulations. Insights into the partially stabilized conformations of tau linear motifs are valuable for understanding the physiological and pathological processes involving tau protein.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*tau Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cehlar, Ondrej",
+        "Bagarova, Olga",
+        "Hornakova, Lenka",
+        "Skrabana, Rostislav"
+      ],
+      "short_names": [
+        "Cehlar O",
+        "Bagarova O",
+        "Hornakova L",
+        "Skrabana R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Neuroimmunology, Slovak Academy of Sciences, Bratislava, Slovakia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cehlar, Ondrej",
+        "short_name": "Cehlar O",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Neuroimmunology, Slovak Academy of Sciences, Bratislava, Slovakia."
+        ]
+      },
+      {
+        "full_name": "Bagarova, Olga",
+        "short_name": "Bagarova O",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hornakova, Lenka",
+        "short_name": "Hornakova L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Skrabana, Rostislav",
+        "short_name": "Skrabana R",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "General physiology and biophysics"
+    ],
+    "journal_abbrev": [
+      "Gen Physiol Biophys"
+    ],
+    "pub_date": "2021 Nov",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/14 06:00",
+    "fetched_at": "2026-09-20 07:07:30"
+  },
+  "links": {
+    "cites": [
+      "42074305",
+      "41523656",
+      "37919601",
+      "37251806",
+      "35204666"
+    ],
+    "refs": [],
+    "similar": [
+      "34897022",
+      "30884818",
+      "31628033",
+      "31470053",
+      "30259679",
+      "30992364",
+      "25691742",
+      "23515417",
+      "28318914",
+      "27975243",
+      "34152739",
+      "27911791",
+      "32486218",
+      "25767879",
+      "32096026",
+      "26351734",
+      "25284680",
+      "31661961",
+      "34262938",
+      "24577753",
+      "34494046",
+      "31088912",
+      "25165145",
+      "29925592",
+      "22891813",
+      "18061582",
+      "19246243",
+      "20184958",
+      "19149675",
+      "28882307",
+      "16779670",
+      "32392276",
+      "28833749",
+      "29944336",
+      "29793417",
+      "32623047",
+      "23740819",
+      "32603876",
+      "31461845",
+      "33193056",
+      "26103986",
+      "21056617",
+      "25555397",
+      "29314492",
+      "31358628",
+      "26034266",
+      "22072628",
+      "17262987",
+      "24763499",
+      "22482453",
+      "30909607",
+      "27338491",
+      "31911587",
+      "21659525",
+      "23199922",
+      "28278386",
+      "25623359",
+      "30550860",
+      "30081240",
+      "29865059",
+      "26794929",
+      "24733915",
+      "28636913",
+      "29162800",
+      "22125611",
+      "29966762",
+      "31481789",
+      "31004638",
+      "27975245",
+      "29215007",
+      "22521809",
+      "22403409",
+      "29248553",
+      "32096032",
+      "21523562",
+      "32979285",
+      "28877466",
+      "31351173",
+      "28506438",
+      "27104579",
+      "20466149",
+      "28303942",
+      "25229151",
+      "30840442",
+      "25918405"
+    ],
+    "review": [
+      "34897022",
+      "30884818",
+      "28318914",
+      "32096026",
+      "31088912",
+      "19246243",
+      "16779670",
+      "28833749",
+      "29793417",
+      "32603876",
+      "31461845",
+      "33193056",
+      "21056617",
+      "25555397",
+      "17262987",
+      "22482453",
+      "27338491",
+      "28278386",
+      "30550860",
+      "29865059",
+      "31004638",
+      "32096032",
+      "21523562",
+      "31351173",
+      "28506438",
+      "27104579",
+      "20466149",
+      "30840442"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://www.aepress.sk/_downloads/dl.php?from=pubmed&journal=GPB&file=2021_06_479.pdf",
+        "provider": "Institute of Molecular Physiology and Genetics, Slovak Academy of Sciences",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

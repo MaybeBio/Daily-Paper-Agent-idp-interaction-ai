@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39229138",
+  "title": "Identification of an intrinsically disordered region (IDR) in arginyltransferase 1 (ATE1).",
+  "authors": "Cartwright, Misti; Parakra, Rinky; Oduwole, Ayomide; Zhang, Fangliang; Deredge, Daniel J; Smith, Aaron T",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-09-04",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过SAXS、HDX-MS和AlphaFold表征小鼠ATE1中的无序区域(IDR)，并计算推测其促进ATE1与tRNA(Arg)复合物形成，虽涉及IDR和复合物形成机制，但互作对象为tRNA而非蛋白，且方法以实验为主、AI辅助，故综合评分为6。",
+  "abstract": "Arginyltransferase 1 (ATE1) catalyzes arginylation, an important post-translational modification (PTM) in eukaryotes that plays a critical role in cellular homeostasis. The disruption of ATE1 function is implicated in mammalian neurodegenerative disorders and cardiovascular maldevelopment, while post-translational arginylation has also been linked to the activities of several important human viruses such as SARS-CoV-2 and HIV. Despite the known significance of ATE1 in mammalian cellular function, past biophysical studies of this enzyme have mainly focused on yeast ATE1, leaving the mechanism of arginylation in mammalian cells unclear. In this study, we sought to structurally and biophysically characterize mouse (Mus musculus) ATE1. Using size-exclusion chromatography (SEC), small angle X-ray scattering (SAXS), and hydrogen deuterium exchange mass spectrometry (HDX-MS), assisted by AlphaFold modeling, we found that mouse ATE1 is structurally more complex than yeast ATE1. Importantly, our data indicate the existence of an intrinsically disordered region (IDR) in all mouse ATE1 splice variants. However, comparative HDX-MS analyses show that yeast ATE1 does not have such an IDR, consistent with prior X-ray, cryo-EM, and SAXS analyses. Furthermore, bioinformatics approaches reveal that mammalian ATE1 sequences, as well as in a large majority of other eukaryotes, contain an IDR-like sequence positioned in proximity to the ATE1 GNAT active-site fold. Computational analysis suggests that the IDR likely facilitates the formation of the complex between ATE1 and tRNA(Arg), adding a new complexity to ATE1 structure and providing new insights for future studies of ATE1 functions.",
+  "abstract_zh": "精氨酰转移酶1（ATE1）催化精氨酰化，这是真核生物中一种重要的翻译后修饰（PTM），在细胞稳态中发挥关键作用。ATE1功能紊乱与哺乳动物神经退行性疾病和心血管发育异常有关，而翻译后精氨酰化也与多种重要人类病毒（如SARS-CoV-2和HIV）的活性相关。尽管已知ATE1在哺乳动物细胞功能中的重要性，但过去对该酶的生物物理研究主要集中于酵母ATE1，导致哺乳动物细胞中精氨酰化的机制尚不明确。在本研究中，我们旨在对小鼠（Mus musculus）ATE1进行结构和生物物理表征。利用尺寸排阻色谱（SEC）、小角X射线散射（SAXS）和氢氘交换质谱（HDX-MS），并辅以AlphaFold建模，我们发现小鼠ATE1在结构上比酵母ATE1更为复杂。重要的是，我们的数据表明所有小鼠ATE1剪接变体中都存在一个内在无序区域（IDR）。然而，比较性HDX-MS分析显示，酵母ATE1不具有这样的IDR，这与先前的X射线、冷冻电镜和SAXS分析结果一致。此外，生物信息学方法揭示，哺乳动物ATE1序列以及大多数其他真核生物中的ATE1序列，都包含一个位于ATE1 GNAT活性位点折叠附近的IDR样序列。计算分析表明，该IDR可能促进ATE1与tRNA(Arg)之间复合物的形成，为ATE1结构增添了新的复杂性，并为未来ATE1功能研究提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39229138/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39229138/",
+  "paper_page_path": "papers/pubmed/39229138/index.html"
+}

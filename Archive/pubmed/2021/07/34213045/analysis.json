@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34213045",
+  "title": "Midkine Interaction with Chondroitin Sulfate Model Synthetic Tetrasaccharides and Their Mimetics: The Role of Aromatic Interactions.",
+  "authors": "Garcia-Jimenez, Maria Jose; Gil-Caballero, Sergio; Maza, Susana; Corzana, Francisco; Juarez-Vicente, Francisco; Miles, Jonathan R; Sakamoto, Kazuma; Kadomatsu, Kenji; Garcia-Dominguez, Mario; de Paz, Jose L; Nieto, Pedro M",
+  "journal": "Chemistry (Weinheim an der Bergstrasse, Germany)",
+  "published_date": "2021-07-03",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过NMR、MD和对接研究Midkine与硫酸软骨素四糖的相互作用，涉及IDR介导的配体结合机制，但对象为糖类而非蛋白互作，方法有物理模拟但无AI，整体对无序蛋白介导PPI建模有部分启发。",
+  "abstract": "Midkine (MK) is a neurotrophic factor that participates in the embryonic central nervous system (CNS) development and neural stem cell regulation, interacting with sulfated glycosaminoglycans (GAGs). Chondroitin sulfate (CS) is the natural ligand in the CNS. In this work, we describe the interactions between a library of synthetic models of CS-types and mimics. We did a structural study of this library by NMR and MD (Molecular Dynamics), concluding that the basic shape is controlled by similar geometry of the glycosidic linkages. Their 3D structures are a helix with four residues per turn, almost linear. We have studied the tetrasaccharide-midkine complexes by ligand observed NMR techniques and concluded that the shape of the ligands does not change upon binding. The ligand orientation into the complex is very variable. It is placed inside the central cavity of MK formed by the two structured beta-sheets domains linked by an intrinsically disordered region (IDR). Docking analysis confirmed the participation of aromatics residues from MK completed with electrostatic interactions. Finally, we test the biological activity by increasing the MK expression using CS tetrasaccharides and their capacity in enhancing the growth stimulation effect of MK in NIH3T3 cells.",
+  "abstract_zh": "Midkine (MK) 是一种神经营养因子，参与胚胎中枢神经系统（CNS）发育和神经干细胞调控，并与硫酸化糖胺聚糖（GAGs）相互作用。硫酸软骨素（CS）是中枢神经系统中的天然配体。在本工作中，我们描述了一组CS类型合成模型及其模拟物之间的相互作用。我们通过NMR和分子动力学（Molecular Dynamics）对该文库进行了结构研究，得出结论：其基本形状由糖苷键的相似几何结构控制。它们的3D结构为每圈四个残基的螺旋，几乎呈线性。我们通过配体观察NMR技术研究了四糖-midkine复合物，并得出结论：配体的形状在结合时不变。配体在复合物中的取向变化很大，其位于MK中央空腔内，该空腔由两个结构化β-折叠结构域通过内在无序区（IDR）连接形成。对接分析确认了MK中芳香族残基的参与，并辅以静电相互作用。最后，我们通过使用CS四糖增加MK表达，并测试其增强MK在NIH3T3细胞中生长刺激效应的能力，来评估其生物活性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34213045/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34213045/",
+  "paper_page_path": "papers/pubmed/34213045/index.html"
+}

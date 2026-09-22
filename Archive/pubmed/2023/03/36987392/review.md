@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary material were available for evaluation
+- **Shared manuscript claim summary** The authors propose that the maximum solubility product (SP) marks the onset of phase transition (condensation) in multicomponent multivalent biomolecular systems, based on spatial Langevin dynamics and rule-based stochastic simulations. They further claim that structural features (flexibility, length, steric hindrance of linkers) shape SP profiles, and that normalization of SP and clustering data to nondimensional variables yields universal curves independent of structural details.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical results provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation details, parameter choices, definitions of "large clusters," and any statistical or quantitative support for the universality claim
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially useful framework for understanding heterotypic condensate formation, building on prior work by the same group. The central claim that the maximum SP coincides with the phase transition threshold is plausible and could be of practical value. However, the abstract alone provides insufficient detail to assess the rigor of the simulations, the robustness of the universality claim, or the generalizability of the findings beyond the idealized models described. The lack of quantitative results and methodological transparency limits the ability to evaluate technical soundness.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, and multivalent interactions, particularly those studying multicomponent systems in vitro or in vivo. The proposed SP framework and the reported universal scaling behavior could aid in designing experiments and interpreting concentration-dependent condensation data. Biophysicists and computational biologists working on coarse-grained or rule-based models of intracellular organization would also find the approach relevant.
+- **Major strengths** The work addresses a genuine gap in understanding heterotypic condensate formation, which is less well characterized than homotypic systems. The use of multiple simulation approaches (spatial Langevin dynamics and rule-based stochastic simulations) adds methodological breadth. The claim of universal scaling behavior, if substantiated, would be a significant conceptual advance with practical implications for experimental design.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** "We show, for a variety of idealized molecular structures, how the maximum SP coincides with the onset of the phase transition, i.e., the formation of large clusters."  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Concern** The abstract does not define what constitutes a "large cluster" or how the phase transition threshold is operationally determined in the simulations. Without this definition, the claim that the maximum SP coincides with the onset of phase transition cannot be quantitatively evaluated.  
+    - **Why it matters** The central conclusion of the paper rests on this coincidence. If the threshold definition is arbitrary or simulation-specific, the claim may not generalize.  
+    - **Resolution test** Provide explicit criteria for cluster size and phase transition detection, and show that the coincidence holds across multiple independent definitions and parameter sets.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** "Remarkably, when SPs are normalized to nondimensional variables and plotted against the concentration scaled to the threshold for phase transition, the curves all coincide independent of the structural features of the binding partners."  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Concern** The universality claim is stated without any quantitative measure of "coincidence" (e.g., error bars, statistical tests, or range of structural parameters tested). The abstract does not specify how many structures were simulated or over what parameter ranges.  
+    - **Why it matters** Universal scaling is a strong claim that, if true, would have broad implications. Without evidence of robustness across a wide and systematic parameter space, the claim may be overgeneralized.  
+    - **Resolution test** Provide quantitative measures of curve collapse (e.g., root-mean-square deviation) and demonstrate that the collapse holds across a broad, systematically varied set of structural parameters.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Scientific importance  
+    - **Claim pointer** "The interplay of flexibility, length, and steric hindrance of linker regions controls the phase transition threshold."  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Concern** The abstract states that structural features control the threshold but does not indicate the direction or magnitude of these effects, nor whether they are monotonic or involve trade-offs.  
+    - **Why it matters** Without this detail, the practical utility of the framework for predicting condensation behavior in specific systems is unclear.  
+    - **Resolution test** Summarize key trends (e.g., increasing linker length lowers or raises the threshold) and note any non-monotonic behaviors.  
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Readability for nonspecialists  
+    - **Affected element** Abstract  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Issue** The term "solubility product" is used without a brief definition or intuitive explanation, which may hinder readers unfamiliar with the prior work.  
+    - **Required correction** Add one sentence defining SP in the context of monomer concentrations in the dilute phase.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Clarity of claims  
+    - **Affected element** Abstract  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Issue** The phrase "intracluster binding in steering the free and cluster phase molecular distributions" is vague and could be interpreted in multiple ways.  
+    - **Required correction** Specify what is meant by "steering" and how intracluster binding differs from intercluster or monomer-cluster interactions.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Abstract  
+    - **Evidence pointer** Abstract; location not provided  
+    - **Issue** The abstract does not mention any limitations of the idealized models or how results might differ in more realistic systems (e.g., with heterogeneous binding affinities or post-translational modifications).  
+    - **Required correction** Add a sentence acknowledging model limitations and potential deviations in biological systems.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of threshold coincidence and universal scaling cannot be evaluated without quantitative definitions and evidence. R1-M3 is important but not blocking for the core case.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The SP framework for heterotypic systems is a novel extension of existing concepts, and the universal scaling claim, if validated, would be original.  
+  - **Scientific importance** The work addresses a significant gap in understanding multicomponent condensates, which is highly relevant to current research on phase separation.  
+  - **Interdisciplinary readership** The topic bridges biophysics, cell biology, and computational biology, and the findings could interest a broad audience.  
+  - **Technical soundness** Cannot be fully assessed from the abstract; the lack of methodological detail and quantitative results is a major limitation.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses field-specific terms without sufficient explanation.  
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract alone does not provide sufficient quantitative or methodological detail to support the central claims. A full manuscript with detailed methods, definitions, and robustness analyses would be needed to assess whether the case is convincing.
+
+## Risk / unsupported claims
+- The claim that the maximum SP coincides with the phase transition threshold is unsupported without operational definitions of "large clusters" and "phase transition onset."
+- The universal scaling claim is unsupported without quantitative measures of curve collapse and a systematic parameter sweep.
+- The statement that structural features control the threshold is unsupported without specific trends or magnitudes.
+- The relevance of the findings to in vitro and in vivo experiments is asserted but not substantiated with any examples or predictions.

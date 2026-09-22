@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40781776",
+  "title": "Multi-scale simulations of MUT-16 scaffold protein phase separation and client recognition.",
+  "authors": "Gaurav, Kumar; Busetto, Virginia; Paez-Moscoso, Diego Javier; Changiarath, Arya; Hanson, Sonya M; Falk, Sebastian; Ketting, Rene F; Stelzl, Lukas S",
+  "journal": "Biophysical journal",
+  "published_date": "2025-08-09",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用多尺度模拟（CALVADOS2、Martini3及原子级MD）研究MUT-16无序蛋白相分离及其招募客户蛋白MUT-8的互作机制，结合实验验证关键残基作用，完美契合无序蛋白PPI机制建模主题。",
+  "abstract": "Phase separation of proteins plays a critical role in cellular organization. How phase-separated protein condensates underpin biological function and how condensates achieve specificity remain elusive. We investigated the phase separation of MUT-16, a scaffold protein in Mutator foci, and its role in recruiting the client protein MUT-8, a key component in RNA silencing in Caenorhabditis elegans. We employed a multi-scale approach that combined coarse-grained (residue-level CALVADOS2 and near-atomistic Martini3) and atomistic simulations. Simulations across different resolutions provide a consistent perspective on how MUT-16 condensates recruit MUT-8, enabling the fine-tuning of chemical details and balancing the computational cost. Both coarse-grained models (CALVADOS2 and Martini3) predicted the relative phase-separation propensities of MUT-16's disordered regions, which we confirmed through in vitro experiments. Simulations also identified key sequence features and residues driving phase separation and revealed differences in residue interaction propensities between CALVADOS2 and Martini3. Furthermore, Martini3 and 350-mus atomistic simulations on Folding@Home of MUT-8's N-terminal prion-like domain with MUT-16 M8BR cluster highlighted the importance of cation-pi interactions between Tyr residues of MUT-8 and Arg residues of MUT-16 M8BR. Lys residues were observed to be more prone to interact in Martini3. Atomistic simulations revealed that the guanidinium group of Arg also engages in sp(2)-pi interactions and hydrogen bonds with the backbone of Tyr, possibly contributing to the greater strength of Arg-Tyr interactions compared to Lys-Tyr, where these additional favorable contacts are absent. In agreement with our simulations, in vitro co-expression pull-down experiments demonstrated a progressive loss of MUT-8 recruitment after the mutation of Arg in MUT-16 M8BR to Lys or Ala, confirming the critical role of Arg in this interaction. These findings advance our understanding of MUT-16 phase separation and subsequent MUT-8 recruitment, key processes in assembling Mutator foci that drive RNA silencing in C. elegans.",
+  "abstract_zh": "蛋白质的相分离在细胞组织中发挥关键作用。相分离的蛋白质凝聚体如何支撑生物学功能，以及凝聚体如何实现特异性，仍属未解之谜。我们研究了MUT-16（Mutator foci中的支架蛋白）的相分离及其在招募客户蛋白MUT-8（秀丽隐杆线虫RNA沉默中的关键组分）中的作用。我们采用了一种多尺度方法，结合了粗粒化（残基级CALVADOS2和近原子级Martini3）及全原子模拟。不同分辨率的模拟为MUT-16凝聚体如何招募MUT-8提供了一致的视角，从而能够微调化学细节并平衡计算成本。两种粗粒化模型（CALVADOS2和Martini3）均预测了MUT-16无序区域的相对相分离倾向，我们通过体外实验对此进行了确认。模拟还识别了驱动相分离的关键序列特征和残基，并揭示了CALVADOS2与Martini3在残基相互作用倾向上的差异。此外，Martini3和Folding@Home上对MUT-8 N端朊病毒样结构域与MUT-16 M8BR簇的350微秒全原子模拟，强调了MUT-8的Tyr残基与MUT-16 M8BR的Arg残基之间阳离子-π相互作用的重要性。在Martini3中观察到Lys残基更倾向于相互作用。全原子模拟揭示，Arg的胍基还参与与Tyr主链的sp(2)-π相互作用和氢键，这可能有助于Arg-Tyr相互作用比Lys-Tyr更强，而后者缺乏这些额外的有利接触。与我们的模拟一致，体外共表达下拉实验表明，将MUT-16 M8BR中的Arg突变为Lys或Ala后，MUT-8的招募逐渐丧失，证实了Arg在此相互作用中的关键作用。这些发现增进了我们对MUT-16相分离及随后MUT-8招募的理解，这些是组装驱动秀丽隐杆线虫RNA沉默的Mutator foci的关键过程。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40781776/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40781776/",
+  "paper_page_path": "papers/pubmed/40781776/index.html"
+}

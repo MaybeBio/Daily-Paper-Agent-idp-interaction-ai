@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "37424896",
+    "doi": "10.1093/pnasnexus/pgad204",
+    "title": "Anti-polyelectrolyte and polyelectrolyte effects on conformations of polyzwitterionic chains in dilute aqueous solutions."
+  },
+  "content": {
+    "abstract": "Polyzwitterions (PZs) are considered as model synthetic analogs of intrinsically disordered proteins. Based on this analogy, PZs in dilute aqueous solutions are expected to attain either globular (i.e. molten, compact) or random coil conformations. Addition of salt is expected to open these conformations. To the best of our knowledge, these hypotheses about conformations of PZs have never been verified. In this study, we test these hypotheses by studying effects of added salt [potassium bromide (KBr)] on gyration and hydrodynamic radii of poly(sulfobetaine methacrylate) in dilute aqueous solutions using dynamic light scattering and small-angle X-ray scattering, respectively. Effects of zwitteration are revealed by direct comparisons of the PZs with the polymers of the same backbone but containing (1) no explicit charges on side groups such as poly(2-dimethylaminoethyl methacrylate)s and (2) explicit cationic side groups with tertiary amino bromide pendants. Zeta-potential measurements, transmission electron microscopy, and ab initio molecular dynamics simulations reveal that the PZs acquire net positive charge in near salt-free conditions due to protonation but retain coiled conformations. Added KBr leads to nonmonotonic changes exhibiting an increase followed by a decrease in radius of gyration (and hydrodynamic radius), which are called antipolyelectrolyte and polyelectrolyte effects, respectively. Charge regulation and screening of charge-charge interactions are discussed in relation to the antipolyelectrolyte and polyelectrolyte effects, respectively, which highlight the importance of salt in affecting net charge and conformations of PZs.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Zening",
+        "Keum, Jong K",
+        "Li, Tianyu",
+        "Chen, Jihua",
+        "Hong, Kunlun",
+        "Wang, Yangyang",
+        "Sumpter, Bobby G",
+        "Advincula, Rigoberto",
+        "Kumar, Rajeev"
+      ],
+      "short_names": [
+        "Liu Z",
+        "Keum JK",
+        "Li T",
+        "Chen J",
+        "Hong K",
+        "Wang Y",
+        "Sumpter BG",
+        "Advincula R",
+        "Kumar R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5529-1373",
+        "ORCID: 0000-0002-2852-5111",
+        "ORCID: 0000-0001-7042-9804",
+        "ORCID: 0000-0001-6341-0355",
+        "ORCID: 0000-0001-9494-3488"
+      ],
+      "affiliations": [
+        "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA.",
+        "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA.",
+        "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA.",
+        "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA.",
+        "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA.",
+        "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA.",
+        "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA.",
+        "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA.",
+        "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA.",
+        "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Zening",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA."
+        ]
+      },
+      {
+        "full_name": "Keum, Jong K",
+        "short_name": "Keum JK",
+        "identifiers": [
+          "0000-0002-5529-1373"
+        ],
+        "affiliations": [
+          "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA.",
+          "Neutron Scattering Division, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Tianyu",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Jihua",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA."
+        ]
+      },
+      {
+        "full_name": "Hong, Kunlun",
+        "short_name": "Hong K",
+        "identifiers": [
+          "0000-0002-2852-5111"
+        ],
+        "affiliations": [
+          "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Yangyang",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0001-7042-9804"
+        ],
+        "affiliations": [
+          "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA."
+        ]
+      },
+      {
+        "full_name": "Sumpter, Bobby G",
+        "short_name": "Sumpter BG",
+        "identifiers": [
+          "0000-0001-6341-0355"
+        ],
+        "affiliations": [
+          "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA."
+        ]
+      },
+      {
+        "full_name": "Advincula, Rigoberto",
+        "short_name": "Advincula R",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA."
+        ]
+      },
+      {
+        "full_name": "Kumar, Rajeev",
+        "short_name": "Kumar R",
+        "identifiers": [
+          "0000-0001-9494-3488"
+        ],
+        "affiliations": [
+          "Center for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PNAS nexus"
+    ],
+    "journal_abbrev": [
+      "PNAS Nexus"
+    ],
+    "pub_date": "2023 Jul",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/10 06:42",
+    "fetched_at": "2026-09-20 23:30:45"
+  },
+  "links": {
+    "cites": [
+      "42007307",
+      "41516805",
+      "41088795",
+      "39130571",
+      "38937993"
+    ],
+    "refs": [
+      "35474060",
+      "35233449",
+      "34889641",
+      "32637617",
+      "32241125",
+      "30998360",
+      "30706070",
+      "30384727",
+      "30376714",
+      "29926202",
+      "29296029",
+      "26589037",
+      "26411726",
+      "25489993",
+      "22779613",
+      "19325108",
+      "17579398",
+      "12428987"
+    ],
+    "similar": [
+      "37424896",
+      "22830728",
+      "17316035",
+      "31820991",
+      "35614712",
+      "25265546",
+      "28793210",
+      "34940292",
+      "15638700",
+      "17579391",
+      "26411726",
+      "21417252",
+      "17559254",
+      "20192314",
+      "17279700",
+      "16853969",
+      "38427030",
+      "26018174",
+      "31521238",
+      "16893235",
+      "23116203",
+      "17346072",
+      "37523553",
+      "17579398",
+      "17455183",
+      "15010951",
+      "28570039",
+      "36161915",
+      "21117673",
+      "21446711",
+      "27544126",
+      "17411160",
+      "29376531",
+      "35648517",
+      "38920939",
+      "19482258",
+      "19916166",
+      "17547922",
+      "36656651",
+      "19371031",
+      "33945690",
+      "17134228",
+      "25216195",
+      "20643086",
+      "28681870",
+      "18821796",
+      "20025346",
+      "25105732",
+      "15896020",
+      "17574565",
+      "38780149",
+      "30788674",
+      "17973411",
+      "28832168",
+      "31381318",
+      "30384718",
+      "21902229",
+      "26626670",
+      "29399691",
+      "22998222",
+      "16171330",
+      "18229914",
+      "22899253",
+      "22136627",
+      "29232140",
+      "16674260",
+      "23205729",
+      "34551548",
+      "23171242",
+      "28623782",
+      "33107898",
+      "17279652",
+      "27936491",
+      "21706562",
+      "29384644",
+      "10898855",
+      "22277898",
+      "22548489",
+      "34787619",
+      "22432449",
+      "26112168",
+      "30640463",
+      "21406773",
+      "21732679",
+      "15974782",
+      "24053806",
+      "16388964",
+      "18771306",
+      "26590150",
+      "21590916",
+      "30193467",
+      "29847100",
+      "32794995",
+      "29989128",
+      "17119655",
+      "34912475",
+      "24154722",
+      "23912807",
+      "34194692",
+      "35329277",
+      "29707042",
+      "34476121",
+      "29289148"
+    ],
+    "review": [
+      "37424896",
+      "38427030",
+      "31521238"
+    ],
+    "pmc": [
+      "10323900"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37424896/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37424896",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/pnasnexus/article-lookup/doi/10.1093/pnasnexus/pgad204",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

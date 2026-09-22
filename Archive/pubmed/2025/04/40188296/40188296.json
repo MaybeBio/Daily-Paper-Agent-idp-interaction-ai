@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "40188296",
+    "doi": "10.1038/s42004-025-01502-5",
+    "title": "Backbone-mediated weakening of pairwise interactions enables percolation in peptide-based mimics of protein condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates formed by intrinsically disordered proteins (IDPs) are semidilute solutions. These can be approximated as solutions of blob-sized segments, which are peptide-sized motifs. We leveraged the blob picture and molecular dynamics simulations to quantify differences between inter-residue interactions in model compound and peptide-based mimics of dense versus dilute phases. The all-atom molecular dynamics simulations use a polarizable forcefield. In model compound solutions, the interactions between aromatic residues are stronger than interactions between cationic and aromatic residues. This holds in dilute and dense phases. Cooperativity within dense phases enhances pairwise interactions leading to finite-sized nanoscale clusters. The results for peptide-based condensates paint a different picture. Backbone amides add valence to the associating molecules. While this enhances pairwise inter-residue interactions in dilute phases, it weakens pair interactions in dense phases, doing so in a concentration-dependent manner. Weakening of pair interactions enables fluidization characterized by short-range order and long-range disorder. The higher valence afforded by the peptide backbone generates system-spanning networks. As a result, dense phases of peptides are best described as percolated network fluids. Overall, our results show how peptide backbones enhance pairwise interactions in dilute phases while weakening these interactions to enable percolation within dense phases.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zeng, Xiangze",
+        "Pappu, Rohit V"
+      ],
+      "short_names": [
+        "Zeng X",
+        "Pappu RV"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9848-3033",
+        "ORCID: 0000-0003-2568-1378"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering and Center for Biomolecular Condensates, The James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, 63130, USA. xiangzezeng@hkbu.edu.hk.",
+        "Department of Physics, Hong Kong Baptist University, Kowloon Tong, Hong Kong, China and Teaching and Research Division, School of Chinese Medicine, Hong Kong Baptist University, Kowloon Tong, Hong Kong, China. xiangzezeng@hkbu.edu.hk.",
+        "Department of Biomedical Engineering and Center for Biomolecular Condensates, The James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, 63130, USA. pappu@wustl.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zeng, Xiangze",
+        "short_name": "Zeng X",
+        "identifiers": [
+          "0000-0002-9848-3033"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering and Center for Biomolecular Condensates, The James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, 63130, USA. xiangzezeng@hkbu.edu.hk.",
+          "Department of Physics, Hong Kong Baptist University, Kowloon Tong, Hong Kong, China and Teaching and Research Division, School of Chinese Medicine, Hong Kong Baptist University, Kowloon Tong, Hong Kong, China. xiangzezeng@hkbu.edu.hk."
+        ]
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [
+          "0000-0003-2568-1378"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering and Center for Biomolecular Condensates, The James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO, 63130, USA. pappu@wustl.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications chemistry"
+    ],
+    "journal_abbrev": [
+      "Commun Chem"
+    ],
+    "pub_date": "2025 Apr 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/06 04:44",
+    "fetched_at": "2026-09-22 02:24:26"
+  },
+  "links": {
+    "cites": [
+      "42192191",
+      "42161313",
+      "41868013",
+      "41863073",
+      "41279136",
+      "40894760",
+      "40781776"
+    ],
+    "refs": [
+      "40094245",
+      "39947282",
+      "39885130",
+      "39464253",
+      "39356108",
+      "39225536",
+      "38782886",
+      "38742922",
+      "38649740",
+      "38580324",
+      "38503281",
+      "38363841",
+      "38362050",
+      "38316988",
+      "38112495",
+      "37957147",
+      "37917924",
+      "37856873",
+      "37749234",
+      "37684240",
+      "37549257",
+      "37468629",
+      "37196085",
+      "37161095",
+      "37001074",
+      "36972455",
+      "36881934",
+      "36745512",
+      "36513655",
+      "36272811",
+      "36191226",
+      "36004748",
+      "35853451",
+      "35795820",
+      "35787038",
+      "34931046",
+      "34887356",
+      "34863777",
+      "34785657",
+      "34784177",
+      "34716273",
+      "34648275",
+      "34435773",
+      "33629837",
+      "33597515",
+      "33212590",
+      "32661370",
+      "32619404",
+      "32482873",
+      "32393642",
+      "32178519",
+      "32029630",
+      "32004090",
+      "31755683",
+      "31634364",
+      "31626750",
+      "31553600",
+      "31270472",
+      "30176213",
+      "30038003",
+      "29961577",
+      "29807433",
+      "29517898",
+      "29438622",
+      "29424691",
+      "29091028",
+      "29064502",
+      "28894006",
+      "28600826",
+      "28225081",
+      "27819658",
+      "27471966",
+      "27392146",
+      "27289443",
+      "27212236",
+      "26836305",
+      "26406374",
+      "25747659",
+      "25683601",
+      "24163642",
+      "22505837",
+      "20925089",
+      "20136072",
+      "19548767",
+      "19239278",
+      "18427113",
+      "18350534",
+      "16970354",
+      "16851756",
+      "16617068",
+      "16407126",
+      "14664617",
+      "10040500"
+    ],
+    "similar": [
+      "40188296",
+      "37261897",
+      "38260590",
+      "39568948",
+      "39356108",
+      "38348795",
+      "39005320",
+      "36353733",
+      "33302617",
+      "39225535",
+      "37066350",
+      "38252962",
+      "37468629",
+      "36227466",
+      "36758221",
+      "36080494",
+      "39464253",
+      "36346711",
+      "36702825",
+      "31845799",
+      "37079924",
+      "39677697",
+      "40074825",
+      "36004748",
+      "36993371",
+      "39486437",
+      "39591652",
+      "36084347",
+      "33453925",
+      "38798623",
+      "37408305",
+      "38591689",
+      "38416758",
+      "36747818",
+      "36343363",
+      "32936641",
+      "31898464",
+      "37681092",
+      "31634364",
+      "40203038",
+      "39475380",
+      "36513655",
+      "35126984",
+      "38163950",
+      "34110175",
+      "30926670",
+      "39980393",
+      "36181270",
+      "31470695",
+      "39319382",
+      "37721444",
+      "36164646",
+      "39412378",
+      "33307683",
+      "38824391",
+      "38383656",
+      "39987501",
+      "26465586",
+      "38429263",
+      "40009520",
+      "34390736",
+      "38782886",
+      "10686106",
+      "32029630",
+      "38649740",
+      "36778236",
+      "25664638",
+      "32456986",
+      "31626641",
+      "40325419",
+      "39908323",
+      "37873180",
+      "34916288",
+      "36689740",
+      "37386790",
+      "37090622",
+      "38363841",
+      "35293386",
+      "38915484",
+      "37215004",
+      "33890467",
+      "32822449",
+      "39102550",
+      "30204435",
+      "35179885",
+      "14634990",
+      "34648275",
+      "34716273",
+      "39636939",
+      "38497831",
+      "37161095",
+      "32619404",
+      "37535022",
+      "32168715",
+      "37307457",
+      "34285781",
+      "26910732",
+      "39232584",
+      "25207671",
+      "37194953"
+    ],
+    "review": [
+      "40188296",
+      "38348795",
+      "37681092",
+      "36164646",
+      "34390736",
+      "32456986",
+      "40325419",
+      "35179885"
+    ],
+    "pmc": [
+      "11972419"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42004-025-01502-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40188296/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

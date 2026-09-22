@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "41429768",
+    "doi": "10.1038/s41419-025-08332-2",
+    "title": "Targeting intrinsically disordered nuclear protein 1 (NUPR1) with single-domain antibodies alleviates triple-negative breast cancer (TNBC) progression in vivo."
+  },
+  "content": {
+    "abstract": "Triple-negative breast cancer (TNBC) is a highly aggressive subtype that currently lacks effective targeted therapies. Transcriptional co-regulator nuclear protein 1 (NUPR1) has been identified as a key stress-adaptive disordered protein that promotes tumor progression and therapy-induced resistance. In this study, we developed a robust high-throughput platform integrating in situ proximity ligation assay followed by DNA sequencing (isPLA-seq), NanoBiT assays, and C-degron degradation validation to screen for functional single-domain antibodies (sdAbs) targeting NUPR1. Consequently, sdAb#07.81 emerged as a lead candidate, demonstrating strong binding affinity and the ability to degrade endogenous NUPR1 in TNBC cells. Functional assays confirmed that sdAb#07.81 suppressed TNBC cell growth, induced premature senescence, and derepressed ferroptosis. In vivo validation using a 4T1 cell-derived fully immunocompetent murine model further established its therapeutic efficacy, with significant reductions in tumor size, NUPR1 expression, and cell proliferation. These findings highlight sdAb#07.81 as a promising therapeutic agent and validate the platform's effectiveness for addressing intracellular disordered targets like NUPR1. This work underscores the potential of sdAbs as a cancer therapeutic and provides a foundation for advancing sdAb#07.81 into preclinical and clinical development to address the critical unmet needs of TNBC treatment.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Triple Negative Breast Neoplasms/pathology/drug therapy/metabolism/genetics",
+      "Humans",
+      "Animals",
+      "Female",
+      "Cell Line, Tumor",
+      "Mice",
+      "*Basic Helix-Loop-Helix Proteins/metabolism/antagonists & inhibitors/immunology",
+      "*Single-Domain Antibodies/pharmacology/therapeutic use",
+      "Disease Progression",
+      "*Neoplasm Proteins/metabolism/antagonists & inhibitors",
+      "Cell Proliferation/drug effects",
+      "Mice, Inbred BALB C",
+      "Xenograft Model Antitumor Assays"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Tianzhuo",
+        "Wang, Min",
+        "Chen, Xuanru",
+        "Yin, Yueyuan",
+        "Xu, Jintao",
+        "Sun, Yanan",
+        "Wu, Ailing",
+        "Liu, Zhe",
+        "Ma, Zhenyi"
+      ],
+      "short_names": [
+        "Wang T",
+        "Wang M",
+        "Chen X",
+        "Yin Y",
+        "Xu J",
+        "Sun Y",
+        "Wu A",
+        "Liu Z",
+        "Ma Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9025-1879",
+        "ORCID: 0000-0002-3641-2643",
+        "ORCID: 0000-0001-6962-2711"
+      ],
+      "affiliations": [
+        "Zhejiang Key Laboratory of Medical Epigenetics, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, Zhejiang, China. 20230036@hznu.edu.cn.",
+        "Zhejiang Key Laboratory of Medical Epigenetics, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, Zhejiang, China.",
+        "Zhejiang Key Laboratory of Medical Epigenetics, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, Zhejiang, China.",
+        "Department of Clinical Laboratory, The Second Qilu Hospital of Shandong University, Jinan, Shandong, China.",
+        "Tianjin Key Laboratory of Medical Epigenetics, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), Department of Immunology, Biochemistry and Molecular Biology, School of Basic Medical Sciences, Tianjin Medical University, Tianjin, China.",
+        "Tianjin Key Laboratory of Medical Epigenetics, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), Department of Immunology, Biochemistry and Molecular Biology, School of Basic Medical Sciences, Tianjin Medical University, Tianjin, China.",
+        "Zhejiang Key Laboratory of Medical Epigenetics, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, Zhejiang, China.",
+        "Zhejiang Key Laboratory of Medical Epigenetics, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, Zhejiang, China.",
+        "Zhejiang Key Laboratory of Medical Epigenetics, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, Zhejiang, China. 20220070@hznu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Tianzhuo",
+        "short_name": "Wang T",
+        "identifiers": [
+          "0000-0002-9025-1879"
+        ],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Medical Epigenetics, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, Zhejiang, China. 20230036@hznu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Min",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Medical Epigenetics, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Xuanru",
+        "short_name": "Chen X",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Medical Epigenetics, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Yin, Yueyuan",
+        "short_name": "Yin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, The Second Qilu Hospital of Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Jintao",
+        "short_name": "Xu J",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Medical Epigenetics, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), Department of Immunology, Biochemistry and Molecular Biology, School of Basic Medical Sciences, Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yanan",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Tianjin Key Laboratory of Medical Epigenetics, Key Laboratory of Immune Microenvironment and Disease (Ministry of Education), Department of Immunology, Biochemistry and Molecular Biology, School of Basic Medical Sciences, Tianjin Medical University, Tianjin, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Ailing",
+        "short_name": "Wu A",
+        "identifiers": [
+          "0000-0002-3641-2643"
+        ],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Medical Epigenetics, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhe",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Medical Epigenetics, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Zhenyi",
+        "short_name": "Ma Z",
+        "identifiers": [
+          "0000-0001-6962-2711"
+        ],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Medical Epigenetics, Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Hangzhou Normal University, Hangzhou, Zhejiang, China. 20220070@hznu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death & disease"
+    ],
+    "journal_abbrev": [
+      "Cell Death Dis"
+    ],
+    "pub_date": "2025 Dec 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/23 00:27",
+    "fetched_at": "2026-09-17 23:16:21"
+  },
+  "links": {
+    "cites": [
+      "42495706"
+    ],
+    "refs": [
+      "40715463",
+      "40176685",
+      "39633048",
+      "39480570",
+      "38802795",
+      "38405101",
+      "38360999",
+      "37854285",
+      "37724472",
+      "37686035",
+      "37660039",
+      "37641116",
+      "37477758",
+      "37305393",
+      "37204010",
+      "36871044",
+      "36752780",
+      "36470427",
+      "36116561",
+      "36038913",
+      "35462576",
+      "34675071",
+      "34599149",
+      "34359572",
+      "33760183",
+      "33542201",
+      "33510144",
+      "33050086",
+      "33023595",
+      "32999045",
+      "32831197",
+      "32824757",
+      "32780723",
+      "32490444",
+      "32446862",
+      "31962173",
+      "31744261",
+      "31149049",
+      "31028836",
+      "29520274",
+      "29130426",
+      "28209480",
+      "27080147",
+      "26173068",
+      "25155047",
+      "24508076",
+      "23495938",
+      "22565310",
+      "20658514",
+      "19946894",
+      "17170706",
+      "17072308",
+      "14613582",
+      "11234885",
+      "10815897"
+    ],
+    "similar": [
+      "41429768",
+      "37477758",
+      "22961798",
+      "40846041",
+      "40153970",
+      "40976126",
+      "40217291",
+      "38802795",
+      "40549289",
+      "41172918",
+      "40819058",
+      "38748783",
+      "41319208",
+      "32780723",
+      "41029481",
+      "40849803",
+      "32448269",
+      "40076939",
+      "31090219",
+      "31744261",
+      "40946979",
+      "26806809",
+      "39615216",
+      "40833485",
+      "40109332",
+      "39614393",
+      "40410734",
+      "22812567",
+      "40887997",
+      "41444950",
+      "32048750",
+      "30736840",
+      "40801947",
+      "33542201",
+      "27756881",
+      "39864604",
+      "32892748",
+      "40590998",
+      "38849012",
+      "40819642",
+      "40928515",
+      "39405915",
+      "40044045",
+      "40133967",
+      "38636588",
+      "34680086",
+      "39556022",
+      "40361105",
+      "26036638",
+      "26078298",
+      "29971628",
+      "25849745",
+      "40764992",
+      "38763012",
+      "41148817",
+      "39266460",
+      "39794456",
+      "31922247",
+      "40000487",
+      "25837326",
+      "39482441",
+      "28415749",
+      "34879870",
+      "28465444",
+      "39588561",
+      "39710273",
+      "41056478",
+      "34030133",
+      "40393105",
+      "39406109",
+      "31857432",
+      "41249113",
+      "29991529",
+      "40563476",
+      "40635078",
+      "30957988",
+      "33939216",
+      "33727089",
+      "39962586",
+      "32450253",
+      "40350653",
+      "38951906",
+      "28529455",
+      "40305758",
+      "33412224",
+      "40316059",
+      "40054655",
+      "33148223",
+      "38969297",
+      "39730101",
+      "40457370",
+      "32827545",
+      "38657094",
+      "32724459",
+      "39505147",
+      "29158255",
+      "41197758",
+      "41102728",
+      "40944623",
+      "33827043"
+    ],
+    "review": [
+      "41429768",
+      "41319208"
+    ],
+    "pmc": [
+      "12748981"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41419-025-08332-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41429768/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

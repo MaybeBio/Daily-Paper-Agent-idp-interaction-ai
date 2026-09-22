@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "36458437",
+    "doi": "10.1093/bib/bbac502",
+    "title": "CLIP: accurate prediction of disordered linear interacting peptides from protein sequences using co-evolutionary information."
+  },
+  "content": {
+    "abstract": "One of key features of intrinsically disordered regions (IDRs) is facilitation of protein-protein and protein-nucleic acids interactions. These disordered binding regions include molecular recognition features (MoRFs), short linear motifs (SLiMs) and longer binding domains. Vast majority of current predictors of disordered binding regions target MoRFs, with a handful of methods that predict SLiMs and disordered protein-binding domains. A new and broader class of disordered binding regions, linear interacting peptides (LIPs), was introduced recently and applied in the MobiDB resource. LIPs are segments in protein sequences that undergo disorder-to-order transition upon binding to a protein or a nucleic acid, and they cover MoRFs, SLiMs and disordered protein-binding domains. Although current predictors of MoRFs and disordered protein-binding regions could be used to identify some LIPs, there are no dedicated sequence-based predictors of LIPs. To this end, we introduce CLIP, a new predictor of LIPs that utilizes robust logistic regression model to combine three complementary types of inputs: co-evolutionary information derived from multiple sequence alignments, physicochemical profiles and disorder predictions. Ablation analysis suggests that the co-evolutionary information is particularly useful for this prediction and that combining the three inputs provides substantial improvements when compared to using these inputs individually. Comparative empirical assessments using low-similarity test datasets reveal that CLIP secures area under receiver operating characteristic curve (AUC) of 0.8 and substantially improves over the results produced by the closest current tools that predict MoRFs and disordered protein-binding regions. The webserver of CLIP is freely available at http://biomine.cs.vcu.edu/servers/CLIP/ and the standalone code can be downloaded from http://yanglab.qd.sdu.edu.cn/download/CLIP/.",
+    "keywords": [
+      "intrinsic disorder",
+      "linear interacting peptides",
+      "molecular recognition features",
+      "protein function",
+      "protein-nucleic acids interactions",
+      "protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Computational Biology/methods",
+      "Amino Acid Sequence",
+      "Peptides/metabolism",
+      "Protein Domains",
+      "Databases, Protein",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Zhenling",
+        "Li, Zixia",
+        "Meng, Qiaozhen",
+        "Zhao, Bi",
+        "Kurgan, Lukasz"
+      ],
+      "short_names": [
+        "Peng Z",
+        "Li Z",
+        "Meng Q",
+        "Zhao B",
+        "Kurgan L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0303-6693",
+        "ORCID: 0000-0002-7749-0314"
+      ],
+      "affiliations": [
+        "Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, 266237, China.",
+        "Frontier Science Center for Nonlinear Expectations, Ministry of Education, Qingdao, 266237, China.",
+        "Center for Applied Mathematics, Tianjin University, Tianjin, 300072, China.",
+        "College of Intelligence and Computing, Tianjin University, Tianjin, 300072, China.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Zhenling",
+        "short_name": "Peng Z",
+        "identifiers": [
+          "0000-0003-0303-6693"
+        ],
+        "affiliations": [
+          "Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, 266237, China.",
+          "Frontier Science Center for Nonlinear Expectations, Ministry of Education, Qingdao, 266237, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zixia",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Applied Mathematics, Tianjin University, Tianjin, 300072, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Qiaozhen",
+        "short_name": "Meng Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Intelligence and Computing, Tianjin University, Tianjin, 300072, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Bi",
+        "short_name": "Zhao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA."
+        ]
+      },
+      {
+        "full_name": "Kurgan, Lukasz",
+        "short_name": "Kurgan L",
+        "identifiers": [
+          "0000-0002-7749-0314"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Jan 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/03 06:00",
+    "fetched_at": "2026-09-20 17:11:30"
+  },
+  "links": {
+    "cites": [
+      "42288727",
+      "41921197",
+      "41689628",
+      "41114728",
+      "41023685",
+      "40777465",
+      "40662788",
+      "39811792",
+      "39576585",
+      "38686122",
+      "38540707",
+      "38213902",
+      "36833360"
+    ],
+    "refs": [],
+    "similar": [
+      "36458437",
+      "37709009",
+      "30298407",
+      "31870849",
+      "30717652",
+      "29042212",
+      "22689782",
+      "34290238",
+      "30099775",
+      "32696351",
+      "34487138",
+      "26651072",
+      "24093637",
+      "36851914",
+      "29360926",
+      "27787828",
+      "31007871",
+      "25637562",
+      "33291838",
+      "38048333",
+      "26387106",
+      "30866736",
+      "28155710",
+      "33647288",
+      "32696352",
+      "38812466",
+      "30324701",
+      "31660849",
+      "28002650",
+      "35421114",
+      "37140058",
+      "24678734",
+      "27307636",
+      "32621220",
+      "16935303",
+      "31521235",
+      "30102367",
+      "26109352",
+      "39237195",
+      "31889261",
+      "24573480",
+      "25424537",
+      "36519304",
+      "31207240",
+      "34905768",
+      "26090958",
+      "33381830",
+      "32019410",
+      "38166858",
+      "31504193",
+      "26517836",
+      "36959451",
+      "32173600",
+      "32860044",
+      "31642118",
+      "28589442",
+      "25039985",
+      "35507260",
+      "28369666",
+      "25555723",
+      "32696355",
+      "38866950",
+      "30602422",
+      "34415020",
+      "23328413",
+      "31299122",
+      "24668165",
+      "32696395",
+      "23798504",
+      "30135358",
+      "29136219",
+      "18831792",
+      "34894985",
+      "32112804",
+      "21152297",
+      "25361972",
+      "33119734",
+      "24727949",
+      "25391399",
+      "28387819",
+      "28365882",
+      "34391457",
+      "35883444",
+      "23946100",
+      "33237329",
+      "33267349",
+      "31521236",
+      "37883249",
+      "19128505",
+      "25791288",
+      "36008992",
+      "21879107",
+      "27115638",
+      "29076577",
+      "29080786",
+      "32345597",
+      "37740110",
+      "26198229",
+      "32535960",
+      "20823312",
+      "26513658",
+      "35469832",
+      "27174932",
+      "29228892",
+      "35325330",
+      "36908253",
+      "26342231",
+      "39032884",
+      "28381244",
+      "36416266",
+      "32573020",
+      "33119751",
+      "33875885",
+      "38213902",
+      "38540707",
+      "38701796",
+      "36272675",
+      "34830151",
+      "26307973",
+      "25057855",
+      "33417598",
+      "36528065",
+      "33616531",
+      "34048569",
+      "39142260",
+      "36504386",
+      "26555596",
+      "36334049",
+      "30611608",
+      "38917322",
+      "38783158",
+      "31442477",
+      "38039154",
+      "34235484",
+      "37310199",
+      "34025946",
+      "36621533",
+      "32831102",
+      "34480923",
+      "37674132",
+      "36629262",
+      "28257525",
+      "30793871",
+      "20100603",
+      "34247234",
+      "38605029",
+      "35356546",
+      "37904585",
+      "37778184",
+      "30301243",
+      "21685077",
+      "36306150",
+      "36829461",
+      "36496998",
+      "37933852",
+      "31282865",
+      "38895487",
+      "38404711",
+      "38739759",
+      "33325498",
+      "35615015",
+      "39091826",
+      "37099901",
+      "39135888",
+      "37621223",
+      "38966365",
+      "38182699",
+      "35536812",
+      "37246642",
+      "39091799",
+      "39246251",
+      "25379372",
+      "21776336",
+      "21769187",
+      "22368391",
+      "37060758",
+      "32692864"
+    ],
+    "review": [
+      "36458437",
+      "36851914",
+      "31007871",
+      "33291838",
+      "26387106",
+      "31521235",
+      "30102367",
+      "36959451",
+      "28589442",
+      "25555723",
+      "31521236",
+      "32345597",
+      "37740110",
+      "39142260",
+      "30611608",
+      "35356546",
+      "37778184",
+      "36496998",
+      "38739759",
+      "37099901"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36458437.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbac502",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

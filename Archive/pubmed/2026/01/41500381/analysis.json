@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41500381",
+  "title": "flDPnn3: Fast and Accurate Prediction of Intrinsic Disorder in Protein Sequences.",
+  "authors": "Wang, Kui; Hu, Gang; Basu, Sushmita; Kurgan, Lukasz",
+  "journal": "Journal of molecular biology",
+  "published_date": "2026-01-08",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍无序蛋白预测工具flDPnn3，利用语言模型等序列特征快速准确预测内在无序区域，虽涉及IDP对象但未研究PPI或互作机制，方法上属AI预测应用而非机制建模。",
+  "abstract": "flDPnn3 provides fast and highly accurate predictions of intrinsic disorder. Compared to its earlier versions, it uses a more sophisticated sequence-derived profile as input, covering a modern protein language model and additional predicted disorder functions, while maintaining a similarly small computational footprint. flDPnn3 and over 70 other disorder predictors were independently evaluated on the Disorder-NOX dataset by assessors in CAID3 (3rd Critical Assessment of protein Intrinsic Disorder prediction). A side-by-side comparison in CAID3, including low-sequence-similarity subsets of the CAID3 test data, reveals that our method matches the predictive quality of the best disorder predictors. The runtime analysis shows that flDPnn3 produces results between 3 and 8 times faster than similarly accurate disorder predictors and can be used to produce predictions at the whole-proteome scale. Additionally, flDPnn3 achieves 100% coverage by predicting all proteins, while some other accurate tools fail to predict some proteins. The CAID3 results also demonstrate that flDPnn3 is significantly more accurate than its previous versions, flDPnn and flDPnn2, which were among the top-ranked methods in CAID1 and CAID2, respectively. The flDPnn3's web server supports batch predictions, provides interactive visualization of results, offers a tutorial page, and is available at https://biomine.cs.vcu.edu/servers/flDPnn3/.",
+  "abstract_zh": "flDPnn3 提供快速且高度准确的固有紊乱预测。与早期版本相比，它采用更复杂的序列衍生特征作为输入，涵盖现代蛋白质语言模型及额外的预测紊乱功能，同时保持相似的小计算足迹。flDPnn3 及超过70种其他紊乱预测器在CAID3（第三届蛋白质固有紊乱预测关键评估）中由评估者独立评估于Disorder-NOX数据集上。在CAID3中的并排比较，包括CAID3测试数据的低序列相似性子集，显示我们的方法匹配最佳紊乱预测器的预测质量。运行时间分析表明，flDPnn3 产生结果的速度比同等准确度的紊乱预测器快3至8倍，并可用于全蛋白质组规模的预测。此外，flDPnn3 通过预测所有蛋白质实现100%覆盖率，而其他一些准确工具未能预测某些蛋白质。CAID3结果还证明，flDPnn3 比其先前版本 flDPnn 和 flDPnn2 显著更准确，后者分别在CAID1和CAID2中位列顶级方法。flDPnn3 的网页服务器支持批量预测，提供结果的交互式可视化，设有教程页面，并可在 https://biomine.cs.vcu.edu/servers/flDPnn3/ 访问。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41500381/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41500381/",
+  "paper_page_path": "papers/pubmed/41500381/index.html"
+}

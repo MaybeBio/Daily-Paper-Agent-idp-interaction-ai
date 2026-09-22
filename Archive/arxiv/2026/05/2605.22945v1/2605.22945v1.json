@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2605.22945v1",
+  "title": "Non-reciprocal Coulomb drag in a ballistic quantum wire",
+  "doi": "",
+  "abstract": "1D-Coulomb drag serves as a platform for probing electron-electron interactions in 1D systems. Under the charge fluctuation formalism, the non-reciprocal component of Coulomb drag signal in mesoscopic devices is predicted to rely on the breaking of translational invariance due to intrinsic disorder. In this work, we report the measurement of a Coulomb drag device with a ballistic drag wire, allowing us to study the drag signal in nearly pristine quantum wires. Surprisingly, a non-reciprocal component with strength comparable to that of the reciprocal component is still detected across the measured regime, despite the drag wire being ballistic. We suggest that the non-reciprocal signal arises from low energy disorder in the device, which is consistent with the evolution of the drag wire's conductance at low biases voltages and temperatures. Additionally, the non-reciprocal component of the drag signal shows a power-law temperature dependence that coincides with a diffusive model, while the reciprocal component's temperature dependence cannot be explained under the existing framework. The bias voltage dependence of the drag wire conductance is fitted into three models to extract the interaction parameter and disorder level within the wire, but none of the models provides a fully self-consistent explanation for the data.",
+  "authors": [
+    "Suyang Cai",
+    "Mingyang Zheng",
+    "Nathan Rao",
+    "Glen Gillia",
+    "Rebika Makaju",
+    "Sadhvikas J. Addamane",
+    "Dominique Laroche"
+  ],
+  "published_date": "2026-05-21T18:20:29Z",
+  "updated_date": "2026-05-21T18:20:29Z",
+  "journal": "",
+  "category": "cond-mat.mes-hall",
+  "landing_url": "https://arxiv.org/abs/2605.22945v1",
+  "pdf_url": "https://arxiv.org/pdf/2605.22945v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.mes-hall"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2605.22945v1",
+    "raw_categories": [
+      "cond-mat.mes-hall"
+    ],
+    "journal_ref": ""
+  }
+}

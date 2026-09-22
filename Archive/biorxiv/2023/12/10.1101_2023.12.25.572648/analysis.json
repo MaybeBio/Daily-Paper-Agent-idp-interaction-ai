@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.25.572648",
+  "title": "Pair-EGRET: enhancing the prediction of protein-protein interaction sites through graph attention networks and protein language models",
+  "authors": "Ramisa Alam; Sazan Mahbub; Md. Shamsuzzoha Bayzid",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-26",
+  "window": {
+    "start": "2023-12-25",
+    "end": "2023-12-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用图注意力网络和蛋白质语言模型预测蛋白-蛋白互作位点，虽未聚焦无序蛋白，但PPI界面预测方法对IDR介导互作建模有可迁移启发。",
+  "abstract": "Proteins are responsible for most biological functions, many of which require the interaction of more than one protein molecule. However, accurately predicting protein-protein interaction (PPI) sites (the interfacial residues of a protein that interact with other protein molecules) remains a challenge. The growing demand and cost associated with the reliable identification of PPI sites using conventional experimental methods call for computational tools for automated prediction and understanding of PPIs. Here, we present Pair-EGRET, an edge-aggregated graph attention network that leverages the features extracted from pre-trained transformer-like models to accurately predict PPI sites. Pair-EGRET works on a k -nearest neighbor graph, representing the three-dimensional structure of a protein, and utilizes the cross-attention mechanism for accurate identification of interfacial residues of a pair of proteins. Through an extensive evaluation study using a diverse array of experimental data, evaluation metrics, and case studies on representative protein sequences, we find that our method outperforms other state-of-the-art methods for predicting PPI sites. Moreover, Pair-EGRET can provide interpretable insights from the learned cross-attention matrix. Pair-EGRET is freely available in open source form at ( https://github.com/1705004/Pair-EGRET ).",
+  "abstract_zh": "蛋白质负责大多数生物功能，其中许多功能需要多个蛋白质分子的相互作用。然而，准确预测蛋白质-蛋白质相互作用（PPI）位点（蛋白质中与其他蛋白质分子相互作用的界面残基）仍然是一个挑战。使用传统实验方法可靠识别PPI位点的需求日益增长且成本高昂，这促使开发计算工具以自动预测和理解PPIs。在此，我们提出Pair-EGRET，一种边聚合图注意力网络，利用从预训练类Transformer模型中提取的特征来准确预测PPI位点。Pair-EGRET基于k-最近邻图工作，该图表示蛋白质的三维结构，并利用交叉注意力机制准确识别一对蛋白质的界面残基。通过使用多样化的实验数据、评估指标以及对代表性蛋白质序列的案例研究进行广泛评估，我们发现我们的方法在预测PPI位点方面优于其他最先进的方法。此外，Pair-EGRET可以从学习到的交叉注意力矩阵中提供可解释的见解。Pair-EGRET以开源形式免费提供，网址为（ https://github.com/1705004/Pair-EGRET ）。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.25.572648",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.25.572648",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.25.572648/index.html"
+}

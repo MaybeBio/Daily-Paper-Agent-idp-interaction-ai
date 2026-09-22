@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report the rational design of a 25-mer peptide, TAZ-hTrap, derived from the Tead helical hairpin, stabilized by a disulfide staple, which binds the Taz alpha-helix with improved affinity and selectivity, and exhibits cytotoxic effects on gynecological tumor cell lines
+- **Visible evidence base** Computational dynamics and energetics (described qualitatively), circular dichroism, fluorescence polarization, cell viability assay, selectivity comparison against noncognate proteins
+- **Missing materials affecting confidence** Full methods, numerical data (binding constants, IC50 values, statistical analyses), structural models, experimental replicates, and details of the selectivity panel
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful peptide engineering strategy targeting the Tead-Taz interaction, with a clear rationale for disulfide stapling to reduce conformational entropy. However, the evidence as summarized is insufficient to establish the central claims of improved affinity, selectivity, and antitumor activity. Key quantitative data and experimental details are absent, and the causal link between computational predictions and observed cellular effects is not demonstrated.
+- **Who would be interested in the results, and why** Researchers in peptide drug design, Hippo signaling biology, and gynecological oncology. The stapled peptide approach may appeal to those developing inhibitors of protein-protein interactions, and the gynecological tumor context could interest translational cancer biologists.
+- **Major strengths** The design rationale is logical and mechanistically grounded, addressing a known entropic penalty in peptide binding. The use of multiple orthogonal methods (simulation, biophysics, cell assays) is commendable. The focus on selectivity against conserved homologs is a relevant and practical consideration.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that TAZ-hTrap "can maintain in a considerably structured, native-like conformation in unbound state" and that "the entropy penalty was minimized by disulfide stapling to effectively improve its affinity"
+  - **Evidence pointer** Dynamics simulation and energetics characterization; circular dichroism; fluorescence polarization (locations not provided)
+  - **Concern** No quantitative data are provided for the degree of structuring, the magnitude of entropy reduction, or the improvement in binding affinity. The phrase "effectively improve" is vague, and without numerical binding constants (e.g., Kd values) for the stapled versus unstapled peptide, the central claim of affinity enhancement is unverifiable.
+  - **Why it matters** The entire premise of the design is that stapling reduces entropy and improves binding. If the affinity improvement is modest or not statistically significant, the rationale collapses. The abstract must report actual measured values to support this mechanistic claim.
+  - **Resolution test** Provide Kd or IC50 values for TAZ-hTrap and the unstapled hairpin peptide, with error bars and replicates, and show that the difference is statistically significant. Also report the secondary structure content (e.g., from circular dichroism) in the unbound state for both peptides.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims "a potent cytotoxic effect on diverse human gynecological tumors at cellular level"
+  - **Evidence pointer** Viability assay (location not provided)
+  - **Concern** No cell lines are named, no concentrations or time points are given, and no quantitative measure of cytotoxicity (e.g., IC50, percent viability) is reported. "Potent" is a strong qualitative claim that cannot be assessed without data. Furthermore, the abstract does not specify whether the effect is on-target (Taz-dependent) or due to off-target toxicity.
+  - **Why it matters** The therapeutic relevance of the peptide depends on demonstrating meaningful and specific cytotoxicity. Without dose-response data and a control for on-target activity, the claim of antitumor potential is unsupported.
+  - **Resolution test** Report IC50 values for a panel of gynecological cancer cell lines and appropriate non-cancerous controls, and include a Taz-knockdown or mutant-Taz rescue experiment to confirm on-target specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims "good selectivity for its cognate Taz over other noncognate proteins that share a high conservation with the Taz alpha-helix"
+  - **Evidence pointer** Selectivity comparison (location not provided)
+  - **Concern** The identity of the noncognate proteins is not disclosed, and no quantitative selectivity data (e.g., fold-selectivity, binding affinities for off-targets) are provided. The phrase "high conservation" is not substantiated with sequence identity or structural similarity metrics.
+  - **Why it matters** Selectivity is a key selling point for a peptide therapeutic, but without knowing which proteins were tested and the actual binding ratios, the claim is unverifiable and potentially misleading.
+  - **Resolution test** List the noncognate proteins tested, their sequence identity to Taz, and provide binding affinities or fold-selectivity values for each. Include at least one protein with high sequence similarity to demonstrate the stringency of the test.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses jargon-heavy phrasing (e.g., "three-helix bundle," "entropy penalty") without brief definitions, which may hinder readers outside the Hippo signaling field.
+  - **Required correction** Add a short explanatory clause for key terms, or restructure the opening to define the interaction context more accessibly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextualization
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not state how the proposed peptide compares to existing Tead-Taz inhibitors or other stapled peptide approaches, leaving the novelty unclear.
+  - **Required correction** Add one or two sentences contrasting TAZ-hTrap with prior inhibitors, highlighting any unique advantages.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Computational methods
+  - **Evidence pointer** Dynamics simulation and energetics characterization (location not provided)
+  - **Issue** The type of simulation (e.g., molecular dynamics, Monte Carlo) and the force field or energy function used are not specified, limiting reproducibility.
+  - **Required correction** Name the simulation method and software, and cite the force field or energy model.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative binding data, cytotoxicity dose-response, and selectivity metrics means the core claims are not currently supported.
+- **Assessment against Nature-style criteria** Originality: The stapled hairpin design is a reasonable extension of existing peptide stapling concepts, but the abstract does not demonstrate a fundamentally new approach. Scientific importance: The Hippo pathway is a relevant cancer target, yet the abstract does not show how this peptide advances the field beyond current inhibitors. Interdisciplinary readership: The work bridges computational design and experimental biology, but the abstract is too specialized for broad appeal. Technical soundness: Not established due to missing quantitative data. Readability for nonspecialists: The abstract is dense and assumes prior knowledge of the pathway.
+- **Recommendation posture** Currently not established from the provided evidence. The design rationale is promising, but the abstract lacks the quantitative and methodological detail needed to support the claims. I would be supportive if the full manuscript provides the missing data and addresses the concerns above.
+
+## Risk / unsupported claims
+- The claim of "potent cytotoxic effect" is unsupported without dose-response data or cell line identification.
+- The claim of "good selectivity" is unsupported without naming the off-target proteins or providing binding ratios.
+- The claim of "minimized entropy penalty" is unsupported without quantitative entropy or affinity measurements.
+- The claim of "native-like conformation" in the unbound state is unsupported without structural or biophysical data beyond qualitative circular dichroism.
+- The causal link between computational predictions and cellular effects is asserted but not demonstrated.

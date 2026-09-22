@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.09.27.461910",
+  "title": "AlphaFold2: A role for disordered protein prediction?",
+  "authors": "Carter J. Wilson; Wing-Yiu Choy; Mikko Karttunen",
+  "journal": "bioRxiv",
+  "published_date": "2021-09-27",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文评估AlphaFold2的pLDDT在无序蛋白预测中的表现，虽非直接研究PPI机制，但聚焦IDP预测并探讨pLDDT与IDP动态的关联，对无序蛋白建模方法有启发。",
+  "abstract": "The development of AlphaFold2 was a paradigm-shift in the structural biology community; herein we assess the ability of AlphaFold2 to predict disordered regions against traditional sequence-based disorder predictors. We find that a näaive use of Dictionary of Secondary Structure of Proteins (DSSP) to separate ordered from disordered regions leads to a dramatic overestimation in disorder content, and that the predicted Local Distance Difference Test (pLDDT) provides a much more rigorous metric. In addition, we show that even when used for disorder prediction, conventional predictors can outperform the pLDDT in disorder identification, and note an interesting relationship between the pLDDT and secondary structure, that may explain our observations, and hints at a broader application of the pLDDT to IDP dynamics.",
+  "abstract_zh": "AlphaFold2的发展是结构生物学领域的一次范式转变；在此，我们评估了AlphaFold2在预测无序区域方面与传统基于序列的无序预测器的能力对比。我们发现，简单使用蛋白质二级结构词典（DSSP）来区分有序与无序区域会导致对无序含量的显著高估，而预测的局部距离差异测试（pLDDT）则提供了更为严格的度量标准。此外，我们表明，即使用于无序预测，传统预测器在无序识别方面也能优于pLDDT，并注意到pLDDT与二级结构之间存在有趣的关系，这可能解释我们的观察结果，并暗示pLDDT在内在无序蛋白（IDP）动力学中具有更广泛的应用前景。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.09.27.461910",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.09.27.461910",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.09.27.461910/index.html"
+}

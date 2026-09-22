@@ -1,0 +1,395 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.03.30.486144",
+  "title": "One-sided design of protein-protein interaction motifs using deep learning",
+  "doi": "10.1101/2022.03.30.486144",
+  "abstract": "Protein-protein interactions are part of most processes in life and thereby the ability to generate new ones to either control, detect or inhibit them has universal applications. However, to develop a new binding protein to bind to a specific site at atomic detail without any additional input is a challenging problem. After DeepMind entered the protein folding field, we have seen rapid advances in protein structure predictions thanks to the implementation of machine learning algorithms. Neural networks are part of machine learning and they can learn the regularities from their input data. Here, we took advantage of their capabilities by training multiple neural networks on co-crystal structures of natural protein complexes. Inspired by image caption algorithms, we developed an extensive set of NN-based models, referred to as iNNterfaceDesign. It predicts the positioning and the secondary structure for the new binding motifs and then designs the backbone atoms followed by amino acid sequence design. Our methods are capable of recapitulating native interactions, including antibody-antigen interactions, while they also capable to produce more diverse solutions to binding at the same sites. As it was trained on natural complexes, it learned their features and can therefore also highlight preferential binding sites, as found in natural protein-protein interactions. Our method is generally applicable, and we believe that this is the first deep learning model for one-sided design of protein-protein interactions. Abstract figure",
+  "authors": [
+    "Raulia Syrlybaeva",
+    "Eva-Maria Strauch"
+  ],
+  "published_date": "2022-04-01",
+  "updated_date": "2022-04-01T11:25:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.03.30.486144",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.03.30.486144.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:04:51Z",
+        "timestamp": 1768500291410,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            1
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 35,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Protein-protein interactions are part of most processes in life and thereby the ability to generate new ones to either control, detect or inhibit them has universal applications. However, to develop a new binding protein to bind to a specific site at atomic detail without any additional input is a challenging problem. After DeepMind entered the protein folding field, we have seen rapid advances in protein structure predictions thanks to the implementation of machine learning algorithms. Neural networks are part of machine learning and they can learn the regularities from their input data. Here, we took advantage of their capabilities by training multiple neural networks on co-crystal structures of natural protein complexes. Inspired by image caption algorithms, we developed an extensive set of NN-based models, referred to as iNNterfaceDesign. It predicts the positioning and the secondary structure for the new binding motifs and then designs the backbone atoms followed by amino acid sequence design. Our methods are capable of recapitulating native interactions, including antibody-antigen interactions, while they also capable to produce more diverse solutions to binding at the same sites. As it was trained on natural complexes, it learned their features and can therefore also highlight preferential binding sites, as found in natural protein-protein interactions. Our method is generally applicable, and we believe that this is the first deep learning model for one-sided design of protein-protein interactions.</jats:p>\n                <jats:sec>\n                  <jats:title>Abstract figure</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" fig-type=\"figure\" orientation=\"portrait\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"486144v2_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+      "DOI": "10.1101/2022.03.30.486144",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2022-04-01T11:25:13Z",
+        "timestamp": 1648812313000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "One-sided design of protein-protein interaction motifs using deep learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Raulia",
+          "family": "Syrlybaeva",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Eva-Maria",
+          "family": "Strauch",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1006528107"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja110296z"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl163"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2011.09.001"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1202617"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1313605111"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cao, L. ; Coventry, B. ; Goreshnik, I. ; Huang, B. ; Park, J. S. ; Jude, K. M. ; Marković, I. ; Kadam, R. U. ; Verschueren, K. H. G. ; Verstraete, K. ; Walsh, S. T. R. ; Bennett, N. ; Phal, A. ; Yang, A. ; Kozodoy, L. ; DeWitt, M. ; Picton, L. ; Miller, L. ; Strauch, E.-M. ; DeBouver, N. D. ; Pires, A. ; Bera, A. K. ; Halabiya, S. ; Hammerson, B. ; Yang, W. ; Bernard, S. ; Stewart, L. ; Wilson, I. A. ; Ruohola-Baker, H. ; Schlessinger, J. ; Lee, S. ; Savvides, S. N. ; Garcia, K. C. ; Baker, D. Design of Protein Binding Proteins from Target Structure Alone. Nat. 2022 2022, 1–1. https://doi.org/10.1038/s41586-022-04654-9.",
+          "DOI": "10.1038/s41586-022-04654-9"
+        },
+        {
+          "issue": "3",
+          "key": "2022040607000454000_2022.03.30.486144v2.8",
+          "first-page": "171",
+          "article-title": "Ab Initio Protein Structure Prediction of CASP III Targets Using ROSETTA",
+          "volume": "Suppl",
+          "year": "1999",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.9",
+          "first-page": "2048",
+          "article-title": "Attend and Tell: Neural Image Caption Generation with Visual Attention",
+          "volume": "3",
+          "year": "2015",
+          "journal-title": "32nd Int. Conf. Mach. Learn. ICML 2015"
+        },
+        {
+          "issue": "9",
+          "key": "2022040607000454000_2022.03.30.486144v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "100142",
+          "DOI": "10.1016/j.patter.2020.100142",
+          "article-title": "Deep Learning in Protein Structural Modeling and Design",
+          "volume": "1",
+          "year": "2020",
+          "journal-title": "Patterns"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1914677117"
+        },
+        {
+          "issue": "4",
+          "key": "2022040607000454000_2022.03.30.486144v2.12",
+          "first-page": "1091",
+          "article-title": "Analysis of Several Key Factors Influencing Deep Learning-Based Inter-Residue Contact Prediction",
+          "volume": "36",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, H. ; Bei, Z. ; Xi, W. ; Hao, M. ; Ju, Z. ; Saravanan, K. M. ; Zhang, H. ; Guo, N. ; Wei1, Y. Evaluation of Residue-Residue Contact Prediction Methods: From Retrospective to Prospective; 2021; Vol. 17. https://doi.org/10.1371/journal.pcbi.1009027.",
+          "DOI": "10.1371/journal.pcbi.1009027"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "issue": "7792",
+          "key": "2022040607000454000_2022.03.30.486144v2.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "706",
+          "DOI": "10.1038/s41586-019-1923-7",
+          "article-title": "Improved Protein Structure Prediction Using Potentials from Deep Learning",
+          "volume": "577",
+          "year": "2020",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Baek, M. ; DiMaio, F. ; Anishchenko, I. ; Dauparas, J. ; Ovchinnikov, S. ; Lee, G. R. ; Wang, J. ; Cong, Q. ; Kinch, L. N. ; Schaeffer, R. D. ; Millán, C. ; Park, H. ; Adams, C. ; Glassman, C. R. ; DeGiovanni, A. ; Pereira, J. H. ; Rodrigues, A. V ; van Dijk, A. A. ; Ebrecht, A. C. ; Opperman, D. J. ; Sagmeister, T. ; Buhlheller, C. ; Pavkov-Keller, T. ; Rathinaswamy, M. K. ; Dalwadi, U. ; Yip, C. K. ; Burke, J. E. ; Garcia, K. C. ; Grishin, N. V ; Adams, P. D. ; Read, R. J. ; Baker, D. Accurate Prediction of Protein Structures and Interactions Using a Three-Track Neural Network. Science (80-.). 2021. https://doi.org/10.1126/science.abj8754.",
+          "DOI": "10.1101/2021.06.14.448402"
+        },
+        {
+          "issue": "3",
+          "key": "2022040607000454000_2022.03.30.486144v2.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0265020",
+          "DOI": "10.1371/journal.pone.0265020",
+          "article-title": "Large-Scale Design and Refinement of Stable Proteins Using Sequence-Only Models",
+          "volume": "17",
+          "year": "2022",
+          "journal-title": "PLoS One"
+        },
+        {
+          "issue": "7889",
+          "key": "2022040607000454000_2022.03.30.486144v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "547",
+          "DOI": "10.1038/s41586-021-04184-w",
+          "article-title": "De Novo Protein Design by Deep Network Hallucination",
+          "volume": "600",
+          "year": "2021",
+          "journal-title": "Nat"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-27838-9"
+        },
+        {
+          "issue": "2",
+          "key": "2022040607000454000_2022.03.30.486144v2.20",
+          "first-page": "184",
+          "article-title": "Deciphering Interaction Fingerprints from Protein Molecular Surfaces Using Geometric Deep Learning",
+          "volume": "17",
+          "year": "2019",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.21",
+          "unstructured": "iNNterfaceDesign."
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Syrlybaeva, R. ; Strauch, E.-M. Deep Learning of Protein Sequence Design of Protein-Protein Interactions. bioRxiv 2022. https://doi.org/10.1101/2022.01.28.478262.",
+          "DOI": "10.1101/2022.01.28.478262"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.pbiomolbio.2014.06.003"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.7529940"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Agrawal, P. ; Singh, H. ; Srivastava, H. K. ; Singh, S. ; Kishore, G. ; Raghava, G. P. S. Benchmarking of Different Molecular Docking Methods for Protein-Peptide Docking. BMC Bioinformatics 2019, 19 (Suppl 13). https://doi.org/10.1186/s12859-018-2449-y.",
+          "DOI": "10.1186/s12859-018-2449-y"
+        },
+        {
+          "issue": "6",
+          "key": "2022040607000454000_2022.03.30.486144v2.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "3959",
+          "DOI": "10.1021/acs.jctc.9b01208",
+          "article-title": "Comprehensive Evaluation of Fourteen Docking Programs on Protein-Peptide Complexes",
+          "volume": "16",
+          "year": "2020",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2018.05.006"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(03)00670-3"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Linsky, T. ; Noble, K. ; Tobin, A. ; Crow, R. ; Carter, L. ; Urbauer, J. ; Baker, D. ; Strauch, E. Sampling of Structure and Sequence Space of Small Protein Folds. bioRxiv 2021, 2021.03.10.434454. https://doi.org/10.1101/2021.03.10.434454.",
+          "DOI": "10.1101/2021.03.10.434454"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1222908"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/stke.2192004pl2"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.32",
+          "unstructured": "Image captioning with visual attention."
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1115898108"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2010.11.008"
+        },
+        {
+          "key": "2022040607000454000_2022.03.30.486144v2.35",
+          "first-page": "74",
+          "volume": "22",
+          "year": "2013",
+          "journal-title": "A Comparison of Successful and Failed Protein Interface Designs Highlights the Challenges of Designing Buried Hydrogen Bonds"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.03.30.486144",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:51:28Z",
+        "timestamp": 1768445488000
+      },
+      "score": 68.28244,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.03.30.486144"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            1
+          ]
+        ]
+      },
+      "references-count": 35,
+      "URL": "https://doi.org/10.1101/2022.03.30.486144",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

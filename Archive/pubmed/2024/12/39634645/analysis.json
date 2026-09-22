@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39634645",
+  "title": "Amino Acid Residue-Specific Ramachandran Distributions Derived from a Simple Mean Field Potential.",
+  "authors": "Andrews, Brian",
+  "journal": "ACS physical chemistry Au",
+  "published_date": "2024-12-05",
+  "window": {
+    "start": "2024-12-02",
+    "end": "2024-12-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用平均场势能模型解析无序态氨基酸残基的Ramachandran分布，虽非直接PPI研究，但为IDP构象偏好和互作机制建模提供了可迁移的物理模拟思路。",
+  "abstract": "Protein dynamics in the unfolded state, in the context of early stage protein folding or intrinsically disordered proteins (IDPs), is not well understood. The discovery of IDPs, and their sequence-dependent dynamics, has led to many computational and experimental investigations regarding the conformational preferences of short oligopeptides and individual amino acid residues in the unfolded state. As proteins consist of sequences of amino acid residues, characterizing the intrinsic conformational preferences of the individual residues in the unfolded state is crucial for understanding the emergent conformations of peptides and proteins. While advances have been made in understanding conformational preferences, the atomistic mechanisms driving these preferences remain unresolved. In this work, we show that the distributions of atomic overlaps between backbone and side chain atoms in Ramachandran space are unique for amino acid residue mimetic structures alanine, valine, leucine, and isoleucine in Ramachandran space indicating unique intrapeptide energy landscapes for each residue. We then construct a mean field potential consisting of only an empirical peptide backbone-water and average intrapeptide Lennard-Jones contributions to explore their influence on the conformational preferences. With this fairly simple model, we were able to produce Ramachandran distributions that qualitatively agree with previously reported experimental and computational predictions about the conformational preferences of these amino acid residues in the unfolded state in water. Our results indicate these conformational preferences are the result of the balance between pPII-stabilizing backbone-water interactions and repulsive side chain-backbone interactions where the latter will depend uniquely on the atomic makeup and geometry of the side chain.",
+  "abstract_zh": "在早期蛋白质折叠或 intrinsically disordered proteins (IDPs) 的背景下，未折叠状态下的蛋白质动力学尚未被充分理解。IDPs 的发现及其序列依赖性动力学，引发了许多关于未折叠状态下短寡肽和单个氨基酸残基构象偏好的计算和实验研究。由于蛋白质由氨基酸残基序列组成，表征未折叠状态下单个残基的内在构象偏好对于理解肽和蛋白质的涌现构象至关重要。尽管在理解构象偏好方面已取得进展，但驱动这些偏好的原子机制仍未解决。在本工作中，我们展示了在 Ramachandran 空间中，骨架原子与侧链原子之间的原子重叠分布对于氨基酸残基模拟结构丙氨酸、缬氨酸、亮氨酸和异亮氨酸是独特的，表明每个残基具有独特的肽内能量景观。然后，我们构建了一个仅包含经验性肽骨架-水相互作用和平均肽内 Lennard-Jones 贡献的平均场势，以探索它们对构象偏好的影响。利用这个相当简单的模型，我们能够产生 Ramachandran 分布，这些分布定性地与先前关于这些氨基酸残基在水中未折叠状态下构象偏好的实验和计算预测一致。我们的结果表明，这些构象偏好是 pPII 稳定骨架-水相互作用与排斥性侧链-骨架相互作用之间平衡的结果，其中后者将独特地依赖于侧链的原子组成和几何结构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39634645/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39634645/",
+  "paper_page_path": "papers/pubmed/39634645/index.html"
+}

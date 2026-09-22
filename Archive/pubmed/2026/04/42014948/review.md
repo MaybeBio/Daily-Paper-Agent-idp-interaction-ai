@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and framing presented in the abstract; full text, figures, and tables not provided
+- **Shared manuscript claim summary** The authors argue that generative machine learning methods are increasingly useful for generating and analyzing conformational ensembles of intrinsically disordered proteins (IDPs), offering lower-cost alternatives to long-timescale simulations. They state that performance is uneven, that most models rely on coarse-grained training data, that all-atom training is limited to short peptides and narrow sequence families, and that integration of experimental observables is still emerging. They frame the Perspective as covering hybrid simulation-ML strategies, integration of SAXS, NMR, and single-molecule data, and scaling challenges.
+- **Visible evidence base** Abstract text only; no figures, tables, or methodological details provided
+- **Missing materials affecting confidence** Full text, all figures, tables, references, and any quantitative performance comparisons; without these, specific claims about model capabilities, training data scope, and integration strategies cannot be independently verified
+
+## Reviewer
+- **Overall assessment** This Perspective addresses a timely and important topic in computational biophysics. The abstract presents a coherent high-level narrative that identifies genuine gaps in the field, particularly the reliance on coarse-grained training data and the limited integration of experimental observables. However, the abstract alone provides insufficient detail to evaluate the depth, accuracy, or novelty of the review. The claims are plausible but largely unverifiable from the supplied material. The framing is appropriate for a Perspective article, but the scientific case would benefit from more explicit evidence of the stated limitations and opportunities.
+- **Who would be interested in the results, and why** Computational biophysicists, machine learning researchers working on molecular systems, and experimentalists studying IDPs through SAXS, NMR, or single-molecule methods. The Perspective could serve as a useful roadmap for researchers seeking to combine generative models with experimental data, and for method developers aiming to address the identified scalability and generalizability gaps.
+- **Major strengths** The topic is highly relevant and timely. The abstract clearly identifies key limitations in the current state of the art, including the coarse-grained training bottleneck and the emerging rather than routine use of experimental observables. The proposed focus areas, hybrid simulation-ML strategies and experimental integration, are sensible and likely to be of broad interest.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that generative models "can recover many sequence-dependent features at substantially lower cost" and that "performance remains uneven."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract makes specific claims about model performance and cost efficiency without providing any quantitative data, benchmarks, or comparisons. No specific models, datasets, or evaluation metrics are mentioned.
+  - **Why it matters** For a Perspective, the credibility of the narrative depends on accurate representation of the field. Without concrete examples or references to specific studies, the claims about performance and limitations cannot be assessed, and the reader cannot judge whether the characterization is fair or overstated.
+  - **Resolution test** Provide in the full text specific examples with quantitative comparisons, such as accuracy metrics relative to simulation or experimental data, and clearly cite the studies that support the claims of uneven performance and cost advantages.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope and generalizability
+  - **Claim pointer** The abstract states that "all-atom training is still limited to short peptides and narrow sequence families, constraining structural resolution and generalizability across diverse IDPs."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This is a strong and specific claim about the current limits of all-atom training. The abstract does not indicate which models or studies this refers to, nor does it define "short" or "narrow." Without this context, the claim is difficult to evaluate and may be outdated or incomplete.
+  - **Why it matters** The claim underpins one of the main motivations for the Perspective. If it is inaccurate or incomplete, the framing of the field's limitations would be misleading.
+  - **Resolution test** In the full text, cite specific all-atom generative models, state their training set sizes and sequence diversity, and compare against the claimed limitations. Provide a clear definition of what constitutes "short" and "narrow" in this context.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and contribution
+  - **Claim pointer** The abstract frames the Perspective as reviewing "recent methodological advances" and "identify key limitations and opportunities."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not indicate what new conceptual insights or organizing principles the Perspective offers beyond a summary of existing work. For a Perspective, the added value typically comes from a novel synthesis or a forward-looking framework.
+  - **Why it matters** If the Perspective is purely descriptive, its impact may be limited. The field already has multiple reviews on machine learning for IDPs; the authors need to articulate what distinguishes their treatment.
+  - **Resolution test** In the full text, clearly state the novel conceptual contributions, such as a new taxonomy of methods, a proposed framework for experimental integration, or a specific roadmap for future development.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "hybrid simulation-ML strategies" is vague and could encompass many different approaches.
+  - **Required correction** Specify in the abstract or full text what types of hybrid strategies are meant, such as ML-accelerated sampling, ML force fields, or iterative refinement loops.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions integration of SAXS, NMR, and single-molecule data but does not indicate whether other experimental techniques, such as FRET or mass spectrometry, are considered.
+  - **Required correction** Clarify whether the scope is limited to these three techniques or if others are included, and justify the selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract moves from general statements to specific limitations and then to the Perspective's focus areas, but the transition is abrupt.
+  - **Required correction** Add a sentence that explicitly links the identified limitations to the proposed focus areas, making the logical flow clearer.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims about performance, cost, and all-atom limitations are not supported by any evidence in the supplied material. The full text must provide specific examples, citations, and quantitative context to establish these claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract alone. The topic is not new, but the Perspective may offer a novel synthesis. This cannot be determined without the full text.
+  - Scientific importance: High. The topic is central to current developments in computational biophysics and machine learning.
+  - Interdisciplinary readership: Potentially broad, spanning machine learning, biophysics, and experimental structural biology. The abstract is accessible but lacks specific details that would engage specialists.
+  - Technical soundness: Not assessable. No technical details or evidence are provided in the abstract.
+  - Readability for nonspecialists: The abstract is generally clear and avoids excessive jargon, but terms like "coarse-grained simulation data" and "generative AI models" may require some background.
+- **Recommendation posture** Supportive if technical concerns are resolved. The topic is important and the framing is sensible, but the abstract alone does not provide enough evidence to establish the claims. The full text must substantiate the stated limitations and opportunities with specific examples and citations.
+
+## Risk / unsupported claims
+- The claim that generative models "can recover many sequence-dependent features at substantially lower cost" is unsupported in the abstract; no cost or accuracy data are provided.
+- The claim that "performance remains uneven" is unsupported without specific examples or benchmarks.
+- The claim that "all-atom training is still limited to short peptides and narrow sequence families" is unsupported without citations or definitions.
+- The claim that "incorporating experimental observables into training or sampling is also still emerging rather than routine" is plausible but not evidenced in the abstract.
+- The overall characterization of the field's limitations and opportunities cannot be independently verified from the supplied material.

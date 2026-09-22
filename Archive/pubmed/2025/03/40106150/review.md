@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The claims presented in the abstract, without access to the full chapter text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The chapter describes a protocol for identifying intrinsically disordered regions (IDRs) in proteins using deep learning driven computational approaches, with S100-A9 as a case study. The authors state that characterizing IDRs in S100-A9 could provide insights into molecular interactions relevant to psoriasis, including inflammation, immune dysregulation, and keratinocyte behavior.
+- **Visible evidence base** Abstract text only
+- **Missing materials affecting confidence** Full chapter text, protocol steps, software tools used, validation data, figures, tables, and any performance metrics or comparative analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a reasonable and timely methodological contribution, addressing a genuine gap in the study of intrinsically disordered regions using deep learning approaches. The choice of S100-A9 as a case study is biologically motivated and potentially impactful for psoriasis research. However, the abstract lacks critical technical details that would allow assessment of the protocol's novelty, validity, and reproducibility. The connection between the computational protocol and the biological implications for psoriasis is stated but not substantiated with any evidence or mechanistic explanation. As presented, the work is a protocol description rather than a research finding, and its scientific contribution depends heavily on the full chapter content that is not available for review.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics, particularly those working on protein structure prediction and intrinsically disordered proteins. Also, investigators studying S100 proteins and their role in inflammatory diseases such as psoriasis, who may benefit from a practical protocol for IDR identification. The chapter could serve as a teaching resource for graduate students and early-career researchers entering the field of computational structural biology.
+- **Major strengths** The topic is relevant and timely, given the rapid adoption of deep learning methods in structural biology. The focus on IDRs addresses an important limitation of traditional structural methods. The use of a disease-relevant protein as a case study provides practical context and potential translational relevance. The stated aim of providing a simple, preliminary-level protocol suggests accessibility for nonspecialist users.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "artificial intelligence can be helpful in predicting, analyzing, and modeling these regions" and that the chapter "provides a simple protocol for a preliminary-level approach to identifying protein IDRs."
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract does not specify which deep learning tools or algorithms are used, how they are applied, or what validation was performed. Without this information, the technical soundness of the protocol cannot be evaluated. The claim that the approach is "simple" and "preliminary-level" is not supported by any comparative analysis or benchmark against existing methods.
+  - **Why it matters** A protocol chapter's primary value lies in its reproducibility and reliability. If the specific tools, parameters, and validation steps are not described, readers cannot assess whether the protocol is fit for purpose or how it compares to existing approaches. This is a core requirement for a methods contribution.
+  - **Resolution test** The full chapter should provide a clear description of the computational tools used, the input data requirements, the step-by-step workflow, and validation results demonstrating that the protocol correctly identifies known IDRs in S100-A9 or benchmark proteins.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract states that "characterization of the IDRs of this molecule could provide further details on the complex molecular interactions involved in psoriasis, particularly those related to inflammation, immune dysregulation, and keratinocyte behavior."
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The biological significance of the S100-A9 IDRs in psoriasis is asserted without any supporting evidence or mechanistic rationale. The abstract does not explain how IDR characterization would illuminate the specific molecular interactions mentioned, nor does it reference any prior findings linking S100-A9 IDRs to psoriasis pathology.
+  - **Why it matters** The stated biological motivation is a key justification for the work. If the link between S100-A9 IDRs and psoriasis is speculative or unsupported, the significance of the protocol for disease research is weakened. The abstract should either provide evidence for this connection or frame the biological relevance as a hypothesis to be tested.
+  - **Resolution test** The full chapter should include a background section with cited evidence linking S100-A9 IDRs to psoriasis-related processes, or clearly state that the biological relevance is a hypothesis motivating future work.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The abstract implies that the protocol offers a novel approach to IDR identification using deep learning.
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract does not state what is novel about this protocol relative to existing deep learning based IDR prediction tools, such as AlphaFold, IUPred, or flDPnn. Without a clear statement of novelty or a comparison to existing methods, the contribution of this chapter is unclear.
+  - **Why it matters** In a rapidly advancing field, a methods chapter must clearly position itself relative to the state of the art. If the protocol simply applies existing tools in a standard way, its value as a novel contribution is limited.
+  - **Resolution test** The full chapter should include an introduction that reviews existing IDR prediction methods and explicitly states what this protocol adds, whether it is a new workflow, a new application, or a simplified approach for a specific use case.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract uses the term "preliminary-level approach" without defining what this means in practical terms. Nonspecialist readers may not understand the intended audience or the required level of expertise.
+  - **Required correction** Clarify the target audience and the prerequisite knowledge or skills needed to follow the protocol.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract framing
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract does not mention the computational resources or programming skills required, which would be relevant for biologists who may want to use the protocol.
+  - **Required correction** Add a brief statement on the computational requirements, such as whether the tools are web-based, require local installation, or need GPU access.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Protocol scope
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract does not indicate whether the protocol is limited to S100-A9 or is generalizable to other proteins. This affects the utility of the chapter for a broader audience.
+  - **Required correction** State explicitly whether the protocol is protein-specific or transferable to other IDR-containing proteins.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking concerns. The absence of technical details on the deep learning tools and validation, and the unsupported biological claims, prevent the case from being established based on the abstract alone. R1-M3 is non-blocking but important for positioning the work.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract. The chapter may offer a useful protocol, but no claim of novelty is substantiated.
+  - Scientific importance: The topic is important, and the S100-A9 case study has potential relevance to psoriasis research. However, the biological significance is asserted without evidence, so the importance is not established.
+  - Interdisciplinary readership: The abstract is written in a way that could appeal to both computational and biological researchers, but the lack of technical detail limits its accessibility to nonspecialists who may want to apply the protocol.
+  - Technical soundness: Not assessable from the abstract. The absence of tool names, validation data, and workflow details precludes evaluation.
+  - Readability for nonspecialists: The abstract is clear and concise, but terms like "preliminary-level approach" are vague and could be better defined.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful protocol, but the lack of technical detail and unsupported biological claims prevent a positive recommendation. A revised abstract that specifies the tools used, provides validation evidence, and substantiates the psoriasis connection would strengthen the case. The full chapter may address these issues, but based on the abstract alone, the contribution cannot be fully assessed.
+
+## Risk / unsupported claims
+- The claim that artificial intelligence "can be helpful" in predicting, analyzing, and modeling IDRs is a general statement that is not supported by specific examples or references in the abstract.
+- The claim that characterizing S100-A9 IDRs "could provide further details" on psoriasis-related molecular interactions is speculative and unsupported by evidence in the abstract.
+- The implied novelty of the protocol relative to existing deep learning based IDR prediction methods is not stated or supported.
+- The generalizability of the protocol beyond S100-A9 is not addressed and cannot be assumed.

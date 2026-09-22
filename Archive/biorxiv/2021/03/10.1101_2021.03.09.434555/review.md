@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supporting information descriptions
+- **Assessment boundary** Scientific claims, experimental evidence, bioinformatic analyses, and interpretation as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report the discovery of a germline-specific NAC (gNAC) heterodimer in Drosophila melanogaster, comprising a previously identified germinal β-subunit and a newly characterized germinal α-subunit encoded by CG4415. They demonstrate that both subunits contain extended intrinsically disordered regions (IDRs) relative to ubiquitous NAC counterparts, and show that ectopic expression of gNAC-β can partially rescue the lethal phenotype of the ubiquitous NAC-β (bic) null mutation. The authors propose that the evolutionary acquisition of these IDRs may confer novel conformational plasticity and phosphorylation-dependent regulatory functions in germ cells.
+- **Visible evidence base** Co-immunoprecipitation and Western blot data (Fig. 1A); embryonic immunostaining (Fig. 1C-F); in situ hybridization data referenced from prior work (Fig. 1B); disorder prediction profiles (Fig. 2); phosphosite predictions (Fig. 2, Fig. S1); phylogenetic tree of 69 Drosophila species (Fig. 3); transgenic rescue experiments (Fig. 4); multiple sequence alignments (Fig. S2, Data Set S1)
+- **Missing materials affecting confidence** Raw Western blot images with molecular weight markers; quantification of rescue efficiency; negative controls for immunostaining; statistical analysis details for rescue experiments; full phosphosite prediction parameters; validation of antibody specificity; raw sequence alignments not fully inspectable; no experimental validation of IDR function or phosphorylation
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting observation regarding a germline-specific NAC paralog in Drosophila with extended IDRs and demonstrates partial functional complementation in a rescue assay. However, the study is largely descriptive and the functional significance of the IDRs remains speculative. The central claims regarding the evolutionary importance of IDR acquisition and their role in germ cell-specific functions are not experimentally tested. The rescue experiment, while suggestive of functional overlap, does not establish the mechanistic basis for suppression. The phylogenetic analysis is thorough but the interpretation of IDR conservation patterns is limited by the lack of functional validation. The manuscript would benefit from additional experiments linking the IDR-containing gNAC to specific germ cell functions or phenotypes.
+- **Who would be interested in the results, and why** Researchers studying ribosome-associated chaperones, particularly NAC biology, will find the identification of a germline-specific paralog of interest. Those working on intrinsically disordered proteins and their roles in protein-protein interactions and phase separation may be interested in the evolutionary expansion of IDRs in this context. Drosophila germ cell biologists studying translational regulation and specialized ribosomes may also find relevance. The phylogenetic analysis of NAC gene family evolution across Drosophila species could interest evolutionary biologists.
+- **Major strengths** The identification of a germline-specific heterodimeric NAC complex is a novel finding that extends the known repertoire of NAC variants. The combination of biochemical (co-IP), cell biological (immunostaining), and genetic (rescue) approaches provides multiple lines of evidence for the existence and partial functionality of gNAC. The phylogenetic analysis across 69 Drosophila species is comprehensive and well-executed, providing evolutionary context for the gene family. The observation that gNAC-β can partially substitute for ubiquitous NAC-β in a lethal mutant background is functionally informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The authors claim that gNAC-β ectopic expression rescues the lethal effect of the loss of ubiquitous NAC-β, implying functional overlap between the paralogs.
+  - **Evidence pointer** Fig. 4, Methods section "Fly stocks and crosses"
+  - **Concern** The rescue experiment is described only qualitatively. The authors state that T2 insertion "ensured the survival of up to 30% of fertile individuals" but provide no details on the number of crosses, total progeny scored, statistical significance, or comparison with a positive control (e.g., ubiquitous NAC-β rescue). The T3 insertion showed "no visible suppressive effect" but the expression level difference between T2 and T3 is only stated as "high" versus "medium" without quantification. The lack of a dose-response analysis or statistical framework weakens the conclusion of functional complementation.
+  - **Why it matters** The rescue experiment is the only functional evidence supporting the claim that gNAC-β can substitute for ubiquitous NAC-β. Without rigorous quantification and appropriate controls, the conclusion that these paralogs share functional overlap is not firmly established. This is central to the authors' argument about the evolutionary and functional significance of gNAC.
+  - **Resolution test** Provide full details of the rescue experiment including number of independent crosses, total progeny counts, survival rates with confidence intervals, statistical comparison between genotypes, and a positive control rescue with ubiquitous NAC-β. Quantify transgene expression levels by Western blot with normalization to a loading control and include a statistical comparison between T2 and T3 lines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance
+  - **Claim pointer** The authors propose that the extended IDRs in gNAC subunits confer "specific conformational plasticity for binding client proteins and novel functions regulated by post-translational modifications."
+  - **Evidence pointer** Fig. 2, Discussion section
+  - **Concern** The functional significance of the extended IDRs is entirely speculative. No experiments are performed to test whether these regions contribute to client protein binding, conformational flexibility, or phosphorylation-dependent regulation. The phosphosite predictions are acknowledged by the authors as "not very reliable and require experimental confirmation," yet they are used to support the central hypothesis about IDR function. The claim that IDRs promote phase separation is based on a single citation and is not tested in any germ cell context.
+  - **Why it matters** The IDR enrichment is presented as a defining feature of gNAC and the basis for its proposed specialized functions. Without experimental evidence linking these regions to specific biochemical or cellular activities, the central hypothesis of the manuscript remains unsubstantiated. The manuscript would be substantially strengthened by deletion or swap experiments testing the requirement of IDRs for gNAC function.
+  - **Resolution test** Perform targeted experiments such as: (1) deletion of IDR regions in gNAC-β followed by rescue assays; (2) in vitro binding assays comparing IDR-containing vs IDR-deleted gNAC with client proteins; (3) phosphomimetic or phosphodead mutations at predicted sites followed by functional assays; (4) phase separation assays with purified IDR-containing proteins. At minimum, the authors should temper the claims about IDR function to match the descriptive nature of the evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental evidence
+  - **Claim pointer** The authors state that gNAC-α is expressed exclusively in the germline during early embryonic development, based on in situ hybridization data from a prior study and their own immunostaining.
+  - **Evidence pointer** Fig. 1B-F, Results section
+  - **Concern** The immunostaining data (Fig. 1C-F) are presented without adequate controls. No negative control (pre-immune serum or peptide competition) is shown. The antibody is described as recognizing "exclusively the germ cells in testes and early embryos" but the specificity validation is not shown in the manuscript. The in situ hybridization data for CG4415 are referenced from a prior study (Fisher et al., 2012) but not independently verified here. The colocalization of α and β subunits in the same cells is implied but not directly demonstrated by double labeling.
+  - **Why it matters** The germline-specific expression pattern is foundational to the designation of this complex as "germinal NAC." If the expression data are not rigorously validated, the entire premise of a germline-specific complex is weakened. The claim of exclusive germline expression has implications for the proposed specialized functions.
+  - **Resolution test** Include antibody validation data (Western blot on knockout or knockdown lysates, peptide competition, or pre-immune serum control). Perform double labeling for gNAC-α and gNAC-β to demonstrate co-expression in the same germ cells. Provide higher magnification images to clearly show cellular localization. If possible, include a germline-specific knockout or knockdown of CG4415 to confirm antibody specificity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary interpretation
+  - **Claim pointer** The authors claim that the gNAC-β genes are found in the melanogaster group but not in the obscura group, and that gNAC-β-like genes are present in earlier diverged species, indicating an "early origin of this gene in insects."
+  - **Evidence pointer** Fig. 3, Results section, Methods section "Phylogeny of 69 Drosophila species"
+  - **Concern** The phylogenetic analysis is based on gene presence/absence patterns inferred from genome assemblies. The authors do not discuss potential issues with assembly quality, gene annotation completeness, or the possibility that gNAC-β genes may be present but not detected in some species due to assembly gaps or rapid sequence divergence. The designation of "gNAC-β-like" genes in mosquitoes is based on sequence similarity, but the functional relevance of these orthologs is not addressed. The evolutionary scenario proposed (early origin followed by lineage-specific retention/loss) is plausible but not rigorously tested with statistical methods such as ancestral state reconstruction.
+  - **Why it matters** The evolutionary narrative is a key part of the manuscript's significance. If the gene presence/absence patterns are artifacts of assembly or annotation, the conclusions about the timing and mode of gNAC evolution would be incorrect. The claim of "early origin" has implications for understanding the ancestral function of NAC proteins.
+  - **Resolution test** Validate the absence of gNAC-β in obscura group species by PCR or targeted sequencing. Use synteny analysis to confirm orthology relationships. Perform ancestral state reconstruction with appropriate statistical tests. Discuss the limitations of genome assembly-based gene detection and consider the possibility of undetected orthologs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that gNAC "differs from the ubiquitously expressed NAC by the presence of expanded intrinsically disordered regions (IDRs) at the N- and C-ends of the α- and β-subunits, respectively." This phrasing is ambiguous regarding which subunit has which terminal extension.
+  - **Required correction** Rephrase to clearly state that the α-subunit has an extended N-terminal IDR and the β-subunit has an extended C-terminal IDR.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Fig. 2
+  - **Evidence pointer** Fig. 2
+  - **Issue** The disorder prediction profiles are shown but the specific algorithm parameters and thresholds used in IsUnstruct are not described in the Methods. The figure legend does not indicate how "disordered" was defined.
+  - **Required correction** Add a description of IsUnstruct parameters and the criteria used to classify regions as disordered. Include this information in the Methods or figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Fig. 4
+  - **Evidence pointer** Fig. 4
+  - **Issue** The rescue efficiency is reported as "up to 30%" without any measure of variability or statistical comparison. The number of independent biological replicates is not stated.
+  - **Required correction** Report the number of independent crosses, the total number of progeny scored, and the survival rate with confidence intervals. Include a statistical test comparing rescue lines to negative controls.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of phase separation and biomolecular condensates in germ cells is speculative and not well integrated with the experimental data. The connection between gNAC IDRs and phase separation is not tested or directly supported.
+  - **Required correction** Either provide experimental evidence for phase separation behavior of gNAC or temper the discussion to clearly indicate this is a speculative hypothesis requiring future investigation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data Set S1
+  - **Evidence pointer** Data Set S1
+  - **Issue** The multiple sequence alignments are provided as a supplementary data set, but the format and accessibility are not described. It is unclear whether these are in a standard alignment format that can be easily analyzed by others.
+  - **Required correction** Specify the file format of Data Set S1 and consider depositing the alignments in a public repository such as Zenodo or Figshare for long-term accessibility.
+- **Technical failings that need to be addressed before the case is established** The rescue experiment lacks quantitative rigor and appropriate controls (R1-M1). The functional significance of IDRs is not experimentally tested (R1-M2). Antibody specificity and expression pattern validation are incomplete (R1-M3). The evolutionary analysis does not account for potential assembly or annotation artifacts (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The identification of a germline-specific NAC heterodimer is novel and extends the known biology of this conserved chaperone family. However, the conceptual advance is limited by the descriptive nature of the study. Scientific importance: The potential link between germline-specific NAC and specialized translational regulation is interesting, but the significance is not fully realized without functional experiments. The rescue data suggest functional overlap but do not establish germline-specific functions. Interdisciplinary readership: The manuscript may appeal to researchers in ribosome biology, chaperone function, and Drosophila germ cell biology, but the speculative nature of the IDR discussion may limit broader appeal. Technical soundness: The phylogenetic analysis is well-executed, and the biochemical experiments are appropriately designed, but the rescue experiment lacks statistical rigor and the IDR predictions are not experimentally validated. Readability for nonspecialists: The manuscript is generally well-written and accessible, though the discussion of IDRs and phase separation may be challenging for readers outside the field. The authors should clarify the distinction between established findings and speculative interpretations.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting descriptive finding but does not provide sufficient functional evidence to support the central claims about IDR function and germline-specific roles. The rescue experiment, while suggestive, lacks the quantitative rigor needed to establish functional complementation. The authors should either provide additional experimental evidence linking gNAC and its IDRs to specific germ cell functions or substantially temper their claims to match the descriptive nature of the data.
+
+## Risk / unsupported claims
+- The claim that extended IDRs in gNAC confer "specific conformational plasticity for binding client proteins and novel functions regulated by post-translational modifications" is unsupported by experimental evidence.
+- The suggestion that gNAC-associated ribosomes can be considered "specialized" is speculative and not directly tested.
+- The proposal that IDR phosphorylation promotes phase separation of gNAC is based on prediction and indirect evidence, not experimental demonstration.
+- The claim that gNAC-β can "mediate some multifaceted NAC functions" of the ubiquitous counterpart is only weakly supported by the qualitative rescue data.
+- The evolutionary scenario proposing an "early origin" of gNAC-β in insects is based on presence/absence patterns that may be affected by assembly or annotation artifacts.
+- The statement that gNAC-α is expressed "exclusively in the germline" is not rigorously validated due to incomplete antibody characterization.

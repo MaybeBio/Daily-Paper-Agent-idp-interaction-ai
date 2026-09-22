@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41021779",
+  "title": "Theory of Condensate Size Control by Molecular Charge Asymmetry.",
+  "authors": "Luo, Chengjie; Hess, Nathaniel; Aierken, Dilimulati; Qiang, Yicheng; Joseph, Jerelle A; Zwicker, David",
+  "journal": "ACS macro letters",
+  "published_date": "2025-09-29",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过分子动力学模拟和平衡场论，研究电荷不对称性如何通过静电排斥控制凝聚体尺寸，涉及无序蛋白凝聚体中的互作机制建模，对相分离PPI机制有直接启发。",
+  "abstract": "Biomolecular condensates are complex droplets comprising diverse molecules that interact by various mechanisms. Condensation is often driven by short-range attraction, but net charges can also mediate long-range repulsion. Using molecular dynamics simulations and an equilibrium field theory, we show that such opposing interactions can suppress coarsening, so many droplets of equal size coexist at equilibrium. This size control depends strongly on the charge asymmetry between molecular constituents, while the strength of the short-range attractions has a weak influence. The mechanism relies on droplets expelling ions; therefore, they cannot screen electrostatics effectively, implying that droplets acquire a net charge and cannot grow indefinitely. Our simulations indicate that this effect is likely less prevalent in biomolecular condensates within cells, although we still observe stable small clusters in this case. Taken together, our work reveals that electrostatic effects through molecular charge asymmetries can control droplet size, which contributes to our understanding of biomolecular condensates and the creation of synthetic patterns in chemical engineering.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）是由多种分子组成的复杂液滴，这些分子通过不同机制相互作用。凝聚通常由短程吸引驱动，但净电荷也能介导长程排斥。利用分子动力学（molecular dynamics）模拟和平衡场理论，我们表明这种相反相互作用能抑制粗化，因此许多等尺寸液滴在平衡态下共存。这种尺寸控制强烈依赖于分子组分间的电荷不对称性，而短程吸引强度的影响较弱。该机制依赖于液滴排出离子；因此，它们无法有效屏蔽静电作用，这意味着液滴获得净电荷且不能无限增长。我们的模拟表明，在细胞内的生物分子凝聚体中，这种效应可能不太普遍，尽管在此情况下我们仍观察到稳定的小簇。综合来看，我们的工作揭示，通过分子电荷不对称性产生的静电效应能控制液滴尺寸，这有助于我们理解生物分子凝聚体及化学工程中合成图案的创建。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41021779/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41021779/",
+  "paper_page_path": "papers/pubmed/41021779/index.html"
+}

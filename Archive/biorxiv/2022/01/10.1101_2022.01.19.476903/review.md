@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, and materials and methods, as provided.
+- **Assessment boundary** Scientific content, technical soundness, logical coherence, and support of claims by the presented evidence. Editorial and stylistic aspects are considered only insofar as they affect clarity and accessibility.
+- **Shared manuscript claim summary** The authors propose that paralogous proteins can evolve intrinsically disordered regions (IDRs) with different physicochemical properties that nonetheless converge on a shared function, using the Musashi family as a case study. Specifically, they argue that Musashi-1's lower prion-like tendency is compensated by a higher α-helical propensity in its polyalanine region, enabling liquid-liquid phase separation (LLPS), while Musashi-2 relies on its prion-like character.
+- **Visible evidence base** Sequence analysis and phylogenetic trees (Fig. 1); circular dichroism spectra (Fig. 2A); NMR chemical shift assignments and secondary structure propensity calculations (Figs. 2B–D, 3D–G); microscopy and FRAP data (Fig. 4D–E); aggregation assays (Fig. 4F); bioinformatic survey of α-helical propensity in human proteome (Fig. 5); comparative sequence analysis across species (Fig. 6). Supplementary figures and tables are referenced but not provided in the submitted material.
+- **Missing materials affecting confidence** Supplementary figures S1–S8 and tables S1–S3 are referenced but not included. Raw NMR data, detailed FRAP recovery curves, and the full bioinformatic scoring methodology are not available. The aggregation assay data are described but not shown in full. These omissions limit independent verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an interesting and timely question about the evolutionary convergence of IDR properties in paralog families. The combination of biophysical experiments and phylogenetic analysis is commendable. However, the central claim that α-helical propensity compensates for reduced prion-likeness in Musashi-1 is only partially supported by the presented data. The evidence for a direct causal link between the polyalanine region, α-helical propensity, and LLPS is suggestive but not definitive. Several technical details and control experiments are missing, and the functional relevance of the observed phase separation is not established. The manuscript has potential but requires substantial revision and additional evidence to fully support its conclusions.
+- **Who would be interested in the results, and why** Researchers studying phase separation, intrinsically disordered proteins, protein evolution, and RNA-binding proteins would find this work relevant. The concept of interchangeable physicochemical properties in IDRs leading to functional convergence is of broad interest to the fields of molecular evolution and cell biology. The specific findings on Musashi proteins may also be of interest to those studying stem cell biology and cancer, given the established roles of these proteins.
+- **Major strengths** The study addresses a novel and important question about the evolutionary dynamics of IDRs in paralogs. The use of multiple complementary techniques (CD, NMR, microscopy, FRAP, aggregation assays) is a strength. The phylogenetic analysis provides an evolutionary context that is often missing in biophysical studies. The identification of a specific polyalanine region as a key determinant of α-helical propensity is a concrete and testable finding.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors claim that the α-helical propensity of the polyalanine region in Musashi-1 promotes its assembly and phase separation, compensating for its lower prion-likeness.
+    - **Evidence pointer** Figures 2, 3, 4; location not provided
+    - **Concern** The causal link between α-helical propensity and phase separation is not directly demonstrated. The authors show that the polyalanine region has α-helical propensity and that its removal (ΔSeqA) affects aggregation behavior. However, they do not show that the α-helical propensity itself is necessary or sufficient for LLPS. The ΔSeqA variant is a deletion of the entire polyalanine region, which could affect other properties (e.g., charge, hydrophobicity) beyond α-helical propensity. A more direct test would involve mutating specific residues to disrupt the α-helix without deleting the entire region, or using a known α-helix-breaking residue (e.g., proline) to test the effect on phase separation.
+    - **Why it matters** The central thesis of the paper rests on the idea that α-helical propensity is a key functional trait that compensates for reduced prion-likeness. Without a direct test of this specific property, the claim is not fully supported.
+    - **Resolution test** Provide experiments where the α-helical propensity is specifically disrupted (e.g., by point mutations in the polyalanine region) and show that this leads to a loss of phase separation or a change in the material properties of the condensates. Alternatively, show that a chimeric construct with a different α-helical region can rescue phase separation in a Musashi-1 background lacking the polyalanine region.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors claim that at pH 6.5, Musashi-1 aggregates quickly, while Musashi-2 and ΔSeqA remain soluble for longer, suggesting that the polyalanine region promotes aggregation.
+    - **Evidence pointer** Figure 4F; location not provided
+    - **Concern** The aggregation assay is described but the data are not shown in the provided material. The authors state that "nearly all Msi-1C molecules aggregated within 1 h" but do not provide the actual time-course data, error bars, or statistical analysis. Furthermore, the assay measures loss of soluble protein after centrifugation, which may not distinguish between amorphous aggregation and the formation of large, sedimentable condensates. The distinction between LLPS and aggregation is critical to the authors' argument, and the assay as described may not be sufficient to make this distinction.
+    - **Why it matters** The claim that Musashi-1 aggregates at pH 6.5 is a key piece of evidence for the "price paid" for α-helical propensity. Without clear data, this claim is not verifiable.
+    - **Resolution test** Provide the full time-course data for the aggregation assay, including replicates and statistical analysis. Use a more discriminating assay, such as turbidity measurements, sedimentation assays with different centrifugation speeds, or microscopy to distinguish between LLPS and amorphous aggregation.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The authors suggest that their findings on Musashi proteins can be generalized to other IDR-containing paralog families, proposing that "IDRs evolve different traits to a converged function."
+    - **Evidence pointer** Figure 5; location not provided
+    - **Concern** The bioinformatic analysis in Figure 5 is presented as a "rapid search" using a "simple scoring function," but the methodology is not described in sufficient detail. The authors do not provide the scoring function, the threshold values, or the statistical significance of the enrichment of α-helical propensity in RBPs. Without this information, it is difficult to assess the strength of the claim that this is a general phenomenon.
+    - **Why it matters** The broader significance of the work depends on the generality of the proposed mechanism. If the bioinformatic analysis is not robust, the claim of convergence may be overstated.
+    - **Resolution test** Provide a detailed description of the scoring function and the statistical analysis. Show that the enrichment of α-helical propensity in RBPs is significant compared to appropriate controls. Consider analyzing a larger set of paralog families to demonstrate the generality of the phenomenon.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Introduction
+    - **Evidence pointer** Location not provided
+    - **Issue** The introduction contains a somewhat lengthy discussion of paralogs and haemoglobin before introducing the Musashi family. While informative, this could be streamlined to focus more directly on the question of IDR evolution.
+    - **Required correction** Consider condensing the introductory material on paralogs and moving the haemoglobin example to a more concise form.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Materials and Methods, Microscopy
+    - **Evidence pointer** Location not provided
+    - **Issue** The microscopy section is very brief and does not specify the exact conditions for observing condensates (e.g., protein concentration, salt concentration, temperature). The FRAP section is also brief and does not provide details on the bleaching parameters or the analysis method.
+    - **Required correction** Provide more detailed experimental conditions for both microscopy and FRAP experiments to allow for reproducibility.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Results, "The disordered regions of Musashi proteins have a polyalanine region that forms an α-helix"
+    - **Evidence pointer** Figure 2D; location not provided
+    - **Issue** The δ2D predictions are presented as "residue-specific values up to ~50% vs up to ~20%". It is unclear if these are the maximum values or the average over the helical region. A clearer representation of the predicted helical propensity per residue would be helpful.
+    - **Required correction** Clarify the presentation of the δ2D predictions, perhaps by showing a per-residue plot of helical propensity for both proteins.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Readability for nonspecialists
+    - **Affected element** Discussion
+    - **Evidence pointer** Location not provided
+    - **Issue** The discussion of "distant relatives" and the comparison with TDP-43 and hnRNP A1/A2 is interesting but could be more focused. The relevance of these comparisons to the main argument could be made more explicit.
+    - **Required correction** Consider tightening the discussion to more directly connect the findings on Musashi proteins to the broader implications for IDR evolution.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct test of α-helical propensity), R1-M2 (full aggregation data and discrimination between LLPS and aggregation).
+- **Assessment against Nature-style criteria** 
+    - **Originality** The concept of interchangeable IDR properties in paralogs is a novel and interesting angle. The study is not merely a characterization of a single protein but attempts to address an evolutionary question. This is a strength.
+    - **Scientific importance** The question of how IDRs evolve and contribute to function is of high importance. However, the study is limited to a single protein family, and the generality of the findings is not fully established. The importance would be enhanced by a more robust demonstration of the proposed mechanism and its broader applicability.
+    - **Interdisciplinary readership** The work bridges biophysics, structural biology, and evolutionary biology, which could appeal to a broad readership. However, the technical nature of the NMR and biophysical experiments may be challenging for nonspecialists. The evolutionary analysis is more accessible.
+    - **Technical soundness** The experimental techniques are appropriate, but the key causal claim is not directly tested. The aggregation assay is not fully presented. The bioinformatic analysis is not described in sufficient detail. These issues need to be addressed.
+    - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, some sections, particularly the NMR analysis, may be difficult for nonspecialists to follow. The figures are helpful but could be better annotated.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the preliminary data are suggestive, but the causal link between α-helical propensity and phase separation needs to be directly tested, and the aggregation data need to be presented in full. The bioinformatic analysis also needs to be more rigorous.
+
+## Risk / unsupported claims
+- The claim that α-helical propensity "compensates" for reduced prion-likeness is not directly supported by the data, as no experiment directly manipulates α-helical propensity.
+- The claim that the polyalanine region "promotes aggregation" is based on a single deletion construct and an incompletely presented assay.
+- The claim that the findings can be generalized to other IDR-containing paralog families is not supported by the limited bioinformatic analysis presented.
+- The functional relevance of the observed phase separation (e.g., in stress granules) is not experimentally addressed in this manuscript.
+- The evolutionary scenario proposed in the Discussion (e.g., "the polyalanine stretch may have appeared in the paralogs alongside primitive prion propensity") is speculative and not directly tested.

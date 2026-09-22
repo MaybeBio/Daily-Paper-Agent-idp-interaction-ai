@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.27.666075",
+  "title": "Centriolar satellites assemble via a hierarchical pathway driven by PCM1 multimerization",
+  "authors": "Begar E; Seyrek E; Yilmaz-Karaoglu S; Arslanhan MD; Odabasi E; Firat-Karalar EN",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-30",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究中心粒卫星这一无膜细胞器通过PCM1多聚化驱动的层级组装机制，涉及无膜凝聚体形成与功能调控，但未聚焦蛋白-蛋白互作机制建模，且方法以实验为主、无AI或物理模拟，故综合评分为7。",
+  "abstract": "Centriolar satellites (CS) are ubiquitous, membrane-less organelles recognized for organelle crosstalk, plasticity, diverse functions and links to developmental and neuronal diseases. However, the molecular principles governing their assembly and regulation remain poorly understood. To address this, we developed cellular and in vitro biogenesis assays that allow spatiotemporal quantification of CS granule properties during assembly, remodeling and maintenance. Using these tools, we show that CS assemble via a hierarchical pathway initiated by PCM1 scaffold formation followed by regulated client recruitment. PCM1 intrinsically assembles into granules through multimerization, a process modulated by cytoskeleton. High-resolution imaging revealed that PCM1 and its clients occupy distinct subdomains with different compositions and dynamics, adding an additional layer of regulation. Perturbing PCM1 multimerization impaired ciliary signaling, underscoring its functional importance. Collectively, these findings define the molecular basis of CS biogenesis, establish new tools to probe their context-dependent functions, and provide a framework for understanding how CS deregulation contributes to disease. More broadly, the principles uncovered here may extend to other membrane-less organelles, explaining their specificity and plasticity.",
+  "abstract_zh": "中心粒卫星（centriolar satellites, CS）是无处不在的无膜细胞器，以其细胞器串扰、可塑性、多种功能以及与发育和神经元疾病的关联而闻名。然而，调控其组装和调控的分子原理仍知之甚少。为解决这一问题，我们开发了细胞和体外生物发生检测方法，能够在组装、重塑和维持过程中对CS颗粒特性进行时空定量。利用这些工具，我们表明CS通过层级途径组装，该途径由PCM1支架形成启动，随后进行受调控的客户蛋白招募。PCM1通过多聚化内在组装成颗粒，这一过程受细胞骨架调节。高分辨率成像显示，PCM1及其客户蛋白占据具有不同组成和动力学的不同亚结构域，增加了额外的调控层次。干扰PCM1多聚化损害了纤毛信号传导，凸显了其功能重要性。总体而言，这些发现定义了CS生物发生的分子基础，建立了探究其环境依赖性功能的新工具，并为理解CS失调如何导致疾病提供了框架。更广泛地，此处揭示的原理可能扩展到其他无膜细胞器，解释其特异性和可塑性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.27.666075",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.27.666075",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.27.666075/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations to study the N-terminal disordered domain (NTD) of coronavirus nucleocapsid proteins adjacent to a folded RNA binding domain (RBD). They report that NTD sequence composition and order encode sequence-specific effects on RNA binding, that the NTD can either suppress or enhance binding depending on sequence, that large-scale sequence variation is tolerated while certain features are retained, and that a conformationally conserved fuzzy RNA:protein complex persists across orthologs despite sequence and surface chemistry divergence.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details
+- **Missing materials affecting confidence** Full manuscript, simulation methods, force field parameters, sequence alignments, quantitative binding data, error estimates, and any comparative analyses across orthologs
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis regarding how intrinsically disordered regions can preserve molecular recognition functions despite sequence divergence. The proposed model system, the coronavirus nucleocapsid NTD-RBD, is well chosen given the combination of a variable IDR and a conserved folded domain. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the robustness of the conclusions, or the quantitative support for the central claims. The claim of "conformationally-conserved fuzzy complex" is intriguing but not substantiated by any visible evidence. The work may be of interest to researchers studying IDR function, molecular recognition, and viral RNA binding, but the current evidence base is too limited to assess whether the case is established.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, molecular recognition, biophysics of protein-RNA interactions, and coronavirus biology would be interested. The work addresses a fundamental question about how function can be encoded in disordered regions despite sequence variability, which has broad relevance to understanding IDR evolution and function. The specific application to coronavirus nucleocapsid proteins also appeals to virologists studying viral replication mechanisms.
+- **Major strengths** The abstract identifies a clear and important biological question. The choice of a model system combining a variable IDR with a conserved folded domain is well motivated. The finding that the NTD can either suppress or enhance RNA binding depending on sequence is a nuanced observation that challenges simple models of IDR function. The concept of a "fuzzy complex" preserved across orthologs is conceptually interesting and could have broad implications.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that coarse-grained molecular dynamics simulations reveal sequence-specific effects of the NTD on RNA binding, including both suppression and enhancement.
+  - **Evidence pointer** Abstract only; no methods or figures provided
+  - **Concern** The abstract provides no information about the simulation methodology, including the coarse-grained model used, force field parameters, system setup, simulation length, sampling strategy, or how binding was quantified. Without this information, it is impossible to assess whether the observed effects are robust or artifacts of the simulation approach.
+  - **Why it matters** The central conclusions depend entirely on the reliability of the simulations. If the coarse-grained model does not accurately capture the relevant physics of IDR-RNA interactions, the reported sequence-specific effects could be spurious. The lack of methodological detail prevents any evaluation of the technical soundness of the approach.
+  - **Resolution test** The authors must provide a detailed description of the simulation methods, including validation of the coarse-grained model against experimental data or atomistic simulations, and demonstrate that the observed sequence-dependent effects are reproducible across multiple independent simulations and robust to parameter choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that a "conformationally-conserved fuzzy RNA:protein complex is found across nucleocapsid protein orthologs, despite large-scale changes in both NTD sequence and RBD surface chemistry."
+  - **Evidence pointer** Abstract only; no comparative data or structural analyses provided
+  - **Concern** The abstract states this as a finding but provides no quantitative or qualitative evidence to support it. No information is given about how many orthologs were studied, how conformational conservation was assessed, what metrics were used to define the "fuzzy complex," or how the comparison across orthologs was performed.
+  - **Why it matters** This is a central claim of the paper and is presented as a key insight. Without supporting evidence, the claim is unsupported and cannot be evaluated. The concept of conformational conservation in a fuzzy complex is non-trivial and requires clear operational definitions and quantitative comparisons.
+  - **Resolution test** The authors must provide specific data showing conformational ensembles for multiple orthologs, a defined metric for conformational conservation, and a statistical comparison demonstrating that the complexes are indeed conserved despite sequence differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that "large-scale variation in NTD sequences is possible while certain sequence features are retained."
+  - **Evidence pointer** Abstract only; no sequence analysis or feature identification provided
+  - **Concern** The abstract does not specify which sequence features are retained, how they were identified, or what constitutes "large-scale variation." No sequence alignment, conservation analysis, or feature extraction methods are described.
+  - **Why it matters** This claim is central to the paper's thesis that function can be preserved despite sequence divergence. Without identifying the specific retained features and demonstrating their functional relevance, the claim is vague and untestable.
+  - **Resolution test** The authors must identify the specific sequence features that are conserved across orthologs, show how they were determined, and demonstrate that these features are necessary and sufficient for the observed binding behavior.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "often appear to lack sequence conservation when assessed by multiple sequence alignments" is imprecise. It is unclear whether the authors mean that IDRs lack conservation in general or specifically in the context of their system.
+  - **Required correction** Clarify the scope of the statement, for example by specifying that this is a general observation about IDRs or by providing a specific reference.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "fuzzy complex"
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The term "fuzzy complex" is used without definition. While it is a known concept in the IDP field, readers unfamiliar with the term may not understand its meaning.
+  - **Required correction** Provide a brief definition or reference for "fuzzy complex" when first used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract, "non-specific RNA binding"
+  - **Evidence pointer** Abstract, second sentence
+  - **Issue** The abstract states the study investigates "non-specific RNA binding" but later discusses "sequence-specificity encoded by both the composition and the precise order of the amino acids." This apparent contradiction is not resolved.
+  - **Required correction** Clarify the distinction between non-specific binding (i.e., not sequence-specific in the RNA) and sequence-specific effects of the protein on binding affinity or mode.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of methodological detail, absence of quantitative evidence for the central claims, and undefined key concepts prevent the case from being established from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of how IDRs preserve function despite sequence divergence is not new, but the specific application to coronavirus nucleocapsid proteins and the focus on a fuzzy complex may offer a fresh perspective. However, the abstract does not clearly differentiate this work from prior studies on IDR sequence-function relationships.
+  - Scientific importance: The topic is important for understanding IDR biology and viral RNA binding. If the claims are well supported, the work could have significant impact. However, the abstract alone does not demonstrate the significance of the findings beyond the general interest of the question.
+  - Interdisciplinary readership: The work could appeal to biophysicists, molecular biologists, and virologists. The abstract is written in a way that is accessible to a broad scientific audience, though some terms may require definition.
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail is a major limitation.
+  - Readability for nonspecialists: The abstract is generally readable, but the term "fuzzy complex" and the distinction between non-specific and sequence-specific binding could be clarified.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and potentially significant findings, but the absence of methodological detail and quantitative support for the central claims means that the case is not made. A full manuscript with detailed methods, results, and statistical analyses would be required to evaluate the work properly.
+
+## Risk / unsupported claims
+- The claim that a "conformationally-conserved fuzzy RNA:protein complex is found across nucleocapsid protein orthologs" is unsupported by any visible evidence.
+- The claim that "large-scale variation in NTD sequences is possible while certain sequence features are retained" is unsupported without identification of the specific features.
+- The claim that the NTD can "either suppress or enhance RNA binding" depending on sequence is not supported by quantitative data.
+- The overall conclusion that "insights shed light on the ability of disordered regions to preserve functional characteristics despite their sequence variability" is a reasonable hypothesis but is not substantiated by the abstract alone.

@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "38404711",
+    "doi": "10.1016/j.csbj.2024.02.008",
+    "title": "The limits of prediction: Why intrinsically disordered regions challenge our understanding of antimicrobial peptides."
+  },
+  "content": {
+    "abstract": "Antimicrobial peptides (AMPs) are molecules found in most organisms, playing a vital role in innate immune defense against pathogens. Their mechanism of action involves the disruption of bacterial cell membranes, causing leakage of cellular contents and ultimately leading to cell death. While AMPs typically lack a defined structure in solution, they often assume a defined conformation when interacting with bacterial membranes. Given this structural flexibility, we investigated whether intrinsically disordered regions (IDRs) with AMP-like properties could exhibit antimicrobial activity. We tested 14 peptides from different IDRs predicted to have antimicrobial activity and found that nearly all of them did not display the anticipated effects. These peptides failed to adopt a defined secondary structure and had compromised membrane interactions, resulting in a lack of antimicrobial activity. We hypothesize that evolutionary constraints may prevent IDRs from folding, even in membrane-like environments, limiting their antimicrobial potential. Moreover, our research reveals that current antimicrobial predictors fail to accurately capture the structural features of peptides when dealing with intrinsically unstructured sequences. Hence, the results presented here may have far-reaching implications for designing and improving antimicrobial strategies and therapies against infectious diseases.",
+    "keywords": [
+      "Antimicrobial peptide",
+      "Disordered proteins",
+      "Peptide design",
+      "Prediction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bello-Madruga, Roberto",
+        "Torrent Burgas, Marc"
+      ],
+      "short_names": [
+        "Bello-Madruga R",
+        "Torrent Burgas M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The Systems Biology of Infection Lab, Department of Biochemistry and Molecular Biology, Biosciences Faculty, Universitat Autonoma de Barcelona, 08193 Cerdanyola del Valles, Spain.",
+        "The Systems Biology of Infection Lab, Department of Biochemistry and Molecular Biology, Biosciences Faculty, Universitat Autonoma de Barcelona, 08193 Cerdanyola del Valles, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bello-Madruga, Roberto",
+        "short_name": "Bello-Madruga R",
+        "identifiers": [],
+        "affiliations": [
+          "The Systems Biology of Infection Lab, Department of Biochemistry and Molecular Biology, Biosciences Faculty, Universitat Autònoma de Barcelona, 08193 Cerdanyola del Vallès, Spain."
+        ]
+      },
+      {
+        "full_name": "Torrent Burgas, Marc",
+        "short_name": "Torrent Burgas M",
+        "identifiers": [],
+        "affiliations": [
+          "The Systems Biology of Infection Lab, Department of Biochemistry and Molecular Biology, Biosciences Faculty, Universitat Autònoma de Barcelona, 08193 Cerdanyola del Vallès, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/26 06:44",
+    "fetched_at": "2026-09-21 05:29:17"
+  },
+  "links": {
+    "cites": [
+      "42569460",
+      "42523824",
+      "41865229",
+      "41758321",
+      "41637123",
+      "40985079",
+      "40723852",
+      "40598389",
+      "40410382",
+      "40342581",
+      "39998408",
+      "39769451",
+      "38877295"
+    ],
+    "refs": [
+      "37878721",
+      "37376223",
+      "36922490",
+      "36879855",
+      "36701864",
+      "36525975",
+      "36416266",
+      "36370097",
+      "36342186",
+      "36293249",
+      "36289996",
+      "36210722",
+      "35717207",
+      "35637307",
+      "35241840",
+      "35165272",
+      "35047892",
+      "34850135",
+      "34783578",
+      "34714654",
+      "34589385",
+      "34425316",
+      "34342438",
+      "34265844",
+      "34195099",
+      "33844916",
+      "33178164",
+      "32560350",
+      "32499582",
+      "32370512",
+      "32234322",
+      "32107480",
+      "31754129",
+      "31396309",
+      "30951703",
+      "30833614",
+      "29126305",
+      "28516008",
+      "28083516",
+      "27510400",
+      "27271216",
+      "27131374",
+      "26038575",
+      "25110178",
+      "23134677",
+      "22581768",
+      "22053077",
+      "21203984",
+      "21113423",
+      "19906288",
+      "18573080",
+      "18222168",
+      "17406547",
+      "17223693",
+      "12798194",
+      "11249130",
+      "11112271",
+      "9433185"
+    ],
+    "similar": [
+      "38404711",
+      "33113998",
+      "36908253",
+      "30413046",
+      "31756456",
+      "39386776",
+      "35470073",
+      "23912807",
+      "36291695",
+      "31441158",
+      "36008992",
+      "27187572",
+      "34576869",
+      "31506312",
+      "30951703",
+      "30243923",
+      "33975547",
+      "35139468",
+      "35419659",
+      "22899362",
+      "29388242",
+      "36602379",
+      "30845708",
+      "31683755",
+      "24496141",
+      "31383740",
+      "37329857",
+      "35469832",
+      "21178486",
+      "30234016",
+      "29557267",
+      "34808479",
+      "36632208",
+      "29103131",
+      "35955519",
+      "34738279",
+      "30829472",
+      "33807972",
+      "37499896",
+      "31954105",
+      "33810353",
+      "25593677",
+      "33122085",
+      "29957118",
+      "33866372",
+      "30605048",
+      "33207637",
+      "35615024",
+      "35862981",
+      "28483698",
+      "35032089",
+      "30336202",
+      "36959451",
+      "27993125",
+      "36551368",
+      "24743021",
+      "36701864",
+      "34867843",
+      "35034725",
+      "26475366",
+      "34984699",
+      "21203984",
+      "33027983",
+      "20600422",
+      "26957115",
+      "34626492",
+      "33567297",
+      "34418423",
+      "29233222",
+      "31080973",
+      "34825861",
+      "25735802",
+      "35883444",
+      "36851914",
+      "26450121",
+      "38297118",
+      "36458437",
+      "34953322",
+      "32849553",
+      "28953347",
+      "31396309",
+      "26139119",
+      "25680229",
+      "26051126",
+      "29667836",
+      "33912564",
+      "39321582"
+    ],
+    "review": [
+      "38404711",
+      "30413046",
+      "39386776",
+      "31441158",
+      "27187572",
+      "35139468",
+      "37329857",
+      "21178486",
+      "34738279",
+      "37499896",
+      "29957118",
+      "30605048",
+      "33207637",
+      "35615024",
+      "36959451",
+      "34984699",
+      "21203984",
+      "33567297",
+      "34418423",
+      "29233222",
+      "36851914",
+      "32849553",
+      "31396309",
+      "26139119",
+      "26051126"
+    ],
+    "pmc": [
+      "10884422"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(24)00032-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38404711/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38404711",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://bacdive.dsmz.de/strain/7673",
+        "provider": "BacDive",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "Micrococcus luteus BD-ID 7673"
+      }
+    ],
+    "text_mined": []
+  }
+}

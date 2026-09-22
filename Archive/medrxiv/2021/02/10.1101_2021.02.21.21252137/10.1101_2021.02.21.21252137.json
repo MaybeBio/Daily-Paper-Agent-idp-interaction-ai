@@ -1,0 +1,304 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2021.02.21.21252137",
+  "title": "Dominant Clade-featured SARS-CoV-2 Co-occurring Mutations Reveals Plausible Epistasis: An in silico based Hypothetical Model",
+  "doi": "10.1101/2021.02.21.21252137",
+  "abstract": "<h4>ABSTRACT</h4> SARS-CoV-2 is evolved into eight fundamental clades where four (G, GH, GR, and GV) are globally prevalent in 2020. How the featured co-occurring mutations of these clades are linked with viral fitness is the main question here and we thus proposed a hypothetical model using in silico approach to explain the plausible epistatic effects of those mutations on viral replication and transmission. Molecular docking and dynamics analyses showed the higher infectiousness of a spike mutant through more favorable binding of G 614 with the elastase-2. RdRp mutation p.P323L significantly increased genome-wide mutations (p<0.0001) since more flexible RdRp (mutated)-NSP8 interaction may accelerate replication. Superior RNA stability and structural variation at NSP3:C241T might impact protein and/or RNA interactions. Another silent 5’UTR:C241T mutation might affect translational efficiency and viral packaging. These four G-clade-featured co-occurring mutations might increase viral replication. Sentinel GH-clade ORF3a:p.Q57H constricted ion-channel through inter-transmembrane-domain interaction of cysteine(C81)-histidine(H57) and GR-clade N:p.RG203-204KR would stabilize RNA interaction by a more flexible and hypo-phosphorylated SR-rich region. GV-clade viruses seemingly gained the evolutionary advantage of the confounding factors; nevertheless, N:p.A220V might modulate RNA binding with no phenotypic effect. Our hypothetical model needs further retrospective and prospective studies to understand detailed molecular events featuring the fitness of SARS-CoV-2.",
+  "authors": [
+    "Alam ASMRU",
+    "Islam OK",
+    "Hasan MS",
+    "Islam MR",
+    "Mahmud S",
+    "Al□Emran HM",
+    "Jahid IK",
+    "Crandall KA",
+    "Hossain MA"
+  ],
+  "published_date": "2021-02-23",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2021.02.21.21252137",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2021.02.21.21252137.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR288008",
+    "raw_record": {
+      "id": "PPR288008",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR288008"
+        ]
+      },
+      "doi": "10.1101/2021.02.21.21252137",
+      "title": "Dominant Clade-featured SARS-CoV-2 Co-occurring Mutations Reveals Plausible Epistasis: An <i>in silico</i> based Hypothetical Model",
+      "authorString": "Alam ASMRU, Islam OK, Hasan MS, Islam MR, Mahmud S, Al□Emran HM, Jahid IK, Crandall KA, Hossain MA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Alam ASMRU",
+            "lastName": "Alam",
+            "firstName": "Rubayet Ul",
+            "initials": "ASMRU",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9295-9865"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Jashore University of Science and Technology, Jashore-7408, Bangladesh"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Islam OK",
+            "lastName": "Islam",
+            "firstName": "Ovinu Kibria",
+            "initials": "OK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Jashore University of Science and Technology, Jashore-7408, Bangladesh"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hasan MS",
+            "lastName": "Hasan",
+            "firstName": "Md. Shazid",
+            "initials": "MS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2021-4693"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Jashore University of Science and Technology, Jashore-7408, Bangladesh"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Islam MR",
+            "lastName": "Islam",
+            "firstName": "Mir Raihanul",
+            "initials": "MR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "BRAC James P Grant School of Public Health, BRAC University, Bangladesh"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mahmud S",
+            "lastName": "Mahmud",
+            "firstName": "Shafi",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Genetic Engineering and Biotechnology, University of Rajshahi, Rajshai-6205, Bangladesh"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Al□Emran HM",
+            "lastName": "Al□Emran",
+            "firstName": "Hassan",
+            "initials": "HM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Engineering, Jashore University of Science and Technology, Jashore-7408, Bangladesh"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jahid IK",
+            "lastName": "Jahid",
+            "firstName": "Iqbal Kabir",
+            "initials": "IK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0717-0806"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Jashore University of Science and Technology, Jashore-7408, Bangladesh"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Crandall KA",
+            "lastName": "Crandall",
+            "firstName": "Keith",
+            "initials": "KA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0836-3389"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational Biology Institute and Department of Biostatistics & Bioinformatics, Milken Institute School of Public Health, The George Washington University, Washington, DC, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hossain MA",
+            "lastName": "Hossain",
+            "firstName": "Anwar",
+            "initials": "MA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9777-0332"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Jashore University of Science and Technology, Jashore-7408, Bangladesh"
+                },
+                {
+                  "affiliation": "Department of Microbiology, University of Dhaka, Dhaka-1000, Bangladesh"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9295-9865"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9777-0332"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0836-3389"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1114-3125"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2021-4693"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0717-0806"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2125-2218"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>ABSTRACT</h4> SARS-CoV-2 is evolved into eight fundamental clades where four (G, GH, GR, and GV) are globally prevalent in 2020. How the featured co-occurring mutations of these clades are linked with viral fitness is the main question here and we thus proposed a hypothetical model using in silico approach to explain the plausible epistatic effects of those mutations on viral replication and transmission. Molecular docking and dynamics analyses showed the higher infectiousness of a spike mutant through more favorable binding of G 614 with the elastase-2. RdRp mutation p.P323L significantly increased genome-wide mutations (p<0.0001) since more flexible RdRp (mutated)-NSP8 interaction may accelerate replication. Superior RNA stability and structural variation at NSP3:C241T might impact protein and/or RNA interactions. Another silent 5’UTR:C241T mutation might affect translational efficiency and viral packaging. These four G-clade-featured co-occurring mutations might increase viral replication. Sentinel GH-clade ORF3a:p.Q57H constricted ion-channel through inter-transmembrane-domain interaction of cysteine(C81)-histidine(H57) and GR-clade N:p.RG203-204KR would stabilize RNA interaction by a more flexible and hypo-phosphorylated SR-rich region. GV-clade viruses seemingly gained the evolutionary advantage of the confounding factors; nevertheless, N:p.A220V might modulate RNA binding with no phenotypic effect. Our hypothetical model needs further retrospective and prospective studies to understand detailed molecular events featuring the fitness of SARS-CoV-2.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2021/07/16/2021.02.21.21252137.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.02.21.21252137"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR288008"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34676891",
+            "reference": "Journal of medical virology. 2022 Mar;94(3):1035-1049",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS117484",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refseq",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2021-02-25",
+      "firstPublicationDate": "2021-02-23",
+      "firstIndexDate": "2021-02-25",
+      "fullTextReceivedDate": "2021-08-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

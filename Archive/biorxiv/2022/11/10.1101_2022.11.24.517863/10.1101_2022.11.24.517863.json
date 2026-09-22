@@ -1,0 +1,127 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.24.517863",
+  "title": "Why Does Synergistic Activation of WASP, but Not N-WASP, by Cdc42 and PIP 2 Require Cdc42 Prenylation?",
+  "doi": "10.1101/2022.11.24.517863",
+  "abstract": "Human WASP and N-WASP are homologous proteins that require the binding of multiple regulators, including the acidic lipid PIP 2 and the small GTPase Cdc42, to relieve autoinhibition before they can stimulate the initiation of actin polymerization. Autoinhibition involves intramolecular binding of the C-terminal acidic and central motifs to an upstream basic region and GTPase binding domain. Little is known about how a single intrinsically disordered protein, WASP or N-WASP, binds multiple regulators to achieve full activation. Here we used molecular dynamics simulations to characterize the binding of WASP and N-WASP with PIP 2 and Cdc42. In the absence of Cdc42, both WASP and N-WASP strongly associate with PIP 2 -containing membranes, through their basic region and also possibly through a tail portion of the N-terminal WH1 domain. The basic region also participates in Cdc42 binding, especially for WASP; consequently Cdc42 binding significantly compromises the ability of the basic region in WASP, but not N-WASP, to bind PIP 2 . PIP 2 binding to the WASP basic region is restored only when Cdc42 is prenylated at the C-terminus and tethered to the membrane. This distinction in the activation of WASP and N-WASP may contribute to their different functional roles.",
+  "authors": [
+    "Dey S",
+    "Zhou H"
+  ],
+  "published_date": "2022-11-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.24.517863",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.24.517863.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR575823",
+    "raw_record": {
+      "id": "PPR575823",
+      "source": "PPR",
+      "doi": "10.1101/2022.11.24.517863",
+      "title": "Why Does Synergistic Activation of WASP, but Not N-WASP, by Cdc42 and PIP  <sub>2</sub>  Require Cdc42 Prenylation?",
+      "authorString": "Dey S, Zhou H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dey S",
+            "lastName": "Dey",
+            "firstName": "Souvik",
+            "initials": "S"
+          },
+          {
+            "fullName": "Zhou H",
+            "lastName": "Zhou",
+            "firstName": "Huan-Xiang",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9020-0302"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9020-0302"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Human WASP and N-WASP are homologous proteins that require the binding of multiple regulators, including the acidic lipid PIP  2 and the small GTPase Cdc42, to relieve autoinhibition before they can stimulate the initiation of actin polymerization. Autoinhibition involves intramolecular binding of the C-terminal acidic and central motifs to an upstream basic region and GTPase binding domain. Little is known about how a single intrinsically disordered protein, WASP or N-WASP, binds multiple regulators to achieve full activation. Here we used molecular dynamics simulations to characterize the binding of WASP and N-WASP with PIP  2 and Cdc42. In the absence of Cdc42, both WASP and N-WASP strongly associate with PIP  2 -containing membranes, through their basic region and also possibly through a tail portion of the N-terminal WH1 domain. The basic region also participates in Cdc42 binding, especially for WASP; consequently Cdc42 binding significantly compromises the ability of the basic region in WASP, but not N-WASP, to bind PIP  2 . PIP  2 binding to the WASP basic region is restored only when Cdc42 is prenylated at the C-terminus and tethered to the membrane. This distinction in the activation of WASP and N-WASP may contribute to their different functional roles.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/24/2022.11.24.517863.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.24.517863"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36863659",
+            "reference": "Journal of molecular biology. \n    2023 Feb;:168035",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-11-26",
+      "firstPublicationDate": "2022-11-24",
+      "firstIndexDate": "2022-11-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

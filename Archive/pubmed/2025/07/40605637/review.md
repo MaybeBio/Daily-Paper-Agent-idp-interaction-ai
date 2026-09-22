@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods details, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a 400 ns molecular dynamics simulation of the alpha-synuclein 47-56 peptide in the presence of an alpha-synuclein pentamer template. They claim that beta-sheet formation and template-induced elongation occur preferentially on one side of the pentamer, that hydrogen bonding, electrostatic interactions, and van der Waals forces drive beta-sheet extension, and that the 49-53 region is a key segment in this process.
+- **Visible evidence base** Abstract text only; no simulation parameters, force field details, convergence metrics, structural analyses, or quantitative results are available
+- **Missing materials affecting confidence** Full methods, force field and water model specifications, simulation setup and equilibration details, convergence and sampling assessments, structural analysis figures, quantitative interaction energy data, and any comparison with experimental or prior computational results
+
+## Reviewer
+- **Overall assessment** The abstract addresses a relevant question in the context of alpha-synuclein aggregation and Parkinson's disease, namely the template-induced conformational behavior of a toxic core peptide. The simulation approach is reasonable in principle, and the identification of side-dependent elongation behavior is potentially interesting. However, the abstract provides insufficient methodological detail and no quantitative evidence to support the central claims. The asymmetry between the two sides of the pentamer is asserted without structural or energetic data, and the claim that the 49-53 region is key is not substantiated. As presented, the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying amyloid aggregation mechanisms, particularly those focused on alpha-synuclein misfolding in Parkinson's disease, and computational biophysicists interested in template-induced conformational conversion of intrinsically disordered proteins. The results could also be relevant to those developing peptide-based inhibitors of alpha-synuclein aggregation.
+- **Major strengths** The study targets a biologically relevant peptide fragment implicated in alpha-synuclein toxicity. The use of a pentamer template to model seeded aggregation is a sensible approach. The focus on side-dependent behavior and specific intermolecular interactions is a potentially informative angle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that beta-sheet structure readily formed on the left side of the alpha-synuclein pentamer, facilitating template induction, while formation was hindered on the right side.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of side-dependent beta-sheet formation is presented without any quantitative data, such as time evolution of secondary structure content, per-residue beta-sheet propensity, or structural snapshots. No criteria are given for what constitutes "readily formed" versus "hindered." The abstract does not report whether this asymmetry was consistent across multiple replicas or whether it emerged from a single trajectory.
+  - **Why it matters** The central conclusion of the study rests on this asymmetry. Without quantitative measures and evidence of reproducibility, the claim could reflect stochastic variation in a single simulation rather than a robust mechanistic feature.
+  - **Resolution test** Provide time-resolved secondary structure analyses for both sides, per-residue beta-sheet propensities, and replicate simulations demonstrating consistent asymmetry. Report the number of replicas and the statistical significance of the observed differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that hydrogen bonding, electrostatic interactions, and van der Waals forces between the alpha-synuclein pentamer and monomer are crucial for beta-sheet extension.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative interaction energy data are presented. The abstract does not report magnitudes of hydrogen bonding occupancy, electrostatic energies, or van der Waals contributions, nor does it compare these contributions between the two sides of the pentamer. The word "crucial" implies a level of importance that cannot be assessed without such data.
+  - **Why it matters** Identifying the driving forces of beta-sheet extension is a stated objective of the study. Without quantitative energetic or occupancy data, the claim is unsupported and the mechanistic insight is not delivered.
+  - **Resolution test** Report per-interaction-type energy decompositions, hydrogen bond occupancy profiles, and comparisons between the left and right sides. Show that these interactions correlate with beta-sheet formation and are not merely present but functionally relevant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors identify the alpha-synuclein 49-53 region as a key peptide segment in the template-induced aggregation process.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no data supporting the identification of residues 49-53 as key. No per-residue analysis, mutation data, or interaction footprint is described. It is unclear whether this region was identified based on structural contacts, energetic contributions, or conformational stability.
+  - **Why it matters** This is a specific and potentially actionable finding, but without supporting evidence it cannot be evaluated. The claim may be correct, but the current abstract does not allow verification.
+  - **Resolution test** Provide per-residue interaction energies, contact maps, or structural analyses that specifically highlight residues 49-53. If possible, include a discussion of why this region is functionally important relative to other segments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation protocol
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the force field, water model, temperature, salt concentration, or simulation software used. These details are essential for reproducibility and for assessing the reliability of the simulation.
+  - **Required correction** Include force field, water model, ensemble conditions, and software versions in the methods section of the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Sampling adequacy
+  - **Affected element** Simulation length and convergence
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** A single 400 ns simulation may be insufficient to capture the conformational landscape of a peptide interacting with a pentamer template. The abstract does not report convergence checks or replica simulations.
+  - **Required correction** Report convergence metrics, such as root-mean-square deviation stabilization, and consider multiple independent simulations to support the robustness of the findings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "left" and "right" sides
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The terms "left side" and "right side" of the pentamer are used without a clear structural definition. This is ambiguous and may confuse readers.
+  - **Required correction** Define the two sides with respect to a structural feature of the pentamer, such as the N-terminal or C-terminal face, or provide a schematic figure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Comparison with prior work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not place the findings in the context of previous computational or experimental studies of alpha-synuclein aggregation or template-induced misfolding.
+  - **Required correction** Add a brief comparison with relevant prior studies in the discussion section of the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking. The central claims of side-dependent beta-sheet formation, the role of specific interaction types, and the identification of residues 49-53 as key are all unsupported by the abstract alone. Quantitative data and methodological details are required.
+- **Assessment against Nature-style criteria** Originality: The question of side-dependent template-induced elongation of a toxic core peptide is moderately original, though similar simulation studies of alpha-synuclein fragments exist. Scientific importance: The topic is relevant to Parkinson's disease mechanisms, but the importance of the specific findings cannot be assessed without quantitative evidence. Interdisciplinary readership: The work may appeal to computational biophysicists and amyloid researchers, but the abstract is too thin to attract broader interest. Technical soundness: Not assessable from the abstract; the absence of methodological details and quantitative results prevents evaluation. Readability for nonspecialists: The abstract is understandable but lacks the context and data needed to convey the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The study addresses a relevant question and the approach is plausible, but the abstract does not provide sufficient quantitative or methodological support for the central claims. A revised manuscript with full methods, quantitative analyses, and evidence of reproducibility would be needed to assess the case.
+
+## Risk / unsupported claims
+- The claim of side-dependent beta-sheet formation is unsupported by quantitative data.
+- The claim that hydrogen bonding, electrostatic interactions, and van der Waals forces are "crucial" is unsupported by energy or occupancy data.
+- The identification of residues 49-53 as a key segment is unsupported by per-residue analyses.
+- The overall mechanistic interpretation of template-induced aggregation cannot be evaluated without simulation details and structural analyses.

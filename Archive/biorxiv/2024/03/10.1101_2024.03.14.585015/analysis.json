@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.03.14.585015",
+  "title": "Integration of molecular coarse-grained model into geometric representation learning framework for protein-protein complex property prediction",
+  "authors": "Yang Yue; Shu Li; Yihua Cheng; Zexuan Zhu; Lie Wang; Tingjun Hou; Shan He",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-16",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出MCGLPPI，将MARTINI粗粒化模型与图神经网络结合用于蛋白复合物性质预测，虽非无序蛋白对象，但粗粒化+几何学习的互作建模思路对IDR介导的PPI机制预测有可迁移启发。",
+  "abstract": "Structure-based machine learning algorithms have been utilized to predict the properties of protein-protein interaction (PPI) complexes, such as binding affinity, which is critical for understanding biological mechanisms and disease treatments. While most existing algorithms represent PPI complex graph structures at the atom-scale or residue-scale, these representations can be computationally expensive or may not sufficiently integrate finer chemical-plausible interaction details for improving predictions. Here, we introduce MCGLPPI, a novel geometric representation learning framework that combines graph neural networks (GNNs) with the MARTINI molecular coarse-grained (CG) model to predict overall PPI properties accurately and efficiently. This framework maps proteins onto a concise CG-scale complex graph, where nodes represent CG beads and edges encode chemically plausible interactions. The GNN-based encoder is tailored to extract high-quality representations from this graph, efficiently capturing the overall properties of the protein complex structure. Extensive experiments on three different downstream PPI property prediction tasks demonstrate that MCGLPPI achieves competitive performance compared with the counterparts at the atom- and residue-scale, but with only a third of the computational resource consumption. Furthermore, the CG-scale pre-training on protein domain-domain interaction structures enhances its predictive capabilities for PPI tasks. MCGLPPI offers an effective and efficient solution for PPI overall property predictions, serving as a promising tool for the large-scale analysis of biomolecular interactions.",
+  "abstract_zh": "基于结构的机器学习算法已被用于预测蛋白质-蛋白质相互作用（PPI）复合物的性质，如结合亲和力，这对于理解生物机制和疾病治疗至关重要。尽管大多数现有算法在原子尺度或残基尺度上表示PPI复合物图结构，但这些表示可能计算成本高昂，或未能充分整合更精细的化学合理相互作用细节以改进预测。在此，我们引入MCGLPPI，一种新颖的几何表示学习框架，将图神经网络（GNNs）与MARTINI分子粗粒化（CG）模型相结合，以准确且高效地预测整体PPI性质。该框架将蛋白质映射到简洁的CG尺度复合物图上，其中节点代表CG珠子，边编码化学上合理的相互作用。基于GNN的编码器专门设计用于从该图中提取高质量表示，高效捕获蛋白质复合物结构的整体性质。在三个不同的下游PPI性质预测任务上的广泛实验表明，MCGLPPI在性能上与原子尺度和残基尺度的对应方法相当，但仅消耗三分之一的计算资源。此外，在蛋白质结构域-结构域相互作用结构上的CG尺度预训练增强了其对PPI任务的预测能力。MCGLPPI为PPI整体性质预测提供了一种有效且高效的解决方案，成为大规模分析生物分子相互作用的有力工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.03.14.585015",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.03.14.585015",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.03.14.585015/index.html"
+}

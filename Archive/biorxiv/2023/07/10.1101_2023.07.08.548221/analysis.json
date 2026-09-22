@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.08.548221",
+  "title": "Conserved and repetitive motifs in an intrinsically disordered protein drive α-carboxysome assembly",
+  "authors": "Julia B. Turnšek; Luke M. Oltrogge; David F. Savage",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-08",
+  "window": {
+    "start": "2023-07-03",
+    "end": "2023-07-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过体内外实验揭示无序蛋白CsoS2中保守重复基序VTG和Y驱动α-羧基体组装，并重建为球形凝聚体，聚焦IDR介导的蛋白互作与自组装机制，虽以实验为主但对象与互作机制高度契合，对无序蛋白介导的凝聚体PPI建模有直接启发。",
+  "abstract": "All photosynthetic bacteria and some chemoautotrophic bacteria fix CO 2 into sugars in specialized proteinaceous compartments called carboxysomes. Carboxysomes enclose the enzymes Rubisco and carbonic anhydrase inside a layer of shell proteins to increase the CO 2 concentration for efficient carbon fixation by Rubisco. In the α-carboxysome lineage, a disordered and highly repetitive protein named CsoS2 is essential for carboxysome formation and function. Without it, the bacteria are unable to fix enough carbon to grow in air. How a protein lacking structure serves as the architectural scaffold for such a vital cellular compartment remains unknown. In this study, we identify key residues in CsoS2 that are necessary for building functional α-carboxysomes in vivo . These highly conserved and repetitive residues, VTG and Y, contribute to the interaction between CsoS2 and shell proteins. We also demonstrate in vitro reconstitution of the α-carboxysome into spherical condensates with CsoS2, Rubisco, and shell proteins, and show the utility of reconstitution as a biochemical tool to study carboxysome biogenesis. The precise self-assembly of thousands of proteins is crucial for carboxysome formation, and understanding this process could enable their use in alternative biological hosts or industrial processes as effective tools to fix carbon.",
+  "abstract_zh": "所有光合细菌及部分化能自养细菌在称为羧酶体（carboxysomes）的特化蛋白质区室中，将CO₂固定为糖类。羧酶体将Rubisco和碳酸酐酶包裹在壳蛋白层内，以提高CO₂浓度，从而促进Rubisco高效固碳。在α-羧酶体谱系中，一种无序且高度重复的蛋白质CsoS2对羧酶体的形成和功能至关重要。缺乏该蛋白质时，细菌无法固定足够的碳以在空气中生长。一种缺乏结构的蛋白质如何作为如此重要的细胞区室的建筑支架，目前仍不清楚。在本研究中，我们鉴定了CsoS2中在体内构建功能性α-羧酶体所必需的关键残基。这些高度保守且重复的残基VTG和Y，参与CsoS2与壳蛋白之间的相互作用。我们还展示了在体外将α-羧酶体与CsoS2、Rubisco和壳蛋白重构为球形凝聚体，并证明了重构作为研究羧酶体生物发生的生化工具的有效性。数千种蛋白质的精确自组装对羧酶体形成至关重要，理解这一过程可能使其在替代生物宿主或工业过程中作为有效的固碳工具得以应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.08.548221",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.08.548221",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.08.548221/index.html"
+}

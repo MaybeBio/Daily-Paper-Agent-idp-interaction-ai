@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36814383",
+  "title": "Intrinsically disordered region of talin's FERM domain functions as an initial PIP(2) recognition site.",
+  "authors": "Buhr, Jannik; Franz, Florian; Grater, Frauke",
+  "journal": "Biophysical journal",
+  "published_date": "2023-02-24",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过原子级分子动力学模拟，揭示talin FERM结构域中一个无序环作为初始PIP2识别位点并介导动态膜互作的机制，虽对象为膜脂而非蛋白-蛋白互作，但无序区域介导互作机制建模的思路对本课题有直接启发。",
+  "abstract": "Focal adhesions (FAs) mediate the interaction of the cytoskeleton with the extracellular matrix in a highly dynamic fashion. Talin is a central regulator, adaptor protein, and mechano-sensor of FA complexes. For recruitment and firm attachment at FAs, talin's N-terminal FERM domain binds to phosphatidylinositol 4,5-bisphosphate (PIP(2))-enriched membranes. A newly published autoinhibitory structure of talin-1, where the known PIP(2) interaction sites are covered up, lead us to hypothesize that a hitherto less examined loop insertion of the FERM domain acts as an additional and initial site of contact. We evaluated direct interactions of talin-1 with a PIP(2) membrane by means of atomistic molecular dynamics simulations. We show that this unstructured, 33-residue-long loop strongly interacts with PIP(2) and can facilitate further membrane contacts, including the canonical PIP(2) interactions, by serving as a flexible membrane anchor. Under force as present at FAs, the extensible FERM loop ensures talin maintains membrane contacts when pulled away from the membrane by up to 7 nm. We identify key basic residues of the anchor mediating the highly dynamic talin-membrane interaction. Our results put forward an intrinsically disordered loop as a key and highly adaptable PIP(2) recognition site of talin and potentially other PIP(2)-binding mechano-proteins.",
+  "abstract_zh": "粘着斑（FAs）以高度动态的方式介导细胞骨架与细胞外基质的相互作用。Talin是FA复合物的核心调节因子、衔接蛋白及机械传感器。为了在FAs处实现招募和牢固附着，talin的N端FERM结构域与富含磷脂酰肌醇4,5-二磷酸（PIP(2)）的膜结合。一项新发表的talin-1自抑制结构显示，已知的PIP(2)相互作用位点被覆盖，这使我们假设FERM结构域中一个迄今较少研究的环状插入片段作为额外的初始接触位点。我们通过原子级分子动力学模拟评估了talin-1与PIP(2)膜的直接相互作用。我们表明，这个无结构的、由33个残基组成的环与PIP(2)强烈相互作用，并可通过作为柔性膜锚来促进进一步的膜接触，包括经典的PIP(2)相互作用。在FAs处存在的力作用下，可伸展的FERM环确保talin在从膜上被拉离多达7 nm时仍能维持膜接触。我们识别出介导高度动态talin-膜相互作用的锚的关键碱性残基。我们的结果提出，一个内在无序的环作为talin及潜在其他PIP(2)结合机械蛋白的关键且高度适应性的PIP(2)识别位点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36814383/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36814383/",
+  "paper_page_path": "papers/pubmed/36814383/index.html"
+}

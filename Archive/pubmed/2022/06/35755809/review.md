@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Technical soundness, methodological validity, reproducibility of claims, and interpretation of results as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report the implementation of the COFFDROP coarse-grained force field within the Browndye 2.0 Brownian dynamics simulation package. They validate this implementation by comparing hydrodynamic radii of eight naturally occurring intrinsically disordered proteins (IDPs) against prior COFFDROP results, determine an optimal scaling factor of 0.786 for non-bonded interactions, and apply this to study five (Glu-Lys)25 sequence variants, reporting radius of gyration, interresidue distances, and entanglement indices as a function of salt concentration.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Discussion, Data Availability, Author Contributions, Funding, Conflict of Interest, Publisher's Note, Supplementary Material statement, Acknowledgements. Figures 1-6 and Tables 1-2 are referenced but not provided. Supplementary Material is referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-6, Tables 1-2, all Supplementary Material, and the full Browndye 2.0 source code or documentation. Without these, quantitative validation of the claims is not possible.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a useful software implementation effort, namely porting the COFFDROP force field into Browndye 2.0 for Brownian dynamics simulations of IDPs. The motivation is clear and the topic is of interest to the computational biophysics community. However, the manuscript as presented has several significant weaknesses. The validation is indirect, relying on comparison to prior COFFDROP results rather than direct experimental data. The reported scaling factor of 0.786 is derived from a small set of eight proteins with one outlier excluded, and the statistical robustness of this value is not established. The entanglement index results are presented as a table without statistical analysis, and the claim that there is "no direct relation" between entanglement indices and charge segregation is not supported by any formal test. The discussion of limitations is honest but the manuscript does not fully address whether the observed trends are robust to the choice of force field parameters. The writing is generally clear but some methodological details are missing, particularly regarding the implementation of the COFFDROP potential in Browndye 2.0 and the treatment of hydrodynamic interactions.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, specifically those studying IDPs using coarse-grained models or Brownian dynamics. The work may also be of interest to developers of simulation software packages and to experimentalists seeking complementary computational approaches for IDP characterization.
+- **Major strengths** The manuscript addresses a relevant gap by extending Browndye 2.0 to IDPs. The use of multiple IDP systems and sequence variants is appropriate. The authors acknowledge limitations of the COFFDROP potential for highly charged systems. The autocorrelation analysis to check simulation convergence is a good practice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of implementation
+  - **Claim pointer** "The R  h  values are in good agreement with those in Frembgen-Kesner et al. (2015), indicating that the COFFDROP implementation in Browndye 2.0 is reliable."
+  - **Evidence pointer** Section 3.1, Figure 4 (not provided)
+  - **Concern** The validation of the COFFDROP implementation in Browndye 2.0 is based solely on comparison to prior COFFDROP results obtained with a different simulation engine. This is an indirect validation. The authors do not compare against experimental data for these IDPs, nor do they provide a quantitative measure of agreement (e.g., root-mean-square deviation, correlation coefficient) between their R  h  values and those from Frembgen-Kesner et al. (2015). Without the actual figure or numerical values, the claim of "good agreement" cannot be assessed. Furthermore, the authors note that the electrostatic calculations differ between the two implementations, which could introduce systematic differences that are not quantified.
+  - **Why it matters** The central claim of the manuscript is that the COFFDROP implementation in Browndye 2.0 is reliable. If this is not rigorously established, the subsequent results on the (Glu-Lys)25 variants are built on an unvalidated foundation.
+  - **Resolution test** Provide a quantitative comparison of R  h  values between Browndye 2.0 and Frembgen-Kesner et al. (2015) for all eight IDPs, including a statistical measure of agreement. Ideally, also compare against experimental R  h  values if available. If the comparison is only possible against prior simulation data, state this limitation explicitly and discuss potential sources of discrepancy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness of scaling factor
+  - **Claim pointer** "The averaged ideal scaling factor, after leaving ProTα out as an outlier, is 0.786"
+  - **Evidence pointer** Section 3.1, Figure 4 (not provided)
+  - **Concern** The ideal scaling factor of 0.786 is derived from seven proteins (excluding ProTα). The manuscript does not report the spread of individual scaling factors across these proteins, nor any confidence interval for the mean. The choice to exclude ProTα is justified qualitatively but no statistical criterion (e.g., Grubbs' test) is applied. The sensitivity of the subsequent results to this specific value is not explored.
+  - **Why it matters** This scaling factor is used for all subsequent simulations of the (Glu-Lys)25 variants. If the value is not robust, the reported R  g , R  ij , and entanglement indices could be significantly different.
+  - **Resolution test** Report the individual scaling factors for all eight proteins, the mean and standard deviation (or confidence interval) for the seven used, and justify the exclusion of ProTα with a statistical test. Perform a sensitivity analysis by repeating key simulations with scaling factors at the bounds of the reported range.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of entanglement index results
+  - **Claim pointer** "The entanglement indices were similar across all possible IDP sequence variant pairs, indicating that there is no direct relation between entanglement indices and charge segregation κ."
+  - **Evidence pointer** Section 3.2, Table 2 (not provided)
+  - **Concern** The claim of "no direct relation" is based on visual inspection of tabulated values. No statistical test (e.g., correlation analysis between entanglement index and κ) is performed. The authors also note that all entanglement indices increased at excess salt concentration, with two exceptions, but do not discuss whether these exceptions are significant or expected.
+  - **Why it matters** The entanglement index is presented as a property related to molecular association. If the claim of no relation to κ is not statistically supported, the conclusion is weakened.
+  - **Resolution test** Perform a formal statistical analysis, such as a correlation test between entanglement index and κ, and report the test statistic and p-value. Discuss the two exceptions to the salt concentration trend and whether they are within expected variability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological detail
+  - **Claim pointer** "the scaling of non-bonded interactions improved COFFDROP's ability to reproduce experimental results (Frembgen-Kesner et al., 2015), this feature was also implemented for Browndye 2.0"
+  - **Evidence pointer** Section 2.2
+  - **Concern** The manuscript states that the scaling of non-bonded interactions was implemented but does not describe how this scaling is applied in Browndye 2.0. Is it a uniform scaling of all non-bonded terms, or does it apply selectively to specific interaction types? How is the scaling factor incorporated into the force calculation?
+  - **Why it matters** Without this detail, the implementation is not reproducible by others, which is a key requirement for a methods-focused manuscript.
+  - **Resolution test** Provide a clear description of how the scaling factor is applied in the force calculation, including the relevant equations or a reference to the code documentation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** "The Alphafold Colab (Jumper et al., 2021) was used to prepare the starting structures"
+  - **Issue** The use of AlphaFold to generate starting structures for IDPs is unusual, as AlphaFold is designed for folded proteins. The authors justify this by noting confident pLDDT scores for conditionally folded regions, but it is unclear how the unstructured regions are handled.
+  - **Required correction** Clarify how AlphaFold was used for IDPs, including any modifications or post-processing steps, and discuss the potential impact of the starting structure on the simulation results.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** "Hydrodynamic interactions were updated every 400 steps"
+  - **Issue** The manuscript does not specify the method used for hydrodynamic interactions (e.g., Ermak-McCammon, Rotne-Prager tensor, etc.).
+  - **Required correction** Specify the hydrodynamic interaction model used in the simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.1
+  - **Evidence pointer** "The average R  h  values, along with standard error bars (95% confidence interval), from ten independent simulations, are plotted in Figure 4"
+  - **Issue** The manuscript reports standard error bars but does not state whether the ten simulations are independent in the sense of different random seeds or different initial conditions.
+  - **Required correction** Clarify how the ten simulations were initialized and whether they are truly independent.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.2
+  - **Evidence pointer** "new Browndye 2.0 functions chain_atom_distances and autocor"
+  - **Issue** These functions are described as new but no details are given on their implementation or availability.
+  - **Required correction** Provide a brief description of these functions or a reference to the code repository where they can be found.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.2
+  - **Evidence pointer** "The R  g  values are smaller than those from Das and Pappu (2013), all within the value for classical Flory random coils (∼18  A° ) and compact globules (∼11  A° )."
+  - **Issue** The comparison to Das and Pappu (2013) is qualitative. It is unclear whether the differences are within statistical uncertainty.
+  - **Required correction** Provide a quantitative comparison, including uncertainties, to support the statement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The validation of the implementation and the robustness of the scaling factor are essential to the manuscript's claims. Without addressing these, the case for a reliable COFFDROP implementation in Browndye 2.0 is not established.
+
+## Risk / unsupported claims
+- The claim that the COFFDROP implementation in Browndye 2.0 is "reliable" is not quantitatively supported, as it is based on an indirect comparison without statistical measures.
+- The claim that "there is no direct relation between entanglement indices and charge segregation κ" is unsupported by any statistical test.
+- The statement that "the R  g  values increase as the salt concentration increases due to long-range interactions getting weaker" is presented as a causal explanation but is not directly tested.
+- The claim that "the ideal scaling factor of 0.786" is appropriate for IDPs in general is not supported, as it is derived from a small, specific set of proteins.
+- The statement that "the small discrepancies between the two results could be from the long-range electrostatic interactions being computed differently" is speculative and not tested.

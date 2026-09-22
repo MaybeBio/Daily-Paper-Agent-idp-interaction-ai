@@ -1,0 +1,210 @@
+{
+  "identity": {
+    "pmid": "41687307",
+    "doi": "10.1016/j.compbiolchem.2026.108940",
+    "title": "In silico characterisation of C11orf42 as a potential therapeutic target in triple-negative breast cancer."
+  },
+  "content": {
+    "abstract": "Triple-negative breast cancer (TNBC) lacks actionable targets and rapidly develops resistance; therefore, we used an integrative in silico approach to functionally characterise C11orf42 and assess its therapeutic relevance. Sequence and structural analyses revealed that C11orf42 is a  approximately 36.4 kDa soluble cytosolic protein composed of a conserved TED domain (residues 14-213; mean pLDDT  approximately  89) and a flexible intrinsically disordered C-terminal region (residues  approximately 232-333). Intrinsic disorder supports conformational flexibility; however, specific functional roles (e.g., protein-protein interaction scaffolding or signalling) remain hypothesis-generating and require orthogonal validation. Protein-protein interaction network analysis identified a highly enriched network (71 nodes, 432 edges; p < 1.0 x 10(-)(1)(6)), implicating C11orf42 in vesicular trafficking, receptor recycling, and oncogenic signalling pathways relevant to TNBC. Structure-based druggability analysis revealed four ligandable pockets, and molecular docking identified four phytochemicals-chamaejasmin, Genetin J, isomultiflorenol, and podocarpusflavone B-with favorable binding affinities ( approximately  -8.9 to -9.6 kcal/mol). In 100-ns MD simulations, the full-length protein showed RMSD  approximately 10-12 A due to C-terminal disorder, while the TED core (residues  approximately 14-213) remained stable at 2-3 A. In-silico profiling indicates Chamaejasmin is a beyond-Ro5, high-affinity, long-residence C11orf42 inhibitor (t(1/2) = 118.07 h; logP = 2.87) with acceptable safety but poor solubility (logS = -6.36), limited oral bioavailability (39.98 %), and multiple drug-likeness violations, making formulation/scaffold optimisation the main barrier. Importantly, functional genomics analysis of DepMap CRISPR-Cas9 screening data shows that C11orf42 is not a pan-essential viability gene but displays a context-restricted dependency profile, consistent with a regulatory or modulatory role rather than a core survival function. Collectively, these results prioritise C11orf42 as a computationally inferred, conditionally relevant regulatory candidate for further experimental evaluation in TNBC and provide a hypothesis-generating structural, network, and functional framework for future validation.",
+    "keywords": [
+      "C11orf42",
+      "Intrinsically disordered region",
+      "Molecular docking",
+      "TED domain",
+      "Triple-negative breast cancer"
+    ],
+    "mesh_terms": [
+      "*Triple Negative Breast Neoplasms/drug therapy/metabolism",
+      "Humans",
+      "Molecular Docking Simulation",
+      "Computer Simulation",
+      "Female",
+      "Amino Acid Sequence",
+      "*Antineoplastic Agents/chemistry/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alfaifi, Mohammed",
+        "Kamli, Hossam"
+      ],
+      "short_names": [
+        "Alfaifi M",
+        "Kamli H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, King Khalid University, Abha, Saudi Arabia. Electronic address: mhalfaifi@kku.edu.sa.",
+        "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, King Khalid University, Abha, Saudi Arabia. Electronic address: hmkamli@kku.edu.sa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alfaifi, Mohammed",
+        "short_name": "Alfaifi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, King Khalid University, Abha, Saudi Arabia. Electronic address: mhalfaifi@kku.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Kamli, Hossam",
+        "short_name": "Kamli H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, King Khalid University, Abha, Saudi Arabia. Electronic address: hmkamli@kku.edu.sa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/14 05:30",
+    "fetched_at": "2026-09-18 00:46:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41687307",
+      "41337159",
+      "39698883",
+      "40135676",
+      "38231067",
+      "40252254",
+      "41469454",
+      "41406550",
+      "39342122",
+      "41100046",
+      "42353103",
+      "40353470",
+      "40860264",
+      "38809637",
+      "41495854",
+      "39987745",
+      "41151235",
+      "42008967",
+      "41168787",
+      "37244231",
+      "40782436",
+      "37099048",
+      "40939396",
+      "39029290",
+      "39868843",
+      "39660540",
+      "36321557",
+      "41533315",
+      "41559139",
+      "36732462",
+      "41666644",
+      "41016300",
+      "41520016",
+      "37948299",
+      "37713334",
+      "37559513",
+      "40638667",
+      "39689434",
+      "37288734",
+      "33106912",
+      "37824496",
+      "39275052",
+      "39108110",
+      "42206911",
+      "41639332",
+      "41671946",
+      "27397540",
+      "41561443",
+      "42348584",
+      "38149857",
+      "42070099",
+      "40953776",
+      "41544342",
+      "31404596",
+      "40403682",
+      "41951086",
+      "39819723",
+      "31262335",
+      "40117728",
+      "40582253",
+      "41309872",
+      "42409165",
+      "33358854",
+      "35125087",
+      "41666627",
+      "40987133",
+      "39843552",
+      "40332431",
+      "40007185",
+      "38763012",
+      "40739477",
+      "39305691",
+      "40465091",
+      "41484449",
+      "41506199",
+      "39760987",
+      "37021492",
+      "31441728",
+      "40356970",
+      "37529915",
+      "42334659",
+      "38847264",
+      "38723164",
+      "40879195",
+      "39251712",
+      "40107477",
+      "40627944",
+      "40638896",
+      "38618280",
+      "41619436",
+      "40932598",
+      "39948091",
+      "37525917",
+      "40943500",
+      "39482441",
+      "42054874",
+      "29115931",
+      "37162644",
+      "39992538",
+      "41836220"
+    ],
+    "review": [
+      "41687307",
+      "36321557"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(26)00065-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

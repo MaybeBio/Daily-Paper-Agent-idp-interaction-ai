@@ -1,0 +1,126 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, figure/table references, funding statement)
+- **Assessment boundary** Scientific content, technical soundness, and internal consistency of the provided manuscript text only. No external literature verification or statistical re-analysis performed.
+- **Shared manuscript claim summary** The manuscript is a narrative review asserting that many cancer-relevant proteins remain "undruggable" due to structural and functional features, and that emerging strategies including targeted protein degradation (PROTACs, molecular glues), PPI inhibition, IDP targeting, and AI-assisted drug design are progressively overcoming these barriers. Specific claims include: (1) KRAS, TP53, C-MYC, and PTPs are representative undruggable targets; (2) PROTACs and related degraders offer a broadly applicable solution; (3) AI tools such as AlphaFold materially accelerate target structure prediction and drug development; (4) several targets once considered undruggable are now druggable.
+- **Visible evidence base** The manuscript text as provided, including the abstract, introduction, sections 2.1-2.3, 3.1-3.3, 4.1-4.2, 5, 6, and 7. No figures, tables, or supplementary materials were provided. Reference list not provided.
+- **Missing materials affecting confidence** Figures and tables (referenced as Figure 1, 2, 3 and Tables 1, 2, 3) are not available for inspection. The reference list is absent, preventing verification of cited sources. No information on search strategy, inclusion criteria, or literature selection methodology is provided, which limits assessment of review comprehensiveness and bias.
+
+## Reviewer
+- **Overall assessment** This is a broad, narrative review covering a timely and important topic in cancer pharmacology. The manuscript is clearly written and covers a wide range of strategies and targets. However, the review lacks methodological rigor, contains several internal inconsistencies and unsupported generalizations, and does not provide a critical or balanced synthesis of the literature. The absence of figures, tables, and references prevents full evaluation. The core claims are plausible but not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in cancer biology, medicinal chemistry, and drug discovery would find this review of interest as a general overview of undruggable protein targeting strategies. Clinicians and translational researchers working on targeted therapies may also find the summary of clinical-stage agents (e.g., ARV-110, ARV-471, KT-333) useful. However, the lack of depth and critical analysis limits its value for specialists in any single area.
+- **Major strengths** (1) The topic is highly relevant and timely, addressing a major challenge in cancer therapeutics. (2) The manuscript covers a broad range of strategies, from PROTACs to AI-based methods, providing a useful landscape overview. (3) The inclusion of specific clinical examples (e.g., sotorasib, adagrasib, ARV-110, ARV-471) grounds the discussion in real-world development. (4) The writing is generally clear and accessible to a broad audience.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber- **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "only 15% of drug targets are considered druggable, while the remaining 85% are considered undruggable" (Section 1).
+  - **Evidence pointer** Section 1, Introduction. Location not provided.
+  - **Concern** This statistic is presented without citation or qualification. The 15%/85% figure is a commonly cited estimate but its origin and applicability are debated. The manuscript does not define what constitutes "druggable" or "undruggable," nor does it acknowledge that this binary classification is an oversimplification. The claim is presented as established fact rather than as one perspective in an ongoing discussion.
+  - **Why it matters** This statistic frames the entire review. If it is inaccurate or context-dependent, the foundational premise of the manuscript is weakened. A review of this scope should engage with the nuances of target druggability rather than relying on an unqualified, potentially misleading figure.
+  - **Resolution test** Provide a specific citation for this statistic and discuss its limitations. Alternatively, reframe the claim to acknowledge the spectrum of druggability and the evolving nature of the concept.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "KRAS is no longer considered clinically undruggable" (Section 2.1) and later lists KRAS among targets that are "no longer considered undruggable right now" (Section 7).
+  - **Evidence pointer** Sections 2.1 and 7. Location not provided.
+  - **Concern** This claim is only partially supported by the text. The manuscript discusses sotorasib and adagrasib, which target the G12C mutant, but KRAS has many other oncogenic mutations (e.g., G12D, G12V) that remain difficult to target. The statement as written is overly broad and could mislead readers into thinking KRAS is broadly druggable. The text itself acknowledges this complexity when discussing MRTX1133 for G12D, creating an internal tension.
+  - **Why it matters** Precision in claims about druggability is essential for a review that aims to guide research priorities. Overstating progress on KRAS could lead to misallocation of research effort or unrealistic expectations for clinical translation.
+  - **Resolution test** Qualify the claim to specify that only KRAS G12C has been successfully targeted to date, and that other KRAS mutants remain challenging. Ensure consistency between Sections 2.1 and 7.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "AlphaFold significantly outperformed other protein structure prediction methods" and implies that this has materially accelerated drug development for undruggable targets (Sections 1, 7).
+  - **Evidence pointer** Sections 1 and 7. Location not provided.
+  - **Concern** The claim about AlphaFold's performance is presented without specific evidence or context. While AlphaFold's CASP14 results were indeed impressive, the manuscript does not discuss the method's limitations, particularly its reduced accuracy for membrane proteins, protein complexes, and conformational ensembles. The link between AlphaFold and successful drug development for undruggable targets is asserted but not demonstrated with specific examples.
+  - **Why it matters** AI-based structure prediction is a rapidly evolving field, and overstating its current impact on drug discovery could mislead readers about the maturity of these tools. A balanced discussion of capabilities and limitations is needed.
+  - **Resolution test** Provide specific examples where AlphaFold predictions have directly contributed to drug development for a previously undruggable target. Discuss known limitations of AlphaFold in the context of drug discovery.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that "intelligence-assisted technologies like Alpha-Fold help us a lot to predict the protein structure, which is beneficial for drug development" (Abstract) and that AI "can also shed some lights into the overcome of the undruggable targets" (Section 7).
+  - **Evidence pointer** Abstract and Section 7. Location not provided.
+  - **Concern** The discussion of AI in drug development is superficial and does not engage with the specific challenges of applying AI to undruggable targets. The manuscript mentions AlphaFold, DeepChem, DeepTox, and DeepNeuralNetQSAR but does not explain how these tools address the specific barriers outlined in the introduction (e.g., lack of binding pockets, PPI interfaces, IDPs). The claims are generic and could apply to any drug discovery context.
+  - **Why it matters** The review's stated purpose includes discussing how novel strategies overcome undruggable targets. If the AI section does not make this connection specific, the review fails to deliver on its promise and provides limited value to readers seeking actionable insights.
+  - **Resolution test** Provide specific examples of AI applications that have addressed challenges unique to undruggable targets, such as predicting binding sites on flat PPI interfaces or modeling conformational ensembles of IDPs.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "the most classic and well-known technology is proteolysis targeting chimeras (PROTACs)" (Abstract) and describes PROTACs as a broadly applicable strategy for undruggable targets.
+  - **Evidence pointer** Abstract and Section 3.1. Location not provided.
+  - **Concern** The discussion of PROTACs does not address known challenges, including the "hook effect" at high concentrations, poor oral bioavailability, and the requirement for tissue-specific E3 ligase expression. The manuscript mentions some limitations (large molecular weight, pharmacokinetics) but does not critically evaluate the evidence for PROTAC efficacy against the specific undruggable targets discussed earlier (e.g., KRAS, TP53, C-MYC). The claim that PROTACs can target "undruggable" proteins is asserted rather than demonstrated with specific examples.
+  - **Why it matters** PROTACs are a promising but still maturing technology. A review that presents them as a proven solution without critical evaluation could mislead readers about their current clinical utility.
+  - **Resolution test** Provide specific examples of PROTACs that have successfully degraded the undruggable targets discussed in Section 2, with evidence of functional outcomes. Discuss the limitations of PROTACs in the context of each target class.
+  - **Concern ID** R1-M6
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "the single-nucleotide polymorphism c.1858C>T (rs2476601) of PTPN22... is related to a variety of autoimmune diseases" (Section 2.3).
+  - **Evidence pointer** Section 2.3. Location not provided.
+  - **Concern** This claim is presented without citation and without discussion of the direction or mechanism of the association. The PTPN22 R620W variant is known to be a risk factor for some autoimmune diseases but protective for others. The manuscript does not engage with this complexity.
+  - **Why it matters** In a review about drug targeting, understanding the functional consequences of genetic variants is essential for assessing therapeutic potential. Oversimplifying the genetics could mislead readers about the tractability of PTPN22 as a target.
+  - **Resolution test** Provide a citation for this claim and discuss the bidirectional effects of the PTPN22 variant across different autoimmune conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.1, paragraph on ARV-471 clinical data
+  - **Evidence pointer** Section 3.1. Location not provided.
+  - **Issue** The sentence "In the phase Ⅱ clinical trial, 100% of 35 patients were previously treated with CDK4/6 inhibitors, 74% with fulvestrant, and 74% with chemotherapy. the clinical benefit rate (CBR) for ARV-471 200 mg QD was 37.1%..." contains a grammatical error ("the" is lowercase after a period) and the clinical data are presented without clear context regarding patient population, prior lines of therapy, or comparison with standard of care.
+  - **Required correction** Correct the capitalization error. Provide context for the clinical data, including patient characteristics and how these response rates compare with existing therapies.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.1, first paragraph
+  - **Evidence pointer** Section 2.1. Location not provided.
+  - **Issue** The sentence "Missense mutations are reported to increase the affinity of RAS proteins to GTP and lower the enzymatic activity of GTPase-activating proteins" is imprecise. The mutations lower the GTPase activity of RAS itself, not the enzymatic activity of GAPs directly.
+  - **Required correction** Rephrase to clarify that oncogenic RAS mutations impair intrinsic and GAP-stimulated GTP hydrolysis, leading to constitutive activation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.2, paragraph on p53
+  - **Evidence pointer** Section 2.2. Location not provided.
+  - **Issue** The statement "drugs that act directly on this target are difficult to develop because p53 lacks deep pockets for binding SMIs, lacks enzymatic activity, and is in the nucleus" conflates distinct challenges. Nuclear localization is not inherently a barrier to drug development, as many drugs target nuclear proteins.
+  - **Required correction** Clarify why nuclear localization is presented as a challenge, or remove this point if it is not a substantive barrier.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4.2, paragraph on peptide-based drug discovery
+  - **Evidence pointer** Section 4.2. Location not provided.
+  - **Issue** The sentence "To date, more than 60 peptide-based drugs targeting PPIs have been developed, optimized, and approved for clinical application" is ambiguous. It is unclear whether these are approved for clinical use or merely in clinical development.
+  - **Required correction** Clarify whether these drugs are approved, in clinical trials, or in preclinical development.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 5, paragraph on IDP targeting strategies
+  - **Evidence pointer** Section 5. Location not provided.
+  - **Issue** The sentence "With different advantages and disadvantages, NMR revealed more detailed structural dynamics of C-MYC-MAX and smaller molecular weights of rigid proteins" is grammatically awkward and unclear in meaning.
+  - **Required correction** Rephrase for clarity, for example: "NMR and X-ray crystallography have complementary strengths; NMR provides detailed information on conformational dynamics, while crystallography offers higher-resolution structures of larger complexes."
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 7, Summary
+  - **Evidence pointer** Section 7. Location not provided.
+  - **Issue** The sentence "In any case, we believed that it is only a matter of time before undruggable targets become druggable" mixes past and present tense ("believed" vs. "is") and is overly speculative for a review.
+  - **Required correction** Change to present tense and temper the speculation, e.g., "We believe that continued advances will make more targets druggable over time."
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.1, paragraph on PROTAC challenges
+  - **Evidence pointer** Section 3.1. Location not provided.
+  - **Issue** The sentence "Due to the different working principles, we cannot draw reliable conclusions based on the inhibitors of POI" is unclear. It likely means that the activity of PROTACs cannot be predicted from the activity of the corresponding inhibitors.
+  - **Required correction** Rephrase for clarity, e.g., "Because PROTACs act through a different mechanism than conventional inhibitors, their activity cannot be reliably predicted from inhibitor data."
+- **Technical failings that need to be addressed before the case is established** (1) The 15%/85% druggability statistic is uncited and presented without qualification (R1-M1). (2) The claim that KRAS is no longer undruggable is overly broad and internally inconsistent (R1-M2). (3) The role of AI in overcoming undruggable targets is asserted without specific examples or discussion of limitations (R1-M3, R1-M4). (4) The review lacks a stated methodology for literature selection, making it impossible to assess comprehensiveness or bias. (5) Several clinical data points (e.g., ARV-471) are presented without sufficient context for interpretation.
+
+## Risk / unsupported claims
+- The 15%/85% druggable/undruggable ratio is presented without citation or methodological context.
+- The claim that AlphaFold "significantly outperformed" other methods and is "beneficial for drug development" is not supported with specific evidence in the text.
+- The statement that "at least 20 PROTACs against the targets mentioned above have been developed" is unverifiable without a reference list.
+- The claim that "new drug development strategies, better extraction processes that do not disrupt protein-protein interactions, and more precise AI are urgently needed" introduces "better extraction processes" as a solution without prior discussion in the review.
+- The assertion that "it is only a matter of time before undruggable targets become druggable" is speculative and not supported by the evidence presented.
+- The clinical efficacy claims for ARV-110, ARV-471, and KT-333 are presented without citations or comparison to standard-of-care outcomes.
+- The statement that "HATs were among the first epigenetic modifiers to be identified, but still no potent, selective drugs have been approved for clinical use due to the tertiary structures" is unclear and unsupported; the connection between tertiary structure and lack of approved drugs is not explained.

@@ -1,0 +1,688 @@
+{
+  "identity": {
+    "pmid": "33963445",
+    "doi": "10.1007/s00439-021-02287-y",
+    "title": "Variants in GCNA, X-linked germ-cell genome integrity gene, identified in men with primary spermatogenic failure."
+  },
+  "content": {
+    "abstract": "Male infertility impacts millions of couples yet, the etiology of primary infertility remains largely unknown. A critical element of successful spermatogenesis is maintenance of genome integrity. Here, we present a genomic study of spermatogenic failure (SPGF). Our initial analysis (n = 176) did not reveal known gene-candidates but identified a potentially significant single-nucleotide variant (SNV) in X-linked germ-cell nuclear antigen (GCNA). Together with a larger follow-up study (n = 2049), 7 likely clinically relevant GCNA variants were identified. GCNA is critical for genome integrity in male meiosis and knockout models exhibit impaired spermatogenesis and infertility. Single-cell RNA-seq and immunohistochemistry confirm human GCNA expression from spermatogonia to elongated spermatids. Five identified SNVs were located in key functional regions, including N-terminal SUMO-interacting motif and C-terminal Spartan-like protease domain. Notably, variant p.Ala115ProfsTer7 results in an early frameshift, while Spartan-like domain missense variants p.Ser659Trp and p.Arg664Cys change conserved residues, likely affecting 3D structure. For variants within GCNA's intrinsically disordered region, we performed computational modeling for consensus motifs. Two SNVs were predicted to impact the structure of these consensus motifs. All identified variants have an extremely low minor allele frequency in the general population and 6 of 7 were not detected in > 5000 biological fathers. Considering evidence from animal models, germ-cell-specific expression, 3D modeling, and computational predictions for SNVs, we propose that identified GCNA variants disrupt structure and function of the respective protein domains, ultimately arresting germ-cell division. To our knowledge, this is the first study implicating GCNA, a key genome integrity factor, in human male infertility.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adult",
+      "Animals",
+      "Azoospermia/*congenital/diagnosis/genetics/metabolism/pathology",
+      "Base Sequence",
+      "Cohort Studies",
+      "Follicle Stimulating Hormone/blood",
+      "Gene Expression",
+      "*Genes, X-Linked",
+      "Genome, Human",
+      "Genomic Instability",
+      "Humans",
+      "Infertility, Male/diagnosis/*genetics/metabolism/pathology",
+      "Luteinizing Hormone/blood",
+      "Male",
+      "Meiosis",
+      "Models, Molecular",
+      "*Mutation",
+      "Nuclear Proteins/deficiency/*genetics",
+      "Protein Conformation, alpha-Helical",
+      "Protein Conformation, beta-Strand",
+      "Protein Interaction Domains and Motifs",
+      "Spermatogenesis/genetics",
+      "Spermatozoa/*metabolism/pathology",
+      "Testis/metabolism/pathology",
+      "Testosterone/blood",
+      "Exome Sequencing"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hardy, Jimmaline J",
+        "Wyrwoll, Margot J",
+        "Mcfadden, William",
+        "Malcher, Agnieszka",
+        "Rotte, Nadja",
+        "Pollock, Nijole C",
+        "Munyoki, Sarah",
+        "Veroli, Maria V",
+        "Houston, Brendan J",
+        "Xavier, Miguel J",
+        "Kasak, Laura",
+        "Punab, Margus",
+        "Laan, Maris",
+        "Kliesch, Sabine",
+        "Schlegel, Peter",
+        "Jaffe, Thomas",
+        "Hwang, Kathleen",
+        "Vukina, Josip",
+        "Brieno-Enriquez, Miguel A",
+        "Orwig, Kyle",
+        "Yanowitz, Judith",
+        "Buszczak, Michael",
+        "Veltman, Joris A",
+        "Oud, Manon",
+        "Nagirnaja, Liina",
+        "Olszewska, Marta",
+        "O'Bryan, Moira K",
+        "Conrad, Donald F",
+        "Kurpisz, Maciej",
+        "Tuttelmann, Frank",
+        "Yatsenko, Alexander N"
+      ],
+      "short_names": [
+        "Hardy JJ",
+        "Wyrwoll MJ",
+        "Mcfadden W",
+        "Malcher A",
+        "Rotte N",
+        "Pollock NC",
+        "Munyoki S",
+        "Veroli MV",
+        "Houston BJ",
+        "Xavier MJ",
+        "Kasak L",
+        "Punab M",
+        "Laan M",
+        "Kliesch S",
+        "Schlegel P",
+        "Jaffe T",
+        "Hwang K",
+        "Vukina J",
+        "Brieno-Enriquez MA",
+        "Orwig K",
+        "Yanowitz J",
+        "Buszczak M",
+        "Veltman JA",
+        "Oud M",
+        "Nagirnaja L",
+        "Olszewska M",
+        "O'Bryan MK",
+        "Conrad DF",
+        "Kurpisz M",
+        "Tuttelmann F",
+        "Yatsenko AN"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9292-3894",
+        "ORCID: 0000-0002-1690-0172"
+      ],
+      "affiliations": [
+        "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA.",
+        "Institute of Reproductive Genetics, University of Munster, Munster, Germany.",
+        "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA.",
+        "Institute of Human Genetics, Polish Academy of Sciences, Poznan, Poland.",
+        "Institute of Reproductive Genetics, University of Munster, Munster, Germany.",
+        "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA.",
+        "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA.",
+        "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA.",
+        "School of BioSciences, The University of Melbourne, Parkville, Australia.",
+        "Faculty of Medical Sciences, Biosciences Institute, Newcastle University, Newcastle upon Tyne, UK.",
+        "Institute of Biomedicine and Translational Medicine, University of Tartu, Tartu, Estonia.",
+        "Andrology Centre, Tartu University Hospital, Tartu, Estonia.",
+        "Institute of Clinical Medicine, University of Tartu, Tartu, Estonia.",
+        "Institute of Biomedicine and Translational Medicine, University of Tartu, Tartu, Estonia.",
+        "Department of Clinical and Surgical Andrology, Centre of Reproductive Medicine and Andrology, Munster, Germany.",
+        "Department of Urology, Weill Cornell Medicine, New York, USA.",
+        "Department of Urology, School of Medicine, West Virginia University, Morgantown, USA.",
+        "Department of Urology, School of Medicine, University of Pittsburgh, Pittsburgh, USA.",
+        "Department of Urology, School of Medicine, University of Pittsburgh, Pittsburgh, USA.",
+        "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA.",
+        "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA.",
+        "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA.",
+        "Department of Molecular Biology and Center of Regenerative Science and Medicine, University of Texas Southwestern Medical Center, Dallas, USA.",
+        "Faculty of Medical Sciences, Biosciences Institute, Newcastle University, Newcastle upon Tyne, UK.",
+        "Department of Human Genetics, Donders Institute for Brain, Cognition, and Behaviour, Radboud University Medical Center, Nijmegen, Netherlands.",
+        "Department of Genetics, Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA.",
+        "Institute of Human Genetics, Polish Academy of Sciences, Poznan, Poland.",
+        "School of BioSciences, The University of Melbourne, Parkville, Australia.",
+        "Department of Genetics, Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA.",
+        "Institute of Human Genetics, Polish Academy of Sciences, Poznan, Poland. maciej.kurpisz@man.poznan.pl.",
+        "Institute of Reproductive Genetics, University of Munster, Munster, Germany. Frank.Tuettelmann@ukmuenster.de.",
+        "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA. yatsenkoan@mwri.magee.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hardy, Jimmaline J",
+        "short_name": "Hardy JJ",
+        "identifiers": [
+          "0000-0002-9292-3894"
+        ],
+        "affiliations": [
+          "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA."
+        ]
+      },
+      {
+        "full_name": "Wyrwoll, Margot J",
+        "short_name": "Wyrwoll MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Reproductive Genetics, University of Münster, Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Mcfadden, William",
+        "short_name": "Mcfadden W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA."
+        ]
+      },
+      {
+        "full_name": "Malcher, Agnieszka",
+        "short_name": "Malcher A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Human Genetics, Polish Academy of Sciences, Poznan, Poland."
+        ]
+      },
+      {
+        "full_name": "Rotte, Nadja",
+        "short_name": "Rotte N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Reproductive Genetics, University of Münster, Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Pollock, Nijole C",
+        "short_name": "Pollock NC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA."
+        ]
+      },
+      {
+        "full_name": "Munyoki, Sarah",
+        "short_name": "Munyoki S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA."
+        ]
+      },
+      {
+        "full_name": "Veroli, Maria V",
+        "short_name": "Veroli MV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA."
+        ]
+      },
+      {
+        "full_name": "Houston, Brendan J",
+        "short_name": "Houston BJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of BioSciences, The University of Melbourne, Parkville, Australia."
+        ]
+      },
+      {
+        "full_name": "Xavier, Miguel J",
+        "short_name": "Xavier MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medical Sciences, Biosciences Institute, Newcastle University, Newcastle upon Tyne, UK."
+        ]
+      },
+      {
+        "full_name": "Kasak, Laura",
+        "short_name": "Kasak L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedicine and Translational Medicine, University of Tartu, Tartu, Estonia."
+        ]
+      },
+      {
+        "full_name": "Punab, Margus",
+        "short_name": "Punab M",
+        "identifiers": [],
+        "affiliations": [
+          "Andrology Centre, Tartu University Hospital, Tartu, Estonia.",
+          "Institute of Clinical Medicine, University of Tartu, Tartu, Estonia."
+        ]
+      },
+      {
+        "full_name": "Laan, Maris",
+        "short_name": "Laan M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedicine and Translational Medicine, University of Tartu, Tartu, Estonia."
+        ]
+      },
+      {
+        "full_name": "Kliesch, Sabine",
+        "short_name": "Kliesch S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical and Surgical Andrology, Centre of Reproductive Medicine and Andrology, Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Schlegel, Peter",
+        "short_name": "Schlegel P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, Weill Cornell Medicine, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Jaffe, Thomas",
+        "short_name": "Jaffe T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, School of Medicine, West Virginia University, Morgantown, USA."
+        ]
+      },
+      {
+        "full_name": "Hwang, Kathleen",
+        "short_name": "Hwang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, School of Medicine, University of Pittsburgh, Pittsburgh, USA."
+        ]
+      },
+      {
+        "full_name": "Vukina, Josip",
+        "short_name": "Vukina J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Urology, School of Medicine, University of Pittsburgh, Pittsburgh, USA."
+        ]
+      },
+      {
+        "full_name": "Brieño-Enríquez, Miguel A",
+        "short_name": "Brieño-Enríquez MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA."
+        ]
+      },
+      {
+        "full_name": "Orwig, Kyle",
+        "short_name": "Orwig K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA."
+        ]
+      },
+      {
+        "full_name": "Yanowitz, Judith",
+        "short_name": "Yanowitz J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA."
+        ]
+      },
+      {
+        "full_name": "Buszczak, Michael",
+        "short_name": "Buszczak M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Center of Regenerative Science and Medicine, University of Texas Southwestern Medical Center, Dallas, USA."
+        ]
+      },
+      {
+        "full_name": "Veltman, Joris A",
+        "short_name": "Veltman JA",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Medical Sciences, Biosciences Institute, Newcastle University, Newcastle upon Tyne, UK."
+        ]
+      },
+      {
+        "full_name": "Oud, Manon",
+        "short_name": "Oud M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Human Genetics, Donders Institute for Brain, Cognition, and Behaviour, Radboud University Medical Center, Nijmegen, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Nagirnaja, Liina",
+        "short_name": "Nagirnaja L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA."
+        ]
+      },
+      {
+        "full_name": "Olszewska, Marta",
+        "short_name": "Olszewska M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Human Genetics, Polish Academy of Sciences, Poznan, Poland."
+        ]
+      },
+      {
+        "full_name": "O'Bryan, Moira K",
+        "short_name": "O'Bryan MK",
+        "identifiers": [],
+        "affiliations": [
+          "School of BioSciences, The University of Melbourne, Parkville, Australia."
+        ]
+      },
+      {
+        "full_name": "Conrad, Donald F",
+        "short_name": "Conrad DF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics, Oregon National Primate Research Center, Oregon Health and Science University, Beaverton, OR, USA."
+        ]
+      },
+      {
+        "full_name": "Kurpisz, Maciej",
+        "short_name": "Kurpisz M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Human Genetics, Polish Academy of Sciences, Poznan, Poland. maciej.kurpisz@man.poznan.pl."
+        ]
+      },
+      {
+        "full_name": "Tüttelmann, Frank",
+        "short_name": "Tüttelmann F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Reproductive Genetics, University of Münster, Münster, Germany. Frank.Tuettelmann@ukmuenster.de."
+        ]
+      },
+      {
+        "full_name": "Yatsenko, Alexander N",
+        "short_name": "Yatsenko AN",
+        "identifiers": [
+          "0000-0002-1690-0172"
+        ],
+        "affiliations": [
+          "Department of Obstetrics, Gynecology, and Reproductive Sciences, School of Medicine, Magee-Womens Research Institute, University of Pittsburgh, Pittsburgh, USA. yatsenkoan@mwri.magee.edu."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Human genetics"
+    ],
+    "journal_abbrev": [
+      "Hum Genet"
+    ],
+    "pub_date": "2021 Aug",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/09 06:00",
+    "fetched_at": "2026-09-20 02:57:55"
+  },
+  "links": {
+    "cites": [
+      "42003551",
+      "41051601",
+      "40815353",
+      "40572022",
+      "40376536",
+      "39422082",
+      "38650655",
+      "37828407",
+      "37783880",
+      "37459509",
+      "37234866",
+      "37151874",
+      "37124137",
+      "36919611",
+      "36446526",
+      "36150389",
+      "36017582",
+      "35849255",
+      "35809576",
+      "35663331",
+      "35600599",
+      "35172124",
+      "35022746",
+      "34413498"
+    ],
+    "refs": [
+      "33309062",
+      "33308486",
+      "32719396",
+      "32673564",
+      "32638125",
+      "32504559",
+      "31866047",
+      "31839538",
+      "31839537",
+      "31713636",
+      "31413122",
+      "31116477",
+      "30914427",
+      "30893605",
+      "30865283",
+      "30423030",
+      "30371827",
+      "29622783",
+      "29527098",
+      "27802094",
+      "27718356",
+      "27666373",
+      "27268795",
+      "26240362",
+      "26136358",
+      "26000488",
+      "25970010",
+      "25741868",
+      "25501849",
+      "25480036",
+      "25437880",
+      "25261934",
+      "22638583",
+      "22624656",
+      "22517427",
+      "21988835",
+      "21330290",
+      "20676075",
+      "20644199",
+      "20601685",
+      "20506135",
+      "20354512",
+      "20080505",
+      "19858363",
+      "18032420",
+      "15980461",
+      "14643120",
+      "14526100",
+      "12360237",
+      "11337480",
+      "9520501",
+      "8710825",
+      "7490711"
+    ],
+    "similar": [
+      "33963445",
+      "34413498",
+      "31125047",
+      "40815353",
+      "34347949",
+      "32673564",
+      "40591933",
+      "35413094",
+      "28886318",
+      "20075417",
+      "31682730",
+      "35535697",
+      "38365879",
+      "31132083",
+      "24803180",
+      "18070047",
+      "28104696",
+      "37234866",
+      "12724276",
+      "35526155",
+      "38614076",
+      "23258628",
+      "31839537",
+      "32469048",
+      "38956960",
+      "36102209",
+      "28498920",
+      "36807972",
+      "40231331",
+      "30838384",
+      "38948273",
+      "29095993",
+      "30075111",
+      "24728569",
+      "11872202",
+      "31916570",
+      "33211200",
+      "32242295",
+      "40802929",
+      "24089200",
+      "29790874",
+      "40695261",
+      "31839538",
+      "34429122",
+      "39222519",
+      "26203179",
+      "41665013",
+      "36919611",
+      "32092127",
+      "39231187",
+      "28847364",
+      "23320086",
+      "36524333",
+      "17714218",
+      "20335278",
+      "34419158",
+      "25970010",
+      "41297666",
+      "40750267",
+      "15070965",
+      "40645105",
+      "36150389",
+      "29895858",
+      "27921326",
+      "22951003",
+      "26599493",
+      "21685910",
+      "12645924",
+      "37783880",
+      "38733656",
+      "38341271",
+      "35366911",
+      "8636331",
+      "38403804",
+      "9783841",
+      "32860660",
+      "24449892",
+      "26832838",
+      "36997603",
+      "35022746",
+      "37843278",
+      "35090489",
+      "10632763",
+      "40852913",
+      "9020851",
+      "16400085",
+      "41257861",
+      "28401488",
+      "40442410",
+      "24794312",
+      "39310107",
+      "40240737",
+      "24812316",
+      "31054360",
+      "36572685",
+      "40272718",
+      "30389958",
+      "33472045",
+      "39992433",
+      "6809644"
+    ],
+    "review": [
+      "33963445",
+      "38948273",
+      "40802929"
+    ],
+    "pmc": [
+      "8266742"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biocyc.org/gene?orgid=HUMAN&id=HS07407",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "GCNA"
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/33963445/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/maleinfertility.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Male Infertility"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33963445/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00439-021-02287-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33963445",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.malacards.org/card/spermatogenic_failure_x_linked_6",
+        "provider": "The Weizmann Institute of Science GeneCards and MalaCards databases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "MalaCards for spermatogenic failure, x-linked, 6"
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=phs003115",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/33963445",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

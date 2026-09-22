@@ -1,0 +1,339 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.02.05.636647",
+  "title": "Mechanisms of transcription attenuation and condensation of RNA polymerase II by RECQ5",
+  "doi": "10.1101/2025.02.05.636647",
+  "abstract": "The elongation rates of RNA polymerase II (RNAPII) require precise control to prevent transcriptional stress, which can impede co-transcriptional pre-mRNA processing and contribute to many age- or disease-associated molecular changes ( e.g. , loss of proteostasis) 1–5 . Additionally mesoscale organization of transcription is thought to control the transcriptional rates 6 and multiple factors have been reported to form biomolecular condensates and integrate RNAPII through the interaction with the C-terminal domain (CTD) of the largest subunit, RPB1 7–10 . However, the structural organization of these condensates remains uncharacterized due to their small size and inherently dynamic nature. Here, we investigated the molecular mechanisms by which a general transcription factor – RECQ5 – associates with hyperphosphorylated RNAPII elongation complex (P-RNAPII EC) and controls translocation of RNAPII along genes. We combined biochemical reconstitution, electron cryomicroscopy, cryotomography, and coarse-grained simulations. We report two mechanisms by which RECQ5 modulates RNAPII transcription. At the atomic level, we demonstrate that RECQ5 uses the brake helix as a doorstop to control RNAPII translocation along DNA, attenuating transcription. At the mesoscale level, RECQ5 forms a condensate scaffold matrix, integrating P-RNAPII EC through a network of site-specific interactions, reinforcing the condensate’s structural integrity. Our integrative, multi-scale study provides insights into the structural basis of transcription attenuation and into the molecular architecture and biogenesis of a model RNAPII condensate.",
+  "authors": [
+    "Sebesta M",
+    "Skubnik K",
+    "Morton W",
+    "Kravec M",
+    "Linhartova K",
+    "Klapstova V",
+    "Novacek J",
+    "Kubicek K",
+    "Bryja V",
+    "Vacha R",
+    "Stefl R"
+  ],
+  "published_date": "2025-02-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.02.05.636647",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.02.05.636647.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR974516",
+    "raw_record": {
+      "id": "PPR974516",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR974516"
+        ]
+      },
+      "doi": "10.1101/2025.02.05.636647",
+      "title": "Mechanisms of transcription attenuation and condensation of RNA polymerase II by RECQ5",
+      "authorString": "Sebesta M, Skubnik K, Morton W, Kravec M, Linhartova K, Klapstova V, Novacek J, Kubicek K, Bryja V, Vacha R, Stefl R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sebesta M",
+            "lastName": "Sebesta",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9546-4921"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Skubnik K",
+            "lastName": "Skubnik",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morton W",
+            "lastName": "Morton",
+            "firstName": "W.S.",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2584-8548"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kravec M",
+            "lastName": "Kravec",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5757-2291"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Experimental Biology, Faculty of Science, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Linhartova K",
+            "lastName": "Linhartova",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0009-0509-2059"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; ,"
+                },
+                {
+                  "affiliation": "National Centre for Biomolecular Research, Faculty of Science, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Klapstova V",
+            "lastName": "Klapstova",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; ,"
+                },
+                {
+                  "affiliation": "National Centre for Biomolecular Research, Faculty of Science, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Novacek J",
+            "lastName": "Novacek",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4013-3898"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kubicek K",
+            "lastName": "Kubicek",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8990-4481"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; ,"
+                },
+                {
+                  "affiliation": "National Centre for Biomolecular Research, Faculty of Science, ; ,"
+                },
+                {
+                  "affiliation": "Department of Condensed Matter Physics, Faculty of Science, ; ,"
+                },
+                {
+                  "affiliation": ", v.v.i.; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bryja V",
+            "lastName": "Bryja",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9136-5085"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Experimental Biology, Faculty of Science, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vacha R",
+            "lastName": "Vacha",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; ,"
+                },
+                {
+                  "affiliation": "National Centre for Biomolecular Research, Faculty of Science, ; ,"
+                },
+                {
+                  "affiliation": "Department of Condensed Matter Physics, Faculty of Science, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stefl R",
+            "lastName": "Stefl",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; ,"
+                },
+                {
+                  "affiliation": "National Centre for Biomolecular Research, Faculty of Science, ; ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9546-4921"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2584-8548"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5757-2291"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8990-4481"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9136-5085"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4013-3898"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0009-0509-2059"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The elongation rates of RNA polymerase II (RNAPII) require precise control to prevent transcriptional stress, which can impede co-transcriptional pre-mRNA processing and contribute to many age- or disease-associated molecular changes (  e.g. , loss of proteostasis)  1–5 . Additionally mesoscale organization of transcription is thought to control the transcriptional rates  6 and multiple factors have been reported to form biomolecular condensates and integrate RNAPII through the interaction with the C-terminal domain (CTD) of the largest subunit, RPB1  7–10 . However, the structural organization of these condensates remains uncharacterized due to their small size and inherently dynamic nature. Here, we investigated the molecular mechanisms by which a general transcription factor – RECQ5 – associates with hyperphosphorylated RNAPII elongation complex (P-RNAPII EC) and controls translocation of RNAPII along genes. We combined biochemical reconstitution, electron cryomicroscopy, cryotomography, and coarse-grained simulations. We report two mechanisms by which RECQ5 modulates RNAPII transcription. At the atomic level, we demonstrate that RECQ5 uses the brake helix as a doorstop to control RNAPII translocation along DNA, attenuating transcription. At the mesoscale level, RECQ5 forms a condensate scaffold matrix, integrating P-RNAPII EC through a network of site-specific interactions, reinforcing the condensate’s structural integrity. Our integrative, multi-scale study provides insights into the structural basis of transcription attenuation and into the molecular architecture and biogenesis of a model RNAPII condensate.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.02.05.636647"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR974516"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR974516&type=FILE&fileName=EMS203168-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS203168",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-02-07",
+      "firstPublicationDate": "2025-02-05",
+      "firstIndexDate": "2025-02-07",
+      "fullTextReceivedDate": "2025-02-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

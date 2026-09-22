@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39421885",
+  "title": "Pathogenic Mutation DeltaK280 Promotes Hydrophobic Interactions Involving Microtubule-Binding Domain and Enhances Liquid-Liquid Phase Separation of Tau.",
+  "authors": "Chen, Yujie; Sun, Xun; Tang, Yiming; Tan, Yuan; Guo, Cong; Pan, Tong; Zhang, Xuefeng; Luo, Jinghui; Wei, Guanghong",
+  "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+  "published_date": "2024-10-18",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过多尺度分子模拟与实验结合，揭示Tau致病突变DeltaK280通过增强微管结合域疏水相互作用促进液-液相分离的机制，直接命中无序蛋白相分离中的PPI机制建模核心。",
+  "abstract": "Liquid-liquid phase separation (LLPS) of tau protein can initiate its aggregation which is associated with Alzheimer's disease. The pathogenic mutation DeltaK280 can enhance the aggregation of K18, a truncated tau variant comprising the microtubule-binding domain. However, the impact of DeltaK280 on K18 LLPS and underlying mechanisms are largely unexplored. Herein, the conformational ensemble and LLPS of DeltaK280 K18 through multiscale molecular simulations and microscopy experiments are investigated. All-atom molecular dynamic simulations reveal that DeltaK280 significantly enhances the collapse degree and beta-sheet content of the K18 monomer, indicating that DeltaK280 mutation may promote K18 LLPS, validated by coarse-grained phase-coexistence simulations and microscopy experiments. Importantly, DeltaK280 mutation promotes beta-sheet formation of six motifs (especially PHF6), increases the hydrophobic solvent exposure of PHF6* and PHF6, and enhances hydrophobic, hydrogen bonding, and cation-pi interactions involving most of the motifs, thus facilitating the phase separation of K18. Notably, DeltaK280 alters the interaction network among the six motifs, inducing the formation of K18 conformations with high beta-sheet contents and collapse degree. Coarse-grained simulations on full-length tau reveal that DeltaK280 promotes tau LLPS by enhancing the hydrophobic interactions involving the microtubule-binding domain. These findings offer detailed mechanistic insights into DeltaK280-induced tau pathogenesis, providing potential targets for therapeutic intervention.",
+  "abstract_zh": "tau蛋白的液-液相分离（liquid-liquid phase separation, LLPS）可启动其聚集，这与阿尔茨海默病相关。致病性突变DeltaK280可增强K18（一种包含微管结合结构域的截短tau变体）的聚集。然而，DeltaK280对K18 LLPS的影响及其潜在机制在很大程度上尚未被探索。本研究通过多尺度分子模拟和显微镜实验，研究了DeltaK280 K18的构象系综及LLPS。全原子分子动力学（molecular dynamics）模拟揭示，DeltaK280显著增强K18单体的塌缩程度和β-折叠含量，表明DeltaK280突变可能促进K18 LLPS，这一结论通过粗粒化相共存模拟和显微镜实验得到验证。重要的是，DeltaK280突变促进六个基序（尤其是PHF6）的β-折叠形成，增加PHF6*和PHF6的疏水溶剂暴露，并增强涉及大多数基序的疏水相互作用、氢键和阳离子-π相互作用，从而促进K18的相分离。值得注意的是，DeltaK280改变六个基序间的相互作用网络，诱导形成具有高β-折叠含量和塌缩程度的K18构象。对全长tau的粗粒化模拟揭示，DeltaK280通过增强涉及微管结合结构域的疏水相互作用来促进tau LLPS。这些发现为DeltaK280诱导的tau病理机制提供了详细的分子层面见解，并为治疗干预提供了潜在靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39421885/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39421885/",
+  "paper_page_path": "papers/pubmed/39421885/index.html"
+}

@@ -1,0 +1,380 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.06.602338",
+  "title": "Plastid translocon recycling in dinoflagellates demonstrates the portability of complex plastids between hosts",
+  "doi": "10.1101/2024.07.06.602338",
+  "abstract": "<h4>ABSTRACT</h4> The plastids of photosynthetic organisms on land are predominantly ‘primary plastids’ derived from an ancient endosymbiosis of a cyanobacterium. Conversely, marine photosynthetic diversity is dominated by plastids gained by subsequent endosymbioses of photosynthetic eukaryotes, so-called ‘complex plastids’. The plastids of major eukaryotic lineages including cryptophytes, haptophytes, stramenopiles, dinoflagellates and apicomplexans, were originally all posited to derive from a single secondary endosymbiosis of a red alga—the ‘chromalveloate’ hypothesis 1 . Subsequent phylogenetic resolution of eukaryotes indicated that separate events of plastid acquisition must have occurred to account for this distribution of plastids 2,3 . The number of such events, however, and the donor organisms for the new plastid endosymbioses are still not resolved. A perceived bottleneck of endosymbiotic plastid gain is the development of protein targeting from the hosts into new plastids, and this supposition has often driven hypotheses towards minimising the number of plastid-gain events to explain plastid distribution in eukaryotes. But how plastid protein-targeting is established for new endosymbionts is often unclear, which makes it difficult to assess the likelihood of plastid transfers between lineages. Here we show that Kareniaceae dinoflagellates, that possess complex plastids known to be derived from haptophytes, acquired all the necessary protein import machinery from these haptophytes. Furthermore, cryo-electron tomography revealed that no additional membranes were added to the Kareniaceae complex plastid during serial endosymbiosis, suggesting that the haptophyte-derived import processes were sufficient. Our analyses suggests that complex red plastids are preadapted for horizontal transmission, potentially explaining their widespread distribution in aquatic algal diversity.",
+  "authors": [
+    "Lewis WH",
+    "Paris G",
+    "Beedessee G",
+    "Koreny L",
+    "Flores V",
+    "Dendooven T",
+    "Gallet B",
+    "Yee D",
+    "Lam S",
+    "Decelle J",
+    "Luisi BF",
+    "Waller RF"
+  ],
+  "published_date": "2024-07-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.06.602338",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.06.602338.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR878120",
+    "raw_record": {
+      "id": "PPR878120",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR878120"
+        ]
+      },
+      "doi": "10.1101/2024.07.06.602338",
+      "title": "Plastid translocon recycling in dinoflagellates demonstrates the portability of complex plastids between hosts",
+      "authorString": "Lewis WH, Paris G, Beedessee G, Koreny L, Flores V, Dendooven T, Gallet B, Yee D, Lam S, Decelle J, Luisi BF, Waller RF.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lewis WH",
+            "lastName": "Lewis",
+            "firstName": "William",
+            "initials": "WH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2359-1646"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Paris G",
+            "lastName": "Paris",
+            "firstName": "Giulia",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5610-2722"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beedessee G",
+            "lastName": "Beedessee",
+            "firstName": "Girish",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4397-7471"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Koreny L",
+            "lastName": "Koreny",
+            "firstName": "Ludek",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9979-3172"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Flores V",
+            "lastName": "Flores",
+            "firstName": "Victor",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4186-9151"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dendooven T",
+            "lastName": "Dendooven",
+            "firstName": "Tom",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9847-0910"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gallet B",
+            "lastName": "Gallet",
+            "firstName": "Benoit",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8758-7681"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell and Plant Physiology Laboratory, CNRS, CEA, INRAE, IRIG, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yee D",
+            "lastName": "Yee",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2085-5538"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell and Plant Physiology Laboratory, CNRS, CEA, INRAE, IRIG, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lam S",
+            "lastName": "Lam",
+            "firstName": "Simon",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4476-0971"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Decelle J",
+            "lastName": "Decelle",
+            "firstName": "Johan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4343-8358"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell and Plant Physiology Laboratory, CNRS, CEA, INRAE, IRIG, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Luisi BF",
+            "lastName": "Luisi",
+            "firstName": "Ben",
+            "initials": "BF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waller RF",
+            "lastName": "Waller",
+            "firstName": "Ross",
+            "initials": "RF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8758-7681"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2085-5538"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2359-1646"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4343-8358"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4476-0971"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5610-2722"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9847-0910"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9979-3172"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4186-9151"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4397-7471"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  The plastids of photosynthetic organisms on land are predominantly ‘primary plastids’ derived from an ancient endosymbiosis of a cyanobacterium. Conversely, marine photosynthetic diversity is dominated by plastids gained by subsequent endosymbioses of photosynthetic eukaryotes, so-called ‘complex plastids’. The plastids of major eukaryotic lineages including cryptophytes, haptophytes, stramenopiles, dinoflagellates and apicomplexans, were originally all posited to derive from a single secondary endosymbiosis of a red alga—the ‘chromalveloate’ hypothesis  1 . Subsequent phylogenetic resolution of eukaryotes indicated that separate events of plastid acquisition must have occurred to account for this distribution of plastids  2,3 . The number of such events, however, and the donor organisms for the new plastid endosymbioses are still not resolved. A perceived bottleneck of endosymbiotic plastid gain is the development of protein targeting from the hosts into new plastids, and this supposition has often driven hypotheses towards minimising the number of plastid-gain events to explain plastid distribution in eukaryotes. But how plastid protein-targeting is established for new endosymbionts is often unclear, which makes it difficult to assess the likelihood of plastid transfers between lineages. Here we show that Kareniaceae dinoflagellates, that possess complex plastids known to be derived from haptophytes, acquired all the necessary protein import machinery from these haptophytes. Furthermore, cryo-electron tomography revealed that no additional membranes were added to the Kareniaceae complex plastid during serial endosymbiosis, suggesting that the haptophyte-derived import processes were sufficient. Our analyses suggests that complex red plastids are preadapted for horizontal transmission, potentially explaining their widespread distribution in aquatic algal diversity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.07.06.602338"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.07.06.602338"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR878120"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR878120&type=FILE&fileName=EMS197441-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39571577",
+            "reference": "Current biology : CB. 2024 Dec;34(23):5494-5506.e3",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS197441",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-07-10",
+      "firstPublicationDate": "2024-07-07",
+      "firstIndexDate": "2024-07-10",
+      "fullTextReceivedDate": "2024-07-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2505.06153v1",
+  "title": "Control of encounter kinetics by chemically active droplets",
+  "authors": "Jacques Fries; Roxanne Berthin; Marie Jardat; Pierre Illien; Vincent Dahirel",
+  "journal": "",
+  "published_date": "2025-05-09",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用布朗动力学模拟研究化学活性液滴（凝聚体）如何通过反应驱动的蛋白互作调节分子相遇动力学，揭示凝聚体可加速或减速双分子反应，虽非直接针对IDP，但为相分离凝聚体中PPI机制建模提供了可迁移的物理模拟框架。",
+  "abstract": "Biomolecular condensates play a crucial role in the spatial organization of living matter. These membrane-less organelles, resulting from liquid-liquid phase separation, operate far from thermodynamic equilibrium, with their size and stability influenced by non-equilibrium chemical reactions. While condensates are frequently considered optimized nanoreactors that enhance molecular encounters, their actual impact on reaction kinetics remains unclear due to competing effects such as diffusion hindrance, and random trapping in non-specific condensates. In this study, we develop a microscopic, stochastic model for chemically active droplets, incorporating reaction-driven modulation of protein interactions. Using Brownian dynamics simulations, we investigate how protein interactions and active coupling to a free energy reservoir influence phase separation, molecular transport and reaction kinetics. We demonstrate that the intensity of the chemical drive governs surface dynamics, generating fluxes that modulate bimolecular reaction rates. Comparing active emulsions to homogeneous systems, we reveal that condensates can either accelerate or decelerate molecular encounters. Our findings provide key insights into the role of biomolecular condensates as potential regulators of intracellular reaction kinetics.",
+  "abstract_zh": "生物分子凝聚体在生命物质的空间组织中扮演着关键角色。这些由液-液相分离 (liquid-liquid phase separation) 产生的无膜细胞器，在远离热力学平衡的状态下运作，其大小和稳定性受非平衡化学反应影响。尽管凝聚体常被视为优化分子相遇的纳米反应器，但由于扩散阻碍及在非特异性凝聚体中的随机捕获等竞争效应，它们对反应动力学的实际影响仍不明确。在本研究中，我们开发了一个针对化学活性液滴的微观随机模型，纳入反应驱动的蛋白质相互作用调节。通过布朗动力学 (Brownian dynamics) 模拟，我们探究了蛋白质相互作用及与自由能储库的主动耦合如何影响相分离、分子输运和反应动力学。我们证明，化学驱动的强度控制着表面动力学，产生调节双分子反应速率的通量。通过将活性乳液与均相系统进行比较，我们揭示凝聚体既能加速也能减速分子相遇。我们的发现为生物分子凝聚体作为细胞内反应动力学潜在调节因子的作用提供了关键见解。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2505.06153v1",
+  "source_url": "https://arxiv.org/abs/2505.06153v1",
+  "paper_page_path": "papers/arxiv/2505.06153v1/index.html"
+}

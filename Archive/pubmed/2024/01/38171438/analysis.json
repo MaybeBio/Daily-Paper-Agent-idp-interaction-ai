@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38171438",
+  "title": "High capacity and selective adsorption of Congo red by cellulose-based aerogel with mesoporous structure: Adsorption properties and statistical data simulation.",
+  "authors": "Qin, Wen-Hao; Li, Ming-Xing; Zhang, Yi-Bing; Li, Wen; Jia, Ran; Xiong, Yan-Shu; Lu, Hai-Qin; Zhang, Si-Yuan",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2024-01-04",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究纤维素基气凝胶对刚果红的吸附性能与统计模拟，对象为染料小分子与材料，不涉及无序蛋白或蛋白互作，且方法为吸附模型与静电势计算，与本课题无关。",
+  "abstract": "Large quantities of organic dyes are discharged into the environment, causing serious damage to the ecosystem. Therefore, it is urgent to develop inexpensive adsorbents to remove organic dyes. A novel cellulose-based aerogel (MPPA) with 3D porous structure was prepared by using cassava residue (cellulose) as basic construction blocks, doping ferroferric oxide (Fe(3)O(4)) for magnetic separation, and applying polyethyleneimine (PEI) as functional material for highly efficient and selective capture of Congo red (CR). MPPA exhibited porous network structure, numerous active capture sites, nontoxicity, high hydrophilicity, and excellent thermal stability. MPPA showed superior adsorption property for CR, with an equilibrium adsorption capacity of 2018.14 mg/g, and still had an adsorption property of 1189.31 mg/g after five recycling procedures. In addition, MPPA has excellent selectivity for CR in four binary dye systems. The adsorption behavior of MPPA on CR was further explored using a multilayer adsorption model, EDR-IDR hybrid model and AOAS model. Electrostatic potential and independent gradient models were used to further verify the possible interaction between MPPA and CR molecules. In conclusion, MPPA is a promising adsorbent in the field of treating anionic dyes.",
+  "abstract_zh": "大量有机染料被排放到环境中，对生态系统造成严重破坏。因此，迫切需要开发廉价的吸附剂以去除有机染料。本研究以木薯渣（纤维素）为基本构建单元，掺杂四氧化三铁（Fe(3)O(4)）以实现磁分离，并应用聚乙烯亚胺（PEI）作为功能材料，制备了一种具有三维多孔结构的新型纤维素基气凝胶（MPPA），用于高效、选择性捕获刚果红（CR）。MPPA表现出多孔网络结构、大量活性捕获位点、无毒性、高亲水性和优异的热稳定性。MPPA对CR展现出卓越的吸附性能，平衡吸附容量达2018.14 mg/g，且在五次循环使用后仍保持1189.31 mg/g的吸附能力。此外，MPPA在四种二元染料体系中对CR具有优异的选择性。通过多层吸附模型、EDR-IDR混合模型和AOAS模型进一步探讨了MPPA对CR的吸附行为。利用静电势和独立梯度模型进一步验证了MPPA与CR分子之间可能的相互作用。总之，MPPA在处理阴离子染料领域是一种有前景的吸附剂。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38171438/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38171438/",
+  "paper_page_path": "papers/pubmed/38171438/index.html"
+}

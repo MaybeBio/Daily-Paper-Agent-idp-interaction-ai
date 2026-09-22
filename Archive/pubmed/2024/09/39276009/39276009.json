@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "39276009",
+    "doi": "10.1002/pro.5170",
+    "title": "MeCP2 is a naturally supercharged protein with cell membrane transduction capabilities."
+  },
+  "content": {
+    "abstract": "The intrinsically disordered protein MeCP2 is a global transcriptional regulator encoded by the MECP2 gene. Although the structured domains of MeCP2 have been the subject of multiple studies, its unstructured regions have not been that extensively characterized. In this work, we show that MeCP2 possesses properties akin to those of supercharged proteins. By utilizing its unstructured portions, MeCP2 can successfully transduce across cell membranes and localize to heterochromatic foci in the nuclei, displaying uptake levels a third lower than a MeCP2 construct fused to the cell-penetrating peptide TAT. MeCP2 uptake can further be enhanced by the addition of compounds that promote endosomal escape following cellular trafficking by means of macropinocytosis. Using a combination of in silico prediction algorithms and live-cell imaging experiments, we mapped the sequence in MeCP2 responsible for its cellular incorporation, which bears a striking resemblance to TAT itself. Transduced MeCP2 was shown to interact with HDAC3. These findings provide valuable insight into the properties of MeCP2 and may be beneficial for devising future protein-based treatment strategies.",
+    "keywords": [
+      "MeCP2",
+      "TAT fusion proteins",
+      "cell penetrating peptides",
+      "supercharged protein"
+    ],
+    "mesh_terms": [
+      "*Methyl-CpG-Binding Protein 2/metabolism/genetics/chemistry",
+      "Humans",
+      "*Cell Membrane/metabolism/chemistry",
+      "*Histone Deacetylases/metabolism/chemistry/genetics",
+      "HEK293 Cells",
+      "Protein Transport",
+      "Cell-Penetrating Peptides/metabolism/chemistry/genetics",
+      "Histone Deacetylase 3"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Beribisky, Alexander V",
+        "Huber, Anna",
+        "Sarne, Victoria",
+        "Spittler, Andreas",
+        "Sukhbaatar, Nyamdelger",
+        "Seipel, Teresa",
+        "Laccone, Franco",
+        "Steinkellner, Hannes"
+      ],
+      "short_names": [
+        "Beribisky AV",
+        "Huber A",
+        "Sarne V",
+        "Spittler A",
+        "Sukhbaatar N",
+        "Seipel T",
+        "Laccone F",
+        "Steinkellner H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8490-9630",
+        "ORCID: 0000-0003-1053-4033",
+        "ORCID: 0000-0002-4438-6043"
+      ],
+      "affiliations": [
+        "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria.",
+        "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria.",
+        "Vienna Doctoral School of Pharmaceutical, Nutritional and Sport Sciences (PhaNuSpo), University of Vienna, Vienna, Austria.",
+        "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria.",
+        "Vienna Doctoral School of Pharmaceutical, Nutritional and Sport Sciences (PhaNuSpo), University of Vienna, Vienna, Austria.",
+        "Core Facility Flow Cytometry & Department of Surgery, Research Laboratories, Vienna, Austria.",
+        "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria.",
+        "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria.",
+        "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria.",
+        "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Beribisky, Alexander V",
+        "short_name": "Beribisky AV",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Huber, Anna",
+        "short_name": "Huber A",
+        "identifiers": [
+          "0000-0001-8490-9630"
+        ],
+        "affiliations": [
+          "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria.",
+          "Vienna Doctoral School of Pharmaceutical, Nutritional and Sport Sciences (PhaNuSpo), University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Sarne, Victoria",
+        "short_name": "Sarne V",
+        "identifiers": [
+          "0000-0003-1053-4033"
+        ],
+        "affiliations": [
+          "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria.",
+          "Vienna Doctoral School of Pharmaceutical, Nutritional and Sport Sciences (PhaNuSpo), University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Spittler, Andreas",
+        "short_name": "Spittler A",
+        "identifiers": [],
+        "affiliations": [
+          "Core Facility Flow Cytometry & Department of Surgery, Research Laboratories, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Sukhbaatar, Nyamdelger",
+        "short_name": "Sukhbaatar N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Seipel, Teresa",
+        "short_name": "Seipel T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Laccone, Franco",
+        "short_name": "Laccone F",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Steinkellner, Hannes",
+        "short_name": "Steinkellner H",
+        "identifiers": [
+          "0000-0002-4438-6043"
+        ],
+        "affiliations": [
+          "Institute of Medical Genetics, Center for Pathobiochemistry and Genetics, Medical University of Vienna, Vienna, Austria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/14 15:44",
+    "fetched_at": "2026-09-21 10:12:42"
+  },
+  "links": {
+    "cites": [
+      "42470544",
+      "41709632"
+    ],
+    "refs": [
+      "38481692",
+      "38321951",
+      "37384827",
+      "37087050",
+      "36844491",
+      "35546650",
+      "35460749",
+      "34439881",
+      "34193256",
+      "34140497",
+      "34022911",
+      "33186582",
+      "33046553",
+      "32786250",
+      "32698189",
+      "31976201",
+      "31943419",
+      "31261948",
+      "30906830",
+      "30157418",
+      "30108178",
+      "29474534",
+      "29019980",
+      "28841567",
+      "28817800",
+      "28796282",
+      "28348241",
+      "27841303",
+      "27604151",
+      "27428650",
+      "26830113",
+      "26586798",
+      "25732612",
+      "25644311",
+      "25445669",
+      "24291335",
+      "24286593",
+      "24145152",
+      "23770565",
+      "23455423",
+      "23185431",
+      "22230574",
+      "22214936",
+      "22113996",
+      "21802004",
+      "21687343",
+      "21078351",
+      "21067583",
+      "20545362",
+      "20504995",
+      "20156964",
+      "19858185",
+      "19804722",
+      "19747375",
+      "19050698",
+      "18511691",
+      "18397318",
+      "17665911",
+      "17635148",
+      "17289941",
+      "16923396",
+      "15820981",
+      "15209161",
+      "15158435",
+      "15034579",
+      "14618241",
+      "12837762",
+      "12450378",
+      "12411431",
+      "11930274",
+      "11904416",
+      "11567105",
+      "11441023",
+      "11337152",
+      "11273772",
+      "11020349",
+      "10664605",
+      "10518942",
+      "10508514",
+      "10477521",
+      "9620804",
+      "8524323"
+    ],
+    "similar": [
+      "39276009",
+      "35546650",
+      "42172708",
+      "41709632",
+      "19331822",
+      "23349465",
+      "33548325",
+      "34439881",
+      "17371874",
+      "9620804",
+      "34713805",
+      "30463906",
+      "22369085",
+      "26975406",
+      "26801086",
+      "27428650",
+      "21031501",
+      "28139759",
+      "24188180",
+      "25209898",
+      "39500316",
+      "18334558",
+      "35365985",
+      "22363746",
+      "40600880",
+      "34826702",
+      "25459448",
+      "30102379",
+      "12843459",
+      "40063648",
+      "14647463",
+      "22275515",
+      "18666890",
+      "37708383",
+      "29019980",
+      "26772194",
+      "21731748",
+      "29172443",
+      "12427740",
+      "19234536",
+      "33182787",
+      "22615490",
+      "27933338",
+      "31020497",
+      "20405910",
+      "35408913",
+      "32970734",
+      "25722434",
+      "21721946",
+      "20032179",
+      "25527496",
+      "30122350",
+      "32681172",
+      "11865062",
+      "11441023",
+      "28910080",
+      "23558747",
+      "29099289",
+      "23935992",
+      "41039661",
+      "31601272",
+      "12646234",
+      "35460749",
+      "20188665",
+      "17584923",
+      "22783988",
+      "29760177",
+      "24372650",
+      "29567833",
+      "27420643",
+      "32510486",
+      "29286477",
+      "37976174",
+      "38429622",
+      "31868585",
+      "40730493",
+      "12837762",
+      "27887988",
+      "30367366",
+      "37694858",
+      "42176380",
+      "28211484",
+      "31138832",
+      "31717404",
+      "25445669",
+      "36519786",
+      "17698499",
+      "17036333",
+      "22294343",
+      "41475550",
+      "26245896",
+      "19339616",
+      "32630650",
+      "27719633",
+      "23980619",
+      "21878907",
+      "33046553",
+      "12842436",
+      "34599184",
+      "19319913"
+    ],
+    "review": [
+      "39276009",
+      "21031501",
+      "37708383",
+      "19234536",
+      "27933338",
+      "21721946",
+      "32681172",
+      "41039661",
+      "27887988",
+      "37694858"
+    ],
+    "pmc": [
+      "11400631"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39276009/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.5170",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

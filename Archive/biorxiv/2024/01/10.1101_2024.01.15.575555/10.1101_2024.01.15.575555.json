@@ -1,0 +1,123 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.15.575555",
+  "title": "An Integrated Machine Learning Approach Delineates an Entropic Expansion Mechanism for the Binding of a Small Molecule to α -Synuclein",
+  "doi": "10.1101/2024.01.15.575555",
+  "abstract": "The mis-folding and aggregation of intrinsically disordered proteins (IDPs) such as α -synuclein ( α S) underlie the pathogenesis of various neurodegenerative disorders. However, targeting α S with small molecules faces challenges due to its lack of defined ligand-binding pockets in its disordered structure. Here, we implement a deep artificial neural network based machine learning approach, which is able to statistically distinguish fuzzy ensemble of conformational substates of α S in neat water from those in aqueous fasudil (small molecule of interest) solution. In particular, the presence of fasudil in the solvent either modulates pre-existing states of α S or gives rise to new conformational states of α S, akin to an ensemble-expansion mechanism. The ensembles display strong conformation-dependence in residue-wise interaction with the small molecule. A thermodynamic analysis indicates that small-molecule modulates the structural repertoire of α S by tuning protein backbone entropy, however entropy of the water remains unperturbed. Together, this study sheds light on the intricate interplay between small molecules and IDPs, offering insights into entropic modulation and ensemble expansion as key biophysical mechanisms driving potential therapeutics.",
+  "authors": [
+    "Menon S",
+    "Adhikari S",
+    "Mondal J"
+  ],
+  "published_date": "2024-01-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.15.575555",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.15.575555.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR788513",
+    "raw_record": {
+      "id": "PPR788513",
+      "source": "PPR",
+      "doi": "10.1101/2024.01.15.575555",
+      "title": "An Integrated Machine Learning Approach Delineates an Entropic Expansion Mechanism for the Binding of a Small Molecule to  <i>α</i>  -Synuclein",
+      "authorString": "Menon S, Adhikari S, Mondal J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Menon S",
+            "lastName": "Menon",
+            "firstName": "Sneha",
+            "initials": "S"
+          },
+          {
+            "fullName": "Adhikari S",
+            "lastName": "Adhikari",
+            "firstName": "Subinoy",
+            "initials": "S"
+          },
+          {
+            "fullName": "Mondal J",
+            "lastName": "Mondal",
+            "firstName": "Jagannath",
+            "initials": "J"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The mis-folding and aggregation of intrinsically disordered proteins (IDPs) such as  α -synuclein (  α S) underlie the pathogenesis of various neurodegenerative disorders. However, targeting  α S with small molecules faces challenges due to its lack of defined ligand-binding pockets in its disordered structure. Here, we implement a deep artificial neural network based machine learning approach, which is able to statistically distinguish fuzzy ensemble of conformational substates of  α S in neat water from those in aqueous fasudil (small molecule of interest) solution. In particular, the presence of fasudil in the solvent either modulates pre-existing states of  α S or gives rise to new conformational states of  α S, akin to an ensemble-expansion mechanism. The ensembles display strong conformation-dependence in residue-wise interaction with the small molecule. A thermodynamic analysis indicates that small-molecule modulates the structural repertoire of  α S by tuning protein backbone entropy, however entropy of the water remains unperturbed. Together, this study sheds light on the intricate interplay between small molecules and IDPs, offering insights into entropic modulation and ensemble expansion as key biophysical mechanisms driving potential therapeutics.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/27/2024.01.15.575555.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.01.15.575555"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39693390",
+            "reference": "eLife. 2024 Dec;13:RP97709",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-01-18",
+      "firstPublicationDate": "2024-01-16",
+      "firstIndexDate": "2024-01-18",
+      "hasEvaluations": "Y"
+    }
+  }
+}

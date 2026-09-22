@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "36302916",
+    "doi": "10.1038/s41467-022-34077-z",
+    "title": "Small molecules targeting the disordered transactivation domain of the androgen receptor induce the formation of collapsed helical states."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins, which do not adopt well-defined structures under physiological conditions, are implicated in many human diseases. Small molecules that target the disordered transactivation domain of the androgen receptor have entered human trials for the treatment of castration-resistant prostate cancer (CRPC), but no structural or mechanistic rationale exists to explain their inhibition mechanisms or relative potencies. Here, we utilize all-atom molecular dynamics computer simulations to elucidate atomically detailed binding mechanisms of the compounds EPI-002 and EPI-7170 to the androgen receptor. Our simulations reveal that both compounds bind at the interface of two transiently helical regions and induce the formation of partially folded collapsed helical states. We find that EPI-7170 binds androgen receptor more tightly than EPI-002 and we identify a network of intermolecular interactions that drives higher affinity binding. Our results suggest strategies for developing more potent androgen receptor inhibitors and general strategies for disordered protein drug design.",
+    "keywords": [],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Receptors, Androgen/metabolism",
+      "Transcriptional Activation",
+      "Androgen Receptor Antagonists/pharmacology/therapeutic use",
+      "Benzhydryl Compounds/pharmacology",
+      "*Prostatic Neoplasms, Castration-Resistant/drug therapy",
+      "Glycerol/analogs & derivatives"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Jiaqi",
+        "Salvatella, Xavier",
+        "Robustelli, Paul"
+      ],
+      "short_names": [
+        "Zhu J",
+        "Salvatella X",
+        "Robustelli P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8371-4185",
+        "ORCID: 0000-0002-9282-8993"
+      ],
+      "affiliations": [
+        "Dartmouth College, Department of Chemistry, Hanover, NH, 03755, USA.",
+        "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028, Barcelona, Spain.",
+        "ICREA, Passeig Lluis Companys 23, 0810, Barcelona, Spain.",
+        "Dartmouth College, Department of Chemistry, Hanover, NH, 03755, USA. Paul.J.Robustelli@Dartmouth.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Jiaqi",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Dartmouth College, Department of Chemistry, Hanover, NH, 03755, USA."
+        ]
+      },
+      {
+        "full_name": "Salvatella, Xavier",
+        "short_name": "Salvatella X",
+        "identifiers": [
+          "0000-0002-8371-4185"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028, Barcelona, Spain.",
+          "ICREA, Passeig Lluís Companys 23, 0810, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Robustelli, Paul",
+        "short_name": "Robustelli P",
+        "identifiers": [
+          "0000-0002-9282-8993"
+        ],
+        "affiliations": [
+          "Dartmouth College, Department of Chemistry, Hanover, NH, 03755, USA. Paul.J.Robustelli@Dartmouth.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Oct 27",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/28 06:00",
+    "fetched_at": "2026-09-20 16:11:39"
+  },
+  "links": {
+    "cites": [
+      "42282589",
+      "42248893",
+      "42129207",
+      "41981195",
+      "41899643",
+      "41898775",
+      "41865079",
+      "41758937",
+      "41647538",
+      "41073429",
+      "41055109",
+      "41040258",
+      "40747072",
+      "40673718",
+      "40654683",
+      "40532196",
+      "40490488",
+      "40446154",
+      "40406608",
+      "40349675",
+      "40325419",
+      "40128232",
+      "40093099",
+      "40079830",
+      "40068541",
+      "40051657",
+      "39985130",
+      "39896485",
+      "39850253",
+      "39665260",
+      "39605539",
+      "39558858",
+      "39359255",
+      "39254158",
+      "39212001",
+      "38883712",
+      "38339414",
+      "38294935",
+      "38251829",
+      "38116409",
+      "38056064",
+      "38049566",
+      "37957331",
+      "37949765",
+      "37904608",
+      "37546728",
+      "37429011",
+      "36979465",
+      "36917561",
+      "36545140",
+      "36388907",
+      "35974095"
+    ],
+    "refs": [
+      "33978290",
+      "33812316",
+      "33305318",
+      "33148639",
+      "32939066",
+      "32929030",
+      "32734688",
+      "32100577",
+      "31476124",
+      "30471705",
+      "30428663",
+      "29735687",
+      "29596915",
+      "29243483",
+      "29225078",
+      "28885015",
+      "28743590",
+      "28328918",
+      "28225081",
+      "27951677",
+      "27819658",
+      "27356095",
+      "26488642",
+      "26275458",
+      "26000489",
+      "25559306",
+      "25531225",
+      "25487359",
+      "24773235",
+      "24739139",
+      "24424504",
+      "23722902",
+      "23545493",
+      "22988857",
+      "22360139",
+      "21514144",
+      "21469160",
+      "20628786",
+      "20541699",
+      "19739624",
+      "18464982",
+      "18284209",
+      "17212484",
+      "16218947",
+      "15738986",
+      "15116359",
+      "15023052",
+      "12368089",
+      "12015328",
+      "11896058",
+      "10884388",
+      "10423251",
+      "9253412",
+      "8918936",
+      "8235610",
+      "6667333"
+    ],
+    "similar": [
+      "36302916",
+      "30345525",
+      "23722902",
+      "27356095",
+      "26331358",
+      "20541699",
+      "32100577",
+      "23667504",
+      "30410767",
+      "24559439",
+      "31502857",
+      "30125354",
+      "27042852",
+      "28323036",
+      "36587421",
+      "37139712",
+      "29110617",
+      "25518352",
+      "26712685",
+      "23989930",
+      "27330057",
+      "23939374",
+      "32734688",
+      "33391515",
+      "21285252",
+      "25818596",
+      "29225078",
+      "31805186",
+      "29147733",
+      "35390118",
+      "34843005",
+      "32139878",
+      "32206096",
+      "27179779",
+      "36656639",
+      "28753843",
+      "33332287",
+      "30135193",
+      "35786895",
+      "26389532",
+      "23959841",
+      "26954621",
+      "30165195",
+      "30828788",
+      "26706121",
+      "33672769",
+      "27187604",
+      "25131864",
+      "31108007",
+      "25107669",
+      "30128923",
+      "34672379",
+      "27557496",
+      "27212126",
+      "31445027",
+      "35058329",
+      "24659630",
+      "34310904",
+      "30925341",
+      "36674785",
+      "39359255",
+      "28413979",
+      "31868960",
+      "24874833",
+      "34928193",
+      "28463227",
+      "27198552",
+      "29950727",
+      "29635810",
+      "36893587",
+      "23517595",
+      "25251387",
+      "27117751",
+      "36642262",
+      "29764864",
+      "23859952",
+      "30209993",
+      "25086042",
+      "32565538",
+      "32989230",
+      "35905763",
+      "36198102",
+      "32094488"
+    ],
+    "review": [
+      "36302916",
+      "26331358",
+      "32100577",
+      "30125354",
+      "27042852",
+      "36587421",
+      "29110617",
+      "21285252",
+      "25818596",
+      "29147733",
+      "35390118",
+      "32139878",
+      "28753843",
+      "35786895",
+      "26389532",
+      "23959841",
+      "26954621",
+      "26706121",
+      "33672769",
+      "25107669",
+      "30128923",
+      "27212126",
+      "31445027",
+      "39359255",
+      "28413979",
+      "34928193",
+      "23517595",
+      "25251387",
+      "23859952"
+    ],
+    "pmc": [
+      "9613762"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-022-34077-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36302916/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36302916",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37354971",
+  "title": "N-terminal intrinsic disorder is an ancestral feature of Ggamma subunits that influences the balance between different Gbetagamma signaling axes in yeast.",
+  "authors": "Su, Xinya; Pang, Yui Tik; Li, Wei; Gumbart, J C; Kelley, Joshua; Torres, Matthew",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2023-06-25",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究酵母Ggamma亚基N端无序区域通过无序-有序转变调控Gbetagamma多信号轴平衡，结合分子动力学模拟与点突变实验揭示IDR功能，但未涉及AI方法且互作机制聚焦于信号转导而非直接PPI界面建模。",
+  "abstract": "Activated G protein-coupled receptors promote the dissociation of heterotrimeric G proteins into Galpha and Gbetagamma subunits that bind to effector proteins to drive intracellular signaling responses. In yeast, Gbetagamma subunits coordinate the simultaneous activation of multiple signaling axes in response to mating pheromones, including MAP kinase (MAPK)-dependent transcription, cell polarization, and cell cycle arrest responses. The Ggamma subunit in this complex contains an N-terminal intrinsically disordered region that governs Gbetagamma-dependent signal transduction in yeast and mammals. Here, we demonstrate that N-terminal intrinsic disorder is likely an ancestral feature that has been conserved across different Ggamma subtypes and organisms. To understand the functional contribution of structural disorder in this region, we introduced precise point mutations that produce a stepwise disorder-to-order transition in the N-terminal tail of the canonical yeast Ggamma subunit, Ste18. Mutant tail structures were confirmed using circular dichroism and molecular dynamics and then substituted for the wildtype gene in yeast. We find that increasing the number of helix-stabilizing mutations, but not isometric mutation controls, has a negative and proteasome-independent effect on Ste18 protein levels as well as a differential effect on pheromone-induced levels of active MAPK/Fus3, but not MAPK/Kss1. When expressed at wildtype levels, we further show that mutants with an alpha-helical N terminus exhibit a counterintuitive shift in Gbetagamma signaling that reduces active MAPK/Fus3 levels whilst increasing cell polarization and cell cycle arrest. These data reveal a role for Ggamma subunit intrinsically disordered regions in governing the balance between multiple Gbetagamma signaling axes.",
+  "abstract_zh": "激活的G蛋白偶联受体促进异源三聚体G蛋白解离为Galpha和Gbetagamma亚基，这些亚基与效应蛋白结合以驱动细胞内信号传导反应。在酵母中，Gbetagamma亚基协调响应交配信息素的多个信号轴的同步激活，包括MAP激酶（MAPK）依赖性转录、细胞极化和细胞周期停滞反应。该复合物中的Ggamma亚基含有一个N端内在无序区域，该区域调控酵母和哺乳动物中Gbetagamma依赖性信号转导。在此，我们证明N端内在无序性可能是一个祖先特征，在不同Ggamma亚型和生物体中得以保守。为了理解该区域结构无序性的功能贡献，我们引入了精确的点突变，这些突变在典型酵母Ggamma亚基Ste18的N端尾部产生逐步的无序到有序转变。突变尾部结构通过圆二色光谱和分子动力学 (molecular dynamics) 确认，然后替换酵母中的野生型基因。我们发现，增加螺旋稳定突变的数量（而非等距突变对照）对Ste18蛋白水平产生负面且不依赖蛋白酶体的影响，并对信息素诱导的活性MAPK/Fus3水平产生差异效应，但对MAPK/Kss1无此影响。当以野生型水平表达时，我们进一步表明，具有α螺旋N端的突变体在Gbetagamma信号传导中表现出反直觉的转变，降低了活性MAPK/Fus3水平，同时增加了细胞极化和细胞周期停滞。这些数据揭示了Ggamma亚基内在无序区域在调控多个Gbetagamma信号轴之间平衡中的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37354971/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37354971/",
+  "paper_page_path": "papers/pubmed/37354971/index.html"
+}

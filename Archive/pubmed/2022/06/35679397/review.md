@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and main text as provided)
+- **Assessment boundary** Scientific claims, evidence quality, methodological soundness, and presentation as presented in the supplied material
+- **Shared manuscript claim summary** The authors present an integrative structural analysis of the human nuclear pore complex (NPC) using AI-based structure prediction combined with cryo-electron tomography and integrative modeling. They report a 70-MDa atomically resolved model covering over 90% of the NPC scaffold, including previously uncharacterized domains and interfaces, and use coarse-grained molecular dynamics simulations to propose a role for the scaffold in preventing constriction of the fusion pore.
+- **Visible evidence base** Text only; no figures, tables, supplementary materials, or methods section were provided
+- **Missing materials affecting confidence** Figures, tables, supplementary information, detailed methods, validation data, benchmarking results, simulation parameters, and statistical analyses are not available for assessment
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in structural biology, namely the atomic-resolution architecture of the human NPC. The use of AI-based structure prediction to expand structural coverage is innovative and relevant. However, the provided text alone is insufficient to evaluate the technical soundness of the claims. Key methodological details, validation results, and quantitative evidence are absent. The conclusions, while plausible, cannot be fully assessed from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists studying nuclear pore complexes and other large macromolecular assemblies, researchers in integrative modeling and cryo-electron tomography, and scientists interested in the application of AI-based structure prediction to complex biological systems. The work also has relevance for cell biologists studying nucleocytoplasmic transport and nuclear envelope dynamics.
+- **Major strengths** The study addresses a long-standing challenge in structural biology with a combination of state-of-the-art techniques. The reported increase in structural coverage of the NPC scaffold is substantial and potentially transformative. The explicit inclusion of intrinsically disordered linker NUPs and the analysis of membrane-associated NUPs across the fusion topology represent important advances. The use of molecular dynamics simulations to probe functional implications adds a dynamic dimension to the structural model.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that AI-based prediction generated structural models of human NUPs and subcomplexes with "unprecedented accuracy" based on benchmarking against x-ray and cryo-electron microscopy structures.
+  - **Evidence pointer** Results section, benchmarking statement; location not provided
+  - **Concern** The claim of unprecedented accuracy is not supported by any quantitative data in the provided text. No metrics such as root-mean-square deviation, template modeling score, or other standard measures are given. The benchmarking details, including the set of structures used for comparison and the criteria for accuracy, are absent.
+  - **Why it matters** The central premise of the study relies on the reliability of AI-based models. Without quantitative benchmarking, the reader cannot judge whether the models are sufficiently accurate for the downstream integrative modeling and biological conclusions.
+  - **Resolution test** Provide a detailed benchmarking table or figure showing quantitative comparisons against experimentally determined structures, including relevant error metrics and the number of test cases.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that they obtained well-resolved cryo-electron tomographic maps of both constricted and dilated conformational states of the human NPC and fitted structural models into these maps.
+  - **Evidence pointer** Results section, cryo-electron tomography statement; location not provided
+  - **Concern** No information is provided on the resolution of the tomographic maps, the number of particles or tomograms used, the image processing workflow, or the criteria for assessing the quality of the fits. The term "well-resolved" is subjective and cannot be evaluated without quantitative measures such as Fourier shell correlation curves or local resolution estimates.
+  - **Why it matters** The reliability of the integrative model depends critically on the quality of the experimental maps. Without resolution and quality metrics, the validity of the fitting and the resulting architectural model cannot be assessed.
+  - **Resolution test** Provide resolution estimates for the tomographic maps, details of the image processing pipeline, and validation of the model fitting, such as cross-correlation scores or other fit quality indicators.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that their architectural model increases the structural coverage of the human NPC scaffold by about twofold and covers over 90% of the scaffold.
+  - **Evidence pointer** Results and Conclusion sections; location not provided
+  - **Concern** The definition of "structural coverage" is not provided. It is unclear whether coverage refers to the number of residues modeled, the fraction of the scaffold mass, or another metric. The criteria for considering a region "covered" are not stated. Additionally, the comparison to previous models is not quantified.
+  - **Why it matters** The claim of increased coverage is a key outcome of the study. Without a clear definition and quantitative comparison, the significance of the advance cannot be properly evaluated.
+  - **Resolution test** Define the coverage metric explicitly and provide a quantitative comparison with previous models, ideally in a figure or table showing the regions newly covered.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that microsecond-long coarse-grained molecular dynamics simulations reveal that the NPC scaffold prevents constriction of the fusion pore to small diameters in the absence of membrane tension.
+  - **Evidence pointer** Results section, molecular dynamics statement; location not provided
+  - **Concern** No details are provided on the simulation setup, including the force field, system size, number of replicates, equilibration protocol, or analysis methods. The statistical significance of the observed behavior is not reported. The relationship between the simulation results and the biological context is not quantitatively established.
+  - **Why it matters** The simulation-based conclusion is a major functional claim. Without methodological details and statistical analysis, the robustness of this finding cannot be assessed.
+  - **Resolution test** Provide full simulation parameters, convergence criteria, replicate information, and quantitative analysis of pore diameter distributions over time, including error estimates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section, first paragraph; location not provided
+  - **Issue** The introduction assumes familiarity with NPC terminology and structural biology concepts. Terms such as "scaffold NUPs," "intrinsically disordered NUPs," and "conformational breathing" are introduced without sufficient context for a general scientific audience.
+  - **Required correction** Provide brief definitions or explanatory phrases for key terms to make the manuscript accessible to a broader readership.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Results section
+  - **Evidence pointer** Results section, statement on linker NUPs; location not provided
+  - **Issue** The statement that linker NUPs were "explicitly included" and their "trajectory traced" is vague. It is unclear what specific evidence supports this claim and how the trajectories were determined.
+  - **Required correction** Clarify the methodology used to model linker NUPs and provide specific evidence, such as density maps or cross-linking data, that supports the traced trajectories.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Validation section
+  - **Evidence pointer** Results section, validation statement; location not provided
+  - **Issue** The statement that the model was "extensively validated against both earlier and new experimental data" lacks specificity. The types of validation data and the outcomes are not described.
+  - **Required correction** List the specific experimental datasets used for validation and summarize the results, including any discrepancies and how they were resolved.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative benchmarking, map resolution, coverage definition, and simulation details prevents the verification of the central claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The application of AI-based structure prediction to a complex of this size is novel and represents a methodological advance. The integration of multiple techniques is not entirely new, but the scale and scope of the model are original.  
+  - Scientific importance: The human NPC is a fundamental cellular structure, and an atomic-resolution model has been a long-standing goal. The potential to understand NPC dynamics and function at this level is of high importance.  
+  - Interdisciplinary readership: The work bridges structural biology, computational biology, and cell biology. The findings are likely to interest researchers across these fields, though the presentation may need to be more accessible.  
+  - Technical soundness: Cannot be fully assessed from the provided text. The lack of methodological detail and quantitative validation is a significant limitation.  
+  - Readability for nonspecialists: The text is dense and assumes significant background knowledge. Improvements in terminology explanation would enhance accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible and potentially significant, but the absence of quantitative data and methodological details prevents a definitive assessment. The manuscript could become supportive if the technical concerns are resolved with the full data and methods.
+
+## Risk / unsupported claims
+- The claim of "unprecedented accuracy" of AI-based models is unsupported without quantitative benchmarking data.
+- The claim of "well-resolved" cryo-electron tomographic maps is unsupported without resolution metrics.
+- The claim of "about twofold" increase in structural coverage and "over 90%" coverage is unsupported without a defined coverage metric and quantitative comparison.
+- The simulation-based conclusion that the scaffold prevents constriction is unsupported without simulation details and statistical analysis.
+- The statement that the model "captures conformational changes" is not substantiated with specific evidence in the provided text.

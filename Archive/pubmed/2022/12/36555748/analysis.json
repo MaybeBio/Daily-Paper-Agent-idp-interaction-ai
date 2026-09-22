@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36555748",
+  "title": "In Silico Study of the Interactions of Anle138b Isomer, an Inhibitor of Amyloid Aggregation, with Partner Proteins.",
+  "authors": "Kondratyev, Maxim S; Rudnev, Vladimir R; Nikolsky, Kirill S; Petrovsky, Denis V; Kulikova, Liudmila I; Malsagova, Kristina A; Stepanov, Alexander A; Kopylov, Arthur T; Kaysheva, Anna L",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2022-12-24",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究用级联柔性分子对接模拟α-突触核蛋白(IDP)与亲环蛋白A伴侣蛋白及Anle138b异构体配体的三元复合物形成，聚焦无序蛋白介导的PPI机制，但方法为经典对接、无AI/增强采样，机制深度有限。",
+  "abstract": "Herein, we aimed to highlight current \"gaps\" in the understanding of the potential interactions between the Anle138b isomer ligand, a promising agent for clinical research, and the intrinsically disordered alpha-synuclein protein. The presence of extensive unstructured areas in alpha-synuclein determines its existence in the cell of partner proteins, including the cyclophilin A chaperone, which prevents the aggregation of alpha-synuclein molecules that are destructive to cell life. Using flexible and cascaded molecular docking techniques, we aimed to expand our understanding of the molecular architecture of the protein complex between alpha-synuclein, cyclophilin A and the Anle138b isomer ligand. We demonstrated the possibility of intricate complex formation under cellular conditions and revealed that the main interactions that stabilize the complex are hydrophobic and involve hydrogen.",
+  "abstract_zh": "在此，我们旨在强调目前对Anle138b异构体配体（一种具有临床研究前景的药物）与 intrinsically disordered alpha-synuclein 蛋白之间潜在相互作用理解中的“空白”。alpha-synuclein 中广泛存在的无序区域决定了其在细胞中与伙伴蛋白（包括 cyclophilin A 分子伴侣）共存，后者可防止对细胞生命具有破坏性的 alpha-synuclein 分子聚集。通过使用灵活且级联的分子对接技术，我们旨在扩展对 alpha-synuclein、cyclophilin A 和 Anle138b 异构体配体之间蛋白复合物分子结构的理解。我们证明了在细胞条件下形成复杂复合物的可能性，并揭示稳定该复合物的主要相互作用涉及疏水作用及氢键。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36555748/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36555748/",
+  "paper_page_path": "papers/pubmed/36555748/index.html"
+}

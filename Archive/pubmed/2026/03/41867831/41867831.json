@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "41867831",
+    "doi": "10.64898/2026.03.04.709570",
+    "title": "A molecular grammar for programmable multiphase protein-RNA vesicles."
+  },
+  "content": {
+    "abstract": "Protein-RNA phase separation gives rise to biomolecular condensates with rich internal organization, yet the molecular rules that connect sequence-encoded interactions and composition to the emergent architecture of these condensates remain poorly defined. Here, using large-scale residue-level coarse-grained simulations, we identify a molecular grammar that governs the formation and stability of multiphase protein-RNA condensates. We show that asymmetries in protein-protein and protein-RNA interactions, together with protein stoichiometry, chain length, and condensate density, collectively determine whether condensates adopt homogeneous, layered, biphasic, or vesicle-like morphologies. Across a broad parameter space, these rules yield hollow multiphase vesicles with dense shells surrounding dilute interiors. Remarkably, vesicular condensates form spontaneously from well-mixed initial conditions, without requiring flux-driven oversaturation or extreme charge imbalance, distinguishing this mechanism from previously proposed routes to condensate hollowing. Our results establish minimal and general design principles for programming internal condensate architecture solely through sequence and composition, and provide a framework for engineering membrane-free vesicles and multilayered condensates with tunable permeability, encapsulation, and responsiveness.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramachandran, V",
+        "Potoyan, D A"
+      ],
+      "short_names": [
+        "Ramachandran V",
+        "Potoyan DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5860-1699"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Iowa State University, Ames, IA 50011.",
+        "Department of Chemistry, Iowa State University, Ames, IA 50011.",
+        "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University.",
+        "Bioinformatics and Computational Biology Program, Iowa State University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramachandran, V",
+        "short_name": "Ramachandran V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011."
+        ]
+      },
+      {
+        "full_name": "Potoyan, D A",
+        "short_name": "Potoyan DA",
+        "identifiers": [
+          "0000-0002-5860-1699"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011.",
+          "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University.",
+          "Bioinformatics and Computational Biology Program, Iowa State University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Mar 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/23 06:31",
+    "fetched_at": "2026-09-18 01:57:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40474273",
+      "40403066",
+      "39937954",
+      "39866835",
+      "39551864",
+      "39432826",
+      "38885177",
+      "38580324",
+      "38363841",
+      "38331392",
+      "37973891",
+      "37759770",
+      "37735903",
+      "37645312",
+      "37470705",
+      "37408305",
+      "36875159",
+      "36839691",
+      "36469950",
+      "36424481",
+      "35516774",
+      "34947284",
+      "34129784",
+      "34103467",
+      "33264400",
+      "32824618",
+      "31626750",
+      "30877200",
+      "29544249",
+      "29364893",
+      "27602576",
+      "27289443",
+      "21500218",
+      "19229944",
+      "18083189",
+      "16220905",
+      "15070345"
+    ],
+    "similar": [
+      "41867831",
+      "42358691",
+      "35727989",
+      "33558506",
+      "42517612",
+      "42146575",
+      "40985078",
+      "40954121",
+      "33672806",
+      "40661423",
+      "42143038",
+      "36883003",
+      "37470705",
+      "38383656",
+      "40196628",
+      "40661408",
+      "36993212",
+      "41256623",
+      "42475469",
+      "39356108",
+      "41670285",
+      "41637578",
+      "40848932",
+      "39937084",
+      "40766493",
+      "41573846",
+      "41452986",
+      "40172489",
+      "32571937",
+      "41169547",
+      "39578406",
+      "36819870",
+      "38987300",
+      "39386700",
+      "42055532",
+      "41868013",
+      "41279444",
+      "37668016",
+      "36191226",
+      "35108264",
+      "39636939",
+      "38429263",
+      "41659460",
+      "40667293",
+      "34762868",
+      "39071308",
+      "38260590",
+      "40972943",
+      "23912807",
+      "39005320",
+      "40985614",
+      "42260147",
+      "37408305",
+      "30926670",
+      "35364105",
+      "42506692",
+      "37194953",
+      "33376791",
+      "42081454",
+      "42056202",
+      "41118627",
+      "42126444",
+      "37217523",
+      "40009520",
+      "33864415",
+      "34785657",
+      "37205474",
+      "41726936",
+      "38181073",
+      "36318920",
+      "35378855",
+      "37105967",
+      "40136009",
+      "41587927",
+      "42182309",
+      "41415414",
+      "41272271",
+      "41596484",
+      "35293386",
+      "41865079",
+      "41804277",
+      "41575805",
+      "37131735",
+      "41993480",
+      "40782375",
+      "37684240",
+      "38308651",
+      "40203038",
+      "32302570",
+      "39541973",
+      "39975191",
+      "39824169",
+      "39319382",
+      "37252985",
+      "40098319",
+      "38824391",
+      "39605385",
+      "39568948",
+      "38637545",
+      "37705794"
+    ],
+    "review": [
+      "41867831",
+      "40172489",
+      "41587927",
+      "41596484",
+      "41575805"
+    ],
+    "pmc": [
+      "13001306"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41867831/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.03.04.709570",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

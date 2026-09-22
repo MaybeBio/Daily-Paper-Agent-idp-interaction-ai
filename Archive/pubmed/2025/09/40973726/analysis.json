@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40973726",
+  "title": "Transient ligand contacts of the intrinsically disordered N-terminus of neuropeptide Y(2) receptor regulate arrestin-3 recruitment.",
+  "authors": "Kaiser, Anette; Rojas Echeverri, Juan C; Baischew, Asat; Pankonin, Maik; Leitner, Karl D; Iacobucci, Claudio; Sala, Davide; Ihling, Christian; Muller, Ronny; Ferenc, Rok; Beck-Sickinger, Annette G; Schmidt, Peter; Meiler, Jens; Hildebrand, Peter W; Sinz, Andrea",
+  "journal": "Nature communications",
+  "published_date": "2025-09-20",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合交联质谱与分子动力学模拟，研究神经肽Y2受体无序N端与配体的瞬时接触如何调控arrestin-3招募，直接聚焦IDR介导的互作机制建模，与本课题高度契合。",
+  "abstract": "Previous efforts in delineating molecular mechanisms of G protein-coupled receptor (GPCR) activation have focused on transmembrane regions and ligand-receptor contacts of the extracellular loops. The role of the highly flexible N-termini of rhodopsin-like GPCRs have not been well characterized to date. We hypothesize that transient contacts between the peptide ligand and the intrinsically disordered N-terminus (NT) of the neuropeptide Y (NPY) receptor Y(2) (Y(2)R) will affect receptor signaling. We employ cross-linking mass spectrometry to capture ligand-receptor contacts including transient binding modes. A photo-reactive NPY analogue allows mapping the interaction between NPY and Y(2)R NT resulting in a total number of 40 cross-links. The cross-links provide distance constraints for deriving structural models of the interaction. Molecular dynamics simulations highlight the structural flexibility and rapid interconversion of ligand-receptor contacts. Mutagenesis of Y(2)R and functional characterization suggest that the cross-linking hotspots in the NT electrostatically control its conformational ensemble. The NT engages in transient contacts to the peptide and prolongs ligand residence time, which is required for efficient interaction of Y(2)R with arrestin-3, but not G(i.) We delineate structure-function relationships for the intrinsically disordered Y(2)R NT and propose a functional role for transient binding modes involving the NT of a peptide-binding receptor.",
+  "abstract_zh": "先前在描绘G蛋白偶联受体（GPCR）激活分子机制的努力中，主要集中在跨膜区域和胞外环的配体-受体接触上。高度柔性的视紫红质样GPCR的N端作用至今尚未得到充分表征。我们假设，肽配体与神经肽Y（NPY）受体Y(2)（Y(2)R）的内在无序N端（NT）之间的瞬时接触会影响受体信号传导。我们采用交联质谱法捕获配体-受体接触，包括瞬时结合模式。一种光反应性NPY类似物能够映射NPY与Y(2)R NT之间的相互作用，共产生40个交联位点。这些交联为推导相互作用的构象模型提供了距离约束。分子动力学模拟突显了配体-受体接触的结构灵活性和快速互变。对Y(2)R的突变和功能表征表明，NT中的交联热点通过静电作用控制其构象集合。NT与肽发生瞬时接触并延长配体停留时间，这是Y(2)R与arrestin-3有效相互作用所必需的，但对G(i)则非必需。我们描绘了内在无序Y(2)R NT的结构-功能关系，并提出了涉及肽结合受体NT的瞬时结合模式的功能作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40973726/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40973726/",
+  "paper_page_path": "papers/pubmed/40973726/index.html"
+}

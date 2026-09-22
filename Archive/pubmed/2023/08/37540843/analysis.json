@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37540843",
+  "title": "The stability of NPM1 oligomers regulated by acidic disordered regions controls the quality of liquid droplets.",
+  "authors": "Okuwaki, Mitsuru; Ozawa, Shin-Ichiro; Ebine, Shuhei; Juichi, Motoki; Umeki, Tadanobu; Niioka, Kazuki; Kikuchi, Taiyo; Tanaka, Nobutada",
+  "journal": "Journal of biochemistry",
+  "published_date": "2023-08-04",
+  "window": {
+    "start": "2023-07-31",
+    "end": "2023-08-06"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究NPM1无序区域通过调控寡聚体稳定性影响液滴质量，结合生化与相分离实验揭示IDR电荷/磷酸化对LLPS的机制，虽无AI/物理模拟但对象与互作机制高度契合。",
+  "abstract": "The nucleolus is a membrane-less nuclear body that typically forms through the process of liquid-liquid phase separation (LLPS) involving its components. NPM1 drives LLPS within the nucleolus and its oligomer formation and inter-oligomer interactions play a cooperative role in inducing LLPS. However, the molecular mechanism underlaying the regulation of liquid droplet quality formed by NPM1 remains poorly understood. In this study, we demonstrate that the N-terminal and central acidic residues within the intrinsically disordered regions (IDR) of NPM1 contribute to attenuating oligomer stability, although differences in the oligomer stability were observed only under stringent conditions. Furthermore, the impact of the IDRs is augmented by an increase in net negative charges resulting from phosphorylation within the IDRs. Significantly, we observed an increase in fluidity of liquid droplets formed by NPM1 with decreased oligomer stability. These results indicate that the difference in oligomer stability only observed biochemically under stringent conditions has a significant impact on liquid droplet quality formed by NPM1. Our findings provide new mechanistic insights into the regulation of nucleolar dynamics during the cell cycle.",
+  "abstract_zh": "核仁是一种无膜细胞核体，通常通过其组分参与的液-液相分离（LLPS）过程形成。NPM1驱动核仁内的LLPS，其寡聚体形成及寡聚体间相互作用在诱导LLPS中发挥协同作用。然而，NPM1形成的液滴质量调控的分子机制仍知之甚少。在本研究中，我们证明NPM1内在无序区（IDR）内的N端和中心酸性残基有助于减弱寡聚体稳定性，尽管寡聚体稳定性的差异仅在严格条件下观察到。此外，IDR内磷酸化导致的净负电荷增加增强了IDR的影响。显著地，我们观察到寡聚体稳定性降低的NPM1形成的液滴流动性增加。这些结果表明，仅在严格条件下生化观察到的寡聚体稳定性差异对NPM1形成的液滴质量有显著影响。我们的发现为细胞周期中核仁动态调控提供了新的机制见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37540843/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37540843/",
+  "paper_page_path": "papers/pubmed/37540843/index.html"
+}

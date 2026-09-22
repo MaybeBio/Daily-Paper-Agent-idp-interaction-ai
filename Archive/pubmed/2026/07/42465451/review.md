@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, conclusions, and methods sections. Figures and supplementary materials referenced but not provided.
+- **Assessment boundary** Scientific validity of claims based on the described simulations and analyses. No assessment of experimental verification, as none is claimed. No assessment of figures or supplementary data, as these were not provided.
+- **Shared manuscript claim summary** The authors use Martini 3.0 coarse-grained molecular dynamics simulations to show that RGG protein condensates tethered to opposing leaflets of a POPC bilayer exhibit stable coupled diffusion. They report that increasing protein-protein interaction strength (α = 1.00) leads to decoupling, which is rescued by applying membrane tension. They find reduced lipid entropy and diffusion in condensate-covered regions, but no effect on the opposing leaflet. They report increased lipid tail interdigitation beneath condensates and propose this as the primary mechanism for transbilayer coupling.
+- **Visible evidence base** Text descriptions of simulation results, including quantitative values for centroid distances, overlap percentages, alignment distributions, entropy values, diffusion coefficients, interdigitation fractions, and membrane thickness changes. References to Figures 1–6 and Supplementary Figures 1–4, none of which were provided.
+- **Missing materials affecting confidence** All figures, supplementary figures, simulation parameter files, and trajectory data. The absence of figures prevents independent verification of the described trends, spatial distributions, and statistical analyses. The methods section lacks sufficient detail on system preparation, equilibration protocols, and analysis parameters to fully reproduce the work.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and interesting question regarding the physical mechanism of transbilayer coupling of protein condensates. The simulation approach is appropriate, and the authors systematically test a previously proposed entropic mechanism and find it unsupported. The identification of increased lipid interdigitation as a candidate mechanism is plausible and potentially significant. However, the evidence presented in the text alone is insufficient to fully evaluate the strength of the claims. Key quantitative results are described but not shown, and the statistical treatment appears incomplete. The manuscript would benefit from clearer presentation of the free energy landscape, more rigorous error analysis, and direct comparison between conditions. The central claim that interdigitation is the primary mechanism is not fully established from the provided material, as the correlation between interdigitation and coupling is not demonstrated causally.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation on membranes, biophysicists interested in membrane-mediated interactions, and cell biologists investigating signaling platforms and membrane-associated condensates. The work provides a mechanistic hypothesis for how condensates on opposite membrane leaflets communicate, which is relevant to understanding processes such as T-cell signaling and endocytosis.
+- **Major strengths** The study addresses a poorly understood phenomenon with a well-chosen simulation model. The authors test a previously proposed mechanism (entropic coupling) and find it lacking, which is a valuable negative result. The systematic variation of protein-protein interaction strength and membrane tension provides a clear perturbation strategy. The identification of interdigitation as a potential mediator is novel and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that "increased lipid interdigitation mediates interleaflet communication and serves as the primary mechanism driving transbilayer coupling of condensates in this system."
+  - **Evidence pointer** Results section "RGG condensates induce lipid tail interdigitation in the protein-covered region", Figure 6, Supplementary Figure 4
+  - **Concern** The central claim of the manuscript is that interdigitation is the primary mechanism for coupling. However, the evidence presented is correlational. The authors show that interdigitation is increased in covered regions and that coupling is observed, but they do not demonstrate that interdigitation is necessary or sufficient for coupling. The rescue experiment with tension restores coupling while suppressing curvature, but the interdigitation levels under tension are not reported in the text. Without a direct manipulation of interdigitation independent of other variables, or a quantitative correlation between interdigitation magnitude and coupling strength across conditions, the causal claim is not established.
+  - **Why it matters** The title and conclusions assert a mechanistic role for interdigitation. If the evidence is only correlational, the claim is overstated and could mislead subsequent research. A more cautious interpretation, such as "interdigitation is associated with coupling and may contribute to it," would be more appropriate given the data described.
+  - **Resolution test** Provide a quantitative comparison of interdigitation levels across all conditions (α = 0.98, α = 1.00, α = 1.00 with tension, single-sided). Show that interdigitation correlates with coupling status across conditions. Alternatively, perform a simulation where interdigitation is suppressed by lipid modification and show that coupling is lost. If neither is possible, revise the claim to reflect correlation rather than causation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim** The authors report a free energy minimum at a centroid-to-centroid distance of 3.1 nm and a barrier of approximately 1 kcal/mol for separation beyond 6 nm.
+  - **Evidence pointer** Results section "Coupling of condensates is a local energetic minimum", Figure 2
+  - **Concern** The free energy calculation is based on the probability distribution of centroid distances pooled from three repeat simulations. However, one of the three repeats (repeat 3) decoupled after 10 μs. Pooling a decoupled trajectory with coupled trajectories will bias the probability distribution and the resulting free energy surface. The authors do not state whether the free energy was calculated from all three repeats or only the coupled ones. If all three were used, the barrier height and minimum location may be artifacts of mixing different dynamical regimes.
+  - **Why it matters** The free energy surface is used to argue that coupling is a locally stable state. If the calculation is biased by including a decoupled trajectory, the quantitative values (3.1 nm minimum, 1 kcal/mol barrier) are not reliable, and the conclusion of local stability is weakened.
+  - **Resolution test** State explicitly which trajectories were used for the free energy calculation. Recalculate the free energy excluding repeat 3 and show that the minimum and barrier are unchanged. If they change, discuss the implications for the interpretation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim** The authors report that covered lipids have a 30% reduction in diffusion coefficient relative to protein-free lipids, and that interdigitation is increased by 34% in covered regions.
+  - **Evidence pointer** Results sections "Entropy was reduced for lipids in direct contact with the proteins" and "RGG condensates induce lipid tail interdigitation", Figures 5 and 6
+  - **Concern** The text reports mean values and states that differences are statistically significant, but no error bars, confidence intervals, or statistical test results are provided in the text. The methods state that "error bars show std dev" but the number of independent samples, the nature of the statistical test, and the degrees of freedom are not reported. Given that the differences described are small (e.g., 14 J/mol*K out of ~10,000 J/mol*K total entropy), it is critical to know whether the reported significance is robust.
+  - **Why it matters** The manuscript makes quantitative claims about small effects. Without proper statistical reporting, readers cannot assess whether these effects are real or within sampling noise. This is particularly important for the entropy comparison, where the authors themselves note that a statistically significant difference of less than 1 J/mol*K is "not substantial."
+  - **Resolution test** Report the number of independent samples, the statistical test used, and the resulting p-values or confidence intervals for each comparison. For the entropy and diffusion comparisons, provide effect sizes and discuss whether the magnitude is biologically or physically meaningful.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness
+  - **Claim** The authors state that "increasing the protein-protein interaction strength leads to decoupling, driven by competing membrane curvatures induced by each condensate."
+  - **Evidence pointer** Results section "The degree of condensate coupling is dependent on the strength of protein-protein interactions", Figures 3 and 4
+  - **Concern** The text describes curvature maps for α = 1.00 and states that opposing curvatures inhibit coupling. However, the curvature analysis is only described for the α = 1.00 condition. No curvature data are shown for α = 0.98 or for the tension-rescued condition. Without these comparisons, the claim that curvature is the driving factor for decoupling is not fully supported. The rescue experiment with tension is consistent with the curvature hypothesis, but the authors do not show that curvature is actually reduced under tension.
+  - **Why it matters** The mechanism proposed for decoupling is competing curvature. If curvature is not measured in the conditions where coupling is restored, alternative explanations (e.g., changes in membrane area, lipid packing) cannot be excluded.
+  - **Resolution test** Provide curvature maps and quantitative curvature values for α = 0.98, α = 1.00, and α = 1.00 with tension. Show that curvature is elevated in the decoupled condition and reduced under tension. If this is not possible, soften the claim to state that curvature is a plausible contributor rather than the demonstrated cause.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation 2
+  - **Evidence pointer** Results section "Condensates in the simulation demonstrate coupled diffusion through the bilayer"
+  - **Issue** Equation 2 as written appears to have a typographical error. The denominator reads "vupper‖vlower" which is not a valid mathematical expression. It should likely be the product of the magnitudes, such as |vupper||vlower|.
+  - **Required correction** Correct the equation to show the proper normalization, for example cosθ = (vupper · vlower) / (|vupper| |vlower|).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Calculation of quasi-harmonic lipid entropy"
+  - **Evidence pointer** Methods section
+  - **Issue** The methods state that entropy was calculated over a 0.25 μs window, but the production simulations are 10–20 μs. It is unclear how many independent windows were sampled, whether windows were overlapping, and how the reported values were averaged across time.
+  - **Required correction** Clarify the sampling scheme, including the number of windows, whether they were independent, and how the reported mean and standard deviation were computed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section "Tethering"
+  - **Evidence pointer** Methods section
+  - **Issue** The tethering method uses a constant force between the terminal residues and the nearest lipid headgroup. The force constant is not reported. This is important because the tether strength could influence the degree of protein insertion and the resulting membrane curvature.
+  - **Required correction** Report the force constant used for the tether and justify the choice.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Entropy was reduced for lipids in direct contact with the proteins"
+  - **Evidence pointer** Results section, Figure 5
+  - **Issue** The text states that the entropy difference between covered and protein-free lipids is 14 J/mol*K, which is described as "modest." Later, the authors state that a difference of less than 1 J/mol*K in internal entropy is "not substantial." The criteria for "modest" versus "not substantial" are not defined.
+  - **Required correction** Define the threshold for meaningful differences, or avoid qualitative labels and present only the quantitative values with appropriate statistical context.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Scaling"
+  - **Evidence pointer** Methods section
+  - **Issue** The scaling factor α is applied to protein-protein interactions, but the text does not specify which interaction types are scaled. The Lennard-Jones potential includes both repulsive and attractive terms. It is unclear whether both are scaled equally or whether only the attractive term is modified.
+  - **Required correction** Specify whether the scaling applies to the full Lennard-Jones potential or only to specific terms, and describe how this was implemented in the simulation code.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "RGG condensates induce lipid tail interdigitation in the protein-covered region"
+  - **Evidence pointer** Results section, Figure 6
+  - **Issue** The text reports that the membrane is thinner by about 1 Å in covered regions. It is unclear whether this thinning is uniform or localized, and whether it is statistically significant given the resolution of the coarse-grained model.
+  - **Required correction** Provide the statistical significance for the thickness difference and discuss whether a 1 Å difference is meaningful at the coarse-grained resolution.
+
+## Risk / unsupported claims
+- The claim that interdigitation is the "primary mechanism" for transbilayer coupling is not established from the provided evidence. The data show correlation, not causation.
+- The claim that decoupling at α = 1.00 is "driven by competing membrane curvatures" is not fully supported, as curvature data are not shown for the coupled or tension-rescued conditions.
+- The free energy minimum at 3.1 nm and barrier of 1 kcal/mol may be biased by pooling a decoupled trajectory with coupled trajectories. This is not addressed in the text.
+- The statement that "lipid entropy was not the primary driving mechanism" is supported by the data, but the statistical power to detect small differences is unclear given the incomplete reporting of sample sizes and tests.
+- The relevance of the findings to cellular contexts is speculative. The authors note that their condensates are 10 nm in diameter, orders of magnitude smaller than experimentally observed condensates, and the implications for micron-scale systems are not demonstrated.

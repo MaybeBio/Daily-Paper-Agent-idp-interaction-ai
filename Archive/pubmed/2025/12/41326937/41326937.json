@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "41326937",
+    "doi": "10.1007/s10930-025-10310-8",
+    "title": "Advantages and Limitations of AlphaFold in Structural Biology: Insights from Recent Studies."
+  },
+  "content": {
+    "abstract": "Over the past three years, AlphaFold-a deep learning-based protein structure prediction system-has transformed structural biology by providing near-experimental accuracy models directly from amino acid sequences. This narrative review synthesizes applications reported in the 2022-2025 literature across human, microbial, and viral systems, drawing on peer-reviewed studies as our data source. Representative examples include modeling of SARS-CoV-2 spike and nucleocapsid proteins in virology, assisting cryo-EM interpretation of bacterial ribosomal and membrane-protein complexes in microbiology, and refining conformational hypotheses for human GPCRs in biomedicine. Across these cases, AlphaFold predictions have complemented experimental workflows by accelerating hypothesis generation, improving model fitting within ambiguous density regions (poorly resolved areas of cryo-EM maps), and guiding mutagenesis strategies to probe dynamic conformational states. We also summarize recent method extensions: AlphaFold-Multimer improves multi-chain complex assembly prediction, while molecular dynamics (MD) simulations augment AlphaFold's static models by sampling conformational flexibility and testing stability. Despite these advances, important limitations remain-particularly for intrinsically disordered regions, protein-ligand and protein-cofactor interactions, and very large or transient assemblies-and current community benchmarks indicate that approximately one-third of residues may lack atomistic precision, underscoring uncertainty in flexible or modified segments. Framed within a clear chronological window and evidence base, our analysis highlights both the practical impact and the remaining challenges of integrating AlphaFold with experiment, outlining priorities where further methodological innovation and orthogonal validation are needed.",
+    "keywords": [
+      "AlphaFold/AlphaFold2",
+      "Cryo-Electron microscopy (cryo-EM)",
+      "Cryo-Electron tomography (cryo-ET)",
+      "Integrative structural biology",
+      "Model validation",
+      "Protein-protein interactions",
+      "Subtomogram averaging"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "SARS-CoV-2/chemistry",
+      "Protein Conformation",
+      "Protein Folding",
+      "Deep Learning",
+      "Cryoelectron Microscopy",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Mandarina Qing Cheng",
+        "Wang, Sihan",
+        "Lin, Shi-Ruei",
+        "Ting, Li Eric Ngok",
+        "Wan, Zhi-Hong",
+        "Xie, Guodong",
+        "Zhang, Jane"
+      ],
+      "short_names": [
+        "Li MQC",
+        "Wang S",
+        "Lin SR",
+        "Ting LEN",
+        "Wan ZH",
+        "Xie G",
+        "Zhang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Nanomega CryoAI Corporation, Los Angeles, CA, USA.",
+        "Nanomega CryoAI Corporation, Los Angeles, CA, USA.",
+        "Nanomega CryoAI Corporation, Los Angeles, CA, USA.",
+        "Nanomega CryoAI Corporation, Los Angeles, CA, USA.",
+        "Nanomega CryoAI Corporation, Los Angeles, CA, USA.",
+        "Department of Biochemistry and Molecular Biology, The University of Chicago, Chicago, IL, USA. guodongxie@uchicago.edu.",
+        "Nanomega CryoAI Corporation, Los Angeles, CA, USA. cryoai.nanomega@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Mandarina Qing Cheng",
+        "short_name": "Li MQC",
+        "identifiers": [],
+        "affiliations": [
+          "Nanomega CryoAI Corporation, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Sihan",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "Nanomega CryoAI Corporation, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Shi-Ruei",
+        "short_name": "Lin SR",
+        "identifiers": [],
+        "affiliations": [
+          "Nanomega CryoAI Corporation, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ting, Li Eric Ngok",
+        "short_name": "Ting LEN",
+        "identifiers": [],
+        "affiliations": [
+          "Nanomega CryoAI Corporation, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wan, Zhi-Hong",
+        "short_name": "Wan ZH",
+        "identifiers": [],
+        "affiliations": [
+          "Nanomega CryoAI Corporation, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Xie, Guodong",
+        "short_name": "Xie G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, The University of Chicago, Chicago, IL, USA. guodongxie@uchicago.edu."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jane",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Nanomega CryoAI Corporation, Los Angeles, CA, USA. cryoai.nanomega@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The protein journal"
+    ],
+    "journal_abbrev": [
+      "Protein J"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/02 01:00",
+    "fetched_at": "2026-09-17 22:37:00"
+  },
+  "links": {
+    "cites": [
+      "42589211",
+      "42505598",
+      "42470695",
+      "42417427",
+      "42376644",
+      "42210696",
+      "42151413",
+      "42121524",
+      "42027778"
+    ],
+    "refs": [
+      "40119201",
+      "40097852",
+      "39729993",
+      "39668257",
+      "39379372",
+      "39339924",
+      "39333186",
+      "39240968",
+      "39180277",
+      "39147729",
+      "38823379",
+      "38749445",
+      "38669330",
+      "38386705",
+      "38316878",
+      "38267655",
+      "38171004",
+      "37633970",
+      "37289075",
+      "37098345",
+      "37081317",
+      "36918529",
+      "34265844",
+      "27572732",
+      "27313000",
+      "27238019",
+      "26000851",
+      "25910204",
+      "21919528"
+    ],
+    "similar": [
+      "41326937",
+      "42475469",
+      "37982712",
+      "23912807",
+      "41209584",
+      "40387957",
+      "36773336",
+      "40460619",
+      "35831370",
+      "42027778",
+      "41636272",
+      "40663654",
+      "38869513",
+      "35679404",
+      "41509633",
+      "38268190",
+      "40661027",
+      "20932910",
+      "35679401",
+      "41922571",
+      "40131945",
+      "42504637",
+      "37451233",
+      "40788932",
+      "42463252",
+      "30299652",
+      "40121710",
+      "40973394",
+      "35679397",
+      "42035258",
+      "42463260",
+      "39952928",
+      "30917528",
+      "28949136",
+      "32202798",
+      "42196370",
+      "39394203",
+      "39738945",
+      "27115634",
+      "42584949",
+      "36671518",
+      "35152277",
+      "39944881",
+      "41644540",
+      "41099770",
+      "40645653",
+      "38956032",
+      "37528650",
+      "35212361",
+      "34418423",
+      "39985947",
+      "41801768",
+      "38124369",
+      "40152222",
+      "40673918",
+      "34592048",
+      "22019767",
+      "40772760",
+      "41314215",
+      "32771523",
+      "32006284",
+      "42425235",
+      "21830782",
+      "39927816",
+      "26068751",
+      "20109465",
+      "40719420",
+      "38496243",
+      "40179097",
+      "31461845",
+      "40658102",
+      "39446390",
+      "34864296",
+      "42140310",
+      "35769913",
+      "38177398",
+      "35216093",
+      "36266465",
+      "39349594",
+      "38430110",
+      "41507421",
+      "35132244",
+      "27444391",
+      "41878008",
+      "21296162",
+      "40703102",
+      "29132296",
+      "41757224",
+      "41756897",
+      "28963369",
+      "36682003",
+      "38696745",
+      "39273672",
+      "42427316",
+      "41411077",
+      "41147497",
+      "40441412",
+      "40332289",
+      "39824781",
+      "41204761"
+    ],
+    "review": [
+      "41326937",
+      "41209584",
+      "40387957",
+      "36773336",
+      "42027778",
+      "40663654",
+      "38268190",
+      "42504637",
+      "37451233",
+      "40121710",
+      "40973394",
+      "42463260",
+      "32202798",
+      "39738945",
+      "39944881",
+      "41099770",
+      "35212361",
+      "34418423",
+      "39985947",
+      "41801768",
+      "38124369",
+      "34592048",
+      "42425235",
+      "21830782",
+      "39927816",
+      "40179097",
+      "31461845",
+      "38177398",
+      "41507421",
+      "41878008",
+      "41757224",
+      "28963369",
+      "39273672",
+      "40441412",
+      "40332289"
+    ],
+    "pmc": [
+      "12956938"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41326937/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s10930-025-10310-8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.04.552011",
+  "title": "Protein interaction network analysis of mTOR signaling reveals modular organization",
+  "authors": "Devin T. Wehle; Carter S. Bass; Josef Sulc; Ghayda Mirzaa; Stephen E.P. Smith",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-04",
+  "window": {
+    "start": "2023-07-31",
+    "end": "2023-08-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过定量免疫共沉淀分析mTOR信号通路的蛋白互作网络模块化组织，但对象非无序蛋白/相分离，方法为实验网络分析而非AI或物理模拟，仅网络模块化思路对互作机制建模有间接启发。",
+  "abstract": "The mammalian target of rapamycin (mTOR) is a serine-threonine kinase that acts as a central mediator of translation, and plays important roles in cell growth, synaptic plasticity, cancer, and a wide range of developmental disorders. The signaling cascade linking lipid kinases (PI3Ks), protein kinases (AKT) and translation initiation complexes (EIFs) to mTOR has been extensively modeled, but does not fully describe mTOR system behavior. Here, we use quantitative multiplex co-immunoprecipitation to monitor a protein interaction network (PIN) composed of 300+ binary interactions among mTOR-related proteins. Using a simple model system of serum deprived or fresh-media-fed mouse 3T3 fibroblasts, we observed extensive PIN remodeling involving 27+ individual protein interactions after one hour, despite phosphorylation changes observed after only five minutes. Using small molecule inhibitors of PI3K, AKT, mTOR, MEK and ERK, we define subsets of the PIN, termed ‘modules’, that respond differently to each inhibitor. Using primary fibroblasts from individuals with overgrowth disorders caused by pathogenic PIK3CA or MTOR variants, we find that hyperactivation of mTOR pathway components is reflected in a hyperactive PIN. Our data define a “modular” organization of the mTOR PIN in which coordinated groups of interactions respond to activation or inhibition of distinct nodes, and demonstrate that kinase inhibitors affect the modular network architecture in a complex manner, inconsistent with simple linear models of signal transduction.",
+  "abstract_zh": "哺乳动物雷帕霉素靶蛋白（mTOR）是一种丝氨酸-苏氨酸激酶，作为翻译过程的核心介导因子，在细胞生长、突触可塑性、癌症及多种发育障碍中发挥重要作用。将脂质激酶（PI3Ks）、蛋白激酶（AKT）和翻译起始复合物（EIFs）与mTOR连接起来的信号级联已被广泛建模，但并未完全描述mTOR系统的行为。在此，我们使用定量多重共免疫沉淀技术监测一个由mTOR相关蛋白间300余种二元相互作用组成的蛋白相互作用网络（PIN）。利用血清剥夺或新鲜培养基喂养的小鼠3T3成纤维细胞这一简单模型系统，我们观察到在仅五分钟内出现磷酸化变化后，一小时内涉及27种以上单个蛋白相互作用的广泛PIN重塑。通过使用PI3K、AKT、mTOR、MEK和ERK的小分子抑制剂，我们定义了PIN的子集，称为“模块”，这些模块对每种抑制剂的响应各不相同。利用来自因致病性PIK3CA或MTOR变异导致过度生长障碍个体的原代成纤维细胞，我们发现mTOR通路组分的过度激活反映在过度活跃的PIN中。我们的数据定义了mTOR PIN的“模块化”组织，其中协调的相互作用组响应于不同节点的激活或抑制，并证明激酶抑制剂以复杂方式影响模块化网络架构，这与信号转导的简单线性模型不一致。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.04.552011",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.04.552011",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.04.552011/index.html"
+}

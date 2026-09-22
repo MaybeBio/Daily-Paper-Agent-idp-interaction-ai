@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.03.560775",
+  "title": "Interpreting Molecular Dynamics Forces as Deep Learning Gradients Improves Quality Of Predicted Protein Structures",
+  "authors": "Jonathan Edward King; David Ryan Koes",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-05",
+  "window": {
+    "start": "2023-10-02",
+    "end": "2023-10-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出将分子动力学力场作为深度学习梯度（OpenMM-Loss）来微调OpenFold，提升预测蛋白结构的物理质量和能量合理性，虽对象非IDP/PPI，但其AI与物理模拟融合的机制建模思路对无序蛋白互作预测有可迁移启发。",
+  "abstract": "Protein structure predictions from deep learning models like AlphaFold2, despite their remarkable accuracy, are likely insufficient for direct use in downstream tasks like molecular docking. The functionality of such models could be improved with a combination of increased accuracy and physical intuition. We propose a new method to train deep learning protein structure prediction models using molecular dynamics force fields to work toward these goals. Our custom PyTorch loss function, OpenMM-Loss, represents the potential energy of a predicted structure. OpenMM-Loss can be applied to any all-atom representation of protein structure capable of mapping into our software package, SidechainNet. We demonstrate our method’s efficacy by finetuning OpenFold. We show that subsequently predicted protein structures, both before and after a relaxation procedure, exhibit comparable accuracy while displaying lower potential energy and improved structural quality as assessed by MolProbity metrics. SIGNIFICANCE We propose a novel framework to directly incorporate forces from molecular dynamics as gradients for training deep learning models like AlphaFold2. We implement our method as a PyTorch loss function, OpenMM-Loss, which frames the potential energy of predicted protein structures as a minimization objective. When applied to OpenFold, our method demonstrates improved structural quality, lower potential energy, and comparable accuracy relative to the OpenFold baseline. Our framework may enhance the ability of deep learning models to recapitulate fundamental biophysical principles, reducing the number of structural irregularities in their predictions and paving the way for more effective downstream applications.",
+  "abstract_zh": "来自深度学习模型（如AlphaFold2）的蛋白质结构预测，尽管其准确性显著，但可能不足以直接用于分子对接等下游任务。此类模型的功能可通过提高准确性与增强物理直觉相结合来改进。我们提出了一种新方法，利用分子动力学力场训练深度学习蛋白质结构预测模型，以实现这些目标。我们自定义的PyTorch损失函数OpenMM-Loss，表示预测结构的势能。OpenMM-Loss可应用于任何能够映射到我们软件包SidechainNet的全原子蛋白质结构表示。我们通过微调OpenFold来证明我们方法的有效性。我们表明，随后预测的蛋白质结构，无论是在松弛过程之前还是之后，均展现出相当的准确性，同时具有更低的势能和改善的结构质量（依据MolProbity指标评估）。意义 我们提出了一种新颖框架，直接将分子动力学中的力作为梯度纳入深度学习模型（如AlphaFold2）的训练中。我们将该方法实现为PyTorch损失函数OpenMM-Loss，将预测蛋白质结构的势能作为最小化目标。当应用于OpenFold时，我们的方法相对于OpenFold基线，展示了改善的结构质量、更低的势能以及相当的准确性。我们的框架可能增强深度学习模型重现基本生物物理原理的能力，减少其预测中的结构不规则性，并为更有效的下游应用铺平道路。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.03.560775",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.03.560775",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.03.560775/index.html"
+}

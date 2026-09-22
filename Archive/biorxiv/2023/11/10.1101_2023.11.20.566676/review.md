@@ -1,0 +1,102 @@
+## Review setup
+
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and acknowledgements. Figures and supplementary materials are referenced but not provided.
+- **Assessment boundary** Scientific validity, technical soundness, clarity of claims, and adequacy of evidence as presented in the supplied text. No assessment of code availability or reproducibility beyond what is stated.
+- **Shared manuscript claim summary** The authors propose LightRoseTTA, an ultra-lightweight deep graph network with 1.4M parameters, claiming competitive or superior protein structure prediction accuracy compared to RoseTTAFold on CASP14, CAMEO, and MSA-insufficient datasets (Orphan, De novo, Orphan25), with substantially lower training cost (one week on a single NVIDIA RTX 3090 GPU vs 30 days on 8 V100 GPUs). They also claim effective transfer to antibody structure prediction and introduce a backbone potential energy (BPE) constraint to enable a shallow architecture.
+- **Visible evidence base** Text descriptions of results, including numerical values for TM-score and GDT-TS on CASP14 and CAMEO, RMSD H3 values for antibody benchmarks, and ablation study results. Figures are referenced but not visible.
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, and supplementary methods are not provided. This limits verification of architectural details, statistical significance, and visual comparisons.
+
+## Reviewer
+
+- **Overall assessment** The manuscript presents a potentially valuable contribution to protein structure prediction by demonstrating that a much smaller model can achieve competitive accuracy, which is practically important for resource-limited settings. The core idea of using a BPE constraint to regularize a shallow network is interesting and could be a meaningful advance. However, the evidence as presented is insufficient to fully establish the claims. Key limitations include the absence of figures and supplementary materials, lack of statistical significance testing, unclear evaluation protocols, and incomplete comparisons with state-of-the-art methods. The claims of "high-accuracy" and "competitive" performance rest on small numerical margins that may not be meaningful without error bars or multiple runs. The manuscript would benefit from clearer reporting of experimental setups and more rigorous statistical analysis.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on protein structure prediction would be the primary audience. The work is also relevant to researchers in structural biology who need accessible tools for structure prediction without access to large-scale computing resources. The demonstration of a lightweight model with competitive performance could influence future model design in the field.
+- **Major strengths** 1. The problem addressed is important and timely, with clear practical implications for democratizing protein structure prediction. 2. The proposed BPE constraint is a novel idea that could enable more efficient model architectures. 3. The focus on MSA-insufficient scenarios addresses a real limitation of existing methods. 4. The reported training efficiency (one week on a single GPU) is a significant practical advantage. 5. The transfer to antibody prediction broadens the applicability of the method.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence quality  
+  - **Claim pointer** "LightRoseTTA achieves competitive prediction performances on both CASP14 and CAMEO datasets" with specific TM-score and GDT-TS values.  
+  - **Evidence pointer** Section 2, Figure 2a-b (figures not provided)  
+  - **Concern** The reported performance differences are very small (e.g., TM-score 0.755 vs 0.751 on CASP14, 0.772 vs 0.77 on CAMEO). No error bars, confidence intervals, or statistical tests are reported. It is unclear whether these differences are significant or within run-to-run variability. Additionally, the evaluation protocol is not described in sufficient detail (e.g., number of test proteins, whether results are averaged over multiple runs, how templates and MSAs were generated for each method).  
+  - **Why it matters** Without statistical rigor, the claim of "competitive" performance cannot be distinguished from noise. The practical value of the method depends on whether the accuracy is reliably comparable to RoseTTAFold, not just on a single point estimate.  
+  - **Resolution test** Provide error bars or confidence intervals for all reported metrics, specify the number of independent runs, and describe the evaluation protocol in detail. If possible, report per-target results and perform paired statistical tests (e.g., Wilcoxon signed-rank test) between methods.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "The BPE constraint effectively regularizes the parameter optimization space, and enables a pretty shallow model to predict accurate backbone structures."  
+  - **Evidence pointer** Section 2, Figure 5 (ablation study, figure not provided)  
+  - **Concern** The ablation study is described only in text with a range of TM-score improvements (0.012-0.023) when BPE is applied first. The specific components, their interactions, and the baseline configuration are not fully described. It is unclear whether the BPE constraint is the primary driver of performance or whether other components (e.g., the hybrid CNN, graph transformer) contribute more. The claim that BPE "enables" a shallow model is not directly tested by comparing shallow vs deep architectures with and without BPE.  
+  - **Why it matters** The BPE is presented as a key innovation, but the evidence for its necessity and sufficiency is incomplete. Without a clear demonstration that BPE specifically enables the shallow architecture to achieve high accuracy, the central technical contribution is not established.  
+  - **Resolution test** Provide a more detailed ablation study that isolates the effect of BPE, including comparisons of shallow vs deep architectures with and without BPE. Report the full set of ablation configurations and their results, ideally in a table.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence quality  
+  - **Claim pointer** "Our LightRoseTTA outperforms all these comparison methods, i.e., RoseTTAFold, trRosettaX-single and RGN2, on both Orphan and De novo datasets" and "achieves the best prediction performance on Orphan25 while gets lower performance only than RoseTTAFold on Design55."  
+  - **Evidence pointer** Section 2, Figure 3a-d (figures not provided)  
+  - **Concern** The results on MSA-insufficient datasets are central to the claim of low MSA dependency. However, the text does not specify the number of proteins in each dataset, the distribution of results, or whether the improvements are consistent across targets. The footnote indicates that homologous sequences were searched for all methods, but the exact MSA depths and how they vary across datasets are not reported. The comparison with RoseTTAFold on these datasets is particularly important, but the margin of improvement is not quantified in the text.  
+  - **Why it matters** The claim of robustness to MSA insufficiency is a key differentiator of the method. Without detailed results, it is not possible to assess whether the method genuinely handles low-MSA scenarios better or whether the results are driven by a few outliers.  
+  - **Resolution test** Report the number of targets in each dataset, the distribution of TM-scores and GDT-TS values (e.g., box plots or per-target scatter plots), and the average MSA depth for each method. Provide statistical tests comparing LightRoseTTA to each baseline.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** "We release our code and model to speed biological research."  
+  - **Evidence pointer** Abstract, Section 1 (no explicit code availability statement in methods)  
+  - **Concern** The manuscript states that code and model are released, but no repository link, version, or usage instructions are provided in the text. The methods section does not include a "Data and code availability" subsection. This makes it difficult for readers to access and verify the implementation.  
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. Without clear access to code and trained models, the claims cannot be independently verified, and the practical impact is diminished.  
+  - **Resolution test** Add a clear data and code availability statement with a working repository link, including instructions for installation, training, and inference.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract and Introduction  
+  - **Evidence pointer** Abstract, Section 1  
+  - **Issue** The abstract states "high-efficient" and "high-accuracy" without defining thresholds or comparison baselines. The introduction mentions "critical issues" but does not clearly state how LightRoseTTA addresses them beyond listing advantages.  
+  - **Required correction** Define "high-efficient" and "high-accuracy" in quantitative terms (e.g., relative to RoseTTAFold) and explicitly state the specific limitations of prior work that LightRoseTTA overcomes.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical clarity  
+  - **Affected element** Section 4, Methods  
+  - **Evidence pointer** Section 4, "The model training"  
+  - **Issue** The loss function description is incomplete. The text lists "five-part losses" but only names some components (BPE, RMSD, pLDDT, inter-residue distances/orientations). The exact formulation of each loss term, weighting scheme, and how they are combined is not provided.  
+  - **Required correction** Provide the full loss function equations, including all terms and their weights, either in the main text or supplementary.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Section 4, "Input feature generation"  
+  - **Evidence pointer** Section 4  
+  - **Issue** The description of MSA and template generation is brief. It is unclear how the MSA depth was determined for training and testing, and whether the same protocol was used for all compared methods.  
+  - **Required correction** Specify the exact parameters for MSA generation (e.g., number of sequences, E-value thresholds) and template search, and state whether these were identical for all methods.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Presentation  
+  - **Affected element** Section 2, Results  
+  - **Evidence pointer** Section 2, "Approach Summary"  
+  - **Issue** The description of the two-branch network and fusion mechanism is dense and may be difficult for non-specialists to follow. The variational learning process for fusion is mentioned but not explained in sufficient detail.  
+  - **Required correction** Provide a clearer, step-by-step explanation of the fusion mechanism, possibly with a simplified diagram or pseudocode.  
+  - **Concern ID** R1-m5  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Section 3, Discussion  
+  - **Evidence pointer** Section 3  
+  - **Issue** The discussion of biological function implications is deferred to supplementary material, which is not provided. This weakens the claim that the predictions "facilitate the understanding of biological functions."  
+  - **Required correction** Include at least a brief summary of the functional insights in the main text, or clearly state that this is a direction for future work.  
+- **Assessment against Nature-style criteria**  
+  - **Originality** The idea of using a physical constraint (BPE) to enable a lightweight model is novel and could be of interest. However, the overall architecture borrows heavily from RoseTTAFold, and the novelty is incremental rather than transformative.  
+  - **Scientific importance** The problem of reducing computational cost for protein structure prediction is important and has broad implications. If the claims are substantiated, the work could enable wider adoption of accurate prediction tools. However, the importance is somewhat diminished by the small performance margins and lack of rigorous validation.  
+  - **Interdisciplinary readership** The topic is relevant to both computational and experimental biologists. The writing is generally accessible, but the methods section is dense and may require specialized knowledge. The practical implications for resource-limited labs are clearly articulated.  
+  - **Technical soundness** The proposed architecture and training strategy are plausible, but the evidence is incomplete. The lack of statistical analysis, detailed ablation, and full methodological descriptions prevents a full assessment of technical soundness.  
+  - **Readability for nonspecialists** The abstract and introduction are clear, but the results and methods sections assume familiarity with protein structure prediction and deep learning. The discussion of biological implications is deferred, reducing accessibility for a broader audience.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the practical implications are significant, but the current evidence does not fully establish the claims. The authors should provide complete figures, statistical analysis, detailed methods, and a clear code availability statement before the work can be considered for publication in a high-impact venue.
+
+## Risk / unsupported claims
+
+- The claim of "competitive" performance on CASP14 and CAMEO is unsupported without statistical significance testing or error bars.
+- The claim that BPE "enables" a shallow architecture is not directly tested; the ablation study is incomplete.
+- The claim of "best performance" on Orphan25 and "lower performance only than RoseTTAFold" on Design55 is not quantified in the text.
+- The claim of "high-efficient" training is based on a single comparison (one week on one GPU vs 30 days on 8 GPUs) without details on hardware differences, optimization, or convergence criteria.
+- The claim of transferability to antibodies is based on a single metric (RMSD H3) without comparison to other antibody-specific methods or discussion of limitations.
+- The claim that predictions "facilitate the understanding of biological functions" is deferred to supplementary material and cannot be assessed.

@@ -1,0 +1,246 @@
+{
+  "identity": {
+    "pmid": "41932022",
+    "doi": "10.1016/j.foodchem.2026.149026",
+    "title": "Egg white protein-polyphenol-pullulan complexes: Structural characterization and application in high freeze-thaw stability high internal phase emulsions."
+  },
+  "content": {
+    "abstract": "High internal phase emulsions (HIPEs) are highly susceptible to structural deterioration during freeze-thaw cycles. In this study, egg white protein (EWP)-polyphenol-pullulan ternary complexes were constructed using proanthocyanidins (PC), gallic acid (GA), and tannic acid (TA) to enhance the freeze-thaw stability of HIPEs. SDS-PAGE and molecular docking analyses demonstrated synergistic covalent and noncovalent interactions between polyphenols and EWP. Formation of ternary complexes significantly reduced particle size (33.30-63.60%), increased surface charge density, and improved colloidal stability. A transition from spherical to lamellar microstructures and enhanced hydrophilicity were observed. HIPEs stabilized by the ternary complexes exhibited outstanding freeze-thaw stability (93.78-97.47%), while retaining high viscosity and well-developed rheological networks after cycling. Interfacial characterization revealed dense and rigid interfacial films, leading to smaller and more uniform droplets without phase separation. DSC analysis further confirmed superior freeze resistance through reduced crystallization temperatures. These results provide an effective strategy for designing freeze-stable HIPE systems.",
+    "keywords": [
+      "Combination",
+      "Egg white protein",
+      "Freeze-thaw stability",
+      "High internal phase emulsions",
+      "Ternary complexes"
+    ],
+    "mesh_terms": [
+      "Emulsions/chemistry",
+      "Freezing",
+      "*Egg Proteins/chemistry",
+      "*Polyphenols/chemistry",
+      "Particle Size",
+      "Viscosity",
+      "Chickens"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bi, Jiahui",
+        "Liu, Lan",
+        "Gao, Xin",
+        "Yang, Fuming",
+        "Chi, Yujie",
+        "Chi, Yuan"
+      ],
+      "short_names": [
+        "Bi J",
+        "Liu L",
+        "Gao X",
+        "Yang F",
+        "Chi Y",
+        "Chi Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Food Science, Northeast Agricultural University, Harbin 150030, China.",
+        "College of Food Science, Northeast Agricultural University, Harbin 150030, China.",
+        "College of Food Science, Northeast Agricultural University, Harbin 150030, China.",
+        "College of Food Science, Northeast Agricultural University, Harbin 150030, China.",
+        "College of Food Science, Northeast Agricultural University, Harbin 150030, China. Electronic address: yjchi323@126.com.",
+        "College of Engineering, Northeast Agricultural University, Harbin 150030, China. Electronic address: cy207@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bi, Jiahui",
+        "short_name": "Bi J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food Science, Northeast Agricultural University, Harbin 150030, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Lan",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food Science, Northeast Agricultural University, Harbin 150030, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Xin",
+        "short_name": "Gao X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food Science, Northeast Agricultural University, Harbin 150030, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Fuming",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food Science, Northeast Agricultural University, Harbin 150030, China."
+        ]
+      },
+      {
+        "full_name": "Chi, Yujie",
+        "short_name": "Chi Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food Science, Northeast Agricultural University, Harbin 150030, China. Electronic address: yjchi323@126.com."
+        ]
+      },
+      {
+        "full_name": "Chi, Yuan",
+        "short_name": "Chi Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Engineering, Northeast Agricultural University, Harbin 150030, China. Electronic address: cy207@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Food chemistry"
+    ],
+    "journal_abbrev": [
+      "Food Chem"
+    ],
+    "pub_date": "2026 Jun 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/04 00:35",
+    "fetched_at": "2026-09-18 02:10:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41932022",
+      "41147296",
+      "40037040",
+      "39566798",
+      "35651068",
+      "39011982",
+      "40645057",
+      "38163687",
+      "42269437",
+      "39059330",
+      "39067727",
+      "41365179",
+      "41610483",
+      "36746301",
+      "42030669",
+      "34731810",
+      "41763751",
+      "40675286",
+      "40373925",
+      "30016098",
+      "41517145",
+      "41197577",
+      "37985113",
+      "42197214",
+      "41214936",
+      "41917745",
+      "41606911",
+      "39662540",
+      "42169281",
+      "42270246",
+      "42215101",
+      "41539805",
+      "39709922",
+      "40840370",
+      "37392629",
+      "38467227",
+      "38281516",
+      "38245983",
+      "39147514",
+      "42186099",
+      "35133823",
+      "28776625",
+      "28528111",
+      "38507329",
+      "37639890",
+      "40209389",
+      "39383669",
+      "42215096",
+      "41895969",
+      "37918613",
+      "38338486",
+      "37011570",
+      "37423104",
+      "36958186",
+      "37780284",
+      "40318339",
+      "38000596",
+      "40885097",
+      "31511465",
+      "41412633",
+      "40712245",
+      "30760674",
+      "34302360",
+      "37977455",
+      "39832589",
+      "28745770",
+      "38401308",
+      "41679868",
+      "38129023",
+      "42269899",
+      "38992541",
+      "39272513",
+      "40675075",
+      "41004994",
+      "36099829",
+      "41895965",
+      "40318714",
+      "39637661",
+      "37300816",
+      "41606870",
+      "41831985",
+      "39837440",
+      "40022311",
+      "41406739",
+      "37716139",
+      "42196109",
+      "31284976",
+      "36076385",
+      "41571117",
+      "38490385",
+      "32846587",
+      "39721435",
+      "35267345",
+      "40698563",
+      "39849774",
+      "39299418",
+      "41267266",
+      "42214960",
+      "35042113",
+      "40790721"
+    ],
+    "review": [
+      "41932022"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0308-8146(26)01184-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

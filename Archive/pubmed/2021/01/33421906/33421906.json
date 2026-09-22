@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "33421906",
+    "doi": "10.1016/j.sbi.2020.12.001",
+    "title": "Artificial intelligence techniques for integrative structural biology of intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "We outline recent developments in artificial intelligence (AI) and machine learning (ML) techniques for integrative structural biology of intrinsically disordered proteins (IDP) ensembles. IDPs challenge the traditional protein structure-function paradigm by adapting their conformations in response to specific binding partners leading them to mediate diverse, and often complex cellular functions such as biological signaling, self-organization and compartmentalization. Obtaining mechanistic insights into their function can therefore be challenging for traditional structural determination techniques. Often, scientists have to rely on piecemeal evidence drawn from diverse experimental techniques to characterize their functional mechanisms. Multiscale simulations can help bridge critical knowledge gaps about IDP structure-function relationships-however, these techniques also face challenges in resolving emergent phenomena within IDP conformational ensembles. We posit that scalable statistical inference techniques can effectively integrate information gleaned from multiple experimental techniques as well as from simulations, thus providing access to atomistic details of these emergent phenomena.",
+    "keywords": [],
+    "mesh_terms": [
+      "Artificial Intelligence",
+      "Biology",
+      "Biophysical Phenomena",
+      "*Intrinsically Disordered Proteins",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramanathan, Arvind",
+        "Ma, Heng",
+        "Parvatikar, Akash",
+        "Chennubhotla, S Chakra"
+      ],
+      "short_names": [
+        "Ramanathan A",
+        "Ma H",
+        "Parvatikar A",
+        "Chennubhotla SC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Data Science & Learning Division, Argonne National Laboratory, Lemont, IL 60439, United States; Consortium for Advanced Science and Engineering (CASE), University of Chicago, Hyde Park, IL, United States. Electronic address: ramanathana@anl.gov.",
+        "Data Science & Learning Division, Argonne National Laboratory, Lemont, IL 60439, United States.",
+        "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15260, United States.",
+        "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15260, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramanathan, Arvind",
+        "short_name": "Ramanathan A",
+        "identifiers": [],
+        "affiliations": [
+          "Data Science & Learning Division, Argonne National Laboratory, Lemont, IL 60439, United States; Consortium for Advanced Science and Engineering (CASE), University of Chicago, Hyde Park, IL, United States. Electronic address: ramanathana@anl.gov."
+        ]
+      },
+      {
+        "full_name": "Ma, Heng",
+        "short_name": "Ma H",
+        "identifiers": [],
+        "affiliations": [
+          "Data Science & Learning Division, Argonne National Laboratory, Lemont, IL 60439, United States."
+        ]
+      },
+      {
+        "full_name": "Parvatikar, Akash",
+        "short_name": "Parvatikar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15260, United States."
+        ]
+      },
+      {
+        "full_name": "Chennubhotla, S Chakra",
+        "short_name": "Chennubhotla SC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational and Systems Biology, University of Pittsburgh, Pittsburgh, PA 15260, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2021 Feb",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/01/10 06:00",
+    "fetched_at": "2026-09-20 00:35:30"
+  },
+  "links": {
+    "cites": [
+      "42184109",
+      "41928976",
+      "41824223",
+      "41647538",
+      "41157481",
+      "40727659",
+      "40322686",
+      "40034137",
+      "39984300",
+      "39576576",
+      "38987470",
+      "38978607",
+      "38707546",
+      "38505224",
+      "38478286",
+      "38409704",
+      "38085058",
+      "38073638",
+      "38067671",
+      "37241789",
+      "37144719",
+      "36380940",
+      "36030416",
+      "35976160",
+      "35725761",
+      "35170314",
+      "34791371",
+      "34755867",
+      "34680162"
+    ],
+    "refs": [],
+    "similar": [
+      "33421906",
+      "36671509",
+      "30840442",
+      "37108059",
+      "32579908",
+      "35725761",
+      "39093570",
+      "34680048",
+      "35119946",
+      "34656328",
+      "30979035",
+      "26387104",
+      "35129612",
+      "23794453",
+      "30813315",
+      "26387102",
+      "32696358",
+      "25863585",
+      "22579883",
+      "30909517",
+      "25631161",
+      "32502383",
+      "30708285",
+      "31809054",
+      "25897952",
+      "33355572",
+      "28076807",
+      "26387110",
+      "30865832",
+      "28226222",
+      "33945530",
+      "35976160",
+      "26574339",
+      "27844185",
+      "31375817",
+      "33310020",
+      "32859072",
+      "28259050",
+      "32097582",
+      "31241933",
+      "20580965",
+      "27004461",
+      "24606139",
+      "27794210",
+      "25502193",
+      "31021441",
+      "27936491",
+      "26387099",
+      "34844028",
+      "29306779",
+      "38124369",
+      "33337879",
+      "30527137",
+      "32525675",
+      "31552948",
+      "26195786",
+      "33382616",
+      "26052838",
+      "33087759",
+      "38505224",
+      "30204435",
+      "26301226",
+      "30230839",
+      "30372613",
+      "29539394",
+      "32357776",
+      "21766125",
+      "29655986",
+      "26618856",
+      "27198189",
+      "26387101",
+      "31756104",
+      "31794728",
+      "36352011",
+      "39094909",
+      "31548393",
+      "32239382",
+      "29990433",
+      "30471705",
+      "21867726",
+      "29982297",
+      "29573987",
+      "26922996",
+      "34252246",
+      "30316104",
+      "25496281",
+      "38713459",
+      "28537592",
+      "35059032",
+      "36250006",
+      "36183447",
+      "34506113",
+      "36979465",
+      "38979147",
+      "38978607",
+      "34106049",
+      "38744148",
+      "36380940",
+      "37242981",
+      "38101027",
+      "31952811",
+      "36550693",
+      "37182397",
+      "35443909",
+      "38808365",
+      "23361308",
+      "35902752",
+      "34168102",
+      "34316055",
+      "36109683",
+      "36644294",
+      "36357785",
+      "38274029",
+      "38459345"
+    ],
+    "review": [
+      "33421906",
+      "36671509",
+      "30840442",
+      "39093570",
+      "34680048",
+      "35119946",
+      "30979035",
+      "26387104",
+      "35129612",
+      "23794453",
+      "26387102",
+      "25863585",
+      "22579883",
+      "30909517",
+      "33355572",
+      "26387110",
+      "28226222",
+      "35976160",
+      "28259050",
+      "32097582",
+      "27004461",
+      "24606139",
+      "27794210",
+      "25502193",
+      "31021441",
+      "26387099",
+      "34844028",
+      "29306779",
+      "38124369",
+      "30527137",
+      "38505224",
+      "26301226",
+      "29655986",
+      "26387101",
+      "39094909",
+      "30471705",
+      "21867726",
+      "29982297",
+      "26922996",
+      "30316104",
+      "35059032",
+      "36250006",
+      "36183447",
+      "34506113",
+      "36979465",
+      "38744148",
+      "37242981",
+      "38101027"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959-440X(20)30219-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33421906",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.17.558183",
+  "title": "Reconciling ASPP-p53 Binding Mode Discrepancies through an Ensemble Binding Framework that Bridges Crystallography and NMR Data",
+  "authors": "Liu T; Huang S; Zhang Q; Xia Y; Zhang M; Sun B",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-19",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用多尺度MD与自由能计算构建ensemble结合框架，调和ASPP-p53互作模式在晶体与NMR间的差异，并揭示p53无序区域对ensemble结合的影响，直接契合无序蛋白介导PPI的机制建模主题。",
+  "abstract": "ASPP2 and iASPP bind to p53 through their conserved ANK-SH3 domains to respectively promote and inhibit p53-dependent cell apoptosis. While crystallography has indicated that these two proteins employ distinct surfaces of their ANK-SH3 domains to bind to p53, solution NMR data has suggested similar surfaces. In this study, we employed multi-scale molecular dynamics (MD) combined with free energy calculations to reconcile the discrepancy in the binding modes. We demonstrated that the binding mode based solely on a single crystal structure does not enable iASPP’s RT loop to engage with p53’s C-terminal linker—a verified interaction. Instead, an ensemble of simulated iASPP-p53 complexes facilitates this interaction. We showed that the ensemble-average inter-protein contacting residues and NMR-detected interfacial residues align well with ASPP proteins, and the ensemble-average binding free energies better match experimental Kd values compared to single crystallgarphy-determined binding mode. For iASPP, the sampled ensemble complexes can be grouped into two classes, resembling the binding modes determined by crystallography and solution NMR. We thus propose that crystal packing shifts the equilibrium of binding modes towards the crystallographydetermined one. Lastly, we show that the ensemble binding complexes are sensitive to p53’s intrinsically disordered regions (IDRs), attesting to experimental observations that these IDRs contribute to biological functions. Our results provide a dynamic and ensemble perspective for scrutinizing these important cancer-related protein-protein interactions (PPIs).",
+  "abstract_zh": "ASPP2和iASPP通过其保守的ANK-SH3结构域与p53结合，分别促进和抑制p53依赖的细胞凋亡。尽管晶体学研究表明这两种蛋白利用其ANK-SH3结构域的不同表面与p53结合，但溶液NMR数据却提示了相似的表面。在本研究中，我们采用多尺度分子动力学（molecular dynamics, MD）结合自由能计算来调和结合模式上的差异。我们证明，仅基于单一晶体结构的结合模式无法使iASPP的RT环与p53的C端连接区（一个已验证的相互作用）发生接触。相反，模拟的iASPP-p53复合物集合促进了这种相互作用。我们展示了集合平均的蛋白质间接触残基和NMR检测到的界面残基与ASPP蛋白良好吻合，并且与单一晶体结构确定的结合模式相比，集合平均的结合自由能更符合实验测得的Kd值。对于iASPP，采样的集合复合物可分为两类，分别类似于晶体学和溶液NMR确定的结合模式。因此，我们提出晶体堆积将结合模式的平衡向晶体学确定的模式偏移。最后，我们展示了集合结合复合物对p53的内在无序区域（intrinsically disordered regions, IDRs）敏感，这证实了实验观察到的这些IDRs对生物学功能的贡献。我们的结果为审视这些重要的癌症相关蛋白质-蛋白质相互作用（protein-protein interactions, PPIs）提供了动态和集合视角。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.17.558183",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.17.558183",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.17.558183/index.html"
+}

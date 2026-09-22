@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42350353",
+  "title": "PSFF-PTM: A Coarse-Grained Force-Field Parameter Patch for Modeling Post-Translational Modification Effects on Biomolecular Condensates.",
+  "authors": "Mu, Junxi; Lai, Luhua",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2026-06-26",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 9,
+  "one_liner_zh": "该文为IDP相分离中的PTM修饰开发了粗粒化力场补丁PSFF-PTM，通过全原子伞形采样计算PMF并整合到CALVADOS/Mpipi模型，用CGMD模拟揭示PTM调控IDP互作与相分离的分子语法，对象、互作、方法三者齐备且具机制建模深度。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are fundamental drivers of biomolecular condensate formation via phase separation (PS). It is well established that post-translational modifications (PTMs) of IDPs significantly modulate PS, serving as critical regulatory switches. However, a comprehensive molecular understanding of how specific PTMs alter residue-level interactions remains elusive. This gap is largely attributed to the limitation of current residue-level coarse-grained molecular dynamics (CGMD) force fields, which typically lack parametrized potentials for modified residues. In this study, we developed interaction parameters for five common PTM types: phosphorylated serine (pSer), threonine (pThr), and tyrosine (pTyr); acetylated lysine (AcLys); and asymmetric dimethylarginine (aDMA). Using all-atom umbrella sampling simulations, we computed residue-specific potentials of mean force (PMFs) between modified and canonical amino acid residues. These PMF-derived parameters were systematically integrated into the established slab-geometry coarse-grained models (CALVADOS and Mpipi) via an additive module termed as PSFF-PTM. We used PSFF-PTM to study several typical IDP-involving PS systems and found that PSFF-PTM is able to capture the effects of PTMs on IDP phase behavior while remaining fully compatible with existing PS simulation frameworks. Furthermore, PSFF-PTM enables the identification of new molecular grammars of IDP-driven phase separation modulated by PTMs beyond simple \"charge accumulation\" model to sequence and spatial distribution of both charge and aromatic residues.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 是生物分子凝聚体形成的基础驱动因素，通过相分离 (phase separation, PS) 机制实现。已充分确立，IDPs 的翻译后修饰 (post-translational modifications, PTMs) 显著调节 PS，充当关键调控开关。然而，关于特定 PTMs 如何改变残基水平相互作用的全面分子理解仍不明确。这一差距主要归因于当前残基水平粗粒化分子动力学 (coarse-grained molecular dynamics, CGMD) 力场的局限性，这些力场通常缺乏对修饰残基的参数化势能。在本研究中，我们为五种常见 PTM 类型开发了相互作用参数：磷酸化丝氨酸 (pSer)、苏氨酸 (pThr) 和酪氨酸 (pTyr)；乙酰化赖氨酸 (AcLys)；以及不对称二甲基精氨酸 (aDMA)。利用全原子伞形采样模拟，我们计算了修饰残基与规范氨基酸残基之间的残基特异性平均力势 (potentials of mean force, PMFs)。这些 PMF 衍生参数通过一个名为 PSFF-PTM 的附加模块系统集成到已建立的平板几何粗粒化模型 (CALVADOS 和 Mpipi) 中。我们使用 PSFF-PTM 研究了几个典型的涉及 IDP 的 PS 系统，发现 PSFF-PTM 能够捕捉 PTMs 对 IDP 相行为的影响，同时与现有 PS 模拟框架完全兼容。此外，PSFF-PTM 使得识别由 PTMs 调节的 IDP 驱动相分离的新分子语法成为可能，超越了简单的“电荷积累”模型，涉及电荷和芳香族残基的序列及空间分布。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42350353/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42350353/",
+  "paper_page_path": "papers/pubmed/42350353/index.html"
+}

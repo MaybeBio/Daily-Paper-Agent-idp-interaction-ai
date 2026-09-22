@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "34203110",
+    "doi": "10.3390/biom11060915",
+    "title": "Solvent Exposure and Ionic Condensation Drive Fuzzy Dimerization of Disordered Heterochromatin Protein Sequence."
+  },
+  "content": {
+    "abstract": "Proteins with low complexity, disordered sequences are receiving increasing attention due to their central roles in the biogenesis and regulation of membraneless organelles. In eukaryotic organisms, a substantial fraction of disordered proteins reside in the nucleus, thereby facilitating the formation of nuclear bodies, nucleolus, and chromatin compartmentalization. The heterochromatin family of proteins (HP1) is an important player in driving the formation of gene silenced mesoscopic heterochromatin B compartments and pericentric regions. Recent experiments have shown that the HP1a sequence of Drosophila melanogaster can undergo liquid-liquid phase separation under both in vitro and in vivo conditions, induced by changes of the monovalent salt concentration. While the phase separation of HP1a is thought to be the mechanism underlying chromatin compartmentalization, the molecular level mechanistic picture of salt-driven phase separation of HP1a has remained poorly understood. The disordered hinge region of HP1a is seen as the driver of salt-induced condensation because of its charge enriched sequence and post-translational modifications. Here, we set out to decipher the mechanisms of salt-induced condensation of HP1a through a systematic study of salt-dependent conformations of single chains and fuzzy dimers of disordered HP1a hinge sequences. Using multiple independent all-atom simulations with and without enhanced sampling, we carry out detailed characterization of conformational ensembles of disordered HP1a chains under different ionic conditions using various polymeric and structural measures. We show that the mobile ion release, enhancement of local transient secondary structural elements, and side-chain exposure to solvent are robust trends that accompany fuzzy dimer formation. Furthermore, we find that salt-induced changes in the ensemble of conformations of HP1a disordered hinge sequence fine-tune the inter-chain vs. self-chain interactions in ways that favor fuzzy dimer formation under low salt conditions in the agreement with condensation trends seen in experiments.",
+    "keywords": [
+      "heterochromatin",
+      "intrinsically disordered proteins",
+      "membraneless condensates"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Chromobox Protein Homolog 5",
+      "Chromosomal Proteins, Non-Histone/*chemistry",
+      "Drosophila Proteins/*chemistry",
+      "Drosophila melanogaster",
+      "*Protein Multimerization"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mueterthies, Jazelli",
+        "Potoyan, Davit A"
+      ],
+      "short_names": [
+        "Mueterthies J",
+        "Potoyan DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9309-1033"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Iowa State University, Ames, IA 50011, USA.",
+        "Department of Chemistry, Iowa State University, Ames, IA 50011, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mueterthies, Jazelli",
+        "short_name": "Mueterthies J",
+        "identifiers": [
+          "0000-0001-9309-1033"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011, USA."
+        ]
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2021 Jun 20",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/03 06:00",
+    "fetched_at": "2026-09-20 04:02:18"
+  },
+  "links": {
+    "cites": [
+      "40350613",
+      "37890781",
+      "37449795",
+      "37292615",
+      "36227470"
+    ],
+    "refs": [
+      "34653387",
+      "33854237",
+      "33660589",
+      "32545538",
+      "32101700",
+      "31623887",
+      "31618757",
+      "31614085",
+      "30659116",
+      "30478042",
+      "29628210",
+      "29235574",
+      "28985346",
+      "28636604",
+      "28636597",
+      "25905561",
+      "25563825",
+      "25563699",
+      "24825911",
+      "24555990",
+      "22988066",
+      "21517079",
+      "21211724",
+      "20408171",
+      "18664736",
+      "18329871",
+      "17614541",
+      "15071554",
+      "11882902",
+      "7667093"
+    ],
+    "similar": [
+      "34203110",
+      "32784937",
+      "23793104",
+      "21472955",
+      "24415761",
+      "24681131",
+      "28636597",
+      "12826664",
+      "19061644",
+      "29728561",
+      "24990964",
+      "23028361",
+      "29986897",
+      "23166515",
+      "26984058",
+      "34948223",
+      "19798443",
+      "11259603",
+      "22547675",
+      "27514026",
+      "30384843",
+      "37549295",
+      "25945750",
+      "24068954",
+      "23476027",
+      "20154359",
+      "17875665",
+      "33660589",
+      "30659116",
+      "30648969",
+      "11408576",
+      "24555990",
+      "35447032",
+      "32936641",
+      "27838630",
+      "15592864",
+      "21177972",
+      "33854237",
+      "32500264",
+      "20857302",
+      "27777628",
+      "9378752",
+      "36537242",
+      "19487560",
+      "16201764",
+      "25437195",
+      "12490149",
+      "7664737",
+      "35944496",
+      "31866201",
+      "36710442",
+      "18162556",
+      "8505380",
+      "28688038",
+      "32101700",
+      "33661100",
+      "21301224",
+      "16258543",
+      "28180289",
+      "30514760",
+      "11069770",
+      "25954320",
+      "21966530",
+      "29685391",
+      "32293240",
+      "22160707",
+      "23271984",
+      "17224041",
+      "19919324",
+      "21271610",
+      "18445687",
+      "31618757",
+      "18493059",
+      "34128099",
+      "30389853",
+      "37400983",
+      "38592759",
+      "31543422",
+      "34716273",
+      "22761891",
+      "23912807",
+      "34866135",
+      "23519136",
+      "23533627",
+      "36039761",
+      "15145825",
+      "30442760",
+      "31836699",
+      "18296440",
+      "38379078",
+      "19190990",
+      "26915820",
+      "38260590",
+      "34127447",
+      "39131319",
+      "37577555",
+      "35378855",
+      "39206127",
+      "31041391",
+      "39366918",
+      "39253398"
+    ],
+    "review": [
+      "34203110",
+      "32784937",
+      "24555990",
+      "12490149",
+      "36710442",
+      "21301224",
+      "17224041",
+      "19919324",
+      "21271610",
+      "34128099",
+      "34127447"
+    ],
+    "pmc": [
+      "8234964"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=34203110",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom11060915",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34203110/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34203110",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

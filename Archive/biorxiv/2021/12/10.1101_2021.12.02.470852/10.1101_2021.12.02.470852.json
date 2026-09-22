@@ -1,0 +1,163 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.12.02.470852",
+  "title": "Post-Translational Modifications Optimize the Ability of SARS-CoV-2 Spike for Effective Interaction with Host Cell Receptors",
+  "doi": "10.1101/2021.12.02.470852",
+  "abstract": "SARS-CoV2 spike glycoprotein is prime target for vaccines and for diagnostics and therapeutic antibodies against the virus. While anchored in the viral envelope, for effective virulance, the spike needs to maintain structural flexibility to recognize the host cell surface receptors and bind to them, a property that can heavily hinge upon the dynamics of the unresolved domains, most prominently the stalk. Construction of the complete, membrane-bound spike model and the description of its dynamics remain critical steps in understanding the inner working of this key element in viral infection. Using a hybrid approach, combining homology modeling, protein-protein docking and MD simulations, guided by biochemical and glycomics data, we have developed a full-length, membrane-bound, palmitoylated and fully-glycosylated spike structure in a native membrane. Multi-microsecond MD simulations of this model, the longest known trajectory of the full-spike, reveals conformational dynamics employed by the protein to explore the crowded surface of the host cell. In agreement with cryoEM, three flexiblele hinges in stalk allow for global conformational heterogeneity of spike in the fully-glycosyslated system mediated by glycan-glycan and glycan-lipid interactions. Dynamical range of spike is considerably reduced in its non-glycosylated form, confining the area explored by the spike on the host cell surface. Furthermore, palmitoylation of the membrane domain amplify the local curvature that may prime the fusion. We show that the identified hinge regions are highly conserved in SARS coronaviruses, highlighting their functional importance in enhancing viral infection, and thereby provide novel points for discovery of alternative therapeutics against the virus. <h4>Significance</h4> SARS-CoV2 Spike protein, which forms the basis for high pathogenicity and transmissibility of the virus, is also prime target for the development of both diagnostics and vaccines for the debilitating disease caused by the virus. We present a full model of spike methodically crafted and used to study its atomic-level dynamics by multiple- µ s simulations. The results shed new light on the impact of posttranslational modifications in the pathogenicity of the virus. We show how glycan-glycan and glycan-lipid interactions broaden the protein’s dynamical range, and thereby, its effective interaction with the surface receptors on the host cell. Palmitoylation of spike membrane domain, on the other hand, results in a unique deformation pattern that might prime the membrane for fusion.",
+  "authors": [
+    "Kapoor K",
+    "Chen T",
+    "Tajkhorshid E"
+  ],
+  "published_date": "2021-12-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.12.02.470852",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.12.02.470852.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR428513",
+    "raw_record": {
+      "id": "PPR428513",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR428513"
+        ]
+      },
+      "doi": "10.1101/2021.12.02.470852",
+      "title": "Post-Translational Modifications Optimize the Ability of SARS-CoV-2 Spike for Effective Interaction with Host Cell Receptors",
+      "authorString": "Kapoor K, Chen T, Tajkhorshid E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kapoor K",
+            "lastName": "Kapoor",
+            "firstName": "Karan",
+            "initials": "K"
+          },
+          {
+            "fullName": "Chen T",
+            "lastName": "Chen",
+            "firstName": "Tianle",
+            "initials": "T"
+          },
+          {
+            "fullName": "Tajkhorshid E",
+            "lastName": "Tajkhorshid",
+            "firstName": "Emad",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8434-1010"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8434-1010"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "SARS-CoV2 spike glycoprotein is prime target for vaccines and for diagnostics and therapeutic antibodies against the virus. While anchored in the viral envelope, for effective virulance, the spike needs to maintain structural flexibility to recognize the host cell surface receptors and bind to them, a property that can heavily hinge upon the dynamics of the unresolved domains, most prominently the stalk. Construction of the complete, membrane-bound spike model and the description of its dynamics remain critical steps in understanding the inner working of this key element in viral infection. Using a hybrid approach, combining homology modeling, protein-protein docking and MD simulations, guided by biochemical and glycomics data, we have developed a full-length, membrane-bound, palmitoylated and fully-glycosylated spike structure in a native membrane. Multi-microsecond MD simulations of this model, the longest known trajectory of the full-spike, reveals conformational dynamics employed by the protein to explore the crowded surface of the host cell. In agreement with cryoEM, three flexiblele hinges in stalk allow for global conformational heterogeneity of spike in the fully-glycosyslated system mediated by glycan-glycan and glycan-lipid interactions. Dynamical range of spike is considerably reduced in its non-glycosylated form, confining the area explored by the spike on the host cell surface. Furthermore, palmitoylation of the membrane domain amplify the local curvature that may prime the fusion. We show that the identified hinge regions are highly conserved in SARS coronaviruses, highlighting their functional importance in enhancing viral infection, and thereby provide novel points for discovery of alternative therapeutics against the virus. <h4>Significance</h4>  SARS-CoV2 Spike protein, which forms the basis for high pathogenicity and transmissibility of the virus, is also prime target for the development of both diagnostics and vaccines for the debilitating disease caused by the virus. We present a full model of spike methodically crafted and used to study its atomic-level dynamics by multiple-  µ s simulations. The results shed new light on the impact of posttranslational modifications in the pathogenicity of the virus. We show how glycan-glycan and glycan-lipid interactions broaden the protein’s dynamical range, and thereby, its effective interaction with the surface receptors on the host cell. Palmitoylation of spike membrane domain, on the other hand, results in a unique deformation pattern that might prime the membrane for fusion.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2021.12.02.470852"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.12.02.470852"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR428513"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR428513&type=FILE&fileName=EMS141073-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35737823",
+            "reference": "Proceedings of the National Academy of Sciences of the United States of America. \n    2022 Jul;119(28):e2119761119",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS141073",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2021-12-05",
+      "firstPublicationDate": "2021-12-03",
+      "firstIndexDate": "2021-12-05",
+      "fullTextReceivedDate": "2022-03-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

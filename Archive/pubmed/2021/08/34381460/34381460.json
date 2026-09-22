@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "34381460",
+    "doi": "10.3389/fimmu.2021.719037",
+    "title": "Structural Basis for SARS-CoV-2 Nucleocapsid Protein Recognition by Single-Domain Antibodies."
+  },
+  "content": {
+    "abstract": "The COVID-19 pandemic, caused by the coronavirus SARS-CoV-2, is the most severe public health event of the twenty-first century. While effective vaccines against SARS-CoV-2 have been developed, there remains an urgent need for diagnostics to quickly and accurately detect infections. Antigen tests, particularly those that detect the abundant SARS-CoV-2 Nucleocapsid protein, are a proven method for detecting active SARS-CoV-2 infections. Here we report high-resolution crystal structures of three llama-derived single-domain antibodies that bind the SARS-CoV-2 Nucleocapsid protein with high affinity. Each antibody recognizes a specific folded domain of the protein, with two antibodies recognizing the N-terminal RNA binding domain and one recognizing the C-terminal dimerization domain. The two antibodies that recognize the RNA binding domain affect both RNA binding affinity and RNA-mediated phase separation of the Nucleocapsid protein. All three antibodies recognize highly conserved surfaces on the Nucleocapsid protein, suggesting that they could be used to develop affordable diagnostic tests to detect all circulating SARS-CoV-2 variants.",
+    "keywords": [
+      "Nucleocapsid (N) protein",
+      "RNA binding",
+      "SARS-CoV-2",
+      "X-ray crystallography",
+      "nanobodies",
+      "phase separation"
+    ],
+    "mesh_terms": [
+      "COVID-19",
+      "COVID-19 Serological Testing/*methods",
+      "Coronavirus Infections/diagnosis/immunology",
+      "Coronavirus Nucleocapsid Proteins/*immunology/*ultrastructure",
+      "Crystallography, X-Ray",
+      "Humans",
+      "Protein Domains",
+      "SARS-CoV-2/immunology",
+      "Single-Domain Antibodies/*immunology/*ultrastructure"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ye, Qiaozhen",
+        "Lu, Shan",
+        "Corbett, Kevin D"
+      ],
+      "short_names": [
+        "Ye Q",
+        "Lu S",
+        "Corbett KD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cellular & Molecular Medicine, University of California San Diego, La Jolla, CA, United States.",
+        "Department of Cellular & Molecular Medicine, University of California San Diego, La Jolla, CA, United States.",
+        "Department of Cellular & Molecular Medicine, University of California San Diego, La Jolla, CA, United States.",
+        "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, CA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ye, Qiaozhen",
+        "short_name": "Ye Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular & Molecular Medicine, University of California San Diego, La Jolla, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Lu, Shan",
+        "short_name": "Lu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular & Molecular Medicine, University of California San Diego, La Jolla, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Corbett, Kevin D",
+        "short_name": "Corbett KD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular & Molecular Medicine, University of California San Diego, La Jolla, CA, United States.",
+          "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, CA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in immunology"
+    ],
+    "journal_abbrev": [
+      "Front Immunol"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/13 06:00",
+    "fetched_at": "2026-09-20 04:51:31"
+  },
+  "links": {
+    "cites": [
+      "41587959",
+      "40830575",
+      "40820302",
+      "40568634",
+      "40371698",
+      "40343341",
+      "40224009",
+      "40196582",
+      "39766245",
+      "39237489",
+      "39192985",
+      "38921957",
+      "38793539",
+      "38713013",
+      "38554115",
+      "38409415",
+      "38404747",
+      "37893306",
+      "37351273",
+      "37313783",
+      "37111124",
+      "36997015",
+      "36986756",
+      "36687314",
+      "36656781",
+      "36640305",
+      "36362378",
+      "36131142",
+      "36088078",
+      "36032123",
+      "35943157",
+      "35842466",
+      "35757714",
+      "35638584",
+      "35450423",
+      "34995616",
+      "34832615"
+    ],
+    "refs": [
+      "33955213",
+      "33782395",
+      "33534552",
+      "33495715",
+      "33479198",
+      "33440088",
+      "33378609",
+      "33301246",
+      "33290746",
+      "33264373",
+      "33248025",
+      "33247108",
+      "33208793",
+      "33200826",
+      "32979942",
+      "32939084",
+      "32914439",
+      "32654247",
+      "32374370",
+      "23793146",
+      "23553604",
+      "22930834",
+      "22505256",
+      "21460441",
+      "20383002",
+      "20124692",
+      "19461840",
+      "18988033",
+      "15550204"
+    ],
+    "similar": [
+      "34381460",
+      "34100017",
+      "39192985",
+      "34904253",
+      "34523986",
+      "39224822",
+      "34099081",
+      "34665939",
+      "38674021",
+      "32977117",
+      "34645907",
+      "33961897",
+      "34048905",
+      "34585943",
+      "39082816",
+      "33273320",
+      "32796155",
+      "33139422",
+      "33039147",
+      "33184753",
+      "33534552",
+      "33270159",
+      "32654247",
+      "34678315",
+      "33582454",
+      "33318065",
+      "32879033",
+      "33739483",
+      "33632693",
+      "34853366",
+      "33400794",
+      "33498157",
+      "33976229",
+      "33768365",
+      "33608968",
+      "33870493",
+      "33983466",
+      "34468184",
+      "35757714",
+      "34773801",
+      "33773139",
+      "32965677",
+      "33714753",
+      "32979317",
+      "36798118",
+      "33661990",
+      "32681308",
+      "35003131",
+      "33627511",
+      "33955213",
+      "34643438",
+      "34332306",
+      "34696329",
+      "32914439",
+      "32571838",
+      "34342836",
+      "33647511",
+      "33790892",
+      "34960605",
+      "36146847",
+      "33608538",
+      "33554502",
+      "35868337",
+      "33198594",
+      "35328398",
+      "34851163",
+      "34899762",
+      "33897682",
+      "34041585",
+      "35051498",
+      "32828791",
+      "32529906",
+      "37191546",
+      "32363136",
+      "33358936",
+      "33200826",
+      "38679866",
+      "33782395",
+      "37898784",
+      "33794152",
+      "37018390",
+      "36627683",
+      "32511359",
+      "37749713",
+      "36928389",
+      "38349116",
+      "33660218",
+      "34451501",
+      "37185252",
+      "38327783",
+      "35638584",
+      "32766587",
+      "33770364",
+      "33892550",
+      "33172342",
+      "35589780",
+      "39343000",
+      "35756710",
+      "34064163",
+      "34095780",
+      "37582868",
+      "39341499",
+      "37863065",
+      "35931673",
+      "33269347",
+      "38568799",
+      "39380503",
+      "39386676",
+      "37901441",
+      "33469584",
+      "36097552",
+      "37675575",
+      "32837710",
+      "35834748",
+      "38173536",
+      "33479219",
+      "39090189",
+      "36809148"
+    ],
+    "review": [
+      "34381460",
+      "33318065",
+      "33358936",
+      "36627683",
+      "38349116",
+      "39343000",
+      "35756710"
+    ],
+    "pmc": [
+      "8351461"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34381460/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34381460",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34381460",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fimmu.2021.719037",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34381460",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

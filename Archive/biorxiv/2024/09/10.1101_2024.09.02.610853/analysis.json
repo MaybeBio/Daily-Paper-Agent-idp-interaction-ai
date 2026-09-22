@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.09.02.610853",
+  "title": "Methods for high throughput discovery of fluoroprobes that recognize tau fibril polymorphs",
+  "authors": "Carroll EC; Yang H; Jones JG; Oehler A; Charvat AF; Montgomery KM; Yung A; Millbern Z; Vinueza NR; DeGrado WF; Mordes DA; Condello C; Gestwicki JE",
+  "journal": "bioRxiv",
+  "published_date": "2024-09-02",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用高通量荧光染料筛选识别tau纤维多态性，对象为淀粉样纤维而非无序蛋白互作，无PPI机制建模或AI/物理模拟方法，仅边缘相关。",
+  "abstract": "Aggregation of microtubule-associated protein tau (MAPT/tau) into conformationally distinct fibrils underpins neurodegenerative tauopathies. Fluorescent probes (fluoroprobes), such as thioflavin T (ThT), have been essential tools for studying tau aggregation; however, most of them do not discriminate between amyloid fibril conformations (polymorphs). This gap is due, in part, to a lack of high-throughput methods for screening large, diverse chemical collections. Here, we leverage advances in protein adaptive differential scanning fluorimetry (paDSF) to screen the Aurora collection of 300+ fluorescent dyes against multiple synthetic tau fibril polymorphs. This screen, coupled with orthogonal secondary assays, revealed pan-fibril binding chemotypes, as well as fluoroprobes selective for subsets of fibrils. One fluoroprobe recognized tau pathology in ex vivo brain slices from Alzheimer’s disease patients. We propose that these scaffolds represent entry points for development of selective fibril ligands and, more broadly, that high throughput, fluorescence-based dye screening is a platform for their discovery.",
+  "abstract_zh": "微管相关蛋白tau（MAPT/tau）聚集成构象不同的原纤维，是神经退行性tau蛋白病的基础。荧光探针（fluoroprobes），如硫黄素T（ThT），一直是研究tau聚集的重要工具；然而，大多数探针无法区分淀粉样原纤维的构象（多态体）。这一差距部分归因于缺乏用于筛选大型多样化化学库的高通量方法。在此，我们利用蛋白质自适应差示扫描荧光法（paDSF）的进展，针对多种合成tau原纤维多态体筛选Aurora库中的300多种荧光染料。该筛选结合正交二次检测，揭示了泛原纤维结合化学型，以及选择性结合原纤维亚群的荧光探针。其中一种荧光探针识别了阿尔茨海默病患者离体脑切片中的tau病理。我们认为，这些支架代表了开发选择性原纤维配体的切入点，更广泛地说，基于荧光的高通量染料筛选是发现这些配体的平台。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.09.02.610853",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.09.02.610853",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.09.02.610853/index.html"
+}

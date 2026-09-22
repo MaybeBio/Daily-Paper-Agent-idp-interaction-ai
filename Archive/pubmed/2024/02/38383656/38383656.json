@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "38383656",
+    "doi": "10.1038/s41557-024-01456-6",
+    "title": "Asymmetric oligomerization state and sequence patterning can tune multiphase condensate miscibility."
+  },
+  "content": {
+    "abstract": "Endogenous biomolecular condensates, composed of a multitude of proteins and RNAs, can organize into multiphasic structures with compositionally distinct phases. This multiphasic organization is generally understood to be critical for facilitating their proper biological function. However, the biophysical principles driving multiphase formation are not completely understood. Here we use in vivo condensate reconstitution experiments and coarse-grained molecular simulations to investigate how oligomerization and sequence interactions modulate multiphase organization in biomolecular condensates. We demonstrate that increasing the oligomerization state of an intrinsically disordered protein results in enhanced immiscibility and multiphase formation. Interestingly, we find that oligomerization tunes the miscibility of intrinsically disordered proteins in an asymmetric manner, with the effect being more pronounced when the intrinsically disordered protein, exhibiting stronger homotypic interactions, is oligomerized. Our findings suggest that oligomerization is a flexible biophysical mechanism that cells can exploit to tune the internal organization of biomolecular condensates and their associated biological functions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biomolecular Condensates/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Multimerization",
+      "RNA/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rana, Ushnish",
+        "Xu, Ke",
+        "Narayanan, Amal",
+        "Walls, Mackenzie T",
+        "Panagiotopoulos, Athanassios Z",
+        "Avalos, Jose L",
+        "Brangwynne, Clifford P"
+      ],
+      "short_names": [
+        "Rana U",
+        "Xu K",
+        "Narayanan A",
+        "Walls MT",
+        "Panagiotopoulos AZ",
+        "Avalos JL",
+        "Brangwynne CP"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6783-6193",
+        "ORCID: 0000-0001-8159-6878",
+        "ORCID: 0000-0002-1857-987X",
+        "ORCID: 0000-0002-7209-4208",
+        "ORCID: 0000-0002-1350-9960"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA.",
+        "Howard Hughes Medical Institute, Princeton University, Princeton, NJ, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA. javalos@princeton.edu.",
+        "Andlinger Center for Energy and the Environment, Princeton University, Princeton, NJ, USA. javalos@princeton.edu.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ, USA. javalos@princeton.edu.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA. cbrangwy@princeton.edu.",
+        "Howard Hughes Medical Institute, Princeton University, Princeton, NJ, USA. cbrangwy@princeton.edu.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ, USA. cbrangwy@princeton.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rana, Ushnish",
+        "short_name": "Rana U",
+        "identifiers": [
+          "0000-0001-6783-6193"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Ke",
+        "short_name": "Xu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Narayanan, Amal",
+        "short_name": "Narayanan A",
+        "identifiers": [
+          "0000-0001-8159-6878"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA.",
+          "Howard Hughes Medical Institute, Princeton University, Princeton, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Walls, Mackenzie T",
+        "short_name": "Walls MT",
+        "identifiers": [
+          "0000-0002-1857-987X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Panagiotopoulos, Athanassios Z",
+        "short_name": "Panagiotopoulos AZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Avalos, José L",
+        "short_name": "Avalos JL",
+        "identifiers": [
+          "0000-0002-7209-4208"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA. javalos@princeton.edu.",
+          "Andlinger Center for Energy and the Environment, Princeton University, Princeton, NJ, USA. javalos@princeton.edu.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ, USA. javalos@princeton.edu."
+        ]
+      },
+      {
+        "full_name": "Brangwynne, Clifford P",
+        "short_name": "Brangwynne CP",
+        "identifiers": [
+          "0000-0002-1350-9960"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA. cbrangwy@princeton.edu.",
+          "Howard Hughes Medical Institute, Princeton University, Princeton, NJ, USA. cbrangwy@princeton.edu.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ, USA. cbrangwy@princeton.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature chemistry"
+    ],
+    "journal_abbrev": [
+      "Nat Chem"
+    ],
+    "pub_date": "2024 Jul",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/22 00:42",
+    "fetched_at": "2026-09-21 05:15:46"
+  },
+  "links": {
+    "cites": [
+      "42450221",
+      "42384681",
+      "42358691",
+      "42260147",
+      "42230638",
+      "42055532",
+      "42016362",
+      "42010614",
+      "41997364",
+      "41678309",
+      "41624985",
+      "41540001",
+      "41513854",
+      "41424598",
+      "41266895",
+      "41238549",
+      "41169543",
+      "41083871",
+      "40998749",
+      "40985614",
+      "40981365",
+      "40969122",
+      "40954121",
+      "40881393",
+      "40830340",
+      "40727669",
+      "40667294",
+      "40661423",
+      "40525694",
+      "40524024",
+      "40521644",
+      "40249817",
+      "40216775",
+      "40211087",
+      "40195042",
+      "40164612",
+      "39928699",
+      "39827079",
+      "39826710",
+      "39768219",
+      "39610751",
+      "39448580",
+      "39232584",
+      "39185151",
+      "38885177",
+      "38760433",
+      "38739933",
+      "38591689",
+      "38356260",
+      "37684240",
+      "37408305",
+      "37205474"
+    ],
+    "refs": [
+      "36709795",
+      "36513655",
+      "36400991",
+      "36071192",
+      "35918061",
+      "35675815",
+      "35333653",
+      "35198903",
+      "34931046",
+      "34598580",
+      "34552246",
+      "34507991",
+      "34129784",
+      "34123251",
+      "34099940",
+      "34005864",
+      "33890764",
+      "33661100",
+      "33571491",
+      "33169001",
+      "33095160",
+      "33078839",
+      "32929202",
+      "32873929",
+      "32405004",
+      "32312191",
+      "32302572",
+      "32302571",
+      "32302570",
+      "32087632",
+      "32029630",
+      "31792412",
+      "31634364",
+      "30500535",
+      "30500534",
+      "30498217",
+      "29973724",
+      "29961577",
+      "29844523",
+      "29483575",
+      "29364893",
+      "28935776",
+      "28924037",
+      "28894006",
+      "28790177",
+      "28483149",
+      "28225081",
+      "28041848",
+      "27890650",
+      "27309817",
+      "27212236",
+      "26836305",
+      "26406374",
+      "26328871",
+      "25871405",
+      "25747659",
+      "23901099",
+      "22743772",
+      "22654060",
+      "22398450",
+      "21877281",
+      "19460965"
+    ],
+    "similar": [
+      "38383656",
+      "34090478",
+      "40009520",
+      "34916288",
+      "38832749",
+      "39826710",
+      "30926670",
+      "35727989",
+      "35179885",
+      "39486437",
+      "37408305",
+      "39232584",
+      "34598583",
+      "39356108",
+      "39929988",
+      "39537752",
+      "37468629",
+      "36004748",
+      "39947751",
+      "37961422",
+      "40172489",
+      "39042834",
+      "36883003",
+      "36163138",
+      "39271032",
+      "34716273",
+      "39390911",
+      "36350032",
+      "40128232",
+      "37470705",
+      "39987501",
+      "39636939",
+      "40325419",
+      "34784177",
+      "34129784",
+      "34588591",
+      "36993212",
+      "39354132",
+      "40028898",
+      "40136009",
+      "38181073",
+      "33864415",
+      "39319382",
+      "38722189",
+      "37020020",
+      "37194953",
+      "32393642",
+      "34767801",
+      "39510346",
+      "38348795",
+      "37735186",
+      "34865286",
+      "32302570",
+      "36524527",
+      "33672806",
+      "35171683",
+      "23912807",
+      "40229261",
+      "36227468",
+      "33139563",
+      "38987300",
+      "39804953",
+      "34772787",
+      "38824391",
+      "40108179",
+      "36191226",
+      "34772789",
+      "38308651",
+      "35108264",
+      "38649740",
+      "35333653",
+      "38979955",
+      "39071308",
+      "34785657",
+      "32571937",
+      "37252985",
+      "36657879",
+      "39663388",
+      "34371110",
+      "39908323",
+      "37480229",
+      "35053240",
+      "36071192",
+      "39591652",
+      "35982794",
+      "37668016",
+      "34890409",
+      "33812316",
+      "37684240",
+      "40203038",
+      "40094245",
+      "39824169",
+      "37159305",
+      "33930220",
+      "33076213",
+      "39827079",
+      "36674958",
+      "33558506",
+      "38260590",
+      "34552246"
+    ],
+    "review": [
+      "38383656",
+      "35179885",
+      "39947751",
+      "40172489",
+      "39271032",
+      "36350032",
+      "40325419",
+      "34129784",
+      "34767801",
+      "38348795",
+      "34865286",
+      "36524527",
+      "34772787",
+      "34772789",
+      "38979955",
+      "34371110",
+      "36071192",
+      "33812316",
+      "39824169",
+      "33930220"
+    ],
+    "pmc": [
+      "11230906"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41557-024-01456-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38383656/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

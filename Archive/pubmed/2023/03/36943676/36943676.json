@@ -1,0 +1,206 @@
+{
+  "identity": {
+    "pmid": "36943676",
+    "doi": "10.1021/acs.biochem.3c00047",
+    "title": "Cyanobacterial Phycobilisome Allostery as Revealed by Quantitative Mass Spectrometry."
+  },
+  "content": {
+    "abstract": "Phycobilisomes (PBSs) are the major photosynthetic light-harvesting complexes in cyanobacteria and red algae. PBS, a multisubunit protein complex, has two major interfaces that comprise intrinsically disordered regions (IDRs): rod-core and core-membrane. IDRs do not form regular, three-dimensional structures on their own. Their presence in the photosynthetic pigment-protein complexes portends their structural and functional importance. A recent model suggests that PB-loop, an IDR located on the PBS subunit ApcE and C-terminal extension (CTE) of the PBS subunit ApcG, forms a structural protrusion on the PBS core-membrane side, facing the thylakoid membrane. Here, the structural synergy between the rod-core region and the core-membrane region was investigated using quantitative mass spectrometry (MS). The AlphaFold-predicted CpcG-CTE structure was first modeled onto the PBS rod-core region, guided and justified by the isotopically encoded structural MS data. Quantitative cross-linking MS analysis revealed that the structural proximity of the PB-loop in ApcE and ApcG-CTE is significantly disturbed in the absence of six PBS rods, which are attached to PBS via CpcG-CTE, indicative of drastic conformational changes and decreased structural integrity. These results suggest that CpcG-rod attachment on the PBS rod-core side is essentially required for the PBS core-membrane structural assembly. The hypothesized long-range synergy between the rod-core interface (where the orange carotenoid protein also functions) and the terminal energy emitter of PBS must have important regulatory roles in PBS core assembly, light-harvesting, and excitation energy transmission. These data also lend strategies that genetic truncation of the light-harvesting antennas aimed for improved photosynthetic productivity must rely on an in-depth understanding of their global structural integrity.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Phycobilisomes/metabolism",
+      "*Cyanobacteria/metabolism",
+      "Thylakoids/metabolism",
+      "Mass Spectrometry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Haijun"
+      ],
+      "short_names": [
+        "Liu H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0537-0302"
+      ],
+      "affiliations": [
+        "Department of Biology, Washington University in St. Louis, St. Louis, Missouri 63130, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Haijun",
+        "short_name": "Liu H",
+        "identifiers": [
+          "0000-0003-0537-0302"
+        ],
+        "affiliations": [
+          "Department of Biology, Washington University in St. Louis, St. Louis, Missouri 63130, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemistry"
+    ],
+    "journal_abbrev": [
+      "Biochemistry"
+    ],
+    "pub_date": "2023 Apr 4",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/22 06:00",
+    "fetched_at": "2026-09-20 20:35:46"
+  },
+  "links": {
+    "cites": [
+      "42166791",
+      "41819263",
+      "40996466",
+      "39929300",
+      "39671473",
+      "39051336",
+      "38652697",
+      "37972281"
+    ],
+    "refs": [],
+    "similar": [
+      "36943676",
+      "36116541",
+      "31015331",
+      "36859522",
+      "29391123",
+      "38801856",
+      "24407142",
+      "37739300",
+      "30414413",
+      "34171163",
+      "9799114",
+      "34535665",
+      "33523959",
+      "17468217",
+      "25296757",
+      "35715389",
+      "28185041",
+      "25998682",
+      "36045294",
+      "34903149",
+      "31306623",
+      "24435274",
+      "11590154",
+      "22965313",
+      "24550276",
+      "38407779",
+      "38049400",
+      "28365856",
+      "26957606",
+      "28872312",
+      "28078551",
+      "15147696",
+      "29045394",
+      "3102748",
+      "27121945",
+      "36982707",
+      "24335507",
+      "17922214",
+      "33957054",
+      "25905572",
+      "28253354",
+      "32720110",
+      "26921809",
+      "29464557",
+      "32076914",
+      "22659186",
+      "26173720",
+      "37298688",
+      "31246439",
+      "21036140",
+      "14636046",
+      "8188669",
+      "1577010",
+      "2107546",
+      "15977057",
+      "25948498",
+      "20521115",
+      "22172737",
+      "23811796",
+      "24359496",
+      "1460543",
+      "15620367",
+      "27564010",
+      "31935359",
+      "27528560",
+      "32428340",
+      "34062150",
+      "31421078",
+      "26045333",
+      "24318754",
+      "35889032",
+      "36448289",
+      "36847892",
+      "22138629",
+      "22582961",
+      "14871488",
+      "28733863",
+      "26498711",
+      "31426316",
+      "19344661",
+      "30820745",
+      "38012412",
+      "1743523",
+      "11334789",
+      "31253393",
+      "24727864",
+      "28338901",
+      "6416125",
+      "31042029",
+      "15805115",
+      "30818037",
+      "28513152",
+      "8246846",
+      "31820831",
+      "17310305",
+      "25256653",
+      "27165097",
+      "1577008",
+      "34260249",
+      "31799708",
+      "22172739",
+      "26669441",
+      "35276007"
+    ],
+    "review": [
+      "36943676",
+      "31306623",
+      "33957054",
+      "37298688",
+      "15977057",
+      "20521115",
+      "6416125"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/bichaw/article-lookup/doi/10.1021/acs.biochem.3c00047",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

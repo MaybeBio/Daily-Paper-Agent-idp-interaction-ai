@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "39531035",
+    "doi": "10.7554/eLife.100282",
+    "title": "Direct and indirect salt effects on homotypic phase separation."
+  },
+  "content": {
+    "abstract": "The low-complexity domain of hnRNPA1 (A1-LCD) phase separates in a salt-dependent manner. Unlike many intrinsically disordered proteins (IDPs) whose phase separation is suppressed by increasing salt concentrations, the phase separation of A1-LCD is promoted by >100 mM NaCl. To investigate the atypical salt effect on A1-LCD phase separation, we carried out all-atom molecular dynamics simulations of systems comprising multiple A1-LCD chains at NaCl concentrations from 50 to 1000 mM NaCl. The ions occupy first shell as well as more distant sites around the IDP chains, with Arg sidechains and backbone carbonyls the favored partners of Cl(-) and Na(+), respectively. They play two direct roles in driving A1-LCD condensation. The first is to neutralize the high net charge of the protein (+9) by an excess of bound Cl(-) over Na(+); the second is to bridge between A1-LCD chains, thereby fortifying the intermolecular interaction networks in the dense phase. At high concentrations, NaCl also indirectly strengthens pi-pi, cation-pi, and amino-pi interactions, by drawing water away from the interaction partners. Therefore, at low salt, A1-LCD is prevented from phase separation by net charge repulsion; at intermediate concentrations, NaCl neutralizes enough of the net charge while also bridging IDP chains to drive phase separation. This drive becomes even stronger at high salt due to strengthened pi-type interactions. Based on this understanding, four classes of salt dependence of IDP phase separation can be predicted from amino-acid composition.",
+    "keywords": [
+      "molecular biophysics",
+      "molecular dynamics simulations",
+      "none",
+      "phase separation",
+      "salt dependence",
+      "salt effects",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Sodium Chloride/chemistry",
+      "Heterogeneous Nuclear Ribonucleoprotein A1/chemistry/metabolism",
+      "Intrinsically Disordered Proteins/chemistry",
+      "Protein Conformation",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "MacAinsh, Matt",
+        "Dey, Souvik",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "MacAinsh M",
+        "Dey S",
+        "Zhou HX"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9020-0302"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois Chicago, Chicago, United States.",
+        "Department of Chemistry, University of Illinois Chicago, Chicago, United States.",
+        "Department of Chemistry, University of Illinois Chicago, Chicago, United States.",
+        "Department of Physics, University of Illinois Chicago, Chicago, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "MacAinsh, Matt",
+        "short_name": "MacAinsh M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Chicago, Chicago, United States."
+        ]
+      },
+      {
+        "full_name": "Dey, Souvik",
+        "short_name": "Dey S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Chicago, Chicago, United States."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [
+          "0000-0001-9020-0302"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Chicago, Chicago, United States.",
+          "Department of Physics, University of Illinois Chicago, Chicago, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2024 Nov 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/13 13:59",
+    "fetched_at": "2026-09-22 02:11:43"
+  },
+  "links": {
+    "cites": [
+      "42322585",
+      "42080265",
+      "41868013",
+      "41224766",
+      "41187075",
+      "41083871",
+      "41001635",
+      "40667294",
+      "40068541",
+      "40028898",
+      "39896463"
+    ],
+    "refs": [
+      "39042834",
+      "38885177",
+      "38553587",
+      "38174879",
+      "37721444",
+      "37684240",
+      "37645312",
+      "37468629",
+      "36473856",
+      "36378745",
+      "36084347",
+      "34931046",
+      "34737230",
+      "34598583",
+      "33741736",
+      "33597515",
+      "33577679",
+      "33139563",
+      "32312191",
+      "32029630",
+      "32007034",
+      "31898464",
+      "30986043",
+      "30814253",
+      "30765518",
+      "30043819",
+      "29526694",
+      "29483575",
+      "29319301",
+      "29064502",
+      "28894006",
+      "28636597",
+      "28614666",
+      "27824447",
+      "27289443",
+      "26592383",
+      "26583988",
+      "26574453",
+      "26474065",
+      "26455390",
+      "26351690",
+      "25764013",
+      "23086149",
+      "12570467",
+      "8889180",
+      "8744570"
+    ],
+    "similar": [
+      "39531035",
+      "33577679",
+      "33982369",
+      "35944496",
+      "39342654",
+      "39225535",
+      "36272811",
+      "32696386",
+      "32393642",
+      "32579908",
+      "38112495",
+      "38999934",
+      "38348795",
+      "39475380",
+      "33302617",
+      "33945530",
+      "20095700",
+      "32696384",
+      "25207671",
+      "30193467",
+      "26412307",
+      "29424691",
+      "35074392",
+      "18821757",
+      "33403854",
+      "37961424",
+      "34259536",
+      "36993212",
+      "39163306",
+      "39302099",
+      "31021441",
+      "22179761",
+      "35866309",
+      "39105804",
+      "33550645",
+      "29548979",
+      "33684117",
+      "37205474",
+      "36084347",
+      "39089542",
+      "38965780",
+      "33355572",
+      "38118365",
+      "39248370",
+      "33139563",
+      "33311513",
+      "29509422",
+      "34680048",
+      "30840442",
+      "34598583",
+      "38296708",
+      "36674958",
+      "34201262",
+      "34656328",
+      "34203110",
+      "32859072",
+      "39486437",
+      "34576338",
+      "24086122",
+      "37838830",
+      "35126984",
+      "30813315",
+      "37407505",
+      "31667345",
+      "36443315",
+      "18225878",
+      "28970487",
+      "16771493",
+      "33307683",
+      "28834051",
+      "39354680",
+      "31809054",
+      "30833023",
+      "28926706",
+      "28507126",
+      "36542916",
+      "31756104",
+      "28805390",
+      "38260590",
+      "31260322",
+      "37936402",
+      "36750251",
+      "32585849",
+      "38526948",
+      "37684240",
+      "38979955",
+      "34504009",
+      "38607226",
+      "38018910",
+      "38308651",
+      "33591749",
+      "28894006",
+      "39248414",
+      "38492239",
+      "34845619",
+      "35411772",
+      "29990433",
+      "32323533",
+      "36343363",
+      "37488093"
+    ],
+    "review": [
+      "39531035",
+      "38348795",
+      "31021441",
+      "33355572",
+      "38118365",
+      "29509422",
+      "34680048",
+      "30840442",
+      "38296708",
+      "36750251",
+      "38979955",
+      "33591749"
+    ],
+    "pmc": [
+      "11556789"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39531035/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.100282",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

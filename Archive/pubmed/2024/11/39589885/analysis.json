@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39589885",
+  "title": "Molecular insights into the interaction between a disordered protein and a folded RNA.",
+  "authors": "Mitra, Rishav; Usher, Emery T; Dedeoglu, Selin; Crotteau, Matthew J; Fraser, Olivia A; Yennawar, Neela H; Gadkari, Varun V; Ruotolo, Brandon T; Holehouse, Alex S; Salmon, Loic; Showalter, Scott A; Bardwell, James C A",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2024-11-26",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合生物物理实验与分子模拟，揭示无序蛋白SERF与RNA结合时保持无序但整体压缩的机制，并关联相分离，为IDR-RNA互作机制建模提供可迁移范例。",
+  "abstract": "Intrinsically disordered protein regions (IDRs) are well established as contributors to intermolecular interactions and the formation of biomolecular condensates. In particular, RNA-binding proteins (RBPs) often harbor IDRs in addition to folded RNA-binding domains that contribute to RBP function. To understand the dynamic interactions of an IDR-RNA complex, we characterized the RNA-binding features of a small (68 residues), positively charged IDR-containing protein, Small ERDK-Rich Factor (SERF). At high concentrations, SERF and RNA undergo charge-driven associative phase separation to form a protein- and RNA-rich dense phase. A key advantage of this model system is that this threshold for demixing is sufficiently high that we could use solution-state biophysical methods to interrogate the stoichiometric complexes of SERF with RNA in the one-phase regime. Herein, we describe our comprehensive characterization of SERF alone and in complex with a small fragment of the HIV-1 Trans-Activation Response (TAR) RNA with complementary biophysical methods and molecular simulations. We find that this binding event is not accompanied by the acquisition of structure by either molecule; however, we see evidence for a modest global compaction of the SERF ensemble when bound to RNA. This behavior likely reflects attenuated charge repulsion within SERF via binding to the polyanionic RNA and provides a rationale for the higher-order assembly of SERF in the context of RNA. We envision that the SERF-RNA system will lower the barrier to accessing the details that support IDR-RNA interactions and likewise deepen our understanding of the role of IDR-RNA contacts in complex formation and liquid-liquid phase separation.",
+  "abstract_zh": "intrinsically disordered protein regions（IDRs）已被确认为促进分子间相互作用和生物分子凝聚体形成的因素。特别是，RNA结合蛋白（RBPs）通常除了折叠的RNA结合域外，还含有IDRs，这些IDRs有助于RBP的功能。为了理解IDR-RNA复合物的动态相互作用，我们表征了一个小的（68个残基）、带正电荷的含IDR蛋白——Small ERDK-Rich Factor（SERF）的RNA结合特性。在高浓度下，SERF和RNA经历电荷驱动的缔合相分离，形成富含蛋白质和RNA的致密相。该模型系统的一个关键优势是，这种去混合阈值足够高，以至于我们能够使用溶液态生物物理方法，在单相区域内探测SERF与RNA的化学计量复合物。在此，我们描述了通过互补的生物物理方法和分子模拟，对单独SERF及其与HIV-1反式激活反应（TAR）RNA小片段复合物的全面表征。我们发现，这种结合事件并未伴随任一分子结构的获得；然而，我们观察到SERF在结合RNA时整体构象有适度压缩的证据。这种行为可能反映了SERF通过与多阴离子RNA结合而减弱电荷排斥，并为SERF在RNA背景下的高阶组装提供了合理解释。我们预期，SERF-RNA系统将降低获取支持IDR-RNA相互作用的细节的障碍，并同样加深我们对IDR-RNA接触在复合物形成和液-液相分离中作用的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39589885/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39589885/",
+  "paper_page_path": "papers/pubmed/39589885/index.html"
+}

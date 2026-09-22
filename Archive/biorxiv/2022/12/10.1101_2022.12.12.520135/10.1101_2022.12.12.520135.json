@@ -1,0 +1,265 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.12.12.520135",
+  "title": "Ultrafast molecular dynamics observed within a dense protein condensate",
+  "doi": "10.1101/2022.12.12.520135",
+  "abstract": "Many biological macromolecules can phase-separate in the cell and form highly concentrated condensates. The mesoscopic dynamics of these assemblies have been widely characterized, but their behavior at the molecular scale has remained more elusive. Here we investigate condensates of two highly charged disordered human proteins as a characteristic example of liquid-liquid phase separation. The dense phase is 1000 times more concentrated and has 300 times higher bulk viscosity than the dilute phase. However, single-molecule spectroscopy in individual droplets reveals that the polypeptide chains are remarkably dynamic, with sub-microsecond reconfiguration times. We rationalize this behavior with large-scale all-atom molecular-dynamics simulations, which reveal an unexpectedly similar short-range molecular environment in the dense and dilute phases, suggesting that local biochemical processes and interactions can remain exceedingly rapid in phase-separated systems.",
+  "authors": [
+    "Galvanetto N",
+    "Ivanović MT",
+    "Chowdhury A",
+    "Sottini A",
+    "Nüesch MF",
+    "Nettels D",
+    "Best RB",
+    "Schuler B"
+  ],
+  "published_date": "2022-12-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.12.12.520135",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.12.12.520135.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR584110",
+    "raw_record": {
+      "id": "PPR584110",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR584110"
+        ]
+      },
+      "doi": "10.1101/2022.12.12.520135",
+      "title": "Ultrafast molecular dynamics observed within a dense protein condensate",
+      "authorString": "Galvanetto N, Ivanović MT, Chowdhury A, Sottini A, Nüesch MF, Nettels D, Best RB, Schuler B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Galvanetto N",
+            "lastName": "Galvanetto",
+            "firstName": "Nicola",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0408-1747"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Zurich, Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "Department of Physics, University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ivanović MT",
+            "lastName": "Ivanović",
+            "firstName": "Miloš",
+            "initials": "MT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chowdhury A",
+            "lastName": "Chowdhury",
+            "firstName": "Aritra",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sottini A",
+            "lastName": "Sottini",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nüesch MF",
+            "lastName": "Nüesch",
+            "firstName": "Mark",
+            "initials": "MF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nettels D",
+            "lastName": "Nettels",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Best RB",
+            "lastName": "Best",
+            "firstName": "Robert",
+            "initials": "RB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physics, University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schuler B",
+            "lastName": "Schuler",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5970-4251"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Zurich, Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "Department of Physics, University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0408-1747"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5970-4251"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3164-9411"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Many biological macromolecules can phase-separate in the cell and form highly concentrated condensates. The mesoscopic dynamics of these assemblies have been widely characterized, but their behavior at the molecular scale has remained more elusive. Here we investigate condensates of two highly charged disordered human proteins as a characteristic example of liquid-liquid phase separation. The dense phase is 1000 times more concentrated and has 300 times higher bulk viscosity than the dilute phase. However, single-molecule spectroscopy in individual droplets reveals that the polypeptide chains are remarkably dynamic, with sub-microsecond reconfiguration times. We rationalize this behavior with large-scale all-atom molecular-dynamics simulations, which reveal an unexpectedly similar short-range molecular environment in the dense and dilute phases, suggesting that local biochemical processes and interactions can remain exceedingly rapid in phase-separated systems.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/12/14/2022.12.12.520135.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.12.12.520135"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR584110"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR584110&type=FILE&fileName=EMS158886-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37468629",
+            "reference": "Nature. 2023 Jul;619(7971):876-883",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS158886",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-12-15",
+      "firstPublicationDate": "2022-12-14",
+      "firstIndexDate": "2022-12-15",
+      "fullTextReceivedDate": "2022-12-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "36372288",
+    "doi": "10.1016/j.bbagen.2022.130276",
+    "title": "Acetylation and phosphorylation processes modulate Tau's binding to microtubules: A molecular dynamics study."
+  },
+  "content": {
+    "abstract": "The microtubule-associated protein Tau has its normal function impaired when undergoing post-translational modifications. In this work, molecular modelling techniques were used to infer the effects of acetylation and phosphorylation in Tau's overall conformation, electrostatics, and interactions, but mostly in Tau's ability to bind microtubules. Reported harmful Lys sites were mutated by its acetylated form, generating eight different acetylated Tau (aTau) analogues. Similarly, phosphorylation sites found in normal brains and in Alzheimer's lesioned brains were considered to design phosphorylated Tau (pTau) analogues. All these designed variants were evaluated in intracellular fluid and near a microtubule (MT) model. Our in silico findings demonstrated that the electrostatic changes, due to the absence of positive Lys' charges in acetylation cases, or the increasingly negative charge in the phosphorylated forms, hamper the association to the MT tubulins in most cases. Post-translational modifications also pose very distinct conformations to the ones described for native Tau, which hinders the microtubule-binding region (MTBR) and turns difficult the expected binding. Our study elucidates important molecular processes behind Tau abnormal function which can inspire novel therapeutics to address Alzheimer's disease.",
+    "keywords": [
+      "Acetylation",
+      "Alzheimer's disease",
+      "Intrinsically disordered protein",
+      "Molecular dynamics simulations",
+      "Phosphorylation",
+      "Tau"
+    ],
+    "mesh_terms": [
+      "Phosphorylation",
+      "Acetylation",
+      "*Molecular Dynamics Simulation",
+      "*Microtubules/metabolism",
+      "tau Proteins/chemistry",
+      "Protein Processing, Post-Translational"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Castro, Tarsila G",
+        "Ferreira, Tiago",
+        "Matama, Teresa",
+        "Munteanu, Florentina-Daniela",
+        "Cavaco-Paulo, Artur"
+      ],
+      "short_names": [
+        "Castro TG",
+        "Ferreira T",
+        "Matama T",
+        "Munteanu FD",
+        "Cavaco-Paulo A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Centre of Biological Engineering, University of Minho, Campus de Gualtar, 4710-057 Braga, Portugal; LABBELS - Associate Laboratory, Braga/Guimaraes, Portugal.; Aurel Vlaicu, University of Arad, Str. Elena Dragoi 2-4, RO-310330 Arad, Romania.",
+        "Centre of Biological Engineering, University of Minho, Campus de Gualtar, 4710-057 Braga, Portugal; LABBELS - Associate Laboratory, Braga/Guimaraes, Portugal.",
+        "Centre of Biological Engineering, University of Minho, Campus de Gualtar, 4710-057 Braga, Portugal; LABBELS - Associate Laboratory, Braga/Guimaraes, Portugal.",
+        "Aurel Vlaicu, University of Arad, Str. Elena Dragoi 2-4, RO-310330 Arad, Romania.",
+        "Centre of Biological Engineering, University of Minho, Campus de Gualtar, 4710-057 Braga, Portugal; LABBELS - Associate Laboratory, Braga/Guimaraes, Portugal.; Aurel Vlaicu, University of Arad, Str. Elena Dragoi 2-4, RO-310330 Arad, Romania. Electronic address: artur@deb.uminho.pt."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Castro, Tarsila G",
+        "short_name": "Castro TG",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of Biological Engineering, University of Minho, Campus de Gualtar, 4710-057 Braga, Portugal; LABBELS - Associate Laboratory, Braga/Guimarães, Portugal.; Aurel Vlaicu, University of Arad, Str. Elena Drăgoi 2-4, RO-310330 Arad, Romania."
+        ]
+      },
+      {
+        "full_name": "Ferreira, Tiago",
+        "short_name": "Ferreira T",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of Biological Engineering, University of Minho, Campus de Gualtar, 4710-057 Braga, Portugal; LABBELS - Associate Laboratory, Braga/Guimarães, Portugal."
+        ]
+      },
+      {
+        "full_name": "Matamá, Teresa",
+        "short_name": "Matamá T",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of Biological Engineering, University of Minho, Campus de Gualtar, 4710-057 Braga, Portugal; LABBELS - Associate Laboratory, Braga/Guimarães, Portugal."
+        ]
+      },
+      {
+        "full_name": "Munteanu, Florentina-Daniela",
+        "short_name": "Munteanu FD",
+        "identifiers": [],
+        "affiliations": [
+          "Aurel Vlaicu, University of Arad, Str. Elena Drăgoi 2-4, RO-310330 Arad, Romania."
+        ]
+      },
+      {
+        "full_name": "Cavaco-Paulo, Artur",
+        "short_name": "Cavaco-Paulo A",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of Biological Engineering, University of Minho, Campus de Gualtar, 4710-057 Braga, Portugal; LABBELS - Associate Laboratory, Braga/Guimarães, Portugal.; Aurel Vlaicu, University of Arad, Str. Elena Drăgoi 2-4, RO-310330 Arad, Romania. Electronic address: artur@deb.uminho.pt."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimica et biophysica acta. General subjects"
+    ],
+    "journal_abbrev": [
+      "Biochim Biophys Acta Gen Subj"
+    ],
+    "pub_date": "2023 Feb",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/14 06:00",
+    "fetched_at": "2026-09-20 16:46:35"
+  },
+  "links": {
+    "cites": [
+      "41090735",
+      "38982004",
+      "38745725",
+      "38623984",
+      "38195518",
+      "37465125"
+    ],
+    "refs": [],
+    "similar": [
+      "36372288",
+      "8163474",
+      "14690523",
+      "32341125",
+      "31699899",
+      "11463346",
+      "38489841",
+      "28760828",
+      "29636414",
+      "24251416",
+      "10747907",
+      "8590813",
+      "28251926",
+      "29248553",
+      "10818091",
+      "36669127",
+      "11034902",
+      "39386529",
+      "18052981",
+      "37830541",
+      "30572013",
+      "28287136",
+      "24733656",
+      "38396035",
+      "22366796",
+      "29167379",
+      "34838590",
+      "8624133",
+      "38347594",
+      "10090741",
+      "31995742",
+      "30909607",
+      "23371364",
+      "26996940",
+      "8999860",
+      "21427723",
+      "28855586",
+      "31462746",
+      "31543505",
+      "7706316",
+      "28882299",
+      "27582388",
+      "15615645",
+      "39092904",
+      "28971440",
+      "24768523",
+      "28848737",
+      "28819043",
+      "37632370",
+      "25206938",
+      "27911791",
+      "22072628",
+      "10685605",
+      "23659998",
+      "28002468",
+      "31619983",
+      "34426645",
+      "17680984",
+      "25656701",
+      "38429335",
+      "16104002",
+      "27383765",
+      "35269542",
+      "24577753",
+      "1726645",
+      "33334867",
+      "30992364",
+      "25165145",
+      "38100856",
+      "36048712",
+      "21339331",
+      "28322917",
+      "1644173",
+      "28060278",
+      "19769346",
+      "24464872",
+      "29734651",
+      "17725643",
+      "23740819",
+      "10537042",
+      "7830071",
+      "34545670",
+      "8799840",
+      "8068626",
+      "30929793",
+      "28837163",
+      "15450610",
+      "8429017",
+      "33125954",
+      "33464820",
+      "37819542",
+      "27975251",
+      "36710643",
+      "31004638",
+      "25229151",
+      "25974414",
+      "25031639",
+      "27452526",
+      "23962722",
+      "9169608",
+      "2874414",
+      "33106314",
+      "9846894",
+      "29039655",
+      "30907318",
+      "19744140",
+      "33193056",
+      "34572521",
+      "38187700",
+      "38102924",
+      "37778693",
+      "36331069",
+      "37645969",
+      "38825572",
+      "31749682"
+    ],
+    "review": [
+      "36372288",
+      "24733656",
+      "8624133",
+      "15615645",
+      "28848737",
+      "16104002",
+      "1726645",
+      "30929793",
+      "15450610",
+      "37819542",
+      "31004638",
+      "25031639",
+      "33193056"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0304-4165(22)00194-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

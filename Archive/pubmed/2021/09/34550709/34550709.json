@@ -1,0 +1,211 @@
+{
+  "identity": {
+    "pmid": "34550709",
+    "doi": "10.1021/acs.jpcb.1c05131",
+    "title": "Transient Electrostatic Interactions between Fcp1 and Rap74 Bias the Conformational Ensemble of the Complex with Minimal Impact on Binding Affinity."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered protein (IDP) sequences often contain a high proportion of charged residues in conjunction with their high degree of hydrophilicity and solvation. For high net charge IDPs, long-range electrostatic interactions are thought to play a role in modulating the strength or kinetics of protein-protein interactions. In this work, we examined intramolecular interactions mediated by charged regions of a model IDP, the C-terminal tail of the phosphatase Fcp1. Specifically, this work focuses on intermolecular interactions between acidic and basic patches in the primary structure of Fcp1 and their contributions to binding its predominantly basic partner, the winged helix domain of Rap74. We observe both intramolecular and intermolecular interactions through paramagnetic relaxation enhancement (PRE) consistent with oppositely charged regions associating with one another, both in unbound Fcp1 and in the Fcp1-Rap74 complex. Formation of this complex is strongly driven by hydrophobic interactions in the minimal binding motif. Here, we test the hypothesis that charged residues in Fcp1 that flank the binding helix also contribute to the strength of binding. Charge inversion mutations in Fcp1 generally support this hypothesis, while PRE data suggest substitution of observed transient interactions in the unbound ensemble for similarly transient interactions with Rap74 in the complex.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phosphoprotein Phosphatases/metabolism",
+      "Protein Binding",
+      "Protein Structure, Secondary",
+      "Static Electricity",
+      "*Transcription Factors, TFII/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Prieto, Victor A",
+        "Namitz, Kevin E W",
+        "Showalter, Scott A"
+      ],
+      "short_names": [
+        "Prieto VA",
+        "Namitz KEW",
+        "Showalter SA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4434-1475",
+        "ORCID: 0000-0001-5179-032X"
+      ],
+      "affiliations": [
+        "Department of Chemistry, The Pennsylvania State University, University Park, Pennsylvania 16802, United States.",
+        "Department of Chemistry, The Pennsylvania State University, University Park, Pennsylvania 16802, United States.",
+        "Department of Chemistry, The Pennsylvania State University, University Park, Pennsylvania 16802, United States.",
+        "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania 16802, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Prieto, Victor A",
+        "short_name": "Prieto VA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The Pennsylvania State University, University Park, Pennsylvania 16802, United States."
+        ]
+      },
+      {
+        "full_name": "Namitz, Kevin E W",
+        "short_name": "Namitz KEW",
+        "identifiers": [
+          "0000-0003-4434-1475"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The Pennsylvania State University, University Park, Pennsylvania 16802, United States."
+        ]
+      },
+      {
+        "full_name": "Showalter, Scott A",
+        "short_name": "Showalter SA",
+        "identifiers": [
+          "0000-0001-5179-032X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The Pennsylvania State University, University Park, Pennsylvania 16802, United States.",
+          "Department of Biochemistry and Molecular Biology, The Pennsylvania State University, University Park, Pennsylvania 16802, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2021 Oct 7",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/23 06:00",
+    "fetched_at": "2026-09-20 05:33:43"
+  },
+  "links": {
+    "cites": [
+      "36917561"
+    ],
+    "refs": [],
+    "similar": [
+      "34550709",
+      "23387368",
+      "21988473",
+      "15723517",
+      "19215094",
+      "21672523",
+      "12732728",
+      "15723518",
+      "12578358",
+      "26286791",
+      "12591941",
+      "9765293",
+      "18284209",
+      "11248041",
+      "26274075",
+      "11522823",
+      "27551949",
+      "19888685",
+      "12560496",
+      "11003641",
+      "12138108",
+      "15563457",
+      "11273209",
+      "12370301",
+      "19026779",
+      "27046343",
+      "26794349",
+      "28369057",
+      "15670829",
+      "12354769",
+      "14701811",
+      "25207671",
+      "30968464",
+      "32654182",
+      "31506296",
+      "19632310",
+      "15304220",
+      "31709918",
+      "31550880",
+      "11934898",
+      "12351650",
+      "17200573",
+      "25883047",
+      "12556522",
+      "12591939",
+      "22095626",
+      "15133655",
+      "26910732",
+      "22569295",
+      "15170348",
+      "16166082",
+      "16905668",
+      "11904169",
+      "11751637",
+      "22733996",
+      "32325001",
+      "29548979",
+      "35727975",
+      "26195786",
+      "24504673",
+      "14672652",
+      "30413699",
+      "30193467",
+      "22903034",
+      "29590589",
+      "7797476",
+      "24211251",
+      "12181312",
+      "9762906",
+      "26653855",
+      "28597880",
+      "33454008",
+      "10523626",
+      "12470214",
+      "22721951",
+      "21440685",
+      "27936491",
+      "33030907",
+      "15342239",
+      "13679366",
+      "12721286",
+      "27844185",
+      "7929273",
+      "28280239",
+      "27028646",
+      "26742101",
+      "11183778",
+      "30823702",
+      "28890401",
+      "12842476",
+      "7827505"
+    ],
+    "review": [
+      "34550709",
+      "31709918",
+      "12470214"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.1c05131",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

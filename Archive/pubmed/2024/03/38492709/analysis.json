@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38492709",
+  "title": "Hiding in plain sight: Complex interaction patterns between Tau and 14-3-3zeta protein variants.",
+  "authors": "Crha, Radek; Kozelekova, Aneta; Hofrova, Alena; Ilkovicova, Lucia; Gasparik, Norbert; Kaderavek, Pavel; Hritz, Jozef",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2024-03-17",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用NMR、交联质谱等实验手段解析Tau（IDP）与14-3-3蛋白变体的结合亲和力、化学计量和界面，揭示复杂互作模式，但缺乏AI或物理模拟方法，机制建模深度有限。",
+  "abstract": "Tau protein is an intrinsically disordered protein that plays a key role in Alzheimer's disease (AD). In brains of AD patients, Tau occurs abnormally phosphorylated and aggregated in neurofibrillary tangles (NFTs). Together with Tau, 14-3-3 proteins - abundant cytosolic dimeric proteins - were found colocalized in the NFTs. However, so far, the molecular mechanism of the process leading to pathological changes in Tau structure as well as the direct involvement of 14-3-3 proteins are not well understood. Here, we aimed to reveal the effects of phosphorylation by protein kinase A (PKA) on Tau structural preferences and provide better insight into the interaction between Tau and 14-3-3 proteins. We also addressed the impact of monomerization-inducing phosphorylation of 14-3-3 at S58 on the binding to Tau protein. Using multidimensional nuclear magnetic resonance spectroscopy (NMR), chemical cross-linking analyzed by mass spectrometry (MS) and PAGE, we unveiled differences in their binding affinity, stoichiometry, and interfaces with single-residue resolution. We revealed that the interaction between 14-3-3 and Tau proteins is mediated not only via the 14-3-3 amphipathic binding grooves, but also via less specific interactions with 14-3-3 protein surface and, in the case of monomeric 14-3-3, also partially via the exposed dimeric interface. In addition, the hyperphosphorylation of Tau changes its affinity to 14-3-3 proteins. In conclusion, we propose quite complex interaction mode between the Tau and 14-3-3 proteins.",
+  "abstract_zh": "Tau蛋白是一种 intrinsically disordered protein（固有无序蛋白），在阿尔茨海默病（AD）中发挥关键作用。在AD患者的大脑中，Tau蛋白发生异常磷酸化并聚集形成神经原纤维缠结（NFTs）。与Tau蛋白一起，14-3-3蛋白——一种丰富的胞质二聚体蛋白——被发现共定位于NFTs中。然而，迄今为止，导致Tau蛋白结构病理变化的分子机制以及14-3-3蛋白的直接参与尚不完全清楚。在此，我们旨在揭示蛋白激酶A（PKA）磷酸化对Tau蛋白结构偏好的影响，并为Tau蛋白与14-3-3蛋白之间的相互作用提供更深入的见解。我们还探讨了14-3-3蛋白在S58位点发生单体化诱导磷酸化对其与Tau蛋白结合的影响。利用多维核磁共振波谱（NMR）、质谱（MS）分析的化学交联以及PAGE，我们揭示了它们在结合亲和力、化学计量比和界面上的差异，并达到单残基分辨率。我们发现，14-3-3蛋白与Tau蛋白之间的相互作用不仅通过14-3-3蛋白的两亲性结合沟槽介导，还通过与14-3-3蛋白表面的非特异性相互作用介导，并且在单体14-3-3的情况下，部分还通过暴露的二聚体界面介导。此外，Tau蛋白的过度磷酸化改变了其与14-3-3蛋白的亲和力。总之，我们提出了Tau蛋白与14-3-3蛋白之间相当复杂的相互作用模式。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38492709/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38492709/",
+  "paper_page_path": "papers/pubmed/38492709/index.html"
+}

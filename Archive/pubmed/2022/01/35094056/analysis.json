@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35094056",
+  "title": "DisEnrich: database of enriched regions in human dark proteome.",
+  "authors": "Medvedev, Kirill E; Pei, Jimin; Grishin, Nick V",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2022-01-31",
+  "window": {
+    "start": "2022-01-31",
+    "end": "2022-02-06"
+  },
+  "score": 5,
+  "one_liner_zh": "该文构建了人类蛋白质组中特定氨基酸富集无序区域(IDR)的数据库DisEnrich，并分析其功能分布，虽以IDR为对象且提及富集疏水残基的IDR对蛋白互作重要，但缺乏PPI机制建模和AI/物理模拟方法，属于资源型数据库工作。",
+  "abstract": "MOTIVATION: Intrinsically disordered proteins (IDPs) are involved in numerous processes crucial for living organisms. Bias in amino acid composition of these proteins determines their unique biophysical and functional features. Distinct intrinsically disordered regions (IDRs) with compositional bias play different important roles in various biological processes. IDRs enriched in particular amino acids in human proteome have not been described consistently. RESULTS: We developed DisEnrich-the database of human proteome IDRs that are significantly enriched in particular amino acids. Each human protein is described using Gene Ontology (GO) function terms, disorder prediction for the full-length sequence using three methods, enriched IDR composition and ranks of human proteins with similar enriched IDRs. Distribution analysis of enriched IDRs among broad functional categories revealed significant overrepresentation of R- and Y-enriched IDRs in metabolic and enzymatic activities and F-enriched IDRs in transport. About 75% of functional categories contain IDPs with IDRs significantly enriched in hydrophobic residues that are important for protein-protein interactions. AVAILABILITY AND IMPLEMENTATION: The database is available at http://prodata.swmed.edu/DisEnrichDB/. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics Advances online.",
+  "abstract_zh": "动机：固有无序蛋白（IDPs）参与众多对生物体至关重要的过程。这些蛋白质氨基酸组成的偏倚决定了其独特的生物物理和功能特性。具有组成偏倚的不同固有无序区域（IDRs）在各种生物过程中扮演着重要角色。人类蛋白质组中富含特定氨基酸的IDRs尚未得到一致描述。结果：我们开发了DisEnrich——人类蛋白质组中显著富含特定氨基酸的IDRs数据库。每个人类蛋白质均使用基因本体（GO）功能术语描述，通过三种方法对全长序列进行无序预测，并包含富集IDR组成及具有相似富集IDR的人类蛋白质排名。对广泛功能类别中富集IDR的分布分析显示，R-和Y-富集IDRs在代谢和酶活性中显著过度表达，而F-富集IDRs在转运中显著过度表达。约75%的功能类别包含具有显著富集疏水残基IDRs的IDPs，这些残基对蛋白质-蛋白质相互作用至关重要。可用性与实现：该数据库可在http://prodata.swmed.edu/DisEnrichDB/获取。补充信息：补充数据可在《生物信息学进展》在线版获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35094056/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35094056/",
+  "paper_page_path": "papers/pubmed/35094056/index.html"
+}

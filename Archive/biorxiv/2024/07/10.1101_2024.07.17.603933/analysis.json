@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.17.603933",
+  "title": "Gradations in protein dynamics captured by experimental NMR are not well represented by AlphaFold2 models and other computational metrics",
+  "authors": "Gavalda-Garcia J; Dixit B; Díaz A; Ghysels A; Vranken W",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-19",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文大规模比较AlphaFold2 pLDDT、NMR动态与NMA预测，指出计算指标无法捕捉无序/柔性区域的动态梯度，虽非直接研究PPI，但对IDR动态建模与AI/物理方法评估有参考价值。",
+  "abstract": "The advent of accurate methods to predict the fold of proteins initiated by AlphaFold2 is rapidly changing our understanding of proteins and helping their design. However, these methods are mainly trained on protein structures determined with X-ray diffraction, where the protein is packed in crystals at often cryogenic temperatures. They can therefore only reliably cover well-folded parts of proteins that experience few, if any, conformational changes. Experimentally, solution nuclear magnetic resonance (NMR) is the experimental method of choice to gain insight into protein dynamics at near physiological conditions. Computationally, methods such as molecular dynamics and Normal Mode Analysis (NMA) allow the estimation of a protein’s intrinsic flexibility based on a single protein structure. This work addresses, on a large scale, the relationships for proteins between the AlphaFold2 pLDDT metric, the observed dynamics in solution from NMR metrics, interpreted MD simulations, and the computed dynamics with NMA from single AlphaFold2 models and NMR ensembles. We observe that these metrics agree well for rigid residues that adopt a single well-defined conformation, which are clearly distinct from residues that exhibit dynamic behavior and adopt multiple conformations. This direct order/disorder categorisation is reflected in the correlations observed between the parameters, but becomes very limited when considering only the likely dynamic residues. The gradations of dynamics observed by NMR in flexible protein regions are therefore not represented by these computational approaches. Our results are interactively available for each protein from https://bio2byte.be/af_nmr_nma/ .",
+  "abstract_zh": "AlphaFold2引发的准确预测蛋白质折叠方法的出现，正迅速改变我们对蛋白质的理解并助力其设计。然而，这些方法主要基于X射线衍射测定的蛋白质结构进行训练，其中蛋白质在通常低温条件下于晶体中堆积。因此，它们只能可靠覆盖蛋白质中经历极少（如果有的话）构象变化的良好折叠部分。实验上，溶液核磁共振（NMR）是在接近生理条件下洞察蛋白质动态的首选实验方法。计算上，分子动力学和简正模式分析（NMA）等方法允许基于单一蛋白质结构估算其内在柔性。本研究大规模探讨了蛋白质中AlphaFold2 pLDDT指标、来自NMR指标的溶液观测动态、解释的MD模拟，以及基于单一AlphaFold2模型和NMR系综的NMA计算动态之间的关系。我们观察到，这些指标对于采用单一明确构象的刚性残基吻合良好，这些残基与表现出动态行为并采用多种构象的残基明显区分。这种直接的有序/无序分类反映在观测到的参数间相关性中，但当仅考虑可能的动态残基时，这种相关性变得非常有限。因此，NMR在柔性蛋白质区域观测到的动态梯度并未被这些计算方法所代表。我们的结果可交互式访问，针对每个蛋白质见https://bio2byte.be/af_nmr_nma/。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.17.603933",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.17.603933",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.17.603933/index.html"
+}

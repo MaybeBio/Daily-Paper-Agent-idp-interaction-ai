@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.24.517863",
+  "title": "Why Does Synergistic Activation of WASP, but Not N-WASP, by Cdc42 and PIP 2 Require Cdc42 Prenylation?",
+  "authors": "Dey S; Zhou H",
+  "journal": "bioRxiv",
+  "published_date": "2022-11-24",
+  "window": {
+    "start": "2022-11-21",
+    "end": "2022-11-27"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用分子动力学模拟研究无序蛋白WASP/N-WASP与Cdc42及PIP2膜的多调控因子协同结合机制，揭示Cdc42异戊二烯化对WASP激活的特异性需求，直接聚焦IDP介导的蛋白-膜/蛋白互作机制建模，对本课题有高度启发。",
+  "abstract": "Human WASP and N-WASP are homologous proteins that require the binding of multiple regulators, including the acidic lipid PIP 2 and the small GTPase Cdc42, to relieve autoinhibition before they can stimulate the initiation of actin polymerization. Autoinhibition involves intramolecular binding of the C-terminal acidic and central motifs to an upstream basic region and GTPase binding domain. Little is known about how a single intrinsically disordered protein, WASP or N-WASP, binds multiple regulators to achieve full activation. Here we used molecular dynamics simulations to characterize the binding of WASP and N-WASP with PIP 2 and Cdc42. In the absence of Cdc42, both WASP and N-WASP strongly associate with PIP 2 -containing membranes, through their basic region and also possibly through a tail portion of the N-terminal WH1 domain. The basic region also participates in Cdc42 binding, especially for WASP; consequently Cdc42 binding significantly compromises the ability of the basic region in WASP, but not N-WASP, to bind PIP 2 . PIP 2 binding to the WASP basic region is restored only when Cdc42 is prenylated at the C-terminus and tethered to the membrane. This distinction in the activation of WASP and N-WASP may contribute to their different functional roles.",
+  "abstract_zh": "人源WASP和N-WASP是同源蛋白，需要结合多种调控因子，包括酸性脂质PIP 2和小GTP酶Cdc42，以解除自身抑制，才能刺激肌动蛋白聚合的起始。自身抑制涉及C端酸性基序和中央基序与上游碱性区域及GTP酶结合域内的分子内结合。关于单一内在无序蛋白WASP或N-WASP如何结合多种调控因子以实现完全激活，目前知之甚少。在此，我们利用分子动力学 (molecular dynamics) 模拟来表征WASP和N-WASP与PIP 2及Cdc42的结合。在缺乏Cdc42的情况下，WASP和N-WASP均通过其碱性区域，并可能通过N端WH1结构域的尾部部分，与含PIP 2的膜强烈结合。碱性区域也参与Cdc42结合，尤其是对WASP而言；因此，Cdc42结合显著削弱了WASP（而非N-WASP）碱性区域结合PIP 2的能力。只有当Cdc42在C端异戊二烯化并锚定于膜上时，WASP碱性区域与PIP 2的结合才得以恢复。WASP和N-WASP在激活上的这一差异可能有助于它们不同的功能角色。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.24.517863",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.24.517863",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.24.517863/index.html"
+}

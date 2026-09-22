@@ -1,0 +1,235 @@
+{
+  "identity": {
+    "pmid": "35167081",
+    "doi": "10.1007/978-1-0716-1546-1_15",
+    "title": "Modifying Amyloid Motif Aggregation Through Local Structure."
+  },
+  "content": {
+    "abstract": "Protein assembly into beta-sheet-rich amyloid structures is a general biophysical phenomenon that has significant biological consequences, most notable for their prominent association with neurodegenerative diseases, including Alzheimer's, Huntington's, or Parkinson's diseases. The assembly of amyloid structures is driven by short sequences called amyloid motifs. In many neurodegenerative diseases, intrinsically disordered proteins (IDPs) self-assemble through amyloid motifs, but these motifs are present in all proteins, including folded globular proteins. Importantly, mechanistic knowledge is lacking for how IDPs, which do not adopt a stable tertiary structure, mask these amyloidogenic motifs to mitigate or slow the formation of beta-sheet-rich amyloid structures that cause disease. Our recent work has shown that local structural elements can modify the aggregation propensity of amyloid motifs in the intrinsically disordered microtubule-associated protein tau by adopting metastable beta-hairpin-like structures that shield the amyloid motif, and disease-causing mutations change the conformation, thus increase aggregation propensity (Chen, Nat Commun 10:2493, 2019). Here we describe a protocol that correlates experimentally determined aggregation propensities for peptides measured by the Thioflavin T (ThT) fluorescence aggregation assay with their conformational ensembles derived from Groningen machine chemical simulations (GROMACS). Integration of experiment and simulation will help uncover structural rules behind changes in conformation that modulate protein aggregation. We anticipate that our general protocol will help identify key interactions in local structures that engage amyloid-forming motifs in IDPs which influence aggregation behavior.",
+    "keywords": [
+      "Amyloid motifs",
+      "Beta-turns",
+      "IDPs",
+      "Intrinsically disordered proteins",
+      "Molecular dynamics",
+      "Pathogenic mutations",
+      "Protein aggregation",
+      "Protein folding",
+      "Secondary structure"
+    ],
+    "mesh_terms": [
+      "Amyloid",
+      "*Amyloid beta-Peptides",
+      "Amyloidogenic Proteins",
+      "*Intrinsically Disordered Proteins",
+      "Protein Aggregates",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bali, Sofia",
+        "Joachimiak, Lukasz A"
+      ],
+      "short_names": [
+        "Bali S",
+        "Joachimiak LA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular Biophysics Graduate Program, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Center for Alzheimer's and Neurodegenerative Diseases, University of Texas Southwestern Medical Center, Dallas, TX, USA. Lukasz.Joachimiak@utsouthwestern.edu.",
+        "Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, TX, USA. Lukasz.Joachimiak@utsouthwestern.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bali, Sofia",
+        "short_name": "Bali S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biophysics Graduate Program, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Joachimiak, Lukasz A",
+        "short_name": "Joachimiak LA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Alzheimer's and Neurodegenerative Diseases, University of Texas Southwestern Medical Center, Dallas, TX, USA. Lukasz.Joachimiak@utsouthwestern.edu.",
+          "Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, TX, USA. Lukasz.Joachimiak@utsouthwestern.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/16 06:00",
+    "fetched_at": "2026-09-20 08:21:54"
+  },
+  "links": {
+    "cites": [
+      "41352343",
+      "38313287"
+    ],
+    "refs": [
+      "10027275"
+    ],
+    "similar": [
+      "35167081",
+      "36310204",
+      "29364151",
+      "32623047",
+      "30875980",
+      "15313629",
+      "30216674",
+      "32371882",
+      "39150403",
+      "33951592",
+      "34358545",
+      "29508987",
+      "35034725",
+      "33108190",
+      "38928405",
+      "31894361",
+      "31342431",
+      "28970487",
+      "33727072",
+      "41173868",
+      "41330221",
+      "21761818",
+      "35934194",
+      "32007275",
+      "24566672",
+      "24410358",
+      "26923286",
+      "41289380",
+      "33078207",
+      "33806726",
+      "28882313",
+      "33068637",
+      "34032430",
+      "25691742",
+      "24871565",
+      "32703978",
+      "34152264",
+      "36797278",
+      "23531173",
+      "34604227",
+      "25284680",
+      "34545666",
+      "33788542",
+      "30973229",
+      "37246935",
+      "39561991",
+      "31998071",
+      "37686208",
+      "32975927",
+      "31661242",
+      "33269918",
+      "40198698",
+      "16533927",
+      "23811057",
+      "35167084",
+      "28922400",
+      "31524157",
+      "32771522",
+      "30865832",
+      "29248553",
+      "30259679",
+      "30443712",
+      "35144022",
+      "34768745",
+      "28833749",
+      "29432676",
+      "23723000",
+      "34986640",
+      "39450869",
+      "39924043",
+      "23912807",
+      "31299481",
+      "29571707",
+      "30803034",
+      "36630781",
+      "40403529",
+      "30003969",
+      "34390736",
+      "25785896",
+      "32849553",
+      "38802601",
+      "39947750",
+      "31521231",
+      "26100600",
+      "24763499",
+      "27012425",
+      "22149676",
+      "32155822",
+      "31521230",
+      "30840442",
+      "31282646",
+      "28049728",
+      "34839162",
+      "38271485",
+      "37741548",
+      "32816485",
+      "36972817",
+      "29221856",
+      "29493036",
+      "36206480"
+    ],
+    "review": [
+      "35167081",
+      "29364151",
+      "30875980",
+      "30216674",
+      "33951592",
+      "34358545",
+      "29508987",
+      "24566672",
+      "33078207",
+      "34545666",
+      "30973229",
+      "31998071",
+      "16533927",
+      "35144022",
+      "34768745",
+      "28833749",
+      "31299481",
+      "34390736",
+      "32849553",
+      "39947750",
+      "31521231",
+      "32155822",
+      "31521230",
+      "30840442"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-1546-1_15",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

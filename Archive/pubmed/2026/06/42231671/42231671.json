@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "42231671",
+    "doi": "10.1021/jacs.6c04988",
+    "title": "Phase-Transformable DNA Frameworks for Synthetic Condensates with Valency-Controlled Subcellular Sorting."
+  },
+  "content": {
+    "abstract": "Synthetic control of intracellular phase separation offers exciting opportunities for engineering artificial membraneless organelles (MLOs). However, achieving precise control of DNA-based condensates in complex cellular environments remains challenging. Here, we present a phase-transforming DNA framework that enables the in situ transition of tetrahedral DNA nanostructures into functional condensates through valency-controlled subcellular sorting. With coarse-grained simulations and experiments, we demonstrate that the condensation order is governed by binding valencies of transformed building blocks. Strikingly, we revealed distinct intracellular fates of synDNA condensates, with high-order condensates escaping the endolysosomal pathway and low-order condensates trapped in the lysosome. Furthermore, we demonstrate that spatially controlled DNA condensates serve as versatile artificial MLOs, facilitating the targeted degradation of membrane proteins and prolonging the cytosolic residence of the therapeutic payloads. Our findings establish a modular design principle for constructing programmable DNA condensates in cellulo, underscoring the profound interactions between synthetic biological constructs and cellular organelles.",
+    "keywords": [],
+    "mesh_terms": [
+      "DNA Nanostructures/chemistry",
+      "*DNA/chemistry",
+      "Phase Separation",
+      "Organelles/chemistry",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Haozhen",
+        "Zhao, Ziyi",
+        "Lv, Haoyue",
+        "Xu, Zhiqian",
+        "Han, Zhaoyu",
+        "Liu, Biwu",
+        "Zhao, Yongxi"
+      ],
+      "short_names": [
+        "Yu H",
+        "Zhao Z",
+        "Lv H",
+        "Xu Z",
+        "Han Z",
+        "Liu B",
+        "Zhao Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7357-9875",
+        "ORCID: 0000-0002-1796-7651"
+      ],
+      "affiliations": [
+        "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China.",
+        "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China.",
+        "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China.",
+        "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China.",
+        "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China.",
+        "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China.",
+        "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China.",
+        "Frontier Institute of Science and Technology, and Interdisciplinary Research Center of Frontier Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China.",
+        "State Key Laboratory of Human-Machine Hybrid Augmented Intelligence, Xi'an Jiaotong University, Xi'an, 710049 Shaanxi, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Haozhen",
+        "short_name": "Yu H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Ziyi",
+        "short_name": "Zhao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Lv, Haoyue",
+        "short_name": "Lv H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zhiqian",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Han, Zhaoyu",
+        "short_name": "Han Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Biwu",
+        "short_name": "Liu B",
+        "identifiers": [
+          "0000-0001-7357-9875"
+        ],
+        "affiliations": [
+          "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Yongxi",
+        "short_name": "Zhao Y",
+        "identifiers": [
+          "0000-0002-1796-7651"
+        ],
+        "affiliations": [
+          "Institute of Analytical Chemistry and Instrument for Life Science, The Key Laboratory of Biomedical Information Engineering of Ministry of Education, School of Life Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China.",
+          "Frontier Institute of Science and Technology, and Interdisciplinary Research Center of Frontier Science and Technology, Xi'an Jiaotong University, Xi'an, Shaanxi 710049, P. R. China.",
+          "State Key Laboratory of Human-Machine Hybrid Augmented Intelligence, Xi'an Jiaotong University, Xi'an, 710049 Shaanxi, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2026 Jun 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/03 06:34",
+    "fetched_at": "2026-09-18 03:49:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42231671",
+      "41587927",
+      "36240277",
+      "41758048",
+      "39080489",
+      "41729997",
+      "40791163",
+      "37577006",
+      "41480717",
+      "41738383",
+      "35090078",
+      "38588907",
+      "32726575",
+      "32194074",
+      "35680863",
+      "38884477",
+      "40577602",
+      "40368917",
+      "41774821",
+      "42065640",
+      "40747041",
+      "30926670",
+      "42225537",
+      "33890764",
+      "38979955",
+      "37705794",
+      "42315359",
+      "35802394",
+      "42126444",
+      "32482873",
+      "41979049",
+      "41726936",
+      "31444270",
+      "38063081",
+      "42047267",
+      "32800925",
+      "33672806",
+      "32548680",
+      "41602950",
+      "40931032",
+      "41703712",
+      "35918061",
+      "34341589",
+      "32405004",
+      "39987501",
+      "41500492",
+      "37359769",
+      "32601486",
+      "40954121",
+      "39592156",
+      "40168179",
+      "41636358",
+      "36179672",
+      "39670461",
+      "39178343",
+      "33049214",
+      "39284811",
+      "37925283",
+      "34648259",
+      "34600419",
+      "37464880",
+      "36755726",
+      "40776809",
+      "37871222",
+      "35883463",
+      "40545646",
+      "42149037",
+      "40539511",
+      "35575335",
+      "40293809",
+      "32080961",
+      "36747054",
+      "36400990",
+      "39319382",
+      "38773325",
+      "37191277",
+      "39462114",
+      "33376791",
+      "34293345",
+      "34433013",
+      "41596484",
+      "40848932",
+      "33168632",
+      "36028355",
+      "42139459",
+      "41670285",
+      "31199001",
+      "41688461",
+      "37728515",
+      "38781377",
+      "35867936",
+      "41381477",
+      "37685957",
+      "36164646",
+      "42204980",
+      "41889100",
+      "39622001",
+      "36117111",
+      "29323488",
+      "40661423"
+    ],
+    "review": [
+      "42231671",
+      "41587927",
+      "41758048",
+      "41480717",
+      "38588907",
+      "32726575",
+      "32194074",
+      "42225537",
+      "38979955",
+      "35802394",
+      "41979049",
+      "31444270",
+      "32800925",
+      "32548680",
+      "41500492",
+      "37359769",
+      "39592156",
+      "41636358",
+      "39178343",
+      "33049214",
+      "37925283",
+      "34600419",
+      "37464880",
+      "35883463",
+      "32080961",
+      "36400990",
+      "38773325",
+      "34293345",
+      "41596484",
+      "33168632",
+      "36028355",
+      "36164646",
+      "42204980",
+      "41889100",
+      "39622001",
+      "36117111"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.6c04988",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

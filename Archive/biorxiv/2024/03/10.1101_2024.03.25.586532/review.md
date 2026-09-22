@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors reconstituted in vitro the activities of five ciliary tip module proteins (CEP104, CSPP1, TOGARAM1, ARMC9, CCDC66) and propose a mechanistic model in which opposing activities of these proteins generate slow, processive microtubule growth that mimics axonemal dynamics in cells. CEP104 is described as an inhibitor of microtubule growth and shortening, TOGARAM1 overcomes this inhibition, CSPP1 acts as a luminal pausing factor, and CCDC66 and ARMC9 serve as scaffolds. Cryo-electron tomography is reported to show cork-like structures at microtubule plus ends that reduce protofilament flaring.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, statistical analyses, experimental replicates, controls, and any quantitative data supporting the stated conclusions
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and integrative model for ciliary microtubule dynamics, combining in vitro reconstitution with structural analysis. The topic is timely and the protein set is biologically relevant given the links to ciliopathies. However, the abstract alone provides insufficient detail to evaluate the rigor of the experiments, the quantitative basis for the claims, or the strength of the structural interpretations. Several claims are stated categorically without visible supporting evidence. The work could be of interest to the microtubule and cilia communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying microtubule dynamics, cilia biology, and ciliopathies would be interested. The proposed mechanism of opposing activities at the ciliary tip could inform understanding of how slow axonemal dynamics are achieved and how mutations in these proteins lead to disease. The cryo-electron tomography findings may also appeal to structural biologists studying microtubule-associated complexes.
+- **Major strengths** The abstract addresses an under-explored question, namely the biochemical basis of slow axonemal microtubule dynamics. The combination of in vitro reconstitution with cryo-electron tomography is a strong approach. The inclusion of disease-linked proteins adds translational relevance. The proposed model, in which opposing activities produce a net slow growth phenotype, is conceptually appealing.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the combined effect of these proteins is very slow processive microtubule elongation which recapitulates axonemal dynamics in cells
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that the combined effect recapitulates axonemal dynamics, but no quantitative comparison is shown. It is unclear how the measured growth rates compare to in vivo axonemal dynamics, what the variability is, or whether the processivity is truly comparable. The term recapitulates implies a quantitative match that cannot be assessed from the abstract.
+  - **Why it matters** This is the central conclusion of the work. If the quantitative match is not demonstrated rigorously, the claim overreaches and the physiological relevance of the reconstituted system remains uncertain.
+  - **Resolution test** Provide quantitative growth rates and processivity values from the reconstituted system, with statistical comparisons to published or measured axonemal dynamics in cells. Show that the differences are not statistically significant or that the ranges overlap.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that CEP104 is an inhibitor of microtubule growth and shortening
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that CEP104 inhibits both growth and shortening, but no data are shown to support this dual inhibitory effect. It is unclear whether the inhibition is concentration dependent, whether it affects both plus and minus ends, and how the TOG domain contributes to this activity.
+  - **Why it matters** This is a key mechanistic claim. Without visible dose response data or controls, the specificity and magnitude of the inhibition cannot be evaluated.
+  - **Resolution test** Show concentration dependent effects of CEP104 on microtubule growth and shortening rates, with appropriate controls such as a TOG domain mutant or a non-binding variant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that cryo-electron tomography showed that ciliary tip module members form plus-end-specific cork-like structures which reduce protofilament flaring
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The structural claim is stated as a definitive finding, but no tomographic reconstructions, resolution estimates, or quantitative measurements of protofilament flaring are provided. It is unclear how the cork-like structures were identified, whether they were observed in multiple conditions, and how flaring was quantified.
+  - **Why it matters** This structural observation is a central piece of the proposed mechanism. Without visible structural evidence and quantitative analysis, the claim cannot be verified.
+  - **Resolution test** Provide representative tomographic slices or reconstructions, describe the identification criteria for cork-like structures, and show quantitative measurements of protofilament flaring with and without the protein module.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that CCDC66 and ARMC9 do not affect microtubule dynamics directly but act as scaffolds for their partners
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that CCDC66 and ARMC9 have no direct effect on dynamics, but no data are shown to support this negative result. It is unclear what assays were used, whether the proteins were tested at relevant concentrations, and whether any subtle effects were observed.
+  - **Why it matters** Negative claims require adequate statistical power and appropriate controls. Without visible data, the claim that these proteins are purely scaffolds is not established.
+  - **Resolution test** Show that CCDC66 and ARMC9 alone have no significant effect on microtubule dynamics across a range of concentrations, and demonstrate that their scaffold function is required for the effects of their partners.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term cork-like structures is descriptive but not defined. It is unclear whether this refers to a protein density at the microtubule tip, a cap, or a specific structural arrangement.
+  - **Required correction** Define the term clearly in the abstract or refer to a specific structural feature that can be visualized.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Protein interactions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the proteins interact with each other and with microtubules, but the interaction map is not described. It is unclear which interactions are direct and which are mediated.
+  - **Required correction** Briefly describe the interaction network or refer to a figure that maps the direct and indirect interactions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Disease relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions that mutations in these proteins cause ciliopathies such as Joubert syndrome, but does not connect the mechanistic findings to disease mechanism.
+  - **Required correction** Add a sentence linking the proposed mechanism to how mutations might disrupt ciliary function and lead to pathology.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central quantitative and structural claims are not supported by visible evidence in the abstract. R1-M4 is a negative claim that requires adequate controls and statistical power.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of reconstituting a multi-protein ciliary tip module in vitro is conceptually original and addresses a gap in the field. The proposed opposing activities model is novel.
+  - Scientific importance: The work has potential importance for understanding ciliary microtubule dynamics and ciliopathy mechanisms. If the claims are rigorously supported, the findings could shift thinking about how slow axonemal dynamics are achieved.
+  - Interdisciplinary readership: The topic bridges cell biology, biophysics, and structural biology. The abstract is written in a way that is accessible to a broad biological audience, though some terms may require background knowledge.
+  - Technical soundness: Cannot be assessed from the abstract. The claims require quantitative and structural evidence that is not visible.
+  - Readability for nonspecialists: The abstract is generally clear and well structured. The key concepts are introduced adequately for a broad readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting model, but the central quantitative and structural claims cannot be evaluated without the full manuscript. I would be supportive if the technical concerns are resolved with rigorous data.
+
+## Risk / unsupported claims
+- The claim that the combined effect recapitulates axonemal dynamics in cells is unsupported without quantitative comparison.
+- The claim that CEP104 inhibits both growth and shortening is unsupported without dose response data.
+- The claim that cryo-electron tomography showed cork-like structures that reduce protofilament flaring is unsupported without structural evidence and quantitative analysis.
+- The claim that CCDC66 and ARMC9 have no direct effect on dynamics is unsupported without visible negative data.
+- The interaction network among the five proteins is described but not detailed, making the scaffold claims for CCDC66 and ARMC9 unverifiable.

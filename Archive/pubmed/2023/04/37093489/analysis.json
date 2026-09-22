@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37093489",
+  "title": "Nuclear Magnetic Resonance-Guided Structural Analysis of Moderate-Affinity Protein Complexes with Intrinsically Disordered Polypeptides.",
+  "authors": "Tolkatchev, Dmitri; Smith, Garry E Jr; Kostyukova, Alla S",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2023-04-24",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出结合NMR化学位移、残基替换效应、残余偶极耦合与分子动力学模拟的混合方案，解析无序蛋白与折叠蛋白中等亲和力复合物的结合界面结构，直接聚焦IDP-PPI机制建模，方法可迁移至其他IDR复合物。",
+  "abstract": "Binding affinity of an individual binding site of an intrinsically disordered protein for its folded partner may be moderate. In such cases, a straightforward determination of the structure of the binding interface is difficult. We offer a hybrid protocol combining NMR chemical shift information, NMR spectral data on amino acid residue sequence substitution effects, residual dipolar coupling, and molecular dynamics simulation that allowed us to determine the structure of a complex between the intrinsically disordered tropomyosin-binding site of leiomodin and a coiled-coil peptide modeling the N-terminal fragment of tropomyosin. The protocol can be used for other moderate-affinity complexes composed of an intrinsically disordered peptide bound to a structured protein partner.",
+  "abstract_zh": "intrinsically disordered protein（内在无序蛋白）的单个结合位点与其折叠伙伴的结合亲和力可能适中。在这种情况下，直接确定结合界面的结构较为困难。我们提出了一种混合方案，结合NMR化学位移信息、氨基酸残基序列替换效应的NMR光谱数据、残余偶极耦合以及分子动力学模拟，从而能够确定leiomodin的内在无序肌钙蛋白结合位点与模拟肌钙蛋白N端片段的卷曲螺旋肽之间复合物的结构。该方案可用于其他由内在无序肽结合到结构化蛋白伙伴组成的适中亲和力复合物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37093489/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37093489/",
+  "paper_page_path": "papers/pubmed/37093489/index.html"
+}

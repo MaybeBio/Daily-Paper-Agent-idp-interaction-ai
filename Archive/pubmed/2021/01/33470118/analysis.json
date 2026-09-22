@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33470118",
+  "title": "Structure and Dynamics of Ribonuclease A during Thermal Unfolding: The Failure of the Zimm Model.",
+  "authors": "Fischer, Jennifer; Radulescu, Aurel; Falus, Peter; Richter, Dieter; Biehl, Ralf",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-01-21",
+  "window": {
+    "start": "2021-01-18",
+    "end": "2021-01-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用中子自旋回波和粗粒化模拟研究核糖核酸酶A热去折叠中无序态链的动力学，以Zimm模型加内摩擦描述构象弛豫，虽对象非IDP但无序链动力学建模思路对IDP互作机制有可迁移启发。",
+  "abstract": "Disordered regions as found in intrinsically disordered proteins (IDP) or during protein folding define response time to stimuli and protein folding times. Neutron spin-echo spectroscopy is a powerful tool to directly access the collective motions of the unfolded chain to enlighten the physical origin of basic conformational relaxation. During the thermal unfolding of native ribonuclease A, we examine the structure and dynamics of the disordered state within a two-state transition model using polymer models, including internal friction, to describe the chain dynamics. The presence of four disulfide bonds alters the disordered configuration to a more compact configuration compared to a Gaussian chain that is defined by the additional links, as demonstrated by coarse-grained simulation. The dynamics of the disordered chain is described by Zimm dynamics with internal friction (ZIF) between neighboring amino acids. Relaxation times are dominated by mode-independent internal friction. Internal friction relaxation times show an Arrhenius-like behavior with an activation energy of 33 kJ/mol. The Zimm dynamics is dominated by internal friction and suggest that the characteristic motions correspond to overdamped elastic modes similar to the motions observed for folded proteins but within a pool of disordered configurations spanning the configurational space. For IDP, internal friction dominates while solvent friction and hydrodynamic interactions are smaller corrections.",
+  "abstract_zh": "intrinsically disordered proteins (IDP) 或蛋白质折叠过程中发现的无序区域决定了对外界刺激的响应时间和蛋白质折叠时间。中子自旋回波谱是一种直接探测未折叠链集体运动的强大工具，有助于揭示基本构象弛豫的物理起源。在天然核糖核酸酶A的热解折叠过程中，我们利用聚合物模型（包括内摩擦）在二态转变模型框架内研究无序态的结构与动力学，以描述链的动力学行为。四个二硫键的存在使无序构象相较于高斯链变得更紧凑，这种紧凑性由额外连接定义，粗粒化模拟证实了这一点。无序链的动力学由相邻氨基酸间的内摩擦Zimm动力学（ZIF）描述。弛豫时间由与模式无关的内摩擦主导。内摩擦弛豫时间表现出Arrhenius行为，活化能为33 kJ/mol。Zimm动力学受内摩擦主导，表明特征运动对应于过阻尼弹性模式，类似于折叠蛋白中观察到的运动，但发生在覆盖构象空间的无序构象池中。对于IDP，内摩擦占主导，而溶剂摩擦和流体动力学相互作用是较小的修正项。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33470118/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33470118/",
+  "paper_page_path": "papers/pubmed/33470118/index.html"
+}

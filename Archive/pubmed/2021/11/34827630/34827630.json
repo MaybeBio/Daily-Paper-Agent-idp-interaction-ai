@@ -1,0 +1,445 @@
+{
+  "identity": {
+    "pmid": "34827630",
+    "doi": "10.3390/biom11111632",
+    "title": "Bioinformatic Analysis of Lytic Polysaccharide Monooxygenases Reveals the Pan-Families Occurrence of Intrinsically Disordered C-Terminal Extensions."
+  },
+  "content": {
+    "abstract": "Lytic polysaccharide monooxygenases (LPMOs) are monocopper enzymes secreted by many organisms and viruses. LPMOs catalyze the oxidative cleavage of different types of polysaccharides and are today divided into eight families (AA9-11, AA13-17) within the Auxiliary Activity enzyme class of the CAZy database. LPMOs minimal architecture encompasses a catalytic domain, to which can be appended a carbohydrate-binding module. Intriguingly, we observed that some LPMO sequences also display a C-terminal extension of varying length not associated with any known function or fold. Here, we analyzed 27,060 sequences from different LPMO families and show that 60% have a C-terminal extension predicted to be intrinsically disordered. Our analysis shows that these disordered C-terminal regions (dCTRs) are widespread in all LPMO families (except AA13) and differ in terms of sequence length and amino-acid composition. Noteworthily, these dCTRs have so far only been observed in LPMOs. LPMO-dCTRs share a common polyampholytic nature and an enrichment in serine and threonine residues, suggesting that they undergo post-translational modifications. Interestingly, dCTRs from AA11 and AA15 are enriched in redox-sensitive, conditionally disordered regions. The widespread occurrence of dCTRs in LPMOs from evolutionarily very divergent organisms, hints at a possible functional role and opens new prospects in the field of LPMOs.",
+    "keywords": [
+      "CAZymes",
+      "LPMO",
+      "conditionally disordered regions",
+      "disorder prediction",
+      "intrinsically disordered regions",
+      "lytic polysaccharide monooxygenase",
+      "redox-sensitive"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Binding Sites",
+      "Buffers",
+      "*Computational Biology",
+      "Fungi/genetics",
+      "Gene Expression Regulation, Fungal",
+      "Intrinsically Disordered Proteins/*chemistry",
+      "Mixed Function Oxygenases/*metabolism",
+      "Polysaccharides/*metabolism",
+      "Serine/metabolism",
+      "Threonine/metabolism",
+      "Viruses/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tamburrini, Ketty C",
+        "Terrapon, Nicolas",
+        "Lombard, Vincent",
+        "Bissaro, Bastien",
+        "Longhi, Sonia",
+        "Berrin, Jean-Guy"
+      ],
+      "short_names": [
+        "Tamburrini KC",
+        "Terrapon N",
+        "Lombard V",
+        "Bissaro B",
+        "Longhi S",
+        "Berrin JG"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3693-6017",
+        "ORCID: 0000-0002-9684-7067",
+        "ORCID: 0000-0001-8354-3892",
+        "ORCID: 0000-0002-6829-6771"
+      ],
+      "affiliations": [
+        "Architecture et Fonction des Macromolecules Biologiques (AFMB), Centre National de la Recherche Scientifique (CNRS), Aix-Marseille Universite (AMU), UMR 7257, 13288 Marseille, France.",
+        "Biodiversite et Biotechnologie Fongiques (BBF), French National Institute for Agriculture, Food, and Environment (INRAE), Aix-Marseille Universite (AMU), UMR 1163, 13288 Marseille, France.",
+        "Architecture et Fonction des Macromolecules Biologiques (AFMB), Centre National de la Recherche Scientifique (CNRS), Aix-Marseille Universite (AMU), UMR 7257, 13288 Marseille, France.",
+        "Architecture et Fonction des Macromolecules Biologiques (AFMB), French National Institute for Agriculture, Food, and Environment (INRAE), USC 1408, 13288 Marseille, France.",
+        "Architecture et Fonction des Macromolecules Biologiques (AFMB), Centre National de la Recherche Scientifique (CNRS), Aix-Marseille Universite (AMU), UMR 7257, 13288 Marseille, France.",
+        "Architecture et Fonction des Macromolecules Biologiques (AFMB), French National Institute for Agriculture, Food, and Environment (INRAE), USC 1408, 13288 Marseille, France.",
+        "Biodiversite et Biotechnologie Fongiques (BBF), French National Institute for Agriculture, Food, and Environment (INRAE), Aix-Marseille Universite (AMU), UMR 1163, 13288 Marseille, France.",
+        "Architecture et Fonction des Macromolecules Biologiques (AFMB), Centre National de la Recherche Scientifique (CNRS), Aix-Marseille Universite (AMU), UMR 7257, 13288 Marseille, France.",
+        "Biodiversite et Biotechnologie Fongiques (BBF), French National Institute for Agriculture, Food, and Environment (INRAE), Aix-Marseille Universite (AMU), UMR 1163, 13288 Marseille, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tamburrini, Ketty C",
+        "short_name": "Tamburrini KC",
+        "identifiers": [],
+        "affiliations": [
+          "Architecture et Fonction des Macromolécules Biologiques (AFMB), Centre National de la Recherche Scientifique (CNRS), Aix-Marseille Université (AMU), UMR 7257, 13288 Marseille, France.",
+          "Biodiversité et Biotechnologie Fongiques (BBF), French National Institute for Agriculture, Food, and Environment (INRAE), Aix-Marseille Université (AMU), UMR 1163, 13288 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Terrapon, Nicolas",
+        "short_name": "Terrapon N",
+        "identifiers": [
+          "0000-0002-3693-6017"
+        ],
+        "affiliations": [
+          "Architecture et Fonction des Macromolécules Biologiques (AFMB), Centre National de la Recherche Scientifique (CNRS), Aix-Marseille Université (AMU), UMR 7257, 13288 Marseille, France.",
+          "Architecture et Fonction des Macromolécules Biologiques (AFMB), French National Institute for Agriculture, Food, and Environment (INRAE), USC 1408, 13288 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Lombard, Vincent",
+        "short_name": "Lombard V",
+        "identifiers": [
+          "0000-0002-9684-7067"
+        ],
+        "affiliations": [
+          "Architecture et Fonction des Macromolécules Biologiques (AFMB), Centre National de la Recherche Scientifique (CNRS), Aix-Marseille Université (AMU), UMR 7257, 13288 Marseille, France.",
+          "Architecture et Fonction des Macromolécules Biologiques (AFMB), French National Institute for Agriculture, Food, and Environment (INRAE), USC 1408, 13288 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Bissaro, Bastien",
+        "short_name": "Bissaro B",
+        "identifiers": [
+          "0000-0001-8354-3892"
+        ],
+        "affiliations": [
+          "Biodiversité et Biotechnologie Fongiques (BBF), French National Institute for Agriculture, Food, and Environment (INRAE), Aix-Marseille Université (AMU), UMR 1163, 13288 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Longhi, Sonia",
+        "short_name": "Longhi S",
+        "identifiers": [
+          "0000-0002-6829-6771"
+        ],
+        "affiliations": [
+          "Architecture et Fonction des Macromolécules Biologiques (AFMB), Centre National de la Recherche Scientifique (CNRS), Aix-Marseille Université (AMU), UMR 7257, 13288 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Berrin, Jean-Guy",
+        "short_name": "Berrin JG",
+        "identifiers": [],
+        "affiliations": [
+          "Biodiversité et Biotechnologie Fongiques (BBF), French National Institute for Agriculture, Food, and Environment (INRAE), Aix-Marseille Université (AMU), UMR 1163, 13288 Marseille, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2021 Nov 4",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/28 06:00",
+    "fetched_at": "2026-09-20 06:38:22"
+  },
+  "links": {
+    "cites": [
+      "41606680",
+      "41274501",
+      "38664612",
+      "38513096",
+      "38395898",
+      "38200466",
+      "37702503",
+      "37463979",
+      "37099613",
+      "37047341",
+      "37007517",
+      "37005446",
+      "36504118",
+      "36354345",
+      "35994119",
+      "35916229",
+      "35862679"
+    ],
+    "refs": [
+      "35507260",
+      "34385392",
+      "34048569",
+      "33875885",
+      "33669141",
+      "33623002",
+      "33325498",
+      "33260713",
+      "33237329",
+      "33151668",
+      "32835749",
+      "32828470",
+      "32817759",
+      "32599863",
+      "32144274",
+      "31932719",
+      "31932718",
+      "31508147",
+      "31504783",
+      "31264965",
+      "31032817",
+      "30923563",
+      "30628183",
+      "30424733",
+      "30420606",
+      "30381341",
+      "30257993",
+      "30045872",
+      "29891966",
+      "29860432",
+      "29763584",
+      "29602697",
+      "29472725",
+      "29229855",
+      "28900033",
+      "28846668",
+      "28516007",
+      "28434716",
+      "28098335",
+      "28076807",
+      "28071716",
+      "27899635",
+      "27807972",
+      "27590806",
+      "27588040",
+      "27115638",
+      "27075737",
+      "26692083",
+      "26609051",
+      "26136828",
+      "25863585",
+      "25787255",
+      "25631540",
+      "25361767",
+      "24939692",
+      "24739139",
+      "24695830",
+      "24502763",
+      "24362702",
+      "24297253",
+      "23959893",
+      "23514094",
+      "23271955",
+      "23193287",
+      "23139804",
+      "23112164",
+      "23076520",
+      "22955885",
+      "22702725",
+      "22638587",
+      "22004347",
+      "21909575",
+      "21876164",
+      "21748815",
+      "21514145",
+      "20929773",
+      "20483348",
+      "20053844",
+      "20003500",
+      "19412530",
+      "18991772",
+      "18838391",
+      "17681540",
+      "17578581",
+      "16618368",
+      "16287116",
+      "11381529",
+      "11025552",
+      "10592235",
+      "8106343"
+    ],
+    "similar": [
+      "34827630",
+      "29602785",
+      "33199373",
+      "31102244",
+      "35080440",
+      "31471321",
+      "35080911",
+      "27590806",
+      "37702503",
+      "34798071",
+      "25956378",
+      "39048228",
+      "34613755",
+      "36504118",
+      "35279161",
+      "30578267",
+      "33375972",
+      "37507015",
+      "27588040",
+      "32978122",
+      "32076777",
+      "30612037",
+      "28900033",
+      "27075737",
+      "24912171",
+      "33421883",
+      "28434716",
+      "31932718",
+      "31152202",
+      "34655732",
+      "29967065",
+      "24362702",
+      "33188177",
+      "37176008",
+      "28086105",
+      "34918344",
+      "31903721",
+      "35862679",
+      "31532909",
+      "30947104",
+      "33097402",
+      "32943141",
+      "31431506",
+      "34389999",
+      "31656228",
+      "35931294",
+      "39167166",
+      "31540984",
+      "30381341",
+      "38200466",
+      "36876880",
+      "29971843",
+      "23525113",
+      "38513096",
+      "26858252",
+      "27397613",
+      "34342275",
+      "35418300",
+      "26801613",
+      "28417362",
+      "31237199",
+      "30514757",
+      "28071716",
+      "24559135",
+      "38492831",
+      "36734231",
+      "37962542",
+      "29228039",
+      "37418595",
+      "37149521",
+      "32774456",
+      "27170366",
+      "29232119",
+      "37473820",
+      "24828494",
+      "29901989",
+      "33151668",
+      "35414104",
+      "35969781",
+      "32763398",
+      "37437815",
+      "28366436",
+      "26862199",
+      "30083228",
+      "30328527",
+      "28291518",
+      "30903269",
+      "26615470",
+      "25217478",
+      "30824433",
+      "26928935",
+      "28045386",
+      "28450248",
+      "32634476",
+      "29660793",
+      "28535872",
+      "33090629",
+      "37204864",
+      "34000697",
+      "24324265",
+      "30238672",
+      "39182111",
+      "36682872",
+      "28698982",
+      "37679837",
+      "38938609",
+      "37452022",
+      "37734553",
+      "39276894",
+      "38446458",
+      "37441786",
+      "38729930",
+      "35204695",
+      "38029525",
+      "33510861",
+      "31956399",
+      "34130454",
+      "37459522",
+      "36998406",
+      "38362420",
+      "38039154",
+      "24502763",
+      "38253653"
+    ],
+    "review": [
+      "34827630",
+      "31102244",
+      "36504118",
+      "32076777",
+      "33421883",
+      "28086105",
+      "34918344",
+      "30947104",
+      "33097402",
+      "35931294",
+      "30381341",
+      "36876880",
+      "38492831",
+      "37149521",
+      "27170366",
+      "37473820",
+      "37437815",
+      "26862199",
+      "26615470",
+      "25217478",
+      "28450248",
+      "32634476",
+      "28535872",
+      "34000697"
+    ],
+    "pmc": [
+      "8615602"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom11111632",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34827630/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34827630",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

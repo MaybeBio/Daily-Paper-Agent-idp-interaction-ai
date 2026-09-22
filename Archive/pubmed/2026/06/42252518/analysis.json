@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42252518",
+  "title": "PolyProline Predictor: A web server for empirical sequence-based prediction of polyproline II helices.",
+  "authors": "Lopez-Sanchez, Ruben; Pantoja-Uceda, David; Mompean, Miguel; Laurents, Douglas V",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2026-06-08",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发了基于序列的PPII螺旋预测服务器，结合AlphaFold和MD模拟研究无序区域中的PPII构象及其在RIPK3淀粉样组装中的潜在作用，虽非直接PPI建模，但为IDR构象预测与互作机制研究提供了可迁移的方法和思路。",
+  "abstract": "Polyproline II (PPII) helices are extended left-handed secondary structures increasingly recognized for their roles in molecular recognition, signaling and within intrinsically disordered regions of proteins. Despite their functional importance, predicting regions with propensity to form PPII helices from sequence alone remains challenging due to subtle sequence determinants and their frequent misclassification as random coil. Here, we present PolyProline Predictor (PPP), a user-friendly web server (https://rmni.iqf.csic.es/software/polypropre/) for empirical, sequence-based prediction of PPII helices. Unlike machine learning approaches, PPP aligns query sequences against a curated database of experimentally validated PPII helices, providing an interpretable, composition-, and position-sensitive similarity map. PPP successfully identified conserved PPII motifs in diverse proteins, and predicted the presence of similar motifs in regions lacking experimental structures but modeled by AlphaFold as extended PPII conformations, such as glycine-rich plant proteins, mycobacterial PE_PGRS virulence factors, and the \"disordered\" C-terminal tails of GroEL and its homologs, as well as the amyloid-flanking region of the necroptosis effector RIPK3. Molecular dynamics simulations further supported persistent PPII helical bundles in three glycine-rich mycobacterial proteins and more heterogeneous, transient PPII populations in plant proteins and RIPK3. Circular dichroism and nuclear magnetic resonance (NMR) spectroscopy validated these predictions for RIPK3, revealing partially populated PPII conformations flanking its amyloid core. Such motifs may regulate its amyloid assembly, offering structural insight into mechanisms of functional amyloid formation. By combining experimental evidence with interpretable prediction, PPP fills a critical gap in bioinformatics tools and enables systematic exploration of regions with propensity to form PPII helices across proteomes, redefining the structural landscape of low-complexity regions.",
+  "abstract_zh": "聚脯氨酸II型（PPII）螺旋是一种延伸的左手二级结构，日益被认识到在分子识别、信号传导及蛋白质内在无序区域中发挥重要作用。尽管其功能重要性显著，但由于序列决定因素微妙且常被误分类为随机卷曲，仅从序列预测具有形成PPII螺旋倾向的区域仍具挑战性。在此，我们介绍PolyProline Predictor (PPP)，一个用户友好的网络服务器（https://rmni.iqf.csic.es/software/polypropre/），用于基于序列的经验性PPII螺旋预测。与机器学习方法不同，PPP将查询序列与实验验证的PPII螺旋精选数据库进行比对，提供可解释的、组成及位置敏感的相似性图谱。PPP成功识别了多种蛋白质中保守的PPII基序，并预测了缺乏实验结构但由AlphaFold建模为延伸PPII构象的区域中存在相似基序，例如富含甘氨酸的植物蛋白、分枝杆菌PE_PGRS毒力因子、GroEL及其同源物的“无序”C末端尾巴，以及坏死性凋亡效应因子RIPK3的淀粉样蛋白侧翼区域。分子动力学模拟进一步支持三种富含甘氨酸的分枝杆菌蛋白中持续存在的PPII螺旋束，以及植物蛋白和RIPK3中更异质、瞬态的PPII群体。圆二色光谱和核磁共振（NMR）光谱验证了RIPK3的这些预测，揭示其淀粉样核心侧翼存在部分占据的PPII构象。此类基序可能调节其淀粉样组装，为功能性淀粉样形成的机制提供结构见解。通过结合实验证据与可解释的预测，PPP填补了生物信息学工具中的关键空白，并能够系统探索整个蛋白质组中具有形成PPII螺旋倾向的区域，重新定义低复杂度区域的结构景观。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42252518/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42252518/",
+  "paper_page_path": "papers/pubmed/42252518/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.09.658393",
+  "title": "Integrating structural homology with deep learning to achieve highly accurate protein-protein interface prediction for the human interactome",
+  "authors": "Dapeng Xiong; Mateo Torres; Diana Murray; Zizhao Zhang; Le Li; Aniket C. Naravane; Robert Fragoza; Barry Honig; Haiyuan Yu",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-12",
+  "window": {
+    "start": "2025-06-09",
+    "end": "2025-06-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出整合结构相似性与几何深度学习的PIONEER2管线，用于人类蛋白质互作组中结合位点界面残基的高精度预测，虽非针对无序蛋白，但其PPI界面预测与机制建模思路对IDR介导互作研究具有可迁移启发。",
+  "abstract": "A significant portion of disease-causing mutations occur at protein-protein interfaces however, the number of structurally resolved multi-protein complexes is extremely small. Here we present a computational pipeline, PIONEER2, that integrates 3D structural similarity with geometric deep learning to accurately predict protein binding partner-specific interfacial residues. We compare the performance of PIONEER2 to that of AlphaFold3 and found, using a test set of PDB structures, that their performance is quite similar. However, about 20% of AlphaFold3 predictions for protein-protein complexes in the PDB have AlphaFold3 ranking scores below 0.5, which indicates an uncertain model. For these structures, PIONEER2 outperforms AlphaFold3 at discriminating interfacial from non-interfacial residues. Further, about half of the AlphaFold3 ranking scores on high confidence protein-protein interactions (PPIs) not associated with a PDB structure are below 0.5 indicating that PIONEER2 offers superior interface prediction for a large number of PPIs for which structures are not available. We created a comprehensive 3D structurally informed interactome encompassing all 352,124 experimentally detected binary human PPIs in the current literature and made PIONEER2 interface predictions for each. We experimentally validated these predictions by generating 1,866 mutations and testing their disruptive impact on 5,010 mutation-interaction pairs. PIONEER2-predicted interfaces are found to be comparable to PDB structures in their ability to predict disruptive mutations while AlphaFold3 performance is reduced. Similarly, PIONEER2-predicted interfaces outperform AlphaFold3 in accounting for the depletion of non-deleterious common population variants and the enrichment of disease-related mutations on protein surfaces. Overall, our results suggest that PIONEER2-predicted interfaces provide a valuable tool for studying disease etiology, advancing personalized medicine and for fundamental research. We further implemented PIONEER2 as a user-friendly web server (https://pioneer2.yulab.org) platform for users to explore our 3D interactome models and conduct genome-wide functional genomics studies.",
+  "abstract_zh": "大量致病突变发生在蛋白质-蛋白质相互作用界面上，然而，结构解析的多蛋白复合物数量极为有限。在此，我们提出一种计算流程PIONEER2，该流程整合了三维结构相似性与几何深度学习，以准确预测蛋白质结合伴侣特异性的界面残基。我们将PIONEER2的性能与AlphaFold3进行了比较，并使用PDB结构测试集发现，两者的性能相当接近。然而，在PDB中约20%的蛋白质-蛋白质复合物预测中，AlphaFold3的排名得分低于0.5，这表明模型存在不确定性。对于这些结构，PIONEER2在区分界面残基与非界面残基方面优于AlphaFold3。此外，在未关联PDB结构的高置信度蛋白质-蛋白质相互作用（PPIs）中，约一半的AlphaFold3排名得分低于0.5，这表明PIONEER2为大量无结构可用的PPIs提供了更优的界面预测。我们构建了一个全面的三维结构信息交互组，涵盖当前文献中所有352,124个经实验检测的人类二元PPIs，并为每个PPI进行了PIONEER2界面预测。我们通过生成1,866个突变并测试其对5,010个突变-相互作用对的破坏性影响，对这些预测进行了实验验证。发现PIONEER2预测的界面在预测破坏性突变方面与PDB结构相当，而AlphaFold3的性能则有所下降。同样，在解释非有害常见群体变异的缺失和疾病相关突变在蛋白质表面的富集方面，PIONEER2预测的界面优于AlphaFold3。总体而言，我们的结果表明，PIONEER2预测的界面为研究疾病病因学、推进个性化医疗及基础研究提供了宝贵工具。我们还将PIONEER2实现为用户友好的网络服务器（https://pioneer2.yulab.org）平台，以便用户探索我们的三维交互组模型并进行全基因组功能基因组学研究。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.09.658393",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.09.658393",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.09.658393/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35595811",
+  "title": "Insights into the client protein release mechanism of the ATP-independent chaperone Spy.",
+  "authors": "He, Wei; Li, Xinming; Xue, Hongjuan; Yang, Yuanyuan; Mencius, Jun; Bai, Ling; Zhang, Jiayin; Xu, Jianhe; Wu, Bin; Xue, Yi; Quan, Shu",
+  "journal": "Nature communications",
+  "published_date": "2022-05-21",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过NMR和分子动力学模拟揭示无序N端与Spy底物结合腔的动态竞争促进客户蛋白释放的机制，虽非直接PPI预测，但聚焦IDR介导的蛋白互作机制建模，方法可迁移至无序蛋白互作研究。",
+  "abstract": "Molecular chaperones play a central role in regulating protein homeostasis, and their active forms often contain intrinsically disordered regions (IDRs). However, how IDRs impact chaperone action remains poorly understood. Here, we discover that the disordered N terminus of the prototype chaperone Spy facilitates client release. With NMR spectroscopy and molecular dynamics simulations, we find that the N terminus can bind transiently to the client-binding cavity of Spy primarily through electrostatic interactions mediated by the N-terminal D26 residue. This intramolecular interaction results in a dynamic competition of the N terminus with the client for binding to Spy, which promotes client discharge. Our results reveal the mechanism by which Spy releases clients independent of energy input, thus enriching the current knowledge on how ATP-independent chaperones release their clients and highlighting the importance of synergy between IDRs and structural domains in regulating protein function.",
+  "abstract_zh": "分子伴侣在调控蛋白质稳态中发挥核心作用，其活性形式常含有固有无序区域（IDRs）。然而，IDRs如何影响分子伴侣功能仍知之甚少。在此，我们发现原型分子伴侣Spy的无序N端促进客户蛋白释放。通过核磁共振波谱和分子动力学模拟，我们发现N端主要通过N端D26残基介导的静电相互作用，能与Spy的客户结合腔瞬时结合。这种分子内相互作用导致N端与客户蛋白竞争结合Spy，从而促进客户蛋白解离。我们的结果揭示了Spy不依赖能量输入释放客户蛋白的机制，从而丰富了当前关于ATP非依赖性分子伴侣如何释放其客户蛋白的知识，并强调了IDRs与结构域在调控蛋白质功能中协同作用的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35595811/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35595811/",
+  "paper_page_path": "papers/pubmed/35595811/index.html"
+}

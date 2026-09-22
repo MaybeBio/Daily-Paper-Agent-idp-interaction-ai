@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors report molecular dynamics simulations of hirudin P18 and its PEGylated variant, comparing bound and unbound states, two sequences, and different salt conditions, to characterize how PEGylation affects hirudin structure and dynamics. They also report experimental synthesis and activity assays for unlabeled and PEG-labeled hirP18. Key claims include: PEG can screen end-to-end electrostatic interactions by hiding a positively charged region; hirV1 is less sticky than hirP18 due to hydrophobic interactions and arginine presence; PEG and glycan both reduce solvent-exposed area, but PEG interacts more efficiently with surface residues.
+- **Visible evidence base** Abstract text only; no simulation parameters, analysis methods, activity assay details, or quantitative results are visible
+- **Missing materials affecting confidence** Full manuscript, simulation setup and force field details, convergence criteria, activity assay protocol and data, structural figures, scaling exponent calculations, statistical analyses, and comparison data for glycated hirP18 and hirV1
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting biophysical study on how PEGylation context-dependently modulates hirudin structure and dynamics. The combination of experimental activity assays with extensive MD simulations is commendable. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations or the robustness of the conclusions. Several claims appear to extend beyond what can be supported by the visible evidence, particularly regarding molecular mechanisms of PEG interactions and sequence-specific differences. The work may be of interest to the biophysics and biopharmaceutical communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biophysics, computational chemistry, and biopharmaceutical formulation would be interested. The study addresses fundamental questions about how polymer conjugation affects intrinsically disordered proteins, which is relevant to PEGylation strategies for therapeutic proteins. The comparison of PEG versus glycan effects on solvent exposure could inform drug delivery and protein stability research.
+- **Major strengths** The study combines experimental activity validation with extensive microsecond-scale MD simulations, which strengthens the relevance of the computational findings. The systematic comparison across two sequences, bound and unbound states, and different salt conditions provides a broad parameter space. The focus on scaling exponents and solvent-exposed surface area offers physically meaningful observables for assessing conformational changes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that PEG can screen end-to-end electrostatic interactions by hiding a positively charged region of hirudin
+  - **Evidence pointer** Abstract, simulations section; location not provided
+  - **Concern** The abstract states this mechanism as a conclusion, but no quantitative evidence is presented, such as contact maps, electrostatic potential calculations, or distance distributions between the charged region and PEG. The mechanism is inferred from scaling exponents and solvent-exposed surface area, which are indirect observables. Without direct structural analysis, the claim that PEG "hides" a specific region is not substantiated.
+  - **Why it matters** This is a central mechanistic claim of the paper. If the mechanism is not directly demonstrated, the conclusion about how PEG interacts with hirudin remains speculative, which weakens the overall contribution to understanding PEGylation effects.
+  - **Resolution test** Provide direct structural evidence, such as radial distribution functions between PEG atoms and the positively charged residues, or time-averaged contact probabilities, showing that PEG preferentially associates with that region. Alternatively, show that removing the positive charge abolishes the screening effect in control simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that hirV1 is less sticky than hirP18 due to different PEG-hirudin hydrophobic interactions and the presence of an arginine in hirP18
+  - **Evidence pointer** Abstract, simulations section; location not provided
+  - **Concern** The abstract attributes the difference in "stickiness" to two factors, hydrophobic interactions and arginine presence, but no quantitative comparison is shown. It is unclear how "stickiness" is defined and measured. The relative contribution of each factor is not disentangled, and no control simulations or mutation studies are described to isolate the arginine effect.
+  - **Why it matters** This claim distinguishes the two sequence variants and is used to support the conclusion about charge patterning and arginine importance. Without a clear operational definition of stickiness and evidence separating the two proposed factors, the claim is not testable from the provided information.
+  - **Resolution test** Define stickiness operationally, for example, as the free energy of PEG binding or the residence time of PEG on the protein surface. Provide simulations with arginine-to-alanine mutations in hirP18 to isolate the arginine contribution, and compare hydrophobic contact frequencies between the two variants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that PEG interacts more efficiently with surface residues than glycan due to its narrower chain and alternation of polar and nonpolar groups
+  - **Evidence pointer** Abstract, simulations section; location not provided
+  - **Concern** The abstract presents a molecular-level explanation for the difference between PEG and glycan interactions, but no comparative data are shown. The claim about chain width and group alternation is presented as a rationalization rather than a tested hypothesis. No metrics of interaction efficiency, such as contact numbers per residue or interaction energies, are provided.
+  - **Why it matters** This comparison is a key novel aspect of the study, distinguishing it from prior work on glycation. If the mechanistic explanation is not supported by direct comparative analysis, the conclusion is weakened and the novelty is reduced to a qualitative observation.
+  - **Resolution test** Provide quantitative comparison of PEG versus glycan contact frequencies, interaction energies, or solvent-accessible surface area reduction per residue. Show that the narrower PEG chain indeed penetrates surface grooves more effectively, for example, by measuring groove occupancy or local density profiles.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Abstract, simulations section; location not provided
+  - **Issue** The abstract states that 16 microsecond simulations were carried out, but does not specify the force field, water model, temperature, pressure coupling, or equilibration protocol. These details are essential for reproducibility.
+  - **Required correction** Specify the simulation software, force field, water model, and key simulation parameters in the methods section of the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Issue** The term "sticky" is used without definition. It is unclear whether it refers to PEG-protein binding affinity, aggregation propensity, or some other property.
+  - **Required correction** Define "stickiness" operationally in the manuscript, preferably with a quantitative metric.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental validation
+  - **Evidence pointer** Abstract, activity assay sentence; location not provided
+  - **Issue** The abstract states that an activity assay was performed to confirm anticoagulant activity, but no quantitative result is given. It is unclear whether the activity was fully retained, partially reduced, or statistically equivalent to the unmodified peptide.
+  - **Required correction** Report the quantitative activity result, including statistical comparison to the unmodified hirP18.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Simulation analysis
+  - **Evidence pointer** Abstract, scaling exponents sentence; location not provided
+  - **Issue** The abstract mentions scaling exponents but does not state how many independent simulations or replicas were used to estimate these values, nor whether error bars or confidence intervals are provided.
+  - **Required correction** State the number of replicas and report uncertainties for the scaling exponents in the full manuscript.
+
+## Risk / unsupported claims
+- The mechanistic claim that PEG "hides" a positively charged region of hirudin is unsupported by direct structural evidence in the abstract.
+- The claim that hirV1 is less sticky than hirP18 due to hydrophobic interactions and arginine presence is unsupported by quantitative comparative data.
+- The claim that PEG interacts more efficiently with surface residues than glycan due to chain width and group alternation is presented as a rationalization without direct comparative evidence.
+- The claim that PEG or glycan conjugation significantly reduces solvent-exposed area is stated without quantitative values or statistical support.
+- The claim that the PEGylated peptide retains anticoagulant activity is unquantified and cannot be assessed from the abstract alone.

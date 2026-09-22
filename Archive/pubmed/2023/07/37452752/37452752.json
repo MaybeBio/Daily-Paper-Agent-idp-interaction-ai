@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "37452752",
+    "doi": "10.1021/acs.jctc.3c00297",
+    "title": "Balanced Three-Point Water Model OPC3-B for Intrinsically Disordered and Ordered Proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) play a critical role in many biological processes. Due to the inherent structural flexibility of IDPs, experimental methods present significant challenges for sampling their conformational information at the atomic level. Therefore, molecular dynamics (MD) simulations have emerged as the primary tools for modeling IDPs whose accuracy depend on force field and water model. To enhance the accuracy of physical modeling of IDPs, several force fields have been developed. However, current water models lack precision and underestimate the interaction between water molecules and proteins. Here, we used Monte-Carlo re-weighting method to re-parameterize a three-point water model based on OPC3 for IDPs (named OPC3-B). We benchmarked the performance of OPC3-B compared with nine different water models for 10 IDPs and three ordered proteins. The results indicate that the performance of OPC3-B is better than other water models for both IDPs and ordered proteins. At the same time, OPC3-B possess the power of transferability with other force field to simulate IDPs. This newly developed water model can be used to insight into the research of sequence-disordered-function paradigm for IDPs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Conformation",
+      "*Water/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pan, Zhengsong",
+        "Mu, Junxi",
+        "Chen, Hai-Feng"
+      ],
+      "short_names": [
+        "Pan Z",
+        "Mu J",
+        "Chen HF"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9226-5572",
+        "ORCID: 0000-0002-7496-4182"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "4+4 Medical Doctor Program, Chinese Academy of Medical Science and Peking Union Medical College, Beijing 100730, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "Shanghai Center for Bioinformation Technology, Shanghai 200235, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pan, Zhengsong",
+        "short_name": "Pan Z",
+        "identifiers": [
+          "0000-0001-9226-5572"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+          "4+4 Medical Doctor Program, Chinese Academy of Medical Science and Peking Union Medical College, Beijing 100730, China."
+        ]
+      },
+      {
+        "full_name": "Mu, Junxi",
+        "short_name": "Mu J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hai-Feng",
+        "short_name": "Chen HF",
+        "identifiers": [
+          "0000-0002-7496-4182"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+          "Shanghai Center for Bioinformation Technology, Shanghai 200235, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2023 Aug 8",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/15 21:05",
+    "fetched_at": "2026-09-20 23:30:45"
+  },
+  "links": {
+    "cites": [
+      "42172087",
+      "42147780",
+      "41416709",
+      "41082321",
+      "39830132",
+      "39551145",
+      "39046235",
+      "38557677",
+      "38018910"
+    ],
+    "refs": [],
+    "similar": [
+      "37452752",
+      "32859072",
+      "34546059",
+      "36468450",
+      "36178373",
+      "34032235",
+      "33355572",
+      "28226222",
+      "32227937",
+      "36533639",
+      "40172236",
+      "37108059",
+      "28448138",
+      "29080468",
+      "33591749",
+      "31756456",
+      "33411518",
+      "29808548",
+      "31552948",
+      "28095698",
+      "38275091",
+      "32579908",
+      "28805390",
+      "31809054",
+      "34680048",
+      "36641212",
+      "31613621",
+      "34656328",
+      "36800279",
+      "33459730",
+      "30865832",
+      "25919886",
+      "30066087",
+      "31441158",
+      "26575776",
+      "30840442",
+      "24589355",
+      "31375817",
+      "33810353",
+      "30250773",
+      "26030189",
+      "31657215",
+      "31425549",
+      "30091924",
+      "32525675",
+      "27484738",
+      "39163306",
+      "25611056",
+      "38987470",
+      "39366599",
+      "38018910",
+      "33382616",
+      "32816485",
+      "36827446",
+      "36674958",
+      "30876367",
+      "39807013",
+      "33623120",
+      "26387101",
+      "30979035",
+      "33444020",
+      "32103094",
+      "34390736",
+      "34845619",
+      "30813315",
+      "38928405",
+      "28554553",
+      "31259246",
+      "33945530",
+      "24532081",
+      "36934808",
+      "23794453",
+      "33078950",
+      "31241933",
+      "38118365",
+      "35034725",
+      "39555603",
+      "29990433",
+      "31402649",
+      "35074392",
+      "30527137",
+      "36387274",
+      "35934194",
+      "21686180",
+      "34626492",
+      "38739602",
+      "26387099",
+      "33230318",
+      "30372613",
+      "35129612",
+      "31136713",
+      "40128232",
+      "32623047",
+      "37133846",
+      "26052838",
+      "25871264",
+      "25287424",
+      "31548393",
+      "38949117",
+      "32020911"
+    ],
+    "review": [
+      "37452752",
+      "33355572",
+      "28226222",
+      "29080468",
+      "33591749",
+      "34680048",
+      "30066087",
+      "31441158",
+      "30840442",
+      "26387101",
+      "30979035",
+      "34390736",
+      "28554553",
+      "24532081",
+      "23794453",
+      "38118365",
+      "39555603",
+      "30527137",
+      "21686180",
+      "26387099",
+      "35129612",
+      "25287424",
+      "32020911"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.3c00297",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

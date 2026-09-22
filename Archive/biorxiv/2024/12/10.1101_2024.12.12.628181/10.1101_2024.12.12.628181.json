@@ -1,0 +1,354 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.12.628181",
+  "title": "NRBP1 pseudokinase binds to and activates the WNK pathway in response to osmotic stress",
+  "doi": "10.1101/2024.12.12.628181",
+  "abstract": "WNK family kinases are regulated by osmotic stress and control ion homeostasis by activating SPAK and OXSR1 kinases. Using a proximity ligation approach, we found that osmotic stress promotes the association of WNK1 with the NRBP1 pseudokinase and TSC22D2/4 adaptor proteins, results that are confirmed by immunoprecipitation and mass spectrometry and immunoblotting studies. NRBP1 pseudokinase is closely related to WNK isoforms and contains a RΦ-motif binding conserved C-terminal (CCT) domain, similar to the CCT domains in WNKs, SPAK and OXSR1. Knockdown or knock-out of NRBP1 markedly inhibited sorbitol-induced activation of WNK1 and downstream components. We demonstrate recombinant NRBP1 can directly induce the activation of WNK4 in vitro . AlphaFold-3 modelling predicts that WNK1, SPAK, NRBP1, and TSC22D4 form a complex, in which two TSC22D4 RΦ-motifs interact with the CCTL1 domain of WNK1 and the CCT domain of NRBP1. Our data indicates NRBP1 functions as an upstream activator of the WNK pathway. <h4>Teaser</h4> NRBP1 functions as a scaffolding component regulating the assembly of a multi-subunit complex, required for the activation of the WNK Lysine Deficient Protein Kinase family in response to osmotic stress. <h4>Graphical Abstract</h4>",
+  "authors": [
+    "Amnekar RV",
+    "Dite T",
+    "Lis P",
+    "Bell S",
+    "Brown F",
+    "Johnson C",
+    "Wilkinson S",
+    "Raggett S",
+    "Dorward M",
+    "Wightman M",
+    "Macartney T",
+    "Soares RF",
+    "Lamoliatte F",
+    "Alessi DR"
+  ],
+  "published_date": "2024-12-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.12.628181",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.12.628181.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR956856",
+    "raw_record": {
+      "id": "PPR956856",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR956856"
+        ]
+      },
+      "doi": "10.1101/2024.12.12.628181",
+      "title": "NRBP1 pseudokinase binds to and activates the WNK pathway in response to osmotic stress",
+      "authorString": "Amnekar RV, Dite T, Lis P, Bell S, Brown F, Johnson C, Wilkinson S, Raggett S, Dorward M, Wightman M, Macartney T, Soares RF, Lamoliatte F, Alessi DR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Amnekar RV",
+            "lastName": "Amnekar",
+            "firstName": "Ramchandra",
+            "initials": "RV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dite T",
+            "lastName": "Dite",
+            "firstName": "Toby",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lis P",
+            "lastName": "Lis",
+            "firstName": "Pawel",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4978-7671"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bell S",
+            "lastName": "Bell",
+            "firstName": "Sebastian",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brown F",
+            "lastName": "Brown",
+            "firstName": "Fiona",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Johnson C",
+            "lastName": "Johnson",
+            "firstName": "Clare",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilkinson S",
+            "lastName": "Wilkinson",
+            "firstName": "Stuart",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Raggett S",
+            "lastName": "Raggett",
+            "firstName": "Samantha",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dorward M",
+            "lastName": "Dorward",
+            "firstName": "Mark",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5765-0926"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wightman M",
+            "lastName": "Wightman",
+            "firstName": "Mel",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Macartney T",
+            "lastName": "Macartney",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Soares RF",
+            "lastName": "Soares",
+            "firstName": "Renata",
+            "initials": "RF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lamoliatte F",
+            "lastName": "Lamoliatte",
+            "firstName": "Frederic",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alessi DR",
+            "lastName": "Alessi",
+            "firstName": "Dario",
+            "initials": "DR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2140-9185"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Protein Phosphorylation and Ubiquitylation Unit, School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5765-0926"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2140-9185"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4978-7671"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "WNK family kinases are regulated by osmotic stress and control ion homeostasis by activating SPAK and OXSR1 kinases. Using a proximity ligation approach, we found that osmotic stress promotes the association of WNK1 with the NRBP1 pseudokinase and TSC22D2/4 adaptor proteins, results that are confirmed by immunoprecipitation and mass spectrometry and immunoblotting studies. NRBP1 pseudokinase is closely related to WNK isoforms and contains a RΦ-motif binding conserved C-terminal (CCT) domain, similar to the CCT domains in WNKs, SPAK and OXSR1. Knockdown or knock-out of NRBP1 markedly inhibited sorbitol-induced activation of WNK1 and downstream components. We demonstrate recombinant NRBP1 can directly induce the activation of WNK4  in vitro . AlphaFold-3 modelling predicts that WNK1, SPAK, NRBP1, and TSC22D4 form a complex, in which two TSC22D4 RΦ-motifs interact with the CCTL1 domain of WNK1 and the CCT domain of NRBP1. Our data indicates NRBP1 functions as an upstream activator of the WNK pathway.  <h4>Teaser</h4>  NRBP1 functions as a scaffolding component regulating the assembly of a multi-subunit complex, required for the activation of the WNK Lysine Deficient Protein Kinase family in response to osmotic stress. <h4>Graphical Abstract</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.12.628181"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.12.628181"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR956856"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR956856&type=FILE&fileName=EMS202260-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40668933",
+            "reference": "Science advances. 2025 Jul;11(29):eadv4636",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS202260",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-12-21",
+      "firstPublicationDate": "2024-12-17",
+      "firstIndexDate": "2024-12-21",
+      "fullTextReceivedDate": "2025-01-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

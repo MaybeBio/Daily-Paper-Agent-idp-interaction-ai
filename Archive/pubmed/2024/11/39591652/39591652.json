@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "39591652",
+    "doi": "10.1021/jacs.4c11226",
+    "title": "Interaction-Dependent Secondary Structure of Peptides in Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates provide a mechanism for compartmentalization of biomolecules in eukaryotic cells. These liquid-like condensates are formed via liquid-liquid phase separation, by a plethora of interactions, and can mediate several biological processes in healthy cells. Expansions of dipeptide repeat proteins, DPRs, in which arginine rich DPRs like poly-proline-arginine (PR), and poly-glycine-arginine (GR), partition RNA into condensates can however induce cell toxicity. Here, we use (GR)(20) as a model for biological poly-GR and condense it using either excluded volume interactions with polyethylene glycol (PEG) as a crowder or direct electrostatic interactions with RNA oligomers. Using two-dimensional infrared (2D IR) spectroscopy, we observe that (GR)(20) condensed through an excluded volume forms beta-sheet structures, whereas (GR)(20) condensed with RNA forms loops. We also investigate local hydrogen-bond dynamics in the condensate and compare the measurements with molecular dynamics simulations. Hydrogen bond lifetimes undergo a marked slowdown compared to dynamics in the dilute phase. This is representative of confined water within the percolated networks inside the condensate due to the interaction present in the condensate disrupting H-bond networks. Overall, our results show that both protein structure and dynamics are inherently dependent on the type of interactions that stabilize the condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biomolecular Condensates/chemistry",
+      "*Peptides/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Hydrogen Bonding",
+      "Protein Structure, Secondary",
+      "RNA/chemistry",
+      "Polyethylene Glycols/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lorenz-Ochoa, Keegan A",
+        "Cho, Moonyeon",
+        "Parekh, Sapun H",
+        "Baiz, Carlos R"
+      ],
+      "short_names": [
+        "Lorenz-Ochoa KA",
+        "Cho M",
+        "Parekh SH",
+        "Baiz CR"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8522-1854",
+        "ORCID: 0000-0003-0699-8468"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States.",
+        "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States.",
+        "Department of Biomedical Engineering, University of Texas at Austin, Austin, Texas 78712, United States.",
+        "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lorenz-Ochoa, Keegan A",
+        "short_name": "Lorenz-Ochoa KA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Cho, Moonyeon",
+        "short_name": "Cho M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Parekh, Sapun H",
+        "short_name": "Parekh SH",
+        "identifiers": [
+          "0000-0001-8522-1854"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Baiz, Carlos R",
+        "short_name": "Baiz CR",
+        "identifiers": [
+          "0000-0003-0699-8468"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2024 Dec 11",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/26 18:23",
+    "fetched_at": "2026-09-21 13:02:41"
+  },
+  "links": {
+    "cites": [
+      "42055532",
+      "42032061",
+      "41022842",
+      "40880224",
+      "40757639",
+      "40629499",
+      "40614690"
+    ],
+    "refs": [
+      "38806061",
+      "38718835",
+      "38620063",
+      "38483313",
+      "38092738",
+      "38061016",
+      "38056002",
+      "37794023",
+      "37660224",
+      "37615316",
+      "37438085",
+      "37261897",
+      "37006777",
+      "36881934",
+      "36690068",
+      "36513655",
+      "36463407",
+      "36201012",
+      "36030416",
+      "35968816",
+      "34716273",
+      "34585924",
+      "34541184",
+      "34499080",
+      "34259508",
+      "34164013",
+      "34161229",
+      "34129784",
+      "34025358",
+      "33629837",
+      "33515602",
+      "33503539",
+      "33253636",
+      "33139563",
+      "33057154",
+      "32878979",
+      "32730793",
+      "32482873",
+      "32312191",
+      "31845799",
+      "31673013",
+      "30981631",
+      "30926670",
+      "30682370",
+      "30045872",
+      "30017918",
+      "29913160",
+      "29650702",
+      "29545272",
+      "29425450",
+      "29424691",
+      "29265152",
+      "29064502",
+      "28556382",
+      "28521075",
+      "28510458",
+      "28306503",
+      "28248491",
+      "28225081",
+      "28060489",
+      "26429022",
+      "26406374",
+      "25288112",
+      "25103406",
+      "24268778",
+      "23228111",
+      "22539264",
+      "22433178",
+      "22398665",
+      "22389750",
+      "21861514",
+      "21642970",
+      "21539337",
+      "21500218",
+      "20814445",
+      "19905022",
+      "19618902",
+      "19229944",
+      "18351591",
+      "18288813",
+      "17902917",
+      "16965024",
+      "16211538",
+      "15212548",
+      "15012426",
+      "14659645"
+    ],
+    "similar": [
+      "39591652",
+      "40880224",
+      "38416758",
+      "40203038",
+      "37194953",
+      "40455990",
+      "40954121",
+      "33982350",
+      "36463407",
+      "42315359",
+      "42290133",
+      "36883003",
+      "39486437",
+      "35727989",
+      "41094266",
+      "40195119",
+      "41481439",
+      "41917466",
+      "42081454",
+      "37468629",
+      "40748104",
+      "38061016",
+      "42244713",
+      "40102453",
+      "42019899",
+      "40877270",
+      "40136009",
+      "41118627",
+      "39661936",
+      "40216775",
+      "41187075",
+      "40985078",
+      "41933903",
+      "31017394",
+      "40108179",
+      "23912807",
+      "38832749",
+      "30981631",
+      "40635595",
+      "40603603",
+      "41667469",
+      "39636939",
+      "41670285",
+      "34785657",
+      "39655866",
+      "36227474",
+      "40949254",
+      "39042834",
+      "41415473",
+      "41662498",
+      "37408305",
+      "42261607",
+      "41535729",
+      "40009520",
+      "41017414",
+      "35108264",
+      "34772786",
+      "40970659",
+      "40521608",
+      "40782375",
+      "38056002",
+      "39648588",
+      "40028898",
+      "37470705",
+      "41469832",
+      "42172058",
+      "41789885",
+      "39957101",
+      "34772789",
+      "37261897",
+      "42556189",
+      "34767801",
+      "24032485",
+      "35881789",
+      "35293386",
+      "39356108",
+      "40411406",
+      "40291420",
+      "38446881",
+      "37549257",
+      "34862761",
+      "34129784",
+      "41238911",
+      "38591689",
+      "37721444",
+      "33253636",
+      "38751116",
+      "38383656",
+      "40661423",
+      "27693688",
+      "39366355",
+      "42339573",
+      "40653653",
+      "34648275",
+      "39400294",
+      "37772963",
+      "34636323",
+      "41703914",
+      "33558506",
+      "37386790"
+    ],
+    "review": [
+      "39591652",
+      "34772786",
+      "41469832",
+      "34772789",
+      "34767801",
+      "34129784",
+      "39366355"
+    ],
+    "pmc": [
+      "12961820"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39591652/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.4c11226",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

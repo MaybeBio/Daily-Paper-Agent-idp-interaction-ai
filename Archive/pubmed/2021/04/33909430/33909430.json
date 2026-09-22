@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "33909430",
+    "doi": "10.1021/acs.jctc.1c00155",
+    "title": "Investigation of Phosphorylation-Induced Folding of an Intrinsically Disordered Protein by Coarse-Grained Molecular Dynamics."
+  },
+  "content": {
+    "abstract": "Apart from being the most common mechanism of regulating protein function and transmitting signals throughout the cell, phosphorylation has an ability to induce disorder-to-order transition in an intrinsically disordered protein. In particular, it was shown that folding of the intrinsically disordered protein, eIF4E-binding protein isoform 2 (4E-BP2), can be induced by multisite phosphorylation. Here, the principles that govern the folding of phosphorylated 4E-BP2 (pT37pT46 4E-BP2(18-62)) are investigated by analyzing canonical and replica exchange molecular dynamics trajectories, generated with the coarse-grained united-residue force field, in terms of local and global motions and the time dependence of formation of contacts between C(alpha)s of selected pairs of residues. The key residues involved in the folding of the pT37pT46 4E-BP2(18-62) are elucidated by this analysis. The correlations between local and global motions are identified. Moreover, for a better understanding of the physics of the formation of the folded state, the experimental structure of the pT37pT46 4E-BP2(18-62) is analyzed in terms of a kink (heteroclinic standing wave solution) of a generalized discrete nonlinear Schrodinger equation. It is shown that without molecular dynamics simulations the kinks are able to identify not only the phosphorylated sites of protein, the key players in folding, but also the reasons for the weak stability of the pT37pT46 4E-BP2(18-62).",
+    "keywords": [],
+    "mesh_terms": [
+      "Intrinsically Disordered Proteins/*chemistry",
+      "Molecular Dynamics Simulation",
+      "Phosphorylation",
+      "*Protein Folding",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sieradzan, Adam K",
+        "Korneev, Anatolii",
+        "Begun, Alexander",
+        "Kachlishvili, Khatuna",
+        "Scheraga, Harold A",
+        "Molochkov, Alexander",
+        "Senet, Patrick",
+        "Niemi, Antti J",
+        "Maisuradze, Gia G"
+      ],
+      "short_names": [
+        "Sieradzan AK",
+        "Korneev A",
+        "Begun A",
+        "Kachlishvili K",
+        "Scheraga HA",
+        "Molochkov A",
+        "Senet P",
+        "Niemi AJ",
+        "Maisuradze GG"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6314-5376",
+        "ORCID: 0000-0002-2339-0019",
+        "ORCID: 0000-0002-1901-8433"
+      ],
+      "affiliations": [
+        "Faculty of Chemistry, University of Gdansk, Wita Stwosza 63, 80-308 Gdansk, Poland.",
+        "Pacific Quantum Center, Far Eastern Federal University, 10 Ajax Bay, 690922 Russky Island, Vladivostok, Russia.",
+        "Pacific Quantum Center, Far Eastern Federal University, 10 Ajax Bay, 690922 Russky Island, Vladivostok, Russia.",
+        "Baker Laboratory of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853-1301, United States.",
+        "Baker Laboratory of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853-1301, United States.",
+        "Pacific Quantum Center, Far Eastern Federal University, 10 Ajax Bay, 690922 Russky Island, Vladivostok, Russia.",
+        "Baker Laboratory of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853-1301, United States.",
+        "Laboratoire Interdisciplinaire Carnot de Bourgogne, UMR 6303 CNRS-Universite de Bourgogne Franche-Comte, 9 Av. A. Savary, BP 47 870, F-21078 Dijon Cedex, France.",
+        "Pacific Quantum Center, Far Eastern Federal University, 10 Ajax Bay, 690922 Russky Island, Vladivostok, Russia.",
+        "Laboratoire de Mathematiques et Physique Theorique, CNRS UMR 6083, Federation Denis Poisson, Universite de Tours, Parc de Grandmont, F37200 Tours, France.",
+        "Nordita, Stockholm University and Uppsala University, Roslagstullsbacken 23, SE-106 91 Stockholm, Sweden.",
+        "School of Physics, Beijing Institute of Technology, Beijing 100081, P.R. China.",
+        "Baker Laboratory of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853-1301, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sieradzan, Adam K",
+        "short_name": "Sieradzan AK",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chemistry, University of Gdansk, Wita Stwosza 63, 80-308 Gdansk, Poland."
+        ]
+      },
+      {
+        "full_name": "Korneev, Anatolii",
+        "short_name": "Korneev A",
+        "identifiers": [],
+        "affiliations": [
+          "Pacific Quantum Center, Far Eastern Federal University, 10 Ajax Bay, 690922 Russky Island, Vladivostok, Russia."
+        ]
+      },
+      {
+        "full_name": "Begun, Alexander",
+        "short_name": "Begun A",
+        "identifiers": [],
+        "affiliations": [
+          "Pacific Quantum Center, Far Eastern Federal University, 10 Ajax Bay, 690922 Russky Island, Vladivostok, Russia."
+        ]
+      },
+      {
+        "full_name": "Kachlishvili, Khatuna",
+        "short_name": "Kachlishvili K",
+        "identifiers": [],
+        "affiliations": [
+          "Baker Laboratory of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853-1301, United States."
+        ]
+      },
+      {
+        "full_name": "Scheraga, Harold A",
+        "short_name": "Scheraga HA",
+        "identifiers": [
+          "0000-0002-6314-5376"
+        ],
+        "affiliations": [
+          "Baker Laboratory of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853-1301, United States."
+        ]
+      },
+      {
+        "full_name": "Molochkov, Alexander",
+        "short_name": "Molochkov A",
+        "identifiers": [],
+        "affiliations": [
+          "Pacific Quantum Center, Far Eastern Federal University, 10 Ajax Bay, 690922 Russky Island, Vladivostok, Russia."
+        ]
+      },
+      {
+        "full_name": "Senet, Patrick",
+        "short_name": "Senet P",
+        "identifiers": [
+          "0000-0002-2339-0019"
+        ],
+        "affiliations": [
+          "Baker Laboratory of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853-1301, United States.",
+          "Laboratoire Interdisciplinaire Carnot de Bourgogne, UMR 6303 CNRS-Université de Bourgogne Franche-Comté, 9 Av. A. Savary, BP 47 870, F-21078 Dijon Cedex, France."
+        ]
+      },
+      {
+        "full_name": "Niemi, Antti J",
+        "short_name": "Niemi AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Pacific Quantum Center, Far Eastern Federal University, 10 Ajax Bay, 690922 Russky Island, Vladivostok, Russia.",
+          "Laboratoire de Mathematiques et Physique Theorique, CNRS UMR 6083, Fédération Denis Poisson, Université de Tours, Parc de Grandmont, F37200 Tours, France.",
+          "Nordita, Stockholm University and Uppsala University, Roslagstullsbacken 23, SE-106 91 Stockholm, Sweden.",
+          "School of Physics, Beijing Institute of Technology, Beijing 100081, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Maisuradze, Gia G",
+        "short_name": "Maisuradze GG",
+        "identifiers": [
+          "0000-0002-1901-8433"
+        ],
+        "affiliations": [
+          "Baker Laboratory of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853-1301, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2021 May 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/29 06:00",
+    "fetched_at": "2026-09-20 02:51:16"
+  },
+  "links": {
+    "cites": [
+      "39539017",
+      "38915510",
+      "38505224",
+      "38118365",
+      "36917604",
+      "36053833",
+      "35836937",
+      "35083279",
+      "34912851",
+      "34576338"
+    ],
+    "refs": [
+      "32561718",
+      "32271570",
+      "31951234",
+      "31774674",
+      "31346242",
+      "31194908",
+      "31005069",
+      "28085346",
+      "28068774",
+      "27776412",
+      "26498855",
+      "26421497",
+      "26100791",
+      "25625571",
+      "25533957",
+      "25531225",
+      "24901537",
+      "24437917",
+      "23914144",
+      "23838560",
+      "23674824",
+      "23620713",
+      "23005801",
+      "22830730",
+      "22806145",
+      "22689963",
+      "22587122",
+      "21797404",
+      "21661078",
+      "21599201",
+      "21405545",
+      "20866657",
+      "20166738",
+      "20161452",
+      "19073932",
+      "19063602",
+      "18952103",
+      "18784729",
+      "18196502",
+      "17614541",
+      "16852728",
+      "16852727",
+      "16845533",
+      "16340406",
+      "11691836",
+      "11474087",
+      "10394359",
+      "7680482",
+      "7651417",
+      "1749933",
+      "886872"
+    ],
+    "similar": [
+      "33909430",
+      "25533957",
+      "31951234",
+      "28068774",
+      "35841142",
+      "32561718",
+      "31774674",
+      "24437917",
+      "27776412",
+      "37595014",
+      "34845619",
+      "20166738",
+      "25769422",
+      "34681718",
+      "30933517",
+      "34576338",
+      "25604198",
+      "29990433",
+      "25313042",
+      "25387963",
+      "26742101",
+      "32323533",
+      "24278008",
+      "30528464",
+      "29734867",
+      "30184304",
+      "29735687",
+      "31552948",
+      "27423742",
+      "28914483",
+      "39412378",
+      "35029261",
+      "37341654",
+      "38892222",
+      "25866611",
+      "29716994",
+      "27018856",
+      "27819658",
+      "32253236",
+      "24763499",
+      "29080468",
+      "31613621",
+      "34358545",
+      "28157327",
+      "25871264",
+      "28841239",
+      "24811666",
+      "35230837",
+      "32693598",
+      "24589355",
+      "31756104",
+      "27122223",
+      "29309620",
+      "28661120",
+      "26195786",
+      "32271570",
+      "26562397",
+      "28970487",
+      "25774711",
+      "31136713",
+      "33454008",
+      "29981536",
+      "33355572",
+      "38294935",
+      "30514082",
+      "32184088",
+      "26851279",
+      "28604862",
+      "31397874",
+      "31411026",
+      "34509724",
+      "21643583",
+      "32696381",
+      "29907037",
+      "31903719",
+      "37905972",
+      "32436706",
+      "33269926",
+      "25244701",
+      "30514761",
+      "26912067",
+      "21453060",
+      "30813315",
+      "34504002",
+      "36103276",
+      "33122085",
+      "30865832",
+      "31241933",
+      "32696371",
+      "34536913",
+      "34883116",
+      "30990694",
+      "25801964",
+      "26052838",
+      "23914144",
+      "37906711",
+      "32696368",
+      "32623047",
+      "30865820",
+      "26483482",
+      "23912807",
+      "29753880",
+      "24317797",
+      "25855872",
+      "31683980",
+      "36800279",
+      "36232586",
+      "28597298",
+      "34224747",
+      "27802394",
+      "26027519",
+      "37714883",
+      "36995250",
+      "38181399",
+      "36343379",
+      "38687180",
+      "38672470"
+    ],
+    "review": [
+      "33909430",
+      "32253236",
+      "29080468",
+      "34358545",
+      "33355572",
+      "26851279",
+      "31397874",
+      "21643583",
+      "21453060",
+      "34536913",
+      "29753880",
+      "28597298"
+    ],
+    "pmc": [
+      "8163090"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33909430/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33909430",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33909430",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.1c00155",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

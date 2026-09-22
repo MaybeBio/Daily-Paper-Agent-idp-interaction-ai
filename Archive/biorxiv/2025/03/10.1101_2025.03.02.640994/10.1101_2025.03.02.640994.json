@@ -1,0 +1,440 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.02.640994",
+  "title": "Programming cellular condensates for living materials using an intrinsically disordered protein display platform (iDP <sup>2</sup> )",
+  "doi": "10.1101/2025.03.02.640994",
+  "abstract": "Self-organization of multicellular systems is vital for building structure in living system but remains underexplored in engineered living materials. We developed iDP 2 , a platform enabling high-density display of intrinsically disordered proteins on the surface of E. coli using CsgF as a surface-bound anchor protein to which other protein domains can be fused. Display depends on a lack of intrinsic structure and enable multivalent weak interactions that drive environmental responsiveness and sequence-programmable self-segregation. iDP 2 allow the programming of material properties like viscoelasticity, stability, offering a method to rationally control cell-cell interactions. This approach could be applied to engineer self-organizing tissues or materials with customized properties.",
+  "authors": [
+    "Rong Chang",
+    "Hann Tu",
+    "Neel S. Joshi"
+  ],
+  "published_date": "2025-03-03",
+  "updated_date": "2025-03-03T23:20:54Z",
+  "journal": "bioRxiv",
+  "category": "Synthetic Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.02.640994",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.02.640994.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Synthetic Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Synthetic Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2026-04-11T19:44:08Z",
+        "timestamp": 1775936648334,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            3
+          ]
+        ]
+      },
+      "group-title": "Synthetic Biology",
+      "reference-count": 42,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                3
+              ]
+            ],
+            "date-time": "2025-03-03T00:00:00Z",
+            "timestamp": 1740960000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Self-organization of multicellular systems is vital for building structure in living system but remains underexplored in engineered living materials. We developed iDP\n                  <jats:sup>2</jats:sup>\n                  , a platform enabling high-density display of intrinsically disordered proteins on the surface of\n                  <jats:italic>E. coli</jats:italic>\n                  using CsgF as a surface-bound anchor protein to which other protein domains can be fused. Display depends on a lack of intrinsic structure and enable multivalent weak interactions that drive environmental responsiveness and sequence-programmable self-segregation. iDP\n                  <jats:sup>2</jats:sup>\n                  allow the programming of material properties like viscoelasticity, stability, offering a method to rationally control cell-cell interactions. This approach could be applied to engineer self-organizing tissues or materials with customized properties.\n                </jats:p>",
+      "DOI": "10.1101/2025.03.02.640994",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            3
+          ]
+        ],
+        "date-time": "2025-03-03T23:20:54Z",
+        "timestamp": 1741044054000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Programming cellular condensates for living materials using an intrinsically disordered protein display platform (iDP\n                  <sup>2</sup>\n                  )"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6287-6142",
+          "authenticated-orcid": false,
+          "given": "Rong",
+          "family": "Chang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry and Chemical Biology, Northeastern University, Boston, MA 02115, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hann",
+          "family": "Tu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry and Chemical Biology, Northeastern University, Boston, MA 02115, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Neel S.",
+          "family": "Joshi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Chemistry and Chemical Biology, Northeastern University, Boston, MA 02115, USA"
+            },
+            {
+              "name": "Department of Bioengineering, Northeastern University, Boston, MA 02115, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nguyen, P. Q. , Courchesne, N.-M. D. , Duraj-Thatte, A. , Praveschotinunt, P. & Joshi, N. S . Engineered Living Materials: Prospects and Challenges for Using Biological Systems to Direct the Assembly of Smart Materials. Adv. Mater. 30, 1704847 (2018).",
+          "DOI": "10.1002/adma.201704847"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.2c00512"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.3",
+          "first-page": "332",
+          "article-title": "Materials design by synthetic biology",
+          "volume": "6",
+          "year": "2021",
+          "journal-title": "Nat. Rev. Mater"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41563-022-01384-1"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms5945"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmat3912"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41563-020-00857-5"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41589-018-0169-2"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lu, J. , Şimşek, E. , Silver, A. & You, L . Advances and challenges in programming pattern formation using living cells. Curr. Opin. Chem. Biol. 68, 102147 (2022).",
+          "DOI": "10.1016/j.cbpa.2022.102147"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3553"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2023.07.007"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2022.08.012"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.06.041"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abi9702"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.4c10882"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-024-07726-0"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s44222-023-00052-6"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-37955-2"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-023-00673-0"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.2c02677"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C9SC03191J"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-33191-2"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acssynbio.4c00528"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2014.12.025"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13768"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yan, Z. , Yin, M. , Chen, J. & Li, X . Assembly and substrate recognition of curli biogenesis system. Nat. Commun. 11, 241 (2020).",
+          "DOI": "10.1038/s41467-019-14145-7"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-38089-1"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acsbiomaterials.6b00437"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-019-0250-x"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-30933-0"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41596-023-00876-x"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.32",
+          "first-page": "D786",
+          "article-title": "DisProt: the Database of Disordered Proteins",
+          "volume": "35",
+          "year": "2006",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.33",
+          "first-page": "D480",
+          "article-title": "DisProt in 2022 : improved quality and accessibility of protein intrinsic disorder annotation",
+          "volume": "50",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-24773-7"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/synbio/ysad013"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.matt.2024.03.019"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acssynbio.8b00448"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmat4418"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41564-020-00817-4"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1067484"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.06.010"
+        },
+        {
+          "key": "2026041111585918000_2025.03.02.640994v1.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ghamghami, E. et al. Optimization of Tris/EDTA/Sucrose (TES) periplasmic extraction for the recovery of functional scFv antibodies. AMB Express 10, 129 (2020).",
+          "DOI": "10.1186/s13568-020-01063-x"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.03.02.640994",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2026-04-11T18:59:08Z",
+        "timestamp": 1775933948000
+      },
+      "score": 92.812744,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.03.02.640994"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            3
+          ]
+        ]
+      },
+      "references-count": 42,
+      "URL": "https://doi.org/10.1101/2025.03.02.640994",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

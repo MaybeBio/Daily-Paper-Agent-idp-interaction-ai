@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and claims as presented in the supplied material
+- **Shared manuscript claim summary** The authors propose two refined force fields, ff03w-sc and ff99SBws-STQ′, derived from systematic modifications to protein-water interaction scaling and targeted torsional refinements, which they claim achieve balanced accuracy for folded proteins, intrinsically disordered polypeptides, and protein-protein complexes in all-atom MD simulations.
+- **Visible evidence base** Simulation results for folded proteins (Ubiquitin, Villin HP35, GB3, BPTI, HEWL), IDPs (CspM34, Histatin5, RS-peptide, S(129–146), Httex1-Q16, TDP-43, FUS, RNA Pol II fragments), and two protein-protein complexes (Barnase/Barstar, SGPB/OMTKY3), compared against experimental SAXS, NMR chemical shifts, and order parameters
+- **Missing materials affecting confidence** Figures and supplementary materials referenced but not provided; simulation parameter details for torsional refinements not fully specified; convergence criteria for PT-WTE simulations not quantified; no error analysis for force field parameter fitting
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem in biomolecular simulation: achieving a balanced force field description across folded, disordered, and complexed protein states. The systematic evaluation of existing force fields and the targeted refinements are logical and well-motivated. However, the evidence base as presented is incomplete, with key figures and supplementary data unavailable for verification. The claims of broad transferability rest on a limited set of test systems, and several methodological details require clarification. The work has potential value but the current presentation does not fully establish the stated conclusions.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular dynamics practitioners developing or applying force fields to protein systems. Researchers studying intrinsically disordered proteins, protein folding, and protein-protein interactions would find the refined force fields potentially useful. The work is also relevant to those interested in the balance between protein-water and protein-protein interactions in simulations.
+- **Major strengths** The study addresses a well-recognized limitation in current force fields and proposes systematic, targeted refinements rather than ad hoc adjustments. The validation strategy spans multiple experimental observables (SAXS, NMR chemical shifts, order parameters) across diverse protein classes. The comparison between two force field families (ff03 and ff99SB) provides useful insight into their relative strengths and weaknesses. The identification of glutamine-specific torsional issues and their targeted correction is a valuable contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that ff03w-sc and ff99SBws-STQ′ achieve balanced accuracy across folded proteins, IDPs, and protein-protein complexes, with validation against SAXS and NMR data.
+  - **Evidence pointer** Figures 1–7, S1–S11; location not provided
+  - **Concern** The manuscript references numerous figures and supplementary materials that are not included in the provided text. Without access to these data, the central claims cannot be independently assessed. The quantitative comparisons to experimental data, the stability trajectories, and the structural analyses are all presented only through these missing figures.
+  - **Why it matters** The core conclusions depend entirely on the visual and quantitative evidence in the figures. The text alone provides insufficient numerical detail to evaluate the quality of agreement with experiment or the significance of differences between force fields.
+  - **Resolution test** Provide all figures and supplementary materials, or include quantitative summaries (e.g., mean RMSD values, confidence intervals, statistical comparisons) in the text.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that ff99SBws-STQ′ was developed by adjusting the backbone torsion potential parameter (kψ) for serine, threonine, and glutamine from 2.0 to 1.0 kJ/mol, and subsequently to 1.5 kJ/mol for glutamine.
+  - **Evidence pointer** Results section, "Secondary structure predictions for IDPs"; location not provided
+  - **Concern** The description of the torsional refinement is insufficiently detailed. The manuscript does not specify how the optimal kψ values were determined, whether other parameters were simultaneously adjusted, or how the refinement was validated to avoid overfitting to the specific test systems. The relationship between the STQ and STQ′ variants is not fully explained.
+  - **Why it matters** Force field parameter adjustments can easily overfit to limited test sets. Without a clear description of the optimization procedure and its validation, the transferability claims are not well supported.
+  - **Resolution test** Provide a detailed description of the parameter optimization procedure, including the objective function, training set, and cross-validation strategy. Specify all parameters changed and justify the chosen values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of conclusions
+  - **Claim pointer** The authors conclude that the refined force fields are "suitable for simulations of single-chain folded proteins, disordered polypeptides, and protein-protein complexes" and propose them as broadly applicable.
+  - **Evidence pointer** Results sections on folded proteins, IDPs, and protein-protein complexes; location not provided
+  - **Concern** The validation set is limited to a small number of proteins per category (two folded proteins tested in detail, a handful of IDPs, two complexes). The claim of broad suitability is not supported by the diversity of test systems. Additionally, the protein-protein complex simulations are only described qualitatively in the text, with no quantitative metrics presented.
+  - **Why it matters** Force field performance is known to be system-dependent. A claim of general transferability requires testing across a wider range of sequence compositions, structural classes, and interaction types.
+  - **Resolution test** Expand the validation set to include more diverse proteins and complexes, or temper the conclusions to reflect the limited scope of testing.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison to existing methods
+  - **Claim pointer** The authors state that their refinements improve upon existing force fields, particularly ff03ws and ff99SBws, and imply superiority over other modern force fields.
+  - **Evidence pointer** Introduction and Discussion; location not provided
+  - **Concern** The manuscript does not provide a systematic comparison against other state-of-the-art force fields (e.g., ff19SB, CHARMM36m, ff99SB-disp) on the same test systems. The only comparison mentioned is a qualitative statement about ff99SB-disp overestimating helicity in specific regions. Without head-to-head benchmarks, the claimed advantages are not established.
+  - **Why it matters** The value of new force field parameters is judged by their performance relative to existing options. The absence of direct comparisons limits the practical utility of the findings.
+  - **Resolution test** Include benchmark simulations with multiple force fields on the same test systems, with quantitative comparison metrics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Force field naming
+  - **Evidence pointer** Throughout; location not provided
+  - **Issue** The naming convention for the force field variants (ff03w-sc, ff99SBws-STQ, ff99SBws-STQ′) is not clearly defined. The relationship between these variants and the parent force fields (ff03ws, ff99SBws) should be explicitly stated.
+  - **Required correction** Provide a clear table or schematic showing the lineage of each force field variant and the specific modifications applied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Error estimates
+  - **Evidence pointer** Methods, "Trajectory analyses"; location not provided
+  - **Issue** The manuscript reports RMSD values and comparisons but does not provide error estimates or statistical significance tests. It is unclear whether differences between force fields are within simulation noise.
+  - **Required correction** Include block averaging or bootstrapping error estimates for key observables, and state whether observed differences are statistically significant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation protocols
+  - **Evidence pointer** Methods; location not provided
+  - **Issue** The methods section does not specify the total simulation lengths for the folded protein and complex simulations beyond stating "2.5 μs each" and "5 μs" for complexes. The number of replicates is stated, but convergence criteria are not described.
+  - **Required correction** Specify total simulation time per system, convergence assessment methods, and criteria for determining when simulations were considered converged.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of validation
+  - **Affected element** Protein-protein complex validation
+  - **Evidence pointer** Results, "Protein-Protein complexes"; location not provided
+  - **Issue** The text states that complexes remained stable but provides no quantitative metrics (e.g., interface RMSD, contact maps, binding free energies) to support this claim.
+  - **Required correction** Include quantitative measures of complex stability, such as interface RMSD over time, native contact fraction, or comparison to experimental binding affinities.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing figures and data), R1-M2 (insufficient methodological detail for parameter refinement), R1-M4 (lack of comparison to other force fields)
+- **Assessment against Nature-style criteria** Originality: The approach of combining selective water interaction scaling with targeted torsional refinements is a reasonable incremental contribution, though not conceptually novel. Scientific importance: The problem of balanced force fields is significant, and the proposed refinements could be useful, but the limited validation scope reduces the impact. Interdisciplinary readership: The work is primarily of interest to computational biophysicists and force field developers; the presentation is technical and assumes substantial domain expertise. Technical soundness: The simulation protocols are generally sound, but the missing data and insufficient methodological detail prevent full assessment. Readability for nonspecialists: The manuscript is written for specialists and would be challenging for a broader scientific audience to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem and the proposed refinements are plausible, but the missing figures and data, insufficient methodological detail, and limited validation scope prevent the claims from being fully supported. The authors should be encouraged to resubmit with complete data and expanded validation.
+
+## Risk / unsupported claims
+- The claim that ff03w-sc and ff99SBws-STQ′ are "balanced" and "suitable" for a wide range of protein systems is not fully supported given the limited test set and missing quantitative data.
+- The statement that ff99SBws-STQ′ "effectively resolved" glutamine helicity discrepancies is not verifiable without the referenced figures and quantitative comparisons.
+- The claim that both force fields "reliably maintained the stability of protein-protein complexes" is unsupported by quantitative metrics in the text.
+- The assertion that ff03w-sc represents a "near-optimal value" for water interaction scaling is not justified by a systematic optimization or sensitivity analysis.
+- The discussion of ff03-based force fields overestimating backbone flexibility relies on data presented only in supplementary figures not provided.

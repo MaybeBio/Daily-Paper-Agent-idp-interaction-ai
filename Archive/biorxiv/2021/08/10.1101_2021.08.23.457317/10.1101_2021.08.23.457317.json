@@ -1,0 +1,155 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.08.23.457317",
+  "title": "Exploring ensemble structures of Alzheimer’s amyloid β (1-42) monomer using linear regression for the MD simulation and NMR chemical shift",
+  "doi": "10.1101/2021.08.23.457317",
+  "abstract": "Aggregation of intrinsically disordered amyloid β (Aβ) is a hallmark of Alzheimer’s disease. Although complex aggregation mechanisms have been increasingly revealed, structural ensembles of Aβ monomers with heterogeneous and transient properties still hamper detailed experimental accesses to early events of amyloidogenesis. We herein developed a new mathematical tool based on multiple linear regression to obtain the reasonable ensemble structures of Aβ monomer by using the solution nuclear magnetic resonance (NMR) and molecular dynamics simulation data. Our approach provided the best-fit ensemble to two-dimensional NMR chemical shifts, also consistent with circular dichroism and dynamic light scattering analyses. The major monomeric structures of Aβ including β-sheets in both terminal and central hydrophobic core regions and the minor partially-helical structures suggested initial structure-based explanation on possible mechanisms of early molecular association and nucleation for amyloid generation. A wide-spectrum application of the current approach was also indicated by showing a successful utilization for ensemble structures of folded proteins. We propose that multiple linear regression in combination to experimental results will be highly promising for studies on protein misfolding diseases and functions by providing a convincing template structure. <h4>Graphic abstract</h4>",
+  "authors": [
+    "Yang W",
+    "Kim BS",
+    "Lin Y",
+    "Ito D",
+    "Kim JH",
+    "Lee Y",
+    "Yu W"
+  ],
+  "published_date": "2021-08-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.08.23.457317",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.08.23.457317.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR387173",
+    "raw_record": {
+      "id": "PPR387173",
+      "source": "PPR",
+      "doi": "10.1101/2021.08.23.457317",
+      "title": "Exploring ensemble structures of Alzheimer’s amyloid β (1-42) monomer using linear regression for the MD simulation and NMR chemical shift",
+      "authorString": "Yang W, Kim BS, Lin Y, Ito D, Kim JH, Lee Y, Yu W.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yang W",
+            "lastName": "Yang",
+            "firstName": "Wonjin",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9484-1040"
+            }
+          },
+          {
+            "fullName": "Kim BS",
+            "lastName": "Kim",
+            "firstName": "Beom Soo",
+            "initials": "BS"
+          },
+          {
+            "fullName": "Lin Y",
+            "lastName": "Lin",
+            "firstName": "Yuxi",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Ito D",
+            "lastName": "Ito",
+            "firstName": "Dai",
+            "initials": "D"
+          },
+          {
+            "fullName": "Kim JH",
+            "lastName": "Kim",
+            "firstName": "Jin Hae",
+            "initials": "JH"
+          },
+          {
+            "fullName": "Lee Y",
+            "lastName": "Lee",
+            "firstName": "Young-Ho",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Yu W",
+            "lastName": "Yu",
+            "firstName": "Wookyung",
+            "initials": "W"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6776-2451"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9484-1040"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Aggregation of intrinsically disordered amyloid β (Aβ) is a hallmark of Alzheimer’s disease. Although complex aggregation mechanisms have been increasingly revealed, structural ensembles of Aβ monomers with heterogeneous and transient properties still hamper detailed experimental accesses to early events of amyloidogenesis. We herein developed a new mathematical tool based on multiple linear regression to obtain the reasonable ensemble structures of Aβ monomer by using the solution nuclear magnetic resonance (NMR) and molecular dynamics simulation data. Our approach provided the best-fit ensemble to two-dimensional NMR chemical shifts, also consistent with circular dichroism and dynamic light scattering analyses. The major monomeric structures of Aβ including β-sheets in both terminal and central hydrophobic core regions and the minor partially-helical structures suggested initial structure-based explanation on possible mechanisms of early molecular association and nucleation for amyloid generation. A wide-spectrum application of the current approach was also indicated by showing a successful utilization for ensemble structures of folded proteins. We propose that multiple linear regression in combination to experimental results will be highly promising for studies on protein misfolding diseases and functions by providing a convincing template structure. <h4>Graphic abstract</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/08/24/2021.08.23.457317.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.08.23.457317"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-09-07",
+      "firstPublicationDate": "2021-08-24",
+      "firstIndexDate": "2021-09-07",
+      "hasEvaluations": "Y"
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "identity": {
+    "pmid": "42596546",
+    "doi": "10.1016/j.bpj.2026.08.004",
+    "title": "Multi-step binding-unbinding pathways govern properties of biomolecular condensates."
+  },
+  "content": {
+    "abstract": "The interactions among condensate-forming biomolecules dictate both the specificity and properties of these condensates, including their fluid-like nature and material exchange dynamics among condensate droplets. While interaction specificity is typically associated with mean interaction lifetimes, the role of interaction lifetime distributions in shaping condensate behavior remains unexplored. This is a critical gap where extensive research has focused on interaction strengths and mean lifetimes. Using a heuristic modeling approach, we show that independent and sequential multi-step binding-unbinding interactions between protein molecules lead to similar average interaction lifetimes but fundamentally different lifetime distributions: exponential and truncated power law, respectively. Combining the binding-unbinding models with Brownian dynamics simulations, our findings show that an alteration in the binding-unbinding interaction mechanism in a protein-specific system impacts the exchange dynamics, aging, and size distribution of condensates, even when mean interaction lifetimes remain constant. Our work demonstrates a link between binding-unbinding mechanisms, lifetime distributions, and features of condensates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Debnath, Bhanjan",
+        "Katira, Parag"
+      ],
+      "short_names": [
+        "Debnath B",
+        "Katira P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Mechanical Engineering, San Diego State University, San Diego, CA, USA; Department of Chemical Engineering, IIT Hyderabad, Kandi, Sangareddy, Telangana, India. Electronic address: bhanjan@che.iith.ac.in.",
+        "Department of Mechanical Engineering, San Diego State University, San Diego, CA, USA. Electronic address: pkatira@sdsu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Debnath, Bhanjan",
+        "short_name": "Debnath B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical Engineering, San Diego State University, San Diego, CA, USA; Department of Chemical Engineering, IIT Hyderabad, Kandi, Sangareddy, Telangana, India. Electronic address: bhanjan@che.iith.ac.in."
+        ]
+      },
+      {
+        "full_name": "Katira, Parag",
+        "short_name": "Katira P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical Engineering, San Diego State University, San Diego, CA, USA. Electronic address: pkatira@sdsu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Aug 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/14 05:38",
+    "fetched_at": "2026-09-18 05:36:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42596546",
+      "42475469",
+      "23912807",
+      "37194953",
+      "41481439",
+      "40791470",
+      "35881789",
+      "39866835",
+      "37073403",
+      "42465321",
+      "40629499",
+      "38405951",
+      "40748104",
+      "37131735",
+      "40521608",
+      "40196628",
+      "42290133",
+      "40985078",
+      "36993212",
+      "35293386",
+      "38591689",
+      "38622120",
+      "39534915",
+      "40455990",
+      "40102453",
+      "37252985",
+      "39591652",
+      "40626470",
+      "34090478",
+      "40954121",
+      "39400294",
+      "41238911",
+      "38781207",
+      "39184067",
+      "40502052",
+      "38766065",
+      "40475453",
+      "42427709",
+      "35054509",
+      "37293933",
+      "38363841",
+      "42456205",
+      "37770422",
+      "39868336",
+      "35727989",
+      "39575590",
+      "39856105",
+      "40291709",
+      "40321778",
+      "38832749",
+      "36883003",
+      "42330462",
+      "34654286",
+      "41670285",
+      "39937084",
+      "42577707",
+      "41279444",
+      "39636939",
+      "39398199",
+      "37470705",
+      "34767801",
+      "40661423",
+      "40848932",
+      "38076832",
+      "40972943",
+      "40653653",
+      "40881393",
+      "33934561",
+      "39433596",
+      "37205474",
+      "41535729",
+      "40195119",
+      "40291420",
+      "33672806",
+      "40473633",
+      "40747072",
+      "42124599",
+      "42182309",
+      "35761089",
+      "40667293",
+      "39271915",
+      "40172489",
+      "40692378",
+      "36004748",
+      "38251748",
+      "39071308",
+      "41868013",
+      "33307683",
+      "39541973",
+      "26032728",
+      "38191942",
+      "38429263",
+      "37549257",
+      "40661504",
+      "39827079",
+      "40470224",
+      "40766389",
+      "35001622",
+      "39914390",
+      "16195542"
+    ],
+    "review": [
+      "42596546",
+      "42456205",
+      "34767801",
+      "33934561",
+      "39433596",
+      "35761089",
+      "40172489"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(26)00546-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

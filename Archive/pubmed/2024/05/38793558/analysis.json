@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38793558",
+  "title": "Investigating the Interactions of the Cucumber Mosaic Virus 2b Protein with the Viral 1a Replicase Component and the Cellular RNA Silencing Factor Argonaute 1.",
+  "authors": "Crawshaw, Sam; Murphy, Alex M; Rowling, Pamela J E; Nietlispach, Daniel; Itzhaki, Laura S; Carr, John P",
+  "journal": "Viruses",
+  "published_date": "2024-05-25",
+  "window": {
+    "start": "2024-05-20",
+    "end": "2024-05-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过突变、共定位和共免疫沉淀等实验探究黄瓜花叶病毒2b蛋白与1a复制酶及AGO1的互作，并预测其内在无序性，但方法以实验为主、缺乏AI/物理模拟建模，机制深度有限。",
+  "abstract": "The cucumber mosaic virus (CMV) 2b protein is a suppressor of plant defenses and a pathogenicity determinant. Amongst the 2b protein's host targets is the RNA silencing factor Argonaute 1 (AGO1), which it binds to and inhibits. In Arabidopsis thaliana, if 2b-induced inhibition of AGO1 is too efficient, it induces reinforcement of antiviral silencing by AGO2 and triggers increased resistance against aphids, CMV's insect vectors. These effects would be deleterious to CMV replication and transmission, respectively, but are moderated by the CMV 1a protein, which sequesters sufficient 2b protein molecules into P-bodies to prevent excessive inhibition of AGO1. Mutant 2b protein variants were generated, and red and green fluorescent protein fusions were used to investigate subcellular colocalization with AGO1 and the 1a protein. The effects of mutations on complex formation with the 1a protein and AGO1 were investigated using bimolecular fluorescence complementation and co-immunoprecipitation assays. Although we found that residues 56-60 influenced the 2b protein's interactions with the 1a protein and AGO1, it appears unlikely that any single residue or sequence domain is solely responsible. In silico predictions of intrinsic disorder within the 2b protein secondary structure were supported by circular dichroism (CD) but not by nuclear magnetic resonance (NMR) spectroscopy. Intrinsic disorder provides a plausible model to explain the 2b protein's ability to interact with AGO1, the 1a protein, and other factors. However, the reasons for the conflicting conclusions provided by CD and NMR must first be resolved.",
+  "abstract_zh": "黄瓜花叶病毒（CMV）2b蛋白是植物防御的抑制因子及致病性决定因子。在2b蛋白的宿主靶标中，包括RNA沉默因子Argonaute 1（AGO1），该蛋白与之结合并抑制其功能。在拟南芥（Arabidopsis thaliana）中，若2b蛋白诱导的AGO1抑制过于高效，则会通过AGO2增强抗病毒沉默，并引发对蚜虫（CMV的昆虫媒介）抗性的增加。这些效应分别对CMV的复制和传播不利，但由CMV 1a蛋白调节，该蛋白将足够的2b蛋白分子隔离到P-body中，以防止对AGO1的过度抑制。生成了突变型2b蛋白变体，并使用红色和绿色荧光蛋白融合体来研究其与AGO1及1a蛋白的亚细胞共定位。通过双分子荧光互补和免疫共沉淀实验，研究了突变对与1a蛋白及AGO1复合物形成的影响。尽管我们发现残基56-60影响2b蛋白与1a蛋白及AGO1的相互作用，但似乎不太可能由任何单一残基或序列结构域单独负责。对2b蛋白二级结构内固有无序性的计算机预测得到了圆二色谱（CD）的支持，但核磁共振（NMR）波谱未予证实。固有无序性为解释2b蛋白与AGO1、1a蛋白及其他因子相互作用的能力提供了一个合理模型。然而，CD与NMR所得结论矛盾的原因必须首先得到解决。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38793558/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38793558/",
+  "paper_page_path": "papers/pubmed/38793558/index.html"
+}

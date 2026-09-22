@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use a 73 microsecond molecular dynamics ensemble of alpha-synuclein (alphaS) monomer, analyzed via a Markov state model (MSM), to identify distinct metastable states. They report that the most populated state matches PRE-NMR dimensions, that the ensemble includes weakly populated random-coil-like and globular-like states, that crowding induces nonmonotonic compaction and skews the ensemble by altering tertiary contacts, and that early-stage dimerization is accelerated by crowders via nonspecific interactions. They conclude that crowded environments can modulate conformational preferences of this IDP, potentially promoting or inhibiting aggregation.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, force fields, MSM validation metrics, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation setup and convergence criteria, MSM construction and validation details, crowding model specifications, dimerization simulation protocols, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study on conformational plasticity of alpha-synuclein under crowded conditions, with a plausible link to aggregation mechanisms. However, the claims as stated cannot be adequately evaluated from the abstract alone. Key quantitative results, methodological rigor, and validation of the MSM and crowding effects are not visible. The scientific premise is sound, but the evidence base provided is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein aggregation and neurodegeneration, and computational biophysics would be interested. The study addresses a central question about how cellular crowding modulates IDP conformations and aggregation propensity, which has implications for understanding Parkinson's disease mechanisms and for designing crowding-based therapeutic or experimental strategies.
+- **Major strengths** The study tackles a significant and challenging problem, namely the conformational heterogeneity of alphaS and its modulation by crowding. The use of a long (73 microsecond) MD ensemble and MSM analysis is a modern and appropriate approach. The claim of nonmonotonic compaction and the distinction between aggregation-prone and resistant states are conceptually valuable. The link to dimerization kinetics adds a functional dimension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that a 73 microsecond MD ensemble, dissected via MSM, identifies an optimal set of distinct metastable states of alphaS in aqueous media.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no information on the force field, water model, temperature, salt conditions, or system size. It also does not report how the MSM was constructed, validated, or how the number of metastable states was chosen. Without these details, the reliability of the metastable state identification cannot be assessed.
+  - **Why it matters** MSM results are highly sensitive to the choice of featurization, clustering, lag time, and implied timescales. If the model is not properly validated, the claimed metastable states and their populations may be artifacts. This is foundational to all subsequent claims about crowding effects and dimerization.
+  - **Resolution test** Provide full methods for simulation and MSM construction, including convergence tests, implied timescale plots, Chapman-Kolmogorov tests, and uncertainty estimates for state populations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that crowding induces nonmonotonic compaction of metastable conformations and skews the ensemble by introducing or reinforcing tertiary contacts.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the crowding agent, its concentration, or the simulation method used to model crowding (e.g., explicit crowder molecules, coarse-grained models, or post-hoc analysis). Nonmonotonic compaction is a strong claim that requires quantitative data, such as radius of gyration distributions across crowder concentrations, and statistical significance testing.
+  - **Why it matters** Crowding effects on IDPs are known to be sensitive to crowder size, shape, and concentration. Without specifying the model and showing quantitative trends, the claim of nonmonotonicity cannot be verified, and the mechanistic interpretation of new versus reinforced contacts remains speculative.
+  - **Resolution test** Report the crowding model, concentrations tested, and quantitative measures of compaction (e.g., Rg, contact maps) with error bars and statistical tests. Show that the nonmonotonic trend is reproducible and not an artifact of limited sampling.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that early-stage dimerization is considerably expedited in the presence of crowders, albeit promoting nonspecific interactions.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given on how dimerization was simulated, what "early stage" means, how association rates were computed, or how "nonspecific interactions" were defined and distinguished from specific ones. The claim of expedited dimerization requires kinetic data and comparison to a non-crowded control.
+  - **Why it matters** The dimerization claim is central to the aggregation relevance of the study. If the simulation setup or analysis is flawed, the conclusion that crowding promotes aggregation via accelerated dimerization is unsupported.
+  - **Resolution test** Provide simulation protocols for dimerization, definitions of association events, computed rate constants or mean first passage times, and a clear comparison between crowded and non-crowded conditions with statistical analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that crowded environments can potentially modulate conformational preferences of IDPs that can either promote or inhibit aggregation events.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract presents a dual conclusion (promote or inhibit) without specifying conditions under which each outcome occurs. This is vague and does not provide a testable prediction or mechanistic clarity.
+  - **Why it matters** For the study to have broad impact, it should offer a clear framework for predicting when crowding promotes versus inhibits aggregation. The current phrasing is too general to guide experimental design or therapeutic reasoning.
+  - **Resolution test** Specify the molecular determinants (e.g., crowder concentration, specific contact patterns, state populations) that favor promotion versus inhibition, and provide quantitative evidence for each scenario.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms like "metastable states," "Markov state model," and "PRE-NMR" without brief explanations, which may limit accessibility for readers outside computational biophysics.
+  - **Required correction** Add brief parenthetical explanations or contextual phrases for these terms to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "optimal set of distinct metastable states" is ambiguous. It is unclear what "optimal" means in this context, whether it refers to statistical model selection, physical relevance, or something else.
+  - **Required correction** Clarify the criterion for "optimal" in the abstract, such as "selected based on MSM validation metrics" or "representing the minimal set that captures the ensemble dynamics."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the most populated state "corroborates with the dimension obtained from PRE-NMR studies," but does not specify which dimension (e.g., radius of gyration, end-to-end distance) or the quantitative agreement.
+  - **Required correction** Specify the measured dimension and the numerical comparison, including any uncertainty ranges.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These are blocking because the core claims of metastable state identification, crowding-induced nonmonotonic compaction, and accelerated dimerization cannot be evaluated without the missing methodological and quantitative details.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the study addresses a known problem with a long-timescale simulation and MSM approach, but the conceptual novelty of crowding modulating IDP conformations is not new. Scientific importance is potentially high given the relevance to Parkinson's disease and IDP biophysics, but the abstract does not yet demonstrate a clear advance. Interdisciplinary readership is plausible, spanning biophysics, computational chemistry, and neurobiology, but the abstract is too technical for broad appeal. Technical soundness cannot be assessed from the abstract alone, and the missing details are critical. Readability for nonspecialists is limited by jargon and lack of context.
+- **Recommendation posture** Currently not established from the provided evidence. The scientific premise is promising, and the approach is appropriate, but the abstract alone does not provide sufficient methodological detail or quantitative results to support the claims. I would be supportive if the full manuscript addresses the technical concerns, particularly MSM validation, crowding model specifications, and dimerization kinetics.
+
+## Risk / unsupported claims
+- The claim of "optimal set of distinct metastable states" is unsupported without MSM construction and validation details.
+- The claim of "nonmonotonic compaction" is unsupported without quantitative data and statistical testing.
+- The claim that crowding "skews the ensemble by either introducing new tertiary contacts or by reinforcing the innate contacts" is unsupported without contact analysis details.
+- The claim that "early stage of dimerization process is considerably expedited" is unsupported without kinetic data and simulation protocols.
+- The claim that crowding "can either promote or inhibit aggregation events" is too vague and not directly supported by the abstract's evidence.
+- The agreement with PRE-NMR dimensions is unverifiable without specifying the dimension and numerical values.

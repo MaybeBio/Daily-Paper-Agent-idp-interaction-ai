@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report NMR-based characterization of the interaction between the intrinsically disordered CR2C region of FOXO4 and the KIX domain of CBP, identifying binding interfaces, conformational subpopulations, apparent dissociation constants, and disordered binding modes on the MLL site, with a proposed role for an adjacent poly-proline tract in modulating conformational heterogeneity
+- **Visible evidence base** Abstract text only; no experimental details, spectra, figures, tables, or statistical analyses were provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, NMR assignment details, titration data, mutagenesis constructs, CD spectra, docking parameters and outputs, and any statistical or error analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting biophysical study of a disordered transcription factor region binding to a globular coactivator domain, with a novel focus on conformational heterogeneity influenced by a poly-proline tract. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims regarding subpopulation resolution, binding affinities, and structural models. The work may be of value to the NMR and intrinsically disordered protein communities, but the case as presented is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and their binding mechanisms, NMR spectroscopists interested in conformational exchange and subpopulation analysis, and investigators working on FOXO transcription factor regulation or CBP KIX-mediated transcriptional coactivation. The poly-proline effect on binding behavior may also attract those studying sequence-encoded conformational bias in disordered regions.
+- **Major strengths** The study addresses a previously uncharacterized interaction, FOXO4 CR2C with CBP KIX, filling a gap relative to FOXO3a. The combination of chemical-shift perturbation, proline mutagenesis, truncation, CD spectroscopy, and docking provides a multi-pronged approach. The observation of cross-peak splitting into two sets is a concrete NMR signature that supports the conformational heterogeneity claim.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that "systematic proline mutagenesis and truncation support the presence of distinct conformational subpopulations, for which apparent K(d) values were estimated independently"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify how many proline mutants were made, which positions were targeted, how truncation boundaries were chosen, or how the apparent K(d) values were derived from NMR titrations. Without these details, the claim that subpopulations are distinct and independently quantifiable cannot be assessed.  
+  - **Why it matters** The central novelty of the work rests on the existence and functional relevance of conformational subpopulations. If the K(d) estimates are not robustly supported by the titration data or if the mutagenesis does not cleanly separate populations, the interpretation of conformational heterogeneity would be weakened.  
+  - **Resolution test** Provide the full titration curves, fitting procedures, error estimates, and a clear demonstration that the two cross-peak sets correspond to distinct bound states with non-overlapping affinity ranges. Show that mutagenesis and truncation effects are consistent with the proposed population model rather than alternative explanations such as non-specific binding or aggregation.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Structural evidence  
+  - **Claim pointer** The abstract claims that "docking models suggest that FOXO4 CR2C binds in multiple disordered conformations on the KIX MLL site"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** Docking of an intrinsically disordered peptide is technically challenging and prone to artifacts. The abstract does not describe the docking method, the ensemble generation strategy, the scoring function, or how the models were validated against experimental restraints such as intermolecular NOEs or paramagnetic relaxation enhancement data.  
+  - **Why it matters** The claim of "multiple disordered conformations" is a structural interpretation that goes beyond the NMR data described. Without experimental validation, the docking models remain speculative and cannot support the conclusion that the binding mode is genuinely disordered rather than a single dominant conformation with local flexibility.  
+  - **Resolution test** Describe the docking protocol in detail, show how the models were filtered or clustered, and provide experimental validation such as intermolecular distance restraints or residual dipolar couplings that support the disordered ensemble. If such data are absent, temper the claim to reflect that the models are illustrative rather than definitive.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Functional relevance  
+  - **Claim pointer** The abstract claims that "an adjacent poly-proline tract modulates the KIX binding behavior of CR2C through conformational heterogeneity"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not establish a causal link between the poly-proline tract and the observed conformational heterogeneity. It is unclear whether the poly-proline tract directly induces the subpopulations, stabilizes one population over another, or is merely present in the sequence without a demonstrated mechanistic role.  
+  - **Why it matters** The title and concluding statement emphasize the poly-proline modulation, but the abstract provides no comparative data, such as a construct lacking the poly-proline tract, to show that its removal alters the conformational equilibrium or binding affinity.  
+  - **Resolution test** Include data from a poly-proline deletion or substitution variant showing a measurable change in subpopulation ratios, binding affinity, or conformational exchange rates. If such a variant was not tested, revise the claim to describe the poly-proline tract as a sequence feature of interest rather than a demonstrated modulator.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence of results  
+  - **Issue** The phrase "splitting of several amide cross-peaks in CR2C into two sets" is ambiguous regarding whether the splitting occurs in the free state, the bound state, or both, and whether it is observed for backbone or side-chain amides.  
+  - **Required correction** Specify the state in which splitting is observed and the type of amide resonances affected.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Quantitative reporting  
+  - **Affected element** K(d) values  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that apparent K(d) values were estimated but does not report any numerical values or ranges, which limits the reader's ability to gauge the affinity regime.  
+  - **Required correction** Include representative K(d) values or a range in the abstract, or state that values are reported in the main text with appropriate context.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "PhiXXPhiPhi motif"  
+  - **Evidence pointer** Abstract, background  
+  - **Issue** The Phi symbol is not defined in the abstract, which may confuse readers unfamiliar with the convention for hydrophobic residues.  
+  - **Required correction** Define Phi as a hydrophobic residue at first use, or replace with a more explicit description.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of distinct subpopulations with independent K(d) values and disordered binding modes cannot be verified from the abstract alone. R1-M3 is non-blocking but requires additional comparative data to support the mechanistic role of the poly-proline tract.
+- **Assessment against Nature-style criteria**  
+  - Originality: The study addresses an uncharacterized interaction and introduces a poly-proline modulation angle, which is a novel contribution to the FOXO-KIX literature. However, the concept of conformational heterogeneity in disordered protein binding is not new, and the originality rests on the specific system and the poly-proline effect.  
+  - Scientific importance: The findings may inform understanding of FOXO4 regulation and disordered protein binding mechanisms, but the abstract does not establish broader physiological or therapeutic implications. The importance is moderate and system-specific.  
+  - Interdisciplinary readership: The work is primarily of interest to NMR spectroscopists and structural biologists studying disordered proteins. The abstract does not frame the results in a way that would attract a broader readership in transcription regulation or cell biology.  
+  - Technical soundness: The combination of NMR, mutagenesis, CD, and docking is appropriate, but the abstract does not provide enough detail to assess the rigor of the K(d) estimation or the docking validation. Technical soundness cannot be confirmed from the supplied material.  
+  - Readability for nonspecialists: The abstract is concise but uses field-specific terminology without sufficient context. The logic from observation to conclusion is clear at a high level, but the mechanistic claim about the poly-proline tract is not well supported in the abstract.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible and potentially interesting study, but the blocking concerns regarding subpopulation quantification and docking validation must be resolved with full experimental details before the case can be assessed. A revised abstract that includes quantitative results and tempers structural claims would strengthen the presentation.
+
+## Risk / unsupported claims
+- The claim that "systematic proline mutagenesis and truncation support the presence of distinct conformational subpopulations" is unsupported without details on the number, positions, and effects of the mutations and truncations.
+- The claim that "apparent K(d) values were estimated independently" is unsupported without reporting the values, the fitting method, or the error analysis.
+- The claim that "docking models suggest that FOXO4 CR2C binds in multiple disordered conformations" is unsupported without describing the docking method or providing experimental validation.
+- The claim that "an adjacent poly-proline tract modulates the KIX binding behavior of CR2C through conformational heterogeneity" is unsupported without comparative data from a construct lacking the poly-proline tract.
+- The statement that "CR2C remains disordered upon binding" is based on CD analysis but the abstract does not provide the CD data or the criteria used to assess disorder, making this claim unverifiable from the supplied material.

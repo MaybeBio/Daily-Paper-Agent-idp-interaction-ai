@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use sequence-resolved coarse-grained simulations of model peptide-RNA condensates to dissect how condensate density, RNA stoichiometry, and peptide sequence patterning determine the flow activation energy, which they link to sticker-sticker pair lifetimes and network relaxation dynamics.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or methodological descriptions provided
+- **Missing materials affecting confidence** Full text, simulation methodology, force field parameters, system compositions, all figures and tables, statistical analyses, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a timely and potentially valuable computational investigation into the molecular determinants of flow activation energy in biomolecular condensates. The topic is of high relevance to the growing field of condensate material property prediction. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the robustness of the reported relationship between sticker-sticker lifetimes and activation energy, or the generalizability of the findings. The central claim that activation energy is "closely linked" to sticker-sticker pair lifetime is plausible but underspecified, and the caveat regarding competing stickers is not developed. The work may be of interest to the condensate biophysics community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensate material properties, computational biophysicists developing sequence-to-material-property predictions, and experimentalists in microrheology seeking molecular interpretations of their measurements. The potential link between sequence patterning and flow activation energy could inform the design of condensates with tunable viscoelastic properties.
+- **Major strengths** The abstract addresses a clearly identified gap in understanding the molecular grammar underlying condensate material properties. The use of sequence-resolved coarse-grained simulations with RNA as a secondary component is appropriate for probing multicomponent effects. The acknowledgment that competing stickers complicate the activation energy-lifetime relationship suggests a nuanced treatment of the problem.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The study "dissected the effects of condensate density, RNA stoichiometry, and peptide sequence patterning" and found that "flow activation energy is closely linked to the lifetime of sticker-sticker pairs under certain conditions."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no quantitative results, no description of the simulation methodology, no definition of how activation energy was extracted from the simulations, and no specification of the "certain conditions" under which the link holds. Without these details, the robustness and validity of the central finding cannot be assessed.  
+  - **Why it matters** The core claim of the paper rests on a quantitative relationship between a thermodynamic/kinetic quantity (activation energy) and a dynamic observable (sticker-sticker pair lifetime). If the extraction method or the conditions are not clearly defined, the claim is not reproducible or falsifiable.  
+  - **Resolution test** Provide in the full manuscript a clear description of the simulation protocol, the method for computing activation energy (e.g., from temperature-dependent relaxation times or stress relaxation), the definition of sticker-sticker pair lifetime, and a quantitative demonstration of the relationship (e.g., correlation coefficients, scaling exponents) across the tested parameter range.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** "The insights gained in this study should help establish predictive multiscale models for the material properties and serve as a valuable guide for the programmable design of condensates."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not provide any evidence that the findings are generalizable beyond the specific model peptide sequences and RNA constructs studied. No comparison with experimental data is mentioned, and no demonstration of predictive capability is offered. The claim of guiding programmable design is therefore speculative.  
+  - **Why it matters** The stated significance of the work depends on its transferability to real condensate systems. Without validation against experimental measurements or a demonstration of predictive power across diverse sequences, the broader impact remains unsubstantiated.  
+  - **Resolution test** Include in the full manuscript a comparison of simulation-derived activation energies with experimental microrheology data for at least one or two condensate systems, or provide a clear argument for why the model captures the essential physics. Alternatively, temper the claims of predictive utility to match the evidence presented.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interdisciplinary readership  
+  - **Claim pointer** The abstract states that "the presence of multiple competing stickers further complicates this relationship" between activation energy and sticker-sticker pair lifetime.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not explain how the complication manifests, whether it is a quantitative deviation from a simple scaling, a change in the dominant mechanism, or a regime shift. The reader is left without a clear picture of the scope of the finding.  
+  - **Why it matters** For a broad readership, including experimentalists who may not be familiar with simulation details, the nature of the complication is essential for interpreting the practical relevance of the result.  
+  - **Resolution test** In the full manuscript, provide a clear description of how the activation energy-lifetime relationship changes with the number or type of competing stickers, including representative examples and a mechanistic explanation.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "flow activation energy" is used without a brief definition or context for readers who may not be familiar with rheology of condensates.  
+  - **Required correction** Add a brief parenthetical definition, such as "the energetic barrier governing temperature-dependent viscous flow," to improve accessibility.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not specify the range of conditions (e.g., temperature, salt concentration, RNA length) explored in the simulations, which limits the reader's ability to gauge the scope of the study.  
+  - **Required correction** Include a brief statement of the parameter ranges or state that these are detailed in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of methodological detail and quantitative evidence for the central relationship, combined with the absence of any experimental validation or clear generalizability argument, means the case is not established from the abstract alone.
+- **Assessment against Nature-style criteria**  
+  - Originality: The abstract suggests a novel computational dissection of activation energy origins in multicomponent condensates, which is a relatively underexplored area. However, the novelty cannot be fully assessed without seeing how the approach differs from prior simulation studies of condensate viscoelasticity.  
+  - Scientific importance: The topic is important for the field, but the abstract does not demonstrate that the findings will change current understanding or enable new predictions. The link to experimental observables is missing.  
+  - Interdisciplinary readership: The abstract is written in a way that is likely accessible to biophysicists and soft matter scientists, but the lack of context for key terms and the absence of quantitative results may limit broader appeal.  
+  - Technical soundness: Not assessable from the abstract. The simulation methodology, analysis methods, and statistical rigor are not described.  
+  - Readability for nonspecialists: The abstract is generally clear but uses field-specific jargon without definition, and the central finding is stated qualitatively, which reduces its accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The work may be of interest, but the abstract alone does not provide sufficient detail to support the central claims. A full review of the manuscript would be required to determine whether the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that flow activation energy is "closely linked" to sticker-sticker pair lifetime is unsupported without quantitative data and a defined relationship.
+- The claim that the study "dissected" the effects of density, RNA stoichiometry, and sequence patterning is unverifiable without results.
+- The claim that insights will "help establish predictive multiscale models" and "serve as a valuable guide for programmable design" is speculative and not supported by any evidence in the abstract.
+- The existence of a "characteristic timescale related to network relaxation dynamics" is referenced from prior work but not defined or connected to the current findings in a way that can be evaluated.

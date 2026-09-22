@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40360668",
+  "title": "A thermosensor FUST1 primes heat-induced stress granule formation via biomolecular condensation in Arabidopsis.",
+  "authors": "Geng, Pan; Li, Changxuan; Quan, Xuebo; Peng, Jiaxuan; Yao, Zhiying; Wang, Yunhe; Yang, Ming; Wang, Yanning; Jin, Yunfan; Xiong, Yan; Liu, Hongtao; Qi, Yijun; Yang, Peiguo; Huang, Kai; Fang, Xiaofeng",
+  "journal": "Cell research",
+  "published_date": "2025-05-14",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 9,
+  "one_liner_zh": "该文研究拟南芥中无序蛋白FUST1通过其朊病毒样结构域的热响应凝聚感知温度并启动应激颗粒组装，结合全原子分子动力学模拟揭示锁-开构象转变的互作机制，完全契合无序蛋白介导PPI与相分离的机制建模主题。",
+  "abstract": "The ability to sense cellular temperature and induce physiological changes is pivotal for plants to cope with warming climate. Biomolecular condensation is emerging as a thermo-sensing mechanism, but the underlying molecular basis remains elusive. Here we show that an intrinsically disordered protein FUST1 senses heat via its condensation in Arabidopsis thaliana. Heat-dependent condensation of FUST1 is primarily determined by its prion-like domain (PrLD). All-atom molecular dynamics simulation and experimental validation reveal that PrLD encodes a thermo-switch, experiencing lock-to-open conformational changes that control the intermolecular contacts. FUST1 interacts with integral stress granule (SG) components and localizes in the SGs. Importantly, FUST1 condensation is autonomous and precedes condensation of several known SG markers and is indispensable for SG assembly. Loss of FUST1 significantly delays SG assembly and impairs both basal and acquired heat tolerance. These findings illuminate the molecular basis for thermo-sensing by biomolecular condensation and shed light on the molecular mechanism of heat stress granule assembly.",
+  "abstract_zh": "感知细胞温度并诱导生理变化的能力对于植物应对气候变暖至关重要。生物分子凝聚正在成为一种温度感应机制，但其潜在的分子基础仍不明确。在此，我们展示了一种 intrinsically disordered protein FUST1 通过其在拟南芥（Arabidopsis thaliana）中的凝聚来感知热量。FUST1 的热依赖性凝聚主要由其朊病毒样结构域（prion-like domain, PrLD）决定。全原子分子动力学模拟和实验验证揭示，PrLD 编码一个热开关，经历从锁定到开放的构象变化，从而控制分子间接触。FUST1 与整合应激颗粒（stress granule, SG）组分相互作用，并定位于应激颗粒中。重要的是，FUST1 的凝聚是自主的，且先于几种已知应激颗粒标志物的凝聚，对应激颗粒组装不可或缺。FUST1 的缺失显著延迟应激颗粒组装，并损害基础耐热性和获得性耐热性。这些发现阐明了通过生物分子凝聚进行温度感应的分子基础，并为热应激颗粒组装的分子机制提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40360668/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40360668/",
+  "paper_page_path": "papers/pubmed/40360668/index.html"
+}

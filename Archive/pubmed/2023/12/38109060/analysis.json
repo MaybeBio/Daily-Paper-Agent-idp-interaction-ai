@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38109060",
+  "title": "Uncovering the structural stability of Magnaporthe oryzae effectors: a secretome-wide in silico analysis.",
+  "authors": "Chakraborty, Anwesha; Hussain, Afzal; Sabnam, Nazmiara",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2023-12-18",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文对稻瘟病菌分泌组效应蛋白进行全组学计算分析，预测其内在无序性并用分子动力学模拟验证结构稳定性，虽对象为病原效应蛋白而非宿主PPI，但无序蛋白结构动态与互作机制建模思路对本课题有迁移启发。",
+  "abstract": "Rice blast, caused by the ascomycete fungus Magnaporthe oryzae, is a deadly disease and a major threat to global food security. The pathogen secretes small proteinaceous effectors, virulence factors, inside the host to manipulate and perturb the host immune system, allowing the pathogen to colonize and establish a successful infection. While the molecular functions of several effectors are characterized, very little is known about the structural stability of these effectors. We analyzed a total of 554 small secretory proteins (SSPs) from the M. oryzae secretome to decipher key features of intrinsic disorder (ID) and the structural dynamics of the selected putative effectors through thorough and systematic in silico studies. Our results suggest that out of the total SSPs, 66% were predicted as effector proteins, released either into the apoplast or cytoplasm of the host cell. Of these, 68% were found to be intrinsically disordered effector proteins (IDEPs). Among the six distinct classes of disordered effectors, we observed peculiar relationships between the localization of several effectors in the apoplast or cytoplasm and the degree of disorder. We determined the degree of structural disorder and its impact on protein foldability across all the putative small secretory effector proteins from the blast pathogen, further validated by molecular dynamics simulation studies. This study provides definite clues toward unraveling the mystery behind the importance of structural distortions in effectors and their impact on plant-pathogen interactions. The study of these dynamical segments may help identify new effectors as well.Communicated by Ramaswamy H. Sarma.",
+  "abstract_zh": "由子囊真菌稻瘟病菌（*Magnaporthe oryzae*）引起的稻瘟病是一种致命病害，对全球粮食安全构成重大威胁。该病原体在寄主内部分泌小分子蛋白效应子（effectors），即毒力因子，以操控和干扰寄主免疫系统，从而使病原体能够定殖并建立成功感染。尽管若干效应子的分子功能已被表征，但关于这些效应子的结构稳定性知之甚少。我们分析了稻瘟病菌分泌组（secretome）中总共554个小分泌蛋白（small secretory proteins, SSPs），通过全面且系统的计算机模拟研究，解析了内在无序性（intrinsic disorder, ID）的关键特征以及选定推定效应子的结构动力学。我们的结果表明，在全部SSPs中，66%被预测为效应蛋白，释放至寄主细胞的质外体或细胞质中。其中，68%被鉴定为内在无序效应蛋白（intrinsically disordered effector proteins, IDEPs）。在六类不同的无序效应子中，我们观察到若干效应子在质外体或细胞质中的定位与无序程度之间的特殊关系。我们确定了所有来自稻瘟病菌的推定小分泌效应蛋白的结构无序程度及其对蛋白质可折叠性的影响，并通过分子动力学（molecular dynamics）模拟研究进一步验证。本研究为揭示效应子结构畸变的重要性及其对植物-病原体相互作用的影响之谜提供了明确线索。对这些动态区段的研究也可能有助于识别新的效应子。由Ramaswamy H. Sarma通讯。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38109060/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38109060/",
+  "paper_page_path": "papers/pubmed/38109060/index.html"
+}

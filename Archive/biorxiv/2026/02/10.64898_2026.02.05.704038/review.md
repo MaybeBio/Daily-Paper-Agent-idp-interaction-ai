@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure legends
+- **Assessment boundary** Scientific claims, experimental design, data analysis, and interpretation as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that SUMOylation regulates PRC1 condensate properties and that its depletion causes aberrant PRC1 clustering, rewiring of 3D genome architecture, and transcriptional changes independent of H3K27me3 maintenance
+- **Visible evidence base** Microscopy imaging (Airyscan), FRAP experiments, RNA-seq, CUT&RUN, Hi-C, and polymer simulations
+- **Missing materials affecting confidence** No figures, supplementary figures, or numerical data are provided; only figure legends are referenced in text. Statistical details, sample sizes, and exact quantitative results are not available for verification
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question regarding the role of SUMOylation in PRC1 condensate biology and 3D genome organization. The central claim that SUMO depletion causes aberrant PRC1 clustering and rewires TAD interactions independently of H3K27me3 is potentially significant. However, the current manuscript has several major issues that prevent full evaluation. The lack of actual figures and quantitative data makes it impossible to assess the robustness of the findings. The authors rely heavily on a biophysical model to support their conclusions, but the model parameters and validation are not sufficiently described. The claim of independence from H3K27me3 is based on limited evidence, and the causal relationship between condensate properties and transcriptional changes remains correlative. The manuscript would benefit from a more rigorous presentation of the data and a clearer distinction between direct and indirect effects of SUMO depletion.
+- **Who would be interested in the results, and why** Researchers studying Polycomb biology, 3D genome organization, biomolecular condensates, and post-translational modifications would find this work relevant. The potential link between SUMOylation and condensate material properties could interest investigators working on phase separation in gene regulation. The Hi-C data on TAD rewiring would be of interest to the chromatin architecture community. The proposed mechanism separating condensate function from histone mark deposition could have broader implications for understanding how epigenetic information is translated into nuclear organization.
+- **Major strengths** The study addresses a timely and important question about the relationship between post-translational modifications and condensate properties. The combination of experimental approaches including imaging, genomics, and modeling is ambitious and potentially powerful. The focus on Drosophila wing imaginal discs provides a physiologically relevant in vivo system. The observation that PRC1 condensates become larger but less dynamic upon SUMO depletion is interesting and could have implications for understanding Polycomb-mediated repression.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and reproducibility
+  - **Claim pointer** The authors claim that SUMO depletion transforms PRC1 condensates into large structures with reduced molecular dynamics
+  - **Evidence pointer** Figure 1, location not provided
+  - **Concern** The manuscript describes imaging and FRAP experiments but provides no actual images, quantification, or statistical analysis. The claim of reduced molecular dynamics is based on a mobile fraction of approximately 30 percent, but no details on the number of cells, replicates, or variability are given. The FRAP methodology is described as "calibrated half-FRAP (MOCHA-FRAP)" but the analysis and interpretation of these data are not presented in sufficient detail.
+  - **Why it matters** The central observation of altered condensate properties upon SUMO depletion is foundational to the entire manuscript. Without proper quantification and statistical support, the claim cannot be evaluated. The distinction between liquid-like and gel-like states is subtle and requires rigorous biophysical characterization.
+  - **Resolution test** Provide representative images, quantification of condensate size and number across multiple biological replicates, and full FRAP recovery curves with statistical comparisons. Include details on the number of nuclei analyzed and the consistency of the phenotype across cells and individuals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors claim that aberrant PRC1 clustering drives 3D genome rewiring and gene misregulation independently of H3K27me3
+  - **Evidence pointer** Figures 3-6, location not provided
+  - **Concern** The manuscript presents correlative data linking condensate changes, TAD rewiring, and gene expression changes. However, the causal relationship is not established. The authors show that H3K27me3 levels are largely stable, but this does not demonstrate that the observed effects are independent of this mark. The possibility that SUMO depletion affects other factors that influence both condensate properties and genome organization is not addressed. The claim of independence would require direct manipulation of PRC1 clustering without affecting SUMO levels or vice versa.
+  - **Why it matters** The central thesis of the manuscript is that SUMOylation controls condensate properties and that this control is separable from histone mark deposition. Without causal evidence, the conclusion remains speculative. The field has been challenged by correlative studies that do not distinguish between direct and indirect effects.
+  - **Resolution test** Perform rescue experiments where PRC1 clustering is restored without restoring SUMOylation, or where SUMOylation is restored without affecting condensate properties. Alternatively, use optogenetic or chemical tools to acutely manipulate condensate properties and assess downstream effects on genome organization and transcription.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validity and parameterization
+  - **Claim pointer** The authors claim that increasing PRC1-PRC1 interaction strength (E P-P) in their polymer model recapitulates the experimentally observed condensate phenotype
+  - **Evidence pointer** Figure 2, location not provided
+  - **Concern** The biophysical model is used to support the interpretation that increased PRC1 self-attraction explains the observed clustering. However, the model parameters are not justified with experimental measurements. The choice of E P-P = 1 kBT for the wild-type condition is stated to be "representative" but no sensitivity analysis is shown. The model assumes a specific relationship between SUMOylation and E P-P that is not directly tested. The model also does not account for the complexity of the nuclear environment, including other chromatin-associated factors.
+  - **Why it matters** The model is used to bridge the gap between molecular interactions and macroscopic condensate behavior. If the model is not properly constrained or validated, the conclusions drawn from it are not reliable. The claim that SUMOylation acts as a "solubility factor" is an interpretation of the model that requires experimental support.
+  - **Resolution test** Provide experimental measurements of PRC1-PRC1 interaction affinities in control and SUMO-depleted conditions. Perform a thorough sensitivity analysis of the model parameters and show that the conclusions are robust. Validate the model predictions with additional experimental observations, such as condensate size distributions or dynamics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data availability and transparency
+  - **Claim pointer** The authors claim widespread rewiring of TAD interactions and specific changes in PcG-Active contacts
+  - **Evidence pointer** Figures 4-6, location not provided
+  - **Concern** The Hi-C analysis is described in the methods, but no actual contact maps, differential maps, or statistical significance values are shown. The classification of TADs into Active, Polycomb, Heterochromatin, and Null categories is based on a 4-state ChromHMM model, but the emission probabilities and the assignment of states are not presented. The criteria for defining gained, lost, increased, and decreased contacts are described but not visualized.
+  - **Why it matters** The 3D genome rewiring is a major finding of the manuscript. Without proper visualization and statistical support, the reader cannot assess the magnitude or significance of the changes. The biological relevance of the observed contact changes depends on the quality of the Hi-C data and analysis.
+  - **Resolution test** Provide representative Hi-C contact maps, differential maps with statistical significance, and quantification of contact changes across biological replicates. Include details on sequencing depth, mapping statistics, and quality control metrics.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of the phenotype
+  - **Claim pointer** The authors claim that the effects of SUMO depletion on PRC1 condensates and genome organization are specific to Polycomb targets
+  - **Evidence pointer** Figures 3-6, location not provided
+  - **Concern** The manuscript does not adequately address the specificity of the observed effects. SUMO depletion is a global perturbation that affects hundreds of proteins. The authors show changes in PcG-associated TADs, but it is unclear whether these changes are specific or reflect a general reorganization of the genome. The lack of genome-wide controls and the absence of data on non-Polycomb regions make it difficult to assess specificity.
+  - **Why it matters** The claim of specificity is important for the interpretation that PRC1 condensate changes are the primary driver of the observed effects. If the effects are global, the conclusions would be different.
+  - **Resolution test** Perform genome-wide analyses to show that the observed changes are enriched at Polycomb targets compared to other genomic regions. Include appropriate controls, such as analysis of active genes, heterochromatin, and intergenic regions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Results section, first subsection
+  - **Evidence pointer** Section "Loss of SUMOylation transforms PRC1 condensate morphology and dynamics", location not provided
+  - **Issue** The text describing the imaging experiments is dense and difficult to follow. The distinction between the SUMO-KD and overexpression conditions is not always clear, and the reader must infer the experimental logic from the text.
+  - **Required correction** Rewrite this section to clearly state the experimental design, the specific comparisons being made, and the rationale for each experiment. Use subheadings or bullet points to organize the information.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All results sections
+  - **Evidence pointer** location not provided
+  - **Issue** The manuscript does not report statistical details for any of the experiments. No p-values, confidence intervals, or effect sizes are given. The number of biological replicates is not stated for most experiments.
+  - **Required correction** Add statistical details for all experiments, including the number of replicates, the statistical test used, and the significance thresholds. Consider adding a statistics section to the methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** All figures
+  - **Evidence pointer** location not provided
+  - **Issue** The manuscript references figures but does not include them. It is impossible to evaluate the quality of the data or the appropriateness of the analysis without seeing the figures.
+  - **Required correction** Include all figures and supplementary figures in the manuscript. Ensure that all figures have clear labels, legends, and scale bars where appropriate.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Section "Mechanistic uncoupling from histone marks", location not provided
+  - **Issue** The discussion of the independence from H3K27me3 would benefit from a more thorough comparison with existing literature on the relationship between PRC1, H3K27me3, and genome organization. The authors should address potential alternative interpretations of their data.
+  - **Required correction** Expand the discussion to include a more comprehensive review of relevant literature and explicitly address alternative interpretations of the findings.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical details
+  - **Affected element** Methods, Hi-C analysis
+  - **Evidence pointer** Section "Hi-C analysis methods", location not provided
+  - **Issue** The description of the Hi-C analysis is incomplete. The parameters for the scHiC2 pipeline are not specified, and the details of the shaman analysis are not fully described. The criteria for defining TAD boundaries and for classifying TADs into different chromatin states are not clear.
+  - **Required correction** Provide a more detailed description of the Hi-C analysis pipeline, including all parameters and settings. Include a description of how TAD boundaries were defined and how the chromatin state classification was performed.
+- **Technical failings that need to be addressed before the case is established** The manuscript lacks the actual figures and data that are referenced in the text. Without these, the claims cannot be verified. The biophysical model is not sufficiently validated or parameterized. The causal relationship between condensate changes and genome organization is not established. The specificity of the observed effects to Polycomb targets is not demonstrated.
+- **Assessment against Nature-style criteria** Originality: The concept that SUMOylation regulates PRC1 condensate properties and that this regulation is separable from histone mark deposition is novel and potentially significant. The combination of imaging, genomics, and modeling is innovative. Scientific importance: If the claims are substantiated, this work could have broad implications for understanding how post-translational modifications control condensate biology and genome organization. The potential separation of condensate function from histone marks could challenge existing models of Polycomb-mediated repression. Interdisciplinary readership: The work bridges biophysics, chromatin biology, and genomics, which could attract readers from multiple disciplines. Technical soundness: The technical quality cannot be fully assessed without the figures and data. The methods described are generally appropriate, but the lack of detail and validation is concerning. Readability for nonspecialists: The manuscript is written in a technical style that may be challenging for nonspecialists. The abstract is clear, but the results and discussion sections are dense and assume significant background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question and has the potential to make a significant contribution, but the lack of figures, data, and statistical details prevents evaluation of the claims. The causal relationship between condensate changes and genome organization is not established, and the specificity of the effects is not demonstrated. Major revisions are required before the manuscript can be considered for publication.

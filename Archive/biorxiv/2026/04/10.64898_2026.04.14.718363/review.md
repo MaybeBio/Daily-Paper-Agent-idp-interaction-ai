@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a generative framework using a Transformer encoder–decoder architecture conditioned on numerical ensemble descriptors to design intrinsically disordered protein sequences. They report that accurate control of conformational and physicochemical properties is achieved only when training datasets span two orders of magnitude in size, and they conclude that data availability is a key limiting factor for IDR design.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, model details, or validation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, dataset specifications, model architecture details, training and evaluation protocols, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and timely idea, namely the use of conditioned protein language models for generative design of intrinsically disordered proteins. The framing around data scale as a limiting factor is potentially valuable for the field. However, the abstract provides no quantitative evidence, no architectural specifics, and no validation results. The central claims, particularly the data-scaling conclusion, cannot be assessed from the supplied material. The work may be of interest to the protein engineering and computational biology communities, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in protein design, computational biology, and biophysics would be interested, as the work addresses a recognized gap in rational design of disordered proteins. Those working on protein language models and generative models for sequence design would also find the data-centric perspective relevant. The potential to condition on ensemble-level descriptors could appeal to experimentalists seeking to engineer IDRs with specific conformational behavior.
+- **Major strengths** The problem is well motivated and timely. The formulation of IDR design as a sequence generation task conditioned on ensemble descriptors is a reasonable and potentially impactful framing. The explicit focus on data scale as a limiting factor is a useful contribution to the discourse on data-centric protein engineering.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that accurate control of conformational and physicochemical properties is achieved only at large data scale.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that models trained on datasets spanning two orders of magnitude in size show that accurate control is achieved only at large data scale, but no quantitative results, performance metrics, or comparisons are provided. It is unclear what "accurate" means, how it was measured, and what the actual performance difference was between small and large datasets.
+  - **Why it matters** This is the central empirical claim of the work. Without quantitative evidence, the claim that data scale is the key limiting factor is unsupported. The conclusion that "data is the limit" cannot be evaluated or reproduced from the abstract alone.
+  - **Resolution test** Provide quantitative performance metrics (e.g., correlation coefficients, error rates, or similar) for models trained on datasets of different sizes, with clear statistical comparisons and confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical detail
+  - **Claim pointer** The authors claim to implement a Transformer encoder–decoder architecture that maps numerical descriptors to protein sequences.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given on the model architecture, training procedure, loss function, or how the numerical descriptors are encoded and decoded. The abstract does not specify which descriptors were used, how they were derived, or how the model was validated.
+  - **Why it matters** Without architectural and methodological details, the technical soundness of the approach cannot be assessed. The claim of a functioning generative framework requires at least a minimal description of the model and its training regime.
+  - **Resolution test** Include a methods summary describing the architecture, input and output representations, training data, and evaluation protocol, with reference to full methods in the manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and generalizability
+  - **Claim pointer** The authors claim that the framework demonstrates feasibility of conditioning generative models on ensemble-level descriptors for IDR design.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe any experimental validation, such as comparison to known IDR sequences, biophysical characterization, or functional assays. It is unclear whether the generated sequences were tested in silico, in vitro, or in vivo, and whether they actually exhibit the target conformational behavior.
+  - **Why it matters** The claim of feasibility requires evidence that the generated sequences are not only plausible but also functionally and conformationally correct. Without validation, the framework's practical utility remains speculative.
+  - **Resolution test** Provide validation results, including comparisons to experimentally characterized IDRs, and ideally experimental confirmation of conformational properties for a subset of designed sequences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title "Data is the limit" is catchy but may overstate the conclusion given the lack of evidence in the abstract. It also does not clearly indicate the methodological contribution.
+  - **Required correction** Consider a more neutral title that reflects the generative framework and the data-scaling finding, or ensure the abstract provides sufficient support for the strong claim.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions datasets spanning two orders of magnitude in size but does not specify the actual sizes, sources, or composition of these datasets.
+  - **Required correction** Include dataset sizes and sources in the abstract or refer to a methods section where these details are provided.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Conformational ensemble descriptors"
+  - **Evidence pointer** Abstract
+  - **Issue** The term "conformational ensemble descriptors" is not defined. It is unclear what specific properties are being targeted (e.g., radius of gyration, secondary structure propensity, solvent accessibility).
+  - **Required correction** Define the descriptors explicitly or provide examples in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and validation means the core claims are not currently supported.
+- **Assessment against Nature-style criteria** Originality: The idea of conditioning generative models on ensemble-level descriptors for IDR design is novel and potentially original, but the abstract does not demonstrate how this differs from existing approaches. Scientific importance: The problem is important, and the data-centric framing could be influential, but the evidence is insufficient to establish significance. Interdisciplinary readership: The work could appeal to computational biologists, protein engineers, and biophysicists, but the abstract lacks the detail needed to engage a broad audience. Technical soundness: Cannot be assessed from the abstract; no architectural or validation details are provided. Readability for nonspecialists: The abstract is generally clear but uses terms like "conditioned protein language models" and "ensemble descriptors" without sufficient explanation for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The idea is promising, but the abstract alone does not provide the quantitative and methodological support needed to assess the claims. A full manuscript with methods, results, and validation would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that accurate control is achieved only at large data scale is unsupported without quantitative comparisons.
+- The claim of feasibility for conditioning generative models on ensemble-level descriptors is unsupported without validation results.
+- The broader claim that data availability is a key limiting factor for IDR design is a reasonable hypothesis but is not established by the abstract.
+- The existence and performance of the Transformer encoder–decoder architecture cannot be evaluated from the supplied material.

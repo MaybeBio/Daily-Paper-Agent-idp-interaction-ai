@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability, author contributions, conflicts of interest, acknowledgements) as provided by the user. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the claims as presented in the provided text. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors propose that the fuzzy interaction between the intrinsically disordered 4.1G-CTD and NuMA1800-1825 is mediated by a compact disordered state of 4.1G-CTD, characterized by specific packing between βA and βB motifs, and that disruption of this state (e.g., by low pH) abolishes binding.
+- **Visible evidence base** NMR chemical shifts, secondary structure propensity calculations (δ2D), spin relaxation experiments (T1, T2, NOE), FCS hydrodynamic radius measurements, smFRET distance distributions, MD simulations (conventional and REMD), MSM analysis, ITC binding assays, GST pull-down assays, and mutagenesis data (V988D, V991-993D, I958D/V959D/I960D).
+- **Missing materials affecting confidence** Supplementary figures and tables (Fig. S1-S18, Table S1-S2) are referenced but not provided. Raw NMR spectra, MSM validation details, and complete simulation parameters are not available. This limits full verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental question in IDP biology: how do two disordered regions achieve specific, high-affinity binding without folding? The authors combine a wide range of experimental and computational techniques to propose that a compact, partially structured state of 4.1G-CTD, featuring packing between two hydrophobic β-strand motifs, is critical for recognition. The work is timely and conceptually interesting, and the multi-method approach is commendable. However, several technical concerns and interpretive gaps need to be addressed before the central claim is fully established. In particular, the causal link between the compact state and binding affinity, the quantitative interpretation of the pH-induced changes, and the generalizability of the "IDD" concept require stronger support.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, fuzzy complexes, molecular recognition mechanisms, and the structure-function paradigm in protein biochemistry. The work may also interest computational biophysicists developing methods for IDP ensemble characterization and those studying pH-dependent protein interactions in cellular contexts.
+- **Major strengths** 1) The study addresses a poorly understood phenomenon (fuzzy interactions between two IDPs) with a well-designed multi-technique approach. 2) The combination of NMR, MD, MSM, FCS, and smFRET provides complementary views of the system. 3) The identification of specific βA-βB packing as a potential "binding interface" is a novel and testable hypothesis. 4) The pH perturbation is a clever tool to link conformational changes to function. 5) The discussion of IDDs as functional units is thought-provoking and may stimulate further research.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between compact state and binding
+  - **Claim pointer** The authors state that "the compact disordered state of 4.1G-CTD is crucial for binding" and that "the kinetic hub states... are favorable in the fuzzy complex."
+  - **Evidence pointer** Results sections "The kinetic hub states are preferred in the 4.1G/NuMA complex", "Lowering pH disrupts the interaction", "Lowering pH leads to increased dimension of 4.1G-CTD"
+  - **Concern** The manuscript demonstrates a correlation between pH-induced loss of binding and pH-induced changes in conformation/dynamics, but does not establish a direct causal relationship. The pH change alters protonation states of multiple residues, potentially affecting both intra- and inter-molecular interactions. The authors argue that electrostatic effects are minor based on salt-dependence experiments, but this does not exclude other pH-dependent effects (e.g., on specific side-chain interactions). Furthermore, the claim that hub states are "preferred" in the complex is based on structural similarity between free-state hub states and complex-state ensembles, which is an indirect inference. Direct evidence that the compact state is required for binding (e.g., through mutations that specifically disrupt βA-βB packing without other effects) is lacking.
+  - **Why it matters** The central thesis of the paper rests on this causal link. Without it, the study only shows that pH affects both binding and conformation, which is a weaker and less novel conclusion.
+  - **Resolution test** Provide direct experimental evidence, e.g., mutations that specifically disrupt βA-βB packing (while preserving overall charge and secondary structure propensity) and show that these mutations abolish binding. Alternatively, demonstrate that a compact state of 4.1G-CTD (e.g., stabilized by osmolytes or specific mutations) can bind NuMA even under conditions where the ensemble is otherwise expanded.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative interpretation of pH-induced changes
+  - **Claim pointer** The authors claim that "low pH conditions also lead to increased hydrodynamic radius and acceleration of backbone dynamics of 4.1G-CTD" and interpret this as a loss of compactness.
+  - **Evidence pointer** Results sections "Lowering pH accelerates the backbone dynamics" and "Lowering pH leads to increased dimension of 4.1G-CTD", Table 1, Fig. S13
+  - **Concern** The FCS measurements show an increase in RH from 1.56 to 2.02 nm at low pH, but the error bars and statistical significance are not reported in the text. The smFRET data show a shift in distance distributions, but the conversion from FRET efficiency to distance relies on assumptions (e.g., κ² = 2/3) that may not hold. The NMR relaxation data are interpreted as showing "accelerated backbone dynamics," but the analysis appears to be qualitative. A more rigorous quantitative analysis (e.g., model-free formalism or reduced spectral density mapping) would strengthen the interpretation. Additionally, the claim that the αA helix remains stable at low pH is based on chemical shift analysis, but the relaxation data suggest increased mobility in this region as well.
+  - **Why it matters** The quantitative extent of the pH-induced conformational change is central to the argument that the compact state is functionally important. If the changes are small or within experimental error, the conclusion is weakened.
+  - **Resolution test** Provide statistical analysis of FCS and smFRET data (e.g., mean ± SD, number of independent measurements). Perform a more rigorous analysis of NMR relaxation data to extract quantitative order parameters or correlation times. Report the uncertainty in the distance distributions derived from smFRET.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the IDD concept
+  - **Claim pointer** The authors propose that 4.1G-CTD functions as an "intrinsically disordered domain (IDD)" and suggest this may be a general principle for IDP interactions.
+  - **Evidence pointer** Discussion section
+  - **Concern** The evidence for 4.1G-CTD being a functional domain is based on a single example. The authors do not provide a clear definition of what constitutes an IDD versus a longer IDR with multiple binding sites. The evolutionary conservation argument is based on sequence alignment (Fig. S18) but the analysis is not described in detail. The claim that IDDs are "similar to conventional protein domains" is an analogy that requires more justification.
+  - **Why it matters** The broader significance of the work depends on whether the IDD concept is generalizable. If it is only applicable to this specific system, the impact is limited.
+  - **Resolution test** Provide a clearer operational definition of IDD. Discuss how many other IDPs might fit this definition. If possible, cite or present additional examples from the literature or the authors' own work.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Role of NuMA in pH-induced disruption
+  - **Claim pointer** The authors state that "the acidic pH condition would disrupt the binding between 4.1G-CTD and NuMA" and attribute this primarily to changes in 4.1G-CTD.
+  - **Evidence pointer** Results section "Lowering pH disrupts the interaction between 4.1G-CTD and NuMA", Fig. 2, Fig. S16
+  - **Concern** The D1824A mutation experiment is a reasonable control, but it only tests one residue on NuMA. The pH change could affect other residues on NuMA (e.g., histidines) that are not accounted for. The authors do not perform a systematic analysis of NuMA's pH-dependent properties. Additionally, the ITC data at low pH show no binding, but the possibility of non-specific aggregation or precipitation at low pH is not fully excluded.
+  - **Why it matters** The conclusion that the pH effect is due to 4.1G-CTD's conformational change relies on excluding alternative explanations related to NuMA.
+  - **Resolution test** Perform a more comprehensive analysis of NuMA's pH-dependent behavior (e.g., CD or NMR on NuMA alone at low pH). Test additional NuMA mutants or use a different approach (e.g., cross-linking) to confirm that NuMA's properties are not the primary cause.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of MSM methodology
+  - **Affected element** Methods section "MSM construction of protein 4.1G at neutral pH"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the MSM construction is brief. The choice of 1200 microstates and 200 macrostates is not justified. The validation of the MSM (residence probability test) is mentioned but not described in detail.
+  - **Required correction** Provide more details on the MSM construction, including the selection of the number of states, the validation procedure, and the uncertainty estimates for the transition probabilities.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting of ITC data
+  - **Affected element** Results section "Lowering pH disrupts the interaction", Table S1
+  - **Evidence pointer** Results section, Table S1 (not provided)
+  - **Issue** The ITC data are summarized in Table S1, but the stoichiometry (N) and the fitting model are not described in the text. The KD values are reported, but the enthalpy and entropy changes are only discussed qualitatively.
+  - **Required correction** Report the full thermodynamic parameters (N, ΔH, ΔS, ΔG) for all ITC experiments, including the errors, and describe the fitting model used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of NOE data
+  - **Affected element** Results section "Lowering pH accelerates the backbone dynamics"
+  - **Evidence pointer** Fig. 3c
+  - **Issue** The NOE values at neutral pH are described as "between 0.4 and 0.6" for most residues, which is relatively high for a disordered protein. The authors interpret the decrease at low pH as increased mobility, but the absolute values suggest the protein may be more structured than expected for an IDP.
+  - **Required correction** Discuss the absolute NOE values in the context of other IDPs. Consider whether the αA helix and other regions are more structured than typical IDPs and how this affects the interpretation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality and labeling
+  - **Affected element** Fig. 1, Fig. 2, Fig. 3, Fig. 4
+  - **Evidence pointer** Figures (as described in text)
+  - **Issue** The figures are not provided, but based on the text, some figures may be difficult to interpret without clear labels. For example, Fig. 1c shows a correlation between HES and hub score, but the axes and units are not described in the text.
+  - **Required correction** Ensure all figures have clear axis labels, legends, and annotations. Consider adding a schematic model summarizing the proposed mechanism.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors do not discuss alternative models for the fuzzy interaction, such as conformational selection versus induced fit, or the possibility of multivalent interactions beyond the βA-βB motifs.
+  - **Required correction** Add a brief discussion of alternative models and how the current data distinguish between them.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal link), R1-M2 (quantitative rigor of biophysical data). These are blocking because the central claims of the paper depend on them.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of a compact disordered state as a functional unit for IDP-IDP recognition is novel and challenges the prevailing view that IDP interactions are primarily mediated by short linear motifs. The study is original in its focus on the tertiary structure of an IDP as a determinant of binding.
+  - **Scientific importance** The work addresses a fundamental question in IDP biology and has implications for understanding how disordered proteins achieve specificity. The proposed IDD concept, if validated, could change how researchers think about IDP function. However, the importance is currently limited by the single-system focus and the lack of direct causal evidence.
+  - **Interdisciplinary readership** The study bridges experimental biophysics (NMR, ITC, FCS, smFRET) and computational biology (MD, MSM), making it relevant to a broad readership in structural biology, biophysics, and computational chemistry. The conceptual framework may also appeal to cell biologists studying pH-dependent processes.
+  - **Technical soundness** The multi-method approach is technically impressive, but several concerns (as detailed above) need to be addressed. The MSM analysis and the interpretation of NMR relaxation data require more rigor. The lack of statistical details for FCS and smFRET is a weakness.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The introduction and discussion are clear. However, some technical sections (e.g., MSM construction) may be challenging for nonspecialists. The abstract effectively summarizes the key findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a plausible and interesting hypothesis. However, the central claims are not fully established from the provided evidence. The authors need to provide direct evidence for the causal role of the compact state in binding and strengthen the quantitative analysis of their biophysical data.
+
+## Risk / unsupported claims
+- The claim that "the compact disordered state of 4.1G-CTD is crucial for binding" is not directly supported by the data, as the pH perturbation affects multiple properties simultaneously.
+- The claim that "kinetic hub states are preferred in the fuzzy complex" is based on indirect structural similarity analysis and requires more direct evidence.
+- The generalization of 4.1G-CTD as an "intrinsically disordered domain" and the implication that this is a general principle for IDP interactions is speculative and not supported by comparative analysis.
+- The statement that "the functional role of compaction is to spatially organize the recognition motifs" is an interpretation that is not directly tested.
+- The claim that "ionic strength does not impact the interaction at both pH values" is based on limited data (not fully shown) and may not be robust.

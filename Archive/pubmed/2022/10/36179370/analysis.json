@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36179370",
+  "title": "Characterization of the Conformations of Amyloid Beta 42 in Solution That May Mediate Its Initial Hydrophobic Aggregation.",
+  "authors": "Sonar, Krushna; Mancera, Ricardo L",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2022-10-01",
+  "window": {
+    "start": "2022-09-26",
+    "end": "2022-10-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用分子动力学模拟表征Aβ42单体构象景观，揭示α-螺旋构象暴露疏水残基以介导初始疏水聚集，虽对象为无序蛋白且涉及互作机制，但聚焦单分子而非直接PPI建模，方法为物理模拟。",
+  "abstract": "Intrinsically disordered peptides, such as amyloid beta42 (Abeta42), lack a well-defined structure in solution. Abeta42 can undergo abnormal aggregation and amyloidogenesis in the brain, forming fibrillar plaques, a hallmark of Alzheimer's disease. The insoluble fibrillar forms of Abeta42 exhibit well-defined, cross beta-sheet structures at the molecular level and are less toxic than the soluble, intermediate disordered oligomeric forms. However, the mechanism of initial interaction of monomers and subsequent oligomerization is not well understood. The structural disorder of Abeta42 adds to the challenges of determining the structural properties of its monomers, making it difficult to understand the underlying molecular mechanism of pathogenic aggregation. Certain regions of Abeta42 are known to exhibit helical propensity in different physiological conditions. NMR spectroscopy has shown that the Abeta42 monomer at lower pH can adopt an alpha-helical conformation and as the pH is increased, the peptide switches to beta-sheet conformation and aggregation occurs. CD spectroscopy studies of aggregation have shown the presence of an initial spike in the amount of alpha-helical content at the start of aggregation. Such an increase in alpha-helical content suggests a mechanism wherein the peptide can expose critical non-polar residues for interaction, leading to hydrophobic aggregation with other interacting peptides. We have used molecular dynamics simulations to characterize in detail the conformational landscape of monomeric Abeta42 in solution to identify molecular properties that may mediate the early stages of oligomerization. We hypothesized that conformations with alpha-helical structure have a higher probability of initiating aggregation because they increase the hydrophobicity of the peptide. Although random coil conformations were found to be the most dominant, as expected, alpha-helical conformations are thermodynamically accessible, more so than beta-sheet conformations. Importantly, for the first time alpha-helical conformations are observed to increase the exposure of aromatic and hydrophobic residues to the aqueous solvent, favoring their hydrophobically driven interaction with other monomers to initiate aggregation. These findings constitute a first step toward characterizing the mechanism of formation of disordered, low-order oligomers of Abeta42.",
+  "abstract_zh": "本质上无序的肽，如淀粉样β42（Abeta42），在溶液中缺乏明确的结构。Abeta42在大脑中可发生异常聚集和淀粉样生成，形成纤维状斑块，这是阿尔茨海默病的一个标志。Abeta42的不溶性纤维形式在分子水平上表现出明确的交叉β-折叠结构，且其毒性低于可溶性的、中间态的无序寡聚形式。然而，单体初始相互作用及随后寡聚化的机制尚不完全清楚。Abeta42的结构无序性增加了确定其单体结构特性的难度，使得理解致病性聚集的潜在分子机制变得困难。已知Abeta42的某些区域在不同生理条件下表现出螺旋倾向。核磁共振波谱（NMR spectroscopy）显示，在较低pH下，Abeta42单体可采取α-螺旋构象，随着pH升高，肽转变为β-折叠构象并发生聚集。圆二色谱（CD spectroscopy）对聚集的研究表明，在聚集开始时，α-螺旋含量出现初始峰值。这种α-螺旋含量的增加提示了一种机制，即肽可暴露关键的疏水性残基以进行相互作用，从而与其他相互作用的肽发生疏水驱动聚集。我们使用分子动力学（molecular dynamics）模拟来详细表征溶液中单体Abeta42的构象景观，以识别可能介导寡聚化早期阶段的分子特性。我们假设具有α-螺旋结构的构象更有可能启动聚集，因为它们增加了肽的疏水性。尽管随机卷曲构象如预期那样占主导地位，但α-螺旋构象在热力学上是可及的，且比β-折叠构象更易获得。重要的是，首次观察到α-螺旋构象增加了芳香族和疏水性残基对水溶剂的暴露，有利于它们与其他单体进行疏水驱动的相互作用以启动聚集。这些发现构成了表征Abeta42无序低阶寡聚体形成机制的第一步。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36179370/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36179370/",
+  "paper_page_path": "papers/pubmed/36179370/index.html"
+}

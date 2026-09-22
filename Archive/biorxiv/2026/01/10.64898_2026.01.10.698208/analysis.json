@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.10.698208",
+  "title": "Lysine acetylation of PABPC1 C-terminal domain facilitates competitive recruitment of translation termination factor eRF3a",
+  "authors": "Dubiez E; Yeung Y; Blee T; Soetens M; Virdee S; Cook A; Gray N; Brook M",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-11",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究PABPC1 C端结构域K606乙酰化如何增强与eRF3a的竞争性结合，涉及PPI机制与晶体结构，但对象为折叠结构域而非无序蛋白/IDR，且方法以实验为主，无AI或物理模拟，故综合评分为5。",
+  "abstract": "In eukaryotic cells, almost all mRNA transcripts are polyadenylated in the nucleus, with the poly(A)-tail being critical for their export, translation and stability. PABPC1 is a multifunctional RNA-binding protein (RBP) that binds poly(A)-tails and is a key driver of mRNA post-transcriptional regulation. It achieves this in part by interacting with a broad range of PAM2-motif containing proteins that bind the same common site within PABPC1’s PABC domain but result in diverse regulatory outcomes. Regulation of this intricate network of interactions remains poorly understood but our previous studies revealed the regulatory potential of mutually-exclusive acetylation or dimethylation of a key lysine sidechain (K606). To address this, we undertook a systematic study of PAM2-motifs, identifying translation termination factor eRF3a and translation repressor PAIP2 as having a >ten-fold higher affinity for PABPC1 relative to eleven other PAM2-motif partner proteins. Acetylation of PABPC1 at K606 specifically enhances its affinity for eRF3a in vitro, and we present the crystal structure of the specifically K606 acetylated C-terminal domain of PABPC1 in complex with the PAM2 motif of eRF3a, providing structural and functional insights into how acetylation facilitates competitive eRF3a recruitment to PABPC1 and mRNA. We further demonstrate that K606 acetylation promotes PABPC1-eRF3a interaction in cells, thereby antagonising other PAM2-dependent RNA effectors. Taken together, our results show that acetylation of lysine 606 in the PABC domain can specifically modulate PABPC1 partner selectivity, providing crucial insight into how PABPC1 multifunctionality can be regulated to coordinate mRNA usage and fate in the cytoplasm.",
+  "abstract_zh": "在真核细胞中，几乎所有mRNA转录本都在细胞核内被多聚腺苷酸化，其poly(A)尾对它们的输出、翻译和稳定性至关重要。PABPC1是一种多功能RNA结合蛋白（RBP），它结合poly(A)尾，是mRNA转录后调控的关键驱动因子。它部分通过与多种含PAM2基序的蛋白质相互作用来实现这一功能，这些蛋白质结合PABPC1的PABC结构域内相同的共同位点，但导致不同的调控结果。这一复杂相互作用网络的调控机制仍知之甚少，但我们先前的研究揭示了关键赖氨酸侧链（K606）上互斥性乙酰化或二甲基化的调控潜力。为解决这一问题，我们对PAM2基序进行了系统研究，发现翻译终止因子eRF3a和翻译抑制因子PAIP2对PABPC1的亲和力比其他十一种PAM2基序伙伴蛋白高出十倍以上。PABPC1在K606处的乙酰化在体外特异性增强其与eRF3a的亲和力，我们展示了PABPC1特异性K606乙酰化C末端结构域与eRF3a的PAM2基序复合物的晶体结构，为乙酰化如何促进eRF3a竞争性招募至PABPC1和mRNA提供了结构和功能上的见解。我们进一步证明，K606乙酰化在细胞中促进PABPC1-eRF3a相互作用，从而拮抗其他依赖PAM2的RNA效应因子。综合来看，我们的结果表明，PABC结构域中赖氨酸606的乙酰化能特异性调节PABPC1的伙伴选择性，为PABPC1多功能性如何被调控以协调细胞质中mRNA的使用和命运提供了关键见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.10.698208",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.10.698208",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.10.698208/index.html"
+}

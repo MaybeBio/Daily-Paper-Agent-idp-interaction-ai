@@ -1,0 +1,250 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.07.511262",
+  "title": "BUB-1 and CENP-C recruit PLK-1 to Control Chromosome Alignment and Segregation During Meiosis I in C. elegans Oocytes",
+  "doi": "10.1101/2022.10.07.511262",
+  "abstract": "<h4>ABSTRACT</h4> Phosphorylation is a key post-translational modification that is utilised in many biological processes for the rapid and reversible regulation of protein localisation and activity. Polo-like kinase 1 (PLK-1) is essential for both mitotic and meiotic cell divisions, with key functions being conserved in eukaryotes. The roles and regulation of PLK-1 during mitosis have been well characterised. However, the discrete roles and regulation of PLK-1 during meiosis have remained obscure. Here, we used Caenorhabditis elegans (C. elegans) oocytes to show that PLK-1 plays distinct roles in meiotic spindle assembly and/or stability, chromosome alignment and segregation, and polar body extrusion during meiosis I. Furthermore, by a combination of live imaging and biochemical analysis we identified the chromosomal recruitment mechanisms of PLK-1 during C. elegans oocyte meiosis. The spindle assembly checkpoint kinase BUB-1 directly recruits PLK-1 to the kinetochore and midbivalent while the chromosome arm population of PLK-1 depends on a direct interaction with the centromeric-associated protein CENP-C HCP-4 . We found that perturbing both BUB-1 and CENP-C HCP-4 recruitment of PLK-1 leads to severe meiotic defects, resulting in highly aneuploid oocytes. Overall, our results shed light on the roles played by PLK-1 during oocyte meiosis and provide a mechanistic understanding of PLK-1 targeting to meiotic chromosomes.",
+  "authors": [
+    "Taylor SJ",
+    "Borja LB",
+    "Soubigou F",
+    "Houston J",
+    "Cheerambathur DK",
+    "Pelisch F"
+  ],
+  "published_date": "2022-10-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.07.511262",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.07.511262.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR555630",
+    "raw_record": {
+      "id": "PPR555630",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR555630"
+        ]
+      },
+      "doi": "10.1101/2022.10.07.511262",
+      "title": "BUB-1 and CENP-C recruit PLK-1 to Control Chromosome Alignment and Segregation During Meiosis I in  <i>C. elegans</i>  Oocytes",
+      "authorString": "Taylor SJ, Borja LB, Soubigou F, Houston J, Cheerambathur DK, Pelisch F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Taylor SJ",
+            "lastName": "Taylor",
+            "firstName": "Samuel J.P.",
+            "initials": "SJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Gene Regulation and Expression, Sir James Black Centre, School of Life Sciences, University of Dundee. Dundee, DD1 5EH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Borja LB",
+            "lastName": "Borja",
+            "firstName": "Laura Bel",
+            "initials": "LB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Gene Regulation and Expression, Sir James Black Centre, School of Life Sciences, University of Dundee. Dundee, DD1 5EH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Soubigou F",
+            "lastName": "Soubigou",
+            "firstName": "Flavie",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Gene Regulation and Expression, Sir James Black Centre, School of Life Sciences, University of Dundee. Dundee, DD1 5EH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Houston J",
+            "lastName": "Houston",
+            "firstName": "Jack",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Ludwig Institute for Cancer Research, San Diego Branch, La Jolla, CA 92093, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cheerambathur DK",
+            "lastName": "Cheerambathur",
+            "firstName": "Dhanya",
+            "initials": "DK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wellcome Centre for Cell Biology & Institute of Cell Biology, School of Biological Sciences, The University of Edinburgh, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pelisch F",
+            "lastName": "Pelisch",
+            "firstName": "Federico",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4575-1492"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Gene Regulation and Expression, Sir James Black Centre, School of Life Sciences, University of Dundee. Dundee, DD1 5EH, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4575-1492"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  Phosphorylation is a key post-translational modification that is utilised in many biological processes for the rapid and reversible regulation of protein localisation and activity. Polo-like kinase 1 (PLK-1) is essential for both mitotic and meiotic cell divisions, with key functions being conserved in eukaryotes. The roles and regulation of PLK-1 during mitosis have been well characterised. However, the discrete roles and regulation of PLK-1 during meiosis have remained obscure. Here, we used  Caenorhabditis elegans (C. elegans) oocytes to show that PLK-1 plays distinct roles in meiotic spindle assembly and/or stability, chromosome alignment and segregation, and polar body extrusion during meiosis I. Furthermore, by a combination of live imaging and biochemical analysis we identified the chromosomal recruitment mechanisms of PLK-1 during  C. elegans oocyte meiosis. The spindle assembly checkpoint kinase BUB-1 directly recruits PLK-1 to the kinetochore and midbivalent while the chromosome arm population of PLK-1 depends on a direct interaction with the centromeric-associated protein CENP-C  HCP-4 . We found that perturbing both BUB-1 and CENP-C  HCP-4 recruitment of PLK-1 leads to severe meiotic defects, resulting in highly aneuploid oocytes. Overall, our results shed light on the roles played by PLK-1 during oocyte meiosis and provide a mechanistic understanding of PLK-1 targeting to meiotic chromosomes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "101468/Z/13/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "208833",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "097945/B/11/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "105606/Z/14/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/03/28/2022.10.07.511262.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.10.07.511262"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR555630"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR555630&type=FILE&fileName=EMS173186-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37067150",
+            "reference": "eLife. 2023 Apr;12:e84057",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS173186",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-10-09",
+      "firstPublicationDate": "2022-10-07",
+      "firstIndexDate": "2022-10-09",
+      "fullTextReceivedDate": "2023-04-07",
+      "hasEvaluations": "Y"
+    }
+  }
+}

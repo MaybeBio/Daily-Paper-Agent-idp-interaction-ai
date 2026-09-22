@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims made in the abstract, including model performance, novelty, and validation scope
+- **Shared manuscript claim summary** The authors propose an Artificial Neural Network (ANN) that predicts the free energy of binding (ΔG) for protein-protein complexes using Rosetta-calculated properties, reporting a root-mean-square error (RMSE) of 1.667 kcal/mol, which they claim outperforms state-of-the-art tools, with validation across a variety of complexes.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or data are provided
+- **Missing materials affecting confidence** Full manuscript, dataset details, model architecture, training/validation split, comparison benchmarks, statistical significance tests, and any supporting figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of machine learning to a challenging biophysical problem. However, the claims of outperformance and generalizability cannot be evaluated from the abstract alone. The reported RMSE lacks context regarding the dataset size, composition, and comparison methodology. The novelty relative to existing structure-based ΔG predictors is not clearly established. The work may be of interest to computational biophysicists and protein engineers, but the evidence base is insufficient to assess technical soundness or scientific impact.
+- **Who would be interested in the results, and why** Computational biologists, biophysicists, and researchers in protein engineering and drug discovery would be interested in a fast and accurate ΔG predictor for protein-protein complexes, as such a tool could aid in mutant screening, complex stability assessment, and design of protein interactions.
+- **Major strengths** The problem addressed is of broad scientific relevance. The use of Rosetta-calculated properties as input features is a practical and potentially transferable approach. The reported RMSE, if reproducible and benchmarked fairly, would represent a competitive performance level.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model "presents a root-mean-square error of 1.667 kcal/mol outperforming available state-of-art tools."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The RMSE value is presented without any information on the test set size, composition, or how it was derived. The claim of outperforming state-of-the-art tools requires a direct comparison on identical benchmark datasets, which is not described.
+  - **Why it matters** Without a clear benchmark protocol, the reported error could be an artifact of a small or biased test set, making the performance claim unverifiable and potentially misleading.
+  - **Resolution test** Provide the test set size and composition, describe the benchmark datasets used for comparison, and report RMSE alongside other metrics (e.g., Pearson correlation, mean absolute error) for both the proposed model and each comparator under identical conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The model is described as "novel," but no prior work is referenced or contrasted.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify how this ANN differs from existing machine learning approaches for ΔG prediction, such as those using Rosetta energy terms or other feature sets. Without a clear statement of novelty, the contribution cannot be distinguished from prior art.
+  - **Why it matters** Novelty is a core criterion for high-impact publication. If similar models exist, the claimed advance may be incremental rather than transformative.
+  - **Resolution test** In the full manuscript, explicitly compare the model architecture, feature selection, and training strategy against at least two prior machine learning-based ΔG predictors, and state the specific innovation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "Validation of the model for a variety of protein-protein complexes is showcased."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract mentions validation but provides no details on the number of complexes, their structural diversity, or the nature of the validation (e.g., cross-validation, independent test set, or external benchmark). The term "variety" is vague and does not establish generalizability.
+  - **Why it matters** Generalizability is central to the utility of any predictive model. Without a clear description of the validation set and criteria, the claim of broad applicability is unsupported.
+  - **Resolution test** Specify the number and types of complexes in the validation set, describe how they were selected, and report performance metrics separately for training, validation, and test sets, including any cross-validation strategy.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract uses "Rosetta-calculated properties" without explaining what these are or why they are relevant, which may limit accessibility for readers outside computational structural biology.
+  - **Required correction** Add a brief parenthetical explanation, such as "Rosetta-calculated properties (e.g., energy terms from the Rosetta force field)" to aid nonspecialist understanding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Performance metric reporting
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** Only RMSE is reported. RMSE alone does not capture systematic bias or correlation quality.
+  - **Required correction** Report additional metrics such as Pearson correlation coefficient, mean absolute error, and a scatter plot of predicted versus experimental ΔG values in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Application context
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract lists broad application areas but does not specify a concrete use case or potential impact, such as guiding mutagenesis experiments or screening large complex libraries.
+  - **Required correction** In the full manuscript, include a brief section on potential applications with at least one illustrative example to strengthen the case for scientific importance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmarking), R1-M2 (novelty), R1-M3 (validation scope). These are blocking because the core claims of performance, novelty, and generalizability cannot be assessed from the abstract alone.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not established. The abstract does not differentiate the approach from existing machine learning predictors.
+  - Scientific importance: Potentially high, given the relevance of ΔG prediction, but not demonstrated with concrete applications or broader implications.
+  - Interdisciplinary readership: The topic bridges computational biology, biophysics, and machine learning, but the abstract is too technical for nonspecialists without context.
+  - Technical soundness: Not assessable. The reported RMSE and validation claims lack necessary methodological detail.
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with Rosetta and ΔG prediction, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient information to evaluate the validity of the performance claim, the novelty of the model, or the robustness of the validation. A full manuscript with detailed methods, benchmarks, and data would be required to assess whether the claims hold.
+
+## Risk / unsupported claims
+- The claim of outperforming state-of-the-art tools is unsupported without a described benchmark comparison.
+- The claim of validation across "a variety of protein-protein complexes" is unsupported without details on the validation set.
+- The novelty of the ANN model is unverifiable from the abstract alone.
+- The reported RMSE of 1.667 kcal/mol is not interpretable without context on dataset size, composition, and error distribution.

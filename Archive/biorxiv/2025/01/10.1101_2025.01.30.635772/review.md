@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material were provided for evaluation
+- **Shared manuscript claim summary** The authors propose that GAR1 is a scaffold protein for liquid-liquid phase separation (LLPS) in nuclear compartments, forming gel-like condensates via complex coacervation with RNA in vitro. They further claim that SMN Tudor domain (TD) acts as a client protein regulating GAR1 condensate architecture and dynamics through competitive RNA interactions, and that the SMA-associated E134K mutation in SMN TD reduces GAR1 affinity, impairing condensate modulation and RNA displacement. The authors suggest a mechanistic link between phase separation dysregulation and SMA.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or figure references are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis linking client protein mutations to condensate dysfunction in SMA, which would extend the current focus on scaffold protein mutations. However, the evidence base provided is insufficient to evaluate the technical soundness of the claims. Key assertions regarding GAR1 phase separation behavior, SMN-GAR1 interactions, and the functional consequences of the E134K mutation are stated without quantitative support or methodological detail. The conceptual framework is plausible but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates and phase separation, RNA biology, and neuromuscular disease genetics would find these results relevant. The work could interest those studying how client proteins modulate condensate properties and how disease-associated mutations in such clients contribute to pathology, particularly in spinal muscular atrophy.
+- **Major strengths** The hypothesis that client protein mutations, rather than only scaffold mutations, can drive condensate dysfunction is conceptually novel and potentially important. The focus on SMN and GAR1 in the context of SMA provides a disease-relevant framework that could have translational implications. The combination of in vitro and cellular approaches, as implied by the abstract, suggests a multi-level investigation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that GAR1 forms gel-like condensates via complex coacervation with RNA in vitro and that SMN TD regulates condensate architecture and dynamics through competitive RNA interactions.  
+  - **Evidence pointer** Abstract only; no figures or methods provided  
+  - **Concern** The abstract provides no quantitative data, such as saturation concentrations, fluorescence recovery after photobleaching (FRAP) measurements, or binding affinities, to support the characterization of GAR1 condensates as gel-like or to demonstrate the proposed competitive mechanism. The methods used for these determinations are not described.  
+  - **Why it matters** Without quantitative and methodological detail, the physical nature of the condensates and the proposed regulatory mechanism cannot be assessed. The distinction between gel-like and other condensate states is critical for the mechanistic claims, and the competitive RNA interaction model requires direct evidence.  
+  - **Resolution test** Provide experimental data, including phase diagrams, FRAP or similar dynamics measurements, and binding constants for SMN TD, GAR1, and RNA interactions, with appropriate controls and statistical analysis.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for disease link  
+  - **Claim pointer** The authors state that the E134K variant exhibits reduced affinity for GAR1, impairing modulation of GAR1 condensates and RNA displacement, and suggest a mechanistic link to SMA.  
+  - **Evidence pointer** Abstract only; no quantitative binding or functional data provided  
+  - **Concern** The abstract does not report the magnitude of the affinity reduction for the E134K variant, nor does it provide evidence that this reduction translates into measurable functional deficits in condensate modulation or RNA displacement in cells or in vivo. The link to SMA pathology is inferred rather than demonstrated.  
+  - **Why it matters** The central claim of the paper is that a specific mutation causes condensate dysfunction relevant to disease. Without quantitative comparison of wild-type and mutant effects and without demonstration of downstream functional consequences, the disease relevance remains speculative.  
+  - **Resolution test** Provide binding affinity measurements for wild-type and E134K SMN TD with GAR1, functional assays showing differential effects on condensate properties and RNA handling, and ideally evidence from patient-derived or disease-model systems.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and rigor  
+  - **Claim pointer** The authors claim that SMN co-localizes with GAR1 in Cajal bodies and modulates its dynamics in cells.  
+  - **Evidence pointer** Abstract only; no imaging data or quantification provided  
+  - **Concern** Co-localization and dynamics are stated without presentation of representative images, quantification of co-localization coefficients, or details of the imaging and analysis methods. The specificity of the observed effects is not addressed.  
+  - **Why it matters** Cellular localization and dynamics claims require rigorous imaging controls, including appropriate markers, and quantitative analysis to support the conclusions. Without these, the cellular evidence is not verifiable.  
+  - **Resolution test** Include representative confocal images with co-localization analysis, FRAP or similar dynamics data, and appropriate controls such as knockdown or mutant comparisons.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, Summary section  
+  - **Issue** The term "client protein" is used to describe SMN TD, but the definition and criteria for this classification are not provided in the abstract.  
+  - **Required correction** Define "client protein" in the context of phase separation and clarify how SMN TD meets this definition based on the presented evidence.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Mechanistic model  
+  - **Evidence pointer** Abstract, Summary section  
+  - **Issue** The abstract mentions "competitive RNA interactions" as the mechanism for SMN TD regulation of GAR1 condensates, but does not specify the nature of the competition or the relative affinities involved.  
+  - **Required correction** Provide a brief description of the competitive mechanism, including which molecular species compete and the expected affinity relationships.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Disease relevance  
+  - **Evidence pointer** Abstract, Summary section  
+  - **Issue** The abstract suggests therapeutic potential of targeting SMN-dependent condensate regulation in SMA, but no evidence for therapeutic intervention is presented.  
+  - **Required correction** Either temper the therapeutic claim or provide preliminary proof-of-concept data supporting the feasibility of such targeting.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims regarding condensate properties, the competitive mechanism, and the disease link are not supported by the provided evidence. R1-M3 is non-blocking but requires additional rigor for full support.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of client protein mutations driving condensate dysfunction is a novel angle, as most prior work has focused on scaffold proteins. This is a potential strength.  
+  - Scientific importance: If substantiated, the findings could provide a new mechanistic understanding of SMA and potentially other diseases involving client-scaffold interactions. The importance is high but contingent on evidence quality.  
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and clinical genetics, which could attract a broad audience. However, the abstract currently lacks sufficient detail to engage specialists in each field.  
+  - Technical soundness: Not assessable from the abstract alone. The absence of quantitative data and methodological detail prevents evaluation.  
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terminology without sufficient context, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and potentially significant, but the abstract alone does not provide the quantitative and methodological support needed to evaluate the claims. A full manuscript with detailed experimental data would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that GAR1 forms gel-like condensates via complex coacervation with RNA is unsupported without phase diagrams, rheological or FRAP data, and RNA binding assays.
+- The claim that SMN TD regulates GAR1 condensate architecture and dynamics through competitive RNA interactions is unsupported without binding affinities and functional assays.
+- The claim that the E134K mutation impairs modulation of GAR1 condensates and RNA displacement is unsupported without quantitative comparison of wild-type and mutant effects.
+- The suggested mechanistic link between phase separation dysregulation and SMA is speculative based on the abstract, as no direct disease-relevant functional data are presented.
+- The therapeutic potential claim is unsupported by any experimental evidence in the abstract.

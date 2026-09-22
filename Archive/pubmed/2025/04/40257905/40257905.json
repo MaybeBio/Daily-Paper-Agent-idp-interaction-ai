@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "40257905",
+    "doi": "10.1093/database/baaf028",
+    "title": "Localizatome: a database for stress-dependent subcellular localization changes in proteins."
+  },
+  "content": {
+    "abstract": "Understanding protein subcellular localization and its dynamic changes is crucial for elucidating cellular function and disease mechanisms, particularly under stress conditions, where protein localization changes can modulate cellular responses. Currently available databases provide insights into protein localization under steady-state conditions; however, stress-related dynamic localization changes remain poorly understood. Here, we present the Localizatome, a comprehensive database that captures stress-induced protein localization dynamics in living cells. Using an original high-throughput microscopy system and machine learning algorithms, we analysed the localization patterns of 10 287 fluorescent protein-fused human proteins in HeLa cells before and after exposure to oxidative stress. Our analysis revealed that 1910 proteins exhibited oxidative stress-dependent localization changes, particularly forming distinct foci. Among them, there were stress granule assembly factors and autophagy-related proteins, as well as components of various signalling pathways. Subsequent characterization identified some specific amino acid motifs and intrinsically disordered regions associated with stress-induced protein redistribution. The Localizatome provides open access to these data through a web-based interface, supporting a wide range of studies on cellular stress response and disease mechanisms. Database URL https://localizatome.embrys.jp/.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "HeLa Cells",
+      "*Databases, Protein",
+      "*Oxidative Stress",
+      "*Proteins/metabolism",
+      "*Stress, Physiological"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Matsushima, Takahide",
+        "Naito, Yuki",
+        "Chiba, Tomoki",
+        "Kurimoto, Ryota",
+        "Itano, Keiko",
+        "Ochiai, Koji",
+        "Takahashi, Koichi",
+        "Goshima, Naoki",
+        "Asahara, Hiroshi"
+      ],
+      "short_names": [
+        "Matsushima T",
+        "Naito Y",
+        "Chiba T",
+        "Kurimoto R",
+        "Itano K",
+        "Ochiai K",
+        "Takahashi K",
+        "Goshima N",
+        "Asahara H"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7110-2261",
+        "ORCID: 0000-0002-1182-6786",
+        "ORCID: 0000-0001-5472-9030",
+        "ORCID: 0000-0003-3029-5287",
+        "ORCID: 0000-0002-3573-1407",
+        "ORCID: 0000-0001-6664-6363",
+        "ORCID: 0000-0002-5215-8745"
+      ],
+      "affiliations": [
+        "Department of Systems BioMedicine, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan.",
+        "Department of Systems BioMedicine, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan.",
+        "Department of Systems BioMedicine, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan.",
+        "Department of Systems BioMedicine, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan.",
+        "Department of Biomolecular Science and Engineering, SANKEN, Osaka University, 2-1 Yamadaoka, Suita, Osaka 565-0871, Japan.",
+        "Laboratory for Biologically Inspired Computing, RIKEN Center for Biosystems Dynamics Research, 6-2-3 Furuedai, Suita, Osaka 565-0874, Japan.",
+        "Laboratory for Biologically Inspired Computing, RIKEN Center for Biosystems Dynamics Research, 6-2-3 Furuedai, Suita, Osaka 565-0874, Japan.",
+        "Molecular Profiling Research Center for Drug Discovery, National Institute of Advanced Industrial Science and Technology, 2-3-26 Aomi, Koto-ku, Tokyo 135-0064, Japan.",
+        "Department of Human Science, Faculty of Human Science, Musashino University, 3-3-3 Ariake, Koto-ku, Tokyo 135-8181, Japan.",
+        "Department of Systems BioMedicine, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan.",
+        "Department of Molecular Medicine, Scripps Research, 10550 North Torrey Pines Road, MBB-102, La Jolla, CA 92037, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Matsushima, Takahide",
+        "short_name": "Matsushima T",
+        "identifiers": [
+          "0000-0002-7110-2261"
+        ],
+        "affiliations": [
+          "Department of Systems BioMedicine, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Naito, Yuki",
+        "short_name": "Naito Y",
+        "identifiers": [
+          "0000-0002-1182-6786"
+        ],
+        "affiliations": [
+          "Department of Systems BioMedicine, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Chiba, Tomoki",
+        "short_name": "Chiba T",
+        "identifiers": [
+          "0000-0001-5472-9030"
+        ],
+        "affiliations": [
+          "Department of Systems BioMedicine, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Kurimoto, Ryota",
+        "short_name": "Kurimoto R",
+        "identifiers": [
+          "0000-0003-3029-5287"
+        ],
+        "affiliations": [
+          "Department of Systems BioMedicine, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan."
+        ]
+      },
+      {
+        "full_name": "Itano, Keiko",
+        "short_name": "Itano K",
+        "identifiers": [
+          "0000-0002-3573-1407"
+        ],
+        "affiliations": [
+          "Department of Biomolecular Science and Engineering, SANKEN, Osaka University, 2-1 Yamadaoka, Suita, Osaka 565-0871, Japan."
+        ]
+      },
+      {
+        "full_name": "Ochiai, Koji",
+        "short_name": "Ochiai K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Biologically Inspired Computing, RIKEN Center for Biosystems Dynamics Research, 6-2-3 Furuedai, Suita, Osaka 565-0874, Japan."
+        ]
+      },
+      {
+        "full_name": "Takahashi, Koichi",
+        "short_name": "Takahashi K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory for Biologically Inspired Computing, RIKEN Center for Biosystems Dynamics Research, 6-2-3 Furuedai, Suita, Osaka 565-0874, Japan."
+        ]
+      },
+      {
+        "full_name": "Goshima, Naoki",
+        "short_name": "Goshima N",
+        "identifiers": [
+          "0000-0001-6664-6363"
+        ],
+        "affiliations": [
+          "Molecular Profiling Research Center for Drug Discovery, National Institute of Advanced Industrial Science and Technology, 2-3-26 Aomi, Koto-ku, Tokyo 135-0064, Japan.",
+          "Department of Human Science, Faculty of Human Science, Musashino University, 3-3-3 Ariake, Koto-ku, Tokyo 135-8181, Japan."
+        ]
+      },
+      {
+        "full_name": "Asahara, Hiroshi",
+        "short_name": "Asahara H",
+        "identifiers": [
+          "0000-0002-5215-8745"
+        ],
+        "affiliations": [
+          "Department of Systems BioMedicine, Graduate School of Medical and Dental Sciences, Institute of Science Tokyo, 1-5-45 Yushima, Bunkyo-ku, Tokyo 113-8510, Japan.",
+          "Department of Molecular Medicine, Scripps Research, 10550 North Torrey Pines Road, MBB-102, La Jolla, CA 92037, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Database : the journal of biological databases and curation"
+    ],
+    "journal_abbrev": [
+      "Database (Oxford)"
+    ],
+    "pub_date": "2025 Apr 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/21 18:27",
+    "fetched_at": "2026-09-21 18:15:44"
+  },
+  "links": {
+    "cites": [
+      "41709002"
+    ],
+    "refs": [
+      "35271311",
+      "34065451",
+      "34048569",
+      "33760053",
+      "31882993",
+      "29358076",
+      "28495876",
+      "28441057",
+      "27545621",
+      "26455390",
+      "22785532",
+      "22140100",
+      "20303882",
+      "19263241",
+      "18794846",
+      "17923231",
+      "16344560",
+      "15967811",
+      "15680218",
+      "15469986",
+      "15103394",
+      "14702039",
+      "12477932",
+      "11904290",
+      "11230166",
+      "10931946",
+      "7584026"
+    ],
+    "similar": [
+      "40257905",
+      "26048563",
+      "23912807",
+      "24573882",
+      "41656808",
+      "21443605",
+      "39880084",
+      "14990451",
+      "20026476",
+      "16970551",
+      "23865897",
+      "40728617",
+      "36132086",
+      "32105731",
+      "23283513",
+      "18304364",
+      "25348397",
+      "17986452",
+      "19234633",
+      "24603469",
+      "24010001",
+      "18592195",
+      "39150724",
+      "23830997",
+      "21143796",
+      "36836365",
+      "39489606",
+      "27186965",
+      "16752418",
+      "25725059",
+      "40156465",
+      "18164289",
+      "35325330",
+      "18336359",
+      "21922037",
+      "22767504",
+      "14681374",
+      "29264711",
+      "34299014",
+      "11524373",
+      "20840726",
+      "21613983",
+      "16381849",
+      "20041180",
+      "36692217",
+      "19477995",
+      "11900486",
+      "37791887",
+      "39245872",
+      "34243065",
+      "22153357",
+      "26130574",
+      "16617091",
+      "16322766",
+      "24184208",
+      "41451986",
+      "35134877",
+      "27142241",
+      "39404071",
+      "31090959",
+      "39575640",
+      "40580499",
+      "19733198",
+      "38869791",
+      "16368434",
+      "17108361",
+      "33404921",
+      "17728396",
+      "18241343",
+      "16288665",
+      "33237329",
+      "21034431",
+      "27278775",
+      "11256614",
+      "37000408",
+      "20061580",
+      "39298565",
+      "32907537",
+      "33119751",
+      "38948861",
+      "17967180",
+      "23982307",
+      "27342569",
+      "35801913",
+      "33049246",
+      "24905917",
+      "32220894",
+      "28542134",
+      "16949575",
+      "36321651",
+      "16808903",
+      "19158957",
+      "15963230",
+      "31872748",
+      "23509072",
+      "28247893",
+      "36540972",
+      "27289443",
+      "39994524",
+      "36942889"
+    ],
+    "review": [
+      "40257905",
+      "39150724",
+      "27186965"
+    ],
+    "pmc": [
+      "12010962"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40257905/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/database/article-lookup/doi/10.1093/database/baaf028",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

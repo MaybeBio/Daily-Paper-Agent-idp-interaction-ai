@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "38627840",
+    "doi": "10.1186/s40364-024-00587-9",
+    "title": "Global research hotspots, development trends and prospect discoveries of phase separation in cancer: a decade-long informatics investigation."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is a complex and subtle phenomenon whose formation and regulation take essential roles in cancer initiation, growth, progression, invasion, and metastasis. This domain holds a wealth of underutilized unstructured data that needs further excavation for potentially valuable information. Therefore, we retrospectively analyzed the global scientific knowledge in the field over the last decade by using informatics methods (such as hierarchical clustering, regression statistics, hotspot burst, and Walktrap algorithm analysis). Over the past decade, this area enjoyed a favorable development trend (Annual Growth Rate: 34.98%) and global collaboration (International Co-authorship: 27.31%). Through unsupervised hierarchical clustering based on machine learning, the global research hotspots were divided into five dominant research clusters: Cluster 1 (Effects and Mechanisms of Phase Separation in Drug Delivery), Cluster 2 (Phase Separation in Gene Expression Regulation), Cluster 3 (Phase Separation in RNA-Protein Interaction), Cluster 4 (Reference Value of Phase Separation in Neurodegenerative Diseases for Cancer Research), and Cluster 5 (Roles and Mechanisms of Phase Separation). And further time-series analysis revealed that Cluster 5 is the emerging research cluster. In addition, results from the regression curve and hotspot burst analysis point in unison to super-enhancer (a=0.5515, R(2)=0.6586, p=0.0044) and stress granule (a=0.8000, R(2)=0.6000, p=0.0085) as the most potential star molecule in this field. More interestingly, the Random-Walk-Strategy-based Walktrap algorithm further revealed that \"phase separation, cancer, transcription, super-enhancer, epigenetics\"(Relevance Percentage[RP]=100%, Development Percentage[DP]=29.2%), \"stress granule, immunotherapy, tumor microenvironment, RNA binding protein\"(RP=79.2%, DP=33.3%) and \"nanoparticle, apoptosis\"(RP=70.8%, DP=25.0%) are closely associated with this field, but are still under-developed and worthy of further exploration. In conclusion, this study profiled the global scientific landscape, discovered a crucial emerging research cluster, identified several pivotal research molecules, and predicted several crucial but still under-developed directions that deserve further research, providing an important reference value for subsequent basic and clinical research of phase separation in cancer.",
+    "keywords": [
+      "Cancer",
+      "Immunotherapy",
+      "Informatics analysis",
+      "Liquid-liquid phase separation",
+      "Super-enhancer",
+      "Tumor microenvironment"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Letter"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Song-Bin",
+        "Feng, Xue-Zhao",
+        "Huang, Wei-Juan",
+        "Zhou, Zhen-Zhong",
+        "Tian, Xiao-Peng"
+      ],
+      "short_names": [
+        "Guo SB",
+        "Feng XZ",
+        "Huang WJ",
+        "Zhou ZZ",
+        "Tian XP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Oncology, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China. guosb@sysucc.org.cn.",
+        "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China. guosb@sysucc.org.cn.",
+        "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China.",
+        "Department of Pharmacology, College of Pharmacy, Jinan University, 510632, Guangzhou, P. R. China.",
+        "Department of Medical Oncology, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China.",
+        "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China.",
+        "Department of Medical Oncology, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China. tianxp@sysucc.org.cn.",
+        "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China. tianxp@sysucc.org.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Song-Bin",
+        "short_name": "Guo SB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China. guosb@sysucc.org.cn.",
+          "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China. guosb@sysucc.org.cn."
+        ]
+      },
+      {
+        "full_name": "Feng, Xue-Zhao",
+        "short_name": "Feng XZ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Huang, Wei-Juan",
+        "short_name": "Huang WJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, College of Pharmacy, Jinan University, 510632, Guangzhou, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Zhen-Zhong",
+        "short_name": "Zhou ZZ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China.",
+          "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Tian, Xiao-Peng",
+        "short_name": "Tian XP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China. tianxp@sysucc.org.cn.",
+          "State Key Laboratory of Oncology in South China, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, 510060, Guangzhou, P. R. China. tianxp@sysucc.org.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomarker research"
+    ],
+    "journal_abbrev": [
+      "Biomark Res"
+    ],
+    "pub_date": "2024 Apr 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Letter"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/17 00:43",
+    "fetched_at": "2026-09-22 01:22:52"
+  },
+  "links": {
+    "cites": [
+      "42464641",
+      "42418280",
+      "42246608",
+      "41675772",
+      "41556159",
+      "40901087",
+      "40860212",
+      "40841498",
+      "40841132",
+      "40817296",
+      "40804718",
+      "40560396",
+      "40134489",
+      "39591374",
+      "39549226",
+      "39380577",
+      "39369244"
+    ],
+    "refs": [
+      "38110976",
+      "37822596",
+      "37501079",
+      "37349246",
+      "37342570",
+      "37186134",
+      "35803926",
+      "29930091",
+      "28490825",
+      "20585380"
+    ],
+    "similar": [
+      "38627840",
+      "39369244",
+      "38652128",
+      "36321557",
+      "37822596",
+      "35451986",
+      "23912807",
+      "38199212",
+      "37333812",
+      "37600802",
+      "38481812",
+      "36982591",
+      "36699067",
+      "36263200",
+      "37287685",
+      "38380323",
+      "36518754",
+      "36108750",
+      "36033465",
+      "36440224",
+      "36915518",
+      "36224012",
+      "35116344",
+      "34432948",
+      "38259287",
+      "36761200",
+      "36148235",
+      "37338518",
+      "38322526",
+      "35390165",
+      "37401177",
+      "38253297",
+      "36387132",
+      "35346273",
+      "35321827",
+      "38446061",
+      "34235141",
+      "38027171",
+      "26658481",
+      "35135293",
+      "35515122",
+      "37990510",
+      "37941122",
+      "38110976",
+      "34335175",
+      "34334791",
+      "37397493",
+      "36209170",
+      "33036834",
+      "35168563",
+      "36288994",
+      "36081552",
+      "37867521",
+      "38322521",
+      "33866438",
+      "37637069",
+      "37496271",
+      "38323105",
+      "34102212",
+      "34322030",
+      "34332587",
+      "32668274",
+      "31956096",
+      "35093128",
+      "37430294",
+      "35370647",
+      "37899789",
+      "36684203",
+      "37576806",
+      "38037303",
+      "36874468",
+      "36692217",
+      "35559334",
+      "35693942",
+      "37230179",
+      "37475546",
+      "37127623",
+      "38380794",
+      "37294104",
+      "37005672",
+      "38547652",
+      "28034409",
+      "15852506",
+      "35982902",
+      "37771721",
+      "36471564",
+      "34143622",
+      "36157400",
+      "35801342",
+      "35142991",
+      "37235796",
+      "38298184",
+      "36925652",
+      "36389756",
+      "36444977",
+      "31941785"
+    ],
+    "review": [
+      "38627840",
+      "36321557",
+      "37600802",
+      "38481812",
+      "36263200",
+      "38380323",
+      "35116344",
+      "38259287",
+      "35321827",
+      "34235141",
+      "37990510",
+      "38110976",
+      "34334791",
+      "36081552",
+      "38322521",
+      "37496271",
+      "34332587",
+      "31956096",
+      "35370647",
+      "37899789",
+      "37576806",
+      "36874468",
+      "37230179",
+      "37475546",
+      "37005672",
+      "38547652",
+      "28034409",
+      "35982902",
+      "37771721",
+      "34143622",
+      "36157400"
+    ],
+    "pmc": [
+      "11020673"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biomarkerres.biomedcentral.com/articles/10.1186/s40364-024-00587-9",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38627840/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38627840",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

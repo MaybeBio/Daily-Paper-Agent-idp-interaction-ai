@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34757373",
+  "title": "Designing amphiphilic Janus nanoparticles with tunable lipid raft affinity via molecular dynamics simulation.",
+  "authors": "Lin, Xiaoqian; Lin, Xubo",
+  "journal": "Biomaterials science",
+  "published_date": "2021-11-11",
+  "window": {
+    "start": "2021-11-08",
+    "end": "2021-11-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟设计两亲性Janus纳米颗粒调控脂筏亲和力，对象为脂膜/纳米颗粒而非无序蛋白，虽涉及膜域与蛋白互作背景，但无IDP/PPI机制建模，仅方法可部分迁移。",
+  "abstract": "Due to the differential interactions among lipids and proteins, the plasma membrane can segregate into a series of functional nanoscale membrane domains (\"lipid rafts\"), which are essential in multiple biological processes such as signaling transduction, protein trafficking and endocytosis. On the other hand, Janus nanoparticles (NPs) have shown great promise in various biomedical applications due to their asymmetric characteristics and can integrate different surface properties and thus synergetic functions. Hence, in this work, we aim to design an amphiphilic Janus NP to target and regulate lipid rafts via tuning its surface ligand amphiphilicity using coarse-grained molecular dynamics (MD) simulations. Our mus-scale free coarse-grained MD simulations as well as umbrella sampling free energy calculations indicated that the hydrophobicity of the hydrophobic surface ligands not only determined the lateral membrane partitioning thermodynamics of Janus NPs in phase-separated lipid membranes, but also the difficulty in their insertion into different membrane domains of the lipid membrane. These two factors jointly regulated the lipid raft affinity of Janus NPs. Meanwhile, the hydrophilicity of the hydrophilic surface ligands could affect the insertion ability of Janus NPs. Besides, the ultra-small size could ensure the membrane-bound behavior of Janus NPs without disrupting the overall structure and phase separation kinetics of the lipid membrane. These results may provide valuable insights into the design of functional NPs targeting and controllably regulating lipid rafts.",
+  "abstract_zh": "由于脂质和蛋白质之间的差异性相互作用，质膜可以分离成一系列功能性的纳米尺度膜域（“脂筏”），这些膜域在信号转导、蛋白质运输和内吞作用等多个生物过程中至关重要。另一方面，Janus纳米粒子（NPs）因其不对称特性，在多种生物医学应用中展现出巨大潜力，能够整合不同的表面性质，从而实现协同功能。因此，在本工作中，我们旨在设计一种两亲性Janus NP，通过调节其表面配体的两亲性，利用粗粒化分子动力学（MD）模拟来靶向并调控脂筏。我们的微秒级自由粗粒化MD模拟以及伞形采样自由能计算表明，疏水性表面配体的疏水性不仅决定了Janus NPs在相分离脂质膜中的横向膜分配热力学，还影响了它们插入脂质膜不同膜域的难度。这两个因素共同调控了Janus NPs的脂筏亲和力。同时，亲水性表面配体的亲水性能够影响Janus NPs的插入能力。此外，超小尺寸确保了Janus NPs的膜结合行为，而不会破坏脂质膜的整体结构和相分离动力学。这些结果可能为设计靶向并可控调节脂筏的功能性NPs提供有价值的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34757373/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34757373/",
+  "paper_page_path": "papers/pubmed/34757373/index.html"
+}

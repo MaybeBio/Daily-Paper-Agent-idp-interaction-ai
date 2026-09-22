@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (review article), including main text, tables, and figure captions. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific content, technical accuracy, completeness of coverage, and alignment with the stated scope of the review. Editorial and stylistic issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The manuscript reviews AI-driven methods for protein structure prediction, dynamics, interactions, and ligand binding, with a focus on understudied protein families ("dark proteome"). It surveys the evolution from traditional template-based modeling to deep learning approaches (AlphaFold2/3, RoseTTAFold, ESMFold, etc.), discusses quality metrics, and presents two case studies (orphan GPCRs and intrinsically disordered proteins). The authors propose a tiered roadmap for characterizing understudied families.
+- **Visible evidence base** The manuscript cites primary literature, benchmark results (CASP, PoseBusters, PDBbind), and specific studies (e.g., TAAR1 virtual screening). Tables 1-3 summarize model comparisons, quality metrics, and IDP case studies. Figures 1-3 illustrate data distributions, workflows, and case study pipelines.
+- **Missing materials affecting confidence** Supplementary figures (S1, S2) and Table S1 are referenced but not provided. The full reference list is not included in the supplied text. These omissions limit verification of specific claims and the completeness of the proposed roadmap.
+
+## Reviewer
+- **Overall assessment** This is a broad and timely review of AI-driven structural biology, with a useful focus on understudied protein families. The manuscript covers a wide range of methods and tools, and the case studies (GPCRs, IDPs) are well chosen to illustrate the challenges. However, the review is largely descriptive and lacks critical depth. Several claims are presented without sufficient nuance or supporting evidence, and the organization is at times repetitive. The "dark proteome" framing is promising but not consistently integrated throughout. The manuscript would benefit from a more critical synthesis, clearer definitions of key terms, and a more rigorous treatment of benchmark limitations.
+- **Who would be interested in the results, and why** Computational biologists, structural biologists, and researchers in drug discovery, particularly those working on understudied or difficult-to-characterize proteins. The review provides a useful entry point for those seeking an overview of available AI tools and their applications. The case studies and the proposed roadmap may be of practical interest to groups aiming to apply these methods to their own targets.
+- **Major strengths**
+  1. The scope is timely and relevant, covering a rapidly evolving field with clear practical implications.
+  2. The inclusion of open-source tools (Boltz, Chai-1, OpenFold) and the discussion of accessibility is valuable.
+  3. The two case studies (orphan GPCRs and IDPs) effectively bracket the range of challenges in the field.
+  4. The quality metrics section (Table 2) is a useful reference for practitioners.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  ​- **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that AlphaFold3 "achieved a success rate of approximately 76% with root mean square deviation (RMSD) for all AF3-predicted ligands was under 2 Å" and that it "substantially outperforming AutoDock Vina (48% success in the absence of known binding-site information)."
+  - **Evidence pointer** Section "Benchmark performance"; Table 1
+  - **Concern** The comparison between AlphaFold3 and AutoDock Vina is presented as a direct head-to-head, but the benchmark conditions differ substantially. The 76% success rate for AF3 is from the PoseBusters benchmark, which evaluates docking pose accuracy against crystallographic reference poses. The 48% figure for AutoDock Vina is from a different study with different evaluation criteria and target selection. The manuscript does not acknowledge these differences, and the claim of "substantially outperforming" is therefore misleading without appropriate caveats. The authors should clarify the benchmark conditions, the comparability of the datasets, and the statistical significance of the difference.
+  - **Why it matters** This claim is central to the review's argument that AI-based methods have transformed ligand docking. If the comparison is not apples-to-apples, the conclusion is overstated and could mislead readers who are not familiar with the benchmark literature.
+  - **Resolution test** The authors should revise the text to specify the exact benchmark, the evaluation metric, and the reference for each number. They should either provide a direct comparison under identical conditions or explicitly state that the numbers come from different studies and are not directly comparable. A more cautious phrasing, such as "reported success rates of 76% on PoseBusters, compared to 48% for AutoDock Vina in a separate evaluation," would be acceptable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / Originality
+  - **Claim pointer** The manuscript claims to provide a "dedicated quality-metrics framework" and a "tiered roadmap for characterizing understudied protein families" as novel contributions.
+  - **Evidence pointer** Section "Quality metrics for AI-Based structure prediction"; Section "Conclusion and future perspectives"; Supplementary Figure S2
+  - **Concern** The quality metrics section is essentially a compilation of existing metrics (RMSD, GDT, TM-score, lDDT, DockQ, etc.) with standard descriptions. It does not offer a new framework, a comparative analysis of when to use which metric, or guidance on their limitations in the context of understudied proteins. Similarly, the "tiered roadmap" is only briefly described in the conclusion and is relegated to a supplementary figure. As presented, it is a list of steps rather than a critical framework. The novelty and practical utility of these contributions are not established.
+  - **Why it matters** The review's stated contribution is to provide guidance for the "dark proteome." If the framework and roadmap are not substantive, the review is largely a summary of existing work without added value.
+  - **Resolution test** The authors should either (a) expand the quality metrics section to include a critical discussion of metric selection for understudied proteins, with concrete examples of where metrics fail, or (b) temper the claims of novelty. The roadmap should be described in sufficient detail in the main text to be usable, or its preliminary nature should be acknowledged.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "AF3's diffusion architecture can produce hallucinations. It predicts ordered structure in regions that have no stable native conformation" and cites a study reporting that "22% of residues were classified as hallucinations" in a set of 72 IDPs.
+  - **Evidence pointer** Section "Limitations for understudied and orphan proteins"
+  - **Concern** The term "hallucination" is used without a precise definition. The cited study (Gopalan and Narayanan, 2025) is described as classifying residues as hallucinations, but the criteria for this classification are not explained. The manuscript also states that "18% of the residues annotated to biological processes were also affected," but the significance of this statistic is unclear. The reader cannot assess the severity of the problem without knowing how hallucinations were defined and detected.
+  - **Why it matters** The hallucination issue is presented as a key limitation of AF3 for IDPs. If the definition is vague, the claim is not falsifiable and the practical implications are unclear.
+  - **Resolution test** The authors should define "hallucination" in this context (e.g., high-confidence prediction of ordered structure in a region experimentally known to be disordered) and describe the method used to identify such cases. They should also clarify what "residues annotated to biological processes" means and why this is relevant.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The manuscript states that "Boltz-2 was among the first deep-learning model to approach the accuracy of free energy perturbation (FEP)" and that it "outperformed all top-ranking participants without any task-specific fine-tuning" in the CASP16 affinity challenge.
+  - **Evidence pointer** Section "Classical Docking and Scoring Functions"; Table 1
+  - **Concern** The claim that Boltz-2 "approaches" FEP accuracy is vague. FEP is a family of methods with varying accuracy depending on the system and the protocol. The manuscript does not specify which FEP variant is being compared, on which dataset, or what the quantitative difference is. The CASP16 result is mentioned, but the details of the challenge (e.g., the number of targets, the metric used) are not provided. For a non-specialist reader, the significance of this claim is unclear.
+  - **Why it matters** This is a strong claim that, if true, has significant implications for drug discovery. Without quantitative context, it is not possible to evaluate its validity.
+  - **Resolution test** The authors should provide a quantitative comparison, e.g., "Boltz-2 achieved a Pearson correlation of X on the CASP16 affinity dataset, compared to Y for FEP-based methods." They should also specify the FEP protocol used for comparison.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Evolution of structure prediction methods"
+  - **Evidence pointer** Section "Traditional approaches"
+  - **Issue** The distinction between "template-based modeling" and "template-free modeling" is introduced, but the term "twilight zone" is used without definition. Non-specialist readers may not know that this refers to the sequence identity range (~20-30%) where alignment-based methods become unreliable.
+  - **Required correction** Add a brief parenthetical definition, e.g., "the 'twilight zone' of sequence identity (~20-30%), where reliable alignments become difficult to obtain."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Table 2
+  - **Evidence pointer** Table 2, row for "pLDDT"
+  - **Issue** The table states that pLDDT is "model self-assessment" and is "Not" superposition-based. This is correct, but the table does not note that pLDDT is a per-residue score, whereas other metrics like GDT and TM-score are global. This distinction is important for interpretation.
+  - **Required correction** Add a note in the "What It Measures" column, e.g., "per-residue confidence in local structure."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Case study 1: Orphan GPCRs"
+  - **Evidence pointer** Section "Case study 1: Orphan GPCRs: from prediction to ligand discovery"
+  - **Issue** The term "orthosteric site" is used without definition. While likely familiar to structural biologists, it may not be to readers from other disciplines.
+  - **Required correction** Add a brief definition, e.g., "the primary ligand-binding site, as opposed to allosteric sites elsewhere on the protein."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "AI-Driven dynamics and ensemble methods"
+  - **Evidence pointer** Section "AI-Driven dynamics and ensemble methods"
+  - **Issue** The description of BioEmu states it was "reported in Science" and integrates "over 200 ms of MD simulation trajectories." The unit "ms" is ambiguous; it could be milliseconds or microseconds. Given the context of MD simulations, microseconds is more plausible, but the abbreviation is not standard.
+  - **Required correction** Spell out the unit, e.g., "200 milliseconds" or "200 microseconds," and ensure consistency with the cited source.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Conclusion and future perspectives"
+  - **Evidence pointer** Section "Conclusion and future perspectives"
+  - **Issue** The phrase "de-orphanization of understudied protein families" is used. While the term "de-orphanization" is common in the GPCR field, it may be unfamiliar to a broader audience.
+  - **Required correction** Add a brief explanation, e.g., "the process of assigning functions and ligands to previously uncharacterized proteins."
+- **Assessment against Nature-style criteria**
+  - **Originality** The review covers a rapidly evolving field and includes recent developments (e.g., Boltz-2, CASP16). However, the overall structure and content are largely a synthesis of existing reviews and primary literature. The "dark proteome" framing is not new, and the proposed framework and roadmap are not sufficiently developed to constitute a novel contribution. The originality is moderate.
+  - **Scientific importance** The topic is of high importance. The application of AI to understudied protein families has significant implications for basic biology and drug discovery. The case studies are well chosen. However, the review does not provide a critical assessment of the field's current limitations in a way that would guide future research. The importance of the topic is not fully matched by the depth of the analysis.
+  - **Interdisciplinary readership** The manuscript is likely to be of interest to computational biologists, structural biologists, and drug discovery researchers. However, the writing is at times dense and assumes familiarity with structural biology concepts (e.g., "twilight zone," "orthosteric site"). The lack of definitions for such terms may limit accessibility for readers from other disciplines. The practical workflow (Figure 2) is a positive element for a broader audience.
+  - **Technical soundness** The manuscript is generally technically sound in its descriptions of methods and benchmarks. However, there are several instances where claims are made without sufficient caveats or context (R1-M1, R1-M3, R1-M4). The comparison of AF3 to AutoDock Vina is particularly problematic. The quality metrics table is useful but not critical. The technical soundness is adequate but requires revision.
+  - **Readability for nonspecialists** The manuscript is written for a specialist audience. The use of jargon without definition, the dense descriptions of model architectures, and the lack of a clear narrative thread make it challenging for non-specialists. The case studies help, but the overall readability could be improved.
+- **Recommendation posture** Supportive if technical concerns are resolved. The topic is timely and the review has the potential to be a useful resource. However, the issues with benchmark comparisons (R1-M1), the vague definition of "hallucination" (R1-M3), and the unsubstantiated claims about Boltz-2 (R1-M4) need to be addressed. The claims of novelty for the framework and roadmap should be tempered or the sections expanded. The manuscript would also benefit from a more critical and less descriptive tone throughout.
+
+## Risk / unsupported claims
+- The claim that AlphaFold3 "substantially outperforms" AutoDock Vina is not supported by a direct comparison under identical conditions (R1-M1).
+- The claim that Boltz-2 "approaches" FEP accuracy is vague and not quantified (R1-M4).
+- The "dedicated quality-metrics framework" and "tiered roadmap" are presented as contributions but are not described in sufficient detail to be evaluated or used (R1-M2).
+- The statement that "AF3 sometimes assigns high pLDDT (>70) to disordered residues" is presented as a finding from a cited study, but the criteria for "hallucination" are not defined, making the claim difficult to assess (R1-M3).
+- The claim that "most (~54%) of the uncharacterized proteins are classified as high confidence" (Figure 1) is presented as the authors' own analysis, but the methodology for this analysis is not described. It is unclear whether this is a new analysis or a re-plotting of published data.

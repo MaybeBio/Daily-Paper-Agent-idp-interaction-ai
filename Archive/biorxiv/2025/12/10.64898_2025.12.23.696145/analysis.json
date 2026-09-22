@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.23.696145",
+  "title": "B-PPI: A Cross-Attention Model for Large-Scale Bacterial Protein-Protein Interaction Prediction",
+  "authors": "Chen Agassy; Bruria Samuel; Shahar Mayo; Asaf Zorea; David Burstein",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-25",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于结构感知语言模型和交叉注意力的细菌PPI预测工具B-PPI，虽非无序蛋白对象且未涉及相分离，但AI方法预测PPI的机制建模思路对本课题有可迁移启发。",
+  "abstract": "Protein-protein interactions (PPIs) are essential for the study of cellular function, yet computational prediction of bacterial PPIs remains limited. Most existing methods are trained on human data, reducing their applicability to bacterial systems. Here, we present B-PPI, a computational tool specifically designed for bacterial PPI prediction. B-PPI leverages embeddings from ProstT5, a structure-aware protein language model, and a cross-attention mechanism to capture residue-level inter-protein relationships. To facilitate training, we constructed B-PPI-DB, a large-scale bacterial PPI dataset derived from STRING, comprising 202,829 positive and negative interactions across 2,646 taxa with a 1:10 positive-to-negative ratio. We benchmarked B-PPI against TT3D, a state-of-the-art model trained on human PPI, which was previously evaluated on bacterial PPIs. B-PPI achieved substantially higher performance on bacterial data (AUPRC 0.926±0.006 vs. 0.230±0.005 and F1 0.866±0.007 vs. 0.299±0.005) with faster runtime. We further demonstrate that the model adapts to unseen bacterial interactions with minimal fine-tuning. Together, B-PPI and B-PPI-DB address a critical gap in computational microbiology, offering a framework for bacterial PPI prediction and a data resource for benchmarking and developing new tools in the field.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）对于细胞功能研究至关重要，然而细菌PPIs的计算预测仍然有限。现有大多数方法基于人类数据进行训练，降低了其对细菌系统的适用性。在此，我们提出B-PPI，一种专门设计用于细菌PPI预测的计算工具。B-PPI利用来自ProstT5（一种结构感知的蛋白质语言模型）的嵌入，以及交叉注意力机制来捕捉残基水平的蛋白质间关系。为便于训练，我们构建了B-PPI-DB，一个源自STRING的大规模细菌PPI数据集，包含2,646个分类群中的202,829个正负相互作用，正负比例为1:10。我们将B-PPI与TT3D（一种基于人类PPI训练的最先进模型，先前已在细菌PPIs上评估过）进行了基准测试。B-PPI在细菌数据上取得了显著更高的性能（AUPRC 0.926±0.006对比0.230±0.005，F1 0.866±0.007对比0.299±0.005），且运行时间更快。我们进一步证明，该模型通过最小微调即可适应未见过的细菌相互作用。总之，B-PPI和B-PPI-DB填补了计算微生物学中的关键空白，为细菌PPI预测提供了框架，并为该领域新工具的基准测试和开发提供了数据资源。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.23.696145",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.23.696145",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.23.696145/index.html"
+}

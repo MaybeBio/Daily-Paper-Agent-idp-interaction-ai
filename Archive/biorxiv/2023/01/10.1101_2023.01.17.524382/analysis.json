@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.01.17.524382",
+  "title": "GraphGPSM: a global scoring model for protein structure using graph neural networks",
+  "authors": "Guangxing He; Jun Liu; Dong Liu; Zhang Guijun",
+  "journal": "bioRxiv",
+  "published_date": "2023-01-19",
+  "window": {
+    "start": "2023-01-16",
+    "end": "2023-01-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用等变图神经网络构建蛋白质结构全局打分模型GraphGPSM，用于结构建模与排序，虽涉及AI方法和结构互作相关打分，但对象非无序蛋白/IDR，且未聚焦PPI机制建模，仅对结构质量评估有间接启发。",
+  "abstract": "The scoring models used for protein structure modeling and ranking are mainly divided into unified field and protein-specific scoring functions. Although protein structure prediction has made tremendous progress since CASP14, the modeling accuracy still cannot meet the requirements to a certain extent. Especially, accurate modeling of multi-domain and orphan proteins remains a challenge. Therefore, an accurate and efficient protein scoring model should be developed urgently to guide the protein structure folding or ranking through deep learning. In this work, we propose a protein structure global scoring model based on equivariant graph neural network (EGNN), named GraphGPSM, to guide protein structure modeling and ranking. We construct an EGNN architecture, and a message passing mechanism is designed to update and transmit information between nodes and edges of the graph. Finally, the global score of the protein model is output through a multilayer perceptron. Residue-level ultrafast shape recognition is used to describe the relationship between residues and the overall structure topology, and distance and direction encoded by Gaussian radial basis functions are designed to represent the overall topology of the protein backbone. These two features are combined with Rosetta energy terms, backbone dihedral angles, and inter-residue distance and orientations to represent the protein model and embedded into the nodes and edges of the graph neural network. The experimental results on the CASP13, CASP14, and CAMEO test sets show that the scores of our developed GraphGPSM have a strong correlation with the TM-score of the models, which are significantly better than those of the unified field score function REF2015 and the state-of-the-art local lDDT-based scoring models ModFOLD8, ProQ3D, and DeepAccNet etc. The modeling experimental results on 484 test proteins demonstrate that GraphGPSM can greatly improve the modeling accuracy. GraphGPSM is further used to model 35 orphan proteins and 57 multi-domain proteins. The results show that the average TM-score of the models predicted by GraphGPSM is 13.2% and 7.1% higher than that of the models predicted by AlphaFold2. GraphGPSM also participates in CASP15 and achieves competitive performance in global accuracy estimation.",
+  "abstract_zh": "用于蛋白质结构建模和排序的评分模型主要分为统一力场和蛋白质特异性评分函数。尽管自CASP14以来，蛋白质结构预测取得了巨大进展，但建模精度在一定程度上仍无法满足要求。特别是，多结构域蛋白和孤儿蛋白的精确建模仍然是一个挑战。因此，迫切需要开发一种准确且高效的蛋白质评分模型，通过深度学习指导蛋白质结构折叠或排序。在本工作中，我们提出了一种基于等变图神经网络（EGNN）的蛋白质结构全局评分模型，命名为GraphGPSM，以指导蛋白质结构建模和排序。我们构建了一个EGNN架构，并设计了一种消息传递机制，用于在图节点和边之间更新和传输信息。最后，通过多层感知器输出蛋白质模型的全局评分。使用残基级超快形状识别来描述残基与整体结构拓扑之间的关系，并设计了由高斯径向基函数编码的距离和方向来表示蛋白质骨架的整体拓扑。这两个特征与Rosetta能量项、骨架二面角以及残基间距离和方向相结合，以表示蛋白质模型，并嵌入到图神经网络的节点和边中。在CASP13、CASP14和CAMEO测试集上的实验结果表明，我们开发的GraphGPSM的评分与模型的TM-score具有强相关性，显著优于统一力场评分函数REF2015以及基于局部lDDT的最先进评分模型ModFOLD8、ProQ3D和DeepAccNet等。在484个测试蛋白上的建模实验结果表明，GraphGPSM能大幅提高建模精度。GraphGPSM进一步用于建模35个孤儿蛋白和57个多结构域蛋白。结果显示，GraphGPSM预测模型的平均TM-score比AlphaFold2预测模型分别高出13.2%和7.1%。GraphGPSM还参与了CASP15，并在全局精度估计中取得了有竞争力的表现。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.01.17.524382",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.01.17.524382",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.01.17.524382/index.html"
+}

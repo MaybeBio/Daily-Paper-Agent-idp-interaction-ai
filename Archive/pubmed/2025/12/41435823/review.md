@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors introduce DynamicGT, a dynamic-aware geometric transformer that integrates conformational dynamics into a cooperative graph neural network for protein-binding interface prediction. The model encodes dynamic features at node and edge levels, considers bound and unbound states, and uses dynamic regulation of message passing between core and surface residues. It was trained on a 1-ms molecular dynamics simulation dataset augmented with AlphaFlow-generated conformations and benchmarked on diverse datasets containing disordered, transient, and unbound structures. The authors claim that incorporating dynamics within a cooperative architecture significantly improves prediction accuracy where flexibility is key while requiring substantially less data than leading static approaches.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark tables, ablation studies, or methodological details are available
+- **Missing materials affecting confidence** Full methods, model architecture details, training and validation datasets, benchmark protocols, baseline comparisons, quantitative performance metrics, statistical significance tests, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach that addresses a genuine limitation in current protein-binding site prediction methods, namely the reliance on static structures. The idea of integrating molecular dynamics-derived features into a geometric transformer with a cooperative graph architecture is timely and potentially valuable. However, the abstract provides no quantitative evidence to support the central claims of improved accuracy or data efficiency. The absence of any numerical results, baseline comparisons, or methodological specifics makes it impossible to evaluate the technical soundness or the validity of the stated conclusions. The work may be of interest to the computational structural biology community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-protein interaction prediction, structural bioinformatics researchers interested in integrating conformational dynamics into deep learning models, and developers of predictive tools for drug discovery or functional annotation of proteins, particularly those dealing with intrinsically disordered proteins or flexible regions where static-structure-based methods fail.
+- **Major strengths** The problem addressed is well-motivated and practically relevant. The proposed architecture conceptually combines several advanced ideas, including dynamic feature encoding at both node and edge levels, bound and unbound state consideration, and cooperative message passing regulation. The use of molecular dynamics simulation data and AlphaFlow-generated conformations as training augmentation is a creative strategy that could address data scarcity in dynamic structural contexts.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "incorporating dynamics within a cooperative architecture significantly improves prediction accuracy where flexibility is key while requiring substantially less data than leading static approaches."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no quantitative results, no benchmark numbers, no baseline comparisons, and no statistical significance measures to support the claim of significant improvement in prediction accuracy. The phrase "significantly improves" implies a statistical or practical effect size that cannot be assessed without data.  
+  - **Why it matters** The central contribution of the paper is the claimed performance advantage over static approaches. Without any numerical evidence, the reader cannot determine whether the improvement is real, marginal, or confined to specific test cases. This is the core claim of the manuscript and must be substantiated.  
+  - **Resolution test** Provide benchmark tables with performance metrics (e.g., precision, recall, F1, AUC) on the described diverse datasets, with comparisons against leading static methods, including confidence intervals or statistical tests demonstrating significance.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that the model was "trained on a 1-ms molecular dynamics simulation dataset and augmented with AlphaFlow-generated conformations."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify the size, composition, or diversity of the training dataset, nor the nature of the AlphaFlow augmentation. It is unclear how many proteins were simulated, how representative the dataset is of the benchmark test sets, and whether the 1-ms simulation length is a per-system or aggregate figure. The potential for data leakage between training and evaluation sets cannot be assessed.  
+  - **Why it matters** Training data characteristics directly affect generalization claims. If the training set is small or biased toward particular structural classes, the reported performance on disordered or transient complexes may be inflated. The lack of dataset details prevents assessment of the model's true generalization capability.  
+  - **Resolution test** Describe the training dataset composition, including number of protein complexes, sequence diversity, simulation parameters, and the exact role of AlphaFlow-generated conformations. Clarify whether any benchmark proteins or their homologs were included in training.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The abstract describes a "dynamic geometric transformer" with "cooperative graph neural network" and "dynamic regulation of messages passing between core and surface residues."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No architectural details are provided. The terms "cooperative graph neural network" and "dynamic regulation of message passing" are not standard in the literature, and their specific implementation is unclear. Without a description of the model architecture, loss functions, training procedure, or hyperparameters, the work cannot be reproduced or independently validated.  
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific contribution. The novelty of the architecture cannot be evaluated, and the community cannot build upon or verify the approach without sufficient technical detail.  
+  - **Resolution test** Provide a full methods section with architectural diagrams, mathematical formulations of the dynamic feature encoding and message passing regulation, training details, and code availability statement.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Evaluation rigor  
+  - **Claim pointer** The authors state that the model "was benchmarked extensively" on "diverse datasets containing disordered, transient, and unbound structures."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify which benchmark datasets were used, how many test cases were included, what evaluation metrics were applied, or how the results compare to existing state-of-the-art methods on these specific datasets. The term "extensively" is subjective and unsupported.  
+  - **Why it matters** The claim of broad applicability across disordered, transient, and unbound structures requires demonstration on well-established benchmarks with clear protocols. Without this, the reader cannot judge whether the method generalizes or is tuned to specific favorable cases.  
+  - **Resolution test** List the specific benchmark datasets used, the number of test proteins in each category, the evaluation metrics, and provide per-dataset results with comparisons to at least two or three leading static and dynamic baselines.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Claim precision  
+  - **Claim pointer** The authors claim the model requires "substantially less data than leading static approaches."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No data efficiency curves, learning curves, or ablation studies are presented to support this claim. It is unclear what "substantially less" means quantitatively, and whether this is a property of the architecture or of the specific training setup.  
+  - **Why it matters** Data efficiency is a distinct and potentially valuable contribution, but it must be demonstrated with controlled experiments comparing training set sizes and performance trajectories against static baselines. Without this, the claim is speculative.  
+  - **Resolution test** Provide learning curves showing model performance as a function of training data size for DynamicGT and at least one leading static method, with clear annotation of the data efficiency advantage.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "cooperative graph neural network" is not defined or referenced. It is unclear whether this is a novel contribution or an existing framework being adapted.  
+  - **Required correction** Define the term explicitly or cite prior work that introduces the cooperative graph neural network concept.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Dataset description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions "1-ms molecular dynamics simulation dataset" but does not specify the number of systems, the force field used, or the simulation software.  
+  - **Required correction** Provide these details in the methods section to allow assessment of simulation quality and relevance.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Accessibility  
+  - **Affected element** Availability statement  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No mention is made of code or model availability, which is increasingly expected for computational methods papers.  
+  - **Required correction** Include a data and code availability statement in the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence for the central accuracy claim), R1-M2 (insufficient training data description), R1-M3 (lack of architectural details for reproducibility), R1-M4 (unspecified benchmark protocols), R1-M5 (unsupported data efficiency claim)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of integrating conformational dynamics into a geometric transformer for binding site prediction appears novel and distinct from static-structure-based approaches. However, the degree of novelty relative to existing dynamic-aware methods cannot be fully assessed from the abstract alone.  
+  - **Scientific importance** The problem of predicting binding interfaces in flexible and disordered regions is of significant biological and clinical relevance. If the claims are substantiated, the work could have broad impact on the field.  
+  - **Interdisciplinary readership** The topic sits at the intersection of structural biology, computational biophysics, and machine learning, and would appeal to researchers across these disciplines. The abstract is written in a way that is largely accessible to a broad scientific audience.  
+  - **Technical soundness** Cannot be evaluated from the abstract. The absence of architectural details, training procedures, and quantitative results precludes any assessment of technical correctness or robustness.  
+  - **Readability for nonspecialists** The abstract is reasonably clear, though terms such as "cooperative graph neural network" and "dynamic regulation of messages passing" may be opaque to readers outside the immediate field. The motivation and high-level approach are communicated effectively.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual approach is promising and the problem is well-chosen, but the abstract alone does not provide sufficient evidence to support the central claims of improved accuracy and data efficiency. A full manuscript with detailed methods, benchmark results, and statistical analyses would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of "significantly improves prediction accuracy" is unsupported by any quantitative data in the abstract.
+- The claim of requiring "substantially less data than leading static approaches" is unsupported by any learning curve or ablation evidence.
+- The claim of "extensive benchmarking" is unverifiable without specification of datasets and protocols.
+- The generalizability of the model to disordered, transient, and unbound structures is asserted but not demonstrated with results.
+- The novelty and effectiveness of the "cooperative graph neural network" architecture cannot be evaluated without methodological details.

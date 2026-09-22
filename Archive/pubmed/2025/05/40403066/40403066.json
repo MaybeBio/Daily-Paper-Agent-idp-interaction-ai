@@ -1,0 +1,487 @@
+{
+  "identity": {
+    "pmid": "40403066",
+    "doi": "10.1126/science.adq8381",
+    "title": "Sequence-based prediction of intermolecular interactions driven by disordered regions."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) in proteins play essential roles in cellular function. A growing body of work has shown that IDRs often interact with partners in a manner that does not depend on the precise order of amino acids but is instead driven by complementary chemical interactions, leading to disordered bound-state complexes. However, these chemically specific dynamic interactions are difficult to predict. In this study, we repurposed the chemical physics developed originally for molecular simulations to predict this chemical specificity between IDRs and partner proteins using protein sequence as the only input. Our approach-FINCHES-enables the direct prediction of phase diagrams, the identification of chemically specific interaction hotspots on IDRs, the decomposition of chemically distinct domains in IDRs, and a route to develop and test mechanistic hypotheses regarding IDR function in molecular recognition.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Protein Conformation",
+      "Protein Folding",
+      "*Protein Interaction Mapping/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ginell, Garrett M",
+        "Emenecker, Ryan J",
+        "Lotthammer, Jeffrey M",
+        "Keeley, Alex T",
+        "Plassmeyer, Stephen P",
+        "Razo, Nicholas",
+        "Usher, Emery T",
+        "Pelham, Jaqueline F",
+        "Holehouse, Alex S"
+      ],
+      "short_names": [
+        "Ginell GM",
+        "Emenecker RJ",
+        "Lotthammer JM",
+        "Keeley AT",
+        "Plassmeyer SP",
+        "Razo N",
+        "Usher ET",
+        "Pelham JF",
+        "Holehouse AS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6511-5480",
+        "ORCID: 0000-0001-7055-2773",
+        "ORCID: 0000-0002-5022-7006",
+        "ORCID: 0009-0007-4068-0652",
+        "ORCID: 0000-0002-8986-0650",
+        "ORCID: 0000-0002-4652-1149",
+        "ORCID: 0000-0002-8303-9992",
+        "ORCID: 0000-0002-2268-3012",
+        "ORCID: 0000-0002-4155-5729"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ginell, Garrett M",
+        "short_name": "Ginell GM",
+        "identifiers": [
+          "0000-0001-6511-5480"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Emenecker, Ryan J",
+        "short_name": "Emenecker RJ",
+        "identifiers": [
+          "0000-0001-7055-2773"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Lotthammer, Jeffrey M",
+        "short_name": "Lotthammer JM",
+        "identifiers": [
+          "0000-0002-5022-7006"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Keeley, Alex T",
+        "short_name": "Keeley AT",
+        "identifiers": [
+          "0009-0007-4068-0652"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Plassmeyer, Stephen P",
+        "short_name": "Plassmeyer SP",
+        "identifiers": [
+          "0000-0002-8986-0650"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Razo, Nicholas",
+        "short_name": "Razo N",
+        "identifiers": [
+          "0000-0002-4652-1149"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Usher, Emery T",
+        "short_name": "Usher ET",
+        "identifiers": [
+          "0000-0002-8303-9992"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Pelham, Jaqueline F",
+        "short_name": "Pelham JF",
+        "identifiers": [
+          "0000-0002-2268-3012"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [
+          "0000-0002-4155-5729"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "Science"
+    ],
+    "pub_date": "2025 May 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/22 18:26",
+    "fetched_at": "2026-09-21 19:07:16"
+  },
+  "links": {
+    "cites": [
+      "42642384",
+      "42527600",
+      "42450289",
+      "42450221",
+      "42370242",
+      "42358691",
+      "42282589",
+      "42265005",
+      "42239437",
+      "42239067",
+      "42230638",
+      "42190015",
+      "42184109",
+      "42159250",
+      "42154217",
+      "42147780",
+      "42115746",
+      "42079049",
+      "42055532",
+      "42055333",
+      "42041496",
+      "42026137",
+      "41993527",
+      "41867831",
+      "41862773",
+      "41838698",
+      "41756953",
+      "41688823",
+      "41688822",
+      "41683618",
+      "41644540",
+      "41499502",
+      "41477818",
+      "41381493",
+      "41233565",
+      "41174234",
+      "41118627",
+      "41083871",
+      "41082321",
+      "41003226",
+      "41001635",
+      "41000786",
+      "40998749",
+      "40796733",
+      "40781776",
+      "40667294",
+      "40666952",
+      "40650026",
+      "40580813",
+      "40524024",
+      "40147441",
+      "39763873",
+      "39677729",
+      "39149273",
+      "39131385"
+    ],
+    "refs": [
+      "40614721",
+      "40131954",
+      "39937084",
+      "39504303",
+      "38553587",
+      "38297184",
+      "38297118",
+      "38056064",
+      "37957331",
+      "37878721",
+      "37749234",
+      "37645312",
+      "37540173",
+      "37463458",
+      "36408920",
+      "36215496",
+      "35977086",
+      "35948766",
+      "35939561",
+      "35795820",
+      "35484250",
+      "35120642",
+      "35112738",
+      "34931046",
+      "34717010",
+      "34716273",
+      "34480923",
+      "34101805",
+      "34074792",
+      "33904398",
+      "33616531",
+      "33139563",
+      "32939066",
+      "32747754",
+      "32613009",
+      "32416068",
+      "32393642",
+      "32029630",
+      "32015543",
+      "31681941",
+      "31675499",
+      "31653829",
+      "31139718",
+      "30873835",
+      "29759983",
+      "29525204",
+      "29466338",
+      "29425488",
+      "29397728",
+      "29064502",
+      "28924037",
+      "28894006",
+      "28790177",
+      "28483149",
+      "28094985",
+      "27392146",
+      "26496610",
+      "26488642",
+      "26344712",
+      "25747659",
+      "25531225",
+      "25414335",
+      "23901099",
+      "23892456",
+      "22195967",
+      "19940160",
+      "19056732",
+      "18576630",
+      "18054235"
+    ],
+    "similar": [
+      "40403066",
+      "38895487",
+      "40650026",
+      "41534519",
+      "31441158",
+      "33087759",
+      "35139468",
+      "39446390",
+      "23912807",
+      "28780862",
+      "36908253",
+      "33248138",
+      "41053908",
+      "36959451",
+      "42585785",
+      "32824743",
+      "33076213",
+      "33779503",
+      "33567297",
+      "29763584",
+      "32696395",
+      "35098694",
+      "39589885",
+      "29066345",
+      "40944448",
+      "31756456",
+      "41688823",
+      "40574713",
+      "39093570",
+      "25286318",
+      "34390736",
+      "37657994",
+      "31999450",
+      "32323533",
+      "29309620",
+      "32112804",
+      "24115198",
+      "34461937",
+      "31207240",
+      "36291695",
+      "29990433",
+      "33207556",
+      "42057422",
+      "24027208",
+      "36987865",
+      "30878482",
+      "31397874",
+      "25391399",
+      "18831774",
+      "40631955",
+      "34418423",
+      "25424537",
+      "26742101",
+      "31253862",
+      "33078839",
+      "39933697",
+      "25387963",
+      "35094056",
+      "42150060",
+      "33454008",
+      "38297118",
+      "40042172",
+      "31175370",
+      "24532081",
+      "38166858",
+      "33269926",
+      "27787828",
+      "38275091",
+      "31804089",
+      "32553192",
+      "36008992",
+      "30855964",
+      "36458437",
+      "38942776",
+      "38297184",
+      "31889261",
+      "38079339",
+      "39032884",
+      "41571439",
+      "36272675",
+      "36851914",
+      "41570036",
+      "33810353",
+      "41232529",
+      "31877033",
+      "40131954",
+      "26402567",
+      "33243935",
+      "42475469",
+      "29425497",
+      "31797594",
+      "42538434",
+      "26790343",
+      "32696354",
+      "28934129",
+      "26073260",
+      "28365882",
+      "37990040",
+      "30819075",
+      "31709918"
+    ],
+    "review": [
+      "40403066",
+      "40650026",
+      "31441158",
+      "35139468",
+      "33248138",
+      "36959451",
+      "33567297",
+      "35098694",
+      "39093570",
+      "34390736",
+      "37657994",
+      "33207556",
+      "24027208",
+      "31397874",
+      "34418423",
+      "33078839",
+      "24532081",
+      "36851914",
+      "26402567",
+      "33243935",
+      "26073260"
+    ],
+    "pmc": [
+      "12377204"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/science.adq8381",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/40403066.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40403066/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

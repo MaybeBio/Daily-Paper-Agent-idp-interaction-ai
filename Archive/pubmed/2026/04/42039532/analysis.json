@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42039532",
+  "title": "beta -motifs and molecular flux promote amyloid nucleation at condensate interfaces.",
+  "authors": "Biswas, Subhadip; Potoyan, Davit A",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-04-27",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用自研的Flux-Driven Molecular Dynamics模拟框架，研究序列编码的β-倾向片段在凝聚体界面的成核与纤维化机制，直接聚焦无序蛋白/凝聚体界面上的PPI与相分离互作机制建模，方法为物理模拟且具机制深度。",
+  "abstract": "Biomolecular condensates are increasingly implicated as intermediates in the formation of pathological amyloid assemblies, yet the mechanisms by which sequence-encoded structural motifs and non-equilibrium molecular transport cooperate at condensate interfaces remain incompletely understood. Here, we introduce Flux-Driven Molecular Dynamics (FD-MD), a simulation framework that combines sequence-encoded beta -prone interactions with sustained molecular influx to examine fibril formation at condensate interfaces. Within this framework, we establish three main results. First, a scaling analysis of orientational entropy suggests that condensate interfaces can enhance nucleation relative to the bulk by as much as two orders of magnitude, by reducing the entropic cost of coalignment of rigid beta -prone segments. Second, varying segment rigidity and molecular supply rate organizes a non-equilibrium phase diagram with four interfacial growth morphologies, ranging from uniform wetting to fibrillar protrusions and inter-condensate bridging networks. Third, directional fibril elongation displays an inverse relationship with drift velocity, consistent with a mechanism in which higher transport rates to the interface favor planar saturation over directed tip incorporation. Together, these results support a picture in which condensate interfaces can act as kinetically favorable nucleation environments, sequence-encoded rigidity helps determine whether interfaces remain liquid-like or become fibrillar, and molecular flux emerges as an additional control axis in the model for condensate aging trajectories.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）日益被认为是病理性淀粉样组装体形成过程中的中间体，然而，序列编码的结构基序与非平衡分子输运在凝聚体界面协同作用的机制仍未被完全理解。在此，我们引入通量驱动分子动力学（Flux-Driven Molecular Dynamics, FD-MD），这是一种模拟框架，结合了序列编码的β-倾向相互作用与持续分子流入，以研究凝聚体界面处的纤维形成。在该框架内，我们确立了三个主要结果。首先，取向熵的尺度分析表明，凝聚体界面可将成核相对于本体相增强多达两个数量级，这是通过降低刚性β-倾向片段共排列的熵成本实现的。其次，改变片段刚性和分子供应速率组织了一个非平衡相图，包含四种界面生长形态，范围从均匀润湿到纤维状突起及凝聚体间桥接网络。第三，定向纤维伸长与漂移速度呈反比关系，这与一种机制一致，即更高的界面输运速率有利于平面饱和而非定向尖端掺入。综合来看，这些结果支持一种图景，其中凝聚体界面可作为动力学上有利的成核环境，序列编码的刚性有助于决定界面保持液态还是变为纤维状，而分子通量则作为模型中凝聚体老化轨迹的额外控制轴出现。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42039532/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42039532/",
+  "paper_page_path": "papers/pubmed/42039532/index.html"
+}

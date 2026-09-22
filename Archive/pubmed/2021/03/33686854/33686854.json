@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "33686854",
+    "doi": "10.1021/acs.jpclett.1c00208",
+    "title": "Liquid-Liquid Phase Separation of Tau Protein Is Encoded at the Monomeric Level."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is involved in both physiological and pathological processes. The intrinsically disordered protein Tau and its K18 construct can undergo LLPS in a distinct temperature-dependent manner, and the LLPS of Tau protein can initiate Tau aggregation. However, the underlying mechanism driving Tau LLPS remains largely elusive. To understand the temperature-dependent LLPS behavior of Tau at the monomeric level, we explored the conformational ensemble of Tau at different temperatures by performing all-atom replica-exchange molecular dynamic simulation on K18 monomer with an accumulated simulation time of 26.4 mus. Our simulation demonstrates that the compactness, beta-structure propensity, and intramolecular interaction of K18 monomer exhibit nonlinear temperature-dependent behavior. (295)DNIKHV(300)/(326)GNIHHK(331)/(337)VEVKSE(342) make significant contributions to the temperature dependence of the beta propensity of K18 monomer, while the two fibril-nucleating cores display relatively high beta propensity at all temperatures. At a specific temperature, K18 monomer adopts the most collapsed state with exposed sites for both persistent and transient interactions. Given that more collapsed polypeptide chains were reported to be more prone to phase separate, our results suggest that K18 monomer inherently possesses conformational characteristics favoring LLPS. Our simulation predicts the importance of (295)DNIKHV(300)/(326)GNIHHK(331)/(337)VEVKSE(342) to the temperature-dependent conformational properties of K18, which is corroborated by CD spectra, turbidity assays, and DIC microscopy. Taken together, we offer a computational and experimental approach to comprehend the structural basis for LLPS by amyloidal building blocks.",
+    "keywords": [],
+    "mesh_terms": [
+      "Models, Molecular",
+      "Protein Isoforms",
+      "Protein Structure, Secondary",
+      "Temperature",
+      "tau Proteins/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dong, Xuewei",
+        "Bera, Santu",
+        "Qiao, Qin",
+        "Tang, Yiming",
+        "Lao, Zenghui",
+        "Luo, Yin",
+        "Gazit, Ehud",
+        "Wei, Guanghong"
+      ],
+      "short_names": [
+        "Dong X",
+        "Bera S",
+        "Qiao Q",
+        "Tang Y",
+        "Lao Z",
+        "Luo Y",
+        "Gazit E",
+        "Wei G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4830-552X",
+        "ORCID: 0000-0001-5764-1720",
+        "ORCID: 0000-0001-5814-3328"
+      ],
+      "affiliations": [
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China.",
+        "Shmunis School of Biomedicine and Cancer Research, George S. Wise Faculty of Life Sciences, Tel Aviv University, Tel Aviv 69978, Israel.",
+        "Digital Medical Research Center, School of Basic Medical Sciences, Shanghai Key Laboratory of Medical Imaging Computing and Computer Assisted Intervention, Fudan University, Shanghai 200032, People's Republic of China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China.",
+        "Shmunis School of Biomedicine and Cancer Research, George S. Wise Faculty of Life Sciences, Tel Aviv University, Tel Aviv 69978, Israel.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dong, Xuewei",
+        "short_name": "Dong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Bera, Santu",
+        "short_name": "Bera S",
+        "identifiers": [
+          "0000-0002-4830-552X"
+        ],
+        "affiliations": [
+          "Shmunis School of Biomedicine and Cancer Research, George S. Wise Faculty of Life Sciences, Tel Aviv University, Tel Aviv 69978, Israel."
+        ]
+      },
+      {
+        "full_name": "Qiao, Qin",
+        "short_name": "Qiao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Digital Medical Research Center, School of Basic Medical Sciences, Shanghai Key Laboratory of Medical Imaging Computing and Computer Assisted Intervention, Fudan University, Shanghai 200032, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yiming",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Lao, Zenghui",
+        "short_name": "Lao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Luo, Yin",
+        "short_name": "Luo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Gazit, Ehud",
+        "short_name": "Gazit E",
+        "identifiers": [
+          "0000-0001-5764-1720"
+        ],
+        "affiliations": [
+          "Shmunis School of Biomedicine and Cancer Research, George S. Wise Faculty of Life Sciences, Tel Aviv University, Tel Aviv 69978, Israel."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghong",
+        "short_name": "Wei G",
+        "identifiers": [
+          "0000-0001-5814-3328"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2021 Mar 18",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/10 06:00",
+    "fetched_at": "2026-09-20 01:58:31"
+  },
+  "links": {
+    "cites": [
+      "42446172",
+      "42074305",
+      "41889760",
+      "41509380",
+      "40916915",
+      "40360668",
+      "40095314",
+      "39950286",
+      "39807013",
+      "39589726",
+      "39579121",
+      "39342654",
+      "39148776",
+      "37834471",
+      "37414583",
+      "37267850",
+      "37189373",
+      "37180732",
+      "36563129",
+      "36084347",
+      "35907400",
+      "35724929",
+      "35408509",
+      "35181198",
+      "34747175",
+      "34638632",
+      "34032430"
+    ],
+    "refs": [],
+    "similar": [
+      "33686854",
+      "39421885",
+      "31097543",
+      "33279579",
+      "33262278",
+      "31971365",
+      "34494046",
+      "29734651",
+      "29944336",
+      "36471564",
+      "22291015",
+      "33496017",
+      "30950394",
+      "34575888",
+      "33955104",
+      "31341602",
+      "35381286",
+      "32096047",
+      "37075845",
+      "35503811",
+      "25284680",
+      "32722166",
+      "37230179",
+      "22393063",
+      "38960272",
+      "28683104",
+      "36939323",
+      "32096048",
+      "33686711",
+      "37662293",
+      "32997736",
+      "33684117",
+      "33971237",
+      "32229582",
+      "31661961",
+      "29630971",
+      "32691116",
+      "36310206",
+      "34374536",
+      "31270472",
+      "32486218",
+      "31237369",
+      "32256313",
+      "32623047",
+      "30853336",
+      "35373198",
+      "31628033",
+      "28287224",
+      "18783251",
+      "36375666",
+      "36453011",
+      "25206938",
+      "27911791",
+      "22862303",
+      "31941785",
+      "32824618",
+      "36551199",
+      "26756795",
+      "17385861",
+      "30267747",
+      "28297651",
+      "25691742",
+      "29704492",
+      "30024984",
+      "30259679",
+      "17176091",
+      "29511089",
+      "39148776",
+      "28460527",
+      "34787433",
+      "22891813",
+      "36310209",
+      "33876938",
+      "32615218",
+      "32915536",
+      "29397728",
+      "22901047",
+      "36843414",
+      "25767879",
+      "20709081",
+      "28882313",
+      "31881311",
+      "36711093",
+      "32392276",
+      "30081240",
+      "28819146",
+      "32201713",
+      "18229962",
+      "31306707",
+      "27080260",
+      "27854243",
+      "32499559",
+      "38943248",
+      "34396024",
+      "38566033",
+      "32775538",
+      "38545836",
+      "36703474",
+      "36227467",
+      "34222258",
+      "34381596",
+      "35116738",
+      "37319348",
+      "34143622",
+      "36640113",
+      "37228640",
+      "33983381",
+      "34276791"
+    ],
+    "review": [
+      "33686854",
+      "32096047",
+      "37230179",
+      "32096048",
+      "31237369",
+      "32824618",
+      "34396024",
+      "34143622"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://scite.ai/reports/33686854",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.1c00208",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report molecular dynamics simulations using the UNRES force field with Gō-like potentials and NMR-derived distance restraints to characterize the binding mechanism between the intrinsically disordered p53 TAD2 and the p300 Taz2 domain. They observe a metastable intermediate state, propose a three-stage binding process, and use a machine-learning method (PathDetect-SOM) to identify two binding pathways.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, restraint implementation details, convergence criteria, pathway analysis outputs, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a biologically relevant question, namely how an intrinsically disordered region of p53 recognizes its binding partner Taz2. The methodological combination of UNRES with Gō-like biases and NMR-derived restraints is reasonable, and the proposed staged binding mechanism is coherent. However, the abstract alone provides insufficient quantitative evidence to evaluate the robustness of the simulations, the validity of the intermediate state, or the reliability of the pathway identification. The central claims are therefore not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein-protein recognition mechanisms, and the p53 pathway would find these results relevant. Computational biophysicists interested in enhanced sampling methods and coarse-grained simulations of binding processes may also be interested, particularly in the application of machine-learning tools to trajectory analysis.
+- **Major strengths** The study addresses a challenging and biologically important problem, namely the binding mechanism of a disordered protein domain. The use of a physics-based coarse-grained force field with targeted biases is a sensible approach to overcome timescale limitations. The identification of a metastable intermediate and the staged description of binding provide a testable mechanistic model.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "successful binding is achieved after a series of stages" and that a "metastable intermediate state" is observed.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative criteria for defining "successful binding," "metastable," or "intermediate state." No free energy estimates, population analyses, or statistical measures are reported. Without these, it is impossible to assess whether the observed states are thermodynamically meaningful or simulation artifacts.
+  - **Why it matters** The central mechanistic claims depend on the statistical significance and thermodynamic characterization of the observed states. If the intermediate is not metastable in a free energy sense, the proposed staged mechanism is not supported.
+  - **Resolution test** Provide free energy profiles or well-populated state analysis with error bars, and define clear structural or energetic criteria for each stage and for the intermediate state.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "distance restraints extracted from the NMR-resolved structures were imposed on intermolecular residue pairs to accelerate binding simulations."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The use of NMR-derived restraints to bias the simulation toward the bound state raises a concern about circularity. If the restraints are derived from the bound structure and are applied throughout the simulation, the observed "binding" may be largely enforced by the restraints rather than emerging from the physics of the system. The abstract does not clarify whether restraints were gradually released, how many residue pairs were restrained, or how the results depend on the restraint scheme.
+  - **Why it matters** If the binding pathway is heavily biased by restraints, the claimed mechanistic insight may not reflect the natural binding process. The distinction between restraint-driven and spontaneous binding is critical for the validity of the conclusions.
+  - **Resolution test** Describe the restraint protocol in detail, including the number of restraints, their force constants, and whether they were released or scaled during the simulation. Show that the observed pathway is robust to variations in the restraint scheme or that unrestrained simulations reproduce the same stages.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "machine-learning-based PathDetect-SOM was used to identify two binding pathways, the encounter complexes, and the intermediate states."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given about the input features, training procedure, or validation of the PathDetect-SOM analysis. It is unclear whether the identified pathways are statistically distinct, reproducible across independent simulations, or sensitive to the choice of analysis parameters.
+  - **Why it matters** The pathway identification is a key novel contribution. If the machine-learning analysis is not validated or its parameters are not justified, the identified pathways may be artifacts of the method rather than genuine features of the binding process.
+  - **Resolution test** Provide details of the PathDetect-SOM implementation, including feature selection, parameter choices, and validation against known states or independent trajectory analyses. Show that the identified pathways are reproducible and robust.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms such as "UNited RESidue (UNRES)" and "Gō-like potentials" without brief explanatory context, which may hinder readers unfamiliar with coarse-grained simulation methods.
+  - **Required correction** Add a brief parenthetical explanation of UNRES and Gō-like potentials, or rephrase to make the methodological choices accessible to a broader readership.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state how the proposed mechanism differs from or extends previous computational or experimental studies of p53 TAD2 binding.
+  - **Required correction** Add a sentence situating the findings in the context of prior work, highlighting the novel aspects of the proposed staged mechanism or the pathway identification.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "six structures with TAD2 placed at different positions around Taz2" were used as starting points, but no rationale is given for this choice or for the number of replicas.
+  - **Required correction** Briefly justify the choice of starting structures and the number of independent simulations, or state that convergence was assessed across replicas.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative state characterization, the potential circularity of the restraint scheme, and the unvalidated pathway analysis collectively prevent the central claims from being assessed.
+- **Assessment against Nature-style criteria** Originality: the combination of UNRES with Gō-like biases and machine-learning pathway analysis is somewhat novel, but the abstract does not demonstrate a clear advance over existing binding mechanism studies. Scientific importance: the p53-Taz2 system is biologically relevant, and a detailed binding mechanism for a disordered region would be valuable, but the abstract does not establish the significance of the specific findings. Interdisciplinary readership: the work may appeal to computational chemists and biophysicists, but the abstract is not framed to attract a broader biological audience. Technical soundness: not assessable from the abstract alone; the concerns above indicate that key technical details are missing. Readability for nonspecialists: the abstract is generally clear but uses specialized terminology without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the central claims regarding the intermediate state, the staged binding mechanism, and the identified pathways require substantial additional quantitative and methodological detail to be evaluated. A revised manuscript with full technical details and validation would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of a "metastable intermediate state" is unsupported without free energy or population data.
+- The claim of "successful binding" and the three-stage mechanism is unsupported without quantitative criteria or statistical analysis.
+- The claim that "two binding pathways" were identified is unsupported without details on the machine-learning method, its validation, and the statistical significance of the pathways.
+- The claim that the TAD2 helix "directs protein recognition" is a mechanistic inference that is not directly supported by the abstract's evidence.
+- The overall relevance and novelty of the findings relative to prior work cannot be assessed from the abstract alone.

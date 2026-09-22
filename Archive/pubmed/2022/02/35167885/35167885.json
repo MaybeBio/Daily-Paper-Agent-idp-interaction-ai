@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "35167885",
+    "doi": "10.1016/j.xphs.2022.02.003",
+    "title": "Exploring the Formation Mechanism of Coamorphous Andrographolide-Oxymatrine Based on Molecular Dynamics and Spectroscopy."
+  },
+  "content": {
+    "abstract": "Coamorphous drug delivery systems have shown great potential in improving the solubility and bioavailability of poorly water-soluble drugs. However, the coamorphous formation mechanism remains unclear. In this study, coamorphous andrographolide (AP) - oxymatrine (OMT) was successfully prepared by solvent evaporation and characterized by PXRD and DSC. The potential groups of intermolecular interactions in coamorphous binary systems were predicted by the molecular electrostatic potential (ESP) in the density functional theory (DFT) and the HOMO and LUMO in the molecular frontier orbitals, which had been confirmed by FTIR, FT-NIR, and Raman spectroscopy. Molecular dynamics (MD) was used to explore the mechanism of coamorphous formation. The results of the solvent-state radial distribution function (RDF) showed that the hydrogen bonds between AP and OMT molecules were irregular and intermittent in the solvent system of AP-OMT-methanol (MeOH) until MeOH was completely volatilized to form a stable coamorphous AP-OMT system, which has been preliminarily verified by solvent-state FT-NIR and solvent-state Raman spectroscopy. In addition, the solubility of coamorphous AP-OMT was significantly higher than that of crystalline AP. The results of intrinsic dissolution experiments showed that the intrinsic dissolution rate (IDR) of coamorphous AP-OMT was 2.5 times that of crystalline AP, although recrystallization occurred during dissolution. In conclusion, the results of the experimental solvent-state RDF, solvent-state FT-NIR, and solvent-state Raman spectroscopy can be used to better understand the coamorphous formation process and to guide the preparation of coamorphous AP-OMT.",
+    "keywords": [
+      "Andrographolide",
+      "Coamorphous",
+      "Mechanism",
+      "Molecular dynamics",
+      "Oxymatrine"
+    ],
+    "mesh_terms": [
+      "Alkaloids",
+      "Diterpenes",
+      "*Molecular Dynamics Simulation",
+      "Quinolizines",
+      "Solubility",
+      "Solvents",
+      "Spectroscopy, Fourier Transform Infrared",
+      "Matrines"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fang, Xiaoping",
+        "Hu, Yi",
+        "Huang, Zhuang",
+        "Han, Lintao",
+        "Li, Bin",
+        "Lu, Shan",
+        "Cao, Yan"
+      ],
+      "short_names": [
+        "Fang X",
+        "Hu Y",
+        "Huang Z",
+        "Han L",
+        "Li B",
+        "Lu S",
+        "Cao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China. Electronic address: lushan9805@163.com.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China. Electronic address: caoyan1999@hbtcm.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fang, Xiaoping",
+        "short_name": "Fang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yi",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Zhuang",
+        "short_name": "Huang Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China."
+        ]
+      },
+      {
+        "full_name": "Han, Lintao",
+        "short_name": "Han L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China."
+        ]
+      },
+      {
+        "full_name": "Li, Bin",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Shan",
+        "short_name": "Lu S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China. Electronic address: lushan9805@163.com."
+        ]
+      },
+      {
+        "full_name": "Cao, Yan",
+        "short_name": "Cao Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, China. Electronic address: caoyan1999@hbtcm.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of pharmaceutical sciences"
+    ],
+    "journal_abbrev": [
+      "J Pharm Sci"
+    ],
+    "pub_date": "2022 Jul",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/16 06:00",
+    "fetched_at": "2026-09-20 08:21:54"
+  },
+  "links": {
+    "cites": [
+      "42190520",
+      "42090989",
+      "41240430",
+      "40852262",
+      "40045016",
+      "39732994"
+    ],
+    "refs": [],
+    "similar": [
+      "35167885",
+      "33577826",
+      "36283631",
+      "39653294",
+      "32926628",
+      "34740050",
+      "40298094",
+      "31794225",
+      "35492562",
+      "38361428",
+      "21815614",
+      "24210065",
+      "28224393",
+      "39159855",
+      "32827676",
+      "23612357",
+      "40784665",
+      "33553927",
+      "41369264",
+      "39442766",
+      "30766775",
+      "39746580",
+      "33609724",
+      "41138891",
+      "36646287",
+      "39734059",
+      "40577621",
+      "31067482",
+      "31898765",
+      "39861740",
+      "34147517",
+      "34743960",
+      "39732994",
+      "37115657",
+      "36958612",
+      "30590119",
+      "39598856",
+      "38185339",
+      "38299571",
+      "36150469",
+      "24075980",
+      "20005937",
+      "39542122",
+      "39482918",
+      "40976375",
+      "33744448",
+      "19115110",
+      "21544720",
+      "29107615",
+      "37498232",
+      "39049477",
+      "40045016",
+      "41482103",
+      "28389275",
+      "23627137",
+      "39216557",
+      "28989014",
+      "30160964",
+      "36839951",
+      "40987378",
+      "36233346",
+      "30189645",
+      "37659720",
+      "31951865",
+      "22873131",
+      "25108049",
+      "31496325",
+      "37375729",
+      "24878386",
+      "28703594",
+      "38214691",
+      "37253085",
+      "28042494",
+      "22491164",
+      "26869434",
+      "19945828",
+      "26057950",
+      "35316068",
+      "28402147",
+      "28208662",
+      "35547669",
+      "36872239",
+      "37364773",
+      "17828444",
+      "38998535",
+      "17182231",
+      "36478061",
+      "35474407",
+      "28625724",
+      "32240805",
+      "35687125",
+      "30890364",
+      "26983455",
+      "24065588",
+      "36678825",
+      "36764418",
+      "38818946",
+      "31544585",
+      "41169145",
+      "30312906"
+    ],
+    "review": [
+      "35167885",
+      "39482918"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-3549(22)00066-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1744",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

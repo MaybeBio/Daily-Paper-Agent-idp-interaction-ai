@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38895377",
+  "title": "FusOn-pLM: A Fusion Oncoprotein-Specific Language Model via Focused Probabilistic Masking.",
+  "authors": "Vincoff, Sophia; Goel, Shrey; Kholina, Kseniia; Pulugurta, Rishab; Vure, Pranay; Chatterjee, Pranam",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-06-19",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出针对融合癌蛋白（本质为无序蛋白）微调ESM-2的蛋白语言模型FusOn-pLM，通过聚焦掩码策略优化表征并提升无序预测，虽涉及IDP对象和AI方法，但未直接研究PPI或互作机制建模，故综合评分为6。",
+  "abstract": "Fusion oncoproteins, a class of chimeric proteins arising from chromosomal translocations, drive and sustain various cancers, particularly those impacting children. Unfortunately, due to their intrinsically disordered nature, large size, and lack of well-defined, druggable pockets, they have been historically challenging to target therapeutically: neither small molecule-based methods nor structure-based approaches for binder design are strong options for this class of molecules. Recently, protein language models (pLMs) have demonstrated success at representing protein sequences with information-rich embeddings, enabling downstream design applications from sequence alone. However, no current pLM has been trained on fusion oncoprotein sequences and thus may not produce optimal representations for these proteins. In this work, we introduce FusOn-pLM, a novel pLM that fine-tunes the state-of-the-art ESM-2 model on fusion oncoprotein sequences. We specifically introduce a novel masked language modeling (MLM) strategy, employing a binding-site probability predictor to focus masking on key amino acid residues, thereby generating more optimal fusion oncoprotein-aware embeddings. Our model improves performance on both fusion oncoprotein-specific benchmarks and disorder prediction tasks in comparison to baseline ESM-2 representations, as well as manually-constructed biophysical embeddings, motivating downstream usage of FusOn-pLM embeddings for therapeutic design tasks targeting these fusions. We have made our model publicly available to the community at https://huggingface.co/ChatterjeeLab/FusOn-pLM.",
+  "abstract_zh": "融合癌蛋白（fusion oncoproteins）是一类由染色体易位产生的嵌合蛋白，驱动并维持多种癌症，尤其是影响儿童的癌症。不幸的是，由于其本质无序的特性、庞大的尺寸以及缺乏明确可药物化的口袋，这类分子在历史上一直难以进行靶向治疗：无论是基于小分子的方法还是基于结构的结合剂设计策略，都不是这类分子的强有力选择。近期，蛋白质语言模型（pLMs）在通过信息丰富的嵌入表示蛋白质序列方面展现出成功，使得仅从序列即可进行下游设计应用。然而，目前尚无pLM在融合癌蛋白序列上进行训练，因此可能无法为这些蛋白质生成最优表示。在本工作中，我们引入了FusOn-pLM，一种新颖的pLM，它在融合癌蛋白序列上对最先进的ESM-2模型进行微调。我们特别引入了一种新颖的掩码语言建模（MLM）策略，利用结合位点概率预测器将掩码集中在关键氨基酸残基上，从而生成更优化的融合癌蛋白感知嵌入。与基线ESM-2表示以及手动构建的生物物理嵌入相比，我们的模型在融合癌蛋白特异性基准测试和无序预测任务上均提升了性能，这促进了FusOn-pLM嵌入在针对这些融合蛋白的治疗设计任务中的下游应用。我们已将模型公开提供给社区，网址为https://huggingface.co/ChatterjeeLab/FusOn-pLM。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38895377/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38895377/",
+  "paper_page_path": "papers/pubmed/38895377/index.html"
+}

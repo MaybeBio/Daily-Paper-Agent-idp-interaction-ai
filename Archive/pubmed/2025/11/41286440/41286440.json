@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "41286440",
+    "doi": "10.1038/s41556-025-01806-7",
+    "title": "Hierarchical interactions between nucleolar and heterochromatin condensates are mediated by a dual-affinity protein."
+  },
+  "content": {
+    "abstract": "Nucleoli are surrounded by pericentromeric heterochromatin (PCH), reflecting a conserved spatial association between the two largest biomolecular condensates in eukaryotic nuclei. Nucleoli are the sites of ribosome synthesis, whereas the repeat-rich PCH is essential for chromosome segregation, genome stability and transcriptional silencing, yet the mechanisms for their co-assembly are unclear. Here we use high-resolution live imaging during Drosophila embryogenesis and reveal that de novo establishment of PCH-nucleolar associations is highly dynamic, as PCH transitions from extending along the nuclear edge to surrounding the nucleolus. Elimination of the nucleolus by removing the ribosomal RNA genes disrupted this process causing increased PCH compaction, followed by its reorganization into a toroidal structure. Furthermore, in embryos lacking ribosomal RNA genes, nucleolar proteins were redistributed into new bodies or 'neocondensates', including enrichment in the PCH toroidal hole. Combining these in vivo observations with molecular dynamics simulations based on multiphase wetting theory revealed that nucleolar-PCH associations can be mediated by a hierarchy of interaction strengths between PCH, nucleoli and proteins with dual affinities for both compartments. We validate this model by identifying such a protein, a DEAD-box RNA helicase called Pitchoune, and show that modulation of its affinity for either nucleolar or PCH components alters nucleolar-PCH organization. Together, this study unveils a dynamic programme for establishing nucleolar-PCH associations during animal development and demonstrates how interaction hierarchies and dual-affinity molecular linkers co-organize compositionally distinct condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Heterochromatin/metabolism/genetics",
+      "*Cell Nucleolus/metabolism/genetics",
+      "*Drosophila Proteins/metabolism/genetics",
+      "*Drosophila melanogaster/genetics/metabolism/embryology",
+      "*Nuclear Proteins/metabolism/genetics",
+      "*Biomolecular Condensates/metabolism/genetics",
+      "Molecular Dynamics Simulation",
+      "RNA, Ribosomal/genetics/metabolism",
+      "Embryo, Nonmammalian/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rajshekar, Srivarsha",
+        "Adame-Arana, Omar",
+        "Bajpai, Gaurav",
+        "Colmenares, Serafin U",
+        "Papoi, Hannah",
+        "Brennan, Lucy D",
+        "Tsukamoto, Shingo",
+        "Safran, Samuel",
+        "Karpen, Gary H"
+      ],
+      "short_names": [
+        "Rajshekar S",
+        "Adame-Arana O",
+        "Bajpai G",
+        "Colmenares SU",
+        "Papoi H",
+        "Brennan LD",
+        "Tsukamoto S",
+        "Safran S",
+        "Karpen GH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5224-5531",
+        "ORCID: 0000-0002-0798-1492",
+        "ORCID: 0000-0003-1534-0385"
+      ],
+      "affiliations": [
+        "Department of Molecular and Cell Biology, University of California, Berkeley, CA, USA.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovat, Israel.",
+        "Max Planck Institute for the Physics of Complex Systems, Dresden, Germany.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovat, Israel.",
+        "Department of Physics, Northeastern University, Boston, MA, USA.",
+        "Department of Molecular and Cell Biology, University of California, Berkeley, CA, USA.",
+        "Department of Molecular and Cell Biology, University of California, Berkeley, CA, USA.",
+        "Department of Molecular and Cell Biology, University of California, Berkeley, CA, USA.",
+        "Departments of Bioengineering and Mechanical Engineering, University of California, Berkeley, CA, USA.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovat, Israel.",
+        "Department of Molecular and Cell Biology, University of California, Berkeley, CA, USA. gkarpen@berkeley.edu.",
+        "Division of Biological Sciences and the Environment, Lawrence Berkeley National Laboratory, Berkeley, CA, USA. gkarpen@berkeley.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rajshekar, Srivarsha",
+        "short_name": "Rajshekar S",
+        "identifiers": [
+          "0000-0002-5224-5531"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Adame-Arana, Omar",
+        "short_name": "Adame-Arana O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovat, Israel.",
+          "Max Planck Institute for the Physics of Complex Systems, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Bajpai, Gaurav",
+        "short_name": "Bajpai G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovat, Israel.",
+          "Department of Physics, Northeastern University, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Colmenares, Serafin U",
+        "short_name": "Colmenares SU",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Papoi, Hannah",
+        "short_name": "Papoi H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Brennan, Lucy D",
+        "short_name": "Brennan LD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Tsukamoto, Shingo",
+        "short_name": "Tsukamoto S",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Bioengineering and Mechanical Engineering, University of California, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Safran, Samuel",
+        "short_name": "Safran S",
+        "identifiers": [
+          "0000-0002-0798-1492"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovat, Israel."
+        ]
+      },
+      {
+        "full_name": "Karpen, Gary H",
+        "short_name": "Karpen GH",
+        "identifiers": [
+          "0000-0003-1534-0385"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, CA, USA. gkarpen@berkeley.edu.",
+          "Division of Biological Sciences and the Environment, Lawrence Berkeley National Laboratory, Berkeley, CA, USA. gkarpen@berkeley.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature cell biology"
+    ],
+    "journal_abbrev": [
+      "Nat Cell Biol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/25 06:26",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [
+      "41876741",
+      "41756953"
+    ],
+    "refs": [
+      "41099702",
+      "40604277",
+      "38597606",
+      "38503281",
+      "38279227",
+      "37549295",
+      "37295429",
+      "37228178",
+      "36344372",
+      "35304483",
+      "34916288",
+      "34819511",
+      "34129784",
+      "33942717",
+      "33854237",
+      "33661100",
+      "33510441",
+      "33307247",
+      "33274328",
+      "32873929",
+      "32737322",
+      "32684431",
+      "32219510",
+      "32122935",
+      "32105612",
+      "31914400",
+      "31769409",
+      "31754043",
+      "31543422",
+      "31212844",
+      "30292539",
+      "30099028",
+      "30063880",
+      "30044650",
+      "29887377",
+      "29602697",
+      "28636604",
+      "28636597",
+      "28575119",
+      "28225081",
+      "28115706",
+      "28035241",
+      "27474442",
+      "27212236",
+      "26935600",
+      "26878336",
+      "26776729",
+      "26351690",
+      "25419960",
+      "25349213",
+      "25195504",
+      "24690547",
+      "23873938",
+      "23834025",
+      "23562326",
+      "23095683",
+      "22649076",
+      "21472955",
+      "21368180",
+      "21106648",
+      "19710426",
+      "17807987",
+      "14765118",
+      "11694589",
+      "10753776",
+      "10660299",
+      "9718368",
+      "9716523",
+      "8744570",
+      "6185516",
+      "5500970",
+      "3149250",
+      "2933102",
+      "1623516",
+      "1378397"
+    ],
+    "similar": [
+      "41286440",
+      "37808710",
+      "37841837",
+      "32203508",
+      "26776729",
+      "25349213",
+      "36533441",
+      "40675030",
+      "25794008",
+      "37683610",
+      "22242017",
+      "40604277",
+      "27150106",
+      "11381093",
+      "33854237",
+      "27614293",
+      "38382671",
+      "40223701",
+      "38831123",
+      "17466364",
+      "30311594",
+      "16158326",
+      "12839096",
+      "26505814",
+      "25323651",
+      "27477271",
+      "25916123",
+      "31913317",
+      "40366093",
+      "993274",
+      "21177347",
+      "23412656",
+      "29364875",
+      "22291607",
+      "37549295",
+      "34753899",
+      "27792779",
+      "17159999",
+      "40445759",
+      "20847228",
+      "31908012",
+      "41073403",
+      "25916852",
+      "15833274",
+      "15464853",
+      "20026667",
+      "40517275",
+      "29529563",
+      "15848394",
+      "32122935",
+      "17654824",
+      "37979585",
+      "40505636",
+      "28500793",
+      "10413677",
+      "12006611",
+      "40726293",
+      "16777843",
+      "25481757",
+      "25344531",
+      "21327072",
+      "39258545",
+      "39738032",
+      "31866201",
+      "36497131",
+      "21818412",
+      "40468084",
+      "32785674",
+      "17410544",
+      "33307247",
+      "14729462",
+      "40192507",
+      "39437264",
+      "28069438",
+      "36890225",
+      "27680669",
+      "32405004",
+      "18559082",
+      "22649076",
+      "26376167",
+      "33863925",
+      "20213139",
+      "34201772",
+      "36200829",
+      "40609276",
+      "21385875",
+      "21828100",
+      "40480227",
+      "18712681",
+      "38861757",
+      "35410715",
+      "26836305",
+      "28068183",
+      "39271704",
+      "25584861",
+      "21035573",
+      "39386460",
+      "18253863",
+      "15112326",
+      "562840"
+    ],
+    "review": [
+      "41286440",
+      "40675030",
+      "17466364",
+      "12839096",
+      "40366093",
+      "15464853",
+      "20026667",
+      "29529563",
+      "17654824",
+      "28500793",
+      "12006611",
+      "40726293",
+      "21818412",
+      "33307247",
+      "18712681",
+      "38861757"
+    ],
+    "pmc": [
+      "12717012"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=41286440",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41556-025-01806-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41286440/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://datadryad.org/discover?query=10.1038/s41556-025-01806-7",
+        "provider": "Dryad Digital Repository",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

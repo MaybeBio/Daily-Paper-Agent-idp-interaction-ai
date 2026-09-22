@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2022-nzszj-v2",
+  "title": "An Interpretable Machine Learning model for Selectivity of Small Molecules against Homologous Protein Family",
+  "authors": "Sarveswara Rao Vangala; Navneet Bung; Sowmya Ramaswamy Krishnan; Arijit Roy",
+  "journal": "ChemRxiv",
+  "published_date": "2022-01-24",
+  "window": {
+    "start": "2022-01-24",
+    "end": "2022-01-30"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用多任务深度学习预测小分子对同源蛋白家族的选择性，对象为小分子与折叠蛋白，不涉及无序蛋白/IDR/相分离，且无互作机制建模，仅选择性预测，与本课题关联弱。",
+  "abstract": "Motivation: The primary goal of drug design is to develop potent small molecules that can inhibit the target protein with high selectivity. In the early stage of drug discovery, various experimental and computational methods are used to measure the target-specificity of small molecules against the target protein of interest. The selectivity of the small molecule remains a challenge, especially when the target protein belongs to a homologous family, which can often lead to off-target side effects. Results: We have developed a multi-task deep learning model for predicting the selectivity of small molecules on the closely related homologs of the target protein. The multi-task model, which can learn from training data of the related tasks has been tested on the Janus kinase (JAK) and dopamine receptor family of proteins. To decipher the model decision on selectivity, the important fragments associated with each homolog protein were identified using SHapley Additive exPlanations (SHAP) method. The performance of the multi-task model was evaluated using various representation of small molecules such as fingerprints (ECFP4) and molecular graph representations. It was observed that the feature-based representation (ECFP4) with the XGBoost performed marginally better when compared to deep neural network models in most of the evaluation metrics. Both the models outperformed the graph-based models. The identification of important fragments associated with each proteins of the homolog family using SHAP method, explains the factors that governed the decision of the multi-task predictive model. The proposed method can be used post hit generation.",
+  "abstract_zh": "动机：药物设计的主要目标是开发能够高选择性抑制目标蛋白的强效小分子。在药物发现的早期阶段，使用各种实验和计算方法来测量小分子对目标蛋白的靶标特异性。小分子的选择性仍然是一个挑战，尤其是当目标蛋白属于同源家族时，这往往可能导致脱靶副作用。结果：我们开发了一种多任务深度学习模型，用于预测小分子对目标蛋白近缘同源物的选择性。该多任务模型能够从相关任务的训练数据中学习，并已在Janus激酶（JAK）和多巴胺受体家族蛋白上进行了测试。为了解读模型在选择性方面的决策，使用SHapley Additive exPlanations（SHAP）方法识别了与每个同源蛋白相关的重要片段。通过使用小分子的不同表示形式，如指纹（ECFP4）和分子图表示，评估了多任务模型的性能。观察到，在大多数评估指标中，基于特征的表示（ECFP4）结合XGBoost的性能略优于深度神经网络模型。两种模型均优于基于图的模型。使用SHAP方法识别同源家族中每个蛋白相关的重要片段，解释了支配多任务预测模型决策的因素。所提出的方法可用于命中生成后的阶段。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2022-nzszj-v2",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2022-nzszj-v2",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2022-nzszj-v2/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The abstract describes a database resource paper for the Protein Ensemble Database (PED), including its 2020 renewal, curation practices, and protocols for searching, interpreting, submitting, and providing feedback on conformational ensembles of intrinsically disordered proteins.
+- **Shared manuscript claim summary** The authors claim that PED is the major repository for conformational ensembles of IDPs, that it was significantly updated and upgraded in 2020 with a dedicated biocurator team, and that the paper provides detailed protocols for exploring PED via its web interface and API, using yeast Sic1 as a use case.
+- **Visible evidence base** Abstract text only; no figures, tables, methods sections, or protocol details are provided.
+- **Missing materials affecting confidence** Full manuscript, all protocol descriptions, figures, tables, validation report details, API documentation, and any quantitative assessment of database content or usability.
+
+## Reviewer
+- **Overall assessment** The abstract describes a timely and potentially useful resource paper for a community-relevant database. The 2020 renewal and the addition of a biocurator team are plausible improvements, and the Sic1 use case is a reasonable pedagogical choice. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the protocols, the completeness of the database update, or the accuracy of the described features. The claims are largely descriptive and cannot be independently verified from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, including experimentalists using SAXS, FRET, NMR, and MD simulations, as well as computational biologists developing or using conformational ensemble models. Database curators and bioinformatics tool developers may also find the API and submission protocols relevant.
+- **Major strengths** The abstract clearly identifies a significant community need, namely the curation and dissemination of IDP conformational ensembles. The emphasis on manual curation and validation reports addresses a known weakness in the field. The provision of both web-based and programmatic access is a practical strength.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that PED was "entirely renewed in 2020" and now has "a dedicated team of biocurators providing manually curated descriptions of the methods and conditions applied to generate the conformational ensembles and for checking consistency of the data."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no details on the nature of the renewal, the scope of the curation process, the criteria for consistency checking, or any metrics on the number of ensembles curated or the error rates detected. Without such information, the claim of a "significant update and upgrade" cannot be assessed.
+  - **Why it matters** The central value proposition of the paper is that PED has been improved in ways that enhance data reliability. If the curation process is not described with sufficient specificity, readers cannot judge whether the database is indeed more trustworthy than its 2014 predecessor.
+  - **Resolution test** The full manuscript should include a detailed description of the curation workflow, including specific validation checks, inter-curator agreement statistics, and examples of errors caught. The abstract should be revised to include at least one quantitative metric, such as the number of ensembles added or the proportion of entries that failed initial validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that the paper describes "how to efficiently search conformational ensembles deposited in PED by means of its web interface and API" and includes "Support Protocol 1: Programmatic access with the PED API."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the API endpoints, query parameters, response formats, or authentication requirements. It also does not indicate whether the API is versioned or stable. Without these details, the protocol cannot be reproduced by an independent user.
+  - **Why it matters** A key audience for this paper is computational researchers who will rely on the API for programmatic access. If the API documentation is incomplete or the protocol is not reproducible, the paper fails its stated purpose.
+  - **Resolution test** The full manuscript should include a complete API reference with example requests and responses, and the abstract should mention the API version and a stable base URL. The protocol should be tested by an independent user following only the provided instructions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of evidence
+  - **Claim pointer** The abstract claims that the paper presents "a detailed description on how to explore PED with its protein pages and experimental pages, and how to interpret entries of conformational ensembles."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the structure of the protein pages or experimental pages, nor does it explain how the validation report is generated or interpreted. The Sic1 use case is mentioned but not summarized.
+  - **Why it matters** The paper is positioned as a practical guide. If the page structures and interpretation steps are not clearly explained, users may struggle to apply the protocols to their own proteins of interest.
+  - **Resolution test** The full manuscript should include annotated screenshots or schematic diagrams of the protein and experimental pages, and the Sic1 use case should be described step by step with expected outcomes.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "occasionally collected from literature" is vague. It is unclear whether this refers to manual extraction from published papers or automated text mining.
+  - **Required correction** Specify the method of literature collection, for example "manually curated from published studies by the PED biocurator team."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Protocol list
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists four basic protocols and four support protocols but does not indicate the expected time or skill level required for each.
+  - **Required correction** Add a sentence in the abstract or a note in the full manuscript indicating the target audience and estimated time for each protocol.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Feedback protocol
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "Basic Protocol 4: Providing feedback in PED" but does not describe the feedback mechanism, such as whether it is via a web form, email, or issue tracker.
+  - **Required correction** Briefly describe the feedback channel in the abstract or ensure the full manuscript includes this detail in the protocol.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of database renewal and API accessibility cannot be verified or reproduced from the abstract alone. R1-M3 is non-blocking but should be addressed to improve the paper's utility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract does not claim a novel scientific finding but rather a resource update. The originality lies in the database improvements, which are not described in sufficient detail to assess novelty.
+  - Scientific importance: The topic is important for the IDP community, but the abstract does not provide evidence of the database's impact, such as usage statistics or citations.
+  - Interdisciplinary readership: The paper is likely to appeal to structural biologists, biophysicists, and computational biologists, but the abstract does not frame the work for a broader audience.
+  - Technical soundness: Not assessable from the abstract; the protocols and API details are missing.
+  - Readability for nonspecialists: The abstract is clear but assumes familiarity with IDP-specific techniques (SAXS, FRET, NMR, MD). A brief explanation of why conformational ensembles matter would improve accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a useful resource, but the full manuscript must be reviewed to verify the technical claims. I would be supportive if the full manuscript provides detailed, reproducible protocols and quantitative evidence of the database's improvements.
+
+## Risk / unsupported claims
+- The claim that PED is "the major repository" of IDP conformational ensembles is unsupported without comparative data against other databases.
+- The claim of an "entire renewal" in 2020 is unverifiable without a changelog or version history.
+- The claim of "manually curated descriptions" and "checking consistency" is unverifiable without a description of the curation process or quality metrics.
+- The utility of the API and the protocols cannot be assessed without the full manuscript.

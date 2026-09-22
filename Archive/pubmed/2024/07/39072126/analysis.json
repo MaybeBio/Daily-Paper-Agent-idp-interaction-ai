@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39072126",
+  "title": "IDRWalker: A Random Walk Based Tool for Generating Intrinsically Disordered Regions in Large Protein Complexes.",
+  "authors": "Chen, Guanglin; Zhang, Zhiyong",
+  "journal": "ACS omega",
+  "published_date": "2024-07-29",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 7,
+  "one_liner_zh": "开发基于自回避随机游走的IDRWalker工具，为大型蛋白复合物快速生成无序区域初始结构，服务于整合建模与后续模拟，虽未直接研究PPI机制，但为IDR在复合物中的结构建模提供了可迁移方法。",
+  "abstract": "Intrinsically disordered regions (IDRs), which may be functionally important, are common in proteins. However, the structures of IDRs are often missing due to their highly dynamic nature. In the study of IDRs, integrative modeling combining computational simulations and experimental data is a common approach, for which initial structures of the IDRs need to be built. However, applying this method to large protein complexes is challenging because existing structure generation tools are sometimes unsuitable for IDRs in large systems. To facilitate convenient and rapid structure generation of IDRs in large protein complexes, we developed a computational tool named IDRWalker based on self-avoiding random walks. Three protein complexes were used to illustrate the efficiency of the tool, and it was found that IDRs in more than 800 chains of the nuclear pore complex could be generated in minutes. These structures of large protein complexes with added IDRs can be further used to run computational simulations for integrative modeling.",
+  "abstract_zh": "intrinsically disordered regions (IDRs)（内在无序区域）在蛋白质中常见，可能具有重要功能。然而，由于IDRs的高度动态特性，其结构往往缺失。在研究IDRs时，结合计算模拟和实验数据的整合建模是一种常用方法，为此需要构建IDRs的初始结构。然而，将此方法应用于大型蛋白质复合物具有挑战性，因为现有结构生成工具有时不适用于大型系统中的IDRs。为便于在大型蛋白质复合物中快速便捷地生成IDRs结构，我们开发了一种基于自回避随机游走的计算工具，命名为IDRWalker。通过三个蛋白质复合物展示了该工具的效能，发现核孔复合物中超过800条链的IDRs可在几分钟内生成。这些添加了IDRs的大型蛋白质复合物结构可进一步用于运行计算模拟，以进行整合建模。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39072126/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39072126/",
+  "paper_page_path": "papers/pubmed/39072126/index.html"
+}

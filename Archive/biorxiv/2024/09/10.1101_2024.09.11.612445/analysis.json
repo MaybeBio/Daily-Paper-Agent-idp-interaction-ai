@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.09.11.612445",
+  "title": "A proteome-wide dependency map of protein interaction motifs",
+  "authors": "Ambjørn SM; Meeusen B; Kliche J; Wang J; Garvanska DH; Kruse T; Mendez BL; Mann M; Mailand N; Hertz EP; Davey NE; Nilsson J",
+  "journal": "bioRxiv",
+  "published_date": "2024-09-11",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过碱基编辑大规模突变人类蛋白质组中无序区域的短线性基序(SLiM)，绘制其功能依赖图谱并鉴定结合伙伴，虽以实验为主且未深入机制建模，但聚焦IDR介导的PPI且提供可迁移的互作功能筛选思路。",
+  "abstract": "Short linear motifs (SLiMs) are the most ubiquitous protein interaction modules within unstructured regions of the human proteome, yet their contribution to cellular homeostasis remains poorly understood. To systematically assess SLiM function, we applied base editing to mutate all reported and a set of computationally predicted SLiMs defined by SLiM-like evolutionary patterns. By screening 7,293 SLiM-containing regions with 80,473 mutations in HAP1 cells, we define a SLiM dependency map identifying 450 known and 264 predicted SLiMs required for normal cell proliferation. Mutational consequences were highly reproducible in RPE1 cells, with differences attributed to cell line-specific gene essentiality. We show that most essential predicted SLiMs belong to novel classes and identify binding partners for several of these, providing mechanistic insight into a disease-associated ANKRD17 mutation. Our study provides a proteome-wide resource on SLiM essentiality and uncovers numerous uncharacterized yet essential SLiMs.",
+  "abstract_zh": "短线性基序（SLiMs）是人类蛋白质组非结构化区域中最普遍的蛋白质相互作用模块，然而它们对细胞稳态的贡献仍知之甚少。为系统评估SLiM功能，我们应用碱基编辑技术，对所有已报道的及一组通过SLiM样进化模式计算预测的SLiMs进行了突变。通过在HAP1细胞中对7,293个含SLiM区域进行80,473次突变筛选，我们绘制了一个SLiM依赖性图谱，识别出450个已知和264个预测的SLiMs，这些对正常细胞增殖至关重要。突变后果在RPE1细胞中高度可重复，差异归因于细胞系特异性的基因必需性。我们表明，大多数必需的预测SLiMs属于新类别，并为其中几个识别了结合伙伴，从而为疾病相关的ANKRD17突变提供了机制性见解。我们的研究提供了关于SLiM必需性的蛋白质组-wide资源，并揭示了众多未表征但必需的SLiMs。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.09.11.612445",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.09.11.612445",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.09.11.612445/index.html"
+}

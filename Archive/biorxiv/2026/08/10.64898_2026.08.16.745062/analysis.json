@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.16.745062",
+  "title": "Interaction-Range Control of Synapsin Aggregation in a Coarse-Grained Model",
+  "authors": "Krott LB; Puccinelli T; Oliveira Wd; Gomes MEN; Lomba E; Piazza F; Bordin JR",
+  "journal": "bioRxiv",
+  "published_date": "2026-08-18",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究用粗粒化模型将CALVADOS 3残基级模拟与单粒子模型连接，通过伞形采样提取突触素（含IDR）分子间有效相互作用势，并用Langevin动力学揭示短程吸引与外层排斥尾对多尺度凝聚体组织的影响，直接建模无序蛋白介导的PPI与相分离机制，方法上结合物理模拟与多尺度建模，高度契合本课题。",
+  "abstract": "Synapsin-1 is a multidomain neuronal protein containing extensive intrinsically disordered regions and is a key component of synaptic-vesicle condensates. Direct residue-level simulation of the collective organization of thousands of synapsin molecules remains computationally demanding. Here, we develop a coarse-grained description that connects residue-level CALVADOS 3 simulations to a one-particle-per-protein model. A potential of mean force between two synapsin molecules is obtained by umbrella sampling and represented by an isotropic effective interaction containing a short-range attractive region and a weak outer repulsive contribution. We compare two treatments of this interaction that differ only in the retention of the outer tail. Langevin dynamics simulations of effective proteins show aggregation upon cooling and compression in both models, but with markedly different collective organization. The shorter-ranged model progressively coarsens toward a single dense domain, whereas retaining the outer repulsive contribution favors the persistence of multiple mesoscale aggregates. The two models also display distinct relationships between aggregate size and particle mobility at low temperature. These results show that weak features of an effective protein–protein interaction can have pronounced consequences for collective synapsin organization at mesoscopic scales. <h4>TOC Graphic</h4>",
+  "abstract_zh": "Synapsin-1是一种含有多结构域的神经元蛋白，包含广泛的内在无序区域，并且是突触囊泡凝聚体的关键组成部分。对数千个synapsin分子集体组织的直接残基级模拟在计算上仍然要求很高。在此，我们开发了一种粗粒化描述，将残基级CALVADOS 3模拟与单粒子每蛋白模型连接起来。通过伞形采样获得两个synapsin分子之间的平均力势，并由一个包含短程吸引区域和弱外部排斥贡献的各向同性有效相互作用表示。我们比较了这种相互作用的两种处理方式，它们仅在外部尾部的保留上有所不同。有效蛋白的Langevin动力学模拟显示，在两种模型中，冷却和压缩时均发生聚集，但集体组织显著不同。较短程模型逐渐粗化趋向于单一致密域，而保留外部排斥贡献则有利于多个介观尺度的聚集体持续存在。两种模型在低温下还表现出聚集体大小与粒子迁移率之间的不同关系。这些结果表明，有效蛋白-蛋白相互作用的弱特征在介观尺度上对synapsin的集体组织可能产生显著后果。<h4>TOC图形</h4>",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.16.745062",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.16.745062",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.16.745062/index.html"
+}

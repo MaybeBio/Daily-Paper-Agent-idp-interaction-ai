@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39146685",
+  "title": "Molecular investigation of soybean protein for improving the stability of quinoa (Chenopodium quinoa willd.) milk substitute.",
+  "authors": "Zhou, Sumei; Liu, Xinghao; Cui, Yajun; Chen, Siyi; Zhong, Fang; Lu, Jing; Kong, Chunli",
+  "journal": "Food chemistry",
+  "published_date": "2024-08-16",
+  "window": {
+    "start": "2024-08-12",
+    "end": "2024-08-18"
+  },
+  "score": 4,
+  "one_liner_zh": "研究大豆蛋白改善藜麦乳替代品稳定性，涉及分子对接模拟蛋白-酚酸互作，但对象为食品蛋白非IDP，且无AI/物理模拟深度，仅边缘相关。",
+  "abstract": "Soybean could greatly improve stability of quinoa milk substitute. However, the key compound and underlying mechanisms remained unclear. Here we showed that soybean protein was the key component for improving quinoa milk substitute stability but not oil or okara. Supplementary level of soybean protein at 0%, 2%, 4%, and 8% of quinoa (w/w) was optimized. Median level at 4% could effectively enhance physical stability, reduce particle size, narrow down particle size distribution, and decrease apparent viscosity of quinoa milk substitute. Microscopic observation further confirmed that soybean protein could prevent phase separation. Besides, soybean protein showed increased surface hydrophobicity. Molecular docking simulated that soybean protein but not quinoa protein, could provide over 10 anchoring points for the most abundant quinoa vanillic acid, through hydrogen bond and Van-der-Waals. These results contribute to improve stability of quinoa based milk substitute, and provide theoretical basis for the interaction of quinoa phenolics and soybean protein.",
+  "abstract_zh": "大豆可显著提升藜麦乳替代品的稳定性。然而，其关键化合物及潜在机制尚不明确。本研究表明，大豆蛋白是改善藜麦乳替代品稳定性的关键组分，而非油脂或豆渣。优化了大豆蛋白添加水平，分别为藜麦（w/w）的0%、2%、4%和8%。中等添加水平（4%）能有效增强物理稳定性、减小粒径、收窄粒径分布，并降低藜麦乳替代品的表观黏度。显微观察进一步证实，大豆蛋白可防止相分离 (phase separation)。此外，大豆蛋白表现出增强的表面疏水性。分子对接 (molecular docking) 模拟显示，大豆蛋白而非藜麦蛋白，可通过氢键和范德华力为最丰富的藜麦香草酸提供超过10个锚定点。这些结果有助于改善基于藜麦的乳替代品的稳定性，并为藜麦酚类化合物与大豆蛋白的相互作用提供理论依据。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39146685/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39146685/",
+  "paper_page_path": "papers/pubmed/39146685/index.html"
+}

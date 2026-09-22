@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37790377",
+  "title": "Glutamylation of Npm2 and Nap1 acidic disordered regions increases DNA charge mimicry to enhance chaperone efficiency.",
+  "authors": "Lorton, Benjamin M; Warren, Christopher; Ilyas, Humaira; Nandigrami, Prithviraj; Hegde, Subray; Cahill, Sean; Lehman, Stephanie M; Shabanowitz, Jeffrey; Hunt, Donald F; Fiser, Andras; Cowburn, David; Shechter, David",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-10-04",
+  "window": {
+    "start": "2023-10-02",
+    "end": "2023-10-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究组蛋白伴侣Npm2/Nap1酸性无序区域经谷氨酰化增强DNA静电模拟以提升伴侣效率，涉及无序区域介导的蛋白互作机制，结合生化、计算与生物物理方法，但未直接采用AI或物理模拟建模，故评7分。",
+  "abstract": "Histone chaperones-structurally diverse, non-catalytic proteins enriched with acidic intrinsically disordered regions (IDRs)-protect histones from spurious nucleic acid interactions and guide their deposition into and out of nucleosomes. Despite their conservation and ubiquity, the function of the chaperone acidic IDRs remains unclear. Here, we show that the Xenopus laevis Npm2 and Nap1 acidic IDRs are substrates for TTLL4 (Tubulin Tyrosine Ligase Like 4)-catalyzed post-translational glutamate-glutamylation. We demonstrate that, to bind, stabilize, and deposit histones into nucleosomes, chaperone acidic IDRs function as DNA mimetics. Our biochemical, computational, and biophysical studies reveal that glutamylation of these chaperone polyelectrolyte acidic stretches functions to enhance DNA electrostatic mimicry, promoting the binding and stabilization of H2A/H2B heterodimers and facilitating nucleosome assembly. This discovery provides insights into both the previously unclear function of the acidic IDRs and the regulatory role of post-translational modifications in chromatin dynamics.",
+  "abstract_zh": "组蛋白伴侣——结构多样、富含酸性 intrinsically disordered regions (IDRs) 的非催化蛋白——保护组蛋白免受非特异性核酸相互作用的影响，并引导其沉积入核小体或从核小体中释放。尽管这些伴侣蛋白具有保守性和普遍性，其酸性 IDRs 的功能仍不清楚。在此，我们表明非洲爪蟾 (Xenopus laevis) 的 Npm2 和 Nap1 酸性 IDRs 是 TTLL4 (Tubulin Tyrosine Ligase Like 4) 催化的翻译后谷氨酸-谷氨酰化 (glutamate-glutamylation) 的底物。我们证明，为了结合、稳定并将组蛋白沉积入核小体，伴侣蛋白的酸性 IDRs 发挥 DNA 模拟物 (DNA mimetics) 的功能。我们的生化、计算和生物物理研究表明，这些伴侣蛋白聚电解质酸性片段的谷氨酰化可增强 DNA 静电模拟，促进 H2A/H2B 异二聚体的结合和稳定，并促进核小体组装。这一发现为酸性 IDRs 先前不明确的功能以及翻译后修饰在染色质动力学中的调控作用提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37790377/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37790377/",
+  "paper_page_path": "papers/pubmed/37790377/index.html"
+}

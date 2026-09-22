@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.12.711447",
+  "title": "β-Barrel domain swapping in α-hemolysin enables enhanced single-molecule biomolecule sensing",
+  "authors": "Liu C; Reccia M; Kavalnyte E; Rocca BMd; Chinappi M; Luo J",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-13",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 4,
+  "one_liner_zh": "通过β-桶结构域交换工程化α-溶血素纳米孔，用于单分子传感，虽涉及无序蛋白α-突触核蛋白的检测，但核心是纳米孔工程而非无序蛋白介导的PPI机制建模，方法为实验电生理，无AI/物理模拟。",
+  "abstract": "Biological nanopores are powerful platforms for single-molecule analysis, yet rational strategies to tune their transport and sensing properties remain limited. Here we present a modular engineering approach based on β-barrel domain swapping to reprogram the function of the prototypical nanopore α-hemolysin. By replacing its native β-barrel with β-barrel domains from diverse pore-forming toxins, we generate a series of chimera nanopores that retain oligomerization capability while exhibiting reduced membrane-permeabilizing activity. Electrophysiological measurements show that selected chimera pores form stable, conductive channels with distinct ion transport properties. Notably, the αHL_NetB chimera displays stable conductance, enhanced electroosmotic flow, and improved performance in nucleic acid and protein sensing. Single-molecule experiments demonstrate that this chimera markedly slows the translocation of single-stranded DNA, enabling discrimination by length and sequence, improves the resolution of intrinsically disordered proteins such as α-synuclein, and enhances sensitivity to RNA conformational changes. Together, these results establish β-barrel domain swapping as a general and effective strategy for engineering biological nanopores with tailored single-molecule sensing capabilities.",
+  "abstract_zh": "生物纳米孔是单分子分析的有力平台，然而调控其传输和传感特性的理性策略仍然有限。在此，我们提出一种基于β-桶结构域交换的模块化工程方法，以重编程原型纳米孔α-溶血素的功能。通过将其天然β-桶替换为来自多种成孔毒素的β-桶结构域，我们生成了一系列嵌合纳米孔，这些孔保留了寡聚化能力，同时表现出降低的膜透化活性。电生理测量显示，选定的嵌合孔形成稳定、导电的通道，并具有独特的离子传输特性。值得注意的是，αHL_NetB嵌合体表现出稳定的电导、增强的电渗流，以及在核酸和蛋白质传感中的改进性能。单分子实验表明，该嵌合体显著减缓单链DNA的易位，从而实现按长度和序列的区分，提高对 intrinsically disordered proteins（如α-突触核蛋白）的分辨率，并增强对RNA构象变化的敏感性。综合这些结果，β-桶结构域交换被确立为一种通用且有效的策略，用于工程化具有定制单分子传感能力的生物纳米孔。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.12.711447",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.12.711447",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.12.711447/index.html"
+}

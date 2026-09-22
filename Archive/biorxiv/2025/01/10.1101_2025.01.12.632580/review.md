@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusions, methods, supplementary information list)
+- **Assessment boundary** Scientific validity, methodological soundness, evidence quality, and clarity of claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors present a multiscale computational pipeline to design a peptide inhibitor (KFQVT) against α-Synuclein monomeric, fibrillar, and liquid condensate forms. They report that the peptide induces conformational expansion of the monomer, reduces β-sheet propensity in the NAC region, destabilizes fibrillar structure, and lowers the apparent critical temperature of condensates.
+- **Visible evidence base** Figures 1–8, Table 1, supplementary figure S1, movie files (S1a–d, S2a–c), GitHub repository link
+- **Missing materials affecting confidence** Full figure data (numerical values, error bars, statistical tests) not visible in text; simulation convergence criteria not fully described; force field validation details for condensate systems not provided; experimental validation absent (acknowledged by authors)
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful computational pipeline for peptide inhibitor design against IDPs, with a reasonable multi-stage screening approach. However, several technical aspects require clarification and strengthening before the claims can be considered fully established. The central claims regarding conformational expansion, β-sheet reduction, and condensate destabilization are supported by simulation data, but the quantitative robustness, statistical treatment, and generalizability of the approach need further scrutiny.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery for neurodegenerative diseases, particularly those working on IDP targeting; biophysicists studying protein phase separation and aggregation; peptide therapeutic developers interested in rational design approaches for disordered targets.
+- **Major strengths** The multi-scale approach (docking → all-atom MD → coarse-grained MD) is well-conceived and addresses a genuine gap in IDP inhibitor design. The use of long timescale simulations (microsecond AAMD) is commendable. The inclusion of multiple target states (monomer, fibril, condensate) provides a comprehensive assessment. The public availability of code and trajectories is a significant strength for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the peptide KFQVT "disrupts the conformational landscape" of α-Synuclein based on enhanced SASA, Rg, and Ree in the bound state.
+  - **Evidence pointer** Section 2.4, Figure 4B–D
+  - **Concern** The conformational expansion is reported as a qualitative observation without quantitative statistical analysis. No error bars, standard deviations, or statistical significance tests are presented for the SASA, Rg, or Ree comparisons between APO and bound states. With only two independent simulations per system, the robustness of this observation is unclear.
+  - **Why it matters** The central mechanistic claim of the paper rests on this conformational difference. Without statistical validation, the reader cannot assess whether the observed expansion is a genuine effect of peptide binding or within the natural fluctuation range of the simulations.
+  - **Resolution test** Provide mean values with standard deviations across replicates, perform appropriate statistical tests (e.g., block averaging, bootstrap), and report effect sizes. If possible, increase replicate number or demonstrate convergence of the observed differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the peptide reduces β-sheet propensity in the NAC region (residues 70-75 and 85-90) based on DSSP analysis.
+  - **Evidence pointer** Section 2.5, Figure 5A
+  - **Concern** The DSSP analysis is presented as a probability comparison, but the methodology for computing these probabilities from the trajectories is not described. It is unclear whether these are per-residue time-averaged probabilities, ensemble-averaged over replicates, or derived from a single trajectory. The magnitude of the reduction and its statistical significance are not reported.
+  - **Why it matters** The NAC region is critical for α-Synuclein aggregation, and the claim that the peptide reduces β-sheet propensity in this region is a key mechanistic finding. Without clear methodology and statistical support, this claim cannot be properly evaluated.
+  - **Resolution test** Describe the exact procedure for computing secondary structure probabilities, report the numerical values with uncertainties, and perform statistical comparison between APO and bound states.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the peptide lowers the apparent critical temperature (Tc) of α-Synuclein condensates by up to 15 K.
+  - **Evidence pointer** Section 2.7, Figure 7
+  - **Concern** The method for estimating Tc from PBC density data is described only briefly in a cross-reference to a methods subsection. The fitting procedure, the choice of β as a free parameter, and the uncertainty in the Tc estimates are not presented. The claim of a 15 K reduction requires error bars on the Tc values to assess significance.
+  - **Why it matters** The condensate destabilization is a major claimed outcome with therapeutic implications. If the Tc reduction is within the fitting uncertainty, the claim is not supported.
+  - **Resolution test** Present the full fitting procedure with confidence intervals on Tc values, show the raw density-temperature data with fits overlaid, and report the uncertainty in the Tc difference between systems.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the designed peptide "could be taken forward as an aggregation-hindering molecule" and that the work "provides a multiscale simulation based prescription towards the futuristic development of therapeutic strategies."
+  - **Evidence pointer** Sections 2.6, 3
+  - **Concern** The manuscript lacks any experimental validation or comparison with experimentally known inhibitors beyond a single control peptide simulation. The claim of therapeutic potential is speculative without in vitro or in vivo evidence. While the authors acknowledge this limitation, the framing of the conclusions overstates the current evidence.
+  - **Why it matters** For a Nature-style audience, the translational significance of the work depends on the strength of the link between computational predictions and experimental reality. The current evidence base is entirely computational.
+  - **Resolution test** Either temper the conclusions to more explicitly frame the work as a computational proof-of-concept, or include additional validation such as comparison with known experimental binding affinities or aggregation inhibition data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "α-Synuclein is an intrinsically disordered protein (IDP) whose aggregation is implicated in Parkinson's disorder" without mentioning other synucleinopathies, which are listed in the introduction.
+  - **Required correction** Consider broadening to "Parkinson's disease and other synucleinopathies" for accuracy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section 4.4
+  - **Evidence pointer** Section 4.4, Table 1
+  - **Issue** The box dimensions for the fibril system are given as 88 Å × 88 Å × 88 Å, but the fibril is a pentamer with 60 residues per chain. The system size appears small for a fibril simulation, and the equilibration protocol is not described in detail.
+  - **Required correction** Provide details on the number of water molecules, ion concentration, and equilibration steps. Justify the box size relative to the fibril dimensions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.7
+  - **Evidence pointer** Section 2.7, Figure 7
+  - **Issue** The text states "we use the density data at different temperatures to estimate apparent critical temperature" but does not explain why the term "apparent" is used or what assumptions are made in the estimation.
+  - **Required correction** Clarify the meaning of "apparent" Tc and the assumptions underlying the estimation method.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section 4.3
+  - **Evidence pointer** Section 4.3
+  - **Issue** The methods state that "two independent simulations" were run for all systems, but the total simulation time per replicate and the starting configurations are not clearly specified for each system.
+  - **Required correction** Provide a table or detailed description of all simulation runs, including replicate numbers, starting structures, and total simulation times.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, Figure 2
+  - **Issue** The text mentions "the seven top peptides in each library" but the selection criteria for these seven peptides are not clearly defined. It is unclear whether this is based on docking scores, binding energies, or a combination.
+  - **Required correction** Clearly state the ranking criteria used to select the top peptides from each library.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validation of conformational changes), R1-M2 (methodology for secondary structure analysis), R1-M3 (uncertainty in Tc estimates)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of a multiscale pipeline to IDP peptide inhibitor design is not entirely novel, but the combination of approaches and the focus on multiple aggregation states has some originality.
+  - Scientific importance: Moderate. The work addresses a relevant problem (IDP targeting) but lacks experimental validation, limiting its immediate impact.
+  - Interdisciplinary readership: Moderate. The work bridges computational biophysics and drug discovery, but the technical focus may limit broader appeal.
+  - Technical soundness: Needs improvement. Several key claims lack statistical support and methodological detail.
+  - Readability for nonspecialists: Adequate. The manuscript is generally clear, though some sections assume familiarity with simulation techniques.
+- **Recommendation posture** Currently not established from the provided evidence. The computational pipeline is promising and the work has potential, but the key claims require stronger statistical validation and methodological transparency. The authors should address the major concerns regarding quantitative analysis and uncertainty quantification before the case for the peptide's inhibitory effects can be considered established.
+
+## Risk / unsupported claims
+- The claim that KFQVT "disrupts the conformational landscape" of α-Synuclein is not statistically validated (no error bars or significance tests).
+- The claim that the peptide reduces β-sheet propensity in the NAC region lacks methodological detail and statistical support.
+- The claim of a 15 K reduction in apparent critical temperature is not supported with uncertainty estimates.
+- The statement that the peptide "could be taken forward as an aggregation-hindering molecule" is speculative without experimental validation.
+- The comparison with the experimentally studied peptide (KDGIVAGVKA) is presented only in supplementary figure S1 without quantitative comparison metrics.
+- The generalizability of the pipeline to other IDPs is claimed but not demonstrated.

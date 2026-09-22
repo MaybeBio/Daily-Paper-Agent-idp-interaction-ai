@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusions, author contributions, conflicts of interest, data availability, acknowledgements, footnotes, references list)
+- **Assessment boundary** Scientific content and technical soundness of the claims as presented in the provided text. Figures, tables, supplementary information, and methods sections are referenced but not provided.
+- **Shared manuscript claim summary** The manuscript claims that Ambroxol (ABX) directly inhibits α-synuclein (αS)-lipid coaggregation by displacing αS from negatively charged membranes and inhibiting the primary nucleation step, specifically oligomer formation, in the aggregation pathway. This effect is reported to be specific to ABX, as CBE shows no effect, and is proposed as a secondary mechanism of action for ABX in Parkinson's disease and other synucleinopathies.
+- **Visible evidence base** Abstract, Introduction, Results and Discussion sections (Sections 2.1-2.4), Conclusions, Author contributions, Conflicts of interest, Data availability, Acknowledgements, Footnotes, References list. Figures 1-4 and Supplementary Figures S1-S4 are referenced but not visible.
+- **Missing materials affecting confidence** All figures (1-4), supplementary figures (S1-S4), the full Methods section (referred to as "Methods section in the Supplementary Information"), detailed kinetic model equations, raw experimental data, and the Zenodo data repository contents. These are critical for evaluating the validity of the kinetic modeling, the binding affinity calculations, and the experimental results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and potentially important question: whether Ambroxol, a drug already in clinical trials for GBA-associated Parkinson's disease, has a direct effect on α-synuclein-lipid coaggregation independent of its GCase chaperone function. The authors combine experimental aggregation assays, spectroscopic binding studies, and chemical kinetics modeling to propose a mechanism of action. The central claims are clear and the experimental design is logical. However, the provided text alone is insufficient to fully assess the technical soundness of the work. The kinetic modeling, which is central to the claim of inhibiting primary nucleation, is described only in qualitative terms in the main text. The binding affinity calculations, which yield a surprisingly high affinity (K_D = 1 nM) from CD data, are not fully detailed. The discrepancy between the K_D values obtained from CD (1 nM) and FIDA (0.8 µM) is noted but not explained. The manuscript would be significantly strengthened by a more detailed presentation of the methods and results, and by a discussion of the apparent inconsistencies in the quantitative binding data.
+- **Who would be interested in the results, and why** Researchers in the fields of Parkinson's disease and other synucleinopathies, protein misfolding and aggregation, lipid-protein interactions, and drug repurposing. The work is also relevant to those studying the mechanism of action of small molecule chaperones and the development of disease-modifying therapies for neurodegenerative disorders. The potential clinical relevance of ABX, already in trials, makes this of interest to a broader translational audience.
+- **Major strengths** The study addresses a clinically relevant question with a drug already in use. The combination of experimental approaches (ThT aggregation assays, CD spectroscopy, FIDA, EM) is commendable. The use of chemical kinetics modeling to dissect the mechanism of inhibition is a sophisticated approach that can provide deep mechanistic insight. The claim of specificity (ABX vs. CBE) is an important control. The study explores two pH conditions, adding physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of kinetic modeling
+  - **Claim pointer** The manuscript claims that ABX inhibits the primary nucleation step, specifically oligomer formation (k+ko), in the αS-DMPS coaggregation pathway, based on chemical kinetics modeling.
+  - **Evidence pointer** Section 2.4, Figures 4c, 4d, Supplementary Figure S4, "Methods section in the Supplementary Information" (location not provided)
+  - **Concern** The central mechanistic claim relies entirely on the kinetic model and its global fit to the experimental data. The main text provides only a qualitative description of the model ("two-step nucleation process, with oligomerization (with rate constant k o ) and conversion (with rate constant k c )"). The specific rate laws, the derivation of the integrated equations, the fitting procedure, and the criteria for model selection are not presented. The claim that only perturbing k+ko captures the data, while perturbing lipid concentration does not (Figure S4), is critical but cannot be evaluated without seeing the fits and the model equations. The statement that the extracted k+ko values follow a simple relationship with ABX concentration is also unverifiable without the equation and the fit.
+  - **Why it matters** Without a detailed presentation of the model and the fitting procedure, the conclusion that ABX specifically inhibits oligomer formation is not established. The model could be over-parameterized, or other perturbations might also fit the data. The scientific community needs to be able to assess the robustness and uniqueness of the model interpretation.
+  - **Resolution test** The authors must provide the full kinetic model equations, a detailed description of the global fitting procedure (including error analysis and parameter identifiability), and the fits to all datasets (including those in Figure S4) in the main text or a detailed Methods section. The relationship between k+ko and ABX concentration should be explicitly stated and the fit shown.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of binding affinity determination
+  - **Claim pointer** The manuscript claims that ABX displaces αS from DMPS membranes via a competitive binding mechanism, and reports a K_D of 1 nM (from CD) and 0.8 µM (from FIDA) for the ABX-DMPS interaction.
+  - **Evidence pointer** Section 2.2, Figures 2b, 2d, "equation 1 and 2" (location not provided)
+  - **Concern** The manuscript reports two vastly different K_D values for the same interaction (1 nM vs. 0.8 µM), a difference of three orders of magnitude. This discrepancy is not addressed or explained. The derivation of the K_D from the CD data is not shown, and the "known affinity and stoichiometry of αS to DMPS membranes" used in the competitive binding model are not cited or provided. The FIDA data, while providing a size estimate, also requires a model to extract a K_D, and this is not described.
+  - **Why it matters** The claim of competitive displacement is a key part of the proposed mechanism. A reliable quantitative measure of the ABX-lipid affinity is essential to support this. The large discrepancy between the two reported values undermines confidence in the quantitative conclusions and suggests a potential error in the analysis or interpretation of one or both datasets.
+  - **Resolution test** The authors must provide the full derivation of the competitive binding model, the source of the αS-DMPS affinity and stoichiometry parameters, and a detailed explanation for the discrepancy between the CD and FIDA results. The fitting of the models to the raw data (e.g., CD signal at 222 nm vs. ABX concentration, and R_h vs. ABX concentration) should be shown.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for the proposed mechanism
+  - **Claim pointer** The manuscript claims that ABX does not directly interact with αS, based on the lack of effect on lipid-independent aggregation and the CD signal of αS with ABX in the absence of DMPS.
+  - **Evidence pointer** Section 2.1, Section 2.2, Figure S1, Figure 2a
+  - **Concern** The conclusion that ABX does not interact with αS is inferred from a lack of effect on aggregation and a lack of change in the CD signal. While these are reasonable indirect tests, they are not definitive. The CD signal of an intrinsically disordered protein like αS is not highly sensitive to weak or transient interactions. The lack of effect on aggregation in the absence of lipids could also be due to the specific assay conditions. A more direct biophysical method, such as isothermal titration calorimetry (ITC), surface plasmon resonance (SPR), or NMR spectroscopy, would be needed to definitively rule out a direct αS-ABX interaction.
+  - **Why it matters** The proposed mechanism is that ABX acts by displacing αS from the membrane, not by binding to αS. If ABX also binds to αS, the mechanism could be more complex, and the interpretation of the kinetic data would change. The current evidence is suggestive but not conclusive.
+  - **Resolution test** The authors should either provide direct biophysical evidence for the lack of a direct αS-ABX interaction or temper their conclusion to state that the data are consistent with a mechanism where ABX primarily acts on the membrane, without definitively ruling out a weak direct interaction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of reporting
+  - **Affected element** Section 2.2, "equation 1 and 2"
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The equations used to calculate the fraction of bound αS are referenced but not shown in the text.
+  - **Required correction** The equations should be included in the main text or the Methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Section 2.1, Figure 1g
+  - **Evidence pointer** Section 2.1, Figure 1g
+  - **Issue** The authors state that structures seen in Figure 1g at pH 5.5 with ABX are "likely to be aggregated membranes clustering together." This is speculative.
+  - **Required correction** This statement should be clearly labeled as a hypothesis, or further characterization (e.g., staining for protein vs. lipid) should be provided to support it.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability of findings
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions
+  - **Issue** The study uses only DMPS membranes as a model system. The authors generalize their findings to "αS-lipid coaggregation" and suggest relevance to synucleinopathies. While DMPS is a relevant lipid, the interaction of αS with other physiologically relevant lipids (e.g., gangliosides, other phospholipids) may differ.
+  - **Required correction** The authors should acknowledge this limitation and discuss the potential relevance of their findings to other lipid systems.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 2.2, Figure 2d
+  - **Evidence pointer** Section 2.2, Figure 2d
+  - **Issue** The text refers to "spikes in the curves" in the Taylorgrams (Figure 2c) but does not explain their origin or significance.
+  - **Required correction** A brief explanation of the spikes should be provided in the text or figure legend.
+
+## Risk / unsupported claims
+- The claim that ABX specifically inhibits the primary nucleation step (oligomer formation) is unsupported without the full kinetic model and fitting details.
+- The quantitative K_D values for the ABX-DMPS interaction (1 nM and 0.8 µM) are unsupported and appear inconsistent.
+- The claim that ABX does not directly interact with αS is weakly supported by indirect evidence.
+- The claim that the effect is specific to ABX (vs. CBE) is supported by the text but the data is not visible.
+- The claim that the findings may have relevance for other synucleinopathies is a reasonable extrapolation but is not directly supported by the data presented.
+- The statement that the "decrease in plateau fluorescence... indicates that the yield of coaggregates decreases" is an assumption that relies on the correlation between ThT fluorescence and aggregate mass, which is referenced but not demonstrated in the provided text.

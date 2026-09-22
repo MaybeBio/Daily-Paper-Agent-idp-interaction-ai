@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, funding, author contributions, competing interests, data availability, acknowledgments)
+- **Assessment boundary** Scientific content and technical claims as presented in the provided text. Supplementary figures and methods are referenced but not provided in full.
+- **Shared manuscript claim summary** The authors report in situ FLIM-FRET measurements of NUP98 FG-domain conformations within functional NPCs in non-fixed mammalian cells, using site-specific genetic code expansion labeling. They report a scaling exponent of v = 0.56 ± 0.05, indicating expanded ("good-solvent") conformations inside the NPC, contrasting with collapsed conformations in vitro (v = 0.29 ± 0.05). Coarse-grained MD simulations parameterized against in vitro condensate data initially produced collapsed surface condensates inconsistent with barrier function; adjusting interaction strength to near-critical values reproduced the experimental FRET distances and yielded a dynamic polymer network filling the central channel.
+- **Visible evidence base** Main text figures referenced: Fig. 1A-B, Fig. 2A-G, Fig. 3, Fig. 4A-B. Supplementary figures referenced: Fig. S1, S4A, S5, S6, S7A-B, S8, S9, S13A-D. Supplementary movies referenced: S1-S4. Supplementary text referenced for methods and fitting details.
+- **Missing materials affecting confidence** Supplementary figures, supplementary text (methods, fitting procedures, model details), full experimental protocols, raw FLIM data, simulation parameters, and validation statistics are not provided. The manuscript is a preprint and has not undergone peer review.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious approach to a long-standing problem in NPC biology: determining the conformational state of FG-Nucleoporins within the functional permeability barrier. The combination of genetic code expansion, FLIM-FRET, and coarse-grained modeling is innovative and the central finding, that NUP98 adopts expanded conformations in situ under "good-solvent" conditions, directly challenges prevailing models based on in vitro measurements. The work is potentially significant, but the strength of the conclusions depends critically on details in the supplementary materials that were not available for assessment. The polymer scaling analysis, the control experiments excluding inter-molecular FRET, and the parameterization of the coarse-grained model are all central to the claims and require careful scrutiny. The manuscript is well-written and the logic is clear, but several technical aspects need clarification and additional validation before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in nuclear transport and NPC biology, biophysicists studying intrinsically disordered proteins, and computational biologists working on polymer models of cellular structures. The methodological advance in site-specific labeling of IDPs in situ will also interest cell biologists and chemical biologists developing tools for live-cell structural biology.
+- **Major strengths** 1) The methodological innovation of combining genetic code expansion with FLIM-FRET to probe IDP conformations in a native cellular environment is significant and broadly applicable. 2) The direct comparison between in vitro and in situ conformational states provides a clear and important message about the limitations of solution measurements. 3) The integration of experimental FRET data with coarse-grained simulations, including the finding that in vitro parameterization fails and near-critical conditions are required, is a thoughtful and rigorous approach. 4) The manuscript is clearly written and the logical flow from experimental design to conclusions is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim to have measured distance distributions for eighteen NUP98 chain segments and extracted a scaling exponent v = 0.56 ± 0.05 from fitting lifetime decay curves with a Gaussian chain model.
+  - **Evidence pointer** Results section "FLIM-FRET measurements of NUP98 FG-domain in the NPC", Fig. 2F-G, Fig. 3, Fig. S7A-B, supplementary text
+  - **Concern** The extraction of a scaling exponent from FRET data requires a model-dependent conversion of FRET efficiencies to distances, and the Gaussian chain model is a significant assumption. The manuscript states that "more sophisticated models exist, at the cost of having to use more fitting parameters," but does not justify why the Gaussian chain model is appropriate for NUP98, which contains multiple FG-repeat motifs and may not behave as a simple homopolymer. The uncertainty in the fitted exponent (±0.05) is reported, but the systematic error arising from model choice is not discussed. Additionally, the fitting procedure, including how the distance distribution is related to the observed lifetime decays, is only described in the supplementary text, which was not available for review.
+  - **Why it matters** The central conclusion of the paper, that the FG-domain is in a "good-solvent" regime in situ, rests entirely on the value of the scaling exponent. If the model choice or fitting procedure introduces systematic bias, the conclusion could be incorrect. The distinction between v = 0.56 and v = 0.5 (theta conditions) is small, and the uncertainty in the measurement must be rigorously established.
+  - **Resolution test** Provide the full fitting procedure, including the likelihood function, priors, and error propagation. Show that the fitted exponent is robust to the choice of polymer model (e.g., worm-like chain, self-avoiding walk) and to the treatment of dye linker lengths and orientations. Report the goodness-of-fit for each of the eighteen constructs and demonstrate that the model captures the data adequately.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that inter-molecular FRET is negligible, based on a control experiment where single-Amber-mutated NUP98 labeled with a donor/acceptor mixture showed no change in donor lifetime after acceptor photobleaching.
+  - **Evidence pointer** Results section "FLIM-FRET measurements of NUP98 FG-domain in the NPC", Fig. 2B, 2D, Fig. S6
+  - **Concern** The control experiment addresses inter-molecular FRET between two labeled NUP98 molecules, but the manuscript does not address the possibility of FRET between the labeled NUP98 and other endogenous proteins or fluorescent species in the crowded NPC environment. The selection of cells based on acceptor intensity per pixel below a threshold is described, but the threshold value and the fraction of cells excluded are not reported. Furthermore, the manuscript does not discuss whether the ectopically expressed NUP98 could form dimers or higher-order oligomers, which would create a local high concentration of dyes and potentially lead to inter-molecular FRET even at low overall expression levels.
+  - **Why it matters** If unaccounted inter-molecular FRET or FRET to other species contributes to the measured lifetime decreases, the extracted distances would be systematically underestimated, leading to an overestimation of the scaling exponent and a false "good-solvent" conclusion.
+  - **Resolution test** Provide the threshold criteria for cell selection and the distribution of acceptor intensities. Perform a control with a NUP98 construct where the two labeling sites are on separate molecules that cannot interact (e.g., co-expression of two single-labeled constructs with different fluorophores). Alternatively, perform a titration experiment where the donor-acceptor ratio is varied and show that the FRET efficiency is independent of acceptor concentration.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the coarse-grained MD simulations, with a slightly adjusted interaction strength, reproduce the experimental FRET distances and reveal a dynamic polymer network filling the central channel.
+  - **Evidence pointer** Results section "FG-NUP motions in NPC central channel revealed by coarse-grained modeling", Fig. 4A-B, Fig. S13A-D, supplementary text
+  - **Concern** The parameterization of the coarse-grained model is described as matching the phase behavior of in vitro NUP98 FG-condensates, but the specific values of the interaction strength before and after adjustment are not given in the main text (they appear as blank spaces in the provided text). The adjustment from the in vitro parameterization to the in situ condition is described as "slight," but the physical justification for this adjustment is not provided. The manuscript states that the optimal interaction strength "nearly coincides with the critical strength where condensation sets in," but the proximity to criticality and the associated uncertainties are not quantified. The simulation methodology, including the number of NPCs simulated, the simulation time, and the equilibration protocol, is only described in the supplementary text.
+  - **Why it matters** The claim that the FG-domains form a dynamic polymer network at near-critical conditions is a strong statement about the physical state of the barrier. If the parameterization is not robust, or if the adjustment is arbitrary, the simulation results may not be meaningful. The proximity to criticality is a key finding, but it needs to be demonstrated with appropriate error analysis and sensitivity testing.
+  - **Resolution test** Provide the numerical values of the interaction strengths and the critical interaction strength. Show that the simulation results are robust to small variations in the interaction strength and to the choice of the coarse-grained model parameters. Report the equilibration and production times, and show that the system has reached steady state. Provide a phase diagram or a systematic scan of interaction strengths to demonstrate that the near-critical regime is indeed where the experimental data are best reproduced.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their findings reconcile conflicting models of nuclear transport by showing that the FG-domains form a dynamic polymer network under "good-solvent" conditions.
+  - **Evidence pointer** Discussion section
+  - **Concern** The manuscript does not explicitly discuss how the "good-solvent" expanded conformation reconciles the two main competing models of nuclear transport: the "selective phase" model, which posits a gel-like barrier, and the "virtual gate" model, which posits an entropic barrier. The authors mention that the bulk condensate is an incomplete approximation, but they do not articulate how their near-critical polymer network differs from or unifies these models. The functional implications for transport selectivity and speed are stated but not developed in detail.
+  - **Why it matters** The broader significance of the work depends on its ability to resolve a long-standing debate. If the authors do not clearly connect their findings to the existing models, the impact of the work may be diminished.
+  - **Resolution test** Add a paragraph in the Discussion that explicitly maps the near-critical polymer network onto the predictions of the selective phase and virtual gate models, and explain how the new picture resolves the apparent contradictions between them.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction assumes familiarity with the FG-NUP nomenclature and the NPC structure. A brief explanation of what "FG" refers to (phenylalanine-glycine repeats) and the approximate dimensions of the NPC central channel would help nonspecialist readers.
+  - **Required correction** Add one or two sentences defining FG-repeats and the size of the central channel.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "In-cell site-specific labeling of NUP98 FG-domain in the functional state"
+  - **Evidence pointer** Fig. 1A, Fig. S1
+  - **Issue** The description of the synthetic orthogonal translation (OT) film-like organelles is brief and the reader is referred to a previous publication. The efficiency of incorporation and the fraction of NUP98 molecules that are labeled are not reported.
+  - **Required correction** Provide the labeling efficiency and the fraction of doubly labeled NUP98 molecules, or state that this information is in the supplementary text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "FLIM-FRET measurements of NUP98 FG-domain in the NPC"
+  - **Evidence pointer** Fig. 2F-G, Fig. S7B
+  - **Issue** The phasor plot analysis is mentioned but not explained. Nonspecialist readers may not understand what a phasor plot is or how it is used to extract lifetimes.
+  - **Required correction** Add a brief explanation of phasor analysis in the main text or a footnote.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Chain dimensions extracted from the polymer scaling law"
+  - **Evidence pointer** Fig. 3
+  - **Issue** The scaling law equation is mentioned but not written out in the main text. The values of v for the in vitro and in situ cases are given, but the uncertainty on the in vitro value is not reported.
+  - **Required correction** Write out the scaling law equation and report the uncertainty on the in vitro scaling exponent.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion, first paragraph
+  - **Evidence pointer** Discussion
+  - **Issue** The term "good-solvent" is used repeatedly but the polymer physics concept may not be familiar to all readers.
+  - **Required correction** Add a brief explanation of the Flory solvent model in the Discussion or in a box.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "FG-NUP motions in NPC central channel revealed by coarse-grained modeling"
+  - **Evidence pointer** Fig. 4A-B
+  - **Issue** The manuscript states that the inner-ring FG-NUPs "fluctuated extensively" but does not provide quantitative measures of these fluctuations, such as root-mean-square displacements or correlation times.
+  - **Required correction** Provide quantitative measures of the dynamics, or state that these are in the supplementary text.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses the term "good-solvent" without explanation, which may be opaque to readers outside polymer physics.
+  - **Required correction** Add a brief parenthetical explanation, such as "expanded, as in a good solvent for the polymer chain."
+- **Technical failings that need to be addressed before the case is established** 1) The model-dependent extraction of the scaling exponent requires full details of the fitting procedure and a demonstration of robustness to model choice. 2) The control for inter-molecular FRET is insufficient; additional controls are needed. 3) The coarse-grained model parameterization and the adjustment to near-critical conditions need to be fully documented, including numerical values and sensitivity analysis. 4) The labeling efficiency and the fraction of doubly labeled NUP98 molecules need to be reported.
+- **Assessment against Nature-style criteria** Originality: High. The combination of genetic code expansion with FLIM-FRET for in situ IDP conformational analysis is novel and has broad applicability. Scientific importance: High. Resolving the conformational state of FG-NUPs in the functional NPC addresses a central question in cell biology. Interdisciplinary readership: Moderate to high. The work bridges cell biology, biophysics, and computational modeling, but the polymer physics terminology may limit accessibility. Technical soundness: Currently not fully assessable. The core claims depend on details in the supplementary materials and on model assumptions that are not fully justified in the main text. Readability for nonspecialists: Good overall, but some concepts (e.g., "good-solvent," phasor plots) need more explanation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central finding is potentially important and the methodology is innovative, but the strength of the conclusions depends on a rigorous demonstration that the model-dependent analyses are robust and that the controls are sufficient. The authors should provide the full supplementary materials and address the concerns raised above.
+
+## Risk / unsupported claims
+- The claim that the FG-domain is in a "good-solvent" regime in situ (v = 0.56 ± 0.05) is not fully supported without details of the fitting procedure and model robustness.
+- The claim that inter-molecular FRET is negligible is not fully supported by the control experiments described.
+- The claim that the coarse-grained model with near-critical interaction strength reproduces the experimental data is not fully assessable without the numerical values of the interaction parameters and the sensitivity analysis.
+- The claim that the bulk condensate is an incomplete approximation of the permeability barrier is supported by the simulation results, but the functional implications are not fully developed.
+- The claim that the tools are "generally applicable" to other IDPs is plausible but not demonstrated in this manuscript.

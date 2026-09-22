@@ -1,0 +1,207 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.09.653111",
+  "title": "De novo design of peptides localizing at the interface of biomolecular condensates",
+  "doi": "10.1101/2025.05.09.653111",
+  "abstract": "The interface of biomolecular condensates has been shown to play an important role in processes such as protein aggregation and biochemical reactions. Targeted modulation of these interfaces could, therefore, serve as an effective strategy for engineering condensates and modifying aberrant behaviors. However, the molecular grammar driving the preferential localization of molecules at condensate interfaces remains largely unknown. In this study, we developed a computational pipeline that combines highthroughput coarse-grained simulations, machine learning, and mixed-integer linear programming to design peptides that selectively partition at the interfaces of specific condensate targets. Using this workflow, we designed and synthesized peptides that localize at the interface of three distinct condensates formed by different intrinsically disordered protein regions (IDRs). These peptides exhibit surfactant-like architectures, with one tail incorporated into the condensate and the other excluded from the dense phase. In all cases, the tail entering the condensates is enriched in aromatic residues, while the sequence of the excluded tail varies among the IDRs. For hnRNPA1- and LAF1-IDRs, the excluded tail is enriched in lysines and matches the net charge of the condensate-forming protein, promoting electrostatic repulsion. In the case of DDX4-IDR, which exhibits the lowest charge density, the excluded tail mainly consists of uncharged valine residues, which exhibit negligible interactions with the scaffold protein. These results highlight the importance of the net charge of the scaffold as a key physicochemical parameter for designing peptides with preferential interfacial localization. Overall, our pipeline represents a promising strategy for the rational design of interface-localizing peptides and the identification of the corresponding molecular grammar.",
+  "authors": [
+    "Schneider TN",
+    "Gil-Garcia M",
+    "Bühler MA",
+    "Santos LF",
+    "Faltova L",
+    "Guillén-Gosálbez G",
+    "Arosio P"
+  ],
+  "published_date": "2025-05-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.09.653111",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.09.653111.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1018305",
+    "raw_record": {
+      "id": "PPR1018305",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1018305"
+        ]
+      },
+      "doi": "10.1101/2025.05.09.653111",
+      "title": "De novo design of peptides localizing at the interface of biomolecular condensates",
+      "authorString": "Schneider TN, Gil-Garcia M, Bühler MA, Santos LF, Faltova L, Guillén-Gosálbez G, Arosio P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Schneider TN",
+            "lastName": "Schneider",
+            "firstName": "Timo",
+            "initials": "TN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8989-1406"
+            }
+          },
+          {
+            "fullName": "Gil-Garcia M",
+            "lastName": "Gil-Garcia",
+            "firstName": "Marcos",
+            "initials": "M"
+          },
+          {
+            "fullName": "Bühler MA",
+            "lastName": "Bühler",
+            "firstName": "Marco",
+            "initials": "MA"
+          },
+          {
+            "fullName": "Santos LF",
+            "lastName": "Santos",
+            "firstName": "Lucas",
+            "initials": "LF"
+          },
+          {
+            "fullName": "Faltova L",
+            "lastName": "Faltova",
+            "firstName": "Lenka",
+            "initials": "L"
+          },
+          {
+            "fullName": "Guillén-Gosálbez G",
+            "lastName": "Guillén-Gosálbez",
+            "firstName": "Gonzalo",
+            "initials": "G"
+          },
+          {
+            "fullName": "Arosio P",
+            "lastName": "Arosio",
+            "firstName": "Paolo",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2740-1205"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2740-1205"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8989-1406"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The interface of biomolecular condensates has been shown to play an important role in processes such as protein aggregation and biochemical reactions. Targeted modulation of these interfaces could, therefore, serve as an effective strategy for engineering condensates and modifying aberrant behaviors. However, the molecular grammar driving the preferential localization of molecules at condensate interfaces remains largely unknown. In this study, we developed a computational pipeline that combines highthroughput coarse-grained simulations, machine learning, and mixed-integer linear programming to design peptides that selectively partition at the interfaces of specific condensate targets. Using this workflow, we designed and synthesized peptides that localize at the interface of three distinct condensates formed by different intrinsically disordered protein regions (IDRs). These peptides exhibit surfactant-like architectures, with one tail incorporated into the condensate and the other excluded from the dense phase. In all cases, the tail entering the condensates is enriched in aromatic residues, while the sequence of the excluded tail varies among the IDRs. For hnRNPA1- and LAF1-IDRs, the excluded tail is enriched in lysines and matches the net charge of the condensate-forming protein, promoting electrostatic repulsion. In the case of DDX4-IDR, which exhibits the lowest charge density, the excluded tail mainly consists of uncharged valine residues, which exhibit negligible interactions with the scaffold protein. These results highlight the importance of the net charge of the scaffold as a key physicochemical parameter for designing peptides with preferential interfacial localization. Overall, our pipeline represents a promising strategy for the rational design of interface-localizing peptides and the identification of the corresponding molecular grammar.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Horizon 2020 research and innovation programme",
+            "grantId": "101002094",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/11/2025.05.09.653111.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.09.653111"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1018305"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1018305&type=FILE&fileName=EMS205443-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42143038",
+            "reference": "Nature communications. 2026 May;:",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS205443",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-05-13",
+      "firstPublicationDate": "2025-05-11",
+      "firstIndexDate": "2025-05-13",
+      "fullTextReceivedDate": "2025-05-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40449653",
+  "title": "Pathogenic mechanism of the K141E mutation in HSPB8: Insights from smFRET and simulations.",
+  "authors": "Montepietra, Daniele; Bjarnason, Sveinn; Oskarsson, Kristinn R; Cecconi, Ciro; Carra, Serena; Heidarsson, Petur O; Brancolini, Giorgia",
+  "journal": "Cell stress & chaperones",
+  "published_date": "2025-06-01",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合smFRET与全原子MD模拟研究HSPB8无序蛋白K141E突变对构象系综和盐桥网络的影响，虽未直接涉及PPI或相分离，但无序蛋白构象动态的物理模拟与最大熵重加权方法对IDR介导互作机制建模有可迁移启发。",
+  "abstract": "Pathogenic mutations can have a large impact on the conformational ensemble of intrinsically disordered proteins, but revealing those effects and their physiological relevance can be challenging. We used large-scale all-atom explicit-solvent molecular dynamics simulations and single-molecule Forster resonance energy transfer (smFRET) experiments to investigate the conformational dynamics of the chaperone protein HSPB8 and its K141E mutant that is linked to motor neuropathies. Our findings revealed that the HSPB8-K141E mutant exhibits increased conformational flexibility compared to the wild-type protein, particularly at high physiological ionic strengths, leading to a more extended conformational ensemble. Bayesian maximum entropy reweighting was applied to improve agreement between simulated and experimental smFRET data, further emphasizing the mutation's influence on protein dynamics. While both WT and K141E showed similar primary smFRET peaks after reweighting, the mutant displayed a higher occurrence of a secondary peak at lower FRET, indicative of an unfolded state. Additionally, differences in salt bridge networks between the variants highlighted the role of ionic interactions in modulating protein structure and suggest a possible connection between rapid dynamics and conformational stability. These results suggest that the pathogenicity of the K141E mutation may be, at least in part, due to the enhanced conformational variability that negatively influences the protein function. The study underscores the significance of ionic strength in the structural dynamics of intrinsically disordered proteins like HSPB8, providing insights into the functional implications of these changes and how stability changes can manifest across different timescales.",
+  "abstract_zh": "致病性突变可对 intrinsically disordered proteins（固有无序蛋白）的构象集合产生重大影响，但揭示这些效应及其生理相关性可能具有挑战性。我们利用大规模全原子显式溶剂分子动力学 (molecular dynamics) 模拟和单分子福斯特共振能量转移 (smFRET) 实验，研究了伴侣蛋白HSPB8及其与运动神经病变相关的K141E突变体的构象动力学。我们的发现表明，与野生型蛋白相比，HSPB8-K141E突变体表现出更高的构象灵活性，尤其是在高生理离子强度下，导致更扩展的构象集合。应用贝叶斯最大熵重加权 (Bayesian maximum entropy reweighting) 以改善模拟与实验smFRET数据之间的一致性，进一步强调了突变对蛋白动力学的影响。虽然重加权后WT和K141E均显示出相似的初级smFRET峰，但突变体在较低FRET处表现出更高的次级峰出现频率，指示解折叠状态。此外，变体间盐桥网络的差异突显了离子相互作用在调节蛋白结构中的作用，并提示快速动力学与构象稳定性之间可能存在联系。这些结果表明，K141E突变的致病性可能至少部分归因于增强的构象变异性，这对蛋白功能产生负面影响。本研究强调了离子强度在HSPB8等固有无序蛋白结构动力学中的重要性，为这些变化的功能意义以及稳定性变化如何在不同时间尺度上显现提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40449653/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40449653/",
+  "paper_page_path": "papers/pubmed/40449653/index.html"
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report coarse-grained bead-spring simulations of 33 intrinsically disordered proteins (IDPs) using two hydropathy scales (HPS1, HPS2) with screened Coulomb interactions. They identify optimal interaction parameters epsilon = 0.1 and 0.2 kcal/mol for HPS1 and HPS2, respectively, by comparison with experimental data. They then characterize IDP conformations via polymer scaling relations, a Wilson charge index (W), a skewness index (S), and salt-dependent radius of gyration variations.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or experimental comparison data provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology details, force field parameters, experimental datasets used for fitting, statistical analysis, figures, tables, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful systematic simulation study of IDP conformational properties across 33 proteins, with an attempt to connect sequence features to polymer physics descriptors. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the fitting procedure, the statistical robustness of the scaling exponent claim, or the novelty of the proposed indices. The link between salt-dependent behavior and "origin of life" is asserted without evidentiary support in the abstract.
+- **Who would be interested in the results, and why** Computational biophysicists and polymer physicists studying intrinsically disordered proteins would be interested in the systematic comparison of hydropathy scales and the proposed sequence-based descriptors. Researchers developing coarse-grained models for IDPs may find the optimal interaction parameters useful as reference values. The salt-dependence results could interest those studying IDP behavior in cellular environments.
+- **Major strengths** The study addresses a relevant question in IDP biophysics, namely how sequence composition and charge distribution shape conformational ensembles. The use of two independent hydropathy scales with experimental benchmarking is a reasonable approach. The introduction of multiple complementary descriptors (scaling, charge index, skewness, salt dependence) suggests a systematic characterization strategy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that optimal interaction parameters epsilon = 0.1 and 0.2 kcal/mol for HPS1 and HPS2 are identified by comparison with existing experimental data.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that optimal parameters were determined by comparison with experimental data, but provides no information on which experimental observables were used, how many data points were compared, what fitting procedure was applied, or what the quality of the fit was. Without this information, the optimality of the parameters cannot be assessed.
+  - **Why it matters** The entire subsequent analysis depends on these fitted parameters. If the fitting procedure is underdetermined, overfitted, or based on inconsistent experimental data, all derived conclusions about scaling exponents and fine structures would be compromised.
+  - **Resolution test** Provide details of the experimental datasets used, the fitting metric, the number of independent data points, and a quantitative measure of fit quality (e.g., chi-squared values, residuals). Show that the optimal parameters are robust to reasonable variations in the fitting protocol.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical robustness
+  - **Claim pointer** The claim that IDPs are broadly characterized with a Flory exponent of nu approximately 0.56, with conformations interpolating between Gaussian and self-avoiding random walk chains.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a single Flory exponent value of approximately 0.56 for 33 IDPs, but provides no information on the distribution of exponents across individual proteins, the statistical uncertainty of the estimate, or how the "broadly characterized" statement is justified. The interpolation claim between Gaussian (nu = 0.5) and self-avoiding (nu = 0.588) behavior requires a quantitative comparison with both limits.
+  - **Why it matters** A central conclusion of the study is that IDPs exhibit a specific scaling exponent. Without error bars, per-protein variation, or statistical testing against the two limiting cases, the claim is not quantitatively established.
+  - **Resolution test** Report the mean, standard deviation, and range of per-protein Flory exponents. Provide confidence intervals for the ensemble estimate. Perform statistical tests comparing the observed distribution to nu = 0.5 and nu = 0.588.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty and significance
+  - **Claim pointer** The claim that the Wilson charge index (W) and skewness index (S) capture essential features of charge interactions and finer shape variations of gyration radius distributions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract introduces two new indices but does not explain their mathematical definitions, their relationship to existing descriptors (e.g., charge asymmetry parameter, kappa), or what new information they provide beyond established sequence descriptors. The claim that they "capture essential features" is not supported by any quantitative demonstration in the abstract.
+  - **Why it matters** If these indices are redundant with existing descriptors, their introduction does not constitute a meaningful advance. If they are novel, their definitions and validation must be clearly presented to allow assessment of their utility.
+  - **Resolution test** Provide explicit mathematical definitions of W and S. Show that they are not trivially correlated with existing descriptors. Demonstrate their predictive or discriminative power on the 33 IDPs with appropriate statistical measures.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim support
+  - **Claim pointer** The claim that variation of ⟨Rg⟩ as a function of salt concentration provides information relevant for the origin of life.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts a connection between salt-dependent IDP conformations and the origin of life without any explanation of the mechanistic link or citation of relevant context. This claim appears speculative and is not supported by any evidence presented in the abstract.
+  - **Why it matters** This assertion extends the significance of the work beyond its demonstrated scope. If the connection is not rigorously argued in the full manuscript, it may overstate the implications of the results.
+  - **Resolution test** Provide a clear mechanistic argument or literature context connecting salt-dependent IDP compaction to prebiotic chemistry or early cellular environments. Alternatively, remove or substantially temper this claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of scaled quantities
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The scaled end-to-end distance ⟨RN2⟩/(2Llp) and scaled transverse fluctuations l̃ perpendicular2=⟨l perpendicular2⟩/L are introduced without defining L and lp. The notation l̃ perpendicular2 is awkward and potentially confusing.
+  - **Required correction** Define all symbols explicitly. Use consistent and clear notation for scaled quantities.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "coarse-grained bead-spring models" but does not specify the number of beads per residue, the treatment of chain connectivity, or the equilibration and sampling protocols.
+  - **Required correction** Provide key simulation parameters in the abstract or indicate where they are described in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Flory exponent value
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The value "nu approximately 0.56" is reported without uncertainty. Given that the difference between 0.56 and the Gaussian limit 0.5 is modest, the precision of this estimate matters for the interpretation.
+  - **Required correction** Report the exponent with a confidence interval or standard error.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Fine structures"
+  - **Evidence pointer** Title; location not provided
+  - **Issue** The title uses "fine structures," a term with established meaning in spectroscopy and physics. Its application to IDP conformational properties is unconventional and may confuse readers.
+  - **Required correction** Clarify the intended meaning of "fine structures" in the IDP context, or consider an alternative term such as "sequence-specific conformational features."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (parameter fitting validation), R1-M2 (statistical robustness of scaling exponent). These are blocking because the central quantitative claims of the study depend on them.
+- **Assessment against Nature-style criteria** Originality: The combination of two hydropathy scales with multiple conformational descriptors is moderately original, though the individual components are established. Scientific importance: The work addresses a relevant question in IDP biophysics, but the significance of the specific findings is not clearly established from the abstract. Interdisciplinary readership: The work is primarily of interest to computational biophysicists and polymer physicists; broader appeal is not evident. Technical soundness: Cannot be adequately assessed from the abstract; the fitting procedure and statistical analysis require full manuscript evaluation. Readability for nonspecialists: The abstract assumes familiarity with polymer physics and coarse-grained simulation terminology, limiting accessibility.
+
+## Risk / unsupported claims
+- The optimal interaction parameters (epsilon = 0.1 and 0.2 kcal/mol) are presented as established but the fitting procedure and comparison data are not described in the abstract.
+- The Flory exponent of nu approximately 0.56 is presented as a broad characterization of 33 IDPs without statistical uncertainty or per-protein variation.
+- The Wilson charge index (W) and skewness index (S) are claimed to capture essential features, but their definitions and validation are not provided.
+- The connection between salt-dependent ⟨Rg⟩ variation and the origin of life is asserted without mechanistic explanation or supporting evidence.
+- The claim that IDP conformations "interpolate between Gaussian and self-avoiding random walk chains" requires quantitative comparison with both limits, which is not presented.

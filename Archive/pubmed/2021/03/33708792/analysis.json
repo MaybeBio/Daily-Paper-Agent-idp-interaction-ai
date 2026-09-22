@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33708792",
+  "title": "Albumin Alters the Conformational Ensemble of Amyloid-beta by Promiscuous Interactions: Implications for Amyloid Inhibition.",
+  "authors": "Xie, Huisi; Guo, Cong",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2021-03-13",
+  "window": {
+    "start": "2021-03-08",
+    "end": "2021-03-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用REST2增强采样MD模拟研究HSA与Aβ42单体（IDP）的混杂互作如何改变其构象系综并抑制β-折叠形成，直接涉及无序蛋白-蛋白互作机制建模，方法可迁移至IDR-PPI研究。",
+  "abstract": "Human serum albumin (HSA) is a key endogenous inhibitor of amyloid-beta (Alphabeta) aggregation. In vitro HSA inhibits Abeta fibrillization and targets multiple species along the aggregation pathway including monomers, oligomers, and protofibrils. Amyloid inhibition by HSA has both pathological implications and therapeutic potential, but the underlying molecular mechanism remains elusive. As a first step towards addressing this complex question, we studied the interactions of an Abeta42 monomer with HSA by molecular dynamics simulations. To adequately sample the conformational space, we adapted the replica exchange with solute tempering (REST2) method to selectively heat the Abeta42 peptide in the absence and presence of HSA. Abeta42 binds to multiple sites on HSA with a preference to domain III and adopts various conformations that all differ from the free state. The beta-sheet abundances of H14-E22 and A30-M33 regions are significantly reduced by HSA, so are the beta-sheet lengths. HSA shifts the conformational ensemble towards more disordered states and alters the beta-sheet association patterns. In particular, the frequent association of Q15-V24 and N27-V36 regions into beta-hairpin which is critical for aggregation is impeded. HSA primarily interacts with the latter beta-region and the N-terminal charged residues. They form promiscuous interactions characterized by salt bridges at the edge of the peptide-protein interface and hydrophobic cores at the center. Consequently, intrapeptide interactions crucial for beta-sheet formation are disrupted. Our work builds the bridge between the modification of Abeta conformational ensemble and amyloid inhibition by HSA. It also illustrates the potential of the REST2 method in studying interactions between intrinsically disordered peptides and globular proteins.",
+  "abstract_zh": "人血清白蛋白（HSA）是淀粉样蛋白-β（Aβ）聚集的关键内源性抑制剂。体外实验表明，HSA抑制Aβ纤维化，并靶向聚集途径中的多种物种，包括单体、寡聚体和原纤维。HSA对淀粉样蛋白的抑制既具有病理学意义，也具备治疗潜力，但其潜在分子机制仍不明确。作为解决这一复杂问题的第一步，我们通过分子动力学模拟研究了Aβ42单体与HSA的相互作用。为充分采样构象空间，我们采用了副本交换溶质升温（REST2）方法，在有无HSA的情况下选择性加热Aβ42肽。Aβ42与HSA上的多个位点结合，偏好于结构域III，并采用多种构象，这些构象均不同于自由状态。H14-E22和A30-M33区域的β-折叠丰度显著降低，β-折叠长度也相应减少。HSA将构象集合转向更无序的状态，并改变β-折叠关联模式。特别是，Q15-V24和N27-V36区域频繁关联形成β-发夹结构（这对聚集至关重要）受到阻碍。HSA主要与后一个β-区域及N端带电残基相互作用，形成以肽-蛋白界面边缘的盐桥和中心疏水核心为特征的混杂相互作用。因此，对β-折叠形成至关重要的肽内相互作用被破坏。我们的工作建立了Aβ构象集合修饰与HSA淀粉样蛋白抑制之间的桥梁，并展示了REST2方法在研究 intrinsically disordered peptides 与球状蛋白相互作用方面的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33708792/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33708792/",
+  "paper_page_path": "papers/pubmed/33708792/index.html"
+}

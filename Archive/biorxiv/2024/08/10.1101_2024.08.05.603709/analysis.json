@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.08.05.603709",
+  "title": "Structures of human PTP1B variants reveal allosteric sites to target for weight loss therapy",
+  "authors": "Perdikari A; Woods VA; Ebrahim A; Lawler K; Bounds R; Singh NI; Mehlman T(; Riley BT; Sharma S; Morris JW; Keogh JM; Henning E; Smith M; Farooqi IS; Keedy DA",
+  "journal": "bioRxiv",
+  "published_date": "2024-08-07",
+  "window": {
+    "start": "2024-08-05",
+    "end": "2024-08-11"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过人类遗传学与结构生物学表征PTP1B变体的别构位点，对象为折叠酶蛋白，不涉及无序蛋白/IDR或PPI机制建模，且方法为实验结构生物学而非AI/物理模拟，与本课题关联微弱。",
+  "abstract": "Protein Tyrosine Phosphatase 1B (PTP1B) is a negative regulator of leptin signaling whose disruption protects against diet-induced obesity in mice. We investigated whether structural characterization of human PTP1B variant proteins might reveal allosteric sites to target for weight loss therapy. To do so, we selected 12 rare variants for functional characterization from exomes from 997 people with persistent thinness and 200,000 people from UK Biobank. Seven of 12 variants impaired PTP1B function by increasing leptin-stimulated STAT3 phosphorylation in human cells. Focusing on the variants in and near the ordered catalytic domain, we ascribed structural mechanism to their functional effects using in vitro enzyme activity assays, room-temperature X-ray crystallography, and local hydrogen-deuterium exchange mass spectrometry (HDX-MS). By combining these complementary structural biology experiments for multiple variants, we characterize an inherent allosteric network in PTP1B that differs from previously reported allosteric inhibitor-driven mechanisms mediated by catalytic loop motions. The most functionally impactful variant sites map to highly ligandable surface sites, suggesting untapped opportunities for allosteric drug design. Overall, these studies can inform the targeted design of allosteric PTP1B inhibitors for the treatment of obesity. <h4>Significance</h4> Obesity is a growing public health concern worldwide. The human enzyme PTP1B is a validated obesity drug target, but to date, effective PTP1B inhibitors have not been developed. Allosteric drugs, which target parts of a protein distant from the active site, offer advantages for specific inhibition — but finding promising allosteric sites that bind ligands and convey allosteric signals remains challenging. To address this knowledge gap, we used human genetic studies in thin people to identify amino acid variants that diminish PTP1B function. We then used complementary structural biology methods to show that the variants exploit distinct allosteric wiring within PTP1B that includes ligand-enriched binding sites. This work demonstrates how a unique combination of genetics and biophysics can unveil promising allosteric sites in challenging drug target proteins.",
+  "abstract_zh": "蛋白酪氨酸磷酸酶1B（PTP1B）是瘦素信号传导的负调控因子，其功能缺失可保护小鼠免受饮食诱导的肥胖。我们研究了人类PTP1B变异蛋白的结构表征是否可能揭示可用于减肥治疗的别构位点。为此，我们从997名持续偏瘦个体和英国生物银行（UK Biobank）20万人的外显子组中，选取了12个罕见变异进行功能表征。其中12个变异中的7个通过增加人类细胞中瘦素刺激的STAT3磷酸化而损害PTP1B功能。聚焦于有序催化结构域内及其附近的变异，我们利用体外酶活性测定、室温X射线晶体学以及局部氢-氘交换质谱（HDX-MS）将其功能效应归因于结构机制。通过结合这些互补的结构生物学实验对多个变异进行分析，我们表征了PTP1B中固有的别构网络，该网络不同于先前报道的由催化环运动介导的别构抑制剂驱动机制。功能影响最大的变异位点映射到高度可配体化的表面位点，提示别构药物设计存在尚未开发的机遇。总体而言，这些研究可为靶向设计用于治疗肥胖的别构PTP1B抑制剂提供信息。<h4>意义</h4> 肥胖是全球日益增长的公共卫生问题。人类酶PTP1B是已验证的肥胖药物靶点，但迄今为止，有效的PTP1B抑制剂尚未开发成功。别构药物靶向蛋白质中远离活性位点的部分，为特异性抑制提供优势——但寻找能够结合配体并传递别构信号的有前景别构位点仍具挑战性。为解决这一知识空白，我们利用偏瘦人群的人类遗传学研究，识别出削弱PTP1B功能的氨基酸变异。随后，我们采用互补的结构生物学方法，表明这些变异利用了PTP1B内包含配体富集结合位点的独特别构布线。这项工作展示了遗传学与生物物理学的独特结合如何能够揭示具有挑战性的药物靶蛋白中的有前景别构位点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.08.05.603709",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.08.05.603709",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.08.05.603709/index.html"
+}

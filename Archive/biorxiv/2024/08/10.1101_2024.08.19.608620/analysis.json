@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.08.19.608620",
+  "title": "Prediction of Adeno-Associated Virus Fitness with a Protein Language Based Machine Learning Model",
+  "authors": "Jason Wu; Yu Qiu; Eugenia Lyashenko; Christian Mueller; Sourav R Choudhury",
+  "journal": "bioRxiv",
+  "published_date": "2024-08-19",
+  "window": {
+    "start": "2024-08-19",
+    "end": "2024-08-25"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用蛋白语言模型预测AAV衣壳突变体的适应性，对象为病毒衣壳蛋白而非无序蛋白/IDR，且预测的是适应性而非PPI互作机制，方法虽含AI但与本课题的IDP介导互作机制建模关联较弱。",
+  "abstract": "Adeno-associated viral (AAV)-based therapeutics have the potential to transform the lives of patients by delivering one-time treatments for a variety of diseases. However, a critical challenge to their widespread adoption and distribution is the high cost of goods (CoGS). Reducing manufacturing costs by developing AAV capsids with improved yield, or fitness, is key to making gene therapies more affordable. AAV fitness is largely determined by the amino acid sequence of the capsid, however, engineered AAVs are rarely optimized for manufacturability. Here, we report a state-of-the art machine learning (ML) model that predicts the fitness of AAV capsid mutants based on the amino acid sequence of the capsid monomer. By combining a protein language model (PLM) and classical ML techniques, our model achieved a significantly high prediction accuracy (Pearson correlation = 0.818) for capsid fitness. Importantly, tests on completely independent datasets showed robustness and generalizability of our model, even for multi-mutant AAV capsids. Our accurate ML-based model can be used as a surrogate for laborious in vitro experiments, thus saving time and resources, and can be deployed to increase fitness of clinical AAV capsids to make gene therapies economically viable for patients.",
+  "abstract_zh": "基于腺相关病毒（AAV）的疗法通过提供一次性治疗多种疾病的手段，有望改变患者的生活。然而，其广泛采用和分发面临的一个关键挑战是高昂的商品成本（CoGS）。通过开发具有更高产量或适应性的AAV衣壳来降低制造成本，是使基因治疗更加可负担的关键。AAV的适应性主要由衣壳的氨基酸序列决定，然而，工程化改造的AAV很少针对可制造性进行优化。在此，我们报告了一种最先进的机器学习（ML）模型，该模型基于衣壳单体的氨基酸序列预测AAV衣壳突变体的适应性。通过结合蛋白质语言模型（PLM）和经典机器学习技术，我们的模型在衣壳适应性预测方面达到了显著的高准确性（Pearson相关系数 = 0.818）。重要的是，在完全独立的数据集上的测试显示了我们模型的稳健性和泛化能力，即使对于多突变AAV衣壳也是如此。我们基于ML的精确模型可作为繁琐的体外实验的替代方案，从而节省时间和资源，并可部署用于提高临床AAV衣壳的适应性，使基因治疗在经济上对患者可行。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.08.19.608620",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.08.19.608620",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.08.19.608620/index.html"
+}

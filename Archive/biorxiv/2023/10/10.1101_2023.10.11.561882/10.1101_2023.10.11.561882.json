@@ -1,0 +1,179 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.11.561882",
+  "title": "Dynamic localization of the chromosomal passenger complex is controlled by the orphan kinesins KIN-A and KIN-B in the kinetoplastid parasite Trypanosoma brucei",
+  "doi": "10.1101/2023.10.11.561882",
+  "abstract": "The chromosomal passenger complex (CPC) is an important regulator of cell division, which shows dynamic subcellular localization throughout mitosis, including kinetochores and the spindle midzone. In traditional model eukaryotes such as yeasts and humans, the CPC consists of the catalytic subunit Aurora B kinase, its activator INCENP, and the localization module proteins Borealin and Survivin. Intriguingly, Aurora B and INCENP as well as their localization pattern are conserved in kinetoplastids, an evolutionarily divergent group of eukaryotes that possess a unique set of kinetochore proteins and lack homologs of Borealin or Survivin. It is not understood how the kinetoplastid CPC assembles or how it is targeted to its subcellular destinations during the cell cycle. Here, we identify two orphan kinesins, KIN-A and KIN-B, as bona fide CPC proteins in Trypanosoma brucei , the causative agent of African sleeping sickness. By employing biochemical, structural, and cell biological approaches, we demonstrate that KIN-A and KIN-B serve as the scaffold for the assembly of the remaining CPC subunits. Kinetochore localization of the CPC depends on the KKT7 – KKT8 complex pathway, with the C-terminal unstructured tail of KIN-A serving as a key interaction partner for the KKT8 complex. Our data therefore show that, unlike other eukaryotes that take advantage of histone modifications for centromere recruitment, trypanosomes rely on kinetochore proteins to recruit the CPC onto kinetochores. Furthermore, the ATPase activity of KIN-A promotes chromosome alignment in prometaphase and CPC translocation to the central spindle upon anaphase onset. Thus, KIN-A constitutes a unique ‘two-in-one’ CPC localization module in complex with KIN-B, which directs the CPC to kinetochores (from S phase until metaphase) via its C-terminal tail, and to the central spindle (in anaphase) via its N-terminal kinesin motor domain. Our findings highlight the evolutionary diversity of CPC proteins and raise the possibility that kinesins may have served as the original transport vehicles for Aurora B kinases in early eukaryotes.",
+  "authors": [
+    "Ballmer D",
+    "Akiyoshi B"
+  ],
+  "published_date": "2023-10-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.11.561882",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.11.561882.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR740314",
+    "raw_record": {
+      "id": "PPR740314",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR740314"
+        ]
+      },
+      "doi": "10.1101/2023.10.11.561882",
+      "title": "Dynamic localization of the chromosomal passenger complex is controlled by the orphan kinesins KIN-A and KIN-B in the kinetoplastid parasite  <i>Trypanosoma brucei</i>",
+      "authorString": "Ballmer D, Akiyoshi B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ballmer D",
+            "lastName": "Ballmer",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1966-0960"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Oxford, South Parks Road, Oxford, OX1 3QU, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Akiyoshi B",
+            "lastName": "Akiyoshi",
+            "firstName": "Bungo",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6010-394X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Oxford, South Parks Road, Oxford, OX1 3QU, United Kingdom"
+                },
+                {
+                  "affiliation": "The Wellcome Centre for Cell Biology, Institute of Cell Biology, School of Biological Sciences, Edinburgh, EH9 3BF, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6010-394X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1966-0960"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The chromosomal passenger complex (CPC) is an important regulator of cell division, which shows dynamic subcellular localization throughout mitosis, including kinetochores and the spindle midzone. In traditional model eukaryotes such as yeasts and humans, the CPC consists of the catalytic subunit Aurora B kinase, its activator INCENP, and the localization module proteins Borealin and Survivin. Intriguingly, Aurora B and INCENP as well as their localization pattern are conserved in kinetoplastids, an evolutionarily divergent group of eukaryotes that possess a unique set of kinetochore proteins and lack homologs of Borealin or Survivin. It is not understood how the kinetoplastid CPC assembles or how it is targeted to its subcellular destinations during the cell cycle. Here, we identify two orphan kinesins, KIN-A and KIN-B, as bona fide CPC proteins in  Trypanosoma brucei , the causative agent of African sleeping sickness. By employing biochemical, structural, and cell biological approaches, we demonstrate that KIN-A and KIN-B serve as the scaffold for the assembly of the remaining CPC subunits. Kinetochore localization of the CPC depends on the KKT7 – KKT8 complex pathway, with the C-terminal unstructured tail of KIN-A serving as a key interaction partner for the KKT8 complex. Our data therefore show that, unlike other eukaryotes that take advantage of histone modifications for centromere recruitment, trypanosomes rely on kinetochore proteins to recruit the CPC onto kinetochores. Furthermore, the ATPase activity of KIN-A promotes chromosome alignment in prometaphase and CPC translocation to the central spindle upon anaphase onset. Thus, KIN-A constitutes a unique ‘two-in-one’ CPC localization module in complex with KIN-B, which directs the CPC to kinetochores (from S phase until metaphase) via its C-terminal tail, and to the central spindle (in anaphase) via its N-terminal kinesin motor domain. Our findings highlight the evolutionary diversity of CPC proteins and raise the possibility that kinesins may have served as the original transport vehicles for Aurora B kinases in early eukaryotes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "210622/Z/18/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/12/2023.10.11.561882.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.10.11.561882"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR740314"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR740314&type=FILE&fileName=EMS189580-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS189580",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pxd",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-10-14",
+      "firstPublicationDate": "2023-10-12",
+      "firstIndexDate": "2023-10-14",
+      "fullTextReceivedDate": "2024-02-12",
+      "hasEvaluations": "Y"
+    }
+  }
+}

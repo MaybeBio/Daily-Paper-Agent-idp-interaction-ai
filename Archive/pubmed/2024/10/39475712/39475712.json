@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "39475712",
+    "doi": "10.1091/mbc.E24-05-0224",
+    "title": "Regulating transport efficiency through the nuclear pore complex: The role of binding affinity with FG-Nups."
+  },
+  "content": {
+    "abstract": "Macromolecules are transported through the nuclear pore complex (NPC) via a series of transient binding and unbinding events with FG-Nups, which are intrinsically disordered proteins anchored to the pore's inner wall. Prior studies suggest that the weak and transient nature of this binding is crucial for maintaining the transported molecules' diffusivity. In this study, we explored the relationship between binding kinetics and transport efficiency using Brownian dynamics simulations. Our results indicate that the duration of binding is a critical factor in regulating transport efficiency. Specifically, excessively short binding durations insufficiently facilitate transport, while overly long durations impede molecular movement. We calculated the optimal binding duration for efficient molecular transport and found that it aligns with other theoretical predictions. Additionally, the calculated value is comparable to experimental measurements of the association timescale between nuclear transport receptors and FG-Nups at a single binding site. Our study provides a quantitative framework that bridges local molecular interactions with overall transport dynamics through the NPC, offering valuable insights into the mechanisms governing selective molecular transport.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nuclear Pore/metabolism",
+      "*Nuclear Pore Complex Proteins/metabolism",
+      "*Active Transport, Cell Nucleus/physiology",
+      "*Protein Binding",
+      "Kinetics",
+      "Binding Sites",
+      "Molecular Dynamics Simulation",
+      "Biological Transport"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Matsuda, Atsushi",
+        "Mofrad, Mohammad R K"
+      ],
+      "short_names": [
+        "Matsuda A",
+        "Mofrad MRK"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7004-4859"
+      ],
+      "affiliations": [
+        "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California Berkeley, Berkeley, CA 94720.",
+        "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California Berkeley, Berkeley, CA 94720.",
+        "Molecular Biophysics and Integrative Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Matsuda, Atsushi",
+        "short_name": "Matsuda A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California Berkeley, Berkeley, CA 94720."
+        ]
+      },
+      {
+        "full_name": "Mofrad, Mohammad R K",
+        "short_name": "Mofrad MRK",
+        "identifiers": [
+          "0000-0001-7004-4859"
+        ],
+        "affiliations": [
+          "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California Berkeley, Berkeley, CA 94720.",
+          "Molecular Biophysics and Integrative Bioimaging Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biology of the cell"
+    ],
+    "journal_abbrev": [
+      "Mol Biol Cell"
+    ],
+    "pub_date": "2024 Dec 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/30 18:23",
+    "fetched_at": "2026-09-21 12:02:18"
+  },
+  "links": {
+    "cites": [
+      "41100670",
+      "40861395",
+      "40193850"
+    ],
+    "refs": [
+      "39282864",
+      "37876551",
+      "37099395",
+      "36757893",
+      "36163504",
+      "36138110",
+      "35892075",
+      "35679397",
+      "35269721",
+      "34473567",
+      "34339633",
+      "34237287",
+      "33938148",
+      "33617830",
+      "31770897",
+      "30704069",
+      "30183264",
+      "29590630",
+      "29539637",
+      "29500415",
+      "29431587",
+      "29350911",
+      "28669824",
+      "28535343",
+      "27470900",
+      "26456112",
+      "26371551",
+      "25796227",
+      "25435324",
+      "24066078",
+      "22357553",
+      "22058573",
+      "21673865",
+      "21414590",
+      "21402022",
+      "20368288",
+      "20151748",
+      "19680225",
+      "18046406",
+      "17079785",
+      "16769882",
+      "15657394",
+      "15306682",
+      "12885761",
+      "11796221",
+      "11266456",
+      "11250898"
+    ],
+    "similar": [
+      "39475712",
+      "34473567",
+      "34639238",
+      "39600095",
+      "30704069",
+      "28506890",
+      "40193850",
+      "28669824",
+      "29374059",
+      "26658558",
+      "17630825",
+      "39282864",
+      "35098921",
+      "33790297",
+      "28887410",
+      "39205388",
+      "29590630",
+      "33617830",
+      "21447814",
+      "28068389",
+      "26791761",
+      "25692596",
+      "35412248",
+      "32794558",
+      "15557115",
+      "21690354",
+      "33548309",
+      "41100670",
+      "27673359",
+      "41387701",
+      "22357553",
+      "41847902",
+      "24739174",
+      "26311873",
+      "24626154",
+      "12543930",
+      "24213245",
+      "32168597",
+      "21647294",
+      "34339633",
+      "39927798",
+      "36302971",
+      "12917401",
+      "30110828",
+      "35679397",
+      "19278659",
+      "27091992",
+      "17875746",
+      "24929341",
+      "30902367",
+      "23264634",
+      "26338152",
+      "25229147",
+      "32696372",
+      "21673865",
+      "31914646",
+      "25410863",
+      "29442997",
+      "42412942",
+      "33336681",
+      "22419078",
+      "40079246",
+      "35923096",
+      "17897934",
+      "37100914",
+      "22901806",
+      "39356635",
+      "34237287",
+      "24857723",
+      "29033133",
+      "26894898",
+      "21659568",
+      "15657394",
+      "21987633",
+      "38018404",
+      "37307457",
+      "36040030",
+      "32622019",
+      "29429880",
+      "33346731",
+      "28864541",
+      "26456112",
+      "30471692",
+      "32692309",
+      "26344569",
+      "35491934",
+      "23332057",
+      "23912807",
+      "26541386",
+      "19274657",
+      "28579449",
+      "19098896",
+      "40068679",
+      "37210735",
+      "26878241",
+      "24558427",
+      "23404701",
+      "31262825",
+      "22020388",
+      "15041643"
+    ],
+    "review": [
+      "39475712",
+      "28506890",
+      "28669824",
+      "39282864",
+      "26791761",
+      "32794558",
+      "27673359",
+      "39927798",
+      "26338152",
+      "33336681",
+      "35923096",
+      "24857723",
+      "28579449",
+      "37210735"
+    ],
+    "pmc": [
+      "11656470"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.molbiolcell.org/doi/10.1091/mbc.E24-05-0224?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39475712/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "40649197",
+    "doi": "10.3390/molecules30132679",
+    "title": "Purification and Inhibitor Screening of the Full-Length SARS-CoV-2 Nucleocapsid Protein."
+  },
+  "content": {
+    "abstract": "Severe acute respiratory syndrome coronavirus 2 has undergone several mutations since 2020, and novel variants continue to emerge to this day. The immune escape ability of the emerging mutants is enhanced and results in robust transmissibility. The neutralizing ability of the antibodies produced in the human body during previous infections is decreased against some of these mutants, which poses a severe challenge to the preventive and therapeutic effectiveness of vaccines and antibody drugs. The nucleocapsid protein is one of the main structural proteins of the coronavirus and plays an important role in the life cycle of the novel coronavirus. This protein is one of the key targets for drug development, and the first major step in drug development is to obtain pure nucleocapsid proteins. However, since nucleocapsid proteins have a nucleic acid-binding function and automatically undergo liquid-liquid phase separation and agglomeration, the purification of full-length nucleocapsids is challenging. In this context, a set of easy-to-operate processes was developed in this study for the purification of nucleocapsid proteins. Finally, a pure full-length nucleocapsid protein without nucleic acid contamination was obtained, which exhibited significantly enhanced accessibility for structural and functional virological studies, vaccine development, and related research applications. Further, the nucleic acid-binding domain of the nucleocapsid protein was targeted, and potential severe acute respiratory syndrome coronavirus 2 inhibitors were identified using virtual screening and biolayer interferometry technology. Notably, the eukaryotically expressed nucleocapsid protein demonstrated a significantly greater binding affinity for Light Green SF Yellowish (K(D) = 119.7 nM) compared to that demonstrated by its prokaryotic counterpart (K(D) = 19.9 x 10(3) nM). The findings of this study suggest the importance of considering both protein source and post-translational modifications of the target proteins to be used in drug screening workflows. Therefore, this compound not only represents a novel therapeutic candidate for COVID-19 but also a critical tool for elucidating antiviral mechanisms.",
+    "keywords": [
+      "COVID-19",
+      "SARS-CoV-2",
+      "expression and purification",
+      "inhibitor",
+      "nucleocapsid protein",
+      "virtual screening"
+    ],
+    "mesh_terms": [
+      "*SARS-CoV-2/drug effects/metabolism/chemistry",
+      "*Coronavirus Nucleocapsid Proteins/isolation & purification/chemistry/antagonists & inhibitors/metabolism",
+      "Humans",
+      "*Antiviral Agents/pharmacology/chemistry",
+      "COVID-19/virology",
+      "COVID-19 Drug Treatment",
+      "Phosphoproteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Chen",
+        "Zhang, Zhengfu",
+        "Zheng, Qiao",
+        "Zhou, Yingshun",
+        "Zhang, Shujun"
+      ],
+      "short_names": [
+        "Chen C",
+        "Zhang Z",
+        "Zheng Q",
+        "Zhou Y",
+        "Zhang S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8916-9368"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Southwest Medical University, Luzhou 646000, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Southwest Medical University, Luzhou 646000, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Southwest Medical University, Luzhou 646000, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Southwest Medical University, Luzhou 646000, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Southwest Medical University, Luzhou 646000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Chen",
+        "short_name": "Chen C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhengfu",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Qiao",
+        "short_name": "Zheng Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yingshun",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Southwest Medical University, Luzhou 646000, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shujun",
+        "short_name": "Zhang S",
+        "identifiers": [
+          "0000-0002-8916-9368"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Southwest Medical University, Luzhou 646000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2025 Jun 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/13 03:36",
+    "fetched_at": "2026-09-21 20:44:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39766245",
+      "39093972",
+      "39025272",
+      "38885868",
+      "37199631",
+      "37025664",
+      "36815693",
+      "36748338",
+      "36653446",
+      "36627683",
+      "36317101",
+      "35874957",
+      "35594385",
+      "35458446",
+      "35350330",
+      "35304596",
+      "35214737",
+      "35204473",
+      "35074332",
+      "35062684",
+      "34880490",
+      "34865653",
+      "34756970",
+      "34634033",
+      "34608598",
+      "34517577",
+      "34480682",
+      "34471255",
+      "34451501",
+      "34371045",
+      "34237771",
+      "34200602",
+      "34075212",
+      "34064163",
+      "34048905",
+      "33997890",
+      "33837182",
+      "33794152",
+      "33770364",
+      "33567448",
+      "33479198",
+      "33454525",
+      "33386773",
+      "33200826",
+      "33193414",
+      "33147821",
+      "33116300",
+      "33039147",
+      "32964056",
+      "32914439",
+      "32654247",
+      "32416961",
+      "32363136",
+      "32183941",
+      "32108359",
+      "20512976",
+      "19892180",
+      "18941225",
+      "18848996",
+      "12925576",
+      "12406687"
+    ],
+    "similar": [
+      "40649197",
+      "33247108",
+      "38885868",
+      "40086356",
+      "33189817",
+      "34749200",
+      "39766245",
+      "39307103",
+      "40490992",
+      "34200602",
+      "33289456",
+      "38941236",
+      "40113149",
+      "39216563",
+      "40371698",
+      "33098476",
+      "39541975",
+      "34681727",
+      "38787915",
+      "33808721",
+      "39848104",
+      "38713013",
+      "33200826",
+      "33314794",
+      "32791240",
+      "34371045",
+      "38939745",
+      "33894414",
+      "34033342",
+      "33251943",
+      "39343000",
+      "33039147",
+      "34549987",
+      "36928389",
+      "33478471",
+      "33477032",
+      "33290746",
+      "39120134",
+      "40602456",
+      "39894078",
+      "33997890",
+      "35412347",
+      "37154717",
+      "40830575",
+      "32927129",
+      "33782395",
+      "33557213",
+      "40375582",
+      "41060789",
+      "39380503",
+      "39264259",
+      "38718862",
+      "40820302",
+      "38846351",
+      "39838019",
+      "40503915",
+      "34517025",
+      "34124695",
+      "35796388",
+      "40879372",
+      "40549905",
+      "33443088",
+      "39675446",
+      "38925369",
+      "40945576",
+      "39412257",
+      "33095454",
+      "33193414",
+      "33270159",
+      "39354682",
+      "40183543",
+      "41404913",
+      "32427334",
+      "39912211",
+      "34835096",
+      "33132205",
+      "35993765",
+      "38376366",
+      "39653224",
+      "33895773",
+      "32469265",
+      "34027498",
+      "32530284",
+      "33034620",
+      "34037422",
+      "33468695",
+      "34519332",
+      "39489230",
+      "34191580",
+      "40974925",
+      "38843023",
+      "38153183",
+      "33479198",
+      "36708355",
+      "41081594",
+      "36158162",
+      "32750187",
+      "34202092",
+      "34642671",
+      "34823028"
+    ],
+    "review": [
+      "40649197",
+      "33189817",
+      "34200602",
+      "39216563",
+      "33098476",
+      "34681727",
+      "38939745",
+      "39343000",
+      "38846351",
+      "39838019",
+      "33132205"
+    ],
+    "pmc": [
+      "12251317"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules30132679",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40649197/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

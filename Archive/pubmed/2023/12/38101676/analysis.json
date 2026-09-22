@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38101676",
+  "title": "Synergistic formulation approach for developing pea protein and guar gum enriched olive oil-in-water emulsion gels as solid fat substitutes: Formulation optimization, characterization, and molecular simulation.",
+  "authors": "Kamer, Deniz Damla Altan",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2023-12-16",
+  "window": {
+    "start": "2023-12-11",
+    "end": "2023-12-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究优化豌豆蛋白与瓜尔胶稳定的橄榄油乳液凝胶配方，并用分子模拟分析蛋白-多糖结合，对象为食品凝胶而非无序蛋白PPI，机制建模可迁移性有限。",
+  "abstract": "This study aimed to optimize the formulation of olive oil-in-water (O/W) emulsion gels by incorporating Pea Protein (PP) and Guar Gum (GG) as alternative options for solid fats. The optimum rheological (consistency index, apparent viscosity, recovery) and texture (firmness) properties of the emulsion gels were obtained using a mixture of 2 % PP, 1 % GG, 60 % Olive Oil (OO), and 37 % Water (W). The blend of PP2/GG1 showed the highest results for recovery and firmness, 111.27 % and 33.89 g, respectively. PP/GG blend emulsion gels exhibited higher absolute zeta-potential values, ranging between -72.3 and -77.4 mV. The polydispersity index (PDI) ranged from 0.185 to 0.535, with the most uniform distributions found in the PP/GG blend emulsion gels. Strong phase separation resistance indicated strong stability of PP-GG complex emulsion gels. Higher PP concentrations decreased emulsion oxidation. FTIR and XRD research showed that PP and GG interact strongly, indicating good compatibility. The free binding energy of the most stable configuration of the molecules was -6.8 kcal mol(-1), indicating a high affinity. PP interacted with GG through 9 amino acid residues, with notable residues being Asp 224, Thr 235, Ala 332, Ile 334, and Arg 336, and their respective interaction distances ranged between 2.69 A and 3.87 A.",
+  "abstract_zh": "本研究旨在通过添加豌豆蛋白（Pea Protein, PP）和瓜尔胶（Guar Gum, GG）作为固体脂肪的替代选项，优化水包油（O/W）乳液凝胶的配方。使用2% PP、1% GG、60%橄榄油（Olive Oil, OO）和37%水（Water, W）的混合物，获得了乳液凝胶的最佳流变学（稠度指数、表观粘度、恢复率）和质构（硬度）特性。PP2/GG1混合物在恢复率和硬度方面表现出最高结果，分别为111.27%和33.89 g。PP/GG混合乳液凝胶表现出更高的绝对zeta电位值，范围在-72.3至-77.4 mV之间。多分散性指数（polydispersity index, PDI）范围为0.185至0.535，其中PP/GG混合乳液凝胶的分布最为均匀。强烈的相分离抗性表明PP-GG复合乳液凝胶具有强稳定性。较高的PP浓度降低了乳液氧化程度。FTIR和XRD研究表明，PP和GG之间存在强烈相互作用，表明其具有良好的相容性。最稳定分子构型的自由结合能为-6.8 kcal mol(-1)，表明其具有高亲和力。PP通过9个氨基酸残基与GG相互作用，其中显著残基为Asp 224、Thr 235、Ala 332、Ile 334和Arg 336，它们各自的相互作用距离范围在2.69 Å至3.87 Å之间。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38101676/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38101676/",
+  "paper_page_path": "papers/pubmed/38101676/index.html"
+}

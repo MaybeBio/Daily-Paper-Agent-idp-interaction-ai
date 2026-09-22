@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41673459",
+  "title": "Scaffold-client behavior and structural organization in multicomponent protein condensates as revealed by studying tau/TDP-43 droplets.",
+  "authors": "Monnaka, Vitor Ulisses; Shipley, Brandon; Boyko, Solomiia; de Carvalho Aguiar, Patricia Maria; Hinczewski, Michael; Surewicz, Witold K",
+  "journal": "Communications chemistry",
+  "published_date": "2026-02-12",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合实验与粗粒化模拟，揭示tau/TDP-43多组分凝聚体中脚手架-客户行为及界面组织机制，直接聚焦IDR介导的PPI与相分离机制建模，高度契合课题。",
+  "abstract": "Liquid-liquid phase separation (LLPS) is known to modulate pathological aggregation of proteins implicated in neurodegenerative diseases, such as tau and TDP-43. While LLPS mechanisms of individual proteins are well characterized, much less is known about phase behavior of multicomponent protein systems. Here, we investigated the LLPS behavior of mixtures of tau and TDP-43 low complexity domain (LCD), two proteins known to co-aggregate in Alzheimer's disease. We found that, depending on the concentration, each protein can function either as a scaffold (driving condensate formation) or as a client (passively recruited into condensates formed by the other). Notably, scaffold-client roles can be modulated by selectively inhibiting the interactions driving LLPS: electrostatic for tau, and hydrophobic for TDP-43 LCD. A striking feature of this system is the formation of a tau \"halo\" around TDP-43 LCD droplets, which coarse-grained simulations reveal to arise from tau's amphiphilic organization at condensate interfaces. Together, these findings provide molecular-level insights into the general principles governing the assembly and organization of multicomponent protein condensates.",
+  "abstract_zh": "液-液相分离（LLPS）已知可调节与神经退行性疾病相关的蛋白质（如tau和TDP-43）的病理性聚集。虽然单个蛋白质的LLPS机制已被充分表征，但对多组分蛋白质系统的相行为知之甚少。在此，我们研究了tau和TDP-43低复杂度结构域（LCD）混合物的LLPS行为，这两种蛋白质已知在阿尔茨海默病中共聚集。我们发现，根据浓度不同，每种蛋白质既可作为支架（驱动凝聚体形成），也可作为客户（被动招募到由另一种蛋白质形成的凝聚体中）。值得注意的是，支架-客户角色可通过选择性抑制驱动LLPS的相互作用来调节：tau依赖静电作用，而TDP-43 LCD依赖疏水作用。该系统的一个显著特征是围绕TDP-43 LCD液滴形成tau“晕圈”，粗粒化模拟揭示这源于tau在凝聚体界面的两亲性组织。综合这些发现，为多组分蛋白质凝聚体组装和组织的一般原则提供了分子层面的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41673459/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41673459/",
+  "paper_page_path": "papers/pubmed/41673459/index.html"
+}

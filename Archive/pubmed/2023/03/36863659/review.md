@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, computational methods, and supplementary figure references.
+- **Assessment boundary** Scientific claims, methodological rigor, interpretation of simulation results, and alignment with prior experimental observations. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to explain why synergistic activation of WASP by Cdc42 and PIP2 requires Cdc42 prenylation, whereas N-WASP activation does not. They propose that differences in basic residue number and spacing within the basic region (BR) underlie this contrast.
+- **Visible evidence base** Simulation results presented in Figures 1–4 and Supplementary Figures S1–S6, with methodological details in the Computational Methods section. No experimental data are presented.
+- **Missing materials affecting confidence** No simulation trajectory data, force field validation against experimental binding affinities, or convergence analyses are provided. The manuscript does not include quantitative comparison of simulated binding free energies with experimental values. The homology model for N-WASP-Cdc42 is described but not validated.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a specific and previously unexplained experimental observation regarding differential requirements for Cdc42 prenylation in WASP versus N-WASP activation. The simulation approach is appropriate for studying dynamic protein-membrane interactions, and the results provide a plausible mechanistic explanation. However, the central claim rests on qualitative comparisons of membrane contact probabilities across conditions, and the manuscript lacks quantitative validation of the simulation model against experimental data. The distinction between WASP and N-WASP is attributed to BR composition, but the analysis does not fully exclude alternative explanations, such as differences in the WH1 domain or linker regions. The work is of interest to researchers studying WASP family proteins, membrane-protein interactions, and IDP regulation, but the evidence as presented is not fully conclusive.
+- **Who would be interested in the results, and why** Researchers studying WASP/N-WASP signaling, actin cytoskeleton regulation, small GTPase function, and intrinsically disordered protein interactions with membranes. The findings may also interest those investigating how post-translational lipid modifications (prenylation) influence protein localization and function.
+- **Major strengths** The study addresses a well-defined, previously unexplained experimental puzzle. The simulation design includes appropriate controls (soluble versus prenylated Cdc42, WASP versus N-WASP). The analysis of membrane contact probabilities is systematic and includes statistical comparisons across replicates. The proposed mechanism, based on BR basic residue count and spacing, is testable and biologically plausible. The discussion of evolutionary trends in BR spacing adds context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "Cdc42 prenylation restores WASP's ability to bind PIP2" is central to the paper's conclusion.
+  - **Evidence pointer** Figure 2A, Figure 3C, Results section "PIP2 binding of WASP is restored upon Cdc42 prenylation"
+  - **Concern** The restoration of WASP membrane binding upon Cdc42 prenylation is demonstrated only through membrane contact probabilities. No quantitative measure of binding affinity or free energy is provided. The comparison between conditions (no Cdc42, soluble Cdc42, prenylated Cdc42) is made across different simulation systems with potentially different equilibration characteristics. The manuscript does not report whether the simulations reached convergence or whether the observed differences are statistically robust beyond the reported p-values for the no-Cdc42 comparison.
+  - **Why it matters** The central conclusion depends on the reliability of the simulated membrane binding behavior. Without quantitative binding metrics or convergence analysis, the observed differences could reflect simulation artifacts rather than genuine biophysical differences.
+  - **Resolution test** Provide binding free energy estimates (e.g., via umbrella sampling or metadynamics) for WASP BR binding to PIP2 membranes under the three conditions. Alternatively, report convergence metrics (e.g., block averaging of contact probabilities over time) and demonstrate that the differences between conditions are stable across independent simulation runs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "the origin of this contrast lies in the differences between the BRs of WASP and N-WASP, in particular regarding the number of basic residues and their spacing from the GBD."
+  - **Evidence pointer** Discussion section, Figure 1A, Figure S6
+  - **Concern** The attribution of the observed difference to BR basic residue count and spacing is inferred from sequence comparison and simulation results, but no direct test is performed. For example, no simulations are shown with WASP BR mutations that increase basic residue number or alter spacing to test whether this would rescue PIP2 binding in the presence of soluble Cdc42. The evolutionary analysis in Figure S6 is correlative and does not establish causation.
+  - **Why it matters** The proposed mechanism is the main explanatory framework of the paper. Without direct testing, alternative explanations (e.g., differences in the WH1 domain, linker flexibility, or Cdc42 binding affinity) remain plausible.
+  - **Resolution test** Perform simulations with WASP BR mutants (e.g., adding basic residues or shifting their position) to test whether the predicted rescue of PIP2 binding occurs. Alternatively, perform simulations with N-WASP BR mutants that reduce basic residue count to test whether PIP2 binding is lost in the presence of soluble Cdc42.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that "the simulations recapitulated the puzzling experimental observation of the contrasting effects of Cdc42 prenylation."
+  - **Evidence pointer** Results sections, Discussion
+  - **Concern** The simulations are compared qualitatively to prior experimental results, but no direct quantitative comparison is made. For example, the experimental observation that soluble Cdc42 reduces WASP activation below the level seen with PIP2 alone is not directly mirrored in the simulation data, which show only a reduction in membrane contact probability. The manuscript does not discuss whether the magnitude of the simulated effect is consistent with the experimental reduction in activation.
+  - **Why it matters** The claim of recapitulation is central to the paper's relevance. Without quantitative alignment, the connection between simulation and experiment remains suggestive rather than demonstrated.
+  - **Resolution test** Provide a quantitative comparison, such as correlating simulated membrane contact probabilities with experimentally measured activation levels across conditions. Alternatively, discuss explicitly how the simulated differences translate to expected differences in activation, with appropriate caveats.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Location not provided
+  - **Issue** The introduction assumes familiarity with WASP/N-WASP domain nomenclature and activation mechanisms. A brief schematic or more explicit description of the autoinhibited and activated states would aid nonspecialist readers.
+  - **Required correction** Add a sentence or two describing the domain organization and the autoinhibition mechanism in plain terms, or refer readers to a review.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Computational Methods, System preparation
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript states that the WASP fragment for Cdc42-bound simulations was taken from a snapshot in a simulation without Cdc42, but does not specify which snapshot or how representative it is. This could introduce bias in the initial conditions.
+  - **Required correction** Specify the selection criteria for the snapshot (e.g., random selection, clustering) and discuss potential sensitivity of results to initial conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "N-WASP, but not WASP, can simultaneously bind PIP2 and soluble Cdc42"
+  - **Evidence pointer** Figure S4
+  - **Issue** The probability distributions in n and m are compared between WASP and N-WASP, but the statistical significance of the differences in these distributions is not reported.
+  - **Required correction** Provide statistical tests (e.g., Kolmogorov-Smirnov test) for the differences in the distributions shown in Figure S4.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion, evolutionary analysis
+  - **Evidence pointer** Figure S6
+  - **Issue** The evolutionary analysis is presented briefly and may not be fully accessible to readers without a background in comparative sequence analysis.
+  - **Required correction** Briefly explain the significance of the BR centroid-CRIB spacing metric and how it was calculated, or refer to the supplementary methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The manuscript must provide quantitative binding metrics and convergence analysis, and directly test the proposed BR-based mechanism through mutagenesis simulations, before the central claims can be considered established.
+- **Assessment against Nature-style criteria** Originality: The study addresses a specific, previously unexplained observation and proposes a novel mechanistic explanation based on BR composition. This is a valuable contribution, though the underlying concept of competitive binding between membranes and protein partners is not entirely new. Scientific importance: The findings have implications for understanding WASP family regulation and IDP-membrane interactions, but the significance is somewhat narrow, focusing on a specific protein pair. Interdisciplinary readership: The work bridges biophysics, cell biology, and computational biology, and should appeal to researchers in these areas. Technical soundness: The simulation methodology is appropriate, but the lack of quantitative validation and direct mechanistic testing weakens the technical case. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with the WASP field; the introduction could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an interesting question with appropriate methodology, but the central claims require additional quantitative analysis and direct testing of the proposed mechanism before they can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that the simulations "recapitulate" experimental observations is not quantitatively supported.
+- The attribution of the WASP/N-WASP difference to BR basic residue count and spacing is not directly tested.
+- The statement that "Cdc42 prenylation has a dramatic effect on WASP-membrane association, making it as strong, or perhaps even stronger, than that in the absence of Cdc42" is based on qualitative comparison of contact probabilities without statistical comparison between these two conditions.
+- The evolutionary speculation regarding BR spacing and WASP activity is correlative and not supported by functional data.

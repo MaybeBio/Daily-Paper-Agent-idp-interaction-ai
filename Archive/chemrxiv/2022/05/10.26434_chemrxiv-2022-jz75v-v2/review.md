@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors hypothesize that machine learning algorithms can classify or identify protein-protein interaction (PPI) inhibitors. They report that random forest (RF) models using ECFP4 fingerprints achieved the best classification performance compared to ECFP6 or MACCS keys, that logistic regression models underperformed RF models, that ECFP4 was the most appropriate representation for linear regression, that ECFP4 also yielded high performance with support vector machine (SVM), and that ensemble models were constructed from top-performing models. The pipeline code and results are stated to be freely available at a GitHub repository.
+- **Visible evidence base** Abstract text only; no quantitative performance metrics, dataset descriptions, validation protocols, or code repository contents are provided in the supplied material
+- **Missing materials affecting confidence** Full manuscript, dataset composition and size, descriptor definitions, hyperparameter settings, cross-validation or external test set details, performance metric values (e.g., accuracy, AUC, F1), ensemble construction methodology, and verification of the GitHub repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful comparative study of machine learning models for PPI inhibitor classification. However, the claims are stated without quantitative support, and the absence of methodological details prevents independent evaluation of the findings. The work addresses a relevant topic in drug discovery, but the current evidence base is insufficient to establish the robustness or generalizability of the reported model performance.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, chemoinformatics, and medicinal chemistry would be interested in this work because it compares commonly used fingerprint representations and machine learning algorithms for a challenging target class (PPI inhibitors). The findings could inform practical model selection for virtual screening campaigns targeting PPIs.
+- **Major strengths** The study addresses a topic of practical relevance in drug discovery. The comparison of multiple algorithms and fingerprint types is a standard and useful approach. The stated intention to make code and results freely available is commendable and supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that RF models with ECFP4 had the best classification performance compared to ECFP6 or MACCS keys
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that RF models with ECFP4 performed best, but no quantitative performance metrics (e.g., accuracy, AUC, precision, recall) are provided. Without these values, the magnitude of the performance difference and its statistical significance cannot be assessed.
+  - **Why it matters** The central conclusion of the study rests on a comparative performance claim. Without numerical evidence, the reader cannot determine whether the observed differences are meaningful or within the range of random variation.
+  - **Resolution test** Provide performance metrics for all model and descriptor combinations, including confidence intervals or statistical tests comparing the top-performing model to alternatives.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The claim that ensemble models were constructed based on top-performing models
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract mentions ensemble model construction but does not describe the ensemble method (e.g., averaging, voting, stacking), the number of base models, or the performance of the ensembles relative to individual models. The value of the ensemble approach is therefore unsubstantiated.
+  - **Why it matters** Ensemble methods are only useful if they improve performance over single models. Without comparative results, the claim that ensembles were constructed does not demonstrate added value.
+  - **Resolution test** Describe the ensemble methodology and report performance metrics for ensembles compared to the best individual models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The claim that ML algorithms are able to classify or identify PPI inhibitors
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe the dataset used for training and validation, including its size, source, chemical diversity, or the ratio of positive to negative examples. It also does not specify whether an external test set or cross-validation was used. Without this information, the generalizability of the models to new PPI inhibitors cannot be evaluated.
+  - **Why it matters** Classification models can appear effective on biased or small datasets but fail on diverse or unseen data. The absence of dataset and validation details undermines confidence in the reported model utility.
+  - **Resolution test** Provide a full description of the dataset, including source, size, class balance, and the validation strategy (e.g., cross-validation, external test set), and report performance on held-out data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Typographical error in the abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "ECFP6 o MACCS keys" contains a typographical error where "o" should be "or".
+  - **Required correction** Correct the typo to "ECFP6 or MACCS keys".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** The phrase "linear regression" in the context of classification
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract refers to "linear regression" when discussing logistic regression models. This is imprecise because logistic regression is a classification method, not linear regression.
+  - **Required correction** Use "logistic regression" consistently throughout the abstract to avoid confusion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** GitHub repository availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that code and results are freely available, but the repository contents are not described in the abstract. It is unclear whether the repository includes the full pipeline, trained models, or only scripts.
+  - **Required correction** Briefly describe the repository contents in the abstract or state that a detailed description is provided in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative performance data, ensemble methodology details, and dataset/validation descriptions means the core claims cannot be verified from the supplied material.
+- **Assessment against Nature-style criteria** Originality: The topic is not novel, as ML-based PPI inhibitor classification has been explored previously, but the comparative benchmarking of multiple fingerprints and algorithms may offer incremental value. Scientific importance: The work has potential practical importance for drug discovery, but the significance is not demonstrated without robust validation. Interdisciplinary readership: The topic bridges chemoinformatics and medicinal chemistry, which could attract a broad audience, but the abstract is too brief to engage nonspecialists. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail is a major limitation. Readability for nonspecialists: The abstract is concise and generally clear, but the typo and imprecise terminology reduce clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable study design, but the absence of quantitative results and methodological details prevents a supportive recommendation. The authors should provide the full manuscript with complete performance metrics, dataset descriptions, and validation protocols for a proper evaluation.
+
+## Risk / unsupported claims
+- The claim that RF models with ECFP4 had the best classification performance is unsupported without quantitative metrics.
+- The claim that logistic regression models had lower performance than RF models is unsupported without numerical comparisons.
+- The claim that ECFP4 was the most appropriate representation for linear regression is unsupported without data.
+- The claim that ECFP4 yielded high performance with SVM is unsupported without specific metric values.
+- The claim that ensemble models were constructed is unverifiable without methodology and performance details.
+- The general claim that ML algorithms can classify or identify PPI inhibitors is not established from the abstract alone.

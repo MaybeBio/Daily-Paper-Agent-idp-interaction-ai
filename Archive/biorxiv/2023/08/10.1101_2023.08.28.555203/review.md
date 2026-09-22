@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose SLGNN, a graph neural network that uses a chemical-substructure-based graph representation and generalized fused lasso with message-passing to identify chemically valid, connected subgraphs critical for drug-protein binding prediction. They claim that identified key structures are chemically valid, have greater predictive power than competing methods, and contain most binding sites in known drug-protein binding data.
+- **Visible evidence base** Abstract text only; no quantitative results, datasets, baselines, or implementation details are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, experimental setup, dataset descriptions, baseline comparisons, figures, tables, and code or reproducibility information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to a recognized limitation in explainable GNNs for drug-protein binding prediction, namely the generation of chemically invalid substructures. The proposed use of a chemical-substructure-based graph to guarantee chemical validity is a reasonable design choice. However, the abstract provides no quantitative evidence, no comparison details, and no methodological specifics sufficient to evaluate the technical soundness or the strength of the claims. The core claims of predictive power and binding site coverage are asserted without supporting data. The manuscript cannot be assessed for scientific validity from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, cheminformatics, and machine learning for molecular property prediction would be interested in this work because it addresses the interpretability gap in GNN-based drug-protein binding models. The promise of chemically valid explanations could be useful for medicinal chemists seeking actionable structural insights. The sparse learning approach may also interest method developers working on structured graph regularization.
+- **Major strengths** The problem addressed is relevant and timely. The design principle of using chemical substructures as graph nodes to guarantee chemical validity of identified subgraphs is a clear and logical improvement over atom-level or fragment-level explainability approaches. The integration of generalized fused lasso with message-passing is a novel methodological direction that could yield connected and interpretable subgraphs.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that key structures identified by SLGNN have more predictive power than those identified by competing methods.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No quantitative results, baseline methods, evaluation metrics, or statistical comparisons are presented to support this claim. The abstract states the claim without any numerical or methodological detail.  
+  - **Why it matters** Predictive power is a central claim of the work. Without evidence, the reader cannot assess whether the proposed method offers any advantage over existing explainable GNN approaches.  
+  - **Resolution test** Provide a comparison table with metrics such as AUC, precision, recall, or enrichment factors against at least two baseline explainable GNN methods, with error bars and statistical significance tests.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that key structures identified by SLGNN contain most of the binding sites in known drug-protein binding data.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No definition of "binding sites" is given, no dataset is specified, and no quantitative measure of overlap or coverage is provided. The claim is unverifiable from the abstract.  
+  - **Why it matters** This claim is central to the biological relevance of the method. Without a clear definition and quantitative support, the claim cannot be evaluated or reproduced.  
+  - **Resolution test** Specify the dataset, define binding site criteria, and report coverage statistics such as the fraction of known binding sites recovered, with comparison to baselines.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The method relies on generalized fused lasso with message-passing algorithms to identify connected subgraphs.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe how the generalized fused lasso is integrated with message-passing, how sparsity is controlled, how hyperparameters are selected, or how the optimization is performed. The technical feasibility and convergence properties are not addressed.  
+  - **Why it matters** The methodological contribution is the core of the paper. Without technical detail, the approach cannot be assessed for correctness, novelty, or reproducibility.  
+  - **Resolution test** Provide a detailed methods section with the optimization objective, algorithm pseudocode, hyperparameter settings, and convergence criteria.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that all key structures identified by SLGNN are chemically valid.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The claim of universal chemical validity is strong. The abstract does not specify how chemical validity is defined, how it is verified, or whether any automated or expert-based validation was performed.  
+  - **Why it matters** This claim is the primary motivation for the method. Without a clear definition and validation protocol, the claim is not falsifiable.  
+  - **Resolution test** Define chemical validity criteria, describe the validation process, and report the proportion of identified structures that pass validation across all test cases.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "generalized fussed lasso" appears to be a typo for "generalized fused lasso."  
+  - **Required correction** Correct the spelling to "generalized fused lasso" throughout the manuscript.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Dataset description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not name the drug-protein binding dataset used for evaluation.  
+  - **Required correction** Specify the dataset name, version, and preprocessing steps in the methods or results section.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Baseline methods  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions "competing methods" but does not name them.  
+  - **Required correction** List the baseline methods and their configurations in the experimental setup.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Presentation  
+  - **Affected element** Formatting  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract includes ACM reference format and conference placeholder text, which is inconsistent with a bioRxiv preprint.  
+  - **Required correction** Remove ACM formatting and conference placeholders, or reformat to match the submission venue.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The central claims of predictive power, binding site coverage, chemical validity, and methodological soundness are all unsupported by the abstract alone. The case is not established from the provided evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of using chemical-substructure-based graphs with sparse learning for explainability is a reasonable incremental contribution, but the abstract does not demonstrate sufficient novelty over existing explainable GNN methods.  
+  - Scientific importance: The problem is important for drug discovery, but the abstract does not provide evidence that the method advances the field beyond current limitations.  
+  - Interdisciplinary readership: The work could appeal to both machine learning and computational chemistry audiences, but the abstract is too vague to engage either group substantively.  
+  - Technical soundness: Not assessable from the abstract. The optimization, regularization, and evaluation details are absent.  
+  - Readability for nonspecialists: The abstract is understandable at a high level, but the lack of concrete examples or results limits its accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual direction is promising, but the abstract lacks the quantitative and methodological detail required to evaluate the claims. A full manuscript with detailed methods, results, and comparisons is necessary before the work can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that SLGNN identifies chemically valid structures is unsupported without a definition of validity and validation results.
+- The claim that identified key structures have greater predictive power than competing methods is unsupported without quantitative comparisons.
+- The claim that identified key structures contain most binding sites is unsupported without dataset specification and coverage metrics.
+- The methodological claim of integrating generalized fused lasso with message-passing is not assessable without technical details.
+- The generalizability of the method to diverse drug-protein binding scenarios is not addressed.

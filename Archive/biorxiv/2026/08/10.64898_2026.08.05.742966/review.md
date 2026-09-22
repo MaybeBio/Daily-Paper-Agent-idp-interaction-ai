@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion, Data availability, Disclosure, Author contributions, Supplementary figure legends, Acknowledgements)
+- **Assessment boundary** Scientific validity of claims, experimental design, data interpretation, and consistency between evidence and conclusions. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors propose that human La autoantigen binds a GCAC motif near the initiator AUG of the SARS-CoV-2 5'UTR, promoting cap-independent translation of viral RNA early in infection while suppressing replication. They further claim that the viral protease Nsp5 cleaves La at a conserved LQ site around 18-24 h post-infection, abrogating La-5'UTR interaction, reducing polysome association, and enabling a switch from translation to replication.
+- **Visible evidence base** Results sections describing UV crosslinking, mass spectrometry, SPR, polysome profiling, western blotting, luciferase reporter assays, and computational analyses (docking, MD simulations, structural predictions). Supplementary figure legends and table legends are provided, but actual supplementary data are not included.
+- **Missing materials affecting confidence** Actual figures and supplementary figures are not provided. Numerical data, statistical analyses, and error bars are not shown. Details of the luciferase reporter constructs (e.g., bicistronic design, controls) are incomplete. The Nsp5 cleavage site validation (e.g., mutagenesis of the LQ site) is not described. Supplementary tables are referenced but not included.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and potentially important question in SARS-CoV-2 biology, namely how host RNA-binding proteins coordinate the temporal switch between viral translation and replication. The identification of La as a host factor that binds the viral 5'UTR and is cleaved by Nsp5 is conceptually interesting. However, the evidence presented is largely correlative, and several key claims are not directly tested. The computational analyses are used to infer mechanism but are not experimentally validated. The manuscript would benefit from direct testing of the proposed model, including mutagenesis of the La cleavage site, measurement of translation and replication in cells expressing cleavage-resistant La, and quantitative analysis of the temporal dynamics. As presented, the case is not fully established.
+- **Who would be interested in the results, and why** Virologists studying coronavirus replication and host-virus interactions, particularly those interested in RNA-binding proteins and translational control. Researchers working on SARS-CoV-2 pathogenesis and antiviral targets may also find the proposed La-Nsp5 axis of interest. The broader RNA biology community studying cap-independent translation and RBP function in viral life cycles would also be relevant.
+- **Major strengths** The study addresses an important and understudied question regarding the temporal regulation of viral translation versus replication. The identification of a specific RNA motif (GCAC) and a conserved cleavage site in La provides a concrete molecular model. The combination of biochemical, cell-based, and computational approaches is ambitious. The use of multiple SARS-CoV-2 variants and an in vivo mouse model adds breadth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation of proposed mechanism
+  - **Claim pointer** "Nsp5 cleaves La at a conserved LQ site, abrogating its 5'UTR interaction, which correlates with reduced polysome association and increased viral RNA availability for replication."
+  - **Evidence pointer** Results section "Nsp5 protease of virus proteolytically cleaves La protein upon infection"; Figure 4 (not provided)
+  - **Concern** The claim that Nsp5 cleaves La at a specific LQ site is not directly validated. The authors show that Nsp5 overexpression leads to a lower molecular weight band, but they do not demonstrate that this band corresponds to cleavage at residue 295. No mutagenesis of the putative LQ site is performed to confirm that this site is required for cleavage. Furthermore, the functional consequence of cleavage is inferred from correlative experiments (reduced polysome association, increased replication) but is not directly tested. For example, expression of a cleavage-resistant La mutant (LQ to AA) in infected cells would be expected to maintain translation and suppress replication if the model is correct.
+  - **Why it matters** The central mechanistic claim of the paper rests on the specificity and functional importance of Nsp5-mediated cleavage of La. Without direct validation of the cleavage site and its functional role, the proposed model remains speculative.
+  - **Resolution test** Provide evidence that mutation of the LQ site (e.g., L295A/Q296A) abolishes Nsp5-mediated cleavage in vitro and in cells. Show that expression of cleavage-resistant La in SARS-CoV-2-infected cells maintains polysome association of viral RNA and reduces replication compared to wild-type La.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative and temporal evidence for the switch
+  - **Claim pointer** "around 18-24 h post-infection, the viral protease Nsp5 cleaves La... which correlates with reduced polysome association and increased viral RNA availability for replication."
+  - **Evidence pointer** Results section "Cleavage of La protein drives switching translation to replication"; Figure 6 (not provided)
+  - **Concern** The temporal correlation between La cleavage and the translation-to-replication switch is presented qualitatively. The authors show that La cleavage appears at 18-24 h and that polysome association of viral RNA decreases while total viral RNA increases. However, no quantitative time-course data are shown, and the correlation is not statistically evaluated. It is unclear whether the observed changes in polysome association and replication are causally linked to La cleavage or are independent consequences of the viral life cycle. The authors also do not rule out other host factors or viral proteins that may contribute to the switch.
+  - **Why it matters** The proposed model depends on a precise temporal sequence of events. Without quantitative data and appropriate controls, the correlation could be coincidental.
+  - **Resolution test** Provide quantitative time-course data (e.g., 6, 12, 18, 24, 36 h) showing the fraction of cleaved La, the percentage of viral RNA in polysome fractions, and viral RNA replication. Perform statistical analysis to demonstrate that the timing of La cleavage precedes or coincides with the decline in translation and increase in replication. Include a control where La cleavage is prevented (e.g., cleavage-resistant mutant) to show that the switch is delayed or abrogated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of La-5'UTR interaction and functional relevance
+  - **Claim pointer** "human La autoantigen specifically binds to GCAC sequence near the initiator AUG within the 5'UTR of SARS-CoV-2 RNA promoting viral non-structural protein synthesis by cap independent translation"
+  - **Evidence pointer** Results section "La protein binds to the GCAC sequence near initiator AUG of SARS-CoV-2 5'UTR"; Figures 1 and 3 (not provided)
+  - **Concern** The specificity of La binding to the GCAC motif is not rigorously established. The authors show that mutation of GCAC to ACGC reduces binding in cells, but they do not demonstrate that this mutation does not alter the overall RNA structure or affect binding of other RBPs. The functional relevance of this interaction is tested using reporter assays, but the reporters are not fully described. It is unclear whether the 5'UTR is in the correct context (e.g., full-length vs. truncated) and whether the observed effects on translation are specific to La or could be mediated by other factors that bind the same region. Additionally, the claim that La preferentially promotes non-structural protein synthesis is based on indirect evidence (polysome association) and is not directly demonstrated at the protein level.
+  - **Why it matters** The specificity of the La-5'UTR interaction is foundational to the entire model. If the interaction is not specific or if the functional effects are not directly attributable to La, the conclusions are weakened.
+  - **Resolution test** Perform RNA electrophoretic mobility shift assays (EMSA) with purified La and wild-type vs. mutant 5'UTR to demonstrate direct and specific binding. Use RNA structure probing to confirm that the GCAC mutation does not alter the overall fold. In reporter assays, include a mutant La that cannot bind RNA (e.g., mutations in RRM domains) to show that the effect on translation is dependent on La-RNA interaction. Directly measure non-structural protein synthesis (e.g., by western blot for Nsp1 or Nsp8) in cells with and without La.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational analyses as evidence for mechanism
+  - **Claim pointer** "docking study suggests that the cleavage disrupts La dimerization and truncates its C-terminal intrinsically disordered region, reducing RNA-binding affinity and conformational stability required for translation-competent ribonucleoprotein complexes"
+  - **Evidence pointer** Results section "Cleavage of La protein impairs its binding with viral 5'UTR and reduced translation"; Figures 5 and S4 (not provided)
+  - **Concern** The computational analyses (docking, MD simulations, IDP modeling) are used to support the mechanistic model, but these are purely predictive and are not validated experimentally. The authors do not provide experimental evidence for La dimerization, the effect of cleavage on dimerization, or the role of the C-terminal IDR in RNA binding. The claim that the IDR "stabilizes RRM2-mediated RNA recognition" is speculative and not supported by direct biochemical data.
+  - **Why it matters** The computational results are presented as supporting evidence for the mechanism, but without experimental validation, they cannot be used to establish the case.
+  - **Resolution test** Provide experimental evidence for La dimerization (e.g., co-immunoprecipitation, size-exclusion chromatography) and show that the cleaved form fails to dimerize. Test the RNA-binding affinity of full-length vs. cleaved La using purified proteins and EMSA or fluorescence anisotropy. If the IDR is claimed to be important, generate a La mutant lacking the IDR and test its RNA-binding and translation-promoting activity.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In vivo relevance
+  - **Claim pointer** "in mouse infection model, BALB/c mice were infected with MA10 mice adapted strain of SARS-CoV-2... Results showed relatively more association of virus RNA with La protein"
+  - **Evidence pointer** Results section "La protein binds to the GCAC sequence near initiator AUG of SARS-CoV-2 5'UTR"; Figure 1K-L (not provided)
+  - **Concern** The in vivo experiment is described briefly, and the data are not shown. The authors report a difference in viral RNA association with La between infected and control mice, but the magnitude, statistical significance, and biological relevance are unclear. The mouse model is used only to confirm binding, not to test the functional role of La in the translation-to-replication switch.
+  - **Why it matters** The in vivo data are presented as confirmatory evidence, but without full data and analysis, the strength of this claim cannot be assessed.
+  - **Resolution test** Provide the full in vivo dataset, including representative blots, quantification, and statistical analysis. If possible, test the functional role of La in the mouse model, e.g., by using La knockdown or a cleavage-resistant La knock-in, to determine whether the translation-to-replication switch is affected.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of experimental details
+  - **Affected element** Materials and Methods, luciferase reporter assays
+  - **Evidence pointer** Results section "La protein enhances cap independent translation of SARS-CoV-2 RNA"; Figure 3 (not provided)
+  - **Issue** The description of the luciferase reporter constructs is incomplete. It is unclear whether the 5'UTR is full-length or truncated, whether the reporters are bicistronic or monocistronic, and what controls were used. The authors mention "5'UTR-CoV2 Renilla luciferase (Rluc) construct along with Firefly luciferase (Fluc, internal control) construct" but do not specify the plasmid backbones or the exact arrangement of the reporters.
+  - **Required correction** Provide a detailed description of the reporter constructs, including a schematic, the exact sequences used, and the rationale for the design. Specify the controls used and how the data were normalized.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative results
+  - **Evidence pointer** Throughout Results
+  - **Issue** The manuscript does not report statistical details for most experiments. It is unclear how many independent replicates were performed, what statistical tests were used, and whether the data are presented as mean ± SD or SEM.
+  - **Required correction** Add statistical information for all quantitative experiments, including the number of replicates, the statistical test used, and the significance thresholds. Consider adding error bars to all figures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of polysome profiling
+  - **Affected element** Results section "La protein differentially regulates viral RNA translation and replication"
+  - **Evidence pointer** Figure 2 (not provided)
+  - **Concern** The polysome profiling data are used to support the claim that La enhances translation of viral RNA. However, the authors do not show whether the effect is specific to viral RNA or whether La also affects global translation. The polysome profiles appear similar between mock and La-overexpressing cells, but the quantification of viral RNA in polysome fractions is not shown.
+  - **Required correction** Show the quantification of viral RNA in polysome fractions and include a control for global translation (e.g., total mRNA in polysome fractions). Discuss whether the effect of La is specific to viral RNA.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Nomenclature and consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Introduction, Results
+  - **Issue** The manuscript uses "Nsp5" and "Nsp3" without consistently specifying the viral protease nomenclature. The authors also refer to "cap independent translation" and "IRES-mediated translation" somewhat interchangeably, which could be confusing.
+  - **Required correction** Define all abbreviations at first use and use consistent terminology throughout. Clarify whether the cap-independent translation observed is IRES-mediated or occurs via another mechanism.
+- **Technical failings that need to be addressed before the case is established** (1) Lack of direct validation of the Nsp5 cleavage site in La. (2) No functional experiments with cleavage-resistant La mutants. (3) Incomplete description of reporter constructs and assays. (4) Absence of quantitative time-course data for the translation-to-replication switch. (5) Computational predictions are not experimentally validated. (6) In vivo data are presented without full details.
+- **Assessment against Nature-style criteria** Originality: The concept of a host RBP being cleaved by a viral protease to regulate the translation-replication switch is novel and potentially significant. However, the originality is tempered by the lack of direct mechanistic validation. Scientific importance: If the model is correct, it would provide a new understanding of SARS-CoV-2 life cycle regulation and identify La as a potential therapeutic target. The importance is high, but the current evidence is insufficient to fully support the claims. Interdisciplinary readership: The topic is of interest to virologists, RNA biologists, and structural biologists. The computational components may attract computational biologists. The manuscript is written in a way that is accessible to these groups. Technical soundness: The experimental approaches are generally appropriate, but the lack of key controls and direct validation weakens the technical soundness. The computational methods are described but not validated experimentally. Readability for nonspecialists: The manuscript is generally well-written and the logic is clear, but some sections (e.g., computational methods) may be challenging for nonspecialists. The abstract is concise and accessible.
+- **Recommendation posture** Not currently established from the provided evidence. The manuscript presents an interesting hypothesis with correlative data, but the central claims regarding Nsp5-mediated cleavage of La and its functional role in the translation-to-replication switch are not directly validated. The authors should be encouraged to address the major concerns, particularly the need for cleavage-site mutagenesis and functional experiments with cleavage-resistant La mutants.
+
+## Risk / unsupported claims
+- The claim that Nsp5 cleaves La at a specific LQ site (residue 295) is not directly supported by experimental evidence.
+- The claim that La cleavage reduces polysome association and increases replication is correlative and not causally established.
+- The computational predictions regarding La dimerization and the role of the C-terminal IDR in RNA binding are not experimentally validated.
+- The in vivo data are described but not shown, making the claim of viral RNA association with La in mouse lungs unverifiable from the provided material.
+- The claim that La preferentially promotes non-structural protein synthesis is not directly demonstrated at the protein level.
+- The specificity of La binding to the GCAC motif is not rigorously established, as the effect of the mutation on RNA structure and binding of other factors is not assessed.

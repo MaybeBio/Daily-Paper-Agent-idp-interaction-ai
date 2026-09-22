@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.28.591531",
+  "title": "GLP-1R associates with VAPB and SPHKAP at ERMCSs to regulate β-cell mitochondrial remodelling and function",
+  "authors": "Austin G; Oqua AI; El Eid L; Zhu M; Manchanda Y; Peres P; Coyle H; Poliakova Y; Bouzakri K; Montoya A; Withers DJ; Solimena M; Jones B; Millership SJ; Burgold S; Gaboriau DC; Majorovits E; Garlick E; Lima M; Prokopenko I; Nixon-Abell J; Müller A; Tomas A",
+  "journal": "bioRxiv",
+  "published_date": "2024-04-30",
+  "window": {
+    "start": "2024-04-29",
+    "end": "2024-05-05"
+  },
+  "score": 3,
+  "one_liner_zh": "该文研究GLP-1R在ER-线粒体接触位点与VAPB/SPHKAP互作并通过PKA-RIα凝聚体调控β细胞线粒体功能，虽涉及蛋白互作和生物分子凝聚体，但对象非无序蛋白/IDR，且方法为纯实验无AI或物理模拟，对无序蛋白PPI机制建模启发有限。",
+  "abstract": "Glucagon-like peptide-1 receptor (GLP-1R) agonists (GLP-1RAs) ameliorate mitochondrial health by increasing mitochondrial turnover in metabolically relevant tissues. Mitochondrial adaptation to metabolic stress is crucial to maintain pancreatic β-cell function and prevent type 2 diabetes (T2D) progression. While the GLP-1R is well-known to stimulate cAMP production leading to Protein Kinase A (PKA) and Exchange Protein Activated by cyclic AMP 2 (Epac2) activation, there is a lack of understanding of the molecular mechanisms linking GLP-1R signalling with mitochondrial and β-cell functional adaptation. Here, we present a comprehensive study in β-cell lines and primary islets that demonstrates that, following GLP-1RA stimulation, GLP-1R-positive endosomes associate with the endoplasmic reticulum (ER) membrane contact site (MCS) tether VAPB at ER-mitochondria MCSs (ERMCSs), where active GLP-1R engages with SPHKAP, an A-kinase anchoring protein (AKAP) previously linked to T2D and adiposity risk in genome-wide association studies (GWAS). The inter-organelle complex formed by endosomal GLP-1R, ER VAPB and SPHKAP triggers a pool of ERMCS-localised cAMP/PKA signalling via the formation of a PKA-RIα biomolecular condensate which leads to changes in mitochondrial contact site and cristae organising system (MICOS) complex phosphorylation, mitochondrial remodelling, and β-cell functional adaptation, with important consequences for the regulation of β-cell insulin secretion and survival to stress.",
+  "abstract_zh": "胰高血糖素样肽-1受体（GLP-1R）激动剂（GLP-1RAs）通过增加代谢相关组织中的线粒体周转来改善线粒体健康。线粒体对代谢应激的适应对于维持胰腺β细胞功能和预防2型糖尿病（T2D）进展至关重要。尽管已知GLP-1R能刺激cAMP产生，进而激活蛋白激酶A（PKA）和环磷酸腺苷交换蛋白2（Epac2），但关于GLP-1R信号传导与线粒体及β细胞功能适应之间的分子机制仍缺乏理解。在此，我们在β细胞系和原代胰岛中开展了一项综合研究，证明在GLP-1RA刺激后，GLP-1R阳性内体与内质网（ER）膜接触位点（MCS）锚定蛋白VAPB在ER-线粒体接触位点（ERMCSs）处结合，其中活性GLP-1R与SPHKAP（一种A激酶锚定蛋白（AKAP），此前在全基因组关联研究（GWAS）中与T2D和肥胖风险相关）相互作用。由内体GLP-1R、ER VAPB和SPHKAP形成的细胞器间复合物，通过形成PKA-RIα生物分子凝聚体，触发ERMCS定位的cAMP/PKA信号传导池，进而导致线粒体接触位点和嵴组织系统（MICOS）复合物磷酸化变化、线粒体重塑以及β细胞功能适应，对调节β细胞胰岛素分泌和对应激的存活具有重要影响。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.28.591531",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.28.591531",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.28.591531/index.html"
+}

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Database description and new feature report for MobiDB release; no experimental validation of biological claims is expected for a database paper
+- **Shared manuscript claim summary** The authors describe the latest release of MobiDB, a database of intrinsically disordered proteins, highlighting two major advances: integration of AlphaFoldDB predictions for disorder annotation and a re-implemented homology transfer pipeline that expands manually curated annotations by two orders of magnitude. Additional updates include integration of PhaSepDB for liquid-liquid phase separation proteins, a controlled vocabulary for annotation description, and a redesigned entry page with improved user experience.
+- **Visible evidence base** Full text including abstract, introduction, database content description, new features sections, implementation details, and data availability statement. Tables 1-3 are referenced but not provided in the supplied material. Figures 1-2 are referenced but not provided.
+- **Missing materials affecting confidence** Tables 1-3, Figures 1-2, and any supplementary materials are not included in the supplied text. This limits verification of quantitative claims about database content, the homology transfer pipeline performance, and the Paxillin example.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a mature and widely used database for intrinsically disordered proteins. The new release introduces two significant technical advances: the integration of AlphaFold predictions and a homology transfer pipeline with stringent filtering criteria. The controlled vocabulary is a welcome standardization effort. However, the manuscript would benefit from more quantitative evaluation of the homology transfer pipeline's accuracy and a clearer description of how AlphaFold-derived disorder definitions compare with existing methods. The writing is generally clear, though some technical details are underspecified.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and regions, including experimentalists seeking comprehensive annotation for single proteins and bioinformaticians needing large-scale datasets for machine learning or statistical analyses. The integration of AlphaFold predictions will also interest structural biologists and the broader protein science community. The controlled vocabulary and standardized annotation framework are relevant to biocuration efforts and database interoperability initiatives.
+- **Major strengths** The database fills a clear community need and has demonstrated sustained utility over 10 years. The homology transfer pipeline with stringent similarity thresholds (90% coverage, 80% identity, 20% gap limit) is a well-defined approach to expanding curated annotations. The integration of AlphaFold predictions is timely and leverages a widely used resource. The controlled vocabulary is a valuable standardization step that improves interoperability. The redesigned entry page with separate views for structural disorder evidence and binding modes addresses user needs.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The homology transfer pipeline "expands manually curated annotations by two orders of magnitude" while maintaining high quality through stringent filtering.
+  - **Evidence pointer** Table 2, section "Homology transfer", location not provided
+  - **Concern** The manuscript claims a two orders of magnitude expansion of curated annotations via homology transfer but provides no quantitative assessment of the accuracy or precision of the transferred annotations. The filtering criteria (90% coverage, 80% identity, 20% gap limit) are described, but no validation against known disorder annotations or comparison with alternative transfer methods is presented. The statement that the pipeline "minimizes the number of false positive instances" is asserted without supporting evidence.
+  - **Why it matters** Homology transfer is a core new feature of this release. Without validation, users cannot assess the reliability of the transferred annotations, which may propagate errors across the large number of proteins affected. The claim of two orders of magnitude expansion is impressive but meaningless if the transferred annotations are not accurate.
+  - **Resolution test** Provide a validation analysis comparing transferred annotations against a held-out set of curated annotations or against experimental disorder data. Report precision, recall, and false positive rates. Alternatively, compare the homology transfer results with those from existing tools or databases to demonstrate comparable or superior accuracy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** AlphaFold predictions are processed to extract two alternative definitions of disorder (pLDDT < 70% and RSA > 0.58 on a 25-residue window) and one definition of linear interacting peptides.
+  - **Evidence pointer** Section "AlphaFold and conditional disorder", Figure 2, location not provided
+  - **Concern** The thresholds for AlphaFold-derived disorder definitions (pLDDT < 70%, RSA > 0.58) are presented without justification or comparison with established disorder predictors. The manuscript cites CAID assessment showing AlphaFold correlates well with experimental disorder, but does not explain how these specific thresholds were chosen or how they perform relative to existing methods. The Paxillin example (Figure 2) is described qualitatively but no quantitative assessment of the LIP prediction accuracy is provided.
+  - **Why it matters** Users need to understand the basis for these thresholds to interpret the annotations correctly. If the thresholds are arbitrary or poorly calibrated, the derived disorder and LIP annotations may be misleading. The claim that AlphaFold predictions "correlate very well with experimental disorder" requires more specific evidence in the context of these particular thresholds.
+  - **Resolution test** Provide a benchmark analysis comparing the AlphaFold-derived disorder definitions against experimental disorder data and against established predictors (e.g., IUPred, ESpritz) using standard metrics. Justify the chosen thresholds with reference to this analysis or to published benchmarks.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The homology transfer pipeline and AlphaFold processing scripts are available for download.
+  - **Evidence pointer** Section "AlphaFold and conditional disorder", Data availability section, location not provided
+  - **Concern** The manuscript states that the AlphaFold-disorder script is available at a GitHub URL and that all data and links to used software are available at the MobiDB website. However, no version numbers, release dates, or specific software dependencies are provided for the homology transfer pipeline. The reproducibility of the described analyses is therefore limited.
+  - **Why it matters** For a database paper, reproducibility is essential. Users and developers need to be able to recreate the described pipelines to understand the annotations and to build upon the methods. Lack of versioning and dependency information hinders this.
+  - **Resolution test** Provide version numbers, release dates, and dependency lists for all scripts and pipelines. Consider depositing the code in a permanent archive such as Zenodo with a DOI.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the homology transfer pipeline "expands manually curated annotations by two orders of magnitude" but does not specify the absolute numbers involved. This makes it difficult to gauge the practical impact.
+  - **Required correction** Include the absolute number of annotations before and after the expansion, or provide the total number of proteins affected.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1, location not provided
+  - **Issue** Table 1 is referenced in the "Annotation pyramid" section but is not included in the supplied material. The text mentions "the number of entries along with the type and source of information for the four levels of the MobiDB pyramid" but the actual numbers are not visible.
+  - **Required correction** Ensure Table 1 is included in the final manuscript with all reported values clearly labeled.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "Liquid-liquid phase separation"
+  - **Evidence pointer** Section "Liquid-liquid phase separation", location not provided
+  - **Issue** The integration of PhaSePro and PhaSepDB is mentioned but the criteria for inclusion and how these data are combined with existing annotations are not described.
+  - **Required correction** Briefly describe the data processing steps for LLPS annotations and how they are integrated into the database schema.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Website section
+  - **Evidence pointer** Section "Website", location not provided
+  - **Issue** The Swagger UI for API documentation is mentioned but no URL is provided in the text.
+  - **Required correction** Include the URL for the Swagger UI in the manuscript.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Controlled vocabulary section
+  - **Evidence pointer** Section "Controlled vocabularies", location not provided
+  - **Issue** The controlled vocabulary is described as having 4, 39, and 37 terms in the evidence, feature, and source namespaces respectively. However, no examples of terms are given, making it difficult to understand the scope of the vocabulary.
+  - **Required correction** Provide a few example terms from each namespace to illustrate the vocabulary.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation of homology transfer), R1-M2 (justification of AlphaFold thresholds). These are the two primary new features of this release and their reliability is not adequately demonstrated.
+- **Assessment against Nature-style criteria** Originality: Moderate. The database itself is not novel, but the integration of AlphaFold predictions and the homology transfer pipeline represent incremental advances. The controlled vocabulary is a useful standardization effort. Scientific importance: High for the IDP community, which lacks comprehensive and standardized resources. The expansion of curated annotations by two orders of magnitude, if validated, would be a significant contribution. Interdisciplinary readership: Moderate. The database serves structural biology, bioinformatics, and molecular biology communities, but the manuscript is primarily technical and will appeal mainly to specialists. Technical soundness: The database architecture and processing pipelines appear sound, but the lack of validation for the two main new features is a significant gap. Readability for nonspecialists: The manuscript is generally well written and accessible, though some technical details (e.g., the homology transfer criteria) could be explained more clearly for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The database is a valuable community resource and the described updates are relevant. However, the lack of validation for the homology transfer pipeline and the AlphaFold-derived disorder thresholds must be addressed before the claims of expanded high-quality annotations can be accepted.
+
+## Risk / unsupported claims
+- The claim that the homology transfer pipeline "expands manually curated annotations by two orders of magnitude" is unsupported without validation data showing the accuracy of transferred annotations.
+- The claim that AlphaFold predictions "correlate very well with experimental disorder" is cited to CAID assessment but not demonstrated for the specific thresholds used in MobiDB.
+- The statement that the homology transfer pipeline "minimizes the number of false positive instances" is asserted without supporting evidence.
+- The Paxillin example (Figure 2) is described as showing predicted LIPs matching known binding motifs, but no quantitative assessment of prediction accuracy is provided.
+- The claim that the database has "reached its maturity" in terms of schema and processing is not directly verifiable from the supplied material.

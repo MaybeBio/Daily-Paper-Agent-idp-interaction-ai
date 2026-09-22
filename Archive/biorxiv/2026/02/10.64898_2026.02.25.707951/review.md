@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report that poly(ADP-ribose) (PAR) induces nucleosome decompaction through a length-dependent kinetic threshold, with chains shorter than ten ADP-ribose units acting slowly and weakly, while longer polymers promote rapid and efficient opening. They further claim that decompaction extent and reversibility depend on PAR concentration and ionic strength, that enzymatic PAR digestion reveals both reversible linker DNA opening and irreversible nucleosome disassembly, and that coarse-grained simulations support a mechanism involving competition between PAR and DNA for histone tail binding. The authors position PAR length as a key factor controlling chromatin accessibility during DNA repair and highlight droplet-based microfluidics as a platform for such studies.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, kinetic data, simulation details, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting biophysical study addressing a relevant question in chromatin biology, namely how PAR modulates nucleosome structure and dynamics. The combination of microfluidic mixing with single-molecule FRET is a technically ambitious approach that could offer new insights. However, the abstract alone provides insufficient detail to evaluate the robustness of the kinetic measurements, the quantitative basis for the length threshold, the reversibility claims, or the simulation results. Several claims are stated without supporting quantitative information, and the mechanistic interpretation rests heavily on simulation data that are not described. The work may be of interest to specialists in chromatin dynamics and DNA repair, but the evidence base provided here is too limited to establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers studying chromatin structure and dynamics, particularly those interested in nucleosome remodeling and the role of post-translational modifications in DNA damage response. The methodological advance in droplet-based microfluidics for single-molecule FRET under non-equilibrium conditions may also appeal to biophysicists developing time-resolved assays for biomolecular interactions. The potential link between PAR length and chromatin accessibility could be of interest to the DNA repair community.
+- **Major strengths** The study addresses a biologically important question with a technically sophisticated approach that enables millisecond time resolution without surface tethering artifacts. The length-dependent threshold is a conceptually interesting finding that could have functional implications for PAR signaling. The combination of experimental kinetics with coarse-grained simulations provides a framework for mechanistic interpretation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that PAR triggers nucleosome decompaction via a length-dependent kinetic threshold, with chains shorter than ten ADP-ribose units acting slowly and weakly, whereas longer PAR polymers induce efficient and rapid nucleosome opening.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data supporting the length threshold. No rate constants, amplitudes, or statistical comparisons are given. The distinction between "slow and weak" and "efficient and rapid" is qualitative and cannot be evaluated without kinetic parameters and error estimates.
+  - **Why it matters** The length-dependent threshold is a central claim of the study. Without quantitative kinetic data, the reader cannot assess whether the threshold is robust, whether it is statistically significant, or whether it reflects a discrete mechanistic transition or a gradual length dependence.
+  - **Resolution test** Provide rate constants and amplitudes for PAR chains of defined lengths, with replicates and statistical tests demonstrating a clear transition at approximately ten ADP-ribose units.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that enzymatic PAR digestion demonstrates that PAR can promote both reversible linker DNA opening and irreversible nucleosome disassembly.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The distinction between reversible and irreversible processes is a strong mechanistic claim. The abstract does not describe how reversibility was assessed, what fraction of nucleosomes underwent each pathway, or how the irreversible disassembly was distinguished from experimental artifacts such as photobleaching or surface effects.
+  - **Why it matters** The claim of irreversible disassembly has implications for chromatin remodeling during DNA repair. If this claim is not rigorously supported, the biological interpretation may be overstated.
+  - **Resolution test** Show representative time traces and ensemble kinetics before and after PAR digestion, with controls for photobleaching and a quantitative partition between reversible and irreversible populations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that coarse-grained molecular simulations suggest that these effects arise from a competition between PAR and DNA for histone tail binding.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details of the simulation model, force field, system size, simulation time, or analysis are provided. The claim that simulations "suggest" a mechanism is weak without information on whether the simulations recapitulate the experimental length dependence or the kinetic threshold.
+  - **Why it matters** The mechanistic interpretation rests on the simulations. Without evidence that the simulations are validated against the experimental observations, the proposed competition mechanism remains speculative.
+  - **Resolution test** Describe the simulation model and show that it reproduces the experimentally observed length dependence and kinetic behavior, with appropriate controls and convergence analyses.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that PAR length is a key factor controlling chromatin accessibility during DNA repair.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any cellular or in vivo evidence linking the observed in vitro behavior to chromatin accessibility in a DNA repair context. The claim of biological relevance is an extrapolation from the in vitro system.
+  - **Why it matters** The broader significance of the work depends on the relevance of the in vitro findings to cellular processes. Without any connection to cellular PAR lengths or repair contexts, the claim remains speculative.
+  - **Resolution test** Provide a discussion of cellular PAR lengths in relevant contexts, or ideally, complementary data in a cellular or nuclear extract system.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract uses technical terms such as "droplet-based microfluidic mixing" and "tether-free observation" without explaining why these features are advantageous for a general readership.
+  - **Required correction** Briefly state why avoiding surface adhesion and enabling tether-free observation matter for the validity of the measurements.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract does not state the physiological range of PAR lengths or how the studied lengths compare to those found in cells.
+  - **Required correction** Add a sentence contextualizing the studied PAR lengths relative to cellular PAR synthesis and degradation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract mentions that decompaction extent and reversibility depend on ionic strength, but does not specify the range of ionic strengths tested or the direction of the effect.
+  - **Required correction** Provide the ionic strength range and state whether higher ionic strength enhances or suppresses decompaction.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central kinetic threshold, the reversible versus irreversible distinction, and the simulation-based mechanism are all insufficiently supported by the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The combination of microfluidic mixing with single-molecule FRET for nucleosome studies appears novel, and the length-dependent threshold is a potentially original finding. Scientific importance: The question of how PAR modulates chromatin is relevant, but the abstract does not establish the broader biological significance beyond a general statement about DNA repair. Interdisciplinary readership: The work bridges biophysics and chromatin biology, which could appeal to a broad audience, but the abstract is written in a way that may be challenging for nonspecialists. Technical soundness: Cannot be assessed from the abstract; the lack of quantitative data and methodological detail is a major limitation. Readability for nonspecialists: The abstract is concise but uses specialized terminology without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting premise and a technically ambitious approach, but the central claims are not quantitatively supported. A full assessment requires the complete manuscript with methods, figures, and statistical analyses. If the full data support the claims as stated, the work could be of interest to a specialized audience, but the case is not made from the abstract alone.
+
+## Risk / unsupported claims
+- The length-dependent kinetic threshold with a cutoff at ten ADP-ribose units is unsupported by quantitative data in the abstract.
+- The claim of both reversible and irreversible nucleosome remodeling is unsupported without experimental details on how reversibility was defined and measured.
+- The simulation-based mechanism of competition between PAR and DNA for histone tail binding is unverifiable from the abstract.
+- The statement that PAR length is a key factor controlling chromatin accessibility during DNA repair is an extrapolation without cellular evidence.
+- The claim that the approach "avoids surface-adhesion" and enables "tether-free observation" is presented as an advantage but cannot be verified without methodological details.

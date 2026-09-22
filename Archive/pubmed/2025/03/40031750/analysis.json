@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40031750",
+  "title": "Trans-MoRFs: A Disordered Protein Predictor Based on the Transformer Architecture.",
+  "authors": "Meng, Chaolu; Shi, Yunyun; Fu, Xueliang; Zou, Quan; Han, Wu",
+  "journal": "IEEE journal of biomedical and health informatics",
+  "published_date": "2025-03-04",
+  "window": {
+    "start": "2025-03-03",
+    "end": "2025-03-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用Transformer架构预测无序蛋白中的分子识别特征(MoRFs)，虽聚焦于序列预测而非直接建模PPI机制，但MoRFs是IDR介导互作的关键元件，方法可迁移至互作位点识别。",
+  "abstract": "Intrinsically disordered regions (IDRs) of proteins are crucial for a wide range of biological functions, with molecular recognition features (MoRFs) being of particular significance in protein interactions and cellular regulation. However, the identification of MoRFs has been a significant challenge in computational biology owing to their disorder-to-order transition properties. Currently, only a limited number of experimentally validated MoRFs are known, which has prompted the development of computational methods for predicting MoRFs from protein chains. Considering the limitations of existing MoRF predictors regarding prediction accuracy and adaptability to diverse protein sequence lengths, this study introduces Trans-MoRFs, a novel MoRF predictor based on the transformer architecture, for identifying MoRFs within IDRs of proteins. Trans-MoRFs employ the self-attention mechanism of the transformer to efficiently capture the interactions of distant residues in protein sequences. They demonstrate stability and high efficiency in dealing with protein sequences of different lengths and performs well on both short and long sequences. On multiple benchmark datasets, the model attained a mean area under the curve score of 0.94, which is higher than those of all existing models, and significantly outperformed existing combined and single MoRF prediction tools on multiple performance metrics. Trans-MoRFs have excellent accuracy and a wide range of applications for predicting MoRFs and other functionally important fragments in the disordered regions of proteins. They offer significant assistance in comprehending protein functions, precisely pinpointing functional segments within disordered protein regions and facilitating the discovery of novel drug targets.",
+  "abstract_zh": "蛋白质的固有无序区域（IDRs）对于广泛的生物学功能至关重要，其中分子识别特征（MoRFs）在蛋白质相互作用和细胞调控中尤为重要。然而，由于MoRFs具有从无序到有序的转变特性，其识别一直是计算生物学中的重大挑战。目前，已知的实验验证的MoRFs数量有限，这促使了从蛋白质链预测MoRFs的计算方法的发展。鉴于现有MoRF预测器在预测准确性和对不同蛋白质序列长度适应性方面的局限性，本研究引入了Trans-MoRFs，一种基于transformer架构的新型MoRF预测器，用于识别蛋白质IDRs中的MoRFs。Trans-MoRFs利用transformer的自注意力机制，高效捕捉蛋白质序列中远距离残基的相互作用。它们在处理不同长度的蛋白质序列时表现出稳定性和高效率，在短序列和长序列上均表现良好。在多个基准数据集上，该模型获得了平均曲线下面积分数0.94，高于所有现有模型，并在多项性能指标上显著优于现有的组合和单一MoRF预测工具。Trans-MoRFs在预测蛋白质无序区域中的MoRFs及其他功能重要片段方面具有出色的准确性和广泛的应用前景。它们为理解蛋白质功能、精确定位无序蛋白质区域内的功能片段以及促进新药物靶点的发现提供了重要帮助。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40031750/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40031750/",
+  "paper_page_path": "papers/pubmed/40031750/index.html"
+}

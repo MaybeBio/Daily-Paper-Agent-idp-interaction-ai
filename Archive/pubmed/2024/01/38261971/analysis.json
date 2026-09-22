@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38261971",
+  "title": "Checkpoint activation by Spd1: a competition-based system relying on tandem disordered PCNA binding motifs.",
+  "authors": "Olsen, Johan G; Prestel, Andreas; Kassem, Noah; Broendum, Sebastian S; Shamim, Hossain Mohammad; Simonsen, Signe; Grysbaek, Martin; Mortensen, Josefine; Rytkjaer, Louise Lund; Haxholm, Gitte W; Marabini, Riccardo; Holmberg, Christian; Carr, Antony M; Crehuet, Ramon; Nielsen, Olaf; Kragelund, Birthe B",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-01-23",
+  "window": {
+    "start": "2024-01-22",
+    "end": "2024-01-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过NMR、晶体学和蒙特卡洛模拟揭示无序蛋白Spd1串联PCNA结合基序介导的竞争性互作机制，直接聚焦IDP-PPI机制建模，虽方法以实验为主但模拟辅助，高度相关。",
+  "abstract": "DNA regulation, replication and repair are processes fundamental to all known organisms and the sliding clamp proliferating cell nuclear antigen (PCNA) is central to all these processes. S-phase delaying protein 1 (Spd1) from S. pombe, an intrinsically disordered protein that causes checkpoint activation by inhibiting the enzyme ribonucleotide reductase, has one of the most divergent PCNA binding motifs known. Using NMR spectroscopy, in vivo assays, X-ray crystallography, calorimetry, and Monte Carlo simulations, an additional PCNA binding motif in Spd1, a PIP-box, is revealed. The two tandemly positioned, low affinity sites exchange rapidly on PCNA exploiting the same binding sites. Increasing or decreasing the binding affinity between Spd1 and PCNA through mutations of either motif compromised the ability of Spd1 to cause checkpoint activation in yeast. These results pinpoint a role for PCNA in Spd1-mediated checkpoint activation and suggest that its tandemly positioned short linear motifs create a neatly balanced competition-based system, involving PCNA, Spd1 and the small ribonucleotide reductase subunit, Suc22R2. Similar mechanisms may be relevant in other PCNA binding ligands where divergent binding motifs so far have gone under the PIP-box radar.",
+  "abstract_zh": "DNA调控、复制与修复是所有已知生物体生命活动的基础过程，而滑动夹增殖细胞核抗原（PCNA）在这些过程中处于核心地位。来自裂殖酵母（S. pombe）的S期延迟蛋白1（Spd1），一种通过抑制核糖核苷酸还原酶引发检查点激活的内在无序蛋白，拥有已知最独特的PCNA结合基序之一。通过核磁共振波谱、体内实验、X射线晶体学、量热法和蒙特卡洛模拟，揭示了Spd1中一个额外的PCNA结合基序，即PIP-box。这两个串联排列的低亲和力位点在PCNA上快速交换，利用相同的结合位点。通过任一基序的突变增加或降低Spd1与PCNA之间的结合亲和力，均损害了Spd1在酵母中引发检查点激活的能力。这些结果明确了PCNA在Spd1介导的检查点激活中的作用，并提示其串联排列的短线性基序构建了一个涉及PCNA、Spd1和小核糖核苷酸还原酶亚基Suc22R2的精细平衡的竞争性系统。类似机制可能在其他PCNA结合配体中相关，其中迄今未识别的发散性结合基序可能未被PIP-box检测到。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38261971/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38261971/",
+  "paper_page_path": "papers/pubmed/38261971/index.html"
+}

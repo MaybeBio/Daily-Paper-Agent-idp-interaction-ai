@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36827446",
+  "title": "Simple and Effective Conformational Sampling Strategy for Intrinsically Disordered Proteins Using the UNRES Web Server.",
+  "authors": "Li, Tongtong; Hendrix, Emily; He, Yi",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2023-02-25",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出用UNRES网络服务器的粗粒化副本交换分子动力学采样无序蛋白构象，虽未直接研究PPI，但为IDP构象系综的物理模拟提供了低成本方法，可迁移至后续互作机制建模。",
+  "abstract": "Intrinsically disordered proteins (IDPs) contain more charged amino acids than folded proteins, resulting in a lack of hydrophobic core(s) and a tendency to adopt rapidly interconverting structures rather than well-defined structures. The structural heterogeneity of IDPs, encoded by the amino acid sequence, is closely related to their unique roles in biological pathways, which require them to interact with different binding partners. Recently, Robustelli and co-workers have demonstrated that a balanced all-atom force field can be used to sample heterogeneous structures of disordered proteins ( Proc. Natl. Acad. Sci. U.S.A. 2018, 115, E4758-E4766). However, such a solution requires extensive computational resources, such as Anton supercomputers. Here, we propose a simple and effective solution to sample the conformational space of IDPs using a publicly available web server, namely, the UNited-RESidue (UNRES) web server. Our proposed solution requires no investment in computational resources and no prior knowledge of UNRES. UNRES Replica Exchange Molecular Dynamics (REMD) simulations were carried out on a set of eight disordered proteins at temperatures spanning from 270 to 430 K. Utilizing the latest UNRES force field designed for structured proteins, with proper selections of temperatures, we were able to produce comparable results to all-atom force fields as reported in work done by Robustelli and co-workers. In addition, NMR observables and the radius of gyration calculated from UNRES ensembles were directly compared with the experimental data to further evaluate the accuracy of the UNRES model at all temperatures. Our results suggest that carrying out the UNRES simulations at optimal temperatures using the UNRES web server can be a good alternative to sample heterogeneous structures of IDPs.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 比折叠蛋白含有更多带电氨基酸，导致缺乏疏水核心，并倾向于采用快速互变的结构而非明确结构。IDPs 的结构异质性由氨基酸序列编码，与其在生物通路中的独特作用密切相关，这些作用要求它们与不同结合伙伴相互作用。近期，Robustelli 及其同事证明，平衡的全原子力场可用于采样无序蛋白的异质结构（Proc. Natl. Acad. Sci. U.S.A. 2018, 115, E4758-E4766）。然而，这种解决方案需要大量计算资源，如 Anton 超级计算机。在此，我们提出一种简单有效的解决方案，利用公开可用的网络服务器，即 UNited-RESidue (UNRES) 网络服务器，来采样 IDPs 的构象空间。我们提出的方案无需投资计算资源，也无需 UNRES 的先前知识。我们在八个无序蛋白上进行了 UNRES 副本交换分子动力学 (REMD) 模拟，温度范围从 270 到 430 K。利用为结构化蛋白设计的最新 UNRES 力场，并适当选择温度，我们能够产生与 Robustelli 及其同事工作中报告的全原子力场相当的结果。此外，从 UNRES 系综计算的 NMR 可观测量和回转半径直接与实验数据比较，以进一步评估 UNRES 模型在所有温度下的准确性。我们的结果表明，使用 UNRES 网络服务器在最优温度下进行 UNRES 模拟，可作为采样 IDPs 异质结构的良好替代方案。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36827446/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36827446/",
+  "paper_page_path": "papers/pubmed/36827446/index.html"
+}

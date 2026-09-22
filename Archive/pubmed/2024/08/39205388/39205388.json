@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "39205388",
+    "doi": "10.1016/j.bpj.2024.08.024",
+    "title": "C9orf72 polyPR interaction with the nuclear pore complex."
+  },
+  "content": {
+    "abstract": "The C9orf72 gene associated with amyotrophic lateral sclerosis/frontotemporal dementia is translated to five dipeptide repeat proteins, among which poly-proline-arginine (PR) is the most toxic in cell and animal models, contributing to a variety of cellular defects. It has been proposed that polyPR disrupts nucleocytoplasmic transport (NCT) through several mechanisms including accumulation in the nuclear pore complex (NPC), accumulation in the nucleolus, and direct interactions with transport receptors. The NPC, which is the key regulator of transport between the cytoplasm and nucleus, plays a central role in these suggested mechanisms. Exploring polyPR interaction with the NPC provides valuable insight into the molecular details of polyPR-mediated NCT defects. To address this, we use coarse-grained molecular dynamics models of polyPR and the yeast NPC lined with intrinsically disordered FG-nucleoporins (FG-Nups). Our findings indicate no aggregation of polyPR within the NPC or permanent binding to FG-Nups. Instead, polyPR translocates through the NPC, following a trajectory through the central low-density region of the pore. In the case of longer polyPRs, we observe a higher energy barrier for translocation and a narrower translocation channel. Our study shows that polyPR and FG-Nups are mainly engaged in steric interactions inside the NPC with only a small contribution of specific cation-pi, hydrophobic, and electrostatic interactions, allowing polyPR to overcome the entropic barrier of the NPC in a size-dependent manner.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nuclear Pore/metabolism/chemistry",
+      "*C9orf72 Protein/genetics/metabolism/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Nuclear Pore Complex Proteins/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "Saccharomyces cerevisiae/metabolism/genetics",
+      "Active Transport, Cell Nucleus",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jafarinia, Hamidreza",
+        "Van der Giessen, Erik",
+        "Onck, Patrick R"
+      ],
+      "short_names": [
+        "Jafarinia H",
+        "Van der Giessen E",
+        "Onck PR"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands. Electronic address: p.r.onck@rug.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jafarinia, Hamidreza",
+        "short_name": "Jafarinia H",
+        "identifiers": [],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Van der Giessen, Erik",
+        "short_name": "Van der Giessen E",
+        "identifiers": [],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Onck, Patrick R",
+        "short_name": "Onck PR",
+        "identifiers": [],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands. Electronic address: p.r.onck@rug.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2024 Oct 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/31 09:50",
+    "fetched_at": "2026-09-22 01:40:56"
+  },
+  "links": {
+    "cites": [
+      "41100670",
+      "40819564"
+    ],
+    "refs": [
+      "38483313",
+      "37328037",
+      "37307457",
+      "36494425",
+      "34489423",
+      "33790297",
+      "33357437",
+      "32730793",
+      "32119645",
+      "31673013",
+      "30981631",
+      "30143685",
+      "29628143",
+      "29442997",
+      "28243191",
+      "28069952",
+      "27830784",
+      "27697925",
+      "26894898",
+      "26869068",
+      "26589045",
+      "26347457",
+      "26308983",
+      "26308899",
+      "25631821",
+      "25521377",
+      "25229147",
+      "25103406",
+      "25081482",
+      "24248382",
+      "24166615",
+      "24129584",
+      "23393093",
+      "21944779",
+      "21944778",
+      "20571586",
+      "19680228",
+      "18046406",
+      "18046405",
+      "17287812"
+    ],
+    "similar": [
+      "39205388",
+      "38483313",
+      "26658558",
+      "34170347",
+      "28887410",
+      "38018404",
+      "28069952",
+      "15557115",
+      "30704069",
+      "34473567",
+      "34639238",
+      "30902367",
+      "23404701",
+      "39927798",
+      "17875746",
+      "12543930",
+      "21447814",
+      "28669824",
+      "35491934",
+      "17418788",
+      "29033133",
+      "28506890",
+      "39282864",
+      "28068389",
+      "39600095",
+      "35679397",
+      "36040030",
+      "20482319",
+      "32794558",
+      "27673359",
+      "22901806",
+      "25229147",
+      "29374059",
+      "24626154",
+      "33548309",
+      "33790297",
+      "17630825",
+      "34339633",
+      "36302971",
+      "35923096",
+      "21647294",
+      "39356635",
+      "36494425",
+      "40193850",
+      "32673563",
+      "37307457",
+      "26878241",
+      "38302116",
+      "29590630",
+      "37791472",
+      "24144701",
+      "21673865",
+      "40079246",
+      "26791761",
+      "35098921",
+      "22357553",
+      "26894898",
+      "37100914",
+      "31262825",
+      "25797490",
+      "33336681",
+      "19801417",
+      "21987633",
+      "37258668",
+      "36821445",
+      "26530420",
+      "19278659",
+      "39475712",
+      "22577827",
+      "26344569",
+      "26311873",
+      "37528778",
+      "26338152",
+      "18688269",
+      "23332057",
+      "23090414",
+      "15039779",
+      "33856346",
+      "35412248",
+      "25692596",
+      "23295456",
+      "12509452",
+      "16045929",
+      "31914646",
+      "26541386",
+      "27999437",
+      "37498221",
+      "21414590",
+      "12917401",
+      "31807700",
+      "33268786",
+      "37210735",
+      "35679425",
+      "41331088",
+      "29442997",
+      "24213245",
+      "21659568",
+      "40480424",
+      "32453403",
+      "32696372"
+    ],
+    "review": [
+      "39205388",
+      "39927798",
+      "28669824",
+      "28506890",
+      "39282864",
+      "20482319",
+      "32794558",
+      "27673359",
+      "35923096",
+      "26791761",
+      "33336681",
+      "19801417",
+      "22577827",
+      "26338152",
+      "23090414",
+      "27999437",
+      "21414590"
+    ],
+    "pmc": [
+      "11495645"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(24)00590-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39205388/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

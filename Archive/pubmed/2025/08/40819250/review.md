@@ -1,0 +1,115 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text; no external data or supplementary figures were independently verified
+- **Shared manuscript claim summary** The authors identify hydrophobic residues 68–71 (GAVV) in the NAC domain of alpha-synuclein as critical for nucleation and seed-competent fibril formation, and demonstrate that peptide inhibitors targeting this region block aggregation and reduce seeding competency
+- **Visible evidence base** Aggregation kinetics (ThT), ANS assays, AFM, TEM, SEM, dot blot, Coomassie staining, MST binding assays, MD simulations, and cell-based seeding assays
+- **Missing materials affecting confidence** Supplementary figures (S1–S13), tables (S1–S6), raw data files, and full uncropped blots referenced but not provided; statistical details for several comparisons are incomplete
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in alpha-synuclein biology, namely the specific contributions of NAC domain residues to fibril nucleation and seeding. The systematic truncation approach is logical and the combination of biophysical, cellular, and computational methods is commendable. However, several technical concerns and interpretive gaps need to be resolved before the central claims are fully established. The differential behavior of NAC35 versus NAC16/NAC11 in inhibitor studies is intriguing but not fully explained, and the mechanistic conclusions drawn from single-trajectory MD simulations require additional support.
+- **Who would be interested in the results, and why** Researchers studying alpha-synuclein aggregation, prion-like propagation mechanisms, amyloid structure-function relationships, and peptide-based therapeutic strategies for synucleinopathies. The work may also interest those developing aggregation inhibitors for neurodegenerative diseases more broadly.
+- **Major strengths** Systematic dissection of the NAC domain using multiple truncated peptides; combination of experimental and computational approaches; demonstration of seeding competency differences between fibril types; identification of a specific minimal nucleation motif (68–71 GAVV); use of a clinically relevant cell-based seeding assay
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Peptide inhibitors targeting this hydrophobic region block the formation of seed-competent fibrils" and "all inhibitor peptides effectively blocked recombinant αSyn aggregation"
+  - **Evidence pointer** Figure 4C–I; Materials and methods, Aggregation kinetics section
+  - **Concern** The inhibitor experiments were performed at a single 1:2 molar ratio (αSyn:inhibitor). No dose-response data are presented, and the specificity of inhibition is not demonstrated. The scrambled peptide control (PS) appears to increase aggregation (Figure 4D), which is not discussed. Furthermore, the claim that inhibitors "block" seed-competent fibril formation is based on reduced ThV signal and reduced seeding in cells, but the structural basis of this inhibition is not characterized.
+  - **Why it matters** Without dose-response and specificity controls, it is unclear whether the observed inhibition is specific to the 68–71 region or a general property of cationic/amphipathic peptides. The PS control behavior suggests possible non-specific effects that need to be addressed.
+  - **Resolution test** Provide dose-response curves for each inhibitor; demonstrate that a control peptide with similar physicochemical properties but different sequence does not inhibit; characterize the structural state of αSyn in the presence of inhibitors (e.g., by CD or EM); show that inhibition is competitive with respect to the 68–71 target site.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "NAC35 but not NAC16 and NAC11 preformed fibrils seed αSyn aggregation"
+  - **Evidence pointer** Figure 3A–D; Materials and methods, In vitro seeding assay section
+  - **Concern** The seeding experiments used equal concentrations (1 μm) of total or insoluble fractions, but the fibril concentrations in these fractions were estimated indirectly by measuring monomer depletion. The authors do not report the actual fibril mass or particle number used for seeding. Additionally, the sonication protocol for fragmenting preformed fibrils is described but not validated (e.g., by EM or DLS to confirm consistent fragment sizes across samples).
+  - **Why it matters** Seeding efficiency is highly dependent on fibril concentration and fragment size. Without normalization for these parameters, the conclusion that NAC16 and NAC11 fibrils lack seeding competency could be an artifact of lower effective fibril concentrations or larger fragment sizes.
+  - **Resolution test** Quantify fibril mass (e.g., by ThT fluorescence calibration or protein concentration in insoluble fraction) and fragment size distribution (by EM or DLS) for each seed type; normalize seeding experiments to equal fibril particle numbers; include a positive control with αSyn fibrils at matched concentrations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular dynamics simulations showed that these inhibitors alter peptide–peptide interactions and contact key hydrophobic residues within the NAC domain"
+  - **Evidence pointer** Figures 8–11; Materials and methods, MD simulation section
+  - **Concern** The MD simulations used a single trajectory per system (as stated in the methods: "extended single-trajectory simulations"), with 10 peptides and 10 inhibitor molecules per box. No replicate simulations are reported, and the statistical significance of the observed differences in hydrogen bonding, RMSD, and SASA is not assessed. The choice of GROMOS-53A6 force field for intrinsically disordered proteins is not justified, and the equilibration protocol (100 ns) may be insufficient for disordered peptides to sample relevant conformations.
+  - **Why it matters** Single-trajectory simulations of disordered peptides are prone to sampling artifacts. Without replicates and appropriate statistical analysis, the mechanistic conclusions drawn from the simulations are not robust.
+  - **Resolution test** Perform at least 3 independent simulations per condition; report ensemble averages with error estimates; validate force field choice with known IDP benchmarks; consider enhanced sampling methods (e.g., replica exchange) for disordered systems.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Residues beyond the 68–71 (GAVV) motif, such as 79–95, are critical for stabilizing fibrils and promoting seeding competency"
+  - **Evidence pointer** Figure 1B–D; Figure 3A–D; Table 1
+  - **Concern** The claim that residues 79–95 are critical for fibril stability and seeding competency is based on the comparison between NAC35 (which includes 79–95) and NAC16/NAC11 (which lack these residues). However, NAC35 also includes additional N-terminal residues (61–67) that are absent in NAC16/NAC11. The differential behavior could be due to the N-terminal extension rather than the C-terminal 79–95 region. No experiments with NAC constructs that isolate the contribution of 79–95 (e.g., NAC35 lacking 79–95, or NAC16 with 79–95 added) are presented.
+  - **Why it matters** The specific claim about residues 79–95 is not directly tested. Without appropriate constructs, the conclusion is confounded by the presence of other sequence differences.
+  - **Resolution test** Generate additional NAC constructs that systematically vary the presence of residues 79–95 while keeping other regions constant; test their aggregation and seeding properties.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "pH variations significantly influenced NAC35, NAC16, and NAC11 aggregation kinetics"
+  - **Evidence pointer** Figure 1E–J; Materials and methods, ANS assay section
+  - **Concern** The pH-dependent experiments were performed using ANS fluorescence, which reports on exposed hydrophobic patches. However, the relationship between ANS signal and actual fibril formation is not calibrated against ThT or other amyloid-specific dyes under the same pH conditions. The authors do not report whether the pH effects are reversible or whether they reflect changes in the critical micelle concentration or peptide solubility rather than amyloid formation.
+  - **Why it matters** ANS is not specific for amyloid fibrils and can report on molten globule-like states or micellar assemblies. The interpretation of pH effects on "aggregation" may be confounded by non-amyloid assemblies.
+  - **Resolution test** Confirm pH-dependent aggregation with ThT or other amyloid-specific probes; perform sedimentation assays to distinguish fibrillar from non-fibrillar aggregates; test reversibility of pH effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract opens with a general statement about alpha-synuclein that is well known to specialists but may not orient nonspecialist readers to the specific problem being addressed.
+  - **Required correction** Consider briefly stating the unresolved question about NAC domain residue contributions in the first sentence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Statistical analysis
+  - **Evidence pointer** Materials and methods, Statistics analysis section
+  - **Issue** The statistics section states "n ≥ 2 independent experiments" but does not specify the number of replicates for each assay type. For the cell-based seeding assays, the number of independent experiments is not stated.
+  - **Required correction** Provide the exact number of independent experiments for each assay and specify whether technical replicates were included.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** MST binding data
+  - **Evidence pointer** Figure 4B; Figure S6
+  - **Issue** The MST data show binding affinity of inhibitors to full-length αSyn, but the Kd values are not reported in the text. The figure legend mentions "higher affinity" but no quantitative values are given.
+  - **Required correction** Report Kd values with confidence intervals for each inhibitor and the scrambled control.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** MD simulation analysis
+  - **Evidence pointer** Materials and methods, MD simulation section
+  - **Issue** The methods state that initial structures were obtained from AlphaFold3, but AlphaFold3 is not designed for predicting structures of short disordered peptides in complex with inhibitors. The choice of starting structures may bias the simulation outcomes.
+  - **Required correction** Justify the use of AlphaFold3 for disordered peptide structures or use alternative approaches (e.g., extended random coil generation).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 4
+  - **Issue** The discussion of biphasic behavior of NAC35 in the presence of inhibitors is speculative and not clearly supported by the data presented.
+  - **Required correction** Either provide additional experimental evidence for the proposed mechanism or temper the language to indicate this is a hypothesis requiring further testing.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Figure 1A
+  - **Issue** The hydropathy analysis uses different window sizes for different peptides, which may not be directly comparable. The choice of window size is not justified.
+  - **Required correction** Justify the window size selection or use a consistent window size for all peptides.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (inhibitor specificity and dose-response), R1-M2 (seed normalization), R1-M3 (MD simulation robustness)
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The identification of 68–71 (GAVV) as a minimal nucleation motif extends prior work on the NAC domain, but the concept of hydrophobic residues driving nucleation is not entirely novel. The use of peptide inhibitors targeting this region is a reasonable extension of existing strategies.
+  - **Scientific importance** Moderate to high. Understanding the specific residues that drive alpha-synuclein nucleation and seeding has implications for therapeutic development and for understanding strain-specific propagation. However, the study does not address whether these findings translate to full-length alpha-synuclein in cellular or animal models.
+  - **Interdisciplinary readership** Moderate. The work bridges biophysics, cell biology, and computational chemistry, which may appeal to a broad audience. However, the technical detail in the MD simulations and the specialized nature of the aggregation assays may limit accessibility.
+  - **Technical soundness** Currently insufficient. The lack of dose-response data for inhibitors, inadequate normalization of seeding experiments, and reliance on single-trajectory MD simulations undermine the robustness of the central claims.
+  - **Readability for nonspecialists** Adequate. The manuscript is generally well written, but the abstract and some sections of the discussion assume familiarity with amyloid aggregation terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the experimental approach is logical, but the current evidence does not fully establish the claims regarding inhibitor specificity, the role of residues 79–95, and the mechanistic insights from MD simulations. Addressing the major concerns would substantially strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that residues 79–95 are "critical for stabilizing fibrils and promoting seeding competency" is not directly tested and is confounded by other sequence differences between NAC35 and NAC16/NAC11.
+- The claim that peptide inhibitors "block the formation of seed-competent fibrils" is based on a single concentration and lacks specificity controls.
+- The mechanistic conclusions from MD simulations are based on single trajectories and lack statistical support.
+- The statement that "residues 68–71 (GAVV) is likely the minimal nucleation motif" is supported by the lack of aggregation in NAC12 and NAC8, but the possibility that other factors (e.g., peptide length, charge distribution) contribute to the lack of aggregation is not excluded.
+- The pH-dependent effects on NAC35 aggregation are attributed to protonation/deprotonation of ionizable residues, but this is speculative and not directly tested.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40545728",
+  "title": "Mini-alphaA-crystallin protects a client lens protein from catastrophic aggregation due to heat stress.",
+  "authors": "Sroge, Collin; Suk, Jaewon; Zhu, Jason; Padilla, Maria Sophia Teresa Lee; Baca, Christian F; Butts, Carter T; Martin, Rachel W",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2025-06-23",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合NMR、圆二色谱和分子动力学模拟，表征了无序迷你alphaA-晶状体蛋白肽MAAC的构象及其与客户蛋白gammaS-晶状体蛋白在热应激下的弱瞬时互作和抗聚集机制，对象为IDP且涉及PPI与MD方法，但互作机制深度有限。",
+  "abstract": "The clarity and refractivity of the eye lens are mediated by the highly soluble crystallin proteins. Post-translational modifications impact solubility and stability of the structural and refractive betagamma-crystallins, eventually leading to cataract. Such damaged proteins are kept in solution by the holdase chaperone alpha-crystallins, maintaining lens transparency over decades despite the absence of protein turnover. It was previously found that a short peptide from human alphaA-crystallin (mini-alphaA-crystallin [MAAC]) retains some chaperone activity, with hydrophobic interactions hypothesized to mediate chaperone-client interactions; MAAC has been hypothesized to have beta-strand structure in solution, although its conformational ensemble under these conditions has not been well-characterized. Here, we employ a combination of nuclear magnetic resonance (NMR), circular dichroism spectroscopy, dynamic light scattering, and molecular dynamics simulations to examine the behavior of MAAC in dilute solution and in combination with human gammaS-crystallin. Structural ensembles of two alanine variants of MAAC (I4A and L6A) show that the variants lack well-defined secondary structure, but have a preference for a bent conformation with some self-interaction. A partial alanine scan indicates that several hydrophobic residues are important for peptide solubility, also modifying the peptide's conformational ensemble. Tests of wild-type MAAC chaperone activity on thermally stressed gammaS-crystallin show little interaction between MAAC and the client protein below its unfolding temperature. However, MAAC does inhibit large-scale aggregation at the gammaS-crystallin unfolding temperature. NMR measurements indicate only weak, transient interaction with the client protein during the intermediate aggregation phase, suggesting a sharp phase transition in the MAAC-client system.",
+  "abstract_zh": "眼晶状体的透明度和折射率由高度可溶的晶状体蛋白（crystallin proteins）介导。翻译后修饰影响结构和折射性βγ-晶状体蛋白（betagamma-crystallins）的溶解性和稳定性，最终导致白内障。这些受损蛋白由持家伴侣蛋白α-晶状体蛋白（alpha-crystallins）保持在溶液中，尽管缺乏蛋白质周转，仍能在数十年内维持晶状体透明度。先前研究发现，来自人αA-晶状体蛋白的一段短肽（mini-alphaA-crystallin [MAAC]）保留部分伴侣活性，推测疏水相互作用介导伴侣-客户蛋白相互作用；MAAC在溶液中被假设具有β-折叠结构，尽管其在这些条件下的构象集合尚未得到充分表征。在此，我们结合核磁共振（nuclear magnetic resonance, NMR）、圆二色光谱、动态光散射和分子动力学模拟，研究MAAC在稀溶液及与人γS-晶状体蛋白（gammaS-crystallin）组合时的行为。MAAC的两种丙氨酸变体（I4A和L6A）的结构集合显示，这些变体缺乏明确的二级结构，但偏好具有某些自相互作用的弯曲构象。部分丙氨酸扫描表明，几个疏水残基对肽的溶解性至关重要，同时也改变肽的构象集合。野生型MAAC对热应激γS-晶状体蛋白的伴侣活性测试显示，在其解折叠温度以下，MAAC与客户蛋白之间几乎没有相互作用。然而，MAAC确实抑制γS-晶状体蛋白解折叠温度下的大规模聚集。NMR测量表明，在中间聚集阶段，MAAC与客户蛋白仅存在弱且瞬时的相互作用，提示MAAC-客户蛋白系统存在尖锐的相变。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40545728/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40545728/",
+  "paper_page_path": "papers/pubmed/40545728/index.html"
+}

@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "41162832",
+    "doi": "10.1002/pro.70354",
+    "title": "The C-terminal tails of GroEL and its mitochondrial and chloroplastic homologs adopt polyproline II helices."
+  },
+  "content": {
+    "abstract": "The chaperonin GroEL and its mitochondrial and chloroplastic homologs mHsp60 and Cpn60 are large barrel-like oligomeric proteins. Chaperonins facilitate folding by isolating nascent chains in their hollow interior and undergoing ATP-powered conformational transitions. Due to their vital importance, the structures of GroEL and its homologs were extensively studied by x-ray crystallography and CryoEM, revealing rings containing seven subunits. Each subunit has three folded domains and a 24 residue C-terminal extension. Whereas this C-terminal tail has been reported to bind and stimulate the folding of client proteins, it appears to be blurry or invisible, which suggests disorder. The objective of this study is to characterize conformational preferences in the C-terminal tails of GroEL, mHsp60 and representative Cpn60s using circular dichroism and nuclear magnetic resonance spectroscopies and molecular dynamics simulations. The tails of GroEL and mHsp60 consist of two segments. The first is rich in residues typical of intrinsically disordered proteins (PKNDAADLGA and PKEEKDPGMG in GroEL and mHsp60, respectively) and the second segment consists exclusively (GroEL) or almost entirely (mHsp60) of Gly and Met residues. The spectroscopic results reveal that these C-terminal extensions are not wholly disordered but adopt polyproline II helices whose populations are higher in the second Gly/Met-rich segment. These results are corroborated by MD simulations of GroEL(7)GroES(7) complexes with ADP or ATP, or ATP and a client protein. Whereas the C-terminal segments of chloroplastic chaperonins are Gly-poor, they are rich in proline and also adopt polyproline II helix conformations. These results provide insight into the function of chaperonin C-terminal tails.",
+    "keywords": [
+      "CD spectroscopy",
+      "MD simulations",
+      "NMR spectroscopy",
+      "chaperonins",
+      "polyproline II helix"
+    ],
+    "mesh_terms": [
+      "*Chaperonin 60/chemistry/metabolism",
+      "*Peptides/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Folding",
+      "*Mitochondria/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rodriguez, Cristian Segura",
+        "Lopez-Sanchez, Ruben",
+        "Laurents, Douglas Vinson"
+      ],
+      "short_names": [
+        "Rodriguez CS",
+        "Lopez-Sanchez R",
+        "Laurents DV"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biological Physical Chemistry, Institute for Physical Chemistry \"Blas Cabrera,\" CSIC, Madrid, Spain.",
+        "Department of Biological Physical Chemistry, Institute for Physical Chemistry \"Blas Cabrera,\" CSIC, Madrid, Spain.",
+        "Department of Biological Physical Chemistry, Institute for Physical Chemistry \"Blas Cabrera,\" CSIC, Madrid, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rodríguez, Cristian Segura",
+        "short_name": "Rodríguez CS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Physical Chemistry, Institute for Physical Chemistry \"Blas Cabrera,\" CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "López-Sánchez, Rubén",
+        "short_name": "López-Sánchez R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Physical Chemistry, Institute for Physical Chemistry \"Blas Cabrera,\" CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Laurents, Douglas Vinson",
+        "short_name": "Laurents DV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Physical Chemistry, Institute for Physical Chemistry \"Blas Cabrera,\" CSIC, Madrid, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/30 06:30",
+    "fetched_at": "2026-09-17 21:34:52"
+  },
+  "links": {
+    "cites": [
+      "42252518"
+    ],
+    "refs": [
+      "40615542",
+      "40200084",
+      "39215165",
+      "38593862",
+      "37805934",
+      "37592181",
+      "36409898",
+      "35239418",
+      "34982571",
+      "34829878",
+      "34646012",
+      "34293799",
+      "33909608",
+      "32751224",
+      "32317635",
+      "30735603",
+      "30430829",
+      "30277396",
+      "30244968",
+      "29961577",
+      "29735687",
+      "29404339",
+      "28665408",
+      "28193869",
+      "27926839",
+      "27819658",
+      "27669651",
+      "26057234",
+      "25887400",
+      "25262612",
+      "24970895",
+      "24423055",
+      "22824207",
+      "22034434",
+      "21469161",
+      "21423709",
+      "21234644",
+      "20556825",
+      "20194787",
+      "20014772",
+      "19462996",
+      "19416363",
+      "18598029",
+      "17746919",
+      "17165789",
+      "16643946",
+      "16458552",
+      "15948227",
+      "15894611",
+      "15116359",
+      "14517228",
+      "13265825",
+      "12395429",
+      "12091708",
+      "11910028",
+      "11724549",
+      "11297408",
+      "10600546",
+      "9546398",
+      "9260281",
+      "8764395",
+      "8744570",
+      "8094879",
+      "8060970",
+      "8019132",
+      "7846767",
+      "6084720",
+      "6015528",
+      "5704346",
+      "5146191",
+      "4634868",
+      "1369433"
+    ],
+    "similar": [
+      "41162832",
+      "33794191",
+      "40200084",
+      "24970895",
+      "42252518",
+      "25887400",
+      "34285302",
+      "27072913",
+      "41233324",
+      "1677268",
+      "38412855",
+      "10504222",
+      "30277396",
+      "7657615",
+      "21423709",
+      "24419632",
+      "8805508",
+      "19137603",
+      "38064510",
+      "32317635",
+      "22576372",
+      "39488385",
+      "25136110",
+      "18184659",
+      "22289022",
+      "28156097",
+      "9461576",
+      "25912285",
+      "33173948",
+      "16211517",
+      "10493865",
+      "9684884",
+      "10811634",
+      "27432832",
+      "39169181",
+      "9098884",
+      "10764784",
+      "17513353",
+      "10187830",
+      "22712805",
+      "29304433",
+      "23861496",
+      "9512719",
+      "21483722",
+      "19121324",
+      "16452612",
+      "23746846",
+      "16771506",
+      "20825228",
+      "9285585",
+      "14686103",
+      "18588898",
+      "9722549",
+      "15347650",
+      "9519301",
+      "19074438",
+      "11178910",
+      "18463703",
+      "29869885",
+      "36520309",
+      "17939680",
+      "7673187",
+      "28741466",
+      "11222029",
+      "10092464",
+      "11124034",
+      "23798407",
+      "36316435",
+      "14623189",
+      "26124125",
+      "32339190",
+      "16849107",
+      "19122642",
+      "10047494",
+      "9556521",
+      "9312423",
+      "18359305",
+      "14747311",
+      "29066625",
+      "35107280",
+      "26140986",
+      "23281895",
+      "36764293",
+      "35658951",
+      "21856455",
+      "15327959",
+      "8764403",
+      "10543958",
+      "23473493",
+      "26553853",
+      "25202010",
+      "29104984",
+      "12646383",
+      "25900372",
+      "24816391",
+      "9790891",
+      "10644743",
+      "15313620",
+      "7638601",
+      "1507227"
+    ],
+    "review": [
+      "41162832",
+      "9098884",
+      "14686103",
+      "9519301",
+      "16849107",
+      "9556521",
+      "26140986"
+    ],
+    "pmc": [
+      "12571646"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41162832.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41162832/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/pro.70354",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HSPD1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1496",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

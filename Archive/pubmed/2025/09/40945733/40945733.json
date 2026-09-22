@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "40945733",
+    "doi": "10.1016/j.jbc.2025.110708",
+    "title": "Asymmetric coevolution of the MEK-ERK binding interface."
+  },
+  "content": {
+    "abstract": "The highly conserved extracellular signal-regulated kinase (ERK) regulates diverse cellular processes by phosphorylating a wide range of intracellular substrates. Its catalytic activity relies on phosphorylation by a single upstream kinase, mitogen-activated protein kinase kinase (MEK), which interacts with only a few binding partners. Here, we test whether the asymmetry in protein-protein interaction network architecture influences the coevolution of the MEK-ERK complex. Phylogenetic sequence analysis across metazoan species revealed accelerated divergence in MEK's intrinsically disordered N-terminal docking motif (docking site [D-site]), whereas ERK remained highly conserved. Structure prediction with AlphaFold2 and extensive molecular dynamics simulations showed that five conserved D-site residues form stable hydrophobic and electrostatic contacts with ERK's D-recruitment site. Functional assays in Drosophila melanogaster confirmed that these D-site interactions are essential for proper downstream signaling and support an allosteric role for this motif. Our results demonstrate that MEK uses a structurally simple yet evolutionarily adaptable motif to regulate MEK-ERK complex stability and binding dynamics. The D-site is strongly conserved within phylogenetic groups such as insects or terrestrial vertebrates, yet diverges across them, reflecting evolutionary pressures that balance functional conservation with signaling adaptability. The presented approach illustrates how the combined approach using sequencing data, molecular simulations, and targeted perturbations can be used to address fundamental questions about the evolution of protein-protein interaction networks.",
+    "keywords": [
+      "MEK",
+      "coevolution",
+      "kinase",
+      "protein binding",
+      "short linear motif"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Drosophila melanogaster/enzymology/genetics",
+      "*Evolution, Molecular",
+      "*Extracellular Signal-Regulated MAP Kinases/metabolism/chemistry/genetics",
+      "Molecular Dynamics Simulation",
+      "Phylogeny",
+      "Protein Binding",
+      "*Drosophila Proteins/metabolism/genetics/chemistry",
+      "Humans",
+      "Binding Sites",
+      "Amino Acid Motifs"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Persikov, Anton V",
+        "Marmion, Robert A",
+        "Shvartsman, Stanislav Y"
+      ],
+      "short_names": [
+        "Persikov AV",
+        "Marmion RA",
+        "Shvartsman SY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Computational Biology, Flatiron Institute, Simons Foundation, New York, New York, USA; Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey, USA. Electronic address: apersikov@flatironinstitute.org.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey, USA.",
+        "Center for Computational Biology, Flatiron Institute, Simons Foundation, New York, New York, USA; Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey, USA; Department of Molecular Biology, Princeton University, Princeton, New Jersey, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Persikov, Anton V",
+        "short_name": "Persikov AV",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, Flatiron Institute, Simons Foundation, New York, New York, USA; Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey, USA. Electronic address: apersikov@flatironinstitute.org."
+        ]
+      },
+      {
+        "full_name": "Marmion, Robert A",
+        "short_name": "Marmion RA",
+        "identifiers": [],
+        "affiliations": [
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey, USA."
+        ]
+      },
+      {
+        "full_name": "Shvartsman, Stanislav Y",
+        "short_name": "Shvartsman SY",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, Flatiron Institute, Simons Foundation, New York, New York, USA; Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey, USA; Department of Molecular Biology, Princeton University, Princeton, New Jersey, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/14 00:29",
+    "fetched_at": "2026-09-17 20:00:51"
+  },
+  "links": {
+    "cites": [
+      "42200482"
+    ],
+    "refs": [
+      "38507200",
+      "38154096",
+      "37579140",
+      "36379955",
+      "36344848",
+      "34469735",
+      "34293799",
+      "34257279",
+      "33992782",
+      "32576977",
+      "31821414",
+      "31745079",
+      "31585954",
+      "31029927",
+      "29750912",
+      "29565247",
+      "29483135",
+      "29018093",
+      "27884160",
+      "27760319",
+      "27738173",
+      "26631602",
+      "26566875",
+      "26124095",
+      "25531225",
+      "25038803",
+      "24957684",
+      "24926813",
+      "23832629",
+      "23486614",
+      "23125017",
+      "22977176",
+      "22569528",
+      "19304878",
+      "18831774",
+      "18351591",
+      "18330678",
+      "17947973",
+      "17360644",
+      "17185604",
+      "17112607",
+      "16949097",
+      "16182526",
+      "15979847",
+      "15126397",
+      "12471242",
+      "11976460",
+      "11823456",
+      "11352917",
+      "10655591",
+      "10567369",
+      "9155016",
+      "2172928",
+      "1411546"
+    ],
+    "similar": [
+      "40945733",
+      "15487973",
+      "31296562",
+      "40216017",
+      "21123621",
+      "41365991",
+      "21441910",
+      "26124095",
+      "31913744",
+      "17918909",
+      "19727074",
+      "24957684",
+      "23250398",
+      "41460885",
+      "24434059",
+      "19541618",
+      "26370088",
+      "22140578",
+      "21160027",
+      "11134045",
+      "41099702",
+      "19694808",
+      "15979847",
+      "23157514",
+      "12788955",
+      "24084041",
+      "18482985",
+      "21449613",
+      "22848763",
+      "24348264",
+      "18294816",
+      "27793987",
+      "27879317",
+      "31318149",
+      "22117069",
+      "26468199",
+      "30062409",
+      "40583197",
+      "11850406",
+      "33476180",
+      "26170449",
+      "15777717",
+      "24371145",
+      "26487708",
+      "40153681",
+      "31740452",
+      "10655591",
+      "21098038",
+      "27226552",
+      "28003515",
+      "9915826",
+      "19242103",
+      "28159693",
+      "24321690",
+      "23210697",
+      "19258520",
+      "12867522",
+      "17699602",
+      "32392404",
+      "18823331",
+      "24522188",
+      "20471474",
+      "22808094",
+      "33808483",
+      "16227978",
+      "22345504",
+      "31996375",
+      "24126801",
+      "31121283",
+      "16360949",
+      "28861687",
+      "12167697",
+      "20107516",
+      "21401930",
+      "28652372",
+      "10811804",
+      "35052398",
+      "12529172",
+      "38124228",
+      "15850570",
+      "33843588",
+      "9427629",
+      "25720490",
+      "10074458",
+      "29083550",
+      "22936607",
+      "23775084",
+      "38388830",
+      "16247694",
+      "24098788",
+      "26898828",
+      "33332926",
+      "22884486",
+      "24429281",
+      "28974888",
+      "19619547",
+      "19520853",
+      "16286470",
+      "18156174",
+      "33053834"
+    ],
+    "review": [
+      "40945733",
+      "24434059",
+      "16227978"
+    ],
+    "pmc": [
+      "12550783"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(25)02560-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=40945733",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40945733/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2786",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

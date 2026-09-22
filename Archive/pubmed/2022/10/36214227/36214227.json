@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "36214227",
+    "doi": "10.1039/d2cp03173f",
+    "title": "Distinct binding interactions trigger opposite conformational modulations on pathogenic and wildtype Huntingtin exon 1 proteins."
+  },
+  "content": {
+    "abstract": "Abnormal elongation of the polyglutamine tract transforms exon 1 of the Huntingtin protein (Htt-exon-1) from wildtype to pathogenic form, and causes Huntington's disease. As an intrinsically disordered protein, the structural ensemble of Htt-exon-1 is highly heterogeneous and the detailed conformation of toxic species is still under debate. Ispinesib, a potential small-molecule drug, has been identified to selectively link the pathogenic Htt-exon-1 into the autophagosome to degrade, thus opening an innovative therapeutic direction. However, the molecular mechanisms behind this selectivity remain largely elusive. Herein, we carry out extensive molecular dynamics simulations with an enhanced sampling method to investigate the ispinesib inducing conformational changes of pathogenic and wildtype Htt-exon-1 and the corresponding binding mechanisms. Our simulations reveal that the ispinesib binding induces opposite conformational changes in pathogenic and wildtype Htt-exon-1, i.e., the 'entropy collapse' with significant reduction of beta-sheets versus the 'entropy expansion' with a slight increase of alpha-helices. Network analyses further reveal that there are two stable binding sites in the pathogenic Htt-exon-1, while the binding on the wildtype Htt-exon-1 is highly dynamic and non-specific. These dramatic differences originate from the underlying distinct binding interactions. More specifically, stronger hydrogen bonds serve as the specific binding anchors in pathogenic Htt-exon-1, while stronger hydrophobic interactions dominate in the dynamic binding with wildtype Htt-exon-1. Our simulations provide an atomistic mechanism for the ispinesib selective binding on the pathogenic Htt-exon-1, and further shed light on the general mechanisms of small molecule modulation on intrinsically disordered proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "Huntingtin Protein/chemistry",
+      "*Intrinsically Disordered Proteins",
+      "Quinazolines",
+      "Exons",
+      "Benzamides"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guan, Jiaming",
+        "Song, Zhijian",
+        "Wei, Guanghong",
+        "Qiao, Qin"
+      ],
+      "short_names": [
+        "Guan J",
+        "Song Z",
+        "Wei G",
+        "Qiao Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1664-9456",
+        "ORCID: 0000-0001-5814-3328",
+        "ORCID: 0000-0001-8369-6135"
+      ],
+      "affiliations": [
+        "Academy for Engineering and Technology, Fudan University, Shanghai 200433, China.",
+        "Shanghai Key Laboratory of Medical Imaging Computing and Computer Assisted Intervention, Fudan University, Shanghai 200032, China. qinqiao@fudan.edu.cn.",
+        "Academy for Engineering and Technology, Fudan University, Shanghai 200433, China.",
+        "Shanghai Key Laboratory of Medical Imaging Computing and Computer Assisted Intervention, Fudan University, Shanghai 200032, China. qinqiao@fudan.edu.cn.",
+        "Digital Medical Research Center of School of Basic Medical Sciences, Fudan University, Shanghai 200032, China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Science (Ministry of Education), Fudan University, Shanghai 200438, China.",
+        "Shanghai Key Laboratory of Medical Imaging Computing and Computer Assisted Intervention, Fudan University, Shanghai 200032, China. qinqiao@fudan.edu.cn.",
+        "Digital Medical Research Center of School of Basic Medical Sciences, Fudan University, Shanghai 200032, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guan, Jiaming",
+        "short_name": "Guan J",
+        "identifiers": [
+          "0000-0003-1664-9456"
+        ],
+        "affiliations": [
+          "Academy for Engineering and Technology, Fudan University, Shanghai 200433, China.",
+          "Shanghai Key Laboratory of Medical Imaging Computing and Computer Assisted Intervention, Fudan University, Shanghai 200032, China. qinqiao@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Song, Zhijian",
+        "short_name": "Song Z",
+        "identifiers": [],
+        "affiliations": [
+          "Academy for Engineering and Technology, Fudan University, Shanghai 200433, China.",
+          "Shanghai Key Laboratory of Medical Imaging Computing and Computer Assisted Intervention, Fudan University, Shanghai 200032, China. qinqiao@fudan.edu.cn.",
+          "Digital Medical Research Center of School of Basic Medical Sciences, Fudan University, Shanghai 200032, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghong",
+        "short_name": "Wei G",
+        "identifiers": [
+          "0000-0001-5814-3328"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Science (Ministry of Education), Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Qiao, Qin",
+        "short_name": "Qiao Q",
+        "identifiers": [
+          "0000-0001-8369-6135"
+        ],
+        "affiliations": [
+          "Shanghai Key Laboratory of Medical Imaging Computing and Computer Assisted Intervention, Fudan University, Shanghai 200032, China. qinqiao@fudan.edu.cn.",
+          "Digital Medical Research Center of School of Basic Medical Sciences, Fudan University, Shanghai 200032, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2022 Oct 19",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/11 06:00",
+    "fetched_at": "2026-09-20 15:46:57"
+  },
+  "links": {
+    "cites": [
+      "38069121"
+    ],
+    "refs": [],
+    "similar": [
+      "36214227",
+      "34880419",
+      "30134683",
+      "28085263",
+      "25464275",
+      "28406616",
+      "30672003",
+      "32127471",
+      "36864173",
+      "28400517",
+      "32444599",
+      "35679155",
+      "23341618",
+      "30149694",
+      "37119819",
+      "22383888",
+      "37101557",
+      "28094373",
+      "28698602",
+      "34137596",
+      "26010866",
+      "35943803",
+      "17902043",
+      "35858329",
+      "29466333",
+      "26047735",
+      "31928144",
+      "28235896",
+      "27463137",
+      "33130095",
+      "33909994",
+      "28609090",
+      "24256709",
+      "27094178",
+      "35871360",
+      "34534539",
+      "26020223",
+      "25305076",
+      "18923047",
+      "22814437",
+      "33096080",
+      "28743452",
+      "32598938",
+      "30156416",
+      "33644966",
+      "12888569",
+      "21910495",
+      "30185623",
+      "27271685",
+      "25280367",
+      "26397897",
+      "34161085",
+      "24415136",
+      "31638189",
+      "32681165",
+      "28900094",
+      "32975927",
+      "16893904",
+      "28413881",
+      "31184975",
+      "30626701",
+      "27721240",
+      "27840155",
+      "11792860",
+      "35439000",
+      "32954323",
+      "24453320",
+      "25927346",
+      "20140226",
+      "29093475",
+      "30315108",
+      "19270701",
+      "30252478",
+      "21518730",
+      "30262848",
+      "11719267",
+      "28611571",
+      "18768695",
+      "34459410",
+      "15359012",
+      "34504195",
+      "30540190",
+      "15916486",
+      "33731741",
+      "28753941",
+      "28900136",
+      "26891106",
+      "26984770"
+    ],
+    "review": [
+      "36214227",
+      "35871360",
+      "15359012",
+      "28753941"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d2cp03173f",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

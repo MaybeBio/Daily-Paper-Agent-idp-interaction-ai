@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific and technical evaluation of the presented method, experimental design, validation approach, and claims; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors present Phanto-IDP, a compact graph-based variational autoencoder with a transformer decoder, trained on MD trajectories of intrinsically disordered proteins (IDPs), to reconstruct and generate protein backbone conformations with high fidelity and diversity, and to serve as an enhanced sampling tool capable of generating unseen conformations and transition paths faster than traditional MD-based methods
+- **Visible evidence base** Abstract, full text of Introduction, Results, Discussion, and Materials and Methods sections; references to Figures 1–6, Tables 1–3, and Supplementary Figures S1–S17 as cited in text; figure and table contents not directly visible
+- **Missing materials affecting confidence** Actual figure panels, table data, supplementary figures, model hyperparameters, training curves, and code repository contents were not accessible; quantitative comparisons in tables could not be independently verified
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational structural biology, namely the efficient generation of conformational ensembles for intrinsically disordered proteins. The proposed architecture combining graph neural networks, variational inference, and transformer decoding is reasonable and the reported reconstruction accuracies are promising. However, several technical aspects require clarification and additional validation before the enhanced sampling claims can be considered fully established. The comparison with existing methods is limited, and the physical validity of generated conformations beyond geometric metrics needs stronger evidence.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, protein conformational sampling, and machine learning applied to structural biology would be interested. The work is also relevant to those studying intrinsically disordered proteins and their conformational ensembles, as well as developers of generative models for biomolecular structures.
+- **Major strengths** The problem addressed is important and timely. The model architecture is compact and computationally efficient, with a reported generation speed that is orders of magnitude faster than MD. The use of SE(3)-equivariant features and FAPE loss is well motivated. The authors evaluate both reconstruction fidelity and generative diversity across multiple IDP systems, and they demonstrate potential utility for enhanced sampling through latent space interpolation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of enhanced sampling claim
+  - **Claim pointer** The authors claim that Phanto-IDP can serve as an enhanced sampling method, generating conformations that cross energy barriers and sample novel states not present in training data, including folded states absent from short MD simulations.
+  - **Evidence pointer** Results, "Enhanced sampling" subsection; Figure 6
+  - **Concern** The enhanced sampling claim rests on the observation that the model generates 5.62% folded structures when trained on a short MD trajectory that lacks such states. However, the authors do not demonstrate that these generated folded conformations are physically realistic or energetically plausible. No free energy analysis, validation against experimental data, or comparison with converged simulations is provided for these novel states. The claim that the model "crosses energy barriers" is not directly supported, as the model does not simulate dynamics but rather samples from a learned latent distribution.
+  - **Why it matters** The central value proposition of the manuscript is enhanced sampling capability. Without evidence that the generated novel conformations are physically meaningful, the claim that Phanto-IDP can overcome the limitations of conventional MD is not established. This is the key differentiator from prior generative models.
+  - **Resolution test** Provide validation of the generated folded states, such as comparison with long-timescale MD or REMD simulations, experimental observables (e.g., chemical shifts, SAXS profiles), or free energy estimates. Alternatively, demonstrate that the generated conformations can serve as starting points for MD simulations that rapidly converge to experimentally consistent ensembles.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of Boltzmann distribution claim
+  - **Claim pointer** The authors state that "the generated ensemble conforms to the Boltzmann distribution" and that the model "globally fit the converged Boltzmann distribution of the MD trajectories."
+  - **Evidence pointer** Results, "Generation of unseen conformations" subsection; Figure 4
+  - **Concern** The evidence for Boltzmann distribution matching is based on visual overlap of PCA projections and comparison of Rg distributions between generated and MD ensembles. No quantitative statistical test (e.g., Jensen-Shannon divergence on Rg distributions, comparison of free energy surfaces, or population analysis of conformational states) is provided. Visual similarity in PCA space is a weak criterion for distributional equivalence.
+  - **Why it matters** The claim of Boltzmann distribution matching is fundamental to using the generated ensemble for quantitative downstream applications such as free energy calculations. If the generated distribution is not quantitatively accurate, the utility of the method for such applications is compromised.
+  - **Resolution test** Provide quantitative distributional comparisons, such as JS divergence or Kullback-Leibler divergence on Rg distributions, comparison of free energy surfaces along key reaction coordinates, or population ratios of major conformational states between generated and reference ensembles.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of comparison with prior methods
+  - **Claim pointer** The authors state that Phanto-IDP outperforms previous deep learning models (AE, VAE) in reconstruction accuracy and distribution matching, and that it is faster for larger systems.
+  - **Evidence pointer** Results, "Comparison with previous methods" subsection; Table 1, Table S1
+  - **Concern** The comparison is limited to AE and VAE baselines. The authors do not compare against more recent and relevant generative models for protein conformations, such as diffusion-based approaches (e.g., FoldingDiff, EigenFold are mentioned only in the Discussion as having worse performance, but no quantitative comparison is shown) or other structure generation methods. The comparison is also limited to reconstruction and Rg distribution matching, without assessing diversity or physical validity of generated conformations from baseline methods.
+  - **Why it matters** Without comparison to state-of-the-art generative models, the claimed advantage of Phanto-IDP is not fully contextualized. The Discussion mentions FoldingDiff and EigenFold but does not provide quantitative evidence for the claimed superiority.
+  - **Resolution test** Include quantitative comparison with at least one recent diffusion-based or other generative model for protein backbone generation, using the same evaluation metrics and datasets. If such comparison is not feasible, temper the claims of superiority over these methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and robustness
+  - **Claim pointer** The authors claim the model demonstrates robustness across 13 protein systems, including 10 IDPs and 3 structured proteins.
+  - **Evidence pointer** Results, "Reconstruction of IDP conformations" and "Generation of unseen conformations" subsections; Table 2
+  - **Concern** The model is trained and evaluated separately for each protein system, meaning a new model must be trained for each new target. The authors acknowledge this limitation in the Discussion. However, the claim of robustness is based on per-system training, which does not test the model's ability to generalize across sequences. The choice of 10 IDPs and 3 structured proteins is reasonable, but the diversity of IDP sequences and lengths is limited.
+  - **Why it matters** The practical utility of the method depends on whether it can be applied to new systems efficiently. If per-system training is required, the advantage over MD-based methods is reduced, especially for systems where MD trajectories are not already available.
+  - **Resolution test** Demonstrate the model's ability to generalize by training on one or more systems and testing on held-out systems, or by showing that transfer learning with fine-tuning on a new system requires minimal additional data and training time.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methodology
+  - **Affected element** Model architecture description
+  - **Evidence pointer** Materials and Methods, "Model architecture" subsection
+  - **Issue** The description of the model architecture is incomplete. The number of transformer blocks, hidden dimensions, number of attention heads, and other architectural details are not specified. The equations referenced (Equations 1–9) are not fully defined in the visible text.
+  - **Required correction** Provide a complete specification of the model architecture, including all hyperparameters, and ensure all equations are fully defined with all variables explained.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Reconstruction error reporting
+  - **Evidence pointer** Results, "Reconstruction of IDP conformations" subsection; Figure 2
+  - **Issue** Reconstruction RMSD values are reported as averages, but no standard deviations, confidence intervals, or per-system breakdowns are provided in the visible text. It is unclear how consistent the performance is across different systems.
+  - **Required correction** Report reconstruction metrics with appropriate variability measures and provide per-system results, possibly in a supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Validation of interpolation
+  - **Affected element** Latent space interpolation results
+  - **Evidence pointer** Results, "Enhanced sampling" subsection; Figure 5
+  - **Issue** The interpolation between two conformations is described as producing a "continuous transition," but no quantitative measure of continuity or smoothness is provided. It is unclear whether the interpolated structures are physically plausible along the entire path.
+  - **Required correction** Provide quantitative measures of path continuity, such as RMSD between consecutive interpolated structures, and assess physical plausibility using Ramachandran analysis or energy evaluation along the path.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Data Availability section
+  - **Issue** The trajectories are stated to be "shared on reasonable request," which is less accessible than depositing in a public repository. The code is available on GitHub, but the specific version and dependencies are not specified.
+  - **Required correction** Deposit the MD trajectories in a public repository (e.g., Zenodo, Figshare) and provide a detailed README with software dependencies and version information for the code.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of "compact model"
+  - **Evidence pointer** Title, Abstract, Discussion
+  - **Issue** The term "compact" is used to describe the model, but no comparison of model size or parameter count against other methods is provided beyond the total parameter count of 142k. It is unclear what "compact" means in this context.
+  - **Required correction** Provide a comparison of model size and computational cost against baseline methods to substantiate the "compact" claim.
+
+## Risk / unsupported claims
+- The claim that Phanto-IDP "crosses energy barriers" and samples conformations that are "difficult to explore in conventional MD" is not directly supported by the provided evidence. The model generates conformations from a learned distribution; no demonstration of barrier crossing in a physical sense is provided.
+- The claim that generated ensembles "conform to the Boltzmann distribution" is supported only by qualitative visual comparisons, not quantitative statistical tests.
+- The claim of superiority over FoldingDiff and EigenFold (mentioned in Discussion) is not supported by quantitative data in the visible text.
+- The statement that "the generated ensemble contained samples not observed in the MD trajectories" is presented as evidence of enhanced sampling, but the physical validity of these novel conformations is not established.
+- The claim that Phanto-IDP is "SE(3) equivariant" is stated but the formal equivariance properties of the full architecture are not rigorously demonstrated.
+- The assertion that the model "can more accurately capture protein backbone and global features" compared to previous methods is not quantitatively substantiated beyond the limited comparisons shown.
+- The claim of generating "a continuous protein transition path" is based on interpolation in latent space, but the physical relevance of this path is not validated.

@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "38490381",
+    "doi": "10.1016/j.ijbiomac.2024.130847",
+    "title": "Getah virus capsid protein undergoes co-condensation with viral genomic RNA to facilitate virion assembly."
+  },
+  "content": {
+    "abstract": "Getah virus (GETV) belongs to the Alphavirus genus in the Togaviridae family and is a zoonotic arbovirus causing disease in both humans and animals. The capsid protein (CP) of GETV regulates the viral core assembly, but the mechanism underlying this process is poorly understood. In this study, we demonstrate that CP undergoes liquid-liquid phase separation (LLPS) with the GETV genome RNA (gRNA) in vitro and forms cytoplasmic puncta in cells. Two regions of GETV gRNA (nucleotides 1-4000 and 5000-8000) enhance CP droplet formation in vitro and the lysine-rich Link region of CP is essential for its phase separation. CP(K/R) mutant with all lysines in the Link region replaced by arginines exhibits improved LLPS versus wild type (WT) CP, but CP(K/E) mutant with lysines substituted by glutamic acids virtually loses condensation ability. Consistently, recombinant virus mutant with CP(K/R) possesses significantly higher gRNA binding affinity, virion assembly efficiency and infectivity than the virus with WT-CP. Overall, our findings provide new insights into the understanding of GETV assembly and development of new antiviral drugs against alphaviruses.",
+    "keywords": [
+      "Capsid protein",
+      "Genome RNA",
+      "Getah virus",
+      "Liquid-liquid phase separation",
+      "Virion assembly"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Alphavirus/genetics/metabolism",
+      "Capsid Proteins/genetics/metabolism",
+      "RNA, Viral/genetics",
+      "RNA, Guide, CRISPR-Cas Systems",
+      "Genomics",
+      "Virion/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Zhenzhao",
+        "Wang, Ming",
+        "Wang, Wenmeng",
+        "Li, Dangdang",
+        "Wang, Jingfei",
+        "Sui, Guangchao"
+      ],
+      "short_names": [
+        "Sun Z",
+        "Wang M",
+        "Wang W",
+        "Li D",
+        "Wang J",
+        "Sui G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Life Science, Northeast Forestry University, Harbin 150040, People's Republic of China.",
+        "State Key Laboratory for Animal Disease Control and Prevention & National Data Center for Animal Infectious Diseases, Harbin Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Harbin 150069, People's Republic of China.",
+        "College of Life Science, Northeast Forestry University, Harbin 150040, People's Republic of China.",
+        "College of Life Science, Northeast Forestry University, Harbin 150040, People's Republic of China.",
+        "State Key Laboratory for Animal Disease Control and Prevention & National Data Center for Animal Infectious Diseases, Harbin Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Harbin 150069, People's Republic of China. Electronic address: wangjingfei@caas.cn.",
+        "College of Life Science, Northeast Forestry University, Harbin 150040, People's Republic of China. Electronic address: gcsui@nefu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Zhenzhao",
+        "short_name": "Sun Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Northeast Forestry University, Harbin 150040, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Ming",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Animal Disease Control and Prevention & National Data Center for Animal Infectious Diseases, Harbin Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Harbin 150069, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenmeng",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Northeast Forestry University, Harbin 150040, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Dangdang",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Northeast Forestry University, Harbin 150040, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jingfei",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory for Animal Disease Control and Prevention & National Data Center for Animal Infectious Diseases, Harbin Veterinary Research Institute, Chinese Academy of Agricultural Sciences, Harbin 150069, People's Republic of China. Electronic address: wangjingfei@caas.cn."
+        ]
+      },
+      {
+        "full_name": "Sui, Guangchao",
+        "short_name": "Sui G",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Science, Northeast Forestry University, Harbin 150040, People's Republic of China. Electronic address: gcsui@nefu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Apr",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/16 05:42",
+    "fetched_at": "2026-09-21 05:49:38"
+  },
+  "links": {
+    "cites": [
+      "42450281",
+      "41960414",
+      "41001050",
+      "40353409",
+      "40201079",
+      "40034493"
+    ],
+    "refs": [],
+    "similar": [
+      "38490381",
+      "32943634",
+      "34452382",
+      "34570337",
+      "34986000",
+      "34495691",
+      "35215918",
+      "36922882",
+      "22292426",
+      "29444942",
+      "31996436",
+      "27827562",
+      "24965458",
+      "33837716",
+      "38224661",
+      "17894228",
+      "18474561",
+      "35215818",
+      "24006447",
+      "25568211",
+      "23786675",
+      "24991016",
+      "16940497",
+      "23747688",
+      "31694940",
+      "19710138",
+      "34287037",
+      "25402344",
+      "35149682",
+      "33617130",
+      "38084773",
+      "17570048",
+      "34625631",
+      "35632684",
+      "26656680",
+      "30518924",
+      "32605989",
+      "36015065",
+      "26108567",
+      "35527224",
+      "24986716",
+      "28662211",
+      "25056903",
+      "35975921",
+      "36560655",
+      "36475767",
+      "24227854",
+      "36298726",
+      "35288349",
+      "21839093",
+      "37768084",
+      "14718665",
+      "28232749",
+      "22746826",
+      "36809075",
+      "23984714",
+      "15731222",
+      "38245515",
+      "17449079",
+      "32781023",
+      "37075664",
+      "29142128",
+      "25494356",
+      "31488162",
+      "32938763",
+      "33933516",
+      "34757841",
+      "33081269",
+      "33115869",
+      "24148770",
+      "27078841",
+      "28223458",
+      "35998704",
+      "37914398",
+      "30463969",
+      "9721241",
+      "34375636",
+      "30964395",
+      "26278173",
+      "29987379",
+      "16894214",
+      "15749125",
+      "24299619",
+      "19851456",
+      "22951822",
+      "33848593",
+      "28228589",
+      "34812572",
+      "20720013",
+      "29876783",
+      "30567995",
+      "27334588",
+      "27193742",
+      "23763992",
+      "24148696",
+      "16699000",
+      "37896867",
+      "31859600",
+      "17507473",
+      "29087310",
+      "39040396"
+    ],
+    "review": [
+      "38490381",
+      "33837716"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)01651-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

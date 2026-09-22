@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "37856873",
+    "doi": "10.1021/acsmacrolett.3c00456",
+    "title": "Conformational Properties of Polymers at Droplet Interfaces as Model Systems for Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Polymer models serve as useful tools for studying the formation and physical properties of biomolecular condensates. In recent years, the interface dividing the dense and dilute phases of condensates has been discovered to be closely related to their functionality, but the conformational preferences of the constituent proteins remain unclear. To elucidate this, we perform molecular simulations of a droplet formed by phase separation of homopolymers as a surrogate model for the prion-like low-complexity domains. By systematically analyzing the polymer conformations at different locations in the droplet, we find that the chains become compact at the droplet interface compared with the droplet interior. Further, segmental analysis revealed that the end sections of the chains are enriched at the interface to maximize conformational entropy and are more expanded than the middle sections of the chains. We find that the majority of chain segments lie tangential to the droplet surface, and only the chain ends tend to align perpendicular to the interface. These trends also hold for the natural proteins FUS LC and LAF-1 RGG, which exhibit more compact chain conformations at the interface compared to the droplet interior. Our findings provide important insights into the interfacial properties of biomolecular condensates and highlight the value of using simple polymer physics models to understand the underlying mechanisms.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Prions",
+      "Biomolecular Condensates",
+      "Entropy",
+      "Models, Biological",
+      "Polymers"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jiahui",
+        "Devarajan, Dinesh Sundaravadivelu",
+        "Nikoubashman, Arash",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Wang J",
+        "Devarajan DS",
+        "Nikoubashman A",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7825-0999",
+        "ORCID: 0000-0003-0563-825X",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+        "Institute of Physics, Johannes Gutenberg University Mainz, Staudingerweg 7, 55128 Mainz, Germany.",
+        "Leibniz-Institut fur Polymerforschung Dresden e.V., Hohe Strasse 6, 01069 Dresden, Germany.",
+        "Institut fur Theoretische Physik, Technische Universitat Dresden, 01069 Dresden, Germany.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+        "Department of Chemistry, Texas A&M University, College Station, Texas 77843, United States.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas 77843, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jiahui",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States."
+        ]
+      },
+      {
+        "full_name": "Devarajan, Dinesh Sundaravadivelu",
+        "short_name": "Devarajan DS",
+        "identifiers": [
+          "0000-0001-7825-0999"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States."
+        ]
+      },
+      {
+        "full_name": "Nikoubashman, Arash",
+        "short_name": "Nikoubashman A",
+        "identifiers": [
+          "0000-0003-0563-825X"
+        ],
+        "affiliations": [
+          "Institute of Physics, Johannes Gutenberg University Mainz, Staudingerweg 7, 55128 Mainz, Germany.",
+          "Leibniz-Institut für Polymerforschung Dresden e.V., Hohe Straße 6, 01069 Dresden, Germany.",
+          "Institut für Theoretische Physik, Technische Universität Dresden, 01069 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+          "Department of Chemistry, Texas A&M University, College Station, Texas 77843, United States.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas 77843, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS macro letters"
+    ],
+    "journal_abbrev": [
+      "ACS Macro Lett"
+    ],
+    "pub_date": "2023 Nov 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/19 18:42",
+    "fetched_at": "2026-09-21 02:10:03"
+  },
+  "links": {
+    "cites": [
+      "42517609",
+      "42261607",
+      "41965924",
+      "41481439",
+      "41253788",
+      "41004056",
+      "40985078",
+      "40830340",
+      "40691580",
+      "40335475",
+      "40196628",
+      "40188296",
+      "39920231",
+      "39856105",
+      "39610751",
+      "39568948",
+      "39562559",
+      "39225536",
+      "39185151",
+      "39171763",
+      "38492239",
+      "38405719",
+      "38316988",
+      "38260590",
+      "37961424"
+    ],
+    "refs": [
+      "38429263",
+      "38316988",
+      "38250712",
+      "37684240",
+      "37546704",
+      "37254920",
+      "37100914",
+      "37079924",
+      "36513655",
+      "36459561",
+      "36279601",
+      "36272811",
+      "36071192",
+      "35802394",
+      "35590728",
+      "35582428",
+      "35119946",
+      "34916288",
+      "34716273",
+      "33934416",
+      "33845463",
+      "33767388",
+      "33473217",
+      "33169001",
+      "33084300",
+      "32393642",
+      "32312191",
+      "32145247",
+      "31139718",
+      "30682370",
+      "30217894",
+      "30017918",
+      "29517898",
+      "29509422",
+      "29364893",
+      "28894006",
+      "28505819",
+      "28225081",
+      "27008568",
+      "26328871",
+      "26317470",
+      "26015579",
+      "25436423",
+      "25288112",
+      "23901099",
+      "16494432"
+    ],
+    "similar": [
+      "37856873",
+      "37577555",
+      "38260590",
+      "37684240",
+      "39320949",
+      "34916288",
+      "36513655",
+      "38429263",
+      "34767801",
+      "37231298",
+      "36993212",
+      "33307683",
+      "34862761",
+      "36758221",
+      "37252985",
+      "23912807",
+      "36004748",
+      "37215004",
+      "37873097",
+      "39398199",
+      "37735186",
+      "37470705",
+      "37205474",
+      "38591689",
+      "36883003",
+      "34110175",
+      "39042834",
+      "35902591",
+      "37952770",
+      "37489654",
+      "3075466",
+      "37957147",
+      "28752888",
+      "37464880",
+      "37190858",
+      "34762868",
+      "38751116",
+      "36657879",
+      "38615193",
+      "34965250",
+      "35053240",
+      "35179885",
+      "37311001",
+      "35641495",
+      "34552246",
+      "36227474",
+      "36702825",
+      "36227477",
+      "37549257",
+      "34648275",
+      "38326345",
+      "38996511",
+      "36595668",
+      "33864415",
+      "36771812",
+      "37194953",
+      "37399327",
+      "39004265",
+      "32426986",
+      "37468629",
+      "37791635",
+      "38621751",
+      "38971830",
+      "37217523",
+      "36272811",
+      "38462838",
+      "36350032",
+      "36945688",
+      "38252962",
+      "33318217",
+      "32822449",
+      "19492828",
+      "34795061",
+      "35001622",
+      "38998938",
+      "36071192",
+      "34759379",
+      "36227471",
+      "15260581",
+      "37789618",
+      "37961424",
+      "34737230",
+      "35198903",
+      "33704061",
+      "18729531",
+      "37782826",
+      "36227469",
+      "35727989",
+      "36671536",
+      "37090622",
+      "36854378",
+      "39458699",
+      "37094002",
+      "39171763",
+      "30471691",
+      "32584357",
+      "39225535",
+      "25280265",
+      "38251748",
+      "28892398"
+    ],
+    "review": [
+      "37856873",
+      "34767801",
+      "3075466",
+      "37464880",
+      "35179885",
+      "37399327",
+      "38621751",
+      "36350032",
+      "36071192"
+    ],
+    "pmc": [
+      "10771815"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37856873/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37856873",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/amlccd/article-lookup/doi/10.1021/acsmacrolett.3c00456",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

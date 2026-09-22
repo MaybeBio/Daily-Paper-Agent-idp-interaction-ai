@@ -1,0 +1,328 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.14.632901",
+  "title": "Investigation of the HLA locus in autopsy-confirmed progressive supranuclear palsy",
+  "doi": "10.1101/2025.01.14.632901",
+  "abstract": "<h4>ABSTRACT</h4> <h4>Objectives</h4> Progressive supranuclear palsy (PSP) is a neurodegenerative disease showing pathological tau accumulation in subcortical neurons and glial cells. The human leukocyte antigen ( HLA ) locus on chromosome 6 is a polymorphic region with complex linkage patterns that has been implicated in several autoimmune and neurological disorders. The HLA locus has not been systematically examined in PSP. It is unclear whether tau and HLA can interact to induce an autoimmune disease mechanism. <h4>Methods</h4> We evaluated an autopsy confirmed PSP cohort (n=44) and compared allele/haplotype frequencies to those of the reference group of a local deceased Canadian donor pool. We performed HLA/Tau peptide binding prediction and modelling of HLA Class II and Tau Peptide interactions. <h4>Findings</h4> Odds ratio was 2.94 (95% CI 1.01 to 8.55; p=0.047) for DQB1 *06:01 allele, and 2.59 (95% CI 1.39 to 4.83; p=0.0025) for the narcolepsy associated haplotype ( DRB1 *15:01 DQB1 *06:02). One patient with 4 repeat tau PSP type pathology was a carrier of the IgLON5-associated haplotype ( DRB1 *10:01 DQB1 *05:01). HLA/Tau peptide binding prediction and modelling of HLA Class II/Tau Peptide interactions revealed strong binding tau peptides but not the PSP protofilament fold for alleles DQA1* 01:02DQB1* 06:02 and DQA1* 01:03DQB1* 06:01. <h4>Conclusion</h4> Our study suggests that epitopes within the tau peptide may bind to HLA alleles that are found in a subset of PSP patients supporting the notion of an autoimmune pathophysiological component. These findings have implications for subtyping and stratifying patients for therapies, including those targeting immune modulation.",
+  "authors": [
+    "Wang J",
+    "Forrest SL",
+    "Dasari S",
+    "Tanaka H",
+    "Rogaeva E",
+    "Tartaglia MC",
+    "Fox S",
+    "Lang AE",
+    "Kalyaanamoorthy S",
+    "Kovacs GG"
+  ],
+  "published_date": "2025-01-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.14.632901",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.14.632901.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR968025",
+    "raw_record": {
+      "id": "PPR968025",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR968025"
+        ]
+      },
+      "doi": "10.1101/2025.01.14.632901",
+      "title": "Investigation of the HLA locus in autopsy-confirmed progressive supranuclear palsy",
+      "authorString": "Wang J, Forrest SL, Dasari S, Tanaka H, Rogaeva E, Tartaglia MC, Fox S, Lang AE, Kalyaanamoorthy S, Kovacs GG.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang J",
+            "lastName": "Wang",
+            "firstName": "Jinguo",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory Medicine Program, , ,"
+                },
+                {
+                  "affiliation": "Department of Laboratory Medicine and Pathobiology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Forrest SL",
+            "lastName": "Forrest",
+            "firstName": "Shelley",
+            "initials": "SL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Tanz Centre for Research in Neurodegenerative Diseases, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dasari S",
+            "lastName": "Dasari",
+            "firstName": "Sathish",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry Faculty of Science , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tanaka H",
+            "lastName": "Tanaka",
+            "firstName": "Hidetomo",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Tanz Centre for Research in Neurodegenerative Diseases, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rogaeva E",
+            "lastName": "Rogaeva",
+            "firstName": "Ekaterina",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Tanz Centre for Research in Neurodegenerative Diseases, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tartaglia MC",
+            "lastName": "Tartaglia",
+            "firstName": "Carmela",
+            "initials": "MC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Tanz Centre for Research in Neurodegenerative Diseases, , ,"
+                },
+                {
+                  "affiliation": ", , , , ,"
+                },
+                {
+                  "affiliation": "Rossy Centre for PSP, , , , ,"
+                },
+                {
+                  "affiliation": "Division of Neurology, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fox S",
+            "lastName": "Fox",
+            "firstName": "Susan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                },
+                {
+                  "affiliation": "Rossy Centre for PSP, , , , ,"
+                },
+                {
+                  "affiliation": "Division of Neurology, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lang AE",
+            "lastName": "Lang",
+            "firstName": "Anthony",
+            "initials": "AE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Tanz Centre for Research in Neurodegenerative Diseases, , ,"
+                },
+                {
+                  "affiliation": ", , , , ,"
+                },
+                {
+                  "affiliation": "Rossy Centre for PSP, , , , ,"
+                },
+                {
+                  "affiliation": "Division of Neurology, , , , ,"
+                },
+                {
+                  "affiliation": "Edmond J. Safra Program in Parkinson’s Disease and the Morton and Gloria Shulman Movement Disorders Clinic, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kalyaanamoorthy S",
+            "lastName": "Kalyaanamoorthy",
+            "firstName": "Subha",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry Faculty of Science , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kovacs GG",
+            "lastName": "Kovacs",
+            "firstName": "Gabor",
+            "initials": "GG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3841-5511"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory Medicine Program, , ,"
+                },
+                {
+                  "affiliation": "Department of Laboratory Medicine and Pathobiology, , ,"
+                },
+                {
+                  "affiliation": "Tanz Centre for Research in Neurodegenerative Diseases, , ,"
+                },
+                {
+                  "affiliation": ", , , , ,"
+                },
+                {
+                  "affiliation": "Rossy Centre for PSP, , , , ,"
+                },
+                {
+                  "affiliation": "Division of Neurology, , , , ,"
+                },
+                {
+                  "affiliation": "Edmond J. Safra Program in Parkinson’s Disease and the Morton and Gloria Shulman Movement Disorders Clinic, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3841-5511"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  <h4>Objectives</h4>  Progressive supranuclear palsy (PSP) is a neurodegenerative disease showing pathological tau accumulation in subcortical neurons and glial cells. The human leukocyte antigen (  HLA ) locus on chromosome 6 is a polymorphic region with complex linkage patterns that has been implicated in several autoimmune and neurological disorders. The  HLA locus has not been systematically examined in PSP. It is unclear whether tau and HLA can interact to induce an autoimmune disease mechanism.  <h4>Methods</h4>  We evaluated an autopsy confirmed PSP cohort (n=44) and compared allele/haplotype frequencies to those of the reference group of a local deceased Canadian donor pool. We performed HLA/Tau peptide binding prediction and modelling of HLA Class II and Tau Peptide interactions. <h4>Findings</h4>  Odds ratio was 2.94 (95% CI 1.01 to 8.55; p=0.047) for  DQB1 *06:01 allele, and 2.59 (95% CI 1.39 to 4.83; p=0.0025) for the narcolepsy associated haplotype (  DRB1 *15:01  DQB1 *06:02). One patient with 4 repeat tau PSP type pathology was a carrier of the IgLON5-associated haplotype (  DRB1 *10:01  DQB1 *05:01). HLA/Tau peptide binding prediction and modelling of HLA Class II/Tau Peptide interactions revealed strong binding tau peptides but not the PSP protofilament fold for alleles DQA1*  01:02DQB1* 06:02 and DQA1*  01:03DQB1* 06:01.  <h4>Conclusion</h4>  Our study suggests that epitopes within the tau peptide may bind to HLA alleles that are found in a subset of PSP patients supporting the notion of an autoimmune pathophysiological component. These findings have implications for subtyping and stratifying patients for therapies, including those targeting immune modulation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.01.14.632901"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.01.14.632901"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR968025"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR968025&type=FILE&fileName=EMS202749-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40132252",
+            "reference": "Immunobiology. 2025 May;230(3):152892",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS202749",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-01-20",
+      "firstPublicationDate": "2025-01-19",
+      "firstIndexDate": "2025-01-20",
+      "fullTextReceivedDate": "2025-02-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

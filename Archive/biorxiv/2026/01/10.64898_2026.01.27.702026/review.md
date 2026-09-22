@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that amphiphilic prion-like domains (PLDs) encode not only fluid condensates but also lyotropic phases (micelles, bicelles) and amyloid fibrils as thermodynamic endpoints, thereby linking functional phase separation with pathological aggregation. They support this with physics-based de novo protein design (Evo-MD), TEM, CD, and AlphaFold predictions.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative results, or figure references
+- **Missing materials affecting confidence** Full manuscript, methods, figures, statistical analyses, sequence design details, experimental protocols, and validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing hypothesis that amphiphilic motifs in PLDs bridge condensate formation and amyloid aggregation through lyotropic intermediates. However, the evidence base provided is insufficient to evaluate the central claims. The abstract reports results without quantitative data, experimental controls, or methodological detail, and the logical connection between lyotropic phases and amyloid endpoints is asserted rather than demonstrated. The work may be of interest to the biomolecular condensate and protein aggregation communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, prion-like domains, and amyloid aggregation would be interested. The proposed link between functional condensation and pathological fibrillization addresses a long-standing question in the field, and the use of de novo protein design offers a potentially powerful approach to probe sequence-grammar rules.
+- **Major strengths** The conceptual framework is timely and addresses a gap in current models of protein self-assembly. The use of physics-based de novo design (Evo-MD) is an innovative approach. The overlap between lyotropic motif grammar and PLD/LARKS sequences provides a plausible molecular rationale for the proposed continuum.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that "these motifs also assemble into amyloid-based hydrogels as thermodynamic endpoints" based on TEM, CD, and AlphaFold predictions.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract states that TEM, CD, and AlphaFold confirm amyloid-based hydrogel formation, but no data, sample sizes, conditions, or controls are presented. AlphaFold predictions are computational and do not constitute experimental confirmation of amyloid structure. TEM and CD can support amyloid presence but require careful interpretation, especially in hydrogel contexts.  
+  - **Why it matters** The central claim that lyotropic motifs lead to amyloid endpoints is the key novelty of the work. Without adequate experimental evidence, the claim remains speculative.  
+  - **Resolution test** Provide representative TEM images with scale bars, CD spectra with secondary structure estimates, and a clear description of how AlphaFold predictions were validated against experimental data. Include appropriate controls, such as non-amphiphilic sequence variants.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Logical coherence  
+  - **Claim pointer** The abstract asserts that "these same amphiphilic forces inherently encode lyotropic structuring and subsequent amyloid formation," linking functional condensation with pathological aggregation.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The causal chain from amphiphilic forces to lyotropic phases to amyloid fibrils is stated but not mechanistically explained. The abstract does not clarify how lyotropic phases transition to amyloid structures, nor does it address whether this transition is thermodynamically or kinetically driven. The claim that PLDs "likely evolved to stabilize condensates" is speculative and not supported by data presented.  
+  - **Why it matters** The proposed "missing link" depends on establishing a mechanistic connection between these states. Without a clear model or supporting data, the conceptual advance is weakened.  
+  - **Resolution test** Provide a mechanistic model or experimental evidence showing the transition from lyotropic phases to amyloid fibrils, such as time-resolved measurements or mutational analysis that disrupts the proposed pathway.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The abstract claims identification of "a vast amphiphilic motif space" using Evo-MD.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No details are given about the Evo-MD method, the sequence space explored, the criteria for defining "amphiphilic," or the validation of designed motifs. The term "vast" is not quantified.  
+  - **Why it matters** Reproducibility and assessment of the design strategy require methodological transparency. The reader cannot evaluate whether the motif space is representative or biased.  
+  - **Resolution test** Describe the Evo-MD algorithm, the sequence library size, the amphiphilicity metrics used, and provide examples of designed motifs with their predicted and experimentally validated properties.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The term "amphiphilic prion-like domains" is used without definition. PLDs are typically defined by sequence composition, and amphiphilicity is not a standard descriptor for them.  
+  - **Required correction** Define the term and clarify how amphiphilicity is assessed in the context of PLDs.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Claim about evolution  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The statement that PLDs "likely evolved to stabilize condensates" is presented without phylogenetic or functional evidence.  
+  - **Required correction** Either provide supporting evidence or soften the claim to reflect its speculative nature.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Reference to LARKS  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The overlap with LARKS is mentioned but not explained. LARKS are specific sequence motifs associated with reversible amyloid formation; their relevance to the proposed framework is unclear.  
+  - **Required correction** Briefly explain the significance of LARKS overlap and how it supports or complicates the proposed model.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of a continuum from condensates to lyotropic phases to amyloids is conceptually novel and extends current models.  
+  - Scientific importance: If substantiated, the work could unify two major fields, but the current evidence does not establish the claim.  
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and structural biology, with broad appeal.  
+  - Technical soundness: Cannot be assessed from the abstract; methods and data are not provided.  
+  - Readability for nonspecialists: The abstract is concise but uses specialized terms without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract lacks the experimental and methodological detail required to support the central claims. A full manuscript with rigorous data would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that lyotropic motifs assemble into amyloid-based hydrogels as thermodynamic endpoints is unsupported without experimental data.
+- The assertion that amphiphilic forces "inherently encode" amyloid formation is not mechanistically justified.
+- The evolutionary claim about PLD function is speculative and not backed by evidence.
+- The overlap between lyotropic motif grammar and PLD/LARKS sequences is stated but not quantified or contextualized.
+- The use of AlphaFold predictions as "confirmation" of amyloid structure is methodologically questionable and requires clarification.

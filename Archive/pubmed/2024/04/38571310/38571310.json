@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "38571310",
+    "doi": "10.1016/j.bpj.2024.04.003",
+    "title": "Energy landscapes of homopolymeric RNAs revealed by deep unsupervised learning."
+  },
+  "content": {
+    "abstract": "Conformational dynamics of RNA plays important roles in a variety of cellular functions such as transcriptional regulation, catalysis, scaffolding, and sensing. Recently, RNAs with low-complexity sequences have been shown to phase separate and form condensate phases similar to lowcomplexity protein domains. The affinity for phase separation and the material characteristics of RNA condensates are strongly dependent on sequence composition and patterning. We hypothesize that differences in the affinities for RNA phase separation can be uncovered by studying sequence-dependent conformational dynamics of single RNA chains. To this end, we have employed atomistic simulations and deep dimensionality reduction techniques to map temperature-dependent conformational free energy landscapes for 20 base-long homopolymeric RNA sequences: poly(U), poly(G), poly(C), and poly(A). The energy landscapes of homopolymeric RNAs reveal a plethora of metastable states with qualitatively different populations stemming from differences in base chemistry. Through detailed analysis of base, phosphate, and sugar interactions, we show that experimentally observed temperature-driven shifts in metastable state populations align with experiments on RNA phase transitions. Specifically, we find that the thermodynamics of unfolding of homopolymeric RNA follows the poly(G) > poly(A) > poly(C) > poly(U) order of stability, mirroring the propensity of RNA to form condensates. To conclude, this work shows that at least for homopolymeric RNA sequences the single-chain conformational dynamics contains sufficient information for predicting and quantifying condensate forming affinities of RNAs. Thus, we anticipate that atomically detailed studies of temeprature -dependent energy landscapes of RNAs will be a useful guide for understanding the propensity of various RNA molecules to form condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA/chemistry/metabolism",
+      "*Thermodynamics",
+      "*Nucleic Acid Conformation",
+      "Molecular Dynamics Simulation",
+      "Unsupervised Machine Learning",
+      "Deep Learning",
+      "Temperature"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramachandran, Vysakh",
+        "Potoyan, Davit A"
+      ],
+      "short_names": [
+        "Ramachandran V",
+        "Potoyan DA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Iowa State University, Ames, Iowa.",
+        "Department of Chemistry, Iowa State University, Ames, Iowa; Department of Biochemistry Biophysics and Molecular Biology, Iowa State University, Ames, Iowa. Electronic address: potoyan@iastate.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramachandran, Vysakh",
+        "short_name": "Ramachandran V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, Iowa."
+        ]
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, Iowa; Department of Biochemistry Biophysics and Molecular Biology, Iowa State University, Ames, Iowa. Electronic address: potoyan@iastate.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2024 May 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/04 06:45",
+    "fetched_at": "2026-09-22 01:14:46"
+  },
+  "links": {
+    "cites": [
+      "42358691",
+      "41626434",
+      "41187075",
+      "41129218",
+      "39896463",
+      "39432826",
+      "38949285"
+    ],
+    "refs": [
+      "38363841",
+      "37932412",
+      "37686306",
+      "37449795",
+      "37276412",
+      "36989143",
+      "36853966",
+      "36658112",
+      "36193826",
+      "35941229",
+      "35617484",
+      "35501484",
+      "35179357",
+      "34984429",
+      "34890201",
+      "34594027",
+      "34099940",
+      "33945269",
+      "33061812",
+      "32632317",
+      "31804813",
+      "31437398",
+      "31117592",
+      "30465606",
+      "30342445",
+      "30052138",
+      "29744830",
+      "29735687",
+      "29718375",
+      "29690768",
+      "29297679",
+      "28746339",
+      "28562589",
+      "27661094",
+      "27257056",
+      "27233937",
+      "26866996",
+      "26606620",
+      "25453221",
+      "23214904",
+      "22112069",
+      "21322734",
+      "20028141",
+      "19474339",
+      "18192612",
+      "17677590",
+      "17671974",
+      "16448122",
+      "15282329",
+      "12930962",
+      "12869701",
+      "11289852",
+      "11014183",
+      "10056251",
+      "8648666",
+      "6297745",
+      "3905254",
+      "597574"
+    ],
+    "similar": [
+      "38571310",
+      "36883003",
+      "39605385",
+      "39928699",
+      "19905835",
+      "39896463",
+      "39377398",
+      "25453221",
+      "39362695",
+      "39636939",
+      "33982350",
+      "39432826",
+      "38941243",
+      "38181073",
+      "39374435",
+      "20795690",
+      "40102453",
+      "38949285",
+      "20159159",
+      "17501388",
+      "35727989",
+      "38991204",
+      "29279008",
+      "21626368",
+      "19754142",
+      "12655018",
+      "7685689",
+      "23841777",
+      "31804813",
+      "16674261",
+      "26580891",
+      "36993212",
+      "7691177",
+      "16399833",
+      "10639133",
+      "38893554",
+      "39992254",
+      "34772789",
+      "22596256",
+      "25621404",
+      "28393861",
+      "11501992",
+      "25268896",
+      "18926923",
+      "24547945",
+      "20962040",
+      "39505326",
+      "22337051",
+      "24865848",
+      "12202762",
+      "23912807",
+      "24955654",
+      "18633543",
+      "9398261",
+      "11955005",
+      "21863895",
+      "10764579",
+      "39807887",
+      "23730911",
+      "11842187",
+      "17438300",
+      "30078323",
+      "34706977",
+      "39225535",
+      "10423552",
+      "33434025",
+      "24792476",
+      "33594886",
+      "38262278",
+      "29414513",
+      "22313354",
+      "32786906",
+      "19501200",
+      "28652374",
+      "28067358",
+      "18639245",
+      "38855913",
+      "11970003",
+      "39150781",
+      "38800845",
+      "9322020",
+      "23350675",
+      "22359488",
+      "20071574",
+      "16912217",
+      "7505011",
+      "39386696",
+      "28625696",
+      "35364105",
+      "26030098",
+      "19921809",
+      "28115636",
+      "12801929",
+      "29297914",
+      "37986217",
+      "30927889",
+      "11987183",
+      "37494702",
+      "11562205",
+      "1371866"
+    ],
+    "review": [
+      "38571310",
+      "34772789",
+      "18926923",
+      "22337051",
+      "34706977",
+      "29414513",
+      "19501200"
+    ],
+    "pmc": [
+      "11079944"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(24)00247-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38571310/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

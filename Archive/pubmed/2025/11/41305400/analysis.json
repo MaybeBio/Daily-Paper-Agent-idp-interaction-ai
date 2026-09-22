@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41305400",
+  "title": "Homology Modeling of Type-P5 ATPases from the Malaria Parasite: Insight into Their Functions and Evolution, and Implications About the Effect and Role of Intrinsically Disordered Protein Structure.",
+  "authors": "Wiser, Mark F",
+  "journal": "Pathogens (Basel, Switzerland)",
+  "published_date": "2025-11-27",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文对疟原虫P5型ATP酶进行同源建模，关注其IDR形成的无序环可能参与低亲和力蛋白互作，但对象非典型IDP-PPI且方法为传统同源建模，缺乏AI/物理模拟深度。",
+  "abstract": "Type-P5 ATPases are the least characterized among the P-type ATPases and this is especially true in the case of the malaria parasite. In this study, Spf1, a subtype-P5A ATPase of yeast, and ATP13A2, a subtype-P5B ATPase of humans, were used as templates to extensively characterize the sequences and structural features of haemosporidian type-P5 ATPases. Malaria parasites have both subtype-P5A and subtype-P5B ATPase genes and the structural features of the proteins recapitulate the known structures of subtype-P5A and subtype-P5B ATPases. Detailed structural analysis detected an additional alpha-helix in the P-domain of subtype-P5A ATPases, which is not found in subtype-P5B ATPases. This feature may be an additional signature to distinguish subtype-P5A and subtype-P5B ATPases, in addition to the previously described differences in the membrane loops of the N-terminal domain, the arm in the P-domain of subtype-P5A, and substrate differences. A notable difference in the type-P5 ATPases from the malaria parasite, as compared to the templates, is the insertion of multiple variable and low-complexity regions that form intrinsically disorganized loops. These loops may form a shroud-like structure that protects the core ATPase structure and/or participates in low-affinity interprotein interactions. Homology modeling did not provide definitive answers about the substrate specificity of the haemosporidian type-P5 ATPases. However, the haemosporidian subtype-P5A ATPase is likely an ER transmembrane dislocase as are the other subtype-P5A ATPases. In contrast, the subtype-P5B ATPases of the malaria parasite are not likely to be polyamine transporters in lysosomes, as have been described in fungi and metazoans. This suggests that subtype-P5B ATPases have undergone lineage-specific divergence in regard to their function(s).",
+  "abstract_zh": "Type-P5 ATPases是P型ATPases中特征化最少的成员，尤其是在疟原虫的情况下更是如此。本研究以酵母的亚型P5A ATPase Spf1和人类的亚型P5B ATPase ATP13A2为模板，对血孢子虫目（haemosporidian）type-P5 ATPases的序列和结构特征进行了广泛表征。疟原虫同时具有亚型P5A和亚型P5B ATPase基因，其蛋白质的结构特征重现了已知的亚型P5A和亚型P5B ATPases结构。详细的结构分析检测到亚型P5A ATPases的P结构域中存在一个额外的α-螺旋，而这一特征在亚型P5B ATPases中未发现。这一特征可能作为区分亚型P5A和亚型P5B ATPases的额外标志，除了先前描述的N端结构域膜环、亚型P5A P结构域中的臂以及底物差异之外。与模板相比，疟原虫type-P5 ATPases的一个显著差异是插入了多个可变且低复杂度的区域，这些区域形成内在无序的环。这些环可能形成一种保护核心ATPase结构的罩状结构，和/或参与低亲和力的蛋白质间相互作用。同源建模未能为血孢子虫目type-P5 ATPases的底物特异性提供明确答案。然而，血孢子虫目亚型P5A ATPase很可能像其他亚型P5A ATPases一样，是一种内质网跨膜移位酶（ER transmembrane dislocase）。相比之下，疟原虫的亚型P5B ATPases不太可能是溶酶体中的多胺转运体，尽管在真菌和后生动物中已有相关描述。这表明亚型P5B ATPases在功能方面经历了谱系特异性的分化。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41305400/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41305400/",
+  "paper_page_path": "papers/pubmed/41305400/index.html"
+}

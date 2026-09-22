@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33591749",
+  "title": "Recent Force Field Strategies for Intrinsically Disordered Proteins.",
+  "authors": "Mu, Junxi; Liu, Hao; Zhang, Jian; Luo, Ray; Chen, Hai-Feng",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2021-02-17",
+  "window": {
+    "start": "2021-02-15",
+    "end": "2021-02-21"
+  },
+  "score": 7,
+  "one_liner_zh": "综述了针对无序蛋白的分子动力学模拟力场优化策略，虽聚焦单蛋白构象而非PPI机制，但为IDP互作模拟提供了关键方法基础。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are widely distributed across eukaryotic cells, playing important roles in molecular recognition, molecular assembly, post-translational modification, and other biological processes. IDPs are also associated with many diseases such as cancers, cardiovascular diseases, and neurodegenerative diseases. Due to their structural flexibility, conventional experimental methods cannot reliably capture their heterogeneous structures. Molecular dynamics simulation becomes an important complementary tool to quantify IDP structures. This review covers recent force field strategies proposed for more accurate molecular dynamics simulations of IDPs. The strategies include adjusting dihedral parameters, adding grid-based energy correction map (CMAP) parameters, refining protein-water interactions, and others. Different force fields were found to perform well on specific observables of specific IDPs but also are limited in reproducing all available experimental observables consistently for all tested IDPs. We conclude the review with perspective areas for improvements for future force fields for IDPs.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 广泛分布于真核细胞中，在分子识别、分子组装、翻译后修饰及其他生物过程中发挥重要作用。IDPs 还与多种疾病相关，如癌症、心血管疾病和神经退行性疾病。由于其结构灵活性，常规实验方法无法可靠捕获其异质结构。分子动力学模拟成为量化 IDP 结构的重要补充工具。本综述涵盖了近期为更精确模拟 IDPs 的分子动力学而提出的力场策略。这些策略包括调整二面角参数、添加基于网格的能量校正图 (CMAP) 参数、优化蛋白质-水相互作用等。研究发现，不同力场在特定 IDPs 的特定可观测性质上表现良好，但在一致再现所有测试 IDPs 的全部可用实验可观测性质方面存在局限。我们以未来 IDPs 力场改进的展望领域作为综述的结论。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33591749/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33591749/",
+  "paper_page_path": "papers/pubmed/33591749/index.html"
+}

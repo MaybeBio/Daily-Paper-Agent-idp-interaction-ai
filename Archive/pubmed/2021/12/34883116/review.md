@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom and coarse-grain molecular dynamics simulations to characterize the conformational ensemble of INCENP's 440-residue intrinsically disordered region (IDR) under varying phosphorylation levels. They report that phosphorylation expands the IDR locally and globally via increased net charge, drives globule-to-coil transitions with a non-monotonic dependence of transition temperature on phosphorylation degree, shifts populations between globular and extended states, and modulates cohesiveness and phase behavior of IDR assemblies. They propose a phosphorylation-regulated, length-variable "dog-leash" mechanism for Aurora B targeting.
+- **Visible evidence base** Abstract text only; no simulation details, force fields, system setups, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology, force field parameters, validation against experimental data, statistical analyses, and any experimental corroboration
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting hypothesis linking phosphorylation to conformational switching in a functionally important IDR. However, the evidence base is limited to a summary of simulation findings without quantitative details or experimental validation. The central claims, particularly the non-monotonic transition temperature and the functional relevance to the chromosomal passenger complex, cannot be rigorously evaluated from the supplied material. The work has potential for broad interest in the IDR and mitosis communities, but the case is not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and their post-translational regulation, computational biophysicists interested in coarse-grain and all-atom simulation of IDRs, and cell biologists focused on mitotic chromosome segregation and the chromosomal passenger complex. The proposed phosphorylation-tunable "dog-leash" mechanism could inform models of Aurora B localization and function.
+- **Major strengths** The study addresses a biologically important and undercharacterized region of INCENP. The systematic variation of phosphorylation levels in simulations is a thoughtful approach. The identification of a globule-to-coil transition with non-monotonic dependence on phosphorylation is a nontrivial and potentially novel finding. The connection to phase behavior and cohesiveness adds functional relevance beyond static conformations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Our simulations show that phosphorylation expands INCENP's IDR, both locally and globally, mainly by increasing its overall net charge."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract attributes the expansion solely to increased net charge, but IDR conformational changes upon phosphorylation can also arise from altered hydrogen bonding, solvation, or specific ion interactions. Without quantitative decomposition of these contributions or comparison to control simulations (e.g., charge-neutralizing mutations), the causal claim is under-supported.
+  - **Why it matters** If the mechanism is not purely electrostatic, the proposed model may misguide experimental predictions and fail to generalize to other phospho-regulated IDRs.
+  - **Resolution test** Provide simulations with charge-neutralizing phospho-mimetic mutations or explicit decomposition of energetic contributions to show that net charge is the dominant driver.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The transition temperature non-monotonically depends on the degree of phosphorylation, with a mildly phosphorylated case of neutral net charge featuring the highest collapse propensity."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The non-monotonic dependence of transition temperature on phosphorylation is a strong quantitative claim. The abstract does not report how transition temperatures were computed, the range of phosphorylation levels sampled, or the statistical uncertainty. Without these details, the claim cannot be assessed for robustness or reproducibility.
+  - **Why it matters** A non-monotonic effect is counterintuitive and could be an artifact of limited sampling or force field inaccuracies. If not rigorously established, the central mechanistic conclusion is weakened.
+  - **Resolution test** Report the full titration curve of transition temperature versus phosphorylation level, including error bars, simulation lengths, and convergence metrics, and demonstrate robustness across force fields or model resolutions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "Phosphorylation critically shifts the population between these two regimes. It thereby influences cohesiveness and phase behavior of INCENP IDR assemblies, a feature presumably relevant for INCENP's function in the chromosomal passenger complex."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The link between simulated conformational changes and functional outcomes (cohesiveness, phase behavior, and chromosomal passenger complex function) is speculative. The abstract provides no experimental evidence for phase behavior or functional relevance, and the phrase "presumably relevant" signals uncertainty.
+  - **Why it matters** The broader significance of the study hinges on this functional connection. Without experimental validation or at least a clear mechanistic model linking IDR conformations to Aurora B targeting, the impact is limited to a computational description.
+  - **Resolution test** Include experimental data (e.g., in vitro phase separation assays, cellular localization studies, or mutagenesis) or a more explicit and testable mechanistic model connecting conformational shifts to Aurora B access.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "dog-leash model" is used without definition or context, which may confuse readers unfamiliar with INCENP literature.
+  - **Required correction** Briefly define the dog-leash model in the abstract or introduce it with a clarifying phrase.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions both all-atom and coarse-grain simulations but does not specify how results from the two resolutions were reconciled or whether they agree.
+  - **Required correction** State whether the two approaches yielded consistent conclusions or describe how discrepancies were resolved.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Functional relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the range of phosphorylation levels tested or how they relate to physiological conditions (e.g., known Aurora B phosphorylation sites on INCENP).
+  - **Required correction** Clarify the physiological relevance of the phosphorylation levels studied, referencing known sites if applicable.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (charge mechanism), R1-M2 (non-monotonic transition temperature), R1-M3 (functional relevance)
+- **Assessment against Nature-style criteria** Originality: The idea of phosphorylation tuning IDR length and cohesiveness in a dog-leash mechanism is novel and potentially original. Scientific importance: The work addresses a key mitotic regulator, but the functional implications are not yet demonstrated, limiting current importance. Interdisciplinary readership: The topic bridges computational biophysics and cell biology, with potential appeal to both communities, but the abstract is too specialized for a broad audience. Technical soundness: The claims are plausible but not verifiable from the abstract; quantitative details and validation are missing. Readability for nonspecialists: The abstract is dense and assumes familiarity with IDR simulations and mitotic biology, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The computational findings are intriguing, but the abstract alone does not provide sufficient technical detail or experimental validation to support the central claims. I would be supportive if the full manuscript addresses the technical concerns and provides stronger evidence for functional relevance.
+
+## Risk / unsupported claims
+- The claim that phosphorylation expands the IDR "mainly by increasing its overall net charge" is under-supported without energetic decomposition or control simulations.
+- The non-monotonic dependence of transition temperature on phosphorylation degree is not quantitatively substantiated.
+- The influence of phosphorylation on cohesiveness and phase behavior of INCENP IDR assemblies is asserted without experimental evidence.
+- The functional relevance to the chromosomal passenger complex and Aurora B targeting is speculative, as indicated by "presumably relevant."
+- The "dog-leash" model is referenced but not defined or directly tested in the abstract.

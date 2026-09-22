@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "39634645",
+    "doi": "10.1021/acsphyschemau.4c00064",
+    "title": "Amino Acid Residue-Specific Ramachandran Distributions Derived from a Simple Mean Field Potential."
+  },
+  "content": {
+    "abstract": "Protein dynamics in the unfolded state, in the context of early stage protein folding or intrinsically disordered proteins (IDPs), is not well understood. The discovery of IDPs, and their sequence-dependent dynamics, has led to many computational and experimental investigations regarding the conformational preferences of short oligopeptides and individual amino acid residues in the unfolded state. As proteins consist of sequences of amino acid residues, characterizing the intrinsic conformational preferences of the individual residues in the unfolded state is crucial for understanding the emergent conformations of peptides and proteins. While advances have been made in understanding conformational preferences, the atomistic mechanisms driving these preferences remain unresolved. In this work, we show that the distributions of atomic overlaps between backbone and side chain atoms in Ramachandran space are unique for amino acid residue mimetic structures alanine, valine, leucine, and isoleucine in Ramachandran space indicating unique intrapeptide energy landscapes for each residue. We then construct a mean field potential consisting of only an empirical peptide backbone-water and average intrapeptide Lennard-Jones contributions to explore their influence on the conformational preferences. With this fairly simple model, we were able to produce Ramachandran distributions that qualitatively agree with previously reported experimental and computational predictions about the conformational preferences of these amino acid residues in the unfolded state in water. Our results indicate these conformational preferences are the result of the balance between pPII-stabilizing backbone-water interactions and repulsive side chain-backbone interactions where the latter will depend uniquely on the atomic makeup and geometry of the side chain.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Andrews, Brian"
+      ],
+      "short_names": [
+        "Andrews B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4469-3147"
+      ],
+      "affiliations": [
+        "Department of Physics, Bryn Mawr College, Bryn Mawr, Pennsylvania 19010, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Andrews, Brian",
+        "short_name": "Andrews B",
+        "identifiers": [
+          "0000-0003-4469-3147"
+        ],
+        "affiliations": [
+          "Department of Physics, Bryn Mawr College, Bryn Mawr, Pennsylvania 19010, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS physical chemistry Au"
+    ],
+    "journal_abbrev": [
+      "ACS Phys Chem Au"
+    ],
+    "pub_date": "2024 Nov 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/05 11:20",
+    "fetched_at": "2026-09-21 13:21:36"
+  },
+  "links": {
+    "cites": [
+      "42181723"
+    ],
+    "refs": [
+      "39475380",
+      "38877893",
+      "38607226",
+      "37155239",
+      "37096579",
+      "36848625",
+      "35382231",
+      "35048087",
+      "34418423",
+      "34265844",
+      "33453267",
+      "32751224",
+      "32227937",
+      "31751129",
+      "31714766",
+      "31055760",
+      "29906395",
+      "29781018",
+      "29735687",
+      "29477047",
+      "28193869",
+      "27819658",
+      "26620784",
+      "26418575",
+      "26343224",
+      "26266514",
+      "25400522",
+      "25358113",
+      "24912976",
+      "24815738",
+      "24773235",
+      "24423055",
+      "23407358",
+      "22104965",
+      "21205907",
+      "20392111",
+      "20014772",
+      "19243204",
+      "18713857",
+      "17263399",
+      "16330763",
+      "16211538",
+      "16114874",
+      "16008354",
+      "13990617",
+      "12061717",
+      "11910019",
+      "11790836",
+      "8744570",
+      "8592699",
+      "7710478",
+      "5884016",
+      "4124164"
+    ],
+    "similar": [
+      "39634645",
+      "10903873",
+      "22506277",
+      "23448349",
+      "20014772",
+      "37096579",
+      "32751224",
+      "25062017",
+      "23385383",
+      "22435395",
+      "26343224",
+      "22712805",
+      "24423055",
+      "39979079",
+      "20392111",
+      "25227444",
+      "35628453",
+      "22582825",
+      "28577238",
+      "35625612",
+      "30204435",
+      "35048087",
+      "26418575",
+      "33530506",
+      "27284086",
+      "21728315",
+      "34619031",
+      "27545097",
+      "32696367",
+      "23229832",
+      "21879108",
+      "22181201",
+      "34680137",
+      "27878168",
+      "26132437",
+      "11180046",
+      "25221447",
+      "23901099",
+      "40285725",
+      "8811731",
+      "18713857",
+      "16854159",
+      "34651150",
+      "38877893",
+      "12418106",
+      "17918837",
+      "23912807",
+      "16317667",
+      "26727467",
+      "15041639",
+      "20825228",
+      "31756456",
+      "31679343",
+      "36346711",
+      "16423894",
+      "1610812",
+      "10686106",
+      "27783230",
+      "7567961",
+      "18479708",
+      "27111521",
+      "25728043",
+      "1942039",
+      "26789758",
+      "36139023",
+      "15616985",
+      "24625248",
+      "12517150",
+      "24695799",
+      "29267011",
+      "23197420",
+      "19908838",
+      "23229867",
+      "28970487",
+      "9398523",
+      "38626119",
+      "33453267",
+      "17897093",
+      "29186229",
+      "21630640",
+      "23934782",
+      "26138206",
+      "7827034",
+      "20404210",
+      "19243204",
+      "30865832",
+      "30620582",
+      "26579777",
+      "8907507",
+      "16315271",
+      "26098815",
+      "15537753",
+      "31877033",
+      "30633502",
+      "6885244",
+      "21547966",
+      "18377931",
+      "11867432",
+      "18481860",
+      "11541119"
+    ],
+    "review": [
+      "39634645",
+      "37096579",
+      "25062017",
+      "35628453",
+      "33530506",
+      "21879108",
+      "12418106",
+      "23934782"
+    ],
+    "pmc": [
+      "11613349"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39634645/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/apcach/article-lookup/doi/10.1021/acsphyschemau.4c00064",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "identity": {
+    "pmid": "35597653",
+    "doi": "10.1063/5.0087769",
+    "title": "Controlling cluster size in 2D phase-separating binary mixtures with specific interactions."
+  },
+  "content": {
+    "abstract": "By varying the concentration of molecules in the cytoplasm or on the membrane, cells can induce the formation of condensates and liquid droplets, similar to phase separation. Their thermodynamics, much studied, depends on the mutual interactions between microscopic constituents. Here, we focus on the kinetics and size control of 2D clusters, forming on membranes. Using molecular dynamics of patchy colloids, we model a system of two species of proteins, giving origin to specific heterotypic bonds. We find that concentrations, together with valence and bond strength, control both the size and the growth time rate of the clusters. In particular, if one species is in large excess, it gradually saturates the binding sites of the other species; the system then becomes kinetically arrested and cluster coarsening slows down or stops, thus yielding effective size selection. This phenomenology is observed both in solid and fluid clusters, which feature additional generic homotypic interactions and are reminiscent of the ones observed on biological membranes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Colloids/chemistry",
+      "Kinetics",
+      "Molecular Dynamics Simulation",
+      "*Proteins/chemistry",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Palaia, Ivan",
+        "Saric, Andela"
+      ],
+      "short_names": [
+        "Palaia I",
+        "Saric A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8843-9485",
+        "ORCID: 0000-0002-7854-2139"
+      ],
+      "affiliations": [
+        "Institute of Science and Technology Austria, 3400 Klosterneuburg, Austria.",
+        "Institute of Science and Technology Austria, 3400 Klosterneuburg, Austria."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Palaia, Ivan",
+        "short_name": "Palaia I",
+        "identifiers": [
+          "0000-0002-8843-9485"
+        ],
+        "affiliations": [
+          "Institute of Science and Technology Austria, 3400 Klosterneuburg, Austria."
+        ]
+      },
+      {
+        "full_name": "Šarić, Anđela",
+        "short_name": "Šarić A",
+        "identifiers": [
+          "0000-0002-7854-2139"
+        ],
+        "affiliations": [
+          "Institute of Science and Technology Austria, 3400 Klosterneuburg, Austria."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2022 May 21",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/22 06:00",
+    "fetched_at": "2026-09-20 10:27:55"
+  },
+  "links": {
+    "cites": [
+      "39480900",
+      "36883003",
+      "36322659"
+    ],
+    "refs": [],
+    "similar": [
+      "35597653",
+      "23912807",
+      "36397514",
+      "23006403",
+      "24697460",
+      "32538404",
+      "24910981",
+      "26314260",
+      "12523857",
+      "33571491",
+      "28789541",
+      "21525551",
+      "32405004",
+      "23496513",
+      "25019838",
+      "32484438",
+      "21261371",
+      "15565151",
+      "22984979",
+      "25662648",
+      "38963425",
+      "33122442",
+      "19374359",
+      "34681706",
+      "24289039",
+      "17487316",
+      "23759922",
+      "23247337",
+      "20978687",
+      "29055296",
+      "24320349",
+      "16137628",
+      "23488858",
+      "24437905",
+      "17887876",
+      "21389444",
+      "27074683",
+      "35119898",
+      "20866227",
+      "23781818",
+      "24852548",
+      "34686039",
+      "27834426",
+      "23215334",
+      "32069591",
+      "23690613",
+      "20707579",
+      "17025998",
+      "21919447",
+      "23169050",
+      "33832229",
+      "25186901",
+      "24125220",
+      "37679525",
+      "25702025",
+      "15324049",
+      "19791922",
+      "16805635",
+      "20572732",
+      "38470361",
+      "22715288",
+      "23214734",
+      "17334685",
+      "23916723",
+      "19169722",
+      "20866821",
+      "21525554",
+      "22360205",
+      "21389454",
+      "30981223",
+      "34942791",
+      "27223339",
+      "18816017",
+      "25166201",
+      "24877969",
+      "25353402",
+      "22587071",
+      "22587330",
+      "27627367",
+      "32242603",
+      "26590546",
+      "12188726",
+      "34879672",
+      "16171321",
+      "22047221",
+      "11034205",
+      "33704061",
+      "18554053",
+      "20423058",
+      "29130090",
+      "21974541"
+    ],
+    "review": [
+      "35597653",
+      "17487316",
+      "23247337",
+      "16137628"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0087769",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

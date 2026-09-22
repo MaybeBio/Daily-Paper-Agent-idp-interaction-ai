@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33683101",
+  "title": "Mechanisms of Scaffold-Mediated Microcompartment Assembly and Size Control.",
+  "authors": "Mohajerani, Farzaneh; Sayer, Evan; Neil, Christopher; Inlow, Koe; Hagan, Michael F",
+  "journal": "ACS nano",
+  "published_date": "2021-03-09",
+  "window": {
+    "start": "2021-03-08",
+    "end": "2021-03-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该理论计算研究通过粗粒化模拟揭示柔性脚手架蛋白介导的微区室组装与尺寸控制机制，耦合液-液相分离与蛋白壳自组装，虽对象非典型IDP-PPI但机制建模思路对无序蛋白介导的凝聚体互作研究有直接启发。",
+  "abstract": "This article describes a theoretical and computational study of the dynamical assembly of a protein shell around a complex consisting of many cargo molecules and long, flexible scaffold molecules. Our study is motivated by bacterial microcompartments, which are proteinaceous organelles that assemble around a condensed droplet of enzymes and reactants. As in many examples of cytoplasmic liquid-liquid phase separation, condensation of the microcompartment interior cargo is driven by flexible scaffold proteins that have weak multivalent interactions with the cargo. Our results predict that the shell size, amount of encapsulated cargo, and assembly pathways depend sensitively on properties of the scaffold, including its length and valency of scaffold-cargo interactions. Moreover, the ability of self-assembling protein shells to change their size to accommodate scaffold molecules of different lengths depends crucially on whether the spontaneous curvature radius of the protein shell is smaller or larger than a characteristic elastic length scale of the shell. Beyond natural microcompartments, these results have important implications for synthetic biology efforts to target alternative molecules for encapsulation by microcompartments or viral shells. More broadly, the results elucidate how cells exploit coupling between self-assembly and liquid-liquid phase separation to organize their interiors.",
+  "abstract_zh": "本文报告了一项关于蛋白质外壳围绕由多种货物分子和长而柔韧的支架分子组成的复合物进行动态组装的理论与计算研究。我们的研究受细菌微区室启发，这些是由蛋白质组成的细胞器，在酶和反应物的凝聚液滴周围组装。与细胞质中液-液相分离的许多实例一样，微区室内部货物的凝聚是由具有与货物弱多价相互作用的柔性支架蛋白驱动的。我们的结果预测，外壳尺寸、封装货物量及组装途径敏感地依赖于支架的特性，包括其长度和支架-货物相互作用的价数。此外，自组装蛋白质外壳调整其大小以适应不同长度支架分子的能力，关键取决于蛋白质外壳的自发曲率半径是小于还是大于外壳的特征弹性长度尺度。超越天然微区室，这些结果对合成生物学中旨在通过微区室或病毒外壳封装替代分子的努力具有重要意义。更广泛地，这些结果阐明了细胞如何利用自组装与液-液相分离之间的耦合来组织其内部结构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33683101/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33683101/",
+  "paper_page_path": "papers/pubmed/33683101/index.html"
+}

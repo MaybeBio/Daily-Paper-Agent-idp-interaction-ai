@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary material provided
+- **Shared manuscript claim summary** The authors propose a phenomenological field-theoretic model of the nucleus as a multiphase condensate of liquid chromatin types. Using simulations of a Drosophila nucleus model, they report emergence of mesoscale chromatin channels and spheroidal droplets, quantitative reproduction of coherent chromatin motions observed in displacement correlation spectroscopy, and a role for heterochromatin-lamina interactions in enhancing euchromatin mobility and inducing correlated heterochromatin droplet motions.
+- **Visible evidence base** Abstract text only; no quantitative results, model equations, parameter values, or comparison statistics are available
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation details, figures, tables, and any supplementary information; without these, the technical validity and quantitative claims cannot be independently assessed
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and conceptually appealing framework linking chromatin phase separation to nuclear organization, with specific claims about reproducing experimental observations. However, the abstract alone provides insufficient detail to evaluate the model's construction, the rigor of the simulation analysis, or the strength of the claimed quantitative agreement with experiments. The scientific premise is timely and potentially impactful, but the evidence base visible here is too thin to establish the case.
+- **Who would be interested in the results, and why** Researchers in chromatin biophysics, nuclear organization, and phase separation biology would find this relevant, as the model addresses a central question of how liquid-like chromatin behavior shapes nuclear architecture. Computational biologists and experimentalists using imaging techniques such as displacement correlation spectroscopy may also be interested in the proposed mechanistic explanations for observed dynamical signatures.
+- **Major strengths** The abstract identifies a clear and important problem, namely the dynamical organization of chromatin compartments, and connects it to a growing body of evidence for liquid-liquid phase separation. The proposed model is positioned to unify multiple experimental observations, including viscoelastic response, coherent motions, and droplet coalescence, within a single framework. The specific focus on heterochromatin-lamina interactions adds a biologically meaningful dimension that could have broad implications.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that simulations "quantitatively reproduce coherent motions of chromatin domains observed in displacement correlation spectroscopy measurements."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states quantitative reproduction of experimental measurements, but no numerical metrics, statistical comparisons, or error estimates are provided. It is unclear what "quantitatively reproduce" means in this context, such as whether the model matches correlation functions within experimental uncertainty or merely captures qualitative trends.
+  - **Why it matters** A quantitative claim requires explicit evidence of agreement, such as correlation coefficients, residuals, or comparison to null models. Without this, the claim cannot be verified, and the central validation of the model is unsubstantiated.
+  - **Resolution test** Provide specific quantitative comparisons in the full manuscript, including plots of simulated versus experimental displacement correlation functions, with statistical measures of agreement and any fitting parameters used.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "heterochromatin-lamina interactions enhance the mobility of euchromatin and indirectly introduce correlated motions of heterochromatin droplets."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The mechanistic basis for this claim is not explained. The abstract does not describe how lamina interactions are modeled, what parameter ranges are tested, or how the enhancement of euchromatin mobility is quantified. The claim of "indirectly introduced correlated motions" is vague and lacks a defined causal pathway.
+  - **Why it matters** This is a novel and potentially significant finding, but without a clear description of the model mechanism and supporting simulation data, the claim is not testable. The biological interpretation depends on the specificity of the interaction model.
+  - **Resolution test** In the full manuscript, detail the functional form of heterochromatin-lamina interactions, show control simulations without these interactions, and quantify mobility changes and correlation functions with appropriate statistics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe a "phenomenological field-theoretic model of the nucleus as a multiphase condensate of liquid chromatin types."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No details of the model are given, including the field variables, free energy functional, interaction parameters, or numerical methods. The abstract mentions "extensive set of simulations" but does not specify the simulation protocol, system size, or timescales.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without model equations and simulation details, other researchers cannot replicate or build upon the work, and the validity of the results cannot be assessed.
+  - **Resolution test** Provide a complete model description in the methods section, including all equations, parameter values, initialization procedures, and simulation software or custom code availability.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "mesoscale chromatin channels and spheroidal droplets" is used without defining what length scales or structural features these correspond to in the simulations or experiments.
+  - **Required correction** Define the size range and morphological criteria for channels and droplets, and clarify how they relate to experimental observations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract lists several experimental signatures, such as Ostwald ripening and coalescence, but does not specify which of these are directly reproduced by the simulations.
+  - **Required correction** State explicitly which experimental signatures are matched by the model and which are not, to avoid overgeneralization.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract language
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "active multiphase liquids" is introduced but not defined, and the role of activity in the model is unclear.
+  - **Required correction** Clarify whether activity refers to energy input or nonequilibrium driving, and describe how it is incorporated into the model.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative validation, mechanistic detail, and model specification means the core claims are not currently supported by the visible evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The conceptual integration of phase separation and lamina interactions is novel and potentially original, but the abstract does not demonstrate how this advances beyond existing models.
+  - Scientific importance: The question of chromatin compartment dynamics is of high importance, and a validated model would be significant, but the importance is not yet established from the abstract alone.
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and computational biology, and the abstract is written accessibly for a broad audience, though technical terms are used without full explanation.
+  - Technical soundness: Not assessable from the abstract; the lack of model details and quantitative evidence is a major limitation.
+  - Readability for nonspecialists: The abstract is generally readable, but some terms such as "phenomenological field-theoretic model" and "displacement correlation spectroscopy" may be opaque to nonspecialists without additional context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the absence of model details, quantitative validation, and mechanistic clarity means the claims cannot be evaluated. A full review of the complete manuscript would be required to determine whether the technical concerns are resolvable.
+
+## Risk / unsupported claims
+- The claim of quantitative reproduction of displacement correlation spectroscopy measurements is unsupported without numerical comparison data.
+- The claim that heterochromatin-lamina interactions enhance euchromatin mobility and induce correlated heterochromatin droplet motions is unsupported without model mechanism details and simulation results.
+- The emergence of mesoscale chromatin channels and spheroidal droplets is stated but not quantified or compared to specific experimental data.
+- The general assertion that the model explains "dynamics and chromatin patterning observed in the latest nuclear imaging experiments" is too broad and not tied to specific observations.

@@ -1,0 +1,264 @@
+{
+  "identity": {
+    "pmid": "37489654",
+    "doi": "10.1063/5.0153938",
+    "title": "Liquid state theory study of the phase behavior and macromolecular scale structure of model biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates can form through the liquid-liquid phase separation (LLPS) of proteins and RNAs in cells. However, other states of organization, including mesostructured network microstructures and physical gels, have been observed, the physical mechanism of which are not well understood. We use the Polymer Reference Interaction Site Model liquid state integral equation theory to study the equilibrium behavior of (generally aperiodic in sequence) biomolecular condensates based on a minimal sticker-spacer associating polymer model. The role of polymer packing fraction, sequence, and the strength and range of intermolecular interactions on macromolecular scale spatial organization and phase behavior is studied for typical sticker-spacer sequences. In addition to the prediction of conventional LLPS, a sequence-dependent strongly fluctuating polymeric microemulsion homogeneous state is predicted at high enough concentrations beyond the so-called Lifshitz-like point, which we suggest can be relevant to the dense phase of microstructured biomolecular condensates. New connections between local clustering and the formation of mesoscopic microdomains, the influence of attraction range, compressibility, and the role of spatial correlations across scales, are established. Our results are also germane to understanding the polymer physics of dense solutions of nonperiodic and unique sequence synthetic copolymers and provide a foundation to create new theories for how polymer diffusion and viscosity are modified in globally isotropic and homogeneous dense polymeric microemulsions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biomolecular Condensates",
+      "Cluster Analysis",
+      "Diffusion",
+      "*Polymers",
+      "RNA"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shi, Guang",
+        "Schweizer, Kenneth S"
+      ],
+      "short_names": [
+        "Shi G",
+        "Schweizer KS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4377-7210",
+        "ORCID: 0000-0003-1275-3790"
+      ],
+      "affiliations": [
+        "Department of Materials Science, University of Illinois, Urbana, Illinois 61801, USA.",
+        "Department of Materials Science, University of Illinois, Urbana, Illinois 61801, USA.",
+        "Materials Research Laboratory, University of Illinois, Urbana, Illinois 61801, USA.",
+        "Department of Chemical and Biomolecular Engineering, University of Illinois, Urbana, Illinois 61801, USA.",
+        "Department of Chemistry, University of Illinois, Urbana, Illinois 61801, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shi, Guang",
+        "short_name": "Shi G",
+        "identifiers": [
+          "0000-0002-4377-7210"
+        ],
+        "affiliations": [
+          "Department of Materials Science, University of Illinois, Urbana, Illinois 61801, USA."
+        ]
+      },
+      {
+        "full_name": "Schweizer, Kenneth S",
+        "short_name": "Schweizer KS",
+        "identifiers": [
+          "0000-0003-1275-3790"
+        ],
+        "affiliations": [
+          "Department of Materials Science, University of Illinois, Urbana, Illinois 61801, USA.",
+          "Materials Research Laboratory, University of Illinois, Urbana, Illinois 61801, USA.",
+          "Department of Chemical and Biomolecular Engineering, University of Illinois, Urbana, Illinois 61801, USA.",
+          "Department of Chemistry, University of Illinois, Urbana, Illinois 61801, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2023 Jul 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/25 13:09",
+    "fetched_at": "2026-09-20 23:49:56"
+  },
+  "links": {
+    "cites": [
+      "40629499",
+      "38943248"
+    ],
+    "refs": [],
+    "similar": [
+      "37489654",
+      "37955602",
+      "34785657",
+      "38446881",
+      "39320949",
+      "23912807",
+      "38175843",
+      "37194953",
+      "36227474",
+      "38363841",
+      "36106018",
+      "39398199",
+      "35796975",
+      "34206440",
+      "36350032",
+      "36004748",
+      "34772786",
+      "35108264",
+      "33864415",
+      "37770446",
+      "34129784",
+      "37470705",
+      "37013374",
+      "38722189",
+      "36702825",
+      "35597639",
+      "38842208",
+      "37343188",
+      "34772789",
+      "39171763",
+      "32584357",
+      "35881789",
+      "36397514",
+      "33397597",
+      "37191808",
+      "37468629",
+      "36150962",
+      "36350034",
+      "36028355",
+      "34636323",
+      "38649740",
+      "36524527",
+      "37325682",
+      "36847235",
+      "33539874",
+      "33453924",
+      "34303933",
+      "36594499",
+      "39196681",
+      "37873097",
+      "33704061",
+      "35001622",
+      "34664748",
+      "33300985",
+      "37252985",
+      "37782826",
+      "36181270",
+      "34606793",
+      "37791635",
+      "32007034",
+      "36175408",
+      "36227468",
+      "34271007",
+      "33982350",
+      "32405004",
+      "35787038",
+      "32004090",
+      "37311001",
+      "34762868",
+      "33650968",
+      "31017394",
+      "34624295",
+      "37190858",
+      "31237369",
+      "36279601",
+      "35179885",
+      "36310226",
+      "37066350",
+      "36227469",
+      "29509422",
+      "36400992",
+      "35616128",
+      "36227477",
+      "36671536",
+      "37721444",
+      "38279531",
+      "37770422",
+      "33827920",
+      "33558506",
+      "34270902",
+      "35171683",
+      "35325654",
+      "38751116",
+      "36227471",
+      "34585805",
+      "36361529",
+      "36227472",
+      "32696384",
+      "35575335",
+      "34334791",
+      "39386700",
+      "37856873",
+      "34404453",
+      "38591689",
+      "38579181",
+      "37873180",
+      "36199253",
+      "37996438",
+      "37937963",
+      "39071339",
+      "35674796",
+      "36711465",
+      "39300202",
+      "35198903",
+      "39091847",
+      "37886520",
+      "39042674",
+      "38798623",
+      "35675815",
+      "35867744",
+      "39271933",
+      "33514117",
+      "39404746",
+      "39092956",
+      "37287138",
+      "37207400",
+      "37977129",
+      "37352160",
+      "37676344",
+      "35119898"
+    ],
+    "review": [
+      "37489654",
+      "38175843",
+      "36106018",
+      "36350032",
+      "34772786",
+      "34129784",
+      "34772789",
+      "36150962",
+      "36350034",
+      "36028355",
+      "36524527",
+      "33539874",
+      "34303933",
+      "33300985",
+      "34271007",
+      "32004090",
+      "31237369",
+      "36279601",
+      "35179885",
+      "29509422",
+      "36400992",
+      "36671536",
+      "34585805",
+      "34334791",
+      "35675815"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0153938",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

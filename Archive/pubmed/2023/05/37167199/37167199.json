@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "37167199",
+    "doi": "10.1021/acs.biochem.2c00717",
+    "title": "Conformation and Affinity Modulations by Multiple Phosphorylation Occurring in the BIN1 SH3 Domain Binding Site of the Tau Protein Proline-Rich Region."
+  },
+  "content": {
+    "abstract": "An increase in phosphorylation of the Tau protein is associated with Alzheimer's disease (AD) progression through unclear molecular mechanisms. In general, phosphorylation modifies the interaction of intrinsically disordered proteins, such as Tau, with other proteins; however, elucidating the structural basis of this regulation mechanism remains challenging. The bridging integrator-1 gene is an AD genetic determinant whose gene product, BIN1, directly interacts with Tau. The proline-rich motif recognized within a Tau(210-240) peptide by the SH3 domain of BIN1 (BIN1 SH3) is defined as (216)PTPP(219), and this interaction is modulated by phosphorylation. Phosphorylation of T217 within the Tau(210-240) peptide led to a 6-fold reduction in the affinity, while single phosphorylation at either T212, T231, or S235 had no effect on the interaction. Nonetheless, combined phosphorylation of T231 and S235 led to a 3-fold reduction in the affinity, although these phosphorylations are not within the BIN1 SH3-bound region of the Tau peptide. Using nuclear magnetic resonance (NMR) spectroscopy, these phosphorylations were shown to affect the local secondary structure and dynamics of the Tau(210-240) peptide. Models of the (un)phosphorylated peptides were obtained from molecular dynamics (MD) simulation validated by experimental data and showed compaction of the phosphorylated peptide due to increased salt bridge formation. This dynamic folding might indirectly impact the BIN1 SH3 binding by a decreased accessibility of the binding site. Regulation of the binding might thus not only be due to local electrostatic or steric effects from phosphorylation but also to the modification of the conformational properties of Tau.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*tau Proteins/metabolism",
+      "Phosphorylation",
+      "src Homology Domains",
+      "Protein Binding",
+      "*Alzheimer Disease/metabolism",
+      "Peptides/chemistry",
+      "Binding Sites",
+      "Proline/metabolism",
+      "Nuclear Proteins/metabolism",
+      "Tumor Suppressor Proteins/chemistry",
+      "Adaptor Proteins, Signal Transducing/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lasorsa, Alessia",
+        "Bera, Krishnendu",
+        "Malki, Idir",
+        "Dupre, Elian",
+        "Cantrelle, Francois-Xavier",
+        "Merzougui, Hamida",
+        "Sinnaeve, Davy",
+        "Hanoulle, Xavier",
+        "Hritz, Jozef",
+        "Landrieu, Isabelle"
+      ],
+      "short_names": [
+        "Lasorsa A",
+        "Bera K",
+        "Malki I",
+        "Dupre E",
+        "Cantrelle FX",
+        "Merzougui H",
+        "Sinnaeve D",
+        "Hanoulle X",
+        "Hritz J",
+        "Landrieu I"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6793-5845",
+        "ORCID: 0000-0003-2556-5895",
+        "ORCID: 0000-0002-3755-2680",
+        "ORCID: 0000-0002-4512-9241",
+        "ORCID: 0000-0002-4883-2637"
+      ],
+      "affiliations": [
+        "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+        "Univ. Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille F-59000, France.",
+        "CEITEC MU, Masaryk University, Kamenice 753/5, Brno 625 00, Czech Republic.",
+        "National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+        "Department of Chemistry, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+        "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+        "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+        "Univ. Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille F-59000, France.",
+        "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+        "Univ. Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille F-59000, France.",
+        "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+        "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+        "Univ. Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille F-59000, France.",
+        "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+        "Univ. Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille F-59000, France.",
+        "CEITEC MU, Masaryk University, Kamenice 753/5, Brno 625 00, Czech Republic.",
+        "Department of Chemistry, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+        "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+        "Univ. Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille F-59000, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lasorsa, Alessia",
+        "short_name": "Lasorsa A",
+        "identifiers": [
+          "0000-0001-6793-5845"
+        ],
+        "affiliations": [
+          "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+          "Univ. Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille F-59000, France."
+        ]
+      },
+      {
+        "full_name": "Bera, Krishnendu",
+        "short_name": "Bera K",
+        "identifiers": [],
+        "affiliations": [
+          "CEITEC MU, Masaryk University, Kamenice 753/5, Brno 625 00, Czech Republic.",
+          "National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+          "Department of Chemistry, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Malki, Idir",
+        "short_name": "Malki I",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France."
+        ]
+      },
+      {
+        "full_name": "Dupré, Elian",
+        "short_name": "Dupré E",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+          "Univ. Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille F-59000, France."
+        ]
+      },
+      {
+        "full_name": "Cantrelle, François-Xavier",
+        "short_name": "Cantrelle FX",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+          "Univ. Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille F-59000, France."
+        ]
+      },
+      {
+        "full_name": "Merzougui, Hamida",
+        "short_name": "Merzougui H",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France."
+        ]
+      },
+      {
+        "full_name": "Sinnaeve, Davy",
+        "short_name": "Sinnaeve D",
+        "identifiers": [
+          "0000-0003-2556-5895"
+        ],
+        "affiliations": [
+          "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+          "Univ. Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille F-59000, France."
+        ]
+      },
+      {
+        "full_name": "Hanoulle, Xavier",
+        "short_name": "Hanoulle X",
+        "identifiers": [
+          "0000-0002-3755-2680"
+        ],
+        "affiliations": [
+          "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+          "Univ. Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille F-59000, France."
+        ]
+      },
+      {
+        "full_name": "Hritz, Jozef",
+        "short_name": "Hritz J",
+        "identifiers": [
+          "0000-0002-4512-9241"
+        ],
+        "affiliations": [
+          "CEITEC MU, Masaryk University, Kamenice 753/5, Brno 625 00, Czech Republic.",
+          "Department of Chemistry, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Landrieu, Isabelle",
+        "short_name": "Landrieu I",
+        "identifiers": [
+          "0000-0002-4883-2637"
+        ],
+        "affiliations": [
+          "CNRS EMR9002 Integrative Structural Biology, Lille F-59000, France.",
+          "Univ. Lille, Inserm, CHU Lille, Institut Pasteur de Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, Lille F-59000, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemistry"
+    ],
+    "journal_abbrev": [
+      "Biochemistry"
+    ],
+    "pub_date": "2023 Jun 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/11 19:13",
+    "fetched_at": "2026-09-20 21:51:42"
+  },
+  "links": {
+    "cites": [
+      "41778964",
+      "40889683"
+    ],
+    "refs": [],
+    "similar": [
+      "37167199",
+      "30487734",
+      "28755476",
+      "26395440",
+      "31065832",
+      "27268056",
+      "15992821",
+      "25051234",
+      "22543239",
+      "24616074",
+      "31211444",
+      "31112821",
+      "25350771",
+      "37847429",
+      "16530520",
+      "32719966",
+      "25024306",
+      "15834155",
+      "15483625",
+      "38995680",
+      "18067320",
+      "30506549",
+      "32727516",
+      "27003210",
+      "36059072",
+      "28893863",
+      "32065850",
+      "31263146",
+      "18467332",
+      "32657270",
+      "30992433",
+      "38218365",
+      "32500121",
+      "26165593",
+      "22072628",
+      "33663205",
+      "15929943",
+      "7526465",
+      "10467411",
+      "31698056",
+      "31493651",
+      "9171351",
+      "16115884",
+      "23399914",
+      "27488240",
+      "27443979",
+      "18234212",
+      "24205320",
+      "16752908",
+      "34060233",
+      "33531457",
+      "14978303",
+      "38206965",
+      "26893375",
+      "28104445",
+      "16326715",
+      "7565714",
+      "19633357",
+      "9034330",
+      "9694876",
+      "28380689",
+      "10380878",
+      "25343306",
+      "7521298",
+      "11127814",
+      "8702917",
+      "9273897",
+      "18725412",
+      "31484725",
+      "31296381",
+      "10869177",
+      "35241726",
+      "17617578",
+      "25207671",
+      "27193083",
+      "31872783",
+      "8605874",
+      "22976002",
+      "20394726",
+      "17189480",
+      "25156556",
+      "32979285",
+      "23947833",
+      "31408457",
+      "16506148",
+      "8670803",
+      "21678469",
+      "10826882",
+      "18955169",
+      "33273615",
+      "30659095",
+      "11463346",
+      "10542231",
+      "12144515",
+      "23157676",
+      "34978146",
+      "34360869",
+      "15869817",
+      "9408950",
+      "16634634",
+      "32568785",
+      "29980598",
+      "23925889",
+      "16636290",
+      "38512658",
+      "38241154",
+      "38492709",
+      "39092904",
+      "36358923",
+      "36706338",
+      "38830621"
+    ],
+    "review": [
+      "37167199",
+      "37847429",
+      "32719966",
+      "27003210",
+      "23399914"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hal.science/hal-04140342",
+        "provider": "HAL archives ouvertes - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pubs.acs.org/bichaw/article-lookup/doi/10.1021/acs.biochem.2c00717",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "37482543",
+    "doi": "10.1038/s41598-023-38426-w",
+    "title": "Enzyme stabilization and thermotolerance function of the intrinsically disordered LEA2 proteins from date palm."
+  },
+  "content": {
+    "abstract": "In date palm, the LEA2 genes are of abundance with sixty-two members that are nearly all ubiquitous. However, their functions and interactions with potential target molecules are largely unexplored. In this study, five date palm LEA2 genes, PdLEA2.2, PdLEA2.3, PdLEA2.4, PdLEA2.6, and PdLEA2.7 were cloned, sequenced, and three of them, PdLEA2.2, PdLEA2.3, and PdLEA2.4 were functionally characterized for their effects on the thermostability of two distinct enzymes, lactate dehydrogenase (LDH) and beta-glucosidase (bglG) in vitro. Overall, PdLEA2.3 and PdLEA2.4 were moderately hydrophilic, PdLEA2.7 was slightly hydrophobic, and PdLEA2.2 and PdLEA2.6 were neither. Sequence and structure prediction indicated the presence of a stretch of hydrophobic residues near the N-terminus that could potentially form a transmembrane helix in PdLEA2.2, PdLEA2.4, PdLEA2.6 and PdLEA2.7. In addition to the transmembrane helix, secondary and tertiary structures prediction showed the presence of a disordered region followed by a stacked beta-sheet region in all the PdLEA2 proteins. Moreover, three purified recombinant PdLEA2 proteins were produced in vitro, and their presence in the LDH enzymatic reaction enhanced the activity and reduced the aggregate formation of LDH under the heat stress. In the bglG enzymatic assays, PdLEA2 proteins further displayed their capacity to preserve and stabilize the bglG enzymatic activity.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Phoeniceae",
+      "*Thermotolerance",
+      "L-Lactate Dehydrogenase/genetics/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aziz, Mughair Abdul",
+        "Sabeem, Miloofer",
+        "Kutty, M Sangeeta",
+        "Rahman, Shafeeq",
+        "Alneyadi, Maitha Khalfan",
+        "Alkaabi, Alia Binghushoom",
+        "Almeqbali, Eiman Saeed",
+        "Brini, Faical",
+        "Vijayan, Ranjit",
+        "Masmoudi, Khaled"
+      ],
+      "short_names": [
+        "Aziz MA",
+        "Sabeem M",
+        "Kutty MS",
+        "Rahman S",
+        "Alneyadi MK",
+        "Alkaabi AB",
+        "Almeqbali ES",
+        "Brini F",
+        "Vijayan R",
+        "Masmoudi K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE.",
+        "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE.",
+        "Department of Vegetable Science, College of Agriculture, Kerala Agricultural University, Vellanikkara, Thrissur, 680656, India.",
+        "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE.",
+        "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE.",
+        "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE.",
+        "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE.",
+        "Biotechnology and Plant Improvement Laboratory, Centre of Biotechnology of Sfax (CBS)/ University of Sfax, Sfax, Tunisia.",
+        "Department of Biology, College of Science, United Arab Emirates University, Al‑Ain, Abu‑Dhabi, UAE.",
+        "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE. khaledmasmoudi@uaeu.ac.ae."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aziz, Mughair Abdul",
+        "short_name": "Aziz MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE."
+        ]
+      },
+      {
+        "full_name": "Sabeem, Miloofer",
+        "short_name": "Sabeem M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE."
+        ]
+      },
+      {
+        "full_name": "Kutty, M Sangeeta",
+        "short_name": "Kutty MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Vegetable Science, College of Agriculture, Kerala Agricultural University, Vellanikkara, Thrissur, 680656, India."
+        ]
+      },
+      {
+        "full_name": "Rahman, Shafeeq",
+        "short_name": "Rahman S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE."
+        ]
+      },
+      {
+        "full_name": "Alneyadi, Maitha Khalfan",
+        "short_name": "Alneyadi MK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE."
+        ]
+      },
+      {
+        "full_name": "Alkaabi, Alia Binghushoom",
+        "short_name": "Alkaabi AB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE."
+        ]
+      },
+      {
+        "full_name": "Almeqbali, Eiman Saeed",
+        "short_name": "Almeqbali ES",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE."
+        ]
+      },
+      {
+        "full_name": "Brini, Faical",
+        "short_name": "Brini F",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology and Plant Improvement Laboratory, Centre of Biotechnology of Sfax (CBS)/ University of Sfax, Sfax, Tunisia."
+        ]
+      },
+      {
+        "full_name": "Vijayan, Ranjit",
+        "short_name": "Vijayan R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Science, United Arab Emirates University, Al‑Ain, Abu‑Dhabi, UAE."
+        ]
+      },
+      {
+        "full_name": "Masmoudi, Khaled",
+        "short_name": "Masmoudi K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Agriculture, College of Agriculture and Veterinary Medicine, United Arab, Emirates University, Al‑Ain, Abu‑Dhabi, UAE. khaledmasmoudi@uaeu.ac.ae."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Jul 23",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/24 00:41",
+    "fetched_at": "2026-09-20 23:49:56"
+  },
+  "links": {
+    "cites": [
+      "41449242",
+      "40648078",
+      "40332004",
+      "39870738",
+      "39351860",
+      "38259869",
+      "38256256"
+    ],
+    "refs": [
+      "36507455",
+      "36297724",
+      "36291589",
+      "35793147",
+      "35581217",
+      "35480979",
+      "35444677",
+      "35408906",
+      "35354373",
+      "35065618",
+      "34827660",
+      "34265844",
+      "33925342",
+      "33885785",
+      "32256513",
+      "31576505",
+      "31575979",
+      "31247397",
+      "31012266",
+      "30847341",
+      "30842512",
+      "30781418",
+      "30650107",
+      "30593000",
+      "30477420",
+      "30407531",
+      "29802195",
+      "29432551",
+      "29334890",
+      "28779129",
+      "28670699",
+      "28224001",
+      "28167030",
+      "27072743",
+      "26849212",
+      "26175736",
+      "26025524",
+      "25969446",
+      "25954282",
+      "25953851",
+      "25638043",
+      "25491641",
+      "25450686",
+      "25391399",
+      "23917264",
+      "23805145",
+      "23745761",
+      "23329690",
+      "23203878",
+      "23086279",
+      "23054631",
+      "22127413",
+      "20460710",
+      "19470175",
+      "19433216",
+      "18318901",
+      "18031276",
+      "15631617",
+      "12694590",
+      "12535340",
+      "11152613",
+      "10493868",
+      "9395402",
+      "7737128",
+      "7284317",
+      "1567390"
+    ],
+    "similar": [
+      "37482543",
+      "25988244",
+      "30842512",
+      "33857518",
+      "28867216",
+      "32735864",
+      "8425537",
+      "33137381",
+      "7569323",
+      "11948206",
+      "30259679",
+      "36291719",
+      "28325841",
+      "37240035",
+      "19224588",
+      "23813758",
+      "33170386",
+      "34771034",
+      "24594841",
+      "8654970",
+      "33647452",
+      "31283003",
+      "24731822",
+      "8732758",
+      "28525284",
+      "17944947",
+      "34948373",
+      "27150313",
+      "28097742",
+      "24036421",
+      "29385704",
+      "31351993",
+      "24150971",
+      "32696375",
+      "29393016",
+      "29791766",
+      "31102309",
+      "24841476",
+      "23758617",
+      "30142353",
+      "12029364",
+      "21031484",
+      "25049402",
+      "24412354",
+      "22542488",
+      "32184088",
+      "7584602",
+      "24717772",
+      "29208465",
+      "28535932",
+      "25533957",
+      "20460710",
+      "31151384",
+      "15317584",
+      "30102042",
+      "1520254",
+      "10653644",
+      "26851286",
+      "9655830",
+      "11502210",
+      "1872999",
+      "34109551",
+      "26918762",
+      "35470621",
+      "20852941",
+      "31743461",
+      "32975630",
+      "32824743",
+      "22683723",
+      "26195786",
+      "36043788",
+      "35968137",
+      "15177156",
+      "10944213",
+      "12135559",
+      "25244701",
+      "10727218",
+      "30445805",
+      "32438658",
+      "27844185",
+      "29935393",
+      "9142744",
+      "31585506",
+      "25842833",
+      "32696357",
+      "29934376",
+      "29553735",
+      "18038778",
+      "33880635",
+      "28880537",
+      "27671200",
+      "3533539",
+      "31470695"
+    ],
+    "review": [
+      "37482543",
+      "26851286"
+    ],
+    "pmc": [
+      "10363547"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-023-38426-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37482543/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37482543",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.27.690946",
+  "title": "The spatial proteome of the Plasmodium falciparum schizont illuminates the composition and evolutionary trajectories of its organelles",
+  "doi": "10.1101/2025.11.27.690946",
+  "abstract": "<h4>ABSTRACT</h4> Malaria is caused by apicomplexan parasites of the genus Plasmodium , with all malaria symptoms and pathology caused by parasite stages that develop within, or transit between, host erythrocytes. The ability of Plasmodium cells to parasitise erythrocytes depends on distinctive intracellular compartments associated with invasion, as well as the development of unique cellular niches within the infected host cell. However, our understanding of the biology of the malaria parasite is limited by the fact that a large proportion of the parasite’s proteome has no known cellular location or function. To address this problem, we have generated comprehensive high-resolution maps of protein subcellular localisation for the invasive stage of the erythrocytic life cycle of Plasmodium falciparum , the major cause of malaria mortality. Using the spatial proteomics technique hyperplexed Localisation of Organelle Proteins by Isotopic Tagging (hyperLOPIT) we generated data for 3000 P. falciparum proteins expressed in late schizont stages. Our hyperLOPIT data resolved 24 distinct cellular niches, and using supervised machine-learning we can classify 1646 proteins into one of these compartments including exported sites within the host cell. Through comparative genomic analyses our data resolve the spatial patterns of cell evolution that have shaped the development of Plasmodium species and ongoing adaptive pressures and responses that challenge our efforts to manage these major disease-causing organisms.",
+  "authors": [
+    "Chisholm SA",
+    "Flores V",
+    "Kemp A",
+    "Breckels LM",
+    "Koreny L",
+    "Santos Pacheco ND",
+    "Barylyuk K",
+    "Kuroshchenkova A",
+    "Lilley KS",
+    "Rayner JC",
+    "Waller RF"
+  ],
+  "published_date": "2025-11-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.27.690946",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.27.690946.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1127333",
+    "raw_record": {
+      "id": "PPR1127333",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1127333"
+        ]
+      },
+      "doi": "10.1101/2025.11.27.690946",
+      "title": "The spatial proteome of the  <i>Plasmodium falciparum</i>  schizont illuminates the composition and evolutionary trajectories of its organelles",
+      "authorString": "Chisholm SA, Flores V, Kemp A, Breckels LM, Koreny L, Santos Pacheco ND, Barylyuk K, Kuroshchenkova A, Lilley KS, Rayner JC, Waller RF.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chisholm SA",
+            "lastName": "Chisholm",
+            "firstName": "Scott",
+            "initials": "SA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Tennis Court Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Flores V",
+            "lastName": "Flores",
+            "firstName": "Victor",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Tennis Court Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kemp A",
+            "lastName": "Kemp",
+            "firstName": "Alison",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-4845-0568"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, , Keith Peters Building, Hills Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Breckels LM",
+            "lastName": "Breckels",
+            "firstName": "Lisa",
+            "initials": "LM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Tennis Court Road , ,"
+                },
+                {
+                  "affiliation": "Cambridge Centre for Proteomics, Department of Biochemistry, , Tennis Court Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Koreny L",
+            "lastName": "Koreny",
+            "firstName": "Ludek",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Tennis Court Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Santos Pacheco ND",
+            "lastName": "Santos Pacheco",
+            "firstName": "Nicolas Dos",
+            "initials": "ND",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Tennis Court Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barylyuk K",
+            "lastName": "Barylyuk",
+            "firstName": "Konstantin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Tennis Court Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kuroshchenkova A",
+            "lastName": "Kuroshchenkova",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, , Keith Peters Building, Hills Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lilley KS",
+            "lastName": "Lilley",
+            "firstName": "Kathryn",
+            "initials": "KS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0594-6543"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Tennis Court Road , ,"
+                },
+                {
+                  "affiliation": "Cambridge Centre for Proteomics, Department of Biochemistry, , Tennis Court Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rayner JC",
+            "lastName": "Rayner",
+            "firstName": "Julian",
+            "initials": "JC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9835-1014"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, , Keith Peters Building, Hills Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waller RF",
+            "lastName": "Waller",
+            "firstName": "Ross",
+            "initials": "RF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , Tennis Court Road , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9835-1014"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0594-6543"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-4845-0568"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  Malaria is caused by apicomplexan parasites of the genus  Plasmodium , with all malaria symptoms and pathology caused by parasite stages that develop within, or transit between, host erythrocytes. The ability of  Plasmodium cells to parasitise erythrocytes depends on distinctive intracellular compartments associated with invasion, as well as the development of unique cellular niches within the infected host cell. However, our understanding of the biology of the malaria parasite is limited by the fact that a large proportion of the parasite’s proteome has no known cellular location or function. To address this problem, we have generated comprehensive high-resolution maps of protein subcellular localisation for the invasive stage of the erythrocytic life cycle of  Plasmodium falciparum , the major cause of malaria mortality. Using the spatial proteomics technique hyperplexed Localisation of Organelle Proteins by Isotopic Tagging (hyperLOPIT) we generated data for 3000  P. falciparum proteins expressed in late schizont stages. Our hyperLOPIT data resolved 24 distinct cellular niches, and using supervised machine-learning we can classify 1646 proteins into one of these compartments including exported sites within the host cell. Through comparative genomic analyses our data resolve the spatial patterns of cell evolution that have shaped the development of  Plasmodium species and ongoing adaptive pressures and responses that challenge our efforts to manage these major disease-causing organisms.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T002182/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "214298/Z/18/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "220266/Z/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "217798",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.27.690946"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1127333"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1127333&type=FILE&fileName=EMS211280-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS211280",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-11-29",
+      "firstPublicationDate": "2025-11-27",
+      "firstIndexDate": "2025-11-29",
+      "fullTextReceivedDate": "2025-12-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

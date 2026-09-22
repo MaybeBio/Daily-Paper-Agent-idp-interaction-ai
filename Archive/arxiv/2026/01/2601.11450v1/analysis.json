@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2601.11450v1",
+  "title": "Principles of Client Enrichment in Multicomponent Biomolecular Condensates",
+  "authors": "Aishani Ghosal; Nicholas E. Lea; Lindsay B. Case; Trevor GrandPre",
+  "journal": "",
+  "published_date": "2026-01-16",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过Flory-Huggins理论建模多组分凝聚体中客户蛋白招募对支架互作与组成的反馈调控，虽非AI/MD方法，但聚焦IDR相关相分离PPI机制建模，与课题高度相关。",
+  "abstract": "Biomolecular condensates are commonly organized by a small number of scaffold molecules that drive phase separation together with client molecules that do not condense on their own but become selectively recruited into the dense phase. A central open question is how client recruitment feeds back on scaffold interactions to determine condensate composition. Here we address this problem in a reconstituted focal adhesion system composed of focal adhesion kinase (FAK) and phosphorylated p130Cas (Cas) as scaffolds and the adaptor protein paxillin (PXN) as a client. We show that both FAK phosphorylation and PXN recruitment produce a common compositional response in which FAK becomes enriched while Cas is depleted within the condensate. To interpret these observations, we develop two complementary theoretical descriptions. First, within a two-component Flory-Huggins framework, we show that phosphorylation can be captured by either strengthening heterotypic FAK-Cas interactions or increasing the effective number of interaction-relevant segments on FAK, both of which bias partitioning toward FAK-rich condensates. Second, we introduce a minimal three-component Flory-Huggins theory without an explicit solvent and map it onto an effective two-component description, demonstrating that client recruitment renormalizes homotypic and heterotypic scaffold interactions. Analytical predictions for the location of the critical point are tested in reconstituted multicomponent systems through PXN addition, showing that client recruitment alone tunes proximity to criticality and reshapes condensate composition. Together, our results reveal distinct yet convergent physical routes by which post-translational modification and client recruitment control scaffold composition in multicomponent condensates.",
+  "abstract_zh": "生物分子凝聚体通常由少量支架分子组织，这些支架分子驱动相分离（phase separation），同时伴有客户分子，后者自身不会凝聚，但会被选择性招募进入致密相。一个核心未解问题是客户招募如何反馈影响支架相互作用，从而决定凝聚体组成。在此，我们在一个重构的黏着斑系统中解决这一问题，该系统以黏着斑激酶（FAK）和磷酸化p130Cas（Cas）作为支架，以衔接蛋白桩蛋白（PXN）作为客户。我们表明，FAK磷酸化和PXN招募均产生一种共同的组成响应，即凝聚体内FAK富集而Cas耗竭。为解释这些观察结果，我们开发了两种互补的理论描述。首先，在双组分Flory-Huggins框架内，我们表明磷酸化可通过增强异型FAK-Cas相互作用或增加FAK上相互作用相关片段的有效数量来捕获，这两种方式均使分配偏向于富含FAK的凝聚体。其次，我们引入一个无显式溶剂的最小三组分Flory-Huggins理论，并将其映射到有效的双组分描述中，证明客户招募会重整化同型和异型支架相互作用。对临界点位置的解析预测通过PXN添加在重构的多组分系统中得到测试，表明仅客户招募即可调节接近临界性的程度并重塑凝聚体组成。综合来看，我们的结果揭示了翻译后修饰和客户招募控制多组分凝聚体中支架组成的独特但趋同的物理途径。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2601.11450v1",
+  "source_url": "https://arxiv.org/abs/2601.11450v1",
+  "paper_page_path": "papers/arxiv/2601.11450v1/index.html"
+}

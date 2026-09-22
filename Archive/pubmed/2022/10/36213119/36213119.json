@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "36213119",
+    "doi": "10.3389/fmolb.2022.986121",
+    "title": "eIF4G1 N-terminal intrinsically disordered domain is a multi-docking station for RNA, Pab1, Pub1, and self-assembly."
+  },
+  "content": {
+    "abstract": "Yeast eIF4G1 interacts with RNA binding proteins (RBPs) like Pab1 and Pub1 affecting its function in translation initiation and stress granules formation. We present an NMR and SAXS study of the N-terminal intrinsically disordered region of eIF4G1 (residues 1-249) and its interactions with Pub1, Pab1 and RNA. The conformational ensemble of eIF4G1(1-249) shows an alpha-helix within the BOX3 conserved element and a dynamic network of fuzzy pi-pi and pi-cation interactions involving arginine and aromatic residues. The Pab1 RRM2 domain interacts with eIF4G1 BOX3, the canonical interaction site, but also with BOX2, a conserved element of unknown function to date. The RNA1 region interacts with RNA through a new RNA interaction motif and with the Pub1 RRM3 domain. This later also interacts with eIF4G1 BOX1 modulating its intrinsic self-assembly properties. The description of the biomolecular interactions involving eIF4G1 to the residue detail increases our knowledge about biological processes involving this key translation initiation factor.",
+    "keywords": [
+      "NMR",
+      "Pab1",
+      "Pub1",
+      "SAXS (small-angle X-ray scattering)",
+      "eIF4G1",
+      "intrinsically disordered proteins (IDP)",
+      "paramagnetic relaxation enhancement (PRE)",
+      "structural ensemble"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chaves-Arquero, Belen",
+        "Martinez-Lumbreras, Santiago",
+        "Sibille, Nathalie",
+        "Camero, Sergio",
+        "Bernado, Pau",
+        "Jimenez, M Angeles",
+        "Zorrilla, Silvia",
+        "Perez-Canadillas, Jose Manuel"
+      ],
+      "short_names": [
+        "Chaves-Arquero B",
+        "Martinez-Lumbreras S",
+        "Sibille N",
+        "Camero S",
+        "Bernado P",
+        "Jimenez MA",
+        "Zorrilla S",
+        "Perez-Canadillas JM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biological Physical Chemistry, Institute of Physical-Chemistry \"Rocasolano\", CSIC, Madrid, Spain.",
+        "Department of Biological Physical Chemistry, Institute of Physical-Chemistry \"Rocasolano\", CSIC, Madrid, Spain.",
+        "Centre de Biochimie Structurale (CBS), CNRS, INSERM, Univ. Montpellier, Montpellier, France.",
+        "Department of Biological Physical Chemistry, Institute of Physical-Chemistry \"Rocasolano\", CSIC, Madrid, Spain.",
+        "Centre de Biochimie Structurale (CBS), CNRS, INSERM, Univ. Montpellier, Montpellier, France.",
+        "Department of Biological Physical Chemistry, Institute of Physical-Chemistry \"Rocasolano\", CSIC, Madrid, Spain.",
+        "Department of Cellular and Molecular Biology, Biological Research Center, CSIC, Madrid, Spain.",
+        "Department of Biological Physical Chemistry, Institute of Physical-Chemistry \"Rocasolano\", CSIC, Madrid, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chaves-Arquero, Belén",
+        "short_name": "Chaves-Arquero B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Physical Chemistry, Institute of Physical-Chemistry \"Rocasolano\", CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Martínez-Lumbreras, Santiago",
+        "short_name": "Martínez-Lumbreras S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Physical Chemistry, Institute of Physical-Chemistry \"Rocasolano\", CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Sibille, Nathalie",
+        "short_name": "Sibille N",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Biochimie Structurale (CBS), CNRS, INSERM, Univ. Montpellier, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Camero, Sergio",
+        "short_name": "Camero S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Physical Chemistry, Institute of Physical-Chemistry \"Rocasolano\", CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Bernadó, Pau",
+        "short_name": "Bernadó P",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Biochimie Structurale (CBS), CNRS, INSERM, Univ. Montpellier, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Jiménez, M Ángeles",
+        "short_name": "Jiménez MÁ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Physical Chemistry, Institute of Physical-Chemistry \"Rocasolano\", CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Zorrilla, Silvia",
+        "short_name": "Zorrilla S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Biology, Biological Research Center, CSIC, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Pérez-Cañadillas, José Manuel",
+        "short_name": "Pérez-Cañadillas JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Physical Chemistry, Institute of Physical-Chemistry \"Rocasolano\", CSIC, Madrid, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/11 06:00",
+    "fetched_at": "2026-09-20 15:46:57"
+  },
+  "links": {
+    "cites": [
+      "41404795"
+    ],
+    "refs": [
+      "35662398",
+      "35661420",
+      "33007331",
+      "31591142",
+      "31550880",
+      "31548393",
+      "31178221",
+      "30979035",
+      "30567726",
+      "30554840",
+      "30527137",
+      "30045872",
+      "29961577",
+      "29913160",
+      "29898402",
+      "29805999",
+      "29576526",
+      "29424691",
+      "29129640",
+      "28502465",
+      "28283059",
+      "27613419",
+      "27289443",
+      "26777405",
+      "26412307",
+      "26387102",
+      "26387101",
+      "25866658",
+      "25801209",
+      "24361273",
+      "23746349",
+      "23041282",
+      "22664984",
+      "22360139",
+      "21931728",
+      "21925384",
+      "21172806",
+      "21139564",
+      "20064460",
+      "19239892",
+      "18981231",
+      "18606994",
+      "17908917",
+      "17411046",
+      "16284250",
+      "12810920",
+      "11296285",
+      "10820006",
+      "10613902",
+      "10508691",
+      "10409688",
+      "9702200",
+      "9418852",
+      "9256432",
+      "9149149",
+      "9003792",
+      "8336723",
+      "4604283"
+    ],
+    "similar": [
+      "36213119",
+      "25671604",
+      "21139564",
+      "21931728",
+      "33177626",
+      "37609226",
+      "30840442",
+      "8413212",
+      "12810920",
+      "28893908",
+      "26195786",
+      "10409688",
+      "34424823",
+      "29987188",
+      "22836166",
+      "27844185",
+      "24682828",
+      "30125451",
+      "34817999",
+      "32840111",
+      "35615984",
+      "17766253",
+      "24086265",
+      "38600130",
+      "26253171",
+      "24838188",
+      "11256967",
+      "20438847",
+      "35891793",
+      "35163752",
+      "33058876",
+      "23456097",
+      "31424463",
+      "33030907",
+      "31325636",
+      "28467675",
+      "24064791",
+      "35658951",
+      "30878202",
+      "22988847",
+      "10944120",
+      "25411355",
+      "32585849",
+      "29511089",
+      "28873979",
+      "11279042",
+      "32175478",
+      "24981173",
+      "36933821",
+      "24248602",
+      "35797022",
+      "32225071",
+      "29944921",
+      "16046624",
+      "32074499",
+      "25584704",
+      "34273400",
+      "30006991",
+      "35696898",
+      "25533957",
+      "24086122",
+      "36641212",
+      "37971402",
+      "26320411",
+      "32679070",
+      "27613419",
+      "37307456",
+      "29925592",
+      "28986506",
+      "35310482",
+      "28752165",
+      "26387102",
+      "20435044",
+      "32337108",
+      "26548662",
+      "22881220",
+      "32696361",
+      "26684000",
+      "18391200",
+      "27626099",
+      "31496918",
+      "29548755",
+      "30979035",
+      "27003362",
+      "17636033",
+      "27881680",
+      "33968988",
+      "29632904",
+      "28625737",
+      "9199303",
+      "30414042"
+    ],
+    "review": [
+      "36213119",
+      "30840442",
+      "22988847",
+      "30006991",
+      "26320411",
+      "26387102",
+      "30979035"
+    ],
+    "pmc": [
+      "9537944"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36213119/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/36213119",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36213119",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2022.986121",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

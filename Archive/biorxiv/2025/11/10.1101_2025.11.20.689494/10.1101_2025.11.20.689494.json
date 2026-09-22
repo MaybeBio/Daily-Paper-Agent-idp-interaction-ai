@@ -1,0 +1,488 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.20.689494",
+  "title": "BoltzGen: Toward Universal Binder Design",
+  "doi": "10.1101/2025.11.20.689494",
+  "abstract": "We introduce BoltzGen , an all-atom generative model for designing proteins and peptides across all modalities to bind a wide range of biomolecular targets. BoltzGen builds strong structural reasoning capabilities about target-binder interactions into its generative design process. This is achieved by unifying design and structure prediction, resulting in a single model that also reaches state-of-the-art folding performance. BoltzGen’s generation process can be controlled with a flexible design specification language over covalent bonds, structure constraints, binding sites, and more. We experimentally validate these capabilities in eight diverse design campaigns with functional and affinity readouts across 26 targets. In our experiments, binder modalities span from nanobodies to disulfide-bonded peptides, and targets from disordered proteins to small molecules. In particular, we identify nanobody binders for novel targets with low similarity to proteins with already known bound structures. We release model weights, data, and both inference and training code at: https://github.com/HannesStark/boltzgen .",
+  "authors": [
+    "Stark H",
+    "Faltings F",
+    "Choi M",
+    "Xie Y",
+    "Hur E",
+    "O’Donnell T",
+    "Bushuiev A",
+    "Uçar T",
+    "Passaro S",
+    "Mao W",
+    "Reveiz M",
+    "Bushuiev R",
+    "Portnoi T",
+    "Pluskal T",
+    "Sivic J",
+    "Kreis K",
+    "Vahdat A",
+    "Ray S",
+    "Goldstein JT",
+    "Savinov A",
+    "Hambalek JA",
+    "Gupta A",
+    "Taquiri-Diaz DA",
+    "Zhang Y",
+    "Snyder SJ",
+    "Hatstat AK",
+    "Arada A",
+    "Kim NH",
+    "Fan H",
+    "Tackie-Yarboi E",
+    "Boselli D",
+    "Schnaider L",
+    "Liu CC",
+    "Li G",
+    "Hnisz D",
+    "Sabatini DM",
+    "DeGrado WF",
+    "Wohlwend J",
+    "Corso G",
+    "Barzilay R",
+    "Jaakkola T"
+  ],
+  "published_date": "2025-11-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.20.689494",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.20.689494.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1124496",
+    "raw_record": {
+      "id": "PPR1124496",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1124496"
+        ]
+      },
+      "doi": "10.1101/2025.11.20.689494",
+      "title": "BoltzGen: Toward Universal Binder Design",
+      "authorString": "Stark H, Faltings F, Choi M, Xie Y, Hur E, O’Donnell T, Bushuiev A, Uçar T, Passaro S, Mao W, Reveiz M, Bushuiev R, Portnoi T, Pluskal T, Sivic J, Kreis K, Vahdat A, Ray S, Goldstein JT, Savinov A, Hambalek JA, Gupta A, Taquiri-Diaz DA, Zhang Y, Snyder SJ, Hatstat AK, Arada A, Kim NH, Fan H, Tackie-Yarboi E, Boselli D, Schnaider L, Liu CC, Li G, Hnisz D, Sabatini DM, DeGrado WF, Wohlwend J, Corso G, Barzilay R, Jaakkola T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Stark H",
+            "lastName": "Stark",
+            "firstName": "Hannes",
+            "initials": "H"
+          },
+          {
+            "fullName": "Faltings F",
+            "lastName": "Faltings",
+            "firstName": "Felix",
+            "initials": "F"
+          },
+          {
+            "fullName": "Choi M",
+            "lastName": "Choi",
+            "firstName": "MinGyu",
+            "initials": "M"
+          },
+          {
+            "fullName": "Xie Y",
+            "lastName": "Xie",
+            "firstName": "Yuxin",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Hur E",
+            "lastName": "Hur",
+            "firstName": "Eunsu",
+            "initials": "E"
+          },
+          {
+            "fullName": "O’Donnell T",
+            "lastName": "O’Donnell",
+            "firstName": "Timothy",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Open Athena"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bushuiev A",
+            "lastName": "Bushuiev",
+            "firstName": "Anton",
+            "initials": "A"
+          },
+          {
+            "fullName": "Uçar T",
+            "lastName": "Uçar",
+            "firstName": "Talip",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Boltz"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Passaro S",
+            "lastName": "Passaro",
+            "firstName": "Saro",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Boltz"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mao W",
+            "lastName": "Mao",
+            "firstName": "Weian",
+            "initials": "W"
+          },
+          {
+            "fullName": "Reveiz M",
+            "lastName": "Reveiz",
+            "firstName": "Mateo",
+            "initials": "M"
+          },
+          {
+            "fullName": "Bushuiev R",
+            "lastName": "Bushuiev",
+            "firstName": "Roman",
+            "initials": "R"
+          },
+          {
+            "fullName": "Portnoi T",
+            "lastName": "Portnoi",
+            "firstName": "Tally",
+            "initials": "T"
+          },
+          {
+            "fullName": "Pluskal T",
+            "lastName": "Pluskal",
+            "firstName": "Tomáš",
+            "initials": "T"
+          },
+          {
+            "fullName": "Sivic J",
+            "lastName": "Sivic",
+            "firstName": "Josef",
+            "initials": "J"
+          },
+          {
+            "fullName": "Kreis K",
+            "lastName": "Kreis",
+            "firstName": "Karsten",
+            "initials": "K"
+          },
+          {
+            "fullName": "Vahdat A",
+            "lastName": "Vahdat",
+            "firstName": "Arash",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "IOCB Boston"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ray S",
+            "lastName": "Ray",
+            "firstName": "Shamayeeta",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "IOCB Boston"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goldstein JT",
+            "lastName": "Goldstein",
+            "firstName": "Jonathan",
+            "initials": "JT"
+          },
+          {
+            "fullName": "Savinov A",
+            "lastName": "Savinov",
+            "firstName": "Andrew",
+            "initials": "A"
+          },
+          {
+            "fullName": "Hambalek JA",
+            "lastName": "Hambalek",
+            "firstName": "Jacob",
+            "initials": "JA"
+          },
+          {
+            "fullName": "Gupta A",
+            "lastName": "Gupta",
+            "firstName": "Anshika",
+            "initials": "A"
+          },
+          {
+            "fullName": "Taquiri-Diaz DA",
+            "lastName": "Taquiri-Diaz",
+            "firstName": "Diego",
+            "initials": "DA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MPI"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang Y",
+            "lastName": "Zhang",
+            "firstName": "Yaotian",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Snyder SJ",
+            "lastName": "Snyder",
+            "firstName": "Samuel",
+            "initials": "SJ"
+          },
+          {
+            "fullName": "Hatstat AK",
+            "lastName": "Hatstat",
+            "firstName": "Katherine",
+            "initials": "AK"
+          },
+          {
+            "fullName": "Arada A",
+            "lastName": "Arada",
+            "firstName": "Angelika",
+            "initials": "A"
+          },
+          {
+            "fullName": "Kim NH",
+            "lastName": "Kim",
+            "firstName": "Nam Hyeong",
+            "initials": "NH"
+          },
+          {
+            "fullName": "Fan H",
+            "lastName": "Fan",
+            "firstName": "Haoyu",
+            "initials": "H"
+          },
+          {
+            "fullName": "Tackie-Yarboi E",
+            "lastName": "Tackie-Yarboi",
+            "firstName": "Ethel",
+            "initials": "E"
+          },
+          {
+            "fullName": "Boselli D",
+            "lastName": "Boselli",
+            "firstName": "Dylan",
+            "initials": "D"
+          },
+          {
+            "fullName": "Schnaider L",
+            "lastName": "Schnaider",
+            "firstName": "Lee",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MPI"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu CC",
+            "lastName": "Liu",
+            "firstName": "Chang",
+            "initials": "CC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "IOCB Boston"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li G",
+            "lastName": "Li",
+            "firstName": "Gene-Wei",
+            "initials": "G"
+          },
+          {
+            "fullName": "Hnisz D",
+            "lastName": "Hnisz",
+            "firstName": "Denes",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Boltz"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sabatini DM",
+            "lastName": "Sabatini",
+            "firstName": "David",
+            "initials": "DM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Boltz"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "DeGrado WF",
+            "lastName": "DeGrado",
+            "firstName": "William",
+            "initials": "WF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Jameel Clinic"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wohlwend J",
+            "lastName": "Wohlwend",
+            "firstName": "Jeremy",
+            "initials": "J"
+          },
+          {
+            "fullName": "Corso G",
+            "lastName": "Corso",
+            "firstName": "Gabriele",
+            "initials": "G"
+          },
+          {
+            "fullName": "Barzilay R",
+            "lastName": "Barzilay",
+            "firstName": "Regina",
+            "initials": "R"
+          },
+          {
+            "fullName": "Jaakkola T",
+            "lastName": "Jaakkola",
+            "firstName": "Tommi",
+            "initials": "T"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "We introduce  BoltzGen , an all-atom generative model for designing proteins and peptides across all modalities to bind a wide range of biomolecular targets. BoltzGen builds strong structural reasoning capabilities about target-binder interactions into its generative design process. This is achieved by unifying design and structure prediction, resulting in a single model that also reaches state-of-the-art folding performance. BoltzGen’s generation process can be controlled with a flexible design specification language over covalent bonds, structure constraints, binding sites, and more. We experimentally validate these capabilities in eight diverse design campaigns with functional and affinity readouts across 26 targets. In our experiments, binder modalities span from nanobodies to disulfide-bonded peptides, and targets from disordered proteins to small molecules. In particular, we identify nanobody binders for novel targets with low similarity to proteins with already known bound structures. We release model weights, data, and both inference and training code at:  https://github.com/HannesStark/boltzgen .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101097822",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101120237",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.20.689494"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1124496"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1124496&type=FILE&fileName=EMS211113-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS211113",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-11-25",
+      "firstPublicationDate": "2025-11-24",
+      "firstIndexDate": "2025-11-25",
+      "fullTextReceivedDate": "2025-12-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

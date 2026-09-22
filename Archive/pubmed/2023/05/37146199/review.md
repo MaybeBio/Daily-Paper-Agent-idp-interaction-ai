@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present a theoretical pK(a) data set (PHMD549) derived from constant-pH molecular dynamics (CpHMD), apply it to four machine learning methods including their previously proposed DeepKa, benchmark against a test set EXP67S, and report that DeepKa outperforms other state-of-the-art methods except CpHMD itself. They further claim DeepKa reproduces experimental pK(a) orders in enzyme catalytic dyads, applies to intrinsically disordered peptides, and performs best under partial desolvation compensation conditions. They propose PHMD549 and EXP67S as benchmark resources for future AI-driven pK(a) prediction.
+- **Visible evidence base** Abstract text only. No quantitative results, performance metrics, data set composition details, or methodological descriptions are provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, data set definitions, model architecture details, training and test protocols, statistical analyses, and comparison methodology. Without these, most quantitative claims cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to the field of protein pK(a) prediction by introducing a new theoretical data set and demonstrating improved performance of a previously proposed machine learning method. The claims are ambitious and relevant, but the abstract alone provides insufficient evidence to evaluate the validity, rigor, or generalizability of the results. Several statements are qualitative and lack the quantitative support expected for a study of this scope. The work may be of interest to computational biophysicists and machine learning practitioners, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying pH-dependent phenomena, machine learning researchers developing protein property predictors, and industrial scientists involved in protein engineering and drug discovery would find the proposed data set and improved predictor relevant. The claim of applicability to intrinsically disordered peptides and enzyme active sites broadens the potential audience.
+- **Major strengths** The introduction of a new theoretical pK(a) data set (PHMD549) addresses a recognized need for training data in this area. The comparison against multiple machine learning methods and a defined test set (EXP67S) indicates an attempt at systematic benchmarking. The reported applicability to enzyme catalytic dyads and intrinsically disordered peptides suggests potential generalizability beyond folded globular proteins.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "DeepKa was improved significantly and outperforms other state-of-the-art methods, except for the constant-pH molecular dynamics"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The claim of significant improvement and superior performance is presented without any quantitative metrics, error values, or statistical significance tests. No comparison table or figure is referenced.  
+  - **Why it matters** Without numerical evidence, the reader cannot judge the magnitude of improvement or whether the difference is meaningful in practical terms. The exception for CpHMD also requires clarification on how the comparison was conducted, since CpHMD is a physics-based simulation method rather than a machine learning approach.  
+  - **Resolution test** Provide explicit performance metrics (e.g., mean absolute error, root mean square error, correlation coefficients) for all compared methods on EXP67S, with confidence intervals or statistical tests. Clarify the comparison protocol between machine learning predictions and CpHMD results.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** "DeepKa reproduced experimental pK(a) orders of acidic dyads in five enzyme catalytic sites"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The claim of reproducing experimental pK(a) orders is qualitative. No details are given on which enzymes, which dyads, what the experimental values were, or how "reproduced" was defined and assessed.  
+  - **Why it matters** Reproducing order rather than absolute values is a weaker claim, but it still requires a clear definition of success criteria. Without specifics, the reader cannot assess whether this is a meaningful validation or a trivial result.  
+  - **Resolution test** List the five enzymes and their acidic dyads, provide experimental and predicted pK(a) values, and state the criterion used to define successful order reproduction.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability  
+  - **Claim pointer** "DeepKa was found applicable to intrinsically disordered peptides"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The applicability to intrinsically disordered peptides is stated without any description of the test set, the number of peptides, the prediction accuracy, or how this differs from the folded protein case.  
+  - **Why it matters** Intrinsically disordered peptides present different electrostatic environments, and the claim of applicability needs quantitative support to be credible.  
+  - **Resolution test** Describe the peptide test set, report prediction errors, and compare performance against a relevant baseline.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim precision  
+  - **Claim pointer** "DeepKa offers the most accurate prediction under the challenging circumstance that hydrogen bonding or salt bridge interaction is partly compensated by desolvation for a buried side chain"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** This claim is highly specific but entirely unsupported in the abstract. No data are shown to demonstrate that this circumstance was systematically tested or that DeepKa outperformed other methods specifically in this regime.  
+  - **Why it matters** This is presented as a key insight, but without evidence it reads as an assertion. The reader cannot determine whether this is a robust finding or an anecdotal observation.  
+  - **Resolution test** Provide a systematic analysis of prediction accuracy stratified by solvent exposure and interaction compensation, with quantitative comparisons against other methods.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Data set validity  
+  - **Claim pointer** "PHMD549, which was successfully applied to four distinct machine learning methods"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The data set is described as "theoretical" and derived from CpHMD, but no information is given on its composition, the proteins included, the pH conditions, the simulation protocols, or the validation of the pK(a) values against experimental data.  
+  - **Why it matters** A theoretical data set used for training and benchmarking must be carefully validated, since systematic errors in the training data will propagate to the trained models. The abstract does not establish the reliability of PHMD549.  
+  - **Resolution test** Describe the data set composition, simulation parameters, and any validation against experimental pK(a) values. Provide access to the data set for independent assessment.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "theoretical pK(a) data set" is ambiguous. It could mean computed values, curated literature values, or something else.  
+  - **Required correction** Define what "theoretical" means in this context and specify the source of the pK(a) values.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Benchmark description  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract mentions "four distinct machine learning methods" but does not name them beyond DeepKa.  
+  - **Required correction** List all four methods in the abstract or state that details are in the full text.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Applicability claim  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The claim of applicability to "pK(a) database construction, protein design, drug discovery" is broad and not substantiated by any example or reference.  
+  - **Required correction** Either provide a concrete example of such an application or soften the claim to indicate potential rather than demonstrated utility.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Performance comparison  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "outperforms other state-of-the-art methods" is vague without naming the methods or the performance metric.  
+  - **Required correction** Specify which methods were compared and on which metric the improvement was observed.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. All major concerns are blocking because the abstract alone does not provide sufficient evidence to support the central claims of improved performance, generalizability, and data set utility.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The introduction of a new theoretical data set and the application of machine learning to pK(a) prediction are not entirely novel, but the specific combination and the focus on challenging electrostatic environments may offer some originality. This cannot be fully assessed from the abstract.  
+  - **Scientific importance** Accurate pK(a) prediction is important for understanding pH-dependent biological processes and for protein engineering. The potential impact is significant if the claims hold, but the evidence presented is insufficient to establish this.  
+  - **Interdisciplinary readership** The topic bridges computational chemistry, biophysics, and machine learning, which could attract a broad audience. However, the abstract is written in a way that assumes familiarity with pK(a) prediction methods, which may limit accessibility.  
+  - **Technical soundness** The abstract does not provide enough methodological detail to assess technical soundness. The lack of quantitative results is a major concern.  
+  - **Readability for nonspecialists** The abstract is reasonably clear for those with background in the field, but terms like "acidic dyads" and "desolvation" are used without explanation. The writing is generally direct but could benefit from more context.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting claims, but the lack of quantitative support and methodological detail means the case is not made. A full review of the manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that DeepKa "outperforms other state-of-the-art methods" is unsupported without quantitative comparison data.
+- The claim that DeepKa "reproduced experimental pK(a) orders" in five enzyme catalytic sites is unsupported without specific examples and criteria.
+- The claim of applicability to intrinsically disordered peptides is unsupported without test set details and accuracy metrics.
+- The claim of "most accurate prediction" under partial desolvation compensation conditions is unsupported without a systematic analysis.
+- The assertion that PHMD549 and EXP67S "qualify as the basis for future developments" is an opinion not backed by evidence in the abstract.
+- The statement that DeepKa "can be applied immediately" to various applications is an overreach without demonstrated use cases.

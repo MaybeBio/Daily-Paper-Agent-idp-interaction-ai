@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2508.18570v1",
+  "title": "The Protein Force Field Plays a Crucial Role in Obtaining Accurate Macromolecular Ensembles of IDPs",
+  "authors": "Rohan S. Adhikari; Winnie H. Shi; Amanda B. Marciel; Walter G. Chapman",
+  "journal": "",
+  "published_date": "2025-08-26",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文评估AMBER ff19SB与OPC水模型对IDP构象系综的模拟精度，并开发SWAXS-AMDE散射模型，虽聚焦力场验证而非PPI机制，但为IDP构象建模提供可迁移的物理模拟方法。",
+  "abstract": "Intrinsically disordered proteins (IDPs) play a significant role in intracellular phenomena and are known to exist in an ensemble of inter-converting conformations in solution. Accurately modeling the conformations of IDPs in solution poses a challenge to traditional force fields that are tuned to predict the properties of folded proteins. There is a need for generalized atomistic force fields that can accurately predict the properties of both folded proteins and IDPs. Improvements to protein force fields for increased accuracy in secondary structure prediction and new water models with increased water-water dispersion interactions have been proposed in search of a generalized simulation method. Validating the proposed improvements against experiments poses challenges such as a lack of suitable systems to test the generalizability and choosing a property of interest to match the simulation results against experiments. In this work, we use small angle X-ray scattering (SAXS) data from peptide-based polyampholytes that mimic IDPs to test the generalizability of the AMBER protein force fields and the OPC water model. The specific improvements due to the AMBER ff19SB protein force field and the OPC water model are isolated and studied. Analysis of SAXS profiles and the conformational distribution of polyampholyte sequences show the AMBER ff19SB-OPC water combination to be a generalized model that predicts both ordered polyampholyte sequences and disordered polyampholyte sequences in good agreement with experiments. We have developed a new scattering model termed SWAXS-AMDE that accounts for the hydration layer density changes in atomic detail and is particularly useful in making one-to-one comparisons of simulated scattering profiles to experiments. SWAXS-AMDE allows for the thermal fluctuations of the solute which is particularly consequential for IDPs.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在细胞内现象中扮演重要角色，已知其在溶液中以相互转换构象的集合体形式存在。准确模拟IDPs在溶液中的构象对传统力场构成挑战，这些力场经过调校以预测折叠蛋白的性质。需要能够准确预测折叠蛋白和IDPs性质的通用原子力场。为寻求通用模拟方法，已提出改进蛋白质力场以提高二级结构预测准确性，以及增加水-水分散相互作用的新水模型。验证这些改进与实验的一致性面临挑战，例如缺乏适合测试通用性的系统，以及选择感兴趣的性质以将模拟结果与实验匹配。在本工作中，我们使用基于肽的、模拟IDPs的聚两性电解质的小角X射线散射（SAXS）数据，来测试AMBER蛋白质力场和OPC水模型的通用性。隔离并研究了AMBER ff19SB蛋白质力场和OPC水模型带来的具体改进。对SAXS谱和聚两性电解质序列构象分布的分析表明，AMBER ff19SB-OPC水组合是一种通用模型，能预测有序聚两性电解质序列和无序聚两性电解质序列，与实验良好一致。我们开发了一种新的散射模型，称为SWAXS-AMDE，该模型在原子细节上考虑水化层密度变化，特别适用于将模拟散射谱与实验进行一对一比较。SWAXS-AMDE允许溶质的热波动，这对IDPs尤为重要。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2508.18570v1",
+  "source_url": "https://arxiv.org/abs/2508.18570v1",
+  "paper_page_path": "papers/arxiv/2508.18570v1/index.html"
+}

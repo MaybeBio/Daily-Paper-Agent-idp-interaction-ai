@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the SARS-CoV-2 nucleocapsid protein (N) undergoes pH-dependent conformational changes, with loss of secondary and tertiary structure at extreme acidic pH, retention of native conformation at mild acidic and alkaline pH, and formation of an intermediate-like (pre-molten globule) state at low pH, supported by biophysical spectroscopy and molecular dynamics simulations.
+- **Visible evidence base** Abstract text only; no experimental data, numerical results, statistical analyses, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation parameters, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible biophysical study of pH-dependent conformational changes in the SARS-CoV-2 nucleocapsid protein, with potential relevance to understanding its biological functions. However, the abstract lacks quantitative data, methodological detail, and clear articulation of how the conclusions are derived from the evidence. The claim of an "intermediate like conformation" is not adequately supported by the information provided, and several statements are internally inconsistent or ambiguous. The work may be of interest to structural biologists and virologists, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Structural biologists studying protein folding and conformational intermediates, virologists investigating SARS-CoV-2 replication and assembly mechanisms, and researchers interested in the biophysical basis of phase separation and protein-protein interactions in viral systems. The potential therapeutic implications for COVID-19 would also attract drug discovery researchers.
+- **Major strengths** The study addresses a relevant and timely topic, namely the pH-dependent behavior of a key viral protein. The combination of experimental biophysical methods (circular dichroism, ANS fluorescence) with computational approaches (molecular dynamics simulations) is a reasonable strategy for probing conformational changes. The potential link to functional outcomes such as phase separation and host immune modulation adds biological significance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "all the above-mentioned findings suggested formation of intermediary like state at low pH, which can be attributed to an off-pathway species."
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract does not provide any quantitative data, such as CD ellipticity values, ANS fluorescence intensities, or simulation metrics, that would allow assessment of whether the observed changes are significant or consistent with an intermediate state. The distinction between a molten globule, pre-molten globule, and an "intermediate like" state is not operationally defined, and the evidence cited (e.g., ANS binding behavior) is described in a contradictory manner.
+  - **Why it matters** The central conclusion of the study, namely the formation of an off-pathway intermediate at low pH, rests on the interpretation of biophysical signatures. Without quantitative evidence and clear criteria for classifying conformational states, the claim cannot be evaluated or reproduced.
+  - **Resolution test** Provide quantitative data (e.g., mean residue ellipticity at specific wavelengths, ANS fluorescence maxima and intensities, hydrodynamic radius or simulation-derived metrics) and define the criteria used to classify the state as intermediate-like versus molten globule or unfolded. Show statistical comparisons across pH conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The authors state that "in molten globule (MG) state, secondary structure is conserved but here, CD data reveal more random structure at low pH. In pre-MG, ANS binds weakly to protein as compared to MG but here, ANS binds strongly to protein."
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** The abstract appears to compare the observed low-pH state to known characteristics of MG and pre-MG states, but the logic is unclear. If the CD data show more random structure at low pH, this contradicts the conserved secondary structure expected for an MG state. If ANS binds strongly, this contradicts the weak binding expected for a pre-MG state. The authors do not explain how these observations collectively support an intermediate-like state rather than a distinct or partially unfolded conformation.
+  - **Why it matters** The interpretation of the data hinges on the relationship between the observed properties and established definitions of protein folding intermediates. The current description is internally inconsistent and does not provide a coherent framework for the conclusion.
+  - **Resolution test** Clarify the expected signatures for MG, pre-MG, and intermediate states, and explicitly map the observed data onto these definitions. Explain how strong ANS binding and increased random structure can coexist in the proposed intermediate state, or revise the classification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that "Molecular dynamics simulation studies validated spectroscopic findings."
+  - **Evidence pointer** Abstract text, location not provided
+  - **Concern** No details are provided about the simulation system, force field, simulation length, or the specific metrics used to validate the experimental results. The term "validated" is strong and implies a quantitative comparison that is not described.
+  - **Why it matters** Computational validation of experimental findings is only meaningful if the simulation setup is appropriate and the comparison criteria are explicit. Without this information, the claim of validation cannot be assessed.
+  - **Resolution test** Describe the simulation parameters, the structural or dynamic properties compared with experimental data, and the statistical measures used to establish agreement.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title, location not provided
+  - **Issue** The phrase "leads to intermediate like conformation" is grammatically awkward and imprecise. The term "intermediate like" should be hyphenated or rephrased for clarity.
+  - **Required correction** Revise to "leads to an intermediate-like conformation" or "induces an intermediate conformational state."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "pre-MG" and "MG"
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abbreviations MG and pre-MG are introduced without definition. While molten globule is a standard term, pre-MG is less common and should be defined.
+  - **Required correction** Define both terms at first use, e.g., "molten globule (MG) state" and "pre-molten globule (pre-MG) state."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope of conclusions
+  - **Affected element** Final sentence on therapeutic implications
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The statement that understanding N protein structure "will eventually help in designing novel therapeutic target against COVID-19" is speculative and not directly supported by the presented data.
+  - **Required correction** Soften the claim, e.g., "may inform future therapeutic strategies" or remove the sentence if not substantiated.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central conclusion of an intermediate-like state is not supported by the evidence as presented and the reasoning is internally inconsistent. R1-M3 is non-blocking but requires clarification for the computational validation claim to be credible.
+- **Assessment against Nature-style criteria** Originality: The topic of pH-dependent conformational changes in the nucleocapsid protein is not entirely novel, as similar studies exist for other viral proteins, but the specific focus on SARS-CoV-2 N protein may offer some new insights. Scientific importance: The work has potential relevance to understanding viral replication and assembly, but the abstract does not establish a clear advance over existing knowledge. Interdisciplinary readership: The combination of biophysics and computational methods could appeal to a broad audience, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: Cannot be assessed from the abstract alone; the lack of quantitative data and methodological detail is a major limitation. Readability for nonspecialists: The abstract is dense and assumes familiarity with protein folding terminology, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract does not provide sufficient quantitative or methodological detail to support the central claims, and the internal inconsistencies in the interpretation of MG and pre-MG states need to be resolved. A revised abstract with clearer data presentation and logical framing could make the case more convincing.
+
+## Risk / unsupported claims
+- The claim of an "intermediate like conformation" at low pH is unsupported by the abstract, as no quantitative data or clear classification criteria are provided.
+- The statement that molecular dynamics simulations "validated" spectroscopic findings is unsupported without simulation details and comparison metrics.
+- The claim that the observed state is an "off-pathway species" is speculative and not justified by the evidence presented.
+- The assertion that understanding N protein structure will help in designing therapeutic targets against COVID-19 is not supported by the data in the abstract.
+- The relationship between the observed low-pH state and MG or pre-MG states is unclear and internally inconsistent as described.

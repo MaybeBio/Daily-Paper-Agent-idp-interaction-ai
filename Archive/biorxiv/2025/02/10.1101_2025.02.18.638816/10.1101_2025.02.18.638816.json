@@ -1,0 +1,186 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.02.18.638816",
+  "title": "Structural basis for lipid transport at membrane contact sites by the Ist2/Osh6 complex",
+  "doi": "10.1101/2025.02.18.638816",
+  "abstract": "Membrane contact sites (MCS) are hubs for inter-organellar lipid transport within eukaryotic cells. As one of the principal tethers bridging the ER and the plasma membrane in Saccharomyces cerevisiae , the protein Ist2 plays a major role during lipid transport between both compartments. Here, we present a comprehensive investigation elucidating structural and mechanistic properties of Ist2 and its interaction with the soluble lipid transport protein Osh6. The ER-embedded transmembrane domain of Ist2 is homologous to the TMEM16 family and acts as constitutively active lipid scramblase. The extended C-terminus binds to the plasma membrane and the PS/PI 4 P exchanger Osh6. Through cellular growth assays, biochemical and structural studies, we have elucidated the interaction between both proteins and provide evidence that Osh6 remains associated with Ist2 during lipid shuttling between membranes. These results highlight the role of the Ist2/Osh6 complex in lipid trafficking and offer new insights into the relevance of scramblases at MCSs.",
+  "authors": [
+    "Arndt M",
+    "Schweri A",
+    "Dutzler R"
+  ],
+  "published_date": "2025-02-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.02.18.638816",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.02.18.638816.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR980648",
+    "raw_record": {
+      "id": "PPR980648",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR980648"
+        ]
+      },
+      "doi": "10.1101/2025.02.18.638816",
+      "title": "Structural basis for lipid transport at membrane contact sites by the Ist2/Osh6 complex",
+      "authorString": "Arndt M, Schweri A, Dutzler R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Arndt M",
+            "lastName": "Arndt",
+            "firstName": "Melanie",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry , Winterthurerstrasse 190 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schweri A",
+            "lastName": "Schweri",
+            "firstName": "Angela",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry , Winterthurerstrasse 190 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dutzler R",
+            "lastName": "Dutzler",
+            "firstName": "Raimund",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry , Winterthurerstrasse 190 , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Membrane contact sites (MCS) are hubs for inter-organellar lipid transport within eukaryotic cells. As one of the principal tethers bridging the ER and the plasma membrane in  Saccharomyces cerevisiae , the protein Ist2 plays a major role during lipid transport between both compartments. Here, we present a comprehensive investigation elucidating structural and mechanistic properties of Ist2 and its interaction with the soluble lipid transport protein Osh6. The ER-embedded transmembrane domain of Ist2 is homologous to the TMEM16 family and acts as constitutively active lipid scramblase. The extended C-terminus binds to the plasma membrane and the PS/PI  4 P exchanger Osh6. Through cellular growth assays, biochemical and structural studies, we have elucidated the interaction between both proteins and provide evidence that Osh6 remains associated with Ist2 during lipid shuttling between membranes. These results highlight the role of the Ist2/Osh6 complex in lipid trafficking and offer new insights into the relevance of scramblases at MCSs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "215236",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.02.18.638816"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.02.18.638816"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR980648"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR980648&type=FILE&fileName=EMS203493-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40866577",
+            "reference": "Nature structural & molecular biology. 2025 Aug;:",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS203493",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-02-22",
+      "firstPublicationDate": "2025-02-21",
+      "firstIndexDate": "2025-02-22",
+      "fullTextReceivedDate": "2025-02-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

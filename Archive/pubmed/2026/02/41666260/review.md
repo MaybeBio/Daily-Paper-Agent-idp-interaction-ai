@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors report atomistic simulations and experiments on the B1 peptide fragment of SilE, an intrinsically disordered protein involved in bacterial silver resistance. They construct a structural model of Ag(+)-bound B1 using Mass Spectrometry and NMR, parametrize it with DFT, and use replica-exchange simulations and deep learning to map the folding landscape. They claim that Ag(+) binding promotes folding by lowering the entropy of the disordered state and stabilizing the folded state, and that Ag(+) alters folding pathways.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary material provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, experimental protocols, DFT details, deep learning methodology, and quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting mechanistic study of metal-induced folding in a bacterial peptide. However, the evidence base available for review is limited to the abstract, which contains no quantitative data, no methodological detail, and no direct support for the central claims. The conclusions regarding entropy reduction, folded-state stabilization, and pathway alteration are stated without any numerical or statistical backing. The work may be of interest to the biophysics and computational chemistry communities, but the case as presented is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, metal-protein interactions, bacterial metal resistance mechanisms, and computational methods for folding landscape characterization would find these results relevant. The combination of experimental constraints with DFT parametrization and enhanced sampling simulations could appeal to method developers and users in the molecular simulation community.
+- **Major strengths** The abstract identifies a biologically relevant system (bacterial silver resistance) and a mechanistically interesting question (how Ag(+) induces folding in an intrinsically disordered peptide). The proposed workflow, integrating Mass Spectrometry, NMR, DFT, replica-exchange simulations, and deep learning, is methodologically ambitious and could provide a comprehensive view of the folding landscape. The claim that Ag(+) acts by both lowering the entropy of the disordered state and stabilizing the folded state is mechanistically specific and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Ag(+) binding promotes folding by lowering the entropy of the disordered state and stabilizing the folded state"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The central mechanistic claim is presented without any quantitative support. No entropy values, free energy differences, or statistical uncertainties are reported. The abstract does not indicate how these quantities were computed or compared between the apo and Ag(+)-bound states.
+  - **Why it matters** The claim is the core finding of the study. Without numerical evidence, the reader cannot assess the magnitude of the proposed effects or their statistical significance. The distinction between entropy reduction and enthalpy stabilization is a subtle thermodynamic point that requires explicit free energy decomposition.
+  - **Resolution test** Provide free energy components (enthalpic and entropic contributions) for the apo and bound states, with error estimates, and demonstrate that the differences are statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "we prepare a structural model of Ag(+)-bound B1, which we parametrize using DFT"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how the structural model was validated, what level of DFT was used, how the force field parameters were derived, or whether the parametrization was tested against experimental observables beyond the initial constraints.
+  - **Why it matters** The reliability of the entire simulation study depends on the quality of the Ag(+) parameters. If the parametrization is not validated, the resulting folding landscape and mechanistic conclusions may be artifacts of the model rather than properties of the real system.
+  - **Resolution test** Describe the DFT functional and basis set, the fitting procedure, and validation against experimental data (e.g., NMR chemical shifts, binding affinities) not used in the parametrization.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "we also describe how Ag(+) alters the folding pathways"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that folding pathways are altered but provides no description of what these pathways are, how they were identified, or what the specific alterations are. The deep learning component is mentioned but its role in pathway analysis is not explained.
+  - **Why it matters** Pathway analysis is a distinct and nontrivial claim. Without a clear definition of the pathways and the nature of the alteration, this claim is unfalsifiable from the abstract and cannot be evaluated.
+  - **Resolution test** Define the folding pathways in terms of specific structural intermediates or transition states, show the pathway distributions for apo and bound states, and quantify the differences with appropriate statistical measures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "deep learning"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The role of deep learning in the study is mentioned but not specified. It is unclear whether it was used for dimensionality reduction, free energy surface construction, or pathway identification.
+  - **Required correction** Specify the deep learning method used and its specific function in the analysis pipeline.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** No information is given about the simulation length, number of replicas, temperature range, or force field used for the peptide.
+  - **Required correction** Provide these details in the abstract or indicate where they are described in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** "lay the groundwork for further computational investigations"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** This statement is vague and does not specify what further investigations are envisioned or what specific groundwork has been laid.
+  - **Required correction** Clarify what specific tools, parameters, or methodological insights are being contributed for future work.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or methodological detail to support the central mechanistic claims.
+- **Assessment against Nature-style criteria** Originality: The system and question are of interest, but the abstract does not demonstrate a conceptually novel approach beyond combining existing methods. Scientific importance: The topic of metal-induced folding in bacterial resistance proteins is relevant, but the significance is not established without quantitative results. Interdisciplinary readership: The work bridges biophysics, computational chemistry, and microbiology, which could appeal to a broad audience if the results are compelling. Technical soundness: Cannot be assessed from the abstract; the DFT parametrization and simulation methodology are not described in sufficient detail. Readability for nonspecialists: The abstract is concise and accessible, but the lack of context on SilE and silver resistance mechanisms may limit comprehension for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the central claims are unsupported by quantitative data or methodological detail. A full manuscript with detailed results would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that Ag(+) binding lowers the entropy of the disordered state and stabilizes the folded state is unsupported by any quantitative data in the abstract.
+- The claim that Ag(+) alters folding pathways is unsupported by any description of the pathways or the nature of the alteration.
+- The claim that the structural model of Ag(+)-bound B1 is reliable is unassessable without details on model validation and DFT parametrization.
+- The role of deep learning in the analysis is unassessable from the abstract.
+- The overall claim of improving understanding of metal-induced protein folding is a reasonable aspiration but is not substantiated by the evidence presented.

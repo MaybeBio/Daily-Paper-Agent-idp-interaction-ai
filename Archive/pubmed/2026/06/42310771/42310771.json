@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "42310771",
+    "doi": "10.1186/s13040-026-00577-7",
+    "title": "Navigating the uncharted: AI-driven advances in protein structure, dynamics, interactions and ligand interactions for understudied families."
+  },
+  "content": {
+    "abstract": "The structural and functional characterization of lesser-known protein families remains a major challenge in modern computational biology. Recent breakthroughs in artificial intelligence (AI) and machine learning (ML) have rapidly advanced these fields. This is particularly evident in overcoming the limitations of traditional modelling approaches, such as classical homology modelling and ab initio folding methods. This review traces the evolution of conventional methods to cutting-edge deep learning frameworks, such as AlphaFold2, RoseTTAFold, and transformer-based architectures. We explore how these AI-driven tools achieve near-experimental accuracy in structure prediction, model protein dynamics, and intrinsic disorder. We also addressed computational approaches for protein-protein interactions (PPIs), central to cellular function and interface-targeted drug design, alongside protein-ligand interactions, including novel generative methods. Two representative case studies targeting orphan G-protein-coupled receptors and intrinsically disordered regions demonstrate the transformative potential of these techniques for previously intractable systems. Despite these advances, significant challenges remain, including the need for experimental validation, effective modelling of protein flexibility, and ethical considerations surrounding AI-generated data. We also compare classical and AI-based structural biology pipelines, summarize key tools (e.g. transformers, graph neural networks, and diffusion models), and offer best practice guidelines for computational modelling and data visualization. These developments provide unprecedented insights into the dark proteome regions of the protein universe, enabling the structural illumination of previously uncharacterized and understudied proteins where structure or function was unknown. This review aims to serve as a roadmap for researchers seeking to harness AI innovations to tackle some of the most challenging aspects of proteomics.",
+    "keywords": [
+      "AlphaFold2",
+      "AlphaFold3",
+      "Artificial intelligence",
+      "Dark proteome",
+      "Intrinsically disordered proteins (IDPs)",
+      "Machine learning",
+      "Protein structure prediction",
+      "Protein-protein interactions. Computational biology",
+      "RoseTTAFold"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Shivani",
+        "Singh, Ruhani",
+        "Sharma, Sunita"
+      ],
+      "short_names": [
+        "Singh S",
+        "Singh R",
+        "Sharma S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Sharda School of Bio-Science & Technology, Sharda University, Greater Noida, Uttar Pradesh, India.",
+        "Sharda School of Bio-Science & Technology, Sharda University, Greater Noida, Uttar Pradesh, India.",
+        "Sharda School of Bio-Science & Technology, Sharda University, Greater Noida, Uttar Pradesh, India. sunita.sharma@sharda.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Shivani",
+        "short_name": "Singh S",
+        "identifiers": [],
+        "affiliations": [
+          "Sharda School of Bio-Science & Technology, Sharda University, Greater Noida, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Ruhani",
+        "short_name": "Singh R",
+        "identifiers": [],
+        "affiliations": [
+          "Sharda School of Bio-Science & Technology, Sharda University, Greater Noida, Uttar Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Sunita",
+        "short_name": "Sharma S",
+        "identifiers": [],
+        "affiliations": [
+          "Sharda School of Bio-Science & Technology, Sharda University, Greater Noida, Uttar Pradesh, India. sunita.sharma@sharda.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BioData mining"
+    ],
+    "journal_abbrev": [
+      "BioData Min"
+    ],
+    "pub_date": "2026 Jun 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/18 06:31",
+    "fetched_at": "2026-09-18 04:11:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42310771",
+      "42475469",
+      "23912807",
+      "40121710",
+      "41154856",
+      "41910880",
+      "40398752",
+      "41996874",
+      "41758998",
+      "39125995",
+      "40973394",
+      "37175454",
+      "42044246",
+      "40553329",
+      "41986008",
+      "41017480",
+      "39999605",
+      "41878008",
+      "41709935",
+      "42153319",
+      "42504637",
+      "41358912",
+      "41520911",
+      "40919100",
+      "41096653",
+      "18831774",
+      "38124369",
+      "40524189",
+      "42377676",
+      "41839238",
+      "42112224",
+      "40441539",
+      "41209584",
+      "41222234",
+      "41666404",
+      "35875501",
+      "37763837",
+      "42231905",
+      "42491247",
+      "41749685",
+      "42160739",
+      "35593869",
+      "42018649",
+      "40320551",
+      "40166291",
+      "41729820",
+      "40897171",
+      "40220943",
+      "36652496",
+      "36827465",
+      "41863177",
+      "41675592",
+      "40620692",
+      "41672347",
+      "39090739",
+      "40549427",
+      "42366266",
+      "41806059",
+      "40887563",
+      "37446831",
+      "42565648",
+      "40099205",
+      "41240637",
+      "40423839",
+      "38996351",
+      "40264953",
+      "42572360",
+      "40456205",
+      "42592200",
+      "39407556",
+      "42470596",
+      "32804365",
+      "38987470",
+      "40524056",
+      "41755349",
+      "41376388",
+      "35139457",
+      "41644540",
+      "40553326",
+      "40332289",
+      "42611956",
+      "41939694",
+      "41348251",
+      "41478913",
+      "41763602",
+      "36576775",
+      "37061423",
+      "42132948",
+      "38761500",
+      "41753681",
+      "39579663",
+      "42467983",
+      "41025068",
+      "41022992",
+      "41465283",
+      "42567392",
+      "42334642",
+      "41968747",
+      "41537307",
+      "40813104"
+    ],
+    "review": [
+      "42310771",
+      "40121710",
+      "41154856",
+      "41910880",
+      "40398752",
+      "41996874",
+      "39125995",
+      "40973394",
+      "37175454",
+      "40553329",
+      "41986008",
+      "41017480",
+      "39999605",
+      "41878008",
+      "41709935",
+      "42153319",
+      "42504637",
+      "41358912",
+      "41520911",
+      "41096653",
+      "38124369",
+      "40524189",
+      "42377676",
+      "41839238",
+      "42112224",
+      "40441539",
+      "41209584",
+      "41222234",
+      "41666404",
+      "35875501",
+      "37763837",
+      "42231905",
+      "42491247",
+      "41749685",
+      "42160739",
+      "42018649",
+      "41729820",
+      "40897171",
+      "40220943",
+      "36827465",
+      "41863177",
+      "41672347",
+      "39090739",
+      "40549427",
+      "42366266",
+      "41806059",
+      "40887563",
+      "37446831",
+      "42565648",
+      "40099205",
+      "41240637",
+      "40423839",
+      "38996351",
+      "40264953",
+      "42572360",
+      "40456205",
+      "42592200",
+      "39407556",
+      "32804365",
+      "40524056",
+      "41755349",
+      "41376388",
+      "35139457",
+      "40332289",
+      "42611956",
+      "41939694",
+      "41348251",
+      "41763602",
+      "37061423",
+      "42132948",
+      "38761500",
+      "41753681",
+      "39579663",
+      "42467983",
+      "41025068",
+      "41022992",
+      "41465283",
+      "42567392",
+      "42334642",
+      "41968747",
+      "41537307"
+    ],
+    "pmc": [
+      "13523371"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biodatamining.biomedcentral.com/articles/10.1186/s13040-026-00577-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42310771/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

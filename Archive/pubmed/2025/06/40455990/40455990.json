@@ -1,0 +1,423 @@
+{
+  "identity": {
+    "pmid": "40455990",
+    "doi": "10.1073/pnas.2424135122",
+    "title": "Material properties of biomolecular condensates emerge from nanoscale dynamics."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates form by phase separation of biological polymers and have important functions in the cell-functions that are inherently linked to their physical properties at different scales. A notable aspect of such membraneless organelles is that their viscoelastic properties can vary by orders of magnitude, but it has remained unclear how these pronounced differences are rooted in the nanoscale dynamics at the molecular level. Here, we investigate a series of condensates formed by complex coacervation of highly charged disordered proteins and polypeptides that span about two orders of magnitude in bulk viscosity. We find that their viscosity is highly correlated with protein translational diffusion and nano- to microsecond chain dynamics. Remarkably, analytical relations from polymer physics can predict condensate viscosity from diffusivity and chain dynamics, and vice versa, even for more hydrophobic disordered proteins and for synthetic polyelectrolytes, indicating a mechanistic link across several decades of length- and timescales. Atomistic simulations reveal that the observed differences in friction-a key quantity underlying these relations-reflect differences in interresidue contact lifetimes as a function of arginine content and salt concentration, leading to the vastly different dynamics among condensates. The rapid exchange of interresidue contacts we observe may be a general mechanism for preventing dynamic arrest in compartments densely packed with polyelectrolytes, such as the cell nucleus.",
+    "keywords": [
+      "Rouse model",
+      "biomolecular condensates",
+      "complex coacervates",
+      "intrinsically disordered proteins",
+      "protein dynamics"
+    ],
+    "mesh_terms": [
+      "*Biomolecular Condensates/chemistry",
+      "Viscosity",
+      "Diffusion",
+      "Molecular Dynamics Simulation",
+      "*Peptides/chemistry",
+      "*Proteins/chemistry",
+      "Hydrophobic and Hydrophilic Interactions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Galvanetto, Nicola",
+        "Ivanovic, Milos T",
+        "Del Grosso, Simone A",
+        "Chowdhury, Aritra",
+        "Sottini, Andrea",
+        "Nettels, Daniel",
+        "Best, Robert B",
+        "Schuler, Benjamin"
+      ],
+      "short_names": [
+        "Galvanetto N",
+        "Ivanovic MT",
+        "Del Grosso SA",
+        "Chowdhury A",
+        "Sottini A",
+        "Nettels D",
+        "Best RB",
+        "Schuler B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0408-1747",
+        "ORCID: 0000-0003-3164-9411",
+        "ORCID: 0000-0002-0579-292X",
+        "ORCID: 0000-0002-7893-3543",
+        "ORCID: 0000-0002-5970-4251"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland.",
+        "Department of Physics, University of Zurich, Zurich 8057, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland.",
+        "Computational Biophysics Section, Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD 20892-0520.",
+        "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland.",
+        "Department of Physics, University of Zurich, Zurich 8057, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Galvanetto, Nicola",
+        "short_name": "Galvanetto N",
+        "identifiers": [
+          "0000-0002-0408-1747"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland.",
+          "Department of Physics, University of Zurich, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Ivanović, Miloš T",
+        "short_name": "Ivanović MT",
+        "identifiers": [
+          "0000-0003-3164-9411"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Del Grosso, Simone A",
+        "short_name": "Del Grosso SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Chowdhury, Aritra",
+        "short_name": "Chowdhury A",
+        "identifiers": [
+          "0000-0002-0579-292X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Sottini, Andrea",
+        "short_name": "Sottini A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Nettels, Daniel",
+        "short_name": "Nettels D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Best, Robert B",
+        "short_name": "Best RB",
+        "identifiers": [
+          "0000-0002-7893-3543"
+        ],
+        "affiliations": [
+          "Computational Biophysics Section, Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD 20892-0520."
+        ]
+      },
+      {
+        "full_name": "Schuler, Benjamin",
+        "short_name": "Schuler B",
+        "identifiers": [
+          "0000-0002-5970-4251"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland.",
+          "Department of Physics, University of Zurich, Zurich 8057, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Jun 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/02 18:30",
+    "fetched_at": "2026-09-21 19:31:26"
+  },
+  "links": {
+    "cites": [
+      "42610615",
+      "42573943",
+      "42407334",
+      "42239067",
+      "42172735",
+      "41929123",
+      "41909144",
+      "41889770",
+      "41888106",
+      "41868013",
+      "41863073",
+      "41807382",
+      "41730871",
+      "41675594",
+      "41670285",
+      "41645509",
+      "41584669",
+      "41481446",
+      "41481439",
+      "41318327",
+      "41311063",
+      "41293562",
+      "41169547",
+      "41019633",
+      "40894760",
+      "40880224",
+      "40791470"
+    ],
+    "refs": [
+      "39866835",
+      "39486437",
+      "39464253",
+      "39225536",
+      "38885177",
+      "38637545",
+      "38553587",
+      "38503281",
+      "38429263",
+      "38424273",
+      "38181073",
+      "37968398",
+      "37796987",
+      "37749234",
+      "37735186",
+      "37549257",
+      "37468629",
+      "37194953",
+      "36747054",
+      "36513655",
+      "36443315",
+      "36397514",
+      "36240277",
+      "36175408",
+      "36163138",
+      "35119898",
+      "34992286",
+      "34887356",
+      "34785657",
+      "34654286",
+      "34645832",
+      "34636323",
+      "34081479",
+      "34035521",
+      "33982350",
+      "33597515",
+      "33453924",
+      "33303613",
+      "33302617",
+      "33169001",
+      "32942387",
+      "32934220",
+      "32822449",
+      "32482873",
+      "32338959",
+      "32312191",
+      "32134099",
+      "32029630",
+      "32004090",
+      "31543265",
+      "31270472",
+      "31001538",
+      "30950394",
+      "30682370",
+      "30389709",
+      "29972809",
+      "29719674",
+      "29466338",
+      "29424691",
+      "29064502",
+      "28636597",
+      "27633928",
+      "27145874",
+      "26899474",
+      "25586861",
+      "25288112",
+      "23083137",
+      "22398450",
+      "22058573",
+      "21979048",
+      "20639465",
+      "20434447",
+      "18752262",
+      "18055096",
+      "17301233",
+      "12684536",
+      "8552642",
+      "3367995"
+    ],
+    "similar": [
+      "40455990",
+      "39398199",
+      "41481439",
+      "37468629",
+      "40791470",
+      "40748104",
+      "34785657",
+      "38252962",
+      "39636939",
+      "37194953",
+      "40481268",
+      "40136009",
+      "39591652",
+      "37470705",
+      "39486437",
+      "38363841",
+      "40985078",
+      "40028898",
+      "34636323",
+      "39987501",
+      "39113361",
+      "37789618",
+      "40954121",
+      "40203038",
+      "39827079",
+      "40069227",
+      "34664748",
+      "40972943",
+      "33302617",
+      "38621751",
+      "23912807",
+      "35179885",
+      "39042834",
+      "33453924",
+      "39320949",
+      "34767801",
+      "40094245",
+      "40195042",
+      "38360555",
+      "34916288",
+      "37131735",
+      "39225536",
+      "36702825",
+      "39964249",
+      "40009520",
+      "40848932",
+      "41342450",
+      "40521608",
+      "33864415",
+      "38149872",
+      "38649740",
+      "38383656",
+      "39271032",
+      "34090478",
+      "39804953",
+      "39947751",
+      "36350032",
+      "34654286",
+      "38429263",
+      "34129784",
+      "41279444",
+      "38063842",
+      "30926670",
+      "35881789",
+      "39225535",
+      "39166772",
+      "39568893",
+      "34716273",
+      "39168125",
+      "39356108",
+      "40550186",
+      "39670461",
+      "38832749",
+      "32822449",
+      "38773325",
+      "37408305",
+      "40420812",
+      "40172489",
+      "40168179",
+      "40102453",
+      "40229261",
+      "39232584",
+      "35727989",
+      "37343188",
+      "34588591",
+      "37252985",
+      "36279601",
+      "36004748",
+      "33597515",
+      "37464880",
+      "37735186",
+      "34648259",
+      "34772786",
+      "39866835",
+      "39510346",
+      "39178343",
+      "38987300",
+      "36883003",
+      "36164646",
+      "38885177"
+    ],
+    "review": [
+      "40455990",
+      "39827079",
+      "38621751",
+      "35179885",
+      "34767801",
+      "40195042",
+      "38360555",
+      "39964249",
+      "39271032",
+      "39947751",
+      "36350032",
+      "34129784",
+      "40550186",
+      "38773325",
+      "40172489",
+      "36279601",
+      "37464880",
+      "34772786",
+      "39178343",
+      "36164646"
+    ],
+    "pmc": [
+      "12167954"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2424135122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40455990/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

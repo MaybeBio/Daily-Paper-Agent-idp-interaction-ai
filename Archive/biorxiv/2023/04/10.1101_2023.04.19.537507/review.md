@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full manuscript, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors present VoroIF-GNN, a single-model method for assessing inter-subunit interfaces in protein-protein complexes. The method derives interface contacts from Voronoi tessellation of atomic balls, constructs a contact graph, and uses an attention-based graph neural network to predict per-contact accuracy, which is then summarized into interface-level scores. The method was blindly tested in CASP15 and showed strong performance in selecting the best multimeric model among many. The implementation is freely available.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or code repository contents
+- **Missing materials affecting confidence** Full manuscript, CASP15 performance data, benchmark definitions, model architecture details, training and validation procedures, and code documentation
+
+## Reviewer
+- **Overall assessment** The abstract describes a conceptually interesting approach that combines Voronoi tessellation with graph neural networks for protein-protein interface assessment. The CASP15 blind test is a notable strength, as it provides an external validation context. However, the abstract lacks quantitative evidence, methodological detail, and comparison to existing methods, making it impossible to evaluate the technical soundness or the strength of the claimed performance from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists and computational biologists working on protein complex modeling, particularly those involved in community-wide assessments such as CASP and CAPRI. Developers of scoring functions and machine learning methods for protein structure prediction would also find the approach relevant, as it addresses the practical problem of model selection in multimeric structure prediction.
+- **Major strengths** The use of a blind CASP15 test is a strong validation strategy, as it provides an unbiased assessment of the method's generalizability. The Voronoi tessellation approach for defining interface contacts is physically motivated and may offer advantages over distance-based contact definitions. The availability of the implementation is a practical strength that facilitates reproducibility and adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method "showed strong performance in selecting the best multimeric model out of many" during CASP15.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative metrics, such as ranking accuracy, correlation coefficients, or comparison to other methods, to support the claim of strong performance. Without specific numbers or statistical significance, the claim is unverifiable.
+  - **Why it matters** The central value proposition of the method is its ability to select accurate models. Without quantitative evidence, readers cannot assess whether the performance is genuinely competitive or merely anecdotal.
+  - **Resolution test** Provide specific CASP15 results, including the number of targets, the metric used for model selection (e.g., fraction of targets where the best model was ranked first), and a comparison to at least one baseline or competing method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method predicts "accuracy of every contact" using an attention-based graph neural network.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how contact accuracy is defined, what ground truth labels are used for training, or how the model is trained and validated. Without this information, the predictive task is ambiguous and the model's reliability cannot be assessed.
+  - **Why it matters** The definition of contact accuracy and the training data are fundamental to the method's validity. If the ground truth is poorly defined or the training set is biased, the predictions may not generalize to diverse complexes.
+  - **Resolution test** Clearly define the contact accuracy metric, describe the training data (e.g., native structures from a specific database), and report validation results on a held-out set.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The method is "novel" as a single-model approach for interface assessment.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not compare VoroIF-GNN to existing single-model scoring methods, such as Rosetta, FoldX, or other machine learning-based approaches. Without a comparative analysis, the novelty and added value of the method are unclear.
+  - **Why it matters** The field of protein complex scoring is crowded, and a new method must demonstrate advantages over existing tools to justify its use. The absence of comparison weakens the case for scientific importance.
+  - **Resolution test** Include a benchmark comparison against at least two established scoring methods on the same CASP15 targets or a standard dataset.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "Voronoi tessellation of atomic balls" may be unclear to readers unfamiliar with computational geometry. The abstract does not explain why this approach is advantageous over simpler distance-based contact definitions.
+  - **Required correction** Add a brief explanation of the Voronoi tessellation concept and its potential benefit for interface definition, or provide a reference for readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** URL provided in abstract
+  - **Issue** The abstract states the implementation is freely available, but the URL points to a general Voronota page rather than a dedicated VoroIF-GNN page. It is unclear whether the specific method is documented and usable.
+  - **Required correction** Provide a direct link to the VoroIF-GNN documentation and usage instructions, or clarify how to access the method within the provided resource.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Interface-level score aggregation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that contact-level predictions are "summarized" to produce interface-level scores, but the aggregation method is not specified. Different aggregation strategies (e.g., mean, minimum, weighted) could yield different results.
+  - **Required correction** Describe the aggregation function and justify its choice, or refer to the full manuscript for details.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient quantitative or methodological evidence to support the core claims of strong performance and valid contact accuracy prediction. R1-M3 is non-blocking but important for establishing novelty.
+- **Assessment against Nature-style criteria** Originality: The combination of Voronoi tessellation with graph neural networks for interface assessment appears novel, but the abstract does not demonstrate how it differs from existing approaches. Scientific importance: The problem of model selection in protein complex prediction is important, but the abstract does not provide evidence of broad impact or superiority over existing methods. Interdisciplinary readership: The method is relevant to structural biology and machine learning communities, but the abstract is too brief to engage nonspecialists. Technical soundness: Not assessable from the abstract due to missing details on training, validation, and performance metrics. Readability for nonspecialists: The abstract is concise but uses technical jargon without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising idea and a credible validation context, but the lack of quantitative results and methodological detail prevents a positive assessment. The authors should provide the full manuscript with detailed results and comparisons before the case can be established.
+
+## Risk / unsupported claims
+- The claim of "strong performance" in CASP15 is unsupported by any quantitative data in the abstract.
+- The claim of "novel" is unsupported without a comparative analysis to existing methods.
+- The accuracy of contact-level predictions is not assessable without a definition of the prediction task and training data.
+- The generalizability of the method to diverse protein complexes is not assessable from the abstract alone.

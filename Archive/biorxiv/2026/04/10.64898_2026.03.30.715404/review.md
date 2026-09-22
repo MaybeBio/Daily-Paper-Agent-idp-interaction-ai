@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors report 10 µs of atomistic molecular dynamics simulations of a phase-separated condensate formed by the foci-forming region (FFR) of MUT-16, a scaffold protein of Mutator foci germ granules in *Caenorhabditis elegans*. They find that most inter-residue contacts are short-lived (median lifetime 9.8 ns), with a smaller fraction persisting beyond 100 ns. They characterize contributions of specific interaction types (hydrogen bonding, cation–π, π–π stacking, salt bridges) and the roles of water and ions, identifying salt bridges, cation–π interactions, Na⁺ ions, and water as key determinants of contact dynamics. They also report UCST phase behavior of MUT-16 FFR condensates in vitro, linking this to in vivo observations of Mutator foci loss at elevated temperatures.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information provided
+- **Missing materials affecting confidence** Full manuscript, simulation details (force field, system size, equilibration protocol), analysis methods for contact lifetimes, experimental phase diagram data, statistical error estimates, and comparison with experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable atomistic view of contact dynamics in a biologically relevant condensate system, with a clear link to in vivo temperature-dependent behavior. However, the evidence base available for this review is limited to the abstract, which precludes verification of the methodological rigor, statistical robustness, and experimental support for the central claims. The scientific premise is sound and the system is well chosen, but several claims require additional detail and validation before the case can be considered established.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, intrinsically disordered proteins, and molecular dynamics simulation of biological systems. The work also has relevance for those studying germ granule biology and transposon silencing in *C. elegans*. The combination of simulation and in vitro phase behavior data may interest experimentalists seeking molecular-level explanations for condensate properties.
+- **Major strengths** The study addresses a timely and important question about the molecular determinants of condensate dynamics at atomistic resolution. The choice of MUT-16 FFR is biologically motivated and the system is tractable for simulation. The reported timescale (10 µs total) is substantial for atomistic simulations of a condensate. The link between simulation findings and in vitro UCST behavior, as well as in vivo temperature-dependent phenotypes, provides a coherent multiscale narrative.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "most contacts are short lived, typically breaking within a few nanoseconds, with a median life time of 9.8 ns" and that "a smaller fraction persist for much longer timescales (> 100 ns)."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports a single median lifetime value and a qualitative statement about long-lived contacts, but no information is provided on how contact lifetimes were defined, how convergence was assessed, or what statistical uncertainty accompanies these values. Contact lifetime distributions in condensates are known to be sensitive to the definition of a "contact" (e.g., distance cutoff, atom selection, and whether contacts are defined between heavy atoms or residue pairs). Without these details, the reported median lifetime cannot be evaluated for robustness.
+  - **Why it matters** The central quantitative claim of the paper rests on this lifetime analysis. If the definition or analysis is not rigorous, the primary conclusion about contact dynamics is undermined. Moreover, the claim that a "smaller fraction" persists beyond 100 ns requires a quantitative fraction and an assessment of whether this is statistically significant given the simulation length.
+  - **Resolution test** Provide a precise definition of contacts, the distribution of lifetimes (e.g., survival probability curves), the fraction of contacts exceeding 100 ns, and error estimates (e.g., block averaging or replicate simulations). Demonstrate that the median lifetime is converged with respect to simulation length.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "salt bridges, cation-π interactions, Na⁺ ions, and water in the condensate are key determinants of contact dynamics."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how "key determinants" was established. No information is provided on whether this conclusion derives from correlation analyses, perturbation studies (e.g., removing specific interactions or ions), or comparative simulations. The relative contributions of different interaction types are stated to have been "characterized," but no quantitative results are given. The role of Na⁺ ions is mentioned as "ion-mediated bridging between similarly charged residues," but the magnitude of this effect and its dependence on ion concentration are not described.
+  - **Why it matters** Identifying key determinants is a central claim of the paper. Without a clear description of the analytical approach and quantitative support, the claim cannot be assessed. The involvement of ions and water in modulating condensate dynamics is a nuanced topic, and the abstract's assertion requires more than qualitative support.
+  - **Resolution test** Provide a clear description of the analysis used to identify key determinants (e.g., correlation with contact lifetimes, perturbation simulations, or free energy calculations). Report quantitative measures of the contribution of each interaction type and ion/water effect, with appropriate statistical tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance and experimental support
+  - **Claim pointer** The authors claim that "these condensates exhibit upper-critical solution temperature (UCST) phase behavior in vitro , providing a coherent framework to explain both the loss of Mutator foci at elevated temperatures in vivo and the scaffolding role of MUT-16 at lower temperatures."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that UCST behavior was observed in vitro but provides no experimental details, such as the protein construct used, concentration range, temperature range, or method of phase boundary determination. The connection to in vivo observations is presented as a "coherent framework," but no direct evidence is provided that the in vitro UCST behavior quantitatively matches the in vivo temperature dependence of Mutator foci. The scaffolding role of MUT-16 at lower temperatures is asserted without specific mechanistic support from the simulations.
+  - **Why it matters** The link between simulation, in vitro experiments, and in vivo phenotypes is a major strength of the study if properly supported. However, without experimental details and a quantitative comparison, the claim of coherence remains speculative. The scaffolding role of MUT-16 is a biological claim that requires more than the observation of UCST behavior.
+  - **Resolution test** Provide the in vitro phase diagram with error bars, specify the protein construct and buffer conditions, and show a quantitative comparison between the in vitro transition temperature and the in vivo temperature at which Mutator foci are lost. Clarify how the simulation results specifically support the scaffolding role.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses technical terms such as "cation–π interactions," "π–π stacking," and "upper-critical solution temperature" without brief definitions or context. While these terms are standard in the field, the abstract may be challenging for readers outside the biophysics community.
+  - **Required correction** Add brief parenthetical explanations for these terms or rephrase to make the abstract more accessible to a broad readership.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation timescale claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "a total of 10 µs of atomistic molecular dynamics simulations" but does not specify how this total is distributed across replicates or whether it represents a single trajectory or multiple independent simulations. This affects the interpretation of statistical robustness.
+  - **Required correction** Specify the number of independent simulations and the length of each, or clarify if this is a single trajectory.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalizability claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract focuses on MUT-16 FFR but does not discuss whether the findings are expected to generalize to other condensate-forming proteins. The title and abstract imply broader relevance, but no comparative context is provided.
+  - **Required correction** Add a sentence in the abstract or discussion addressing the potential generalizability of the findings to other IDR-containing condensates.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (contact lifetime definition and statistical robustness), R1-M2 (methodology for identifying key determinants), R1-M3 (experimental support for UCST and in vivo link)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work appears original in its atomistic-scale analysis of contact dynamics in a specific condensate system with a direct link to in vivo temperature-dependent behavior. However, the abstract does not clearly differentiate the findings from prior simulation studies of condensates, and the novelty of the specific conclusions is not fully evident.
+  - **Scientific importance** The system is biologically relevant, and the link between molecular interactions and phase behavior is of broad interest. However, the importance of the specific findings for understanding condensate biology or for guiding future experiments is not fully articulated in the abstract.
+  - **Interdisciplinary readership** The topic bridges biophysics, cell biology, and computational biology, and the findings could appeal to a broad audience. However, the abstract's technical density may limit accessibility.
+  - **Technical soundness** The technical soundness cannot be fully assessed from the abstract alone. The reported simulation timescale is substantial, but the lack of methodological detail for the lifetime analysis and the identification of key determinants is a significant concern.
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses field-specific jargon without explanation. The logical flow from simulation to in vitro to in vivo is coherent, but the abstract could be more accessible with brief definitions.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising study with a strong biological motivation and a plausible multiscale narrative, but the lack of methodological detail and quantitative support for the central claims prevents a positive recommendation. The authors should provide the full manuscript with detailed methods, statistical analyses, and experimental validation to address the concerns raised.
+
+## Risk / unsupported claims
+- The claim that "most contacts are short lived, typically breaking within a few nanoseconds, with a median life time of 9.8 ns" is unsupported without a definition of contacts and statistical error estimates.
+- The claim that "salt bridges, cation-π interactions, Na⁺ ions, and water in the condensate are key determinants of contact dynamics" is unsupported without a description of the analytical approach and quantitative results.
+- The claim that the condensates "exhibit upper-critical solution temperature (UCST) phase behavior in vitro" is unsupported without experimental details and a phase diagram.
+- The claim that the findings provide "a coherent framework to explain both the loss of Mutator foci at elevated temperatures in vivo and the scaffolding role of MUT-16 at lower temperatures" is not verifiable from the abstract alone and requires quantitative comparison between in vitro and in vivo data.

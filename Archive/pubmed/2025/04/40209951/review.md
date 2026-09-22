@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, conclusion, methods, and data availability statement
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to presented evidence, and clarity of presentation
+- **Shared manuscript claim summary** The authors use replica exchange with hybrid tempering (REHT) simulations to generate a conformational ensemble of the RGG-rich low-complexity domain of hnRNPA1, cluster it into 50 representative conformers, dock these against seven telomeric DNA and RNA G-quadruplex (GQ) structures, and simulate the resulting complexes to characterize binding modes and GQ perturbation mechanisms. They report that RGG preferentially binds GQ grooves and loops, that turn-like structures expose Phe for stacking with G-quartets, that Tyr and Asn form hydrogen bonds and electrostatic interactions, and that a minor population of RGG-GQ complexes shows GQ destabilization consistent with enhanced unfolding by the UP1-RGG construct.
+- **Visible evidence base** Abstract, full results and discussion, conclusion, methods section, figure legends for Figures 1-8, Table 1, and references to supporting information figures and tables
+- **Missing materials affecting confidence** Supporting information files (Figures S1-S5, Tables S1-S2, Annexure 1) are referenced but not provided; experimental NMR data (BMRB entry 50017) is cited but not directly compared in detail; no experimental binding affinity data is presented in the manuscript text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study of the hnRNPA1 RGG domain and its interactions with telomeric G-quadruplexes. The work combines advanced sampling techniques with docking and molecular dynamics simulations to generate structural models of RGG-GQ complexes. The study addresses a biologically relevant question regarding how an intrinsically disordered region recognizes G-quadruplex structures. However, the manuscript has several significant issues that need to be addressed. The central claims regarding binding mode preferences and GQ perturbation mechanisms are based on computational predictions that lack direct experimental validation within the manuscript. The comparison with experimental NMR data is presented qualitatively rather than quantitatively. The statistical robustness of the clustering and complex analysis is not fully established. The biological significance of the proposed perturbation mechanism is discussed in a somewhat speculative manner. The manuscript would benefit from clearer presentation of the validation metrics and a more critical assessment of the limitations of the computational approach.
+- **Who would be interested in the results, and why** Researchers studying hnRNPA1 function, telomere biology, G-quadruplex structure and recognition, intrinsically disordered proteins, and computational methods for IDP conformational sampling would find this work relevant. The methodological approach for generating IDP-nucleic acid complex structures could be of interest to the computational biophysics community. The proposed mechanism of RGG-mediated GQ perturbation may inform experimental studies of telomere maintenance and RNA metabolism.
+- **Major strengths** The use of an advanced sampling technique (REHT) to generate a conformational ensemble of an IDP is methodologically sound and represents a technically challenging undertaking. The integration of multiple computational approaches (ensemble generation, clustering, docking, MD simulation) provides a comprehensive framework for studying IDP-nucleic acid interactions. The comparison with experimental chemical shift data, while qualitative, demonstrates an attempt to validate the computational ensemble. The study addresses an important biological question about how disordered regions achieve functional specificity in nucleic acid recognition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "RGG-box preferentially binds to the grooves and loops of GQs providing specificity towards certain GQ structures with its sequence and secondary structures" and that binding modes differ between RNA (end stacking) and DNA (groove binding) GQs.
+  - **Evidence pointer** Figures 3-4, Figure S3-S4, Tables S1-S2 (supporting information not provided)
+  - **Concern** The central claim regarding differential binding modes between RNA and DNA GQs is based on HADDOCK docking scores and short (50 ns) MD simulations. The manuscript does not provide quantitative metrics for assessing the statistical significance of the observed binding mode preferences. The HADDOCK scores are presented as ranges without error estimates or statistical analysis. The occupancy maps in Figures 3-4 are qualitative visual representations. The supporting information tables listing intermolecular interactions are referenced but not provided, making it impossible to evaluate the residue-level contributions that form the basis of several key claims. The 50 ns simulation time may be insufficient to capture equilibrium binding behavior, particularly for a disordered protein that may sample multiple binding modes.
+  - **Why it matters** The differential binding mode claim is a central finding of the paper and is used to explain specificity of hnRNPA1 toward different GQ structures. If this claim is not robustly supported by statistical analysis and sufficient sampling, the mechanistic conclusions drawn from it are not reliable.
+  - **Resolution test** Provide quantitative analysis of binding mode distributions across the 50 complexes per GQ, including statistical measures of preference. Include error bars or confidence intervals for HADDOCK scores. Show convergence of binding mode populations over simulation time. Provide the supporting information tables for direct evaluation of residue-level interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation adequacy
+  - **Claim pointer** The authors claim that "consistency with experimentally reported structural data suggest faithful recapitulation of local interactions" and that the generated ensemble matches experimental chemical shift data.
+  - **Evidence pointer** Figure 1C-E, Figure 1G, BMRB entry 50017
+  - **Concern** The comparison between calculated and experimental chemical shifts is presented only qualitatively through visual inspection of plots. No quantitative agreement metrics (such as RMSD, correlation coefficients, or Q-factor) are provided. The manuscript acknowledges ambiguity in secondary structure prediction from chemical shifts for IDPs but does not adequately address how this ambiguity affects the validation claim. The SSP analysis shows different results depending on which nuclei are used, and the authors do not clearly explain how they resolved these discrepancies. The claim of "faithful recapitulation" is therefore not quantitatively supported.
+  - **Why it matters** The validity of the entire conformational ensemble, and all subsequent docking and simulation results, depends on demonstrating that the ensemble accurately represents the experimentally accessible conformational space of the RGG domain. Without quantitative validation metrics, the foundation of the study is not firmly established.
+  - **Resolution test** Provide quantitative comparison metrics between calculated and experimental chemical shifts, such as per-residue RMSD values, correlation coefficients, or Q-factors. Clearly state which nuclei were used for validation and how discrepancies between different nuclei were resolved. If possible, compare ensemble-averaged properties with experimental observables beyond chemical shifts.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim support
+  - **Claim pointer** The authors claim that "a minor population of the RGG-box can perturb telomeric GQs structure, which likely expedites the unfolding activities of hnRNPA1-UP1 at the telomeric end" and propose specific mechanisms involving Phe stacking and Asn-mediated hydrogen bonding.
+  - **Evidence pointer** Figures 7-8, Figure S5 (supporting information not provided)
+  - **Concern** The claim that RGG can perturb GQ structure is based on 8 out of 350 complexes showing reduced G-quartet hydrogen bonding. This represents approximately 2% of the simulated complexes. The manuscript does not provide a clear statistical framework for determining whether this frequency is biologically significant. The proposed mechanisms are derived from visual inspection of a small number of trajectories. The connection between the observed in silico perturbation and the experimentally measured enhancement of GQ unfolding by UP1-RGG is speculative. The authors do not provide a quantitative estimate of how the observed perturbation frequency would translate to enhanced unfolding kinetics. The arbitrary cutoff of 15 hydrogen bonds or fewer to define instability is not justified.
+  - **Why it matters** The proposed mechanism of RGG-mediated GQ perturbation is presented as a significant finding that explains experimental observations of enhanced unfolding. If the statistical basis for this claim is weak and the connection to experimental kinetics is not quantified, the mechanistic conclusion is not established.
+  - **Resolution test** Provide statistical analysis of the frequency of GQ perturbation events across all complexes, including confidence intervals. Justify the choice of hydrogen bond cutoff for defining instability. Provide a quantitative model connecting the observed perturbation frequency to enhanced unfolding kinetics. If possible, perform additional simulations with longer timescales or enhanced sampling to confirm the perturbation events.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors describe a protocol for generating functionally significant IDP-nucleic acid complex structures and claim it "corroborate[s] well with the experimental knowledge of their binding."
+  - **Evidence pointer** Methods section, Figure 2
+  - **Concern** The manuscript does not provide sufficient detail on several methodological aspects. The criteria for selecting the 50 representative conformers from the clustering are not fully described. The HADDOCK docking protocol uses only a center-of-mass distance restraint, which may not adequately capture the binding interface. The manuscript does not describe how the docking results were validated or whether multiple docking runs were performed to assess reproducibility. The force field combinations used (CHARMM36m for ensemble generation, a99SBdisp for complexes) are different, and the manuscript does not address potential inconsistencies arising from this choice. The equilibration protocol for the complex simulations is described only briefly.
+  - **Why it matters** The methodological choices could significantly affect the results. Without adequate detail, the reproducibility of the study is compromised, and the reliability of the conclusions cannot be fully assessed.
+  - **Resolution test** Provide detailed description of the clustering criteria and selection of representative conformers. Describe validation of docking results and assessment of reproducibility. Justify the use of different force fields for ensemble generation and complex simulation. Provide complete details of the equilibration and production simulation protocols.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that hnRNPA1 "mediates cellular processes such as RNA metabolism and DNA telomere maintenance" but does not provide context for why the RGG domain specifically is the focus of this study.
+  - **Required correction** Briefly state the known or hypothesized role of the RGG domain in these processes to provide context for the reader.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section, GQ perturbation analysis
+  - **Evidence pointer** Figure 7
+  - **Issue** The scatter plot in Figure 7 shows the relationship between intermolecular and intramolecular hydrogen bonds but does not include correlation coefficients or other statistical measures.
+  - **Required correction** Add correlation coefficients or other appropriate statistical measures to quantify the relationship shown in the scatter plot.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section, binding mode definitions
+  - **Evidence pointer** Figure 3, Figure 4
+  - **Issue** The definitions of "end stacking," "groove binding," and "loop binding" modes are not explicitly stated in the main text. The criteria for classifying a contact as one mode versus another are not described.
+  - **Required correction** Provide explicit definitions of the three binding modes and describe the criteria used to classify contacts in the methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Results and discussion, throughout
+  - **Issue** The manuscript does not include a dedicated discussion of the limitations of the computational approach, such as force field accuracy for IDPs, limited simulation timescales, and the approximations inherent in docking.
+  - **Required correction** Add a paragraph discussing the limitations of the computational methods and how these might affect the conclusions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Introduction and discussion
+  - **Evidence pointer** Results and discussion, first paragraph
+  - **Issue** The manuscript references experimental studies of hnRNPA1-GQ interactions but does not provide a comprehensive comparison of the computational predictions with all available experimental data.
+  - **Required correction** Expand the comparison with experimental findings, including binding affinities, mutational studies, and structural data where available.
+- **Technical failings that need to be addressed before the case is established** The quantitative validation of the conformational ensemble against experimental chemical shifts is missing. The statistical significance of binding mode preferences is not established. The frequency of GQ perturbation events is low and not statistically contextualized. The connection between computational predictions and experimental unfolding kinetics is not quantified. The supporting information containing key data (Tables S1-S2, Figure S5, Annexure 1) is not available for evaluation.
+- **Assessment against Nature-style criteria** Originality: The application of REHT to study RGG-GQ interactions is methodologically novel, though the biological question of how RGG domains recognize G-quadruplexes has been addressed in prior studies. Scientific importance: The work addresses a relevant question in telomere biology and IDP function, but the significance of the findings is limited by the lack of direct experimental validation. Interdisciplinary readership: The work bridges computational biophysics, nucleic acid chemistry, and cell biology, which could appeal to a broad audience. Technical soundness: The computational methods are sophisticated, but the validation and statistical analysis are insufficient to fully support the claims. Readability for nonspecialists: The manuscript is written in a technical style that assumes familiarity with computational methods and G-quadruplex biology, which may limit accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an interesting question with a sophisticated computational approach, but the central claims require stronger quantitative support and clearer connection to experimental data before the conclusions can be considered established.
+
+## Risk / unsupported claims
+- The claim that the generated ensemble "faithfully recapitulates" experimental structural data is not quantitatively supported due to the absence of agreement metrics for chemical shift comparisons.
+- The claim of preferential groove and loop binding of RGG to DNA GQs versus end stacking for RNA GQs is based on qualitative analysis without statistical significance testing.
+- The proposed mechanism of RGG-induced GQ perturbation leading to enhanced unfolding by UP1 is speculative and not quantitatively connected to experimental kinetics.
+- The claim that specific residues (Phe, Tyr, Asn) play essential roles in binding and perturbation is based on computational predictions without experimental mutagenesis validation.
+- The biological significance of the observed perturbation frequency (approximately 2% of complexes) is not established.
+- The modularity claim for the full-length LCD based on superposition of HSQC spectra from different constructs and different studies is presented without detailed analysis of the spectral comparison.

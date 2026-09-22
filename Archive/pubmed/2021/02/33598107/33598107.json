@@ -1,0 +1,430 @@
+{
+  "identity": {
+    "pmid": "33598107",
+    "doi": "10.1016/j.csbj.2021.01.026",
+    "title": "Structure-based peptide design targeting intrinsically disordered proteins: Novel histone H4 and H2A peptidic inhibitors."
+  },
+  "content": {
+    "abstract": "A growing body of research has demonstrated that targeting intrinsically disordered proteins (IDPs) and intrinsically disordered protein regions (IDPRs) is feasible and represents a new trending strategy in drug discovery. However, the number of inhibitors targeting IDPs/IDPRs is increasing slowly due to limitations of the methods that can be used to accelerate the discovery process. We have applied structure-based methods to successfully develop the first peptidic inhibitor (HIPe - Histone Inhibitory Peptide) that targets histone H4 that are released from NETs (Neutrophil Extracellular Traps). HIPe binds stably to the disordered N-terminal tail of histone H4, thereby preventing histone H4-induced cell death. Recently, by utilisation of the same state-of-the-art approaches, we have developed a novel peptidic inhibitor (CHIP - Cyclical Histone H2A Interference Peptide) that binds to NET-resident histone H2A, which results in a blockade of monocyte adhesion and consequently reduction in atheroprogression. Here, we present comprehensive details on the computational methods utilised to design and develop HIPe and CHIP. We have exploited protein-protein complexes as starting structures for rational peptide design and then applied binding free energy methods to predict and prioritise binding strength of the designed peptides with histone H4 and H2A. By doing this way, we have modelled only around 20 peptides and from these were able to select 4-5 peptides, from a total of more than a trillion candidate peptides, for functional characterisation in different experiments. The developed computational protocols are generic and can be widely used to design and develop novel inhibitors for other disordered proteins.",
+    "keywords": [
+      "ARDS, acute respiratory distress syndrome",
+      "BFE, binding free energy",
+      "BRCA-1, breast cancer type1 susceptibility protein",
+      "CCL5, chemokine ligand 5",
+      "CHIP, cyclical histone H2A interference peptide",
+      "Computer-aided molecular design (CAMD)",
+      "DC, decomposition",
+      "Disordered proteins",
+      "H2A, histone H2A",
+      "H2B, histone H2B",
+      "H3, histone H3",
+      "H4, histone H4",
+      "HIPe, histone inhibitory peptide",
+      "HNP1, human neutrophil peptide 1",
+      "Histones",
+      "IDPRs, intrinsically disordered protein regions",
+      "IDPs, intrinsically disordered proteins",
+      "MD, molecular dynamics",
+      "MM/GBSA, molecular mechanics/generalised born surface area",
+      "NETs, neutrophil extracellular traps",
+      "Neutrophil extracellular traps (NETs)",
+      "PDB, protein data bank",
+      "PPIs, protein-protein interactions",
+      "PTP1B, protein tyrosine phosphatase 1B",
+      "Peptides",
+      "Protein-protein interactions (PPIs)",
+      "SMCs, smooth muscle cells",
+      "aMD, accelerated molecular dynamics",
+      "p53, tumor protein 53"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wichapong, Kanin",
+        "Silvestre-Roig, Carlos",
+        "Braster, Quinte",
+        "Schumski, Ariane",
+        "Soehnlein, Oliver",
+        "Nicolaes, Gerry A F"
+      ],
+      "short_names": [
+        "Wichapong K",
+        "Silvestre-Roig C",
+        "Braster Q",
+        "Schumski A",
+        "Soehnlein O",
+        "Nicolaes GAF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Cardiovascular Research Institute Maastricht (CARIM), Maastricht University, Maastricht, the Netherlands.",
+        "Institute for Cardiovascular Prevention (IPEK), LMU Munich Hospital, Munich, Germany.",
+        "German Center for Cardiovascular Research (DZHK), Partner Site Munich Heart Alliance (MHA), Munich, Germany.",
+        "Institute for Cardiovascular Prevention (IPEK), LMU Munich Hospital, Munich, Germany.",
+        "German Center for Cardiovascular Research (DZHK), Partner Site Munich Heart Alliance (MHA), Munich, Germany.",
+        "Institute for Cardiovascular Prevention (IPEK), LMU Munich Hospital, Munich, Germany.",
+        "German Center for Cardiovascular Research (DZHK), Partner Site Munich Heart Alliance (MHA), Munich, Germany.",
+        "Institute for Cardiovascular Prevention (IPEK), LMU Munich Hospital, Munich, Germany.",
+        "German Center for Cardiovascular Research (DZHK), Partner Site Munich Heart Alliance (MHA), Munich, Germany.",
+        "Department of Physiology and Pharmacology (FyFa), Karolinska Institute, Stockholm, Sweden.",
+        "Department of Biochemistry, Cardiovascular Research Institute Maastricht (CARIM), Maastricht University, Maastricht, the Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wichapong, Kanin",
+        "short_name": "Wichapong K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Cardiovascular Research Institute Maastricht (CARIM), Maastricht University, Maastricht, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Silvestre-Roig, Carlos",
+        "short_name": "Silvestre-Roig C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cardiovascular Prevention (IPEK), LMU Munich Hospital, Munich, Germany.",
+          "German Center for Cardiovascular Research (DZHK), Partner Site Munich Heart Alliance (MHA), Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Braster, Quinte",
+        "short_name": "Braster Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cardiovascular Prevention (IPEK), LMU Munich Hospital, Munich, Germany.",
+          "German Center for Cardiovascular Research (DZHK), Partner Site Munich Heart Alliance (MHA), Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Schumski, Ariane",
+        "short_name": "Schumski A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cardiovascular Prevention (IPEK), LMU Munich Hospital, Munich, Germany.",
+          "German Center for Cardiovascular Research (DZHK), Partner Site Munich Heart Alliance (MHA), Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Soehnlein, Oliver",
+        "short_name": "Soehnlein O",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Cardiovascular Prevention (IPEK), LMU Munich Hospital, Munich, Germany.",
+          "German Center for Cardiovascular Research (DZHK), Partner Site Munich Heart Alliance (MHA), Munich, Germany.",
+          "Department of Physiology and Pharmacology (FyFa), Karolinska Institute, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Nicolaes, Gerry A F",
+        "short_name": "Nicolaes GAF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Cardiovascular Research Institute Maastricht (CARIM), Maastricht University, Maastricht, the Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/02/19 06:00",
+    "fetched_at": "2026-09-20 01:35:48"
+  },
+  "links": {
+    "cites": [
+      "42074305",
+      "40199998",
+      "40162077",
+      "40027444",
+      "39686847",
+      "38987470",
+      "38612791",
+      "38409704",
+      "38268724",
+      "38118365",
+      "37746050",
+      "37460146",
+      "37106997",
+      "36382685",
+      "35955827",
+      "35604110",
+      "35433833",
+      "35216161",
+      "35136534",
+      "34778628",
+      "34648022"
+    ],
+    "refs": [
+      "33167684",
+      "33054197",
+      "32946302",
+      "32597954",
+      "32329756",
+      "32192578",
+      "32080959",
+      "32035018",
+      "31141413",
+      "31043745",
+      "30979035",
+      "30651722",
+      "30278223",
+      "30082644",
+      "29321242",
+      "28992347",
+      "28865478",
+      "28824814",
+      "28776988",
+      "28542146",
+      "28381538",
+      "28259050",
+      "28226222",
+      "27906828",
+      "26936767",
+      "26931396",
+      "26871718",
+      "26676832",
+      "26659570",
+      "26631602",
+      "26410586",
+      "26232351",
+      "26086900",
+      "26073260",
+      "26052838",
+      "26003524",
+      "25531225",
+      "24845231",
+      "24551051",
+      "24490903",
+      "24264231",
+      "24010708",
+      "21700775",
+      "21514142",
+      "21390105",
+      "20712342",
+      "20513413",
+      "20075852",
+      "19855397",
+      "19357935",
+      "18573080",
+      "16218947",
+      "15943980",
+      "15738986",
+      "15268227",
+      "12418100",
+      "12022860",
+      "10592235"
+    ],
+    "similar": [
+      "33598107",
+      "3216389",
+      "14992573",
+      "963028",
+      "26871718",
+      "30865832",
+      "3816782",
+      "16331996",
+      "15823041",
+      "38097100",
+      "26549326",
+      "22807669",
+      "6515728",
+      "30966022",
+      "23485128",
+      "16887128",
+      "21812398",
+      "15039081",
+      "27618665",
+      "857880",
+      "21517079",
+      "36659983",
+      "25594579",
+      "26841755",
+      "34922214",
+      "2167318",
+      "12915400",
+      "3290217",
+      "6845438",
+      "8180162",
+      "861226",
+      "8485137",
+      "37990496",
+      "6314120",
+      "8858345",
+      "16109483",
+      "9115574",
+      "7104402",
+      "28322915",
+      "1004503",
+      "9750170",
+      "1692479",
+      "4079924",
+      "4052408",
+      "22559227",
+      "15606770",
+      "16319397",
+      "16627869",
+      "7397178",
+      "3058692",
+      "8121801",
+      "32747537",
+      "2274040",
+      "3620448",
+      "18675384",
+      "30521320",
+      "38865098",
+      "26416482",
+      "9367745",
+      "2100522",
+      "33122085",
+      "2036369",
+      "31850366",
+      "12421817",
+      "29982297",
+      "15807529",
+      "25713080",
+      "16426232",
+      "26884462",
+      "16855292",
+      "3935167",
+      "16351741",
+      "27181506",
+      "17381045",
+      "6614480",
+      "25207671",
+      "17574026",
+      "25905561",
+      "7248355",
+      "914793",
+      "33624669",
+      "37633550",
+      "34164069",
+      "35298813",
+      "34586780",
+      "32308985",
+      "34778628",
+      "36209362",
+      "35421114",
+      "34179102",
+      "35962177",
+      "33088663",
+      "36969402",
+      "35330096",
+      "34635120",
+      "33996914",
+      "32751200",
+      "24358859",
+      "35155572",
+      "37686057",
+      "35629783",
+      "34015053",
+      "33655266",
+      "31528692",
+      "39141804",
+      "39071356",
+      "38966365",
+      "20598937",
+      "37762134",
+      "39091799",
+      "24371575",
+      "34596856",
+      "33614705",
+      "39253058",
+      "38454968",
+      "30241614",
+      "35874612",
+      "34561243",
+      "37068197",
+      "35190643",
+      "34722638",
+      "35178671",
+      "38063974"
+    ],
+    "review": [
+      "33598107",
+      "38097100",
+      "26549326",
+      "36659983",
+      "34922214",
+      "22559227",
+      "18675384",
+      "29982297",
+      "36969402",
+      "33996914",
+      "35629783"
+    ],
+    "pmc": [
+      "7856395"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(21)00030-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33598107/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33598107",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-578",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33598107",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://scite.ai/reports/33598107",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

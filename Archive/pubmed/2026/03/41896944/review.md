@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (Introduction, Materials and Methods, Results and Discussion, Limitations) as provided, without supplementary figures or tables beyond those referenced in the text.
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and structural modeling as presented in the provided text. No assessment of supplementary files, raw data, or unpublished datasets.
+- **Shared manuscript claim summary** The authors propose that CDKN1A (p21) stabilizes cyclin D3 (CCND3) protein in butyrate-treated HCT116 cells by physically interacting with CCND3, likely through binding to its intrinsically disordered C-terminal region, thereby burying Thr283 and preventing phosphorylation-dependent nuclear export and degradation. This model is supported by co-immunoprecipitation experiments, proteomic identification of CDKN1A, CDK4, CDK6, and CDK5 as CCND3-associated proteins, and computational structural modeling with molecular dynamics simulations.
+- **Visible evidence base** Western blot analyses (Figs. 1–4, 7, 8), RT-qPCR data (Fig. 1d–e), flow cytometry (Fig. 5b), co-immunoprecipitation experiments (Figs. 7, 8), LC-MS proteomic data (Table 1), AlphaFold2 structural predictions and MD simulations (Figs. 9, 10), and CRISPR/Cas9 CCND3 C-terminal deletion mutant (Fig. S1, referenced).
+- **Missing materials affecting confidence** Supplementary figures (S1–S13), full proteomic datasets, raw MD trajectories, statistical analysis details for several figures, and complete experimental protocols for co-IP variants. These are referenced but not provided in the submitted text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially important question regarding the paradoxical stabilization of cyclin D3 during butyrate-induced cell cycle arrest. The combination of experimental biochemistry, proteomics, and computational modeling is ambitious and could provide novel mechanistic insight. However, several key claims are not fully supported by the data as presented. The evidence for CDKN1A-mediated stabilization of CCND3 is largely correlative, and the proposed structural mechanism, while plausible, lacks direct experimental validation. The manuscript would benefit from clearer quantification, additional controls, and a more cautious interpretation of the computational results. The writing is generally clear but contains some typographical and grammatical errors that should be corrected.
+- **Who would be interested in the results, and why** Researchers studying cell cycle regulation, particularly the roles of cyclin D proteins and CDK inhibitors in cancer biology. The work may also interest investigators focused on the molecular mechanisms of short-chain fatty acids like butyrate in colorectal cancer prevention, as well as those studying intrinsically disordered proteins and their roles in protein-protein interactions and phase separation. The structural modeling approach may appeal to computational biologists interested in cyclin-CDK complexes.
+- **Major strengths** 1) The study addresses a clinically relevant and mechanistically intriguing question about butyrate's effects on cell cycle proteins. 2) The combination of multiple experimental approaches (genetic knockout, pharmacological inhibition, co-IP, proteomics, and computational modeling) is comprehensive. 3) The identification of CDK5 as a potential CCND3-associated protein in butyrate-treated cells is novel and could open new research directions. 4) The authors acknowledge limitations and propose future experiments.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for causal claim
+  - **Claim pointer** "CDKN1A stabilizes CCND3 by protecting it from degradation, particularly during butyrate-induced cell-cycle arrest."
+  - **Evidence pointer** Figs. 2, 3, 7; location not provided
+  - **Concern** The central claim that CDKN1A stabilizes CCND3 is based on correlative observations: CDKN1A levels increase with butyrate treatment, CCND3 levels are reduced in CDKN1A-/- cells, and CDKN1A co-immunoprecipitates with CCND3. However, no direct experiment demonstrates that CDKN1A binding prevents CCND3 degradation. The authors do not show that CDKN1A overexpression alone (without butyrate) stabilizes CCND3, nor do they perform cycloheximide chase experiments comparing CCND3 half-life in the presence versus absence of CDKN1A under identical conditions. The half-life estimate of 6.1 h for CCND3 is derived from a single condition and lacks comparison to CDKN1A-/- cells.
+  - **Why it matters** Without direct evidence of a causal relationship between CDKN1A binding and CCND3 stability, the proposed mechanism remains speculative. The field requires demonstration that CDKN1A specifically alters CCND3 degradation kinetics, not just steady-state levels.
+  - **Resolution test** Perform cycloheximide chase experiments in parental versus CDKN1A-/- HCT116 cells, with and without butyrate treatment, to directly compare CCND3 degradation rates. Additionally, overexpress CDKN1A in CDKN1A-/- cells and assess whether CCND3 stability is restored.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural mechanism validation
+  - **Claim pointer** "CDKN1A binding induces conformational rearrangements in CCND3's intrinsically disordered C-terminal tail, burying Thr283 and preventing its phosphorylation."
+  - **Evidence pointer** Figs. 9, 10; location not provided
+  - **Concern** The structural model is derived entirely from AlphaFold2 predictions and MD simulations, with no experimental validation. The claim that Thr283 becomes buried upon CDKN1A binding is based on computational predictions of a complex that was assembled by superimposing individually predicted structures onto a crystal structure of a related complex. The MD simulations are short (300 ns) and may not sample the conformational space adequately for intrinsically disordered regions. No mutagenesis experiments are presented to test the predicted role of Thr283 or the RRL motif.
+  - **Why it matters** The proposed mechanism is a central novelty of the manuscript. Without experimental validation, the structural model remains a hypothesis. The authors themselves acknowledge that "experimental validation of this hypothesis is still required," which undermines the strength of the claim as presented.
+  - **Resolution test** Generate CCND3 mutants with Thr283 substituted (e.g., T283A, T283E) and test whether CDKN1A-mediated stabilization is affected. Similarly, mutate the RRL motif in CDKN1A and assess CCND3 binding and stability. Use hydrogen-deuterium exchange or crosslinking mass spectrometry to experimentally probe the CCND3-CDKN1A interface.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantification and statistical rigor
+  - **Claim pointer** "We observed significantly reduced CCND3 protein levels in CDKN1A-/- HCT116 cells following butyrate treatment" and "a strong positive correlation (Pearson coefficient r = 0.842; P < 0.001) between total phosphorylated CCND3 and recombinant CCND3-HA levels."
+  - **Evidence pointer** Figs. 3, 4; location not provided
+  - **Concern** The statistical analyses are incompletely described. For Figure 3, the text mentions a Kruskal-Wallis test with post hoc Holm correction, but the number of independent experiments, the exact sample sizes, and whether the data met assumptions for the tests are not stated. For Figure 4, the Pearson correlation is reported, but it is unclear whether the data points are independent biological replicates or technical replicates from the same western blots. The normalization procedure for western blot quantification is not fully described.
+  - **Why it matters** Reproducibility and statistical rigor are essential for the claims to be credible. Incomplete reporting of statistical methods prevents readers from assessing the robustness of the findings.
+  - **Resolution test** Provide complete statistical details, including exact n values, number of independent experiments, and a description of how normalization was performed. Consider presenting individual data points alongside summary statistics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** CDK5 interaction significance
+  - **Claim pointer** "CDK5 was uniquely detected in co-immunoprecipitates from butyrate-treated cells" and "a small fraction of CDK5 interacts with CCND3, either directly or indirectly, a process that seems partly mediated by CDKN1A."
+  - **Evidence pointer** Table 1, Fig. 8; location not provided
+  - **Concern** The CDK5 finding is presented as significant, but the functional relevance is unclear. The authors note that CDK5 levels do not change with butyrate treatment, and the interaction is only detected in one direction (CCND3 pull-down, not CDK5 pull-down). The failure to co-immunoprecipitate CCND3 with anti-CDK5 antibodies raises questions about the specificity or strength of the interaction. The authors do not provide functional experiments to assess the role of CDK5 in CCND3 stabilization or butyrate response.
+  - **Why it matters** The CDK5 interaction is presented as a novel finding, but without functional data, its significance is uncertain. The one-directional co-IP result could indicate a weak or transient interaction, or a technical artifact.
+  - **Resolution test** Perform reciprocal co-IPs with optimized conditions, use crosslinking to stabilize weak interactions, and conduct functional studies (e.g., CDK5 knockdown or inhibition) to assess effects on CCND3 stability and butyrate-induced cell cycle arrest.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and language
+  - **Affected element** Introduction, Results and Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript contains several typographical and grammatical errors, including "Morevover" (Introduction), "independant" (Fig. 2 legend), "essay" instead of "assay" (Results), and "Kruskal-Allis" instead of "Kruskal-Wallis" (Fig. 3 legend). These errors detract from the professional quality of the manuscript.
+  - **Required correction** Thorough proofreading and correction of all typographical and grammatical errors throughout the text and figure legends.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure presentation
+  - **Affected element** Fig. 1
+  - **Evidence pointer** Fig. 1; location not provided
+  - **Issue** The figure legend for Fig. 1 is confusing. The text refers to panels (a), (b), (c), (d), and (e), but the legend describes "a Representative western analysis; (b) quantitative analysis...; (c) Western analysis of phosphorylated cyclins D... d, e Dose response..." The description of panels (d) and (e) is incomplete, and the relationship between the sigmoidal fit mentioned in (c) and the panels is unclear.
+  - **Required correction** Clarify the figure legend to accurately describe each panel and the data presented in each.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methods completeness
+  - **Affected element** Materials and Methods, Co-IP section
+  - **Evidence pointer** Location not provided
+  - **Issue** The two co-IP protocols are described only as "detailed in the supplementary data." Given the importance of these experiments to the central claims, key details (lysis buffer composition, antibody amounts, wash conditions, elution method) should be summarized in the main text.
+  - **Required correction** Provide a brief summary of both co-IP protocols in the main text, with full details in the supplementary materials.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Proteomics data
+  - **Evidence pointer** Table 1; location not provided
+  - **Issue** The proteomics data are summarized in Table 1, but the full list of identified proteins, peptide counts, and statistical scores are not provided. The authors state that the R script and data are available at a repository link, but this is not a standard proteomics data repository.
+  - **Required correction** Deposit the raw proteomics data in a public repository (e.g., PRIDE, MassIVE) and provide the accession number. Include a supplementary table with all identified proteins and their scores.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of CDK5 in colorectal cancer is brief and does not fully contextualize the finding. The authors mention a role in promoting proliferation and invasion but do not discuss how the CCND3-CDKN1A-CDK5 interaction might relate to these functions.
+  - **Required correction** Expand the discussion of CDK5's potential role in the context of butyrate-induced cell cycle arrest and colorectal cancer biology.
+
+## Risk / unsupported claims
+- The claim that CDKN1A stabilizes CCND3 by physically protecting Thr283 from phosphorylation is not directly supported by experimental evidence; it is inferred from correlative data and computational modeling.
+- The statement that "CDKN1A binding induces conformational rearrangements in CCND3's intrinsically disordered C-terminal tail" is based solely on MD simulations and lacks experimental validation.
+- The claim that "a small fraction of CDK5 interacts with CCND3, either directly or indirectly, a process that seems partly mediated by CDKN1A" is weakly supported, as the interaction was not confirmed by reciprocal co-IP.
+- The assertion that "phase-separated condensates formed by CDKN1A could regulate cyclin-CDK complex localization, stability, and activity" is speculative and not tested experimentally.
+- The half-life estimate for CCND3 (6.1 h) is based on a single experimental condition and may not be generalizable.
+- The statement that "both native and recombinant CCND3 co-immunoprecipitated with CDKN1A existed as phosphorylated and unphosphorylated forms, though the unphosphorylated form predominated" is presented without quantitative data or statistical analysis.

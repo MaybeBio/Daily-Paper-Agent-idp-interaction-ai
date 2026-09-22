@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.05.515309",
+  "title": "Enrichment of charge-absent regions in phase separated proteins",
+  "authors": "Nicolaou ST; Verma CS; Warwicker J",
+  "journal": "bioRxiv",
+  "published_date": "2022-11-06",
+  "window": {
+    "start": "2022-10-31",
+    "end": "2022-11-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该文分析人类蛋白中缺乏带电残基的区域在相分离蛋白中的富集，提出其通过疏水同源互作促进凝聚，虽涉及IDR/相分离和互作机制假设，但方法为序列统计分析而非AI或物理模拟，故评6分。",
+  "abstract": "Many studies focus on the relationship between protein charge and liquid-liquid phase separation (LLPS), generally finding that a large degree of charge neutralisation is involved for condensate formation. Here, sequences within human proteins that lack the charge-bearing residues Asp, Glu, Lys, and Arg (termed charge-absent) are analysed alongside annotation for involvement in LLPS. Scaffold proteins, central to condensate formation, on average possess longer charge-absent regions than those not key for LLPS. Charge-absent regions tend to have relatively high hydropathy scores. Overall, they are enriched in Ala, Gly, Pro, and Ser with more specific groupings evident when the subset is clustered by amino acid composition. For several proteins, segments with charge-absent regions have been identified as modulators of LLPS. It is hypothesised that for at least some of the charge-absent regions, a lack of charged group desolvation energy, together with a relatively hydrophobic sequence composition, may facilitate condensation through homomeric interactions. If this is the case, it should be relatively easy to modulate through incorporation of charge through engineering, potentially including pH-sensing.",
+  "abstract_zh": "许多研究聚焦于蛋白质电荷与液-液相分离（liquid-liquid phase separation, LLPS）之间的关系，普遍发现凝聚体形成涉及较大程度的电荷中和。在此，我们分析了人类蛋白质中缺乏带电残基天冬氨酸（Asp）、谷氨酸（Glu）、赖氨酸（Lys）和精氨酸（Arg）的序列（称为电荷缺失序列），并结合其与LLPS相关的注释。支架蛋白作为凝聚体形成的核心，平均拥有比非LLPS关键蛋白更长的电荷缺失区域。电荷缺失区域倾向于具有相对较高的疏水性评分。总体而言，这些区域富含丙氨酸（Ala）、甘氨酸（Gly）、脯氨酸（Pro）和丝氨酸（Ser），当按氨基酸组成对子集进行聚类时，显示出更具体的分组模式。对于几种蛋白质，含有电荷缺失区域的片段已被识别为LLPS的调节因子。我们假设，至少对于某些电荷缺失区域，缺乏带电基团的去溶剂化能，加上相对疏水的序列组成，可能通过同聚相互作用促进凝聚。如果情况如此，通过工程手段引入电荷来调节这一过程应相对容易，可能包括pH感应机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.05.515309",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.05.515309",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.05.515309/index.html"
+}

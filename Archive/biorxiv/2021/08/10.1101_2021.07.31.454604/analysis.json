@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.07.31.454604",
+  "title": "Molecular Dynamics Simulation of a Model Brain Membrane with and without a 14-3-3 tau Protein",
+  "authors": "Jorge A. Arvayo-Zatarain; Fernando Favela-Rosales; Angel D. Reyes Figueroa; Pavel Castro-Villarreal; Claudio Contreras-Aburto",
+  "journal": "bioRxiv",
+  "published_date": "2021-08-01",
+  "window": {
+    "start": "2021-07-26",
+    "end": "2021-08-01"
+  },
+  "score": 4,
+  "one_liner_zh": "用粗粒化分子动力学模拟14-3-3 tau蛋白嵌入脑膜模型对膜结构动力学的影响，虽涉及tau蛋白但非IDR介导的PPI机制建模，方法为MD但对象与互作轴均弱。",
+  "abstract": "An unbalanced composition of lipids and proteins in brain membranes is related to the appearance neurodegenrative diseases and recent investigations show that the 14-3-3 tau protein might relate to some of these diseases. This article reports results from a coarse-grained model brain membrane with and without a 14-3-3 τ/θ protein inside the membrane. We investigated the symmetrized partial density, thickness, diffusion coefficients, and deuterium order parameters of the membrane with and without protein. We observe a slight increase in heads and linkers in the symmetrized partial density of the membrane with the protein inserted and higher values of the deuterium order parameters for the brain model membrane with protein. We observe a reduction in the diffusion coefficient of the fluid membrane in the presence of the transmembrane tau protein. Our findings show that the protein can modify the structural and dynamical properties of the membrane. This work will serve as a guide for future investigations on the interactions of tau proteins with brain membrane models and their relation to neurodegenerative diseases.",
+  "abstract_zh": "脑膜中脂质和蛋白质的不平衡组成与神经退行性疾病的发生相关，近期研究表明14-3-3 tau蛋白可能与其中一些疾病有关。本文报告了在有无14-3-3 τ/θ蛋白嵌入脑膜模型中的粗粒化模拟结果。我们研究了有无蛋白时膜的对称化部分密度、厚度、扩散系数和氘序参数。观察到嵌入蛋白的膜中，对称化部分密度的头部和连接区略有增加，且含蛋白的脑膜模型的氘序参数值更高。同时，跨膜tau蛋白的存在导致流体膜扩散系数降低。我们的发现表明，该蛋白能改变膜的结构和动态特性。这项工作将为未来研究tau蛋白与脑膜模型相互作用及其与神经退行性疾病关联提供指导。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.07.31.454604",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.07.31.454604",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.07.31.454604/index.html"
+}

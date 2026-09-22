@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, data availability)
+- **Assessment boundary** Scientific and technical evaluation of the proposed reinforcement learning approach for protein complex detection, including methodology, validation, and claims
+- **Shared manuscript claim summary** The authors propose a reinforcement learning framework for community detection in weighted protein-protein interaction networks, trained on known complexes to learn a value function over subgraph densities, and applied to hu.MAP 1.0 and hu.MAP 2.0 to predict protein complexes with competitive accuracy and improved computational efficiency
+- **Visible evidence base** Abstract, introduction, methods (partial), results and discussion, conclusions, data availability statements
+- **Missing materials affecting confidence** Full methods details (algorithm pseudocode, hyperparameters, training convergence criteria), all supplementary tables (Table S1-S3), detailed benchmark comparisons, statistical significance testing, and complete evaluation metrics
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting application of reinforcement learning to protein complex detection, addressing a genuine limitation in existing supervised methods that rely on heuristic search strategies. The core idea of learning value functions over network trajectories rather than static subgraph features is novel and potentially impactful. However, the current manuscript provides insufficient technical detail to fully evaluate the method, and several claims regarding accuracy, scalability, and biological findings require stronger evidence. The comparison with Super.Complex is limited to a single feature configuration, and the biological validations, while intriguing, are largely correlative without experimental confirmation.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein interaction networks, community detection algorithm developers, and researchers interested in applying reinforcement learning to graph-structured biological data. The method's scalability improvements and ability to suggest functions for uncharacterized proteins would also interest experimental biologists studying protein complexes, particularly those focused on the specific proteins highlighted (C4orf19, C18orf21, C15orf41, TMCO4).
+- **Major strengths** The formulation of community detection as a reinforcement learning problem is conceptually novel and addresses a real gap in existing supervised approaches. The single-agent design with supervised rewards avoids the training instability issues of multi-agent methods like MARL. The reported computational efficiency gains are substantial and practically relevant. The transfer learning demonstration across networks is a valuable contribution. The biological findings, particularly the structural modeling of the C15orf41-CDAN1-ASF1A-HIRA complex, provide concrete testable hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim the RL algorithm achieves "competitive accuracy" compared to Super.Complex, but the comparison is limited to a version of Super.Complex using only the density feature, which is not its default or optimal configuration
+  - **Evidence pointer** Results and discussion, Table 2; location not provided
+  - **Concern** The benchmark against Super.Complex is performed with Super.Complex restricted to a single feature (density), which the authors acknowledge is not the full-featured version. This does not constitute a fair comparison against the state-of-the-art method the authors position themselves against. The full Super.Complex uses multiple subgraph features and automated feature selection, and the comparison should be made against that configuration.
+  - **Why it matters** The central claim of "competitive accuracy" is the primary justification for the method's utility. Without a fair comparison against the full Super.Complex pipeline, the accuracy claim is not established, and readers cannot assess whether the computational speed advantage comes at a meaningful accuracy cost.
+  - **Resolution test** Provide benchmark results comparing the RL algorithm against Super.Complex with its full feature set and default hyperparameters, using identical training and test splits, and report all evaluation metrics (FMMF, CMMF, UnSPA, Qi F-score) with variance estimates across multiple runs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state the value function converges during training, but no convergence criteria, number of iterations, or quantitative convergence analysis is provided
+  - **Evidence pointer** Results and discussion, Figure 4; location not provided
+  - **Concern** Figure 4 is described as demonstrating convergence, but the manuscript does not specify the convergence criterion used, the number of training iterations, the number of training complexes used for convergence, or how sensitivity to initial conditions was assessed. Without this information, the convergence claim cannot be evaluated, and the choice of when to stop training is not reproducible.
+  - **Why it matters** The value function is the core learned component of the method. If convergence is not rigorously established, the reliability of all downstream predictions is questionable. Reproducibility requires explicit convergence criteria and training protocols.
+  - **Resolution test** Provide the convergence criterion, training curves with iteration counts, and a sensitivity analysis showing that the final value function is stable across different random seeds and initialization strategies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim the RL algorithm "predicts a higher number (1157) of complexes possibly resulting in a slightly higher (FMM) recall measure," but the relationship between complex count and recall is not explained, and the precision implications are not discussed
+  - **Evidence pointer** Results and discussion, Table 2; location not provided
+  - **Concern** Producing more predicted complexes trivially increases recall if the additional predictions include true complexes, but it should also decrease precision unless the additional predictions are all correct. The manuscript does not report precision separately, nor does it analyze whether the 1157 complexes represent genuine biological complexes or over-segmentation of larger complexes. The higher complex count could indicate fragmentation of true complexes into smaller pieces.
+  - **Why it matters** The balance between precision and recall is fundamental to evaluating any detection method. If the higher recall comes at the cost of substantially lower precision, the method may not be practically useful. Over-segmentation would produce misleading biological interpretations.
+  - **Resolution test** Report precision and recall separately, analyze the size distribution of predicted complexes versus known complexes, and provide a qualitative assessment of whether predicted complexes correspond to known biological complexes or represent fragments.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest functions for uncharacterized proteins (C4orf19, C18orf21, TMCO4, C15orf41) based on their membership in predicted complexes, but these assignments are not validated experimentally or through independent computational evidence
+  - **Evidence pointer** Results and discussion, Figures 7-9; location not provided
+  - **Concern** The biological findings are presented as significant outcomes, but the evidence is entirely computational. For C15orf41, the structural modeling provides supporting evidence, but for C4orf19, C18orf21, and TMCO4, the functional suggestions rest solely on co-complex membership. The authors do not assess whether these predictions are statistically significant beyond what would be expected by chance, nor do they compare against other complex prediction methods for these specific proteins.
+  - **Why it matters** Functional annotation of uncharacterized proteins is a valuable contribution, but unsupported claims can mislead the community. The authors should either temper their claims or provide additional evidence, such as co-expression analysis, domain architecture analysis, or comparison with other prediction methods.
+  - **Resolution test** Provide additional computational evidence supporting the functional assignments, or clearly frame these as hypotheses requiring experimental validation. Consider benchmarking the specific predictions against other complex detection methods.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim the RL algorithm scales better than Super.Complex based on time complexity analysis, but the empirical timing comparison is confounded by different hardware configurations
+  - **Evidence pointer** Results and discussion, Table 3; location not provided
+  - **Concern** The timing comparison reports Super.Complex running on 72 cores of a supercomputer versus the RL algorithm on 8 cores of a personal computer. While the authors note this difference, the comparison is still presented as evidence of improved efficiency. A fair comparison would require either running both methods on the same hardware or normalizing by core count and clock speed.
+  - **Why it matters** The scalability claim is a key advantage of the proposed method. If the comparison is confounded by hardware differences, the efficiency advantage may be overstated or even incorrect.
+  - **Resolution test** Run both methods on identical hardware with matched core counts, or provide a normalized comparison accounting for hardware differences. Report wall-clock time for training and prediction separately.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Methods section
+  - **Evidence pointer** Materials and methods, Reinforcement learning; location not provided
+  - **Issue** The methods section provides a high-level description of the RL formulation but lacks pseudocode for the training and prediction algorithms. Algorithm 1 is referenced but not included in the manuscript text.
+  - **Required correction** Include Algorithm 1 in the main text or supplement, and provide pseudocode for the training procedure as well.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Evaluation metrics
+  - **Evidence pointer** Results and discussion, Tables 1-2; location not provided
+  - **Issue** The manuscript reports FMMF, CMMF, and UnSPA scores but does not define these metrics or explain their interpretation. Readers unfamiliar with the Super.Complex evaluation framework cannot assess the reported values.
+  - **Required correction** Provide brief definitions of all evaluation metrics and explain what constitutes a good score for each.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Hyperparameters
+  - **Evidence pointer** Materials and methods; location not provided
+  - **Issue** The discount factor is stated as 0.5, but no other hyperparameters are reported, including the number of training iterations, the discretization scheme for densities, the reward values beyond the stated plus/minus 0.2, and the convergence threshold.
+  - **Required correction** Report all hyperparameters and training settings in a table or supplementary section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Biological validation
+  - **Evidence pointer** Results and discussion, Figure 9; location not provided
+  - **Concern** The structural modeling of the C15orf41-CDAN1-ASF1A-HIRA complex is presented as confirmatory evidence, but the modeling approach and quality metrics are not described in sufficient detail. The manuscript states the model is available for download but does not summarize the confidence scores or model quality.
+  - **Required correction** Provide a summary of the AlphaFold confidence metrics (pLDDT, PAE) and describe how the model was validated or assessed for reliability.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figures
+  - **Evidence pointer** Figures 1-9; location not provided
+  - **Issue** The figure captions are referenced in the text but the figures themselves are not included in the manuscript. The captions are not provided either, making it impossible to assess the figures.
+  - **Required correction** Include all figures with captions in the manuscript or supplement.
+
+## Risk / unsupported claims
+- The claim of "competitive accuracy" against Super.Complex is not established because the comparison uses a restricted version of Super.Complex with only the density feature
+- The convergence of the value function is asserted but not quantitatively demonstrated with convergence criteria or iteration counts
+- The functional predictions for C4orf19, C18orf21, and TMCO4 are presented as findings without statistical assessment of significance or comparison against alternative methods
+- The scalability advantage is claimed based on a hardware-confounded timing comparison
+- The transfer learning claim (value function from hu.MAP 1.0 applied to hu.MAP 2.0) is mentioned but the results are only in supplementary tables not provided for review
+- The claim that the method "does not require extensive hyperparameter tuning" is not supported by a systematic sensitivity analysis
+- The biological significance of the 1,157 predicted complexes is not assessed against known complex databases beyond the training set

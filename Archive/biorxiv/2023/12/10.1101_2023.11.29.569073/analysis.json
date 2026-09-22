@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.29.569073",
+  "title": "Subfamily C7 Raf-like kinases MRK1, RAF26, and RAF39 regulate immune homeostasis and stomatal opening in Arabidopsis thaliana",
+  "authors": "Dias MG; Doss B; Rawat A; Siegel KR; Mahathanthrige T; Sklenar J; Derbyshire P; Dharmasena T; Cameron E; Zipfel C; Menke FL; Monaghan J",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-01",
+  "window": {
+    "start": "2023-11-27",
+    "end": "2023-12-03"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究聚焦拟南芥C7 Raf样激酶在免疫和 stomatal 开放中的功能，属于植物激酶信号传导，不涉及无序蛋白、蛋白互作机制建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "<h4>Summary</h4> The calcium-dependent protein kinase CPK28 is a regulator of immune homeostasis in multiple plant species. Here, we used a proteomics approach to uncover CPK28-associated proteins. We found that CPK28 associates with subfamily C7 Raf-like kinases MRK1, RAF26, and RAF39, and trans-phosphorylates RAF26 and RAF39. Metazoan Raf kinases function in mitogen-activated protein kinase (MAPK) cascades as MAPK kinase kinases (MKKKs). Although Raf-like kinases share some features with MKKKs, we found that MRK1, RAF26, and RAF39 are unable to trans-phosphorylate any of the 10 Arabidopsis MKKs. We show that MRK1, RAF26, and RAF39 localize to the cytosol and endomembranes, and we define redundant roles for these kinases in stomatal opening, immune-triggered reactive oxygen species (ROS) production, and resistance to a bacterial pathogen. Overall, our study suggests that C7 Raf-like kinases associate with and are phosphorylated by CPK28, function redundantly in stomatal immunity, and possess substrate specificities distinct from canonical MKKKs.",
+  "abstract_zh": "<h4>摘要</h4> 钙依赖性蛋白激酶CPK28是多种植物物种中免疫稳态的调节因子。在此，我们采用蛋白质组学方法揭示了CPK28相关蛋白。我们发现CPK28与C7亚家族Raf样激酶MRK1、RAF26和RAF39相关联，并对其中的RAF26和RAF39进行反式磷酸化。后生动物Raf激酶在丝裂原活化蛋白激酶（MAPK）级联反应中作为MAPK激酶激酶（MKKKs）发挥作用。尽管Raf样激酶与MKKKs具有某些共同特征，但我们发现MRK1、RAF26和RAF39无法对10种拟南芥MKKs中的任何一种进行反式磷酸化。我们表明，MRK1、RAF26和RAF39定位于细胞质和内膜系统，并确定了这些激酶在气孔开放、免疫触发的活性氧（ROS）产生以及对细菌病原体的抗性中的冗余作用。总体而言，我们的研究表明，C7 Raf样激酶与CPK28相关联并被其磷酸化，在气孔免疫中发挥冗余功能，且具有与典型MKKKs不同的底物特异性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.29.569073",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.29.569073",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.29.569073/index.html"
+}

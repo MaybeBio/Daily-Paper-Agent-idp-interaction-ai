@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.11.647919",
+  "title": "Graph-Based Modeling of Alzheimer’s Protein Interactions via Spiking Neural, Hyperdimensional Encoding, and Scalable Ray-Based Learning",
+  "authors": "Saba Zare",
+  "journal": "bioRxiv",
+  "published_date": "2025-04-16",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究用图神经网络、脉冲神经网络和超维编码等AI方法预测阿尔茨海默病相关蛋白互作，但对象并非无序蛋白/相分离，且侧重预测而非互作机制建模，方法思路可部分迁移。",
+  "abstract": "This study introduces a novel computational framework for predicting protein-protein interactions (PPIs) in Alzheimer’s disease by integrating biologically inspired and graph-based learning paradigms. The pipeline combines genetic algorithm-driven feature selection, hyperdimensional encoding for robust semantic representation, and spiking neural networks to capture temporal dynamics. These representations are fused with graph neural network embeddings and processed via scalable nearest-neighbor inference. Unlike conventional models, this multi-view architecture enables biologically grounded prediction under data sparsity, offering interpretable insights into disease-relevant molecular interactions.",
+  "abstract_zh": "本研究提出了一种新型计算框架，通过整合生物启发与基于图的学习范式，用于预测阿尔茨海默病中的蛋白质-蛋白质相互作用（PPIs）。该流程结合了遗传算法驱动的特征选择、用于稳健语义表示的超维编码，以及尖峰神经网络以捕捉时间动态。这些表示与图神经网络嵌入融合，并通过可扩展的最近邻推理进行处理。与传统模型不同，这种多视角架构在数据稀疏条件下实现了基于生物学的预测，为疾病相关的分子相互作用提供了可解释的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.11.647919",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.11.647919",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.11.647919/index.html"
+}

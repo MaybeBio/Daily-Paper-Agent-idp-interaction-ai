@@ -1,0 +1,446 @@
+{
+  "identity": {
+    "pmid": "39639105",
+    "doi": "10.1038/s42003-024-07330-y",
+    "title": "Dynamic pre-structuration of lipid nanodomain-segregating remorin proteins."
+  },
+  "content": {
+    "abstract": "Remorins are multifunctional proteins, regulating immunity, development and symbiosis in plants. When associating to the membrane, remorins sequester specific lipids into functional membrane nanodomains. The multigenic protein family contains six groups, classified upon their protein-domain composition. Membrane targeting of remorins occurs independently from the secretory pathway. Instead, they are directed into different nanodomains depending on their phylogenetic group. All family members contain a C-terminal membrane anchor and a homo-oligomerization domain, flanked by an intrinsically disordered region of variable length at the N-terminal end. We here combined molecular imaging, NMR spectroscopy, protein structure calculations and advanced molecular dynamics simulation to unveil a stable pre-structuration of coiled-coil dimers as nanodomain-targeting units, containing a tunable fuzzy coat and a bar code-like positive surface charge before membrane association. Our data suggest that remorins fold in the cytosol with the N-terminal disordered region as a structural ensemble around a dimeric anti-parallel coiled-coil core containing a symmetric interface motif reminiscent of a hydrophobic Leucine zipper. The domain geometry, the charge distribution in the coiled-coil remorins and the differences in structures and dynamics between C-terminal lipid anchors of the remorin groups provide a selective platform for phospholipid binding when encountering the membrane surface.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Carrier Proteins/metabolism/chemistry/genetics",
+      "Arabidopsis Proteins/metabolism/chemistry/genetics",
+      "Protein Domains",
+      "Plant Proteins/metabolism/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Zeren",
+        "Schahl, Adrien",
+        "Jolivet, Marie-Dominique",
+        "Legrand, Anthony",
+        "Grelard, Axelle",
+        "Berbon, Melanie",
+        "Morvan, Estelle",
+        "Lagardere, Louis",
+        "Piquemal, Jean-Philip",
+        "Loquet, Antoine",
+        "Germain, Veronique",
+        "Chavent, Matthieu",
+        "Mongrand, Sebastien",
+        "Habenstein, Birgit"
+      ],
+      "short_names": [
+        "Xu Z",
+        "Schahl A",
+        "Jolivet MD",
+        "Legrand A",
+        "Grelard A",
+        "Berbon M",
+        "Morvan E",
+        "Lagardere L",
+        "Piquemal JP",
+        "Loquet A",
+        "Germain V",
+        "Chavent M",
+        "Mongrand S",
+        "Habenstein B"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-5034-1297",
+        "ORCID: 0000-0001-5839-7715",
+        "ORCID: 0000-0002-6708-2253",
+        "ORCID: 0000-0001-6615-9426",
+        "ORCID: 0000-0001-7176-7813",
+        "ORCID: 0000-0003-4524-4773",
+        "ORCID: 0000-0002-9198-015X",
+        "ORCID: 0000-0003-3723-9552"
+      ],
+      "affiliations": [
+        "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600, Pessac, France.",
+        "Institut de Pharmacologie et de Biologie Structurale, Universite de Toulouse, CNRS, Universite Paul Sabatier, 31400, Toulouse, France.",
+        "Sorbonne Universite, LCT, UMR7616 CNRS,75005Paris, France; Qubit Pharmaceuticals, Advanced Research Department, 75014, Paris, France.",
+        "Laboratoire de Biogenese Membranaire (LBM) UMR-5200, CNRS-Univ. Bordeaux, F-33140, Villenave d'Ornon, France.",
+        "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600, Pessac, France.",
+        "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600, Pessac, France.",
+        "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600, Pessac, France.",
+        "Univ. Bordeaux, CNRS, Inserm, IECB, UAR3033, US01, Pessac, France.",
+        "Sorbonne Universite, LCT, UMR7616 CNRS,75005Paris, France; Qubit Pharmaceuticals, Advanced Research Department, 75014, Paris, France.",
+        "Sorbonne Universite, LCT, UMR7616 CNRS,75005Paris, France; Qubit Pharmaceuticals, Advanced Research Department, 75014, Paris, France.",
+        "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600, Pessac, France.",
+        "Laboratoire de Biogenese Membranaire (LBM) UMR-5200, CNRS-Univ. Bordeaux, F-33140, Villenave d'Ornon, France.",
+        "Institut de Pharmacologie et de Biologie Structurale, Universite de Toulouse, CNRS, Universite Paul Sabatier, 31400, Toulouse, France. Matthieu.Chavent@ipbs.fr.",
+        "Laboratoire de Microbiologie et Genetique Moleculaires (LMGM), Centre de Biologie Integrative (CBI), Universite de Toulouse, CNRS, UPS, Toulouse, France. Matthieu.Chavent@ipbs.fr.",
+        "Laboratoire de Biogenese Membranaire (LBM) UMR-5200, CNRS-Univ. Bordeaux, F-33140, Villenave d'Ornon, France. sebastien.mongrand@u-bordeaux.fr.",
+        "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600, Pessac, France. b.habenstein@cbmn.u-bordeaux.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Zeren",
+        "short_name": "Xu Z",
+        "identifiers": [
+          "0009-0005-5034-1297"
+        ],
+        "affiliations": [
+          "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600, Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Schahl, Adrien",
+        "short_name": "Schahl A",
+        "identifiers": [
+          "0000-0001-5839-7715"
+        ],
+        "affiliations": [
+          "Institut de Pharmacologie et de Biologie Structurale, Université de Toulouse, CNRS, Université Paul Sabatier, 31400, Toulouse, France.",
+          "Sorbonne Université, LCT, UMR7616 CNRS,75005Paris, France; Qubit Pharmaceuticals, Advanced Research Department, 75014, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Jolivet, Marie-Dominique",
+        "short_name": "Jolivet MD",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Biogenèse Membranaire (LBM) UMR-5200, CNRS-Univ. Bordeaux, F-33140, Villenave d'Ornon, France."
+        ]
+      },
+      {
+        "full_name": "Legrand, Anthony",
+        "short_name": "Legrand A",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600, Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Grélard, Axelle",
+        "short_name": "Grélard A",
+        "identifiers": [
+          "0000-0002-6708-2253"
+        ],
+        "affiliations": [
+          "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600, Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Berbon, Mélanie",
+        "short_name": "Berbon M",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600, Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Morvan, Estelle",
+        "short_name": "Morvan E",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Bordeaux, CNRS, Inserm, IECB, UAR3033, US01, Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Lagardere, Louis",
+        "short_name": "Lagardere L",
+        "identifiers": [],
+        "affiliations": [
+          "Sorbonne Université, LCT, UMR7616 CNRS,75005Paris, France; Qubit Pharmaceuticals, Advanced Research Department, 75014, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Piquemal, Jean-Philip",
+        "short_name": "Piquemal JP",
+        "identifiers": [
+          "0000-0001-6615-9426"
+        ],
+        "affiliations": [
+          "Sorbonne Université, LCT, UMR7616 CNRS,75005Paris, France; Qubit Pharmaceuticals, Advanced Research Department, 75014, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Loquet, Antoine",
+        "short_name": "Loquet A",
+        "identifiers": [
+          "0000-0001-7176-7813"
+        ],
+        "affiliations": [
+          "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600, Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Germain, Véronique",
+        "short_name": "Germain V",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Biogenèse Membranaire (LBM) UMR-5200, CNRS-Univ. Bordeaux, F-33140, Villenave d'Ornon, France."
+        ]
+      },
+      {
+        "full_name": "Chavent, Matthieu",
+        "short_name": "Chavent M",
+        "identifiers": [
+          "0000-0003-4524-4773"
+        ],
+        "affiliations": [
+          "Institut de Pharmacologie et de Biologie Structurale, Université de Toulouse, CNRS, Université Paul Sabatier, 31400, Toulouse, France. Matthieu.Chavent@ipbs.fr.",
+          "Laboratoire de Microbiologie et Génétique Moléculaires (LMGM), Centre de Biologie Intégrative (CBI), Université de Toulouse, CNRS, UPS, Toulouse, France. Matthieu.Chavent@ipbs.fr."
+        ]
+      },
+      {
+        "full_name": "Mongrand, Sébastien",
+        "short_name": "Mongrand S",
+        "identifiers": [
+          "0000-0002-9198-015X"
+        ],
+        "affiliations": [
+          "Laboratoire de Biogenèse Membranaire (LBM) UMR-5200, CNRS-Univ. Bordeaux, F-33140, Villenave d'Ornon, France. sebastien.mongrand@u-bordeaux.fr."
+        ]
+      },
+      {
+        "full_name": "Habenstein, Birgit",
+        "short_name": "Habenstein B",
+        "identifiers": [
+          "0000-0003-3723-9552"
+        ],
+        "affiliations": [
+          "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600, Pessac, France. b.habenstein@cbmn.u-bordeaux.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2024 Dec 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/06 05:31",
+    "fetched_at": "2026-09-21 13:21:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38415598",
+      "38297118",
+      "37956700",
+      "37878721",
+      "37540220",
+      "37477459",
+      "36658193",
+      "36582138",
+      "36419248",
+      "35883541",
+      "35746795",
+      "35700726",
+      "35637307",
+      "35524560",
+      "34418423",
+      "34265844",
+      "34168762",
+      "34127723",
+      "34063660",
+      "33793872",
+      "33782130",
+      "33649211",
+      "33335475",
+      "32383755",
+      "32189162",
+      "32015543",
+      "31714766",
+      "31681795",
+      "31606894",
+      "31575745",
+      "31546133",
+      "31050904",
+      "30615063",
+      "30419072",
+      "30049874",
+      "29732110",
+      "29712849",
+      "29481850",
+      "28758890",
+      "28262094",
+      "27154457",
+      "26596171",
+      "26574453",
+      "26488642",
+      "25953851",
+      "25253885",
+      "24897938",
+      "24714763",
+      "24163642",
+      "23630285",
+      "23269837",
+      "23252521",
+      "23027878",
+      "22855937",
+      "21988835",
+      "21901122",
+      "19779834",
+      "19470590",
+      "17984200",
+      "16981200",
+      "16200636",
+      "15926816",
+      "15815974",
+      "15604702",
+      "15111413",
+      "13025480",
+      "13013241",
+      "11988576",
+      "11910028",
+      "9757107",
+      "8989883",
+      "8918191",
+      "2231712"
+    ],
+    "similar": [
+      "39639105",
+      "36582138",
+      "29481850",
+      "22292047",
+      "24897938",
+      "31681795",
+      "23027878",
+      "15604702",
+      "22855937",
+      "28758890",
+      "27082063",
+      "23299327",
+      "24316821",
+      "23942844",
+      "30419072",
+      "21347358",
+      "25039985",
+      "29712849",
+      "26975212",
+      "28280239",
+      "21138374",
+      "15084581",
+      "25725094",
+      "30819802",
+      "41906238",
+      "9755158",
+      "41267651",
+      "9125521",
+      "29996828",
+      "18552128",
+      "33793872",
+      "28808003",
+      "11384996",
+      "29227192",
+      "10982391",
+      "19060108",
+      "42107120",
+      "18704948",
+      "34273400",
+      "11915938",
+      "16734419",
+      "27590064",
+      "28336771",
+      "34031427",
+      "25289013",
+      "30948527",
+      "11554796",
+      "28137883",
+      "29229567",
+      "23805258",
+      "8205001",
+      "19826231",
+      "19119858",
+      "31575745",
+      "11439029",
+      "11706032",
+      "16882988",
+      "31311833",
+      "9188587",
+      "1781883",
+      "16095614",
+      "40048943",
+      "36745138",
+      "7577960",
+      "41141621",
+      "23912807",
+      "9201959",
+      "18487327",
+      "26735936",
+      "41301496",
+      "28973586",
+      "12052827",
+      "26969163",
+      "29339490",
+      "36658193",
+      "12611588",
+      "30944174",
+      "10652143",
+      "29444403",
+      "22639670",
+      "11739388",
+      "15226410",
+      "18491064",
+      "38480885",
+      "34808193",
+      "34726756",
+      "40944438",
+      "39548754",
+      "39066892",
+      "27524292",
+      "21606687",
+      "25412268",
+      "24333382",
+      "22046960",
+      "23760157",
+      "40897585",
+      "30612859",
+      "12646039",
+      "21182262",
+      "25592227"
+    ],
+    "review": [
+      "39639105",
+      "21138374",
+      "25725094",
+      "33793872",
+      "11915938",
+      "36745138",
+      "18491064"
+    ],
+    "pmc": [
+      "11621693"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-024-07330-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39639105/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

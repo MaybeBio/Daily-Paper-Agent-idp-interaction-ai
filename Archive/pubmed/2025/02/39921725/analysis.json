@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39921725",
+  "title": "Associations between cerebellum and major psychiatric disorders: a bidirectional Mendelian randomization study.",
+  "authors": "Zhang, Ruoyi; Zhou, Xiao; Yuan, Dongling; Lu, Qing; Chen, Xinyu; Zhang, Yi",
+  "journal": "European archives of psychiatry and clinical neuroscience",
+  "published_date": "2025-02-08",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用孟德尔随机化探讨小脑影像表型与精神疾病的遗传因果关联，对象为折叠脑区而非无序蛋白，无PPI机制建模，亦无AI/物理模拟方法，与本课题无关。",
+  "abstract": "Despite its small size the cerebellum is an anatomically complex and functionally important part of the brain. Previous studies have demonstrated associations between characteristic features/anatomic anomalies of cerebellum and psychiatric disorders. However, the potential causal relationships are unknown. In this study, a bidirectional two-sample Mendelian randomization approach was employed to investigate single nucleotide polymorphism (SNP) heritability and genetic causal associations between 77 imaging derived phenotypes (IDPs) of the cerebellum and major psychiatric disorder, including major depressive disorder (MDD), bipolar disorder (BD), schizophrenia (SCZ) and attention deficit hyperactivity disorder (ADHD). We identified thirty IDPs for which there was evidence of a causal effect on risk of MDD, BD, SCZ and ADHD. For example, 1 s.d. increase in the mean diffusivity (MD) of the left superior cerebellar peduncle was associated with 32% lower odds of BD risk. Reverse MR indicated that psychiatric disorders was associated with fourteen IDPs. For example, MDD were causally associated with three IDPs of gray matter volume (GMV) of right and left X cerebellum, and vermis crus II cerebellum. These results suggested that there were genetic causal associations between psychiatric disorders and certain cerebellum regions, such as the cognitive function of posterior cerebellar lobes and the connection of cerebellar to cerebrum. Further investigations need to enhance prediction and intervention strategies for potential psychiatric disorder risks.",
+  "abstract_zh": "尽管小脑体积不大，但它在解剖学上结构复杂，是大脑中功能重要的部分。先前的研究已表明小脑的特征性特征/解剖异常与精神疾病之间存在关联。然而，潜在的因果关系尚不清楚。本研究采用双向双样本孟德尔随机化方法，探讨了77个小脑影像衍生表型（IDPs）与主要精神疾病（包括重度抑郁症（MDD）、双相情感障碍（BD）、精神分裂症（SCZ）和注意力缺陷多动障碍（ADHD））之间的单核苷酸多态性（SNP）遗传力和遗传因果关联。我们识别出三十个IDPs，有证据表明它们对MDD、BD、SCZ和ADHD的风险存在因果效应。例如，左侧小脑上脚平均扩散率（MD）增加1个标准差与BD风险降低32%相关。反向孟德尔随机化表明，精神疾病与十四个IDPs相关。例如，MDD与左右小脑X区及蚓部Crus II小脑的灰质体积（GMV）三个IDPs存在因果关联。这些结果表明，精神疾病与特定小脑区域之间存在遗传因果关联，如小脑后叶的认知功能及小脑与大脑的连接。未来研究需加强针对潜在精神疾病风险的预测和干预策略。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39921725/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39921725/",
+  "paper_page_path": "papers/pubmed/39921725/index.html"
+}

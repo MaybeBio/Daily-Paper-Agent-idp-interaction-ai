@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors claim that Dsup, an intrinsically disordered and highly positively charged protein from tardigrades, binds to DNA in living mammalian cells, as demonstrated by MD simulations and FLIM-FRET. They further claim that Dsup expression in HEK293T cells and yeast enhances cell survival under hydrogen peroxide-induced oxidative stress, suggesting a protective role at the cellular level.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, statistical reporting, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely investigation of Dsup function, addressing a gap in the literature regarding in vivo DNA binding and organism-level effects. However, the claims are supported only by a high-level summary with no quantitative or methodological detail. The evidence base is insufficient to evaluate the technical soundness or robustness of the findings. The study's significance is plausible but not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in extremophile biology, DNA damage response, oxidative stress protection, and protein-DNA interactions would find these results relevant. The potential application of Dsup in enhancing stress resistance in heterologous systems may also interest synthetic biologists and those working on cellular protection strategies.
+- **Major strengths** The study addresses a clear gap by visualizing Dsup-DNA interactions in living cells, which has not been previously demonstrated. The use of complementary approaches (MD simulations and FLIM-FRET) is a methodological strength. The inclusion of both mammalian and yeast models broadens the potential generalizability of the protective effect.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Dsup binding to DNA in living mammalian cells" is claimed based on MD simulations and FLIM-FRET.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data, such as FRET efficiency values, binding affinities, or simulation parameters, to support the claim of DNA binding. Without these details, the reliability of the interaction measurement cannot be assessed.
+  - **Why it matters** The central novelty of the study rests on demonstrating Dsup-DNA binding in living cells. If the FLIM-FRET data are not rigorously controlled or analyzed, the primary claim may be overstated.
+  - **Resolution test** Provide FRET efficiency values with appropriate controls (e.g., negative and positive binding controls), statistical comparisons, and details of MD simulation setup and validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** "Dsup expression in both HEK293T cells and yeast enhanced cell survival in the presence of hydrogen peroxide" is claimed.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not report effect sizes, dose-response relationships, or statistical significance for the survival assays. It is unclear whether the observed enhancement is modest or substantial, and whether it is reproducible across biological replicates.
+  - **Why it matters** The protective effect is a key functional claim. Without quantitative evidence, the conclusion that Dsup allows cells to "better cope" with oxidative stress is not established.
+  - **Resolution test** Include survival curves, statistical tests (e.g., p-values, confidence intervals), and details on experimental replicates and controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of claim
+  - **Claim pointer** The abstract implies a general protective role of Dsup against oxidative stress, but the effect is only shown in two cell types under a single stress condition.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The generalization from HEK293T cells and yeast to a broader "stress resistance" claim is not fully supported. The abstract does not address potential cell-type-specific effects or other stress conditions.
+  - **Why it matters** Overgeneralization could mislead readers about the universality of Dsup's protective function, which is relevant for potential applications.
+  - **Resolution test** Limit conclusions to the tested systems or provide additional evidence across diverse cell types and stress conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "better cope with oxidative stress conditions" is vague and could be interpreted as a broad claim beyond the specific assay.
+  - **Required correction** Specify the exact outcome measured (e.g., cell viability, colony formation) and the concentration and exposure time of hydrogen peroxide.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methodological detail
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of biological or technical replicates, or whether experiments were blinded, which affects reproducibility assessment.
+  - **Required correction** State the number of independent experiments and replicates in the abstract or refer to detailed methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Literature comparison
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract notes prior conflicting results on Dsup's effects but does not explain how the current findings reconcile these discrepancies.
+  - **Required correction** Add a sentence addressing how the new data clarify or extend previous observations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of DNA binding and protective function lack quantitative and methodological support in the provided material. Without these, the study's conclusions are not verifiable.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the study addresses a novel question (in vivo DNA binding) and uses a combination of methods. Scientific importance is potentially significant for extremophile biology and stress resistance applications, but the current evidence is insufficient to confirm impact. Interdisciplinary readership is plausible, given the relevance to biophysics, cell biology, and synthetic biology. Technical soundness cannot be evaluated from the abstract alone. Readability for nonspecialists is adequate, but the abstract lacks sufficient detail for expert assessment.
+- **Recommendation posture** Currently not established from the provided evidence. The study is potentially valuable, but the abstract alone does not provide enough data to support the claims. A full manuscript with detailed methods and results is required for a fair evaluation.
+
+## Risk / unsupported claims
+- The claim of Dsup binding to DNA in living cells is unsupported without quantitative FLIM-FRET data and simulation details.
+- The claim of enhanced cell survival under oxidative stress is unsupported without survival data and statistical analysis.
+- The implication of a general protective role of Dsup is not supported by the limited experimental scope described.

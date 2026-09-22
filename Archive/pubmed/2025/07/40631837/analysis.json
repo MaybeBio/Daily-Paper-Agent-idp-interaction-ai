@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40631837",
+  "title": "Anomalous thermoresponsive phase behavior in a minimal lattice model mimicking proteins.",
+  "authors": "Roy, Siddhartha; Santra, Mantu; Singh, Rakesh S",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2025-07-09",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用最小晶格模型和蒙特卡洛模拟研究无序蛋白的异常热响应相分离行为，揭示再入式相图及二元蛋白混合物中的复杂凝聚体形态，虽非AI/深度学习，但物理模拟方法直接针对IDP相分离机制建模，对无序蛋白互作与凝聚体调控有重要启发。",
+  "abstract": "Proteins are known to phase separate and form biomolecular condensates that play key roles in cellular functions. Therefore, there is now a growing interest in understanding rational design principles for protein sequences that exhibit rich stimulus-responsive phase behavior. Here, we have developed a minimal lattice-gas model and employed Monte-Carlo simulations to capture rich thermoresponsive phase behavior often observed in computational and experimental studies on disordered proteins. Proteins are modeled as particles with two internal states: a ground state representing the native configuration and a degenerate excited state representing unfolded configurations. The computed phase diagrams reveal an anomalous reentrant phase separation behavior with both upper and lower critical solution temperatures, providing insights into its underlying mechanism. We also explored non-equilibrium effects, such as non-Boltzmann population distributions of native and unfolded states, and enhanced translational diffusion due to non-thermal noise on the phase separation. We find that these factors offer an additional dimension for modulating condensate morphologies. We further extended our model to study phase separation in binary protein mixtures and successfully reproduced complex phase-separated states, including wetted, partially wetted, segregative, and associative phases-observed in computational studies of these systems. This model can be easily extended to mimic proteins with multiple internal (say, partially folded) states, allowing exploration of conformation heterogeneity effects on condensate morphologies. Our findings offer important insights into designing solvent-mediated effective interactions between proteins for controlled phase separation, relevant for engineering functional condensates.",
+  "abstract_zh": "已知蛋白质会发生相分离 (phase separation) 并形成在细胞功能中起关键作用的生物分子凝聚体 (biomolecular condensates)。因此，人们日益关注理解具有丰富刺激响应性相行为 (stimulus-responsive phase behavior) 的蛋白质序列的理性设计原则。在此，我们开发了一个最小晶格气体模型 (lattice-gas model)，并采用蒙特卡洛模拟 (Monte-Carlo simulations) 来捕捉在无序蛋白质的计算和实验研究中常观察到的丰富热响应相行为。蛋白质被建模为具有两种内部状态的粒子：一种代表天然构象的基态，以及一种代表去折叠构象的简并激发态。计算得到的相图揭示了具有上临界溶液温度 (upper critical solution temperature) 和下临界溶液温度 (lower critical solution temperature) 的反常重入相分离行为，并提供了对其潜在机制的见解。我们还探索了非平衡效应，如天然态和去折叠态的非玻尔兹曼 (non-Boltzmann) 布居分布，以及由非热噪声引起的增强平移扩散对相分离的影响。我们发现这些因素为调节凝聚体形态提供了额外维度。我们进一步扩展了模型以研究二元蛋白质混合物中的相分离，并成功重现了复杂相分离状态，包括润湿 (wetted)、部分润湿 (partially wetted)、分离 (segregative) 和缔合 (associative) 相——这些在相关系统的计算研究中已观察到。该模型可轻松扩展以模拟具有多种内部状态（例如部分折叠状态）的蛋白质，从而允许探索构象异质性对凝聚体形态的影响。我们的发现为设计蛋白质间溶剂介导的有效相互作用以实现可控相分离提供了重要见解，这对于工程化功能性凝聚体具有重要意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40631837/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40631837/",
+  "paper_page_path": "papers/pubmed/40631837/index.html"
+}

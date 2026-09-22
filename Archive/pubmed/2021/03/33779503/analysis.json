@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33779503",
+  "title": "Understanding disorder-to-order transitions in protein-RNA complexes using molecular dynamics simulations.",
+  "authors": "Srivastava, Ambuj; Yesudhas, Dhanusha; Ahmad, Shandar; Gromiha, M Michael",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2021-03-30",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用分子动力学模拟研究10个蛋白-RNA复合物中无序区域结合RNA时的无序到有序转变，揭示IDR在界面和连接区的互作机制，虽对象为蛋白-RNA而非蛋白-蛋白，但机制建模思路对IDR介导的PPI研究有直接启发。",
+  "abstract": "Intrinsically disordered regions (IDRs) in proteins are characterized by their flexibilities and low complexity regions, which lack unique 3 D structures in solution. IDRs play a significant role in signaling, regulation, and binding multiple partners, including DNA, RNA, and proteins. Although various experiments have shown the role of disordered regions in binding with RNA, a detailed computational analysis is required to understand their binding and recognition mechanism. In this work, we performed molecular dynamics simulations of 10 protein-RNA complexes to understand the binding governed by intrinsically disordered regions. The simulation results show that most of the disordered regions are important for RNA-binding and have a transition from disordered-to-ordered conformation upon binding, which often contribute significantly towards the binding affinity. Interestingly, most of the disordered residues are present at the interface or located as a linker between two regions having similar movements. The DOT regions are overlaped or flanked with experimentally reported functionally important residues in the recognition of protein-RNA complexes. This study provides additional insights for understanding the role and recognition mechanism of disordered regions in protein-RNA complexes.Communicated by Ramaswamy H. Sarma.",
+  "abstract_zh": "蛋白质中的固有无序区域（IDRs）以其柔韧性和低复杂度区域为特征，在溶液中缺乏独特的三维结构。IDRs在信号传导、调控以及与多种伙伴（包括DNA、RNA和蛋白质）结合中发挥重要作用。尽管各种实验已表明无序区域在与RNA结合中的作用，但仍需详细的计算分析来理解其结合和识别机制。在本研究中，我们对10个蛋白质-RNA复合物进行了分子动力学模拟，以理解由固有无序区域主导的结合过程。模拟结果显示，大多数无序区域对RNA结合至关重要，并在结合时经历从无序到有序构象的转变，这通常对结合亲和力有显著贡献。有趣的是，大多数无序残基位于界面处，或作为连接两个具有相似运动区域的连接子。DOT区域与实验报道的功能重要残基在蛋白质-RNA复合物识别中重叠或侧翼相邻。本研究为理解无序区域在蛋白质-RNA复合物中的作用和识别机制提供了额外见解。由Ramaswamy H. Sarma通讯。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33779503/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33779503/",
+  "paper_page_path": "papers/pubmed/33779503/index.html"
+}

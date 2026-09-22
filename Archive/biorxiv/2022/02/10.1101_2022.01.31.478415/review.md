@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, supplementary figure references) as provided.
+- **Assessment boundary** Scientific content, methodological soundness, claim-evidence alignment, and presentation quality. No assessment of formatting, grammar, or editorial policy.
+- **Shared manuscript claim summary** The authors constructed coarse-grained (CG) and atomistic models of intact SARS-CoV-2 by integrating cryo-ET data, experimental structures, and Martini CG MD simulations. A 500-ns CG simulation equilibrated the virion, revealing dynamic membrane-embedded proteins, lipid binding preferences (PI, CHOL, PS), and diffusion coefficients for S and M proteins. The equilibrated CG model was converted to atomistic resolution for future all-atom simulations.
+- **Visible evidence base** Abstract; Sections 1-4 (Introduction, Results, Discussion, Materials and Methods); references to Figures 1-5, S1-S10, Tables S1; no raw data, simulation trajectories, or supplementary files were provided.
+- **Missing materials affecting confidence** Supplementary figures (S1-S10), Table S1, simulation parameter files, force field details, convergence metrics, error bars, and raw trajectory data were not available. These are critical for verifying quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious multiscale modeling effort to construct near-intact SARS-CoV-2 models. The workflow is logical and the integration of cryo-ET data with Martini CG simulations is commendable. However, the evidence provided is insufficient to fully support several key claims, particularly regarding lipid binding specificity, diffusion coefficient accuracy, and the utility of the atomistic models. The manuscript would benefit from more rigorous validation, quantitative comparisons, and clearer presentation of uncertainties.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying enveloped viruses, particularly those interested in coarse-grained simulations, protein-lipid interactions, and multiscale modeling. The models could serve as starting points for exascale all-atom simulations, appealing to researchers in high-performance computing and virology.
+- **Major strengths** 1. Novel integration of cryo-ET density maps with Martini CG simulations to build a near-complete virion model. 2. Systematic treatment of protein components, including modeling of missing regions and glycosylation. 3. Analysis of lipid-protein interactions and protein diffusion on a curved membrane, which is biologically relevant. 4. Provision of atomistic models as resources for future simulations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** "Our results indicated that the membrane-embedded proteins are highly dynamic, and certain types of lipids exhibit various binding preferences to specific sites of the membrane-embedded proteins."
+  - **Evidence pointer** Figures 3 and 4; Section 2
+  - **Concern** The claim of lipid binding preferences is based on RDF analysis and contact probabilities, but no statistical significance testing, error bars, or comparisons to null models are provided. The RDF convergence is only qualitatively stated ("already well converged") without quantitative metrics. The contact probability analysis (Figure 4) lacks thresholds for what constitutes a "binding site" and does not account for lipid crowding or finite-size effects.
+  - **Why it matters** Without statistical rigor, the observed lipid preferences could be artifacts of the initial configuration or insufficient sampling. This undermines the central biological conclusion of the study.
+  - **Resolution test** Provide error bars or confidence intervals for RDF and contact probability data, perform block averaging or multiple independent simulations, and compare against randomized lipid distributions to establish significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological soundness
+  - **Claim pointer** "The diffusion coefficients of M and S protein are 7.1 ± 0.2 μm²/s and 8.2 ± 1.1 μm²/s, respectively."
+  - **Evidence pointer** Figure 5; Section 2
+  - **Concern** The diffusion coefficient calculation uses only a 40-ns window (210-250 ns) from a single 500-ns trajectory. This is likely insufficient for converged diffusion estimates, especially for large proteins on a curved membrane. The error bars are not defined (standard error? standard deviation?), and no comparison to literature values or validation against known systems is provided. The use of spherical coordinates and the Mollweide projection may introduce artifacts not discussed.
+  - **Why it matters** Diffusion coefficients are quantitative claims that require robust statistical analysis. The short analysis window and lack of validation could lead to misleading conclusions about protein mobility.
+  - **Resolution test** Extend the analysis window, perform multiple independent simulations, report the method for error estimation, and validate against experimental or higher-resolution simulation data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "The equilibrated virion model was transformed into atomic resolution, which provided a 3D structure for scientific demonstration and can serve as a framework for future exascale all-atom MD simulations."
+  - **Evidence pointer** Section 4.9; Figures S1
+  - **Concern** The atomistic models are presented as a key deliverable, but no validation of their quality is provided. The conversion process (CG2AT2) introduces uncertainties, and the models are not compared against experimental structures or assessed for steric clashes, bond geometry, or energetic stability. The claim that they "can serve as a framework" is speculative without such validation.
+  - **Why it matters** Atomistic models with unresolved issues could mislead future users. The scientific community needs confidence in the model quality before using them as starting points.
+  - **Resolution test** Provide validation metrics (e.g., Ramachandran plots, clash scores, RMSD to experimental structures), and demonstrate that the models are stable in short atomistic simulations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness
+  - **Claim pointer** "The full-length RNA was not included in our model because there is no way to determine the whole 3D RNA structure at the moment."
+  - **Evidence pointer** Section 4.5
+  - **Concern** The absence of full-length RNA is acknowledged, but the potential impact on the simulation results is not discussed. RNA is a major component of the virion and could influence protein dynamics, lipid distribution, and overall virion stability. The authors do not address how this omission might bias their conclusions.
+  - **Why it matters** The claim of an "intact" model is overstated without RNA. Readers may overinterpret the biological relevance of the findings.
+  - **Resolution test** Discuss the limitations of omitting RNA and, if possible, include a simplified RNA model or justify its exclusion with sensitivity analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2, Figure 3
+  - **Evidence pointer** Figure 3
+  - **Issue** The RDF plots are described but not shown in the text. The reader cannot assess the convergence or the differences between lipid types without seeing the actual data.
+  - **Required correction** Include the RDF plots in the main text or supplementary, with clear labels and convergence indicators.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Section 4.8
+  - **Evidence pointer** Section 4.8
+  - **Issue** The equation for displacement on a sphere is referenced but not explicitly written. The derivation of the diffusion coefficient from MSD is not fully explained.
+  - **Required correction** Write out the equations and define all variables, including the time interval used for MSD calculation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Uncertainty communication
+  - **Affected element** Section 2, Figure 5
+  - **Evidence pointer** Figure 5
+  - **Issue** The diffusion coefficient error bars are not defined, and the number of proteins used for averaging is not stated.
+  - **Required correction** Specify the error estimation method and the number of proteins included in the analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 3
+  - **Evidence pointer** Section 3
+  - **Issue** The discussion of lipid preferences and protein dynamics lacks comparison to experimental measurements or other simulation studies beyond the cited references.
+  - **Required correction** Add a brief comparison to experimental data (e.g., lipidomics, single-particle tracking) to contextualize the findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of lipid analysis), R1-M2 (diffusion coefficient calculation), R1-M3 (atomistic model validation). These are blocking because they directly affect the validity of the main claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The integration of cryo-ET with Martini CG simulations is not entirely new, but the scale and completeness of the model are notable.
+  - **Scientific importance** Moderate. The models could be valuable resources, but the biological insights are limited by the lack of RNA and the preliminary nature of the analysis.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to computational biophysicists and virologists; the presentation is technical and may not appeal to a broader audience.
+  - **Technical soundness** Weak. The lack of statistical rigor and validation undermines confidence in the quantitative claims.
+  - **Readability for nonspecialists** Poor. The manuscript assumes deep familiarity with CG simulations and cryo-ET, and the methods are dense without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the blocking concerns must be addressed with additional analysis, validation, and clearer presentation before the claims can be supported.
+
+## Risk / unsupported claims
+- The claim that lipid binding preferences are biologically significant is unsupported without statistical testing.
+- The diffusion coefficient values are presented as robust but are based on a short, single trajectory without validation.
+- The atomistic models are claimed to be useful frameworks, but their quality is not demonstrated.
+- The statement that the CG simulation "efficiently equilibrated" the virion is not quantitatively supported (e.g., no convergence metrics for energy, pressure, or structural drift).
+- The claim that the models are "as intact as possible" is overstated given the omission of full-length RNA and the acknowledged uncertainties in protein modeling.

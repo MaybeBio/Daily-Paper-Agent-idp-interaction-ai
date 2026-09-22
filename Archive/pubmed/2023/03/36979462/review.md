@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Evaluation of the manuscript's claims, methods, results, and conclusions as presented in the provided text
+- **Shared manuscript claim summary** The authors benchmark several publicly available computational predictors for protein phase separation and biomolecular condensate localization. They report that these predictors perform well at identifying condensate scaffolds and proteins that phase separate in vitro, but perform poorly at identifying specific protein segments involved in phase separation and at classifying the impact of amino acid substitutions on phase behavior. They conclude that current phenomenological approaches are insufficient for residue-level predictions and call for more comprehensive datasets and improved modeling.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results (Sections 3.1–3.5), Discussion, Conclusions, and references to Supplementary Tables S1–S2 and Figures 1–4
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S2, Figures S1–S3) are referenced but not provided. Full details of dataset construction, including specific protein lists and mutation annotations, are not fully described in the main text. The manuscript does not include a data availability statement or code availability statement.
+
+## Reviewer
+- **Overall assessment** This manuscript provides a timely and useful benchmarking study of computational predictors for protein phase separation and condensate localization. The authors have assembled substantial datasets and evaluated a range of predictors across multiple tasks, including protein-level classification, segment-level identification, and mutation impact prediction. The finding that predictors perform well at the protein level but poorly at the residue level is an important observation with practical implications for the field. However, several methodological details are insufficiently described, and the statistical rigor of some comparisons is unclear. The manuscript would benefit from clearer descriptions of dataset construction, additional statistical analyses, and a more nuanced discussion of the limitations of the benchmarking approach.
+- **Who would be interested in the results, and why** Researchers in the fields of phase separation, biomolecular condensates, intrinsically disordered proteins, and computational biology would find this study valuable. The benchmarking results provide practical guidance for selecting appropriate predictors for different tasks. The identified limitations of current predictors at the residue level are relevant for those studying the molecular mechanisms of phase separation and for developers of next-generation prediction tools.
+- **Major strengths** The study addresses an important and timely question in a rapidly growing field. The authors have curated substantial datasets from multiple sources and evaluated a broad range of predictors. The multi-task evaluation design, covering protein-level, segment-level, and mutation-level predictions, provides a comprehensive assessment. The inclusion of simple feature controls (disorder and RNA-binding) is a useful benchmark for contextualizing predictor performance. The conclusions are appropriately cautious and highlight important limitations of current approaches.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the tested methods achieve high AUCs in the identification of biomolecular condensate drivers and scaffolds, as well as in the identification of proteins able to phase separate in vitro."
+  - **Evidence pointer** Section 3.1, Figure 1A–B, Supplementary Figures S1–S2
+  - **Concern** The AUC values reported for condensate localization are modest (e.g., 0.73 for stress granules with MaGSeq), yet the authors describe these as "high AUCs." The threshold for "high" is not defined. More importantly, the comparison across predictors is presented without statistical testing. It is unclear whether differences in AUC between predictors are statistically significant, given that the datasets are likely to have overlapping proteins and the predictors may produce correlated scores.
+  - **Why it matters** Without statistical comparisons, the ranking of predictors and the claim that some perform better than others are not rigorously supported. This weakens the practical guidance the authors aim to provide.
+  - **Resolution test** Provide confidence intervals for AUCs (e.g., via bootstrapping) and perform pairwise statistical comparisons (e.g., DeLong's test) between predictors. Report which differences are statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "only LLPhyScore and PScore achieve high AUCs in this prediction task" for identifying protein segments involved in phase separation.
+  - **Evidence pointer** Section 3.4, Figure 3A–B
+  - **Concern** The construction of the positive (PR) and negative (NR) residue sets is described only briefly. The authors state that residues in regions "observed to undergo homotypic phase separation or being necessary or sufficient for a protein being included in phase separated droplets" were used as positive, and all other residues in the same proteins as negative. This approach is problematic because it assumes that all unannotated regions are negative, which may not be true. Additionally, the length of annotated regions and the potential for overlapping annotations across proteins are not discussed. The authors acknowledge this limitation in the Discussion, but the impact on the reported AUCs is not quantified.
+  - **Why it matters** If the negative set contains false negatives, the reported AUCs may be underestimated, and the comparison between predictors may be biased. The claim that predictors perform poorly on this task could be an artifact of the dataset construction.
+  - **Resolution test** Provide a more detailed description of how PR and NR were constructed, including the source of annotations and criteria for inclusion. Perform sensitivity analyses by varying the definition of positive and negative sets (e.g., using only regions with strong experimental evidence) and report whether the conclusions change.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "around half of the mutations are correctly classified by most predictors" for predicting mutation impact on phase separation.
+  - **Evidence pointer** Section 3.5, Table 1
+  - **Concern** The mutation dataset is very small (13 mutations from PhaSepDB). The authors do not report the breakdown of promoting versus inhibiting mutations, which is important for assessing whether the predictors are biased toward one class. The method for calculating z-scores and classifying mutations is described, but the choice of a 95% confidence interval is arbitrary and not justified. The authors also test an alternative classification approach (positive/negative mean-delta scores) but do not report the results in detail.
+  - **Why it matters** With such a small dataset, the reported accuracy is subject to high uncertainty. The lack of class balance information and the arbitrary threshold undermine the reliability of the conclusions about mutation prediction performance.
+  - **Resolution test** Report the number of promoting and inhibiting mutations in the dataset. Provide confidence intervals for the accuracy estimates. Justify the choice of threshold or report results across a range of thresholds. Consider using a larger, well-annotated mutation dataset if available.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "the phenomenological approach used by most predictors is insufficient to fully grasp the complexity of the phenomenon within biological contexts."
+  - **Evidence pointer** Discussion, Section 4
+  - **Concern** While this conclusion is plausible, the evidence presented does not directly test the underlying hypothesis. The authors do not compare phenomenological predictors with mechanism-based predictors in a controlled manner. The predictors tested vary in their underlying approaches, but the authors do not categorize them by approach or analyze whether performance differences correlate with the type of approach used.
+  - **Why it matters** The conclusion that phenomenological approaches are insufficient is a strong claim that has implications for future predictor development. Without a direct comparison between approach types, the conclusion is not fully supported by the data.
+  - **Resolution test** Categorize the tested predictors into phenomenological vs. mechanism-based (or other relevant categories) and perform a subgroup analysis. Discuss whether the observed performance differences align with the proposed conclusion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Section 1
+  - **Evidence pointer** Location not provided
+  - **Issue** The Introduction assumes familiarity with the concept of phase separation and biomolecular condensates. A brief explanation of these concepts and their biological significance would make the manuscript more accessible to a broader audience.
+  - **Required correction** Add a brief introductory paragraph explaining phase separation and biomolecular condensates in accessible terms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, Section 2
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the z-score calculation for mutation impact is dense and could be clearer. The equation is presented without sufficient context for readers who are not familiar with the specific approach.
+  - **Required correction** Expand the description of the z-score calculation, including a step-by-step explanation of how the mean delta score and standard error are computed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Section 3.3
+  - **Evidence pointer** Figure 1C–D, Figure 2C–D
+  - **Issue** The comparison between simple features (disorder, RNA-binding) and dedicated predictors is informative, but the authors do not discuss potential confounding factors. For example, some predictors may incorporate disorder or RNA-binding features in their models, making the comparison less straightforward.
+  - **Required correction** Add a brief discussion of whether the tested predictors incorporate disorder or RNA-binding features and how this might affect the interpretation of the comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion, Section 4
+  - **Evidence pointer** Location not provided
+  - **Issue** The Discussion is somewhat repetitive of the Results and could be more focused on the broader implications of the findings.
+  - **Required correction** Streamline the Discussion to emphasize the key takeaways and their implications for future research and predictor development.
+- **Technical failings that need to be addressed before the case is established** The lack of statistical comparisons between predictors (R1-M1), the potential bias in the residue-level dataset construction (R1-M2), and the small mutation dataset with unclear class balance (R1-M3) are technical issues that need to be addressed before the main conclusions can be considered robust.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study is not highly original in concept, as benchmarking studies of prediction tools are common in bioinformatics. However, the specific focus on phase separation predictors and the multi-task evaluation design provide a useful contribution.
+  - Scientific importance: The findings are of practical importance to researchers using these predictors and to developers of new tools. The identified limitations at the residue level are valuable for guiding future work.
+  - Interdisciplinary readership: The topic is relevant to researchers in biochemistry, cell biology, computational biology, and biophysics. The manuscript is generally accessible, though some sections may be challenging for nonspecialists.
+  - Technical soundness: The study has several technical weaknesses, as detailed in the Major Concerns. The lack of statistical rigor and potential dataset biases undermine the strength of the conclusions.
+  - Readability for nonspecialists: The manuscript is reasonably well-written but could benefit from clearer explanations of key concepts and methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important topic and provides useful benchmarking data, but the technical issues described above need to be addressed before the conclusions can be considered fully supported.
+
+## Risk / unsupported claims
+- The claim that "the phenomenological approach used by most predictors is insufficient" is not directly tested and is therefore not fully supported by the evidence presented.
+- The claim that predictors perform "well" on condensate localization and in vitro phase separation is based on AUC values that are modest and not statistically compared.
+- The claim that predictors perform poorly on segment-level identification may be influenced by the construction of the positive and negative residue sets, which could contain false negatives.
+- The mutation prediction results are based on a very small dataset (13 mutations) and may not be generalizable.

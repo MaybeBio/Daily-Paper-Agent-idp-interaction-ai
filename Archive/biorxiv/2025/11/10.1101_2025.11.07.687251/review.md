@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors propose a stepwise molecular pathway for recruitment of the ULK1 autophagy-initiating complex (ULK1C) to membranes, involving PI3P-dependent binding of WIPI2/WIPI3 to the ATG13:ATG101 HORMA dimer, membrane insertion of a Trp-Phe (WF) finger, cooperative stabilization by WIPIs and the WF finger, a kinase domain (KD)-proximal PVP motif in the ULK1 intrinsically disordered region (IDR) that docks onto the HORMA dimer, and functional consequences for ATG16L1 phosphorylation, autophagy, and mitophagy.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information were supplied
+- **Missing materials affecting confidence** All experimental details, including biochemical reconstitution protocols, cell-based assay designs, MD simulation parameters, quantitative results, statistical analyses, and all primary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically coherent and potentially important model for ULK1C membrane recruitment, addressing a genuine gap in the autophagy field. The proposed pathway is logically structured and integrates structural, biophysical, biochemical, and cell-based evidence. However, the abstract alone provides no access to the underlying data, and several claims are stated with a level of certainty that cannot be evaluated without the full manuscript. The central novelty, the PVP motif-mediated docking of the ULK1 kinase domain to the HORMA dimer, is intriguing but its functional significance is only described qualitatively. The work is likely to be of broad interest to the autophagy and membrane trafficking communities, but the current evidence base is insufficient to assess technical soundness or to validate the strength of the conclusions.
+- **Who would be interested in the results, and why** Autophagy researchers studying initiation mechanisms, membrane biology groups interested in protein recruitment to phosphoinositide-enriched membranes, structural biologists working on HORMA domain proteins and kinase regulation, and cell biologists investigating mitophagy and selective autophagy. The proposed mechanism also has potential relevance for understanding how kinase activity is spatially regulated by scaffold-mediated membrane tethering.
+- **Major strengths** The abstract addresses a well-defined and important mechanistic question, namely how a complex lacking PI3P-binding domains is recruited to PI3P-enriched membranes. The proposed stepwise pathway is conceptually elegant and testable. The combination of MD simulations, biochemical reconstitution, and cell-based assays suggests a multi-pronged experimental approach. The identification of a specific PVP motif in the ULK1 IDR that docks onto the HORMA dimer provides a concrete molecular handle for future studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "WIPI3:ATG13 engagement promotes ATG16L1 phosphorylation, autophagy and mitophagy" and that the PVP motif is "essential for in vitro ULK1 phosphorylation of ATG16L1 and important for autophagy and mitophagy."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states functional outcomes without providing any quantitative data, effect sizes, or statistical significance. It is unclear whether the effects are partial or complete, whether they are observed across multiple assays, and whether the PVP motif is truly essential or merely contributory. The word "important" for the PVP motif in autophagy and mitophagy is vague and does not convey the magnitude or consistency of the effect.
+  - **Why it matters** The functional claims are the primary translational relevance of the mechanistic findings. Without quantitative support, the reader cannot judge whether the proposed pathway is a major regulatory mechanism or a minor contributing factor. The distinction between "essential" and "important" is critical for interpreting the biological significance.
+  - **Resolution test** Provide quantitative data from the in vitro kinase assays and cell-based autophagy/mitophagy assays, including dose-response or mutant comparisons, with appropriate statistical analysis. Clarify whether PVP mutation abolishes or merely reduces the observed phenotypes, and whether the effects are consistent across all assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The authors claim that "MD simulations show that WIPIs and the WF finger cooperatively stabilizes the complex on membranes."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the simulation system, force field, simulation timescale, or the metric used to define "stabilization." It is unclear whether the simulations are equilibrium sampling, free energy calculations, or enhanced sampling, and whether the conclusions are robust to force field choice or system setup. The word "cooperatively" implies a quantitative comparison between systems with and without the WF finger or WIPIs, but no such comparison is described.
+  - **Why it matters** Molecular dynamics simulations are only as credible as their setup and analysis. Without details on convergence, sampling, and the specific observable used to assess stability, the claim cannot be evaluated. Overinterpretation of simulation results is a common pitfall, and the abstract does not allow the reader to assess whether the simulations genuinely support the cooperative stabilization model.
+  - **Resolution test** Describe the simulation methodology, including system composition, force field, simulation length, and the specific free energy or stability metric used. Show that the conclusions are converged and, ideally, validated by comparison with experimental mutagenesis or binding data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence
+  - **Claim pointer** The authors claim that "the ATG13:ATG101 dimer forms a complex with the PI3P-binding protein WIPI3, as well as WIPI2" and that "Bound to WIPI2-3, ATG13:ATG101 inserts its Trp-Phe (WF) finger into the membrane."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the nature of the evidence for complex formation or membrane insertion. It is unclear whether these conclusions are based on cryo-EM, X-ray crystallography, crosslinking, liposome binding assays, or a combination. The WF finger insertion claim is particularly strong and requires direct biophysical evidence, such as membrane burial assays, EPR, or hydrogen-deuterium exchange, to be credible.
+  - **Why it matters** The structural and membrane-insertion claims are foundational to the entire proposed pathway. If the WF finger does not actually insert into the membrane, the cooperative stabilization model and the subsequent steps lose their mechanistic basis. The abstract does not allow the reader to distinguish between direct structural observation and indirect inference.
+  - **Resolution test** Provide the structural or biophysical data supporting complex formation and WF finger membrane insertion, including appropriate controls (e.g., mutant WF finger, liposomes lacking PI3P). If the evidence is indirect, state this explicitly and discuss the limitations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic completeness
+  - **Claim pointer** The authors claim that "A kinase domain (KD)-proximal PVP motif in the ULK1 IDR docks onto the ATG13:ATG101 HORMA dimer brings the ULK1 KD close to the membrane."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not explain how the PVP motif docking was identified or validated. It is unclear whether this is based on crosslinking, mutagenesis, NMR, or computational docking. The phrase "brings the ULK1 KD close to the membrane" implies a spatial proximity that is not quantified. The relationship between PVP docking and the WF finger-mediated membrane insertion is also not clarified, specifically whether these are independent or sequential events.
+  - **Why it matters** The PVP motif is presented as a key novel finding, but its mechanistic role is only described qualitatively. Without knowing how the docking was established and how close the kinase domain actually comes to the membrane, the significance of this step cannot be assessed. The abstract also does not address whether PVP docking is required for the WF finger insertion or vice versa.
+  - **Resolution test** Provide the experimental or computational evidence for PVP-HORMA docking, including a structural model or mutagenesis data. Quantify the membrane proximity of the ULK1 KD, for example using FRET or a membrane-accessible labeling approach, and test whether PVP mutation affects WF finger insertion or WIPI binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "WIPI2-3" to refer to WIPI2 and WIPI3 collectively, which is potentially confusing since WIPI2 and WIPI3 are distinct proteins. The notation is not standard and may be misread as a single protein or a complex.
+  - **Required correction** Use "WIPI2 and WIPI3" or "WIPI2/WIPI3" throughout for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mechanistic context
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "PI3P is essential to recruit ULK1C to membranes" but does not explain why this is paradoxical or what the prevailing model was prior to this work. A brief statement of the prior gap would help nonspecialist readers appreciate the significance.
+  - **Required correction** Add one sentence in the introduction of the abstract explaining the prior lack of a PI3P-binding mechanism for ULK1C.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Functional claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "promotes ATG16L1 phosphorylation" does not specify which kinase is responsible or whether this is ULK1-dependent. Given the title and context, it is presumably ULK1, but this should be stated explicitly.
+  - **Required correction** Specify "ULK1-dependent ATG16L1 phosphorylation" or equivalent.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state whether the proposed mechanism is specific to ULK1 or generalizable to other ULK family members (ULK2, ULK3). This limits the reader's ability to assess the broader relevance.
+  - **Required correction** Add a brief statement on whether the PVP motif and WIPI interaction are conserved across ULK family members.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative functional data missing), R1-M2 (MD simulation methodology and validation not described), R1-M3 (structural and membrane-insertion evidence not described)
+- **Assessment against Nature-style criteria** Originality: The proposed stepwise pathway, particularly the PVP motif-mediated kinase docking, appears conceptually novel and addresses a recognized gap. Scientific importance: The mechanism is likely to be significant for understanding autophagy initiation and may have implications for selective autophagy and mitophagy. Interdisciplinary readership: The work bridges structural biology, biophysics, membrane biology, and cell biology, and should appeal to a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the claims require substantial experimental and computational support that is not visible. Readability for nonspecialists: The abstract is concise and largely accessible, though the WIPI2-3 notation and the lack of context on the prior gap reduce clarity for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting model, but the absence of all supporting data prevents evaluation of the central claims. A supportive recommendation would require the full manuscript demonstrating quantitative functional data, rigorous simulation methodology, and direct structural or biophysical evidence for the key interactions.
+
+## Risk / unsupported claims
+- The claim that WIPI3:ATG13 engagement "promotes" ATG16L1 phosphorylation, autophagy, and mitophagy is unsupported without quantitative data and effect sizes.
+- The claim that the PVP motif is "essential" for in vitro ULK1 phosphorylation of ATG16L1 is unsupported without mutagenesis data showing complete loss of function.
+- The claim that MD simulations show cooperative stabilization is unsupported without simulation details and convergence analysis.
+- The claim that the WF finger "inserts" into the membrane is unsupported without direct biophysical evidence.
+- The claim that the PVP motif "brings the ULK1 KD close to the membrane" is unsupported without spatial proximity measurements.
+- The overall stepwise pathway is presented as established ("These data establish") but the abstract provides no data to evaluate this assertion.

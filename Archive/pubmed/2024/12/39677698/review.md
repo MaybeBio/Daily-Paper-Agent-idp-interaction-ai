@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Technical and scientific evaluation of the methods, results, and claims as presented in the preprint; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors present a cryo-electron tomography (cryo-ET) pipeline combining high-pressure freezing (HPF), cryo-focused ion beam (FIB) milling, deep learning-based segmentation, and a novel context-aware template matching (CATM) algorithm to analyze the internal structure of chromatin biomolecular condensates. They report nucleosome structures at 6.1 Å (reconstituted) and 12 Å (native) resolution, and describe heterogeneous nucleosome interaction networks in both systems.
+- **Visible evidence base** Full text including results, methods, figure references (Figs 1-5, S1-S8), and supplementary table S1; no actual figures, tables, or supplementary data files were provided
+- **Missing materials affecting confidence** Figures and supplementary data (including Table S1) are referenced but not provided; no movies or videos; no raw tomograms or density maps; no detailed validation metrics for the deep learning segmentation beyond F1 scores on simulated data
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious and potentially valuable methodological advance for structural analysis of biomolecular condensates using cryo-ET. The combination of HPF/FIB milling with a novel CATM algorithm addresses two significant challenges: sample preservation and accurate particle identification in dense environments. The reported resolutions (6.1 Å and 12 Å) are impressive for tomographic data. However, the evidence base provided is insufficient to fully evaluate the claims. Key figures, validation details, and quantitative comparisons are missing. The manuscript would benefit from clearer presentation of the CATM algorithm's advantages over existing methods, more rigorous benchmarking, and additional validation of the in situ results.
+- **Who would be interested in the results, and why** Structural biologists studying chromatin organization, researchers investigating biomolecular condensates and phase separation, cryo-ET method developers, and cell biologists interested in nuclear architecture. The methodological advances in sample preparation and image analysis for dense macromolecular environments would be of broad interest to the cryo-ET community.
+- **Major strengths** The manuscript addresses a significant technical gap in the field: visualizing the interior of biomolecular condensates at high resolution. The combination of HPF/FIB milling with deep learning-based segmentation and CATM is innovative. The demonstration of applicability to both reconstituted and native systems, including intact cells, suggests broad utility. The reported resolutions are notable achievements for cryo-ET of dense samples.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that CATM achieves F1 scores of 0.99 for position and 0.96 for angular assignment, substantially surpassing standard template matching
+  - **Evidence pointer** Figure 3d, Figure S4e-h; location not provided
+  - **Concern** The benchmarking of CATM against standard template matching is described only in text. The actual comparison data, including precision-recall curves, F1 score distributions, and angular error metrics, are not shown. The claim of substantial improvement requires visual and quantitative evidence.
+  - **Why it matters** The central methodological advance of this paper is the CATM algorithm. Without clear evidence of its superiority over existing methods, the core contribution is not established.
+  - **Resolution test** Provide the benchmarking figures with precision-recall curves, F1 scores as a function of detection threshold, and angular error distributions for both CATM and standard TM on the simulated data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that nucleosome structures were determined to 6.1 Å and 12 Å resolution in reconstituted and native systems, respectively
+  - **Evidence pointer** Figure 4c, Figure 5c, Figure 5g, Figure S8, Table S1; location not provided
+  - **Concern** The resolution claims are presented without showing the actual density maps, Fourier shell correlation (FSC) curves, or the structural models used for comparison. The methods for resolution estimation are not described in sufficient detail. The claim that "none were discarded" for the reconstituted samples is surprising given typical cryo-ET data quality.
+  - **Why it matters** Resolution claims are central to the paper's significance. Without visible FSC curves and density maps, these claims cannot be verified.
+  - **Resolution test** Show FSC curves, density maps with overlaid models, and describe the resolution estimation protocol in detail. Provide the number of particles used and any particle selection criteria.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that nucleosomes form heterogeneous interaction networks in both reconstituted and native chromatin, with normalized entropy of valency distribution of 0.74±0.02 and 0.766±0.009, respectively
+  - **Evidence pointer** Figure 4d, Figure 5h; location not provided
+  - **Concern** The network analysis is described but the actual network visualizations, degree distributions, and the statistical comparison between reconstituted and native systems are not shown. The entropy values are presented as nearly identical, but no statistical test is described to support the claim of similarity.
+  - **Why it matters** The heterogeneity of nucleosome organization is a key biological finding. Without visible network data and statistical analysis, this claim is not supported.
+  - **Resolution test** Provide network visualizations, degree distribution plots, and statistical comparison (e.g., permutation test) between the two systems.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the methods "should be applicable to diverse biochemically reconstituted biomolecular condensates and to some condensates in cells"
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** The generalizability claim is speculative. The methods are demonstrated only on chromatin condensates and chromatin in cells. No evidence is provided that the approach would work for other types of condensates with different components, densities, or sizes.
+  - **Why it matters** The broader applicability of the method is a significant part of its potential impact. Overstating generalizability without evidence weakens the paper.
+  - **Resolution test** Either temper the claim to reflect the demonstrated scope, or provide preliminary data on at least one additional condensate system.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1; location not provided
+  - **Issue** The introduction assumes familiarity with condensate biology and cryo-ET. A brief explanation of why condensate internal structure is difficult to study would help nonspecialist readers.
+  - **Required correction** Add one or two sentences explaining the technical challenges of imaging condensate interiors and why cryo-ET is uniquely suited.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, CATM description
+  - **Evidence pointer** Methods, "Context-aware template matching (CATM)"; location not provided
+  - **Issue** The description of the CATM algorithm is dense and lacks pseudocode or a flowchart. The distinction between CATM and standard template matching is not immediately clear.
+  - **Required correction** Add a flowchart or pseudocode for the CATM algorithm, and clearly state the key differences from standard template matching.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, resolution estimation
+  - **Evidence pointer** Methods, "Subtomogram averaging using Warp-Relian-M"; location not provided
+  - **Issue** The resolution estimation protocol is not described. It is unclear whether gold-standard FSC was used and how the final resolution was determined.
+  - **Required correction** Describe the resolution estimation protocol explicitly, including the FSC cutoff used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, in situ application
+  - **Evidence pointer** Results, "Application of CATM to In Situ Native Chromatin"; location not provided
+  - **Concern** The description of the in situ results is brief. The criteria for selecting nucleosome-rich regions and the handling of cellular heterogeneity are not described.
+  - **Required correction** Provide more detail on the selection criteria for nucleosome-rich regions and how the analysis accounts for cellular heterogeneity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmarking evidence), R1-M2 (resolution claims), R1-M3 (network analysis evidence)
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The combination of HPF/FIB with deep learning segmentation and CATM for condensate analysis is novel.
+  - Scientific importance: High if the claims are substantiated. The ability to visualize condensate interiors at high resolution would be a significant advance.
+  - Interdisciplinary readership: Moderate. The methods will appeal to structural biologists and cryo-ET specialists; the biological findings on chromatin organization may attract a broader cell biology audience.
+  - Technical soundness: Currently not fully established. The key claims lack visible supporting evidence (benchmarking, FSC curves, network data).
+  - Readability for nonspecialists: Adequate but could be improved with more context in the introduction and clearer method descriptions.
+- **Recommendation posture** Supportive if technical concerns are resolved. The methodological approach is promising and the potential impact is high, but the current evidence base is insufficient to fully evaluate the claims. The authors should provide the missing figures, data, and statistical analyses to substantiate their findings.
+
+## Risk / unsupported claims
+- The claim that CATM achieves F1 scores of 0.99 and 0.96 is not verifiable without the benchmarking figures.
+- The resolution claims of 6.1 Å and 12 Å are not verifiable without FSC curves and density maps.
+- The claim of heterogeneous nucleosome networks with specific entropy values is not verifiable without network visualizations and statistical analysis.
+- The claim of generalizability to other condensate systems is speculative and not supported by data.
+- The claim that "none were discarded" for reconstituted samples is surprising and requires clarification of the particle selection process.

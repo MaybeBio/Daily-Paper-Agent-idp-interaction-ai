@@ -1,0 +1,438 @@
+{
+  "identity": {
+    "pmid": "42243087",
+    "doi": "10.1038/s41467-026-73572-5",
+    "title": "Dynamics of the beta-cardiac myosin auto-inhibited state explain cardiomyopathy pathogenesis."
+  },
+  "content": {
+    "abstract": "Cardiac contractility requires precise regulation. A recently discovered form of regulation of cardiac contractility involves a beta-cardiac myosin off-state, the Interacting-Heads Motif ((Car)IHM). Despite its central role in cardiac physiology and disease, (Car)IHM structural dynamics remain poorly understood. Here, we integrate near-atomic resolution cryo-EM with all-atom molecular dynamics to characterize (Car)IHM in solution and in the context of the filament. We describe its conformational ensembles maintained by dynamic interfaces, and the stabilizing effect of the dilated cardiomyopathy mutation E525K, which limits S2 coiled-coil flexibility and impairs myosin activation. Intrinsically disordered regions of (Car)IHM and MyBP-C further modulate these dynamics. Our findings provide evidence for how (Car)IHM ensembles balance off/on states and anchor myosin heads in distinct thick filament environments. This integrated structural and dynamic approach enhances the understanding of thick filament regulation and facilitates predictions of the effects of genetic variants in inherited cardiomyopathies.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cryoelectron Microscopy",
+      "Animals",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "Mutation",
+      "*Cardiomyopathies/genetics/metabolism",
+      "*Ventricular Myosins/metabolism/genetics/chemistry",
+      "Myosin Binding Protein C",
+      "Carrier Proteins/metabolism/genetics/chemistry",
+      "Myocardial Contraction",
+      "*Cardiomyopathy, Dilated/genetics",
+      "*Cardiac Myosins/metabolism/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Auguin, Daniel",
+        "Lannes, Laurie",
+        "Kikuti, Carlos",
+        "Ayoub, Nour",
+        "Juille, Marie",
+        "Rety, Stephane",
+        "Nandwani, Neha",
+        "Pathak, Divya",
+        "Ruppel, Kathleen M",
+        "Spudich, James A",
+        "Robert-Paganin, Julien",
+        "Houdusse, Anne"
+      ],
+      "short_names": [
+        "Auguin D",
+        "Lannes L",
+        "Kikuti C",
+        "Ayoub N",
+        "Juille M",
+        "Rety S",
+        "Nandwani N",
+        "Pathak D",
+        "Ruppel KM",
+        "Spudich JA",
+        "Robert-Paganin J",
+        "Houdusse A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4713-9096",
+        "ORCID: 0000-0001-5928-2776",
+        "ORCID: 0009-0003-8386-5324",
+        "ORCID: 0009-0007-5865-0224",
+        "ORCID: 0000-0002-2089-6727",
+        "ORCID: 0000-0002-6958-3756",
+        "ORCID: 0000-0001-9944-2308",
+        "ORCID: 0000-0002-4324-4254",
+        "ORCID: 0000-0001-6102-2025",
+        "ORCID: 0000-0002-8566-0336"
+      ],
+      "affiliations": [
+        "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Universite, Universite Paris Sciences et Lettres, Paris, France.",
+        "Laboratoire de Physiologie, Ecologie et Environnement (P2E), UPRES EA 1207/USC INRAE-1328, UFR Sciences et Techniques, Universite d'Orleans, Orleans, France.",
+        "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Universite, Universite Paris Sciences et Lettres, Paris, France.",
+        "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Universite, Universite Paris Sciences et Lettres, Paris, France.",
+        "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Universite, Universite Paris Sciences et Lettres, Paris, France.",
+        "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Universite, Universite Paris Sciences et Lettres, Paris, France.",
+        "Laboratoire de Biologie et Modelisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, ENS de Lyon, Universite Claude Bernard Lyon 1, Lyon, France.",
+        "Department of Biochemistry, Stanford University School of Medicine, Stanford, CA, US.",
+        "Stanford Cardiovascular Institute, Stanford, CA, US.",
+        "Department of Biochemistry, Stanford University School of Medicine, Stanford, CA, US.",
+        "Stanford Cardiovascular Institute, Stanford, CA, US.",
+        "Department of Biochemistry, Stanford University School of Medicine, Stanford, CA, US.",
+        "Stanford Cardiovascular Institute, Stanford, CA, US.",
+        "Department of Biochemistry, Stanford University School of Medicine, Stanford, CA, US.",
+        "Stanford Cardiovascular Institute, Stanford, CA, US.",
+        "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Universite, Universite Paris Sciences et Lettres, Paris, France.",
+        "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Universite, Universite Paris Sciences et Lettres, Paris, France. anne.houdusse@curie.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Auguin, Daniel",
+        "short_name": "Auguin D",
+        "identifiers": [
+          "0000-0003-4713-9096"
+        ],
+        "affiliations": [
+          "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Université, Université Paris Sciences et Lettres, Paris, France.",
+          "Laboratoire de Physiologie, Ecologie et Environnement (P2E), UPRES EA 1207/USC INRAE-1328, UFR Sciences et Techniques, Université d'Orléans, Orléans, France."
+        ]
+      },
+      {
+        "full_name": "Lannes, Laurie",
+        "short_name": "Lannes L",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Université, Université Paris Sciences et Lettres, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Kikuti, Carlos",
+        "short_name": "Kikuti C",
+        "identifiers": [
+          "0000-0001-5928-2776"
+        ],
+        "affiliations": [
+          "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Université, Université Paris Sciences et Lettres, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Ayoub, Nour",
+        "short_name": "Ayoub N",
+        "identifiers": [
+          "0009-0003-8386-5324"
+        ],
+        "affiliations": [
+          "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Université, Université Paris Sciences et Lettres, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Juillé, Marie",
+        "short_name": "Juillé M",
+        "identifiers": [
+          "0009-0007-5865-0224"
+        ],
+        "affiliations": [
+          "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Université, Université Paris Sciences et Lettres, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Réty, Stéphane",
+        "short_name": "Réty S",
+        "identifiers": [
+          "0000-0002-2089-6727"
+        ],
+        "affiliations": [
+          "Laboratoire de Biologie et Modélisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, ENS de Lyon, Université Claude Bernard Lyon 1, Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Nandwani, Neha",
+        "short_name": "Nandwani N",
+        "identifiers": [
+          "0000-0002-6958-3756"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Stanford University School of Medicine, Stanford, CA, US.",
+          "Stanford Cardiovascular Institute, Stanford, CA, US."
+        ]
+      },
+      {
+        "full_name": "Pathak, Divya",
+        "short_name": "Pathak D",
+        "identifiers": [
+          "0000-0001-9944-2308"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Stanford University School of Medicine, Stanford, CA, US.",
+          "Stanford Cardiovascular Institute, Stanford, CA, US."
+        ]
+      },
+      {
+        "full_name": "Ruppel, Kathleen M",
+        "short_name": "Ruppel KM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Stanford University School of Medicine, Stanford, CA, US.",
+          "Stanford Cardiovascular Institute, Stanford, CA, US."
+        ]
+      },
+      {
+        "full_name": "Spudich, James A",
+        "short_name": "Spudich JA",
+        "identifiers": [
+          "0000-0002-4324-4254"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Stanford University School of Medicine, Stanford, CA, US.",
+          "Stanford Cardiovascular Institute, Stanford, CA, US."
+        ]
+      },
+      {
+        "full_name": "Robert-Paganin, Julien",
+        "short_name": "Robert-Paganin J",
+        "identifiers": [
+          "0000-0001-6102-2025"
+        ],
+        "affiliations": [
+          "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Université, Université Paris Sciences et Lettres, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Houdusse, Anne",
+        "short_name": "Houdusse A",
+        "identifiers": [
+          "0000-0002-8566-0336"
+        ],
+        "affiliations": [
+          "Structural Motility, CNRS UMR144, Institut Curie, Sorbonne Université, Université Paris Sciences et Lettres, Paris, France. anne.houdusse@curie.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jun 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/05 00:34",
+    "fetched_at": "2026-09-18 03:49:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42054467",
+      "41034214",
+      "40833405",
+      "40118457",
+      "39192034",
+      "39108304",
+      "38709176",
+      "38386705",
+      "37931167",
+      "37914935",
+      "37914933",
+      "37774136",
+      "37258552",
+      "37169929",
+      "37028711",
+      "36422472",
+      "36007715",
+      "35090895",
+      "33983830",
+      "33767187",
+      "33582281",
+      "31588918",
+      "31411652",
+      "31205015",
+      "30767072",
+      "30357411",
+      "30275503",
+      "28912181",
+      "28717924",
+      "28606303",
+      "28580912",
+      "28481356",
+      "28165473",
+      "27819658",
+      "27532257",
+      "25619247",
+      "25125180",
+      "24793961",
+      "24739166",
+      "24689030",
+      "24503780",
+      "22464770",
+      "21504733",
+      "21500218",
+      "20383002",
+      "20031618",
+      "19444816",
+      "18351591",
+      "18252826",
+      "17916152",
+      "17095604",
+      "16121187",
+      "15264254",
+      "11287639",
+      "8254673",
+      "1975517"
+    ],
+    "similar": [
+      "42243087",
+      "42372158",
+      "38709176",
+      "36422472",
+      "28606303",
+      "37258552",
+      "41167329",
+      "37914935",
+      "28481356",
+      "41034214",
+      "38849353",
+      "23169656",
+      "40833405",
+      "27021517",
+      "10625305",
+      "40118457",
+      "37914933",
+      "29052230",
+      "40627400",
+      "40391807",
+      "41439707",
+      "40622308",
+      "40068771",
+      "30978303",
+      "26150528",
+      "38387507",
+      "23281406",
+      "30104387",
+      "35591788",
+      "40944412",
+      "30877248",
+      "38516963",
+      "21262909",
+      "17095604",
+      "24367593",
+      "25681424",
+      "31578282",
+      "39456977",
+      "34915024",
+      "17470661",
+      "39485824",
+      "38105932",
+      "19962384",
+      "42103214",
+      "31983222",
+      "18252826",
+      "29660325",
+      "29626422",
+      "42192426",
+      "33589442",
+      "23980194",
+      "31213605",
+      "26792326",
+      "35177471",
+      "30767072",
+      "21415409",
+      "40876855",
+      "27001966",
+      "29666183",
+      "27082122",
+      "17993479",
+      "42054467",
+      "33666504",
+      "19651039",
+      "24736382",
+      "30165862",
+      "28167762",
+      "10024460",
+      "34117120",
+      "20560001",
+      "18953637",
+      "26908877",
+      "25512492",
+      "39630866",
+      "27974200",
+      "25825243",
+      "28246639",
+      "15166115",
+      "39001604",
+      "22527637",
+      "19237661",
+      "24225290",
+      "10545522",
+      "38521794",
+      "42228534",
+      "37131793",
+      "24835277",
+      "28193612",
+      "12787675",
+      "31519753",
+      "24413886",
+      "38690726",
+      "34051236",
+      "30848350",
+      "31387947",
+      "37569724",
+      "37200380",
+      "14638934",
+      "32284968",
+      "36370805"
+    ],
+    "review": [
+      "42243087",
+      "30978303",
+      "38387507",
+      "23281406",
+      "19962384",
+      "33589442",
+      "26792326",
+      "30767072",
+      "21415409",
+      "20560001",
+      "15166115",
+      "22527637",
+      "24413886",
+      "30848350"
+    ],
+    "pmc": [
+      "13287786"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cardiomyopathy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cardiomyopathy"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-026-73572-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42243087/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

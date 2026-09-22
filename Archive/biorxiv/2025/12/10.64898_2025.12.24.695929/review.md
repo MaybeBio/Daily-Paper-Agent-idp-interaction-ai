@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors propose that Fpt1 recruitment to tRNA genes in budding yeast requires both TFIIIB and TFIIIC, with independent contributions from each factor. They further identify the C-terminal intrinsically disordered region of Fpt1, specifically a short α-helix, as critical for stress-induced Fpt1 recruitment, and propose that this helix interacts with the N-terminal tetratricopeptide repeat (TPR) array of TFIIIC subunit τ131, a region also known to bind TFIIIB.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, strain construction details, depletion protocols, chromatin immunoprecipitation (ChIP) data, structural predictions, mutagenesis validation, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic model for Fpt1 recruitment to tRNA genes, with a dual requirement for TFIIIB and TFIIIC and a specific structural interaction proposed. However, the evidence base available for review is limited to the abstract, which precludes verification of the key claims. The conclusions are plausible but not fully established from the supplied material. The work may be of interest to the transcription and chromatin biology community, but the current evidence is insufficient to assess technical soundness or the strength of the proposed interaction model.
+- **Who would be interested in the results, and why** Researchers studying RNA polymerase III transcription, tRNA gene regulation, general transcription factor dynamics, and the role of intrinsically disordered regions in transcription factor recruitment. The proposed interaction between Fpt1 and TFIIIC subunit τ131 may also interest structural biologists working on TPR-mediated protein interactions.
+- **Major strengths** The abstract addresses a clear gap in understanding Fpt1 recruitment mechanisms. The proposed dual and dynamic model with independent contributions from TFIIIB and TFIIIC is conceptually novel. The identification of a specific α-helix within an intrinsically disordered region as functionally important provides a testable mechanistic hypothesis.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "both TFIIIB and TFIIIC are required for Fpt1 binding under active as well as repressive RNAPIII conditions"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that both TFIIIB and TFIIIC are required for Fpt1 binding, but the evidence described shows differential effects. TFIIIB depletion reduced Fpt1 without affecting TFIIIC, while TFIIIC depletion reduced Fpt1 and had a gene-specific effect on TFIIIB. The claim of "required" implies an absolute dependency, but the data as described suggest partial or differential contributions. The extent of Fpt1 reduction under each depletion is not quantified, and the abstract does not clarify whether residual Fpt1 binding remains.
+  - **Why it matters** The central conclusion of the paper rests on the interpretation that both factors are necessary for Fpt1 recruitment. If the effects are partial or gene-specific, the model of "dual and dynamic" recruitment may need refinement. Without quantitative data, the strength of the dependency cannot be assessed.
+  - **Resolution test** Provide quantitative ChIP data showing the percentage of Fpt1 occupancy reduction upon TFIIIB and TFIIIC depletion, with statistical comparisons across multiple tDNA loci and conditions. Clarify whether any residual Fpt1 binding persists and whether this is biologically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** "a short α-helix was predicted to interact with the N-terminal tetratricopeptide repeat array of the TFIIIC subunit τ131" and "Deletion of this α-helix abrogated stress-induced Fpt1 recruitment to tDNAs, as did mutations in the predicted interaction surface of τ131"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The interaction between the Fpt1 α-helix and τ131 TPR array is described as "predicted," but the functional validation relies on deletion and mutation experiments. The abstract does not provide direct biochemical or structural evidence for the physical interaction. The possibility that the α-helix deletion affects Fpt1 function through misfolding or indirect effects is not addressed. Similarly, mutations in τ131 may disrupt TFIIIB binding, which could confound the interpretation.
+  - **Why it matters** The proposed mechanism hinges on a specific physical interaction. Without direct binding data (e.g., co-immunoprecipitation, pull-down, or structural analysis), the model remains speculative. The functional experiments are consistent with the model but do not exclude alternative explanations.
+  - **Resolution test** Provide direct interaction evidence, such as co-purification of Fpt1 and τ131, binding assays with purified components, or structural data. Include controls showing that the α-helix deletion does not globally destabilize Fpt1 and that τ131 mutations do not abolish TFIIIB binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretational clarity
+  - **Claim pointer** "Fpt1 and TFIIIB were lost to different extents" upon TFIIIC depletion
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports differential loss of Fpt1 and TFIIIB upon TFIIIC depletion but does not explain the significance of this observation. The authors use this to support independent contributions of TFIIIB and TFIIIC, but the logic is not fully articulated. If TFIIIC is required for both Fpt1 and TFIIIB, the differential loss could reflect different kinetic or stability properties rather than independent recruitment pathways.
+  - **Why it matters** The "independent contributions" model is a key conclusion. The differential loss data are presented as supporting evidence, but the interpretation requires a clearer mechanistic framework. Without additional context, the observation could be explained by several alternative models.
+  - **Resolution test** Provide a more detailed analysis of the kinetics and extent of Fpt1 and TFIIIB loss, including time-course experiments and comparison across multiple loci. Discuss how the differential loss supports independent recruitment mechanisms over alternative explanations.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "under active as well as repressive RNAPIII conditions" is used but the abstract does not define what constitutes active versus repressive conditions. This may confuse readers unfamiliar with the experimental system.
+  - **Required correction** Briefly define the conditions (e.g., growth phase, nutrient availability, or specific genetic backgrounds) in the abstract or refer to the main text for details.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "intrinsically disordered region"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract identifies the C-terminal intrinsically disordered region as critical but does not specify the boundaries of this region or how it was defined. This limits the ability to assess the specificity of the claim.
+  - **Required correction** Provide the amino acid boundaries of the disordered region and the method used for prediction (e.g., computational prediction or experimental validation).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mutagenesis details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "mutations in the predicted interaction surface of τ131" but does not specify the nature of these mutations (e.g., alanine scanning, charge reversal) or the residues targeted.
+  - **Required correction** Include a brief description of the mutation strategy or refer to the main text for details.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The quantitative basis for the dual requirement, the direct evidence for the proposed interaction, and the mechanistic interpretation of differential loss must be addressed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The proposed dual and dynamic mechanism for Fpt1 recruitment is a novel contribution to the field of RNAPIII transcription regulation. The identification of a specific α-helix in a disordered region as a functional element adds originality.
+  - **Scientific importance** The findings have potential significance for understanding tRNA gene regulation and the interplay between general transcription factors. However, the broader impact beyond the budding yeast system is not articulated in the abstract.
+  - **Interdisciplinary readership** The topic is primarily of interest to transcription biologists and chromatin researchers. The abstract does not clearly demonstrate broader relevance to other fields, such as structural biology or gene regulation in higher eukaryotes.
+  - **Technical soundness** Cannot be fully assessed from the abstract alone. The described experiments are appropriate in principle, but the lack of quantitative data and direct interaction evidence limits confidence.
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses field-specific terminology (e.g., TFIIIB, TFIIIC, τ131, TPR array) without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting model, but the evidence base is insufficient to verify the key claims. Supportive if the technical concerns are resolved with quantitative data and direct interaction evidence.
+
+## Risk / unsupported claims
+- The claim that both TFIIIB and TFIIIC are "required" for Fpt1 binding is not quantitatively supported from the abstract.
+- The proposed physical interaction between the Fpt1 α-helix and τ131 TPR array is based on prediction and functional mutagenesis, not direct binding evidence.
+- The interpretation of differential Fpt1 and TFIIIB loss as evidence for independent recruitment mechanisms is not fully justified.
+- The functional significance of the α-helix deletion under "repressive conditions" is described but the conditions are not defined.
+- The generalizability of the findings beyond the specific experimental conditions is not addressed.

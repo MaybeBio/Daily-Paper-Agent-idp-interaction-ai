@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38171380",
+  "title": "Computational Prediction of Structure, Function, and Interaction of Myzus persicae (Green Peach Aphid) Salivary Effector Proteins.",
+  "authors": "Waksman, Thomas; Astin, Edmund; Fisher, S Ronan; Hunter, William N; Bos, Jorunn I B",
+  "journal": "Molecular plant-microbe interactions : MPMI",
+  "published_date": "2024-01-04",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 6,
+  "one_liner_zh": "用AlphaFold/OmegaFold预测蚜虫效应蛋白结构并预测其与宿主蛋白互作，涉及无序蛋白但非IDP介导PPI机制建模，方法可迁移。",
+  "abstract": "Similar to plant pathogens, phloem-feeding insects such as aphids deliver effector proteins inside their hosts that act to promote host susceptibility and enable feeding and infestation. Despite exciting progress toward identifying and characterizing effector proteins from these insects, their functions remain largely unknown. The recent groundbreaking development in protein structure prediction algorithms, combined with the availability of proteomics and transcriptomic datasets for agriculturally important pests, provides new opportunities to explore the structural and functional diversity of effector repertoires. In this study, we sought to gain insight into the infection strategy used by the Myzus persicae (green peach aphid) by predicting and analyzing the structures of a set of 71 effector candidate proteins. We used two protein structure prediction methods, AlphaFold and OmegaFold, that produced mutually consistent results. We observed a wide continuous spectrum of structures among the effector candidates, from disordered proteins to globular enzymes. We made use of the structural information and state-of-the-art computational methods to predict M. persicae effector protein properties, including function and interaction with host plant proteins. Overall, our investigation provides novel insights into prediction of structure, function, and interaction of M. persicae effector proteins and will guide the necessary experimental characterization to address new hypotheses. [Formula: see text] Copyright (c) 2024 The Author(s). This is an open access article distributed under the CC BY-NC-ND 4.0 International license.",
+  "abstract_zh": "与植物病原体类似，蚜虫等韧皮部取食昆虫会在寄主体内传递效应蛋白，这些蛋白有助于促进寄主易感性并支持取食和侵染。尽管在识别和表征这些昆虫效应蛋白方面取得了令人振奋的进展，但其功能在很大程度上仍属未知。蛋白质结构预测算法的近期突破性发展，结合农业重要害虫蛋白质组学和转录组学数据集的可用性，为探索效应因子库的结构和功能多样性提供了新机遇。在本研究中，我们旨在通过预测和分析一组71个效应候选蛋白的结构，深入了解桃蚜（Myzus persicae，绿桃蚜）所采用的侵染策略。我们使用了两种蛋白质结构预测方法，AlphaFold和OmegaFold，它们产生了相互一致的结果。我们观察到效应候选蛋白中结构呈现广泛的连续谱系，从无序蛋白到球状酶不等。我们利用结构信息和最先进的计算方法预测了M. persicae效应蛋白的特性，包括功能及其与寄主植物蛋白的相互作用。总体而言，我们的研究为预测M. persicae效应蛋白的结构、功能和相互作用提供了新见解，并将指导必要的实验表征以验证新假设。[公式：见原文] 版权所有（c）2024作者。这是一篇根据CC BY-NC-ND 4.0国际许可协议分发的开放获取文章。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38171380/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38171380/",
+  "paper_page_path": "papers/pubmed/38171380/index.html"
+}

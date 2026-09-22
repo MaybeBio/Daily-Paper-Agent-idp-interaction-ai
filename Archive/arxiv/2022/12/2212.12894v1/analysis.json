@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2212.12894v1",
+  "title": "A charge dependent long-ranged force drives tailored assembly of matter in solution",
+  "authors": "Sida Wang; Rowan Walker-Gibbons; Bethany Watkins; Melissa Flynn; Madhavi Krishnan",
+  "journal": "",
+  "published_date": "2022-12-25",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文实验揭示溶剂介导的电荷依赖长程力可驱动带电颗粒（含多肽涂层表面）的吸引/排斥与自组装，虽非直接研究IDP-PPI，但其溶剂化界面力机制对无序蛋白凝聚体/相分离中的互作建模有可迁移启发。",
+  "abstract": "The interaction between charged objects in solution is generally expected to recapitulate two central principles of electromagnetics: (i) like-charged objects repel, and (ii) they do so regardless of the sign of their electrical charge. Here we demonstrate experimentally that the solvent plays a hitherto unforeseen but crucial role in interparticle interactions, and importantly, that interactions in the fluid phase can break charge-reversal symmetry. We show that in aqueous solution, negatively charged particles can attract at long range while positively charged particles repel. In solvents that exhibit an inversion of the net molecular dipole at an interface, such as alcohols, we find that the converse can be true: positively charged particles may attract whereas negatives repel. The observations hold across a wide variety of surface chemistries: from inorganic silica and polymeric particles to polyelectrolyte- and polypeptide-coated surfaces in aqueous solution. A theory of interparticle interactions that invokes solvation at an interface explains the observations. Our study establishes a specific and unanticipated mechanism by which the molecular solvent may give rise to a strong and long-ranged force in solution, with immediate ramifications for a variety of particulate and molecular processes including tailored self-assembly, gelation and crystallization, as well as biomolecular condensation, coacervation and phase segregation. These findings also shed light on the solvent-induced interfacial electrical potential - an elusive quantity in electrochemistry and interface science implicated in many natural and technological processes, such as atmospheric chemical reactions, electrochemical energy storage and conversion, and the conduction of ions across cell membranes.",
+  "abstract_zh": "溶液中带电物体之间的相互作用通常被认为遵循电磁学的两条核心原理：（i）同种电荷物体相互排斥，（ii）且这种排斥与电荷符号无关。在此，我们通过实验证明，溶剂在粒子间相互作用中扮演了一个迄今未被预见但至关重要的角色，并且重要的是，流体相中的相互作用可以打破电荷反转对称性。我们展示，在水溶液中，带负电的粒子可以在长距离上相互吸引，而带正电的粒子则相互排斥。在界面处表现出净分子偶极反转的溶剂中，如醇类，我们发现情况可能相反：带正电的粒子可能相互吸引，而带负电的粒子则相互排斥。这些观察结果在多种表面化学性质下均成立：从无机二氧化硅和聚合物颗粒，到水溶液中的聚电解质和聚多肽涂层表面。一种涉及界面溶剂化的粒子间相互作用理论解释了这些观察结果。我们的研究确立了一种具体且未预期的机制，通过该机制，分子溶剂可在溶液中产生强且长程的力，对多种颗粒和分子过程具有直接影响，包括定制自组装、凝胶化和结晶，以及生物分子凝聚、共聚和相分离。这些发现还揭示了溶剂诱导的界面电势——这是电化学和界面科学中一个难以捉摸的量，涉及许多自然和技术过程，如大气化学反应、电化学能量存储与转换，以及离子跨细胞膜的传导。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2212.12894v1",
+  "source_url": "https://arxiv.org/abs/2212.12894v1",
+  "paper_page_path": "papers/arxiv/2212.12894v1/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42554470",
+  "title": "Short linear motifs-underexplored players driving Toxoplasma gondii infection.",
+  "authors": "Alvarado Valverde, Jesus; Lapouge, Karine; Boergel, Arne; Remans, Kim; Luck, Katja; Gibson, Toby J",
+  "journal": "Microbiology spectrum",
+  "published_date": "2026-08-05",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过计算流程预测弓形虫分泌蛋白中无序区域内的短线性基序(SLiM)，并实验验证其与宿主蛋白的潜在结合，虽对象为病原-宿主互作而非典型IDP-PPI机制建模，但SLiM介导的互作预测思路对无序蛋白互作机制研究有可迁移启发。",
+  "abstract": "Pathogens infect hosts by interacting with host proteins and exploiting their functions to their advantage. Short linear motifs, small functional regions within intrinsically disordered protein regions, are common mediators of host-pathogen protein interactions. While motifs have been more extensively studied in viruses and bacteria, the extent to which eukaryotic unicellular parasites use motifs during infection remains poorly explored. Toxoplasma gondii is a widespread intracellular apicomplexan parasite capable of infecting all warm-blooded animals and invading any of their nucleated cells. Toxoplasma's secreted proteins are key in interacting with host proteins during infection, making them potential sources for motifs. To study the role of motifs in Toxoplasma gondii infection, we curated 19 known motif instances in Toxoplasma proteins from the scientific literature. To identify more motifs in Toxoplasma-secreted proteins, we developed a computational pipeline that predicts and annotates putative motif matches with structural and functional features. Using this approach, we identified 24,097 motif matches within 295 proteins from secretory organelles. We highlight strategies to further prioritize likely functional motif matches by focusing on integrin motifs, degrons, TRAF6-binding motifs, and 42 confirmed secreted proteins. We subjected peptides containing four predicted TRAF6-binding motifs to experimental validation, supporting the predicted motifs in the Toxoplasma proteins RON10 and GRA15. Our motif predictions provide a valuable resource for generating hypotheses and designing experiments to study infection mechanisms. The characterization of motifs in Toxoplasma will be key to understanding the molecular principles underlying its broad host range and more comprehensive apicomplexan infection strategies.IMPORTANCEToxoplasma gondii is a widely distributed intracellular parasite that achieves successful infection by interacting with different host cell proteins. Short linear motifs are small functional modules found in unstructured protein regions and recognized by folded protein domains. Given that unstructured protein regions are a common feature of Toxoplasma's proteins, we hypothesize that motifs play important roles during its infection cycle. Here, we highlight the role of motifs during the Toxoplasma host cell invasion cycle through a curated set of motif examples. Through a computational pipeline, we predict thousands of motifs in secreted proteins, outline strategies for working with these predictions, and finally experimentally test peptides containing a motif involved in the innate immune response, successfully supporting the potential binding of two motifs. Our work provides a resource for further motif testing in Toxoplasma proteins, aiming at understanding the molecular mechanisms of the organism's infection strategies and its broad host range.",
+  "abstract_zh": "病原体通过宿主蛋白的相互作用并利用其功能来感染宿主。短线性基序（short linear motifs）是内在无序蛋白区域中的小功能片段，是宿主-病原体蛋白相互作用的常见介导因子。尽管基序在病毒和细菌中已被更广泛地研究，但真核单细胞寄生虫在感染过程中利用基序的程度仍鲜有探索。弓形虫（Toxoplasma gondii）是一种广泛分布的细胞内顶复门寄生虫，能够感染所有温血动物并侵入其任何有核细胞。弓形虫的分泌蛋白在感染过程中与宿主蛋白相互作用中起关键作用，使其成为基序的潜在来源。为了研究基序在弓形虫感染中的作用，我们从科学文献中整理了弓形虫蛋白中19个已知基序实例。为了在弓形虫分泌蛋白中识别更多基序，我们开发了一个计算流程，该流程预测并注释具有结构和功能特征的推定基序匹配。利用这种方法，我们在来自分泌细胞器的295个蛋白中识别了24,097个基序匹配。我们通过聚焦整合素基序（integrin motifs）、降解子（degrons）、TRAF6结合基序（TRAF6-binding motifs）以及42个已确认的分泌蛋白，强调了进一步优先处理可能功能性基序匹配的策略。我们对包含四个预测TRAF6结合基序的肽段进行了实验验证，支持了弓形虫蛋白RON10和GRA15中预测的基序。我们的基序预测为生成假设和设计实验以研究感染机制提供了宝贵资源。对弓形虫基序的表征将是理解其广泛宿主范围及更全面的顶复门感染策略的分子原理的关键。\n\n**重要性** 弓形虫是一种广泛分布的细胞内寄生虫，通过与不同宿主细胞蛋白相互作用实现成功感染。短线性基序是在无序蛋白区域中发现的小功能模块，并被折叠蛋白结构域识别。鉴于无序蛋白区域是弓形虫蛋白的常见特征，我们假设基序在其感染周期中发挥重要作用。在此，我们通过一组精选的基序实例，强调了基序在弓形虫宿主细胞入侵周期中的作用。通过计算流程，我们预测了分泌蛋白中的数千个基序，概述了处理这些预测的策略，并最终对含有参与先天免疫反应基序的肽段进行了实验测试，成功支持了两个基序的潜在结合。我们的工作为弓形虫蛋白中进一步的基序测试提供了资源，旨在理解该生物体感染策略及其广泛宿主范围的分子机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42554470/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42554470/",
+  "paper_page_path": "papers/pubmed/42554470/index.html"
+}

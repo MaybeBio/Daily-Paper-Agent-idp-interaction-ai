@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "36699404",
+    "doi": "10.1093/bioadv/vbac058",
+    "title": "PSICalc: a novel approach to identifying and ranking critical non-proximal interdependencies within the overall protein structure."
+  },
+  "content": {
+    "abstract": "MOTIVATION: AlphaFold has been a major advance in predicting protein structure, but still leaves the problem of determining which sub-molecular components of a protein are essential for it to carry out its function within the cell. Direct coupling analysis predicts two- and three-amino acid contacts, but there may be essential interdependencies that are not proximal within the 3D structure. The problem to be addressed is to design a computational method that locates and ranks essential non-proximal interdependencies within a protein involving five or more amino acids, using large, multiple sequence alignments (MSAs) for both globular and intrinsically unstructured proteins. RESULTS: We developed PSICalc (Protein Subdomain Interdependency Calculator), a laptop-friendly, pattern-discovery, bioinformatics software tool that analyzes large MSAs for both structured and unstructured proteins, locates both proximal and non-proximal inter-dependent sites, and clusters them into pairwise (second order), third-order and higher-order clusters using a k-modes approach, and provides ranked results within minutes. To aid in visualizing these interdependencies, we developed a graphical user interface that displays these subdomain relationships as a polytree graph. To demonstrate, we provide examples of both proximal and non-proximal interdependencies documented for eukaryotic topoisomerase II including between the unstructured C-terminal domain and the N-terminal domain. AVAILABILITY AND IMPLEMENTATION: https://github.com/jdeweeselab/psicalc-package. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics Advances online.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Townsley, Thomas D",
+        "Wilson, James T",
+        "Akers, Harrison",
+        "Bryant, Timothy",
+        "Cordova, Salvador",
+        "Wallace, T L",
+        "Durston, Kirk K",
+        "Deweese, Joseph E"
+      ],
+      "short_names": [
+        "Townsley TD",
+        "Wilson JT",
+        "Akers H",
+        "Bryant T",
+        "Cordova S",
+        "Wallace TL",
+        "Durston KK",
+        "Deweese JE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0877-0523",
+        "ORCID: 0000-0001-9683-6723"
+      ],
+      "affiliations": [
+        "Department of Computational Sciences, College of Computing & Technology, Lipscomb University, Nashville, TN 37204, USA.",
+        "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, Lipscomb University, Nashville, TN 37204, USA.",
+        "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, Lipscomb University, Nashville, TN 37204, USA.",
+        "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, Lipscomb University, Nashville, TN 37204, USA.",
+        "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, Lipscomb University, Nashville, TN 37204, USA.",
+        "FMS Foundation, Canandaigua, NY 14424, USA.",
+        "Department of Computational Sciences, College of Computing & Technology, Lipscomb University, Nashville, TN 37204, USA.",
+        "School of Applied Computational Sciences, Department of Biomedical Data Science, Meharry Medical College, Nashville, TN 37208, USA.",
+        "Department of Research and Publications, Digital Strategies, Langley, BC V2Y 1N5, Canada.",
+        "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, Lipscomb University, Nashville, TN 37204, USA.",
+        "Department of Biological, Physical, and Human Sciences, Freed-Hardeman University, Henderson, TN 38340, USA.",
+        "Department of Biochemistry, Vanderbilt University School of Medicine, Nashville, TN 37232, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Townsley, Thomas D",
+        "short_name": "Townsley TD",
+        "identifiers": [
+          "0000-0002-0877-0523"
+        ],
+        "affiliations": [
+          "Department of Computational Sciences, College of Computing & Technology, Lipscomb University, Nashville, TN 37204, USA.",
+          "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, Lipscomb University, Nashville, TN 37204, USA."
+        ]
+      },
+      {
+        "full_name": "Wilson, James T",
+        "short_name": "Wilson JT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, Lipscomb University, Nashville, TN 37204, USA."
+        ]
+      },
+      {
+        "full_name": "Akers, Harrison",
+        "short_name": "Akers H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, Lipscomb University, Nashville, TN 37204, USA."
+        ]
+      },
+      {
+        "full_name": "Bryant, Timothy",
+        "short_name": "Bryant T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, Lipscomb University, Nashville, TN 37204, USA."
+        ]
+      },
+      {
+        "full_name": "Cordova, Salvador",
+        "short_name": "Cordova S",
+        "identifiers": [],
+        "affiliations": [
+          "FMS Foundation, Canandaigua, NY 14424, USA."
+        ]
+      },
+      {
+        "full_name": "Wallace, T L",
+        "short_name": "Wallace TL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computational Sciences, College of Computing & Technology, Lipscomb University, Nashville, TN 37204, USA.",
+          "School of Applied Computational Sciences, Department of Biomedical Data Science, Meharry Medical College, Nashville, TN 37208, USA."
+        ]
+      },
+      {
+        "full_name": "Durston, Kirk K",
+        "short_name": "Durston KK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Research and Publications, Digital Strategies, Langley, BC V2Y 1N5, Canada."
+        ]
+      },
+      {
+        "full_name": "Deweese, Joseph E",
+        "short_name": "Deweese JE",
+        "identifiers": [
+          "0000-0001-9683-6723"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, Lipscomb University, Nashville, TN 37204, USA.",
+          "Department of Biological, Physical, and Human Sciences, Freed-Hardeman University, Henderson, TN 38340, USA.",
+          "Department of Biochemistry, Vanderbilt University School of Medicine, Nashville, TN 37232, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics advances"
+    ],
+    "journal_abbrev": [
+      "Bioinform Adv"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/27 06:00",
+    "fetched_at": "2026-09-20 18:49:14"
+  },
+  "links": {
+    "cites": [
+      "40332112",
+      "38891861",
+      "38285950",
+      "37685888"
+    ],
+    "refs": [
+      "34660952",
+      "34265844",
+      "33812316",
+      "30594145",
+      "27254668",
+      "24773235",
+      "22793672",
+      "22691493",
+      "15738986",
+      "178876"
+    ],
+    "similar": [
+      "36699404",
+      "38891861",
+      "22793672",
+      "36130276",
+      "31070716",
+      "31161215",
+      "36699409",
+      "29982379",
+      "31778142",
+      "33252662",
+      "30321308",
+      "31693112",
+      "33010156",
+      "31621841",
+      "36413069",
+      "35134816",
+      "32232439",
+      "35512391",
+      "35451457",
+      "26668003",
+      "29309511",
+      "32657398",
+      "36700112",
+      "36408459",
+      "36699392",
+      "32016382",
+      "26743507",
+      "36700093",
+      "38293114",
+      "30215673",
+      "31197318",
+      "28011767",
+      "31560365",
+      "32814953",
+      "25332377",
+      "29048467",
+      "35771611",
+      "31368484",
+      "29949982",
+      "29931190",
+      "32221617",
+      "17709338",
+      "27797756",
+      "31218344",
+      "12824398",
+      "32766810",
+      "35674360",
+      "32315391",
+      "22332239",
+      "30576403",
+      "29931276",
+      "27627442",
+      "28444126",
+      "27551105",
+      "35065401",
+      "29961853",
+      "22039207",
+      "26342231",
+      "26656932",
+      "30052774",
+      "35771625",
+      "29617944",
+      "28334120",
+      "29444233",
+      "30838394",
+      "30084941",
+      "32101277",
+      "31504195",
+      "29346514",
+      "32879935",
+      "30715194",
+      "30698651"
+    ],
+    "review": [
+      "36699404"
+    ],
+    "pmc": [
+      "9710643"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36699404/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36699404",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformaticsadvances/article-lookup/doi/10.1093/bioadv/vbac058",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

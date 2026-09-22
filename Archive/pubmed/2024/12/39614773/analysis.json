@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39614773",
+  "title": "The Myotubularin Related Proteins and the Untapped Interaction Potential of Their Disordered C-Terminal Regions.",
+  "authors": "Saar, Daniel; Lennartsson, Caroline L E; Weidner, Philip; Burgermeister, Elke; Kragelund, Birthe B",
+  "journal": "Proteins",
+  "published_date": "2024-12-01",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过生物信息学与生物物理方法预测并初步表征MTMR家族C端无序区域的SLiMs及卷曲螺旋寡聚化，涉及相分离与蛋白互作预测，但方法以预测和基础实验为主，缺乏AI/物理模拟的机制建模深度。",
+  "abstract": "Intrinsically disordered regions (IDRs) of proteins remain understudied with enigmatic sequence features relevant to their functions. Members of the myotubularin-related protein (MTMR) family contain uncharacterized IDRs. After decades of research on their phosphatase activity, recent work on the C-terminal IDRs of MTMR7 revealed new interactions and important new functions beyond the phosphatase function. Here we take a broader look at the C-terminal domains (CTDs) of 14 human MTMRs and use bioinformatic tools and biophysical methods to ask which other functions may be probable in this protein family. The predictions show that the CTDs are disordered and carry short linear motifs (SLiMs) important for targeting of MTMRs to defined subcellular compartments and implicating them in signaling, phase separation, interaction with diverse proteins, including transcription factors and are of relevance for cancer research and neuroscience. We also present experimental methods to study the CTDs and use them to characterize the coiled coil (CC) domains of MTMR7 and MTMR9. We show homo- and hetero-oligomerization with preference for MTMR7-CC to form dimers, while MTMR9-CC forms trimers. We relate the results to sequence features and make predictions for the structural landscape of other MTMRs. Our work gives a broad insight into the so far unrecognized features and SLiMs in MTMR-CTDs, and provides the basis for more in-depth experimental research on this diverse protein family and understudied IDRs in proteins in general.",
+  "abstract_zh": "蛋白质的固有无序区域（IDRs）仍研究不足，其与功能相关的序列特征充满谜团。肌管素相关蛋白（MTMR）家族成员含有未表征的IDRs。经过对其磷酸酶活性数十年的研究，近期关于MTMR7 C端IDRs的工作揭示了新的相互作用及超越磷酸酶功能的重要新功能。在此，我们更广泛地审视14种人类MTMRs的C端结构域（CTDs），并利用生物信息学工具和生物物理方法探究该蛋白家族中可能存在的其他功能。预测显示，CTDs呈无序状态，并携带短线性基序（SLiMs），这些基序对MTMRs靶向特定亚细胞区室至关重要，并涉及信号传导、相分离（phase separation）、与多种蛋白质（包括转录因子）的相互作用，且与癌症研究和神经科学相关。我们还提出了研究CTDs的实验方法，并利用这些方法表征了MTMR7和MTMR9的卷曲螺旋（CC）结构域。我们展示了同源和异源寡聚化，其中MTMR7-CC偏好形成二聚体，而MTMR9-CC则形成三聚体。我们将结果与序列特征相关联，并对其他MTMRs的结构景观做出预测。我们的工作为MTMR-CTDs中迄今未被识别的特征和SLiMs提供了广泛见解，并为这一多样蛋白家族及普遍研究中不足的蛋白质IDRs的更深入实验研究奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39614773/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39614773/",
+  "paper_page_path": "papers/pubmed/39614773/index.html"
+}

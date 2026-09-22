@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.17.660151",
+  "title": "Condition-dependent, amorphous protein agglomerates control cytoplasmic rheology",
+  "authors": "Losa J; Simon F; Linnik D; Kaya SG; Stuart MCA; Stetsenko A; de Boer R; Ho FY; Incarnato D; Stevens J; van Eck J; Fraaije MW; Weiss LE; van Teeffelen S; Abeln S; Guskov A; Marrink S; Poolman B; Heinemann M",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-21",
+  "window": {
+    "start": "2025-06-16",
+    "end": "2025-06-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究细菌胞质中氨基酸代谢蛋白形成的无定形聚集体如何调控胞质流变学，涉及无序性/紧凑性/疏水性驱动的蛋白聚集，但对象为胞质流变而非直接PPI，且方法以实验为主，AI/物理模拟较弱，对无序蛋白介导互作机制建模有间接启发。",
+  "abstract": "<h4>Summary</h4> Molecular crowding in the bacterial cytoplasm restricts the diffusion of large molecules, impacting cellular processes. However, how nutrient availability influences cytoplasmic rheology is not well understood. With single-particle tracking in Escherichia coli , we observed a threefold variation in the diffusion of a 40-nm particle across exponential growth conditions. Previously suggested determinants of rheology did not account for this variation; instead, we found a strong anticorrelation between the diffusion coefficient and the abundance of amino acid metabolism proteins, persisting upon genetic perturbations and showing that lower diffusion is associated with increased viscoelasticity. Photoactivated light microscopy revealed that some amino acid metabolism proteins form clusters. Electron microscopy showed that these proteins could form amorphous agglomerates at physiological concentrations in vitro, likely driven by their low intrinsic disorder, high compactness and hydropathy score. These findings show that protein agglomerates regulate cytoplasmic rheology in a condition-dependent manner, suggesting an underappreciated level of cytoplasmic organization. <h4>Highlights</h4> Diffusion of 40-nm particles varies threefold across growth conditions in E. coli Cytoplasmic diffusion inversely correlates with COG-E protein abundance COG-E proteins form agglomerates that increase cytoplasmic viscoelasticity Protein compactness and hydrophobicity predict condition-dependent crowding effects",
+  "abstract_zh": "<h4>摘要</h4> 细菌细胞质中的分子拥挤限制了大型分子的扩散，影响细胞过程。然而，营养可用性如何影响细胞质流变学尚不清楚。通过在大肠杆菌（Escherichia coli）中的单粒子追踪，我们观察到在指数生长条件下，40纳米粒子的扩散存在三倍变化。先前提出的流变学决定因素无法解释这一变化；相反，我们发现扩散系数与氨基酸代谢蛋白丰度之间存在强烈的负相关，这种相关性在遗传扰动后依然存在，并表明较低的扩散与增加的粘弹性相关。光激活光显微镜显示，一些氨基酸代谢蛋白形成簇。电子显微镜显示，这些蛋白在生理浓度下体外可形成无定形团聚体，可能由其低内在无序性、高紧凑性和水合性评分驱动。这些发现表明，蛋白团聚体以条件依赖方式调节细胞质流变学，提示细胞质组织的一个未被充分认识的层面。 <h4>亮点</h4> 大肠杆菌中40纳米粒子的扩散在不同生长条件下变化三倍 细胞质扩散与COG-E蛋白丰度呈负相关 COG-E蛋白形成增加细胞质粘弹性的团聚体 蛋白紧凑性和疏水性预测条件依赖的拥挤效应",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.17.660151",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.17.660151",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.17.660151/index.html"
+}

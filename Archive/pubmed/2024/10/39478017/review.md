@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text including Introduction, Results, Discussion, Methods, and figure legends, as provided.
+- **Assessment boundary** Scientific content, technical soundness, data interpretation, and claims as presented in the provided text. No external validation or replication of data was performed.
+- **Shared manuscript claim summary** The authors report the crystal structure of the HMGA AT-hook 1 domain (KRGRGRPRK) bound to the minor groove of AT-rich DNA (d(CGTTAATTAACG)2) at 1.40 Å resolution, characterize binding affinity and thermodynamics by SPR and ITC, and demonstrate that antikinetoplastid drugs 1–3 inhibit AT-hook 1 binding to DNA, with modelling studies suggesting a shared binding region.
+- **Visible evidence base** Crystallographic data (Table 1, PDB ID 8CPG), SPR sensorgrams and binding plots (Figures 3–5), ITC thermograms (Figures 3F, 4C), docking models (Figure 6, Table S1), and supplementary figures (S1–S9).
+- **Missing materials affecting confidence** Electron density maps beyond a single 2Fo-Fc segment (Figure 2C), full refinement statistics including B-factor distributions and Ramachandran analysis, raw SPR and ITC data files, replicate numbers for biophysical experiments, and details of docking methodology (software, scoring function, validation) are not provided in the supplied text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a valuable structural contribution, namely the first crystal structure of AT-hook 1 of HMGA proteins bound to DNA, alongside biophysical characterisation and inhibition studies with antikinetoplastid compounds. The crystallographic work appears technically sound based on the reported statistics, and the SPR/ITC data support the stated binding affinities and stoichiometries. However, several concerns regarding the interpretation of the inhibition mechanism, the generalisability of the modelling conclusions, and the biological relevance of the observed stoichiometry require clarification. The manuscript is of interest to structural biologists, parasitologists, and researchers in drug discovery, but the current evidence does not fully establish the claim that these drugs act via AT-hook displacement in a cellular context.
+- **Who would be interested in the results, and why** Structural biologists studying protein-DNA interactions, particularly AT-hook and HMG family proteins; parasitologists investigating kinetoplastid biology and drug mechanisms; medicinal chemists developing minor groove binders as antiparasitic or anticancer agents; and researchers interested in intrinsically disordered proteins and their ligand-binding behaviour.
+- **Major Strengths** The crystallographic structure at 1.40 Å resolution is a significant technical achievement and fills a gap in the structural understanding of AT-hook 1, which has not been previously solved in complex with DNA. The combination of SPR, ITC, and docking provides a multi-method approach to characterise binding and inhibition. The comparison between AT-hook 1 and AT-hook 3 structures offers useful insight into the versatility of AT-hook DNA recognition. The study also connects structural findings to potential therapeutic applications, broadening its relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of inhibition mechanism
+  - **Claim pointer** The authors claim that compounds 1–3 inhibit AT-hook 1 binding to DNA, with IC50 values of 0.03, 2.7, and 0.58 µM, respectively, and that this inhibition occurs via competition for the minor groove.
+  - **Evidence pointer** Figure 5A–I; Methods section "SPR-biosensor experiments: binding affinity and binding inhibition"
+  - **Concern** The competition experiments use a fixed AT-hook 1 concentration of 5 µM and increasing inhibitor concentrations, but the IC50 values are derived from a model that assumes 1:1 binding for AT-hook 1 and two-site binding for the competitor. Given that AT-hook 1 itself shows a two-site binding mode in the SPR experiments (K1 = 1.51 µM, K2 = 14.4 µM), the assumption of 1:1 stoichiometry for the peptide in the competition model is inconsistent with the authors' own binding data. This could lead to inaccurate IC50 values. Furthermore, the subtraction of the compound's contribution to the total RU signal is described but not shown in detail, making it difficult to assess the reliability of the corrected responses.
+  - **Why it matters** The IC50 values are central to the claim that these drugs can inhibit AT-hook binding at pharmacologically relevant concentrations. If the model is misspecified, the reported values may not reflect true inhibition potency, undermining the translational relevance of the findings.
+  - **Resolution test** The authors should provide a detailed description of the competition model, including how the two-site binding of AT-hook 1 is accounted for, and show the raw and corrected RU data for at least one representative experiment. Alternatively, they could use a model that explicitly incorporates the two-site binding of the peptide and compare the resulting IC50 values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of structural and modelling data
+  - **Claim pointer** The authors state that compounds 1–3 bind in the same AT region (A10-T8) of the EF oligonucleotide duplex as Lys23 and Arg24 of AT-hook 1, based on molecular docking.
+  - **Evidence pointer** Figure 6; Table S1; Figure S8; Methods section "Ab initio calculations"
+  - **Concern** The docking methodology is not described in sufficient detail. No information is provided on the software used, the search algorithm, the scoring function, or how the docking poses were validated (e.g., by comparison with experimental data or by re-docking of known ligands). The claim that the compounds bind in the same region as the peptide is based solely on these docking results, which are not experimentally verified. Additionally, the resolution of the crystal structure (1.40 Å) could potentially allow for soaking or co-crystallisation experiments to confirm the binding mode, but no such data are presented.
+  - **Why it matters** The modelling is used to support the mechanistic conclusion that the drugs compete with AT-hook 1 for the same binding site. Without experimental validation, this conclusion remains speculative, and the structural basis for inhibition is not firmly established.
+  - **Resolution test** The authors should provide full details of the docking protocol, including software version, parameters, and validation steps. Ideally, they should attempt to obtain experimental evidence for the binding mode, such as co-crystallisation or NMR studies, or at least perform mutagenesis or binding assays with modified DNA sequences to test the predicted interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance and generalisability
+  - **Claim pointer** The authors suggest that the inhibition of AT-hook 1 binding by compounds 1–3 may be relevant to the mechanism of action of these antikinetoplastid drugs, potentially involving AT-hook proteins such as LamAT-Y in Leishmania.
+  - **Evidence pointer** Discussion section; Introduction; Table S3
+  - **Concern** The manuscript does not provide any cellular or in vivo data to support the relevance of AT-hook inhibition to the antiparasitic activity of these compounds. The EC50 values for antiparasitic activity (Table S3) are not directly compared to the IC50 values for AT-hook 1 inhibition, and no experiments are performed to show that the compounds affect AT-hook function in parasites. The link between the biochemical inhibition and the biological activity is therefore purely speculative.
+  - **Why it matters** The translational significance of the findings depends on whether AT-hook inhibition contributes to the antiparasitic mechanism. Without such evidence, the claim that these drugs act through AT-hook displacement remains unsubstantiated, and the relevance to drug development is unclear.
+  - **Resolution test** The authors should either provide cellular data (e.g., using parasite lines with altered AT-hook expression or with fluorescently labelled AT-hook proteins) or temper their conclusions to clearly state that the biological relevance is hypothetical and requires further investigation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 2C and D
+  - **Evidence pointer** Figure 2C and D; Supplementary Figures S2–S4
+  - **Issue** The description of the electron density map in Figure 2C is limited to a single segment, and the figure legend does not specify which residues are shown or how the map was calculated (e.g., 2Fo-Fc, Fo-Fc, omit map). This makes it difficult to assess the quality of the peptide fit.
+  - **Required correction** The authors should expand the figure legend to include the specific residues displayed, the map type and contour level, and ideally show a representative omit map to demonstrate the unbiased nature of the density.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data reporting
+  - **Affected element** Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The refinement statistics table lacks several standard metrics, including R-free for the high-resolution shell, average B-factors for protein and DNA separately, and Ramachandran plot statistics. These are commonly expected for structural manuscripts.
+  - **Required correction** The authors should add these metrics to Table 1 or provide them in the supplementary material to allow readers to fully assess the model quality.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Results section "Crystallographic structure of the AT-hook 1-DNA complex"
+  - **Evidence pointer** Results section; Figure 1B
+  - **Issue** The peptide is referred to as "AT-hook 1" throughout, but the sequence is given as KRGRGRPRK, which is a 9-residue peptide. The numbering of residues (e.g., Arg 24 from HMGA = Arg 3 from AT-hook 1) is somewhat confusing, as the peptide is not full-length AT-hook 1. Clarification of the numbering scheme would improve readability.
+  - **Required correction** The authors should clearly state the numbering convention used for the peptide and how it relates to the full-length HMGA protein sequence.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Table 2; Methods section "SPR-biosensor experiments"
+  - **Evidence pointer** Table 2; Methods section
+  - **Issue** The binding constants are reported as averages of two independent experiments with an error of approximately ±10%, but no confidence intervals or statistical tests are provided. For the ITC data, the number of replicates is stated as n ≥ 2, but the variability is not shown.
+  - **Required correction** The authors should report the full range or standard deviation for each measurement and specify the number of replicates for each experiment in the table or legend.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods section "Ab initio calculations"
+  - **Evidence pointer** Methods section
+  - **Issue** The basis set is stated as M06-31G(d), which appears to be a typographical error, as M06 is a functional and 6-31G(d) is a basis set. The correct notation should be M06/6-31G(d) or similar. Additionally, the level of theory for the DFT functional is not specified (e.g., M06 or B3LYP), and the text later mentions B3LYP/6-31G* for the MEP calculation, which is inconsistent.
+  - **Required correction** The authors should correct the basis set notation and clarify which functional was used for the geometry optimisations versus the MEP calculations.
+
+## Risk / unsupported claims
+- The claim that compounds 1–3 inhibit AT-hook 1 binding with IC50 values in the nanomolar range is not fully supported due to potential model misspecification in the competition analysis (R1-M1).
+- The claim that compounds 1–3 bind in the same region of DNA as AT-hook 1 is based solely on docking and is not experimentally validated (R1-M2).
+- The suggestion that AT-hook inhibition contributes to the antiparasitic mechanism of these drugs is speculative and not supported by cellular or in vivo data (R1-M3).
+- The statement that "the propensity of AT-hook 1 to bind preferentially to the minor groove of AT-rich DNA was confirmed by SPR and ITC" is partially supported, but the observed 2:1 stoichiometry and binding to CG-containing sequences complicate the interpretation of selectivity.
+- The comparison of binding thermodynamics between AT-hook 1 and compounds 1–3 is presented without a direct statistical comparison, making the claimed differences qualitative rather than quantitative.

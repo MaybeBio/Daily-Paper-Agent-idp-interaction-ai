@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific claims, experimental logic, and interpretation as presented in the text; no assessment of data quality beyond what is described
+- **Shared manuscript claim summary** The authors characterize two cancer-associated mutations in the dimerization domains of SPOP (R221C and R354H) that reduce linear oligomer size, weaken multivalent substrate binding, but paradoxically enhance poly-ubiquitination activity. They attribute this enhanced activity to an increased driving force for phase separation with substrates, and propose that tuning SPOP self-association can modulate its function and that similar separation-of-function mutations may be designed in other phase-separating systems.
+- **Visible evidence base** Text descriptions of CG-MALS experiments, in-cell ubiquitination assays, binding affinity measurements, and in vitro phase separation titrations; references to Figures 1-5, Table 1, and Supplementary Figures S1-S2
+- **Missing materials affecting confidence** All figures, tables, and supplementary data are not provided; no quantitative data values, error bars, or statistical analyses are visible; experimental methods are not described in detail; no raw data or reproducibility information
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in the field of biomolecular condensates: how to distinguish the functional contributions of clusters versus phase-separated condensates when both arise from the same multivalent interactions. The authors present a compelling conceptual framework and a set of cancer-associated mutations that appear to act as separation-of-function alleles. The central claim, that reduced oligomer size enhances phase separation and thereby increases ubiquitination activity, is mechanistically interesting and potentially significant. However, the evidence as described in the text is incomplete. Key quantitative data, controls, and statistical analyses are not visible, and the mechanistic explanation for why shorter oligomers enhance phase separation remains speculative. The manuscript is well written and the logic is clear, but the strength of the conclusions cannot be fully assessed from the provided material.
+- **Who would be interested in the results, and why** Researchers studying phase separation and biomolecular condensates, particularly those interested in the functional consequences of condensate formation versus sub-saturation clustering. The work will also be of interest to cancer biologists studying SPOP mutations and their mechanisms of action, as well as to biophysicists and computational biologists working on multivalent interactions and associative polymer models. The proposed strategy for generating separation-of-function mutations could have broad applicability across phase-separating systems.
+- **Major strengths** The manuscript tackles a fundamental and unresolved question in the field: whether condensates or clusters are the functional entities in multivalent systems. The use of cancer-associated mutations as natural perturbations is elegant and clinically relevant. The authors integrate biophysical measurements (CG-MALS), binding assays, in-cell activity assays, and in vitro phase separation experiments to build a multi-level picture. The discussion provides a thoughtful mechanistic hypothesis grounded in prior theoretical work, and the proposed framework for designing separation-of-function mutations is novel and potentially transformative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that SPOP interface mutants R221C and R354H enhance poly-ubiquitination activity towards DAXX and BRD3 compared to WT SPOP.
+  - **Evidence pointer** Figure 4A-C, described in text but not visible
+  - **Concern** The in-cell ubiquitination assays are described only qualitatively. No quantification, replicates, statistical tests, or loading controls are mentioned. The claim of enhanced activity is central to the paper, and without visible quantitative data and appropriate statistical analysis, this claim cannot be evaluated. Additionally, the text does not specify how expression levels of WT and mutant SPOP were normalized, which is critical given that differences in expression could confound activity measurements.
+  - **Why it matters** The entire mechanistic narrative depends on the observation that reduced oligomerization paradoxically enhances activity. If this effect is not robustly demonstrated with proper controls and statistics, the foundation of the paper collapses.
+  - **Resolution test** Provide quantified ubiquitination data with replicates, statistical tests, and evidence of equal SPOP expression across conditions. Show that the enhanced activity is specific to the interface mutants and not an artifact of expression differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic explanation
+  - **Claim pointer** The authors propose that the interface mutants enhance phase separation with substrates, and that this increased phase separation propensity explains the enhanced ubiquitination activity.
+  - **Evidence pointer** Figure 5A-D, described in text but not visible
+  - **Concern** The in vitro phase separation experiments are described as showing lower saturation concentrations for the mutants, but no quantitative phase diagrams, turbidity measurements, or microscopy images are provided. The text states that "similar results were also obtained using BRD3" but does not provide details. More critically, the causal link between enhanced phase separation and enhanced ubiquitination activity is inferred, not demonstrated. The authors do not show that the enhanced activity occurs within condensates, nor do they rule out alternative explanations such as altered substrate binding kinetics or changes in SPOP conformation that could affect CRL3 complex assembly.
+  - **Why it matters** The central mechanistic claim is that phase separation, not clustering, is the functionally relevant process. Without direct evidence linking the phase-separated state to enhanced enzymatic activity, the conclusion remains speculative.
+  - **Resolution test** Provide quantitative phase diagrams for WT and mutants with multiple substrate concentrations. Demonstrate that ubiquitination activity correlates with condensate formation, for example by comparing activity in conditions that promote versus suppress phase separation, or by showing that substrate ubiquitination occurs within condensates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors suggest that their findings provide a general strategy for designing separation-of-function mutations in other phase-separating systems.
+  - **Evidence pointer** Discussion section
+  - **Concern** The proposed strategy is based on a single system and two mutations. The authors argue that modulating oligomer size or solubility can differentially affect clusters versus condensates, but they do not provide evidence that this principle holds beyond SPOP. The discussion of SPOPL as a potential modulator is speculative and not tested. The claim of generalizability is therefore premature.
+  - **Why it matters** The broader significance of the work depends on its applicability to other systems. If the strategy is system-specific, the impact is substantially reduced.
+  - **Resolution test** Provide proof-of-principle in at least one additional multivalent system, or temper the claim to reflect the current evidence base.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "compartmentalizes many cellular pathways" is vague and could be more specific about the types of pathways and the mechanism of compartmentalization.
+  - **Required correction** Consider revising to specify the nature of compartmentalization, e.g., "spatially organizes and concentrates biochemical reactions in many cellular pathways."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, CG-MALS experiments
+  - **Evidence pointer** Figure 3 and Table 1, described in text but not visible
+  - **Issue** The text reports KD values for the isodesmic step but does not provide confidence intervals or goodness-of-fit metrics. It is unclear how well the model fits the data for the mutants.
+  - **Required correction** Report confidence intervals for all fitted parameters and provide a measure of fit quality, such as residuals or chi-squared values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph on mechanistic explanation
+  - **Evidence pointer** Discussion, second paragraph
+  - **Issue** The explanation for why shorter oligomers enhance phase separation relies on the idea that shorter oligomers "provide more space per bound DAXX molecule." This is plausible but not directly tested. The authors should acknowledge this as a hypothesis rather than a conclusion.
+  - **Required correction** Soften the language to indicate that this is a proposed mechanism that requires further testing.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results section, phase separation experiments
+  - **Evidence pointer** Figure 5, described in text but not visible
+  - **Issue** The text states that "similar results were also obtained using BRD3" but does not specify whether the same concentrations, buffers, and imaging conditions were used. This lack of detail makes it difficult to assess the robustness of the finding.
+  - **Required correction** Provide a brief description of the BRD3 experiments, including concentrations and conditions, or refer to a supplementary figure with full details.
+
+## Risk / unsupported claims
+- The claim that interface mutants enhance ubiquitination activity is not supported by visible quantitative data or statistical analysis.
+- The claim that enhanced phase separation propensity explains enhanced ubiquitination activity is inferred, not directly demonstrated.
+- The claim that the proposed strategy for separation-of-function mutations is generalizable to other systems is unsupported by evidence beyond the SPOP system.
+- The mechanistic explanation involving "more space per bound DAXX molecule" is speculative and not tested.
+- The statement that SPOPL levels may modulate SPOP activity via oligomer capping is speculative and not experimentally addressed.
+- The claim that the interface mutations are potentially pathogenic is based on cancer database presence but not functionally validated in disease models.

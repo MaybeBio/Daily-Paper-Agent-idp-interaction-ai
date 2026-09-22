@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39253485",
+  "title": "StrIDR: a database of intrinsically disordered regions of proteins with experimentally resolved structures.",
+  "authors": "Majila, Kartik; Viswanath, Shruthi",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-09-10",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文构建了含实验解析结构的无序区域数据库StrIDR，虽聚焦IDR对象但无PPI或AI/物理模拟方法，仅提供数据资源，对机制建模有间接支撑作用。",
+  "abstract": "MOTIVATION: Intrinsically disordered regions (IDRs) of proteins exist as an ensemble of conformations, and not as a single structure. Existing databases contain extensive, experimentally derived annotations of intrinsic disorder for millions of proteins at the sequence level. However, only a tiny fraction of these IDRs are associated with an experimentally determined protein structure. Moreover, even if a structure exists, parts of the disordered regions may still be unresolved. RESULTS: Here we organize Structures of Intrinsically Disordered Regions (StrIDR), a database of IDRs confirmed via experimental or homology-based evidence, resolved in experimentally determined structures. The database can provide useful insights into the dynamics, folding, and interactions of IDRs. It can also facilitate computational studies on IDRs, such as those using molecular dynamics simulations and/or machine learning. AVAILABILITY: StrIDR is available at https://isblab.ncbs.res.in/stridr. The web UI allows for downloading PDB structures and SIFTS mappings of individual entries. Additionally, the entire database can be downloaded in a JSON format. The source code for creating and updating the database is available at https://github.com/isblab/stridr.",
+  "abstract_zh": "动机：蛋白质的内在无序区域（IDRs）以构象集合体形式存在，而非单一结构。现有数据库包含数百万蛋白质在序列水平上通过实验获得的广泛内在无序注释。然而，这些IDRs中仅有极小部分与实验确定的蛋白质结构相关联。此外，即使存在结构，无序区域的某些部分可能仍未解析。结果：在此，我们组织了内在无序区域结构（StrIDR）数据库，该数据库收录了通过实验或同源性证据确认、并在实验确定结构中解析的IDRs。该数据库可为IDRs的动态、折叠和相互作用提供有价值的见解，并有助于IDRs的计算研究，例如使用分子动力学模拟和/或机器学习的研究。可用性：StrIDR可在https://isblab.ncbs.res.in/stridr获取。网页界面允许下载单个条目的PDB结构和SIFTS映射。此外，整个数据库可以JSON格式下载。创建和更新数据库的源代码可在https://github.com/isblab/stridr获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39253485/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39253485/",
+  "paper_page_path": "papers/pubmed/39253485/index.html"
+}

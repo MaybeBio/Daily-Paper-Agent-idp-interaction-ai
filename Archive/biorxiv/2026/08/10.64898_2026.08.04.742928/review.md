@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusion, and methods sections. Figures and supplementary materials are referenced but not provided in full.
+- **Assessment boundary** Scientific content, methodological rigor, logical coherence, and support of claims by presented evidence. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered N-terminal region of the hydrophobin RolA from *Aspergillus oryzae* mediates self-catalytic interfacial nucleation during rodlet formation at the air–water interface. They support this with AFM imaging, dynamic surface tension measurements, and molecular dynamics simulations, concluding that the N-terminus plays a bifunctional role in both enzyme recruitment and rodlet formation.
+- **Visible evidence base** Abstract, full introduction, results section (partial, with figures referenced), discussion, conclusion, and methods. Figures 1–5 and supplementary figures S1–S6 are referenced but not fully visible. Tables S1 and equations are mentioned but not shown.
+- **Missing materials affecting confidence** Full figure panels, supplementary figures, tables (S1), and detailed statistical analyses are not provided. The exact AFM image quantification methodology and the full dynamic surface tension datasets are not visible. MD simulation convergence and reproducibility details are partially described but not fully assessable.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant gap in understanding hydrophobin rodlet formation, specifically the role of the N-terminal IDR. The combination of experimental kinetics and MD simulations is a strong approach. However, the current evidence does not fully establish the proposed "self-catalytic interfacial nucleation" mechanism. The distinction between nucleation and elongation is inferred rather than directly demonstrated, and the molecular details from simulations are not sufficiently linked to the macroscopic observations. The work is promising and of interest to the hydrophobin and amyloid research communities, but requires additional experimental validation and clearer data presentation.
+- **Who would be interested in the results, and why** Researchers studying functional amyloids, hydrophobin self-assembly, protein interfacial behavior, and surface-catalyzed nucleation. The findings may also interest those developing hydrophobin-based biomaterials and understanding fungal spore dispersal mechanisms.
+- **Major strengths** 1. The study addresses a previously under-explored aspect of hydrophobin biology, the role of the N-terminal IDR. 2. The combination of AFM, dynamic surface tension, and MD simulations provides a multi-scale view of the process. 3. The kinetic interpretation of surface tension data is a thoughtful approach to separate adsorption from rodlet formation. 4. The discussion of the N-terminus as a bifunctional domain is well contextualized within existing literature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that the N-terminal region mediates "self-catalytic interfacial nucleation" of rodlet formation.
+  - **Evidence pointer** Results section, Figures 2–4, Discussion
+  - **Concern** The term "self-catalytic" implies that the N-terminus actively catalyzes nucleation. The evidence shows that mutations delay rodlet formation and alter lag times, but this is an indirect measure. The authors do not provide direct evidence of a catalytic mechanism, such as showing that the N-terminus lowers the nucleation barrier in a concentration-dependent manner or that it interacts transiently with incoming monomers in a way that promotes their incorporation. The MD simulations show contact patterns but do not demonstrate a catalytic cycle or enhanced nucleation rate.
+  - **Why it matters** The central claim of the paper rests on this mechanistic interpretation. Without direct evidence of catalysis, the conclusion is overstated and the proposed model remains speculative.
+  - **Resolution test** Provide direct experimental evidence, such as measuring nucleation rates as a function of N-terminal peptide concentration, or performing mutations that specifically disrupt a proposed catalytic interaction and showing a corresponding loss of function. Alternatively, use enhanced sampling MD to demonstrate that the N-terminus lowers the free energy barrier for nucleation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors state that the lag time in surface tension measurements is a "macroscopic proxy for nucleation."
+  - **Evidence pointer** Results section, Figure 3C, Discussion
+  - **Concern** The lag time is interpreted as nucleation, but it could also reflect a slow conformational rearrangement or a critical concentration threshold for lateral packing. The authors do not rule out alternative explanations. The scaling analysis with equation 2 is mentioned but the fit parameters and their uncertainties are not shown, making it impossible to assess the robustness of the interpretation.
+  - **Why it matters** If the lag time does not purely represent nucleation, the conclusions about the N-terminus affecting nucleation are not valid. The distinction between nucleation and other rate-limiting steps is essential for the proposed model.
+  - **Resolution test** Perform independent measurements of nucleation, such as time-resolved AFM at higher temporal resolution, or use a fluorescent probe that specifically reports on β-sheet formation. Show the full scaling analysis with error bars and statistical tests to support the interpretation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation-experiment link
+  - **Claim pointer** The MD simulations are used to support the model that the N-terminus interacts with the Cys3–Cys4 loop and that mutations disrupt this interaction.
+  - **Evidence pointer** Results section, Figure 5, Methods
+  - **Concern** The simulations are performed on a single monomer at the interface, not on a growing rodlet or a nucleating cluster. The relevance of intramolecular contacts in a monomer to the intermolecular interactions during nucleation is not established. The authors do not show that the contacts observed in the monomer are preserved or functionally important in the context of a multi-molecular assembly.
+  - **Why it matters** The simulation results are used to provide a molecular explanation for the experimental observations. If the simulated system does not capture the relevant nucleating species, the proposed mechanism is not supported.
+  - **Resolution test** Perform simulations of two or more RolA molecules at the interface to directly observe intermolecular interactions involving the N-terminus. Alternatively, use coarse-grained or enhanced sampling methods to model the nucleation process and show that the N-terminus promotes cluster formation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2C
+  - **Evidence pointer** Results section, Figure 2C
+  - **Issue** The half-time data are presented without error bars or statistical significance indicators. It is unclear if the differences between WT and mutants are significant.
+  - **Required correction** Add error bars and perform appropriate statistical tests (e.g., ANOVA with post-hoc comparisons) to support the claim of delayed rodlet formation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, MD simulation section
+  - **Evidence pointer** Methods section
+  - **Issue** The number of independent simulations for the H32S/K34S mutant is not stated. For WT, four simulations are mentioned, but the mutant is not specified.
+  - **Required correction** State the number of independent simulations for each system and provide convergence metrics (e.g., RMSD over time) to ensure the results are reproducible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3D
+  - **Evidence pointer** Results section, Figure 3D
+  - **Issue** The AFM images at three time points are described, but the corresponding surface tension values are not shown on the same figure. This makes it difficult to correlate the structural observations with the kinetic data.
+  - **Required correction** Include the surface tension values or a time axis on the figure to allow direct comparison between the structural and kinetic data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, paragraph on NaCl effects
+  - **Evidence pointer** Discussion section
+  - **Issue** The effect of NaCl is attributed to screening of electrostatic interactions, but the authors do not consider potential effects on hydrophobic interactions or protein stability.
+  - **Required correction** Acknowledge alternative explanations for the NaCl effect and, if possible, perform control experiments (e.g., with a non-ionic osmolyte) to strengthen the interpretation.
+- **Technical failings that need to be addressed before the case is established** 1. The lack of direct evidence for a catalytic mechanism (R1-M1). 2. The ambiguous interpretation of lag time as nucleation (R1-M2). 3. The limited relevance of monomeric MD simulations to the nucleation process (R1-M3). 4. Missing statistical details and full datasets for the kinetic measurements.
+- **Assessment against Nature-style criteria** **Originality:** The focus on the N-terminal IDR as a regulator of rodlet formation is a novel angle, as most studies emphasize the hydrophobic loops. The proposed bifunctionality is an interesting concept. **Scientific importance:** Understanding hydrophobin self-assembly has implications for fungal biology and biomaterial design. The study could be important if the mechanism is fully validated. **Interdisciplinary readership:** The topic bridges biophysics, mycology, and materials science, which could attract a broad audience. **Technical soundness:** The combination of techniques is appropriate, but the current analysis has gaps in statistical rigor and simulation-experiment integration. **Readability for nonspecialists:** The manuscript is generally well-written, but the mechanistic claims require more careful explanation to be accessible to a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the experimental approach is sound, but the central claim of self-catalytic nucleation is not yet established from the provided evidence. Additional experiments and clearer data presentation are needed.
+
+## Risk / unsupported claims
+- The claim of "self-catalytic interfacial nucleation" is not directly supported by the evidence; it is an inference from indirect kinetic measurements.
+- The interpretation of lag time as a "macroscopic proxy for nucleation" is not fully justified and alternative explanations are not ruled out.
+- The MD simulations are used to support a mechanistic model, but the simulated system (single monomer) may not represent the nucleating species, making the link between simulation and experiment weak.
+- The statement that the N-terminus is "bifunctional" is plausible but not fully proven; the study only shows an effect on rodlet formation, not a direct demonstration of dual functionality in a physiological context.

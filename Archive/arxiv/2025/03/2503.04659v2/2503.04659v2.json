@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2503.04659v2",
+  "title": "Predicting Heteropolymer Phase Separation Using Two-Chain Contact Maps",
+  "doi": "10.1063/5.0269504",
+  "abstract": "Phase separation in polymer solutions often correlates with single-chain and two-chain properties, such as the single-chain radius of gyration, Rg, and the pairwise second virial coefficient, B22. However, recent studies have shown that these metrics can fail to distinguish phase-separating from non-phase-separating heteropolymers, including intrinsically disordered proteins (IDPs). Here we introduce an approach to predict heteropolymer phase separation from two-chain simulations by analyzing contact maps, which capture how often specific monomers from the two chains are in physical proximity. Whereas B22 summarizes the overall attraction between two chains, contact maps preserve spatial information about their interactions. To compare these metrics, we train phase-separation classifiers for both a minimal heteropolymer model and a chemically specific, residue-level IDP model. Remarkably, simple statistical properties of two-chain contact maps predict phase separation with high accuracy, vastly outperforming classifiers based on Rg and B22 alone. Our results thus establish a transferable and computationally efficient method to uncover key driving forces of IDP phase behavior based on their physical interactions in dilute solution.",
+  "authors": [
+    "Jessica Jin",
+    "Wesley Oliver",
+    "Michael A. Webb",
+    "William M. Jacobs"
+  ],
+  "published_date": "2025-03-06T17:54:44Z",
+  "updated_date": "2025-05-20T16:54:33Z",
+  "journal": "J. Chem. Phys. 163, 014102 (2025)",
+  "category": "cond-mat.soft, q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2503.04659v2",
+  "pdf_url": "https://arxiv.org/pdf/2503.04659v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft",
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2503.04659v2",
+    "raw_categories": [
+      "cond-mat.soft",
+      "q-bio.BM"
+    ],
+    "journal_ref": "J. Chem. Phys. 163, 014102 (2025)"
+  }
+}

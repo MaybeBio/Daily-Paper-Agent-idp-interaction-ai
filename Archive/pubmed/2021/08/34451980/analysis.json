@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34451980",
+  "title": "Guiding the Immune Response to a Conserved Epitope in MSP2, an Intrinsically Disordered Malaria Vaccine Candidate.",
+  "authors": "Seow, Jeffrey; Das, Sreedam C; Morales, Rodrigo A V; Ataide, Ricardo; Krishnarjuna, Bankala; Silk, Mitchell; Chalmers, David K; Richards, Jack; Anders, Robin F; MacRaild, Christopher A; Norton, Raymond S",
+  "journal": "Vaccines",
+  "published_date": "2021-08-29",
+  "window": {
+    "start": "2021-08-23",
+    "end": "2021-08-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究以无序疟疾疫苗抗原MSP2为对象，结合晶体结构与分子动力学模拟设计约束肽以引导免疫应答，虽非直接研究PPI机制，但无序蛋白表位构象的物理模拟建模思路对本课题有可迁移启发。",
+  "abstract": "The malaria vaccine candidate merozoite surface protein 2 (MSP2) has shown promise in clinical trials and is in part responsible for a reduction in parasite densities. However, strain-specific reductions in parasitaemia suggested that polymorphic regions of MSP2 are immuno-dominant. One strategy to bypass the hurdle of strain-specificity is to bias the immune response towards the conserved regions. Two mouse monoclonal antibodies, 4D11 and 9H4, recognise the conserved C-terminal region of MSP2. Although they bind overlapping epitopes, 4D11 reacts more strongly with native MSP2, suggesting that its epitope is more accessible on the parasite surface. In this study, a structure-based vaccine design approach was applied to the intrinsically disordered antigen, MSP2, using a crystal structure of 4D11 Fv in complex with its minimal binding epitope. Molecular dynamics simulations and surface plasmon resonance informed the design of a series of constrained peptides that mimicked the 4D11-bound epitope structure. These peptides were conjugated to keyhole limpet hemocyanin and used to immunise mice, with high to moderate antibody titres being generated in all groups. The specificities of antibody responses revealed that a single point mutation can focus the antibody response towards a more favourable epitope. This structure-based approach to peptide vaccine design may be useful not only for MSP2-based malaria vaccines, but also for other intrinsically disordered antigens.",
+  "abstract_zh": "疟疾疫苗候选抗原裂殖子表面蛋白2（MSP2）在临床试验中显示出前景，并在一定程度上导致了寄生虫密度的降低。然而，寄生虫血症的株特异性降低提示MSP2的多态性区域具有免疫优势。绕过株特异性障碍的一种策略是将免疫反应偏向保守区域。两种小鼠单克隆抗体4D11和9H4识别MSP2的保守C端区域。尽管它们结合重叠的表位，但4D11与天然MSP2的反应更强，表明其表位在寄生虫表面更易接近。在本研究中，采用基于结构的疫苗设计方法，针对 intrinsically disordered 抗原MSP2，利用4D11 Fv与其最小结合表位复合物的晶体结构。分子动力学（molecular dynamics）模拟和表面等离子体共振（surface plasmon resonance）指导了一系列模拟4D11结合表位结构的约束肽的设计。这些肽与钥孔血蓝蛋白（keyhole limpet hemocyanin）偶联并用于免疫小鼠，所有组均产生了高至中等的抗体滴度。抗体反应的特异性表明，单个点突变可以将抗体反应聚焦于更有利的表位。这种基于结构的肽疫苗设计方法不仅可能适用于基于MSP2的疟疾疫苗，也可能适用于其他 intrinsically disordered 抗原。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34451980/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34451980/",
+  "paper_page_path": "papers/pubmed/34451980/index.html"
+}

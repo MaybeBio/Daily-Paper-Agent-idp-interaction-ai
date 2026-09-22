@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37215004",
+  "title": "Sequence-Dependent Material Properties of Biomolecular Codensates and their Relation to Dilute Phase Conformations.",
+  "authors": "Devarajan, Dinesh Sundaravadivelu; Wang, Jiahui; Szala-Mendyk, Beata; Rekhi, Shiv; Nikoubashman, Arash; Kim, Young C; Mittal, Jeetain",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-05-22",
+  "window": {
+    "start": "2023-05-22",
+    "end": "2023-05-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用Martini与hydropathy尺度模型对带电无序蛋白凝聚体进行平衡/非平衡分子模拟，揭示电荷排布决定凝聚体材料性质并关联稀相单链构象，属于IDP相分离PPI机制建模，方法为物理模拟，对象与互作机制高度契合。",
+  "abstract": "Material properties of phase-separated biomolecular assemblies, enriched with disordered proteins, dictate their ability to participate in many cellular functions. Despite the significant effort dedicated to understanding how the sequence of the disordered protein drives its phase separation to form condensates, little is known about the sequence determinants of condensate material properties. Here, we computationally decipher these relationships for charged disordered proteins using model sequences comprised of glutamic acid and lysine residues as well as naturally occurring sequences of LAF1's RGG domain and DDX4's N-terminal domain. We do so by delineating how the arrangement of oppositely charged residues within these sequences influences the dynamical, rheological, and interfacial properties of the condensed phase through equilibrium and non-equilibrium molecular simulations using the hydropathy scale and Martini models. Our computations yield material properties that are quantitatively comparable with experimentally characterized condensate systems. Interestingly, we find that the material properties of both the model and natural proteins respond similarly to the segregation of charges, despite their very different sequence compositions. Condensates of the highly charge-segregated sequences exhibit slower dynamics than the uniformly charge-patterned sequences, because of their comparatively long-lived molecular contacts between oppositely charged residues. Surprisingly, the molecular interactions within the condensate are highly similar to those within a single-chain for all sequences. Consequently, the condensate material properties of charged disordered proteins are strongly correlated with their dense phase contact dynamics and their single-chain structural properties. Our findings demonstrate the potential to harness the sequence characteristics of disordered proteins for predicting and engineering the material properties of functional condensates, with insights from the dilute phase properties.",
+  "abstract_zh": "富含无序蛋白的相分离生物分子组装体的材料特性决定了其参与多种细胞功能的能力。尽管已有大量研究致力于理解无序蛋白的序列如何驱动其相分离形成凝聚体，但关于凝聚体材料特性的序列决定因素知之甚少。在此，我们通过使用由谷氨酸和赖氨酸残基组成的模型序列以及LAF1的RGG结构域和DDX4的N端结构域的自然发生序列，计算性地解析了带电无序蛋白的这些关系。我们通过使用疏水性标度和Martini模型进行平衡和非平衡分子模拟，描绘了这些序列中带相反电荷残基的排列如何影响凝聚相的动力学、流变学和界面性质。我们的计算得出的材料特性与实验表征的凝聚体系统在数量上具有可比性。有趣的是，我们发现模型蛋白和天然蛋白的材料特性对电荷分离的响应相似，尽管它们的序列组成差异很大。高度电荷分离序列的凝聚体表现出比均匀电荷模式序列更慢的动力学，这是因为它们带相反电荷残基之间的分子接触相对持久。令人惊讶的是，对于所有序列，凝聚体内的分子相互作用与单链内的相互作用高度相似。因此，带电无序蛋白的凝聚体材料特性与其稠密相接触动力学和单链结构特性密切相关。我们的发现展示了利用无序蛋白的序列特征来预测和工程化功能性凝聚体材料特性的潜力，并从稀相性质中获得见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37215004/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37215004/",
+  "paper_page_path": "papers/pubmed/37215004/index.html"
+}

@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2604.08316v2",
+  "title": "Active Transport as a Mechanism of Microphase Selection in Biomolecular Condensates",
+  "doi": "",
+  "abstract": "The size and organization of biomolecular condensates formed by liquid-liquid phase separation (LLPS) are set by multiple cellular mechanisms that are not yet fully understood. Here we identify a transport-driven mechanism: stochastic binding of phase-separating proteins to cytoskeletal motor proteins, followed by active redistribution along filament networks, generates an effective long-range repulsion that arrests coarsening and selects a finite condensate size. A minimal diffusion-transport model, analyzed by linear stability theory and three-dimensional simulations, reveals a transition from macroscopic to microphase separation at remarkably low binding/release fractions, corresponding to minute motor-bound populations. Tuning motor binding rates $b$ or transport velocities enables sublinear control of condensate sizes ($L \\sim b^{-1/4}$) from a few hundred nanometres up to the micron scale. The selected length scale is robust to the intrinsic shot noise of the binding--release reactions. In anisotropic cytoskeletal environments, transport asymmetry drives morphological transitions from spherical to cylindrical condensates, independently of the thermodynamic parameters. This mechanism provides a versatile, spatiotemporally programmable route to condensate organization and informs the design of synthetic active emulsions with tunable architectures.",
+  "authors": [
+    "Le Qiao",
+    "Peter Gispert",
+    "Lukas S. Stelzl",
+    "Friederike Schmid"
+  ],
+  "published_date": "2026-04-09T14:49:43Z",
+  "updated_date": "2026-08-05T11:43:15Z",
+  "journal": "",
+  "category": "physics.bio-ph, cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2604.08316v2",
+  "pdf_url": "https://arxiv.org/pdf/2604.08316v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "physics.bio-ph",
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2604.08316v2",
+    "raw_categories": [
+      "physics.bio-ph",
+      "cond-mat.soft"
+    ],
+    "journal_ref": ""
+  }
+}

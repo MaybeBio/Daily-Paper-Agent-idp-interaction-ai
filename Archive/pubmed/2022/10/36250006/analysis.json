@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36250006",
+  "title": "Prediction of protein-protein interaction sites in intrinsically disordered proteins.",
+  "authors": "Chen, Ranran; Li, Xinlu; Yang, Yaqing; Song, Xixi; Wang, Cheng; Qiao, Dongdong",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2022-10-18",
+  "window": {
+    "start": "2022-10-17",
+    "end": "2022-10-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文系统综述了30种基于序列和AI方法预测无序蛋白互作位点(IDP-PPIS)的工具，聚焦无序蛋白对象与PPI预测，但以方法综述为主、缺乏机制建模深度。",
+  "abstract": "Intrinsically disordered proteins (IDPs) participate in many biological processes by interacting with other proteins, including the regulation of transcription, translation, and the cell cycle. With the increasing amount of disorder sequence data available, it is thus crucial to identify the IDP binding sites for functional annotation of these proteins. Over the decades, many computational approaches have been developed to predict protein-protein binding sites of IDP (IDP-PPIS) based on protein sequence information. Moreover, there are new IDP-PPIS predictors developed every year with the rapid development of artificial intelligence. It is thus necessary to provide an up-to-date overview of these methods in this field. In this paper, we collected 30 representative predictors published recently and summarized the databases, features and algorithms. We described the procedure how the features were generated based on public data and used for the prediction of IDP-PPIS, along with the methods to generate the feature representations. All the predictors were divided into three categories: scoring functions, machine learning-based prediction, and consensus approaches. For each category, we described the details of algorithms and their performances. Hopefully, our manuscript will not only provide a full picture of the status quo of IDP binding prediction, but also a guide for selecting different methods. More importantly, it will shed light on the inspirations for future development trends and principles.",
+  "abstract_zh": "固有无序蛋白质（IDPs）通过与其他蛋白质相互作用参与许多生物过程，包括转录、翻译及细胞周期的调控。随着无序序列数据量的不断增加，识别IDP结合位点对于这些蛋白质的功能注释至关重要。数十年来，基于蛋白质序列信息，已开发出许多计算方法来预测IDP的蛋白质-蛋白质结合位点（IDP-PPIS）。此外，随着人工智能的快速发展，每年都有新的IDP-PPIS预测器问世。因此，有必要对该领域的方法进行最新综述。本文收集了近期发表的30个代表性预测器，并总结了数据库、特征和算法。我们描述了如何基于公共数据生成特征并用于IDP-PPIS预测的过程，以及生成特征表示的方法。所有预测器被分为三类：评分函数、基于机器学习的预测和共识方法。对于每一类，我们详细描述了算法及其性能。希望我们的手稿不仅能全面展示IDP结合预测的现状，还能为选择不同方法提供指导。更重要的是，它将为未来发展趋势和原则提供灵感。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36250006/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36250006/",
+  "paper_page_path": "papers/pubmed/36250006/index.html"
+}

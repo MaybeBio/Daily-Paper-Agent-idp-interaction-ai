@@ -1,0 +1,113 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, appendices) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the proposed method, experimental design, results, and claims. No assessment of code availability, reproducibility of training runs, or peer-review status.
+- **Shared manuscript claim summary** The authors propose E(Q)AGNN-PPIS, an equivariant graph neural network with attention-enhanced message passing for protein-protein interaction (PPI) site prediction. They claim state-of-the-art performance on benchmark datasets, robust generalization, and theoretical guarantees of equivariance.
+- **Visible evidence base** Abstract, introduction, methods (Sections II–III), results (Section IV), ablation studies (Section IV-D, Figure 4, Figure 5), case study (Section IV-C), appendices (A–C), references.
+- **Missing materials affecting confidence** Full training details (hyperparameter search specifics, data splits, cross-validation), code, trained model weights, detailed per-protein results for all test sets, statistical significance tests, and comparison with additional recent baselines not cited.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically sound and well-motivated extension of equivariant GNNs for PPI site prediction. The integration of attention into equivariant message passing is a reasonable and potentially impactful contribution. However, the evidence provided is insufficient to fully support the strong claims of state-of-the-art performance and robust generalization. Key concerns include incomplete experimental reporting, lack of statistical significance testing, and insufficient comparison with recent methods. The theoretical equivariance proofs are correct but limited in scope.
+- **Who would be interested in the results, and why** Computational biologists, bioinformaticians, and machine learning researchers working on protein structure analysis, protein-protein interaction prediction, and geometric deep learning. The method's potential to improve binding site prediction accuracy could be of interest to drug discovery and protein engineering communities.
+- **Major strengths**
+  1. Clear problem motivation and well-defined contribution.
+  2. Sound theoretical foundation with explicit equivariance proofs.
+  3. Comprehensive ablation studies on key architectural components.
+  4. Evaluation on multiple benchmark datasets including generalization sets.
+  5. Case study analysis provides qualitative insights.
+- **Major Concerns**
+  - **R1-M1**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Experimental rigor
+    - **Claim pointer** "Our experimental findings underscore the enhanced performance of E(Q)AGNN-PPIS compared to current state-of-the-art approaches, exhibiting gains of 8.33% in AUPRC and 10% in MCC across benchmark datasets."
+    - **Evidence pointer** Table IV, Section IV-B
+    - **Concern** The reported performance improvements are presented without any statistical significance testing. It is unclear whether the observed gains are consistent across multiple runs or due to random initialization. No standard deviation or confidence intervals are reported for any metric.
+    - **Why it matters** Without statistical validation, the claimed superiority over state-of-the-art methods cannot be reliably established. This is particularly important given the class imbalance in the datasets, where small metric differences may not be meaningful.
+    - **Resolution test** Provide results from multiple independent training runs (e.g., 5-10 seeds) with mean and standard deviation for all metrics. Perform appropriate statistical tests (e.g., paired bootstrap or Wilcoxon signed-rank test) comparing E(Q)AGNN-PPIS against the strongest baselines.
+  - **R1-M2**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Comparison completeness
+    - **Claim pointer** "We demonstrate the superior performance of E(Q)AGNN-PPIS on the PPI site prediction task, surpassing state-of-the-art techniques."
+    - **Evidence pointer** Table IV, Section IV-B
+    - **Concern** The comparison with state-of-the-art methods is limited to a small set of baselines, primarily GHGPR-PPIS and AGAT-PPIS. Several recent and relevant methods for PPI site prediction (e.g., DeepPPISP variants, GraphPPIS, other GNN-based approaches, and sequence-based methods) are either not compared or not discussed in sufficient detail. The selection criteria for baselines are not justified.
+    - **Why it matters** A fair and comprehensive comparison is essential to substantiate the claim of state-of-the-art performance. Missing recent baselines could lead to an overestimation of the method's relative merit.
+    - **Resolution test** Expand the baseline set to include all recently published PPI site prediction methods (2020–2024) that use similar benchmark datasets. Clearly state the criteria for baseline selection and ensure consistent experimental settings across all methods.
+  - **R1-M3**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Generalization assessment
+    - **Claim pointer** "The empirical findings demonstrate the robust generalization ability of our method, as it consistently outperforms both AGAT-PPIS and GHGPR-PPIS on the Ubtest_31-6 dataset across all metrics."
+    - **Evidence pointer** Table V, Section IV-C
+    - **Concern** The generalization assessment is based on only two test sets (Test_315-28 and Ubtest_31-6). While these are standard benchmarks, the claim of "robust generalization" would be strengthened by evaluating on additional diverse datasets, such as those with different protein families, evolutionary distances, or experimental conditions. The case study on 10 proteins is limited and not systematically analyzed.
+    - **Why it matters** Generalization is a critical claim for practical utility. Limited evaluation on a narrow set of benchmarks may not reflect real-world performance across the diverse landscape of protein structures and interactions.
+    - **Resolution test** Evaluate on additional independent test sets (e.g., protein complexes from different organisms, membrane proteins, or intrinsically disordered proteins). Provide a more systematic analysis of failure cases and performance variation across protein properties.
+  - **R1-M4**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical clarity
+    - **Claim pointer** "The node features of the geometric protein graph integrate both sequential and structural information of protein chains, offering a comprehensive 62-dimensional feature vector for each amino acid residue."
+    - **Evidence pointer** Section II-B, Table II
+    - **Concern** The feature engineering section is dense and lacks sufficient detail for reproducibility. The exact composition of the 62-dimensional feature vector is not fully specified. The description of atomic features (7 per residue) is ambiguous: it is unclear whether these are per-atom features aggregated to residue level or per-residue features. The pseudo-position embedding feature (PPEF) is described vaguely.
+    - **Why it matters** Reproducibility is a cornerstone of scientific contribution. Incomplete feature descriptions hinder other researchers from replicating or building upon the work.
+    - **Resolution test** Provide a complete, itemized list of all 62 features with their sources and preprocessing steps. Clarify the atomic feature aggregation procedure. Provide a formal definition of PPEF.
+  - **R1-M5**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Ablation depth
+    - **Claim pointer** "We conduct extensive ablation studies and present visualizations to gain insights into the inner workings of E(Q)AGNN-PPIS."
+    - **Evidence pointer** Section IV-D, Figures 4 and 5
+    - **Concern** The ablation studies focus on distance threshold and model depth. However, the contribution of the attention mechanism itself is not directly ablated. It is unclear whether the performance gains come from the equivariant architecture, the attention mechanism, or the combination. Additionally, the effect of vector features (vs. scalar-only) is not isolated.
+    - **Why it matters** Understanding the contribution of each component is essential for scientific insight and for guiding future improvements. Without ablating the attention mechanism, the central claim of "attention-enhanced" performance is not directly validated.
+    - **Resolution test** Add ablation experiments that: (1) remove the attention mechanism (replace with uniform averaging), (2) use scalar features only (no vector features), and (3) combine these variations. Report results for all configurations.
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Writing quality
+    - **Affected element** Abstract and Introduction
+    - **Evidence pointer** Abstract, Section I
+    - **Issue** The abstract and introduction contain several grammatical errors and awkward phrasings (e.g., "an speedup version", "we aim to develop and train an Equivariant Graph Neural Network (GNN) model f ( G p , C ) to ensure consistent predictions regardless of the protein’s orientation"). The writing would benefit from professional editing.
+    - **Required correction** Revise the abstract and introduction for clarity and grammatical correctness.
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Notation consistency
+    - **Affected element** Section II-B, Section III-A
+    - **Evidence pointer** Equations (1)–(9)
+    - **Issue** Notation is inconsistent in places. For example, the graph is defined as "undirected graph ." with missing symbols. The use of 𝒮 for both a sequence of GNN layers and a set is confusing. Some variables are introduced without definition.
+    - **Required correction** Standardize notation throughout the manuscript. Define all symbols at first use.
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Figure quality
+    - **Affected element** Figures 1–5
+    - **Evidence pointer** Figures 1–5
+    - **Issue** Figure quality and resolution are not assessable from the text. Figure captions are minimal and do not fully explain the content. For example, Figure 1 (architecture) is referenced but not described in detail.
+    - **Required correction** Provide detailed figure captions. Ensure figures are high-resolution and self-explanatory.
+  - **R1-m4**
+    - **Severity** Minor
+    - **Axis** Related work
+    - **Affected element** Section I
+    - **Evidence pointer** Section I
+    - **Issue** The related work section is brief and does not adequately cover recent advances in equivariant GNNs for protein structure prediction, nor does it discuss alternative approaches such as transformer-based methods or geometric deep learning beyond GNNs.
+    - **Required correction** Expand the related work to provide a more comprehensive context and clearly position the contribution relative to recent developments.
+  - **R1-m5**
+    - **Severity** Minor
+    - **Axis** Data availability
+    - **Affected element** Section IV-A
+    - **Evidence pointer** Section IV-A
+    - **Issue** The manuscript states "We will release the code upon the decision from reviewers." This is acceptable for a preprint, but the data preprocessing pipeline and exact dataset splits are not fully described.
+    - **Required correction** Provide a detailed description of data preprocessing, including how structures were obtained, how missing residues were handled, and the exact train/test splits.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The combination of equivariant message passing with attention for PPI site prediction is a novel application, but the individual components (GVP, attention) are established. The theoretical contribution is limited to a proof of equivariance, which is expected for such architectures.
+  - **Scientific importance** Moderate to high. PPI site prediction is an important problem in structural biology and drug discovery. Improved accuracy could have practical implications. However, the demonstrated improvements over existing methods are modest and not statistically validated.
+  - **Interdisciplinary readership** Moderate. The work bridges machine learning and structural biology. The writing is accessible to computational readers but may be challenging for experimental biologists due to the heavy mathematical notation.
+  - **Technical soundness** The theoretical framework is sound, and the experimental design is reasonable. However, the lack of statistical testing, incomplete feature descriptions, and limited baseline comparisons reduce the overall technical rigor.
+  - **Readability for nonspecialists** Below average. The manuscript assumes significant familiarity with both GNNs and protein structure analysis. The abstract is dense and does not clearly explain the method's novelty in accessible terms.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the theoretical foundation is solid. However, the current evidence does not fully establish the claimed state-of-the-art performance. The authors should address the major concerns regarding statistical validation, baseline completeness, and reproducibility before the claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim of "first method to leverage the expressive power of equivariant message passing... in PPI site prediction task" is not fully verifiable from the provided text, as the related work section is incomplete.
+- The reported performance improvements (8.33% AUPRC, 10% MCC) are presented without statistical significance testing, making them unsupported as definitive claims.
+- The claim of "robust generalization" is based on limited test sets and lacks systematic analysis of failure cases.
+- The case study on protein 1wpx(A) is anecdotal and not statistically representative.
+- The ablation study does not isolate the contribution of the attention mechanism, leaving the central claim of "attention-enhanced" performance unverified.
+- The exact composition of the 62-dimensional feature vector is not fully specified, making the feature engineering claims unverifiable.

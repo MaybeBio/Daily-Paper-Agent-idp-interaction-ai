@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "37609923",
+    "doi": "10.1093/bib/bbad299",
+    "title": "PredLLPS_PSSM: a novel predictor for liquid-liquid protein separation identification based on evolutionary information and a deep neural network."
+  },
+  "content": {
+    "abstract": "The formation of biomolecular condensates by liquid-liquid phase separation (LLPS) has become a universal mechanism for spatiotemporal coordination of biological activities in cells and has been widely observed to directly regulate the key cellular processes involved in cancer cell pathology. However, the complexity of protein sequences and the diversity of conformations are inherently disordered, which poses great challenges for LLPS protein calculations and experimental research. Herein, we proposed a novel predictor named PredLLPS_PSSM for LLPS protein identification based only on sequence evolution information. Because finding real and reliable samples is the cornerstone of building predictors, we collected anew and collated the LLPS proteins from the latest versions of three databases. By comparing the performance of the position-specific score matrix (PSSM) and word embedding, PredLLPS_PSSM combined PSSM-based information and two deep learning frameworks. Independent tests using three existing independent test datasets and two newly constructed independent test datasets demonstrated the superiority of PredLLPS_PSSM compared with state-of-the-art methods. Furthermore, we tested PredLLPS_PSSM on nine experimentally identified LLPS proteins from three insects that were not included in any of the databases. In addition, the powerful Shapley Additive exPlanation algorithm and heatmap were applied to find the most critical amino acids relevant to LLPS.",
+    "keywords": [
+      "PSSM",
+      "deep learning",
+      "evolutionary information",
+      "liquid-liquid phase separation",
+      "protein biophysics"
+    ],
+    "mesh_terms": [
+      "*Proteins/chemistry",
+      "*Neural Networks, Computer",
+      "Algorithms",
+      "Amino Acids/chemistry",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Shengming",
+        "Zhou, Yetong",
+        "Liu, Tian",
+        "Zheng, Jia",
+        "Jia, Cangzhi"
+      ],
+      "short_names": [
+        "Zhou S",
+        "Zhou Y",
+        "Liu T",
+        "Zheng J",
+        "Jia C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9768-5496",
+        "ORCID: 0000-0002-4682-2881"
+      ],
+      "affiliations": [
+        "School of Science, Dalian Maritime University, Dalian 116026, China.",
+        "School of Science, Dalian Maritime University, Dalian 116026, China.",
+        "School of Bioengineering, Dalian University of Technology, Dalian 116024, China.",
+        "School of Science, Dalian Maritime University, Dalian 116026, China.",
+        "School of Science, Dalian Maritime University, Dalian 116026, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Shengming",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, Dalian 116026, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yetong",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, Dalian 116026, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Tian",
+        "short_name": "Liu T",
+        "identifiers": [
+          "0000-0001-9768-5496"
+        ],
+        "affiliations": [
+          "School of Bioengineering, Dalian University of Technology, Dalian 116024, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Jia",
+        "short_name": "Zheng J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, Dalian 116026, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Cangzhi",
+        "short_name": "Jia C",
+        "identifiers": [
+          "0000-0002-4682-2881"
+        ],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, Dalian 116026, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2023 Sep 20",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/23 12:43",
+    "fetched_at": "2026-09-21 00:43:07"
+  },
+  "links": {
+    "cites": [
+      "42184109",
+      "40984006",
+      "40867524",
+      "40794947",
+      "40629388",
+      "40421658",
+      "39534590",
+      "39434494",
+      "39110476",
+      "39060345",
+      "39043738"
+    ],
+    "refs": [],
+    "similar": [
+      "37609923",
+      "39067723",
+      "22574904",
+      "19091029",
+      "19091011",
+      "33827920",
+      "30866736",
+      "31472418",
+      "28483566",
+      "36427763",
+      "39060345",
+      "33617347",
+      "22408447",
+      "34320027",
+      "31319963",
+      "35803926",
+      "23747746",
+      "36403092",
+      "33442949",
+      "31691822",
+      "28851273",
+      "29055184",
+      "29511089",
+      "36524527",
+      "35168563",
+      "36518754",
+      "36575582",
+      "36528388",
+      "31612960",
+      "35149762",
+      "35883530",
+      "31906602",
+      "35378437",
+      "37287138",
+      "38205268",
+      "31941785",
+      "15720719",
+      "35142991",
+      "33809541",
+      "16796745",
+      "31617464",
+      "34522448",
+      "33057154",
+      "31237369",
+      "35421797",
+      "36444977",
+      "29993950",
+      "33517364",
+      "36350034",
+      "30323214",
+      "28924037",
+      "33238837",
+      "18315843",
+      "33259717",
+      "26788119",
+      "10860755",
+      "37130439",
+      "36211019",
+      "25445293",
+      "24675572",
+      "36551199",
+      "34235141",
+      "37230179",
+      "25521502",
+      "38110976",
+      "19439068",
+      "31228283",
+      "36227468",
+      "34984754",
+      "35317722",
+      "33993559",
+      "37727870",
+      "37301349",
+      "35447463",
+      "32824618",
+      "34233002",
+      "37287685",
+      "33780341",
+      "37189373",
+      "35093128",
+      "32183788",
+      "34624295",
+      "37029385",
+      "35388370",
+      "36166351",
+      "18434251",
+      "23855661",
+      "36310223",
+      "34749096"
+    ],
+    "review": [
+      "37609923",
+      "35803926",
+      "36524527",
+      "35149762",
+      "35142991",
+      "34522448",
+      "31237369",
+      "36350034",
+      "34235141",
+      "37230179",
+      "38110976"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37609923.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbad299",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.10.527914",
+  "title": "The disordered N-terminal tail of SARS CoV-2 Nucleocapsid protein forms a dynamic complex with RNA",
+  "authors": "Jasmine Cubuk; Jhullian J. Alston; J. Jeremías Incicco; Alex S. Holehouse; Kathleen B Hall; Melissa D. Stuchell-Brereton; Andrea Soranno",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-13",
+  "window": {
+    "start": "2023-02-13",
+    "end": "2023-02-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合单分子FRET和粗粒化模拟，揭示SARS-CoV-2核衣壳蛋白无序N端尾通过动态构象变化增强RNA结合亲和力并形成柔性复合物，直接聚焦无序区域介导的核酸互作机制建模，对IDR-PPI机制研究有高度可迁移性。",
+  "abstract": "The SARS-CoV-2 Nucleocapsid (N) protein is responsible for condensation of the viral genome. Characterizing the mechanisms controlling nucleic acid binding is a key step in understanding how condensation is realized. Here, we focus on the role of the RNA Binding Domain (RBD) and its flanking disordered N-Terminal Domain (NTD) tail, using single-molecule Förster Resonance Energy Transfer and coarse-grained simulations. We quantified contact site size and binding affinity for nucleic acids and concomitant conformational changes occurring in the disordered region. We found that the disordered NTD increases the affinity of the RBD for RNA by about 50-fold. Binding of both nonspecific and specific RNA results in a modulation of the tail configurations, which respond in an RNA length-dependent manner. Not only does the disordered NTD increase affinity for RNA, but mutations that occur in the Omicron variant modulate the interactions, indicating a functional role of the disordered tail. Finally, we found that the NTD-RBD preferentially interacts with single-stranded RNA and that the resulting protein:RNA complexes are flexible and dynamic. We speculate that this mechanism of interaction enables the Nucleocapsid protein to search the viral genome for and bind to high-affinity motifs.",
+  "abstract_zh": "SARS-CoV-2核衣壳（N）蛋白负责病毒基因组的凝聚。表征控制核酸结合的机制是理解凝聚如何实现的关键步骤。在此，我们聚焦于RNA结合域（RBD）及其侧翼无序N端结构域（NTD）尾部的作用，采用单分子福斯特共振能量转移和粗粒化模拟。我们量化了核酸的接触位点大小和结合亲和力，以及无序区域中伴随发生的构象变化。我们发现，无序的NTD将RBD对RNA的亲和力提高了约50倍。非特异性和特异性RNA的结合均导致尾部构型的调节，其响应方式依赖于RNA长度。不仅无序的NTD增加了对RNA的亲和力，而且Omicron变异株中发生的突变也调节了这些相互作用，表明无序尾部具有功能作用。最后，我们发现NTD-RBD优先与单链RNA相互作用，且由此产生的蛋白质：RNA复合物具有灵活性和动态性。我们推测，这种相互作用机制使核衣壳蛋白能够搜索病毒基因组并与其高亲和力基序结合。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.10.527914",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.10.527914",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.10.527914/index.html"
+}

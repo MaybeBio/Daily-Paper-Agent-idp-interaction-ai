@@ -1,0 +1,126 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.23.696191",
+  "title": "Molecular interactions underlying selective partitioning of clients into MED1 and FUS condensates",
+  "doi": "10.64898/2025.12.23.696191",
+  "abstract": "<h4> Abstract </h4> Biomolecular condensates selectively recruit and exclude proteins, and this partitioning is sometimes dictated by their intrinsically disordered regions. Factors that determine partitioning include client–scaffold interactions and stabilisation of the scaffold network within the condensate, yet a molecular and predictive understanding has not been fully achieved. Here, we used coarse-grained molecular dynamics simulations to elucidate molecular interactions between two types of nuclear proteins as scaffolds: the charge-rich disordered region of Mediator 1 (MED1) and the aromaticrich disordered region of Fused in sarcoma (FUS), in mixtures with client intrinsically disordered regions from six different proteins. We show distinct partitioning into the MED1 and FUS condensates, while enrichment of RNA in the dilute phase modulated partitioning in FUS condensates. Favourable client–scaffold interaction energies within condensates were associated with client partitioning, while client–scaffold interactions competed with scaffold self-interactions. Analysis of interaction energies of individual residues revealed that the interactions were localised to specific sequence regions: charged blocks for interactions with MED1, and dispersed aromatic residues for interactions with FUS. Based on these molecular insights, we developed a sequence-based predictor of partitioning trends and applied it to a set of 243 sequences. Our prediction approach for partitioning can be extended to other biomolecules, offering a framework to analyse their partitioning in cellular environments.",
+  "authors": [
+    "Yasuda I",
+    "Yamamoto E",
+    "Yasuoka K",
+    "Lindorff-Larsen K"
+  ],
+  "published_date": "2025-12-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.23.696191",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.23.696191.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1230369",
+    "raw_record": {
+      "id": "PPR1230369",
+      "source": "PPR",
+      "doi": "10.64898/2025.12.23.696191",
+      "title": "Molecular interactions underlying selective partitioning of clients into MED1 and FUS condensates",
+      "authorString": "Yasuda I, Yamamoto E, Yasuoka K, Lindorff-Larsen K.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yasuda I",
+            "lastName": "Yasuda",
+            "firstName": "Ikki",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6183-862X"
+            }
+          },
+          {
+            "fullName": "Yamamoto E",
+            "lastName": "Yamamoto",
+            "firstName": "Eiji",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8813-5297"
+            }
+          },
+          {
+            "fullName": "Yasuoka K",
+            "lastName": "Yasuoka",
+            "firstName": "Kenji",
+            "initials": "K"
+          },
+          {
+            "fullName": "Lindorff-Larsen K",
+            "lastName": "Lindorff-Larsen",
+            "firstName": "Kresten",
+            "initials": "K"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6183-862X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8813-5297"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>  Abstract </h4>  Biomolecular condensates selectively recruit and exclude proteins, and this partitioning is sometimes dictated by their intrinsically disordered regions. Factors that determine partitioning include client–scaffold interactions and stabilisation of the scaffold network within the condensate, yet a molecular and predictive understanding has not been fully achieved. Here, we used coarse-grained molecular dynamics simulations to elucidate molecular interactions between two types of nuclear proteins as scaffolds: the charge-rich disordered region of Mediator 1 (MED1) and the aromaticrich disordered region of Fused in sarcoma (FUS), in mixtures with client intrinsically disordered regions from six different proteins. We show distinct partitioning into the MED1 and FUS condensates, while enrichment of RNA in the dilute phase modulated partitioning in FUS condensates. Favourable client–scaffold interaction energies within condensates were associated with client partitioning, while client–scaffold interactions competed with scaffold self-interactions. Analysis of interaction energies of individual residues revealed that the interactions were localised to specific sequence regions: charged blocks for interactions with MED1, and dispersed aromatic residues for interactions with FUS. Based on these molecular insights, we developed a sequence-based predictor of partitioning trends and applied it to a set of 243 sequences. Our prediction approach for partitioning can be extended to other biomolecules, offering a framework to analyse their partitioning in cellular environments.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.23.696191"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-23",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

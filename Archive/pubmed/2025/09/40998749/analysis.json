@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40998749",
+  "title": "Statistical Physics-Based Approaches to Model the Function and Complexation of Disordered Proteins.",
+  "authors": "Haider, Austin; Gaalswyk, Kari; Houston, Lilianna; Ose, Nicholas J; Ozkan, S Banu; Ghosh, Kingshuk",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-09-26",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用统计物理相互作用图与动力学谱对无序蛋白NCBD/CID分类，并定量建模二者结合亲和力，直接契合无序蛋白PPI机制建模与AI/物理方法主题。",
+  "abstract": "Functional classification of intrinsically disordered proteins (IDP) is a challenge due to their low sequence homology and lack of stable tertiary structure. We embrace this challenge to classify a model system of two IDPs horizontal line NCBD and CID horizontal line that have coevolved and for which both ancestral and extant sequences are available, along with quantitative binding data. One of these sequences, NCBD, exhibits partial secondary structure, while the other (CID) remains highly disordered and is highly charged. We classify these sequences using statistical physics-derived sequence-dependent interaction maps that predict distance maps (ensemble average distances between arbitrary residue pairs). We also use sequence-specific dynamic profiles for further comparison. Our findings show that CID proteins can be classified into two major groups due to two distinct types of patterns in their electrostatic interaction maps. Classification of CIDs using nonelectrostatic patterning yields diverging predictions, illustrating the importance of accurately modeling long-range electrostatic interactions. Conversely, the classification of NCBD sequences generally reaches a consensus when physics-based noncharge patterning metrics are applied, along with the dynamical profiles. Furthermore, we used these sequence-dependent metrics and dynamical profiles to quantitatively model the binding affinities between the two IDPs. Surprisingly, we find that multiple physics-based sequence metrics quantitatively recapitulate the binding affinities between CID and NCBD variants, linking sequence composition and patterning to their emergent function. This integrated framework provides a generalizable strategy for classifying IDPs and predicting complexation behavior, offering new avenues for probing sequence-function relationships in disordered protein systems.",
+  "abstract_zh": "天然无序蛋白质（IDP）的功能分类因其低序列同源性和缺乏稳定三级结构而面临挑战。我们接受这一挑战，对两个共进化的IDP模型系统——NCBD和CID——进行分类，这些系统既有祖先序列也有现存序列，并伴有定量结合数据。其中一个序列NCBD表现出部分二级结构，而另一个（CID）则保持高度无序且带高电荷。我们利用基于统计物理的序列依赖性相互作用图谱对这些序列进行分类，这些图谱预测距离图谱（任意残基对之间的系综平均距离）。我们还使用序列特异性动态谱进行进一步比较。我们的发现表明，CID蛋白可根据其静电相互作用图谱中的两种不同类型模式分为两大类。使用非静电模式对CID进行分类会产生分歧性预测，这凸显了准确建模长程静电相互作用的重要性。相反，当应用基于物理的非电荷模式指标以及动态谱时，NCBD序列的分类通常能达到共识。此外，我们利用这些序列依赖性指标和动态谱定量建模两个IDP之间的结合亲和力。令人惊讶的是，我们发现多种基于物理的序列指标能定量重现CID和NCBD变体之间的结合亲和力，将序列组成和模式与其涌现功能联系起来。这一综合框架为分类IDP和预测复合行为提供了通用策略，为探索无序蛋白质系统中序列-功能关系开辟了新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40998749/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40998749/",
+  "paper_page_path": "papers/pubmed/40998749/index.html"
+}

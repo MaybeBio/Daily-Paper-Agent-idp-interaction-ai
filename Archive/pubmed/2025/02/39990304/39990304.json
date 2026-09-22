@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "39990304",
+    "doi": "10.1101/2025.02.12.637704",
+    "title": "Peripheral heterochromatin tethering is required for chromatin-based nuclear mechanical response."
+  },
+  "content": {
+    "abstract": "The cell nucleus is a mechanically responsive structure that governs how external forces affect chromosomes. Chromatin, particularly transcriptionally inactive heterochromatin, resists nuclear deformations through its mechanical response. However, chromatin also exhibits liquid-like properties, casting ambiguity on the physical mechanisms of chromatin-based nuclear elasticity. To determine how heterochromatin strengthens nuclear mechanical response, we performed polymer physics simulations of a nucleus model validated by micromechanical measurements and chromosome conformation capture data. The attachment of peripheral heterochromatin to the lamina is required to transmit forces directly to the chromatin and elicit its elastic response. Thus, increases in heterochromatin levels increase nuclear rigidity by increasing the linkages between chromatin and the lamina. Crosslinks within heterochromatin, such as HP1 alpha proteins, can also stiffen nuclei, but only if chromatin is peripherally tethered. In contrast, heterochromatin affinity interactions that may drive liquid-liquid phase separation do not contribute to nuclear rigidity. When the nucleus is stretched, gel-like peripheral heterochromatin can bear stresses and deform, while the more fluid-like interior euchromatin is less perturbed. Thus, heterochromatin's internal structure and stiffness may regulate nuclear mechanics via peripheral attachment to the lamina, while also enabling nuclear mechanosensing of external forces and external measurement of the nucleus' internal architecture.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Attar, A Goktug",
+        "Paturej, Jaroslaw",
+        "Sariyer, Ozan S",
+        "Banigan, Edward J",
+        "Erbas, Aykut"
+      ],
+      "short_names": [
+        "Attar AG",
+        "Paturej J",
+        "Sariyer OS",
+        "Banigan EJ",
+        "Erbas A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4227-3659",
+        "ORCID: 0000-0002-2540-2925",
+        "ORCID: 0000-0001-6064-392X",
+        "ORCID: 0000-0001-5478-7425",
+        "ORCID: 0000-0003-2192-8804"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Attar, A Goktug",
+        "short_name": "Attar AG",
+        "identifiers": [
+          "0000-0003-4227-3659"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Paturej, Jaroslaw",
+        "short_name": "Paturej J",
+        "identifiers": [
+          "0000-0002-2540-2925"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Sariyer, Ozan S",
+        "short_name": "Sariyer OS",
+        "identifiers": [
+          "0000-0001-6064-392X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Banigan, Edward J",
+        "short_name": "Banigan EJ",
+        "identifiers": [
+          "0000-0001-5478-7425"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Erbas, Aykut",
+        "short_name": "Erbas A",
+        "identifiers": [
+          "0000-0003-2192-8804"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Feb 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/24 12:26",
+    "fetched_at": "2026-09-21 16:07:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39990304",
+      "40823810",
+      "38753956",
+      "38168411",
+      "31168090",
+      "28057760",
+      "36633363",
+      "39160964",
+      "34653387",
+      "32101700",
+      "37958755",
+      "37549295",
+      "40777249",
+      "40740516",
+      "41486942",
+      "33435761",
+      "39126157",
+      "24637393",
+      "31365328",
+      "35858189",
+      "33448065",
+      "28525751",
+      "31618757",
+      "38214505",
+      "33326747",
+      "40343993",
+      "9378752",
+      "23996328",
+      "25609380",
+      "30793190",
+      "38900638",
+      "31216230",
+      "30744037",
+      "33446668",
+      "40057003",
+      "32302590",
+      "30349803",
+      "37339933",
+      "32097622",
+      "10330177",
+      "32932075",
+      "34087208",
+      "28056360",
+      "11721953",
+      "31533042",
+      "24415761",
+      "19752020",
+      "31623887",
+      "34559565",
+      "12560555",
+      "32317397",
+      "36007722",
+      "24209742",
+      "25493640",
+      "24145303",
+      "29142071",
+      "1268189",
+      "26359759",
+      "31784357",
+      "30689203",
+      "35681541",
+      "34106828",
+      "33774266",
+      "18664736",
+      "29227210",
+      "38601142",
+      "32311333",
+      "26798136",
+      "10612261",
+      "35096966",
+      "34849911",
+      "32590202",
+      "18208336",
+      "31118512",
+      "21875947",
+      "32257349",
+      "37228178",
+      "38914831",
+      "28636597",
+      "38889500",
+      "32493764",
+      "34428454",
+      "17496030",
+      "31980345",
+      "40640210",
+      "35859152",
+      "26074052",
+      "36458689",
+      "40544639",
+      "32784937",
+      "40482957",
+      "40794869",
+      "38048471",
+      "32393416",
+      "31573510",
+      "38642177",
+      "33675762",
+      "28341771",
+      "31818465",
+      "19927119"
+    ],
+    "review": [
+      "39990304",
+      "37958755",
+      "24637393",
+      "28525751",
+      "30744037",
+      "40057003",
+      "30349803",
+      "37339933",
+      "35681541",
+      "33774266",
+      "18664736",
+      "32311333",
+      "35096966",
+      "32590202",
+      "38914831",
+      "38889500",
+      "31980345",
+      "32784937"
+    ],
+    "pmc": [
+      "11844546"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39990304/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.02.12.637704",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

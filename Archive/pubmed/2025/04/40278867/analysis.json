@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40278867",
+  "title": "Temperature-Dependent Coarse-Grained Model for Simulations of Intrinsically Disordered Protein LCST and UCST Liquid-Liquid Phase Separations.",
+  "authors": "Jiang, Yingmin; Ha-Duong, Tap",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2025-04-25",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 9,
+  "one_liner_zh": "该文开发了基于MARTINI 3的温度依赖性粗粒化模型，用于模拟无序蛋白的LCST和UCST液-液相分离，直接针对IDP相分离机制建模，兼具物理模拟方法，与课题高度契合。",
+  "abstract": "Many intrinsically disordered proteins (IDPs) can undergo a liquid-liquid phase separation (LLPS) in water, depending on solution conditions (temperature, pH, and ionic strength). There are two types of LLPS that are controlled by temperature: those occurring above a lower critical solution temperature (LCST) and those occurring below an upper critical solution temperature (UCST). IDP coarse-grained (CG) models are particularly appropriate for investigating the physical and chemical factors that govern their LLPS and supramolecular organization. However, the development of CG models allowing simulations of both LCST and UCST behavior of temperature-sensitive IDPs is still in its infancy. In this context, we present here a novel temperature-dependent (TD) CG model for IDP simulations based on the MARTINI 3 force field. The model was developed by modifying the Lennard-Jones potentials between apolar or charged solute beads and water with a TD rescaling factor. It was parametrized to fit the TD potentials of mean force (PMF) between two apolar or two charged molecules computed using all-atom (AA) simulations. We show that the TD CG model is able to reproduce the experimentally known LLPS of both LCST and UCST low-complexity sequences and to estimate phase transition temperatures comparable to experimental measurements.",
+  "abstract_zh": "许多本质上无序的蛋白质（IDPs）在水溶液中可发生液-液相分离（LLPS），这取决于溶液条件（温度、pH和离子强度）。存在两种由温度控制的LLPS类型：一种发生在低于下临界溶液温度（LCST）时，另一种发生在高于上临界溶液温度（UCST）时。IDP粗粒化（CG）模型特别适合研究控制其LLPS及超分子组织的物理和化学因素。然而，能够模拟温度敏感型IDP的LCST和UCST行为的CG模型开发仍处于初期阶段。在此背景下，我们提出了一种基于MARTINI 3力场的用于IDP模拟的新型温度依赖性（TD）CG模型。该模型通过修改非极性或带电溶质珠粒与水之间的Lennard-Jones势，并引入TD重标定因子而开发。其参数化旨在拟合使用全原子（AA）模拟计算的两个非极性或两个带电分子之间的TD平均力势（PMF）。我们展示了该TD CG模型能够重现实验已知的LCST和UCST低复杂度序列的LLPS，并估算出与实验测量相当的相变温度。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40278867/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40278867/",
+  "paper_page_path": "papers/pubmed/40278867/index.html"
+}

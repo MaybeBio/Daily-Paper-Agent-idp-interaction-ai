@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42573943",
+  "title": "A practical guide to investigating biomolecular condensates: a comment from the plant community.",
+  "authors": "Peng, Jiaxuan; Agudo-Canalejo, Jaime; Chodasiewicz, Monika; Van Damme, Daniel; Daskalakis, Vangelis; Gonzalez-Fuente, Manuel; Gao, Rui; Filippidi, Emmanouela; Guo, Hongwei; He, Shengbo; Huang, Kai; Huang, Shuai; Jang, Geng-Jen; Jia, Min; Knorr, Roland L; Lai, Xuelei; Li, Ruixi; Liang, Qiyu; Liu, Chen; Liu, Xuyu; Miao, Yansong; Ouyang, Min; Quan, Xuebo; Solis-Miranda, Jorge; Strader, Lucia C; Ustun, Suayib; Wang, Shuyu; Wang, Wei; Wang, Zhenyu; Xiong, Yifan; Xu, Cao; Xu, Guoyong; Ye, Hailong; Zhao, Chunzhao; Zhu, Pan; Zhu, Yu; Gutierrez-Beltran, Emilio; Moschou, Panagiotis N; Fang, Xiaofeng",
+  "journal": "Science China. Life sciences",
+  "published_date": "2026-08-10",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文是植物领域生物分子凝聚体研究的方法学综述，涵盖MD模拟和AI预测等工具，但聚焦实验指南而非PPI机制建模，对象相关但互作机制深度有限。",
+  "abstract": "Biomolecular condensates formed through phase separation have emerged as a central principle of cellular organization, enabling the dynamic regulation of gene expression, signaling, metabolism, and stress responses. While early conceptual advances in condensate biology have largely originated from animal and in vitro systems, plant cells present a unique set of biological and technical challenges, including rigid cell walls, turgor pressure, plastid autofluorescence, complex endomembrane organization, and acute environmental responsiveness. These distinctive features impede the direct transfer of existing methodologies and drive the development of heterogeneous experimental practices. In this community comment, we present a comprehensive methodological framework for studying biomolecular condensates in plants, spanning in silico prediction, in vitro reconstitution, molecular dynamics simulations, live-cell and super-resolution imaging, material property measurements, membrane-associated condensates, and synthetic condensate engineering. We highlight best practices, common pitfalls, and plant-specific considerations, emphasizing the need for orthogonal validation, quantitative interpretation, and physiological relevance. By consolidating current methodologies and articulating shared principles, this review aims to establish a foundation for rigorous, reproducible, and conceptually coherent research in condensate biology of plants and beyond, with emerging implications for crop genetic improvement and synthetic biology applications.",
+  "abstract_zh": "通过相分离 (phase separation) 形成的生物分子凝聚体已成为细胞组织的核心原理，能够实现基因表达、信号传导、代谢及应激反应的动态调控。尽管凝聚体生物学早期的概念性进展主要源于动物和体外系统，但植物细胞呈现出一系列独特的生物学和技术挑战，包括刚性细胞壁、膨压、质体自发荧光、复杂的内膜系统组织以及敏锐的环境响应性。这些显著特征阻碍了现有方法的直接迁移，并推动了多样化实验实践的发展。在本社区评论中，我们提出了一个全面的方法学框架，用于研究植物中的生物分子凝聚体，涵盖计算机模拟预测、体外重构、分子动力学 (molecular dynamics) 模拟、活细胞和超分辨成像、材料性质测量、膜相关凝聚体以及合成凝聚体工程。我们强调了最佳实践、常见陷阱及植物特异性考量，并着重指出正交验证、定量解释和生理相关性的必要性。通过整合现有方法并阐明共同原则，本综述旨在为植物及其他领域的凝聚体生物学建立严谨、可重复且概念连贯的研究基础，并对作物遗传改良和合成生物学应用具有新兴意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42573943/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42573943/",
+  "paper_page_path": "papers/pubmed/42573943/index.html"
+}

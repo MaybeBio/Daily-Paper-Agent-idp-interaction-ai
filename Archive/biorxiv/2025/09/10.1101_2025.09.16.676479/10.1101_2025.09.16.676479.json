@@ -1,0 +1,390 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.16.676479",
+  "title": "Endocytic clathrin-coated vesicles are targeted for selective autophagy during osmotic stress",
+  "doi": "10.1101/2025.09.16.676479",
+  "abstract": "Plants frequently encounter hyperosmotic stress due to drought and salinity, leading to rapid water loss, reduced turgor pressure, and decreased cell volume. This contraction drastically alters plasma membrane tension, a physical parameter that must be strictly maintained to support mechanosignaling and cell expansion. However, the mechanisms by which plants adjust their membrane surface area to match a shrinking cell volume remain poorly understood. Here, we identify selective autophagy dependent degradation of plasma membrane-derived clathrin-coated vesicles (CCVs) in response to hyperosmotic shock. This pathway involves the recruitment of the endocytic TPLATE complex (TPC) to autophagosomes in an osmotic-stress dependent manner. Through correlative light and electron microscopy (CLEM) and electron tomography (ET), we provide ultrastructural evidence of the physical association of CCVs with autophagosome membranes. These autophagosomes contain endocytic machinery, including TPC and clathrin, and are targeted to the vacuole. Mechanistically, we show that the conserved ATG8-interacting motifs (AIMs) in the AtEH1/Pan1 and AtEH2/Pan1 TPC subunits interact with ATG8, suggesting that they facilitate the recruitment of CCVs to autophagosomes. Using time-lapse imaging, we demonstrate that the acute induction of autophagy is precisely coupled to the reduction in cell volume under hyperosmolar conditions. Our results suggest that endocytic removal of excess plasma membrane to maintain membrane tension and cellular integrity is coupled to TPC-mediated CCV-phagy. These findings reveal a homeostatic mechanism that enables plants to adapt to the challenges of drought and salinity. <h4>Significance Statement</h4> All living cells must maintain the physical integrity of their outer membrane. How cells can adapt their surface area to respond to rapid changes in cell volume, such as those caused by drought or salt stress, remains a fundamental question in biology. We identify a mechanism in plants involving autophagy – a cellular recycling pathway – where plasma membrane-derived vesicles are targeted for degradation following salt or osmotic stress. This pathway involves the TPLATE complex, an evolutionary ancient and essential endocytic complex in plants, which directly interacts with the autophagy protein ATG8. This discovery reveals how plants adapt to osmotic stress by modulating their membrane properties, supporting a framework for future improvement of crop resilience in response to salinity and drought.",
+  "authors": [
+    "Dragwidge JM",
+    "Buridan M",
+    "Kraus J",
+    "Kosuth T",
+    "Chambaud C",
+    "Brocard L",
+    "Yperman K",
+    "Mylle E",
+    "Vandorpe M",
+    "Eeckhout D",
+    "De Jaeger G",
+    "Pleskot R",
+    "Bernard A",
+    "Van Damme D"
+  ],
+  "published_date": "2025-09-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.16.676479",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.16.676479.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1085781",
+    "raw_record": {
+      "id": "PPR1085781",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1085781"
+        ]
+      },
+      "doi": "10.1101/2025.09.16.676479",
+      "title": "Endocytic clathrin-coated vesicles are targeted for selective autophagy during osmotic stress",
+      "authorString": "Dragwidge JM, Buridan M, Kraus J, Kosuth T, Chambaud C, Brocard L, Yperman K, Mylle E, Vandorpe M, Eeckhout D, De Jaeger G, Pleskot R, Bernard A, Van Damme D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dragwidge JM",
+            "lastName": "Dragwidge",
+            "firstName": "Jonathan Michael",
+            "initials": "JM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3770-8374"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, , Technologiepark 71 , ,"
+                },
+                {
+                  "affiliation": ", Technologiepark 71 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Buridan M",
+            "lastName": "Buridan",
+            "firstName": "Matthieu",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0001-4247-3207"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", UMR 5200, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kraus J",
+            "lastName": "Kraus",
+            "firstName": "Julia",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0186-1497"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, , Technologiepark 71 , ,"
+                },
+                {
+                  "affiliation": ", Technologiepark 71 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kosuth T",
+            "lastName": "Kosuth",
+            "firstName": "Thibault",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9936-3570"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", UMR 5200, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chambaud C",
+            "lastName": "Chambaud",
+            "firstName": "Clément",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , UAR 3420, US 4, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brocard L",
+            "lastName": "Brocard",
+            "firstName": "Lysiane",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , UAR 3420, US 4, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yperman K",
+            "lastName": "Yperman",
+            "firstName": "Klaas",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7542-1155"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, , Technologiepark 71 , ,"
+                },
+                {
+                  "affiliation": ", Technologiepark 71 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mylle E",
+            "lastName": "Mylle",
+            "firstName": "Evelien",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3690-4365"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, , Technologiepark 71 , ,"
+                },
+                {
+                  "affiliation": ", Technologiepark 71 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vandorpe M",
+            "lastName": "Vandorpe",
+            "firstName": "Michaël",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, , Technologiepark 71 , ,"
+                },
+                {
+                  "affiliation": ", Technologiepark 71 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eeckhout D",
+            "lastName": "Eeckhout",
+            "firstName": "Dominique",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5770-7670"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, , Technologiepark 71 , ,"
+                },
+                {
+                  "affiliation": ", Technologiepark 71 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "De Jaeger G",
+            "lastName": "De Jaeger",
+            "firstName": "Geert",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, , Technologiepark 71 , ,"
+                },
+                {
+                  "affiliation": ", Technologiepark 71 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pleskot R",
+            "lastName": "Pleskot",
+            "firstName": "Roman",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Rozvojová 263 , 6,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bernard A",
+            "lastName": "Bernard",
+            "firstName": "Amélie",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", UMR 5200, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Van Damme D",
+            "lastName": "Van Damme",
+            "firstName": "Daniël",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Biotechnology and Bioinformatics, , Technologiepark 71 , ,"
+                },
+                {
+                  "affiliation": ", Technologiepark 71 , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5770-7670"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9936-3570"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3690-4365"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3770-8374"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7542-1155"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0186-1497"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0001-4247-3207"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Plants frequently encounter hyperosmotic stress due to drought and salinity, leading to rapid water loss, reduced turgor pressure, and decreased cell volume. This contraction drastically alters plasma membrane tension, a physical parameter that must be strictly maintained to support mechanosignaling and cell expansion. However, the mechanisms by which plants adjust their membrane surface area to match a shrinking cell volume remain poorly understood. Here, we identify selective autophagy dependent degradation of plasma membrane-derived clathrin-coated vesicles (CCVs) in response to hyperosmotic shock. This pathway involves the recruitment of the endocytic TPLATE complex (TPC) to autophagosomes in an osmotic-stress dependent manner. Through correlative light and electron microscopy (CLEM) and electron tomography (ET), we provide ultrastructural evidence of the physical association of CCVs with autophagosome membranes. These autophagosomes contain endocytic machinery, including TPC and clathrin, and are targeted to the vacuole. Mechanistically, we show that the conserved ATG8-interacting motifs (AIMs) in the AtEH1/Pan1 and AtEH2/Pan1 TPC subunits interact with ATG8, suggesting that they facilitate the recruitment of CCVs to autophagosomes. Using time-lapse imaging, we demonstrate that the acute induction of autophagy is precisely coupled to the reduction in cell volume under hyperosmolar conditions. Our results suggest that endocytic removal of excess plasma membrane to maintain membrane tension and cellular integrity is coupled to TPC-mediated CCV-phagy. These findings reveal a homeostatic mechanism that enables plants to adapt to the challenges of drought and salinity. <h4>Significance Statement</h4>  All living cells must maintain the physical integrity of their outer membrane. How cells can adapt their surface area to respond to rapid changes in cell volume, such as those caused by drought or salt stress, remains a fundamental question in biology. We identify a mechanism in plants involving autophagy – a cellular recycling pathway – where plasma membrane-derived vesicles are targeted for degradation following salt or osmotic stress. This pathway involves the TPLATE complex, an evolutionary ancient and essential endocytic complex in plants, which directly interacts with the autophagy protein ATG8. This discovery reveals how plants adapt to osmotic stress by modulating their membrane properties, supporting a framework for future improvement of crop resilience in response to salinity and drought.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.16.676479"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1085781"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1085781&type=FILE&fileName=EMS208960-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208960",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-09-19",
+      "firstPublicationDate": "2025-09-17",
+      "firstIndexDate": "2025-09-19",
+      "fullTextReceivedDate": "2025-09-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

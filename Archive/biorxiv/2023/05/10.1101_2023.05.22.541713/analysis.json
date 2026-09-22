@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.22.541713",
+  "title": "An intrinsically Disordered RNA Binding Protein Modulates mRNA Translation and Storage",
+  "authors": "Mashiat N. Chowdhury; Xin Chen; Hong Jin",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-22",
+  "window": {
+    "start": "2023-05-22",
+    "end": "2023-05-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究含IDR的RNA结合蛋白Sbp1通过RGG结构域调控mRNA翻译与储存的机制，涉及核糖体互作，但对象为RNA而非蛋白-蛋白互作，且方法为基因组/分子实验而非AI或物理模拟，故仅部分相关。",
+  "abstract": "Many proteins with intrinsically disordered regions interact with cytoplasmic ribosomes. However, many of the molecular functions related to these interactions are unclear. In this study, using an abundant RNA-binding protein with a structurally well-defined RNA recognition motif and an intrinsically disordered RGG domain as a model system, we investigated how this protein modulates mRNA storage and translation. Using genomic and molecular approaches, we show that the presence of Sbp1 slows ribosome movement on cellular mRNAs and promotes polysome stalling. Sbp1-associated polysomes display a ring-shaped structure in addition to a beads-on-string morphology visualized under electron microscope. Moreover, post-translational modifications at the RGG motif play important roles in directing cellular mRNAs to either translation or storage. Finally, binding of Sbp1 to the 5’UTRs of mRNAs represses both cap-dependent and cap-independent translation initiation of proteins functionally important for general protein synthesis in the cell. Taken together, our study demonstrates an intrinsically disordered RNA binding protein regulates mRNA translation and storage via distinctive mechanisms under physiological conditions and establishes a framework with which functions of important RGG-proteins can be investigated and defined.",
+  "abstract_zh": "许多含有固有无序区域（intrinsically disordered regions）的蛋白质与细胞质核糖体相互作用，然而，这些相互作用相关的许多分子功能尚不清楚。在本研究中，我们以一种富含RNA结合蛋白（具有结构明确的RNA识别基序和固有无序RGG结构域）作为模型系统，探讨了该蛋白如何调控mRNA的储存和翻译。通过基因组和分子方法，我们表明Sbp1的存在减缓了细胞mRNA上核糖体的移动，并促进多聚体停滞。在电子显微镜下，Sbp1相关的多聚体除了呈现串珠状形态外，还显示出环状结构。此外，RGG基序上的翻译后修饰在引导细胞mRNA进入翻译或储存途径中发挥重要作用。最后，Sbp1与mRNA的5'UTR结合，抑制了帽依赖性和非帽依赖性翻译起始，这些翻译对细胞中一般蛋白质合成功能至关重要。综合来看，我们的研究证明了一种固有无序RNA结合蛋白在生理条件下通过独特机制调控mRNA翻译和储存，并建立了一个框架，用于研究和定义重要RGG蛋白的功能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.22.541713",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.22.541713",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.22.541713/index.html"
+}

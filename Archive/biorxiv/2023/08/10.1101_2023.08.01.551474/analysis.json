@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.01.551474",
+  "title": "Hierarchical Assembly of Single-Stranded RNA",
+  "authors": "Pietrek LM; Stelzl LS; Hummer G",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-02",
+  "window": {
+    "start": "2023-07-31",
+    "end": "2023-08-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用层次链增长(HCG)方法构建单链RNA(ssRNA)的结构系综，结合MD模拟与贝叶斯推断，虽对象为无序RNA而非蛋白IDP，但其无序链构象系综建模思路对IDR介导PPI的机制建模有可迁移启发。",
+  "abstract": "Single-stranded RNA (ssRNA) plays a major role in the flow of genetic information– most notably in the form of messenger RNA (mRNA)–and in the regulation of biological processes. The highly dynamic nature of chains of unpaired nucleobases challenges structural characterizations of ssRNA by experiments or molecular dynamics (MD) simulations alike. Here we use hierarchical chain growth (HCG) to construct ensembles of ssRNA chains. HCG assembles the structures of protein and nucleic acid chains from fragment libraries created by MD simulations. Applied to homo- and heteropolymeric ssRNAs of different lengths, we find that HCG produces structural ensembles that overall are in good agreement with diverse experiments including nuclear magnetic resonance (NMR), small-angle X-ray scattering (SAXS), and single-molecule Förster resonance energy transfer (FRET). The agreement can be further improved by ensemble refinement using Bayesian inference of ensembles (BioEn). HCG can also be used to assemble RNA structures that combine base-paired and unpaired regions, as illustrated for the 5 1 untranslated region (UTR) of SARS-CoV-2 mRNA.",
+  "abstract_zh": "单链RNA（ssRNA）在遗传信息流动中扮演重要角色——最显著的是以信使RNA（mRNA）的形式——并在生物过程调控中发挥作用。未配对核碱基链的高度动态特性，使得通过实验或分子动力学（molecular dynamics, MD）模拟对ssRNA进行结构表征面临挑战。在此，我们使用层次链增长（hierarchical chain growth, HCG）方法构建ssRNA链的系综。HCG通过MD模拟生成的片段库组装蛋白质和核酸链的结构。应用于不同长度的同聚和异聚ssRNA，我们发现HCG产生的结构系综总体上与多种实验（包括核磁共振（nuclear magnetic resonance, NMR）、小角X射线散射（small-angle X-ray scattering, SAXS）和单分子Förster共振能量转移（Förster resonance energy transfer, FRET））结果良好一致。通过使用贝叶斯系综推断（Bayesian inference of ensembles, BioEn）进行系综精修，可进一步改善一致性。HCG还可用于组装结合碱基配对和未配对区域的RNA结构，如SARS-CoV-2 mRNA的5'非翻译区（untranslated region, UTR）所示。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.01.551474",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.01.551474",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.01.551474/index.html"
+}

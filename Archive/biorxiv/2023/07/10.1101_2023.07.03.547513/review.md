@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full-text data, figures, or methods were assessed
+- **Shared manuscript claim summary** The authors report that the Arabidopsis YTH domain protein ECT2 promotes organogenesis through its long N-terminal intrinsically disordered region (IDR), and that a specific 19-amino acid tyrosine-rich element within this IDR mediates binding to the cytoplasmic poly(A)-binding proteins PAB2, PAB4, and PAB8. They further report that overexpression of PAB4 in leaf primordia partially rescues the delayed leaf formation phenotype of the ect2 ect3 ect4 mutant, suggesting that ECT2-PAB interactions on target mRNAs may relieve limiting PAB concentrations in primordial cells.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, experimental methods, statistical analyses, and any supplementary data; without these, the experimental support for each claim cannot be independently evaluated
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic advance in understanding how YTH domain proteins with intrinsically disordered regions function in plant development. The identification of a short tyrosine-rich element within the IDR that binds poly(A)-binding proteins is a specific and testable claim, and the genetic rescue experiment with PAB4 overexpression is conceptually appealing. However, the abstract alone provides insufficient detail to assess the rigor of the biochemical, genetic, and phenotypic analyses. The central claims are plausible but not yet established from the supplied material.
+- **Who would be interested in the results, and why** Plant developmental biologists studying organogenesis and meristem function; molecular biologists interested in m6A reader proteins and their effector mechanisms; researchers studying phase separation and intrinsically disordered regions in RNA-binding proteins; and those working on post-transcriptional gene regulation in eukaryotes more broadly.
+- **Major strengths** The study addresses a significant gap in understanding how YTH domain proteins with long IDRs execute their biological functions. The focus on a specific short element within the IDR that mediates protein-protein interaction is a clear and mechanistically informative approach. The proposed model linking ECT2-PAB interactions to limiting PAB concentrations in primordial cells is conceptually novel and could have broad implications for understanding m6A-mediated control of cell division.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that the tyrosine-rich 19-amino acid region is necessary for binding to PAB2, PAB4, and PAB8  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that this region is "necessary for binding" but provides no information on the experimental approach used, such as mutagenesis strategy, binding assay type, or whether the effect was specific to these PAB proteins versus a general loss of protein interactions.  
+  - **Why it matters** Without details on the binding assays and the specificity controls, it is impossible to determine whether the observed loss of binding is due to disruption of a specific interaction surface or to a global perturbation of protein folding or stability.  
+  - **Resolution test** Provide the full methods and results for the binding experiments, including the mutagenesis strategy, the binding assay used, and appropriate controls demonstrating that the mutant protein retains overall structural integrity and that the interaction loss is specific to PAB2/4/8.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that overexpression of PAB4 in leaf primordia partially rescues the delayed leaf formation in ect2 ect3 ect4 mutants  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports a partial rescue but does not describe the experimental design, including the promoter used for overexpression, the spatial and temporal pattern of expression, the magnitude of the rescue, or the statistical significance of the effect.  
+  - **Why it matters** A partial rescue could arise from many non-specific effects, such as general translational enhancement or stress responses, rather than from a specific restoration of ECT2-PAB function on target mRNAs. The claim of a specific mechanism requires evidence that the rescue is dependent on the ECT2-PAB interaction.  
+  - **Resolution test** Provide details on the overexpression construct and promoter, quantification of the rescue phenotype with appropriate statistical tests, and ideally a control showing that a PAB4 variant unable to interact with ECT2 fails to rescue.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that the long N-terminal IDR is required for stimulation of leaf formation  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that the long N-terminal IDR is required but does not specify which deletion constructs were tested, whether the deletion affected protein stability or localization, or whether the requirement is specific to the IDR sequence versus simply the length of the protein.  
+  - **Why it matters** IDRs are often required for protein stability or proper subcellular localization, and a deletion phenotype could reflect such indirect effects rather than a specific function of the IDR in organogenesis.  
+  - **Resolution test** Provide the deletion construct details, evidence that the truncated protein is expressed at comparable levels and localizes correctly, and ideally complementation with an IDR from an unrelated protein to test sequence specificity.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract statement on IDR function  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that IDRs "may mediate phase separation and interaction with protein partners" but does not clarify whether the current study addresses phase separation or only protein interactions.  
+  - **Required correction** Clarify in the abstract whether phase separation was tested or is only mentioned as background context.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract statement on target mRNAs  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract refers to "target mRNAs of organogenesis-related genes" but provides no information on how these targets were identified or validated.  
+  - **Required correction** Add a brief statement in the abstract or indicate where target identification is described in the full manuscript.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Abstract statement on PAB concentration  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "overcome limiting PAB concentrations" implies a quantitative model but no data on PAB levels in primordial cells are presented in the abstract.  
+  - **Required correction** Either provide supporting data in the full manuscript or soften the claim to indicate that this is a proposed model.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are all blocking because the abstract alone does not provide sufficient experimental detail to validate the central claims of specific IDR-element function, the PAB interaction, and the genetic rescue.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The proposed mechanism linking a specific IDR element to PAB binding and organogenesis is conceptually novel and goes beyond prior descriptions of YTH domain protein function.  
+  - **Scientific importance** If fully validated, the findings would advance understanding of how m6A readers execute developmental functions and how IDRs contribute to specificity in RNA-binding protein interactions.  
+  - **Interdisciplinary readership** The topic bridges plant development, RNA biology, and biophysics of disordered proteins, which could attract a broad readership.  
+  - **Technical soundness** Cannot be assessed from the abstract alone; the blocking concerns above require full experimental details.  
+  - **Readability for nonspecialists** The abstract is generally clear but uses specialized terms without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary findings, but the experimental support cannot be evaluated without the full manuscript. A supportive recommendation would require that the blocking concerns be resolved with detailed methods and results.
+
+## Risk / unsupported claims
+- The claim that the tyrosine-rich 19-amino acid region is necessary for PAB2/4/8 binding is unsupported without experimental details.
+- The claim that PAB4 overexpression partially rescues the mutant phenotype is unsupported without experimental design and statistical analysis.
+- The claim that the long N-terminal IDR is required for leaf formation is unsupported without deletion construct details and controls.
+- The suggestion that ECT2-PAB interactions overcome limiting PAB concentrations is a speculative model not directly tested in the abstract.
+- The existence and identity of "target mRNAs of organogenesis-related genes" is unverifiable from the abstract.

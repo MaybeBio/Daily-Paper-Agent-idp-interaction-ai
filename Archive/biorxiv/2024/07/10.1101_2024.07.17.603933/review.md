@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors compare AlphaFold2 pLDDT, NMR-derived dynamics metrics, interpreted MD simulations, and NMA-based flexibility estimates across a large set of proteins. They report good agreement for rigid residues, but poor representation of dynamic gradations in flexible regions by computational metrics.
+- **Visible evidence base** Abstract text only; no quantitative results, statistical analyses, or methodological details provided
+- **Missing materials affecting confidence** Full text, all figures and tables, methods section, supplementary data, and the interactive website content
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important observation about the limitations of AlphaFold2 and related computational metrics in capturing nuanced protein dynamics. However, the current evidence base is insufficient to evaluate the robustness of the claims. The central conclusion, that computational approaches fail to represent dynamic gradations in flexible regions, is plausible but not substantiated with quantitative data in the abstract. The work could be of interest to the structural biology and computational biology communities, but the case is not yet established from the provided material.
+- **Who would be interested in the results, and why** Structural biologists using NMR to study protein dynamics, computational biologists developing or applying structure prediction tools, and researchers employing AlphaFold2 models for functional inference. The findings could inform best practices for interpreting pLDDT and selecting appropriate computational methods for dynamic regions.
+- **Major strengths** The study addresses a timely and relevant question about the applicability of AlphaFold2 beyond static structures. The use of multiple complementary metrics (NMR, MD, NMA) on a large scale is a commendable approach. The provision of an interactive resource for per-protein results enhances transparency and utility.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that "gradations of dynamics observed by NMR in flexible protein regions are therefore not represented by these computational approaches."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The central conclusion is stated without any quantitative support in the abstract. No correlation coefficients, effect sizes, or statistical significance values are provided to demonstrate the extent of the mismatch between NMR dynamics and computational metrics.  
+  - **Why it matters** Without quantitative evidence, the reader cannot assess the strength or generality of the claimed limitation. The conclusion may be overgeneralized if the observed mismatch is small or context-dependent.  
+  - **Resolution test** Provide specific statistical measures (e.g., correlation coefficients, confidence intervals) comparing NMR-derived order parameters or relaxation rates with pLDDT and NMA predictions for flexible residues, and demonstrate that the mismatch is consistent across the protein set.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological clarity  
+  - **Claim pointer** The abstract states that "interpreted MD simulations" are used as a comparison metric.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The term "interpreted MD simulations" is ambiguous. It is unclear whether the authors performed new MD simulations, reanalyzed existing trajectories, or used a specific interpretation framework. The abstract does not specify the simulation length, force field, or how dynamics were extracted.  
+  - **Why it matters** Reproducibility and interpretation of the results depend on a clear description of the MD methodology. Ambiguity here undermines confidence in the comparison.  
+  - **Resolution test** Clarify the MD protocol in the methods, including simulation parameters, analysis pipeline, and how "interpreted" dynamics were derived from trajectories.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scope and generalizability  
+  - **Claim pointer** The abstract claims that the findings apply "on a large scale" to proteins.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify the number of proteins, the diversity of protein families, or the range of dynamic behaviors covered. Without this information, the generalizability of the conclusion is uncertain.  
+  - **Why it matters** If the protein set is biased toward certain structural classes or dynamic regimes, the conclusion may not hold broadly.  
+  - **Resolution test** Report the number of proteins, their structural and functional diversity, and the distribution of dynamic properties (e.g., order parameters) in the dataset.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "advent of accurate methods to predict the fold of proteins initiated by AlphaFold2" is imprecise, as AlphaFold2 is a specific method, not an initiator of a class.  
+  - **Required correction** Rephrase to "The advent of accurate protein fold prediction methods, exemplified by AlphaFold2, ..."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Accessibility  
+  - **Affected element** Interactive resource  
+  - **Evidence pointer** Abstract, last sentence  
+  - **Issue** The URL is provided, but the abstract does not describe what users can expect to find or how to interpret the data.  
+  - **Required correction** Add a brief description of the resource's content and intended use.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Comparison metrics  
+  - **Evidence pointer** Abstract, methods description  
+  - **Issue** The abstract mentions "NMR metrics" without specifying which ones (e.g., order parameters, relaxation rates, residual dipolar couplings).  
+  - **Required correction** Specify the NMR-derived metrics used in the comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claim lacks quantitative support and the MD methodology is ambiguous. R1-M3 is non-blocking but important for generalizability.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The question of whether AlphaFold2 captures dynamic gradations is timely and not fully resolved in the literature, so the work has potential originality.  
+  - **Scientific importance** The findings could influence how researchers interpret pLDDT and use computational models for dynamic regions, which is of broad importance in structural biology.  
+  - **Interdisciplinary readership** The topic bridges NMR spectroscopy, computational biology, and protein biophysics, appealing to a multidisciplinary audience.  
+  - **Technical soundness** Cannot be fully assessed from the abstract; the lack of quantitative detail and methodological clarity is a concern.  
+  - **Readability for nonspecialists** The abstract is generally clear but uses jargon (e.g., "pLDDT", "NMA") without definition, which may hinder nonspecialist readers.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the lack of quantitative results and methodological detail prevents a definitive assessment. Supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that computational metrics do not represent dynamic gradations is unsupported without quantitative data.
+- The generalizability of the findings "on a large scale" is unverifiable without dataset details.
+- The comparison with "interpreted MD simulations" is not assessable due to methodological ambiguity.

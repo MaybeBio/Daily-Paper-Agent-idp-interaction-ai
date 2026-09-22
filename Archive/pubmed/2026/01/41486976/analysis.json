@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41486976",
+  "title": "Equipartition and the Temperature of Maximum Density of TIP4P/2005 Water.",
+  "authors": "Asthagiri, Dilipkumar N; Pinheiro Dos Santos, Thiago; Beck, Thomas L",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2026-01-05",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究TIP4P/2005水模型的等分原理与最大密度温度，虽涉及无序蛋白模拟参数建议，但对象为水而非IDP/PPI，且无互作机制或AI/物理建模方法，仅对模拟时间步长有间接启发。",
+  "abstract": "We simulate TIP4P/2005 water in the temperature range of 257 to 318 K with time-steps delta = 0.25, 0.50, 1.00, 2.00, and 4.00 fs. The density-temperature behavior obtained using 0.25 or 0.50 fs is in excellent agreement with each other but differs from those obtained using time steps that have been shown earlier to lead to a breakdown of equipartition. For deltat = 0.25 or 0.50 fs, the temperature of maximum density (TMD) is 277.15 K and the density value is in close agreement with experiments. For deltat = 1.00 fs, the TMD is 277.15 K, but the density value is shifted higher. For the other time steps considered here, the TMD is shifted to progressively lower values for longer time steps, a trend that holds for different thermostat/barostat combinations. Enhancing the water-water dispersion interaction, as has been recommended for simulating disordered proteins in TIP4P/2005, degrades the description of the liquid-vapor phase envelope. We present a simple physically transparent explanation that highlights the separation of the time scales between translational and rotational motion. We also develop a metric, chi, that we term the equipartition anomaly, to detect equipartition violations in simulations that include molecules that are treated as rigid objects. Calculating chi is shown to be straightforward and sensitive to equipartition violations. A key takeaway from this study is that using sufficiently short time steps (</=0.5 fs) to preserve equipartition is essential for obtaining meaningful liquid water properties and for producing reliable simulation data, as correct ensemble sampling is fundamental to ensure reproducibility across codes and simulation algorithms.",
+  "abstract_zh": "我们在257至318 K的温度范围内模拟TIP4P/2005水，采用时间步长delta = 0.25、0.50、1.00、2.00和4.00 fs。使用0.25或0.50 fs获得的密度-温度行为彼此高度一致，但与使用先前已显示会导致均分定理失效的时间步长所获得的结果不同。对于deltat = 0.25或0.50 fs，最大密度温度（TMD）为277.15 K，且密度值与实验数据非常接近。对于deltat = 1.00 fs，TMD为277.15 K，但密度值偏高。对于本文考虑的其他时间步长，TMD随步长增加而逐渐向更低值偏移，这一趋势在不同恒温器/恒压器组合下均成立。增强水-水色散相互作用（如推荐用于模拟TIP4P/2005中无序蛋白质的做法）会降低液-气相包络的描述精度。我们提出一个简单且物理上透明的解释，强调平动与转动运动之间的时间尺度分离。我们还开发了一个度量指标chi，称为均分异常，用于检测包含刚性分子处理的模拟中的均分定理违背。计算chi被证明是简便且对均分违背敏感的。本研究的关键结论是，使用足够短的时间步长（≤0.5 fs）以保持均分定理，对于获得有意义的液态水性质和生成可靠的模拟数据至关重要，因为正确的系综采样是确保跨代码和模拟算法可重复性的基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41486976/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41486976/",
+  "paper_page_path": "papers/pubmed/41486976/index.html"
+}

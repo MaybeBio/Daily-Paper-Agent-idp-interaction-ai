@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary information descriptions.
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and results as presented. No assessment of code functionality or data availability beyond what is described.
+- **Shared manuscript claim summary** The authors present IDiom, a 122M-parameter autoregressive protein language model trained on 37 million intrinsically disordered region (IDR) sequences curated from the AlphaFold Database. The model uses a fill-in-the-middle training objective to enable context-conditioned generation of IDRs. The authors claim that IDiom generates diverse sequences that recapitulate compositional biases, charge patterning, hydropathy decoration, and low-complexity features of natural IDRs. They further demonstrate post-training via reinforcement learning with a subcellular localization reward model (ProtGPS) to generate sequences with compartment-specific features.
+- **Visible evidence base** Main text figures (Figures 1-6), supplementary figures (S1-S4), methods section, and supplementary information descriptions. No raw data, code, or model outputs were provided for independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a timely and potentially useful contribution to the field of intrinsically disordered protein design. The core idea of training a language model exclusively on disordered regions, combined with fill-in-the-middle conditioning and reinforcement learning post-training, is conceptually sound and addresses a genuine gap in existing generative methods. However, the evidence presented is largely computational and descriptive, with limited quantitative benchmarking against existing methods or experimental validation. Several claims regarding biological relevance and practical utility are not fully supported by the data shown. The manuscript would benefit from more rigorous statistical comparisons, ablation studies, and a clearer demonstration of practical applicability.
+- **Who would be interested in the results, and why** Researchers in protein design, computational biology, and biophysics would be interested in this work. Specifically, those working on intrinsically disordered proteins, biomolecular condensates, and subcellular localization prediction would find the generative model and the reinforcement learning framework valuable. The approach could also appeal to synthetic biologists and bioengineers interested in designing proteins with tunable phase behavior or localization properties.
+- **Major strengths** The manuscript addresses a clear and important gap in protein design, namely the rational design of intrinsically disordered regions. The training dataset curation from the AlphaFold Database is a creative and scalable approach. The fill-in-the-middle training objective is well-motivated and enables context-conditioned generation, which is a practical advantage. The reinforcement learning post-training framework is a modern and flexible approach that allows optimization of arbitrary objectives. The analysis of generated sequences across multiple biophysical metrics is thorough and demonstrates that the model captures key features of natural IDRs.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that IDiom generates sequences that "recapitulate the compositions, patterning, and motifs of natural intrinsically disordered regions" and that the model "captures the evolutionary statistics of natural disordered regions."
+  - **Evidence pointer** Figures 1d-g, 2b-e; Section "IDiom generates diverse disordered regions and proteins"; Section "Generated sequences capture the residue patterning of natural disordered regions"
+  - **Concern** The quantitative comparison between generated sequences and natural IDRs is largely qualitative. The authors show distributions of metrics (e.g., FCR, κ, SHD, complexity) for generated, training, and DisProt sequences, but do not provide statistical tests (e.g., Kolmogorov-Smirnov tests, effect sizes) to demonstrate that the distributions are indeed similar. The claim that generated sequences "closely resemble" natural IDRs is not rigorously established. Furthermore, the comparison to DisProt is complicated by the small size and potential selection bias of the DisProt dataset, which the authors acknowledge but do not address quantitatively. A more rigorous approach would involve computing pairwise distances between distributions with confidence intervals, or using a held-out test set of natural IDRs to quantify how well the model's generations match unseen natural sequences.
+  - **Why it matters** The central claim of the paper is that IDiom captures the statistical properties of natural IDRs. Without rigorous statistical evidence, this claim is not fully supported. If the model does not faithfully reproduce natural IDR statistics, its utility for design is questionable.
+  - **Resolution test** Provide statistical comparisons (e.g., two-sample tests, effect sizes) between the distributions of key metrics for generated and natural IDR sequences. Additionally, demonstrate that the model's generations are more similar to natural IDRs than to a null model (e.g., shuffled sequences or sequences generated by a simpler baseline model).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "post-training via reinforcement learning with a subcellular localization reward model produces sequences with features which are consistent with known sequence determinants of compartment-specific localization."
+  - **Evidence pointer** Figures 4-6; Section "Sequence optimization using reinforcement learning"; Section "Post-trained models generate sequences with compartment-specific features"
+  - **Concern** The reinforcement learning post-training results are presented descriptively, but the analysis is incomplete. The authors show that post-trained sequences have altered amino acid compositions and motif frequencies, but they do not demonstrate that these changes are specific to the target compartment or that they are not simply a result of the reward model overfitting. There is no comparison to sequences generated by the base model that are filtered by the reward model (i.e., rejection sampling), which would be a simpler baseline. Additionally, the authors do not show whether the post-trained sequences are still disordered (e.g., via pLDDT predictions) after optimization, which is a critical check. The claim that the generated sequences are "consistent with known sequence determinants" is based on manual inspection of motifs and compositions, which is subjective.
+  - **Why it matters** The reinforcement learning framework is a key contribution of the paper. If the post-training procedure does not demonstrably improve localization-specific features beyond what could be achieved by simpler methods, or if it compromises the disordered nature of the sequences, the practical utility of the approach is diminished.
+  - **Resolution test** Compare post-trained sequences to a baseline of base-model generations filtered by the reward model. Show that post-trained sequences maintain low pLDDT values (i.e., remain disordered) after optimization. Provide a more quantitative analysis of motif enrichment, including statistical significance testing and comparison to appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that IDiom "establishes a general platform for the generative design of intrinsically disordered proteins and regions."
+  - **Evidence pointer** Abstract; Discussion
+  - **Concern** The manuscript does not include any experimental validation of the designed sequences. While computational validation is a reasonable first step, the claim of a "general platform" for design is premature without demonstrating that the generated sequences function as intended in a biological context. The authors mention potential applications (e.g., tunable condensate phase behavior, targeted localization) but do not provide any proof-of-concept experiments or even computational predictions of function beyond sequence-level metrics.
+  - **Why it matters** The broader impact of the work depends on whether the generated sequences are actually useful for biological engineering. Without experimental validation, the practical significance of the platform is unclear.
+  - **Resolution test** Include at least one proof-of-concept experiment or a more detailed computational prediction of function (e.g., using a downstream predictor of phase behavior or binding affinity) to demonstrate that the designed sequences are likely to be functional.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "we demonstrate that IDiom learns in-context: given the flanking sequence context of a specific protein, the model generates disordered spans whose sequence features are more appropriate for that context than unprompted generations."
+  - **Evidence pointer** Figure 3; Section "Conditioned generation recapitulates context-specific IDR sequence features"
+  - **Concern** The in-context learning claim is based on a single case study (NPM1). While the NPM1 example is illustrative, it is not sufficient to establish that the model generally learns context-specific features. The authors do not provide a systematic evaluation across multiple proteins or IDR types. The comparison to "randomly scrambled sequences" is a weak baseline, as it does not account for the possibility that the model is simply generating sequences with high κ values regardless of context.
+  - **Why it matters** The ability to condition on flanking context is a key feature of the model and is important for practical design applications. A single example is not convincing evidence that this capability generalizes.
+  - **Resolution test** Perform a systematic evaluation of context-conditioned generation across a diverse set of proteins with known IDRs, comparing the generated sequences to the natural IDRs in terms of multiple metrics. Include a more challenging baseline, such as a model trained without the fill-in-the-middle objective.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Section "Introduction"
+  - **Issue** The introduction assumes familiarity with protein language models and disordered region biology. A brief explanation of what a "fill-in-the-middle" objective is and why it is useful for IDR generation would help nonspecialist readers.
+  - **Required correction** Add a sentence or two explaining the fill-in-the-middle concept and its relevance to the problem.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Data Curation
+  - **Evidence pointer** Section "Data Curation"
+  - **Issue** The description of the data curation process is somewhat brief. The criteria for defining an IDR based on pLDDT values are mentioned, but the specific thresholds and the handling of edge cases (e.g., very short IDRs, IDRs at protein termini) are not fully detailed.
+  - **Required correction** Provide more detail on the exact pLDDT thresholds and the algorithm used to define IDR boundaries.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Post-training
+  - **Evidence pointer** Section "Sequence optimization using reinforcement learning"
+  - **Issue** The description of the reinforcement learning setup is incomplete. The reward model (ProtGPS) is mentioned, but the specific implementation details (e.g., how the reward is computed from the ProtGPS output, the exact form of the KL penalty) are not fully specified.
+  - **Required correction** Provide a more detailed description of the reward function and the RL training procedure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Section "Discussion"
+  - **Issue** The discussion of potential applications is somewhat general. The authors mention "tunable condensate phase behavior" and "targeted protein localization" but do not provide specific examples of how IDiom could be used to achieve these goals.
+  - **Required correction** Add a few concrete examples of design scenarios and how IDiom would be applied in each case.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Figure 1
+  - **Evidence pointer** Figure 1d
+  - **Issue** The distribution of maximum sequence identities to training set IDRs is shown, but the interpretation is not entirely clear. The authors state that the peak around 60% indicates diversity, but it would be helpful to know what the expected distribution would be for a model that simply memorized the training data.
+  - **Required correction** Provide a comparison to a control, such as the identity distribution of random natural IDR pairs, to contextualize the observed distribution.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Figure 6
+  - **Evidence pointer** Figure 6c
+  - **Issue** The analysis of PTM motif density in chromosome-targeting sequences is interesting, but the biological interpretation is somewhat speculative. The authors suggest that the enrichment is consistent with the regulatory role of chromatin-associated proteins, but they do not provide direct evidence that the generated sequences would actually be phosphorylated.
+  - **Required correction** Soften the claim or add a caveat that the functional significance of the motif enrichment is not experimentally verified.
+
+## Risk / unsupported claims
+- The claim that IDiom "captures the evolutionary statistics of natural disordered regions" is not rigorously supported by statistical comparisons.
+- The claim that post-trained sequences are "consistent with known sequence determinants of compartment-specific localization" is based on descriptive analysis and manual inspection, not quantitative testing.
+- The claim that IDiom "learns in-context" is based on a single case study and is not generalized.
+- The claim that IDiom is a "general platform for the generative design of intrinsically disordered proteins and regions" is premature without experimental validation.
+- The comparison to ESM3 (Figure S4) is presented without quantitative metrics, making it difficult to assess the significance of the difference.
+- The statement that "the pLDDTs of IDPs in isolation are higher than for IDRs within their flanking context, which may be due to dataset biases in the AF2 training data" is speculative and not tested.
+- The claim that "the discrepancies with DisProt in the generated compositions of cysteine and charged residues may be attributed to the small size and selection bias of the DisProt dataset" is not quantitatively supported.

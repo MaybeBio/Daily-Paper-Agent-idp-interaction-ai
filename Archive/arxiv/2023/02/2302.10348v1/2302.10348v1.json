@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2302.10348v1",
+  "title": "Binding-and-folding recognition of an intrinsically disordered protein using online learning molecular dynamics",
+  "doi": "",
+  "abstract": "Intrinsically disordered proteins participate in many biological processes by folding upon binding with other proteins. However, coupled folding and binding processes are not well understood from an atomistic point of view. One of the main questions is whether folding occurs prior to or after binding. Here we use a novel unbiased high-throughput adaptive sampling approach to reconstruct the binding and folding between the disordered transactivation domain of \\mbox{c-Myb} and the KIX domain of the CREB-binding protein. The reconstructed long-term dynamical process highlights the binding of a short stretch of amino acids on \\mbox{c-Myb} as a folded $α$-helix. Leucine residues, specially Leu298 to Leu302, establish initial native contacts that prime the binding and folding of the rest of the peptide, with a mixture of conformational selection on the N-terminal region with an induced fit of the C-terminal.",
+  "authors": [
+    "Pablo Herrera-Nieto",
+    "Adrià Pérez",
+    "Gianni De Fabritiis"
+  ],
+  "published_date": "2023-02-20T22:30:35Z",
+  "updated_date": "2023-02-20T22:30:35Z",
+  "journal": "",
+  "category": "q-bio.BM, cs.LG, physics.comp-ph",
+  "landing_url": "https://arxiv.org/abs/2302.10348v1",
+  "pdf_url": "https://arxiv.org/pdf/2302.10348v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.BM",
+    "cs.LG",
+    "physics.comp-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2302.10348v1",
+    "raw_categories": [
+      "q-bio.BM",
+      "cs.LG",
+      "physics.comp-ph"
+    ],
+    "journal_ref": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40913614",
+  "title": "ssDNA and ssRNA Promote Phase Condensation of SAMHD1.",
+  "authors": "Smith, Brandon E; Pohnerkar, Ankita; Orris, Benjamin; Bhat, Shridhar; Egleston, Matthew; Stivers, James T",
+  "journal": "Biochemistry",
+  "published_date": "2025-09-06",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究SAMHD1在ssDNA/ssRNA存在下通过SAM和CT无序结构域发生液-液相分离形成凝聚体，结合实验与MolPhase预测，直接涉及IDR介导的核酸-蛋白互作及相分离机制，对无序蛋白互作建模有直接参考价值。",
+  "abstract": "SAMHD1 (SAM domain and HD domain-containing protein 1) is a deoxynucleoside triphosphate triphosphohydrolase (dNTPase) with functions in viral restriction, R-loop resolution, DNA repair, telomere maintenance, ssRNA homeostasis, and regulation of self-nucleic acids. As a dNTPase, SAMHD1 functions as an allosterically activated tetramer, where binding of GTP to the A1 activator site of each monomer initiates dNTP-dependent tetramerization. cEM structures reveal that the nucleic-acid-related functions of SAMHD1 involve binding of guanine residues to the A1 site, leading to oligomeric forms that appear as beads-on-a-string on single-stranded RNA and DNA. SAMHD1's cellular activities and known protein interactions involve liquid-liquid phase separation (LLPS), although there are no reports that SAMHD1 itself exhibits phase separation properties. The protein phase separation prediction algorithm MolPhase indicated an overall phase separation probability score of 0.65 and suggested that the amino terminal SAM domain and the disordered carboxyl terminus (CT) may promote phase separation. Although no phase separation behavior was observed in physiological buffer, in the presence of 9% PEG 2000 and ssDNA or ssRNA, SAMHD1 condensed into liquid-like droplets. These droplets were disrupted by deletion of the SAM or CT domains, showed fusion behavior, and were rapidly disrupted by the addition of A1 site ligands GTP, dGTP, and small-molecule inhibitors. We also observed that SAMHD1-ssDNA condensates within the nuclei of human cells in microinjection experiments, supporting a biological relevance for such complexes. LLPS by SAMHD1 could serve a regulatory role in cells and provide a new therapeutic target for the treatment of cancer and viral infections.",
+  "abstract_zh": "SAMHD1（SAM结构域和HD结构域蛋白1）是一种脱氧核苷三磷酸三磷酸水解酶（dNTPase），在病毒限制、R-loop解析、DNA修复、端粒维持、ssRNA稳态及自身核酸调控中具有功能。作为dNTPase，SAMHD1以变构激活的四聚体形式发挥作用，其中GTP结合至每个单体的A1激活位点启动dNTP依赖性四聚化。冷冻电镜（cEM）结构揭示，SAMHD1的核酸相关功能涉及鸟嘌呤残基结合至A1位点，导致形成在单链RNA和DNA上呈串珠状的低聚形式。SAMHD1的细胞活性及已知蛋白质相互作用涉及液-液相分离（LLPS），尽管尚无报道表明SAMHD1自身具有相分离特性。蛋白质相分离预测算法MolPhase显示总体相分离概率评分为0.65，并提示氨基末端SAM结构域和羧基末端（CT）无序区可能促进相分离。尽管在生理缓冲液中未观察到相分离行为，但在9% PEG 2000及ssDNA或ssRNA存在下，SAMHD1凝聚成液滴状结构。这些液滴因SAM或CT结构域缺失而解体，表现出融合行为，并因添加A1位点配体GTP、dGTP及小分子抑制剂而迅速瓦解。我们还观察到，在微注射实验中，SAMHD1-ssDNA凝聚体存在于人类细胞核内，支持此类复合物的生物学相关性。SAMHD1的LLPS可能在细胞中发挥调控作用，并为癌症和病毒感染的治疗提供新靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40913614/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40913614/",
+  "paper_page_path": "papers/pubmed/40913614/index.html"
+}

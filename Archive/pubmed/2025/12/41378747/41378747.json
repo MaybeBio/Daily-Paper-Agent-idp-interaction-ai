@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "41378747",
+    "doi": "10.1021/jacs.5c13497",
+    "title": "Depletion of the Protein Hydration Shell with Increasing Temperature Observed by Small-Angle X-ray Scattering and Molecular Simulations."
+  },
+  "content": {
+    "abstract": "The hydration shell is an integral part of proteins since it plays key roles in conformational transitions, molecular recognition, and enzymatic activity. While the dynamics of the hydration shell have been described by spectroscopic techniques, the structure of the hydration shell remains less understood due to the lack of hydration shell-sensitive structural probes with high spatial resolution. We combined temperature-ramp small-angle X-ray scattering (T-ramp SAXS) from 255 to 335 K with molecular simulations to demonstrate that the hydration shells of the IgG-binding domain of Protein G (GB3) and the villin headpiece are remarkably temperature-sensitive. For proteins in the folded state, T-ramp SAXS data and explicit-solvent SAXS predictions consistently demonstrate decays of protein contrasts and radii of gyration with increasing temperature, which are shown to reflect predominantly temperature-sensitive, depleting hydration shells. The depletion is caused not merely by enhanced disorder within the hydration shells but also by partial displacements of surface-coordinated water molecules. Together, T-ramp SAXS and explicit-solvent SAXS calculations provide a novel structural view of the protein hydration shell, which underlies temperature-dependent processes such as cold denaturation, thermophoresis, or biomolecular phase separation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Scattering, Small Angle",
+      "X-Ray Diffraction",
+      "*Temperature",
+      "*Molecular Dynamics Simulation",
+      "*Water/chemistry",
+      "*Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Linse, Johanna-Barbara",
+        "Cho, Hyun Sun",
+        "Schotte, Friedrich",
+        "Anfinrud, Philip A",
+        "Hub, Jochen S"
+      ],
+      "short_names": [
+        "Linse JB",
+        "Cho HS",
+        "Schotte F",
+        "Anfinrud PA",
+        "Hub JS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7716-1767"
+      ],
+      "affiliations": [
+        "Theoretical Physics and Center for Biophysics, Saarland University, Saarbrucken 66123, Germany.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892, United States.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892, United States.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892, United States.",
+        "Theoretical Physics and Center for Biophysics, Saarland University, Saarbrucken 66123, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Linse, Johanna-Barbara",
+        "short_name": "Linse JB",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Physics and Center for Biophysics, Saarland University, Saarbrücken 66123, Germany."
+        ]
+      },
+      {
+        "full_name": "Cho, Hyun Sun",
+        "short_name": "Cho HS",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892, United States."
+        ]
+      },
+      {
+        "full_name": "Schotte, Friedrich",
+        "short_name": "Schotte F",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892, United States."
+        ]
+      },
+      {
+        "full_name": "Anfinrud, Philip A",
+        "short_name": "Anfinrud PA",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892, United States."
+        ]
+      },
+      {
+        "full_name": "Hub, Jochen S",
+        "short_name": "Hub JS",
+        "identifiers": [
+          "0000-0001-7716-1767"
+        ],
+        "affiliations": [
+          "Theoretical Physics and Center for Biophysics, Saarland University, Saarbrücken 66123, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2025 Dec 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/11 13:04",
+    "fetched_at": "2026-09-17 22:50:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38304444",
+      "38086909",
+      "36322416",
+      "36313165",
+      "34596383",
+      "34175665",
+      "31251056",
+      "31139718",
+      "31117647",
+      "30285440",
+      "29884063",
+      "29532982",
+      "29512300",
+      "29172147",
+      "28978201",
+      "28248491",
+      "27224484",
+      "27186992",
+      "26619985",
+      "25855813",
+      "25662667",
+      "25028885",
+      "24706910",
+      "23767571",
+      "23612685",
+      "21972952",
+      "21685684",
+      "20949942",
+      "20478824",
+      "20408171",
+      "19616532",
+      "19508080",
+      "19462949",
+      "19355724",
+      "19227357",
+      "19045234",
+      "18767841",
+      "18171045",
+      "18095715",
+      "18093918",
+      "17319669",
+      "17212484",
+      "17164337",
+      "16392929",
+      "16375508",
+      "16159150",
+      "15894611",
+      "15369375",
+      "15306376",
+      "12787664",
+      "12557193",
+      "11959992",
+      "10890881",
+      "9482874",
+      "7880824",
+      "5551392",
+      "3464944"
+    ],
+    "similar": [
+      "41378747",
+      "40631210",
+      "41316704",
+      "22208197",
+      "38086909",
+      "27224484",
+      "38989800",
+      "31251056",
+      "30617833",
+      "21322711",
+      "39746152",
+      "20499974",
+      "30840442",
+      "34269785",
+      "29548755",
+      "41087027",
+      "29172147",
+      "22004761",
+      "26637017",
+      "36410959",
+      "22512347",
+      "35705644",
+      "35056868",
+      "26083928",
+      "40409637",
+      "42322585",
+      "21090707",
+      "37923304",
+      "38291973",
+      "32023061",
+      "24479585",
+      "31984192",
+      "25855813",
+      "11804721",
+      "36029961",
+      "32339173",
+      "30303199",
+      "12715248",
+      "27493547",
+      "36859088",
+      "36856266",
+      "30531946",
+      "36641209",
+      "31513370",
+      "21661736",
+      "22261066",
+      "30901335",
+      "37782765",
+      "26320411",
+      "30776431",
+      "32119546",
+      "29218557",
+      "33582993",
+      "32859072",
+      "34107023",
+      "37555640",
+      "28116386",
+      "29045407",
+      "20816074",
+      "42178622",
+      "30620594",
+      "42619214",
+      "22828339",
+      "28074088",
+      "36641214",
+      "30291845",
+      "36764203",
+      "23456097",
+      "36710010",
+      "21054069",
+      "11258921",
+      "29605933",
+      "33157097",
+      "30865820",
+      "25140431",
+      "42094270",
+      "32696361",
+      "39252421",
+      "40642973",
+      "23912807",
+      "21216251",
+      "36462455",
+      "34210208",
+      "22639100",
+      "23972848",
+      "40216579",
+      "30021107",
+      "32787275",
+      "29134679",
+      "40014870",
+      "30021105",
+      "26095982",
+      "29989815",
+      "25494779",
+      "26549621",
+      "9010925",
+      "29570286",
+      "21947276",
+      "22821520",
+      "20815594"
+    ],
+    "review": [
+      "41378747",
+      "30617833",
+      "30840442",
+      "29172147",
+      "26320411",
+      "36462455",
+      "22639100"
+    ],
+    "pmc": [
+      "12750538"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41378747/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.5c13497",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

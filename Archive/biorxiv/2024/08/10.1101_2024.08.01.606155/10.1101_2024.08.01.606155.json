@@ -1,0 +1,313 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.01.606155",
+  "title": "Activation and regulation of a p38-MAPK by its downstream MAPKAP kinase through feedback phosphorylation and LLPS-driven condensate formation",
+  "doi": "10.1101/2024.08.01.606155",
+  "abstract": "MAP kinases (MAPKs) represent a class of evolutionarily conserved stress and extracellular stimuli responsive signaling molecules. p38 group of MAPKs known to be activated by dual-specific upstream MAPK kinases and also by autophosphorylation. They activate MAPK activated protein kinases (MAPKAPKs) in a context dependent manner by specific phosphorylation, and together, they play crucial biological roles. One such pair is PMK3, p38α-MAPK and its cognate MAPKAPK, MAK2, downstream of DLK1 (MAPK kinase kinase) and MKK4 (MAPK kinase) in C. elegans . They are implicated in axonal regeneration, degeneration and synaptic pruning in response to neuronal injury. Here, we report that PMK3 and MAK2 engage in a feedback relationship, leading to phosphorylation-mediated activation of both kinases. Interaction of PMK3 with MAK2 through the canonical docking site leads to negligible de novo autophosphorylation of PMK3. Phosphorylation of both Thr and Tyr residues on the TxY-motif necessary for the full activation of PMK3 requires catalytic activity of MAK2 as confirmed by mass spectrometry. Distribution of phosphorylation sites on either kinase when incubated together, and presence of long intrinsically disordered regions in each kinase indicate that PMK3:MAK2 complex is conformationally plastic in nature. MAK2 increases bioavailability of aggregation-prone PMK3 by virtue of its ability to form LLPS-driven condensates in vitro, wherein they retain enzymatic activities and phosphorylate each other. Furthermore, experiments with transgenic C. elegans reveal that MAK2 controls stability of PMK3 and localization of PMK3 puncta in touch neuron. Our observations offer an unreported activation mechanism of a p38-MAPK by its downstream MAPKAPK. <h4>Significance Statement</h4> MAPK kinases are evolutionarily conserved, and are key players in stress response, cell survival, differentiation, metabolic processes and neuronal response to injury. MAPK pathways are primarily activated through unidirectional flow of phosphorylation-signal MAP3K to MAP2K to MAPK, and in some cases to a downstream MAPKAPK. We found that a C. elegans MAPK (PMK3) can also be activated by its downstream MAPKAPK (MAK2) through feedback phosphorylation that ensures robust activation of PMK3 by MAK2 without requiring the MAP2K. Furthermore, MAK2 increases bioavailability of activation-competent and active PMK3 by preventing its aggregation through LLPS-driven condensate formation in vitro and in the worm neuron. This feedback relationship might ensure rapid activation of such MAPK pathways in response to nervous system injury or stress.",
+  "authors": [
+    "Ray P",
+    "Mangal C",
+    "Rao TP",
+    "Nandi M",
+    "Haque A",
+    "Viswanath V",
+    "Mitra S",
+    "Raychaudhuri S",
+    "Ghosh-Roy A",
+    "Polley S"
+  ],
+  "published_date": "2024-08-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.01.606155",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.01.606155.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR890218",
+    "raw_record": {
+      "id": "PPR890218",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR890218"
+        ]
+      },
+      "doi": "10.1101/2024.08.01.606155",
+      "title": "Activation and regulation of a p38-MAPK by its downstream MAPKAP kinase through feedback phosphorylation and LLPS-driven condensate formation",
+      "authorString": "Ray P, Mangal C, Rao TP, Nandi M, Haque A, Viswanath V, Mitra S, Raychaudhuri S, Ghosh-Roy A, Polley S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ray P",
+            "lastName": "Ray",
+            "firstName": "Pranita",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6935-139X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences, , Sector V, Bidhan Nagar , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mangal C",
+            "lastName": "Mangal",
+            "firstName": "Chakshu",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cellular and Molecular Neuroscience, BRIC- , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rao TP",
+            "lastName": "Rao",
+            "firstName": "Pallavi",
+            "initials": "TP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "- , Uppal Road , ,"
+                },
+                {
+                  "affiliation": ", - ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nandi M",
+            "lastName": "Nandi",
+            "firstName": "Mintu",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7720-2693"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Haque A",
+            "lastName": "Haque",
+            "firstName": "Afreen",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences, , Sector V, Bidhan Nagar , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Viswanath V",
+            "lastName": "Viswanath",
+            "firstName": "Vibha",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cellular and Molecular Neuroscience, BRIC- , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mitra S",
+            "lastName": "Mitra",
+            "firstName": "Samrat",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences, , Sector V, Bidhan Nagar , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Raychaudhuri S",
+            "lastName": "Raychaudhuri",
+            "firstName": "Swasti",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4091-7991"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "- , Uppal Road , ,"
+                },
+                {
+                  "affiliation": ", - ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ghosh-Roy A",
+            "lastName": "Ghosh-Roy",
+            "firstName": "Anindya",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3428-4588"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cellular and Molecular Neuroscience, BRIC- , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Polley S",
+            "lastName": "Polley",
+            "firstName": "Smarajit",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3494-5267"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences, , Sector V, Bidhan Nagar , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3428-4588"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6935-139X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7720-2693"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3352-3687"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3494-5267"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4091-7991"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "MAP kinases (MAPKs) represent a class of evolutionarily conserved stress and extracellular stimuli responsive signaling molecules. p38 group of MAPKs known to be activated by dual-specific upstream MAPK kinases and also by autophosphorylation. They activate MAPK activated protein kinases (MAPKAPKs) in a context dependent manner by specific phosphorylation, and together, they play crucial biological roles. One such pair is PMK3, p38α-MAPK and its cognate MAPKAPK, MAK2, downstream of DLK1 (MAPK kinase kinase) and MKK4 (MAPK kinase) in  C. elegans . They are implicated in axonal regeneration, degeneration and synaptic pruning in response to neuronal injury. Here, we report that PMK3 and MAK2 engage in a feedback relationship, leading to phosphorylation-mediated activation of both kinases. Interaction of PMK3 with MAK2 through the canonical docking site leads to negligible  de novo autophosphorylation of PMK3. Phosphorylation of both Thr and Tyr residues on the TxY-motif necessary for the full activation of PMK3 requires catalytic activity of MAK2 as confirmed by mass spectrometry. Distribution of phosphorylation sites on either kinase when incubated together, and presence of long intrinsically disordered regions in each kinase indicate that PMK3:MAK2 complex is conformationally plastic in nature. MAK2 increases bioavailability of aggregation-prone PMK3 by virtue of its ability to form LLPS-driven condensates  in vitro, wherein they retain enzymatic activities and phosphorylate each other. Furthermore, experiments with transgenic  C. elegans reveal that MAK2 controls stability of PMK3 and localization of PMK3 puncta in touch neuron. Our observations offer an unreported activation mechanism of a p38-MAPK by its downstream MAPKAPK.  <h4>Significance Statement</h4>  MAPK kinases are evolutionarily conserved, and are key players in stress response, cell survival, differentiation, metabolic processes and neuronal response to injury. MAPK pathways are primarily activated through unidirectional flow of phosphorylation-signal MAP3K to MAP2K to MAPK, and in some cases to a downstream MAPKAPK. We found that a  C. elegans MAPK (PMK3) can also be activated by its downstream MAPKAPK (MAK2) through feedback phosphorylation that ensures robust activation of PMK3 by MAK2 without requiring the MAP2K. Furthermore, MAK2 increases bioavailability of activation-competent and active PMK3 by preventing its aggregation through LLPS-driven condensate formation  in vitro and in the worm neuron. This feedback relationship might ensure rapid activation of such MAPK pathways in response to nervous system injury or stress.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.08.01.606155"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.08.01.606155"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR890218"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR890218&type=FILE&fileName=EMS197933-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS197933",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-08-04",
+      "firstPublicationDate": "2024-08-01",
+      "firstIndexDate": "2024-08-04",
+      "fullTextReceivedDate": "2025-11-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

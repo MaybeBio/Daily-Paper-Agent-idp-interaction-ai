@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.22.500790",
+  "title": "PDB ProtVista: A reusable and open-source sequence feature viewer",
+  "authors": "Deshpande M; Varadi M; Paysan-Lafosse T; Nair S; Piovesan D; Mir S; Gutmanas A; Tosatto SCE; Velankar S",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-22",
+  "window": {
+    "start": "2022-07-18",
+    "end": "2022-07-24"
+  },
+  "score": 3,
+  "one_liner_zh": "该文介绍PDB ProtVista序列特征可视化工具，虽支持展示无序预测和互作界面注释，但本身是可视化工具而非互作机制建模方法，与本课题的AI/物理模拟建模核心关联弱。",
+  "abstract": "The PDB ProtVista is a reusable and customisable sequence feature viewer that provides intuitive and detailed 2D visualisation of residue-level annotations while supporting interactive communication with 3D viewers. The Protein Data Bank in Europe (PDBe) team develops and maintains PDB ProtVista. Several public web services use it to display structural and functional annotations such as macromolecular interaction interfaces, intrinsic disorder predictions, sequence variants, and sequence conservation. The PDB ProtVista is freely available from https://github.com/PDBeurope/protvista-pdb . We provide extensive documentation and step-by-step user guides on integrating PDB ProtVista with existing web applications and 3D molecular viewers. We also offer examples of displaying the user’s custom data and functional annotations for PDB and UniProt entries powered by a rich set of PDBe API endpoints.",
+  "abstract_zh": "PDB ProtVista是一个可重用且可定制的序列特征查看器，提供残基级注释的直观且详细的2D可视化，同时支持与3D查看器的交互式通信。欧洲蛋白质数据银行（PDBe）团队开发并维护PDB ProtVista。多个公共网络服务使用它来显示结构和功能注释，如大分子相互作用界面、内在无序预测、序列变异和序列保守性。PDB ProtVista可从 https://github.com/PDBeurope/protvista-pdb 免费获取。我们提供关于将PDB ProtVista集成到现有网络应用和3D分子查看器的广泛文档和逐步用户指南。我们还提供展示用户自定义数据以及PDB和UniProt条目功能注释的示例，这些由丰富的PDBe API端点集驱动。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.22.500790",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.22.500790",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.22.500790/index.html"
+}

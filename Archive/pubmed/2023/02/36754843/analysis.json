@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36754843",
+  "title": "A hybrid positive unlabeled learning framework for uncovering scaffolds across human proteome by measuring the propensity to drive phase separation.",
+  "authors": "Jiang, Peiran; Cai, Ruoxi; Lugo-Martinez, Jose; Guo, Yaping",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2023-02-09",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于正无标记学习的PULPS框架，利用多模态特征预测人类蛋白质组中驱动相分离的支架蛋白，虽未直接建模PPI机制，但聚焦IDP相关相分离对象并采用AI方法，对无序蛋白互作预测有方法学启发。",
+  "abstract": "Scaffold proteins drive liquid-liquid phase separation (LLPS) to form biomolecular condensates and organize various biochemical reactions in cells. Dysregulation of scaffolds can lead to aberrant condensate assembly and various complex diseases. However, bioinformatics predictors dedicated to scaffolds are still lacking and their development suffers from an extreme imbalance between limited experimentally identified scaffolds and unlabeled candidates. Here, using the joint distribution of hybrid multimodal features, we implemented a positive unlabeled (PU) learning-based framework named PULPS that combined ProbTagging and penalty logistic regression (PLR) to profile the propensity of scaffolds. PULPS achieved the best AUC of 0.8353 and showed an area under the lift curve (AUL) of 0.8339 as an estimation of true performance. Upon reviewing recent experimentally verified scaffolds, we performed a partial recovery with 2.85% increase in AUL from 0.8339 to 0.8577. In comparison, PULPS showed a 45.7% improvement in AUL compared with PLR, whereas 8.2% superiority over other existing tools. Our study first proved that PU learning is more suitable for scaffold prediction and demonstrated the widespread existence of phase separation states. This profile also uncovered potential scaffolds that co-drive LLPS in the human proteome and generated candidates for further experiments. PULPS is free for academic research at http://pulps.zbiolab.cn.",
+  "abstract_zh": "支架蛋白驱动液-液相分离（liquid-liquid phase separation, LLPS）形成生物分子凝聚体，并组织细胞内的多种生化反应。支架蛋白的失调可导致异常凝聚体组装及多种复杂疾病。然而，专门针对支架蛋白的生物信息学预测工具仍然缺乏，其开发受到实验鉴定的支架蛋白数量有限与未标记候选蛋白之间极端不平衡的制约。在此，利用混合多模态特征的联合分布，我们实现了一个基于正未标记（positive unlabeled, PU）学习的框架，命名为PULPS，该框架结合了ProbTagging和惩罚逻辑回归（penalty logistic regression, PLR）来刻画支架蛋白的倾向性。PULPS取得了最佳AUC为0.8353，并以提升曲线下面积（area under the lift curve, AUL）0.8339作为真实性能的估计。在回顾近期实验验证的支架蛋白后，我们进行了部分恢复，AUL从0.8339增加至0.8577，提升了2.85%。相比之下，PULPS在AUL上比PLR提高了45.7%，而比其他现有工具优越8.2%。我们的研究首次证明PU学习更适合支架蛋白预测，并展示了相分离状态的广泛存在。该图谱还揭示了人类蛋白质组中共同驱动LLPS的潜在支架蛋白，并为后续实验生成了候选对象。PULPS对学术研究免费开放，网址为http://pulps.zbiolab.cn。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36754843/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36754843/",
+  "paper_page_path": "papers/pubmed/36754843/index.html"
+}

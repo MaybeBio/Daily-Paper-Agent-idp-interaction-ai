@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided.
+- **Assessment boundary** Scientific content, experimental logic, and support for claims based solely on the provided text. No external validation or access to figures, tables, or supplementary data beyond what is described.
+- **Shared manuscript claim summary** The manuscript claims that TDP-43 and Tau directly interact in vitro, mutually promote each other's condensation into multiphasic co-condensates, and that this interaction suppresses Tau fibril formation and seeding while promoting TDP-43 aggregation and seeding, with supporting evidence from patient-derived brain extracts.
+- **Visible evidence base** Text descriptions of in vitro condensation assays, FRAP, XL-MS, SDD-AGE, ThT assays, TEM, immunogold labeling, cell-based seeding assays, and patient brain extract experiments. References to figures (Fig. 1-7, EV1-EV5, Appendix Fig. S1-S8) and Table 1 are present but not directly viewable.
+- **Missing materials affecting confidence** All figures, tables, and supplementary data are not provided. Statistical details, exact quantification values, and raw data are not accessible. This limits verification of quantitative claims and experimental rigor.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant and timely question regarding the molecular interplay between TDP-43 and Tau in Alzheimer's disease. The in vitro findings are potentially interesting, but the evidence as presented is incomplete and several key claims are not fully supported by the described data. The mechanistic model proposed is speculative and requires additional experimental validation, particularly regarding the in vivo relevance and the structural nature of the co-assemblies.
+- **Who would be interested in the results, and why** Researchers in the fields of neurodegeneration, protein aggregation, phase separation, and Alzheimer's disease biology. The findings could inform understanding of co-pathology mechanisms and potentially influence therapeutic strategies targeting Tau or TDP-43 aggregation.
+- **Major strengths** The study addresses a significant gap in understanding TDP-43/Tau co-pathology. The combination of in vitro biophysical assays with patient-derived material is a strong approach. The use of multiple complementary techniques (FRAP, XL-MS, TEM, cell-based seeding) strengthens the internal consistency of the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for direct interaction
+  - **Claim pointer** The claim that TDP-43 and Tau directly interact in the condensate state is central to the manuscript.
+  - **Evidence pointer** Figure 2, Appendix Fig. S2
+  - **Concern** The XL-MS data are described as identifying inter-protein crosslinks between TDP-43 and Tau in the pellet condition. However, the text notes that crosslinks between TDP-43 and MBP were also detected in the bulk condition, attributed to incomplete cleavage or physical interaction. This raises the question of whether the TDP-43/Tau crosslinks are specific or could also arise from non-specific interactions or incomplete cleavage artifacts. The manuscript does not provide sufficient detail on the stoichiometry, reproducibility, or quantitative comparison of these crosslinks to convincingly establish a specific, direct interaction.
+  - **Why it matters** The entire mechanistic model hinges on a direct physical interaction. If the interaction is indirect or an artifact of the experimental system, the subsequent claims about co-condensation and functional consequences are weakened.
+  - **Resolution test** Provide quantitative XL-MS data (e.g., number of unique crosslinks, spectral counts) comparing TDP-43/Tau to TDP-43/MBP and other negative controls. Include competition experiments or mutagenesis to demonstrate specificity. Show that the interaction is not merely a consequence of co-condensation but is required for it.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for in vivo relevance
+  - **Claim pointer** The manuscript suggests that TDP-43/Tau co-pathology in AD may suppress Tau propagation while promoting TDP-43-driven pathology.
+  - **Evidence pointer** Figure 7, Table 1, Appendix Fig. S8
+  - **Concern** The patient-derived data are based on a small number of extracts (number not specified in text) and show a correlation between TDP-43 presence and reduced Tau seeding. However, the text acknowledges a discrepancy with a previous study (Tomé et al., 2023). The manuscript does not adequately address this discrepancy or provide sufficient mechanistic insight from the patient samples to support the directional claim (TDP-43 suppresses Tau seeding). The extracts are complex mixtures, and the reduced Tau seeding could be due to other factors.
+  - **Why it matters** The translational relevance of the in vitro findings depends on the patient data. Without a clear, reproducible, and mechanistically explained link, the clinical implications remain speculative.
+  - **Resolution test** Increase the number of patient samples and include well-characterized controls. Perform biochemical fractionation of the extracts to identify the specific species responsible for reduced Tau seeding. Directly test whether depleting TDP-43 from AD+ extracts restores Tau seeding activity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic model of suppression
+  - **Claim pointer** The claim that TDP-43 suppresses Tau fibril formation by driving it into oligomeric species.
+  - **Evidence pointer** Figure 5, Figure 6
+  - **Concern** The manuscript shows that TDP-43 prevents Tau fibril formation and leads to small species. However, the structural nature of these species is not characterized. It is unclear if they are off-pathway oligomers, amorphous aggregates, or a different type of fibril. The claim that these are "oligomeric" is based on size alone. The mechanism by which TDP-43 exerts this effect (e.g., by binding to the fibril core, by altering nucleation, by sequestering monomers) is not investigated.
+  - **Why it matters** Understanding the mechanism is crucial for evaluating whether this is a protective or pathological process. If the oligomers are toxic, then TDP-43 could be promoting neurodegeneration despite suppressing fibril formation.
+  - **Resolution test** Perform structural analysis of the small species (e.g., cryo-EM, solid-state NMR, or limited proteolysis). Use kinetic assays to determine the step in fibrillization that is inhibited. Test the toxicity of the generated species in cellular or in vivo models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Quantification of condensation and aggregation
+  - **Evidence pointer** Methods section, "Quantification of in vitro condensation and aggregation"
+  - **Issue** The description of the Python script for image analysis is brief. The thresholding and object identification parameters are not fully detailed, which may affect reproducibility.
+  - **Required correction** Provide the full script or a detailed description of the algorithm, including specific parameters for thresholding and object size filters.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** FRAP analysis
+  - **Evidence pointer** Methods section, "FRAP analysis"
+  - **Issue** The statistical model for FRAP is described, but the results are not presented in the text. It is unclear if the differences in mobile fraction and half-time are statistically significant and what the effect sizes are.
+  - **Required correction** Report the statistical outcomes (e.g., p-values, confidence intervals) for the FRAP comparisons in the results section or figure legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Patient cohort
+  - **Evidence pointer** Table 1
+  - **Issue** The text mentions patient groups but does not provide demographic or clinical details in the main text. The number of cases per group is not stated.
+  - **Required correction** Include a summary of the cohort characteristics (e.g., number, age, Braak stage, TDP-43 stage) in the main text or a supplementary table.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative data for the XL-MS interaction claim (R1-M1) and the insufficient characterization of the oligomeric species (R1-M3) are the primary technical issues. The patient data (R1-M2) also need to be strengthened to support the translational claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study addresses a novel question about the direct interaction between TDP-43 and Tau and its functional consequences. This is a relatively unexplored area, and the findings could be original.
+  - **Scientific importance** The topic is of high importance given the high prevalence of TDP-43 co-pathology in AD and its association with worse outcomes. Understanding the molecular basis of this interaction could have significant implications.
+  - **Interdisciplinary readership** The work bridges protein biophysics, cell biology, and neuropathology, which would appeal to a broad readership.
+  - **Technical soundness** The technical soundness is currently not fully established due to the concerns raised above. The in vitro assays are standard, but the key claims require more rigorous validation.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, some sections, particularly the methods, are dense and may be challenging for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and potentially significant, but the current evidence is insufficient to fully support the central claims of direct interaction and the mechanistic model. The authors need to provide more robust data, particularly for the XL-MS and the characterization of the oligomeric species, and to strengthen the patient-based evidence.
+
+## Risk / unsupported claims
+- The claim that TDP-43 and Tau directly interact in the condensate state is not fully supported by the presented XL-MS data, which lack quantitative rigor and specificity controls.
+- The claim that the small species formed in the presence of TDP-43 are "oligomeric" and are responsible for the reduced seeding is not directly demonstrated.
+- The claim that TDP-43 co-pathology in AD patients suppresses Tau seeding is based on a limited number of samples and is contradicted by a previous study, making it currently unsupported.
+- The proposed model that TDP-43 initially protects against Tau pathology but ultimately promotes TDP-43-driven neurodegeneration is speculative and not directly tested.

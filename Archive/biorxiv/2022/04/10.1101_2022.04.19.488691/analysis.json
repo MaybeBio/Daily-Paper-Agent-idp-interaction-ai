@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.19.488691",
+  "title": "CPGL: Prediction of compound-protein interaction by integrating graph attention network with long short-term memory neural network",
+  "authors": "Minghua Zhao; Min Yuan; Yaning Yang; Steven X Xu",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-19",
+  "window": {
+    "start": "2022-04-18",
+    "end": "2022-04-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出结合图注意力网络与LSTM的深度学习模型CPGL预测化合物-蛋白质互作，对象为小分子与折叠蛋白，非无序蛋白/IDR/相分离，且仅做亲和力预测无机制建模，对无序蛋白PPI机制研究启发有限。",
+  "abstract": "Recent advancements of artificial intelligence based on deep learning algorithms have made it possible to computationally predict compound-protein interaction (CPI) without conducting laboratory experiments. In this manuscript, we integrated a graph attention network (GAT) for compounds and a long short-term memory neural network (LSTM) for proteins, used end-to-end representation learning for both compounds and proteins, and proposed a deep learning algorithm, CPGL (CPI with GAT and LSTM) to optimize the feature extraction from compounds and proteins and to improve the model robustness and generalizability. CPGL demonstrated an excellent predictive performance and outperforms recently reported deep learning models. Based on 3 public CPI datasets, C.elegans, Human and BindingDB, CPGL represented 1 - 5% improvement compared to existing deep-learning models. Our method also achieves excellent results on datasets with imbalanced positive and negative proportions constructed based on the above two datasets. More importantly, using 2 label reversal datasets, GPCR and Kinase, CPGL showed superior performance compared to other existing deep learning models. The AUC were substantially improved by 15% to 50% on the Kinase dataset, indicative of the robustness and generalizability of CPGL.",
+  "abstract_zh": "基于深度学习算法的人工智能最新进展，使得无需进行实验室实验即可通过计算预测化合物-蛋白质相互作用（CPI）成为可能。在本手稿中，我们整合了用于化合物的图注意力网络（GAT）和用于蛋白质的长短期记忆神经网络（LSTM），对化合物和蛋白质均采用端到端表示学习，并提出了一种深度学习算法CPGL（结合GAT和LSTM的CPI预测），以优化化合物和蛋白质的特征提取，并提升模型的鲁棒性和泛化能力。CPGL展现了卓越的预测性能，优于近期报道的深度学习模型。基于3个公共CPI数据集，即C.elegans、Human和BindingDB，CPGL相较于现有深度学习模型实现了1%至5%的提升。我们的方法在基于上述两个数据集构建的正负样本比例不平衡的数据集上也取得了优异结果。更重要的是，使用2个标签反转数据集GPCR和Kinase，CPGL相比其他现有深度学习模型表现出更优性能。在Kinase数据集上，AUC显著提高了15%至50%，这表明了CPGL的鲁棒性和泛化能力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.19.488691",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.19.488691",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.19.488691/index.html"
+}

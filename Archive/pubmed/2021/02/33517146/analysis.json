@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33517146",
+  "title": "The RIT1 C-terminus associates with lipid bilayers via charge complementarity.",
+  "authors": "Migliori, Amy D; Patel, Lara A; Neale, Chris",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2021-02-01",
+  "window": {
+    "start": "2021-02-01",
+    "end": "2021-02-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用分子动力学模拟研究RIT1无序C端肽段与脂质双分子层的电荷互补结合机制，虽对象为膜脂而非蛋白互作，但无序肽-膜界面机制建模思路对IDR介导的PPI机制研究有可迁移启发。",
+  "abstract": "RIT1 is a member of the Ras superfamily of small GTPases involved in regulation of cellular signaling. Mutations to RIT1 are involved in cancer and developmental disorders. Like many Ras subfamily members, RIT1 is localized to the plasma membrane. However, RIT1 lacks the C-terminal prenylation that helps many other subfamily members adhere to cellular membranes. We used molecular dynamics simulations to examine the mechanisms by which the C-terminal peptide (CTP) of RIT1 associates with lipid bilayers. We show that the CTP is unstructured and that its membrane interactions depend on lipid composition. While a 12-residue region of the CTP binds strongly to anionic bilayers containing phosphatidylserine lipids, the CTP termini fray from the membrane allowing for accommodation of the RIT1 globular domain at the membrane-water interface.",
+  "abstract_zh": "RIT1是Ras超家族小GTP酶的一员，参与细胞信号传导的调控。RIT1的突变与癌症和发育障碍相关。与许多Ras亚家族成员类似，RIT1定位于质膜。然而，RIT1缺乏帮助其他许多亚家族成员附着于细胞膜的C端异戊二烯化修饰。我们使用分子动力学 (molecular dynamics) 模拟来研究RIT1的C端肽 (CTP) 与脂质双层结合的机制。我们显示，CTP是无结构的，其膜相互作用依赖于脂质组成。虽然CTP的一个12残基区域与含有磷脂酰丝氨酸脂质的阴离子双层强结合，但CTP末端从膜上脱离，允许RIT1球状结构域在膜-水界面处适应。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33517146/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33517146/",
+  "paper_page_path": "papers/pubmed/33517146/index.html"
+}

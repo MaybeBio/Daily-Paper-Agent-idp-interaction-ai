@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42602537",
+  "title": "Protein-protein interaction inhibitors in the human proteome: lessons from 117 targeted interactions.",
+  "authors": "Hyde, Ellen E; Beekman, Andrew M",
+  "journal": "RSC medicinal chemistry",
+  "published_date": "2026-08-15",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述系统梳理人类蛋白质组中117个PPI抑制剂的界面拓扑与发现策略，明确将无序/环状介导的互作列为挑战性靶点，并强调机器学习结构预测等新兴方法，虽非机制建模研究，但对IDR介导PPI的靶向策略与AI方法应用有直接启发。",
+  "abstract": "Protein-protein interactions (PPIs) orchestrate cellular function yet remain largely underexploited as therapeutic targets. Although the human interactome is estimated to contain more than 650 000 PPIs, only 117 interactions ( approximately 0.02%) have reported inhibitors. Here, we review human PPIs with peptide, peptidomimetic, small-molecule and antibody inhibitors, and classify them according to the dominant secondary structure at the interaction interface. This framework separates PPIs into alpha-helix-, beta-strand- and disordered/loop-mediated interactions, revealing clear links between interface topology and inhibitor discovery strategies. alpha-Helical interfaces account for most reported inhibitors, whereas beta-strand-mediated and dynamic interactions remain comparatively underexplored despite their biological importance. Across structural classes, successful inhibitor discovery has been enabled by structure-guided approaches, including rational peptide design, macrocyclisation, fragment-based screening and peptide-directed ligand design. However, progress remains slow for challenging targets, particularly coiled-coil interactions and intrinsically disordered regions. Emerging technologies, including cryo-electron microscopy and machine learning-guided structure prediction, are rapidly expanding access to these targets. By connecting interface architecture with optimal inhibitor modality and discovery strategy, this review provides a framework for accelerating the development of next-generation PPI therapeutics.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）调控细胞功能，但作为治疗靶点仍 largely 未被充分利用。尽管人类相互作用组估计包含超过650 000种PPIs，仅有117种相互作用（约0.02%）有已报道的抑制剂。在此，我们综述了具有肽、肽模拟物、小分子和抗体抑制剂的人类PPIs，并根据相互作用界面上的主导二级结构对其进行分类。该框架将PPIs分为α-螺旋、β-链和无序/环介导的相互作用，揭示了界面拓扑结构与抑制剂发现策略之间的明确联系。α-螺旋界面占大多数已报道的抑制剂，而β-链介导和动态相互作用尽管具有生物学重要性，仍相对未被充分探索。跨结构类别，成功的抑制剂发现得益于结构导向方法，包括合理肽设计、大环化、片段筛选和肽导向配体设计。然而，对于具有挑战性的靶点，特别是卷曲螺旋相互作用和固有无序区域，进展仍然缓慢。新兴技术，包括冷冻电子显微镜和机器学习引导的结构预测，正在迅速扩大对这些靶点的可及性。通过将界面架构与最佳抑制剂模态和发现策略联系起来，本综述为加速下一代PPI治疗药物的开发提供了一个框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42602537/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42602537/",
+  "paper_page_path": "papers/pubmed/42602537/index.html"
+}

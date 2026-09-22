@@ -1,0 +1,225 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.22.507254",
+  "title": "Single nucleotide variation catalogue from clinical isolates mapped on tertiary and quaternary structures of ESX-1 related proteins reveals critical regions as putative Mtb therapeutic targets",
+  "doi": "10.1101/2023.06.22.507254",
+  "abstract": "Proteins encoded by the ESX-1 genes of interests are essential for full virulence in all Mycobacterium tuberculosis complex (MTBc) lineages, the pathogens with the highest mortality worldwide. Identifying critical regions in these ESX-1 related proteins could provide preventive or therapeutic targets for MTB infection, the game changer needed for tuberculosis control. We analysed a compendium of whole genome sequences of clinical MTB isolates from all lineages from >32,000 patients and identified single nucleotide variations (SNV). When mutations corresponding to all nonsynonymous SNPs were mapped on the surface of known and AlphaFold-predicted ternary protein structures, fully conserved regions emerged. Some could be assigned to known quaternary structures, whereas others could be predicted to be involved in yet-to-be-discovered interactions. Some mutants had clonally expanded (found in >1% of the isolates): these were mostly located at the surface of globular domains, remote from known intra- and inter-molecular protein–protein interactions. Fully conserved intrinsically disordered regions (IDRs) of proteins were found, suggesting that these are crucial for the pathogenicity of the MTBc. Altogether, our findings provide an evolutionary structural perspective on MTB virulence and highlight fully conserved regions of proteins as attractive vaccine antigens and drug targets. Extending this approach to other pathogens can provide a novel critical resource for the development of innovative tools for pathogen control.",
+  "authors": [
+    "Tzfadia O",
+    "Siroy A",
+    "Vujkovic A",
+    "Gijsbers A",
+    "Snobre J",
+    "Vargas R",
+    "Mulders W",
+    "Meehan CJ",
+    "Farhat M",
+    "Peters PJ",
+    "de Jong BC",
+    "Ravelli RB"
+  ],
+  "published_date": "2023-06-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.22.507254",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.22.507254.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR680039",
+    "raw_record": {
+      "id": "PPR680039",
+      "source": "PPR",
+      "doi": "10.1101/2023.06.22.507254",
+      "title": "Single nucleotide variation catalogue from clinical isolates mapped on tertiary and quaternary structures of ESX-1 related proteins reveals critical regions as putative Mtb therapeutic targets",
+      "authorString": "Tzfadia O, Siroy A, Vujkovic A, Gijsbers A, Snobre J, Vargas R, Mulders W, Meehan CJ, Farhat M, Peters PJ, de Jong BC, Ravelli RB.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tzfadia O",
+            "lastName": "Tzfadia",
+            "firstName": "Oren",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7096-8063"
+            }
+          },
+          {
+            "fullName": "Siroy A",
+            "lastName": "Siroy",
+            "firstName": "Axel",
+            "initials": "A"
+          },
+          {
+            "fullName": "Vujkovic A",
+            "lastName": "Vujkovic",
+            "firstName": "Alexandra",
+            "initials": "A"
+          },
+          {
+            "fullName": "Gijsbers A",
+            "lastName": "Gijsbers",
+            "firstName": "Abril",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6622-3686"
+            }
+          },
+          {
+            "fullName": "Snobre J",
+            "lastName": "Snobre",
+            "firstName": "Jihad",
+            "initials": "J"
+          },
+          {
+            "fullName": "Vargas R",
+            "lastName": "Vargas",
+            "firstName": "Roger",
+            "initials": "R"
+          },
+          {
+            "fullName": "Mulders W",
+            "lastName": "Mulders",
+            "firstName": "Wim",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9566-3653"
+            }
+          },
+          {
+            "fullName": "Meehan CJ",
+            "lastName": "Meehan",
+            "firstName": "Conor",
+            "initials": "CJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0724-8343"
+            }
+          },
+          {
+            "fullName": "Farhat M",
+            "lastName": "Farhat",
+            "firstName": "Maha",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3871-5760"
+            }
+          },
+          {
+            "fullName": "Peters PJ",
+            "lastName": "Peters",
+            "firstName": "Peter",
+            "initials": "PJ"
+          },
+          {
+            "fullName": "de Jong BC",
+            "lastName": "de Jong",
+            "firstName": "Bouke",
+            "initials": "BC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1017-4675"
+            }
+          },
+          {
+            "fullName": "Ravelli RB",
+            "lastName": "Ravelli",
+            "firstName": "Raimond B.G.",
+            "initials": "RB"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6622-3686"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1017-4675"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3871-5760"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7096-8063"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9566-3653"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0724-8343"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Proteins encoded by the ESX-1 genes of interests are essential for full virulence in all  Mycobacterium tuberculosis complex (MTBc) lineages, the pathogens with the highest mortality worldwide. Identifying critical regions in these ESX-1 related proteins could provide preventive or therapeutic targets for MTB infection, the game changer needed for tuberculosis control. We analysed a compendium of whole genome sequences of clinical MTB isolates from all lineages from >32,000 patients and identified single nucleotide variations (SNV). When mutations corresponding to all nonsynonymous SNPs were mapped on the surface of known and AlphaFold-predicted ternary protein structures, fully conserved regions emerged. Some could be assigned to known quaternary structures, whereas others could be predicted to be involved in yet-to-be-discovered interactions. Some mutants had clonally expanded (found in >1% of the isolates): these were mostly located at the surface of globular domains, remote from known intra- and inter-molecular protein–protein interactions. Fully conserved intrinsically disordered regions (IDRs) of proteins were found, suggesting that these are crucial for the pathogenicity of the MTBc. Altogether, our findings provide an evolutionary structural perspective on MTB virulence and highlight fully conserved regions of proteins as attractive vaccine antigens and drug targets. Extending this approach to other pathogens can provide a novel critical resource for the development of innovative tools for pathogen control.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/23/2023.06.22.507254.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.22.507254"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-06-26",
+      "firstPublicationDate": "2023-06-23",
+      "firstIndexDate": "2023-06-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

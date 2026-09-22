@@ -1,0 +1,258 @@
+{
+  "identity": {
+    "pmid": "39219407",
+    "doi": "10.1039/d4nr01315h",
+    "title": "Graphitic nanoflakes modulate the structure and binding of human amylin."
+  },
+  "content": {
+    "abstract": "Human amylin is an inherently disordered protein whose ability to form amyloid fibrils is linked to the onset of type II diabetes. Graphitic nanomaterials have potential in managing amyloid diseases as they can disrupt protein aggregation processes in biological settings, but optimising these materials to prevent fibrillation is challenging. Here, we employ bias-exchange molecular dynamics simulations to systematically study the structure and adsorption preferences of amylin on graphitic nanoflakes that vary in their physical dimensions and surface functionalisation. Our findings reveal that nanoflake size and surface oxidation both influence the structure and adsorption preferences of amylin. The purely hydrophobic substrate of pristine graphene (PG) nanoflakes encourages non-specific protein adsorption, leading to unrestricted lateral mobility once amylin adheres to the surface. Particularly on larger PG nanoflakes, this induces structural changes in amylin that may promote fibril formation, such as the loss of native helical content and an increase in beta-sheet character. In contrast, oxidised graphene nanoflakes form hydrogen bonds between surface oxygen sites and amylin, and as such restricting protein mobility. Reduced graphene oxide (rGO) flakes, featuring lower amounts of surface oxidation, are amphiphilic and exhibit substantial regions of bare carbon which promote protein binding and reduced conformational flexibility, leading to conservation of the native structure of amylin. In comparison, graphene oxide (GO) nanoflakes, which are predominantly hydrophilic and have a high degree of surface oxidation, facilitate considerable protein structural variability, resulting in substantial contact area between the protein and GO, and subsequent protein unfolding. Our results indicate that tailoring the size, oxygen concentration and surface patterning of graphitic nanoflakes can lead to specific and robust protein binding, ultimately influencing the likelihood of fibril formation. These atomistic insights provide key design considerations for the development of graphitic nanoflakes that can modulate protein aggregation by sequestering protein monomers in the biological environment and inhibit conformational changes linked to amyloid fibril formation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Islet Amyloid Polypeptide/chemistry/metabolism",
+      "*Graphite/chemistry",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "*Nanostructures/chemistry",
+      "Adsorption",
+      "Protein Binding",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Hydrogen Bonding",
+      "Oxidation-Reduction",
+      "Amyloid/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kamboukos, Alexa",
+        "Williams-Noonan, Billy J",
+        "Charchar, Patrick",
+        "Yarovsky, Irene",
+        "Todorova, Nevena"
+      ],
+      "short_names": [
+        "Kamboukos A",
+        "Williams-Noonan BJ",
+        "Charchar P",
+        "Yarovsky I",
+        "Todorova N"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8233-6920",
+        "ORCID: 0000-0002-9201-4711",
+        "ORCID: 0000-0002-4033-5150",
+        "ORCID: 0000-0001-6358-2974"
+      ],
+      "affiliations": [
+        "School of Engineering, RMIT University, Melbourne, Victoria, 3001, Australia. nevena.todorova@rmit.edu.au.",
+        "School of Engineering, RMIT University, Melbourne, Victoria, 3001, Australia. nevena.todorova@rmit.edu.au.",
+        "School of Science, RMIT University, Melbourne, Victoria, 3001, Australia.",
+        "School of Engineering, RMIT University, Melbourne, Victoria, 3001, Australia. nevena.todorova@rmit.edu.au.",
+        "School of Engineering, RMIT University, Melbourne, Victoria, 3001, Australia. nevena.todorova@rmit.edu.au.",
+        "School of Engineering, RMIT University, Melbourne, Victoria, 3001, Australia. nevena.todorova@rmit.edu.au."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kamboukos, Alexa",
+        "short_name": "Kamboukos A",
+        "identifiers": [
+          "0000-0001-8233-6920"
+        ],
+        "affiliations": [
+          "School of Engineering, RMIT University, Melbourne, Victoria, 3001, Australia. nevena.todorova@rmit.edu.au."
+        ]
+      },
+      {
+        "full_name": "Williams-Noonan, Billy J",
+        "short_name": "Williams-Noonan BJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Engineering, RMIT University, Melbourne, Victoria, 3001, Australia. nevena.todorova@rmit.edu.au.",
+          "School of Science, RMIT University, Melbourne, Victoria, 3001, Australia."
+        ]
+      },
+      {
+        "full_name": "Charchar, Patrick",
+        "short_name": "Charchar P",
+        "identifiers": [
+          "0000-0002-9201-4711"
+        ],
+        "affiliations": [
+          "School of Engineering, RMIT University, Melbourne, Victoria, 3001, Australia. nevena.todorova@rmit.edu.au."
+        ]
+      },
+      {
+        "full_name": "Yarovsky, Irene",
+        "short_name": "Yarovsky I",
+        "identifiers": [
+          "0000-0002-4033-5150"
+        ],
+        "affiliations": [
+          "School of Engineering, RMIT University, Melbourne, Victoria, 3001, Australia. nevena.todorova@rmit.edu.au."
+        ]
+      },
+      {
+        "full_name": "Todorova, Nevena",
+        "short_name": "Todorova N",
+        "identifiers": [
+          "0000-0001-6358-2974"
+        ],
+        "affiliations": [
+          "School of Engineering, RMIT University, Melbourne, Victoria, 3001, Australia. nevena.todorova@rmit.edu.au."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nanoscale"
+    ],
+    "journal_abbrev": [
+      "Nanoscale"
+    ],
+    "pub_date": "2024 Sep 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/02 08:46",
+    "fetched_at": "2026-09-21 10:01:38"
+  },
+  "links": {
+    "cites": [
+      "40529861"
+    ],
+    "refs": [],
+    "similar": [
+      "39219407",
+      "26275931",
+      "26352401",
+      "24892388",
+      "24028418",
+      "25494791",
+      "23974296",
+      "34883118",
+      "23145779",
+      "38497314",
+      "39199339",
+      "23614446",
+      "30007378",
+      "23755253",
+      "37195541",
+      "28120117",
+      "32667784",
+      "34558100",
+      "22854213",
+      "30389522",
+      "38649777",
+      "32159545",
+      "29709194",
+      "21158384",
+      "29679835",
+      "30106299",
+      "27693831",
+      "22734583",
+      "36098068",
+      "28692245",
+      "31459251",
+      "23457571",
+      "26625841",
+      "24218609",
+      "21916515",
+      "28585804",
+      "36174237",
+      "21428404",
+      "29406755",
+      "24294935",
+      "32364695",
+      "29023509",
+      "9568695",
+      "32929282",
+      "38608617",
+      "21625904",
+      "22468636",
+      "22522254",
+      "26221949",
+      "25646717",
+      "27109452",
+      "32887527",
+      "27759128",
+      "30919775",
+      "24007594",
+      "31566974",
+      "37544243",
+      "31777253",
+      "26460729",
+      "24377660",
+      "19948124",
+      "26953503",
+      "28771324",
+      "25420121",
+      "21384830",
+      "25144879",
+      "24010666",
+      "25427619",
+      "21761818",
+      "25952953",
+      "24094407",
+      "30086232",
+      "24810618",
+      "35697975",
+      "29432676",
+      "29715424",
+      "28071890",
+      "30211692",
+      "32943189",
+      "30375231",
+      "20923655",
+      "24041993",
+      "22935354",
+      "24313776",
+      "19195555",
+      "34231327",
+      "24056501",
+      "20938982",
+      "25809921",
+      "25260075",
+      "29986579",
+      "30814273",
+      "31015938",
+      "12589759",
+      "21692466",
+      "27012425",
+      "29580826",
+      "28714285",
+      "26205788",
+      "25011035",
+      "34128641",
+      "38829034",
+      "37914718",
+      "35518018",
+      "39168383",
+      "39333092"
+    ],
+    "review": [
+      "39219407",
+      "34558100",
+      "30919775"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d4nr01315h",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

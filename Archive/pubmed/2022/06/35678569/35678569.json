@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "35678569",
+    "doi": "10.1080/15384101.2022.2078458",
+    "title": "A combined in silico and in vivo approach to the structure-function annotation of SPD-2 provides mechanistic insight into its functional diversity."
+  },
+  "content": {
+    "abstract": "Centrosomes are organelles that function as hubs of microtubule nucleation and organization, with key roles in organelle positioning, asymmetric cell division, ciliogenesis, and signaling. Aberrant centrosome number, structure or function is linked to neurodegenerative diseases, developmental abnormalities, ciliopathies, and tumor development. A major regulator of centrosome biogenesis and function in C. elegans is the conserved Spindle-defective protein 2 (SPD-2), a homolog of the human CEP-192 protein. CeSPD-2 is required for centrosome maturation, centriole duplication, spindle assembly and possibly cell polarity establishment. Despite its importance, the specific molecular mechanism of CeSPD-2 regulation and function is poorly understood. Here, we combined computational analysis with cell biology approaches to uncover possible structure-function relationships of CeSPD-2 that may shed mechanistic light on its function. Domain prediction analysis corroborated and refined previously identified coiled-coils and ASH (Aspm-SPD-2 Hydin) domains and identified new domains: a GEF domain, an Ig-like domain, and a PDZ-like domain. In addition to these predicted structural features, CeSPD-2 is also predicted to be intrinsically disordered. Surface electrostatic maps identified a large basic region unique to the ASH domain of CeSPD-2. This basic region overlaps with most of the residues predicted to be involved in protein-protein interactions. In vivo, ASH::GFP localized to centrosomes and centrosome-associated microtubules. Our analysis groups ASH domains, PapD, Usher chaperone domains, and Major Sperm Protein (MSP) domains into a single superfold within the larger Immunoglobulin superfamily. This study lays the groundwork for designing rational hypothesis-based experiments to uncover the mechanisms of CeSPD-2 function in vivo.Abbreviations: AIR, Aurora kinase; ASH, Aspm-SPD-2 Hydin; ASP, Abnormal Spindle Protein; ASPM, Abnormal Spindle-like Microcephaly-associated Protein; CC, coiled-coil; CDK, Cyclin-dependent Kinase; Ce, Caenorhabditis elegans; CEP, Centrosomal Protein; CPAP, centrosomal P4.1-associated protein; D, Drosophila; GAP, GTPase activating protein; GEF, GTPase guanine nucleotide exchange factor; Hs, Homo sapiens/Human; Ig, Immunoglobulin; MAP, Microtubule associated Protein; MSP, Major Sperm Protein; MDP, Major Sperm Domain-Containing Protein; OCRL-1, Golgi endocytic trafficking protein Inositol polyphosphate 5-phosphatase; PAR, abnormal embryonic PARtitioning of the cytosol; PCM, Pericentriolar material; PCMD, pericentriolar matrix deficient; PDZ, PSD95/Dlg-1/zo-1; PLK, Polo like kinase; RMSD, Root Mean Square Deviation; SAS, Spindle assembly abnormal proteins; SPD, Spindle-defective protein; TRAPP, TRAnsport Protein Particle; Xe, Xenopus; ZYG, zygote defective protein.",
+    "keywords": [
+      "ASH",
+      "CeSPD-2/Cep192",
+      "Centrosome",
+      "GEF",
+      "Ig-like",
+      "Intrinsically disordered",
+      "PDZ",
+      "molecular and computational modeling"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Caenorhabditis elegans/metabolism",
+      "*Caenorhabditis elegans Proteins/genetics/metabolism",
+      "Centrosome/metabolism",
+      "Humans",
+      "Male",
+      "Microtubule-Associated Proteins/metabolism",
+      "Semen/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Murph, Mikaela",
+        "Singh, Shaneen",
+        "Schvarzstein, Mara"
+      ],
+      "short_names": [
+        "Murph M",
+        "Singh S",
+        "Schvarzstein M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4003-5756",
+        "ORCID: 0000-0003-4913-2402"
+      ],
+      "affiliations": [
+        "Department of Biology, City University of New York, Brooklyn College, New York, NY, USA.",
+        "Department of Biology, City University of New York, Brooklyn College, New York, NY, USA.",
+        "Department of Biology, The Graduate Center at City University of New York, New York, NY, USA.",
+        "Department Biochemistry, The Graduate Center at City University of New York, New York, NY, USA.",
+        "Department of Biology, City University of New York, Brooklyn College, New York, NY, USA.",
+        "Department of Biology, The Graduate Center at City University of New York, New York, NY, USA.",
+        "Department Biochemistry, The Graduate Center at City University of New York, New York, NY, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Murph, Mikaela",
+        "short_name": "Murph M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, City University of New York, Brooklyn College, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Singh, Shaneen",
+        "short_name": "Singh S",
+        "identifiers": [
+          "0000-0002-4003-5756"
+        ],
+        "affiliations": [
+          "Department of Biology, City University of New York, Brooklyn College, New York, NY, USA.",
+          "Department of Biology, The Graduate Center at City University of New York, New York, NY, USA.",
+          "Department Biochemistry, The Graduate Center at City University of New York, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Schvarzstein, Mara",
+        "short_name": "Schvarzstein M",
+        "identifiers": [
+          "0000-0003-4913-2402"
+        ],
+        "affiliations": [
+          "Department of Biology, City University of New York, Brooklyn College, New York, NY, USA.",
+          "Department of Biology, The Graduate Center at City University of New York, New York, NY, USA.",
+          "Department Biochemistry, The Graduate Center at City University of New York, New York, NY, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell cycle (Georgetown, Tex.)"
+    ],
+    "journal_abbrev": [
+      "Cell Cycle"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/10 06:00",
+    "fetched_at": "2026-09-20 11:02:04"
+  },
+  "links": {
+    "cites": [
+      "42106529",
+      "41885187",
+      "41278915",
+      "36742411"
+    ],
+    "refs": [
+      "34471127",
+      "33987909",
+      "33104802",
+      "31884923",
+      "31777944",
+      "31667345",
+      "31636075",
+      "31341084",
+      "31327978",
+      "31303441",
+      "31251384",
+      "31081035",
+      "31073605",
+      "30982652",
+      "30801250",
+      "30626640",
+      "30601942",
+      "30398656",
+      "30395293",
+      "30357350",
+      "29788355",
+      "29370750",
+      "28575670",
+      "28092264",
+      "27801516",
+      "27787820",
+      "27698390",
+      "27591191",
+      "27514913",
+      "26587649",
+      "26496371",
+      "26109352",
+      "25977552",
+      "25950237",
+      "25883148",
+      "25883141",
+      "25531225",
+      "25440716",
+      "25360893",
+      "25018876",
+      "24980795",
+      "24979791",
+      "24753421",
+      "24277814",
+      "24186061",
+      "24035711",
+      "24018415",
+      "23932902",
+      "23641073",
+      "22624656",
+      "22465668",
+      "22098752",
+      "21983565",
+      "21802300",
+      "21666675",
+      "21637852",
+      "21378754",
+      "21097701",
+      "20509869",
+      "19858104",
+      "19717576",
+      "19081077",
+      "18692475",
+      "18442995",
+      "18307981",
+      "18299348",
+      "18291647",
+      "18216497",
+      "17980596",
+      "17967950",
+      "17919907",
+      "17765681",
+      "17683645",
+      "17567614",
+      "17517781",
+      "17296796",
+      "17152079",
+      "17136092",
+      "16979563",
+      "16478718",
+      "16443634",
+      "16317077",
+      "16123590",
+      "16026867",
+      "15768403",
+      "15572125",
+      "15318951",
+      "15264254",
+      "15232593",
+      "15215472",
+      "15186742",
+      "15068791",
+      "12636923",
+      "12011109",
+      "11748251",
+      "11591811",
+      "11371350",
+      "11102821",
+      "11081513",
+      "11042452",
+      "11005028",
+      "10885746",
+      "9199166",
+      "9194178",
+      "9151690",
+      "9136012",
+      "8913307",
+      "8251933",
+      "7932691",
+      "4366476",
+      "2031185",
+      "1693620",
+      "1538787",
+      "1348692",
+      "275827"
+    ],
+    "similar": [
+      "35678569",
+      "30982652",
+      "15068791",
+      "15186742",
+      "35362532",
+      "12431374",
+      "18207742",
+      "34545391",
+      "38456967",
+      "31303441",
+      "25977552",
+      "31636075",
+      "33798428",
+      "28092264",
+      "25103243",
+      "15232593",
+      "33798427",
+      "28575670",
+      "25018876",
+      "37379844",
+      "31018924",
+      "12956951",
+      "21097701",
+      "33399854",
+      "26119750",
+      "24385583",
+      "22253783",
+      "27591191",
+      "11896188",
+      "16971515",
+      "35849559",
+      "39226307",
+      "15665853",
+      "17919907",
+      "12600319",
+      "12956952",
+      "22623721",
+      "20059959",
+      "37293020",
+      "12956950",
+      "11748251",
+      "19081077",
+      "16954347",
+      "36107993",
+      "12636923",
+      "12011109",
+      "25360893",
+      "11702948",
+      "21497765",
+      "31246171",
+      "30801250",
+      "14697201",
+      "16979563",
+      "17671162",
+      "34308970",
+      "15572125",
+      "11732597",
+      "26175448",
+      "11371350",
+      "17115027",
+      "12837604",
+      "17947426",
+      "33376154",
+      "18798690",
+      "27193852",
+      "26168236",
+      "21325891",
+      "19536135",
+      "22977736",
+      "12573233",
+      "35377871",
+      "22425160",
+      "15343338",
+      "25042804",
+      "20139723",
+      "32409564",
+      "11444042",
+      "32050025",
+      "20137951",
+      "31155349",
+      "29030390",
+      "23064147",
+      "28705837",
+      "17218259",
+      "25412110",
+      "19776357",
+      "20719284",
+      "24778935",
+      "36739326",
+      "36214774",
+      "19466752",
+      "16443634",
+      "11352927",
+      "19759181",
+      "32143977",
+      "25833711",
+      "29307730",
+      "32269206",
+      "15788567",
+      "17383880",
+      "9778499",
+      "39317195",
+      "38617270",
+      "38344067"
+    ],
+    "review": [
+      "35678569",
+      "11732597",
+      "12837604",
+      "11444042",
+      "32143977",
+      "32269206"
+    ],
+    "pmc": [
+      "9415446"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/15384101.2022.2078458?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35678569/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35678569",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GRB2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1264",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/15384101.2022.2078458",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a combined NMR and accelerated MD approach to identify a pocket in the C-terminal domain (CTD) of Galectin-3 that interacts with the disordered N-terminal domain (NTD). Mutation of residues L131 and L203 in this pocket reduced agglutination ability. In silico screening designed candidate inhibitory peptides; experimental testing of three candidates yielded one peptide that inhibited wild-type Galectin-3 agglutination. NMR confirmed peptide binding to a CTD cavity distinct from the carbohydrate-recognition domain (CRD). The authors claim this protocol can be extended to other IDR-structured domain interactions.
+- **Visible evidence base** Abstract text only; no experimental details, simulation parameters, NMR spectra, mutagenesis data, or screening methodology provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, NMR data and assignments, MD simulation details, peptide sequences, experimental protocols, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting approach for targeting disordered-structured domain interactions, with a plausible workflow combining NMR and enhanced MD. However, the evidence base is limited to the abstract, and several key claims cannot be adequately evaluated without access to the full methods and results. The central claim of identifying a functional pocket and validating it through mutagenesis and peptide inhibition is promising but requires detailed scrutiny of the experimental and computational rigor.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein-protein interaction inhibition, drug discovery, and structural biology would find this work relevant. The proposed methodology for targeting IDR-mediated interactions could have broad applicability, and Galectin-3 is a well-studied therapeutic target in cancer and inflammation, making the results of interest to translational researchers.
+- **Major strengths** The combination of NMR and accelerated MD to address a challenging problem (targeting a disordered domain) is methodologically innovative. The use of functional assays (agglutination) to validate the predicted pocket adds biological relevance. The demonstration that a designed peptide inhibits function and binds outside the CRD suggests specificity and potential therapeutic utility.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the combined NMR and accelerated MD protocol "precisely predict[s] the binding interface of a disordered domain with a structured domain."
+  - **Evidence pointer** Abstract, methods not provided
+  - **Concern** The claim of "precise" prediction is not substantiated by the abstract alone. No quantitative metrics (e.g., correlation with experimental data, convergence of simulations, validation against known structures) are provided. The accuracy of the MD-derived interface prediction cannot be assessed without details on force fields, simulation length, sampling convergence, and how NMR data were integrated.
+  - **Why it matters** Overstating predictive precision without rigorous validation could mislead readers about the reliability of the method. The scientific case depends on demonstrating that the predicted interface is robust and reproducible, not just consistent with a single mutagenesis experiment.
+  - **Resolution test** Provide quantitative validation metrics, such as comparison of predicted contacts with NMR-derived distance restraints, convergence analysis of MD simulations, and reproducibility across multiple independent runs. Show that the predicted interface is stable and that the method outperforms or is comparable to existing approaches.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that mutation of residues L131 and L203 caused "loss of Galectin-3 agglutination ability," signifying functional relevance of the cavity.
+  - **Evidence pointer** Abstract, experimental details not provided
+  - **Concern** The abstract does not specify whether single or double mutations were made, the extent of the loss (complete or partial), or whether the mutations affect protein folding, stability, or expression. Without these controls, the observed loss of agglutination could be due to global misfolding rather than specific disruption of the NTD-CTD interaction.
+  - **Why it matters** The functional relevance of the pocket is a cornerstone of the paper's claim. If the mutations destabilize the protein, the conclusion that the cavity is functionally important is weakened.
+  - **Resolution test** Include biophysical characterization of the mutants (e.g., circular dichroism, size-exclusion chromatography, or NMR spectra) to confirm proper folding. Report the magnitude of the agglutination loss and include appropriate controls (e.g., mutations in other surface residues).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "experimental testing of only three of these yielded one peptide that inhibits the agglutination promoted by wild-type Galectin-3."
+  - **Evidence pointer** Abstract, screening and assay details not provided
+  - **Concern** The abstract does not describe the in silico screening method, the criteria for selecting the three peptides, the peptide sequences, or the concentration range tested. The inhibition is reported qualitatively without dose-response data or statistical significance. The specificity of the peptide for the CTD cavity over other surfaces is not established beyond a single NMR binding experiment.
+  - **Why it matters** The therapeutic potential of the peptide depends on demonstrating specific, dose-dependent inhibition. Without these details, the finding could be a weak or non-specific effect.
+  - **Resolution test** Provide full screening methodology, peptide sequences, dose-response curves, IC50 values, and negative control peptides. Show that the peptide does not bind to the CRD or other regions and that inhibition is specific to the NTD-CTD interaction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that "This procedure can potentially be extended to many other targets in which similar IDR interactions play a vital functional role."
+  - **Evidence pointer** Abstract, no comparative data
+  - **Concern** The generalizability of the method is asserted without demonstration on other systems. The abstract provides no evidence that the protocol is transferable beyond Galectin-3, and the challenges of applying it to other IDR interactions (e.g., different timescales, weaker binding) are not discussed.
+  - **Why it matters** The broader impact of the work depends on its applicability to other targets. Overstating generalizability without proof could overstate the significance.
+  - **Resolution test** Either temper the claim to be more cautious or provide a proof-of-concept application to at least one additional IDR-containing system.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses terms like "accelerated molecular dynamics" and "carbohydrate-recognition/binding domain" without brief explanations, which may hinder nonspecialist readers.
+  - **Required correction** Add a brief parenthetical explanation for "accelerated MD" (e.g., "a method to enhance sampling of conformational space") and define "CRD" at first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract, statement on NMR confirmation
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The statement "NMR experiments further confirmed that this peptide indeed binds to a cavity in the CTD, not within the actual CRD" is vague. It is unclear what NMR experiments were performed (e.g., chemical shift perturbations, saturation transfer) and how the binding site was mapped.
+  - **Required correction** Specify the NMR method used and how the binding site was determined, or refer to a figure in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, mutation details
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state whether L131 and L203 are located in the predicted pocket or how they were selected for mutation.
+  - **Required correction** Clarify the rationale for choosing these residues and their location relative to the predicted binding interface.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (precision of prediction), R1-M2 (mutation controls), R1-M3 (peptide inhibition characterization). These are blocking because the core claims of the paper depend on rigorous validation that is not evident from the abstract.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of NMR and accelerated MD to target IDR interactions is somewhat novel, but similar approaches have been used for other systems. The originality is moderate.
+  - Scientific importance: Galectin-3 is a relevant therapeutic target, and the potential to target IDR-mediated interactions is of interest. However, the importance is not fully established without broader applicability.
+  - Interdisciplinary readership: The work bridges structural biology, computational chemistry, and drug discovery, which could attract a broad audience.
+  - Technical soundness: Cannot be fully assessed from the abstract. The lack of methodological detail and validation metrics is a significant concern.
+  - Readability for nonspecialists: The abstract is generally clear but uses some jargon without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible workflow and promising preliminary results, but the lack of methodological detail and validation prevents a definitive assessment. Supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of "precise" prediction of the binding interface is unsupported without quantitative validation.
+- The functional significance of the pocket based on L131 and L203 mutations is unsubstantiated without folding/expression controls.
+- The peptide inhibition is not characterized in terms of dose-response or specificity.
+- The generalizability of the method to other IDR interactions is asserted without evidence.
+- The NMR confirmation of peptide binding to the CTD cavity is described too vaguely to evaluate.

@@ -1,0 +1,219 @@
+{
+  "source": "medrxiv",
+  "source_id": "10.1101/2022.11.03.22281867",
+  "title": "A comprehensive knowledgebase of known and predicted human genetic variants associated with COVID-19 susceptibility and severity",
+  "doi": "10.1101/2022.11.03.22281867",
+  "abstract": "Host genetic susceptibility is a key risk factor for severe illness associated with COVID-19. Despite numerous studies of COVID-19 host genetics, our knowledge of COVID-19-associated variants is still limited, and there is no resource comprising all the published variants and categorizing them based on their confidence level. Also, there are currently no computational tools available to predict novel COVID-19 severity variants. Therefore, we collated 820 host genetic variants reported to affect COVID-19 susceptibility by means of a systematic literature search and confidence evaluation, and obtained 196 high-confidence variants. We then developed the first machine learning classifier of severe COVID-19 variants to perform a genome-wide prediction of COVID-19 severity for 82,468,698 missense variants in the human genome. We further evaluated the classifier’s predictions using feature importance analyses to investigate the biological properties of COVID-19 susceptibility variants, which identified conservation scores as the most impactful predictive features. The results of enrichment analyses revealed that genes carrying high-confidence COVID-19 susceptibility variants shared pathways, networks, diseases and biological functions, with the immune system and infectious disease being the most significant categories. Additionally, we investigated the pleiotropic effects of COVID-19-associated variants using phenome-wide association studies (PheWAS) in ∼40,000 BioMe BioBank genotyped individuals, revealing pre-existing conditions that could serve to increase the risk of severe COVID-19 such as chronic liver disease and thromboembolism. Lastly, we generated a web-based interface for exploring, downloading and submitting genetic variants associated with COVID-19 susceptibility for use in both research and clinical settings ( https://itanlab.shinyapps.io/COVID19webpage/ ). Taken together, our work provides the most comprehensive COVID-19 host genetics knowledgebase to date for the known and predicted genetic determinants of severe COVID-19, a resource that should further contribute to our understanding of the biology underlying COVID-19 susceptibility and facilitate the identification of individuals at high risk for severe COVID-19.",
+  "authors": [
+    "Kars ME",
+    "Stein D",
+    "Sevim Bayrak Ç",
+    "Stenson PD",
+    "Cooper DN",
+    "Itan Y"
+  ],
+  "published_date": "2022-11-07",
+  "updated_date": "",
+  "journal": "medRxiv",
+  "category": "",
+  "landing_url": "https://www.medrxiv.org/content/10.1101/2022.11.03.22281867",
+  "pdf_url": "https://www.medrxiv.org/content/10.1101/2022.11.03.22281867.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR567946",
+    "raw_record": {
+      "id": "PPR567946",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR567946"
+        ]
+      },
+      "doi": "10.1101/2022.11.03.22281867",
+      "title": "A comprehensive knowledgebase of known and predicted human genetic variants associated with COVID-19 susceptibility and severity",
+      "authorString": "Kars ME, Stein D, Sevim Bayrak Ç, Stenson PD, Cooper DN, Itan Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kars ME",
+            "lastName": "Kars",
+            "firstName": "Meltem Ece",
+            "initials": "ME",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stein D",
+            "lastName": "Stein",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sevim Bayrak Ç",
+            "lastName": "Sevim Bayrak",
+            "firstName": "Çiğdem",
+            "initials": "Ç",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3883-5535"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stenson PD",
+            "lastName": "Stenson",
+            "firstName": "Peter",
+            "initials": "PD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Genetics, Cardiff University, Cardiff, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cooper DN",
+            "lastName": "Cooper",
+            "firstName": "David",
+            "initials": "DN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Medical Genetics, Cardiff University, Cardiff, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Itan Y",
+            "lastName": "Itan",
+            "firstName": "Yuval",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3883-5535"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Host genetic susceptibility is a key risk factor for severe illness associated with COVID-19. Despite numerous studies of COVID-19 host genetics, our knowledge of COVID-19-associated variants is still limited, and there is no resource comprising all the published variants and categorizing them based on their confidence level. Also, there are currently no computational tools available to predict novel COVID-19 severity variants. Therefore, we collated 820 host genetic variants reported to affect COVID-19 susceptibility by means of a systematic literature search and confidence evaluation, and obtained 196 high-confidence variants. We then developed the first machine learning classifier of severe COVID-19 variants to perform a genome-wide prediction of COVID-19 severity for 82,468,698 missense variants in the human genome. We further evaluated the classifier’s predictions using feature importance analyses to investigate the biological properties of COVID-19 susceptibility variants, which identified conservation scores as the most impactful predictive features. The results of enrichment analyses revealed that genes carrying high-confidence COVID-19 susceptibility variants shared pathways, networks, diseases and biological functions, with the immune system and infectious disease being the most significant categories. Additionally, we investigated the pleiotropic effects of COVID-19-associated variants using phenome-wide association studies (PheWAS) in ∼40,000 BioMe BioBank genotyped individuals, revealing pre-existing conditions that could serve to increase the risk of severe COVID-19 such as chronic liver disease and thromboembolism. Lastly, we generated a web-based interface for exploring, downloading and submitting genetic variants associated with COVID-19 susceptibility for use in both research and clinical settings ( https://itanlab.shinyapps.io/COVID19webpage/ ). Taken together, our work provides the most comprehensive COVID-19 host genetics knowledgebase to date for the known and predicted genetic determinants of severe COVID-19, a resource that should further contribute to our understanding of the biology underlying COVID-19 susceptibility and facilitate the identification of individuals at high risk for severe COVID-19.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "medRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2022/11/07/2022.11.03.22281867.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.03.22281867"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR567946"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR567946&type=FILE&fileName=EMS156888-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS156888",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refsnp"
+        ]
+      },
+      "dateOfCreation": "2022-11-09",
+      "firstPublicationDate": "2022-11-07",
+      "firstIndexDate": "2022-11-09",
+      "fullTextReceivedDate": "2022-11-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

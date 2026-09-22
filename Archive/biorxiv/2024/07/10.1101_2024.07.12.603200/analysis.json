@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.12.603200",
+  "title": "A conformational fingerprint for amyloidogenic light chains",
+  "authors": "Paissoni C; Puri S; Broggini L; Sriramoju MK; Maritan M; Russo R; Speranzini V; Ballabio F; Nuvolone M; Merlini G; Palladini G; Hsu SD; Ricagno S; Camilloni C",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-13",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过SAXS与MD模拟揭示淀粉样轻链蛋白的构象指纹，虽对象为折叠蛋白而非IDP，但聚焦构象动态与域间界面机制，对无序蛋白互作机制建模有方法学启发。",
+  "abstract": "Immunoglobulin light chain amyloidosis (AL) and multiple myeloma (MM) both share the overproduction of a clonal light chain (LC). However, while LCs in MM remain soluble in circulation, AL LCs misfold into toxic soluble species and amyloid fibrils that accumulate in organs, leading to distinct clinical manifestations. The significant sequence variability of LCs has hindered understanding of the mechanisms driving LC aggregation. Nevertheless, emerging biochemical properties, including dimer stability, conformational dynamics, and proteolysis susceptibility, distinguish AL LCs from those in MM under native conditions. This study aimed to identify a conformational fingerprint distinguishing AL from MM LCs. Using small-angle X-ray scattering (SAXS) under native conditions, we analyzed four AL and two MM LCs. We observed that AL LCs exhibited a slightly larger radius of gyration and greater deviations from X-ray crystallography-determined or predicted structures, reflecting enhanced conformational dynamics. SAXS data, integrated with molecular dynamics (MD) simulations, revealed a conformational ensemble where LCs adopt multiple states, with variable and constant domains either bent or straight. AL LCs displayed a distinct, low-populated, straight conformation (termed H state), which maximized solvent accessibility at the interface between constant and variable domains. Hydrogen-deuterium exchange mass spectrometry (HDX-MS) experimentally validated this H state. These findings reconcile diverse experimental observations and provide a precise structural target for future drug design efforts.",
+  "abstract_zh": "免疫球蛋白轻链淀粉样变性（AL）和多发性骨髓瘤（MM）均以克隆性轻链（LC）的过度产生为共同特征。然而，尽管MM中的轻链在循环中保持可溶性，AL轻链却错误折叠为有毒的可溶性物种和淀粉样纤维，并在器官中积累，导致截然不同的临床表现。轻链显著的序列变异性阻碍了对其聚集驱动机制的理解。尽管如此，在天然条件下，包括二聚体稳定性、构象动力学和蛋白水解敏感性在内的新兴生化特性，将AL轻链与MM轻链区分开来。本研究旨在识别一种构象指纹，以区分AL与MM轻链。利用天然条件下的小角X射线散射（SAXS），我们分析了四种AL和两种MM轻链。我们观察到，AL轻链表现出略大的回旋半径，并且与X射线晶体学确定或预测的结构偏差更大，反映了增强的构象动力学。SAXS数据与分子动力学（MD）模拟相结合，揭示了一个构象集合，其中轻链呈现多种状态，可变域和恒定域或弯曲或伸直。AL轻链表现出一种独特的、低群体的伸直构象（称为H状态），该构象最大化了恒定域与可变域之间界面的溶剂可及性。氢-氘交换质谱（HDX-MS）实验验证了这种H状态。这些发现调和了多种实验观察结果，并为未来的药物设计工作提供了精确的结构靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.12.603200",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.12.603200",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.12.603200/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37587118",
+  "title": "Heimdall, an alternative protein issued from a ncRNA related to kappa light chain variable region of immunoglobulins from astrocytes: a new player in neural proteome.",
+  "authors": "Capuz, Alice; Osien, Sylvain; Cardon, Tristan; Karnoub, Melodie Anne; Aboulouard, Soulaimane; Raffo-Romero, Antonella; Duhamel, Marie; Cizkova, Dasa; Trerotola, Marco; Devos, David; Kobeissy, Firas; Vanden Abeele, Fabien; Bonnefond, Amelie; Fournier, Isabelle; Rodet, Franck; Salzet, Michel",
+  "journal": "Cell death & disease",
+  "published_date": "2023-08-17",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究鉴定了一个来自非编码RNA的星形胶质细胞无序蛋白Heimdall，并通过免疫沉淀揭示其与NOTCH1等蛋白的互作网络，但方法以实验为主，缺乏AI或物理模拟的机制建模，故评分为5。",
+  "abstract": "The dogma \"One gene, one protein\" is clearly obsolete since cells use alternative splicing and generate multiple transcripts which are translated into protein isoforms, but also use alternative translation initiation sites (TISs) and termination sites on a given transcript. Alternative open reading frames for individual transcripts give proteins originate from the 5'- and 3'-UTR mRNA regions, frameshifts of mRNA ORFs or from non-coding RNAs. Longtime considered as non-coding, recent in-silico translation prediction methods enriched the protein databases allowing the identification of new target structures that have not been identified previously. To gain insight into the role of these newly identified alternative proteins in the regulation of cellular functions, it is crucial to assess their dynamic modulation within a framework of altered physiological modifications such as experimental spinal cord injury (SCI). Here, we carried out a longitudinal proteomic study on rat SCI from 12 h to 10 days. Based on the alternative protein predictions, it was possible to identify a plethora of newly predicted protein hits. Among these proteins, some presented a special interest due to high homology with variable chain regions of immunoglobulins. We focus our interest on the one related to Kappa variable light chains which is similarly highly produced by B cells in the Bence jones disease, but here expressed in astrocytes. This protein, name Heimdall is an Intrinsically disordered protein which is secreted under inflammatory conditions. Immunoprecipitation experiments showed that the Heimdall interactome contained proteins related to astrocyte fate keepers such as \"NOTCH1, EPHA3, IPO13\" as well as membrane receptor protein including \"CHRNA9; TGFBR, EPHB6, and TRAM\". However, when Heimdall protein was neutralized utilizing a specific antibody or its gene knocked out by CRISPR-Cas9, sprouting elongations were observed in the corresponding astrocytes. Interestingly, depolarization assays and intracellular calcium measurements in Heimdall KO, established a depolarization effect on astrocyte membranes KO cells were more likely that the one found in neuroprogenitors. Proteomic analyses performed under injury conditions or under lipopolysaccharides (LPS) stimulation, revealed the expression of neuronal factors, stem cell proteins, proliferation, and neurogenesis of astrocyte convertor factors such as EPHA4, NOTCH2, SLIT3, SEMA3F, suggesting a role of Heimdall could regulate astrocytic fate. Taken together, Heimdall could be a novel member of the gatekeeping astrocyte-to-neuroprogenitor conversion factors.",
+  "abstract_zh": "“一个基因，一个蛋白质”这一教条显然已经过时，因为细胞利用选择性剪接生成多种转录本，这些转录本被翻译成蛋白质异构体，同时也在给定转录本上使用替代翻译起始位点（TISs）和终止位点。单个转录本的替代开放阅读框产生源自mRNA 5'-和3'-UTR区域、mRNA ORF移码或非编码RNA的蛋白质。长期被视为非编码的序列，近期的计算机翻译预测方法丰富了蛋白质数据库，使得识别先前未被发现的新靶标结构成为可能。为了深入了解这些新鉴定的替代蛋白质在细胞功能调控中的作用，评估它们在诸如实验性脊髓损伤（SCI）等生理改变框架内的动态调节至关重要。在此，我们开展了一项从12小时到10天的大鼠SCI纵向蛋白质组学研究。基于替代蛋白质预测，我们能够识别出大量新预测的蛋白质命中项。在这些蛋白质中，一些因与免疫球蛋白可变链区域高度同源而特别引人关注。我们重点关注与Kappa可变轻链相关的一种蛋白质，该蛋白质在Bence Jones病中由B细胞大量产生，但此处却在星形胶质细胞中表达。这种名为Heimdall的蛋白质是一种固有无序蛋白质，在炎症条件下被分泌。免疫沉淀实验显示，Heimdall相互作用组包含与星形胶质细胞命运维持相关的蛋白质，如“NOTCH1、EPHA3、IPO13”，以及膜受体蛋白，包括“CHRNA9、TGFBR、EPHB6和TRAM”。然而，当使用特异性抗体中和Heimdall蛋白或通过CRISPR-Cas9敲除其基因时，在相应的星形胶质细胞中观察到萌芽状延伸。有趣的是，在Heimdall KO细胞中进行的去极化实验和细胞内钙测量表明，星形胶质细胞膜上的去极化效应更可能类似于神经祖细胞中的情况。在损伤条件或脂多糖（LPS）刺激下进行的蛋白质组学分析揭示了神经元因子、干细胞蛋白、增殖和神经发生相关星形胶质细胞转化因子（如EPHA4、NOTCH2、SLIT3、SEMA3F）的表达，提示Heimdall可能调节星形胶质细胞命运。综合来看，Heimdall可能是星形胶质细胞向神经祖细胞转化门控因子的新成员。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37587118/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37587118/",
+  "paper_page_path": "papers/pubmed/37587118/index.html"
+}

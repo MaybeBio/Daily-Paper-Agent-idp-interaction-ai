@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.19.695468",
+  "title": "Biomolecular condensation using de novo designed globular proteins",
+  "authors": "Romanyuk AV; Ragesh Kumar TP; Cross SJ; Ożga K; Petrenas R; Chubb JJ; McManus JJ; Woolfson DN",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-21",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过从头设计具有不同表面电荷分布的球状结构域，结合无序连接子构建哑铃状蛋白，驱动动态液体凝聚体形成，虽对象为折叠蛋白而非IDP，但其对互作驱动相分离的机制建模思路（电荷补丁调控PPI）对无序蛋白介导的凝聚体研究具有可迁移启发。",
+  "abstract": "<h4>ABSTRACT</h4> De novo protein design is advancing rapidly, but many targets remain inaccessible to current AI-based tools. Here we describe de novo designed globular domains that drive biomolecular condensation. Starting from a water-soluble, monomeric protein, we make variants with the same amino-acid composition but different surface-charge distributions: one with large patches of surface charge, and another with a more-homogeneous charge distribution. The individual domains form stable and discrete structures in solution, with the large-patch variant exhibiting more-attractive interprotein interactions. Next, two copies of each variant are joined with disordered linkers to generate dumbbell-like proteins. When expressed in eukaryotic cells, the large-patch variant forms intracellular puncta, whereas that with small patches does not. The assemblies are dynamic, liquid condensates in vitro and in cells. The structured domains facilitate functionalisation: we introduce fluorophore-binding sites to visualise fluorescent condensates directly in cells without a GFP reporter; and we manipulate the condensates using motor proteins.",
+  "abstract_zh": "<h4>摘要</h4> 从头蛋白质设计正在快速发展，但许多目标仍无法被当前基于人工智能的工具所触及。在此，我们描述了驱动生物分子凝聚的从头设计球状结构域。从一种水溶性单体蛋白质出发，我们制备了具有相同氨基酸组成但不同表面电荷分布的变体：一种具有大面积表面电荷斑块，另一种具有更均匀的电荷分布。单个结构域在溶液中形成稳定且离散的结构，其中大面积斑块变体表现出更具吸引力的蛋白质间相互作用。接下来，将每个变体的两个拷贝通过无序连接子连接，生成哑铃状蛋白质。在真核细胞中表达时，大面积斑块变体形成细胞内斑点，而小斑块变体则不然。这些组装体在体外和细胞内均为动态的液体凝聚体。结构化结构域便于功能化：我们引入荧光团结合位点，无需GFP报告基因即可直接在细胞中可视化荧光凝聚体；并利用马达蛋白操控这些凝聚体。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.19.695468",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.19.695468",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.19.695468/index.html"
+}

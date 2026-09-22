@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.31.729128",
+  "title": "ORIGAMI: Orientation-Aware Graph Neural Network for Assessing Multimeric Interfaces of Protein Complex Structures",
+  "authors": "Xinyu Wang; Debswapna Bhattacharya",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-03",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 6,
+  "one_liner_zh": "提出一种面向蛋白复合物界面质量评估的等变图神经网络ORIGAMI，虽非直接针对无序蛋白，但其对多聚体界面几何取向的建模方法可迁移至IDR介导的PPI机制研究。",
+  "abstract": "Deep learning-based protein structure prediction methods have led to a paradigm-shift in computational structural biology, yet reliably assessing the quality of computationally predicted multimeric structures remains challenging. Recent methods have demonstrated benefits of employing graph neural networks for assessing multimeric interfaces of protein complexes, but ignore geometric orientational features naturally occurring in 3-dimensional protein conformational space and act only on scalar weights. We present ORIGAMI, an orientation-aware graph neural network for assessing multimeric interfaces of protein complex structures that leverages both scalar and 3D vector node representations to perform symmetry-aware geometric operations while maintaining SO(3)-equivariance by capturing fine-grained orientational relationships between residues across protein-protein interfaces to estimate the interface Local Distance Difference Test (iLDDT) score. Tested on targets from multiple rounds of Critical Assessment of Structure Prediction (CASP) challenges, ORIGAMI achieves superior performance across multiple interface quality assessment benchmarks, with particularly strong gains in the expanded CASP16 interface-level evaluation and in controlled comparisons against both non-equivariant and equivariant graph neural network baselines. It also demonstrates robust cross-metric generalization by reproducing superposition-based DockQ scores with high fidelity, despite being trained only to estimate the superposition-free iLDDT score. ORIGAMI is freely available at https://github.com/Bhattacharya-Lab/ORIGAMI .",
+  "abstract_zh": "基于深度学习（deep learning）的蛋白质结构预测方法已引发计算结构生物学领域的范式转变，然而可靠评估计算预测的多聚体结构质量仍具挑战性。近期方法展示了利用图神经网络（graph neural networks）评估蛋白质复合物多聚体界面的优势，但忽略了三维蛋白质构象空间中自然存在的几何方向特征，且仅作用于标量权重。我们提出ORIGAMI，一种方向感知图神经网络，用于评估蛋白质复合物结构的多聚体界面，它利用标量和三维向量节点表示来执行对称感知的几何操作，同时通过捕捉蛋白质-蛋白质界面间残基的细粒度方向关系来估计界面局部距离差异测试（iLDDT）分数，从而保持SO(3)等变性。在来自多轮蛋白质结构预测关键评估（CASP）挑战的目标上测试，ORIGAMI在多个界面质量评估基准上实现了优越性能，尤其在扩展的CASP16界面级评估及与非等变和等变图神经网络基线的受控比较中表现突出。尽管仅训练用于估计无叠加的iLDDT分数，它还能通过高保真度重现基于叠加的DockQ分数，展示出稳健的跨指标泛化能力。ORIGAMI可在https://github.com/Bhattacharya-Lab/ORIGAMI 免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.31.729128",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.31.729128",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.31.729128/index.html"
+}

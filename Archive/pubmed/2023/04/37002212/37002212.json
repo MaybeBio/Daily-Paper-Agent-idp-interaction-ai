@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "37002212",
+    "doi": "10.1038/s41467-023-37372-5",
+    "title": "Inhibitor-3 inhibits Protein Phosphatase 1 via a metal binding dynamic protein-protein interaction."
+  },
+  "content": {
+    "abstract": "To achieve substrate specificity, protein phosphate 1 (PP1) forms holoenzymes with hundreds of regulatory and inhibitory proteins. Inhibitor-3 (I3) is an ancient inhibitor of PP1 with putative roles in PP1 maturation and the regulation of PP1 activity. Here, we show that I3 residues 27-68 are necessary and sufficient for PP1 binding and inhibition. In addition to a canonical RVxF motif, which is shared by nearly all PP1 regulators and inhibitors, and a non-canonical SILK motif, I3 also binds PP1 via multiple basic residues that bind directly in the PP1 acidic substrate binding groove, an interaction that provides a blueprint for how substrates bind this groove for dephosphorylation. Unexpectedly, this interaction positions a CCC (cys-cys-cys) motif to bind directly across the PP1 active site. Using biophysical and inhibition assays, we show that the I3 CCC motif binds and inhibits PP1 in an unexpected dynamic, fuzzy manner, via transient engagement of the PP1 active site metals. Together, these data not only provide fundamental insights into the mechanisms by which IDP protein regulators of PP1 achieve inhibition, but also shows that fuzzy interactions between IDPs and their folded binding partners, in addition to enhancing binding affinity, can also directly regulate enzyme activity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Phosphatase 1/metabolism",
+      "*Proteins/metabolism",
+      "Protein Binding",
+      "Catalytic Domain",
+      "*Protein Processing, Post-Translational",
+      "Binding Sites",
+      "Phosphorylation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Srivastava, Gautam",
+        "Choy, Meng S",
+        "Bolik-Coulon, Nicolas",
+        "Page, Rebecca",
+        "Peti, Wolfgang"
+      ],
+      "short_names": [
+        "Srivastava G",
+        "Choy MS",
+        "Bolik-Coulon N",
+        "Page R",
+        "Peti W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8703-8903",
+        "ORCID: 0000-0002-8830-6594"
+      ],
+      "affiliations": [
+        "Department of Molecular Biology and Biophysics, University of Connecticut Health Center, Farmington, CT, USA.",
+        "Department of Molecular Biology and Biophysics, University of Connecticut Health Center, Farmington, CT, USA.",
+        "Department of Chemistry and Biochemistry, University of Arizona, Tucson, AZ, USA.",
+        "Department of Cell Biology, University of Connecticut Health Center, Farmington, CT, USA.",
+        "Department of Molecular Biology and Biophysics, University of Connecticut Health Center, Farmington, CT, USA. peti@uchc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Srivastava, Gautam",
+        "short_name": "Srivastava G",
+        "identifiers": [
+          "0000-0002-8703-8903"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, University of Connecticut Health Center, Farmington, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Choy, Meng S",
+        "short_name": "Choy MS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, University of Connecticut Health Center, Farmington, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Bolik-Coulon, Nicolas",
+        "short_name": "Bolik-Coulon N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Arizona, Tucson, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Page, Rebecca",
+        "short_name": "Page R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, University of Connecticut Health Center, Farmington, CT, USA."
+        ]
+      },
+      {
+        "full_name": "Peti, Wolfgang",
+        "short_name": "Peti W",
+        "identifiers": [
+          "0000-0002-8830-6594"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, University of Connecticut Health Center, Farmington, CT, USA. peti@uchc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2023 Mar 31",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/01 06:00",
+    "fetched_at": "2026-09-20 20:44:12"
+  },
+  "links": {
+    "cites": [
+      "42082759",
+      "41611810",
+      "40580813",
+      "40473240",
+      "40232629",
+      "40060928",
+      "39951957",
+      "39609649",
+      "39446389",
+      "39423710",
+      "39245796",
+      "39232848",
+      "39207734",
+      "38966976",
+      "38918402",
+      "38018991",
+      "37790474",
+      "37173206"
+    ],
+    "refs": [
+      "35525109",
+      "34791357",
+      "33207556",
+      "32195664",
+      "31548429",
+      "31375679",
+      "30770806",
+      "30661852",
+      "30100357",
+      "29925267",
+      "29764992",
+      "29477337",
+      "29156132",
+      "27572260",
+      "26095357",
+      "25890482",
+      "25524420",
+      "25505092",
+      "25477226",
+      "24591642",
+      "22940584",
+      "22519956",
+      "21218781",
+      "20826336",
+      "20399103",
+      "20383002",
+      "20305656",
+      "20124692",
+      "19329567",
+      "18992256",
+      "18954090",
+      "18951879",
+      "18542881",
+      "18450750",
+      "18172024",
+      "18054235",
+      "17636256",
+      "17630778",
+      "17393459",
+      "17142459",
+      "16781734",
+      "16256067",
+      "15335873",
+      "14506263",
+      "12270929",
+      "12226088",
+      "11948623",
+      "11564868",
+      "10662690",
+      "9843442",
+      "9155014",
+      "8639569",
+      "7651533",
+      "6296685",
+      "6245879",
+      "6087160",
+      "1846086",
+      "1668885",
+      "208845"
+    ],
+    "similar": [
+      "37002212",
+      "38042495",
+      "36450254",
+      "22768081",
+      "24591642",
+      "23860659",
+      "15703180",
+      "21218781",
+      "39207734",
+      "30770806",
+      "17636256",
+      "37926279",
+      "15184667",
+      "12657641",
+      "18826257",
+      "20170726",
+      "29764992",
+      "22988849",
+      "26668322",
+      "28202662",
+      "34824462",
+      "22940584",
+      "38918402",
+      "17630778",
+      "16428298",
+      "21561082",
+      "34028981",
+      "21566083",
+      "20305656",
+      "38267954",
+      "29311589",
+      "12138106",
+      "29769351",
+      "33125485",
+      "31548429",
+      "12974676",
+      "32681005",
+      "12226088",
+      "15501817",
+      "32975518",
+      "17200563",
+      "20399103",
+      "22458807",
+      "19396163",
+      "17965019",
+      "16987104",
+      "30115685",
+      "11104670",
+      "19389623",
+      "30100357",
+      "30661852",
+      "31512287",
+      "21998301",
+      "10807923",
+      "10889204",
+      "25132288",
+      "21142030",
+      "15164081",
+      "20223824",
+      "19282287",
+      "11839776",
+      "22247559",
+      "30344098",
+      "26988354",
+      "23837822",
+      "37790576",
+      "17890166",
+      "19123980",
+      "22982244",
+      "8611507",
+      "25281536",
+      "11152471",
+      "10194355",
+      "11076525",
+      "26275498",
+      "22360570",
+      "17635105",
+      "9188695",
+      "27457922",
+      "16426971",
+      "10657242",
+      "17913700",
+      "12556489",
+      "27246912",
+      "12574161",
+      "14674248",
+      "35920043",
+      "18216290",
+      "19581931",
+      "19622840",
+      "11412094",
+      "26114292",
+      "21222654",
+      "34085225",
+      "33258581",
+      "10075680",
+      "36442541",
+      "14633703",
+      "22284538",
+      "30056088",
+      "38159565",
+      "31572348",
+      "38393468",
+      "39172538",
+      "38404380"
+    ],
+    "review": [
+      "37002212",
+      "23860659",
+      "22988849",
+      "28202662",
+      "34028981",
+      "38267954",
+      "33125485",
+      "20399103",
+      "11839776",
+      "26275498",
+      "22360570",
+      "22284538"
+    ],
+    "pmc": [
+      "10066265"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-023-37372-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37002212/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37002212",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

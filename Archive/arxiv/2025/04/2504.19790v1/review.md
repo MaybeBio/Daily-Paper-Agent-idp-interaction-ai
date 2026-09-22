@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and references. Figures and tables are referenced but not provided. Supplementary materials are referenced but not provided.
+- **Assessment boundary** The review is based solely on the supplied text. No figures, tables, or supplementary files were available for inspection. All statements about visual data are therefore based on the authors' descriptions in the text.
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations to show that the multidomain architecture of TDP-43 (CTD, RRMs, NTD) and RNA modulate the internal organization, interaction networks, and viscoelastic properties of TDP-43 condensates. They report that folded domains and RNA alter the density, interaction patterns, and rheology of condensates, with RNA acting as a cross-linker that increases elasticity.
+- **Visible evidence base** Text descriptions of results, including numerical values for condensate densities, viscosity values, relaxation times, and interaction analyses. Methodological details for the CG model, simulation protocols, and analysis procedures are described.
+- **Missing materials affecting confidence** All figures (Figs. 1-4, S1-S6), tables (Tabs. 1-2), and supplementary information were not provided. This substantially limits the ability to verify quantitative claims, assess simulation convergence, evaluate statistical uncertainties, and inspect the quality of fits to the Maxwell model.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question: how do folded domains and RNA jointly modulate the phase behavior and material properties of TDP-43 condensates? The systematic comparison of four domain constructs with and without RNA is a sensible and potentially informative design. However, the current evidence base is insufficient to fully evaluate the claims. Key quantitative results are presented without error bars or statistical analysis, the relationship between simulated and experimental timescales is not adequately addressed, and the mechanistic interpretations go beyond what the presented data can support. The work is potentially interesting but requires substantial revision and additional analysis before the conclusions can be considered established.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, RNA-binding proteins, and neurodegenerative disease mechanisms would be interested. The work speaks to the ongoing effort to understand how sequence- and domain-level features control condensate material properties, which is relevant for both fundamental biophysics and for understanding TDP-43 pathology in ALS/FTD. The methodological approach using CG simulations to dissect domain-specific contributions is also of interest to the computational biophysics community.
+- **Major strengths** The systematic comparison of four domain constructs is a clear strength. The inclusion of RNA as a variable is important and timely. The focus on viscoelastic properties, rather than only phase separation propensity, addresses a key gap in the field. The authors also acknowledge limitations of CG models and discuss the biological context of their findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor and statistical support
+  - **Claim pointer** The authors report specific numerical values for condensate densities (e.g., 226.1 ± 8.5 mg/ml for CTD) and viscosity values (e.g., 1.82 × 10⁻⁴ Pa·s for CTD) and make comparative claims about ordering across constructs.
+  - **Evidence pointer** Results section, "Multidomain Structure of TDP-43 and RNA Influence the Density of Condensates" and "Multidomains of Proteins and RNA Modulate Viscoelasticity of Condensates"; location not provided
+  - **Concern** The reported values are presented with standard deviations, but no information is given about the number of independent simulations, the method for estimating uncertainty, or whether differences between constructs are statistically significant. For example, the claim that "RRMs enhance viscosity, whereas the NTD reduces it" requires a statistical comparison across conditions. Without error bars on the viscosity values or a statistical test, the ordering of constructs cannot be evaluated. Similarly, the density differences between constructs (e.g., 226 vs. 263 mg/ml) may or may not be significant given the reported uncertainties. The authors must provide details on replication, uncertainty quantification, and significance testing.
+  - **Why it matters** The central claims of the paper are comparative: that specific domains increase or decrease density and viscosity. Without statistical support, these claims are not established. The reader cannot distinguish real effects from simulation noise.
+  - **Resolution test** Provide the number of independent simulations per condition, report uncertainties for all quantitative values, and perform appropriate statistical tests (e.g., ANOVA or bootstrap) to support claims of differences between constructs. If only one simulation per condition was performed, this must be stated and the limitations acknowledged.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and connection to experimental observables
+  - **Claim pointer** The authors state that "RNA significantly influences the viscoelasticity of the condensates" and that RNA acts as a cross-linker, increasing elasticity.
+  - **Evidence pointer** Results section, "Multidomains of Proteins and RNA Modulate Viscoelasticity of Condensates"; Discussion section; location not provided
+  - **Concern** The simulated viscosity values are approximately 3-4 orders of magnitude lower than experimental values, as the authors acknowledge. This discrepancy is not merely a quantitative detail; it raises questions about whether the simulated system is in the same physical regime as experimental condensates. The authors do not discuss how this timescale mismatch affects the interpretation of their relative comparisons. Furthermore, the claim that RNA increases elasticity is based on the frequency-dependent moduli, but the crossover frequencies reported (10⁶-10⁹ rad/s) are many orders of magnitude higher than experimentally accessible frequencies. The biological relevance of the viscoelastic changes at these timescales is unclear.
+  - **Why it matters** The paper's main contribution is the prediction of how domains and RNA modulate material properties. If the simulated timescales are not representative of experimental conditions, the predictions may not be testable or relevant. The authors need to address whether the relative trends are expected to hold at experimental timescales.
+  - **Resolution test** Provide a more detailed discussion of the timescale mismatch and its implications. If possible, compare the simulated trends with experimental measurements of TDP-43 condensate viscoelasticity. Alternatively, perform simulations at lower temperatures or with modified friction to access longer timescales and test whether the relative ordering of constructs is preserved.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors claim that "RNA alters the CTD's interaction sites" and that specific residue-residue contacts between folded domains and CTD drive the observed changes in density and viscosity.
+  - **Evidence pointer** Results section, "Multidomain and RNA-Mediated Interactions of TDP-43"; location not provided
+  - **Concern** The contact map analysis is described qualitatively. The authors state that "a cluster of CTD residues around 300, 350, and 380 interacts with RRM2" and that "RNA alters the CTD's interaction sites," but no quantitative measure of the strength or significance of these contacts is provided. The categorization of interaction types (hydrophobic, electrostatic, etc.) is mentioned but not quantified. The claim that specific interactions "drive" the observed changes in density and viscosity is a causal statement that requires more than a correlation between contact patterns and macroscopic properties.
+  - **Why it matters** The mechanistic story is a key part of the paper's contribution. If the specific interactions are not robustly identified and quantified, the mechanistic claims are speculative.
+  - **Resolution test** Provide quantitative contact frequencies or enrichment scores for the key residue-residue contacts, with appropriate statistical comparisons between conditions. Consider performing additional simulations with mutated residues to test the causal role of specific interactions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation and parameter sensitivity
+  - **Claim pointer** The authors use the Mpiri CG model with a 30% reduction in interaction strength within folded domains and no restraints on the transient helix in the CTD.
+  - **Evidence pointer** Methods section, "Coarse-Grained Model of TDP-43 and RNA"; location not provided
+  - **Concern** The choice to reduce folded-domain interactions by 30% is based on previous work, but the sensitivity of the results to this parameter is not tested. The authors also note that the CTD helix (residues 320-340) was not restrained, but the potential impact of this choice on the results is not discussed. Given that the CTD helix is implicated in phase separation, this is a potentially important omission.
+  - **Why it matters** The conclusions depend on the accuracy of the CG model. If the results are highly sensitive to the choice of interaction scaling or the treatment of the helix, the conclusions may not be robust.
+  - **Resolution test** Perform a sensitivity analysis by varying the interaction scaling (e.g., 20%, 40%) and by including a helical restraint for residues 320-340. Show that the main conclusions are unchanged.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Methods section, "Shear Modulus and Viscosity"
+  - **Evidence pointer** location not provided
+  - **Issue** The equations for the contact ratio, shear modulus, and viscosity are referenced but not shown in the text provided. The fitting procedure for the Maxwell model is described only briefly.
+  - **Required correction** Include the full equations and a more detailed description of the fitting procedure, including the number of Maxwell modes used and the quality of fits.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Biological relevance of RNA length
+  - **Affected element** Methods section, "Coarse-Grained Model of TDP-43 and RNA"
+  - **Evidence pointer** location not provided
+  - **Issue** The RNA model is a 250-nucleotide polyA chain. The authors do not discuss whether this length is representative of the mRNAs that TDP-43 interacts with in cells, nor do they test the effect of RNA length on their conclusions.
+  - **Required correction** Add a brief discussion of the choice of RNA length and its potential limitations. If feasible, include a test with a different RNA length.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation of results
+  - **Affected element** Results section, "Multidomain Structure of TDP-43 and RNA Influence the Density of Condensates"
+  - **Evidence pointer** location not provided
+  - **Issue** The density values are reported with uncertainties, but the number of replicates is not stated. The text also refers to "splitting of condensates" without further explanation.
+  - **Required correction** State the number of independent simulations. Clarify what is meant by "splitting" and whether this affects the analysis.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** location not provided
+  - **Issue** The discussion of limitations focuses on the CG model's inability to capture side-chain interactions. However, the authors do not discuss the potential impact of the implicit solvent model on the dynamics and the resulting viscoelastic properties.
+  - **Required correction** Add a sentence acknowledging the limitations of implicit solvent models for studying viscoelastic properties and the potential implications for the quantitative values reported.
+- **Technical failings that need to be addressed before the case is established** The lack of statistical analysis for the central comparative claims (R1-M1) is a critical failing. The absence of any validation against experimental data or discussion of the timescale mismatch (R1-M2) further weakens the case. The model sensitivity analysis (R1-M4) is also needed to establish robustness.
+- **Assessment against Nature-style criteria** Originality: The systematic comparison of domain combinations and the focus on viscoelasticity are valuable, but the approach is not entirely novel given prior CG simulation studies of TDP-43. Scientific importance: The question of how domains and RNA tune condensate properties is important for understanding TDP-43 biology and disease. Interdisciplinary readership: The work is likely to appeal to biophysicists, cell biologists, and computational biologists, but the presentation is somewhat specialized. Technical soundness: The simulation methodology is reasonable, but the lack of statistical rigor and sensitivity analysis undermines confidence. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with CG simulation techniques and rheology concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core question is interesting and the systematic design is appropriate, but the current evidence does not fully establish the quantitative claims. The authors must add statistical analysis, address the timescale issue, and test model sensitivity before the conclusions can be considered robust.
+
+## Risk / unsupported claims
+- The claim that "RRMs enhance viscosity, whereas the NTD reduces it" is unsupported without statistical comparison of viscosity values across constructs.
+- The claim that "RNA acts as a cross-linker" and increases elasticity is based on simulations at timescales far from experimental conditions and is not validated against experimental data.
+- The claim that specific residue-residue contacts "drive" changes in density and viscosity is a causal statement not supported by the correlational analysis presented.
+- The statement that "RNA is incorporated into TDP-43 condensates through sticky interactions of RNA mainly with Gly residues" is presented as a general mechanism but is based on a single RNA sequence (polyA) and a single CG model.
+- The biological interpretation that the replacement of TDP-43-TDP-43 interactions by TDP-43-RNA interactions "may be crucial to prevent amyloid formation" is speculative and not directly tested.

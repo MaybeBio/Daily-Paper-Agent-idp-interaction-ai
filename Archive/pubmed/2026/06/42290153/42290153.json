@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "42290153",
+    "doi": "10.1002/prot.70151",
+    "title": "Impact of Stabilizing Osmolytes on the Conformational Dynamics of Human and Rat Islet Amyloid Polypeptides."
+  },
+  "content": {
+    "abstract": "The aggregation of human islet amyloid polypeptide (hIAPP) into cytotoxic oligomers and amyloid fibrils is a hallmark of type 2 diabetes mellitus (T2DM), leading to pancreatic beta-cell dysfunction. In contrast, rat IAPP (rIAPP) is largely non-amyloidogenic. Osmolytes such as glucose, glycerol, and sorbitol are known to stabilize globular protein structures; however, in the case of intrinsically disordered proteins (IDPs), they modulate amyloidogenic aggregation in a concentration-dependent manner. Understanding the molecular mechanism of action of these osmolytes on IDPs remains limited. Well-tempered bias exchange metadynamics (WT-BEMD) simulations were used to study the conformational energy landscape of hIAPP and rIAPP in solution across varying osmolyte concentrations (125, 250, and 500 mM). The addition of osmolytes resulted in subtle changes in secondary structure propensity and content in both hIAPP and rIAPP. In the case of hIAPP, a general reduction in the likelihood of alpha-helical conformations was observed, particularly in the amyloidogenic core, suggesting a molecular mechanism for reduced aggregation in the presence of osmolytes. There was a notable lack of significant direct H-bonding and hydrophobic protein-osmolyte interactions, confirming the presence of a strong osmophobic effect. These findings suggest that these stabilizing osmolytes influence the conformational ensemble of hIAPP and rIAPP through exclusion from the protein surface, rather than by directly stabilizing specific conformations. The potential osmolyte-mediated reduction in aggregation-prone conformations in IDPs such as hIAPP may disrupt early aggregation and offer a potential strategy to mitigate hIAPP cytotoxicity.",
+    "keywords": [
+      "amyloids",
+      "conformational free energy",
+      "intrinsically disordered proteins",
+      "osmophobic effect",
+      "protein aggregation"
+    ],
+    "mesh_terms": [
+      "*Islet Amyloid Polypeptide/chemistry/metabolism",
+      "Humans",
+      "Animals",
+      "Rats",
+      "Molecular Dynamics Simulation",
+      "Sorbitol/chemistry",
+      "Glucose/chemistry",
+      "*Glycerol/chemistry",
+      "Osmolar Concentration",
+      "Protein Conformation, alpha-Helical",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Amyloid/chemistry",
+      "Protein Aggregates",
+      "Protein Stability"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kidman, Kiara A",
+        "Pedrick, Claudio",
+        "Kreck, Cara A",
+        "Mancera, Ricardo L"
+      ],
+      "short_names": [
+        "Kidman KA",
+        "Pedrick C",
+        "Kreck CA",
+        "Mancera RL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9191-5622"
+      ],
+      "affiliations": [
+        "Curtin Medical Research Institute, Curtin School of Diagnostic and Therapeutic Sciences, Curtin University, Perth, Western Australia, Australia.",
+        "Curtin Medical Research Institute, Curtin School of Diagnostic and Therapeutic Sciences, Curtin University, Perth, Western Australia, Australia.",
+        "Curtin Medical Research Institute, Curtin School of Diagnostic and Therapeutic Sciences, Curtin University, Perth, Western Australia, Australia.",
+        "Curtin Medical Research Institute, Curtin School of Diagnostic and Therapeutic Sciences, Curtin University, Perth, Western Australia, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kidman, Kiara A",
+        "short_name": "Kidman KA",
+        "identifiers": [],
+        "affiliations": [
+          "Curtin Medical Research Institute, Curtin School of Diagnostic and Therapeutic Sciences, Curtin University, Perth, Western Australia, Australia."
+        ]
+      },
+      {
+        "full_name": "Pedrick, Claudio",
+        "short_name": "Pedrick C",
+        "identifiers": [],
+        "affiliations": [
+          "Curtin Medical Research Institute, Curtin School of Diagnostic and Therapeutic Sciences, Curtin University, Perth, Western Australia, Australia."
+        ]
+      },
+      {
+        "full_name": "Kreck, Cara A",
+        "short_name": "Kreck CA",
+        "identifiers": [],
+        "affiliations": [
+          "Curtin Medical Research Institute, Curtin School of Diagnostic and Therapeutic Sciences, Curtin University, Perth, Western Australia, Australia."
+        ]
+      },
+      {
+        "full_name": "Mancera, Ricardo L",
+        "short_name": "Mancera RL",
+        "identifiers": [
+          "0000-0002-9191-5622"
+        ],
+        "affiliations": [
+          "Curtin Medical Research Institute, Curtin School of Diagnostic and Therapeutic Sciences, Curtin University, Perth, Western Australia, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 11:37",
+    "fetched_at": "2026-09-18 04:11:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42290153",
+      "24892388",
+      "36163697",
+      "30803034",
+      "36098068",
+      "23331123",
+      "32800950",
+      "24754490",
+      "27854243",
+      "21266296",
+      "41989234",
+      "30502402",
+      "40417836",
+      "29989407",
+      "30149632",
+      "21384830",
+      "24245879",
+      "25706385",
+      "36142176",
+      "39919485",
+      "20153100",
+      "27759128",
+      "28811318",
+      "28585804",
+      "21158384",
+      "31436406",
+      "25646717",
+      "14565847",
+      "27075579",
+      "19486677",
+      "25913357",
+      "31442763",
+      "35060728",
+      "25387961",
+      "39871583",
+      "36174237",
+      "29986579",
+      "30814273",
+      "33544470",
+      "26460729",
+      "22876830",
+      "33544469",
+      "35311274",
+      "24071712",
+      "26407043",
+      "26953503",
+      "19278224",
+      "32887527",
+      "36165351",
+      "35697975",
+      "33887213",
+      "31490518",
+      "30003969",
+      "28917147",
+      "39579816",
+      "41083275",
+      "42017387",
+      "18989932",
+      "32893436",
+      "31195047",
+      "30007378",
+      "25144879",
+      "30023616",
+      "21428404",
+      "25224501",
+      "39660516",
+      "17911343",
+      "38497314",
+      "26255739",
+      "39245780",
+      "41326459",
+      "30908844",
+      "10656810",
+      "32587390",
+      "38338914",
+      "24009497",
+      "33207866",
+      "33792323",
+      "18989933",
+      "32183067",
+      "37262327",
+      "29530482",
+      "29378116",
+      "30714593",
+      "39615682",
+      "25036705",
+      "26582333",
+      "30148596",
+      "27641459",
+      "37691445",
+      "8078905",
+      "35871651",
+      "28829144",
+      "38941872",
+      "32707418",
+      "41022000",
+      "35164285",
+      "23225004",
+      "20684641",
+      "32522548"
+    ],
+    "review": [
+      "42290153",
+      "30149632",
+      "28811318",
+      "27075579",
+      "33544470",
+      "25224501",
+      "29530482",
+      "26582333",
+      "38941872",
+      "35164285"
+    ],
+    "pmc": [
+      "13539665"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42290153/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.70151",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.03.502592",
+  "title": "Structural insights into ATP-sensitive potassium channel mechanics: a role of intrinsically disordered regions",
+  "doi": "10.1101/2022.08.03.502592",
+  "abstract": "Commonly used techniques, such as CryoEM or Xray, are not able to capture the structural reorganizations of disordered regions of proteins (IDR), therefore it is difficult to assess their functions in proteins based exclusively on experiments. To fill this gap, we used computational molecular dynamics simulations methods to capture IDR dynamics and trace biological function-related interactions in the Kir6.2/SUR1 potassium channel. This ATP-sensitive octameric complex, one of the critical elements in the insulin secretion process in human pancreatic β-cells, has four to five large, disordered fragments. Using unique MD simulations of the full Kir6.2/SUR1 channel complex, we present an in-depth analysis of the dynamics of the disordered regions and discuss the possible functions they could have in this system. Our MD results confirmed the crucial role of the N-terminus of the Kir6.2 fragment and the L0-loop of the SUR1 protein in the transfer of mechanical signals between domains that trigger insulin release. Moreover, we show that the presence of IDRs affects natural ligands binding. Our research takes us one step further towards understanding the action of this vital complex.",
+  "authors": [
+    "Walczewska-Szewc K",
+    "Nowak W"
+  ],
+  "published_date": "2022-08-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.03.502592",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.03.502592.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR526987",
+    "raw_record": {
+      "id": "PPR526987",
+      "source": "PPR",
+      "doi": "10.1101/2022.08.03.502592",
+      "title": "Structural insights into ATP-sensitive potassium channel mechanics: a role of intrinsically disordered regions",
+      "authorString": "Walczewska-Szewc K, Nowak W.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Walczewska-Szewc K",
+            "lastName": "Walczewska-Szewc",
+            "firstName": "Katarzyna",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6422-6138"
+            }
+          },
+          {
+            "fullName": "Nowak W",
+            "lastName": "Nowak",
+            "firstName": "Wiesław",
+            "initials": "W"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6422-6138"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Commonly used techniques, such as CryoEM or Xray, are not able to capture the structural reorganizations of disordered regions of proteins (IDR), therefore it is difficult to assess their functions in proteins based exclusively on experiments. To fill this gap, we used computational molecular dynamics simulations methods to capture IDR dynamics and trace biological function-related interactions in the Kir6.2/SUR1 potassium channel. This ATP-sensitive octameric complex, one of the critical elements in the insulin secretion process in human pancreatic β-cells, has four to five large, disordered fragments. Using unique MD simulations of the full Kir6.2/SUR1 channel complex, we present an in-depth analysis of the dynamics of the disordered regions and discuss the possible functions they could have in this system. Our MD results confirmed the crucial role of the N-terminus of the Kir6.2 fragment and the L0-loop of the SUR1 protein in the transfer of mechanical signals between domains that trigger insulin release. Moreover, we show that the presence of IDRs affects natural ligands binding. Our research takes us one step further towards understanding the action of this vital complex.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/08/03/2022.08.03.502592.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.08.03.502592"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36746748",
+            "reference": "Journal of chemical information and modeling. 2023 Mar;63(6):1806-1818",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-08-04",
+      "firstPublicationDate": "2022-08-03",
+      "firstIndexDate": "2022-08-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

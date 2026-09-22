@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "36057100",
+    "doi": "10.1002/iub.2673",
+    "title": "A high-throughput approach to predict A-to-I effects on RNA structure indicates a change of double-stranded content in noncoding RNAs."
+  },
+  "content": {
+    "abstract": "RNA molecules undergo a number of chemical modifications whose effects can alter their structure and molecular interactions. Previous studies have shown that RNA editing can impact the formation of ribonucleoprotein complexes and influence the assembly of membrane-less organelles such as stress granules. For instance, N6-methyladenosine (m6A) enhances SG formation and N1-methyladenosine (m1A) prevents their transition to solid-like aggregates. Yet, very little is known about adenosine to inosine (A-to-I) modification that is very abundant in human cells and not only impacts mRNAs but also noncoding RNAs. Here, we introduce the CROSSalive predictor of A-to-I effects on RNA structure based on high-throughput in-cell experiments. Our method shows an accuracy of 90% in predicting the single and double-stranded content of transcripts and identifies a general enrichment of double-stranded regions caused by A-to-I in long intergenic noncoding RNAs (lincRNAs). For the individual cases of NEAT1, NORAD, and XIST, we investigated the relationship between A-to-I editing and interactions with RNA-binding proteins using available CLIP data and catRAPID predictions. We found that A-to-I editing is linked to the alteration of interaction sites with proteins involved in phase separation, which suggests that RNP assembly can be influenced by A-to-I. CROSSalive is available at http://service.tartaglialab.com/new_submission/crossalive.",
+    "keywords": [
+      "RNA editing",
+      "RNA modification",
+      "protein function"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Adenosine/chemistry",
+      "RNA, Untranslated/genetics",
+      "RNA, Messenger/genetics",
+      "*RNA, Long Noncoding/genetics/metabolism",
+      "Inosine/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Delli Ponti, Riccardo",
+        "Broglia, Laura",
+        "Vandelli, Andrea",
+        "Armaos, Alexandros",
+        "Burgas, Marc Torrent",
+        "Sanchez de Groot, Natalia",
+        "Tartaglia, Gian Gaetano"
+      ],
+      "short_names": [
+        "Delli Ponti R",
+        "Broglia L",
+        "Vandelli A",
+        "Armaos A",
+        "Burgas MT",
+        "Sanchez de Groot N",
+        "Tartaglia GG"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6541-0519",
+        "ORCID: 0000-0003-2099-7373",
+        "ORCID: 0000-0002-0492-5532",
+        "ORCID: 0000-0001-7524-6310"
+      ],
+      "affiliations": [
+        "Bioinformatics Institute (BII), Agency for Science, Technology and Research (A*STAR), Singapore.",
+        "Center for Human Technologies, Istituto Italiano di Tecnologia, Genoa, Italy.",
+        "Department of Biochemistry and Molecular Biology, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Universitat Pompeu Fabra (UPF), Barcelona, Spain.",
+        "Center for Human Technologies, Istituto Italiano di Tecnologia, Genoa, Italy.",
+        "Department of Biochemistry and Molecular Biology, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Department of Biochemistry and Molecular Biology, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Center for Human Technologies, Istituto Italiano di Tecnologia, Genoa, Italy.",
+        "Department of Biology and Biotechnologies 'Charles Darwin', Sapienza University of Rome, Lazio, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Delli Ponti, Riccardo",
+        "short_name": "Delli Ponti R",
+        "identifiers": [
+          "0000-0001-6541-0519"
+        ],
+        "affiliations": [
+          "Bioinformatics Institute (BII), Agency for Science, Technology and Research (A*STAR), Singapore."
+        ]
+      },
+      {
+        "full_name": "Broglia, Laura",
+        "short_name": "Broglia L",
+        "identifiers": [
+          "0000-0003-2099-7373"
+        ],
+        "affiliations": [
+          "Center for Human Technologies, Istituto Italiano di Tecnologia, Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Vandelli, Andrea",
+        "short_name": "Vandelli A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Universitat Autònoma de Barcelona, Barcelona, Spain.",
+          "Universitat Pompeu Fabra (UPF), Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Armaos, Alexandros",
+        "short_name": "Armaos A",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Human Technologies, Istituto Italiano di Tecnologia, Genoa, Italy."
+        ]
+      },
+      {
+        "full_name": "Burgas, Marc Torrent",
+        "short_name": "Burgas MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Universitat Autònoma de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Sanchez de Groot, Natalia",
+        "short_name": "Sanchez de Groot N",
+        "identifiers": [
+          "0000-0002-0492-5532"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Universitat Autònoma de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Tartaglia, Gian Gaetano",
+        "short_name": "Tartaglia GG",
+        "identifiers": [
+          "0000-0001-7524-6310"
+        ],
+        "affiliations": [
+          "Center for Human Technologies, Istituto Italiano di Tecnologia, Genoa, Italy.",
+          "Department of Biology and Biotechnologies 'Charles Darwin', Sapienza University of Rome, Lazio, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IUBMB life"
+    ],
+    "journal_abbrev": [
+      "IUBMB Life"
+    ],
+    "pub_date": "2023 May",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/04 06:00",
+    "fetched_at": "2026-09-20 12:57:36"
+  },
+  "links": {
+    "cites": [
+      "41354934",
+      "41348601",
+      "39717617",
+      "39460625",
+      "39006762",
+      "38579177",
+      "36969033"
+    ],
+    "refs": [],
+    "similar": [
+      "36057100",
+      "31504168",
+      "25826568",
+      "32822814",
+      "20835992",
+      "34674600",
+      "33308223",
+      "35051888",
+      "31757221",
+      "20382028",
+      "33231507",
+      "32767982",
+      "21072321",
+      "31044562",
+      "30578846",
+      "28334903",
+      "27651464",
+      "24008387",
+      "29529255",
+      "22988838",
+      "32443966",
+      "22028664",
+      "20200492",
+      "30945197",
+      "34813676",
+      "35166835",
+      "30952514",
+      "30945196",
+      "24141618",
+      "35735243",
+      "32453623",
+      "17270048",
+      "34638933",
+      "28031250",
+      "26541084",
+      "35850307",
+      "17662844",
+      "17662850",
+      "12163487",
+      "34917614",
+      "23810193",
+      "35508185",
+      "30836987",
+      "23264566",
+      "34722298",
+      "38591694",
+      "17139332",
+      "29304330",
+      "35441574",
+      "32729076",
+      "35422168",
+      "36597408",
+      "8915538",
+      "10339539",
+      "28820319",
+      "7721757",
+      "34314547",
+      "28766293",
+      "23756094",
+      "26648264",
+      "29129909",
+      "36700958",
+      "24347612",
+      "36155798",
+      "36675186",
+      "23756188",
+      "29145975",
+      "33422492",
+      "32411802",
+      "16594986",
+      "37935465",
+      "35080597",
+      "33991529",
+      "17908822",
+      "19622679",
+      "25366541",
+      "34184765",
+      "33764282",
+      "35778697",
+      "29770436",
+      "16574103",
+      "24508457",
+      "32792482",
+      "37151887",
+      "19716791",
+      "23597756",
+      "38328125"
+    ],
+    "review": [
+      "36057100",
+      "32822814",
+      "20835992",
+      "34674600",
+      "31757221",
+      "20382028",
+      "33231507",
+      "32767982",
+      "21072321",
+      "31044562",
+      "24008387",
+      "22988838",
+      "32443966",
+      "20200492",
+      "35735243",
+      "34638933",
+      "26541084",
+      "34917614",
+      "35508185",
+      "34722298",
+      "17139332",
+      "8915538",
+      "28820319",
+      "23756094",
+      "26648264",
+      "23756188",
+      "29145975",
+      "33422492",
+      "32411802",
+      "37935465",
+      "35080597",
+      "33991529",
+      "29770436"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/iub.2673",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

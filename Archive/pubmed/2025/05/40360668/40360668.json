@@ -1,0 +1,442 @@
+{
+  "identity": {
+    "pmid": "40360668",
+    "doi": "10.1038/s41422-025-01125-4",
+    "title": "A thermosensor FUST1 primes heat-induced stress granule formation via biomolecular condensation in Arabidopsis."
+  },
+  "content": {
+    "abstract": "The ability to sense cellular temperature and induce physiological changes is pivotal for plants to cope with warming climate. Biomolecular condensation is emerging as a thermo-sensing mechanism, but the underlying molecular basis remains elusive. Here we show that an intrinsically disordered protein FUST1 senses heat via its condensation in Arabidopsis thaliana. Heat-dependent condensation of FUST1 is primarily determined by its prion-like domain (PrLD). All-atom molecular dynamics simulation and experimental validation reveal that PrLD encodes a thermo-switch, experiencing lock-to-open conformational changes that control the intermolecular contacts. FUST1 interacts with integral stress granule (SG) components and localizes in the SGs. Importantly, FUST1 condensation is autonomous and precedes condensation of several known SG markers and is indispensable for SG assembly. Loss of FUST1 significantly delays SG assembly and impairs both basal and acquired heat tolerance. These findings illuminate the molecular basis for thermo-sensing by biomolecular condensation and shed light on the molecular mechanism of heat stress granule assembly.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Arabidopsis/metabolism",
+      "*Arabidopsis Proteins/metabolism/chemistry/genetics",
+      "*Heat-Shock Response",
+      "*Stress Granules/metabolism",
+      "Hot Temperature",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Geng, Pan",
+        "Li, Changxuan",
+        "Quan, Xuebo",
+        "Peng, Jiaxuan",
+        "Yao, Zhiying",
+        "Wang, Yunhe",
+        "Yang, Ming",
+        "Wang, Yanning",
+        "Jin, Yunfan",
+        "Xiong, Yan",
+        "Liu, Hongtao",
+        "Qi, Yijun",
+        "Yang, Peiguo",
+        "Huang, Kai",
+        "Fang, Xiaofeng"
+      ],
+      "short_names": [
+        "Geng P",
+        "Li C",
+        "Quan X",
+        "Peng J",
+        "Yao Z",
+        "Wang Y",
+        "Yang M",
+        "Wang Y",
+        "Jin Y",
+        "Xiong Y",
+        "Liu H",
+        "Qi Y",
+        "Yang P",
+        "Huang K",
+        "Fang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0100-7901",
+        "ORCID: 0000-0002-7100-1700",
+        "ORCID: 0000-0002-2334-5664",
+        "ORCID: 0000-0001-8400-9341",
+        "ORCID: 0000-0003-1161-9186"
+      ],
+      "affiliations": [
+        "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, Guangdong, China.",
+        "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, Guangdong, China.",
+        "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "Synthetic Biology Center, Haixia Institute of Science and Technology, Fujian Agriculture and Forestry University, Fuzhou, Fujian, China.",
+        "College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, Guangdong, China.",
+        "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, Guangdong, China. huangkai@szbl.ac.cn.",
+        "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China. xffang@tsinghua.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Geng, Pan",
+        "short_name": "Geng P",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Changxuan",
+        "short_name": "Li C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Quan, Xuebo",
+        "short_name": "Quan X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Jiaxuan",
+        "short_name": "Peng J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Zhiying",
+        "short_name": "Yao Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yunhe",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Ming",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanning",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0003-0100-7901"
+        ],
+        "affiliations": [
+          "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Yunfan",
+        "short_name": "Jin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Xiong, Yan",
+        "short_name": "Xiong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Synthetic Biology Center, Haixia Institute of Science and Technology, Fujian Agriculture and Forestry University, Fuzhou, Fujian, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Hongtao",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences and Oceanography, Shenzhen University, Shenzhen, Guangdong, China."
+        ]
+      },
+      {
+        "full_name": "Qi, Yijun",
+        "short_name": "Qi Y",
+        "identifiers": [
+          "0000-0002-7100-1700"
+        ],
+        "affiliations": [
+          "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Peiguo",
+        "short_name": "Yang P",
+        "identifiers": [
+          "0000-0002-2334-5664"
+        ],
+        "affiliations": [
+          "School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Kai",
+        "short_name": "Huang K",
+        "identifiers": [
+          "0000-0001-8400-9341"
+        ],
+        "affiliations": [
+          "Institute of Systems and Physical Biology, Shenzhen Bay Laboratory, Shenzhen, Guangdong, China. huangkai@szbl.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Fang, Xiaofeng",
+        "short_name": "Fang X",
+        "identifiers": [
+          "0000-0003-1161-9186"
+        ],
+        "affiliations": [
+          "Center for Plant Biology, School of Life Sciences, Tsinghua University, Beijing, China. xffang@tsinghua.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell research"
+    ],
+    "journal_abbrev": [
+      "Cell Res"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/14 11:40",
+    "fetched_at": "2026-09-21 18:54:29"
+  },
+  "links": {
+    "cites": [
+      "42573943",
+      "42479902",
+      "42339383",
+      "42292510",
+      "42203875",
+      "42189112",
+      "42174182",
+      "41987653",
+      "41849404",
+      "41768893",
+      "41631348",
+      "41446170",
+      "41406227",
+      "41144082",
+      "40727411",
+      "40437048",
+      "40374948",
+      "40199996"
+    ],
+    "refs": [
+      "38750356",
+      "38547866",
+      "38347182",
+      "38078942",
+      "37640933",
+      "37045740",
+      "36854477",
+      "36435966",
+      "36376475",
+      "36305009",
+      "36271858",
+      "36018271",
+      "35817823",
+      "35728588",
+      "35660289",
+      "34541233",
+      "34265844",
+      "33686854",
+      "33571730",
+      "33500425",
+      "32848244",
+      "32359423",
+      "32302572",
+      "32302571",
+      "32302570",
+      "32302565",
+      "32029630",
+      "31481099",
+      "30664249",
+      "30655560",
+      "30573309",
+      "30456348",
+      "30217894",
+      "30082464",
+      "29949750",
+      "29618631",
+      "28283059",
+      "27819658",
+      "27474115",
+      "27289443",
+      "26777405",
+      "26620784",
+      "26488642",
+      "25736060",
+      "25605792",
+      "24841298",
+      "24469793",
+      "19812307",
+      "19131626",
+      "18643965",
+      "17406547",
+      "17212484",
+      "16500991",
+      "16219938",
+      "8744570",
+      "6667333"
+    ],
+    "similar": [
+      "40360668",
+      "39173636",
+      "41406227",
+      "40016204",
+      "40437049",
+      "40779619",
+      "41992520",
+      "39973093",
+      "40118828",
+      "40911369",
+      "35231447",
+      "34287990",
+      "30487287",
+      "22516824",
+      "38750356",
+      "30664249",
+      "36376475",
+      "41422380",
+      "39789846",
+      "39240713",
+      "39762263",
+      "39738069",
+      "39227617",
+      "39004265",
+      "23399534",
+      "32451083",
+      "42118973",
+      "42014707",
+      "24415771",
+      "35682701",
+      "42231572",
+      "37040611",
+      "41213015",
+      "21564098",
+      "24634180",
+      "21908690",
+      "18849477",
+      "33221412",
+      "31113833",
+      "32538269",
+      "41300730",
+      "23087326",
+      "41310435",
+      "33049246",
+      "36357887",
+      "36651745",
+      "35880749",
+      "25736060",
+      "23408827",
+      "21398432",
+      "38865085",
+      "39060400",
+      "33081049",
+      "32651385",
+      "30030372",
+      "29437392",
+      "42621734",
+      "30081447",
+      "28608391",
+      "20345641",
+      "38612449",
+      "29618637",
+      "31358650",
+      "41917183",
+      "26715648",
+      "41004720",
+      "42541610",
+      "27943531",
+      "20536787",
+      "18201973",
+      "30730020",
+      "27493213",
+      "20521085",
+      "29381447",
+      "41591303",
+      "42383738",
+      "32848244",
+      "28277968",
+      "40839189",
+      "27252530",
+      "34208100",
+      "33793918",
+      "40570374",
+      "16897488",
+      "27673599",
+      "32527735",
+      "28223317",
+      "32235396",
+      "25339350",
+      "22942382",
+      "17761429",
+      "36692217",
+      "31085449",
+      "40240780",
+      "36342207",
+      "36854477",
+      "33974298",
+      "32087683",
+      "19571304",
+      "41651815"
+    ],
+    "review": [
+      "40360668",
+      "40911369"
+    ],
+    "pmc": [
+      "12205081"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41422-025-01125-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40360668/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

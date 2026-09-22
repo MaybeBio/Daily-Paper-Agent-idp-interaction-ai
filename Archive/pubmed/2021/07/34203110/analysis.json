@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34203110",
+  "title": "Solvent Exposure and Ionic Condensation Drive Fuzzy Dimerization of Disordered Heterochromatin Protein Sequence.",
+  "authors": "Mueterthies, Jazelli; Potoyan, Davit A",
+  "journal": "Biomolecules",
+  "published_date": "2021-07-03",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过全原子模拟与增强采样，系统研究果蝇HP1a无序铰链区在盐诱导下的模糊二聚化机制，揭示离子释放、瞬时二级结构与溶剂暴露如何调控链间/链内互作，直接关联相分离凝聚体中的无序蛋白PPI机制建模。",
+  "abstract": "Proteins with low complexity, disordered sequences are receiving increasing attention due to their central roles in the biogenesis and regulation of membraneless organelles. In eukaryotic organisms, a substantial fraction of disordered proteins reside in the nucleus, thereby facilitating the formation of nuclear bodies, nucleolus, and chromatin compartmentalization. The heterochromatin family of proteins (HP1) is an important player in driving the formation of gene silenced mesoscopic heterochromatin B compartments and pericentric regions. Recent experiments have shown that the HP1a sequence of Drosophila melanogaster can undergo liquid-liquid phase separation under both in vitro and in vivo conditions, induced by changes of the monovalent salt concentration. While the phase separation of HP1a is thought to be the mechanism underlying chromatin compartmentalization, the molecular level mechanistic picture of salt-driven phase separation of HP1a has remained poorly understood. The disordered hinge region of HP1a is seen as the driver of salt-induced condensation because of its charge enriched sequence and post-translational modifications. Here, we set out to decipher the mechanisms of salt-induced condensation of HP1a through a systematic study of salt-dependent conformations of single chains and fuzzy dimers of disordered HP1a hinge sequences. Using multiple independent all-atom simulations with and without enhanced sampling, we carry out detailed characterization of conformational ensembles of disordered HP1a chains under different ionic conditions using various polymeric and structural measures. We show that the mobile ion release, enhancement of local transient secondary structural elements, and side-chain exposure to solvent are robust trends that accompany fuzzy dimer formation. Furthermore, we find that salt-induced changes in the ensemble of conformations of HP1a disordered hinge sequence fine-tune the inter-chain vs. self-chain interactions in ways that favor fuzzy dimer formation under low salt conditions in the agreement with condensation trends seen in experiments.",
+  "abstract_zh": "具有低复杂度、无序序列的蛋白质因其在无膜细胞器的生物发生和调控中的核心作用而日益受到关注。在真核生物中，相当一部分无序蛋白质位于细胞核内，从而促进核体、核仁的形成以及染色质区室化。异染色质蛋白家族（HP1）在驱动基因沉默的介观异染色质B区室和着丝粒周围区域的形成中扮演重要角色。近期实验表明，黑腹果蝇的HP1a序列在单价盐浓度变化的诱导下，可在体外和体内条件下发生液-液相分离。尽管HP1a的相分离被认为是染色质区室化的潜在机制，但盐驱动的HP1a相分离的分子水平机制图景仍知之甚少。HP1a的无序铰链区因其电荷富集序列和翻译后修饰，被视为盐诱导凝聚的驱动因素。在此，我们旨在通过系统研究无序HP1a铰链序列的单链和模糊二聚体的盐依赖性构象，来解析盐诱导HP1a凝聚的机制。利用多次独立的全原子模拟（包括或不包括增强采样），我们采用多种聚合和结构度量，对不同离子条件下无序HP1a链的构象系综进行了详细表征。我们表明，移动离子释放、局部瞬时二级结构元件的增强以及侧链向溶剂的暴露，是伴随模糊二聚体形成的稳健趋势。此外，我们发现，盐诱导的HP1a无序铰链序列构象系综变化，以有利于低盐条件下模糊二聚体形成的方式微调链间与链内相互作用，这与实验中观察到的凝聚趋势一致。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34203110/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34203110/",
+  "paper_page_path": "papers/pubmed/34203110/index.html"
+}

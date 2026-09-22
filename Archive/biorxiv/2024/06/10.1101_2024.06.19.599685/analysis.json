@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.19.599685",
+  "title": "A comparative study of the cryo-EM structures of S. cerevisiae and human anaphase-promoting complex/cyclosome (APC/C)",
+  "authors": "Vazquez-Fernandez E; Yang J; Zhang Z; Andreeva AE; Emsley P; Barford D",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-20",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究比较酵母与人APC/C复合物的冷冻电镜结构，聚焦泛素连接酶调控机制，但对象非无序蛋白/IDR，且无PPI机制建模或AI/物理模拟方法，仅结构比较，与本课题关联弱。",
+  "abstract": "The anaphase-promoting complex/cyclosome (APC/C) is a large multi-subunit E3 ubiquitin ligase that controls progression through the cell cycle by orchestrating the timely proteolysis of mitotic cyclins and other cell cycle regulatory proteins. Although structures of multiple human APC/C complexes have been extensively studied over the past decade, the S. cerevisiae APC/C has been less extensively investigated. Here, we describe medium resolution structures of three S. cerevisiae APC/C complexes: unphosphorylated apo-APC/C and the ternary APC/C CDH1 -substrate complex, and phosphorylated apo-APC/C. Whereas the overall architectures of human and S. cerevisiae APC/C are conserved, as well as the mechanism of CDH1 inhibition by CDK-phosphorylation, specific variations exist, including striking differences in the mechanism of coactivator-mediated stimulation of E2 binding, and the activation of APC/C CDC20 by phosphorylation. In contrast to human APC/C in which coactivator induces a conformational change of the catalytic module APC2:APC11 to allow E2 binding, in S. cerevisiae apo-APC/C the catalytic module is already positioned to bind E2. Furthermore, we find no evidence of a phospho-regulatable auto-inhibitory segment of APC1, that in the unphosphorylated human APC/C, sterically blocks the CDC20 C-box binding site of APC8. Thus, although the functions of APC/C are conserved from S. cerevisiae to humans, molecular details relating to their regulatory mechanisms differ.",
+  "abstract_zh": "后期促进复合物/环体（anaphase-promoting complex/cyclosome, APC/C）是一种大型多亚基E3泛素连接酶，通过协调有丝分裂周期蛋白及其他细胞周期调控蛋白的及时蛋白水解，控制细胞周期的进程。尽管过去十年中多种人类APC/C复合物的结构已被广泛研究，但酿酒酵母（S. cerevisiae）APC/C的研究相对较少。在此，我们描述了三种酿酒酵母APC/C复合物的中等分辨率结构：未磷酸化的apo-APC/C、三元APC/C CDH1-底物复合物，以及磷酸化的apo-APC/C。尽管人类和酿酒酵母APC/C的整体架构以及CDK磷酸化对CDH1的抑制机制是保守的，但存在特定差异，包括共激活因子介导的E2结合刺激机制和APC/C CDC20通过磷酸化激活方面的显著不同。与人类APC/C中共激活因子诱导催化模块APC2:APC11发生构象变化以允许E2结合不同，在酿酒酵母apo-APC/C中，催化模块已处于可结合E2的位置。此外，我们未发现APC1存在可磷酸化调控的自抑制片段，而在未磷酸化的人类APC/C中，该片段在空间上阻断APC8的CDC20 C-box结合位点。因此，尽管APC/C的功能从酿酒酵母到人类是保守的，但其调控机制的分子细节存在差异。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.19.599685",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.19.599685",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.19.599685/index.html"
+}

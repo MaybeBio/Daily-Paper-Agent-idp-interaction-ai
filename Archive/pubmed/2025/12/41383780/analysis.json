@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41383780",
+  "title": "HTS-Oracle: Experimentally validated AI-enabled prioritization for generalizable small molecule hit discovery.",
+  "authors": "Nada, Hossam; Calvo-Barreiro, Laura; Fuchs, Natalie; Kaur, Baljit; Cho, Sungwoo; Upadhyay, Saurabh; Meanwell, Nicholas; Gabr, Moustafa",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-12-12",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出AI系统HTS-Oracle，结合分子语言模型与化学信息学优先排序小分子活性化合物，并在TREM2、CHI3L1（含无序蛋白）和CD28（PPI驱动免疫检查点）等难治靶点上验证，虽对象涉及IDP和PPI且方法为AI，但核心是小分子命中发现而非无序蛋白互作机制建模，故综合评7分。",
+  "abstract": "High-throughput screening (HTS) remains a central pillar of small molecule discovery yet routinely fails for immune receptors and protein-protein interaction-driven targets. Here, we introduce HTS-Oracle, an experimentally validated AI system for prospective hit discovery that integrates molecular language modeling with cheminformatics to prioritize bioactive compounds at scale. We deploy HTS-Oracle across three clinically validated yet historically intractable immune targets, TREM2, CHI3L1, and CD28, representing cryptic binding pockets, intrinsically disordered proteins, and protein-protein interaction-driven immune checkpoint, respectively. Across the tested targets, HTS-Oracle reduces experimental screening requirements by up to >99% while increasing hit rates by up to 176-fold relative to traditional HTS. Notably, the platform remains predictive under extreme data sparsity, achieving an eightfold improvement for CD28 despite fewer than 2% actives in training. By consistently enriching for experimentally validated hits, HTS-Oracle establishes a new performance benchmark for hit discovery and unlocks small molecule access to immune targets long regarded as chemically inaccessible.",
+  "abstract_zh": "高通量筛选（HTS）仍是小分子发现的核心支柱，但在免疫受体及蛋白质-蛋白质相互作用驱动的靶标上往往失效。在此，我们介绍HTS-Oracle，一种经实验验证的人工智能系统，用于前瞻性命中发现，该系统将分子语言建模与化学信息学相结合，以大规模优先排序生物活性化合物。我们将HTS-Oracle应用于三个经临床验证但历史上难以攻克的免疫靶标：TREM2、CHI3L1和CD28，分别代表隐蔽结合口袋、内在无序蛋白及蛋白质-蛋白质相互作用驱动的免疫检查点。在测试的靶标中，HTS-Oracle将实验筛选需求减少高达>99%，同时与传统HTS相比，命中率提高多达176倍。值得注意的是，该平台在极端数据稀疏条件下仍保持预测能力，在训练中活性化合物占比不足2%的情况下，对CD28实现了八倍的改进。通过持续富集经实验验证的命中，HTS-Oracle为命中发现树立了新的性能基准，并解锁了长期被视为化学上不可及的免疫靶标的小分子可及性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41383780/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41383780/",
+  "paper_page_path": "papers/pubmed/41383780/index.html"
+}

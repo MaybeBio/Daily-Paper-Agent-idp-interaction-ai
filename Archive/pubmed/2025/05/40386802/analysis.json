@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40386802",
+  "title": "Single-fluorogen imaging reveals distinct environmental and structural features of biomolecular condensates.",
+  "authors": "Wu, Tingting; King, Matthew R; Qiu, Yuanxin; Farag, Mina; Pappu, Rohit V; Lew, Matthew D",
+  "journal": "Nature physics",
+  "published_date": "2025-05-19",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过单荧光团成像和超分辨技术，实验验证了无序蛋白凝聚体内部存在纳米级团簇和分散分子的空间不均匀组织，并绘制了内部环境与界面特征，虽聚焦于凝聚体结构动力学而非直接PPI机制建模，但为无序蛋白介导的相分离互作环境提供了关键实验依据，对机制建模有启发。",
+  "abstract": "Biomolecular condensates are viscoelastic materials. Simulations predict that condensates formed by intrinsically disordered proteins are network fluids defined by spatially inhomogeneous organization of the underlying molecules. Here, we test these predictions and find that molecules within condensates are organized into slow-moving nanoscale clusters and fast-moving dispersed molecules. These results, obtained using single-fluorogen tracking and super-resolution imaging of different disordered protein-based condensates, affirm the predicted spatially inhomogeneous organization of molecules within condensates. We map the internal environments and interfaces of condensates using fluorogens that localize differently to the interiors versus interface between dilute phase and condensate. We show that nanoscale clusters within condensates are more hydrophobic than regions outside the clusters, and regions within condensates that lie outside clusters are more hydrophobic than coexisting dilute phases. Our findings provide a structural and dynamical basis for the viscoelasticity of condensates.",
+  "abstract_zh": "生物分子凝聚体是粘弹性材料。模拟预测，由内在无序蛋白质形成的凝聚体是网络流体，其特点在于底层分子的空间不均匀组织。在此，我们检验这些预测，并发现凝聚体内的分子组织成缓慢移动的纳米级团簇和快速移动的分散分子。这些结果，通过单荧光团追踪和基于不同无序蛋白质凝聚体的超分辨成像获得，证实了凝聚体内分子预测的空间不均匀组织。我们利用在稀释相与凝聚体界面及内部定位不同的荧光团，绘制了凝聚体的内部环境和界面图。我们表明，凝聚体内的纳米级团簇比团簇外区域更具疏水性，而凝聚体内位于团簇外的区域比共存的稀释相更具疏水性。我们的发现为凝聚体的粘弹性提供了结构和动力学基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40386802/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40386802/",
+  "paper_page_path": "papers/pubmed/40386802/index.html"
+}

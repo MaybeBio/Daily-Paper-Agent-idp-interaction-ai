@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "37155880",
+    "doi": "10.1073/pnas.2215828120",
+    "title": "Phosphorylation sites are evolutionary checkpoints against liquid-solid transition in protein condensates."
+  },
+  "content": {
+    "abstract": "Assemblies of multivalent RNA-binding protein fused in sarcoma (FUS) can exist in the functional liquid-like state as well as less dynamic and potentially toxic amyloid- and hydrogel-like states. How could then cells form liquid-like condensates while avoiding their transformation to amyloids? Here, we show how posttranslational phosphorylation can provide a \"handle\" that prevents liquid-solid transition of intracellular condensates containing FUS. Using residue-specific coarse-grained simulations, for 85 different mammalian FUS sequences, we show how the number of phosphorylation sites and their spatial arrangement affect intracluster dynamics preventing conversion to amyloids. All atom simulations further confirm that phosphorylation can effectively reduce the beta-sheet propensity in amyloid-prone fragments of FUS. A detailed evolutionary analysis shows that mammalian FUS PLDs are enriched in amyloid-prone stretches compared to control neutrally evolved sequences, suggesting that mammalian FUS proteins evolved to self-assemble. However, in stark contrast to proteins that do not phase-separate for their function, mammalian sequences have phosphosites in close proximity to these amyloid-prone regions. These results suggest that evolution uses amyloid-prone sequences in prion-like domains to enhance phase separation of condensate proteins while enriching phosphorylation sites in close proximity to safeguard against liquid-solid transitions.",
+    "keywords": [
+      "FUS protein",
+      "amyloid",
+      "liquid-liquid phase separation",
+      "phosphorylation",
+      "protein condensates"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Phosphorylation",
+      "*Amyloid/genetics/metabolism",
+      "Amyloidogenic Proteins/metabolism",
+      "*Prions/metabolism",
+      "RNA-Binding Proteins/metabolism",
+      "RNA-Binding Protein FUS/metabolism",
+      "Protein Domains",
+      "Phase Transition",
+      "Mammals/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ranganathan, Srivastav",
+        "Dasmeh, Pouria",
+        "Furniss, Seth",
+        "Shakhnovich, Eugene"
+      ],
+      "short_names": [
+        "Ranganathan S",
+        "Dasmeh P",
+        "Furniss S",
+        "Shakhnovich E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4527-5302",
+        "ORCID: 0000-0003-1694-2484",
+        "ORCID: 0000-0002-4769-2265"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA 02138.",
+        "Center for Human Genetics, Marburg University, Marburg 35033, Germany.",
+        "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA 02138.",
+        "Department of Chemistry, Physical and Theoretical Chemistry Laboratory, University of Oxford, Oxford OX1 3QZ, United Kingdom.",
+        "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA 02138."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ranganathan, Srivastav",
+        "short_name": "Ranganathan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA 02138."
+        ]
+      },
+      {
+        "full_name": "Dasmeh, Pouria",
+        "short_name": "Dasmeh P",
+        "identifiers": [
+          "0000-0002-4527-5302"
+        ],
+        "affiliations": [
+          "Center for Human Genetics, Marburg University, Marburg 35033, Germany."
+        ]
+      },
+      {
+        "full_name": "Furniss, Seth",
+        "short_name": "Furniss S",
+        "identifiers": [
+          "0000-0003-1694-2484"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA 02138.",
+          "Department of Chemistry, Physical and Theoretical Chemistry Laboratory, University of Oxford, Oxford OX1 3QZ, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Shakhnovich, Eugene",
+        "short_name": "Shakhnovich E",
+        "identifiers": [
+          "0000-0002-4769-2265"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA 02138."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 May 16",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/08 18:42",
+    "fetched_at": "2026-09-20 21:51:42"
+  },
+  "links": {
+    "cites": [
+      "42204980",
+      "42192130",
+      "41965924",
+      "41576087",
+      "41468288",
+      "41178159",
+      "40842365",
+      "40631302",
+      "40585801",
+      "40568176",
+      "40475503",
+      "40389455",
+      "40244673",
+      "40007487",
+      "39920231",
+      "39674888",
+      "39660892",
+      "39642206",
+      "39426983",
+      "38458997",
+      "37873097",
+      "37626851",
+      "37399327"
+    ],
+    "refs": [
+      "35727989",
+      "35702028",
+      "34791214",
+      "34784177",
+      "34759379",
+      "34516126",
+      "33582133",
+      "33307683",
+      "33295868",
+      "33022038",
+      "32484438",
+      "31694155",
+      "30926670",
+      "30913885",
+      "30587571",
+      "30217894",
+      "30045872",
+      "29961577",
+      "29897835",
+      "29547565",
+      "29364893",
+      "29091028",
+      "28924037",
+      "28790177",
+      "28225081",
+      "27690405",
+      "27490241",
+      "27289443",
+      "26526393",
+      "26412307",
+      "26328871",
+      "26317470",
+      "26015579",
+      "25535836",
+      "25453085",
+      "24782311",
+      "24368804",
+      "23901099",
+      "23071427",
+      "22398450",
+      "21368180",
+      "18620545",
+      "18576630",
+      "17483113",
+      "16537487",
+      "16222654",
+      "12050115",
+      "10600390",
+      "9367129",
+      "1693772"
+    ],
+    "similar": [
+      "37155880",
+      "31805282",
+      "32877292",
+      "35709363",
+      "33607084",
+      "35943083",
+      "26455390",
+      "33022038",
+      "37179431",
+      "28924037",
+      "38971830",
+      "29961577",
+      "31895552",
+      "34487489",
+      "28942918",
+      "34648275",
+      "37211763",
+      "26317470",
+      "34862761",
+      "34356638",
+      "33159853",
+      "33307683",
+      "37399327",
+      "29677513",
+      "28432364",
+      "29610493",
+      "35241680",
+      "32231288",
+      "37549257",
+      "37386790",
+      "31022909",
+      "26283796",
+      "34737230",
+      "38157426",
+      "37130459",
+      "37204199",
+      "35727989",
+      "28790177",
+      "37231298",
+      "32426986",
+      "34516126",
+      "33547841",
+      "39276934",
+      "29897835",
+      "38347806",
+      "37782826",
+      "38326345",
+      "35709984",
+      "36361989",
+      "37906538",
+      "37238596",
+      "37890778",
+      "28389532",
+      "29698650",
+      "32857852",
+      "34357401",
+      "31928729",
+      "34784177",
+      "31188823",
+      "34871547",
+      "34233002",
+      "31270472",
+      "30992467",
+      "37664947",
+      "34759379",
+      "34156864",
+      "27686217",
+      "36175408",
+      "33758287",
+      "35238639",
+      "34102212",
+      "34624313",
+      "35297101",
+      "28176659",
+      "30826454",
+      "34787417",
+      "38467846",
+      "36350032",
+      "35998851",
+      "34391803",
+      "37926650",
+      "35657723",
+      "29738715",
+      "29679649",
+      "37503034",
+      "36268634",
+      "33563842",
+      "25747492",
+      "30488693",
+      "34762868",
+      "26996412",
+      "36595668",
+      "37090622",
+      "29178774",
+      "37684240",
+      "36990219",
+      "34654750",
+      "30995727",
+      "37134270",
+      "35702028",
+      "31161647",
+      "33568529",
+      "35481658",
+      "38070499",
+      "29650702",
+      "36945688",
+      "37205474",
+      "39109535",
+      "38996511",
+      "33558506",
+      "38279531",
+      "37898314",
+      "37486948",
+      "36459561",
+      "36513655",
+      "38056002",
+      "39424799",
+      "27320918",
+      "39386612",
+      "32029630",
+      "38405719",
+      "38782886",
+      "38805292",
+      "37790538",
+      "38532700"
+    ],
+    "review": [
+      "37155880",
+      "34356638",
+      "37399327",
+      "31022909",
+      "28389532",
+      "29698650",
+      "31928729",
+      "37664947",
+      "28176659",
+      "30826454",
+      "36350032",
+      "35998851",
+      "37926650",
+      "36268634",
+      "25747492",
+      "26996412",
+      "30995727"
+    ],
+    "pmc": [
+      "10193986"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2215828120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37155880/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37155880",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38336297",
+  "title": "Rheostats, toggles, and neutrals, Oh my! A new framework for understanding how amino acid changes modulate protein function.",
+  "authors": "Swint-Kruse, Liskin; Fenton, Aron W",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2024-02-10",
+  "window": {
+    "start": "2024-02-05",
+    "end": "2024-02-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该综述提出氨基酸替换表型框架（rheostat/toggle/neutral），涵盖无序蛋白中rheostat位点对功能（含亲和力）的调控，并关联蛋白动力学预测，但缺乏具体PPI机制建模或AI/物理模拟方法。",
+  "abstract": "Advances in personalized medicine and protein engineering require accurately predicting outcomes of amino acid substitutions. Many algorithms correctly predict that evolutionarily-conserved positions show \"toggle\" substitution phenotypes, which is defined when a few substitutions at that position retain function. In contrast, predictions often fail for substitutions at the less-studied \"rheostat\" positions, which are defined when different amino acid substitutions at a position sample at least half of the possible functional range. This review describes efforts to understand the impact and significance of rheostat positions: (1) They have been observed in globular soluble, integral membrane, and intrinsically disordered proteins; within single proteins, their prevalence can be up to 40%. (2) Substitutions at rheostat positions can have biological consequences and  approximately 10% of substitutions gain function. (3) Although both rheostat and \"neutral\" (defined when all substitutions exhibit wild-type function) positions are nonconserved, the two classes have different evolutionary signatures. (4) Some rheostat positions have pleiotropic effects on function, simultaneously modulating multiple parameters (e.g., altering both affinity and allosteric coupling). (5) In structural studies, substitutions at rheostat positions appear to cause only local perturbations; the overall conformations appear unchanged. (6) Measured functional changes show promising correlations with predicted changes in protein dynamics; the emergent properties of predicted, dynamically coupled amino acid networks might explain some of the complex functional outcomes observed when substituting rheostat positions. Overall, rheostat positions provide unique opportunities for using single substitutions to tune protein function. Future studies of these positions will yield important insights into the protein sequence/function relationship.",
+  "abstract_zh": "个性化医学和蛋白质工程的发展要求准确预测氨基酸替换的结果。许多算法能正确预测进化保守位点表现出“切换”替换表型，即该位点少数替换保留功能。相比之下，对于研究较少的“变阻器”位点的替换，预测往往失败，这些位点定义为不同氨基酸替换在该位点至少采样可能功能范围的一半。本综述描述了理解变阻器位点影响和意义的研究努力：（1）它们已在球状可溶性蛋白、整合膜蛋白和 intrinsically disordered proteins 中观察到；在单个蛋白质内，其普遍性可高达40%。（2）变阻器位点的替换可能产生生物学后果，约10%的替换获得功能。（3）尽管变阻器位点和“中性”位点（定义为所有替换均表现野生型功能）都是非保守的，但这两类位点具有不同的进化特征。（4）一些变阻器位点对功能具有多效性影响，同时调节多个参数（例如，同时改变亲和力和变构偶联）。（5）在结构研究中，变阻器位点的替换似乎仅引起局部扰动；整体构象似乎不变。（6）测量的功能变化与预测的蛋白质动力学变化显示出有希望的关联；预测的动态耦合氨基酸网络的涌现特性可能解释在替换变阻器位点时观察到的一些复杂功能结果。总体而言，变阻器位点为利用单一替换调节蛋白质功能提供了独特机会。未来对这些位点的研究将产生对蛋白质序列/功能关系的重要见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38336297/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38336297/",
+  "paper_page_path": "papers/pubmed/38336297/index.html"
+}

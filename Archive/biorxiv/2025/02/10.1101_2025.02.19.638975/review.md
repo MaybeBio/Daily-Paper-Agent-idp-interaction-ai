@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content and technical soundness of the claims as presented; no assessment of formatting or editorial fit
+- **Shared manuscript claim summary** The authors propose that the number and state of PSD95 condensates in the postsynaptic density are controlled by the interplay between environmental protein concentration and inter-molecular binding strength, and that activity-dependent changes in these parameters can drive persistent transitions between cluster states, as supported by particle-based simulations, a field-theoretic model, and comparison to MINFLUX imaging data.
+- **Visible evidence base** Simulation results (particle-based and field-theoretic), phase diagrams (Figure 1B, 1C), time series and cluster state measure (Figure 2), experimental MINFLUX data analysis (Figure 3), and a parameter cascade simulation (Figure 4). Methods sections for particle-based model, fixed-concentration boundary condition, field-theoretic model, and cluster identification.
+- **Missing materials affecting confidence** Full figure panels and captions are not provided; supporting information referenced but not included; details of MINFLUX data acquisition and analysis are incomplete; parameter values for simulations and fitting procedures are not fully specified; statistical details for experimental comparisons are absent.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in synaptic biology, namely the molecular mechanisms underlying the formation and maintenance of multiple PSD95 condensates. The combination of particle-based simulations with a field-theoretic model is a strength, and the attempt to link simulation predictions to experimental MINFLUX data is commendable. However, the current evidence base is insufficient to fully establish the central claims. Key concerns include the lack of detailed parameter justification, the absence of a rigorous quantitative comparison between model and experiment, and the limited exploration of alternative mechanisms. The manuscript shows promise but requires substantial revision and additional analysis before the case is convincing.
+- **Who would be interested in the results, and why** Researchers in cellular neuroscience, particularly those studying synaptic plasticity, phase separation in biological systems, and computational modeling of molecular organization. The work may also appeal to biophysicists interested in non-equilibrium phase behavior and to experimentalists using super-resolution microscopy to study protein clustering.
+- **Major strengths** 1) The use of a fixed-concentration boundary condition is a novel and biologically motivated approach that goes beyond standard periodic boundary conditions. 2) The integration of two complementary modeling frameworks (particle-based and field-theoretic) provides cross-validation. 3) The attempt to directly compare simulation predictions with state-of-the-art MINFLUX data is ambitious and potentially impactful. 4) The proposed mechanism for persistent state transitions via a parameter cascade is conceptually interesting and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the model accurately predicts activity-dependent correlations between environmental concentration and binding strength across synapses.
+  - **Evidence pointer** Figure 3, section "Model-based prediction of activity-dependent correlations between external and internal factors controlling cluster number in synapses"
+  - **Concern** The comparison between simulation and experimental data relies on fitting a bivariate normal distribution to the observed cluster states, but the details of this fitting procedure are not provided. Specifically, it is unclear how the parameters of the BND (means, variances, correlation) are optimized, what the uncertainty in the fitted correlation coefficient is, and whether the model is overparameterized. Moreover, the experimental data are derived from a single imaging modality (MINFLUX) with potential detection biases, and the manuscript does not address how these biases might affect the estimated cluster states and the inferred correlation.
+  - **Why it matters** The central predictive claim of the manuscript depends on the reliability of this model-experiment comparison. Without a rigorous and transparent fitting procedure, the reported correlation coefficients (e.g., ρ = −0.29 for control, ρ = 0.40 for TTX, ρ = −0.80 for GZ) cannot be evaluated for statistical significance or biological meaning.
+  - **Resolution test** Provide a detailed description of the optimization procedure, including the objective function, constraints, and uncertainty quantification (e.g., confidence intervals for ρ). Perform sensitivity analyses to show that the inferred correlations are robust to reasonable variations in the fitting assumptions. Ideally, validate the approach on synthetic data with known ground truth.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the multicluster (MC) state is stable over long time intervals and that the parameter cascade leads to a persistent state transition.
+  - **Evidence pointer** Figure 2A, 2C, Figure 4, section "Controlled transitions between cluster states"
+  - **Concern** The stability of the MC state is asserted based on simulations over a time window of 0.5 ns, which is extremely short compared to biological timescales (seconds to minutes). The manuscript does not demonstrate that the MC state persists over physiologically relevant timescales, nor does it address the possibility that the observed multicluster configuration is a transient, metastable state that would eventually coarsen into a single cluster. Similarly, the cascade simulation in Figure 4 shows a transition to the MC state after the full parameter cycle, but the duration of the simulation and the persistence of the final state are not reported.
+  - **Why it matters** The biological relevance of the proposed mechanism hinges on the long-term stability of the MC state. If the MC state is only transient on nanosecond timescales, it cannot explain the experimentally observed persistence of multiple PSD95 clusters over minutes. The claim of "persists for long periods of time" is not supported by the evidence presented.
+  - **Resolution test** Extend simulations to much longer timescales (at least microseconds, ideally milliseconds) and show that the MC state remains stable. Alternatively, provide a theoretical argument or scaling analysis that demonstrates stability over biologically relevant times. For the cascade, report the simulation duration and show that the final MC state is maintained for a significant fraction of that duration.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the model provides a potential explanation for recent experimental data of PSD reorganization following LTP.
+  - **Evidence pointer** Figure 4, section "Controlled transitions between cluster states", Discussion
+  - **Concern** The cascade simulation is a minimal model that changes parameters in a prescribed sequence, but the biological justification for this specific sequence is not fully developed. The manuscript does not discuss whether the assumed timing and magnitude of changes in ϵ and C_env are consistent with known LTP-related signaling pathways. Furthermore, the connection to the specific experimental data of PSD reorganization is only qualitative; no direct quantitative comparison is made between the simulated cluster dynamics and the time course of experimentally observed PSD changes.
+  - **Why it matters** The claim of explaining experimental data is a key selling point of the manuscript. Without a more direct and quantitative link, the relevance of the cascade model to real LTP remains speculative.
+  - **Resolution test** Provide a more detailed biological rationale for the parameter cascade, citing specific experimental evidence for the timing and magnitude of changes in protein concentration and binding affinity during LTP. If possible, simulate the cascade with parameters constrained by experimental measurements and compare the predicted cluster dynamics to time-resolved experimental data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the field-theoretic model supports the particle-based simulation results.
+  - **Evidence pointer** Figure 1C, section "Field-theoretic model"
+  - **Concern** The field-theoretic model is described only briefly, and the correspondence between its parameters and those of the particle-based model is not established. The phase diagram in Figure 1C is said to show similar qualitative features, but no quantitative comparison is provided. It is unclear whether the two models make the same predictions for the boundaries between states or for the stability of the MC state.
+  - **Why it matters** The field-theoretic model is presented as a validation of the particle-based results, but without a clear mapping between the models, this validation is weak. The reader cannot assess whether the agreement is meaningful or coincidental.
+  - **Resolution test** Provide a detailed comparison of the two models, including a mapping of parameters and a quantitative comparison of phase boundaries and cluster statistics. If the models are not directly comparable, state this explicitly and explain what each model adds to the overall argument.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Section "Introduction"
+  - **Issue** The introduction assumes familiarity with terms like "condensates," "nano-clusters," and "LLPS" without defining them for a broader audience.
+  - **Required correction** Briefly define these terms and provide a simple explanation of liquid-liquid phase separation in the context of the PSD.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Cluster identification"
+  - **Evidence pointer** Section "Cluster identification"
+  - **Issue** The choice of DBSCAN parameters (ϵ and N_min) is described as being set "individually for each case," but the specific values and the criteria for their selection are not reported.
+  - **Required correction** Report the specific values used for each dataset and provide a justification for these choices, including any sensitivity analyses.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, paragraph on model limitations
+  - **Evidence pointer** Section "Discussion"
+  - **Issue** The discussion acknowledges the simplification of the model but does not address the potential role of other PSD proteins or post-translational modifications in regulating condensate formation.
+  - **Required correction** Add a brief discussion of how the model could be extended to include additional molecular players and whether the conclusions are likely to hold in more complex systems.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, section "Formation of multicluster postsynaptic density"
+  - **Evidence pointer** Section "Formation of multicluster postsynaptic density"
+  - **Issue** The description of the simulation setup and the different states (SC, LC, MC) is dense and may be difficult to follow for readers not familiar with computational modeling.
+  - **Required correction** Provide a schematic or a more intuitive explanation of the simulation setup and the meaning of the different states, perhaps with a simple analogy.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative model-experiment comparison), R1-M2 (timescale of MC stability), R1-M4 (field-theoretic model validation). These are the most critical issues that currently prevent the claims from being fully supported.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its combination of a fixed-concentration boundary condition with particle-based simulations and its attempt to predict activity-dependent correlations from experimental data. However, the underlying concept of phase separation in the PSD is not new, and the specific contribution of this manuscript is incremental.
+  - **Scientific importance** The question of how multiple condensates are formed and maintained in the PSD is important for understanding synaptic plasticity. If the claims are substantiated, the work could have significant impact. However, the current evidence is insufficient to fully establish the importance of the proposed mechanism.
+  - **Interdisciplinary readership** The work bridges computational biophysics and experimental neuroscience, which could appeal to a broad readership. However, the technical details may limit accessibility to nonspecialists.
+  - **Technical soundness** The particle-based simulations appear technically sound, but the comparison to experimental data and the validation by the field-theoretic model are not rigorous enough. The timescale issue is a major technical concern.
+  - **Readability for nonspecialists** The manuscript is generally well-written but assumes familiarity with specialized terminology and methods. The abstract is clear, but the results section could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and has a novel approach, but the current evidence does not fully support the central claims. The authors should address the major concerns, particularly the quantitative rigor of the model-experiment comparison and the timescale of MC stability, before the case is established.
+
+## Risk / unsupported claims
+- The claim that the model "accurately predicts" activity-dependent correlations is not supported due to the lack of a detailed and validated fitting procedure.
+- The claim that the MC state "persists for long periods of time" is not supported by the evidence, as simulations are only run for 0.5 ns.
+- The claim that the cascade simulation "provides a potential explanation of recent experimental data" is speculative, as no direct quantitative comparison is made.
+- The claim that the field-theoretic model supports the particle-based results is not fully established due to the lack of a quantitative comparison between the two models.

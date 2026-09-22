@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.02.668281",
+  "title": "HPInet: Interpretable prediction of Host-Pathogen protein-protein Interactions using a transformer-based neural network",
+  "authors": "Yueming Hu; Liya Liu; Yanyan Zhu; Enyan Liu; Haoyu Chao; Sida Li; Cong Feng; Yanshi Hu; Yuhao Chen; Shilong Zhang; Yifan Chen; Luyao Xie; Yejun Wang; Ming Chen",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-02",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用Transformer模型预测细菌效应蛋白与宿主蛋白的PPI，并利用注意力机制识别互作关键残基，但对象非无序蛋白/相分离，机制建模深度有限，方法可迁移启发。",
+  "abstract": "Gram-negative bacteria utilize a series of secretion systems (T1SS-T10SS) to deliver secreted effector proteins (T1SE-T10SE) into host cells, leading to infections and diseases. Understanding the interactions between these effector proteins and host proteins is crucial for unraveling the pathogenic mechanisms of bacterial pathogens. Despite advancements in sequencing technologies that have significantly enhanced our knowledge of effector protein diversity and structure, the molecular mechanisms underlying their interactions with human host proteins remain unclear. Experimental approaches to validate these interactions are labor-intensive, time-consuming, and insufficient to comprehensively map the extensive effector-host protein interaction (PPI) network. Additionally, specialized computational tools for predicting these interactions remain scarce. To address this gap, we developed HPInet, a transformer-based deep learning model for predicting interactions between bacterial effector proteins and human host proteins. HPInet introduces convolutional layers and global response normalization (GRN) into the feed-forward network (FFN) of the transformer architecture, enhancing the extraction of local sequence features. Compared to existing state-of-the-art methods, HPInet significantly improves prediction performance, increasing accuracy from 0.502 to 0.891 and boosting sensitivity by 35.3%. Furthermore, by leveraging the model’s attention mechanism, HPInet identifies critical residues at interaction sites, demonstrating its capability to capture local structural features of PPI sites solely from sequence information. To facilitate its application in research, HPInet has been implemented as a freely accessible web server available at https://bis.zju.edu.cn/hpinet . This platform provides a powerful and interpretable tool for studying effector-host protein interactions, offering valuable insights into bacterial pathogenesis and potential therapeutic targets.",
+  "abstract_zh": "革兰氏阴性菌利用一系列分泌系统（T1SS-T10SS）将分泌效应蛋白（T1SE-T10SE）递送至宿主细胞中，导致感染和疾病的发生。理解这些效应蛋白与宿主蛋白之间的相互作用对于揭示细菌病原体的致病机制至关重要。尽管测序技术的进步显著增强了我们对效应蛋白多样性和结构的认识，但其与人类宿主蛋白相互作用的分子机制仍不清楚。验证这些相互作用的实验方法劳动密集、耗时，且不足以全面绘制广泛的效应蛋白-宿主蛋白相互作用（PPI）网络。此外，专门用于预测这些相互作用的计算工具仍然稀缺。为弥补这一空白，我们开发了HPInet，一种基于Transformer的深度学习模型，用于预测细菌效应蛋白与人类宿主蛋白之间的相互作用。HPInet在Transformer架构的前馈网络（FFN）中引入了卷积层和全局响应归一化（GRN），增强了对局部序列特征的提取。与现有最先进方法相比，HPInet显著提升了预测性能，将准确率从0.502提高到0.891，并将灵敏度提升了35.3%。此外，通过利用模型的注意力机制，HPInet能够识别相互作用位点的关键残基，展示了其仅从序列信息中捕获PPI位点局部结构特征的能力。为便于研究应用，HPInet已实现为免费访问的网络服务器，网址为https://bis.zju.edu.cn/hpinet。该平台为研究效应蛋白-宿主蛋白相互作用提供了强大且可解释的工具，为细菌发病机制和潜在治疗靶点提供了宝贵见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.02.668281",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.02.668281",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.02.668281/index.html"
+}

@@ -1,0 +1,335 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.01.685997",
+  "title": "Probing the energy landscape of α-Synuclein amyloid fibril formation by systematic K-to-Q mutagenesis",
+  "doi": "10.1101/2025.11.01.685997",
+  "abstract": "The aggregation of natively disordered α-Synuclein (αSyn) into amyloid fibrils is a hallmark of Parkinson’s and other neurodegenerative diseases. Understanding αSyn’s pathological role remains a major challenge due to its complex, context-dependent energy landscape characterized by conformational plasticity and fibril polymorphism. Here, we present a systematic mutational analysis as a quantitative probe of the αSyn energy landscape, focusing on electrostatic contributions to key aggregation pathways. We engineered αSyn variants with one to eight lysine-to-glutamine substitutions and analyzed their aggregation under controlled conditions to delineate their effects on nucleation, elongation, seed amplification, fibril stability, and fibril polymorphism. We find that αSyn aggregation from a homogenous solution can be modelled well using global properties, including protein concentration, charge, and ionic strength. Microscopic pathways and the resulting fibril polymorphs are instead modulated by sequence-specific effects. We identify mutations of residues found in fibril cores as perturbations that significantly modify the αSyn free energy landscape, creating pathways and energy minima not accessible to the WT under the same experimental conditions. In contrast, mutations outside of the fibril core affect the magnitude of the relevant energy barriers whilst overall maintaining a WT-like free energy landscape. Our work outlines a scalable, quantitative framework that increases the informational output of the mutational studies of αSyn using conventional assays. The approach can be extended by incorporating additional mutational and functional data to deepen our understanding of αSyn’s energy landscape and its role in health and disease.",
+  "authors": [
+    "Kunka A",
+    "Farzadfard A",
+    "Larsen JA",
+    "Saraceno F",
+    "Norrild RK",
+    "Fricke C",
+    "Mohammad-Beigi H",
+    "Sadek A",
+    "Folke J",
+    "Aznar S",
+    "Buell AK"
+  ],
+  "published_date": "2025-11-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.01.685997",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.01.685997.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1112491",
+    "raw_record": {
+      "id": "PPR1112491",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1112491"
+        ]
+      },
+      "doi": "10.1101/2025.11.01.685997",
+      "title": "Probing the energy landscape of α-Synuclein amyloid fibril formation by systematic K-to-Q mutagenesis",
+      "authorString": "Kunka A, Farzadfard A, Larsen JA, Saraceno F, Norrild RK, Fricke C, Mohammad-Beigi H, Sadek A, Folke J, Aznar S, Buell AK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kunka A",
+            "lastName": "Kunka",
+            "firstName": "Antonin",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1170-165X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology and Biomedicine Søltofts Plads, Building 227 , . ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Farzadfard A",
+            "lastName": "Farzadfard",
+            "firstName": "Azad",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1433-2439"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology and Biomedicine Søltofts Plads, Building 227 , . ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Larsen JA",
+            "lastName": "Larsen",
+            "firstName": "Jacob Aunstrup",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6782-0594"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology and Biomedicine Søltofts Plads, Building 227 , . ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saraceno F",
+            "lastName": "Saraceno",
+            "firstName": "Federica",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-8842-6319"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology and Biomedicine Søltofts Plads, Building 227 , . ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Norrild RK",
+            "lastName": "Norrild",
+            "firstName": "Rasmus Krogh",
+            "initials": "RK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9120-2745"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology and Biomedicine Søltofts Plads, Building 227 , . ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fricke C",
+            "lastName": "Fricke",
+            "firstName": "Celia",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology and Biomedicine Søltofts Plads, Building 227 , . ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mohammad-Beigi H",
+            "lastName": "Mohammad-Beigi",
+            "firstName": "Hossein",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2303-795X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology and Biomedicine Søltofts Plads, Building 227 , . ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sadek A",
+            "lastName": "Sadek",
+            "firstName": "Ahmed",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology and Bioengineering"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Folke J",
+            "lastName": "Folke",
+            "firstName": "Jonas",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0940-3098"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Neuroscience and Stereology, Department of Neurology, , Bispebjerg and Frederiksberg Hospital, Nielsine Nielsens Vej 6B, Entrance 11B, 2. Floor , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aznar S",
+            "lastName": "Aznar",
+            "firstName": "Susana",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7940-6246"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Neuroscience and Stereology, Department of Neurology, , Bispebjerg and Frederiksberg Hospital, Nielsine Nielsens Vej 6B, Entrance 11B, 2. Floor , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Buell AK",
+            "lastName": "Buell",
+            "firstName": "Alexander",
+            "initials": "AK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology and Biomedicine Søltofts Plads, Building 227 , . ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7940-6246"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0940-3098"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1170-165X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6782-0594"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9120-2745"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1433-2439"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2303-795X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-8842-6319"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The aggregation of natively disordered α-Synuclein (αSyn) into amyloid fibrils is a hallmark of Parkinson’s and other neurodegenerative diseases. Understanding αSyn’s pathological role remains a major challenge due to its complex, context-dependent energy landscape characterized by conformational plasticity and fibril polymorphism. Here, we present a systematic mutational analysis as a quantitative probe of the αSyn energy landscape, focusing on electrostatic contributions to key aggregation pathways. We engineered αSyn variants with one to eight lysine-to-glutamine substitutions and analyzed their aggregation under controlled conditions to delineate their effects on nucleation, elongation, seed amplification, fibril stability, and fibril polymorphism. We find that αSyn aggregation from a homogenous solution can be modelled well using global properties, including protein concentration, charge, and ionic strength. Microscopic pathways and the resulting fibril polymorphs are instead modulated by sequence-specific effects. We identify mutations of residues found in fibril cores as perturbations that significantly modify the αSyn free energy landscape, creating pathways and energy minima not accessible to the WT under the same experimental conditions. In contrast, mutations outside of the fibril core affect the magnitude of the relevant energy barriers whilst overall maintaining a WT-like free energy landscape. Our work outlines a scalable, quantitative framework that increases the informational output of the mutational studies of αSyn using conventional assays. The approach can be extended by incorporating additional mutational and functional data to deepen our understanding of αSyn’s energy landscape and its role in health and disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101088163",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.01.685997"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1112491"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1112491&type=FILE&fileName=EMS210325-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 5,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS210325",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-11-04",
+      "firstPublicationDate": "2025-11-03",
+      "firstIndexDate": "2025-11-04",
+      "fullTextReceivedDate": "2025-11-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

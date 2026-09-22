@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and claims as supported by the provided text; no supplementary materials, figures, or tables were available for inspection
+- **Shared manuscript claim summary** The authors present BindPred, a structure-agnostic framework that predicts absolute protein-protein binding affinities (log10 Kd) directly from amino acid sequences using frozen protein language model embeddings (ESM2 or MINT) combined with gradient boosting trees. They report a Pearson correlation coefficient of 0.86 on the PPB-Affinity benchmark under random split five-fold cross-validation, with minimal gains from adding physics-based energy terms. They further claim robust generalization under protein-level splits and computational scalability enabling proteome-scale screening.
+- **Visible evidence base** Abstract, Introduction, Methods sections 2.1-2.3, Results sections 3.1-3.3 and 3.5-3.7, Discussion, and acknowledgements. No figures, tables, or supplementary materials were provided.
+- **Missing materials affecting confidence** All figures (including Figure 1 and Figure 2 referenced in the text), Table S1, Supplementary Methods, Supplementary Information, and the de novo design results in Section 3.7. The absence of these materials substantially limits the ability to verify quantitative claims, assess methodological details, and evaluate the strength of the evidence presented.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and practically important problem: predicting protein-protein binding affinities without requiring three-dimensional structures. The core idea of leveraging protein language model embeddings with a simple gradient boosting regressor is sensible and the reported performance is potentially competitive. However, the provided text lacks the quantitative detail necessary to fully evaluate the claims. Key results are described qualitatively, figures are referenced but not shown, and several methodological aspects require clarification. The claim of robust generalization under protein-level splits is particularly difficult to assess without the corresponding data. The work is potentially publishable, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-protein interaction prediction, protein design, and high-throughput screening. Researchers developing or applying protein language models for downstream biophysical property prediction would also find the results relevant. The potential for proteome-scale screening makes the work of interest to those studying interaction networks and to therapeutic discovery groups seeking rapid affinity estimates for designed binders.
+- **Major strengths** The problem addressed is important and the proposed approach is conceptually simple and computationally efficient. The use of frozen pLM embeddings with a gradient boosting tree avoids the complexity and cost of fine-tuning large models. The authors explicitly address the question of whether physics-based energy terms add value beyond sequence embeddings, which is a useful and non-obvious contribution. The inclusion of multiple split strategies, including a protein-level split, shows awareness of common evaluation pitfalls in this domain.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims a Pearson correlation coefficient of 0.86 on the PPB-Affinity benchmark under random split five-fold cross-validation, and states that BindPred "retains significant prediction dominance over the existing state-of-the-art."
+  - **Evidence pointer** Section 3.1, Figure 2 (not provided)
+  - **Concern** The central quantitative claim of the paper is presented without the supporting figure or table. The reader cannot verify the reported correlation coefficient, assess the variance across folds, or compare BindPred's performance against the stated baseline. The claim of "significant prediction dominance" over state-of-the-art is not substantiated with specific comparative numbers or statistical tests.
+  - **Why it matters** The primary contribution of the manuscript is a quantitative performance claim. Without the actual data, the core finding cannot be evaluated or reproduced. The comparison to the baseline is essential for establishing whether the proposed method offers a genuine improvement.
+  - **Resolution test** Provide Figure 2 and the corresponding numerical results, including per-fold performance, mean and standard deviation of the PCC, and a direct comparison with the PPB-Affinity baseline. Include the specific values that support the claim of "significant dominance."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript states that protein-level splitting was applied by grouping each wild-type complex with all its variants under the same PDB_ID, ensuring no wild-type-mutation pairs crossed the train-test boundary.
+  - **Evidence pointer** Section 2.3, location not provided
+  - **Concern** The description of the protein-level split is incomplete. It is unclear whether the grouping is based on the PDB ID of the complex or on individual protein chains. If a protein appears in multiple complexes with different partners, it is not specified whether all such complexes are grouped together. The text also does not clarify how the five-fold group-aware cross-validation was implemented, such as whether groups were randomly assigned to folds or stratified by some property.
+  - **Why it matters** The protein-level split is a key methodological element supporting the claim of generalization to unseen proteins. If the grouping is not sufficiently strict, the evaluation could still suffer from leakage, undermining the validity of the generalization claim.
+  - **Resolution test** Clarify the exact grouping criterion. Specify whether grouping is at the complex level or the individual protein level, and describe how proteins appearing in multiple complexes are handled. Provide details on the fold assignment procedure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that "for all datasets, BindPred retains significant prediction dominance over the existing state-of-the-art" and that cross-subset validation shows "moderate predictive power" with specific PCC values reported for MINT and ESM2 across different datasets.
+  - **Evidence pointer** Sections 3.2 and 3.3, location not provided
+  - **Concern** The results for individual dataset subsets and cross-subset validation are described qualitatively or with isolated PCC values, but the full results are not presented. The claim of dominance over state-of-the-art is made without specifying which state-of-the-art methods were compared and under what conditions. The cross-subset validation results are presented as a narrative without a comprehensive table or figure.
+  - **Why it matters** The subset-specific and cross-subset analyses are important for understanding the method's strengths and limitations across different types of protein complexes and data sources. Without the full results, the reader cannot assess the robustness of the findings or the validity of the comparative claims.
+  - **Resolution test** Provide complete numerical results for all subset-specific and cross-subset validation experiments, including a clear specification of the state-of-the-art methods used for comparison and the statistical significance of any performance differences.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript describes the addition of PyRosetta and BindCraft energy features to the embedding-based model and concludes that these features provide only marginal improvements.
+  - **Evidence pointer** Sections 2.2, 3.5, location not provided
+  - **Concern** The description of how structural features were computed and integrated is incomplete. The text mentions 19 PyRosetta energy features and 14 BindCraft energy features, but does not specify which specific terms were used, how they were normalized or scaled, or how they were concatenated with the embedding features. The number of complexes used for the BindCraft subset (3,468) is stated, but the criteria for inclusion in this subset are not fully described.
+  - **Why it matters** The conclusion that physics-based features add little value is a significant finding. To assess whether this conclusion is justified, the reader needs to understand exactly what features were used and how they were incorporated. If the feature engineering was suboptimal, the conclusion may not generalize.
+  - **Resolution test** Provide a complete list of the energy terms used, the preprocessing steps applied, and the exact procedure for combining structural features with embeddings. Clarify the inclusion criteria for the BindCraft subset.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that BindPred "can rank designed sequences by predicted affinity" and describes a comparison with Rosetta's ΔG REU on a de novo design set.
+  - **Evidence pointer** Section 3.7, location not provided
+  - **Concern** The results of the de novo design evaluation are not presented. The text states that a comparison was made but does not report the outcome. The reader cannot assess whether BindPred provides useful ranking for designed sequences, which is a key practical application.
+  - **Why it matters** The utility of BindPred for ranking de novo designs is a stated motivation for the work. Without the results, this claim remains unverified.
+  - **Resolution test** Provide the results of the de novo design ranking comparison, including the correlation between BindPred predictions and Rosetta ΔG REU, and any relevant metrics for ranking quality.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** location not provided
+  - **Issue** The text states that the PPB-Affinity dataset comprises 11,919 complexes, but Section 3.1 mentions 12,062 total with 11,919 valid complexes. The discrepancy between these numbers is not explained.
+  - **Required correction** Clarify the relationship between the total and valid complex counts, and specify what criteria define a "valid" complex.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.5
+  - **Evidence pointer** location not provided
+  - **Issue** The text states that BindCraft energy calculations fail for multichain complexes and that only two-chained complexes were used, but the number of complexes excluded for this reason is not reported.
+  - **Required correction** Report the number of complexes excluded due to multichain composition and any other exclusion criteria applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1
+  - **Evidence pointer** location not provided
+  - **Issue** The text mentions "flat-band effect" and "broader flat-band effect" without a precise definition. The term is used to describe predictions clustering near the mean, but the exact criterion for identifying this behavior is not specified.
+  - **Required correction** Provide a clear definition of the flat-band effect as used in this context, and specify how it was identified or quantified.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.3
+  - **Evidence pointer** location not provided
+  - **Issue** The text states that the code is available in train.py and that detailed hyperparameters are in Supplementary Methods, but the specific hyperparameter values are not mentioned in the main text.
+  - **Required correction** Provide the key hyperparameter values in the main text or ensure they are fully documented in the supplementary materials.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.3
+  - **Evidence pointer** location not provided
+  - **Issue** The cross-subset validation results are described for PDBbind v2020, SAbDab, Affinity Benchmark v5.5, ATLAS, and SKEMPI, but the number of complexes in each subset is not reported in the text.
+  - **Required correction** Report the dataset sizes for each subset to allow the reader to assess the statistical power of the cross-subset validation.
+
+## Risk / unsupported claims
+- The claim of a Pearson correlation coefficient of 0.86 under random split five-fold cross-validation is unverifiable without Figure 2 or the corresponding numerical data.
+- The claim of "significant prediction dominance over the existing state-of-the-art" is unsupported without a clear specification of the comparison methods and the statistical basis for the claim.
+- The claim of robust generalization under protein-level splits is unverifiable without the corresponding results.
+- The claim that BindPred can rank de novo designed sequences is unverifiable without the results of the de novo design evaluation.
+- The conclusion that physics-based energy features provide only marginal benefit is difficult to assess without a complete description of the features used and the experimental setup.
+- The statement that BindPred "enables rapid inference (approximately 3 million complexes per GPU (T4) hour)" is presented without benchmarking details or methodology for how this throughput was measured.

@@ -1,0 +1,297 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.01.26.525635",
+  "title": "Mechanistic basis of staphylococcal interspecies competition for skin colonization",
+  "doi": "10.1101/2023.01.26.525635",
+  "abstract": "Staphylococci, whether beneficial commensals or pathogens, often colonize human skin, potentially leading to competition for the same niche. In this multidisciplinary study we investigate the structure, binding specificity, and mechanism of adhesion of the Aap lectin domain required for Staphylococcus epidermidis skin colonization and compare its characteristics to the lectin domain from the orthologous Staphylococcus aureus adhesin SasG. The Aap structure reveals a legume lectin-like fold with atypical architecture, showing specificity for N-acetyllactosamine and sialyllactosamine. Bacterial adhesion assays using human corneocytes confirmed the biological relevance of these Aap-glycan interactions. Single-cell force spectroscopy experiments measured individual binding events between Aap and corneocytes, revealing an extraordinarily tight adhesion force of nearly 900 nN and a high density of receptors at the corneocyte surface. The SasG lectin domain shares similar structural features, glycan specificity, and corneocyte adhesion behavior. We observe cross-inhibition of Aap- and SasG-mediated staphylococcal adhesion to corneocytes. Together, these data provide insights into staphylococcal interspecies competition for skin colonization and suggest potential avenues for inhibition of S. aureus colonization.",
+  "authors": [
+    "Maciag JJ",
+    "Chantraine C",
+    "Mills KB",
+    "Yadav R",
+    "Yarawsky AE",
+    "Chaton CT",
+    "Vinod D",
+    "Fitzkee NC",
+    "Mathelié-Guinlet M",
+    "Dufrêne YF",
+    "Fey PD",
+    "Horswill AR",
+    "Herr AB"
+  ],
+  "published_date": "2023-01-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.01.26.525635",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.01.26.525635.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR609266",
+    "raw_record": {
+      "id": "PPR609266",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR609266"
+        ]
+      },
+      "doi": "10.1101/2023.01.26.525635",
+      "title": "Mechanistic basis of staphylococcal interspecies competition for skin colonization",
+      "authorString": "Maciag JJ, Chantraine C, Mills KB, Yadav R, Yarawsky AE, Chaton CT, Vinod D, Fitzkee NC, Mathelié-Guinlet M, Dufrêne YF, Fey PD, Horswill AR, Herr AB.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Maciag JJ",
+            "lastName": "Maciag",
+            "firstName": "Joseph",
+            "initials": "JJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Immunobiology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chantraine C",
+            "lastName": "Chantraine",
+            "firstName": "Constance",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Louvain Institute of Biomolecular Science and Technology, UCLouvain, Louvain-la-Neuve, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mills KB",
+            "lastName": "Mills",
+            "firstName": "Krista",
+            "initials": "KB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Immunology and Microbiology, University of Colorado School of Medicine, Aurora, CO"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yadav R",
+            "lastName": "Yadav",
+            "firstName": "Rahul",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Mississippi State University, Mississippi State, MS"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yarawsky AE",
+            "lastName": "Yarawsky",
+            "firstName": "Alexander",
+            "initials": "AE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Immunobiology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chaton CT",
+            "lastName": "Chaton",
+            "firstName": "Catherine",
+            "initials": "CT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Immunobiology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vinod D",
+            "lastName": "Vinod",
+            "firstName": "Divya",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Immunobiology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH"
+                },
+                {
+                  "affiliation": "Medical Sciences Undergraduate Program, University of Cincinnati, Cincinnati, OH"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fitzkee NC",
+            "lastName": "Fitzkee",
+            "firstName": "Nicholas",
+            "initials": "NC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Mississippi State University, Mississippi State, MS"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mathelié-Guinlet M",
+            "lastName": "Mathelié-Guinlet",
+            "firstName": "Marion",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut de Chimie et Biologie des Membranes et des Nano-Objets, CNRS UMR 5248, University of Bordeaux, Pessac, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dufrêne YF",
+            "lastName": "Dufrêne",
+            "firstName": "Yves",
+            "initials": "YF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Louvain Institute of Biomolecular Science and Technology, UCLouvain, Louvain-la-Neuve, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fey PD",
+            "lastName": "Fey",
+            "firstName": "Paul",
+            "initials": "PD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Microbiology, University of Nebraska Medical Center, Omaha, NE"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Horswill AR",
+            "lastName": "Horswill",
+            "firstName": "Alexander",
+            "initials": "AR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Immunology and Microbiology, University of Colorado School of Medicine, Aurora, CO"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Herr AB",
+            "lastName": "Herr",
+            "firstName": "Andrew",
+            "initials": "AB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Immunobiology, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH"
+                },
+                {
+                  "affiliation": "Division of Infectious Diseases, Cincinnati Children’s Hospital Medical Center, Cincinnati, OH"
+                },
+                {
+                  "affiliation": "Department of Pediatrics, University of Cincinnati College of Medicine, Cincinnati, OH"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Staphylococci, whether beneficial commensals or pathogens, often colonize human skin, potentially leading to competition for the same niche. In this multidisciplinary study we investigate the structure, binding specificity, and mechanism of adhesion of the Aap lectin domain required for  Staphylococcus epidermidis skin colonization and compare its characteristics to the lectin domain from the orthologous  Staphylococcus aureus adhesin SasG. The Aap structure reveals a legume lectin-like fold with atypical architecture, showing specificity for N-acetyllactosamine and sialyllactosamine. Bacterial adhesion assays using human corneocytes confirmed the biological relevance of these Aap-glycan interactions. Single-cell force spectroscopy experiments measured individual binding events between Aap and corneocytes, revealing an extraordinarily tight adhesion force of nearly 900 nN and a high density of receptors at the corneocyte surface. The SasG lectin domain shares similar structural features, glycan specificity, and corneocyte adhesion behavior. We observe cross-inhibition of Aap- and SasG-mediated staphylococcal adhesion to corneocytes. Together, these data provide insights into staphylococcal interspecies competition for skin colonization and suggest potential avenues for inhibition of  S. aureus colonization.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/01/27/2023.01.26.525635.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.01.26.525635"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR609266"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR609266&type=FILE&fileName=EMS163642-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS163642",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-01-29",
+      "firstPublicationDate": "2023-01-27",
+      "firstIndexDate": "2023-01-29",
+      "fullTextReceivedDate": "2023-02-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

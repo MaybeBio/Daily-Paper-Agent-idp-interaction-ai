@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion, Conclusion, Conflict of Interest, Acknowledgements, Footnotes)
+- **Assessment boundary** Scientific validity of the claims as presented in the provided text, with emphasis on the computational and experimental evidence described
+- **Shared manuscript claim summary** The authors propose that a combination of accelerated molecular dynamics (AMD) simulations and NMR-derived chemical shift data can identify a binding interface between the intrinsically disordered N-terminal domain (NTD) and the structured C-terminal domain (CTD) of Galectin-3. They further claim that this predicted interface, specifically a shallow pocket on the F-face of the CTD, is functionally relevant, as demonstrated by mutagenesis and agglutination assays, and that a computationally designed peptide (peptide-3) inhibits Galectin-3-mediated agglutination by binding to this pocket.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (partial), Results (all subsections), Discussion, Conclusion, Conflict of Interest, Acknowledgements, Footnotes. Figures and tables are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-6 and Supplementary Figures 1-2 are referenced but not available for inspection. Table 1 is referenced but not provided. Experimental details for the agglutination assay are incomplete (e.g., quantification method, statistical analysis, number of replicates). NMR assignment details and validation of SHIFTX2 predictions are not fully described. The Bayesian maximum entropy (BME) method section contains an incomplete equation. No information is provided on the convergence of AMD simulations or on the selection criteria for the "elbow" in the BME optimization.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely problem: targeting intrinsically disordered regions (IDRs) in proteins, which are notoriously difficult to study and drug. The authors present a workflow combining enhanced sampling molecular dynamics with NMR data to predict an IDR-structured domain interface, and they provide functional validation through mutagenesis and a designed peptide. The concept is innovative and the results are potentially of broad interest. However, the evidence as presented in the text is incomplete. The absence of figures and tables, the incomplete description of the BME method, and the lack of key experimental details prevent a full assessment of the technical soundness of the work. The claims are plausible but not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein-protein interactions, computational drug design, and galectin biology. The methodological approach (AMD + NMR filtering) could be of interest to computational biophysicists. The identification of a druggable pocket on the F-face of Galectin-3 and a peptide inhibitor could be of interest to those developing therapeutics for cancer, inflammation, and fibrosis.
+- **Major strengths** The study addresses a challenging and important problem. The combination of AMD with NMR data to filter an IDR conformational ensemble is a sophisticated and appropriate approach. The use of functional assays (agglutination) and mutagenesis to validate computational predictions is a strong feature. The identification of a specific, targetable pocket on the F-face of the CTD, distinct from the CRD, is a novel and potentially impactful finding. The discussion of the thermodynamic implications of "many-to-one" interactions is thoughtful and adds conceptual depth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the AMD-derived ensemble, after filtering by NMR chemical shift data, accurately predicts the NTD-CTD binding interface.
+  - **Evidence pointer** Results section "Derivation of the Galectin-3 NTD ensemble", Figure 1
+  - **Concern** The central claim of the paper rests on the agreement between the AMD-calculated and experimental chemical shift differences (CSDs). The text states there was "excellent agreement" but the figure showing this comparison (Fig. 1A) is not provided. Without seeing the correlation plots, the quality of the agreement cannot be assessed. Furthermore, the selection of clusters based on "low CSD RMSD and a high number of NTD-CTD contacts" is a potentially circular criterion. If the clusters are selected for both low CSD RMSD and high contact number, then the finding that the selected ensemble has high contact number is not an independent validation. The authors need to clarify how the selection was performed and whether the contact number criterion was applied before or after the CSD filtering. The lack of convergence analysis for the AMD simulations is also a concern, as the sampling may not be sufficient to capture the full conformational ensemble of the IDR.
+  - **Why it matters** The entire premise of the paper is that the computational method can predict a biologically relevant interface. If the agreement with NMR is not robust, or if the selection criteria are biased, the predicted interface may be an artifact of the method rather than a true representation of the NTD-CTD interaction.
+  - **Resolution test** Provide Figure 1A showing the correlation between calculated and experimental CSDs for the selected ensemble. Provide a clear description of the cluster selection criteria, including whether the contact number threshold was applied independently of the CSD RMSD. Provide evidence of convergence of the AMD simulations, such as time evolution of the number of contacts or CSD RMSD.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that mutation of residues L131 and L203 in the predicted pocket causes loss of Galectin-3 agglutination ability, signifying the functional relevance of the cavity.
+  - **Evidence pointer** Results section "Site-directed mutagenesis identifies residues important for Galectin-3 agglutination function", Figure 5
+  - **Concern** The text states that the L131A mutant had "enhanced" agglutination, the L203A mutant had "reduced" ability, and the L131A/L203A double mutant was "functionally inactive". This is a complex phenotype. The claim that the pocket is functionally relevant is supported by the double mutant, but the single mutant phenotypes are not straightforward. The authors do not provide a mechanistic explanation for why L131A enhances activity. Furthermore, the agglutination assay is described only briefly. No details are given on the concentration of Galectin-3 used, the number of replicates, the statistical test used, or how agglutination was quantified. The figure (Fig. 5) is not provided, so the magnitude of the effects cannot be assessed.
+  - **Why it matters** The mutagenesis data is a key piece of evidence linking the computational prediction to biological function. Without a clear and quantitative presentation of the data, and a discussion of the unexpected L131A phenotype, the functional relevance of the pocket is not convincingly established.
+  - **Resolution test** Provide Figure 5 with quantitative data (e.g., number of aggregates per field, with error bars and statistical significance). Provide a detailed description of the agglutination assay protocol. Discuss the potential reasons for the enhanced activity of the L131A mutant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that peptide-3, designed in silico, inhibits Galectin-3-mediated agglutination by binding to the predicted pocket on the F-face of the CTD.
+  - **Evidence pointer** Results sections "Computational design of inhibitory peptide sequences" and "NMR identifies contacts of peptide-3 with the F-face of the CTD", Figure 6
+  - **Concern** The NMR data presented in Figure 6 is described as showing that peptide-3 makes "extensive contacts" with amino acids in the CTD, including residues on the F-face. However, the figure is not provided, and the text does not give the concentration of peptide-3 used in the NMR titration, the Kd of the interaction, or the magnitude of the chemical shift perturbations. The text also notes that some residues could not be unambiguously assigned. The specificity of the peptide binding is not demonstrated; it is not shown that a control peptide does not bind to the CTD. The claim that the peptide inhibits agglutination by binding to this specific pocket is therefore not fully supported.
+  - **Why it matters** The peptide is presented as a potential lead compound and as a validation of the computational approach. If the binding is weak or non-specific, the therapeutic potential is limited, and the validation is weakened.
+  - **Resolution test** Provide Figure 6 with the full titration data. Report the binding affinity (Kd) of peptide-3 for the CTD. Show that a control peptide does not cause significant chemical shift perturbations. Discuss the specificity of the interaction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe the BME method for refining the ensemble, but the description is incomplete.
+  - **Evidence pointer** Materials and Methods section "Bayesian maximum entropy method"
+  - **Concern** The equation for the cost function is incomplete, with missing terms. The description of how the optimal theta value was determined is brief. The "stats" package in R is mentioned, but the specific functions used are not described. This level of detail is insufficient for another researcher to reproduce the BME analysis.
+  - **Why it matters** The BME method is a key part of the workflow, and its use is claimed to uncover a more diverse ensemble. Without a complete description, the results of this analysis cannot be evaluated or reproduced.
+  - **Resolution test** Provide the complete cost function equation. Describe the optimization procedure in detail, including the range of theta values tested and the criteria for identifying the "elbow". Provide the R code or a more detailed description of the implementation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "mutation of residues L131 and L203 in this pocket caused loss of Galectin-3 agglutination ability". This is an oversimplification, as the single mutants had partial or enhanced activity. The abstract should be more precise.
+  - **Required correction** Rephrase to state that mutation of both L131 and L203 together abolished agglutination, while single mutations had partial effects.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "NMR identifies contacts of peptide-3 with the F-face of the CTD"
+  - **Evidence pointer** Results section "NMR identifies contacts of peptide-3 with the F-face of the CTD"
+  - **Issue** The text mentions "one unit of RMSD" for residue T248 but does not define what this RMSD is calculated against.
+  - **Required correction** Define the RMSD threshold used to identify significant chemical shift perturbations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods section "Cells, culture and agglutination assay"
+  - **Issue** The description of the agglutination assay is incomplete. It is not clear how agglutination was quantified, what the positive and negative controls were (beyond GST), and how the data were analyzed statistically.
+  - **Required correction** Provide a more detailed description of the assay, including the quantification method, the number of replicates, and the statistical analysis used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the thermodynamic implications of "many-to-one" interactions is interesting but somewhat speculative. The authors should be careful to distinguish between their data and this interpretation.
+  - **Required correction** Add a sentence clarifying that this is a proposed model based on the data, not a direct measurement.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (circularity of selection criteria and lack of convergence analysis), R1-M2 (incomplete presentation of mutagenesis data), R1-M3 (incomplete NMR binding data), R1-M4 (incomplete BME description).
+- **Assessment against Nature-style criteria** Originality: High. The application of AMD to predict an IDR-structured domain interface and the subsequent design of a peptide inhibitor is a novel approach. Scientific importance: High. The work addresses a major challenge in drug discovery and provides a potential new strategy for targeting IDRs. Interdisciplinary readership: Moderate to high. The work will appeal to structural biologists, computational chemists, and cancer biologists. Technical soundness: Not fully assessable from the provided material. The computational methods are appropriate, but the lack of convergence analysis and the potential circularity in the selection criteria are concerns. The experimental validation is incomplete. Readability for nonspecialists: The manuscript is generally well-written and the concepts are explained clearly, but the Methods section is too brief for full reproducibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary data are suggestive, but the current evidence is insufficient to fully establish the claims. The authors must provide the missing figures, complete the methods descriptions, and address the potential circularity in their analysis.
+
+## Risk / unsupported claims
+- The claim of "excellent agreement" between calculated and experimental chemical shifts is unsupported without Figure 1A.
+- The claim that the identified pocket is "targetable" is not supported by any druggability analysis.
+- The claim that the designed peptide-3 binds specifically to the F-face pocket is not fully supported without control experiments and binding affinity data.
+- The claim that the BME approach "uncovers diverse CTD-bound NTD conformations" is not fully supported without a complete description of the method and the resulting ensemble.
+- The claim that the L131A/L203A double mutant is "functionally inactive" is supported by the text, but the quantitative data are not provided.
+- The statement that the procedure "can be potentially extended to many other targets" is a reasonable extrapolation but is not directly supported by the data presented.

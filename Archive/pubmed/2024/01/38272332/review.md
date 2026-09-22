@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report the design of TLR5 agonist peptides derived from the acidic tail of Salmo salar HMGB1, using global molecular docking against a TLR5 ectodomain model. Three intrinsically disordered peptides (6W, 11W, SsOri) were selected for functional testing in SHK-1 cells. The peptides 6W and 11W increased p65 nuclear translocation and phosphorylation, induced expression of genes related to TLR5 pathway activation, pro- and anti-inflammatory responses, and T cell differentiation markers (TH1, TH17, TH2). The 11W peptide protected cells against Piscirickettsia salmonis infection. The authors conclude that these peptides are potential immunostimulants for salmonids.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or statistical reporting provided
+- **Missing materials affecting confidence** Full methods for docking, peptide synthesis, circular dichroism, cell culture, NF-kappaB assays, RT-qPCR, and bacterial challenge; all numerical data, statistical analyses, and experimental replicates; any structural models or validation of the TLR5 ectodomain; details on peptide concentrations, controls, and specificity
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible pipeline from structure-based peptide design to functional characterization in a fish immune cell line. The findings are potentially interesting for aquaculture immunology, particularly in the context of salmonid health and P. salmonis infection. However, the abstract alone provides insufficient evidence to evaluate the rigor of the docking methodology, the specificity of the peptides for TLR5, the quantitative outcomes of the functional assays, or the robustness of the protection data. The case for the peptides as TLR5 agonists and immunostimulants is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in fish immunology, aquaculture vaccine and immunostimulant development, and comparative TLR biology. The potential application to controlling P. salmonis, a major pathogen in salmon farming, would attract applied interest. Structural biologists studying TLR-ligand interactions may also find the docking approach relevant.
+- **Major strengths** The study addresses a practical problem in salmonid aquaculture with a rational design approach. The use of intrinsically disordered peptides as TLR5 agonists is a novel angle. The inclusion of a bacterial challenge model adds translational relevance. The abstract reports a multi-level functional assessment (NF-kappaB, gene expression, infection protection).
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The peptides 6W and 11W are claimed to be TLR5 agonists based on docking and functional assays.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not provide any quantitative data from the NF-kappaB activation assays, RT-qPCR, or the bacterial challenge. No effect sizes, statistical significance, or replicate numbers are reported. Without these, the claim of TLR5 agonism and functional activity cannot be evaluated.  
+  - **Why it matters** The central conclusion rests on the functional assays. If the effects are marginal or not statistically robust, the claim of TLR5 agonism is unsupported.  
+  - **Resolution test** Provide the actual data for NF-kappaB activation (e.g., fold change, dose response), gene expression changes (with statistics), and survival or bacterial load reduction in the challenge, with appropriate controls and replicates.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The peptides were selected based on docking to a TLR5 ectodomain model, and the binding poses were filtered by scoring functions and predicted binding affinity.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No details are given on the TLR5 ectodomain model construction, the docking algorithms used, the scoring functions, or the criteria for selecting the three peptides. The abstract states "global molecular docking platforms" but does not specify which platforms or how the model was validated.  
+  - **Why it matters** The design rationale is a key novelty. Without methodological transparency, the reproducibility and validity of the selection process are unclear.  
+  - **Resolution test** Describe the model source, docking software, scoring criteria, and any validation of the TLR5 model (e.g., comparison to known structures or experimental data).  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Specificity and mechanism  
+  - **Claim pointer** The peptides activate TLR5 and induce the MyD88-dependent pathway, leading to NF-kappaB activation.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not demonstrate that the observed effects are TLR5-specific. No TLR5 knockout, knockdown, or inhibitor experiments are mentioned. The peptides could act through other receptors or non-specific mechanisms.  
+  - **Why it matters** The claim of TLR5 agonism requires evidence of receptor dependence. Without this, the mechanism is not established.  
+  - **Resolution test** Include experiments with TLR5-deficient cells or TLR5 blockade to show that the peptide effects are abolished.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and controls  
+  - **Claim pointer** The 11W peptide protects immune cells against P. salmonis infection.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify the infection model parameters (multiplicity of infection, time course, readout) or whether the protection is statistically significant and reproducible.  
+  - **Why it matters** Protection data are often variable in cell-based infection models. Without clear metrics, the translational claim is premature.  
+  - **Resolution test** Provide detailed infection assay conditions, quantitative readouts (e.g., bacterial counts, cell viability), and statistical analysis.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Peptide nomenclature  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The peptide names (6W, 11W, SsOri) are not explained. The reader cannot infer their sequences or origins.  
+  - **Required correction** Provide the peptide sequences and a brief rationale for the naming.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Circular dichroism data  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that CD spectra were recorded and only intrinsically disordered peptides were selected, but no CD data or criteria for "intrinsically disordered" are given.  
+  - **Required correction** Show representative CD spectra and the criteria used to classify disorder.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Gene expression results  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract claims induction of genes related to TH1, TH17, and TH2 phenotypes, but does not specify which genes or whether the pattern is consistent with a specific polarization.  
+  - **Required correction** List the genes assayed and the direction of change for each.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Language  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "nuclear translation of p65" is imprecise. The standard term is "nuclear translocation."  
+  - **Required correction** Use "nuclear translocation" for accuracy.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative data, methodological detail, and receptor specificity evidence are the primary technical barriers.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The use of HMGB1-derived peptides as TLR5 agonists is not entirely novel, but the application to salmonid TLR5 and the specific peptide design are a new contribution.  
+  - **Scientific importance** Moderate. The work has potential applied value for aquaculture, but the fundamental insight into TLR5 biology is incremental.  
+  - **Interdisciplinary readership** Limited. The topic is primarily of interest to fish immunologists and aquaculture researchers, with less appeal to a broad biomedical audience.  
+  - **Technical soundness** Not assessable from the abstract. The lack of data and methods prevents evaluation.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses field-specific terms without explanation.  
+  Overall, the work does not meet the threshold for a high-impact general journal, but it may be suitable for a specialized immunology or aquaculture journal if the technical concerns are resolved.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful study, but the absence of quantitative data, methodological transparency, and receptor specificity experiments means the central claims cannot be verified. I would be supportive if the full manuscript addresses these concerns with robust data.
+
+## Risk / unsupported claims
+- The claim that the peptides are TLR5 agonists is unsupported without receptor specificity experiments.
+- The claim of protection against P. salmonis is unsupported without quantitative infection data.
+- The docking-based selection of peptides is not assessable without methodological details.
+- The induction of specific T cell phenotypes (TH1, TH17, TH2) is not supported by the abstract alone, as no gene names or expression data are provided.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35298810",
+  "title": "Dynamics of Amyloid Formation from Simplified Representation to Atomistic Simulations.",
+  "authors": "Nguyen, Phuong Hoang; Tuffery, Pierre; Derreumaux, Philippe",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2022-03-18",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文综述了淀粉样蛋白（含Aβ、tau等无序蛋白）从简化模型到原子模拟的聚集动态研究，涉及PPI与MD方法，但以综述为主且未聚焦IDR介导的互作机制建模，故给6分。",
+  "abstract": "Amyloid fibril formation is an intrinsic property of short peptides, non-disease proteins, and proteins associated with neurodegenerative diseases. Aggregates of the Abeta and tau proteins, the alpha-synuclein protein, and the prion protein are observed in the brain of Alzheimer's, Parkinson's, and prion disease patients, respectively. Due to the transient short-range and long-range interactions of all species and their high aggregation propensities, the conformational ensemble of these devastating proteins, the exception being for the monomeric prion protein, remains elusive by standard structural biology methods in bulk solution and in lipid membranes. To overcome these limitations, an increasing number of simulations using different sampling methods and protein models have been performed. In this chapter, we first review our main contributions to the field of amyloid protein simulations aimed at understanding the early aggregation steps of short linear amyloid peptides, the conformational ensemble of the Abeta40/42 dimers in bulk solution, and the stability of Abeta aggregates in lipid membrane models. Then we focus on our studies on the interactions of amyloid peptides/inhibitors to prevent aggregation, and long amyloid sequences, including new results on a monomeric tau construct.",
+  "abstract_zh": "淀粉样纤维形成是短肽、非疾病蛋白及与神经退行性疾病相关蛋白的内在属性。在阿尔茨海默病、帕金森病和朊病毒病患者的脑中，分别观察到Abeta和tau蛋白、α-突触核蛋白及朊病毒蛋白的聚集体。由于所有物种的瞬态短程和长程相互作用及其高聚集倾向，这些破坏性蛋白的构象系综（单体朊病毒蛋白除外）在体溶液和脂质膜中通过标准结构生物学方法仍难以捉摸。为克服这些限制，越来越多的模拟采用不同采样方法和蛋白模型进行。在本章中，我们首先回顾我们在淀粉样蛋白模拟领域的主要贡献，旨在理解短线性淀粉样肽的早期聚集步骤、体溶液中Abeta40/42二聚体的构象系综，以及脂质膜模型中Abeta聚集体的稳定性。然后，我们聚焦于我们关于淀粉样肽/抑制剂相互作用以防止聚集的研究，以及长淀粉样序列，包括关于单体tau构建体的新结果。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35298810/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35298810/",
+  "paper_page_path": "papers/pubmed/35298810/index.html"
+}

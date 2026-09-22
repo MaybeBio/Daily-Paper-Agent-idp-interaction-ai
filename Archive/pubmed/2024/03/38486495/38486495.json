@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "38486495",
+    "doi": "10.1021/acschembio.3c00649",
+    "title": "Uncovering the Association Mechanism between Two Intrinsically Flexible Proteins."
+  },
+  "content": {
+    "abstract": "The understanding of protein-protein interaction mechanisms is key to the atomistic description of cell signaling pathways and for the development of new drugs. In this context, the mechanism of intrinsically disordered proteins folding upon binding has attracted attention. The VirB9 C-terminal domain (VirB9(Ct)) and the VirB7 N-terminal motif (VirB7(Nt)) associate with VirB10 to form the outer membrane core complex of the Type IV Secretion System injectisome. Despite forming a stable and rigid complex, VirB7(Nt) behaves as a random coil, while VirB9(Ct) is intrinsically dynamic in the free state. Here we combined NMR, stopped-flow fluorescence, and computer simulations using structure-based models to characterize the VirB9(Ct)-VirB7(Nt) coupled folding and binding mechanism. Qualitative data analysis suggested that VirB9(Ct) preferentially binds to VirB7(Nt) by way of a conformational selection mechanism at lower temperatures. However, at higher temperatures, energy barriers between different VirB9(Ct) conformations are more easily surpassed. Under these conditions the formation of non-native initial encounter complexes may provide alternative pathways toward the native complex conformation. These observations highlight the intimate relationship between folding and binding, calling attention to the fact that the two molecular partners must search for the most favored intramolecular and intermolecular interactions on a rugged and funnelled conformational energy landscape, along which multiple intermediates may lead to the final native state.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins",
+      "Computer Simulation",
+      "Fluorescence",
+      "Temperature",
+      "Protein Folding",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Davalos, Angy Liseth",
+        "Rivera Echeverri, Jose David",
+        "Favaro, Denize C",
+        "Junio de Oliveira, Ronaldo",
+        "Penteado Battesini Carretero, Gustavo",
+        "Lacerda, Caroline",
+        "Midea Cuccovia, Iolanda",
+        "Cangussu Cardoso, Marcus Vinicius",
+        "Farah, Chuck S",
+        "Kopke Salinas, Roberto"
+      ],
+      "short_names": [
+        "Davalos AL",
+        "Rivera Echeverri JD",
+        "Favaro DC",
+        "Junio de Oliveira R",
+        "Penteado Battesini Carretero G",
+        "Lacerda C",
+        "Midea Cuccovia I",
+        "Cangussu Cardoso MV",
+        "Farah CS",
+        "Kopke Salinas R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4172-7869",
+        "ORCID: 0000-0001-5563-2548",
+        "ORCID: 0000-0003-4860-309X",
+        "ORCID: 0000-0001-5124-0432",
+        "ORCID: 0000-0003-1032-7683"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Institute of Chemistry, University of Sao Paulo, Sao Paulo, 05508-000, Brazil.",
+        "Department of Biochemistry, Institute of Chemistry, University of Sao Paulo, Sao Paulo, 05508-000, Brazil.",
+        "Department of Organic Chemistry, State University of Campinas, Campinas, 13083-862, Brazil.",
+        "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York 10031, United States.",
+        "Department of Physics, Institute of Exact, Natural and Educational Sciences, Federal University of Triangulo Mineiro, Uberaba, 38064-200, Brazil.",
+        "Department of Biochemistry, Institute of Chemistry, University of Sao Paulo, Sao Paulo, 05508-000, Brazil.",
+        "Department of Biochemistry, Institute of Chemistry, University of Sao Paulo, Sao Paulo, 05508-000, Brazil.",
+        "Department of Biochemistry, Institute of Chemistry, University of Sao Paulo, Sao Paulo, 05508-000, Brazil.",
+        "Department of Biochemistry, Institute of Chemistry, University of Sao Paulo, Sao Paulo, 05508-000, Brazil.",
+        "Department of Biochemistry, Institute of Chemistry, University of Sao Paulo, Sao Paulo, 05508-000, Brazil.",
+        "Department of Biochemistry, Institute of Chemistry, University of Sao Paulo, Sao Paulo, 05508-000, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dávalos, Angy Liseth",
+        "short_name": "Dávalos AL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Chemistry, University of São Paulo, São Paulo, 05508-000, Brazil."
+        ]
+      },
+      {
+        "full_name": "Rivera Echeverri, José David",
+        "short_name": "Rivera Echeverri JD",
+        "identifiers": [
+          "0000-0002-4172-7869"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Chemistry, University of São Paulo, São Paulo, 05508-000, Brazil."
+        ]
+      },
+      {
+        "full_name": "Favaro, Denize C",
+        "short_name": "Favaro DC",
+        "identifiers": [
+          "0000-0001-5563-2548"
+        ],
+        "affiliations": [
+          "Department of Organic Chemistry, State University of Campinas, Campinas, 13083-862, Brazil.",
+          "Structural Biology Initiative, CUNY Advanced Science Research Center, New York, New York 10031, United States."
+        ]
+      },
+      {
+        "full_name": "Junio de Oliveira, Ronaldo",
+        "short_name": "Junio de Oliveira R",
+        "identifiers": [
+          "0000-0003-4860-309X"
+        ],
+        "affiliations": [
+          "Department of Physics, Institute of Exact, Natural and Educational Sciences, Federal University of Triângulo Mineiro, Uberaba, 38064-200, Brazil."
+        ]
+      },
+      {
+        "full_name": "Penteado Battesini Carretero, Gustavo",
+        "short_name": "Penteado Battesini Carretero G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Chemistry, University of São Paulo, São Paulo, 05508-000, Brazil."
+        ]
+      },
+      {
+        "full_name": "Lacerda, Caroline",
+        "short_name": "Lacerda C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Chemistry, University of São Paulo, São Paulo, 05508-000, Brazil."
+        ]
+      },
+      {
+        "full_name": "Midea Cuccovia, Iolanda",
+        "short_name": "Midea Cuccovia I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Chemistry, University of São Paulo, São Paulo, 05508-000, Brazil."
+        ]
+      },
+      {
+        "full_name": "Cangussu Cardoso, Marcus Vinicius",
+        "short_name": "Cangussu Cardoso MV",
+        "identifiers": [
+          "0000-0001-5124-0432"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Chemistry, University of São Paulo, São Paulo, 05508-000, Brazil."
+        ]
+      },
+      {
+        "full_name": "Farah, Chuck S",
+        "short_name": "Farah CS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Chemistry, University of São Paulo, São Paulo, 05508-000, Brazil."
+        ]
+      },
+      {
+        "full_name": "Kopke Salinas, Roberto",
+        "short_name": "Kopke Salinas R",
+        "identifiers": [
+          "0000-0003-1032-7683"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Institute of Chemistry, University of São Paulo, São Paulo, 05508-000, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS chemical biology"
+    ],
+    "journal_abbrev": [
+      "ACS Chem Biol"
+    ],
+    "pub_date": "2024 Mar 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/15 06:43",
+    "fetched_at": "2026-09-21 05:49:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38486495",
+      "27594685",
+      "21589901",
+      "12700266",
+      "38294935",
+      "17244707",
+      "9023204",
+      "8655495",
+      "32323533",
+      "27423742",
+      "10633111",
+      "9171381",
+      "22038917",
+      "26195786",
+      "20426418",
+      "23912807",
+      "8755505",
+      "15866936",
+      "22253588",
+      "8981983",
+      "12177443",
+      "30514761",
+      "17522630",
+      "29990433",
+      "30528464",
+      "33877595",
+      "25387963",
+      "21627111",
+      "15609350",
+      "29632904",
+      "21766125",
+      "24043820",
+      "37546728",
+      "30865832",
+      "25207671",
+      "33454008",
+      "30471695",
+      "8655494",
+      "26742101",
+      "24317797",
+      "37341654",
+      "33567297",
+      "25511246",
+      "8799123",
+      "21490720",
+      "18004752",
+      "19946264",
+      "32696381",
+      "31397874",
+      "32325001",
+      "31624293",
+      "34473923",
+      "24811666",
+      "25533957",
+      "23754431",
+      "34845619",
+      "26910732",
+      "26912067",
+      "35658083",
+      "28780862",
+      "23625845",
+      "28335329",
+      "26720267",
+      "28914483",
+      "32053358",
+      "21268115",
+      "30520528",
+      "32253236",
+      "22027007",
+      "27844185",
+      "21421757",
+      "19054325",
+      "28369057",
+      "24150971",
+      "33382616",
+      "18248008",
+      "19265676",
+      "7665464",
+      "35029261",
+      "24278008",
+      "32925900",
+      "31441158",
+      "29197511",
+      "32184088",
+      "29694866",
+      "33030907",
+      "38801244",
+      "29716994",
+      "15569944",
+      "33361159",
+      "24446368",
+      "28493424",
+      "33930467",
+      "34014914",
+      "33667107",
+      "7535565",
+      "24671380",
+      "33207556"
+    ],
+    "review": [
+      "38486495",
+      "33567297",
+      "31397874",
+      "26720267",
+      "32253236",
+      "19265676",
+      "31441158",
+      "33361159"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acbcct/article-lookup/doi/10.1021/acschembio.3c00649",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

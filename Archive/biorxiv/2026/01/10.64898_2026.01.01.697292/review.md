@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusions, declarations)
+- **Assessment boundary** Scientific validity, methodological soundness, evidence quality, and clarity of claims as presented in the provided text. No supplementary materials, figures, or data files were available for inspection.
+- **Shared manuscript claim summary** The authors present a variational method for estimating diffusion coefficients and free-energy profiles along collective variables from projected molecular dynamics trajectories. The method uses a Kullback-Leibler divergence-based loss function comparing analytical short-time Gaussian propagators of an overdamped Langevin model with empirical propagators estimated from trajectory data, minimized via an adaptive Monte Carlo scheme. The method is demonstrated on two model systems and on water diffusion across a biomolecular condensate interface.
+- **Visible evidence base** Text descriptions of three test systems, reported numerical values for water diffusion coefficients, comparisons with literature values, and qualitative descriptions of figures (Figs. 1-6). No actual figures, tables, or numerical data tables were provided in the submitted material.
+- **Missing materials affecting confidence** All figures and their underlying data; numerical results tables; simulation parameter details beyond those stated; convergence criteria for the Monte Carlo optimization; details of the empirical propagator estimation (bin counts, sample sizes); the specific form of the regularization terms mentioned in Methods; details of the "coarse-grained Martini3-IDP force field" parameters; the exact definition of the first-passage time analysis; and any code or pseudocode for the algorithm.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially useful variational approach for estimating position-dependent diffusion coefficients from projected MD trajectories. The core idea of using KL divergence between analytical and empirical short-time propagators, combined with an adaptive Monte Carlo minimization, is sensible and could offer practical advantages over existing likelihood-based methods. However, the manuscript as provided has significant gaps in methodological detail and evidence presentation. The absence of actual figures and numerical data makes it impossible to assess the quality of the results or the validity of the claims of accuracy and robustness. The theoretical foundations are only partially described, and several technical aspects require clarification. The work is potentially publishable in a specialized journal, but the current form does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers in computational chemistry, biophysics, and molecular simulation who need to extract kinetic parameters (diffusion coefficients, free-energy barriers) from MD trajectories. Specifically, those studying transport phenomena in soft matter, biomolecular condensates, membranes, and protein conformational dynamics would find the method relevant. The potential for handling nonequilibrium trajectories is also of interest to the enhanced sampling community.
+- **Major strengths**
+  - The variational formulation with an analytically tractable KL divergence for Gaussian propagators is elegant and computationally appealing.
+  - The adaptive Monte Carlo minimization strategy is a practical contribution that could improve convergence over naive random sampling.
+  - The application to a realistic biomolecular system (FUS-LCD condensate) demonstrates intent to address biologically relevant problems.
+  - The comparison with literature values for water diffusion in the condensate system provides a useful benchmark.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The manuscript claims the method "accurately recovers the true diffusion profile" and demonstrates "robustness and accuracy" across three systems.
+  - **Evidence pointer** Figures 2, 3, 5, 6; location not provided
+  - **Concern** The central claims of accuracy and robustness are supported only by qualitative text descriptions of figures that are not included in the provided material. No numerical error metrics, convergence plots, or quantitative comparisons with ground truth are presented in the text. For the model systems, the "true" profiles are known by construction, yet no quantitative assessment (e.g., mean squared error, relative error) is reported. For the condensate system, only two scalar values (D in dilute and dense phases) are compared with literature, with no assessment of the spatial dependence of D across the interface, which is claimed as a key advantage of the method.
+  - **Why it matters** Without quantitative evidence, the claims of accuracy, robustness, and efficiency cannot be evaluated. The reader cannot determine whether the method performs better, worse, or comparably to existing approaches. The absence of figures is a critical deficiency for a methods paper.
+  - **Resolution test** Provide all figures with error bars, quantitative error metrics comparing estimated and true profiles for the model systems, convergence statistics for the Monte Carlo optimization, and a quantitative comparison of the full D(q) profile with any available reference data for the condensate system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The method is described as a "variational method" with a loss function based on KL divergence, minimized via an adaptive Monte Carlo scheme.
+  - **Evidence pointer** Methods section a); location not provided
+  - **Concern** Several critical methodological details are missing. (1) The exact form of the regularization terms mentioned in the Methods is not given. (2) The procedure for estimating empirical propagators is underspecified: how many samples per bin are required for reliable mean and variance estimates? How are bins with insufficient samples handled? (3) The adaptive Monte Carlo scheme is described only qualitatively. The proposal distribution in Eq. 7 is defined, but the acceptance criterion, step-size adaptation, and convergence criteria are not specified. (4) The choice of lag time τ is stated to be crucial, but no guidance or sensitivity analysis is provided. (5) The extension to multiple dimensions is mentioned but not developed, leaving the reader uncertain about the method's scalability.
+  - **Why it matters** A methods paper must provide sufficient detail for reproduction. The current description is too vague for an expert to implement the method reliably. The lack of detail on the optimization scheme and empirical propagator estimation undermines the paper's utility as a methodological contribution.
+  - **Resolution test** Provide a complete algorithmic description, including pseudocode, the full loss function with regularization terms, the Monte Carlo acceptance criterion, step-size adaptation rules, convergence criteria, and a discussion of the sensitivity of results to the choice of τ and bin size.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Theoretical rigor
+  - **Claim pointer** The method assumes the short-time propagator can be approximated by a Gaussian form (Eq. 3), and that the overdamped Langevin model is valid for the systems studied.
+  - **Evidence pointer** Methods section a); location not provided
+  - **Concern** The validity of the Gaussian propagator approximation is asserted but not critically examined. The conditions under which this approximation breaks down are not discussed. For the condensate system, the validity of the overdamped Langevin description for water diffusion in a heterogeneous, crowded environment is not justified. The manuscript does not address whether memory effects or non-Markovian dynamics could compromise the results at the chosen lag time. The authors state that τ must be large enough for Markovian behavior but small enough for the Gaussian approximation, yet no analysis of this trade-off is presented.
+  - **Why it matters** The entire method rests on the validity of the Gaussian propagator and the overdamped Langevin model. If these assumptions are violated, the estimated D(q) and F(q) could be systematically biased. A rigorous methods paper should address the limits of applicability.
+  - **Resolution test** Provide a theoretical analysis or numerical demonstration of the regime of validity of the Gaussian propagator approximation. Include a sensitivity analysis of the results to the choice of τ and discuss the potential impact of non-Markovian effects on the estimated parameters.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison with existing methods
+  - **Claim pointer** The manuscript positions the method as "efficient" and "computationally inexpensive" compared to existing approaches.
+  - **Evidence pointer** Introduction, Methods section a); location not provided
+  - **Concern** The manuscript does not provide a quantitative or even qualitative comparison with existing methods for estimating position-dependent diffusion coefficients, such as the Hummer likelihood-based approach, Bayesian inference methods, or Kramers-Moyal coefficient estimation. The claim of efficiency is not substantiated with any timing or convergence data. The statement that the loss function evaluation scales as N rather than trajectory length is useful, but the total computational cost of the Monte Carlo optimization (number of iterations, convergence time) is not reported.
+  - **Why it matters** For a methods paper, demonstrating advantages over existing approaches is essential. Without a comparison, the reader cannot judge whether the new method offers a meaningful improvement.
+  - **Resolution test** Provide a benchmark comparison with at least one established method on the same model systems, including accuracy, computational cost, and convergence behavior.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Eq. 4 and surrounding text
+  - **Evidence pointer** Methods section a); location not provided
+  - **Issue** The loss function ℒ is described as the sum of KL divergences, but the exact summation index and the treatment of bins with zero or very few samples are not specified. The notation for the empirical propagator is incomplete.
+  - **Required correction** Define the loss function explicitly with all indices and specify the handling of sparse bins.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Methods sections b) and c); location not provided
+  - **Issue** The simulation parameters for the model systems are incomplete. For the periodic diffusion model, the total simulation time is given (100 ns) and the timestep (0.01 ps), but the number of independent trajectories, the initialization, and the equilibration protocol are not stated. For the FUS-LCD system, the equilibration protocol, the number of water molecules tracked, and the analysis window are not specified.
+  - **Required correction** Provide complete simulation protocols, including system preparation, equilibration, production run details, and analysis parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Error estimation
+  - **Evidence pointer** Results section; location not provided
+  - **Issue** The error bars are described as ±σ (sample variance), but the number of independent samples used to compute σ is not stated. For the condensate system, only three blocks were used, which is a small sample size for reliable error estimation.
+  - **Required correction** Report the number of independent samples used for error estimation and consider more robust error estimation methods (e.g., bootstrapping).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure descriptions
+  - **Evidence pointer** Results section; location not provided
+  - **Issue** The text refers to figures that are not included in the provided material. The descriptions are qualitative and do not allow the reader to assess the quality of the fits or the magnitude of the errors.
+  - **Required correction** Ensure all figures are included in the final submission and that the text provides sufficient quantitative detail for each figure.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Conclusions; location not provided
+  - **Issue** The manuscript does not discuss the limitations of the method, such as the sensitivity to the choice of lag time, the impact of non-Gaussian propagators, or the challenges of extending to higher dimensions.
+  - **Required correction** Add a discussion of limitations and potential failure modes.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative evidence), R1-M2 (incomplete methodological details), R1-M3 (unexamined assumptions), R1-M4 (no comparison with existing methods).
+- **Assessment against Nature-style criteria**
+  - **Originality** The variational formulation with KL divergence and adaptive Monte Carlo minimization is a novel combination of ideas, though the individual components (Gaussian propagators, KL divergence, Monte Carlo optimization) are established. The originality is moderate and incremental rather than transformative.
+  - **Scientific importance** The problem of estimating position-dependent diffusion coefficients is important for interpreting MD simulations. However, the manuscript does not demonstrate that the method solves a problem that cannot be addressed by existing approaches, nor does it show a significant improvement in accuracy or efficiency.
+  - **Interdisciplinary readership** The method is relevant to biophysics, physical chemistry, and computational materials science. However, the presentation is technical and assumes familiarity with stochastic processes and MD simulation, which may limit accessibility to a broader readership.
+  - **Technical soundness** The theoretical framework is plausible, but the lack of methodological detail and quantitative results prevents a full assessment of technical soundness. The missing figures and data are a critical deficiency.
+  - **Readability for nonspecialists** The manuscript is clearly written for a specialist audience. The abstract is accessible, but the methods and results sections require significant domain expertise. The structure is logical, but the lack of figures and quantitative summaries reduces readability.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a promising idea, but the absence of figures, quantitative results, and complete methodological details prevents a positive recommendation. The authors should be invited to resubmit a revised version that addresses the major concerns, particularly the need for quantitative evidence and full methodological transparency.
+
+## Risk / unsupported claims
+- The claim that the method "accurately recovers the true diffusion profile" for the model systems is unsupported without quantitative error metrics or figures.
+- The claim of "robustness and accuracy" across three systems is unsupported without a systematic assessment of variability, convergence, and sensitivity to parameters.
+- The claim that the method is "computationally inexpensive" is unsupported without timing or convergence data.
+- The claim that the method "remains valid throughout the entire interfacial region" for the condensate system is unsupported without a quantitative comparison of the full D(q) profile with any reference.
+- The statement that the method "can be extended to multiple dimensions" is speculative and not demonstrated.
+- The comparison with literature values for water diffusion in the condensate is presented as "excellent agreement," but the uncertainty in the literature values and the statistical significance of the agreement are not discussed.

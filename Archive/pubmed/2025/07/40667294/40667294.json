@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "40667294",
+    "doi": "10.1101/2025.06.13.659429",
+    "title": "Sequence-based prediction of condensate composition reveals that specificity can emerge from multivalent interactions among disordered regions."
+  },
+  "content": {
+    "abstract": "While specificity of biomolecular interactions is typically understood to require interactions involving ordered structures, several biomolecular condensates exhibit specificity in the absence of apparent structural order. We have previously shown that condensates composed of the disordered region of MED1 partition specific proteins, mediated by sequence patterns of charged amino acids on the disordered regions of both MED1 and the interacting partner. Whether this specificity is due to an unknown ordered-structure-mediated interaction or from the dynamic multivalent interactions between the patterned charged amino acids in the disordered regions was unresolved. Here we show that a polymer physics-based model that only accounts for multivalent interactions among polymers in a statistical manner can largely explain published data on selective partitioning and make predictions that are subsequently experimentally validated. These results suggest that the specificity of condensate composition is underpinned to a substantial extent by multivalent interactions in the context of conformational disorder.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wessen, Jonas",
+        "De La Cruz, Nancy",
+        "Lyons, Heankel",
+        "Chan, Hue Sun",
+        "Sabari, Benjamin R"
+      ],
+      "short_names": [
+        "Wessen J",
+        "De La Cruz N",
+        "Lyons H",
+        "Chan HS",
+        "Sabari BR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5904-8442",
+        "ORCID: 0000-0003-3399-2555",
+        "ORCID: 0000-0002-1381-923X",
+        "ORCID: 0000-0002-6411-3907"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Temerty Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada.",
+        "These authors contributed equally to this work.",
+        "Laboratory of Nuclear Organization, Cecil H. and Ida Green Center for Reproductive Biology Sciences, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "These authors contributed equally to this work.",
+        "Laboratory of Nuclear Organization, Cecil H. and Ida Green Center for Reproductive Biology Sciences, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Biochemistry, Temerty Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada.",
+        "Laboratory of Nuclear Organization, Cecil H. and Ida Green Center for Reproductive Biology Sciences, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+        "Department of Molecular Biology, Hamon Center for Regenerative Science and Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wessén, Jonas",
+        "short_name": "Wessén J",
+        "identifiers": [
+          "0000-0002-5904-8442"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Temerty Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada.",
+          "These authors contributed equally to this work."
+        ]
+      },
+      {
+        "full_name": "De La Cruz, Nancy",
+        "short_name": "De La Cruz N",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Nuclear Organization, Cecil H. and Ida Green Center for Reproductive Biology Sciences, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+          "These authors contributed equally to this work."
+        ]
+      },
+      {
+        "full_name": "Lyons, Heankel",
+        "short_name": "Lyons H",
+        "identifiers": [
+          "0000-0003-3399-2555"
+        ],
+        "affiliations": [
+          "Laboratory of Nuclear Organization, Cecil H. and Ida Green Center for Reproductive Biology Sciences, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Chan, Hue Sun",
+        "short_name": "Chan HS",
+        "identifiers": [
+          "0000-0002-1381-923X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Temerty Faculty of Medicine, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Sabari, Benjamin R",
+        "short_name": "Sabari BR",
+        "identifiers": [
+          "0000-0002-6411-3907"
+        ],
+        "affiliations": [
+          "Laboratory of Nuclear Organization, Cecil H. and Ida Green Center for Reproductive Biology Sciences, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+          "Department of Molecular Biology, Hamon Center for Regenerative Science and Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/16 06:25",
+    "fetched_at": "2026-09-21 21:02:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42266718",
+      "42150060",
+      "40747072",
+      "40690668",
+      "40403066",
+      "40286793",
+      "40028898",
+      "40009520",
+      "39922194",
+      "39531035",
+      "39271915",
+      "39232584",
+      "39105804",
+      "38489358",
+      "38383656",
+      "38316988",
+      "38301272",
+      "37684240",
+      "36819870",
+      "36603581",
+      "36343363",
+      "36227468",
+      "35795820",
+      "35767567",
+      "35072950",
+      "35001622",
+      "34916288",
+      "34716273",
+      "34480923",
+      "34005864",
+      "33616531",
+      "33597515",
+      "33139563",
+      "32822449",
+      "32719507",
+      "32554597",
+      "32386547",
+      "32134099",
+      "32007034",
+      "31874413",
+      "31563432",
+      "31391587",
+      "31264965",
+      "30873835",
+      "30449618",
+      "29930090",
+      "29466338",
+      "29364893",
+      "29097695",
+      "28689408",
+      "28493424",
+      "28225081",
+      "28167781",
+      "27824447",
+      "26328871",
+      "25747659",
+      "25544254",
+      "24267890",
+      "24086122",
+      "23901099",
+      "20399186",
+      "19585546",
+      "19086274",
+      "18054235",
+      "17522259",
+      "15006351",
+      "12688884"
+    ],
+    "similar": [
+      "40667294",
+      "41083871",
+      "39232584",
+      "42230638",
+      "39826710",
+      "42425985",
+      "42475469",
+      "36603581",
+      "38824391",
+      "31797598",
+      "34090478",
+      "18831774",
+      "23912807",
+      "41667469",
+      "42244763",
+      "40690668",
+      "40009520",
+      "38076908",
+      "35053240",
+      "40727229",
+      "33248138",
+      "39554085",
+      "42437078",
+      "42055532",
+      "40521608",
+      "34545666",
+      "38252962",
+      "40747072",
+      "38987300",
+      "39071308",
+      "29509422",
+      "40403066",
+      "25286318",
+      "32112804",
+      "35126984",
+      "39356108",
+      "33076213",
+      "40093099",
+      "40588121",
+      "14579347",
+      "33558506",
+      "19412530",
+      "37980572",
+      "39005320",
+      "36416859",
+      "40962203",
+      "41118627",
+      "11838236",
+      "41337585",
+      "32822449",
+      "40672301",
+      "40229261",
+      "30099028",
+      "37215004",
+      "16796745",
+      "34890409",
+      "39510346",
+      "41027866",
+      "34291921",
+      "17206849",
+      "14691223",
+      "41342450",
+      "21647374",
+      "36657879",
+      "34311273",
+      "34285781",
+      "42336922",
+      "18441033",
+      "36674958",
+      "35179885",
+      "38383656",
+      "36754681",
+      "31442477",
+      "41481439",
+      "41648378",
+      "37468629",
+      "35762716",
+      "41909144",
+      "35139468",
+      "38232052",
+      "36227468",
+      "36412795",
+      "40455990",
+      "38316988",
+      "27662088",
+      "39937084",
+      "39663388",
+      "38079339",
+      "21879107",
+      "33395293",
+      "25534081",
+      "39516712",
+      "38166858",
+      "30913885",
+      "37161095",
+      "39824169",
+      "24614036",
+      "22208280",
+      "36945618",
+      "23056474"
+    ],
+    "review": [
+      "40667294",
+      "33248138",
+      "42437078",
+      "34545666",
+      "29509422",
+      "40962203",
+      "11838236",
+      "30099028",
+      "34291921",
+      "34311273",
+      "34285781",
+      "35179885",
+      "36754681",
+      "35139468",
+      "38232052",
+      "39516712"
+    ],
+    "pmc": [
+      "12262440"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40667294/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.06.13.659429",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

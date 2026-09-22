@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "40856697",
+    "doi": "10.1085/jgp.202413737",
+    "title": "GSK3beta-driven phosphorylation of ABLIM1 regulates its interactions with titin cardiac muscle."
+  },
+  "content": {
+    "abstract": "The heart adapts to cardiac demand via chemical modifications of contractile myofilament proteins. Many of these modifications, such as phosphorylation, occur in proteins' intrinsically disordered regions (IDRs). These IDRs, though challenging to study, are recognized as dynamic, tunable regulators of protein function. Since cardiac dysfunction often involves altered posttranslational modifications (PTMs) in myofilament proteins, understanding how IDR changes affect protein and myofilament behavior is crucial. We hypothesized that PTMs, primarily phosphorylation, regulate ABLIM1 (a myofilament protein) by altering its IDR conformational ensemble, thereby modulating its binding to other myofilament proteins. We tested this using multiscale modeling (including molecular dynamics simulations) to predict ABLIM1's conformational ensembles pre- and postphosphorylation at sites altered in a canine model of heart failure with reduced GSK3beta activity. A state-based contraction model then rationalized the physiological consequences. Our data show that local physicochemical alterations from phosphorylation in ABLIM1's IDRs significantly affect its conformational ensemble. This ensemble change subsequently influences the ability of its LIM domains to interact with titin. Furthermore, using the contraction model, we show that a reduced ability to recruit myosin heads for cross-bridge formation, resulting from the modified LIM domain/titin interactions, provides a mechanism that elucidates previous findings of diminished length-dependent activation. These findings offer critical molecular insights, reframing IDRs not merely as structural noise but as key, tunable elements that control protein interactions and ultimately impact mechanical behavior in the sarcomere. This work bridges molecular disorder and biomechanical function, providing a new perspective to understand dynamic control and dysfunction in cardiomyocyte contraction.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Phosphorylation",
+      "Dogs",
+      "*Glycogen Synthase Kinase 3 beta/metabolism",
+      "*Connectin/metabolism",
+      "*Myocardium/metabolism",
+      "Heart Failure/metabolism",
+      "Myocardial Contraction",
+      "*LIM Domain Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Bin",
+        "Loftus, Alec",
+        "Goh Beh, Brandon Beh",
+        "Hepburn, Aalaythia",
+        "Kirk, Jonathan A",
+        "Kekenes-Huskey, Peter M"
+      ],
+      "short_names": [
+        "Sun B",
+        "Loftus A",
+        "Goh Beh BB",
+        "Hepburn A",
+        "Kirk JA",
+        "Kekenes-Huskey PM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2583-4493",
+        "ORCID: 0009-0002-3766-5738",
+        "ORCID: 0009-0004-8052-0643",
+        "ORCID: 0009-0006-5746-9709",
+        "ORCID: 0000-0002-5192-2860",
+        "ORCID: 0000-0001-7286-3022"
+      ],
+      "affiliations": [
+        "Research Center for Pharmacoinformatics, College of Pharmacy, Harbin Medical University , Harbin, China.",
+        "Department of Cell and Molecular Physiology, Loyola University Chicago, Chicago, IL, USA.",
+        "Lincoln University of Pennsylvania, Lincoln University , PA, USA.",
+        "Lincoln University of Pennsylvania, Lincoln University , PA, USA.",
+        "Department of Cell and Molecular Physiology, Loyola University Chicago, Chicago, IL, USA.",
+        "Department of Cell and Molecular Physiology, Loyola University Chicago, Chicago, IL, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Bin",
+        "short_name": "Sun B",
+        "identifiers": [
+          "0000-0003-2583-4493"
+        ],
+        "affiliations": [
+          "Research Center for Pharmacoinformatics, College of Pharmacy, Harbin Medical University , Harbin, China."
+        ]
+      },
+      {
+        "full_name": "Loftus, Alec",
+        "short_name": "Loftus A",
+        "identifiers": [
+          "0009-0002-3766-5738"
+        ],
+        "affiliations": [
+          "Department of Cell and Molecular Physiology, Loyola University Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Goh Beh, Brandon Beh",
+        "short_name": "Goh Beh BB",
+        "identifiers": [
+          "0009-0004-8052-0643"
+        ],
+        "affiliations": [
+          "Lincoln University of Pennsylvania, Lincoln University , PA, USA."
+        ]
+      },
+      {
+        "full_name": "Hepburn, Aalaythia",
+        "short_name": "Hepburn A",
+        "identifiers": [
+          "0009-0006-5746-9709"
+        ],
+        "affiliations": [
+          "Lincoln University of Pennsylvania, Lincoln University , PA, USA."
+        ]
+      },
+      {
+        "full_name": "Kirk, Jonathan A",
+        "short_name": "Kirk JA",
+        "identifiers": [
+          "0000-0002-5192-2860"
+        ],
+        "affiliations": [
+          "Department of Cell and Molecular Physiology, Loyola University Chicago, Chicago, IL, USA."
+        ]
+      },
+      {
+        "full_name": "Kekenes-Huskey, Peter M",
+        "short_name": "Kekenes-Huskey PM",
+        "identifiers": [
+          "0000-0001-7286-3022"
+        ],
+        "affiliations": [
+          "Department of Cell and Molecular Physiology, Loyola University Chicago, Chicago, IL, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of general physiology"
+    ],
+    "journal_abbrev": [
+      "J Gen Physiol"
+    ],
+    "pub_date": "2025 Sep 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/26 12:45",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39151116",
+      "38894540",
+      "38802383",
+      "38057664",
+      "38008210",
+      "37962385",
+      "37200094",
+      "37160086",
+      "36628457",
+      "36370105",
+      "35168370",
+      "35004696",
+      "34948025",
+      "34745373",
+      "34718738",
+      "34265844",
+      "34038160",
+      "34028199",
+      "33945530",
+      "33857643",
+      "33782607",
+      "33647290",
+      "33528507",
+      "33061800",
+      "33058779",
+      "32989126",
+      "32520642",
+      "31904282",
+      "31714766",
+      "31659043",
+      "31483613",
+      "30679555",
+      "30054031",
+      "29860432",
+      "28079879",
+      "28076807",
+      "28066265",
+      "27819658",
+      "27466404",
+      "26453301",
+      "25514926",
+      "25435019",
+      "25400877",
+      "24926813",
+      "24719451",
+      "24516189",
+      "24292707",
+      "23900500",
+      "23442866",
+      "22984159",
+      "22617229",
+      "22523075",
+      "22140043",
+      "21799151",
+      "21402032",
+      "20404210",
+      "20053351",
+      "19841658",
+      "19211765",
+      "18573260",
+      "18343814",
+      "17194709",
+      "16962974",
+      "16713295",
+      "16407954",
+      "15582318",
+      "15520811",
+      "15343268",
+      "15024025",
+      "12824398",
+      "11977079",
+      "11846417",
+      "11749371",
+      "11093259",
+      "11072340",
+      "9594664",
+      "9245787",
+      "8506279",
+      "7984417",
+      "6667333",
+      "2231712"
+    ],
+    "similar": [
+      "40856697",
+      "39713372",
+      "35168370",
+      "42475469",
+      "23213108",
+      "39283968",
+      "22778266",
+      "39745989",
+      "23764881",
+      "26453301",
+      "19679839",
+      "35008512",
+      "23129792",
+      "33666504",
+      "30523116",
+      "23277198",
+      "38474037",
+      "39539017",
+      "34765042",
+      "30989819",
+      "36555864",
+      "23085150",
+      "38915510",
+      "40068771",
+      "29275006",
+      "38656649",
+      "36150524",
+      "31421188",
+      "38940916",
+      "30523115",
+      "15514163",
+      "23137781",
+      "39169429",
+      "27524973",
+      "7869390",
+      "29226977",
+      "26763941",
+      "38928324",
+      "19808399",
+      "23912807",
+      "27914791",
+      "25373878",
+      "36645120",
+      "23508784",
+      "16897574",
+      "30138628",
+      "40512239",
+      "40574713",
+      "40073932",
+      "27068630",
+      "26858417",
+      "29760016",
+      "24969035",
+      "27909224",
+      "31519753",
+      "19140019",
+      "35584900",
+      "32086378",
+      "16205841",
+      "25125175",
+      "23666674",
+      "27133568",
+      "26854722",
+      "26825555",
+      "19639676",
+      "21765056",
+      "20184888",
+      "26993364",
+      "39186607",
+      "38666446",
+      "25481661",
+      "24945106",
+      "34681770",
+      "10728347",
+      "19962384",
+      "33627133",
+      "29544934",
+      "19023132",
+      "11581142",
+      "38462126",
+      "33781820",
+      "31142654",
+      "41642989",
+      "23246787",
+      "19666481",
+      "30948421",
+      "23295080",
+      "24625729",
+      "40464169",
+      "12221057",
+      "15769444",
+      "12562915",
+      "24951619",
+      "25552695",
+      "37834023",
+      "42422944",
+      "20507834",
+      "17322173",
+      "39163874",
+      "19429819"
+    ],
+    "review": [
+      "40856697",
+      "39745989",
+      "30989819",
+      "36555864",
+      "25373878",
+      "19140019",
+      "16205841",
+      "19639676",
+      "24945106",
+      "10728347",
+      "19962384",
+      "23295080",
+      "24625729",
+      "15769444"
+    ],
+    "pmc": [
+      "13053039"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40856697/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-957",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://rupress.org/jgp/article-lookup/doi/10.1085/jgp.202413737",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

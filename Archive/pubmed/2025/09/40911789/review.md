@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors evaluate several simple computational metrics (single-chain radius of gyration, second virial coefficient, and a newly proposed "expenditure density") for predicting phase separation propensity in single-component intrinsically disordered protein (IDP) solutions. Using coarse-grained molecular dynamics simulations for 2,034 IDP sequences and machine learning analysis, they report that expenditure density is broadly useful, combining simplicity, low computational cost, and accuracy, and provides a continuous measure informative across both phase-separating and non-phase-separating sequences. They further claim this metric may improve predictions of other IDP properties and extends beyond binary classification.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field details, machine learning implementation, performance metrics, benchmark comparisons, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the field of IDP phase behavior prediction, addressing a real need for simple and computationally efficient metrics. The proposed expenditure density concept is intriguing and the scale of the sequence dataset (2,034 sequences) is commendable. However, the abstract lacks sufficient quantitative detail to assess the validity of the central claims. Key information on how the metrics are defined, how predictive performance is measured, and how the comparison to existing approaches is conducted is absent. The claim that expenditure density is "broadly useful" and "accurate" cannot be evaluated without specific performance numbers or benchmarks. The work appears to be at a stage where the core idea is promising, but the evidence base presented is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, protein chemistry, and biomolecular condensate biology would be interested. Specifically, those developing or using sequence-based predictors for phase separation, and those interested in rapid screening of IDP libraries for experimental validation, would find a simple and accurate metric valuable. The potential extension to predicting other IDP properties broadens the appeal to the wider IDP community.
+- **Major strengths** The study addresses a practical need for simple, low-cost metrics in a field where high-throughput screening is increasingly important. The use of a large sequence dataset (2,034) adds statistical weight. The proposal of a continuous metric that remains informative across both phase-separating and non-phase-separating sequences is conceptually appealing, as it overcomes limitations of binary classifiers. The machine learning analysis to understand sequence-feature correlations with metric performance is a thoughtful approach.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The expenditure density is determined to be a broadly useful metric that combines simplicity, low computational cost, and accuracy"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative definition of expenditure density, no performance metrics (e.g., correlation coefficients, AUC, or error rates), and no comparison to existing predictors or to the other metrics evaluated. The claim of "accuracy" is unsupported without specific numbers or a defined benchmark.
+  - **Why it matters** Without quantitative evidence, the central claim of the paper cannot be verified. The reader cannot judge whether expenditure density outperforms existing metrics or by how much, nor whether the reported accuracy is practically meaningful.
+  - **Resolution test** Provide in the abstract or manuscript quantitative performance measures (e.g., Pearson or Spearman correlation with simulation-derived phase behavior, classification accuracy, or area under the ROC curve) and a direct comparison with the other metrics and with established predictors.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Each metric is computed using coarse-grained molecular dynamics simulations for 2,034 IDP sequences"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the coarse-grained model used, the simulation length, or the criteria for determining phase separation propensity from simulations. Without this information, the reliability of the ground truth labels used for machine learning is unclear.
+  - **Why it matters** The validity of the entire analysis depends on the quality and consistency of the simulation-derived phase behavior data. If the simulation protocol is inadequate or inconsistent across sequences, the conclusions drawn from the machine learning analysis would be compromised.
+  - **Resolution test** Specify the coarse-grained model, simulation parameters, equilibration and production times, and the operational definition of phase separation used to label sequences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "This work extends existing literature by advancing beyond binary classification"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not clarify what existing literature is being extended or how the proposed approach differs from prior continuous metrics or regression-based predictors. The novelty of the expenditure density relative to existing sequence-based predictors is not established.
+  - **Why it matters** The claim of advancing beyond binary classification is only meaningful if the prior state of the art is clearly defined. Without this context, the reader cannot assess the incremental contribution of the work.
+  - **Resolution test** Provide a brief comparison with existing predictors (e.g., catGRANULE, FuzDrop, or other sequence-based tools) and explicitly state what the expenditure density adds beyond current capabilities.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "expenditure density" is introduced without any intuitive explanation of its physical meaning or derivation.
+  - **Required correction** Provide a brief conceptual description of what expenditure density represents physically and why it is expected to correlate with phase separation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Machine learning methodology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that machine learning is used to analyze the data but does not specify the type of model, the features used, or the validation scheme.
+  - **Required correction** Briefly describe the machine learning approach (e.g., random forest, neural network), the input features, and the cross-validation strategy.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Scope of claims
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that expenditure density "shows promise in its ability to improve predictions of other properties" is vague and not supported by any example.
+  - **Required correction** Specify which other properties are envisioned and, if possible, provide a preliminary example or reference to results in the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative performance evidence), R1-M2 (unspecified simulation methodology), R1-M3 (unclear novelty relative to existing literature)
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of expenditure density appears novel, but its distinctiveness from existing metrics is not clearly articulated in the abstract.
+  - Scientific importance: The potential for a simple, accurate, and continuous metric for IDP phase separation is significant, but the importance is not fully demonstrated without quantitative evidence.
+  - Interdisciplinary readership: The topic bridges biophysics, computational chemistry, and cell biology, and the abstract is generally accessible, though some terminology could be clarified.
+  - Technical soundness: Not assessable from the abstract alone; the missing methodological and quantitative details preclude evaluation.
+  - Readability for nonspecialists: The abstract is readable but would benefit from a brief explanation of the new metric and its physical basis.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is promising and the scale of the study is commendable, but the abstract lacks the quantitative and methodological detail necessary to support the central claims. A revised version with specific performance metrics, methodological clarity, and contextual comparison to existing work would be needed to establish the case.
+
+## Risk / unsupported claims
+- The claim that expenditure density is "broadly useful" and "accurate" is unsupported without quantitative performance data.
+- The claim that the work "extends existing literature by advancing beyond binary classification" is unsupported without a clear description of prior work and the specific advance.
+- The claim that expenditure density "shows promise in its ability to improve predictions of other properties" is speculative and not supported by any evidence in the abstract.
+- The reliability of the simulation-derived phase behavior data is not assessable due to unspecified methodology.

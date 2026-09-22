@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "37772172",
+    "doi": "10.1021/jacsau.3c00391",
+    "title": "ATP Acts as a Hydrotrope to Regulate the Phase Separation of NBDY Clusters."
+  },
+  "content": {
+    "abstract": "Nonannotated P-body dissociating polypeptide (NBDY) is a recently discovered human microprotein that has been found to be a novel component of the mRNA decapping complex. Previous studies have shown that the phosphorylation of NBDY promotes the liquid phase of the NBDY remixing in vitro. Typically, during the process of phosphorylation, a phosphate group is added to the protein through adenosine triphosphate (ATP) hydrolysis. It has been shown that ATP acts as a biological hydrotrope, affecting the phase separation of proteins in solution. In this study, we utilized simulation methods to investigate the dynamic properties of the NBDY clusters at various ATP concentrations. Our findings demonstrate that ATP can regulate the phase separation of NBDY clusters. Specifically, we identified a critical point in the concentration ratio between ATP and NBDY that exhibits a dual effect on the phase separation of NBDY. We observed that the nonsaturated ATP concentration can facilitate the formation of phase separation, while oversaturated ATP concentration promotes the diffusion of NBDY, and the oversaturated ATP-NBDY interaction impedes the phase separation of NBDY. Additionally, we found that ATPs can bind to the protein surface by aggregating into ATP clusters, which further hinders the diffusion of NBDY clusters. Our work provides general insight into the role of ATP in the phase separation of protein condensates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Fei",
+        "Wang, Jin"
+      ],
+      "short_names": [
+        "Liu F",
+        "Wang J"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-1400-9051",
+        "ORCID: 0000-0002-2841-4913"
+      ],
+      "affiliations": [
+        "Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang 325001, China.",
+        "Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang 325001, China.",
+        "Department of Chemistry and Physics, State University of New York at Stony Brook, Stony Brook New York 11794, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Fei",
+        "short_name": "Liu F",
+        "identifiers": [
+          "0009-0005-1400-9051"
+        ],
+        "affiliations": [
+          "Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang 325001, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jin",
+        "short_name": "Wang J",
+        "identifiers": [
+          "0000-0002-2841-4913"
+        ],
+        "affiliations": [
+          "Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang 325001, China.",
+          "Department of Chemistry and Physics, State University of New York at Stony Brook, Stony Brook New York 11794, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2023 Sep 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/29 06:43",
+    "fetched_at": "2026-09-21 01:42:22"
+  },
+  "links": {
+    "cites": [
+      "42608397",
+      "42223531",
+      "41763418",
+      "41493236",
+      "41318811",
+      "41169547",
+      "41056468",
+      "40327273",
+      "40314620",
+      "39475790"
+    ],
+    "refs": [
+      "36103543",
+      "35713479",
+      "35681444",
+      "35364104",
+      "35297101",
+      "34966005",
+      "34716273",
+      "34346674",
+      "34240882",
+      "33934416",
+      "33876938",
+      "33684117",
+      "33586867",
+      "33307683",
+      "31756104",
+      "30858367",
+      "30620594",
+      "30217894",
+      "30179486",
+      "29377012",
+      "29364893",
+      "28522535",
+      "27918561",
+      "26620784",
+      "23300942",
+      "21294299"
+    ],
+    "similar": [
+      "37772172",
+      "34346674",
+      "33059440",
+      "35713479",
+      "36103543",
+      "33307701",
+      "39354680",
+      "35629965",
+      "37458354",
+      "36040869",
+      "34240882",
+      "30015615",
+      "30205960",
+      "35171683",
+      "36251789",
+      "34074792",
+      "33477032",
+      "31669043",
+      "31791586",
+      "36222390",
+      "28522535",
+      "32636250",
+      "35568006",
+      "35959492",
+      "5425279",
+      "33991007",
+      "33818025",
+      "36982909",
+      "27918561",
+      "34338526",
+      "23677997",
+      "34723279",
+      "33450720",
+      "2111815",
+      "9108255",
+      "9692927",
+      "32679076",
+      "4250238",
+      "36503242",
+      "35080597",
+      "4250237",
+      "37494400",
+      "31366629",
+      "32696384",
+      "36015451",
+      "31017394",
+      "33793117",
+      "31079926",
+      "2271526",
+      "34734665",
+      "34622264",
+      "33767388",
+      "36289351",
+      "30858367",
+      "31941785",
+      "33704064",
+      "27498324",
+      "32675239",
+      "35495061",
+      "22836354",
+      "8703931",
+      "1327389",
+      "23912807",
+      "18617566",
+      "10194333",
+      "37727870",
+      "34984429",
+      "35948429",
+      "37503577",
+      "745658",
+      "37250768",
+      "30367742",
+      "8063798",
+      "36061735",
+      "34636323",
+      "30095253",
+      "25144510",
+      "30514760",
+      "3409889",
+      "3490471",
+      "32087632",
+      "36398662",
+      "37130439",
+      "33704061"
+    ],
+    "review": [
+      "37772172",
+      "35629965",
+      "31669043",
+      "33818025",
+      "36982909",
+      "33450720",
+      "36503242"
+    ],
+    "pmc": [
+      "10523361"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/jacsau.3c00391",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37772172/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37772172",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.3c00391",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

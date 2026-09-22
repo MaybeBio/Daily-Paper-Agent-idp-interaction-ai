@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a new solvent model, TIP4P-B, developed by tuning the epsilon parameter based on a near-linear relationship between simulated radius of gyration (R(g)) and epsilon under the ESFF1 force field. They claim TIP4P-B improves R(g) agreement with experiments for intrinsically disordered proteins (IDPs) relative to four existing solvent models (TIP3P, TIP4P-Ew, TIP4P-D, OPC), preserves local structural accuracy from ESFF1, and successfully samples conformations of ordered proteins.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation protocols, error bars, or experimental comparisons are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation details (system setup, equilibration, sampling time, temperature, pressure), statistical analysis, force field parameters for TIP4P-B, and validation datasets for ordered proteins
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to solvent model optimization for IDP simulations, addressing a recognized limitation in the field. However, the evidence provided is insufficient to evaluate the validity, robustness, or generalizability of the claims. The near-linear relationship between R(g) and epsilon is stated without quantitative support, and the performance claims for TIP4P-B lack statistical context. The work has potential but is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular simulation practitioners studying IDPs, protein folding, and force field development. The proposed solvent model could be of practical use for improving ensemble sampling in MD simulations, and the methodology of tuning epsilon based on R(g) scaling may interest researchers developing environment-specific force fields.
+- **Major strengths** The abstract identifies a clear and relevant problem, namely the R(g) deviation in IDP simulations under ESFF1. The proposed solution, a solvent model with tuned epsilon, is simple and potentially transferable. The claim that TIP4P-B maintains local structural accuracy while improving global dimensions addresses a key trade-off in force field development.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "A near-linear relationship between the simulation R(g) and the epsilon parameter was used to develop the new solvent model, named TIP4P-B."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states a near-linear relationship between R(g) and epsilon but provides no quantitative data, such as correlation coefficients, range of epsilon values tested, or number of systems used to establish this relationship. Without these details, the robustness of the relationship and the rationale for selecting the specific epsilon value for TIP4P-B cannot be assessed.
+  - **Why it matters** The entire development of TIP4P-B rests on this relationship. If the relationship is weak, system-dependent, or based on limited sampling, the derived solvent model may not generalize across different IDPs or conditions. The claim is central to the manuscript's contribution.
+  - **Resolution test** Provide a figure or table showing R(g) versus epsilon for multiple IDP systems, with error bars, correlation coefficients, and the number of independent simulations. Demonstrate that the relationship holds across diverse sequence compositions and lengths.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The results indicate that the simulated R(g) with TIP4P-B is in better agreement with the experimental observations than the other four solvent models."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims superior agreement with experimental R(g) but provides no quantitative comparison, such as percent error, root-mean-square deviation from experimental values, or the number of IDPs tested. It is unclear how many systems were simulated, whether the improvement is consistent across all systems, or whether the differences are statistically significant given typical simulation variability.
+  - **Why it matters** The primary selling point of TIP4P-B is its improved R(g) accuracy. Without quantitative evidence, the claim is unverifiable and could be based on a small or biased dataset. The field requires robust benchmarks to adopt new solvent models.
+  - **Resolution test** Include a table or figure comparing simulated R(g) from TIP4P-B and the four other models against experimental values for a defined set of IDPs, with standard deviations and statistical tests (e.g., t-tests or bootstrap confidence intervals).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "TIP4P-B can also maintain the advantages of the ESFF1 force field for the local structural properties."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract asserts that local structural properties, such as J-coupling and secondary chemical shifts, are preserved with TIP4P-B, but no data are shown. It is unclear whether the comparison is against ESFF1 with other solvent models, whether the deviations are within experimental error, or whether any local properties degrade.
+  - **Why it matters** A solvent model that improves R(g) but compromises local accuracy would not be a balanced solution, undermining the core claim of the manuscript. The trade-off between global and local accuracy is a critical evaluation criterion.
+  - **Resolution test** Provide quantitative comparisons of J-coupling and chemical shift predictions from ESFF1 with TIP4P-B versus experimental data, including error metrics and comparison to ESFF1 with TIP4P-D or TIP3P.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "TIP4P-B can successfully sample the conformation of ordered proteins."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim regarding ordered proteins is vague. No details are given on which proteins were tested, what metrics were used to assess successful sampling (e.g., R(g), secondary structure content, native contacts), or how performance compares to established solvent models for folded proteins.
+  - **Why it matters** The title and abstract position TIP4P-B as a balanced model for both IDPs and ordered proteins. If the ordered protein validation is limited or superficial, the generalizability claim is weakened, and the model's utility for broader simulation studies is uncertain.
+  - **Resolution test** Specify the set of ordered proteins tested, report R(g) and structural stability metrics (e.g., RMSD to native state) compared to experimental structures and to TIP4P-D or OPC results, and include simulation length and convergence checks.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Background statement
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The claim that IDP content is "about 51% in human proteomics" lacks a citation and is presented as a fixed figure, but estimates vary by prediction method and definition of disorder.
+  - **Required correction** Add a citation to the source of the 51% estimate and note the method-dependent nature of such predictions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Solvent model naming
+  - **Evidence pointer** Abstract, "TIP4P-B"
+  - **Issue** The name "TIP4P-B" is introduced without explaining the "B" designation. It is unclear if it refers to a specific parameter set or a variant of TIP4P.
+  - **Required correction** Briefly define the naming convention or state that "B" denotes the balanced parameterization.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation conditions
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention simulation temperature, salt concentration, or whether the systems included ions, which are known to affect IDP dimensions and R(g).
+  - **Required correction** State the simulation conditions in the abstract or indicate that they are detailed in the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract lacks quantitative evidence for the central claims, and the development rationale is not verifiable without data on the R(g)-epsilon relationship and validation metrics.
+- **Assessment against Nature-style criteria** Originality is moderate; tuning solvent epsilon for IDP R(g) is a reasonable extension of existing work but not conceptually novel. Scientific importance is relevant to the simulation community, though the impact depends on the robustness of the validation. Interdisciplinary readership is limited to computational biophysics and force field developers. Technical soundness cannot be assessed from the abstract alone, as no protocols or statistics are provided. Readability for nonspecialists is adequate, but the abstract assumes familiarity with force field and solvent model terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful contribution, but the lack of quantitative data and methodological detail prevents a supportive recommendation. The authors should provide full validation results, including statistical analysis and system descriptions, to substantiate the claims.
+
+## Risk / unsupported claims
+- The near-linear relationship between R(g) and epsilon is stated without data, making it unsupported.
+- The claim of better agreement with experimental R(g) for TIP4P-B is unsupported without quantitative comparisons.
+- The claim of maintaining local structural properties is unsupported without data.
+- The claim of successful sampling of ordered proteins is unsupported without system details and metrics.
+- The 51% IDP content in human proteomics is uncited and potentially method-dependent.

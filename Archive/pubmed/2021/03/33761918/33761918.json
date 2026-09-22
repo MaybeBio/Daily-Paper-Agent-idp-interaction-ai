@@ -1,0 +1,460 @@
+{
+  "identity": {
+    "pmid": "33761918",
+    "doi": "10.1186/s12964-021-00718-x",
+    "title": "A new type of flexible CP12 protein in the marine diatom Thalassiosira pseudonana."
+  },
+  "content": {
+    "abstract": "BACKGROUND: CP12 is a small chloroplast protein that is widespread in various photosynthetic organisms and is an actor of the redox signaling pathway involved in the regulation of the Calvin Benson Bassham (CBB) cycle. The gene encoding this protein is conserved in many diatoms, but the protein has been overlooked in these organisms, despite their ecological importance and their complex and still enigmatic evolutionary background. METHODS: A combination of biochemical, bioinformatics and biophysical methods including electrospray ionization-mass spectrometry, circular dichroism, nuclear magnetic resonance spectroscopy and small X ray scattering, was used to characterize a diatom CP12. RESULTS: Here, we demonstrate that CP12 is expressed in the marine diatom Thalassiosira pseudonana constitutively in dark-treated and in continuous light-treated cells as well as in all growth phases. This CP12 similarly to its homologues in other species has some features of intrinsically disorder protein family: it behaves abnormally under gel electrophoresis and size exclusion chromatography, has a high net charge and a bias amino acid composition. By contrast, unlike other known CP12 proteins that are monomers, this protein is a dimer as suggested by native electrospray ionization-mass spectrometry and small angle X-ray scattering. In addition, small angle X-ray scattering revealed that this CP12 is an elongated cylinder with kinks. Circular dichroism spectra indicated that CP12 has a high content of alpha-helices, and nuclear magnetic resonance spectroscopy suggested that these helices are unstable and dynamic within a millisecond timescale. Together with in silico predictions, these results suggest that T. pseudonana CP12 has both coiled coil and disordered regions. CONCLUSIONS: These findings bring new insights into the large family of dynamic proteins containing disordered regions, thus increasing the diversity of known CP12 proteins. As it is a protein that is more abundant in many stresses, it is not devoted to one metabolism and in particular, it is not specific to carbon metabolism. This raises questions about the role of this protein in addition to the well-established regulation of the CBB cycle. Choregraphy of metabolism by CP12 proteins in Viridiplantae and Heterokonta. While the monomeric CP12 in Viridiplantae is involved in carbon assimilation, regulating phosphoribulokinase (PRK) and glyceraldehyde-3-phosphate dehydrogenase (GAPDH) through the formation of a ternary complex, in Heterokonta studied so far, the dimeric CP12 is associated with Ferredoxin-NADP reductase (FNR) and GAPDH. The Viridiplantae CP12 can bind metal ions and can be a chaperone, the Heterokonta CP12 is more abundant in all stresses (C, N, Si, P limited conditions) and is not specific to a metabolism. Video Abstract.",
+    "keywords": [
+      "Coiled coil",
+      "Diatom",
+      "Intrinsically disordered protein IDP",
+      "Nuclear magnetic resonance",
+      "Photosynthesis",
+      "Small angle X-ray scattering"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Aquatic Organisms/*metabolism",
+      "Chloroplast Proteins/chemistry/*metabolism",
+      "Computer Simulation",
+      "Diatoms/*metabolism",
+      "Magnetic Resonance Spectroscopy",
+      "Protein Multimerization",
+      "Protein Structure, Secondary",
+      "Scattering, Small Angle",
+      "X-Ray Diffraction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shao, Hui",
+        "Huang, Wenmin",
+        "Avilan, Luisana",
+        "Receveur-Brechot, Veronique",
+        "Puppo, Carine",
+        "Puppo, Remy",
+        "Lebrun, Regine",
+        "Gontero, Brigitte",
+        "Launay, Helene"
+      ],
+      "short_names": [
+        "Shao H",
+        "Huang W",
+        "Avilan L",
+        "Receveur-Brechot V",
+        "Puppo C",
+        "Puppo R",
+        "Lebrun R",
+        "Gontero B",
+        "Launay H"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1731-712X"
+      ],
+      "affiliations": [
+        "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France.",
+        "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France.",
+        "Key Laboratory of Aquatic Botany and Watershed Ecology, Wuhan Botanical Garden, Center of Plant Ecology, Core Botanical Gardens, Chinese Academy of Sciences, Wuhan, 430074, China.",
+        "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France.",
+        "Centre for Enzyme Innovation, School of Biological Sciences, Institute of Biological and Biomedical Sciences, University of Portsmouth, Portsmouth, PO1 2DY, UK.",
+        "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France.",
+        "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France.",
+        "CNRS FR 3479, Plate-Forme Proteomique de L'Institut de Microbiologie de La Mediterranee (IMM), Aix Marseille Univ, 13009, Marseille, France.",
+        "CNRS FR 3479, Plate-Forme Proteomique de L'Institut de Microbiologie de La Mediterranee (IMM), Aix Marseille Univ, 13009, Marseille, France.",
+        "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France. bmeunier@imm.cnrs.fr.",
+        "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France. helene.launay@univ-amu.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shao, Hui",
+        "short_name": "Shao H",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France."
+        ]
+      },
+      {
+        "full_name": "Huang, Wenmin",
+        "short_name": "Huang W",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France.",
+          "Key Laboratory of Aquatic Botany and Watershed Ecology, Wuhan Botanical Garden, Center of Plant Ecology, Core Botanical Gardens, Chinese Academy of Sciences, Wuhan, 430074, China."
+        ]
+      },
+      {
+        "full_name": "Avilan, Luisana",
+        "short_name": "Avilan L",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France.",
+          "Centre for Enzyme Innovation, School of Biological Sciences, Institute of Biological and Biomedical Sciences, University of Portsmouth, Portsmouth, PO1 2DY, UK."
+        ]
+      },
+      {
+        "full_name": "Receveur-Bréchot, Véronique",
+        "short_name": "Receveur-Bréchot V",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France."
+        ]
+      },
+      {
+        "full_name": "Puppo, Carine",
+        "short_name": "Puppo C",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France."
+        ]
+      },
+      {
+        "full_name": "Puppo, Rémy",
+        "short_name": "Puppo R",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS FR 3479, Plate-Forme Protéomique de L'Institut de Microbiologie de La Méditerranée (IMM), Aix Marseille Univ, 13009, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Lebrun, Régine",
+        "short_name": "Lebrun R",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS FR 3479, Plate-Forme Protéomique de L'Institut de Microbiologie de La Méditerranée (IMM), Aix Marseille Univ, 13009, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Gontero, Brigitte",
+        "short_name": "Gontero B",
+        "identifiers": [
+          "0000-0003-1731-712X"
+        ],
+        "affiliations": [
+          "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France. bmeunier@imm.cnrs.fr."
+        ]
+      },
+      {
+        "full_name": "Launay, Hélène",
+        "short_name": "Launay H",
+        "identifiers": [],
+        "affiliations": [
+          "CNRS, BIP UMR 7281, Aix Marseille Univ, 31 Chemin Joseph Aiguier, 13402, Marseille Cedex 20, France. helene.launay@univ-amu.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell communication and signaling : CCS"
+    ],
+    "journal_abbrev": [
+      "Cell Commun Signal"
+    ],
+    "pub_date": "2021 Mar 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/26 06:00",
+    "fetched_at": "2026-09-20 02:13:58"
+  },
+  "links": {
+    "cites": [
+      "40674273",
+      "39673188",
+      "38396678",
+      "37298260",
+      "36008940",
+      "35918056",
+      "34461937",
+      "34066751"
+    ],
+    "refs": [
+      "33036302",
+      "32765548",
+      "32553192",
+      "32102842",
+      "31570616",
+      "31570514",
+      "31408624",
+      "30778233",
+      "30487787",
+      "30237807",
+      "30177944",
+      "29893907",
+      "29860432",
+      "29788355",
+      "29717210",
+      "29602697",
+      "29501381",
+      "28793210",
+      "28717027",
+      "28516007",
+      "28430985",
+      "28181560",
+      "27268235",
+      "27039860",
+      "25688043",
+      "25534081",
+      "25505092",
+      "25484842",
+      "24799178",
+      "24523724",
+      "24502763",
+      "24148884",
+      "23184231",
+      "22988853",
+      "22970728",
+      "22514274",
+      "22399315",
+      "22182830",
+      "22153507",
+      "22112458",
+      "22044150",
+      "21865489",
+      "20813113",
+      "20224939",
+      "20100603",
+      "19888473",
+      "19287002",
+      "19099541",
+      "18974062",
+      "18811941",
+      "17947231",
+      "17896349",
+      "17698881",
+      "17578581",
+      "16621693",
+      "16317077",
+      "16259044",
+      "15734914",
+      "15533878",
+      "15019783",
+      "14604535",
+      "12846565",
+      "12556449",
+      "11567088",
+      "11166216",
+      "11112271",
+      "11087867",
+      "10338008",
+      "8980547",
+      "8918191",
+      "8520220",
+      "7627436"
+    ],
+    "similar": [
+      "33761918",
+      "22988853",
+      "28717027",
+      "26627646",
+      "29501381",
+      "36008940",
+      "24863370",
+      "24799178",
+      "32102842",
+      "35269851",
+      "34066751",
+      "22153507",
+      "20224939",
+      "27268235",
+      "31570616",
+      "21271977",
+      "24211189",
+      "24523724",
+      "20399532",
+      "22112458",
+      "17947231",
+      "9689144",
+      "9294236",
+      "27419381",
+      "28430985",
+      "15860009",
+      "23239332",
+      "17031544",
+      "37549282",
+      "24056937",
+      "21865489",
+      "25666947",
+      "16258009",
+      "36330266",
+      "22514274",
+      "16259044",
+      "12846565",
+      "22955105",
+      "29915055",
+      "29727516",
+      "15533878",
+      "33893047",
+      "36889996",
+      "38341352",
+      "18974062",
+      "28181560",
+      "15047759",
+      "27137392",
+      "15606760",
+      "19287002",
+      "32765548",
+      "27919227",
+      "26529678",
+      "23184231",
+      "33096784",
+      "25688043",
+      "19926682",
+      "29356867",
+      "30950829",
+      "16803460",
+      "19825612",
+      "36322422",
+      "27025989",
+      "21498632",
+      "22017178",
+      "8980547",
+      "26844818",
+      "37298260",
+      "34445427",
+      "38402560",
+      "33373640",
+      "23883327",
+      "31736179",
+      "22065419",
+      "29305510",
+      "37073328",
+      "33568068",
+      "24797958",
+      "17698881",
+      "39036361",
+      "15734914",
+      "21365259",
+      "37615442",
+      "29574051",
+      "27039860",
+      "28818078",
+      "24414292",
+      "33760840",
+      "35179783",
+      "37439534",
+      "31260945",
+      "34201575",
+      "25747569",
+      "22994549",
+      "21171997",
+      "12556449",
+      "38316719",
+      "28731468",
+      "37488721",
+      "23371532",
+      "28910417",
+      "28837661",
+      "12423361",
+      "15286292",
+      "28104538",
+      "15304518",
+      "16427344",
+      "22586703",
+      "26320411",
+      "17959390",
+      "18322016",
+      "33023504",
+      "36307966",
+      "31179502",
+      "28633304",
+      "19635793",
+      "18039944",
+      "36104452",
+      "36006497",
+      "35403318",
+      "34615889",
+      "36226967",
+      "24714665",
+      "35665646",
+      "21320329",
+      "22275908",
+      "37172836",
+      "31152126",
+      "37236467",
+      "37791766",
+      "26251775",
+      "23510654",
+      "35108066",
+      "36914732",
+      "39206371",
+      "26383250",
+      "38674705",
+      "36388477",
+      "37938663",
+      "33073109",
+      "35591946",
+      "39131116",
+      "36187929"
+    ],
+    "review": [
+      "33761918",
+      "22988853",
+      "28717027",
+      "36008940",
+      "24523724",
+      "17031544",
+      "33893047",
+      "36889996",
+      "15047759",
+      "32765548",
+      "39036361",
+      "26320411",
+      "28633304"
+    ],
+    "pmc": [
+      "7992989"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biosignaling.biomedcentral.com/articles/10.1186/s12964-021-00718-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33761918/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33761918",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GAPDH-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33761918",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

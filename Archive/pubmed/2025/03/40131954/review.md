@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, and references to supplementary materials)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims, and alignment with stated significance
+- **Shared manuscript claim summary** The authors present a sequence-based machine learning model trained via active learning on coarse-grained CALVADOS 2 phase-coexistence simulations to predict transfer free energies and saturation concentrations for homotypic phase separation of disordered proteins. The model is benchmarked against held-out simulations and experimental data, used to interpret sequence determinants of phase separation, and applied as a surrogate to refine a force-field parameter for tryptophan.
+- **Visible evidence base** Main text figures (Figs. 1–5), tables (Table 1), and references to supplementary figures, tables, and methods
+- **Missing materials affecting confidence** Supplementary figures (S1–S17), supplementary tables (S1–S5), supplementary methods text, and the GitHub/Zenodo code repositories were not provided for direct inspection
+
+## Reviewer
+- **Overall assessment** This manuscript describes a valuable and timely contribution to the prediction of phase-separation propensities from disordered protein sequences. The combination of active learning with coarse-grained simulations to generate training data, followed by a neural network surrogate, is methodologically sound and well motivated. The benchmarking against both simulated and experimental data is appropriate, and the authors are appropriately cautious in discussing limitations. The use of the model as a surrogate for force-field refinement is an interesting and potentially impactful extension. However, several technical aspects require clarification or additional analysis to fully establish the robustness and generalizability of the model, particularly regarding the treatment of outliers, the choice of input features, and the statistical significance of reported correlations.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, intrinsically disordered proteins, computational biophysics, and protein sequence-function relationships would find this work of direct interest. The model offers a fast, sequence-based tool that could be used to interpret experimental data, design new experiments, and screen large sequence datasets for phase-separation propensity. The methodological framework combining active learning and surrogate modeling may also appeal to the broader machine learning and molecular simulation communities.
+- **Major strengths** The work addresses a significant and timely problem with a well-designed computational strategy. The active learning protocol is thoughtful and appears to have been executed carefully, with attention to coverage of sequence space and convergence monitoring. The benchmarking against both held-out simulations and new experimental measurements is a strong feature. The authors are transparent about the limitations of their approach, including the reliance on the CALVADOS 2 force field and the fixed conditions of temperature and ionic strength. The demonstration that the model can be used as a surrogate for force-field optimization is an innovative and potentially powerful application.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the neural network model predicts simulated transfer free energies and saturation concentrations with high accuracy, citing cross-validation Pearson correlations and RMSD values.
+  - **Evidence pointer** Figure 2, main text
+  - **Concern** The reported cross-validation metrics (r > 0.9, RMSD ≈ 1 kBT for ΔG; RMSD ≈ 0.8 for ln csat) are presented as evidence of high predictive accuracy. However, the details of the cross-validation procedure are not fully described. Specifically, it is unclear whether the 50 train-validation splits are purely random or stratified in any way, and whether sequences with high sequence identity to training sequences were excluded from validation. If sequences in the validation set are highly similar to training sequences, the reported accuracy could be optimistically biased. The authors should clarify the cross-validation scheme and, ideally, provide an additional assessment using sequence-similarity-based clustering to ensure that performance is not inflated by memorization of near-duplicates.
+  - **Why it matters** The central claim of the manuscript is that the model can accurately predict phase-separation propensities for previously unseen sequences. If the cross-validation procedure does not adequately control for sequence similarity, the reported accuracy may not reflect real-world generalization performance, undermining the practical utility of the model.
+  - **Resolution test** Provide a detailed description of the cross-validation splitting procedure, including whether any sequence-identity threshold was applied. Additionally, perform a clustered cross-validation where sequences are grouped by sequence identity (e.g., > 80% identity) and report the resulting metrics. If performance degrades substantially, discuss the implications for the model's generalizability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the model predicts experimental saturation concentrations "on par with simulations," citing RMSD values of 1.12 for wild-type IDRs and 1.37 for A1 variants.
+  - **Evidence pointer** Figure 3, main text
+  - **Concern** The comparison between model predictions and experimental data is presented as a key validation of the approach. However, the number of experimental measurements is small (six wild-type IDRs and a set of A1/Laf1 variants), and the statistical significance of the reported RMSD values is not assessed. Moreover, the authors note that four A1 variants with high tryptophan content are outliers, and excluding them reduces the RMSD from 1.37 to 0.55. This selective exclusion, while justified by the low natural abundance of tryptophan, raises questions about the robustness of the model for sequences with unusual amino acid compositions. The authors should provide a more detailed statistical analysis, including confidence intervals for the RMSD values, and discuss the implications of the tryptophan outliers for the model's applicability to non-natural or engineered sequences.
+  - **Why it matters** The experimental benchmarking is a critical component of the manuscript's claim that the model is practically useful. If the agreement with experiment is driven by a small number of well-predicted sequences and is not statistically robust, the strength of this claim is weakened. Furthermore, the tryptophan outliers highlight a potential limitation of the model that should be clearly communicated to users.
+  - **Resolution test** Provide confidence intervals or bootstrap estimates for the RMSD values reported in Figure 3. Discuss the tryptophan outliers in more detail, including whether the model's poor performance on these sequences is due to limitations in the CALVADOS 2 force field or in the neural network's ability to extrapolate to unusual amino acid compositions. Consider whether a warning or caveat should be added to the model's documentation regarding sequences with high tryptophan content.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their model is the first to quantitatively predict saturation concentrations and transfer free energies for a wide set of disordered protein sequences, distinguishing it from previous classification-based approaches.
+  - **Evidence pointer** Conclusion, main text
+  - **Concern** The claim of novelty is somewhat understated in its framing. While the authors acknowledge recent work by Ginell et al., the broader landscape of sequence-based predictors for phase separation is not thoroughly discussed. For example, other machine learning models (e.g., catGRANULE, PScore, FuzDrop) have been developed for related predictions, and it would be helpful to place the current model in this context more explicitly. The authors should clarify what specific advantages their model offers over existing tools, particularly in terms of quantitative accuracy, interpretability, and applicability to diverse sequence datasets.
+  - **Why it matters** The scientific importance of the work depends in part on its novelty and the extent to which it advances beyond existing methods. A more thorough comparison with prior work would strengthen the case for the manuscript's significance and help readers understand when to use this model versus alternative approaches.
+  - **Resolution test** Add a section or paragraph in the Discussion that systematically compares the current model with existing sequence-based predictors, highlighting differences in methodology, input features, training data, and predictive performance. If quantitative comparisons are possible (e.g., on a common benchmark dataset), include them.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use the neural network as a surrogate model to optimize the tryptophan interaction parameter λ(Trp), finding an optimal value of 1.48.
+  - **Evidence pointer** Figure 3C, main text
+  - **Concern** The surrogate-based optimization of λ(Trp) is an interesting application, but the authors themselves note that the results are preliminary and depend on a small number of experimental measurements. The optimization procedure is not described in detail, and it is unclear how the authors ensured that the neural network, which was trained on CALVADOS 2 simulations with λ(Trp)=0.99, can reliably predict the effect of changing λ(Trp) to values outside the training distribution. The authors should provide more details on the optimization procedure and discuss the potential for overfitting or extrapolation errors.
+  - **Why it matters** The surrogate-based force-field refinement is presented as a proof of principle, but if the methodology is not robust, it could mislead future efforts to use similar approaches. A clear description of the procedure and its limitations is essential for readers who may wish to adopt or extend this approach.
+  - **Resolution test** Provide a detailed description of the optimization procedure, including how the neural network was used to predict ΔG as a function of λ(Trp) and how the optimal value was selected. Discuss the potential for extrapolation errors and whether the neural network's predictions for λ(Trp) values far from 0.99 were validated against direct simulations for a subset of sequences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Significance statement
+  - **Evidence pointer** Main text
+  - **Issue** The Significance statement is clear and accessible, but the Introduction could benefit from a brief explanation of what phase separation is and why it is biologically important for readers who may not be experts in the field. The term "transfer free energy" is used without a definition, which may be confusing for nonspecialists.
+  - **Required correction** Add a brief introductory paragraph that defines phase separation, its biological relevance, and the concept of transfer free energy in accessible terms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, active learning protocol
+  - **Evidence pointer** Main text, Materials and Methods
+  - **Issue** The description of the active learning protocol is somewhat brief. It is unclear how the "diversity" of selected sequences was quantified and how the trade-off between exploration (high uncertainty) and exploitation (high predicted information gain) was balanced.
+  - **Required correction** Provide additional details on the active learning acquisition function, including the specific criteria used to select new sequences and how the balance between uncertainty and feature-space coverage was achieved.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 4 and associated text
+  - **Evidence pointer** Main text
+  - **Issue** The correlation analysis between predicted ΔG and individual sequence features is informative, but the authors note that many features are interdependent. The interpretation of individual correlations could be misleading without a more rigorous multivariate analysis.
+  - **Required correction** Consider adding a multivariate analysis (e.g., partial correlations or a regression model) to disentangle the independent contributions of each feature to predicted ΔG.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, experimental measurements
+  - **Evidence pointer** Main text, Materials and Methods
+  - **Issue** The experimental methods for measuring saturation concentrations are described only briefly, with details relegated to the supplementary information. Given that these measurements are used for validation, a brief summary of the experimental approach and its potential sources of error would be helpful.
+  - **Required correction** Add a brief summary of the experimental protocol in the main text, including the buffer conditions, temperature, and how saturation concentrations were determined.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure 5 and associated text
+  - **Evidence pointer** Main text
+  - **Issue** The Monte Carlo sequence-space exploration results are presented in a way that may be difficult for nonspecialists to follow. The concept of "locking" features and the interpretation of the resulting trajectories could be explained more clearly.
+  - **Required correction** Provide a more intuitive explanation of the Monte Carlo setup and what the trajectories in Figure 5 illustrate, perhaps with a brief analogy or a more explicit statement of the biological or biophysical insight gained.
+- **Technical failings that need to be addressed before the case is established** The cross-validation procedure needs to be described in sufficient detail to assess the risk of overfitting, and ideally supplemented with a sequence-similarity-based validation. The statistical robustness of the experimental benchmarking should be quantified. The surrogate-based force-field optimization requires a clearer description of the methodology and its limitations.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its combination of active learning, coarse-grained simulations, and neural network surrogates for quantitative prediction of phase-separation propensities. The use of the model as a surrogate for force-field refinement is a novel contribution.
+  - **Scientific importance** The problem addressed is of high importance in cell biology and biophysics, and the model has the potential to be a widely used tool. The quantitative nature of the predictions represents an advance over classification-based approaches.
+  - **Interdisciplinary readership** The work is likely to appeal to researchers in biophysics, computational biology, cell biology, and protein engineering. The significance statement is accessible, but the main text may be challenging for nonspecialists in simulation methods.
+  - **Technical soundness** The methodology is generally sound, but the concerns raised above regarding cross-validation, statistical robustness of experimental comparisons, and surrogate-based optimization need to be addressed to fully establish the technical validity of the claims.
+  - **Readability for nonspecialists** The manuscript is well written, but the Introduction and some figure discussions could be made more accessible to a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable and potentially impactful contribution, but the robustness of the model's predictive accuracy and the statistical strength of the experimental validation need to be more rigorously established. The authors should also provide a clearer comparison with existing methods to fully contextualize the novelty of their approach.
+
+## Risk / unsupported claims
+- The claim that the model predicts experimental saturation concentrations "on par with simulations" is based on a small number of measurements and is not statistically quantified; the exclusion of tryptophan-rich outliers, while justified, further reduces the dataset.
+- The claim that the model can be used as a surrogate for force-field optimization is presented as a proof of principle, but the robustness of this approach is not fully established.
+- The generalizability of the model to non-natural sequences or sequences with unusual amino acid compositions (e.g., high tryptophan content) is not fully assessed.
+- The interpretability analysis (Figure 4) relies on individual correlations between interdependent features, which could be misleading without a multivariate analysis.

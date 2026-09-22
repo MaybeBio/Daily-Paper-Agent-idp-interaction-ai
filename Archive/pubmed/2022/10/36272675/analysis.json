@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36272675",
+  "title": "TransDFL: Identification of Disordered Flexible Linkers in Proteins by Transfer Learning.",
+  "authors": "Pang, Yihe; Liu, Bin",
+  "journal": "Genomics, proteomics & bioinformatics",
+  "published_date": "2022-10-23",
+  "window": {
+    "start": "2022-10-17",
+    "end": "2022-10-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用迁移学习将IDR预测器RFPR-IDP微调为无序柔性连接子(DFL)预测器TransDFL，对象为IDR亚区且涉及域间互作，但方法为序列预测而非PPI/互作机制建模，故综合评6分。",
+  "abstract": "Disordered flexible linkers (DFLs) are the functional disordered regions in proteins, which are the sub-regions of intrinsically disordered regions (IDRs) and play important roles in connecting domains and maintaining inter-domain interactions. Trained with the limited available DFLs, the existing DFL predictors based on the machine learning techniques tend to predict the ordered residues as DFLs, leading to a high falsepositive rate (FPR) and low prediction accuracy. Previous studies have shown that DFLs are extremely flexible disordered regions, which are usually predicted as disordered residues with high confidence [P(D) > 0.9] by an IDR predictor. Therefore, transferring an IDR predictor to an accurate DFL predictor is of great significance for understanding the functions of IDRs. In this study, we proposed a new predictor called TransDFL for identifying DFLs by transferring the RFPR-IDP predictor for IDR identification to the DFL prediction. The RFPR-IDP was pre-trained with IDR sequences to learn the general features between IDRs and DFLs, which is helpful to reduce the false positives in the ordered regions. RFPR-IDP was fine-tuned with the DFL sequences to capture the specific features of DFLs so as to be transferred into the TransDFL. Experimental results of two application scenarios (prediction of DFLs only in IDRs or prediction of DFLs in entire proteins) showed that TransDFL consistently outperformed other existing DFL predictors with higher accuracy. The corresponding web server of TransDFL can be freely accessed at http://bliulab.net/TransDFL/.",
+  "abstract_zh": "无序柔性连接子（DFLs）是蛋白质中的功能性无序区域，它们是内在无序区域（IDRs）的子区域，在连接结构域和维持结构域间相互作用中发挥重要作用。由于可用的DFLs有限，基于机器学习技术的现有DFL预测器倾向于将有序残基预测为DFLs，导致高假阳性率（FPR）和低预测准确性。先前研究表明，DFLs是极度柔性的无序区域，通常被IDR预测器以高置信度[P(D) > 0.9]预测为无序残基。因此，将IDR预测器转化为准确的DFL预测器对于理解IDRs的功能具有重要意义。在本研究中，我们提出了一种名为TransDFL的新预测器，通过将用于IDR识别的RFPR-IDP预测器迁移到DFL预测中，以识别DFLs。RFPR-IDP使用IDR序列进行预训练，以学习IDRs和DFLs之间的通用特征，这有助于减少有序区域中的假阳性。RFPR-IDP使用DFL序列进行微调，以捕捉DFLs的特异性特征，从而转化为TransDFL。两种应用场景（仅在IDRs中预测DFLs或在完整蛋白质中预测DFLs）的实验结果表明，TransDFL在准确性上始终优于其他现有DFL预测器。TransDFL的相应网络服务器可免费访问：http://bliulab.net/TransDFL/。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36272675/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36272675/",
+  "paper_page_path": "papers/pubmed/36272675/index.html"
+}

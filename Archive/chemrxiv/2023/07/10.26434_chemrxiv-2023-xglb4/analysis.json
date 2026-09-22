@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-xglb4",
+  "title": "Peptidomimetic inhibitors of β-strand mediated protein-protein interactions: tuning binding affinity of intrinsically disordered sequences by covalent backbone modification",
+  "authors": "Emma Cawood; Emily Baker; Thomas Edwards; Derek Woolfson; Theodoros Karamanos; Wilson Andrew",
+  "journal": "ChemRxiv",
+  "published_date": "2023-07-07",
+  "window": {
+    "start": "2023-07-03",
+    "end": "2023-07-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过骨架N-甲基化修饰无序肽段，结合实验与计算分析调控β-strand介导的SUMO-SIM PPI结合亲和力，虽对象为IDP且涉及PPI机制，但方法以实验为主、计算为辅，机制建模深度有限。",
+  "abstract": "A significant challenge for chemical biology is to develop methods that enable targeting of protein-protein interactions (PPIs). Given that many PPIs involve a folded protein domain and a peptide that is intrinsically disordered in isolation, peptides present potential starting points for designing PPI modulators. While multiple approaches to pre-organize α-helical motifs for enhancing affinity and other properties are available, β-strand-mediated interactions are much less explored. Using the interaction between small ubiquitin-like modifiers (SUMO) and SUMO-interacting motifs (SIMs), here we show that N-methylation of the peptide backbone can effectively restrict accessible peptide conformations, predisposing them for protein recognition. Backbone N-methylation in appropriate locations results in faster target binding, and thus higher affinity, as shown by fluorescence anisotropy, relaxation-based NMR experiments, and computational analysis. We show that such higher affinities occur as a consequence of an increase in the energy of the unbound state, and a reduction in the entropic contribution to the binding and activation energies. This offers a new paradigm for developing peptide-based PPI modulators.",
+  "abstract_zh": "化学生物学面临的一个重大挑战是开发能够靶向蛋白质-蛋白质相互作用（PPIs）的方法。鉴于许多PPIs涉及一个折叠的蛋白质结构域和一个在分离状态下 intrinsically disordered（内在无序）的肽段，肽为设计PPI调节剂提供了潜在的起点。尽管已有多种方法用于预组织α-螺旋基序以增强亲和力及其他性质，但β-链介导的相互作用却鲜有探索。利用小泛素样修饰因子（SUMO）与SUMO相互作用基序（SIMs）之间的相互作用，我们在此表明，肽骨架的N-甲基化能有效限制可及的肽构象，使其倾向于蛋白质识别。通过荧光各向异性、基于弛豫的NMR实验及计算分析，我们证明在适当位置进行骨架N-甲基化可加快靶标结合，从而提高亲和力。我们进一步表明，这种更高亲和力的产生源于未结合态能量的增加，以及结合和活化能中熵贡献的减少。这为开发基于肽的PPI调节剂提供了新范式。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-xglb4",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-xglb4",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-xglb4/index.html"
+}

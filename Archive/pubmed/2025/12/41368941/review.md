@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report that fusing the Car9 silica-binding peptide to an elastin-like polypeptide (ELP) produces temperature- and sequence-programmable templates for silicified architectures. They claim unprecedented control over silica nanoparticle diameter (30-60 nm with 4 nm precision), identify a single arginine residue (R4) as the determinant of the micelle-to-proteinosome transition, and report that substitutions in other basic residues enable access to kinetically trapped species. They further claim that molecular dynamics simulations and AlphaFold predictions reveal mechanistic insights into how mutations alter interfacial packing, hydration, and conformational freedom, and that mineralization serves as a visualization tool for dynamic soft matter assemblies.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information were supplied
+- **Missing materials affecting confidence** Full manuscript, experimental methods, characterization data (e.g., SEM images, DLS, TEM), simulation parameters and trajectories, AlphaFold confidence metrics, statistical analyses, and reproducibility details
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially impactful concept: using solid-binding peptide-ELP fusions to achieve sequence-programmable morphological control over silicified structures. The claim of 4 nm precision in nanoparticle diameter control is notable, and the identification of a single residue governing a morphological transition is mechanistically appealing. However, the abstract alone provides insufficient evidence to evaluate the robustness of these claims. Key quantitative assertions lack supporting data, the mechanistic interpretations from simulations are presented without methodological detail, and the generalizability of the findings beyond the specific Car9-ELP system is not addressed. The work may be of interest to the biomaterials and soft matter communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biomimetic materials synthesis, peptide-engineered biomaterials, and soft matter physics would find these results relevant. The demonstration of genetic control over morphological transitions in coacervating templates could inform design strategies for programmable mineralization. The use of silicification to visualize soft assemblies may also appeal to the cryo-EM and structural biology communities interested in dynamic protein assemblies. The temperature- and sequence-responsive behavior could attract those working on stimuli-responsive materials.
+- **Major strengths** The concept of using a short silica-binding peptide to confer programmable mineralization behavior on an ELP is elegant and potentially generalizable. The claim of 4 nm precision in nanoparticle diameter control, if substantiated, represents a significant advance over existing methods. The identification of a single residue (R4) as a morphological switch is a clean and testable finding. The combination of experimental observation with MD simulations and AlphaFold predictions is a modern and potentially powerful approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "unprecedented control over the diameter of silica nanoparticles (SiNP) in the 30-60 nm range with 4 nm precision"
+  - **Evidence pointer** location not provided
+  - **Concern** The claim of 4 nm precision in diameter control is a strong quantitative assertion, but no data are presented to support it. It is unclear how precision is defined (e.g., standard deviation, batch-to-batch variability, or tunability resolution), how many independent measurements were performed, and what the statistical distribution of particle sizes was. The range of 30-60 nm is narrow, and the precision claim may be sensitive to measurement methodology (e.g., SEM vs. DLS vs. TEM).
+  - **Why it matters** This is the central quantitative claim of the abstract and likely a key selling point of the work. If the precision is not robustly demonstrated, the significance of the finding is substantially diminished.
+  - **Resolution test** Provide particle size distributions with sample sizes, statistical measures (mean, SD, CI), and a clear definition of "precision." Show that the 4 nm precision is reproducible across at least three independent experiments and is not an artifact of a single measurement technique.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "a single arginine residue (R4) in the Car9 sequence underpins the transition from micelles to proteinosomes"
+  - **Evidence pointer** location not provided
+  - **Concern** The abstract states that R4 underpins the micelle-to-proteinosome transition, but no experimental evidence is described. It is unclear whether this conclusion is based on a systematic alanine scan, single-point mutations, or a comparison of a limited set of variants. The possibility that R4 acts in concert with other residues or that the effect is context-dependent is not addressed.
+  - **Why it matters** This is a mechanistic claim with strong implications for sequence-function relationships. If the evidence is based on only one or two mutants, the conclusion may be premature.
+  - **Resolution test** Show a systematic mutagenesis study (e.g., alanine scan of all basic residues in Car9) with morphological characterization for each variant. Demonstrate that R4 mutations alone reproducibly shift the morphology and that the effect is not an artifact of a single construct.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Molecular dynamics (MD) simulations and AlphaFold predictions reveal that mutations in positively charged residues alter interfacial packing, hydration, and conformational freedom of the silica-binding segments"
+  - **Evidence pointer** location not provided
+  - **Concern** The abstract claims that MD and AlphaFold provide mechanistic insight, but no details are given on simulation methodology, force fields, system setup, simulation length, or convergence criteria. AlphaFold predictions of conformational ensembles are not standard outputs and may require additional analysis (e.g., ensemble generation, relaxation) to be meaningful for disordered or partially disordered systems like ELPs. The connection between simulation observables and the experimentally observed morphological changes is not articulated.
+  - **Why it matters** The mechanistic interpretation is a major component of the paper's contribution. Without methodological transparency and a clear link between simulation and experiment, these claims are not evaluable.
+  - **Resolution test** Provide full simulation details, including force field, water model, simulation time, and analysis methods. Show that the simulations are converged and that the predicted changes in packing, hydration, and conformational freedom are statistically significant. Demonstrate a direct correlation between simulation observables and experimentally measured morphological outcomes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "establish sequence and thermal energy as synergistic levers for morphological control across length scales using solid-binding ELPs"
+  - **Evidence pointer** location not provided
+  - **Concern** The abstract claims synergy between sequence and temperature, but the evidence for this synergy is not described. It is unclear whether temperature effects are independent of sequence changes or whether they interact non-additively. The range of temperatures explored and the morphological outcomes at each condition are not stated.
+  - **Why it matters** The claim of synergy is broader than the individual observations and implies a design principle. If the evidence only shows that both parameters independently affect morphology, the claim of synergy is overstated.
+  - **Resolution Test** Provide a matrix of experiments varying both sequence and temperature, with morphological outcomes mapped for each condition. Show that the effect of temperature differs depending on sequence (or vice versa) in a way that supports a synergistic rather than additive relationship.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "coacervating protein template" is used in the title but not defined or contextualized in the abstract. Readers unfamiliar with coacervation may not understand the relevance.
+  - **Required correction** Briefly define coacervation or rephrase to "liquid-liquid phase-separating protein template" for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Morphological characterization
+  - **Evidence pointer** Abstract, "small (approximately 200 nm) and large (>5 microm) vesicles"
+  - **Issue** The size ranges for vesicles are stated, but the precision or reproducibility of these measurements is not mentioned. It is unclear whether these are representative values or ranges observed across conditions.
+  - **Required correction** Specify the number of measurements and the variability (e.g., mean ± SD) for each vesicle population.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Visualization claim
+  - **Evidence pointer** Abstract, "readily visualized by SEM imaging following silicification"
+  - **Issue** The claim that silicification enables visualization is interesting, but it is unclear whether silicification alters the native morphology of the assemblies. If silicification induces structural changes, the images may not represent the true solution-state structures.
+  - **Required correction** Address whether silicification preserves the native morphology, or acknowledge any potential artifacts in the interpretation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of conclusions
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract claims that the results "establish sequence and thermal energy as synergistic levers for morphological control across length scales using solid-binding ELPs." This implies generalizability to other solid-binding peptides and ELP variants, but only one peptide (Car9) and presumably one ELP backbone are studied.
+  - **Required correction** Soften the claim to reflect the specific system studied, or provide evidence of generalizability to other peptide-ELP combinations.
+
+## Risk / unsupported claims
+- The claim of "unprecedented control" over nanoparticle diameter with 4 nm precision is unsupported by any data in the abstract.
+- The mechanistic role of R4 in the micelle-to-proteinosome transition is asserted without experimental evidence.
+- The MD and AlphaFold findings are described as "revealing" mechanistic details, but no simulation data or methodological details are provided, making these claims unevaluable.
+- The claim of synergy between sequence and temperature is not supported by any described experimental design.
+- The statement that silicification enables visualization of "dynamic soft matter assemblies" implies that the native structures are preserved, which is not demonstrated.
+- The generalizability of the findings to other solid-binding ELP systems is asserted without evidence.

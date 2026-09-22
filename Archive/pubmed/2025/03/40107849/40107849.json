@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "40107849",
+    "doi": "10.1021/acs.jafc.4c09585",
+    "title": "Phase Separation-Mediated Multienzyme Assembly In Vivo."
+  },
+  "content": {
+    "abstract": "Multienzyme assembly catalysis is a cornerstone of synthetic biology. In this study, we integrated the phase-separated protein RGGRGG with the ReverseTag/ReverseCatcher tagging system to investigate its potential for multienzyme complex formation. Initially, we utilized coarse-grained simulations to explore the interactions among RGGRGG domains, revealing their ability to form condensates and demonstrating how these condensates can interface with the ReverseTag/ReverseCatcher system for the assembly of multienzyme complexes. The ReverseTagged-proteins effectively self-assembled within ReverseCatcher_RGGRGG condensates. In cellular systems, we overexpressed six enzymes involved in lycopene biosynthesis and immobilized ReverseTag_Dxr, ReverseTag_Dxs, and ReverseTag_Idi by forming ester bonds with ReverseCatcher_RGGRGG. This approach resulted in a remarkable 5.4-fold enhancement in lycopene production compared to the control groups. This multienzyme assembly strategy holds significant promise for advancing the field of multienzyme catalysis, both in vivo and in vitro, and is expected to stimulate further research in this area.",
+    "keywords": [
+      "RGGRGG",
+      "ReverseTag/ReverseCacther",
+      "multienzyme assembly"
+    ],
+    "mesh_terms": [
+      "Lycopene/metabolism",
+      "*Multienzyme Complexes/chemistry/metabolism/genetics",
+      "*Escherichia coli/genetics/metabolism/chemistry/enzymology",
+      "Biocatalysis",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Yao",
+        "Shi, Yi",
+        "Li, Mengyu",
+        "Ming, Dengming",
+        "Liu, Wei",
+        "Xu, Xian",
+        "Jiang, Ling"
+      ],
+      "short_names": [
+        "Chen Y",
+        "Shi Y",
+        "Li M",
+        "Ming D",
+        "Liu W",
+        "Xu X",
+        "Jiang L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4706-6475",
+        "ORCID: 0000-0001-6625-5557"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Materials-Oriented Chemical Engineering, College of Food Science and Light Industry, Nanjing Tech University, Nanjing 211816, China.",
+        "Taizhou Key Laboratory of Biomass Functional Materials Development and Application, School of Life Science, Taizhou University, Taizhou 318000, China.",
+        "State Key Laboratory of Materials-Oriented Chemical Engineering, College of Food Science and Light Industry, Nanjing Tech University, Nanjing 211816, China.",
+        "State Key Laboratory of Materials-Oriented Chemical Engineering, College of Food Science and Light Industry, Nanjing Tech University, Nanjing 211816, China.",
+        "College of Biotechnology and Pharmaceutical Engineering, Nanjing Tech University, Nanjing 211816, China.",
+        "State Key Laboratory of Materials-Oriented Chemical Engineering, College of Food Science and Light Industry, Nanjing Tech University, Nanjing 211816, China.",
+        "School of Food Science and Pharmaceutical Engineering, Nanjing Normal University, Nanjing 210046, China.",
+        "State Key Laboratory of Materials-Oriented Chemical Engineering, College of Food Science and Light Industry, Nanjing Tech University, Nanjing 211816, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Yao",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Materials-Oriented Chemical Engineering, College of Food Science and Light Industry, Nanjing Tech University, Nanjing 211816, China.",
+          "Taizhou Key Laboratory of Biomass Functional Materials Development and Application, School of Life Science, Taizhou University, Taizhou 318000, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Yi",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Materials-Oriented Chemical Engineering, College of Food Science and Light Industry, Nanjing Tech University, Nanjing 211816, China."
+        ]
+      },
+      {
+        "full_name": "Li, Mengyu",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Materials-Oriented Chemical Engineering, College of Food Science and Light Industry, Nanjing Tech University, Nanjing 211816, China."
+        ]
+      },
+      {
+        "full_name": "Ming, Dengming",
+        "short_name": "Ming D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biotechnology and Pharmaceutical Engineering, Nanjing Tech University, Nanjing 211816, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Materials-Oriented Chemical Engineering, College of Food Science and Light Industry, Nanjing Tech University, Nanjing 211816, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xian",
+        "short_name": "Xu X",
+        "identifiers": [
+          "0000-0002-4706-6475"
+        ],
+        "affiliations": [
+          "School of Food Science and Pharmaceutical Engineering, Nanjing Normal University, Nanjing 210046, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Ling",
+        "short_name": "Jiang L",
+        "identifiers": [
+          "0000-0001-6625-5557"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Materials-Oriented Chemical Engineering, College of Food Science and Light Industry, Nanjing Tech University, Nanjing 211816, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of agricultural and food chemistry"
+    ],
+    "journal_abbrev": [
+      "J Agric Food Chem"
+    ],
+    "pub_date": "2025 Apr 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/20 00:33",
+    "fetched_at": "2026-09-21 16:45:24"
+  },
+  "links": {
+    "cites": [
+      "41697375",
+      "41659227",
+      "41362319",
+      "40768179",
+      "40756805",
+      "40756804",
+      "40646939",
+      "40642524",
+      "40599356"
+    ],
+    "refs": [],
+    "similar": [
+      "40107849",
+      "39689805",
+      "39127271",
+      "35998650",
+      "35562330",
+      "35687238",
+      "32343131",
+      "31356751",
+      "11180061",
+      "35687245",
+      "33001630",
+      "39855196",
+      "25020147",
+      "38695987",
+      "37925283",
+      "31534134",
+      "35014469",
+      "30872475",
+      "36326175",
+      "31498583",
+      "36625563",
+      "34415729",
+      "30784410",
+      "30797484",
+      "23404255",
+      "37100763",
+      "31720641",
+      "10205055",
+      "34469136",
+      "33564922",
+      "15168092",
+      "40239898",
+      "18704088",
+      "24975514",
+      "8674771",
+      "36288455",
+      "27763626",
+      "15556640",
+      "26900875",
+      "2699393",
+      "31925988",
+      "10769128",
+      "31874685",
+      "18443782",
+      "18691600",
+      "19327365",
+      "22188654",
+      "30920693",
+      "1352285",
+      "28223313",
+      "11405622",
+      "12632405",
+      "26859956",
+      "32343944",
+      "25157147",
+      "26996382",
+      "24040392",
+      "9158739",
+      "37609695",
+      "8449294",
+      "26574226",
+      "22442144",
+      "11196653",
+      "38218263",
+      "15044020",
+      "33712813",
+      "17516600",
+      "21290536",
+      "27184291",
+      "2670933",
+      "31853777",
+      "39660932",
+      "15937336",
+      "9582350",
+      "23927922",
+      "10779499",
+      "15898769",
+      "28497697",
+      "39864563",
+      "32002997",
+      "15567415",
+      "31488574",
+      "29727166",
+      "21124396",
+      "29899192",
+      "8440719",
+      "30089654",
+      "8987972",
+      "30390537",
+      "15063313",
+      "20333498",
+      "28038953",
+      "21098021",
+      "15604784",
+      "25649206",
+      "22608738",
+      "27757475",
+      "11509713",
+      "8388684",
+      "15247431"
+    ],
+    "review": [
+      "40107849",
+      "37925283",
+      "35014469",
+      "36625563",
+      "33564922",
+      "8674771",
+      "2699393",
+      "26859956",
+      "37609695",
+      "8449294",
+      "11196653"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jafcau/article-lookup/doi/10.1021/acs.jafc.4c09585",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

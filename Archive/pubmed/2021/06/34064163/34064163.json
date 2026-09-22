@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "34064163",
+    "doi": "10.3390/biology10060454",
+    "title": "Viewing SARS-CoV-2 Nucleocapsid Protein in Terms of Molecular Flexibility."
+  },
+  "content": {
+    "abstract": "The latest coronavirus SARS-CoV-2, which causes coronavirus disease 2019 (COVID-19) pneumonia leading to the pandemic, contains 29 proteins. Among them, nucleocapsid protein (N(CoV2)) is one of the abundant proteins and shows multiple functions including packaging the RNA genome during the infection cycle. It has also emerged as a potential drug target. In this review, the current status of the research of N(CoV2) is described in terms of molecular structure and dynamics. N(CoV2) consists of two domains, i.e., the N-terminal domain (NTD) and the C-terminal domain (CTD) with a disordered region between them. Recent simulation studies have identified several potential drugs that can bind to NTD or CTD with high affinity. Moreover, it was shown that the degree of flexibility in the disordered region has a large effect on drug binding rate, suggesting the importance of molecular flexibility for the N(CoV2) function. Molecular flexibility has also been shown to be integral to the formation of droplets, where N(CoV2), RNA and/or other viral proteins gather through liquid-liquid phase separation and considered important for viral replication. Finally, as one of the future research directions, a strategy for obtaining the structural and dynamical information on the proteins contained in droplets is presented.",
+    "keywords": [
+      "coronavirus nucleocapsid protein",
+      "liquid-liquid phase separation",
+      "molecular flexibility",
+      "neutron scattering",
+      "protein dynamics",
+      "protein structure"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Matsuo, Tatsuhito"
+      ],
+      "short_names": [
+        "Matsuo T"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7256-3206"
+      ],
+      "affiliations": [
+        "Institute for Quantum Life Science, National Institutes for Quantum and Radiological Science and Technology, 2-4 Shirakata, Tokai-mura, Naka-gun, Ibaraki 319-1106, Japan.",
+        "Laboratoire Interdisciplinaire de Physique (LiPhy), Grenoble-Alpes University, 140 Rue de la Physique, 38402 Saint Martin d'Heres, France.",
+        "Institut Laue-Langevin, 71 Avenue des Martyrs, CS 20156, CEDEX 9, 38042 Grenoble, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Matsuo, Tatsuhito",
+        "short_name": "Matsuo T",
+        "identifiers": [
+          "0000-0001-7256-3206"
+        ],
+        "affiliations": [
+          "Institute for Quantum Life Science, National Institutes for Quantum and Radiological Science and Technology, 2-4 Shirakata, Tokai-mura, Naka-gun, Ibaraki 319-1106, Japan.",
+          "Laboratoire Interdisciplinaire de Physique (LiPhy), Grenoble-Alpes University, 140 Rue de la Physique, 38402 Saint Martin d'Hères, France.",
+          "Institut Laue-Langevin, 71 Avenue des Martyrs, CS 20156, CEDEX 9, 38042 Grenoble, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology"
+    ],
+    "journal_abbrev": [
+      "Biology (Basel)"
+    ],
+    "pub_date": "2021 May 21",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/03 06:00",
+    "fetched_at": "2026-09-20 03:35:22"
+  },
+  "links": {
+    "cites": [
+      "41074591",
+      "40649197",
+      "40077853",
+      "39516586",
+      "39343000",
+      "38846351",
+      "38535062",
+      "38376366",
+      "38140545",
+      "38031548",
+      "37893306",
+      "37850869",
+      "36985506",
+      "36627683",
+      "36434912",
+      "36251675",
+      "36145267",
+      "36013438",
+      "35806316",
+      "35757560",
+      "35087058",
+      "35011458",
+      "34679537",
+      "34578187"
+    ],
+    "refs": [
+      "34765991",
+      "33782395",
+      "33730680",
+      "33479198",
+      "33389725",
+      "33314794",
+      "33290746",
+      "33264373",
+      "33248025",
+      "33247108",
+      "33236001",
+      "33208793",
+      "33200826",
+      "33191750",
+      "33177698",
+      "33140703",
+      "33039147",
+      "32901111",
+      "32854725",
+      "32851912",
+      "32654247",
+      "32568013",
+      "32562316",
+      "32546606",
+      "32469265",
+      "32416961",
+      "32363136",
+      "32335367",
+      "32270045",
+      "32266867",
+      "32164942",
+      "32015507",
+      "32006315",
+      "31488718",
+      "31434954",
+      "30644840",
+      "30445805",
+      "30181255",
+      "30082507",
+      "30044620",
+      "29939747",
+      "29035742",
+      "28680096",
+      "28556382",
+      "28077638",
+      "27636092",
+      "27088887",
+      "27012512",
+      "26894667",
+      "26791895",
+      "26068748",
+      "24529240",
+      "24418573",
+      "24121435",
+      "23717688",
+      "23076582",
+      "22543239",
+      "22156534",
+      "22044148",
+      "21947276",
+      "21613569",
+      "21207454",
+      "21196934",
+      "21041939",
+      "20476778",
+      "20219936",
+      "19789981",
+      "19494013",
+      "18561946",
+      "18507376",
+      "17881296",
+      "17411046",
+      "17379242",
+      "17229691",
+      "16971454",
+      "16590179",
+      "15755609",
+      "15613344",
+      "15264254",
+      "14980481",
+      "14667748",
+      "12621860",
+      "10869374",
+      "10834833",
+      "10386868",
+      "1674698"
+    ],
+    "similar": [
+      "34064163",
+      "34734665",
+      "36040256",
+      "32469265",
+      "33270159",
+      "36798118",
+      "37211575",
+      "32493627",
+      "32749662",
+      "35796388",
+      "35551296",
+      "36533523",
+      "35756710",
+      "19052082",
+      "33095454",
+      "37704125",
+      "33247108",
+      "17379242",
+      "36317101",
+      "38153183",
+      "37704176",
+      "39174826",
+      "33140703",
+      "32914439",
+      "38045338",
+      "37956938",
+      "34381460",
+      "21203940",
+      "33782395",
+      "33918600",
+      "36640305",
+      "37901441",
+      "16254320",
+      "33081049",
+      "33794152",
+      "33254432",
+      "36985506",
+      "33511102",
+      "39343000",
+      "33200826",
+      "32342926",
+      "33495715",
+      "39341499",
+      "32766587",
+      "36323732",
+      "16775348",
+      "36145267",
+      "34765991",
+      "31594639",
+      "36681763",
+      "24501403",
+      "34100017",
+      "34665939",
+      "32266867",
+      "34055887",
+      "37286558",
+      "33314794",
+      "15020242",
+      "16228284",
+      "32568013",
+      "33477032",
+      "37211047",
+      "23912807",
+      "35071824",
+      "19782089",
+      "18561946",
+      "32360608",
+      "28331093",
+      "34029587",
+      "33990585",
+      "34924802",
+      "36806252",
+      "34634033",
+      "32587966",
+      "36576175",
+      "33479198",
+      "33289456",
+      "33730680",
+      "37439567"
+    ],
+    "review": [
+      "34064163",
+      "32493627",
+      "35756710",
+      "36640305",
+      "39343000",
+      "32342926",
+      "34055887",
+      "32360608"
+    ],
+    "pmc": [
+      "8224284"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biology10060454",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34064163/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34064163",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

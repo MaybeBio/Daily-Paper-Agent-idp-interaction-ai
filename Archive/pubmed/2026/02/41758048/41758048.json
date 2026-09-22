@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "41758048",
+    "doi": "10.1039/d5nr05322f",
+    "title": "Advances in the construction and biological applications of DNA condensates."
+  },
+  "content": {
+    "abstract": "Intracellular biomolecular condensates are membraneless liquid droplets formed by liquid-liquid phase separation (LLPS), which play essential roles in transcriptional control, stress responses, and cellular signaling. Inspired by these natural systems, DNA has emerged as the preferred molecule for constructing artificial condensates due to its sequence programmability, diverse interaction modes, and ease of chemical modification. This review provides a comprehensive overview of strategies for constructing DNA condensates through LLPS, including sequence-driven self-assembly, polymer- or protein-mediated coacervation, and precise environmental tuning such as DNA concentration, ionic strength, pH, and temperature. We highlight their multi-stimuli responsiveness and ability to create programmable biochemical microenvironments, which underpin notable progress in mimicking membraneless organelles, biosensing, cell regulation, and drug delivery. Finally, we discuss prevailing challenges, including limited spatiotemporal control, nuclease degradation, and immunogenicity, which must be addressed to advance their translation into living systems. Future progress is anticipated to arise from intelligent multicomponent systems, integration with optogenetics and single-molecule techniques, and machine learning-aided sequence design, ultimately paving the way for adaptive \"active DNA materials\" with far-reaching implications for synthetic biology and precision medicine.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA/chemistry",
+      "Phase Separation",
+      "*Biomolecular Condensates/chemistry",
+      "Biosensing Techniques",
+      "DNA Nanostructures",
+      "Humans",
+      "Animals",
+      "Hydrogen-Ion Concentration"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dai, Mei",
+        "Li, Xiaoqing",
+        "Jia, Xuemei",
+        "Dou, Hongjing",
+        "Guo, Xiaocui",
+        "Yao, Chi",
+        "Yang, Dayong"
+      ],
+      "short_names": [
+        "Dai M",
+        "Li X",
+        "Jia X",
+        "Dou H",
+        "Guo X",
+        "Yao C",
+        "Yang D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5850-9174",
+        "ORCID: 0000-0002-0734-6560",
+        "ORCID: 0000-0002-2634-9281"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Synthetic Biology, Frontiers Science Center for Synthetic Biology, Key Laboratory of Systems Bioengineering (MOE), School of Synthetic Biology and Biomanufacturing, Tianjin University, Tianjin, 300350, P.R. China. chi.yao@tju.edu.cn.",
+        "State Key Laboratory of Synthetic Biology, Frontiers Science Center for Synthetic Biology, Key Laboratory of Systems Bioengineering (MOE), School of Synthetic Biology and Biomanufacturing, Tianjin University, Tianjin, 300350, P.R. China. chi.yao@tju.edu.cn.",
+        "Zhejiang Institute of Tianjin University, Ningbo, Zhejiang, 315201, P.R. China.",
+        "State Key Laboratory of Metal Matrix Composites, School of Materials Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, P.R. China.",
+        "State Key Laboratory of Synthetic Biology, Frontiers Science Center for Synthetic Biology, Key Laboratory of Systems Bioengineering (MOE), School of Synthetic Biology and Biomanufacturing, Tianjin University, Tianjin, 300350, P.R. China. chi.yao@tju.edu.cn.",
+        "State Key Laboratory of Synthetic Biology, Frontiers Science Center for Synthetic Biology, Key Laboratory of Systems Bioengineering (MOE), School of Synthetic Biology and Biomanufacturing, Tianjin University, Tianjin, 300350, P.R. China. chi.yao@tju.edu.cn.",
+        "Zhejiang Institute of Tianjin University, Ningbo, Zhejiang, 315201, P.R. China.",
+        "State Key Laboratory of Synthetic Biology, Frontiers Science Center for Synthetic Biology, Key Laboratory of Systems Bioengineering (MOE), School of Synthetic Biology and Biomanufacturing, Tianjin University, Tianjin, 300350, P.R. China. chi.yao@tju.edu.cn.",
+        "Zhejiang Institute of Tianjin University, Ningbo, Zhejiang, 315201, P.R. China.",
+        "Department of Chemistry, State Key Laboratory of Molecular Engineering of Polymers, Fudan University, Shanghai, 200438, P.R. China. dayongyang@fudan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dai, Mei",
+        "short_name": "Dai M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Synthetic Biology, Frontiers Science Center for Synthetic Biology, Key Laboratory of Systems Bioengineering (MOE), School of Synthetic Biology and Biomanufacturing, Tianjin University, Tianjin, 300350, P.R. China. chi.yao@tju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Xiaoqing",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Synthetic Biology, Frontiers Science Center for Synthetic Biology, Key Laboratory of Systems Bioengineering (MOE), School of Synthetic Biology and Biomanufacturing, Tianjin University, Tianjin, 300350, P.R. China. chi.yao@tju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Jia, Xuemei",
+        "short_name": "Jia X",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Institute of Tianjin University, Ningbo, Zhejiang, 315201, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Dou, Hongjing",
+        "short_name": "Dou H",
+        "identifiers": [
+          "0000-0001-5850-9174"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Metal Matrix Composites, School of Materials Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Guo, Xiaocui",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Synthetic Biology, Frontiers Science Center for Synthetic Biology, Key Laboratory of Systems Bioengineering (MOE), School of Synthetic Biology and Biomanufacturing, Tianjin University, Tianjin, 300350, P.R. China. chi.yao@tju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yao, Chi",
+        "short_name": "Yao C",
+        "identifiers": [
+          "0000-0002-0734-6560"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Synthetic Biology, Frontiers Science Center for Synthetic Biology, Key Laboratory of Systems Bioengineering (MOE), School of Synthetic Biology and Biomanufacturing, Tianjin University, Tianjin, 300350, P.R. China. chi.yao@tju.edu.cn.",
+          "Zhejiang Institute of Tianjin University, Ningbo, Zhejiang, 315201, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Yang, Dayong",
+        "short_name": "Yang D",
+        "identifiers": [
+          "0000-0002-2634-9281"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Synthetic Biology, Frontiers Science Center for Synthetic Biology, Key Laboratory of Systems Bioengineering (MOE), School of Synthetic Biology and Biomanufacturing, Tianjin University, Tianjin, 300350, P.R. China. chi.yao@tju.edu.cn.",
+          "Zhejiang Institute of Tianjin University, Ningbo, Zhejiang, 315201, P.R. China.",
+          "Department of Chemistry, State Key Laboratory of Molecular Engineering of Polymers, Fudan University, Shanghai, 200438, P.R. China. dayongyang@fudan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nanoscale"
+    ],
+    "journal_abbrev": [
+      "Nanoscale"
+    ],
+    "pub_date": "2026 Apr 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/27 13:06",
+    "fetched_at": "2026-09-18 01:08:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41758048",
+      "41587927",
+      "41979049",
+      "41480717",
+      "41721403",
+      "41469832",
+      "39178343",
+      "38588907",
+      "42070290",
+      "41889100",
+      "41873070",
+      "41307542",
+      "40112030",
+      "39670461",
+      "41904915",
+      "35252623",
+      "39964249",
+      "39987501",
+      "42126444",
+      "41729997",
+      "42420726",
+      "42033523",
+      "40849651",
+      "42231671",
+      "38621751",
+      "40168179",
+      "41365436",
+      "39622001",
+      "39271032",
+      "23912807",
+      "37925283",
+      "42105641",
+      "40616404",
+      "42149037",
+      "42220425",
+      "41636358",
+      "40791163",
+      "41575805",
+      "39575859",
+      "42225537",
+      "36279601",
+      "32405004",
+      "38252962",
+      "34759902",
+      "40515902",
+      "39705832",
+      "31411853",
+      "41781700",
+      "41310154",
+      "34129784",
+      "38803334",
+      "42002974",
+      "34664748",
+      "40969122",
+      "37496271",
+      "38547652",
+      "38481812",
+      "39675392",
+      "41997364",
+      "40550186",
+      "38884477",
+      "41860722",
+      "38360555",
+      "39565729",
+      "37295295",
+      "35867936",
+      "41524407",
+      "40304369",
+      "40545646",
+      "41703712",
+      "37359769",
+      "35803926",
+      "41003226",
+      "40381401",
+      "38063081",
+      "36690068",
+      "38773325",
+      "39058398",
+      "35090078",
+      "37202374",
+      "42154217",
+      "40675979",
+      "41946638",
+      "36240277",
+      "40854822",
+      "40509934",
+      "40801528",
+      "38175843",
+      "41596484",
+      "39037698",
+      "39290787",
+      "40931032",
+      "38804888",
+      "38251748",
+      "41080444",
+      "41881074",
+      "35596607",
+      "41163338",
+      "41191214",
+      "37895097"
+    ],
+    "review": [
+      "41758048",
+      "41587927",
+      "41979049",
+      "41480717",
+      "41721403",
+      "41469832",
+      "39178343",
+      "38588907",
+      "42070290",
+      "41889100",
+      "41873070",
+      "41307542",
+      "41904915",
+      "39964249",
+      "42033523",
+      "40849651",
+      "38621751",
+      "41365436",
+      "39622001",
+      "39271032",
+      "37925283",
+      "42105641",
+      "40616404",
+      "42220425",
+      "41636358",
+      "41575805",
+      "39575859",
+      "42225537",
+      "36279601",
+      "34759902",
+      "39705832",
+      "31411853",
+      "41781700",
+      "41310154",
+      "34129784",
+      "40969122",
+      "37496271",
+      "38547652",
+      "38481812",
+      "39675392",
+      "41997364",
+      "40550186",
+      "41860722",
+      "38360555",
+      "37295295",
+      "41524407",
+      "40304369",
+      "37359769",
+      "35803926",
+      "41003226",
+      "40381401",
+      "38773325",
+      "37202374",
+      "42154217",
+      "41946638",
+      "40854822",
+      "40801528",
+      "38175843",
+      "41596484",
+      "39037698",
+      "39290787",
+      "41881074",
+      "41163338",
+      "41191214"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d5nr05322f",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

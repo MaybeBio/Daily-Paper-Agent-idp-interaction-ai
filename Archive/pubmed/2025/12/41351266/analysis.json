@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41351266",
+  "title": "Hydration free energy is an incomplete predictor of globular protein incorporation into condensates.",
+  "authors": "Anderson, Sophie; Harrison, Malcolm; Dignon, Gregory L",
+  "journal": "Biophysical journal",
+  "published_date": "2025-12-06",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用多种计算方法预测球状蛋白客户端在无序蛋白支架凝聚体中的分配系数，聚焦水合自由能与相分离互作的关系，虽对象为球状蛋白而非IDP，但机制建模思路对IDR介导的PPI预测有启发。",
+  "abstract": "Membraneless organelles (MLOs) are assemblies of biomolecules that function without a dividing lipid membrane in a cellular environment. These MLOs, termed biomolecular condensates, are commonly formed by the thermodynamic process of liquid-liquid phase separation and assembly of large numbers of proteins, nucleic acids, and co-solvent molecules. Within MLOs, certain biomolecule types are particularly causative of phase separation and are termed \"scaffolds\" as they provide the major driving forces for self-assembly. Other molecules that are present in a condensate but are less causative than the scaffold molecules are termed \"clients.\" Much effort has recently decoded many of the molecular interactions underlying liquid-liquid phase separation in search of predicting equilibrium concentrations and materials properties of condensates. In this work, we provide a simple computational approach that may predict the partitioning of globular protein clients into condensates primarily composed of disordered protein scaffolds. Specifically, we use multiple methods to calculate hydration free energy of a series of globular green fluorescent protein variants and find that hydration free energy is relatively well-correlated with the partition coefficient of these proteins into FG nucleoporin condensates. We then provide a comparison of different hydration free energy predictors and discuss why some may provide a more accurate prediction of partitioning. Finally, we discuss the shortcomings of hydration free energy as a predictor by identifying other possible confounding factors such as specific interactions, charge matching, and differential solvation inside a condensate, which will aid in making more robust predictions in future studies trained on more diverse data sets.",
+  "abstract_zh": "无膜细胞器（MLOs）是生物分子的组装体，在细胞环境中无需分隔脂质膜即可发挥功能。这些MLOs被称为生物分子凝聚体，通常通过液-液相分离（liquid-liquid phase separation）的热力学过程以及大量蛋白质、核酸和共溶剂分子的组装而形成。在MLOs内部，某些特定类型的生物分子尤其容易引发相分离，被称为“支架”（scaffolds），因为它们为自组装提供了主要驱动力。而存在于凝聚体中但引发作用弱于支架分子的其他分子则被称为“客户”（clients）。近期大量研究已解析了许多液-液相分离背后的分子相互作用，旨在预测凝聚体的平衡浓度和材料性质。在本工作中，我们提供了一种简单的计算方法，可能用于预测球状蛋白客户在主要由无序蛋白支架组成的凝聚体中的分配情况。具体而言，我们使用多种方法计算一系列球状绿色荧光蛋白变体的水合自由能，并发现水合自由能与这些蛋白在FG核孔蛋白凝聚体中的分配系数相对较好地相关。随后，我们比较了不同的水合自由能预测器，并讨论了为何某些预测器可能提供更准确的分配预测。最后，我们通过识别其他可能的混杂因素（如特异性相互作用、电荷匹配和凝聚体内部的差异溶剂化）来讨论水合自由能作为预测器的局限性，这将有助于未来在更多样化数据集上训练时做出更稳健的预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41351266/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41351266/",
+  "paper_page_path": "papers/pubmed/41351266/index.html"
+}

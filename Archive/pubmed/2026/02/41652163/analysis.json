@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41652163",
+  "title": "Bridging Scales: Coarse-Grained Protein Models in Computational Biology.",
+  "authors": "Borges-Araujo, Luis; Patmanidis, Ilias; Razmazma, Hafez; Souza, Paulo C T",
+  "journal": "Advances in experimental medicine and biology",
+  "published_date": "2026-02-07",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 7,
+  "one_liner_zh": "综述粗粒化蛋白模型在计算生物学中的应用，涵盖蛋白折叠、PPI、相分离等，并展望AI驱动的参数化，虽非聚焦IDP但机制建模思路可迁移。",
+  "abstract": "Coarse-grained (CG) modeling has emerged as an essential tool in computational biology, offering a simplified yet effective representation of proteins and their interactions. By reducing atomic detail, CG models enhance computational efficiency while preserving critical physical and chemical properties, enabling the study of large-scale biological phenomena. These models facilitate the exploration of complex processes-such as protein folding, conformational dynamics, molecular interactions, and supramolecular assemblies-that are often inaccessible to all-atom simulations. This chapter provides an overview of CG protein modeling, tracing its historical development from early simplified representations to advanced coarse-graining techniques. We discuss fundamental principles, including bottom-up and top-down parameterization strategies, statistical potentials, and structure-based approaches like elastic network models and Go-like models. Key applications are explored, including insights into protein folding mechanisms, protein-protein interactions, phase separation, and protein-lipid interactions in complex cellular environments. Recent advances in CG-based drug discovery are also highlighted. The chapter concludes with a discussion on future directions for CG modeling, emphasizing hybrid approaches, artificial intelligence-driven parameterization, and enhanced force fields to improve accuracy and broaden applicability in computational biology.",
+  "abstract_zh": "粗粒化（CG）建模已成为计算生物学中的重要工具，通过简化而有效的表示方式，对蛋白质及其相互作用进行建模。通过减少原子细节，CG模型在提升计算效率的同时保留了关键的物理和化学性质，从而能够研究大规模生物现象。这些模型促进了对复杂过程的探索，如蛋白质折叠、构象动态、分子相互作用和超分子组装，而这些过程通常在全原子模拟中难以触及。本章概述了CG蛋白质建模，追溯了其从早期简化表示到先进粗粒化技术的发展历程。我们讨论了基本原理，包括自下而上和自上而下的参数化策略、统计势能，以及基于结构的方法，如弹性网络模型和Go类模型。还探讨了关键应用，包括对蛋白质折叠机制、蛋白质-蛋白质相互作用、相分离（phase separation）以及复杂细胞环境中蛋白质-脂质相互作用的深入理解。此外，还重点介绍了基于CG的药物发现的最新进展。本章最后讨论了CG建模的未来方向，强调混合方法、人工智能驱动的参数化以及增强力场，以提高准确性并拓宽其在计算生物学中的适用性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41652163/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41652163/",
+  "paper_page_path": "papers/pubmed/41652163/index.html"
+}

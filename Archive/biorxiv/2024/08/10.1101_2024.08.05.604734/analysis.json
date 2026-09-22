@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.08.05.604734",
+  "title": "The molecular basis of lamin-specific chromatin interactions",
+  "authors": "Wang B; Kronenberg-Tenga R; Rosti V; Di Patrizio Soldateschi E; Luo Q; Pinet L; Eibauer M; Boujemaa-Paterski R; Schuler B; Lanzuolo C; Medalia O",
+  "journal": "bioRxiv",
+  "published_date": "2024-08-05",
+  "window": {
+    "start": "2024-08-05",
+    "end": "2024-08-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过冷冻电镜和基因组分析揭示lamin A尾部与核小体的结合基序及染色质互作机制，对象为核纤层蛋白与染色质而非无序蛋白/IDR，且无AI或物理模拟方法，仅部分涉及蛋白-核酸互作机制，对本课题启发有限。",
+  "abstract": "In the cell nucleus, chromatin is anchored to the nuclear lamina, a network of lamin filaments and binding proteins that underly the inner nuclear membrane. The nuclear lamina is involved in chromatin organisation through the interaction of lamina-associated domains (LADs) within the densely packed heterochromatin regions. Employing cryo-focused ion beam (cryo-FIB) milling in conjunction with cryo-electron tomography (cryo-ET), we analysed the distribution of nucleosomes at the lamin-chromatin interface. Depletion of lamin A/C reduced the concentration of nucleosomes at the nuclear periphery, suggesting that lamins are directly involved in the interaction with chromatin. Using cryo-electron microscopy (cryo-EM), we then identified the specific binding motif of the lamin A tail domain that interacts with nucleosomes, distinguishing it from the other lamin isoforms. Furthermore, we examined chromatin structure dynamics using a genome-wide analysis that revealed lamin-dependent macroscopic-scale alterations in gene expression and chromatin remodelling. Our findings provide detailed insights into the dynamic and structural interplay between lamin isoforms and chromatin, molecular interactions which are shaping chromatin architecture and epigenetic regulation.",
+  "abstract_zh": "在细胞核中，染色质锚定于核纤层，这是一个由lamin丝状蛋白及结合蛋白构成的网络，位于内核膜之下。核纤层通过致密异染色质区域内的lamin相关结构域（LADs）的相互作用参与染色质组织。利用冷冻聚焦离子束（cryo-FIB）铣削结合冷冻电子断层扫描（cryo-ET），我们分析了lamin-染色质界面处核小体的分布。lamin A/C的缺失降低了核周缘核小体的浓度，表明lamins直接参与与染色质的相互作用。随后，利用冷冻电子显微镜（cryo-EM），我们鉴定了lamin A尾域与核小体相互作用的特定结合基序，并将其与其他lamin亚型区分开来。此外，我们通过全基因组分析研究了染色质结构动态，揭示了lamin依赖性的基因表达和染色质重塑中的宏观尺度变化。我们的发现为lamin亚型与染色质之间的动态和结构相互作用提供了详细见解，这些分子相互作用正在塑造染色质架构和表观遗传调控。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.08.05.604734",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.08.05.604734",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.08.05.604734/index.html"
+}

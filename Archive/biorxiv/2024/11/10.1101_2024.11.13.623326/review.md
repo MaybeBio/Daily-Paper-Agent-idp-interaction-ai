@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report construction of a retroviral-human PPI network from public databases (1,387 interactions, 29 retroviral and 1,026 human genes), generation of a pseudo-negative dataset, evaluation of five machine learning models, and identification of GC content and semantic similarity as influential features. They claim LR and KNN models showed strongest performance with sensitivities up to 77% and specificities of 52%, and that feature-selected models improved accuracy with reduced complexity. They further claim the approach offers insights into viral-host interaction networks and guides therapeutic target identification, highlighting ENV_HV1H2 and CD4 as pivotal proteins.
+- **Visible evidence base** Abstract text only; no performance tables, feature importance figures, dataset descriptions, or methodological details
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset construction details, model hyperparameters, cross-validation scheme, baseline comparisons, and code or data availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of machine learning to retroviral-human PPI prediction, but the reported performance metrics are weak and internally inconsistent. The claim that LR and KNN models demonstrated the strongest performance is not supported by the reported sensitivity and specificity values, which suggest poor discrimination. The abstract also conflates five models in the methods description with six in the results, and the significance statement makes therapeutic claims that go well beyond the evidence presented. The work may be of interest to computational virologists, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on host-pathogen interaction prediction, virologists studying retroviral pathogenesis, and researchers developing machine learning approaches for biological network inference. The methodological comparison of standard classifiers on a curated retroviral dataset may be useful as a benchmark, and the feature importance findings could inform future feature engineering efforts.
+- **Major strengths** The study addresses a relevant and under-explored problem in retroviral research. The use of multiple public databases to construct a retroviral-specific PPI network is a reasonable approach. The evaluation of multiple standard machine learning models provides a useful baseline comparison. The focus on feature importance analysis is a positive step toward model interpretability.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "LR and KNN models demonstrated the strongest predictive performance, with sensitivities up to 77% and specificities of 52%."  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Concern** The reported sensitivity of 77% and specificity of 52% indicate poor overall discrimination. A specificity of 52% is barely better than random guessing, and the abstract does not report balanced accuracy, AUC, or F1 scores. The claim of "strongest predictive performance" is not supported by these metrics. Additionally, the abstract states five models were evaluated but then names six (LR, SVM, NB, DT, RF, and KNN), creating an internal inconsistency.  
+  - **Why it matters** The core contribution of the paper is the predictive performance of the models. If the best models achieve only 52% specificity, the practical utility of the approach for identifying true VHPPIs is questionable, and the claim of strong performance is misleading. The model count inconsistency undermines confidence in the rigor of the reporting.  
+  - **Resolution test** Provide a complete performance table with all metrics (accuracy, sensitivity, specificity, PPV, NPV, AUC, F1) for all models, clarify the exact number of models evaluated, and justify why the reported performance constitutes "strong" predictive ability. If specificity remains near 52%, the claims must be revised to reflect modest performance.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence quality  
+  - **Claim pointer** "Models trained on selected features showed enhanced accuracy with reduced complexity."  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Concern** No quantitative evidence is provided for this claim. The abstract does not report the accuracy values before and after feature selection, the number of features selected, or the statistical significance of any improvement.  
+  - **Why it matters** Feature selection is presented as a key contribution, but without quantitative support the claim is unverifiable. If the improvement is marginal or not statistically significant, the conclusion is overstated.  
+  - **Resolution test** Report the specific accuracy values for full-feature versus selected-feature models, the number of features retained, and a statistical test (e.g., McNemar's test) demonstrating significant improvement.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim scope  
+  - **Claim pointer** "Targeting these specific interactions can potentially disrupt the viral lifecycle while minimizing toxicity to human cells. This study thus opens avenues for the development of selective therapeutic strategies."  
+  - **Evidence pointer** Abstract, significance section; location not provided  
+  - **Concern** The abstract makes therapeutic claims that are not supported by the presented evidence. The study is a computational prediction exercise with modest performance metrics. No experimental validation, functional assays, or in vivo evidence is presented to support claims about disrupting the viral lifecycle or minimizing toxicity.  
+  - **Why it matters** Overstating therapeutic implications can mislead readers and overstate the translational readiness of the findings. The claims go beyond what a computational prediction study with 52% specificity can support.  
+  - **Resolution test** Revise the significance statement to reflect the computational nature of the study, and either remove or substantially temper the therapeutic claims. If the authors wish to retain these claims, they must provide experimental validation data.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Methodology transparency  
+  - **Claim pointer** "Using minimal sequence similarity, we generated a pseudo-negative dataset for model reliability."  
+  - **Evidence pointer** Abstract, methods description; location not provided  
+  - **Concern** The abstract does not explain what "minimal sequence similarity" means quantitatively, how the threshold was chosen, or how the pseudo-negative dataset was validated. The reliability of the negative set is critical for the validity of all model performance metrics.  
+  - **Why it matters** If the pseudo-negatives are not truly negative, the reported performance metrics are meaningless. The abstract provides insufficient detail to assess the validity of this foundational methodological choice.  
+  - **Resolution test** Provide a detailed description of the pseudo-negative generation procedure, including the sequence similarity threshold, the rationale for its selection, and any validation steps taken to confirm the negatives are likely true negatives.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Internal consistency  
+  - **Affected element** Model count  
+  - **Evidence pointer** Abstract, methods and results sections; location not provided  
+  - **Issue** The abstract states five models were evaluated but then lists six (LR, SVM, NB, DT, RF, and KNN).  
+  - **Required correction** Clarify the exact number of models and ensure consistency between the methods and results descriptions.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reporting completeness  
+  - **Affected element** Performance metrics  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Issue** The abstract reports sensitivity and specificity but omits other standard metrics such as AUC, F1, and balanced accuracy, which are necessary for a complete assessment of model performance.  
+  - **Required correction** Include a full set of performance metrics for all models, or state where these can be found in the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretability  
+  - **Affected element** Feature importance  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Issue** The abstract states that GC content and semantic similarity were influential predictors but does not explain the direction of the effect or the biological interpretation.  
+  - **Required correction** Provide a brief interpretation of why these features are biologically plausible predictors of VHPPIs.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Data and code availability  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No statement is provided regarding data availability, code availability, or the specific versions of the public databases used.  
+  - **Required correction** Add a data and code availability statement, and specify the database versions and access dates.  
+  - **Concern ID** R1-m5  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Model naming  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Issue** The abstract refers to "LR and KNN models" as strongest, but KNN was not listed in the initial enumeration of five models.  
+  - **Required correction** Ensure all model names are introduced consistently and that the results section aligns with the methods description.  
+
+## Risk / unsupported claims
+- The claim that LR and KNN demonstrated "strongest predictive performance" is unsupported given the reported specificity of 52%, which is near random.
+- The claim that "models trained on selected features showed enhanced accuracy" is unsupported because no quantitative before-and-after values are provided.
+- The therapeutic claims regarding disrupting the viral lifecycle and minimizing toxicity are unsupported by the evidence presented in the abstract.
+- The claim that ENV_HV1H2 and CD4 "play pivotal roles" is not supported by any experimental or functional evidence in the abstract.
+- The overall significance statement about "marking a significant step forward in computational virology and drug discovery" is overstated relative to the modest performance metrics reported.

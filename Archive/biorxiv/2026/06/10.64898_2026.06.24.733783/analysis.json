@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.24.733783",
+  "title": "The Hidden Disorder Divide: Reconciling Benchmark Inconsistencies in Intrinsically Disordered Protein Binding Site Prediction",
+  "authors": "Nawar Malhis; Mahta Mehdiabadi; Gábor Erdős; Jörg Gsponer; Lukasz Kurgan; Silvio C E Tosatto; Zsuzsanna Dosztanyi; Damiano Piovesan",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-27",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究系统分析无序蛋白结合位点预测器在不同基准数据集上的性能差异，揭示无序倾向性选择偏差，虽未直接建模互作机制，但为IDR-PPI预测的基准与训练策略提供了关键方法学洞察。",
+  "abstract": "Computational predictors of protein-binding sites within intrinsically disordered regions (IDRs) show highly inconsistent performance across high-quality benchmark datasets. To understand the origins of these discrepancies, we systematically compared predictors across three independent test sets: two CAID datasets updated with the latest DisProt annotations and a composite dataset (DBs) assembled from DIBS, FuzDB, IDEAL, and MFIB. Predictors trained predominantly on DisProt data achieved substantially higher AUCs on the CAID sets but performed poorly on the DBs. In contrast, predictors trained on older, low-quality PDB-based datasets showed balanced performance across all sets, with a slight preference for DBs. Predictors with mixed training exposure displayed intermediate behavior. Through controlled experiments using identical CNN architectures and feature analysis, we demonstrate that the dominant factor driving these performance differences is the intrinsic disorder propensity of the binding sites themselves. Binding residues in DisProt-based datasets exhibit markedly higher average disorder propensity scores than those in PDB-derived datasets. This previously unrecognized selection bias — literature studies preferentially characterizing more disordered binding sites, while PDB-derived annotations capture less disordered ones — effectively splits IDR-protein binding sites into two distinct categories. Predictors optimized on one category therefore generalize poorly to the other. Binding-site length and sequence conservation play only minor or negligible roles in explaining the observed inconsistencies. These findings highlight a critical limitation in current benchmarking practices and training strategies for IDR-binding site prediction, underscoring the need for more balanced and disorder-aware reference datasets. Finally, the diagnostic techniques introduced here could prove valuable beyond the specific application examined in this study. The data and code used to generate all figures and tables are available at: https://github.com/NawarMalhis/HDD",
+  "abstract_zh": "intrinsically disordered regions (IDRs) 内蛋白质结合位点的计算预测器在高品质基准数据集上表现出高度不一致的性能。为理解这些差异的根源，我们系统比较了三个独立测试集上的预测器：两个CAID数据集（已更新至最新的DisProt注释）以及一个由DIBS、FuzDB、IDEAL和MFIB组成的复合数据集（DBs）。主要基于DisProt数据训练的预测器在CAID集上取得了显著更高的AUC，但在DBs上表现不佳。相反，基于较旧、低品质的PDB数据集训练的预测器在所有集上表现均衡，略微偏好DBs。混合训练暴露的预测器表现出中间行为。通过使用相同CNN架构和特征分析的受控实验，我们证明驱动这些性能差异的主要因素是结合位点本身的内在无序倾向性。基于DisProt数据集的结合残基显示出比PDB衍生数据集显著更高的平均无序倾向性得分。这种先前未被识别的选择偏差——文献研究优先表征更无序的结合位点，而PDB衍生注释捕获较少无序的位点——有效地将IDR蛋白质结合位点分为两个不同类别。因此，针对一个类别优化的预测器对另一个类别的泛化能力较差。结合位点长度和序列保守性在解释观察到的差异中仅起次要或可忽略的作用。这些发现突显了当前IDR结合位点预测基准测试实践和训练策略的关键局限性，强调需要更均衡且无序感知的参考数据集。最后，本文引入的诊断技术可能在本研究的具体应用之外具有价值。用于生成所有图表的数据和代码可在以下网址获取：https://github.com/NawarMalhis/HDD",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.24.733783",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.24.733783",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.24.733783/index.html"
+}

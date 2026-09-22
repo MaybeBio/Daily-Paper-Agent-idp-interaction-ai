@@ -1,0 +1,220 @@
+{
+  "identity": {
+    "pmid": "36397514",
+    "doi": "10.1103/PhysRevE.106.044403",
+    "title": "Dynamics of protein condensates in weak-binding regime."
+  },
+  "content": {
+    "abstract": "Weak complementary interactions between proteins and nucleic acids are the main driving forces of intracellular liquid-liquid phase separation. The sticker-spacer model has emerged as a unifying principle for understanding the phase behavior of these multivalent molecules. It remains elusive how specific interactions mediated by stickers contribute to the rheological properties of the liquid condensates. Previous studies have revealed that for strong binding strength varepsilon_b, the bulk diffusivity D depends on the effective bond lifetime tau, viz., D proportional, varianttau;-1. Consequently, equal concentrations of the complementary stickers induce a slow down in the dynamics of the condensates D proportional, variante;-1.5varepsilon_b. However, for weak-binding strength, it is expected that the resulting condensates are dynamic, loose network liquids rather than kinetically arrested, compact clusters. We develop a mean-field theory using the thermodynamics of the associative polymers and perform molecular-dynamics simulations based on the sticker-spacer model to study the controlling factors in the structure and dynamics of such condensates in the weak-binding regime. Through scaling analysis, we delineate how the free sticker fraction W_f and the bulk diffusivity D decrease with increasing binding energy and find that the internal dynamics of such network liquids are controlled by the free sticker fraction D proportional, variantW_f proportional, variante;-0.5varepsilon_b rather than the effective bond lifetime. Referred to as the free-sticker-dominated diffusivity, the microscopic slowdown due to a gradual loss of the free stickers affects the viscosity of the condensates as well, with the scaling of the zero-shear viscosity eta proportional, variante;0.5varepsilon_b. Therefore, the way of controlling the structure, diffusivity, and viscosity of the condensates through the binding energy can be tested experimentally.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xiang, Ya-Xin",
+        "Shan, Yue",
+        "Lei, Qun-Li",
+        "Ren, Chun-Lai",
+        "Ma, Yu-Qiang"
+      ],
+      "short_names": [
+        "Xiang YX",
+        "Shan Y",
+        "Lei QL",
+        "Ren CL",
+        "Ma YQ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Laboratory of Solid State Microstructures and Department of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China.",
+        "National Laboratory of Solid State Microstructures and Department of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China.",
+        "National Laboratory of Solid State Microstructures and Department of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China.",
+        "National Laboratory of Solid State Microstructures and Department of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China.",
+        "National Laboratory of Solid State Microstructures and Department of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xiang, Ya-Xin",
+        "short_name": "Xiang YX",
+        "identifiers": [],
+        "affiliations": [
+          "National Laboratory of Solid State Microstructures and Department of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China."
+        ]
+      },
+      {
+        "full_name": "Shan, Yue",
+        "short_name": "Shan Y",
+        "identifiers": [],
+        "affiliations": [
+          "National Laboratory of Solid State Microstructures and Department of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Qun-Li",
+        "short_name": "Lei QL",
+        "identifiers": [],
+        "affiliations": [
+          "National Laboratory of Solid State Microstructures and Department of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Chun-Lai",
+        "short_name": "Ren CL",
+        "identifiers": [],
+        "affiliations": [
+          "National Laboratory of Solid State Microstructures and Department of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yu-Qiang",
+        "short_name": "Ma YQ",
+        "identifiers": [],
+        "affiliations": [
+          "National Laboratory of Solid State Microstructures and Department of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing 210093, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical review. E"
+    ],
+    "journal_abbrev": [
+      "Phys Rev E"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/19 06:00",
+    "fetched_at": "2026-09-20 16:46:35"
+  },
+  "links": {
+    "cites": [
+      "41481439",
+      "40791470",
+      "40455990",
+      "39674888",
+      "39589726",
+      "39398199",
+      "38429263",
+      "37873097",
+      "37215004"
+    ],
+    "refs": [],
+    "similar": [
+      "36397514",
+      "35119898",
+      "32004090",
+      "37873097",
+      "37194953",
+      "34785657",
+      "39386700",
+      "37489654",
+      "33453268",
+      "31634364",
+      "39071339",
+      "38076908",
+      "33653957",
+      "38591689",
+      "39386612",
+      "36513655",
+      "35198903",
+      "36311031",
+      "32484438",
+      "32937111",
+      "23075139",
+      "35597653",
+      "37066350",
+      "21090870",
+      "32405004",
+      "36175408",
+      "36755024",
+      "39091847",
+      "33406825",
+      "37955602",
+      "36227469",
+      "38798623",
+      "30253630",
+      "35501484",
+      "32662769",
+      "35881789",
+      "33119461",
+      "33640380",
+      "33087563",
+      "31017394",
+      "38842208",
+      "23912807",
+      "38809420",
+      "33704061",
+      "33539874",
+      "35016968",
+      "28799375",
+      "25353501",
+      "29166120",
+      "9083660",
+      "35643628",
+      "33982350",
+      "36004748",
+      "34636323",
+      "34553209",
+      "35597639",
+      "34772789",
+      "31790873",
+      "33864415",
+      "33629837",
+      "30018463",
+      "34551999",
+      "35815989",
+      "31437398",
+      "35126984",
+      "11308796",
+      "33144560",
+      "33300985",
+      "33571491",
+      "15024618",
+      "30260654",
+      "31606941",
+      "21517504",
+      "29170685",
+      "21107880",
+      "22647845",
+      "30608810",
+      "30514760",
+      "34374536",
+      "32822449",
+      "32426986",
+      "35796975",
+      "18590325",
+      "37560814",
+      "35911447",
+      "36378781",
+      "36797867",
+      "33212590",
+      "37027840",
+      "33691085"
+    ],
+    "review": [
+      "36397514",
+      "32004090",
+      "33539874",
+      "34772789",
+      "31790873",
+      "35815989",
+      "33300985",
+      "31606941"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

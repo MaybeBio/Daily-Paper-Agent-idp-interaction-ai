@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37144752",
+  "title": "Interaction and simulation studies suggest the possible molecular targets of intrinsically disordered amyloidogenic antimicrobial peptides in Acinetobacter baumannii.",
+  "authors": "Sarkar, Sayani; Kumari, Aruna; Tiwari, Monalisa; Tiwari, Vishvanath",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2023-05-05",
+  "window": {
+    "start": "2023-05-01",
+    "end": "2023-05-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究以无序淀粉样抗菌肽为对象，通过对接和分子动力学模拟预测其在鲍曼不动杆菌中的蛋白靶点，并考察寡聚化状态下的互作，虽聚焦抗菌肽-靶蛋白而非典型PPI机制建模，但对象与方法均相关，具一定启发。",
+  "abstract": "Acinetobacter baumannii is one of the causing agents of nosocomial infections. A wide range of antibiotics fails to work against these pathogens. Hence, there is an urgent requirement to develop other therapeutics to solve this problem. Antimicrobial peptides (AMPs) are a diverse group of naturally occurring peptides that have the ability to kill diverse groups of microorganisms. The major challenge of using AMPs as therapeutics is their unstable nature and the fact that most of their molecular targets are still unknown. In this study, we have selected intrinsically disordered and amyloidogenic AMPs, showing activity against A. baumannii, that is, Bactenecin, Cath BF, Citropin 1.1, DP7, NA-CATH, Tachyplesin, and WAM-1. To identify the probable target of these AMPs in A. baumannii, calculation of docking score, binding energy, dissociation constant, and molecular dynamics analysis was performed with selected seventeen possible molecular targets. The result showed that the most probable molecular targets of most of the intrinsically disordered amyloidogenic AMPs were UDP-N-acetylenol-pyruvoyl-glucosamine reductase (MurB), followed by 33-36 kDa outer membrane protein (Omp 33-36), UDP-N-acetylmuramoyl-l-alanyl-d-glutamate-2,6-diaminopimelate ligase (MurE), and porin Subfamily Protein (PorinSubF). Further, molecular dynamics analysis concluded that the target of antimicrobial peptide Bactenecin is MurB of A. baumannii, and identified other molecular targets of selected AMPs. Additionally, the oligomerization capacity of the selected AMPs was also investigated, and it was shown that the selected AMPs form oligomeric states, and interact with their molecular targets in that state. Experimental validation using purified AMPs and molecular targets needs to be done to confirm the interaction.Communicated by Ramaswamy H. Sarma.",
+  "abstract_zh": "鲍曼不动杆菌（Acinetobacter baumannii）是医院感染（nosocomial infections）的病原体之一。多种抗生素对这些病原体无效。因此，迫切需要开发其他治疗手段来解决这一问题。抗菌肽（antimicrobial peptides, AMPs）是一类多样化的天然肽，具有杀灭多种微生物的能力。将AMPs用作治疗药物的主要挑战在于其不稳定性以及大多数分子靶点仍未知。在本研究中，我们选择了具有内在无序性和淀粉样生成特性的AMPs，这些AMPs对鲍曼不动杆菌表现出活性，即Bactenecin、Cath BF、Citropin 1.1、DP7、NA-CATH、Tachyplesin和WAM-1。为识别这些AMPs在鲍曼不动杆菌中的可能靶点，我们与选定的十七个潜在分子靶点进行了对接评分、结合能、解离常数及分子动力学（molecular dynamics）分析。结果表明，大多数内在无序性淀粉样生成AMPs的最可能分子靶点是UDP-N-乙酰烯醇丙酮酰葡糖胺还原酶（UDP-N-acetylenol-pyruvoyl-glucosamine reductase, MurB），其次是33-36 kDa外膜蛋白（Omp 33-36）、UDP-N-乙酰胞壁酰-L-丙氨酰-D-谷氨酸-2,6-二氨基庚二酸连接酶（UDP-N-acetylmuramoyl-l-alanyl-d-glutamate-2,6-diaminopimelate ligase, MurE）和孔蛋白亚家族蛋白（PorinSubF）。进一步，分子动力学分析得出结论，抗菌肽Bactenecin的靶点是鲍曼不动杆菌的MurB，并识别了所选AMPs的其他分子靶点。此外，还研究了所选AMPs的寡聚化能力，结果表明所选AMPs形成寡聚状态，并以该状态与其分子靶点相互作用。需使用纯化的AMPs和分子靶点进行实验验证以确认相互作用。由Ramaswamy H. Sarma通讯。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37144752/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37144752/",
+  "paper_page_path": "papers/pubmed/37144752/index.html"
+}

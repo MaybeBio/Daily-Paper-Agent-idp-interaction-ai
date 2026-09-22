@@ -1,0 +1,73 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, as supplied
+- **Shared manuscript claim summary** The authors report microsecond molecular dynamics simulations showing that naphthoquinone-dopamine hybrids (NQDA) disrupt alpha-synuclein fibrils more effectively than naphthoquinone (NQ), dopamine (DA), or their mixture, via synergistic intramolecular interactions involving cation-pi, H-bonding, and pi-pi stacking with specific residues.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or simulation details provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field details, convergence criteria, statistical analyses, structural figures, quantitative data, and comparison metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis supported by qualitative simulation observations, but the evidence base is insufficient to evaluate the rigor, reproducibility, or statistical validity of the claims. The central conclusion of synergistic fibril disruption is not quantitatively substantiated from the supplied material.
+- **Who would be interested in the results, and why** Researchers in neurodegenerative disease drug discovery, computational biophysics, and amyloid biology would be interested, as the work addresses a potential therapeutic strategy for Parkinson's disease and provides atomic-level mechanistic insights into small-molecule fibril disruption.
+- **Major strengths** The study addresses a clinically relevant problem with a clear comparative design. The proposed mechanism involving synergistic interactions between NQ and DA groups is chemically intuitive and testable. The use of microsecond simulations is appropriate for studying fibril dynamics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "NQDA reduces the beta-sheet content, disrupts K45-E57 and E46-K80 salt-bridges, weakens the inter-protofibril interaction, and thus destabilizes the alphaSyn fibril structure"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports qualitative changes in beta-sheet content, salt-bridge stability, and inter-protofibril interactions without providing quantitative values, error bars, or statistical significance. No simulation replicates or convergence metrics are mentioned.
+  - **Why it matters** Without quantitative measures and statistical validation, the reader cannot assess whether the observed effects are robust or within thermal fluctuations. This is essential for establishing a credible mechanistic claim.
+  - **Resolution test** Provide quantitative metrics (e.g., beta-sheet fraction over time, salt-bridge occupancy, inter-protofibril contact area) with standard deviations across independent replicates and statistical tests comparing conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "NQDA has a better fibril destabilization effect than that of NQ, DA, and NQ+DA molecules"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The comparative claim is stated without any quantitative comparison metric, such as free energy differences, root-mean-square deviation changes, or binding affinities. The basis for "better" is undefined.
+  - **Why it matters** A comparative superiority claim requires a defined, quantitative outcome measure. Without it, the conclusion is not falsifiable or reproducible.
+  - **Resolution test** Define a primary outcome metric (e.g., fibril stability index, dissociation rate) and report values with uncertainties for all four conditions, with appropriate statistical comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "The DA group can form strong pi-pi stacking interactions with aromatic residues Y39/F94 of the alphaSyn fibril, while the DA molecule cannot"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The differential behavior between the DA group in NQDA and free DA is stated without mechanistic explanation or supporting data. No interaction energy calculations or geometric criteria are provided.
+  - **Why it matters** This is a key mechanistic distinction underlying the synergy claim. Without evidence, the assertion appears speculative.
+  - **Resolution test** Provide interaction energy profiles and geometric analyses for pi-pi stacking in both cases, with quantitative comparisons and discussion of why conjugation alters DA behavior.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "intramolecular synergistic interactions" is used but not defined. It is unclear whether this refers to interactions within the NQDA molecule or between NQDA and the fibril.
+  - **Required correction** Clarify the term, e.g., "synergistic interactions arising from the covalently linked NQ and DA groups within a single NQDA molecule."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "microsecond molecular dynamics simulations" but does not specify the number of replicates, total simulation time per condition, or force field used.
+  - **Required correction** Include these details in the abstract or refer to a methods section with full specifications.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Biological relevance
+  - **Affected element** Translational claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the results "offer new clues for the screening and development of promising drug candidates" but does not discuss limitations of simulation-based predictions for in vivo efficacy.
+  - **Required correction** Add a sentence acknowledging that experimental validation is required to confirm therapeutic potential.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core mechanistic and comparative claims lack quantitative support and statistical validation, and the differential DA behavior is not substantiated.
+- **Assessment against Nature-style criteria** Originality is moderate, as the concept of small-molecule fibril disruption is established, though the specific NQDA synergy mechanism is novel. Scientific importance is high given the clinical relevance to Parkinson's disease. Interdisciplinary readership is plausible, spanning chemistry, biophysics, and neuroscience. Technical soundness is currently not assessable due to missing quantitative data and methods. Readability for nonspecialists is adequate, but the abstract assumes familiarity with simulation terminology and amyloid structure.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising hypothesis, but the claims require quantitative validation and full methodological transparency before the mechanistic case can be accepted.
+
+## Risk / unsupported claims
+- The claim that NQDA "reduces the beta-sheet content" is unsupported without quantitative data.
+- The claim that NQDA "disrupts K45-E57 and E46-K80 salt-bridges" is unsupported without occupancy or lifetime analyses.
+- The claim that NQDA "weakens the inter-protofibril interaction" is unsupported without interaction energy calculations.
+- The comparative superiority claim over NQ, DA, and NQ+DA is unsupported without a defined metric.
+- The claim that the DA group in NQDA forms stronger pi-pi stacking than free DA is unsupported without interaction energy data.
+- The claim of "synergistic fibril-binding effect" is not quantitatively demonstrated.
+- The translational claim regarding drug candidate screening is speculative without experimental validation.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.07.642105",
+  "title": "SEHI-PPI: An End-to-End Sampling-Enhanced Human-Influenza Protein-Protein Interaction Prediction Framework with Double-View Learning",
+  "authors": "Qiang Yang; Xiao Fan; Haiqing Zhao; Zhe Ma; Megan Stanifer; Jiang Bian; Marco Salemi; Rui Yin",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-12",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 6,
+  "one_liner_zh": "提出一个双视图深度学习框架SEHI-PPI用于人-流感病毒PPI预测，结合自适应负采样和AlphaFold3验证，虽非IDP/相分离对象，但PPI预测与机制验证方法对本课题有可迁移启发。",
+  "abstract": "Influenza continues to pose significant global health threats, hijacking host cellular machinery through protein-protein interactions (PPIs), which are fundamental to viral entry, replication, immune evasion, and transmission. Yet, our understanding of these host-virus PPIs remains incomplete due to the vast diversity of viral proteins, their rapid mutation rates, and the limited availability of experimentally validated interaction data. Additionally, existing computational methods often struggle due to the limited availability of high-quality samples and their inability to effectively model the complex nature of host-virus interactions. To address these challenges, we present SEHI-PPI, an end-to-end framework for human-influenza PPI prediction. SEHI-PPI integrates a double-view deep learning architecture that captures both global and local sequence features, coupled with a novel adaptive negative sampling strategy to generate reliable and high-quality negative samples. Our method outperforms multiple benchmarks, including state-of-the-art large language models, achieving a superior performance in sensitivity (0.986) and AUROC (0.987). Notably, in a stringent test involving entirely unseen human and influenza protein families, SEHI-PPI maintains strong performance with an AUROC of 0.837. The model also demonstrates high generalizability across other human-virus PPI datasets, with an average sensitivity of 0.929 and AUROC of 0.928. Furthermore, AlphaFold3-guided case studies reveal that viral proteins predicted to target the same human protein cluster together structurally and functionally, underscoring the biological relevance of our predictions. These discoveries demonstrate the reliability of our SEHI-PPI framework in uncovering biologically meaningful host-virus interactions and potential therapeutic targets.",
+  "abstract_zh": "流感持续对全球健康构成重大威胁，通过蛋白质-蛋白质相互作用（PPIs）劫持宿主细胞机制，这些相互作用是病毒进入、复制、免疫逃逸和传播的基础。然而，由于病毒蛋白的巨大多样性、其快速突变率以及实验验证的相互作用数据有限，我们对这些宿主-病毒PPIs的理解仍不完整。此外，现有计算方法常因高质量样本有限及其无法有效建模宿主-病毒相互作用的复杂性质而面临困难。为应对这些挑战，我们提出了SEHI-PPI，一个用于人-流感PPI预测的端到端框架。SEHI-PPI整合了双视图深度学习架构，捕获全局和局部序列特征，并结合一种新颖的自适应负采样策略，以生成可靠且高质量的负样本。我们的方法在多个基准测试中优于现有方法，包括最先进的大语言模型，在敏感性（0.986）和AUROC（0.987）方面取得了卓越性能。值得注意的是，在涉及完全未见的人类和流感蛋白家族的严格测试中，SEHI-PPI保持了强劲性能，AUROC为0.837。该模型在其他人类-病毒PPI数据集上也表现出高泛化能力，平均敏感性为0.929，AUROC为0.928。此外，AlphaFold3引导的案例研究显示，预测靶向同一人类蛋白的病毒蛋白在结构和功能上聚集在一起，强调了我们的预测的生物学相关性。这些发现证明了我们的SEHI-PPI框架在揭示具有生物学意义的宿主-病毒相互作用和潜在治疗靶点方面的可靠性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.07.642105",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.07.642105",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.07.642105/index.html"
+}

@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "40791366",
+    "doi": "10.1101/2025.07.13.664571",
+    "title": "Cahn-Hilliard dynamical models for condensed biomolecular systems."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates create dynamic subcellular compartments that alter systems-level properties of the networks surrounding them. One model combining soluble and condensed states is the Cahn-Hilliard equation, which specifies a diffuse interface between the two phases. Customized approaches required to solve this equation are largely inaccessible. Using two complementary numerical strategies, we built stable, self-consistent Cahn-Hilliard solvers in Python, MATLAB, and Julia. The algorithms simulated the complete time evolution of condensed droplets as they dissolved or persisted, relating critical droplet size to a coefficient for the diffuse interface in the Cahn-Hilliard equation. We applied this universal relationship to the chromosomal passenger complex, a multi-protein assembly that reportedly condenses on mitotic chromosomes. The fully constrained Cahn-Hilliard simulations yielded dewetting and coarsening behaviors that closely mirrored experiments in different cell types. The Cahn-Hilliard equation tests whether condensate dynamics behave as a phase-separated liquid, and its numerical solutions advance generalized modeling of biomolecular systems.",
+    "keywords": [
+      "CPC",
+      "HeLa",
+      "MCF10A",
+      "Phase separation",
+      "cancer",
+      "multigrid",
+      "scalar auxiliary variables"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Groves, Sarah M",
+        "Lu, Min-Jhe",
+        "Alvarez-Yela, Astrid Catalina",
+        "Gerardo-Ramirez, Monserrat",
+        "Stukenberg, P Todd",
+        "Lowengrub, John S",
+        "Janes, Kevin A"
+      ],
+      "short_names": [
+        "Groves SM",
+        "Lu MJ",
+        "Alvarez-Yela AC",
+        "Gerardo-Ramirez M",
+        "Stukenberg PT",
+        "Lowengrub JS",
+        "Janes KA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8028-6138"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, University of Virginia, Charlottesville, VA 22908, U.S.A.",
+        "These authors contributed equally.",
+        "Institute of Computational and Modeling Science, National Tsing Hua University, Hsinchu 300044, Taiwan.",
+        "These authors contributed equally.",
+        "Department of Biomedical Engineering, University of Virginia, Charlottesville, VA 22908, U.S.A.",
+        "Department of Biochemistry & Molecular Genetics, University of Virginia, Charlottesville, VA 22908, U.S.A.",
+        "Department of Biochemistry & Molecular Genetics, University of Virginia, Charlottesville, VA 22908, U.S.A.",
+        "Department of Mathematics, University of California at Irvine, Irvine, CA 92697, U.S.A.",
+        "Department of Biomedical Engineering, University of California at Irvine, Irvine, CA 92697, U.S.A.",
+        "Department of Biomedical Engineering, University of Virginia, Charlottesville, VA 22908, U.S.A.",
+        "Department of Biochemistry & Molecular Genetics, University of Virginia, Charlottesville, VA 22908, U.S.A.",
+        "Lead Contact."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Groves, Sarah M",
+        "short_name": "Groves SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Virginia, Charlottesville, VA 22908, U.S.A.",
+          "These authors contributed equally."
+        ]
+      },
+      {
+        "full_name": "Lu, Min-Jhe",
+        "short_name": "Lu MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Computational and Modeling Science, National Tsing Hua University, Hsinchu 300044, Taiwan.",
+          "These authors contributed equally."
+        ]
+      },
+      {
+        "full_name": "Alvarez-Yela, Astrid Catalina",
+        "short_name": "Alvarez-Yela AC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Virginia, Charlottesville, VA 22908, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Gerardo-Ramírez, Monserrat",
+        "short_name": "Gerardo-Ramírez M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Genetics, University of Virginia, Charlottesville, VA 22908, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Stukenberg, P Todd",
+        "short_name": "Stukenberg PT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Genetics, University of Virginia, Charlottesville, VA 22908, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Lowengrub, John S",
+        "short_name": "Lowengrub JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, University of California at Irvine, Irvine, CA 92697, U.S.A.",
+          "Department of Biomedical Engineering, University of California at Irvine, Irvine, CA 92697, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Janes, Kevin A",
+        "short_name": "Janes KA",
+        "identifiers": [
+          "0000-0002-8028-6138"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Virginia, Charlottesville, VA 22908, U.S.A.",
+          "Department of Biochemistry & Molecular Genetics, University of Virginia, Charlottesville, VA 22908, U.S.A.",
+          "Lead Contact."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/12 11:15",
+    "fetched_at": "2026-09-21 22:26:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41193876",
+      "39385023",
+      "39333715",
+      "38905351",
+      "38781967",
+      "38614097",
+      "37862637",
+      "37683610",
+      "37055441",
+      "37024649",
+      "36657389",
+      "36459561",
+      "36368307",
+      "36323859",
+      "36071192",
+      "35507881",
+      "35211183",
+      "34883116",
+      "34702821",
+      "34400648",
+      "34135122",
+      "33113512",
+      "33110215",
+      "32939066",
+      "32684431",
+      "32028528",
+      "31753533",
+      "31570499",
+      "31481798",
+      "30778230",
+      "30737408",
+      "29973724",
+      "28935776",
+      "28681151",
+      "28343965",
+      "28225081",
+      "28202730",
+      "26705896",
+      "26175154",
+      "25852189",
+      "23818579",
+      "21529714",
+      "20929775",
+      "20228812",
+      "19918049",
+      "19053173",
+      "18345008",
+      "15314214",
+      "15117008",
+      "11923843",
+      "11815634",
+      "11799242",
+      "1975513"
+    ],
+    "similar": [
+      "40791366",
+      "31498000",
+      "20365347",
+      "11970189",
+      "24023005",
+      "24711722",
+      "41430887",
+      "39391269",
+      "36089998",
+      "39073969",
+      "33231755",
+      "34714899",
+      "15903773",
+      "15446995",
+      "37219647",
+      "17358244",
+      "21230581",
+      "38849360",
+      "24249770",
+      "34942763",
+      "16332371",
+      "27739765",
+      "31226118",
+      "18643048",
+      "16112129",
+      "34095939",
+      "41440410",
+      "31929667",
+      "9948031",
+      "41193708",
+      "35974741",
+      "31108671",
+      "34046183",
+      "24125222",
+      "15571701",
+      "27110063",
+      "34006003",
+      "40329837",
+      "26871173",
+      "40371835",
+      "11041932",
+      "29347565",
+      "25679741",
+      "32922975",
+      "26577816",
+      "11290190",
+      "36639416",
+      "36842986",
+      "34720441",
+      "37739387",
+      "31330677",
+      "17358297",
+      "30780260",
+      "34206440",
+      "38491582",
+      "21761246",
+      "35617199",
+      "39706156",
+      "33505106",
+      "17358456",
+      "36247354",
+      "23520980",
+      "26382361",
+      "41183382",
+      "33487635",
+      "40330639",
+      "39636062",
+      "12636669",
+      "22680484",
+      "30694617",
+      "40745720",
+      "26775855",
+      "27501043",
+      "14754351",
+      "17302490",
+      "17283787",
+      "28040877",
+      "16384226",
+      "29563232",
+      "23214691",
+      "39578406",
+      "11088203",
+      "24655256",
+      "19905429",
+      "32688516",
+      "27203128",
+      "37292351",
+      "40454651",
+      "22181256",
+      "38530026",
+      "27337660",
+      "28878994",
+      "34292744",
+      "28085309",
+      "29548246",
+      "11308714",
+      "39669103",
+      "29758731",
+      "27714344",
+      "37631531"
+    ],
+    "review": [
+      "40791366",
+      "32922975"
+    ],
+    "pmc": [
+      "12338720"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40791366/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.07.13.664571",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

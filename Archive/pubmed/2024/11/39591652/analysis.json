@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39591652",
+  "title": "Interaction-Dependent Secondary Structure of Peptides in Biomolecular Condensates.",
+  "authors": "Lorenz-Ochoa, Keegan A; Cho, Moonyeon; Parekh, Sapun H; Baiz, Carlos R",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2024-11-26",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究无序二肽重复蛋白(GR)20在凝聚体中的二级结构及氢键动力学，结合2D IR实验与MD模拟揭示互作类型对结构和动态的影响，虽非直接PPI建模，但聚焦IDR相分离中的互作机制，方法可迁移。",
+  "abstract": "Biomolecular condensates provide a mechanism for compartmentalization of biomolecules in eukaryotic cells. These liquid-like condensates are formed via liquid-liquid phase separation, by a plethora of interactions, and can mediate several biological processes in healthy cells. Expansions of dipeptide repeat proteins, DPRs, in which arginine rich DPRs like poly-proline-arginine (PR), and poly-glycine-arginine (GR), partition RNA into condensates can however induce cell toxicity. Here, we use (GR)(20) as a model for biological poly-GR and condense it using either excluded volume interactions with polyethylene glycol (PEG) as a crowder or direct electrostatic interactions with RNA oligomers. Using two-dimensional infrared (2D IR) spectroscopy, we observe that (GR)(20) condensed through an excluded volume forms beta-sheet structures, whereas (GR)(20) condensed with RNA forms loops. We also investigate local hydrogen-bond dynamics in the condensate and compare the measurements with molecular dynamics simulations. Hydrogen bond lifetimes undergo a marked slowdown compared to dynamics in the dilute phase. This is representative of confined water within the percolated networks inside the condensate due to the interaction present in the condensate disrupting H-bond networks. Overall, our results show that both protein structure and dynamics are inherently dependent on the type of interactions that stabilize the condensates.",
+  "abstract_zh": "生物分子凝聚体为真核细胞中生物分子的区室化提供了一种机制。这些液态凝聚体通过液-液相分离（liquid-liquid phase separation）及多种相互作用形成，并可在健康细胞中介导多种生物过程。然而，二肽重复蛋白（dipeptide repeat proteins, DPRs）的扩增，其中富含精氨酸的DPRs如聚脯氨酸-精氨酸（poly-proline-arginine, PR）和聚甘氨酸-精氨酸（poly-glycine-arginine, GR）将RNA分配至凝聚体中，可能诱导细胞毒性。在此，我们使用(GR)20作为生物多聚GR的模型，并通过与聚乙二醇（polyethylene glycol, PEG）作为拥挤剂的排除体积相互作用或与RNA寡聚体的直接静电相互作用将其凝聚。利用二维红外（two-dimensional infrared, 2D IR）光谱，我们观察到通过排除体积凝聚的(GR)20形成β-折叠结构，而与RNA凝聚的(GR)20则形成环状结构。我们还研究了凝聚体中的局部氢键动力学，并将测量结果与分子动力学（molecular dynamics）模拟进行比较。与稀相中的动力学相比，氢键寿命显著减慢。这代表了凝聚体内渗滤网络中受限水的存在，这是由于凝聚体中存在的相互作用破坏了氢键网络所致。总体而言，我们的结果表明，蛋白质结构和动力学本质上依赖于稳定凝聚体的相互作用类型。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39591652/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39591652/",
+  "paper_page_path": "papers/pubmed/39591652/index.html"
+}

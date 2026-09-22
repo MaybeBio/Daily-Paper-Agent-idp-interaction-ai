@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41231767",
+  "title": "DynaRepo: the repository of macromolecular conformational dynamics.",
+  "authors": "Mokhtari, Omid; Bignon, Emmanuelle; Khakzad, Hamed; Karami, Yasaman",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-11-13",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该文构建了包含约450个复合物和270个单链蛋白的分子动力学模拟数据库DynaRepo，覆盖抗体-抗原、无序蛋白及蛋白-核酸等动态互作体系，为动力学感知的深度学习建模提供数据基础，虽未直接建模IDR介导的PPI机制，但数据资源和方法思路对本课题有重要启发。",
+  "abstract": "Proteins, RNA, and DNA are central to virtually all cellular processes, often assembling into macromolecular complexes to perform their functions. While these molecules are inherently dynamic, most methods for studying their mechanisms focus on static structures. Recent deep learning advances in protein structure prediction highlight the potential of data-driven approaches, yet dynamic behavior that is critical for interactions such as antibody-antigen recognition, intrinsically disordered proteins, and protein-nucleic acid binding, remains underexplored. To address this gap, we present DynaRepo, a repository of macromolecular conformational dynamics comprising $\\sim$450 complexes and $\\sim$270 single-chain proteins from PDBbind, the Structural Antibody Database (SAbDab), and benchmark sets. Each complex was simulated in triplicate for 500 ns, totaling $>$1100 $\\mu$s of molecular dynamics data, with extensive pre-calculated analyses. DynaRepo provides a foundation for dynamics-aware deep learning frameworks and is freely available at: https://dynarepo.inria.fr/.",
+  "abstract_zh": "蛋白质、RNA和DNA几乎在所有细胞过程中都处于核心地位，常常组装成大分子复合物以执行其功能。尽管这些分子本质上是动态的，但大多数研究其机制的方法都聚焦于静态结构。近期深度学习在蛋白质结构预测方面的进展凸显了数据驱动方法的潜力，然而对于抗体-抗原识别、固有无序蛋白质以及蛋白质-核酸结合等关键相互作用至关重要的动态行为，仍未被充分探索。为弥补这一空白，我们提出了DynaRepo，一个包含来自PDBbind、结构抗体数据库（SAbDab）及基准测试集的约450个复合物和约270个单链蛋白质的大分子构象动态存储库。每个复合物均进行了三次重复的500纳秒模拟，总计超过1100微秒的分子动力学数据，并附有大量预计算分析。DynaRepo为动态感知的深度学习框架提供了基础，并可在以下网址免费获取：https://dynarepo.inria.fr/。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41231767/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41231767/",
+  "paper_page_path": "papers/pubmed/41231767/index.html"
+}

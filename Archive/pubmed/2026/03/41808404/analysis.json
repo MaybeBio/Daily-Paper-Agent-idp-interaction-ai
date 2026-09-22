@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41808404",
+  "title": "Backbone rigidity of disordered protein linkers from NMR experiments and MD simulations.",
+  "authors": "Mantzari, Efstathia; Malm, Cajsa K; Nencini, Ricky; Sandelin, Amanda E; Ollila, O H Samuli",
+  "journal": "Biophysical journal",
+  "published_date": "2026-03-11",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合NMR与MD模拟定量表征无序蛋白linker的骨架刚性，虽未直接研究PPI，但为无序蛋白构象动力学建模提供了可迁移的物理模拟方法，对理解IDR介导互作的机制有参考价值。",
+  "abstract": "Disordered protein linkers are essential for multidomain protein function and engineering, but quantitative methods for their biophysical characterization remain limited. We combined NMR experiments with molecular dynamics simulations to demonstrate that protein backbone (15)N spin relaxation times correlate with backbone rigidities in short, disordered linkers. Using a tailored version of the Quality Evaluation Based Simulation Selection framework, we characterized four model peptides: (GGS)(3), (GPS)(3), K(AP)(5)K, and KKEEVKKEEV-(PK)(7)KEEVKKEEVKK, representing common natural and engineered linker repeats. Glycine-rich sequences showed slight looping tendencies, whereas proline-containing sequences adopted extended conformations with increased approximate persistence lengths and slower dynamics. Notably, sodium and calcium binding to charged peptides minimally affected rigidity, indicating electrostatics don't dominate linker stiffness. This integrated approach provides quantitative insights into disordered linker properties and MD simulation accuracy, offering biophysical understanding for protein design and machine learning model development.",
+  "abstract_zh": "无序蛋白连接子对于多结构域蛋白的功能和工程改造至关重要，但其生物物理特性的定量表征方法仍然有限。我们将核磁共振（NMR）实验与分子动力学（molecular dynamics）模拟相结合，证明在短无序连接子中，蛋白质骨架(15)N自旋弛豫时间与骨架刚性相关。利用定制版的质量评估基于模拟选择框架，我们表征了四种模型肽：(GGS)(3)、(GPS)(3)、K(AP)(5)K和KKEEVKKEEV-(PK)(7)KEEVKKEEVKK，它们代表了常见的天然和工程连接子重复序列。富含甘氨酸的序列表现出轻微的环化倾向，而含脯氨酸的序列则采用延伸构象，具有增加的近似持续长度和较慢的动态。值得注意的是，钠和钙与带电肽的结合对刚性影响极小，表明静电作用并不主导连接子刚度。这种综合方法为无序连接子特性和分子动力学模拟准确性提供了定量见解，为蛋白质设计和机器学习模型开发提供了生物物理理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41808404/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41808404/",
+  "paper_page_path": "papers/pubmed/41808404/index.html"
+}

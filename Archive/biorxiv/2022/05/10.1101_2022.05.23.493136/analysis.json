@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.23.493136",
+  "title": "Intrinsically disordered interaction network in an RNA chaperone revealed by native mass spectrometry",
+  "authors": "Samantha H. Sarni; Jorjethe Roca; Chen Du; Mengxuan Jia; Hantian Li; Ana Damjanovic; Ewelina M. Małecka; Vicki H. Wysocki; Sarah A. Woodson",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-23",
+  "window": {
+    "start": "2022-05-23",
+    "end": "2022-05-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用天然质谱结合分子动力学模拟，揭示RNA伴侣Hfq的无序C端结构域通过互作网络稳定六聚体并受RNA结合调控的机制，虽对象为RNA-蛋白互作而非PPI，但无序区域介导的互作网络建模思路对本课题有直接启发。",
+  "abstract": "RNA-binding proteins contain intrinsically disordered regions whose functions in RNA recognition are poorly understood. The RNA chaperone Hfq is a homohexamer that contains six flexible C-terminal domains (CTDs). The effect of the CTDs on Hfq’s integrity and RNA binding has been challenging to study because of their sequence identity and inherent disorder. We used native mass spectrometry (nMS) coupled with surface-induced dissociation (SID) and molecular dynamics (MD) simulations to disentangle the arrangement of the CTDs and their impact on the stability of E. coli Hfq with and without RNA. The results show that the CTDs stabilize the Hfq hexamer through multiple interactions with the core and between CTDs. RNA binding perturbs this network of CTD interactions, destabilizing the Hfq ring. This destabilization is partially compensated by binding of RNAs that contact multiple surfaces of Hfq. By contrast, binding of short RNAs that only contact one or two subunits results in net destabilization of the complex. Together, the results show that a network of intrinsically disordered interactions integrate RNA contacts with the six subunits of Hfq. We propose that this CTD network raises the selectivity of RNA binding. Significance Statement Hfq is a protein hexamer necessary for gene regulation by non-coding RNA in bacteria, during infection or under stress. In the cell, Hfq must distinguish its RNA partners from many similar nucleic acids. Mass spectrometry dissociation patterns, together with molecular dynamics simulations, showed that flexible extensions of each Hfq subunit form a dense network that interconnects the entire hexamer. This network is disrupted by RNA binding, but the lost interactions are compensated by RNAs that contact multiple Hfq subunits. By measuring interactions that are too irregular to be counted by other methods, mass spectrometry shows how flexible protein extensions help chaperones like Hfq recognize their RNA partners in the messy interior of the cell.",
+  "abstract_zh": "RNA结合蛋白含有内在无序区域，其在RNA识别中的功能尚不明确。RNA伴侣蛋白Hfq是一个同源六聚体，包含六个柔性的C端结构域（CTDs）。由于这些CTDs的序列同一性和固有无序性，研究它们对Hfq完整性和RNA结合的影响一直具有挑战性。我们使用原生质谱（nMS）结合表面诱导解离（SID）和分子动力学（MD）模拟，来解析CTDs的排列及其对有无RNA情况下大肠杆菌Hfq稳定性的影响。结果表明，CTDs通过与核心及CTDs之间的多重相互作用稳定Hfq六聚体。RNA结合扰乱了这一CTD相互作用网络，使Hfq环不稳定。这种不稳定性部分由接触Hfq多个表面的RNA结合所补偿。相反，仅接触一个或两个亚基的短RNA结合则导致复合物的净不稳定化。综合来看，结果表明一个内在无序相互作用网络将RNA接触与Hfq的六个亚基整合在一起。我们提出，这一CTD网络提高了RNA结合的选择性。意义声明Hfq是一种蛋白质六聚体，在细菌感染或应激期间，对非编码RNA的基因调控至关重要。在细胞中，Hfq必须从许多相似的核酸中区分其RNA伙伴。质谱解离模式结合分子动力学模拟显示，每个Hfq亚基的柔性延伸形成致密网络，连接整个六聚体。该网络被RNA结合破坏，但失去的相互作用由接触多个Hfq亚基的RNA补偿。通过测量其他方法无法计数的过于不规则的相互作用，质谱揭示了柔性蛋白质延伸如何帮助像Hfq这样的伴侣蛋白在细胞杂乱内部识别其RNA伙伴。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.23.493136",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.23.493136",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.23.493136/index.html"
+}

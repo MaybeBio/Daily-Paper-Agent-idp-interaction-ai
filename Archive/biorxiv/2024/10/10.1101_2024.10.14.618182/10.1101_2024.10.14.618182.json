@@ -1,0 +1,203 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.14.618182",
+  "title": "Integrative profiling of condensation-prone RNAs during early development",
+  "doi": "10.1101/2024.10.14.618182",
+  "abstract": "<h4>Summary</h4> Complex RNA–protein networks play a pivotal role in the formation of many types of biomolecular condensates. How intrinsic RNA features contribute to condensate formation however remains unclear. Here, we integrate tailored transcriptomics assays to identify a distinct class of developmental condensation-prone RNAs termed ‘smOOPs’ ( s e m i-extractable, o rthogonal o rganic p hase s eparation-enriched RNA s ). These transcripts are localised to larger intracellular foci, form denser RNA-RNA interaction subnetworks than expected and are heavily bound by RNA binding proteins (RBPs). Using an explainable deep learning framework, we reveal that smOOPs harbor characteristic sequence composition with lower sequence complexity, increased intramolecular folding and specific RBP binding patterns. Intriguingly, these RNAs encode proteins bearing extensive intrinsically disordered regions and are markedly predicted to be involved in biomolecular condensates, indicating an interplay between RNA- and protein-based features in phase separation. This work advances our understanding of condensation-prone RNAs and provides a versatile resource to further investigate RNA-driven condensation principles.",
+  "authors": [
+    "Klobučar T",
+    "Novljan J",
+    "Iosub IA",
+    "Kokot B",
+    "Urbančič I",
+    "Jones DM",
+    "Chakrabarti AM",
+    "Luscombe NM",
+    "Ule J",
+    "Modic M"
+  ],
+  "published_date": "2024-10-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.14.618182",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.14.618182.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR925577",
+    "raw_record": {
+      "id": "PPR925577",
+      "source": "PPR",
+      "doi": "10.1101/2024.10.14.618182",
+      "title": "Integrative profiling of condensation-prone RNAs during early development",
+      "authorString": "Klobučar T, Novljan J, Iosub IA, Kokot B, Urbančič I, Jones DM, Chakrabarti AM, Luscombe NM, Ule J, Modic M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Klobučar T",
+            "lastName": "Klobučar",
+            "firstName": "Tajda",
+            "initials": "T"
+          },
+          {
+            "fullName": "Novljan J",
+            "lastName": "Novljan",
+            "firstName": "Jona",
+            "initials": "J"
+          },
+          {
+            "fullName": "Iosub IA",
+            "lastName": "Iosub",
+            "firstName": "Ira",
+            "initials": "IA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2924-2471"
+            }
+          },
+          {
+            "fullName": "Kokot B",
+            "lastName": "Kokot",
+            "firstName": "Boštjan",
+            "initials": "B"
+          },
+          {
+            "fullName": "Urbančič I",
+            "lastName": "Urbančič",
+            "firstName": "Iztok",
+            "initials": "I"
+          },
+          {
+            "fullName": "Jones DM",
+            "lastName": "Jones",
+            "firstName": "Marc",
+            "initials": "DM"
+          },
+          {
+            "fullName": "Chakrabarti AM",
+            "lastName": "Chakrabarti",
+            "firstName": "Anob",
+            "initials": "AM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6841-5718"
+            }
+          },
+          {
+            "fullName": "Luscombe NM",
+            "lastName": "Luscombe",
+            "firstName": "Nicholas",
+            "initials": "NM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5293-4778"
+            }
+          },
+          {
+            "fullName": "Ule J",
+            "lastName": "Ule",
+            "firstName": "Jernej",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2452-4277"
+            }
+          },
+          {
+            "fullName": "Modic M",
+            "lastName": "Modic",
+            "firstName": "Miha",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2894-7218"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5293-4778"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2452-4277"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2894-7218"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2924-2471"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6841-5718"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Summary</h4>  Complex RNA–protein networks play a pivotal role in the formation of many types of biomolecular condensates. How intrinsic RNA features contribute to condensate formation however remains unclear. Here, we integrate tailored transcriptomics assays to identify a distinct class of developmental condensation-prone RNAs termed ‘smOOPs’ (  s e  m i-extractable,  o rthogonal  o rganic  p hase  s eparation-enriched RNA  s ). These transcripts are localised to larger intracellular foci, form denser RNA-RNA interaction subnetworks than expected and are heavily bound by RNA binding proteins (RBPs). Using an explainable deep learning framework, we reveal that smOOPs harbor characteristic sequence composition with lower sequence complexity, increased intramolecular folding and specific RBP binding patterns. Intriguingly, these RNAs encode proteins bearing extensive intrinsically disordered regions and are markedly predicted to be involved in biomolecular condensates, indicating an interplay between RNA- and protein-based features in phase separation. This work advances our understanding of condensation-prone RNAs and provides a versatile resource to further investigate RNA-driven condensation principles.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.14.618182"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41265448",
+            "reference": "Cell genomics. 2026 Feb;6(2):101065",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-10-18",
+      "firstPublicationDate": "2024-10-16",
+      "firstIndexDate": "2024-10-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures or supplementary material
+- **Assessment boundary** Scientific claims, methodology, and internal consistency based solely on the provided text; no verification against external literature or unpublished data
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations with a modified Mpipi model to connect sequence-level features of intrinsically disordered proteins to the viscoelastic properties of biomolecular condensates. They propose that mesh heterogeneity, network topology (quantified via betweenness centrality), and the ratio of single-molecule shape memory to mesh reconfiguration timescales (a "condensate Deborah number") govern elastic versus viscous response.
+- **Visible evidence base** Text descriptions of simulation protocols, model parameters, and qualitative results; references to figures (Fig. 1–6) and supplementary items (Fig. S1–S50) that are not directly viewable
+- **Missing materials affecting confidence** All figures, tables, and supplementary data; numerical values for key quantities (e.g., critical temperatures, moduli, timescales); simulation convergence criteria; error bars or statistical uncertainties; force field parameter files
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually ambitious and potentially impactful framework for linking molecular-scale sequence features to mesoscale viscoelastic behavior in biomolecular condensates. The introduction of a condensate Deborah number as a unifying dimensionless parameter is intellectually appealing and could provide a useful design rule. However, the current text, without access to the figures and quantitative data, leaves several central claims insufficiently supported. The reliance on a single coarse-grained model with a modified bending potential, the indirect validation against experimental data, and the lack of quantitative reporting in the text make it difficult to assess the robustness and generality of the conclusions. The manuscript would benefit from clearer articulation of the model's limitations, more direct evidence for the proposed mechanisms, and a more critical discussion of alternative interpretations.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, soft matter physics, and polymer science would find this work relevant. The proposed framework for connecting sequence chemistry to viscoelasticity could inform experimental studies on condensate mechanics and guide the design of synthetic condensates with tunable material properties. The methodological developments, particularly the modified Mpipi model and the graph-theoretical analysis, may also be of interest to computational biophysicists.
+- **Major strengths** The manuscript addresses a significant and timely question: how molecular interactions encode the mechanical properties of biomolecular condensates. The use of multiple complementary analyses (entanglement spacing, graph theory, non-equilibrium shear simulations) is commendable. The introduction of the condensate Deborah number is a novel and potentially unifying concept. The authors are transparent about some limitations of their model, such as the neglect of hydrodynamics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The modified Mpipi model "captures experimentally determined viscoelastic response of A1-LCD variant condensates" (Abstract; Results section 1).
+  - **Evidence pointer** Fig. 1d-f; text in Results section 1; location not provided for specific data points
+  - **Concern** The validation of the model against experimental viscoelastic data is described only qualitatively. The text states that the model "reproduces relative zero-shear viscosities and viscoelastic spectra" but provides no quantitative comparison, such as the magnitude of deviations, the range of frequencies over which agreement holds, or the statistical significance of the match. Without this information, it is impossible to judge whether the model is genuinely predictive or merely qualitatively consistent.
+  - **Why it matters** The entire subsequent analysis rests on the assumption that the modified model faithfully represents real condensate behavior. If the validation is weak, all derived conclusions about sequence-structure-property relationships are compromised.
+  - **Resolution test** Provide a quantitative comparison between simulated and experimental G′ and G″ spectra for at least one A1-LCD variant, including error estimates and the frequency range of agreement. If such data are not available, explicitly state the limitations of the validation and temper the claims accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "entropy-driven structural heterogeneity and reduced IDP hydrophobicity favor condensate elasticity" (Abstract; Results section 3; Discussion).
+  - **Evidence pointer** Fig. 3c-f, 3k-n; Fig. S30; location not provided
+  - **Concern** The causal link between reduced hydrophobicity and enhanced elasticity is not mechanistically explained. The text mentions that low-hydrophobicity sequences adopt collapsed conformations, which inhibit cross-linking, but it is unclear why this would lead to greater elasticity rather than simply weaker network formation. The relationship between mesh heterogeneity (CV(ξ)) and elasticity is also presented as a correlation, but the direction of causality is not established. Could heterogeneity be a consequence of elastic stress storage rather than a cause?
+  - **Why it matters** The manuscript claims to provide a mechanistic framework, but the proposed mechanisms are not fully articulated. Without a clear physical explanation for why reduced hydrophobicity or increased heterogeneity should enhance elasticity, the framework remains descriptive rather than predictive.
+  - **Resolution test** Provide a more detailed mechanistic model or additional simulations that directly test the proposed causal chain. For example, systematically vary hydrophobicity while holding other sequence features constant and show how this affects both mesh structure and elastic modulus. Discuss alternative explanations, such as changes in chain stiffness or interaction lifetime.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The condensate Deborah number, Decon = τκ2/τξ, "dictates the macroscopic rheological response of condensates" (Results section 5; Discussion).
+  - **Evidence pointer** Fig. 6l-m; location not provided
+  - **Concern** The definition and utility of Decon are not fully established. The text states that Decon is "not necessarily a linear viscoelastic timescale" and "is not expected to correlate tightly with ωc," but it is unclear what new information Decon provides beyond existing measures like the crossover frequency. The near-linear relationship between Decon and G″/G′ shown in Fig. 6l is presented without a theoretical justification for why this particular ratio of timescales should be the governing parameter. Furthermore, the experimental accessibility of τκ2 and τξ is asserted but not demonstrated.
+  - **Why it matters** The introduction of a new dimensionless number is only justified if it provides predictive power or mechanistic insight beyond existing descriptors. If Decon is simply a re-parameterization of the crossover frequency, its novelty is limited.
+  - **Resolution test** Derive Decon from a theoretical model of viscoelasticity in associative networks, showing why the ratio of these specific timescales should control the elastic-to-viscous transition. Provide a direct comparison between Decon and ωc across all systems studied, demonstrating that Decon captures variance not explained by ωc. Discuss the practical challenges of measuring τκ2 and τξ experimentally.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The graph-theoretical analysis shows that "network topologies with an abundance of redundant node pathways translate to more load-bearing paths for mechanical stress storage" (Abstract; Results section 4).
+  - **Evidence pointer** Fig. 5; location not provided
+  - **Concern** The connection between betweenness centrality and mechanical response is not rigorously established. The text correlates 〈CB〉 with G″/G′ but does not explain why low betweenness centrality (high redundancy) should enhance elastic energy storage. The relationship between graph topology and mechanical properties in dynamic, non-permanent networks is non-trivial and requires a more careful theoretical treatment.
+  - **Why it matters** The graph-theoretical analysis is presented as a key contribution, but without a clear physical interpretation, it risks being an interesting but ultimately superficial correlation.
+  - **Resolution test** Provide a theoretical or computational demonstration of how redundant pathways in a dynamic network enhance elastic modulus, for example by comparing to known results from rubber elasticity or percolation theory. Discuss the limitations of using static graph snapshots to represent dynamic networks.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Text in Introduction and Discussion; location not provided
+  - **Issue** The manuscript uses several technical terms (e.g., "entanglement spacing," "betweenness centrality," "Deborah number") without sufficient introduction for readers outside the immediate field. The significance of these concepts for condensate biology is not always made clear.
+  - **Required correction** Add brief explanations of these terms when first introduced, and explicitly state why they are relevant to understanding condensate function in cells.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section on entanglement spacing
+  - **Evidence pointer** Methods: "Characterization of local geometries"; location not provided
+  - **Issue** The method for computing local entanglement spacing relies on a cut-off radius Rcut = 30 Å, but the sensitivity analysis for this choice is only referenced in the supplementary material. The text acknowledges limitations of the ν = 1/2 assumption but does not discuss how sensitive the results are to this choice.
+  - **Required correction** Briefly summarize the sensitivity analysis in the main text, or at least state the range of Rcut values tested and the qualitative robustness of the conclusions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion of experimental relevance
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The manuscript speculates about the biological implications of the findings (e.g., mechanotransduction, stress sensing) but does not provide concrete experimental predictions that could be tested to validate the framework.
+  - **Required correction** Add a paragraph in the Discussion with specific, testable predictions (e.g., how specific mutations should alter G′ and G″ in measurable ways, or how Decon should correlate with experimentally measured relaxation times).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section on oscillatory shear
+  - **Evidence pointer** Methods: "Viscous dissipation and elastic character under oscillatory laminar shear flow"; location not provided
+  - **Issue** The text states that 20 periods are simulated, but it is not clear whether the reported results are averaged over all periods or only after reaching a steady state. Transient effects could bias the calculated work per cycle.
+  - **Required correction** Clarify whether steady-state conditions were verified and whether the first few periods were excluded from the analysis.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation), R1-M2 (causal mechanism for hydrophobicity and elasticity), R1-M3 (theoretical basis for Decon)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of a condensate Deborah number linking single-molecule and network timescales is novel and could be a significant contribution if rigorously established. The application of graph-theoretical methods to condensate mechanics is also relatively new.
+  - **Scientific importance** The question of how sequence encodes viscoelasticity is of high importance for understanding condensate biology and for materials design. However, the current evidence does not fully establish the proposed framework, limiting its immediate impact.
+  - **Interdisciplinary readership** The topic bridges biophysics, soft matter, and polymer science, and the findings could interest a broad audience. However, the presentation is currently too specialized for nonspecialists to fully appreciate the significance.
+  - **Technical soundness** The simulation methodology is generally sound, but the validation against experiment is insufficiently quantitative, and the causal claims are not fully supported by the presented evidence.
+  - **Readability for nonspecialists** The manuscript is clearly written for experts in the field. Terms and concepts are not always explained for a broader audience, which would limit its accessibility in a high-impact journal.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important problem and proposes a potentially valuable framework, but the current evidence is insufficient to fully establish the central claims. The authors should provide quantitative validation, strengthen the mechanistic arguments, and clarify the novelty and utility of the condensate Deborah number.
+
+## Risk / unsupported claims
+- The claim that the modified Mpipi model "captures experimentally determined viscoelastic response" is not quantitatively supported in the text.
+- The causal relationship between reduced hydrophobicity and enhanced elasticity is asserted but not mechanistically explained.
+- The condensate Deborah number is proposed as a governing parameter, but its theoretical basis and predictive power beyond existing measures are not established.
+- The connection between graph-theoretical network topology and mechanical response is correlational and lacks a rigorous physical interpretation.
+- The claim that "entropy-driven structural heterogeneity" favors elasticity is not clearly defined or directly tested.
+- The experimental accessibility of the proposed measurable quantities (τκ2, τξ) is asserted but not demonstrated.

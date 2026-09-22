@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "36963488",
+    "doi": "10.1016/j.jbc.2023.104629",
+    "title": "Exploration of O-GlcNAc transferase glycosylation sites reveals a target sequence compositional bias."
+  },
+  "content": {
+    "abstract": "O-GlcNAc transferase (OGT) is an essential glycosylating enzyme that catalyzes the addition of N-acetylglucosamine to serine or threonine residues of nuclear and cytoplasmic proteins. The enzyme glycosylates a broad range of peptide sequences and the prediction of glycosylation sites has proven challenging. The lack of an experimentally verified set of polypeptide sequences that are not glycosylated by OGT has made prediction of legitimate glycosylation sites more difficult. Here, we tested a number of intrinsically disordered protein regions as substrates of OGT to establish a set of sequences that are not glycosylated by OGT. The negative data set suggests an amino acid compositional bias for OGT targets. This compositional bias was validated by modifying the amino acid composition of the protein fused in sarcoma (FUS) to enhance glycosylation. NMR experiments demonstrate that the tetratricopeptide repeat region of OGT can bind FUS and that glycosylation-promoting mutations enhance binding. These results provide evidence that the tetratricopeptide repeat region recognizes disordered segments of substrates with particular compositions to promote glycosylation, providing insight into the broad specificity of OGT.",
+    "keywords": [
+      "O-GlcNAc transferase (OGT)",
+      "O-linked N-acetylglucosamine (O-GlcNAc)",
+      "glycosylation",
+      "intrinsically disordered protein",
+      "post-translational modification",
+      "proteomics"
+    ],
+    "mesh_terms": [
+      "Amino Acids/metabolism",
+      "Glycosylation",
+      "Mutation",
+      "*N-Acetylglucosaminyltransferases/metabolism",
+      "Humans",
+      "Adaptor Proteins, Signal Transducing/chemistry/genetics/metabolism",
+      "Computational Biology",
+      "Magnetic Resonance Imaging",
+      "Golgi Matrix Proteins",
+      "RNA-Binding Protein EWS",
+      "TATA-Binding Protein Associated Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chong, P Andrew",
+        "Nosella, Michael L",
+        "Vanama, Manasvi",
+        "Ruiz-Arduengo, Roxana",
+        "Forman-Kay, Julie D"
+      ],
+      "short_names": [
+        "Chong PA",
+        "Nosella ML",
+        "Vanama M",
+        "Ruiz-Arduengo R",
+        "Forman-Kay JD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada; Department of Biochemistry, University of Toronto, Toronto, Ontario, Canada.",
+        "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada.",
+        "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada; Department of Biochemistry, University of Toronto, Toronto, Ontario, Canada. Electronic address: forman@sickkids.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chong, P Andrew",
+        "short_name": "Chong PA",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Nosella, Michael L",
+        "short_name": "Nosella ML",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada; Department of Biochemistry, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Vanama, Manasvi",
+        "short_name": "Vanama M",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Ruiz-Arduengo, Roxana",
+        "short_name": "Ruiz-Arduengo R",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Forman-Kay, Julie D",
+        "short_name": "Forman-Kay JD",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, Ontario, Canada; Department of Biochemistry, University of Toronto, Toronto, Ontario, Canada. Electronic address: forman@sickkids.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2023 May",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/25 06:00",
+    "fetched_at": "2026-09-20 20:35:46"
+  },
+  "links": {
+    "cites": [
+      "42278642",
+      "41849190",
+      "41741713",
+      "41343298",
+      "41110100",
+      "40574323",
+      "40407344",
+      "40157881",
+      "39878910",
+      "39276112",
+      "38931332",
+      "36903375"
+    ],
+    "refs": [],
+    "similar": [
+      "36963488",
+      "30224358",
+      "28659383",
+      "32119511",
+      "33709700",
+      "28302723",
+      "28584052",
+      "26237509",
+      "22311971",
+      "12724313",
+      "26240142",
+      "16434389",
+      "27687229",
+      "15361863",
+      "33229814",
+      "27935279",
+      "39059494",
+      "31527085",
+      "33801653",
+      "9083067",
+      "10753899",
+      "29485866",
+      "15305040",
+      "31373491",
+      "24398691",
+      "29769320",
+      "34725712",
+      "21240259",
+      "22496241",
+      "33167279",
+      "27056667",
+      "25263469",
+      "24256146",
+      "33716169",
+      "22517741",
+      "19666537",
+      "20640461",
+      "29115822",
+      "29577901",
+      "21606357",
+      "21526146",
+      "11522385",
+      "27294441",
+      "28296566",
+      "28922739",
+      "38016609",
+      "20068230",
+      "34981577",
+      "32801002",
+      "35863433",
+      "27048592",
+      "37819980",
+      "36357422",
+      "26862193",
+      "36876722",
+      "24140293",
+      "12435728",
+      "26041297",
+      "24866374",
+      "26680539",
+      "29058723",
+      "24311690",
+      "27497832",
+      "33669256",
+      "16105839",
+      "26674417",
+      "39276112",
+      "24365779",
+      "24563466",
+      "26807597",
+      "30713024",
+      "10542233",
+      "20206135",
+      "16182253",
+      "21045127",
+      "18536723",
+      "22020851",
+      "22759405",
+      "27217568",
+      "28263870",
+      "30100348",
+      "32730113",
+      "10801981",
+      "31627256",
+      "34051053",
+      "17531489",
+      "27655845",
+      "19383152",
+      "30296064",
+      "29223644",
+      "18519567",
+      "28427012",
+      "33356293",
+      "33498085",
+      "32991074",
+      "37334838",
+      "38768345",
+      "32522876",
+      "23103942",
+      "34764280",
+      "29606577",
+      "27618188",
+      "36626549",
+      "31626249",
+      "31628985",
+      "37054524",
+      "39065490",
+      "31253080",
+      "33098688",
+      "39276932",
+      "37067908"
+    ],
+    "review": [
+      "36963488",
+      "39059494",
+      "11522385",
+      "27294441",
+      "26862193",
+      "27497832",
+      "33669256",
+      "32730113",
+      "29223644"
+    ],
+    "pmc": [
+      "10164912"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(23)00271-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36963488/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36963488",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1261",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

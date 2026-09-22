@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supporting information
+- **Shared manuscript claim summary** The authors report that molecular dynamics simulations totaling 67.7 microseconds, combined with Markov state model analysis, reveal a funnel-like binding landscape for the intrinsically disordered CRIPT peptide binding to the PDZ3 domain of PSD-95. They claim that structurally heterogeneous intermediate complexes, stabilized by a dynamic interplay of native and non-native interactions, lead to diverse binding pathways and that this structural heterogeneity accelerates binding, thereby enriching the classical fly-casting mechanism.
+- **Visible evidence base** Abstract text only; no simulation details, convergence criteria, force field parameters, Markov state model validation, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, simulation setup and force field choices, validation of Markov state model (implied timescales, Chapman-Kolmogorov tests, state population uncertainties), structural definitions of intermediate states, quantitative comparison with experimental kinetics, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of coupled folding and binding in a well-characterized IDP system. The simulation length is substantial and the application of Markov state models is appropriate for this type of question. However, the abstract alone does not provide sufficient evidence to evaluate the robustness of the central claims. The key assertions regarding the funnel-like landscape, the role of non-native interactions, and the acceleration of binding are stated qualitatively without quantitative support. The claim that the findings "enrich" the fly-casting mechanism is not substantiated by specific comparisons to prior theoretical predictions. The manuscript may be of interest to the computational biophysics community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists studying protein-protein recognition, intrinsically disordered proteins, and coupled folding and binding. Researchers developing and applying Markov state models to biomolecular simulations would also be interested. The PDZ domain system is a well-known model system, so experimentalists studying binding kinetics in this family may find the predictions testable.
+- **Major strengths** The study addresses a mechanistically important question, namely how disordered proteins achieve rapid binding despite conformational heterogeneity. The simulation length of 67.7 microseconds is substantial and appropriate for capturing binding events. The use of Markov state models is a suitable and modern approach for analyzing long-timescale simulations. The system chosen is biologically relevant and experimentally well characterized, which should allow for comparison with kinetic data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the simulations reveal a funnel-like binding landscape and that structural heterogeneity of intermediate states facilitates binding.
+  - **Evidence pointer** Abstract only; no figures or quantitative metrics provided
+  - **Concern** The abstract provides no quantitative evidence for the funnel-like landscape. No free energy surface, no reaction coordinate definition, no comparison of populations of bound, intermediate, and unbound states, and no measure of landscape ruggedness are presented. The claim of a funnel-like landscape is a strong topological statement that requires direct visualization or quantitative characterization.
+  - **Why it matters** The central mechanistic conclusion rests on the shape of the binding landscape. Without quantitative support, the claim is not distinguishable from a generic statement that binding occurs through multiple pathways. The funnel metaphor has specific implications for kinetics that should be demonstrated, not assumed.
+  - **Resolution test** Provide a free energy projection onto appropriate reaction coordinates, such as radius of gyration and fraction of native contacts, with statistical uncertainties. Show that the landscape is indeed funnel-like, for example by demonstrating a monotonic decrease in free energy with increasing native contact formation, and quantify the population of intermediate states.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Markov state model analysis underscores the important role of structural heterogeneity as it contributes to accelerated binding.
+  - **Evidence pointer** Abstract only; no Markov state model validation or kinetic analysis provided
+  - **Concern** The abstract states that structural heterogeneity accelerates binding but provides no kinetic quantities, such as mean first passage times, transition rates between states, or committor probabilities. No comparison is made to a hypothetical scenario without heterogeneity, which would be required to support the claim that heterogeneity is causal for acceleration. Furthermore, no validation of the Markov state model is mentioned, such as Chapman-Kolmogorov tests or implied timescale convergence.
+  - **Why it matters** The claim of accelerated binding is a kinetic statement. Without quantitative rates or a clear comparative framework, the assertion is unsupported. Markov state models are only reliable if properly validated, and the absence of any validation details prevents assessment of the kinetic conclusions.
+  - **Resolution test** Report mean first passage times for binding from the Markov state model, with uncertainties. Compare the kinetics to a model in which intermediate states are removed or merged, or to a two-state description, to demonstrate that heterogeneity indeed accelerates binding. Provide validation of the Markov state model, including implied timescale plots and Chapman-Kolmogorov tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that stabilization of intermediate complexes necessitates a dynamic interplay of native and non-native interactions.
+  - **Evidence pointer** Abstract only; no interaction energy analysis provided
+  - **Concern** The abstract asserts that both native and non-native interactions stabilize intermediate states, but no energetic decomposition is presented. It is unclear which residues form non-native contacts, how persistent these contacts are, and whether they are stabilizing or merely transient. The word "necessitates" implies a causal requirement that cannot be established without perturbation analysis, such as mutational studies in silico or energy decomposition.
+  - **Why it matters** The role of non-native interactions in IDP binding is a subtle and debated point. The claim that they are required for stabilization of intermediates is a specific mechanistic statement that goes beyond observation of their presence. Without energetic or mutational evidence, the claim is speculative.
+  - **Resolution test** Provide per-residue interaction energy decomposition for the intermediate states, identifying specific native and non-native contacts. Perform in silico mutations of key non-native contact residues and show that intermediate state populations or binding kinetics are altered, demonstrating a causal role.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract opens with general statements about intrinsically disordered proteins that are well known to the target audience. The connection between these general statements and the specific findings is not made explicit until late in the abstract.
+  - **Required correction** Briefly state the specific question addressed in this system earlier in the abstract, for example by noting the apparent paradox between disorder and rapid binding in the context of the CRIPT-PDZ3 system.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Claim of enriching the fly-casting mechanism
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that the findings "enrich" the fly-casting mechanism is vague. It is not clear what specific aspect of the fly-casting model is extended, refined, or contradicted by the present results.
+  - **Required correction** Specify precisely how the results differ from or extend the original fly-casting proposal, for example by stating whether the intermediates are more structured than originally proposed, or whether the binding pathways are more diverse than a simple electrostatic steering model would predict.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation length statement
+  - **Evidence pointer** Abstract, "67.7 mus"
+  - **Issue** The total simulation length is reported as 67.7 microseconds, but it is unclear how this total is distributed across replicas, whether all simulations were used for the Markov state model, and whether this length is sufficient for convergence of binding events.
+  - **Required correction** Report the number of independent simulations, the length of each, and the total aggregate sampling. State whether multiple independent binding events were observed and how statistical uncertainty was assessed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central mechanistic claims regarding the funnel-like landscape, accelerated binding due to heterogeneity, and the necessity of non-native interactions are all unsupported by quantitative evidence in the abstract. Without these, the case for the paper's central thesis is not established.
+- **Assessment against Nature-style criteria** Originality: The application of Markov state models to coupled folding and binding in a PDZ domain system is not entirely new, but the specific focus on structural heterogeneity of intermediates as a kinetic accelerator may offer a fresh perspective. Scientific importance: The question of how IDPs achieve rapid binding is of broad interest, and the PDZ3 system is a good model, but the abstract does not demonstrate that the findings generalize beyond this specific case. Interdisciplinary readership: The abstract is written in a way that is accessible to computational biophysicists but may be less accessible to experimentalists or structural biologists due to the lack of concrete structural or kinetic details. Technical soundness: Cannot be assessed from the abstract alone; the absence of any validation or quantitative results is a major limitation. Readability for nonspecialists: The abstract is readable but the key claims are stated at a level of generality that makes them difficult to evaluate.
+- **Recommendation posture** Currently not established from the provided evidence. The topic is appropriate and the simulation effort is substantial, but the abstract does not provide the quantitative support needed to evaluate the central claims. The manuscript may become publishable if the full paper provides the missing evidence, but based on the abstract alone, the case is not made.
+
+## Risk / unsupported claims
+- The claim of a funnel-like binding landscape is unsupported without free energy surfaces or quantitative landscape characterization.
+- The claim that structural heterogeneity accelerates binding is unsupported without kinetic rates or comparative analysis.
+- The claim that stabilization of intermediates necessitates native and non-native interactions is unsupported without energetic decomposition or perturbation analysis.
+- The claim that the findings enrich the fly-casting mechanism is vague and not substantiated by specific comparison to prior theoretical predictions.
+- The sufficiency of 67.7 microseconds of simulation for converged binding kinetics is not assessable from the abstract.

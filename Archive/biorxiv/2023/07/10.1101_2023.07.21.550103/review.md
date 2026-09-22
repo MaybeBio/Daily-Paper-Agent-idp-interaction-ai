@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends as provided)
+- **Assessment boundary** Scientific content, methodological validity, and claims as presented in the provided text; no external data or supplementary materials were available for verification
+- **Shared manuscript claim summary** The authors use a deep learning-based Markov state model (deep MSM) with a multi-input neural network architecture to characterize folding-upon-binding pathways of the intrinsically disordered measles virus N TAIL region to the X domain, resolving multiple intermediate states and proposing a mechanism inconsistent with canonical conformational selection or induced fit
+- **Visible evidence base** Text descriptions of methods and results, references to figures and supplementary items (not all visible), quantitative values for populations, transition probabilities, and mean first passage times
+- **Missing materials affecting confidence** Supplementary figures and tables (referenced extensively), the actual MD trajectory data, code repository contents, and full figure panels were not provided; this limits independent verification of key claims
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically sophisticated application of deep Markov state modeling to a biologically important intrinsically disordered protein system. The central claim that the deep MSM resolves multiple distinct encounter complexes and intermediate states not captured by conventional methods is potentially significant. However, the manuscript as provided has several issues that need to be addressed: the distinction between the deep MSM and the HMSM in terms of biological insight is not fully quantified, the statistical robustness of the claimed kinetic separation between states requires more rigorous demonstration, and the connection to experimental data, while suggestive, is not definitive. The work is likely of interest to the computational biophysics and IDP communities, but the current presentation does not fully establish the case for a fundamentally new mechanistic picture.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists working on Markov state models and molecular dynamics analysis; researchers studying intrinsically disordered proteins and their binding mechanisms; experimentalists studying measles virus replication and seeking mechanistic models of N TAIL -XD interactions; method developers interested in deep learning approaches for analyzing high-dimensional simulation data.
+- **Major strengths** The application of a multi-input neural network architecture to combine different feature types (contact maps, helical content descriptors) is a novel and potentially generalizable methodological contribution. The identification of multiple kinetically distinct encounter complexes and a kinetic trap provides a more nuanced picture of folding-upon-binding than previously available. The connection to experimental mutation data (R497G, S491L) adds biological relevance. The comparison between the deep MSM and a conventional tICA-based HMSM is a useful demonstration of the enhanced resolution of the deep learning approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / statistical validation
+  - **Claim pointer** The authors claim that the deep MSM resolves "two structurally and kinetically distinct encounter complex states" and that these states are "kinetically separated" from each other and from other states.
+  - **Evidence pointer** Results section, Figure 4, Supplementary Figures 16-17
+  - **Concern** The manuscript does not provide a quantitative demonstration that the two encounter complex states (deep MSM states 6 and 7) are truly kinetically distinct in a statistically meaningful way. The transition probabilities between these states and to the native-like bound states are reported, but no error analysis or significance testing is shown for the differences in these probabilities. The claim of kinetic separation requires a demonstration that the transition rates between states 6 and 7 are significantly slower than the rates of transitions from each state to the native-like states, or that the states are separated by a free energy barrier that is statistically significant. Without this, the distinction between the two states could be an artifact of the clustering or the neural network architecture.
+  - **Why it matters** The central mechanistic claim of the paper rests on the existence of two distinct encounter complexes. If these states are not kinetically distinct, the proposed mechanism collapses into a single encounter complex scenario, which would not be a significant advance over previous work.
+  - **Resolution test** Provide a clear statistical comparison of the transition probability matrices between the two encounter complex states and all other states, including confidence intervals. Show that the implied timescales for transitions between states 6 and 7 are significantly longer than the timescales for transitions from each state to the native-like states. Alternatively, perform a committor analysis to demonstrate that the two states are separated by a genuine free energy barrier.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / model validation
+  - **Claim pointer** The authors claim that the deep MSM "identifies several states that were not identified by a conventional hidden Markov state model" and that these states provide "greater resolution" of the folding-upon-binding mechanism.
+  - **Evidence pointer** Results section, Figure 3, Supplementary Figures 10-11
+  - **Concern** The manuscript does not provide a rigorous comparison of the deep MSM and the HMSM in terms of model quality or predictive power. The claim that the deep MSM is superior is based on the observation that it resolves more states, but this could simply be a result of overfitting or of the neural network learning spurious features. The authors do not show that the deep MSM has better generalization performance, more accurate implied timescales, or better agreement with experimental data than the HMSM. A comparison of the VAMP scores, generalized Chapman-Kolmogorov tests, or other model selection criteria between the two models is needed.
+  - **Why it matters** The methodological contribution of the paper is the deep MSM approach. If the deep MSM is not demonstrably better than a conventional approach, the significance of the work is substantially reduced.
+  - **Resolution test** Provide a quantitative comparison of the deep MSM and the HMSM using standard model selection criteria, such as VAMP-2 scores, generalized Chapman-Kolmogorov tests, or cross-validated likelihoods. Show that the deep MSM achieves better scores or that the additional states it resolves are validated by independent criteria (e.g., agreement with experimental data or convergence of implied timescales).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / biological relevance
+  - **Claim pointer** The authors state that their findings "elucidate the nature of the kinetic barriers between metastable states in a dynamic and heterogenous, or 'fuzzy', protein complex" and that the mechanism is "inconsistent with canonical conformational selection or induced-fit binding mechanisms."
+  - **Evidence pointer** Discussion section
+  - **Concern** The claim that the mechanism is inconsistent with conformational selection or induced fit is not fully substantiated. The authors show that encounter complexes with different helical content converge to similar pathways, but this does not necessarily rule out a conformational selection component. For example, the more helical encounter complex (state 7) could still represent a pre-selected conformation that binds preferentially, even if it subsequently loses helicity. The authors need to more carefully define what they mean by "inconsistent" and provide a more nuanced discussion of how their results relate to these classical models.
+  - **Why it matters** The biological significance of the work depends on the claim that it provides a new mechanistic picture. If the results are actually consistent with a more nuanced version of conformational selection or induced fit, the novelty is reduced.
+  - **Resolution test** Provide a more detailed analysis of the flux through different pathways and the degree to which helical content is preserved or lost along each pathway. Discuss explicitly how the observed mechanism differs from or refines the classical models, rather than simply stating inconsistency.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / simulation details
+  - **Claim pointer** The authors state that the simulation was performed at 400 K and that this temperature was selected because it is near the simulated melting temperature of the N TAIL :XD complex.
+  - **Evidence pointer** Results section, Methods section
+  - **Concern** The use of a high temperature (400 K) to enhance sampling is a common technique, but it raises questions about the relevance of the observed states and kinetics to physiological conditions. The authors do not discuss how the high temperature might affect the population of intermediate states or the transition rates. A comparison to simulations at lower temperatures, or at least a discussion of the expected temperature dependence, would strengthen the biological relevance of the findings.
+  - **Why it matters** The biological conclusions of the paper depend on the assumption that the simulated ensemble is representative of the physiologically relevant ensemble. If the high temperature significantly alters the energy landscape, the proposed mechanism may not be relevant in vivo.
+  - **Resolution test** Provide a discussion of the expected temperature dependence of the observed states and rates, or ideally, perform additional simulations at lower temperatures to confirm the qualitative features of the mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript assumes a high level of familiarity with Markov state models, VAMP scores, and related concepts. A brief, intuitive explanation of these methods for a broader readership would improve accessibility.
+  - **Required correction** Add a short paragraph in the Introduction or Methods explaining the basic idea of Markov state models and why deep learning approaches can be beneficial, in plain language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Neural network training
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the neural network training procedure is somewhat brief. Details such as the optimizer used, the number of training epochs, and the criteria for early stopping are not fully specified.
+  - **Required correction** Provide a more complete description of the training procedure, including the optimizer, learning rate schedule, and early stopping criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Results, Figure 4
+  - **Evidence pointer** Results section, Figure 4
+  - **Issue** The description of Figure 4 is dense and difficult to follow. The relationship between the transition network, the structural depictions, and the MFPT values is not immediately clear.
+  - **Required correction** Expand the figure legend to more clearly explain the layout and the meaning of the arrows, node sizes, and colors. Consider simplifying the figure or providing a schematic overview.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the relationship between the simulated states and the experimentally observed kinetics is somewhat speculative. The authors mention NMR and stopped-flow data but do not provide a detailed quantitative comparison.
+  - **Required correction** Provide a more explicit comparison between the simulated rates and populations and the experimental measurements, or clearly state the limitations of such a comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical distinction of encounter complexes), R1-M2 (model comparison and validation), R1-M4 (temperature effects on biological relevance)
+- **Assessment against Nature-style criteria** Originality: The multi-input neural network architecture for deep MSM construction is a novel methodological contribution. The application to a specific IDP system is not entirely new, but the level of detail in resolving intermediate states is a step forward. Scientific importance: The work addresses a central question in IDP biology, namely the mechanism of folding-upon-binding. The identification of multiple encounter complexes and a kinetic trap has potential implications for understanding IDP function and for drug design. However, the biological significance is not fully established without a clearer link to experimental observables. Interdisciplinary readership: The work will appeal to computational biophysicists, physical chemists, and structural biologists. The relevance to a broader biological audience is less clear, given the technical nature of the methods. Technical soundness: The methods are state-of-the-art and appear to be applied correctly, but the lack of detailed validation and comparison to alternative approaches is a concern. Readability for nonspecialists: The manuscript is written for a specialist audience and would benefit from additional context and explanation for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core methodological approach is promising and the potential biological insights are significant. However, the current manuscript does not fully establish the statistical robustness of the key claims, and the biological relevance is not definitively demonstrated. Addressing the major concerns, particularly the statistical distinction of the encounter complexes and the model validation, would substantially strengthen the case.
+
+## Risk / unsupported claims
+- The claim that the deep MSM resolves "two structurally and kinetically distinct encounter complex states" is not fully supported by the provided evidence, as no statistical comparison of transition rates or free energy barriers is shown.
+- The claim that the mechanism is "inconsistent with canonical conformational selection or induced fit" is not rigorously demonstrated and may be an oversimplification.
+- The claim that the deep MSM approach "may provide a general strategy" for building MSMs of IDPs is speculative and not fully supported by the single example presented.
+- The quantitative values for transition probabilities and MFPTs are presented without a clear description of the error estimation method for the deep MSM, making it difficult to assess their reliability.
+- The relevance of the 400 K simulation to physiological conditions is not discussed, and the potential impact of the high temperature on the observed mechanism is not assessed.

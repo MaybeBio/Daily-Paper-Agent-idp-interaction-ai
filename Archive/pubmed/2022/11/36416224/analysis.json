@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36416224",
+  "title": "Multivalency, autoinhibition, and protein disorder in the regulation of interactions of dynein intermediate chain with dynactin and the nuclear distribution protein.",
+  "authors": "Jara, Kayla A; Loening, Nikolaus M; Reardon, Patrick N; Yu, Zhen; Woonnimani, Prajna; Brooks, Coban; Vesely, Cat H; Barbar, Elisar J",
+  "journal": "eLife",
+  "published_date": "2022-11-24",
+  "window": {
+    "start": "2022-11-21",
+    "end": "2022-11-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过生物物理方法研究动力蛋白中间链无序N端结构域的多价结合与自抑制机制，揭示其与dynactin和NudE互作的调控，虽无AI/物理模拟方法，但聚焦IDR介导的PPI机制建模，对本课题有直接参考价值。",
+  "abstract": "As the only major retrograde transporter along microtubules, cytoplasmic dynein plays crucial roles in the intracellular transport of organelles and other cargoes. Central to the function of this motor protein complex is dynein intermediate chain (IC), which binds the three dimeric dynein light chains at multivalent sites, and dynactin p150(Glued) and nuclear distribution protein (NudE) at overlapping sites of its intrinsically disordered N-terminal domain. The disorder in IC has hindered cryo-electron microscopy and X-ray crystallography studies of its structure and interactions. Here we use a suite of biophysical methods to reveal how multivalent binding of the three light chains regulates IC interactions with p150(Glued) and NudE. Using IC from Chaetomium thermophilum, a tractable species to interrogate IC interactions, we identify a significant reduction in binding affinity of IC to p150(Glued) and a loss of binding to NudE for constructs containing the entire N-terminal domain as well as for full-length constructs when compared to the tight binding observed with short IC constructs. We attribute this difference to autoinhibition caused by long-range intramolecular interactions between the N-terminal single alpha-helix of IC, the common site for p150(Glued), and NudE binding, and residues closer to the end of the N-terminal domain. Reconstitution of IC subcomplexes demonstrates that autoinhibition is differentially regulated by light chains binding, underscoring their importance both in assembly and organization of IC, and in selection between multiple binding partners at the same site.",
+  "abstract_zh": "作为微管上唯一的主要逆向运输马达，细胞质动力蛋白在细胞器及其他货物的胞内运输中扮演关键角色。该马达蛋白复合物功能的核心是动力蛋白中间链（IC），它在多价位点结合三个二聚体动力蛋白轻链，并在其内在无序N端结构域的重叠位点结合dynactin p150(Glued)和核分布蛋白（NudE）。IC的无序性阻碍了冷冻电子显微镜和X射线晶体学对其结构和相互作用的研究。在此，我们采用一系列生物物理方法揭示三个轻链的多价结合如何调控IC与p150(Glued)和NudE的相互作用。使用来自嗜热毛壳菌（Chaetomium thermophilum）的IC（一种适合探究IC相互作用的物种），我们发现，与短IC构建体观察到的紧密结合相比，包含整个N端结构域的构建体以及全长构建体对p150(Glued)的结合亲和力显著降低，并且对NudE的结合丧失。我们将这种差异归因于IC N端单α-螺旋（p150(Glued)和NudE结合的常见位点）与N端结构域末端附近残基之间的长程分子内相互作用引起的自抑制。IC亚复合物的重构表明，自抑制受轻链结合的差异性调控，这强调了轻链在IC组装和组织以及在同一位点多个结合伙伴选择中的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36416224/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36416224/",
+  "paper_page_path": "papers/pubmed/36416224/index.html"
+}

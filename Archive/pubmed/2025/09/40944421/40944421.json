@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "40944421",
+    "doi": "10.1002/pro.70284",
+    "title": "Accurate prediction of thermoresponsive phase behavior of disordered proteins."
+  },
+  "content": {
+    "abstract": "Under heat stress, proteins have been shown to organize into biomolecular condensates in living cells. Recent experiments suggest that this response may be encoded in the chemical makeup of proteins. In particular, specific sequences undergo phase separation at elevated temperatures, exhibiting lower critical solution temperatures (LCST). However, the precise role of LCST-type transitions in heat-induced condensation remains largely unknown. This knowledge gap is further compounded by a lack of approaches that can quantitatively predict LCST-type phase behavior in proteins. To address this, we have developed Mpipi-T-a residue-resolution model for predicting LCST-type transitions in proteins. By integrating atomistic free energy of solvation data with experimental cloud point measurements, we parameterize short-range non-bonded interactions to capture the entropically driven phase separation that occurs upon heating, while analytically scaling long-range electrostatic interactions as a function of temperature. We show that Mpipi-T predicts LCST-type behavior, including both single-molecule properties and collective phase separation. Using Mpipi-T, we analyze three key proteins postulated to exhibit LCST: Alzheimer's disease-associated hTau40, stress granule-binding Pab1, and circadian clock regulator ELF3. Strikingly, our model predicts that each protein encodes an LCST near the physiological growth temperature of its respective organism. These findings highlight a potential mechanism by which proteins encode stress resilience in living systems, providing principles that can be harnessed in synthetic biology to engineer thermoresponsive behavior. Beyond mechanistic insight, Mpipi-T's computational efficiency also makes it a potentially useful tool for designing such proteins directly from their sequence.",
+    "keywords": [
+      "LCST",
+      "biomolecular condensates",
+      "coarse-grained model",
+      "disordered proteins",
+      "elastin-like polypeptides",
+      "heat stress"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Humans",
+      "Phase Transition",
+      "*tau Proteins/chemistry",
+      "Temperature"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chakravarti, Ananya",
+        "Joseph, Jerelle A"
+      ],
+      "short_names": [
+        "Chakravarti A",
+        "Joseph JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9282-6202",
+        "ORCID: 0000-0003-4525-180X"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey, USA.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey, USA.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chakravarti, Ananya",
+        "short_name": "Chakravarti A",
+        "identifiers": [
+          "0000-0001-9282-6202"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey, USA.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey, USA."
+        ]
+      },
+      {
+        "full_name": "Joseph, Jerelle A",
+        "short_name": "Joseph JA",
+        "identifiers": [
+          "0000-0003-4525-180X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey, USA.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/13 06:32",
+    "fetched_at": "2026-09-17 20:00:51"
+  },
+  "links": {
+    "cites": [
+      "42407334",
+      "41868013",
+      "41446170",
+      "41104102"
+    ],
+    "refs": [
+      "40671581",
+      "40028356",
+      "39633052",
+      "39412378",
+      "39383337",
+      "38874369",
+      "38673794",
+      "38637545",
+      "38607226",
+      "38605014",
+      "38362050",
+      "38297184",
+      "38066072",
+      "37957331",
+      "37684240",
+      "37645312",
+      "37359769",
+      "37132487",
+      "36681642",
+      "36163138",
+      "35928554",
+      "35795820",
+      "35750966",
+      "35492928",
+      "35148816",
+      "34931046",
+      "34716273",
+      "34145967",
+      "33934416",
+      "33930220",
+      "33876938",
+      "33826337",
+      "33782607",
+      "33686711",
+      "33597515",
+      "33307683",
+      "33176800",
+      "32888491",
+      "32848244",
+      "32619404",
+      "32499559",
+      "32263961",
+      "32168597",
+      "32087632",
+      "32029630",
+      "31681941",
+      "31139718",
+      "31097543",
+      "30217894",
+      "29949750",
+      "29604882",
+      "29602697",
+      "29364893",
+      "28935776",
+      "28819146",
+      "28537592",
+      "28472625",
+      "28283059",
+      "26723608",
+      "26390327",
+      "26359986",
+      "25863585",
+      "25557663",
+      "24706910",
+      "22984159",
+      "22936764",
+      "22398450",
+      "20585614",
+      "20136072",
+      "18506808",
+      "17684513",
+      "17098192",
+      "16677016",
+      "15314214",
+      "14979710",
+      "14625282",
+      "4847581"
+    ],
+    "similar": [
+      "40944421",
+      "40093057",
+      "42475469",
+      "39937084",
+      "38362050",
+      "40028356",
+      "40278867",
+      "41446170",
+      "23912807",
+      "30471685",
+      "41685621",
+      "39804953",
+      "31139718",
+      "30217894",
+      "26325592",
+      "28217775",
+      "31667345",
+      "40970906",
+      "29949750",
+      "32087632",
+      "32393642",
+      "40131954",
+      "39605385",
+      "40009520",
+      "38526948",
+      "34716273",
+      "33139563",
+      "40631837",
+      "42517612",
+      "33076213",
+      "34984429",
+      "37645312",
+      "38252962",
+      "33069007",
+      "39908323",
+      "39319382",
+      "26390327",
+      "35795820",
+      "42350353",
+      "39042834",
+      "34598580",
+      "30715857",
+      "41129218",
+      "40069234",
+      "39645030",
+      "40716138",
+      "25142785",
+      "33629837",
+      "37815389",
+      "41670285",
+      "41504268",
+      "36040869",
+      "41187075",
+      "40588121",
+      "32936641",
+      "41457474",
+      "35802394",
+      "42161313",
+      "40671581",
+      "30926670",
+      "39896463",
+      "33812316",
+      "38950000",
+      "41552984",
+      "32208723",
+      "39225535",
+      "40066891",
+      "33930220",
+      "30714730",
+      "41480717",
+      "31260322",
+      "29091028",
+      "32692541",
+      "34737230",
+      "33934416",
+      "39947751",
+      "41481439",
+      "32696385",
+      "40479073",
+      "28507126",
+      "40748104",
+      "40911789",
+      "29509422",
+      "34424695",
+      "42102067",
+      "30682588",
+      "29665334",
+      "40848932",
+      "36524527",
+      "32096047",
+      "36877869",
+      "34904892",
+      "41990032",
+      "36595668",
+      "39554101",
+      "30471691",
+      "27414502",
+      "31237369",
+      "41759853",
+      "33307683"
+    ],
+    "review": [
+      "40944421",
+      "26325592",
+      "29949750",
+      "33069007",
+      "35802394",
+      "33812316",
+      "33930220",
+      "41480717",
+      "39947751",
+      "29509422",
+      "36524527",
+      "32096047",
+      "41990032"
+    ],
+    "pmc": [
+      "12432431"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40944421.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40944421/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/pro.70284",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

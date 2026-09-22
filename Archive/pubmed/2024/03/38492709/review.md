@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that phosphorylation of Tau by protein kinase A (PKA) alters Tau structural preferences, and that Tau interacts with 14-3-3zeta protein variants through multiple binding modes, including the amphipathic binding grooves, less specific surface interactions, and, for monomeric 14-3-3, the exposed dimeric interface. They further claim that hyperphosphorylation of Tau changes its affinity to 14-3-3 proteins, and that monomerization-inducing phosphorylation of 14-3-3 at S58 affects binding to Tau. The interaction is described as complex, with differences in binding affinity, stoichiometry, and interfaces resolved at single-residue level using NMR, chemical cross-linking MS, and PAGE.
+- **Visible evidence base** Abstract text only; no experimental details, spectra, cross-linking data, or quantitative binding measurements are provided
+- **Missing materials affecting confidence** Full methods, NMR assignment and chemical shift perturbation data, cross-linking MS results, PAGE data, stoichiometry determination, statistical analysis, and any structural models or docking calculations
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and technically ambitious study of Tau and 14-3-3zeta interactions, with claims of single-residue resolution and multiple binding modes. However, the abstract alone provides insufficient evidence to evaluate the validity, robustness, or novelty of the findings. The claims are broad and mechanistic, but the supporting data are not visible. The work may be of interest to the neurodegeneration and protein interaction communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying Tau biology and Alzheimer's disease pathogenesis, particularly those focused on post-translational modifications and protein-protein interactions of intrinsically disordered proteins. Also, structural biologists and biochemists interested in 14-3-3 protein function, phosphorylation-dependent binding, and the role of protein dimerization in interaction specificity. The methodological combination of NMR, cross-linking MS, and PAGE may appeal to those developing integrative approaches for disordered protein complexes.
+- **Major strengths** The study addresses a relevant and under-explored question regarding the molecular mechanism of Tau and 14-3-3 interaction in the context of Alzheimer's disease. The use of multiple complementary biophysical techniques, including NMR with single-residue resolution, is appropriate for studying intrinsically disordered proteins. The consideration of both Tau phosphorylation and 14-3-3 monomerization adds a layer of biological complexity that is often neglected.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that the interaction between 14-3-3 and Tau is mediated via the amphipathic binding grooves, less specific surface interactions, and, for monomeric 14-3-3, the exposed dimeric interface, with single-residue resolution.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that NMR, cross-linking MS, and PAGE were used, but no quantitative data, spectra, or binding parameters are presented. The claim of single-residue resolution and identification of specific interaction interfaces cannot be assessed without the underlying data.  
+  - **Why it matters** The central novelty of the work appears to be the detailed molecular description of the interaction interfaces. Without visible evidence, the reader cannot determine whether the conclusions are supported by the data or whether alternative interpretations are possible.  
+  - **Resolution test** Provide the relevant NMR chemical shift perturbation data, cross-linking MS-derived distance constraints, and PAGE results, with clear mapping of residues involved in each binding mode.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** The authors claim that hyperphosphorylation of Tau changes its affinity to 14-3-3 proteins.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The direction and magnitude of the affinity change are not stated, and no binding constants or comparative data are provided. It is unclear whether hyperphosphorylation increases or decreases affinity, and whether this effect is specific to certain phosphorylation sites.  
+  - **Why it matters** This is a key biological claim with implications for disease mechanism. Without quantitative binding data, the claim is unsubstantiated.  
+  - **Resolution test** Report binding affinities (e.g., Kd values) for Tau variants with defined phosphorylation states, with appropriate controls and statistical analysis.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Interpretive clarity  
+  - **Claim pointer** The authors propose a "quite complex interaction mode" between Tau and 14-3-3 proteins, involving multiple binding sites and surfaces.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify how the different binding modes are distinguished experimentally, nor whether they occur simultaneously or under different conditions. The stoichiometry of the complex is mentioned but not quantified.  
+  - **Why it matters** A complex interaction model requires clear evidence that the proposed modes are distinct and not artifacts of the experimental conditions or data analysis.  
+  - **Resolution test** Provide a model or schematic that integrates the data, with explicit conditions under which each binding mode is observed, and stoichiometry measurements.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Biological relevance  
+  - **Claim pointer** The authors state that the molecular mechanism of pathological Tau changes and the direct involvement of 14-3-3 proteins are not well understood, implying that this study provides insight.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not connect the in vitro findings to a cellular or pathological context. It is unclear whether the observed interactions occur in neurons or under disease-relevant conditions.  
+  - **Why it matters** The stated motivation is Alzheimer's disease, but the study appears to be purely in vitro. Without contextualization, the translational relevance is speculative.  
+  - **Resolution test** Discuss how the observed binding modes and affinities relate to known cellular concentrations, post-translational modification states, and potential impact on Tau aggregation or function.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "less specific interactions with 14-3-3 protein surface" is vague and could be interpreted as non-specific binding.  
+  - **Required correction** Define what is meant by "less specific" and provide evidence that these interactions are biologically relevant rather than experimental noise.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Methods description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions PAGE but does not specify its role in the study.  
+  - **Required correction** Clarify whether PAGE was used for binding assays, stoichiometry, or quality control, and what information it provided.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Protein nomenclature  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract uses "14-3-3zeta" in the title but "14-3-3 proteins" in the text, which may cause confusion about the specific isoform studied.  
+  - **Required correction** Use consistent nomenclature throughout, specifying the isoform and its source.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or qualitative data to support the central claims of interaction interfaces, affinity changes, and complex binding modes.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of Tau phosphorylation and 14-3-3 monomerization effects on binding is potentially original, but the abstract does not clearly differentiate this from prior work on 14-3-3 and Tau interactions.  
+  - Scientific importance: The topic is relevant to Alzheimer's disease, but the abstract does not establish a clear mechanistic advance that would change current understanding.  
+  - Interdisciplinary readership: The work may appeal to structural biologists, biochemists, and neuroscientists, but the abstract is too technical and lacks context for a broad audience.  
+  - Technical soundness: The methods are appropriate, but the absence of data prevents assessment of technical quality.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with NMR, cross-linking MS, and 14-3-3 biology, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting study, but the claims are not verifiable without the full manuscript and data. A revised assessment would require access to the complete methods, results, and figures.
+
+## Risk / unsupported claims
+- The claim that Tau and 14-3-3 interact via multiple distinct binding modes is unsupported without data showing how these modes are distinguished.
+- The claim that hyperphosphorylation changes Tau affinity to 14-3-3 is unsupported without quantitative binding data.
+- The claim of single-residue resolution is unverifiable from the abstract.
+- The biological relevance of the findings to Alzheimer's disease is asserted but not demonstrated.

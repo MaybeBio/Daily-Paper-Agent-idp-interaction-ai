@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "34328301",
+    "doi": "10.1021/acsnano.1c02337",
+    "title": "Protamine-Controlled Reversible DNA Packaging: A Molecular Glue."
+  },
+  "content": {
+    "abstract": "Packaging paternal genome into tiny sperm nuclei during spermatogenesis requires 10(6)-fold compaction of DNA, corresponding to a 10-20 times higher compaction than in somatic cells. While such a high level of compaction involves protamine, a small arginine-rich basic protein, the precise mechanism at play is still unclear. Effective pair potential calculations and large-scale molecular dynamics simulations using a simple idealized model incorporating solely electrostatic and steric interactions clearly demonstrate a reversible control on DNA condensates formation by varying the protamine-to-DNA ratio. Microscopic states and condensate structures occurring in semidilute solutions of short DNA fragments are in good agreement with experimental phase diagram and cryoTEM observations. The reversible microscopic mechanisms induced by protamination modulation should provide valuable information to improve a mechanistic understanding of early and intermediate stages of spermatogenesis where an interplay between condensation and liquid-liquid phase separation triggered by protamine expression and post-translational regulation might occur. Moreover, recent vaccines to prevent virus infections and cancers using protamine as a packaging and depackaging agent might be fine-tuned for improved efficiency using a protamination control.",
+    "keywords": [
+      "DNA packaging",
+      "molecular dynamics simulation",
+      "protamine",
+      "redissolution",
+      "self-assembly"
+    ],
+    "mesh_terms": [
+      "Male",
+      "Humans",
+      "*Protamines/chemistry/genetics/metabolism",
+      "*Spermatozoa/metabolism",
+      "Semen/metabolism",
+      "DNA Packaging",
+      "DNA/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mukherjee, Arnab",
+        "de Izarra, Ambroise",
+        "Degrouard, Jeril",
+        "Olive, Enrick",
+        "Maiti, Prabal K",
+        "Jang, Yun Hee",
+        "Lansac, Yves"
+      ],
+      "short_names": [
+        "Mukherjee A",
+        "de Izarra A",
+        "Degrouard J",
+        "Olive E",
+        "Maiti PK",
+        "Jang YH",
+        "Lansac Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9956-1136",
+        "ORCID: 0000-0002-6604-5813",
+        "ORCID: 0000-0002-3955-417X"
+      ],
+      "affiliations": [
+        "GREMAN, CNRS UMR 7347, Universite de Tours, 37200 Tours, France.",
+        "GREMAN, CNRS UMR 7347, Universite de Tours, 37200 Tours, France.",
+        "Department of Energy Science and Engineering, DGIST, Daegu 42988, Korea.",
+        "Laboratoire de Physique des Solides, CNRS UMR 8502, Universite Paris-Saclay, 91405 Orsay, France.",
+        "GREMAN, CNRS UMR 7347, Universite de Tours, 37200 Tours, France.",
+        "Center for Condensed Matter Theory, Indian Institute of Science, Bangalore 560012, India.",
+        "Department of Energy Science and Engineering, DGIST, Daegu 42988, Korea.",
+        "GREMAN, CNRS UMR 7347, Universite de Tours, 37200 Tours, France.",
+        "Department of Energy Science and Engineering, DGIST, Daegu 42988, Korea.",
+        "Laboratoire de Physique des Solides, CNRS UMR 8502, Universite Paris-Saclay, 91405 Orsay, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mukherjee, Arnab",
+        "short_name": "Mukherjee A",
+        "identifiers": [],
+        "affiliations": [
+          "GREMAN, CNRS UMR 7347, Université de Tours, 37200 Tours, France."
+        ]
+      },
+      {
+        "full_name": "de Izarra, Ambroise",
+        "short_name": "de Izarra A",
+        "identifiers": [],
+        "affiliations": [
+          "GREMAN, CNRS UMR 7347, Université de Tours, 37200 Tours, France.",
+          "Department of Energy Science and Engineering, DGIST, Daegu 42988, Korea."
+        ]
+      },
+      {
+        "full_name": "Degrouard, Jeril",
+        "short_name": "Degrouard J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Physique des Solides, CNRS UMR 8502, Université Paris-Saclay, 91405 Orsay, France."
+        ]
+      },
+      {
+        "full_name": "Olive, Enrick",
+        "short_name": "Olive E",
+        "identifiers": [],
+        "affiliations": [
+          "GREMAN, CNRS UMR 7347, Université de Tours, 37200 Tours, France."
+        ]
+      },
+      {
+        "full_name": "Maiti, Prabal K",
+        "short_name": "Maiti PK",
+        "identifiers": [
+          "0000-0002-9956-1136"
+        ],
+        "affiliations": [
+          "Center for Condensed Matter Theory, Indian Institute of Science, Bangalore 560012, India."
+        ]
+      },
+      {
+        "full_name": "Jang, Yun Hee",
+        "short_name": "Jang YH",
+        "identifiers": [
+          "0000-0002-6604-5813"
+        ],
+        "affiliations": [
+          "Department of Energy Science and Engineering, DGIST, Daegu 42988, Korea."
+        ]
+      },
+      {
+        "full_name": "Lansac, Yves",
+        "short_name": "Lansac Y",
+        "identifiers": [
+          "0000-0002-3955-417X"
+        ],
+        "affiliations": [
+          "GREMAN, CNRS UMR 7347, Université de Tours, 37200 Tours, France.",
+          "Department of Energy Science and Engineering, DGIST, Daegu 42988, Korea.",
+          "Laboratoire de Physique des Solides, CNRS UMR 8502, Université Paris-Saclay, 91405 Orsay, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS nano"
+    ],
+    "journal_abbrev": [
+      "ACS Nano"
+    ],
+    "pub_date": "2021 Aug 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/31 06:00",
+    "fetched_at": "2026-09-20 04:35:29"
+  },
+  "links": {
+    "cites": [
+      "41909948",
+      "41904596",
+      "41557508",
+      "40977604",
+      "38932164",
+      "38675116",
+      "38005953",
+      "37705794",
+      "36406544",
+      "36168289"
+    ],
+    "refs": [],
+    "similar": [
+      "34328301",
+      "37705794",
+      "24869677",
+      "36168289",
+      "21443490",
+      "37960891",
+      "37036962",
+      "37460896",
+      "29117517",
+      "35763544",
+      "35900356",
+      "38557033",
+      "21994948",
+      "23955674",
+      "24634207",
+      "36181449",
+      "24711287",
+      "15024099",
+      "7702873",
+      "17208950",
+      "30920782",
+      "31762067",
+      "25673563",
+      "14990583",
+      "37803830",
+      "10824973",
+      "12912999",
+      "9542969",
+      "33754735",
+      "31326281",
+      "24112532",
+      "26429923",
+      "20536320",
+      "25190724",
+      "31489691",
+      "18991564",
+      "27899719",
+      "30971720",
+      "27810970",
+      "9621311",
+      "20966423",
+      "21443493",
+      "21443494",
+      "18298569",
+      "29651936",
+      "32169215",
+      "21435240",
+      "26673329",
+      "25264147",
+      "7711180",
+      "14695982",
+      "30551142",
+      "28854581",
+      "10794077",
+      "10506559",
+      "21937068",
+      "9584175",
+      "15980005",
+      "31885108",
+      "28969455",
+      "36348112",
+      "22036908",
+      "17903313",
+      "7980953",
+      "23340056",
+      "35608054",
+      "8418817",
+      "8344286",
+      "22552691",
+      "33890330",
+      "35344802",
+      "23995738",
+      "24671975",
+      "8900468",
+      "33448260",
+      "28031247",
+      "23540557",
+      "18211299",
+      "17425821",
+      "27833122",
+      "22789106",
+      "23810557",
+      "10677850",
+      "20138392",
+      "2364093",
+      "17081539",
+      "23044178",
+      "25354700",
+      "8373804",
+      "12113475",
+      "25649960",
+      "12620939",
+      "1889406",
+      "31167697",
+      "27345455",
+      "8286574",
+      "18390561",
+      "16871843",
+      "16168218",
+      "16870950",
+      "9872998",
+      "34360620",
+      "22992935",
+      "36381269",
+      "38502252",
+      "38106194"
+    ],
+    "review": [
+      "34328301",
+      "24869677",
+      "21443490",
+      "35900356",
+      "23955674",
+      "36181449",
+      "17208950",
+      "20536320",
+      "21443494",
+      "18298569",
+      "29651936",
+      "14695982",
+      "36348112",
+      "17903313",
+      "35344802",
+      "16871843",
+      "36381269"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/ancac3/article-lookup/doi/10.1021/acsnano.1c02337",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

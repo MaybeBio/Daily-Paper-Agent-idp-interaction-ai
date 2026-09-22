@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "pmid": "40616978",
+    "doi": "10.1016/j.sbi.2025.103107",
+    "title": "Minimal models for RNA simulations."
+  },
+  "content": {
+    "abstract": "The increasing importance of RNA as a prime player in biology can hardly be overstated. Problems in RNA, such as folding and RNA-RNA interactions that drive phase separation, require cations. Because experiments alone cannot reveal the dynamics of cation-RNA interactions, well calibrated theory and computations are needed to predict how ions control the behavior of RNA. The perspective describes the development and use of coarse-grained models at different resolutions. We focus on single- and three-interaction site models, in which electrostatic interactions are treated using a combination of explicit and implicit representations. Applications to the folding of ribozymes and riboswitches are discussed, with emphasis on the role of monovalent and divalent cations. We also discuss phase separation in low-complexity sequences. Challenges in the simulation of complex problems such as ribosome assembly and RNA chaperones, requiring developments of models for RNA-protein interactions, are pointed out.",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA/chemistry/metabolism",
+      "Nucleic Acid Conformation",
+      "*Models, Molecular",
+      "Riboswitch",
+      "*Molecular Dynamics Simulation",
+      "RNA Folding",
+      "RNA, Catalytic/chemistry/metabolism",
+      "Static Electricity"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Thirumalai, D",
+        "Hori, Naoto",
+        "Nguyen, Hung T"
+      ],
+      "short_names": [
+        "Thirumalai D",
+        "Hori N",
+        "Nguyen HT"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, The University of Texas at Austin, Austin, TX 78712, USA. Electronic address: dave.thirumalai@gmail.com.",
+        "School of Pharmacy, University of Nottingham, Nottingham NG7 2RD, UK. Electronic address: naoto.hori@nottingham.ac.uk.",
+        "Department of Chemistry, University at Buffalo, NY 14260, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Thirumalai, D",
+        "short_name": "Thirumalai D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, TX 78712, USA. Electronic address: dave.thirumalai@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Hori, Naoto",
+        "short_name": "Hori N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, University of Nottingham, Nottingham NG7 2RD, UK. Electronic address: naoto.hori@nottingham.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Hung T",
+        "short_name": "Nguyen HT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University at Buffalo, NY 14260, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/06 06:18",
+    "fetched_at": "2026-09-21 20:31:45"
+  },
+  "links": {
+    "cites": [
+      "41877485"
+    ],
+    "refs": [],
+    "similar": [
+      "40616978",
+      "31570624",
+      "31130233",
+      "11491301",
+      "26682822",
+      "9782053",
+      "15491606",
+      "17295487",
+      "30462314",
+      "38780738",
+      "29879103",
+      "28633759",
+      "25726468",
+      "39508828",
+      "32687319",
+      "12831881",
+      "24703311",
+      "29225080",
+      "19718544",
+      "10742186",
+      "10772868",
+      "17846637",
+      "25849913",
+      "23527587",
+      "19754142",
+      "17981494",
+      "39442981",
+      "24703312",
+      "24758371",
+      "21899297",
+      "32944725",
+      "37986217",
+      "25726472",
+      "27394096",
+      "11345432",
+      "15811793",
+      "33170270",
+      "26391078",
+      "27151194",
+      "18573079",
+      "22595008",
+      "25726466",
+      "41129218",
+      "16100266",
+      "20194520",
+      "34240789",
+      "25014157",
+      "11980483",
+      "9631298",
+      "17616553",
+      "40329532",
+      "32769092",
+      "9778351",
+      "32522558",
+      "25780113",
+      "12323370",
+      "12948483",
+      "21857665",
+      "28934478",
+      "27479701",
+      "41003999",
+      "31800116",
+      "15916542",
+      "29297679",
+      "12034824",
+      "12691754",
+      "19482035",
+      "35042820",
+      "12045114",
+      "33495645",
+      "9228937",
+      "24366448",
+      "39317944",
+      "33949113",
+      "21999672",
+      "26859432",
+      "38907934",
+      "22110243",
+      "25451761",
+      "21530235",
+      "21395279",
+      "38498914",
+      "25726461",
+      "13678961",
+      "38814009",
+      "21806941",
+      "21315082",
+      "37758176",
+      "20420375",
+      "10739942",
+      "17438287",
+      "10780485",
+      "28138060",
+      "27438572",
+      "7688142",
+      "16617077",
+      "32712918",
+      "38800845",
+      "25432755",
+      "8744356"
+    ],
+    "review": [
+      "40616978",
+      "12831881",
+      "19718544",
+      "10742186",
+      "17846637",
+      "25849913",
+      "17981494",
+      "32944725",
+      "15811793",
+      "18573079",
+      "22595008",
+      "9631298",
+      "12323370",
+      "41003999",
+      "31800116",
+      "15916542",
+      "29297679",
+      "12045114",
+      "33495645",
+      "33949113",
+      "21530235",
+      "13678961",
+      "10739942",
+      "7688142",
+      "25432755"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959-440X(25)00125-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

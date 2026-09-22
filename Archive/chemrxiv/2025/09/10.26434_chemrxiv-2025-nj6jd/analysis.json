@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-nj6jd",
+  "title": "Empowering Federated Learning for Robust Compound-Protein Interaction Prediction across Heterogeneous Cross-Pharma Domains",
+  "authors": "Takuto Koyama; Hiroaki Iwata; Ryosuke Kojima; Takao Otsuka; Aki Hasegawa; Hiroshi Ueda; Toshiharu Morimoto; Ryoko Sasaki; Nao Torimoto; Sei Murakami; Manabu Tojo; Teruki Honma; Shigeyuki Matsumoto; Yasushi Okuno",
+  "journal": "ChemRxiv",
+  "published_date": "2025-09-23",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究联邦学习框架下化合物-蛋白质互作(CPI)预测的跨域泛化，对象为折叠蛋白与小分子，非无序蛋白/IDR/相分离，且无互作机制建模或AI/物理模拟方法贡献，仅属应用性预测，与本课题关联较弱。",
+  "abstract": "Accurately predicting novel compound-protein interactions (CPIs) is essential for accelerating drug discovery. The generalizability of machine learning-based CPI prediction models relies significantly on the availability and diversity of CPI datasets. To maximize data utility, particularly for highly confidential datasets maintained by industries, federated learning (FL)—which integrates multi-site data while preserving privacy—has emerged as a promising approach. Nonetheless, its effectiveness when applied to heterogeneous data from diverse molecular domains, a common real-world scenario, remains unclear, thereby limiting its broader adoption. This study evaluates FL for CPI prediction using datasets spanning multiple chemical and protein domains, providing practical guidance for optimizing the FL approach. Results indicate that the FL model enhanced out-of-domain prediction performance but was surpassed by local models for in-domain data under data heterogeneity. Drawing on these findings, a new strategy was developed to achieve robust performance for in- and out-of-domain tasks: a similarity-guided ensemble that combines the global FL model with fine-tuned models based on each client's local data. This method demonstrated effectiveness with real-world industry data, including samples from the public database and 13 pharmaceutical companies. Cumulatively, these findings offer practical guidance for implementing FL in contemporary drug discovery processes.",
+  "abstract_zh": "准确预测新型化合物-蛋白质相互作用（CPI）对于加速药物发现至关重要。基于机器学习的CPI预测模型的泛化能力在很大程度上依赖于CPI数据集的可用性和多样性。为了最大化数据效用，特别是针对工业界维护的高度机密数据集，联邦学习（federated learning, FL）——一种在保护隐私的同时整合多站点数据的方法——已成为一种有前景的途径。然而，当其应用于来自不同分子领域的异质数据（这是常见的现实场景）时，其有效性仍不明确，从而限制了其更广泛的采用。本研究使用涵盖多个化学和蛋白质领域的数据集评估了FL在CPI预测中的表现，为优化FL方法提供了实用指导。结果表明，FL模型增强了域外预测性能，但在数据异质性下，对于域内数据，其表现不及本地模型。基于这些发现，开发了一种新策略，以实现域内和域外任务的稳健性能：一种基于相似性的集成方法，将全局FL模型与基于每个客户端本地数据微调的模型相结合。该方法在真实工业数据（包括来自公共数据库和13家制药公司的样本）中展示了有效性。综合来看，这些发现为在当代药物发现过程中实施FL提供了实用指导。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-nj6jd",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-nj6jd",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-nj6jd/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a transformer-based generative model trained on molecular dynamics (MD) simulation conformations of protein-protein complexes, which can generate novel, physically realistic conformations that complement pre-existing sampled ensembles, thereby serving as an exploratory tool to enhance MD simulations.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark comparisons, or validation details
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, training and validation datasets, baseline comparisons, and any statistical or performance metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting application of transformer-based generative models to protein-protein complex conformational sampling. However, the current abstract provides insufficient technical detail and no quantitative evidence to evaluate the validity, novelty, or practical utility of the proposed approach. The core claims regarding physical realism, complementarity to MD sampling, and exploratory utility are not substantiated by any presented data.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists interested in conformational ensembles of protein complexes; researchers developing deep learning methods for molecular simulation acceleration or enhancement; method developers in generative modeling for biomolecular structures.
+- **Major strengths** The problem addressed is relevant and timely, as sampling limitations in MD simulations are well recognized. The use of a transformer architecture for generating protein-protein complex conformations is a reasonable and potentially novel direction. The framing of the model as a complement to MD rather than a replacement is scientifically appropriate.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model generates novel conformations with physical realism.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims physical realism of generated conformations but provides no validation metrics, such as energy distributions, Ramachandran plot statistics, or comparison to known experimental structures or independent MD simulations.
+  - **Why it matters** Physical realism is a central claim that distinguishes this work from arbitrary interpolation in latent space. Without quantitative validation, the claim is unsupported and the method cannot be distinguished from a model that produces plausible-looking but physically incorrect structures.
+  - **Resolution test** Provide quantitative comparisons of generated conformations against MD reference distributions, including but not limited to RMSD distributions, contact map accuracy, and energetic plausibility, ideally with statistical significance testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The learned latent space can be used to generate unsampled conformations complementing pre-existing ones.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of complementarity is not demonstrated. No evidence is shown that generated conformations populate regions of conformational space that are distinct from the training MD data, nor that these new conformations are biologically meaningful or kinetically accessible.
+  - **Why it matters** Complementarity is the key value proposition of the method. If the model only reproduces or interpolates within the training distribution, it offers no advantage over the original MD simulation. The claim of exploratory utility depends entirely on demonstrating that new, relevant conformational states are discovered.
+  - **Resolution test** Show a clear comparison of conformational space coverage between MD training data and generated samples, for example via dimensionality reduction projections, and demonstrate that generated conformations include states not present in the training set, ideally validated by independent experimental or computational evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** A generative neural network was trained on protein-protein complex conformations obtained from molecular simulations to directly generate novel conformations.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are provided on the training data, model architecture, loss function, or evaluation protocol. It is unclear how many complexes were used, how conformations were sampled from MD, how the transformer was adapted to 3D structural data, and how generation was performed.
+  - **Why it matters** Reproducibility and technical assessment are impossible without these details. The transformer architecture is not trivially applicable to 3D coordinates, and the choice of representation and training strategy will critically affect performance and validity.
+  - **Resolution test** Provide a complete methods section including data preparation, model architecture, training details, hyperparameters, and generation procedure, along with code availability.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "contact and conformational changes of protein-protein interactions" is vague and could be more precise.
+  - **Required correction** Clarify whether the focus is on binding interfaces, global conformational changes, or both, and specify the timescale or structural resolution of interest.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract framing
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that the model can be used as an exploratory tool is stated without any example or potential use case.
+  - **Required correction** Provide at least one concrete example of how the generated conformations could be used, such as identifying cryptic binding sites, studying allosteric transitions, or generating starting points for further MD simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract methodology description
+  - **Evidence pointer** Abstract, sentence on training
+  - **Issue** The abstract does not specify what type of generative model is used (e.g., VAE, GAN, diffusion) beyond stating it is transformer-based.
+  - **Required correction** Specify the generative framework and how the transformer is integrated into it.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of transformer architecture with generative modeling for protein-protein complex conformational ensembles appears potentially novel, but the abstract does not provide enough context to assess novelty relative to existing generative models for protein conformations.
+  - Scientific importance: The problem of enhancing MD sampling for protein complexes is important, but the abstract does not demonstrate that the proposed method achieves this in a meaningful way.
+  - Interdisciplinary readership: The topic bridges machine learning and structural biology, which has broad appeal, but the abstract is too vague to engage either community effectively.
+  - Technical soundness: Not assessable from the abstract; no methodological or validation details are provided.
+  - Readability for nonspecialists: The abstract is generally readable but lacks concrete examples or quantitative context that would help nonspecialists understand the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible research direction but lacks all quantitative and methodological support needed to evaluate the core claims. A full manuscript with detailed methods and validation would be required for a substantive assessment.
+
+## Risk / unsupported claims
+- The claim that generated conformations possess physical realism is unsupported by any presented evidence.
+- The claim that the model generates conformations complementing pre-existing MD samples is unsupported and not demonstrated.
+- The claim that the model can serve as an exploratory tool for analysis and enhancement of MD simulations is speculative without demonstrated use cases.
+- The general effectiveness of the transformer-based generative approach for this task is not assessable from the abstract alone.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a multiscale computational framework combining atomistic molecular dynamics, molecular docking, and lattice-based Monte Carlo simulations to predict and describe liquid-liquid phase separation (LLPS) of intrinsically disordered proteins (IDPs), using FUS protein and variants as test cases. The framework represents FUS as a sticker-spacer chain, derives pairwise sticker interaction potentials from all-atom simulations, and uses these in coarse-grained Monte Carlo simulations with a modified acceptance criterion based on discretized binding energy distributions. The authors claim the framework is economical and efficient for predicting LLPS behavior.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or quantitative results provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, validation data, comparison with experimental LLPS data, and any quantitative metrics of predictive accuracy
+
+## Reviewer
+- **Overall assessment** The abstract describes a conceptually interesting multiscale approach that integrates atomistic detail with coarse-grained lattice simulations for studying IDP phase separation. The sticker-spacer framework is well established in the field, and the use of LARKS as stickers is a reasonable choice. However, the abstract provides insufficient quantitative evidence to evaluate the framework's predictive capability, accuracy, or novelty relative to existing methods. Key methodological details, such as how the discretized pair potentials are incorporated into the Monte Carlo acceptance criteria and how the radial distribution function fluctuations relate to phase separation propensity, are not adequately explained. The claim of an "economical and efficient" framework is not supported by any computational cost or performance data.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, soft matter physics, and cell biology studying phase separation of IDPs and membraneless organelle formation. The framework could be of interest to those seeking computationally tractable methods to screen IDP variants for LLPS propensity, and to experimentalists who need predictive tools to interpret mutational effects on phase behavior.
+- **Major strengths** The multiscale strategy is logically coherent, bridging atomistic interaction energetics with mesoscale phase behavior. The use of LARKSdb to identify stickers is a concrete and reproducible step. The incorporation of binding energy distributions into Monte Carlo acceptance criteria is a potentially novel methodological contribution that goes beyond simple Metropolis sampling. The choice of FUS as a well-studied model system with known phase behavior provides a relevant test case.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The framework "provides an economical and efficient way of predicting and describing the LLPS behavior of IDPs"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative results demonstrating that the framework successfully predicts LLPS behavior. No comparison with experimental phase diagrams, critical concentrations, or known FUS variant behavior is presented. The claim of predictive capability is therefore unsupported.
+  - **Why it matters** A computational framework's value rests on its demonstrated ability to reproduce or predict known phenomena. Without validation against experimental data or established computational benchmarks, the framework's utility cannot be assessed.
+  - **Resolution test** Provide quantitative comparisons between framework predictions and experimental LLPS data for FUS and variants, including phase boundaries, saturation concentrations, or cluster size distributions. Show statistical agreement metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Discretized pair potential distributions between stickers were considered in the move acceptance criteria. The chosen pair potential represents one of the possible binding energy states, with its probability determined by the frequency of the binding energy distribution histogram"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The methodological description of how the discretized pair potentials are used in the Monte Carlo acceptance criteria is ambiguous. It is unclear whether the acceptance probability is a weighted average over all binding states, a stochastic selection of a state per move, or something else. The thermodynamic consistency of this approach is not established.
+  - **Why it matters** The modified acceptance criterion is a central methodological innovation. If implemented incorrectly, it could bias sampling and produce artifacts in the phase behavior. The approach must be shown to satisfy detailed balance or otherwise be thermodynamically valid.
+  - **Resolution test** Provide a clear mathematical formulation of the acceptance criterion, demonstrate that it satisfies detailed balance or justify the approximation, and show that the method reproduces known results for a simple test system.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The fluctuations of averaged radial distribution functions (RDFs) in successive MC trial move intervals of equilibrated lattice MC simulations were used to indicate the dynamic nature of assembly/disassembly of the protein chains"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The use of RDF fluctuations as an indicator of assembly/disassembly dynamics is not justified. RDF fluctuations reflect spatial correlations, not necessarily dynamic exchange kinetics. The relationship between RDF fluctuation magnitude and the timescale or reversibility of phase separation is not explained.
+  - **Why it matters** If the framework claims to describe the "dynamic nature" of LLPS, the metric used must be validated as a meaningful proxy for dynamics. Without this, the interpretation of simulation output as dynamic behavior is speculative.
+  - **Resolution test** Compare RDF fluctuation metrics with direct measurements of chain exchange rates or cluster lifetimes, and show a quantitative correlation. Alternatively, provide a theoretical justification linking RDF fluctuations to dynamic processes.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "low-complexity aromatic-rich kinked segments (LARKS)" is used without a brief explanation of what LARKS are or why they are relevant to phase separation.
+  - **Required correction** Add a parenthetical explanation, such as "segments known to form reversible beta-sheet interactions that promote phase separation."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Novelty positioning
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not clearly state how this framework differs from or improves upon existing multiscale or coarse-grained models for IDP phase separation.
+  - **Required correction** Add one or two sentences explicitly contrasting the approach with prior methods, such as field-theoretic simulations or residue-level coarse-grained models.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Parameterization
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that pairwise potentials were estimated via docking and all-atom MD, but does not specify how many pairs, what force field, or how the potentials were converted to lattice interaction parameters.
+  - **Required correction** Provide a brief summary of the parameterization procedure, including force field choice, simulation length, and mapping scheme from atomistic potentials to coarse-grained lattice interactions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no validation against experimental data), R1-M2 (unclear and potentially thermodynamically inconsistent acceptance criterion), R1-M3 (unvalidated dynamic metric)
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of LARKS-based sticker identification with binding energy distribution-weighted Monte Carlo sampling has elements of novelty, but the abstract does not clearly differentiate it from existing approaches. The originality claim is weak based on the abstract alone.
+  - Scientific importance: The problem of predicting IDP phase separation is of high importance in cell biology and biophysics. However, the abstract does not demonstrate that the framework advances predictive capability beyond current methods.
+  - Interdisciplinary readership: The topic bridges biophysics, computational chemistry, and cell biology, and the abstract is written in a way that is broadly accessible. However, the lack of quantitative results limits its appeal to specialists who would need to assess technical validity.
+  - Technical soundness: The methodological description is incomplete, and the key innovation (modified acceptance criterion) is not rigorously justified. The dynamic interpretation of RDF fluctuations is not supported.
+  - Readability for nonspecialists: The abstract is generally clear, but some terms (LARKS, Kuhn length, RDF) are used without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract lacks the quantitative validation and methodological rigor needed to support the central claims. The authors should provide full details of the method, validation against experimental data, and a clear demonstration of predictive accuracy before the framework can be considered a credible contribution.
+
+## Risk / unsupported claims
+- The claim that the framework "provides an economical and efficient way of predicting and describing the LLPS behavior of IDPs" is unsupported, as no computational cost data or predictive accuracy metrics are provided.
+- The claim that RDF fluctuations "indicate the dynamic nature of assembly/disassembly" is unsupported, as no validation of this metric against direct dynamic measurements is presented.
+- The claim that the modified Monte Carlo acceptance criterion is valid is unverifiable from the abstract, as the mathematical formulation and thermodynamic consistency are not described.
+- The general applicability of the framework to IDPs beyond FUS is asserted but not demonstrated.

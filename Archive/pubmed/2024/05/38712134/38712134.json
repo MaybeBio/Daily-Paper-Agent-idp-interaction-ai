@@ -1,0 +1,274 @@
+{
+  "identity": {
+    "pmid": "38712134",
+    "doi": "10.1101/2024.04.25.591103",
+    "title": "A complete map of specificity encoding for a partially fuzzy protein interaction."
+  },
+  "content": {
+    "abstract": "Thousands of human proteins function by binding short linear motifs embedded in intrinsically disordered regions. How affinity and specificity are encoded in these binding domains and the motifs themselves is not well understood. The evolvability of binding specificity - how rapidly and extensively it can change upon mutation - is also largely unexplored, as is the contribution of 'fuzzy' dynamic residues to affinity and specificity in protein-protein interactions. Here we report the first complete map of specificity encoding for a globular protein domain. Quantifying >200,000 energetic interactions between a PDZ domain and its ligand identifies 20 major energetically coupled pairs of sites that control specificity. These are organized into six modules, with most mutations in each module reprogramming specificity for a single position in the ligand. Nine of the major energetic couplings controlling specificity are between structural contacts and 11 have an allosteric mechanism of action. The dynamic tail of the ligand is more robust to mutation than the structured residues but contributes additively to binding affinity and communicates with structured residues to enable changes in specificity. Our results quantify the binding specificities of >1,800 globular proteins to reveal how specificity is encoded and provide a direct comparison of the encoding of affinity and specificity in structured and dynamic molecular recognition.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zarin, Taraneh",
+        "Lehner, Ben"
+      ],
+      "short_names": [
+        "Zarin T",
+        "Lehner B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1253-3843",
+        "ORCID: 0000-0002-8817-1124"
+      ],
+      "affiliations": [
+        "Centre for Genomic Regulation (CRG), Barcelona Institute for Science and Technology (BIST), Barcelona, Spain.",
+        "Centre for Genomic Regulation (CRG), Barcelona Institute for Science and Technology (BIST), Barcelona, Spain.",
+        "Wellcome Sanger Institute, Cambridge, UK.",
+        "Universitat Pompeu Fabra (UPF), Barcelona, Spain.",
+        "Institucio Catalana de Recerca i Estudis Avancats (ICREA), Barcelona, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zarin, Taraneh",
+        "short_name": "Zarin T",
+        "identifiers": [
+          "0000-0003-1253-3843"
+        ],
+        "affiliations": [
+          "Centre for Genomic Regulation (CRG), Barcelona Institute for Science and Technology (BIST), Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Lehner, Ben",
+        "short_name": "Lehner B",
+        "identifiers": [
+          "0000-0002-8817-1124"
+        ],
+        "affiliations": [
+          "Centre for Genomic Regulation (CRG), Barcelona Institute for Science and Technology (BIST), Barcelona, Spain.",
+          "Wellcome Sanger Institute, Cambridge, UK.",
+          "Universitat Pompeu Fabra (UPF), Barcelona, Spain.",
+          "Institució Catalana de Recerca i Estudis Avançats (ICREA), Barcelona, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Apr 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/07 06:42",
+    "fetched_at": "2026-09-21 07:01:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39617885",
+      "38109937",
+      "37878721",
+      "37774136",
+      "37716093",
+      "35934050",
+      "35388192",
+      "34101805",
+      "33170209",
+      "32799905",
+      "32734663",
+      "32553192",
+      "32289118",
+      "32086448",
+      "31519910",
+      "31007871",
+      "30368054",
+      "29562181",
+      "29466338",
+      "29319301",
+      "29036507",
+      "27321669",
+      "25038412",
+      "24773235",
+      "24210758",
+      "24010708",
+      "23041932",
+      "22416277",
+      "22412368",
+      "21909575",
+      "19157855",
+      "19151095",
+      "19008353",
+      "18828675",
+      "18467557",
+      "18076326",
+      "18054235",
+      "17474715",
+      "15180930",
+      "14871861",
+      "12709532",
+      "12446668",
+      "9581762",
+      "8974395",
+      "8674113"
+    ],
+    "similar": [
+      "38712134",
+      "35605677",
+      "21192692",
+      "24784152",
+      "15465056",
+      "10860756",
+      "24813123",
+      "25158098",
+      "26984442",
+      "11851339",
+      "21928318",
+      "18828675",
+      "11352727",
+      "19646997",
+      "12446668",
+      "24305904",
+      "20052683",
+      "18596940",
+      "31578253",
+      "26053890",
+      "35310482",
+      "39864625",
+      "35388192",
+      "22709956",
+      "26684000",
+      "21653701",
+      "22576124",
+      "39553988",
+      "28002650",
+      "27435737",
+      "15533451",
+      "29473168",
+      "23912807",
+      "23050840",
+      "21998559",
+      "21195225",
+      "33904398",
+      "38600130",
+      "31146922",
+      "33382810",
+      "14698303",
+      "30471699",
+      "38899489",
+      "21227701",
+      "26627240",
+      "15774468",
+      "16737968",
+      "29944921",
+      "39402041",
+      "20976110",
+      "30366362",
+      "27998539",
+      "23243314",
+      "29083550",
+      "28319009",
+      "26226339",
+      "17962403",
+      "18656966",
+      "11838236",
+      "28634294",
+      "32289118",
+      "30813629",
+      "34171344",
+      "21927770",
+      "36305763",
+      "21909575",
+      "17656586",
+      "31654425",
+      "17979300",
+      "32311315",
+      "29590589",
+      "35977510",
+      "14636606",
+      "12606711",
+      "26976603",
+      "34532345",
+      "12627945",
+      "30731167",
+      "36851847",
+      "32825095",
+      "38109937",
+      "37722056",
+      "36251217",
+      "17240990",
+      "36504386",
+      "29614221",
+      "21620710",
+      "31207240",
+      "33438817",
+      "23395182",
+      "16737969",
+      "35934050",
+      "31286859",
+      "39012820",
+      "34626492",
+      "36714997",
+      "21525870",
+      "23802200",
+      "23806608",
+      "27556733"
+    ],
+    "review": [
+      "38712134",
+      "22709956",
+      "22576124",
+      "21998559",
+      "26226339",
+      "18656966",
+      "11838236",
+      "32289118",
+      "30813629",
+      "21927770"
+    ],
+    "pmc": [
+      "11071492"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38712134/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38712134",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.04.25.591103",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

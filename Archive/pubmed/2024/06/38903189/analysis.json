@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38903189",
+  "title": "Comparative FEM study on intervertebral disc modeling: Holzapfel-Gasser-Ogden vs. structural rebars.",
+  "authors": "Gruber, Gabriel; Nicolini, Luis Fernando; Ribeiro, Marx; Lerchl, Tanja; Wilke, Hans-Joachim; Jaramillo, Hector Enrique; Senner, Veit; Kirschke, Jan S; Nispel, Kati",
+  "journal": "Frontiers in bioengineering and biotechnology",
+  "published_date": "2024-06-21",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究比较椎间盘有限元模型中纤维增强的建模方法，属于生物力学工程，与无序蛋白互作及AI/物理模拟方法无关。",
+  "abstract": "Introduction: Numerical modeling of the intervertebral disc (IVD) is challenging due to its complex and heterogeneous structure, requiring careful selection of constitutive models and material properties. A critical aspect of such modeling is the representation of annulus fibers, which significantly impact IVD biomechanics. This study presents a comparative analysis of different methods for fiber reinforcement in the annulus fibrosus of a finite element (FE) model of the human IVD. Methods: We utilized a reconstructed L4-L5 IVD geometry to compare three fiber modeling approaches: the anisotropic Holzapfel-Gasser-Ogden (HGO) model (HGO fiber model) and two sets of structural rebar elements with linear-elastic (linear rebar model) and hyperelastic (nonlinear rebar model) material definitions, respectively. Prior to calibration, we conducted a sensitivity analysis to identify the most important model parameters to be calibrated and improve the efficiency of the calibration. Calibration was performed using a genetic algorithm and in vitro range of motion (RoM) data from a published study with eight specimens tested under four loading scenarios. For validation, intradiscal pressure (IDP) measurements from the same study were used, along with additional RoM data from a separate publication involving five specimens subjected to four different loading conditions. Results: The sensitivity analysis revealed that most parameters, except for the Poisson ratio of the annulus fibers and C(01) from the nucleus, significantly affected the RoM and IDP outcomes. Upon calibration, the HGO fiber model demonstrated the highest accuracy (R(2) = 0.95), followed by the linear (R(2) = 0.89) and nonlinear rebar models (R(2) = 0.87). During the validation phase, the HGO fiber model maintained its high accuracy (RoM R(2) = 0.85; IDP R(2) = 0.87), while the linear and nonlinear rebar models had lower validation scores (RoM R(2) = 0.71 and 0.69; IDP R(2) = 0.86 and 0.8, respectively). Discussion: The results of the study demonstrate a successful calibration process that established good agreement with experimental data. Based on our findings, the HGO fiber model appears to be a more suitable option for accurate IVD FE modeling considering its higher fidelity in simulation results and computational efficiency.",
+  "abstract_zh": "引言：由于椎间盘（IVD）结构复杂且异质，其数值建模具有挑战性，需要谨慎选择本构模型和材料属性。此类建模的一个关键方面是纤维环的表示，其显著影响椎间盘生物力学。本研究对有限元（FE）人体椎间盘模型中纤维环纤维增强的不同方法进行了比较分析。方法：我们利用重建的L4-L5椎间盘几何结构，比较了三种纤维建模方法：各向异性Holzapfel-Gasser-Ogden（HGO）模型（HGO纤维模型）以及两组分别具有线弹性（线性钢筋模型）和超弹性（非线性钢筋模型）材料定义的结构性钢筋单元。在校准前，我们进行了敏感性分析，以确定需要校准的最重要模型参数，并提高校准效率。校准采用遗传算法和来自一项已发表研究的体外运动范围（RoM）数据，该研究在四种加载场景下测试了八个标本。验证时，使用了同一研究中的椎间盘内压（IDP）测量值，以及来自另一篇独立出版物中涉及五个标本在四种不同加载条件下的额外RoM数据。结果：敏感性分析显示，除纤维环纤维的泊松比和髓核的C(01)外，大多数参数显著影响RoM和IDP结果。校准后，HGO纤维模型表现出最高精度（R(2) = 0.95），其次是线性（R(2) = 0.89）和非线性钢筋模型（R(2) = 0.87）。在验证阶段，HGO纤维模型保持了高精度（RoM R(2) = 0.85；IDP R(2) = 0.87），而线性和非线性钢筋模型的验证得分较低（RoM R(2) = 0.71和0.69；IDP R(2) = 0.86和0.8，分别）。讨论：研究结果展示了一个成功的校准过程，与实验数据建立了良好的一致性。基于我们的发现，考虑到其在模拟结果中的更高保真度和计算效率，HGO纤维模型似乎是精确椎间盘有限元建模的更合适选择。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38903189/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38903189/",
+  "paper_page_path": "papers/pubmed/38903189/index.html"
+}

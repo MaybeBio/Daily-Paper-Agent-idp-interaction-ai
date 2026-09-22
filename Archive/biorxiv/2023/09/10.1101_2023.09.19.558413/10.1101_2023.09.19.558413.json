@@ -1,0 +1,130 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.19.558413",
+  "title": "SENSE-PPI reconstructs protein-protein interactions of various complexities, within, across, and between species, with sequence-based evolutionary scale modeling and deep learning",
+  "doi": "10.1101/2023.09.19.558413",
+  "abstract": "Ab initio computational reconstructions of protein-protein interaction (PPI) networks will provide invaluable insights on cellular systems, enabling the discovery of novel molecular interactions and elucidating biological mechanisms within and between organisms. Leveraging latest generation protein language models and recurrent neural networks, we present SENSE-PPI , a sequence-based deep learning model that efficiently reconstructs ab initio PPIs, distinguishing partners among tens of thousands of proteins and identifying specific interactions within functionally similar proteins. SENSE-PPI demonstrates high accuracy, limited training requirements, and versatility in cross-species predictions, even with non-model organisms and human-virus interactions. Its performance decreases for phylogenetically more distant model and non-model organisms, but signal alteration is very slow. SENSE-PPI is state-of-the-art, outperforming all existing methods. In this regard, it demonstrates the important role of parameters in protein language models. SENSE-PPI is very fast and can test 10,000 proteins against themselves in a matter of hours, enabling the reconstruction of genome-wide proteomes. <h4>Graphical abstract</h4> SENSE-PPI is a general deep learning architecture predicting protein-protein interactions of different complexities, between stable proteins, between stable and intrinsically disordered proteins, within a species, and between species. Trained on one species, it accurately predicts interactions and reconstructs complete specialized subnetworks for model and non-model organisms, and trained on human-virus interactions, it predicts human-virus interactions for new viruses.",
+  "authors": [
+    "Volzhenin K",
+    "Bittner L",
+    "Carbone A"
+  ],
+  "published_date": "2023-09-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.19.558413",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.19.558413.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR729018",
+    "raw_record": {
+      "id": "PPR729018",
+      "source": "PPR",
+      "doi": "10.1101/2023.09.19.558413",
+      "title": "SENSE-PPI reconstructs protein-protein interactions of various complexities, within, across, and between species, with sequence-based evolutionary scale modeling and deep learning",
+      "authorString": "Volzhenin K, Bittner L, Carbone A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Volzhenin K",
+            "lastName": "Volzhenin",
+            "firstName": "Konstantin",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8132-4300"
+            }
+          },
+          {
+            "fullName": "Bittner L",
+            "lastName": "Bittner",
+            "firstName": "Lucie",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8291-7063"
+            }
+          },
+          {
+            "fullName": "Carbone A",
+            "lastName": "Carbone",
+            "firstName": "Alessandra",
+            "initials": "A"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8291-7063"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8132-4300"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Ab initio computational reconstructions of protein-protein interaction (PPI) networks will provide invaluable insights on cellular systems, enabling the discovery of novel molecular interactions and elucidating biological mechanisms within and between organisms. Leveraging latest generation protein language models and recurrent neural networks, we present  SENSE-PPI , a sequence-based deep learning model that efficiently reconstructs  ab initio PPIs, distinguishing partners among tens of thousands of proteins and identifying specific interactions within functionally similar proteins.  SENSE-PPI demonstrates high accuracy, limited training requirements, and versatility in cross-species predictions, even with non-model organisms and human-virus interactions. Its performance decreases for phylogenetically more distant model and non-model organisms, but signal alteration is very slow.  SENSE-PPI is state-of-the-art, outperforming all existing methods. In this regard, it demonstrates the important role of parameters in protein language models.  SENSE-PPI is very fast and can test 10,000 proteins against themselves in a matter of hours, enabling the reconstruction of genome-wide proteomes.  <h4>Graphical abstract</h4>  SENSE-PPI is a general deep learning architecture predicting protein-protein interactions of different complexities, between stable proteins, between stable and intrinsically disordered proteins, within a species, and between species. Trained on one species, it accurately predicts interactions and reconstructs complete specialized subnetworks for model and non-model organisms, and trained on human-virus interactions, it predicts human-virus interactions for new viruses.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/12/2023.09.19.558413.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.19.558413"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-09-24",
+      "firstPublicationDate": "2023-09-21",
+      "firstIndexDate": "2023-09-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

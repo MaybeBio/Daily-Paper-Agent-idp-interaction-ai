@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39112699",
+  "title": "Membrane prewetting by condensates promotes tight-junction belt formation.",
+  "authors": "Pombo-Garcia, Karina; Adame-Arana, Omar; Martin-Lemaitre, Cecilie; Julicher, Frank; Honigmann, Alf",
+  "journal": "Nature",
+  "published_date": "2024-08-08",
+  "window": {
+    "start": "2024-08-05",
+    "end": "2024-08-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究ZO-1凝聚体在膜界面的润湿驱动紧密连接带形成，结合成像与热力学理论揭示凝聚体-膜互作机制，虽非AI/物理模拟方法，但对象为凝聚体且聚焦互作机制建模，对本课题有启发。",
+  "abstract": "Biomolecular condensates enable cell compartmentalization by acting as membraneless organelles(1). How cells control the interactions of condensates with other cellular structures such as membranes to drive morphological transitions remains poorly understood. We discovered that formation of a tight-junction belt, which is essential for sealing epithelial tissues, is driven by a wetting phenomenon that promotes the growth of a condensed ZO-1 layer(2) around the apical membrane interface. Using temporal proximity proteomics in combination with imaging and thermodynamic theory, we found that the polarity protein PATJ mediates a transition of ZO-1 into a condensed surface layer that elongates around the apical interface. In line with the experimental observations, our theory of condensate growth shows that the speed of elongation depends on the binding affinity of ZO-1 to the apical interface and is constant. Here, using PATJ mutations, we show that ZO-1 interface binding is necessary and sufficient for tight-junction belt formation. Our results demonstrate how cells exploit the collective biophysical properties of protein condensates at membrane interfaces to shape mesoscale structures.",
+  "abstract_zh": "生物分子凝聚体通过充当无膜细胞器来实现细胞区室化(1)。细胞如何控制凝聚体与其他细胞结构（如膜）的相互作用以驱动形态转变，目前仍知之甚少。我们发现，紧密连接带的形成（对密封上皮组织至关重要）是由一种润湿现象驱动的，该现象促进ZO-1凝聚层(2)在顶端膜界面周围的生长。结合时间邻近蛋白质组学、成像和热力学理论，我们发现极性蛋白PATJ介导ZO-1转变为围绕顶端界面延伸的凝聚表面层。与实验观察一致，我们的凝聚体生长理论表明，延伸速度取决于ZO-1与顶端界面的结合亲和力，并且是恒定的。在此，利用PATJ突变体，我们证明ZO-1界面结合对于紧密连接带的形成是必要且充分的。我们的结果展示了细胞如何利用膜界面处蛋白质凝聚体的集体生物物理特性来塑造中尺度结构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39112699/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39112699/",
+  "paper_page_path": "papers/pubmed/39112699/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37380014",
+  "title": "Dynamic Solution Structures of Whole Human NAP1 Dimer Bound to One and Two Histone H2A-H2B Heterodimers Obtained by Integrative Methods.",
+  "authors": "Ohtomo, Hideaki; Yamane, Tsutomu; Oda, Takashi; Kodera, Noriyuki; Kurita, Jun-Ichi; Tsunaka, Yasuo; Amyot, Romain; Ikeguchi, Mitsunori; Nishimura, Yoshifumi",
+  "journal": "Journal of molecular biology",
+  "published_date": "2023-06-29",
+  "window": {
+    "start": "2023-06-26",
+    "end": "2023-07-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究整合NMR、SAXS、建模与分子动力学模拟，解析全长人NAP1二聚体（含无序CTAD）与组蛋白H2A-H2B异二聚体逐步结合的动态复合物结构，揭示无序区域在PPI中的动态作用机制，与本课题高度契合。",
+  "abstract": "Nucleosome assembly protein 1 (NAP1) binds to histone H2A-H2B heterodimers, mediating their deposition on and eviction from the nucleosome. Human NAP1 (hNAP1) consists of a dimerization core domain and intrinsically disordered C-terminal acidic domain (CTAD), both of which are essential for H2A-H2B binding. Several structures of NAP1 proteins bound to H2A-H2B exhibit binding polymorphisms of the core domain, but the distinct structural roles of the core and CTAD domains remain elusive. Here, we have examined dynamic structures of the full-length hNAP1 dimer bound to one and two H2A-H2B heterodimers by integrative methods. Nuclear magnetic resonance (NMR) spectroscopy of full-length hNAP1 showed CTAD binding to H2A-H2B. Atomic force microscopy revealed that hNAP1 forms oligomers of tandem repeated dimers; therefore, we generated a stable dimeric hNAP1 mutant exhibiting the same H2A-H2B binding affinity as wild-type hNAP1. Size exclusion chromatography (SEC), multi-angle light scattering (MALS) and small angle X-ray scattering (SAXS), followed by modelling and molecular dynamics simulations, have been used to reveal the stepwise dynamic complex structures of hNAP1 binding to one and two H2A-H2B heterodimers. The first H2A-H2B dimer binds mainly to the core domain of hNAP1, while the second H2A-H2B binds dynamically to both CTADs. Based on our findings, we present a model of the eviction of H2A-H2B from nucleosomes by NAP1.",
+  "abstract_zh": "核小体组装蛋白1（NAP1）与组蛋白H2A-H2B异二聚体结合，介导其在核小体上的沉积和驱逐。人NAP1（hNAP1）由二聚化核心结构域和 intrinsically disordered 的C端酸性结构域（CTAD）组成，两者对H2A-H2B结合均至关重要。NAP1蛋白与H2A-H2B结合的多种结构展示了核心结构域的结合多态性，但核心结构域和CTAD各自独特的结构作用仍不明确。在此，我们通过整合方法研究了全长hNAP1二聚体与一个和两个H2A-H2B异二聚体结合的动态结构。全长hNAP1的核磁共振（NMR）波谱显示CTAD与H2A-H2B结合。原子力显微镜揭示hNAP1形成串联重复二聚体的寡聚体；因此，我们生成了一个稳定的二聚体hNAP1突变体，其与野生型hNAP1具有相同的H2A-H2B结合亲和力。通过尺寸排阻色谱（SEC）、多角度光散射（MALS）和小角X射线散射（SAXS），随后进行建模和分子动力学模拟，揭示了hNAP1与一个和两个H2A-H2B异二聚体结合的逐步动态复合物结构。第一个H2A-H2B二聚体主要与hNAP1的核心结构域结合，而第二个H2A-H2B则动态地与两个CTAD结合。基于我们的发现，我们提出了NAP1从核小体中驱逐H2A-H2B的模型。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37380014/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37380014/",
+  "paper_page_path": "papers/pubmed/37380014/index.html"
+}

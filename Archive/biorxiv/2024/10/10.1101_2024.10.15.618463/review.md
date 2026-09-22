@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure descriptions
+- **Assessment boundary** Scientific validity, technical soundness, and significance of claims based on the provided manuscript content
+- **Shared manuscript claim summary** The authors report the cryo-EM structure of full-length p62 filaments, describe filament rearrangements upon binding to LC3b and poly-ubiquitin, and present in situ cryo-electron tomography data showing p62-enwrapped lipid droplets with high calcium phosphate content in ATG5-depleted cells
+- **Visible evidence base** Abstract, Introduction, Results (partial), Discussion, Materials and Methods, figure legends referenced but figures not fully visible
+- **Missing materials affecting confidence** Full figures and supplementary figures not provided; detailed cryo-EM data processing statistics not shown; EDX spectra quantification not fully described; statistical analyses for quantitative claims not visible
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial body of work combining in vitro structural biology with in situ cellular imaging. The cryo-EM structure of full-length p62 filaments at 4.5 Å resolution is a valuable contribution, and the observation of calcium-rich p62 layers around lipid droplets in cells is potentially interesting. However, the link between the in vitro structural findings and the cellular observations remains speculative, and several technical details are insufficiently described to fully evaluate the strength of the claims. The manuscript would benefit from clearer quantitative analyses and a more rigorous connection between the different experimental systems.
+- **Who would be interested in the results, and why** Researchers in the fields of autophagy, selective cargo receptor biology, and cryo-electron microscopy would find this work relevant. The structural data on p62 filaments could inform studies on phase separation and receptor oligomerization. The cellular imaging of p62-lipid droplet interactions may interest those studying lipophagy and the role of calcium in autophagy regulation.
+- **Major strengths** The cryo-EM structure of full-length p62 provides new molecular details on filament architecture. The combination of in vitro biochemistry, single-molecule fluorescence, and in situ cryo-electron tomography is methodologically ambitious. The identification of calcium phosphate in p62-enwrapped lipid droplets is a novel observation that could open new research directions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The cryo-EM structure of full-length p62 was determined at 4.5 Å global resolution revealing a double helical filament scaffold
+  - **Evidence pointer** Results section, Figure 1, Supplementary Figure 1, Table 1
+  - **Concern** The resolution of 4.5 Å is modest for building a reliable atomic model, particularly for flexible regions. The local resolution varies from 4.2 Å to over 9 Å, and the authors state that the C-terminal domains are poorly resolved. It is unclear how the atomic model was built and refined in regions of lower resolution, and whether the assignment of the ZZ domain and C-terminal regions is justified by the density. The helical symmetry parameters were taken from a previous study of truncated p62, and it is not clear how the full-length assembly was validated to have the same symmetry.
+  - **Why it matters** The structural model is a central claim of the paper. If the model is not well-supported by the density, conclusions about the arrangement of domains and the accessibility of binding motifs could be incorrect.
+  - **Resolution test** Provide Fourier shell correlation curves, model-to-map fit statistics, and a detailed description of model building and refinement. Show representative density for the ZZ domain and C-terminal regions to demonstrate that the assignments are justified. Validate the helical symmetry independently for the full-length assembly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The p62 layer surrounding lipid droplets in ATG5-depleted cells contains high levels of calcium and phosphorus, suggesting the presence of calcium phosphate
+  - **Evidence pointer** Results section, Figure 6, Supplementary Figures 6-8
+  - **Concern** The EDX analysis is presented as evidence for calcium phosphate in the p62 coat. However, the manuscript does not provide sufficient details on how the EDX spectra were quantified, whether the signals are statistically significant compared to background, and whether the calcium and phosphorus signals are specifically localized to the p62 layer rather than being a general feature of the cellular environment. The control experiments are mentioned but not fully described.
+  - **Why it matters** The claim of calcium phosphate enrichment is a novel and potentially important observation. If the EDX analysis is not rigorously quantified, the claim is not established.
+  - **Resolution test** Provide quantitative EDX analysis with statistical comparisons between the p62 coat, lipid droplet core, and cytosol. Show representative spectra with peak assignments and discuss the detection limits and potential artifacts of the method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual advance
+  - **Claim pointer** The cellular structures represent a potential intermediate step of autophagy initiation
+  - **Evidence pointer** Discussion section, Figures 4-5
+  - **Concern** The manuscript describes p62-enwrapped lipid droplets in ATG5-depleted cells but does not provide direct evidence that these structures are intermediates of autophagy initiation. The connection between the observed morphology and the autophagy pathway is speculative. The authors do not show whether these structures are dynamic, whether they recruit other autophagy factors, or whether they can progress to autophagosome formation under any conditions.
+  - **Why it matters** The claim of an intermediate step of autophagy initiation is a significant interpretation that goes beyond the descriptive data. Without functional evidence, this remains a hypothesis.
+  - **Resolution test** Provide additional data showing the presence of autophagy initiation markers at these structures, or demonstrate that the structures can mature under conditions that restore autophagy. Alternatively, temper the claim to be more descriptive.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that p62 undergoes liquid-liquid phase separation when mixed with poly-ubiquitin, but the manuscript does not present new data on this phenomenon. This is background information that could be clarified.
+  - **Required correction** Clarify in the abstract which findings are new versus previously established.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and Methods, cryo-EM structure determination
+  - **Issue** The methods describe data collection on a Talos Arctica 200 keV microscope, which is unusual for high-resolution cryo-EM structure determination. The authors should comment on the achievable resolution and whether this choice affected the final map quality.
+  - **Required correction** Add a sentence discussing the expected resolution limits at 200 keV and how this was accounted for in the data collection strategy.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions that the observed 13.3 nm density connecting the lipid droplet and membrane is not compatible with regular p62 filaments. However, the authors do not discuss alternative interpretations in sufficient depth, such as whether this density could represent other proteins or a different p62 conformation.
+  - **Required correction** Expand the discussion of possible identities of the connecting density and consider whether the resolution of the tomograms is sufficient to distinguish between possibilities.
+- **Technical failings that need to be addressed before the case is established** The cryo-EM model validation is insufficient; the EDX quantification is not described in enough detail; the link between in vitro filament behavior and in situ observations is not experimentally tested.
+- **Assessment against Nature-style criteria** Originality: The full-length p62 structure and the calcium-rich p62-lipid droplet observation are novel. Scientific importance: The work could inform understanding of selective autophagy and lipophagy, but the significance of the calcium finding is not yet clear. Interdisciplinary readership: The combination of structural biology and cell biology may appeal to a broad audience, but the technical details may limit accessibility. Technical soundness: The cryo-EM structure is plausible but requires better validation; the EDX analysis needs more rigorous quantification. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with autophagy and cryo-EM terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved, particularly regarding cryo-EM model validation and EDX quantification. The conceptual claims about autophagy initiation intermediates require additional evidence or should be moderated.
+
+## Risk / unsupported claims
+- The claim that the p62-enwrapped lipid droplets represent an intermediate step of autophagy initiation is not directly supported by the data presented.
+- The statement that calcium phosphate in the p62 coat explains the high contrast in tomograms is plausible but not quantitatively established.
+- The functional significance of the observed filament rearrangements (unwinding, bundling) for cellular autophagy is inferred but not tested.
+- The assignment of the ZZ domain in the cryo-EM density is not fully validated given the low local resolution in that region.

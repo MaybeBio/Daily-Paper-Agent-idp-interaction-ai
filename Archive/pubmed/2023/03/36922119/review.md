@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material provided
+- **Shared manuscript claim summary** The authors use atomistic molecular dynamics simulations to study global and segmental relaxation dynamics of amyloid-beta (Aβ) and its causative and protective mutants. They report that relaxation dynamics quantitatively correlate with experimentally measured aggregation propensity, with protective mutants showing slower dynamics and causative mutants showing faster global dynamics relative to wild-type Aβ. Local dynamics are proposed to be governed by charge, hydrophobicity, and molecular mass changes of the mutated residue.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, statistical analyses, or experimental comparisons are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation details (force field, water model, simulation length, replica number), definitions of relaxation times, correlation analyses, experimental aggregation propensity data sources, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting biophysical hypothesis linking relaxation dynamics of intrinsically disordered proteins to aggregation propensity. However, the claims are stated without quantitative support, and the abstract alone does not establish the validity of the proposed correlation or the mechanistic interpretation. The work may be of interest to the protein aggregation and molecular simulation communities, but the evidence base is insufficient for a rigorous evaluation.
+- **Who would be interested in the results, and why** Researchers studying amyloid-beta aggregation, intrinsically disordered protein dynamics, and computational biophysics. The proposed link between relaxation dynamics and aggregation propensity could inform therapeutic strategies targeting Aβ mutants, and the methodological approach may interest simulators developing dynamic descriptors for aggregation risk.
+- **Major strengths** The study addresses a clinically relevant question (Aβ mutants with different aggregation propensities) using a physically motivated observable (relaxation dynamics). The distinction between global and local dynamics is conceptually useful, and the proposed dependence on charge, hydrophobicity, and molecular mass provides a testable framework.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "The relaxation dynamics of the amyloid-beta protein and its mutants is quantitatively correlated with its experimentally measured aggregation propensity."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract claims a quantitative correlation but provides no numerical values, correlation coefficients, statistical significance, or error estimates. No data are shown to support the strength or reliability of this correlation.  
+  - **Why it matters** A quantitative correlation is a strong, specific claim that requires explicit statistical evidence. Without such evidence, the central conclusion of the manuscript cannot be assessed or reproduced.  
+  - **Resolution test** Provide correlation coefficients (e.g., Pearson or Spearman) with confidence intervals and p-values, along with a scatter plot of relaxation times versus experimental aggregation propensity measures.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** "Atomistic molecular dynamics simulations are employed to investigate the global and segmental relaxation dynamics..."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No simulation details are given, including force field, water model, temperature, simulation length, number of independent trajectories, or how relaxation times were extracted. Without this information, the reliability and convergence of the dynamics cannot be evaluated.  
+  - **Why it matters** Intrinsically disordered proteins exhibit slow and heterogeneous dynamics; inadequate sampling or force field artifacts could dominate the observed differences. The absence of methodological detail prevents assessment of whether the reported dynamics are physically meaningful.  
+  - **Resolution test** Include a methods section specifying all simulation parameters, convergence checks, and the procedure for calculating relaxation times from autocorrelation functions or equivalent analyses.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** "The protective mutant has slower relaxation dynamics, whereas the causative mutants exhibit faster global dynamics compared with that of the wild-type amyloid-beta."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The directionality of dynamics differences is stated categorically, but no quantitative data, effect sizes, or variability measures are provided. It is unclear whether these differences are statistically significant or within simulation noise.  
+  - **Why it matters** The central biological conclusion depends on robust differences between mutant classes. Without effect sizes and uncertainty quantification, the claim is not established.  
+  - **Resolution test** Report mean relaxation times with standard deviations or confidence intervals for each system, and perform statistical tests (e.g., t-tests or bootstrap) comparing wild-type to each mutant.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Mechanistic interpretation  
+  - **Claim pointer** "The local dynamics of the amyloid-beta protein or its mutants is governed by a complex interplay of the charge, hydrophobicity, and change in the molecular mass of the mutated residue."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The proposed mechanistic determinants are listed but not supported by any analysis linking these physicochemical properties to the observed dynamics. No correlation, regression, or decomposition is described.  
+  - **Why it matters** Without a demonstrated relationship between residue properties and local dynamics, this statement remains speculative and does not advance mechanistic understanding.  
+  - **Resolution test** Provide a quantitative analysis (e.g., regression or correlation) relating local relaxation times to residue charge, hydrophobicity, and mass, or show that these factors explain variance across mutants.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The terms "global" and "segmental" relaxation dynamics are used without definition.  
+  - **Required correction** Define these terms explicitly, including which observables (e.g., end-to-end distance autocorrelation, residue-specific dihedral relaxation) correspond to each.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Experimental comparison  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The experimental aggregation propensity data are referenced but not identified.  
+  - **Required correction** Specify the experimental source (e.g., ThT fluorescence, lag time measurements) and cite the original studies.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Mutant selection  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The number and identity of causative and protective mutants are not stated.  
+  - **Required correction** List the specific mutants studied and their classification rationale.
+
+## Risk / unsupported claims
+- The quantitative correlation between relaxation dynamics and aggregation propensity is unsupported without numerical data.
+- The directional differences in dynamics between protective, causative, and wild-type Aβ are unsupported without effect sizes and statistical tests.
+- The mechanistic claim regarding charge, hydrophobicity, and molecular mass is unsupported without a demonstrated relationship.
+- The generalizability of the findings to other intrinsically disordered proteins is not addressed and cannot be inferred from the abstract.

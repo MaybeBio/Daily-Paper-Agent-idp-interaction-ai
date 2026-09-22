@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or statistical details were available for evaluation
+- **Shared manuscript claim summary** The authors report that in C. elegans embryos depleted of the formin CYK-1, septin depletion restores cleavage furrow ingression, and that this rescue depends on anillin (ANI-1), which forms a meshwork of linear structures circumferentially aligned at the equator. They propose that ANI-1 linear structure formation requires its disordered linker region, that myosin II (NMY-2) decorates these structures and promotes their alignment, and that NMY-2 can interact with lipids and form membrane clusters independently of F-actin and anillin, suggesting a compensatory mechanism for furrow ingression when unbranched F-actin polymerization is compromised.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, statistical analyses, strain and reagent details, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting compensatory mechanism for cytokinesis when formin-dependent F-actin assembly is compromised. However, the evidence base is limited to the abstract, and several key claims, particularly regarding the molecular requirements for ANI-1 linear structure formation and the proposed NMY-2 membrane link, cannot be adequately assessed without the full manuscript. The work may be of interest to cell biologists studying cytokinesis and cytoskeletal dynamics, but the current evidence is insufficient to establish the central conclusions.
+- **Who would be interested in the results, and why** Cell biologists studying cytokinesis, actin cytoskeleton dynamics, and contractile ring assembly; researchers interested in anillin functions and septin biology; those working on compensatory mechanisms in cell division. The findings could also appeal to investigators studying the interplay between cytoskeletal components and membrane interactions.
+- **Major strengths** The abstract addresses a clear and important gap in understanding how furrow ingression can occur without a detectable unbranched F-actin ring. The proposed mechanism, involving ANI-1 linear structures and NMY-2 membrane interactions, is conceptually novel and could provide a framework for future studies. The use of C. elegans genetics and deletion mutants to dissect domain requirements is a logical approach.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that ANI-1 is essential for furrow ingression and forms a meshwork of linear structures that circumferentially align around the cell equator in the absence of formin and septin.  
+  - **Evidence pointer** Abstract text; no figures or methods provided  
+  - **Concern** The abstract states that ANI-1 forms linear structures and that these are required for furrow ingression, but no quantitative data, imaging evidence, or statistical support is presented. The claim that linear structure formation is septin independent is also made without supporting data.  
+  - **Why it matters** Without direct evidence, such as fluorescence microscopy images, quantification of structure alignment, and functional assays with ANI-1 mutants, the central mechanistic claim cannot be evaluated. The abstract alone does not establish that linear ANI-1 structures are causative for furrow ingression rather than correlative.  
+  - **Resolution test** Provide representative images and quantification of ANI-1 structures in wild-type, formin-depleted, septin-depleted, and double-depleted conditions; include rescue experiments with ANI-1 deletion mutants and demonstrate that loss of linear structures correlates with loss of furrow ingression.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that the disordered linker region of ANI-1 is required for linear structure formation and furrow ingression.  
+  - **Evidence pointer** Abstract text; no figures or methods provided  
+  - **Concern** The abstract mentions analysis of ANI-1 deletion mutants but does not specify which deletions were tested, how the linker region was defined, or whether the phenotype was specific to the linker versus other domains.  
+  - **Why it matters** Domain-specific requirements are a key part of the proposed mechanism. Without detailed mutant analysis, including rescue experiments and structure-function studies, the claim that the linker is specifically required cannot be verified.  
+  - **Resolution test** Provide a domain map of ANI-1, describe the deletion constructs used, show that linker deletion abolishes linear structures and furrow ingression, and demonstrate that other domain deletions do not phenocopy this effect.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that NMY-2 decorates linear ANI-1 structures, promotes their circumferential alignment, interacts with various lipids, and forms membrane-localized clusters in the absence of F-actin and anillin binding.  
+  - **Evidence pointer** Abstract text; no figures or methods provided  
+  - **Concern** The abstract presents multiple molecular interactions and localization findings without any supporting data. The claim that NMY-2 forms an independent link between the F-actin/ANI-1 network and the plasma membrane is a strong conclusion that requires biochemical and imaging evidence.  
+  - **Why it matters** The proposed compensatory mechanism depends on NMY-2 having both a structural role in aligning ANI-1 and a membrane-binding role. Without evidence for these interactions, the model is speculative.  
+  - **Resolution test** Provide co-localization data for NMY-2 and ANI-1, lipid-binding assays, and imaging of NMY-2 clusters in conditions lacking F-actin and anillin; include controls to rule out indirect effects.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interpretive clarity  
+  - **Claim pointer** The abstract states that septin depletion restores furrow ingression in formin mutants and that ANI-1 is essential in this setting.  
+  - **Evidence pointer** Abstract text; no figures or methods provided  
+  - **Concern** The relationship between septin depletion, ANI-1 recruitment, and the formation of linear structures is not fully clarified. The abstract says equatorial ANI-1 recruitment is facilitated by septins, but linear structure formation is septin independent, which is potentially confusing.  
+  - **Why it matters** Understanding the stepwise requirements for ANI-1 recruitment versus structure formation is important for the proposed model. The abstract does not explain how septin depletion leads to rescue if septins normally facilitate ANI-1 recruitment.  
+  - **Resolution test** Clarify the temporal and functional relationship between septin depletion, ANI-1 recruitment, and linear structure formation; provide data on ANI-1 levels and localization in each condition.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The phrase "we report, that in this setting" contains a grammatical error and is awkwardly phrased.  
+  - **Required correction** Revise to "we report that in this setting" for clarity.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract background  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract does not specify the organism or cell type beyond "C. elegans" in the context of formin mutants, but the initial description of cytokinesis is general. Clarify whether all experiments are in C. elegans embryos.  
+  - **Required correction** State explicitly that all experiments are performed in C. elegans embryos in the abstract.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract terminology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The term "linear structures" is used without definition or context. It is unclear whether these are filaments, bundles, or other assemblies.  
+  - **Required correction** Define "linear structures" in the abstract or use more specific terminology based on the imaging data.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Interpretive clarity  
+  - **Affected element** Abstract conclusion  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The final sentence states that the mechanism "promotes furrow formation and ingression when formins are depleted," but the abstract earlier says furrow ingression fails without formin and is restored by septin depletion. Clarify whether the mechanism is specific to the septin-depletion rescue condition or general.  
+  - **Required correction** Specify the condition under which the proposed mechanism operates.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish the central claims regarding ANI-1 linear structure formation, the role of the linker region, and the NMY-2 membrane interaction. Full experimental data are required.
+- **Assessment against Nature-style criteria**  
+  - Originality: The proposed mechanism is conceptually novel, as it suggests an anillin-based compensatory pathway for furrow ingression independent of formin-mediated F-actin assembly. This could be a significant contribution if fully supported.  
+  - Scientific importance: The findings could advance understanding of cytokinesis and cytoskeletal redundancy, which is of broad interest to cell biology. However, the importance is not fully established from the abstract alone.  
+  - Interdisciplinary readership: The topic is primarily of interest to cell biologists and biophysicists; broader interdisciplinary appeal is limited unless the mechanism has implications for other fields, which is not evident from the abstract.  
+  - Technical soundness: Cannot be assessed from the abstract. The lack of methods and quantitative data prevents evaluation of experimental rigor.  
+  - Readability for nonspecialists: The abstract is generally readable but uses specialized terms without sufficient context, which may limit accessibility.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the evidence base is insufficient to support the central claims. A full manuscript with detailed methods, imaging, and quantitative analyses would be required to assess whether the case is convincing.
+
+## Risk / unsupported claims
+- The claim that ANI-1 is essential for furrow ingression in the absence of formin and septin is unsupported without functional depletion or mutant data.
+- The claim that ANI-1 forms a meshwork of linear structures that circumferentially align is unsupported without imaging evidence.
+- The claim that the disordered linker region of ANI-1 is required for linear structure formation and furrow ingression is unsupported without detailed mutant analysis.
+- The claim that NMY-2 decorates ANI-1 structures, promotes their alignment, interacts with lipids, and forms membrane clusters is unsupported without biochemical and imaging data.
+- The proposed compensatory mechanism is speculative and not established from the abstract alone.

@@ -1,0 +1,301 @@
+{
+  "identity": {
+    "pmid": "38192336",
+    "doi": "10.3389/fmolb.2023.1308693",
+    "title": "Evidence of DISC1 as an arsenic binding protein and implications regarding its role as a translational activator."
+  },
+  "content": {
+    "abstract": "Disrupted-in-schizophrenia-1 (DISC1) is a scaffolding protein that plays a pivotal role in orchestrating signaling pathways involved in neurodevelopment, neural migration, and synaptogenesis. Among those, it has recently been reported that the role of DISC1 in the Akt/mTOR pathway can shift from a global translational repressor to a translational activator in response to oxidative stress induced by arsenic. In this study we provide evidence that DISC1 can directly bind arsenic via a C-terminal cysteine motif (C-X-C-X-C). A series of fluorescence-based binding assays were conducted with a truncated C-terminal domain construct of DISC1 and a series of single, double, and triple cysteine mutants. We found that arsenous acid, a trivalent arsenic derivative, specifically binds to the C-terminal cysteine motif of DISC1 with low micromolar affinity. All three cysteines of the motif are required for high-affinity binding. Electron microscopy experiments combined with in silico structural predictions reveal that the C-terminal of DISC1 forms an elongated tetrameric complex. The cysteine motif is consistently predicted to be located within a loop, fully exposed to solvent, providing a simple molecular framework to explain the high-affinity of DISC1 toward arsenous acid. This study sheds light on a novel functional facet of DISC1 as an arsenic binding protein and highlights its potential role as both a sensor and translational modulator within Akt/mTOR pathway.",
+    "keywords": [
+      "AKT/mTOR",
+      "DISC1",
+      "arsenic binding protein",
+      "disordered proteins",
+      "scaffolding proteins"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Watanabe, Muneaki",
+        "Khu, Tung Mei",
+        "Warren, Grant",
+        "Shin, Juyoung",
+        "Stewart, Charles E Jr",
+        "Roche, Julien"
+      ],
+      "short_names": [
+        "Watanabe M",
+        "Khu TM",
+        "Warren G",
+        "Shin J",
+        "Stewart CE Jr",
+        "Roche J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Roy J Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, China.",
+        "Roy J Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, China.",
+        "Roy J Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, China.",
+        "Roy J Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, China.",
+        "Macromolecular X-ray Crystallography Facility, Office of Biotechnology, Iowa State University, Ames, IA, United States.",
+        "Roy J Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Watanabe, Muneaki",
+        "short_name": "Watanabe M",
+        "identifiers": [],
+        "affiliations": [
+          "Roy J Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, China."
+        ]
+      },
+      {
+        "full_name": "Khu, Tung Mei",
+        "short_name": "Khu TM",
+        "identifiers": [],
+        "affiliations": [
+          "Roy J Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, China."
+        ]
+      },
+      {
+        "full_name": "Warren, Grant",
+        "short_name": "Warren G",
+        "identifiers": [],
+        "affiliations": [
+          "Roy J Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, China."
+        ]
+      },
+      {
+        "full_name": "Shin, Juyoung",
+        "short_name": "Shin J",
+        "identifiers": [],
+        "affiliations": [
+          "Roy J Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, China."
+        ]
+      },
+      {
+        "full_name": "Stewart, Charles E",
+        "short_name": "Stewart CE",
+        "identifiers": [],
+        "affiliations": [
+          "Macromolecular X-ray Crystallography Facility, Office of Biotechnology, Iowa State University, Ames, IA, United States."
+        ]
+      },
+      {
+        "full_name": "Roche, Julien",
+        "short_name": "Roche J",
+        "identifiers": [],
+        "affiliations": [
+          "Roy J Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/09 06:41",
+    "fetched_at": "2026-09-21 04:10:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34921141",
+      "34265844",
+      "31614085",
+      "31444471",
+      "31075539",
+      "30008190",
+      "29324815",
+      "29103808",
+      "28249940",
+      "27112573",
+      "26278980",
+      "25883141",
+      "25534081",
+      "25486611",
+      "23832957",
+      "23808632",
+      "23130881",
+      "22363459",
+      "22116789",
+      "21852244",
+      "21471969",
+      "21256178",
+      "19778507",
+      "19778506",
+      "19303846",
+      "19188535",
+      "17258902",
+      "16959794",
+      "16243297",
+      "15940305",
+      "11317219",
+      "10814723"
+    ],
+    "similar": [
+      "38192336",
+      "37398111",
+      "31075539",
+      "12812986",
+      "28249940",
+      "19778506",
+      "32493513",
+      "22832604",
+      "20212127",
+      "36858606",
+      "27606328",
+      "28727686",
+      "22116789",
+      "25961396",
+      "16510495",
+      "24301646",
+      "25821909",
+      "34921141",
+      "27525255",
+      "21422296",
+      "26728762",
+      "27832597",
+      "19583211",
+      "17389905",
+      "15797709",
+      "29961565",
+      "14962739",
+      "26212236",
+      "22801410",
+      "25620115",
+      "23832957",
+      "20624590",
+      "20685985",
+      "29103808",
+      "17664024",
+      "30597994",
+      "30285728",
+      "30915712",
+      "30488644",
+      "19874836",
+      "31264367",
+      "25738396",
+      "31614085",
+      "23631734",
+      "30391323",
+      "20687111",
+      "16797264",
+      "30853683",
+      "16299498",
+      "30245624",
+      "21149852",
+      "25071449",
+      "26424793",
+      "23602339",
+      "17185511",
+      "38135095",
+      "12874605",
+      "22385968",
+      "19666611",
+      "19958095",
+      "19251251",
+      "27466199",
+      "20360304",
+      "28140405",
+      "21498050",
+      "21531389",
+      "18955030",
+      "17117617",
+      "27026592",
+      "23353011",
+      "17912248",
+      "20880836",
+      "15381924",
+      "18818052",
+      "18469341",
+      "27346367",
+      "29212023",
+      "20302820",
+      "22422769",
+      "15940305",
+      "24560582",
+      "21376063",
+      "35361701",
+      "23587879",
+      "24909300",
+      "25595671",
+      "16209927",
+      "17823207",
+      "37479851",
+      "30597182",
+      "28472294",
+      "19303846"
+    ],
+    "review": [
+      "38192336",
+      "25961396",
+      "23832957",
+      "17664024",
+      "30285728",
+      "16797264",
+      "21149852",
+      "23602339",
+      "17185511",
+      "19958095",
+      "28140405",
+      "17117617",
+      "23353011",
+      "17912248",
+      "20302820",
+      "25595671"
+    ],
+    "pmc": [
+      "10773898"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38192336/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38192336",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2023.1308693",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

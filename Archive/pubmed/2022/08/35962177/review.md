@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, figures (as referenced), and methods. Supplementary information was not provided.
+- **Assessment boundary** Scientific soundness, methodological validity, support of claims by presented evidence, and alignment with Nature-style criteria. Editorial decisions and publication suitability for a specific journal are outside the scope.
+- **Shared manuscript claim summary** The authors propose a rational peptide design methodology for targeting intrinsically disordered regions (IDRs) of proteins, based on residue-residue contact energies derived from molecular dynamics (MD) simulations. They claim this MD-based energy outperforms conventional 3D structure-based energy in designing high-affinity peptide binders to the N-terminal IDR of p53. They further demonstrate that designed peptides can promote p53 droplet formation, and that fusing a soluble tag (MBP) converts these peptides from droplet accelerators to suppressors.
+- **Visible evidence base** Main text, figures (Fig. 1-4), methods section, and references to supplementary tables and figures (not provided).
+- **Missing materials affecting confidence** Supplementary Information (Tables S1, S2; Figures S1-S11), including force field comparison data, peptide sequences, titration curves, and droplet imaging data. Raw MD simulation data and analysis scripts were not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to peptide design targeting IDRs, with a clear rationale and a potentially useful methodological advance. The core claim, that MD-based contact energies yield higher-affinity peptides than 3D structure-based energies, is supported by the presented binding data. However, the study's impact is limited by the narrow demonstration on a single target (p53 N-terminal IDR), the lack of mechanistic insight into how the designed peptides modulate droplet formation, and the absence of key validation data (e.g., specificity, in-cell activity). The soluble-tag switch from enhancer to suppressor is a notable finding but is not fully explored mechanistically. The manuscript is generally well-written and accessible, but several technical details and missing controls prevent full confidence in the conclusions.
+- **Who would be interested in the results, and why** Researchers in the fields of protein phase separation, intrinsically disordered proteins, peptide design, and biotherapeutics. The methodology could be of interest to those seeking computational tools for designing binders to disordered targets. The demonstration of a switchable regulator (enhancer vs. suppressor) may appeal to synthetic biologists and those studying the regulation of biomolecular condensates.
+- **Major strengths** 1. The conceptual advance of using IDR-specific contact energies (devoid of backbone constraints) for peptide design is well-motivated and addresses a real limitation of structure-based approaches. 2. The head-to-head comparison with the conventional 3D structure-based energy provides a clear and quantitative demonstration of the new method's advantage. 3. The study includes a practical application (regulating p53 droplet formation) and a clever strategy (soluble tag fusion) to convert peptide function, adding translational relevance. 4. The methods are described in sufficient detail to be reproducible, and the force field validation adds robustness.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence sufficiency for core claim  
+    - **Claim pointer** The authors claim that "the peptides designed with the MD-based contact energy showed dissociation constants of 35–280 nM for the N-terminal IDR of p53, which are significantly lower than the dissociation constants of peptides designed with the conventional 3D structure-based energy, demonstrating the validity of the present peptide design methodology."  
+    - **Evidence pointer** Figure 2B, Supplementary Figure S3 (not provided)  
+    - **Concern** The core claim of superiority is based on a comparison of dissociation constants (KD) for a set of designed peptides. However, the number of peptides compared is small (eight total, four per method), and the comparison is made under a single set of conditions. The statistical significance of the difference in KD values is not reported. Furthermore, the selection process for the MD-based peptides (e.g., avoiding homopolymeric sequences) introduces a bias that is not applied to the 3D-based design, potentially confounding the comparison. The claim of "significantly lower" requires a formal statistical test and a more robust comparison set.  
+    - **Why it matters** The central premise of the manuscript is that the MD-based energy is superior for IDR-targeting peptide design. Without a statistically robust and unbiased comparison, this conclusion is not firmly established.  
+    - **Resolution test** Provide a statistical analysis (e.g., t-test or Mann-Whitney U test) comparing the KD values of the two groups. Include a larger panel of designed peptides for both methods. Describe the selection criteria for both methods identically, or justify any differences. Ideally, include a validation set of peptides not used in the design process.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Mechanistic insight  
+    - **Claim pointer** The authors state that "the designed peptides with different affinity for p53 showed similar effects of increasing the number of p53 droplets likely by bridging multiple p53 molecules in droplets and/or by reducing the electrostatic repulsion between p53 molecules."  
+    - **Evidence pointer** Figure 3, Supplementary Figures S5-S7 (not provided)  
+    - **Concern** The mechanism by which the designed peptides promote droplet formation is speculative. The authors offer two possible explanations (bridging vs. charge neutralization) but do not provide experimental evidence to distinguish between them. The observation that all peptides, regardless of affinity, have similar effects on droplet number is interesting but unexplained. The role of peptide valency, stoichiometry within droplets, and the specific interactions driving enhancement are not addressed.  
+    - **Why it matters** Understanding the mechanism is crucial for the generalizability of the approach. Without it, it is unclear if the design principles can be extended to other IDR targets or if the observed effects are specific to the p53 system.  
+    - **Resolution test** Perform experiments to dissect the mechanism, such as: (i) using peptides with modified valency (e.g., mono-valent vs. multi-valent) to test the bridging hypothesis; (ii) measuring the zeta potential or using charge-neutralizing mutations to test the electrostatic hypothesis; (iii) using fluorescence recovery after photobleaching (FRAP) to assess the dynamics of peptide and p53 within droplets; (iv) testing peptides with scrambled sequences as negative controls.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Generalizability and specificity  
+    - **Claim pointer** The authors imply that the methodology is general, stating it "could be applied to various LLPS-related proteins of interest for biological and therapeutic purposes."  
+    - **Evidence pointer** Entire manuscript  
+    - **Concern** The methodology is demonstrated on a single target (p53 N-terminal IDR). The specificity of the designed peptides for the target IDR is only tested against the C-terminal IDR of p53, which is a related but distinct sequence. No off-target testing against unrelated proteins or IDRs is performed. The generalizability of the approach to other IDRs with different sequence compositions and biophysical properties is not shown.  
+    - **Why it matters** A key claim of the manuscript is the broad utility of the method. A single demonstration, without specificity data, is insufficient to support this claim.  
+    - **Resolution test** Apply the design methodology to at least one additional, unrelated IDR target. Test the designed peptides for binding against a panel of unrelated IDRs or proteins to assess specificity. Include a discussion of the sequence features that make an IDR amenable to this design approach.  
+  - **R1-M4**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Functional relevance and reversibility  
+    - **Claim pointer** The authors demonstrate that MBP-fused peptides suppress droplet formation and that cleavage of MBP by TEV protease restores droplet formation, stating "the MBP-fused designed peptides function as regulators of droplet formation, which are triggered by TEV protease."  
+    - **Evidence pointer** Figure 4D, Supplementary Figure S10 (not provided)  
+    - **Concern** The functional relevance of the droplet regulation is not demonstrated in a cellular or more complex in vitro context. The reversibility experiment with TEV protease is elegant but is performed in a simplified system. The physiological or therapeutic implications of enhancing or suppressing p53 droplet formation are not discussed or tested.  
+    - **Why it matters** The stated motivation includes "biological and therapeutic applications." Without a demonstration of functional relevance beyond a reconstituted system, the translational potential remains speculative.  
+    - **Resolution test** Test the ability of the designed peptides (and MBP-fused versions) to modulate p53 function in a cellular assay, e.g., by assessing p53 transcriptional activity or cell viability under stress conditions. Discuss the potential implications of modulating p53 LLPS in disease contexts.  
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity and reproducibility  
+    - **Affected element** Methods, Peptide design section  
+    - **Evidence pointer** "Materials and methods"  
+    - **Issue** The description of the peptide design algorithm is brief. The exact procedure for "minimizing total contact energy" and the handling of gaps or overlapping windows is not fully detailed. The choice of the "sequence with the binding energy close to the minimum" for the MD-OT design is subjective and not quantitatively defined.  
+    - **Required correction** Provide a step-by-step algorithmic description, including a flowchart or pseudocode. Define "close to the minimum" with a specific criterion (e.g., within X% of the minimum energy).  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Data presentation  
+    - **Affected element** Figure 2B  
+    - **Evidence pointer** Figure 2B  
+    - **Issue** The KD values are presented in a table within the figure, but the errors are only fitting errors. It is unclear if these represent experimental variability (e.g., from multiple independent titrations).  
+    - **Required correction** Report the mean and standard deviation from at least three independent experiments.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Statistical analysis  
+    - **Affected element** Figure 3A, 3B  
+    - **Evidence pointer** Figure 3A, 3B  
+    - **Issue** The error bars in Figure 3 are stated to be standard error (N≥3), but no statistical comparison between the different peptide conditions is provided. It is unclear if the observed increases in OD350 are statistically significant.  
+    - **Required correction** Perform and report appropriate statistical tests (e.g., one-way ANOVA with post-hoc tests) comparing the droplet formation in the presence of different peptides.  
+  - **R1-m4**  
+    - **Severity** Minor  
+    - **Axis** Completeness of evidence  
+    - **Affected element** Supplementary Figures S5-S7, S9-S11  
+    - **Evidence pointer** Referenced in main text  
+    - **Issue** The main text relies heavily on supplementary figures for key data (e.g., droplet size distribution, peptide recruitment, TEV cleavage time course). These were not available for review.  
+    - **Required correction** Ensure all supplementary figures are included in the final submission and are of high quality. Consider moving the most critical data (e.g., peptide recruitment) to the main text.  
+  - **R1-m5**  
+    - **Severity** Minor  
+    - **Axis** Terminology  
+    - **Affected element** Abstract, Introduction  
+    - **Evidence pointer** Abstract  
+    - **Issue** The term "regulators" is used broadly. The peptides are shown to enhance or suppress droplet formation, but the term "regulator" implies a more nuanced control (e.g., dose-dependent, reversible).  
+    - **Required correction** Use more specific terms such as "enhancers" or "suppressors" where appropriate, or define "regulator" in the context of this study.  
+- **Technical failings that need to be addressed before the case is established**  
+  - Lack of statistical analysis for the core claim of improved affinity (R1-M1).  
+  - Insufficient mechanistic evidence for how peptides promote droplet formation (R1-M2).  
+  - Lack of specificity data and demonstration of generalizability to other IDRs (R1-M3).  
+  - The peptide design algorithm is not described with sufficient detail for reproduction (R1-m1).  
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of using IDR-specific contact energies from MD simulations for peptide design is a novel and creative approach. It addresses a clear gap in current design methods, which often rely on folded structures. The idea of a switchable enhancer/suppressor via a cleavable tag is also original.  
+  - **Scientific importance** The work addresses a significant challenge in the field of LLPS and IDR biology. If the methodology is robust and generalizable, it could provide a valuable tool for studying and manipulating phase separation. However, the current demonstration is limited to a single target, and the functional implications are not explored, reducing the immediate importance.  
+  - **Interdisciplinary readership** The topic is inherently interdisciplinary, spanning biophysics, computational chemistry, cell biology, and potentially therapeutic development. The manuscript is written in a way that is largely accessible to researchers in these fields, although some familiarity with MD simulations and binding assays is assumed.  
+  - **Technical soundness** The core technical approach (MD simulations, umbrella sampling, fluorescence anisotropy) is sound and well-established. The force field validation is a positive aspect. However, the lack of statistical rigor in the key comparison and the missing mechanistic experiments are significant technical weaknesses.  
+  - **Readability for nonspecialists** The abstract and introduction are clear and provide good context. The results are presented logically. However, the methods section is dense and may be challenging for non-experts. The discussion could be more focused on the broader implications and limitations.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the initial data are encouraging. However, the manuscript in its current form does not fully establish the superiority of the method (due to lack of statistical analysis) or its general utility (due to single-target demonstration and lack of specificity data). Addressing the major concerns, particularly R1-M1 and R1-M3, is essential before the claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that the MD-based energy is "significantly" better than 3D structure-based energy is not supported by statistical analysis.
+- The claim that the methodology "could be applied to various LLPS-related proteins" is an extrapolation from a single example and is not supported by data.
+- The proposed mechanisms for droplet enhancement (bridging or charge neutralization) are speculative and not directly tested.
+- The statement that the designed peptides do not convert droplets to solid aggregates is based on circularity measurements, but the sensitivity of this assay to early-stage aggregation is not discussed.
+- The functional relevance of the designed peptides as "regulators" in a biological context is not demonstrated.

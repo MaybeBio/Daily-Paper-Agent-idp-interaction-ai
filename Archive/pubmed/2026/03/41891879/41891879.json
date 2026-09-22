@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "41891879",
+    "doi": "10.1093/nar/gkag265",
+    "title": "Poly(ADP-ribose) (PAR) exhibits ion-dependent structural properties distinct from RNA."
+  },
+  "content": {
+    "abstract": "Poly(ADP-ribose) (PAR) is a highly charged, intrinsically flexible nucleic-acid-like homopolymer composed of ADP-ribose units. It serves as a critical post-translational modification that is rapidly synthesized in response to DNA damage and participates in diverse important cellular processes, including DNA repair, chromatin remodeling, and RNA biogenesis, often by promoting biomolecular phase separation. However, PAR's conformational heterogeneity coupled with limited experimental characterization has hindered a mechanistic understanding of these processes. To address this challenge, we develop a five-bead coarse-grained model of PAR and perform molecular dynamics simulations to compare its conformational ensemble and ion atmosphere with those of RNA across diverse ion environments. Our simulations reveal that PAR undergoes a markedly stronger structural transition than RNA in response to divalent ions, driven by its preferential ion binding and effective ion-mediated bridging between phosphate groups. These interactions facilitate cooperative conformational changes and produce a compact, ion-rich atmosphere that is fundamentally distinct from RNA. Together, our work provides a physically grounded model for PAR, uncovers molecular features that differentiate PAR from RNA, and offers mechanistic insight into how PAR nucleates phase separation and organizes protein interactions at sites of DNA damage.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Poly Adenosine Diphosphate Ribose/chemistry/metabolism",
+      "*RNA/chemistry",
+      "Molecular Dynamics Simulation",
+      "Nucleic Acid Conformation",
+      "Phase Separation",
+      "Ions/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Baidya, Lipika",
+        "Zhang, Heyang",
+        "Nguyen, Hung T"
+      ],
+      "short_names": [
+        "Baidya L",
+        "Zhang H",
+        "Nguyen HT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2639-9369",
+        "ORCID: 0009-0003-4838-7734"
+      ],
+      "affiliations": [
+        "Department of Chemistry, The State University of New York, Buffalo 14260, NY, United States.",
+        "Department of Chemistry, The State University of New York, Buffalo 14260, NY, United States.",
+        "Department of Chemistry, The State University of New York, Buffalo 14260, NY, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Baidya, Lipika",
+        "short_name": "Baidya L",
+        "identifiers": [
+          "0000-0002-2639-9369"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The State University of New York, Buffalo 14260, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Heyang",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The State University of New York, Buffalo 14260, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Hung T",
+        "short_name": "Nguyen HT",
+        "identifiers": [
+          "0009-0003-4838-7734"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The State University of New York, Buffalo 14260, NY, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Mar 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/27 17:37",
+    "fetched_at": "2026-09-18 01:57:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41268884",
+      "41182901",
+      "40773731",
+      "39980654",
+      "39977663",
+      "39977326",
+      "39596510",
+      "39508828",
+      "39356140",
+      "39278937",
+      "39256374",
+      "39071462",
+      "38557079",
+      "37932412",
+      "37832523",
+      "37126687",
+      "37115110",
+      "36625274",
+      "36378781",
+      "36243979",
+      "36206480",
+      "36077221",
+      "35944496",
+      "35447104",
+      "35182479",
+      "34594027",
+      "34367175",
+      "34302489",
+      "33658370",
+      "33039521",
+      "32667640",
+      "32381174",
+      "32342689",
+      "31804813",
+      "31570624",
+      "31434954",
+      "31189100",
+      "30728452",
+      "30540446",
+      "30385548",
+      "30157956",
+      "30100264",
+      "29172462",
+      "28676700",
+      "28334825",
+      "28202539",
+      "26673700",
+      "26391078",
+      "26286827",
+      "26091343",
+      "25800744",
+      "25747399",
+      "25706250",
+      "24914234",
+      "24055347",
+      "23917065",
+      "23666795",
+      "23527587",
+      "23416893",
+      "23251397",
+      "22766145",
+      "22713970",
+      "22391446",
+      "21596313",
+      "21509745",
+      "20937877",
+      "20440377",
+      "19757771",
+      "18927583",
+      "17991682",
+      "16829982",
+      "16026317",
+      "14705947",
+      "14019961",
+      "11536292",
+      "10570184",
+      "8434792",
+      "8021281",
+      "6822507",
+      "3155867",
+      "3038179",
+      "1326536",
+      "218210"
+    ],
+    "similar": [
+      "41891879",
+      "39256374",
+      "37126687",
+      "36993178",
+      "40403420",
+      "34302489",
+      "40273545",
+      "40381401",
+      "37804508",
+      "32439163",
+      "24865146",
+      "39221603",
+      "39596510",
+      "20669926",
+      "37115110",
+      "27090906",
+      "21892188",
+      "32947956",
+      "41182901",
+      "26286827",
+      "32302549",
+      "25477519",
+      "40219966",
+      "23964092",
+      "36515828",
+      "25774719",
+      "24953096",
+      "29220653",
+      "26673700",
+      "36515826",
+      "26391948",
+      "30097861",
+      "24799691",
+      "31566235",
+      "36361989",
+      "24162931",
+      "22941645",
+      "23917065",
+      "23290998",
+      "23082994",
+      "24920161",
+      "38234836",
+      "30722038",
+      "41046830",
+      "19757771",
+      "39605385",
+      "35476036",
+      "27817744",
+      "42542533",
+      "42081377",
+      "39922741",
+      "27007296",
+      "27318540",
+      "36243979",
+      "41129218",
+      "20098424",
+      "37462479",
+      "30892621",
+      "17991682",
+      "34377556",
+      "21825151",
+      "41651132",
+      "31616951",
+      "25706250",
+      "22713970",
+      "39970298",
+      "26170451",
+      "41824896",
+      "23711178",
+      "31077644",
+      "39863586",
+      "35130321",
+      "32667640",
+      "21870275",
+      "21343889",
+      "42475469",
+      "24356582",
+      "27240471",
+      "21870255",
+      "28695503",
+      "19680243",
+      "23871146",
+      "36515830",
+      "19372272",
+      "30104678",
+      "35182479",
+      "42051296",
+      "40773731",
+      "25865309",
+      "37961637",
+      "39865028",
+      "18172500",
+      "25327252",
+      "29733391",
+      "31395352",
+      "23833192",
+      "25963443",
+      "10455009",
+      "39805863",
+      "35501985"
+    ],
+    "review": [
+      "41891879",
+      "40273545",
+      "40381401",
+      "39221603",
+      "37115110",
+      "27090906",
+      "32302549",
+      "25774719",
+      "26673700",
+      "24162931",
+      "23290998",
+      "41046830",
+      "27817744",
+      "39922741",
+      "27318540",
+      "36243979",
+      "41651132",
+      "22713970",
+      "23711178",
+      "31077644",
+      "21343889",
+      "27240471",
+      "31395352",
+      "25963443",
+      "10455009"
+    ],
+    "pmc": [
+      "13023053"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41891879/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-71",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag265",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

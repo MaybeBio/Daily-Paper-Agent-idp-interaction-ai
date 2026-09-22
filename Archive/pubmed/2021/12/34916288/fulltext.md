@@ -1,0 +1,5 @@
+# Amphiphilic proteins coassemble into multiphasic condensates and act as biomolecular surfactants
+
+
+## Significance
+  Membraneless organelles are assemblies of highly concentrated biomolecules that condense through liquid–liquid phase separation. One major question in the field is how proteins assemble into multilayered condensates. Understanding mechanisms of formation of these systems is important for understanding the function and regulation of multiphasic organelles, such as P granules and nucleoli. A second outstanding question is how the size of biomolecular condensates is controlled. In this work, we generated amphiphilic proteins that localize to the surface of condensates. We observed diverse assemblies, including condensates enveloped by surfactant-like films, as well as complex multiphasic morphologies. In some configurations, these surfactant-like proteins influence condensate size. Our results suggest an important role of protein amphiphiles in establishing membraneless organelle structure and function.

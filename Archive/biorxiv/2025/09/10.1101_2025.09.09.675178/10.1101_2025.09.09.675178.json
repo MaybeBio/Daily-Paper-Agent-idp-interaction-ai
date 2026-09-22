@@ -1,0 +1,349 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.09.675178",
+  "title": "Centrosome Softening As A Mechanical Adaptation For Mitosis",
+  "doi": "10.1101/2025.09.09.675178",
+  "abstract": "Centrosomes are microtubule-organizing centers important for mitotic spindle assembly and chromosome segregation. During mitosis, centrosomes are exposed to mechanical forces via the microtubules they nucleate, yet the material properties underlying their response to these forces remain poorly understood. In this study, we systematically probed the mechanical behavior of C. elegans centrosomes, both in vitro and in vivo . Using microtubule perturbations and quantitative live cell imaging, we found that centrosomes become increasingly deformed during mitosis. Centrosome deformation is independent of cortical pulling forces but instead results from microtubule polymerization within the pericentriolar material. This deformation impacts centrosome size: as microtubule number decreases with cell volume in early cleavage divisions, centrosome size scales proportionately. To directly measure centrosome elasticity, we employed atomic force microscopy (AFM) on isolated centrosomes in vitro and Brillouin light scattering microscopy in developing embryos in vivo . Both approaches revealed that centrosomes progressively soften during mitosis. Theoretical modeling predicts that softening serves to dampen spindle force fluctuations, helping to protect kinetochore-microtubule interactions and safeguarding chromosome segregation. Further, softening may enhance centrosomal microtubule nucleation capacity, facilitating mitotic spindle assembly, particularly in large early embryonic cells. We propose that centrosome softening is a mechanical adaptation for mitosis that couples microtubule number to centrosome size through force-dependent deformation. This optimally balances two mitotic requirements: the need for robust microtubule nucleation and the ability to withstand spindle forces, thereby ensuring accurate cell division.",
+  "authors": [
+    "Garcia-Baucells J",
+    "Bevilacqua C",
+    "Rufin M",
+    "Rumpf-Kienzl C",
+    "Zampetaki A",
+    "Andriotis OG",
+    "Thurner PJ",
+    "Prevedel R",
+    "Fürthauer S",
+    "Dammermann A"
+  ],
+  "published_date": "2025-09-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.09.675178",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.09.675178.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1080870",
+    "raw_record": {
+      "id": "PPR1080870",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1080870"
+        ]
+      },
+      "doi": "10.1101/2025.09.09.675178",
+      "title": "Centrosome Softening As A Mechanical Adaptation For Mitosis",
+      "authorString": "Garcia-Baucells J, Bevilacqua C, Rufin M, Rumpf-Kienzl C, Zampetaki A, Andriotis OG, Thurner PJ, Prevedel R, Fürthauer S, Dammermann A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Garcia-Baucells J",
+            "lastName": "Garcia-Baucells",
+            "firstName": "Júlia",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7874-7671"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                },
+                {
+                  "affiliation": "Vienna BioCenter PhD Program, Doctoral School of the University of Vienna and , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bevilacqua C",
+            "lastName": "Bevilacqua",
+            "firstName": "Carlo",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9084-0641"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology and Biophysics Unit, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rufin M",
+            "lastName": "Rufin",
+            "firstName": "Manuel",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0322-0095"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Lightweight Design and Structural Biomechanics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rumpf-Kienzl C",
+            "lastName": "Rumpf-Kienzl",
+            "firstName": "Cornelia",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zampetaki A",
+            "lastName": "Zampetaki",
+            "firstName": "Alexandra",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6243-9356"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Applied Physics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andriotis OG",
+            "lastName": "Andriotis",
+            "firstName": "Orestis",
+            "initials": "OG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Lightweight Design and Structural Biomechanics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thurner PJ",
+            "lastName": "Thurner",
+            "firstName": "Philipp",
+            "initials": "PJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7588-9041"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Lightweight Design and Structural Biomechanics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prevedel R",
+            "lastName": "Prevedel",
+            "firstName": "Robert",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3366-4703"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology and Biophysics Unit, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fürthauer S",
+            "lastName": "Fürthauer",
+            "firstName": "Sebastian",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Applied Physics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dammermann A",
+            "lastName": "Dammermann",
+            "firstName": "Alexander",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7588-9041"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7874-7671"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9084-0641"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9581-5963"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6243-9356"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0322-0095"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3366-4703"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Centrosomes are microtubule-organizing centers important for mitotic spindle assembly and chromosome segregation. During mitosis, centrosomes are exposed to mechanical forces via the microtubules they nucleate, yet the material properties underlying their response to these forces remain poorly understood. In this study, we systematically probed the mechanical behavior of  C. elegans centrosomes, both  in vitro and  in vivo . Using microtubule perturbations and quantitative live cell imaging, we found that centrosomes become increasingly deformed during mitosis. Centrosome deformation is independent of cortical pulling forces but instead results from microtubule polymerization within the pericentriolar material. This deformation impacts centrosome size: as microtubule number decreases with cell volume in early cleavage divisions, centrosome size scales proportionately. To directly measure centrosome elasticity, we employed atomic force microscopy (AFM) on isolated centrosomes  in vitro and Brillouin light scattering microscopy in developing embryos  in vivo . Both approaches revealed that centrosomes progressively soften during mitosis. Theoretical modeling predicts that softening serves to dampen spindle force fluctuations, helping to protect kinetochore-microtubule interactions and safeguarding chromosome segregation. Further, softening may enhance centrosomal microtubule nucleation capacity, facilitating mitotic spindle assembly, particularly in large early embryonic cells. We propose that centrosome softening is a mechanical adaptation for mitosis that couples microtubule number to centrosome size through force-dependent deformation. This optimally balances two mitotic requirements: the need for robust microtubule nucleation and the ability to withstand spindle forces, thereby ensuring accurate cell division.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Austrian Science Fund FWF",
+            "grantId": "F8803-B",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "acronym": "ERC_",
+            "grantId": "10.47379/VRG20002",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "864027",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "acronym": "ERC_",
+            "grantId": "10.47379/LS19035",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "acronym": "ERC_",
+            "grantId": "864027 (Brillouin4Life)",
+            "orderIn": 0
+          },
+          {
+            "agency": "Austrian Science Fund FWF",
+            "grantId": "P34526-B",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.09.675178"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1080870"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1080870&type=FILE&fileName=EMS208704-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208704",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-09-12",
+      "firstPublicationDate": "2025-09-10",
+      "firstIndexDate": "2025-09-12",
+      "fullTextReceivedDate": "2025-09-20",
+      "hasEvaluations": "N"
+    }
+  }
+}

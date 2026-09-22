@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report that crystallographic fragment screening with the FragLite library against CDK2-cyclin A comprehensively maps known protein-protein interaction (PPI) sites, identifies a possible uncharacterised PPI site, and thereby offers a structural approach to direct mechanistic studies and chemical probe design.
+- **Visible evidence base** Abstract text only; no experimental details, crystallographic statistics, figures, or tables were supplied
+- **Missing materials affecting confidence** Full manuscript, methods section, crystallographic data and refinement statistics, fragment hit lists, electron density maps, structural figures, and any validation of the proposed uncharacterised site
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting application of fragment-based crystallographic screening to map PPI hotspots on a well-studied kinase complex. The choice of CDK2-cyclin A as a test case is sensible given the extensive structural literature. However, the abstract alone provides insufficient evidence to evaluate the central claims. The assertion that FragLites "comprehensively map" known PPI sites and identify a new site cannot be assessed without structural data, hit statistics, and comparison to known complexes. The work has potential value for the structural biology and chemical biology communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists studying protein-protein interactions, medicinal chemists interested in PPI-targeting chemical probes, and computational biologists developing or validating AI-based complex prediction tools. The proposed method could provide experimental benchmarks for hotspot prediction and offer starting points for probe development.
+- **Major strengths** The conceptual framing is clear and timely, linking experimental fragment screening to AI prediction validation and separation-of-function mutant design. The choice of a well-characterised system is appropriate for a proof-of-concept study. The abstract is concise and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "FragLites comprehensively map both known sites of protein-protein interaction on CDK2-cyclin A"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of comprehensive mapping is strong and requires quantitative and qualitative evidence that is not visible in the abstract. No information is provided on the number of fragments screened, hit rates, coverage of the PPI interface, or how "comprehensive" is defined relative to known interaction sites.
+  - **Why it matters** Without evidence of coverage and hit density across the known PPI interfaces, the central claim of the study cannot be verified. Overstatement of coverage could mislead downstream users of the method.
+  - **Resolution test** Provide a figure or table showing fragment hit locations mapped onto the CDK2-cyclin A structure, with clear annotation of known PPI sites and quantitative coverage metrics (e.g., percentage of interface residues contacted by at least one fragment).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "identify a possible uncharacterised site"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The identification of a new putative PPI site is a significant claim that requires structural evidence, such as electron density for bound fragments, a defined binding pocket, and some indication of biological relevance. None of this is available in the abstract.
+  - **Why it matters** A new PPI site, if real, would be a notable finding. However, without evidence distinguishing a genuine interaction site from a crystallographic artifact or a low-affinity surface binding event, the claim is unsupported.
+  - **Resolution test** Show electron density maps for the fragments at the proposed site, compare the site to known CDK2 interaction surfaces, and provide a rationale for why this site may be biologically relevant (e.g., conservation analysis or overlap with a known regulatory interaction).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological validation
+  - **Claim pointer** "provide a structural method toward directing mechanistic studies and providing starting points for chemical probe design"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe how the fragment hits were validated as specific binders, whether binding was confirmed by orthogonal methods, or whether any hits showed selectivity for the PPI site over other surfaces. The utility for probe design depends on such validation.
+  - **Why it matters** Fragment screening can produce many weak, non-specific binders. Without evidence of specificity and reproducibility, the proposed utility for probe development is speculative.
+  - **Resolution test** Include a description of validation steps (e.g., competition experiments, binding assays, or comparison with known ligands) and show that hits at PPI sites are distinct from those at other crystallographic packing or artifact sites.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "hotspots"
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "hotspots" is used without a precise definition, which may confuse readers unfamiliar with the PPI literature.
+  - **Required correction** Define hotspots explicitly (e.g., residues contributing disproportionately to binding free energy) or cite a standard reference.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to existing methods
+  - **Evidence pointer** Abstract, overall
+  - **Issue** The abstract does not mention how this approach compares to other fragment screening methods or computational hotspot prediction tools, which would help position the work.
+  - **Required correction** Add a sentence in the abstract or introduction noting prior approaches and how FragLites differ or improve upon them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** "possible uncharacterised site"
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The phrase "possible" is appropriately cautious, but the abstract does not indicate what evidence supports this possibility or how confident the authors are.
+  - **Required correction** Briefly state the basis for the putative site (e.g., fragment clustering, pocket shape) in the abstract or refer to a specific figure.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of comprehensive mapping and new site identification cannot be evaluated from the abstract alone. R1-M3 is important but not blocking if the other concerns are resolved.
+- **Assessment against Nature-style criteria** Originality: The application of FragLites to map PPI sites on CDK2-cyclin A is a reasonable extension of existing fragment screening methods, but the abstract does not demonstrate conceptual novelty beyond prior fragment-based PPI mapping studies. Scientific importance: The potential to validate AI predictions and guide probe design is significant, but the importance is conditional on the evidence being robust. Interdisciplinary readership: The work could appeal to structural biologists, chemists, and computational biologists, but the abstract is written in a way that is accessible to a broad audience. Technical soundness: Cannot be assessed from the abstract; no experimental details are provided. Readability for nonspecialists: The abstract is clear and concise, though terms like "FragLites" and "hotspots" may need brief explanation for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the test system is appropriate, but the abstract does not provide sufficient data to support the claims of comprehensive mapping and new site identification. A full manuscript with structural evidence and validation would be needed to assess the work properly.
+
+## Risk / unsupported claims
+- The claim that FragLites "comprehensively map" known PPI sites is unsupported without quantitative coverage data.
+- The identification of a "possible uncharacterised site" is unsupported without structural evidence.
+- The utility for directing mechanistic studies and probe design is speculative without validation of fragment binding specificity.
+- The general applicability of the method to other PPI systems is implied but not demonstrated.

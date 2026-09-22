@@ -1,0 +1,445 @@
+{
+  "identity": {
+    "pmid": "41909144",
+    "doi": "10.1021/acsphyschemau.5c00120",
+    "title": "Determination of Nucleotide-Nucleotide and Nucleotide-Amino Acid Binding Interactions from All-Atom Potential-of-Mean-Force Calculations."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates emerge from multivalent interactions between proteins and nucleic acids and are frequently modeled by using coarse-grained molecular dynamics simulations. The parametrization of these models critically depends on atomistic data describing the underlying molecular interactions. In this work, we employ all-atom molecular dynamics simulations and potential-of-mean-force (PMF) calculations to investigate the landscape of interactions between RNA nucleotides and protein amino acids. We begin by characterizing nucleotide-nucleotide binding modes through canonical base-pairing analysis, observing notable agreement in the predictions from both the AMBER03ws and CHARMM36 force fields. Further rationalization of different nucleotide-nucleotide interaction modes involves the calculation of PMFs for ribose-ribose, phosphate-phosphate, and RNA tertiary interactions such as G-quadruplex formation. We also examine the effect of salt concentration on these interactions, finding a reduction in electrostatic self-repulsion for phosphate-phosphate binding upon increasing the ionic strength. Expanding our analysis to amino acids, we first benchmark the performance of both AMBER03ws and a99SB-disp force fields for describing pairwise amino acid interactions, and then, we evaluate different nucleotide-amino acid binding profiles. Our findings reveal a subset of amino acidsLys and Arg (positively charged), Asp and Glu (negatively charged), and Gln, Ser, and Asn (polar residues)that consistently engage with the nitrogenous bases of different nucleotides. Such binding is primarily mediated by hydrogen bonding and, in some cases, cation-pi interactions. Furthermore, we identify strong pi-pi stacking interactions with aromatic residues and phosphate-Arg contacts as key contributors to condensate cohesion in RNA-protein condensates. Our comprehensive analysis provides a detailed library of nucleotide-amino acid interactions, offering quantitative insights to inform coarse-grained model parametrization and deepening our understanding of condensate self-assembly, nucleic acid recognition, and phase-separation regulation at the submolecular scale.",
+    "keywords": [
+      "RNA phase-separation",
+      "RNA-protein interactions",
+      "atomistic simulations",
+      "biomolecular condensates",
+      "potential-of-mean-force calculations"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feito, Alejandro",
+        "Pedraza, Eduardo",
+        "Cuesta, Estefania",
+        "Castro, Alejandro",
+        "Rey, Antonio",
+        "Sanchez-Burgos, Ignacio",
+        "Collepardo-Guevara, Rosana",
+        "Tejedor, Andres R",
+        "Espinosa, Jorge R"
+      ],
+      "short_names": [
+        "Feito A",
+        "Pedraza E",
+        "Cuesta E",
+        "Castro A",
+        "Rey A",
+        "Sanchez-Burgos I",
+        "Collepardo-Guevara R",
+        "Tejedor AR",
+        "Espinosa JR"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-1282-7580",
+        "ORCID: 0000-0003-0154-4643",
+        "ORCID: 0009-0005-3214-5815",
+        "ORCID: 0000-0002-8901-4198",
+        "ORCID: 0000-0003-1781-7351",
+        "ORCID: 0000-0002-9437-6169",
+        "ORCID: 0000-0001-9530-2658"
+      ],
+      "affiliations": [
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain. RINGGOLD: 16734",
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain. RINGGOLD: 16734",
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain. RINGGOLD: 16734",
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain. RINGGOLD: 16734",
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain. RINGGOLD: 16734",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K. RINGGOLD: 2152",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K. RINGGOLD: 2152",
+        "Department of Genetics, University of Cambridge, Downing Street, Cambridge CB2 3EH, U.K. RINGGOLD: 2152",
+        "PhAsIca Biosciences S.L, Calle Velazquez, 27, Madrid 28001, Spain.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K. RINGGOLD: 2152",
+        "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain. RINGGOLD: 16734",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K. RINGGOLD: 2152",
+        "Instituto Pluridisciplinar, Universidad Complutense de Madrid, P. degrees  de Juan XXIII, 1, Moncloa-Aravaca, Madrid 28040, Spain. RINGGOLD: 16734",
+        "PhAsIca Biosciences S.L, Calle Velazquez, 27, Madrid 28001, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feito, Alejandro",
+        "short_name": "Feito A",
+        "identifiers": [
+          "0009-0000-1282-7580"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain."
+        ]
+      },
+      {
+        "full_name": "Pedraza, Eduardo",
+        "short_name": "Pedraza E",
+        "identifiers": [
+          "0000-0003-0154-4643"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain."
+        ]
+      },
+      {
+        "full_name": "Cuesta, Estefania",
+        "short_name": "Cuesta E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain."
+        ]
+      },
+      {
+        "full_name": "Castro, Alejandro",
+        "short_name": "Castro A",
+        "identifiers": [
+          "0009-0005-3214-5815"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain."
+        ]
+      },
+      {
+        "full_name": "Rey, Antonio",
+        "short_name": "Rey A",
+        "identifiers": [
+          "0000-0002-8901-4198"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain."
+        ]
+      },
+      {
+        "full_name": "Sanchez-Burgos, Ignacio",
+        "short_name": "Sanchez-Burgos I",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [
+          "0000-0003-1781-7351"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K.",
+          "Department of Genetics, University of Cambridge, Downing Street, Cambridge CB2 3EH, U.K.",
+          "PhAsIca Biosciences S.L, Calle Velázquez, 27, Madrid 28001, Spain."
+        ]
+      },
+      {
+        "full_name": "Tejedor, Andrés R",
+        "short_name": "Tejedor AR",
+        "identifiers": [
+          "0000-0002-9437-6169"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [
+          "0000-0001-9530-2658"
+        ],
+        "affiliations": [
+          "Department of Physical Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, Madrid 28040, Spain.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K.",
+          "Instituto Pluridisciplinar, Universidad Complutense de Madrid, P.° de Juan XXIII, 1, Moncloa-Aravaca, Madrid 28040, Spain.",
+          "PhAsIca Biosciences S.L, Calle Velázquez, 27, Madrid 28001, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS physical chemistry Au"
+    ],
+    "journal_abbrev": [
+      "ACS Phys Chem Au"
+    ],
+    "pub_date": "2026 Mar 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/30 12:49",
+    "fetched_at": "2026-09-18 02:10:12"
+  },
+  "links": {
+    "cites": [
+      "41999312"
+    ],
+    "refs": [
+      "40455990",
+      "40172489",
+      "40028356",
+      "39817575",
+      "39804953",
+      "39591966",
+      "39578406",
+      "39412378",
+      "39354713",
+      "38542135",
+      "38472406",
+      "37735903",
+      "37695778",
+      "37645312",
+      "37604044",
+      "37468629",
+      "37408305",
+      "37386790",
+      "37267850",
+      "37065433",
+      "36768473",
+      "36537242",
+      "36175408",
+      "35803926",
+      "35795820",
+      "35727989",
+      "35689166",
+      "35513709",
+      "35501484",
+      "35445278",
+      "34931046",
+      "34787357",
+      "34785657",
+      "34762868",
+      "34716273",
+      "34706977",
+      "34624313",
+      "34319696",
+      "34185520",
+      "34152774",
+      "34103467",
+      "34095105",
+      "33982350",
+      "33934416",
+      "33599256",
+      "33597515",
+      "33446423",
+      "33139563",
+      "33049213",
+      "33047751",
+      "32934220",
+      "32901111",
+      "32845610",
+      "32802734",
+      "32649883",
+      "32632317",
+      "32586227",
+      "32561165",
+      "32169484",
+      "31722410",
+      "31437398",
+      "31266957",
+      "30217894",
+      "30096311",
+      "29961577",
+      "29735687",
+      "29719674",
+      "29650702",
+      "29602697",
+      "29424691",
+      "29381060",
+      "29364893",
+      "29289458",
+      "29064502",
+      "28562589",
+      "28283059",
+      "27552079",
+      "26474065",
+      "26406374",
+      "26052263",
+      "25813047",
+      "25764013",
+      "25653156",
+      "25400522",
+      "25288112",
+      "24744240",
+      "24268778",
+      "24121683",
+      "23931993",
+      "23832629",
+      "23455423",
+      "23341755",
+      "22455930",
+      "22368531",
+      "20670277",
+      "20496934",
+      "20159159",
+      "19460965",
+      "19256532",
+      "19251627",
+      "18318519",
+      "17023659",
+      "16866407",
+      "16479276",
+      "16392929",
+      "16121397",
+      "12654263",
+      "12177293",
+      "11427046",
+      "10970741",
+      "10333741"
+    ],
+    "similar": [
+      "41909144",
+      "11500966",
+      "42475469",
+      "12654263",
+      "41342450",
+      "40781776",
+      "39605385",
+      "40305655",
+      "21737431",
+      "33934602",
+      "40172489",
+      "39536029",
+      "42350353",
+      "15095988",
+      "41187075",
+      "42192191",
+      "32845610",
+      "22607400",
+      "19754142",
+      "11427046",
+      "41283749",
+      "16121397",
+      "17186525",
+      "37043540",
+      "23406326",
+      "32662328",
+      "26575522",
+      "37721444",
+      "38416758",
+      "40009520",
+      "38949285",
+      "24328126",
+      "40129029",
+      "18366021",
+      "42223083",
+      "32096995",
+      "25400526",
+      "40028356",
+      "40766493",
+      "25290376",
+      "26339784",
+      "25108327",
+      "35293386",
+      "25149815",
+      "38804888",
+      "30306573",
+      "22199255",
+      "7702769",
+      "41129218",
+      "26593362",
+      "39896463",
+      "37134270",
+      "23912807",
+      "33139563",
+      "40203038",
+      "26052263",
+      "24289039",
+      "32118177",
+      "38160320",
+      "11891626",
+      "26979279",
+      "42283756",
+      "33982350",
+      "40954121",
+      "24702709",
+      "33302617",
+      "20887255",
+      "28977572",
+      "41027866",
+      "34598583",
+      "32852943",
+      "12051937",
+      "36798393",
+      "39110091",
+      "22260616",
+      "40569578",
+      "26574472",
+      "41533263",
+      "25311860",
+      "12167645",
+      "23184947",
+      "40531589",
+      "15302912",
+      "38349628",
+      "40753455",
+      "41415473",
+      "11237602",
+      "25886642",
+      "41979049",
+      "18636764",
+      "9480772",
+      "27682345",
+      "11352582",
+      "30044622",
+      "34762868",
+      "2480822",
+      "37705794",
+      "26138814",
+      "33810025",
+      "39386696"
+    ],
+    "review": [
+      "41909144",
+      "40172489",
+      "22607400",
+      "26575522",
+      "11891626",
+      "41979049"
+    ],
+    "pmc": [
+      "13022791"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41909144/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/apcach/article-lookup/doi/10.1021/acsphyschemau.5c00120",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

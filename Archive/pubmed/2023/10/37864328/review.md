@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use atomistic molecular dynamics simulations to analyze state-dependent dynamics of extramembrane domains in the beta(2)-adrenergic receptor. They introduce a parameter called "residue excess dynamics" to quantify receptor dynamics, and report that the ligand-bound intermediate R' state exhibits maximal dynamics compared to active R*G or inactive R states. They further claim that ligand binding correlates with high residue excess dynamics that are dampened upon G protein coupling, that intracellular loop-3 (ICL3) flips toward the membrane upon ligand binding, and that an ICL1-helix-8 interplay is broken in the ligand-bound state but retained in the active state.
+- **Visible evidence base** Abstract text only; no simulation details, convergence metrics, statistical analyses, or structural comparisons are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system setup, trajectory lengths, replica information, error bars, statistical tests, structural figures, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting analysis of GPCR extramembrane domain dynamics using molecular dynamics simulations. The introduction of a new dynamical parameter and the focus on intrinsically disordered regions are timely given the growing recognition of their functional importance. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims. The central findings, particularly the state-dependent ordering of dynamics and the proposed mechanistic interpretations, require detailed validation that is not visible in the supplied material. The work may be of interest to the GPCR biophysics community, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying GPCR conformational dynamics, particularly those interested in the functional roles of intracellular loops and disordered regions. The work may also appeal to computational biophysicists developing dynamical metrics for membrane proteins, and to pharmacologists interested in the mechanistic basis of receptor priming and allosteric regulation.
+- **Major strengths** The focus on extramembrane domains and intrinsically disordered regions addresses a gap in GPCR dynamics studies, which often emphasize transmembrane helices. The introduction of a new quantitative parameter, residue excess dynamics, is a potentially useful methodological contribution. The proposed link between ligand binding, ICL3 dynamics, and receptor priming offers a testable mechanistic hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the ligand-bound intermediate R' state shows maximal dynamics compared to either the active R*G or inactive R states, and that ligand binding correlates with high residue excess dynamics dampened upon G protein coupling.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no information on the simulation setup, including the number of independent trajectories, simulation length, convergence criteria, or statistical treatment of the residue excess dynamics parameter. Without this information, it is impossible to assess whether the reported differences between states are statistically robust or could arise from sampling artifacts.
+  - **Why it matters** The central conclusion of state-dependent dynamics ordering depends entirely on the reliability of the simulations and the statistical significance of the differences. If the simulations are under-sampled or the parameter is not converged, the reported ordering may not be reproducible.
+  - **Resolution test** Provide details on simulation length, number of replicas, convergence metrics for the residue excess dynamics parameter, and statistical tests comparing the distributions across states. Show that the ordering R' > R*G > R is robust across independent simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that ICL3 has a tendency to flip towards the membrane upon ligand binding, which could contribute to receptor "priming," and that an ICL1-helix-8 interplay is broken in the ligand-bound state but retained in the active state.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** These mechanistic claims are presented as findings, but the abstract does not describe how these conformational transitions were identified, quantified, or validated. No structural figures, distance metrics, or free energy estimates are provided. The functional interpretation of "priming" is speculative and not supported by any direct evidence in the abstract.
+  - **Why it matters** These claims extend beyond descriptive dynamics into mechanistic interpretation. Without quantitative evidence for the conformational transitions and their state-dependence, the functional significance attributed to them is not established.
+  - **Resolution test** Provide quantitative measures of ICL3-membrane interactions across states, such as contact probabilities or distance distributions, and demonstrate that the ICL1-helix-8 interaction is statistically different between states. Include structural snapshots or representative conformations to support the described transitions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality and context
+  - **Claim pointer** The authors state that the conformational dynamics of extramembrane domains, especially intrinsically disordered regions, are "still emerging" and that their study highlights the importance of characterizing GPCR loop domain dynamics.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not situate the work within the existing literature on GPCR loop dynamics or intrinsically disordered regions in GPCRs. It is unclear what is genuinely novel beyond the introduction of the residue excess dynamics parameter, and how this work advances beyond prior simulation studies of beta(2)AR.
+  - **Why it matters** For a Nature-style assessment, the originality and incremental advance must be clear. Without a literature comparison, the contribution of this work relative to existing knowledge cannot be evaluated.
+  - **Resolution test** In the full manuscript, include a detailed comparison with prior simulation and experimental studies of beta(2)AR loop dynamics, and explicitly state what new insight the residue excess dynamics parameter provides over existing metrics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of residue excess dynamics
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The parameter "residue excess dynamics" is introduced but not defined in the abstract. Readers cannot understand what is being measured or how it differs from standard root-mean-square fluctuation or other dynamical metrics.
+  - **Required correction** Provide a brief operational definition in the abstract, such as the reference state used for comparison and the physical meaning of "excess."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** State nomenclature
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The states are referred to as R', R*G, and R without defining what these symbols represent. While GPCR experts may infer the meaning, the notation is not self-explanatory.
+  - **Required correction** Define each state explicitly in the abstract, for example, inactive apo, ligand-bound intermediate, and active G protein-coupled.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Functional interpretation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "could contribute to receptor priming" is appropriately cautious, but the abstract does not explain what priming means in this context or how the simulation observation relates to the functional concept.
+  - **Required correction** Briefly define receptor priming and clarify the proposed mechanistic link between ICL3 dynamics and priming.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of simulation details and statistical validation prevents assessment of the central claims. The mechanistic interpretations require quantitative evidence not visible in the abstract.
+- **Assessment against Nature-style criteria** Originality: The focus on extramembrane domains and the new dynamical parameter are potentially original, but the abstract does not demonstrate how this advances beyond existing work. Scientific importance: The findings could be relevant to GPCR signaling mechanisms, but the significance is not established without robust evidence. Interdisciplinary readership: The work may appeal to biophysicists, computational chemists, and pharmacologists, but the abstract is written in a specialized manner that may limit broader accessibility. Technical soundness: Not assessable from the abstract; the lack of methodological detail is a major limitation. Readability for nonspecialists: The abstract assumes familiarity with GPCR states and simulation terminology, which may hinder comprehension for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses, but the technical validation and quantitative support required to substantiate the claims are not visible. A supportive assessment would require access to the full manuscript with detailed simulation protocols, convergence analyses, and statistical comparisons.
+
+## Risk / unsupported claims
+- The claim that the ligand-bound intermediate R' state shows maximal dynamics compared to active R*G or inactive R states is unsupported without statistical evidence and simulation convergence data.
+- The claim that ligand binding correlates with high residue excess dynamics dampened upon G protein coupling is unsupported without quantitative correlation analyses.
+- The claim that ICL3 flips toward the membrane upon ligand binding is unsupported without structural or contact-based evidence.
+- The claim that an ICL1-helix-8 interplay is broken in the ligand-bound state but retained in the active state is unsupported without interaction energy or distance analyses.
+- The functional interpretation of receptor "priming" is speculative and not directly supported by the abstract.

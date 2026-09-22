@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "36499617",
+    "doi": "10.3390/ijms232315291",
+    "title": "Unveiling the Metal-Dependent Aggregation Properties of the C-terminal Region of Amyloidogenic Intrinsically Disordered Protein Isoforms DPF3b and DPF3a."
+  },
+  "content": {
+    "abstract": "Double-PHD fingers 3 (DPF3) is a BAF-associated human epigenetic regulator, which is increasingly recognised as a major contributor to various pathological contexts, such as cardiac defects, cancer, and neurodegenerative diseases. Recently, we unveiled that its two isoforms (DPF3b and DPF3a) are amyloidogenic intrinsically disordered proteins. DPF3 isoforms differ from their C-terminal region (C-TERb and C-TERa), containing zinc fingers and disordered domains. Herein, we investigated the disorder aggregation properties of C-TER isoforms. In agreement with the predictions, spectroscopy highlighted a lack of a highly ordered structure, especially for C-TERa. Over a few days, both C-TERs were shown to spontaneously assemble into similar antiparallel and parallel beta-sheet-rich fibrils. Altered metal homeostasis being a neurodegeneration hallmark, we also assessed the influence of divalent metal cations, namely Cu(2+), Mg(2+), Ni(2+), and Zn(2+), on the C-TER aggregation pathway. Circular dichroism revealed that metal binding does not impair the formation of beta-sheets, though metal-specific tertiary structure modifications were observed. Through intrinsic and extrinsic fluorescence, we found that metal cations differently affect C-TERb and C-TERa. Cu(2+) and Ni(2+) have a strong inhibitory effect on the aggregation of both isoforms, whereas Mg(2+) impedes C-TERb fibrillation and, on the contrary, enhances that of C-TERa. Upon Zn(2+) binding, C-TERb aggregation is also hindered, and the amyloid autofluorescence of C-TERa is remarkably red-shifted. Using electron microscopy, we confirmed that the metal-induced spectral changes are related to the morphological diversity of the aggregates. While metal-treated C-TERb formed breakable and fragmented filaments, C-TERa fibrils retained their flexibility and packing properties in the presence of Mg(2+) and Zn(2+) cations.",
+    "keywords": [
+      "aggregation",
+      "amyloid fibrillation",
+      "deep-blue autofluorescence",
+      "double-PHD fingers 3 (DPF3)",
+      "electron microscopy",
+      "intrinsically disordered protein",
+      "metal cations",
+      "neurodegenerative diseases",
+      "spectroscopy"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Amyloid/metabolism",
+      "Metals",
+      "Chelating Agents/chemistry",
+      "Protein Isoforms",
+      "Cations, Divalent"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Leyder, Tanguy",
+        "Mignon, Julien",
+        "Mottet, Denis",
+        "Michaux, Catherine"
+      ],
+      "short_names": [
+        "Leyder T",
+        "Mignon J",
+        "Mottet D",
+        "Michaux C"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1223-4501",
+        "ORCID: 0000-0001-5410-1593",
+        "ORCID: 0000-0001-8208-3310"
+      ],
+      "affiliations": [
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium.",
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium.",
+        "Namur Institute of Structured Matter (NISM), University of Namur, 5000 Namur, Belgium.",
+        "Namur Research Institute for Life Sciences (NARILIS), University of Namur, 5000 Namur, Belgium.",
+        "Gene Expression and Cancer Laboratory, GIGA-Molecular Biology of Diseases, University of Liege, B34, Avenue de l'Hopital, 4000 Liege, Belgium.",
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium.",
+        "Namur Institute of Structured Matter (NISM), University of Namur, 5000 Namur, Belgium.",
+        "Namur Research Institute for Life Sciences (NARILIS), University of Namur, 5000 Namur, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Leyder, Tanguy",
+        "short_name": "Leyder T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mignon, Julien",
+        "short_name": "Mignon J",
+        "identifiers": [
+          "0000-0003-1223-4501"
+        ],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium.",
+          "Namur Institute of Structured Matter (NISM), University of Namur, 5000 Namur, Belgium.",
+          "Namur Research Institute for Life Sciences (NARILIS), University of Namur, 5000 Namur, Belgium."
+        ]
+      },
+      {
+        "full_name": "Mottet, Denis",
+        "short_name": "Mottet D",
+        "identifiers": [
+          "0000-0001-5410-1593"
+        ],
+        "affiliations": [
+          "Gene Expression and Cancer Laboratory, GIGA-Molecular Biology of Diseases, University of Liège, B34, Avenue de l'Hôpital, 4000 Liège, Belgium."
+        ]
+      },
+      {
+        "full_name": "Michaux, Catherine",
+        "short_name": "Michaux C",
+        "identifiers": [
+          "0000-0001-8208-3310"
+        ],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium.",
+          "Namur Institute of Structured Matter (NISM), University of Namur, 5000 Namur, Belgium.",
+          "Namur Research Institute for Life Sciences (NARILIS), University of Namur, 5000 Namur, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Dec 4",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/12 06:00",
+    "fetched_at": "2026-09-20 17:39:36"
+  },
+  "links": {
+    "cites": [
+      "41009799",
+      "38661008",
+      "37176084"
+    ],
+    "refs": [
+      "36252622",
+      "36194576",
+      "35989698",
+      "35987087",
+      "35945219",
+      "35863661",
+      "35544232",
+      "35492549",
+      "35348004",
+      "35283752",
+      "35163053",
+      "35148991",
+      "35130691",
+      "34944028",
+      "34480923",
+      "34390653",
+      "34347206",
+      "34337219",
+      "34258546",
+      "34048569",
+      "34008978",
+      "34001606",
+      "33999203",
+      "33520152",
+      "33129902",
+      "33126694",
+      "33096797",
+      "32957071",
+      "32901090",
+      "31770557",
+      "31646215",
+      "31550438",
+      "31377220",
+      "31370315",
+      "31369824",
+      "31356778",
+      "31076105",
+      "31001602",
+      "30666757",
+      "30234208",
+      "30097947",
+      "30088843",
+      "30055158",
+      "29882776",
+      "29803394",
+      "29453354",
+      "29247564",
+      "29180655",
+      "28975488",
+      "28968082",
+      "28854211",
+      "28713158",
+      "28542206",
+      "28420882",
+      "28280572",
+      "28076807",
+      "27918933",
+      "27877124",
+      "27807972",
+      "27402533",
+      "27250246",
+      "27232852",
+      "26881049",
+      "26824778",
+      "26741409",
+      "26582913",
+      "25863585",
+      "25784353",
+      "25120773",
+      "24871565",
+      "24155890",
+      "23901099",
+      "23034144",
+      "22832069",
+      "22190692",
+      "21869995",
+      "21634433",
+      "21300800",
+      "20703954",
+      "20613843",
+      "20100603",
+      "19351533",
+      "19325037",
+      "18765789",
+      "17567614",
+      "17539659",
+      "15751111",
+      "14769913",
+      "12558045",
+      "12135378",
+      "11850416",
+      "11553618",
+      "11332888",
+      "11325713",
+      "11262981",
+      "11072341",
+      "11025552",
+      "6549378",
+      "3233294",
+      "700149"
+    ],
+    "similar": [
+      "36499617",
+      "35863661",
+      "34337219",
+      "38508075",
+      "24871565",
+      "30443712",
+      "32007275",
+      "19619132",
+      "26332658",
+      "36310204",
+      "36500474",
+      "16716083",
+      "25284680",
+      "25131953",
+      "22674434",
+      "30003969",
+      "30187212",
+      "19083027",
+      "31566950",
+      "35167081",
+      "9851705",
+      "8298021",
+      "31783644",
+      "22334708",
+      "35055108",
+      "27150313",
+      "28109327",
+      "30216674",
+      "36252622",
+      "28833749",
+      "32419254",
+      "29248553",
+      "29382893",
+      "26453205",
+      "18560824",
+      "29621630",
+      "35988647",
+      "19496588",
+      "24863958",
+      "23861388",
+      "21061029",
+      "24594841",
+      "35034725",
+      "35417609",
+      "32707418",
+      "21869995",
+      "23076148",
+      "22148916",
+      "26582913",
+      "19575245",
+      "34537237",
+      "33982369",
+      "35955915",
+      "11434776",
+      "33068637",
+      "33903234",
+      "31841126",
+      "32322953",
+      "35658951",
+      "10578513",
+      "27214008",
+      "15966733",
+      "25968625",
+      "34986640",
+      "28281098",
+      "32959853",
+      "11297418",
+      "35167073",
+      "36145317",
+      "26735904",
+      "19133767",
+      "11467850",
+      "27890528",
+      "24440699",
+      "30243841",
+      "31521230",
+      "34527192",
+      "35831343",
+      "32102851",
+      "31052346",
+      "1359966",
+      "35975807",
+      "28219316",
+      "35537620",
+      "25633876",
+      "29630971",
+      "28527974",
+      "22870885",
+      "31661242",
+      "24243599",
+      "23750222",
+      "17300980",
+      "33108190",
+      "37928673",
+      "37338927",
+      "39180270",
+      "38183957"
+    ],
+    "review": [
+      "36499617",
+      "28109327",
+      "30216674",
+      "28833749",
+      "21869995",
+      "31521230"
+    ],
+    "pmc": [
+      "9738585"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms232315291",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://hdl.handle.net/2268/297293",
+        "provider": "ORBi (University of Liege)",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Free full Text at ORBi"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36499617/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36499617",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

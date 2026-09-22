@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38301272",
+  "title": "Conservation of Affinity Rather Than Sequence Underlies a Dynamic Evolution of the Motif-Mediated p53/MDM2 Interaction in Ray-Finned Fishes.",
+  "authors": "Mihalic, Filip; Arcila, Dahiana; Pettersson, Mats E; Farkhondehkish, Pouria; Andersson, Eva; Andersson, Leif; Betancur-R, Ricardo; Jemth, Per",
+  "journal": "Molecular biology and evolution",
+  "published_date": "2024-02-01",
+  "window": {
+    "start": "2024-01-29",
+    "end": "2024-02-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究无序p53TAD与MDM2的基序介导PPI在鱼类中的亲和力演化，结合系统发育、祖先序列重建和结合实验揭示保守基序与侧翼无序区对功能亲和力的补偿机制，虽无AI/物理模拟方法，但聚焦IDR介导的PPI机制，对无序蛋白互作建模有启发。",
+  "abstract": "The transcription factor and cell cycle regulator p53 is marked for degradation by the ubiquitin ligase MDM2. The interaction between these 2 proteins is mediated by a conserved binding motif in the disordered p53 transactivation domain (p53TAD) and the folded SWIB domain in MDM2. The conserved motif in p53TAD from zebrafish displays a 20-fold weaker interaction with MDM2, compared to the interaction in human and chicken. To investigate this apparent difference, we tracked the molecular evolution of the p53TAD/MDM2 interaction among ray-finned fishes (Actinopterygii), the largest vertebrate clade. Intriguingly, phylogenetic analyses, ancestral sequence reconstructions, and binding experiments showed that different loss-of-affinity changes in the canonical binding motif within p53TAD have occurred repeatedly and convergently in different fish lineages, resulting in relatively low extant affinities (KD = 0.5 to 5 muM). However, for 11 different fish p53TAD/MDM2 interactions, nonconserved regions flanking the canonical motif increased the affinity 4- to 73-fold to be on par with the human interaction. Our findings suggest that compensating changes at conserved and nonconserved positions within the motif, as well as in flanking regions of low conservation, underlie a stabilizing selection of \"functional affinity\" in the p53TAD/MDM2 interaction. Such interplay complicates bioinformatic prediction of binding and calls for experimental validation. Motif-mediated protein-protein interactions involving short binding motifs and folded interaction domains are very common across multicellular life. It is likely that the evolution of affinity in motif-mediated interactions often involves an interplay between specific interactions made by conserved motif residues and nonspecific interactions by nonconserved disordered regions.",
+  "abstract_zh": "转录因子和细胞周期调控因子p53被泛素连接酶MDM2标记降解。这两种蛋白质之间的相互作用由无序的p53反式激活结构域（p53TAD）中的保守结合基序和MDM2中折叠的SWIB结构域介导。来自斑马鱼的p53TAD保守基序与MDM2的相互作用比人类和鸡中的相互作用弱20倍。为探究这一明显差异，我们追踪了辐鳍鱼类（Actinopterygii）——最大的脊椎动物分支——中p53TAD/MDM2相互作用的分子进化。有趣的是，系统发育分析、祖先序列重建和结合实验表明，p53TAD内经典结合基序中不同的亲和力丧失变化在不同鱼类谱系中反复且趋同地发生，导致现存亲和力相对较低（KD = 0.5至5 μM）。然而，对于11种不同的鱼类p53TAD/MDM2相互作用，经典基序侧翼的非保守区域将亲和力提高了4至73倍，达到与人类相互作用相当的水平。我们的发现表明，基序内保守和非保守位置以及低保守性侧翼区域的补偿性变化，支撑了p53TAD/MDM2相互作用中“功能亲和力”的稳定选择。这种相互作用使结合的生物信息学预测复杂化，并需要实验验证。涉及短结合基序和折叠相互作用结构域的基序介导的蛋白质-蛋白质相互作用在多细胞生物中非常普遍。基序介导的相互作用中亲和力的进化很可能常涉及保守基序残基的特异性相互作用与非保守无序区域的非特异性相互作用之间的相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38301272/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38301272/",
+  "paper_page_path": "papers/pubmed/38301272/index.html"
+}

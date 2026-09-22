@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, methodological soundness, logical coherence, and support of claims by presented evidence. Editorial or stylistic preferences are noted only where they affect clarity or accessibility.
+- **Shared manuscript claim summary** The authors use residue-resolved coarse-grained molecular dynamics simulations and supporting experiments to study the early-stage liquid–liquid phase separation of linker histone H1 with G4-forming ssDNA. They report that droplet fusion is stochastic and kinetically controlled, requiring ssDNA-mediated electrostatic bridges between fusing droplets. They further report that droplet microstructure is size-dependent, with larger droplets exhibiting internal microphase separation, and that G4 folding promotes phase separation by increasing interaction multivalency and strength.
+- **Visible evidence base** Simulation trajectories and analyses (cluster size distributions, radial density profiles, contact maps, slab simulations), control simulations (no free ssDNA, charge-neutralized core), and experimental data (CD spectroscopy, smFRET, bright-field and confocal microscopy, TEM).
+- **Missing materials affecting confidence** No simulation parameter files, force field validation data, convergence tests, or error bars on simulation-derived quantities are provided. The experimental section lacks quantitative image analysis and statistical details. The TEM image (Figure S16) is referenced but not described in sufficient detail to assess the claim of heterogeneity.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the field of biomolecular condensation, namely the molecular determinants of droplet fusion dynamics and internal microstructure. The combination of residue-resolved simulations with experimental validation is commendable and appropriate for the question posed. The central claim that ssDNA-mediated electrostatic bridges act as kinetic gatekeepers for fusion is mechanistically plausible and well supported by the simulation data, particularly the comparison between productive and unproductive fusion events. The size-dependent microstructure is an interesting observation, though the mechanistic explanation remains somewhat qualitative. The G4 folding results are consistent with prior experimental work and add a useful molecular-level perspective. However, several technical aspects require clarification or additional analysis before the case is fully established, particularly regarding the robustness of the coarse-grained model, the statistical significance of the fusion probabilities, and the interpretation of the experimental FRET data.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, chromatin organization, and nucleic acid-protein interactions would find this work relevant. The emphasis on kinetic control and the role of nucleic acid conformation in modulating phase behavior is of broad interest to the biophysics and cell biology communities. The methodological approach may also interest computational biologists working on coarse-grained models of biomolecular condensates.
+- **Major strengths** The study combines a relevant biological system with a tractable computational model and complementary experiments. The identification of a specific molecular bridge mechanism for fusion is a novel and testable contribution. The size-dependent microstructure is a potentially important observation for understanding condensate function. The experimental validation of the G4 effect on phase separation strengthens the computational predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that droplet fusion is kinetically controlled and requires ssDNA-mediated bridges is based on simulations with a specific coarse-grained model.
+  - **Evidence pointer** Results, "Kinetic Control in Droplet Fusion Dynamics"; Materials and Methods, "Models"
+  - **Concern** The coarse-grained model combines AICG2+ for the folded domain, a hydrophobicity scale for disordered regions, and 3SPN.2 for DNA. The manuscript does not provide validation of this combined model for reproducing known phase behavior of H1 or H1-DNA systems. The choice of the H1 model, particularly the treatment of the disordered NTD and CTD, may significantly influence the predicted surface properties and fusion dynamics. Without validation against experimental data (e.g., known saturation concentrations, droplet surface tensions, or internal diffusion coefficients), the quantitative predictions of fusion probabilities and microstructures are difficult to assess.
+  - **Why it matters** The central mechanistic claims rest on the fidelity of the simulation model. If the model does not accurately capture the balance of interactions (e.g., H1-H1 vs. H1-DNA vs. DNA-DNA), the observed fusion dynamics and size-dependent structures could be artifacts of the model rather than intrinsic properties of the system.
+  - **Resolution test** Provide validation of the model against experimental data, such as comparing simulated saturation concentrations or droplet properties with experimental measurements. Alternatively, perform simulations with an alternative model or parameter set to demonstrate that the key conclusions are robust to model choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that productive fusion events are triggered by ssDNA bridges is based on a small number of simulations (10 per condition).
+  - **Evidence pointer** Results, "Kinetic Control in Droplet Fusion Dynamics"; Figure S2
+  - **Concern** Only 10 independent fusion simulations were performed per condition, with 6/10 productive in the presence of free ssDNA and 2/10 without. This sample size is small, and the difference in fusion probability (60% vs. 20%) is not assessed for statistical significance. The stochastic nature of the process, as emphasized by the authors, makes it critical to demonstrate that the observed difference is not due to chance.
+  - **Why it matters** The conclusion that free ssDNA promotes fusion is a key finding. If the difference is not statistically robust, the claim is weakened.
+  - **Resolution test** Provide a statistical analysis of the fusion probabilities (e.g., a Fisher's exact test or a confidence interval). Increase the number of independent simulations to improve statistical power.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that droplet microstructure is size-dependent and evolves to maximize electrostatic contacts.
+  - **Evidence pointer** Results, "Microstructure of Condensates Is Size-Dependent"; Figures 4 and S7
+  - **Concern** The observation of size-dependent microstructure is interesting, but the mechanistic explanation is presented qualitatively. The authors state that larger droplets undergo microphase separation to maximize CTD-ssDNA contacts, but a quantitative analysis of the driving forces (e.g., free energy calculations, contact energy decomposition) is not provided. It is unclear whether this size dependence is a general phenomenon or specific to the chosen simulation conditions (e.g., stoichiometry, salt concentration).
+  - **Why it matters** The size-dependent microstructure is a potentially novel finding with implications for condensate function. A more rigorous mechanistic understanding would strengthen the claim and increase its impact.
+  - **Resolution test** Perform a quantitative analysis of the interaction energies and contact networks within droplets of different sizes. Vary simulation conditions (e.g., salt, stoichiometry) to test the generality of the observation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that G4 folding promotes phase separation by increasing multivalency and interaction strength.
+  - **Evidence pointer** Results, "Quadruplex Folding Promotes LLPS by Increasing the Multivalency and Strength of Protein–DNA Interactions"; Figures 5 and 6
+  - **Concern** The comparison between G4-F and G4-U systems is performed using simulations where the G4 structure is either fully folded or fully unfolded. The manuscript does not address the potential for partial folding or conformational heterogeneity of the ssDNA in the context of phase separation. The experimental FRET data show that H1 binding increases the folded population, but the quantitative relationship between the fraction of folded ssDNA and the phase separation propensity is not established.
+  - **Why it matters** The claim that G4 folding promotes phase separation is central to the biological relevance of the study. If the effect is only observed for fully folded vs. fully unfolded states, its relevance to the dynamic equilibrium in solution may be limited.
+  - **Resolution test** Perform simulations with a mixture of folded and unfolded ssDNA to mimic the experimental distribution. Correlate the fraction of folded ssDNA with the phase separation propensity in both simulations and experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 3D
+  - **Evidence pointer** Results, "Kinetic Control in Droplet Fusion Dynamics"
+  - **Issue** The probability of observing an ssDNA bridge is reported as >0.7 for productive events and zero for unproductive events. The method for calculating this probability is not fully described.
+  - **Required correction** Clarify how the probability was calculated (e.g., fraction of sampled snapshots with a bridge) and specify the number of snapshots analyzed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 7
+  - **Evidence pointer** Results, "Quadruplex Folding Promotes LLPS by Increasing the Multivalency and Strength of Protein–DNA Interactions"
+  - **Issue** The smFRET efficiency is used to infer the folded state of ssDNA. The manuscript does not provide a calibration of the FRET efficiency to the folded fraction.
+  - **Required correction** Provide a calibration curve or a reference to a previous study that establishes the relationship between FRET efficiency and G4 folding.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Materials and Methods, "Simulation Details"
+  - **Evidence pointer** Materials and Methods, "Simulation Details"
+  - **Issue** The description of the droplet simulations is brief. The method for generating droplets of different sizes is not fully described.
+  - **Required correction** Provide more detail on the spherical confinement potential and how the droplet size was varied.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 4
+  - **Evidence pointer** Results, "Microstructure of Condensates Is Size-Dependent"
+  - **Issue** The term "hollow-like microphase structure" is used to describe the large droplet (NH1 = 480). This is a qualitative description.
+  - **Required correction** Provide a quantitative measure of the hollow structure (e.g., density profile along the radial direction) to support this description.
+- **Technical failings that need to be addressed before the case is established** The lack of model validation (R1-M1) and the small number of fusion simulations without statistical analysis (R1-M2) are the primary technical issues that need to be addressed. The mechanistic explanation for size-dependent microstructure (R1-M3) also requires more quantitative support.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work presents a novel mechanistic hypothesis for droplet fusion (ssDNA-mediated bridging) and a new observation of size-dependent microstructure. These are original contributions.
+  - **Scientific importance** The findings are relevant to understanding the physical principles governing biomolecular condensates, a topic of high current interest. The potential link to chromatin organization adds to the importance.
+  - **Interdisciplinary readership** The topic is inherently interdisciplinary, spanning biophysics, molecular biology, and computational biology. The manuscript is likely to appeal to researchers in these fields.
+  - **Technical soundness** The technical soundness is currently not fully established due to the lack of model validation and limited statistical power in the fusion simulations.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The main concepts are explained clearly. However, some simulation details may be challenging for experimental readers.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core ideas are interesting and potentially significant, but the current evidence base is insufficient to fully support the central claims. The authors should address the model validation and statistical robustness issues before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that droplet fusion is kinetically controlled by ssDNA bridges is supported by simulation data but requires statistical validation and model robustness checks.
+- The claim that the size-dependent microstructure is driven by maximization of electrostatic contacts is plausible but not quantitatively demonstrated.
+- The claim that G4 folding promotes phase separation by increasing multivalency and interaction strength is supported by simulations and consistent with experiments, but the quantitative link between the fraction of folded ssDNA and phase separation propensity is not established.
+- The experimental observation of droplet heterogeneity by TEM (Figure S16) is not described in sufficient detail to be assessed.

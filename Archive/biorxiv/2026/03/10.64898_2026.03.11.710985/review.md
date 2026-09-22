@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, author contributions, acknowledgments)
+- **Assessment boundary** Scientific and technical evaluation of the presented method, its validation, and the claims made; no assessment of code functionality or reproducibility beyond what is described
+- **Shared manuscript claim summary** The authors introduce edENM, an essential dynamics-refined elastic network model for DNA, RNA, and protein-nucleic acid complexes, parameterized using molecular dynamics simulations. They claim improved agreement with experimental conformational ensembles compared to uniform-spring ENMs, more collective normal modes, and successful integration into the eBDIMS framework for simulating large-scale conformational transitions in systems up to MDa scale.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (parametrization workflow, MD dataset description, experimental ensemble dataset, NMA and comparison metrics, eBDIMS implementation), Results (parametrization and testing for nucleic acids and protein-nucleic acid complexes, eBDIMS applications), Discussion, Data Availability
+- **Missing materials affecting confidence** Figures 1-10 and Supplementary Figures 1-20 are referenced but not provided; Supplementary Tables 1-14 are referenced but not provided; specific MD trajectory identifiers and simulation parameters are not fully detailed; statistical test details are incomplete
+
+## Reviewer
+- **Overall assessment** The manuscript presents a timely and potentially valuable contribution to the field of coarse-grained modeling of nucleic acids and protein-nucleic acid complexes. The methodological approach of using MD-derived essential dynamics to parameterize an ENM for nucleic acids is well motivated and extends prior work on protein ENMs. The integration with the eBDIMS framework is a logical and useful step. However, the manuscript as presented has several technical gaps that prevent full evaluation of the claims. The absence of figures and supplementary materials makes it impossible to assess the quality of the results, the statistical analyses, or the visual comparisons. The description of the parameterization procedure contains ambiguities, and the statistical framework for comparing models is incompletely described. The claims of improved performance, while plausible, cannot be fully verified from the provided text alone. The discussion of limitations is thoughtful and balanced, which is a strength.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists working on coarse-grained modeling, nucleic acid dynamics, and protein-nucleic acid interactions would be the primary audience. Researchers using ENMs for functional motion prediction, particularly those studying large assemblies like chromatin and ribosomes, would find the extended eBDIMS capability relevant. The work may also interest method developers in the ENM community seeking MD-refined parameter sets for non-protein systems.
+- **Major strengths** 1) The work addresses a genuine gap in the field, as nucleic acid ENMs have received less attention than protein counterparts. 2) The use of MD-derived essential dynamics for parameterization is a principled approach that avoids reliance on potentially problematic B-factor targets. 3) The unified parameter set for both DNA and RNA is a practical simplification with potential for broad applicability. 4) The integration with eBDIMS extends a proven framework to new system types, enabling simulation of large-scale transitions in chromatin and ribosomal assemblies. 5) The authors acknowledge limitations honestly, particularly regarding dataset scarcity and the inherent limits of ENM parameter optimization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The parameterization procedure yields optimal spring constants for four interaction types (covalent, pseudo-covalent, Hbond, van der Waals) that improve agreement with experimental conformational ensembles.
+  - **Evidence pointer** Methods (Parametrization workflow), Results (Parametrization and testing of the nucleic acid edENM), location not provided
+  - **Concern** The description of the parameterization procedure is incomplete. The manuscript states that spring constants were estimated from MD trajectories and then refined via random search, but the specific objective function used for the random search optimization is not clearly defined. The text mentions minimizing standard error of the regression curve and then maximizing RMSIP, but the relationship between these two optimization steps is unclear. Additionally, the criteria for selecting the range of parameter values explored in the random search are not described.
+  - **Why it matters** Without a clear description of the optimization procedure, the method cannot be reproduced or fully evaluated. The choice of objective function and optimization strategy directly affects the resulting parameters and thus the claimed performance improvements.
+  - **Resolution test** Provide a complete description of the optimization procedure, including the exact objective function(s) used, the parameter ranges explored, the number of iterations, and the convergence criteria. Clarify how the regression-based initial estimates relate to the subsequent random search refinement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim statement** The edENM significantly outperforms uniform-spring ENMs in capturing experimental conformational changes, as measured by RMSIP and overlap scores.
+  - **Evidence pointer** Results (Parametrization and testing of the nucleic acid edENM, Parametrization and testing of the protein-nucleic acid edENM), Supplementary Tables 6, 8-13, location not provided
+  - **Concern** The statistical framework for comparing models is incompletely described. The manuscript reports p-values for some comparisons but does not specify the statistical tests used, whether corrections for multiple comparisons were applied, or how the data were distributed. The aggregation of scores across ensembles is mentioned but the methodology is not detailed. Furthermore, the practical significance of the reported improvements (e.g., +1.5% in O_max, +5% in RMSIP) is not discussed in the context of whether these differences would meaningfully affect downstream applications.
+  - **Why it matters** The central claim of the paper is that edENM improves upon existing methods. Without a rigorous and transparent statistical framework, the significance of the reported improvements cannot be properly assessed.
+  - **Resolution test** Specify the statistical tests used for each comparison, describe the data distribution and whether parametric or non-parametric tests were appropriate, state whether multiple comparison corrections were applied, and discuss the practical implications of the observed effect sizes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim statement** The eBDIMS framework can simulate large-scale conformational transitions in protein-nucleic acid complexes, including chromatin subunits and ribosomes, generating realistic intermediate states.
+  - **Evidence pointer** Results (Exploring conformational transitions with eBDIMS), Figures 8-10, location not provided
+  - **Concern** The eBDIMS results are presented as qualitative descriptions of simulated transitions without quantitative validation. For the four systems described, there is no comparison to experimentally known intermediate states, no assessment of the physical plausibility of the generated trajectories beyond visual inspection, and no metrics to evaluate the quality of the simulated pathways. The claim that eBDIMS "could successfully be used to provide a mechanistic view" is not supported by quantitative evidence.
+  - **Why it matters** The integration with eBDIMS is presented as a key advance of the work. Without quantitative validation of the generated pathways, the utility of the approach for studying biologically relevant transitions remains unsubstantiated.
+  - **Resolution test** Provide quantitative metrics for the eBDIMS-generated pathways, such as comparison to experimentally characterized intermediates, free energy estimates, or other validation measures. If such validation is not available, temper the claims accordingly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim statement** The unified parameter set for DNA and RNA is justified because no major differences were found between DNA-only and RNA-only systems.
+  - **Evidence pointer** Results (Parametrization and testing of the nucleic acid edENM), Supplementary Figures 2-3, location not provided
+  - **Concern** The claim that DNA and RNA can share a single parameter set is based on visual inspection of distributions (Supplementary Figures 2-3), but no quantitative comparison is provided. The structural differences between A-form RNA and B-form DNA are well established, and it is surprising that these would not lead to differences in optimal spring constants. The manuscript does not discuss whether the lack of observed differences might be due to the specific MD force fields used or the limited diversity of the training set.
+  - **Why it matters** The unified parameter set is a central feature of the method. If the justification is weak, the validity of applying the same parameters to both DNA and RNA systems is questionable.
+  - **Resolution test** Provide quantitative comparison of the distributions for DNA-only and RNA-only systems, including statistical tests. Discuss whether the training set adequately samples the conformational diversity of both nucleic acid types.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods (Parametrization workflow)
+  - **Evidence pointer** location not provided
+  - **Issue** The manuscript contains a typographical error: "yhis optimized edENM" should read "this optimized edENM."
+  - **Required correction** Correct the typographical error.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods (Dataset of MD simulations)
+  - **Evidence pointer** Supplementary Table 1, location not provided
+  - **Issue** The description of the MD dataset is incomplete. The manuscript states that trajectories were retrieved from public repositories but does not specify the software versions, force field parameters, water models, or simulation protocols used for each system. This information is essential for reproducing the parameterization.
+  - **Required correction** Provide complete simulation details for all MD trajectories in the training and testing sets, either in the main text or in a supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results (Parametrization and testing of the nucleic acid edENM)
+  - **Evidence pointer** Figure 2, location not provided
+  - **Issue** The manuscript describes "four distinct interaction types" but the criteria for distinguishing these types from the distribution plots are not clearly explained. The threshold values for classifying interactions as covalent, pseudo-covalent, Hbond, or van der Waals are not stated.
+  - **Required correction** Clearly define the classification criteria for the four interaction types, including any distance or force constant thresholds used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods (Dataset of experimental ensembles)
+  - **Evidence pointer** Supplementary Tables 2-4, location not provided
+  - **Issue** The manuscript does not describe how the experimental ensembles were curated and processed before PCA. Details such as alignment procedures, selection of atoms for PCA, and handling of missing residues are not provided.
+  - **Required correction** Describe the preprocessing steps for all experimental ensembles used in the study.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results (Parametrization and testing of the protein-nucleic acid edENM)
+  - **Evidence pointer** Supplementary Figure 12-14, location not provided
+  - **Issue** The description of the protein-nucleic acid interaction parameterization is brief. The manuscript states that "strong" and "weak" interactions were defined, but the specific criteria for assigning interaction types based on amino acid chemistry are not fully described.
+  - **Required correction** Provide a more detailed description of how amino acid types were grouped and how the strong/weak interaction classification was determined.
+- **Technical failings that need to be addressed before the case is established** 1) Incomplete description of the parameterization optimization procedure (R1-M1). 2) Insufficient statistical detail for model comparisons (R1-M2). 3) Lack of quantitative validation for eBDIMS-generated pathways (R1-M3). 4) Inadequate justification for unified DNA/RNA parameter set (R1-M4). 5) Missing simulation details for MD datasets (R1-m2). 6) Undefined classification criteria for interaction types (R1-m3, R1-m5).
+- **Assessment against Nature-style criteria** Originality: The work is original in extending MD-refined ENM parameterization to nucleic acids and protein-nucleic acid complexes, an area less explored than protein ENMs. The unified DNA/RNA parameter set is a novel contribution. Scientific importance: The work addresses a real need in the field, as nucleic acid dynamics are increasingly recognized as functionally important. The extension of eBDIMS to nucleic acid-containing systems broadens the applicability of an established method. However, the incremental nature of the improvements over existing ENMs may limit the perceived importance. Interdisciplinary readership: The work bridges computational biophysics, structural biology, and nucleic acid biology, and should appeal to researchers across these areas. Technical soundness: The methodological approach is sound in principle, but the incomplete description of the optimization and statistical procedures prevents full evaluation. The lack of quantitative validation for the eBDIMS applications is a notable weakness. Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear motivation and context. However, some technical sections assume familiarity with ENM methodology and would benefit from additional explanation for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is valuable and the approach is well motivated, but the manuscript requires substantial revision to fully document the parameterization procedure, provide rigorous statistical comparisons, and include quantitative validation of the eBDIMS applications. The absence of figures and supplementary materials in the provided text makes it impossible to fully assess the results, and these must be examined before a final recommendation can be made.
+
+## Risk / unsupported claims
+- The claim that edENM "significantly" outperforms uniform-sping ENMs is not fully supported without complete statistical details and access to the actual results.
+- The claim that eBDIMS can "explore functional motions in large protein-nucleic acid complexes" is presented as demonstrated, but the results are qualitative and lack quantitative validation.
+- The claim that the unified DNA/RNA parameter set is justified is not quantitatively supported.
+- The claim that the method "improves the correlation between the computed and experimental conformational changes" is stated in the abstract but the specific improvements are not quantified in the provided text.
+- The statement that the approach "enables the simulation of large-scale and anharmonic conformational transitions" in the described systems is not fully substantiated by the evidence presented.

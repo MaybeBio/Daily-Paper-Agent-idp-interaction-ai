@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "33969989",
+    "doi": "10.1021/acs.jpcb.1c02286",
+    "title": "Effect of RNA on Morphology and Dynamics of Membraneless Organelles."
+  },
+  "content": {
+    "abstract": "Membraneless organelles (MLOs) are spatiotemporally regulated structures that concentrate multivalent proteins or RNA, often in response to stress. The proteins enriched within MLOs are often classified as high-valency \"scaffolds\" or low-valency \"clients\", with the former being associated with a phase-separation promoting role. In this study, we employ a minimal model for P-body components, with a defined protein-protein interaction network, to study their phase separation at biologically realistic low protein concentrations. Without RNA, multivalent proteins can assemble into solid-like clusters only in the regime of high concentration and stable interactions. RNA molecules promote cluster formation in an RNA-length-dependent manner, even in the regime of weak interactions and low protein volume fraction. Our simulations reveal that long RNA chains act as superscaffolds that stabilize large RNA-protein clusters by recruiting low-valency proteins within them while also ensuring functional \"liquid-like\" turnover of components. Our results suggest that RNA-mediated phase separation could be a plausible mechanism for spatiotemporally regulated phase separation in the cell.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Organelles",
+      "Proteins",
+      "*RNA/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ranganathan, Srivastav",
+        "Shakhnovich, Eugene"
+      ],
+      "short_names": [
+        "Ranganathan S",
+        "Shakhnovich E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4769-2265"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, Massachusetts 02138, United States.",
+        "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, Massachusetts 02138, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ranganathan, Srivastav",
+        "short_name": "Ranganathan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, Massachusetts 02138, United States."
+        ]
+      },
+      {
+        "full_name": "Shakhnovich, Eugene",
+        "short_name": "Shakhnovich E",
+        "identifiers": [
+          "0000-0002-4769-2265"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, Massachusetts 02138, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2021 May 20",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/11 06:00",
+    "fetched_at": "2026-09-20 03:06:41"
+  },
+  "links": {
+    "cites": [
+      "42133743",
+      "41292919",
+      "41004008",
+      "40422183",
+      "40195119",
+      "39263986",
+      "39234301",
+      "37996438",
+      "37386790",
+      "37194953",
+      "36883003",
+      "36804705",
+      "36350032",
+      "36175408",
+      "35643628",
+      "35108264"
+    ],
+    "refs": [
+      "33653957",
+      "32553117",
+      "32482873",
+      "32302572",
+      "32040349",
+      "31594803",
+      "31506351",
+      "31324804",
+      "30926670",
+      "30449618",
+      "30415950",
+      "30322972",
+      "29961577",
+      "29930091",
+      "29908710",
+      "29650702",
+      "29381060",
+      "29129640",
+      "29091028",
+      "28783726",
+      "28225081",
+      "27602576",
+      "27289443",
+      "27212236",
+      "26777405",
+      "26412307",
+      "26317470",
+      "26238190",
+      "25747659",
+      "25288112",
+      "23953108",
+      "23527587",
+      "22579282",
+      "22398450",
+      "22383896",
+      "22006304",
+      "21547007",
+      "21368180",
+      "21172806",
+      "19461665",
+      "19368476",
+      "19229944",
+      "17275332",
+      "16487339",
+      "15794634",
+      "15749822",
+      "11121440",
+      "6754085",
+      "1748995"
+    ],
+    "similar": [
+      "33969989",
+      "29758260",
+      "35575335",
+      "37728515",
+      "30362243",
+      "32700504",
+      "35116344",
+      "32194074",
+      "34090614",
+      "34544610",
+      "35505868",
+      "33091341",
+      "33126250",
+      "33077592",
+      "29373016",
+      "30370622",
+      "29569441",
+      "30045872",
+      "32484438",
+      "34377363",
+      "30061688",
+      "32936641",
+      "29526694",
+      "31470564",
+      "33229560",
+      "35563401",
+      "30999076",
+      "33571491",
+      "27219701",
+      "38994413",
+      "33453922",
+      "34452345",
+      "32080961",
+      "36006377",
+      "33967699",
+      "32239914",
+      "34718734",
+      "31664760",
+      "33056997",
+      "34469072",
+      "34095105",
+      "34439914",
+      "29424691",
+      "29973724",
+      "25747659",
+      "32065632",
+      "33583140",
+      "30589142",
+      "32726575",
+      "32405004",
+      "30397184",
+      "31506351",
+      "29210575",
+      "33878678",
+      "34293345",
+      "30603876",
+      "28115706",
+      "32800925",
+      "31691822",
+      "35198559",
+      "33512214",
+      "27374333",
+      "26791895",
+      "34499805",
+      "33453932",
+      "34291921",
+      "31199001",
+      "30924287",
+      "33661634",
+      "30948513",
+      "34371262",
+      "31334587",
+      "29913160",
+      "32105731",
+      "29289458",
+      "35187086",
+      "36755726",
+      "36227485",
+      "36124686",
+      "36138006"
+    ],
+    "review": [
+      "33969989",
+      "29758260",
+      "30362243",
+      "32700504",
+      "35116344",
+      "32194074",
+      "34090614",
+      "30370622",
+      "30045872",
+      "31470564",
+      "35563401",
+      "34452345",
+      "32080961",
+      "31664760",
+      "34095105",
+      "34439914",
+      "33583140",
+      "30589142",
+      "32726575",
+      "33878678",
+      "34293345",
+      "30603876",
+      "32800925",
+      "35198559",
+      "34291921",
+      "30924287",
+      "30948513",
+      "34371262",
+      "29913160",
+      "29289458",
+      "35187086"
+    ],
+    "pmc": [
+      "9016713"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33969989/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33969989",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33969989",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.1c02286",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a novel computational approach, CHLORAINE, that extends the DURABIN protocol to repeated elastin-like peptides (r-ELPs) by using rigid-body fragments derived from clustering of molecular dynamics trajectories of constitutive peptides. They test the method on four large r-ELPs and evaluate the influence of electrostatic and molecular hydrophobicity potentials during mesoscopic simulations. They conclude that CHLORAINE is a promising approach for simulating elastic macromolecular systems.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, clustering criteria, force field details, validation against experimental or atomistic data, and any comparative benchmarks
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting extension of a rigid-body mesoscopic simulation protocol to repeated elastin-like peptides. The idea of deriving rigid-body primitives from atomistic simulations of short constitutive peptides is reasonable and potentially useful for studying large elastomeric systems. However, the abstract provides insufficient detail to evaluate the technical soundness, the validity of the approach, or the significance of the reported results. The claim that CHLORAINE is "promising" is not supported by any quantitative evidence in the supplied material. The work may be of interest to computational biophysicists working on elastomeric proteins, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular modelers studying intrinsically disordered proteins, elastomeric biomaterials, and extracellular matrix proteins would be interested. The approach addresses a real challenge in simulating large repetitive protein systems at mesoscopic scales, and the methodological development could be transferable to other tandem-repeat proteins. Researchers developing coarse-grained or rigid-body simulation methods may also find the protocol relevant.
+- **Major strengths** The problem addressed is important and timely, as simulating large elastomeric proteins remains computationally prohibitive with atomistic methods. The strategy of deriving rigid-body fragments from atomistic simulations of short constitutive peptides is logical and potentially generalizable. The inclusion of electrostatic and hydrophobicity potentials in the mesoscopic framework is a thoughtful attempt to retain physicochemical detail at reduced resolution.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CHLORAINE "allows the application of the DURABIN protocol to repeated elastin-like peptides in a simple way" and that it "emerges as a promising way to simulate elastic macromolecular systems."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on how the rigid-body primitives are defined from the clustering of molecular dynamics trajectories. Criteria for selecting representative conformations, the number of clusters, the treatment of flexibility within clusters, and the mapping from atomistic to rigid-body representation are all unspecified. Without this information, the technical validity of the approach cannot be assessed.
+  - **Why it matters** The core novelty of the work lies in the methodological bridge between atomistic simulations and mesoscopic rigid-body dynamics. If the primitive definition is arbitrary or poorly justified, the resulting simulations may not faithfully represent the physical behavior of the elastin-like peptides, undermining the entire approach.
+  - **Resolution test** The full manuscript must provide a detailed description of the clustering protocol, including the metric used, the number of clusters, the structural variability within clusters, and a justification for treating the selected conformations as rigid. Ideally, a comparison of structural properties from CHLORAINE simulations against atomistic simulations of the same peptides should be provided.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and evidence
+  - **Claim pointer** The authors state that "four large r-ELPs were studied to evaluate our method" and that contributions from electrostatic and molecular hydrophobicity potentials were tested.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative results are reported. There is no indication of what was measured, what comparisons were made, or what criteria were used to judge the success of the method. The phrase "to evaluate our method" is vague, and the influence of the tested potentials is not described in any measurable way.
+  - **Why it matters** A methodological paper must demonstrate that the proposed approach produces physically meaningful results. Without any reported metrics, such as structural ensembles, radius of gyration, persistence length, or comparison to experimental data, the reader cannot judge whether the method works or whether the potentials have any beneficial effect.
+  - **Resolution test** The full manuscript must include quantitative results, such as comparisons of simulated conformational properties against atomistic simulations or experimental data, and a clear analysis of how electrostatic and hydrophobicity potentials alter the simulated behavior. Statistical measures of uncertainty or reproducibility should also be reported.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that the approach is "novel" and "simple" to apply.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the simulation software, the force field used for the atomistic simulations, the parameters for the mesoscopic simulations, the integration time steps, the system sizes, or the simulation lengths. Without these details, the work cannot be reproduced or compared with existing methods.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. The lack of any methodological parameters in the abstract is not necessarily a flaw of the abstract itself, but it means that the case for the method's utility cannot be evaluated from the supplied material. The full manuscript must provide complete technical specifications.
+  - **Resolution test** The full manuscript should include a detailed methods section with all simulation parameters, software versions, and analysis protocols. Ideally, the code or a detailed pseudocode should be made available to allow others to implement the approach.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The acronym CHLORAINE is introduced without expansion or explanation of its meaning. The title includes the phrase "Challenging level of rigid-body approach involving numerical elements," which is not obviously connected to the acronym.
+  - **Required correction** Provide an explicit expansion of the acronym and a brief explanation of how it relates to the method. Consider simplifying the title for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Background
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that elastic protein sequences are "considered to be intrinsically disordered," but this is presented as a general fact without nuance. Some elastin-like peptides can adopt transient secondary structures, and the degree of disorder may vary with sequence context.
+  - **Required correction** Soften the statement to acknowledge the range of conformational behavior in elastin-like peptides, or provide a citation to support the claim as stated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalization
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract concludes that CHLORAINE is "a promising way to simulate elastic macromolecular systems," but only four r-ELPs were studied. This generalization may be premature without testing on a broader range of sequences or system types.
+  - **Required correction** Qualify the conclusion to reflect the limited scope of the current study, such as "promising for the systems studied here" or "warrants further testing on a wider range of elastomeric sequences."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of methodological detail, the absence of quantitative validation, and the insufficient specification of simulation parameters collectively prevent the case from being established from the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of deriving rigid-body primitives from atomistic simulations of short peptides for mesoscopic simulation of elastin-like systems appears novel, but the abstract does not provide enough context to assess how it differs from existing coarse-graining approaches.
+  - Scientific importance: The problem of simulating large elastomeric proteins is significant, and a practical mesoscopic method could be valuable. However, the importance is not demonstrated with results.
+  - Interdisciplinary readership: The work may appeal to computational biologists, biophysicists, and biomaterials researchers, but the abstract is written in a specialized manner that may limit broader accessibility.
+  - Technical soundness: Cannot be assessed from the abstract. The lack of methodological detail and quantitative results is a major limitation.
+  - Readability for nonspecialists: The abstract is reasonably clear in its general statements but relies on specialized terminology (e.g., DURABIN, CHLORAINE, r-ELPs) without sufficient explanation for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially interesting methodological development, but the absence of technical details and quantitative results means that the claims cannot be evaluated. A full review of the manuscript would be required to determine whether the approach is sound and whether the conclusions are supported.
+
+## Risk / unsupported claims
+- The claim that CHLORAINE "allows the application of the DURABIN protocol to repeated elastin-like peptides in a simple way" is unsupported because no details of the implementation or its simplicity are provided.
+- The claim that the method "emerges as a promising way to simulate elastic macromolecular systems" is unsupported because no quantitative results or comparisons are reported.
+- The statement that "contributions derived from electrostatic and molecular hydrophobicity potentials were tested" is unverifiable without any description of the testing procedure or outcomes.
+- The general claim that elastic protein sequences are "intrinsically disordered" is presented without nuance or citation, and may be an oversimplification.

@@ -1,0 +1,119 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.07.627363",
+  "title": "Molecular mechanisms of GSK3 β -driven modulation of ABLIM1 and titin interactions in cardiac muscle",
+  "doi": "10.1101/2024.12.07.627363",
+  "abstract": "1 The heart adapts to cardiac demand through various mechanisms, including chemical modifications of myofilament proteins responsible for cell contraction. Many of these modifications, such as phosphorylation, occur in unstructured, or intrinsically disordered, regions (IDRs) of proteins. Although often challenging to study, these IDRs are increasingly recognized as dynamic, tunable regulators of protein function. Given that cardiac dysfunction can involve changes in the post-translational modification (PTM) status of myofilament proteins, it is critical to assess how alterations within these disordered regions impact intact protein and myofilament behavior. We hypothesized that the function of ABLIM1, a myofilament protein containing an important IDR, is regulated by altering its IDR conformational ensemble through PTMs, primarily phosphorylation. We proposed that this conformational change would modulate its ability to bind to other myofilament proteins. To evaluate this hypothesis, we employed a multiscale modeling approach including molecular dynamics simulations. This was used to predict the conformational ensembles of ABLIM1 before and after phosphorylation, at sites known to be altered in a canine model of heart failure with reduced GSK3 β activity. We then used a state-based model of contraction to rationalize the physiological consequences of the molecular-scale predictions. Based on our data, we observed that local physicochemical alterations induced by phosphorylation in ABLIM1’s intrinsically disordered regions significantly affect its overall conformational ensemble properties. This ensemble change subsequently influences the ability of its LIM domains to interact with titin. Furthermore, using the contraction model, we show that a reduced ability to recruit myosin heads for cross-bridge formation, resulting from the modified LIM domain/titin interactions, provides a mechanism that elucidates previous findings of diminished length-dependent activation. These findings offer crucial molecular insights, reframing IDRs not merely as structural noise but as key, tunable elements that control protein interactions and ultimately impact mechanical behavior in the sarcomere. This work bridges molecular disorder and biomechanical function, providing a new lens to understand dynamic control and dysfunction in cardiomyocyte contraction.",
+  "authors": [
+    "Sun B",
+    "Loftus A",
+    "Beh Goh Beh B",
+    "Hepburn A",
+    "Kirk JA",
+    "Kekenes-Huskey PM"
+  ],
+  "published_date": "2024-12-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.07.627363",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.07.627363.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR954419",
+    "raw_record": {
+      "id": "PPR954419",
+      "source": "PPR",
+      "doi": "10.1101/2024.12.07.627363",
+      "title": "Molecular mechanisms of GSK3  <i>β</i>  -driven modulation of ABLIM1 and titin interactions in cardiac muscle",
+      "authorString": "Sun B, Loftus A, Beh Goh Beh B, Hepburn A, Kirk JA, Kekenes-Huskey PM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sun B",
+            "lastName": "Sun",
+            "firstName": "Bin",
+            "initials": "B"
+          },
+          {
+            "fullName": "Loftus A",
+            "lastName": "Loftus",
+            "firstName": "Alec",
+            "initials": "A"
+          },
+          {
+            "fullName": "Beh Goh Beh B",
+            "lastName": "Beh Goh Beh",
+            "firstName": "Brandon",
+            "initials": "B"
+          },
+          {
+            "fullName": "Hepburn A",
+            "lastName": "Hepburn",
+            "firstName": "Aalaythia",
+            "initials": "A"
+          },
+          {
+            "fullName": "Kirk JA",
+            "lastName": "Kirk",
+            "firstName": "Jonathan",
+            "initials": "JA"
+          },
+          {
+            "fullName": "Kekenes-Huskey PM",
+            "lastName": "Kekenes-Huskey",
+            "firstName": "Peter",
+            "initials": "PM"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "1 The heart adapts to cardiac demand through various mechanisms, including chemical modifications of myofilament proteins responsible for cell contraction. Many of these modifications, such as phosphorylation, occur in unstructured, or intrinsically disordered, regions (IDRs) of proteins. Although often challenging to study, these IDRs are increasingly recognized as dynamic, tunable regulators of protein function. Given that cardiac dysfunction can involve changes in the post-translational modification (PTM) status of myofilament proteins, it is critical to assess how alterations within these disordered regions impact intact protein and myofilament behavior. We hypothesized that the function of ABLIM1, a myofilament protein containing an important IDR, is regulated by altering its IDR conformational ensemble through PTMs, primarily phosphorylation. We proposed that this conformational change would modulate its ability to bind to other myofilament proteins. To evaluate this hypothesis, we employed a multiscale modeling approach including molecular dynamics simulations. This was used to predict the conformational ensembles of ABLIM1 before and after phosphorylation, at sites known to be altered in a canine model of heart failure with reduced GSK3  β activity. We then used a state-based model of contraction to rationalize the physiological consequences of the molecular-scale predictions. Based on our data, we observed that local physicochemical alterations induced by phosphorylation in ABLIM1’s intrinsically disordered regions significantly affect its overall conformational ensemble properties. This ensemble change subsequently influences the ability of its LIM domains to interact with titin. Furthermore, using the contraction model, we show that a reduced ability to recruit myosin heads for cross-bridge formation, resulting from the modified LIM domain/titin interactions, provides a mechanism that elucidates previous findings of diminished length-dependent activation. These findings offer crucial molecular insights, reframing IDRs not merely as structural noise but as key, tunable elements that control protein interactions and ultimately impact mechanical behavior in the sarcomere. This work bridges molecular disorder and biomechanical function, providing a new lens to understand dynamic control and dysfunction in cardiomyocyte contraction.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.07.627363"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-12-15",
+      "firstPublicationDate": "2024-12-12",
+      "firstIndexDate": "2024-12-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

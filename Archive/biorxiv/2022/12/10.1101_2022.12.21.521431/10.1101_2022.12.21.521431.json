@@ -1,0 +1,150 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.12.21.521431",
+  "title": "Mechanism of LLPS of SARS-CoV-2 N protein",
+  "doi": "10.1101/2022.12.21.521431",
+  "abstract": "SARS-CoV-2 nucleocapsid (N) protein with low mutation rate is the only structural protein not only functioning to package viral genomic RNA, but also manipulating the host-cell machineries, thus representing a key target for drug development. Recent discovery of its liquid-liquid phase separation (LLPS) not only sheds light on previously-unknown mechanisms underlying the host-SARS-CoV-2 interaction and viral life cycle, but most importantly opens up a new direction for developing anti-SARS-CoV-2 strategies/drugs. However, so far the high-resolution mechanism of LLPS of N protein still remains unknown because it is not amenable for high-resolution biophysical investigations. Here we systematically dissected N protein into differential combinations of domains followed by DIC and NMR characterization. We successfully identified N (1-249), which not only gives high-quality NMR spectra, but phase separates as the full-length N protein. The results together decode for the first time: 1) nucleic acid modulates LLPS by dynamic but specific interactions multivalently over both folded NTD/CTD and Arg/Lys residues within IDRs. 2) ATP, mysteriously with concentrations >mM in all living cells but absent in viruses, not only specifically binds NTD/CTD, but also Arg residues within IDRs with Kd of 2.8 mM. 3) ATP dissolves LLPS by competitively displacing nucleic acid from binding the protein. Therefore, ATP and nucleic acid interplay in modulating LLPS by specific competitions for binding over the highly overlapped binding sites. Our study deciphers the mechanism of LLPS of N protein, which is targetable by small molecules. ATP is not only emerging as a cellular factor controlling the host-SARS-CoV-2 interaction, but also provides a lead for developing anti-SARS-CoV-2 drugs efficient for different variants of SARS-CoV-2. Fundamentally, our results imply that the mechanisms of LLPS of IDR-containing proteins mediated by ATP and nucleic acids appear to be highly conserved from human to virus.",
+  "authors": [
+    "Dang M",
+    "Li T",
+    "Song J"
+  ],
+  "published_date": "2022-12-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.12.21.521431",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.12.21.521431.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR587382",
+    "raw_record": {
+      "id": "PPR587382",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR587382"
+        ]
+      },
+      "doi": "10.1101/2022.12.21.521431",
+      "title": "Mechanism of LLPS of SARS-CoV-2 N protein",
+      "authorString": "Dang M, Li T, Song J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dang M",
+            "lastName": "Dang",
+            "firstName": "Mei",
+            "initials": "M"
+          },
+          {
+            "fullName": "Li T",
+            "lastName": "Li",
+            "firstName": "Tongyang",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6583-4247"
+            }
+          },
+          {
+            "fullName": "Song J",
+            "lastName": "Song",
+            "firstName": "Jianxing",
+            "initials": "J"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6583-4247"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "SARS-CoV-2 nucleocapsid (N) protein with low mutation rate is the only structural protein not only functioning to package viral genomic RNA, but also manipulating the host-cell machineries, thus representing a key target for drug development. Recent discovery of its liquid-liquid phase separation (LLPS) not only sheds light on previously-unknown mechanisms underlying the host-SARS-CoV-2 interaction and viral life cycle, but most importantly opens up a new direction for developing anti-SARS-CoV-2 strategies/drugs. However, so far the high-resolution mechanism of LLPS of N protein still remains unknown because it is not amenable for high-resolution biophysical investigations. Here we systematically dissected N protein into differential combinations of domains followed by DIC and NMR characterization. We successfully identified N (1-249), which not only gives high-quality NMR spectra, but phase separates as the full-length N protein. The results together decode for the first time: 1) nucleic acid modulates LLPS by dynamic but specific interactions multivalently over both folded NTD/CTD and Arg/Lys residues within IDRs. 2) ATP, mysteriously with concentrations >mM in all living cells but absent in viruses, not only specifically binds NTD/CTD, but also Arg residues within IDRs with Kd of 2.8 mM. 3) ATP dissolves LLPS by competitively displacing nucleic acid from binding the protein. Therefore, ATP and nucleic acid interplay in modulating LLPS by specific competitions for binding over the highly overlapped binding sites. Our study deciphers the mechanism of LLPS of N protein, which is targetable by small molecules. ATP is not only emerging as a cellular factor controlling the host-SARS-CoV-2 interaction, but also provides a lead for developing anti-SARS-CoV-2 drugs efficient for different variants of SARS-CoV-2. Fundamentally, our results imply that the mechanisms of LLPS of IDR-containing proteins mediated by ATP and nucleic acids appear to be highly conserved from human to virus.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/12/21/2022.12.21.521431.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.12.21.521431"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR587382"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR587382&type=FILE&fileName=EMS158844-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS158844",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-12-22",
+      "firstPublicationDate": "2022-12-21",
+      "firstIndexDate": "2022-12-22",
+      "fullTextReceivedDate": "2022-12-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

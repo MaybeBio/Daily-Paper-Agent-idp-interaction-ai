@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, materials and methods, results, discussion, and supplementary figure references
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors investigate how phosphorylation of Ser27 and Ser47 within motif A, an intrinsically disordered N-terminal region (residues 1–52) of SIRT1, affects its structure and its regulatory effect on SIRT1 deacetylase activity. Using phosphomimetic S→D mutations, enzyme kinetics, limited proteolysis, circular dichroism, and molecular dynamics simulations, they report that S27D increases SIRT1 activity via improved substrate recognition (lower KM), and that this correlates with increased rigidity of motif A in simulations. They propose that S27 phosphorylation acts as a molecular switch that stabilizes a binding-competent conformation of motif A.
+- **Visible evidence base** Abstract, Materials and Methods, Results, Discussion, Supplementary figure references (Figures S2–S6, Table S4), main figures referenced but not shown (Figures 1–4, Tables 1–2)
+- **Missing materials affecting confidence** Main figures and tables are referenced but not provided in the submitted text. Supplementary figures and tables are referenced but not included. No raw kinetic data, no CD spectra traces, no simulation trajectory details, no statistical analysis details beyond p-values mentioned in text.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a relevant question in SIRT1 regulation, namely how phosphorylation within an intrinsically disordered N-terminal region modulates deacetylase activity. The combination of experimental kinetics with phosphomimetic mutants and MD simulations is a reasonable approach. However, the evidence as presented has several gaps. The key claim that S27 phosphorylation activates SIRT1 by increasing motif A rigidity is largely inferred from simulations that are not fully described, and the experimental data supporting a unique effect of S27D are limited by the absence of the actual figures and tables. The peptide experiments with authentic phosphorylation are valuable but only partially support the phosphomimetic conclusions. The manuscript would benefit from clearer presentation of statistical significance, additional experimental validation of the proposed mechanism, and a more cautious interpretation of simulation-derived conclusions.
+- **Who would be interested in the results, and why** Researchers studying sirtuin biology, particularly SIRT1 regulation by post-translational modifications. Also of interest to those working on intrinsically disordered proteins and their role in enzyme regulation, and to computational biologists studying phosphorylation-induced conformational changes in disordered regions.
+- **Major strengths** 1) The study addresses a specific and biologically relevant question about how phosphorylation of a disordered region regulates SIRT1 activity. 2) The combination of experimental kinetics, biophysical characterization, and MD simulations provides a multi-pronged approach. 3) The use of both phosphomimetic mutants and peptides with authentic phosphorylation strengthens the relevance of the findings. 4) The authors acknowledge limitations of their approach and suggest future experiments.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The authors claim that "phosphorylation of S27 appears to activate SIRT1 by causing motif A, which is intrinsically disordered in the WT, to become more rigid" and that this rigidity "might stabilize the interaction between motif A S27D and the rest of SIRT1 compared with WT motif A."
+  - **Evidence pointer** Results section, Molecular Dynamics Simulations subsection; Discussion section; Figure 4 (referenced but not provided); Table S4 (referenced but not provided)
+  - **Concern** The central mechanistic claim that S27D-induced rigidity drives SIRT1 activation is based primarily on MD simulations. The simulation methods are described only briefly, and key details are missing: number of replicas, convergence criteria, force field validation for disordered proteins, analysis of simulation uncertainty, and whether the observed rigidity differences are statistically robust across independent simulations. The claim that "motif A S27D displayed much less movement, as demonstrated by the variance in motif A's radius of gyration dropping precipitously from 4.1 Å2 in WT motif A to 0.08 Å2 in motif A S27D" is presented without error bars or replicate information. A single simulation per construct cannot support such a strong claim. Furthermore, the experimental data showing that S27D uniquely activates SIRT1 are based on a single kinetic assay with limited statistical power (the S47D effect was not significant, p = 0.06, and the double mutant effect was not significant). The connection between the simulated rigidity and the experimentally observed KM change is correlative and not mechanistically demonstrated.
+  - **Why it matters** The title and abstract emphasize the structure-function relationship, and the proposed rigidity-based mechanism is the main novel contribution. If the simulation evidence is not robust, the central claim is not established. The experimental data alone show an effect of S27D on kinetics, but without a validated structural mechanism, the study remains descriptive rather than mechanistic.
+  - **Resolution test** Provide evidence that the rigidity difference is reproducible across multiple independent simulations (e.g., 3–5 replicas per construct) with statistical analysis. Show that the salt bridge between D27 and R39 forms consistently and is stable across replicas. Alternatively, provide experimental validation of the rigidity difference using a method such as NMR relaxation dispersion or hydrogen-deuterium exchange. If the simulation evidence cannot be strengthened, the claims should be softened to reflect that the rigidity hypothesis is speculative.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental design and interpretation
+  - **Claim pointer** The authors state that "wild-type motif A did not affect the deacetylase activity of the enzyme toward the peptide substrate Ac-p65" and that "motif A S27D, however, caused a favorable change in substrate recognition of SIRT1-143, lowering the KM from 23 ± 3 μM to 14 ± 3 μM."
+  - **Evidence pointer** Results section, Effects of Phosphomimetic Mutations on Motif A Regulation of SIRT1 Deacetylase Activity subsection; Figure 3 and Table 1 (referenced but not provided)
+  - **Concern** The kinetic data are presented as mean ± error, but the statistical test used to compare conditions is not described. The authors report that the S47D effect was "not statistically significant (p = 0.06)" but do not state what test was used, whether multiple comparisons were corrected for, or whether the WT vs. S27D comparison was significant. The lack of statistical detail makes it difficult to assess the robustness of the reported 2-fold increase in specific activity. Additionally, the authors do not report whether the kinetic parameters were determined from global fits or individual fits, and whether substrate depletion or product inhibition were considered.
+  - **Why it matters** The kinetic differences between constructs are the primary experimental evidence for the functional claims. Without proper statistical reporting, the reader cannot assess whether the observed differences are meaningful or within experimental noise.
+  - **Resolution test** Report the statistical test used, the number of independent replicates, and the p-values for all pairwise comparisons. Provide the full kinetic parameters with confidence intervals. If the S27D effect is not statistically significant after appropriate correction, the claim should be revised.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of peptide data
+  - **Claim pointer** The authors state that "all of the peptides positively affected the substrate recognition of the enzyme in nearly identical magnitude, causing a 2-fold decrease in KM" and that "phosphorylation at position S27 enhanced the activating effect of the peptide on SIRT1-143 deacetylase activity, increasing the specific activity from 1900 ± 300 M–1 s–1 to 3400 ± 500 M–1 s–1."
+  - **Evidence pointer** Results section, Effects of Phosphorylation on Motif A-Derived Peptide Regulation of SIRT1 Deacetylase Activity subsection; Figure 4 and Table 2 (referenced but not provided)
+  - **Concern** The peptide experiments are presented as supporting the phosphomimetic results, but the interpretation is confusing. If all peptides, including unphosphorylated ones, cause a similar 2-fold decrease in KM, then the effect is not specific to phosphorylation. The authors acknowledge this by suggesting that "the smaller peptide fragments we used eliminated a certain extent of global folding and through-space interactions," but this explanation is speculative. The differential effect of S27 phosphorylation (increased specific activity) versus S47 phosphorylation (decreased specific activity) is interesting, but the magnitude of the S47 effect is described as "small but statistically significant." Without the actual data, it is difficult to assess whether these differences are biologically meaningful.
+  - **Why it matters** The peptide data are used to support the claim that phosphorylation at S27 specifically enhances SIRT1 activity. If the unphosphorylated peptides already have a strong effect, the phosphorylation-specific contribution may be minor, weakening the overall conclusion.
+  - **Resolution test** Provide the full kinetic data for all peptides, including the unphosphorylated controls. Clarify whether the S27-phosphorylated peptide effect is significantly different from the unphosphorylated peptide of the same sequence. Discuss whether the peptide effects are relevant to the full-length protein context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure and table references
+  - **Evidence pointer** Throughout Results section
+  - **Issue** The manuscript text refers to Figures 1–4 and Tables 1–2, but these are not provided in the submitted material. This makes it impossible to evaluate the data supporting the claims.
+  - **Required correction** Ensure that all figures and tables are included in the submission and that the text clearly describes what is shown in each.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Molecular dynamics simulations
+  - **Evidence pointer** Materials and Methods, Molecular Dynamics Simulations subsection
+  - **Issue** The description of the MD simulations lacks important details: the number of independent simulations per construct, the total simulation time per replicate, the temperature and pressure coupling schemes, the equilibration protocol, and the criteria for determining when the system reached equilibrium. The use of AlphaFold 3-generated structures as starting points for MD of disordered proteins is unusual and should be justified.
+  - **Required correction** Provide a more complete description of the simulation setup, including the number of replicates and the analysis of convergence. Justify the use of AlphaFold 3 structures for a disordered region and discuss potential biases.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Kinetic parameters
+  - **Evidence pointer** Results section, Effects of Phosphomimetic Mutations on Motif A Regulation of SIRT1 Deacetylase Activity subsection
+  - **Issue** The kinetic parameters are reported as mean ± error, but the number of replicates and the statistical test used are not stated. The p-value for the S47D comparison is given as 0.06, but no p-values are given for the S27D or double mutant comparisons.
+  - **Required correction** Report the number of independent experiments, the statistical test used, and p-values for all comparisons. Consider reporting confidence intervals for the kinetic parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of CD data
+  - **Affected element** Circular dichroism results
+  - **Evidence pointer** Results section, Effect of Phosphomimetic Mutations on Motif A Conformation subsection; Figure 2 (referenced but not provided)
+  - **Issue** The CD spectra are described as showing "typical spectra for mostly disordered proteins with some α-helical content," but the differences between constructs are described as "slight." The authors do not quantify the secondary structure content or provide error estimates for the CD measurements.
+  - **Required correction** Provide quantitative analysis of the CD spectra (e.g., deconvolution into secondary structure components) with error estimates. Clarify whether the observed differences are within experimental variability.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, final paragraph
+  - **Issue** The authors acknowledge that "this in vitro study used isolated peptides and motif A protein as well as truncated SIRT1 constructs, which do not perfectly represent the regulation of full-length SIRT1 in the context of a cell." However, they do not discuss whether the concentrations used in the kinetic assays are physiologically relevant, nor do they address potential effects of the His-tag or the truncation on the observed activity.
+  - **Required correction** Add a brief discussion of the potential limitations of the truncated SIRT1 construct and the isolated motif A, and how these might affect the interpretation of the results.
+
+## Risk / unsupported claims
+- The claim that S27 phosphorylation activates SIRT1 by increasing motif A rigidity is not fully supported by the provided evidence. The MD simulation data are described without sufficient detail to assess robustness, and no experimental validation of the rigidity difference is provided.
+- The claim that "motif A S27D is able to alter the conformational dynamics of SIRT1 in a way that enhances its substrate recognition" is speculative and not directly tested. No binding experiments or conformational studies of the SIRT1-motif A complex are presented.
+- The statement that "the salt bridge between S27 and R39 is only observed when S27 alone is mutated to an aspartate" is based on a single simulation per construct and cannot be considered a robust finding without replicate simulations.
+- The peptide experiments show that all peptides, regardless of phosphorylation status, affect KM, which complicates the interpretation that phosphorylation-specific effects are the primary driver of the observed activity changes.
+- The authors state that "previous studies have identified an intrinsically disordered region of SIRT1 comprised of N-terminal residues 1–52, herein referred to as motif A, which activates SIRT1 activity, likely through intramolecular interactions." The claim that motif A activates SIRT1 is presented as established, but the current study shows that WT motif A "did not affect the deacetylase activity" in the in vitro assay, which appears contradictory and is not addressed in the discussion.
+- The physiological relevance of the findings is not established. The authors suggest that S27 phosphorylation may serve as a molecular switch, but no cellular experiments are presented to support this claim.

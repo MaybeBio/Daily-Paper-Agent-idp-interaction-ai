@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.18.572111",
+  "title": "An approach to characterize mechanisms of action of anti-amyloidogenic compounds in vitro and in situ",
+  "authors": "Stalder P; Serdiuk T; Ghosh D; Fleischmann Y; Malinovska L; Davranche A; Haenseler W; Boudou C; Tsika E; Ouared A; Stöhr J; Melki R; Riek R; de Souza N; Picotti P",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-18",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用LiP-MS质谱方法研究抗淀粉样化合物与α-突触核蛋白（含无序单体）的互作机制，但对象非IDP/相分离，方法为实验质谱而非AI/物理模拟，仅部分涉及无序蛋白互作，启发有限。",
+  "abstract": "Aggregation of amyloidogenic proteins is associated with neurodegenerative disease and its modulation is a focus of drug development efforts. However, the physicochemical properties and structural heterogeneity of amyloidogenic proteins hinder the mechanistic understanding of anti- amyloidogenic compounds. Further, modes of interaction with amyloidogenic proteins are often probed in vitro using purified protein samples, even though these models may not capture in vivo protein structures and do not enable identification of off-target effects. We have developed a modular structural proteomic pipeline based on limited proteolysis coupled to mass spectrometry (LiP-MS) with improved, amino acid level-resolution, to probe the mechanism of action of anti- amyloidogenic compounds. We demonstrate our approach by analysing the interactions of six known or putative anti-amyloidogenic compounds and the amyloid binder Thioflavin T (ThT) with different structural forms of the amyloidogenic Parkinson’s disease (PD) protein α-Synuclein. Our approach enables determination of putative interaction sites, identification of whether interactions are covalent or non-covalent, and crucially, can probe for interactions of compounds with physiological structures of α-Synuclein in complex cell and tissue extracts and identify off-targets. In vitro analyses with our pipeline showed that the green tea polyphenol EGCG induces an N- and C-terminus- dependent compaction of the unstructured α-Synuclein monomer, detected preferential interactions of ThT with the N-terminus of α-Synuclein fibrils compared to the amyloid core, and showed that the most potent inhibitors of aggregation in our study (EGCG, baicalein and AC Immune compound #2) induced similar non-fibrillar end structures despite different interactions with α-Synuclein monomers. Importantly, in mammalian cell lysates, α-Synuclein was either a low-affinity target (for EGCG and Baicalein) or did not show evidence of compound interaction (for ThT and doxycycline) in our experimental conditions, despite both monomeric and fibrillar forms interacting with these compounds in vitro . For EGCG, we validated this result in postmortem brain homogenates from PD patients. These in situ analyses identified many additional putative cellular targets of Doxycycline, EGCG, Baicalein and ThT, suggesting that their effects in cellular or animal models of neurodegeneration are likely due to interactions with proteins other than α-Synuclein and showing that anti-amyloidogenic compounds should be analyzed in situ as well as in vitro . Our modular pipeline will enable in situ screening of drugs and PET tracers for amyloid aggregates of interest as well as detailed mechanistic studies of compound action in vitro .",
+  "abstract_zh": "淀粉样蛋白生成性蛋白的聚集与神经退行性疾病相关，其调控是药物开发工作的重点。然而，淀粉样蛋白生成性蛋白的理化性质和结构异质性阻碍了对抗淀粉样蛋白生成化合物的机制理解。此外，与淀粉样蛋白生成性蛋白的相互作用模式通常使用纯化蛋白样本在体外进行探测，尽管这些模型可能无法捕捉体内蛋白质结构，也无法识别脱靶效应。我们开发了一种基于有限蛋白水解结合质谱法（LiP-MS）的模块化结构蛋白质组学流程，具有改进的氨基酸水平分辨率，用于探测抗淀粉样蛋白生成化合物的作用机制。我们通过分析六种已知或推定的抗淀粉样蛋白生成化合物以及淀粉样蛋白结合剂硫黄素T（ThT）与淀粉样蛋白生成性帕金森病（PD）蛋白α-突触核蛋白不同结构形式的相互作用，来展示我们的方法。我们的方法能够确定推定相互作用位点，识别相互作用是共价还是非共价，并且关键的是，能够探测化合物与复杂细胞和组织提取物中α-突触核蛋白生理结构的相互作用，并识别脱靶目标。使用我们流程的体外分析表明，绿茶多酚EGCG诱导无结构α-突触核蛋白单体的N端和C端依赖性压缩，检测到ThT与α-突触核蛋白纤维N端的优先相互作用（与淀粉样蛋白核心相比），并显示我们研究中聚集的最有效抑制剂（EGCG、黄芩素和AC Immune化合物#2）尽管与α-突触核蛋白单体的相互作用不同，但诱导了相似的非纤维状末端结构。重要的是，在哺乳动物细胞裂解物中，在我们的实验条件下，α-突触核蛋白要么是低亲和力靶标（对于EGCG和黄芩素），要么没有显示出化合物相互作用的证据（对于ThT和多西环素），尽管单体和纤维形式在体外都与这些化合物相互作用。对于EGCG，我们在PD患者死后脑匀浆中验证了这一结果。这些原位分析识别了多西环素、EGCG、黄芩素和ThT的许多额外推定细胞靶标，表明它们在神经退行性疾病的细胞或动物模型中的效应可能归因于与α-突触核蛋白以外的蛋白质的相互作用，并显示抗淀粉样蛋白生成化合物应在原位和体外进行分析。我们的模块化流程将能够对感兴趣的淀粉样蛋白聚集体进行药物和PET示踪剂的原位筛选，以及在体外进行化合物作用的详细机制研究。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.18.572111",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.18.572111",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.18.572111/index.html"
+}

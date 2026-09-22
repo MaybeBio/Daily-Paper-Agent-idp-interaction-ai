@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results and discussion, conclusions) as provided by the user. No supplementary material, figures, or tables were available for inspection.
+- **Assessment boundary** The assessment is limited to the scientific content, methodology, and claims as presented in the provided text. The quality of figures, supplementary information, and raw data cannot be evaluated.
+- **Shared manuscript claim summary** The manuscript claims that small-angle X-ray scattering (SAXS) interpreted via coarse-grained molecular dynamics (CG-MD) simulations can quantify the strength of short-range attractions (SRA) and cluster size distributions in concentrated monoclonal antibody (mAb) solutions as the liquid-liquid phase separation (LLPS) boundary is approached. The authors report that for a specific mAb (mAb 3) near its isoelectric point, decreasing salt concentration increases SRA, leading to cluster growth that precedes LLPS, and that this behavior is distinct from a second mAb (mAb 2) that does not phase separate under the same conditions.
+- **Visible evidence base** The evidence base consists of the manuscript text only. Key results are referenced to figures (Fig. 1-10), tables (Table 1, S1-S12), and supplementary sections (S1-S8) that were not provided. The text describes SAXS measurements, SLS measurements, DLS measurements, and CG-MD simulations, but the actual data, fits, and simulation outputs are not available for direct evaluation.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely problem in biopharmaceutical formulation: understanding the molecular origins of LLPS in concentrated monoclonal antibody solutions. The combination of SAXS with CG-MD simulations is a powerful and appropriate approach, and the authors have previously demonstrated its utility in related systems. The central claim, that cluster growth driven by anisotropic SRA can be quantified and correlated with the approach to LLPS, is scientifically plausible and potentially important. However, the provided text alone is insufficient to fully evaluate the technical soundness of the analysis. The key results are presented in figures and tables that were not available for review, and the methods section, while detailed, lacks the specific numerical outcomes and fit quality metrics needed to assess the robustness of the conclusions. The manuscript is well-written and logically structured, but the evidence base is incomplete for a definitive assessment.
+- **Who would be interested in the results, and why** Researchers in biophysics, soft matter physics, and pharmaceutical sciences, particularly those working on protein-protein interactions, protein phase behavior, and the formulation of high-concentration antibody therapeutics. The work is also relevant to computational chemists developing coarse-grained models for protein solutions. The findings could inform the design of more stable and injectable antibody formulations.
+- **Major strengths**
+  1. The study addresses a critical knowledge gap: the relationship between microscopic cluster formation and macroscopic LLPS in mAb solutions, which has direct implications for biopharmaceutical development.
+  2. The combination of SAXS with CG-MD simulations is a sophisticated and appropriate methodology that can provide molecular-level insights not accessible from traditional light scattering or turbidity measurements alone.
+  3. The comparison between two mAbs with different LLPS propensities provides a useful internal control and strengthens the interpretation of the results.
+  4. The authors connect their findings to a broader theoretical framework (Wertheim's thermodynamic perturbation theory), suggesting a path toward predictive modeling.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the CG-MD simulations accurately reproduce the experimental Seff(q) and that the extracted K values and cluster size distributions are reliable.
+  - **Evidence pointer** Figures 3, 4, 5, 7, 8, 10; Tables 1, S7, S11; Section "Structure of mAb solutions near the LLPS and fits with 12-bead model MD simulations"
+  - **Concern** The quality of the fits between experimental Seff(q) and simulated Seff(q) is not described in the text. The authors state that the experimental data were "fit with a library of coarse-grained molecular dynamics simulations" and that the "lowest average relative deviation (ARD)" was used, but the actual ARD values, the range of ARD across different conditions, and the sensitivity of the fits to the model parameters are not reported. Without this information, it is impossible to assess whether the extracted K values are unique and well-constrained, or whether the model is over-parameterized and the fits are degenerate.
+  - **Why it matters** The central quantitative claims of the paper, namely the specific K values and cluster size distributions, depend entirely on the quality and uniqueness of these fits. If the fits are poor or the parameters are not well-constrained, the conclusions about the relationship between SRA, cluster growth, and LLPS would be significantly weakened.
+  - **Resolution test** The authors should provide a representative figure showing the experimental and fitted Seff(q) for each condition, along with the corresponding ARD values. They should also demonstrate the sensitivity of the fits to K (e.g., by showing how ARD changes as K is varied) and discuss the potential for parameter degeneracy.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the cluster size distributions and average cluster sizes (〈n〉) derived from the simulations are representative of the actual solution structure.
+  - **Evidence pointer** Figures 4, 5, 10; Table 1; Section "Cumulative cluster size distribution C(n), cluster radius of gyration Rg(n), and center of mass radial distribution function gCOMr"
+  - **Concern** The definition of a "cluster" in the simulations is not clearly stated. The authors mention a "cluster size distribution" and "average cluster size" but do not specify the criterion used to define a cluster (e.g., a distance-based cutoff, a contact-based criterion, or a more sophisticated method). The choice of this criterion can dramatically affect the resulting cluster size distribution and the interpretation of the results. Furthermore, the text states that for mAb 3 at 150 mg/mL, a "single system spanning cluster" was found, but the implications of this for the validity of the simulation (e.g., finite-size effects) are not discussed.
+  - **Why it matters** The cluster size distribution is a key output of the study and is used to support the claim that cluster growth precedes LLPS. If the cluster definition is arbitrary or not physically motivated, the quantitative results (e.g., 〈n〉 = 200 vs. 7) could be misleading. Finite-size effects could also compromise the conclusions, particularly for the largest clusters.
+  - **Resolution test** The authors should clearly define the cluster criterion used in the simulations and justify its physical relevance. They should also discuss the potential for finite-size effects, particularly for the system-spanning cluster observed at 150 mg/mL, and ideally show that the results are robust to the choice of cluster definition and simulation box size.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that the approach provides "novel insight" into how highly directional PPIs under crowded conditions affect phase separation, and that this information was "not accessible from earlier studies of turbidity and SLS."
+  - **Evidence pointer** Abstract; Introduction; Conclusions
+  - **Concern** While the combination of SAXS and CG-MD is indeed powerful, the novelty of the specific findings is not fully established in the text. The authors state that no previous studies have used SAXS to quantify PPI changes as the LLPS boundary is approached for mAbs, but they do not thoroughly discuss what specific new physical insight is gained beyond what could be inferred from the already-known correlation between SRA and LLPS. The claim that cluster growth is observed is perhaps expected given the known relationship between SRA and LLPS. The unique contribution needs to be more clearly articulated.
+  - **Why it matters** For a paper in a high-impact journal, the novelty and significance of the findings must be clearly demonstrated. If the results are largely confirmatory of existing theories or expectations, the impact of the work is diminished.
+  - **Resolution test** The authors should more explicitly state what is new and unexpected about their findings. For example, do the cluster size distributions reveal a specific mechanism of cluster growth (e.g., a particular scaling law or a specific structural motif) that was previously unknown? Does the quantitative relationship between K and the proximity to LLPS provide a predictive capability that was previously lacking?
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the trends in LLPS are "consistent with the reduced diffusion interaction parameter kD/B22ex for dilute solutions."
+  - **Evidence pointer** Section "Coexistence curve diagrams and turbidity measurements"; Table 1; Figure S10
+  - **Concern** The connection between the dilute-solution property kD/B22ex and the concentrated-solution behavior (LLPS) is presented as a consistency check, but the text does not provide a quantitative comparison. The authors state that mAb 3 at 16 mM NaCl has a kD/B22ex of -2.5, which is below the threshold of -2 for LLPS, while mAb 2 has a value of -0.8. However, the predictive power of this correlation is not assessed. For example, how well does the threshold of -2 hold across different mAbs and conditions? Is the correlation linear or does it have a more complex form?
+  - **Why it matters** If kD/B22ex is proposed as a simple, low-cost screening tool for LLPS propensity, its predictive accuracy needs to be demonstrated. The current text only shows a single example, which is insufficient to establish its general utility.
+  - **Resolution test** The authors should provide a more comprehensive comparison between kD/B22ex and LLPS propensity, ideally including data from multiple mAbs and conditions. They should also discuss the theoretical basis for the threshold value of -2 and its limitations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction is dense and assumes significant prior knowledge of colloid science and protein biophysics. Terms like "short-range attractions," "long-range repulsions," and "upper critical solution temperature" are used without definition.
+  - **Required correction** Briefly define these terms in plain language to make the manuscript more accessible to a broader readership, including those in pharmaceutical formulation who may not be experts in colloid science.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, SAXS measurements
+  - **Evidence pointer** Section "SAXS measurements"
+  - **Issue** The text states that the "SAXS mode" was used to collect data at the lowest possible q, but the specific q-range and the reasons for choosing this range are not stated. The resolution of the measurement is critical for interpreting the structure factor at low q, where cluster scattering is most prominent.
+  - **Required correction** State the accessible q-range for the SAXS mode and justify that it is sufficient to capture the relevant length scales of the clusters (up to ~100 nm).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, 12-bead model
+  - **Evidence pointer** Section "12-bead model"
+  - **Issue** The manuscript states that the charge per bead, Q, was set to 0.26 for mAb 3 at pH 8, corresponding to a scaling factor ψ ≈ 0.6. The justification for this scaling factor is not provided, and it is unclear how sensitive the results are to this choice.
+  - **Required correction** Provide a brief justification for the scaling factor and ideally show how the results (e.g., K, cluster size) change with different values of ψ.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions
+  - **Issue** The conclusion states that the quantification of K "will be relevant in future work for calculating phase boundaries with models for chemical potential such as the Wertheim's thermodynamic perturbation theory." This is a forward-looking statement, but it would be strengthened by a brief discussion of how the current data could be used in such a calculation and what the expected outcome would be.
+  - **Required correction** Add a sentence or two outlining the potential pathway from the measured K values to a predicted phase boundary, to make the future impact more concrete.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of reported fit quality metrics (ARD values) and parameter sensitivity analysis for the CG-MD fits to experimental Seff(q).
+  - R1-M2: Undefined cluster criterion and lack of discussion of finite-size effects in the simulations.
+- **Assessment against Nature-style criteria**
+  - **Originality** The application of SAXS with CG-MD simulations to study the approach to LLPS in mAb solutions is a novel combination, although the individual techniques are established. The specific focus on anisotropic SRA and cluster size distributions is a valuable contribution.
+  - **Scientific importance** The problem is of high importance to the biopharmaceutical industry and to the fundamental understanding of protein phase behavior. The potential to connect microscopic interactions to macroscopic phase behavior is significant.
+  - **Interdisciplinary readership** The work is relevant to biophysics, soft matter physics, physical chemistry, and pharmaceutical sciences. The methods and findings should be of interest to a broad interdisciplinary audience.
+  - **Technical soundness** The technical soundness cannot be fully assessed from the provided text. The methodology is appropriate, but the lack of reported fit quality and parameter sensitivity is a significant concern. The cluster definition and finite-size effects also need to be addressed.
+  - **Readability for nonspecialists** The manuscript is well-written but is not easily accessible to nonspecialists. The introduction and methods sections assume significant prior knowledge. The abstract is clear and provides a good summary of the work.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important problem with a sophisticated approach, and the central claims are plausible. However, the lack of reported fit quality metrics and the undefined cluster criterion prevent a full assessment of the technical soundness. If the authors can provide the missing information and demonstrate the robustness of their analysis, the paper would be a valuable contribution. Currently, the case is not fully established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that the CG-MD simulations accurately reproduce the experimental Seff(q) and that the extracted K values are reliable is unsupported without the reported ARD values and fit quality metrics.
+- The claim that the cluster size distributions are representative of the actual solution structure is unsupported without a clear definition of the cluster criterion and a discussion of finite-size effects.
+- The claim that the approach provides "novel insight" not accessible from earlier studies is not fully supported, as the text does not clearly articulate what specific new physical insight is gained.
+- The predictive power of the kD/B22ex threshold for LLPS is not established, as only a single example is provided.
+- The statement that the "SAXS mode" was used to collect data at the lowest possible q is not verifiable without the specific q-range.

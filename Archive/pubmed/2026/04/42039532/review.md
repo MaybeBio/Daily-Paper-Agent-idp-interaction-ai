@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific claims, methodological soundness, and internal consistency of the presented evidence; no assessment of figure quality or supplementary data
+- **Shared manuscript claim summary** The authors introduce Flux-Driven Molecular Dynamics (FD-MD), a coarse-grained simulation framework combining sequence-encoded β-prone rigidity with sustained molecular influx, to study amyloid nucleation at condensate interfaces. They report three main results: (1) orientational entropy at interfaces enhances nucleation by up to two orders of magnitude; (2) segment rigidity and molecular supply rate organize a non-equilibrium phase diagram with four interfacial growth morphologies; (3) fibril elongation velocity decreases with increasing drift velocity, attributed to competition between planar saturation and tip recruitment.
+- **Visible evidence base** Main text only; figures referenced but not provided; supplementary material referenced but not provided
+- **Missing materials affecting confidence** All figures (Figs. 1–6), supplementary information (Secs. S1.2–S1.5, Figs. S1–S2), simulation parameter tables, and data availability repository URL
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem in condensate biology, namely the mechanistic basis for interface-mediated amyloid nucleation. The FD-MD framework is a reasonable and potentially useful extension of existing coarse-grained approaches, and the conceptual separation of sequence-encoded rigidity and molecular flux as independent control axes is appealing. However, the central quantitative claims, particularly the two-orders-of-magnitude nucleation enhancement and the inverse relationship between elongation velocity and drift velocity, rest on scaling arguments and limited parameter sampling that cannot be fully evaluated from the text alone. The phase diagram and kinetic classifications are presented descriptively without quantitative boundaries or error estimates. The manuscript would benefit from clearer articulation of the model's predictive content and from explicit comparison with existing experimental observations.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, amyloid aggregation, and phase transitions in biological systems. The framework may interest computational biophysicists developing coarse-grained models for non-equilibrium self-assembly. Experimental groups working on condensate aging and neurodegeneration may find the proposed control axes (rigidity and flux) useful for interpreting their observations, though the direct experimental relevance remains to be established.
+- **Major strengths** The manuscript identifies a genuine gap in current computational approaches and proposes a framework that addresses it. The conceptual distinction between sequence-encoded structural competence and transport-driven pathway selection is clear and potentially generalizable. The analytical scaling arguments provide intuitive physical rationales for the simulation observations. The discussion of limitations is candid and appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative claim support
+  - **Claim pointer** "a scaling analysis of orientational entropy suggests that condensate interfaces can enhance nucleation relative to the bulk by as much as two orders of magnitude"
+  - **Evidence pointer** Results section, Eq. (1); figure not provided
+  - **Concern** The two-orders-of-magnitude enhancement is derived from a scaling argument (Eq. 1) that assumes a critical nucleus size of nc=2 chains and n=5 rigid beads. The choice of these parameters is not justified, and the sensitivity of the estimate to nc and n is not explored. The claim is presented as a central result, but the supporting evidence is a single analytical estimate with no direct simulation comparison between surface and bulk nucleation rates.
+  - **Why it matters** The quantitative magnitude of the enhancement is a headline claim. If the estimate is sensitive to parameter choices, the claim may be misleading. Direct simulation evidence comparing nucleation rates at interfaces versus bulk under otherwise identical conditions would substantially strengthen the case.
+  - **Resolution test** Provide simulation measurements of nucleation rates at interfaces and in bulk for the same model parameters, and show that the ratio is consistent with the scaling estimate. Alternatively, present a sensitivity analysis of Eq. (1) over a plausible range of nc and n values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Phase diagram validity
+  - **Claim pointer** "varying segment rigidity and molecular supply rate organizes a non-equilibrium phase diagram with four interfacial growth morphologies"
+  - **Evidence pointer** Results section, Fig. 3; figure not provided
+  - **Concern** The phase diagram is described qualitatively, but no quantitative boundaries, order parameters, or classification criteria are given in the text. It is unclear how the four morphologies are distinguished, whether the boundaries are sharp or gradual, and how robust the classification is to simulation length, system size, or analysis choices. The claim that four distinct morphologies exist requires a clear operational definition of each regime.
+  - **Why it matters** The phase diagram is a central organizing result of the manuscript. Without quantitative criteria, the claim cannot be reproduced or tested by others, and the reader cannot assess whether the four morphologies are truly distinct or artifacts of the chosen simulation conditions.
+  - **Resolution test** Define quantitative order parameters for each morphology (e.g., surface roughness, fibril aspect ratio, connectivity), show the phase boundaries with error estimates, and demonstrate that the classification is robust to reasonable variations in simulation parameters and analysis thresholds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim support
+  - **Claim pointer** "directional fibril elongation displays an inverse relationship with drift velocity, consistent with a mechanism in which higher transport rates to the interface favor planar saturation over directed tip incorporation"
+  - **Evidence pointer** Results section, Fig. 5, Eq. (6); figure not provided
+  - **Concern** The inverse relationship between elongation velocity and drift velocity is reported for three data points (v0=0.1, 0.7, 1.0), and the proposed mechanism is presented as a competition between planar saturation and tip recruitment. However, the text does not provide a direct test of this mechanism, such as measuring the fraction of chains incorporated at tips versus planar surfaces as a function of v0. The fitted form (Eq. 6) is acknowledged to be weakly constrained by three points, but the mechanistic interpretation is presented with more confidence than the data appear to justify.
+  - **Why it matters** The inverse relationship is counterintuitive and mechanistically important. If the interpretation is correct, it has implications for how transport conditions shape fibril morphology. However, with only three data points and no direct mechanistic test, the claim is not established.
+  - **Resolution test** Provide additional data points across a wider range of v0, and directly measure the partitioning of incoming chains between tip and planar incorporation sites. Show that the proposed competition mechanism quantitatively accounts for the observed velocity dependence.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** "FD-MD provides a general framework for connecting molecular sequence features to driven mesoscale organization, applicable beyond amyloid systems"
+  - **Evidence pointer** Discussion section; no specific evidence provided
+  - **Concern** The generality claim is stated without demonstration. The model uses isotropic attractions with angular stiffness as a proxy for β-sheet interactions, which the authors acknowledge does not capture hydrogen-bond directionality. The applicability to other condensate systems with different interaction chemistries is asserted but not tested.
+  - **Why it matters** The broader applicability claim is part of the manuscript's significance. Without demonstration on at least one additional system or interaction type, the claim remains speculative.
+  - **Resolution test** Apply FD-MD to a second model system with different interaction characteristics (e.g., sticker-spacer architecture without explicit rigidity) and show that the framework captures qualitatively different aging behaviors, or temper the claim to reflect the current scope.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Parameter justification
+  - **Affected element** Methods, molecular model
+  - **Evidence pointer** Methods section, "Molecular model of condensate and fibril-forming chains"
+  - **Issue** The choice of chain lengths (15–55 beads) and number of rigid segments (one to five) is stated but not justified. The relationship between these coarse-grained parameters and real protein sequences (e.g., hnRNPA1, Tau) is not quantified.
+  - **Required correction** Provide a mapping between coarse-grained parameters and sequence features, or justify the chosen ranges based on prior work or systematic exploration.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, all sections
+  - **Evidence pointer** Results section, Figs. 2–6; figures not provided
+  - **Issue** No error bars, standard deviations, or replicate information are reported for any simulation observable. It is unclear whether the reported behaviors are robust across independent simulation runs.
+  - **Required correction** Report the number of independent simulations and provide error estimates for key observables, or state explicitly that single trajectories are shown and justify this choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Abstract, Results
+  - **Evidence pointer** Abstract, "non-equilibrium phase diagram"
+  - **Issue** The term "phase diagram" implies well-defined thermodynamic phases and transitions. The manuscript describes kinetic morphologies in a driven, non-equilibrium system, where the concept of a phase is less clear. The term "morphology diagram" or "kinetic state diagram" may be more appropriate.
+  - **Required correction** Clarify the terminology and define what is meant by a phase in this non-equilibrium context.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Experimental connection
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section, first paragraph
+  - **Issue** The discussion cites experimental observations of condensate aging but does not make specific, testable predictions that could be compared with experiments. The connection between the model's control parameters (ℓp, m˙, v0) and experimentally accessible quantities is not articulated.
+  - **Required correction** State explicitly which experimental observables would correspond to the model's control parameters and what specific predictions the model makes for those observables.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative nucleation enhancement claim), R1-M2 (phase diagram validity), R1-M3 (mechanistic interpretation of velocity dependence)
+- **Assessment against Nature-style criteria** Originality: the combination of sequence-encoded rigidity with non-equilibrium flux in a single simulation framework is a novel contribution, though individual elements exist in prior work. Scientific importance: the question of how condensates nucleate amyloid is of high current interest, and the proposed control axes could inform experimental design. Interdisciplinary readership: the topic bridges biophysics, cell biology, and neurodegeneration research, and the writing is largely accessible, though some simulation details may be opaque to non-specialists. Technical soundness: the model is reasonable but the central quantitative claims are insufficiently supported by the presented evidence, and the lack of statistical reporting and parameter sensitivity analysis weakens confidence. Readability for nonspecialists: the abstract and introduction are clear, but the results section assumes familiarity with polymer physics and simulation methodology; a brief conceptual summary of FD-MD would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The framework is potentially valuable, but the central quantitative claims require stronger evidence, and the phase diagram and mechanistic interpretations need more rigorous support.
+
+## Risk / unsupported claims
+- The two-orders-of-magnitude nucleation enhancement (Eq. 1) is derived from a scaling argument with unstated parameter sensitivity and no direct simulation comparison.
+- The four-morphology phase diagram is described without quantitative classification criteria or boundary definitions.
+- The inverse relationship between elongation velocity and drift velocity is based on three data points with no direct mechanistic test.
+- The claim that FD-MD is "applicable beyond amyloid systems" is speculative and not demonstrated.
+- The assertion that "higher molecular supply initiates fibrillar growth before the planar wetting layer is fully established" is presented without supporting quantitative evidence.
+- The statement that the model reproduces "condensate aging pathways... as observed in recent experiments" is made without specific experimental comparisons.

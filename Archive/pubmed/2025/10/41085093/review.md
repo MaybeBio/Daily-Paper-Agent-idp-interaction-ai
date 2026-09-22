@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors report that the hydrodynamic radius of an acid-rich intrinsically disordered protein (AGARP) decreases in response to increasing salt concentration, with divalent cations (Ca2+, Mg2+) inducing collapse at lower activities than monovalent cations (Na+, K+). They further report that molecular dynamics simulations, direct sampling, and polyampholyte theory capture monovalent screening but not divalent-driven compaction, and that circular dichroism shows collapse occurs without secondary structure formation. They conclude that a valency-sensitive interaction mode, possibly specific chelation of divalent ions, regulates IDP compaction.
+- **Visible evidence base** Abstract text only; no experimental data, simulation details, or theoretical derivations are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, simulation parameters, theory derivations, statistical analyses, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation regarding the differential effects of mono- and divalent counterions on the dimensions of a highly charged IDP. The combination of experimental and computational approaches is appropriate in principle. However, the abstract alone does not provide sufficient quantitative detail to evaluate the robustness of the claims. The central conclusion that a valency-sensitive interaction mode beyond Debye-Hückel screening is at play rests on the failure of simulations and theory to reproduce the divalent data, but the abstract does not specify the nature of the missing interaction, the magnitude of the discrepancy, or the quality of the fits. The claim of specific chelation is presented as a suggestion rather than a demonstrated mechanism. The work may be of interest to the IDP and biophysics communities, but the evidence base visible here is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein phase behavior, ion-protein interactions, and biophysical mechanisms of conformational regulation. The work may also interest those working on biomolecular condensates and cellular ion homeostasis, given the potential relevance of divalent cation-driven compaction to IDP function in physiological environments.
+- **Major strengths** The study addresses a relevant and under-explored question regarding the role of counterion valency in IDP compaction. The use of multiple orthogonal techniques (FCS, SEC, CD, MD, theory) is a methodological strength. The model protein AGARP, being extremely charged and acid-rich, is a well-chosen system for isolating electrostatic effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that divalent cations induce collapse at much lower activities than monovalent cations, and that this effect is not captured by Debye-Hückel screening.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a qualitative difference between mono- and divalent cation effects but provides no quantitative data, such as hydrodynamic radii values, salt activity ranges, or the magnitude of the discrepancy between experiment and theory. Without these numbers, the reader cannot assess whether the observed effect is robust, reproducible, or within experimental uncertainty.
+  - **Why it matters** The central conclusion of the paper depends on the claim that divalent ions produce a compaction effect that cannot be explained by standard electrostatic screening. If the effect size is small or the comparison is confounded by ionic strength differences, the conclusion would be weakened. The abstract does not provide enough information to evaluate this.
+  - **Resolution test** Provide quantitative values for hydrodynamic radius as a function of salt activity for each cation, with error bars and statistical significance. Show the comparison between experimental data and simulation/theory predictions, including the magnitude of the deviation for divalent ions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors suggest that specific chelation of divalent ions by disordered polyanionic protein chains is a key mechanism regulating IDP compaction.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that simulations and theory do not capture the divalent-driven compaction, and then suggests chelation as the mechanism. However, no direct evidence for chelation is presented, such as binding constants, coordination geometry, or site-specific interactions. The suggestion appears to be inferred from the failure of the screening model rather than demonstrated.
+  - **Why it matters** The proposed mechanism is a key part of the paper's significance. If the mechanism is not directly supported, the conclusion remains speculative. The abstract should either present direct evidence for chelation or clearly frame it as a hypothesis requiring further testing.
+  - **Resolution test** Provide direct evidence of divalent ion binding to AGARP, such as isothermal titration calorimetry, NMR, or simulation-based binding site analysis. Alternatively, reframe the conclusion as a hypothesis and discuss alternative mechanisms.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The authors claim that circular dichroism spectroscopy shows compaction occurs without secondary structure formation.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that CD shows no secondary structure formation, but does not specify the conditions under which CD was measured, the wavelength range, or how the spectra were analyzed. It is also unclear whether the CD measurements were performed at the same salt conditions as the compaction experiments.
+  - **Why it matters** The claim that collapse is structure-free is important for distinguishing this mechanism from folding-coupled compaction. If the CD data are not directly comparable to the FCS/SEC conditions, the claim may not be fully supported.
+  - **Resolution test** Provide CD spectra or secondary structure content estimates under the same ionic conditions used for the compaction measurements, with appropriate controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "thereby suggesting that, beyond differences in screening strength, a valency-sensitive mode of interaction is at play" is grammatically awkward and could be clearer.
+  - **Required correction** Rephrase for clarity, for example, "suggesting that a valency-sensitive interaction mode operates beyond differences in screening strength."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention the concentration range of protein used, which is relevant for interpreting FCS and SEC data, particularly regarding possible aggregation or oligomerization.
+  - **Required correction** Add a brief statement of the protein concentration range used in the experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state how the findings relate to previously published work on IDP-ion interactions, making it difficult to assess the novelty in context.
+  - **Required correction** Add one or two sentences situating the findings relative to prior studies on IDP collapse and ion valency.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The abstract does not provide sufficient quantitative evidence to support the central claims of differential ion effects and the proposed chelation mechanism. R1-M3 is non-blocking but requires clarification.
+- **Assessment against Nature-style criteria** Originality: The question of counterion valency effects on IDP dimensions is timely and the model system is well chosen, but the abstract does not demonstrate a fundamentally new concept. Scientific importance: Potentially relevant to understanding IDP behavior in physiological environments, but the significance is not fully established from the abstract alone. Interdisciplinary readership: The work bridges biophysics, physical chemistry, and protein science, which could appeal to a broad audience. Technical soundness: The combination of methods is appropriate, but the abstract does not provide enough detail to assess the quality of the data or the rigor of the analysis. Readability for nonspecialists: The abstract is generally accessible, though some phrasing could be improved. Overall, the work has potential but the case is not established from the supplied material.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the quantitative detail and direct mechanistic evidence needed to support the central claims. A revised version with full data and clearer mechanistic support could change this assessment.
+
+## Risk / unsupported claims
+- The claim that divalent cations induce collapse at much lower activities than monovalent cations is unsupported without quantitative data.
+- The claim that simulations and theory fail to capture divalent-driven compaction is unsupported without details of the models and the magnitude of the discrepancy.
+- The suggestion that specific chelation of divalent ions is the key mechanism is unsupported without direct binding evidence.
+- The claim that collapse occurs without secondary structure formation is only weakly supported by the abstract's mention of CD, without spectral data or analysis details.

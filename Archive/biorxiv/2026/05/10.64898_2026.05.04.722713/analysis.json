@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.04.722713",
+  "title": "SLiMNet: a deep learning model to detect short linear motifs using protein large language model representations and paired inputs",
+  "authors": "Matthew C. McFee; Philip M. Kim",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-07",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用孪生网络与对比学习结合蛋白质语言模型嵌入，预测无序蛋白中短线性基序(SLiM)对的功能相似性，并关联实验结合强度，直接针对IDR介导的PPI机制建模，方法新颖且资源丰富。",
+  "abstract": "Short linear motifs (SLiMs) are short (3-15 amino acids in length) segments within intrinsically disordered regions (IDRs) that mediate transient protein–protein interactions as well as other functions such as stability and subcellular localization. Only a few thousand out of likely hundreds of thousands have been experimentally validated. SLiMs can be detected as conserved regions inside of IDRs using local alignments, though current approaches have limited sensitivity and specificity and are unable to functionally annotate their hits. Assigning function is hence a major outstanding issue in SLiM biology. Here we present SLiMNet, a deep learning model inspired by siamese networks and contrastive learning that predicts functional similarity in pairs of SLiMs. SLiMNet uses uses protein large language model embeddings and is trained on annotated sets of SLiMs. We show that it detects shared function in unseen, non-redundant motif pairs, and its scores correlate with experimental binding strengths from deep mutational scanning of cyclin-binding motifs. Using SLiMNet we provide repositories of putative SLiM pairs derived from annotated IDR regions for to help with hypothesis generation for the functional annotation of SLiMs. This includes an atlas generated from all-by-all scoring 16-mers from tiled IDRs from the DisProt database. We show that it captures a new nuclear localization motif recently added to MoMaP and a PRMT1 methylation motif in the literature. We also provided a repository of all IDRs scored with SLiMNet against against all MoMaP instances, and an atlas of potential functional pairs for 256 known orphan motifs (motifs with only a single known instance with essential function). Collectively, these atlases are useful resources for the SLiM biology community.",
+  "abstract_zh": "短线性基序（SLiMs）是内在无序区域（IDRs）内的短片段（长度为3-15个氨基酸），介导瞬时蛋白质-蛋白质相互作用以及稳定性、亚细胞定位等其他功能。在可能数十万个SLiMs中，仅有数千个经过实验验证。SLiMs可通过局部比对在IDRs内作为保守区域被检测到，但当前方法的敏感性和特异性有限，且无法对其命中结果进行功能注释。因此，功能分配是SLiM生物学中的一个主要未解问题。在此，我们提出SLiMNet，一种受孪生网络和对比学习启发的深度学习模型，用于预测SLiMs对之间的功能相似性。SLiMNet利用蛋白质大语言模型嵌入，并在已注释的SLiMs集合上进行训练。我们表明，它能检测未见过的非冗余基序对中的共享功能，且其得分与细胞周期蛋白结合基序深度突变扫描的实验结合强度相关。利用SLiMNet，我们提供了源自注释IDR区域的推定SLiM对存储库，以帮助SLiM功能注释的假设生成。这包括一个由DisProt数据库中平铺IDRs的全对全评分16-mer生成的图谱。我们展示了它捕获了最近添加到MoMaP中的新核定位基序，以及文献中的一个PRMT1甲基化基序。我们还提供了一个所有IDRs与所有MoMaP实例通过SLiMNet评分的存储库，以及一个针对256个已知孤儿基序（仅有一个已知实例且具有关键功能的基序）的潜在功能对图谱。总体而言，这些图谱是SLiM生物学社区的有用资源。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.04.722713",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.04.722713",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.04.722713/index.html"
+}

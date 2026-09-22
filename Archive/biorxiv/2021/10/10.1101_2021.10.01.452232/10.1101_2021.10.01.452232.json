@@ -1,0 +1,140 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.10.01.452232",
+  "title": "Characterization and Structural Prediction of ORF10, ORF7b, ORF7a, ORF6, Membrane Glycoprotein, and Envelope Protein in SARS-CoV-2 Bangladeshi Variant through Bioinformatics Approach",
+  "doi": "10.1101/2021.10.01.452232",
+  "abstract": "The acute respiratory disease induced by the severe acute respiratory syndrome-coronavirus-2 (SARS-CoV-2) has become a global epidemic in just less than a year by the first half of 2020. The subsequent efficient human-to-human transmission of this virus eventually affected millions of people worldwide. The most devastating thing is that the infection rate is continuously uprising and resulting in significant mortality especially among the older age population and those with health co-morbidities. This enveloped, positive-sense RNA virus is chiefly responsible for the infection of the upper respiratory system. The virulence of the SARS-CoV-2 is mostly regulated by its proteins like entry to the host cell through fusion mechanism, fusion of infected cells with neighboring uninfected cells to spread the virus, inhibition of host gene expression, cellular differentiation, apoptosis, mitochondrial biogenesis, etc. But very little is known about the protein structures and functionalities. Therefore, the main purpose of this study is to learn more about these proteins through bioinformatics approaches. In this study, ORF10, ORF7b, ORF7a, ORF6, membrane glycoprotein, and envelope protein have been selected from a Bangladeshi Corona-virus strain G039392 and a number of bioinformatics tools (MEGA-X-V10.1.7, PONDR®, ProtScale, ProtParam, SCRIBER, NetSurfP v2.0, IntFOLD, UCSF Chimera, and PyMol) and strategies were implemented for multiple sequence alignment and phylogeny analysis with 9 different variants, predicting hydropathicity, amino acid compositions, protein-binding propensity, protein disorders, 2D and 3D protein modeling. Selected proteins were characterized as highly flexible, structurally and electrostatically extremely stable, ordered, biologically active, hydrophobic, and closely related to the proteins of different variants. This detailed information regarding the characterization and structure of proteins of SARS-CoV-2 Bangladeshi variant was performed for the first time ever to unveil the deep mechanism behind the virulence features and also, this robust appraisal paves the future way for molecular docking, vaccine development targeting these characterized proteins.",
+  "authors": [
+    "Debnath P",
+    "Khan U",
+    "Khan MS"
+  ],
+  "published_date": "2021-10-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.10.01.452232",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.10.01.452232.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR403765",
+    "raw_record": {
+      "id": "PPR403765",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR403765"
+        ]
+      },
+      "doi": "10.1101/2021.10.01.452232",
+      "title": "Characterization and Structural Prediction of ORF10, ORF7b, ORF7a, ORF6, Membrane Glycoprotein, and Envelope Protein in SARS-CoV-2 Bangladeshi Variant through Bioinformatics Approach",
+      "authorString": "Debnath P, Khan U, Khan MS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Debnath P",
+            "lastName": "Debnath",
+            "firstName": "Pinky",
+            "initials": "P"
+          },
+          {
+            "fullName": "Khan U",
+            "lastName": "Khan",
+            "firstName": "Umama",
+            "initials": "U"
+          },
+          {
+            "fullName": "Khan MS",
+            "lastName": "Khan",
+            "firstName": "Md. Salauddin",
+            "initials": "MS"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6823-8352"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The acute respiratory disease induced by the severe acute respiratory syndrome-coronavirus-2 (SARS-CoV-2) has become a global epidemic in just less than a year by the first half of 2020. The subsequent efficient human-to-human transmission of this virus eventually affected millions of people worldwide. The most devastating thing is that the infection rate is continuously uprising and resulting in significant mortality especially among the older age population and those with health co-morbidities. This enveloped, positive-sense RNA virus is chiefly responsible for the infection of the upper respiratory system. The virulence of the SARS-CoV-2 is mostly regulated by its proteins like entry to the host cell through fusion mechanism, fusion of infected cells with neighboring uninfected cells to spread the virus, inhibition of host gene expression, cellular differentiation, apoptosis, mitochondrial biogenesis, etc. But very little is known about the protein structures and functionalities. Therefore, the main purpose of this study is to learn more about these proteins through bioinformatics approaches. In this study, ORF10, ORF7b, ORF7a, ORF6, membrane glycoprotein, and envelope protein have been selected from a Bangladeshi Corona-virus strain G039392 and a number of bioinformatics tools (MEGA-X-V10.1.7, PONDR®, ProtScale, ProtParam, SCRIBER, NetSurfP v2.0, IntFOLD, UCSF Chimera, and PyMol) and strategies were implemented for multiple sequence alignment and phylogeny analysis with 9 different variants, predicting hydropathicity, amino acid compositions, protein-binding propensity, protein disorders, 2D and 3D protein modeling. Selected proteins were characterized as highly flexible, structurally and electrostatically extremely stable, ordered, biologically active, hydrophobic, and closely related to the proteins of different variants. This detailed information regarding the characterization and structure of proteins of SARS-CoV-2 Bangladeshi variant was performed for the first time ever to unveil the deep mechanism behind the virulence features and also, this robust appraisal paves the future way for molecular docking, vaccine development targeting these characterized proteins.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/10/04/2021.10.01.452232.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.10.01.452232"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR403765"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR403765&type=FILE&fileName=EMS136071-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS136071",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-10-06",
+      "firstPublicationDate": "2021-10-04",
+      "firstIndexDate": "2021-10-06",
+      "fullTextReceivedDate": "2021-11-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

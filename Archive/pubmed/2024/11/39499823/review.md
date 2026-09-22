@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods, or supporting information were provided
+- **Shared manuscript claim summary** The authors present SOP-MULTI, a 2-site per amino-acid coarse-grained force field combining SOP-SC and SOP-IDP models, with new cross-interaction terms between folded and disordered beads. They claim that simulations of eight multidomain proteins (hnRNP A1, TDP-43, G3BP1, hGHR-ECD, TIA1, HIV-1 Gag, polyubiquitin, FUS) produce ensembles that, after back-mapping to all-atom resolution, recapitulate experimental scattering data; that folded domains preserve native contacts; and that residue-level fluctuations in folded domains match all-atom MD results. The force field is released as a LAMMPS-compatible package.
+- **Visible evidence base** Abstract text only. No figures, tables, methods sections, validation statistics, or comparison data are available for inspection.
+- **Missing materials affecting confidence** Full methods, force field parameter tables, cross-interaction term definitions, validation figures (scattering fits, contact maps, RMSF comparisons), simulation protocols, back-mapping procedure details, and benchmark statistics. Without these, quantitative assessment of the claims is not possible.
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful coarse-grained model that addresses a real gap in simulating multidomain proteins containing both folded and disordered regions. The combination of two established SOP variants with new cross-interaction terms is a reasonable design choice. However, the abstract alone provides insufficient detail to evaluate the rigor of the validation, the accuracy of the scattering data reproduction, or the transferability of the model. The claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and structural biology working on intrinsically disordered proteins, multidomain proteins, and integrative modeling. The LAMMPS-compatible implementation and setup codes would appeal to practitioners seeking a ready-to-use coarse-grained tool for large systems where all-atom simulation is impractical. The demonstrated application to proteins such as TDP-43, FUS, and HIV-1 Gag, which are of biomedical relevance, broadens the potential audience.
+- **Major strengths** The model addresses a clear methodological gap by unifying folded and disordered descriptions in a single framework. The choice of a 2-site per residue resolution balances computational efficiency with chemical specificity. The validation against scattering data, native contact preservation, and all-atom MD fluctuations targets three complementary and meaningful metrics. The public release as a LAMMPS package with setup codes is a practical contribution that enhances reproducibility and usability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "When back-mapped to all-atom resolution, SOP-MULTI trajectories faithfully recapitulate the scattering data over the range of the reciprocal space."
+  - **Evidence pointer** Abstract only; no figure or table specified
+  - **Concern** The abstract states that scattering data are "faithfully recapitulated" but provides no quantitative measure of agreement, such as chi-squared values, R-factors, or reduced chi-squared statistics. The phrase "over the range of the reciprocal space" is vague and does not specify the q-range or the tolerance criteria used to define "faithful."
+  - **Why it matters** Scattering data are the primary experimental constraint used to validate the ensemble. Without quantitative goodness-of-fit metrics and a defined q-range, the central validation claim cannot be assessed. A qualitative statement of agreement is insufficient for a force field paper where the key contribution is the accuracy of the generated ensembles.
+  - **Resolution test** Provide reduced chi-squared or R-factor values for each of the eight proteins, specify the q-range used for fitting, and show the scattering profiles (experimental versus back-mapped) in a figure. State the acceptance threshold used to declare the fit "faithful."
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "individual folded domains preserve native contacts with respect to solved folded structures, and root-mean-square fluctuations of residues in folded domains match those obtained from all-atom molecular dynamics simulation trajectories of the same folded systems."
+  - **Evidence pointer** Abstract only; no figure or table specified
+  - **Concern** The abstract claims native contact preservation and RMSF matching but does not report any numerical values, such as the fraction of native contacts retained, the average RMSF deviation, or the correlation coefficient between SOP-MULTI and all-atom MD fluctuations. It is also unclear how many of the eight proteins were tested for this validation and whether the all-atom MD reference simulations were performed by the authors or taken from the literature.
+  - **Why it matters** These two metrics are the secondary validation of the model's ability to maintain folded structure integrity. Without numbers, the reader cannot judge whether the agreement is within acceptable error or merely qualitative. The choice of reference all-atom MD data also affects the interpretation of the comparison.
+  - **Resolution test** Report the fraction of native contacts (Q-value) for each folded domain, the RMSF correlation coefficient or mean absolute error relative to all-atom MD, and specify the source and length of the reference MD simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "SOP-MULTI force field is made available as a LAMMPS-compatible user package along with setup codes for generating the required files for any full-length protein with folded and disordered regions."
+  - **Evidence pointer** Abstract only; no repository URL or access information provided
+  - **Concern** The abstract states that the force field is available but does not provide a repository link, version number, or licensing information. The claim of "any full-length protein" implies general applicability, but no evidence is presented that the setup codes have been tested beyond the eight listed proteins.
+  - **Why it matters** Availability is a key contribution of the work. Without a clear access point, the reproducibility claim cannot be verified. The generality claim, if overstated, could mislead users into applying the model to systems where it has not been validated.
+  - **Resolution test** Provide a working repository URL, versioned release, and documentation. State explicitly which proteins or domain architectures were used to test the setup codes and whether any limitations on applicability are known.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract states "SOP-MULTI combines two well-established self-organized polymer models horizontal line : (i) SOP-SC models for folded systems and (ii) SOP-IDP for IDPs." The phrase "horizontal line" appears to be a formatting artifact and the colon placement is awkward.
+  - **Required correction** Rewrite as "SOP-MULTI combines two well-established self-organized polymer models: (i) SOP-SC for folded systems and (ii) SOP-IDP for IDPs."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Protein list
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The abstract lists eight proteins but does not indicate their sizes, the number of folded domains, or the length of the flexible linkers. This information is relevant for assessing the range of system sizes tested.
+  - **Required correction** Add a sentence in the abstract or methods specifying the sequence lengths and domain architecture of each tested protein.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Back-mapping description
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The abstract states "When back-mapped to all-atom resolution" but does not describe the back-mapping method or its validation. It is unclear whether the back-mapping introduces artifacts that could affect the scattering comparison.
+  - **Required correction** Briefly describe the back-mapping approach in the methods and state whether the back-mapped structures were energy minimized or equilibrated before computing scattering profiles.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative scattering validation missing), R1-M2 (quantitative native contact and RMSF validation missing), R1-M3 (software availability not verifiable). These are blocking because the core claims of the paper, namely ensemble accuracy and practical usability, cannot be evaluated from the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The combination of SOP-SC and SOP-IDP with cross-interaction terms is a novel contribution, though it builds on established models. Scientific importance: The model addresses a significant need in the IDP and multidomain protein simulation community. Interdisciplinary readership: The work is primarily of interest to computational biophysicists and structural biologists; the scattering validation may attract experimentalists using SAXS, but the abstract does not frame the work for a broad interdisciplinary audience. Technical soundness: Cannot be assessed from the abstract alone; the missing quantitative validation is a major gap. Readability for nonspecialists: The abstract is reasonably clear but uses jargon (e.g., "2-site per amino-acid resolution", "reciprocal space") without sufficient context for a general scientific reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially valuable model, but the absence of quantitative validation metrics and software access details prevents a supportive recommendation. The authors should provide the full manuscript with figures, tables, and statistical measures for a complete assessment.
+
+## Risk / unsupported claims
+- The claim that SOP-MULTI "faithfully recapitulates" scattering data is unsupported without quantitative fit statistics.
+- The claim that folded domains "preserve native contacts" is unsupported without Q-values or similar metrics.
+- The claim that RMSF values "match" all-atom MD is unsupported without correlation coefficients or error values.
+- The claim that the setup codes work for "any full-length protein" is unsupported and likely overgeneralized given the limited test set.
+- The availability of the force field as a LAMMPS package is unverifiable without a repository link or access instructions.

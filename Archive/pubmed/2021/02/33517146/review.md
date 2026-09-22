@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to propose that the C-terminal peptide (CTP) of RIT1, a Ras superfamily GTPase lacking prenylation, associates with lipid bilayers via charge complementarity. They report that the CTP is unstructured, that membrane interactions depend on lipid composition, that a 12-residue region binds strongly to anionic bilayers containing phosphatidylserine, and that CTP termini fray from the membrane to accommodate the RIT1 globular domain at the membrane-water interface.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology, force field and water model specifications, system size and composition, simulation length and replicates, analysis protocols, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis for RIT1 membrane association that addresses a genuine gap in understanding how this non-prenylated GTPase localizes to the plasma membrane. The claim that charge complementarity drives CTP-lipid interactions is biologically reasonable and potentially interesting. However, the abstract alone provides insufficient evidence to evaluate the technical rigor of the simulations or the robustness of the conclusions. The central claims regarding lipid composition dependence, the specific 12-residue binding region, and the fraying behavior of the termini are stated without quantitative support. The work could be of interest to the Ras signaling and membrane biophysics communities, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying Ras superfamily GTPase membrane localization, particularly those focused on non-prenylated family members and alternative membrane anchoring mechanisms. Computational biophysicists interested in peptide-membrane interactions and the role of electrostatic complementarity in peripheral membrane protein association. Cancer biologists studying RIT1 mutations in Noonan syndrome and lung adenocarcinoma, as understanding membrane binding mechanisms may inform pathogenic mechanisms of disease-associated variants.
+- **Major strengths** The study addresses a specific and unresolved biological question, namely how RIT1 achieves plasma membrane localization without the canonical C-terminal prenylation motif. The hypothesis of charge complementarity is mechanistically coherent and testable. The use of molecular dynamics simulations is appropriate for examining peptide-membrane interactions at atomic resolution. The claim that the CTP is unstructured and that lipid composition modulates binding introduces useful nuance beyond a simple electrostatic model.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the CTP is unstructured and that its membrane interactions depend on lipid composition, with a 12-residue region binding strongly to anionic bilayers containing phosphatidylserine.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no information about the simulation methodology, including force field parameters, water model, ion concentration, system size, simulation length, number of replicates, or convergence criteria. Without these details, it is impossible to assess whether the observed unstructured state and lipid composition dependence are robust physical results or artifacts of the simulation setup. The claim of strong binding to phosphatidylserine-containing bilayers requires quantitative measures such as free energy profiles, residence times, or contact probabilities, none of which are reported.
+  - **Why it matters** Molecular dynamics results for peptide-membrane systems are highly sensitive to force field choice, particularly for protein-lipid interactions and the behavior of intrinsically disordered regions. The absence of methodological detail prevents any assessment of whether the conclusions are reproducible or physically meaningful. The central mechanistic claim of charge complementarity cannot be evaluated without evidence that the simulations adequately sample the relevant conformational space.
+  - **Resolution test** Provide full simulation details in the manuscript, including force field and water model, system composition, simulation length and replicates, and convergence analysis. Report quantitative measures of CTP-membrane binding such as contact probabilities, hydrogen bond occupancy, electrostatic interaction energies, and free energy estimates. Show that the unstructured state is stable across independent simulations and that the 12-residue binding region is consistently identified across replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the CTP termini fray from the membrane allowing for accommodation of the RIT1 globular domain at the membrane-water interface.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim that CTP termini fraying accommodates the globular domain is presented as a functional conclusion, but the abstract provides no evidence that the full-length RIT1 protein or even the globular domain was included in any simulation. The behavior of an isolated CTP in a membrane system may not reflect the behavior of the CTP when covalently attached to the globular domain, which could impose steric and orientational constraints. The functional interpretation is therefore speculative.
+  - **Why it matters** The biological relevance of the study depends on whether the proposed mechanism operates in the context of the full-length protein. If the simulations only examined the isolated CTP, the claim about accommodating the globular domain is an extrapolation that requires explicit testing. Overinterpreting results from truncated systems can lead to misleading conclusions about in vivo behavior.
+  - **Resolution test** Include simulations of the full-length RIT1 or at least the CTP attached to the globular domain to test whether the fraying behavior persists and whether the proposed accommodation mechanism is feasible. Alternatively, clearly state in the abstract that the globular domain accommodation is a hypothesis based on isolated CTP simulations and not directly tested.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The authors claim that RIT1 lacks C-terminal prenylation and that the study examines mechanisms by which the CTP associates with lipid bilayers.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not situate this work within the existing literature on non-prenylated Ras family membrane association. Several Ras superfamily members use polybasic regions, palmitoylation, or other mechanisms for membrane binding. Without a clear statement of what is novel relative to prior computational or experimental studies of RIT1 or related GTPases, the incremental contribution is unclear.
+  - **Why it matters** For a computational study to be impactful, it must demonstrate that the findings advance understanding beyond what is already known. If prior work has already characterized RIT1 membrane interactions or similar charge-based mechanisms in other GTPases, the novelty of this specific simulation study needs to be articulated.
+  - **Resolution test** In the full manuscript, include a clear comparison with prior computational and experimental studies of RIT1 and related non-prenylated GTPases. Explicitly state what new mechanistic insight this study provides beyond existing knowledge.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses terms such as "charge complementarity" and "membrane-water interface" without brief explanation, which may limit accessibility for readers outside the membrane biophysics subfield.
+  - **Required correction** Add a brief clarifying phrase, for example "charge complementarity, meaning the electrostatic matching of positively charged peptide residues with negatively charged lipid headgroups," to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that the CTP is "unstructured" but does not specify whether this refers to the free peptide in solution, the membrane-bound state, or both. The structural state may differ depending on the environment.
+  - **Required correction** Clarify whether the unstructured state is observed in solution, in the membrane-bound form, or in both conditions, and specify the simulation conditions under which this was assessed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not mention any disease-associated RIT1 mutations that might affect the CTP or membrane binding, despite the stated relevance to cancer and developmental disorders.
+  - **Required correction** If applicable, briefly note whether any known pathogenic mutations map to the CTP or the identified 12-residue binding region, as this would strengthen the biological relevance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of simulation methodology and quantitative binding data prevents assessment of the central claims. The functional interpretation regarding globular domain accommodation is not supported by the evidence described in the abstract.
+- **Assessment against Nature-style criteria** Originality: The hypothesis of charge complementarity for RIT1 membrane association is plausible but the abstract does not demonstrate novelty relative to prior work on non-prenylated GTPases. Scientific importance: The question of how RIT1 localizes to the plasma membrane is biologically relevant, but the significance of the specific findings cannot be evaluated without quantitative results. Interdisciplinary readership: The topic bridges computational biophysics and cell signaling, but the abstract is written in a way that may primarily appeal to specialists. Technical soundness: Not assessable from the abstract alone; the absence of methodological detail is a critical limitation. Readability for nonspecialists: The abstract is concise but uses field-specific terminology without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the simulation approach is appropriate, but the abstract does not provide sufficient methodological or quantitative detail to support the central claims. A revised manuscript with full simulation methods, quantitative binding analysis, and explicit testing or clear caveating of the globular domain accommodation claim would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that the CTP is unstructured is unsupported without simulation details and conformational analysis.
+- The claim that membrane interactions depend on lipid composition is unsupported without quantitative comparison across different bilayer compositions.
+- The claim that a 12-residue region binds strongly to anionic bilayers is unsupported without binding affinity or contact data.
+- The claim that CTP termini fray to accommodate the globular domain is unsupported and appears to be an extrapolation from isolated CTP simulations.
+- The biological relevance to cancer and developmental disorders is stated but not connected to any specific findings in the abstract.

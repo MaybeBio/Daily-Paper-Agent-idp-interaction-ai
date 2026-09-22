@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methodology, results, discussion, conclusion, and ancillary sections)
+- **Assessment boundary** Scientific and technical evaluation of the computational study as presented; no assessment of real-world vaccine efficacy claims beyond what the data can support
+- **Shared manuscript claim summary** The authors use in silico methods (homology modelling, docking, MD simulation) to compare the spike RBD of the Omicron variant against Delta sub-lineages (AY.1, AY.2, AY.3) and wild-type SARS-CoV-2, reporting altered binding affinities to ACE2 and five neutralizing antibodies, and inferring implications for immune evasion and vaccine efficacy
+- **Visible evidence base** Abstract, Introduction, Methodology (sections 2.1-2.5), Results (sections 3.1-3.3), Discussion, Conclusion, Competing interests, Author contributions, Acknowledgements
+- **Missing materials affecting confidence** Figures 1-5 and Tables 1-2 are referenced but not provided; supplementary files with docking interaction details are not available; no accession codes or version details for sequences used in homology modelling; no validation metrics for modelled structures (e.g., Ramachandran plots, QMEAN scores); no error estimates or replicates for docking scores; no statistical analysis of MD trajectories
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question regarding the Omicron variant's potential for immune escape and altered receptor binding. The computational approach is reasonable in principle, but the execution and reporting have substantial gaps that prevent the conclusions from being fully supported. The docking scores are presented without statistical context, the MD simulations are of unequal length across systems (20 ns for Omicron vs 100 ns for others), and key structural validation steps are not described. The claim that the study informs "vaccine efficacy" is not supported by the data presented, which are purely structural and biophysical in silico predictions. The manuscript would benefit from clearer methodology, additional validation, and more cautious interpretation of the results.
+- **Who would be interested in the results, and why** Structural biologists and computational virologists studying SARS-CoV-2 variant evolution; immunologists interested in antibody escape mechanisms; public health researchers tracking variant transmissibility and vaccine effectiveness. The comparative docking and MD data on Omicron versus Delta sub-lineages could inform hypotheses for experimental validation.
+- **Major strengths** Timely and relevant research question; use of multiple complementary computational methods (homology modelling, docking, MD simulation); comparison across multiple variants including sub-lineages of Delta; inclusion of five different neutralizing antibodies provides a broad assessment of immune escape potential; clear articulation of the mutations present in Omicron's spike protein
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that docking scores reflect binding affinity differences that can be interpreted in terms of immune evasion and vaccine efficacy
+  - **Evidence pointer** Section 3.2, Tables 1-2 (not provided)
+  - **Concern** Docking scores from PatchDock are geometric shape complementarity scores, not binding free energies. The differences reported (e.g., 18208 vs 17910 for ACE2 binding) are small and likely within the noise of the method. No statistical analysis, replicates, or error estimates are provided. The interpretation of these scores as meaningful differences in binding affinity is not justified without additional validation (e.g., energy refinement, MM-PBSA calculations, or comparison with experimental binding data).
+  - **Why it matters** The central conclusions about differential binding to ACE2 and antibodies rest entirely on these docking scores. If the differences are not statistically meaningful, the entire interpretive framework collapses.
+  - **Resolution test** Provide error estimates or replicate docking runs; perform energy-based scoring (e.g., HADDOCK, Rosetta, or MM-PBSA) to confirm ranking; compare with any available experimental binding data for these variants
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that MD simulation was performed to investigate structural stability and dynamics of the RBD variants
+  - **Evidence pointer** Section 2.5, Section 3.3, Figure 5 (not provided)
+  - **Concern** The MD simulation lengths are inconsistent: 100 ns for wild-type and Delta variants but only 20 ns for Omicron. This discrepancy is not justified and makes direct comparisons of RMSD, RMSF, Rg, and other properties between Omicron and the other systems unreliable. Additionally, only a single MD run per system is described, with no replicates, which is insufficient for drawing robust conclusions about conformational dynamics.
+  - **Why it matters** The conclusions about Omicron's structural instability and compactness are based on these MD data. Unequal simulation lengths and lack of replicates undermine the validity of these comparisons.
+  - **Resolution test** Run Omicron for the full 100 ns; perform at least three independent replicates per system; report convergence metrics and error bars for all MD-derived quantities
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The title and abstract claim the study addresses "vaccine efficacy" and the conclusion states the findings "may lead to antibody escape" and affect "vaccine efficacy"
+  - **Evidence pointer** Title, Abstract, Section 5
+  - **Concern** The study is purely computational and measures binding scores, not vaccine efficacy. Vaccine efficacy is a complex outcome determined by multiple factors including T-cell responses, innate immunity, viral load dynamics, and population-level immunity. Binding affinity predictions to a limited set of monoclonal antibodies cannot directly measure or predict vaccine efficacy. The claim overreaches the evidence.
+  - **Why it matters** Overstating the implications of computational binding data as evidence about vaccine efficacy could mislead readers and policymakers, especially given the urgent public health context.
+  - **Resolution test** Reframe the claims to be about potential for antibody escape based on reduced binding to specific monoclonal antibodies, and explicitly state that vaccine efficacy requires experimental and epidemiological validation
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe using Swiss Model for homology modelling and ModRefiner for energy minimization
+  - **Evidence pointer** Section 2.2
+  - **Concern** No validation of the modelled structures is reported. For homology models, it is standard practice to report Ramachandran statistics, QMEAN or similar quality scores, and to verify that the mutations are correctly placed. Without this, the structural basis for subsequent docking and MD analyses is not established.
+  - **Why it matters** If the modelled structures are inaccurate, all downstream calculations are compromised. The absence of validation metrics prevents assessment of structural reliability.
+  - **Resolution test** Provide model quality metrics (e.g., QMEAN, Ramachandran plot, MolProbity scores) for each modelled variant; state which residues were mutated and confirm their positions in the models
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the binding score of Omicron-RBD for antibodies CR3022, B38, CB6, and P2B2F6 is lower compared to wild and Delta (AY.1 & AY.2)" and interpret this as potential immune evasion
+  - **Evidence pointer** Section 3.2, Table 2 (not provided)
+  - **Concern** The choice of antibodies is not justified. CR3022, B38, CB6, and P2B-2F6 are monoclonal antibodies with different epitopes and neutralization potencies. Some of these (e.g., CR3022) are not potently neutralizing. The relevance of reduced binding to these specific antibodies for overall immune evasion is unclear without context on which antibodies are relevant for vaccine-induced immunity or therapeutic use.
+  - **Why it matters** The interpretation of immune evasion potential depends on the biological relevance of the antibodies tested. If the selected antibodies are not representative of the polyclonal antibody response elicited by vaccines, the conclusions about vaccine efficacy are not supported.
+  - **Resolution test** Justify the choice of antibodies with reference to their known epitopes and neutralization activity; discuss how binding to these antibodies relates to vaccine-induced immunity; consider including antibodies that are known to be elicited by current vaccines
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5
+  - **Issue** The description of the MD simulation setup is incomplete. The temperature and pressure coupling methods, the choice of thermostat/barostat, the integration time step, and the total number of atoms in each system are not specified.
+  - **Required correction** Provide full simulation parameters including thermostat/barostat algorithms, coupling constants, time step, and system size
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The PDB structures used for the antibodies and ACE2 are listed by PDB ID, but the specific chains used for docking are not specified. For multi-chain structures, this is important for reproducibility.
+  - **Required correction** Specify which chains of each PDB structure were used for docking and modelling
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3
+  - **Issue** The interpretation of RMSF data is confusing. The text states "In some regions, the RMSF value in Delta AY.3, Delta (AY.1 & AY.3) was greater" which appears to contain a typo and is unclear about which regions and which variants are being compared.
+  - **Required correction** Clarify the RMSF comparison, correct the typo, and specify which residues or regions show elevated fluctuations
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1
+  - **Issue** The reference to "Plaxco and Gross (2001)" is not in the reference list, and the relevance of this citation to the intrinsic disorder analysis is not clearly explained.
+  - **Required correction** Add the full citation and explain its relevance to the disorder analysis
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4
+  - **Issue** The docking protocol is described only briefly. The number of docking poses generated, the scoring function used for ranking, and the criteria for selecting the final pose are not described.
+  - **Required correction** Provide details on the docking protocol including pose generation, scoring, and selection criteria
+- **Technical failings that need to be addressed before the case is established** R1-M1 (docking score interpretation without statistical validation), R1-M2 (unequal MD simulation lengths and lack of replicates), R1-M3 (overreach from binding scores to vaccine efficacy claims), R1-M4 (missing structural model validation)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of computational methods to a newly emerged variant is timely, but the methods themselves are standard and the approach does not introduce novel methodology. Scientific importance: The question of Omicron's immune escape potential is of high importance, but the study's contribution is limited by the lack of experimental validation and the indirect nature of the evidence. Interdisciplinary readership: The topic bridges virology, structural biology, and immunology, but the presentation assumes significant computational biology expertise and does not adequately contextualize findings for a broader readership. Technical soundness: Currently insufficient due to the issues identified above, particularly the unequal MD simulation lengths, lack of statistical treatment of docking scores, and missing model validation. Readability for nonspecialists: The manuscript is written in a technical style that would be challenging for nonspecialists; key concepts such as docking scores and MD parameters are not explained for a general scientific audience.
+- **Recommendation posture** Not currently established from the provided evidence. The manuscript addresses an important question and the computational approach has potential, but the technical issues with MD simulation design, docking score interpretation, and overclaimed conclusions must be resolved before the findings can be considered reliable. Major revisions are required.
+
+## Risk / unsupported claims
+- The claim that the study provides insights into "vaccine efficacy" is unsupported; the data are limited to computational binding predictions
+- The claim that Omicron "may lead to antibody escape" is speculative and based on docking scores without experimental validation
+- The claim that Delta AY.3 "could still be believed to be more pathogenic and immune evasive" is an overinterpretation of computational stability and binding data
+- The statement that "Omicron variant is structurally and physicochemically different from wild strain" is based on secondary structure prediction and disorder analysis but the significance of these differences is not established
+- The assertion that "the Omicron variant has a higher binding affinity for the human ACE2 receptor than the wild and Delta (AY.1 and AY.2 strains)" is based on a single docking score without error estimates or experimental corroboration

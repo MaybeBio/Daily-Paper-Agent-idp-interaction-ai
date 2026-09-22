@@ -1,0 +1,54 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The abstract describes a methods-focused book chapter on numerical techniques for applying analytical theories to sequence-dependent phase separations of intrinsically disordered proteins. Assessment is limited to the claims and scope presented in the abstract.
+- **Shared manuscript claim summary** The authors state that analytical formulations are powerful and tractable tools for investigating liquid-liquid phase separation (LLPS) in biomolecular condensates, and they provide a practical guide to computational techniques for extracting sequence-dependent LLPS properties from these formulations. Covered techniques include spinodal and binodal boundary determination from free energy functions using random phase approximation, tie-line construction for multicomponent LLPS, field-theoretic simulation with complex Langevin dynamics, and a brief outline of coarse-grained molecular dynamics for sequence-specific LLPS.
+- **Visible evidence base** Abstract text only. No figures, tables, equations, or method details are provided.
+- **Missing materials affecting confidence** Full chapter text, figures, equations, code examples, validation results, and any comparison of methods against explicit-chain simulations are not available. The abstract provides no quantitative outcomes or performance benchmarks.
+
+## Reviewer
+- **Overall assessment** The abstract presents a reasonable scope for a methods chapter aimed at practical application of analytical theories to LLPS of intrinsically disordered proteins. The topic is timely and relevant given the growing interest in biomolecular condensates. However, the abstract is largely descriptive and provides no evidence of the effectiveness, accuracy, or limitations of the described techniques. The scientific case for the utility of these methods is asserted rather than demonstrated. As an abstract, it serves as an adequate summary of a pedagogical chapter, but the claims of practical guidance and utility cannot be evaluated without the full content.
+- **Who would be interested in the results, and why** Researchers in biophysics, computational biology, and biochemistry who study phase separation of intrinsically disordered proteins, particularly those seeking to apply analytical polymer theories or field-theoretic simulations to sequence-dependent phenomena. The chapter would also interest method developers in the LLPS community who need practical numerical implementations.
+- **Major strengths** The abstract identifies a clear practical need, namely the application of analytical theories to sequence-dependent LLPS, and lists specific numerical techniques that are directly relevant. The inclusion of both analytical approaches and a brief mention of explicit-chain simulations indicates awareness of complementary methodologies. The focus on spinodal and binodal boundaries, tie lines, and complex Langevin dynamics is technically appropriate for the target audience.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims to provide a "practical guide" to computational techniques for extracting sequence-dependent LLPS properties from analytical formulations.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The abstract provides no demonstration that the described techniques are practical, accurate, or validated. There is no mention of test cases, benchmark comparisons, error analysis, or convergence criteria for the numerical procedures. The claim of practicality is unsupported by any visible evidence.  
+  - **Why it matters** A methods chapter must convince readers that the techniques are usable and reliable. Without any indication of validation or performance, the reader cannot assess whether the guide is trustworthy or whether the methods will produce correct results in their own applications.  
+  - **Resolution test** The full chapter should include worked examples with known analytical solutions or comparisons to explicit-chain simulations, along with discussion of numerical stability, convergence, and computational cost. The abstract should summarize at least one validation outcome if the claim of practicality is to be supported.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scope clarity  
+  - **Claim pointer** The abstract states that the numerical procedures cover spinodal and binodal determination, tie-line construction, and field-theoretic simulation, with a brief outline of coarse-grained molecular dynamics.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The abstract does not specify the level of detail or the intended user expertise. It is unclear whether the chapter provides step-by-step algorithms, pseudocode, or ready-to-use code, and whether the methods are applicable to arbitrary sequences or only specific model systems. The boundary between "covered" and "briefly outlined" is vague.  
+  - **Why it matters** For a practical guide, the reader needs to know what to expect in terms of implementation readiness. If the chapter only describes concepts without concrete numerical recipes, the practical value is diminished. Conversely, if it includes code, the abstract should indicate this.  
+  - **Resolution test** The full chapter should clearly state the format of the provided techniques, such as algorithmic pseudocode, software availability, or example scripts, and the abstract should specify the target user level and the scope of sequence generality.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract sentence structure  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The abstract is a single dense paragraph with long sentences that mix motivation, scope, and method listing. This reduces readability for nonspecialists who may be unfamiliar with terms like "spinodal" and "binodal" or "complex Langevin dynamics."  
+  - **Required correction** Consider breaking the abstract into shorter sentences and adding a brief contextual phrase for each technique, such as "spinodal and binodal boundaries, which define the limits of metastability and coexistence," to aid nonspecialist comprehension.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Reference to explicit-chain simulations  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The abstract mentions that coarse-grained molecular dynamics is "briefly outlined" but does not state why this is included or how it complements the analytical methods. The connection is implied but not explicit.  
+  - **Required correction** Add a sentence explaining that explicit-chain simulations serve as a benchmark or validation tool for analytical predictions, which would clarify the rationale for including this methodology.
+- **Technical failings that need to be addressed before the case is established**  
+  - R1-M1, R1-M2. The abstract does not provide evidence of method validation or implementation readiness, and the scope of the guide is insufficiently defined. These must be clarified in the full chapter and reflected in the abstract for the case of a practical guide to be established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract does not claim novel theory or methods, but rather a compilation of existing techniques. Originality is not a primary strength, and the contribution appears to be pedagogical rather than novel.  
+  - **Scientific importance** The topic is important given the widespread interest in biomolecular condensates and the need for accessible computational tools. However, the abstract does not demonstrate how the guide advances the field beyond existing resources.  
+  - **Interdisciplinary readership** The abstract targets biophysicists and computational biologists, but the dense technical language may limit accessibility to a broader interdisciplinary audience, including experimentalists who might benefit from applying these theories.  
+  - **Technical soundness** Cannot be assessed from the abstract. The described techniques are established in the literature, but the implementation details and accuracy are not visible.  
+  - **Readability for nonspecialists** The abstract is moderately readable but assumes familiarity with polymer theory and field-theoretic methods. Improvements in structure and contextual explanation would help.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful methods chapter, but the claims of practicality and coverage are unsupported by visible evidence. A revised abstract that includes validation outcomes, scope clarity, and implementation details would be needed to support a positive assessment.

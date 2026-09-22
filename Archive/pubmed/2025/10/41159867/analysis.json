@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41159867",
+  "title": "From heteropolymer stiffness distributions to effective homopolymers. II. Conformational analysis of intrinsically disordered proteins.",
+  "authors": "Witzky, Yannick; Schmid, Friederike; Nikoubashman, Arash",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2025-10-29",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用异质蠕虫链模型和粗粒化模拟研究无序蛋白的构象，虽聚焦IDP构象但未涉及蛋白-蛋白互作，方法为物理模拟但缺乏互作机制建模，故为中档。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are characterized by a lack of defined secondary and tertiary structures and are thus well-suited for descriptions within polymer theory. However, the intrinsic heterogeneity of proteins, stemming from their diverse amino acid building blocks, introduces local variations in chain stiffness, which can impact conformational behavior at larger scales. To investigate this effect, we developed a heterogeneous worm-like chain model in which the local persistence length follows a Gaussian distribution. We demonstrate that these heterogeneous chains can be effectively mapped to homogeneous chains with a single effective persistence length. To assess whether this mapping can be extended to naturally occurring IDPs, we performed simulations using various coarse-grained IDP models, finding that the simulated IDPs have similar shapes compared to the corresponding homogeneous and heterogeneous worm-like chains. However, the IDPs are systematically larger than ideal worm-like chains, yet slightly more compact when excluded volume interactions are considered. We attribute these differences to intramolecular interactions between non-bonded monomers, which our theoretical models do not account for.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 的特征在于缺乏明确的二级和三级结构，因此非常适合在聚合物理论框架内进行描述。然而，蛋白质固有的异质性，源于其多样的氨基酸构建模块，引入了链刚度的局部变化，这可能影响更大尺度上的构象行为。为探究此效应，我们开发了一种异质蠕虫链模型，其中局部持久长度遵循高斯分布。我们证明，这些异质链可以有效地映射为具有单一有效持久长度的均质链。为评估此映射是否能扩展到天然存在的IDPs，我们使用多种粗粒化IDP模型进行了模拟，发现模拟的IDPs与相应的均质和异质蠕虫链相比具有相似的形状。然而，IDPs系统性地大于理想蠕虫链，但在考虑排除体积相互作用时略为更紧凑。我们将这些差异归因于非键合单体间的分子内相互作用，而我们的理论模型未涵盖这些作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41159867/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41159867/",
+  "paper_page_path": "papers/pubmed/41159867/index.html"
+}

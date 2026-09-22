@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, conclusions, methods, data analysis) as provided
+- **Assessment boundary** Scientific validity, technical soundness, and alignment of claims with evidence presented in the supplied material
+- **Shared manuscript claim summary** The authors develop a valency-limited coarse-grained stickers-and-spacers polymer model for continuous molecular dynamics simulations, implemented in OpenABC, and use it to test predictions of the STARS theory. They report that sticker affinity and multivalency promote porous network-like condensates, that nonspecific spacer heterogeneity can independently drive condensation but disrupts sticker-mediated organization, and that limited-valency sticker interactions buffer client recruitment more effectively than nonspecific spacer interactions.
+- **Visible evidence base** Main text figures referenced (Figures 1, 2, 3, 4), supplementary figures referenced (Figures S1, S2, S3, S4, S5, S6), Table S1, methods equations, and data analysis procedures
+- **Missing materials affecting confidence** Actual figure images, numerical values of simulation parameters beyond those stated, convergence criteria, finite-size analysis, force field validation data, and code availability verification
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically interesting modeling approach that addresses a genuine need in the condensate field, namely continuous molecular dynamics simulations with valency-limited sticker interactions. The central claim, that spacer heterogeneity promotes condensation at the cost of sticker-mediated organization, is plausible and consistent with the STARS theory. However, the evidence as presented is insufficient to fully establish this tradeoff. Key quantitative details, validation of the directional interaction potential, and systematic checks of parameter dependence are either absent or only partially described. The two-component results are suggestive but limited in scope. The manuscript would benefit from additional validation and a more complete presentation of the parameter space explored.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, particularly those using coarse-grained simulations of intrinsically disordered proteins. The model offers a practical tool for simulating valency-limited interactions without explicit bond assignment, which could be of interest to the simulation community. The predicted tradeoff between condensation and organization has implications for understanding sequence-encoded phase behavior and may inform experimental studies of low-complexity domains.
+- **Major strengths** The directional interaction potential is a creative solution to the valency problem in continuous MD. The implementation in an existing open-source package (OpenABC) enhances accessibility. The systematic comparison of sticker-mediated versus spacer-mediated condensation is well motivated. The two-component recruitment results address a biologically relevant question about compositional control.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The directional sticker–sticker interaction "strongly suppresses multivalent binding by a single sticker without requiring an explicit bond-assignment algorithm."
+  - **Evidence pointer** Results section "A Valency-Limited Stickers-and-Spacers Model for Continuous Molecular Dynamics", Figure 1C, Figures S1 and S3C
+  - **Concern** The claim that the directional potential enforces one-to-one binding is supported only by a statement that "individual stickers formed at most one contact with another sticker under the conditions analyzed." No systematic analysis is presented showing that this holds across the full range of interaction strengths, sticker densities, or system sizes used in the study. The angular parameters and their sensitivity are not discussed. Without a demonstration that the valency constraint is robust, the central mechanism of the model remains unvalidated.
+  - **Why it matters** The entire premise of the model rests on the ability to enforce limited valency through geometry. If the potential allows occasional multivalent binding under some conditions, the interpretation of network structure and conversion measurements could be affected. The authors need to show that the valency constraint is not an artifact of the specific conditions chosen.
+  - **Resolution test** Provide a systematic analysis of sticker valency distributions as a function of Ksticker, Nsticker, and system size. Show that the fraction of multivalent stickers remains negligible across the parameter ranges used. If possible, compare with a reference model with explicit valency constraints to validate the geometric approach.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Strong spacer heterogeneity reduces sticker conversion, suppresses sticker mobility, and disrupts the sticker-mediated network."
+  - **Evidence pointer** Results section "Nonspecific Spacer Interactions Stabilize Condensates but Disrupt Sticker Contacts", Figure 3B, 3C, 3D, 3E
+  - **Concern** The evidence for this central claim is presented for a limited set of parameter values. The manuscript shows results for Δϵ values up to 10 kBT, but the range of ϵ‾ values explored is not fully described. The claim of a "tradeoff" implies a systematic relationship, yet only a few discrete points are shown. The MSD analysis is performed within the condensate, but the authors do not discuss how the definition of the condensate boundary affects the results. The representative configurations in Figure 3E are qualitative and may not be representative.
+  - **Why it matters** The tradeoff between condensation and organization is the main conceptual contribution. If it is only demonstrated for a narrow parameter range, its generality is questionable. The authors need to show that the effect is systematic and not dependent on specific choices of simulation parameters.
+  - **Resolution test** Present a more complete phase diagram or parameter sweep showing how sticker conversion and network properties vary with both ϵ‾ and Δϵ. Include error bars and statistical significance. Show that the reduction in sticker conversion is monotonic in Δϵ over a wider range. Provide quantitative measures of network organization beyond visual inspection.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Limited-valency A–B contacts produce saturable client recruitment and buffer condensate composition against changes in global client abundance."
+  - **Evidence pointer** Results section "Limited-Valency Sticker Interactions Buffer Client Recruitment", Figure 4A, 4B, 4C, 4D
+  - **Concern** The two-component simulations use a single set of interaction parameters (KAA=-15 kBT, KAB=-17 kBT for the sticker-mediated case). The comparison between sticker-mediated and spacer-mediated recruitment is made at a single value of ΔϵAB=1.5 kBT. The authors do not show that the buffering effect is robust to changes in KAB or ΔϵAB. The claim of "saturable recruitment" is inferred from the sublinear response, but no direct measurement of binding site occupancy is presented. The simulation time of 10^8 steps may not be sufficient for full equilibration of the two-component system.
+  - **Why it matters** The buffering of client recruitment is presented as a key functional consequence of valency-limited interactions. If this effect is only demonstrated for one set of parameters, it is not clear that it is a general property of the model. The authors need to show that the qualitative difference between sticker-mediated and spacer-mediated recruitment persists across a range of interaction strengths.
+  - **Resolution test** Vary KAB and ΔϵAB systematically and show that the buffering effect (defined as the ratio of condensate-to-bulk B concentration as a function of total B) is consistently stronger for sticker-mediated recruitment. Provide direct evidence of saturable binding, such as the fraction of A–B sticker contacts as a function of B concentration. Check convergence by extending simulation time or showing that results are stable over the latter half of the trajectory.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The model is "implemented in the GPU-accelerated OpenABC package" and "tutorials for setting up simulations can be found on GitHub: STARS."
+  - **Evidence pointer** Methods section, Data and materials availability
+  - **Concern** The manuscript does not provide specific version information for OpenABC or OpenMM, nor does it give the exact parameter files used for the simulations. The GitHub link is generic and does not specify which repository or commit corresponds to the simulations described. Without this information, reproducing the results would be difficult.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The authors should provide sufficient detail for others to repeat the simulations exactly.
+  - **Resolution test** Provide a specific repository URL, commit hash, or version number. Include example input files or a link to a parameter file archive. State the OpenMM version used.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Equation 5
+  - **Evidence pointer** Methods section "Sticker–sticker interactions"
+  - **Issue** The parameters kr and kθ are described as controlling the width of the Gaussian in distance and angle, respectively, but the text does not state the values used in the simulations. The relationship between these parameters and the effective valency is not explained.
+  - **Required correction** State the numerical values of kr and kθ used, and briefly explain how they affect the angular selectivity of the interaction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Figure 2
+  - **Evidence pointer** Results section "Sticker-Mediated Condensation Produces Porous Network-like Condensates"
+  - **Issue** The threshold for classifying a system as phase separated (ρcore/ρdilute ≥ 2) is stated in the Methods, but the sensitivity of the results to this threshold is not discussed. The choice of 20 kBT for the core window width is also not justified.
+  - **Required correction** Briefly discuss whether the qualitative conclusions are robust to reasonable variations in the phase-separation criterion and window size.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 3D
+  - **Evidence pointer** Results section "Nonspecific Spacer Interactions Stabilize Condensates but Disrupt Sticker Contacts"
+  - **Issue** The MSD curves are described as showing reduced diffusion with increasing Δϵ, but the figure is not available for inspection. The reported diffusion coefficients are stated in units of σ² per MD step, which is unusual and may be difficult for readers to interpret.
+  - **Required correction** Consider reporting diffusion coefficients in more conventional units or providing a conversion factor. Ensure the figure clearly shows the trend described in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, two-component simulations
+  - **Evidence pointer** Results section "Limited-Valency Sticker Interactions Buffer Client Recruitment"
+  - **Issue** The text states that B molecules were placed "outside the condensate on one side of the slab," but the initial B concentration and the total simulation box dimensions are not given in the main text.
+  - **Required correction** Provide the initial B concentration and box dimensions, or refer the reader to the supplementary material where these values should be listed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions and Discussion
+  - **Issue** The authors state that their results "provide a physical rationale for the suppression of promiscuous spacer interactions in low-complexity IDP regions." This is an extrapolation from a simplified model to biological sequence design. The connection is plausible but should be framed as a hypothesis rather than a conclusion.
+  - **Required correction** Soften the language to indicate that the results suggest a possible rationale, and acknowledge that additional factors (e.g., evolutionary constraints, post-translational modifications) may also influence sequence design.
+
+## Risk / unsupported claims
+- The claim that the directional potential "strongly suppresses multivalent binding" is not fully validated across the parameter range used.
+- The claim of a general "tradeoff" between condensation and organization is based on a limited set of parameter values.
+- The claim that sticker-mediated recruitment "buffers" client composition is demonstrated for a single set of interaction parameters.
+- The extrapolation from simulation results to biological sequence design in low-complexity regions is presented too strongly given the simplified model.
+- The assertion that the model "produces effectively one-to-one sticker binding" is not supported by a direct comparison with an explicitly valency-limited reference model.
+- The dimensionalization procedure (m=1 Da, σ=1 nm, ϵ=1 kJ/mol, T≈120.3 K) is stated to be "not intended as a direct mapping to a specific experimental system," but the implications of this choice for the interpretation of timescales and interaction strengths are not discussed.
+
+## Assessment against Nature-style criteria
+- **Originality** The directional interaction potential for valency-limited stickers in continuous MD is a novel technical contribution. The application to test STARS theory predictions is timely. However, the conceptual framework (stickers-and-spacers, tradeoff between interactions) is not new, and the originality lies primarily in the implementation.
+- **Scientific importance** The question of how sequence encodes condensate properties is of broad interest. The predicted tradeoff, if robust, could inform understanding of low-complexity domain evolution. However, the importance is somewhat limited by the simplified model and the lack of direct experimental connection.
+- **Interdisciplinary readership** The topic bridges polymer physics, biophysics, and cell biology. The writing is generally accessible, but the methods section assumes familiarity with coarse-grained simulation techniques. The biological implications are discussed only briefly.
+- **Technical soundness** The model design is reasonable, but the validation is incomplete. The valency enforcement is not systematically characterized, the parameter space is explored sparsely, and convergence is not demonstrated. The two-component results are based on a single parameter set.
+- **Readability for nonspecialists** The abstract and introduction are clear. The results section is understandable with effort. The methods are dense but appropriate for a specialist audience. The figures are referenced but not available for inspection in the provided material.
+
+## Recommendation posture
+Supportive if technical concerns are resolved. The manuscript presents a potentially useful tool and a plausible hypothesis, but the evidence as presented does not fully establish the central claims. The authors should address the validation of the valency constraint, provide a more systematic exploration of the parameter space, and demonstrate the robustness of the recruitment results before the conclusions can be considered established.

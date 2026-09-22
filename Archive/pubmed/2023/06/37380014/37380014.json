@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "37380014",
+    "doi": "10.1016/j.jmb.2023.168189",
+    "title": "Dynamic Solution Structures of Whole Human NAP1 Dimer Bound to One and Two Histone H2A-H2B Heterodimers Obtained by Integrative Methods."
+  },
+  "content": {
+    "abstract": "Nucleosome assembly protein 1 (NAP1) binds to histone H2A-H2B heterodimers, mediating their deposition on and eviction from the nucleosome. Human NAP1 (hNAP1) consists of a dimerization core domain and intrinsically disordered C-terminal acidic domain (CTAD), both of which are essential for H2A-H2B binding. Several structures of NAP1 proteins bound to H2A-H2B exhibit binding polymorphisms of the core domain, but the distinct structural roles of the core and CTAD domains remain elusive. Here, we have examined dynamic structures of the full-length hNAP1 dimer bound to one and two H2A-H2B heterodimers by integrative methods. Nuclear magnetic resonance (NMR) spectroscopy of full-length hNAP1 showed CTAD binding to H2A-H2B. Atomic force microscopy revealed that hNAP1 forms oligomers of tandem repeated dimers; therefore, we generated a stable dimeric hNAP1 mutant exhibiting the same H2A-H2B binding affinity as wild-type hNAP1. Size exclusion chromatography (SEC), multi-angle light scattering (MALS) and small angle X-ray scattering (SAXS), followed by modelling and molecular dynamics simulations, have been used to reveal the stepwise dynamic complex structures of hNAP1 binding to one and two H2A-H2B heterodimers. The first H2A-H2B dimer binds mainly to the core domain of hNAP1, while the second H2A-H2B binds dynamically to both CTADs. Based on our findings, we present a model of the eviction of H2A-H2B from nucleosomes by NAP1.",
+    "keywords": [
+      "AFM",
+      "NMR",
+      "SAXS",
+      "histone chaperone",
+      "molecular dynamics simulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Histones/metabolism",
+      "*Nucleosome Assembly Protein 1/genetics/chemistry/metabolism",
+      "Scattering, Small Angle",
+      "X-Ray Diffraction",
+      "Nucleosomes",
+      "Protein Binding",
+      "Naphthalenes",
+      "Oligopeptides"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ohtomo, Hideaki",
+        "Yamane, Tsutomu",
+        "Oda, Takashi",
+        "Kodera, Noriyuki",
+        "Kurita, Jun-Ichi",
+        "Tsunaka, Yasuo",
+        "Amyot, Romain",
+        "Ikeguchi, Mitsunori",
+        "Nishimura, Yoshifumi"
+      ],
+      "short_names": [
+        "Ohtomo H",
+        "Yamane T",
+        "Oda T",
+        "Kodera N",
+        "Kurita JI",
+        "Tsunaka Y",
+        "Amyot R",
+        "Ikeguchi M",
+        "Nishimura Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan.",
+        "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan; HPC- and AI-driven Drug Development Platform Division, Center for Computational Science, RIKEN, 1-7-22, Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan.",
+        "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan; Materials and Life Science Division, J-PARC Center, Japan Atomic Energy Agency, Tokai, Ibaraki 319-1195, Japan.",
+        "WPI Nano Life Science Institute, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan; Core Research for Evolutional Science and Technology (CREST), Japan Science and Technology Agency (JST), 4-1-8 Honcho, Kawaguchi, Saitama 332-0012, Japan.",
+        "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan.",
+        "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan.",
+        "WPI Nano Life Science Institute, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan; Core Research for Evolutional Science and Technology (CREST), Japan Science and Technology Agency (JST), 4-1-8 Honcho, Kawaguchi, Saitama 332-0012, Japan.",
+        "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan.",
+        "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan; Graduate School of Integrated Sciences for Life, Hiroshima University, 1-4-4 Kagamiyama, Higashi-Hiroshima 739-8258, Japan. Electronic address: nisimura@yokohama-cu.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ohtomo, Hideaki",
+        "short_name": "Ohtomo H",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Yamane, Tsutomu",
+        "short_name": "Yamane T",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan; HPC- and AI-driven Drug Development Platform Division, Center for Computational Science, RIKEN, 1-7-22, Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Oda, Takashi",
+        "short_name": "Oda T",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan; Materials and Life Science Division, J-PARC Center, Japan Atomic Energy Agency, Tokai, Ibaraki 319-1195, Japan."
+        ]
+      },
+      {
+        "full_name": "Kodera, Noriyuki",
+        "short_name": "Kodera N",
+        "identifiers": [],
+        "affiliations": [
+          "WPI Nano Life Science Institute, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan; Core Research for Evolutional Science and Technology (CREST), Japan Science and Technology Agency (JST), 4-1-8 Honcho, Kawaguchi, Saitama 332-0012, Japan."
+        ]
+      },
+      {
+        "full_name": "Kurita, Jun-Ichi",
+        "short_name": "Kurita JI",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Tsunaka, Yasuo",
+        "short_name": "Tsunaka Y",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Amyot, Romain",
+        "short_name": "Amyot R",
+        "identifiers": [],
+        "affiliations": [
+          "WPI Nano Life Science Institute, Kanazawa University, Kakuma-machi, Kanazawa, Ishikawa 920-1192, Japan; Core Research for Evolutional Science and Technology (CREST), Japan Science and Technology Agency (JST), 4-1-8 Honcho, Kawaguchi, Saitama 332-0012, Japan."
+        ]
+      },
+      {
+        "full_name": "Ikeguchi, Mitsunori",
+        "short_name": "Ikeguchi M",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan."
+        ]
+      },
+      {
+        "full_name": "Nishimura, Yoshifumi",
+        "short_name": "Nishimura Y",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan; Graduate School of Integrated Sciences for Life, Hiroshima University, 1-4-4 Kagamiyama, Higashi-Hiroshima 739-8258, Japan. Electronic address: nisimura@yokohama-cu.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2023 Aug 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/29 01:08",
+    "fetched_at": "2026-09-20 23:10:48"
+  },
+  "links": {
+    "cites": [
+      "42404645",
+      "42258129",
+      "41736444",
+      "39601790",
+      "38571760"
+    ],
+    "refs": [],
+    "similar": [
+      "37380014",
+      "26841755",
+      "27225933",
+      "33199628",
+      "23973327",
+      "25338502",
+      "31785324",
+      "26884462",
+      "28468903",
+      "37214964",
+      "37177996",
+      "31653339",
+      "20002496",
+      "28128545",
+      "30521320",
+      "22707715",
+      "34153285",
+      "28883625",
+      "14992573",
+      "36139412",
+      "29209909",
+      "37379840",
+      "27273866",
+      "33580188",
+      "16105835",
+      "36801613",
+      "16531623",
+      "29643509",
+      "15516689",
+      "8280071",
+      "18281699",
+      "30557018",
+      "25781491",
+      "3816782",
+      "11309407",
+      "21111233",
+      "19683001",
+      "3216389",
+      "26455391",
+      "16803903",
+      "27181506",
+      "12475245",
+      "8485137",
+      "16331996",
+      "15807529",
+      "25731851",
+      "36747879",
+      "15632282",
+      "22448809",
+      "37450495",
+      "27618665",
+      "10921904",
+      "33320380",
+      "29263320",
+      "28426042",
+      "35777463",
+      "25594579",
+      "27369377",
+      "32941645",
+      "23698368",
+      "24507717",
+      "32001508",
+      "16287874",
+      "30855230",
+      "25550164",
+      "36659983",
+      "35963897",
+      "35606827",
+      "26506534",
+      "29905837",
+      "35772497",
+      "36010552",
+      "31472968",
+      "17996059",
+      "26116819",
+      "37790377",
+      "26416482",
+      "28813589",
+      "4019476",
+      "17597150",
+      "11101893",
+      "22521324",
+      "31775157",
+      "2036369",
+      "21195232",
+      "34038732",
+      "38571760",
+      "12928440",
+      "18226242",
+      "17574026",
+      "8662614",
+      "25611318",
+      "8041707",
+      "12475244",
+      "24613878",
+      "7961785",
+      "24688059",
+      "6760203",
+      "29038501",
+      "963028",
+      "12779337",
+      "15624215",
+      "37355718",
+      "38331872",
+      "39103894",
+      "38133493",
+      "37805066",
+      "35891793",
+      "37860749",
+      "39071396",
+      "33232370",
+      "37791766",
+      "37034759"
+    ],
+    "review": [
+      "37380014",
+      "25781491",
+      "25731851",
+      "32941645",
+      "36659983"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(23)00288-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/37380014/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-649",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

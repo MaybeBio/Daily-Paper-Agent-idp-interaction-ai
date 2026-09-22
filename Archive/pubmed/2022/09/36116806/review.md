@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report ScanNet, a freely available web server for structure-based prediction of protein-protein, protein-disordered protein, and protein-antibody binding sites. The server uses an end-to-end, interpretable geometric deep learning model that learns spatio-chemical patterns directly from 3D structures. The authors claim that ScanNet consistently outperforms machine learning models based on handcrafted features and comparative modeling approaches. The server is linked to the PDB and AlphaFoldDB, supports user-provided structure files, and provides visualization via Molstar and ChimeraX.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark datasets, performance metrics, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, benchmark definitions, performance comparisons, model architecture details, interpretability analysis, web server implementation details, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful web server for binding site prediction with an interesting methodological approach based on geometric deep learning. However, the abstract alone provides insufficient evidence to evaluate the core claims of consistent outperformance, interpretability, or practical utility. The claims are plausible but currently not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists, computational biologists, and researchers in protein function annotation and drug discovery would be interested. The server addresses a practical need for predicting diverse binding site types from structure, and the integration with PDB and AlphaFoldDB increases its potential utility for the broader structural biology community.
+- **Major strengths** The web server addresses a relevant problem with broad applicability. The use of an end-to-end geometric deep learning approach that learns directly from 3D structures is conceptually appealing and potentially more generalizable than handcrafted feature-based methods. The inclusion of multiple binding site types (protein-protein, protein-disordered, protein-antibody) and integration with major structural databases are practical strengths. The claim of interpretability is valuable for biological insight.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "ScanNet consistently outperforms Machine Learning models based on handcrafted features and comparative modeling approaches"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that ScanNet consistently outperforms other methods but provides no quantitative data, benchmark details, or statistical significance measures. No datasets, evaluation protocols, or comparison baselines are described.
+  - **Why it matters** The central claim of the work is superior performance. Without any numerical evidence, the claim cannot be assessed, and the scientific contribution of the server relative to existing tools remains unestablished.
+  - **Resolution test** Provide benchmark datasets, evaluation metrics, comparison methods, and performance tables with statistical significance in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** "ScanNet is an end-to-end, interpretable geometric deep learning model that learns spatio-chemical patterns directly from 3D structures"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims interpretability but provides no explanation of how interpretability is achieved or demonstrated. No examples of learned patterns, feature attributions, or biological validation are given.
+  - **Why it matters** Interpretability is a distinguishing feature claimed by the authors. Without evidence, this claim is unsubstantiated, and the biological utility of the model beyond prediction accuracy cannot be evaluated.
+  - **Resolution test** Provide a description of the interpretability mechanism and examples of interpretable outputs with biological validation in the full manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope validation
+  - **Claim pointer** "Prediction of protein-protein, protein-disordered protein and protein-antibody binding sites from structure"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims prediction for three distinct binding site types but provides no information on how each type is defined, curated, or validated. No performance metrics specific to each binding site type are reported.
+  - **Why it matters** Different binding site types may have different structural characteristics and prediction challenges. Without per-type validation, the generalizability of the model across these categories is unknown.
+  - **Resolution test** Provide per-type benchmark results, dataset descriptions, and definition criteria for each binding site category.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Web server availability statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the server is "freely available" and provides a URL but does not specify access requirements, usage limits, or submission queue times.
+  - **Required correction** Add brief details on access conditions and any usage restrictions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state whether the model weights, training code, or benchmark scripts are available for local use or reproduction.
+  - **Required correction** State the availability of source code, model weights, and any relevant repositories.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Visualization claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions visualization via Molstar and ChimeraX but does not describe the types of outputs users can expect or how predictions are represented.
+  - **Required correction** Briefly describe the output format and visualization features.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of consistent outperformance, interpretability, and multi-type prediction capability are not supported by quantitative evidence in the abstract. These must be substantiated with benchmark data, methodological details, and validation results in the full manuscript.
+- **Assessment against Nature-style criteria** 
+  - Originality: The geometric deep learning approach applied to binding site prediction is a reasonable methodological contribution, but the abstract does not establish novelty relative to existing deep learning methods for this task.
+  - Scientific importance: Binding site prediction is an important problem in structural biology, and a web server with broad applicability would be valuable. However, the importance of the specific contribution cannot be assessed without performance evidence.
+  - Interdisciplinary readership: The topic bridges computational biology, structural biology, and drug discovery, which has interdisciplinary appeal. The abstract is written accessibly for these audiences.
+  - Technical soundness: Not assessable from the abstract. No methodological details, validation, or performance metrics are provided.
+  - Readability for nonspecialists: The abstract is clear and concise, with technical terms defined. The main claims are understandable to a broad scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful tool, but the central claims require substantial supporting evidence from the full manuscript. A revised assessment would be possible upon review of the complete methods, benchmarks, and results.
+
+## Risk / unsupported claims
+- The claim of consistent outperformance over machine learning models based on handcrafted features and comparative modeling approaches is unsupported by any quantitative data.
+- The claim of interpretability is unsupported by any description of the interpretability mechanism or examples.
+- The claim of prediction capability for three distinct binding site types is unverified without per-type performance metrics.
+- The practical utility of the web server, including usability, speed, and reliability, is not assessable from the abstract.

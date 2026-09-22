@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42190015",
+  "title": "amyloid-predict and LLPS-predict: Predicting phase separation propensities in the intrinsically disordered proteome.",
+  "authors": "Lobo, Samuel; Griem, Leif; Shell, M Scott; Shea, Joan-Emma",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2026-05-26",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用蛋白语言模型嵌入预测无序蛋白组中淀粉样和相分离倾向，虽聚焦倾向性预测而非具体PPI互作机制建模，但对象为IDP/LLPS且方法为AI，对无序蛋白互作相关筛选有直接参考价值。",
+  "abstract": "Amyloid formation and liquid-liquid phase separation (LLPS) are two important phenomena in cellular biology, linked to both normal physiological functions and various pathologies. Here, we present a computational framework that scores amyloid propensities (amyloid-predict) or LLPS propensities (LLPS-predict) from protein language model embeddings, enabling rapid proteome-wide annotation of peptides and residues. amyloid-predict achieves classification performance that exceeds existing AI and physics-based tools on a hexapeptide benchmark while enabling substantially faster high-throughput screening; notably, amyloid-predict is sensitive to subtle mutational effects and is influenced by sequence patterning and context rather than amino acid composition alone. We apply these protein language model classifiers to all the IDRs in the human proteome and uncover several protein categories with significant enhancement in amyloid and/or LLPS propensity, suggesting insights into the biological roles of these protein categories. For example, signaling receptors, carbohydrate-binding proteins, and Ca(2+) binding proteins are enriched in aggregation propensity, while mRNA-binding proteins, ribonucleoprotein complex, and nuclear matrix proteins are enriched in LLPS propensity. Interestingly, we observe patterns of both high amyloid and LLPS propensity in several amyloid-forming and prionic proteins. Together, these results provide side-by-side landscapes of LLPS and amyloid potential across the disordered human proteome while offering a rapid screening tool for basic biology, disease-mechanism studies, and rational design of peptide therapeutics.",
+  "abstract_zh": "淀粉样蛋白形成与液-液相分离（liquid-liquid phase separation, LLPS）是细胞生物学中的两个重要现象，与正常生理功能及多种病理过程相关联。在此，我们提出一个计算框架，通过蛋白质语言模型嵌入来评分淀粉样蛋白倾向性（amyloid-predict）或LLPS倾向性（LLPS-predict），从而实现对肽段和残基的快速蛋白质组-wide注释。amyloid-predict在六肽基准上实现了超越现有AI及基于物理工具的分类性能，同时显著加快高通量筛选速度；值得注意的是，amyloid-predict对细微突变效应敏感，并受序列模式及上下文影响，而非仅由氨基酸组成决定。我们将这些蛋白质语言模型分类器应用于人类蛋白质组中的所有内在无序区域（IDRs），并发现了多个在淀粉样蛋白和/或LLPS倾向性上显著增强的蛋白质类别，提示这些蛋白质类别在生物学中的作用。例如，信号受体、碳水化合物结合蛋白及Ca(2+)结合蛋白在聚集倾向性上富集，而mRNA结合蛋白、核糖核蛋白复合物及核基质蛋白在LLPS倾向性上富集。有趣的是，我们在多种淀粉样蛋白形成及朊病毒样蛋白中观察到高淀粉样蛋白和LLPS倾向性的共存模式。综合来看，这些结果提供了人类无序蛋白质组中LLPS与淀粉样蛋白潜力的并排景观，同时为基础生物学、疾病机制研究及肽类治疗药物的合理设计提供了快速筛选工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42190015/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42190015/",
+  "paper_page_path": "papers/pubmed/42190015/index.html"
+}

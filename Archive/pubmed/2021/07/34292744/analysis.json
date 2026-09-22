@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34292744",
+  "title": "Interplay between Kinetics and Dynamics of Liquid-Liquid Phase Separation in a Protein Solution Revealed by Coherent X-ray Spectroscopy.",
+  "authors": "Ragulskaya, Anastasia; Begam, Nafisa; Girelli, Anita; Rahmann, Hendrik; Reiser, Mario; Westermeier, Fabian; Sprung, Michael; Zhang, Fajun; Gutt, Christian; Schreiber, Frank",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2021-07-23",
+  "window": {
+    "start": "2021-07-19",
+    "end": "2021-07-25"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用相干X射线光谱研究蛋白质溶液液-液相分离的动力学与动力学耦合，虽以无序蛋白凝聚体为对象且涉及相分离，但聚焦物理动力学而非PPI互作机制，方法为实验加Cahn-Hilliard模拟，缺乏AI/分子模拟的互作建模，故评5分。",
+  "abstract": "Microscopic dynamics of complex fluids in the early stage of spinodal decomposition (SD) is strongly intertwined with the kinetics of structural evolution, which makes a quantitative characterization challenging. In this work, we use X-ray photon correlation spectroscopy to study the dynamics and kinetics of a protein solution undergoing liquid-liquid phase separation (LLPS). We demonstrate that in the early stage of SD, the kinetics relaxation is up to 40 times slower than the dynamics and thus can be decoupled. The microscopic dynamics can be well described by hyper-diffusive ballistic motions with a relaxation time exponentially growing with time in the early stage followed by a power-law increase with fluctuations. These experimental results are further supported by simulations based on the Cahn-Hilliard equation. The established framework is applicable to other condensed matter and biological systems undergoing phase transitions and may also inspire further theoretical work.",
+  "abstract_zh": "复杂流体在旋节线分解（spinodal decomposition, SD）早期阶段的微观动力学与结构演化的动力学过程紧密交织，这使得定量表征具有挑战性。在本工作中，我们使用X射线光子相关光谱研究经历液-液相分离（liquid-liquid phase separation, LLPS）的蛋白质溶液的动力学与演化过程。我们证明，在SD早期阶段，动力学弛豫比微观动力学慢多达40倍，因此两者可以解耦。微观动力学可由超扩散弹道运动很好地描述，其弛豫时间在早期阶段随时间指数增长，随后呈幂律增长并伴随波动。这些实验结果进一步得到了基于Cahn-Hilliard方程的模拟支持。所建立的框架适用于其他经历相变的凝聚态和生物系统，并可能启发进一步的理论研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34292744/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34292744/",
+  "paper_page_path": "papers/pubmed/34292744/index.html"
+}

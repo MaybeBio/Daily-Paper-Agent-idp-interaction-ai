@@ -1,0 +1,464 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.20.553608",
+  "title": "Improved modeling of RNA-binding protein motifs in an interpretable neural model of RNA splicing",
+  "doi": "10.1101/2023.08.20.553608",
+  "abstract": "Sequence-specific RNA-binding proteins (RBPs) play central roles in splicing decisions, but their exact binding locations and activities are difficult to predict. Here, we describe a modular splicing architecture that leverages in vitro -derived RNA affinity models for 79 human RBPs and the annotated human genome to produce improved models of RBP binding and activity. Binding and activity are modeled by separate Motif and Aggregator components that can be mixed and matched, enforcing sparsity to improve interpretability. Standard affinity models yielded reasonable predictions, but substantial improvements resulted from using a new Adjusted Motif (AM) architecture. While maintaining accurate modeling of in vitro binding, training these AMs on the splicing task yielded improved predictions of binding sites in vivo and of splicing activity, using independent crosslinking and massively parallel splicing reporter assay data. The modular structure of our model enables improved generalizability to other species (insects, plants) and to exons of different evolutionary ages.",
+  "authors": [
+    "Kavi Gupta",
+    "Chenxi Yang",
+    "Kayla McCue",
+    "Osbert Bastani",
+    "Phillip A Sharp",
+    "Christopher B Burge",
+    "Armando Solar-Lezama"
+  ],
+  "published_date": "2023-08-20",
+  "updated_date": "2023-08-21T01:00:14Z",
+  "journal": "bioRxiv",
+  "category": "Genomics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.20.553608",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.20.553608.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Genomics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Genomics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:36:38Z",
+        "timestamp": 1768505798055,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            20
+          ]
+        ]
+      },
+      "group-title": "Genomics",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Summary</jats:title>\n                <jats:p>\n                  Sequence-specific RNA-binding proteins (RBPs) play central roles in splicing decisions, but their exact binding locations and activities are difficult to predict. Here, we describe a modular splicing architecture that leverages\n                  <jats:italic>in vitro</jats:italic>\n                  -derived RNA affinity models for 79 human RBPs and the annotated human genome to produce improved models of RBP binding and activity. Binding and activity are modeled by separate Motif and Aggregator components that can be mixed and matched, enforcing sparsity to improve interpretability. Standard affinity models yielded reasonable predictions, but substantial improvements resulted from using a new Adjusted Motif (AM) architecture. While maintaining accurate modeling of in vitro binding, training these AMs on the splicing task yielded improved predictions of binding sites\n                  <jats:italic>in vivo</jats:italic>\n                  and of splicing activity, using independent crosslinking and massively parallel splicing reporter assay data. The modular structure of our model enables improved generalizability to other species (insects, plants) and to exons of different evolutionary ages.\n                </jats:p>",
+      "DOI": "10.1101/2023.08.20.553608",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            21
+          ]
+        ],
+        "date-time": "2023-08-21T01:00:14Z",
+        "timestamp": 1692579614000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Improved modeling of RNA-binding protein motifs in an interpretable neural model of RNA splicing"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Kavi",
+          "family": "Gupta",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chenxi",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kayla",
+          "family": "McCue",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Osbert",
+          "family": "Bastani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Phillip A",
+          "family": "Sharp",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Christopher B",
+          "family": "Burge",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Armando",
+          "family": "Solar-Lezama",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-060614-034316"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1997.0951"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/15.17.7155"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/29.5.1185"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1089/1066527041410418"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.201407298"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2004.11.010"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature09000"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr444"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu277"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx268"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty244"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz1212"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2014-15-1-r19"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-016-3121-4"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1653-z"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-3306-3"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.12.015"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-021-02273-7"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-022-02664-4"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liao, S.E. , Sudarshan, M. , and Regev, O. (2022). Machine learning for discovery: deciphering RNA splicing logic. bioRxiv, 2022.2010. 2001.510472.",
+          "DOI": "10.1101/2022.10.01.510472"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "772",
+          "DOI": "10.1038/s42256-020-00265-z",
+          "article-title": "Concept whitening for interpretable image recognition",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.23",
+          "unstructured": "Zarlenga, M.E. , Barbiero, P. , Ciravegna, G. , Marra, G. , Giannini, F. , Diligenti, M. , Shams, Z. , Precioso, F. , Melacci, S. , and Weller, A. Concept Embedding Models: Beyond the Accuracy-Explainability Trade-Off."
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.24",
+          "article-title": "See, hear, and read: Deep aligned representations",
+          "year": "2017"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.25",
+          "year": "2012"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2018.05.001"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jens, M. , McGurk, M. , Bundschuh, R. , and Burge, C. (2022). RBPamp: Quantitative Modeling of Protein-RNA Interactions in vitro Predicts in vivo Binding. bioRxiv, 2022.2011.2008.515616.",
+          "DOI": "10.1101/2022.11.08.515616"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.1550"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.29",
+          "unstructured": "Tishby, N. , Pereira, F.C. , and Bialek, W. (2000). The information bottleneck method. arXiv preprint physics/0004057."
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.30",
+          "article-title": "SPARLING: Learning Latent Representations with Extremely Sparse Activations",
+          "year": "2023"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang, Z. , Yang, D. , Dyer, C. , He, X. , Smola, A. , and Hovy, E. (2016). Hierarchical attention networks for document classification. pp. 1480–1489.",
+          "DOI": "10.18653/v1/N16-1174"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.17096"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1181"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2077-3"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Findlay, S.D. , Romo, L. , and Burge, C.B. (2022). Quantifying negative selection in human 3ʹ UTRs uncovers constrained targets of RNA-binding proteins. bioRxiv, 2022.2011.2030.518628.",
+          "DOI": "10.1101/2022.11.30.518628"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.09.054"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.1485"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1261/rna.037044.112"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr713"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.6347907"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2015.02.058"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1748-7188-6-26"
+        },
+        {
+          "key": "2023082321251151000_2023.08.20.553608v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12311"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.20.553608",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:06:04Z",
+        "timestamp": 1768453564000
+      },
+      "score": 48.318504,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.08.20.553608"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            20
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.1101/2023.08.20.553608",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1186/s13059-023-03162-x",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

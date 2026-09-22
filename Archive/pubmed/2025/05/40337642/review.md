@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including Introduction, Methods, Results, Discussion, Conclusion, and Data availability statement. No figures, tables, or supplementary materials were provided.
+- **Assessment boundary** Assessment is limited to the claims and evidence presented in the text. Figures, tables, and supplementary materials referenced in the manuscript were not available for review.
+- **Shared manuscript claim summary** The authors report that AlphaFold can predict whether an intrinsically disordered protein binds to the hub protein LC8, using a composite threshold of AlphaFold confidence scores. They report false-positive and false-negative rates of 5.5% and 28.1% for an exclusive threshold, and 27.9% and 7.5% for an inclusive threshold. They report correlations between AlphaFold scores and experimentally determined binding affinities, particularly for homogeneous sequence subsets. They use qualitative Bayesian reasoning to argue that AlphaFold has learned an inaccurate energy function. They apply their method to predict new LC8 binding sites in 24 proteins.
+- **Visible evidence base** The manuscript text describes the methods and results, but the actual data (figures, tables, supplementary presentations, datasheets) were not provided. The text references Figure 1-9, Tables 1-3, Supplementary Presentations 1-3, Supplementary Tables 1-9, and Supplementary Datasheets 4-11.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are missing. The specific numerical results (e.g., AUROC values, R2 values, AMI values, threshold values) are described in the text but cannot be independently verified. The training and test set compositions, the full list of binders and nonbinders, and the detailed results for the 24 predicted proteins are not available.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question: whether AlphaFold can be used to predict binding of intrinsically disordered proteins to a hub protein, and what this reveals about the nature of AlphaFold's internal representations. The authors have assembled a substantial dataset of approximately 7,500 AlphaFold predictions, which is a significant effort. The core finding, that AlphaFold can discriminate binders from nonbinders with reasonable accuracy, is plausible and potentially useful. However, the manuscript as presented has several critical weaknesses. The most significant is that the primary evidence, including all figures, tables, and supplementary data, is not available for review. This makes it impossible to assess the validity of the reported performance metrics, the statistical significance of the correlations, or the robustness of the Bayesian analysis. The Bayesian analysis, while creative, is presented in a way that is difficult to follow and appears to rely on subjective likelihood assignments. The claim that AlphaFold has learned an "inaccurate energy function" is a strong conclusion that requires more rigorous support than the qualitative Bayesian framework provides. The practical utility of the method for predicting new binding sites is demonstrated only through examples, without experimental validation. The manuscript would benefit from a clearer presentation of the methods, particularly the feature extraction and threshold optimization, and from a more cautious interpretation of the results.
+- **Who would be interested in the results, and why** Researchers studying LC8 and its interaction network, particularly those interested in identifying new binding partners or understanding the determinants of LC8 binding specificity. The work is also relevant to the broader community of researchers using AlphaFold for predicting protein-protein interactions involving intrinsically disordered regions, and to those interested in understanding the nature of AlphaFold's learned representations. The methodological approach, using AlphaFold confidence scores to infer binding, could be adapted to other hub proteins and IDP systems.
+- **Major strengths** The manuscript addresses a significant and timely problem. The dataset of approximately 7,500 AlphaFold predictions is substantial. The authors consider both one-client and two-client configurations, which is thoughtful given the cooperative nature of LC8 binding. The comparison with LC8Pred provides a useful benchmark. The discussion of the need for homogeneous datasets when analyzing AlphaFold scores is an important practical insight. The authors are appropriately cautious about the limitations of their affinity predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence availability
+  - **Claim pointer** The manuscript claims specific performance metrics, including false-positive rates of 5.5% and 27.9%, false-negative rates of 28.1% and 7.5%, and an AUROC of 0.9274 for the composite threshold.
+  - **Evidence pointer** Figures 2, 3; Table 1; Supplementary Presentation 3
+  - **Concern** The core quantitative results of this manuscript are presented in figures, tables, and supplementary materials that were not provided for review. Without access to these data, it is impossible to verify the reported performance metrics, assess the statistical robustness of the findings, or evaluate the validity of the threshold optimization procedure. The text alone is insufficient to establish the claims.
+  - **Why it matters** The central claim of the manuscript, that AlphaFold can accurately predict LC8 binding, rests entirely on these quantitative results. If the data are not available for scrutiny, the claim cannot be evaluated.
+  - **Resolution test** Provide all figures, tables, and supplementary materials for review. The data should include the full distributions of scores for binders and nonbinders, the ROC curves, the learning curves, and the threshold values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims that correlations exist between AlphaFold scores and binding affinities, particularly for homogeneous subsets, and that these correlations are statistically significant.
+  - **Evidence pointer** Figure 4; Tables 2, 3; Supplementary Presentation 2
+  - **Concern** The text reports R2 and AMI values for correlations between AlphaFold scores and binding affinities, but the details of these analyses are not provided. The number of data points in each subset, the specific scores used, the binning strategies, and the statistical tests applied are not described in sufficient detail. The claim that some correlations are statistically significant after multiple-testing correction is made, but the corrected p-values are not presented in the text.
+  - **Why it matters** The claim that AlphaFold scores correlate with binding affinity is a key piece of evidence for the argument that AlphaFold has learned something about binding energetics. Without a clear and complete statistical analysis, this claim is not established.
+  - **Resolution test** Provide the full correlation analyses, including scatter plots, sample sizes, R2 and AMI values, p-values, and details of the multiple-testing corrections. The methods for selecting subsets and binning data should be described in detail.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Bayesian analysis validity
+  - **Claim pointer** The manuscript claims, based on qualitative Bayesian reasoning, that it is highly likely that AlphaFold has learned an inaccurate energy function.
+  - **Evidence pointer** Figure 5; Methods section "Bayesian Inference"
+  - **Concern** The Bayesian analysis is presented in a way that is difficult to follow. The evidence items (E1-E9) are described in the text, but the likelihood assignments for each evidence item under each hypothesis are not provided in a transparent, tabulated format. The text states that likelihoods are assigned based on the authors' judgment, but the reasoning behind these assignments is not always clear. The final totals of 86 dB for Hi/Hs and -3 dB for Hn/Hs are presented, but the individual contributions of each evidence item are not shown. This makes it impossible for the reader to assess the validity of the analysis or to challenge the likelihood assignments.
+  - **Why it matters** The conclusion that AlphaFold has learned an inaccurate energy function is a major claim of the manuscript. If the Bayesian analysis supporting this claim is not transparent and reproducible, the claim is not convincing.
+  - **Resolution test** Provide a table showing each evidence item, the likelihood assigned under each hypothesis, and the resulting log-likelihood ratio. The reasoning for each likelihood assignment should be explained in detail. The sensitivity of the final conclusion to the likelihood assignments should be discussed.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Method validation
+  - **Claim pointer** The manuscript claims that the method can predict new LC8 binding sites in proteins known to bind LC8, and that these predictions are useful for hypothesis generation.
+  - **Evidence pointer** Figures 7, 8; Supplementary Presentation 1; Supplementary Datasheets 4-7
+  - **Concern** The predictions for new binding sites are presented as examples, but no experimental validation is provided. The authors acknowledge this, but the utility of the method for discovering new binding sites remains unproven. The criteria for selecting the 24 proteins are not clearly described. The comparison with LC8Pred is qualitative and based on selected examples.
+  - **Why it matters** The practical value of the method depends on its ability to identify new, functional LC8 binding sites. Without experimental validation, the predictive power of the method is uncertain.
+  - **Resolution test** Provide experimental validation for at least a subset of the predicted binding sites. Alternatively, provide a more systematic and quantitative comparison with LC8Pred across the full set of 24 proteins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Affinity analysis by linear regression and mutual information"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the affinity analysis is somewhat unclear. The text states that "a script was written to scan through the AlphaFold predictions, searching for sequence matches among the known binders," but it is not clear how the sequence matches were identified or how the AlphaFold predictions were matched to the affinity data.
+  - **Required correction** Clarify the procedure for matching AlphaFold predictions to known affinity data. Describe the exact criteria for a "sequence match" and how the 108 predictions were derived from the 62 affinity values.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Prediction of new binding sites"
+  - **Evidence pointer** Results section
+  - **Issue** The description of the filtering process for predicted binding sites is brief. The text states that predictions with affinities greater than 40 µM were disregarded, but it is not clear how many predictions were removed at this step or how the affinity predictions were calculated for all predicted sites.
+  - **Required correction** Provide more detail on the filtering process, including the number of predictions removed at each step and the distribution of predicted affinities.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion section "Generalizability of the method"
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of generalizability is brief. The authors state that the method should be generalizable to other systems, but they do not discuss potential limitations or challenges that might arise when applying the method to other hub proteins or IDP systems.
+  - **Required correction** Expand the discussion of generalizability, including potential challenges such as the need for a sufficient number of known binders and nonbinders, the choice of scores, and the potential for different energy landscapes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "LC8-binding site modeling and assessment"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the AlphaFold runs is not fully reproducible. The text states that "the majority of predictions were prompted to return 25 structures; however, a few early runs returned five structures and were still included in the analysis." It is not clear which runs returned five structures and whether this affected the results.
+  - **Required correction** Specify which runs returned five structures and provide a justification for including them in the analysis. Alternatively, rerun those predictions with 25 structures to ensure consistency.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of access to the data. All figures, tables, and supplementary materials are missing, making it impossible to verify the reported results. The Bayesian analysis is not presented in a transparent manner. The affinity correlation analysis is not described in sufficient detail. The method for predicting new binding sites is not validated experimentally.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The question of whether AlphaFold can predict LC8 binding is novel and addresses a specific, well-defined problem. The use of qualitative Bayesian reasoning to interpret AlphaFold's behavior is a creative approach. However, the originality is somewhat diminished by the fact that the manuscript is published in a specialized journal and the findings are largely confirmatory of the general utility of AlphaFold for predicting protein interactions.
+  - **Scientific importance** The findings are of moderate importance. They provide a practical tool for predicting LC8 binding sites, which could be useful for the LC8 community. The broader claim about the nature of AlphaFold's learned energy function is of interest, but the evidence presented is not strong enough to be conclusive.
+  - **Interdisciplinary readership** The manuscript is likely to be of interest primarily to researchers in the fields of structural biology, bioinformatics, and protein-protein interactions. The methods and findings are not likely to attract a broad interdisciplinary audience.
+  - **Technical soundness** The technical soundness cannot be fully assessed due to the lack of data. The described methods are generally reasonable, but the lack of detail in the statistical analyses and the Bayesian analysis is a concern.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with AlphaFold, LC8, and related concepts. The Bayesian analysis section is particularly difficult to follow. The manuscript would benefit from a more accessible introduction and a clearer explanation of the methods.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and the authors have made a substantial effort, but the lack of access to the data and the lack of transparency in the Bayesian analysis prevent a full assessment. The manuscript could become publishable if the data are made available and the analyses are presented more rigorously.
+
+## Risk / unsupported claims
+- The claim that AlphaFold has learned an "inaccurate energy function" is not supported by the evidence presented. The Bayesian analysis is subjective and not transparent.
+- The claim that the method can predict new LC8 binding sites is not validated experimentally.
+- The reported performance metrics (false-positive rates, false-negative rates, AUROC) cannot be verified without the data.
+- The claim that the method is generalizable to other systems is speculative and not supported by evidence.
+- The claim that the method outperforms recent work (Bret et al., 2024; Omidi et al., 2024; Lee et al., 2024; Chakravarty et al., 2024) cannot be assessed without a direct comparison.

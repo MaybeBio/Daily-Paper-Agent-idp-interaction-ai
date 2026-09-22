@@ -1,0 +1,335 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.26.564257",
+  "title": "MechPPI: Binding Mechanism-based Machine-Learning tool for Predicting Protein-Protein Binding Affinity Changes Upon Mutations",
+  "doi": "10.1101/2023.10.26.564257",
+  "abstract": "Protein-protein interactions are essential for various biological processes, including signal transduction, metabolism, vesicle transport, and mitogenic processes. It’s crucial to consider them within the context of their interactions with other proteins to understand protein function. Mutations in proteins can affect their binding affinity to partner proteins by introducing various effects, such as changes in hydrophobic regions, electrostatic interactions, or hydrogen bonds. Assessing the impact of mutations on protein interactions can have implications for disease susceptibility and drug efficacy. Understanding the impact of mutations on protein-protein interactions and predicting binding affinity changes computationally can benefit both basic biology and drug development. Different computational methods offer varying levels of accuracy and efficiency, and the choice of method depends on the specific research goals and available resources. We developed MechPPI, a tool that can use potential mechanism features underlying mutation to predict the binding affinity change upon mutation. We showed MechPPI can accurately predict binding affinity change upon a single mutation, and results demonstrate the potential of MechPPI as a powerful and useful computational tool in protein design and engineering.",
+  "authors": [
+    "Yangying Liu",
+    "Grant Armstrong",
+    "Justin Tam",
+    "Brian Y. Chen"
+  ],
+  "published_date": "2023-10-31",
+  "updated_date": "2023-11-01T00:05:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.26.564257",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.26.564257.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:23:09Z",
+        "timestamp": 1768508589324,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            31
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 19,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            31
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Protein-protein interactions are essential for various biological processes, including signal transduction, metabolism, vesicle transport, and mitogenic processes. It’s crucial to consider them within the context of their interactions with other proteins to understand protein function. Mutations in proteins can affect their binding affinity to partner proteins by introducing various effects, such as changes in hydrophobic regions, electrostatic interactions, or hydrogen bonds. Assessing the impact of mutations on protein interactions can have implications for disease susceptibility and drug efficacy. Understanding the impact of mutations on protein-protein interactions and predicting binding affinity changes computationally can benefit both basic biology and drug development. Different computational methods offer varying levels of accuracy and efficiency, and the choice of method depends on the specific research goals and available resources. We developed MechPPI, a tool that can use potential mechanism features underlying mutation to predict the binding affinity change upon mutation. We showed MechPPI can accurately predict binding affinity change upon a single mutation, and results demonstrate the potential of MechPPI as a powerful and useful computational tool in protein design and engineering.</jats:p>",
+      "DOI": "10.1101/2023.10.26.564257",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            1
+          ]
+        ],
+        "date-time": "2023-11-01T00:05:11Z",
+        "timestamp": 1698797111000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "MechPPI: Binding Mechanism-based Machine-Learning tool for Predicting Protein-Protein Binding Affinity Changes Upon Mutations"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9662-1941",
+          "authenticated-orcid": false,
+          "given": "Yangying",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Grant",
+          "family": "Armstrong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3280-7397",
+          "authenticated-orcid": false,
+          "given": "Justin",
+          "family": "Tam",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Brian Y.",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023110312000921000_2023.10.26.564257v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2004.09.051"
+        },
+        {
+          "issue": "3",
+          "key": "2023110312000921000_2023.10.26.564257v1.2",
+          "first-page": "e1448",
+          "article-title": "“Computational prediction of protein–protein binding affinities",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Wiley Interdisciplinary Reviews: Computational Molecular Science"
+        },
+        {
+          "key": "2023110312000921000_2023.10.26.564257v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-060614-034142"
+        },
+        {
+          "issue": "1",
+          "key": "2023110312000921000_2023.10.26.564257v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "47",
+          "DOI": "10.1038/nmeth.2289",
+          "article-title": "“Interactome3d: adding structural details to protein networks",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2023110312000921000_2023.10.26.564257v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/humu.21656"
+        },
+        {
+          "key": "2023110312000921000_2023.10.26.564257v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2005.08.020"
+        },
+        {
+          "key": "2023110312000921000_2023.10.26.564257v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2021.11.012"
+        },
+        {
+          "issue": "Supplement_1",
+          "key": "2023110312000921000_2023.10.26.564257v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "i544",
+          "DOI": "10.1093/bioinformatics/btad231",
+          "article-title": "“Deep local analysis deconstructs protein–protein interfaces and accurately estimates binding affinity changes upon mutation",
+          "volume": "39",
+          "year": "2023",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023110312000921000_2023.10.26.564257v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki387"
+        },
+        {
+          "key": "2023110312000921000_2023.10.26.564257v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.202485799"
+        },
+        {
+          "key": "2023110312000921000_2023.10.26.564257v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1065703",
+          "DOI": "10.3389/fbinf.2022.1065703",
+          "article-title": "“Machine learning methods for protein-protein binding affinity prediction in protein design",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Frontiers in Bioinformatics"
+        },
+        {
+          "issue": "8",
+          "key": "2023110312000921000_2023.10.26.564257v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1009284",
+          "DOI": "10.1371/journal.pcbi.1009284",
+          "article-title": "“Deep geometric representations for modeling effects of mutations on protein-protein binding affinity",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2023110312000921000_2023.10.26.564257v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz383"
+        },
+        {
+          "key": "2023110312000921000_2023.10.26.564257v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "N. Zhang , Y. Chen , H. Lu , F. Zhao , R. V. Alvarez , A. Goncearenco , A. R. Panchenko , and M. Li , “Muta-bind2: predicting the impacts of single and multiple mutations on protein-protein interactions,” Iscience, vol. 23, no. 3, 2020.",
+          "DOI": "10.1016/j.isci.2020.100939"
+        },
+        {
+          "issue": "3",
+          "key": "2023110312000921000_2023.10.26.564257v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "462",
+          "DOI": "10.1093/bioinformatics/bty635",
+          "article-title": "“Skempi 2.0: an updated benchmark of changes in protein–protein binding energy, kinetics and thermodynamics upon mutation",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023110312000921000_2023.10.26.564257v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(82)90515-0"
+        },
+        {
+          "issue": "2",
+          "key": "2023110312000921000_2023.10.26.564257v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "116",
+          "DOI": "10.1038/s42256-020-0149-6",
+          "article-title": "“A topology-based network tree for the prediction of protein–protein binding affinity changes following mutation",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2023110312000921000_2023.10.26.564257v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Y. Jiang , L. Quan , K. Li , Y. Li , Y. Zhou , T. Wu , and Q. Lyu , “Dgcddg: Deep graph convolution for predicting protein-protein binding affinity changes upon mutations,” IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2023.",
+          "DOI": "10.1109/TCBB.2022.3233627"
+        },
+        {
+          "key": "2023110312000921000_2023.10.26.564257v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt450"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.10.26.564257",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:27:04Z",
+        "timestamp": 1768454824000
+      },
+      "score": 66.708664,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.10.26.564257"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            31
+          ]
+        ]
+      },
+      "references-count": 19,
+      "URL": "https://doi.org/10.1101/2023.10.26.564257",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            31
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

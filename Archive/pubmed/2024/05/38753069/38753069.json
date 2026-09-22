@@ -1,0 +1,417 @@
+{
+  "identity": {
+    "pmid": "38753069",
+    "doi": "10.1093/gbe/evae107",
+    "title": "The Rapid Evolution of De Novo Proteins in Structure and Complex."
+  },
+  "content": {
+    "abstract": "Recent studies in the rice genome-wide have established that de novo genes, evolving from noncoding sequences, enhance protein diversity through a stepwise process. However, the pattern and rate of their evolution in protein structure over time remain unclear. Here, we addressed these issues within a surprisingly short evolutionary timescale (<1 million years for 97% of Oryza de novo genes) with comparative approaches to gene duplicates. We found that de novo genes evolve faster than gene duplicates in the intrinsically disordered regions (such as random coils), secondary structure elements (such as alpha helix and beta strand), hydrophobicity, and molecular recognition features. In de novo proteins, specifically, we observed an 8% to 14% decay in random coils and intrinsically disordered region lengths and a 2.3% to 6.5% increase in structured elements, hydrophobicity, and molecular recognition features, per million years on average. These patterns of structural evolution align with changes in amino acid composition over time as well. We also revealed higher positive charges but smaller molecular weights for de novo proteins than duplicates. Tertiary structure predictions showed that most de novo proteins, though not typically well folded on their own, readily form low-energy and compact complexes with other proteins facilitated by extensive residue contacts and conformational flexibility, suggesting a faster-binding scenario in de novo proteins to promote interaction. These analyses illuminate a rapid evolution of protein structure in de novo genes in rice genomes, originating from noncoding sequences, highlighting their quick transformation into active, protein complex-forming components within a remarkably short evolutionary timeframe.",
+    "keywords": [
+      "de novo genes",
+      "gene duplicates",
+      "new genes",
+      "protein complex",
+      "structural evolution"
+    ],
+    "mesh_terms": [
+      "*Evolution, Molecular",
+      "*Oryza/genetics",
+      "*Plant Proteins/genetics/chemistry",
+      "Gene Duplication",
+      "Hydrophobic and Hydrophilic Interactions"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jianhai",
+        "Li, Qingrong",
+        "Xia, Shengqian",
+        "Arsala, Deanna",
+        "Sosa, Dylan",
+        "Wang, Dong",
+        "Long, Manyuan"
+      ],
+      "short_names": [
+        "Chen J",
+        "Li Q",
+        "Xia S",
+        "Arsala D",
+        "Sosa D",
+        "Wang D",
+        "Long M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0093-2003",
+        "ORCID: 0000-0002-8583-3620",
+        "ORCID: 0000-0002-9264-3649",
+        "ORCID: 0000-0001-8950-9572",
+        "ORCID: 0000-0003-3162-0643",
+        "ORCID: 0000-0002-2829-1546",
+        "ORCID: 0000-0002-6755-197X"
+      ],
+      "affiliations": [
+        "Department of Ecology and Evolution, The University of Chicago, Chicago, IL 60637, USA.",
+        "Division of Pharmaceutical Sciences, Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular & Molecular Medicine, School of Medicine, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Department of Ecology and Evolution, The University of Chicago, Chicago, IL 60637, USA.",
+        "Department of Ecology and Evolution, The University of Chicago, Chicago, IL 60637, USA.",
+        "Department of Ecology and Evolution, The University of Chicago, Chicago, IL 60637, USA.",
+        "Division of Pharmaceutical Sciences, Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Department of Cellular & Molecular Medicine, School of Medicine, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Department of Ecology and Evolution, The University of Chicago, Chicago, IL 60637, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jianhai",
+        "short_name": "Chen J",
+        "identifiers": [
+          "0000-0003-0093-2003"
+        ],
+        "affiliations": [
+          "Department of Ecology and Evolution, The University of Chicago, Chicago, IL 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Qingrong",
+        "short_name": "Li Q",
+        "identifiers": [
+          "0000-0002-8583-3620"
+        ],
+        "affiliations": [
+          "Division of Pharmaceutical Sciences, Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, La Jolla, CA 92093, USA.",
+          "Department of Cellular & Molecular Medicine, School of Medicine, University of California San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Xia, Shengqian",
+        "short_name": "Xia S",
+        "identifiers": [
+          "0000-0002-9264-3649"
+        ],
+        "affiliations": [
+          "Department of Ecology and Evolution, The University of Chicago, Chicago, IL 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Arsala, Deanna",
+        "short_name": "Arsala D",
+        "identifiers": [
+          "0000-0001-8950-9572"
+        ],
+        "affiliations": [
+          "Department of Ecology and Evolution, The University of Chicago, Chicago, IL 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Sosa, Dylan",
+        "short_name": "Sosa D",
+        "identifiers": [
+          "0000-0003-3162-0643"
+        ],
+        "affiliations": [
+          "Department of Ecology and Evolution, The University of Chicago, Chicago, IL 60637, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Dong",
+        "short_name": "Wang D",
+        "identifiers": [
+          "0000-0002-2829-1546"
+        ],
+        "affiliations": [
+          "Division of Pharmaceutical Sciences, Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, La Jolla, CA 92093, USA.",
+          "Department of Cellular & Molecular Medicine, School of Medicine, University of California San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Long, Manyuan",
+        "short_name": "Long M",
+        "identifiers": [
+          "0000-0002-6755-197X"
+        ],
+        "affiliations": [
+          "Department of Ecology and Evolution, The University of Chicago, Chicago, IL 60637, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology and evolution"
+    ],
+    "journal_abbrev": [
+      "Genome Biol Evol"
+    ],
+    "pub_date": "2024 Jun 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/16 12:42",
+    "fetched_at": "2026-09-21 07:11:04"
+  },
+  "links": {
+    "cites": [
+      "42098939",
+      "41749772",
+      "41606234",
+      "41516420",
+      "41495041",
+      "41313722",
+      "41241904",
+      "39875578",
+      "39212966",
+      "38597156"
+    ],
+    "refs": [
+      "38297118",
+      "38280868",
+      "38226524",
+      "37957331",
+      "37878721",
+      "37737275",
+      "37567456",
+      "37405868",
+      "37139943",
+      "37113259",
+      "37092778",
+      "37024625",
+      "36928843",
+      "36638273",
+      "36593289",
+      "36543139",
+      "36306001",
+      "36304330",
+      "36038728",
+      "35946411",
+      "35883541",
+      "35727975",
+      "35562983",
+      "35561203",
+      "35535669",
+      "35451603",
+      "35273146",
+      "35253876",
+      "35013344",
+      "34828383",
+      "34810219",
+      "34480923",
+      "34265844",
+      "33905510",
+      "33712569",
+      "33567396",
+      "33504782",
+      "33210146",
+      "33137085",
+      "32631994",
+      "32553192",
+      "32253450",
+      "31436535",
+      "31091705",
+      "30858588",
+      "30765531",
+      "30504363",
+      "30423086",
+      "30201962",
+      "29358651",
+      "29220506",
+      "29033289",
+      "28713666",
+      "28698598",
+      "28642936",
+      "28355220",
+      "28104747",
+      "28087781",
+      "27587688",
+      "27503228",
+      "27452112",
+      "26651072",
+      "26193119",
+      "26075209",
+      "25999294",
+      "25736992",
+      "25172924",
+      "24457212",
+      "24391509",
+      "24050177",
+      "23932589",
+      "23723000",
+      "23553817",
+      "23420643",
+      "23104886",
+      "22722833",
+      "21816040",
+      "20651121",
+      "20164152",
+      "19944701",
+      "19726446",
+      "19596244",
+      "19594871",
+      "19443443",
+      "18493065",
+      "16884331",
+      "16777968",
+      "15537804",
+      "15215436",
+      "14634634",
+      "13683523",
+      "12368089",
+      "11381529",
+      "7529940",
+      "5065367",
+      "860134"
+    ],
+    "similar": [
+      "38753069",
+      "30858588",
+      "25368197",
+      "16896230",
+      "22194805",
+      "21266036",
+      "14966247",
+      "37425675",
+      "19825586",
+      "39237856",
+      "15785851",
+      "29802682",
+      "31492104",
+      "30346517",
+      "25736992",
+      "35618417",
+      "31364708",
+      "28347275",
+      "23912807",
+      "29033289",
+      "38226524",
+      "34310794",
+      "23256513",
+      "16980566",
+      "23481403",
+      "32748498",
+      "37139943",
+      "19240804",
+      "25531538",
+      "34585814",
+      "27725674",
+      "39039384",
+      "34810219",
+      "30201962",
+      "38597156",
+      "20003305",
+      "24812252",
+      "39212967",
+      "34147070",
+      "27154274",
+      "30469332",
+      "30710646",
+      "38280868",
+      "32731489",
+      "33606144",
+      "31164464",
+      "15720672",
+      "26467431",
+      "33712569",
+      "19098269",
+      "29220506",
+      "17941993",
+      "32998689",
+      "21408199",
+      "35959631",
+      "31181814",
+      "9278162",
+      "24393121",
+      "26032716",
+      "28104747",
+      "20185454",
+      "34502554",
+      "32253450",
+      "17720868",
+      "14593201",
+      "25842177",
+      "39004885",
+      "15040813",
+      "30298392",
+      "33539781",
+      "14764899",
+      "25670339",
+      "30651279",
+      "37689241",
+      "19640978",
+      "20438643",
+      "25380807",
+      "22930426",
+      "18039882",
+      "18696028",
+      "32996244",
+      "17135333",
+      "24146629",
+      "21382590",
+      "21949823",
+      "22793791",
+      "19648232",
+      "24206529",
+      "33827423",
+      "19549309",
+      "34389920",
+      "27026054",
+      "11073452",
+      "30030405",
+      "18221561",
+      "37442576",
+      "19136467",
+      "20813113",
+      "33310020",
+      "34469536"
+    ],
+    "review": [
+      "38753069",
+      "35959631"
+    ],
+    "pmc": [
+      "11149777"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38753069/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38753069",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt9sj3n83x",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://academic.oup.com/gbe/article-lookup/doi/10.1093/gbe/evae107",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, results, discussion) without figures or supplementary materials
+- **Assessment boundary** Scientific validity, methodological soundness, and support of claims based solely on the provided text; experimental data and figures referenced but not available for verification
+- **Shared manuscript claim summary** The authors describe an AI-guided computational pipeline combining molecular dynamics, quantum chemical calculations, AlphaFold2, ProteinMPNN, and HADDOCK to design nanobodies targeting the VQIVYK aggregation motif of tau. Two candidates (NT1, NT2) reportedly show strong binding to recombinant tau and Alzheimer's disease brain tissue, with NT1 exceeding a positive control.
+- **Visible evidence base** Abstract, main text narrative, results sections with numerical values for computational analyses and binding indices; figures referenced but not provided
+- **Missing materials affecting confidence** All figures, experimental methods, raw data, statistical details, sequence information, and supplementary materials are absent; the results section is incomplete and lacks methodological detail
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to nanobody discovery against a challenging intrinsically disordered protein target. The computational strategy is logical and the preliminary binding data are encouraging. However, the manuscript in its current form is substantially incomplete. The results section is fragmentary, figures are not available, and critical methodological details for both computational and experimental procedures are missing. The claims of novelty and translational potential exceed what can be evaluated from the provided material. The work has potential but is not yet established as a rigorous scientific contribution.
+- **Who would be interested in the results, and why** Researchers in protein engineering, computational antibody design, and neurodegenerative disease biology would find this work relevant. Those developing AI-based biologics discovery platforms and those studying tau-targeting therapeutics would be the primary audience. The approach may also interest structural biologists working on intrinsically disordered proteins.
+- **Major strengths** The target selection is well justified, with the VQIVYK motif being a well-established aggregation hotspot. The combination of multiple computational tools (MD, quantum chemistry, AlphaFold2, ProteinMPNN, HADDOCK) into a single pipeline is methodologically ambitious. The inclusion of both in vitro and ex vivo validation is appropriate. The authors acknowledge limitations regarding therapeutic efficacy.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular dynamics sampling of 100 conformers and subsequent quantum chemical analysis provide meaningful conformational insights that guided nanobody design.
+  - **Evidence pointer** Results section "Target exploration of VQIVYK motif of tau"; Fig. 1 referenced but not provided
+  - **Concern** The computational analysis is presented without sufficient methodological detail. The force field, simulation length, temperature, solvation conditions, and convergence criteria for the MD simulations are not stated. The quantum chemical method is described only as "single-point RHF calculations" without basis set specification. The selection of 100 conformers from what is presumably a much larger trajectory is not justified. The relationship between these computational findings and the subsequent design decisions is asserted but not demonstrated.
+  - **Why it matters** Without these details, the computational results cannot be reproduced or evaluated for validity. The claim that conformational insights "guided" the design is a central pillar of the paper, but the logical connection is not made explicit.
+  - **Resolution test** Provide complete simulation parameters, convergence analysis, conformer selection criteria, and a clear description of how specific conformational features informed specific design choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ProteinMPNN generated 145 candidate CDR3 sequences and that AlphaFold2 modeling followed by HADDOCK docking enabled prioritization of candidates.
+  - **Evidence pointer** Results section "Nanobody hit screening targeting the VQIVYK epitope"; Fig. 2 referenced but not provided
+  - **Concern** The computational screening workflow is described at a high level but lacks critical details. The training data and sampling strategy for ProteinMPNN are not described. The AlphaFold2 confidence metrics (pLDDT, PAE) are not reported. The HADDOCK scoring function and the "composite metric" weighting scheme are described only in percentage terms without defining the underlying scales. The criteria for selecting the four candidates from 145 are not fully specified. The statement that the parental CDR3 "scored a composite of 0.809, the highest in the library" is confusing because the parental sequence should be the reference against which designs are compared.
+  - **Why it matters** The computational pipeline is the core novelty of the paper. Without detailed methodology, the results cannot be reproduced, and the validity of the prioritization cannot be assessed.
+  - **Resolution test** Provide complete details of the generation, filtering, and scoring procedures, including all parameters, thresholds, and the full ranking table for all 145 candidates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that NT1 and NT2 demonstrate robust binding to tau in ELISA and that NT1 shows strong reactivity in Alzheimer's disease brain tissue exceeding a positive control.
+  - **Evidence pointer** Results section "In-vitro and ex-vivo neuropathological binding validation"; Fig. 3 referenced but not provided
+  - **Concern** The experimental validation is described without any methodological detail. The expression system, purification method, protein concentrations, assay conditions, replicates, and statistical analysis are not described. The "normalized binding index" is not defined with respect to what concentration, what reference antibody, or what normalization procedure. The positive control is described as a "VQIVYK-binding single domain antibody" but the negative control is only described as "non-tau targeting" without specifying its sequence or origin. The tissue-based assay is not described at all. The claim that NT1 exceeds the positive control in brain tissue is based on a single index value without error bars or statistical comparison.
+  - **Why it matters** The experimental validation is the key evidence that the computational design produced functional binders. Without methodological detail and statistical support, the binding claims cannot be evaluated.
+  - **Resolution test** Provide complete experimental protocols, raw data, replicate information, statistical tests, and the definition of the normalization procedure.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim this is the first demonstration of AI-designed nanobodies targeting an IDP aggregation motif and that the approach is broadly applicable.
+  - **Evidence pointer** Abstract and Discussion
+  - **Concern** The novelty claim is not adequately supported. The authors do not discuss prior computational antibody design efforts against tau or other IDPs in sufficient depth. The statement that this is "first of its kind" requires a more thorough literature comparison. Additionally, the claim of broad applicability is speculative given that only one target has been tested.
+  - **Why it matters** The scientific importance of the work depends on its novelty relative to existing approaches. Overstated novelty claims undermine the credibility of the manuscript.
+  - **Resolution test** Provide a comprehensive comparison with prior computational antibody design studies, particularly those targeting tau or other IDPs, and temper the novelty claims accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence is grammatically awkward and could be clearer.
+  - **Required correction** Revise for clarity, for example "Intrinsically disordered proteins (IDPs) are major therapeutic targets in neurodegenerative disease, but their conformational heterogeneity and aggregation-prone behavior make them challenging to engage with conventional approaches."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Target exploration of VQIVYK motif of tau"
+  - **Evidence pointer** "Total MD energies spanned 653.15–809.62 kJ/mol"
+  - **Issue** The units for MD energies are unusual. Total potential energy in MD is typically reported in kJ/mol, but the range seems narrow for a 100-conformer ensemble of a hexapeptide. Clarification of what energy term is being reported would be helpful.
+  - **Required correction** Specify which energy term is reported and provide context for the range.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Nanobody hit screening targeting the VQIVYK epitope"
+  - **Evidence pointer** "Ser102 was retained as a fixed anchor to preserve framework connectivity"
+  - **Issue** The rationale for fixing Ser102 is unclear. Is this a conserved framework residue? What would happen if it were varied?
+  - **Required correction** Provide a brief justification for this design choice.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** "This study for the first time demonstrates" and "first of its kind"
+  - **Issue** The novelty claims are repeated multiple times and could be seen as overstated.
+  - **Required correction** Consolidate and temper the novelty claims.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "In-vitro and ex-vivo neuropathological binding validation"
+  - **Evidence pointer** "Nanil's NT1" and "Nanil's NT2"
+  - **Issue** The term "Nanil's" is used without definition. This appears to be an error or an unexplained label.
+  - **Required correction** Remove or define this term.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** "integrating classical computing-informed target analysis with AI-guided nanobody design"
+  - **Issue** The phrase "classical computing-informed" is vague. It presumably refers to MD and quantum chemistry, but the term is unclear.
+  - **Required correction** Use more specific terminology, such as "molecular dynamics and quantum chemical calculations."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The computational methodology is insufficiently detailed, the experimental validation lacks protocols and statistics, and the connection between computational predictions and experimental results is not demonstrated.
+
+## Risk / unsupported claims
+- The claim that conformational insights from MD and quantum chemical calculations "guided" the nanobody design is asserted but not demonstrated with specific examples.
+- The claim that NT1 exceeds a positive control in Alzheimer's disease brain tissue is unsupported without statistical analysis and error reporting.
+- The claim that this is the "first" demonstration of its kind is not substantiated with a comprehensive literature review.
+- The claim of broad applicability to other IDP targets is speculative.
+- The binding indices (148.9%, 140%, 236.1%, 137.4%, 76%, 53.3%) are presented without definition of the normalization procedure or experimental context.
+- The statement that the parental CDR3 scored highest in the library is confusing and requires clarification of the scoring framework.

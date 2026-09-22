@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "37796176",
+    "doi": "10.1002/jcb.30480",
+    "title": "Comprehensive analysis of liquid-liquid phase separation propensities of HSV-1 proteins and their interaction with host factors."
+  },
+  "content": {
+    "abstract": "In recent years, it has been shown that the liquid-liquid phase separation (LLPS) of virus proteins plays a crucial role in their life cycle. It promotes the formation of viral replication organelles, concentrating viral components for efficient replication and facilitates the assembly of viral particles. LLPS has emerged as a crucial process in the replication and assembly of herpes simplex virus-1 (HSV-1). Recent studies have identified several HSV-1 proteins involved in LLPS, including the myristylated tegument protein UL11 and infected cell protein 4; however, a complete proteome-level understanding of the LLPS-prone HSV-1 proteins is not available. We provide a comprehensive analysis of the HSV-1 proteome and explore the potential of its proteins to undergo LLPS. By integrating sequence analysis, prediction algorithms and an array of tools and servers, we identified 10 HSV-1 proteins that exhibit high LLPS potential. By analysing the amino acid sequences of the LLPS-prone proteins, we identified specific sequence motifs and enriched amino acid residues commonly found in LLPS-prone regions. Our findings reveal a diverse range of LLPS-prone proteins within the HSV-1, which are involved in critical viral processes such as replication, transcriptional regulation and assembly of viral particles. This suggests that LLPS might play a crucial role in facilitating the formation of specialized viral replication compartments and the assembly of HSV-1 virion. The identification of LLPS-prone proteins in HSV-1 opens up new avenues for understanding the molecular mechanisms underlying viral pathogenesis. Our work provides valuable insights into the LLPS landscape of HSV-1, highlighting potential targets for further experimental validation and enhancing our understanding of viral replication and pathogenesis.",
+    "keywords": [
+      "AlphaFold",
+      "disordered proteins",
+      "herpes simplex virus-1",
+      "liquid-liquid phase separation",
+      "protein-protein interaction",
+      "structure prediction",
+      "viral proteins"
+    ],
+    "mesh_terms": [
+      "*Herpesvirus 1, Human/metabolism/physiology/genetics",
+      "Humans",
+      "*Viral Proteins/metabolism/genetics/chemistry",
+      "Virus Replication",
+      "Host-Pathogen Interactions",
+      "Proteome/metabolism",
+      "Herpes Simplex/virology/metabolism",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Subedi, Sushma",
+        "Nag, Niharika",
+        "Shukla, Harish",
+        "Padhi, Aditya K",
+        "Tripathi, Timir"
+      ],
+      "short_names": [
+        "Subedi S",
+        "Nag N",
+        "Shukla H",
+        "Padhi AK",
+        "Tripathi T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0824-0186",
+        "ORCID: 0000-0003-1236-9289",
+        "ORCID: 0000-0002-5919-6808",
+        "ORCID: 0000-0001-6732-2547",
+        "ORCID: 0000-0001-5559-289X"
+      ],
+      "affiliations": [
+        "Molecular and Structural Biophysics Laboratory, Department of Biochemistry, North-Eastern Hill University, Shillong, India.",
+        "Molecular and Structural Biophysics Laboratory, Department of Biochemistry, North-Eastern Hill University, Shillong, India.",
+        "Molecular and Structural Biophysics Laboratory, Department of Biochemistry, North-Eastern Hill University, Shillong, India.",
+        "Laboratory for Computational Biology & Biomolecular Design, School of Biochemical Engineering, Indian Institute of Technology (BHU), Varanasi, India.",
+        "Molecular and Structural Biophysics Laboratory, Department of Biochemistry, North-Eastern Hill University, Shillong, India.",
+        "Department of Zoology, North-Eastern Hill University, Shillong, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Subedi, Sushma",
+        "short_name": "Subedi S",
+        "identifiers": [
+          "0000-0002-0824-0186"
+        ],
+        "affiliations": [
+          "Molecular and Structural Biophysics Laboratory, Department of Biochemistry, North-Eastern Hill University, Shillong, India."
+        ]
+      },
+      {
+        "full_name": "Nag, Niharika",
+        "short_name": "Nag N",
+        "identifiers": [
+          "0000-0003-1236-9289"
+        ],
+        "affiliations": [
+          "Molecular and Structural Biophysics Laboratory, Department of Biochemistry, North-Eastern Hill University, Shillong, India."
+        ]
+      },
+      {
+        "full_name": "Shukla, Harish",
+        "short_name": "Shukla H",
+        "identifiers": [
+          "0000-0002-5919-6808"
+        ],
+        "affiliations": [
+          "Molecular and Structural Biophysics Laboratory, Department of Biochemistry, North-Eastern Hill University, Shillong, India."
+        ]
+      },
+      {
+        "full_name": "Padhi, Aditya K",
+        "short_name": "Padhi AK",
+        "identifiers": [
+          "0000-0001-6732-2547"
+        ],
+        "affiliations": [
+          "Laboratory for Computational Biology & Biomolecular Design, School of Biochemical Engineering, Indian Institute of Technology (BHU), Varanasi, India."
+        ]
+      },
+      {
+        "full_name": "Tripathi, Timir",
+        "short_name": "Tripathi T",
+        "identifiers": [
+          "0000-0001-5559-289X"
+        ],
+        "affiliations": [
+          "Molecular and Structural Biophysics Laboratory, Department of Biochemistry, North-Eastern Hill University, Shillong, India.",
+          "Department of Zoology, North-Eastern Hill University, Shillong, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular biochemistry"
+    ],
+    "journal_abbrev": [
+      "J Cell Biochem"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/05 12:42",
+    "fetched_at": "2026-09-21 01:52:32"
+  },
+  "links": {
+    "cites": [
+      "41930348",
+      "38275947"
+    ],
+    "refs": [],
+    "similar": [
+      "37796176",
+      "32371601",
+      "33923223",
+      "33148793",
+      "27847362",
+      "27852850",
+      "27440890",
+      "32938770",
+      "30465930",
+      "32699089",
+      "29976672",
+      "32391791",
+      "41264624",
+      "40827854",
+      "20573815",
+      "22491472",
+      "38819171",
+      "26491159",
+      "33291814",
+      "26937035",
+      "33374862",
+      "39136460",
+      "40636257",
+      "39162498",
+      "24067977",
+      "25758154",
+      "27030266",
+      "31391274",
+      "21667337",
+      "23938468",
+      "31043535",
+      "26018857",
+      "30018111",
+      "29743370",
+      "30045990",
+      "9060678",
+      "29896662",
+      "22301138",
+      "26656703",
+      "29187538",
+      "26018390",
+      "29263259",
+      "40586577",
+      "41363845",
+      "39194247",
+      "27535048",
+      "22496211",
+      "26739050",
+      "21249171",
+      "33923040",
+      "41092354",
+      "24352467",
+      "29309427",
+      "25036476",
+      "34749529",
+      "28835497",
+      "32999028",
+      "31375591",
+      "11907244",
+      "22013045",
+      "24991005",
+      "19670248",
+      "36675052",
+      "31941785",
+      "29669832",
+      "24067963",
+      "11200675",
+      "24413420",
+      "30080903",
+      "28148788",
+      "24453372",
+      "21937652",
+      "27009950",
+      "27581980",
+      "32967953",
+      "26269179",
+      "27252536",
+      "33260713",
+      "39316591",
+      "32611749",
+      "24760889",
+      "39572750",
+      "27343062",
+      "34398933",
+      "20943970",
+      "17035313",
+      "24741100",
+      "22202175",
+      "30814317",
+      "11681207",
+      "38402407",
+      "31375597",
+      "30717447",
+      "39898651",
+      "41342556",
+      "40824090",
+      "29321311",
+      "40515902",
+      "39136459",
+      "38651900"
+    ],
+    "review": [
+      "37796176",
+      "33374862",
+      "29896662",
+      "33923040",
+      "11200675",
+      "33260713",
+      "27343062"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/jcb.30480",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "identity": {
+    "pmid": "36291634",
+    "doi": "10.3390/biom12101426",
+    "title": "Deciphering the Alphabet of Disorder-Glu and Asp Act Differently on Local but Not Global Properties."
+  },
+  "content": {
+    "abstract": "Compared to folded proteins, the sequences of intrinsically disordered proteins (IDPs) are enriched in polar and charged amino acids. Glutamate is one of the most enriched amino acids in IDPs, while the chemically similar amino acid aspartate is less enriched. So far, the underlying functional differences between glutamates and aspartates in IDPs remain poorly understood. In this study, we examine the differential effects of aspartate and glutamates in IDPs by comparing the function and conformational ensemble of glutamate and aspartate variants of the disordered protein Dss1, using a range of assays, including interaction studies, nuclear magnetic resonance spectroscopy, small-angle X-ray scattering and molecular dynamics simulation. First, we analyze the sequences of the rapidly growing database of experimentally verified IDPs (DisProt) and show that glutamate enrichment is not caused by a taxonomy bias in IDPs. From analyses of local and global structural properties as well as cell growth and protein-protein interactions using a model acidic IDP from yeast and three Glu/Asp variants, we find that while the Glu/Asp variants support similar function and global dimensions, the variants differ in their binding affinities and population of local transient structural elements. We speculate that these local structural differences may play roles in functional diversity, where glutamates can support increased helicity, important for folding and binding, while aspartates support extended structures and form helical caps, as well as playing more relevant roles in, e.g., transactivation domains and ion-binding.",
+    "keywords": [
+      "Dss1",
+      "IDPs",
+      "NMR",
+      "SAXS",
+      "intrinsically disordered protein",
+      "molecular dynamics",
+      "sequence composition"
+    ],
+    "mesh_terms": [
+      "Aspartic Acid",
+      "Glutamic Acid",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Roesgaard, Mette Ahrensback",
+        "Lundsgaard, Jeppe E",
+        "Newcombe, Estella A",
+        "Jacobsen, Nina L",
+        "Pesce, Francesco",
+        "Tranchant, Emil E",
+        "Lindemose, Soren",
+        "Prestel, Andreas",
+        "Hartmann-Petersen, Rasmus",
+        "Lindorff-Larsen, Kresten",
+        "Kragelund, Birthe B"
+      ],
+      "short_names": [
+        "Roesgaard MA",
+        "Lundsgaard JE",
+        "Newcombe EA",
+        "Jacobsen NL",
+        "Pesce F",
+        "Tranchant EE",
+        "Lindemose S",
+        "Prestel A",
+        "Hartmann-Petersen R",
+        "Lindorff-Larsen K",
+        "Kragelund BB"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7927-8704",
+        "ORCID: 0000-0002-8264-0057",
+        "ORCID: 0000-0002-4755-1796",
+        "ORCID: 0000-0002-4155-7791",
+        "ORCID: 0000-0002-4750-6039",
+        "ORCID: 0000-0002-7454-1761"
+      ],
+      "affiliations": [
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen, Denmark.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen, Denmark.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen, Denmark.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen, Denmark.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen, Denmark.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen, Denmark.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen, Denmark.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen, Denmark.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen, Denmark.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen, Denmark.",
+        "Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes Vej 5, 2200 Copenhagen, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Roesgaard, Mette Ahrensback",
+        "short_name": "Roesgaard MA",
+        "identifiers": [
+          "0000-0002-7927-8704"
+        ],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Lundsgaard, Jeppe E",
+        "short_name": "Lundsgaard JE",
+        "identifiers": [],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Newcombe, Estella A",
+        "short_name": "Newcombe EA",
+        "identifiers": [],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Jacobsen, Nina L",
+        "short_name": "Jacobsen NL",
+        "identifiers": [
+          "0000-0002-8264-0057"
+        ],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Pesce, Francesco",
+        "short_name": "Pesce F",
+        "identifiers": [],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Tranchant, Emil E",
+        "short_name": "Tranchant EE",
+        "identifiers": [
+          "0000-0002-4755-1796"
+        ],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Lindemose, Søren",
+        "short_name": "Lindemose S",
+        "identifiers": [],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Prestel, Andreas",
+        "short_name": "Prestel A",
+        "identifiers": [],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Hartmann-Petersen, Rasmus",
+        "short_name": "Hartmann-Petersen R",
+        "identifiers": [
+          "0000-0002-4155-7791"
+        ],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Lindorff-Larsen, Kresten",
+        "short_name": "Lindorff-Larsen K",
+        "identifiers": [
+          "0000-0002-4750-6039"
+        ],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kragelund, Birthe B",
+        "short_name": "Kragelund BB",
+        "identifiers": [
+          "0000-0002-7454-1761"
+        ],
+        "affiliations": [
+          "Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2022 Oct 4",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/28 06:00",
+    "fetched_at": "2026-09-20 16:11:39"
+  },
+  "links": {
+    "cites": [
+      "41838698",
+      "41420151",
+      "41157240",
+      "39940886",
+      "39677729",
+      "39502361",
+      "39062899",
+      "38532700",
+      "38114424",
+      "37371595",
+      "37175442",
+      "37160462",
+      "36881934"
+    ],
+    "refs": [
+      "35974206",
+      "35512095",
+      "34931046",
+      "34850135",
+      "34439840",
+      "34272906",
+      "33237286",
+      "33125078",
+      "32696358",
+      "32696350",
+      "31713636",
+      "31396917",
+      "31363226",
+      "30875980",
+      "30471688",
+      "30355493",
+      "29735687",
+      "29413001",
+      "28808438",
+      "28516010",
+      "28471369",
+      "28425697",
+      "28019676",
+      "27899601",
+      "27583570",
+      "26944332",
+      "26620784",
+      "26588957",
+      "26574304",
+      "26488642",
+      "25531225",
+      "25306921",
+      "24449148",
+      "24412063",
+      "23407358",
+      "22343721",
+      "22109817",
+      "21613569",
+      "21604143",
+      "21234644",
+      "20160946",
+      "18391200",
+      "18232845",
+      "17578581",
+      "17212484",
+      "16494409",
+      "16211538",
+      "16149916",
+      "16088874",
+      "15815974",
+      "15572408",
+      "15546162",
+      "15173120",
+      "15117943",
+      "12418108",
+      "12368089",
+      "11381529",
+      "11262981",
+      "10592235",
+      "9649402",
+      "8520220",
+      "7670375",
+      "6667333",
+      "4728695",
+      "1668721"
+    ],
+    "similar": [
+      "36291634",
+      "30840442",
+      "36674958",
+      "31809054",
+      "36641212",
+      "27844185",
+      "26387101",
+      "30979035",
+      "32859072",
+      "32579908",
+      "33355572",
+      "29808548",
+      "31756456",
+      "32696367",
+      "33945530",
+      "29571687",
+      "26387110",
+      "34504009",
+      "29548755",
+      "24739176",
+      "24211251",
+      "34390736",
+      "28493424",
+      "32585849",
+      "25207671",
+      "23794453",
+      "26387105",
+      "28554553",
+      "34272906",
+      "35053175",
+      "26320411",
+      "24317797",
+      "38118365",
+      "28834051",
+      "30913885",
+      "31052346",
+      "34626492",
+      "34032235",
+      "29276882",
+      "24671380",
+      "34656328",
+      "32771522",
+      "33581430",
+      "32074499",
+      "31402649",
+      "36178373",
+      "26195786",
+      "34546059",
+      "32696361",
+      "30813315",
+      "30813629",
+      "22988847",
+      "32357776",
+      "26387102",
+      "25287424",
+      "34845619",
+      "30204435",
+      "30878202",
+      "32696365",
+      "31548393",
+      "30909517",
+      "34545666",
+      "30184304",
+      "29382046",
+      "29548979",
+      "30527137",
+      "23754493",
+      "31794728",
+      "32323533",
+      "30865832",
+      "35377637",
+      "32698546",
+      "29733855",
+      "24604825",
+      "25496281",
+      "26387104",
+      "28805390",
+      "30025858",
+      "35470621",
+      "26742101",
+      "33951592",
+      "27936491",
+      "33310020",
+      "26574339",
+      "16787768",
+      "30528464",
+      "28076807",
+      "28295918",
+      "31021441",
+      "33078950",
+      "31241933",
+      "31375817",
+      "36714997",
+      "35074392",
+      "28885015",
+      "38507044",
+      "37459524",
+      "37936402",
+      "37838830",
+      "36917561",
+      "38177684",
+      "38657047",
+      "38707546",
+      "34981860",
+      "36066390",
+      "35512095",
+      "38114424",
+      "37153862",
+      "37632987",
+      "36331868",
+      "39105804",
+      "37961110",
+      "38112495",
+      "35755809",
+      "38464187",
+      "38165099",
+      "36778236",
+      "36343363",
+      "36452990",
+      "37167423",
+      "38358563",
+      "37368985",
+      "36711093",
+      "38250712",
+      "37905226"
+    ],
+    "review": [
+      "36291634",
+      "30840442",
+      "26387101",
+      "30979035",
+      "33355572",
+      "26387110",
+      "34390736",
+      "23794453",
+      "26387105",
+      "28554553",
+      "35053175",
+      "26320411",
+      "38118365",
+      "30813629",
+      "22988847",
+      "26387102",
+      "25287424",
+      "30909517",
+      "34545666",
+      "29382046",
+      "30527137",
+      "26387104",
+      "33951592",
+      "31021441"
+    ],
+    "pmc": [
+      "9599281"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom12101426",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36291634/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36291634",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-179",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

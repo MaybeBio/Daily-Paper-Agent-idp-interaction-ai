@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2504.11027v2",
+  "title": "From Heteropolymer Stiffness Distributions to Effective Homopolymers: A Conformational Analysis of Intrinsically Disordered Proteins",
+  "authors": "Yannick Witzky; Friederike Schmid; Arash Nikoubashman",
+  "journal": "J. Chem. Phys. 163, 164907 (2025)",
+  "published_date": "2025-04-15",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用异质蠕虫链模型和粗粒化模拟研究无序蛋白的构象，将异质刚度映射为均质链，虽涉及IDP构象但未聚焦PPI互作机制，方法上属物理模拟但无AI，故综合评6分。",
+  "abstract": "Synthetic copolymers and biopolymers, such as polypeptides and double-stranded DNA, often exhibit strong variations in bending stiffness along their contour, which can significantly impact conformational behavior at larger scales. To investigate these effects, we employ a discretized heterogeneous worm-like chain model, where the local persistence lengths are drawn from a Gaussian distribution. In the first part, we develop a theoretical model that maps such heterogeneous chains to homogeneous chains with a single effective persistence length. For uncorrelated disorder, our model predicts that this effective stiffness is systematically smaller than the arithmetic mean of the local persistence lengths, indicating that flexible segments have a bigger influence on the overall chain stiffness than rigid segments. We validate our model predictions using off-lattice Monte Carlo simulations, considering both ideal and self-avoiding chains in good solvent, and find excellent agreement in the regime, where the persistence lengths are on the order of a few bond lengths, consistent with typical values observed in polypeptides. In the second part, we performed simulations using various coarse-grained models of intrinsically disordered proteins (IDPs), finding that the simulated IDPs have similar shapes like the corresponding homogeneous and heterogeneous worm-like chains. However, the IDPs are systematically larger than ideal worm-like chains, yet slightly more compact when excluded volume interactions are considered. We attribute these differences to intramolecular interactions between non-bonded monomers, which our theoretical models do not account for.",
+  "abstract_zh": "合成共聚物和生物聚合物，如多肽和双链DNA，沿其轮廓常表现出弯曲刚度的显著变化，这可能在更大尺度上显著影响构象行为。为研究这些效应，我们采用离散化的异质蠕虫链模型，其中局部持久长度从高斯分布中抽取。在第一部分，我们发展了一个理论模型，将此类异质链映射为具有单一有效持久长度的均质链。对于无关联无序，我们的模型预测该有效刚度系统性地小于局部持久长度的算术平均值，表明柔性片段对整体链刚度的影响大于刚性片段。我们使用离格蒙特卡洛模拟验证模型预测，考虑良溶剂中的理想链和自避链，并在持久长度约为几个键长（与多肽中典型值一致）的范围内发现极好的一致性。在第二部分，我们使用多种内在无序蛋白质（IDPs）的粗粒化模型进行模拟，发现模拟的IDPs具有与相应均质和异质蠕虫链相似的形状。然而，IDPs系统性地大于理想蠕虫链，但在考虑排除体积相互作用时略更紧凑。我们将这些差异归因于非键合单体间的分子内相互作用，而我们的理论模型未考虑这些作用。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2504.11027v2",
+  "source_url": "https://arxiv.org/abs/2504.11027v2",
+  "paper_page_path": "papers/arxiv/2504.11027v2/index.html"
+}

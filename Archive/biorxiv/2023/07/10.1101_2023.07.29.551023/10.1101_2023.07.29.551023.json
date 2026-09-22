@@ -1,0 +1,582 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.29.551023",
+  "title": "AlphaFold2 modeling and molecular dynamics simulations of an intrinsically disordered protein",
+  "doi": "10.1101/2023.07.29.551023",
+  "abstract": "We use AlphaFold2 (AF2) to model the monomer and dimer structures of an intrinsically disordered protein (IDP), Nvjp-1 , assisted by molecular dynamics (MD) simulations. We observe relatively rigid dimeric structures of Nvjp-1 when compared with the monomer structures. We suggest that protein conformations from multiple AF2 models and those from MD trajectories exhibit a coherent trend: the conformations of an IDP are deviated from each other and the conformations of a well-folded protein are consistent with each other. We use a residue-residue interaction network (RIN) derived from the contact map which show that the residue-residue interactions in Nvjp-1 are mainly transient; however, those in a well-folded protein are mainly persistent. Despite the variation in 3D shapes, we show that the AF2 models of both disordered and ordered proteins exhibit highly consistent profiles of the pLDDT (predicted local distance difference test) scores. These results indicate a potential protocol to justify the IDPs based on multiple AF2 models and MD simulations. The TOC figure:",
+  "authors": [
+    "Hao-Bo Guo",
+    "Baxter Huntington",
+    "Alexander Perminov",
+    "Kenya Smith",
+    "Nicholas Hastings",
+    "Patrick Dennis",
+    "Nancy Kelley-Loughnane",
+    "Rajiv Berry"
+  ],
+  "published_date": "2023-07-30",
+  "updated_date": "2023-07-30T14:05:11Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.29.551023",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.29.551023.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:03:27Z",
+        "timestamp": 1768507407920,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            30
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 61,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            30
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  We use AlphaFold2 (AF2) to model the monomer and dimer structures of an intrinsically disordered protein (IDP),\n                  <jats:italic>Nvjp-1</jats:italic>\n                  , assisted by molecular dynamics (MD) simulations. We observe relatively rigid dimeric structures of\n                  <jats:italic>Nvjp-1</jats:italic>\n                  when compared with the monomer structures. We suggest that protein conformations from multiple AF2 models and those from MD trajectories exhibit a coherent trend: the conformations of an IDP are deviated from each other and the conformations of a well-folded protein are consistent with each other. We use a residue-residue interaction network (RIN) derived from the contact map which show that the residue-residue interactions in\n                  <jats:italic>Nvjp-1</jats:italic>\n                  are mainly transient; however, those in a well-folded protein are mainly persistent. Despite the variation in 3D shapes, we show that the AF2 models of both disordered and ordered proteins exhibit highly consistent profiles of the pLDDT (predicted local distance difference test) scores. These results indicate a potential protocol to justify the IDPs based on multiple AF2 models and MD simulations.\n                  <jats:fig id=\"ufig1\" position=\"float\" orientation=\"portrait\" fig-type=\"figure\">\n                    <jats:caption>\n                      <jats:p>The TOC figure:</jats:p>\n                    </jats:caption>\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"551023v1_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:p>",
+      "DOI": "10.1101/2023.07.29.551023",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2023-07-30T14:05:11Z",
+        "timestamp": 1690725911000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "AlphaFold2 modeling and molecular dynamics simulations of an intrinsically disordered protein"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1321-1758",
+          "authenticated-orcid": false,
+          "given": "Hao-Bo",
+          "family": "Guo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Baxter",
+          "family": "Huntington",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alexander",
+          "family": "Perminov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kenya",
+          "family": "Smith",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nicholas",
+          "family": "Hastings",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Patrick",
+          "family": "Dennis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nancy",
+          "family": "Kelley-Loughnane",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Rajiv",
+          "family": "Berry",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.181.4096.223"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.7"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.2c02807"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1669",
+          "DOI": "10.1021/bm800200a",
+          "article-title": "Cutting Edge Structural Protein from the Jaws of Nereis virens",
+          "volume": "9",
+          "year": "2008",
+          "journal-title": "Biomacromolecules"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acsnano.6b07878"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01432-w"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3724/SP.J.1087.2009.02191"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4161/idp.24157"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab408"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Evans, R. , O’Neill, M. , Pritzel, A. , Antropova, N. , Senior, A.W. , Green, T. , Žídek, A. , Bates, R. , Blackwell, S. , and Yim, J. (2021). Protein complex prediction with AlphaFold-Multimer. BioRxiv.",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2005.01.002"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2011.04.001"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "566",
+          "DOI": "10.1002/prot.340230412",
+          "article-title": "Knowledge-based protein secondary structure assignment. Proteins: Structure",
+          "volume": "23",
+          "year": "1995",
+          "journal-title": "Function, and Bioinformatics"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BST20200239"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3730"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3923"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.18",
+          "first-page": "4028",
+          "article-title": "Accurate prediction by AlphaFold2 for ligand binding in a reductive dehalogenase and implications for PFAS (per- and polfuluoroalkyl substance) biodegradation",
+          "volume": "13",
+          "year": "2023",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/e21060591"
+        },
+        {
+          "issue": "10696",
+          "key": "2023080200500517000_2023.07.29.551023v1.20",
+          "first-page": "10",
+          "article-title": "AlphaFold2 models indicate that protein sequence determines both structure and dynamics",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acsami.8b10107"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1400577111"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4067"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0263-7855(96)00018-5"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Janin, J. , and Sternberg, M.J . (2013). Protein flexibility, not disorder, is intrinsic to molecular recognition. F1000 biology reports 5.",
+          "DOI": "10.3410/B5-2"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/PROT.26257"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01362-6"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2019.06.009"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2022.03.018"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01123-5"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky384"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp318"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01117-3"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/jxb/erx493"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btg412"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.crstbi.2021.06.002"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-7-208"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1142/S0219720005000886"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.26171"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/embr.202154046"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20289"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/5.0014475"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1808117"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1082"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-021-01759-1"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41591-021-01533-0"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2015.08.009"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03828-1"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.4210102"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2261"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.R115.685859"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/21690707.2015.1135015"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/1097-0134(20001115)41:3<415::AID-PROT130>3.0.CO;2-7"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpc.2021.106694"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1061"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms23094591"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1999.3110"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbapap.2010.01.011"
+        },
+        {
+          "key": "2023080200500517000_2023.07.29.551023v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki524"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.07.29.551023",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:00:23Z",
+        "timestamp": 1768453223000
+      },
+      "score": 97.63921,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.07.29.551023"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            30
+          ]
+        ]
+      },
+      "references-count": 61,
+      "URL": "https://doi.org/10.1101/2023.07.29.551023",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1371/journal.pone.0301866",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            7,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

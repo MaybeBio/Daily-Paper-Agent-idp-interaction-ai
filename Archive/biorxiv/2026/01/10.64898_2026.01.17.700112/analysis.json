@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.17.700112",
+  "title": "Transient tertiary structure in intrinsically disordered proteins revealed by multithermal enhanced sampling",
+  "authors": "Streit JO; Invernizzi M; Bottaro S; Tamiola K; Lindorff-Larsen K",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-21",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用OPES多热增强采样MD揭示IDP（如ACTR）中瞬态三级结构及协同折叠的α螺旋，直接关联无序蛋白互作机制建模，方法为物理模拟，对象与互作机制高度相关。",
+  "abstract": "Intrinsically disordered proteins populate heterogeneous conformational ensembles that are challenging to characterise. While all-atom molecular dynamics simulations can provide highly detailed insights into dynamic ensembles, achieving sufficient sampling remains difficult. Here, we show that On-the-fly Probability Enhanced Sampling (OPES) in the multithermal ensemble enables efficient generation of atomistic ensembles for disordered peptides and proteins ranging from 15 to 71 residues in length. Using the potential energy as a collective variable, OPES achieves multithermal sampling within a single simulation replica, without replica exchange or extensive parameter tuning. Across multiple systems, OPES yields reweighted ensembles broadly consistent with replica-exchange with solute tempering (REST2) and unbiased simulations, while accelerating convergence and enabling broader exploration of low-population conformational states. Applied to the intrinsically disordered transcriptional coactivator ACTR, OPES reveals transiently structured states in which multiple α -helices involved in partner binding fold cooperatively and form tertiary contacts. These rare, partially structured conformations are reversibly sampled during the simulations, consistent with extensive NMR and SAXS data, and could facilitate folding-upon-binding through conformational selection. They may also represent viable targets for drug design or for engineering disordered proteins with customised conformational landscapes. More broadly, our results establish OPES multithermal sampling as a robust and accessible approach for uncovering rare, functionally relevant conformations in intrinsically disordered proteins.",
+  "abstract_zh": "intrinsically disordered proteins（内在无序蛋白）会形成异质的构象集合，这些集合难以表征。虽然全原子分子动力学模拟能够为动态集合提供高度详细的见解，但实现充分采样仍然困难。在此，我们展示了在多热系综中采用On-the-fly Probability Enhanced Sampling（OPES）方法，能够高效生成长度从15到71个残基的无序肽段和蛋白质的原子级集合。利用势能作为集体变量，OPES在单一模拟副本内实现多热采样，无需副本交换或大量参数调整。在多个系统中，OPES产生的重加权集合与副本交换溶质升温（REST2）及无偏模拟大体一致，同时加速收敛并促进对低群体构象状态的更广泛探索。应用于内在无序的转录共激活因子ACTR时，OPES揭示了瞬态结构化状态，其中多个参与伙伴结合的α-螺旋协同折叠并形成三级接触。这些稀有、部分结构化的构象在模拟过程中被可逆地采样，与广泛的NMR和SAXS数据一致，并可能通过构象选择促进结合时的折叠。它们也可能代表药物设计或工程化具有定制构象景观的无序蛋白的可行靶点。更广泛地说，我们的结果确立了OPES多热采样作为一种稳健且易用的方法，用于揭示内在无序蛋白中稀有、功能相关的构象。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.17.700112",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.17.700112",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.17.700112/index.html"
+}

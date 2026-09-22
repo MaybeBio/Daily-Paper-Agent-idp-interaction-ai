@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41276815",
+  "title": "Mycobacterium tuberculosis uses intrinsically disordered, fast evolving proteins to interact with conserved host factors.",
+  "authors": "Pozzoli, Uberto; Forni, Diego; Arrigoni, Federica; Cagliani, Rachele; De Gioia, Luca; Sironi, Manuela",
+  "journal": "Genome biology",
+  "published_date": "2025-11-24",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过生物信息学分析揭示结核分枝杆菌IDR蛋白参与宿主互作与免疫调控，虽聚焦IDP与PPI但方法为预测工具集成而非AI/物理模拟，机制建模深度有限。",
+  "abstract": "BACKGROUND: Intrinsically disordered protein regions (IDRs) are implicated in diverse cellular processes in eukaryotes and, in these organisms, they cover up to 40% of the proteome. Surprisingly little is known about IDRs in bacterial proteomes. Specifically, a number of questions remain unanswered, such as the role of these regions in host-pathogen interactions, their adaptive potential and evolutionary trajectories, as well as their biophysical properties. Here we focus on Mycobacterium tuberculosis and take advantage of the fact that, due to its extreme epidemiological relevance, several large-scale analyses are available. RESULTS: After benchmarking different disorder prediction tools, we integrate multiple levels of biological information to show that IDR-containing proteins are involved in virulence, in the modulation of host immune response, and in lipid metabolism. Mycobacterium tuberculosis IDRs are fast evolving and poorly antigenic, and they display specific sequence-ensemble-function relationships. Conversely, human proteins that interact with Mycobacterium tuberculosis are evolutionary constrained, widely expressed, and highly connected in the human interactome map. This indicates that the classical arms race paradigm is not universal in host-pathogen interactions. We also extend analysis to 540 human-infecting bacteria and we underscore wide variations in IDR representation and conformational properties. CONCLUSIONS: Our data point to a role of IDRs in contributing to bacterial virulence, interaction with the human host, and control of immune responses. Although this awaits experimental validation, we suggest that Mycobacterium tuberculosis also uses IDRs to sense and interact with its environment. Herein, we provide a database of bacterial IDRs, together with relevant parameters, for public use.",
+  "abstract_zh": "背景：内在无序蛋白区域（IDRs）在真核生物的多种细胞过程中发挥作用，且在这些生物中，它们覆盖了高达40%的蛋白质组。令人惊讶的是，关于细菌蛋白质组中IDRs的了解甚少。具体而言，许多问题仍未解答，例如这些区域在宿主-病原体相互作用中的作用、其适应潜力和进化轨迹，以及它们的生物物理特性。在此，我们聚焦于结核分枝杆菌（Mycobacterium tuberculosis），并利用其因极端流行病学相关性而拥有多项大规模分析数据的优势。结果：在基准测试不同无序预测工具后，我们整合多层次生物学信息，表明含IDR的蛋白质参与毒力、宿主免疫反应调节及脂质代谢。结核分枝杆菌的IDRs进化迅速且抗原性弱，并展现出特定的序列-集合-功能关系。相反，与结核分枝杆菌相互作用的人类蛋白质在进化上受到约束，广泛表达，并在人类相互作用组图谱中高度连接。这表明经典的军备竞赛范式在宿主-病原体相互作用中并非普遍适用。我们还将分析扩展至540种感染人类的细菌，并强调IDR代表性和构象特性存在广泛差异。结论：我们的数据表明IDRs在促进细菌毒力、与人类宿主相互作用及控制免疫反应中发挥作用。尽管这有待实验验证，我们建议结核分枝杆菌也利用IDRs来感知并与其环境相互作用。在此，我们提供一个细菌IDRs数据库及其相关参数，供公众使用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41276815/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41276815/",
+  "paper_page_path": "papers/pubmed/41276815/index.html"
+}

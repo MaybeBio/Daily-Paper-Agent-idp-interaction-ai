@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40445763",
+  "title": "Proofreading and single-molecule sensitivity in T cell receptor signaling by condensate nucleation.",
+  "authors": "White, William L; Yirdaw, Hailemikael K; Ben-Sasson, Ariel J; Groves, Jay T; Baker, David; Kueh, Hao Yuan",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2025-05-30",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过计算建模揭示TCR信号中LAT凝聚体成核介导的动力学校对机制，将无序蛋白相分离与单分子灵敏度的PPI信号放大机制联系起来，对IDR介导互作机制建模有直接启发。",
+  "abstract": "T cells display the remarkable ability to detect single foreign peptides displayed on target cells, while ignoring highly abundant self-peptides. This selectivity has been explained by kinetic proofreading in the T cell receptor (TCR) signaling pathway, which prevents responses to short-lived binding events regardless of their abundance. However, the biochemical mechanisms that drive kinetic proofreading have remained unclear. Here, using computational modeling, we show that these key signaling properties of the TCR pathway can emerge from the dynamics of linker for activation of T cells (LAT) phosphorylation, diffusion, and condensation following TCR-peptide major histocompatibility complex (pMHC) binding. In this model, time delays in LAT condensate nucleation underlie kinetic proofreading, enabling selective signaling responses to high-affinity pMHC ligands. The cooperativity in the nucleation and growth of LAT condensates also provides a mechanism to amplify weak signals from single high-affinity peptides and for condensates to grow with increasing antigen numbers. In contrast to other models, condensate-nucleation proofreading predicts a dependence of signal strength on pMHC spacing at fixed number, a prediction we validated experimentally using a protein scaffold to present pMHCs at defined intervals. Our results suggest that nucleation-condensation proofreading underlies the remarkable antigen detection capabilities of the TCR signaling pathway.",
+  "abstract_zh": "T细胞展现出非凡的能力，能够检测靶细胞上展示的单个外来肽，同时忽略高丰度的自身肽。这种选择性已被T细胞受体（TCR）信号通路中的动力学校对（kinetic proofreading）所解释，该机制阻止对短暂结合事件的响应，无论其丰度如何。然而，驱动动力学校对的生化机制仍不清楚。在此，我们利用计算建模表明，TCR通路的这些关键信号特性可以从T细胞活化连接子（LAT）磷酸化、扩散和凝聚的动力学中涌现，这些过程发生在TCR-肽主要组织相容性复合体（pMHC）结合之后。在该模型中，LAT凝聚体成核的时间延迟构成了动力学校对的基础，从而实现对高亲和力pMHC配体的选择性信号响应。LAT凝聚体成核和生长的协同性也提供了一种机制，用于放大来自单个高亲和力肽的弱信号，并促进凝聚体随抗原数量增加而生长。与其他模型相比，凝聚体成核校对预测在固定数量下信号强度依赖于pMHC间距，我们通过使用蛋白质支架以确定间隔展示pMHC的实验验证了这一预测。我们的结果表明，成核-凝聚校对是TCR信号通路卓越抗原检测能力的基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40445763/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40445763/",
+  "paper_page_path": "papers/pubmed/40445763/index.html"
+}

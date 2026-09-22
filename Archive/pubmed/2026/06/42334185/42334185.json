@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "42334185",
+    "doi": "10.1021/acschemneuro.6c00242",
+    "title": "Temperature-Dependent Dynamics of Abeta42 and alpha-Synuclein Monomers and Early Oligomerization of Abeta42: Shared Residues Mediate Intra- and Intermolecular beta-Sheets."
+  },
+  "content": {
+    "abstract": "We used molecular dynamics simulations to investigate how temperature modulates hydrophobic interactions and beta-sheet formation in the CHARMM36m model of intrinsically disordered proteins, focusing on a monomer of amyloid-beta (Abeta42) and alpha-synuclein, as well as a dimer and tetramer of Abeta42. For the isolated monomers, increasing temperature leads to an increase in intramolecular contacts, promoting hydrogen bonding and secondary-structure reorganization toward beta-sheet and turn motifs. Analysis of the dimer and tetramer of Abeta42 reveals increased conformational heterogeneity at high temperatures, suggesting a smaller-than-expected configurational entropy penalty upon association. Thus, whereas monomers undergo temperature-induced compaction, enhancing intramolecular interactions, including the formation of beta-sheets, in the dimer and tetramer, hydrophobic stabilization is redirected toward aggregation, promoting cross-beta-sheet formation, peptide elongation, and the emergence of spherical conformations. Notably, the residues that stabilize intramolecular beta-sheets in the monomer (approximately sequences 16-22 and 29-36) largely overlap with those that form cross-beta-sheet motifs in the aggregates, suggesting that intramolecular beta-sheet formation is intrinsically linked to aggregation propensity. These results, in close agreement with earlier NMR measurements of the monomer and protofibrils, reveal a competition between intra- and intermolecular hydrophobic interactions, with intermolecular interactions ultimately becoming more favorable than the intramolecular interactions that stabilize monomer solvation.",
+    "keywords": [
+      "hydrophobic effect",
+      "molecular dynamics",
+      "neurodegenerative diseases",
+      "oligomerization"
+    ],
+    "mesh_terms": [
+      "*Amyloid beta-Peptides/chemistry/metabolism",
+      "*Peptide Fragments/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*alpha-Synuclein/chemistry/metabolism",
+      "Temperature",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Protein Conformation, beta-Strand",
+      "Humans",
+      "Protein Structure, Secondary",
+      "Protein Multimerization",
+      "Hydrogen Bonding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Martins, Gabriel F",
+        "Rocha, Cristiano",
+        "Galamba, Nuno"
+      ],
+      "short_names": [
+        "Martins GF",
+        "Rocha C",
+        "Galamba N"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1704-2242"
+      ],
+      "affiliations": [
+        "BioISI - Biosystems and Integrative Sciences Institute, Faculty of Sciences of the University of Lisbon, C8, Campo Grande, Lisbon 1749-016, Portugal.",
+        "BioISI - Biosystems and Integrative Sciences Institute, Faculty of Sciences of the University of Lisbon, C8, Campo Grande, Lisbon 1749-016, Portugal.",
+        "BioISI - Biosystems and Integrative Sciences Institute, Faculty of Sciences of the University of Lisbon, C8, Campo Grande, Lisbon 1749-016, Portugal."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Martins, Gabriel F",
+        "short_name": "Martins GF",
+        "identifiers": [],
+        "affiliations": [
+          "BioISI - Biosystems and Integrative Sciences Institute, Faculty of Sciences of the University of Lisbon, C8, Campo Grande, Lisbon 1749-016, Portugal."
+        ]
+      },
+      {
+        "full_name": "Rocha, Cristiano",
+        "short_name": "Rocha C",
+        "identifiers": [],
+        "affiliations": [
+          "BioISI - Biosystems and Integrative Sciences Institute, Faculty of Sciences of the University of Lisbon, C8, Campo Grande, Lisbon 1749-016, Portugal."
+        ]
+      },
+      {
+        "full_name": "Galamba, Nuno",
+        "short_name": "Galamba N",
+        "identifiers": [
+          "0000-0003-1704-2242"
+        ],
+        "affiliations": [
+          "BioISI - Biosystems and Integrative Sciences Institute, Faculty of Sciences of the University of Lisbon, C8, Campo Grande, Lisbon 1749-016, Portugal."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS chemical neuroscience"
+    ],
+    "journal_abbrev": [
+      "ACS Chem Neurosci"
+    ],
+    "pub_date": "2026 Jul 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/23 12:36",
+    "fetched_at": "2026-09-18 04:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41081322",
+      "40133283",
+      "39862593",
+      "39374837",
+      "39046235",
+      "38904333",
+      "38788067",
+      "37983764",
+      "37555670",
+      "36893281",
+      "36739945",
+      "35025654",
+      "34534463",
+      "33201713",
+      "32541820",
+      "32157247",
+      "31141355",
+      "30865820",
+      "30134733",
+      "29843241",
+      "29562523",
+      "28882996",
+      "28828740",
+      "28498720",
+      "28287224",
+      "27819658",
+      "27802394",
+      "27355699",
+      "27018801",
+      "26498157",
+      "26051935",
+      "25938662",
+      "25451026",
+      "25352253",
+      "24706910",
+      "24034249",
+      "23790380",
+      "23180855",
+      "22632969",
+      "22547798",
+      "22450705",
+      "21325059",
+      "20556825",
+      "20423295",
+      "20402519",
+      "20383142",
+      "20018889",
+      "19933333",
+      "19768526",
+      "19759000",
+      "19706468",
+      "19216516",
+      "19098006",
+      "19015532",
+      "18928403",
+      "18661994",
+      "17715357",
+      "17286590",
+      "16444756",
+      "16432151",
+      "16293696",
+      "16211538",
+      "16193038",
+      "16135089",
+      "15671169",
+      "15377534",
+      "14530404",
+      "14404936",
+      "12750461",
+      "12399581",
+      "11932745",
+      "11932737",
+      "11926821",
+      "11152691",
+      "11076514",
+      "10890881",
+      "10753809",
+      "10589538",
+      "9895674",
+      "9600986",
+      "9367160",
+      "8380642",
+      "8108382",
+      "6667333",
+      "3464944",
+      "2207096",
+      "653353"
+    ],
+    "similar": [
+      "42334185",
+      "33289734",
+      "36179370",
+      "28241387",
+      "27602722",
+      "38700150",
+      "32419254",
+      "38809059",
+      "40776447",
+      "41872054",
+      "15583128",
+      "19108587",
+      "40605637",
+      "19053400",
+      "23811057",
+      "28162045",
+      "35041853",
+      "29235155",
+      "37038252",
+      "28796507",
+      "27454036",
+      "34152264",
+      "31566950",
+      "41653511",
+      "37983764",
+      "41560134",
+      "30582723",
+      "27933940",
+      "31661961",
+      "31872820",
+      "39561991",
+      "29953467",
+      "23607785",
+      "20888834",
+      "23421682",
+      "20839866",
+      "30124438",
+      "31202253",
+      "27091578",
+      "30821624",
+      "19795910",
+      "30722990",
+      "34153362",
+      "21668291",
+      "36278939",
+      "21761818",
+      "30605312",
+      "40590581",
+      "37246935",
+      "35134456",
+      "37390790",
+      "22674434",
+      "39175373",
+      "36069400",
+      "15459202",
+      "24498083",
+      "24735871",
+      "26046578",
+      "23926957",
+      "27214008",
+      "29715424",
+      "18835397",
+      "32557766",
+      "42261871",
+      "29364151",
+      "24949887",
+      "28474890",
+      "31581064",
+      "29947363",
+      "23440928",
+      "39364725",
+      "27390876",
+      "41301496",
+      "31642322",
+      "25137638",
+      "37126408",
+      "26193124",
+      "26153709",
+      "34796404",
+      "20428075",
+      "29380494",
+      "20938982",
+      "27714140",
+      "25255476",
+      "30047732",
+      "23131555",
+      "26069943",
+      "30917651",
+      "35836937",
+      "36806684",
+      "40853068",
+      "32371882",
+      "41173868",
+      "40509809",
+      "27844078",
+      "20039666",
+      "32061932",
+      "27135646",
+      "19751686",
+      "22448932"
+    ],
+    "review": [
+      "42334185",
+      "37038252"
+    ],
+    "pmc": [
+      "13329896"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42334185/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acncdm/article-lookup/doi/10.1021/acschemneuro.6c00242",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

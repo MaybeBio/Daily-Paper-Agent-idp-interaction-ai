@@ -1,0 +1,173 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.08.20.456821",
+  "title": "A kiwellin protein-like fold containing rust effector protein localizes to chloroplast and suppress cell death in plants",
+  "doi": "10.1101/2021.08.20.456821",
+  "abstract": "The effector proteins expressed by plant pathogens are one of the essential components of the host-pathogen interaction. Despite being important, most of the effector proteins remain unexplored due to the lack of conserved features and huge diversity in their primary sequence. In the present study, extensive secretome analysis was performed in sixteen major plant fungal pathogens to find the conserved features in the candidate secretory effector proteins (CSEPs) using homology and ab initio modeling approaches. Interestingly, a variable number of plant kiwellin proteins fold like secretory proteins were found in all the major rust fungal pathogens. Many of them are predicted as potential effector proteins. For instance, 26 out of 35 Kiwellin like proteins identified in Puccinia striiformis race 104E 137A were predicted as potential effector proteins. In addition, a kiwellin predicted effector gene, Pst_13960 , from the Indian Puccinia striiformis race Yr9 was characterized using overexpression, localization, and deletion studies in Nicotiana benthamiana . The Pst_13960 suppressed the BAX-induced cell death and localized in the chloroplast. Furthermore, the expression of the kiwellin matching region ( Pst_13960_kiwi ) alone suppressed the BAX-induced cell death in N. benthamiana despite the change of location to the cytoplasm and nucleus, suggesting the novel function of the kiwellin fold in rust fungi. Further analysis of these proteins predicted these candidates to contain N-terminal Intrinsically disordered regions (IDRs) putatively associated with chloroplast translocation as deletion of region abolished the chloroplast localization of Pstr_13960 . Overall, the current study reports the presence of kiwellin like proteins in rust fungi that act as a novel effector in plants. <h4>Author Summary</h4> Rust fungi are one of the most devastating plants infecting pathogens. These pathogens secrete several distinct proteins like effector proteins that help the pathogens in the establishment of infection by suppressing cell death induced by the plants. Despite being important, these effector proteins remain unexplored due to the lack of conserved features. Currently, different methods are being used to characterize them however, could not describe their specific function fully due to a lack of knowledge of the functional domain. Recent advancement in effector protein tertiary structure characterization using NMR (Nuclear magnetic resonance) and X-ray crystallography has been very helpful in identifying the conserved structural features defining functionality. However, these techniques are quite complicated and may take a lot of time and labor. On the other hand, the computational approaches for structural prediction of the effectors may help to identify known folds or domains with few efforts but at a significant level. Therefore, such computational approaches can be efficiently implemented in the preliminary screening of the candidates. In the present study using the computational structure prediction method, we were able to find several conserved novel kiwellin folds containing effectors, in different rust fungi. We characterized one of the candidates and it showed interference with artificially induced cell death in plants. This study highlights the novel function of the kiwellin like effector proteins of the rust fungi that are already identified to play a role in host defense against plant pathogens.",
+  "authors": [
+    "Jaswal R",
+    "Rajarammohan S",
+    "Dubey H",
+    "Kiran K",
+    "Rawal H",
+    "Sonah H",
+    "Deshmukh R",
+    "Sharma TR"
+  ],
+  "published_date": "2021-08-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.08.20.456821",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.08.20.456821.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR385139",
+    "raw_record": {
+      "id": "PPR385139",
+      "source": "PPR",
+      "doi": "10.1101/2021.08.20.456821",
+      "title": "A kiwellin protein-like fold containing rust effector protein localizes to chloroplast and suppress cell death in plants",
+      "authorString": "Jaswal R, Rajarammohan S, Dubey H, Kiran K, Rawal H, Sonah H, Deshmukh R, Sharma TR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Jaswal R",
+            "lastName": "Jaswal",
+            "firstName": "Rajdeep",
+            "initials": "R"
+          },
+          {
+            "fullName": "Rajarammohan S",
+            "lastName": "Rajarammohan",
+            "firstName": "Sivasubramanian",
+            "initials": "S"
+          },
+          {
+            "fullName": "Dubey H",
+            "lastName": "Dubey",
+            "firstName": "Himanshu",
+            "initials": "H"
+          },
+          {
+            "fullName": "Kiran K",
+            "lastName": "Kiran",
+            "firstName": "Kanti",
+            "initials": "K"
+          },
+          {
+            "fullName": "Rawal H",
+            "lastName": "Rawal",
+            "firstName": "Hukam",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2727-9721"
+            }
+          },
+          {
+            "fullName": "Sonah H",
+            "lastName": "Sonah",
+            "firstName": "Humira",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4796-6120"
+            }
+          },
+          {
+            "fullName": "Deshmukh R",
+            "lastName": "Deshmukh",
+            "firstName": "Rupesh",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4167-6552"
+            }
+          },
+          {
+            "fullName": "Sharma TR",
+            "lastName": "Sharma",
+            "firstName": "Tilak Raj",
+            "initials": "TR"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2727-9721"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4167-6552"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4796-6120"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The effector proteins expressed by plant pathogens are one of the essential components of the host-pathogen interaction. Despite being important, most of the effector proteins remain unexplored due to the lack of conserved features and huge diversity in their primary sequence. In the present study, extensive secretome analysis was performed in sixteen major plant fungal pathogens to find the conserved features in the candidate secretory effector proteins (CSEPs) using homology and  ab initio modeling approaches. Interestingly, a variable number of plant kiwellin proteins fold like secretory proteins were found in all the major rust fungal pathogens. Many of them are predicted as potential effector proteins. For instance, 26 out of 35 Kiwellin like proteins identified in  Puccinia striiformis race 104E 137A were predicted as potential effector proteins. In addition, a kiwellin predicted effector gene,  Pst_13960 , from the Indian  Puccinia striiformis race Yr9 was characterized using overexpression, localization, and deletion studies in  Nicotiana benthamiana . The  Pst_13960 suppressed the BAX-induced cell death and localized in the chloroplast. Furthermore, the expression of the kiwellin matching region (  Pst_13960_kiwi ) alone suppressed the BAX-induced cell death in  N. benthamiana despite the change of location to the cytoplasm and nucleus, suggesting the novel function of the kiwellin fold in rust fungi. Further analysis of these proteins predicted these candidates to contain N-terminal Intrinsically disordered regions (IDRs) putatively associated with chloroplast translocation as deletion of region abolished the chloroplast localization of  Pstr_13960 . Overall, the current study reports the presence of kiwellin like proteins in rust fungi that act as a novel effector in plants.  <h4>Author Summary</h4>  Rust fungi are one of the most devastating plants infecting pathogens. These pathogens secrete several distinct proteins like effector proteins that help the pathogens in the establishment of infection by suppressing cell death induced by the plants. Despite being important, these effector proteins remain unexplored due to the lack of conserved features. Currently, different methods are being used to characterize them however, could not describe their specific function fully due to a lack of knowledge of the functional domain. Recent advancement in effector protein tertiary structure characterization using NMR (Nuclear magnetic resonance) and X-ray crystallography has been very helpful in identifying the conserved structural features defining functionality. However, these techniques are quite complicated and may take a lot of time and labor. On the other hand, the computational approaches for structural prediction of the effectors may help to identify known folds or domains with few efforts but at a significant level. Therefore, such computational approaches can be efficiently implemented in the preliminary screening of the candidates. In the present study using the computational structure prediction method, we were able to find several conserved novel kiwellin folds containing effectors, in different rust fungi. We characterized one of the candidates and it showed interference with artificially induced cell death in plants. This study highlights the novel function of the kiwellin like effector proteins of the rust fungi that are already identified to play a role in host defense against plant pathogens.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/08/20/2021.08.20.456821.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.08.20.456821"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-08-23",
+      "firstPublicationDate": "2021-08-20",
+      "firstIndexDate": "2021-08-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

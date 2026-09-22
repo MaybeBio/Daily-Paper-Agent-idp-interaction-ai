@@ -1,0 +1,219 @@
+{
+  "identity": {
+    "pmid": "39450869",
+    "doi": "10.1021/acs.jpcb.4c05636",
+    "title": "Dual Role of Anionic Lipids in Amyloid Aggregation."
+  },
+  "content": {
+    "abstract": "Neurodegenerative diseases, such as Alzheimer's, Parkinson's, and Huntington's, affect millions worldwide and share a common feature: the aggregation of intrinsically disordered proteins into toxic oligomers that interact with cell membranes. In Alzheimer's disease (AD), amyloid-beta (Abeta) peptides accumulate and bind to plasma membranes, potentially disrupting cellular function. The complex interplay between amyloidogenic peptides and lipid membranes, particularly the role of anionic lipids, is crucial in disease pathogenesis but challenging to characterize experimentally. The literature presents conflicting results on the influence of anionic lipids on peptide aggregation kinetics, highlighting a knowledge gap. To address this, we used coarse-grained molecular dynamics (CG-MD) simulations to study interactions between a model amyloidogenic peptide, amyloid-beta's K(16)LVFFAE(22) fragment (Abeta(16-22)), and mixed lipid bilayers. We used phosphatidylserine (PS) and phosphatidylcholine (PC) as representative anionic and zwitterionic lipids, respectively, examining the mixed bilayer compositions of 0% PS-100% PC, 10% PS-90% PC, and 30% PS-70% PC. Our simulations revealed that membranes enriched in anionic lipids enhance peptide adsorption and interaction kinetics. The aggregation dynamics was modulated by two competing factors: increased local peptide concentration near negatively charged membranes, which promoted aggregation, and peptide-lipid interactions, which slowed it down. Higher percentages of anionic lipids led to smaller and more ordered aggregates and enhanced lipid demixing, leading to the formation of PS clusters. These findings contribute to understanding membrane-mediated peptide aggregation in neurodegenerative disorders, potentially guiding new therapeutic strategies targeting the early stages of protein aggregation in various neurodegenerative diseases.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Amyloid beta-Peptides/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Lipid Bilayers/chemistry/metabolism",
+      "*Anions/chemistry/metabolism",
+      "*Protein Aggregates",
+      "Peptide Fragments/chemistry/metabolism",
+      "Phosphatidylcholines/chemistry",
+      "Phosphatidylserines/chemistry/metabolism",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jain, Meenal",
+        "Matysiak, Silvina"
+      ],
+      "short_names": [
+        "Jain M",
+        "Matysiak S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3824-9787"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of Maryland, College Park, Maryland 20742, United States.",
+        "Department of Chemistry and Biochemistry, University of Maryland, College Park, Maryland 20742, United States.",
+        "Fischell Department of Bioengineering, University of Maryland, College Park, Maryland 20742, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jain, Meenal",
+        "short_name": "Jain M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Maryland, College Park, Maryland 20742, United States."
+        ]
+      },
+      {
+        "full_name": "Matysiak, Silvina",
+        "short_name": "Matysiak S",
+        "identifiers": [
+          "0000-0003-3824-9787"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Maryland, College Park, Maryland 20742, United States.",
+          "Fischell Department of Bioengineering, University of Maryland, College Park, Maryland 20742, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2024 Nov 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/25 12:24",
+    "fetched_at": "2026-09-21 11:41:05"
+  },
+  "links": {
+    "cites": [
+      "42524462",
+      "41909622",
+      "39823544"
+    ],
+    "refs": [],
+    "similar": [
+      "39450869",
+      "23493873",
+      "39136546",
+      "26947182",
+      "28002946",
+      "19186121",
+      "40014934",
+      "31655893",
+      "26934592",
+      "25581460",
+      "26827904",
+      "23998637",
+      "37329644",
+      "26097047",
+      "32846182",
+      "28585804",
+      "22947861",
+      "20602359",
+      "40185057",
+      "27936589",
+      "21910473",
+      "26426973",
+      "32557766",
+      "18706389",
+      "30569709",
+      "25349919",
+      "30341602",
+      "21192698",
+      "28564579",
+      "31222470",
+      "22108168",
+      "37824095",
+      "24915524",
+      "32551617",
+      "31657431",
+      "21694459",
+      "29299557",
+      "23588697",
+      "30120270",
+      "26953503",
+      "24146759",
+      "28154182",
+      "37241931",
+      "30021071",
+      "39854227",
+      "39126645",
+      "41365642",
+      "38338484",
+      "27435187",
+      "37486638",
+      "24566672",
+      "35687481",
+      "16352649",
+      "41837350",
+      "31834770",
+      "39283804",
+      "12414694",
+      "35635892",
+      "41706531",
+      "19807060",
+      "21740063",
+      "22874669",
+      "17176081",
+      "20603101",
+      "36705524",
+      "22975281",
+      "29630553",
+      "22181459",
+      "38653174",
+      "23643891",
+      "14698298",
+      "33973758",
+      "27602722",
+      "38888760",
+      "21769359",
+      "39189914",
+      "31073226",
+      "28367578",
+      "23951128",
+      "36317678",
+      "22693597",
+      "24364857",
+      "20570648",
+      "27441457",
+      "33415971",
+      "22281438",
+      "15681641",
+      "17052685",
+      "32046252",
+      "23515399",
+      "33130095",
+      "24144219",
+      "41872054",
+      "33727072",
+      "25406316",
+      "20140095",
+      "29738067",
+      "19111557",
+      "15800039",
+      "28642958"
+    ],
+    "review": [
+      "39450869",
+      "30341602",
+      "24566672"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.4c05636",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

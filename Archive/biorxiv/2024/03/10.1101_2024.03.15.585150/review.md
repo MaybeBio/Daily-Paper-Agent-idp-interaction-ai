@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, declarations)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency of the provided manuscript. No external literature verification or replication of experiments performed.
+- **Shared manuscript claim summary** The authors report that the 9aaTAD activation domains of c-Myc and N-Myc bind to the KIX domain of CBP with high affinity (micromolar to sub-micromolar Kd values), that the c-Myc 9aaTAD (region 98-108) is distinct from the MBII region and represents a TRRAP-independent activation domain, and that this interaction constitutes a promising druggable target for MYC-driven tumors. The authors also report evolutionary conservation of 9aaTAD in MYC family members and its loss in L-Myc paralogs in higher metazoans.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (expression constructs, sample preparation, enzyme activity assays, bio-layer interferometry, western blot), Results (three subsections), Discussion, Conclusions, Declarations. Figures referenced but not provided: Fig. 1a-c, Fig. 2, Fig. 3a-d, Supplementary Figure S1.
+- **Missing materials affecting confidence** Figures and supplementary figures are referenced but not included in the provided material. Raw BLI sensorgrams, full titration curves, western blot images, and the prediction algorithm output for 9aaTAD identification are not available. Statistical analysis details beyond mean and SD (n=2) for beta-galactosidase assays are not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant and challenging target, the MYC oncoproteins, and proposes a specific interaction interface (9aaTAD-KIX) as a potential therapeutic target. The core claim of nanomolar binding affinity is not supported by the data presented in the text, which report micromolar to sub-micromolar Kd values. The transcriptional activation data are based on a yeast one-hybrid assay with limited replicates and lack key controls. The evolutionary analysis is descriptive and lacks a robust phylogenetic framework. The manuscript is technically sound in parts but the central conclusions are overstated relative to the evidence provided.
+- **Who would be interested in the results, and why** Researchers in cancer biology, particularly those focused on MYC-driven tumors and transcription factor targeting. Structural biologists studying CBP/p300 interactions and intrinsically disordered proteins may also find interest. Drug discovery groups working on peptide-based inhibitors of protein-protein interactions would be a secondary audience.
+- **Major strengths** The study addresses a well-recognized unmet need in targeting MYC. The use of multiple orthogonal methods (yeast transcriptional assay, BLI, western blot) is commendable. The evolutionary analysis across species adds a broader perspective. The identification of a specific, short peptide region (9aaTAD) as a potential binding interface is a useful contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence mismatch
+  - **Claim pointer** The abstract and conclusions state "strong interactions in nanomolar scale" and "very strong interaction at nano-molar scale" between 9aaTADs and KIX.
+  - **Evidence pointer** Results section "The KIX domain interactions with c-Myc and N-Myc", Fig. 3a, 3b
+  - **Concern** The reported Kd(apparent) values are 0.88±0.11 μM for N-Myc and 2.16±1.17 μM for c-Myc. These are in the micromolar range, not nanomolar. The text itself states "micromolar to sub-micromolar range" in the Results. The abstract and conclusions overstate the affinity by three orders of magnitude. This is a fundamental discrepancy between the data and the central claim of the paper.
+  - **Why it matters** The stated "nanomolar" affinity is a key selling point for the proposed druggability of the interaction. Overstating affinity misrepresents the potential of the target and could mislead drug discovery efforts. The discrepancy undermines the credibility of the manuscript's central message.
+  - **Resolution test** The authors must correct the abstract, results, and conclusions to accurately reflect the measured micromolar Kd values. If nanomolar affinity is claimed, the corresponding data must be shown and the discrepancy with the reported micromolar values explained.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The transcriptional activation data support the role of 9aaTAD in c-Myc-driven transcription.
+  - **Evidence pointer** Results section "Activation of c-Myc transcription is linked with the 9aaTAD", Fig. 1b, Supplementary Figure S1
+  - **Concern** The beta-galactosidase assays were performed with n=2 independent transformants. This is a very low number of replicates for a quantitative transcriptional assay. The text notes that the longer constructs (1-103, 1-108) had expression below the immuno-detection threshold, which confounds the interpretation of their lower transcriptional activity. The difference in activity could be due to differences in protein expression levels rather than the presence or absence of the 9aaTAD. The western blot data are mentioned but not shown.
+  - **Why it matters** The conclusion that the 9aaTAD is responsible for transcriptional activation is weakened by the lack of adequate replication and the failure to control for protein expression levels. Without these controls, the observed differences in transcriptional activity cannot be unambiguously attributed to the 9aaTAD.
+  - **Resolution test** Provide data with a higher number of replicates (n≥3). Show the western blot data for all constructs. Normalize transcriptional activity to protein expression levels. If the longer constructs are expressed at lower levels, this must be addressed and the data interpreted accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence completeness
+  - **Claim pointer** The evolutionary analysis supports the loss of 9aaTAD in L-Myc paralogs in higher metazoans.
+  - **Evidence pointer** Results section "The 9aaTAD is well conserved in evolution of the MYC family", Fig. 1a, Fig. 2
+  - **Concern** The evolutionary analysis is presented as a narrative without a clear phylogenetic tree or a systematic alignment of sequences across species. The claim that the loss occurred "in early tetrapod evolution" is a specific temporal statement that requires a dated phylogeny or at least a representative sampling of species across the relevant evolutionary nodes. The figures are not provided, making it impossible to assess the quality of the alignments or the species sampling.
+  - **Why it matters** The evolutionary claim is a secondary but notable point. Without a robust phylogenetic framework, the conclusion about the timing of the loss is speculative. The lack of figures prevents verification of the sequence alignments and the conservation analysis.
+  - **Resolution test** Provide a phylogenetic tree with the species used, show the sequence alignments for the 9aaTAD region across all MYC family members, and clearly indicate the presence or absence of the 9aaTAD at each node. If a specific timing of loss is claimed, provide supporting phylogenetic dating or a clear argument based on the species sampling.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The BLI assay is a valid measure of the interaction between 9aaTAD peptides and KIX.
+  - **Evidence pointer** Methods section "Bio-layer interferometry", Results section "The KIX domain interactions with c-Myc and N-Myc", Fig. 3a-d
+  - **Concern** The BLI assay uses a streptavidin-biotin capture system. The authors do not report whether the biotinylated peptides retain their native conformation or whether the biotinylation site could interfere with binding. The negative control (Sp1 native) is reported to not bind, but the positive control (MLL) shows a Kd of 1.17±0.21 μM, which is consistent with prior work. However, the assay is performed at pH 6.0, which may not be physiologically relevant. The authors do not report any competition experiments or mutational analysis to confirm the specificity of the interaction.
+  - **Why it matters** The BLI data are the primary evidence for the physical interaction between MYC 9aaTADs and KIX. Without additional validation (e.g., competition with unlabeled peptide, mutagenesis of key residues, or an orthogonal method like ITC or NMR), the specificity and relevance of the interaction remain uncertain.
+  - **Resolution test** Provide additional validation of the interaction, such as competition assays with unlabeled peptides, mutagenesis of the 9aaTAD residues predicted to be critical for binding, or an orthogonal biophysical method (e.g., ITC, NMR chemical shift perturbation). Justify the choice of pH 6.0 or repeat the experiments at physiological pH.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Conclusions
+  - **Evidence pointer** Abstract, Conclusions
+  - **Issue** The abstract and conclusions state "nanomolar scale" while the results report micromolar values. This inconsistency is confusing and must be resolved.
+  - **Required correction** Correct the abstract and conclusions to state "micromolar" or "sub-micromolar" affinity, consistent with the reported Kd values.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Expression construct and peptides"
+  - **Evidence pointer** Methods section
+  - **Issue** The peptide sequences are given as abbreviations (e.g., "Biotin - GS-NILP-SDIM D FVLKNT" for MLL). The exact sequence of the 9aaTAD for c-Myc and N-Myc is not explicitly stated in the text, only implied by the construct names.
+  - **Required correction** Provide the full amino acid sequences of all peptides used, including the exact 9aaTAD sequences for c-Myc and N-Myc, in the methods or a supplementary table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "Activation of c-Myc transcription is linked with the 9aaTAD"
+  - **Evidence pointer** Results section, Fig. 1b
+  - **Issue** The beta-galactosidase data are presented as "mean and SD; n=2". This is insufficient for statistical analysis. No error bars or significance testing are described.
+  - **Required correction** Increase the number of replicates and report appropriate statistical tests (e.g., t-test or ANOVA) with p-values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "The KIX domain interactions with c-Myc and N-Myc"
+  - **Evidence pointer** Results section, Fig. 3b
+  - **Issue** The authors state that the BLI data were fitted using a 1:1 binding model, but the quality of the fits (e.g., R² values, chi-square) is not reported.
+  - **Required correction** Report the goodness-of-fit parameters for the BLI data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions "future studies including the focus on the 9aaTADs c-Myc and the KIX interaction will aim to translate new findings into development of small drug inhibitors" but does not discuss the challenges of targeting a protein-protein interaction with a small molecule, given the large and shallow interface typical of such interactions.
+  - **Required correction** Add a brief discussion of the challenges and potential strategies for developing small molecule or peptide inhibitors against the 9aaTAD-KIX interface.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (affinity claim mismatch), R1-M2 (transcriptional assay replication and normalization), R1-M3 (evolutionary analysis lacking phylogenetic framework), R1-M4 (BLI specificity validation).
+- **Assessment against Nature-style criteria** Originality: Moderate. The specific 9aaTAD-KIX interaction is a new finding, but the general concept of targeting MYC via its interaction with coactivators is not novel. Scientific importance: High, given the clinical relevance of MYC in cancer. Interdisciplinary readership: Limited. The work is primarily of interest to cancer biologists and structural biologists. Technical soundness: Weak to moderate. The BLI experiments are described in detail, but the transcriptional assays are underpowered and the affinity claim is inconsistent. Readability for nonspecialists: The manuscript is generally readable, but the abstract overstates the findings, which could mislead a broader audience.
+- **Recommendation posture** Not currently established from the provided evidence. The central claim of nanomolar affinity is contradicted by the reported data. The transcriptional activation data are underpowered and confounded by expression differences. The evolutionary analysis lacks rigor. The manuscript has potential, but major revisions and additional experiments are required before the claims can be supported.
+
+## Risk / unsupported claims
+- The claim of "nanomolar scale" interaction in the abstract and conclusions is unsupported and contradicted by the micromolar Kd values reported in the results.
+- The claim that the 9aaTAD represents a "promising druggable target" is speculative and not supported by any functional or structural data demonstrating druggability.
+- The claim that the loss of 9aaTAD in L-Myc paralogs occurred "in early tetrapod evolution" is unsupported without a dated phylogeny or comprehensive species sampling.
+- The claim that the c-Myc 9aaTAD (98-108) is a "TRRAP independent activation region" is not directly tested; no experiments distinguishing TRRAP-dependent and independent pathways are presented.
+- The statement that "both Myc peptides displayed strong binding to the KIX comparable to MLL peptide" is not fully supported, as the Kd for c-Myc (2.16 μM) is approximately 2.5-fold weaker than MLL (1.17 μM), and the statistical significance of this difference is not reported.

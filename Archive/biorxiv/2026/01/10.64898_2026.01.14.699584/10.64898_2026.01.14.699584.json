@@ -1,0 +1,130 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.14.699584",
+  "title": "Extending Conformational Ensemble Prediction to Multidomain Proteins and Protein Complex",
+  "doi": "10.64898/2026.01.14.699584",
+  "abstract": "Proteins execute cellular functions through a structural continuum ranging from stable, folded domains to highly dynamic intrinsically disordered regions (IDRs). Conformational ensembles represent the set of three-dimensional structures a protein adopts under a specific set of conditions, and underlie essential processes from catalysis to complex signaling networks. While deep learning has revolutionized structure prediction, capturing the distinct conformational diversity of folded and disordered regions, especially within multidomain proteins and large assemblies, remains a fundamental challenge. Here we introduce IDPFold2, a generative framework that models the heterogenous protein thermodynamics by integrating a Mixture-of-Experts architecture into the flow matching framework. By routing residues from different regions to specialized expert networks, IDPFold2 accurately predicts conformational ensembles for folded domains, IDRs and multidomain proteins. IDPFold2 outperforms state-of-the-art methods in capturing key functional states and fitting the experimental observations across local and global scales. Furthermore, we describe an extension of IDPFold2 to protein assemblies, deciphering the complex binding modes of IDRs within large biomolecular complexes, providing a generalizable tool for exploring the dynamic proteome.",
+  "authors": [
+    "Zhu J",
+    "Bülow Sv",
+    "Liu H",
+    "Lindorff-Larsen K",
+    "Chen H"
+  ],
+  "published_date": "2026-01-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.14.699584",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.14.699584.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1228462",
+    "raw_record": {
+      "id": "PPR1228462",
+      "source": "PPR",
+      "doi": "10.64898/2026.01.14.699584",
+      "title": "Extending Conformational Ensemble Prediction to Multidomain Proteins and Protein Complex",
+      "authorString": "Zhu J, Bülow Sv, Liu H, Lindorff-Larsen K, Chen H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhu J",
+            "lastName": "Zhu",
+            "firstName": "Junjie",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-0507-7570"
+            }
+          },
+          {
+            "fullName": "Bülow Sv",
+            "lastName": "Bülow",
+            "firstName": "Sören von",
+            "initials": "Sv"
+          },
+          {
+            "fullName": "Liu H",
+            "lastName": "Liu",
+            "firstName": "Hongyi",
+            "initials": "H"
+          },
+          {
+            "fullName": "Lindorff-Larsen K",
+            "lastName": "Lindorff-Larsen",
+            "firstName": "Kresten",
+            "initials": "K"
+          },
+          {
+            "fullName": "Chen H",
+            "lastName": "Chen",
+            "firstName": "Haifeng",
+            "initials": "H"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0009-0005-0507-7570"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Proteins execute cellular functions through a structural continuum ranging from stable, folded domains to highly dynamic intrinsically disordered regions (IDRs). Conformational ensembles represent the set of three-dimensional structures a protein adopts under a specific set of conditions, and underlie essential processes from catalysis to complex signaling networks. While deep learning has revolutionized structure prediction, capturing the distinct conformational diversity of folded and disordered regions, especially within multidomain proteins and large assemblies, remains a fundamental challenge. Here we introduce IDPFold2, a generative framework that models the heterogenous protein thermodynamics by integrating a Mixture-of-Experts architecture into the flow matching framework. By routing residues from different regions to specialized expert networks, IDPFold2 accurately predicts conformational ensembles for folded domains, IDRs and multidomain proteins. IDPFold2 outperforms state-of-the-art methods in capturing key functional states and fitting the experimental observations across local and global scales. Furthermore, we describe an extension of IDPFold2 to protein assemblies, deciphering the complex binding modes of IDRs within large biomolecular complexes, providing a generalizable tool for exploring the dynamic proteome.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.14.699584"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-01-15",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

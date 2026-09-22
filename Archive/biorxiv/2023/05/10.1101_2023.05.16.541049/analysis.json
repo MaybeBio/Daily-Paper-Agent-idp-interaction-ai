@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.16.541049",
+  "title": "What can Ribo-seq and proteomics tell us about the non-canonical proteome?",
+  "authors": "Prensner JR; Abelin JG; Kok LW; Clauser KR; Mudge JM; Ruiz-Orera J; Bassani-Sternberg M; Deutsch EW; van Heesch S",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-18",
+  "window": {
+    "start": "2023-05-15",
+    "end": "2023-05-21"
+  },
+  "score": 2,
+  "one_liner_zh": "该文综述Ribo-seq与蛋白质组学在非经典开放阅读框(ORF)检测中的应用，聚焦于非经典蛋白组的鉴定与验证标准，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题关联极弱。",
+  "abstract": "Ribosome profiling (Ribo-seq) has proven transformative for our understanding of the human genome and proteome by illuminating thousands of non-canonical sites of ribosome translation outside of the currently annotated coding sequences (CDSs). A conservative estimate suggests that at least 7,000 non-canonical open reading frames (ORFs) are translated, which, at first glance, has the potential to expand the number of human protein-coding sequences by 30%, from ∼19,500 annotated CDSs to over 26,000. Yet, additional scrutiny of these ORFs has raised numerous questions about what fraction of them truly produce a protein product and what fraction of those can be understood as proteins according to conventional understanding of the term. Adding further complication is the fact that published estimates of non-canonical ORFs vary widely by around 30-fold, from several thousand to several hundred thousand. The summation of this research has left the genomics and proteomics communities both excited by the prospect of new coding regions in the human genome, but searching for guidance on how to proceed. Here, we discuss the current state of non-canonical ORF research, databases, and interpretation, focusing on how to assess whether a given ORF can be said to be “protein-coding”. <h4>In brief</h4> The human genome encodes thousands of non-canonical open reading frames (ORFs) in addition to protein-coding genes. As a nascent field, many questions remain regarding non-canonical ORFs. How many exist? Do they encode proteins? What level of evidence is needed for their verification? Central to these debates has been the advent of ribosome profiling (Ribo-seq) as a method to discern genome-wide ribosome occupancy, and immunopeptidomics as a method to detect peptides that are processed and presented by MHC molecules and not observed in traditional proteomics experiments. This article provides a synthesis of the current state of non-canonical ORF research and proposes standards for their future investigation and reporting. <h4>Highlights</h4> Combined use of Ribo-seq and proteomics-based methods enables optimal confidence in detecting non-canonical ORFs and their protein products. Ribo-seq can provide more sensitive detection of non-canonical ORFs, but data quality and analytical pipelines will impact results. Non-canonical ORF catalogs are diverse and span both high-stringency and low-stringency ORF nominations. A framework for standardized non-canonical ORF evidence will advance the research field. <h4>Graphical Abstract</h4>",
+  "abstract_zh": "核糖体图谱分析（Ribo-seq）已被证明对我们理解人类基因组和蛋白质组具有变革性意义，它揭示了目前注释的编码序列（CDSs）之外数千个核糖体翻译的非经典位点。保守估计表明，至少有7,000个非经典开放阅读框（ORFs）被翻译，乍一看，这有可能将人类蛋白质编码序列的数量从约19,500个注释的CDSs扩展30%以上，达到超过26,000个。然而，对这些ORFs的进一步审视引发了众多问题，即其中真正产生蛋白质产物的比例有多少，以及根据该术语的传统理解，其中有多少可以被视为蛋白质。更复杂的是，已发表的非经典ORFs估计数量差异巨大，约为30倍，从数千到数十万不等。这些研究的总结使基因组学和蛋白质组学界既对新编码区域在人类基因组中的前景感到兴奋，又在寻求如何推进的指导。在此，我们讨论非经典ORF研究、数据库和解释的当前状态，重点关注如何评估一个给定的ORF是否可以被认为是“蛋白质编码”的。\n\n<h4>简要概述</h4> 人类基因组除了蛋白质编码基因外，还编码数千个非经典开放阅读框（ORFs）。作为一个新兴领域，关于非经典ORFs仍有许多问题悬而未决。它们有多少？它们是否编码蛋白质？验证它们需要什么水平的证据？这些争论的核心是核糖体图谱分析（Ribo-seq）作为一种识别全基因组核糖体占据的方法的出现，以及免疫肽组学作为一种检测由MHC分子加工并呈递、且在传统蛋白质组学实验中未观察到的肽段的方法。本文综合了非经典ORF研究的当前状态，并为其未来的研究和报告提出了标准。\n\n<h4>亮点</h4> Ribo-seq与基于蛋白质组学的方法结合使用，能够在检测非经典ORFs及其蛋白质产物时实现最佳置信度。Ribo-seq可以提供对非经典ORFs更灵敏的检测，但数据质量和分析流程将影响结果。非经典ORF目录多样，涵盖高严格性和低严格性的ORF提名。一个标准化的非经典ORF证据框架将推动该研究领域的发展。\n\n<h4>图形摘要</h4>",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.16.541049",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.16.541049",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.16.541049/index.html"
+}

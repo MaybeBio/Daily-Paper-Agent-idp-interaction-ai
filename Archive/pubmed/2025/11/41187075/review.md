@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, significance statement) without supplementary figures or tables
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretive validity based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors use atomistic molecular dynamics simulations of RNA tetranucleotides to show that RNA phase separation in the presence of Mg2+ exhibits lower critical solution temperature (LCST) behavior driven by entropic effects from ion dehydration and water release. They report base-specific condensation propensities (G4 > A4 > C4 > U4), demonstrate that the 2'-OH group of ribose enhances phase separation, and show that N6-methylation of adenine suppresses condensation.
+- **Visible evidence base** Main text figures referenced (Figs. 1-6), SI Appendix figures referenced (Figs. S1-S24), methods description
+- **Missing materials affecting confidence** Supplementary figures and tables, simulation trajectory data, force field parameter files, convergence metrics, raw cluster size distributions, error bar methodology details
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational study of RNA phase separation using atomistic simulations of tetranucleotide systems. The work addresses an important and timely question regarding the molecular drivers of RNA condensate formation, particularly the role of divalent ions and base chemistry. The central claim that Mg2+-mediated LCST behavior arises from entropic contributions is plausible and mechanistically interesting. However, the evidence presented in the main text is largely qualitative, and several key claims require quantitative support that appears to reside in the SI. The use of tetranucleotides as model systems, while computationally tractable, raises questions about the transferability of the findings to biologically relevant RNA lengths. The manuscript is clearly written and the logical flow is sound, but the strength of the conclusions relative to the evidence base needs careful evaluation.
+- **Who would be interested in the results, and why** Researchers in the fields of RNA biology, phase separation, biomolecular condensates, and computational biophysics would find these results relevant. The work provides molecular-level insights into how ions, base identity, sugar chemistry, and chemical modifications modulate RNA condensation, which has implications for understanding the biophysical principles underlying membraneless organelle formation. The findings on LCST behavior and the role of Mg2+ could inform experimental studies on RNA condensates and potentially guide the design of RNA-based biomaterials.
+- **Major strengths** The study addresses a significant gap in understanding the molecular determinants of RNA-only phase separation. The systematic variation of sequence, ionic conditions, and chemical modifications provides a comprehensive parameter sweep. The use of atomistic simulations with careful force field selection (including optimized Mg2+ parameters) demonstrates methodological rigor. The connection between microscopic interactions (ion coordination, hydrogen bonding, water release) and macroscopic phase behavior is a valuable contribution. The comparison with experimental observations and prior computational work strengthens the credibility of the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that RNA condensates display "base specific lower critical solution temperature" and that this is "largely due to multivalent interactions with magnesium ions."
+  - **Evidence pointer** Fig. 1, Fig. 2, SI Appendix Figs. S11-S17
+  - **Concern** The central claim of LCST behavior is supported primarily by qualitative descriptions of cluster size and density changes with temperature. The manuscript states that cluster size increases with temperature in Mg2+-containing systems, but the quantitative data (cluster size values, density profiles, phase boundaries) are not presented in the main text. The distinction between true LCST behavior (where the two-phase region is entered upon heating) and simple temperature-dependent changes in cluster properties requires a proper phase diagram, which is not shown. Furthermore, the claim that LCST is "largely due to" Mg2+ interactions is inferred from comparing Na+-only and Mg2+-containing systems, but the manuscript does not provide a systematic comparison of the thermodynamic driving forces (e.g., free energy decomposition) that would substantiate this causal claim.
+  - **Why it matters** The LCST claim is the central finding of the manuscript and is highlighted in the Significance statement. Without quantitative phase behavior data and a clear demonstration that the observed temperature dependence constitutes genuine LCST behavior (rather than kinetic or finite-size effects), the core conclusion is not established. The attribution of LCST to Mg2+ interactions requires more direct evidence than the observation that Mg2+ systems behave differently from Na+ systems.
+  - **Resolution test** Provide a phase diagram (temperature vs. concentration) for at least one RNA sequence in the presence of Mg2+, showing the binodal or coexistence region. Quantify the free energy contributions (enthalpic vs. entropic) to the temperature dependence of phase separation. Show that the observed behavior is reversible and represents equilibrium phase behavior rather than kinetic trapping.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model system validity
+  - **Claim pointer** The manuscript states that "tetranucleotides are the shortest RNA fragments that retain sequence-specific base stacking and hydrogen bonding patterns, making them ideal for probing sequence-dependent interactions."
+  - **Evidence pointer** Methods section, "Atomistic Molecular Dynamic Simulations"
+  - **Concern** The use of tetranucleotides as a model system for RNA phase separation requires justification that the findings extrapolate to longer, biologically relevant RNA molecules. The manuscript acknowledges that chain length affects phase behavior but does not provide evidence that the base-specific trends observed in tetranucleotides (G4 > A4 > C4 > U4) persist for longer sequences. The density used (160 mg/mL) is noted to be below typical condensate density, but the implications of this choice for the observed phase behavior are not discussed. The claim that tetranucleotides are "ideal" for this purpose is an assertion that needs empirical or computational support.
+  - **Why it matters** If the base-specific trends and the role of Mg2+ are length-dependent, the conclusions may not apply to real RNA molecules in cellular contexts. The manuscript's significance statement implies broader relevance, but the model system may be too simplified to support such claims.
+  - **Resolution test** Perform simulations with longer RNA sequences (e.g., 8-16 nucleotides) for at least one or two sequences to demonstrate that the observed trends are preserved. Alternatively, provide a scaling argument or comparison with coarse-grained simulations that shows the tetranucleotide results are representative of longer chains.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The manuscript claims that "the transition from outer- to inner-sphere Mg2+ coordination displaces water molecules from the phosphate hydration shell, while simultaneously reorganizing the ion atmosphere. Both processes contribute substantial translational and rotational entropy gains to the surrounding solvent-ion system, which compensate for the configurational entropy loss of RNA chains in the condensed state."
+  - **Evidence pointer** Fig. 2, SI Appendix Figs. S14-S17
+  - **Concern** The mechanistic interpretation of entropy-driven LCST is plausible but is presented as a conclusion rather than a hypothesis. The manuscript does not provide a quantitative entropy decomposition or free energy analysis that would directly support the claim that water release and ion reorganization are the dominant entropic contributions. The observation that inner-sphere Mg2+ coordination increases with temperature is correlative but does not establish causality. The manuscript also does not discuss alternative mechanisms, such as temperature-dependent changes in RNA conformation or base stacking, that could contribute to the observed behavior.
+  - **Why it matters** The proposed mechanism is the explanatory framework for the central finding. If the mechanism is incorrect or incomplete, the interpretation of the results would need revision. A more rigorous thermodynamic analysis would strengthen the conclusions.
+  - **Resolution test** Calculate the entropy and enthalpy contributions to the free energy of phase separation as a function of temperature. Perform free energy perturbation or thermodynamic integration to quantify the entropic cost of RNA confinement and the entropic gain from water and ion release. Compare the magnitudes of these contributions to determine whether the proposed mechanism is quantitatively dominant.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison with experiments
+  - **Claim pointer** The manuscript states that "our simulations recapitulate the experimental observation of RNA-driven LCST behaviour" and that the condensation order "G4 > A4 > C4 > U4" aligns with experiments (reference 27).
+  - **Evidence pointer** Discussion section
+  - **Concern** The comparison with experimental results is brief and does not provide a quantitative assessment of agreement. The manuscript does not specify which experimental conditions (RNA length, concentration, ionic conditions) are being compared, nor does it discuss potential discrepancies between simulation and experiment. The claim of recapitulation is made without showing a direct comparison of phase boundaries, critical temperatures, or other quantitative observables.
+  - **Why it matters** The alignment with experiments is used to validate the simulation approach and support the broader relevance of the findings. A more detailed and critical comparison would strengthen the manuscript's credibility.
+  - **Resolution test** Provide a table or figure comparing simulation-derived phase boundaries or critical temperatures with experimental values for the same or similar RNA sequences and conditions. Discuss any discrepancies and their potential sources (force field accuracy, finite-size effects, concentration differences).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Fig. 1 description
+  - **Evidence pointer** Fig. 1
+  - **Issue** The description of Fig. 1 in the text is somewhat ambiguous regarding the distinction between cluster size and density. The text states "cluster size and density consistently increase with temperature" for Mg2+-only systems, but the figure panels are not described in sufficient detail to understand what is being plotted.
+  - **Required correction** Clarify in the figure legend and text what quantity is plotted in each panel (e.g., cluster size as number of molecules, density as mass concentration) and how these are calculated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Error bar calculation
+  - **Evidence pointer** Methods, "Analysis" section
+  - **Issue** The error bar methodology is described as using four nonoverlapping 200 ns segments from the final 2 microseconds of each trajectory. This is a relatively small number of samples, and the choice of segment length is not justified. The manuscript does not discuss whether the results are sensitive to the choice of segment length or number.
+  - **Required correction** Provide a brief justification for the choice of segment length and number, or show that the results are robust to these choices.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of m6A results
+  - **Evidence pointer** Fig. 6, Discussion
+  - **Issue** The manuscript states that m6A modification "suppresses phase separation" but does not discuss the potential biological implications of this finding in the context of known m6A functions. The discussion of m6A is brief and does not connect the simulation results to cellular processes.
+  - **Required correction** Add a brief discussion of the potential biological relevance of m6A-mediated suppression of RNA phase separation, particularly in light of experimental observations that m6A can enhance RNA-protein interactions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Force field validation
+  - **Evidence pointer** Methods, "Atomistic Molecular Dynamic Simulations"
+  - **Issue** The manuscript uses the Amber parmBSC0χOL3 force field with OPC water and optimized Mg2+ parameters. While this is a reasonable choice, the manuscript does not discuss potential limitations of the force field for studying phase separation, such as the accuracy of base-base interaction energies or the treatment of polarization effects.
+  - **Required correction** Add a brief discussion of force field limitations and how they might affect the quantitative conclusions.
+- **Technical failings that need to be addressed before the case is established** The primary technical issue is the lack of quantitative phase behavior data in the main text. The manuscript relies heavily on qualitative descriptions of cluster properties and references to SI figures that are not available for review. The claim of LCST behavior requires a proper phase diagram or coexistence curve. Additionally, the manuscript does not provide a systematic convergence analysis for all systems, only stating that "simulations were run until convergence was achieved" without showing the supporting data. The use of a single force field without cross-validation or comparison with experimental data for the specific systems studied is a limitation that should be acknowledged more explicitly.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work addresses a timely and important question about the molecular drivers of RNA phase separation. While prior studies have examined RNA condensates, the systematic atomistic investigation of base-specific and ion-specific effects on LCST behavior is a novel contribution. The focus on tetranucleotides as minimal model systems is creative, though it raises questions about generalizability.
+  - **Scientific importance** The findings have potential implications for understanding the biophysical principles of RNA condensate formation, which is relevant to numerous cellular processes. The identification of Mg2+ as a key driver of LCST behavior and the base-specific trends could inform experimental studies and potentially guide therapeutic strategies targeting RNA condensates.
+  - **Interdisciplinary readership** The topic bridges RNA biology, biophysics, and computational chemistry. The manuscript is written in a way that is accessible to a broad scientific audience, though some familiarity with phase separation concepts is assumed. The significance statement effectively communicates the broader relevance.
+  - **Technical soundness** The simulation methodology is generally sound, with appropriate force field selection and system setup. However, the lack of quantitative phase behavior data and the limited convergence analysis weaken the technical foundation. The interpretation of results in terms of entropic driving forces is plausible but not rigorously established.
+  - **Readability for nonspecialists** The manuscript is clearly written and logically organized. The use of figures to illustrate key findings is helpful, though the main text could benefit from more quantitative descriptions. The significance statement is accessible, but the results section assumes familiarity with simulation techniques and phase separation concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a plausible mechanism for RNA phase separation. However, the central claim of LCST behavior and its attribution to Mg2+ interactions requires quantitative support that is not fully presented in the main text. The authors should provide a proper phase diagram, quantitative entropy analysis, and a more detailed comparison with experimental data. The use of tetranucleotides as model systems should be justified more thoroughly, and the limitations of the approach should be acknowledged more explicitly.
+
+## Risk / unsupported claims
+- The claim that RNA condensates display "base specific lower critical solution temperature" is not quantitatively supported in the main text; the phase behavior is described qualitatively without a proper phase diagram.
+- The attribution of LCST behavior to "multivalent interactions with magnesium ions" is inferred from comparative simulations but lacks a quantitative free energy decomposition.
+- The statement that "the release of large number of waters quantified in our simulations provides strong evidence for the entropic origin of LCST behavior" is presented as a conclusion, but the quantitative water release data are not shown in the main text.
+- The claim that the condensation order "G4 > A4 > C4 > U4" aligns with experiments is made without a detailed comparison of conditions or quantitative agreement.
+- The assertion that tetranucleotides are "ideal" for probing sequence-dependent phase separation is not supported by evidence that the findings extrapolate to longer RNA molecules.
+- The statement that m6A modification "suppresses phase separation" is based on simulation results but the biological relevance is not discussed in sufficient depth.

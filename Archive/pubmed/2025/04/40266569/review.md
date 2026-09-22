@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report terahertz (THz) spectroscopic studies (time-domain and frequency-domain) of ATP, adenosine (Adn), and sodium triphosphate (TPP) in aqueous solution across 2-15 mM. They claim that at low concentrations, adenosine and triphosphate moieties contribute nearly equally to ATP solvation, while at higher concentrations (>10 mM), the adenosine moiety dominates, producing a more structured solvation shell and slower relaxation dynamics. They attribute this to triphosphate-driven ATP aggregation with reduced water-exposed triphosphate groups, supported by molecular dynamics (MD) simulations. They propose these findings help rationalize ATP's anomalous concentration-dependent effects on protein and RNA folding and liquid-liquid phase separation.
+- **Visible evidence base** Abstract text only; no numerical data, spectra, simulation details, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, MD simulation parameters and validation, error analysis, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing hypothesis that concentration-dependent solvation of ATP, probed by THz spectroscopy, could explain its dual role as a hydrotrope at low concentrations and an aggregation promoter at high concentrations. The proposed mechanism, involving a crossover in the relative contributions of adenosine and triphosphate moieties, is conceptually appealing. However, the abstract provides insufficient quantitative evidence to evaluate the robustness of the claims. Key data, such as spectral fits, relaxation time constants, concentration-dependent trends, and simulation validation, are not visible. The causal link between THz observables and the proposed aggregation mechanism is asserted rather than demonstrated. The manuscript may be of interest to the biophysics and physical chemistry communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular hydration, protein and RNA folding, liquid-liquid phase separation, and the role of metabolites like ATP in cellular organization. Physical chemists and spectroscopists interested in THz techniques for probing solvation dynamics would also find the methodological application relevant. The potential to rationalize ATP's anomalous concentration-dependent effects could attract a broad biophysical audience.
+- **Major strengths** The research addresses a significant and unresolved question regarding ATP's concentration-dependent effects on biomolecular processes. The combination of experimental THz spectroscopy with MD simulations is a powerful approach. The systematic comparison of ATP with its components (Adn and TPP) is a logical strategy to deconvolute contributions. The proposed crossover in solvation behavior at a concentration near the physiological upper limit is a testable and potentially impactful hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Both time and frequency domain studies of the solvation of adenosine (Adn), sodium triphosphate (TPP), and ATP elucidate that both the adenosine as well as the triphosphate moiety contribute to nearly equal propensity towards the solvation structure of ATP at low concentrations. However, at higher concentrations (>10 mM), the effect of the adenosine moiety dominates, which leads to a more structured solvation shell followed by slower relaxation dynamics."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states qualitative conclusions about the relative contributions of adenosine and triphosphate moieties to ATP solvation, but no quantitative data are presented. There are no reported values for relaxation times, spectral amplitudes, or any fitting parameters that would substantiate the claim of "nearly equal propensity" at low concentrations and "domination" by adenosine at high concentrations. The threshold of >10 mM is stated without supporting data showing a clear crossover.
+  - **Why it matters** Without quantitative evidence, the central claim of a non-monotonous concentration-dependent solvation behavior cannot be evaluated. The reader cannot assess whether the observed differences are statistically significant or within experimental uncertainty. The proposed mechanism hinges on this crossover, so the entire argument rests on unverified quantitative claims.
+  - **Resolution test** Provide quantitative data, such as concentration-dependent relaxation time constants or spectral metrics for Adn, TPP, and ATP, with error bars and statistical tests demonstrating a significant crossover near 10 mM. Show that the contributions of the two moieties are quantitatively comparable at low concentrations and that adenosine dominates at high concentrations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "This is due to the triphosphate-driven ATP aggregation with a reduced amount of water-exposed triphosphate groups, as revealed by molecular dynamics simulations."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract attributes the observed solvation changes to triphosphate-driven ATP aggregation, but no simulation details are provided. There is no information on the force field, system size, simulation length, concentration conditions, or how aggregation was quantified. The link between the MD results and the THz observables is not established. It is unclear whether the simulations were performed at the same concentrations as the experiments and whether the aggregation propensity was validated against experimental data.
+  - **Why it matters** The proposed mechanism is the explanatory core of the paper. If the MD simulations are not robustly described or if the connection to the THz data is not demonstrated, the mechanism remains speculative. The claim of "reduced amount of water-exposed triphosphate groups" is a specific molecular-level assertion that requires direct simulation evidence and correlation with experimental observables.
+  - **Resolution test** Provide detailed MD simulation methods, including force field parameters, system setup, and analysis protocols. Show quantitative measures of aggregation (e.g., cluster size distributions, coordination numbers) as a function of concentration. Demonstrate a direct correlation between simulated aggregation and experimentally observed THz spectral changes, for example by computing solvation dynamics or water dynamics from simulations and comparing to experimental results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "These observations could lead to an understanding of the complex role of ATP in different biological systems."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims that the findings could help rationalize ATP's anomalous impact on biophysical processes, but no direct connection is made between the solvation measurements and any specific biological process. The leap from THz spectroscopy of ATP solutions to protein folding or liquid-liquid phase separation is not substantiated. No data on proteins, RNAs, or phase separation are presented.
+  - **Why it matters** The broader significance of the work depends on this connection. Without demonstrating relevance to actual biological systems, the study remains a physical chemistry characterization of ATP solvation. The claim of rationalizing anomalous biological effects is currently unsupported and may overstate the implications of the findings.
+  - **Resolution test** Either temper the claims in the abstract to reflect that the findings are suggestive rather than directly applicable, or include preliminary data linking the solvation behavior to a specific biological process, such as showing that ATP's effect on a model protein's aggregation correlates with the concentration-dependent solvation changes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "biological hydrotrope" is used without definition or context. Nonspecialist readers may not be familiar with this concept.
+  - **Required correction** Briefly define "hydrotrope" in the abstract or provide a short explanatory phrase, such as "a molecule that enhances solubility of hydrophobic compounds in water."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Concentration range statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the concentration range as 2-15 mM and mentions "higher concentrations (>10 mM)" as the regime where adenosine dominates. It is unclear whether the crossover is sharp or gradual and whether data were collected at intermediate concentrations (e.g., 10 mM exactly).
+  - **Required correction** Clarify the concentration sampling and whether the crossover is a gradual transition or a sharp threshold. If possible, specify the exact concentrations measured.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Title
+  - **Evidence pointer** Title; location not provided
+  - **Issue** The title uses "Could Help to Rationalize," which is appropriately cautious, but the abstract's final sentence uses "could lead to an understanding," which is similar. However, the title's emphasis on "Anomalous Impact" may overstate the direct relevance given the lack of biological data.
+  - **Required correction** Consider softening the title or ensuring the abstract clearly states that the biological implications are speculative and require further investigation.
+
+## Risk / unsupported claims
+- The claim of "nearly equal propensity" of adenosine and triphosphate moieties at low concentrations is unsupported without quantitative data.
+- The claim of a crossover at >10 mM with adenosine dominance is unsupported without concentration-dependent data showing a clear trend.
+- The attribution of solvation changes to "triphosphate-driven ATP aggregation" is unsupported without simulation details and validation.
+- The claim that the findings "could lead to an understanding of the complex role of ATP in different biological systems" is speculative and not directly supported by the presented data.
+- The overall mechanistic model linking THz observables to aggregation and biological effects is not established from the abstract alone.

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report an AI-driven pipeline (Deepeptide platform) to identify bifunctional oligopeptides from intrinsically disordered regions with osteogenic and angiogenic activities. A lead peptide was fused to a hydroxyapatite-binding domain, covalently anchored onto biphasic calcium phosphate (BCP) ceramic scaffolds, and evaluated in vitro and in vivo. The authors claim enhanced osteogenic differentiation of BMSCs, angiogenic activity of HUVECs, and effective bone regeneration and vascularization in vivo, concluding that these scaffolds hold promise for critical-sized bone defect repair.
+- **Visible evidence base** Abstract text only; no quantitative data, experimental details, or statistical analyses provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, quantitative results, statistical analyses, in vivo study design (animal model, defect size, sample sizes, controls), peptide selection criteria, characterization data for scaffold modification, and any comparison with existing materials
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting integration of AI-driven peptide discovery with bone tissue engineering. The workflow is logical and the potential clinical relevance is clear. However, the abstract provides no quantitative evidence, no experimental detail, and no statistical support for any of the stated outcomes. The central claims of enhanced osteogenesis, angiogenesis, and in vivo bone regeneration are asserted without visible data. The case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in bone tissue engineering, biomaterials science, and regenerative medicine would be interested, particularly those working on peptide-functionalized scaffolds and AI-guided biomaterial design. The work may also appeal to groups developing growth factor alternatives for bone repair, given the emphasis on avoiding limitations of current growth factor therapies.
+- **Major strengths** The conceptual integration of AI-based peptide discovery with scaffold functionalization is timely and potentially impactful. The use of intrinsically disordered regions as a peptide source is a distinctive angle. The bifunctional design targeting both osteogenesis and angiogenesis addresses a recognized need in bone regeneration. The covalent anchoring strategy for sustained release is a reasonable engineering approach.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the modified scaffolds significantly promoted osteogenic differentiation of BMSCs, angiogenic activity of HUVECs, and effective bone regeneration and vascularization in vivo.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative data, effect sizes, statistical significance values, or experimental details are provided for any of the in vitro or in vivo outcomes. The term "significantly" is used without supporting statistics. The in vivo model, defect size, sample numbers, and controls are not described.
+  - **Why it matters** Without visible quantitative evidence and statistical support, the central efficacy claims cannot be evaluated. The abstract alone does not allow assessment of whether the observed effects are meaningful, reproducible, or superior to existing approaches.
+  - **Resolution test** Provide quantitative results with statistical analyses for all key outcomes, including differentiation markers, angiogenic assays, and in vivo bone volume and vessel density, with appropriate controls and sample sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that the Deepeptide platform identified bifunctional oligopeptides with both osteogenic and angiogenic activities, and that the most potent peptide was selected.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The screening process, selection criteria, and validation of the nine candidates are not described. The basis for identifying the "most potent" peptide is unclear, and no data on the activities of the candidates are shown.
+  - **Why it matters** The AI-driven discovery is a central novelty of the work. Without evidence of the screening logic, candidate performance, and selection rationale, the claim that AI successfully identified functional peptides is not verifiable.
+  - **Resolution test** Describe the screening workflow, include data on the nine candidates, and justify the selection of the lead peptide with quantitative activity measurements.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The authors claim that the recombinant fusion peptide was covalently anchored onto BCP ceramic scaffolds and achieved sustained release.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No characterization data are provided for the covalent anchoring, such as binding efficiency, stability, release kinetics, or scaffold surface analysis. The claim of sustained release is unsupported.
+  - **Why it matters** The functional performance of the scaffold depends on the success and stability of the peptide immobilization. Without characterization, the mechanism of action and the reproducibility of the modification are uncertain.
+  - **Resolution test** Provide surface characterization data (e.g., XPS, FTIR, or similar), binding quantification, and release profile over time.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "bifunctional" is used early in the abstract, but the title states "Multifunctional." The discrepancy is confusing.
+  - **Required correction** Align terminology between the title and the abstract, or clarify the distinction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** In vivo model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "critical-sized bone defects" but does not specify the animal model, defect location, or defect dimensions.
+  - **Required correction** Specify the animal model and defect characteristics in the abstract or ensure they are clearly described in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to existing materials
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that current bone graft materials and growth factor therapies have limitations, but no comparison data are presented to show superiority of the new scaffold.
+  - **Required correction** Include a comparison with an appropriate control scaffold or existing material in the results, or temper the claim of promise.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative data, screening details, and scaffold characterization prevents verification of the central claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of AI-driven peptide discovery from IDRs with bifunctional osteogenic and angiogenic activity for scaffold coating is conceptually original. However, originality cannot be fully assessed without details on the screening approach and comparison to existing peptide discovery methods.
+  - Scientific importance: The potential to address limitations of growth factor therapies in bone repair is clinically relevant. The importance is plausible but not demonstrated from the abstract alone.
+  - Interdisciplinary readership: The work bridges AI, peptide engineering, biomaterials, and regenerative medicine, which could attract a broad readership. The abstract is written in accessible language.
+  - Technical soundness: Not assessable from the abstract. No methods, data, or statistical analyses are visible.
+  - Readability for nonspecialists: The abstract is clearly written and understandable to a broad scientific audience, though some terms (e.g., intrinsically disordered regions) may require familiarity.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, and the work could be supportive if the technical concerns are resolved with full quantitative data, screening details, and scaffold characterization.
+
+## Risk / unsupported claims
+- The claim that the modified scaffolds "significantly promoted" osteogenic differentiation, angiogenic activity, and in vivo bone regeneration is unsupported without quantitative data and statistics.
+- The claim that the Deepeptide platform identified bifunctional peptides with both activities is unverifiable without screening details and candidate data.
+- The claim of "sustained release" is unsupported without release kinetics data.
+- The claim that these scaffolds "hold promise as next-generation bone graft" is an extrapolation not supported by the abstract-level evidence.

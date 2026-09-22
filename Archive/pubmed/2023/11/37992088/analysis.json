@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37992088",
+  "title": "IDP-LM: Prediction of protein intrinsic disorder and disorder functions based on language models.",
+  "authors": "Pang, Yihe; Liu, Bin",
+  "journal": "PLoS computational biology",
+  "published_date": "2023-11-22",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用预训练蛋白语言模型预测无序蛋白/区域及其功能，对象轴契合IDP，但未涉及PPI或互作机制建模，方法为AI预测而非机制建模，故综合评5分。",
+  "abstract": "Intrinsically disordered proteins (IDPs) and regions (IDRs) are a class of functionally important proteins and regions that lack stable three-dimensional structures under the native physiologic conditions. They participate in critical biological processes and thus are associated with the pathogenesis of many severe human diseases. Identifying the IDPs/IDRs and their functions will be helpful for a comprehensive understanding of protein structures and functions, and inform studies of rational drug design. Over the past decades, the exponential growth in the number of proteins with sequence information has deepened the gap between uncharacterized and annotated disordered sequences. Protein language models have recently demonstrated their powerful abilities to capture complex structural and functional information from the enormous quantity of unlabelled protein sequences, providing opportunities to apply protein language models to uncover the intrinsic disorders and their biological properties from the amino acid sequences. In this study, we proposed a computational predictor called IDP-LM for predicting intrinsic disorder and disorder functions by leveraging the pre-trained protein language models. IDP-LM takes the embeddings extracted from three pre-trained protein language models as the exclusive inputs, including ProtBERT, ProtT5 and a disorder specific language model (IDP-BERT). The ablation analysis shown that the IDP-BERT provided fine-grained feature representations of disorder, and the combination of three language models is the key to the performance improvement of IDP-LM. The evaluation results on independent test datasets demonstrated that the IDP-LM provided high-quality prediction results for intrinsic disorder and four common disordered functions.",
+  "abstract_zh": "固有无序蛋白（IDPs）及无序区域（IDRs）是一类在天然生理条件下缺乏稳定三维结构但功能重要的蛋白质及区域。它们参与关键生物过程，因此与多种严重人类疾病的发病机制相关。识别IDPs/IDRs及其功能将有助于全面理解蛋白质结构和功能，并为合理药物设计研究提供信息。过去几十年中，具有序列信息的蛋白质数量呈指数级增长，加深了未表征与已注释无序序列之间的差距。蛋白质语言模型（protein language models）近期展示了其从海量未标记蛋白质序列中捕获复杂结构和功能信息的强大能力，为应用蛋白质语言模型从氨基酸序列中揭示内在无序性及其生物学特性提供了机会。在本研究中，我们提出了一种名为IDP-LM的计算预测器，通过利用预训练的蛋白质语言模型来预测内在无序性和无序功能。IDP-LM将三种预训练蛋白质语言模型提取的嵌入作为唯一输入，包括ProtBERT、ProtT5及一种无序特异性语言模型（IDP-BERT）。消融分析表明，IDP-BERT提供了无序的细粒度特征表示，而三种语言模型的组合是IDP-LM性能提升的关键。在独立测试数据集上的评估结果显示，IDP-LM为内在无序性和四种常见无序功能提供了高质量的预测结果。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37992088/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37992088/",
+  "paper_page_path": "papers/pubmed/37992088/index.html"
+}

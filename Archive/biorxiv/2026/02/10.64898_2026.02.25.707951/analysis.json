@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.02.25.707951",
+  "title": "Time-Resolved Single-Molecule FRET Reveals Length-Dependent Nucleosome Decompaction by Poly(ADP-ribose)",
+  "authors": "Yang T; Gopi S; Pinet L; Simoni S; Imhof R; Nettels D; Altmeyer M; Best RB; Schuler B",
+  "journal": "bioRxiv",
+  "published_date": "2026-02-27",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合单分子FRET与粗粒化模拟，研究PAR链长依赖的核小体解压缩机制，涉及组蛋白尾与DNA/PAR的竞争结合，虽对象非IDP但无序组蛋白尾的互作机制建模对本课题有可迁移启发。",
+  "abstract": "Highly charged chains of poly(ADP-ribose) (PAR) are synthesized in the cell as part of their central role in DNA damage response. However, the effects of PAR on nucleosome structure and dynamics remain incompletely understood. Here we combine droplet-based microfluidic mixing with single-molecule Förster resonance energy transfer spectroscopy to resolve the kinetics of PAR-induced nucleosome decompaction in non-equilibrium measurements with millisecond time resolution. This approach avoids surface-adhesion and enables the tether-free observation of nucleosome remodeling. We find that PAR triggers nucleosome decompaction via a length-dependent kinetic threshold: Chains with less than ten ADP-ribose units act slowly and weakly, whereas longer PAR polymers induce efficient and rapid nucleosome opening. The extent and reversibility of decompaction further depend on PAR concentration and ionic strength, reflecting a mechanism dominated by electrostatic interactions. Enzymatic PAR digestion demonstrates that PAR can promote both reversible linker DNA opening and irreversible nucleosome disassembly. Coarse-grained molecular simulations suggest that these effects arise from a competition between PAR and DNA for histone tail binding. Altogether, our results establish PAR length as a key factor controlling chromatin accessibility during DNA repair and highlight droplet-based microfluidics as a powerful platform for studying such biomolecular interactions.",
+  "abstract_zh": "细胞中合成的高电荷聚（ADP-核糖）(poly(ADP-ribose), PAR) 链在DNA损伤应答中发挥核心作用。然而，PAR对核小体结构和动力学的影响仍未完全阐明。本研究结合基于液滴的微流控混合技术与单分子福斯特共振能量转移光谱法，在非平衡测量中以毫秒级时间分辨率解析PAR诱导的核小体去压缩动力学。该方法避免了表面粘附，并实现了无拴系观察核小体重塑。我们发现PAR通过长度依赖性动力学阈值触发核小体去压缩：少于十个ADP-核糖单位的链作用缓慢且微弱，而较长的PAR聚合物则诱导高效且快速的核小体开放。去压缩的程度和可逆性进一步取决于PAR浓度和离子强度，反映了以静电相互作用为主导的机制。酶促PAR消化实验表明，PAR既能促进可逆的连接DNA开放，也能导致不可逆的核小体解体。粗粒化分子模拟提示，这些效应源于PAR与DNA之间对组蛋白尾部结合的竞争。总体而言，我们的结果确立了PAR长度作为控制DNA修复过程中染色质可及性的关键因素，并凸显了基于液滴的微流控技术作为研究此类生物分子相互作用的强大平台。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.02.25.707951",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.25.707951",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.02.25.707951/index.html"
+}

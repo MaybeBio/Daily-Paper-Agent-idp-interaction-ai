@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36478084",
+  "title": "Biological Magnetic Resonance Data Bank.",
+  "authors": "Hoch, Jeffrey C; Baskaran, Kumaran; Burr, Harrison; Chin, John; Eghbalnia, Hamid R; Fujiwara, Toshimichi; Gryk, Michael R; Iwata, Takeshi; Kojima, Chojiro; Kurisu, Genji; Maziuk, Dmitri; Miyanoiri, Yohei; Wedell, Jonathan R; Wilburn, Colin; Yao, Hongyang; Yokochi, Masashi",
+  "journal": "Nucleic acids research",
+  "published_date": "2022-12-09",
+  "window": {
+    "start": "2022-12-05",
+    "end": "2022-12-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文介绍BMRB数据库，涵盖IDP和互作数据，但无具体PPI机制建模或AI/物理方法，仅作为数据资源对课题有间接参考价值。",
+  "abstract": "The Biological Magnetic Resonance Data Bank (BMRB, https://bmrb.io) is the international open data repository for biomolecular nuclear magnetic resonance (NMR) data. Comprised of both empirical and derived data, BMRB has applications in the study of biomacromolecular structure and dynamics, biomolecular interactions, drug discovery, intrinsically disordered proteins, natural products, biomarkers, and metabolomics. Advances including GHz-class NMR instruments, national and trans-national NMR cyberinfrastructure, hybrid structural biology methods and machine learning are driving increases in the amount, type, and applications of NMR data in the biosciences. BMRB is a Core Archive and member of the World-wide Protein Data Bank (wwPDB).",
+  "abstract_zh": "生物磁共振数据银行（BMRB，https://bmrb.io）是生物分子核磁共振（NMR）数据的国际开放数据存储库。BMRB包含经验数据和衍生数据，在生物大分子结构与动力学、生物分子相互作用、药物发现、 intrinsically disordered proteins（固有无序蛋白）、天然产物、生物标志物及代谢组学研究中具有广泛应用。包括GHz级NMR仪器、国家和跨国NMR网络基础设施、混合结构生物学方法及机器学习在内的进展，正推动生物科学中NMR数据在数量、类型和应用方面的增长。BMRB是核心档案库，也是世界蛋白质数据银行（wwPDB）的成员。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36478084/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36478084/",
+  "paper_page_path": "papers/pubmed/36478084/index.html"
+}

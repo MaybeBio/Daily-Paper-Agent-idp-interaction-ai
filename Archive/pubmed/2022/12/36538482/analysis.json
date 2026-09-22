@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36538482",
+  "title": "Formation of extramembrane beta-strands controls dimerization of transmembrane helices in amyloid precursor protein C99.",
+  "authors": "Pantelopulos, George A; Matsuoka, Daisuke; Hutchison, James M; Sanders, Charles R; Sugita, Yuji; Straub, John E; Thirumalai, D",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2022-12-21",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用MD模拟揭示APP-C99无序膜外结构域通过形成β-strand调控跨膜螺旋二聚化，直接研究IDR介导的PPI机制，方法为物理模拟，虽非相分离但机制建模高度相关。",
+  "abstract": "The 99-residue C-terminal domain of amyloid precursor protein (APP-C99), precursor to amyloid beta (Abeta), is a transmembrane (TM) protein containing intrinsically disordered N- and C-terminal extramembrane domains. Using molecular dynamics (MD) simulations, we show that the structural ensemble of the C99 monomer is best described in terms of thousands of states. The C99 monomer has a propensity to form beta-strand in the C-terminal extramembrane domain, which explains the slow spin relaxation times observed in paramagnetic probe NMR experiments. Surprisingly, homodimerization of C99 not only narrows the conformational ensemble from thousands to a few states through the formation of metastable beta-strands in extramembrane domains but also stabilizes extramembrane alpha-helices. The extramembrane domain structure is observed to dramatically impact the homodimerization motif, resulting in the modification of TM domain conformations. Our study provides an atomic-level structural basis for communication between the extramembrane domains of the C99 protein and TM homodimer formation. This finding could serve as a general model for understanding the influence of disordered extramembrane domains on TM protein structure.",
+  "abstract_zh": "淀粉样前体蛋白（APP）的99残基C端结构域（APP-C99），作为淀粉样β（Abeta）的前体，是一种跨膜（TM）蛋白，包含本质上无序的N端和C端膜外结构域。通过分子动力学（MD）模拟，我们展示了C99单体的结构集合最好以数千种状态来描述。C99单体在C端膜外结构域具有形成β链的倾向，这解释了顺磁探针NMR实验中观察到的缓慢自旋弛豫时间。令人惊讶的是，C99的同源二聚化不仅通过形成膜外结构域中的亚稳态β链，将构象集合从数千种状态缩小至少数几种，还稳定了膜外α螺旋。观察到膜外结构域结构对同源二聚化基序有显著影响，导致TM结构域构象的改变。我们的研究为C99蛋白膜外结构域与TM同源二聚体形成之间的通讯提供了原子级结构基础。这一发现可作为理解无序膜外结构域对TM蛋白结构影响的一般模型。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36538482/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36538482/",
+  "paper_page_path": "papers/pubmed/36538482/index.html"
+}

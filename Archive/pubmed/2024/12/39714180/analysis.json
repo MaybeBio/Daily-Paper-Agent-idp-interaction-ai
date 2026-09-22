@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39714180",
+  "title": "The protein structurome of Orthornavirae and its dark matter.",
+  "authors": "Mutz, Pascal; Camargo, Antonio Pedro; Sahakyan, Harutyun; Neri, Uri; Butkovic, Anamarija; Wolf, Yuri I; Krupovic, Mart; Dolja, Valerian V; Koonin, Eugene V",
+  "journal": "mBio",
+  "published_date": "2024-12-23",
+  "window": {
+    "start": "2024-12-23",
+    "end": "2024-12-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究利用AlphaFold2等结构预测方法系统构建RNA病毒蛋白质结构组，揭示未注释'暗物质'中大量无序结构域可能介导病毒-宿主蛋白互作，虽非聚焦特定IDP-PPI机制建模，但为无序蛋白介导互作的结构预测提供了可迁移的方法学思路。",
+  "abstract": "Metatranscriptomics is uncovering more and more diverse families of viruses with RNA genomes comprising the viral kingdom Orthornavirae in the realm Riboviria. Thorough protein annotation and comparison are essential to get insights into the functions of viral proteins and virus evolution. In addition to sequence- and hmm profile‑based methods, protein structure comparison adds a powerful tool to uncover protein functions and relationships. We constructed an Orthornavirae \"structurome\" consisting of already annotated as well as unannotated (\"dark matter\") proteins and domains encoded in viral genomes. We used protein structure modeling and similarity searches to illuminate the remaining dark matter in hundreds of thousands of orthornavirus genomes. The vast majority of the dark matter domains showed either \"generic\" folds, such as single alpha-helices, or no high confidence structure predictions. Nevertheless, a variety of lineage-specific globular domains that were new either to orthornaviruses in general or to particular virus families were identified within the proteomic dark matter of orthornaviruses, including several predicted nucleic acid-binding domains and nucleases. In addition, we identified a case of exaptation of a cellular nucleoside monophosphate kinase as an RNA-binding protein in several virus families. Notwithstanding the continuing discovery of numerous orthornaviruses, it appears that all the protein domains conserved in large groups of viruses have already been identified. The rest of the viral proteome seems to be dominated by poorly structured domains including intrinsically disordered ones that likely mediate specific virus-host interactions. IMPORTANCE: Advanced methods for protein structure prediction, such as AlphaFold2, greatly expand our capability to identify protein domains and infer their likely functions and evolutionary relationships. This is particularly pertinent for proteins encoded by viruses that are known to evolve rapidly and as a result often cannot be adequately characterized by analysis of the protein sequences. We performed an exhaustive structure prediction and comparative analysis for uncharacterized proteins and domains (\"dark matter\") encoded by viruses with RNA genomes. The results show the dark matter of RNA virus proteome consists mostly of disordered and all-alpha-helical domains that cannot be readily assigned a specific function and that likely mediate various interactions between viral proteins and between viral and host proteins. The great majority of globular proteins and domains of RNA viruses are already known although we identified several unexpected domains represented in individual viral families.",
+  "abstract_zh": "宏转录组学正不断揭示越来越多具有RNA基因组的病毒家族多样性，这些病毒属于核糖病毒界（Riboviria）中的正核糖病毒王国（Orthornavirae）。彻底的蛋白质注释和比较对于理解病毒蛋白的功能及病毒进化至关重要。除了基于序列和hmm谱的方法外，蛋白质结构比较为揭示蛋白质功能和关系增添了一个强大工具。我们构建了一个正核糖病毒“结构组（structurome）”，包含已注释及未注释（“暗物质”）的蛋白质和病毒基因组编码的结构域。我们利用蛋白质结构建模和相似性搜索来阐明数十万个正核糖病毒基因组中剩余的暗物质。绝大多数暗物质结构域显示出“通用”折叠，如单α螺旋，或没有高置信度的结构预测。尽管如此，在正核糖病毒的蛋白质组暗物质中，我们识别出了多种谱系特异性的球状结构域，这些结构域对正核糖病毒整体或特定病毒家族而言是新颖的，包括若干预测的核酸结合结构域和核酸酶。此外，我们发现了细胞核苷单磷酸激酶在几个病毒家族中被外借（exaptation）为RNA结合蛋白的案例。尽管不断有大量正核糖病毒被发现，但似乎在大型病毒群体中保守的所有蛋白质结构域已被全部识别。病毒蛋白质组的其余部分似乎主要由结构不良的结构域主导，包括可能介导特定病毒-宿主相互作用的固有无序结构域。重要性：先进的蛋白质结构预测方法，如AlphaFold2，极大地扩展了我们识别蛋白质结构域、推断其可能功能及进化关系的能力。这对于由已知进化迅速的病毒编码的蛋白质尤为关键，因为这些蛋白质往往无法通过序列分析得到充分表征。我们对RNA基因组病毒编码的未表征蛋白质和结构域（“暗物质”）进行了详尽的结构预测和比较分析。结果表明，RNA病毒蛋白质组的暗物质主要由无序和全α螺旋结构域组成，这些结构域难以明确指定特定功能，可能介导病毒蛋白之间及病毒与宿主蛋白之间的多种相互作用。RNA病毒的绝大多数球状蛋白质和结构域已被知晓，尽管我们在个别病毒家族中识别出了一些意想不到的结构域。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39714180/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39714180/",
+  "paper_page_path": "papers/pubmed/39714180/index.html"
+}

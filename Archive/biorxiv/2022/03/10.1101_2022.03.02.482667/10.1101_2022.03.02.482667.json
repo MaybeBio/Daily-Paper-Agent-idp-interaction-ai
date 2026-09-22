@@ -1,0 +1,130 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.03.02.482667",
+  "title": "Stereochemistry of transient protein-protein interactions in a signaling hub: exploring G3BP1-mediated regulation of CFTR deubiquitination",
+  "doi": "10.1101/2022.03.02.482667",
+  "abstract": "Intrinsically disordered proteins (IDPs) can coordinate often transient or weak interactions with multiple proteins to mediate complex signals within large, reversible protein networks. Among these, the IDP hub protein G3BP1 forms protein complexes with Caprin1 and USP10, and the resulting control of USP10 activity plays an important role in a pathogenic virulence system that targets CFTR endocytic recycling. However, while the identities of protein interactors are known for many of these IDP hub proteins, the relationship between pairwise affinities and the extent of protein recruitment and activity is not well understood. Here we describe in vitro analysis of the G3BP1 affinities, and show that substitution of G3BP1 residues F15 or F33 to tryptophan reduces affinity for both the USP10 and Caprin1 motif peptides. These same mutations significantly reduce formation of complexes by the full-length proteins. The crystal structure of G3BP1 TripleW (F15W/F33W/F124W) mutant reveals a clear reorientation of the side chain of W33, creating a steric clash with the USP10 and Caprin1 peptides. An amino-acid scan of the USP10 and Caprin1 motif peptides reveals similarities and differences in the ability to substitute residues in the core motifs as well as specific mutations with the potential to create higher affinity peptides. Taken together, these data show that small changes in 1:1 binding affinity can have significant effects on the composition of cellular interaction hubs. These specific protein mutations can be harnessed to manipulate complex protein networks, informing future investigations into roles of these networks in cellular processes.",
+  "authors": [
+    "Sheehan CT",
+    "Madden DR"
+  ],
+  "published_date": "2022-03-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.03.02.482667",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.03.02.482667.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR464076",
+    "raw_record": {
+      "id": "PPR464076",
+      "source": "PPR",
+      "doi": "10.1101/2022.03.02.482667",
+      "title": "Stereochemistry of transient protein-protein interactions in a signaling hub: exploring G3BP1-mediated regulation of CFTR deubiquitination",
+      "authorString": "Sheehan CT, Madden DR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sheehan CT",
+            "lastName": "Sheehan",
+            "firstName": "Colin",
+            "initials": "CT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8138-439X"
+            }
+          },
+          {
+            "fullName": "Madden DR",
+            "lastName": "Madden",
+            "firstName": "Dean",
+            "initials": "DR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1810-6984"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8138-439X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1810-6984"
+          }
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Intrinsically disordered proteins (IDPs) can coordinate often transient or weak interactions with multiple proteins to mediate complex signals within large, reversible protein networks. Among these, the IDP hub protein G3BP1 forms protein complexes with Caprin1 and USP10, and the resulting control of USP10 activity plays an important role in a pathogenic virulence system that targets CFTR endocytic recycling. However, while the identities of protein interactors are known for many of these IDP hub proteins, the relationship between pairwise affinities and the extent of protein recruitment and activity is not well understood. Here we describe  in vitro analysis of the G3BP1 affinities, and show that substitution of G3BP1 residues F15 or F33 to tryptophan reduces affinity for both the USP10 and Caprin1 motif peptides. These same mutations significantly reduce formation of complexes by the full-length proteins. The crystal structure of G3BP1 TripleW (F15W/F33W/F124W) mutant reveals a clear reorientation of the side chain of W33, creating a steric clash with the USP10 and Caprin1 peptides. An amino-acid scan of the USP10 and Caprin1 motif peptides reveals similarities and differences in the ability to substitute residues in the core motifs as well as specific mutations with the potential to create higher affinity peptides. Taken together, these data show that small changes in 1:1 binding affinity can have significant effects on the composition of cellular interaction hubs. These specific protein mutations can be harnessed to manipulate complex protein networks, informing future investigations into roles of these networks in cellular processes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/03/02/2022.03.02.482667.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.03.02.482667"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36183834",
+            "reference": "The Journal of biological chemistry. 2022 Dec;298(12):102552",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-03-05",
+      "firstPublicationDate": "2022-03-02",
+      "firstIndexDate": "2022-03-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

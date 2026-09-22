@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41709425",
+  "title": "An Artificial Intelligence-Selected Multifunctional Oligopeptide Coated Biphasic Calcium Phosphate (BCP) Scaffold Promotes Bone Defect Repair.",
+  "authors": "Ma, Shiqing; Liu, Xiaotong; Xiao, Baichuan; Xiao, Yujia; Yang, Yilin; Ma, Beibei; Shang, Yucheng; Zhu, Hao; Zhou, Yixiang; Zhang, Yong-Biao; Deng, Jiayin",
+  "journal": "Advanced healthcare materials",
+  "published_date": "2026-02-19",
+  "window": {
+    "start": "2026-02-16",
+    "end": "2026-02-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用AI从无序区域筛选双功能寡肽并修饰磷酸钙支架促进骨修复，涉及IDR和AI方法，但核心是骨组织工程应用而非PPI互作机制建模，故为中档。",
+  "abstract": "Bone defects caused by inflammation, trauma, tumor resection, or tooth extraction present persistent clinical challenges, primarily because of the limitations of current bone graft materials and growth factor therapies. In this study, we developed a novel strategy for bone regeneration by integrating AI-driven peptide discovery with bone tissue engineering. Utilizing the Deepeptide platform, we screened and identified bifunctional oligopeptides from intrinsically disordered regions (IDRs) with both osteogenic and angiogenic activities. Among the nine candidates, the most potent peptide was fused with a hydroxyapatite-binding domain via peptide engineering to enhance scaffold coupling and achieve sustained release. The recombinant fusion peptide was then covalently anchored onto biphasic calcium phosphate (BCP) ceramic scaffolds. And evaluations demonstrated that the modified scaffolds significantly promoted osteogenic differentiation of bone marrow mesenchymal stem cells (BMSCs), angiogenic activity of human umbilical vein endothelial cells (HUVECs), and effective bone regeneration and vascularization in vivo. These findings suggest that AI-discovered, functionally integrated oligopeptide-modified BCP ceramics hold promise as next-generation bone graft for repairing critical-sized bone defects.",
+  "abstract_zh": "由炎症、创伤、肿瘤切除或拔牙引起的骨缺损持续构成临床挑战，主要原因是现有骨移植材料和生长因子疗法的局限性。在本研究中，我们开发了一种通过整合AI驱动的肽发现与骨组织工程的新型骨再生策略。利用Deepeptide平台，我们从内在无序区域（IDRs）中筛选并鉴定了具有成骨和血管生成活性的双功能寡肽。在九个候选肽中，最具潜力的肽通过肽工程与羟基磷灰石结合域融合，以增强支架偶联并实现持续释放。随后，重组融合肽被共价锚定到双相磷酸钙（BCP）陶瓷支架上。评估结果表明，修饰后的支架显著促进了骨髓间充质干细胞（BMSCs）的成骨分化、人脐静脉内皮细胞（HUVECs）的血管生成活性，以及体内有效的骨再生和血管化。这些发现表明，AI发现的功能整合寡肽修饰的BCP陶瓷有望成为修复临界尺寸骨缺损的下一代骨移植材料。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41709425/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41709425/",
+  "paper_page_path": "papers/pubmed/41709425/index.html"
+}

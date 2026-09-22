@@ -1,0 +1,229 @@
+{
+  "identity": {
+    "pmid": "42364124",
+    "doi": "10.1080/07391102.2026.2693586",
+    "title": "Biophysical analysis reveals low‑affinity, multivalent interactions and conformational modulation of the SARS‑CoV‑2 nucleocapsid protein by berberine and palmatine."
+  },
+  "content": {
+    "abstract": "The Nucleocapsid (N) protein of the Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) is an intrinsically dynamic, multifunctional protein critical for viral replication, RNA binding and the immune response. A consensus sequence of the N protein (P13L; Delta31-33; R203K; G204R; and S413R mutations in relation to the Wuhan sequence) was recombinantly expressed using E. coli BL21(DE3)-T7 express cells, purified and characterised using Far Ultraviolet (UV) Circular Dichroism (CD), Intrinsic Tryptophan Fluorescence (ITF) Spectroscopies as well as Blue Native Polyacrylamide Gel Electrophoresis (BN-PAGE). The interactions of two naturally occurring isoquinoline alkaloids, berberine and palmatine, with the N protein were analysed biophysically and structurally. Both alkaloids have low-affinity, multivalent interactions with the N protein as predicted by in silico docking and Boltz-2 cofolding predictions. Surface Plasmon Resonance (SPR) predicts binding for palmatine, and Isothermal Titration Calorimetry (ITC) confirms the low binding affinity. The native, predominantly unstructured protein still binds nucleic acids and can form dimer, trimer and tetrameric species even in the presence of the compounds. Both compounds induce slight secondary and tertiary structural changes, including redistribution of secondary structural elements toward increased beta‑sheet content, alterations in hydrogen‑bonding patterns, and small shifts in intrinsic tryptophan fluorescence. Changes result in a limited increase in thermal stability (0.08-0.1  degrees C). The alkaloids alter the N protein conformational landscape, altering flexibility and highlighting the relevance of low-affinity modulators in targeting intrinsically disordered viral proteins.",
+    "keywords": [
+      "SARS-CoV-2",
+      "berberine",
+      "nucleocapsid",
+      "palmatine"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vermaak, Tracey-Lee",
+        "Mosebi, Salerwe",
+        "Gildenhuys, Samantha"
+      ],
+      "short_names": [
+        "Vermaak TL",
+        "Mosebi S",
+        "Gildenhuys S"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-3668-3282",
+        "ORCID: 0000-0002-7028-1712",
+        "ORCID: 0000-0002-9717-8379"
+      ],
+      "affiliations": [
+        "Department of Life and Consumer Sciences, College of Agriculture and Environmental Sciences, University of South Africa, Florida, Roodepoort, South Africa.",
+        "Department of Life and Consumer Sciences, College of Agriculture and Environmental Sciences, University of South Africa, Florida, Roodepoort, South Africa.",
+        "Department of Life and Consumer Sciences, College of Agriculture and Environmental Sciences, University of South Africa, Florida, Roodepoort, South Africa."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vermaak, Tracey-Lee",
+        "short_name": "Vermaak TL",
+        "identifiers": [
+          "0009-0005-3668-3282"
+        ],
+        "affiliations": [
+          "Department of Life and Consumer Sciences, College of Agriculture and Environmental Sciences, University of South Africa, Florida, Roodepoort, South Africa."
+        ]
+      },
+      {
+        "full_name": "Mosebi, Salerwe",
+        "short_name": "Mosebi S",
+        "identifiers": [
+          "0000-0002-7028-1712"
+        ],
+        "affiliations": [
+          "Department of Life and Consumer Sciences, College of Agriculture and Environmental Sciences, University of South Africa, Florida, Roodepoort, South Africa."
+        ]
+      },
+      {
+        "full_name": "Gildenhuys, Samantha",
+        "short_name": "Gildenhuys S",
+        "identifiers": [
+          "0000-0002-9717-8379"
+        ],
+        "affiliations": [
+          "Department of Life and Consumer Sciences, College of Agriculture and Environmental Sciences, University of South Africa, Florida, Roodepoort, South Africa."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2026 Jun 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/27 18:38",
+    "fetched_at": "2026-09-18 04:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42364124",
+      "38941236",
+      "33794152",
+      "23147244",
+      "34033342",
+      "19754095",
+      "15862300",
+      "41483852",
+      "15759315",
+      "16254320",
+      "33797336",
+      "19715476",
+      "39718618",
+      "29458089",
+      "19132839",
+      "40503915",
+      "42000821",
+      "18788977",
+      "36040256",
+      "33095454",
+      "19052082",
+      "36748338",
+      "15043961",
+      "33039147",
+      "17002283",
+      "23912807",
+      "38153183",
+      "40820302",
+      "23065224",
+      "34022485",
+      "21281702",
+      "32469265",
+      "36427555",
+      "35796388",
+      "33050086",
+      "33664866",
+      "37018390",
+      "35783971",
+      "15020242",
+      "37211047",
+      "19774594",
+      "40490992",
+      "33200826",
+      "41773022",
+      "38587193",
+      "27064497",
+      "41837652",
+      "39412257",
+      "40945576",
+      "37956938",
+      "33593247",
+      "15542602",
+      "40375582",
+      "40113149",
+      "36950886",
+      "19899798",
+      "33314794",
+      "11718556",
+      "36323732",
+      "38429584",
+      "16228284",
+      "33090512",
+      "34822776",
+      "16273643",
+      "14760722",
+      "24501403",
+      "34056193",
+      "17156912",
+      "35105893",
+      "22108848",
+      "19691129",
+      "22172005",
+      "11170413",
+      "20814427",
+      "33270159",
+      "39082816",
+      "39386676",
+      "41468288",
+      "32749662",
+      "19782089",
+      "31594639",
+      "40549905",
+      "33505806",
+      "36211961",
+      "18284662",
+      "18941225",
+      "36807437",
+      "37348142",
+      "36708355",
+      "31597702",
+      "38045338",
+      "40697650",
+      "16627473",
+      "15849181",
+      "15779915",
+      "39150724",
+      "32493627",
+      "38376366",
+      "16285739",
+      "18421749"
+    ],
+    "review": [
+      "42364124",
+      "39150724"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2026.2693586?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2026.2693586",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

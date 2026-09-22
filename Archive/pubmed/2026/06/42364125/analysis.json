@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42364125",
+  "title": "The multifaceted nature of mollusk shell proteins: a complex interplay of protein sequence, function, and biomineralization.",
+  "authors": "Sharma, Pratibha; Malhotra, Lakshay; Dhamija, Rajinder K; Srinivasan, Alagiri",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2026-06-27",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该文对软体动物壳蛋白进行生物信息学综合分析，发现大量蛋白为无序蛋白并作为柔性多价支架参与生物矿化，虽非PPI/相分离对象且无AI/物理模拟方法，但无序蛋白功能机制建模思路对本课题有启发。",
+  "abstract": "Mollusk shell formation represents a complex biomineralization process governed by diverse shell proteins, yet their sequence-structure-function relationships remain incompletely understood. We have presented a comprehensive bioinformatic synthesis of 210 shell-associated proteins from 30 molluscan species to delineate compositional, structural, regulatory and evolutionary principles underlying shell formation. Primary sequence analyses revealed highly biased amino acid compositions characterized by a predominance of hydrophilic residues, enrichment of glycine-, aspartate- and serine-rich regions, and reduced nonpolar content. Nearly 65% of proteins were either highly acidic or highly basic, aligning with the prevailing view that charged macromolecules influence calcium carbonate nucleation. Repetitive low-complexity motifs, extensive post-translational modification sites and secretory signals were widespread, supporting extracellular matrix localization and functional adaptability. Structural predictions indicated limited secondary structure and extensive intrinsic disorder, with almost three-quarters of proteins classified as partially or completely disordered. Quantitative analyses demonstrated strong coupling between intrinsic disorder and regulatory motif enrichment, suggesting that these proteins primarily act as flexible, multivalent scaffolds rather than rigid structural components. Charge-hydropathy profiling and aggregation analyses further highlighted diverse structural strategies associated with biomineralization and matrix assembly. The nacrein protein family, examined as a representative case, showed a conserved carbonic anhydrase catalytic core combined with lineage-specific flexible regions, illustrating how structural conservation and disorder-driven adaptability facilitate carbonate regulation and shell microstructure diversification. This integrative framework supports a model in which mollusk shell proteins function as disorder-rich, post-translationally regulated biomolecular networks orchestrating mineral nucleation, crystal growth and shell morphogenesis.",
+  "abstract_zh": "软体动物贝壳形成代表了一个由多种贝壳蛋白调控的复杂生物矿化过程，然而其序列-结构-功能关系仍未完全阐明。我们对来自30个软体动物物种的210种贝壳相关蛋白进行了全面的生物信息学综合分析，以描绘贝壳形成背后的组成、结构、调控和进化原理。初级序列分析揭示了高度偏倚的氨基酸组成，其特征为亲水性残基占主导、甘氨酸-、天冬氨酸-和丝氨酸富集区域的富集，以及非极性含量降低。近65%的蛋白质要么高度酸性，要么高度碱性，这与当前观点一致，即带电大分子影响碳酸钙成核。重复的低复杂度基序、广泛的翻译后修饰位点和分泌信号普遍存在，支持细胞外基质定位和功能适应性。结构预测表明有限的二级结构和广泛的内在无序性，近四分之三的蛋白质被分类为部分或完全无序。定量分析显示内在无序性与调控基序富集之间存在强耦合，表明这些蛋白质主要作为灵活的多价支架而非刚性结构组分发挥作用。电荷-水化特性分析和聚集分析进一步突出了与生物矿化和基质组装相关的多样化结构策略。以珍珠质蛋白家族作为代表性案例，其显示出保守的碳酸酐酶催化核心结合谱系特异性柔性区域，阐明了结构保守性和无序驱动的适应性如何促进碳酸盐调控和贝壳微结构多样化。这一整合框架支持一个模型，即软体动物贝壳蛋白作为富含无序性、受翻译后调控的生物分子网络，协调矿物成核、晶体生长和贝壳形态发生。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42364125/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42364125/",
+  "paper_page_path": "papers/pubmed/42364125/index.html"
+}

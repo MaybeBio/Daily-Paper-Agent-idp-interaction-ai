@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "36571497",
+    "doi": "10.1002/pro.4556",
+    "title": "Molecular insights into alginate beta-lactoglobulin A multivalencies-The foundation for their amorphous aggregates and coacervation."
+  },
+  "content": {
+    "abstract": "For improved control of biomaterial property design, a better understanding of complex coacervation involving anionic polysaccharides and proteins is needed. Here, we address the initial steps in condensate formation of beta-lactoglobulin A (beta-LgA) with nine defined alginate oligosaccharides (AOSs) and describe their multivalent interactions in structural detail. Binding of AOSs containing four, five, or six uronic acid residues (UARs), either all mannuronate (M), all guluronate (G), or alternating M and G embodying the block structural components of alginates, was characterized by isothermal titration calorimetry, nuclear magnetic resonance spectroscopy (NMR), and molecular docking. beta-LgA was highly multivalent exhibiting binding stoichiometries decreasing from five to two AOSs with increasing degree of polymerization (DP) and similar affinities in the mid micromolar range. The different AOS binding sites on beta-LgA were identified by NMR chemical shift perturbation analyses and showed diverse compositions of charged, polar and hydrophobic residues. Distinct sites for the shorter AOSs merged to accommodate longer AOSs. The AOSs bound dynamically to beta-LgA, as concluded from saturation transfer difference and (1) H-ligand-targeted NMR analyses. Molecular docking using Glide within the Schrodinger suite 2016-1 revealed the orientation of AOSs to only vary slightly at the preferred beta-LgA binding site resulting in similar XP glide scores. The multivalency coupled with highly dynamic AOS binding with lack of confined conformations in the beta-LgA complexes may help explain the first steps toward disordered beta-LgA alginate coacervate structures.",
+    "keywords": [
+      "complex coacervation",
+      "nuclear magnetic resonance",
+      "percolation",
+      "phase separation",
+      "protein carbohydrate interaction",
+      "small molecule binding"
+    ],
+    "mesh_terms": [
+      "*Lactoglobulins/chemistry",
+      "*Alginates/chemistry/metabolism",
+      "Molecular Docking Simulation",
+      "Binding Sites",
+      "Polysaccharides",
+      "Oligosaccharides"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Madsen, Mikkel",
+        "Prestel, Andreas",
+        "Madland, Eva",
+        "Westh, Peter",
+        "Tondervik, Anne",
+        "Sletta, Havard",
+        "Peters, Gunther H J",
+        "Aachmann, Finn L",
+        "Kragelund, Birthe B",
+        "Svensson, Birte"
+      ],
+      "short_names": [
+        "Madsen M",
+        "Prestel A",
+        "Madland E",
+        "Westh P",
+        "Tondervik A",
+        "Sletta H",
+        "Peters GHJ",
+        "Aachmann FL",
+        "Kragelund BB",
+        "Svensson B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3748-9132",
+        "ORCID: 0000-0002-7454-1761",
+        "ORCID: 0000-0002-2993-8196"
+      ],
+      "affiliations": [
+        "Enzyme and Protein Chemistry, Department of Biotechnology and Biomedicine, Technical University of Denmark, Kgs. Lyngby, Denmark.",
+        "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Copenhagen N, Denmark.",
+        "Norwegian Biopolymer Laboratory (NOBIPOL), Department of Biotechnology and Food Science, NTNU Norwegian University of Science and Technology, Trondheim, Norway.",
+        "Interfacial Enzymology, Department of Biotechnology and Biomedicine, Technical University of Denmark, Kgs. Lyngby, Denmark.",
+        "Department of Biotechnology and Nanomedicine, SINTEF Industry, Trondheim, Norway.",
+        "Department of Biotechnology and Nanomedicine, SINTEF Industry, Trondheim, Norway.",
+        "Biophysical and Biomedicinal Chemistry, Department of Chemistry, Technical University of Denmark, Kgs. Lyngby, Denmark.",
+        "Norwegian Biopolymer Laboratory (NOBIPOL), Department of Biotechnology and Food Science, NTNU Norwegian University of Science and Technology, Trondheim, Norway.",
+        "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Copenhagen N, Denmark.",
+        "Enzyme and Protein Chemistry, Department of Biotechnology and Biomedicine, Technical University of Denmark, Kgs. Lyngby, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Madsen, Mikkel",
+        "short_name": "Madsen M",
+        "identifiers": [
+          "0000-0002-3748-9132"
+        ],
+        "affiliations": [
+          "Enzyme and Protein Chemistry, Department of Biotechnology and Biomedicine, Technical University of Denmark, Kgs. Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Prestel, Andreas",
+        "short_name": "Prestel A",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Madland, Eva",
+        "short_name": "Madland E",
+        "identifiers": [],
+        "affiliations": [
+          "Norwegian Biopolymer Laboratory (NOBIPOL), Department of Biotechnology and Food Science, NTNU Norwegian University of Science and Technology, Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Westh, Peter",
+        "short_name": "Westh P",
+        "identifiers": [],
+        "affiliations": [
+          "Interfacial Enzymology, Department of Biotechnology and Biomedicine, Technical University of Denmark, Kgs. Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Tøndervik, Anne",
+        "short_name": "Tøndervik A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Nanomedicine, SINTEF Industry, Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Sletta, Håvard",
+        "short_name": "Sletta H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Nanomedicine, SINTEF Industry, Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Peters, Günther H J",
+        "short_name": "Peters GHJ",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysical and Biomedicinal Chemistry, Department of Chemistry, Technical University of Denmark, Kgs. Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Aachmann, Finn L",
+        "short_name": "Aachmann FL",
+        "identifiers": [],
+        "affiliations": [
+          "Norwegian Biopolymer Laboratory (NOBIPOL), Department of Biotechnology and Food Science, NTNU Norwegian University of Science and Technology, Trondheim, Norway."
+        ]
+      },
+      {
+        "full_name": "Kragelund, Birthe B",
+        "short_name": "Kragelund BB",
+        "identifiers": [
+          "0000-0002-7454-1761"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Svensson, Birte",
+        "short_name": "Svensson B",
+        "identifiers": [
+          "0000-0002-2993-8196"
+        ],
+        "affiliations": [
+          "Enzyme and Protein Chemistry, Department of Biotechnology and Biomedicine, Technical University of Denmark, Kgs. Lyngby, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2023 Feb",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/27 06:00",
+    "fetched_at": "2026-09-20 18:17:15"
+  },
+  "links": {
+    "cites": [
+      "41373494"
+    ],
+    "refs": [
+      "35675815",
+      "34570465",
+      "34422830",
+      "34334791",
+      "33842774",
+      "33417429",
+      "33184256",
+      "32719381",
+      "32590090",
+      "31459761",
+      "31286785",
+      "31001538",
+      "30844259",
+      "30352231",
+      "29737841",
+      "29489360",
+      "29091028",
+      "28597296",
+      "28019676",
+      "25122681",
+      "24164315",
+      "23768350",
+      "23334914",
+      "22425630",
+      "22398450",
+      "18422658",
+      "17899391",
+      "16530214",
+      "16233871",
+      "15762675",
+      "15453478",
+      "15053636",
+      "14763754",
+      "14606893",
+      "12006601",
+      "11734004",
+      "11530215",
+      "10736155",
+      "10493861",
+      "9729790",
+      "9611788",
+      "8520220",
+      "2134053"
+    ],
+    "similar": [
+      "36571497",
+      "31459761",
+      "36748314",
+      "38535461",
+      "33842774",
+      "33822050",
+      "15178012",
+      "33417429",
+      "29489360",
+      "37013401",
+      "39174105",
+      "22486720",
+      "33645537",
+      "28389403",
+      "27352848",
+      "25565379",
+      "31689577",
+      "10446307",
+      "38788651",
+      "35287920",
+      "37316063",
+      "33397696",
+      "25266718",
+      "16530214",
+      "37791757",
+      "27071378",
+      "26092174",
+      "22145710",
+      "38068595",
+      "8144447",
+      "19616772",
+      "24161866",
+      "22927212",
+      "12581364",
+      "34098435",
+      "24916607",
+      "36900563",
+      "25665777",
+      "38242069",
+      "24164315",
+      "17305390",
+      "29753236",
+      "8864226",
+      "25771044",
+      "23784992",
+      "36943260",
+      "20174626",
+      "17001652",
+      "24255705",
+      "35918517",
+      "30366185",
+      "35137421",
+      "9377711",
+      "8039175",
+      "26375627",
+      "23768350",
+      "38744079",
+      "33159942",
+      "24123516",
+      "28925863",
+      "37427033",
+      "2111129",
+      "32545157",
+      "16768433",
+      "28812944",
+      "36569190",
+      "34822499",
+      "23500663",
+      "15794643",
+      "28942564",
+      "37068535",
+      "31000237",
+      "2160929",
+      "15259212",
+      "29150496",
+      "26223829",
+      "28751048",
+      "34180492",
+      "31530640",
+      "28629860",
+      "26371375",
+      "28768763",
+      "30880641",
+      "9174919",
+      "26519393",
+      "24517623",
+      "8636017",
+      "23334914",
+      "16081095",
+      "11001631",
+      "12857741",
+      "36906979",
+      "11272816",
+      "11342175",
+      "24530705",
+      "33132125",
+      "25747117",
+      "32244772",
+      "16827577",
+      "39125598"
+    ],
+    "review": [
+      "36571497",
+      "35287920",
+      "37316063",
+      "34822499",
+      "15259212"
+    ],
+    "pmc": [
+      "9847093"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36571497.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36571497/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36571497",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4556",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

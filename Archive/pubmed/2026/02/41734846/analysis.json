@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41734846",
+  "title": "Targeting phase separation of TSWV nucleocapsid protein with novel methyl vanillate derivative A10 to inhibit biomacromolecule aggregate formation.",
+  "authors": "Ge, Qiangsheng; Wang, Yanju; Wang, Ziming; Yang, Yuyuan; Yang, Tangbing; Zhao, Chunni; Hu, Deyu; Song, Runjiang",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2026-02-25",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过分子对接与MD模拟发现甲基香草醛衍生物A10靶向TSWV核衣壳蛋白相分离并抑制凝聚体形成，虽对象为病毒蛋白IDR且涉及PPI与物理模拟，但机制深度有限且无AI方法，故评7分。",
+  "abstract": "Phase separation (PS)-driven biomolecular condensates have recently emerged as crucial elements in the life cycles of numerous phytoviruses and their interactions with host plants. While inhibiting the formation of these aggregates presents a promising plant protection strategy, research into discovering such inhibitors remains scarce. Here, we report a novel achievement in this field. Through biological screening of a series of structurally designed methyl vanillate derivatives incorporating N-Acetyl-D-glucosamines, a novel compound A10 is discovered to possess excellent antiviral potency against tomato spotted wilt virus (TSWV). Compared with the commercial control ribavirin, A10 demonstrates superior curative (56.9%), protective (50.5%), and inactivating (62.2%) activities, with its EC(50) based on inactivation effect (181.7 mug/mL) being lower than that of ribavirin (EC(50) = 748.5 mug/mL). A10 treatment significantly reduces the formation of TSWV nucleocapsid (N) protein condensates. Molecular docking, Molecular dynamics simulations, and Bio-layer interferometry analyses identify Arg94, Tyr184, and Lys192 as key residues on the N protein for A10 binding. Combining Agrobacterium-mediated infiltration assays and confocal microscopy observations allows A10 to mechanistically inhibit PS and aggregate generation of the N protein, thereby significantly suppressing viral RNP proliferation and systemic infection in host plants. This study contributes a valuable new lead compound for phytoviral management by targeting PS.",
+  "abstract_zh": "相分离（phase separation, PS）驱动的生物分子凝聚体近期已被视为多种植物病毒生命周期及其与宿主植物互作中的关键要素。尽管抑制这些聚集体的形成提供了一种有前景的植物保护策略，但关于发现此类抑制剂的研究仍然稀缺。在此，我们报告了该领域的一项新成果。通过对一系列结构设计的含N-乙酰-D-氨基葡萄糖的甲基香草酸衍生物进行生物学筛选，发现了一种新化合物A10，其对番茄斑萎病毒（tomato spotted wilt virus, TSWV）具有优异的抗病毒效力。与商业对照利巴韦林相比，A10表现出更优的治疗（56.9%）、保护（50.5%）和灭活（62.2%）活性，其基于灭活效果的EC(50)（181.7 μg/mL）低于利巴韦林（EC(50) = 748.5 μg/mL）。A10处理显著减少了TSWV核衣壳（N）蛋白凝聚体的形成。分子对接、分子动力学（molecular dynamics）模拟和生物层干涉测量分析确定了Arg94、Tyr184和Lys192为N蛋白上A10结合的关键残基。结合农杆菌介导的浸润实验和共聚焦显微镜观察，A10在机制上抑制了N蛋白的PS和聚集体生成，从而显著抑制了宿主植物中的病毒核糖核蛋白（RNP）增殖和系统性感染。本研究通过靶向PS为植物病毒治理贡献了一种有价值的新先导化合物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41734846/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41734846/",
+  "paper_page_path": "papers/pubmed/41734846/index.html"
+}

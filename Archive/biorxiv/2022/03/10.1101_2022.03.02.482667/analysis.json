@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.03.02.482667",
+  "title": "Stereochemistry of transient protein-protein interactions in a signaling hub: exploring G3BP1-mediated regulation of CFTR deubiquitination",
+  "authors": "Sheehan CT; Madden DR",
+  "journal": "bioRxiv",
+  "published_date": "2022-03-02",
+  "window": {
+    "start": "2022-02-28",
+    "end": "2022-03-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过晶体结构与突变实验研究IDP枢纽蛋白G3BP1与USP10/Caprin1的瞬时PPI立体化学机制，对象与互作轴契合，但方法以实验为主、无AI或物理模拟建模，故综合评6分。",
+  "abstract": "Intrinsically disordered proteins (IDPs) can coordinate often transient or weak interactions with multiple proteins to mediate complex signals within large, reversible protein networks. Among these, the IDP hub protein G3BP1 forms protein complexes with Caprin1 and USP10, and the resulting control of USP10 activity plays an important role in a pathogenic virulence system that targets CFTR endocytic recycling. However, while the identities of protein interactors are known for many of these IDP hub proteins, the relationship between pairwise affinities and the extent of protein recruitment and activity is not well understood. Here we describe in vitro analysis of the G3BP1 affinities, and show that substitution of G3BP1 residues F15 or F33 to tryptophan reduces affinity for both the USP10 and Caprin1 motif peptides. These same mutations significantly reduce formation of complexes by the full-length proteins. The crystal structure of G3BP1 TripleW (F15W/F33W/F124W) mutant reveals a clear reorientation of the side chain of W33, creating a steric clash with the USP10 and Caprin1 peptides. An amino-acid scan of the USP10 and Caprin1 motif peptides reveals similarities and differences in the ability to substitute residues in the core motifs as well as specific mutations with the potential to create higher affinity peptides. Taken together, these data show that small changes in 1:1 binding affinity can have significant effects on the composition of cellular interaction hubs. These specific protein mutations can be harnessed to manipulate complex protein networks, informing future investigations into roles of these networks in cellular processes.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 能够与多种蛋白质协调通常短暂或弱的相互作用，在大型可逆蛋白质网络中介导复杂信号。其中，IDP枢纽蛋白G3BP1与Caprin1和USP10形成蛋白质复合物，由此对USP10活性的调控在靶向CFTR内吞再循环的致病性毒力系统中发挥重要作用。然而，尽管许多此类IDP枢纽蛋白的蛋白质相互作用者身份已知，但成对亲和力与蛋白质招募程度及活性之间的关系尚未充分理解。在此，我们描述了G3BP1亲和力的体外分析，并表明将G3BP1残基F15或F33替换为色氨酸会降低其对USP10和Caprin1基序肽的亲和力。这些相同突变显著减少了全长蛋白质复合物的形成。G3BP1 TripleW (F15W/F33W/F124W) 突变体的晶体结构揭示了W33侧链的明显重定向，与USP10和Caprin1肽产生空间位阻冲突。对USP10和Caprin1基序肽的氨基酸扫描揭示了核心基序中残基替换能力的相似性和差异性，以及具有潜在产生更高亲和力肽的特异性突变。综合这些数据表明，1:1结合亲和力的微小变化可对细胞相互作用枢纽的组成产生显著影响。这些特异性蛋白质突变可用于操纵复杂蛋白质网络，为未来研究这些网络在细胞过程中的作用提供信息。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.03.02.482667",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.03.02.482667",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.03.02.482667/index.html"
+}

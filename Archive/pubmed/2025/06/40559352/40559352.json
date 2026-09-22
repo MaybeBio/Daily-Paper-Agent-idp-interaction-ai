@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "40559352",
+    "doi": "10.3390/membranes15060173",
+    "title": "Comprehensive Insights into the Cholesterol-Mediated Modulation of Membrane Function Through Molecular Dynamics Simulations."
+  },
+  "content": {
+    "abstract": "Cholesterol plays an essential role in biological membranes and is crucial for maintaining their stability and functionality. In addition to biological membranes, cholesterol is also used in various synthetic lipid-based structures such as liposomes, proteoliposomes, and nanodiscs. Cholesterol regulates membrane properties by influencing the density of lipids, phase separation into liquid-ordered (Lo) and liquid-disordered (Ld) areas, and stability of protein-membrane interactions. For planar bilayers, cholesterol thickens the membrane, decreases permeability, and brings lipids into well-ordered domains, thereby increasing membrane rigidity by condensing lipid packing, while maintaining lateral lipid mobility in disordered regions to preserve overall membrane fluidity. It modulates membrane curvature in curved bilayers and vesicles, and stabilizes low-curvature regions, which are important for structural integrity. In liposomes, cholesterol facilitates drug encapsulation and release by controlling bilayer flexibility and stability. In nanodiscs, cholesterol enhances structural integrity and protein compatibility, which enables the investigation of protein-lipid interactions under physiological conditions. In proteoliposomes, cholesterol regulates the conformational stability of embedded proteins that have implications for protein-lipid interaction. Developments in molecular dynamics (MD) techniques, from coarse-grained to all-atom simulations, have shown how cholesterol modulates lipid tail ordering, membrane curvature, and flip-flop behavior in response to concentration. Such simulations provide insights into the mechanisms underlying membrane-associated diseases, aiding in the design of efficient drug delivery systems. In this review, we combine results from MD simulations to provide a synoptic explanation of cholesterol's complex function in regulating membrane behavior. This synthesis combines fundamental biophysical information with practical membrane engineering, underscoring cholesterol's important role in membrane structure, dynamics, and performance, and paving the way for rational design of stable and functional lipid-based systems to be used in medicine. In this review, we gather evidence from MD simulations to provide an overview of cholesterol's complex function regulating membrane behavior. This synthesis connects the fundamental biophysical science with practical membrane engineering, which highlights cholesterol's important role in membrane structure, dynamics, and function and helps us rationally design stable and functional lipid-based systems for therapeutic purposes.",
+    "keywords": [
+      "all-atom simulations",
+      "cholesterol",
+      "coarse-grained simulations",
+      "curved bilayers",
+      "drug delivery systems",
+      "flip-flop dynamics",
+      "lipid ordering",
+      "liposomes",
+      "molecular dynamics simulations",
+      "phase separation",
+      "planar bilayers",
+      "protein-lipid interactions",
+      "proteoliposomes"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khodadadi, Ehsaneh",
+        "Khodadadi, Ehsan",
+        "Chaturvedi, Parth",
+        "Moradi, Mahmoud"
+      ],
+      "short_names": [
+        "Khodadadi E",
+        "Khodadadi E",
+        "Chaturvedi P",
+        "Moradi M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7617-3093",
+        "ORCID: 0000-0001-5688-0906",
+        "ORCID: 0000-0003-4560-0977",
+        "ORCID: 0000-0002-0601-402X"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of Arkansas, Fayetteville, AR 72701, USA.",
+        "Department of Chemistry and Biochemistry, University of Arkansas, Fayetteville, AR 72701, USA.",
+        "Department of Chemistry and Biochemistry, University of Arkansas, Fayetteville, AR 72701, USA.",
+        "Department of Chemistry and Biochemistry, University of Arkansas, Fayetteville, AR 72701, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khodadadi, Ehsaneh",
+        "short_name": "Khodadadi E",
+        "identifiers": [
+          "0000-0002-7617-3093"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Arkansas, Fayetteville, AR 72701, USA."
+        ]
+      },
+      {
+        "full_name": "Khodadadi, Ehsan",
+        "short_name": "Khodadadi E",
+        "identifiers": [
+          "0000-0001-5688-0906"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Arkansas, Fayetteville, AR 72701, USA."
+        ]
+      },
+      {
+        "full_name": "Chaturvedi, Parth",
+        "short_name": "Chaturvedi P",
+        "identifiers": [
+          "0000-0003-4560-0977"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Arkansas, Fayetteville, AR 72701, USA."
+        ]
+      },
+      {
+        "full_name": "Moradi, Mahmoud",
+        "short_name": "Moradi M",
+        "identifiers": [
+          "0000-0002-0601-402X"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Arkansas, Fayetteville, AR 72701, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Membranes"
+    ],
+    "journal_abbrev": [
+      "Membranes (Basel)"
+    ],
+    "pub_date": "2025 Jun 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/25 12:27",
+    "fetched_at": "2026-09-21 20:10:55"
+  },
+  "links": {
+    "cites": [
+      "42589781",
+      "42588584",
+      "42510616",
+      "42450459",
+      "42087408",
+      "42071090",
+      "42052394",
+      "41752117",
+      "41599160",
+      "41179299",
+      "41155946",
+      "41148798",
+      "41002894"
+    ],
+    "refs": [
+      "39561189",
+      "39452832",
+      "39169808",
+      "39137620",
+      "38795045",
+      "38474781",
+      "38455013",
+      "38081812",
+      "37504995",
+      "37443733",
+      "37437490",
+      "36984662",
+      "36857930",
+      "36682118",
+      "36588341",
+      "36419350",
+      "36134896",
+      "36111986",
+      "36082607",
+      "36076985",
+      "35927954",
+      "35926681",
+      "35897670",
+      "35890407",
+      "35885016",
+      "35849490",
+      "35743794",
+      "35269945",
+      "35192423",
+      "35149771",
+      "35104407",
+      "35047089",
+      "35008955",
+      "34864271",
+      "34468146",
+      "34415021",
+      "34403719",
+      "34255501",
+      "34165909",
+      "34119820",
+      "34117357",
+      "34023300",
+      "34004151",
+      "33984232",
+      "33615205",
+      "33560844",
+      "33533367",
+      "33248874",
+      "33118046",
+      "32998467",
+      "32984352",
+      "32977626",
+      "32971441",
+      "32938742",
+      "32850783",
+      "32846615",
+      "32843347",
+      "32804507",
+      "32790383",
+      "32729831",
+      "32697588",
+      "32499369",
+      "32296714",
+      "32247032",
+      "32176506",
+      "32165635",
+      "31819053",
+      "31746556",
+      "31573840",
+      "31384544",
+      "31374929",
+      "31142762",
+      "31103232",
+      "31098808",
+      "31071007",
+      "30959238",
+      "30806797",
+      "30665693",
+      "30633868",
+      "30520494",
+      "30346769",
+      "29974066",
+      "29729280",
+      "29632269",
+      "29520423",
+      "29507237",
+      "29457544",
+      "29440748",
+      "29337230",
+      "29182278",
+      "29167583",
+      "28581067",
+      "28439040",
+      "28417231",
+      "28394642",
+      "28356571",
+      "28177242",
+      "27812115",
+      "27335609",
+      "27179407",
+      "27166810",
+      "27119640",
+      "26825169",
+      "26074009",
+      "25787731",
+      "25629582",
+      "23500617",
+      "23398189",
+      "23298417",
+      "22508840",
+      "21455285",
+      "18385134"
+    ],
+    "similar": [
+      "40559352",
+      "40297234",
+      "39978121",
+      "39383986",
+      "41002894",
+      "27056099",
+      "41465390",
+      "19280016",
+      "37917127",
+      "28780125",
+      "38187447",
+      "34478697",
+      "24892900",
+      "27526680",
+      "40955445",
+      "29515878",
+      "19673519",
+      "23199292",
+      "33378379",
+      "33080278",
+      "32843347",
+      "23766730",
+      "40280119",
+      "39807660",
+      "25310179",
+      "27121138",
+      "35513897",
+      "39829830",
+      "40373290",
+      "20567600",
+      "25331142",
+      "21473645",
+      "32432336",
+      "26067631",
+      "32941827",
+      "27435187",
+      "25978497",
+      "24429702",
+      "11412894",
+      "20041657",
+      "23912807",
+      "32179374",
+      "24382636",
+      "26222139",
+      "18515383",
+      "33221946",
+      "40849683",
+      "39772574",
+      "38392672",
+      "39873279",
+      "32368578",
+      "29972803",
+      "27801465",
+      "25004951",
+      "23052977",
+      "38990314",
+      "40474679",
+      "27590031",
+      "24417311",
+      "23805743",
+      "41031027",
+      "31453700",
+      "22325271",
+      "35890407",
+      "30589212",
+      "29684332",
+      "38634827",
+      "39390746",
+      "23714288",
+      "25068451",
+      "32850783",
+      "37742069",
+      "35929498",
+      "31964135",
+      "22369354",
+      "15111412",
+      "34100059",
+      "34398598",
+      "33441107",
+      "21044587",
+      "18278902",
+      "23805738",
+      "38171000",
+      "21262197",
+      "39558641",
+      "35149771",
+      "40720670",
+      "30414630",
+      "24144543",
+      "34491062",
+      "30387788",
+      "41160654",
+      "27530142",
+      "40492886",
+      "33560844",
+      "25087883",
+      "35927954",
+      "27959517",
+      "24652350",
+      "25494092"
+    ],
+    "review": [
+      "40559352",
+      "41002894",
+      "27056099",
+      "11412894"
+    ],
+    "pmc": [
+      "12195132"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=membranes15060173",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40559352/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

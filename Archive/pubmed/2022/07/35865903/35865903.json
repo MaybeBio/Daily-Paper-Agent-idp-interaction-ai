@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "35865903",
+    "doi": "10.1039/d2sc02013k",
+    "title": "Coacervation of poly-electrolytes in the presence of lipid bilayers: mutual alteration of structure and morphology."
+  },
+  "content": {
+    "abstract": "Many intrinsically disordered peptides have been shown to undergo liquid-liquid phase separation and form complex coacervates, which play various regulatory roles in the cell. Recent experimental studies found that such phase separation processes may also occur at the lipid membrane surface and help organize biomolecules during signaling events; in some cases, phase separation of proteins at the membrane surface was also observed to lead to significant remodeling of the membrane morphology. The molecular mechanisms that govern the interactions between complex coacervates and lipid membranes and the impacts of such interactions on their structure and morphology, however, remain unclear. Here we study the coacervation of poly-glutamate (E(30)) and poly-lysine (K(30)) in the presence of lipid bilayers of different compositions. We carry out explicit-solvent coarse-grained molecular dynamics simulations by using the MARTINI (v3.0) force-field. We find that more than 20% anionic lipids are required for the coacervate to form stable contact with the bilayer. Upon wetting, the coacervate induces negative curvature to the bilayer and facilitates local lipid demixing, without any peptide insertion. The magnitude of negative curvature, extent of lipid demixing, and asphericity of the coacervate increase with the concentration of anionic lipids. Overall, we observe a decrease in the number of contacts among the polyelectrolytes as the droplet spreads over the bilayer. Therefore, unlike previous suggestions, interactions among polyelectrolytes do not constitute a driving force for the membrane bending upon wetting by the coacervate. Rather, analysis of interaction energy components suggests that bending of the membrane is favored by enhanced interactions between polyelectrolytes with lipids as well as with counterions. Kinetic studies reveal that, at the studied polyelectrolyte concentrations, the coacervate formation precedes bilayer wetting.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mondal, Sayantan",
+        "Cui, Qiang"
+      ],
+      "short_names": [
+        "Mondal S",
+        "Cui Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4612-7758",
+        "ORCID: 0000-0001-6214-5211"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Boston University 590 Commonwealth Avenue Boston MA 02215 USA qiangcui@bu.edu (+1)-617-353-6189.",
+        "Department of Chemistry, Boston University 590 Commonwealth Avenue Boston MA 02215 USA qiangcui@bu.edu (+1)-617-353-6189.",
+        "Department of Physics, Boston University 590 Commonwealth Avenue Boston MA 02215 USA.",
+        "Department of Biomedical Engineering, Boston University 44 Cummington Mall Boston MA 02215 USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mondal, Sayantan",
+        "short_name": "Mondal S",
+        "identifiers": [
+          "0000-0002-4612-7758"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Boston University 590 Commonwealth Avenue Boston MA 02215 USA qiangcui@bu.edu (+1)-617-353-6189."
+        ]
+      },
+      {
+        "full_name": "Cui, Qiang",
+        "short_name": "Cui Q",
+        "identifiers": [
+          "0000-0001-6214-5211"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Boston University 590 Commonwealth Avenue Boston MA 02215 USA qiangcui@bu.edu (+1)-617-353-6189.",
+          "Department of Physics, Boston University 590 Commonwealth Avenue Boston MA 02215 USA.",
+          "Department of Biomedical Engineering, Boston University 44 Cummington Mall Boston MA 02215 USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2022 Jul 6",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/23 06:00",
+    "fetched_at": "2026-09-20 12:05:04"
+  },
+  "links": {
+    "cites": [
+      "41957206",
+      "41432736",
+      "41372463",
+      "41311063",
+      "40963550",
+      "39183928",
+      "39108303",
+      "39087984",
+      "38177243",
+      "37770422",
+      "37721949",
+      "37609296",
+      "36756326",
+      "36278087"
+    ],
+    "refs": [
+      "35651159",
+      "35112738",
+      "35049497",
+      "34931046",
+      "34887356",
+      "34599097",
+      "34427635",
+      "34327010",
+      "34221333",
+      "34197798",
+      "34023296",
+      "33820972",
+      "33782607",
+      "33688043",
+      "33473217",
+      "33307683",
+      "33139563",
+      "33080222",
+      "32597189",
+      "32393642",
+      "32134099",
+      "31990555",
+      "31756104",
+      "31740611",
+      "31675790",
+      "31604601",
+      "31430179",
+      "30951647",
+      "30873835",
+      "30846600",
+      "30846599",
+      "30823756",
+      "30682370",
+      "30471685",
+      "30384718",
+      "30360496",
+      "30323334",
+      "29712961",
+      "29364893",
+      "29166038",
+      "29133981",
+      "28225081",
+      "27819658",
+      "27813275",
+      "27528656",
+      "27212236",
+      "26574417",
+      "26412307",
+      "26406374",
+      "26390327",
+      "26204806",
+      "25774051",
+      "25321392",
+      "25288112",
+      "24806932",
+      "24456136",
+      "24248370",
+      "23901099",
+      "23708257",
+      "22902598",
+      "21961799",
+      "21219150",
+      "20701383",
+      "20136112",
+      "19460965",
+      "18515396",
+      "18515373",
+      "17364686",
+      "17212484",
+      "16551535",
+      "16365634",
+      "16122427",
+      "14965290",
+      "13449108",
+      "11308880",
+      "11211155",
+      "11023883",
+      "10233072",
+      "8744570",
+      "1691660"
+    ],
+    "similar": [
+      "35865903",
+      "38407041",
+      "34221333",
+      "26831090",
+      "24506488",
+      "27435187",
+      "37781214",
+      "25920513",
+      "31990555",
+      "24024591",
+      "24892900",
+      "31675790",
+      "32239914",
+      "26574224",
+      "29291379",
+      "23493873",
+      "10811426",
+      "18851071",
+      "35905931",
+      "31091880",
+      "27526680",
+      "37159305",
+      "27530142",
+      "26965053",
+      "20814445",
+      "28869254",
+      "30996987",
+      "30672546",
+      "30384671",
+      "30810315",
+      "28631793",
+      "26881998",
+      "34000475",
+      "33299652",
+      "36305559",
+      "27530711",
+      "36686257",
+      "34197798",
+      "33080278",
+      "25514167",
+      "34398617",
+      "30185029",
+      "31743027",
+      "19280016",
+      "15828005",
+      "33055448",
+      "37162535",
+      "25008278",
+      "30019106",
+      "27499328",
+      "39349768",
+      "33039377",
+      "26827904",
+      "30384702",
+      "24791936",
+      "35632991",
+      "24429702",
+      "29812928",
+      "28614666",
+      "19795891",
+      "36966574",
+      "29262367",
+      "25290376",
+      "20000327",
+      "31943629",
+      "9923714",
+      "27336461",
+      "22325271",
+      "29459301",
+      "34346669",
+      "32786720",
+      "15244462",
+      "25719673",
+      "37272663",
+      "24164315",
+      "26598270",
+      "27770747",
+      "35524412",
+      "27267089",
+      "36219462",
+      "27591685",
+      "31995710",
+      "36200760",
+      "22369354",
+      "24268195",
+      "28317718",
+      "34585705",
+      "17407565",
+      "27216316",
+      "35549124",
+      "23442963",
+      "39066731",
+      "27058982",
+      "35796384",
+      "33221946",
+      "27042862",
+      "21473645",
+      "33160952",
+      "39402790",
+      "34301019",
+      "36778479",
+      "34330707",
+      "32715198",
+      "38168180",
+      "38693272",
+      "34334816",
+      "37603820",
+      "39306671",
+      "35878395",
+      "37218010",
+      "39214144"
+    ],
+    "review": [
+      "35865903",
+      "35905931",
+      "36686257",
+      "27499328",
+      "33039377",
+      "9923714",
+      "36219462"
+    ],
+    "pmc": [
+      "9258347"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35865903/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d2sc02013k",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35865903",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

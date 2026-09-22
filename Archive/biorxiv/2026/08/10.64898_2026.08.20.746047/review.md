@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary figure/table listings. No supplementary files were provided.
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and interpretation of results as presented in the provided text. No independent replication or code execution was performed.
+- **Shared manuscript claim summary** The authors claim that BindCORE, an ensemble-aware deep learning framework integrating global, local, and pairwise biophysical descriptors derived from conformational ensembles, improves residue-level prediction of LIP and MoRF binding sites in IDRs over sequence-based baselines, and that feature-attribution analyses reveal pairwise descriptors as dominant contributors with source-dependent variability across ensemble generators.
+- **Visible evidence base** Abstract, Introduction, Methods (Sections 2.1–2.7), Results (Sections 3.1–3.5), Discussion, Data/code availability statements. Tables 2 and 3 and Figures 1–3 are referenced but not visible. Supplementary Figures S1–S7 and Tables S1–S2 are referenced but not provided.
+- **Missing materials affecting confidence** All figures and tables, including the main performance comparison tables (Tables 2 and 3) and all supplementary materials. Without these, quantitative claims cannot be independently verified. Additionally, no details on baseline model configurations, hyperparameter search ranges, or statistical significance testing are provided in the visible text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant problem in IDP biology: leveraging conformational ensembles for functional site prediction. The conceptual framing is strong, and the integration of ensemble-derived biophysical descriptors into a deep learning architecture is a plausible and potentially valuable contribution. However, the current evidence base is incomplete. The central quantitative claims rest on tables and figures that are not visible in the provided material, and several methodological details necessary for reproducibility and for assessing the validity of the comparisons are missing. The feature-attribution analysis is interesting but its interpretation is complicated by the lack of cross-validation or uncertainty quantification. The manuscript is promising but not yet established from the supplied evidence.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on IDP function prediction, protein interaction site prediction, and machine learning applied to structural biology. The EnsembleMDP library and the general framework of using ensemble descriptors for functional annotation could also be of interest to researchers developing generative models for conformational ensembles, as it provides a downstream application for such models. The findings on source-dependent feature importance may inform choices of ensemble generation methods for functional prediction tasks.
+- **Major strengths**
+  1. The conceptual motivation is clear and well-argued: moving beyond sequence-only features to ensemble-level biophysical descriptors is a logical and timely step given recent advances in ensemble generation.
+  2. The two-tiered framework (EnsembleMDP for descriptor extraction, BindCORE for prediction) is modular and potentially reusable, with code and data made publicly available.
+  3. The inclusion of multiple ensemble generation methods (IDPFold2, AF-CALVADOS, STARLING) and the analysis of their differential impact on prediction and feature importance is a thoughtful and informative design.
+  4. The interpretability analysis, despite its limitations, goes beyond simple performance reporting and attempts to provide mechanistic insight into what the model learns.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** "BindCORE consistently improves performance over sequence-based baselines" (Abstract, Section 3.2, Section 3.3)
+  - **Evidence pointer** Tables 2 and 3, Figure 2 (not visible in provided material)
+  - **Concern** The central quantitative claim of the manuscript, that BindCORE improves over sequence-based baselines, is supported only by references to tables and figures that were not provided. Without the actual performance numbers, including AP, AUC-ROC, MCC, F1, precision, and recall for all models and baselines, the claim cannot be assessed. Furthermore, it is unclear whether the reported improvements are statistically significant, as no confidence intervals or significance tests are mentioned in the visible text.
+  - **Why it matters** The primary contribution of the paper is the demonstrated predictive benefit of ensemble-derived features. If this evidence is not visible and its statistical robustness is not established, the core conclusion of the manuscript is unsupported.
+  - **Resolution test** Provide the full tables and figures, including error bars or confidence intervals, and state whether differences between BindCORE and baselines are statistically significant (e.g., via paired tests across proteins or bootstrapping).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** "BindCORE is the first deep learning framework to explicitly integrate conformational ensemble information for residue-level binding-region prediction in IDPs" (Section 1)
+  - **Evidence pointer** Section 1, Section 2.3
+  - **Concern** The claim of novelty is strong, but the manuscript does not provide a systematic comparison with existing structure- or ensemble-aware predictors, nor does it discuss in detail how BindCORE differs from prior work beyond citing sequence-based tools. The architectural description in Section 2.3 is high-level; key details such as the number of parameters, training procedure, loss function specifics, and the exact nature of the "multi-scale pairwise CNN" are not fully specified. This limits reproducibility and makes it difficult to assess whether the claimed novelty is substantive.
+  - **Why it matters** For a methods paper, reproducibility and clear differentiation from prior art are essential. Without full architectural and training details, other researchers cannot build on or independently verify the approach.
+  - **Resolution test** Provide a complete specification of the model architecture, training hyperparameters, and a comparison against at least one structure-aware or ensemble-aware baseline if such exists, or a clear statement of why no such comparison is possible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability validity
+  - **Claim pointer** "Feature-importance rankings vary substantially across ensemble flavours, indicating that different conformational generators encode distinct biophysical signatures of interaction-site propensity" (Abstract, Section 3.5)
+  - **Evidence pointer** Section 3.5, Figure 4 (not visible)
+  - **Concern** The interpretability analysis relies on DeepLIFT-SHAP attributions and group-level Shapley values. The manuscript does not report any variance or stability analysis of these attributions (e.g., across random seeds or bootstrap samples). Given that the authors report negative Spearman correlations between feature rankings across ensemble flavours, it is unclear whether these differences are robust or within the noise of the attribution method. The interpretation that "different conformational generators encode distinct biophysical signatures" is a strong claim that requires evidence that the observed variability is not an artifact of the attribution procedure.
+  - **Why it matters** The interpretability results are used to support a key conceptual conclusion about the nature of ensemble-encoded information. If the attribution rankings are unstable, this conclusion is weakened.
+  - **Resolution test** Report variance or confidence intervals for feature importance rankings, or demonstrate stability across multiple runs or subsamples of the data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Benchmark validity
+  - **Claim pointer** "BindCORE was evaluated on two residue-level binding-site prediction tasks: the LIP benchmark from CLIP and the MoRF benchmark from MoRFchibi 2.0" (Section 2.5)
+  - **Evidence pointer** Section 2.5, Section 3.2, Section 3.3
+  - **Concern** The manuscript does not describe the benchmark datasets in sufficient detail. The number of proteins, the distribution of positive and negative residues, the criteria for defining binding residues, and the overlap between training and test sets (beyond the stated sequence identity thresholds) are not reported. The analysis in Section 3.3 and Figure 3G/H reveals a strong length-dependent class imbalance, but it is unclear how this affects the comparability of models across different length ranges, particularly for STARLING, which is limited to shorter proteins.
+  - **Why it matters** Without a clear understanding of the benchmark characteristics, it is difficult to interpret the performance numbers or to assess whether the comparisons are fair, especially given the different length limitations of the ensemble generation methods.
+  - **Resolution test** Provide detailed statistics of the benchmarks, including sequence length distributions, positive residue fractions, and a discussion of how length-dependent class imbalance is handled in the evaluation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, equations for R_ee and R_g
+  - **Evidence pointer** Section 2.2
+  - **Issue** The equations for R_ee and R_g are mentioned but not explicitly written out in the visible text. The text states "We retained both the mean and standard deviation of R_ee²" and "Overall compaction was measured using the radius of gyration (R_g)", but the actual formulas are not shown.
+  - **Required correction** Include the explicit equations for R_ee, R_g, and the other descriptors (e.g., asphericity, prolateness) in the main text or a supplementary methods section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.4, hyperparameter tuning
+  - **Evidence pointer** Section 2.4
+  - **Issue** The hyperparameter tuning procedure is described as using a Tree-structured Parzen Estimator over 100 trials, but the search space (e.g., learning rate, batch size, number of layers, embedding dimension) is not specified.
+  - **Required correction** Provide the full hyperparameter search space and the final selected values for each of the six model variants.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 3.2, Section 3.3
+  - **Evidence pointer** Tables 2 and 3 (not visible)
+  - **Issue** The text reports performance metrics but does not mention any statistical significance testing or confidence intervals for the differences between models.
+  - **Required correction** Add statistical tests (e.g., paired bootstrap or Wilcoxon signed-rank test across proteins) to support claims of improvement.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.2, "communication propensity"
+  - **Evidence pointer** Section 2.2
+  - **Issue** The term "communication propensity" is introduced with a citation [36], but the relationship between distance fluctuations and "communication" is not explained in the text.
+  - **Required correction** Briefly explain why distance fluctuations are interpreted as a measure of communication propensity, or rephrase to avoid potential confusion.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.1, geometric validation
+  - **Evidence pointer** Section 2.1
+  - **Issue** The geometric validation criteria are described, but the results of these validations are only summarized in Section 2.8. It is unclear whether any frames were excluded from downstream analysis based on these criteria.
+  - **Required correction** State explicitly whether any frames or proteins were excluded based on geometric validation, and if so, how many.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.4, Figure 3E/F
+  - **Evidence pointer** Section 3.4
+  - **Issue** The text reports inter-model score correlations but does not explain what these correlations imply for the potential of ensemble averaging or stacking.
+  - **Required correction** Add a brief interpretation of the correlation values in the context of model diversity and potential ensemble strategies.
+
+## Risk / unsupported claims
+- The claim that "BindCORE consistently improves performance over sequence-based baselines" is unsupported in the provided material, as the relevant tables and figures are not visible.
+- The claim that "BindCORE is the first deep learning framework to explicitly integrate conformational ensemble information for residue-level binding-region prediction in IDPs" is not verifiable from the provided text, as no comprehensive comparison with prior work is presented.
+- The claim that "different conformational generators encode distinct biophysical signatures of interaction-site propensity" is based on feature-importance rankings that are not shown to be stable or statistically robust.
+- The statement in Section 3.1 that "contact-map frequency showed the largest Cohen's d" is not verifiable without the supplementary figures.
+- The performance numbers reported in the abstract and results sections (e.g., AP values) cannot be independently assessed without the underlying data and tables.

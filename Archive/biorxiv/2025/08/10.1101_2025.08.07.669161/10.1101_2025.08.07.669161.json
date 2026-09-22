@@ -1,0 +1,171 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.07.669161",
+  "title": "Phase separation of protein kinase A regulatory subunits is driven by similar inter- and intra-molecular interactions involving the inhibitory segment",
+  "doi": "10.1101/2025.08.07.669161",
+  "abstract": "Phase separation of biological macromolecules has emerged as a widespread mechanism for cellular organization, governing the spatiotemporal regulation of biochemical processes including signaling pathways. The regulatory subunit of the cAMP-dependent protein kinase A (PKA) RIα phase separates following cAMP-induced kinase activation, thereby restricting and enhancing PKA activity in space and time. The N-terminal dimerization/docking (D/D) domain and the linker region of RIα have been identified as necessary and sufficient for phase separation, but their interactions at atomic resolution have remained elusive. We report here a structural investigation of the minimal phase-separating region of RIα by nuclear magnetic resonance spectroscopy (NMR) and molecular dynamics (MD) simulations. The intrinsically disordered regions of RIα cause broadening of NMR signals throughout the protein indicative of widespread dynamic interactions. Mutation of arginine residues in the RIα inhibitory sequence leads to a reduction in signal broadening accompanied by loss of phase separation. Independently, binding of RIα to an A-kinase anchoring protein (AKAP) leads to spectral changes that are indicative of a loss of interactions between the D/D domain and the linker region, suggestive of a competition between intramolecular interactions and partner binding. Corroborating the experimental observations, multiscale MD simulations detect pervasive interactions of the folded D/D domain of RIα with the intrinsically disordered linker, and the intermolecular interactions in the condensate mirror those found internally in RIα dimers. Our results support the view that for PKA RIα, homotypic phase separation is underpinned by intermolecular interactions that are similar to intramolecular interactions.",
+  "authors": [
+    "Giri M",
+    "Brasnett CS",
+    "Eroglu KF",
+    "Kaasen JM",
+    "Andre AA",
+    "Marrink S",
+    "Mulder FA",
+    "Kjaergaard M"
+  ],
+  "published_date": "2025-08-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.07.669161",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.07.669161.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1065166",
+    "raw_record": {
+      "id": "PPR1065166",
+      "source": "PPR",
+      "doi": "10.1101/2025.08.07.669161",
+      "title": "Phase separation of protein kinase A regulatory subunits is driven by similar inter- and intra-molecular interactions involving the inhibitory segment",
+      "authorString": "Giri M, Brasnett CS, Eroglu KF, Kaasen JM, Andre AA, Marrink S, Mulder FA, Kjaergaard M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Giri M",
+            "lastName": "Giri",
+            "firstName": "Malyasree",
+            "initials": "M"
+          },
+          {
+            "fullName": "Brasnett CS",
+            "lastName": "Brasnett",
+            "firstName": "Christopher",
+            "initials": "CS"
+          },
+          {
+            "fullName": "Eroglu KF",
+            "lastName": "Eroglu",
+            "firstName": "Kübra",
+            "initials": "KF"
+          },
+          {
+            "fullName": "Kaasen JM",
+            "lastName": "Kaasen",
+            "firstName": "Julie Maibøll",
+            "initials": "JM"
+          },
+          {
+            "fullName": "Andre AA",
+            "lastName": "Andre",
+            "firstName": "Alain A.M.",
+            "initials": "AA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4277-9652"
+            }
+          },
+          {
+            "fullName": "Marrink S",
+            "lastName": "Marrink",
+            "firstName": "Siewert-Jan",
+            "initials": "S"
+          },
+          {
+            "fullName": "Mulder FA",
+            "lastName": "Mulder",
+            "firstName": "Frans A.A.",
+            "initials": "FA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9427-8406"
+            }
+          },
+          {
+            "fullName": "Kjaergaard M",
+            "lastName": "Kjaergaard",
+            "firstName": "Magnus",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7020-9366"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9427-8406"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4277-9652"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7020-9366"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-5706-723X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Phase separation of biological macromolecules has emerged as a widespread mechanism for cellular organization, governing the spatiotemporal regulation of biochemical processes including signaling pathways. The regulatory subunit of the cAMP-dependent protein kinase A (PKA) RIα phase separates following cAMP-induced kinase activation, thereby restricting and enhancing PKA activity in space and time. The N-terminal dimerization/docking (D/D) domain and the linker region of RIα have been identified as necessary and sufficient for phase separation, but their interactions at atomic resolution have remained elusive. We report here a structural investigation of the minimal phase-separating region of RIα by nuclear magnetic resonance spectroscopy (NMR) and molecular dynamics (MD) simulations. The intrinsically disordered regions of RIα cause broadening of NMR signals throughout the protein indicative of widespread dynamic interactions. Mutation of arginine residues in the RIα inhibitory sequence leads to a reduction in signal broadening accompanied by loss of phase separation. Independently, binding of RIα to an A-kinase anchoring protein (AKAP) leads to spectral changes that are indicative of a loss of interactions between the D/D domain and the linker region, suggestive of a competition between intramolecular interactions and partner binding. Corroborating the experimental observations, multiscale MD simulations detect pervasive interactions of the folded D/D domain of RIα with the intrinsically disordered linker, and the intermolecular interactions in the condensate mirror those found internally in RIα dimers. Our results support the view that for PKA RIα, homotypic phase separation is underpinned by intermolecular interactions that are similar to intramolecular interactions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.07.669161"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-08-18",
+      "firstPublicationDate": "2025-08-11",
+      "firstIndexDate": "2025-08-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

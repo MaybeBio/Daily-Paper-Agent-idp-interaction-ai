@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, data availability, acknowledgments, appendix) as provided
+- **Assessment boundary** Scientific content, methodological soundness, claim-evidence alignment, and presentation quality based solely on the supplied text
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations of a model nuclear pore complex to argue that Karyopherins (Importin-β) actively direct NTF2 transport into FG-rich regions of the pore, enhancing flux, and that NTF2s follow distinct "lanes" during transport. They report no stable slow-phase Kap population and propose a "Kap-centric" transport model.
+- **Visible evidence base** Methods section (CG model descriptions, simulation parameters), Results section (Figures 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 referenced), Appendix (Figures A1–A4, Tables A1–A2), Data availability statement
+- **Missing materials affecting confidence** Figures and tables themselves are not provided; simulation input files are referenced via GitHub but not inspected; no quantitative error bars or statistical analyses are described; no comparison to experimental transport rates or binding affinities is presented in the text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in nucleocytoplasmic transport: whether Karyopherins play an active role in facilitating the transport of other NTRs, beyond their canonical cargo-carrying function. The computational approach is reasonable, and the observation that Kaps bias NTF2 flux toward FG-rich regions is potentially interesting. However, the evidence presented is largely qualitative, with no statistical treatment, no systematic parameter exploration, and no direct comparison to experimental data. The claim of a "lanes" model is based on a single simulation setup with a simplified NPC architecture, and the absence of a slow-phase Kap population contradicts prior experimental findings in a way that is acknowledged but not mechanistically resolved. The manuscript would benefit from substantial additional analysis and validation before the central claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in nucleocytoplasmic transport, nuclear pore complex biology, and computational biophysics would be interested. The work speaks to ongoing debates about the relative roles of FG-Nups versus transport receptors in establishing selectivity and facilitating flux. The "lanes" concept, if validated, could inform models of NPC function and inspire experimental tests using single-molecule imaging.
+- **Major strengths** The study addresses a specific, debated question with a well-defined computational model. The use of a 1-bead-per-amino-acid force field with explicit cation-pi interactions is appropriate for capturing FG-Nup behavior. The authors include control simulations (setups C and D) to isolate the effect of NTF2 binding sites, which is a good experimental design. The acknowledgment of force-field sensitivity and the discussion of limitations are honest and constructive.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Kaps are able to direct NTF2s into the Nup meshwork, which leads to their increased flow" and "NTRs follow specific lanes inside the pore to maximize efficient transport"
+  - **Evidence pointer** Results section, Figures 5, 7, 8, 9, 10
+  - **Concern** The central claims rest on comparisons of cumulative transport counts and layer-resolved entry/exit statistics across four simulation setups. However, no error bars, standard deviations, or replicate simulations (beyond one restart with a different random seed for setup A) are reported. The observed differences in flux between setups could arise from stochastic variability rather than systematic Kap-mediated effects. The claim of "lanes" is inferred from layer-resolved counts, but no trajectory analysis or spatial correlation measure is presented to demonstrate that individual NTF2s actually maintain a consistent radial position during transit.
+  - **Why it matters** Without statistical replication, the reported flux differences and layer preferences cannot be distinguished from noise. The "lanes" claim requires trajectory-level evidence, not just aggregate counts, to be convincing. As stated, the evidence is insufficient to support the mechanistic conclusions.
+  - **Resolution test** Provide at least 3–5 independent simulation replicates per setup, report mean and standard deviation for all flux and layer-resolved quantities, and perform a statistical test (e.g., t-test or ANOVA) for setup comparisons. For the lanes claim, present representative NTF2 trajectories or a radial displacement autocorrelation function demonstrating persistent layer occupancy during transit.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validity
+  - **Claim pointer** "we do not find a stable strongly bound population of Kaps (slow phase) in the pore"
+  - **Evidence pointer** Results section, Figure 4
+  - **Concern** The absence of a slow-phase Kap population is a central negative result that contradicts prior experimental and computational studies reporting stable Kap binding to FG-Nups. The authors attribute this to force-field choices but do not provide a systematic analysis of how binding affinity depends on model parameters. The interaction strength of 13.75 kJ/mol is taken from a single experimental reference, and no sensitivity analysis is shown. Without such analysis, the negative result could be an artifact of the specific parameterization rather than a genuine biophysical property.
+  - **Why it matters** The Kap-centric model proposed here depends critically on the absence of a slow-phase population. If the force field underestimates Kap-FG binding, the entire mechanistic picture changes. The claim is not robustly established without parameter sensitivity testing.
+  - **Resolution test** Perform simulations with a range of binding interaction strengths (e.g., 10–20 kJ/mol) and show that the absence of a slow-phase population is robust. Alternatively, compare binding residence times to experimental measurements and discuss discrepancies quantitatively.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** "our results strongly support the Kap-centric transport model and demonstrate the existence of lanes that direct NPC transport"
+  - **Evidence pointer** Discussion section
+  - **Concern** The discussion claims strong support for the Kap-centric model, but the simulations use a simplified NPC architecture with only five FG-Nup types and a reduced set of chains. The authors acknowledge this limitation but do not address how the simplified geometry might affect the conclusions. The comparison to experimental MINFLUX data is qualitative and does not establish quantitative agreement. The claim of "strong support" is overstated given the model's simplifications and the lack of direct experimental validation.
+  - **Why it matters** Overstated conclusions can mislead readers and obscure the genuine but preliminary nature of the findings. The manuscript would be more credible with a more measured interpretation.
+  - **Resolution test** Revise the discussion to clearly distinguish between model predictions and established facts. Add a section on model limitations and how they might affect the conclusions. If possible, perform simulations with additional FG-Nup types or a more realistic pore geometry to test robustness.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Methods section, CG model for unfolded proteins
+  - **Evidence pointer** Methods section, equations for hydrophobic and electrostatic potentials
+  - **Issue** The equations for the interaction potentials are referenced but not displayed in the provided text. The description of the cation-pi potential is incomplete, and the parameter values (e.g., epsilon values, cation-pi interaction strengths) are not fully specified.
+  - **Required correction** Include the full equations and all parameter values in the methods section, or provide a clear reference to the original force-field papers where these are defined.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, "Assessment of fast/slow phase Kaps"
+  - **Evidence pointer** Results section, Figure 4
+  - **Concern** The statement "approximately ∼ 8% occupancy at steady state" is vague. It is unclear whether this refers to the fraction of time the pore is occupied by at least one Kap, the average number of Kaps in the pore relative to capacity, or another metric.
+  - **Required correction** Define the occupancy metric explicitly and report the corresponding uncertainty.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, "Crossing times"
+  - **Evidence pointer** Results section, Figures 11 and 12
+  - **Concern** The comparison of crossing times between setups is described qualitatively. No numerical values or statistical comparisons are provided.
+  - **Required correction** Report mean crossing times with standard deviations for each setup and state whether differences are statistically significant.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section, CG simulations
+  - **Evidence pointer** Methods section, simulation parameters
+  - **Concern** The equilibration protocol and the duration of production runs are not specified. The number of NTF2 and Kap molecules in each setup is not stated.
+  - **Required correction** Provide full simulation details, including system composition, equilibration time, production run length, and number of replicates.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical replication and trajectory-level evidence for lanes) and R1-M2 (lack of parameter sensitivity analysis for the absence of slow-phase Kaps) are the primary technical issues. Without addressing these, the central claims are not quantitatively supported.
+- **Assessment against Nature-style criteria** Originality: The question of Kap-mediated facilitation of other NTRs is not entirely new, but the specific focus on spatial "lanes" and the use of a modern coarse-grained model with cation-pi interactions provides a fresh angle. Scientific importance: The topic is of broad interest to cell biology and biophysics, and resolving the Kap-centric versus FG-centric debate would be significant. Interdisciplinary readership: The work bridges molecular biophysics, computational biology, and cell biology, and should appeal to a broad audience if the claims are well supported. Technical soundness: The modeling approach is reasonable, but the lack of statistical rigor and parameter sensitivity analysis undermines the current evidence base. Readability for nonspecialists: The manuscript is generally well written and accessible, though some methods details are dense. Overall, the manuscript has potential but does not currently meet the evidentiary standard expected for a high-impact journal.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question with a plausible approach, but the central claims require substantial additional analysis, including statistical replication, trajectory-level evidence for lanes, and parameter sensitivity testing. I would be supportive of reconsideration after these concerns are addressed.
+
+## Risk / unsupported claims
+- The claim that "Kaps are able to direct NTF2s into the Nup meshwork, which leads to their increased flow" is not quantitatively supported without error bars and statistical tests.
+- The claim that "NTRs follow specific lanes inside the pore" is unsupported without trajectory-level analysis demonstrating persistent radial positioning.
+- The claim that "there is no evidence of slow phase Kaps" is not robustly established without parameter sensitivity analysis of the binding interaction strength.
+- The statement that "our results strongly support the Kap-centric transport model" is overstated given the model's simplifications and the qualitative nature of the comparison to experimental data.
+- The comparison to experimental MINFLUX data (Sau et al.) is qualitative and does not establish quantitative agreement; this should be framed as suggestive rather than confirmatory.

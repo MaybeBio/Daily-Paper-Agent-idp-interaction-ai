@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "33882120",
+    "doi": "10.1093/database/baab019",
+    "title": "APICURON: a database to credit and acknowledge the work of biocurators."
+  },
+  "content": {
+    "abstract": "APICURON is an open and freely accessible resource that tracks and credits the work of biocurators across multiple participating knowledgebases. Biocuration is essential to extract knowledge from research data and make it available in a structured and standardized way to the scientific community. However, processing biological data-mainly from literature-requires a huge effort that is difficult to attribute and quantify. APICURON collects biocuration events from third-party resources and aggregates this information, spotlighting biocurator contributions. APICURON promotes biocurator engagement implementing gamification concepts like badges, medals and leaderboards and at the same time provides a monitoring service for registered resources and for biocurators themselves. APICURON adopts a data model that is flexible enough to represent and track the majority of biocuration activities. Biocurators are identified through their Open Researcher and Contributor ID. The definition of curation events, scoring systems and rules for assigning badges and medals are resource-specific and easily customizable. Registered resources can transfer curation activities on the fly through a secure and robust Application Programming Interface (API). Here, we show how simple and effective it is to connect a resource to APICURON, describing the DisProt database of intrinsically disordered proteins as a use case. We believe APICURON will provide biological knowledgebases with a service to recognize and credit the effort of their biocurators, monitor their activity and promote curator engagement. Database URL: https://apicuron.org.",
+    "keywords": [],
+    "mesh_terms": [
+      "Databases, Factual",
+      "*Intrinsically Disordered Proteins",
+      "Knowledge",
+      "Knowledge Bases",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hatos, Andras",
+        "Quaglia, Federica",
+        "Piovesan, Damiano",
+        "Tosatto, Silvio C E"
+      ],
+      "short_names": [
+        "Hatos A",
+        "Quaglia F",
+        "Piovesan D",
+        "Tosatto SCE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedical Sciences, University of Padua, Via Ugo Bassi 58/B, Padova 35131, Italy.",
+        "Department of Biomedical Sciences, University of Padua, Via Ugo Bassi 58/B, Padova 35131, Italy.",
+        "Department of Biomedical Sciences, University of Padua, Via Ugo Bassi 58/B, Padova 35131, Italy.",
+        "Department of Biomedical Sciences, University of Padua, Via Ugo Bassi 58/B, Padova 35131, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hatos, András",
+        "short_name": "Hatos A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padua, Via Ugo Bassi 58/B, Padova 35131, Italy."
+        ]
+      },
+      {
+        "full_name": "Quaglia, Federica",
+        "short_name": "Quaglia F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padua, Via Ugo Bassi 58/B, Padova 35131, Italy."
+        ]
+      },
+      {
+        "full_name": "Piovesan, Damiano",
+        "short_name": "Piovesan D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padua, Via Ugo Bassi 58/B, Padova 35131, Italy."
+        ]
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padua, Via Ugo Bassi 58/B, Padova 35131, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Database : the journal of biological databases and curation"
+    ],
+    "journal_abbrev": [
+      "Database (Oxford)"
+    ],
+    "pub_date": "2021 Apr 21",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/22 06:00",
+    "fetched_at": "2026-09-20 02:44:09"
+  },
+  "links": {
+    "cites": [
+      "41249866",
+      "41231865",
+      "40399296",
+      "39937660",
+      "39661723",
+      "39526405",
+      "39475178",
+      "39372780",
+      "38507044",
+      "37904585",
+      "37530436",
+      "36916735",
+      "34986604",
+      "34850135",
+      "34761267"
+    ],
+    "refs": [
+      "33206959",
+      "33145007",
+      "32814053",
+      "31906604",
+      "31713636",
+      "31691815",
+      "31493559",
+      "31048830",
+      "30357350",
+      "29737976",
+      "29659566",
+      "29036270",
+      "28472374",
+      "28138153",
+      "25974841",
+      "25189782",
+      "20305270"
+    ],
+    "similar": [
+      "33882120",
+      "38507044",
+      "22434828",
+      "34850135",
+      "33017101",
+      "35789137",
+      "22513129",
+      "33145007",
+      "25997651",
+      "21933848",
+      "25037308",
+      "31713636",
+      "34971789",
+      "27589961",
+      "23703206",
+      "23160416",
+      "33305318",
+      "39137905",
+      "34252246",
+      "32294192",
+      "25940563",
+      "22280404",
+      "32524312",
+      "23160411",
+      "37079891",
+      "26557796",
+      "20591906",
+      "37167423",
+      "29688376",
+      "36416266",
+      "37401199",
+      "32283553",
+      "23221299",
+      "24622611",
+      "33036834",
+      "27189610",
+      "34710081",
+      "25542617",
+      "22434833",
+      "23160414",
+      "18515836",
+      "31802127",
+      "22434839",
+      "29977071",
+      "28381244",
+      "24574118",
+      "27899601",
+      "29036542",
+      "33787871",
+      "30649295",
+      "29378288",
+      "35363306",
+      "17101041",
+      "26730820",
+      "20221640",
+      "30576492",
+      "37562062",
+      "23180769",
+      "29253085",
+      "36321557",
+      "17519033",
+      "19063783",
+      "19182544",
+      "35801937",
+      "24165050",
+      "16901087",
+      "35037224",
+      "23613709",
+      "23912807",
+      "34664389",
+      "33237286",
+      "35411390",
+      "28365742",
+      "27173522",
+      "26568635",
+      "27374121",
+      "29036270",
+      "33994075",
+      "8591238",
+      "29377902",
+      "23732274",
+      "32324859",
+      "32379317",
+      "35348650",
+      "26989150",
+      "24667251",
+      "19597789",
+      "24218542",
+      "38271296"
+    ],
+    "review": [
+      "33882120",
+      "25997651",
+      "25542617",
+      "36321557",
+      "19063783",
+      "24165050",
+      "35037224"
+    ],
+    "pmc": [
+      "8060004"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33882120/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33882120",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33882120",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/database/article-lookup/doi/10.1093/database/baab019",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

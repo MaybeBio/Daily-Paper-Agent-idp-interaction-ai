@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "35450827",
+    "doi": "10.1016/j.bpj.2022.04.017",
+    "title": "Modulating binding affinity, specificity, and configurations by multivalent interactions."
+  },
+  "content": {
+    "abstract": "Biological functions of proteins rely on their specific interactions with binding partners. Many proteins contain multiple domains, which can bind to their targets that often have more than one binding site, resulting in multivalent interactions. While it has been shown that multivalent interactions play a crucial role in modulating binding affinity and specificity, other potential effects of multivalent interactions are less explored. Here, we developed a broadly applicable transfer-matrix formalism and used it to investigate the binding of two-domain ligands to targets with multiple binding sites. We show that 1) ligands with two specific binding domains can drastically boost both the binding affinity and specificity and downshift the working concentration range, compared with single-domain ligands, 2) the presence of a positive domain-domain cooperativity or containing a nonspecific binding domain can downshift the working concentration range of ligands by increasing the binding affinity without compromising the binding specificity, and 3) the configuration of the bound ligands has a strong concentration dependence, providing important insights into the physical origin of phase-separation processes taking place in living cells. In line with previous studies, our results suggest that multivalent interactions are utilized by cells for highly efficient regulation of target binding involved in a diverse range of cellular processes such as signal transduction, gene transcription, and antibody-antigen recognition.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "Ligands",
+      "Protein Binding",
+      "*Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Deng, Yunxin",
+        "Efremov, Artem K",
+        "Yan, Jie"
+      ],
+      "short_names": [
+        "Deng Y",
+        "Efremov AK",
+        "Yan J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Mechanobiology Institute, National University of Singapore, Singapore.",
+        "Mechanobiology Institute, National University of Singapore, Singapore.",
+        "Mechanobiology Institute, National University of Singapore, Singapore; Department of Physics, National University of Singapore, Singapore. Electronic address: phyyj@nus.edu.sg."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Deng, Yunxin",
+        "short_name": "Deng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Mechanobiology Institute, National University of Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Efremov, Artem K",
+        "short_name": "Efremov AK",
+        "identifiers": [],
+        "affiliations": [
+          "Mechanobiology Institute, National University of Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Yan, Jie",
+        "short_name": "Yan J",
+        "identifiers": [],
+        "affiliations": [
+          "Mechanobiology Institute, National University of Singapore, Singapore; Department of Physics, National University of Singapore, Singapore. Electronic address: phyyj@nus.edu.sg."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2022 May 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/23 06:00",
+    "fetched_at": "2026-09-20 09:50:05"
+  },
+  "links": {
+    "cites": [
+      "42584523",
+      "42531076",
+      "42291828",
+      "42075173",
+      "41853170",
+      "41671867",
+      "41556985",
+      "41009621",
+      "40463177",
+      "40283983",
+      "39457708",
+      "39371993",
+      "39340450",
+      "39328775",
+      "38612541",
+      "38310140",
+      "36183834"
+    ],
+    "refs": [
+      "36068204",
+      "32859760",
+      "31776263",
+      "31486770",
+      "31196959",
+      "30239908",
+      "29602697",
+      "29109287",
+      "26777405",
+      "26745425",
+      "26553976",
+      "25710931",
+      "25637431",
+      "25333780",
+      "23316873",
+      "23027945",
+      "22139926",
+      "22096453",
+      "21917930",
+      "21417403",
+      "20937913",
+      "20926372",
+      "20131760",
+      "19592703",
+      "19290859",
+      "18828631",
+      "17525339",
+      "17473849",
+      "17052985",
+      "16393779",
+      "15178741",
+      "14555997",
+      "11741967",
+      "11735389",
+      "11101527",
+      "10592234",
+      "9551546",
+      "9422724",
+      "8638105",
+      "8293463",
+      "7680959",
+      "7577966",
+      "7541040",
+      "7477295",
+      "2173144",
+      "1623525",
+      "1459994"
+    ],
+    "similar": [
+      "35450827",
+      "23912807",
+      "11279168",
+      "28849912",
+      "23116010",
+      "34439737",
+      "18652478",
+      "10764735",
+      "36321557",
+      "24021866",
+      "30284834",
+      "12605859",
+      "29512997",
+      "15834155",
+      "20024074",
+      "20527753",
+      "24150869",
+      "25073654",
+      "1017799",
+      "11102876",
+      "36200481",
+      "30543411",
+      "32935985",
+      "9383403",
+      "12084912",
+      "29474056",
+      "35286724",
+      "17407569",
+      "18373548",
+      "34964176",
+      "19469576",
+      "20004209",
+      "8593180",
+      "10903932",
+      "1376344",
+      "9171351",
+      "34259699",
+      "7479908",
+      "39417240",
+      "31283091",
+      "32870222",
+      "16982616",
+      "25903363",
+      "19271732",
+      "17847051",
+      "37305168",
+      "7540013",
+      "7520751",
+      "33383033",
+      "25424044",
+      "9860841",
+      "29148699",
+      "22002096",
+      "10653693",
+      "30605082",
+      "24264865",
+      "35537448",
+      "29306444",
+      "7516469",
+      "23763669",
+      "38033792",
+      "21917930",
+      "33135679",
+      "21195225",
+      "27022022",
+      "12054443",
+      "8805579",
+      "10955995",
+      "32108477",
+      "25901321",
+      "11439026",
+      "24607360",
+      "31575863",
+      "14744149",
+      "34637774",
+      "34122979",
+      "11087420",
+      "19735544",
+      "9576909",
+      "20698691",
+      "24141540",
+      "23243314",
+      "11384997",
+      "20442417",
+      "16982700",
+      "34439755",
+      "33277360",
+      "30722704",
+      "29071771",
+      "7988556",
+      "26124884",
+      "16737968",
+      "24436124",
+      "25400296"
+    ],
+    "review": [
+      "35450827",
+      "23116010",
+      "36321557",
+      "11102876",
+      "32870222",
+      "7540013"
+    ],
+    "pmc": [
+      "9199096"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(22)00316-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35450827/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35450827",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

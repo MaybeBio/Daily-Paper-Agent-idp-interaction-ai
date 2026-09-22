@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-zqh59",
+  "title": "Molecular dynamics of the intrinsically disordered protein COR15A — A force field validation on structure and dynamics",
+  "authors": "Tobias Rindfleisch; Ricky Nencini; O. H. Samuli Ollila; Dirk Walther; Markus S. Miettinen; Anja Thalhammer",
+  "journal": "ChemRxiv",
+  "published_date": "2025-07-07",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用MD模拟验证20种力场对无序蛋白COR15A结构与动力学的描述能力，虽聚焦单蛋白构象而非PPI，但力场验证方法对IDP互作机制建模有可迁移启发。",
+  "abstract": "Intrinsically disordered proteins (IDPs) pose a challenge for structural characterization, as experimental methods lack the sub-nanometer/sub-nanosecond resolution to capture their dynamic conformational ensembles. Molecular dynamics (MD) simulations can, in principle, provide this information, but for the simulation of IDPs dedicated protein and water force fields are needed, as traditional MD models for folded proteins prove inadequate for IDPs. Substantial effort was invested to develop IDP-specific force fields, but their performance in describing IDPs that undergo conformational changes—such as those induced by molecular partner binding or changes in solution environment—remains underexplored. In this study, we investigated the ability of 20 MD models to accurately simulate structural and dynamic aspects of COR15A, an IDP just on the verge of folding, with a particular focus on their ability to capture subtle structural differences. We employ a two-step approach: (i) validation of short 200-ns simulations against small-angle X-ray scattering (SAXS) data, and (ii) detailed evaluation of the six best-performing MD models through extended 1.2-µs MD simulations against nuclear magnetic resonance (NMR) data, including a single-point mutant with slightly increased helicity. Only DES-amber and ff99SBws capture helicity differences between wild-type and mutant, but ff99SBws overestimates helicity. Notably, only DES-amber adequately reproduces the COR15A dynamics, as assessed by NMR relaxation times at two different magnetic field strengths. Among the tested force fields, DES-amber emerges as the best MD model for the simulation of COR15A. Its application provides insights into its dynamic conformational landscape, albeit not perfectly reproducing all experimental data. Our study highlights the need for rigorous force field validation for IDPs, and identifies remaining discrepancies in need of further force-field development.",
+  "abstract_zh": "固有无序蛋白（IDPs）对结构表征构成挑战，因为实验方法缺乏亚纳米/亚纳秒分辨率来捕捉其动态构象集合。分子动力学（MD）模拟原则上能提供此类信息，但模拟IDPs需要专用的蛋白质和水力场，因为针对折叠蛋白的传统MD模型对IDPs不适用。大量努力已投入到开发IDP特异性力场中，但它们在描述经历构象变化（如由分子伴侣结合或溶液环境变化引起的构象变化）的IDPs方面的性能仍未充分探索。在本研究中，我们考察了20种MD模型准确模拟COR15A（一种处于折叠边缘的IDP）结构和动态方面的能力，特别关注它们捕捉细微结构差异的能力。我们采用两步方法：（i）针对小角X射线散射（SAXS）数据验证200纳秒短模拟，（ii）通过扩展的1.2微秒MD模拟，针对核磁共振（NMR）数据详细评估六种表现最佳的MD模型，包括一个螺旋度略有增加的单点突变体。只有DES-amber和ff99SBws能捕捉野生型与突变体之间的螺旋度差异，但ff99SBws高估了螺旋度。值得注意的是，仅DES-amber能充分再现COR15A的动态特性，这通过两种不同磁场强度下的NMR弛豫时间评估得出。在测试的力场中，DES-amber成为模拟COR15A的最佳MD模型。其应用提供了对其动态构象景观的见解，尽管并非完美再现所有实验数据。我们的研究强调了IDPs力场严格验证的必要性，并指出了需要进一步力场开发的剩余差异。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-zqh59",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-zqh59",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-zqh59/index.html"
+}

@@ -1,0 +1,424 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.24.604908",
+  "title": "PredIDR: Accurate prediction of protein intrinsic disorder regions using deep convolutional neural network",
+  "doi": "10.1101/2024.07.24.604908",
+  "abstract": "The involvement of protein intrinsic disorder in essential biological processes, it is well known in structural biology. However, experimental methods for detecting intrinsic structural disorder and directly measuring highly dynamic behavior of protein structure are limited. To address this issue, several computational methods to predict intrinsic disorder from protein sequences were developed and their performance is evaluated by the Critical Assessment of protein Intrinsic Disorder (CAID). In this paper, we describe a new computational method, PredIDR, which provides accurate prediction of intrinsically disordered regions in proteins, mimicking experimental X-ray missing residues. Indeed, missing residues in Protein Data Bank (PDB) were used as positive examples to train a deep convolutional neural network which produces two types of output for short and long regions. PredIDR took part in the second round of CAID and was as accurate as the top state-of-the-art IDR prediction methods. PredIDR can be freely used through the CAID Prediction Portal available at https://caid.idpcentral.org/portal or downloaded as a Singularity container from https://biocomputingup.it/shared/caid-predictors/ .",
+  "authors": [
+    "Kun-Sop Han",
+    "Su-Jong Yun",
+    "Chol-Song Kim",
+    "Chol-Pyok Ri",
+    "Alessio Del Conte",
+    "Damiano Piovesan"
+  ],
+  "published_date": "2024-07-24",
+  "updated_date": "2024-07-24T19:20:36Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.24.604908",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.24.604908.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T21:17:33Z",
+        "timestamp": 1768511853829,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            24
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 30,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                24
+              ]
+            ],
+            "date-time": "2024-07-24T00:00:00Z",
+            "timestamp": 1721779200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            24
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The involvement of protein intrinsic disorder in essential biological processes, it is well known in structural biology. However, experimental methods for detecting intrinsic structural disorder and directly measuring highly dynamic behavior of protein structure are limited. To address this issue, several computational methods to predict intrinsic disorder from protein sequences were developed and their performance is evaluated by the Critical Assessment of protein Intrinsic Disorder (CAID). In this paper, we describe a new computational method, PredIDR, which provides accurate prediction of intrinsically disordered regions in proteins, mimicking experimental X-ray missing residues. Indeed, missing residues in Protein Data Bank (PDB) were used as positive examples to train a deep convolutional neural network which produces two types of output for short and long regions. PredIDR took part in the second round of CAID and was as accurate as the top state-of-the-art IDR prediction methods. PredIDR can be freely used through the CAID Prediction Portal available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://caid.idpcentral.org/portal\">https://caid.idpcentral.org/portal</jats:ext-link>\n                  or downloaded as a Singularity container from\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://biocomputingup.it/shared/caid-predictors/\">https://biocomputingup.it/shared/caid-predictors/</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2024.07.24.604908",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            24
+          ]
+        ],
+        "date-time": "2024-07-24T19:20:36Z",
+        "timestamp": 1721848836000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "PredIDR: Accurate prediction of protein intrinsic disorder regions using deep convolutional neural network"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Kun-Sop",
+          "family": "Han",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Su-Jong",
+          "family": "Yun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chol-Song",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chol-Pyok",
+          "family": "Ri",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alessio",
+          "family": "Del Conte",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8210-2390",
+          "authenticated-orcid": false,
+          "given": "Damiano",
+          "family": "Piovesan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "Issue W1",
+          "key": "2024072711551470000_2024.07.24.604908v1.1",
+          "first-page": "w62",
+          "article-title": "CAID prediction portal: a comprehensive servic for predicting intrinsic disorder and binding regions in proteins",
+          "volume": "51",
+          "year": "2023",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "472",
+          "DOI": "10.1038/s41592-021-01117-3",
+          "article-title": "Critical assessment of protein intrinsic disorder prediction",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.26582"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2013.02.001"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10994-005-5256-4"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aao5654"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-020-03603-x"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr400514h"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "993",
+          "DOI": "10.1109/34.58871",
+          "article-title": "Neural network ensembles",
+          "volume": "12",
+          "year": "1990",
+          "journal-title": "IEEE Trans Pattern Anal Mach Intel"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.12",
+          "first-page": "D269",
+          "article-title": "DisProt: intrinsic protein disorder annotation in 2020",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1800243",
+          "DOI": "10.1002/pmic.201800243",
+          "article-title": "Taxonomic landscape of the dark proteomes: whole-proteome scale interplay between structural darkness, intrinsic disorder, and crystallization propensity",
+          "volume": "18",
+          "year": "2018",
+          "journal-title": "Proteomics"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.14",
+          "first-page": "341",
+          "volume-title": "In Progress in Molecular Biology and Translational Science",
+          "volume": "166",
+          "year": "2019"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.15",
+          "unstructured": "Kingma DP , Ba J. Adam: a method for stochastic optimization. arXiv 2014;1412.6980."
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/21690707.2016.1259708"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbx126"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0174-3"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu352"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.10533"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-017-2555-4"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.24391"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.24391"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Oldfield, C. J. , Uversky, V. N. , Dunker, A. K. & Kurgan, L. in Intrinsically Disordered Proteins (ed. Nicola Salvi ) 1–34 (Academic Press, 2019).",
+          "DOI": "10.1016/B978-0-12-816348-1.00001-6"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-014-1661-9"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pmic.201500177"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2004.02.002"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/07391102.2012.675145"
+        },
+        {
+          "key": "2024072711551470000_2024.07.24.604908v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-020-03654-0"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.07.24.604908",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:46:02Z",
+        "timestamp": 1768459562000
+      },
+      "score": 56.130665,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.07.24.604908"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            24
+          ]
+        ]
+      },
+      "references-count": 30,
+      "URL": "https://doi.org/10.1101/2024.07.24.604908",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.ijbiomac.2024.137665",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            24
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "40588121",
+    "doi": "10.1016/j.jmb.2025.169314",
+    "title": "Condensate Formation of the Human RNA-binding Protein SMAUG1 is Controlled by its Intrinsically Disordered Regions and Interactions with 14-3-3 Proteins."
+  },
+  "content": {
+    "abstract": "SMAUG1 is a human RNA-binding protein (RBP) that is dysregulated in a wide range of diseases. It is evolutionarily conserved and forms condensates containing translationally repressed RNAs. This indicates that condensation is central to SMAUG1 function. In this work, we show that a prion-like disordered region within the C-terminal half of SMAUG1 is required, but not sufficient, to drive formation of liquid-like condensates in cells. We use biochemical assays to show that SMAUG1 liquid-liquid phase separation (LLPS) appears to be independent of RNA binding and does not depend on other large, disordered regions of the protein that potentially harbor several binding sites for partner proteins. Using a combination of computational predictions, structural modeling, in vitro and in cell measurements, we show that SMAUG1-driven condensation is negatively regulated by direct interactions with members of the 14-3-3 protein family. These interactions are mediated by at least four distinct phospho-regulated short linear motifs within the disordered regions of SMAUG1, working synergistically. Interactions between SMAUG1 and dimeric 14-3-3 proteins drive the dissolution of condensates and are likely intertwined with other unknown regulatory mechanisms. Interestingly, a monomeric 14-3-3 variant cannot induce condensate dissolution, suggesting that the conformational constraints imposed on the SMAUG1 polypeptide chain by dimeric 14-3-3 proteins, potentially bridging distant binding sites, are important for the described phase separation-regulatory mechanism. Our results reinforce recent findings on the general regulatory role of 14-3-3 proteins in biological condensation and provide valuable novel insights into how SMAUG1 phase separation is regulated.",
+    "keywords": [
+      "14-3-3",
+      "SMAUG1",
+      "biomolecular condensation",
+      "liquid-liquid phase separation",
+      "short linear motifs"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*14-3-3 Proteins/metabolism/chemistry",
+      "*RNA-Binding Proteins/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry",
+      "Binding Sites",
+      "Models, Molecular",
+      "*Biomolecular Condensates/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Carey, Olivia",
+        "Fehilly, John",
+        "O'Leary, Eoghan Thomas",
+        "O'Shea, Stephen",
+        "Juda, Klaudia",
+        "Fitzel, Rahel",
+        "Selvaraj, Pooja",
+        "Burk, Katja",
+        "Lindsay, Andrew J",
+        "Young, Paul",
+        "Pancsa, Rita",
+        "Meszaros, Balint",
+        "Dean, Kellie"
+      ],
+      "short_names": [
+        "Carey O",
+        "Fehilly J",
+        "O'Leary ET",
+        "O'Shea S",
+        "Juda K",
+        "Fitzel R",
+        "Selvaraj P",
+        "Burk K",
+        "Lindsay AJ",
+        "Young P",
+        "Pancsa R",
+        "Meszaros B",
+        "Dean K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: 117348426@umail.ucc.ie.",
+        "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: john.fehilly@ucdconnect.ie.",
+        "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: eoghan.oleary@targovax.com.",
+        "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: 117458944@umail.ucc.ie.",
+        "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: klaudia.juda@msd.com.",
+        "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: rahel_fitzel@yahoo.de.",
+        "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: poojaselvaraj.au@gmail.com.",
+        "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: Kburk@ucc.ie.",
+        "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: a.lindsay@ucc.ie.",
+        "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: p.young@ucc.ie.",
+        "Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest 1117, Hungary. Electronic address: pancsa.rita@ttk.hu.",
+        "St Jude Children's Research Hospital, 262 Danny Thomas Place, 38105 Memphis, TN, USA. Electronic address: balint.meszaros@stjude.org.",
+        "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: k.dean@ucc.ie."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Carey, Olivia",
+        "short_name": "Carey O",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: 117348426@umail.ucc.ie."
+        ]
+      },
+      {
+        "full_name": "Fehilly, John",
+        "short_name": "Fehilly J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: john.fehilly@ucdconnect.ie."
+        ]
+      },
+      {
+        "full_name": "O'Leary, Eoghan Thomas",
+        "short_name": "O'Leary ET",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: eoghan.oleary@targovax.com."
+        ]
+      },
+      {
+        "full_name": "O'Shea, Stephen",
+        "short_name": "O'Shea S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: 117458944@umail.ucc.ie."
+        ]
+      },
+      {
+        "full_name": "Juda, Klaudia",
+        "short_name": "Juda K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: klaudia.juda@msd.com."
+        ]
+      },
+      {
+        "full_name": "Fitzel, Rahel",
+        "short_name": "Fitzel R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: rahel_fitzel@yahoo.de."
+        ]
+      },
+      {
+        "full_name": "Selvaraj, Pooja",
+        "short_name": "Selvaraj P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: poojaselvaraj.au@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Burk, Katja",
+        "short_name": "Burk K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: Kburk@ucc.ie."
+        ]
+      },
+      {
+        "full_name": "Lindsay, Andrew J",
+        "short_name": "Lindsay AJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: a.lindsay@ucc.ie."
+        ]
+      },
+      {
+        "full_name": "Young, Paul",
+        "short_name": "Young P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: p.young@ucc.ie."
+        ]
+      },
+      {
+        "full_name": "Pancsa, Rita",
+        "short_name": "Pancsa R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest 1117, Hungary. Electronic address: pancsa.rita@ttk.hu."
+        ]
+      },
+      {
+        "full_name": "Mészáros, Bálint",
+        "short_name": "Mészáros B",
+        "identifiers": [],
+        "affiliations": [
+          "St Jude Children's Research Hospital, 262 Danny Thomas Place, 38105 Memphis, TN, USA. Electronic address: balint.meszaros@stjude.org."
+        ]
+      },
+      {
+        "full_name": "Dean, Kellie",
+        "short_name": "Dean K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biochemistry and Cell Biology, University College Cork, Cork T12 XF62, Ireland. Electronic address: k.dean@ucc.ie."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2025 Oct 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/01 09:25",
+    "fetched_at": "2026-09-21 20:31:45"
+  },
+  "links": {
+    "cites": [
+      "42547268",
+      "42226709",
+      "42088425",
+      "41279085",
+      "40745206"
+    ],
+    "refs": [],
+    "similar": [
+      "40588121",
+      "39929988",
+      "34767801",
+      "39537752",
+      "39987501",
+      "40682822",
+      "40848932",
+      "35179885",
+      "39826710",
+      "39947751",
+      "40521608",
+      "34772787",
+      "39390911",
+      "29511089",
+      "36273579",
+      "34716273",
+      "39232584",
+      "39366355",
+      "33930220",
+      "32371601",
+      "39925132",
+      "38824391",
+      "40527409",
+      "34090478",
+      "41337585",
+      "35481633",
+      "36524527",
+      "40028898",
+      "41457474",
+      "37952770",
+      "33991007",
+      "34102212",
+      "38252962",
+      "34772789",
+      "33076213",
+      "37328094",
+      "35142991",
+      "39589885",
+      "28924037",
+      "37032432",
+      "37735903",
+      "40748104",
+      "39510346",
+      "40557590",
+      "39673974",
+      "40804711",
+      "40574713",
+      "34106046",
+      "40616404",
+      "36657879",
+      "40325419",
+      "34706978",
+      "34916288",
+      "34291921",
+      "40943143",
+      "39486437",
+      "34029402",
+      "36350034",
+      "40603603",
+      "38383656",
+      "34670845",
+      "38381071",
+      "40009520",
+      "34951585",
+      "39592156",
+      "40521613",
+      "41166416",
+      "31237369",
+      "34737230",
+      "40102453",
+      "40539959",
+      "40479713",
+      "37020020",
+      "40143738",
+      "37964343",
+      "40324711",
+      "39558160",
+      "41169547",
+      "39042834",
+      "36464283",
+      "38251748",
+      "41481439",
+      "34890409",
+      "38446881",
+      "32225071",
+      "34772786",
+      "40441156",
+      "39271032",
+      "39663388",
+      "34371110",
+      "33744316",
+      "33971237",
+      "40082181",
+      "30471685",
+      "38992139",
+      "32615218",
+      "40721018",
+      "40069234",
+      "36004748",
+      "26455390"
+    ],
+    "review": [
+      "40588121",
+      "34767801",
+      "35179885",
+      "39947751",
+      "34772787",
+      "39366355",
+      "33930220",
+      "40527409",
+      "36524527",
+      "34772789",
+      "35142991",
+      "37032432",
+      "37735903",
+      "40804711",
+      "40616404",
+      "40325419",
+      "34706978",
+      "34291921",
+      "40943143",
+      "36350034",
+      "34670845",
+      "39592156",
+      "40521613",
+      "31237369",
+      "36464283",
+      "34772786",
+      "39271032"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(25)00380-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results sections, discussion, supplementary material description)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No access to supplementary figures, tables, or experimental procedures beyond what is described.
+- **Shared manuscript claim summary** The authors report that FTDR stapling of a peptide corresponding to the αB helix of pKID, with staple placement at positions corresponding to Arg135 and Ser142, increases helicity and binding affinity to KIX. They further report that conserved prolines flanking αB are required for detectable binding, and that the lead stapled peptide may form secondary contacts at the MLL site on KIX.
+- **Visible evidence base** CD spectroscopy data (helicity values in Table 1, Figure 2), fluorescence anisotropy binding data (Kd values in Table 1, Figures 3 and 4), LC–MS confirmation of peptide identity (referenced to Supporting Information), and literature comparisons.
+- **Missing materials affecting confidence** Supporting Information (Figures 2–18, Table 1 in SI), experimental procedures for binding assays, peptide synthesis details, raw CD spectra, raw anisotropy binding curves, and statistical details. These are referenced but not provided in the supplied text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a focused and potentially useful application of the FTDR stapling platform to a well-studied IDP interaction. The central observation, that staple placement at Arg135/Ser142 yields high helicity and affinity, is interesting and consistent with prior structural data. However, several claims, particularly regarding the role of flanking prolines and secondary site binding, are supported by indirect or incomplete evidence. The manuscript would benefit from additional controls and more rigorous quantitative analysis before the conclusions are fully established.
+- **Who would be interested in the results, and why** Researchers working on stapled peptides, intrinsically disordered proteins, and protein-protein interaction inhibitors. The work is also relevant to those studying the pKID-KIX system as a model for coupled folding and binding. The FTDR chemistry itself may interest synthetic chemists developing new stapling methodologies.
+- **Major strengths** The study addresses a significant challenge in targeting IDP interactions. The use of a chemical stapling approach to probe the role of helical preorganization in binding affinity is conceptually sound. The systematic variation of staple position across the αB helix is a reasonable strategy. The observation that a specific staple position recapitulates near-full-length affinity is notable and potentially useful for future ligand design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Conserved helix-flanking prolines have previously been shown to modulate the binding affinities of other disordered domains in other proteins including MLL and p53. However, to our knowledge this is the first evidence within αB of pKID."
+  - **Evidence pointer** Section "The Potential Role of the Conserved IDR-Flanking Prolines in KID/pKID", Table 1, Figure 2
+  - **Concern** The claim that loss of flanking prolines abolishes binding is based on two peptides (αB-PKpS and αB-PNpS) that showed no detectable anisotropy change. However, these peptides also have staple placements at different positions than the lead compound, and their helicities are low (8% and 13% respectively). The authors attribute the loss of binding to the missing prolines, but the confounding variable of staple position and low helicity makes this attribution uncertain. A more direct test would involve mutating the prolines in the context of the optimal staple placement (αB-RSpS) or adding the prolines to the proline-lacking peptides.
+  - **Why it matters** The proline-flanking hypothesis is presented as a novel finding for pKID. If the effect is actually due to staple position or helicity rather than the prolines per se, the conclusion is not valid. This claim requires a cleaner experimental design to be established.
+  - **Resolution test** Provide binding data for a peptide with the optimal staple placement (Arg135/Ser142) but with Pro132 and Pro146 mutated to alanine. If binding is lost, the proline claim is supported. Alternatively, add the prolines to αB-PKpS or αB-PNpS and show that binding is restored.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "We then saturated, and effectively blocked, access to the MLL site by pre-incubating wild-type KIX in the presence of four molar equivalent excess of MLL (TAD) prior to incubation with αB-RSpS. Fluorescence anisotropy revealed that αB-RSpS binding to KIX:MLL decreased with a ca. 2.4-fold lower affinity compared to wild-type KIX."
+  - **Evidence pointer** Section "The Lead-Stapled Peptide αB-RSpS Forms Secondary Contacts at the MLL Site on KIX", Figure 4B, Table 1
+  - **Concern** The interpretation that a 2.4-fold decrease in affinity upon MLL pre-incubation indicates secondary binding at the MLL site is not well supported. A 2.4-fold change is modest and could arise from allosteric effects, steric hindrance, or non-specific competition. The authors also note that the KIXL628A mutation did not perturb binding, which they interpret as the peptide binding to a different region of the MLL site. However, this is speculative. The hill coefficient of 0.78 is mentioned as potential evidence for negative cooperativity, but no statistical analysis or replicate information is provided.
+  - **Why it matters** The claim of secondary site binding is presented as a novel observation ("to our knowledge this is the first evidence that suggests this for αB in vitro"). If the evidence is weak, this claim should be tempered or supported with additional experiments such as competition assays with a known MLL-site ligand, mutagenesis of multiple MLL-site residues, or direct binding measurements to an isolated MLL-site construct.
+  - **Resolution test** Perform a competition experiment with a well-characterized MLL-site ligand (e.g., MLL TAD or a small molecule) and show dose-dependent inhibition. Alternatively, use NMR or ITC to directly demonstrate binding at the MLL site. Provide error bars and replicates for the hill coefficient and Kd values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** "αB-RS bound to KIX with a corresponding Kd of 7.7 ± 0.2 μM and αB-RSpS displayed a ca. 9.4-fold higher affinity with a Kd of 0.82 ± 0.06 μM."
+  - **Evidence pointer** Table 1, Figure 3
+  - **Concern** The Kd values are reported with standard errors, but no information is provided on the number of replicates, the fitting model used, or the protein concentration range tested. Fluorescence anisotropy binding curves can be sensitive to assay conditions, and the reported errors may not reflect the true uncertainty. Additionally, the comparison to full-length pKID (Kd 0.7–0.1 μM) is based on literature values that may have been obtained under different conditions.
+  - **Why it matters** The central claim of the manuscript is that the stapled peptide achieves affinity comparable to the full-length phosphorylated domain. If the binding constants are not robustly determined, this comparison is not reliable.
+  - **Resolution test** Provide full binding curves with replicates, describe the fitting procedure, and report the protein concentration range. Ideally, validate one or two key Kd values with an orthogonal method such as ITC or MST.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of αB boundaries
+  - **Evidence pointer** Section "The Isolated αB Exhibits Comparable Helicity to αB within Full Length KID/pKID"
+  - **Issue** The authors define αB as residues 131–145, but note that prior work used residues 134–144. The rationale for including Arg131 and excluding Pro146 is explained, but the choice of the C-terminal boundary at 145 (excluding Pro146) is not fully justified given that Pro146 is later discussed as functionally important.
+  - **Required correction** Clarify why residue 145 was chosen as the C-terminal boundary and whether inclusion of Pro146 was considered in the initial design.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Helicity values
+  - **Evidence pointer** Table 1, Figure 2
+  - **Issue** Helicity values are reported as single numbers without errors or replicate information. CD-based helicity estimates can vary with the method used (e.g., mean residue ellipticity at 222 nm vs. deconvolution algorithms).
+  - **Required correction** Report the method used to calculate helicity and provide errors or at least state the number of independent measurements.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature support
+  - **Affected element** Statement on proline-flanking effects
+  - **Evidence pointer** Section "The Potential Role of the Conserved IDR-Flanking Prolines in KID/pKID"
+  - **Issue** The authors cite reference 25 for the role of flanking prolines in MLL and p53 but do not discuss the mechanistic basis or the differences between those systems and pKID.
+  - **Required correction** Briefly describe what is known about how flanking prolines modulate binding in MLL and p53 to provide context for the pKID observations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Disordered αB"
+  - **Evidence pointer** Title and throughout
+  - **Issue** The title refers to the "Disordered αB" of pKID, but the manuscript shows that αB has measurable helicity (13–20%) in isolation. The term "disordered" is accurate in the sense that the peptide is not fully folded, but the title may be misleading given the focus on induced helicity.
+  - **Required correction** Consider rephrasing the title to reflect the partially helical nature of the isolated peptide, e.g., "Partially Helical αB" or "Intrinsically Disordered αB".
+- **Technical failings that need to be addressed before the case is established** The proline-flanking claim (R1-M1) and the secondary site binding claim (R1-M2) are not adequately supported by the presented data. The binding affinity measurements (R1-M3) lack sufficient methodological detail to assess their robustness. These issues must be resolved before the central conclusions can be considered established.
+- **Assessment against Nature-style criteria** Originality: The application of FTCR stapling to the pKID αB helix is a reasonable extension of prior work, but the conceptual advance is incremental. Scientific importance: The findings are of interest to the IDP and stapled peptide communities, but the broader significance is limited by the lack of mechanistic depth. Interdisciplinary readership: The work bridges synthetic chemistry and biophysics, but the appeal is likely narrow. Technical soundness: The chemistry appears sound, but the biophysical analyses are incomplete. Readability for nonspecialists: The manuscript is generally clear, though some sections assume familiarity with IDP concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation regarding staple position and helicity is promising, but the proline and secondary site claims require additional experiments and the binding data need more rigorous reporting.
+
+## Risk / unsupported claims
+- The claim that loss of flanking prolines abolishes binding is confounded by staple position and low helicity in the tested peptides.
+- The claim of secondary binding at the MLL site is based on a modest affinity change and a single point mutation that did not perturb binding.
+- The comparison of αB-RSpS affinity to full-length pKID relies on literature values obtained under potentially different conditions.
+- The hill coefficient of 0.78 is mentioned as evidence for negative cooperativity but is not statistically supported.
+- The statement that the stapled peptide "may form secondary contacts" is speculative and not directly demonstrated.

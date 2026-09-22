@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.03.597105",
+  "title": "Protein Design with StructureGPT: a Deep Learning Model for Protein Structure-to-Sequence Translation",
+  "authors": "Nicanor Zalba; Pablo Ursua-Medrano; Humberto Bustince",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-07",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出StructureGPT深度学习模型，将蛋白质三级结构翻译为氨基酸序列，属于结构到序列的蛋白质设计，虽涉及AI方法但对象非无序蛋白/IDR，且未涉及PPI或互作机制建模，与本课题关联较弱。",
+  "abstract": "Motivation: Protein design, crucial for understanding and engineering protein functionalities, has traditionally been challenged by the reverse translation of complex protein tertiary structures into sequences. Existing computational tools have focused predominantly on sequence-to-structure predictions, with less attention given to structure-to-sequence processes. Our research introduces StructureGPT, a novel deep learning model that employs advanced natural language processing techniques to translate complex protein tertiary structures into their corresponding amino acid sequences. This model addresses critical gaps in protein engineering, particularly improving solubility and stability, which are essential for pharmaceutical development and industrial applications. Results: StructureGPT demonstrates the capability to autoregressively generate amino acid sequences from detailed structural inputs, enhancing the design of proteins with specific functionalities. By leveraging the linguistic parallels between protein structures and human language, our model not only predicts sequences with high accuracy but also suggests modifications that could lead to improved protein properties. The application of StructureGPT in multiple protein design tasks showcases its utility in various biomedical and biotechnological contexts. Availability: The source code for StructureGPT is freely available at https://github.com/StructureGPT DOI: 10.5281/zenodo.11065607",
+  "abstract_zh": "动机：蛋白质设计对于理解和工程化蛋白质功能至关重要，但传统上一直面临将复杂蛋白质三级结构反向翻译为序列的挑战。现有计算工具主要集中于序列到结构的预测，而对结构到序列过程的关注较少。我们的研究引入了StructureGPT，一种新颖的深度学习模型，利用先进自然语言处理技术将复杂蛋白质三级结构翻译为相应的氨基酸序列。该模型解决了蛋白质工程中的关键空白，特别是提高溶解性和稳定性，这些对药物开发和工业应用至关重要。结果：StructureGPT展示了从详细结构输入自回归生成氨基酸序列的能力，增强了具有特定功能蛋白质的设计。通过利用蛋白质结构与人类语言之间的语言相似性，我们的模型不仅高精度预测序列，还提出可能导致蛋白质性质改善的修改建议。StructureGPT在多个蛋白质设计任务中的应用展示了其在各种生物医学和生物技术背景下的实用性。可用性：StructureGPT的源代码可在 https://github.com/StructureGPT 免费获取，DOI: 10.5281/zenodo.11065607。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.03.597105",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.03.597105",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.03.597105/index.html"
+}

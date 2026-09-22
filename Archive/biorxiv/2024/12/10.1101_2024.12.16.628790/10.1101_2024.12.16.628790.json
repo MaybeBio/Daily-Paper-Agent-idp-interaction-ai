@@ -1,0 +1,171 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.16.628790",
+  "title": "Capturing the Conformational Heterogeneity of HSPB1 Chaperone Oligomers at Atomic Resolution",
+  "doi": "10.1101/2024.12.16.628790",
+  "abstract": "Small heat shock proteins (sHSPs), including HSPB1, are essential regulators of cellular proteostasis that interact with unfolded and partially folded proteins to prevent aberrant misfolding and aggregation. These proteins fulfill a similar role in biological condensates, where they interact with intrinsically disordered proteins to modulate their liquid-liquid and liquid-to-solid phase transitions. Characterizing sHSP structure, dynamics, and client interactions is challenging due to their partially disordered nature, their tendency to form polydisperse oligomers, and their diverse range of clients. In this work, we leverage various biophysical methods, including fast 1 H-based magic angle spinning (MAS) NMR spectroscopy, molecular dynamics (MD) simulations and modeling, to shed new light on the structure and dynamics of HSPB1 oligomers. Using split-intein mediated segmental labeling, we provide unambiguous evidence that in the oligomer context the N-terminal domain (NTD) of HSPB1 is rigid and adopts an ensemble of heterogenous conformations, the α-crystallin domain (ACD) forms dimers and experiences multiple distinct local environments, while the C-terminal domain (CTD) remains highly dynamic. Our computational models suggest that the NTDs participate in extensive NTD-NTD and NTD-ACD interactions and are sequestered within the oligomer interior. We further demonstrate that HSPB1 higher order oligomers disassemble into smaller oligomeric species in the presence of a client protein and that an accessible NTD is essential for HSPB1 partitioning into condensates and interactions with client proteins. Our integrated approach provides a high-resolution view of the complex oligomeric landscape of HSPB1 and sheds light on the elusive network of interactions that underly HSPB1 function in biological condensates. <h4>Significance statement</h4> HSPB1 is a ubiquitous cellular chaperone that helps prevent the aberrant aggregation of intrinsically disordered proteins involved in biological condensates and neurodegenerative diseases. Despite its central role in this process, many aspects of HSPB1’s structure and interactions with clients are not well understood due to its tendency to form polydisperse oligomeric structures and to function in heterogeneous condensate environments. Here, we present an integrated approach that includes segmental labeling, fast MAS NMR spectroscopy, and computational tools to characterize the structure and dynamics of HSPB1 in its oligomeric form and within client condensates at high resolution. Our approach, which is applicable to other complex biological systems, highlights the important role of HSPB1’s N-terminal domain in oligomeric assembly and interactions with clients.",
+  "authors": [
+    "Berkeley RF",
+    "Plonski AP",
+    "Phan T",
+    "Grohe K",
+    "Becker L",
+    "Wegner S",
+    "Herzik MA",
+    "Mittal J",
+    "Debelouchina GT"
+  ],
+  "published_date": "2024-12-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.16.628790",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.16.628790.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR956823",
+    "raw_record": {
+      "id": "PPR956823",
+      "source": "PPR",
+      "doi": "10.1101/2024.12.16.628790",
+      "title": "Capturing the Conformational Heterogeneity of HSPB1 Chaperone Oligomers at Atomic Resolution",
+      "authorString": "Berkeley RF, Plonski AP, Phan T, Grohe K, Becker L, Wegner S, Herzik MA, Mittal J, Debelouchina GT.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Berkeley RF",
+            "lastName": "Berkeley",
+            "firstName": "Raymond",
+            "initials": "RF"
+          },
+          {
+            "fullName": "Plonski AP",
+            "lastName": "Plonski",
+            "firstName": "Alexander",
+            "initials": "AP"
+          },
+          {
+            "fullName": "Phan T",
+            "lastName": "Phan",
+            "firstName": "Tien",
+            "initials": "T"
+          },
+          {
+            "fullName": "Grohe K",
+            "lastName": "Grohe",
+            "firstName": "Kristof",
+            "initials": "K"
+          },
+          {
+            "fullName": "Becker L",
+            "lastName": "Becker",
+            "firstName": "Lukas",
+            "initials": "L"
+          },
+          {
+            "fullName": "Wegner S",
+            "lastName": "Wegner",
+            "firstName": "Sebastian",
+            "initials": "S"
+          },
+          {
+            "fullName": "Herzik MA",
+            "lastName": "Herzik",
+            "firstName": "Mark",
+            "initials": "MA"
+          },
+          {
+            "fullName": "Mittal J",
+            "lastName": "Mittal",
+            "firstName": "Jeetain",
+            "initials": "J"
+          },
+          {
+            "fullName": "Debelouchina GT",
+            "lastName": "Debelouchina",
+            "firstName": "Galia",
+            "initials": "GT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6775-9415"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6775-9415"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Small heat shock proteins (sHSPs), including HSPB1, are essential regulators of cellular proteostasis that interact with unfolded and partially folded proteins to prevent aberrant misfolding and aggregation. These proteins fulfill a similar role in biological condensates, where they interact with intrinsically disordered proteins to modulate their liquid-liquid and liquid-to-solid phase transitions. Characterizing sHSP structure, dynamics, and client interactions is challenging due to their partially disordered nature, their tendency to form polydisperse oligomers, and their diverse range of clients. In this work, we leverage various biophysical methods, including fast  1 H-based magic angle spinning (MAS) NMR spectroscopy, molecular dynamics (MD) simulations and modeling, to shed new light on the structure and dynamics of HSPB1 oligomers. Using split-intein mediated segmental labeling, we provide unambiguous evidence that in the oligomer context the N-terminal domain (NTD) of HSPB1 is rigid and adopts an ensemble of heterogenous conformations, the α-crystallin domain (ACD) forms dimers and experiences multiple distinct local environments, while the C-terminal domain (CTD) remains highly dynamic. Our computational models suggest that the NTDs participate in extensive NTD-NTD and NTD-ACD interactions and are sequestered within the oligomer interior. We further demonstrate that HSPB1 higher order oligomers disassemble into smaller oligomeric species in the presence of a client protein and that an accessible NTD is essential for HSPB1 partitioning into condensates and interactions with client proteins. Our integrated approach provides a high-resolution view of the complex oligomeric landscape of HSPB1 and sheds light on the elusive network of interactions that underly HSPB1 function in biological condensates.  <h4>Significance statement</h4>  HSPB1 is a ubiquitous cellular chaperone that helps prevent the aberrant aggregation of intrinsically disordered proteins involved in biological condensates and neurodegenerative diseases. Despite its central role in this process, many aspects of HSPB1’s structure and interactions with clients are not well understood due to its tendency to form polydisperse oligomeric structures and to function in heterogeneous condensate environments. Here, we present an integrated approach that includes segmental labeling, fast MAS NMR spectroscopy, and computational tools to characterize the structure and dynamics of HSPB1 in its oligomeric form and within client condensates at high resolution. Our approach, which is applicable to other complex biological systems, highlights the important role of HSPB1’s N-terminal domain in oligomeric assembly and interactions with clients.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.16.628790"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.16.628790"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40146081",
+            "reference": "Journal of the American Chemical Society. 2025 May;147(18):15181-15194",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-12-21",
+      "firstPublicationDate": "2024-12-20",
+      "firstIndexDate": "2024-12-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

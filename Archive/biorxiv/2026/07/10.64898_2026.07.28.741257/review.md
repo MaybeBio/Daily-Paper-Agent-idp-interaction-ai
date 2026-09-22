@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, supporting information description)
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence. No line numbers were provided; references to specific locations use section and figure/table names.
+- **Shared manuscript claim summary** The authors propose that the highly acidic SH3 domain AbpSH3 binds its intrinsically disordered partner ArkA through a two-step mechanism involving an encounter complex intermediate. They use salt concentration as a perturbation to dissect the electrostatic contributions to binding kinetics and thermodynamics, combining ITC, NMR, and MD simulations. They conclude that long-range electrostatic interactions primarily stabilize the encounter complex and transition state, that salt destabilizes binding enthalpically, and that the heterogeneous encounter complex buffers against environmental perturbations, enabling resilient fast association.
+- **Visible evidence base** ITC binding data at multiple salt concentrations for three peptide constructs; NMR chemical shift perturbation data; 15N relaxation data (R1, R1ρ, NOE) for bound peptide; CPMG relaxation dispersion data at two fields and four salt concentrations; MD simulations of bound complexes (ArkA12 and ArkA17, with and without salt) and binding simulations (ArkA12, with and without salt); contact map analyses; ion interaction analyses; Bayesian inference for rate constants.
+- **Missing materials affecting confidence** The full supporting information (figures S1–S7, tables S1–S8) is referenced but not provided. Specific numerical values for many key results (e.g., KD values, rate constants, phi-values, p-values) are not stated in the main text. Details of the CPMG fitting procedure and the model selection are not fully described. The methods for the binding simulations (initial configurations, number of replicates, total simulation time) are not fully specified in the visible text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and well-motivated study of the electrostatic contributions to the binding of a highly charged SH3 domain to an intrinsically disordered partner. The combination of experimental thermodynamics, kinetics, and atomistic simulations is appropriate and potentially powerful. The central claims, however, rest on a chain of inference that is not fully established from the evidence presented in the main text. The key issue is the interpretation of the salt dependence of the overall binding affinity and kinetics in terms of specific mechanistic steps (encounter complex formation vs. coalescence), which requires a more rigorous quantitative framework than is currently provided. The manuscript is of interest to the protein biophysics and intrinsically disordered protein communities, but the current evidence does not fully support the mechanistic conclusions drawn.
+- **Who would be interested in the results, and why** Researchers studying protein-protein interactions involving intrinsically disordered proteins, particularly those interested in the role of electrostatics in binding kinetics and mechanisms. The work is also relevant to those studying encounter complexes and the "dock and coalesce" model of IDP binding. The methodological combination of ITC, NMR, and MD is of general interest to the biophysics community.
+- **Major strengths** The study addresses a significant and timely question about the role of long-range electrostatics in IDP binding. The multi-technique approach is well conceived. The use of salt as a systematic perturbation is appropriate. The MD simulations provide a plausible atomistic picture of the encounter complex and its salt sensitivity. The distinction between effects on association vs. dissociation and the attempt to localize the salt effect to specific steps of the binding pathway is a valuable framing.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for mechanistic claims
+  - **Claim pointer** The authors claim that salt destabilizes the encounter complex intermediate and that this primarily affects the association rate, with a smaller effect on dissociation. They further claim a salt phi-value of 0.77 for ArkA17, indicating that most of the electrostatic stabilization is present in the transition state.
+  - **Evidence pointer** Section 3.3, Figure 4, Figure 5A, Table 4, Table S1
+  - **Concern** The quantitative basis for the mechanistic decomposition is not presented in the main text. The salt phi-value is defined, but the actual values of ΔΔG for the association and dissociation barriers are not given. The claim that the effect on association is larger than on dissociation is based on the observation that ln(k_on) decreases and ln(k_off) increases with salt, but the relative magnitudes are not quantified. More critically, the interpretation of the salt phi-value as reflecting the fraction of electrostatic interactions formed in the transition state relies on a linear free energy relationship that is not justified. The relationship between the salt dependence of the overall KD and the salt dependence of the encounter complex stability (K_EC) is not explicitly derived. The MD-derived rates (k1, k-1) are mentioned, but the actual values and their uncertainties are not provided in the main text, making it impossible to assess the strength of the claim that k1 decreases and k-1 increases with salt.
+  - **Why it matters** The central mechanistic conclusion of the paper, that the encounter complex is the primary site of electrostatic stabilization and that this is the main determinant of the salt effect on association, depends on a quantitative comparison of the salt effects on different steps. Without the actual numbers, the reader cannot evaluate whether the data support the interpretation. The phi-value analysis is a strong claim that requires a clear demonstration that the assumptions of the analysis are met.
+  - **Resolution test** Provide the numerical values for ΔΔG of association and dissociation at 0 vs 800 mM salt for both peptides. Provide the values of the salt phi-values with uncertainties. Show explicitly how the salt dependence of the overall KD is partitioned into contributions from K_EC and the subsequent coalescence step. Provide the MD-derived rate constants (k1, k-1) with confidence intervals and demonstrate that the observed differences are statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the "buffer" hypothesis
+  - **Claim pointer** The authors conclude that the heterogeneous encounter complex serves as a buffer to perturbations, allowing resilient fast association that relies less on electrostatics than for folded charged domains, but with a lower binding affinity.
+  - **Evidence pointer** Section 3.4, Section 4, Figure 9
+  - **Concern** This is a broad and somewhat speculative conclusion that extends beyond the data presented. The claim that the encounter complex "buffers" against perturbations is not directly tested. The comparison to folded charged domains is qualitative and not supported by a direct comparative analysis. The functional relevance of the proposed mechanism in vivo is speculative. The statement that the mechanism is "likely common among other highly charged domains that bind IDPs" is not supported by any comparative data.
+  - **Why it matters** The title and abstract emphasize the mechanistic insight into how a highly acidic SH3 domain binds its partner. The "buffer" concept is a key part of the proposed functional significance. If this is not well supported, the broader impact of the work is diminished. The speculation about generality and in vivo relevance goes beyond what can be concluded from this system.
+  - **Resolution test** Either temper the conclusions to be more system-specific, or provide additional evidence, such as a comparative analysis with a less charged SH3 domain or a direct test of the "buffer" hypothesis by varying a different environmental parameter (e.g., temperature, pH) and showing that the association rate is less affected than for a folded domain pair.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of methods and data reporting
+  - **Claim pointer** The manuscript relies heavily on MD simulations to support the mechanistic interpretation, including the stability of the encounter complex, the nature of ion interactions, and the effect of salt on the binding pathway.
+  - **Evidence pointer** Section 2.5, Table 2, Figures 6–8, Tables S2–S8
+  - **Concern** The methods section for MD simulations is incomplete. The force field parameters are stated, but the system setup, equilibration protocol, and production run details are only partially described. The number of replicates for the binding simulations is not stated. The criteria for defining the encounter complex in the simulations are not clearly defined. The analysis of ion interactions is described, but the statistical treatment is not fully detailed. The main text refers to the supporting information for many details, but the supporting information is not provided for review.
+  - **Why it matters** The MD simulations are a critical component of the evidence. Without a complete description of the methods, the reproducibility and reliability of the simulation results cannot be assessed. The reader cannot evaluate whether the simulation sampling is sufficient to support the conclusions about the encounter complex ensemble and its salt dependence.
+  - **Resolution test** Provide a complete description of the MD simulation methods, including system setup, equilibration, production run lengths, number of replicates, and analysis criteria. Ensure that the supporting information is complete and accessible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Section 3.1, Figure 1
+  - **Evidence pointer** Figure 1B–D
+  - **Issue** The presentation of the ITC data in Figure 1 is not fully described in the text. The relationship between the plotted quantities and the binding free energy is not explicitly stated.
+  - **Required correction** Clearly define the quantities plotted in Figure 1B–D and state the relationship to ΔG_N→B. Provide the actual KD values and the fitted thermodynamic parameters in the text or a table.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Section 3.3, Table 4
+  - **Evidence pointer** Table 4
+  - **Issue** The text states that the association rate is faster than diffusion, but the actual values are not given. The comparison to the diffusion limit is not quantified.
+  - **Required correction** Provide the numerical values of k_on and k_off at each salt concentration and state the diffusion-limited rate constant used for comparison.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Section 3.4, Figure 6
+  - **Evidence pointer** Figure 6A
+  - **Issue** The term "difference contact map" is used, but the reference state for the difference is not clearly defined.
+  - **Required correction** State explicitly what is being compared in the difference contact map (e.g., with salt minus without salt).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Section 1, Introduction
+  - **Evidence pointer** References 3–5, 17
+  - **Issue** The introduction cites previous work on electrostatic enhancement of binding and the "dock and coalesce" model, but the connection to the current study could be made more explicit.
+  - **Required correction** Briefly state how the current study extends or differs from the cited work, particularly reference 17.
+- **Technical failings that need to be addressed before the case is established** The quantitative basis for the central mechanistic claims (R1-M1) is not presented. The MD simulation methods are incomplete (R1-M3). The "buffer" hypothesis and its generality are not supported (R1-M2).
+- **Assessment against Nature-style criteria** Originality: The study is original in its specific focus on a highly charged SH3 domain and its use of a multi-technique approach to dissect the electrostatic contributions to the binding pathway. The concept of a "buffer" encounter complex is a novel framing. Scientific importance: The work addresses a fundamental question in IDP biophysics and has potential implications for understanding signaling interactions. However, the importance is somewhat diminished by the lack of quantitative support for the key claims. Interdisciplinary readership: The work is primarily of interest to biophysicists and biochemists. The broader cell biology community may find the in vivo speculations interesting, but these are not well supported. Technical soundness: The experimental techniques are appropriate and appear to be executed carefully. The main weakness is the quantitative analysis and the incomplete description of the MD methods. Readability for nonspecialists: The manuscript is generally well written and the logic is clear, but the lack of numerical results makes it difficult for a nonspecialist to follow the quantitative arguments.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study has the potential to make a significant contribution, but the current manuscript does not provide sufficient quantitative evidence to support the central mechanistic claims. The authors should provide the missing numerical data, complete the methods description, and temper the broader conclusions.
+
+## Risk / unsupported claims
+- The claim that the encounter complex is the primary site of electrostatic stabilization and that this is the main determinant of the salt effect on association is not quantitatively supported.
+- The claim that the encounter complex "buffers" against perturbations, enabling resilient fast association, is speculative and not directly tested.
+- The claim that this mechanism is "likely common among other highly charged domains that bind IDPs" is unsupported by comparative data.
+- The claim that the effect of salt on binding is primarily enthalpic, with a smaller entropic effect, is presented but the decomposition of the free energy into enthalpic and entropic components is not shown.
+- The statement that the encounter complex forms rapidly even without electrostatic enhancement due to the absence of a large entropic penalty is not directly measured.

@@ -1,0 +1,493 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.03.539297",
+  "title": "Small-molecule binding to an intrinsically disordered protein revealed by experimental NMR <sup>19</sup> F transverse spin-relaxation",
+  "doi": "10.1101/2023.05.03.539297",
+  "abstract": "Intrinsically disordered proteins are highly dynamic biomolecules that rapidly interconvert between many structural conformations. Traditionally, these proteins have been considered un-druggable because of their lack of classical long-lived binding pockets. Recent evidence suggests that intrinsically disordered proteins can bind small, drug-like molecules, however, there are limited approaches to characterize these interactions experimentally. Here we demonstrate that ligand-detected 19 F transverse relaxation rates ( R 2 ) obtained from Nuclear Magnetic Resonance spectroscopy are highly sensitive to the interaction between a small-molecule and an intrinsically disordered protein, in contrast to chemical shift perturbations which are minimally sensitive for this interaction. With this method, we show that the small molecule, 5-fluoroindole, interacts with the disordered domains of non-structural protein 5A from hepatitis C virus with a K d of 260 ± 110 μM. We also demonstrate that 5-fluoroindole remains highly dynamic in the bound form. Our findings suggest that ligand-detected 19 F transverse relaxation measurements could represent a highly effective screening strategy to identify molecules capable of interacting with these traditionally elusive, dynamic biomolecules.",
+  "authors": [
+    "Gabriella T. Heller",
+    "Vaibhav Kumar Shukla",
+    "Angelo M. Figueiredo",
+    "D. Flemming Hansen"
+  ],
+  "published_date": "2023-05-04",
+  "updated_date": "2023-05-04T20:45:17Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.03.539297",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.03.539297.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:45:38Z",
+        "timestamp": 1768506338144,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            4
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n                  Intrinsically disordered proteins are highly dynamic biomolecules that rapidly interconvert between many structural conformations. Traditionally, these proteins have been considered un-druggable because of their lack of classical long-lived binding pockets. Recent evidence suggests that intrinsically disordered proteins can bind small, drug-like molecules, however, there are limited approaches to characterize these interactions experimentally. Here we demonstrate that ligand-detected\n                  <jats:sup>19</jats:sup>\n                  F transverse relaxation rates (\n                  <jats:italic>R</jats:italic>\n                  <jats:sub>2</jats:sub>\n                  ) obtained from Nuclear Magnetic Resonance spectroscopy are highly sensitive to the interaction between a small-molecule and an intrinsically disordered protein, in contrast to chemical shift perturbations which are minimally sensitive for this interaction. With this method, we show that the small molecule, 5-fluoroindole, interacts with the disordered domains of non-structural protein 5A from hepatitis C virus with a\n                  <jats:italic>K</jats:italic>\n                  <jats:sub>d</jats:sub>\n                  of 260 ± 110 μM. We also demonstrate that 5-fluoroindole remains highly dynamic in the bound form. Our findings suggest that ligand-detected\n                  <jats:sup>19</jats:sup>\n                  F transverse relaxation measurements could represent a highly effective screening strategy to identify molecules capable of interacting with these traditionally elusive, dynamic biomolecules.\n                </jats:p>",
+      "DOI": "10.1101/2023.05.03.539297",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            4
+          ]
+        ],
+        "date-time": "2023-05-04T20:45:17Z",
+        "timestamp": 1683233117000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Small-molecule binding to an intrinsically disordered protein revealed by experimental NMR\n                  <sup>19</sup>\n                  F transverse spin-relaxation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5672-0467",
+          "authenticated-orcid": false,
+          "given": "Gabriella T.",
+          "family": "Heller",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5342-258X",
+          "authenticated-orcid": false,
+          "given": "Vaibhav Kumar",
+          "family": "Shukla",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7039-5341",
+          "authenticated-orcid": false,
+          "given": "Angelo M.",
+          "family": "Figueiredo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0891-220X",
+          "authenticated-orcid": false,
+          "given": "D. Flemming",
+          "family": "Hansen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "753",
+          "DOI": "10.1007/s10858-020-00348-4",
+          "volume": "74",
+          "year": "2020",
+          "journal-title": "Journal of Biomolecular NMR"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm1589"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.5b00548"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-0004(02)02169-2"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.abb5924"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "2772",
+          "DOI": "10.1016/j.jmb.2017.07.016",
+          "volume": "429",
+          "year": "2017",
+          "journal-title": "Journal of Molecular Biology"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chembiol.2008.09.011"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "2501",
+          "DOI": "10.1021/jacs.1c07591",
+          "volume": "144",
+          "year": "2022",
+          "journal-title": "Journal of the American Chemical Society"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2015.07.004"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003249",
+          "DOI": "10.1371/journal.pcbi.1003249",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1738",
+          "DOI": "10.1021/acschemneuro.2c00116",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "ACS Chemical Neuroscience"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "541",
+          "DOI": "10.1042/BST20210499",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Biochemical Society Transactions"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aat4010"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2016.12.004"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "5513",
+          "DOI": "10.1021/acs.jctc.5b00736",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.7b00212"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M115.644419"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M809244200"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "G. Heller , L. Yu , D. Hansen , in NMR Spectroscopy for Probing Functional Dynamics at Biological Interfaces, Royal Society of Chemistry, 2022, pp. 383–410.",
+          "DOI": "10.1039/9781839165702-00383"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "I. C. Felli , R. Pierattelli , Intrinsically disordered proteins studied by NMR spectroscopy, Vol. 870, Springer, 2015.",
+          "DOI": "10.1007/978-3-319-20164-1"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1016/j.pnmrs.2013.02.001",
+          "volume": "73",
+          "year": "2013",
+          "journal-title": "Progress in Nuclear Magnetic Resonance Spectroscopy"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "13692",
+          "DOI": "10.1021/jacs.7b01380",
+          "volume": "139",
+          "year": "2017",
+          "journal-title": "Journal of the American Chemical Society"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1716296"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRev.94.630"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1744152"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja980832l"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Abragam , The Principles of Nuclear Magnetism, Oxford university press, 1961.",
+          "DOI": "10.1063/1.3057238"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "401",
+          "DOI": "10.1007/s10858-019-00268-y",
+          "volume": "73",
+          "year": "2019",
+          "journal-title": "Journal of Biomolecular NMR"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "6148",
+          "DOI": "10.1021/acs.jpcb.8b00377",
+          "volume": "122",
+          "year": "2018",
+          "journal-title": "The Journal of Physical Chemistry B"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "768",
+          "DOI": "10.1016/j.bpj.2016.07.023",
+          "volume": "111",
+          "year": "2016",
+          "journal-title": "Biophysical Journal"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.9734/JSRR/2015/14076",
+          "volume": "5",
+          "year": "2015",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "800",
+          "DOI": "10.1021/acschemneuro.2c00782",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "ACS Chemical Neuroscience"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "3210",
+          "DOI": "10.1063/1.1677681",
+          "volume": "56",
+          "year": "1972",
+          "journal-title": "The Journal of Chemical Physics"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1695690"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja00135a015"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00197809"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10858-013-9718-x"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.38",
+          "unstructured": "M. Newville , T. Stensitzki , D. B. Allen , M. Rawlik , A. Ingargiola , A. Nelson , Astrophysics Source Code Library 2016, ascl: 1606.1014."
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu830"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja960510m"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "35",
+          "DOI": "10.1016/j.jmr.2013.06.001",
+          "volume": "234",
+          "year": "2013",
+          "journal-title": "Journal of Magnetic Resonance"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja078337p"
+        },
+        {
+          "key": "2023050702550456000_2023.05.03.539297v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M110.182436"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.05.03.539297",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:37:18Z",
+        "timestamp": 1768451838000
+      },
+      "score": 91.580956,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.05.03.539297"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            4
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.1101/2023.05.03.539297",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/jacs.3c11614",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            4
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

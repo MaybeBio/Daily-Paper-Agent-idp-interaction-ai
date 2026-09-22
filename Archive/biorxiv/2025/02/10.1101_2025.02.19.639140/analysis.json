@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.19.639140",
+  "title": "Missense mutations in intrinsically disordered protein regions link pathogenicity and phase separation",
+  "authors": "Oliver L. Kipp; Karen A. Lewis; Loren E. Hough; Steven T. Whitten",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-24",
+  "window": {
+    "start": "2025-02-24",
+    "end": "2025-03-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过预测相分离IDR并分析疾病相关错义突变，发现PS IDR中致病突变率显著升高且与短线性基序介导的PPI相关，直接关联IDP相分离与疾病机制，但方法上以统计预测为主，缺乏AI/物理模拟的机制建模深度。",
+  "abstract": "The impact of missense genetic variations on protein function is often enigmatic, especially for mutations that map to intrinsically disordered regions (IDRs). Given the functional importance of phase separation of IDRs, it has been proposed that mutations that modulate phase separation might preferentially lead to disease. To examine this idea, we used the robust predictability of phase-separating (PS) IDRs and annotation of disease-associated proteins and mutations to map the correlation between disease and phase separation. Consistent with previous work linking phase separation to cancer and autism spectrum disorder, we find a higher prevalence of predicted phase separation behavior in disease-associated proteins than typical for human proteins. We map the prevalence of phase separation across a wide range of diseases, finding that many, but not all, show an enrichment of phase separation in the proteins associated with them. Strikingly, the pathogenic mutation rate in predicted PS IDRs was elevated three-fold relative to IDRs not predicted to phase separate. Substitutions involving arginine and the aromatic types were among the most pathogenic for PS IDRs, while substitutions involving serine, threonine, and alanine the most benign. We applied these trends to mutations of uncertain clinical significance and predict that half found in PS IDRs are likely pathogenic. We find that phosphorylation sites were enriched in PS IDRs when compared to other protein regions, though mutations at such sites were mostly benign. Pathogenicity was highest for mutations in predicted PS IDRs when also found in a short linear motif, known mediators of protein-protein interactions.",
+  "abstract_zh": "错义遗传变异对蛋白质功能的影响常常令人费解，尤其是那些映射到内在无序区域（IDRs）的突变。鉴于IDRs相分离（phase separation）的功能重要性，有人提出，调节相分离的突变可能优先导致疾病。为检验这一观点，我们利用相分离（PS）IDRs的强预测性以及疾病相关蛋白质和突变的注释，来绘制疾病与相分离之间的相关性。与先前将相分离与癌症和自闭症谱系障碍联系起来的研究一致，我们发现疾病相关蛋白质中预测的相分离行为发生率高于人类蛋白质的典型水平。我们跨多种疾病绘制了相分离的普遍性，发现许多（但非全部）疾病中，与其相关的蛋白质表现出相分离的富集。引人注目的是，预测的PS IDRs中的致病突变率比未预测为相分离的IDRs高出三倍。涉及精氨酸和芳香族类型的替换在PS IDRs中致病性最强，而涉及丝氨酸、苏氨酸和丙氨酸的替换则最为良性。我们将这些趋势应用于临床意义不确定的突变，并预测PS IDRs中发现的突变有一半可能具有致病性。我们发现，与其他蛋白质区域相比，磷酸化位点在PS IDRs中富集，尽管这些位点的突变大多为良性。当预测的PS IDRs中的突变同时出现在短线性基序（已知的蛋白质-蛋白质相互作用介导因子）中时，其致病性最高。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.19.639140",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.19.639140",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.19.639140/index.html"
+}

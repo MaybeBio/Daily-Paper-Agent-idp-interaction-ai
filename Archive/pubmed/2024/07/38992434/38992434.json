@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "38992434",
+    "doi": "10.1016/j.jbc.2024.107544",
+    "title": "Regulatable assembly of synthetic microtubule architectures using engineered microtubule-associated protein-IDR condensates."
+  },
+  "content": {
+    "abstract": "Microtubule filaments are assembled into higher-order structures using microtubule-associated proteins. However, synthetic MAPs that direct the formation of new structures are challenging to design, as nanoscale biochemical activities must be organized across micron length-scales. Here, we develop modular MAP-IDR condensates (synMAPs) that enable inducible assembly of higher-order microtubule structures for synthetic exploration in vitro and in mammalian cells. synMAPs harness a small microtubule-binding domain from oligodendrocytes (TPPP) whose activity we show can be rewired by interaction with unrelated condensate-forming IDR sequences. This combination is sufficient to allow synMAPs to self-organize multivalent structures that bind and bridge microtubules into higher-order architectures. By regulating the connection between the microtubule-binding domain and condensate-forming components of a synMAP, the formation of these structures can be triggered by small molecules or cell-signaling inputs. We systematically test a panel of synMAP circuit designs to define how the assembly of these synthetic microtubule structures can be controlled at the nanoscale (via microtubule-binding affinity) and microscale (via condensate formation). synMAPs thus provide a modular starting point for the design of higher-order microtubule systems and an experimental testbed for exploring condensate-directed mechanisms of higher-order microtubule assembly from the bottom-up.",
+    "keywords": [
+      "cell circuits",
+      "condensates",
+      "cytoskeleton",
+      "microtubules",
+      "synthetic biology"
+    ],
+    "mesh_terms": [
+      "*Microtubules/metabolism",
+      "*Microtubule-Associated Proteins/metabolism/chemistry/genetics",
+      "Humans",
+      "Protein Engineering/methods",
+      "Animals",
+      "Biomolecular Condensates/metabolism/chemistry",
+      "Oligodendroglia/metabolism/cytology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chang, Chih-Chia",
+        "Coyle, Scott M"
+      ],
+      "short_names": [
+        "Chang CC",
+        "Coyle SM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biophysics Graduate Program, University of Wisconsin-Madison, Madison, Wisconsin, USA.",
+        "Biophysics Graduate Program, University of Wisconsin-Madison, Madison, Wisconsin, USA; Department of Biochemistry, University of Wisconsin-Madison, Madison, Wisconsin, USA. Electronic address: smcoyle@wisc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chang, Chih-Chia",
+        "short_name": "Chang CC",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics Graduate Program, University of Wisconsin-Madison, Madison, Wisconsin, USA."
+        ]
+      },
+      {
+        "full_name": "Coyle, Scott M",
+        "short_name": "Coyle SM",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics Graduate Program, University of Wisconsin-Madison, Madison, Wisconsin, USA; Department of Biochemistry, University of Wisconsin-Madison, Madison, Wisconsin, USA. Electronic address: smcoyle@wisc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/12 00:41",
+    "fetched_at": "2026-09-21 08:34:16"
+  },
+  "links": {
+    "cites": [
+      "42341752",
+      "41292725",
+      "39938118"
+    ],
+    "refs": [],
+    "similar": [
+      "38992434",
+      "38105997",
+      "34890409",
+      "39095354",
+      "34090478",
+      "39271032",
+      "40848932",
+      "39914390",
+      "33988978",
+      "7664757",
+      "40184990",
+      "39232584",
+      "39326881",
+      "26104829",
+      "24039085",
+      "21857997",
+      "25159196",
+      "34772789",
+      "16773649",
+      "39537752",
+      "34114950",
+      "31599700",
+      "34129784",
+      "40521608",
+      "32289170",
+      "38884477",
+      "40087540",
+      "34862761",
+      "19338777",
+      "2494169",
+      "33890764",
+      "36536177",
+      "39856105",
+      "24927501",
+      "35762204",
+      "7876309",
+      "41337585",
+      "28512144",
+      "38999934",
+      "40195042",
+      "11580206",
+      "37898404",
+      "8006079",
+      "40327693",
+      "38360555",
+      "35918061",
+      "19823689",
+      "35253794",
+      "38987300",
+      "39433596",
+      "9865614",
+      "33658185",
+      "3883359",
+      "35033560",
+      "39929988",
+      "4055896",
+      "28980356",
+      "27306797",
+      "39827079",
+      "28787032",
+      "30723163",
+      "40468084",
+      "8239657",
+      "10336255",
+      "25997340",
+      "15184364",
+      "39516491",
+      "8937984",
+      "40846850",
+      "38781207",
+      "32571413",
+      "39976773",
+      "34706978",
+      "15216891",
+      "26906882",
+      "39824169",
+      "10658180",
+      "40194320",
+      "37344496",
+      "35072334",
+      "37497046",
+      "39725032",
+      "39663388",
+      "39454749",
+      "34706530",
+      "25957410",
+      "10542369",
+      "34552246",
+      "15047868",
+      "7480164",
+      "39303698",
+      "35298090",
+      "22142902",
+      "23912807",
+      "10770946",
+      "16109370",
+      "39885130",
+      "8286444",
+      "1717454",
+      "39080253"
+    ],
+    "review": [
+      "38992434",
+      "39271032",
+      "40184990",
+      "39326881",
+      "26104829",
+      "24039085",
+      "34772789",
+      "34114950",
+      "34129784",
+      "40195042",
+      "11580206",
+      "37898404",
+      "38360555",
+      "39433596",
+      "28980356",
+      "39827079",
+      "39976773",
+      "34706978",
+      "39824169",
+      "10658180",
+      "40194320",
+      "39454749",
+      "25957410",
+      "7480164",
+      "39303698"
+    ],
+    "pmc": [
+      "11342785"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(24)02045-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38992434/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38992434",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

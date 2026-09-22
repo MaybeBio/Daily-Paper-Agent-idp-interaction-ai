@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.13.653742",
+  "title": "Of condensates and coats - reciprocal regulation of clathrin assembly and the growth of protein networks",
+  "authors": "Malady BT; Papagiannoula A; Kamatar A; Sarkar S; Lebrun GT; Wang L; Hayden CC; Lafer EM; Owen DJ; Milles S; Stachowiak JC",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-14",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过体外重构和NMR研究凝聚体与网格蛋白包被的相互调控，揭示IDR介导的相分离如何促进网格蛋白组装并受其曲率限制，为无序与有序蛋白互作机制建模提供框架。",
+  "abstract": "Clathrin-mediated endocytosis is essential for membrane traffic, impacting a diverse range of cellular processes including cell signaling homeostasis, cell adhesion, and receptor recycling. During endocytosis, invagination of the plasma membrane is coordinated by a network of proteins that recruit and assemble the clathrin coat. Recent work demonstrated that clathrin accessory proteins which arrive early at endocytic sites, such as Eps15 and Fcho2, form phase-separated condensates that recruit downstream machinery, promoting assembly and maturation of clathrin-coated vesicles. However, the mechanisms by which protein condensates regulate - and are regulated by - clathrin assembly remain unclear. Using in vitro reconstitution and nuclear magnetic resonance spectroscopy, we demonstrate that protein condensates provide a platform for recruitment and assembly of clathrin triskelia. This condensate driven assembly is enhanced in the presence of the accessory protein, AP2, which is readily incorporated within condensates. In turn, clathrin assembly restricted the growth of condensates, exhibiting surfactant-like behavior that stabilized protein-protein interactions while imposing the preferred curvature of the clathrin lattice. This mutual regulation promotes efficient assembly of clathrin-coated vesicles while preventing uncontrolled expansion of protein condensates. More broadly, reciprocal regulation of protein condensates and clathrin coats may provide a framework for understanding how intrinsically disordered and structured protein assemblies can work together to build complex cellular architectures.",
+  "abstract_zh": "网格蛋白介导的内吞作用（clathrin-mediated endocytosis）对膜运输至关重要，影响多种细胞过程，包括细胞信号稳态、细胞粘附和受体回收。在内吞过程中，质膜的内陷由一组蛋白质网络协调，这些蛋白质招募并组装网格蛋白外壳。近期研究表明，早期到达内吞位点的网格蛋白辅助蛋白（如Eps15和Fcho2）形成相分离（phase separation）凝聚体，这些凝聚体招募下游机制，促进网格蛋白包被囊泡的组装和成熟。然而，蛋白质凝聚体如何调节网格蛋白组装，以及如何被网格蛋白组装所调节的机制仍不清楚。利用体外重构和核磁共振波谱（nuclear magnetic resonance spectroscopy），我们证明蛋白质凝聚体为网格蛋白三脚体（clathrin triskelia）的招募和组装提供了平台。这种凝聚体驱动的组装在辅助蛋白AP2存在时得到增强，AP2易于被纳入凝聚体中。反过来，网格蛋白组装限制了凝聚体的生长，表现出类似表面活性剂的行为，稳定蛋白质-蛋白质相互作用，同时施加网格蛋白晶格的优选曲率。这种相互调节促进了网格蛋白包被囊泡的高效组装，同时防止蛋白质凝聚体的不受控扩张。更广泛地说，蛋白质凝聚体与网格蛋白外壳的相互调节可能为理解 intrinsically disordered 和结构化蛋白质组装如何协同构建复杂细胞架构提供框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653742",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653742",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.13.653742/index.html"
+}

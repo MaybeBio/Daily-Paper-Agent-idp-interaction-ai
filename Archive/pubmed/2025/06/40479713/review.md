@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and supplementary figure/table legends as referenced in the text.
+- **Assessment boundary** Scientific soundness, technical rigor, logical coherence, and support of claims by the presented evidence. The review is based solely on the provided manuscript text; no external data, figures, or supplementary files were examined.
+- **Shared manuscript claim summary** The authors report that the condensation properties of *E. coli* SSB can be selectively and broadly modulated by engineering its intrinsically disordered linker region, specifically via alterations in glycine-rich motifs and aromatic/positively charged residues, without affecting ssDNA or partner protein binding. They further propose that AlphaFold 3-predicted structures reveal multiple CTP binding sites on the OB tetramer, linking condensation propensity to IDL conformational dynamics, and that their dataset can inform improved LLPS prediction algorithms.
+- **Visible evidence base** Text descriptions of experimental results, including turbidity assays, fluorescence polarization binding measurements, fluorescence microscopy, condensation inhibition titrations, temperature profiles, and AF3 structural predictions. Specific numerical values are provided for some binding affinities and turbidity measurements, but the primary data (figures, tables, supplementary files) are not directly visible to this reviewer.
+- **Missing materials affecting confidence** All figures, tables, and supplementary data files are referenced but not provided. This includes Figure 1 (construct schematics and SDS-PAGE), Figures 2-8 (binding, condensation, inhibition, temperature, and enrichment data), Supplementary Tables S1-S4, Supplementary Figures S1-S3, and Supplementary Data Files S1-S2. Without these, the quantitative basis for several claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and potentially valuable engineering approach to dissect the determinants of SSB condensation. The central concept, that the IDL can be selectively modified to tune condensation without perturbing other SSB functions, is of interest to the fields of bacterial cell biology and biomolecular condensates. However, the strength of the conclusions is currently limited by the absence of the primary data in the provided material. Several claims, particularly regarding the structural interpretation from AF3 and the "selectivity" of the engineering, require the full dataset for proper evaluation. The work is technically sound in its design but the evidence base, as presented, is insufficient to fully establish all stated conclusions.
+- **Who would be interested in the results, and why** Researchers studying bacterial SSB proteins, DNA replication and repair mechanisms, biomolecular condensates and liquid-liquid phase separation, and the engineering of intrinsically disordered proteins. The work also has relevance for those developing and benchmarking computational predictors of phase separation, as it provides a defined experimental dataset of engineered variants.
+- **Major strengths**
+  - The study addresses a timely and important question regarding the sequence determinants of SSB condensation, moving beyond descriptive characterization to a functional engineering approach.
+  - The panel of designed variants is logical and systematically targets specific interaction types (cation-pi, charge-charge) and structural motifs (glycine-rich regions).
+  - The inclusion of multiple functional assays (ssDNA binding, RecQ binding, condensation, inhibition, temperature stability, enrichment) provides a multi-faceted view of the consequences of IDL engineering.
+  - The use of AF3 predictions to generate structural hypotheses is a modern and potentially insightful approach, and the authors are appropriately cautious about the confidence of multimeric predictions.
+  - The comparative analysis of LLPS prediction tools against the experimental dataset is a useful contribution that highlights current limitations in the field.
+- **Major Concerns**
+  - **R1-M1**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** The authors claim that "specific alterations in two glycine-rich regions as well as aromatic and/or positively charged residues of the IDL" lead to "a broad-range, selective modification of condensation propensity and condensate thermal and chemical stability, while leaving the single-stranded DNA and partner protein binding functions of SSB unchanged."
+    - **Evidence pointer** Figures 2, 3, 6, 7; Supplementary Tables S1, S2. Location not provided for specific data points.
+    - **Concern** The central claim of "selective" engineering rests on the demonstration that condensation is altered while binding functions are unchanged. While the text describes this, the actual data (binding curves, affinity constants, turbidity values, and statistical comparisons) are not visible. Without the figures and tables, it is impossible to assess the magnitude of the reported changes, the variability, or whether the "unchanged" binding functions are truly equivalent to WT or merely not statistically different due to high variance. The claim of selectivity is the cornerstone of the paper's significance and must be rigorously supported by the primary data.
+    - **Why it matters** If the binding functions are subtly affected, or if the changes in condensation are modest, the central conclusion of independent and selective engineering is weakened. The reader cannot evaluate the robustness of the selectivity claim without the data.
+    - **Resolution test** Provide the full figures and tables for binding and condensation assays. The data must clearly show that for the key variants (e.g., d1G, d2G, W136D), the condensation metrics are significantly altered compared to WT, while the binding affinities (Kd values) for ssDNA and RecQ are statistically indistinguishable from WT, with appropriate error bars and statistical tests.
+  - **R1-M2**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Interpretive validity
+    - **Claim pointer** The authors state that "AlphaFold 3-predicted structures of tetrameric wild-type and engineered EcSSB constructs identify multiple possible binding sites for the conserved C-terminal tip on the tetramer core of the IDL, establishing a link between condensation propensity and restrictions in IDL conformational dynamics."
+    - **Evidence pointer** Figure 9; Supplementary Table S3; Supplementary Data Files S1, S2. Location not provided.
+    - **Concern** The interpretation of AF3 models to "establish a link" between condensation propensity and IDL conformational dynamics is a significant leap. AF3 provides static predictions, not dynamic information. The claim of "restrictions in IDL conformational dynamics" is inferred, not measured. While the identification of multiple CTP binding sites is interesting, the connection between the predicted occupancy of these sites in different variants and their experimentally observed condensation propensity is not clearly demonstrated in the text. The low confidence scores for the multimeric predictions (pTMs 0.25-0.32) further weaken the structural conclusions drawn from those specific models.
+    - **Why it matters** Over-interpreting static structural predictions as evidence for dynamic processes can mislead the field. The link between the predicted structures and the functional outcome (condensation) is correlative at best and needs to be presented as a hypothesis, not a conclusion.
+    - **Resolution test** Rephrase the conclusions from the AF3 data as generating testable hypotheses. If the claim of "restricted dynamics" is to be made, it should be supported by experimental evidence, such as NMR relaxation measurements or molecular dynamics simulations, or the language should be softened to "suggested by the predicted structures."
+  - **R1-M3**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical completeness
+    - **Claim pointer** The authors state that "the results pave the way for the definition of in vivo roles of EcSSB condensation via genetic engineering."
+    - **Evidence pointer** Results section, Discussion section. Location not provided.
+    - **Concern** The manuscript is entirely based on in vitro experiments. While the authors propose that their engineered variants will be useful for future in vivo studies, they do not provide any data demonstrating that these variants can be expressed in cells, that they function as expected in vivo, or that they do not have off-target effects. The claim that the work "paves the way" is forward-looking, but the manuscript would be strengthened by a more explicit discussion of the potential challenges and limitations of translating these in vitro findings to a cellular context.
+    - **Why it matters** The physiological relevance of the in vitro condensation assays is a key question. Without in vivo validation, the significance of the engineering for understanding bacterial biology remains speculative.
+    - **Resolution test** Add a section to the Discussion that explicitly addresses the predicted in vivo behavior of the variants, potential challenges (e.g., protein stability, cellular localization), and how the variants could be used to test specific hypotheses about SSB function. If any preliminary in vivo data exist, they should be included.
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Clarity and reproducibility
+    - **Affected element** Materials and Methods, "Computational predictions" section
+    - **Evidence pointer** "Computational predictions" section, location not provided.
+    - **Issue** The section on LLPS predictions is incomplete. It lists seven web servers but does not provide their names or versions. This is a significant omission for a claim that involves benchmarking these tools.
+    - **Required correction** List the names and versions of the seven LLPS prediction web servers used, and provide the specific parameters or settings if non-default values were used.
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Data presentation
+    - **Affected element** Results, "IDL-engineered EcSsB constructs retain the capacity for binding ssDNA and RecQ helicase" section
+    - **Evidence pointer** Figure 2, location not provided.
+    - **Concern** The text states that binding is "unaffected" but does not provide the quantitative Kd values in the text. It is helpful for the reader to see these values directly in the results section for a quick comparison.
+    - **Required correction** Include the measured Kd values for ssDNA and RecQ binding for WT and all key variants in the text or in a clear table format within the main text.
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Interpretation
+    - **Affected element** Discussion, paragraph on AF3 predictions
+    - **Evidence pointer** Discussion section, location not provided.
+    - **Issue** The discussion of the AF3 results is somewhat one-sided, focusing on how the predictions support the experimental findings. It would be more balanced to also discuss any discrepancies or limitations of the predictions, such as the low confidence scores for the multimeric models.
+    - **Required correction** Add a sentence or two acknowledging the limitations of the AF3 predictions, particularly for the multimeric assemblies, and discuss how these limitations might affect the interpretation.
+
+## Risk / unsupported claims
+- The claim of "selective" engineering of condensation properties without affecting binding functions is not fully verifiable from the provided text alone, as the primary binding and condensation data are in figures and tables not visible to this reviewer.
+- The claim that AF3 predictions "establish a link" between condensation propensity and restrictions in IDL conformational dynamics is an over-interpretation of static structural predictions and is not supported by direct experimental evidence for dynamics.
+- The claim that the results "pave the way for the definition of in vivo roles" is speculative and not supported by any in vivo data presented in the manuscript.
+- The specific performance comparison of the seven LLPS prediction tools is not assessable, as the names of the tools and the detailed results are not provided in the text.

@@ -1,0 +1,180 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.14.426726",
+  "title": "Impacts of 203/204: RG>KR mutation in the N protein of SARS-CoV-2",
+  "doi": "10.1101/2021.01.14.426726",
+  "abstract": "We present a structure-based model of phosphorylation-dependent binding and sequestration of SARS-CoV-2 nucleocapsid protein and the impact of two consecutive amino acid changes R203K and G204R. Additionally, we studied how mutant strains affect HLA-specific antigen presentation and correlated these findings with HLA allelic population frequencies. We discovered RG>KR mutated SARS-CoV-2 expands the ability for differential expression of the N protein epitope on Major Histocompatibility Complexes (MHC) of varying Human Leukocyte Antigen (HLA) origin. The N protein LKR region K203, R204 of wild type (SARS-CoVs) and (SARS-CoV-2) observed HLA-A*30:01 and HLA-A*30:21, but mutant SARS-CoV-2 observed HLA-A*31:01 and HLA-A*68:01. Expression of HLA-A genotypes associated with the mutant strain occurred more frequently in all populations studied. <h4>Importance</h4> The novel coronavirus known as SARS-CoV-2 causes a disease renowned as 2019-nCoV (or COVID-19). HLA allele frequencies worldwide could positively correlate with the severity of coronavirus cases and a high number of deaths.",
+  "authors": [
+    "Vahed M",
+    "Calcagno TM",
+    "Quinonez E",
+    "Mirsaeidi M"
+  ],
+  "published_date": "2021-01-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.14.426726",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.14.426726.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR265551",
+    "raw_record": {
+      "id": "PPR265551",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR265551"
+        ]
+      },
+      "doi": "10.1101/2021.01.14.426726",
+      "title": "Impacts of 203/204: RG>KR mutation in the N protein of SARS-CoV-2",
+      "authorString": "Vahed M, Calcagno TM, Quinonez E, Mirsaeidi M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Vahed M",
+            "lastName": "Vahed",
+            "firstName": "Majid",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Pulmonary and Critical Care, University of Miami, FL, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Calcagno TM",
+            "lastName": "Calcagno",
+            "firstName": "Tess",
+            "initials": "TM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, University of Miami, Miami, FL, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Quinonez E",
+            "lastName": "Quinonez",
+            "firstName": "Elena",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, University of Miami, Miami, FL, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mirsaeidi M",
+            "lastName": "Mirsaeidi",
+            "firstName": "Mehdi",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5298-8442"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5298-8442"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "We present a structure-based model of phosphorylation-dependent binding and sequestration of SARS-CoV-2 nucleocapsid protein and the impact of two consecutive amino acid changes R203K and G204R. Additionally, we studied how mutant strains affect HLA-specific antigen presentation and correlated these findings with HLA allelic population frequencies. We discovered RG>KR mutated SARS-CoV-2 expands the ability for differential expression of the N protein epitope on Major Histocompatibility Complexes (MHC) of varying Human Leukocyte Antigen (HLA) origin. The N protein LKR region K203, R204 of wild type (SARS-CoVs) and (SARS-CoV-2) observed HLA-A*30:01 and HLA-A*30:21, but mutant SARS-CoV-2 observed HLA-A*31:01 and HLA-A*68:01. Expression of HLA-A genotypes associated with the mutant strain occurred more frequently in all populations studied. <h4>Importance</h4>  The novel coronavirus known as SARS-CoV-2 causes a disease renowned as 2019-nCoV (or COVID-19). HLA allele frequencies worldwide could positively correlate with the severity of coronavirus cases and a high number of deaths.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/01/14/2021.01.14.426726.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.14.426726"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR265551"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR265551&type=FILE&fileName=EMS120021-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS120021",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2021-01-16",
+      "firstPublicationDate": "2021-01-14",
+      "firstIndexDate": "2021-01-16",
+      "fullTextReceivedDate": "2021-04-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

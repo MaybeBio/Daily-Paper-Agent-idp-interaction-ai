@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "41741446",
+    "doi": "10.1038/s41467-026-69951-7",
+    "title": "Structural and functional implications of phase separation of membrane protein LacY in Escherichia coli."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase-separation (LLPS) controls protein activity and dynamically organizes (macro)molecules in living systems without the need for membrane-bound compartments. Biomolecular condensates of water-soluble proteins have extensively been studied, but little is known about LLPS of membrane proteins. In this work we induce in vivo condensation of lactose permease (LacY), a widely-studied model monomeric inner membrane protein in Escherichia coli, and evaluate how it affects LacY function. We fused LacY with engineered, condensate-forming protein PopTag. We observe major changes in the localization and mobility of LacY(Pop). Molecular dynamics simulations show how the PopTag domain drives the condensate-like association dynamics of LacY(Pop) through hydrophobic sticker interactions. LacY(Pop) preserves native-level transport activity and outperforms the non-condensed LacY under mild hyperosmotic stress (osmotic upshift). In osmotically stressed cells, membrane-bound biomolecular condensates also reduce deformation of the cytoplasmic membrane. Perturbation experiments suggest that membrane curvature drives the accumulation of LacY(Pop) at the poles of E. coli. Co-condensation of LacY and beta-galactosidase LacZ slightly reduces their activity and results in remarkable cellular reorganization of the proteins. Our research shows the localization, dynamics, and function of phase-separated membrane proteins in bacteria and highlights the potential of LLPS for engineering complex metabolic networks in vivo.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Escherichia coli/metabolism/genetics",
+      "Phase Separation",
+      "*Escherichia coli Proteins/metabolism/chemistry/genetics",
+      "Molecular Dynamics Simulation",
+      "*Monosaccharide Transport Proteins/metabolism/chemistry/genetics",
+      "*Symporters/metabolism/chemistry/genetics",
+      "Cell Membrane/metabolism",
+      "Membrane Proteins/metabolism/chemistry",
+      "Osmotic Pressure",
+      "Hydrophobic and Hydrophilic Interactions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Linnik, Dmitrii",
+        "Sultanji, Sumayra",
+        "Stevens, Jan A",
+        "Schuurman-Wolters, Gea K",
+        "de Boer, Rinse",
+        "Punter, Christiaan M",
+        "Marrink, Siewert J",
+        "Maslov, Ivan",
+        "Poolman, Bert"
+      ],
+      "short_names": [
+        "Linnik D",
+        "Sultanji S",
+        "Stevens JA",
+        "Schuurman-Wolters GK",
+        "de Boer R",
+        "Punter CM",
+        "Marrink SJ",
+        "Maslov I",
+        "Poolman B"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8046-9743",
+        "ORCID: 0000-0001-8423-5277",
+        "ORCID: 0000-0002-1455-531X"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, the Netherlands.",
+        "Department of Biochemistry, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, the Netherlands.",
+        "Molecular Dynamics Group, Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, the Netherlands.",
+        "Department of Biochemistry, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, the Netherlands.",
+        "Molecular Immunology, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, The Netherlands.",
+        "Department of Biochemistry, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, the Netherlands.",
+        "Molecular Dynamics Group, Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, the Netherlands.",
+        "Department of Biochemistry, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, the Netherlands.",
+        "Department of Biochemistry, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, the Netherlands. b.poolman@rug.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Linnik, Dmitrii",
+        "short_name": "Linnik D",
+        "identifiers": [
+          "0000-0002-8046-9743"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Sultanji, Sumayra",
+        "short_name": "Sultanji S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Stevens, Jan A",
+        "short_name": "Stevens JA",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Dynamics Group, Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Schuurman-Wolters, Gea K",
+        "short_name": "Schuurman-Wolters GK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Boer, Rinse",
+        "short_name": "de Boer R",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Immunology, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Punter, Christiaan M",
+        "short_name": "Punter CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Marrink, Siewert J",
+        "short_name": "Marrink SJ",
+        "identifiers": [
+          "0000-0001-8423-5277"
+        ],
+        "affiliations": [
+          "Molecular Dynamics Group, Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Maslov, Ivan",
+        "short_name": "Maslov I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Poolman, Bert",
+        "short_name": "Poolman B",
+        "identifiers": [
+          "0000-0002-1455-531X"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Groningen Biomolecular Sciences & Biotechnology Institute, University of Groningen, Groningen, the Netherlands. b.poolman@rug.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Feb 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/26 15:21",
+    "fetched_at": "2026-09-18 01:08:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41676917",
+      "41263305",
+      "40128232",
+      "39824169",
+      "39495916",
+      "38961085",
+      "38936257",
+      "38718835",
+      "38678067",
+      "38643237",
+      "38622124",
+      "38493146",
+      "38360555",
+      "38035387",
+      "37770422",
+      "36594499",
+      "36418326",
+      "36227469",
+      "36163138",
+      "36129323",
+      "35960807",
+      "35167752",
+      "35037270",
+      "34418423",
+      "33782607",
+      "33621478",
+      "33510441",
+      "33186556",
+      "33084318",
+      "32203387",
+      "32169592",
+      "31972165",
+      "31606941",
+      "31366629",
+      "30502621",
+      "29602806",
+      "27391701",
+      "27056844",
+      "26574417",
+      "26275590",
+      "25883141",
+      "25418093",
+      "25101671",
+      "24720726",
+      "23011886",
+      "21896727",
+      "21827481",
+      "21500218",
+      "21444798",
+      "21423716",
+      "20713508",
+      "20487282",
+      "18620422",
+      "17504273",
+      "16738554",
+      "16430699",
+      "15090499",
+      "9864330",
+      "8744570",
+      "7759518",
+      "6345791",
+      "4604283"
+    ],
+    "similar": [
+      "41741446",
+      "20696931",
+      "16446422",
+      "24872451",
+      "20457922",
+      "18485365",
+      "31147449",
+      "27107553",
+      "25512549",
+      "27090495",
+      "24530957",
+      "16574153",
+      "16698795",
+      "23322771",
+      "22969082",
+      "27595331",
+      "16574149",
+      "22106930",
+      "17172438",
+      "1766388",
+      "32363862",
+      "24711390",
+      "15304639",
+      "42217729",
+      "30297844",
+      "32780424",
+      "18779371",
+      "15067017",
+      "23928306",
+      "18326496",
+      "21995338",
+      "25800555",
+      "24826799",
+      "30108145",
+      "19781551",
+      "19383792",
+      "17434947",
+      "28154138",
+      "39799991",
+      "19595667",
+      "27438891",
+      "23690595",
+      "41457474",
+      "17920075",
+      "29602806",
+      "9634651",
+      "21161516",
+      "23137163",
+      "23033496",
+      "21593407",
+      "1618733",
+      "19689129",
+      "22802658",
+      "20875429",
+      "15909981",
+      "16689628",
+      "41297222",
+      "14630326",
+      "20043916",
+      "33808202",
+      "2657733",
+      "6278484",
+      "12411485",
+      "2668955",
+      "16794873",
+      "28300394",
+      "1871132",
+      "36300351",
+      "20568736",
+      "8226697",
+      "8521840",
+      "26512108",
+      "32380514",
+      "26157133",
+      "7578103",
+      "21896727",
+      "17176050",
+      "15823022",
+      "6363063",
+      "15950162",
+      "39475239",
+      "20008071",
+      "9736605",
+      "9608745",
+      "30478058",
+      "28636818",
+      "2203750",
+      "15313234",
+      "31383935",
+      "33825681",
+      "23256604",
+      "30792352",
+      "12052093",
+      "17242069",
+      "21315728",
+      "17925435",
+      "2190220",
+      "28627175",
+      "35099812",
+      "24520888"
+    ],
+    "review": [
+      "41741446",
+      "31147449",
+      "42217729",
+      "24826799",
+      "9634651",
+      "21161516",
+      "16689628",
+      "14630326",
+      "33808202",
+      "15950162"
+    ],
+    "pmc": [
+      "13046807"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-69951-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41741446/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

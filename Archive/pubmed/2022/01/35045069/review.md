@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results and discussion, conclusion, supporting information references)
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of conclusions relative to the evidence presented, and clarity of presentation. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors use extended ensemble molecular dynamics (REST2) to simulate the complex of SARS-CoV-2 nsp1 with the 5'-UTR stem loop 1 (SL1) of viral RNA. They report that SL1 binds preferentially to a region spanning the nsp1 α1 helix and the intrinsically disordered region (IDR), that the IDR partially forms secondary structure, that binding is multimodal with no single stable conformation, and that specific residues (Arg124, Lys47, Arg43, Asn126) are important for recognition. They further model the nsp1-40S ribosome complex to argue that SL1 can bind in the presence of the ribosome.
+- **Visible evidence base** Full text including methods, results, figures referenced (Figs 1-9), tables (Table 1), and supporting information items (Text A-C, Figs A-K, Tables A-D in S1 Text). No raw trajectories or analysis scripts were provided.
+- **Missing materials affecting confidence** Raw simulation trajectories, replica exchange acceptance rates, convergence diagnostics beyond those described, force field parameter files for modified nucleotides, and the full set of cluster analysis parameters. The supporting information is referenced but not fully provided in the submitted material.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study of a biologically important question: how SARS-CoV-2 RNA evades nsp1-mediated translational shutoff. The authors employ a sophisticated enhanced sampling approach (REST2) to overcome known sampling challenges in protein-RNA systems. The work is timely and addresses a gap in mechanistic understanding. However, the study has significant limitations that affect the strength of the conclusions. The simulation is short relative to the complexity of the system, convergence is acknowledged as incomplete, and the authors appropriately caution against quantitative interpretation. The central claims about binding modes and key residues are plausible but rest on a single simulation protocol with limited validation. The comparison with experimental data is thoughtful but the inconsistencies (e.g., with NMR data on helix formation) are not fully resolved. The modeling of the ribosome complex is useful but speculative. Overall, the manuscript presents a reasonable hypothesis-generating study, but the evidence does not fully establish the mechanistic claims as stated.
+- **Who would be interested in the results, and why** Researchers studying SARS-CoV-2 molecular biology, particularly those interested in nsp1 function and host translation shutoff. Computational biophysicists interested in enhanced sampling methods for protein-RNA complexes. Structural biologists studying viral RNA-protein interactions. The results may also be of interest to those developing antiviral strategies targeting nsp1-RNA interactions.
+- **Major strengths** The study addresses a timely and important question. The use of REST2 enhanced sampling is appropriate for the system and represents a methodological improvement over conventional MD for this problem. The authors are appropriately cautious about convergence limitations and avoid over-quantitative claims. The integration of multiple experimental datasets (cryo-EM, cross-linking, mutagenesis, spectroscopy) to contextualize the simulation results is commendable. The deposition of simulation data to a public archive is good practice.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the REST2 simulation provides a representative ensemble of nsp1-SL1 binding modes, and that the cluster analysis identifies stable binding modes.
+  - **Evidence pointer** Results section "Convergence of the extended ensemble simulation"; Fig D in S1 Text; Methods "Simulation analysis"
+  - **Concern** The authors acknowledge that replica states were not well mixed and that sampling was insufficient to achieve full convergence. However, the central conclusions about binding modes and key residues depend on the representativeness of the sampled ensemble. The cluster analysis is performed on a partially converged ensemble, and the stability assessment (500 ns conventional MD from selected cluster representatives) tests only local stability, not whether the clusters represent the true equilibrium distribution. The authors state that "the structures obtained in this research should be treated with caution," but the main conclusions are nonetheless presented as findings rather than hypotheses.
+  - **Why it matters** If the ensemble is not converged, the relative populations of clusters and the identification of "key" residues may be artifacts of the initial conditions and the specific REST2 protocol. The claim that specific residues (Arg124, Lys47, Arg43, Asn126) are involved in SL1 recognition is a central result, but it is derived from a non-converged ensemble. Without evidence that the sampling has explored the relevant conformational space, these conclusions are not robust.
+  - **Resolution test** Provide quantitative convergence diagnostics (e.g., overlap between adjacent replicas, autocorrelation times, block error analysis) and demonstrate that the cluster populations are stable with respect to simulation length. Alternatively, perform independent simulations with different initial conditions or different enhanced sampling methods to confirm that the same binding modes and key residues are identified.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the SL1 hairpin region binds to the nsp1 IDR, and that the binding is mediated by specific contacts including hydrogen bonds and salt bridges.
+  - **Evidence pointer** Results section "SL1's hairpin region binds to the nsp1 IDR"; Table 1; Figs 3 and 4
+  - **Concern** The contact analysis is based on a distance criterion of 12 Å between Cα and C4' atoms, which is quite generous and may include many non-specific contacts. The hydrogen bond and salt bridge criteria are more stringent, but the reported probabilities (e.g., Arg124-U18 at 26.0%) are modest. The authors do not provide a statistical comparison against a null model (e.g., contacts expected by chance given the concentrations of the molecules). Without such a control, it is unclear whether the reported contacts are specific or simply reflect the overall propensity of a positively charged protein to interact with a negatively charged RNA.
+  - **Why it matters** The claim that specific residues are involved in SL1 recognition is a key finding that the authors relate to experimental mutagenesis data. If the contacts are not statistically enriched relative to chance, the mechanistic interpretation is weakened.
+  - **Resolution test** Perform a control analysis where the contact probabilities are compared to those expected from a randomized or non-interacting system (e.g., by shuffling the RNA positions or using a purely electrostatic model). Report enrichment ratios or Z-scores for the key contacts.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the SL1 binding site on nsp1 is open to the solvent in the nsp1-40S ribosome complex, suggesting that SL1 may bind even when nsp1 is ribosome-associated.
+  - **Evidence pointer** Results section "SL1's binding position in 40S ribosome-nsp1 complex"; Fig 8
+  - **Concern** The modeling of the nsp1-40S ribosome complex is based on fitting the nsp1 N-terminal domain into a cryo-EM density map and selecting six candidate models with correlation coefficient greater than 0.80. The authors then select one model (candidate 2) based on cross-linking distance criteria. This is a reasonable approach, but the selection among six candidates with similar correlation coefficients introduces uncertainty. The conclusion that SL1 can bind in the presence of the ribosome depends on the specific choice of candidate model. The authors do not assess whether the other five candidates would lead to different conclusions about SL1 accessibility.
+  - **Why it matters** The claim that SL1 can bind to nsp1 in the context of the ribosome is important for the proposed mechanism of viral RNA evasion. If this conclusion is sensitive to the choice of docking model, it is not robust.
+  - **Resolution test** Assess SL1 accessibility in all six candidate models and report whether the conclusion is consistent across models. If not, discuss the implications for the proposed mechanism.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the IDR partially forms secondary structure, including α-helices at residues 153-179, and that this is consistent with the cryo-EM structure.
+  - **Evidence pointer** Results section "The IDR partially forms secondary structure and binds to SL1"; Fig 2
+  - **Concern** The secondary structure analysis shows that the α-helix formation in the IDR is only up to 50% and is unstable. The authors note that this is inconsistent with NMR data showing the IDR is fully unstructured, and they attribute the difference to the presence of SL1. However, the simulation also shows that the helix propensity is lower without SL1, which partially reconciles the discrepancy. The authors acknowledge that the force field may favor folded states, which is a significant caveat. The claim that the helix formation is "consistent with the cryo-EM structure" is not well supported, as the cryo-EM structure shows the helices in the context of the ribosome-bound state, which may differ from the free state simulated here.
+  - **Why it matters** The secondary structure propensity of the IDR is relevant to understanding how nsp1 functions. If the helix formation is an artifact of the force field, the interpretation of the simulation results in relation to the cryo-EM structure is problematic.
+  - **Resolution test** Perform simulations with an IDR-specific force field (e.g., CHARMM36m or ff14IDPSFF) and compare the secondary structure propensity. Alternatively, use enhanced sampling methods specifically designed for IDR conformational sampling.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The abstract states that "the SL1 binding region predicted from the simulation was open to the solvent, yet the ribosome could interact with SL1." This is somewhat confusingly worded. It is unclear whether the ribosome interacting with SL1 is a prediction or a statement of compatibility.
+  - **Required correction** Rephrase to clarify that the simulation predicts SL1 can bind to nsp1 in a region that remains accessible when nsp1 is ribosome-bound, based on the modeling.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, simulation setup
+  - **Evidence pointer** Methods "Simulation setup"
+  - **Issue** The authors state that the initial structure of the IDR was constructed as an extended structure. This choice may bias the sampling of IDR conformations. The authors do not discuss whether alternative initial IDR conformations were considered.
+  - **Required correction** Briefly discuss the choice of the extended initial structure and its potential impact on the results, or justify it based on the lack of experimental structural information.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, clustering analysis
+  - **Evidence pointer** Results section "Clustering analysis of the binding poses"
+  - **Issue** The authors state that the clustering threshold was determined using the criterion that any cluster has at least one inter-residue contact with more than 80% in each cluster. This is not a standard criterion and is not clearly explained. It is unclear how this criterion relates to the choice of eps and minPts.
+  - **Required correction** Provide a clearer explanation of the clustering criterion and how it was used to select eps and minPts. Consider reporting the sensitivity of the results to these parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, relation to experimental data
+  - **Evidence pointer** Results section "Relation to other experimental results"
+  - **Issue** The discussion of the Arg99Ala mutation is brief and does not fully explore the implications. The authors note that this mutation also disrupts RNA recognition but is not among the key residues identified in the simulation. This is an important discrepancy that deserves more discussion.
+  - **Required correction** Expand the discussion of the Arg99Ala mutation, including possible explanations for the discrepancy (e.g., indirect effects, involvement of the ribosome, or limitations of the simulation).
+- **Technical failings that need to be addressed before the case is established** The lack of demonstrated ensemble convergence is the primary technical issue. The authors acknowledge this limitation but proceed to draw conclusions about binding modes and key residues. Without quantitative convergence diagnostics or independent validation, the central claims are not fully supported. The contact analysis also lacks a statistical null model to establish specificity. The modeling of the ribosome complex is based on a single selected candidate among six, and the robustness of the conclusions to this choice is not assessed.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of REST2 enhanced sampling to the nsp1-SL1 system is novel, and the study provides new structural hypotheses about how SARS-CoV-2 RNA evades nsp1. However, the general concept of nsp1-RNA interactions has been explored experimentally, and the computational approach, while appropriate, is not methodologically groundbreaking.
+  - Scientific importance: The question of how SARS-CoV-2 RNA evades nsp1-mediated translation shutoff is of high importance for understanding viral pathogenesis and for potential therapeutic development. The study provides a plausible mechanism but does not definitively establish it.
+  - Interdisciplinary readership: The topic bridges virology, structural biology, and computational biophysics. The manuscript is written in a way that is largely accessible to these communities, though some computational details may be challenging for experimental readers.
+  - Technical soundness: The methods are appropriate for the problem, but the lack of demonstrated convergence and the absence of statistical controls for contact analysis weaken the technical foundation. The authors are transparent about limitations, which is commendable, but the limitations are significant enough to affect the strength of the conclusions.
+  - Readability for nonspecialists: The manuscript is generally well-organized and clearly written. The figures are informative. However, the abstract could be clearer about the distinction between simulation predictions and experimentally established facts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question and provides plausible hypotheses, but the evidence as presented does not fully establish the mechanistic claims. The authors should address the convergence issue, provide statistical validation of the contact analysis, and assess the robustness of the ribosome modeling conclusions.
+
+## Risk / unsupported claims
+- The claim that specific residues (Arg124, Lys47, Arg43, Asn126) are involved in SL1 recognition is based on a non-converged ensemble and lacks statistical validation against a null model. This should be treated as a hypothesis rather than an established finding.
+- The claim that the IDR partially forms secondary structure in a way that is consistent with the cryo-EM structure is not well supported, given the acknowledged force field limitations and the discrepancy with NMR data.
+- The claim that SL1 may bind to nsp1 in the context of the ribosome is based on a single selected docking model and is not robustly established.
+- The statement that the simulation results "do not contradict" either of the conflicting experimental results on nsp1-SL1 binding is weak, as the simulation is not sufficiently converged to make strong statements about binding affinity or specificity.

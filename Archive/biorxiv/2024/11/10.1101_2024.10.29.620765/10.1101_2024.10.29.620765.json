@@ -1,0 +1,416 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.29.620765",
+  "title": "Deep generative model for protein subcellular localization prediction",
+  "doi": "10.1101/2024.10.29.620765",
+  "abstract": "Protein sequence determines not only its structure but also its subcellular localization. Although a series of artificial intelligence models have been reported to predict protein subcellular localization, most of them provide only textual outputs. Here, we present deepGPS, a deep g enerative model for p rotein s ubcellular localization prediction. After trained with both protein primary sequences and protein subcellular localization fluorescence images, deepGPS shows the ability to predict cytoplasmic and nuclear localizations by reporting both textual labels and generative images as outputs. In addition, deepGPS shows potential to be further extended for other types of subcellular localization prediction, even with limited input data volumes for training. Finally, an openGPS website ( https://bits.fudan.edu.cn/opengps ) is constructed to provide a public and convenient platform for protein subcellular localization prediction with the scientific community.",
+  "authors": [
+    "Guo-Hua Yuan",
+    "Jinzhe Li",
+    "Zejun Yang",
+    "Yao-Qi Chen",
+    "Zhonghang Yuan",
+    "Tao Chen",
+    "Wanli Ouyang",
+    "Nanqing Dong",
+    "Li Yang"
+  ],
+  "published_date": "2024-11-03",
+  "updated_date": "2024-11-04T04:15:24Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.29.620765",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.29.620765.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T23:12:13Z",
+        "timestamp": 1768518733300,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            3
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 25,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                3
+              ]
+            ],
+            "date-time": "2024-11-03T00:00:00Z",
+            "timestamp": 1730592000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Protein sequence determines not only its structure but also its subcellular localization. Although a series of artificial intelligence models have been reported to predict protein subcellular localization, most of them provide only textual outputs. Here, we present deepGPS, a\n                  <jats:underline>deep</jats:underline>\n                  <jats:underline>g</jats:underline>\n                  enerative model for\n                  <jats:underline>p</jats:underline>\n                  rotein\n                  <jats:underline>s</jats:underline>\n                  ubcellular localization prediction. After trained with both protein primary sequences and protein subcellular localization fluorescence images, deepGPS shows the ability to predict cytoplasmic and nuclear localizations by reporting both textual labels and generative images as outputs. In addition, deepGPS shows potential to be further extended for other types of subcellular localization prediction, even with limited input data volumes for training. Finally, an openGPS website (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://bits.fudan.edu.cn/opengps\">https://bits.fudan.edu.cn/opengps</jats:ext-link>\n                  ) is constructed to provide a public and convenient platform for protein subcellular localization prediction with the scientific community.\n                </jats:p>",
+      "DOI": "10.1101/2024.10.29.620765",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            4
+          ]
+        ],
+        "date-time": "2024-11-04T04:15:24Z",
+        "timestamp": 1730693724000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Deep generative model for protein subcellular localization prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Guo-Hua",
+          "family": "Yuan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jinzhe",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zejun",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yao-Qi",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhonghang",
+          "family": "Yuan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tao",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Wanli",
+          "family": "Ouyang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nanqing",
+          "family": "Dong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Li",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1169375"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.03.014"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-020-0250-z"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2022.06.035"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ana.410220514"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.onc.1210970"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2024.05.011"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1052"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/17.8.721"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-10-274"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx548"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abi6983"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01541-z"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin, P. , Yan, Y. & Huang, S.Y . DeepHomo2.0: improved protein-protein contact prediction of homodimers by transformer-enhanced deep learning. Brief Bioinform 24 (2023).",
+          "DOI": "10.1093/bib/bbac499"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Weigert, M. & Schmidt, U. Nuclei instance segmentation and classification in histopathology images with StarDist. arXiv:2203.02284 (2022).",
+          "DOI": "10.1109/ISBIC56247.2022.9854534"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Orlando, G. et al. PyUUL provides an interface between biological structures and deep learning algorithms. Nat Commun 13, 961 (2022).",
+          "DOI": "10.1038/s41467-022-28327-3"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.19",
+          "unstructured": "Qi, C.R. , Su, H. , Mo, K. & Guibas, L.J. PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation. arXiv:1612.00593 (2016)."
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2077-3"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-018-0094-y"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-018-0216-7"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Luo, Z. et al. Interpretable feature extraction and dimensionality reduction in ESM2 for protein localization prediction. Brief Bioinform 25 (2024).",
+          "DOI": "10.1093/bib/bbad534"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAD1011"
+        },
+        {
+          "key": "2024110700000659000_2024.10.29.620765v2.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ronneberger, O. , Fischer, P. & Brox, T . U-Net: Convolutional Networks for Biomedical Image Segmentation. arXiv:1505.04597 (2015).",
+          "DOI": "10.1007/978-3-319-24574-4_28"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.10.29.620765",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:21:39Z",
+        "timestamp": 1768461699000
+      },
+      "score": 52.406982,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.10.29.620765"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            3
+          ]
+        ]
+      },
+      "references-count": 25,
+      "URL": "https://doi.org/10.1101/2024.10.29.620765",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bib/bbaf152",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

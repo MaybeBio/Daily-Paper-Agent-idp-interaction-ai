@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-58ft6/v3",
+  "title": "Mapping the Conformational Landscape of the Cold-Regulated Intrinsically Disordered Protein COR15A",
+  "authors": "Dale Stuchfield; Ana Bath Alén; Matthew Venables; Anja Thalhammer; Perdita Barran; Charles Eldrid",
+  "journal": "ChemRxiv",
+  "published_date": "2026-04-03",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文结合离子迁移质谱与分子动力学模拟，刻画冷调节无序蛋白COR15A的构象景观，虽聚焦单蛋白构象而非直接PPI，但无序蛋白构象建模方法对IDR介导互作机制研究有可迁移启发。",
+  "abstract": "Cold regulated protein 15A (COR15A) is a late embryogenesis abundant (LEA) protein from Arabidopsis thaliana that is expressed in response to low temperatures and dehydration. Here, we use a combination of ion mobility-mass spectrometry (IM-MS) and molecular dynamics (MD) simulations at elevated temperatures for enhanced sampling to explore the conformational landscape of COR15A. The IM-MS data display charge states from +5 to +12, and collision cross section (CCS) distributions indicative of two dominant coexisting conformational families centered on approximately 1200 and 1800 Å 2 , with subconformers evident. The structures sampled with MD are histogrammed, which provides a pseudo -CCS distribution ( p CCS) highly similar to experimental IM-MS data, allowing us to compare with SAXS-derived structures of COR15A in functional conditions. This approach gives compelling evidence that the experimental gas-phase data correspond to natively accessible states. In contrast to commonly used biophysical approaches, IM-MS permits simultaneous observation of disordered forms as well as conformers populated upon dehydration, allowing insights into dehydration-responsive LEA proteins.",
+  "abstract_zh": "冷调控蛋白15A（COR15A）是拟南芥（Arabidopsis thaliana）中的一种晚期胚胎发生丰富（LEA）蛋白，在低温和脱水条件下表达。在此，我们结合离子迁移谱-质谱（IM-MS）和高温下的分子动力学（MD）模拟以增强采样，探索COR15A的构象景观。IM-MS数据显示电荷态从+5到+12，碰撞截面（CCS）分布表明存在两个主要的共存构象家族，中心分别位于约1200和1800 Å²，并可见亚构象。MD采样的结构被直方图化，生成与实验IM-MS数据高度相似的伪CCS分布（pCCS），使我们能够与功能条件下COR15A的SAXS衍生结构进行比较。该方法提供了有力证据，表明实验气相数据对应于天然可及状态。与常用生物物理方法相比，IM-MS能够同时观察无序形式及脱水后富集的构象，从而深入了解脱水响应的LEA蛋白。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-58ft6/v3",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-58ft6/v3",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-58ft6_v3/index.html"
+}

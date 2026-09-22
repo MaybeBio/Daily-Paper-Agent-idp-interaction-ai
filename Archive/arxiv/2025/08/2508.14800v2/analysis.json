@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2508.14800v2",
+  "title": "Equipartition and the temperature of maximum density of TIP4/2005 water",
+  "authors": "Dilipkumar N. Asthagiri; Thiago Pinheiro dos Santos; Thomas L. Beck",
+  "journal": "",
+  "published_date": "2025-08-20",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究TIP4P/2005水模型的时间步长对密度和最大密度温度的影响，虽涉及无序蛋白模拟的力场参数建议，但对象为水而非IDP/PPI，且无互作机制或AI/物理建模方法，仅属力场参数化基础研究，与本课题关联微弱。",
+  "abstract": "We simulate TIP4P/2005 water in the temperature range of 257 K to 318 K with time-steps $δ=$ 0.25, 0.50, 2.00, and 4.00 fs. The density-temperature behavior obtained using 0.25 or 0.50 fs are in excellent agreement with each other but differ from those obtained using time-steps that have been shown earlier to lead to a breakdown of equipartition. The temperature of maximum density (TMD) is 277.15 K with $δt = 0.25\\;\\mathrm{or}\\; 0.50$ fs, but is shifted to progressively lower values for longer time-steps, a trend that holds for different thermostat/barostat combinations. Enhancing the water-water dispersion interaction, as has been recommended for simulating disordered proteins in TIP4P/2005, degrades the description of the liquid-vapor phase envelope. A key takeaway from this study is that using sufficiently short time-steps ($\\leq 0.5$ fs) to preserve equipartition is essential for obtaining meaningful liquid water properties and for producing reliable data to parametrize biomolecular simulation models, as correct-ensemble sampling is fundamental to ensure reproducibility across codes and simulation alogrithms.",
+  "abstract_zh": "我们在257 K至318 K的温度范围内，以时间步长 $δ=$ 0.25、0.50、2.00和4.00 fs模拟了TIP4P/2005水。使用0.25或0.50 fs获得的密度-温度行为彼此高度一致，但与使用先前已显示导致均分失效的时间步长所获得的结果不同。最大密度温度（TMD）在 $δt = 0.25\\;\\mathrm{或}\\; 0.50$ fs时为277.15 K，但随着时间步长增加而逐渐向更低值偏移，这一趋势在不同恒温器/恒压器组合下均成立。增强水-水分散相互作用，如为模拟无序蛋白质在TIP4P/2005中所推荐的做法，会降低液-汽相包络描述的准确性。本研究的关键结论是，使用足够短的时间步长（$\\leq 0.5$ fs）以保持均分，对于获得有意义的液态水性质以及生成可靠数据以参数化生物分子模拟模型至关重要，因为正确的系综采样是确保跨代码和模拟算法可重复性的基础。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2508.14800v2",
+  "source_url": "https://arxiv.org/abs/2508.14800v2",
+  "paper_page_path": "papers/arxiv/2508.14800v2/index.html"
+}

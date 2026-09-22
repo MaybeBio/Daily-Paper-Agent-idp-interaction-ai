@@ -1,0 +1,360 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.11.536350",
+  "title": "Dimerisation of European robin cryptochrome 4a",
+  "doi": "10.1101/2023.04.11.536350",
+  "abstract": "Homo-dimer formation is important for the function of many proteins. Although dimeric forms of cryptochromes (Cry) have been found by crystallography and were recently observed in vitro for European robin Cry4a, little is known about the dimerisation of avian cryptochromes and the role it could play in the mechanism of magnetic sensing in migratory birds. Here we present a combined experimental and computational investigation of the dimerisation of robin Cry4a resulting from covalent and non-covalent interactions. Experimental studies using native mass spectrometry, mass spectrometric analysis of disulphide bonds, chemical cross-linking and photometric measurements show that disulphide-linked dimers are routinely formed, the most likely cysteines being C317 and C412. Computational modelling and molecular dynamics simulations were used to generate and assess a number of possible dimer structures. The relevance of these findings to the proposed role of Cry4a in avian magnetoreception is discussed.",
+  "authors": [
+    "Hanić M",
+    "Antill LM",
+    "Gehrckens AS",
+    "Schmidt J",
+    "Görtemaker K",
+    "Bartölke R",
+    "El-Baba TJ",
+    "Xu J",
+    "Koch KW",
+    "Mouritsen H",
+    "Benesch JLP",
+    "Hore PJ",
+    "Solov’yov IA"
+  ],
+  "published_date": "2023-04-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.11.536350",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.11.536350.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR644180",
+    "raw_record": {
+      "id": "PPR644180",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR644180"
+        ]
+      },
+      "doi": "10.1101/2023.04.11.536350",
+      "title": "Dimerisation of European robin cryptochrome 4a",
+      "authorString": "Hanić M, Antill LM, Gehrckens AS, Schmidt J, Görtemaker K, Bartölke R, El-Baba TJ, Xu J, Koch KW, Mouritsen H, Benesch JLP, Hore PJ, Solov’yov IA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hanić M",
+            "lastName": "Hanić",
+            "firstName": "Maja",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physics, Carl von Ossietzky University of Oldenburg, Carl-von-Ossietzky Straße 9-11, 26129, Oldenburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Antill LM",
+            "lastName": "Antill",
+            "firstName": "Lewis",
+            "initials": "LM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9266-5584"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Graduate School of Science and Engineering, Saitama University, 255 Shimo-okubo, Sakura Ward, Saitama 338-8570, Japan"
+                },
+                {
+                  "affiliation": "JST, PRESTO, 4-1-8 Honcho, Kawaguchi, Saitama 332-0012, Japan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gehrckens AS",
+            "lastName": "Gehrckens",
+            "firstName": "Angela",
+            "initials": "AS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, University of Oxford, Physical & Theoretical Chemistry Laboratory, South Parks Road, Oxford OX1 3QZ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schmidt J",
+            "lastName": "Schmidt",
+            "firstName": "Jessica",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Environmental Sciences, Carl von Ossietzky University of Oldenburg, Carl-von-Ossietzky Straße 9-11, 26129, Oldenburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Görtemaker K",
+            "lastName": "Görtemaker",
+            "firstName": "Katharina",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neuroscience, Division of Biochemistry, Carl von Ossietzky University of Oldenburg, D-26111, Oldenburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bartölke R",
+            "lastName": "Bartölke",
+            "firstName": "Rabea",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Environmental Sciences, Carl von Ossietzky University of Oldenburg, Carl-von-Ossietzky Straße 9-11, 26129, Oldenburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "El-Baba TJ",
+            "lastName": "El-Baba",
+            "firstName": "Tarick",
+            "initials": "TJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, University of Oxford, Physical & Theoretical Chemistry Laboratory, South Parks Road, Oxford OX1 3QZ, UK"
+                },
+                {
+                  "affiliation": "Kavli Institute for NanoScience Discovery, Dorothy Crowfoot Hodgkin Building, University of Oxford, OX1 3QU"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xu J",
+            "lastName": "Xu",
+            "firstName": "Jingjing",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Environmental Sciences, Carl von Ossietzky University of Oldenburg, Carl-von-Ossietzky Straße 9-11, 26129, Oldenburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Koch KW",
+            "lastName": "Koch",
+            "firstName": "Karl",
+            "initials": "KW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1501-0044"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Neuroscience, Division of Biochemistry, Carl von Ossietzky University of Oldenburg, D-26111, Oldenburg, Germany"
+                },
+                {
+                  "affiliation": "Research Center for Neurosensory Sciences, Carl von Ossietzky University of Oldenburg, Carl-von-Ossietzky Straße 9-11, 26111, Oldenburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mouritsen H",
+            "lastName": "Mouritsen",
+            "firstName": "Henrik",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7082-4839"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and Environmental Sciences, Carl von Ossietzky University of Oldenburg, Carl-von-Ossietzky Straße 9-11, 26129, Oldenburg, Germany"
+                },
+                {
+                  "affiliation": "Research Center for Neurosensory Sciences, Carl von Ossietzky University of Oldenburg, Carl-von-Ossietzky Straße 9-11, 26111, Oldenburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Benesch JLP",
+            "lastName": "Benesch",
+            "firstName": "Justin",
+            "initials": "JLP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, University of Oxford, Physical & Theoretical Chemistry Laboratory, South Parks Road, Oxford OX1 3QZ, UK"
+                },
+                {
+                  "affiliation": "Kavli Institute for NanoScience Discovery, Dorothy Crowfoot Hodgkin Building, University of Oxford, OX1 3QU"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hore PJ",
+            "lastName": "Hore",
+            "initials": "PJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8863-570X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, University of Oxford, Physical & Theoretical Chemistry Laboratory, South Parks Road, Oxford OX1 3QZ, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Solov’yov IA",
+            "lastName": "Solov’yov",
+            "firstName": "Ilia",
+            "initials": "IA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Physics, Carl von Ossietzky University of Oldenburg, Carl-von-Ossietzky Straße 9-11, 26129, Oldenburg, Germany"
+                },
+                {
+                  "affiliation": "Research Center for Neurosensory Sciences, Carl von Ossietzky University of Oldenburg, Carl-von-Ossietzky Straße 9-11, 26111, Oldenburg, Germany"
+                },
+                {
+                  "affiliation": "Center for Nanoscale Dynamics (CENAD), Carl von Ossietzky Universität Oldenburg, Ammerländer Heerstr. 114-118, 26129 Oldenburg, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7082-4839"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9266-5584"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8863-570X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0560-2097"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1501-0044"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Homo-dimer formation is important for the function of many proteins. Although dimeric forms of cryptochromes (Cry) have been found by crystallography and were recently observed  in vitro for European robin Cry4a, little is known about the dimerisation of avian cryptochromes and the role it could play in the mechanism of magnetic sensing in migratory birds. Here we present a combined experimental and computational investigation of the dimerisation of robin Cry4a resulting from covalent and non-covalent interactions. Experimental studies using native mass spectrometry, mass spectrometric analysis of disulphide bonds, chemical cross-linking and photometric measurements show that disulphide-linked dimers are routinely formed, the most likely cysteines being C317 and C412. Computational modelling and molecular dynamics simulations were used to generate and assess a number of possible dimer structures. The relevance of these findings to the proposed role of Cry4a in avian magnetoreception is discussed.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/04/11/2023.04.11.536350.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.04.11.536350"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR644180"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR644180&type=FILE&fileName=EMS174061-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS174061",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-04-14",
+      "firstPublicationDate": "2023-04-11",
+      "firstIndexDate": "2023-04-14",
+      "fullTextReceivedDate": "2023-04-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

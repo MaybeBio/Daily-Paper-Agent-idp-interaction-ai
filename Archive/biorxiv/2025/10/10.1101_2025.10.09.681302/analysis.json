@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.09.681302",
+  "title": "Transposon targeting non-coding RNA transcription targets G/C-rich tracts and is facilitated by an intrinsically disordered protein in <i>Tetrahymena</i>",
+  "authors": "Xia Cai; Yike Liu; Jialuo Li; Zhuoran Zhao; Xinyu Yao; Zhihao Zhai; Mingmei Liucong; Yujie Liu; Xue Wang; Kazufumi Mochizuki; Miao Tian",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-10",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究Tetrahymena中IDP蛋白Rib1通过相分离调控转座子区域非编码RNA转录的机制，涉及IDR与染色质互作，但对象为DNA转录而非蛋白-蛋白互作，方法以实验为主，缺乏AI/物理模拟建模。",
+  "abstract": "Tetrahymena is a well-established ciliate model organism, known for its nuclear dualism and unique mechanism for transposon defense, wherein transposons are kept within the highly heterochromatinized micronucleus (MIC), which is transcriptionally inert except during meiosis. The discovery of preferential transcription in the meiotic MIC at regions enriched with transposons, and the identification of MIC transcription regulatory proteins, emphasizes the necessity to elucidate the underlying mechanisms driving this process. In this study, we demonstrate that G/C-rich tracts are overrepresented in meiotic non-coding RNA (ncRNA) transcription regions and that RNA polymerase II (Pol II) is highly enriched at and around these tracts. Further analysis revealed that Pol II’s association with G/C-rich tracts is not abolished in cells lacking Rib1, a Mediator complex-associated protein essential for MIC ncRNA biogenesis. Nevertheless, in the absence of Rib1, Pol II showed abnormal association with the meiotic MIC chromatin, suggesting that Rib1 is critical for maintaining Pol II’s binding specificity. Through Rib1 truncation analysis, we found that the intrinsically disordered region, which contains putative phase-separating peptides, is crucial for its function. Disruption of phase-separation, either by deleting these peptides or by treating cells with a phase-separation disruption reagent, leads to aberrant localization of both Rib1 and Pol II on the MIC chromatin, implicating that Rib1 likely facilitates the MIC ncRNA transcription via phase-separation.",
+  "abstract_zh": "四膜虫是一种成熟的纤毛虫模式生物，以其核二元性和独特的转座子防御机制而闻名，其中转座子被保留在高度异染色质化的微核（MIC）中，该微核除减数分裂外转录失活。在富含转座子的区域发现减数分裂期MIC的优先转录，以及MIC转录调控蛋白的鉴定，强调了阐明驱动这一过程的潜在机制的必要性。在本研究中，我们证明G/C富集片段在减数分裂非编码RNA（ncRNA）转录区域中过度代表，且RNA聚合酶II（Pol II）在这些片段及其周围高度富集。进一步分析揭示，在缺乏Rib1（一种对MIC ncRNA生物发生至关重要的Mediator复合物相关蛋白）的细胞中，Pol II与G/C富集片段的结合并未被消除。然而，在Rib1缺失的情况下，Pol II表现出与减数分裂MIC染色质的异常结合，表明Rib1对维持Pol II的结合特异性至关重要。通过Rib1截短分析，我们发现含有推定相分离肽段的内在无序区域对其功能至关重要。通过删除这些肽段或使用相分离破坏试剂处理细胞来破坏相分离，导致Rib1和Pol II在MIC染色质上的异常定位，暗示Rib1可能通过相分离促进MIC ncRNA转录。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.09.681302",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.09.681302",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.09.681302/index.html"
+}

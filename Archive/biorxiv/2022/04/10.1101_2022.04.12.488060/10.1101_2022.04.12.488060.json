@@ -1,0 +1,472 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.12.488060",
+  "title": "3D-equivariant graph neural networks for protein model quality assessment",
+  "doi": "10.1101/2022.04.12.488060",
+  "abstract": "Motivation Quality assessment of predicted protein tertiary structure models plays an important role in ranking and using them. With the recent development of deep learning end-to-end protein structure prediction techniques of generating highly confident tertiary structures for most proteins, it is important to explore corresponding quality assessment strategies to evaluate and select the structural models predicted by them since these models have better quality and different properties than the models predicted by traditional tertiary structure prediction methods. Results We develop EnQA, a novel graph-based 3D-equivariant neural network method that is equivariant to rotation and translation of 3D objects to estimate the accuracy of protein structural models by leveraging the structural features acquired from the state-of-the-art tertiary structure prediction method - AlphaFold2. We train and test the method on both traditional model datasets (e.g., the datasets of the Critical Assessment of Techniques for Protein Structure Prediction (CASP)) and a new dataset of high-quality structural models predicted only by AlphaFold2 for the proteins whose experimental structures were released recently. Our approach achieves state-of-the-art performance on protein structural models predicted by both traditional protein structure prediction methods and the latest end-to-end deep learning method - AlphaFold2. It performs even better than the model quality assessment scores provided by AlphaFold2 itself. The results illustrate the 3D-equivariant graph neural network is a promising approach to the evaluation of protein structural models. AlphaFold2 features are important for improving protein model quality assessment and are complimentary with the geometric property features extracted from structural models. Availability The source code is available at https://github.com/BioinfoMachineLearning/EnQA . Contact chengji@missouri.edu Supplementary information Supplementary data are available.",
+  "authors": [
+    "Chen Chen",
+    "Xiao Chen",
+    "Alex Morehead",
+    "Tianqi Wu",
+    "Jianlin Cheng"
+  ],
+  "published_date": "2022-04-13",
+  "updated_date": "2022-04-13T14:00:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.12.488060",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.12.488060.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:51:28Z",
+        "timestamp": 1768499488150,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            13
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 35,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Quality assessment of predicted protein tertiary structure models plays an important role in ranking and using them. With the recent development of deep learning end-to-end protein structure prediction techniques of generating highly confident tertiary structures for most proteins, it is important to explore corresponding quality assessment strategies to evaluate and select the structural models predicted by them since these models have better quality and different properties than the models predicted by traditional tertiary structure prediction methods.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We develop EnQA, a novel graph-based 3D-equivariant neural network method that is equivariant to rotation and translation of 3D objects to estimate the accuracy of protein structural models by leveraging the structural features acquired from the state-of-the-art tertiary structure prediction method - AlphaFold2. We train and test the method on both traditional model datasets (e.g., the datasets of the Critical Assessment of Techniques for Protein Structure Prediction (CASP)) and a new dataset of high-quality structural models predicted only by AlphaFold2 for the proteins whose experimental structures were released recently. Our approach achieves state-of-the-art performance on protein structural models predicted by both traditional protein structure prediction methods and the latest end-to-end deep learning method - AlphaFold2. It performs even better than the model quality assessment scores provided by AlphaFold2 itself. The results illustrate the 3D-equivariant graph neural network is a promising approach to the evaluation of protein structural models. AlphaFold2 features are important for improving protein model quality assessment and are complimentary with the geometric property features extracted from structural models.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    The source code is available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/BioinfoMachineLearning/EnQA\">https://github.com/BioinfoMachineLearning/EnQA</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Contact</jats:title>\n                  <jats:p>\n                    <jats:email>chengji@missouri.edu</jats:email>\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>Supplementary data are available.</jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2022.04.12.488060",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            13
+          ]
+        ],
+        "date-time": "2022-04-13T14:00:11Z",
+        "timestamp": 1649858411000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "3D-equivariant graph neural networks for protein model quality assessment"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2973-461X",
+          "authenticated-orcid": false,
+          "given": "Chen",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiao",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0586-6191",
+          "authenticated-orcid": false,
+          "given": "Alex",
+          "family": "Morehead",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1545-3462",
+          "authenticated-orcid": false,
+          "given": "Tianqi",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0305-2853",
+          "authenticated-orcid": false,
+          "given": "Jianlin",
+          "family": "Cheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti770"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "issue": "3",
+          "key": "2022041513400544000_2022.04.12.488060v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "360",
+          "DOI": "10.1093/bioinformatics/btaa714",
+          "article-title": "GraphQA: protein model quality assessment using graph con-volutional networks",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "issue": "D1",
+          "key": "2022041513400544000_2022.04.12.488060v1.6",
+          "first-page": "D437",
+          "article-title": "RCSB Protein Data Bank: powerful new tools for exploring 3D structures of biological macromolecules for basic and applied research and education in fundamental biology, biomedicine, biotechnology, bioengineering and energy sciences",
+          "volume": "49",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-015-0844-1"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.8",
+          "unstructured": "Cohen, T. and Welling, M. Group equivariant convolutional networks. In, International conference on machine learning. PMLR; 2016. p. 2990–2999."
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.9",
+          "article-title": "Se (3)-transformers: 3d roto-translation equivariant attention networks",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "1",
+          "key": "2022041513400544000_2022.04.12.488060v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1340",
+          "DOI": "10.1038/s41467-021-21511-x",
+          "article-title": "Improved protein structure refinement guided by deep learning based accuracy estimation",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.11",
+          "unstructured": "Hobson, E.W. The theory of spherical and ellipsoidal harmonics. CUP Archive; 1931."
+        },
+        {
+          "issue": "12",
+          "key": "2022041513400544000_2022.04.12.488060v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1165",
+          "DOI": "10.1002/prot.25697",
+          "article-title": "Protein tertiary structure modeling driven by deep learning and contact distance prediction in CASP13",
+          "volume": "87",
+          "year": "2019",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.13",
+          "article-title": "Deep transfer learning in the assessment of the quality of protein models",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "4",
+          "key": "2022041513400544000_2022.04.12.488060v1.14",
+          "first-page": "045005",
+          "article-title": "Spherical convolutions on molecular graphs for protein model quality assessment",
+          "volume": "2",
+          "year": "2021",
+          "journal-title": "Machine Learning: Science and Technology"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "issue": "16",
+          "key": "2022041513400544000_2022.04.12.488060v1.16",
+          "first-page": "2801",
+          "article-title": "Smooth orientation-dependent scoring function for coarse-grained protein quality assessment",
+          "volume": "35",
+          "year": "2018",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "12",
+          "key": "2022041513400544000_2022.04.12.488060v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1940",
+          "DOI": "10.1002/prot.26192",
+          "article-title": "Assessment of protein model structure accuracy estimation in CASP14: Old and new challenges",
+          "volume": "89",
+          "year": "2021",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt473"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp629"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.20",
+          "article-title": "Geometric Transformers for Protein Interface Contact Prediction",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.340230303"
+        },
+        {
+          "issue": "6",
+          "key": "2022041513400544000_2022.04.12.488060v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1131",
+          "DOI": "10.1002/prot.25278",
+          "article-title": "VoroMQA: Assessment of protein structure quality using interatomic contact areas",
+          "volume": "85",
+          "year": "2017",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.23538"
+        },
+        {
+          "issue": "18",
+          "key": "2022041513400544000_2022.04.12.488060v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "3313",
+          "DOI": "10.1093/bioinformatics/btz122",
+          "article-title": "Protein model quality assessment using 3D oriented convolutional neural networks",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "12",
+          "key": "2022041513400544000_2022.04.12.488060v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "1977",
+          "DOI": "10.1002/prot.26213",
+          "article-title": "Continuous Automated Model EvaluatiOn (CAMEO)-Perspectives on the future of fully automated evaluation of structure prediction methods",
+          "volume": "89",
+          "year": "2021",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.26",
+          "article-title": "E (n) equivariant graph neural networks",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.27",
+          "unstructured": "Schütt, K.T. , et al. SchNet: a continuous-filter convolutional neural network for modeling quantum interactions. In, Proceedings of the 31st International Conference on Neural Information Processing Systems. Long Beach, California, USA: Curran Associates Inc.; 2017. p. 992–1002."
+        },
+        {
+          "issue": "7792",
+          "key": "2022041513400544000_2022.04.12.488060v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "706",
+          "DOI": "10.1038/s41586-019-1923-7",
+          "article-title": "Improved protein structure prediction using potentials from deep learning",
+          "volume": "577",
+          "year": "2020",
+          "journal-title": "Nature"
+        },
+        {
+          "issue": "11",
+          "key": "2022041513400544000_2022.04.12.488060v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "1026",
+          "DOI": "10.1038/nbt.3988",
+          "article-title": "MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets",
+          "volume": "35",
+          "year": "2017",
+          "journal-title": "Nature Biotechnology"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.30",
+          "article-title": "Tensor field networks: Rotation-and translation-equivariant neural networks for 3d point clouds",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "7873",
+          "key": "2022041513400544000_2022.04.12.488060v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "590",
+          "DOI": "10.1038/s41586-021-03828-1",
+          "article-title": "Highly accurate protein structure prediction for the human proteome",
+          "volume": "596",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm319"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Worrall, D.E. , et al. Harmonic networks: Deep translation and rotation equivariance. In, Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017. p. 5028–5037.",
+          "DOI": "10.1109/CVPR.2017.758"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1821309116"
+        },
+        {
+          "key": "2022041513400544000_2022.04.12.488060v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1914677117"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.04.12.488060",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:55:14Z",
+        "timestamp": 1768445714000
+      },
+      "score": 57.382095,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.04.12.488060"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            13
+          ]
+        ]
+      },
+      "references-count": 35,
+      "URL": "https://doi.org/10.1101/2022.04.12.488060",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bioinformatics/btad030",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            13
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

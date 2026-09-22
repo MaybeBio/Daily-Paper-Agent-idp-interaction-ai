@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "41665624",
+    "doi": "10.1021/acs.jctc.5c01678",
+    "title": "Destabilization of Structured RNAs by OPC and TIP4PD Water Models."
+  },
+  "content": {
+    "abstract": "The four-point OPC water model has recently gained a reputation as the preferred choice for molecular dynamics (MD) simulations of nucleic acids and proteins, providing more realistic reproduction of bulk physical properties of water than the older three-point models. It has been shown to improve, for example, simulations of unstructured biomolecules such as RNA tetranucleotides or intrinsically disordered proteins. However, the performance for folded RNA structures was not specifically explored. Here we present extensive testing of the OPC water model on three different RNAs with intricate tertiary structures - the ribosomal L1 stalk RNA-protein protuberance, the mini tetraloop-tetraloop receptor (miniTTR-6) folded RNA, and the GAAA tetraloop-tetraloop receptor homodimer. The OPC performance is directly compared with SPC/E, TIP3P, and OPC3 water models using the OL3 AMBER RNA force field (FF). We found substantial effect of the water model on simulation behavior. For all three systems, we observe large-scale unfolding of the RNA, and even loss of the L1 stalk protein-RNA interface, when simulated with the OPC. In contrast, the simulations are entirely stable with the three-point water models. The underlying cause seems to be the higher affinity of the OPC waters to H-bond donor and acceptor groups of the RNA, which weakens the native solute-solute interactions. An identical issue is observed also for the similar and widely used TIP4PD water model combined with the DES-Amber RNA FF. Importantly, the structural consequences of these issues may range from significant structural perturbations to minimal or undetectable effects, depending on the RNA system. Accordingly, we do not claim that the imbalance in water-RNA interactions identified here is a general feature of all RNA molecules. Indeed, simulations of three additional, less structurally complex RNA systems revealed more balanced performance, with no observable differences between water models for the noncanonical 5S rRNA Loop E double helix. However, certain caution is warranted when using the four-point OPC and TIP4PD water models for simulations of structured RNAs, particularly those rich in 2'-OH hydroxyl-based tertiary interactions. For at least some structured RNA systems, the three-point water models may provide more stable behavior in combination with current AMBER RNA force fields.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Water/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*RNA/chemistry",
+      "Nucleic Acid Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Krepl, Miroslav",
+        "Mlynsky, Vojtech",
+        "Rusnakova, Agnesa",
+        "Banas, Pavel",
+        "Otyepka, Michal",
+        "Sponer, Jiri"
+      ],
+      "short_names": [
+        "Krepl M",
+        "Mlynsky V",
+        "Rusnakova A",
+        "Banas P",
+        "Otyepka M",
+        "Sponer J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9833-4281",
+        "ORCID: 0000-0003-2769-1553",
+        "ORCID: 0000-0002-7137-8225",
+        "ORCID: 0000-0002-1066-5677",
+        "ORCID: 0000-0001-6558-6186"
+      ],
+      "affiliations": [
+        "Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, 612 00 Brno, Czech Republic.",
+        "Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, 612 00 Brno, Czech Republic.",
+        "Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, 612 00 Brno, Czech Republic.",
+        "Czech Advanced Technology and Research Institute, CATRIN, Palacky University, Krizkovskeho 511/8, Olomouc 779 00, Czech Republic.",
+        "Czech Advanced Technology and Research Institute, CATRIN, Palacky University, Krizkovskeho 511/8, Olomouc 779 00, Czech Republic.",
+        "IT4Innovations, VSB-Technical University of Ostrava, 17. listopadu 2172/15, 708 00 Ostrava-Poruba, Czech Republic.",
+        "Institute of Biophysics of the Czech Academy of Sciences, Kralovopolska 135, 612 00 Brno, Czech Republic."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Krepl, Miroslav",
+        "short_name": "Krepl M",
+        "identifiers": [
+          "0000-0002-9833-4281"
+        ],
+        "affiliations": [
+          "Institute of Biophysics of the Czech Academy of Sciences, Královopolská 135, 612 00 Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Mlýnský, Vojtěch",
+        "short_name": "Mlýnský V",
+        "identifiers": [
+          "0000-0003-2769-1553"
+        ],
+        "affiliations": [
+          "Institute of Biophysics of the Czech Academy of Sciences, Královopolská 135, 612 00 Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Rusnáková, Agnesa",
+        "short_name": "Rusnáková A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics of the Czech Academy of Sciences, Královopolská 135, 612 00 Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Banáš, Pavel",
+        "short_name": "Banáš P",
+        "identifiers": [
+          "0000-0002-7137-8225"
+        ],
+        "affiliations": [
+          "Czech Advanced Technology and Research Institute, CATRIN, Palacký University, Křížkovského 511/8, Olomouc 779 00, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Otyepka, Michal",
+        "short_name": "Otyepka M",
+        "identifiers": [
+          "0000-0002-1066-5677"
+        ],
+        "affiliations": [
+          "Czech Advanced Technology and Research Institute, CATRIN, Palacký University, Křížkovského 511/8, Olomouc 779 00, Czech Republic.",
+          "IT4Innovations, VSB-Technical University of Ostrava, 17. listopadu 2172/15, 708 00 Ostrava-Poruba, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Šponer, Jiří",
+        "short_name": "Šponer J",
+        "identifiers": [
+          "0000-0001-6558-6186"
+        ],
+        "affiliations": [
+          "Institute of Biophysics of the Czech Academy of Sciences, Královopolská 135, 612 00 Brno, Czech Republic."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2026 Feb 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/10 13:31",
+    "fetched_at": "2026-09-18 00:46:04"
+  },
+  "links": {
+    "cites": [
+      "42535650",
+      "42133682"
+    ],
+    "refs": [
+      "41133818",
+      "40775607",
+      "40742302",
+      "39813107",
+      "39150960",
+      "39082277",
+      "38740056",
+      "38619551",
+      "37944118",
+      "36989143",
+      "36540025",
+      "35699952",
+      "35694853",
+      "35483823",
+      "35338419",
+      "34406000",
+      "33720710",
+      "33538599",
+      "32510956",
+      "32384244",
+      "31714766",
+      "31427748",
+      "31050905",
+      "30896943",
+      "30865832",
+      "30239867",
+      "29893898",
+      "29795785",
+      "29735687",
+      "29378935",
+      "29297679",
+      "28033005",
+      "27704698",
+      "27544113",
+      "27438572",
+      "27407106",
+      "27379924",
+      "26583988",
+      "26579919",
+      "26575892",
+      "26574453",
+      "26574392",
+      "26574374",
+      "26124199",
+      "25764013",
+      "25400877",
+      "25238589",
+      "24889800",
+      "23534440",
+      "23264757",
+      "22868771",
+      "22809319",
+      "21921995",
+      "21714551",
+      "20691699",
+      "20562856",
+      "19833919",
+      "19228585",
+      "19190181",
+      "18593145",
+      "18471980",
+      "17351000",
+      "17212484",
+      "17119098",
+      "16533049",
+      "15267980",
+      "11483524",
+      "11345429",
+      "11296253",
+      "10937989",
+      "9405377",
+      "9393863",
+      "8744570",
+      "1696683"
+    ],
+    "similar": [
+      "41665624",
+      "23912807",
+      "20701388",
+      "30865832",
+      "19754142",
+      "42475469",
+      "40775607",
+      "39813107",
+      "23534440",
+      "34025949",
+      "27300587",
+      "34904892",
+      "35694853",
+      "32859072",
+      "28657760",
+      "41483798",
+      "35283696",
+      "37452752",
+      "29648448",
+      "39110091",
+      "26124199",
+      "33215915",
+      "33382616",
+      "41358869",
+      "37944118",
+      "32384244",
+      "11790138",
+      "38949117",
+      "22809319",
+      "29378935",
+      "32510956",
+      "30896943",
+      "37134270",
+      "38373307",
+      "39378441",
+      "36976268",
+      "9405377",
+      "38661199",
+      "30250773",
+      "36989143",
+      "33739081",
+      "26575892",
+      "28962533",
+      "21038907",
+      "29864281",
+      "21910417",
+      "15588106",
+      "30807148",
+      "21999672",
+      "26548477",
+      "15504400",
+      "27438572",
+      "14645041",
+      "38410841",
+      "26580891",
+      "37906368",
+      "10397790",
+      "20159159",
+      "37479220",
+      "40907012",
+      "34546059",
+      "7526219",
+      "25207671",
+      "32716185",
+      "34990548",
+      "32367806",
+      "35686985",
+      "36232586",
+      "37458354",
+      "35803825",
+      "35317575",
+      "31657215",
+      "26910732",
+      "34633813",
+      "28967755",
+      "39804219",
+      "33444020",
+      "29035529",
+      "42239179",
+      "35699952",
+      "26579770",
+      "38928405",
+      "20825228",
+      "17508774",
+      "32427326",
+      "37426330",
+      "40060049",
+      "11895403",
+      "32816485",
+      "31509121",
+      "37698196",
+      "41131053",
+      "33043187",
+      "25268896",
+      "37163419",
+      "26617103",
+      "16473903",
+      "31714766",
+      "39582894",
+      "23152878"
+    ],
+    "review": [
+      "41665624"
+    ],
+    "pmc": [
+      "12937104"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41665624/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.5c01678",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

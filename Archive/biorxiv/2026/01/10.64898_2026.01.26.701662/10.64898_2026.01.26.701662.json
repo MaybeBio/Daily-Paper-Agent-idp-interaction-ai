@@ -1,0 +1,1065 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.26.701662",
+  "title": "A brain dynamic model based on graph neural network reflect the inter-region interaction of cortical areas",
+  "doi": "10.64898/2026.01.26.701662",
+  "abstract": "A central objective in neuroscience is to elucidate how the brain generates complex dynamic activity through the interactions of brain areas. In this study, we utilized Interaction Network, a graph neural network model, to develop a computational framework for predicting whole-brain cortical blood oxygenation level dependent (BOLD) signals. We derived an Inter-Regional Interaction (IRI) metric to quantify information exchange among brain areas probing the underlying dynamical mechanisms. In addition, the total IRI emitted from each brain region was calculated and defined as the IRI sent by region (RS-IRI). Our model predicted the following 10 time points BOLD activity from initial BOLD signals, and achieved a mean absolute error of 0.04. The predicted functional connectivity (FC) achieves a correlation coefficient of 0.97 compared to the empirical FC. The fluctuation amplitude of the IRI increases with the length of the connection and the largest RS-IRI oscillation amplitude is observed in visual areas. The RS-IRI demonstrates a hierarchical organization, characterized by more concentrated distributions in association regions and larger fluctuation amplitudes in unimodal regions. Applying our approach to Alzheimer’s disease (AD), we demonstrate that the frequency-specific amplitudes of IRI oscillations discriminate AD patients from healthy controls and correlate with Mini-Mental State Examination scores. Together, this work presents a deep learning–based framework for modeling brain dynamics as well a quantitative index of inter-areal interactions, and offers a new perspective for disease characterization. Author Summary The human brain comprises distinct regions that interact through complex fiber tracts, forming the functional dynamics for diverse cognitive processes. We employed fMRI to assess functional activity and DTI to reconstruct fiber tract connectivity. To elucidate how brain function emerges from these inter-regional interactions, we developed a novel computational framework based on Graph Neural Network (GNN) to model the brain’s interactive dynamics for its capacity to uncover hidden and intricate patterns within data. From this model, we derived a quantitative metric termed Inter-Regional Interaction (IRI), which characterized the fine-grained, dynamic fluctuations in communication between brain areas. Our results suggest that this GNN-based model can accurately simulate brain functional activity and provide a quantitative description of neural interaction patterns. Applying this model to a cohort of Alzheimer’s disease patients, we demonstrated that the IRI metric not only effectively distinguished patients from healthy controls but also significantly correlated with clinical cognitive performance (MMSE scores). This approach advances our understanding of the fundamental principles of brain function and offers a promising tool for identifying the underlying mechanisms of neurological disorders.",
+  "authors": [
+    "Shaoxian Li",
+    "Debin Zeng",
+    "Xiaoxi Dong",
+    "Yirong He",
+    "Tongtong Che",
+    "Jichang Zhang",
+    "Zekun Yang",
+    "Jie Jiang",
+    "Lei Chu",
+    "Ying Han",
+    "Shuyu Li"
+  ],
+  "published_date": "2026-01-27",
+  "updated_date": "2026-01-28T03:45:17Z",
+  "journal": "bioRxiv",
+  "category": "Neuroscience",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.26.701662",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.26.701662.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Neuroscience"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Neuroscience",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            6
+          ]
+        ],
+        "date-time": "2026-02-06T00:23:30Z",
+        "timestamp": 1770337410621,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            27
+          ]
+        ]
+      },
+      "group-title": "Neuroscience",
+      "reference-count": 106,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                27
+              ]
+            ],
+            "date-time": "2026-01-27T00:00:00Z",
+            "timestamp": 1769472000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            27
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>A central objective in neuroscience is to elucidate how the brain generates complex dynamic activity through the interactions of brain areas. In this study, we utilized Interaction Network, a graph neural network model, to develop a computational framework for predicting whole-brain cortical blood oxygenation level dependent (BOLD) signals. We derived an Inter-Regional Interaction (IRI) metric to quantify information exchange among brain areas probing the underlying dynamical mechanisms. In addition, the total IRI emitted from each brain region was calculated and defined as the IRI sent by region (RS-IRI). Our model predicted the following 10 time points BOLD activity from initial BOLD signals, and achieved a mean absolute error of 0.04. The predicted functional connectivity (FC) achieves a correlation coefficient of 0.97 compared to the empirical FC. The fluctuation amplitude of the IRI increases with the length of the connection and the largest RS-IRI oscillation amplitude is observed in visual areas. The RS-IRI demonstrates a hierarchical organization, characterized by more concentrated distributions in association regions and larger fluctuation amplitudes in unimodal regions. Applying our approach to Alzheimer’s disease (AD), we demonstrate that the frequency-specific amplitudes of IRI oscillations discriminate AD patients from healthy controls and correlate with Mini-Mental State Examination scores. Together, this work presents a deep learning–based framework for modeling brain dynamics as well a quantitative index of inter-areal interactions, and offers a new perspective for disease characterization.</jats:p>\n                <jats:sec>\n                  <jats:title>Author Summary</jats:title>\n                  <jats:p>The human brain comprises distinct regions that interact through complex fiber tracts, forming the functional dynamics for diverse cognitive processes. We employed fMRI to assess functional activity and DTI to reconstruct fiber tract connectivity. To elucidate how brain function emerges from these inter-regional interactions, we developed a novel computational framework based on Graph Neural Network (GNN) to model the brain’s interactive dynamics for its capacity to uncover hidden and intricate patterns within data. From this model, we derived a quantitative metric termed Inter-Regional Interaction (IRI), which characterized the fine-grained, dynamic fluctuations in communication between brain areas. Our results suggest that this GNN-based model can accurately simulate brain functional activity and provide a quantitative description of neural interaction patterns. Applying this model to a cohort of Alzheimer’s disease patients, we demonstrated that the IRI metric not only effectively distinguished patients from healthy controls but also significantly correlated with clinical cognitive performance (MMSE scores). This approach advances our understanding of the fundamental principles of brain function and offers a promising tool for identifying the underlying mechanisms of neurological disorders.</jats:p>\n                </jats:sec>",
+      "DOI": "10.64898/2026.01.26.701662",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            28
+          ]
+        ],
+        "date-time": "2026-01-28T03:45:17Z",
+        "timestamp": 1769571917000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A brain dynamic model based on graph neural network reflect the inter-region interaction of cortical areas"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Shaoxian",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, Beijing, 100875, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0138-1314",
+          "authenticated-orcid": false,
+          "given": "Debin",
+          "family": "Zeng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai, China"
+            },
+            {
+              "name": "Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence, Fudan University, Ministry of Education, Shanghai, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaoxi",
+          "family": "Dong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, Beijing, 100875, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yirong",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute for Brain Research and Rehabilitation, South China Normal University, Guangzhou 510631, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tongtong",
+          "family": "Che",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, Beijing, 100875, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jichang",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, Beijing, 100875, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zekun",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, Beijing, 100875, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jie",
+          "family": "Jiang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, Beijing, 100875, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lei",
+          "family": "Chu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Beijing Advanced Innovation Center for Biomedical Engineering, School of Biological Science & Medical Engineering, Beihang University, Beijing 100083, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0377-7424",
+          "authenticated-orcid": false,
+          "given": "Ying",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Neurology, Xuanwu Hospital of Capital Medical University, Beijing 100053, China"
+            },
+            {
+              "name": "Biomedical Engineering Institute, Hainan University, Haikou 570228, China"
+            },
+            {
+              "name": "Center of Alzheimer’s Disease, Beijing Institute for Brain Disorders, Beijing 100050, China"
+            },
+            {
+              "name": "National Clinical Research Center for Geriatric Disorders, Beijing 100053, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3459-6821",
+          "authenticated-orcid": false,
+          "given": "Shuyu",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, Beijing, 100875, China"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1011555"
+        },
+        {
+          "issue": "18",
+          "key": "2026020503345691000_2026.01.26.701662v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "6349",
+          "DOI": "10.1002/hbm.26511",
+          "article-title": "Integration and segregation manifolds in the brain ensure cognitive flexibility during tasks and rest",
+          "volume": "44",
+          "year": "2023",
+          "journal-title": "Hum Brain Mapp"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "119489",
+          "DOI": "10.1016/j.neuroimage.2022.119489",
+          "article-title": "Modes of cognition: Evidence from metastable brain dynamics",
+          "volume": "260",
+          "year": "2022",
+          "journal-title": "NeuroImage"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "107645",
+          "DOI": "10.1016/j.bspc.2025.107645",
+          "article-title": "A data-driven brain network modeling for epileptogenic spread analysis",
+          "volume": "105",
+          "year": "2025",
+          "journal-title": "Biomed Signal Process Control"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503345691000_2026.01.26.701662v1.5",
+          "first-page": "1",
+          "article-title": "Transient destabilization of whole brain dynamics induced by N,N-Dimethyltryptamine (DMT)",
+          "volume": "8",
+          "year": "2025",
+          "journal-title": "Commun Biol"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1523/JNEUROSCI.6693-10.2011"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rstb.2011.0351"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002634"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bapat R , Pathak A , Banerjee A. Metastability indexes global changes in the dynamic working point of the brain following brain stimulation. Front Neurorobotics [Internet]. 2024 Feb 19 [cited 2024 Sept 20];18. Available from: https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2024.1336438/full",
+          "DOI": "10.3389/fnbot.2024.1336438"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2312204121"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Fontenele AJ , Sooter JS , Norman VK , Gautam SH , Shew WL. Low-dimensional criticality embedded in high-dimensional awake brain dynamics. C E N C E V N C E S. 2024;",
+          "DOI": "10.1101/2023.01.05.522896"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-41020-3"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "108133",
+          "DOI": "10.1016/j.cnsns.2024.108133",
+          "article-title": "The dance of neurons: Exploring nonlinear dynamics in brain networks",
+          "volume": "137",
+          "year": "2024",
+          "journal-title": "Commun Nonlinear Sci Numer Simul"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.14",
+          "unstructured": "Rabinovich MI , Friston KJ , Varona P. Principles of Brain Dynamics: Global State Interactions. MIT Press; 2023. 371 p."
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00337367"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0006-3495(72)86068-5"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1010985"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1053-8119(03)00202-7"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2008.02.054"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "730",
+          "DOI": "10.1016/j.neuroimage.2017.02.045",
+          "article-title": "Dynamic causal modelling revisited",
+          "volume": "199",
+          "year": "2019",
+          "journal-title": "NeuroImage"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/HBM.25357"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1000092"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuron.2019.01.017"
+        },
+        {
+          "issue": "5",
+          "key": "2026020503345691000_2026.01.26.701662v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "869",
+          "DOI": "10.1017/S0956792518000050",
+          "article-title": "Networks of piecewise linear neural mass models",
+          "volume": "29",
+          "year": "2018",
+          "journal-title": "Eur J Appl Math"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1152/jn.00406.2019"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-024-53105-0"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1010662"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41583-022-00646-w"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2024.02.036"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sip V , Hashemi M , Dickscheid T , Amunts K , Petkoski S , Jirsa V . Characterization of regional differences in resting-state fMRI with a data-driven network model of brain dynamics. Sci Adv. 2023 Mar 15;9(11):eabq7547.",
+          "DOI": "10.1126/sciadv.abq7547"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/tbme.2024.3370415"
+        },
+        {
+          "issue": "2",
+          "key": "2026020503345691000_2026.01.26.701662v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "380",
+          "DOI": "10.1109/TMI.2022.3202037",
+          "article-title": "Diagnosis of Glioblastoma Multiforme Progression via Interpretable Structure-Constrained Graph Neural Networks",
+          "volume": "42",
+          "year": "2023",
+          "journal-title": "IEEE Trans Med Imaging"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.COMPBIOMED.2020.104096"
+        },
+        {
+          "issue": "5",
+          "key": "2026020503345691000_2026.01.26.701662v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "5833",
+          "DOI": "10.1109/TPAMI.2022.3209686",
+          "article-title": "Graph Neural Networks in Network Neuroscience",
+          "volume": "45",
+          "year": "2023",
+          "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+        },
+        {
+          "issue": "4",
+          "key": "2026020503345691000_2026.01.26.701662v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "18",
+          "DOI": "10.1109/MSP.2017.2693418",
+          "article-title": "Geometric Deep Learning: Going beyond Euclidean data",
+          "volume": "34",
+          "year": "2017",
+          "journal-title": "IEEE Signal Process Mag"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.36",
+          "unstructured": "Nguyen T , Honda H , Sano T , Nguyen V , Nakamura S , Nguyen TM. From coupled oscillators to graph neural networks: Reducing over-smoothing via a kuramoto model-based approach."
+        },
+        {
+          "issue": "1",
+          "key": "2026020503345691000_2026.01.26.701662v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "9425",
+          "DOI": "10.1038/s41467-025-64471-2",
+          "article-title": "Explore brain-inspired machine intelligence for connecting dots on graphs through holographic blueprint of oscillatory synchronization",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "issue": "4",
+          "key": "2026020503345691000_2026.01.26.701662v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "448",
+          "DOI": "10.1038/s41567-020-0842-8",
+          "article-title": "Unveiling the predictive power of static structure in glassy systems",
+          "volume": "16",
+          "year": "2020",
+          "journal-title": "Nat Phys"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.39",
+          "unstructured": "Cranmer M , Sanchez-Gonzalez A , Battaglia P , Xu R , Cranmer K , Spergel D , et al. Discovering Symbolic Models from Deep Learning with Inductive Biases. 2020;14."
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature18933"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.NEURON.2021.01.023"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01625-w"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.43",
+          "unstructured": "The MICAD Research Team. (S,S)-[11C]Methylreboxetine. In: Molecular Imaging and Contrast Agent Database (MICAD) [Internet]. Bethesda (MD): National Center for Biotechnology Information (US); 2004 [cited 2025 May 20]. Available from: http://www.ncbi.nlm.nih.gov/books/NBK22978/"
+        },
+        {
+          "issue": "8",
+          "key": "2026020503345691000_2026.01.26.701662v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "1198",
+          "DOI": "10.1002/pro.5560020802",
+          "article-title": "Structure, function, and regulation of adrenergic receptors",
+          "volume": "2",
+          "year": "1993",
+          "journal-title": "Protein Sci Publ Protein Soc"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2318641121"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Saberi A , Wischnewski KJ , Jung K , Lotter LD , Schaare HL , Banaschewski T , et al. Adolescent maturation of cortical excitation-inhibition balance based on individualized biophysical network modeling [Internet]. 2024 [cited 2024 Oct 14]. Available from: http://biorxiv.org/lookup/doi/10.1101/2024.06.18.599509",
+          "DOI": "10.1101/2024.06.18.599509"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "124744",
+          "DOI": "10.1016/j.apenergy.2024.124744",
+          "article-title": "DEST-GNN: A double-explored spatio-temporal graph neural network for multi-site intra-hour PV power forecasting",
+          "volume": "378",
+          "year": "2025",
+          "journal-title": "Appl Energy"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "105107",
+          "DOI": "10.1016/j.trc.2025.105107",
+          "article-title": "TMS-GNN: Traffic-aware Multistep Graph Neural Network for bus passenger flow prediction",
+          "volume": "174",
+          "year": "2025",
+          "journal-title": "Transp Res Part C Emerg Technol"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.49",
+          "unstructured": "Cheng Y , Guo J , Long S , Wu Y , Sun M , Zhang R. Advanced Financial Fraud Detection Using GNN-CL Model [Internet]. arXiv; 2024 [cited 2025 July 8]. Available from: http://arxiv.org/abs/2407.06529"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2024.120594"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neunet.2023.10.040"
+        },
+        {
+          "issue": "3",
+          "key": "2026020503345691000_2026.01.26.701662v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "532",
+          "DOI": "10.1109/TAFFC.2018.2817622",
+          "article-title": "EEG Emotion Recognition Using Dynamical Graph Convolutional Neural Networks",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "IEEE Trans Affect Comput"
+        },
+        {
+          "issue": "3",
+          "key": "2026020503345691000_2026.01.26.701662v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "665",
+          "DOI": "10.1162/netn_a_00252",
+          "article-title": "Forecasting brain activity based on models of spatiotemporal brain dynamics: A comparison of graph neural network architectures",
+          "volume": "6",
+          "year": "2022",
+          "journal-title": "Netw Neurosci"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "130582",
+          "DOI": "10.1016/j.physa.2025.130582",
+          "article-title": "A novel graph neural network framework for resting-state functional MRI spatiotemporal dynamics analysis",
+          "volume": "669",
+          "year": "2025",
+          "journal-title": "Phys Stat Mech Its Appl"
+        },
+        {
+          "issue": "2",
+          "key": "2026020503345691000_2026.01.26.701662v1.55",
+          "first-page": "17:1",
+          "article-title": "LL-GNN: Low Latency Graph Neural Networks on FPGAs for High Energy Physics",
+          "volume": "23",
+          "year": "2024",
+          "journal-title": "ACM Trans Embed Comput Syst"
+        },
+        {
+          "issue": "2227",
+          "key": "2026020503345691000_2026.01.26.701662v1.56",
+          "first-page": "20210247",
+          "article-title": "Understanding brain states across spacetime informed by whole-brain modelling",
+          "volume": "380",
+          "year": "2022",
+          "journal-title": "Philos Trans R Soc Math Phys Eng Sci"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-017-03073-5"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00198091"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0165-0270(03)00052-9"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2008.02.020"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.biopsych.2004.02.004"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0600244103"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.plrev.2011.11.002"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503345691000_2026.01.26.701662v1.64",
+          "doi-asserted-by": "crossref",
+          "first-page": "22",
+          "DOI": "10.3390/info8010022",
+          "article-title": "Information Flow in the Brain: Ordered Sequences of Metastable States",
+          "volume": "8",
+          "year": "2017",
+          "journal-title": "Information"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2015.03.021"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrn.2017.149"
+        },
+        {
+          "issue": "4",
+          "key": "2026020503345691000_2026.01.26.701662v1.67",
+          "doi-asserted-by": "crossref",
+          "first-page": "497",
+          "DOI": "10.1038/s41562-020-01003-6",
+          "article-title": "Revisiting the global workspace orchestrating the hierarchical organization of the human brain",
+          "volume": "5",
+          "year": "2021",
+          "journal-title": "Nat Hum Behav"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/imag_a_00443"
+        },
+        {
+          "issue": "2",
+          "key": "2026020503345691000_2026.01.26.701662v1.69",
+          "doi-asserted-by": "crossref",
+          "first-page": "405",
+          "DOI": "10.1162/netn_a_00182",
+          "article-title": "Dynamic expression of brain functional systems disclosed by fine-scale analysis of edge time series",
+          "volume": "5",
+          "year": "2021",
+          "journal-title": "Netw Neurosci"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "119591",
+          "DOI": "10.1016/j.neuroimage.2022.119591",
+          "article-title": "Edge-centric analysis of time-varying functional brain networks with applications in autism spectrum disorder",
+          "volume": "263",
+          "year": "2022",
+          "journal-title": "NeuroImage"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.71",
+          "unstructured": "Betzel RF , Faskowitz J , Sporns O. Living on the edge: network neuroscience beyond nodes. Trends Cogn Sci [Internet]. 2023 Sept 14 [cited 2023 Sept 21]; Available from: https://www.sciencedirect.com/science/article/pii/S136466132300205X"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.72",
+          "doi-asserted-by": "crossref",
+          "first-page": "119476",
+          "DOI": "10.1016/j.neuroimage.2022.119476",
+          "article-title": "BOLD cofluctuation “events” are predicted from static functional connectivity",
+          "volume": "260",
+          "year": "2022",
+          "journal-title": "NeuroImage"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503345691000_2026.01.26.701662v1.73",
+          "doi-asserted-by": "crossref",
+          "first-page": "2693",
+          "DOI": "10.1038/s41467-022-29775-7",
+          "article-title": "A mathematical perspective on edge-centric brain functional connectivity",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "issue": "22",
+          "key": "2026020503345691000_2026.01.26.701662v1.74",
+          "doi-asserted-by": "crossref",
+          "first-page": "eadt1617",
+          "DOI": "10.1126/sciadv.adt1617",
+          "article-title": "Whole-brain mapping of basal forebrain cholinergic neurons reveals a long-range reciprocal input-output loop between distinct subtypes",
+          "volume": "11",
+          "year": "2025",
+          "journal-title": "Sci Adv"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06098-1"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2415102122"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.77",
+          "unstructured": "Deco G , Perl YS , Kringelbach ML . Non-local Schrödinger diffusion model reveals mechanisms of critical brain dynamics. Cell Rep Phys Sci [Internet]. 2025 June 17 [cited 2025 July 16];0(0). Available from: https://www.cell.com/cell-reports-physical-science/abstract/S2666-3864(25)00262-0"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.78",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lu T , Wang Z , Zhu Y , Wang M , Lu CQ , Ju S . Long-range connections damage in white matter hyperintensities affects information processing speed. Brain Commun. 2024 Feb 1;6(1):fcae042.",
+          "DOI": "10.1093/braincomms/fcae042"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.79",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vieira PG , Krause MR , Laamerad P , Pack CC. Brain stimulation preferentially influences long-range projections [Internet]. bioRxiv; 2025 [cited 2025 July 16]. p. 2025.02.19.639189. Available from: https://www.biorxiv.org/content/10.1101/2025.02.19.639189v2",
+          "DOI": "10.1101/2025.02.19.639189"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.80",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12017-015-8355-9"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.81",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hamm V , Héraud C , Cassel JC , Mathis C , Goutagny R. Precocious Alterations of Brain Oscillatory Activity in Alzheimer’s Disease: A Window of Opportunity for Early Diagnosis and Treatment. Front Cell Neurosci [Internet]. 2015 Dec 21 [cited 2025 Aug 5];9. Available from: https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2015.00491/full",
+          "DOI": "10.3389/fncel.2015.00491"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neurobiolaging.2011.07.003"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.83",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rackauckas C , Ma Y , Martensen J , Warner C , Zubov K , Supekar R , et al. Universal Differential Equations for Scientific Machine Learning [Internet]. arXiv; 2021 [cited 2022 Nov 4]. Available from: http://arxiv.org/abs/2001.04385",
+          "DOI": "10.21203/rs.3.rs-55125/v1"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.84",
+          "doi-asserted-by": "crossref",
+          "first-page": "47",
+          "DOI": "10.1016/j.plrev.2023.12.006",
+          "article-title": "Does the brain behave like a (complex) network?",
+          "volume": "48",
+          "year": "2024",
+          "journal-title": "I. Dynamics. Phys Life Rev"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.85",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.3002710"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.86",
+          "unstructured": "Zhang XH , Anderson KM , Dong HM , Chopra S , Dhamala E , Emani PS , et al. The cell-type underpinnings of the human functional cortical connectome. Nat Neurosci [Internet]. 2024 Nov 21 [cited 2024 Dec 3]; Available from: https://www.nature.com/articles/s41593-024-01812-2"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.87",
+          "unstructured": "Wang X , Ji H , Shi C , Wang B , Cui P , Yu P , et al. Heterogeneous Graph Attention Network [Internet]. arXiv; 2021 [cited 2025 Aug 5]. Available from: http://arxiv.org/abs/1903.07293"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.TINS.2022.06.007"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2012.02.018"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/0891988711422528"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1212/WNL.43.11.2412-a"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/gps.2519"
+        },
+        {
+          "issue": "3",
+          "key": "2026020503345691000_2026.01.26.701662v1.93",
+          "doi-asserted-by": "crossref",
+          "first-page": "280",
+          "DOI": "10.1016/j.jalz.2011.03.003",
+          "article-title": "Toward defining the preclinical stages of Alzheimer’s disease: recommendations from the National Institute on Aging-Alzheimer’s Association workgroups on diagnostic guidelines for Alzheimer’s disease",
+          "volume": "7",
+          "year": "2011",
+          "journal-title": "Alzheimers Dement J Alzheimers Assoc"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2010.07.033"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503345691000_2026.01.26.701662v1.95",
+          "doi-asserted-by": "crossref",
+          "first-page": "4933",
+          "DOI": "10.1038/s41467-022-32595-4",
+          "article-title": "Population-based tract-to-region connectome of the human brain and its hierarchical topology",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2013.04.127"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2014.03.034"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2013.11.046"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.NEUROIMAGE.2019.116137"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.100",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-018-0235-4"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neuroimage.2015.02.064"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.NEUROIMAGE.2017.03.020"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.103",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Meyer GP. An Alternative Probabilistic Interpretation of the Huber Loss. In: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) [Internet]. 2021 [cited 2024 Mar 21]. p. 5257–65. Available from: https://ieeexplore.ieee.org/document/9578699",
+          "DOI": "10.1109/CVPR46437.2021.00522"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.104",
+          "unstructured": "Jadon A , Patil A , Jadon S. A Comprehensive Survey of Regression Based Loss Functions for Time Series Forecasting [Internet]. arXiv; 2022 [cited 2023 Sept 20]. Available from: http://arxiv.org/abs/2211.02989"
+        },
+        {
+          "issue": "1",
+          "key": "2026020503345691000_2026.01.26.701662v1.105",
+          "doi-asserted-by": "crossref",
+          "first-page": "103",
+          "DOI": "10.1038/s42003-020-0794-7",
+          "article-title": "BrainSpace: a toolbox for the analysis of macroscale gradients in neuroimaging and connectomics datasets",
+          "volume": "3",
+          "year": "2020",
+          "journal-title": "Commun Biol"
+        },
+        {
+          "key": "2026020503345691000_2026.01.26.701662v1.106",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0068910"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.01.26.701662",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            5
+          ]
+        ],
+        "date-time": "2026-02-05T11:35:10Z",
+        "timestamp": 1770291310000
+      },
+      "score": 47.802048,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.01.26.701662"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            27
+          ]
+        ]
+      },
+      "references-count": 106,
+      "URL": "https://doi.org/10.64898/2026.01.26.701662",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

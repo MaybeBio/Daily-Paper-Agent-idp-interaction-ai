@@ -1,0 +1,659 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.17.604015",
+  "title": "Rapid protein evolution by few-shot learning with a protein language model",
+  "doi": "10.1101/2024.07.17.604015",
+  "abstract": "Directed evolution of proteins is critical for applications in basic biological research, therapeutics, diagnostics, and sustainability. However, directed evolution methods are labor intensive, cannot efficiently optimize over multiple protein properties, and are often trapped by local maxima. In silico- directed evolution methods incorporating protein language models (PLMs) have the potential to accelerate this engineering process, but current approaches fail to generalize across diverse protein families. We introduce EVOLVEpro, a few-shot active learning framework to rapidly improve protein activity using a combination of PLMs and protein activity predictors, achieving improved activity with as few as four rounds of evolution. EVOLVEpro substantially enhances the efficiency and effectiveness of in silico protein evolution, surpassing current state-of-the-art methods and yielding proteins with up to 100-fold improvement of desired properties. We showcase EVOLVEpro for five proteins across three applications: T7 RNA polymerase for RNA production, a miniature CRISPR nuclease, a prime editor, and an integrase for genome editing, and a monoclonal antibody for epitope binding. These results demonstrate the advantages of few-shot active learning with small amounts of experimental data over zero-shot predictions. EVOLVEpro paves the way for broader applications of AI-guided protein engineering in biology and medicine.",
+  "authors": [
+    "Kaiyi Jiang",
+    "Zhaoqing Yan",
+    "Matteo Di Bernardo",
+    "Samantha R. Sgrizzi",
+    "Lukas Villiger",
+    "Alisan Kayabolen",
+    "Byungji Kim",
+    "Josephine K. Carscadden",
+    "Masahiro Hiraizumi",
+    "Hiroshi Nishimasu",
+    "Jonathan S. Gootenberg",
+    "Omar O. Abudayyeh"
+  ],
+  "published_date": "2024-07-18",
+  "updated_date": "2024-07-18T23:55:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioengineering",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.17.604015",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.17.604015.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioengineering"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioengineering",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            17
+          ]
+        ],
+        "date-time": "2026-08-17T23:50:05Z",
+        "timestamp": 1787010605729,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            18
+          ]
+        ]
+      },
+      "group-title": "Bioengineering",
+      "reference-count": 54,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Directed evolution of proteins is critical for applications in basic biological research, therapeutics, diagnostics, and sustainability. However, directed evolution methods are labor intensive, cannot efficiently optimize over multiple protein properties, and are often trapped by local maxima.\n                  <jats:italic>In silico-</jats:italic>\n                  directed evolution methods incorporating protein language models (PLMs) have the potential to accelerate this engineering process, but current approaches fail to generalize across diverse protein families. We introduce EVOLVEpro, a few-shot active learning framework to rapidly improve protein activity using a combination of PLMs and protein activity predictors, achieving improved activity with as few as four rounds of evolution. EVOLVEpro substantially enhances the efficiency and effectiveness of\n                  <jats:italic>in silico</jats:italic>\n                  protein evolution, surpassing current state-of-the-art methods and yielding proteins with up to 100-fold improvement of desired properties. We showcase EVOLVEpro for five proteins across three applications: T7 RNA polymerase for RNA production, a miniature CRISPR nuclease, a prime editor, and an integrase for genome editing, and a monoclonal antibody for epitope binding. These results demonstrate the advantages of few-shot active learning with small amounts of experimental data over zero-shot predictions. EVOLVEpro paves the way for broader applications of AI-guided protein engineering in biology and medicine.\n                </jats:p>",
+      "DOI": "10.1101/2024.07.17.604015",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            18
+          ]
+        ],
+        "date-time": "2024-07-18T23:55:14Z",
+        "timestamp": 1721346914000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 6,
+      "title": [
+        "Rapid protein evolution by few-shot learning with a protein language model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Kaiyi",
+          "family": "Jiang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhaoqing",
+          "family": "Yan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matteo Di",
+          "family": "Bernardo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Samantha R.",
+          "family": "Sgrizzi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lukas",
+          "family": "Villiger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alisan",
+          "family": "Kayabolen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Byungji",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Josephine K.",
+          "family": "Carscadden",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Masahiro",
+          "family": "Hiraizumi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hiroshi",
+          "family": "Nishimasu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2757-2175",
+          "authenticated-orcid": false,
+          "given": "Jonathan S.",
+          "family": "Gootenberg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7979-3220",
+          "authenticated-orcid": false,
+          "given": "Omar O.",
+          "family": "Abudayyeh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Heinzinger , K. Weissenow , J. G. Sanchez , A. Henkel , M. Mirdita , M. Steinegger , B. Rost , Bilingual Language Model for Protein Sequence and Structure, bioRxiv (2024)p. 2023.07.23.550085.",
+          "DOI": "10.1101/2023.07.23.550085"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Elnaggar , H. Essam , W. Salah-Eldin , W. Moustafa , M. Elkerdawy , C. Rochereau , B. Rost , Ankh: Optimized Protein Language Model Unlocks General-Purpose Modelling, arXiv [cs.LG] (2023). http://arxiv.org/abs/2301.06568.",
+          "DOI": "10.1101/2023.01.16.524265"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2102",
+          "DOI": "10.1093/bioinformatics/btac020",
+          "article-title": "ProteinBERT: a universal deep-learning model of protein sequence and function",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1257",
+          "DOI": "10.1016/j.molcel.2024.01.021",
+          "article-title": "Protein language models-assisted optimization of a uracil-N-glycosylase variant enables programmable T-to-G and T-to-C base editing",
+          "volume": "84",
+          "year": "2024",
+          "journal-title": "Mol. Cell"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "275",
+          "DOI": "10.1038/s41587-023-01763-2",
+          "article-title": "Efficient evolution of human antibodies from general protein language models",
+          "volume": "42",
+          "year": "2024",
+          "journal-title": "Nat. Biotechnol"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Hayes , R. Rao , H. Akin , N. J. Sofroniew , D. Oktay , Z. Lin , R. Verkuil , V. Q. Tran , J. Deaton , M. Wiggert , R. Badkundri , I. Shafkat , J. Gong , A. Derry , R. S. Molina , N. Thomas , Y. A. Khan , C. Mishra , C. Kim , L. J. Bartie , M. Nemeth , P. D. Hsu , T. Sercu , S. Candido , A. Rives , Simulating 500 million years of evolution with a language model, bioRxiv (2024)p. 2024.07.01.600583.",
+          "DOI": "10.1101/2024.07.01.600583"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-32007-7"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1099",
+          "DOI": "10.1038/s41587-022-01618-2",
+          "article-title": "Large language models generate functional protein sequences across diverse families",
+          "volume": "41",
+          "year": "2023",
+          "journal-title": "Nat. Biotechnol"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. A. Ruffolo , S. Nayfach , J. Gallagher , A. Bhatnagar , J. Beazer , R. Hussain , J. Russ , J. Yip , E. Hill , M. Pacesa , A. J. Meeske , P. Cameron , A. Madani , Design of highly functional genome editors by modeling the universe of CRISPR-Cas sequences, bioRxiv (2024)p. 2024.04.22.590591.",
+          "DOI": "10.1101/2024.04.22.590591"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0496-6"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-022-04599-z"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "N. Thomas , D. Belanger , C. Xu , H. Lee , K. Hirano , K. Iwai , V. Polic , K. D. Nyberg , K. G. Hoff , L. Frenz , C. A. Emrich , J. W. Kim , M. Chavarha , A. Ramanan , J. J. Agresti , L. J. Colwell , Engineering of highly active and diverse nuclease enzymes by combining machine learning and ultra-high-throughput screening, bioRxiv (2024)p. 2024.03.21.585615.",
+          "DOI": "10.1101/2024.03.21.585615"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1901979116"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1026",
+          "DOI": "10.1016/j.cels.2021.07.008",
+          "article-title": "Informed training set design enables efficient machine learning-assisted directed protein evolution",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01100-y"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2016.09.061"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.12.07.570727"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "4920",
+          "DOI": "10.1016/j.cell.2023.08.031",
+          "article-title": "An AsCas12f-based compact genome-editing tool derived by deep mutational scanning and structural analysis",
+          "volume": "186",
+          "year": "2023",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.ppat.1006114"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "563",
+          "DOI": "10.1016/j.cels.2016.11.004",
+          "article-title": "RNA Structural Determinants of Optimal Codons Revealed by MAGE-Seq",
+          "volume": "3",
+          "year": "2016",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.01.035"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "C. J. Markin , D. A. Mokhtari , F. Sunden , M. J. Appel , E. Akiva , S. A. Longwell , C. Sabatti , D. Herschlag , P. M. Fordyce , Revealing enzyme functional architecture via high-throughput microfluidic enzyme kinetics. Science 373 (2021).",
+          "DOI": "10.1126/science.abf8761"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41588-018-0204-y"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "E. M. Jones , N. B. Lubock , A. J. Venkatakrishnan , J. Wang , A. M. Tseng , J. M. Paggi , N. R. Latorraca , D. Cancilla , M. Satyadi , J. E. Davis , M. M. Babu , R. O. Dror , S. Kosuri , Structural and functional characterization of G protein-coupled receptors with deep mutational scanning. Elife 9 (2020).",
+          "DOI": "10.7554/eLife.54895"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. B. Doud , J. D. Bloom , Accurate Measurement of the Effects of All Amino-Acid Mutations on Influenza Hemagglutinin. Viruses 8 (2016).",
+          "DOI": "10.1101/047571"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1806133115"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Rives , J. Meier , T. Sercu , S. Goyal , Z. Lin , J. Liu , D. Guo , M. Ott , C. L. Zitnick , J. Ma , R. Fergus , Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. Proc. Natl. Acad. Sci. U. S. A. 118 (2021).",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "1315",
+          "DOI": "10.1038/s41592-019-0598-1",
+          "article-title": "Unified rational protein engineering with sequence-based deep representation learning",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "7112",
+          "DOI": "10.1109/TPAMI.2021.3095381",
+          "article-title": "ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning",
+          "volume": "44",
+          "year": "2022",
+          "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abe2402"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abd0826"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "5623",
+          "DOI": "10.1038/s41467-022-33346-1",
+          "article-title": "Comprehensive assessment of miniature CRISPR-Cas12f nucleases for gene disruption",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "1132",
+          "DOI": "10.1038/s41589-021-00868-6",
+          "article-title": "Programmed genome editing by a miniature CRISPR-Cas12f nuclease",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "Nat. Chem. Biol"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "4333",
+          "DOI": "10.1016/j.molcel.2021.08.008",
+          "article-title": "Engineered miniature CRISPR-Cas system for mammalian genome regulation and editing",
+          "volume": "81",
+          "year": "2021",
+          "journal-title": "Mol. Cell"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-018-0011-0"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "2046",
+          "DOI": "10.1038/s41467-023-37829-7",
+          "article-title": "Engineered CRISPR-OsCas12f1 and RhCas12f1 with robust activities and expanded target range for genome editing",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-24017-8"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-021-01009-z"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abb1400"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14299"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu048"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2023.07.039"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. T. N. Yarnall , E. I. Ioannidi , C. Schmitt-Ulms , R. N. Krajeski , J. Lim , L. Villiger , W. Zhou , K. Jiang , S. K. Garushyants , N. Roberts , L. Zhang , C. A. Vakulskas , J. A. Walker , A. P. Kadina , A. E. Zepeda , K. Holden , H. Ma , J. Xie , G. Gao , L. Foquet , G. Bial , S. K. Donnelly , Y. Miyata , D. R. Radiloff , J. M. Henderson , A. Ujita , O. O. Abudayyeh , J. S. Gootenberg , Drag-and-drop genome insertion of large sequences without double-strand DNA cleavage using CRISPR-directed integrases. Nat. Biotechnol., 1–13 (2022).",
+          "DOI": "10.1038/s41587-022-01527-4"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/gzs034"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Meier , R. Rao , R. Verkuil , J. Liu , T. Sercu , A. Rives , Language models enable zero-shot prediction of the effects of mutations on protein function, bioRxiv (2021)p. 2021.07.09.450648.",
+          "DOI": "10.1101/2021.07.09.450648"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-022-01525-6"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA120.014553"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.49",
+          "first-page": "293",
+          "article-title": "Author Correction: Engineering circular RNA for enhanced protein production",
+          "volume": "41",
+          "year": "2023",
+          "journal-title": "Nat. Biotechnol"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "46",
+          "DOI": "10.1126/science.adk8946",
+          "article-title": "Unsupervised evolution of protein and antibody complexes with a structure-informed language model",
+          "volume": "385",
+          "year": "2024",
+          "journal-title": "Science"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.51",
+          "unstructured": "Y. Serrano , Á. Ciudad , A. Molina , Are Protein Language Models Compute Optimal?, arXiv [q-bio.BM] (2024). http://arxiv.org/abs/2406.07249."
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "X. Cheng , B. Chen , P. Li , J. Gong , J. Tang , L. Song , Training Compute-Optimal Protein Language Models, bioRxiv (2024)p. 2024.06.06.597716.",
+          "DOI": "10.1101/2024.06.06.597716"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.53",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. Chen , X. Cheng , P. Li , Y.-A. Geng , J. Gong , S. Li , Z. Bei , X. Tan , B. Wang , X. Zeng , C. Liu , A. Zeng , Y. Dong , J. Tang , L. Song , xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein, bioRxiv (2024)p. 2023.07.05.547496.",
+          "DOI": "10.1101/2023.07.05.547496"
+        },
+        {
+          "key": "2024072120150592000_2024.07.17.604015v1.54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Sourisseau , D. J. P. Lawrence , M. C. Schwarz , C. H. Storrs , E. C. Veit , J. D. Bloom , M. J. Evans , Deep Mutational Scanning Comprehensively Maps How Zika Envelope Protein Mutations Affect Viral Growth and Antibody Escape. J. Virol. 93 (2019).",
+          "DOI": "10.1128/JVI.01291-19"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.07.17.604015",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:43:53Z",
+        "timestamp": 1768459433000
+      },
+      "score": 50.06013,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.07.17.604015"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            18
+          ]
+        ]
+      },
+      "references-count": 54,
+      "URL": "https://doi.org/10.1101/2024.07.17.604015",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            18
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

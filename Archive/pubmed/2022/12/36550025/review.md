@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to the full manuscript, figures, tables, or methods
+- **Shared manuscript claim summary** The authors report single-molecule Förster resonance energy transfer (smFRET) measurements showing that phosphorylation of the nuclear coactivator binding domain (NCBD) of CBP reduces its binding affinity to interaction partners, with effects dependent on the partner, the phosphorylation site, and the number of modifications. They further report that peptidyl-prolyl cis/trans isomerization in NCBD modulates binding affinities. They conclude that allosteric regulation operates on at least three levels: differential basal affinities for different partners, differential modulation by phosphorylation, and effects of prolyl isomerization.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, smFRET data, quantitative affinity values, statistical analyses, phosphorylation site details, prolyl isomerization state assignments, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically rich study of multilayered regulation in an intrinsically disordered protein hub. The conceptual framework, proposing three distinct but coupled levels of allosteric modulation, is appealing and could be of broad interest to the biophysics and molecular recognition communities. However, the abstract alone provides insufficient quantitative detail to evaluate the robustness of the claims. The key conclusions regarding differential phosphorylation effects and prolyl isomerization dependence rest on data that are not visible here. The study appears technically sophisticated, but the evidence base is too limited to assess whether the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, allosteric regulation, post-translational modification, and protein-protein interaction networks. The work is also relevant to those interested in single-molecule biophysics and the role of conformational heterogeneity in molecular recognition. The findings could inform understanding of how disordered hubs achieve regulatory complexity in cellular signaling.
+- **Major strengths** The study addresses a significant and under-explored question, namely how multiple regulatory mechanisms combine in a disordered protein hub. The use of smFRET is appropriate for probing conformational and binding equilibria in IDPs. The conceptual framing of three distinct levels of allosteric modulation is clear and provides a useful organizing principle. The inclusion of multiple binding partners and multiple phosphorylation states suggests a systematic experimental design.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "Phosphorylation of NCBD reduces its binding affinity, with effects that vary depending on the binding partner and the site and number of modifications."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that phosphorylation reduces binding affinity with partner- and site-dependent effects, but no quantitative affinity values, error estimates, or statistical comparisons are provided. It is unclear how large the effects are, whether they are statistically significant, and whether the pattern of effects is consistent across all partners and modification states.  
+  - **Why it matters** The central claim of differential modulation by phosphorylation is the foundation of the proposed allosteric framework. Without quantitative data, the reader cannot assess the magnitude or reliability of the reported effects, nor whether the differences between partners and sites are meaningful or within experimental noise.  
+  - **Resolution test** Provide quantitative binding affinities (e.g., Kd values) for each NCBD variant and partner combination, with uncertainties and statistical tests comparing conditions. Show that the observed differences exceed experimental error and are reproducible.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "The complexity of the interaction is further increased by the dependence of the affinities on peptidyl-prolyl cis/trans isomerization in NCBD."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract claims that prolyl isomerization affects binding affinities, but no details are given on how cis and trans states were distinguished, which proline residues are involved, or how the isomerization equilibrium is coupled to binding. The direction and magnitude of the effect are not stated.  
+  - **Why it matters** Prolyl isomerization is a subtle and often overlooked regulatory mechanism. The claim that it modulates binding affinities is a key part of the multilayered regulation model. Without experimental details, it is impossible to evaluate whether the effect is robust, specific, or mechanistically distinct from the phosphorylation effects.  
+  - **Resolution test** Provide data showing distinct binding affinities for NCBD variants locked in cis or trans conformations, or kinetic evidence resolving isomerization-coupled binding. Specify the proline residues involved and show that the effect is not an artifact of sample heterogeneity.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Conceptual clarity  
+  - **Claim pointer** "Our results reveal the potential for allosteric regulation on at least three levels: the different affinities of NCBD for its different binding partners, the differential modulation of these affinities by phosphorylation, and the effect of peptidyl-prolyl cis/trans isomerization on binding."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The term "allosteric regulation" is used broadly to describe three distinct phenomena. The first level, different affinities for different partners, is not allosteric in the conventional sense, as it reflects intrinsic binding specificity rather than regulation of a distant site. The coupling between the three levels is asserted but not demonstrated.  
+  - **Why it matters** The conceptual framing is central to the paper's impact. If the three levels are not mechanistically coupled, the claim of "multilayered allosteric modulation" may overstate the findings. The abstract does not show that phosphorylation or prolyl isomerization effects are interdependent, which would be required to justify the "multilayered" description.  
+  - **Resolution test** Provide evidence that the effects of phosphorylation and prolyl isomerization are not independent, for example by showing that the magnitude of phosphorylation-induced affinity changes differs between cis and trans states, or that the effects of multiple phosphorylations are non-additive. Clarify the definition of allostery used in the context of IDPs.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "the potential for allosteric regulation" is vague. It is unclear whether the authors are claiming that allosteric regulation occurs, or merely that the system has the capacity for it.  
+  - **Required correction** Specify whether the data demonstrate active allosteric regulation or only the potential for it, and define the conditions under which each level of regulation would be operative.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Binding partners  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions "several of its binding partners" but does not name them or indicate how many were studied. This limits the reader's ability to gauge the generality of the findings.  
+  - **Required Correction** List the binding partners studied and, if possible, indicate the range of affinities and phosphorylation effects observed across them.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Experimental conditions  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No information is given on the solution conditions, temperature, or labeling strategy used for smFRET measurements. These factors can strongly influence IDP binding equilibria.  
+  - **Required Correction** Include key experimental conditions in the abstract or refer to methods sections where they are fully described.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central quantitative claims are not supported by the visible evidence. The abstract does not provide sufficient data to establish that phosphorylation effects are partner- and site-dependent, or that prolyl isomerization modulates binding. R1-M3 is not blocking but requires conceptual clarification to align the claims with the evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of multilayered regulation in a disordered hub is not entirely new, but the combination of phosphorylation and prolyl isomerization effects in a single system is a distinctive angle. The originality is moderate to high, depending on the novelty of the specific findings.  
+  - Scientific importance: The work addresses a fundamental question in IDP biology and could have implications for understanding regulatory complexity in signaling networks. The importance is potentially high, but the abstract does not yet demonstrate the breadth of impact.  
+  - Interdisciplinary readership: The topic bridges biophysics, biochemistry, and cell signaling. The abstract is written in a way that is accessible to a broad audience, though the lack of quantitative detail may limit appeal to specialists.  
+  - Technical soundness: The use of smFRET is appropriate, but the abstract does not allow assessment of data quality, controls, or analysis rigor. Technical soundness cannot be evaluated from the supplied material.  
+  - Readability for nonspecialists: The abstract is clear and well-structured, with a logical progression from the general problem to the specific findings. The three-level framework is easy to follow.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising and the experimental approach is well suited to the question, but the abstract alone does not provide sufficient evidence to establish the central claims. Full evaluation of the manuscript would be required to determine whether the data support the multilayered allosteric model.
+
+## Risk / unsupported claims
+- The claim that phosphorylation reduces binding affinity with partner- and site-dependent effects is unsupported in the abstract due to lack of quantitative data.
+- The claim that peptidyl-prolyl cis/trans isomerization affects binding affinities is unsupported in the abstract due to lack of experimental detail.
+- The claim of "multilayered allosteric regulation" is not fully supported, as the coupling between the three proposed levels is not demonstrated.
+- The generality of the findings across "several" binding partners cannot be assessed without naming them or providing comparative data.

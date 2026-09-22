@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.25.624572",
+  "title": "Synergistic Multi-Pronged Interactions Mediate the Effective Inhibition of Alpha-Synuclein Aggregation by the Chaperone HtrA1",
+  "authors": "Chinchilla P; Wang B; Lubin JH; Yang X; Roth J; Khare SD; Baum J",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-28",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过NMR、AFM和Rosetta计算分析，揭示伴侣蛋白HtrA1的PDZ与蛋白酶结构域协同识别α-Syn单体及纤维中无序区域，抑制其聚集和播种，虽对象涉及IDP且聚焦PPI机制，但方法以实验为主、计算为辅，AI/物理模拟深度有限。",
+  "abstract": "The misfolding, aggregation, and the seeded spread of alpha synuclein (α-Syn) aggregates are linked to the pathogenesis of various neurodegenerative diseases, including Parkinson’s disease (PD). Understanding the mechanisms by which chaperone proteins prevent the production and seeding of α-Syn aggregates is crucial for developing effective therapeutic leads for tackling neurodegenerative diseases. We show that a catalytically inactive variant of the chaperone HtrA1 (HtrA1*) effectively inhibits both α-Syn monomer aggregation and templated fibril seeding, and demonstrate that this inhibition is mediated by synergistic interactions between its PDZ and Protease domains and α-Syn. Using biomolecular NMR, AFM and Rosetta-based computational analyses, we propose that the PDZ domain interacts with the C-terminal end of the monomer and the intrinsically disordered C-terminal domain of the α-Syn fibril. Furthermore, in agreement with sequence specificity calculations, the Protease domain cleaves in the aggregation-prone NAC domain at site T92/A93 in the monomer. Thus, through multi-pronged interactions and multi-site recognition of α-Syn, HtrA1* can effectively intervene at different stages along the α-Syn aggregation pathway, making it a robust inhibitor of α-Syn aggregation and templated seeding. Our studies illustrate, at high resolution, the crucial role of HtrA1 interactions with both the intrinsically disordered α-Syn monomers and with the dynamic flanking regions around the fibril core for inhibition of aggregation. This inhibition mechanism of the HtrA1 chaperone may provide a natural mechanistic blueprint for highly effective therapeutic agents against protein aggregation. <h4>Significance Statement</h4> PD and other synucleinopathies are marked by misfolding and aggregation of α-Syn, forming higher-order species that propagate aggregation in a prion-like manner. Understanding how chaperone proteins inhibit α-Syn aggregation and spread is essential for therapeutic development against neurodegeneration. Through an integrative approach of solution-based NMR, AFM, aggregation kinetics, and computational analysis, we reveal how a catalytically inactive variant of the chaperone HtrA1 effectively disrupts aggregation pathways. We find that the inactive Protease and PDZ domains of HtrA1 synergistically bind to key intrinsically disordered sites on both α-Syn monomers and fibrils, thereby effectively inhibiting both aggregation and templated seeding. Our work provides a natural and unique blueprint for designing inhibitors to prevent the formation and seeding of aggregates in neurodegenerative diseases.",
+  "abstract_zh": "α-突触核蛋白（α-Syn）聚集体的错误折叠、聚集及种子传播与多种神经退行性疾病（包括帕金森病（PD））的发病机制相关。理解伴侣蛋白阻止α-Syn聚集体产生和种子形成的机制，对于开发针对神经退行性疾病的有效治疗先导化合物至关重要。我们表明，伴侣蛋白HtrA1的一种催化失活变体（HtrA1*）能有效抑制α-Syn单体聚集和模板化纤维种子形成，并证明这种抑制由其PDZ结构域和蛋白酶结构域与α-Syn之间的协同相互作用介导。利用生物分子核磁共振（NMR）、原子力显微镜（AFM）和基于Rosetta的计算分析，我们提出PDZ结构域与单体C末端及α-Syn纤维 intrinsically disordered C末端结构域相互作用。此外，与序列特异性计算一致，蛋白酶结构域在单体中聚集倾向的NAC结构域T92/A93位点进行切割。因此，通过多管齐下的相互作用和多位点识别α-Syn，HtrA1*能有效干预α-Syn聚集途径的不同阶段，使其成为α-Syn聚集和模板化种子形成的强效抑制剂。我们的研究以高分辨率阐明了HtrA1与 intrinsically disordered α-Syn单体及纤维核心周围动态侧翼区域相互作用在抑制聚集中的关键作用。HtrA1伴侣蛋白的这种抑制机制可能为针对蛋白聚集的高效治疗药物提供天然机制蓝图。<h4>意义声明</h4> PD和其他突触核蛋白病以α-Syn的错误折叠和聚集为特征，形成以朊病毒样方式传播聚集的高阶物种。理解伴侣蛋白如何抑制α-Syn聚集和传播，对于针对神经退行性变的治疗开发至关重要。通过基于溶液的NMR、AFM、聚集动力学和计算分析的综合方法，我们揭示了伴侣蛋白HtrA1的催化失活变体如何有效破坏聚集途径。我们发现，HtrA1的失活蛋白酶结构域和PDZ结构域协同结合α-Syn单体和纤维上的关键 intrinsically disordered 位点，从而有效抑制聚集和模板化种子形成。我们的工作为设计抑制剂以预防神经退行性疾病中聚集体的形成和种子传播提供了天然且独特的蓝图。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.25.624572",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.25.624572",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.25.624572/index.html"
+}

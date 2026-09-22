@@ -1,0 +1,203 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.19.599685",
+  "title": "A comparative study of the cryo-EM structures of S. cerevisiae and human anaphase-promoting complex/cyclosome (APC/C)",
+  "doi": "10.1101/2024.06.19.599685",
+  "abstract": "The anaphase-promoting complex/cyclosome (APC/C) is a large multi-subunit E3 ubiquitin ligase that controls progression through the cell cycle by orchestrating the timely proteolysis of mitotic cyclins and other cell cycle regulatory proteins. Although structures of multiple human APC/C complexes have been extensively studied over the past decade, the S. cerevisiae APC/C has been less extensively investigated. Here, we describe medium resolution structures of three S. cerevisiae APC/C complexes: unphosphorylated apo-APC/C and the ternary APC/C CDH1 -substrate complex, and phosphorylated apo-APC/C. Whereas the overall architectures of human and S. cerevisiae APC/C are conserved, as well as the mechanism of CDH1 inhibition by CDK-phosphorylation, specific variations exist, including striking differences in the mechanism of coactivator-mediated stimulation of E2 binding, and the activation of APC/C CDC20 by phosphorylation. In contrast to human APC/C in which coactivator induces a conformational change of the catalytic module APC2:APC11 to allow E2 binding, in S. cerevisiae apo-APC/C the catalytic module is already positioned to bind E2. Furthermore, we find no evidence of a phospho-regulatable auto-inhibitory segment of APC1, that in the unphosphorylated human APC/C, sterically blocks the CDC20 C-box binding site of APC8. Thus, although the functions of APC/C are conserved from S. cerevisiae to humans, molecular details relating to their regulatory mechanisms differ.",
+  "authors": [
+    "Vazquez-Fernandez E",
+    "Yang J",
+    "Zhang Z",
+    "Andreeva AE",
+    "Emsley P",
+    "Barford D"
+  ],
+  "published_date": "2024-06-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.19.599685",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.19.599685.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR869787",
+    "raw_record": {
+      "id": "PPR869787",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR869787"
+        ]
+      },
+      "doi": "10.1101/2024.06.19.599685",
+      "title": "A comparative study of the cryo-EM structures of  <i>S. cerevisiae</i>  and human anaphase-promoting complex/cyclosome (APC/C)",
+      "authorString": "Vazquez-Fernandez E, Yang J, Zhang Z, Andreeva AE, Emsley P, Barford D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Vazquez-Fernandez E",
+            "lastName": "Vazquez-Fernandez",
+            "firstName": "Ester",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang J",
+            "lastName": "Yang",
+            "firstName": "Jing",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang Z",
+            "lastName": "Zhang",
+            "firstName": "Ziguo",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andreeva AE",
+            "lastName": "Andreeva",
+            "firstName": "Antonina",
+            "initials": "AE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Emsley P",
+            "lastName": "Emsley",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barford D",
+            "lastName": "Barford",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The anaphase-promoting complex/cyclosome (APC/C) is a large multi-subunit E3 ubiquitin ligase that controls progression through the cell cycle by orchestrating the timely proteolysis of mitotic cyclins and other cell cycle regulatory proteins. Although structures of multiple human APC/C complexes have been extensively studied over the past decade, the  S. cerevisiae APC/C has been less extensively investigated. Here, we describe medium resolution structures of three  S. cerevisiae APC/C complexes: unphosphorylated apo-APC/C and the ternary APC/C  CDH1 -substrate complex, and phosphorylated apo-APC/C. Whereas the overall architectures of human and  S. cerevisiae APC/C are conserved, as well as the mechanism of CDH1 inhibition by CDK-phosphorylation, specific variations exist, including striking differences in the mechanism of coactivator-mediated stimulation of E2 binding, and the activation of APC/C  CDC20 by phosphorylation. In contrast to human APC/C in which coactivator induces a conformational change of the catalytic module APC2:APC11 to allow E2 binding, in  S. cerevisiae apo-APC/C the catalytic module is already positioned to bind E2. Furthermore, we find no evidence of a phospho-regulatable auto-inhibitory segment of APC1, that in the unphosphorylated human APC/C, sterically blocks the CDC20  C-box binding site of APC8. Thus, although the functions of APC/C are conserved from  S. cerevisiae to humans, molecular details relating to their regulatory mechanisms differ.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.06.19.599685"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.19.599685"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR869787"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR869787&type=FILE&fileName=EMS197000-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS197000",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-06-22",
+      "firstPublicationDate": "2024-06-20",
+      "firstIndexDate": "2024-06-22",
+      "fullTextReceivedDate": "2024-09-10",
+      "hasEvaluations": "Y"
+    }
+  }
+}

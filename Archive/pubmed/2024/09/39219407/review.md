@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary information
+- **Shared manuscript claim summary** The authors use bias-exchange molecular dynamics simulations to show that the size and surface oxidation of graphitic nanoflakes modulate the structure, adsorption preferences, and conformational behaviour of human amylin, with implications for designing nanoflakes that inhibit amyloid fibril formation.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or statistical measures provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field details, convergence criteria, all figures and tables, supplementary information, and any quantitative metrics supporting the stated structural changes
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful computational study on the interaction between human amylin and graphitic nanoflakes of varying size and oxidation. The central claims are mechanistically coherent and align with existing literature on protein-nanomaterial interactions. However, the abstract alone provides no quantitative evidence, no methodological detail, and no statistical validation, making it impossible to assess the technical soundness or robustness of the findings. The conclusions are stated with confidence that exceeds what the visible evidence can support.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, amyloid biology, and nanomedicine would be interested. The work addresses a relevant question in the design of carbon-based nanomaterials for modulating protein aggregation, which has implications for therapeutic strategies against type II diabetes and other amyloid diseases. The atomistic insights could inform experimental efforts in nanomaterial engineering.
+- **Major strengths** The study addresses a timely and important problem in amyloid disease management. The systematic variation of nanoflake size and surface oxidation is a sensible design. The distinction between pristine graphene, reduced graphene oxide, and graphene oxide provides a clear comparative framework. The proposed mechanism, where surface oxidation restricts protein mobility and preserves native structure, is mechanistically plausible and potentially actionable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that nanoflake size and surface oxidation influence amylin structure and adsorption preferences, and specifically that larger PG nanoflakes induce loss of native helical content and increase in beta-sheet character.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are presented to support the claimed structural changes. The abstract reports qualitative outcomes such as "loss of native helical content" and "increase in beta-sheet character" without any numerical values, error estimates, or statistical comparisons. There is no indication of how many simulations were performed, how convergence was assessed, or whether the observed differences are reproducible across independent runs.
+  - **Why it matters** Without quantitative evidence, the reader cannot evaluate the magnitude or significance of the reported effects. Molecular dynamics simulations are subject to sampling limitations and force field biases, and qualitative statements alone cannot establish that the observed trends are robust rather than artefacts of insufficient sampling or specific simulation conditions.
+  - **Resolution test** Provide quantitative measures of secondary structure content, such as average helicity and beta-sheet propensity, with standard deviations or confidence intervals across multiple independent simulations. Include convergence metrics and, if possible, comparison with experimental data or multiple force fields.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodology
+  - **Claim pointer** The abstract states that bias-exchange molecular dynamics simulations were employed to study amylin adsorption on graphitic nanoflakes.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No methodological details are provided. The abstract does not specify the force field, water model, simulation temperature, system size, simulation length, number of replicas, bias-exchange parameters, or how the nanoflakes were constructed and functionalised. Without these details, the reproducibility of the simulations cannot be assessed.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation parameters and force field choices. The absence of methodological transparency prevents other researchers from reproducing the work and undermines confidence in the conclusions. It also prevents assessment of whether the simulation timescales are sufficient to capture the relevant conformational transitions of amylin.
+  - **Resolution test** Include a full methods section with all simulation parameters, force field versions, system preparation details, and validation of the simulation setup. Provide information on the number of independent simulations and the criteria used to determine convergence of the bias-exchange runs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim support
+  - **Claim pointer** The abstract claims that oxidised graphene nanoflakes form hydrogen bonds between surface oxygen sites and amylin, restricting protein mobility, and that rGO flakes conserve the native structure of amylin while GO flakes lead to protein unfolding.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The mechanistic distinctions between rGO and GO are presented as clear and definitive, but no evidence is shown for hydrogen bond formation, mobility restriction, or structural conservation versus unfolding. The abstract does not report any binding energies, contact areas, hydrogen bond lifetimes, or conformational metrics that would substantiate these claims.
+  - **Why it matters** The central design recommendation, that tuning oxygen concentration and surface patterning can control protein binding and fibril formation, depends on the validity of these mechanistic distinctions. If the differences between rGO and GO are not robustly demonstrated, the design principles proposed may not be reliable.
+  - **Resolution test** Provide quantitative data on hydrogen bond occupancy, protein-surface contact area, root-mean-square deviation of amylin structure, and secondary structure evolution over time for each nanoflake type. Include comparisons across multiple simulation replicates to demonstrate that the observed differences are consistent.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "unrestricted lateral mobility" is used without definition or quantitative support. It is unclear whether this refers to diffusion coefficients, mean squared displacement, or another metric.
+  - **Required correction** Define the metric used to assess lateral mobility and provide quantitative values to support the claim.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalisability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract concludes with design considerations for inhibiting amyloid fibril formation, but the simulations only address monomer adsorption and conformational changes. The link between these observations and fibril formation is inferred rather than demonstrated.
+  - **Required correction** Clarify that the study addresses monomer-level behaviour and that the implications for fibril formation are speculative, or provide additional simulation or experimental evidence connecting the observed conformational changes to fibril propensity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison with prior work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not situate the findings within the existing literature on amylin-nanomaterial interactions, making it difficult to assess the novelty of the results.
+  - **Required correction** Add a brief statement in the abstract or introduction that contextualises the findings relative to previous computational or experimental studies on amylin adsorption on carbon-based nanomaterials.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative evidence and methodological detail means the central claims cannot be evaluated or reproduced. R1-M3 is significant but not blocking if the other concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that larger PG nanoflakes promote fibril formation through loss of helical content and increased beta-sheet character is unsupported by quantitative data in the abstract.
+- The claim that rGO conserves native amylin structure while GO induces unfolding is presented without supporting metrics.
+- The claim that hydrogen bonding between oxidised nanoflakes and amylin restricts protein mobility is not evidenced.
+- The design recommendation that tuning oxygen concentration and surface patterning can inhibit fibril formation is an extrapolation from monomer-level simulations and is not directly supported by the visible evidence.
+- The overall conclusion that the findings provide "key design considerations" for inhibiting amyloid fibril formation is not fully supported by the abstract alone, as no fibril formation or aggregation process was directly simulated or measured.

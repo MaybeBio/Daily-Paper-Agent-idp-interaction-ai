@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36413333",
+  "title": "Approaches for the Identification of Intrinsically Disordered Protein Domains.",
+  "authors": "Wang, Huqiang; Yang, Zhixiang; Yang, Dong",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2022-11-23",
+  "window": {
+    "start": "2022-11-21",
+    "end": "2022-11-27"
+  },
+  "score": 4,
+  "one_liner_zh": "该文综述无序蛋白结构域预测与识别方法，聚焦对象轴但未涉及PPI互作机制或AI/物理模拟建模，仅方法概述，启发有限。",
+  "abstract": "Intrinsically disordered protein domains are those with high disorder proportion or a consecutive disordered region. They have no stable spatial structure but play an important role in the regulation of complex cellular functions and contribute to the increasing organism complexity during evolution. Here, we describe the approaches to predict intrinsic disorder values of residues in proteins and methods to identify the intrinsically disordered domains.",
+  "abstract_zh": "固有无序蛋白结构域是指具有高无序比例或连续无序区域的蛋白结构域。它们没有稳定的空间结构，但在复杂细胞功能的调控中发挥重要作用，并有助于进化过程中生物体复杂性的增加。在此，我们描述了预测蛋白质中残基固有无序值的方法，以及识别固有无序结构域的技术。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36413333/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36413333/",
+  "paper_page_path": "papers/pubmed/36413333/index.html"
+}

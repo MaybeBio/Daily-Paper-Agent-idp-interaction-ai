@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, conclusion, and materials and methods. Supporting information referenced but not provided.
+- **Assessment boundary** Scientific content, technical soundness, and internal consistency of the reported findings. No assessment of editorial fit or journal-specific scope.
+- **Shared manuscript claim summary** The authors investigate the multivalent interactions between β-lactoglobulin A (β-LgA) and defined alginate oligosaccharides (AOSs) of DP4-6 with M, G, or MG composition. They report binding stoichiometries decreasing from five to two AOSs per β-LgA with increasing DP, identify multiple binding sites via NMR chemical shift perturbation, and conclude that AOSs bind in a highly dynamic manner without a preferred conformation, based on STD, WaterLOGSY, and T1ρ experiments. Molecular docking suggests similar glide scores for different AOS orientations. The authors propose that this multivalency and dynamic binding underpin the formation of amorphous coacervates.
+- **Visible evidence base** Main text figures (Figures 1-7), tables (Table 1), supplementary figures and tables referenced (Figures S1-S28, Tables S1-S7), and methods descriptions.
+- **Missing materials affecting confidence** Supporting information (Figures S1-S28, Tables S1-S7, Data S1-S3) was not provided. This includes key data such as ITC fitting parameters, full CSP plots, STD build-up curves, docking scores for all sites, and methodological details referenced as "Data S1" and "Data S3". The absence of these materials limits verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in biomaterial design, namely the molecular basis of alginate-β-lactoglobulin coacervation. The combination of ITC, NMR, and docking is appropriate and potentially powerful. However, the current presentation has several technical gaps that prevent full evaluation. The claim of "highly dynamic binding" is supported by STD and WaterLOGSY data, but the interpretation is somewhat overextended given the lack of quantitative analysis (e.g., no relaxation dispersion or exchange rate measurements). The docking results are presented qualitatively, and the absence of supporting information makes it difficult to assess the robustness of the scoring and the structural conclusions. The link between the observed AOS binding behavior and the macroscopic coacervation properties remains largely speculative, as no coacervation experiments are performed in this study. Overall, the work is of interest to the protein-polysaccharide interaction community, but the evidence as presented does not fully establish the mechanistic claims.
+- **Who would be interested in the results, and why** Researchers in food science, biomaterials, and biophysics studying protein-polysaccharide interactions, complex coacervation, and phase separation. The work provides a molecular-level view of early binding events that could inform the design of encapsulation systems and hydrogels. The NMR methodology for studying weak, multivalent carbohydrate-protein interactions may also be of interest to structural biologists.
+- **Major strengths**
+  - The use of well-defined AOSs with controlled M/G composition and DP is a clear strength, allowing systematic structure-activity analysis.
+  - The combination of orthogonal biophysical techniques (ITC, protein- and ligand-based NMR, docking) is appropriate and complementary.
+  - The identification of multiple, chemically diverse binding sites on β-LgA is a valuable contribution.
+  - The observation of dynamic, non-specific binding behavior is consistent with the proposed role in amorphous aggregate formation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ITC-derived binding stoichiometries decrease from five to two AOSs per β-LgA with increasing DP, and that these stoichiometries correspond to 12-20 bound UARs per protein.
+  - **Evidence pointer** Figure 1c, Table S1 (not provided)
+  - **Concern** The ITC data are presented as stoichiometries (n values) but the fitting model is described only as "independent one-site binding model." For a system with multiple binding sites (up to 5), a one-site model is likely inadequate and may yield misleading stoichiometry and affinity values. The authors do not discuss whether sequential or cooperative binding models were tested. Additionally, the stoichiometry values (5.2 ± 0.4 to 1.9 ± 0.4) have large uncertainties that are not propagated into the derived UAR counts. The claim of "12-20 bound UARs" is therefore not robustly supported.
+  - **Why it matters** The stoichiometry is a central quantitative claim that underpins the multivalency argument. If the fitting model is inappropriate, the reported n values and KD values may be systematically biased, affecting the interpretation of the binding mode and the comparison across AOS types.
+  - **Resolution test** Provide the full ITC fitting results including goodness-of-fit parameters, and test alternative models (e.g., two-site sequential, cooperative). Show that the chosen model adequately describes the data and that the stoichiometry is robust to model choice. Report confidence intervals for n values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "AOSs exhibited no preferred conformation on β-LgA" and that binding is "highly dynamic," based on STD, WaterLOGSY, and T1ρ experiments.
+  - **Evidence pointer** Figures 5-6, Figures S19-S24 (not provided)
+  - **Concern** The conclusion of "no preferred conformation" is inferred from the observation that all proton peaks show STD effects and that docking yields multiple similar-scoring poses. However, STD experiments provide group epitope mapping information, not direct conformational information. The lack of differential STD intensities could indicate either truly dynamic binding or simply that the STD experiment is not sensitive enough to resolve differences. The authors do not quantify the STD intensities or compare them across protons. Similarly, WaterLOGSY and T1ρ are qualitative in this context. The docking results show RMSD differences of 5.3-15.9 Å between top poses, which is a large range and could indicate either genuine conformational heterogeneity or poor convergence of the docking protocol. No validation of the docking protocol (e.g., redocking of known ligands, cross-validation with experimental data) is presented.
+  - **Why it matters** The "highly dynamic" claim is central to the proposed mechanism of amorphous aggregate formation. If the evidence is not conclusive, the mechanistic interpretation is weakened. Overinterpretation of qualitative NMR data could mislead the field.
+  - **Resolution test** Provide quantitative STD intensities (e.g., epitope mapping bar charts) and show that they are uniform across the AOS. If possible, perform relaxation dispersion or line shape analysis to directly measure exchange rates. Validate the docking protocol and show that the multiple poses are not an artifact of insufficient sampling. Discuss the limitations of the qualitative NMR methods in supporting the "no preferred conformation" claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that their findings "may help explain the first steps toward disordered β-LgA alginate coacervate structures" and that the dynamic binding "translates to the understanding of the coacervation between β-LgA and full-length alginate."
+  - **Evidence pointer** Discussion section
+  - **Concern** The manuscript does not include any coacervation experiments. The connection between the AOS binding data and the macroscopic coacervation behavior of full-length alginate is entirely speculative. The authors cite previous work on polymer-level interactions, but do not demonstrate that the AOS behavior is representative of the polymer case. The extrapolation from short oligosaccharides (DP4-6) to polymers (DP>600) is non-trivial, as polymer length, chain flexibility, and multivalency effects could alter the binding mode.
+  - **Why it matters** The title and framing of the manuscript promise insights into coacervation, but the experimental system is limited to short oligosaccharides. Without direct evidence linking the two, the significance of the findings for coacervation is not established. This weakens the broader impact of the work.
+  - **Resolution test** Either add coacervation experiments with full-length alginate under similar conditions, or temper the claims in the title and discussion to clearly state that the AOS data are a model system and that extrapolation to polymers requires further validation. Discuss the potential differences between oligosaccharide and polymer behavior.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report that "KD values decreased three-fourfold for AOSs of DP4 through DP6" and that "KD values were around twofold higher at pH 2.65 than at pH 4.00."
+  - **Evidence pointer** Figure 1d, Table S1 (not provided)
+  - **Concern** The KD values are reported with standard deviations, but the number of replicates is not stated in the main text. The pH comparison is complicated by the fact that β-LgA is monomeric at pH 2.65 and dimeric at pH 4.00. The authors acknowledge this but do not discuss how dimerization might affect the apparent binding affinity. The comparison of KD values across pH values may therefore reflect differences in protein oligomeric state rather than intrinsic binding affinity changes.
+  - **Why it matters** The pH-dependent comparison is used to support the claim that binding is charge-dependent. If the effect is confounded by dimerization, the interpretation is not straightforward.
+  - **Resolution test** State the number of replicates for each ITC experiment. Discuss the potential effect of β-LgA dimerization on the measured KD values. Consider performing experiments at a pH where the oligomeric state is constant, or use a dimerization-deficient mutant to isolate the pH effect on binding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses technical terms (e.g., "multivalencies," "coacervation") without brief definitions. The phrase "amorphous aggregates and coacervation" in the title is somewhat redundant, as coacervation typically results in amorphous aggregates.
+  - **Required correction** Consider simplifying the abstract for a broader audience. Define "coacervation" and "multivalency" briefly. Reconsider the title wording for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 2a
+  - **Evidence pointer** Figure 2a
+  - **Issue** The linear correlation between enthalpy change and theoretical number of charges per AOS (R² = 0.99) is striking, but the theoretical charge calculation is based on monomer pKa values. The actual pKa of residues within an oligosaccharide may differ. The authors should acknowledge this approximation.
+  - **Required correction** Add a sentence in the results or discussion acknowledging the approximation in the charge calculation and its potential impact on the correlation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Docking section
+  - **Evidence pointer** Section 2.2, Data S3 (not provided)
+  - **Issue** The docking methodology is described only briefly. The protein structure preparation, grid box definition, and scoring function details are not provided in the main text. The reader is referred to Data S3, which was not available for review.
+  - **Required correction** Provide a brief summary of the docking protocol in the main text, including the protein structure used (PDB ID), the grid box dimensions, and the scoring function. Ensure Data S3 is complete and accessible.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion is somewhat repetitive and could be more focused. The connection between the observed dynamic binding and the "amorphous" nature of coacervates is stated multiple times without additional evidence.
+  - **Required correction** Streamline the discussion to avoid repetition. Focus on the most important implications and clearly separate supported conclusions from speculation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, STD experiments
+  - **Evidence pointer** Section 4.7
+  - **Issue** The STD build-up experiment is described, but the choice of saturation time (2 s) and the rationale for this choice are not fully explained. The authors state that 2 s yielded 50% of maximal signal, but it is unclear if this is optimal for quantitative comparisons.
+  - **Required correction** Briefly explain why 2 s was chosen and whether this saturation time is appropriate for the KD estimation. Discuss potential artifacts from spin diffusion at longer saturation times.
+
+## Risk / unsupported claims
+- The claim that "the multivalency coupled with highly dynamic AOS binding with lack of confined conformations in the β-LgA complexes may help explain the first steps toward disordered β-LgA alginate coacervate structures" is speculative and not directly tested in this study. No coacervation experiments were performed.
+- The statement that "the interaction is limited by the AOS charge state" is inferred from the correlation between enthalpy and theoretical charge, but this correlation is based on approximate pKa values and does not establish causality.
+- The claim that "not all β-LgA surfaces, which are favorable for binding uncharged AOSs (pH 2.65), are favorable for binding negatively charged AOSs (pH 4.00)" is based on docking results that are not fully validated and on a limited set of pH conditions.
+- The assertion that "the dimer interface does not coincide with the AOS binding sites" is stated without direct experimental evidence (e.g., no experiments at pH 4.00 with monomeric β-LgA).
+- The quantitative KD values from STD experiments are reported, but the fitting procedure and the assumptions underlying the KD estimation from STD data are not fully described, making these values difficult to evaluate.

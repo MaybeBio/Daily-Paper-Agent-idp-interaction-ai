@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose RevGraphVAMP, an unsupervised model combining graph convolutional neural networks, Markov variation method (VAMP), physical constraint optimization, and attention mechanisms for analyzing protein molecular dynamics simulation trajectories. They claim superior VAMP scores, state transition prediction accuracy, dimensionality reduction discrimination, and interpretability compared with other VAMPNets models on two public datasets.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, baseline specifications, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset identifiers, baseline model configurations, hyperparameter settings, code availability, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible methodological direction, namely the integration of graph convolutional networks with VAMP-based analysis of molecular dynamics trajectories, augmented by physical constraints and attention mechanisms. However, the current evidence base is insufficient to evaluate the validity of the central claims. No quantitative results, dataset details, or methodological specifics are provided in the abstract. The claims of superiority over other VAMPNets models cannot be assessed without baseline definitions, error bars, or statistical testing. The interpretability claim is particularly underspecified, as no mechanism for validating biological meaning is described.
+- **Who would be interested in the results, and why** Computational biophysicists and cheminformaticians working on molecular dynamics trajectory analysis, particularly those developing deep learning methods for protein conformational state identification. Researchers in drug discovery who rely on MD simulations for understanding protein dynamics and allosteric mechanisms may also find the approach relevant if the interpretability claims are substantiated. The methodological combination of graph neural networks with VAMP is of interest to the machine learning for molecular simulation community.
+- **Major strengths** The proposed integration of graph convolutional networks with VAMP is a reasonable and timely methodological direction. The explicit incorporation of physical constraints is conceptually appealing and addresses a known limitation of purely data-driven approaches. The attention mechanism for molecular importance weighting is a sensible strategy for interpretability. The focus on unsupervised learning for trajectory analysis is appropriate given the limited labeled data in this domain.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that RevGraphVAMP achieved the highest VAMP scores and better state transition prediction accuracy compared with other VAMPNets models on two public datasets.  
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative values provided  
+  - **Concern** No numerical results are presented. The claim of superiority is made without any reported metrics, error bars, or statistical significance testing. It is impossible to determine whether the observed improvements are meaningful or within noise.  
+  - **Why it matters** The central contribution of the paper rests on demonstrated performance improvements over existing methods. Without quantitative evidence, the claim is unverifiable and the scientific case is not established.  
+  - **Resolution test** Provide the actual VAMP scores and state transition prediction accuracies for RevGraphVAMP and all baselines, with standard deviations or confidence intervals across multiple runs, and statistical tests where appropriate.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological clarity  
+  - **Claim pointer** The abstract states that physical constraint optimization is innovatively integrated to improve learning performance.  
+  - **Evidence pointer** Abstract only; no methodological details provided  
+  - **Concern** The nature of the physical constraints is not specified. It is unclear whether these constraints are applied as loss function terms, architectural inductive biases, or post-processing filters. The term "physical constraint optimization" is ambiguous and could refer to multiple distinct approaches.  
+  - **Why it matters** Reproducibility and scientific evaluation require a precise description of how physical knowledge is encoded. Without this, the novelty claim cannot be assessed and the method cannot be replicated.  
+  - **Resolution test** Describe the exact form of the physical constraints, how they are incorporated into the optimization procedure, and what physical principles they encode.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Interpretability validation  
+  - **Claim pointer** The abstract claims that the model provides interpretable results for protein structural characterization and that the attention mechanism leads to interpretation of molecular mechanism.  
+  - **Evidence pointer** Abstract only; no validation strategy described  
+  - **Concern** No evidence is presented that the attention weights correspond to physically meaningful molecular features. Attention interpretability is notoriously unreliable, and no correlation with known structural or functional annotations is reported.  
+  - **Why it matters** The interpretability claim is a key differentiator of this work. If the attention weights do not align with known biology, the claim is misleading and the practical utility for mechanistic understanding is unsubstantiated.  
+  - **Resolution test** Provide quantitative validation of attention weights against known functional residues, binding sites, or experimentally characterized conformational states, with appropriate statistical measures.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Dataset and baseline specification  
+  - **Claim pointer** The abstract states that two public datasets were used for comparison with other VAMPNets models.  
+  - **Evidence pointer** Abstract only; dataset names and baseline identities not provided  
+  - **Concern** The datasets are not identified, and the specific VAMPNets baselines are not named. Different datasets and baseline configurations can dramatically affect comparative results.  
+  - **Why it matters** Without dataset and baseline specification, the comparison is not reproducible and the generality of the findings cannot be evaluated.  
+  - **Resolution test** Name the datasets, provide accession or download information, list all baseline models with their configurations, and describe the evaluation protocol in detail.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Dimensionality reduction discrimination  
+  - **Claim pointer** The abstract claims higher dimensionality reduction discrimination ability for different substates.  
+  - **Evidence pointer** Abstract only; no quantitative metric or visualization described  
+  - **Concern** The term "discrimination ability" is not defined. It is unclear whether this refers to clustering metrics, state assignment accuracy, or separation measures in latent space.  
+  - **Why it matters** A vague performance claim without a defined metric cannot be evaluated or compared against alternative methods.  
+  - **Resolution test** Define the specific metric used to quantify discrimination ability, report its values for all methods, and provide visualizations such as latent space projections with state labels.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of terminology  
+  - **Affected element** "Markov variation method (VAMP)"  
+  - **Evidence pointer** Abstract  
+  - **Issue** The standard term in the literature is "variational approach for Markov processes" or "VAMP" without "Markov variation method." The phrasing may confuse readers familiar with the field.  
+  - **Required correction** Use the established terminology, for example "variational approach for Markov processes (VAMP)."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope of interpretability claim  
+  - **Affected element** "interpretable results for protein structural characterization"  
+  - **Evidence pointer** Abstract  
+  - **Issue** The claim is broad and could be interpreted as providing structural interpretations beyond what attention weights can offer.  
+  - **Required correction** Clarify the scope of interpretability, for example by specifying that interpretability refers to residue-level importance scores rather than full structural characterization.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Model name justification  
+  - **Affected element** "RevGraphVAMP"  
+  - **Evidence pointer** Abstract  
+  - **Issue** The prefix "Rev" is not explained. It is unclear what is being reversed or revised.  
+  - **Required correction** Provide a brief explanation of the model name in the abstract or introduction.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Physical constraint specificity  
+  - **Affected element** "physical constraint optimization"  
+  - **Evidence pointer** Abstract  
+  - **Issue** The phrase is vague and could refer to many different regularization strategies.  
+  - **Required correction** Give at least one concrete example of the physical constraint used, such as bond length preservation or torsional angle restraints.
+
+## Risk / unsupported claims
+- The claim of achieving the highest VAMP scores and better state transition prediction accuracy is unsupported by any reported numerical data in the abstract.
+- The claim of higher dimensionality reduction discrimination ability is unsupported by any defined metric or quantitative result.
+- The claim of providing interpretable results for protein structural characterization is unsupported by any validation evidence.
+- The novelty claim regarding physical constraint integration cannot be assessed without methodological details.
+- The generalizability of the approach beyond the two unnamed datasets cannot be evaluated.

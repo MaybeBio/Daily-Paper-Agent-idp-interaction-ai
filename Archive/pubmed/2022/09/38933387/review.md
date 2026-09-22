@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, figures and figure legends, and supplementary materials description.
+- **Assessment boundary** Scientific validity, technical soundness, clarity of claims, and alignment of evidence with conclusions as presented in the provided manuscript. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors present an optogenetic system using a Pur α-Cry2 fusion protein to induce phase separation of GGGGCC repeat-containing RNA in HEK293T cells upon blue light illumination. They report that longer repeat lengths produce more foci, that induced foci are liquid-like by FRAP, and that computational simulations support the experimental observations.
+- **Visible evidence base** Figures 1-4 with legends, Table 1 (simulation parameters), methods descriptions, and statistical analysis details.
+- **Missing materials affecting confidence** Raw imaging data, full FRAP curves with replicates, quantification methodology details, simulation code, and supplementary figures referenced but not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful optogenetic tool for inducing RNA foci formation in living cells. The core concept is interesting and the experimental design is logical. However, several technical concerns limit the strength of the conclusions as currently presented. The evidence for specificity, the quantitative rigor of the imaging analyses, and the biological relevance of the system require further support. The computational model, while consistent with experiments, relies on parameters that are not fully justified.
+- **Who would be interested in the results, and why** Researchers studying RNA phase separation, repeat expansion disorders such as C9orf72 ALS/FTD, and those developing optogenetic tools for studying biomolecular condensates. The system could provide a means to test causal relationships between RNA foci formation and cellular dysfunction.
+- **Major strengths** The optogenetic approach is novel for RNA foci induction. The use of Pur α as a specific linker is well reasoned. The combination of experimental and computational approaches is commendable. The authors acknowledge limitations of their system, which is appreciated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the optogenetic system specifically induces (G4C2)n RNA foci through Pur α-mediated binding and Cry2 oligomerization.
+  - **Evidence pointer** Figure 1, Figure 2a, Results section "Establishment of the optogenetic control system"
+  - **Concern** The specificity of the system is not fully established. The negative control (Cry2 without Pur α) shows spontaneous foci but no induced foci, which supports the role of Pur α. However, there is no control showing that Pur α-Cry2 does not induce foci of non-G4C2 RNAs or that the effect is dependent on the G4C2 repeat sequence. Additionally, the co-localization analysis is qualitative; no quantitative measure such as Pearson's coefficient is provided.
+  - **Why it matters** Without demonstrating that the system does not non-specifically induce phase separation of other RNAs, the claim of specific control over (G4C2)n RNA foci is not fully supported. This is central to the utility of the tool.
+  - **Resolution test** Provide a control experiment with a non-G4C2 RNA (e.g., a random sequence or a different repeat) to show no induced foci. Quantify co-localization using a standard metric. Show that Pur α-Cry2 does not form puncta in the absence of G4C2 RNA.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the number of foci is significantly higher for 29x G4C2 RNA compared to 5x G4C2 RNA after light induction.
+  - **Evidence pointer** Figure 1f, Results section "Induction of (G4C2)29 RNA foci assembly"
+  - **Concern** The quantification of foci number is described only briefly. The methods for counting foci, the number of cells analyzed, the number of independent experiments, and the statistical test details are not fully provided. The figure legend states "unpaired two-tailed t test" but the sample size and whether the data meet the assumptions of this test are unclear. The p-value is reported as p<0.05, but the exact value is not given.
+  - **Why it matters** The claim of repeat-length-dependent foci formation is a key result. Without rigorous quantification, the conclusion is not robustly supported.
+  - **Resolution test** Provide full details of the quantification: number of cells, number of experiments, criteria for identifying foci, and appropriate statistical analysis with exact p-values. Consider using a mixed-effects model to account for cell-to-cell variability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that induced foci are liquid-like based on FRAP recovery.
+  - **Evidence pointer** Figure 3, Results section "Physical properties of (G4C2)n RNA foci"
+  - **Concern** The FRAP data are presented as a single recovery curve (Figure 3c) with mean and SD, but the number of independent experiments, the number of foci analyzed, and the time course details are not provided. The recovery curves for spontaneous and induced foci appear similar, but no statistical comparison is shown. The authors state that recovery is "nearly identical" but do not provide a quantitative test.
+  - **Why it matters** The liquid-like property of induced foci is important for their relevance to physiological condensates. Without proper statistical comparison, the claim is not fully supported.
+  - **Resolution test** Provide FRAP data from multiple independent experiments with the number of foci analyzed. Perform a statistical comparison of recovery half-times or mobile fractions between spontaneous and induced foci. Report the full recovery curves with error bars.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that computational simulations show strong consistency with experimental results and support the effect of the system to promote phase separation.
+  - **Evidence pointer** Figure 4, Table 1, Methods section "Computational simulation"
+  - **Concern** The simulation parameters in Table 1 are not justified. The values for NB, NC, and the chi parameters are stated without explanation of how they were derived. The model is a simplified ternary system, but the mapping between the model parameters and the biological system is not clear. The claim of "strong consistency" is based on qualitative comparison of curve shapes, not quantitative fitting.
+  - **Why it matters** The simulation is presented as supporting evidence, but without justification of parameters and a quantitative comparison, its value is limited.
+  - **Resolution test** Justify the parameter choices with references or experimental measurements. Provide a quantitative comparison between simulation predictions and experimental data, such as predicted versus observed foci numbers or phase boundaries.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the system "can be used to investigate whether (G4C2)n RNA foci would disrupt normal cellular processes," but the manuscript does not present any functional studies beyond the apoptosis assay. This overstates the current scope.
+  - **Required correction** Revise the abstract to reflect that the system is a tool that could enable such studies, not that it has been used for them here.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, FRAP
+  - **Evidence pointer** Methods section "FRAP"
+  - **Issue** The FRAP method description is brief. It does not specify the bleaching region size, the imaging acquisition rate, or the normalization procedure in detail.
+  - **Required correction** Provide a more detailed description of the FRAP protocol, including the number of pre-bleach frames, the bleach duration, and the post-bleach acquisition time.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, Figure 2b
+  - **Evidence pointer** Figure 2b, Results section "Induction of (G4C2)n RNA foci assembly did not influence apoptosis"
+  - **Issue** The apoptosis assay is described as using "NucView 488 caspase-3 dye" and the data are shown in Figure 2b, but the figure legend does not clearly state what the "green fluorescent puncta" represent or how the signal was normalized.
+  - **Required correction** Clarify the figure legend and the methods for the apoptosis assay, including what is being counted and how normalization to cell confluence was performed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion is somewhat repetitive and could be more concise. Some statements about limitations are repeated multiple times.
+  - **Required correction** Streamline the discussion to avoid redundancy and focus on the key implications and limitations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (specificity controls), R1-M2 (quantification rigor), R1-M3 (FRAP statistical comparison), R1-M4 (simulation parameter justification).
+- **Assessment against Nature-style criteria** Originality: The optogenetic approach to control RNA phase separation is novel and represents a creative application of existing tools. Scientific importance: The tool could be valuable for studying repeat expansion disorders, but the current manuscript does not yet demonstrate biological insights beyond tool development. Interdisciplinary readership: The work bridges optogenetics, RNA biology, and neurodegeneration, which could appeal to a broad audience. Technical soundness: The core experiments are logically designed, but the quantitative rigor and controls are insufficient to fully support the claims. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some methods sections could be clearer.
+- **Recommendation posture** Supportive if technical concerns are resolved. The concept is promising and the tool could be useful, but the current evidence does not fully establish the specificity, quantitative robustness, or biological relevance of the system. Addressing the major concerns would substantially strengthen the manuscript.

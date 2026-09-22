@@ -1,0 +1,444 @@
+{
+  "identity": {
+    "pmid": "42248893",
+    "doi": "10.1038/s41467-026-73863-x",
+    "title": "Targeting the intrinsically disordered AR-NTD through a machine learning-based enhanced sampling workflow."
+  },
+  "content": {
+    "abstract": "Targeting the intrinsically disordered N-terminal domain of the androgen receptor (AR-NTD) represents a promising strategy to overcome resistance in prostate cancer. However, its inherent lack of a stable tertiary structure and highly dynamic conformational ensemble pose formidable challenges for rational drug design. This study introduces an integrated computational workflow that combines enhanced sampling techniques and machine learning collective variables to identify druggable conformations of the AR-NTD and elucidate the binding mechanism of its modulator, EPI-002. We characterize nine metastable states of the Tau-5 region and reveal that ligand recognition is driven by pi-pi stacking and structured water-mediated hydrogen bonds. Leveraging these insights, we perform structure-based virtual screening based on the identified druggable conformations and identify K53, a rationally designed AR-NTD antagonist, which exhibits potent anti-proliferative activity in enzalutamide-resistant prostate cancer cells. K53 directly binds the AR-NTD, suppresses AR transcriptional activity, and demonstrates high selectivity for cancer cells. This work provides a rational design paradigm for targeting intrinsically disordered proteins and offers a therapeutic candidate for resistant prostate cancer.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Humans",
+      "*Receptors, Androgen/metabolism/chemistry/genetics",
+      "*Prostatic Neoplasms/drug therapy/metabolism/pathology",
+      "Cell Line, Tumor",
+      "Drug Design",
+      "Male",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/antagonists & inhibitors",
+      "*Androgen Receptor Antagonists/pharmacology/chemistry",
+      "Workflow",
+      "Protein Domains",
+      "Ligands",
+      "Drug Resistance, Neoplasm/drug effects",
+      "Cell Proliferation/drug effects",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Kai",
+        "Wang, Huating",
+        "Zhang, Jintu",
+        "Hu, Renling",
+        "Jiang, Linlong",
+        "Zhang, Hui",
+        "Kang, Yu",
+        "Hou, Tingjun",
+        "Li, Dan"
+      ],
+      "short_names": [
+        "Zhu K",
+        "Wang H",
+        "Zhang J",
+        "Hu R",
+        "Jiang L",
+        "Zhang H",
+        "Kang Y",
+        "Hou T",
+        "Li D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0999-8802",
+        "ORCID: 0000-0001-7227-2580"
+      ],
+      "affiliations": [
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+        "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+        "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+        "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+        "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+        "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+        "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+        "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+        "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China. tingjunhou@zju.edu.cn.",
+        "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China. tingjunhou@zju.edu.cn.",
+        "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China. tingjunhou@zju.edu.cn.",
+        "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China. lidancps@zju.edu.cn.",
+        "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China. lidancps@zju.edu.cn.",
+        "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China. lidancps@zju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Kai",
+        "short_name": "Zhu K",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+          "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+          "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Huating",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+          "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+          "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jintu",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+          "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+          "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Renling",
+        "short_name": "Hu R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+          "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+          "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Linlong",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+          "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+          "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hui",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+          "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+          "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China."
+        ]
+      },
+      {
+        "full_name": "Kang, Yu",
+        "short_name": "Kang Y",
+        "identifiers": [
+          "0000-0002-0999-8802"
+        ],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.",
+          "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China.",
+          "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China."
+        ]
+      },
+      {
+        "full_name": "Hou, Tingjun",
+        "short_name": "Hou T",
+        "identifiers": [
+          "0000-0001-7227-2580"
+        ],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China. tingjunhou@zju.edu.cn.",
+          "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China. tingjunhou@zju.edu.cn.",
+          "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China. tingjunhou@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Dan",
+        "short_name": "Li D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China. lidancps@zju.edu.cn.",
+          "Jinhua Institute of Zhejiang University, Jinhua, Zhejiang, China. lidancps@zju.edu.cn.",
+          "Zhejiang Provincial Engineering Research Center for Innovative Small-Molecule Drugs, Jinhua, China. lidancps@zju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jun 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/06 00:35",
+    "fetched_at": "2026-09-18 03:49:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41124671",
+      "40460055",
+      "40446154",
+      "40325221",
+      "39665183",
+      "39604646",
+      "39589882",
+      "38920405",
+      "38839932",
+      "38251829",
+      "38146212",
+      "38049566",
+      "37409767",
+      "37142585",
+      "36791464",
+      "36587421",
+      "36302916",
+      "36114175",
+      "35617155",
+      "34965117",
+      "34706940",
+      "34469175",
+      "34265844",
+      "34164069",
+      "33978290",
+      "33893803",
+      "33579943",
+      "33574233",
+      "33397926",
+      "32814837",
+      "32239945",
+      "32191470",
+      "32002708",
+      "30639122",
+      "30368832",
+      "30247897",
+      "29943074",
+      "29735687",
+      "28433026",
+      "27951677",
+      "27819658",
+      "27726386",
+      "27356095",
+      "27186992",
+      "27174161",
+      "26980304",
+      "26931396",
+      "26814148",
+      "26616604",
+      "25774711",
+      "25531225",
+      "25061441",
+      "24932913",
+      "24916536",
+      "24739139",
+      "24551051",
+      "23750122",
+      "23722902",
+      "23553839",
+      "22815918",
+      "22360139",
+      "21714551",
+      "21322734",
+      "20966940",
+      "20628786",
+      "20541699",
+      "19173328",
+      "19022175",
+      "18612376",
+      "18284209",
+      "18232845",
+      "17212484",
+      "16873662",
+      "16200636",
+      "16172406",
+      "15738986",
+      "15116359",
+      "15027866",
+      "15027865",
+      "15023052",
+      "12271136",
+      "10056251",
+      "10033814"
+    ],
+    "similar": [
+      "42248893",
+      "41544581",
+      "32100577",
+      "42045150",
+      "32734688",
+      "27576691",
+      "42290011",
+      "34506104",
+      "23722902",
+      "28851578",
+      "30345525",
+      "39388218",
+      "39665260",
+      "35634773",
+      "39577229",
+      "41099751",
+      "25669987",
+      "27212126",
+      "27140928",
+      "31481513",
+      "40788283",
+      "42263596",
+      "40490871",
+      "30711833",
+      "38600681",
+      "30185422",
+      "31755396",
+      "35333596",
+      "36893587",
+      "30629437",
+      "40382837",
+      "33756125",
+      "27184811",
+      "32002708",
+      "33391515",
+      "21712449",
+      "41742135",
+      "38481034",
+      "31804827",
+      "30410767",
+      "36587421",
+      "38661004",
+      "40460055",
+      "38532114",
+      "37139712",
+      "26083457",
+      "27628492",
+      "33801338",
+      "32847976",
+      "28757136",
+      "38626524",
+      "30297360",
+      "42430428",
+      "40753934",
+      "27765852",
+      "25459660",
+      "39053630",
+      "37556600",
+      "24874833",
+      "31431473",
+      "33095584",
+      "41237749",
+      "24740322",
+      "30109944",
+      "38762061",
+      "41106066",
+      "30009471",
+      "36720643",
+      "38754311",
+      "25268119",
+      "39892096",
+      "30482547",
+      "36229685",
+      "29117897",
+      "37486978",
+      "30228001",
+      "30828788",
+      "35905763",
+      "20541699",
+      "27276681",
+      "30639122",
+      "23278403",
+      "38898473",
+      "20709811",
+      "38750073",
+      "17942941",
+      "41371423",
+      "32713076",
+      "39531508",
+      "32560058",
+      "32247852",
+      "33767381",
+      "33388655",
+      "22798067",
+      "24780839",
+      "30165195",
+      "25062331",
+      "22456197",
+      "31931431",
+      "22924551"
+    ],
+    "review": [
+      "42248893",
+      "41544581",
+      "32100577",
+      "42290011",
+      "27212126",
+      "27184811",
+      "36587421"
+    ],
+    "pmc": [
+      "13396667"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/prostatecancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Prostate Cancer"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-026-73863-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42248893/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

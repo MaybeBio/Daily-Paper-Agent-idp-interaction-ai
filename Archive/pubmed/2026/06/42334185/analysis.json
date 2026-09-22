@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42334185",
+  "title": "Temperature-Dependent Dynamics of Abeta42 and alpha-Synuclein Monomers and Early Oligomerization of Abeta42: Shared Residues Mediate Intra- and Intermolecular beta-Sheets.",
+  "authors": "Martins, Gabriel F; Rocha, Cristiano; Galamba, Nuno",
+  "journal": "ACS chemical neuroscience",
+  "published_date": "2026-06-23",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用MD模拟研究Abeta42和alpha-synuclein无序蛋白单体及Abeta42寡聚体的温度依赖性构象动态，揭示共享残基介导分子内/间beta-sheet形成与聚集机制，直接契合无序蛋白互作机制建模主题。",
+  "abstract": "We used molecular dynamics simulations to investigate how temperature modulates hydrophobic interactions and beta-sheet formation in the CHARMM36m model of intrinsically disordered proteins, focusing on a monomer of amyloid-beta (Abeta42) and alpha-synuclein, as well as a dimer and tetramer of Abeta42. For the isolated monomers, increasing temperature leads to an increase in intramolecular contacts, promoting hydrogen bonding and secondary-structure reorganization toward beta-sheet and turn motifs. Analysis of the dimer and tetramer of Abeta42 reveals increased conformational heterogeneity at high temperatures, suggesting a smaller-than-expected configurational entropy penalty upon association. Thus, whereas monomers undergo temperature-induced compaction, enhancing intramolecular interactions, including the formation of beta-sheets, in the dimer and tetramer, hydrophobic stabilization is redirected toward aggregation, promoting cross-beta-sheet formation, peptide elongation, and the emergence of spherical conformations. Notably, the residues that stabilize intramolecular beta-sheets in the monomer (approximately sequences 16-22 and 29-36) largely overlap with those that form cross-beta-sheet motifs in the aggregates, suggesting that intramolecular beta-sheet formation is intrinsically linked to aggregation propensity. These results, in close agreement with earlier NMR measurements of the monomer and protofibrils, reveal a competition between intra- and intermolecular hydrophobic interactions, with intermolecular interactions ultimately becoming more favorable than the intramolecular interactions that stabilize monomer solvation.",
+  "abstract_zh": "我们利用分子动力学 (molecular dynamics) 模拟研究了温度如何调节CHARMM36m模型中 intrinsically disordered proteins 的疏水相互作用和β-折叠形成，重点关注amyloid-beta (Abeta42) 和alpha-synuclein的单体，以及Abeta42的二聚体和四聚体。对于分离的单体，温度升高导致分子内接触增加，促进氢键形成和二级结构重组，向β-折叠和转角基序转变。对Abeta42二聚体和四聚体的分析显示，高温下构象异质性增加，表明结合时的构象熵惩罚小于预期。因此，尽管单体经历温度诱导的压缩，增强分子内相互作用（包括β-折叠形成），但在二聚体和四聚体中，疏水稳定化被重新导向聚集，促进交叉β-折叠基序形成、肽链延伸和球形构象的出现。值得注意的是，稳定单体中分子内β-折叠的残基（大约序列16-22和29-36）与聚集体中形成交叉β-折叠基序的残基高度重叠，表明分子内β-折叠形成与聚集倾向内在相关。这些结果与早期对单体和原纤维的NMR测量高度一致，揭示了分子内和分子间疏水相互作用之间的竞争，最终分子间相互作用变得比稳定单体溶剂化的分子内相互作用更有利。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42334185/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42334185/",
+  "paper_page_path": "papers/pubmed/42334185/index.html"
+}

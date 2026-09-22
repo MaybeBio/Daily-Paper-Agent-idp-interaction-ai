@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.05.636647",
+  "title": "Mechanisms of transcription attenuation and condensation of RNA polymerase II by RECQ5",
+  "authors": "Sebesta M; Skubnik K; Morton W; Kravec M; Linhartova K; Klapstova V; Novacek J; Kubicek K; Bryja V; Vacha R; Stefl R",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-05",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合冷冻电镜、冷冻断层扫描和粗粒化模拟，揭示RECQ5通过刹车螺旋门控RNA聚合酶II易位并形成凝聚体支架整合P-RNAPII复合物的多尺度互作机制，直接涉及IDR/CTD介导的PPI与相分离结构建模，高度契合本课题。",
+  "abstract": "The elongation rates of RNA polymerase II (RNAPII) require precise control to prevent transcriptional stress, which can impede co-transcriptional pre-mRNA processing and contribute to many age- or disease-associated molecular changes ( e.g. , loss of proteostasis) 1–5 . Additionally mesoscale organization of transcription is thought to control the transcriptional rates 6 and multiple factors have been reported to form biomolecular condensates and integrate RNAPII through the interaction with the C-terminal domain (CTD) of the largest subunit, RPB1 7–10 . However, the structural organization of these condensates remains uncharacterized due to their small size and inherently dynamic nature. Here, we investigated the molecular mechanisms by which a general transcription factor – RECQ5 – associates with hyperphosphorylated RNAPII elongation complex (P-RNAPII EC) and controls translocation of RNAPII along genes. We combined biochemical reconstitution, electron cryomicroscopy, cryotomography, and coarse-grained simulations. We report two mechanisms by which RECQ5 modulates RNAPII transcription. At the atomic level, we demonstrate that RECQ5 uses the brake helix as a doorstop to control RNAPII translocation along DNA, attenuating transcription. At the mesoscale level, RECQ5 forms a condensate scaffold matrix, integrating P-RNAPII EC through a network of site-specific interactions, reinforcing the condensate’s structural integrity. Our integrative, multi-scale study provides insights into the structural basis of transcription attenuation and into the molecular architecture and biogenesis of a model RNAPII condensate.",
+  "abstract_zh": "RNA聚合酶II（RNAPII）的延伸速率需要精确调控，以防止转录应激，这种应激可能阻碍共转录前体mRNA加工，并促成许多与年龄或疾病相关的分子变化（例如，蛋白质稳态丧失）1–5。此外，转录的中尺度组织被认为控制转录速率6，且多种因子已被报道形成生物分子凝聚体，并通过与最大亚基RPB1的C端结构域（CTD）相互作用整合RNAPII 7–10。然而，由于这些凝聚体尺寸小且本质动态，其结构组织仍未得到表征。在此，我们研究了通用转录因子RECQ5与高磷酸化RNAPII延伸复合物（P-RNAPII EC）关联并控制RNAPII沿基因转位的分子机制。我们结合了生化重构、冷冻电镜、冷冻断层扫描和粗粒化模拟。我们报告了RECQ5调节RNAPII转录的两种机制。在原子水平上，我们证明RECQ5利用制动螺旋作为门挡来控制RNAPII沿DNA的转位，从而减弱转录。在中尺度水平上，RECQ5形成凝聚体支架基质，通过位点特异性相互作用网络整合P-RNAPII EC，增强凝聚体的结构完整性。我们的整合性多尺度研究为转录衰减的结构基础以及模型RNAPII凝聚体的分子架构和生物发生提供了见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.05.636647",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.05.636647",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.05.636647/index.html"
+}

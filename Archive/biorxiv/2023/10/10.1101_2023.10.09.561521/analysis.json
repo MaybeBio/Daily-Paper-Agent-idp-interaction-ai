@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.09.561521",
+  "title": "Bsp1, a fungal CPI motif protein, regulates actin filament capping in endocytosis and cytokinesis",
+  "authors": "Hummel DR; Hakala M; Toret CP; Kaksonen M",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-10",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 3,
+  "one_liner_zh": "该文研究真菌CPI基序蛋白Bsp1调控肌动蛋白丝加帽的机制，对象为折叠蛋白肌动蛋白体系，无无序蛋白/相分离背景，且无AI或物理模拟方法，仅实验表征，与本课题关联微弱。",
+  "abstract": "The capping of barbed filament ends is a fundamental mechanism for actin regulation. Capping protein controls filament growth and actin turnover in cells by binding to the barbed ends of the filaments with high affinity and slow off-rate. The interaction between Capping protein and actin is regulated by capping protein interaction (CPI) motif proteins. We identified a novel CPI motif protein, Bsp1, which is involved in cytokinesis and endocytosis in budding yeast. We demonstrate that Bsp1 is an actin binding protein with a high affinity for capping protein via its CPI motif. In cells, Bsp1 regulates capping protein at endocytic sites and is a major recruiter of capping protein to the cytokinetic actin ring. Lastly, we define Bsp1-related proteins as a distinct fungi-specific CPI protein group. Our results suggest that Bsp1 promotes actin filament capping by the capping protein. This study establishes Bsp1 as a new capping protein regulator and promising candidate to regulate actin networks in fungi.",
+  "abstract_zh": "肌动蛋白丝末端加帽是肌动蛋白调控的基本机制。加帽蛋白通过高亲和力结合丝状末端且解离速率缓慢，控制细胞中肌动蛋白丝的生长和肌动蛋白周转。加帽蛋白与肌动蛋白之间的相互作用受加帽蛋白相互作用（CPI）基序蛋白的调控。我们鉴定了一种新型CPI基序蛋白Bsp1，它参与芽殖酵母的细胞分裂和胞吞作用。我们证明Bsp1是一种肌动蛋白结合蛋白，通过其CPI基序对加帽蛋白具有高亲和力。在细胞中，Bsp1在内吞位点调控加帽蛋白，并且是将加帽蛋白招募至胞质分裂肌动蛋白环的主要因子。最后，我们将Bsp1相关蛋白定义为一个独特的真菌特异性CPI蛋白组。我们的结果表明，Bsp1通过加帽蛋白促进肌动蛋白丝加帽。本研究确立了Bsp1作为一种新的加帽蛋白调控因子，并作为调控真菌肌动蛋白网络的有前景候选分子。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.09.561521",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.09.561521",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.09.561521/index.html"
+}

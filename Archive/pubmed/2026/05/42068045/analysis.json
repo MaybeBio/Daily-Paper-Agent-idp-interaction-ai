@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42068045",
+  "title": "Cytoskeleton-regulated condensation of integral membrane proteins during cell adhesion.",
+  "authors": "Li, Long; Li, Junai; Li, Zhenyuan; Luo, Meiying; Du, Ruotian; Shao, Yingfeng; Li, Yan; Hu, Jinglei; Song, Fan",
+  "journal": "Biophysical journal",
+  "published_date": "2026-05-02",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用蒙特卡洛模拟和平均场理论研究细胞骨架调控整合膜蛋白在细胞黏附中的凝聚/相分离，虽对象非典型IDP，但聚焦膜蛋白凝聚的物理机制建模，对无序蛋白介导的相分离PPI机制研究有方法迁移价值。",
+  "abstract": "Understanding protein condensation and its functional implications has been increasingly recognized as crucial for elucidating physiological functions and pathological disorders as well as for stimulating novel therapeutic strategies. Recent evidence suggests that the cytoskeleton participates in regulating the condensation of cytoplasmic proteins at the cell membrane in the context of adhesion. By contrast, a fundamental question remains of how the cytoskeleton affects the condensation of the integral membrane proteins during cell adhesion and which functional consequences arise from this process. Using both Monte Carlo simulations and mean field theory, we find that the steric hindrance imposed on adhesion proteins and the protrusive forces exerted on the cell membrane by the cytoskeletal networks can cooperatively drive protein condensation and facilitate phase separation in the cell adhesion system even in the absence of active cytoskeletal transport processes. Meanwhile, our results show that the overall intercellular receptor-ligand interaction can be either enhanced or suppressed during protein condensation, depending sensitively on the interplay between cytoskeleton-protein and cytoskeleton-membrane interactions. Our findings advance our understanding regarding the role of the cytoskeleton in protein condensation and the resulting functional implications.",
+  "abstract_zh": "理解蛋白质凝聚及其功能意义，已被日益认识到对于阐明生理功能和病理紊乱以及激发新型治疗策略至关重要。近期证据表明，细胞骨架在粘附背景下参与调节细胞膜处胞质蛋白的凝聚。相比之下，一个基本问题仍然存在：在细胞粘附过程中，细胞骨架如何影响整合膜蛋白的凝聚，以及这一过程产生哪些功能后果。通过使用蒙特卡洛模拟和平均场理论，我们发现，即使在没有主动细胞骨架运输过程的情况下，细胞骨架网络对粘附蛋白施加的空间位阻以及对细胞膜施加的突出力也能协同驱动蛋白质凝聚，并促进细胞粘附系统中的相分离（phase separation）。同时，我们的结果表明，在蛋白质凝聚过程中，整体细胞间受体-配体相互作用可能增强或抑制，这敏感地依赖于细胞骨架-蛋白质与细胞骨架-膜相互作用的相互作用。我们的发现推进了对细胞骨架在蛋白质凝聚中作用及其功能意义的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42068045/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42068045/",
+  "paper_page_path": "papers/pubmed/42068045/index.html"
+}

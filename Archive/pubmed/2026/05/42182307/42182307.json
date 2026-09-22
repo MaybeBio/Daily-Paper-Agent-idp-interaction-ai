@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "42182307",
+    "doi": "10.64898/2026.05.12.724662",
+    "title": "Membrane Phase, Charge, and Curvature Regulate alpha-Synuclein Binding Dynamics."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein (alphaSyn) is an intrinsically disordered protein whose interactions with lipid membranes are central to both its physiological function and its role in synucleopathies. While membrane charge, phase, and curvature are each known to influence alphaSyn binding, these properties are typically examined independently, leaving their combined effects on both equilibrium and dynamic membrane association unresolved. Here, we systematically investigate how membrane phase and charge jointly regulate alphaSyn binding, curvature sensitivity, and exchange dynamics using fluorescence microscopy, circular dichroism spectroscopy, and fluorescence recovery after photobleaching (FRAP), complemented by coarse-grained molecular dynamics simulations. Under zwitterionic conditions, alphaSyn preferentially binds highly curved gel-phase membranes, driven by curvature-dependent enrichment of packing defects arising from faceted vesicle morphologies. Incorporation of anionic lipids selectively enhances binding in liquid-phase membranes while attenuating curvature-dependent partitioning in gel-phase membranes. Dynamic measurements reveal that membrane phase and charge also govern the stability of membrane-associated alphaSyn, with gel-phase membranes and anionic lipids promoting kinetically stabilized states. Simulations show that curvature-induced defect formation is strongly amplified in gel-phase membranes but largely insensitive to charge. These findings establish that alphaSyn-membrane interactions are governed by a cooperative interplay between membrane phase, curvature, and charge and highlight the importance of resolving both thermodynamic and kinetic contributions to protein-membrane binding.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kou, Orianna H",
+        "Sakurai, Cailyn M",
+        "Ramirez, Stephanie Y",
+        "Kim, Brian H",
+        "Johnson, David H",
+        "Zhang, Zixin",
+        "Lee, Christopher T",
+        "Zeno, Wade F"
+      ],
+      "short_names": [
+        "Kou OH",
+        "Sakurai CM",
+        "Ramirez SY",
+        "Kim BH",
+        "Johnson DH",
+        "Zhang Z",
+        "Lee CT",
+        "Zeno WF"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0670-2308",
+        "ORCID: 0000-0002-2341-8923"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, University of Southern California, Los Angeles, California, 90089, United States.",
+        "Department of Molecular Biology, University of California San Diego, San Diego, California, 92093, United States.",
+        "Department of Biological Sciences, University of Southern California, Los Angeles, 90089, United States.",
+        "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, 90089, United States.",
+        "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, 90089, United States.",
+        "Keck School of Medicine, University of Southern California, Los Angeles, California, 90033, United States.",
+        "Department of Molecular Biology, University of California San Diego, San Diego, California, 92093, United States.",
+        "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, 90089, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kou, Orianna H",
+        "short_name": "Kou OH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Southern California, Los Angeles, California, 90089, United States."
+        ]
+      },
+      {
+        "full_name": "Sakurai, Cailyn M",
+        "short_name": "Sakurai CM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, University of California San Diego, San Diego, California, 92093, United States."
+        ]
+      },
+      {
+        "full_name": "Ramirez, Stephanie Y",
+        "short_name": "Ramirez SY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, University of Southern California, Los Angeles, 90089, United States."
+        ]
+      },
+      {
+        "full_name": "Kim, Brian H",
+        "short_name": "Kim BH",
+        "identifiers": [],
+        "affiliations": [
+          "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, 90089, United States."
+        ]
+      },
+      {
+        "full_name": "Johnson, David H",
+        "short_name": "Johnson DH",
+        "identifiers": [],
+        "affiliations": [
+          "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, 90089, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zixin",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Keck School of Medicine, University of Southern California, Los Angeles, California, 90033, United States."
+        ]
+      },
+      {
+        "full_name": "Lee, Christopher T",
+        "short_name": "Lee CT",
+        "identifiers": [
+          "0000-0002-0670-2308"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, University of California San Diego, San Diego, California, 92093, United States."
+        ]
+      },
+      {
+        "full_name": "Zeno, Wade F",
+        "short_name": "Zeno WF",
+        "identifiers": [
+          "0000-0002-2341-8923"
+        ],
+        "affiliations": [
+          "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, 90089, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 May 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/25 12:35",
+    "fetched_at": "2026-09-18 03:38:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38537131",
+      "36056103",
+      "33782607",
+      "30055754",
+      "29853639",
+      "26808899",
+      "25824255",
+      "25772372",
+      "25643172",
+      "25548530",
+      "24338013",
+      "23891661",
+      "23765500",
+      "23740253",
+      "21746853",
+      "21717034",
+      "21674238",
+      "21500218",
+      "21330368",
+      "21203426",
+      "20923663",
+      "20923645",
+      "20798282",
+      "19348768",
+      "19167303",
+      "18930058",
+      "16847063",
+      "16455667",
+      "15028717",
+      "12829489",
+      "12586824",
+      "10915790",
+      "9545270",
+      "9278044"
+    ],
+    "similar": [
+      "42182307",
+      "42709078",
+      "39829920",
+      "40775530",
+      "42244556",
+      "42575205",
+      "41428873",
+      "29853639",
+      "42430503",
+      "42212534",
+      "38537131",
+      "41573950",
+      "40559352",
+      "38100855",
+      "33415971",
+      "33538595",
+      "23912807",
+      "24397368",
+      "40297234",
+      "30198000",
+      "20923663",
+      "32304757",
+      "26119565",
+      "41069254",
+      "12911309",
+      "39306670",
+      "25484487",
+      "40721018",
+      "32953942",
+      "18930058",
+      "39845901",
+      "36604961",
+      "28239748",
+      "33971161",
+      "40851236",
+      "21330368",
+      "29428500",
+      "35718804",
+      "42622271",
+      "31268447",
+      "23740253",
+      "23401499",
+      "24699372",
+      "42439051",
+      "35897670",
+      "35782868",
+      "31180661",
+      "22211521",
+      "20923645",
+      "33719460",
+      "33268381",
+      "41594727",
+      "40963550",
+      "42531946",
+      "24417311",
+      "33318779",
+      "15028717",
+      "19280016",
+      "23823878",
+      "21953452",
+      "40478164",
+      "30826264",
+      "39896542",
+      "31048377",
+      "11502187",
+      "33538574",
+      "34076426",
+      "41046336",
+      "26297828",
+      "38951707",
+      "20025847",
+      "29208465",
+      "38483514",
+      "39071287",
+      "39340452",
+      "25824255",
+      "23766730",
+      "9315610",
+      "26474149",
+      "42523241",
+      "24099487",
+      "33300799",
+      "37011179",
+      "24338013",
+      "34724382",
+      "18082181",
+      "29291379",
+      "40878020",
+      "29806449",
+      "33369404",
+      "38182788",
+      "31932647",
+      "19167303",
+      "22325271",
+      "26283787",
+      "22450237",
+      "19348750",
+      "40849683",
+      "29573133",
+      "29273335"
+    ],
+    "review": [
+      "42182307",
+      "42212534",
+      "40559352",
+      "29428500",
+      "35897670"
+    ],
+    "pmc": [
+      "13192852"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42182307/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.05.12.724662",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

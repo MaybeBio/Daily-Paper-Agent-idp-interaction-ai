@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "35917500",
+    "doi": "10.1021/acs.jpcb.2c03554",
+    "title": "Quantitative Interpretation of Protein Diffusion Coefficients in Mixed Protiated-Deuteriated Aqueous Solvents."
+  },
+  "content": {
+    "abstract": "Diffusion-ordered nuclear magnetic resonance (NMR) spectroscopy is widely used for the analysis of mixtures, dispersing the signals of different species in a two-dimensional spectrum according to their diffusion coefficients. However, interpretation of these diffusion coefficients is typically purely qualitative, for example, to deduce which species are bigger or smaller. In studies of proteins in solution, important questions concern the molecular weight of the proteins, the presence or absence of aggregation, and the degree of folding. The Stokes-Einstein Gierer-Wirtz estimation (SEGWE) method has been previously developed to simplify the complex relationship between diffusion coefficient and molecular mass, allowing the prediction of a species' diffusion coefficient in a pure solvent based on its molecular weight. Here, we show that SEGWE can be extended to successfully predict both peptide and protein diffusion coefficients in mixed protiated-deuteriated water samples and, hence, distinguish effectively between globular and disordered proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "Diffusion",
+      "Magnetic Resonance Spectroscopy/methods",
+      "*Proteins",
+      "Solvents/chemistry",
+      "*Water/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tang, Bridget",
+        "Chong, Katie",
+        "Massefski, Walter",
+        "Evans, Robert"
+      ],
+      "short_names": [
+        "Tang B",
+        "Chong K",
+        "Massefski W",
+        "Evans R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6815-547X",
+        "ORCID: 0000-0003-1471-201X"
+      ],
+      "affiliations": [
+        "Aston Institute of Materials Research, Aston University, Birmingham B4 7ET, U.K.",
+        "Energy and Bioproducts Research Institute (EBRI), Aston University, Birmingham B4 7ET, U.K.",
+        "Department of Chemistry Instrumentation Facility, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States.",
+        "Aston Institute of Materials Research, Aston University, Birmingham B4 7ET, U.K."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tang, Bridget",
+        "short_name": "Tang B",
+        "identifiers": [
+          "0000-0001-6815-547X"
+        ],
+        "affiliations": [
+          "Aston Institute of Materials Research, Aston University, Birmingham B4 7ET, U.K."
+        ]
+      },
+      {
+        "full_name": "Chong, Katie",
+        "short_name": "Chong K",
+        "identifiers": [],
+        "affiliations": [
+          "Energy and Bioproducts Research Institute (EBRI), Aston University, Birmingham B4 7ET, U.K."
+        ]
+      },
+      {
+        "full_name": "Massefski, Walter",
+        "short_name": "Massefski W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry Instrumentation Facility, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States."
+        ]
+      },
+      {
+        "full_name": "Evans, Robert",
+        "short_name": "Evans R",
+        "identifiers": [
+          "0000-0003-1471-201X"
+        ],
+        "affiliations": [
+          "Aston Institute of Materials Research, Aston University, Birmingham B4 7ET, U.K."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2022 Aug 11",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/03 06:00",
+    "fetched_at": "2026-09-20 12:22:47"
+  },
+  "links": {
+    "cites": [
+      "41505419",
+      "40431315",
+      "39201304",
+      "38600735"
+    ],
+    "refs": [
+      "35617314",
+      "35481638",
+      "31342427",
+      "30742767",
+      "29912151",
+      "29481057",
+      "29451579",
+      "29396867",
+      "29142693",
+      "28362495",
+      "25681799",
+      "24827742",
+      "23769716",
+      "23365047",
+      "22989858",
+      "20633359",
+      "19173563",
+      "19105594",
+      "18926751",
+      "17154329",
+      "15697635",
+      "15511234",
+      "15395375",
+      "11848852",
+      "10600103"
+    ],
+    "similar": [
+      "35917500",
+      "29481057",
+      "8181106",
+      "32471534",
+      "25273451",
+      "35906502",
+      "19323518",
+      "18086542",
+      "19572726",
+      "9684541",
+      "19656649",
+      "10723990",
+      "15186127",
+      "25933757",
+      "35481638",
+      "34935188",
+      "9109350",
+      "15388096",
+      "19791823",
+      "23912807",
+      "35107988",
+      "31342427",
+      "19105594",
+      "14606917",
+      "20113048",
+      "30742767",
+      "28755486",
+      "36259515",
+      "24824112",
+      "38014888",
+      "19063563",
+      "16408940",
+      "19846263",
+      "15043930",
+      "37656920",
+      "8843135",
+      "22166081",
+      "16448165",
+      "12443099",
+      "14643709",
+      "34959129",
+      "12105961",
+      "26251969",
+      "36720172",
+      "21713633",
+      "32405677",
+      "16709049",
+      "19715300",
+      "15625667",
+      "16321510",
+      "14747324",
+      "11787001",
+      "30537826",
+      "34358222",
+      "18610966",
+      "21953689",
+      "25545796",
+      "21528979",
+      "28355162",
+      "23365047",
+      "14987595",
+      "35687130",
+      "10674220",
+      "16545589",
+      "15819218",
+      "12005528",
+      "23077575",
+      "26987451",
+      "35684418",
+      "8620013",
+      "19459637",
+      "18323090",
+      "19006104",
+      "21979439",
+      "18431548",
+      "20564055",
+      "16608330",
+      "18348560",
+      "21129875",
+      "17458990",
+      "36362124",
+      "29065692",
+      "7485975",
+      "31944377",
+      "25121643",
+      "9212713",
+      "21802324",
+      "34286862",
+      "23371787",
+      "20462776",
+      "9449132",
+      "23212303",
+      "30290994",
+      "12081451",
+      "25217937",
+      "17596979",
+      "36579454",
+      "21874201",
+      "15609369",
+      "9183176"
+    ],
+    "review": [
+      "35917500",
+      "32471534"
+    ],
+    "pmc": [
+      "9376945"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.jpcb.2c03554",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35917500/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35917500",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.2c03554",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

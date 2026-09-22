@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.01.27.525865",
+  "title": "Anillin Related Mid1 as an Adaptive and Multimodal Contractile Ring Anchoring Protein: A Simulation Study",
+  "authors": "Hall AR; Choi YK; Im W; Vavylonis D",
+  "journal": "bioRxiv",
+  "published_date": "2023-01-27",
+  "window": {
+    "start": "2023-01-23",
+    "end": "2023-01-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究用全原子MD模拟解析裂殖酵母Mid1蛋白C端无序区域与含PIP2膜的多模式结合机制，虽聚焦膜互作而非典型PPI，但为IDR介导的锚定/多价互作机制建模提供了可迁移思路。",
+  "abstract": "The organization of the cytokinetic ring at the cell equator of dividing animal and fungi cells depends crucially on the anillin scaffold proteins. In fission yeast, anillin related Mid1 binds to the plasma membrane and helps anchor and organize a medial broad band of cytokinetic nodes, which are the precursors of the contractile ring. Similar to other anillins, Mid1 contains a C terminal globular domain with two potential regions for membrane binding, the Pleckstrin Homology (PH) and C2 domains, and an N terminal intrinsically disordered region that is strongly regulated by phosphorylation. Previous studies have shown that both PH and C2 domains can associate with the membrane, preferring phosphatidylinositol-(4,5)-bisphosphate (PIP 2 ) lipids. However, it is unclear if they can simultaneously bind to the membrane in a way that allows dimerization or oligomerization of Mid1, and if one domain plays a dominant role. To elucidate Mid1’s membrane binding mechanism, we used the available structural information of the C terminal region of Mid1 in all-atom molecular dynamics (MD) near a membrane with a lipid composition based on experimental measurements (including PIP 2 lipids). The disordered L3 loop of C2, as well as the PH domain, separately bind the membrane through charged lipid contacts. In simulations with the full C terminal region started away from the membrane, Mid1 binds through the L3 loop and is stabilized in a vertical orientation with the PH domain away from the membrane. However, a configuration with both C2 and PH initially bound to the membrane remains associated with the membrane. These multiple modes of binding may reflect Mid1’s multiple interactions with membranes and other node proteins, and ability to sustain mechanical forces.",
+  "abstract_zh": "动物和真菌细胞分裂时，细胞赤道处胞质分裂环的组织关键依赖于anillin支架蛋白。在裂殖酵母中，anillin相关的Mid1与质膜结合，帮助锚定和组织一束中部的宽细胞分裂节点带，这些节点是收缩环的前体。与其他anillin类似，Mid1包含一个C端球状结构域，具有两个潜在的膜结合区域，即Pleckstrin同源（PH）和C2结构域，以及一个受磷酸化强烈调控的N端内在无序区域。先前研究表明，PH和C2结构域都能与膜结合，偏好磷脂酰肌醇-(4,5)-二磷酸（PIP2）脂质。然而，尚不清楚它们是否能同时以允许Mid1二聚化或寡聚化的方式结合膜，以及是否有一个结构域起主导作用。为了阐明Mid1的膜结合机制，我们利用Mid1 C端区域的可用结构信息，在基于实验测量（包括PIP2脂质）的脂质组成膜附近进行全原子分子动力学（MD）模拟。C2的无序L3环以及PH结构域分别通过带电脂质接触与膜结合。在从远离膜位置开始的完整C端区域模拟中，Mid1通过L3环结合，并以垂直方向稳定，PH结构域远离膜。然而，当C2和PH初始均与膜结合时，该构型仍与膜保持关联。这些多种结合模式可能反映了Mid1与膜及其他节点蛋白的多重相互作用，以及承受机械力的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.01.27.525865",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.01.27.525865",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.01.27.525865/index.html"
+}

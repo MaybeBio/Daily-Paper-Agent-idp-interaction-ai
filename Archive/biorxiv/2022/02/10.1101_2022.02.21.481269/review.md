@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided.
+- **Assessment boundary** Scientific and technical soundness of the claims as supported by the described methods and reported results. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors use in silico methods to characterize physicochemical, structural, and functional changes in the SARS-CoV-2 Omicron spike protein relative to a reference, and report enhanced binding affinity and stability of the Omicron RBD-ACE2 complex, which they link to increased transmissibility and pathogenicity.
+- **Visible evidence base** Descriptions of computational methods and tools, reported numerical results (e.g., RMSD, TM-score, binding energies, hydrogen bond counts), and reference to supplementary files. No figures, tables, or supplementary data were provided for direct inspection.
+- **Missing materials affecting confidence** Figures 1-6, all tables (1-4), and supplementary files are referenced but not included. Raw sequence alignments, AlphaFold2 model confidence metrics, docking poses, and MD trajectory analyses are not available. This limits verification of quantitative claims and structural interpretations.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant topic, and the combination of sequence analysis, structure prediction, docking, and MD simulation is appropriate in principle. However, the evidence as presented is insufficient to support several central claims, particularly regarding enhanced binding affinity, increased stability, and implications for transmissibility. Key quantitative results are reported without statistical context or error estimates, and the absence of figures and supplementary data prevents independent verification. The causal link between in silico predictions and biological outcomes is asserted rather than demonstrated.
+- **Who would be interested in the results, and why** Researchers studying SARS-CoV-2 evolution, spike protein structure-function relationships, and computational virology. The work may also interest those developing predictive frameworks for emerging variants, though the current evidence base limits its utility for definitive conclusions.
+- **Major strengths** The study addresses a pressing question with a multi-method computational pipeline. The use of AlphaFold2 for structure prediction and all-atom MD simulations is appropriate and current. The authors identify specific mutations and attempt to connect them to structural and interaction changes, which is a useful framework for hypothesis generation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the Omicron RBD has a higher binding affinity for hACE2 than the reference, based on docking scores and binding energies from ClusPro and HDOCK, and MD-derived binding energy.
+  - **Evidence pointer** Section 3.4, Table 4, Section 3.5, Figure 6 (location not provided)
+  - **Concern** Docking scores from ClusPro and HDOCK are not reliable proxies for binding affinity, and the reported values (e.g., -343.56 vs -310.19 for HDOCK; -703.8 vs -639.3 for ClusPro) are presented without units for ClusPro or statistical significance. The MM-GBSA binding energy difference (-98.02 vs -83.7 kcal/mol) is reported as a single value with no standard deviation or replicate analysis, despite the authors noting average hydrogen bond counts with standard deviations. No validation against experimental binding data is provided.
+  - **Why it matters** The central conclusion of enhanced binding affinity underpins the manuscript's claims about increased transmissibility and pathogenicity. Without robust, replicated, and appropriately interpreted binding energy calculations, this conclusion is not established.
+  - **Resolution test** Provide replicate MM-GBSA calculations with standard errors, report docking scores with appropriate caveats or use validated scoring functions, and compare predictions to experimental binding affinities (e.g., surface plasmon resonance or biolayer interferometry data from the literature) where available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the Omicron RBD-ACE2 complex is more stable than the reference, based on lower RMSD (2.05 vs 2.61 Å) and RMSF (1.7 vs 2.2 Å) values from MD simulations.
+  - **Evidence pointer** Section 3.5, Figure 6 (location not provided)
+  - **Concern** RMSD and RMSF values are reported as single averages without standard deviations or time-series analysis. It is unclear whether these differences are statistically significant or within simulation noise. The authors do not specify which regions were analyzed (e.g., whole complex, RBD only, interface residues), and the statement that "the RBD of the Omicron variant is more rigid" is not supported by per-residue RMSF data. Additionally, the claim that lower RMSD indicates "increased stability" is an oversimplification, as RMSD alone does not capture thermodynamic stability.
+  - **Why it matters** Stability claims are used to support the interpretation of enhanced binding and transmissibility. Without proper statistical treatment and region-specific analysis, the reported differences may be artifacts of simulation setup or analysis choices.
+  - **Resolution test** Provide RMSD and RMSF time series with standard deviations across replicate simulations, specify the atom selections and regions analyzed, and use additional metrics (e.g., radius of gyration, contact maps over time) to support stability claims.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that AlphaFold2 was used to predict the structure of the Omicron spike protein, and that structural comparisons were made with a reference structure (7N1U).
+  - **Evidence pointer** Methods, Section 3.2, Figure 3 (location not provided)
+  - **Concern** No details are provided on the AlphaFold2 implementation, including whether the full spike trimer or only the RBD was modeled, the multiple sequence alignment used, or the confidence metrics (pLDDT, PAE) for the predicted model. The reference structure 7N1U is used for comparison, but it is unclear whether the Omicron model was aligned to this structure and how the RMSD of 0.20 and TM-score of 0.99780 were calculated (e.g., which residues were included in the alignment). The claim that the Omicron spike has 1270 amino acids due to "sequence loss" is not explained in terms of which residues are deleted.
+  - **Why it matters** Structural predictions are foundational to subsequent docking and MD analyses. Without transparency on model construction and quality, the reliability of all downstream results is questionable.
+  - **Resolution test** Provide AlphaFold2 confidence scores, describe the modeling protocol (including input sequences and alignments), specify the alignment procedure for RMSD/TM-score calculations, and clarify the residue deletions in the Omicron spike.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that their findings "highlight the potential structural basis for the enhanced transmissibility and pathogenicity of the Omicron variant."
+  - **Evidence pointer** Abstract, Discussion, Conclusion
+  - **Concern** The manuscript does not directly measure transmissibility or pathogenicity. The link between in silico binding affinity and these biological outcomes is speculative, especially given that the authors note some mutations (e.g., E484A) are predicted to decrease disease propensity. The discussion acknowledges this limitation but the conclusion still overreaches by stating the findings "might facilitate the greater transmission" as if supported by the data.
+  - **Why it matters** Overinterpretation of computational predictions as biological evidence can mislead readers and the broader scientific community, particularly in a rapidly evolving public health context.
+  - **Resolution test** Reframe conclusions to clearly distinguish between computational predictions and established biological outcomes, and explicitly state that experimental validation is required before any claims about transmissibility or pathogenicity can be made.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract states "a new Variant of Concern in the COVID-19 outbreak" which is grammatically awkward. The introduction contains a typo: "A SARS-coV-2 infection" should be "A SARS-CoV-2 infection." Also, "Uniport" should be "UniProt."
+  - **Required correction** Correct these typographical and grammatical errors throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods, Section 2.1
+  - **Issue** The methods section is sparse. For example, the authors state that "whenever more than one tool was employed to predict the effects, the common outcomes were taken into consideration" but do not specify how conflicts were resolved. Parameters for MD simulations (e.g., temperature coupling, pressure coupling, equilibration times) are mentioned but not fully detailed.
+  - **Required correction** Provide complete methodological details, including software versions, parameter settings, and criteria for consensus calls, to enable replication.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, Section 3.1
+  - **Evidence pointer** Table 1, Figure 2 (location not provided)
+  - **Issue** The authors report an increase in both acidic and basic residues but do not provide the actual counts or percentages in the text. The claim that the protein is "more charged" is not quantified.
+  - **Required correction** Include specific values for residue counts and net charge calculations in the text or tables.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion states "the World Health Organization deems Micron a variant of concern" which is a typo for "Omicron." Additionally, the discussion repeats results without adding interpretive depth or addressing alternative explanations.
+  - **Required correction** Fix the typo and strengthen the discussion by contextualizing findings within the broader literature on Omicron spike mutations and ACE2 binding.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results, Section 3.5
+  - **Evidence pointer** Section 3.5
+  - **Issue** The text states "the RMSD, RMSF, and RMSD" in the final sentence of Section 3.5, which appears to be a typo. It should likely read "RMSD, RMSF, and binding energy."
+  - **Required correction** Correct the typo for clarity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding affinity claims not robustly supported), R1-M2 (stability claims lack statistical rigor), R1-M3 (structural prediction methodology insufficiently detailed).
+- **Assessment against Nature-style criteria** Originality: Moderate. The combination of methods is not novel, and similar in silico analyses of Omicron spike mutations have been published. The manuscript does not introduce a new methodology or conceptual framework. Scientific importance: The topic is important, but the incremental contribution is limited given the existing literature on Omicron spike-ACE2 interactions. Interdisciplinary readership: The work may appeal to virologists, structural biologists, and computational biologists, but the presentation is too specialized and lacks broader context for nonspecialists. Technical soundness: Currently insufficient. Key quantitative claims are not supported by appropriate statistical analysis or validation, and methodological details are incomplete. Readability for nonspecialists: The manuscript is generally readable but contains jargon and typos that detract from clarity. The abstract and conclusion overstate the implications of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and uses appropriate tools in principle, but the central claims of enhanced binding affinity and stability are not rigorously supported. Major revisions are required to provide robust statistical analysis, complete methodological transparency, and a more measured interpretation of the results.
+
+## Risk / unsupported claims
+- The claim that the Omicron RBD has higher binding affinity for hACE2 than the reference is unsupported due to reliance on docking scores without validation and a single MM-GBSA value without error estimates.
+- The claim that the Omicron RBD-ACE2 complex is more stable than the reference is unsupported due to lack of statistical analysis of RMSD/RMSF data and absence of replicate simulations.
+- The claim that increased alpha-helix content enhances stability and transmissibility is speculative and not directly tested.
+- The claim that specific mutations (e.g., Q498R, N501Y) enhance binding through new interactions is based on a single predicted structure and docking model, without experimental confirmation.
+- The conclusion that the findings explain enhanced transmissibility and pathogenicity of Omicron is not supported by the data presented, as no direct measurements of these phenotypes were made.

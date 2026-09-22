@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Conclusion, Experimental Methods, Data Availability, Acknowledgements)
+- **Assessment boundary** Scientific claims, methodological soundness, and internal consistency of the presented evidence; no assessment of literature completeness beyond cited references
+- **Shared manuscript claim summary** The authors report that docosahexaenoic acid (DHA) enhances α-Synuclein (α-Syn)-mediated vesicle clustering in a concentration-dependent manner, and propose an electrostatic mechanism involving DHA in the membrane and the N-terminal region of α-Syn, supported by TIRF microscopy, circular dichroism (CD) spectroscopy, and molecular dynamics (MD) simulations.
+- **Visible evidence base** TIRF microscopy images and quantification (Fig. 1, Fig. 2C), CD spectra (Fig. 2), MD simulation results (Figs. 3–7), vesicle composition table (Table 1), methods descriptions
+- **Missing materials affecting confidence** Raw numerical data for TIRF counts, CD spectral data points, MD trajectory details, simulation convergence criteria, statistical test specifics, and figure panels referenced but not fully described in text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question regarding how fatty acids, specifically DHA, modulate the functional interaction of α-Syn with synaptic-like vesicles. The combination of experimental and computational approaches is appropriate in principle. However, the evidence as presented has several gaps in quantification, statistical reporting, and mechanistic clarity that prevent full support of the central claims. The mechanistic conclusion regarding electrostatic enhancement via preferential solvation is plausible but not rigorously established from the provided data.
+- **Who would be interested in the results, and why** Researchers studying α-Synuclein function and pathology, synaptic vesicle biology, lipid-protein interactions, and neurodegenerative disease mechanisms. The work may also interest those using combined experimental-computational approaches to study membrane-protein interactions.
+- **Major strengths** The study addresses a relatively under-explored aspect of α-Syn function, namely how fatty acid composition affects its vesicle-clustering activity. The use of multiple complementary techniques (TIRF, CD, MD) is commendable. The concentration-dependent design for DHA is a useful approach. The discussion connects findings to both physiological and pathological implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor and quantification
+  - **Claim pointer** The authors claim concentration-dependent enhancement of vesicle clustering by DHA with statistical significance (p<0.01% and p<0.00001 for 5% and 20% DHA, respectively).
+  - **Evidence pointer** Figure 2C, Results section "Vesicle clustering caused by α-Syn as measured by TIRF microscopy"
+  - **Concern** The statistical reporting is incomplete. The p-values are given without specifying the test used, sample sizes, number of independent experiments, or whether multiple comparisons were accounted for. The statement "p<0.001%" appears to be a typographical error (likely p<0.001). The box-and-whisker plots are described but not shown in the provided text, and the method for combining data across different days is not described in sufficient detail to assess potential batch effects.
+  - **Why it matters** The central quantitative claim of concentration-dependent enhancement rests entirely on these statistical comparisons. Without proper reporting, the reader cannot assess the robustness of the effect or rule out artifacts from day-to-day variability or imaging conditions.
+  - **Resolution test** Provide full statistical details: test used, n values, number of independent replicates, whether data were pooled or analyzed hierarchically, and effect sizes with confidence intervals. Clarify the p-value notation and ensure consistency.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence from MD simulations
+  - **Claim pointer** The authors claim that DHA enhances α-Syn binding to membranes via increased hydrogen bonding and electrostatic interaction, and that preferential solvation of DHA around α-Syn is the underlying mechanism.
+  - **Evidence pointer** Figures 3–7, Results section "DHA results in electrostatic enhancement in α-Syn-membrane interaction"
+  - **Concern** The MD simulation results are described qualitatively. Key quantitative data such as interaction energy values, hydrogen bond counts, and their statistical significance are not reported in the text. The number of simulations (4 per condition) is stated, but no convergence analysis, error estimation beyond standard deviation, or assessment of sampling adequacy is provided. The claim of preferential solvation is inferred from a previous study (Manna et al.) rather than directly demonstrated here. The relationship between the simulated N-terminal fragment (residues 1–60) and full-length α-Syn behavior is not discussed.
+  - **Why it matters** The mechanistic conclusion is the main novel contribution of the work. Without quantitative support from simulations, the claim that electrostatic enhancement via hydrogen bonding is the operative mechanism remains speculative.
+  - **Resolution test** Report numerical values for interaction energies and hydrogen bond counts with appropriate error analysis. Demonstrate that simulations are converged. Provide direct evidence for preferential solvation from the current simulations, or clearly state this as a hypothesis borrowed from prior work. Discuss potential limitations of using only the N-terminal fragment.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** CD spectroscopy interpretation
+  - **Claim pointer** The authors state that CD spectra show DHA promotes α-Syn interaction with membranes by enhancing helical content.
+  - **Evidence pointer** Figure 2, Results section "DHA effects helical structure of α-Syn bound to lipid membranes"
+  - **Concern** The CD spectra are described in terms of shifts in minimum ellipticity (203–205 nm for 0% DHA, 207–210 nm with DHA), but no quantitative analysis of helical content is provided. The shift is interpreted as increased helicity, but alternative explanations such as changes in membrane binding mode or protein aggregation are not excluded. The protein-to-lipid ratio and whether free protein was present in the samples are not stated.
+  - **Why it matters** The CD data are used to support the claim that DHA enhances membrane binding. Without quantitative deconvolution or controls, the interpretation is not fully supported.
+  - **Resolution test** Provide helical content estimates from CD spectra using standard deconvolution methods. Include controls for free protein and state protein-to-lipid ratios. Discuss whether spectral changes could reflect other conformational changes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental design and controls
+  - **Claim pointer** The TIRF assay measures vesicle clustering mediated by α-Syn, and DHA enhances this effect.
+  - **Evidence pointer** Figure 1, Results section "Vesicle clustering caused by α-Syn as measured by TIRF microscopy"
+  - **Concern** The assay relies on counting fluorescent spots, but the text does not specify how clustering is distinguished from single vesicles, what threshold criteria were used, or whether the analysis was blinded. The negative control (without α-Syn) is mentioned but not described in detail. The possibility that DHA alone (without α-Syn) affects vesicle clustering is not addressed.
+  - **Why it matters** The primary experimental readout must be clearly defined to ensure that the measured signal genuinely reflects vesicle clustering and that the effect is specifically due to α-Syn-mediated processes.
+  - **Resolution test** Describe the image analysis algorithm in detail, including criteria for identifying clusters. Include controls with DHA alone and without α-Syn. State whether analysis was performed blinded to condition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and consistency
+  - **Affected element** Statistical notation
+  - **Evidence pointer** Results section "Vesicle clustering caused by α-Syn as measured by TIRF microscopy"
+  - **Issue** The notation "p<0.001%" is likely a typo and should be "p<0.001". Also, "p<0.00001" is unusually precise for a threshold.
+  - **Required correction** Correct the p-value notation and use standard conventions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Experimental Methods section "MD simulation method"
+  - **Issue** The simulation time is not stated. The equilibration protocol is not described. The force field and water model are mentioned, but no simulation length is given.
+  - **Required correction** Add simulation length, equilibration details, and any replica information.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figure descriptions
+  - **Evidence pointer** Results sections referencing Figures 1–7
+  - **Issue** The text references figures but does not describe all panels. For example, Figure 1A is described as a schematic, but Figure 1B panels are not fully explained. Figure 6 and Figure 7 are mentioned but their content is not described in the text.
+  - **Required correction** Ensure each figure panel is described in the text so the reader can follow the argument without viewing the figures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Preferential solvation"
+  - **Evidence pointer** Results section "DHA results in electrostatic enhancement in α-Syn-membrane interaction"
+  - **Issue** The term "preferential solvation" is used to describe DHA accumulation around α-Syn, but this is not a standard term in this context and may confuse readers.
+  - **Required correction** Define the term clearly or use more standard terminology such as "local enrichment" or "preferential partitioning."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability section
+  - **Issue** The statement says data are available on reasonable request, but no repository or accession numbers are provided for simulation inputs or analysis scripts.
+  - **Required correction** Consider depositing simulation parameters and analysis code in a public repository to enhance reproducibility.
+
+## Risk / unsupported claims
+- The claim that DHA enhances vesicle clustering in a concentration-dependent manner is only partially supported due to incomplete statistical reporting.
+- The mechanistic claim that electrostatic interaction between DHA and the N-terminal region of α-Syn drives enhanced clustering is not quantitatively supported by the MD data as presented.
+- The claim that preferential solvation of DHA underlies the observed effects is inferred from prior work and not directly demonstrated in this study.
+- The interpretation of CD spectral shifts as increased helicity is not quantitatively supported.
+- The relationship between the simulated N-terminal fragment and full-length α-Syn behavior is not established.
+- The claim that DHA reduces membrane thinning is mentioned but not quantitatively presented in the text.

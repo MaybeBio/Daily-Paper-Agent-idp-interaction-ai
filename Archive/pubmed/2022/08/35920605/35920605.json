@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "35920605",
+    "doi": "10.1021/acs.jcim.2c00678",
+    "title": "Accurate Description of Solvent-Exposed Salt Bridges with a Non-polarizable Force Field Incorporating Solvent Effects."
+  },
+  "content": {
+    "abstract": "The strength of salt bridges resulting from the interaction of cations and anions is modulated by their environment. However, polarization of the solvent molecules by the charged moieties makes the accurate description of cation-anion interactions in an aqueous solution by means of a pairwise additive potential energy function and classical combination rules particularly challenging. In this contribution, aiming at improving the representation of solvent-exposed salt-bridge interactions with an all-atom non-polarizable force field, we put forth here a parametrization strategy. First, the interaction of a cation and an anion is characterized by hybrid quantum mechanical/molecular mechanics (QM/MM) potential of mean force (PMF) calculations, whereby constantly exchanging solvent molecules around the ions are treated at the quantum mechanical level. The Lennard-Jones (LJ) parameters describing the salt-bridge ion pairs are then optimized to match the reference QM/MM PMFs through the so-called nonbonded FIX, or NBFIX, feature of the CHARMM force field. We apply the new set of parameters, coined CHARMM36m-SBFIX, to the calculation of association constants for the ammonium-acetate and guanidinium-acetate complexes, the osmotic pressures for glycine zwitterions, guanidinium, and acetate ions, and to the simulation of both folded and intrinsically disordered proteins. Our findings indicate that CHARMM36m-SBFIX improves the description of solvent-exposed salt-bridge interactions, both structurally and thermodynamically. However, application of this force field to the standard binding free-energy calculation of a protein-ligand complex featuring solvent-excluded salt-bridge interactions leads to a poor reproduction of the experimental value, suggesting that the parameters optimized in an aqueous solution cannot be readily transferred to describe solvent-excluded salt-bridge interactions. Put together, owing to their sensitivity to the environment, modeling salt-bridge interactions by means of a single, universal set of LJ parameters remains a daunting theoretical challenge.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cations",
+      "Guanidine",
+      "*Molecular Dynamics Simulation",
+      "Solvents/chemistry",
+      "Thermodynamics",
+      "*Water/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Han",
+        "Fu, Haohao",
+        "Chipot, Christophe",
+        "Shao, Xueguang",
+        "Cai, Wensheng"
+      ],
+      "short_names": [
+        "Liu H",
+        "Fu H",
+        "Chipot C",
+        "Shao X",
+        "Cai W"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0194-0646",
+        "ORCID: 0000-0003-0908-0046",
+        "ORCID: 0000-0002-9122-1698",
+        "ORCID: 0000-0001-5027-4382",
+        "ORCID: 0000-0002-6457-7058"
+      ],
+      "affiliations": [
+        "Tianjin Key Laboratory of Biosensing and Molecular Recognition, State Key Laboratory of Medicinal Chemical Biology, Research Center for Analytical Sciences, Frontiers Science Center for New Organic Matter, College of Chemistry, Nankai University, Tianjin 300071, China.",
+        "Haihe Laboratory of Sustainable Chemical Transformations, Tianjin 300192, China.",
+        "Tianjin Key Laboratory of Biosensing and Molecular Recognition, State Key Laboratory of Medicinal Chemical Biology, Research Center for Analytical Sciences, Frontiers Science Center for New Organic Matter, College of Chemistry, Nankai University, Tianjin 300071, China.",
+        "Haihe Laboratory of Sustainable Chemical Transformations, Tianjin 300192, China.",
+        "Laboratoire International Associe CNRS and University of Illinois at Urbana-Champaign, UMR n degrees 7019, Universite de Lorraine, F-54506 Vandoeuvre-les-Nancy, France.",
+        "Theoretical and Computational Biophysics Group, Beckman Institute, and Department of Physics, University of Illinois at Urbana-Champaign, Urbana 61801, Illinois, United States.",
+        "Department of Biochemistry and Molecular Biology and Gordon Center for Integrative Science, The University of Chicago, Chicago 60637, Illinois, United States.",
+        "Tianjin Key Laboratory of Biosensing and Molecular Recognition, State Key Laboratory of Medicinal Chemical Biology, Research Center for Analytical Sciences, Frontiers Science Center for New Organic Matter, College of Chemistry, Nankai University, Tianjin 300071, China.",
+        "Haihe Laboratory of Sustainable Chemical Transformations, Tianjin 300192, China.",
+        "Tianjin Key Laboratory of Biosensing and Molecular Recognition, State Key Laboratory of Medicinal Chemical Biology, Research Center for Analytical Sciences, Frontiers Science Center for New Organic Matter, College of Chemistry, Nankai University, Tianjin 300071, China.",
+        "Haihe Laboratory of Sustainable Chemical Transformations, Tianjin 300192, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Han",
+        "short_name": "Liu H",
+        "identifiers": [
+          "0000-0003-0194-0646"
+        ],
+        "affiliations": [
+          "Tianjin Key Laboratory of Biosensing and Molecular Recognition, State Key Laboratory of Medicinal Chemical Biology, Research Center for Analytical Sciences, Frontiers Science Center for New Organic Matter, College of Chemistry, Nankai University, Tianjin 300071, China.",
+          "Haihe Laboratory of Sustainable Chemical Transformations, Tianjin 300192, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Haohao",
+        "short_name": "Fu H",
+        "identifiers": [
+          "0000-0003-0908-0046"
+        ],
+        "affiliations": [
+          "Tianjin Key Laboratory of Biosensing and Molecular Recognition, State Key Laboratory of Medicinal Chemical Biology, Research Center for Analytical Sciences, Frontiers Science Center for New Organic Matter, College of Chemistry, Nankai University, Tianjin 300071, China.",
+          "Haihe Laboratory of Sustainable Chemical Transformations, Tianjin 300192, China."
+        ]
+      },
+      {
+        "full_name": "Chipot, Christophe",
+        "short_name": "Chipot C",
+        "identifiers": [
+          "0000-0002-9122-1698"
+        ],
+        "affiliations": [
+          "Laboratoire International Associé CNRS and University of Illinois at Urbana-Champaign, UMR n°7019, Université de Lorraine, F-54506 Vandœuvre-lès-Nancy, France.",
+          "Theoretical and Computational Biophysics Group, Beckman Institute, and Department of Physics, University of Illinois at Urbana-Champaign, Urbana 61801, Illinois, United States.",
+          "Department of Biochemistry and Molecular Biology and Gordon Center for Integrative Science, The University of Chicago, Chicago 60637, Illinois, United States."
+        ]
+      },
+      {
+        "full_name": "Shao, Xueguang",
+        "short_name": "Shao X",
+        "identifiers": [
+          "0000-0001-5027-4382"
+        ],
+        "affiliations": [
+          "Tianjin Key Laboratory of Biosensing and Molecular Recognition, State Key Laboratory of Medicinal Chemical Biology, Research Center for Analytical Sciences, Frontiers Science Center for New Organic Matter, College of Chemistry, Nankai University, Tianjin 300071, China.",
+          "Haihe Laboratory of Sustainable Chemical Transformations, Tianjin 300192, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Wensheng",
+        "short_name": "Cai W",
+        "identifiers": [
+          "0000-0002-6457-7058"
+        ],
+        "affiliations": [
+          "Tianjin Key Laboratory of Biosensing and Molecular Recognition, State Key Laboratory of Medicinal Chemical Biology, Research Center for Analytical Sciences, Frontiers Science Center for New Organic Matter, College of Chemistry, Nankai University, Tianjin 300071, China.",
+          "Haihe Laboratory of Sustainable Chemical Transformations, Tianjin 300192, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2022 Aug 22",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/04 06:00",
+    "fetched_at": "2026-09-20 12:22:47"
+  },
+  "links": {
+    "cites": [
+      "42306135",
+      "42063338",
+      "38358135"
+    ],
+    "refs": [],
+    "similar": [
+      "35920605",
+      "32852943",
+      "34125530",
+      "29624370",
+      "27682345",
+      "34516741",
+      "31518010",
+      "18593145",
+      "22462831",
+      "35362975",
+      "40704671",
+      "22482540",
+      "23320702",
+      "19334851",
+      "30206276",
+      "38588064",
+      "34467756",
+      "32447472",
+      "30347691",
+      "31973103",
+      "22439906",
+      "33048555",
+      "30418023",
+      "34609863",
+      "26574388",
+      "26300526",
+      "20095700",
+      "18802495",
+      "19754142",
+      "32282198",
+      "36173398",
+      "39625472",
+      "24702709",
+      "20687517",
+      "29737546",
+      "24874104",
+      "30677293",
+      "24787756",
+      "20950029",
+      "34586817",
+      "36080494",
+      "39536029",
+      "37071552",
+      "36189627",
+      "2622904",
+      "20401166",
+      "20640793",
+      "26574429",
+      "29907065",
+      "17508737",
+      "23409975",
+      "27759379",
+      "25578354",
+      "12501181",
+      "30702761",
+      "31960254",
+      "23102428",
+      "26626386",
+      "15959866",
+      "31781991",
+      "23914143",
+      "21123887",
+      "30562013",
+      "33086838",
+      "37528639",
+      "23947568",
+      "37075788",
+      "23937431",
+      "26574284",
+      "22663162",
+      "34860517",
+      "39531617",
+      "38718258",
+      "15224394",
+      "29422120",
+      "39847513",
+      "23912807",
+      "23212979",
+      "24878003",
+      "39092940",
+      "28731091",
+      "38877893",
+      "37655780",
+      "16942230",
+      "23231247",
+      "23249409",
+      "23697872",
+      "14664617",
+      "28394606",
+      "37043540",
+      "31125523",
+      "29694035",
+      "27782640",
+      "40397856",
+      "31652004",
+      "33720710",
+      "15935545",
+      "41086387",
+      "21166434",
+      "25098651"
+    ],
+    "review": [
+      "35920605",
+      "31973103"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.2c00678",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

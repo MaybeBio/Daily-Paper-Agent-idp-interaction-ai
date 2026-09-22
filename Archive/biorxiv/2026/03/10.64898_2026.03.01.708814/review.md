@@ -1,0 +1,67 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present LLPSight, a machine learning predictor of liquid-liquid phase separation (LLPS) driving proteins, trained on curated positive and negative datasets using protein language model embeddings. They report the highest F1 score (0.885) among existing tools, proteome-wide analysis capability, and application to the human proteome yielding promising targets.
+- **Visible evidence base** Abstract text only; no quantitative performance comparisons, dataset descriptions, model architecture details, or proteome-wide results are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset curation details, benchmark comparisons, performance metrics beyond F1, human proteome analysis results, code or model availability
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful tool for predicting LLPS-driving proteins, a topic of growing interest in cell biology. The use of protein language model embeddings is timely. However, the abstract provides insufficient detail to evaluate the rigor of dataset curation, the validity of the performance comparison, or the biological significance of the proteome-wide predictions. The claim of "highest F1 score" cannot be assessed without benchmark details and statistical testing. The statement that the model "can be obtained from authors upon request" is a limitation for reproducibility and community adoption.
+- **Who would be interested in the results, and why** Researchers studying phase separation, membraneless organelles, and protein aggregation; computational biologists developing predictors for protein function; experimental biologists seeking candidate LLPS drivers for validation. The tool could accelerate target prioritization in this rapidly expanding field.
+- **Major strengths** 1. Addresses a timely and biologically important problem with clear practical utility. 2. Uses modern protein language model embeddings, reflecting current best practices in feature representation. 3. Explicitly includes a negative set of soluble, unstructured proteins, which is a thoughtful design choice. 4. Proteome-wide analysis capability is a valuable differentiator from existing tools.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "LLPSight achieves the highest F1 score (0.885) among existing tools"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The claim of the highest F1 score among existing tools is presented without any comparative data, statistical significance testing, or specification of which tools were compared and under what conditions. The F1 score alone is insufficient to establish superiority, especially without precision, recall, and the composition of the test set.  
+  - **Why it matters** A central claim of the work is that LLPSight outperforms existing predictors. Without a rigorous, transparent benchmark, this claim cannot be verified, and the tool's practical value over existing alternatives remains unestablished.  
+  - **Resolution test** Provide a benchmark table comparing LLPSight against all relevant existing tools on the same held-out test set, with multiple metrics (precision, recall, F1, AUC) and statistical significance tests (e.g., bootstrap or DeLong test for AUC). Specify the test set composition and ensure no training leakage.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and data availability  
+  - **Claim pointer** "The model was trained using rigorously curated datasets" and "LLPSight can be obtained from authors upon request"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not describe the curation process, dataset sizes, or inclusion and exclusion criteria. The statement that the model is available "upon request" is a significant barrier to reproducibility and independent evaluation, which is inconsistent with modern standards for computational biology tools.  
+  - **Why it matters** Rigorous dataset curation is foundational to the model's validity. Without detailed curation criteria and public availability of the datasets and model, other researchers cannot reproduce the results, validate the approach, or build upon it. This limits the scientific impact and trustworthiness of the work.  
+  - **Resolution test** Provide a detailed description of the curation pipeline, including sources, filtering criteria, and final dataset sizes. Make the datasets, model weights, and inference code publicly available (e.g., on GitHub or a repository) with clear documentation.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance and biological validation  
+  - **Claim pointer** "Application to the human proteome yielded promising targets"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract claims that human proteome analysis yielded promising targets but provides no details on what constitutes "promising," how many targets were identified, whether they overlap with known LLPS proteins, or whether any were experimentally validated.  
+  - **Why it matters** The biological utility of the predictor depends on its ability to identify novel, experimentally verifiable LLPS drivers. Without any validation or characterization of the predicted targets, the claim of "promising" is unsupported and the translational value of the tool remains speculative.  
+  - **Resolution test** Present the human proteome analysis results, including the number and identity of top-ranked candidates, enrichment analysis for known LLPS-related annotations, and ideally experimental validation of a subset of novel predictions.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract uses terms such as "embeddings from protein Language Models" and "ML-based predictor" without brief explanation, which may be opaque to experimental biologists who are the intended end users.  
+  - **Required correction** Add one sentence briefly explaining what protein language model embeddings are and why they are advantageous for this task.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Performance metric reporting  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** Only the F1 score is reported. F1 alone can be misleading, especially if the positive and negative class balance is not described.  
+  - **Required correction** Report precision, recall, and AUC alongside F1, and state the class balance of the test set.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility and data availability  
+  - **Affected element** Model availability statement  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** "Can be obtained from authors upon request" is an outdated and restrictive distribution model that hinders adoption and independent benchmarking.  
+  - **Required correction** Provide a public repository link for the model and code, or state a clear plan for public release upon publication.
+
+## Risk / unsupported claims
+- "Highest F1 score (0.885) among existing tools" is unsupported without comparative benchmark data and statistical testing.
+- "Rigorously curated datasets" is unverifiable without a description of the curation process.
+- "Application to the human proteome yielded promising targets" is unsupported without details on the predictions or any validation.
+- The overall utility of LLPSight for experimental discovery cannot be assessed from the abstract alone.

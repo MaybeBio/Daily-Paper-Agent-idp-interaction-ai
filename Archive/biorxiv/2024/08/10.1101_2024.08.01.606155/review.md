@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Full preprint text and abstract
+- **Assessment boundary** Scientific claims, evidence quality, and technical soundness as presented in the supplied material
+- **Shared manuscript claim summary** The authors report that in C. elegans, the p38-MAPK PMK3 and its downstream MAPKAPK MAK2 engage in a feedback phosphorylation relationship. They claim that MAK2 catalytic activity is required for phosphorylation of both Thr and Tyr residues in the PMK3 TxY motif, that the PMK3:MAK2 complex is conformationally plastic, that MAK2 forms LLPS-driven condensates that increase PMK3 bioavailability and retain enzymatic activity, and that MAK2 controls PMK3 stability and puncta localization in touch neurons in vivo.
+- **Visible evidence base** Abstract and significance statement only. No figures, methods, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full methods, all figures and figure legends, statistical details, mass spectrometry data, microscopy images, and transgenic strain construction details are absent. These are essential for evaluating the core claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question about feedback regulation in MAPK signaling, specifically whether a downstream MAPKAPK can activate its upstream p38-MAPK. The proposed mechanism involving LLPS-driven condensates adds a novel dimension. However, the supplied material is limited to the abstract and significance statement, which prevents any substantive evaluation of the experimental evidence. Several claims are stated without supporting data visible to this reviewer. The work may be of interest to the MAPK signaling and cell biology communities, but the case is not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying MAPK signaling cascades, particularly those focused on p38 pathways and feedback regulation. The LLPS angle would attract investigators interested in biomolecular condensates and their role in signaling. The C. elegans neuronal injury context would interest neurobiologists studying axonal regeneration and degeneration.
+- **Major strengths** The conceptual advance of a downstream kinase activating its upstream MAPK through feedback phosphorylation is notable. The link between LLPS-driven condensate formation and increased bioavailability of an aggregation-prone kinase is a potentially interesting mechanistic insight. The use of both in vitro biochemistry and in vivo transgenic C. elegans experiments suggests a multi-level approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that MAK2 catalytic activity is required for phosphorylation of both Thr and Tyr residues on the PMK3 TxY motif, confirmed by mass spectrometry.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim that MAK2 phosphorylates both Thr and Tyr residues of the PMK3 TxY motif is central to the paper. However, no mass spectrometry data, phosphosite mapping, or quantitative phosphorylation measurements are visible in the supplied material. The abstract states this as a result but provides no experimental detail.
+  - **Why it matters** This is the foundational claim of the feedback activation mechanism. If MAK2 does not directly phosphorylate both residues, the entire premise of the paper collapses. The claim that a MAPKAPK, typically a Ser/Thr kinase, can phosphorylate a Tyr residue is unusual and requires robust evidence.
+  - **Resolution test** Provide the mass spectrometry data showing phosphorylation site occupancy on PMK3 when incubated with MAK2, including negative controls with catalytically dead MAK2 and appropriate kinase inhibitors. Show quantitative stoichiometry of Thr and Tyr phosphorylation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that MAK2 forms LLPS-driven condensates in vitro, wherein PMK3 and MAK2 retain enzymatic activities and phosphorylate each other.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The LLPS claim is a major part of the proposed mechanism. No microscopy images, turbidity assays, FRAP data, or phase diagrams are provided. The statement that enzymatic activity is retained within condensates is made without any supporting kinetic or activity data.
+  - **Why it matters** LLPS is a heavily scrutinized phenomenon. Demonstrating that condensates are not simple aggregates and that enzymatic activity is genuinely retained inside them requires specific experimental controls. Without these, the claim is unverifiable.
+  - **Resolution test** Provide fluorescence microscopy images showing droplet formation, FRAP data demonstrating liquid-like behavior, turbidity measurements across protein concentrations, and activity assays performed on condensate fractions versus soluble fractions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that MAK2 controls stability of PMK3 and localization of PMK3 puncta in touch neurons in transgenic C. elegans.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The in vivo experiments are described in a single sentence. No details on the transgenic constructs, expression levels, imaging conditions, quantification methods, or statistical analysis are provided. The claim that MAK2 controls PMK3 stability is not supported by any visible data.
+  - **Why it matters** The in vivo validation is essential to demonstrate biological relevance beyond in vitro biochemistry. Without proper controls and quantification, the claim that MAK2 regulates PMK3 in neurons is not established.
+  - **Resolution test** Provide representative images of PMK3 puncta in wild-type and MAK2-deficient or MAK2-overexpressing neurons, quantification of puncta number and size, and stability assays such as cycloheximide chase or pulse-chase experiments.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that interaction of PMK3 with MAK2 through the canonical docking site leads to negligible de novo autophosphorylation of PMK3.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** This claim is presented as a key finding but no data are shown. The distinction between autophosphorylation and MAK2-mediated phosphorylation is critical for the feedback model. Without kinase-dead PMK3 controls or time-course experiments, this claim is unsupported.
+  - **Why it matters** If PMK3 autophosphorylation is not negligible, the model of MAK2-dependent activation is weakened. The claim needs to be rigorously tested with appropriate controls.
+  - **Resolution test** Provide in vitro kinase assays with wild-type PMK3, kinase-dead PMK3, and MAK2, with time-course analysis and phosphosite-specific antibodies or mass spectrometry to distinguish autophosphorylation from trans-phosphorylation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "negligible de novo autophosphorylation" is ambiguous. It is unclear whether this means no autophosphorylation occurs or that it occurs at very low levels. The distinction matters for interpreting the feedback model.
+  - **Required correction** Clarify the quantitative threshold for "negligible" and specify the experimental conditions under which this was measured.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Significance statement
+  - **Evidence pointer** Significance statement, location not provided
+  - **Issue** The significance statement claims that MAK2 prevents PMK3 aggregation through LLPS, but the abstract only states that MAK2 increases bioavailability. The relationship between LLPS and aggregation prevention is not explicitly described in the abstract.
+  - **Required correction** Ensure the abstract and significance statement are consistent in describing the mechanism by which MAK2 affects PMK3 behavior.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Introduction of PMK3 and MAK2
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that PMK3 and MAK2 are downstream of DLK1 and MKK4, but does not clarify whether the feedback mechanism operates independently of these upstream kinases or in addition to them.
+  - **Required correction** Clarify the relationship between the proposed feedback activation and the canonical upstream pathway.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. All four major concerns are blocking because the supplied material lacks the experimental evidence needed to support the central claims.
+- **Assessment against Nature-style criteria** Originality: The concept of a downstream MAPKAPK activating its upstream p38-MAPK through feedback phosphorylation is potentially original, but the novelty cannot be fully assessed without seeing the full data. Scientific importance: If substantiated, the findings could reshape understanding of MAPK pathway regulation and introduce a new layer of complexity. However, the importance is currently speculative. Interdisciplinary readership: The work bridges kinase signaling, protein biophysics, and neurobiology, which could attract a broad audience. Technical soundness: Cannot be evaluated from the supplied material. The absence of methods and data prevents any assessment of experimental rigor. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology without sufficient context for a general audience. The significance statement helps but is brief.
+
+## Risk / unsupported claims
+- The claim that MAK2 phosphorylates both Thr and Tyr residues of the PMK3 TxY motif is unsupported in the supplied material.
+- The claim that PMK3:MAK2 complex is conformationally plastic based on "distribution of phosphorylation sites" and "long intrinsically disordered regions" is not supported by any visible data.
+- The claim that MAK2 forms LLPS-driven condensates in vitro with retained enzymatic activity is unsupported.
+- The claim that MAK2 controls PMK3 stability and puncta localization in touch neurons is unsupported.
+- The claim that the feedback mechanism ensures rapid activation of MAPK pathways in response to nervous system injury is speculative and not directly tested.

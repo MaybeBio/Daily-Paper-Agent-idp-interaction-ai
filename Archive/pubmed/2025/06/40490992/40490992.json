@@ -1,0 +1,264 @@
+{
+  "identity": {
+    "pmid": "40490992",
+    "doi": "10.1002/2211-5463.70064",
+    "title": "An efficient strategy for producing RNA-free Nucleocapsid protein of SARS-CoV-2 for biochemical and structural investigations."
+  },
+  "content": {
+    "abstract": "The SARS-CoV-2 Nucleocapsid (N) protein plays a crucial role in genome packaging, replication, transcription, and pathogenesis, making it a promising target for antiviral drug development. However, its large intrinsically disordered regions and propensity to form RNA condensates pose significant challenges for recombinant expression and purification. In this study, we successfully expressed and purified full-length N protein with a cleavable N-terminal Thioredoxin (Trx) fusion to enhance solubility and stability. The acidic Trx tag helped in the efficient binding of basic N protein to an anion-exchange column, enabling complete removal of bound RNA. Through a four-step process-immobilized metal affinity chromatography (IMAC), anion exchange, TEV protease-mediated tag cleavage followed by a second IMAC to remove cleaved fragments, and final polishing by size-exclusion chromatography (SEC)-we obtained highly homogeneous, RNA-free N protein. A single well-defined peak on SEC and dynamic light scattering confirmed the homogeneity of the purified protein. Electrophoretic mobility shift assays revealed strong RNA-binding activity, as a nearly complete RNA shift was observed at N protein concentrations as low as 0.25 mum. Fluorescence polarization assays further quantified RNA-binding affinity, yielding a dissociation constant of ~28 nm. These results establish an effective strategy for obtaining nucleic acid-free N protein suitable for biochemical and structural studies. Ultimately, this work provides a foundation for high-resolution structural investigations and the development of novel antiviral therapeutics targeting the N protein to combat COVID-19.",
+    "keywords": [
+      "Nucleocapsid protein",
+      "SARS-CoV-2",
+      "Thioredoxin fusion",
+      "electrophoretic mobility shift assay",
+      "fluorescence polarization"
+    ],
+    "mesh_terms": [
+      "*SARS-CoV-2/metabolism/genetics/chemistry",
+      "*Coronavirus Nucleocapsid Proteins/chemistry/genetics/metabolism/isolation & purification",
+      "Humans",
+      "RNA, Viral/metabolism",
+      "COVID-19/virology",
+      "*Phosphoproteins/chemistry/genetics/metabolism",
+      "*Nucleocapsid Proteins/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Shweta",
+        "Gupta, Gagan D"
+      ],
+      "short_names": [
+        "Singh S",
+        "Gupta GD"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2549-3190"
+      ],
+      "affiliations": [
+        "Protein Crystallography Section, Bhabha Atomic Research Centre, Mumbai, India.",
+        "Homi Bhabha National Institute, Mumbai, India.",
+        "Protein Crystallography Section, Bhabha Atomic Research Centre, Mumbai, India.",
+        "Homi Bhabha National Institute, Mumbai, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Shweta",
+        "short_name": "Singh S",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Crystallography Section, Bhabha Atomic Research Centre, Mumbai, India.",
+          "Homi Bhabha National Institute, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Gupta, Gagan D",
+        "short_name": "Gupta GD",
+        "identifiers": [
+          "0000-0003-2549-3190"
+        ],
+        "affiliations": [
+          "Protein Crystallography Section, Bhabha Atomic Research Centre, Mumbai, India.",
+          "Homi Bhabha National Institute, Mumbai, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "FEBS open bio"
+    ],
+    "journal_abbrev": [
+      "FEBS Open Bio"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/10 06:28",
+    "fetched_at": "2026-09-21 19:48:09"
+  },
+  "links": {
+    "cites": [
+      "41020890"
+    ],
+    "refs": [
+      "39122965",
+      "38885868",
+      "38713013",
+      "37173515",
+      "36640305",
+      "36639608",
+      "36627683",
+      "36623745",
+      "35551296",
+      "34634033",
+      "34451501",
+      "34371045",
+      "34302458",
+      "34095780",
+      "34048905",
+      "33545711",
+      "33479198",
+      "33264373",
+      "33245961",
+      "33176080",
+      "32953130",
+      "32914439",
+      "32159775",
+      "31776274"
+    ],
+    "similar": [
+      "40490992",
+      "39766245",
+      "38941236",
+      "38587193",
+      "38718862",
+      "33479198",
+      "40375582",
+      "39653699",
+      "39343000",
+      "39412257",
+      "39380503",
+      "38885868",
+      "33039147",
+      "35551296",
+      "38153183",
+      "33248025",
+      "40113149",
+      "33782395",
+      "33290746",
+      "40602456",
+      "33200826",
+      "40664703",
+      "34634033",
+      "40649197",
+      "33477032",
+      "39201466",
+      "36708355",
+      "40097964",
+      "39341499",
+      "40820302",
+      "33247108",
+      "38713013",
+      "38846351",
+      "37526269",
+      "39912211",
+      "34642671",
+      "33264373",
+      "33095454",
+      "34029587",
+      "39360627",
+      "40077853",
+      "39216563",
+      "39343003",
+      "39339835",
+      "36748338",
+      "39708056",
+      "36040256",
+      "38925369",
+      "39265446",
+      "35123472",
+      "39120134",
+      "33270159",
+      "40830575",
+      "40858555",
+      "39675446",
+      "33557213",
+      "40086356",
+      "39082816",
+      "39638802",
+      "39093972",
+      "33894414",
+      "38018991",
+      "34958396",
+      "17002283",
+      "39567830",
+      "33460172",
+      "36533523",
+      "39489230",
+      "40503686",
+      "37863261",
+      "38515377",
+      "40718679",
+      "34371045",
+      "40549905",
+      "33794152",
+      "39506849",
+      "39848104",
+      "41305077",
+      "39609857",
+      "41468288",
+      "39174826",
+      "39684875",
+      "34124695",
+      "33198594",
+      "34822776",
+      "39194248",
+      "33321203",
+      "16254320",
+      "36323732",
+      "40371698",
+      "19052082",
+      "40945576",
+      "34519429",
+      "37211047",
+      "39831305",
+      "40974925",
+      "40751130",
+      "39841800",
+      "34502139",
+      "36807437"
+    ],
+    "review": [
+      "40490992",
+      "39343000",
+      "38846351",
+      "40077853",
+      "39216563"
+    ],
+    "pmc": [
+      "12582981"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40490992.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40490992/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/2211-5463.70064",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,541 @@
+{
+  "identity": {
+    "pmid": "37587118",
+    "doi": "10.1038/s41419-023-06037-y",
+    "title": "Heimdall, an alternative protein issued from a ncRNA related to kappa light chain variable region of immunoglobulins from astrocytes: a new player in neural proteome."
+  },
+  "content": {
+    "abstract": "The dogma \"One gene, one protein\" is clearly obsolete since cells use alternative splicing and generate multiple transcripts which are translated into protein isoforms, but also use alternative translation initiation sites (TISs) and termination sites on a given transcript. Alternative open reading frames for individual transcripts give proteins originate from the 5'- and 3'-UTR mRNA regions, frameshifts of mRNA ORFs or from non-coding RNAs. Longtime considered as non-coding, recent in-silico translation prediction methods enriched the protein databases allowing the identification of new target structures that have not been identified previously. To gain insight into the role of these newly identified alternative proteins in the regulation of cellular functions, it is crucial to assess their dynamic modulation within a framework of altered physiological modifications such as experimental spinal cord injury (SCI). Here, we carried out a longitudinal proteomic study on rat SCI from 12 h to 10 days. Based on the alternative protein predictions, it was possible to identify a plethora of newly predicted protein hits. Among these proteins, some presented a special interest due to high homology with variable chain regions of immunoglobulins. We focus our interest on the one related to Kappa variable light chains which is similarly highly produced by B cells in the Bence jones disease, but here expressed in astrocytes. This protein, name Heimdall is an Intrinsically disordered protein which is secreted under inflammatory conditions. Immunoprecipitation experiments showed that the Heimdall interactome contained proteins related to astrocyte fate keepers such as \"NOTCH1, EPHA3, IPO13\" as well as membrane receptor protein including \"CHRNA9; TGFBR, EPHB6, and TRAM\". However, when Heimdall protein was neutralized utilizing a specific antibody or its gene knocked out by CRISPR-Cas9, sprouting elongations were observed in the corresponding astrocytes. Interestingly, depolarization assays and intracellular calcium measurements in Heimdall KO, established a depolarization effect on astrocyte membranes KO cells were more likely that the one found in neuroprogenitors. Proteomic analyses performed under injury conditions or under lipopolysaccharides (LPS) stimulation, revealed the expression of neuronal factors, stem cell proteins, proliferation, and neurogenesis of astrocyte convertor factors such as EPHA4, NOTCH2, SLIT3, SEMA3F, suggesting a role of Heimdall could regulate astrocytic fate. Taken together, Heimdall could be a novel member of the gatekeeping astrocyte-to-neuroprogenitor conversion factors.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Rats",
+      "*Proteome/genetics",
+      "*Astrocytes",
+      "Proteomics",
+      "Antibodies",
+      "Neurogenesis",
+      "3' Untranslated Regions"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Capuz, Alice",
+        "Osien, Sylvain",
+        "Cardon, Tristan",
+        "Karnoub, Melodie Anne",
+        "Aboulouard, Soulaimane",
+        "Raffo-Romero, Antonella",
+        "Duhamel, Marie",
+        "Cizkova, Dasa",
+        "Trerotola, Marco",
+        "Devos, David",
+        "Kobeissy, Firas",
+        "Vanden Abeele, Fabien",
+        "Bonnefond, Amelie",
+        "Fournier, Isabelle",
+        "Rodet, Franck",
+        "Salzet, Michel"
+      ],
+      "short_names": [
+        "Capuz A",
+        "Osien S",
+        "Cardon T",
+        "Karnoub MA",
+        "Aboulouard S",
+        "Raffo-Romero A",
+        "Duhamel M",
+        "Cizkova D",
+        "Trerotola M",
+        "Devos D",
+        "Kobeissy F",
+        "Vanden Abeele F",
+        "Bonnefond A",
+        "Fournier I",
+        "Rodet F",
+        "Salzet M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1751-0528",
+        "ORCID: 0000-0002-2045-4785",
+        "ORCID: 0000-0002-4006-5605",
+        "ORCID: 0000-0002-2504-3993",
+        "ORCID: 0000-0002-5008-6944",
+        "ORCID: 0000-0003-1096-5044",
+        "ORCID: 0000-0002-7612-0282",
+        "ORCID: 0000-0003-4318-0817"
+      ],
+      "affiliations": [
+        "Univ. Lille, Inserm, U-1192 - Laboratoire Proteomique, Reponse Inflammatoire et Spectrometrie de Masse-PRISM, F-59000, Lille, France.",
+        "Univ. Lille, Inserm, U-1192 - Laboratoire Proteomique, Reponse Inflammatoire et Spectrometrie de Masse-PRISM, F-59000, Lille, France.",
+        "Univ. Lille, Inserm, U-1192 - Laboratoire Proteomique, Reponse Inflammatoire et Spectrometrie de Masse-PRISM, F-59000, Lille, France.",
+        "Univ. Lille, Inserm, U-1192 - Laboratoire Proteomique, Reponse Inflammatoire et Spectrometrie de Masse-PRISM, F-59000, Lille, France.",
+        "Univ. Lille, Inserm, U-1192 - Laboratoire Proteomique, Reponse Inflammatoire et Spectrometrie de Masse-PRISM, F-59000, Lille, France.",
+        "Univ. Lille, Inserm, U-1192 - Laboratoire Proteomique, Reponse Inflammatoire et Spectrometrie de Masse-PRISM, F-59000, Lille, France.",
+        "Univ. Lille, Inserm, U-1192 - Laboratoire Proteomique, Reponse Inflammatoire et Spectrometrie de Masse-PRISM, F-59000, Lille, France.",
+        "Univ. Lille, Inserm, U-1192 - Laboratoire Proteomique, Reponse Inflammatoire et Spectrometrie de Masse-PRISM, F-59000, Lille, France.",
+        "Institute of Neuroimmunology, Slovak Academy of Sciences, Dubravska cesta 9, 845 10, Bratislava, Slovakia.",
+        "Centre for Experimental and Clinical Regenerative Medicine, University of Veterinary Medicine and Pharmacy in Kosice, Kosice, Slovakia.",
+        "Laboratory of Cancer Pathology, Center for Advanced Studies and Technology (CAST), University 'G. d'Annunzio', Chieti, Italy.",
+        "Department of Medical, Oral and Biotechnological Sciences, University 'G. d'Annunzio', Chieti, Italy.",
+        "Universite de Lille, INSERM, U1172, CHU-Lille, Lille Neuroscience Cognition Research Centre, 1 place de Verdun, 59000, Lille, France.",
+        "Department of Biochemistry and Molecular Genetics, Faculty of Medicine, American University of Beirut, Beirut, Lebanon.",
+        "Universite de Lille, INSERM U1003, Laboratory of Cell Physiology, 59650, Villeneuve d'Ascq, France.",
+        "Univ. Lille, Inserm UMR1283, CNRS UMR8199, European Genomic Institute for Diabetes (EGID), Institut Pasteur de Lille, CHU de Lille, 1 place de Verdun, 59000, Lille, France.",
+        "Univ. Lille, Inserm, U-1192 - Laboratoire Proteomique, Reponse Inflammatoire et Spectrometrie de Masse-PRISM, F-59000, Lille, France.",
+        "Institut Universitaire de France, 75005, Paris, France.",
+        "Univ. Lille, Inserm, U-1192 - Laboratoire Proteomique, Reponse Inflammatoire et Spectrometrie de Masse-PRISM, F-59000, Lille, France. franck.rodet@univ-lille.fr.",
+        "Univ. Lille, Inserm, U-1192 - Laboratoire Proteomique, Reponse Inflammatoire et Spectrometrie de Masse-PRISM, F-59000, Lille, France. Michel.salzet@univ-lille.fr.",
+        "Institut Universitaire de France, 75005, Paris, France. Michel.salzet@univ-lille.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Capuz, Alice",
+        "short_name": "Capuz A",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Lille, Inserm, U-1192 - Laboratoire Protéomique, Réponse Inflammatoire et Spectrométrie de Masse-PRISM, F-59000, Lille, France."
+        ]
+      },
+      {
+        "full_name": "Osien, Sylvain",
+        "short_name": "Osien S",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Lille, Inserm, U-1192 - Laboratoire Protéomique, Réponse Inflammatoire et Spectrométrie de Masse-PRISM, F-59000, Lille, France."
+        ]
+      },
+      {
+        "full_name": "Cardon, Tristan",
+        "short_name": "Cardon T",
+        "identifiers": [
+          "0000-0003-1751-0528"
+        ],
+        "affiliations": [
+          "Univ. Lille, Inserm, U-1192 - Laboratoire Protéomique, Réponse Inflammatoire et Spectrométrie de Masse-PRISM, F-59000, Lille, France."
+        ]
+      },
+      {
+        "full_name": "Karnoub, Mélodie Anne",
+        "short_name": "Karnoub MA",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Lille, Inserm, U-1192 - Laboratoire Protéomique, Réponse Inflammatoire et Spectrométrie de Masse-PRISM, F-59000, Lille, France."
+        ]
+      },
+      {
+        "full_name": "Aboulouard, Soulaimane",
+        "short_name": "Aboulouard S",
+        "identifiers": [
+          "0000-0002-2045-4785"
+        ],
+        "affiliations": [
+          "Univ. Lille, Inserm, U-1192 - Laboratoire Protéomique, Réponse Inflammatoire et Spectrométrie de Masse-PRISM, F-59000, Lille, France."
+        ]
+      },
+      {
+        "full_name": "Raffo-Romero, Antonella",
+        "short_name": "Raffo-Romero A",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Lille, Inserm, U-1192 - Laboratoire Protéomique, Réponse Inflammatoire et Spectrométrie de Masse-PRISM, F-59000, Lille, France."
+        ]
+      },
+      {
+        "full_name": "Duhamel, Marie",
+        "short_name": "Duhamel M",
+        "identifiers": [
+          "0000-0002-4006-5605"
+        ],
+        "affiliations": [
+          "Univ. Lille, Inserm, U-1192 - Laboratoire Protéomique, Réponse Inflammatoire et Spectrométrie de Masse-PRISM, F-59000, Lille, France."
+        ]
+      },
+      {
+        "full_name": "Cizkova, Dasa",
+        "short_name": "Cizkova D",
+        "identifiers": [
+          "0000-0002-2504-3993"
+        ],
+        "affiliations": [
+          "Univ. Lille, Inserm, U-1192 - Laboratoire Protéomique, Réponse Inflammatoire et Spectrométrie de Masse-PRISM, F-59000, Lille, France.",
+          "Institute of Neuroimmunology, Slovak Academy of Sciences, Dúbravská cesta 9, 845 10, Bratislava, Slovakia.",
+          "Centre for Experimental and Clinical Regenerative Medicine, University of Veterinary Medicine and Pharmacy in Kosice, Kosice, Slovakia."
+        ]
+      },
+      {
+        "full_name": "Trerotola, Marco",
+        "short_name": "Trerotola M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Cancer Pathology, Center for Advanced Studies and Technology (CAST), University 'G. d'Annunzio', Chieti, Italy.",
+          "Department of Medical, Oral and Biotechnological Sciences, University 'G. d'Annunzio', Chieti, Italy."
+        ]
+      },
+      {
+        "full_name": "Devos, David",
+        "short_name": "Devos D",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Lille, INSERM, U1172, CHU-Lille, Lille Neuroscience Cognition Research Centre, 1 place de Verdun, 59000, Lille, France."
+        ]
+      },
+      {
+        "full_name": "Kobeissy, Firas",
+        "short_name": "Kobeissy F",
+        "identifiers": [
+          "0000-0002-5008-6944"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, Faculty of Medicine, American University of Beirut, Beirut, Lebanon."
+        ]
+      },
+      {
+        "full_name": "Vanden Abeele, Fabien",
+        "short_name": "Vanden Abeele F",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Lille, INSERM U1003, Laboratory of Cell Physiology, 59650, Villeneuve d'Ascq, France."
+        ]
+      },
+      {
+        "full_name": "Bonnefond, Amélie",
+        "short_name": "Bonnefond A",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Lille, Inserm UMR1283, CNRS UMR8199, European Genomic Institute for Diabetes (EGID), Institut Pasteur de Lille, CHU de Lille, 1 place de Verdun, 59000, Lille, France."
+        ]
+      },
+      {
+        "full_name": "Fournier, Isabelle",
+        "short_name": "Fournier I",
+        "identifiers": [
+          "0000-0003-1096-5044"
+        ],
+        "affiliations": [
+          "Univ. Lille, Inserm, U-1192 - Laboratoire Protéomique, Réponse Inflammatoire et Spectrométrie de Masse-PRISM, F-59000, Lille, France.",
+          "Institut Universitaire de France, 75005, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Rodet, Franck",
+        "short_name": "Rodet F",
+        "identifiers": [
+          "0000-0002-7612-0282"
+        ],
+        "affiliations": [
+          "Univ. Lille, Inserm, U-1192 - Laboratoire Protéomique, Réponse Inflammatoire et Spectrométrie de Masse-PRISM, F-59000, Lille, France. franck.rodet@univ-lille.fr."
+        ]
+      },
+      {
+        "full_name": "Salzet, Michel",
+        "short_name": "Salzet M",
+        "identifiers": [
+          "0000-0003-4318-0817"
+        ],
+        "affiliations": [
+          "Univ. Lille, Inserm, U-1192 - Laboratoire Protéomique, Réponse Inflammatoire et Spectrométrie de Masse-PRISM, F-59000, Lille, France. Michel.salzet@univ-lille.fr.",
+          "Institut Universitaire de France, 75005, Paris, France. Michel.salzet@univ-lille.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell death & disease"
+    ],
+    "journal_abbrev": [
+      "Cell Death Dis"
+    ],
+    "pub_date": "2023 Aug 16",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/17 00:42",
+    "fetched_at": "2026-09-21 00:25:33"
+  },
+  "links": {
+    "cites": [
+      "41285112",
+      "41033461",
+      "40490799",
+      "40406136",
+      "37015912"
+    ],
+    "refs": [
+      "35784350",
+      "35741036",
+      "35723428",
+      "35203608",
+      "35043239",
+      "35004666",
+      "34824210",
+      "34663921",
+      "34571959",
+      "34554924",
+      "34433614",
+      "34291049",
+      "34093129",
+      "33649453",
+      "33542205",
+      "33513538",
+      "33246829",
+      "33237286",
+      "32823486",
+      "32655376",
+      "32634582",
+      "32387289",
+      "31433983",
+      "30912042",
+      "30650354",
+      "30534055",
+      "30498490",
+      "30181344",
+      "30135939",
+      "29444459",
+      "29416050",
+      "29279367",
+      "29222231",
+      "29215199",
+      "29083303",
+      "28992347",
+      "28962574",
+      "28700942",
+      "28659490",
+      "28442576",
+      "28332488",
+      "28206694",
+      "28154132",
+      "28130363",
+      "28109979",
+      "28079879",
+      "27667971",
+      "27515064",
+      "27465397",
+      "27250205",
+      "26780180",
+      "26578573",
+      "26298634",
+      "26119235",
+      "25640239",
+      "25549265",
+      "25482923",
+      "25301628",
+      "25075903",
+      "25044744",
+      "24942700",
+      "24727771",
+      "24606139",
+      "24533096",
+      "24056302",
+      "23950983",
+      "23904011",
+      "23873081",
+      "23818142",
+      "23771592",
+      "23769735",
+      "23762397",
+      "23637172",
+      "23203882",
+      "23165658",
+      "22767515",
+      "22717580",
+      "22613085",
+      "22573551",
+      "22479590",
+      "22174877",
+      "22102590",
+      "21860405",
+      "21615675",
+      "21254760",
+      "20937129",
+      "20603020",
+      "20133770",
+      "20124433",
+      "19029910",
+      "18579077",
+      "17997006",
+      "16856152",
+      "16840550",
+      "15766548",
+      "15547945",
+      "14666995",
+      "12791269",
+      "12673829",
+      "12052917",
+      "11691980",
+      "11588182",
+      "10818153",
+      "10464325",
+      "9802272",
+      "9398841",
+      "6121610"
+    ],
+    "similar": [
+      "37587118",
+      "37833264",
+      "37015912",
+      "33595805",
+      "35685361",
+      "30653967",
+      "17317662",
+      "35832093",
+      "28270575",
+      "20005204",
+      "12709418",
+      "23950983",
+      "23920243",
+      "35784350",
+      "29451327",
+      "35816276",
+      "11746449",
+      "29179211",
+      "36401581",
+      "19077055",
+      "32744501",
+      "21529317",
+      "31825849",
+      "30308489",
+      "28258169",
+      "29483282",
+      "22570341",
+      "32190622",
+      "25308431",
+      "29178911",
+      "28790168",
+      "24115312",
+      "36261025",
+      "24260526",
+      "21486931",
+      "28501777",
+      "25139829",
+      "20116864",
+      "28336567",
+      "29787824",
+      "29033188",
+      "16846377",
+      "31504789",
+      "36115513",
+      "36103106",
+      "35624475",
+      "25484187",
+      "22742998",
+      "27716282",
+      "35546493",
+      "27836325",
+      "31153826",
+      "19609085",
+      "23912807",
+      "26683444",
+      "27209304",
+      "25815122",
+      "23270423",
+      "35203371",
+      "35007896",
+      "15952724",
+      "32371379",
+      "20202079",
+      "26138449",
+      "25043492",
+      "30309497",
+      "36961377",
+      "23386122",
+      "29247683",
+      "21419563",
+      "26677620",
+      "15478601",
+      "27712956",
+      "7846578",
+      "28844002",
+      "29218499",
+      "36539177",
+      "21385309",
+      "27758000",
+      "33246829",
+      "32066583",
+      "17328797",
+      "25069414",
+      "28547529",
+      "35072517",
+      "26601945",
+      "17547750",
+      "22824304",
+      "11438922",
+      "28851266",
+      "34362408",
+      "34222228",
+      "34394104"
+    ],
+    "review": [
+      "37587118",
+      "35784350",
+      "31504789",
+      "25484187",
+      "35546493",
+      "25815122",
+      "29247683",
+      "27712956",
+      "7846578",
+      "33246829"
+    ],
+    "pmc": [
+      "10432539"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41419-023-06037-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37587118/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37587118",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-KRT+Group+B-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3851",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=pxd042754",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      }
+    ],
+    "text_mined": []
+  }
+}

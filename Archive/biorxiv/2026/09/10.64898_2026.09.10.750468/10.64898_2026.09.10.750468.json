@@ -44,86 +44,86 @@
         "author": [
           {
             "fullName": "Cisse EH",
-            "firstName": "El Hadji",
             "lastName": "Cisse",
+            "firstName": "El Hadji",
             "initials": "EH"
           },
           {
             "fullName": "Visticot L",
-            "firstName": "Laura",
             "lastName": "Visticot",
+            "firstName": "Laura",
             "initials": "L"
           },
           {
             "fullName": "Cepa R",
-            "firstName": "Rafael",
             "lastName": "Cepa",
+            "firstName": "Rafael",
             "initials": "R"
           },
           {
             "fullName": "Mishra A",
-            "firstName": "Aanchal",
             "lastName": "Mishra",
+            "firstName": "Aanchal",
             "initials": "A"
           },
           {
             "fullName": "Coste F",
-            "firstName": "Franck",
             "lastName": "Coste",
+            "firstName": "Franck",
             "initials": "F"
           },
           {
             "fullName": "Goffinont S",
-            "firstName": "Stephane",
             "lastName": "Goffinont",
+            "firstName": "Stephane",
             "initials": "S"
           },
           {
             "fullName": "Mance L",
-            "firstName": "Lucija",
             "lastName": "Mance",
+            "firstName": "Lucija",
             "initials": "L"
           },
           {
             "fullName": "Battault S",
-            "firstName": "Sarah",
             "lastName": "Battault",
+            "firstName": "Sarah",
             "initials": "S"
           },
           {
             "fullName": "Guigneau D",
-            "firstName": "Dorian",
             "lastName": "Guigneau",
+            "firstName": "Dorian",
             "initials": "D"
           },
           {
             "fullName": "Talhaoui I",
-            "firstName": "Ibtissam",
             "lastName": "Talhaoui",
+            "firstName": "Ibtissam",
             "initials": "I"
           },
           {
             "fullName": "Castaing B",
-            "firstName": "Bertrand",
             "lastName": "Castaing",
+            "firstName": "Bertrand",
             "initials": "B"
           },
           {
             "fullName": "Aucagne V",
-            "firstName": "Vincent",
             "lastName": "Aucagne",
+            "firstName": "Vincent",
             "initials": "V"
           },
           {
             "fullName": "Defossez P",
-            "firstName": "Pierre-Antoine",
             "lastName": "Defossez",
+            "firstName": "Pierre-Antoine",
             "initials": "P"
           },
           {
             "fullName": "Suskiewicz MJ",
-            "firstName": "Marcin Jozef",
             "lastName": "Suskiewicz",
+            "firstName": "Marcin Jozef",
             "initials": "MJ"
           }
         ]
@@ -153,23 +153,23 @@
       "isOpenAccess": "N",
       "inEPMC": "N",
       "inPMC": "N",
-      "hasPDF": "N",
-      "hasBook": "N",
-      "hasSuppl": "N",
       "citedByCount": 0,
-      "hasData": "N",
       "hasReferences": "N",
       "hasTextMinedTerms": "N",
       "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
       "hasLabsLinks": "N",
-      "hasEvaluations": "N",
+      "hasData": "N",
       "authMan": "N",
       "epmcAuthMan": "N",
       "nihAuthMan": "N",
       "hasTMAccessionNumbers": "N",
       "dateOfCreation": "2026-09-14",
+      "firstPublicationDate": "2026-09-13",
       "firstIndexDate": "2026-09-14",
-      "firstPublicationDate": "2026-09-13"
+      "hasEvaluations": "N"
     }
   }
 }

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The abstract describes an extension of the TAiBP approach for conformational sampling of intrinsically disordered regions, incorporating RDC-based filtering via non-negative least-squares reweighting, and a comparison with literature approaches.
+- **Shared manuscript claim summary** The authors claim that (i) an extension of TAiBP enables relevant description of IDR conformational landscapes when RDC data are available, (ii) the RDC filtering efficiency depends on clustering resolution during assembly, and (iii) conformations generated from delta2D and CSI inputs followed by RDC filtering agree with previously published results, with more localized secondary structure elements relative to CSI-RDC consensus.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, or numerical results are provided.
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, statistical details, validation metrics, comparison datasets, and any code or data availability statements.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful methodological extension to an existing conformational sampling tool, with a clear application to IDR characterization. However, the evidence provided is insufficient to evaluate the technical soundness, the validity of the claims, or the significance of the advance. The core claims regarding filtering efficiency and agreement with prior work are stated without quantitative support. The work may be of interest to the IDP/IDR biophysics community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and regions, particularly those using NMR-derived restraints such as RDCs to characterize conformational ensembles. Computational biophysicists developing sampling and ensemble reweighting methods would also find the methodological aspects relevant.
+- **Major strengths** The abstract addresses a genuine challenge in IDR conformational characterization, namely the integration of experimental restraints into systematic enumeration approaches. The proposed use of non-negative least-squares for maximum-parsimony ensemble reweighting is a reasonable and potentially robust strategy. The explicit link between clustering resolution and filtering efficiency is a useful conceptual point.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The RDC filtering efficiency is directly related to the resolution of the clustering during the assembly step of TAiBP."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states a direct relationship between clustering resolution and RDC filtering efficiency, but provides no quantitative data, systematic analysis, or error assessment to support this claim. It is unclear how clustering resolution was varied, what metric defined "efficiency," and whether the relationship is monotonic, thresholded, or context-dependent.
+  - **Why it matters** This claim is central to the methodological contribution. If the relationship is not rigorously demonstrated, the practical utility of the approach for guiding clustering parameter choices remains unsubstantiated.
+  - **Resolution test** Provide a systematic study varying clustering resolution, with quantitative metrics of filtering performance (e.g., ensemble size reduction, agreement with experimental RDCs, reproducibility across runs) and statistical significance testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The generation of TAiBP conformations from the delta2D and CSI inputs, followed by the RDC filtering, provides conformations in general agreement with the previously published results."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of agreement with previously published results is made without specifying which results, what comparison metrics were used, or the degree of agreement. No quantitative measures such as RMSD, ensemble overlap, or correlation coefficients are provided.
+  - **Why it matters** Agreement with prior work is a key validation step. Without explicit comparison details, the reader cannot assess whether the agreement is meaningful or coincidental, nor whether the approach offers any advantage over existing methods.
+  - **Resolution test** Specify the reference datasets and methods, report quantitative comparison metrics with uncertainties, and discuss any discrepancies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "A maximum-parsimony ensemble reweighting is proposed to filter the protein conformations by the residual dipolar coupling (RDC) values, based on non-negative least-squares (nnls) to select conformations."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe the reweighting procedure in sufficient detail to assess its validity or reproducibility. Key aspects such as the objective function, regularization, handling of experimental uncertainty, and criteria for selecting conformations are absent.
+  - **Why it matters** Ensemble reweighting methods are sensitive to implementation details. Without a clear description, the method cannot be evaluated for overfitting, bias, or generalizability, and other researchers cannot reproduce or build upon the work.
+  - **Resolution test** Provide a complete mathematical formulation of the reweighting procedure, including the objective function, constraints, and any hyperparameters, along with validation on synthetic or benchmark systems.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "maximum-parsimony ensemble reweighting" is not standard in the field and is not defined in the abstract.
+  - **Required correction** Define the term explicitly or use more conventional terminology such as "minimum-ensemble" or "sparse reweighting" with a brief explanation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison scope
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states a comparison with "classical approaches in the literature" but does not name any specific methods.
+  - **Required correction** List the specific methods compared and briefly state the basis for selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mixes methodological description with results without clear separation, making it difficult to distinguish the proposed method from the findings.
+  - **Required correction** Restructure the abstract to clearly separate method description, results, and conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core methodological claim (R1-M1) and the validation claim (R1-M2) are unsupported by quantitative evidence, and the method description (R1-M3) is insufficient for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The extension of TAiBP with RDC filtering appears incremental rather than conceptually novel, though the specific combination may be new. Not fully assessable from the abstract.
+  - Scientific importance: The problem addressed is important for IDR biophysics, but the abstract does not demonstrate that the approach solves a previously intractable problem or offers clear advantages over existing methods.
+  - Interdisciplinary readership: The work is likely to appeal primarily to a specialized audience of NMR spectroscopists and computational biophysicists. Broader interdisciplinary appeal is not evident from the abstract.
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail and quantitative validation is a major limitation.
+  - Readability for nonspecialists: The abstract uses field-specific jargon without sufficient context, making it difficult for nonspecialists to grasp the significance or the nature of the advance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful methodological contribution, but the absence of quantitative results, methodological detail, and validation metrics precludes a supportive recommendation. A full manuscript with rigorous analysis would be required to assess the claims.
+
+## Risk / unsupported claims
+- The claim that RDC filtering efficiency is directly related to clustering resolution is unsupported by any data.
+- The claim of general agreement with previously published results is unsupported by specific comparisons or metrics.
+- The claim that the approach provides "a relevant description of the conformational landscapes" is not substantiated with any validation or benchmark results.
+- The effectiveness of the maximum-parsimony reweighting approach relative to other ensemble selection methods is not assessable from the abstract.

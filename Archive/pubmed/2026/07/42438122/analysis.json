@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42438122",
+  "title": "Tyrosine Stickers Regulate Phase Separation and Hierarchical Assembly of Silk Fibroin Nanoclusters.",
+  "authors": "Maraldo, Anton; Tran, Hien A; Lebhar, Helene; Huang, Xiaojing; Rnjak-Kovacina, Jelena; Marquis, Christopher",
+  "journal": "ACS nano",
+  "published_date": "2026-07-13",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文以丝素蛋白为无序蛋白模型，结合粗粒化模拟与实验，揭示酪氨酸作为sticker调控相分离及纳米簇层级组装机制，虽非典型PPI但聚焦IDR介导的互作与相分离机制建模，方法可迁移。",
+  "abstract": "Silk proteins are high-performance natural biomaterials whose properties arise from tightly regulated hierarchical self-assembly. Although liquid-liquid phase separation (LLPS) is increasingly recognized as a precursor to silk fiber formation, the residue-level interactions linking phase behavior to downstream assembly remain unclear. Here, we use silk fibroin as a low-complexity model to define how specific amino acids govern phase separation through a sticker-spacer architecture. Bioinformatic analysis reveals that fibroin is intrinsically disordered, with limited sequence diversity, and is dominated by flexible spacers interspersed with tyrosine residues. Coarse-grained single- and multichain simulations show that tyrosine content and patterning control chain compaction, condensate stability, and cluster dynamics. Intermediate tyrosine densities promote dynamic LLPS, whereas insufficient or excessive aromatic content suppresses condensation or drives aggregation-like behavior, identifying tyrosine as the primary sticker residue regulating phase behavior. Experimentally, we modulated tyrosine-mediated interactions using l-arginine. Spectroscopic and colloidal measurements demonstrate that l-arginine disrupts aromatic clustering without global denaturation, inhibiting phase separation, suppressing nanocluster formation, reducing viscosity, and enhancing thermal and colloidal stability. Microscopy and nanoparticle tracking further reveal reversible amorphous condensates and irreversible aggregated nanoassembly states, with tyrosine interactions governing transitions between them. Together, these results establish tyrosine-mediated aromatic interactions as a central molecular driver of fibroin LLPS and hierarchical assembly. By demonstrating that these interactions can be selectively and reversibly regulated, this work provides both a mechanistic framework and a practical strategy for controlling silk self-assembly, informing the design and stabilization of silk-based and synthetic protein biomaterials.",
+  "abstract_zh": "丝蛋白是高性能的天然生物材料，其性质源于严格调控的分层自组装。尽管液-液相分离（LLPS）日益被认为是丝纤维形成的前体，但连接相行为与下游组装的残基级相互作用仍不清楚。在此，我们使用丝素蛋白作为低复杂度模型，通过贴纸-间隔区架构来定义特定氨基酸如何调控相分离。生物信息学分析揭示，丝素蛋白本质上是无序的，序列多样性有限，主要由穿插酪氨酸残基的柔性间隔区主导。粗粒化单链和多链模拟表明，酪氨酸含量及其分布模式控制链压缩、凝聚体稳定性和簇动力学。中等酪氨酸密度促进动态LLPS，而芳香族含量不足或过量则抑制凝聚或驱动类聚集行为，从而将酪氨酸确定为调控相行为的主要贴纸残基。实验上，我们使用L-精氨酸调节酪氨酸介导的相互作用。光谱和胶体测量表明，L-精氨酸在不引起全局变性的情况下破坏芳香族聚集，抑制相分离、抑制纳米簇形成、降低粘度，并增强热稳定性和胶体稳定性。显微镜和纳米颗粒追踪进一步揭示了可逆的无定形凝聚体和不可逆的聚集纳米组装状态，而酪氨酸相互作用调控它们之间的转变。综合这些结果，确立了酪氨酸介导的芳香族相互作用是丝素蛋白LLPS和分层组装的核心分子驱动因素。通过证明这些相互作用可以被选择性和可逆地调控，这项工作为控制丝自组装提供了机制框架和实用策略，为丝基和合成蛋白质生物材料的设计与稳定化提供了指导。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42438122/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42438122/",
+  "paper_page_path": "papers/pubmed/42438122/index.html"
+}

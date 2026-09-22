@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41991555",
+  "title": "Folded domains impose structural heterogeneity and attenuated dynamics in biomolecular condensates.",
+  "authors": "Wang, Liguo; Marrink, Siewert J",
+  "journal": "Nature communications",
+  "published_date": "2026-04-17",
+  "window": {
+    "start": "2026-04-13",
+    "end": "2026-04-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过分子动力学模拟系统比较全长多结构域蛋白与仅含IDR的凝聚体，揭示折叠结构域在凝聚体中引入结构异质性和动力学衰减，直接关注IDR/凝聚体中的互作机制建模，方法为物理模拟，对象与互作轴均强，但未涉及AI方法，故评8分。",
+  "abstract": "Biomolecular condensates are widely studied using simplified analogues formed by purified low complexity domains (LCDs) or intrinsically disordered regions (IDRs). However, the exclusion of folded domains fails to capture natural molecular complexity and limits their physiological relevance. Here, we performed molecular dynamics simulations to systematically investigate the internal structure of condensates formed by full-length multidomain proteins (MDPs) in comparison to IDR-only systems. In contrast to uniformly expanded conformations observed in IDR-only condensates during tens of microseconds simulation, MDP-based systems exhibit significant heterogeneity. The heterogeneous microenvironment imposed by folded domains results in component-specific coupling and a wide range of conformations sampled by the IDRs. Strikingly, residue interaction specificity remains conserved between the condensed and solution states, even in the presence of MDPs. Finally, both local and global dynamics are attenuated in MDP-based condensates, opposing the heterogeneous retardation and unperturbed local dynamics observed in IDR-only systems. Our findings propose folded domains to act as architectural keystones in natural condensates, and enrich our understanding of their internal structural and dynamic properties.",
+  "abstract_zh": "生物分子凝聚体通常通过由纯化的低复杂度结构域（LCDs）或固有无序区域（IDRs）形成的简化类似物进行广泛研究。然而，排除折叠结构域未能捕捉自然分子的复杂性，并限制了其生理相关性。在此，我们进行了分子动力学 (molecular dynamics) 模拟，系统研究了由全长多结构域蛋白（MDPs）形成的凝聚体内部结构，并与仅含IDR的系统进行比较。与仅含IDR凝聚体在数十微秒模拟中观察到的均匀扩展构象相反，基于MDP的系统表现出显著异质性。由折叠结构域施加的异质微环境导致组分特异性耦合以及IDRs采样的广泛构象范围。引人注目的是，残基相互作用特异性在凝聚态和溶液态之间保持保守，即使在存在MDPs的情况下也是如此。最后，基于MDP的凝聚体中局部和全局动力学均受到减弱，这与仅含IDR系统中观察到的异质性减速和未受扰动的局部动力学形成对比。我们的发现提出折叠结构域在自然凝聚体中充当结构基石，并丰富了对其内部结构和动态特性的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41991555/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41991555/",
+  "paper_page_path": "papers/pubmed/41991555/index.html"
+}

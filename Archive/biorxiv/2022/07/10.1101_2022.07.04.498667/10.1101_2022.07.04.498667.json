@@ -1,0 +1,361 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.04.498667",
+  "title": "Architecture of the MKK6-p38α complex defines the basis of MAPK specificity and activation",
+  "doi": "10.1101/2022.07.04.498667",
+  "abstract": "The MAP kinase p38α is a central component of signalling in inflammation and the immune response and is, therefore, an important drug target. Little is known about the molecular mechanism of its activation by double-phosphorylation from MAP2Ks, due to the challenge of trapping a transient and dynamic hetero-kinase complex. Here, we applied a multidisciplinary approach to generate the first structure of p38α in complex with its MAP2K MKK6 and understand the activation mechanism. Integrating cryo-EM with MD simulations, HDX-MS and in cellulo experiments, we demonstrate a dynamic, multi-step, phosphorylation mechanism, reveal new catalytically relevant interactions, and show that MAP2K disordered N-termini determine pathway specificity. Our work captures, for the first time, a fundamental step of cell signalling: a kinase phosphorylating its downstream target kinase. <h4>One-Sentence Summary</h4> Integrative Cryo-EM and MD analysis of an active hetero-kinase complex reveals details of cellular signal transmission",
+  "authors": [
+    "Juyoux P",
+    "Galdadas I",
+    "Gobbo D",
+    "Velsen Jv",
+    "Pelosse M",
+    "Pelosse M",
+    "Tully M",
+    "Vadas O",
+    "Gervasio FL",
+    "Pellegrini E",
+    "Bowler MW"
+  ],
+  "published_date": "2022-07-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.04.498667",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.04.498667.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR513621",
+    "raw_record": {
+      "id": "PPR513621",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR513621"
+        ]
+      },
+      "doi": "10.1101/2022.07.04.498667",
+      "title": "Architecture of the MKK6-p38α complex defines the basis of MAPK specificity and activation",
+      "authorString": "Juyoux P, Galdadas I, Gobbo D, Velsen Jv, Pelosse M, Pelosse M, Tully M, Vadas O, Gervasio FL, Pellegrini E, Bowler MW.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Juyoux P",
+            "lastName": "Juyoux",
+            "firstName": "Pauline",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3153-1376"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory; Grenoble, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Galdadas I",
+            "lastName": "Galdadas",
+            "firstName": "Ioannis",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva; Geneva, Switzerland"
+                },
+                {
+                  "affiliation": "School of Pharmaceutical Sciences, University of Geneva; Geneva, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gobbo D",
+            "lastName": "Gobbo",
+            "firstName": "Dorothea",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9102-710X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva; Geneva, Switzerland"
+                },
+                {
+                  "affiliation": "School of Pharmaceutical Sciences, University of Geneva; Geneva, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Velsen Jv",
+            "lastName": "Velsen",
+            "firstName": "Jill von",
+            "initials": "Jv",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5450-9900"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory; Grenoble, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pelosse M",
+            "lastName": "Pelosse",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0840-7342"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory; Grenoble, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pelosse M",
+            "lastName": "Pelosse",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4831-5039"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory; Grenoble, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tully M",
+            "lastName": "Tully",
+            "firstName": "Mark",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Synchrotron Radiation Facility; Grenoble, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vadas O",
+            "lastName": "Vadas",
+            "firstName": "Oscar",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein and peptide purification platform, Faculty of Medicine, University of Geneva, Geneva, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gervasio FL",
+            "lastName": "Gervasio",
+            "firstName": "Francesco Luigi",
+            "initials": "FL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Pharmaceutical Sciences of Western Switzerland, University of Geneva; Geneva, Switzerland"
+                },
+                {
+                  "affiliation": "School of Pharmaceutical Sciences, University of Geneva; Geneva, Switzerland"
+                },
+                {
+                  "affiliation": "Department of Chemistry, University College London; London, United Kingdom"
+                },
+                {
+                  "affiliation": "Institute of Structural and Molecular Biology, University College London; London, United Kingdom"
+                },
+                {
+                  "affiliation": "Swiss Institute of Bioinformatics, Geneva, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pellegrini E",
+            "lastName": "Pellegrini",
+            "firstName": "Erika",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory; Grenoble, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bowler MW",
+            "lastName": "Bowler",
+            "firstName": "Matthew",
+            "initials": "MW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory; Grenoble, France"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5450-9900"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9102-710X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0840-7342"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3153-1376"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4831-5039"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The MAP kinase p38α is a central component of signalling in inflammation and the immune response and is, therefore, an important drug target. Little is known about the molecular mechanism of its activation by double-phosphorylation from MAP2Ks, due to the challenge of trapping a transient and dynamic hetero-kinase complex. Here, we applied a multidisciplinary approach to generate the first structure of p38α in complex with its MAP2K MKK6 and understand the activation mechanism. Integrating cryo-EM with MD simulations, HDX-MS and  in cellulo experiments, we demonstrate a dynamic, multi-step, phosphorylation mechanism, reveal new catalytically relevant interactions, and show that MAP2K disordered N-termini determine pathway specificity. Our work captures, for the first time, a fundamental step of cell signalling: a kinase phosphorylating its downstream target kinase.  <h4>One-Sentence Summary</h4>  Integrative Cryo-EM and MD analysis of an active hetero-kinase complex reveals details of cellular signal transmission",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "200021",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "204795",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/04/2022.07.04.498667.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.07.04.498667"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR513621"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR513621&type=FILE&fileName=EMS147797-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37708276",
+            "reference": "Science (New York, N.Y.). 2023 Sep;381(6663):1217-1225",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS147797",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pxd",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-07-06",
+      "firstPublicationDate": "2022-07-04",
+      "firstIndexDate": "2022-07-06",
+      "fullTextReceivedDate": "2023-04-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

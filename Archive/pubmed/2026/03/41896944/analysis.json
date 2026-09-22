@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41896944",
+  "title": "Stabilization of cyclin D3 protein by CDKN1A (p21(Cip/Waf1)) in butyrate-treated cells.",
+  "authors": "Ghrib, Mohammed Ala; Dayhoff, Guy W 2nd; Chahtour, Cherif; Rodrigues-Machado, Carine; Youssef, Abdelrahaman; Schillaci, Giorgio; Gautreau, Guillaume; Henry, Celine; Uversky, Vladimir N; Rigolet, Pascal; Blottiere, Herve M; Lelievre, Jean-Marc",
+  "journal": "Cell communication and signaling : CCS",
+  "published_date": "2026-03-28",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合AlphaFold2与分子动力学模拟，揭示CDKN1A通过结合cyclin D3的C端无序区并掩埋Thr283磷酸化位点来稳定其蛋白，为无序区介导的PPI调控机制提供了可迁移的建模范例。",
+  "abstract": "Butyrate-mediated inhibition of cell proliferation is part of the preventive role of dietary fiber against colorectal cancer (CRC). This effect notably involves the cyclin-dependent kinase inhibitor CDKN1A (p21Cip/Waf1) in human intestinal cells, yet the underlying molecular mechanisms remain incompletely understood. Previously, we observed a paradoxical increase in cyclin D3 (CCND3)-but not cyclin D1-levels upon butyrate exposure. Here, we demonstrate that the butyrate-induced accumulation of CCND3 protein results both from mRNA increase and a CDKN1A-dependent protein stabilization, specifically extending its nuclear half-life. Proteomic analyses of CCND3 co-immunoprecipitates identified complexes particularly enriched in butyrate-treated cells and involving CDKN1A, CDK4, CDK6, and the CRC-associated kinase CDK5. Phosphorylation at a conserved Thr residue in the C-terminal intrinsically disordered region, crucial for CCND nuclear export and subsequent proteasomal degradation, was notably reduced following butyrate treatment and inversely correlated with CDKN1A expression levels. Structural modeling based on AlphaFold2, complemented by molecular dynamics simulations, revealed possible differential interactions between CDKN1A and cyclins D1 and D3, predicting that CCND3-Thr283 becomes structurally buried upon CDKN1A binding, limiting its phosphorylation. Our findings suggest novel mechanistic insights into how the droplet driver CDKN1A might regulate CCND3 stability, highlighting previously unexplored roles of cyclin D3-containing complexes in cell cycle arrest induced by butyrate.",
+  "abstract_zh": "丁酸介导的细胞增殖抑制是膳食纤维预防结直肠癌（CRC）的作用之一。这一效应在人类肠道细胞中显著涉及细胞周期蛋白依赖性激酶抑制剂CDKN1A（p21Cip/Waf1），但其潜在分子机制尚未完全阐明。此前，我们观察到丁酸暴露后细胞周期蛋白D3（CCND3）水平出现矛盾性升高，而细胞周期蛋白D1水平未变。在此，我们证明丁酸诱导的CCND3蛋白积累既源于mRNA增加，也依赖于CDKN1A介导的蛋白稳定性增强，具体表现为延长其核内半衰期。对CCND3共免疫沉淀物的蛋白质组学分析鉴定出在丁酸处理的细胞中特别富集的复合物，涉及CDKN1A、CDK4、CDK6以及CRC相关激酶CDK5。C端 intrinsically disordered region（内在无序区）中一个保守的Thr残基的磷酸化，对CCND核输出及随后的蛋白酶体降解至关重要，在丁酸处理后显著降低，并与CDKN1A表达水平呈负相关。基于AlphaFold2的结构建模，辅以分子动力学 (molecular dynamics) 模拟，揭示了CDKN1A与细胞周期蛋白D1和D3之间可能的差异相互作用，预测CCND3-Thr283在CDKN1A结合后结构上被掩埋，从而限制其磷酸化。我们的发现为液滴驱动因子CDKN1A可能如何调控CCND3稳定性提供了新的机制见解，并强调了含细胞周期蛋白D3复合物在丁酸诱导的细胞周期阻滞中此前未被探索的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41896944/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41896944/",
+  "paper_page_path": "papers/pubmed/41896944/index.html"
+}

@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, background, methods, results, discussion, and figure legends. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific validity, methodological soundness, reproducibility, and clarity of claims based solely on the provided manuscript text.
+- **Shared manuscript claim summary** The authors present DisoFLAG, a computational method based on a graph-based interaction protein language model (GiPLM), for jointly predicting protein intrinsic disorder and six disorder functions (protein-, DNA-, RNA-, ion-, lipid-binding, and flexible linker). They claim improved performance over existing tools on independent test datasets and CAID2 benchmarks, and attribute gains to the graph-based modeling of functional correlations.
+- **Visible evidence base** Main text figures (Figs. 1–6), Tables 1–2, and references to supplementary tables and figures. No supplementary files, code, or web server access were provided for verification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely the prediction of protein intrinsic disorder and its associated functions. The proposed architecture, combining a protein language model with a graph-based interaction unit, is conceptually interesting and the authors provide a thorough comparison against existing methods. However, several technical aspects require clarification and additional validation before the claims can be fully supported. In particular, the handling of multifunctional residues, the statistical rigor of performance comparisons, and the generalizability of the method to unseen data need further scrutiny. The manuscript is potentially publishable after major revisions.
+- **Who would be interested in the results, and why** Researchers in the fields of computational biology, bioinformatics, and protein science, particularly those working on intrinsically disordered proteins, function prediction, and the application of deep learning and language models to biological sequences. The method's broad functional coverage and the availability of a web server and standalone package would also be of interest to experimental biologists seeking to annotate disordered regions in their proteins of interest.
+- **Major strengths**
+    1.  The manuscript addresses a clear gap in the field by providing predictions for a wider range of disorder functions, including ion-binding, which is not covered by most existing tools.
+    2.  The proposed GiPLM architecture is a novel and sensible approach to model the correlations between different disorder functions, moving beyond independent per-function prediction.
+    3.  The evaluation is extensive, including comparisons on independent test sets (DP93, DP94) and the community-driven CAID2 benchmarks, with multiple performance metrics reported.
+    4.  The authors provide a useful analysis of the contribution of different feature types (PLM vs. PSSM) and the role of the graph-based interaction unit, offering insights into the source of performance gains.
+    5.  The provision of a web server and standalone package enhances the practical utility and accessibility of the method for the broader community.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Technical soundness
+        - **Claim pointer** The authors claim that DisoFLAG is the only predictor that can predict all types of multifunctional (MF) residues on the DP93 dataset, and that it achieves the highest Fmax values for these residues.
+        - **Evidence pointer** Figure 3a, Section "Graph-based interaction unit enhances the semantic correlations of multiple disordered functions"
+        - **Concern** The definition and evaluation of multifunctional (MF) residue prediction are not sufficiently detailed. The text states that "A multifunctional residue is considered correctly predicted only if all its functions are accurately predicted," but the exact criteria for "accurately predicted" (e.g., the threshold used to convert real-valued scores to binary predictions) are not specified in the main text. Furthermore, the comparison in Figure 3a appears to be against a limited set of predictors, and it is unclear if these predictors were evaluated using the same strict criteria. The claim that DisoFLAG is the "only" predictor capable of this task is strong and requires a more rigorous and transparent evaluation protocol.
+        - **Why it matters** The prediction of multifunctional residues is a key claimed advantage of the proposed method. If the evaluation criteria are not clearly defined or are applied inconsistently, the validity of this central claim is undermined.
+        - **Resolution test** The authors should provide a precise definition of the MF residue prediction task, including the thresholding procedure. They should also clarify the evaluation protocol for all compared methods, ensuring it is identical. Ideally, they should report the performance of all methods on the same set of MF residues using the same criteria, and provide a statistical test to support the claim of superiority.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Technical soundness
+        - **Claim pointer** The authors state that DisoFLAG offers "statistically significant improvement in AUC compared to other methods" on the DP93 test dataset.
+        - **Evidence pointer** Section "Comparison of DisoFLAG to other methods in the prediction of disordered functions", Table 2, Additional file 1: Table S6.
+        - **Concern** The statistical significance of the performance differences is only mentioned in passing, with the details relegated to a supplementary table (Table S6) that was not provided. The main text does not describe the statistical test used (e.g., paired bootstrap, McNemar's test, DeLong's test for AUC). Without this information, it is impossible to assess the robustness of the claimed improvements.
+        - **Why it matters** Claims of statistical significance are a cornerstone of method comparison in this field. The lack of detail on the statistical methodology prevents the reader from verifying the validity of the conclusions drawn from the performance comparisons.
+        - **Resolution test** The authors must describe the statistical test used for comparing AUC values in the main text or methods section. They should also report the p-values for all comparisons, not just a select few, and clarify whether corrections for multiple testing were applied.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Reproducibility
+        - **Claim pointer** The authors state that "Following the same protocols as previous studies [26, 32], we clustered the 925 sequences using the CD-HIT algorithm [60] with 25% sequence similarity."
+        - **Evidence pointer** Section "Benchmark dataset of disorder functions"
+        - **Concern** The description of the dataset construction is insufficient for reproducibility. The exact parameters for CD-HIT (e.g., word size, clustering method) are not provided. More critically, the process of splitting the clusters into training, validation, and test sets is not described in enough detail. For example, how were the five subsets created from the clusters? Was it a random assignment of whole clusters? What was the random seed? The lack of detail makes it difficult to reproduce the exact dataset splits, which is essential for fair benchmarking.
+        - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without a precise description of the data splitting protocol, other researchers cannot recreate the exact experimental setup, hindering independent verification and future comparisons.
+        - **Resolution test** The authors should provide a detailed, step-by-step description of the dataset construction, including all parameters for CD-HIT and the exact procedure for splitting clusters into the five subsets. They should also provide the list of protein IDs in each of the training, validation, and test sets, or make the exact splits available online.
+    - **R1-M4**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Scientific importance
+        - **Claim pointer** The authors claim that the graph-based interaction unit (GiU) "significantly boosted the predictive performance of DisoFLAG" by modeling correlations between functions.
+        - **Evidence pointer** Table 1, Section "Graph-based interaction unit enhances the semantic correlations of multiple disordered functions"
+        - **Concern** While the ablation study (GiU vs. Seq) shows an improvement, the analysis of *why* the GiU helps is somewhat superficial. The authors use LRP to show that functional correlations contribute positively, but this analysis is only performed on a single protein (Vpr) and for a single residue (T170). This is a very limited case study and does not provide a general understanding of how the model leverages these correlations across the diverse set of proteins in the benchmark.
+        - **Why it matters** The novelty of the method rests on the idea of modeling functional correlations. A more thorough analysis of this mechanism would strengthen the scientific contribution and provide deeper insights into the biology of multifunctional disordered regions.
+        - **Resolution test** The authors should expand their LRP analysis to a larger, more diverse set of proteins and residues. They could also perform a more systematic analysis, for example, by examining which pairs of functions are most correlated in the learned graph and whether these correlations align with known biological relationships.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Figure 1
+        - **Evidence pointer** Figure 1 and its legend
+        - **Issue** The schematic in Figure 1 is dense and the legend is long. The flow of data through the GiPLM architecture, particularly the graph-based interaction unit, could be clearer.
+        - **Required correction** Consider simplifying the figure or breaking it into sub-panels with a more detailed step-by-step explanation in the legend. A clear visual representation of how the IG matrix is used as the adjacency matrix would be helpful.
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Readability
+        - **Affected element** Section "Background"
+        - **Evidence pointer** Paragraph 3
+        - **Issue** The three "similarities" between biological sequences and natural language are presented in a somewhat abstract and philosophical way. This section could be more concise and directly linked to the design choices of the model.
+        - **Required correction** Briefly state the rationale for using a language model and a graph-based approach, and then directly reference the specific components of the GiPLM that address these points.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Technical soundness
+        - **Affected element** Section "Model training and evaluation"
+        - **Evidence pointer** Equation 13
+        - **Issue** The loss function is described as a combination of binary cross-entropy losses for each prediction. It is unclear if the "n+1" in the denominator refers to the number of functions (6) plus one for the disorder prediction, or something else. The weighting of the different loss terms is also not mentioned.
+        - **Required correction** Clarify the notation in the loss function and state whether the losses for each task are weighted equally or if some tasks are given higher priority.
+    - **R1-m4**
+        - **Severity** Minor
+        - **Axis** Reproducibility
+        - **Affected element** Section "Model training and evaluation"
+        - **Evidence pointer** Additional file 1: Table S3
+        - **Issue** The hyperparameters are listed in a supplementary table, but the main text does not mention key training details such as the optimizer, learning rate schedule, batch size, and number of epochs.
+        - **Required correction** Include these essential training details in the main text or methods section to ensure the method is fully reproducible.
+    - **R1-m5**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Section "Comparison of DisoFLAG to other methods in the prediction of disordered functions"
+        - **Evidence pointer** Table 2
+        - **Issue** The table reports a large number of metrics, but the main text focuses primarily on AUC. It would be helpful to have a more concise summary of the key findings, perhaps highlighting the metrics where DisoFLAG shows the most significant improvement.
+        - **Required correction** In the text, explicitly state which metrics show the most consistent improvement for DisoFLAG and discuss any cases where its performance is not superior.
+- **Technical failings that need to be addressed before the case is established**
+    - The lack of a clear and detailed definition of the multifunctional residue prediction task and its evaluation protocol (R1-M1).
+    - The absence of a description of the statistical tests used to support claims of significant improvement (R1-M2).
+    - The insufficient detail on dataset construction and splitting, hindering reproducibility (R1-M3).
+    - The limited scope of the LRP analysis, which does not sufficiently substantiate the claimed mechanism of the model's improvement (R1-M4).
+- **Assessment against Nature-style criteria**
+    - **Originality** The combination of a protein language model with a graph-based interaction unit to jointly predict multiple disorder functions is a novel contribution. While individual components (PLMs, GNNs) are established, their specific integration for this problem is original.
+    - **Scientific importance** The work addresses a real need for more comprehensive and accurate predictors of disorder functions. The inclusion of ion-binding prediction expands the functional coverage. However, the scientific importance is somewhat incremental, as it builds on a well-established field of disorder prediction. The potential for the method to provide new biological insights is present but not fully demonstrated.
+    - **Interdisciplinary readership** The topic is of interest to computational biologists, bioinformaticians, and protein scientists. The method's potential application to drug discovery and disease research could broaden its appeal, but the manuscript is primarily technical in nature.
+    - **Technical soundness** The technical approach is generally sound, but the concerns raised above regarding the evaluation of multifunctional residues, statistical rigor, and reproducibility need to be addressed. The ablation study is a positive aspect, but the analysis of the model's mechanism is insufficient.
+    - **Readability for nonspecialists** The manuscript is written in a technical style that is accessible to researchers in the field. However, the background section could be more concise, and the description of the model architecture could be clearer for a broader audience. The abstract is well-written and summarizes the key contributions effectively.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a promising method with a novel architecture and comprehensive evaluation. However, the major concerns regarding the evaluation of multifunctional residues, statistical testing, and reproducibility must be fully addressed before the claims can be considered established. The authors should also strengthen the analysis of the model's mechanism to better support the scientific narrative.
+
+## Risk / unsupported claims
+- The claim that DisoFLAG is the "only" predictor capable of predicting all types of MF residues is not fully supported by the evidence presented, as the evaluation protocol is not clearly defined and the comparison set may be incomplete.
+- The claim of "statistically significant improvement" is unverifiable without a description of the statistical test used.
+- The general statement that the graph-based interaction unit "significantly boosted" performance is supported by the ablation study, but the mechanism is not fully explored.
+- The performance of DisoFLAG on the DP94 dataset is described as "decreased" for RNA-binding and lipid-binding, but the reasons for this decrease are not discussed. This is a potential weakness that should be addressed.
+- The claim that the model's performance improvement is due to the "semantic correlations captured through the graph-based interaction protein language model" is a plausible interpretation but is not directly proven by the presented experiments.

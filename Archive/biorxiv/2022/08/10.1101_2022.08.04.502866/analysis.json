@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.08.04.502866",
+  "title": "Intrinsically disordered regions that drive phase separation form a robustly distinct protein class",
+  "authors": "Ayyam Y. Ibrahim; Nathan P. Khaodeuanepheng; Dhanush L. Amarasekara; John J. Correia; Karen A. Lewis; Nicholas C. Fitzkee; Loren E. Hough; Steven T. Whitten",
+  "journal": "bioRxiv",
+  "published_date": "2022-08-06",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用氨基酸性质尺度区分驱动相分离的无序区域并优化ParSe预测器，虽未直接建模PPI，但聚焦IDR相分离机制预测，方法上属统计/机器学习而非AI或物理模拟，对本课题的IDR相分离序列特征与预测有参考价值。",
+  "abstract": "Liquid-liquid phase separation (LLPS) of proteins is thought to be a primary driving force for the formation of membraneless organelles, which control a wide range of biological functions from stress response to ribosome biogenesis. LLPS of proteins in cells is primarily, though not exclusively, driven by intrinsically disordered (ID) domains. Accurate identification of ID regions (IDRs) that drive phase separation is important for testing the underlying mechanisms of phase separation, identifying biological processes that rely on phase separation, and designing sequences that modulate phase separation. To identify IDRs that drive phase separation, we first curated datasets of folded, ID, and phase-separating (PS) ID sequences. We then used these sequence sets to examine how broadly existing amino acids scales can be used to distinguish between the three classes of protein regions. We found that there are robust property differences between the classes and, consequently, that numerous combinations of amino acid property scales can be used to make robust predictions of LLPS. This result indicates that multiple, redundant mechanisms contribute to the formation of phase-separated droplets from IDRs. The top-performing scales were used to further optimize our previously developed predictor of PS IDRs, ParSe. We then modified ParSe to account for interactions between amino acids and obtained reasonable predictive power for mutations that have been designed to test the role of amino acid interactions in driving LLPS.",
+  "abstract_zh": "蛋白质的液-液相分离（liquid-liquid phase separation, LLPS）被认为是形成无膜细胞器的主要驱动力，这些细胞器控制着从应激反应到核糖体生物发生等一系列广泛的生物功能。细胞中蛋白质的LLPS主要由内在无序（intrinsically disordered, ID）结构域驱动，尽管并非完全如此。准确识别驱动相分离的ID区域（IDRs）对于测试相分离的潜在机制、识别依赖相分离的生物过程以及设计调节相分离的序列至关重要。为了识别驱动相分离的IDRs，我们首先整理了折叠、ID和相分离（phase-separating, PS）ID序列的数据集。然后，我们利用这些序列集来检验现有氨基酸尺度在多大程度上可用于区分这三类蛋白质区域。我们发现这些类别之间存在稳健的性质差异，因此，多种氨基酸性质尺度的组合可用于对LLPS进行稳健预测。这一结果表明，多种冗余机制共同促进了由IDRs形成相分离液滴的过程。表现最佳的尺度被用于进一步优化我们先前开发的PS IDRs预测器ParSe。随后，我们对ParSe进行了修改，以考虑氨基酸之间的相互作用，并在针对测试氨基酸相互作用在驱动LLPS中作用的突变设计中获得了合理的预测能力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.08.04.502866",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.08.04.502866",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.08.04.502866/index.html"
+}

@@ -1,0 +1,465 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.03.05.434000",
+  "title": "Inhibition of amyloid formation of the Nucleoprotein of SARS-CoV-2",
+  "doi": "10.1101/2021.03.05.434000",
+  "abstract": "The SARS-CoV-2 Nucleoprotein (NCAP) functions in RNA packaging during viral replication and assembly. Computational analysis of its amino acid sequence reveals a central low-complexity domain (LCD) having sequence features akin to LCDs in other proteins known to function in liquid–liquid phase separation. Here we show that in the presence of viral RNA, NCAP, and also its LCD segment alone, form amyloid-like fibrils when undergoing liquid–liquid phase separation. Within the LCD we identified three 6-residue segments that drive amyloid fibril formation. We determined atomic structures for fibrils formed by each of the three identified segments. These structures informed our design of peptide inhibitors of NCAP fibril formation and liquid–liquid phase separation, suggesting a therapeutic route for Covid-19. <h4>One Sentence Summary</h4> Atomic structures of amyloid-driving peptide segments from SARS-CoV-2 Nucleoprotein inform the development of Covid-19 therapeutics.",
+  "authors": [
+    "Tayeb-Fligelman E",
+    "Cheng X",
+    "Tai C",
+    "Bowler JT",
+    "Griner S",
+    "Sawaya MR",
+    "Seidler PM",
+    "Jiang YX",
+    "Lu J",
+    "Rosenberg GM",
+    "Salwinski L",
+    "Abskharon R",
+    "Zee C",
+    "Hou K",
+    "Li Y",
+    "Boyer DR",
+    "Murray KA",
+    "Falcon G",
+    "Anderson DH",
+    "Cascio D",
+    "Saelices L",
+    "Damoiseaux R",
+    "Guo F",
+    "Eisenberg DS"
+  ],
+  "published_date": "2021-03-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.03.05.434000",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.03.05.434000.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR292900",
+    "raw_record": {
+      "id": "PPR292900",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR292900"
+        ]
+      },
+      "doi": "10.1101/2021.03.05.434000",
+      "title": "Inhibition of amyloid formation of the Nucleoprotein of SARS-CoV-2",
+      "authorString": "Tayeb-Fligelman E, Cheng X, Tai C, Bowler JT, Griner S, Sawaya MR, Seidler PM, Jiang YX, Lu J, Rosenberg GM, Salwinski L, Abskharon R, Zee C, Hou K, Li Y, Boyer DR, Murray KA, Falcon G, Anderson DH, Cascio D, Saelices L, Damoiseaux R, Guo F, Eisenberg DS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tayeb-Fligelman E",
+            "lastName": "Tayeb-Fligelman",
+            "firstName": "Einav",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cheng X",
+            "lastName": "Cheng",
+            "firstName": "Xinyi",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tai C",
+            "lastName": "Tai",
+            "firstName": "Christen",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bowler JT",
+            "lastName": "Bowler",
+            "firstName": "Jeannette",
+            "initials": "JT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Griner S",
+            "lastName": "Griner",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sawaya MR",
+            "lastName": "Sawaya",
+            "firstName": "Michael",
+            "initials": "MR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seidler PM",
+            "lastName": "Seidler",
+            "firstName": "Paul",
+            "initials": "PM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jiang YX",
+            "lastName": "Jiang",
+            "firstName": "Yi Xiao",
+            "initials": "YX",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lu J",
+            "lastName": "Lu",
+            "firstName": "Jiahui",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rosenberg GM",
+            "lastName": "Rosenberg",
+            "firstName": "Gregory",
+            "initials": "GM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Salwinski L",
+            "lastName": "Salwinski",
+            "firstName": "Lukasz",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abskharon R",
+            "lastName": "Abskharon",
+            "firstName": "Romany",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zee C",
+            "lastName": "Zee",
+            "firstName": "Chih-Te",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hou K",
+            "lastName": "Hou",
+            "firstName": "Ke",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li Y",
+            "lastName": "Li",
+            "firstName": "Yan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boyer DR",
+            "lastName": "Boyer",
+            "firstName": "David",
+            "initials": "DR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Murray KA",
+            "lastName": "Murray",
+            "firstName": "Kevin",
+            "initials": "KA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Falcon G",
+            "lastName": "Falcon",
+            "firstName": "Genesis",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Anderson DH",
+            "lastName": "Anderson",
+            "firstName": "Daniel",
+            "initials": "DH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cascio D",
+            "lastName": "Cascio",
+            "firstName": "Duilio",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saelices L",
+            "lastName": "Saelices",
+            "firstName": "Lorena",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Damoiseaux R",
+            "lastName": "Damoiseaux",
+            "firstName": "Robert",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Medical Pharmacology and California NanoSystems Institute, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "Jonsson Comprehensive Cancer Center, UCLA, Los Angeles, CA 90095, USA."
+                },
+                {
+                  "affiliation": "Eli and Edythe Broad Center of Regenerative Medicine and Stem Cell Research, UCLA, Los Angeles, CA 90095, USA"
+                },
+                {
+                  "affiliation": "California NanoSystems Institute, University of California, Los Angeles, Los Angeles, CA, 90095, USA"
+                },
+                {
+                  "affiliation": "Department of Bioengineering, University of California, Los Angeles, Los Angeles, CA, 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guo F",
+            "lastName": "Guo",
+            "firstName": "Feng",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eisenberg DS",
+            "lastName": "Eisenberg",
+            "firstName": "David",
+            "initials": "DS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Chemistry and Biochemistry and Biological Chemistry, UCLA-DOE Institute, Molecular Biology Institute, and Howard Hughes Medical Institute, University of California, Los Angeles, California 90095, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The SARS-CoV-2 Nucleoprotein (NCAP) functions in RNA packaging during viral replication and assembly. Computational analysis of its amino acid sequence reveals a central low-complexity domain (LCD) having sequence features akin to LCDs in other proteins known to function in liquid–liquid phase separation. Here we show that in the presence of viral RNA, NCAP, and also its LCD segment alone, form amyloid-like fibrils when undergoing liquid–liquid phase separation. Within the LCD we identified three 6-residue segments that drive amyloid fibril formation. We determined atomic structures for fibrils formed by each of the three identified segments. These structures informed our design of peptide inhibitors of NCAP fibril formation and liquid–liquid phase separation, suggesting a therapeutic route for Covid-19. <h4>One Sentence Summary</h4>  Atomic structures of amyloid-driving peptide segments from SARS-CoV-2 Nucleoprotein inform the development of Covid-19 therapeutics.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/18/2021.03.05.434000.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.03.05.434000"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR292900"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.03.05.434000"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS118672",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2021-03-07",
+      "firstPublicationDate": "2021-03-05",
+      "firstIndexDate": "2021-03-07",
+      "fullTextReceivedDate": "2021-03-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

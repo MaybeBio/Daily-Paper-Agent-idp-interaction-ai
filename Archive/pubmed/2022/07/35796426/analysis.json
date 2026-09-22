@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35796426",
+  "title": "An entropic safety catch controls hepatitis C virus entry and antibody resistance.",
+  "authors": "Stejskal, Lenka; Kalemera, Mphatso D; Lewis, Charlotte B; Palor, Machaela; Walker, Lucas; Daviter, Tina; Lees, William D; Moss, David S; Kremyda-Vlachou, Myrto; Kozlakidis, Zisis; Gallo, Giulia; Bailey, Dalan; Rosenberg, William; Illingworth, Christopher J R; Shepherd, Adrian J; Grove, Joe",
+  "journal": "eLife",
+  "published_date": "2022-07-08",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究HCV E2蛋白的HVR-1无序区域通过构象熵作为自抑制安全栓，调控病毒融合蛋白活性与抗体抗性，涉及无序蛋白介导的蛋白互作机制（受体结合解除抑制），虽非相分离背景，但以实验为主、无AI/物理模拟方法，机制建模深度有限。",
+  "abstract": "E1 and E2 (E1E2), the fusion proteins of Hepatitis C Virus (HCV), are unlike that of any other virus yet described, and the detailed molecular mechanisms of HCV entry/fusion remain unknown. Hypervariable region-1 (HVR-1) of E2 is a putative intrinsically disordered protein tail. Here, we demonstrate that HVR-1 has an autoinhibitory function that suppresses the activity of E1E2 on free virions; this is dependent on its conformational entropy. Thus, HVR-1 is akin to a safety catch that prevents premature triggering of E1E2 activity. Crucially, this mechanism is turned off by host receptor interactions at the cell surface to allow entry. Mutations that reduce conformational entropy in HVR-1, or genetic deletion of HVR-1, turn off the safety catch to generate hyper-reactive HCV that exhibits enhanced virus entry but is thermally unstable and acutely sensitive to neutralising antibodies. Therefore, the HVR-1 safety catch controls the efficiency of virus entry and maintains resistance to neutralising antibodies. This discovery provides an explanation for the ability of HCV to persist in the face of continual immune assault and represents a novel regulatory mechanism that is likely to be found in other viral fusion machinery.",
+  "abstract_zh": "丙型肝炎病毒（HCV）的融合蛋白E1和E2（E1E2）与迄今描述的任何其他病毒均不相同，且HCV进入/融合的详细分子机制仍属未知。E2的高变区-1（HVR-1）被认为是一个天然无序蛋白尾。在此，我们证明HVR-1具有自抑制功能，可抑制游离病毒粒子上E1E2的活性；这一功能依赖于其构象熵。因此，HVR-1类似于一个安全锁，防止E1E2活性被过早触发。关键的是，该机制在细胞表面通过宿主受体相互作用被关闭，从而允许病毒进入。减少HVR-1构象熵的突变，或HVR-1的基因缺失，会关闭这一安全锁，产生高反应性HCV，其病毒进入增强，但热不稳定且对中和抗体高度敏感。因此，HVR-1安全锁控制病毒进入的效率并维持对中和抗体的抵抗力。这一发现解释了HCV在持续免疫攻击下仍能存续的能力，并代表了一种可能在其他病毒融合机制中普遍存在的新型调控机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35796426/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35796426/",
+  "paper_page_path": "papers/pubmed/35796426/index.html"
+}

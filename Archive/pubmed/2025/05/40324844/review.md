@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The review is assessed solely on the basis of the provided abstract. No full text, figures, tables, or supplementary materials were supplied.
+- **Shared manuscript claim summary** The abstract claims that protein-protein interactions often occur on microsecond-to-millisecond timescales inaccessible to atomistic molecular dynamics, that coarse-grained (CG) models reduce computational cost, that most CG models target folded stable proteins while newer models address disordered proteins, that no fully transferable force field exists for both classes, and that implicit solvent models accelerate conformational sampling but introduce inaccuracies.
+- **Visible evidence base** Abstract text only. No specific models, force fields, comparative benchmarks, or quantitative results are described.
+- **Missing materials affecting confidence** Full text, figures, tables, methodological details, model comparisons, and any quantitative performance data. The absence of these materials prevents verification of the claims and the depth of the review.
+
+## Reviewer
+- **Overall assessment** The abstract presents a reasonable and timely topic, namely the application of CG models to protein association and recognition in systems containing both folded and disordered proteins. The framing is clear and the motivation is sound. However, the abstract is largely descriptive and programmatic, offering no specific findings, comparisons, or critical evaluation. As a review article, the abstract does not convey the depth, novelty, or critical insights that would distinguish it from existing literature. The claims are plausible but unverifiable from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular modelers interested in protein-protein interactions, particularly those studying intrinsically disordered proteins or large multiprotein assemblies. Researchers developing or applying CG force fields and implicit solvent methods would find the overview useful. The topic also holds relevance for experimentalists seeking to interpret dynamic protein interactions beyond atomistic simulation timescales.
+- **Major strengths** The abstract identifies a genuine gap in the field, namely the limited transferability of CG force fields between stable and disordered proteins. The focus on multiprotein systems combining both protein types is timely and addresses a realistic cellular context. The discussion of implicit solvent models as an acceleration strategy is appropriate and acknowledges the associated inaccuracies.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims to provide an overview of CG models applicable to multiprotein systems including both stable and disordered proteins, and to analyze inaccuracies of implicit solvent models.  
+  - **Evidence pointer** Abstract only, location not provided  
+  - **Concern** The abstract provides no specific information about which CG models are discussed, how they are compared, what criteria are used to assess transferability, or what specific inaccuracies of implicit solvent models are analyzed. Without these details, the review's contribution cannot be evaluated.  
+  - **Why it matters** A review article must offer a critical synthesis of existing work, not merely a list of topics. The absence of any concrete content in the abstract raises the possibility that the full text is similarly descriptive rather than analytical.  
+  - **Resolution test** The full text should include explicit model names, force field parameters, comparative benchmarks, and a critical discussion of strengths and limitations for each approach. The abstract should summarize at least one key finding or recommendation.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Originality  
+  - **Claim pointer** The abstract implies that the review offers a novel perspective by focusing on multiprotein systems with both stable and disordered proteins.  
+  - **Evidence pointer** Abstract only, location not provided  
+  - **Concern** The abstract does not state how this review differs from prior reviews on CG models for proteins. The claimed focus on mixed stable/disordered multiprotein systems may be novel, but no evidence is provided that this angle has not been covered elsewhere.  
+  - **Why it matters** For a review to be publishable in a high-impact venue, it must offer a distinct contribution. Without a clear statement of novelty relative to existing reviews, the manuscript's value proposition is unclear.  
+  - **Resolution test** The introduction or abstract should explicitly cite prior reviews and articulate the specific gap this review fills.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that implicit solvent models accelerate conformational sampling but have inherent inaccuracies.  
+  - **Evidence pointer** Abstract only, location not provided  
+  - **Concern** The abstract does not specify which inaccuracies are discussed, how they are quantified, or whether any comparative data are presented. The claim is generic and could apply to any implicit solvent model.  
+  - **Why it matters** A review should provide a nuanced assessment of the trade-offs involved. Without specifics, the discussion risks being superficial.  
+  - **Resolution test** The full text should include quantitative comparisons of implicit versus explicit solvent models for specific systems, with clear statements on the magnitude and nature of the inaccuracies.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "the difficulty of finding a force field fully transferable" is vague. It is unclear whether the difficulty is fundamental or practical.  
+  - **Required correction** Clarify whether the transferability issue is due to physical limitations, parameterization challenges, or both.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Abstract scope statement  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract mentions "several existing CG protein models" but does not indicate the number or selection criteria.  
+  - **Required correction** State the number of models covered and the criteria for inclusion, such as popularity, representativeness, or recency.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract structure  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract is a single dense paragraph. Breaking it into logical sections would improve readability.  
+  - **Required correction** Consider restructuring the abstract into background, scope, and conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The abstract does not provide sufficient evidence that the review offers a novel, critical synthesis. The full text must demonstrate concrete content and a clear contribution relative to existing literature.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Not established from the abstract. The topic is relevant, but no claim of novelty relative to prior reviews is made or supported.  
+  - **Scientific importance** The topic is important, as protein-protein interactions involving disordered proteins are biologically significant and computationally challenging. However, the abstract does not articulate why this review is needed now.  
+  - **Interdisciplinary readership** The abstract is accessible to computational biologists and biophysicists, but it does not clearly address how the content would benefit experimentalists or researchers outside the modeling community.  
+  - **Technical soundness** Cannot be assessed from the abstract. No technical details, benchmarks, or quantitative analyses are presented.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses jargon such as "coarse-grained" and "implicit solvent" without definition. For a general audience, brief explanations would help.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not demonstrate that the full review meets the standards of a high-impact publication. A decision would require the full text to verify the depth, novelty, and critical analysis. If the full text provides a rigorous comparative assessment and clear recommendations, the manuscript could be supportive.
+
+## Risk / unsupported claims
+- The claim that "the majority of CG models have been designed to describe folded stable proteins" is plausible but unsupported by data in the abstract.
+- The claim that "no fully transferable force field exists" is presented as fact but is not substantiated with citations or examples.
+- The claim that implicit solvent models "accelerate conformational sampling" is presented without quantitative evidence.
+- The overall utility of the review for guiding model selection in multiprotein systems is asserted but not demonstrated.

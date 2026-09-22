@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (title, abstract, main text, figure legends, supplementary references)
+- **Assessment boundary** Scientific validity, methodological soundness, evidence quality, and clarity of claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors present PSICalc, a computational tool that uses k-modes clustering and normalized mutual information on multiple sequence alignments to identify and rank proximal and non-proximal interdependencies among amino acid sites in proteins, including higher-order clusters (third-order and above), and demonstrate its application to topoisomerase IIα, revealing novel interdomain relationships including between the unstructured C-terminal domain and the ATPase domain.
+- **Visible evidence base** Main text (Sections 1–5), Figures 1–4 (described in text), Supplementary Tables S1–S2 and Figures S2, S5 (referenced), statistical analyses reported in Section 3, prior publication (Dougherty et al., 2021) cited for validation
+- **Missing materials affecting confidence** Supplementary data files (actual figures, tables, datasets) not provided; software code not reviewed; detailed algorithmic pseudocode not fully specified in main text; raw statistical outputs (e.g., full distributions, confidence intervals for all clusters) not available; benchmark comparisons against existing methods (DCA, SCA) not shown quantitatively
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful bioinformatics tool that addresses a genuine gap in protein structure-function analysis, namely the identification of non-proximal, higher-order interdependencies. The conceptual motivation is clear and the application to topoisomerase IIα provides an interesting case study. However, the evidence presented is insufficient to fully establish the validity, novelty, and generalizability of the method. Key methodological details are underspecified, statistical validation is incomplete, and the biological significance of the identified non-proximal clusters is asserted rather than rigorously demonstrated. The manuscript would benefit from substantial revision, including clearer algorithmic descriptions, more comprehensive benchmarking, and stronger biological validation.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing or using co-evolution-based methods for protein analysis; structural biologists studying allosteric regulation, domain communication, and intrinsically disordered proteins; researchers working on protein engineering and drug design, particularly those targeting topoisomerases or other multi-domain enzymes. The tool's accessibility (laptop-friendly, open-source) may appeal to a broad experimental biology audience.
+- **Major strengths** 1) Addresses an important and under-served problem: non-proximal, higher-order interdependencies beyond pairwise contacts. 2) Combines established concepts (mutual information, k-modes clustering) in a novel two-phase framework. 3) Demonstrates application to a biologically relevant protein (TOP2A) with potential therapeutic implications. 4) Provides an open-source, user-friendly implementation with visualization tools. 5) The statistical significance testing against null distributions is a commendable feature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity and reproducibility
+  - **Claim pointer** The manuscript claims PSICalc is a novel method combining mutual information and k-modes clustering in a two-phase approach, but the algorithmic details are insufficiently specified.
+  - **Evidence pointer** Sections 2.3–2.6, Supplementary Section S5 (not provided)
+  - **Concern** The description of the algorithm lacks critical details needed for reproduction. Specifically: (a) How is the number of clusters (k) determined in the k-modes step? (b) What is the exact criterion for merging clusters in the hierarchical phase? (c) How are gaps handled in the mutual information calculation beyond the "contingency matrix nullification approach" mentioned in the Discussion? (d) What is the computational complexity of the algorithm, and how does it scale with MSA dimensions? (e) The parameter "phase I sample spreads of 2–7" (Section 3.1) is not defined. Without these details, the method cannot be independently implemented or verified.
+  - **Why it matters** Reproducibility is a cornerstone of scientific software contributions. If the algorithm cannot be re-implemented from the description, the claims of novelty and utility cannot be assessed. The provided GitHub link is not a substitute for a complete methodological description in the manuscript.
+  - **Resolution test** Provide a complete, step-by-step algorithmic description in the main text or supplementary material, including pseudocode, parameter selection strategies, and complexity analysis. Ideally, include a worked example on a small MSA.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validation and benchmarking
+  - **Claim pointer** The manuscript claims that discovered interdependencies are "highly statistically significant, with P-values much <0.0001" and that PSICalc identifies relationships "not discoverable by DCA."
+  - **Evidence pointer** Section 3, Figure 1, Supplementary Table S1
+  - **Concern** The statistical validation is incomplete. (a) Only SecY is used for the null-hypothesis testing shown in Figure 1; it is unclear if similar validation was performed for the other 35+ protein families. (b) The comparison to DCA is qualitative; no quantitative benchmark showing that PSICalc identifies non-proximal relationships that DCA misses is provided. (c) The P-values reported (10⁻³⁵, 10⁻¹², etc.) are extremely small, which may indicate overfitting or an inappropriate null model; the construction of the "random sequences" null set is not described. (d) No correction for multiple testing is mentioned, despite testing many clusters across many families.
+  - **Why it matters** The core claim of the tool's utility rests on its ability to find meaningful, statistically robust signals. Without rigorous benchmarking against existing methods and a clearly described null model, the reader cannot judge whether the findings are genuine or artifacts of the method.
+  - **Resolution test** Provide a comprehensive benchmarking study comparing PSICalc to DCA and SCA on a diverse set of protein families with known functional annotations. Describe the null model construction in detail. Report multiple-testing-corrected P-values or effect sizes with confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological validation of non-proximal claims
+  - **Claim pointer** The manuscript claims that PSICalc identifies "non-proximal interdomain interdependencies" in TOP2A, including between the unstructured C-terminal domain and the ATPase domain, and that these are functionally meaningful.
+  - **Evidence pointer** Section 3.1, Figure 3, Supplementary Figure S5, Supplementary Table S2
+  - **Concern** The biological significance of the identified non-proximal clusters is not rigorously established. (a) The claim that C-terminal domain-ATPase domain interdependencies are functionally relevant is supported only by reference to prior mutagenesis work (Dougherty et al., 2021), but the specific connection between the identified clusters and the observed functional effects is not demonstrated. (b) No experimental validation (e.g., new mutations, cross-linking, FRET) is presented to confirm the predicted interdependencies. (c) The possibility that these clusters arise from phylogenetic linkage or other confounding factors is not addressed. (d) The manuscript does not discuss whether the identified non-proximal clusters are consistent with known allosteric pathways or domain dynamics in TOP2A.
+  - **Why it matters** The claimed ability to identify functionally important non-proximal relationships is the key differentiator of this tool. Without direct or indirect experimental validation, these claims remain speculative and weaken the overall impact of the work.
+  - **Resolution test** Provide additional evidence linking predicted clusters to function, such as: (a) targeted mutagenesis of predicted sites with functional assays, (b) comparison with known allosteric networks from literature, or (c) molecular dynamics simulations showing correlated motions between predicted sites.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and performance claims
+  - **Claim pointer** The manuscript claims PSICalc is "laptop-friendly" and can analyze "large MSAs for proteins of any size."
+  - **Evidence pointer** Section 1, Section 3.1, Availability section
+  - **Concern** No performance benchmarks are provided. The claim of "laptop-friendly" is not quantified (e.g., runtime, memory usage for specific MSA sizes). The statement "proteins of any size" is an overgeneralization; the largest protein tested appears to be TOP2A (~1500 residues), and it is unclear how the method scales to larger proteins or very deep MSAs (e.g., >100,000 sequences).
+  - **Why it matters** Practical utility is a stated goal. Without performance data, users cannot assess whether the tool is suitable for their datasets. Overstated claims may mislead potential users.
+  - **Resolution test** Provide runtime and memory benchmarks on a range of MSA sizes (e.g., 100–10,000 sequences, 100–2,000 residues). Discuss algorithmic complexity and any limitations on input size.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Section 2.5, Equation (1)
+  - **Evidence pointer** Section 2.5
+  - **Issue** The term "statistical redundancy (SR)" is used, but the relationship to standard information-theoretic redundancy is not clarified. The notation "SR(i)=∑∀(i,i′)∈QNMI(i,i′)" is ambiguous: the summation index is not clearly defined.
+  - **Required correction** Define SR explicitly in terms of the mutual information matrix, and clarify the indexing in Equation (1). Consider using standard notation for pairwise sums.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality and accessibility
+  - **Affected element** Figures 1–4
+  - **Evidence pointer** Section 3, figure descriptions
+  - **Issue** The figures are described but not shown in the provided text. The description of Figure 4 (polytree graph) is brief; it is unclear how the visualization aids interpretation beyond what a standard dendrogram would provide.
+  - **Required correction** Ensure figures are high-resolution and self-explanatory. Expand the legend for Figure 4 to explain the polytree layout, color mapping, and how to interpret cluster merging.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The Discussion mentions the issue of "imperfectly invariant" columns but does not fully address the implications for the method's sensitivity or specificity. The statement that "conclusions based upon larger clusters must be held tentatively" is vague.
+  - **Required correction** Provide a more detailed discussion of known limitations, including the handling of gaps, the effect of MSA quality, and the interpretation of large clusters. Suggest practical guidelines for users.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Citation and context
+  - **Affected element** Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The Introduction cites DCA and SCA but does not provide a concise comparison of their limitations that PSICalc aims to address. The novelty claim would be strengthened by a clearer statement of what PSICalc offers beyond these methods.
+  - **Required correction** Add a brief paragraph explicitly contrasting PSICalc with DCA and SCA, highlighting the specific gap (higher-order, non-proximal) that PSICalc fills.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (methodological clarity), R1-M2 (statistical validation and benchmarking), R1-M3 (biological validation). These are blocking because without them, the core claims of novelty, validity, and utility cannot be independently assessed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The combination of mutual information and k-modes clustering for higher-order, non-proximal interdependency detection is a novel contribution, but it builds directly on prior work (Durston et al., 2012) without a clear conceptual leap.
+  - **Scientific importance** Moderate. The problem addressed is relevant, but the impact is not yet demonstrated. If the method were rigorously validated, it could be a useful tool for the community, but the current evidence does not establish a major advance.
+  - **Interdisciplinary readership** Limited. The manuscript is written primarily for a bioinformatics audience. The biological implications for TOP2A are mentioned but not developed sufficiently to attract a broader structural biology or pharmacology readership.
+  - **Technical soundness** Weak. The algorithmic description is incomplete, and the statistical validation is insufficient. The method's robustness and generalizability are not established.
+  - **Readability for nonspecialists** Adequate. The writing is generally clear, but the Methods section assumes familiarity with information theory and clustering. A brief conceptual overview of the approach would improve accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting idea and a potentially useful tool, but the lack of methodological detail, incomplete statistical validation, and unsubstantiated biological claims prevent a positive recommendation. Major revisions are required to address the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that PSICalc identifies interdependencies "not discoverable by DCA" is unsupported; no direct comparison is provided.
+- The claim that identified TOP2A C-terminal domain-ATPase domain interdependencies are functionally meaningful is weakly supported; only indirect evidence from prior mutagenesis is cited.
+- The claim that PSICalc is "laptop-friendly" and suitable for "proteins of any size" is unquantified and likely overstated.
+- The statistical significance of clusters beyond the Sec2 example is not demonstrated; the generalizability of the P-value claims to other families is unverified.
+- The statement that "PSICalc reveals interdependencies that... should be very significant for structure and/or function" is an assertion without direct evidence linking predicted clusters to functional outcomes.

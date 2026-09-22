@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report formation of membrane-free coacervate microdroplets via liquid-liquid phase separation of anionic polypeptides induced by divalent zinc ions through combined electrostatic and coordination interactions. They claim these droplets exhibit liquid-like properties, client partitioning, and enhanced light-induced catalysis comparable to typical polyelectrolyte coacervates. They further propose two kinetic pathways to phase separation depending on zinc concentration, leading to distinct catalytic efficiencies, and suggest such peptide-metal ion compartmentalization could have facilitated prebiotic reactions on early Earth.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, figures, or simulation methods provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation details, characterization data, catalytic activity measurements, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially significant advance in protocell research by expanding coacervate formation to peptide-metal cation systems. However, the current evidence base is limited to the abstract, which prevents verification of the central claims regarding phase separation mechanisms, material properties, and catalytic performance. The work is likely to attract interest from the origins-of-life and soft matter communities, but the strength of the conclusions cannot be assessed without full experimental and computational details.
+- **Who would be interested in the results, and why** Researchers in origins of life, prebiotic chemistry, protocell engineering, and soft matter physics would find this work relevant. The introduction of metal cation-driven coacervates offers a new dimension to compartmentalization models, and the proposed link to early Earth conditions could stimulate further studies on metal-ion-mediated primitive biochemistry. The catalytic enhancement aspect may also appeal to those working on artificial microreactors and biocatalysis.
+- **Major strengths** The conceptual novelty of using simple anionic polypeptides with metal cations to form coacervates is a clear strength, as it broadens the chemical space of protocell models beyond polyelectrolyte pairs. The integration of experimental and theoretical approaches to propose distinct kinetic pathways is commendable and suggests mechanistic depth. The potential prebiotic relevance of zinc ions is well justified given their abundance and biological roles.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that peptide-zinc ion coacervate microdroplets exhibit "liquid-like properties, client partitioning, and enhanced catalysis comparable to those of typical polyelectrolyte coacervates."  
+  - **Evidence pointer** Abstract, "ABSTRACT" section; location not provided  
+  - **Concern** The abstract provides no quantitative data or comparative benchmarks to support the claim of comparability to polyelectrolyte coacervates. No measurements of viscosity, diffusion, partitioning coefficients, or catalytic rate constants are presented.  
+  - **Why it matters** Without quantitative evidence, the claim of "comparable" properties is unverifiable and could be misleading if the performance is substantially different in magnitude or mechanism.  
+  - **Resolution test** Provide specific experimental data (e.g., fluorescence recovery after photobleaching, partitioning assays, catalytic turnover numbers) with appropriate controls and statistical comparisons to established coacervate systems.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The abstract states that "two kinetic pathways to phase separation mediated by the coordination mode at varying zinc ion concentrations" lead to "nonequilibrium gel-like condensates or droplets" with distinct catalytic efficiencies.  
+  - **Evidence pointer** Abstract, "ABSTRACT" section; location not provided  
+  - **Concern** The existence of two distinct kinetic pathways and their link to coordination mode is asserted but not substantiated with any experimental or simulation evidence in the abstract. No details on the nature of the coordination modes, the timescales of phase separation, or the structural differences between the gel-like and droplet states are given.  
+  - **Why it matters** This is a central mechanistic claim that underpins the entire study. If unsupported, the proposed model of concentration-dependent pathway selection cannot be evaluated or reproduced.  
+  - **Resolution test** Present phase diagrams, time-resolved microscopy or scattering data, and molecular dynamics or coarse-grained simulations that explicitly show the two pathways and their dependence on zinc concentration and coordination geometry.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Prebiotic relevance  
+  - **Claim pointer** The abstract concludes that "peptide-metal ion interaction-driven compartmentalization... could have facilitated primitive biochemical reactions on early Earth, thus offering a plausible and diverse pathway for the emergence of protocells."  
+  - **Evidence pointer** Abstract, "ABSTRACT" section; location not provided  
+  - **Concern** The leap from in vitro coacervate formation to a prebiotic scenario is speculative without evidence that the specific conditions used (e.g., peptide sequences, zinc concentrations, pH, ionic strength) are geochemically plausible for early Earth. No discussion of relevant environmental parameters or comparison to known prebiotic conditions is provided.  
+  - **Why it matters** The broader significance of the work depends on the plausibility of the proposed prebiotic context. Overclaiming relevance without contextual evidence weakens the scientific impact.  
+  - **Resolution test** Include a dedicated section in the full manuscript that maps experimental conditions to plausible early Earth environments (e.g., hydrothermal vents, evaporating ponds) and discusses the availability of simple anionic peptides and zinc ions under those conditions.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, "ABSTRACT" section; location not provided  
+  - **Issue** The phrase "nonequilibrium gel-like condensates or droplets" is ambiguous regarding whether these are two distinct final states or a continuum of states.  
+  - **Required correction** Clarify whether the gel-like condensates and droplets are mutually exclusive outcomes or represent different stages of a single pathway.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Enhanced light-induced catalysis"  
+  - **Evidence pointer** Abstract, "ABSTRACT" section; location not provided  
+  - **Issue** The abstract does not specify what reaction is being catalyzed or how light induces the catalytic activity. This is a key functional claim that is undefined.  
+  - **Required correction** Specify the model reaction, the light source and wavelength, and the proposed mechanism of light-induced enhancement in the abstract or at minimum in the full manuscript's introduction.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Peptide and zinc ion concentrations  
+  - **Evidence pointer** Abstract, "ABSTRACT" section; location not provided  
+  - **Issue** The abstract does not state the concentration ranges of peptides and zinc ions used, which are critical for reproducing the phase separation behavior.  
+  - **Required correction** Include representative concentration ranges in the abstract or ensure they are prominently presented in the full manuscript's methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of comparable properties, distinct kinetic pathways, and prebiotic relevance are all unsupported by the abstract-level evidence. Full experimental and simulation data are required to establish the case.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of using metal cation coordination to drive coacervate formation from simple peptides is novel and extends beyond conventional polyelectrolyte systems. This is a clear strength.  
+  - **Scientific importance** If fully substantiated, the work could provide a new framework for prebiotic compartmentalization and expand the toolbox for protocell design. However, the importance is currently conditional on the validity of the mechanistic claims.  
+  - **Interdisciplinary readership** The topic bridges chemistry, biology, and origins-of-life research, which could attract a broad audience. The abstract is written in a way that is accessible to nonspecialists, though technical terms like "coacervate" and "LLPS" are used without definition.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The lack of quantitative data and methodological details prevents evaluation of experimental rigor or simulation validity.  
+  - **Readability for nonspecialists** The abstract is generally clear but could benefit from a brief explanation of coacervates and their relevance to protocells for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the work could be suitable for a high-impact venue if the full manuscript provides robust experimental and computational support for the claims. I would be supportive if the technical concerns are resolved with comprehensive data.
+
+## Risk / unsupported claims
+- The claim of "enhanced light-induced catalysis" is unsupported as no reaction, light conditions, or catalytic data are provided.
+- The claim of "two kinetic pathways" is unsupported without phase diagrams or time-resolved data.
+- The claim of "comparable to typical polyelectrolyte coacervates" is unsupported without quantitative comparisons.
+- The prebiotic relevance claim is speculative without geochemical contextualization.
+- The statement that zinc ions were "abundant under early Earth conditions" is presented as fact but is not referenced or quantified in the abstract.

@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "36671389",
+    "doi": "10.3390/biom13010004",
+    "title": "Different Forms of Disorder in NMDA-Sensitive Glutamate Receptor Cytoplasmic Domains Are Associated with Differences in Condensate Formation."
+  },
+  "content": {
+    "abstract": "The N-methyl-D-aspartate (NMDA)-sensitive glutamate receptor (NMDAR) helps assemble downstream signaling pathways through protein interactions within the postsynaptic density (PSD), which are mediated by its intracellular C-terminal domain (CTD). The most abundant NMDAR subunits in the brain are GluN2A and GluN2B, which are associated with a developmental switch in NMDAR composition. Previously, we used single molecule fluorescence resonance energy transfer (smFRET) to show that the GluN2B CTD contained an intrinsically disordered region with slow, hop-like conformational dynamics. The CTD from GluN2B also undergoes liquid-liquid phase separation (LLPS) with synaptic proteins. Here, we extend these observations to the GluN2A CTD. Sequence analysis showed that both subunits contain a form of intrinsic disorder classified as weak polyampholytes. However, only GluN2B contained matched patterning of arginine and aromatic residues, which are linked to LLPS. To examine the conformational distribution, we used discrete molecular dynamics (DMD), which revealed that GluN2A favors extended disordered states containing secondary structures while GluN2B favors disordered globular states. In contrast to GluN2B, smFRET measurements found that GluN2A lacked slow conformational dynamics. Thus, simulation and experiments found differences in the form of disorder. To understand how this affects protein interactions, we compared the ability of these two NMDAR isoforms to undergo LLPS. We found that GluN2B readily formed condensates with PSD-95 and SynGAP, while GluN2A failed to support LLPS and instead showed a propensity for colloidal aggregation. That GluN2A fails to support this same condensate formation suggests a developmental switch in LLPS propensity.",
+    "keywords": [
+      "discrete molecular dynamics",
+      "glutamate receptor",
+      "intrinsically disordered protein",
+      "liquid-liquid phase separation",
+      "single molecule fluorescence"
+    ],
+    "mesh_terms": [
+      "*Glutamic Acid/metabolism",
+      "*N-Methylaspartate/metabolism",
+      "Brain/metabolism",
+      "Signal Transduction",
+      "Receptors, N-Methyl-D-Aspartate/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Basak, Sujit",
+        "Saikia, Nabanita",
+        "Kwun, David",
+        "Choi, Ucheor B",
+        "Ding, Feng",
+        "Bowen, Mark E"
+      ],
+      "short_names": [
+        "Basak S",
+        "Saikia N",
+        "Kwun D",
+        "Choi UB",
+        "Ding F",
+        "Bowen ME"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0684-260X",
+        "ORCID: 0000-0003-1850-6336"
+      ],
+      "affiliations": [
+        "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, NY 11794, USA.",
+        "Department of Chemistry, Navajo Technical University, Crownpoint, NM 87313, USA.",
+        "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, NY 11794, USA.",
+        "Quantum-Si, Inc., Guilford, CT 06437, USA.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634-0978, USA.",
+        "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, NY 11794, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Basak, Sujit",
+        "short_name": "Basak S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, NY 11794, USA."
+        ]
+      },
+      {
+        "full_name": "Saikia, Nabanita",
+        "short_name": "Saikia N",
+        "identifiers": [
+          "0000-0002-0684-260X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Navajo Technical University, Crownpoint, NM 87313, USA."
+        ]
+      },
+      {
+        "full_name": "Kwun, David",
+        "short_name": "Kwun D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, NY 11794, USA."
+        ]
+      },
+      {
+        "full_name": "Choi, Ucheor B",
+        "short_name": "Choi UB",
+        "identifiers": [],
+        "affiliations": [
+          "Quantum-Si, Inc., Guilford, CT 06437, USA."
+        ]
+      },
+      {
+        "full_name": "Ding, Feng",
+        "short_name": "Ding F",
+        "identifiers": [
+          "0000-0003-1850-6336"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634-0978, USA."
+        ]
+      },
+      {
+        "full_name": "Bowen, Mark E",
+        "short_name": "Bowen ME",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology and Biophysics, Stony Brook University, Stony Brook, NY 11794, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2022 Dec 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/22 06:00",
+    "fetched_at": "2026-09-20 18:39:55"
+  },
+  "links": {
+    "cites": [
+      "41772272",
+      "41608769",
+      "41296089",
+      "37523989",
+      "37371595",
+      "37232489",
+      "37184020"
+    ],
+    "refs": [
+      "36069777",
+      "34888535",
+      "34761188",
+      "34753794",
+      "34097949",
+      "33927400",
+      "33388290",
+      "33384330",
+      "33337489",
+      "33202250",
+      "32877683",
+      "32029630",
+      "32015539",
+      "31508206",
+      "30909517",
+      "30682370",
+      "30355491",
+      "30214057",
+      "30078712",
+      "30037851",
+      "30029773",
+      "30017918",
+      "29961577",
+      "29756080",
+      "29682799",
+      "29604882",
+      "29602697",
+      "28739483",
+      "28636915",
+      "28283559",
+      "28076807",
+      "27663701",
+      "27565345",
+      "26727467",
+      "26553983",
+      "26282925",
+      "25008524",
+      "24876489",
+      "23901099",
+      "23782697",
+      "23686171",
+      "23376022",
+      "23201971",
+      "23019361",
+      "22821514",
+      "22280505",
+      "22245680",
+      "22034391",
+      "21712388",
+      "21481779",
+      "21028764",
+      "20404210",
+      "20100603",
+      "19874789",
+      "19793963",
+      "19605837",
+      "18611374",
+      "18197970",
+      "18176568",
+      "17929964",
+      "15537884",
+      "15498561",
+      "14657186",
+      "13357542",
+      "13173513",
+      "11093259",
+      "11025552",
+      "10629226",
+      "10197530",
+      "194906"
+    ],
+    "similar": [
+      "36671389",
+      "29682799",
+      "23839940",
+      "22177709",
+      "25131300",
+      "24440368",
+      "28095420",
+      "29675573",
+      "30355491",
+      "27839871",
+      "28269783",
+      "26051400",
+      "28283559",
+      "22474321",
+      "22578505",
+      "20853509",
+      "31629478",
+      "28760974",
+      "31167782",
+      "20935233",
+      "22245680",
+      "23221411",
+      "33550485",
+      "30298963",
+      "36305341",
+      "21712388",
+      "24491550",
+      "27497478",
+      "31056842",
+      "30459218",
+      "30504838",
+      "23611155",
+      "27134685",
+      "19726645",
+      "24591565",
+      "23884936",
+      "29916144",
+      "25721396",
+      "32138769",
+      "29218821",
+      "23089362",
+      "21925518",
+      "22022974",
+      "25043917",
+      "32247039",
+      "30269991",
+      "27818632",
+      "28511693",
+      "30312782",
+      "23621516",
+      "19394328",
+      "28688852",
+      "26581639",
+      "29285738",
+      "24847051",
+      "27810933",
+      "26836185",
+      "31196628",
+      "26041915",
+      "26829109",
+      "27010645",
+      "34223957",
+      "28439098",
+      "23604599",
+      "29581378",
+      "21257779",
+      "23585298",
+      "30885791",
+      "23874988",
+      "26085624",
+      "34097949",
+      "29511089",
+      "24478373",
+      "36693856",
+      "34952289",
+      "29917241",
+      "26884337",
+      "24607230",
+      "30352630",
+      "27656021",
+      "38214768",
+      "21943605",
+      "34405467",
+      "20357110",
+      "22198502",
+      "26917100",
+      "24871546",
+      "24769103",
+      "27378651",
+      "30427758",
+      "31279915",
+      "28598327",
+      "19883737",
+      "27605622",
+      "38976127",
+      "38187545",
+      "39044475"
+    ],
+    "review": [
+      "36671389",
+      "29682799",
+      "23089362",
+      "23604599"
+    ],
+    "pmc": [
+      "9855357"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom13010004",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36671389/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36671389",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

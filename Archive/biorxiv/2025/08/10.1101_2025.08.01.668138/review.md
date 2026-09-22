@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, funding, author contributions, competing interests, data availability, supplementary materials list)
+- **Assessment boundary** Scientific claims, methodology, evidence consistency, and interpretation as presented in the supplied text. No external validation performed.
+- **Shared manuscript claim summary** The authors report a hierarchy of structural dynamics in the intrinsically disordered p53 transactivation domain (p53-TAD) spanning over seven orders of magnitude, identified through combined high-power NMR relaxation dispersion and millisecond-scale MD simulations. They propose three tiers of dynamics: fast nanosecond backbone reorientations (tier 2), sub-microsecond helix formation dynamics (tier 1), and transient tertiary structure formation slower than 25 microseconds (tier 0). The authors argue this complexity parallels the dynamics of folded proteins and may underlie p53's binding promiscuity.
+- **Visible evidence base** Abstract, Introduction, Results sections (NMR, MD simulations, Markov state analysis, spectral density analysis), Discussion, figure legends referenced in text (Figs. 1-4), supplementary figure/table references (figs. S1-S21, tables S1-S3), data availability statement
+- **Missing materials affecting confidence** Full figure panels and their data, supplementary materials (figures S1-S21, tables S1-S3, movies S1-S3), detailed methods section, exact NMR experimental parameters, MD simulation setup details, statistical analysis details, Markov model validation details
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and technically ambitious study of the multi-timescale dynamics of an intrinsically disordered protein. The combination of high-power NMR relaxation dispersion at 1.2 GHz with millisecond-scale MD simulations is novel and potentially impactful. The central claim of a hierarchical energy landscape with three distinct tiers of dynamics is well-motivated and supported by the presented evidence, though several technical details and validations are not fully visible in the supplied text. The work addresses a significant gap in IDP research, namely dynamics on timescales between 100 ns and 10 μs. The manuscript is generally well-written and accessible, though some sections require deeper methodological transparency.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein dynamics, NMR spectroscopy, and molecular dynamics simulations would find this work of direct interest. The methodological combination of high-power E-CPMG at 1.2 GHz with long MD simulations provides a template for studying IDP dynamics that others may adopt. The findings on hierarchical dynamics in IDPs have implications for understanding binding mechanisms, conformational selection, and allostery in disordered systems, which extends to a broader biophysics and structural biology audience. The potential relevance to drug targeting of IDPs may also attract pharmaceutical researchers.
+- **Major strengths** 1) The study addresses a critical gap in IDP dynamics, specifically the 100 ns to 10 μs timescale, which has been largely inaccessible. 2) The combination of high-power NMR RD at 1.2 GHz with millisecond-scale MD simulations is technically innovative and mutually validating. 3) The identification of three distinct tiers of dynamics with different structural origins provides a clear conceptual framework. 4) The use of unbiased MD simulations validated against NMR data strengthens the structural interpretation. 5) The Markov state analysis provides quantitative kinetic information on helix formation dynamics. 6) The comparison with an unrelated IDP (Measles Virus NTAIL) suggests generalizability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the supra-τc dynamics observed at 263 K (around 4 μs) can be extrapolated to 66-100 ns at room temperature (298 K).
+  - **Evidence pointer** Figure 1B, Figure 1C-E, table S1, location not provided
+  - **Concern** The extrapolation of dynamics from 263 K to 298 K relies on assumptions about the temperature dependence of the underlying energy barriers and solvent viscosity. The text does not provide details on the extrapolation method, the assumed activation energy, or whether the same dynamic process is being observed at both temperatures. If the energy landscape itself is temperature-dependent, as is often the case for IDPs, this extrapolation could be invalid.
+  - **Why it matters** The assignment of tier 1 dynamics to the 66-100 ns range at physiological temperature is central to the paper's claim of a distinct timescale hierarchy. If this extrapolation is incorrect, the separation between tier 1 and tier 2 dynamics may be less clear, and the comparison with PET-FCS data could be misleading.
+  - **Resolution test** Provide the full extrapolation procedure, including the Arrhenius or similar model used, the activation energy assumed or measured, and a sensitivity analysis showing how the extrapolated timescales vary with these assumptions. Ideally, direct measurements at intermediate temperatures or at 298 K with higher sensitivity would validate the extrapolation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the MD simulations are validated against NMR data and that the calculated RD profiles agree well with measured ones, with deviations of approximately 15%.
+  - **Evidence pointer** Figure 2B, Figure 2E-H, figs. S4-S5, location not provided
+  - **Concern** The text states that "high-power artefacts cause an unphysical increase of the measured RD profiles at higher frequencies" and that the comparison is made using Bayesian fits of a stretched CPMG model to the calculated RD profiles. The 15% deviation figure is mentioned but the metric used to compute this deviation is not defined. It is unclear whether this deviation is within experimental uncertainty, whether it is uniform across residues and frequencies, and whether the comparison is biased by the choice of the stretched CPMG model.
+  - **Why it matters** The validation of MD simulations against NMR data is the cornerstone of the structural interpretation. If the agreement is not quantitatively robust, the subsequent identification of tier 1 and tier 0 structural origins is weakened.
+  - **Resolution test** Provide a clear definition of the deviation metric, show per-residue and per-frequency deviations, and compare the stretched CPMG fit quality against alternative models. Ideally, show that the calculated RD profiles fall within experimental error bars for the majority of residues and frequencies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that tier 0 dynamics (215 μs in P27A) arise from transient formation of tertiary structure elements resembling folding intermediates of natively folded proteins.
+  - **Evidence pointer** Figure 3E, Figure 4, location not provided
+  - **Concern** The identification of 18 long-lived events in WT and 75 in P27A simulations is presented, but the criteria for defining these events are not described in the supplied text. The claim that these represent "tertiary structure elements" is based on Cα-Cα distance fluctuation analysis, but the structural characterization of these events is not shown. The connection between these MD-observed events and the 215 μs NMR timescale is not explicitly established.
+  - **Why it matters** Tier 0 is the slowest and most novel timescale reported. If the structural assignment is not robust, the claim of a three-tier hierarchy resembling folded protein dynamics is weakened.
+  - **Resolution test** Provide the algorithm and thresholds used to identify long-lived events, show representative structures and their populations, and demonstrate that the lifetimes of these events are consistent with the 215 μs timescale. Ideally, show that the frequency of these events in MD matches the population fractions implied by the NMR data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that MD trajectories are available from H.G. upon reasonable request but have not been deposited due to large data size.
+  - **Evidence pointer** Data and materials availability section
+  - **Concern** While the code and NMR data are deposited, the MD trajectories, which are central to the structural interpretation, are only available upon request. This limits reproducibility and independent verification of the key claims.
+  - **Why it matters** The field of MD simulation is moving toward mandatory deposition of trajectories or at least key analysis scripts and reduced representations. The current policy may hinder independent validation.
+  - **Resolution test** Deposit at least the Markov state models, the identified long-lived events, and the analysis scripts, or provide a reduced representation of the trajectories that allows verification of the key claims.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1B
+  - **Evidence pointer** Figure 1B, location not provided
+  - **Issue** The schematic in Figure 1B is described as providing an overview of timescales and dynamics, but the text does not fully explain all elements of the figure, particularly the meaning of the blue curve and the purple bars.
+  - **Required correction** Expand the figure legend or text to clearly explain all components of Figure 1B, including the color coding and the meaning of the different curves and bars.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Supplementary Materials, location not provided
+  - **Issue** The main text refers to the Supplementary Materials for methods and additional results, but the supplied text does not include the full methods section. Key parameters such as NMR pulse sequences, MD force field, water model, simulation length per replica, and analysis software versions are not visible.
+  - **Required correction** Ensure the full methods are available in the Supplementary Materials and that key parameters are summarized in the main text or a methods table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of tier 0
+  - **Evidence pointer** Discussion section, location not provided
+  - **Concern** The authors speculate that tier 0 structures may be relevant for binding and drug targeting, but this speculation is not supported by any direct evidence in the supplied text.
+  - **Required correction** Clearly label this as speculation and consider softening the language or adding a brief discussion of how such relevance could be tested.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Timescale ranges
+  - **Evidence pointer** Abstract, Figure 1B, Discussion, location not provided
+  - **Issue** The abstract states dynamics cover "over seven orders of magnitude," but the text also mentions a 215 μs process (tier 0) and sub-ns processes. The exact range from fastest to slowest is not explicitly stated.
+  - **Required correction** State the explicit range of timescales covered (e.g., from X ps to Y μs) in the abstract or results to support the "seven orders of magnitude" claim.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Markov model
+  - **Evidence pointer** Figure 3, SM (R), location not provided
+  - **Issue** The Markov model is described as having seven states, but the statistical validation of the model (e.g., Chapman-Kolmogorov test, implied timescales plot) is not described in the supplied text.
+  - **Required correction** Include validation of the Markov model in the Supplementary Materials and reference it in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (temperature extrapolation), R1-M2 (MD-NMR validation metric), R1-M3 (tier 0 structural assignment)
+- **Assessment against Nature-style criteria** Originality: High. The combination of high-power E-CPMG at 1.2 GHz with millisecond-scale MD simulations to probe IDP dynamics in the 100 ns to 10 μs range is novel. The identification of a three-tier hierarchy in an IDP is a new conceptual contribution. Scientific importance: High. The findings challenge the prevailing view of IDP energy landscapes as shallow and unstructured, with implications for understanding IDP function, binding, and potential therapeutic targeting. Interdisciplinary readership: Moderate to high. The work bridges NMR spectroscopy, MD simulation, and protein biophysics, and the findings are relevant to structural biology, biophysics, and molecular medicine. Technical soundness: Currently not fully assessable from the supplied text. The key claims depend on the temperature extrapolation, the MD-NMR validation, and the structural assignment of tier 0, all of which require additional detail. Readability for nonspecialists: Good. The manuscript is generally well-structured and the concepts are explained clearly, though some sections assume familiarity with NMR and MD techniques. The one-sentence summary is accessible.
+
+## Risk / unsupported claims
+- The extrapolation of supra-τc dynamics from 263 K to 298 K (66-100 ns) is not fully supported without details of the extrapolation method and assumptions.
+- The claim that tier 0 structures resemble "folding intermediates of natively folded proteins" is speculative and not directly supported by structural comparison data in the supplied text.
+- The statement that "these rich structural dynamics of p53-TAD, and likely those of other IDPs, parallel the timescale hierarchy of the conformational dynamics of folded proteins" is a generalization from a single IDP and requires more evidence for broader applicability.
+- The claim that tier 0 structures may be "potential drug targets" is speculative and not supported by any functional or pharmacological data.
+- The agreement between MD-calculated and measured RD profiles (approximately 15% deviation) is not quantitatively defined and cannot be fully assessed.
+- The identification of 18 long-lived events in WT and 75 in P27A simulations is presented without criteria for event definition, making the claim not fully assessable.

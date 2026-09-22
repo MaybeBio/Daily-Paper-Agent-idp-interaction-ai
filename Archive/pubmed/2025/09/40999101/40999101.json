@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "40999101",
+    "doi": "10.1007/s11274-025-04557-7",
+    "title": "Field-oriented assessment of bovine tuberculosis in Tunisian cattle: IDR, PCR(Mpb70) and serological test prediction based on AI approaches."
+  },
+  "content": {
+    "abstract": "Bovine tuberculosis (bTB), caused by Mycobacterium bovis (M. bovis), remains a major zoonotic and economically burdensome disease worldwide. In Tunisia, where bTB has remained present for many years, Efforts to eliminate the disease have been slowed down by limited diagnostic tools and a lack of resources. The tuberculin Intra Dermal Reaction test (IDR), also known as Tuberculin Skin Test (TST), is still the main tool for surveillance, but its low sensitivity and specificity show the need for better diagnostic methods. This study evaluated the diagnostic performance of IDR, PCR(Mpb70) and three serological rapid tests: Quickvet Ab((R)) (Ac1, detecting antibodies against a recombinant M.bovis antigen), Vetdiagnostix Ab((R)) (Ac2, detecting antibodies against a recombinant MPB70/MPB83 fusion protein), and Vetdiagnostix Ag((R)) (Monoclonal antibodies against Bovine IFN-gamma detecting a native M. bovis antigen complex) in Tunisian cattle (n = 32). Based on AI, Bayesian Latent Class Model (BLCM) analysis, PCR(Mpb70) was identified as the most reliable reference standard due to its high sensitivity (Se) and perfect specificity (Sp) when assessed alongside other tests. Using PCR(Mpb70) as a proxy gold standard, supervised machine learning via the Random Forest algorithm was employed to assess the predictive performance of the individual and combined diagnostic tests. As a main result, a high bTB prevalence (46.37%) was confirmed in the tested animals, although prevalence estimates varied considerably depending on the diagnostic test used (average +/- 9.76). The combinations IDR2/Ac2, IDR2/Ag, and IDR2/Ac2/Ag pair a second IntraDermal test (IDR2) with antibody tests for Ac2, Ag, or both, proved to be the most informative and complementary alternatives to PCR. These approaches provide practical and effective diagnostic options for field settings where access to molecular testing is limited or unavailable.",
+    "keywords": [
+      "Mycobacterium Bovis",
+      "Bayesian latent class model",
+      "Bovine tuberculosis diagnostic performance",
+      "Machine learning (Random forest)",
+      "PCRMpb70",
+      "Tuberculin intradermal reaction"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Cattle",
+      "Tunisia/epidemiology",
+      "*Tuberculosis, Bovine/diagnosis/epidemiology/microbiology",
+      "*Mycobacterium bovis/immunology/isolation & purification/genetics",
+      "Sensitivity and Specificity",
+      "*Tuberculin Test/veterinary/methods",
+      "Antigens, Bacterial/immunology",
+      "*Serologic Tests/methods/veterinary",
+      "Bayes Theorem",
+      "Antibodies, Bacterial/blood",
+      "Bacterial Proteins/immunology",
+      "Intradermal Tests/veterinary/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jaajaa, Said",
+        "Bouglita, Wafa",
+        "Khamessi, Oussema",
+        "Mahjoub, Ghada",
+        "Dhaouadi, Sana",
+        "Rjeb, Ahmed",
+        "Ghedira, Kais",
+        "Smadhi, Hanen",
+        "Elandoulsi, Ramzi Boubaker"
+      ],
+      "short_names": [
+        "Jaajaa S",
+        "Bouglita W",
+        "Khamessi O",
+        "Mahjoub G",
+        "Dhaouadi S",
+        "Rjeb A",
+        "Ghedira K",
+        "Smadhi H",
+        "Elandoulsi RB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "ISBST, BVBGR-LR11ES31, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia.",
+        "Institut Superieur de Biotechnologie de Sidi Thabet, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia.",
+        "ISBST, BVBGR-LR11ES31, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia.",
+        "Institut Superieur de Biotechnologie de Sidi Thabet, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia.",
+        "Institut Superieur de Biotechnologie de Sidi Thabet, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia.",
+        "Laboratory of Bioinformatics, Biomathematics and Biostatistics (LR16IPT09), Pasteur Institute of Tunis, University of Tunis El Manar , Tunis, Tunisia.",
+        "Institut Superieur de Biotechnologie de Sidi Thabet, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia.",
+        "Laboratory of Bioinformatics, Biomathematics and Biostatistics (LR16IPT09), Pasteur Institute of Tunis, University of Tunis El Manar , Tunis, Tunisia.",
+        "ISBST, BVBGR-LR11ES31, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia.",
+        "Institut Superieur de Biotechnologie de Sidi Thabet, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia.",
+        "National School of Veterinary Medicine (ENMV), University of Manouba, Sidi Thabet, Tunisia.",
+        "Laboratory of Bioinformatics, Biomathematics and Biostatistics (LR16IPT09), Pasteur Institute of Tunis, University of Tunis El Manar , Tunis, Tunisia.",
+        "Ibn Nafis Pneumology Department, Abderrahman Mami Hospital, Ariana, Tunisia.",
+        "ISBST, BVBGR-LR11ES31, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia. ramzi.b.landolsi@gmail.com.",
+        "Institut Superieur de Biotechnologie de Sidi Thabet, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia. ramzi.b.landolsi@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jaajaa, Said",
+        "short_name": "Jaajaa S",
+        "identifiers": [],
+        "affiliations": [
+          "ISBST, BVBGR-LR11ES31, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia.",
+          "Institut Supérieur de Biotechnologie de Sidi Thabet, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia."
+        ]
+      },
+      {
+        "full_name": "Bouglita, Wafa",
+        "short_name": "Bouglita W",
+        "identifiers": [],
+        "affiliations": [
+          "ISBST, BVBGR-LR11ES31, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia.",
+          "Institut Supérieur de Biotechnologie de Sidi Thabet, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia."
+        ]
+      },
+      {
+        "full_name": "Khamessi, Oussema",
+        "short_name": "Khamessi O",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Supérieur de Biotechnologie de Sidi Thabet, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia.",
+          "Laboratory of Bioinformatics, Biomathematics and Biostatistics (LR16IPT09), Pasteur Institute of Tunis, University of Tunis El Manar , Tunis, Tunisia."
+        ]
+      },
+      {
+        "full_name": "Mahjoub, Ghada",
+        "short_name": "Mahjoub G",
+        "identifiers": [],
+        "affiliations": [
+          "Institut Supérieur de Biotechnologie de Sidi Thabet, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia.",
+          "Laboratory of Bioinformatics, Biomathematics and Biostatistics (LR16IPT09), Pasteur Institute of Tunis, University of Tunis El Manar , Tunis, Tunisia."
+        ]
+      },
+      {
+        "full_name": "Dhaouadi, Sana",
+        "short_name": "Dhaouadi S",
+        "identifiers": [],
+        "affiliations": [
+          "ISBST, BVBGR-LR11ES31, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia.",
+          "Institut Supérieur de Biotechnologie de Sidi Thabet, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia."
+        ]
+      },
+      {
+        "full_name": "Rjeb, Ahmed",
+        "short_name": "Rjeb A",
+        "identifiers": [],
+        "affiliations": [
+          "National School of Veterinary Medicine (ENMV), University of Manouba, Sidi Thabet, Tunisia."
+        ]
+      },
+      {
+        "full_name": "Ghedira, Kais",
+        "short_name": "Ghedira K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Bioinformatics, Biomathematics and Biostatistics (LR16IPT09), Pasteur Institute of Tunis, University of Tunis El Manar , Tunis, Tunisia."
+        ]
+      },
+      {
+        "full_name": "Smadhi, Hanen",
+        "short_name": "Smadhi H",
+        "identifiers": [],
+        "affiliations": [
+          "Ibn Nafis Pneumology Department, Abderrahman Mami Hospital, Ariana, Tunisia."
+        ]
+      },
+      {
+        "full_name": "Elandoulsi, Ramzi Boubaker",
+        "short_name": "Elandoulsi RB",
+        "identifiers": [],
+        "affiliations": [
+          "ISBST, BVBGR-LR11ES31, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia. ramzi.b.landolsi@gmail.com.",
+          "Institut Supérieur de Biotechnologie de Sidi Thabet, Biotechpole Sidi Thabet, University of Manouba, Ariana, 2020, Tunisia. ramzi.b.landolsi@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "World journal of microbiology & biotechnology"
+    ],
+    "journal_abbrev": [
+      "World J Microbiol Biotechnol"
+    ],
+    "pub_date": "2025 Sep 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/26 00:30",
+    "fetched_at": "2026-09-17 20:24:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40573909",
+      "40459381",
+      "39349769",
+      "39132442",
+      "38835856",
+      "38645645",
+      "38535839",
+      "38278853",
+      "35706064",
+      "33585615",
+      "33500436",
+      "32767820",
+      "30447501",
+      "28347519",
+      "27270464",
+      "24158359",
+      "20561288",
+      "16513150"
+    ],
+    "similar": [
+      "40999101",
+      "40473835",
+      "30248441",
+      "26320985",
+      "24679958",
+      "30827373",
+      "10889408",
+      "28487230",
+      "25855362",
+      "22391021",
+      "25855555",
+      "31378269",
+      "1615636",
+      "30103911",
+      "27687920",
+      "24768355",
+      "35149055",
+      "23712123",
+      "31640672",
+      "39915566",
+      "22691409",
+      "21439740",
+      "31170450",
+      "28521256",
+      "16734114",
+      "31096976",
+      "11856587",
+      "30305467",
+      "26189005",
+      "11285116",
+      "36739737",
+      "23809774",
+      "16513150",
+      "36116328",
+      "38266351",
+      "41270341",
+      "37812634",
+      "8073620",
+      "10883854",
+      "35570041",
+      "24378586",
+      "29695323",
+      "37126914",
+      "28347519",
+      "21470800",
+      "26375813",
+      "12002425",
+      "35439655",
+      "33789652",
+      "28460744",
+      "26267100",
+      "34954421",
+      "20219253",
+      "17348912",
+      "38838485",
+      "21918115",
+      "28669385",
+      "21855153",
+      "38687765",
+      "32892112",
+      "11288518",
+      "23365203",
+      "25957973",
+      "37801841",
+      "31972498",
+      "24794166",
+      "38395846",
+      "31780694",
+      "11769356",
+      "31899584",
+      "27167122",
+      "21748525",
+      "2191012",
+      "11329460",
+      "11163702",
+      "10473516",
+      "37216720",
+      "21061689",
+      "31718809",
+      "19649010",
+      "32554290",
+      "40139377",
+      "36726018",
+      "23425597",
+      "10924395",
+      "40333160",
+      "29914675",
+      "16145098",
+      "20022773",
+      "35079921",
+      "15702695",
+      "20926697",
+      "25408173",
+      "19605596",
+      "31364540",
+      "32113584",
+      "19757135",
+      "24132605",
+      "28592322",
+      "34479106"
+    ],
+    "review": [
+      "40999101",
+      "24768355",
+      "16513150",
+      "8073620",
+      "28347519",
+      "20219253",
+      "11288518"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s11274-025-04557-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

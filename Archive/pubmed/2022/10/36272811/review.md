@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use coarse-grained implicit solvent molecular dynamics simulations to study the conformation and phase behavior of a low-complexity domain of hnRNPA1. They report that increasing aromatic residue content compacts single chains and raises the critical temperature of phase separation. Local persistence length varies strongly along the sequence. Single-chain simulations yield more collapsed conformations than condensed-state simulations even near the theta-temperature. Intermolecular contact analysis supports a dominant role for aromatic residues in condensation. Density inhomogeneities near criticality are attributed to electrostatic interactions. Interfacial tensions are reported to be low relative to immiscible simple liquids.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or methodological parameters are provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology and force field parameters, system sizes and simulation lengths, all figures and tables, quantitative results (e.g., critical temperatures, persistence length values, interfacial tension values), and any statistical or convergence analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study of sequence-dependent phase behavior in an IDP system. The central hypothesis that aromatic residues drive condensation is plausible and consistent with prior literature. However, the abstract alone provides insufficient quantitative detail to evaluate the robustness of the claims. Several assertions, particularly regarding density inhomogeneities and interfacial tensions, lack supporting evidence in the visible material. The work may be of interest to the IDP and phase separation community, but the case is not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, liquid-liquid phase separation, membraneless organelle biophysics, and coarse-grained simulation methodology. The findings on aromatic residue effects and condensate properties could inform both experimental and computational studies of IDP phase behavior and disease-associated mutations.
+- **Major strengths** The study addresses a timely and important question about sequence determinants of IDP phase behavior. The combination of single-chain and condensed-state simulations is a useful comparative approach. The focus on aromatic residues is well motivated by prior experimental and computational evidence. The observation of electrostatic-driven density inhomogeneities near criticality is potentially novel and could stimulate further work.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "density inhomogeneities within the condensates near criticality... are driven by electrostatic interactions."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative or qualitative evidence for this claim. No data on density profiles, correlation functions, or electrostatic interaction energies are presented. The causal attribution to electrostatics is asserted without visible support.
+  - **Why it matters** This is a specific mechanistic claim that goes beyond the general finding of aromatic-driven condensation. If unsupported, it could mislead readers about the physical drivers of inhomogeneity in IDP condensates. The claim also has implications for how condensate internal structure is understood.
+  - **Resolution test** The full manuscript must show quantitative density or structural data (e.g., radial distribution functions, local density maps) and a clear demonstration that electrostatic interactions are the causal factor, such as through control simulations with altered electrostatics or energy decomposition analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "the relatively small fraction of hydrophobic residues in the IDPs results in interfacial tensions, which are significantly lower compared to typical combinations of immiscible simple liquids."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No interfacial tension values are reported, and no comparison set for "typical combinations of immiscible simple liquids" is defined. The causal link between hydrophobic fraction and interfacial tension is asserted without visible quantitative support.
+  - **Why it matters** Interfacial tension is a key physical property governing condensate dynamics and morphology. A claim of unusually low values, with a specific mechanistic attribution, requires direct measurement or calculation and a defined comparison baseline.
+  - **Resolution test** The full manuscript must report computed interfacial tension values, describe the method of calculation, and provide a quantitative comparison to reference values for simple liquid systems.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "coarse-grained implicit solvent molecular dynamics simulations" were used, and that "local persistence length is determined in single-chain simulations."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given about the coarse-grained model, force field parameters, mapping of the hnRNPA1 sequence to the model, or the method used to compute persistence length. Without this information, the reliability and transferability of the results cannot be assessed.
+  - **Why it matters** Coarse-grained simulation results are highly sensitive to model parameterization. The persistence length calculation method also affects the reported sequence-specific variations. Lack of methodological detail prevents evaluation of technical soundness.
+  - **Resolution test** The full manuscript must provide a complete description of the model, parameterization, and validation, as well as a clear definition of the persistence length calculation and its convergence.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Claim about "many more collapsed polymer conformations in the dilute systems, even at temperatures near the estimated theta-temperature"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The phrase "many more" is vague and lacks a quantitative comparator. It is unclear whether the comparison is to condensed-state conformations, to expectations from ideal chain theory, or to some other reference.
+  - **Required correction** Provide a quantitative measure of the population of collapsed conformations and specify the reference state or expectation used for comparison.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "theta-temperature"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The theta-temperature is a well-defined concept for homopolymers, but its applicability to a sequence-specific IDP with heterogeneous interactions is not self-evident. The abstract does not clarify how this quantity was estimated for the studied system.
+  - **Required Correction** Define how the theta-temperature was estimated for the heterogeneous sequence and discuss its physical meaning in this context.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Statement that "important properties of condensates are captured in coarse-grained simulations"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** This is a broad generalization that extends beyond the specific system studied. The abstract does not specify which properties are captured or how this conclusion is validated against experimental or atomistic data.
+  - **Required Correction** Specify which condensate properties are captured and provide a comparison or validation against experimental or higher-resolution simulation data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the corresponding claims are central to the abstract's novelty and are not supported by visible evidence. R1-M3 is not blocking but is necessary for technical soundness assessment.
+
+## Risk / unsupported claims
+- The claim that density inhomogeneities near criticality are driven by electrostatic interactions is unsupported in the visible material.
+- The claim that low hydrophobic fraction results in significantly lower interfacial tensions is unsupported and lacks a defined comparison baseline.
+- The general statement that "important properties of condensates are captured in coarse-grained simulations" is not substantiated with specific examples or validation.
+- The quantitative relationship between aromatic residue count and critical temperature is asserted but no values or error estimates are provided.
+- The claim of "strong sequence-specific variations" in persistence length is not supported by quantitative data in the abstract.

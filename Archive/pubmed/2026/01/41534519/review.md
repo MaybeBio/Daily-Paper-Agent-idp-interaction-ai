@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors present Disobind, a sequence-based deep-learning method that predicts inter-protein contact maps and interface residues for intrinsically disordered regions (IDRs) and their binding partners. The method uses ProtT5 protein language model embeddings, does not require structures or multiple sequence alignments, and is claimed to outperform state-of-the-art IDR interface predictors as well as AlphaFold multimer and AlphaFold3 at multiple confidence cutoffs. Combining Disobind with AlphaFold multimer is reported to further improve performance.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, dataset descriptions, or methodological specifications are available
+- **Missing materials affecting confidence** Full manuscript, methods section, benchmark datasets, performance metrics, statistical analyses, comparison protocols, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to the prediction of IDR-mediated interactions, addressing a genuine gap in the field. The methodological concept of partner-dependent, sequence-only prediction is appealing and could offer practical advantages over structure-dependent approaches. However, the abstract provides no quantitative evidence to support the central performance claims. Without access to benchmark details, dataset compositions, evaluation metrics, or statistical significance testing, the core assertions of superiority over AlphaFold multimer and AlphaFold3 cannot be assessed. The claim of outperformance is particularly consequential and requires rigorous validation that is not visible in the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and their interaction networks, computational biologists developing or applying protein interaction prediction tools, and experimentalists seeking to prioritize IDR binding sites for mutagenesis or structural characterization. The method's sequence-only, partner-dependent design could appeal to those working on systems where structures or deep multiple sequence alignments are unavailable.
+- **Major strengths** The problem addressed is relevant and timely, as IDR-mediated interactions remain poorly characterized by both experimental and computational approaches. The design principle of incorporating partner context is conceptually sound and distinguishes the method from generic interface predictors. The sequence-only requirement, avoiding dependence on structures and multiple sequence alignments, broadens potential applicability to understudied organisms and orphan sequences.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Disobind outperforms state-of-the-art interface predictors for IDRs. It also outperforms AlphaFold multimer and AlphaFold3 at multiple confidence cutoffs."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that Disobind outperforms state-of-the-art IDR interface predictors and AlphaFold multimer and AlphaFold3, but no quantitative results, benchmark datasets, evaluation metrics, or statistical analyses are presented. The magnitude of improvement, the specific confidence cutoffs tested, and the diversity of test cases are entirely unspecified.
+  - **Why it matters** Performance claims of this nature are the central contribution of the work. Without visible metrics, the reader cannot judge whether the improvements are meaningful, consistent across datasets, or statistically robust. The comparison against AlphaFold multimer and AlphaFold3 is particularly sensitive to benchmark composition and evaluation protocol, and unverifiable claims of this type undermine confidence in the method's practical utility.
+  - **Resolution test** Provide benchmark datasets with clear descriptions of IDR content, partner types, and difficulty distribution. Report precision, recall, F1, or area under the precision-recall curve for contact map and interface residue prediction, with confidence intervals and statistical significance tests against each comparator. Specify the confidence cutoffs used and justify their selection.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "It uses sequence embeddings from the ProtT5 protein language model" and "does not depend on structures and multiple sequence alignments"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract describes the input representation and the absence of structure and MSA dependence, but provides no information on the model architecture, training data, loss functions, or how partner context is incorporated. The nature of the "partner-dependent" mechanism is not explained, and it is unclear whether the method requires paired sequences or handles variable-length partners.
+  - **Why it matters** Reproducibility is a core expectation for computational methods. The partner-dependent design is the key novelty, and without architectural or algorithmic details, the reader cannot evaluate whether the approach is genuinely novel or whether the reported performance stems from the claimed design elements. The absence of training data description also raises questions about potential biases and generalizability.
+  - **Resolution test** Describe the model architecture, including how ProtT5 embeddings are processed and how partner information is integrated. Specify training and validation datasets, including sequence identity thresholds for splitting, and report performance on held-out families or clusters to demonstrate generalization.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of validation
+  - **Claim pointer** "Its predictions can be used to localize IDRs in large assemblies and characterize IDR-mediated interactions."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims utility for localizing IDRs in large assemblies and characterizing IDR-mediated interactions, but no case studies, application examples, or downstream validation are presented. It is unclear whether these applications were tested or are speculative extrapolations.
+  - **Why it matters** The practical value of a predictor depends on its behavior in realistic use cases beyond benchmark performance. If the application claims are not demonstrated, they should be framed as potential uses rather than established capabilities. Overstating applicability can mislead potential users.
+  - **Resolution test** Provide at least one case study demonstrating the use of Disobind predictions in a large assembly or interaction characterization context, with experimental or structural validation where possible. Alternatively, reframe these statements as potential applications in the abstract.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "less accurate at their benchmarked confidence cutoffs" is vague regarding which confidence cutoffs are meant and how "less accurate" was quantified.
+  - **Required correction** Specify the confidence thresholds and the accuracy metric used for the AlphaFold comparison, or remove the qualifier if it is not essential to the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "fuzzy binding" and "fully disordered binding"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** These terms are used without definition, which may confuse readers unfamiliar with the IDP binding mode literature.
+  - **Required correction** Provide brief definitions or a citation for these binding modes in the introduction of the full manuscript, and consider whether the abstract needs this level of detail.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison protocol
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions combining Disobind and AlphaFold multimer predictions but does not describe how the combination was performed or whether the improvement was statistically significant.
+  - **Required correction** Describe the combination strategy in the methods and report the significance of the improvement in the results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The performance claims require quantitative evidence and the methodological description must be sufficient for reproducibility. Without these, the central case for the method's utility is not established from the provided material.
+- **Assessment against Nature-style criteria** Originality: The partner-dependent, sequence-only approach for IDR contact prediction appears conceptually distinct from existing tools, though the abstract does not allow full assessment of novelty relative to recent deep-learning methods. Scientific importance: IDR-mediated interactions are understudied and experimentally challenging, so a reliable predictor would be valuable. Interdisciplinary readership: The topic bridges computational biology, structural biology, and biochemistry, and the abstract is written accessibly for these audiences. Technical soundness: Cannot be assessed from the abstract alone; the absence of quantitative results and methodological detail prevents evaluation. Readability for nonspecialists: The abstract is generally clear, though some IDP-specific terminology could benefit from brief explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual approach is promising and the problem is important, but the abstract lacks the quantitative and methodological substance needed to support the central performance claims. A revised manuscript with full benchmark details, statistical analyses, and methodological transparency could change this assessment.
+
+## Risk / unsupported claims
+- The claim that Disobind outperforms state-of-the-art IDR interface predictors is unsupported by any visible quantitative data.
+- The claim that Disobind outperforms AlphaFold multimer and AlphaFold3 at multiple confidence cutoffs is unsupported and cannot be evaluated without benchmark details.
+- The claim that combining Disobind and AlphaFold multimer improves performance is unsupported.
+- The claim that predictions can be used to localize IDRs in large assemblies and characterize IDR-mediated interactions is not demonstrated and should be framed as potential application unless evidence is provided.
+- The generalizability of the method beyond the training distribution is not assessable from the abstract.

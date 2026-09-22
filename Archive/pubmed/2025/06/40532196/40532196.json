@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "40532196",
+    "doi": "10.1021/acs.jcim.5c00370",
+    "title": "Ensemble Docking for Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are implicated in many human diseases and are increasingly being pursued as drug targets. Conventional structure-based drug design methods that rely on well-defined binding sites are, however, largely unsuitable for IDPs. Here, we present computationally efficient ensemble docking approaches to predict the relative affinities of small molecules to IDPs and characterize their dynamic, heterogeneous binding mechanisms at atomic resolution. We show that these ensemble docking protocols accurately predict the relative binding affinities of three small molecule alpha-synuclein ligands measured by NMR spectroscopy and generate conformational ensembles of ligand binding modes in remarkable agreement with experimentally validated long-time scale molecular dynamics simulations of ligand binding. Our results demonstrate the potential of ensemble docking approaches for predicting small molecule binding to IDPs and suggest that these methods may be valuable tools for IDP drug discovery campaigns.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Molecular Docking Simulation",
+      "Ligands",
+      "Molecular Dynamics Simulation",
+      "alpha-Synuclein/chemistry/metabolism",
+      "Protein Binding",
+      "Humans",
+      "Protein Conformation",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dhar, Anjali",
+        "Sisk, Thomas R",
+        "Robustelli, Paul"
+      ],
+      "short_names": [
+        "Dhar A",
+        "Sisk TR",
+        "Robustelli P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9282-8993"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Dartmouth College, Hanover, New Hampshire 03755, United States.",
+        "Department of Chemistry, Dartmouth College, Hanover, New Hampshire 03755, United States.",
+        "Department of Chemistry, Dartmouth College, Hanover, New Hampshire 03755, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dhar, Anjali",
+        "short_name": "Dhar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Dartmouth College, Hanover, New Hampshire 03755, United States."
+        ]
+      },
+      {
+        "full_name": "Sisk, Thomas R",
+        "short_name": "Sisk TR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Dartmouth College, Hanover, New Hampshire 03755, United States."
+        ]
+      },
+      {
+        "full_name": "Robustelli, Paul",
+        "short_name": "Robustelli P",
+        "identifiers": [
+          "0000-0002-9282-8993"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Dartmouth College, Hanover, New Hampshire 03755, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Jul 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/18 18:26",
+    "fetched_at": "2026-09-21 19:58:40"
+  },
+  "links": {
+    "cites": [
+      "41997364",
+      "41981770",
+      "41977480",
+      "41689628",
+      "41683750",
+      "41644540",
+      "41441193",
+      "41332594",
+      "41055109"
+    ],
+    "refs": [
+      "40446154",
+      "39466712",
+      "38781245",
+      "38424045",
+      "38050862",
+      "38049566",
+      "37957331",
+      "37949765",
+      "37338049",
+      "37294104",
+      "36941232",
+      "36859484",
+      "36577061",
+      "36302916",
+      "36229685",
+      "35974095",
+      "35655546",
+      "35649268",
+      "35500536",
+      "35440993",
+      "35210421",
+      "35130691",
+      "34652141",
+      "34561691",
+      "34197833",
+      "34164069",
+      "34108002",
+      "33812316",
+      "33579943",
+      "33148639",
+      "32966806",
+      "32100577",
+      "31914313",
+      "31846303",
+      "31174387",
+      "29735687",
+      "29606412",
+      "29118091",
+      "28743590",
+      "27543390",
+      "27356095",
+      "27101974",
+      "26931396",
+      "26629955",
+      "26584388",
+      "26507530",
+      "26082804",
+      "25789869",
+      "25531225",
+      "25400522",
+      "24950326",
+      "24739139",
+      "24098099",
+      "23106332",
+      "22815918",
+      "22613562",
+      "21534921",
+      "21514144",
+      "20541699",
+      "19499576",
+      "19432426",
+      "19399780",
+      "16420040",
+      "15116359",
+      "14522049"
+    ],
+    "similar": [
+      "40532196",
+      "39896485",
+      "35130691",
+      "30979035",
+      "29364151",
+      "38987470",
+      "34799573",
+      "31809054",
+      "29733855",
+      "37338049",
+      "34504009",
+      "25331250",
+      "24098099",
+      "35543707",
+      "32403216",
+      "30840442",
+      "27844185",
+      "33355572",
+      "32623047",
+      "39163306",
+      "30933517",
+      "30184304",
+      "39693390",
+      "39466712",
+      "26387101",
+      "33581430",
+      "35609776",
+      "31441158",
+      "25919886",
+      "24361273",
+      "34845619",
+      "33623120",
+      "28493424",
+      "40231860",
+      "26923286",
+      "34656328",
+      "31903719",
+      "28612216",
+      "36217309",
+      "22988855",
+      "29621630",
+      "29990433",
+      "33310020",
+      "40095314",
+      "32621228",
+      "38732174",
+      "26387110",
+      "33054197",
+      "25611056",
+      "31548393",
+      "38996889",
+      "23794453",
+      "40446154",
+      "32696379",
+      "34439840",
+      "34680048",
+      "30471705",
+      "32859072",
+      "31375817",
+      "26195786",
+      "26387102",
+      "30316104",
+      "33724276",
+      "39056166",
+      "30695645",
+      "39740355",
+      "24551051",
+      "40068541",
+      "22947936",
+      "25345588",
+      "32323533",
+      "41073429",
+      "36084124",
+      "37108059",
+      "35129612",
+      "39093570",
+      "29276882",
+      "30471688",
+      "30471704",
+      "36232847",
+      "41082321",
+      "36934808",
+      "40128232",
+      "27159632",
+      "24008243",
+      "23567152",
+      "32654182",
+      "40079830",
+      "20580965",
+      "32840111",
+      "28554553",
+      "35725761",
+      "32020911",
+      "26574339",
+      "36055623",
+      "29320696",
+      "41022992",
+      "30875980",
+      "32579908",
+      "30278223"
+    ],
+    "review": [
+      "40532196",
+      "30979035",
+      "29364151",
+      "32403216",
+      "30840442",
+      "33355572",
+      "26387101",
+      "31441158",
+      "28612216",
+      "36217309",
+      "22988855",
+      "26387110",
+      "23794453",
+      "34680048",
+      "30471705",
+      "26387102",
+      "30316104",
+      "39740355",
+      "40068541",
+      "35129612",
+      "39093570",
+      "24008243",
+      "28554553",
+      "32020911",
+      "41022992",
+      "30875980"
+    ],
+    "pmc": [
+      "12264940"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40532196/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c00370",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

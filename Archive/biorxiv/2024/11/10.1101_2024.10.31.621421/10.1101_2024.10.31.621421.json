@@ -1,0 +1,355 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.31.621421",
+  "title": "Hybrid Transformer and Neural Network Configuration for Protein Classification Using Amino Acids",
+  "doi": "10.1101/2024.10.31.621421",
+  "abstract": "This study introduces a hybrid machine learning model for classifying proteins, developed to address the complexities of protein sequence and structural analysis. Utilizing an architecture that combines a lightweight transformer with a concurrent neural network, the hybrid model leverages both sequential and intrinsic physical properties of proteins. Trained on a comprehensive dataset from the Research Collaboratory for Structural Bioinformatics Protein Data Bank, the model demonstrates a classification accuracy of 95%, outperforming existing methods by at least 15%. The high accuracy achieved demonstrates the potential of this approach to innovate protein classification, facilitating advancements in drug discovery and the development of personalized medicine. By enabling precise protein function prediction, the hybrid model allows for specialized strategies in therapeutic targeting and the exploration of protein dynamics in biological systems. Future work will focus on enhancing the model’s generalizability across diverse datasets and exploring the integration of more machine learning techniques to refine predictive capabilities further. The implications of this research offer potential breakthroughs in biomedical research and the broader field of protein engineering.",
+  "authors": [
+    "Nathan Labiosa",
+    "Aryan Kohli",
+    "Christian Chung",
+    "Christopher Korban"
+  ],
+  "published_date": "2024-11-03",
+  "updated_date": "2024-11-04T01:15:17Z",
+  "journal": "bioRxiv",
+  "category": "Bioengineering",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.31.621421",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.31.621421.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioengineering"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioengineering",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            13
+          ]
+        ],
+        "date-time": "2026-04-13T07:15:57Z",
+        "timestamp": 1776064557854,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            3
+          ]
+        ]
+      },
+      "group-title": "Bioengineering",
+      "reference-count": 27,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                3
+              ]
+            ],
+            "date-time": "2024-11-03T00:00:00Z",
+            "timestamp": 1730592000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>This study introduces a hybrid machine learning model for classifying proteins, developed to address the complexities of protein sequence and structural analysis. Utilizing an architecture that combines a lightweight transformer with a concurrent neural network, the hybrid model leverages both sequential and intrinsic physical properties of proteins. Trained on a comprehensive dataset from the Research Collaboratory for Structural Bioinformatics Protein Data Bank, the model demonstrates a classification accuracy of 95%, outperforming existing methods by at least 15%.</jats:p>\n                <jats:p>The high accuracy achieved demonstrates the potential of this approach to innovate protein classification, facilitating advancements in drug discovery and the development of personalized medicine. By enabling precise protein function prediction, the hybrid model allows for specialized strategies in therapeutic targeting and the exploration of protein dynamics in biological systems.</jats:p>\n                <jats:p>Future work will focus on enhancing the model’s generalizability across diverse datasets and exploring the integration of more machine learning techniques to refine predictive capabilities further. The implications of this research offer potential breakthroughs in biomedical research and the broader field of protein engineering.</jats:p>",
+      "DOI": "10.1101/2024.10.31.621421",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            4
+          ]
+        ],
+        "date-time": "2024-11-04T01:15:17Z",
+        "timestamp": 1730682917000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Hybrid Transformer and Neural Network Configuration for Protein Classification Using Amino Acids"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0003-0614-3176",
+          "authenticated-orcid": false,
+          "given": "Nathan",
+          "family": "Labiosa",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Aryan",
+          "family": "Kohli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9281-4439",
+          "authenticated-orcid": false,
+          "given": "Christian",
+          "family": "Chung",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-7999-5567",
+          "authenticated-orcid": false,
+          "given": "Christopher",
+          "family": "Korban",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.1",
+          "unstructured": "W. Chen , X. Liu , S. Zhang , and S. Chen , “Artificial intelligence for drug discovery: Resources, methods, and applications,” Molecular Therapy, 2024, wei Chen and Shilin Chen contributed equally to this work. [Online]. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10009646/"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.2",
+          "unstructured": "U.S. Department of Energy, “Doe explains…machine learning,” https://www.energy.gov/science/doe-explainsmachine-learning, n.d., accessed: 2024-09-03. [Online]. Available: https://www.energy.gov/science/doe-explainsmachine-learning"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Alquran , A. A. Fahoum , A. Zyout , and I. A. Qasmieh , “A comprehensive framework for advanced protein classification and function prediction using synergistic approaches: Integrating bispectral analysis, machine learning, and deep learning,” PLOS ONE, 2024, data curation, Formal analysis, Methodology, Resources, Software, Validation, Visualization, Writing – original draft, Writing– review editing, corresponding author*. [Online]. Available:URLhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC10721063/",
+          "DOI": "10.1371/journal.pone.0295805"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.4",
+          "first-page": "107086",
+          "article-title": "“Biologics, theranostics, and personalized medicine in drug delivery systems",
+          "volume": "195",
+          "year": "2024",
+          "journal-title": "Pharmacological Research"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.5",
+          "unstructured": "Grand View Research , “Research-grade proteins market report, 2030,” https://www.grandviewresearch.com/industry-analysis/research-grade-proteins-market-report, 2024, accessed: 2024-09-03. [On-line]. Available: https://www.grandviewresearch.com/industry-analysis/research-grade-proteins-market-report"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.6",
+          "unstructured": "A. Vaswani , N. Shazeer , N. Parmar , J. Uszkoreit , L. Jones , A. N. Gomez , L. Kaiser , and I. Polosukhin , “Attention is all you need,” 2023. [Online]. Available: https://arxiv.org/abs/1706.03762"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aiopen.2022.10.001"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "W.-C. Chang , H.-F. Yu , K. Zhong , Y. Yang , and I. S. Dhillon , “Taming pretrained transformers for extreme multi-label text classification,” in Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, ser. KDD ‘20. New York, NY, USA: Association for Computing Machinery, 2020, p. 3163–3171. [Online]. Available: 10.1145/3394486.3403368",
+          "DOI": "10.1145/3394486.3403368"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/JBHI.2021.3062322"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Khan , M. Naseer , M. Hayat , S. W. Zamir , F. S. Khan , and M. Shah , “Transformers in vision: A survey,” ACM Comput. Surv., vol. 54, no. 10s, sep 2022. [Online]. Available: 10.1145/3505244",
+          "DOI": "10.1145/3505244"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.11",
+          "first-page": "28 541",
+          "volume-title": "in Advances in Neural Information Processing Systems",
+          "volume": "36",
+          "year": "2023"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.12",
+          "unstructured": "N. Labiosa , D. T. Huynh , D. S.-N. Lim , and Wisconsin-Madison, “Visual information and large language models: A deeper analysis,” 2023. [Online]. Available: https://api.semanticscholar.org/CorpusID:260636471"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.13",
+          "unstructured": "S. Shen , L. H. Li , H. Tan , M. Bansal , A. Rohrbach , K.-W. Chang , Z. Yao , and K. Keutzer , “How much can clip benefit vision-and-language tasks?” 2021. [Online]. Available: https://arxiv.org/abs/2107.06383"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.14",
+          "first-page": "448",
+          "volume-title": "Proceedings",
+          "volume": "10",
+          "year": "2005"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1517/phgs.5.3.331.29830"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.16",
+          "unstructured": "B. Ramsundar , P. Eastman , P. Walters , V. Pande , K. Leswing , and Z. Wu , Deep Learning for the Life Sciences. O’Reilly Media, 2019, https://www.amazon.com/Deep-Learning-Life-Sciences-Microscopy/dp/1492039837."
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac020"
+        },
+        {
+          "issue": "10",
+          "key": "2024110703450466000_2024.10.31.621421v1.18",
+          "first-page": "7112",
+          "article-title": "“Prottrans: Toward understanding the language of life through self-supervised learning",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2021.3095381"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.20",
+          "unstructured": "D. Hjek , “Protein sequence classification,” https://www.kaggle.com/code/davidhjek/protein-sequence-classification/notebook, 022, accessed: 2023-09-28."
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.21",
+          "unstructured": "A. Bhargava , “Predicting protein classification,” https://www.kaggle.com/code/abharg16/predicting-protein-classification/code, 2022, accessed: 2023-09-28."
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.22",
+          "unstructured": "D. Ofer , “Deep protein sequence family classification,” https://www.kaggle.com/code/danofer/deep-protein-sequence-family-classification, 2022, accessed: 2023-09-28."
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.23",
+          "unstructured": "RCSB Protein Data Bank, “Rcsb pdb: Protein data bank,” 2024."
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.24",
+          "unstructured": "imbalanced-learn developers, “Documentation of im-blearn.over sampling.randomoversampler,” 2024."
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp163"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0065-3233(08)60017-0"
+        },
+        {
+          "key": "2024110703450466000_2024.10.31.621421v1.27",
+          "unstructured": "N. Labiosa , “Github repository containing all code.” [Online]. Available: https://github.com/NathanLabiosa/AttentionAminoAcids"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.10.31.621421",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:23:31Z",
+        "timestamp": 1768461811000
+      },
+      "score": 60.063084,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.10.31.621421"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            3
+          ]
+        ]
+      },
+      "references-count": 27,
+      "URL": "https://doi.org/10.1101/2024.10.31.621421",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}
